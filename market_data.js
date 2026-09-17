@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 102.16000366210938,
+      "current": 101.26000213623047,
       "prevClose": 102.43000030517578,
-      "changeAbs": -0.26999664306640625,
-      "changePct": -0.26359137192423043,
-      "pctRank": 92.60143198090692,
+      "changeAbs": -1.1699981689453125,
+      "changePct": -1.1422416923357097,
+      "pctRank": 92.04455051710421,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -9.55289382705976,
-      "ma20": 92.23050155639649,
-      "ma60": 83.22533378601074,
-      "chg1m": 17.220001220703125,
-      "chg3m": 25.37000274658203,
-      "chg1mPct": 20.273134831355716,
-      "chg3mPct": 33.03815919274469,
+      "drawdown1y": -10.349707948525666,
+      "ma20": 92.18550148010254,
+      "ma60": 83.21033376057943,
+      "chg1m": 16.31999969482422,
+      "chg3m": 24.470001220703125,
+      "chg1mPct": 19.213561603182395,
+      "chg3mPct": 31.86612961187654,
       "lastDate": "2026-09-17",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 100.26599884033203,
+      "current": 100.24700164794922,
       "prevClose": 100.30999755859375,
-      "changeAbs": -0.04399871826171875,
-      "changePct": -0.04386274482363328,
-      "pctRank": 37.31105807478122,
+      "changeAbs": -0.06299591064453125,
+      "changePct": -0.06280122836981793,
+      "pctRank": 37.23150357995227,
       "min5y": 93.0999984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.322706192251133,
-      "ma20": 99.29879951477051,
-      "ma60": 100.17143351236979,
-      "chg1m": 0.615997314453125,
-      "chg3m": 0.17600250244140625,
-      "chg1mPct": 0.618160868058945,
-      "chg3mPct": 0.1758442490568638,
+      "drawdown1y": -1.3414023759620863,
+      "ma20": 99.29784965515137,
+      "ma60": 100.17111689249674,
+      "chg1m": 0.5970001220703125,
+      "chg3m": 0.15700531005859375,
+      "chg1mPct": 0.5990969522617345,
+      "chg3mPct": 0.1568641380788591,
       "lastDate": "2026-09-17",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4335.89990234375,
+      "current": 4347.10009765625,
       "prevClose": 4387.5,
-      "changeAbs": -51.60009765625,
-      "changePct": -1.1760706018518519,
-      "pctRank": 88.15580286168522,
+      "changeAbs": -40.39990234375,
+      "changePct": -0.920795495014245,
+      "pctRank": 88.31478537360891,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -18.473601422244023,
-      "ma20": 4496.224951171875,
-      "ma60": 4279.334989420573,
-      "chg1m": -84.7001953125,
-      "chg3m": -45.5,
-      "chg1mPct": -1.916033874165796,
-      "chg3mPct": -1.0384808740161016,
+      "drawdown1y": -18.263008094962185,
+      "ma20": 4496.7849609375,
+      "ma60": 4279.5216593424475,
+      "chg1m": -73.5,
+      "chg3m": -34.2998046875,
+      "chg1mPct": -1.6626701890308702,
+      "chg3mPct": -0.7828503549550897,
       "lastDate": "2026-09-17",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,25 +237,60 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Trump says 'hopefully we are towards end' of Iran war - Reuters",
+      "headline": "Bank of England set to defy Fed’s rate-hike lead, despite rising inflation",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html",
+      "datetime": 1789622423,
+      "headlineKo": "영란은행은 인플레이션 상승에도 불구하고 연준의 금리 인상을 거부할 예정"
+    },
+    {
+      "headline": "Impoverished by war in Iran, Afghan migrants return to Taliban rule - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbUtnR01KbXZwRU1yS09FNXhXdnFRaXRXR1YyaWwyOWFvYWl1VC1MbVJFb1dvVWgxNGVFR0xKV3pCQkNycmVDaUJpVjFLYmt4MTVhSmR5dXRlVU54MWFRTG9LY2V4a1g3d2cyblNlVkU2MjNUTWJXaEY0MFNpNG9uZ3dWMWFEZ0ZIZ1dGMFdQby1jd1A5RzZ2TXNsQlJzdEFER2ZjRHE2SWstblhoVFRWWVhGcXFMZw?oc=5",
+      "datetime": 1789621997,
+      "headlineKo": "이란 전쟁으로 가난해진 아프가니스탄 이민자들, 탈레반 통치로 복귀 - reuters.com"
+    },
+    {
+      "headline": "Trump hopes Iran war nearing end as Houthi-Saudi fighting escalates - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdUdfN2t1cTlMdHJXa1FQN0ZiU1M1dklpd2llNGtrTW1ndEEwSjZqc2VNcjY0VkFOQXFmLVUzNXFYUHdQTUU1Tm1leURSclhSajZPS29nZng3Sl83eUs2clpyMS1XbW0tNXpnbDdDc25SMVB6cHYtMWY2aFdYRzZsSEtPS1FBSHpQSGp6dFF6NV9mSkJBbXM4UnNWSDYyRzJjc0RtMkZod3l0Q0ZYSzljc3JPYmVFMlVZUGc?oc=5",
+      "datetime": 1789618980,
+      "headlineKo": "트럼프는 후티-사우디 전쟁이 격화되면서 이란 전쟁이 거의 끝나기를 바란다 - reuters.com"
+    },
+    {
+      "headline": "US allies fret over how Trump might play his Taiwan hand with Xi - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY3hVM1dFSVFMbUpibXh4OWtYdWFBRnNkN0JhREtSNFZ0R2hVMnN1T0lUTHlneVdReE1kd1YzSENaY2xpWXh5SGVjY09qSXNack9RQkN2VFBYQUxCcE5sUExGNzJxRDJzRXYzX0pZU3NTX3RNOTZ0WEZWZ01oSUp2dHh3SkNZSERMc0tFempuV3RSaXF6OXlGaUhCZGNUZlRvMEhaRWRKcUVMSVN6aVJRcmZ3?oc=5",
+      "datetime": 1789611480,
+      "headlineKo": "미국 동맹국들은 트럼프가 시과 대만 손을 어떻게 놀릴지 걱정하고 있다 - reuters.com"
+    },
+    {
+      "headline": "Trump says 'hopefully we are towards end' of Iran war - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNVZBS2JnVTZ6bnkwemhVOGRlX2puQkR2RHNnZnpLaHRzcHMxNktCNGwtNkU2ZTJaTzRMSFZzYXRzeHVnanUtaTNIdjVZTm5wVjd5bm9iMHNndXFwRzFOSmh3QWI0T3lqU3MwVE9UenMwNWZWYURMWm1ZOHNDTzVBVmlZVjBHT0F6cEJoRE5BYTVqRVFnM3N3cjZZU3RKWFJSeGZLVUhUVkVQZW9tb0FhRThfSEpmcVZM?oc=5",
       "datetime": 1789602840,
-      "headlineKo": "트럼프 “이란 전쟁 종식되길 바라” - 로이터"
+      "headlineKo": "트럼프 “이란 전쟁 종식되길 바라” - reuters.com"
     },
     {
-      "headline": "US officials met Iran-backed Houthis in Oman over the weekend, sources say - Reuters",
+      "headline": "US officials met Iran-backed Houthis in Oman over the weekend, sources say - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNVlvS0o5eGw3QnFsN1NoVTdWbElpWFhDLS14WFpCb0duUUJMYzVoS2VZSHpqQUxQWXVtN0VadTJHNnNhYlNCZmlhMDVJQVl3Y2pqTjQ2bmRuVEdDR3FKY0VGQ1Uxc1pwVzcteUNJSTB0Mm9wZHRIWUdTUmVLTUVsTEpYMFRmN21ENmtrbnZvTm9XZjZsOU5DN2JHWUYtdm5OcFJiUzJzZTVBeUJ3a3NmSEJROEFxekl5RGlMNw?oc=5",
       "datetime": 1789600404,
-      "headlineKo": "미국 관리들은 지난 주말 오만에서 이란이 지원하는 후티 반군을 만났다고 소식통은 전했습니다."
+      "headlineKo": "미국 관리들은 지난 주말 오만에서 이란이 지원하는 후티 반군을 만났다고 소식통은 전했습니다. - reuters.com"
     },
     {
-      "headline": "Israel, Morocco agree to upgrade diplomatic ties, Israeli government says - Reuters",
+      "headline": "Wall St ends lower after Fed hikes interest rates, sees more tightening ahead - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSUtqeWNnZEJZT0IyaHpTajZTM3hWV0gwZUV1VkhQV21PUzJBQ0kzLWhxTk5iWUtNbTI1eUVWQnN1b2Y4T2RQSnhmc1pDcVVWYldOc19HSzRId2pZMHZFWHZrNHhnMVh3VGd4RkRSdDJGZ2ZJSzd6TWhiWWtUd1lWRkxzcklsRmJhOS1TcEZYMkRTQjhmakMyVDFtQQ?oc=5",
+      "datetime": 1789599329,
+      "headlineKo": "월스트리트, 연준의 금리 인상 이후 하락세로 마감"
+    },
+    {
+      "headline": "Israel, Morocco agree to upgrade diplomatic ties, Israeli government says - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUktRelVFeVlmRUh4NjlTNU5vVFNRZDBsaE9Wd2YybUlQYTNSY0NONXhUMjJEcTJzSnRjaWZNM2pNN0E4YnVyTVdLZVhOX2FmM0l1MXU2SU01NXR2aWw3bC1IY2lZM3BZbzZQQ01kN3loX09KU2x5dTd4RXl6cXU0TUd5eVppY3NSbXpibXBnRmxyeHJyUUtjME5FU2tBaHZyMDB4RXgyQ3E0dnh5X1lZY2oxOWpqQTdCQlJiZFZtYw?oc=5",
       "datetime": 1789593333,
-      "headlineKo": "이스라엘과 모로코가 외교 관계를 개선하기로 합의했다고 이스라엘 정부가 밝혔습니다 - 로이터 통신"
+      "headlineKo": "이스라엘과 모로코가 외교 관계를 개선하기로 합의했다고 이스라엘 정부가 밝혔습니다 - reuters.com"
     },
     {
       "headline": "Netanyahu steps up threats against directors of Gaza documentary 'NAZA' - reuters.com",
@@ -265,11 +300,11 @@ const MARKET_DATA = {
       "headlineKo": "네타냐후, 가자 다큐멘터리 'NAZA' 감독에 대한 위협 강화 - reuters.com"
     },
     {
-      "headline": "Top Democrat on US House committee will not support Israel bomb sale - Reuters",
+      "headline": "Top Democrat on US House committee will not support Israel bomb sale - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYXVjVVhxZXk4MjhZM2JLYzR1cDlpdlg3QVozb1RKX0JOcE9GakdvYjBTckJxMF9WeFpiWUIyNTJVcS1RV2hHRnFrWHlwcDk1a0dDMGY0ZnVBUnBRdFpVc1FGalhCanpuX2xYSjB0ZnlVTi0yNldoQ2plZEtMSTNNQUV6UDRXSDVLdGVOdFN5M2YtMEFDT0Y3UENyTzRhdFByYk84N090MFlVSnYyUklfWWdodE0zZ05yZGlKbTFQQ3d1RjI0MUE?oc=5",
       "datetime": 1789587450,
-      "headlineKo": "미국 하원 위원회의 민주당 최고위는 이스라엘의 폭탄 판매를 지지하지 않을 것입니다 - Reuters"
+      "headlineKo": "미국 하원 위원회의 민주당 최고위는 이스라엘 폭탄 판매를 지지하지 않을 것입니다 - reuters.com"
     },
     {
       "headline": "Boeing CEO: 737 Max production taking 'a little bit longer' to stabilize than expected",
@@ -284,51 +319,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/16/fed-delivers-its-first-hike-in-3-years-plus-whats-moving-starbucks-and-ge-vernova.html",
       "datetime": 1789585214,
       "headlineKo": "연준이 3년 만에 첫 금리 인상을 단행했다. 게다가 스타벅스와 GE 베르노바를 움직이는 것은 무엇일까?"
-    },
-    {
-      "headline": "Yemen offensive elevates enigmatic Houthi commander's standing - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa0FZY0J4cFN1dGZjZEsxUXc5aVlrd2ZJdHF5LWtEcWU2bnJ6aFZ4X1I5WHhRQ3pfZUNfVzJUYlEzbW9lSTdINmtnVFYyUXNBZW5LcXlYQS0zVUNlTllVTUhkR29xaWFhZFlsSTgzU1p5Z3FTSzJtMEpka0lHS0VoZHltRXMxME40Zldtb0xOcWxEekxIOGN5WG5vV2I5NHpZbGd6X21kTzMzT3hnWjVLUDZFejNYeEgzcEJnRFFuQlN5UQ?oc=5",
-      "datetime": 1789581871,
-      "headlineKo": "예멘 공세로 수수께끼의 후티 사령관 지위 높아졌다 - 로이터 통신"
-    },
-    {
-      "headline": "US Treasury gathers global financial institutions to advance Iran sanctions - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPXzUwU0VnMDVwQm1aTmZIQ25odU1FYXpWRkM4R2ZTMjdwalhFVDJ3dGtWV0szd1hYRVdJY1VlRmdPemJDOG9ONy1FZXUzbWhZRkFiTVVSRkdLX19Za3h2c0RneVpmbjhVdzhiZXRmYTJtc2JwYmFUU085RXBvclZoNkM1Y1AyUGF0RjhoTFRwaHF5WFNNbFlzdEMzSTZNNnhzTHB0N0p1aXdRYjY5SUpXVHhRVEtsclZPUkNGZEpCdzBvLVJu?oc=5",
-      "datetime": 1789580549,
-      "headlineKo": "미 재무부, 이란 제재 진전 위해 글로벌 금융기관 소집 - 로이터"
-    },
-    {
-      "headline": "Lagging sector looks poised for a rebound. Here's how Mike Khouw is trading it",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/16/lagging-sector-looks-poised-for-a-rebound-heres-how-mike-khouw-is-trading-it.html",
-      "datetime": 1789579309,
-      "headlineKo": "부진한 업종은 반등할 준비가 되어 있는 것으로 보입니다. Mike Khouw가 거래하는 방법은 다음과 같습니다."
-    },
-    {
-      "headline": "American Airlines says 30% of seats drive half of revenue as premium cabin rush heats up",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/16/american-airlines-ceo-first-class-seats.html",
-      "datetime": 1789577744,
-      "headlineKo": "아메리칸 항공은 프리미엄 객실 러시가 뜨거워지면서 좌석의 30%가 매출의 절반을 차지한다고 밝혔습니다."
-    },
-    {
-      "headline": "Houthi blitz leaves Saudi Arabia exposed, Iran emboldened - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNU210dG1ONGRhN0FKOXF3WUpTLVowR3hJTGlsMVA2LVUtXzlacGVGbE5Hd3VLYktLOEgzYXdBZ3llMzFBdW1RMGJJaUxjRWJHSHRNZmh5T3l5RW9qTDE3Y1NRSFhnVjlEQXR0QzY4Ym0zdUc4MGxNdkZMT2NYVVU1eEtxcUtWYS0tdHpCcmJVXzdXRDZFQU1PeHVuc3I2bnUzb3NBR2pSN1V1YmhMSFFz?oc=5",
-      "datetime": 1789576712,
-      "headlineKo": "후티 공습으로 사우디아라비아가 노출되고 이란은 대담해졌습니다 - Reuters"
     }
   ],
   "fgi": {
     "score": 26.4,
     "rating": "fear"
   },
-  "_fetched_at": 1789622175.5721262,
-  "_updated_label": "2026-09-17 14:16",
-  "_last_attempt_at": 1789622175.5721262,
-  "_last_success_at": 1789622175.5721262,
+  "_fetched_at": 1789625815.919979,
+  "_updated_label": "2026-09-17 15:17",
+  "_last_attempt_at": 1789625815.919979,
+  "_last_success_at": 1789625815.919979,
   "_collection_status": "ok",
   "_collection_errors": []
 };
