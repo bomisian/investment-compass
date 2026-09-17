@@ -72,69 +72,69 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 102.4000015258789,
+      "current": 102.2699966430664,
       "prevClose": 102.43000030517578,
-      "changeAbs": -0.029998779296875,
-      "changePct": -0.029287102613978183,
-      "pctRank": 92.84578696343402,
+      "changeAbs": -0.160003662109375,
+      "changePct": -0.156207811805786,
+      "pctRank": 92.76054097056485,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -9.3404123128907,
-      "ma20": 92.24250144958496,
-      "ma60": 83.2293337504069,
-      "chg1m": 17.459999084472656,
-      "chg3m": 25.610000610351562,
-      "chg1mPct": 20.55568469816916,
-      "chg3mPct": 33.350697102509194,
+      "drawdown1y": -9.455511813842499,
+      "ma20": 92.23600120544434,
+      "ma60": 83.22716700236002,
+      "chg1m": 17.329994201660156,
+      "chg3m": 25.479995727539062,
+      "chg1mPct": 20.402629742817375,
+      "chg3mPct": 33.181397869194285,
       "lastDate": "2026-09-17",
-      "bars": 1258,
+      "bars": 1257,
       "symbol": "CL=F",
       "label": "WTI 유가",
       "unit": "$",
       "digits": 1
     },
     "dollar": {
-      "current": 100.3479995727539,
+      "current": 100.31199645996094,
       "prevClose": 100.30999755859375,
-      "changeAbs": 0.03800201416015625,
-      "changePct": 0.03788457290905451,
-      "pctRank": 37.758346581876,
-      "min5y": 92.86000061035156,
+      "changeAbs": 0.0019989013671875,
+      "changePct": 0.001992723971526256,
+      "pctRank": 37.5497215592681,
+      "min5y": 93.0999984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.2420047534859369,
-      "ma20": 99.3028995513916,
-      "ma60": 100.1728001912435,
-      "chg1m": 0.697998046875,
-      "chg3m": 0.25800323486328125,
-      "chg1mPct": 0.700449609821362,
-      "chg3mPct": 0.2577712501779862,
+      "drawdown1y": -1.2774374004465794,
+      "ma20": 99.30109939575195,
+      "ma60": 100.17220013936361,
+      "chg1m": 0.6619949340820312,
+      "chg3m": 0.2220001220703125,
+      "chg1mPct": 0.6643200440996606,
+      "chg3mPct": 0.22180050973412904,
       "lastDate": "2026-09-17",
-      "bars": 1258,
+      "bars": 1257,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
       "unit": "",
       "digits": 1
     },
     "gold": {
-      "current": 4320.2998046875,
+      "current": 4331.89990234375,
       "prevClose": 4387.5,
-      "changeAbs": -67.2001953125,
-      "changePct": -1.5316283831908832,
-      "pctRank": 87.76806989674346,
+      "changeAbs": -55.60009765625,
+      "changePct": -1.267238693019943,
+      "pctRank": 87.91732909379968,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -18.766924563465036,
-      "ma20": 4495.4449462890625,
-      "ma60": 4279.074987792968,
-      "chg1m": -100.30029296875,
-      "chg3m": -61.10009765625,
-      "chg1mPct": -2.268929347893921,
-      "chg3mPct": -1.3945336882754213,
+      "drawdown1y": -18.548812013276063,
+      "ma20": 4496.024951171875,
+      "ma60": 4279.268322753906,
+      "chg1m": -88.7001953125,
+      "chg3m": -49.5,
+      "chg1mPct": -2.0065193266300607,
+      "chg3mPct": -1.1297758959076272,
       "lastDate": "2026-09-17",
-      "bars": 1259,
+      "bars": 1258,
       "symbol": "GC=F",
       "label": "금",
       "unit": "$",
@@ -237,11 +237,18 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "US officials met Iran-backed Houthis in Oman over the weekend, sources say - Reuters",
+      "headline": "Trump says 'hopefully we are towards end' of Iran war - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNVZBS2JnVTZ6bnkwemhVOGRlX2puQkR2RHNnZnpLaHRzcHMxNktCNGwtNkU2ZTJaTzRMSFZzYXRzeHVnanUtaTNIdjVZTm5wVjd5bm9iMHNndXFwRzFOSmh3QWI0T3lqU3MwVE9UenMwNWZWYURMWm1ZOHNDTzVBVmlZVjBHT0F6cEJoRE5BYTVqRVFnM3N3cjZZU3RKWFJSeGZLVUhUVkVQZW9tb0FhRThfSEpmcVZM?oc=5",
+      "datetime": 1789602840,
+      "headlineKo": "트럼프 “이란 전쟁 종식되길 바라” - reuters.com"
+    },
+    {
+      "headline": "US officials met Iran-backed Houthis in Oman over the weekend, sources say - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNVlvS0o5eGw3QnFsN1NoVTdWbElpWFhDLS14WFpCb0duUUJMYzVoS2VZSHpqQUxQWXVtN0VadTJHNnNhYlNCZmlhMDVJQVl3Y2pqTjQ2bmRuVEdDR3FKY0VGQ1Uxc1pwVzcteUNJSTB0Mm9wZHRIWUdTUmVLTUVsTEpYMFRmN21ENmtrbnZvTm9XZjZsOU5DN2JHWUYtdm5OcFJiUzJzZTVBeUJ3a3NmSEJROEFxekl5RGlMNw?oc=5",
       "datetime": 1789600404,
-      "headlineKo": "미국 관리들은 지난 주말 오만에서 이란이 지원하는 후티 반군을 만났다고 소식통은 전했습니다."
+      "headlineKo": "미국 관리들은 지난 주말 오만에서 이란이 지원하는 후티 반군을 만났다고 소식통은 전했습니다. - reuters.com"
     },
     {
       "headline": "Israel, Morocco agree to upgrade diplomatic ties, Israeli government says - Reuters",
@@ -251,18 +258,18 @@ const MARKET_DATA = {
       "headlineKo": "이스라엘과 모로코가 외교 관계를 개선하기로 합의했다고 이스라엘 정부가 밝혔습니다 - 로이터 통신"
     },
     {
-      "headline": "Netanyahu steps up threats against directors of Gaza documentary 'NAZA' - Reuters",
+      "headline": "Netanyahu steps up threats against directors of Gaza documentary 'NAZA' - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNXZudGNQSnowb0xSbmZUNFVsQzZKYkZRWG16eS1nQm1wdVY5aG9EcEcxRWpEN0tBUllFWWNMd1gtdXBNR3l0WGZoc2NFcm1WaHRaWDFRYWZPNjJ3Vi0xb3dPdElqejU1V1VSN05oXzBBeDZNaExqbGktbmQ0c3NPb2QybFRtMmhtbXFlaGY2NzVfb2RjaDg4SzE0ZWVxUzZTR0F5Wkc5Zlg4cmhLZzRWUzdObWlNbGpiZVV1bA?oc=5",
       "datetime": 1789590780,
-      "headlineKo": "네타냐후, 가자지구 다큐멘터리 'NAZA' 감독에 대한 위협 강화 - 로이터"
+      "headlineKo": "네타냐후, 가자 다큐멘터리 'NAZA' 감독에 대한 위협 강화 - reuters.com"
     },
     {
-      "headline": "Top Democrat on US House committee will not support Israel bomb sale - Reuters",
+      "headline": "Top Democrat on US House committee will not support Israel bomb sale - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYXVjVVhxZXk4MjhZM2JLYzR1cDlpdlg3QVozb1RKX0JOcE9GakdvYjBTckJxMF9WeFpiWUIyNTJVcS1RV2hHRnFrWHlwcDk1a0dDMGY0ZnVBUnBRdFpVc1FGalhCanpuX2xYSjB0ZnlVTi0yNldoQ2plZEtMSTNNQUV6UDRXSDVLdGVOdFN5M2YtMEFDT0Y3UENyTzRhdFByYk84N090MFlVSnYyUklfWWdodE0zZ05yZGlKbTFQQ3d1RjI0MUE?oc=5",
       "datetime": 1789587450,
-      "headlineKo": "미국 하원 위원회의 민주당 최고위는 이스라엘의 폭탄 판매를 지지하지 않을 것입니다 - Reuters"
+      "headlineKo": "미국 하원 위원회의 민주당 최고위는 이스라엘 폭탄 판매를 지지하지 않을 것입니다 - reuters.com"
     },
     {
       "headline": "Boeing CEO: 737 Max production taking 'a little bit longer' to stabilize than expected",
@@ -279,18 +286,18 @@ const MARKET_DATA = {
       "headlineKo": "연준이 3년 만에 첫 금리 인상을 단행했다. 게다가 스타벅스와 GE 베르노바를 움직이는 것은 무엇일까?"
     },
     {
-      "headline": "Yemen offensive elevates enigmatic Houthi commander's standing - Reuters",
+      "headline": "Yemen offensive elevates enigmatic Houthi commander's standing - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa0FZY0J4cFN1dGZjZEsxUXc5aVlrd2ZJdHF5LWtEcWU2bnJ6aFZ4X1I5WHhRQ3pfZUNfVzJUYlEzbW9lSTdINmtnVFYyUXNBZW5LcXlYQS0zVUNlTllVTUhkR29xaWFhZFlsSTgzU1p5Z3FTSzJtMEpka0lHS0VoZHltRXMxME40Zldtb0xOcWxEekxIOGN5WG5vV2I5NHpZbGd6X21kTzMzT3hnWjVLUDZFejNYeEgzcEJnRFFuQlN5UQ?oc=5",
       "datetime": 1789581871,
-      "headlineKo": "예멘 공세로 수수께끼의 후티 사령관 지위 높아졌다 - 로이터 통신"
+      "headlineKo": "예멘 공세로 수수께끼의 후티 사령관 지위 상승 - reuters.com"
     },
     {
-      "headline": "US Treasury gathers global financial institutions to advance Iran sanctions - Reuters",
+      "headline": "US Treasury gathers global financial institutions to advance Iran sanctions - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPXzUwU0VnMDVwQm1aTmZIQ25odU1FYXpWRkM4R2ZTMjdwalhFVDJ3dGtWV0szd1hYRVdJY1VlRmdPemJDOG9ONy1FZXUzbWhZRkFiTVVSRkdLX19Za3h2c0RneVpmbjhVdzhiZXRmYTJtc2JwYmFUU085RXBvclZoNkM1Y1AyUGF0RjhoTFRwaHF5WFNNbFlzdEMzSTZNNnhzTHB0N0p1aXdRYjY5SUpXVHhRVEtsclZPUkNGZEpCdzBvLVJu?oc=5",
       "datetime": 1789580549,
-      "headlineKo": "미 재무부, 이란 제재 진전 위해 글로벌 금융기관 소집 - 로이터"
+      "headlineKo": "미 재무부, 이란 제재 진전 위해 글로벌 금융기관 소집 - reuters.com"
     },
     {
       "headline": "Lagging sector looks poised for a rebound. Here's how Mike Khouw is trading it",
@@ -307,28 +314,21 @@ const MARKET_DATA = {
       "headlineKo": "아메리칸 항공은 프리미엄 객실 러시가 뜨거워지면서 좌석의 30%가 매출의 절반을 차지한다고 밝혔습니다."
     },
     {
-      "headline": "Houthi blitz leaves Saudi Arabia exposed, Iran emboldened - Reuters",
+      "headline": "Houthi blitz leaves Saudi Arabia exposed, Iran emboldened - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNU210dG1ONGRhN0FKOXF3WUpTLVowR3hJTGlsMVA2LVUtXzlacGVGbE5Hd3VLYktLOEgzYXdBZ3llMzFBdW1RMGJJaUxjRWJHSHRNZmh5T3l5RW9qTDE3Y1NRSFhnVjlEQXR0QzY4Ym0zdUc4MGxNdkZMT2NYVVU1eEtxcUtWYS0tdHpCcmJVXzdXRDZFQU1PeHVuc3I2bnUzb3NBR2pSN1V1YmhMSFFz?oc=5",
       "datetime": 1789576712,
-      "headlineKo": "후티 공습으로 사우디아라비아가 노출되고 이란은 대담해졌습니다 - Reuters"
-    },
-    {
-      "headline": "We're significantly trimming a stock that has not gone to plan",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/16/were-significantly-trimming-a-stock-that-has-not-gone-to-plan.html",
-      "datetime": 1789576642,
-      "headlineKo": "우리는 계획대로 진행되지 않은 재고를 대폭 줄이고 있습니다."
+      "headlineKo": "후티 공습으로 사우디아라비아가 노출되고 이란은 대담해졌다 - reuters.com"
     }
   ],
   "fgi": {
-    "score": 26.4857142857143,
+    "score": 26.4,
     "rating": "fear"
   },
-  "_fetched_at": 1789614908.0380554,
-  "_updated_label": "2026-09-17 12:15",
-  "_last_attempt_at": 1789614908.0380554,
-  "_last_success_at": 1789614908.0380554,
+  "_fetched_at": 1789618547.8128586,
+  "_updated_label": "2026-09-17 13:16",
+  "_last_attempt_at": 1789618547.8128586,
+  "_last_success_at": 1789618547.8128586,
   "_collection_status": "ok",
   "_collection_errors": []
 };
