@@ -3684,11 +3684,28 @@ function renderAmatScenarioValuation(v, price, ticker){
     <div class="sub" style="margin:0 0 4px;color:var(--sub);font-size:10.5px;">${esc(compPriceSourceNote)}${liveComp&&liveComp.priceAsOf?` (관측일 ${esc(liveComp.priceAsOf)})`:''}</div>
     <div class="sub" style="margin:2px 0 4px;"><b>변경 이유</b>: ${esc(sc.inputChangeSummary||'-')}</div>
     <div class="sub" style="margin:2px 0 8px;color:${dataStatusColor};"><b>${dataStatusIcon} 자료 상태: ${esc(dataStatusLabel||'-')}</b>${dataStatusDetail?` - ${esc(dataStatusDetail)}`:''}</div>`;
+  // [2026-09-18 신규 -- 배포 전 점검 지적 반영] estimateStatusLabel/judgmentReasonSummary/
+  // conditionsForChange/computedJudgmentAtRunTime을 화면에 연결한다. 이 값들은 전부 "이 실행이
+  // 계산됐을 당시" 서버가 남긴 참고 문구다 -- 위 summaryHtml의 dataStatusLabel/gate(현재 시점
+  // 실시간 비교·판단 보류)와는 완전히 별개이며, 절대 같은 자리에 섞어 보여주지 않는다. 그래서
+  // 제목 옆에는 "조건부 추정값"이라는 사실 배지만 붙이고, 판단 이유·문구·변경조건은 별도
+  // 접이식 섹션으로 분리해 "지금 이 가격에 사도 되는가"를 답하는 자리가 아님을 명확히 한다.
+  const estimateBadge = sc.estimateStatusLabel
+    ? ` <span title="${esc(sc.estimateStatusNote||'')}" style="display:inline-block;padding:1px 6px;margin-left:4px;border-radius:8px;background:var(--panel);color:var(--sub);font-size:10px;font-weight:600;vertical-align:middle;">${esc(sc.estimateStatusLabel)}</span>`
+    : '';
+  const pastJudgmentHtml = (sc.judgmentReasonSummary || sc.computedJudgmentAtRunTime || (sc.conditionsForChange&&sc.conditionsForChange.length)) ? `
+      <details style="margin-top:4px;margin-bottom:4px;">
+        <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">이 값을 어떻게 참고해야 하는지 (실행 당시 판단 -- 지금 이 가격에 사도 되는지의 답이 아님)</summary>
+        <div class="sub" style="margin:6px 0;">${esc(sc.judgmentReasonSummary||'-')}</div>
+        ${sc.computedJudgmentAtRunTime ? `<div class="sub" style="margin:4px 0;color:var(--sub);"><b>계산 시점 참고 판단문</b>: ${esc(sc.computedJudgmentAtRunTime)} <span style="font-size:10px;">(위 "현재 주가" 실시간 비교·판단 보류와는 별개, 참고용)</span></div>` : ''}
+        ${sc.conditionsForChange&&sc.conditionsForChange.length ? `<div class="sub" style="margin:4px 0;"><b>이 추정값이 바뀌는 조건</b><ul style="margin:2px 0 0 16px;padding:0;">${sc.conditionsForChange.map(c=>`<li>${esc(c)}</li>`).join('')}</ul></div>` : ''}
+      </details>` : '';
   return `
     <div class="comment-box" style="background:var(--panel-2);margin-bottom:10px;">
-      <b>🧮 독립 적정가 (FCFF/WACC 공통 엔진 · ${esc(v.asOf||'-')} 실행, ${esc(v.isReplayFixture ? '재생 시험' : '실제 수집')})</b>
+      <b>🧮 독립 적정가 (FCFF/WACC 공통 엔진 · ${esc(v.asOf||'-')} 실행, ${esc(v.isReplayFixture ? '재생 시험' : '실제 수집')})</b>${estimateBadge}
       ${statusHtml}
       ${summaryHtml}
+      ${pastJudgmentHtml}
       <details style="margin-top:4px;margin-bottom:4px;">
         <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">시나리오별 상세(보수/기준/낙관)</summary>
       <div class="sub" style="margin:4px 0 8px;">VST 섹션(EV/EBITDA 3-시나리오)과 계산 방식이 다른, AMAT 전용 공통 계산엔진(amat_calc_engine) 실행 결과예요. 세 시나리오 모두 같은 엔진·같은 원자료에서 1년차 성장률(회사 가이던스 범위)과 ROIC만 바꿔 계산했어요. 실제 매수판단·경보와는 아직 연결되지 않은 검토용 화면입니다.</div>
@@ -4190,7 +4207,7 @@ function buildReturnConditionListSummaryHtml(ticker){
     const effBase = Object.assign({}, base, {purchasePriceUsed: priceUsed});
     judgment = classifyReturnJudgmentJS(effBase, gate.allowed, gate.reason, inputInvalid?null:r, ceiling, inputInvalid || (r!=null && ceiling==null));
   } else {
-    judgment = base.judgment || {label: '요구수익률 선택 필요', judgment: 'REQUIRED_RETURN_NOT_SET'};
+    judgment = classifyReturnJudgmentJS(base, gate.allowed, gate.reason, null, null, false);
   }
   const color = RETURN_JUDGMENT_COLOR_JS[judgment.judgment] || 'var(--sub)';
   // [이번 회차 수정 -- 사용자 지적 반영: 날짜 표시] v.asOf(계산 실행 시각)를 "가치평가 기준일"로
@@ -4249,12 +4266,16 @@ function renderReturnConditionCard(v, ticker){
       rateStr = (s.scenarioAnnualizedReturn && s.scenarioAnnualizedReturn.status === 'SUCCESS' && rate!=null)
         ? `${(rate*100>=0?'+':'')}${(rate*100).toFixed(1)}%(저장된 실행 당시 가격 기준)` : `산출 실패(${esc((s.scenarioAnnualizedReturn||{}).status||'-')})`;
     }
-    const historicalTag = (s.currentJudgmentAllowed === false) ? ' <span style="color:var(--sub);">(과거 참고값)</span>' : '';
-    // 초기 렌더는 서버(Python classify_return_judgment)가 계산한 기본 판정("요구수익률
-    // 선택 필요" 또는 최신성 문제 시 "판단 보류")을 그대로 쓴다 -- JS가 실행되기 전에도
-    // 화면이 빈 칸이 아니라 올바른 기본 상태를 보여주도록(요구수익률을 입력해야만 JS가
-    // 그 자리에서 다시 계산해 이 텍스트를 갱신한다).
-    const j0 = s.judgment || {};
+    // Initial render uses the same current-data gate as later input events.
+    const gate0 = computeLiveJudgmentGate(v, liveComp0);
+    const historicalTag = !gate0.allowed ? ' <span style="color:var(--sub);">(과거 참고값)</span>' : '';
+    const rPct0 = SHARED_REQUIRED_RETURN_BY_TICKER[ticker];
+    const r0 = rPct0 == null ? null : rPct0 / 100;
+    const invalid0 = r0 != null && !(isFinite(r0) && r0 > -1);
+    const ceiling0 = r0 == null || invalid0 ? null : recomputeCeilingJS(effComp0.cashflowsByYear, r0);
+    const effS0 = Object.assign({}, s, {purchasePriceUsed: effComp0.purchasePrice});
+    const j0 = classifyReturnJudgmentJS(effS0, gate0.allowed, gate0.reason,
+      invalid0 ? null : r0, ceiling0, invalid0 || (r0 != null && ceiling0 == null));
     const j0Color = RETURN_JUDGMENT_COLOR_JS[j0.judgment] || 'var(--sub)';
     // [이번 회차 -- 평가시점 정합 재설계] P3는 "3년 후"가 아니라 평가기준일+3년 시점
     // (p3ValuationDate)의 미래가치다. WACC 롤 계수로 매입일에 맞춰 굴리지 않으므로, 매입일
