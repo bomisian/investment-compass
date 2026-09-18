@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.34000015258789,
+      "current": 15.289999961853027,
       "prevClose": 15.4399995803833,
-      "changeAbs": -0.09999942779541016,
-      "changePct": -0.6476647053958512,
-      "pctRank": 24.58233890214797,
+      "changeAbs": -0.14999961853027344,
+      "changePct": -0.9715001464174242,
+      "pctRank": 24.184566428003183,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -50.595811499156405,
-      "ma20": 15.735500001907349,
-      "ma60": 16.2324999332428,
-      "chg1m": -0.6700000762939453,
-      "chg3m": -1.9400005340576172,
-      "chg1mPct": -4.184884863931942,
-      "chg3mPct": -11.226854496347945,
+      "drawdown1y": -50.75684271320932,
+      "ma20": 15.732999992370605,
+      "ma60": 16.231666596730552,
+      "chg1m": -0.7200002670288086,
+      "chg3m": -1.9900007247924805,
+      "chg1mPct": -4.497190860309528,
+      "chg3mPct": -11.516207440491662,
       "lastDate": "2026-09-18",
       "bars": 1257,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 96.22000122070312,
+      "current": 95.69999694824219,
       "prevClose": 101.91000366210938,
-      "changeAbs": -5.69000244140625,
-      "changePct": -5.583360059795406,
-      "pctRank": 89.18058870326173,
+      "changeAbs": -6.2100067138671875,
+      "changePct": -6.093618379660698,
+      "pctRank": 88.38504375497216,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -14.8118602740692,
-      "ma20": 92.6375015258789,
-      "ma60": 83.65250053405762,
-      "chg1m": 10.389999389648438,
-      "chg3m": 19.62000274658203,
-      "chg1mPct": 12.105323509254742,
-      "chg3mPct": 25.613581119339766,
+      "drawdown1y": -15.272244768545306,
+      "ma20": 92.61150131225585,
+      "ma60": 83.64383379618327,
+      "chg1m": 9.8699951171875,
+      "chg3m": 19.099998474121094,
+      "chg1mPct": 11.499469773535965,
+      "chg3mPct": 24.93472435325691,
       "lastDate": "2026-09-18",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 100.35299682617188,
+      "current": 100.43099975585938,
       "prevClose": 100.22000122070312,
-      "changeAbs": 0.13299560546875,
-      "changePct": 0.132703655806059,
-      "pctRank": 37.70883054892602,
+      "changeAbs": 0.21099853515625,
+      "changePct": 0.2105353548056659,
+      "pctRank": 38.106603023070804,
       "min5y": 93.0999984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.2370866810639813,
-      "ma20": 99.36914939880371,
-      "ma60": 100.14971682230632,
-      "chg1m": 1.5229949951171875,
-      "chg3m": -0.49700164794921875,
-      "chg1mPct": 1.5410249589195364,
-      "chg3mPct": -0.4928127471184378,
+      "drawdown1y": -1.1603197002363563,
+      "ma20": 99.37304954528808,
+      "ma60": 100.15101687113444,
+      "chg1m": 1.6009979248046875,
+      "chg3m": -0.41899871826171875,
+      "chg1mPct": 1.6199513256526286,
+      "chg3mPct": -0.41546725295116105,
       "lastDate": "2026-09-18",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4415.89990234375,
+      "current": 4416.60009765625,
       "prevClose": 4399.7001953125,
-      "changeAbs": 16.19970703125,
-      "changePct": 0.36820024801938517,
+      "changeAbs": 16.89990234375,
+      "changePct": 0.3841148622298261,
       "pctRank": 89.90461049284578,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.96938960160329,
-      "ma20": 4491.639965820313,
-      "ma60": 4287.183325195312,
-      "chg1m": -129.39990234375,
-      "chg3m": 170.0,
-      "chg1mPct": -2.846894768312132,
-      "chg3mPct": 4.00386264184324,
+      "drawdown1y": -16.956224075780547,
+      "ma20": 4491.674975585937,
+      "ma60": 4287.194995117187,
+      "chg1m": -128.69970703125,
+      "chg3m": 170.7001953125,
+      "chg1mPct": -2.831489947011282,
+      "chg3mPct": 4.020353735100372,
       "lastDate": "2026-09-18",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,46 +237,53 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "As Iran war grinds on, Trump to face skeptical world leaders at UN - Reuters",
+      "headline": "Parents are interfering with teens’ first jobs. Here’s why employers say it can backfire",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/18/parents-more-involved-in-kids-work-lives.html",
+      "datetime": 1789725601,
+      "headlineKo": "부모는 십대의 첫 직장을 방해하고 있습니다. 고용주가 역효과를 낳을 수 있다고 말하는 이유는 다음과 같습니다."
+    },
+    {
+      "headline": "As Iran war grinds on, Trump to face skeptical world leaders at UN - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORFROaUxKT0xTODBaOWZaNkx1anVfanoxaFVwYm5QQnlNY1QwZXEyaEY3QnR6QmNDMHlJX3gwWU5WRWN6VmdjdkxLSmEyX3dZeW9pVmJ2d3lEeVlPWVFQeDNwa2V5bnE0b3h0OGRIWmdMTUw4aDQ5UUZHX192bmcwNTNUeEJIU2YySU8yM3FxX3lCTFlJX1Y3bHRrd3g4MS1nNk5LNkJEZmlWREk?oc=5",
       "datetime": 1789707780,
-      "headlineKo": "이란 전쟁이 격화되면서 트럼프, 유엔에서 회의적인 세계 지도자들과 대면 - 로이터"
+      "headlineKo": "이란 전쟁이 격화되면서 트럼프는 유엔에서 회의적인 세계 지도자들을 만날 예정 - reuters.com"
     },
     {
-      "headline": "China's August refined fuel exports exceed pre-Iran war levels, jet fuel exports hit record high - Reuters",
+      "headline": "China's August refined fuel exports exceed pre-Iran war levels, jet fuel exports hit record high - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQnFaY2NnUy01cTdSa0g0N05CaHpYcGF3QjBfSGpLMlhRWllYQWVmT0EtOE81bUVBbVBEMlNBODFDdHdHd3o2SHpFdFhWUWlQRXdEbDgyTFY4TlZjT3hvRi1mMFo4TWZrZTg3UWhiRTNMTTd1QXNReEdsYnlFNlNLYnZqVGgyN3NBTlNzN2pBSWdQQjI1VkdRWlBfVjlBN1RiMzRwN0dKREVnSnUwLWc1NW9rQ2NKWDJxNUxmNzFaeEs2VWc1R3JpN1FB?oc=5",
       "datetime": 1789704840,
-      "headlineKo": "중국의 8월 정제연료 수출은 이란 전쟁 이전 수준을 넘어섰고, 제트연료 수출은 사상 최고를 기록했다. - 로이터"
+      "headlineKo": "중국의 8월 정제 연료 수출은 이란 전쟁 이전 수준을 넘어섰고, 제트 연료 수출은 사상 최고치를 기록했습니다. - reuters.com"
     },
     {
-      "headline": "Hormuz traffic below 10-day average, LNG vessels reappear outside strait - Reuters",
+      "headline": "Hormuz traffic below 10-day average, LNG vessels reappear outside strait - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNUxiUzdsYTJRdFoyOG1oY0FHU0daRGxzTzhwQVhiYXg1ZUpEVDM4Rk1td01IZEV2Z0VDVVlTY0hHTElnTnZ1cnNuMWxDWUZCWjNhYmpZVkN1bFAyZ1RtT0xQVko0OExlUm9wc3lFNjZNNnU1eE1DcjlmTkZQY2ZuWkFvUGEwTnNZOVhqdmh1dlRsZk1nd3I3emo1dnRybG51Z09xMTR4a3lPak9WbDFsd25qTVEtSFVVTmpKZkZ0OUlFYXpT?oc=5",
       "datetime": 1789702020,
-      "headlineKo": "호르무즈 교통량 10일 평균 이하, LNG 선박 해협 밖에 다시 등장 - 로이터"
+      "headlineKo": "호르무즈 교통량 10일 평균 이하, LNG 선박 해협 밖에 다시 등장 - reuters.com"
     },
     {
-      "headline": "South Korea's Lee says will not deploy military to get involved in Middle East conflict - Reuters",
+      "headline": "South Korea's Lee says will not deploy military to get involved in Middle East conflict - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcHVWWW80X2pnalBXQzRpRlpIQnNiNGt0V1o3Q01OME0tSjg2X0ltaENaUjBXZ2NUWVFnLVRQUTNvRzBHdUh3am9SNExYc3RuQmtxdjkyeGNnMzRvOGdFeUxyTG83bUlEU2NJQ3FCb3ZhR1hjRFEzal84X0pDUW9KWUMtVElRYmI1VWljLTN3ZnNJNkNMLVVyR25DUWI0SmMwQkpqQzRGRUlnMFlSS0RObkRTaTBCRzVwZDN0QjJLUlNDTU96ZDhPb2RSWWtXNEcz?oc=5",
-      "datetime": 1789698360,
-      "headlineKo": "한국의 Lee는 중동 분쟁에 개입하기 위해 군대를 배치하지 않을 것이라고 말합니다. - Reuters"
+      "datetime": 1789698969,
+      "headlineKo": "한국의 이은 중동 분쟁에 개입하기 위해 군대를 배치하지 않을 것이라고 말했습니다 - reuters.com"
     },
     {
-      "headline": "Oil prices fall 2% on easing fears over Saudi supply disruption - Reuters",
+      "headline": "Oil prices set for weekly fall on easing fears over Saudi supply disruption - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeDVrUGNRTzdTOG1wQ1ljY2w0Y002MjMxSVNvM2RrLTBhM3B1dEJVS1B6bnJWTjhydS1BUHpfTVFtbHh2QkdMdFU1ZVo3MDJtQ01kbldpa0lfWFM0QXFWbmVsN1RqcjcxMHczN3JGSHItelVZMzQtYklTN1kwVlJxLU5RVzAwc3BEQV9iVFI1N0xhRXluaGZxN0NrWkxFMDk5Q0pYZw?oc=5",
       "datetime": 1789693260,
-      "headlineKo": "사우디 공급 차질 우려 완화로 유가 2% 하락 - Reuters"
+      "headlineKo": "사우디 공급 차질 우려 완화로 유가 주간 하락세 - reuters.com"
     },
     {
-      "headline": "Explainer: How Yemen's Houthis went from a small mountain militia to a big regional threat - Reuters",
+      "headline": "Explainer: How Yemen's Houthis went from a small mountain militia to a big regional threat - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcGthY0luQlRSdV83a2g1VktUVlRKMVJCeXVjME5lNEU3MUNocU55OUhIQXhoRThxT0ZiVlUyMkM1ZENVVlowLWNaX0p5bFpjVnpfMDhPTl9EYU01MV94Y19fOE91Ym9oQS1XdENUbGotVjVRcjNsZzFGbnJDQi13Z0tSSEhMYlBiZ2pSallYMkRBb2F0Q24xT0ZpcnRUdzR0OEJLTUo4NEZtazJidEl5N3ItbkhFZmdpWVM5Mw?oc=5",
       "datetime": 1789687407,
-      "headlineKo": "설명자: 예멘의 후티 반군이 어떻게 작은 산악 민병대에서 큰 지역적 위협으로 변했는지 - Reuters"
+      "headlineKo": "설명: 예멘의 후티 반군이 소규모 산악 민병대에서 대규모 지역 위협으로 변한 과정 - reuters.com"
     },
     {
       "headline": "Jim Cramer says history offers a playbook for navigating a Fed rate-hiking cycle",
@@ -286,49 +293,42 @@ const MARKET_DATA = {
       "headlineKo": "짐 크레이머(Jim Cramer)는 역사가 연준의 금리 인상 주기를 탐색하기 위한 플레이북을 제공한다고 말했습니다."
     },
     {
-      "headline": "China's Djibouti base upgrades should boost its monitoring reach, report says - Reuters",
+      "headline": "China's Djibouti base upgrades should boost its monitoring reach, report says - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUW1WdlNaai13LUY1bEpxN3dqSTJLcVB5dUdmX000eUVMZVB1UHZkUXhVQWNZVURtVUVibUllb18wNEY5NGVyS2JRSVdKQng1M0lNWUR0LVJUdHRMbEl0SnFMVVBGcFIwR0hVYWpZdHdndFhTZWNIQkt0RGxuOThPY3RycHV2MDBjM1VkMXptSThmRjZhU1lXYzR1NDZSdlZsMjF6NmRQMzlHWEtGVTRIczBZLXNIOWNzM1NEQXBOeDM?oc=5",
       "datetime": 1789681020,
-      "headlineKo": "보고서에 따르면 중국의 지부티 기지 업그레이드로 모니터링 범위가 확대될 것이라고 합니다."
+      "headlineKo": "중국의 지부티 기지 업그레이드로 모니터링 범위가 확대될 것이라고 보고서에서 밝혔습니다. - reuters.com"
     },
     {
-      "headline": "US to allow Iranian leaders to attend UN General Assembly - Reuters",
+      "headline": "US to allow Iranian leaders to attend UN General Assembly - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMlRxdXlUU25MV1Q5ZThqV29lYjBpb1Y0V2MwV3RqZFNoR25hS2ZUX0VpR0hENmZIMlRPWWxGS1p1WUJmNktPZ0ZMWE8xSGRQYmFOUHkwamNjVTFhZFdpSkUxUEhROGl4Y0Y4X05kcTM5QmxqRXVnRm9hSzNCWGZza2RNX1JqYmJiLUJ3UUFFeHFlZVNQQ2QxbzEtbkF5MzlKSktFV3ZUaEdMdTdOdy1rMU9CYWxlRG81SlM0Zg?oc=5",
       "datetime": 1789679292,
-      "headlineKo": "미국, 이란 지도자들의 유엔 총회 참석 허용 - 로이터"
+      "headlineKo": "미국, 이란 지도자들의 유엔 총회 참석 허용 - reuters.com"
     },
     {
-      "headline": "What will Trump and Xi discuss in Washington next week? - Reuters",
+      "headline": "What will Trump and Xi discuss in Washington next week? - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOHdmMERXdzJrTFFzNkJOSXZhblo3Tkp1YXctZHBVQU9jdHR0TTZhUmFiYjVMRmsxaGhhbHFEMUdMd2daWVJzcnU0NUZGQTd0bGk0WjBIa0xWRkdGaHRWa2doWU11dGlTRW44ZFRhdmhFYm1ad3NDVV9ndTZQd1VoWXdUcXB1N0JZZ1FGWkJ0b2plUHJTVGk3dnowWQ?oc=5",
       "datetime": 1789678980,
-      "headlineKo": "트럼프와 시은 다음 주 워싱턴에서 무엇을 논의할 것인가? - 로이터"
+      "headlineKo": "트럼프와 시은 다음 주 워싱턴에서 무엇을 논의할 것인가? -reuters.com"
     },
     {
-      "headline": "Ocean container shipping rates could test record highs as Iran war fuel spike drives rise, analysts say - Reuters",
+      "headline": "Ocean container shipping rates could test record highs as Iran war fuel spike drives rise, analysts say - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONGltbnJEV1l0NXJDNFMxbFBtMUpYQkJWSGFlU2FRaHpNZ0xzNHhDSVJDbWt2Zy13YUNwZEJySUZUWHFEQi1XczZHWlI2dmZNMHZUTHVrR2tJUWpIanZtUFlXVTJEaXFIZTdGWDdQandreldIUm1URGRFZGxuVXhYX1FRcm8teGdSRmpGR1I4QnJ4SGJ6bF9UaGFGdXRadGZlY3o0TDItMm1ac0M4RTZsY2dkY3BQUUgzbzdycktRbmpjTDJy?oc=5",
       "datetime": 1789678184,
-      "headlineKo": "이란의 전쟁 연료 스파이크 드라이브가 증가함에 따라 해상 컨테이너 운송 속도가 사상 최고치를 시험할 수 있다고 분석가들은 말합니다 - Reuters"
-    },
-    {
-      "headline": "JP Morgan says it has no clear oil market endgame as Iran conflict drags on - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSzYzNHdWWVhKTktiSDh6Vi0yOTdmYWZpUlBtUlAwWFNNZjNCdnNkdkxmUWFsUEFuZUl3LWRmTzd4UEdBRVFlODRqenMwUlVya1dNMjY0VkozQVo5VTJNMF9uc1lWRnZlU0pTczdHejBmX2pzWEZiWDhXaWpMZ3FvMm1YS09vVVJKdWo0bWJ1eFZwem5seElGMEFqbjhVQk5zZ1NtblRiT0NFS0dGYUVvQVlhLWtack9OdzROdGxn?oc=5",
-      "datetime": 1789673520,
-      "headlineKo": "JP 모건은 이란 분쟁이 장기화되면서 석유시장 최종전이 명확하지 않다고 밝혔습니다."
+      "headlineKo": "분석가들은 이란의 전쟁 연료 스파이크 드라이브가 증가함에 따라 해상 컨테이너 운송 속도가 사상 최고치를 기록할 수 있다고 말합니다 - reuters.com"
     }
   ],
   "fgi": {
     "score": 28.7142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789725705.716676,
-  "_updated_label": "2026-09-18 19:02",
-  "_last_attempt_at": 1789725705.716676,
-  "_last_success_at": 1789725705.716676,
+  "_fetched_at": 1789729324.3120084,
+  "_updated_label": "2026-09-18 20:02",
+  "_last_attempt_at": 1789729324.3120084,
+  "_last_success_at": 1789729324.3120084,
   "_collection_status": "ok",
   "_collection_errors": []
 };
