@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 95.30000305175781,
+      "current": 95.47000122070312,
       "prevClose": 101.91000366210938,
-      "changeAbs": -6.6100006103515625,
-      "changePct": -6.486115565521457,
-      "pctRank": 88.22593476531424,
+      "changeAbs": -6.44000244140625,
+      "changePct": -6.31930351289024,
+      "pctRank": 88.38504375497216,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -15.626378373938554,
-      "ma20": 92.59150161743165,
-      "ma60": 83.63716723124186,
-      "chg1m": 9.470001220703125,
-      "chg3m": 18.70000457763672,
-      "chg1mPct": 11.03343937862614,
-      "chg3mPct": 24.412539099402746,
+      "drawdown1y": -15.475870916179868,
+      "ma20": 92.60000152587891,
+      "ma60": 83.64000053405762,
+      "chg1m": 9.639999389648438,
+      "chg3m": 18.87000274658203,
+      "chg1mPct": 11.231503185358816,
+      "chg3mPct": 24.634468828295294,
       "lastDate": "2026-09-18",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 100.2040023803711,
+      "current": 100.21499633789062,
       "prevClose": 100.22000122070312,
-      "changeAbs": -0.01599884033203125,
-      "changePct": -0.01596371995326444,
+      "changeAbs": -0.0050048828125,
+      "changePct": -0.004993896179943478,
       "pctRank": 36.913285600636435,
       "min5y": 93.0999984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.3837203243134644,
-      "ma20": 99.36169967651367,
-      "ma60": 100.14723358154296,
-      "chg1m": 1.3740005493164062,
-      "chg3m": -0.64599609375,
-      "chg1mPct": 1.3902666435898652,
-      "chg3mPct": -0.6405514164839257,
+      "drawdown1y": -1.3729005649851578,
+      "ma20": 99.36224937438965,
+      "ma60": 100.1474168141683,
+      "chg1m": 1.3849945068359375,
+      "chg3m": -0.6350021362304688,
+      "chg1mPct": 1.4013907529856384,
+      "chg3mPct": -0.6296501198196996,
       "lastDate": "2026-09-18",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4420.5,
+      "current": 4415.89990234375,
       "prevClose": 4399.7001953125,
-      "changeAbs": 20.7998046875,
-      "changePct": 0.47275504612019686,
-      "pctRank": 90.06359300476947,
+      "changeAbs": 16.19970703125,
+      "changePct": 0.36820024801938517,
+      "pctRank": 89.90461049284578,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.88289558572038,
-      "ma20": 4491.869970703125,
-      "ma60": 4287.259993489583,
-      "chg1m": -124.7998046875,
-      "chg3m": 174.60009765625,
-      "chg1mPct": -2.745689174535766,
-      "chg3mPct": 4.112204754517887,
+      "drawdown1y": -16.96938960160329,
+      "ma20": 4491.639965820313,
+      "ma60": 4287.183325195312,
+      "chg1m": -129.39990234375,
+      "chg3m": 170.0,
+      "chg1mPct": -2.846894768312132,
+      "chg3mPct": 4.00386264184324,
       "lastDate": "2026-09-18",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,11 +237,18 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "US troop deaths in Iran war exceed Pentagon count by at least four, Washington Post reports - reuters.com",
+      "headline": "Republican China committee chair urges tough Trump line with Xi - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVHE0eGdjejdPVC0wcEJESG1KY3hhNU1DMUZmOHZJUTFjZHRpM1BsLVcwbzVlOUJpVHFxZnBPNzJlTldZelp1WlcwVU5fQ2d2MXZCZS1NSm9uWkQ4MlpHRUQwY21BdU5BRUs2a3ZBODhETlZNd1pTMk94a1NWN3BMaGNHMVl0MWVIeTdWQk9KWVFvS0ZnVnZ1RWJQSlFMcjNVRm1TYkFfMTRvSUY2?oc=5",
+      "datetime": 1789760071,
+      "headlineKo": "중국 공화당 위원장, 시 주석과 거친 트럼프 라인 촉구 - 로이터"
+    },
+    {
+      "headline": "US troop deaths in Iran war exceed Pentagon count by at least four, Washington Post reports - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWTJWTFE3dlFIRDVOVDZiY01XQXNxNDI0Z1RiWlFybTFpaEFEQUtpcVRnaEVNUUxPSkl3eFpLc1JzakdRWHNFQWZSUHhQMmQ0T0MtOHBrUjFYTGIzM0dMUmFwNGZPdWhkZUdUSmR1Q29mTHZXNDJuY2d6MllvMXNTM3pGM1BHQmVvQkstdEd2SDE2ZjJ4dXpxdmVSa25KcWJxaUV5eUFrNGFLSUJoT21wNDRieGxuQjFzTXNxU1dFZFlCT3R3aEJESmRR?oc=5",
       "datetime": 1789756563,
-      "headlineKo": "이란 전쟁에서 미군 사망자가 국방부보다 최소 4명 더 많았다고 워싱턴 포스트가 보도했습니다. - reuters.com"
+      "headlineKo": "워싱턴 포스트는 이란 전쟁에서 미군 사망자가 펜타곤 사망자 수를 4명 이상 초과했다고 보도했다. - 로이터"
     },
     {
       "headline": "What it will take for us to buy the dip in DuPont. Plus, profit-taking hits cyber stocks",
@@ -258,11 +265,11 @@ const MARKET_DATA = {
       "headlineKo": "맥도날드는 새로운 '가치 있는 식사'라고 트레이더 Mike Khouw는 말합니다."
     },
     {
-      "headline": "Caviar and champagne: Air France's luxury shift helps ride out Iran war impact - reuters.com",
+      "headline": "Caviar and champagne: Air France's luxury shift helps ride out Iran war impact - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRi1pY1Bqc1lTWGhEbU5ydjdqZFVDQ2RYb3NidmNYTTc4Mkw2WkZFbXNqWlEzS0FVN200UjgwWElaWFlWcTRPSXRIN2Z4YmVDZ2dJdGZ2cnJWMDA4NUNVUnoxS3RuV2IwNDBZVjRSaGFFMTZ6Q3hUeF9fdEg4MEg4VVBtT2hyLTllVmw2QmRCNlVJY3IyVTEzM2hwbnpKTVVnN2hwem9wZmpFQUpaTHpEQTJtUkxnRC1Jc1RFX2Znem1IVmth?oc=5",
       "datetime": 1789754136,
-      "headlineKo": "캐비어와 샴페인: 에어프랑스의 럭셔리 근무가 이란 전쟁의 영향을 극복하는 데 도움이 됩니다 - reuters.com"
+      "headlineKo": "캐비어와 샴페인: 에어프랑스의 럭셔리한 변화는 이란 전쟁의 충격을 제거하는 데 도움이 됩니다. - 로이터"
     },
     {
       "headline": "Nike parts ways with Kylian Mbappé, soccer superstar signs with On",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/18/sportsbooks-remain-king-this-football-season-but-upstarts-are-making-a-run-for-the-money.html",
       "datetime": 1789744604,
       "headlineKo": "이번 풋볼 시즌에는 스포츠북이 여전히 왕이지만, 신흥 기업들이 돈을 위해 달려가고 있습니다."
-    },
-    {
-      "headline": "Jim Cramer's top 10 things to watch in the stock market Friday",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/18/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday.html",
-      "datetime": 1789736939,
-      "headlineKo": "짐 크레이머(Jim Cramer)가 금요일 주식 시장에서 주목해야 할 10가지 항목"
     }
   ],
   "fgi": {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789764173.1732497,
-  "_updated_label": "2026-09-19 05:43",
-  "_last_attempt_at": 1789764173.1732497,
-  "_last_success_at": 1789764173.1732497,
+  "_fetched_at": 1789767820.2537367,
+  "_updated_label": "2026-09-19 06:44",
+  "_last_attempt_at": 1789767820.2537367,
+  "_last_success_at": 1789767820.2537367,
   "_collection_status": "ok",
   "_collection_errors": []
 };
