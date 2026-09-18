@@ -237,18 +237,18 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "US troop deaths during Iran war exceed Pentagon count by at least four, Washington Post reports - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWTJWTFE3dlFIRDVOVDZiY01XQXNxNDI0Z1RiWlFybTFpaEFEQUtpcVRnaEVNUUxPSkl3eFpLc1JzakdRWHNFQWZSUHhQMmQ0T0MtOHBrUjFYTGIzM0dMUmFwNGZPdWhkZUdUSmR1Q29mTHZXNDJuY2d6MllvMXNTM3pGM1BHQmVvQkstdEd2SDE2ZjJ4dXpxdmVSa25KcWJxaUV5eUFrNGFLSUJoT21wNDRieGxuQjFzTXNxU1dFZFlCT3R3aEJESmRR?oc=5",
+      "datetime": 1789769329,
+      "headlineKo": "이란 전쟁 중 미군 사망자가 국방부보다 최소 4명 더 많았다고 워싱턴 포스트가 보도했습니다. - 로이터"
+    },
+    {
       "headline": "Republican China committee chair urges tough Trump line with Xi - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVHE0eGdjejdPVC0wcEJESG1KY3hhNU1DMUZmOHZJUTFjZHRpM1BsLVcwbzVlOUJpVHFxZnBPNzJlTldZelp1WlcwVU5fQ2d2MXZCZS1NSm9uWkQ4MlpHRUQwY21BdU5BRUs2a3ZBODhETlZNd1pTMk94a1NWN3BMaGNHMVl0MWVIeTdWQk9KWVFvS0ZnVnZ1RWJQSlFMcjNVRm1TYkFfMTRvSUY2?oc=5",
       "datetime": 1789760071,
       "headlineKo": "중국 공화당 위원장, 시 주석과 거친 트럼프 라인 촉구 - 로이터"
-    },
-    {
-      "headline": "US troop deaths in Iran war exceed Pentagon count by at least four, Washington Post reports - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWTJWTFE3dlFIRDVOVDZiY01XQXNxNDI0Z1RiWlFybTFpaEFEQUtpcVRnaEVNUUxPSkl3eFpLc1JzakdRWHNFQWZSUHhQMmQ0T0MtOHBrUjFYTGIzM0dMUmFwNGZPdWhkZUdUSmR1Q29mTHZXNDJuY2d6MllvMXNTM3pGM1BHQmVvQkstdEd2SDE2ZjJ4dXpxdmVSa25KcWJxaUV5eUFrNGFLSUJoT21wNDRieGxuQjFzTXNxU1dFZFlCT3R3aEJESmRR?oc=5",
-      "datetime": 1789756563,
-      "headlineKo": "워싱턴 포스트는 이란 전쟁에서 미군 사망자가 펜타곤 사망자 수를 4명 이상 초과했다고 보도했다. - 로이터"
     },
     {
       "headline": "What it will take for us to buy the dip in DuPont. Plus, profit-taking hits cyber stocks",
@@ -325,10 +325,10 @@ const MARKET_DATA = {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789771913.2716956,
-  "_updated_label": "2026-09-19 07:52",
-  "_last_attempt_at": 1789771913.2716956,
-  "_last_success_at": 1789771913.2716956,
+  "_fetched_at": 1789775543.779539,
+  "_updated_label": "2026-09-19 08:52",
+  "_last_attempt_at": 1789775543.779539,
+  "_last_success_at": 1789775543.779539,
   "_collection_status": "ok",
   "_collection_errors": []
 };

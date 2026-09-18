@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789773736.1345377,
+  "generatedAt": 1789775541.1566339,
   "events": [
     {
       "id": "d5e6db95f479735d4524",
@@ -7695,6 +7695,133 @@ const EVENT_DATA = {
         "회사의 매출 영향 추정",
         "대체 제품·지역 판매"
       ]
+    },
+    {
+      "id": "19446b029b75b0ac80ea",
+      "schemaVersion": 1,
+      "eventType": "dilution_warrant",
+      "eventLabel": "증권등록·투자설명서 제출",
+      "primaryTicker": "AVGO",
+      "relatedTickers": [
+        "AVGO"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "AVGO SEC Form 424B3 filed",
+      "headlineKo": "AVGO SEC Form 424B3 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526395593/d154803d424b3.htm",
+        "publishedAt": 1789657200.0,
+        "collectedAt": 1789775523.6588001
+      },
+      "confirmedFacts": [
+        "AVGO가 2026-09-18에 SEC Form 424B3을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AVGO",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "실제 발행 여부와 주식 수",
+        "발행가격·워런트·전환 조건",
+        "조달 자금 사용처와 완전희석 EPS"
+      ],
+      "earningsEvidence": null
+    },
+    {
+      "id": "70b87aee68b9f1812a2b",
+      "schemaVersion": 1,
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
+      "primaryTicker": "ARM",
+      "relatedTickers": [
+        "ARM"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "ARM SEC Form 6-K filed",
+      "headlineKo": "ARM SEC Form 6-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000135/arm-20260918.htm",
+        "publishedAt": 1789657200.0,
+        "collectedAt": 1789775523.6588001
+      },
+      "confirmedFacts": [
+        "ARM가 2026-09-18에 SEC Form 6-K을 제출했습니다."
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+      ],
+      "whyItMatters": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "ARM",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "515e6a764a60d2c0e3c0",
@@ -15482,7 +15609,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000210/crm-20260916.htm",
         "publishedAt": 1789570800.0,
-        "collectedAt": 1789753183.8338752
+        "collectedAt": 1789775523.6588001
       },
       "confirmedFacts": [
         "CRM가 2026-09-17에 SEC Form 8-K을 제출했습니다.",
@@ -15547,7 +15674,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926108614/tm2625565d1_8k.htm",
         "publishedAt": 1789570800.0,
-        "collectedAt": 1789753183.8338752
+        "collectedAt": 1789775523.6588001
       },
       "confirmedFacts": [
         "MOD가 2026-09-17에 SEC Form 8-K을 제출했습니다.",
@@ -17786,155 +17913,6 @@ const EVENT_DATA = {
         "적용 PER 변화",
         "회사 공식 가이던스"
       ]
-    },
-    {
-      "id": "3a109dd6d9131b3a57fc",
-      "schemaVersion": 1,
-      "eventType": "dilution_warrant",
-      "eventLabel": "워런트·신주·희석 가능성",
-      "primaryTicker": "AMZN",
-      "relatedTickers": [
-        "AMZN",
-        "GOOGL",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Alphabet",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        },
-        {
-          "name": "Amazon",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "What the Anthropic IPO Means for Amazon and Alphabet Investors",
-      "headlineKo": "Anthropic IPO가 Amazon 및 Alphabet 투자자에게 의미하는 것",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=585e4b7f02f007b282c0b8ac7ed929c4683d791e027b025c58aa7096908698e7",
-        "publishedAt": 1789546620,
-        "collectedAt": 1789769647.6310663
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "인류학 IPO가 Amazon 및 Alphabet 투자자에게 의미하는 것 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Anthropic은 올 가을 기록적인 IPO를 준비하고 있습니다.",
-        "회사는 새로 발행된 주식에서 1000억 달러를 조달할 가능성이 있는 2조 달러 가치 평가를 모색하고 있는 것으로 알려졌습니다.",
-        "두 가지 모두 지난 6월 Space Exploration Technologies의 1조 7700억 달러/860억 달러 규모의 IPO를 깨는 기록이 될 것입니다."
-      ],
-      "marketInterpretation": [
-        "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $2 trillion, $100 billion, $1.77 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "AMZN에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $2 trillion, $100 billion, $1.77 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AMZN",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "신규 주식 수·행사가격",
-        "조달 자금 사용처",
-        "완전희석 주식수와 EPS"
-      ]
-    },
-    {
-      "id": "dedefd4fa8020dc2867b",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "FIX",
-      "relatedTickers": [
-        "FIX"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "neutral",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Wave Of Bullish Analyst Upgrades Might Change The Case For Investing In Comfort Systems USA (FIX)",
-      "headlineKo": "강세 분석가 업그레이드의 물결로 인해 Comfort Systems USA에 대한 투자 사례가 바뀔 수 있음(FIX)",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=46142db247d372b1021fe1d4e61a785f3c69ec223681ded824ee3de83fb7c871",
-        "publishedAt": 1789546370,
-        "collectedAt": 1789769647.6310663
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Wave Of Bullish Analyst Upgrades Might Change The Case For Investing In Comfort Systems USA (FIX)",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "FIX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "FIX에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "FIX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "FIX",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "목표주가 산식의 EPS",
-        "적용 PER 변화",
-        "회사 공식 가이던스"
-      ]
     }
   ],
   "byTicker": {
@@ -18079,8 +18057,7 @@ const EVENT_DATA = {
       "febfa27db8811127abbb",
       "cb43b8aee1c751382be3",
       "482578830f952e373bee",
-      "9c997994fdcaa7c3b408",
-      "3a109dd6d9131b3a57fc"
+      "9c997994fdcaa7c3b408"
     ],
     "NVDA": [
       "a828ff045e5672072e46",
@@ -18286,8 +18263,7 @@ const EVENT_DATA = {
       "1af91cd3ed2d7caf8c8e",
       "fe9182fdcf83ee27be5b",
       "af81b99410a8de01a1be",
-      "4de5d1c9be79f210b04d",
-      "3a109dd6d9131b3a57fc"
+      "4de5d1c9be79f210b04d"
     ],
     "COHR": [
       "ca3444c49f93b677afe2",
@@ -18323,8 +18299,7 @@ const EVENT_DATA = {
       "25ffe673ac5013a0ba8e",
       "17cb6f5e6e35b5d1a198",
       "fb2c8cefc129c7030788",
-      "9c997994fdcaa7c3b408",
-      "3a109dd6d9131b3a57fc"
+      "9c997994fdcaa7c3b408"
     ],
     "ORCL": [
       "7feda327498cc04337d9",
@@ -18444,6 +18419,7 @@ const EVENT_DATA = {
       "b4f2200bfe9716856943",
       "b7679c70b1fcad6c28f3",
       "bfb2a63bcb9db2cedcc0",
+      "70b87aee68b9f1812a2b",
       "3ec29fd0bdd3cbab7916",
       "25fe165c8322544f7e5d"
     ],
@@ -18511,6 +18487,7 @@ const EVENT_DATA = {
       "514d0a5f399c72195b1c",
       "c7b2df97e05e107adc9c",
       "ac96f7ecb9c2f87e7f28",
+      "19446b029b75b0ac80ea",
       "49eeb2232a188f612b3b",
       "8b13e952fa127be9ae8d",
       "40e76575e9efe21f04b8",
@@ -18581,8 +18558,7 @@ const EVENT_DATA = {
       "d4e874f071bb4cce367d"
     ],
     "FIX": [
-      "7d498e14639dfafd06a9",
-      "dedefd4fa8020dc2867b"
+      "7d498e14639dfafd06a9"
     ],
     "ASML": [
       "692ef92f49e0b4cb0349",
