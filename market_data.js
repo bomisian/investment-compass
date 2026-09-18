@@ -72,22 +72,22 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 101.08999633789062,
+      "current": 100.91000366210938,
       "prevClose": 102.43000030517578,
-      "changeAbs": -1.3400039672851562,
-      "changePct": -1.308214354478964,
-      "pctRank": 91.96499602227526,
+      "changeAbs": -1.5199966430664062,
+      "changePct": -1.483936970162833,
+      "pctRank": 91.8854415274463,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -10.500222160949901,
-      "ma20": 92.17700119018555,
-      "ma60": 83.20750033060709,
-      "chg1m": 16.149993896484375,
-      "chg3m": 24.29999542236328,
-      "chg1mPct": 19.013413506345316,
-      "chg3mPct": 31.644739071034046,
-      "lastDate": "2026-09-17",
+      "drawdown1y": -10.659578230577537,
+      "ma20": 92.16800155639649,
+      "ma60": 83.20450045267741,
+      "chg1m": 15.970001220703125,
+      "chg3m": 24.12000274658203,
+      "chg1mPct": 18.801507842808967,
+      "chg3mPct": 31.410343090261428,
+      "lastDate": "2026-09-18",
       "bars": 1257,
       "symbol": "CL=F",
       "label": "WTI 유가",
@@ -95,22 +95,22 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 100.23600006103516,
+      "current": 100.23200225830078,
       "prevClose": 100.30999755859375,
-      "changeAbs": -0.07399749755859375,
-      "changePct": -0.07376881602989754,
+      "changeAbs": -0.07799530029296875,
+      "changePct": -0.07775426397295007,
       "pctRank": 37.23150357995227,
       "min5y": 93.0999984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.3522296437979087,
-      "ma20": 99.29729957580567,
-      "ma60": 100.17093353271484,
-      "chg1m": 0.58599853515625,
-      "chg3m": 0.14600372314453125,
-      "chg1mPct": 0.5880567247197355,
-      "chg3mPct": 0.14587244328758087,
-      "lastDate": "2026-09-17",
+      "drawdown1y": -1.3561641017354686,
+      "ma20": 99.29709968566894,
+      "ma60": 100.17086690266927,
+      "chg1m": 0.582000732421875,
+      "chg3m": 0.14200592041015625,
+      "chg1mPct": 0.5840448805921298,
+      "chg3mPct": 0.1418782351942176,
+      "lastDate": "2026-09-18",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
@@ -118,22 +118,22 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4383.0,
+      "current": 4397.2998046875,
       "prevClose": 4387.5,
-      "changeAbs": -4.5,
-      "changePct": -0.10256410256410256,
-      "pctRank": 89.10969793322735,
+      "changeAbs": 9.7998046875,
+      "changePct": 0.22335737179487178,
+      "pctRank": 89.42766295707473,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.58799487664573,
-      "ma20": 4498.5799560546875,
-      "ma60": 4280.119991048177,
-      "chg1m": -37.60009765625,
-      "chg3m": 1.60009765625,
-      "chg1mPct": -0.8505654622815831,
-      "chg3mPct": 0.03652023763898057,
-      "lastDate": "2026-09-17",
+      "drawdown1y": -17.319120686098334,
+      "ma20": 4499.294946289063,
+      "ma60": 4280.358321126302,
+      "chg1m": -23.30029296875,
+      "chg3m": 15.89990234375,
+      "chg1mPct": -0.5270843879568192,
+      "chg3mPct": 0.36289548313644315,
+      "lastDate": "2026-09-18",
       "bars": 1258,
       "symbol": "GC=F",
       "label": "금",
@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 8.684138601237557,
-        "ret3m": 15.214878872170544,
-        "ret6m": 19.030665885526776,
-        "ret1y": 3.7820044745747072,
+        "ret1m": 6.5715518955028696,
+        "ret3m": 10.148425958621687,
+        "ret6m": 15.622860352207546,
+        "ret1y": 2.8165834363043096,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -1.9363058028602942,
-        "ret3m": -15.387973142397737,
-        "ret6m": 71.84584760041623,
-        "ret1y": 195.31096544690456,
+        "ret1m": -10.423601518113513,
+        "ret3m": -16.41874671093415,
+        "ret6m": 64.98658174424654,
+        "ret1y": 187.03584566726508,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": 1.1552686919207966,
-        "ret3m": 1.0497272575838545,
-        "ret6m": 35.09892992880792,
-        "ret1y": 203.51206617260203,
+        "ret1m": -8.000274870215286,
+        "ret3m": -0.219346235380391,
+        "ret6m": 41.621245045229195,
+        "ret1y": 200.44554961032262,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": -3.816538390942148,
-        "ret3m": -10.450354321690092,
-        "ret6m": 8.401426945010204,
-        "ret1y": 46.24816309920949,
+        "ret1m": -10.365803919271777,
+        "ret3m": -10.400709897724115,
+        "ret6m": 7.788322340422549,
+        "ret1y": 44.04633499451624,
         "winRate": null,
         "count": 12
       }
@@ -229,40 +229,68 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.04965930440977447,
-    "corrPctRank": 0.08375209380234507,
+    "corr60": 0.06778018125923134,
+    "corrPctRank": 0.4191114836546521,
     "corrMin5y": 0.04894546722775104,
     "corrMedian5y": 0.7050006629246074,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
     {
-      "headline": "US to allow Iranian leaders to attend UN General Assembly - Reuters",
+      "headline": "US allies fret over how Trump might play his Taiwan hand with Xi - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY3hVM1dFSVFMbUpibXh4OWtYdWFBRnNkN0JhREtSNFZ0R2hVMnN1T0lUTHlneVdReE1kd1YzSENaY2xpWXh5SGVjY09qSXNack9RQkN2VFBYQUxCcE5sUExGNzJxRDJzRXYzX0pZU3NTX3RNOTZ0WEZWZ01oSUp2dHh3SkNZSERMc0tFempuV3RSaXF6OXlGaUhCZGNUZlRvMEhaRWRKcUVMSVN6aVJRcmZ3?oc=5",
+      "datetime": 1789688668,
+      "headlineKo": "미국 동맹국들은 트럼프가 시과 대만 손을 어떻게 놀릴지 걱정하고 있다 - reuters.com"
+    },
+    {
+      "headline": "Impoverished by war in Iran, Afghan migrants return to Taliban rule - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbUtnR01KbXZwRU1yS09FNXhXdnFRaXRXR1YyaWwyOWFvYWl1VC1MbVJFb1dvVWgxNGVFR0xKV3pCQkNycmVDaUJpVjFLYmt4MTVhSmR5dXRlVU54MWFRTG9LY2V4a1g3d2cyblNlVkU2MjNUTWJXaEY0MFNpNG9uZ3dWMWFEZ0ZIZ1dGMFdQby1jd1A5RzZ2TXNsQlJzdEFER2ZjRHE2SWstblhoVFRWWVhGcXFMZw?oc=5",
+      "datetime": 1789688032,
+      "headlineKo": "이란 전쟁으로 가난해진 아프가니스탄 이민자들, 탈레반 통치로 복귀 - reuters.com"
+    },
+    {
+      "headline": "EXCLUSIVE: China presses Iran to help rein in Houthis after Saudi appeal, sources say - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUnJncHUxLTNvV25NTHFxQzVwcnljdzdsTkJCNFNjSlJybF95bFBhcW9DTWV1dnlYQ0prMkI0SmdnNjBrdXNLV0ZNM1pQNW1FcUxuaWpqd3NnRXJ6U2lkQWFqQlR0UVE2X3lYU0RXNXlBdno3QkRkSzB2SEwxUzdYV2NZWlc3SGhZdGRMbUFCVDJZeXZsTy0zOHF4R013c2xyMl8zNmVkaHlFOXM1MmtuZHJRREI3UQ?oc=5",
+      "datetime": 1789685137,
+      "headlineKo": "독점: 중국은 사우디의 항소 이후 이란에 후티 반군 통제를 돕도록 압력을 가했다고 소식통은 전했습니다. - reuters.com"
+    },
+    {
+      "headline": "UN mission finds grounds to believe US committed war crimes in Iran, and Tehran crimes against humanity - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbmJVNS1uc3FDVDUwbUJ5bjJkZzRwbTdzNFZYUW00SEloak4wZl9yeXJhWlQ2bEExbjZBSzh6T2lRVjNjQ2VvR1lNZGNBc3BwLXZ6QXJCTmZ3M3BfQVdURWZaaUVOV2k0VkNOTFMwcnhsdXR1VU5IWFRWYlVYNDgzeGNwTDB6d3FURHV4YnZZdFpibE45Qm1tTVJxMi1QZG9lbFFqVW16M1ZzQzRLQW1PVkhud2RLeWtxUVV6OFJweE0wOXZuVG5RRg?oc=5",
+      "datetime": 1789680028,
+      "headlineKo": "유엔 사절단, 미국이 이란에서 전쟁 범죄를 저질렀고 테헤란에서 반인도적 범죄를 저질렀다고 믿을 만한 근거를 찾았다 - reuters.com"
+    },
+    {
+      "headline": "US to allow Iranian leaders to attend UN General Assembly - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMlRxdXlUU25MV1Q5ZThqV29lYjBpb1Y0V2MwV3RqZFNoR25hS2ZUX0VpR0hENmZIMlRPWWxGS1p1WUJmNktPZ0ZMWE8xSGRQYmFOUHkwamNjVTFhZFdpSkUxUEhROGl4Y0Y4X05kcTM5QmxqRXVnRm9hSzNCWGZza2RNX1JqYmJiLUJ3UUFFeHFlZVNQQ2QxbzEtbkF5MzlKSktFV3ZUaEdMdTdOdy1rMU9CYWxlRG81SlM0Zg?oc=5",
       "datetime": 1789679292,
-      "headlineKo": "미국, 이란 지도자들의 유엔 총회 참석 허용 - 로이터"
+      "headlineKo": "미국, 이란 지도자들의 유엔 총회 참석 허용 - reuters.com"
     },
     {
-      "headline": "EXCLUSIVE: China presses Iran to help rein in Houthis after Saudi appeal, sources say - Reuters",
+      "headline": "What will Trump and Xi discuss in Washington next week? - reuters.com",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUnJncHUxLTNvV25NTHFxQzVwcnljdzdsTkJCNFNjSlJybF95bFBhcW9DTWV1dnlYQ0prMkI0SmdnNjBrdXNLV0ZNM1pQNW1FcUxuaWpqd3NnRXJ6U2lkQWFqQlR0UVE2X3lYU0RXNXlBdno3QkRkSzB2SEwxUzdYV2NZWlc3SGhZdGRMbUFCVDJZeXZsTy0zOHF4R013c2xyMl8zNmVkaHlFOXM1MmtuZHJRREI3UQ?oc=5",
-      "datetime": 1789676915,
-      "headlineKo": "독점: 중국은 사우디의 항소 이후 이란에 후티 반군 통제를 돕도록 압력을 가했다고 소식통은 전했습니다. - 로이터 통신"
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOHdmMERXdzJrTFFzNkJOSXZhblo3Tkp1YXctZHBVQU9jdHR0TTZhUmFiYjVMRmsxaGhhbHFEMUdMd2daWVJzcnU0NUZGQTd0bGk0WjBIa0xWRkdGaHRWa2doWU11dGlTRW44ZFRhdmhFYm1ad3NDVV9ndTZQd1VoWXdUcXB1N0JZZ1FGWkJ0b2plUHJTVGk3dnowWQ?oc=5",
+      "datetime": 1789679112,
+      "headlineKo": "트럼프와 시은 다음 주 워싱턴에서 무엇을 논의할 것인가? -reuters.com"
     },
     {
-      "headline": "Impoverished by war in Iran, Afghan migrants return to Taliban rule - Reuters",
+      "headline": "Ocean container shipping rates could test record highs as Iran war fuel spike drives rise, analysts say - reuters.com",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbUtnR01KbXZwRU1yS09FNXhXdnFRaXRXR1YyaWwyOWFvYWl1VC1MbVJFb1dvVWgxNGVFR0xKV3pCQkNycmVDaUJpVjFLYmt4MTVhSmR5dXRlVU54MWFRTG9LY2V4a1g3d2cyblNlVkU2MjNUTWJXaEY0MFNpNG9uZ3dWMWFEZ0ZIZ1dGMFdQby1jd1A5RzZ2TXNsQlJzdEFER2ZjRHE2SWstblhoVFRWWVhGcXFMZw?oc=5",
-      "datetime": 1789675538,
-      "headlineKo": "이란 전쟁으로 가난해진 아프가니스탄 이민자들, 탈레반 통치로 복귀 - 로이터"
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONGltbnJEV1l0NXJDNFMxbFBtMUpYQkJWSGFlU2FRaHpNZ0xzNHhDSVJDbWt2Zy13YUNwZEJySUZUWHFEQi1XczZHWlI2dmZNMHZUTHVrR2tJUWpIanZtUFlXVTJEaXFIZTdGWDdQandreldIUm1URGRFZGxuVXhYX1FRcm8teGdSRmpGR1I4QnJ4SGJ6bF9UaGFGdXRadGZlY3o0TDItMm1ac0M4RTZsY2dkY3BQUUgzbzdycktRbmpjTDJy?oc=5",
+      "datetime": 1789678184,
+      "headlineKo": "분석가들은 이란의 전쟁 연료 스파이크 드라이브가 증가함에 따라 해상 컨테이너 운송 속도가 사상 최고치를 기록할 수 있다고 말합니다 - reuters.com"
     },
     {
-      "headline": "JP Morgan says it has no clear oil market endgame as Iran conflict drags on - Reuters",
+      "headline": "JP Morgan says it has no clear oil market endgame as Iran conflict drags on - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSzYzNHdWWVhKTktiSDh6Vi0yOTdmYWZpUlBtUlAwWFNNZjNCdnNkdkxmUWFsUEFuZUl3LWRmTzd4UEdBRVFlODRqenMwUlVya1dNMjY0VkozQVo5VTJNMF9uc1lWRnZlU0pTczdHejBmX2pzWEZiWDhXaWpMZ3FvMm1YS09vVVJKdWo0bWJ1eFZwem5seElGMEFqbjhVQk5zZ1NtblRiT0NFS0dGYUVvQVlhLWtack9OdzROdGxn?oc=5",
       "datetime": 1789673520,
-      "headlineKo": "JP 모건은 이란 분쟁이 장기화되면서 석유시장 최종전이 명확하지 않다고 밝혔습니다."
+      "headlineKo": "JP모건은 이란 분쟁이 장기화되면서 석유시장 최종전이 명확하지 않다고 밝혔습니다."
     },
     {
       "headline": "Intel and Micron lead our portfolio higher, and J&J's strengthens our case for owning it",
@@ -286,49 +314,21 @@ const MARKET_DATA = {
       "headlineKo": "스테판 커리 \"리닝 시그니처 슈즈 내년 초 선보일 것\""
     },
     {
-      "headline": "Russia, China end mandate for independent monitoring of UN sanctions on Iran - Reuters",
+      "headline": "Russia, China end mandate for independent monitoring of UN sanctions on Iran - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOHBsNEJfd0VCaF9BYlJXbDRTbFVTc1hGVE01TmdQaF9oRDdlaGw0YzU3TDRucEI4UjRpR2owemo3NUdFLTBkOVFCWm42Z0d3M0p1eHNvU3JBRkNyUG95VWoyWXRoY21lR0lvYjNXUjVEdUFON2x0dHdlbDF5OTlTOXpnV1kwNzlGQmRjODZGZzVsNXVjMHZvbXNad0dEWFdWTXVfdEVSNVh2dGx4elF1Nm5oaw?oc=5",
       "datetime": 1789665464,
-      "headlineKo": "러시아와 중국, 유엔의 이란 제재에 대한 독립적 감시 의무 종료 - 로이터"
-    },
-    {
-      "headline": "We're buying more shares of a retailer that's been punished enough for a rare misstep",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/17/were-buying-more-shares-of-a-retailer-thats-been-punished-enough-for-a-rare-misstep.html",
-      "datetime": 1789664920,
-      "headlineKo": "우리는 드문 실수로 인해 충분한 처벌을 받은 소매업체의 주식을 더 많이 매입하고 있습니다."
-    },
-    {
-      "headline": "Stocks stage a comeback after Fed-induced declines — plus, what's ailing Boeing",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/17/stocks-stage-a-comeback-after-fed-induced-declines-plus-whats-ailing-boeing.html",
-      "datetime": 1789663020,
-      "headlineKo": "연준이 주도한 하락세 이후 주식이 반등했습니다. 게다가 보잉의 문제점도 있습니다."
-    },
-    {
-      "headline": "Why are world leaders at the UN next week and what will they talk about? - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZWxWOU16ZUF2MDh5UlVqc2pMM0d1WGFVSGJzdUl6aGZCZ09QeGFNX2pwTkdaNkRuaGJmUGtvUWRqZDlmMTdaZlA1V05WanlTQnlhRXJZQXlGTFE2bVhoT1lJYlZER3pkQ0EzcEdDLTNJVHVUd2RYU0VjUUNoWkplNDNrcGhtX1hrMUVpMG5vQkFKVjRJSkZuZHBGZ3NCbFN0YjJYYmN2aWt5Y0pIeXFZY2pQcWpOUQ?oc=5",
-      "datetime": 1789661922,
-      "headlineKo": "다음 주 UN에 세계 지도자들이 참석하는 이유는 무엇이며, 그들은 무엇에 대해 이야기할 것입니까? - 로이터"
-    },
-    {
-      "headline": "UN mission finds grounds to believe US committed war crimes in Iran, and Tehran crimes against humanity - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbmJVNS1uc3FDVDUwbUJ5bjJkZzRwbTdzNFZYUW00SEloak4wZl9yeXJhWlQ2bEExbjZBSzh6T2lRVjNjQ2VvR1lNZGNBc3BwLXZ6QXJCTmZ3M3BfQVdURWZaaUVOV2k0VkNOTFMwcnhsdXR1VU5IWFRWYlVYNDgzeGNwTDB6d3FURHV4YnZZdFpibE45Qm1tTVJxMi1QZG9lbFFqVW16M1ZzQzRLQW1PVkhud2RLeWtxUVV6OFJweE0wOXZuVG5RRg?oc=5",
-      "datetime": 1789659660,
-      "headlineKo": "유엔 사절단, 미국이 이란에서 전쟁 범죄를 저질렀고 테헤란에서 반인도적 범죄를 저질렀다는 근거 발견 - 로이터"
+      "headlineKo": "러시아와 중국, 유엔의 이란 제재에 대한 독립적 감시 의무 종료 - reuters.com"
     }
   ],
   "fgi": {
     "score": 28.6857142857143,
     "rating": "fear"
   },
-  "_fetched_at": 1789688526.2102807,
-  "_updated_label": "2026-09-18 08:42",
-  "_last_attempt_at": 1789688526.2102807,
-  "_last_success_at": 1789688526.2102807,
+  "_fetched_at": 1789692144.572445,
+  "_updated_label": "2026-09-18 09:43",
+  "_last_attempt_at": 1789692144.572445,
+  "_last_success_at": 1789692144.572445,
   "_collection_status": "ok",
   "_collection_errors": []
 };
