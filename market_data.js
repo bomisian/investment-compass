@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 100.91000366210938,
+      "current": 101.38999938964844,
       "prevClose": 102.43000030517578,
-      "changeAbs": -1.5199966430664062,
-      "changePct": -1.483936970162833,
-      "pctRank": 91.8854415274463,
+      "changeAbs": -1.0400009155273438,
+      "changePct": -1.0153284315423288,
+      "pctRank": 92.12410501193318,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -10.659578230577537,
-      "ma20": 92.16800155639649,
-      "ma60": 83.20450045267741,
-      "chg1m": 15.970001220703125,
-      "chg3m": 24.12000274658203,
-      "chg1mPct": 18.801507842808967,
-      "chg3mPct": 31.410343090261428,
+      "drawdown1y": -10.234615202239416,
+      "ma20": 92.19200134277344,
+      "ma60": 83.21250038146972,
+      "chg1m": 16.449996948242188,
+      "chg3m": 24.599998474121094,
+      "chg1mPct": 19.36660757643586,
+      "chg3mPct": 32.03541890979044,
       "lastDate": "2026-09-18",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 100.23200225830078,
+      "current": 100.2490005493164,
       "prevClose": 100.30999755859375,
-      "changeAbs": -0.07799530029296875,
-      "changePct": -0.07775426397295007,
+      "changeAbs": -0.06099700927734375,
+      "changePct": -0.06080850439829168,
       "pctRank": 37.23150357995227,
       "min5y": 93.0999984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.3561641017354686,
-      "ma20": 99.29709968566894,
-      "ma60": 100.17086690266927,
-      "chg1m": 0.582000732421875,
-      "chg3m": 0.14200592041015625,
-      "chg1mPct": 0.5840448805921298,
-      "chg3mPct": 0.1418782351942176,
+      "drawdown1y": -1.3394351469932952,
+      "ma20": 99.29794960021972,
+      "ma60": 100.17115020751953,
+      "chg1m": 0.5989990234375,
+      "chg3m": 0.15900421142578125,
+      "chg1mPct": 0.6011028743255373,
+      "chg3mPct": 0.1588612421255407,
       "lastDate": "2026-09-18",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4397.2998046875,
+      "current": 4392.7001953125,
       "prevClose": 4387.5,
-      "changeAbs": 9.7998046875,
-      "changePct": 0.22335737179487178,
-      "pctRank": 89.42766295707473,
+      "changeAbs": 5.2001953125,
+      "changePct": 0.11852297008547008,
+      "pctRank": 89.34817170111288,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.319120686098334,
-      "ma20": 4499.294946289063,
-      "ma60": 4280.358321126302,
-      "chg1m": -23.30029296875,
-      "chg3m": 15.89990234375,
-      "chg1mPct": -0.5270843879568192,
-      "chg3mPct": 0.36289548313644315,
+      "drawdown1y": -17.4056055210009,
+      "ma20": 4499.064965820313,
+      "ma60": 4280.281660970052,
+      "chg1m": -27.89990234375,
+      "chg3m": 11.30029296875,
+      "chg1mPct": -0.6311338218207568,
+      "chg3mPct": 0.25791512349067053,
       "lastDate": "2026-09-18",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,60 +237,53 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "US allies fret over how Trump might play his Taiwan hand with Xi - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY3hVM1dFSVFMbUpibXh4OWtYdWFBRnNkN0JhREtSNFZ0R2hVMnN1T0lUTHlneVdReE1kd1YzSENaY2xpWXh5SGVjY09qSXNack9RQkN2VFBYQUxCcE5sUExGNzJxRDJzRXYzX0pZU3NTX3RNOTZ0WEZWZ01oSUp2dHh3SkNZSERMc0tFempuV3RSaXF6OXlGaUhCZGNUZlRvMEhaRWRKcUVMSVN6aVJRcmZ3?oc=5",
-      "datetime": 1789688668,
-      "headlineKo": "미국 동맹국들은 트럼프가 시과 대만 손을 어떻게 놀릴지 걱정하고 있다 - reuters.com"
-    },
-    {
-      "headline": "Impoverished by war in Iran, Afghan migrants return to Taliban rule - reuters.com",
+      "headline": "Impoverished by war in Iran, Afghan migrants return to Taliban rule - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbUtnR01KbXZwRU1yS09FNXhXdnFRaXRXR1YyaWwyOWFvYWl1VC1MbVJFb1dvVWgxNGVFR0xKV3pCQkNycmVDaUJpVjFLYmt4MTVhSmR5dXRlVU54MWFRTG9LY2V4a1g3d2cyblNlVkU2MjNUTWJXaEY0MFNpNG9uZ3dWMWFEZ0ZIZ1dGMFdQby1jd1A5RzZ2TXNsQlJzdEFER2ZjRHE2SWstblhoVFRWWVhGcXFMZw?oc=5",
       "datetime": 1789688032,
-      "headlineKo": "이란 전쟁으로 가난해진 아프가니스탄 이민자들, 탈레반 통치로 복귀 - reuters.com"
+      "headlineKo": "이란 전쟁으로 가난해진 아프가니스탄 이민자들, 탈레반 통치로 복귀 - 로이터"
     },
     {
-      "headline": "EXCLUSIVE: China presses Iran to help rein in Houthis after Saudi appeal, sources say - reuters.com",
+      "headline": "Explainer: How Yemen's Houthis went from a small mountain militia to a big regional threat - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUnJncHUxLTNvV25NTHFxQzVwcnljdzdsTkJCNFNjSlJybF95bFBhcW9DTWV1dnlYQ0prMkI0SmdnNjBrdXNLV0ZNM1pQNW1FcUxuaWpqd3NnRXJ6U2lkQWFqQlR0UVE2X3lYU0RXNXlBdno3QkRkSzB2SEwxUzdYV2NZWlc3SGhZdGRMbUFCVDJZeXZsTy0zOHF4R013c2xyMl8zNmVkaHlFOXM1MmtuZHJRREI3UQ?oc=5",
-      "datetime": 1789685137,
-      "headlineKo": "독점: 중국은 사우디의 항소 이후 이란에 후티 반군 통제를 돕도록 압력을 가했다고 소식통은 전했습니다. - reuters.com"
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcGthY0luQlRSdV83a2g1VktUVlRKMVJCeXVjME5lNEU3MUNocU55OUhIQXhoRThxT0ZiVlUyMkM1ZENVVlowLWNaX0p5bFpjVnpfMDhPTl9EYU01MV94Y19fOE91Ym9oQS1XdENUbGotVjVRcjNsZzFGbnJDQi13Z0tSSEhMYlBiZ2pSallYMkRBb2F0Q24xT0ZpcnRUdzR0OEJLTUo4NEZtazJidEl5N3ItbkhFZmdpWVM5Mw?oc=5",
+      "datetime": 1789687407,
+      "headlineKo": "설명자: 예멘의 후티 반군이 어떻게 작은 산악 민병대에서 큰 지역적 위협으로 변했는지 - Reuters"
     },
     {
-      "headline": "UN mission finds grounds to believe US committed war crimes in Iran, and Tehran crimes against humanity - reuters.com",
+      "headline": "UN mission finds grounds to believe US committed war crimes in Iran, and Tehran crimes against humanity - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbmJVNS1uc3FDVDUwbUJ5bjJkZzRwbTdzNFZYUW00SEloak4wZl9yeXJhWlQ2bEExbjZBSzh6T2lRVjNjQ2VvR1lNZGNBc3BwLXZ6QXJCTmZ3M3BfQVdURWZaaUVOV2k0VkNOTFMwcnhsdXR1VU5IWFRWYlVYNDgzeGNwTDB6d3FURHV4YnZZdFpibE45Qm1tTVJxMi1QZG9lbFFqVW16M1ZzQzRLQW1PVkhud2RLeWtxUVV6OFJweE0wOXZuVG5RRg?oc=5",
       "datetime": 1789680028,
-      "headlineKo": "유엔 사절단, 미국이 이란에서 전쟁 범죄를 저질렀고 테헤란에서 반인도적 범죄를 저질렀다고 믿을 만한 근거를 찾았다 - reuters.com"
+      "headlineKo": "유엔 사절단, 미국이 이란에서 전쟁 범죄를 저질렀고 테헤란에서 반인도적 범죄를 저질렀다는 근거 발견 - 로이터"
     },
     {
-      "headline": "US to allow Iranian leaders to attend UN General Assembly - reuters.com",
+      "headline": "US to allow Iranian leaders to attend UN General Assembly - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMlRxdXlUU25MV1Q5ZThqV29lYjBpb1Y0V2MwV3RqZFNoR25hS2ZUX0VpR0hENmZIMlRPWWxGS1p1WUJmNktPZ0ZMWE8xSGRQYmFOUHkwamNjVTFhZFdpSkUxUEhROGl4Y0Y4X05kcTM5QmxqRXVnRm9hSzNCWGZza2RNX1JqYmJiLUJ3UUFFeHFlZVNQQ2QxbzEtbkF5MzlKSktFV3ZUaEdMdTdOdy1rMU9CYWxlRG81SlM0Zg?oc=5",
       "datetime": 1789679292,
-      "headlineKo": "미국, 이란 지도자들의 유엔 총회 참석 허용 - reuters.com"
+      "headlineKo": "미국, 이란 지도자들의 유엔 총회 참석 허용 - 로이터"
     },
     {
-      "headline": "What will Trump and Xi discuss in Washington next week? - reuters.com",
+      "headline": "What will Trump and Xi discuss in Washington next week? - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOHdmMERXdzJrTFFzNkJOSXZhblo3Tkp1YXctZHBVQU9jdHR0TTZhUmFiYjVMRmsxaGhhbHFEMUdMd2daWVJzcnU0NUZGQTd0bGk0WjBIa0xWRkdGaHRWa2doWU11dGlTRW44ZFRhdmhFYm1ad3NDVV9ndTZQd1VoWXdUcXB1N0JZZ1FGWkJ0b2plUHJTVGk3dnowWQ?oc=5",
       "datetime": 1789679112,
-      "headlineKo": "트럼프와 시은 다음 주 워싱턴에서 무엇을 논의할 것인가? -reuters.com"
+      "headlineKo": "트럼프와 시은 다음 주 워싱턴에서 무엇을 논의할 것인가? - 로이터"
     },
     {
-      "headline": "Ocean container shipping rates could test record highs as Iran war fuel spike drives rise, analysts say - reuters.com",
+      "headline": "Ocean container shipping rates could test record highs as Iran war fuel spike drives rise, analysts say - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONGltbnJEV1l0NXJDNFMxbFBtMUpYQkJWSGFlU2FRaHpNZ0xzNHhDSVJDbWt2Zy13YUNwZEJySUZUWHFEQi1XczZHWlI2dmZNMHZUTHVrR2tJUWpIanZtUFlXVTJEaXFIZTdGWDdQandreldIUm1URGRFZGxuVXhYX1FRcm8teGdSRmpGR1I4QnJ4SGJ6bF9UaGFGdXRadGZlY3o0TDItMm1ac0M4RTZsY2dkY3BQUUgzbzdycktRbmpjTDJy?oc=5",
       "datetime": 1789678184,
-      "headlineKo": "분석가들은 이란의 전쟁 연료 스파이크 드라이브가 증가함에 따라 해상 컨테이너 운송 속도가 사상 최고치를 기록할 수 있다고 말합니다 - reuters.com"
+      "headlineKo": "이란의 전쟁 연료 스파이크 드라이브가 증가함에 따라 해상 컨테이너 운송 속도가 사상 최고치를 시험할 수 있다고 분석가들은 말합니다 - Reuters"
     },
     {
-      "headline": "JP Morgan says it has no clear oil market endgame as Iran conflict drags on - reuters.com",
+      "headline": "JP Morgan says it has no clear oil market endgame as Iran conflict drags on - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSzYzNHdWWVhKTktiSDh6Vi0yOTdmYWZpUlBtUlAwWFNNZjNCdnNkdkxmUWFsUEFuZUl3LWRmTzd4UEdBRVFlODRqenMwUlVya1dNMjY0VkozQVo5VTJNMF9uc1lWRnZlU0pTczdHejBmX2pzWEZiWDhXaWpMZ3FvMm1YS09vVVJKdWo0bWJ1eFZwem5seElGMEFqbjhVQk5zZ1NtblRiT0NFS0dGYUVvQVlhLWtack9OdzROdGxn?oc=5",
       "datetime": 1789673520,
-      "headlineKo": "JP모건은 이란 분쟁이 장기화되면서 석유시장 최종전이 명확하지 않다고 밝혔습니다."
+      "headlineKo": "JP 모건은 이란 분쟁이 장기화되면서 석유시장 최종전이 명확하지 않다고 밝혔습니다."
     },
     {
       "headline": "Intel and Micron lead our portfolio higher, and J&J's strengthens our case for owning it",
@@ -307,6 +300,13 @@ const MARKET_DATA = {
       "headlineKo": "록히드 마틴, 제너럴모터스(GM)로부터 첫 번째 패트리어트 요격체 부품 공급 받아 - 로이터"
     },
     {
+      "headline": "US sanctions Iranian financier's crypto exchange, says it processes Hormuz payments - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVkZiYmtkenBxVnZPWFRFdjZFMloydkRrX1JGb0JaeUxseGlOUG1RUkdWbzlrazJUQ2FZQmk1YjdoZy1IYWNjMkNYeXBGM21nMXlwM0lzZHZCTlNEcVVwSExkczFTSlE1c0dFV0ZMUC1sZGM5TzZaMDV1Qk1Xal9fa0xYVWpEOFdBdXNVVzJVWGYwZ2RqN2pVZFYxLUdjMGpFelBFUmo1Q0h3NVphbDh2TE1UcVNKNG1vR0duVjRnLVJUcWpx?oc=5",
+      "datetime": 1789668225,
+      "headlineKo": "미국, 이란 금융가의 암호화폐 거래소를 제재하고 호르무즈 결제를 처리한다고 밝혔습니다."
+    },
+    {
       "headline": "Stephen Curry says his Li-Ning signature shoe will debut early next year",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/17/stephen-curry-li-ning-signature-shoe.html",
@@ -314,21 +314,21 @@ const MARKET_DATA = {
       "headlineKo": "스테판 커리 \"리닝 시그니처 슈즈 내년 초 선보일 것\""
     },
     {
-      "headline": "Russia, China end mandate for independent monitoring of UN sanctions on Iran - reuters.com",
+      "headline": "Russia, China end mandate for independent monitoring of UN sanctions on Iran - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOHBsNEJfd0VCaF9BYlJXbDRTbFVTc1hGVE01TmdQaF9oRDdlaGw0YzU3TDRucEI4UjRpR2owemo3NUdFLTBkOVFCWm42Z0d3M0p1eHNvU3JBRkNyUG95VWoyWXRoY21lR0lvYjNXUjVEdUFON2x0dHdlbDF5OTlTOXpnV1kwNzlGQmRjODZGZzVsNXVjMHZvbXNad0dEWFdWTXVfdEVSNVh2dGx4elF1Nm5oaw?oc=5",
       "datetime": 1789665464,
-      "headlineKo": "러시아와 중국, 유엔의 이란 제재에 대한 독립적 감시 의무 종료 - reuters.com"
+      "headlineKo": "러시아와 중국, 유엔의 이란 제재에 대한 독립적 감시 의무 종료 - 로이터"
     }
   ],
   "fgi": {
     "score": 28.6857142857143,
     "rating": "fear"
   },
-  "_fetched_at": 1789692144.572445,
-  "_updated_label": "2026-09-18 09:43",
-  "_last_attempt_at": 1789692144.572445,
-  "_last_success_at": 1789692144.572445,
+  "_fetched_at": 1789695763.19485,
+  "_updated_label": "2026-09-18 10:43",
+  "_last_attempt_at": 1789695763.19485,
+  "_last_success_at": 1789695763.19485,
   "_collection_status": "ok",
   "_collection_errors": []
 };

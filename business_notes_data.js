@@ -907,6 +907,26 @@ const BUSINESS_NOTES = {
           {title:"Opinion: Google's Latest Antitrust Ruling Is a Big Win for Alphabet Investors (Motley Fool)", url:"https://www.fool.com/investing/2026/09/03/opinion-googles-latest-antitrust-ruling-is-a-big-win-for-alphabet-investors/"},
         ],
       },
+    
+      {
+        date: "2026-09-16",
+        headline: "블룸버그: 블랙스톤·구글 AI 합작사 'Crux AI'에 은행 10곳이 $220억 TPU담보 대출 주선",
+        importance: "medium",
+        tone: "mixed",
+        horizon: "중장기(2027년까지 500MW 데이터센터 가동 목표 - AI 인프라 자금조달 구조 확인용)",
+        facts: ["2026-09-16(현지시간) 블룸버그 보도에 따르면, 골드만삭스·미쓰이스미토모은행(SMBC)·바클레이스·BNP파리바·노바스코샤은행 등이 이끄는 약 10개 은행 컨소시엄이 블랙스톤과 알파벳(구글)의 AI 인프라 합작법인 'Crux AI'에 총 $220억(약 30조원) 규모의 부채 조달(대출)을 주선했다.", "Crux AI는 이 자금 중 대부분을 구글의 자체 설계 AI칩인 TPU(텐서처리장치) 구매에 사용할 계획이며, 담보는 TPU 하드웨어 자산과 Crux AI의 고객 계약(향후 매출)이다.", "Crux AI는 이 발표 한 주 전(9월 둘째 주)에 공식 출범했으며, 블랙스톤이 $50억 지분투자를 약정했고 구글이 커스텀 칩·소프트웨어·서비스를 공급하는 구조다.", "Crux AI의 1차 목표는 2027년까지 데이터센터 500메가와트(MW) 용량을 가동시키는 것이다.", "은행들은 현재 대출 익스포저를 추가 투자자에게 분산시키기 위한 신디케이션(다자간 매각)을 진행 중이며, 향후에는 이 대출을 투자등급 회사채 시장을 통한 영구채로 대체(리파이낸싱)할 가능성도 거론된다.", "블랙스톤·알파벳·골드만삭스·노바스코샤은행은 언론 문의에 응답하지 않았고, 바클레이스·BNP파리바·SMBC는 논평을 거부해 공식 확인은 아직 없는 상태다(블룸버그 단독 소식통 인용 보도).", "보도 이후 알파벳 주가는 프리마켓에서 약 1% 상승했다(직전 종가 $342.87 기준)."],
+        why: ["AI 데이터센터 확장에 필요한 막대한 자본을 알파벳 본사 재무제표에 직접 부채로 잡지 않고 별도 합작법인(Crux AI)의 프로젝트 파이낸싱 방식으로 조달했다는 점이 핵심이다 - 오라클·메타 등 다른 빅테크들이 써온 '자산담보부 AI 인프라 대출' 구조를 구글도 본격 활용하기 시작했다는 신호다.", "담보가 TPU 하드웨어와 미래 고객계약이라는 점에서, 이런 구조가 업계 전반에서 반복될 경우 'AI 인프라 벤더 파이낸싱(고객사가 공급사 장비 구매자금을 보증하는 순환구조)'에 대한 시장의 순환금융 우려를 자극할 소지가 있다.", "구글로서는 이 방식으로 자기자본이나 직접 차입 없이도 TPU 생산·배치 속도를 끌어올릴 수 있어 클라우드·AI 경쟁에서 용량 확대 속도를 높이는 효과가 있다."],
+        beginner: ["구글이 사모펀드 블랙스톤과 함께 만든 'Crux AI'라는 별도 회사가, 은행 10곳에서 220억 달러(약 30조원)를 빌려서 구글이 만든 AI 반도체(TPU)를 사들이기로 했어요.", "이 돈은 구글이 직접 빚을 지는 게 아니라 Crux AI라는 별도 법인이 빌리는 거라서, 구글의 재무제표에는 바로 안 잡혀요 - 대신 담보는 그 반도체 자체와 앞으로 들어올 매출이에요.", "AI 데이터센터를 짓는 데 돈이 워낙 많이 들다 보니, 빅테크들이 이렇게 '별도 법인 빚'으로 자금을 마련하는 방식이 늘고 있다는 흐름을 보여주는 사례예요."],
+        interpretation: "이번 건은 알파벳의 실적이나 사업 자체에 직접 영향을 주는 사건이라기보다는, AI 인프라 확장 자금을 조달하는 '방식'이 바뀌고 있음을 보여주는 사례다. 별도 합작법인을 통한 자산담보부 대출은 알파벳 본사의 대차대조표 부담을 줄이면서도 TPU 생산·배치 속도를 높일 수 있어 단기적으로는 긍정적으로 해석될 여지가 있다. 다만 이런 구조가 업계 전반(오라클·메타·CoreWeave 등)에서 반복되면서 'AI 기업이 자사 칩을 담보로 돈을 빌려 그 칩을 사는' 순환적 자금조달에 대한 시장의 우려도 함께 누적되고 있다는 점은 유의할 부분이다. 아직 당사자들의 공식 확인은 없는 블룸버그 단독 보도 단계라는 점도 감안해야 한다.",
+        decision: "당장 알파벳 실적에 반영될 사안은 아니며 프리마켓 주가 반응도 약 1%로 크지 않다. AI 인프라 자금조달 트렌드 참고용으로 기록하되, 실제 대출 확정·조건 공개 여부를 계속 지켜볼 것.",
+        watch: ["블랙스톤·알파벳의 공식 확인 및 대출 조건(금리·만기) 공개 여부", "신디케이션(대출 분산 매각) 진행 상황과 참여 은행 확대 여부", "2027년 500MW 데이터센터 가동 목표의 실제 진행 상황", "유사한 자산담보부 AI 인프라 대출이 업계 전반(오라클·메타 등)에서 추가로 나타나는지 여부 - 순환금융 우려 확산 가능성"],
+        confidence: "핵심 수치($220억 대출, 참여은행 명단, $50억 블랙스톤 지분투자, 500MW 목표)는 블룸버그 단독 보도를 Investing.com·MarketScreener 등이 동일하게 인용해 교차 확인됨. 다만 당사자(블랙스톤·알파벳·주요 은행) 전원이 공식 확인을 거부한 '소식통 인용' 보도 단계라는 한계가 있어, 최종 계약 체결 여부와 세부 조건은 아직 미확정으로 봐야 한다. 알파벳 주가 반응(프리마켓 +1%)은 Parameter.io 기준.",
+        sources: [
+          { title: "Blackstone, Alphabet Secure $22 Billion AI Chip Loan Backed by Major Banks (Bloomberg)", url: "https://www.bloomberg.com/news/articles/2026-09-16/banks-line-up-22-billion-chip-loan-tied-to-blackstone-alphabet" },
+          { title: "Banks provide $22 billion chip loan to Blackstone, Alphabet cloud venture (Investing.com/Reuters)", url: "https://www.investing.com/news/stock-market-news/banks-provide-22-billion-chip-loan-to-blackstone-alphabet-cloud-venture-bloomberg-news-reports-4904543" },
+          { title: "Alphabet (GOOGL) Stock Rises on $22B Crux AI Financing Deal for TPU Infrastructure (Parameter)", url: "https://parameter.io/alphabet-googl-stock-rises-on-22b-crux-ai-financing-deal-for-tpu-infrastructure/" },
+        ],
+      },
     ],
     viewLog: [
       {
@@ -3295,6 +3315,26 @@ const BUSINESS_NOTES = {
           {title:"Tesla's Big Robotaxi Progress Is Hidden in Plain Sight (The Motley Fool)", url:"https://www.fool.com/investing/2026/08/03/teslas-big-robotaxi-progress-is-hidden-in-plain-si/"},
         ],
       },
+    
+      {
+        date: "2026-09-16",
+        headline: "테슬라 Cybercab, NHTSA가 감사질의를 '특별명령'으로 격상 - 9/30까지 선서 답변 의무, 위반시 최대 $1.39억 민사제재금",
+        importance: "high",
+        tone: "risk",
+        horizon: "단기(9/30 답변기한까지 규제 리스크 집중) + 중기(로보택시 사업 확장 속도에 영향 가능)",
+        facts: ["2026-09-03 텍사스 오스틴에서 스티어링휠·페달이 없는 완전자율 Cybercab 상업 서비스를 개시한 직후, NHTSA가 자기인증(self-certification) 적절성을 따지는 감사질의(Audit Query, 사건번호 AQ26002)를 개시했다 - 이는 09-03·09-04 항목에서 이미 기록된 초기 조사 개시 건의 후속 전개다.", "복수 매체(Teslarati·driveteslacanada 등) 보도에 따르면 NHTSA는 이 감사질의를 2023년 오토파일럿 조사 때와 동일한 방식인 '특별명령(Special Order)'으로 전환했다 - 특별명령은 법적 구속력이 있어 테슬라 임원이 답변의 완전성을 선서(sworn affidavit)해야 하는 더 무거운 절차다.", "테슬라는 2026-09-30까지 21개 항목에 대해 선서 답변을 제출해야 한다 - 시험주행 시 임시 조향·제동장치 사용 여부, 어떤 연방안전기준(FMVSS)을 자율주행차에 적용 불가로 판단했는지 근거, 방향지시등·후사경·전자식주행안정장치 등 장비 사양, 그리고 특히 '풋 페달이 없는 Cybercab이 연방규정상 풋컨트롤로 제동장치를 작동해야 한다'는 요건을 어떻게 충족하는지 등이 포함된다.", "자율주행 로보택시 업체 죽스(Zoox)는 동일한 풋페달 요건에 대해 정식으로 '적용 예외(Part 555 exemption)'를 승인받았는데, 테슬라는 별도 예외 신청 없이 자체적으로 적합 판정을 내렸다는 점이 이번 조사의 핵심 쟁점으로 지목됐다.", "Motor1 분석에 따르면 위반이 확인될 경우 최대 약 $1.39억의 민사제재금이 부과될 수 있고, 특별명령 답변에 허위 진술이 포함되면 별도의 형사책임 리스크도 있다.", "특별명령 자체가 즉각적인 서비스 중단을 명령한 것은 아니지만, 추후 위반이 확인되면 리콜이나 서비스 일시중단으로 이어질 가능성이 보도에서 언급됐다.", "이 소식이 확산된 9/16~17 테슬라·스페이스X 주가는 하루 약 2% 하락했다가 다음날 프리마켓에서 일부 회복했다(Teslarati)."],
+        why: ["기존에 기록된 9/3~9/4 'NHTSA 조사 개시' 항목이 예비 단계였다면, 이번 특별명령 전환은 법적 구속력이 있는 정식 집행 절차로 격상된 것으로 로보택시 사업의 규제 리스크가 실질적으로 커졌다는 의미다.", "9/30이라는 명확한 데드라인과 최대 $1.39억 제재금이라는 구체적 금액이 제시돼, 단순 '조사 중' 단계보다 투자자가 추적해야 할 리스크 이벤트로서의 구체성이 높아졌다.", "풋페달 요건처럼 Cybercab의 근본 설계(페달 자체가 없음)와 직결된 항목이 쟁점이라, 최악의 경우 설계 변경이나 서비스 확대 지연으로 이어질 수 있는 사안이다."],
+        beginner: ["테슬라가 페달·핸들이 없는 무인택시 'Cybercab'을 오스틴에서 영업 개시했는데, 미국 도로교통안전국(NHTSA)이 '이 차가 정말 안전기준을 지켰는지' 공식으로 캐묻기 시작했어요.", "지난번엔 그냥 '조사를 시작했다' 정도였다면, 이번엔 테슬라 임원이 선서까지 하고 9월 30일까지 21개 질문에 답해야 하는 더 무거운 절차로 바뀌었어요 - 답을 잘못하면 최대 약 1,900억원(1.39억 달러)의 벌금을 물 수도 있어요.", "특히 '브레이크는 발로 밟는 페달이 있어야 한다'는 오래된 규정을 Cybercab(페달 없음)이 어떻게 지켰는지가 핵심 쟁점이라, 이 부분에서 문제가 확인되면 서비스에 제동이 걸릴 수도 있어요."],
+        interpretation: "이번 건은 완전히 새로운 사건이라기보다는, 이미 기록된 9/3~9/4 NHTSA 조사 개시 건이 약 2주 만에 법적 구속력이 있는 '특별명령'으로 격상된 것이다. 로보택시가 테슬라의 장기 성장 스토리에서 차지하는 비중이 큰 만큼, 규제당국과의 마찰이 실제 벌금이나 설계 변경·서비스 제한으로 이어질지가 9/30 데드라인을 기점으로 빠르게 판가름날 가능성이 있다. 다만 특별명령 자체가 즉시 서비스 중단을 의미하지는 않으며, 테슬라가 기한 내 답변을 제출하면서 예외 신청 등으로 대응할 여지도 있다.",
+        decision: "기존 9/3~9/4 항목과 이어지는 리스크 이벤트로 계속 추적할 것 - 9/30 답변기한과 NHTSA의 후속 조치(추가 조사 확대 여부, 예외 신청 여부)가 로보택시 사업 확장 속도에 미치는 영향을 다음 점검 때 업데이트.",
+        watch: ["2026-09-30 테슬라의 특별명령 답변 제출 및 그 내용(예외 신청 여부 포함)", "NHTSA가 답변을 검토한 뒤 리콜·서비스 제한·추가 제재를 실제로 부과하는지 여부", "테슬라가 풋페달 요건 등에 대해 Zoox처럼 정식 예외(Part 555)를 신청하는지", "오스틴 외 지역으로의 Cybercab 서비스 확대 일정에 이번 조사가 미치는 영향"],
+        confidence: "특별명령 전환, 21개 질문 항목, $1.39억 잠재 제재금 규모는 Teslarati·driveteslacanada·Motor1 등 복수 전문매체가 일치되게 보도해 신뢰도가 높다. 다만 특별명령의 정확한 발동일은 매체별로 9/3~9/10 사이로 약간 엇갈려 이 부분만 참고용으로 남겨둔다(응답기한 9/30은 모든 매체 일치). 벌금 액수는 Motor1의 자체 분석치로, NHTSA의 공식 제재 발표는 아직 없다.",
+        sources: [
+          { title: "NHTSA Orders Tesla to Answer 21 Questions on Cybercab Certification (driveteslacanada)", url: "https://driveteslacanada.ca/news/nhtsa-cybercab-special-order-aq26002/" },
+          { title: "NHTSA just escalated its Tesla Cybercab investigation in a big way (Teslarati)", url: "https://www.teslarati.com/nhtsa-just-escalated-its-tesla-cybercab-investigation-in-a-big-way/" },
+          { title: "NHTSA Opens Investigation into Tesla Cybercab Self-Certification (NHTSA official)", url: "https://www.nhtsa.gov/press-releases/investigation-tesla-cybercab-self-certification" },
+        ],
+      },
     ],
     viewLog: [
       {
@@ -3417,6 +3457,25 @@ const BUSINESS_NOTES = {
         sources: [
           {title:"Salesforce stock at a crossroads after 31% rally ahead of August earnings (Investing.com)", url:"https://www.investing.com/news/stock-market-news/salesforce-stock-at-a-crossroads-after-31-rally-ahead-of-august-earnings-93CH-4855018"},
           {title:"Salesforce Stock Tumbles 30% in 2026, But One Analyst Sees 117% Surge to $400 (BigGo Finance)", url:"https://finance.biggo.com/news/cf62cb06-9521-421e-ac09-7a83f248bd1c"},
+        ],
+      },
+    
+      {
+        date: "2026-09-16",
+        headline: "세일즈포스, 드림포스서 FY2030 매출 목표 $630억로 상향 제시 - 기존 '$600억+' 대비 상향, 월가 예상치 상회",
+        importance: "medium",
+        tone: "positive",
+        horizon: "중장기(FY2030까지 목표 달성 여부가 관건 - 단기 주가보다 장기 성장 스토리 재료)",
+        facts: ["2026-09-16(현지시간) 세일즈포스가 연례 컨퍼런스 '드림포스 2026'의 애널리스트/투자자 데이를 통해 FY2030(2030년 1월 결산) 매출 목표를 '$630억 이상'으로 새로 제시했다 - 기존에 제시했던 '$600억 이상' 목표에서 상향된 수치다.", "이 목표는 월가 애널리스트들의 사전 추정치(약 $590억~$614억)를 웃도는 수준이다.", "CEO 마크 베니오프는 AI 에이전트 플랫폼 'Agentforce'의 진전을 이번 상향의 핵심 근거로 제시했다 - 08-26 항목에 기록된 Agentforce 매출 YoY +240% 급증 흐름의 연장선이다.", "직전 공식 가이던스인 FY2027(2027년 1월 결산) 연간 매출 전망은 약 $462억(08-27 항목 기록)로, 이번 FY2030 목표($630억+)는 이로부터 약 3년간 누적 약 36% 성장(연평균 약 11%대)을 시사한다.", "세부 이익률·마진 목표는 이번 보도에서 공개되지 않았다.", "시장은 이 가이던스를 월가 눈높이를 웃도는 것으로 평가했으나, 애널리스트들은 향후 실적 발표에서 Agentforce가 '시범 도입(pilot)'을 넘어 실제 유료 좌석 규모로 전환되는지를 계속 확인해야 한다고 지적했다."],
+        why: ["08-26 실적 발표 때의 Agentforce 고성장(+240%) 서프라이즈가 일회성이 아니라 향후 수년간 이어질 성장동력이라는 점을 회사 스스로 장기 목표치로 재확인시킨 이벤트다.", "직전 FY27 매출 가이던스($462억) 대비 FY30 목표($630억+)가 시장 예상보다 높게 제시되면서, 회사의 장기 성장 서사에 대한 경영진의 자신감을 보여준다."],
+        beginner: ["세일즈포스가 연례 큰 행사(드림포스)에서 '2030년까지 매출을 630억 달러 이상으로 키우겠다'는 새 목표를 내놨는데, 이게 원래 목표(600억 달러+)보다 높아진 거예요.", "이 회사가 요즘 밀고 있는 AI 에이전트 서비스 'Agentforce'가 잘 크고 있다는 걸 근거로 든 거라, AI 사업이 실제로 매출에 기여하고 있다는 신호로 볼 수 있어요.", "다만 이건 '앞으로 4년 뒤(2030년)까지의 목표'라서, 당장 다음 분기 실적에 큰 영향을 주기보다는 장기적인 성장 스토리를 다시 확인해준 이벤트로 보면 돼요."],
+        interpretation: "이번 목표 상향은 08-26 실적에서 확인된 Agentforce 고성장 흐름이 일회성 서프라이즈가 아니라 경영진이 공식적으로 베팅하는 장기 성장축임을 재확인시켜준다. 다만 목표 자체는 4년 뒤(FY2030) 시점이라 즉각적인 실적 변화를 의미하지 않으며, 실제로 이 목표가 현실화되려면 Agentforce가 시범 도입 단계를 넘어 대규모 유료 전환으로 이어져야 한다는 전제가 필요하다. 08-26 항목에서 지적된 'AI 성장 증거 부족' 우려에 대한 회사 차원의 장기적 반박 성격의 이벤트로 볼 수 있다.",
+        decision: "장기 성장 스토리 강화 재료로 긍정적이나, 단기 주가를 즉각 움직일 실적 이벤트는 아니다. 다음 분기 실적에서 Agentforce의 실제 유료 전환 지표(좌석 수, ARR 기여 등)가 이 목표와 부합하는 속도로 나오는지 확인이 필요하다.",
+        watch: ["다음 분기 실적 발표에서 Agentforce ARR·유료 고객 수 등 구체적 전환 지표 공개 여부", "FY2030 목표($630억+) 대비 매년 실제 매출 가이던스가 궤도를 유지하는지", "경쟁사(마이크로소프트 Copilot/Dynamics 등) AI 에이전트 제품과의 점유율 경쟁 상황"],
+        confidence: "$630억 목표치, 기존 '$600억+' 대비 상향, 월가 예상치($590억~$614억) 상회 여부는 CNBC·Vantage Markets 등 복수 매체가 일치되게 보도해 신뢰도가 높다. 다만 세부 마진·수익성 목표, 구체적 주가 반응폭은 확인한 자료에 명시되지 않아 기록에서 제외했다.",
+        sources: [
+          { title: "Salesforce issues revenue target of over $63 billion for fiscal 2030, beating estimates (CNBC)", url: "https://www.cnbc.com/2026/09/16/salesforce-issues-revenue-target-of-63-billion-for-fiscal-2030.html" },
+          { title: "Salesforce Lifts FY2030 Revenue Target to $63B (Vantage Markets)", url: "https://www.vantagemarkets.com/market-news/salesforce-63-billion-revenue-fiscal-2030-september-17-2026/" },
         ],
       },
     ],
@@ -4749,6 +4808,26 @@ const BUSINESS_NOTES = {
         sources: [
         {title:"GE Vernova reports second quarter 2026 financial results and raises 2026 financial guidance", url:"https://www.gevernova.com/news/press-releases/ge-vernova-reports-second-quarter-2026-financial-results-raises-2026-financial"},
         {title:"GE Vernova's Q2 Earnings Beat on Revenue. EBIT Margin Told a Different Story (TIKR)", url:"https://www.tikr.com/blog/ge-vernovas-q2-earnings-beat-on-revenue-ebit-margin-told-a-different-story"},
+        ],
+      },
+    
+      {
+        date: "2026-09-16",
+        headline: "GE 버노바-베인야드윈드, $3억+ 규모 터빈 대금 분쟁 전격 합의 - 해상풍력 소송 종결",
+        importance: "medium",
+        tone: "positive",
+        horizon: "단기(소송 불확실성 해소) + 중기(해상풍력 서비스 사업 지속 여부)",
+        facts: ["2026-09-16 GE 버노바와 매사추세츠 해상풍력 프로젝트 '베인야드윈드(Vineyard Wind) 1'을 둘러싼 상업 소송이 합의로 종결됐다고 양사가 공동 발표했다.", "분쟁의 발단은 2024년 터빈 블레이드 파손 사고로, 파손된 블레이드 잔해가 해변에 밀려온 사건이었다 - 이후 베인야드윈드가 터빈 결함·공사 지연 책임을 물어 GE 버노바에 대한 대금 지급을 보류했다.", "GE 버노바는 이에 맞서 터빈 시공·유지보수 계약을 해지하겠다고 통보하며, 이미 완료한 작업에 대해 $3억 이상 미지급됐다고 주장해왔다.", "합의에 따라 GE 버노바는 계약 해지 통보를 철회했고, 양측은 관련 모든 법적 청구를 취하했다 - 구체적인 합의금·조건은 공개되지 않았다.", "베인야드윈드 1 프로젝트는 현재 터빈 62기 전량이 발전 가능한 상태로 가동 중이며, 약 806MW 용량으로 40만 가구 이상에 전력을 공급하고 있다.", "합의 발표 당일 GE 버노바 주가는 거의 보합(-0.02%, $924.93)에 그쳤다 - 같은 날 CEO 스콧 스트라지크의 업계 컨퍼런스 발표(서비스 사업·수주잔고 강세)에 베어드·제퍼리스 등 애널리스트들이 목표주가를 유지(각각 $1,400·$1,185)하며 별도로 긍정적 반응을 보였다."],
+        why: ["08-27 실적에서 이미 지적된 'EPS 미스·마진 우려'와는 별개로, 이번 소송 종결은 프로젝트 관련 법적 불확실성 하나를 제거했다는 점에서 의미가 있다.", "GE 버노바가 계약 해지 통보를 철회하고 유지보수 역할을 유지하기로 했다는 점에서, 향후 해상풍력 관련 서비스 매출을 계속 인식할 수 있는 기반이 유지됐다.", "다만 합의금 등 구체적 재무조건이 비공개라 이번 합의가 실제 GE 버노바 실적(특히 이미 논란이 된 마진)에 미치는 영향은 확인이 어렵다."],
+        beginner: ["GE 버노바가 미국 매사추세츠 해상풍력 발전소(베인야드윈드)에 터빈을 만들어줬는데, 2024년에 날개(블레이드)가 부서지는 사고가 나면서 '누구 책임이냐'를 두고 돈을 안 주고 안 받는 소송전이 벌어졌었어요.", "이번에 양쪽이 소송을 접고 원만하게 합의했어요 - GE 버노바는 원래 하려던 '계약 해지'도 취소하고 계속 이 발전소 관리를 맡기로 했어요.", "구체적으로 돈을 얼마씩 주고받기로 했는지는 공개 안 됐지만, 최소한 이 프로젝트를 둘러싼 법적 다툼은 끝났다는 게 핵심이에요."],
+        interpretation: "이번 합의는 GE 버노바의 핵심 성장 스토리(가스터빈·전력망 수주잔고)와는 직접 관련이 적은, 개별 해상풍력 프로젝트의 소송 리스크 해소 사안이다. 구체적 합의금이 비공개라 재무적 임팩트를 정량화하기는 어렵지만, 법적 불확실성 제거 자체는 긍정적이며 GE 버노바가 유지보수 역할을 계속 맡기로 한 점은 관계 회복을 시사한다. 다만 주가는 거의 무반응이었다는 점에서 시장은 이를 중대 재료로 보지 않은 것으로 판단된다.",
+        decision: "중요도는 낮음~중간 수준의 소송 종결 이벤트로 기록하되, 08-27 실적에서 지적된 마진 우려가 이번 합의로 개선되는지는 다음 분기 실적에서 별도 확인 필요.",
+        watch: ["다음 분기 실적에서 해상풍력 서비스 부문 매출·마진에 이번 합의가 미친 영향이 드러나는지", "베인야드윈드 외 다른 해상풍력 프로젝트에서 유사한 대금 분쟁이 재발하는지"],
+        confidence: "합의 발표, 분쟁 배경(2024년 블레이드 파손, $3억+ 미지급 주장), 프로젝트 가동 현황(62기, 806MW)은 GE 버노바 공식 보도자료와 Boston Globe·Insurance Journal 등 복수 매체가 일치되게 보도해 신뢰도가 높다. 다만 구체적 합의금·조건은 양사 모두 비공개로 확인 불가하다. 주가 반응 수치는 Motley Fool 인용.",
+        sources: [
+          { title: "Vineyard Wind and GE Vernova Announce Resolution of Commercial Litigation (GE Vernova official)", url: "https://www.gevernova.com/news/press-releases/vineyard-wind-ge-vernova-announce-resolution-commercial-litigation" },
+          { title: "GE Vernova and Vineyard Wind Settle $300M-Plus Offshore Wind Dispute (OilPrice.com)", url: "https://oilprice.com/Company-News/GE-Vernova-and-Vineyard-Wind-Settle-300M-Plus-Offshore-Wind-Dispute.html" },
+          { title: "Why GE Vernova Stock Bumped Higher Today (The Motley Fool)", url: "https://www.fool.com/investing/2026/09/17/why-ge-vernova-stock-bumped-higher-today/" },
         ],
       },
     ],
