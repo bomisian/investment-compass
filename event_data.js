@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789750805.6696942,
+  "generatedAt": 1789753200.623504,
   "events": [
     {
       "id": "63ee4e0a4a6815449b1b",
@@ -13241,7 +13241,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000210/crm-20260916.htm",
         "publishedAt": 1789570800.0,
-        "collectedAt": 1789701207.7106779
+        "collectedAt": 1789753183.8338752
       },
       "confirmedFacts": [
         "CRM가 2026-09-17에 SEC Form 8-K을 제출했습니다.",
@@ -13306,7 +13306,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926108614/tm2625565d1_8k.htm",
         "publishedAt": 1789570800.0,
-        "collectedAt": 1789701207.7106779
+        "collectedAt": 1789753183.8338752
       },
       "confirmedFacts": [
         "MOD가 2026-09-17에 SEC Form 8-K을 제출했습니다.",
