@@ -237,39 +237,39 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Saudi civil defence sends all-clear after alerts issued for capital Riyadh - Reuters",
+      "headline": "Saudi civil defence sends all-clear after alerts issued for capital Riyadh - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYWNnM0NScnlDOXNDY25xQjhZVlRHUUtMOEV3YVZSOW5xekdVelcycGI1VHl3dWpqVGhNM2s1N05NamZxV0hoNVBFN204OHM5dVlQemMySkJGMlpCaURybUY4TVZfd0RDUUxzb3RTeWJVVEI4blFQZFhJekptSHRFUVdqb1pDai1VQ1hPS1JHWk92MEpZYWtESDduUmpwUEg4Nzc4bFp3VDQzM2JMTnRZXzgzbVBvUDk0clU4a3dHMlhuQk0?oc=5",
       "datetime": 1789778520,
-      "headlineKo": "사우디아라비아 민방위가 수도 리야드에 대한 경보를 발령한 후 명확하게 통보 - Reuters"
+      "headlineKo": "사우디 민방위군, 수도 리야드에 경보 발령 후 모든 조치 해제 - reuters.com"
     },
     {
-      "headline": "Trump signs Russia sanctions bill into law - Reuters",
+      "headline": "Trump signs Russia sanctions bill into law - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMWZ3NVV2eHJuOEVQcDhZX3BVSnh2aWxQcE0wWERtWGc3MG9ZS3VmN1lqemJPNS1NbE1pU3RDTlR5TUIteF9hMVdNY2NITDU2N3lva3hWelYydUQ1Nm9xWUZZUHN3R29QeXR3VzhIdFNyOXJ6T1FLNlNEU3JIbUx3Q1ZCVWxHdnI4ZmhJVjFfd0s?oc=5",
       "datetime": 1789770053,
-      "headlineKo": "트럼프, 러시아 제재 법안 서명 서명 - 로이터"
+      "headlineKo": "트럼프, 러시아 제재 법안 서명 - reuters.com"
     },
     {
-      "headline": "US troop deaths during Iran war exceed Pentagon count by at least four, Washington Post reports - Reuters",
+      "headline": "US troop deaths during Iran war exceed Pentagon count by at least four, Washington Post reports - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWTJWTFE3dlFIRDVOVDZiY01XQXNxNDI0Z1RiWlFybTFpaEFEQUtpcVRnaEVNUUxPSkl3eFpLc1JzakdRWHNFQWZSUHhQMmQ0T0MtOHBrUjFYTGIzM0dMUmFwNGZPdWhkZUdUSmR1Q29mTHZXNDJuY2d6MllvMXNTM3pGM1BHQmVvQkstdEd2SDE2ZjJ4dXpxdmVSa25KcWJxaUV5eUFrNGFLSUJoT21wNDRieGxuQjFzTXNxU1dFZFlCT3R3aEJESmRR?oc=5",
       "datetime": 1789769329,
-      "headlineKo": "이란 전쟁 중 미군 사망자가 국방부보다 최소 4명 더 많았다고 워싱턴 포스트가 보도했습니다. - 로이터"
+      "headlineKo": "이란 전쟁 중 미군 사망자가 국방부보다 최소 4명 더 많았다고 워싱턴 포스트가 보도했습니다. - reuters.com"
     },
     {
-      "headline": "Saudi Civil Defense lifts warnings of potential danger in several areas - Reuters",
+      "headline": "Saudi Civil Defense lifts warnings of potential danger in several areas - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdlpTM1JIVGlNanRpa0drbElOWTNPVGp4bUhMNEd6TTZnbFRQbG5IMDV2VmxTS0VLeTNKaWl1cDJDeml0U2F6NjNGMFJoWkdVTHV1cG5BeHBtWm9LbnoxYXBmSXB2MFE2MGlla092UW1fZTF6eHFxc2NjNFlORkVpc3Q4b0NOdk44Z1NXTVdZQVhqNHpTRFduNFF5SXRicFpiX0lSWGlmWUZVa2laMGlrZ3Vn?oc=5",
       "datetime": 1789764489,
-      "headlineKo": "사우디 민방위대, 여러 분야의 잠재적 위험 경고 해제 - Reuters"
+      "headlineKo": "사우디 민방위대, 여러 분야에서 잠재적 위험 경고 해제 - reuters.com"
     },
     {
-      "headline": "Republican China committee chair urges tough Trump line with Xi - Reuters",
+      "headline": "Republican China committee chair urges tough Trump line with Xi - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVHE0eGdjejdPVC0wcEJESG1KY3hhNU1DMUZmOHZJUTFjZHRpM1BsLVcwbzVlOUJpVHFxZnBPNzJlTldZelp1WlcwVU5fQ2d2MXZCZS1NSm9uWkQ4MlpHRUQwY21BdU5BRUs2a3ZBODhETlZNd1pTMk94a1NWN3BMaGNHMVl0MWVIeTdWQk9KWVFvS0ZnVnZ1RWJQSlFMcjNVRm1TYkFfMTRvSUY2?oc=5",
       "datetime": 1789760071,
-      "headlineKo": "중국 공화당 위원장, 트럼프 대통령과 시진핑의 강경한 노선 촉구 - 로이터"
+      "headlineKo": "중국 공화당 위원장, 트럼프 대통령과 시의 강경한 노선 촉구 - reuters.com"
     },
     {
       "headline": "What it will take for us to buy the dip in DuPont. Plus, profit-taking hits cyber stocks",
@@ -286,11 +286,11 @@ const MARKET_DATA = {
       "headlineKo": "맥도날드는 새로운 '가치 있는 식사'라고 트레이더 Mike Khouw는 말합니다."
     },
     {
-      "headline": "Caviar and champagne: Air France's luxury shift helps ride out Iran war impact - Reuters",
+      "headline": "Caviar and champagne: Air France's luxury shift helps ride out Iran war impact - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRi1pY1Bqc1lTWGhEbU5ydjdqZFVDQ2RYb3NidmNYTTc4Mkw2WkZFbXNqWlEzS0FVN200UjgwWElaWFlWcTRPSXRIN2Z4YmVDZ2dJdGZ2cnJWMDA4NUNVUnoxS3RuV2IwNDBZVjRSaGFFMTZ6Q3hUeF9fdEg4MEg4VVBtT2hyLTllVmw2QmRCNlVJY3IyVTEzM2hwbnpKTVVnN2hwem9wZmpFQUpaTHpEQTJtUkxnRC1Jc1RFX2Znem1IVmth?oc=5",
       "datetime": 1789754136,
-      "headlineKo": "캐비어와 샴페인: 에어프랑스의 럭셔리 근무가 이란 전쟁의 영향을 극복하는 데 도움이 됩니다 - Reuters"
+      "headlineKo": "캐비어와 샴페인: 에어프랑스의 럭셔리 근무가 이란 전쟁의 영향을 극복하는 데 도움이 됩니다 - reuters.com"
     },
     {
       "headline": "Nike parts ways with Kylian Mbappé, soccer superstar signs with On",
@@ -325,10 +325,10 @@ const MARKET_DATA = {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789797712.4798687,
-  "_updated_label": "2026-09-19 15:02",
-  "_last_attempt_at": 1789797712.4798687,
-  "_last_success_at": 1789797712.4798687,
+  "_fetched_at": 1789801340.2624269,
+  "_updated_label": "2026-09-19 16:03",
+  "_last_attempt_at": 1789801340.2624269,
+  "_last_success_at": 1789801340.2624269,
   "_collection_status": "ok",
   "_collection_errors": []
 };
