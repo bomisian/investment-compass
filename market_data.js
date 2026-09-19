@@ -244,6 +244,13 @@ const MARKET_DATA = {
       "headlineKo": "목격자에 따르면 리야드 공항 근처에서 불꽃과 검은 연기가 보였다 - 로이터 통신"
     },
     {
+      "headline": "Oil slides after China asks Iran to limit Houthi attacks on Saudi oil facilities - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeDVrUGNRTzdTOG1wQ1ljY2w0Y002MjMxSVNvM2RrLTBhM3B1dEJVS1B6bnJWTjhydS1BUHpfTVFtbHh2QkdMdFU1ZVo3MDJtQ01kbldpa0lfWFM0QXFWbmVsN1RqcjcxMHczN3JGSHItelVZMzQtYklTN1kwVlJxLU5RVzAwc3BEQV9iVFI1N0xhRXluaGZxN0NrWkxFMDk5Q0pYZw?oc=5",
+      "datetime": 1789806038,
+      "headlineKo": "중국이 이란에 사우디 석유 시설에 대한 후티 반군 공격을 제한하라고 요청한 후 유가 하락 - 로이터 통신"
+    },
+    {
       "headline": "Iran executes man convicted of spying for Israel's Mossad, judiciary says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUHlXMU02X1Q1U245V0NOTFNPTGFPLXBYTFBNUG84ZlBWY2hteTNWRTNadlNxWWUzQVktelVDbmxOenJuQlZzV1h2bHlfNXZfWTh2RVNYeTVRVkhfTFpGTVNGSm5xeHhNUnE0U2E2ZmEtYmVDaFkwY25wUFl3alBnYXhJUnZGeVc5dVZKTU1aYTIxcW1xTmk3UGpBSmt4bU1lTHpsN1Rya1o2WDZlZ295LVZISUpXc0dZZEE?oc=5",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/18/mcdonalds-is-the-new-value-meal-says-trader-mike-khouw.html",
       "datetime": 1789755107,
       "headlineKo": "맥도날드는 새로운 '가치 있는 식사'라고 트레이더 Mike Khouw는 말합니다."
-    },
-    {
-      "headline": "Caviar and champagne: Air France's luxury shift helps ride out Iran war impact - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRi1pY1Bqc1lTWGhEbU5ydjdqZFVDQ2RYb3NidmNYTTc4Mkw2WkZFbXNqWlEzS0FVN200UjgwWElaWFlWcTRPSXRIN2Z4YmVDZ2dJdGZ2cnJWMDA4NUNVUnoxS3RuV2IwNDBZVjRSaGFFMTZ6Q3hUeF9fdEg4MEg4VVBtT2hyLTllVmw2QmRCNlVJY3IyVTEzM2hwbnpKTVVnN2hwem9wZmpFQUpaTHpEQTJtUkxnRC1Jc1RFX2Znem1IVmth?oc=5",
-      "datetime": 1789754136,
-      "headlineKo": "캐비어와 샴페인: 에어프랑스의 럭셔리 근무가 이란 전쟁의 영향을 극복하는 데 도움이 됩니다 - Reuters"
     }
   ],
   "fgi": {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789855204.4222894,
-  "_updated_label": "2026-09-20 07:00",
-  "_last_attempt_at": 1789855204.4222894,
-  "_last_success_at": 1789855204.4222894,
+  "_fetched_at": 1789858803.1715944,
+  "_updated_label": "2026-09-20 08:00",
+  "_last_attempt_at": 1789858803.1715944,
+  "_last_success_at": 1789858803.1715944,
   "_collection_status": "ok",
   "_collection_errors": []
 };
