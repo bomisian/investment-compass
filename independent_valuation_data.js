@@ -111,8 +111,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "kind": "independent_value_dcf_scenario_engine",
       "asOf": "2026-09-19",
       "valuationAnchorDate": "2026-07-26",
-      "runId": "AMAT_REAL_20260919T092248357373",
-      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260919T092248291372",
+      "runId": "AMAT_REAL_20260919T095236906421",
+      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260919T095236828427",
       "engineVersion": "amat_calc_engine v4 (2026-09-18, 모델 채택 검토) -- D&A/CapEx 비율 곡선을 FY2025 실측 대조로 조정(min(0.60,0.20+0.10*(i+1)) -> min(0.45,0.19+0.065*i)), 계산 결과가 달라짐(v3 대비). 과거 실행은 각자 저장된 code_snapshots로 그 시점 값 그대로 재현 가능.",
       "isReplayFixture": false,
       "px": 191.21344766158418,
@@ -123,21 +123,21 @@ const INDEPENDENT_VALUATION_DATA = {
           "growthY1": 0.3134993682913383,
           "roic": 0.18,
           "ntmValue": 40504380020.0,
-          "runId": "AMAT_REAL_20260919T092248316726"
+          "runId": "AMAT_REAL_20260919T095236859570"
         },
         "base": {
           "px": 191.21344766158418,
           "growthY1": 0.38220422220060324,
           "roic": 0.22,
           "ntmValue": 42623031600.0,
-          "runId": "AMAT_REAL_20260919T092248357373"
+          "runId": "AMAT_REAL_20260919T095236906421"
         },
         "optimistic": {
           "px": 202.94689427376647,
           "growthY1": 0.45090907610986797,
           "roic": 0.26,
           "ntmValue": 44741683180.0,
-          "runId": "AMAT_REAL_20260919T092248400671"
+          "runId": "AMAT_REAL_20260919T095236955544"
         }
       },
       "priorDeliveredPx": 129.13,
@@ -278,7 +278,7 @@ const INDEPENDENT_VALUATION_DATA = {
         "commercial_paper_value": 0.0,
         "commercial_paper_status": "not_separately_reported_confirmed"
       },
-      "changeReasonVsPrevious": "평가 규칙(설정 파일) 변경",
+      "changeReasonVsPrevious": "직전 실행과 입력값 동일(변경 없음)",
       "summaryCard": {
         "fairValueRangeLow": 178.6530466547334,
         "fairValueRangeHigh": 202.94689427376647,
@@ -288,7 +288,7 @@ const INDEPENDENT_VALUATION_DATA = {
         "currentPriceNote": "이 실행이 계산 당시 비교한 가격(위 asOf 시점) -- 화면을 여는 시점의 실시간 가격과 다를 수 있음",
         "diffVsCurrentPricePct": 132.49934184076494,
         "diffVsCurrentPriceLabel": "높음",
-        "inputChangeSummary": "평가 규칙(설정 파일) 변경",
+        "inputChangeSummary": "직전 실행과 입력값 동일(변경 없음)",
         "dataStatusLevel": "확인_필요",
         "dataStatusLabel": "일부 자료 확인 필요",
         "dataStatusDetail": "순부채가 SEC 자동수집이 아니라 사람이 직접 확인한 정적값으로 계산됐습니다(기준일 2026-07-26). 자동수집 실패 사유: identity_check_failed: 순부채 구성요소 신원 미확인/불일치: commercial_paper(cik 필드 없음); 최근 검증값은 기업어음 미반영(구스키마)이라 거부",
@@ -614,7 +614,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "updateStatus": {
         "attemptStatus": "SUCCESS",
         "failureType": null,
-        "attemptedAt": "2026-09-19T09:22:48.363540",
+        "attemptedAt": "2026-09-19T09:52:36.913551",
         "dataAsOf": "2026-09-18",
         "holdPrice": false,
         "reason": ""

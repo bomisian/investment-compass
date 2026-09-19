@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 5.898444698319327,
-        "ret3m": 13.955747928669071,
-        "ret6m": 18.62061727548141,
-        "ret1y": 3.389334010338252,
+        "ret1m": 8.684138601237557,
+        "ret3m": 15.214878872170544,
+        "ret6m": 19.030665885526776,
+        "ret1y": 3.7820044745747072,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 3.9888249130451303,
-        "ret3m": -17.343147264003377,
-        "ret6m": 74.67651452259416,
-        "ret1y": 205.3484929273838,
+        "ret1m": -1.9363058028602942,
+        "ret3m": -15.387973142397737,
+        "ret6m": 71.84584760041623,
+        "ret1y": 195.31096544690456,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": 10.462951918886244,
-        "ret3m": 3.687618392827563,
-        "ret6m": 32.49138273154184,
-        "ret1y": 220.26707224048542,
+        "ret1m": 1.1552686919207966,
+        "ret3m": 1.0497272575838545,
+        "ret6m": 35.09892992880792,
+        "ret1y": 203.51206617260203,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": -1.5519690719804968,
-        "ret3m": -12.978020886222176,
-        "ret6m": 8.117774615325569,
-        "ret1y": 47.713747674423445,
+        "ret1m": -3.816538390942148,
+        "ret3m": -10.450354321690092,
+        "ret6m": 8.401426945010204,
+        "ret1y": 46.24816309920949,
         "winRate": null,
         "count": 12
       }
@@ -229,26 +229,33 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.036257837878636255,
-    "corrPctRank": 0.0,
-    "corrMin5y": 0.036257837878636255,
-    "corrMedian5y": 0.7046101936389526,
+    "corr60": 0.04965930440977447,
+    "corrPctRank": 0.08375209380234507,
+    "corrMin5y": 0.04894546722775104,
+    "corrMedian5y": 0.7050006629246074,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
     {
-      "headline": "US troop deaths during Iran war exceed Pentagon count by at least four, Washington Post reports - Reuters",
+      "headline": "US troop deaths during Iran war exceed Pentagon count by at least four, Washington Post reports - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWTJWTFE3dlFIRDVOVDZiY01XQXNxNDI0Z1RiWlFybTFpaEFEQUtpcVRnaEVNUUxPSkl3eFpLc1JzakdRWHNFQWZSUHhQMmQ0T0MtOHBrUjFYTGIzM0dMUmFwNGZPdWhkZUdUSmR1Q29mTHZXNDJuY2d6MllvMXNTM3pGM1BHQmVvQkstdEd2SDE2ZjJ4dXpxdmVSa25KcWJxaUV5eUFrNGFLSUJoT21wNDRieGxuQjFzTXNxU1dFZFlCT3R3aEJESmRR?oc=5",
       "datetime": 1789769329,
-      "headlineKo": "이란 전쟁 중 미군 사망자가 국방부보다 최소 4명 더 많았다고 워싱턴 포스트가 보도했습니다. - 로이터"
+      "headlineKo": "이란 전쟁 중 미군 사망자가 국방부보다 최소 4명 더 많았다고 워싱턴 포스트가 보도했습니다. - reuters.com"
     },
     {
-      "headline": "Republican China committee chair urges tough Trump line with Xi - Reuters",
+      "headline": "Saudi Civil Defense lifts warnings of potential danger in several areas - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdlpTM1JIVGlNanRpa0drbElOWTNPVGp4bUhMNEd6TTZnbFRQbG5IMDV2VmxTS0VLeTNKaWl1cDJDeml0U2F6NjNGMFJoWkdVTHV1cG5BeHBtWm9LbnoxYXBmSXB2MFE2MGlla092UW1fZTF6eHFxc2NjNFlORkVpc3Q4b0NOdk44Z1NXTVdZQVhqNHpTRFduNFF5SXRicFpiX0lSWGlmWUZVa2laMGlrZ3Vn?oc=5",
+      "datetime": 1789764489,
+      "headlineKo": "사우디 민방위대, 여러 분야에서 잠재적 위험 경고 해제 - reuters.com"
+    },
+    {
+      "headline": "Republican China committee chair urges tough Trump line with Xi - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVHE0eGdjejdPVC0wcEJESG1KY3hhNU1DMUZmOHZJUTFjZHRpM1BsLVcwbzVlOUJpVHFxZnBPNzJlTldZelp1WlcwVU5fQ2d2MXZCZS1NSm9uWkQ4MlpHRUQwY21BdU5BRUs2a3ZBODhETlZNd1pTMk94a1NWN3BMaGNHMVl0MWVIeTdWQk9KWVFvS0ZnVnZ1RWJQSlFMcjNVRm1TYkFfMTRvSUY2?oc=5",
       "datetime": 1789760071,
-      "headlineKo": "중국 공화당 위원장, 시 주석과 거친 트럼프 라인 촉구 - 로이터"
+      "headlineKo": "중국 공화당 위원장, 트럼프 대통령과 시의 강경한 노선 촉구 - reuters.com"
     },
     {
       "headline": "What it will take for us to buy the dip in DuPont. Plus, profit-taking hits cyber stocks",
@@ -265,11 +272,11 @@ const MARKET_DATA = {
       "headlineKo": "맥도날드는 새로운 '가치 있는 식사'라고 트레이더 Mike Khouw는 말합니다."
     },
     {
-      "headline": "Caviar and champagne: Air France's luxury shift helps ride out Iran war impact - Reuters",
+      "headline": "Caviar and champagne: Air France's luxury shift helps ride out Iran war impact - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRi1pY1Bqc1lTWGhEbU5ydjdqZFVDQ2RYb3NidmNYTTc4Mkw2WkZFbXNqWlEzS0FVN200UjgwWElaWFlWcTRPSXRIN2Z4YmVDZ2dJdGZ2cnJWMDA4NUNVUnoxS3RuV2IwNDBZVjRSaGFFMTZ6Q3hUeF9fdEg4MEg4VVBtT2hyLTllVmw2QmRCNlVJY3IyVTEzM2hwbnpKTVVnN2hwem9wZmpFQUpaTHpEQTJtUkxnRC1Jc1RFX2Znem1IVmth?oc=5",
       "datetime": 1789754136,
-      "headlineKo": "캐비어와 샴페인: 에어프랑스의 럭셔리한 변화는 이란 전쟁의 충격을 제거하는 데 도움이 됩니다. - 로이터"
+      "headlineKo": "캐비어와 샴페인: 에어프랑스의 럭셔리 근무가 이란 전쟁의 영향을 극복하는 데 도움이 됩니다 - reuters.com"
     },
     {
       "headline": "Nike parts ways with Kylian Mbappé, soccer superstar signs with On",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/18/macklemore-ticket-prices-rise-amid-ed-sheeran-tour-fallout.html",
       "datetime": 1789745634,
       "headlineKo": "에드 시런 투어 취소 후 맥클모어 단독 콘서트 티켓 가격 상승"
-    },
-    {
-      "headline": "Sportsbooks remain king this football season, but upstarts are making a run for the money",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/18/sportsbooks-remain-king-this-football-season-but-upstarts-are-making-a-run-for-the-money.html",
-      "datetime": 1789744604,
-      "headlineKo": "이번 풋볼 시즌에는 스포츠북이 여전히 왕이지만, 신흥 기업들이 돈을 위해 달려가고 있습니다."
     }
   ],
   "fgi": {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789775543.779539,
-  "_updated_label": "2026-09-19 08:52",
-  "_last_attempt_at": 1789775543.779539,
-  "_last_success_at": 1789775543.779539,
+  "_fetched_at": 1789779157.064649,
+  "_updated_label": "2026-09-19 09:53",
+  "_last_attempt_at": 1789779157.064649,
+  "_last_success_at": 1789779157.064649,
   "_collection_status": "ok",
   "_collection_errors": []
 };
