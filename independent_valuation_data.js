@@ -111,8 +111,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "kind": "independent_value_dcf_scenario_engine",
       "asOf": "2026-09-19",
       "valuationAnchorDate": "2026-07-26",
-      "runId": "AMAT_REAL_20260919T150152258384",
-      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260919T150152239905",
+      "runId": "AMAT_REAL_20260919T163314027572",
+      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260919T163313996780",
       "engineVersion": "amat_calc_engine v4 (2026-09-18, 모델 채택 검토) -- D&A/CapEx 비율 곡선을 FY2025 실측 대조로 조정(min(0.60,0.20+0.10*(i+1)) -> min(0.45,0.19+0.065*i)), 계산 결과가 달라짐(v3 대비). 과거 실행은 각자 저장된 code_snapshots로 그 시점 값 그대로 재현 가능.",
       "isReplayFixture": false,
       "px": 191.2990663575951,
@@ -123,21 +123,21 @@ const INDEPENDENT_VALUATION_DATA = {
           "growthY1": 0.3134993682913383,
           "roic": 0.18,
           "ntmValue": 40504380020.0,
-          "runId": "AMAT_REAL_20260919T150152245788"
+          "runId": "AMAT_REAL_20260919T163314009135"
         },
         "base": {
           "px": 191.2990663575951,
           "growthY1": 0.38220422220060324,
           "roic": 0.22,
           "ntmValue": 42623031600.0,
-          "runId": "AMAT_REAL_20260919T150152258384"
+          "runId": "AMAT_REAL_20260919T163314027572"
         },
         "optimistic": {
           "px": 203.02973539456156,
           "growthY1": 0.45090907610986797,
           "roic": 0.26,
           "ntmValue": 44741683180.0,
-          "runId": "AMAT_REAL_20260919T150152281410"
+          "runId": "AMAT_REAL_20260919T163314068688"
         }
       },
       "priorDeliveredPx": 129.13,
@@ -819,7 +819,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "updateStatus": {
         "attemptStatus": "SUCCESS",
         "failureType": null,
-        "attemptedAt": "2026-09-19T15:01:52.265207",
+        "attemptedAt": "2026-09-19T16:33:14.040045",
         "dataAsOf": "2026-09-18",
         "holdPrice": false,
         "reason": ""
