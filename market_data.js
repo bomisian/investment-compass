@@ -314,21 +314,21 @@ const MARKET_DATA = {
       "headlineKo": "캐비어와 샴페인: 에어프랑스의 럭셔리 근무가 이란 전쟁의 영향을 극복하는 데 도움이 됩니다 - Reuters"
     },
     {
-      "headline": "Nike parts ways with Kylian Mbappé, soccer superstar signs with On",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/18/kylian-mbappe-signs-with-on-after-nike-parts-ways.html",
-      "datetime": 1789749734,
-      "headlineKo": "Nike는 Kylian Mbappé와 결별하고 축구 슈퍼스타는 On과 계약합니다."
+      "headline": "Global rate-hike cycle in view as central banks take on inflation - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaTJFdU1RczNyN0w2RjNKNHB0OWxqaEhHeDE5bDdXOS16QlV0eHNnbWNSbGVVQ2RaRTVJOWFHUXQ2Qy1qTy1aQ0lVVGFMNzRXV3lwUnBnaHh0VUFmeDNodzVZWWRwVk9iak5qZEZ2R0NSRzNrT2ZlYUxNaUZYTUY0VXdjYXhQakNOYmdqaUlrZ2JsazMtVHR2bkdMWkJ6Z2hyUzZmaG0wNmkxazg?oc=5",
+      "datetime": 1789754034,
+      "headlineKo": "중앙은행이 인플레이션을 감수함에 따라 글로벌 금리 인상 주기 - Reuters"
     }
   ],
   "fgi": {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789826522.6262755,
-  "_updated_label": "2026-09-19 23:02",
-  "_last_attempt_at": 1789826522.6262755,
-  "_last_success_at": 1789826522.6262755,
+  "_fetched_at": 1789830003.0840423,
+  "_updated_label": "2026-09-20 00:00",
+  "_last_attempt_at": 1789830003.0840423,
+  "_last_success_at": 1789830003.0840423,
   "_collection_status": "ok",
   "_collection_errors": []
 };
