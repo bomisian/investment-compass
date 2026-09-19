@@ -4387,12 +4387,93 @@ function renderReturnConditionCard(v, ticker){
   if(ticker) RC_CARD_TICKER[cardId] = ticker;  // [Bundle 3] 목록 행 요약 갱신용 매핑
   return cardHtml;
 }
+// [2026-09-19 신규 -- 공개 대시보드 연결] 상대가치(동종기업 배수) 참고범위 카드. 위
+// renderAmatScenarioValuation(DCF 조건부 내재가치)와는 완전히 다른 산출 방식이라 절대 같은
+// 카드에 섞지 않고 별도 박스로 분리한다. generate_dashboard_connection.build_amat_relative_value_block()가
+// generate_relative_value_review.py의 실제 산출물(스냅샷/상태 파일)을 그대로 읽어 내려준 값만
+// 표시하며, 이 화면에서 다시 계산하지 않는다(단일 진실 공급원 -- 독립 검토화면
+// amat_relative_value_review.html과 항상 같은 값을 보여줌).
+// [2026-09-19 3차 보완 -- Codex 지적 반영] generate_dashboard_connection.py가 빌드 시점
+// 기준으로 노후 여부를 계산해 내려주지만(rv.isStaleReference), 배포된 페이지는 그 이후로도
+// 계속 열람될 수 있다 -- 빌드 당시엔 최신이었어도, 화면을 실제로 여는 "지금"(브라우저의 실제
+// 현재 날짜) 기준으로는 이미 오래됐을 수 있다. 위 DCF 카드의 evaluatePriceFreshnessJS와 같은
+// 원칙으로, 여기서도 서버가 내려준 값을 그대로 믿지 않고 클라이언트에서 실제 현재 날짜로
+// 다시 한번 재검사한다 -- 두 검사 중 하나라도 노후로 판정하면 과거 참고값 배너를 띄운다.
+function computeRelativeValueLiveStaleness(rv){
+  const priceLimit = rv.priceStaleAfterDays != null ? rv.priceStaleAfterDays : 7;
+  const snapLimit = rv.snapshotStaleAfterDays != null ? rv.snapshotStaleAfterDays : 3;
+  const now = new Date();
+  const reasons = [];
+  function daysSince(dateStr){
+    if(!dateStr) return null;
+    const d = new Date(String(dateStr).slice(0,10) + 'T00:00:00Z');
+    if(isNaN(d.getTime())) return null;
+    return Math.floor((Date.UTC(now.getFullYear(),now.getMonth(),now.getDate()) - d.getTime()) / 86400000);
+  }
+  const priceAge = daysSince(rv.comparisonPriceAsOf);
+  const snapAge = daysSince(rv.generatedAt);
+  let stale = false;
+  if(priceAge == null || priceAge > priceLimit){
+    stale = true;
+    reasons.push(`비교가격 관측일(${rv.comparisonPriceAsOf||'알수없음'})이 지금 열어본 시점 기준 ${priceAge!=null?priceAge+'일 전으로':'확인되지 않아'} 허용 기준(${priceLimit}일)을 넘었습니다`);
+  }
+  if(snapAge == null || snapAge > snapLimit){
+    stale = true;
+    reasons.push(`밴드 판단 생성 시각(${rv.generatedAt||'알수없음'})이 지금 열어본 시점 기준 ${snapAge!=null?snapAge+'일 전으로':'확인되지 않아'} 허용 기준(${snapLimit}일)을 넘었습니다`);
+  }
+  return {stale, reasons};
+}
+function renderRelativeValueBandCard(rv){
+  if(!rv || !rv.available) return '';
+  const low = rv.rangeLow, high = rv.rangeHigh;
+  const price = rv.comparisonPrice;
+  const statusColor = {WITHIN_BAND:'var(--sub)', BELOW_BAND:'var(--warn)', ABOVE_BAND:'var(--down)',
+                        DATA_ERROR:'var(--down)'}[rv.bandStatus] || 'var(--sub)';
+  const statusLabel = {WITHIN_BAND:'범위 내', BELOW_BAND:'범위 하단 아래', ABOVE_BAND:'범위 상단 위',
+                        DATA_ERROR:'산출 보류'}[rv.bandStatus] || (rv.bandStatus || '-');
+  // [사용자 명시 요구 + 2026-09-19 3차 보완] 서버가 빌드 시점에 이미 노후로 판정했거나
+  // (rv.isStaleReference), 배포 이후 시간이 지나 지금 열어본 시점 기준으로 새로 노후가 됐으면
+  // (liveStale) 둘 중 하나만 참이어도 "과거 참고값" 배너를 띄운다 -- status=OK만 보고 조용히
+  // 최신인 것처럼 보여주던 결함을 이중으로 막는다.
+  const liveStale = computeRelativeValueLiveStaleness(rv);
+  const isStaleNow = !!rv.isStaleReference || liveStale.stale;
+  const staleNoteParts = [];
+  if(rv.isStaleReference && rv.staleReferenceNote) staleNoteParts.push(rv.staleReferenceNote);
+  if(liveStale.stale && liveStale.reasons.length) staleNoteParts.push('지금 열어본 시점 재검사: ' + liveStale.reasons.join('; ') + '.');
+  const staleBanner = isStaleNow
+    ? `<div class="sub" style="margin:4px 0 8px;color:var(--warn);">⚠️ 과거 참고값: ${esc(staleNoteParts.join(' '))}</div>`
+    : '';
+  const peersUsedStr = (rv.peersUsed||[]).length ? esc((rv.peersUsed||[]).join(', ')) : '-';
+  const excludedStr = (rv.peersExcluded||[]).length
+    ? (rv.peersExcluded||[]).map(p=>`${esc(p.ticker)}(${esc(p.reason)})`).join('; ')
+    : '없음';
+  return `
+    <div class="comment-box" style="background:var(--panel-2);margin-bottom:10px;">
+      <b>📊 ${esc(rv.rangeLabel||'동종기업 배수 적용 참고범위')}</b>
+      <div class="sub" style="margin:4px 0 8px;color:var(--warn);">⚠️ 이 범위는 검증된 매수구간·바닥가격·12개월 목표가가 아닙니다 -- 동종업계(${peersUsedStr})가 지금 받는 주가수익배수를 대상종목의 공통기준 컨센서스 EPS에 그대로 적용한 참고 범위일 뿐입니다.</div>
+      ${staleBanner}
+      <div class="fund-row"><span>참고범위</span>
+        <span class="v"><b>$${low!=null?low.toFixed(2):'-'}~$${high!=null?high.toFixed(2):'-'}</b>${rv.bandStatus?` <span style="color:${statusColor};font-size:11px;">(${esc(statusLabel)})</span>`:''}</span></div>
+      <div class="fund-row"><span>${esc(rv.comparisonPriceLabel||'최근 종가')}</span>
+        <span class="v">$${price!=null?price.toFixed(2):'-'}${rv.comparisonPriceAsOf?` (관측일 ${esc(rv.comparisonPriceAsOf)})`:''}</span></div>
+      <div class="sub" style="margin:0 0 4px;color:var(--sub);font-size:10.5px;">${esc(rv.comparisonPriceNote||'')}</div>
+      ${rv.comparisonPriceIssue?`<div class="sub" style="margin:0 0 4px;color:var(--down);">비교가격 자료상태 문제: ${esc(rv.comparisonPriceIssue)}</div>`:''}
+      <div class="sub" style="margin:2px 0 8px;"><b>변경 이유</b>: ${esc(rv.changeReasonVsPrevious||'-')}</div>
+      <details style="margin-top:4px;margin-bottom:4px;">
+        <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">산출 근거 자세히 보기</summary>
+        <div class="sub" style="margin:6px 0;">판단 시각(스냅샷 생성): ${esc(rv.generatedAt||'-')} · 기준일: ${esc(rv.asOfDate||'-')}</div>
+        <div class="sub" style="margin:4px 0;">가장 최근 시도 상태: ${esc(rv.lastCheckStatus||'-')}${rv.lastCheckNote?` - ${esc(rv.lastCheckNote)}`:''}</div>
+        <div class="sub" style="margin:4px 0;">제외된 종목: ${excludedStr}</div>
+        <div class="sub" style="margin-top:6px;">${esc(rv.bandDisclaimer||'')}</div>
+      </details>
+    </div>`;
+}
 function renderIndependentValuationSection(r){
   const iv = (typeof INDEPENDENT_VALUATION_DATA !== 'undefined') ? INDEPENDENT_VALUATION_DATA[r.ticker] : null;
   if(!iv || !iv.valuation) return '';
   const v = iv.valuation;
   const price = r.price;
-  if(v.kind === 'independent_value_dcf_scenario_engine') return renderAmatScenarioValuation(v, price, r.ticker) + renderReturnConditionCard(v, r.ticker);
+  if(v.kind === 'independent_value_dcf_scenario_engine') return renderAmatScenarioValuation(v, price, r.ticker) + renderRelativeValueBandCard(iv.relativeValueBand) + renderReturnConditionCard(v, r.ticker);
   if(v.kind === 'independent_value_dcf_single_engine') return renderAmatScenarioValuation(v, price, r.ticker);
   const pct = x => { if(x==null) return '-'; const p=(x-price)/price*100; return `${p>=0?'+':''}${p.toFixed(0)}%`; };
   const a = v.assumptions || {};

@@ -244,11 +244,11 @@ const MARKET_DATA = {
       "headlineKo": "이란, 이스라엘 모사드 간첩 혐의로 유죄판결 받은 남성 처형"
     },
     {
-      "headline": "Saudi civil defence sends all-clear after alerts issued for capital Riyadh - Reuters",
+      "headline": "Smoke visible near Riyadh airport after Saudi Arabia issues all-clear - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYWNnM0NScnlDOXNDY25xQjhZVlRHUUtMOEV3YVZSOW5xekdVelcycGI1VHl3dWpqVGhNM2s1N05NamZxV0hoNVBFN204OHM5dVlQemMySkJGMlpCaURybUY4TVZfd0RDUUxzb3RTeWJVVEI4blFQZFhJekptSHRFUVdqb1pDai1VQ1hPS1JHWk92MEpZYWtESDduUmpwUEg4Nzc4bFp3VDQzM2JMTnRZXzgzbVBvUDk0clU4a3dHMlhuQk0?oc=5",
       "datetime": 1789778520,
-      "headlineKo": "사우디 민방위는 수도 리야드에 경보가 발령된 후 모든 것을 해제했습니다 - Reuters"
+      "headlineKo": "사우디아라비아가 모든 것을 해제한 후 리야드 공항 근처에서 연기가 보입니다 - Reuters"
     },
     {
       "headline": "Trump signs Russia sanctions bill into law - Reuters",
@@ -256,13 +256,6 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMWZ3NVV2eHJuOEVQcDhZX3BVSnh2aWxQcE0wWERtWGc3MG9ZS3VmN1lqemJPNS1NbE1pU3RDTlR5TUIteF9hMVdNY2NITDU2N3lva3hWelYydUQ1Nm9xWUZZUHN3R29QeXR3VzhIdFNyOXJ6T1FLNlNEU3JIbUx3Q1ZCVWxHdnI4ZmhJVjFfd0s?oc=5",
       "datetime": 1789770053,
       "headlineKo": "트럼프, 러시아 제재 법안 서명 서명 - 로이터"
-    },
-    {
-      "headline": "US troop deaths during Iran war exceed Pentagon count by at least four, Washington Post reports - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWTJWTFE3dlFIRDVOVDZiY01XQXNxNDI0Z1RiWlFybTFpaEFEQUtpcVRnaEVNUUxPSkl3eFpLc1JzakdRWHNFQWZSUHhQMmQ0T0MtOHBrUjFYTGIzM0dMUmFwNGZPdWhkZUdUSmR1Q29mTHZXNDJuY2d6MllvMXNTM3pGM1BHQmVvQkstdEd2SDE2ZjJ4dXpxdmVSa25KcWJxaUV5eUFrNGFLSUJoT21wNDRieGxuQjFzTXNxU1dFZFlCT3R3aEJESmRR?oc=5",
-      "datetime": 1789769329,
-      "headlineKo": "이란 전쟁 중 미군 사망자가 국방부보다 최소 4명 더 많았다고 워싱턴 포스트가 보도했습니다. - 로이터"
     },
     {
       "headline": "Turkey revokes operating license of Iran's Mellat Bank amid US measures - Reuters",
@@ -291,6 +284,13 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVHE0eGdjejdPVC0wcEJESG1KY3hhNU1DMUZmOHZJUTFjZHRpM1BsLVcwbzVlOUJpVHFxZnBPNzJlTldZelp1WlcwVU5fQ2d2MXZCZS1NSm9uWkQ4MlpHRUQwY21BdU5BRUs2a3ZBODhETlZNd1pTMk94a1NWN3BMaGNHMVl0MWVIeTdWQk9KWVFvS0ZnVnZ1RWJQSlFMcjNVRm1TYkFfMTRvSUY2?oc=5",
       "datetime": 1789760071,
       "headlineKo": "중국 공화당 위원장, 트럼프 대통령과 시진핑의 강경한 노선 촉구 - 로이터"
+    },
+    {
+      "headline": "US troop deaths during Iran war exceed Pentagon count by at least four, Washington Post reports - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWTJWTFE3dlFIRDVOVDZiY01XQXNxNDI0Z1RiWlFybTFpaEFEQUtpcVRnaEVNUUxPSkl3eFpLc1JzakdRWHNFQWZSUHhQMmQ0T0MtOHBrUjFYTGIzM0dMUmFwNGZPdWhkZUdUSmR1Q29mTHZXNDJuY2d6MllvMXNTM3pGM1BHQmVvQkstdEd2SDE2ZjJ4dXpxdmVSa25KcWJxaUV5eUFrNGFLSUJoT21wNDRieGxuQjFzTXNxU1dFZFlCT3R3aEJESmRR?oc=5",
+      "datetime": 1789756500,
+      "headlineKo": "이란 전쟁 중 미군 사망자가 국방부보다 최소 4명 더 많았다고 워싱턴 포스트가 보도했습니다. - 로이터"
     },
     {
       "headline": "What it will take for us to buy the dip in DuPont. Plus, profit-taking hits cyber stocks",
@@ -325,10 +325,10 @@ const MARKET_DATA = {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789819858.6687593,
-  "_updated_label": "2026-09-19 21:11",
-  "_last_attempt_at": 1789819858.6687593,
-  "_last_success_at": 1789819858.6687593,
+  "_fetched_at": 1789826522.6262755,
+  "_updated_label": "2026-09-19 23:02",
+  "_last_attempt_at": 1789826522.6262755,
+  "_last_success_at": 1789826522.6262755,
   "_collection_status": "ok",
   "_collection_errors": []
 };

@@ -107,12 +107,53 @@ const INDEPENDENT_VALUATION_DATA = {
     }
   },
   "AMAT": {
+    "relativeValueBand": {
+      "rangeLabel": "동종기업 배수 적용 참고범위",
+      "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
+      "available": true,
+      "rangeLow": 513.7667703680349,
+      "rangeHigh": 549.6953646886909,
+      "rangeMid": 531.7310675283629,
+      "bandStatus": "BELOW_BAND",
+      "bandDisclaimer": "이 범위는 검증된 매수가·바닥가격·성공확률이 아니다 -- 동종업계가 지금 받는 배수를 그대로 적용한 참고 범위일 뿐이며, 이 범위와 별도로 산출되는 장기 DCF 내재가치(조건부 참고값)와도 다른 개념이다.",
+      "comparisonPrice": 444.57000732421875,
+      "comparisonPriceAsOf": "2026-09-18",
+      "comparisonPriceLabel": "최근 종가",
+      "comparisonPriceNote": "실시간 시세가 아니라 prices_cache.json에 기록된 마지막 종가이며, 위 관측일 기준입니다.",
+      "comparisonPriceIssue": null,
+      "peersUsed": [
+        "LRCX",
+        "KLAC"
+      ],
+      "peersExcluded": [
+        {
+          "ticker": "AMAT",
+          "reason": "대상 종목 자기 자신(AMAT) -- peer로 쓰지 않음"
+        },
+        {
+          "ticker": "ASML",
+          "reason": "통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)"
+        }
+      ],
+      "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
+      "generatedAt": "2026-09-19T22:33:01.261644",
+      "asOfDate": "2026-09-19",
+      "lastCheckStatus": "SKIPPED_RATE_LIMIT",
+      "lastCheckNote": "직전 기록(2026-09-19T22:33:01.261644) 이후 1.3초밖에 지나지 않아(60초 미만) 이번 실행은 건너뜀 -- 반복 호출로 이력이 무한정 불어나는 것을 막기 위한 안전장치. 스냅샷/화면은 변경하지 않음.",
+      "priceAgeDaysAtBuild": 1,
+      "snapshotAgeDaysAtBuild": 0,
+      "priceStaleAfterDays": 7,
+      "snapshotStaleAfterDays": 3,
+      "builtAt": "2026-09-19",
+      "isStaleReference": true,
+      "staleReferenceNote": "화면에 보이는 참고범위·비교가격은 실시간이 아니라 과거 참고값입니다 -- 가장 최근 시도(SKIPPED_RATE_LIMIT)가 새 판단을 만들지 못했습니다(사유: 직전 기록(2026-09-19T22:33:01.261644) 이후 1.3초밖에 지나지 않아(60초 미만) 이번 실행은 건너뜀 -- 반복 호출로 이력이 무한정 불어나는 것을 막기 위한 안전장치. 스냅샷/화면은 변경하지 않음.)."
+    },
     "valuation": {
       "kind": "independent_value_dcf_scenario_engine",
       "asOf": "2026-09-19",
       "valuationAnchorDate": "2026-07-26",
-      "runId": "AMAT_REAL_20260919T220223428137",
-      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260919T220223404170",
+      "runId": "AMAT_REAL_20260919T230109124124",
+      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260919T230109104387",
       "engineVersion": "amat_calc_engine v4 (2026-09-18, 모델 채택 검토) -- D&A/CapEx 비율 곡선을 FY2025 실측 대조로 조정(min(0.60,0.20+0.10*(i+1)) -> min(0.45,0.19+0.065*i)), 계산 결과가 달라짐(v3 대비). 과거 실행은 각자 저장된 code_snapshots로 그 시점 값 그대로 재현 가능.",
       "isReplayFixture": false,
       "px": 191.2990663575951,
@@ -123,21 +164,21 @@ const INDEPENDENT_VALUATION_DATA = {
           "growthY1": 0.3134993682913383,
           "roic": 0.18,
           "ntmValue": 40504380020.0,
-          "runId": "AMAT_REAL_20260919T220223412347"
+          "runId": "AMAT_REAL_20260919T230109110530"
         },
         "base": {
           "px": 191.2990663575951,
           "growthY1": 0.38220422220060324,
           "roic": 0.22,
           "ntmValue": 42623031600.0,
-          "runId": "AMAT_REAL_20260919T220223428137"
+          "runId": "AMAT_REAL_20260919T230109124124"
         },
         "optimistic": {
           "px": 203.02973539456156,
           "growthY1": 0.45090907610986797,
           "roic": 0.26,
           "ntmValue": 44741683180.0,
-          "runId": "AMAT_REAL_20260919T220223470198"
+          "runId": "AMAT_REAL_20260919T230109147869"
         }
       },
       "priorDeliveredPx": 129.13,
@@ -819,7 +860,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "updateStatus": {
         "attemptStatus": "SUCCESS",
         "failureType": null,
-        "attemptedAt": "2026-09-19T22:02:23.435414",
+        "attemptedAt": "2026-09-19T23:01:09.131325",
         "dataAsOf": "2026-09-18",
         "holdPrice": false,
         "reason": ""
