@@ -258,6 +258,13 @@ const MARKET_DATA = {
       "headlineKo": "이란 전쟁 중 미군 사망자가 국방부보다 최소 4명 더 많았다고 워싱턴 포스트가 보도했습니다. - 로이터"
     },
     {
+      "headline": "Turkey revokes operating license of Iran's Mellat Bank amid US measures - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb1hTU1NHcEl4TWwzc0E2THYwcmxSMS05TnFsT2w4ZHVpQjhvX0NxT2dLb2RpRGtIczNadkVFczZUSGJ0VGJJdEpvMzlnZ3F4aGtBMldjZUpMZ2p4cWFOZ2VzSHhSLUhsclg4aXYwT2dMRkMxWWFjbnBBQ24tUG9EQk02UWlrczRVODFrU2hIbmZRZm9ESDU2TnJwb1FnMGw4OTU4OTllOFl3RlhON3JHTmJPVnYwNVYxT1FQaFZn?oc=5",
+      "datetime": 1789768689,
+      "headlineKo": "터키, 미국의 조치로 이란 멜라트 은행 운영 허가 취소 - 로이터 통신"
+    },
+    {
       "headline": "Saudi Civil Defense lifts warnings of potential danger in several areas - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdlpTM1JIVGlNanRpa0drbElOWTNPVGp4bUhMNEd6TTZnbFRQbG5IMDV2VmxTS0VLeTNKaWl1cDJDeml0U2F6NjNGMFJoWkdVTHV1cG5BeHBtWm9LbnoxYXBmSXB2MFE2MGlla092UW1fZTF6eHFxc2NjNFlORkVpc3Q4b0NOdk44Z1NXTVdZQVhqNHpTRFduNFF5SXRicFpiX0lSWGlmWUZVa2laMGlrZ3Vn?oc=5",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/18/disney-cto-tech.html",
       "datetime": 1789748066,
       "headlineKo": "거대 미디어 기업이 기술 추진을 확장하면서 디즈니가 처음으로 CTO를 임명했습니다."
-    },
-    {
-      "headline": "What Jim Cramer learned at NYC's flagship Apple Store for the iPhone 18 launch",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/18/what-cramer-learned-at-nycs-flagship-apple-store-for-iphone-18-launch.html",
-      "datetime": 1789746816,
-      "headlineKo": "iPhone 18 출시를 위해 뉴욕의 플래그십 Apple Store에서 Jim Cramer가 배운 것"
     }
   ],
   "fgi": {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789804977.2247515,
-  "_updated_label": "2026-09-19 17:03",
-  "_last_attempt_at": 1789804977.2247515,
-  "_last_success_at": 1789804977.2247515,
+  "_fetched_at": 1789808592.2443113,
+  "_updated_label": "2026-09-19 18:03",
+  "_last_attempt_at": 1789808592.2443113,
+  "_last_success_at": 1789808592.2443113,
   "_collection_status": "ok",
   "_collection_errors": []
 };
