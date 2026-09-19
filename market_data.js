@@ -237,46 +237,46 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Flames, black smoke seen near Riyadh airport, eyewitness says - reuters.com",
+      "headline": "Flames, black smoke seen near Riyadh airport, eyewitness says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVhEVEhONEZLVTN1Q0NyUzZwOXdIS3JLY0VVMVhabU40LV96QjY3d3A5M3NNTElCTy1SdzFFSVIyOEhxWW1OMUxKM1hHUFc0UDNnaXpLRlBPR2VhZkdsWVktOWtCSWxTUWhYV1FFcnN6c3A1WVVoc192OWNJSWhJQnc0U1QwZ1ZtRXd2a0hlNkJJMVVrckJpSXFlZzJDNVhUTVI5RWtGcVd6SW01UHNEWk9lMA?oc=5",
       "datetime": 1789816871,
-      "headlineKo": "목격자에 따르면 리야드 공항 근처에서 화염과 검은 연기가 보였다 - reuters.com"
+      "headlineKo": "목격자에 따르면 리야드 공항 근처에서 불꽃과 검은 연기가 보였다 - 로이터 통신"
     },
     {
-      "headline": "Iran executes man convicted of spying for Israel's Mossad, judiciary says - reuters.com",
+      "headline": "Iran executes man convicted of spying for Israel's Mossad, judiciary says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUHlXMU02X1Q1U245V0NOTFNPTGFPLXBYTFBNUG84ZlBWY2hteTNWRTNadlNxWWUzQVktelVDbmxOenJuQlZzV1h2bHlfNXZfWTh2RVNYeTVRVkhfTFpGTVNGSm5xeHhNUnE0U2E2ZmEtYmVDaFkwY25wUFl3alBnYXhJUnZGeVc5dVZKTU1aYTIxcW1xTmk3UGpBSmt4bU1lTHpsN1Rya1o2WDZlZ295LVZISUpXc0dZZEE?oc=5",
       "datetime": 1789799280,
       "headlineKo": "이란, 이스라엘 모사드 간첩 혐의로 유죄판결 받은 남성 처형"
     },
     {
-      "headline": "Flames, smoke seen near Riyadh airport; Houthis claim attacks on Saudi capital - reuters.com",
+      "headline": "Flames, smoke seen near Riyadh airport; Houthis claim attacks on Saudi capital - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYWNnM0NScnlDOXNDY25xQjhZVlRHUUtMOEV3YVZSOW5xekdVelcycGI1VHl3dWpqVGhNM2s1N05NamZxV0hoNVBFN204OHM5dVlQemMySkJGMlpCaURybUY4TVZfd0RDUUxzb3RTeWJVVEI4blFQZFhJekptSHRFUVdqb1pDai1VQ1hPS1JHWk92MEpZYWtESDduUmpwUEg4Nzc4bFp3VDQzM2JMTnRZXzgzbVBvUDk0clU4a3dHMlhuQk0?oc=5",
       "datetime": 1789778520,
-      "headlineKo": "리야드 공항 근처에서 화염과 연기가 보입니다. 후티 반군, 사우디 자본에 대한 공격 주장 - reuters.com"
+      "headlineKo": "리야드 공항 근처에서 화염과 연기가 보입니다. 후티 반군, 사우디 수도에 대한 공격 주장 - 로이터"
     },
     {
-      "headline": "Trump signs Russia sanctions bill into law - reuters.com",
+      "headline": "Trump signs Russia sanctions bill into law - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMWZ3NVV2eHJuOEVQcDhZX3BVSnh2aWxQcE0wWERtWGc3MG9ZS3VmN1lqemJPNS1NbE1pU3RDTlR5TUIteF9hMVdNY2NITDU2N3lva3hWelYydUQ1Nm9xWUZZUHN3R29QeXR3VzhIdFNyOXJ6T1FLNlNEU3JIbUx3Q1ZCVWxHdnI4ZmhJVjFfd0s?oc=5",
       "datetime": 1789770053,
-      "headlineKo": "트럼프, 러시아 제재 법안 서명 - reuters.com"
+      "headlineKo": "트럼프, 러시아 제재 법안 서명 서명 - 로이터"
     },
     {
-      "headline": "Turkey revokes operating license of Iran's Mellat Bank amid US measures - reuters.com",
+      "headline": "Turkey revokes operating license of Iran's Mellat Bank amid US measures - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb1hTU1NHcEl4TWwzc0E2THYwcmxSMS05TnFsT2w4ZHVpQjhvX0NxT2dLb2RpRGtIczNadkVFczZUSGJ0VGJJdEpvMzlnZ3F4aGtBMldjZUpMZ2p4cWFOZ2VzSHhSLUhsclg4aXYwT2dMRkMxWWFjbnBBQ24tUG9EQk02UWlrczRVODFrU2hIbmZRZm9ESDU2TnJwb1FnMGw4OTU4OTllOFl3RlhON3JHTmJPVnYwNVYxT1FQaFZn?oc=5",
       "datetime": 1789768689,
-      "headlineKo": "터키, 미국의 조치로 이란 멜라트 은행 영업 허가 취소 - reuters.com"
+      "headlineKo": "터키, 미국의 조치로 이란 멜라트 은행 운영 허가 취소 - 로이터 통신"
     },
     {
-      "headline": "Saudi Civil Defense lifts warnings of potential danger in several areas - reuters.com",
+      "headline": "Saudi Civil Defense lifts warnings of potential danger in several areas - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdlpTM1JIVGlNanRpa0drbElOWTNPVGp4bUhMNEd6TTZnbFRQbG5IMDV2VmxTS0VLeTNKaWl1cDJDeml0U2F6NjNGMFJoWkdVTHV1cG5BeHBtWm9LbnoxYXBmSXB2MFE2MGlla092UW1fZTF6eHFxc2NjNFlORkVpc3Q4b0NOdk44Z1NXTVdZQVhqNHpTRFduNFF5SXRicFpiX0lSWGlmWUZVa2laMGlrZ3Vn?oc=5",
       "datetime": 1789764489,
-      "headlineKo": "사우디 민방위대, 여러 분야에서 잠재적 위험 경고 해제 - reuters.com"
+      "headlineKo": "사우디 민방위대, 여러 분야의 잠재적 위험 경고 해제 - Reuters"
     },
     {
       "headline": "Russia sanctions bill gives Trump sweeping new tariff powers - Reuters",
@@ -293,11 +293,11 @@ const MARKET_DATA = {
       "headlineKo": "중국 공화당 위원장, 트럼프 대통령과 시진핑의 강경한 노선 촉구 - 로이터"
     },
     {
-      "headline": "US troop deaths during Iran war exceed Pentagon count by at least four, Washington Post reports - reuters.com",
+      "headline": "US troop deaths during Iran war exceed Pentagon count by at least four, Washington Post reports - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWTJWTFE3dlFIRDVOVDZiY01XQXNxNDI0Z1RiWlFybTFpaEFEQUtpcVRnaEVNUUxPSkl3eFpLc1JzakdRWHNFQWZSUHhQMmQ0T0MtOHBrUjFYTGIzM0dMUmFwNGZPdWhkZUdUSmR1Q29mTHZXNDJuY2d6MllvMXNTM3pGM1BHQmVvQkstdEd2SDE2ZjJ4dXpxdmVSa25KcWJxaUV5eUFrNGFLSUJoT21wNDRieGxuQjFzTXNxU1dFZFlCT3R3aEJESmRR?oc=5",
       "datetime": 1789756500,
-      "headlineKo": "이란 전쟁 중 미군 사망자가 국방부보다 최소 4명 더 많았다고 워싱턴 포스트가 보도했습니다. - reuters.com"
+      "headlineKo": "이란 전쟁 중 미군 사망자가 국방부보다 최소 4명 더 많았다고 워싱턴 포스트가 보도했습니다. - 로이터"
     },
     {
       "headline": "What it will take for us to buy the dip in DuPont. Plus, profit-taking hits cyber stocks",
@@ -314,21 +314,21 @@ const MARKET_DATA = {
       "headlineKo": "맥도날드는 새로운 '가치 있는 식사'라고 트레이더 Mike Khouw는 말합니다."
     },
     {
-      "headline": "Caviar and champagne: Air France's luxury shift helps ride out Iran war impact - reuters.com",
+      "headline": "Caviar and champagne: Air France's luxury shift helps ride out Iran war impact - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRi1pY1Bqc1lTWGhEbU5ydjdqZFVDQ2RYb3NidmNYTTc4Mkw2WkZFbXNqWlEzS0FVN200UjgwWElaWFlWcTRPSXRIN2Z4YmVDZ2dJdGZ2cnJWMDA4NUNVUnoxS3RuV2IwNDBZVjRSaGFFMTZ6Q3hUeF9fdEg4MEg4VVBtT2hyLTllVmw2QmRCNlVJY3IyVTEzM2hwbnpKTVVnN2hwem9wZmpFQUpaTHpEQTJtUkxnRC1Jc1RFX2Znem1IVmth?oc=5",
       "datetime": 1789754136,
-      "headlineKo": "캐비어와 샴페인: 에어프랑스의 럭셔리 근무가 이란 전쟁의 영향을 극복하는 데 도움이 됩니다 - reuters.com"
+      "headlineKo": "캐비어와 샴페인: 에어프랑스의 럭셔리 근무가 이란 전쟁의 영향을 극복하는 데 도움이 됩니다 - Reuters"
     }
   ],
   "fgi": {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789851603.2528064,
-  "_updated_label": "2026-09-20 06:00",
-  "_last_attempt_at": 1789851603.2528064,
-  "_last_success_at": 1789851603.2528064,
+  "_fetched_at": 1789855204.4222894,
+  "_updated_label": "2026-09-20 07:00",
+  "_last_attempt_at": 1789855204.4222894,
+  "_last_success_at": 1789855204.4222894,
   "_collection_status": "ok",
   "_collection_errors": []
 };
