@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789819202.4014938,
+  "generatedAt": 1789819858.4964519,
   "events": [
     {
       "id": "56e3944b71d7bdf17ce6",
@@ -9068,7 +9068,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526395593/d154803d424b3.htm",
         "publishedAt": 1789657200.0,
-        "collectedAt": 1789797691.77104
+        "collectedAt": 1789819837.7481792
       },
       "confirmedFacts": [
         "AVGO가 2026-09-18에 SEC Form 424B3을 제출했습니다.",
@@ -9132,7 +9132,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000135/arm-20260918.htm",
         "publishedAt": 1789657200.0,
-        "collectedAt": 1789797691.77104
+        "collectedAt": 1789819837.7481792
       },
       "confirmedFacts": [
         "ARM가 2026-09-18에 SEC Form 6-K을 제출했습니다."
@@ -16954,7 +16954,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000210/crm-20260916.htm",
         "publishedAt": 1789570800.0,
-        "collectedAt": 1789797691.77104
+        "collectedAt": 1789819837.7481792
       },
       "confirmedFacts": [
         "CRM가 2026-09-17에 SEC Form 8-K을 제출했습니다.",
@@ -17019,7 +17019,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926108614/tm2625565d1_8k.htm",
         "publishedAt": 1789570800.0,
-        "collectedAt": 1789797691.77104
+        "collectedAt": 1789819837.7481792
       },
       "confirmedFacts": [
         "MOD가 2026-09-17에 SEC Form 8-K을 제출했습니다.",

@@ -279,6 +279,13 @@ const MARKET_DATA = {
       "headlineKo": "사우디 민방위대, 여러 분야의 잠재적 위험 경고 해제 - Reuters"
     },
     {
+      "headline": "Russia sanctions bill gives Trump sweeping new tariff powers - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWEtRUVNvYVIwTTZqQ3pmak0zd0NlNjZEcmxxQ3FUWTJKVUZjTHdjUmt1SThTNVFmZWl5OXVLUmljaWJoSFRQbU5qVnZDUjcyWEhJNk5yWjZDOTNzazlrenItWHdvODFNbE5Ka3ZoMGF4ZFRGcEFFeVhlWF8tWGZYYU1XWWttR3BuR0hmdF9iY0Z2WGQwbFJfV2lOT2FwSExyT21yUE80ZVM?oc=5",
+      "datetime": 1789763040,
+      "headlineKo": "러시아 제재 법안, 트럼프에게 새로운 관세 권한 부여 - Reuters"
+    },
+    {
       "headline": "Republican China committee chair urges tough Trump line with Xi - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVHE0eGdjejdPVC0wcEJESG1KY3hhNU1DMUZmOHZJUTFjZHRpM1BsLVcwbzVlOUJpVHFxZnBPNzJlTldZelp1WlcwVU5fQ2d2MXZCZS1NSm9uWkQ4MlpHRUQwY21BdU5BRUs2a3ZBODhETlZNd1pTMk94a1NWN3BMaGNHMVl0MWVIeTdWQk9KWVFvS0ZnVnZ1RWJQSlFMcjNVRm1TYkFfMTRvSUY2?oc=5",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/18/kylian-mbappe-signs-with-on-after-nike-parts-ways.html",
       "datetime": 1789749734,
       "headlineKo": "Nike는 Kylian Mbappé와 결별하고 축구 슈퍼스타는 On과 계약합니다."
-    },
-    {
-      "headline": "We're buying more of this defensive stock ahead of an upcoming long-term catalyst",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/18/were-buying-more-of-this-defensive-stock-ahead-of-an-upcoming-long-term-catalyst.html",
-      "datetime": 1789748067,
-      "headlineKo": "우리는 다가오는 장기 촉매제에 앞서 이 방어주를 더 많이 구매하고 있습니다."
     }
   ],
   "fgi": {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789816227.3323917,
-  "_updated_label": "2026-09-19 20:11",
-  "_last_attempt_at": 1789816227.3323917,
-  "_last_success_at": 1789816227.3323917,
+  "_fetched_at": 1789819858.6687593,
+  "_updated_label": "2026-09-19 21:11",
+  "_last_attempt_at": 1789819858.6687593,
+  "_last_success_at": 1789819858.6687593,
   "_collection_status": "ok",
   "_collection_errors": []
 };
