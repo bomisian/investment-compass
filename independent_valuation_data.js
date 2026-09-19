@@ -111,8 +111,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "kind": "independent_value_dcf_scenario_engine",
       "asOf": "2026-09-19",
       "valuationAnchorDate": "2026-07-26",
-      "runId": "AMAT_REAL_20260919T125327703427",
-      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260919T125327683578",
+      "runId": "AMAT_REAL_20260919T143143520470",
+      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260919T143143497295",
       "engineVersion": "amat_calc_engine v4 (2026-09-18, 모델 채택 검토) -- D&A/CapEx 비율 곡선을 FY2025 실측 대조로 조정(min(0.60,0.20+0.10*(i+1)) -> min(0.45,0.19+0.065*i)), 계산 결과가 달라짐(v3 대비). 과거 실행은 각자 저장된 code_snapshots로 그 시점 값 그대로 재현 가능.",
       "isReplayFixture": false,
       "px": 191.2990663575951,
@@ -123,21 +123,21 @@ const INDEPENDENT_VALUATION_DATA = {
           "growthY1": 0.3134993682913383,
           "roic": 0.18,
           "ntmValue": 40504380020.0,
-          "runId": "AMAT_REAL_20260919T125327690001"
+          "runId": "AMAT_REAL_20260919T143143504245"
         },
         "base": {
           "px": 191.2990663575951,
           "growthY1": 0.38220422220060324,
           "roic": 0.22,
           "ntmValue": 42623031600.0,
-          "runId": "AMAT_REAL_20260919T125327703427"
+          "runId": "AMAT_REAL_20260919T143143520470"
         },
         "optimistic": {
           "px": 203.02973539456156,
           "growthY1": 0.45090907610986797,
           "roic": 0.26,
           "ntmValue": 44741683180.0,
-          "runId": "AMAT_REAL_20260919T125327728980"
+          "runId": "AMAT_REAL_20260919T143143547996"
         }
       },
       "priorDeliveredPx": 129.13,
@@ -226,16 +226,24 @@ const INDEPENDENT_VALUATION_DATA = {
         "basis_label": "현재 확인 가능한 동일 기준일 자료",
         "commercial_paper": {
           "value": 0.0,
-          "status": "not_separately_reported_confirmed",
+          "status": "unconfirmed_likely_embedded_not_absent",
           "as_of": "2026-07-26",
-          "basis": "[2026-09-19 신규 확인] (1) SEC data.sec.gov XBRL companyconcept API가 CIK0000006951의 us-gaap:CommercialPaper 개념 자체에 대해 404(해당 태그를 이 회사가 한 번도 쓴 적 없음)를 반환함 -- 실측 확인. (2) 회사의 FY2026 Q3 실적발표 보도자료(2026-08-13, globenewswire) 원문의 조건부 대차대조표를 직접 대조한 결과 'Short-term debt' 단일 라인($1,299M, 2026-07-26 기준)만 보고되고 별도 'Commercial paper' 라인은 없음. 이 $1,299M은 이미 이 파일의 long_term_debt_current 값과 동일하다 -- 즉 기업어음이 있었다면 바로 이 라인에 포함돼 보고됐을 것이고, 회사는 이를 더 세분화해서 보고하지 않는다. 따라서 net_debt 계산에 기업어음을 long_term_debt_current와 별도로 더하면 이중계상이 된다 -- 이 0은 '확인 안 해서 기본값 0'이 아니라 '별도 보고 항목이 존재하지 않음을 원문·XBRL 양쪽에서 확인한 0'이다.",
+          "basis": "[2026-09-19 정정 -- 이전 'not_separately_reported_confirmed(=0)' 판단을 철회] 이전 판단은 (1) us-gaap:CommercialPaper 개념의 404, (2) 보도자료 조건부 대차대조표에 'Short-term debt' 단일 라인만 있다는 점만으로 0을 '확정'했으나, 이는 근거 부족이었다. 이번에 SEC 10-Q 본문 자체(accession 0001628280-26-058235, 2026-08-20 제출, 기준일 2026-07-26, amat-20260726.htm)의 부채 각주(R50 'Borrowing Facilities and Debt - Narrative (Details)', R51 'Borrowing Facilities and Debt - Debt Outstanding (Details)')를 직접 대조한 결과: (a) R51은 'Total current portion of long-term debt'(선순위채권 중 1년 이내 만기분) = $1,199M(2026-07-26 기준)이라고 명시하는데, 대차대조표의 'Short-term debt' 총액은 $1,299M -- 두 수치의 차이가 정확히 $100M이다. (b) R50 각주 본문에 'Commercial paper' 항목이 실제로 존재하며 $4,000,000,000 규모가 함께 표기되어 있고, 'Short-term debt' 관련 행에 $100,000,000 수치가 나타난다. (a)+(b)를 종합하면 $4,000,000,000은 기업어음 프로그램의 '한도(authorized capacity)'이고 $100,000,000이 2026-07-26 기준 '실제 발행잔액(outstanding)'이며, 이 $100M이 대차대조표 Short-term debt $1,299M 안에 '선순위채권 유동분 $1,199M + 기업어음 $100M'으로 이미 포함되어 있을 가능성이 높다는 것이 현재까지 가장 정합적인 해석이다. 다만 R50/R51은 다차원(multi-axis) XBRL 렌더링 표라 텍스트 추출 도구(WebFetch)로 완전히 명확한 원문 대조를 끝내지 못했다 -- 열(날짜) 라벨이 두 차례 다르게 읽히는 등 도구 자체의 한계가 있었다. 따라서 '기업어음이 없다'는 이전 결론은 근거가 부족했던 것으로 철회하되, '$100M이 확정 수치'라고도 단정하지 않는다.",
           "source_urls": [
-            "https://www.globenewswire.com/news-release/2026/08/13/3344890/0/en/applied-materials-announces-third-quarter-2026-results.html",
-            "https://data.sec.gov/api/xbrl/companyconcept/CIK0000006951/us-gaap/CommercialPaper.json"
+            "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/amat-20260726.htm",
+            "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/R50.htm",
+            "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/R51.htm",
+            "https://data.sec.gov/api/xbrl/companyconcept/CIK0000006951/us-gaap/CommercialPaper.json",
+            "https://data.sec.gov/api/xbrl/companyconcept/CIK0000006951/us-gaap/LongTermDebtCurrent.json"
           ],
-          "confirmed_at": "2026-09-19",
-          "double_count_note": "long_term_debt_current($1,299M)에 이미 포함된 것으로 판단되는 값이므로, 이 필드의 값을 net_debt 계산에서 long_term_debt_current와 별도로 더하지 않는다(코드 쪽 가드: amat_collector_adapter.py의 static_config_fallback 분기, sec_xbrl_auto 분기의 confirmed_absent 처리 참고).",
-          "reassess_when": "다음 분기 실적발표 보도자료에 'Commercial paper'가 'Short-term debt'와 별도 라인으로 새로 등장하거나, SEC XBRL API에서 CommercialPaper 태그가 404가 아닌 실제 값을 반환하기 시작하면 이 판단을 재검토해야 한다."
+          "confirmed_at": null,
+          "unconfirmed_since": "2026-09-19",
+          "double_count_note": "총부채(net_debt)에 미치는 영향은 지금 당장은 없다 -- 어느 해석이든(선순위채권 유동분만 $1,199M+기업어음 $100M, 또는 단일 항목 $1,299M) net_debt 계산은 이미 대차대조표의 'Short-term debt' 총액 $1,299M(=long_term_debt_current)을 그대로 쓰고 있으므로, 이 필드(commercial_paper.value)를 net_debt 계산에서 별도로 더하지 않는다(이중계상 방지 가드는 유지). 다만 '왜 더하지 않는가'의 근거를 '없어서'에서 '이미 포함되어 있어서(추정)'로 바꾼다.",
+          "unresolved_items": [
+            "R50/R51의 다차원 표를 SEC 10-Q 원문 HTML을 직접(사람 눈으로, 또는 이 세션 밖의 정상 네트워크 환경에서) 열어 '$100,000,000'과 '$4,000,000,000'이 정확히 어느 열(날짜)·어느 항목(한도 vs 잔액)에 대응하는지 최종 확인 필요.",
+            "'Total current portion of long-term debt' $1,199M이 2026-07-26 기준이 맞는지(이 세션이 조회한 us-gaap:LongTermDebtCurrent companyconcept API는 도구 제약으로 2026-04-26 값까지만 확인됐고 2026-07-26 값을 직접 재현하지 못함) 재확인 필요."
+          ],
+          "reassess_when": "위 unresolved_items가 해소되거나, 다음 분기 10-Q에서 같은 각주 구조가 반복돼 패턴이 재확인되면 이 판단을 갱신한다. 이번 분기의 '추정' 판단을 다음 분기에 그대로 자동 적용(캐리오버)하지 말고 매 분기 원문을 다시 대조한다."
         },
         "short_term_investments": {
           "included_in_net_debt": true,
@@ -254,7 +262,21 @@ const INDEPENDENT_VALUATION_DATA = {
             "px_after": 191.33964072281017,
             "delta_usd": 2.767137096774178,
             "delta_pct": 1.4674128218935767,
-            "note": "이 항목 하나만(동일 기준일 $2,196M로) 바꾸고 다른 가정은 전부 고정한 채 재계산한 결과 -- 다른 변경과 섞이지 않은 순수 효과. 반올림 전 원값."
+            "note": "이 항목 하나만(동일 기준일 $2,196M로) 바꾸고 다른 가정은 전부 고정한 채 재계산한 결과 -- 다른 변경과 섞이지 않은 순수 효과. 반올림 전 원값. 이 값은 현재가치(DCF) 기준 효과이며, 목표시점(1년/3년) 롤포워드에 대한 효과는 아래 target_year_rollforward_isolated_effect 참고."
+          },
+          "target_year_rollforward_isolated_effect": {
+            "verified_by": "Codex(3차 검토, 2026-09-19) -- 단기투자자산을 cash0에 합산하는 수정(2026-09-19) 전후 기록을 독립적으로 재계산해 검산",
+            "reference_run_id": "AMAT_REAL_20260919T125327703427",
+            "target_years_1": {
+              "delta_usd_per_share": 2.886794639,
+              "note": "수정으로 인해 2027-07-26 목표시점 주당가치가 증가한 순수 효과(다른 가정 불변). 모델의 세후 현금이자수익 가정(cash_interest_rate_assumption)과 정합적임이 확인됨."
+            },
+            "target_years_3": {
+              "delta_usd_per_share": 3.141836049,
+              "note": "수정으로 인해 2029-07-26 목표시점 주당가치가 증가한 순수 효과(다른 가정 불변). 3년치가 1년치보다 큰 것은 단기투자자산이 더 오래 세후 이자수익을 내며 재투자되기 때문 -- 방향과 크기 모두 모델 가정과 일치.",
+              "consistency_check": "현재가치(DCF) net_debt는 이미 이 자산을 포함한 상태였으므로(수정 전에도 -2,789M) 현재가치 자체는 이번 수정으로 변하지 않았음을 별도 확인함 -- 이번 수정은 오직 미래 롤포워드 출발점(gross_debt_year0/cash_year0)에만 영향."
+            },
+            "guardrail": "이 자산을 향후에도 다른 곳에 추가로 더하지 않는다(가정 문서: '단기투자자산은 향후에도 현금과 동일하게 유동자산으로 계속 보유된다'는 것은 확정된 사실이 아니라 모델링 가정이며, 사업에 투입되거나 매각되는 대안 시나리오는 검증 범위 밖으로 남는다)."
           },
           "auto_updatable": false,
           "auto_updatable_status": "not_connected_manual_filing_read",
@@ -278,7 +300,7 @@ const INDEPENDENT_VALUATION_DATA = {
         "commercial_paper_value": 0.0,
         "commercial_paper_status": "confirmed_absent_this_quarter"
       },
-      "changeReasonVsPrevious": "직전 실행과 입력값 동일(변경 없음)",
+      "changeReasonVsPrevious": "평가 규칙(설정 파일) 변경",
       "summaryCard": {
         "fairValueRangeLow": 178.7416812727243,
         "fairValueRangeHigh": 203.02973539456156,
@@ -288,7 +310,7 @@ const INDEPENDENT_VALUATION_DATA = {
         "currentPriceNote": "이 실행이 계산 당시 비교한 가격(위 asOf 시점) -- 화면을 여는 시점의 실시간 가격과 다를 수 있음",
         "diffVsCurrentPricePct": 132.39528335866763,
         "diffVsCurrentPriceLabel": "높음",
-        "inputChangeSummary": "직전 실행과 입력값 동일(변경 없음)",
+        "inputChangeSummary": "평가 규칙(설정 파일) 변경",
         "dataStatusLevel": "최신_반영_완료",
         "dataStatusLabel": "최신 자료 반영 완료",
         "dataStatusDetail": "순부채: SEC 자동수집 성공(기준일 2026-07-26)",
@@ -791,7 +813,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "updateStatus": {
         "attemptStatus": "SUCCESS",
         "failureType": null,
-        "attemptedAt": "2026-09-19T12:53:27.711441",
+        "attemptedAt": "2026-09-19T14:31:43.529094",
         "dataAsOf": "2026-09-18",
         "holdPrice": false,
         "reason": ""
