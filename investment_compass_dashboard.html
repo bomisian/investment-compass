@@ -3868,8 +3868,16 @@ function solveAnnualizedReturnJS(cashflowsByYear, purchasePrice, rLo, rHi, tol, 
 // (있으면)를 합쳐 "지금 비교에 쓸 매입가·보유기간·현금흐름"을 만든다. 실시간 가격이 아직 없거나
 // (스캔 전) 보유기간을 계산할 수 없으면 저장된 실행 당시 값(재현용)으로 명시적으로 폴백한다 --
 // 이 폴백은 침묵하지 않고 isLive:false와 source 문구로 항상 구분된다.
-function computeLiveComparisonForScenario(v, ticker, scenarioKey){
-  const s = v.returnConditionYear3 && v.returnConditionYear3.scenarios && v.returnConditionYear3.scenarios[scenarioKey];
+function computeLiveComparisonForScenario(v, ticker, scenarioKey, periodKey){
+  // [2026-09-19 신규 -- Codex 지적 3·6·9번(3차 검토) 반영] periodKey로 어느 기간 카드
+  // (returnConditionYear3 또는 returnCondition12M)를 계산할지 고른다 -- 기본값은 하위호환을
+  // 위해 3년이다. 관측일이 바뀌면(live.asOf) 그 period의 목표시점(p3ValuationDate, target_years
+  // 값에 따라 3년 또는 12개월 후)까지 남은 실제 보유기간·현금흐름을 이 함수가 다시 계산한다 --
+  // 이미 있던 이 로직(computeHoldingPeriodYearsJS/buildReturnCashflowsJS)을 그대로 재사용할
+  // 뿐, periodKey만 파라미터화했다.
+  periodKey = periodKey || 'returnConditionYear3';
+  const rcRoot = v[periodKey];
+  const s = rcRoot && rcRoot.scenarios && rcRoot.scenarios[scenarioKey];
   if(!s || s.blocked) return null;
   const stored = {
     purchasePrice: s.purchasePriceUsed, priceAsOf: s.priceComparisonDate,
@@ -3887,7 +3895,7 @@ function computeLiveComparisonForScenario(v, ticker, scenarioKey){
   const reusedAfterFailure = !!live.lastAttemptFailedAt;
   const fetchLabel = live.fetchKind === 'cache_restored' ? '캐시에서 복원된 값'
     : (reusedAfterFailure ? `이전 조회 성공값(이번 조회는 실패: ${esc(live.lastAttemptError||'-')})` : '방금 조회 성공한 값');
-  const dividendSource = v.returnConditionYear3.dividendSource || {};
+  const dividendSource = rcRoot.dividendSource || {};
   const annualDiv = dividendSource.annualized_dividend_per_share;
   if(annualDiv == null || s.p3PerShare == null || !s.p3ValuationDate) {
     return Object.assign({}, stored, {
@@ -4085,15 +4093,27 @@ const RC_CARD_REGISTRY = {};
 // 요구수익률(%)을 담아 둔다 -- 새로고침하면 초기화된다(영속 저장 아님, 이번 회차 범위는
 // "같은 세션 안에서 목록·상세가 서로 다른 값을 쓰지 않는다"까지).
 const SHARED_REQUIRED_RETURN_BY_TICKER = {};
-// cardId(실행ID 기반) -> ticker 매핑. 상세 카드의 입력 이벤트가 발생했을 때 어느 종목의
+// [2026-09-19 신규 -- Codex 지적 9번(3차 검토) 반영] 3년 카드와 12개월 카드가 같은 종목의
+// 요구수익률 입력칸을 서로 덮어쓰지 않도록, 실제 저장 키는 "ticker::periodKey" 합성키를
+// 쓴다. 목록 행 요약(buildReturnConditionListSummaryHtml)은 지금도 3년 판단만 보여주므로
+// 항상 returnConditionYear3 키를 읽는다 -- 12개월 카드에 입력한 값이 목록 요약(3년 기준)에
+// 섞여 들어가는 일이 없다.
+function sharedRRKey(ticker, periodKey){ return ticker + '::' + (periodKey || 'returnConditionYear3'); }
+// cardId(실행ID+기간 기반) -> ticker 매핑. 상세 카드의 입력 이벤트가 발생했을 때 어느 종목의
 // 목록 행 요약을 함께 갱신해야 하는지 알기 위함.
 const RC_CARD_TICKER = {};
 function updateReturnConditionCardDOM(cardId){
-  // [이번 회차 수정 -- 사용자 지적 반영: 비교가격 연결] 레지스트리에는 이제 rc(returnConditionYear3)가
-  // 아니라 v(valuation) 전체를 저장한다 -- computeLiveComparisonForScenario/computeLiveJudgmentGate가
-  // v.returnConditionYear3.dividendSource·v.dataFreshness 등 rc 밖의 필드도 함께 필요하기 때문이다.
-  const v = RC_CARD_REGISTRY[cardId];
-  const rcData = v && v.returnConditionYear3;
+  // [이번 회차 수정 -- 사용자 지적 반영: 비교가격 연결] 레지스트리에는 rc 자체가 아니라
+  // v(valuation) 전체를 저장한다 -- computeLiveComparisonForScenario/computeLiveJudgmentGate가
+  // dividendSource·dataFreshness 등 rc 밖의 필드도 함께 필요하기 때문이다.
+  // [2026-09-19 신규 -- Codex 지적 9번(3차 검토) 반영] 레지스트리 항목이 이제 {v, periodKey}
+  // 객체다 -- 카드가 3년(returnConditionYear3)인지 12개월(returnCondition12M)인지에 따라
+  // 서로 다른 rc를 읽어야 하고, cardId 자체에 periodKey가 포함돼 있어(아래 renderReturnConditionCard
+  // 참고) 두 카드의 DOM id·입력 이벤트가 서로 덮어쓰지 않는다.
+  const entry = RC_CARD_REGISTRY[cardId];
+  const v = entry && entry.v;
+  const periodKey = (entry && entry.periodKey) || 'returnConditionYear3';
+  const rcData = v && v[periodKey];
   const card = document.getElementById(cardId);
   if(!rcData || !card) return;
   const input = card.querySelector('[data-rc-input="'+cardId+'"]');
@@ -4123,11 +4143,12 @@ function updateReturnConditionCardDOM(cardId){
   // (rawVal==='') 공유 상태도 "선택 안 함"으로 되돌린다(조건 선택 필요 상태로 복귀 -- 사용자
   // 명시 요구: 입력을 지우면 '조건 선택 필요' 상태로 돌아가야 함).
   const rcTicker = RC_CARD_TICKER[cardId];
-  if(rcTicker){
+  const rrKey = rcTicker ? sharedRRKey(rcTicker, periodKey) : null;
+  if(rrKey){
     if(rawVal === ''){
-      delete SHARED_REQUIRED_RETURN_BY_TICKER[rcTicker];
+      delete SHARED_REQUIRED_RETURN_BY_TICKER[rrKey];
     } else if(!inputInvalid && rPct!=null){
-      SHARED_REQUIRED_RETURN_BY_TICKER[rcTicker] = rPct;
+      SHARED_REQUIRED_RETURN_BY_TICKER[rrKey] = rPct;
     }
     // inputInvalid인 경우(파싱 불가/도메인 밖) 공유 상태는 마지막 유효값을 그대로 유지한다 --
     // 목록 행이 순간적으로 깨진 입력값을 따라가지 않도록.
@@ -4138,7 +4159,7 @@ function updateReturnConditionCardDOM(cardId){
     // [이번 회차 -- 비교가격 연결] 저장된 s.purchasePriceUsed/s.cashflowsByYear를 그대로 쓰지 않고,
     // scanAll()이 받은 실시간 가격이 있으면 그 가격·관측일 기준으로 다시 만든 비교값을 쓴다.
     // 실시간 가격이 없으면 liveComp는 저장값으로 명시적 폴백하며 isLive:false로 표시된다.
-    const liveComp = computeLiveComparisonForScenario(v, rcTicker, k);
+    const liveComp = computeLiveComparisonForScenario(v, rcTicker, k, periodKey);
     const effComp = liveComp || {purchasePrice: s.purchasePriceUsed, priceAsOf: s.priceComparisonDate,
                                   cashflowsByYear: s.cashflowsByYear, isLive: false, source: '-'};
     const gate = computeLiveJudgmentGate(v, effComp);
@@ -4157,8 +4178,10 @@ function updateReturnConditionCardDOM(cardId){
     target.innerHTML = j.label + (j.detail ? (' - ' + j.detail) : '') + ceilingLine + safeNote + compareNote;
   });
   // [Bundle 3 신규] 상세화면에서 요구수익률을 바꾸면 목록 행 요약도 같은 값으로 즉시 갱신한다
-  // -- 목록과 상세가 서로 다른 조건을 보여주는 일이 없도록.
-  if(rcTicker) refreshListRowReturnSummary(rcTicker);
+  // -- 목록과 상세가 서로 다른 조건을 보여주는 일이 없도록. 목록 요약은 3년 판단만 보여주므로
+  // (아래 buildReturnConditionListSummaryHtml 참고) 3년 카드의 입력만 목록을 갱신한다 -- 12개월
+  // 카드에 입력해도 목록의 3년 판단은 그대로 유지된다(서로 다른 기간이므로 섞이면 안 됨).
+  if(rcTicker && periodKey === 'returnConditionYear3') refreshListRowReturnSummary(rcTicker);
 }
 document.addEventListener('input', function(e){
   const el = e.target;
@@ -4189,8 +4212,8 @@ function buildReturnConditionListSummaryHtml(ticker){
   // 에서만 범위를 가져오고, P3(미래가치)는 상세화면에서만 보여준다(목록에서 펼치지 않음).
   const pxCons = v.scenarios && v.scenarios.conservative && v.scenarios.conservative.px;
   const pxOpt = v.scenarios && v.scenarios.optimistic && v.scenarios.optimistic.px;
-  const rPct = SHARED_REQUIRED_RETURN_BY_TICKER[ticker];
-  const rSelectedStr = (rPct!=null) ? `${rPct}%(직접 입력)` : '미선택';
+  const rPct = SHARED_REQUIRED_RETURN_BY_TICKER[sharedRRKey(ticker, 'returnConditionYear3')];
+  const rSelectedStr = (rPct!=null) ? `${rPct}%(직접 입력, 3년 기준)` : '미선택';
   // [이번 회차 -- 비교가격 연결] 목록 요약도 상세 카드와 동일하게 실시간 비교가격을 쓴다 --
   // 그래야 "목록·상세가 같은 비교가격과 관측시각을 쓴다"는 요구가 실제로 충족된다.
   const liveComp = base ? computeLiveComparisonForScenario(v, ticker, 'base') : null;
@@ -4228,22 +4251,28 @@ function refreshListRowReturnSummary(ticker){
   if(!el) return;
   el.innerHTML = buildReturnConditionListSummaryHtml(ticker);
 }
-function renderReturnConditionCard(v, ticker){
-  const rc = v.returnConditionYear3;
+function renderReturnConditionCard(v, ticker, periodKey){
+  // [2026-09-19 신규 -- Codex 지적 2·3·9번(3차 검토) 반영] periodKey로 3년(returnConditionYear3,
+  // 기본값 -- 하위호환) 또는 12개월(returnCondition12M) 카드를 고른다. 두 카드는 이 함수
+  // 하나를 공유하고, cardId·요구수익률 저장 키(sharedRRKey)에 periodKey를 포함시켜 서로
+  // 덮어쓰지 않게 한다.
+  periodKey = periodKey || 'returnConditionYear3';
+  const rc = v[periodKey];
   if(!rc) return '';
+  const periodLabel = rc.periodLabel || (periodKey === 'returnConditionYear3' ? '3년' : periodKey);
   const df = v.dataFreshness || {};
   // [이번 회차 수정 -- 사용자 지적 반영] 저장된 df.stale 스냅샷만 보지 않고, 화면을 실제로
   // 여는 지금 시각 기준으로 재검사한 결과(reevaluateDataFreshnessJS)와 비교가격 자체의
   // 최신성(evaluatePriceFreshnessJS)을 함께 반영한다 -- 9월에 생성된 화면을 12월에 열어도
   // 그 사이 지난 예상 발표일을 놓치지 않기 위함.
-  const baseLiveCompForBanner = ticker ? computeLiveComparisonForScenario(v, ticker, 'base') : null;
+  const baseLiveCompForBanner = ticker ? computeLiveComparisonForScenario(v, ticker, 'base', periodKey) : null;
   const dataReevalForBanner = reevaluateDataFreshnessJS(df);
   const priceGateForBanner = evaluatePriceFreshnessJS(baseLiveCompForBanner, df);
   const staleWarning = (df.stale || dataReevalForBanner.stale)
     ? `<div class="sub" style="margin:4px 0;color:var(--down);">⚠️ 새 자료 반영 대기 상태입니다(${esc(dataReevalForBanner.reason || df.note || '-')}) -- 아래 판정이 '판단 보류'로 표시되고, 수치는 과거 참고값으로만 취급됩니다.</div>`
     : (priceGateForBanner.stale ? `<div class="sub" style="margin:4px 0;color:var(--warn);">⚠️ 비교가격이 오래됨(${esc(priceGateForBanner.reason||'-')}) -- 아래 판정이 '판단 보류'로 표시됩니다.</div>` : '');
   const scenLabel = {conservative:'보수', base:'기준', optimistic:'낙관'};
-  const cardId = `rc_${(v.runId||'x').replace(/[^A-Za-z0-9]/g,'_')}`;
+  const cardId = `rc_${(v.runId||'x').replace(/[^A-Za-z0-9]/g,'_')}_${periodKey}`;
   const scenRowsHtml = ['conservative','base','optimistic'].filter(k=>rc.scenarios && rc.scenarios[k]).map(k => {
     const s = rc.scenarios[k];
     if(s.blocked){
@@ -4252,7 +4281,7 @@ function renderReturnConditionCard(v, ticker){
     // [이번 회차 -- 비교가격 연결] scanAll이 받은 실시간 가격이 있으면 그 가격·관측일 기준으로
     // 시나리오 연환산 수익률·보유기간을 다시 계산한다(서버가 저장 당시 가격으로 미리 계산해 둔
     // s.scenarioAnnualizedReturn을 그대로 쓰지 않음). 실시간 가격이 없으면 저장값으로 폴백.
-    const liveComp0 = computeLiveComparisonForScenario(v, ticker, k);
+    const liveComp0 = computeLiveComparisonForScenario(v, ticker, k, periodKey);
     const effComp0 = liveComp0 || {purchasePrice: s.purchasePriceUsed, priceAsOf: s.priceComparisonDate,
                                     holdingPeriodYears: s.holdingPeriodActualYears, cashflowsByYear: s.cashflowsByYear,
                                     isLive: false, source: '-'};
@@ -4269,7 +4298,7 @@ function renderReturnConditionCard(v, ticker){
     // Initial render uses the same current-data gate as later input events.
     const gate0 = computeLiveJudgmentGate(v, liveComp0);
     const historicalTag = !gate0.allowed ? ' <span style="color:var(--sub);">(과거 참고값)</span>' : '';
-    const rPct0 = SHARED_REQUIRED_RETURN_BY_TICKER[ticker];
+    const rPct0 = SHARED_REQUIRED_RETURN_BY_TICKER[sharedRRKey(ticker, periodKey)];
     const r0 = rPct0 == null ? null : rPct0 / 100;
     const invalid0 = r0 != null && !(isFinite(r0) && r0 > -1);
     const ceiling0 = r0 == null || invalid0 ? null : recomputeCeilingJS(effComp0.cashflowsByYear, r0);
@@ -4289,10 +4318,15 @@ function renderReturnConditionCard(v, ticker){
       : '';
     const compareLine = `비교가격 $${effComp0.purchasePrice!=null?effComp0.purchasePrice.toFixed(2):'-'} `
       + `(${esc(effComp0.priceAsOf||'-')} 관측, ${effComp0.isLive?'실시간 조회':'저장된 실행 당시 값(재현용)'})`;
+    // [2026-09-19 정정 -- Codex 지적 3번(3차 검토) 반영] "3년 후"라고 하드코딩하지 않고
+    // periodLabel(3년/12개월)과 실제 목표일(s.p3ValuationDate)을 함께 보여준다 -- 12개월
+    // 카드의 목표일은 평가기준일+1년(예: 2027-07-26)이며, 오늘(비교가격 관측일)부터 정확히
+    // 12개월 뒤가 아니다. holdStr이 이미 "비교가격 관측일→목표일"의 실제 일수를 보여주므로,
+    // "정확히 12개월 수익률"이라는 인상을 주지 않도록 목표일을 항상 함께 표기한다.
     return `
     <div class="fund-row" data-rc-scenario="${k}" data-purchase-price="${effComp0.purchasePrice!=null?effComp0.purchasePrice:''}">
       <span>${k==='base'?'<b>기준</b>':esc(scenLabel[k])}</span>
-      <span class="v">미래가치 P3(${esc(s.p3ValuationDate||'평가기준일+3년')}) $${s.p3PerShare!=null?s.p3PerShare.toFixed(2):'-'} · 시나리오 연환산 ${rateStr}${historicalTag}</span></div>
+      <span class="v">목표시점(${esc(periodLabel)}, ${esc(s.p3ValuationDate||'-')}) 미래가치 $${s.p3PerShare!=null?s.p3PerShare.toFixed(2):'-'} · 시나리오 연환산 ${rateStr}${historicalTag}</span></div>
     <div class="sub" style="margin:0 0 2px;font-size:11px;">${esc(compareLine)}</div>
     ${holdStr ? `<div class="sub" style="margin:0 0 2px;font-size:11px;">${holdStr}</div>` : ''}
     <div class="sub" data-rc-judgment="${k}" style="margin:0 0 4px;color:${j0Color};">${esc(j0.label||'-')}${j0.reason_detail?(' - '+esc(j0.reason_detail)):''}</div>`;
@@ -4314,21 +4348,25 @@ function renderReturnConditionCard(v, ticker){
   const execAsOfStr = esc(v.asOf || '-');
   const compareAsOfStr = esc((baseLiveComp && baseLiveComp.priceAsOf) || '-');
   const p3DateStr = esc((baseS && baseS.p3ValuationDate) || '-');
+  // [2026-09-19 신규] 요구수익률 입력값은 sharedRRKey(ticker, periodKey)로 저장된다 -- 3년
+  // 카드와 12개월 카드는 서로 다른 키를 쓰므로 입력이 섞이지 않는다.
+  const rrKeyForCard = ticker ? sharedRRKey(ticker, periodKey) : null;
+  const rrValForCard = rrKeyForCard != null ? SHARED_REQUIRED_RETURN_BY_TICKER[rrKeyForCard] : null;
   const cardHtml = `
     <div class="comment-box" id="${cardId}" style="background:var(--panel-2);margin-bottom:10px;border-left:3px solid var(--warn);">
-      <b>📅 수익조건 (3년 보유, 실행 ID ${esc(v.runId||'-')})</b>
-      <div class="sub" style="margin:4px 0 8px;">위 독립 적정가(현재가치 평가)와는 다른 별개 지표예요 -- 이건 "지금 사서 3년 들고 있으면 배당+매도대금으로 실제 손에 들어오는 수익률이 얼마인가"를 계산한 것입니다. ${esc(rc.scope||'')}</div>
+      <b>📅 수익조건 (${esc(periodLabel)} 목표, 실행 ID ${esc(v.runId||'-')})</b>
+      <div class="sub" style="margin:4px 0 8px;">위 독립 적정가(현재가치 평가)와는 다른 별개 지표예요 -- 이건 "지금 사서 목표시점(${esc(periodLabel)})까지 들고 있으면 배당+매도대금으로 실제 손에 들어오는 수익률이 얼마인가"를 계산한 것입니다. ${esc(rc.scope||'')}</div>
       ${staleWarning}
       <div class="fund-row"><span>매입가 기준(비교가격)</span><span class="v">$${basePriceStr} <span style="color:var(--sub);font-size:11px;">(${basePriceSourceStr})</span></span></div>
-      <div class="sub" style="margin:0 0 6px;font-size:11px;">가치평가 기준일 ${anchorDateStr} · 계산 실행 시각 ${execAsOfStr} · 비교가격 관측 ${compareAsOfStr} · 미래(3년후) 평가일 ${p3DateStr} -- 네 날짜는 서로 다른 의미이며 같은 값이 아닐 수 있습니다.</div>
+      <div class="sub" style="margin:0 0 6px;font-size:11px;">가치평가 기준일 ${anchorDateStr} · 계산 실행 시각 ${execAsOfStr} · 비교가격 관측 ${compareAsOfStr} · 목표(${esc(periodLabel)}) 평가일 ${p3DateStr} -- 네 날짜는 서로 다른 의미이며 같은 값이 아닐 수 있습니다. 목표일은 평가기준일 기준으로 정해지며, 비교가격 관측일로부터 정확히 그 기간(예: 정확히 12개월)이 아닐 수 있습니다 -- 위 각 시나리오 행의 "실제 보유기간"을 참고하세요.</div>
       <div class="fund-row"><span>데이터 기준일 / 마지막 수동확인</span><span class="v" style="font-size:11px;">가격 ${esc(df.price_as_of||'-')} · net_debt ${esc(df.net_debt_last_manual_check||'-')} · 가이던스 ${esc(df.guidance_consensus_last_manual_check||'-')}</span></div>
       <div class="fund-row" style="align-items:center;">
         <span>요구수익률(직접 입력)</span>
         <span class="v"><input type="number" step="0.5" min="-90" max="200" placeholder="예: 10" data-rc-input="${cardId}"
-          value="${(ticker && SHARED_REQUIRED_RETURN_BY_TICKER[ticker]!=null) ? SHARED_REQUIRED_RETURN_BY_TICKER[ticker] : ''}"
+          value="${(rrValForCard!=null) ? rrValForCard : ''}"
           style="width:70px;background:var(--panel);color:var(--text);border:1px solid var(--border);border-radius:4px;padding:2px 6px;text-align:right;">%</span>
       </div>
-      <div class="sub" style="margin:0 0 6px;">값을 입력하지 않으면 '요구수익률 선택 필요' 상태입니다 -- 화면이 임의의 기본값(예: 10%)을 대신 쓰지 않습니다. -100% 이하이거나 숫자가 아닌 값, 계산 결과가 유효하지 않은 값은 '수익조건 미충족'이 아니라 '판단 보류'(입력 오류)로 표시됩니다. 입력값을 바꿔도 위 독립 적정가·P3(사업가치 자체)는 전혀 바뀌지 않습니다 -- 이미 계산된 현금흐름으로 매입가 상한만 다시 계산합니다. 목록 화면의 요약도 이 값을 그대로 따라갑니다.</div>
+      <div class="sub" style="margin:0 0 6px;">값을 입력하지 않으면 '요구수익률 선택 필요' 상태입니다 -- 화면이 임의의 기본값(예: 10%)을 대신 쓰지 않습니다. -100% 이하이거나 숫자가 아닌 값, 계산 결과가 유효하지 않은 값은 '수익조건 미충족'이 아니라 '판단 보류'(입력 오류)로 표시됩니다. 입력값을 바꿔도 위 독립 적정가·목표시점 미래가치(사업가치 자체)는 전혀 바뀌지 않습니다 -- 이미 계산된 현금흐름으로 매입가 상한만 다시 계산합니다. 이 입력은 ${esc(periodLabel)} 카드 전용이며, 다른 기간 카드나 목록 요약(3년 기준)에는 영향을 주지 않습니다.</div>
       ${scenRowsHtml}
       <details style="margin-top:8px;">
         <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">참고: 요구수익률별 매입가격 상한 예시 (시스템 기본값 아님)</summary>
@@ -4337,7 +4375,7 @@ function renderReturnConditionCard(v, ticker){
             const ex = rc.scenarios.base.illustrativeRequiredReturnExamples[rKey];
             return `<div class="fund-row"><span>기준 시나리오, r=${(parseFloat(rKey)*100).toFixed(0)}%</span><span class="v">$${ex!=null?ex.toFixed(2):'-'}</span></div>`;
           }).join('')}
-          <div class="sub" style="margin-top:4px;">공식: 요구수익률 충족 매입가격 = Σ[배당/(1+r)^t] + 매도가/(1+r)^(실제 보유기간). 마지막 시점은 정확히 3년이 아니라 매입일부터 미래가치 평가일까지의 실제 보유기간(약 3년)입니다${(rc.scenarios&&rc.scenarios.base&&rc.scenarios.base.holdingPeriodActualYears!=null)?` -- 이 실행은 ${rc.scenarios.base.holdingPeriodActualYears.toFixed(2)}년`:''}. r은 투자자가 직접 정해야 하는 값이며, 기업가치 평가에 쓰는 WACC이나 이전 15% 상승여력 기준과 자동으로 같지 않습니다.</div>
+          <div class="sub" style="margin-top:4px;">공식: 요구수익률 충족 매입가격 = Σ[배당/(1+r)^t] + 매도가/(1+r)^(실제 보유기간). 마지막 시점은 정확히 ${esc(periodLabel)}가 아니라 매입일부터 목표(${esc(periodLabel)}) 평가일까지의 실제 보유기간입니다${(rc.scenarios&&rc.scenarios.base&&rc.scenarios.base.holdingPeriodActualYears!=null)?` -- 이 실행은 ${rc.scenarios.base.holdingPeriodActualYears.toFixed(2)}년(${rc.scenarios.base.holdingPeriodActualDays!=null?rc.scenarios.base.holdingPeriodActualDays+'일':''})`:''}. r은 투자자가 직접 정해야 하는 값이며, 기업가치 평가에 쓰는 WACC이나 이전 15% 상승여력 기준과 자동으로 같지 않습니다.</div>
         </div>
       </details>
       <details style="margin-top:8px;">
@@ -4357,7 +4395,9 @@ function renderReturnConditionCard(v, ticker){
   // (DOM 표준 동작) 쓰지 않는다.
   // [이번 회차 수정] rc가 아니라 v 전체를 등록한다 -- 입력 이벤트 시점에도 computeLiveComparisonForScenario/
   // computeLiveJudgmentGate가 dividendSource·dataFreshness 등 rc 밖 필드를 함께 읽어야 하기 때문.
-  RC_CARD_REGISTRY[cardId] = v;
+  // [2026-09-19 신규] periodKey도 함께 등록한다 -- updateReturnConditionCardDOM이 이 cardId가
+  // 3년/12개월 어느 카드인지 알아야 v[periodKey]에서 올바른 rc를 읽는다.
+  RC_CARD_REGISTRY[cardId] = {v: v, periodKey: periodKey};
   if(ticker) RC_CARD_TICKER[cardId] = ticker;  // [Bundle 3] 목록 행 요약 갱신용 매핑
   return cardHtml;
 }
@@ -4366,7 +4406,15 @@ function renderIndependentValuationSection(r){
   if(!iv || !iv.valuation) return '';
   const v = iv.valuation;
   const price = r.price;
-  if(v.kind === 'independent_value_dcf_scenario_engine') return renderAmatScenarioValuation(v, price, r.ticker) + renderReturnConditionCard(v, r.ticker);
+  if(v.kind === 'independent_value_dcf_scenario_engine'){
+    // [2026-09-19 신규 -- Codex 지적 2·9번(3차 검토) 반영] 12개월 카드(returnCondition12M)가
+    // 실제로 저장돼 있으면 기존 3년 카드 옆에 나란히 렌더링한다 -- JS 데이터 파일에 값이
+    // 있는 것과 사용자가 보는 화면에 실제로 그려지는 것은 다르다는 지적에 따라, 여기서
+    // 처음으로 이 필드를 실제 HTML 렌더링 경로에 연결한다.
+    let html = renderAmatScenarioValuation(v, price, r.ticker) + renderReturnConditionCard(v, r.ticker, 'returnConditionYear3');
+    if(v.returnCondition12M) html += renderReturnConditionCard(v, r.ticker, 'returnCondition12M');
+    return html;
+  }
   if(v.kind === 'independent_value_dcf_single_engine') return renderAmatScenarioValuation(v, price, r.ticker);
   const pct = x => { if(x==null) return '-'; const p=(x-price)/price*100; return `${p>=0?'+':''}${p.toFixed(0)}%`; };
   const a = v.assumptions || {};
