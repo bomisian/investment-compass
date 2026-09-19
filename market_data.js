@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran executes man convicted of spying for Israel's Mossad, judiciary says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUHlXMU02X1Q1U245V0NOTFNPTGFPLXBYTFBNUG84ZlBWY2hteTNWRTNadlNxWWUzQVktelVDbmxOenJuQlZzV1h2bHlfNXZfWTh2RVNYeTVRVkhfTFpGTVNGSm5xeHhNUnE0U2E2ZmEtYmVDaFkwY25wUFl3alBnYXhJUnZGeVc5dVZKTU1aYTIxcW1xTmk3UGpBSmt4bU1lTHpsN1Rya1o2WDZlZ295LVZISUpXc0dZZEE?oc=5",
+      "datetime": 1789799280,
+      "headlineKo": "이란, 이스라엘 모사드 간첩 혐의로 유죄판결 받은 남성 처형"
+    },
+    {
       "headline": "Saudi civil defence sends all-clear after alerts issued for capital Riyadh - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYWNnM0NScnlDOXNDY25xQjhZVlRHUUtMOEV3YVZSOW5xekdVelcycGI1VHl3dWpqVGhNM2s1N05NamZxV0hoNVBFN204OHM5dVlQemMySkJGMlpCaURybUY4TVZfd0RDUUxzb3RTeWJVVEI4blFQZFhJekptSHRFUVdqb1pDai1VQ1hPS1JHWk92MEpZYWtESDduUmpwUEg4Nzc4bFp3VDQzM2JMTnRZXzgzbVBvUDk0clU4a3dHMlhuQk0?oc=5",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/18/were-buying-more-of-this-defensive-stock-ahead-of-an-upcoming-long-term-catalyst.html",
       "datetime": 1789748067,
       "headlineKo": "우리는 다가오는 장기 촉매제에 앞서 이 방어주를 더 많이 구매하고 있습니다."
-    },
-    {
-      "headline": "Disney names CTO for the first time as media giant expands tech push",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/18/disney-cto-tech.html",
-      "datetime": 1789748066,
-      "headlineKo": "거대 미디어 기업이 기술 추진을 확장하면서 디즈니가 처음으로 CTO를 임명했습니다."
     }
   ],
   "fgi": {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789808592.2443113,
-  "_updated_label": "2026-09-19 18:03",
-  "_last_attempt_at": 1789808592.2443113,
-  "_last_success_at": 1789808592.2443113,
+  "_fetched_at": 1789812206.3000832,
+  "_updated_label": "2026-09-19 19:04",
+  "_last_attempt_at": 1789812206.3000832,
+  "_last_success_at": 1789812206.3000832,
   "_collection_status": "ok",
   "_collection_errors": []
 };
