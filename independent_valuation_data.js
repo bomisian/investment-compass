@@ -111,8 +111,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "kind": "independent_value_dcf_scenario_engine",
       "asOf": "2026-09-19",
       "valuationAnchorDate": "2026-07-26",
-      "runId": "AMAT_REAL_20260919T085223646137",
-      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260919T085223459566",
+      "runId": "AMAT_REAL_20260919T092248357373",
+      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260919T092248291372",
       "engineVersion": "amat_calc_engine v4 (2026-09-18, 모델 채택 검토) -- D&A/CapEx 비율 곡선을 FY2025 실측 대조로 조정(min(0.60,0.20+0.10*(i+1)) -> min(0.45,0.19+0.065*i)), 계산 결과가 달라짐(v3 대비). 과거 실행은 각자 저장된 code_snapshots로 그 시점 값 그대로 재현 가능.",
       "isReplayFixture": false,
       "px": 191.21344766158418,
@@ -123,21 +123,21 @@ const INDEPENDENT_VALUATION_DATA = {
           "growthY1": 0.3134993682913383,
           "roic": 0.18,
           "ntmValue": 40504380020.0,
-          "runId": "AMAT_REAL_20260919T085223612891"
+          "runId": "AMAT_REAL_20260919T092248316726"
         },
         "base": {
           "px": 191.21344766158418,
           "growthY1": 0.38220422220060324,
           "roic": 0.22,
           "ntmValue": 42623031600.0,
-          "runId": "AMAT_REAL_20260919T085223646137"
+          "runId": "AMAT_REAL_20260919T092248357373"
         },
         "optimistic": {
           "px": 202.94689427376647,
           "growthY1": 0.45090907610986797,
           "roic": 0.26,
           "ntmValue": 44741683180.0,
-          "runId": "AMAT_REAL_20260919T085223683237"
+          "runId": "AMAT_REAL_20260919T092248400671"
         }
       },
       "priorDeliveredPx": 129.13,
@@ -224,6 +224,19 @@ const INDEPENDENT_VALUATION_DATA = {
         "auto_update_status_note": "자동 갱신되지 않음 -- 분기마다 사람이 실적발표 보도자료의 조건부 대차대조표를 직접 재확인해 이 값을 갱신해야 함.",
         "update_condition": "LongTermDebtNoncurrent/LongTermDebtCurrent/CashAndCashEquivalentsAtCarryingValue는 이미 쓰고 있는 매출·발행주식수와 같은 SEC XBRL companyconcept API로 동일하게 자동 수집 가능한 표준 태그다 -- 다음 단계 자동화 후보. 그 전까지는 분기 실적 발표마다 사람이 이 값을 직접 갱신",
         "basis_label": "현재 확인 가능한 동일 기준일 자료",
+        "commercial_paper": {
+          "value": 0.0,
+          "status": "not_separately_reported_confirmed",
+          "as_of": "2026-07-26",
+          "basis": "[2026-09-19 신규 확인] (1) SEC data.sec.gov XBRL companyconcept API가 CIK0000006951의 us-gaap:CommercialPaper 개념 자체에 대해 404(해당 태그를 이 회사가 한 번도 쓴 적 없음)를 반환함 -- 실측 확인. (2) 회사의 FY2026 Q3 실적발표 보도자료(2026-08-13, globenewswire) 원문의 조건부 대차대조표를 직접 대조한 결과 'Short-term debt' 단일 라인($1,299M, 2026-07-26 기준)만 보고되고 별도 'Commercial paper' 라인은 없음. 이 $1,299M은 이미 이 파일의 long_term_debt_current 값과 동일하다 -- 즉 기업어음이 있었다면 바로 이 라인에 포함돼 보고됐을 것이고, 회사는 이를 더 세분화해서 보고하지 않는다. 따라서 net_debt 계산에 기업어음을 long_term_debt_current와 별도로 더하면 이중계상이 된다 -- 이 0은 '확인 안 해서 기본값 0'이 아니라 '별도 보고 항목이 존재하지 않음을 원문·XBRL 양쪽에서 확인한 0'이다.",
+          "source_urls": [
+            "https://www.globenewswire.com/news-release/2026/08/13/3344890/0/en/applied-materials-announces-third-quarter-2026-results.html",
+            "https://data.sec.gov/api/xbrl/companyconcept/CIK0000006951/us-gaap/CommercialPaper.json"
+          ],
+          "confirmed_at": "2026-09-19",
+          "double_count_note": "long_term_debt_current($1,299M)에 이미 포함된 것으로 판단되는 값이므로, 이 필드의 값을 net_debt 계산에서 long_term_debt_current와 별도로 더하지 않는다(코드 쪽 가드: amat_collector_adapter.py의 static_config_fallback 분기, sec_xbrl_auto 분기의 confirmed_absent 처리 참고).",
+          "reassess_when": "다음 분기 실적발표 보도자료에 'Commercial paper'가 'Short-term debt'와 별도 라인으로 새로 등장하거나, SEC XBRL API에서 CommercialPaper 태그가 404가 아닌 실제 값을 반환하기 시작하면 이 판단을 재검토해야 한다."
+        },
         "short_term_investments": {
           "included_in_net_debt": true,
           "value": 2196000000.0,
@@ -254,17 +267,18 @@ const INDEPENDENT_VALUATION_DATA = {
         "cash": 7037000000.0,
         "as_of": "2026-07-26",
         "kind": "static_config_fallback",
-        "selection_basis": "자동 수집 실패(network_error: ['commercial_paper']; 최근 검증값은 기업어음 미반영(구스키마)이라 거부), 신뢰 가능한 최근 검증값도 없음 -- 정적 설정값(config, 2026-07-26 기준, 기업어음 포함)으로 대체 + 단기투자자산 $2,196M 반영(2026-07-26 기준, 10-Q 본문 직접대조, 나머지 3개 구성요소와 동일 기준일 여부는 net_debt_source.short_term_investments.basis_date_status 참고)",
+        "selection_basis": "자동 수집 실패(identity_check_failed: 순부채 구성요소 신원 미확인/불일치: commercial_paper(cik 필드 없음); 최근 검증값은 기업어음 미반영(구스키마)이라 거부), 신뢰 가능한 최근 검증값도 없음 -- 정적 설정값(config, 2026-07-26 기준)으로 대체. 기업어음: [2026-09-19 신규 확인] (1) SEC data.sec.gov XBRL companyconcept API가 CIK0000006951의 us-gaap:CommercialPaper 개념 자체에 대해 404(해당 태그를 이 회사가 한 번도 쓴 적 없음)를 반환함 -- 실측 확인. (2) 회사의 FY2026 Q3 실적발표 보도자료(2026-08-13, globenewswire) 원문의 조건부 대차대조표를 직접 대조한 결과 'Short-term debt' 단일 라인($1,299M, 2026-07-26 기준)만 보고되고 별도 'Commercial paper' 라인은 없음. 이 $1,299M은 이미 이 파일의 long_term_debt_current 값과 동일하다 -- 즉 기업어음이 있었다면 바로 이 라인에 포함돼 보고됐을 것이고, 회사는 이를 더 세분화해서 보고하지 않는다. 따라서 net_debt 계산에 기업어음을 long_term_debt_current와 별도로 더하면 이중계상이 된다 -- 이 0은 '확인 안 해서 기본값 0'이 아니라 '별도 보고 항목이 존재하지 않음을 원문·XBRL 양쪽에서 확인한 0'이다. + 단기투자자산 $2,196M 반영(2026-07-26 기준, 10-Q 본문 직접대조, 나머지 3개 구성요소와 동일 기준일 여부는 net_debt_source.short_term_investments.basis_date_status 참고)",
         "age_days": 55,
         "stale": false,
-        "collection_failure_reason": "network_error: ['commercial_paper']; 최근 검증값은 기업어음 미반영(구스키마)이라 거부",
+        "collection_failure_reason": "identity_check_failed: 순부채 구성요소 신원 미확인/불일치: commercial_paper(cik 필드 없음); 최근 검증값은 기업어음 미반영(구스키마)이라 거부",
         "short_term_investments_included": true,
         "short_term_investments_value": 2196000000.0,
         "short_term_investments_as_of": "2026-07-26",
         "commercial_paper_included": true,
-        "commercial_paper_value": 0.0
+        "commercial_paper_value": 0.0,
+        "commercial_paper_status": "not_separately_reported_confirmed"
       },
-      "changeReasonVsPrevious": "순부채 자료 갱신($-2.79B→$-2.69B); 순부채 출처 변경(sec_xbrl_auto→static_config_fallback); 시장가 변동($415.38→$444.57)",
+      "changeReasonVsPrevious": "평가 규칙(설정 파일) 변경",
       "summaryCard": {
         "fairValueRangeLow": 178.6530466547334,
         "fairValueRangeHigh": 202.94689427376647,
@@ -274,10 +288,10 @@ const INDEPENDENT_VALUATION_DATA = {
         "currentPriceNote": "이 실행이 계산 당시 비교한 가격(위 asOf 시점) -- 화면을 여는 시점의 실시간 가격과 다를 수 있음",
         "diffVsCurrentPricePct": 132.49934184076494,
         "diffVsCurrentPriceLabel": "높음",
-        "inputChangeSummary": "순부채 자료 갱신($-2.79B→$-2.69B); 순부채 출처 변경(sec_xbrl_auto→static_config_fallback); 시장가 변동($415.38→$444.57)",
+        "inputChangeSummary": "평가 규칙(설정 파일) 변경",
         "dataStatusLevel": "확인_필요",
         "dataStatusLabel": "일부 자료 확인 필요",
-        "dataStatusDetail": "순부채가 SEC 자동수집이 아니라 사람이 직접 확인한 정적값으로 계산됐습니다(기준일 2026-07-26). 자동수집 실패 사유: network_error: ['commercial_paper']; 최근 검증값은 기업어음 미반영(구스키마)이라 거부",
+        "dataStatusDetail": "순부채가 SEC 자동수집이 아니라 사람이 직접 확인한 정적값으로 계산됐습니다(기준일 2026-07-26). 자동수집 실패 사유: identity_check_failed: 순부채 구성요소 신원 미확인/불일치: commercial_paper(cik 필드 없음); 최근 검증값은 기업어음 미반영(구스키마)이라 거부",
         "asOf": "2026-09-19",
         "estimateStatusLabel": "조건부 DCF 추정값 (conditional DCF estimate) -- 검증된 대표 적정가로 확정된 것이 아님",
         "estimateStatusNote": "이 값은 현재 이 파일에 기록된 성장·마진·자본비용 가정 아래에서 계산된 결과다. 입력별 신뢰 등급(직접관측/외부컨센서스/파생추정/순수판단)이 서로 다르며, 등급이 낮은 입력(4~5년차 성장률, D&A 곡선, 영구성장률)이 결과에 가장 크게 기여한다. '장기 내재가치 점검'에는 참고할 수 있으나, 매수/매도 타이밍 판단 근거로 단독 사용하지 않는다 -- AMAT_모델_채택_최종검토_2026-09-18.md, AMAT_모델채택_구현완료보고_2026-09-18.md 참고.",
@@ -406,11 +420,11 @@ const INDEPENDENT_VALUATION_DATA = {
         "status": "확인된_최신_실적_기준_내",
         "note": "다음 실적 발표 예상일 이전이고 확인된 미반영 공시도 없어, 현재 net_debt·가이던스·컨센서스 기준을 유효한 값으로 쓴다. 예정일 자체가 추정치이므로 실제 발표일이 다르면 이 판정도 같이 갱신해야 한다.",
         "net_debt_source_kind_used": "static_config_fallback",
-        "net_debt_selection_basis": "자동 수집 실패(network_error: ['commercial_paper']; 최근 검증값은 기업어음 미반영(구스키마)이라 거부), 신뢰 가능한 최근 검증값도 없음 -- 정적 설정값(config, 2026-07-26 기준, 기업어음 포함)으로 대체 + 단기투자자산 $2,196M 반영(2026-07-26 기준, 10-Q 본문 직접대조, 나머지 3개 구성요소와 동일 기준일 여부는 net_debt_source.short_term_investments.basis_date_status 참고)",
+        "net_debt_selection_basis": "자동 수집 실패(identity_check_failed: 순부채 구성요소 신원 미확인/불일치: commercial_paper(cik 필드 없음); 최근 검증값은 기업어음 미반영(구스키마)이라 거부), 신뢰 가능한 최근 검증값도 없음 -- 정적 설정값(config, 2026-07-26 기준)으로 대체. 기업어음: [2026-09-19 신규 확인] (1) SEC data.sec.gov XBRL companyconcept API가 CIK0000006951의 us-gaap:CommercialPaper 개념 자체에 대해 404(해당 태그를 이 회사가 한 번도 쓴 적 없음)를 반환함 -- 실측 확인. (2) 회사의 FY2026 Q3 실적발표 보도자료(2026-08-13, globenewswire) 원문의 조건부 대차대조표를 직접 대조한 결과 'Short-term debt' 단일 라인($1,299M, 2026-07-26 기준)만 보고되고 별도 'Commercial paper' 라인은 없음. 이 $1,299M은 이미 이 파일의 long_term_debt_current 값과 동일하다 -- 즉 기업어음이 있었다면 바로 이 라인에 포함돼 보고됐을 것이고, 회사는 이를 더 세분화해서 보고하지 않는다. 따라서 net_debt 계산에 기업어음을 long_term_debt_current와 별도로 더하면 이중계상이 된다 -- 이 0은 '확인 안 해서 기본값 0'이 아니라 '별도 보고 항목이 존재하지 않음을 원문·XBRL 양쪽에서 확인한 0'이다. + 단기투자자산 $2,196M 반영(2026-07-26 기준, 10-Q 본문 직접대조, 나머지 3개 구성요소와 동일 기준일 여부는 net_debt_source.short_term_investments.basis_date_status 참고)",
         "net_debt_age_days": 55,
         "net_debt_max_age_days": 200,
         "net_debt_stale": false,
-        "net_debt_collection_failure_reason": "network_error: ['commercial_paper']; 최근 검증값은 기업어음 미반영(구스키마)이라 거부",
+        "net_debt_collection_failure_reason": "identity_check_failed: 순부채 구성요소 신원 미확인/불일치: commercial_paper(cik 필드 없음); 최근 검증값은 기업어음 미반영(구스키마)이라 거부",
         "ntm_guidance_used": true,
         "ntm_sources_checked": {
           "guidance_history_path": "guidance_history_cache.json",
@@ -583,11 +597,11 @@ const INDEPENDENT_VALUATION_DATA = {
           "status": "확인된_최신_실적_기준_내",
           "note": "다음 실적 발표 예상일 이전이고 확인된 미반영 공시도 없어, 현재 net_debt·가이던스·컨센서스 기준을 유효한 값으로 쓴다. 예정일 자체가 추정치이므로 실제 발표일이 다르면 이 판정도 같이 갱신해야 한다.",
           "net_debt_source_kind_used": "static_config_fallback",
-          "net_debt_selection_basis": "자동 수집 실패(network_error: ['commercial_paper']; 최근 검증값은 기업어음 미반영(구스키마)이라 거부), 신뢰 가능한 최근 검증값도 없음 -- 정적 설정값(config, 2026-07-26 기준, 기업어음 포함)으로 대체 + 단기투자자산 $2,196M 반영(2026-07-26 기준, 10-Q 본문 직접대조, 나머지 3개 구성요소와 동일 기준일 여부는 net_debt_source.short_term_investments.basis_date_status 참고)",
+          "net_debt_selection_basis": "자동 수집 실패(identity_check_failed: 순부채 구성요소 신원 미확인/불일치: commercial_paper(cik 필드 없음); 최근 검증값은 기업어음 미반영(구스키마)이라 거부), 신뢰 가능한 최근 검증값도 없음 -- 정적 설정값(config, 2026-07-26 기준)으로 대체. 기업어음: [2026-09-19 신규 확인] (1) SEC data.sec.gov XBRL companyconcept API가 CIK0000006951의 us-gaap:CommercialPaper 개념 자체에 대해 404(해당 태그를 이 회사가 한 번도 쓴 적 없음)를 반환함 -- 실측 확인. (2) 회사의 FY2026 Q3 실적발표 보도자료(2026-08-13, globenewswire) 원문의 조건부 대차대조표를 직접 대조한 결과 'Short-term debt' 단일 라인($1,299M, 2026-07-26 기준)만 보고되고 별도 'Commercial paper' 라인은 없음. 이 $1,299M은 이미 이 파일의 long_term_debt_current 값과 동일하다 -- 즉 기업어음이 있었다면 바로 이 라인에 포함돼 보고됐을 것이고, 회사는 이를 더 세분화해서 보고하지 않는다. 따라서 net_debt 계산에 기업어음을 long_term_debt_current와 별도로 더하면 이중계상이 된다 -- 이 0은 '확인 안 해서 기본값 0'이 아니라 '별도 보고 항목이 존재하지 않음을 원문·XBRL 양쪽에서 확인한 0'이다. + 단기투자자산 $2,196M 반영(2026-07-26 기준, 10-Q 본문 직접대조, 나머지 3개 구성요소와 동일 기준일 여부는 net_debt_source.short_term_investments.basis_date_status 참고)",
           "net_debt_age_days": 55,
           "net_debt_max_age_days": 200,
           "net_debt_stale": false,
-          "net_debt_collection_failure_reason": "network_error: ['commercial_paper']; 최근 검증값은 기업어음 미반영(구스키마)이라 거부",
+          "net_debt_collection_failure_reason": "identity_check_failed: 순부채 구성요소 신원 미확인/불일치: commercial_paper(cik 필드 없음); 최근 검증값은 기업어음 미반영(구스키마)이라 거부",
           "ntm_guidance_used": true,
           "ntm_sources_checked": {
             "guidance_history_path": "guidance_history_cache.json",
@@ -600,7 +614,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "updateStatus": {
         "attemptStatus": "SUCCESS",
         "failureType": null,
-        "attemptedAt": "2026-09-19T08:52:23.652547",
+        "attemptedAt": "2026-09-19T09:22:48.363540",
         "dataAsOf": "2026-09-18",
         "holdPrice": false,
         "reason": ""
