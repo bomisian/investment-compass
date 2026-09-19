@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Saudi civil defence sends all-clear after alerts issued for capital Riyadh - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYWNnM0NScnlDOXNDY25xQjhZVlRHUUtMOEV3YVZSOW5xekdVelcycGI1VHl3dWpqVGhNM2s1N05NamZxV0hoNVBFN204OHM5dVlQemMySkJGMlpCaURybUY4TVZfd0RDUUxzb3RTeWJVVEI4blFQZFhJekptSHRFUVdqb1pDai1VQ1hPS1JHWk92MEpZYWtESDduUmpwUEg4Nzc4bFp3VDQzM2JMTnRZXzgzbVBvUDk0clU4a3dHMlhuQk0?oc=5",
+      "datetime": 1789778520,
+      "headlineKo": "사우디아라비아 민방위가 수도 리야드에 대한 경보를 발령한 후 명확하게 통보 - Reuters"
+    },
+    {
       "headline": "Trump signs Russia sanctions bill into law - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMWZ3NVV2eHJuOEVQcDhZX3BVSnh2aWxQcE0wWERtWGc3MG9ZS3VmN1lqemJPNS1NbE1pU3RDTlR5TUIteF9hMVdNY2NITDU2N3lva3hWelYydUQ1Nm9xWUZZUHN3R29QeXR3VzhIdFNyOXJ6T1FLNlNEU3JIbUx3Q1ZCVWxHdnI4ZmhJVjFfd0s?oc=5",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/18/what-cramer-learned-at-nycs-flagship-apple-store-for-iphone-18-launch.html",
       "datetime": 1789746816,
       "headlineKo": "iPhone 18 출시를 위해 뉴욕의 플래그십 Apple Store에서 Jim Cramer가 배운 것"
-    },
-    {
-      "headline": "Wendy's franchisee files for Chapter 11 bankruptcy protection as burger chain struggles",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/18/wendys-franchisee-files-for-chapter-11-bankruptcy-protection.html",
-      "datetime": 1789746088,
-      "headlineKo": "버거 체인이 어려움을 겪으면서 Wendy의 가맹점은 Chapter 11 파산 보호를 신청했습니다."
     }
   ],
   "fgi": {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789794073.3754125,
-  "_updated_label": "2026-09-19 14:01",
-  "_last_attempt_at": 1789794073.3754125,
-  "_last_success_at": 1789794073.3754125,
+  "_fetched_at": 1789797712.4798687,
+  "_updated_label": "2026-09-19 15:02",
+  "_last_attempt_at": 1789797712.4798687,
+  "_last_success_at": 1789797712.4798687,
   "_collection_status": "ok",
   "_collection_errors": []
 };
