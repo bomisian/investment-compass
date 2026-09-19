@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Flames, black smoke seen near Riyadh airport, eyewitness says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVhEVEhONEZLVTN1Q0NyUzZwOXdIS3JLY0VVMVhabU40LV96QjY3d3A5M3NNTElCTy1SdzFFSVIyOEhxWW1OMUxKM1hHUFc0UDNnaXpLRlBPR2VhZkdsWVktOWtCSWxTUWhYV1FFcnN6c3A1WVVoc192OWNJSWhJQnc0U1QwZ1ZtRXd2a0hlNkJJMVVrckJpSXFlZzJDNVhUTVI5RWtGcVd6SW01UHNEWk9lMA?oc=5",
+      "datetime": 1789816871,
+      "headlineKo": "목격자에 따르면 리야드 공항 근처에서 불꽃과 검은 연기가 보였다 - 로이터 통신"
+    },
+    {
       "headline": "Iran executes man convicted of spying for Israel's Mossad, judiciary says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUHlXMU02X1Q1U245V0NOTFNPTGFPLXBYTFBNUG84ZlBWY2hteTNWRTNadlNxWWUzQVktelVDbmxOenJuQlZzV1h2bHlfNXZfWTh2RVNYeTVRVkhfTFpGTVNGSm5xeHhNUnE0U2E2ZmEtYmVDaFkwY25wUFl3alBnYXhJUnZGeVc5dVZKTU1aYTIxcW1xTmk3UGpBSmt4bU1lTHpsN1Rya1o2WDZlZ295LVZISUpXc0dZZEE?oc=5",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRi1pY1Bqc1lTWGhEbU5ydjdqZFVDQ2RYb3NidmNYTTc4Mkw2WkZFbXNqWlEzS0FVN200UjgwWElaWFlWcTRPSXRIN2Z4YmVDZ2dJdGZ2cnJWMDA4NUNVUnoxS3RuV2IwNDBZVjRSaGFFMTZ6Q3hUeF9fdEg4MEg4VVBtT2hyLTllVmw2QmRCNlVJY3IyVTEzM2hwbnpKTVVnN2hwem9wZmpFQUpaTHpEQTJtUkxnRC1Jc1RFX2Znem1IVmth?oc=5",
       "datetime": 1789754136,
       "headlineKo": "캐비어와 샴페인: 에어프랑스의 럭셔리 근무가 이란 전쟁의 영향을 극복하는 데 도움이 됩니다 - Reuters"
-    },
-    {
-      "headline": "Global rate-hike cycle in view as central banks take on inflation - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaTJFdU1RczNyN0w2RjNKNHB0OWxqaEhHeDE5bDdXOS16QlV0eHNnbWNSbGVVQ2RaRTVJOWFHUXQ2Qy1qTy1aQ0lVVGFMNzRXV3lwUnBnaHh0VUFmeDNodzVZWWRwVk9iak5qZEZ2R0NSRzNrT2ZlYUxNaUZYTUY0VXdjYXhQakNOYmdqaUlrZ2JsazMtVHR2bkdMWkJ6Z2hyUzZmaG0wNmkxazg?oc=5",
-      "datetime": 1789754034,
-      "headlineKo": "중앙은행이 인플레이션을 감수함에 따라 글로벌 금리 인상 주기 - Reuters"
     }
   ],
   "fgi": {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789830003.0840423,
-  "_updated_label": "2026-09-20 00:00",
-  "_last_attempt_at": 1789830003.0840423,
-  "_last_success_at": 1789830003.0840423,
+  "_fetched_at": 1789833603.1764123,
+  "_updated_label": "2026-09-20 01:00",
+  "_last_attempt_at": 1789833603.1764123,
+  "_last_success_at": 1789833603.1764123,
   "_collection_status": "ok",
   "_collection_errors": []
 };

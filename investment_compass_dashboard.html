@@ -4410,18 +4410,23 @@ function computeRelativeValueLiveStaleness(rv){
     if(isNaN(d.getTime())) return null;
     return Math.floor((Date.UTC(now.getFullYear(),now.getMonth(),now.getDate()) - d.getTime()) / 86400000);
   }
-  const priceAge = daysSince(rv.comparisonPriceAsOf);
-  const snapAge = daysSince(rv.generatedAt);
+  // [2026-09-19 4차 보완 -- Codex 지적 반영] 서버(Python)와 완전히 같은 4가지 분류를 쓴다:
+  // missing(파싱 불가/없음) / future(경과일수 음수 -- 자료 오류) / stale(허용 기준 초과) /
+  // ok. 예전 버전은 age가 음수(미래 날짜)일 때 "age > limit"이 그냥 false가 돼 조용히
+  // "정상"으로 통과시켰다 -- 미래 날짜를 걸러내지 못했던 결함.
+  function classify(dateStr, limit, label){
+    const age = daysSince(dateStr);
+    if(age == null) return {cls:'missing', age:null, reason:`${label}(${dateStr||'알수없음'})이 확인되지 않습니다(누락 또는 형식 오류)`};
+    if(age < 0) return {cls:'future', age, reason:`${label}(${dateStr})이 지금 열어본 시점보다 ${-age}일 미래입니다 -- 자료 오류로 간주합니다`};
+    if(age > limit) return {cls:'stale', age, reason:`${label}(${dateStr})이 지금 열어본 시점 기준 ${age}일 전으로, 허용 기준(${limit}일)을 넘었습니다`};
+    return {cls:'ok', age, reason:null};
+  }
+  const priceResult = classify(rv.comparisonPriceAsOf, priceLimit, '비교가격 관측일');
+  const snapResult = classify(rv.generatedAt, snapLimit, '밴드 판단 생성 시각');
   let stale = false;
-  if(priceAge == null || priceAge > priceLimit){
-    stale = true;
-    reasons.push(`비교가격 관측일(${rv.comparisonPriceAsOf||'알수없음'})이 지금 열어본 시점 기준 ${priceAge!=null?priceAge+'일 전으로':'확인되지 않아'} 허용 기준(${priceLimit}일)을 넘었습니다`);
-  }
-  if(snapAge == null || snapAge > snapLimit){
-    stale = true;
-    reasons.push(`밴드 판단 생성 시각(${rv.generatedAt||'알수없음'})이 지금 열어본 시점 기준 ${snapAge!=null?snapAge+'일 전으로':'확인되지 않아'} 허용 기준(${snapLimit}일)을 넘었습니다`);
-  }
-  return {stale, reasons};
+  if(priceResult.cls !== 'ok'){ stale = true; if(priceResult.reason) reasons.push(priceResult.reason); }
+  if(snapResult.cls !== 'ok'){ stale = true; if(snapResult.reason) reasons.push(snapResult.reason); }
+  return {stale, reasons, priceClass: priceResult.cls, snapshotClass: snapResult.cls};
 }
 function renderRelativeValueBandCard(rv){
   if(!rv || !rv.available) return '';
