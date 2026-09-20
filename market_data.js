@@ -265,6 +265,13 @@ const MARKET_DATA = {
       "headlineKo": "리야드 공항 근처에서 화염과 연기가 보입니다. 후티 반군, 사우디 수도에 대한 공격 주장 - 로이터"
     },
     {
+      "headline": "S&P 500, Nasdaq advance, turning the page on a tumultuous week - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ2p6dkpCd0xfbVRBMnhySFRVbm5OSElMZXRXc0NpaGhoRmw2MzNfSUstaC1RVFFnUU1DNUM0MEpHTmxhbHJxOC1Ec2lMWU0xMFVaSVdsZGdVSi1JaWpDX093SHhBdlBkdFdGZnFpd05yYW9LRXk2NkdOMnRWSzJ2dkhuTFpDN01LM1JvNjhyamFZM2dLRFRzM24xSUZwRGVBakhwM3N3em1ycFBuWVg2UVB2OTQ?oc=5",
+      "datetime": 1789773024,
+      "headlineKo": "S&P 500, 나스닥 상승, 소란스러운 한 주에 페이지 넘기기 - 로이터"
+    },
+    {
       "headline": "Trump signs Russia sanctions bill into law - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMWZ3NVV2eHJuOEVQcDhZX3BVSnh2aWxQcE0wWERtWGc3MG9ZS3VmN1lqemJPNS1NbE1pU3RDTlR5TUIteF9hMVdNY2NITDU2N3lva3hWelYydUQ1Nm9xWUZZUHN3R29QeXR3VzhIdFNyOXJ6T1FLNlNEU3JIbUx3Q1ZCVWxHdnI4ZmhJVjFfd0s?oc=5",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/18/what-it-will-take-for-us-to-buy-the-dip-in-dupont-plus-profit-taking-hits-cyber-stocks.html",
       "datetime": 1789756375,
       "headlineKo": "DuPont에서 딥을 구매하려면 무엇이 필요합니까? 게다가 차익 실현이 사이버 주식에 타격을 가합니다."
-    },
-    {
-      "headline": "McDonald's is the new 'Value Meal,' says trader Mike Khouw",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/18/mcdonalds-is-the-new-value-meal-says-trader-mike-khouw.html",
-      "datetime": 1789755107,
-      "headlineKo": "맥도날드는 새로운 '가치 있는 식사'라고 트레이더 Mike Khouw는 말합니다."
     }
   ],
   "fgi": {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789867675.5788717,
-  "_updated_label": "2026-09-20 10:28",
-  "_last_attempt_at": 1789867675.5788717,
-  "_last_success_at": 1789867675.5788717,
+  "_fetched_at": 1789870936.8433619,
+  "_updated_label": "2026-09-20 11:22",
+  "_last_attempt_at": 1789870936.8433619,
+  "_last_success_at": 1789870936.8433619,
   "_collection_status": "ok",
   "_collection_errors": []
 };
