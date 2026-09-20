@@ -2126,9 +2126,37 @@ function loadScanCache(){
     return null;
   }
 }
+// 2026-09-20 추가(Codex 4차 독립검토 반영, "저장 화면 복원 시 옛 판정 유지" 지적) - 저장된
+// results[t].dataHealth는 "저장 당시" 계산된 값이라, 8/20에 정상(staleSessions=0)이던 화면을
+// 9/20에 복원해도 그 옛 정상 판정이 그대로 남아 있었다. 복원 직후 첫 렌더링 전에, 저장돼 있던
+// 원본 날짜 배열(series.dates)과 출처(dataHealth.source/dropped)로 "지금 이 순간" 기준
+// computeDataHealth를 다시 계산해서 덮어쓴다. willRefresh=true로 곧 scanAll()이 실행되면 더
+// 정확한 값으로 다시 덮이지만, 그 재조회가 실패하더라도(네트워크 문제 등) 이 재계산값이 남으므로
+// "과거 정상 판정이 그대로 남는" 문제가 재조회 성공 여부와 무관하게 해결된다.
+function recomputeStaleDataHealth(resultsObj, nowDate){
+  nowDate = nowDate || new Date();
+  Object.keys(resultsObj||{}).forEach(t=>{
+    const r = resultsObj[t];
+    if(!r || r.error) return;
+    const dates = r.series && r.series.dates;
+    const oldHealth = r.dataHealth;
+    if(!dates || !oldHealth){
+      // 저장된 캐시에 날짜·출처 자체가 없으면 재계산 불가 - "예전 정상값"을 그대로 두지 말고
+      // 미확인으로 명시한다(검사 불가를 정상으로 취급하지 않는다는 원칙과 동일).
+      r.dataHealth = {source:'알 수 없음(캐시 복원)', bars:0, lastDate:null, dropped:0, missing:[],
+        policyVersion: DATA_HEALTH_POLICY_VERSION, cacheFallbackUsed:false, liveQuoteAvailable:false,
+        expectedLastCompleteTradingDate: lastCompleteTradingDate(nowDate), staleSessions:null,
+        trueMissingCount:null, invalid:true, invalidReason:'캐시 복원 - 원본 날짜 배열 없음(재계산 불가)',
+        dataQualityRisk:true};
+      return;
+    }
+    r.dataHealth = computeDataHealth(dates, oldHealth.source, oldHealth.dropped, nowDate);
+  });
+}
 function restoreFromScanCache(cache, willRefresh){
   results = cache.results;
   marketEnv = cache.marketEnv;
+  recomputeStaleDataHealth(results, new Date());
   // 캐시로 복원한 결과도 실제로는 예전 scanAll이 받은 실가격이므로(날짜는 series.dates에
   // 그대로 남아있음) 마찬가지로 실가격 비교 상태에 반영한다 -- willRefresh=true(뒤에서 조용히
   // 새로고침)면 곧 scanAll()이 다시 호출돼 최신값으로 덮어쓴다.
@@ -4751,7 +4779,26 @@ function isUsMarketHoliday(dateStr){
 // 이 세 가지 중 하나라도 걸리면 dataQualityRisk=true. 캐시 사용 자체는 더 이상 단독으로
 // 위험을 발생시키지 않는다. 목록 배지·판단 팝업·상세설명이 전부 이 한 결과(dataQualityRisk)를
 // 읽도록 통일한다(DATA_HEALTH_POLICY_VERSION 참고 - 조건을 바꾸면 이 버전도 올릴 것).
-const DATA_HEALTH_POLICY_VERSION = 2;
+//
+// 2026-09-20 v3 추가(Codex 4차 독립검토 반영, "가격 자료 오류 미차단" 지적) - v2까지는 날짜
+// 배열이 "정렬돼 있고 형식이 맞다"는 걸 전제로 최신성만 계산했다. 실측 반례: 빈 배열을 넣으면
+// null을 반환했고, computeDecisionViewModel은 null을 "위험 없음"으로 취급해 buy_conditions_met
+// 까지 통과시켰다. 미래 날짜(예: 내일)나 "not-a-date" 같은 문자열을 마지막 날짜에 넣어도
+// 형식 검사가 없어 그대로 최신으로 인정됐다. v3는 계산 전에 구조 유효성(빈 배열/형식 오류/
+// 미래 날짜/순서 뒤바뀜·중복)을 먼저 확인해서, 문제가 있으면 dataQualityRisk=true와 함께
+// invalid:true + invalidReason을 반환한다(staleSessions는 신뢰할 수 없으므로 null로 남김 -
+// "0거래일 지연"이라는 거짓 정상 문구를 피하기 위함). 오늘 날짜의 장중 미완성 봉(정상,
+// fetchYahooViaProxies의 meta 보완 로직 참고)은 미래가 아니라 "그날 세션이 아직 안
+// 끝났다"는 별도 사실이므로 lastBarIsTodayIntraday로 분리해서 표시하고 위험으로 취급하지 않는다.
+const DATA_HEALTH_POLICY_VERSION = 3;
+const ISO_DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+function isValidIsoDateStr(ds){
+  if(typeof ds !== 'string' || !ISO_DATE_RE.test(ds)) return false;
+  const t = Date.parse(ds+'T00:00:00Z');
+  if(isNaN(t)) return false;
+  // 달력에 실제로 없는 날짜(예: 2026-02-30)는 Date가 다음달로 넘겨버리므로 왕복 비교로 걸러낸다.
+  return new Date(t).toISOString().slice(0,10) === ds;
+}
 function isUsTradingDay(dateStr){
   const d = new Date(dateStr+'T00:00:00Z'); const wd = d.getUTCDay();
   if(wd===0||wd===6) return false;
@@ -4779,7 +4826,46 @@ function tradingDaysBetweenExclusive(from, to){
   return count;
 }
 function computeDataHealth(dates, source, dropped, nowDate){
-  if(!dates || !dates.length) return null;
+  nowDate = nowDate || new Date();
+  const cacheFallbackUsed = /GitHubCache/.test(source||'');
+  const baseFields = {
+    source: source||'알 수 없음', dropped: dropped||0,
+    policyVersion: DATA_HEALTH_POLICY_VERSION,
+    cacheFallbackUsed, liveQuoteAvailable: !cacheFallbackUsed,
+    expectedLastCompleteTradingDate: lastCompleteTradingDate(nowDate),
+  };
+  // ---- 1) 구조 유효성 검사 (v3, 최신성 계산보다 먼저) ----
+  if(!dates || !dates.length){
+    return {...baseFields, bars: 0, lastDate: null, missing: [], staleSessions: null,
+      trueMissingCount: null, invalid: true, invalidReason: '가격 날짜 배열이 비어 있음(가격 자료 없음)',
+      dataQualityRisk: true};
+  }
+  const todayUtcStr = nowDate.toISOString().slice(0,10);
+  let malformedCount = 0, futureCount = 0, orderIssueCount = 0;
+  const invalidNotes = [];
+  for(let i=0;i<dates.length;i++){
+    const ds = dates[i];
+    if(!isValidIsoDateStr(ds)){
+      malformedCount++;
+      if(invalidNotes.length<5) invalidNotes.push(`형식/날짜 오류: ${JSON.stringify(ds)}`);
+      continue;
+    }
+    if(ds > todayUtcStr){
+      futureCount++;
+      if(invalidNotes.length<5) invalidNotes.push(`미래 날짜: ${ds} (오늘 ${todayUtcStr} 이후)`);
+    }
+    if(i>0 && isValidIsoDateStr(dates[i-1]) && ds <= dates[i-1]){
+      orderIssueCount++;
+      if(invalidNotes.length<5) invalidNotes.push(`순서/중복 오류: ${dates[i-1]} 다음에 ${ds}`);
+    }
+  }
+  if(malformedCount>0 || futureCount>0 || orderIssueCount>0){
+    return {...baseFields, bars: dates.length, lastDate: dates[dates.length-1], missing: [],
+      staleSessions: null, trueMissingCount: null, invalid: true,
+      invalidReason: `날짜 배열 구조 이상(형식오류 ${malformedCount}건 · 미래날짜 ${futureCount}건 · 순서/중복 ${orderIssueCount}건): ${invalidNotes.join(' / ')}`,
+      dataQualityRisk: true};
+  }
+  // ---- 2) 정상 구조에서의 최신성·누락 계산 (기존 v2 로직) ----
   // 최근 30봉 안에서 '거래일인데 빠진 날'을 찾아 공휴일(정상)과 누락 의심으로 즉시 분류한다.
   const missing = [];
   const from = Math.max(1, dates.length-30);
@@ -4798,18 +4884,16 @@ function computeDataHealth(dates, source, dropped, nowDate){
   const lastDate = dates[dates.length-1];
   const trueMissingCount = missing.filter(m=>!m.holiday).length;
   const droppedCount = dropped||0;
-  const cacheFallbackUsed = /GitHubCache/.test(source||'');
-  const expected = lastCompleteTradingDate(nowDate || new Date());
+  const expected = baseFields.expectedLastCompleteTradingDate;
   const staleSessions = lastDate < expected ? tradingDaysBetweenExclusive(lastDate, expected) : 0;
+  // 오늘 날짜의 장중 미완성 봉(정상 - meta로 보완된 진행 중 세션)과 "지연"을 구분해 표시만 한다.
+  // 이 자체는 위험 신호가 아니다(리스크 판정은 여전히 staleSessions/trueMissingCount/dropped 기준).
+  const lastBarIsTodayIntraday = lastDate === todayUtcStr && staleSessions === 0;
   const dataQualityRisk = trueMissingCount>0 || droppedCount>0 || staleSessions>=1;
   return {
-    source: source||'알 수 없음', bars: dates.length, lastDate, dropped: droppedCount, missing,
-    policyVersion: DATA_HEALTH_POLICY_VERSION,
-    cacheFallbackUsed,
-    liveQuoteAvailable: !cacheFallbackUsed,
-    expectedLastCompleteTradingDate: expected,
-    staleSessions,
-    trueMissingCount,
+    ...baseFields, bars: dates.length, lastDate, missing,
+    staleSessions, trueMissingCount, invalid: false,
+    lastBarIsTodayIntraday,
     dataQualityRisk,
   };
 }
@@ -4834,7 +4918,11 @@ function computeDataHealth(dates, source, dropped, nowDate){
 // 다른 곳에서 쓰던 계산(verdictCautionBadge의 fundamentalMismatch 로직 등)을 재사용한 것이고,
 // 새로 만든 가중치나 확률이 아니다. policyVersion을 올리지 않고 조건을 바꾸지 않을 것 - 바꿀
 // 때는 반드시 policyVersion도 함께 올려서 과거 스냅샷과 섞이지 않게 한다.
-const DECISION_POLICY_VERSION = 1;
+// v2(2026-09-20, Codex 3·4차 검토 반영): priceDataStale의 판정 조건(캐시 사용 자체 제외,
+// staleSessions/trueMissingCount/dropped/invalid 기준으로 교체 - DATA_HEALTH_POLICY_VERSION 3)와
+// cashMissing의 판정 조건(fd.cashDir 문자열 비교 대신 fd.cashUnknown 명시적 플래그)이 실제로
+// 바뀌었으므로 버전을 올린다. 저장된 과거 판단(예: 스캔 캐시)은 이 버전과 다르면 재판정해야 한다.
+const DECISION_POLICY_VERSION = 2;
 const DECISION_STATUS_META = {
   unavailable: {label:'판단 보류', color:'#626b76', bg:'#eceff1'},
   risk_first:  {label:'위험 우선', color:'#b3261e', bg:'#fdecea'},
@@ -4859,6 +4947,11 @@ function computeDecisionViewModel(r){
   // cashDir은 '↗ 양호(최신 분기 미확인·연간 기준)' 같은 다른 문자열)를 놓친다. 명시적 플래그로
   // 판단한다.
   const cashMissing = !!fd && fd.cashUnknown === true;
+  // 2026-09-20 추가(Codex 4차 독립검토 반영, "최신 분기 누락을 과거 자료가 가림" 지적) - 최신
+  // 분기 매출·영업이익이 확인 안 된 상태에서도 fd.verdict가 (더 오래된 분기 기준으로) '동반
+  // 개선' 같은 문구를 낼 수 있었는데, 그게 verdictSuggestsBuy와 맞물려 buy_conditions_met까지
+  // 갔다. cashMissing과 같은 우선순위(판단 보류)로 명시적으로 차단한다.
+  const latestQuarterUnconfirmed = !!fd && (fd.latestQuarterRevenueMissing || fd.latestQuarterOpIncomeMissing);
 
   const h = r.dataHealth;
   const priceDataStale = !!(h && h.dataQualityRisk);
@@ -4885,6 +4978,13 @@ function computeDecisionViewModel(r){
     reasonCodes.push('cash_flow_missing');
     headlineReason = '최신 분기 현금흐름(OCF·CapEx·FCF) 자료가 아직 확인되지 않아 판단을 보류했어요';
     nextChecks.push('다음 분기 현금흐름(FCF) 공시 확인');
+  } else if(latestQuarterUnconfirmed){
+    status = 'unavailable';
+    reasonCodes.push('latest_quarter_unconfirmed');
+    headlineReason = fd.latestQuarterRevenueMissing
+      ? `최신 분기(${esc(fd.lastQPeriod||'')}) 매출 자료가 아직 확인되지 않아 판단을 보류했어요`
+      : `최신 분기(${esc(fd.lastQPeriod||'')}) 영업이익 자료가 아직 확인되지 않아 판단을 보류했어요`;
+    nextChecks.push('최신 분기 실적 공시 반영 확인');
   } else {
     const verdictSuggestsBuy = !!(r.verdict && (r.verdict.label==='강한 매수기회' || r.verdict.label==='매수 관심'));
     const fundamentalMismatch = fd.verdict === '매출·수익성 동반 둔화';
@@ -4896,15 +4996,21 @@ function computeDecisionViewModel(r){
     } else if(priceDataStale){
       status = 'risk_first';
       reasonCodes.push('price_data_stale');
-      // 2026-09-20 수정(Codex 3차 검토) - '캐시를 썼다'는 사실만으로는 위험이 아니므로, 실제
-      // 걸린 사유(뒤처진 거래일 수 / 중간 누락 봉 / 버려진 봉)를 그대로 문장에 반영한다.
-      const staleParts = [];
-      if(h.staleSessions>=1) staleParts.push(`최신 완료 거래일(${esc(h.expectedLastCompleteTradingDate)}) 대비 ${h.staleSessions}거래일 뒤처짐`);
-      if(h.trueMissingCount>0) staleParts.push(`최근 30봉 중 ${h.trueMissingCount}일 누락 의심`);
-      if(h.dropped>0) staleParts.push(`종가 없는 날 ${h.dropped}개 제외됨`);
-      headlineReason = staleParts.length
-        ? `가격 데이터에 문제가 있어 다른 판단보다 먼저 확인이 필요해요 - ${staleParts.join(' · ')}`
-        : '가격 데이터 지연·누락이 의심돼서 다른 판단보다 먼저 확인이 필요해요';
+      // 2026-09-20 수정(Codex 3·4차 검토) - '캐시를 썼다'는 사실만으로는 위험이 아니므로, 실제
+      // 걸린 사유(뒤처진 거래일 수 / 중간 누락 봉 / 버려진 봉 / 구조 자체 이상)를 그대로 문장에
+      // 반영한다. h.invalid(빈 배열·미래 날짜·형식 오류 등 구조 이상)는 staleSessions/
+      // trueMissingCount가 null이라 수치 문구를 만들 수 없으므로 별도 문구를 먼저 확인한다.
+      if(h.invalid){
+        headlineReason = `가격 데이터 자체에 문제가 있어(${esc(h.invalidReason||'구조 이상')}) 다른 판단보다 먼저 확인이 필요해요`;
+      } else {
+        const staleParts = [];
+        if(h.staleSessions>=1) staleParts.push(`최신 완료 거래일(${esc(h.expectedLastCompleteTradingDate)}) 대비 ${h.staleSessions}거래일 뒤처짐`);
+        if(h.trueMissingCount>0) staleParts.push(`최근 30봉 중 ${h.trueMissingCount}일 누락 의심`);
+        if(h.dropped>0) staleParts.push(`종가 없는 날 ${h.dropped}개 제외됨`);
+        headlineReason = staleParts.length
+          ? `가격 데이터에 문제가 있어 다른 판단보다 먼저 확인이 필요해요 - ${staleParts.join(' · ')}`
+          : '가격 데이터 지연·누락이 의심돼서 다른 판단보다 먼저 확인이 필요해요';
+      }
       nextChecks.push('가격 데이터 소스·최신 거래일 재확인');
     } else if(verdictSuggestsBuy){
       status = 'review';
@@ -8350,7 +8456,23 @@ function computeFinancialDirection(r, fin){
   const quarterly = (fin?.quarterly || []).filter(d=>d.revenue!=null);
   if(annual.length < 2) return null;
   const lastA = annual[annual.length-1], prevA = annual[annual.length-2];
+  // 2026-09-20 추가(Codex 4차 독립검토 반영, "최신 분기 누락을 과거 자료가 가림" 지적) -
+  // 위 quarterly는 revenue가 있는 행만 남긴 배열이라, 실제 가장 최근 분기의 revenue가 null이면
+  // 그 분기 자체가 배열에서 사라지고 그 전 분기가 "최신"인 것처럼 lastQ에 잡혔다(실측: WDC
+  // 사본에서 최신 분기 revenue만 null로 만들어도 이전 분기 기준 '외형·수익성 동반 개선'이 그대로
+  // 나옴). fin.quarterly(필터링 전, 날짜순 정렬된 원본)에서 "진짜 마지막 행"을 trueLastQ로 따로
+  // 잡아, 그 행의 매출·영업이익이 실제로 있는지부터 확인한다. 아래 lastQ(revenue 있는 분기 중
+  // 최신)는 계산에 계속 쓰이지만, latestQuarterRevenueMissing/OpIncomeMissing이 true일 때는
+  // "최신 분기를 확인했다"는 의미로 쓰면 안 된다 - revenueDir/profitDir/verdict에서 명시적으로
+  // 미확인 처리한다(아래).
+  const quarterlyAll = fin?.quarterly || [];
+  const trueLastQ = quarterlyAll.length ? quarterlyAll[quarterlyAll.length-1] : null;
+  const latestQuarterRevenueMissing = !!trueLastQ && trueLastQ.revenue == null;
+  const latestQuarterOpIncomeMissing = !!trueLastQ && trueLastQ.revenue != null && trueLastQ.opIncome == null;
   const lastQ = quarterly[quarterly.length-1] || null;
+  // "참고용" 분기가 진짜 최신 분기와 다른 분기를 가리키는 경우(=최신 분기가 결측이라 건너뜀)를
+  // 문구에 쓸 수 있게 기준일을 남겨둔다.
+  const referenceQuarterIsStale = !!lastQ && !!trueLastQ && lastQ.endDate !== trueLastQ.endDate;
   // 2026-09-10 수정(외부 검토로 발견) - 여기만 findYoYRow(날짜 기준 전년 동기, 2026-09-09에
   // 03 탭 버그 수정하며 만든 함수)를 안 쓰고 분기 라벨 문자열의 연도만 1 빼는 옛 방식이 남아
   // 있었다. 03 탭과 04 탭 종합진단이 같은 최신 분기를 두고 서로 다른 "전년 동기" 행을 찾아
@@ -8387,9 +8509,15 @@ function computeFinancialDirection(r, fin){
   const epsGrowth = !eps0Unreliable && y0?.epsAvg>0 && y1?.epsAvg!=null ? (y1.epsAvg/y0.epsAvg-1)*100 : null;
   const revGrowth = y1?.revenueGrowth!=null ? y1.revenueGrowth*100 : null;
 
-  const revenueDir = qRevG==null ? '확인 중' : qRevG>=5 ? '↗ 성장' : qRevG<=-5 ? '↘ 둔화' : '→ 정체';
+  // 2026-09-20 수정(Codex 4차 독립검토 반영) - latestQuarterRevenueMissing/OpIncomeMissing이면
+  // qRevG/profitDiff가 계산됐더라도(=더 오래된 분기 기준) '최신 분기 확인됨'을 뜻하는 방향
+  // 배지를 내보내지 않는다. 확인 중으로 명시하고, 아래 verdict에서도 같은 원칙을 적용한다.
+  const revenueDir = latestQuarterRevenueMissing ? '확인 중(최신 분기 매출 미확인)'
+    : (qRevG==null ? '확인 중' : qRevG>=5 ? '↗ 성장' : qRevG<=-5 ? '↘ 둔화' : '→ 정체');
   const profitDiff = qOpmDiff!=null ? qOpmDiff : aOpmDiff;
-  const profitDir = profitDiff==null ? '확인 중' : profitDiff>=1 ? '↗ 개선' : profitDiff<=-1 ? '↘ 압박' : '→ 유지';
+  const profitDir = latestQuarterRevenueMissing ? '확인 중(최신 분기 매출 미확인)'
+    : latestQuarterOpIncomeMissing ? '확인 중(최신 분기 영업이익 미확인)'
+    : (profitDiff==null ? '확인 중' : profitDiff>=1 ? '↗ 개선' : profitDiff<=-1 ? '↘ 압박' : '→ 유지');
   // 2026-09-20 수정(Codex 3차 독립검토, ASML 사례) - qFcfm(최신 분기 FCF마진)이 없으면 연간
   // 기준(aFcfm)으로 대체 표시했는데, 그러면 "최신 분기 현금흐름 자료가 아직 확인되지 않아
   // 판단을 보류"해야 하는 computeDecisionViewModel의 cashMissing 게이트가 cashDir이
@@ -8410,7 +8538,13 @@ function computeFinancialDirection(r, fin){
   const cashOk = qFcfm!=null && qFcfm>=0;
   const cashUnknown = qFcfm==null;
   let verdict = '혼조 · 추가 확인 필요';
-  if(qRevG!=null && qRevG>=5 && profitDiff!=null && profitDiff>=0 && cashOk) verdict='외형·수익성 동반 개선';
+  // 2026-09-20 수정(Codex 4차 독립검토 반영, "최신 분기 누락을 과거 자료가 가림" 지적) - 최신
+  // 분기 매출·영업이익이 확인 안 됐으면(latestQuarterRevenueMissing/OpIncomeMissing) qRevG·
+  // profitDiff가 (더 오래된 분기 기준으로) 계산돼 있더라도 '외형·수익성 동반 개선' 같은 확정
+  // 문구·매수 검토로 이어지는 verdict를 내지 않는다 - 이 게이트가 가장 먼저 적용된다.
+  if(latestQuarterRevenueMissing) verdict = '최신 분기 매출 미확인';
+  else if(latestQuarterOpIncomeMissing) verdict = '최신 분기 영업이익 미확인(매출은 확인됨)';
+  else if(qRevG!=null && qRevG>=5 && profitDiff!=null && profitDiff>=0 && cashOk) verdict='외형·수익성 동반 개선';
   else if(qRevG!=null && qRevG>=5 && profitDiff!=null && profitDiff>=0 && cashUnknown) verdict='외형·수익성 개선(현금흐름 미확인)';
   else if(qRevG!=null && qRevG>=5 && profitDiff!=null && profitDiff<0) verdict='외형 성장 · 수익성 재검증';
   else if(qRevG!=null && qRevG<0 && profitDiff!=null && profitDiff<0) verdict='매출·수익성 동반 둔화';
@@ -8471,7 +8605,12 @@ function computeFinancialDirection(r, fin){
   risks.push('CAPEX 증가가 OCF 증가를 장기간 초과');
   if(stockCompRatio!=null && stockCompRatio>=0.5) risks.push('주식보상비용이 순이익보다 빠르게 증가');
 
-  return {verdict, revenueDir, profitDir, cashDir, cashUnknown, safetyDir, analysis, outlook, upChecks, risks, qRevG, lastQPeriod: lastQ?.period};
+  if(referenceQuarterIsStale){
+    analysis.unshift(`⚠️ 진짜 최신 분기(${esc(trueLastQ?.period||trueLastQ?.endDate||'')})는 자료가 아직 부족해 위 매출·수익성 방향은 그 이전 분기(${esc(lastQ?.period||'')}) 기준 참고값이에요 - 최신 분기 확인은 아니에요.`);
+  }
+  return {verdict, revenueDir, profitDir, cashDir, cashUnknown, safetyDir, analysis, outlook, upChecks, risks, qRevG,
+    lastQPeriod: trueLastQ?.period || lastQ?.period,
+    latestQuarterRevenueMissing, latestQuarterOpIncomeMissing, referenceQuarterIsStale};
 }
 // 2026-09-01 추가: 아래 재무 종합판정 박스가 4칸 그리드ㆍ전문가 해석ㆍ상향조건ㆍ하향위험까지
 // 꽤 자세해서, 그 앞에 한 줄로 "결국 좋다/지켜봐야한다/우려된다"를 먼저 보여줌 - verdict 문자열은
