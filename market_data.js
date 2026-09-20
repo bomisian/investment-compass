@@ -72,69 +72,69 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 96.08000183105469,
-      "prevClose": 101.91000366210938,
-      "changeAbs": -5.8300018310546875,
-      "changePct": -5.720735572127459,
-      "pctRank": 89.02147971360382,
+      "current": 95.98999786376953,
+      "prevClose": 100.30000305175781,
+      "changeAbs": -4.310005187988281,
+      "changePct": -4.2971137157036665,
+      "pctRank": 88.71224165341812,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -14.93580838688995,
-      "ma20": 92.63050155639648,
-      "ma60": 83.65016721089681,
-      "chg1m": 10.25,
-      "chg3m": 19.480003356933594,
-      "chg1mPct": 11.942211093244302,
-      "chg3mPct": 25.430814288481756,
-      "lastDate": "2026-09-18",
-      "bars": 1257,
+      "drawdown1y": -15.015493176369322,
+      "ma20": 93.28800163269042,
+      "ma60": 84.1216672261556,
+      "chg1m": 8.159996032714844,
+      "chg3m": 21.169998168945312,
+      "chg1mPct": 9.290670457244207,
+      "chg3mPct": 28.294571311539013,
+      "lastDate": "2026-09-20",
+      "bars": 1258,
       "symbol": "CL=F",
       "label": "WTI 유가",
       "unit": "$",
       "digits": 1
     },
     "dollar": {
-      "current": 100.22000122070312,
+      "current": 100.25399780273438,
       "prevClose": 100.22000122070312,
-      "changeAbs": 0.0,
-      "changePct": 0.0,
-      "pctRank": 36.913285600636435,
+      "changeAbs": 0.03399658203125,
+      "changePct": 0.03392195331985996,
+      "pctRank": 37.36089030206677,
       "min5y": 93.0999984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.3679749840556865,
-      "ma20": 99.36249961853028,
-      "ma60": 100.14750022888184,
-      "chg1m": 1.3899993896484375,
-      "chg3m": -0.6299972534179688,
-      "chg1mPct": 1.4064548860624095,
-      "chg3mPct": -0.6246874198809542,
-      "lastDate": "2026-09-18",
-      "bars": 1257,
+      "drawdown1y": -1.3345170745713397,
+      "ma20": 99.4351993560791,
+      "ma60": 100.12790018717448,
+      "chg1m": 1.3539962768554688,
+      "chg3m": -0.7659988403320312,
+      "chg1mPct": 1.369055870541288,
+      "chg3mPct": -0.7582645672010189,
+      "lastDate": "2026-09-20",
+      "bars": 1258,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
       "unit": "",
       "digits": 1
     },
     "gold": {
-      "current": 4424.89990234375,
-      "prevClose": 4399.7001953125,
-      "changeAbs": 25.19970703125,
-      "changePct": 0.5727596407159312,
-      "pctRank": 90.14308426073131,
+      "current": 4412.7001953125,
+      "prevClose": 4424.89990234375,
+      "changeAbs": -12.19970703125,
+      "changePct": -0.275705830651404,
+      "pctRank": 89.7537728355838,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.800165771781206,
-      "ma20": 4492.0899658203125,
-      "ma60": 4287.333325195313,
-      "chg1m": -120.39990234375,
-      "chg3m": 179.0,
-      "chg1mPct": -2.648888027574845,
-      "chg3mPct": 4.215831840529058,
-      "lastDate": "2026-09-18",
-      "bars": 1258,
+      "drawdown1y": -17.02955256584071,
+      "ma20": 4478.694970703125,
+      "ma60": 4293.418326822916,
+      "chg1m": -158.69970703125,
+      "chg3m": 210.0,
+      "chg1mPct": -3.4715778628311407,
+      "chg3mPct": 4.996787547068536,
+      "lastDate": "2026-09-20",
+      "bars": 1259,
       "symbol": "GC=F",
       "label": "금",
       "unit": "$",
@@ -237,18 +237,18 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Iran and US trade threats after Houthi attacks escalate regional conflict - reuters.com",
+      "headline": "Iran and US trade threats after Houthi attacks escalate regional conflict - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdWJkS01sRHBUcXZGZVVoTy1zVU04amJ0VUc3WnZ4UkVZd25TTTR6RGY1ZkV5OUtGZzFULVNDcEo4MzlZMmNkamt0VjR5VHg3YzRDaWhEOFAtZklDbFpGSXpCeE9BeGR3UWp3aFN1MVp2aUMyZE93ZnFUN0VTdzdkZGJnMDdrOFNtc1lhZC1UQlNDWFl3dGRWdjZwYkc2SHJGelBn?oc=5",
       "datetime": 1789926417,
-      "headlineKo": "후티 반군 공격 이후 이란과 미국의 무역 위협으로 지역 갈등 고조 - reuters.com"
+      "headlineKo": "후티 반군 공격 이후 이란과 미국의 무역 위협으로 지역 갈등 고조 - 로이터 통신"
     },
     {
-      "headline": "Qatar launches wealth fund division for domestic investments - reuters.com",
+      "headline": "Qatar launches wealth fund division for domestic investments - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbjFTdjVSY2VJTE13ZGZLR0FHWnFlNWNScVFWNHN4N1g0TzNKZElMY3dKb2hWajdiNHRlUjRRdlB0WGdmODZ2aDlBUXN0eUFsYUFWQUIwVC10emkxbnEtbllDNV81Wlp3ZGlzakExV3lWblNjeVZQTi1Vb2RiYm9kVUs0eUg2aVhIX2VSRF9IcEJENG1oTjZ0OTBCVFBGZEZjTmlFa1IzUkQ4U2xnQ1Nr?oc=5",
       "datetime": 1789916143,
-      "headlineKo": "카타르, 국내 투자를 위한 자산펀드 사업부 출범 - reuters.com"
+      "headlineKo": "카타르, 국내 투자를 위한 자산펀드 사업부 출범 - Reuters"
     },
     {
       "headline": "Palestinian gunman shoots dead Israeli in the West Bank, soldiers kill motorist - Reuters",
@@ -265,18 +265,18 @@ const MARKET_DATA = {
       "headlineKo": "심리학자가 말하는 회복력 있고 정서적으로 성숙한 아이를 키우고 있다는 8가지 신호"
     },
     {
-      "headline": "Saudi, Gulf stocks fall after Houthis claim Riyadh attacks - reuters.com",
+      "headline": "Saudi, Gulf stocks fall after Houthis claim Riyadh attacks - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZnFXQ1lvNTg5TnJvazhfY3VXa0hrVms4RW1mdVBpR0k4QXZkempjX0h4Y2JIaGNvSm04YVJkTHRDTWpESVFDakhJMExiNGZSSktLcVFsM3VlM3ZibDQwVlE3czF4OEdLdXdnU0FPaUN1aHFLVWN3cW9uVHRTTDdDU1BNaUNMd3NQMlY5VGZPYzA5ODlMQi1rcWVDXzhFZHJWUF9tQjJqUUtzQW1yc0tYNw?oc=5",
       "datetime": 1789909176,
-      "headlineKo": "사우디와 걸프 주가는 후티 반군의 리야드 공격 주장 이후 하락 - reuters.com"
+      "headlineKo": "사우디와 걸프 주가는 후티 반군의 리야드 공격 주장 이후 하락 - 로이터"
     },
     {
-      "headline": "Iran seals French language centre in Tehran, accuses it of illegal activities - reuters.com",
+      "headline": "Iran seals French language centre in Tehran, accuses it of illegal activities - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaXN4WDAwcUZkX2E4emIyUUMyczNhNldiSVlQcENLSDVrSng0SVl6bjBrSU9QRDJHbE5HSHBWeVZvX0J2RjlUQm1WclN4UnBmTmFoM29sZzNaa19uT1pUMjZuTndiT1hWXzBnQlZKalpCZGZQd2ZnOXo2cWlJZ05yT21vbUx4QXRIY2haTW5NQjhRcFJIeG5TSi10aGdOUkRxdHBCZDFXYUMyTlRNWF9UUW91NDJiRlp4ckpHSUpRVGxidw?oc=5",
       "datetime": 1789906134,
-      "headlineKo": "이란, 테헤란 프랑스어 센터 폐쇄, 불법 활동 혐의로 비난 - reuters.com"
+      "headlineKo": "이란, 테헤란 프랑스어 센터 폐쇄, 불법 활동 혐의로 비난 - 로이터 통신"
     },
     {
       "headline": "Budget airline king Bill Franke warms to first-class seats and premium upgrades",
@@ -300,35 +300,35 @@ const MARKET_DATA = {
       "headlineKo": "북한, 3시간 만에 동해상으로 탄도미사일 2발 발사 - 로이터"
     },
     {
-      "headline": "World leaders return to UN amid wars in Middle East and Ukraine - reuters.com",
+      "headline": "World leaders return to UN amid wars in Middle East and Ukraine - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN3lDRHRlTWN1YnNJaGtha3IwWGxCV0w1QlVNNWpGQ2habE9mTUJpN2tqT2RvRkJqai15TGVhTTRnbmNCX1o5a2NGaXRVWXpnYXF6SlFodGJLYmZDUjNrVmR3ZXgxQ1hua1c3ZnFfeGE3S1ZGb0REWV9DWWRQNFFEazBWSjVPb1VzMExOYWVKOTJ3SlZaRlRyZWkwVHNOQVpxY3J3?oc=5",
       "datetime": 1789880700,
-      "headlineKo": "중동과 우크라이나 전쟁 속에서 세계 지도자들이 유엔으로 복귀 - reuters.com"
+      "headlineKo": "중동과 우크라이나 전쟁 속에서 세계 지도자들이 유엔으로 복귀 - 로이터"
     },
     {
-      "headline": "Turkey says it could help meet Saudi military needs under defence pact - reuters.com",
+      "headline": "Turkey says it could help meet Saudi military needs under defence pact - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNcFRETlRnejhZT205SG1jcTdjVXczcElRSUxEam5NemVkeWdYaEdkU0hjSFlrMGkxd0JoV1YzMHlRUWl4TnJSSy14aFJUemp3bm55X0dqcXdEN0o4aUdScDE0M3ZsRzlEQ0lhWm4yX0NDVE02aUl6djZneTMxMWxsYnVlYTltMmVhMlVXdU5vZjY1Z3B3aVpCU0NVb1Y0ZmI1V3FJUi1EaGt1d1AwUV9JeTR0RWZVeFRZbUsyS2lTUUJUd1hfOFg4NEtMcWhUQQ?oc=5",
       "datetime": 1789845707,
-      "headlineKo": "터키는 국방 협정에 따라 사우디의 군사적 필요를 충족시키는 데 도움이 될 수 있다고 말했습니다 - reuters.com"
+      "headlineKo": "터키는 방위 협정에 따라 사우디의 군사적 필요를 충족하는 데 도움이 될 수 있다고 말했습니다 - Reuters"
     },
     {
-      "headline": "Israeli strikes kill three people in Gaza, medics say - reuters.com",
+      "headline": "Israeli strikes kill three people in Gaza, medics say - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOemgwbjZHUGxzMHdPUWJTOFhfS1lfVXFyUEdEcDM4WXM1Z1VSb3ZIdHI4cmpveHUxM1ZFb2RsVnVMcXlaS3BNNmdzMnRGNXNaT1VZMkcyY19vUnBHT2pGSkhyVDRqQmpvS0Z4dndGN2VSVEtySkN4MmM2SUJOZFc0T1h5ZXhaQ2sxdUVheGxrd0oySE9HcjVOMTFwZE1lVEVvQm1ud2xB?oc=5",
       "datetime": 1789829040,
-      "headlineKo": "이스라엘군의 공습으로 가자지구에서 3명이 사망했다고 의료진이 밝혔습니다 - reuters.com"
+      "headlineKo": "이스라엘군의 공습으로 가자지구에서 3명이 사망했다고 의료진이 밝혔습니다."
     }
   ],
   "fgi": {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789941604.8833363,
-  "_updated_label": "2026-09-21 07:00",
-  "_last_attempt_at": 1789941604.8833363,
-  "_last_success_at": 1789941604.8833363,
+  "_fetched_at": 1789945203.1944995,
+  "_updated_label": "2026-09-21 08:00",
+  "_last_attempt_at": 1789945203.1944995,
+  "_last_success_at": 1789945203.1944995,
   "_collection_status": "ok",
   "_collection_errors": []
 };
