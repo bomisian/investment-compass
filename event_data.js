@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789888937.7368135,
+  "generatedAt": 1789890166.7791653,
   "events": [
     {
       "id": "828aec65cea04bb87063",
@@ -98,7 +98,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "SanDisk Stock Jumped 11% on S&P 100 News. Here’s What the Street Says.",
-      "headlineKo": "",
+      "headlineKo": "SanDisk 주가는 S&P 100 뉴스에서 11% 상승했습니다. 거리에서 말하는 내용은 다음과 같습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=75772e5b5caed6c6fd566d93edf557c6729054bbc247e50b142636dc9d16e33e",
@@ -11166,7 +11166,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526395593/d154803d424b3.htm",
         "publishedAt": 1789657200.0,
-        "collectedAt": 1789867656.1049523
+        "collectedAt": 1789890147.030608
       },
       "confirmedFacts": [
         "AVGO가 2026-09-18에 SEC Form 424B3을 제출했습니다.",
@@ -11230,7 +11230,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000135/arm-20260918.htm",
         "publishedAt": 1789657200.0,
-        "collectedAt": 1789867656.1049523
+        "collectedAt": 1789890147.030608
       },
       "confirmedFacts": [
         "ARM가 2026-09-18에 SEC Form 6-K을 제출했습니다."

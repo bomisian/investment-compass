@@ -1197,7 +1197,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "SPY": {
@@ -2845,7 +2845,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "MSFT": {
@@ -5140,7 +5140,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "GOOGL": {
@@ -7753,7 +7753,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "AMZN": {
@@ -10446,7 +10446,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "META": {
@@ -13068,7 +13068,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "AAPL": {
@@ -15721,7 +15721,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "TSLA": {
@@ -18570,7 +18570,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "ORCL": {
@@ -21230,7 +21230,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "CRM": {
@@ -23654,7 +23654,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "PLTR": {
@@ -26096,7 +26096,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "NVDA": {
@@ -29355,7 +29355,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "AMD": {
@@ -31539,7 +31539,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "AVGO": {
@@ -33468,7 +33468,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "QCOM": {
@@ -34975,7 +34975,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "ARM": {
@@ -36311,7 +36311,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "MRVL": {
@@ -37901,7 +37901,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "INTC": {
@@ -40489,7 +40489,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "TSM": {
@@ -41850,7 +41850,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "ASML": {
@@ -43221,7 +43221,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "AMAT": {
@@ -44598,7 +44598,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "LRCX": {
@@ -45356,7 +45356,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "KLAC": {
@@ -46149,7 +46149,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "MU": {
@@ -48816,7 +48816,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "SNDK": {
@@ -48890,7 +48890,8 @@ const NEWS_DATA = {
             "Gian Estrada • 6 minute read Reviewed by: David Hanson Last updated Sep 20, 2026 Lisa Fotios from Pexels and jonnysek from Getty Images Key Takeaways Index Bid: SanDisk stock jumped 11% on Thursday after joining the S&P 100."
           ],
           "analysisUpdatedAt": 1789886888.0226703
-        }
+        },
+        "headlineKo": "SanDisk 주가는 S&P 100 뉴스에서 11% 상승했습니다. 거리에서 말하는 내용은 다음과 같습니다."
       },
       {
         "headline": "Dow Jones Futures: Can The Market Rally Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
@@ -50394,7 +50395,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "WDC": {
@@ -51382,7 +51383,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "ANET": {
@@ -52458,7 +52459,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "COHR": {
@@ -53761,7 +53762,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "LITE": {
@@ -54605,7 +54606,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 19,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "GEV": {
@@ -56296,7 +56297,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "CEG": {
@@ -57255,7 +57256,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "VST": {
@@ -58006,7 +58007,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "ETN": {
@@ -58933,7 +58934,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "PWR": {
@@ -59125,7 +59126,8 @@ const NEWS_DATA = {
             "Aditya Raghunath • 6 minute read Reviewed by: David Hanson Last updated Sep 19, 2026 @MengWen Guo from Getty Images Signature via Canva, @Industrial Photograph via Canva Key Takeaways: Record Backlog: Quanta closed Q2 with a record $53 bill"
           ],
           "analysisUpdatedAt": 1789886993.0186558
-        }
+        },
+        "headlineKo": "Quanta Services 주식은 1년 만에 64% 상승했습니다. PWR에는 여전히 운영 여지가 있습니까?"
       },
       {
         "headline": "Can Quanta's Acquisition Spree Unlock Another Growth Gear in 2026?",
@@ -59942,7 +59944,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "HUBB": {
@@ -60488,7 +60490,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "VRT": {
@@ -61257,7 +61259,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "MOD": {
@@ -61812,7 +61814,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "STX": {
@@ -62816,7 +62818,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "EME": {
@@ -63434,7 +63436,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "FIX": {
@@ -64023,7 +64025,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   },
   "BE": {
@@ -64858,7 +64860,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-20 16:11"
+      "updated": "2026-09-20 16:42"
     }
   }
 };
