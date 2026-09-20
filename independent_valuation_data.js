@@ -137,8 +137,8 @@ const INDEPENDENT_VALUATION_DATA = {
           "reason": "통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)"
         }
       ],
-      "changeReasonVsPrevious": "대상종목(공통기준) 컨센서스 EPS 변경 ($17.8190 -> $17.8345); KLAC forward P/E 변경 (30.8573x -> 30.8389x); LRCX forward P/E 변경 (28.8407x -> 28.8238x)",
-      "generatedAt": "2026-09-21T00:57:22.445444",
+      "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
+      "generatedAt": "2026-09-21T01:03:09.209631",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -912,8 +912,8 @@ const INDEPENDENT_VALUATION_DATA = {
           "reason": "통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)"
         }
       ],
-      "changeReasonVsPrevious": "AMAT forward P/E 변경 (24.9493x -> 24.9276x); KLAC forward P/E 변경 (30.8573x -> 30.8389x)",
-      "generatedAt": "2026-09-21T00:57:22.623417",
+      "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
+      "generatedAt": "2026-09-21T01:03:09.384735",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -962,8 +962,8 @@ const INDEPENDENT_VALUATION_DATA = {
           "reason": "통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)"
         }
       ],
-      "changeReasonVsPrevious": "AMAT forward P/E 변경 (24.9493x -> 24.9276x); LRCX forward P/E 변경 (28.8407x -> 28.8238x)",
-      "generatedAt": "2026-09-21T00:57:22.789750",
+      "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
+      "generatedAt": "2026-09-21T01:03:09.549719",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -991,7 +991,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "neverSucceeded": true,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "대상종목 비교가격 자료상태 문제: 통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
-      "withheldCheckedAt": "2026-09-21T00:57:22.954665"
+      "withheldCheckedAt": "2026-09-21T01:03:09.712856"
     }
   },
   "STX": {
@@ -1019,8 +1019,8 @@ const INDEPENDENT_VALUATION_DATA = {
           "reason": "대상 종목 자기 자신(STX) -- peer로 쓰지 않음"
         }
       ],
-      "changeReasonVsPrevious": "대상종목(공통기준) 컨센서스 EPS 변경 ($40.1821 -> $40.2357); WDC forward P/E 변경 (19.4342x -> 19.4069x)",
-      "generatedAt": "2026-09-21T00:57:23.110131",
+      "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
+      "generatedAt": "2026-09-21T01:03:09.867470",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -1065,8 +1065,8 @@ const INDEPENDENT_VALUATION_DATA = {
           "reason": "대상 종목 자기 자신(WDC) -- peer로 쓰지 않음"
         }
       ],
-      "changeReasonVsPrevious": "대상종목(공통기준) 컨센서스 EPS 변경 ($22.7105 -> $22.7424); STX forward P/E 변경 (21.3725x -> 21.3440x)",
-      "generatedAt": "2026-09-21T00:57:23.235417",
+      "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
+      "generatedAt": "2026-09-21T01:03:09.993670",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -1111,8 +1111,8 @@ const INDEPENDENT_VALUATION_DATA = {
           "reason": "대상 종목 자기 자신(SNDK) -- peer로 쓰지 않음"
         }
       ],
-      "changeReasonVsPrevious": "대상종목(공통기준) 컨센서스 EPS 변경 ($225.4711 -> $225.6098); STX forward P/E 변경 (21.3725x -> 21.3440x); WDC forward P/E 변경 (19.4342x -> 19.4069x)",
-      "generatedAt": "2026-09-21T00:57:23.361613",
+      "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
+      "generatedAt": "2026-09-21T01:03:10.122096",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
