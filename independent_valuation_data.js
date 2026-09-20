@@ -136,7 +136,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-20T18:56:21.496430",
+      "generatedAt": "2026-09-20T19:15:32.006715",
       "asOfDate": "2026-09-20",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -148,7 +148,12 @@ const INDEPENDENT_VALUATION_DATA = {
       "snapshotStaleAfterDays": 3,
       "builtAt": "2026-09-20",
       "isStaleReference": false,
-      "staleReferenceNote": null
+      "staleReferenceNote": null,
+      "conditionsForChange": [
+        "동종기업(LRCX, KLAC)이 받는 주가수익배수가 재평가되면 참고범위 자체가 이동합니다.",
+        "대상종목의 컨센서스 EPS 추정치가 바뀌면(실적 발표 등) 같은 배수라도 범위 값이 달라집니다.",
+        "동종기업 포함/제외 구성이 바뀌면(신규 편입, 자료 결측으로 제외 등) 범위가 달라질 수 있습니다."
+      ]
     },
     "valuation": {
       "kind": "independent_value_dcf_scenario_engine",
