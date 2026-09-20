@@ -4461,13 +4461,16 @@ function renderRelativeValueBandCard(rv){
         <span class="v"><b>$${low!=null?low.toFixed(2):'-'}~$${high!=null?high.toFixed(2):'-'}</b>${rv.bandStatus?` <span style="color:${statusColor};font-size:11px;">(${esc(statusLabel)})</span>`:''}</span></div>
       <div class="fund-row"><span>${esc(rv.comparisonPriceLabel||'최근 종가')}</span>
         <span class="v">$${price!=null?price.toFixed(2):'-'}${rv.comparisonPriceAsOf?` (관측일 ${esc(rv.comparisonPriceAsOf)})`:''}</span></div>
+      ${(low!=null && high!=null && price!=null) ? pricePositionBar(price, low, (rv.rangeMid!=null?rv.rangeMid:(low+high)/2), high) : ''}
       <div class="sub" style="margin:0 0 4px;color:var(--sub);font-size:10.5px;">${esc(rv.comparisonPriceNote||'')}</div>
       ${rv.comparisonPriceIssue?`<div class="sub" style="margin:0 0 4px;color:var(--down);">비교가격 자료상태 문제: ${esc(rv.comparisonPriceIssue)}</div>`:''}
       <div class="sub" style="margin:2px 0 8px;"><b>변경 이유</b>: ${esc(rv.changeReasonVsPrevious||'-')}</div>
+      ${(rv.conditionsForChange && rv.conditionsForChange.length) ? `<div class="sub" style="margin:2px 0 8px;"><b>판단이 바뀌는 조건</b><ul style="margin:4px 0 0 16px;padding:0;">${rv.conditionsForChange.map(c=>`<li>${esc(c)}</li>`).join('')}</ul></div>` : ''}
       <details style="margin-top:4px;margin-bottom:4px;">
         <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">산출 근거 자세히 보기</summary>
         <div class="sub" style="margin:6px 0;">판단 시각(스냅샷 생성): ${esc(rv.generatedAt||'-')} · 기준일: ${esc(rv.asOfDate||'-')}</div>
         <div class="sub" style="margin:4px 0;">가장 최근 시도 상태: ${esc(rv.lastCheckStatus||'-')}${rv.lastCheckNote?` - ${esc(rv.lastCheckNote)}`:''}</div>
+        <div class="sub" style="margin:4px 0;">동종기업(참고범위 산출에 사용): ${peersUsedStr}</div>
         <div class="sub" style="margin:4px 0;">제외된 종목: ${excludedStr}</div>
         <div class="sub" style="margin-top:6px;">${esc(rv.bandDisclaimer||'')}</div>
       </details>
@@ -4478,7 +4481,11 @@ function renderIndependentValuationSection(r){
   if(!iv || !iv.valuation) return '';
   const v = iv.valuation;
   const price = r.price;
-  if(v.kind === 'independent_value_dcf_scenario_engine') return renderAmatScenarioValuation(v, price, r.ticker) + renderRelativeValueBandCard(iv.relativeValueBand) + renderReturnConditionCard(v, r.ticker);
+  // [2026-09-20 재배치 -- 봄이 요청: 실사용 우선순위] "지금 참고범위 어디쯤인가"라는 질문에
+  // 가장 가까운 상대가치 카드를 먼저, 그다음 매입가 상한(수익조건), 가정이 가장 많고
+  // 조건부인 DCF 시나리오를 마지막에 배치한다. 세 값은 여전히 완전히 분리된 별도 카드이며
+  // 평균/합산하지 않는다(위 함수 주석 참고) -- 순서만 바뀐다.
+  if(v.kind === 'independent_value_dcf_scenario_engine') return renderRelativeValueBandCard(iv.relativeValueBand) + renderReturnConditionCard(v, r.ticker) + renderAmatScenarioValuation(v, price, r.ticker);
   if(v.kind === 'independent_value_dcf_single_engine') return renderAmatScenarioValuation(v, price, r.ticker);
   const pct = x => { if(x==null) return '-'; const p=(x-price)/price*100; return `${p>=0?'+':''}${p.toFixed(0)}%`; };
   const a = v.assumptions || {};
