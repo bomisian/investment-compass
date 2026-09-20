@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran warns against new escalation by US and allies - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdWJkS01sRHBUcXZGZVVoTy1zVU04amJ0VUc3WnZ4UkVZd25TTTR6RGY1ZkV5OUtGZzFULVNDcEo4MzlZMmNkamt0VjR5VHg3YzRDaWhEOFAtZklDbFpGSXpCeE9BeGR3UWp3aFN1MVp2aUMyZE93ZnFUN0VTdzdkZGJnMDdrOFNtc1lhZC1UQlNDWFl3dGRWdjZwYkc2SHJGelBn?oc=5",
+      "datetime": 1789919646,
+      "headlineKo": "이란, 미국과 동맹국의 새로운 확대에 대해 경고 - reuters.com"
+    },
+    {
       "headline": "Palestinian gunman shoots dead Israeli in the West Bank, soldiers kill motorist - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVE03eUJ3dTJkVEpVNXZXT3dXZVVBT2Nzel9PSVVRSHBSOTEyRDB1UmxGcUlyTDR2WHo2MjdoZGp0Z1ozOU9RSEdLQTZqNWw0R1VyanNvY1NEWFlVeEgwT00zcWtDTUMzU3Rud25ZbDlrMDdPakJIWnItVjNGWWR5b1ZIRTR5WjRoMlIyWDg5dmhiYnlRVzctR3VNNXQzQWZaVGZiNTBKTk9pNkJmMGF2Y2M4Nk5wTGZDRG9IV1ZsWTdvREE?oc=5",
@@ -249,13 +256,6 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/20/signs-parents-raising-emotionally-mature-child-psychologist.html",
       "datetime": 1789911241,
       "headlineKo": "심리학자가 말하는 회복력 있고 정서적으로 성숙한 아이를 키우고 있다는 8가지 신호"
-    },
-    {
-      "headline": "Iran warns against new escalation by US and allies - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdWJkS01sRHBUcXZGZVVoTy1zVU04amJ0VUc3WnZ4UkVZd25TTTR6RGY1ZkV5OUtGZzFULVNDcEo4MzlZMmNkamt0VjR5VHg3YzRDaWhEOFAtZklDbFpGSXpCeE9BeGR3UWp3aFN1MVp2aUMyZE93ZnFUN0VTdzdkZGJnMDdrOFNtc1lhZC1UQlNDWFl3dGRWdjZwYkc2SHJGelBn?oc=5",
-      "datetime": 1789910688,
-      "headlineKo": "이란, 미국과 동맹국의 새로운 확대에 대해 경고 - reuters.com"
     },
     {
       "headline": "Saudi, Gulf stocks fall after Houthis claim Riyadh attacks - reuters.com",
@@ -325,10 +325,10 @@ const MARKET_DATA = {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789923230.4306936,
-  "_updated_label": "2026-09-21 01:54",
-  "_last_attempt_at": 1789923230.4306936,
-  "_last_success_at": 1789923230.4306936,
+  "_fetched_at": 1789926924.6392586,
+  "_updated_label": "2026-09-21 02:56",
+  "_last_attempt_at": 1789926924.6392586,
+  "_last_success_at": 1789926924.6392586,
   "_collection_status": "ok",
   "_collection_errors": []
 };
