@@ -240,7 +240,8 @@ const MARKET_DATA = {
       "headline": "World leaders return to UN amid wars in Middle East and Ukraine - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN3lDRHRlTWN1YnNJaGtha3IwWGxCV0w1QlVNNWpGQ2habE9mTUJpN2tqT2RvRkJqai15TGVhTTRnbmNCX1o5a2NGaXRVWXpnYXF6SlFodGJLYmZDUjNrVmR3ZXgxQ1hua1c3ZnFfeGE3S1ZGb0REWV9DWWRQNFFEazBWSjVPb1VzMExOYWVKOTJ3SlZaRlRyZWkwVHNOQVpxY3J3?oc=5",
-      "datetime": 1789880700
+      "datetime": 1789880700,
+      "headlineKo": "중동과 우크라이나 전쟁 속에서 세계 지도자들이 유엔으로 복귀 - 로이터"
     },
     {
       "headline": "Turkey says it could help meet Saudi military needs under defence pact - Reuters",
@@ -324,10 +325,10 @@ const MARKET_DATA = {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789894454.0671587,
-  "_updated_label": "2026-09-20 17:54",
-  "_last_attempt_at": 1789894454.0671587,
-  "_last_success_at": 1789894454.0671587,
+  "_fetched_at": 1789898139.6028647,
+  "_updated_label": "2026-09-20 18:56",
+  "_last_attempt_at": 1789898139.6028647,
+  "_last_success_at": 1789898139.6028647,
   "_collection_status": "ok",
   "_collection_errors": []
 };
