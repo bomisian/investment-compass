@@ -113,9 +113,9 @@ const INDEPENDENT_VALUATION_DATA = {
       "rangeLabel": "동종기업 배수 적용 참고범위",
       "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
       "available": true,
-      "rangeLow": 514.0569918699061,
-      "rangeHigh": 549.9955241460042,
-      "rangeMid": 532.0262580079552,
+      "rangeLow": 513.9119664350318,
+      "rangeHigh": 549.8455340680241,
+      "rangeMid": 531.8787502515279,
       "bandStatus": "BELOW_BAND",
       "bandDisclaimer": "이 범위는 검증된 매수가·바닥가격·성공확률이 아니다 -- 동종업계가 지금 받는 배수를 그대로 적용한 참고 범위일 뿐이며, 이 범위와 별도로 산출되는 장기 DCF 내재가치(조건부 참고값)와도 다른 개념이다.",
       "comparisonPrice": 444.57000732421875,
@@ -137,18 +137,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "reason": "통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)"
         }
       ],
-      "changeReasonVsPrevious": "대상종목(공통기준) 컨센서스 EPS 변경 ($17.8190 -> $17.8345); KLAC forward P/E 변경 (30.8573x -> 30.8389x); LRCX forward P/E 변경 (28.8407x -> 28.8238x)",
-      "generatedAt": "2026-09-21T04:06:01.816206",
-      "asOfDate": "2026-09-21",
+      "changeReasonVsPrevious": "대상종목(공통기준) 컨센서스 EPS 변경 ($17.8345 -> $17.8190); KLAC forward P/E 변경 (30.8389x -> 30.8573x); LRCX forward P/E 변경 (28.8238x -> 28.8407x)",
+      "generatedAt": "2026-09-20T19:08:27.690914",
+      "asOfDate": "2026-09-20",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "priceAgeDaysAtBuild": 3,
+      "priceAgeDaysAtBuild": 2,
       "snapshotAgeDaysAtBuild": 0,
       "priceDateClass": "ok",
       "snapshotDateClass": "ok",
       "priceStaleAfterDays": 7,
       "snapshotStaleAfterDays": 3,
-      "builtAt": "2026-09-21",
+      "builtAt": "2026-09-20",
       "isStaleReference": false,
       "staleReferenceNote": null,
       "conditionsForChange": [
@@ -888,9 +888,9 @@ const INDEPENDENT_VALUATION_DATA = {
       "rangeLabel": "동종기업 배수 적용 참고범위",
       "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
       "available": true,
-      "rangeLow": 249.16509321662832,
-      "rangeHigh": 308.252207267384,
-      "rangeMid": 278.7086502420062,
+      "rangeLow": 249.23540735282148,
+      "rangeHigh": 308.2551080973656,
+      "rangeMid": 278.74525772509355,
       "bandStatus": "WITHIN_BAND",
       "bandDisclaimer": "이 범위는 검증된 매수가·바닥가격·성공확률이 아니다 -- 동종업계가 지금 받는 배수를 그대로 적용한 참고 범위일 뿐이며, 이 범위와 별도로 산출되는 장기 DCF 내재가치(조건부 참고값)와도 다른 개념이다.",
       "comparisonPrice": 288.1099853515625,
@@ -912,18 +912,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "reason": "통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)"
         }
       ],
-      "changeReasonVsPrevious": "AMAT forward P/E 변경 (24.9493x -> 24.9276x); KLAC forward P/E 변경 (30.8573x -> 30.8389x)",
-      "generatedAt": "2026-09-21T04:06:01.995751",
-      "asOfDate": "2026-09-21",
+      "changeReasonVsPrevious": "AMAT forward P/E 변경 (24.9276x -> 24.9493x); KLAC forward P/E 변경 (30.8389x -> 30.8573x)",
+      "generatedAt": "2026-09-20T19:08:28.001528",
+      "asOfDate": "2026-09-20",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "priceAgeDaysAtBuild": 3,
+      "priceAgeDaysAtBuild": 2,
       "snapshotAgeDaysAtBuild": 0,
       "priceDateClass": "ok",
       "snapshotDateClass": "ok",
       "priceStaleAfterDays": 7,
       "snapshotStaleAfterDays": 3,
-      "builtAt": "2026-09-21",
+      "builtAt": "2026-09-20",
       "isStaleReference": false,
       "staleReferenceNote": null,
       "conditionsForChange": [
@@ -938,9 +938,9 @@ const INDEPENDENT_VALUATION_DATA = {
       "rangeLabel": "동종기업 배수 적용 참고범위",
       "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
       "available": true,
-      "rangeLow": 143.06379703832198,
-      "rangeHigh": 165.42489133184537,
-      "rangeMid": 154.24434418508366,
+      "rangeLow": 143.10282281691684,
+      "rangeHigh": 165.42333460343474,
+      "rangeMid": 154.2630787101758,
       "bandStatus": "ABOVE_BAND",
       "bandDisclaimer": "이 범위는 검증된 매수가·바닥가격·성공확률이 아니다 -- 동종업계가 지금 받는 배수를 그대로 적용한 참고 범위일 뿐이며, 이 범위와 별도로 산출되는 장기 DCF 내재가치(조건부 참고값)와도 다른 개념이다.",
       "comparisonPrice": 176.99000549316406,
@@ -962,18 +962,18 @@ const INDEPENDENT_VALUATION_DATA = {
           "reason": "통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)"
         }
       ],
-      "changeReasonVsPrevious": "AMAT forward P/E 변경 (24.9493x -> 24.9276x); LRCX forward P/E 변경 (28.8407x -> 28.8238x)",
-      "generatedAt": "2026-09-21T04:06:02.167870",
-      "asOfDate": "2026-09-21",
+      "changeReasonVsPrevious": "AMAT forward P/E 변경 (24.9276x -> 24.9493x); LRCX forward P/E 변경 (28.8238x -> 28.8407x)",
+      "generatedAt": "2026-09-20T19:08:28.270106",
+      "asOfDate": "2026-09-20",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "priceAgeDaysAtBuild": 3,
+      "priceAgeDaysAtBuild": 2,
       "snapshotAgeDaysAtBuild": 0,
       "priceDateClass": "ok",
       "snapshotDateClass": "ok",
       "priceStaleAfterDays": 7,
       "snapshotStaleAfterDays": 3,
-      "builtAt": "2026-09-21",
+      "builtAt": "2026-09-20",
       "isStaleReference": false,
       "staleReferenceNote": null,
       "conditionsForChange": [
@@ -991,7 +991,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "neverSucceeded": true,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "대상종목 비교가격 자료상태 문제: 통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
-      "withheldCheckedAt": "2026-09-21T04:06:02.340642"
+      "withheldCheckedAt": "2026-09-20T19:08:28.529119"
     }
   },
   "STX": {
@@ -1001,8 +1001,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "neverSucceeded": true,
       "withheldStatus": "JUDGMENT_WITHHELD",
-      "withheldReason": "band_high(780.8500341880879)<=band_low(780.8500341880879) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-21T04:06:02.498824"
+      "withheldReason": "band_high(780.9051374431461)<=band_low(780.9051374431461) -- 밴드 폭이 0 이하",
+      "withheldCheckedAt": "2026-09-20T19:08:28.725518"
     }
   },
   "WDC": {
@@ -1012,8 +1012,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "neverSucceeded": true,
       "withheldStatus": "JUDGMENT_WITHHELD",
-      "withheldReason": "band_high(485.41399183817754)<=band_low(485.41399183817754) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-21T04:06:02.586207"
+      "withheldReason": "band_high(485.3797394178532)<=band_low(485.3797394178532) -- 밴드 폭이 0 이하",
+      "withheldCheckedAt": "2026-09-20T19:08:28.829700"
     }
   },
   "SNDK": {
@@ -1024,7 +1024,145 @@ const INDEPENDENT_VALUATION_DATA = {
       "neverSucceeded": true,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "선정 기준을 통과한 동종업계 배수가 하나도 없음 -- 밴드 산출 보류(0으로 채우지 않음)",
-      "withheldCheckedAt": "2026-09-21T04:06:02.672047"
+      "withheldCheckedAt": "2026-09-20T19:08:28.935945"
+    }
+  },
+  "PWR": {
+    "relativeValueBand": {
+      "rangeLabel": "동종기업 배수 적용 참고범위",
+      "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
+      "available": true,
+      "rangeLow": 397.1743964028859,
+      "rangeHigh": 546.4904800685364,
+      "rangeMid": 471.83243823571115,
+      "bandStatus": "ABOVE_BAND",
+      "bandDisclaimer": "이 범위는 검증된 매수가·바닥가격·성공확률이 아니다 -- 동종업계가 지금 받는 배수를 그대로 적용한 참고 범위일 뿐이며, 이 범위와 별도로 산출되는 장기 DCF 내재가치(조건부 참고값)와도 다른 개념이다.",
+      "comparisonPrice": 636.7100219726562,
+      "comparisonPriceAsOf": "2026-09-18",
+      "comparisonPriceLabel": "최근 종가",
+      "comparisonPriceNote": "실시간 시세가 아니라 prices_cache.json에 기록된 마지막 종가이며, 위 관측일 기준입니다.",
+      "comparisonPriceIssue": null,
+      "peersUsed": [
+        "EME",
+        "FIX"
+      ],
+      "peersExcluded": [
+        {
+          "ticker": "PWR",
+          "reason": "대상 종목 자기 자신(PWR) -- peer로 쓰지 않음"
+        }
+      ],
+      "changeReasonVsPrevious": "직전 유효 스냅샷 없음 -- 최초 계산",
+      "generatedAt": "2026-09-20T19:08:28.992093",
+      "asOfDate": "2026-09-20",
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "priceAgeDaysAtBuild": 2,
+      "snapshotAgeDaysAtBuild": 0,
+      "priceDateClass": "ok",
+      "snapshotDateClass": "ok",
+      "priceStaleAfterDays": 7,
+      "snapshotStaleAfterDays": 3,
+      "builtAt": "2026-09-20",
+      "isStaleReference": false,
+      "staleReferenceNote": null,
+      "conditionsForChange": [
+        "동종기업(EME, FIX)이 받는 주가수익배수가 재평가되면 참고범위 자체가 이동합니다.",
+        "대상종목의 컨센서스 EPS 추정치가 바뀌면(실적 발표 등) 같은 배수라도 범위 값이 달라집니다.",
+        "동종기업 포함/제외 구성이 바뀌면(신규 편입, 자료 결측으로 제외 등) 범위가 달라질 수 있습니다."
+      ]
+    }
+  },
+  "EME": {
+    "relativeValueBand": {
+      "rangeLabel": "동종기업 배수 적용 참고범위",
+      "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
+      "available": true,
+      "rangeLow": 1032.0832928390848,
+      "rangeHigh": 1202.4688444321523,
+      "rangeMid": 1117.2760686356187,
+      "bandStatus": "BELOW_BAND",
+      "bandDisclaimer": "이 범위는 검증된 매수가·바닥가격·성공확률이 아니다 -- 동종업계가 지금 받는 배수를 그대로 적용한 참고 범위일 뿐이며, 이 범위와 별도로 산출되는 장기 DCF 내재가치(조건부 참고값)와도 다른 개념이다.",
+      "comparisonPrice": 750.0900268554688,
+      "comparisonPriceAsOf": "2026-09-18",
+      "comparisonPriceLabel": "최근 종가",
+      "comparisonPriceNote": "실시간 시세가 아니라 prices_cache.json에 기록된 마지막 종가이며, 위 관측일 기준입니다.",
+      "comparisonPriceIssue": null,
+      "peersUsed": [
+        "PWR",
+        "FIX"
+      ],
+      "peersExcluded": [
+        {
+          "ticker": "EME",
+          "reason": "대상 종목 자기 자신(EME) -- peer로 쓰지 않음"
+        }
+      ],
+      "changeReasonVsPrevious": "직전 유효 스냅샷 없음 -- 최초 계산",
+      "generatedAt": "2026-09-20T19:08:29.166923",
+      "asOfDate": "2026-09-20",
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "priceAgeDaysAtBuild": 2,
+      "snapshotAgeDaysAtBuild": 0,
+      "priceDateClass": "ok",
+      "snapshotDateClass": "ok",
+      "priceStaleAfterDays": 7,
+      "snapshotStaleAfterDays": 3,
+      "builtAt": "2026-09-20",
+      "isStaleReference": false,
+      "staleReferenceNote": null,
+      "conditionsForChange": [
+        "동종기업(PWR, FIX)이 받는 주가수익배수가 재평가되면 참고범위 자체가 이동합니다.",
+        "대상종목의 컨센서스 EPS 추정치가 바뀌면(실적 발표 등) 같은 배수라도 범위 값이 달라집니다.",
+        "동종기업 포함/제외 구성이 바뀌면(신규 편입, 자료 결측으로 제외 등) 범위가 달라질 수 있습니다."
+      ]
+    }
+  },
+  "FIX": {
+    "relativeValueBand": {
+      "rangeLabel": "동종기업 배수 적용 참고범위",
+      "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
+      "available": true,
+      "rangeLow": 1200.170734842902,
+      "rangeHigh": 1923.9929408179007,
+      "rangeMid": 1562.0818378304014,
+      "bandStatus": "WITHIN_BAND",
+      "bandDisclaimer": "이 범위는 검증된 매수가·바닥가격·성공확률이 아니다 -- 동종업계가 지금 받는 배수를 그대로 적용한 참고 범위일 뿐이며, 이 범위와 별도로 산출되는 장기 DCF 내재가치(조건부 참고값)와도 다른 개념이다.",
+      "comparisonPrice": 1651.3699951171875,
+      "comparisonPriceAsOf": "2026-09-18",
+      "comparisonPriceLabel": "최근 종가",
+      "comparisonPriceNote": "실시간 시세가 아니라 prices_cache.json에 기록된 마지막 종가이며, 위 관측일 기준입니다.",
+      "comparisonPriceIssue": null,
+      "peersUsed": [
+        "PWR",
+        "EME"
+      ],
+      "peersExcluded": [
+        {
+          "ticker": "FIX",
+          "reason": "대상 종목 자기 자신(FIX) -- peer로 쓰지 않음"
+        }
+      ],
+      "changeReasonVsPrevious": "직전 유효 스냅샷 없음 -- 최초 계산",
+      "generatedAt": "2026-09-20T19:08:29.353102",
+      "asOfDate": "2026-09-20",
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "priceAgeDaysAtBuild": 2,
+      "snapshotAgeDaysAtBuild": 0,
+      "priceDateClass": "ok",
+      "snapshotDateClass": "ok",
+      "priceStaleAfterDays": 7,
+      "snapshotStaleAfterDays": 3,
+      "builtAt": "2026-09-20",
+      "isStaleReference": false,
+      "staleReferenceNote": null,
+      "conditionsForChange": [
+        "동종기업(PWR, EME)이 받는 주가수익배수가 재평가되면 참고범위 자체가 이동합니다.",
+        "대상종목의 컨센서스 EPS 추정치가 바뀌면(실적 발표 등) 같은 배수라도 범위 값이 달라집니다.",
+        "동종기업 포함/제외 구성이 바뀌면(신규 편입, 자료 결측으로 제외 등) 범위가 달라질 수 있습니다."
+      ]
     }
   }
 };
