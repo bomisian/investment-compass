@@ -135,8 +135,8 @@ const INDEPENDENT_VALUATION_DATA = {
           "reason": "통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)"
         }
       ],
-      "changeReasonVsPrevious": "대상종목(공통기준) 컨센서스 EPS 변경 ($17.8035 -> $17.8190); KLAC forward P/E 변경 (30.8758x -> 30.8573x); LRCX forward P/E 변경 (28.8577x -> 28.8407x)",
-      "generatedAt": "2026-09-20T10:28:37.679179",
+      "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
+      "generatedAt": "2026-09-20T11:22:59.397211",
       "asOfDate": "2026-09-20",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,

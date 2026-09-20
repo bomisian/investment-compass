@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 100.30000305175781,
+      "current": 96.08000183105469,
       "prevClose": 101.91000366210938,
-      "changeAbs": -1.6100006103515625,
-      "changePct": -1.57982587822256,
-      "pctRank": 91.72633253778838,
+      "changeAbs": -5.8300018310546875,
+      "changePct": -5.720735572127459,
+      "pctRank": 89.02147971360382,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -11.199640759867446,
-      "ma20": 92.84150161743165,
-      "ma60": 83.72050056457519,
-      "chg1m": 14.470001220703125,
-      "chg3m": 23.70000457763672,
-      "chg1mPct": 16.858908204598972,
-      "chg3mPct": 30.93995437303258,
+      "drawdown1y": -14.93580838688995,
+      "ma20": 92.63050155639648,
+      "ma60": 83.65016721089681,
+      "chg1m": 10.25,
+      "chg3m": 19.480003356933594,
+      "chg1mPct": 11.942211093244302,
+      "chg3mPct": 25.430814288481756,
       "lastDate": "2026-09-18",
       "bars": 1257,
       "symbol": "CL=F",
@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Turkey says it could help meet Saudi military needs under defence pact - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNcFRETlRnejhZT205SG1jcTdjVXczcElRSUxEam5NemVkeWdYaEdkU0hjSFlrMGkxd0JoV1YzMHlRUWl4TnJSSy14aFJUemp3bm55X0dqcXdEN0o4aUdScDE0M3ZsRzlEQ0lhWm4yX0NDVE02aUl6djZneTMxMWxsYnVlYTltMmVhMlVXdU5vZjY1Z3B3aVpCU0NVb1Y0ZmI1V3FJUi1EaGt1d1AwUV9JeTR0RWZVeFRZbUsyS2lTUUJUd1hfOFg4NEtMcWhUQQ?oc=5",
+      "datetime": 1789845707,
+      "headlineKo": "터키는 방위 협정에 따라 사우디의 군사적 필요를 충족하는 데 도움이 될 수 있다고 말했습니다 - Reuters"
+    },
+    {
       "headline": "Flames, black smoke seen near Riyadh airport, eyewitness says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVhEVEhONEZLVTN1Q0NyUzZwOXdIS3JLY0VVMVhabU40LV96QjY3d3A5M3NNTElCTy1SdzFFSVIyOEhxWW1OMUxKM1hHUFc0UDNnaXpLRlBPR2VhZkdsWVktOWtCSWxTUWhYV1FFcnN6c3A1WVVoc192OWNJSWhJQnc0U1QwZ1ZtRXd2a0hlNkJJMVVrckJpSXFlZzJDNVhUTVI5RWtGcVd6SW01UHNEWk9lMA?oc=5",
@@ -263,6 +270,13 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYWNnM0NScnlDOXNDY25xQjhZVlRHUUtMOEV3YVZSOW5xekdVelcycGI1VHl3dWpqVGhNM2s1N05NamZxV0hoNVBFN204OHM5dVlQemMySkJGMlpCaURybUY4TVZfd0RDUUxzb3RTeWJVVEI4blFQZFhJekptSHRFUVdqb1pDai1VQ1hPS1JHWk92MEpZYWtESDduUmpwUEg4Nzc4bFp3VDQzM2JMTnRZXzgzbVBvUDk0clU4a3dHMlhuQk0?oc=5",
       "datetime": 1789778520,
       "headlineKo": "리야드 공항 근처에서 화염과 연기가 보입니다. 후티 반군, 사우디 수도에 대한 공격 주장 - 로이터"
+    },
+    {
+      "headline": "Foreign hackers targeted Colorado water systems in August, governor's office says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVnpGSlU3elVMYlloWFFkVUM0YWRtMnl6MDRWaXVRcDQxZDl6Nm9HVW9oSXVsYTBCNTYyUlEyYVV2eW5maHhtMmc1YmRvVnY5MS1MWFo0dFZJRHplLS12azk4TktNUEdITktGeE1HeWhBa3JXTmZ4bzI0Ym9GcW9DeTZ5cEZQajB1a3U4ODVrNHZlRDFOczc2NllYTzc1aUVkampNNk54ZjhOTFNmQ08yVEpza0o0V285bjZOVzRCbXlVeVNXeko3NA?oc=5",
+      "datetime": 1789777260,
+      "headlineKo": "주지사 사무실은 지난 8월 외국 해커들이 콜로라도 수자원 시스템을 공격했다고 밝혔습니다 - Reuters"
     },
     {
       "headline": "S&P 500, Nasdaq advance, turning the page on a tumultuous week - Reuters",
@@ -305,30 +319,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVHE0eGdjejdPVC0wcEJESG1KY3hhNU1DMUZmOHZJUTFjZHRpM1BsLVcwbzVlOUJpVHFxZnBPNzJlTldZelp1WlcwVU5fQ2d2MXZCZS1NSm9uWkQ4MlpHRUQwY21BdU5BRUs2a3ZBODhETlZNd1pTMk94a1NWN3BMaGNHMVl0MWVIeTdWQk9KWVFvS0ZnVnZ1RWJQSlFMcjNVRm1TYkFfMTRvSUY2?oc=5",
       "datetime": 1789760071,
       "headlineKo": "중국 공화당 위원장, 트럼프 대통령과 시진핑의 강경한 노선 촉구 - 로이터"
-    },
-    {
-      "headline": "US troop deaths during Iran war exceed Pentagon count by at least four, Washington Post reports - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWTJWTFE3dlFIRDVOVDZiY01XQXNxNDI0Z1RiWlFybTFpaEFEQUtpcVRnaEVNUUxPSkl3eFpLc1JzakdRWHNFQWZSUHhQMmQ0T0MtOHBrUjFYTGIzM0dMUmFwNGZPdWhkZUdUSmR1Q29mTHZXNDJuY2d6MllvMXNTM3pGM1BHQmVvQkstdEd2SDE2ZjJ4dXpxdmVSa25KcWJxaUV5eUFrNGFLSUJoT21wNDRieGxuQjFzTXNxU1dFZFlCT3R3aEJESmRR?oc=5",
-      "datetime": 1789756500,
-      "headlineKo": "이란 전쟁 중 미군 사망자가 국방부보다 최소 4명 더 많았다고 워싱턴 포스트가 보도했습니다. - 로이터"
-    },
-    {
-      "headline": "What it will take for us to buy the dip in DuPont. Plus, profit-taking hits cyber stocks",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/18/what-it-will-take-for-us-to-buy-the-dip-in-dupont-plus-profit-taking-hits-cyber-stocks.html",
-      "datetime": 1789756375,
-      "headlineKo": "DuPont에서 딥을 구매하려면 무엇이 필요합니까? 게다가 차익 실현이 사이버 주식에 타격을 가합니다."
     }
   ],
   "fgi": {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789870936.8433619,
-  "_updated_label": "2026-09-20 11:22",
-  "_last_attempt_at": 1789870936.8433619,
-  "_last_success_at": 1789870936.8433619,
+  "_fetched_at": 1789882317.3095262,
+  "_updated_label": "2026-09-20 14:32",
+  "_last_attempt_at": 1789882317.3095262,
+  "_last_success_at": 1789882317.3095262,
   "_collection_status": "ok",
   "_collection_errors": []
 };
