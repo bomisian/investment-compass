@@ -138,7 +138,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-20T21:59:51.347338",
+      "generatedAt": "2026-09-20T22:18:49.005196",
       "asOfDate": "2026-09-20",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -913,7 +913,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-20T21:59:51.535451",
+      "generatedAt": "2026-09-20T22:18:49.181014",
       "asOfDate": "2026-09-20",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -963,7 +963,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-20T21:59:51.711234",
+      "generatedAt": "2026-09-20T22:18:49.346124",
       "asOfDate": "2026-09-20",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -991,7 +991,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "neverSucceeded": true,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "대상종목 비교가격 자료상태 문제: 통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
-      "withheldCheckedAt": "2026-09-20T21:59:51.881105"
+      "withheldCheckedAt": "2026-09-20T22:18:49.516698"
     }
   }
 };
