@@ -5052,7 +5052,14 @@ function computeDataHealth(dates, source, dropped, nowDate){
 // independent_confirmed로 통과하지 않고, maturity 필드로 "모델값 존재"와 "검증 완료"를 항상
 // 구분해 표시한다. review/wait 등 최상위 status 판정 자체는 안 바뀌지만 가치평가 노트의 표시
 // 의미와 근거가 실질적으로 바뀌므로 버전을 올린다.
-const DECISION_POLICY_VERSION = 5;
+// v6(2026-09-21, 같은 코드에서 Codex 독립검토가 재현한 잔여 결함 - "상대가치 요약의 이번
+// 비교가격 검증" 수정): computeRelativeValueVerdict가 비율·범위 위치는 새 price로 다시
+// 계산하면서도, 그 price/priceAsOf 자체의 유효성·최신성은 기존 가격 최신성 정책
+// (evaluatePriceFreshnessJS)으로 검사하지 않고 있었다. 이제 이번 비교가격이 노후·미래·형식
+// 오류·누락이거나 음수/NaN/null이면 비율·범위 위치(bandStatus)를 확정하지 않고 "현재가 비교
+// 보류"로 남긴다(모델 참고범위 값 자체는 계속 보여줌). 정상 입력에서는 판단이 바뀌지 않지만
+// 무효/노후 비교가격 입력에서 judgmentAllowed·표시 의미가 바뀌므로 버전을 올린다.
+const DECISION_POLICY_VERSION = 6;
 const DECISION_STATUS_META = {
   unavailable: {label:'판단 보류', color:'#626b76', bg:'#eceff1'},
   risk_first:  {label:'위험 우선', color:'#b3261e', bg:'#fdecea'},
@@ -5099,32 +5106,61 @@ function computeRelativeValueVerdict(rv, price, priceAsOf, extraNote){
     };
   }
   // 결함2 수정: 상세 카드(renderRelativeValueBandCard)와 같은 기존 최신성 재검사를 그대로 재사용
+  // (이 스냅샷 자체 -- 밴드 산출 시각·저장 당시 비교가격 -- 이 노후됐는지 확인. 아래 priceGate와는
+  // 다른 검사다: 이건 "스냅샷이 오래됐는가", priceGate는 "이번에 넘긴 새 비교가격이 오래됐는가".)
   const liveStale = computeRelativeValueLiveStaleness(rv);
-  const judgmentAllowed = !liveStale.stale && !rv.isStaleReference;
+  // [2026-09-21 즉시 후속 보완 -- Codex 독립검토가 같은 코드에서 재현한 잔여 결함]
+  // 비율·범위 위치는 이번 호출의 price로 다시 계산하도록(결함1) 이미 고쳤지만, 그 price/priceAsOf
+  // 자체의 유효성·최신성은 검사하지 않고 있었다 -- 스냅샷이 최신이어도 이번에 넘긴 비교가격의
+  // 관측일이 2020-01-01·2099-01-01·누락·형식오류이거나, 가격 자체가 음수·NaN·null이면 그대로
+  // 통과해 판단을 잘못 내릴 수 있었다(재현: 4가지 날짜 반례 전부 judgmentAllowed=true로 통과,
+  // 음수는 BELOW_BAND, NaN/누락은 WITHIN_BAND로 남음). 새 정책을 만들지 않고 DCF 경로가 이미
+  // 쓰는 evaluatePriceFreshnessJS(기존 가격 최신성 정책)를 이 "이번 비교가격"에도 그대로 적용한다.
+  const priceNumericValid = Number.isFinite(price) && price > 0;
+  const priceThresholdDays = rv.priceStaleAfterDays != null ? rv.priceStaleAfterDays : 7;
+  const priceGate = priceNumericValid
+    ? evaluatePriceFreshnessJS({purchasePrice: price, priceAsOf: priceAsOf || null, isLive: true},
+                                {price_stale_threshold_days: priceThresholdDays})
+    : {stale: true, reason: (price == null)
+        ? '이번 비교에 쓸 가격이 없어 확인할 수 없음'
+        : `이번 비교가격(${price})이 유효한 양수가 아니라 확인할 수 없음`};
   const reasons = [];
   if(rv.isStaleReference && rv.staleReferenceNote) reasons.push(rv.staleReferenceNote);
   if(liveStale.stale && liveStale.reasons.length) reasons.push('지금 열어본 시점 재검사: ' + liveStale.reasons.join('; '));
-  // 결함1 수정: 항상 이번 호출의 price로 차이를 다시 계산(범위 자체(valueBase=rangeMid)는 고정)
-  const diffPct = (price!=null && rv.rangeMid!=null) ? (price/rv.rangeMid - 1.0)*100.0 : null;
-  let bandStatus = rv.bandStatus;
-  if(price!=null && rv.rangeLow!=null && rv.rangeHigh!=null){
-    bandStatus = price < rv.rangeLow ? 'BELOW_BAND' : (price > rv.rangeHigh ? 'ABOVE_BAND' : 'WITHIN_BAND');
-  }
+  if(priceGate.stale && priceGate.reason) reasons.push('이번 비교가격 확인: ' + priceGate.reason);
+  const judgmentAllowed = !liveStale.stale && !rv.isStaleReference && !priceGate.stale;
+  // 결함1 수정 + 이번 보완: 이번 호출의 price로 차이를 다시 계산(범위 자체(valueBase=rangeMid)는
+  // 고정)하되, 그 price가 위 검사를 통과하지 못하면(무효·노후·미래·형식오류) 비율·범위 위치를
+  // 확정하지 않는다 -- 유효한 모델 참고범위(범위 값 자체)는 그대로 보여주고 "현재가 비교 보류"로
+  // 남긴다(참고범위를 통째로 숨기지 않음 - Codex 요청 반영).
+  const canCompare = priceNumericValid && !priceGate.stale;
+  const diffPct = canCompare ? (price/rv.rangeMid - 1.0)*100.0 : null;
+  // bandStatus는 이번 비교가 유효할 때만 새로 계산한다. 무효하면 null로 두고(과거 저장된
+  // rv.bandStatus를 라이브 가격인 것처럼 흘려보내지 않음), 대신 아래 maturity는 스냅샷 자체의
+  // 저장된 상태(rv.bandStatus)로 판단해 "모델 산출 자체가 DATA_ERROR였는가"와는 분리한다.
+  const bandStatus = canCompare
+    ? (price < rv.rangeLow ? 'BELOW_BAND' : (price > rv.rangeHigh ? 'ABOVE_BAND' : 'WITHIN_BAND'))
+    : null;
   return {
     status: 'reference_only',
     method: 'peer_multiple_reference_range', methodLabel: '동종기업 배수 참고범위',
     asOf: rv.asOfDate, valuationAnchorDate: rv.asOfDate, targetPeriod: null,
     valueLow: rv.rangeLow, valueBase: rv.rangeMid, valueHigh: rv.rangeHigh,
-    currentPrice: price, priceAsOf: priceAsOf || null, priceIsLive: true,
-    diffPct, diffLabel: fmtPct(diffPct), diffSentence: fmtValuationDiffSentence('참고범위 중앙값', diffPct),
+    currentPrice: canCompare ? price : null, priceAsOf: priceAsOf || null, priceIsLive: true,
+    priceComparisonWithheld: !canCompare,
+    diffPct, diffLabel: canCompare ? fmtPct(diffPct) : '비교 보류',
+    diffSentence: canCompare
+      ? fmtValuationDiffSentence('참고범위 중앙값', diffPct)
+      : `현재가 비교가 보류됐어요 - ${priceGate.reason || '비교가격을 확인할 수 없음'}`,
     bandStatus,
     // 결함1: 이 스냅샷이 원래 비교했던 저장값은 별도 필드로 남겨서 "지금 계산에 쓴 값"과 섞이지 않게 함
     snapshotComparisonPrice: rv.comparisonPrice, snapshotComparisonPriceAsOf: rv.comparisonPriceAsOf,
-    dataStatus: (rv.isStaleReference || liveStale.stale) ? '과거 참고값(노후)' : '최근 스냅샷',
+    dataStatus: (rv.isStaleReference || liveStale.stale) ? '과거 참고값(노후)' : (canCompare ? '최근 스냅샷' : '비교가격 확인 대기'),
     basis: (rv.bandDisclaimer || '동종업계가 지금 받는 배수를 그대로 적용한 참고범위 - 검증된 매수구간이 아님') + (extraNote?(' '+extraNote):''),
-    // 결함4: "모델(참고범위)이 존재한다"와 "검증됐다"는 다른 사실 -- 동종기업 참고범위는 항상 조건부
-    maturity: { level: (bandStatus==='DATA_ERROR') ? 'invalid' : 'conditional',
-                label: (bandStatus==='DATA_ERROR') ? '산출 보류' : '조건부 참고범위(검증된 적정가 아님)' },
+    // 결함4: "모델(참고범위)이 존재한다"와 "검증됐다"는 다른 사실 -- 동종기업 참고범위는 항상 조건부.
+    // 스냅샷 자체가 저장한 산출 상태(rv.bandStatus)로 판단한다(이번 비교가격 유효성과는 별개).
+    maturity: { level: (rv.bandStatus==='DATA_ERROR') ? 'invalid' : 'conditional',
+                label: (rv.bandStatus==='DATA_ERROR') ? '산출 보류' : '조건부 참고범위(검증된 적정가 아님)' },
     judgmentAllowed, judgmentBlockedReason: judgmentAllowed ? null : (reasons.join(' ') || '자료 노후로 판단 보류'),
     hasRelativeRef: true,
   };
