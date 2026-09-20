@@ -265,6 +265,13 @@ const MARKET_DATA = {
       "headlineKo": "목격자에 따르면 리야드 공항 근처에서 불꽃과 검은 연기가 보였다 - 로이터 통신"
     },
     {
+      "headline": "Oil slides after China asks Iran to limit Houthi attacks on Saudi oil facilities - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeDVrUGNRTzdTOG1wQ1ljY2w0Y002MjMxSVNvM2RrLTBhM3B1dEJVS1B6bnJWTjhydS1BUHpfTVFtbHh2QkdMdFU1ZVo3MDJtQ01kbldpa0lfWFM0QXFWbmVsN1RqcjcxMHczN3JGSHItelVZMzQtYklTN1kwVlJxLU5RVzAwc3BEQV9iVFI1N0xhRXluaGZxN0NrWkxFMDk5Q0pYZw?oc=5",
+      "datetime": 1789806038,
+      "headlineKo": "중국이 이란에 사우디 석유 시설에 대한 후티 반군 공격을 제한하라고 요청한 후 유가 하락 - 로이터 통신"
+    },
+    {
       "headline": "Meta-tied data centre draws blowout demand for debut junk bond",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-09-18/meta-tied-data-center-draws-blowout-demand-for-debut-junk-bond",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb1hTU1NHcEl4TWwzc0E2THYwcmxSMS05TnFsT2w4ZHVpQjhvX0NxT2dLb2RpRGtIczNadkVFczZUSGJ0VGJJdEpvMzlnZ3F4aGtBMldjZUpMZ2p4cWFOZ2VzSHhSLUhsclg4aXYwT2dMRkMxWWFjbnBBQ24tUG9EQk02UWlrczRVODFrU2hIbmZRZm9ESDU2TnJwb1FnMGw4OTU4OTllOFl3RlhON3JHTmJPVnYwNVYxT1FQaFZn?oc=5",
       "datetime": 1789768689,
       "headlineKo": "터키, 미국의 조치로 이란 멜라트 은행 운영 허가 취소 - 로이터 통신"
-    },
-    {
-      "headline": "Saudi Civil Defense lifts warnings of potential danger in several areas - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdlpTM1JIVGlNanRpa0drbElOWTNPVGp4bUhMNEd6TTZnbFRQbG5IMDV2VmxTS0VLeTNKaWl1cDJDeml0U2F6NjNGMFJoWkdVTHV1cG5BeHBtWm9LbnoxYXBmSXB2MFE2MGlla092UW1fZTF6eHFxc2NjNFlORkVpc3Q4b0NOdk44Z1NXTVdZQVhqNHpTRFduNFF5SXRicFpiX0lSWGlmWUZVa2laMGlrZ3Vn?oc=5",
-      "datetime": 1789764489,
-      "headlineKo": "사우디 민방위대, 여러 분야의 잠재적 위험 경고 해제 - Reuters"
     }
   ],
   "fgi": {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789901823.2712247,
-  "_updated_label": "2026-09-20 19:57",
-  "_last_attempt_at": 1789901823.2712247,
-  "_last_success_at": 1789901823.2712247,
+  "_fetched_at": 1789905499.7892816,
+  "_updated_label": "2026-09-20 20:58",
+  "_last_attempt_at": 1789905499.7892816,
+  "_last_success_at": 1789905499.7892816,
   "_collection_status": "ok",
   "_collection_errors": []
 };
