@@ -5032,22 +5032,25 @@ function computeDecisionViewModel(r){
 
   let status, headlineReason;
 
+  // 2026-09-20 추가(Codex 독립검토 - AMAT·KLAC 사례) - 컨센서스 EPS 기반 가격모델이 없거나
+  // (priceModelMissing) 역산 경계값 자체가 무너져도(valuationUnstable) 별도의 동종기업 배수
+  // 참고범위(상대가치)가 있을 수 있다. "전면 계산 불가"처럼 보이지 않게 그 존재만 짧게 알려준다
+  // (매수 신호로 승격하지 않음 - 상세 화면의 참고범위 카드가 이미 그 사실을 명확히 표시함).
+  const ivRef = (typeof INDEPENDENT_VALUATION_DATA !== 'undefined') ? INDEPENDENT_VALUATION_DATA[r.ticker] : null;
+  const hasRelValueRef = !!(ivRef && ivRef.relativeValueBand && ivRef.relativeValueBand.available);
+  const relValueSuffix = hasRelValueRef
+    ? ' (다만 동종업계 상대가치 참고범위는 있어요 - 상세 화면에서 확인 가능, 매수구간은 아니에요)'
+    : '';
+
   if(priceModelMissing){
     status = 'unavailable';
     reasonCodes.push('price_model_missing');
-    headlineReason = (typeof fv?.unavailable === 'string') ? fv.unavailable : '가격 기준을 계산하지 못해 판단을 보류했어요';
+    headlineReason = ((typeof fv?.unavailable === 'string') ? fv.unavailable : '가격 기준을 계산하지 못해 판단을 보류했어요') + relValueSuffix;
     nextChecks.push('애널리스트 컨센서스 EPS·현재가 재조회');
-    // 2026-09-20 추가(Codex 독립검토 - AMAT·KLAC 사례) - 이 컨센서스 EPS 기반 가격모델이 없어도
-    // 별도의 동종기업 배수 참고범위(상대가치)가 있을 수 있다. "전면 계산 불가"처럼 보이지 않게
-    // 그 존재만 짧게 알려준다(매수 신호로 승격하지 않음 - 상세 화면의 참고범위 카드 그대로 유지).
-    const ivRef = (typeof INDEPENDENT_VALUATION_DATA !== 'undefined') ? INDEPENDENT_VALUATION_DATA[r.ticker] : null;
-    if(ivRef && ivRef.relativeValueBand && ivRef.relativeValueBand.available){
-      headlineReason += ' (다만 동종업계 상대가치 참고범위는 있어요 - 상세 화면에서 확인 가능, 매수구간은 아니에요)';
-    }
   } else if(valuationUnstable){
     status = 'unavailable';
     reasonCodes.push('price_model_unstable');
-    headlineReason = '역산한 가격 판단 기준이 음수이거나 현재가의 여러 배로 벌어져 있어(계산상 불안정) 저평가/고평가 판단을 보류했어요';
+    headlineReason = '역산한 가격 판단 기준이 음수이거나 현재가의 여러 배로 벌어져 있어(계산상 불안정) 저평가/고평가 판단을 보류했어요' + relValueSuffix;
     nextChecks.push('다음 분기 EPS 컨센서스 확정 후 밸류에이션 경계 재계산');
   } else if(financialDataMissing){
     status = 'unavailable';
