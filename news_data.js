@@ -1197,7 +1197,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "SPY": {
@@ -2845,7 +2845,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "MSFT": {
@@ -5140,7 +5140,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "GOOGL": {
@@ -7753,7 +7753,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "AMZN": {
@@ -10446,7 +10446,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "META": {
@@ -13068,7 +13068,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "AAPL": {
@@ -15721,7 +15721,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "TSLA": {
@@ -18570,7 +18570,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "ORCL": {
@@ -21230,7 +21230,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "CRM": {
@@ -23654,7 +23654,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "PLTR": {
@@ -26096,7 +26096,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "NVDA": {
@@ -29355,7 +29355,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "AMD": {
@@ -31539,7 +31539,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "AVGO": {
@@ -33468,7 +33468,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "QCOM": {
@@ -34975,7 +34975,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "ARM": {
@@ -36311,7 +36311,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "MRVL": {
@@ -37901,7 +37901,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "INTC": {
@@ -40489,7 +40489,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "TSM": {
@@ -41850,7 +41850,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "ASML": {
@@ -43221,7 +43221,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "AMAT": {
@@ -44598,7 +44598,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "LRCX": {
@@ -45356,7 +45356,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "KLAC": {
@@ -46149,7 +46149,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "MU": {
@@ -48816,7 +48816,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "SNDK": {
@@ -49020,6 +49020,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=75772e5b5caed6c6fd566d93edf557c6729054bbc247e50b142636dc9d16e33e",
         "datetime": 1789878526,
+        "headlineKo": "SanDisk 주가는 S&P 100 뉴스에서 11% 상승했습니다. 거리에서 말하는 내용은 다음과 같습니다.",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -50395,7 +50396,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "WDC": {
@@ -51383,7 +51384,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "ANET": {
@@ -52459,7 +52460,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "COHR": {
@@ -53762,7 +53763,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "LITE": {
@@ -54606,7 +54607,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 19,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "GEV": {
@@ -56297,7 +56298,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "CEG": {
@@ -57256,7 +57257,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "VST": {
@@ -58007,7 +58008,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "ETN": {
@@ -58934,7 +58935,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "PWR": {
@@ -59272,6 +59273,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e7009447c0aa8723451ec78b2f1e70ca44c85a445b896cd39b9cb9576222e4db",
         "datetime": 1789796439,
+        "headlineKo": "Quanta Services 주식은 1년 만에 64% 상승했습니다. PWR에는 여전히 운영 여지가 있습니까?",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -59944,7 +59946,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "HUBB": {
@@ -60490,7 +60492,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "VRT": {
@@ -61259,7 +61261,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "MOD": {
@@ -61814,7 +61816,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "STX": {
@@ -62818,7 +62820,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "EME": {
@@ -63436,7 +63438,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "FIX": {
@@ -64025,7 +64027,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   },
   "BE": {
@@ -64860,7 +64862,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-20 16:42"
+      "updated": "2026-09-20 16:52"
     }
   }
 };

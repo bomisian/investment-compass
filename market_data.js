@@ -258,6 +258,13 @@ const MARKET_DATA = {
       "headlineKo": "중국이 이란에 사우디 석유 시설에 대한 후티 반군 공격을 제한하라고 요청한 후 유가 하락 - 로이터 통신"
     },
     {
+      "headline": "Meta-tied data centre draws blowout demand for debut junk bond",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-18/meta-tied-data-center-draws-blowout-demand-for-debut-junk-bond",
+      "datetime": 1789801652,
+      "headlineKo": "메타 연계형 데이터센터, 정크본드 데뷔 수요 급증"
+    },
+    {
       "headline": "Iran executes man convicted of spying for Israel's Mossad, judiciary says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUHlXMU02X1Q1U245V0NOTFNPTGFPLXBYTFBNUG84ZlBWY2hteTNWRTNadlNxWWUzQVktelVDbmxOenJuQlZzV1h2bHlfNXZfWTh2RVNYeTVRVkhfTFpGTVNGSm5xeHhNUnE0U2E2ZmEtYmVDaFkwY25wUFl3alBnYXhJUnZGeVc5dVZKTU1aYTIxcW1xTmk3UGpBSmt4bU1lTHpsN1Rya1o2WDZlZ295LVZISUpXc0dZZEE?oc=5",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWEtRUVNvYVIwTTZqQ3pmak0zd0NlNjZEcmxxQ3FUWTJKVUZjTHdjUmt1SThTNVFmZWl5OXVLUmljaWJoSFRQbU5qVnZDUjcyWEhJNk5yWjZDOTNzazlrenItWHdvODFNbE5Ka3ZoMGF4ZFRGcEFFeVhlWF8tWGZYYU1XWWttR3BuR0hmdF9iY0Z2WGQwbFJfV2lOT2FwSExyT21yUE80ZVM?oc=5",
       "datetime": 1789763040,
       "headlineKo": "러시아 제재 법안, 트럼프에게 새로운 관세 권한 부여 - Reuters"
-    },
-    {
-      "headline": "Republican China committee chair urges tough Trump line with Xi - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVHE0eGdjejdPVC0wcEJESG1KY3hhNU1DMUZmOHZJUTFjZHRpM1BsLVcwbzVlOUJpVHFxZnBPNzJlTldZelp1WlcwVU5fQ2d2MXZCZS1NSm9uWkQ4MlpHRUQwY21BdU5BRUs2a3ZBODhETlZNd1pTMk94a1NWN3BMaGNHMVl0MWVIeTdWQk9KWVFvS0ZnVnZ1RWJQSlFMcjNVRm1TYkFfMTRvSUY2?oc=5",
-      "datetime": 1789760071,
-      "headlineKo": "중국 공화당 위원장, 트럼프 대통령과 시진핑의 강경한 노선 촉구 - 로이터"
     }
   ],
   "fgi": {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789887074.3120892,
-  "_updated_label": "2026-09-20 15:51",
-  "_last_attempt_at": 1789887074.3120892,
-  "_last_success_at": 1789887074.3120892,
+  "_fetched_at": 1789890771.5657425,
+  "_updated_label": "2026-09-20 16:53",
+  "_last_attempt_at": 1789890771.5657425,
+  "_last_success_at": 1789890771.5657425,
   "_collection_status": "ok",
   "_collection_errors": []
 };
