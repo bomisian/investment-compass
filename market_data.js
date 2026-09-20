@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Saudi, Gulf stocks fall after Houthis claim Riyadh attacks - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZnFXQ1lvNTg5TnJvazhfY3VXa0hrVms4RW1mdVBpR0k4QXZkempjX0h4Y2JIaGNvSm04YVJkTHRDTWpESVFDakhJMExiNGZSSktLcVFsM3VlM3ZibDQwVlE3czF4OEdLdXdnU0FPaUN1aHFLVWN3cW9uVHRTTDdDU1BNaUNMd3NQMlY5VGZPYzA5ODlMQi1rcWVDXzhFZHJWUF9tQjJqUUtzQW1yc0tYNw?oc=5",
+      "datetime": 1789891903,
+      "headlineKo": "사우디와 걸프 주가는 후티 반군의 리야드 공격 주장 이후 하락 - 로이터"
+    },
+    {
       "headline": "World leaders return to UN amid wars in Middle East and Ukraine - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN3lDRHRlTWN1YnNJaGtha3IwWGxCV0w1QlVNNWpGQ2habE9mTUJpN2tqT2RvRkJqai15TGVhTTRnbmNCX1o5a2NGaXRVWXpnYXF6SlFodGJLYmZDUjNrVmR3ZXgxQ1hua1c3ZnFfeGE3S1ZGb0REWV9DWWRQNFFEazBWSjVPb1VzMExOYWVKOTJ3SlZaRlRyZWkwVHNOQVpxY3J3?oc=5",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdlpTM1JIVGlNanRpa0drbElOWTNPVGp4bUhMNEd6TTZnbFRQbG5IMDV2VmxTS0VLeTNKaWl1cDJDeml0U2F6NjNGMFJoWkdVTHV1cG5BeHBtWm9LbnoxYXBmSXB2MFE2MGlla092UW1fZTF6eHFxc2NjNFlORkVpc3Q4b0NOdk44Z1NXTVdZQVhqNHpTRFduNFF5SXRicFpiX0lSWGlmWUZVa2laMGlrZ3Vn?oc=5",
       "datetime": 1789764489,
       "headlineKo": "사우디 민방위대, 여러 분야의 잠재적 위험 경고 해제 - Reuters"
-    },
-    {
-      "headline": "Russia sanctions bill gives Trump sweeping new tariff powers - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWEtRUVNvYVIwTTZqQ3pmak0zd0NlNjZEcmxxQ3FUWTJKVUZjTHdjUmt1SThTNVFmZWl5OXVLUmljaWJoSFRQbU5qVnZDUjcyWEhJNk5yWjZDOTNzazlrenItWHdvODFNbE5Ka3ZoMGF4ZFRGcEFFeVhlWF8tWGZYYU1XWWttR3BuR0hmdF9iY0Z2WGQwbFJfV2lOT2FwSExyT21yUE80ZVM?oc=5",
-      "datetime": 1789763040,
-      "headlineKo": "러시아 제재 법안, 트럼프에게 새로운 관세 권한 부여 - Reuters"
     }
   ],
   "fgi": {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789898139.6028647,
-  "_updated_label": "2026-09-20 18:56",
-  "_last_attempt_at": 1789898139.6028647,
-  "_last_success_at": 1789898139.6028647,
+  "_fetched_at": 1789901823.2712247,
+  "_updated_label": "2026-09-20 19:57",
+  "_last_attempt_at": 1789901823.2712247,
+  "_last_success_at": 1789901823.2712247,
   "_collection_status": "ok",
   "_collection_errors": []
 };
