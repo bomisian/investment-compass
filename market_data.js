@@ -237,18 +237,18 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Iran warns against new escalation by US and allies - reuters.com",
+      "headline": "Iran and US trade threats after Houthi attacks escalate regional conflict - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdWJkS01sRHBUcXZGZVVoTy1zVU04amJ0VUc3WnZ4UkVZd25TTTR6RGY1ZkV5OUtGZzFULVNDcEo4MzlZMmNkamt0VjR5VHg3YzRDaWhEOFAtZklDbFpGSXpCeE9BeGR3UWp3aFN1MVp2aUMyZE93ZnFUN0VTdzdkZGJnMDdrOFNtc1lhZC1UQlNDWFl3dGRWdjZwYkc2SHJGelBn?oc=5",
-      "datetime": 1789919646,
-      "headlineKo": "이란, 미국과 동맹국의 새로운 확대에 대해 경고 - reuters.com"
+      "datetime": 1789926417,
+      "headlineKo": "후티 반군 공격 이후 이란과 미국의 무역 위협으로 지역 갈등 고조 - 로이터 통신"
     },
     {
-      "headline": "Palestinian gunman shoots dead Israeli in the West Bank, soldiers kill motorist - reuters.com",
+      "headline": "Palestinian gunman shoots dead Israeli in the West Bank, soldiers kill motorist - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVE03eUJ3dTJkVEpVNXZXT3dXZVVBT2Nzel9PSVVRSHBSOTEyRDB1UmxGcUlyTDR2WHo2MjdoZGp0Z1ozOU9RSEdLQTZqNWw0R1VyanNvY1NEWFlVeEgwT00zcWtDTUMzU3Rud25ZbDlrMDdPakJIWnItVjNGWWR5b1ZIRTR5WjRoMlIyWDg5dmhiYnlRVzctR3VNNXQzQWZaVGZiNTBKTk9pNkJmMGF2Y2M4Nk5wTGZDRG9IV1ZsWTdvREE?oc=5",
       "datetime": 1789914011,
-      "headlineKo": "팔레스타인 총격범, 서안 지구에서 이스라엘인 사살, 군인 사살 - reuters.com"
+      "headlineKo": "팔레스타인 총격범, 서안 지구에서 이스라엘인 사살, 군인 사살 - 로이터 통신"
     },
     {
       "headline": "8 signs you're raising a resilient, emotionally mature child, says psychologist",
@@ -258,18 +258,18 @@ const MARKET_DATA = {
       "headlineKo": "심리학자가 말하는 회복력 있고 정서적으로 성숙한 아이를 키우고 있다는 8가지 신호"
     },
     {
-      "headline": "Saudi, Gulf stocks fall after Houthis claim Riyadh attacks - reuters.com",
+      "headline": "Saudi, Gulf stocks fall after Houthis claim Riyadh attacks - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZnFXQ1lvNTg5TnJvazhfY3VXa0hrVms4RW1mdVBpR0k4QXZkempjX0h4Y2JIaGNvSm04YVJkTHRDTWpESVFDakhJMExiNGZSSktLcVFsM3VlM3ZibDQwVlE3czF4OEdLdXdnU0FPaUN1aHFLVWN3cW9uVHRTTDdDU1BNaUNMd3NQMlY5VGZPYzA5ODlMQi1rcWVDXzhFZHJWUF9tQjJqUUtzQW1yc0tYNw?oc=5",
       "datetime": 1789909176,
-      "headlineKo": "사우디와 걸프 주가는 후티 반군의 리야드 공격 주장 이후 하락 - reuters.com"
+      "headlineKo": "사우디와 걸프 주가는 후티 반군의 리야드 공격 주장 이후 하락 - 로이터"
     },
     {
-      "headline": "Iran seals French language centre in Tehran, accuses it of illegal activities - reuters.com",
+      "headline": "Iran seals French language centre in Tehran, accuses it of illegal activities - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaXN4WDAwcUZkX2E4emIyUUMyczNhNldiSVlQcENLSDVrSng0SVl6bjBrSU9QRDJHbE5HSHBWeVZvX0J2RjlUQm1WclN4UnBmTmFoM29sZzNaa19uT1pUMjZuTndiT1hWXzBnQlZKalpCZGZQd2ZnOXo2cWlJZ05yT21vbUx4QXRIY2haTW5NQjhRcFJIeG5TSi10aGdOUkRxdHBCZDFXYUMyTlRNWF9UUW91NDJiRlp4ckpHSUpRVGxidw?oc=5",
       "datetime": 1789906134,
-      "headlineKo": "이란, 테헤란 프랑스어 센터 폐쇄, 불법 활동 혐의로 비난 - reuters.com"
+      "headlineKo": "이란, 테헤란 프랑스어 센터 폐쇄, 불법 활동 혐의로 비난 - 로이터 통신"
     },
     {
       "headline": "Budget airline king Bill Franke warms to first-class seats and premium upgrades",
@@ -279,11 +279,11 @@ const MARKET_DATA = {
       "headlineKo": "저가 항공사의 왕 빌 프랭케(Bill Franke)가 일등석 좌석과 프리미엄 업그레이드를 환영합니다."
     },
     {
-      "headline": "European Commissioner discussed EU-Israel relationship, Gaza with Israeli minister - reuters.com",
+      "headline": "European Commissioner discussed EU-Israel relationship, Gaza with Israeli minister - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcWJqeXlJTjQxcDVjYU03Q09mYWE3clFzVVBpRENyRGoydU1BVzl2dHlxR3Y0Zm83WjJOVmJJaEhuQlVnUEtLNTZxcXlsbDhQeUlja2lGNHozV3M1Ym5UTUxCQ1ZBamtILVBqSlo4QUQ2YjNvNE9saE1tN1BKTUU0U245dzBOYWIzYzMzZC1OZVdPMElfZHllUHY4TmtLU19VdU1nM0k2d0pBR0dicU92ZHlhZXk1SS1uVXZCVENCQktYVWpv?oc=5",
       "datetime": 1789905354,
-      "headlineKo": "유럽연합(EU) 집행위원, 이스라엘 장관과 가자 지구의 EU-이스라엘 관계 논의 - reuters.com"
+      "headlineKo": "유럽연합(EU) 집행위원, 이스라엘 장관과 가자 지구의 EU-이스라엘 관계 논의 - 로이터 통신"
     },
     {
       "headline": "North Korea fires two ballistic missiles off east coast in three hours - Reuters",
@@ -293,42 +293,42 @@ const MARKET_DATA = {
       "headlineKo": "북한, 3시간 만에 동해상으로 탄도미사일 2발 발사 - 로이터"
     },
     {
-      "headline": "World leaders return to UN amid wars in Middle East and Ukraine - reuters.com",
+      "headline": "World leaders return to UN amid wars in Middle East and Ukraine - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN3lDRHRlTWN1YnNJaGtha3IwWGxCV0w1QlVNNWpGQ2habE9mTUJpN2tqT2RvRkJqai15TGVhTTRnbmNCX1o5a2NGaXRVWXpnYXF6SlFodGJLYmZDUjNrVmR3ZXgxQ1hua1c3ZnFfeGE3S1ZGb0REWV9DWWRQNFFEazBWSjVPb1VzMExOYWVKOTJ3SlZaRlRyZWkwVHNOQVpxY3J3?oc=5",
       "datetime": 1789880700,
-      "headlineKo": "중동과 우크라이나 전쟁 속에서 세계 지도자들이 유엔으로 복귀 - reuters.com"
+      "headlineKo": "중동과 우크라이나 전쟁 속에서 세계 지도자들이 유엔으로 복귀 - 로이터"
     },
     {
-      "headline": "Turkey says it could help meet Saudi military needs under defence pact - reuters.com",
+      "headline": "Turkey says it could help meet Saudi military needs under defence pact - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNcFRETlRnejhZT205SG1jcTdjVXczcElRSUxEam5NemVkeWdYaEdkU0hjSFlrMGkxd0JoV1YzMHlRUWl4TnJSSy14aFJUemp3bm55X0dqcXdEN0o4aUdScDE0M3ZsRzlEQ0lhWm4yX0NDVE02aUl6djZneTMxMWxsYnVlYTltMmVhMlVXdU5vZjY1Z3B3aVpCU0NVb1Y0ZmI1V3FJUi1EaGt1d1AwUV9JeTR0RWZVeFRZbUsyS2lTUUJUd1hfOFg4NEtMcWhUQQ?oc=5",
       "datetime": 1789845707,
-      "headlineKo": "터키는 국방 협정에 따라 사우디의 군사적 필요를 충족시키는 데 도움이 될 수 있다고 말했습니다 - reuters.com"
+      "headlineKo": "터키는 방위 협정에 따라 사우디의 군사적 필요를 충족하는 데 도움이 될 수 있다고 말했습니다 - Reuters"
     },
     {
-      "headline": "Israeli strikes kill three people in Gaza, medics say - reuters.com",
+      "headline": "Israeli strikes kill three people in Gaza, medics say - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOemgwbjZHUGxzMHdPUWJTOFhfS1lfVXFyUEdEcDM4WXM1Z1VSb3ZIdHI4cmpveHUxM1ZFb2RsVnVMcXlaS3BNNmdzMnRGNXNaT1VZMkcyY19vUnBHT2pGSkhyVDRqQmpvS0Z4dndGN2VSVEtySkN4MmM2SUJOZFc0T1h5ZXhaQ2sxdUVheGxrd0oySE9HcjVOMTFwZE1lVEVvQm1ud2xB?oc=5",
       "datetime": 1789829040,
-      "headlineKo": "이스라엘군의 공습으로 가자지구에서 3명이 사망했다고 의료진이 밝혔습니다 - reuters.com"
+      "headlineKo": "이스라엘군의 공습으로 가자지구에서 3명이 사망했다고 의료진이 밝혔습니다."
     },
     {
-      "headline": "Flames, black smoke seen near Riyadh airport, eyewitness says - reuters.com",
+      "headline": "Flames, black smoke seen near Riyadh airport, eyewitness says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVhEVEhONEZLVTN1Q0NyUzZwOXdIS3JLY0VVMVhabU40LV96QjY3d3A5M3NNTElCTy1SdzFFSVIyOEhxWW1OMUxKM1hHUFc0UDNnaXpLRlBPR2VhZkdsWVktOWtCSWxTUWhYV1FFcnN6c3A1WVVoc192OWNJSWhJQnc0U1QwZ1ZtRXd2a0hlNkJJMVVrckJpSXFlZzJDNVhUTVI5RWtGcVd6SW01UHNEWk9lMA?oc=5",
       "datetime": 1789816871,
-      "headlineKo": "목격자에 따르면 리야드 공항 근처에서 화염과 검은 연기가 보였다 - reuters.com"
+      "headlineKo": "목격자에 따르면 리야드 공항 근처에서 불꽃과 검은 연기가 보였다 - 로이터 통신"
     }
   ],
   "fgi": {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789926924.6392586,
-  "_updated_label": "2026-09-21 02:56",
-  "_last_attempt_at": 1789926924.6392586,
-  "_last_success_at": 1789926924.6392586,
+  "_fetched_at": 1789931035.3228164,
+  "_updated_label": "2026-09-21 04:04",
+  "_last_attempt_at": 1789931035.3228164,
+  "_last_success_at": 1789931035.3228164,
   "_collection_status": "ok",
   "_collection_errors": []
 };
