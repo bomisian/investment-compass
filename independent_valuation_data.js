@@ -138,7 +138,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-21T01:33:36.538617",
+      "generatedAt": "2026-09-21T01:54:35.558371",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -913,7 +913,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-21T01:33:36.715434",
+      "generatedAt": "2026-09-21T01:54:35.733468",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -963,7 +963,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-21T01:33:36.887582",
+      "generatedAt": "2026-09-21T01:54:35.900422",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -991,7 +991,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "neverSucceeded": true,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "대상종목 비교가격 자료상태 문제: 통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
-      "withheldCheckedAt": "2026-09-21T01:33:37.058117"
+      "withheldCheckedAt": "2026-09-21T01:54:36.068661"
     }
   },
   "STX": {
@@ -1020,7 +1020,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-21T01:33:37.216598",
+      "generatedAt": "2026-09-21T01:54:36.222271",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -1066,7 +1066,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-21T01:33:37.343273",
+      "generatedAt": "2026-09-21T01:54:36.350493",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -1112,7 +1112,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-21T01:33:37.469317",
+      "generatedAt": "2026-09-21T01:54:36.482933",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
