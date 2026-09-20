@@ -237,6 +237,27 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "8 signs you're raising a resilient, emotionally mature child, says psychologist",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/20/signs-parents-raising-emotionally-mature-child-psychologist.html",
+      "datetime": 1789911241,
+      "headlineKo": "심리학자가 말하는 회복력 있고 정서적으로 성숙한 아이를 키우고 있다는 8가지 신호"
+    },
+    {
+      "headline": "Iran warns against new escalation by US and allies - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdWJkS01sRHBUcXZGZVVoTy1zVU04amJ0VUc3WnZ4UkVZd25TTTR6RGY1ZkV5OUtGZzFULVNDcEo4MzlZMmNkamt0VjR5VHg3YzRDaWhEOFAtZklDbFpGSXpCeE9BeGR3UWp3aFN1MVp2aUMyZE93ZnFUN0VTdzdkZGJnMDdrOFNtc1lhZC1UQlNDWFl3dGRWdjZwYkc2SHJGelBn?oc=5",
+      "datetime": 1789910688,
+      "headlineKo": "이란, 미국과 동맹국의 새로운 확대에 대해 경고 - 로이터"
+    },
+    {
+      "headline": "Saudi, Gulf stocks fall after Houthis claim Riyadh attacks - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZnFXQ1lvNTg5TnJvazhfY3VXa0hrVms4RW1mdVBpR0k4QXZkempjX0h4Y2JIaGNvSm04YVJkTHRDTWpESVFDakhJMExiNGZSSktLcVFsM3VlM3ZibDQwVlE3czF4OEdLdXdnU0FPaUN1aHFLVWN3cW9uVHRTTDdDU1BNaUNMd3NQMlY5VGZPYzA5ODlMQi1rcWVDXzhFZHJWUF9tQjJqUUtzQW1yc0tYNw?oc=5",
+      "datetime": 1789909176,
+      "headlineKo": "사우디와 걸프 주가는 후티 반군의 리야드 공격 주장 이후 하락 - 로이터"
+    },
+    {
       "headline": "Palestinian gunman shoots dead Israeli in the West Bank, soldiers kill motorist - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVE03eUJ3dTJkVEpVNXZXT3dXZVVBT2Nzel9PSVVRSHBSOTEyRDB1UmxGcUlyTDR2WHo2MjdoZGp0Z1ozOU9RSEdLQTZqNWw0R1VyanNvY1NEWFlVeEgwT00zcWtDTUMzU3Rud25ZbDlrMDdPakJIWnItVjNGWWR5b1ZIRTR5WjRoMlIyWDg5dmhiYnlRVzctR3VNNXQzQWZaVGZiNTBKTk9pNkJmMGF2Y2M4Nk5wTGZDRG9IV1ZsWTdvREE?oc=5",
@@ -256,13 +277,6 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/20/bill-franke-frontier-spirit-budget-airlines.html",
       "datetime": 1789905601,
       "headlineKo": "저가 항공사의 왕 빌 프랭케(Bill Franke)가 일등석 좌석과 프리미엄 업그레이드를 환영합니다."
-    },
-    {
-      "headline": "Saudi, Gulf stocks fall after Houthis claim Riyadh attacks - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZnFXQ1lvNTg5TnJvazhfY3VXa0hrVms4RW1mdVBpR0k4QXZkempjX0h4Y2JIaGNvSm04YVJkTHRDTWpESVFDakhJMExiNGZSSktLcVFsM3VlM3ZibDQwVlE3czF4OEdLdXdnU0FPaUN1aHFLVWN3cW9uVHRTTDdDU1BNaUNMd3NQMlY5VGZPYzA5ODlMQi1rcWVDXzhFZHJWUF9tQjJqUUtzQW1yc0tYNw?oc=5",
-      "datetime": 1789891903,
-      "headlineKo": "사우디와 걸프 주가는 후티 반군의 리야드 공격 주장 이후 하락 - 로이터"
     },
     {
       "headline": "World leaders return to UN amid wars in Middle East and Ukraine - Reuters",
@@ -286,11 +300,11 @@ const MARKET_DATA = {
       "headlineKo": "목격자에 따르면 리야드 공항 근처에서 불꽃과 검은 연기가 보였다 - 로이터 통신"
     },
     {
-      "headline": "Oil slides after China asks Iran to limit Houthi attacks on Saudi oil facilities - Reuters",
+      "headline": "Poland concludes air operation with no airspace violations recorded - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeDVrUGNRTzdTOG1wQ1ljY2w0Y002MjMxSVNvM2RrLTBhM3B1dEJVS1B6bnJWTjhydS1BUHpfTVFtbHh2QkdMdFU1ZVo3MDJtQ01kbldpa0lfWFM0QXFWbmVsN1RqcjcxMHczN3JGSHItelVZMzQtYklTN1kwVlJxLU5RVzAwc3BEQV9iVFI1N0xhRXluaGZxN0NrWkxFMDk5Q0pYZw?oc=5",
-      "datetime": 1789806038,
-      "headlineKo": "중국이 이란에 사우디 석유 시설에 대한 후티 반군 공격을 제한하라고 요청한 후 유가 하락 - 로이터 통신"
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbEJIeGFNMGRJYVQzR3hPZWNpZXAwQ1B0RGhYVlhkUm9BSmVmR1FJQ3QxSWcxNkUtU2RaOTk0VWVMVUUxeklsQ19Tbmk4Y0tqYUpNTnNLdHl0NlB1QWhoYVVZUnczWVFTOUY1T0FxRGxqN2hVNVRlMmFpRFFjV2ZWcW1OS0pmQWtvdlRiTjBwa05ZOFRyMTZBNzk3a2R2RURBWHJleElrZU1wOUVoNzVRTllSRHA2OFE3LUE?oc=5",
+      "datetime": 1789806984,
+      "headlineKo": "폴란드, 공역 위반 기록 없이 항공 작전 종료 - 로이터"
     },
     {
       "headline": "Meta-tied data centre draws blowout demand for debut junk bond",
@@ -305,30 +319,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUHlXMU02X1Q1U245V0NOTFNPTGFPLXBYTFBNUG84ZlBWY2hteTNWRTNadlNxWWUzQVktelVDbmxOenJuQlZzV1h2bHlfNXZfWTh2RVNYeTVRVkhfTFpGTVNGSm5xeHhNUnE0U2E2ZmEtYmVDaFkwY25wUFl3alBnYXhJUnZGeVc5dVZKTU1aYTIxcW1xTmk3UGpBSmt4bU1lTHpsN1Rya1o2WDZlZ295LVZISUpXc0dZZEE?oc=5",
       "datetime": 1789799280,
       "headlineKo": "이란, 이스라엘 모사드 간첩 혐의로 유죄판결 받은 남성 처형"
-    },
-    {
-      "headline": "Luxembourg launches investigation after drones temporarily suspend flight operations - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeFNHRl9fQkZGUUphN2c1MERZQVdWTFppVTExdU5lQlN6NGdTRTRuZ3U5a0U5T1kyd1VtUUY3OE8teFhSVGZzdnpPY3JDZXM1MXNmTm12bWV4SGstZ0piOVZ5RlJDOEJaRHV6YTA1MTV4UlVnTy1uUWpkZEk2S2U4Sm1NNVFxbmtsOVhra2ZzcVRxUkg1QmN2enJDTy04dEFZRWR2VXd6YW5jbGxVX3Y4WnRtdWx0bWZuV3pJNQ?oc=5",
-      "datetime": 1789781520,
-      "headlineKo": "룩셈부르크, 드론이 비행 운항을 일시적으로 중단한 후 조사 개시 - Reuters"
-    },
-    {
-      "headline": "Flames, smoke seen near Riyadh airport; Houthis claim attacks on Saudi capital - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYWNnM0NScnlDOXNDY25xQjhZVlRHUUtMOEV3YVZSOW5xekdVelcycGI1VHl3dWpqVGhNM2s1N05NamZxV0hoNVBFN204OHM5dVlQemMySkJGMlpCaURybUY4TVZfd0RDUUxzb3RTeWJVVEI4blFQZFhJekptSHRFUVdqb1pDai1VQ1hPS1JHWk92MEpZYWtESDduUmpwUEg4Nzc4bFp3VDQzM2JMTnRZXzgzbVBvUDk0clU4a3dHMlhuQk0?oc=5",
-      "datetime": 1789778520,
-      "headlineKo": "리야드 공항 근처에서 화염과 연기가 보입니다. 후티 반군, 사우디 수도에 대한 공격 주장 - 로이터"
     }
   ],
   "fgi": {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789912166.4106982,
-  "_updated_label": "2026-09-20 22:50",
-  "_last_attempt_at": 1789912166.4106982,
-  "_last_success_at": 1789912166.4106982,
+  "_fetched_at": 1789915855.5088527,
+  "_updated_label": "2026-09-20 23:51",
+  "_last_attempt_at": 1789915855.5088527,
+  "_last_success_at": 1789915855.5088527,
   "_collection_status": "ok",
   "_collection_errors": []
 };

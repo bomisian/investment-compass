@@ -1920,14 +1920,22 @@ function computeFairValue(ticker, price, fund, est){
           const boundsUnstable = !(lowerBoundPrice > 0) || !(upperBoundPrice > 0)
             || Math.abs(pctToOvervalued) > 150 || Math.abs(pctToUndervalued) > 150;
           if(boundsUnstable){
+            // 2026-09-20 4차 수정(Codex 독립검토 - "bounds_unstable을 '진짜 데이터 오류'로 단정하지
+            // 말라" 지적) - 이 상태는 '역산 기대성장률(PER·성장률 역산)'이라는 특정 계산 방식 하나가
+            // 이 종목의 현재 입력값에서는 적용 조건(경계가 양수·현재가의 150% 이내)을 벗어났다는
+            // 뜻이다. 회사 원자료 전체가 틀렸다거나 다른 평가 방법(위 low/mid/high PER 시나리오,
+            // 아래 독립 DCF·동종기업 배수 참고범위)까지 계산 불가라는 뜻이 아니다. 문구에서 "이 종목
+            // 전체가 오류"로 읽히지 않도록 방식명을 반복 명시하고, 다른 평가는 별도로 계속 제공됨을
+            // 매번 같이 알린다.
+            const scopeNote = '이 방식 하나만 이 종목에는 적용되지 않는 상태이며, 이 종목의 원자료나 다른 평가 방법(PER 시나리오·독립 DCF·동종기업 배수 참고범위)까지 틀렸다는 뜻은 아니에요';
             const reason = (!(lowerBoundPrice > 0) || !(upperBoundPrice > 0))
-              ? '역산한 가격 경계가 음수로 나와(계산상 불가능한 값) 이 가정 자체가 이 종목에는 안 맞는 상태예요'
-              : `역산한 가격 경계가 현재가의 여러 배(위쪽 ${Math.abs(pctToOvervalued).toFixed(0)}%·아래쪽 ${Math.abs(pctToUndervalued).toFixed(0)}%)로 벌어져서 사실상 어느 쪽으로도 판단하기 어려운 상태예요`;
-            cautions.push(`이 종목은 '역산 기대성장률' 방식으로 가격 경계를 구해봤지만 ${reason}(가격 판단 기준 미확인) - 저평가/고평가/적정 배지를 만들지 않고 보류했어요. 대신 위 PEG 교차검증과 PER 밴드는 그대로 참고하세요.`);
-            // 2026-09-20 추가(Codex 독립검토) - 이 경우만 '가격 경계값 실제 계산 오류'로, low/mid/high
-            // 자체(PER 시나리오)는 여전히 정상이지만 이 보조 역산 검증만 이 종목엔 안 맞는다는 뜻이다.
-            // computeDecisionViewModel이 이 kind일 때만 '가격 기준 불안정'으로 판단을 보류한다.
-            expectationsUnavailable = {kind:'bounds_unstable', reason};
+              ? `역산 기대성장률(PER·성장률 역산) 방식의 가격 경계가 음수로 나와(계산상 불가능한 값) 적용 조건을 벗어났어요 - ${scopeNote}`
+              : `역산 기대성장률(PER·성장률 역산) 방식의 가격 경계가 현재가의 여러 배(위쪽 ${Math.abs(pctToOvervalued).toFixed(0)}%·아래쪽 ${Math.abs(pctToUndervalued).toFixed(0)}%)로 벌어져서 적용 조건을 벗어났어요 - ${scopeNote}`;
+            cautions.push(`이 종목은 '역산 기대성장률' 방식으로 가격 경계를 구해봤지만 ${reason}(이 방식만 판단 보류) - 저평가/고평가/적정 배지를 만들지 않고 보류했어요. 대신 위 PEG 교차검증과 PER 밴드는 그대로 참고하세요.`);
+            // 이 경우만 '역산 기대성장률 방식의 적용 조건 이탈'로, low/mid/high 자체(PER 시나리오)는
+            // 여전히 정상이지만 이 보조 역산 검증 방식 하나가 이 종목의 현재 입력에는 안 맞는다는
+            // 뜻이다. computeDecisionViewModel이 이 kind일 때만 '이 방식으로는 판단 보류'로 처리한다.
+            expectationsUnavailable = {kind:'bounds_unstable', reason, scopeNote};
           } else {
             expectations = {historicalPEG, impliedGrowthRequired, consensusGrowthPct, gap, hgYears, pctToOvervalued, pctToUndervalued};
           }
@@ -3134,6 +3142,11 @@ function buildAtAGlanceHtml(r){
   // 2026-09-20 추가(Codex 독립검토) - 보조 지표(역산 기대성장률)가 없는 이유를 목록·팝업·상세가
   // 전부 같은 문구로 보여준다(판단 자체를 막지는 않음 - 위 headlineReason은 이미 정상 판단임).
   if(d.expectationsNote) lines.push(`<span class="sub" style="font-weight:400;">(참고: 역산 기대성장률 보조지표는 계산되지 않았어요 - ${esc(d.expectationsNote.reason)})</span>`);
+  // 2026-09-20 5차 추가(Codex 독립검토, 요청 1·3·5) - "한눈에 결론" 헤드라인도 목록 배지·판단 요약과
+  // 같은 독립 가치평가 노트를 그대로 보여준다(같은 함수 재사용, 새 계산 아님) - 이 헤드라인이
+  // review(매수 검토)여도 가치평가가 미확인이면 그 사실이 바로 다음 줄에 같이 보이게 한다.
+  const vvNote = renderValuationVerdictNote(d.valuationVerdict);
+  if(vvNote) lines.push(vvNote);
   lines.push(`(참고: 가격 눌림목 점수 ${r.score}/5점 · ${esc(label)} - 52주 고점대비 하락·200일선·시장조정만 반영한 "가격 조정 정도" 지표로, 위 최종 판단의 근거 중 하나일 뿐 그 자체가 매수 결론은 아니에요)`);
   if(entryStat.kind==='new') lines.push('오늘 새로운 단기 매수 신호(눌림목)가 떴어요');
   else if(entryStat.kind==='cooldown') lines.push('며칠 전 떴던 단기 매수 신호가 아직 유효해요');
@@ -3407,6 +3420,24 @@ function auxiliaryEvidenceBadgeHtml(ev){
   return `<span class="val-badge" style="background:${bg};color:${color};font-weight:700;" title="${esc(title)}">${esc(label)}</span>`;
 }
 
+// 2026-09-20 5차 신설(Codex 독립검토) - computeValuationVerdict 결과를 목록 배지 툴팁·팝업·01
+// 판단 요약·한눈에 결론이 전부 같은 문구로 보여줄 수 있게 한 곳에서만 렌더링한다. 상대가치
+// 참고범위 안내(relValueSuffix)와 중복되지 않도록, 이 노트는 항상 "지금 확보된 평가 방법·값·
+// 근거"를 구체적으로 보여주는 역할이고(요청 3 - AMAT 종합 요약 연결), headlineReason의
+// relValueSuffix는 "그런 참고값이 있다"는 사실만 한 줄로 알리는 역할로 서로 보완한다.
+function renderValuationVerdictNote(vv){
+  if(!vv) return '';
+  const rangeStr = (vv.valueLow!=null && vv.valueHigh!=null)
+    ? `$${vv.valueLow.toFixed(0)}~$${vv.valueHigh.toFixed(0)}${vv.valueBase!=null?` (기준 $${vv.valueBase.toFixed(0)})`:''}`
+    : (vv.valueBase!=null ? `$${vv.valueBase.toFixed(0)}` : '-');
+  if(vv.status === 'independent_confirmed'){
+    return `<div class="sub" style="margin-top:6px;">📐 <b>가치평가(독립 모델)</b>: ${esc(vv.methodLabel)} ${rangeStr} · 현재가 대비 ${esc(vv.diffLabel)}${vv.asOf?` (기준일 ${esc(vv.asOf)})`:''}<br><span style="color:var(--sub);">${esc(vv.basis||'')} - 매수·매도 타이밍 신호가 아니라 조건부 참고값이에요, 상세 화면에서 가정을 꼭 확인하세요.</span></div>`;
+  }
+  if(vv.status === 'reference_only'){
+    return `<div class="sub" style="margin-top:6px;">📐 <b>가치평가(참고)</b>: ${esc(vv.methodLabel)} ${rangeStr} · 현재가 대비 ${esc(vv.diffLabel)}<br><span style="color:var(--sub);">독립 적정가는 아직 없고 동종기업 배수를 적용한 참고범위예요 - 매수구간이 아니에요.</span></div>`;
+  }
+  return `<div class="sub" style="margin-top:6px;color:var(--sub);">📐 <b>가치평가</b>: 아직 미확인이에요 - ${esc(vv.unconfirmedReason||'')}</div>`;
+}
 // 2026-09-11 추가(B4 - 상세 첫 화면) - 목록의 새 DecisionViewModel 배지(computeDecisionViewModel)를
 // 상세 01 판단 탭 맨 위에도 그대로 노출한다. 목록에서 본 상태·이유가 상세에 들어와서 다른 문장으로
 // 바뀌지 않게 하는 게 이 리뷰(Section B)의 핵심 요구사항 - "목록의 status, headlineReason을 그대로
@@ -3422,11 +3453,16 @@ function decisionSummaryHtml(r){
   const expNoteHtml = d.expectationsNote
     ? `<div class="sub" style="margin-top:6px;">참고: 역산 기대성장률 보조지표는 계산되지 않았어요 - ${esc(d.expectationsNote.reason)}</div>`
     : '';
+  // 2026-09-20 5차 추가(Codex 독립검토, 요청 1·3) - 독립 가치평가 상태를 목록 배지 툴팁과 같은
+  // headlineReason 아래에 항상 같은 문구로 덧붙인다. status가 'review'(기술적 매수 관심)일 때
+  // 특히 중요하다 - 기술적 신호 충족이 가치평가 확인을 뜻하지 않는다는 걸 같은 박스 안에서 보여줌.
+  const valuationNoteHtml = renderValuationVerdictNote(d.valuationVerdict);
   return `<div class="comment-box" style="background:${meta.bg};color:${meta.color};border:1px solid ${meta.color}33;margin-bottom:12px;">
     <div style="font-weight:700;margin-bottom:4px;"><span class="badge" style="background:${meta.color};color:#fff;">${meta.label}</span> <span style="font-weight:400;font-size:11px;color:var(--sub);">(가격·실적·현금흐름·데이터 상태를 종합한 판정 · policy v${d.policyVersion})</span></div>
     <div style="font-size:13.5px;line-height:1.7;">${esc(d.headlineReason)}</div>
     ${checksHtml}
     ${expNoteHtml}
+    ${valuationNoteHtml}
   </div>`;
 }
 function tabJudgement(r){
@@ -4982,13 +5018,93 @@ function computeDataHealth(dates, source, dropped, nowDate){
 // 문제): valuationUnstable의 판정 조건을 !fv.expectations(보조 지표 미산출 전체)에서
 // fv.expectationsUnavailable?.kind==='bounds_unstable'(실제 가격 경계값 오류)로 좁혔다 - 실제로
 // 판단이 바뀌는 종목이 있으므로 버전을 올린다.
-const DECISION_POLICY_VERSION = 3;
+// v4(2026-09-20, Codex 5차 독립검토 반영 - "원인 분리로는 부족, 실사용 기준가격까지 연결하라"
+// 지적): 1) 기술적 매수 관심(눌림목 점수)만으로 review가 되던 것을, 독립 가치평가 상태
+// (computeValuationVerdict)와 분리해 함께 표시하도록 review 분기의 headlineReason·reasonCodes를
+// 바꿨다(가격 타당성까지 확인된 것처럼 보이던 문제 수정). 2) bounds_unstable 문구를 "전체 자료
+// 오류"가 아니라 "이 계산 방식 하나의 적용 조건 이탈"로 명확히 했다. 실제 판단(review/wait 여부)
+// 자체는 안 바뀌지만 표시 의미가 바뀌므로 버전을 올린다.
+const DECISION_POLICY_VERSION = 4;
 const DECISION_STATUS_META = {
   unavailable: {label:'판단 보류', color:'#626b76', bg:'#eceff1'},
   risk_first:  {label:'위험 우선', color:'#b3261e', bg:'#fdecea'},
   wait:        {label:'조건 대기', color:'#8a6d00', bg:'#fff6db'},
   review:      {label:'매수 검토', color:'#0a6b45', bg:'#e6f4ec'},
 };
+// ============ 공통 가치평가(기준가격) 결과 형식 (2026-09-20 신설) ============
+// [배경] Codex 5차 독립검토 지적 - "expectations 객체 존재 여부를 모든 종목의 준비 상태로 삼지
+// 말고, 적용 방법·기준일·대상기간·기준값(또는 범위)·자료상태·근거·미확인 사유를 공통 결과로
+// 표현하라". INDEPENDENT_VALUATION_DATA(AMAT의 DCF 시나리오 엔진, LRCX/KLAC/ASML 등의 동종기업
+// 배수 참고범위)를 실제 계산 출력 그대로 읽어 세 가지 상태로 분류한다:
+//  - independent_confirmed: 시장가와 독립적으로 산출된 적정가(또는 시나리오 범위)가 있음(AMAT).
+//  - reference_only: 독립 적정가는 아직 없지만 동종기업 배수 참고범위는 있음(LRCX/KLAC/ASML 등) -
+//    이 범위는 매수구간이 아니라 참고용일 뿐이라는 점을 disclaimer로 항상 같이 낸다.
+//  - unconfirmed: 위 둘 다 없음(대다수 종목) - "현재 PER 유지 시나리오"(fv.fwd.mid)는 시장가에
+//    비례해 같이 움직이므로 독립 적정가의 대체값으로 쓰지 않는다(사용자 명시 요구 - 요청 4).
+// 이 결과는 목록 배지·팝업·01 판단 요약이 전부 같은 함수를 통해 공유한다.
+function computeValuationVerdict(ticker, price){
+  const iv = (typeof INDEPENDENT_VALUATION_DATA !== 'undefined') ? INDEPENDENT_VALUATION_DATA[ticker] : null;
+  const fmtPct = x => (x==null ? '-' : `${x>=0?'+':''}${x.toFixed(0)}%`);
+  if(!iv){
+    return {
+      status: 'unconfirmed', method: 'none', methodLabel: '독립 평가 모델 없음',
+      unconfirmedReason: '이 종목은 아직 독립 DCF·동종기업 배수 참고범위가 연결되지 않았어요(현재 PER 유지 시나리오는 시장가에 비례해 같이 움직이는 값이라 독립 적정가의 대체값으로 쓰지 않아요).',
+    };
+  }
+  const v = iv.valuation;
+  const rv = iv.relativeValueBand;
+  if(v){
+    let valueLow, valueBase, valueHigh, asOf, targetPeriod, curPrice, diffPct, basis;
+    if(v.kind === 'independent_value_dcf_scenario_engine' || v.kind === 'independent_value_dcf_single_engine'){
+      const sc = v.scenarios || {};
+      valueLow = sc.conservative ? sc.conservative.px : null;
+      valueBase = (v.px!=null) ? v.px : (sc.base ? sc.base.px : null);
+      valueHigh = sc.optimistic ? sc.optimistic.px : null;
+      asOf = v.asOf;
+      targetPeriod = v.valuationAnchorDate ? `평가 기준일 ${v.valuationAnchorDate} 기준 미래현금흐름 할인(DCF)` : null;
+      const sCard = v.summaryCard || {};
+      curPrice = (sCard.currentPrice!=null) ? sCard.currentPrice : price;
+      diffPct = (sCard.diffVsCurrentPricePct!=null) ? sCard.diffVsCurrentPricePct
+        : ((valueBase!=null && curPrice) ? (curPrice-valueBase)/valueBase*100 : null);
+      basis = sCard.judgmentReasonSummary || v.estimateStatusNote
+        || '가정이 다수 포함된 장기 내재가치 참고값 - 매수·매도 타이밍 신호로 단독 사용하지 않음';
+    } else {
+      valueLow = v.valueLow; valueBase = v.valueBase; valueHigh = v.valueHigh;
+      asOf = v.asOf; targetPeriod = v.horizon || null;
+      curPrice = (v.currentPrice!=null) ? v.currentPrice : price;
+      diffPct = (valueBase!=null && curPrice) ? (curPrice-valueBase)/valueBase*100 : null;
+      basis = v.validationStatus || '동종업계 배수·현금흐름 가정 기반 독립 산출값(수동 스냅샷)';
+    }
+    return {
+      status: 'independent_confirmed',
+      method: v.kind, methodLabel: (v.kind||'').indexOf('dcf')>=0 ? 'DCF 시나리오 엔진(조건부 장기 내재가치)' : '독립 적정가 모델',
+      asOf, targetPeriod, valueLow, valueBase, valueHigh,
+      currentPrice: curPrice, diffPct, diffLabel: fmtPct(diffPct),
+      dataStatus: v.isReplayFixture ? '재현용 고정 스냅샷' : `실행 ID ${v.runId||'-'}`,
+      basis, hasRelativeRef: !!(rv && rv.available),
+    };
+  }
+  if(rv && rv.available){
+    const diffPct = (rv.comparisonPrice!=null && rv.rangeMid!=null) ? (rv.comparisonPrice-rv.rangeMid)/rv.rangeMid*100 : null;
+    return {
+      status: 'reference_only',
+      method: 'peer_multiple_reference_range', methodLabel: '동종기업 배수 참고범위',
+      asOf: rv.asOfDate, targetPeriod: null,
+      valueLow: rv.rangeLow, valueBase: rv.rangeMid, valueHigh: rv.rangeHigh,
+      currentPrice: rv.comparisonPrice, diffPct, diffLabel: fmtPct(diffPct),
+      bandStatus: rv.bandStatus,
+      dataStatus: rv.isStaleReference ? '과거 참고값(노후)' : '최근 스냅샷',
+      basis: rv.bandDisclaimer || '동종업계가 지금 받는 배수를 그대로 적용한 참고범위 - 검증된 매수구간이 아님',
+      hasRelativeRef: true,
+    };
+  }
+  return {
+    status: 'unconfirmed', method: 'none', methodLabel: '독립 평가 모델 없음',
+    unconfirmedReason: (rv && rv.withheldReason)
+      ? `상대가치 참고범위 산출도 보류됐어요 - ${rv.withheldReason}`
+      : '이 종목은 아직 독립 DCF·동종기업 배수 참고범위가 연결되지 않았어요(현재 PER 유지 시나리오는 시장가에 비례해 같이 움직이는 값이라 독립 적정가의 대체값으로 쓰지 않아요).',
+  };
+}
 function computeDecisionViewModel(r){
   const reasonCodes = [];
   const nextChecks = [];
@@ -5034,13 +5150,16 @@ function computeDecisionViewModel(r){
 
   // 2026-09-20 추가(Codex 독립검토 - AMAT·KLAC 사례) - 컨센서스 EPS 기반 가격모델이 없거나
   // (priceModelMissing) 역산 경계값 자체가 무너져도(valuationUnstable) 별도의 동종기업 배수
-  // 참고범위(상대가치)가 있을 수 있다. "전면 계산 불가"처럼 보이지 않게 그 존재만 짧게 알려준다
-  // (매수 신호로 승격하지 않음 - 상세 화면의 참고범위 카드가 이미 그 사실을 명확히 표시함).
-  const ivRef = (typeof INDEPENDENT_VALUATION_DATA !== 'undefined') ? INDEPENDENT_VALUATION_DATA[r.ticker] : null;
-  const hasRelValueRef = !!(ivRef && ivRef.relativeValueBand && ivRef.relativeValueBand.available);
-  const relValueSuffix = hasRelValueRef
-    ? ' (다만 동종업계 상대가치 참고범위는 있어요 - 상세 화면에서 확인 가능, 매수구간은 아니에요)'
-    : '';
+  // 참고범위(상대가치)나 독립 DCF가 있을 수 있다. "전면 계산 불가"처럼 보이지 않게 그 존재만
+  // 짧게 알려준다(매수 신호로 승격하지 않음 - 상세 화면의 참고범위·DCF 카드가 이미 그 사실을
+  // 명확히 표시함). 5차 수정으로 이 판정을 computeValuationVerdict로 통일했다(AMAT은 DCF까지
+  // 있으므로 이제 'independent_confirmed'까지 구분해서 알려준다).
+  const valuationVerdict = computeValuationVerdict(r.ticker, r.price);
+  const relValueSuffix = (valuationVerdict.status === 'independent_confirmed')
+    ? ` (다만 독립 평가 모델(${esc(valuationVerdict.methodLabel)}) 참고값은 있어요 - 상세 화면에서 확인 가능, 매수구간은 아니에요)`
+    : (valuationVerdict.status === 'reference_only')
+      ? ' (다만 동종업계 상대가치 참고범위는 있어요 - 상세 화면에서 확인 가능, 매수구간은 아니에요)'
+      : '';
 
   if(priceModelMissing){
     status = 'unavailable';
@@ -5050,7 +5169,10 @@ function computeDecisionViewModel(r){
   } else if(valuationUnstable){
     status = 'unavailable';
     reasonCodes.push('price_model_unstable');
-    headlineReason = '역산한 가격 판단 기준이 음수이거나 현재가의 여러 배로 벌어져 있어(계산상 불안정) 저평가/고평가 판단을 보류했어요' + relValueSuffix;
+    // 2026-09-20 5차 수정(Codex 독립검토) - "진짜 데이터 오류"로 읽히지 않도록, 이 상태가
+    // '역산 기대성장률' 방식 하나의 적용 조건 이탈이라는 점을 헤드라인에서도 명시한다(원자료나
+    // 다른 평가 방법까지 오류라는 뜻이 아님 - fv.expectationsUnavailable.scopeNote와 동일 취지).
+    headlineReason = '역산 기대성장률(PER·성장률 역산) 방식의 가격 경계가 이 종목에는 적용되지 않는 상태예요(이 방식만 적용 불가 - 원자료나 다른 평가 방법의 오류가 아니에요)' + relValueSuffix;
     nextChecks.push('다음 분기 EPS 컨센서스 확정 후 밸류에이션 경계 재계산');
   } else if(financialDataMissing){
     status = 'unavailable';
@@ -5097,9 +5219,25 @@ function computeDecisionViewModel(r){
       }
       nextChecks.push('가격 데이터 소스·최신 거래일 재확인');
     } else if(verdictSuggestsBuy){
+      // 2026-09-20 5차 수정(Codex 독립검토 - "기술적 매수 관심과 가치평가 상태를 분리하라" 지적) -
+      // 이전엔 가격 눌림목 조건(기술적 신호)만 충족하면 headlineReason이 "매수 검토 가능"처럼
+      // 읽혀서, 독립적인 기업 가치평가(적정가)까지 확인된 것으로 오해할 수 있었다. 실제로는
+      // 대다수 종목이 독립 DCF·상대가치 참고범위가 아직 없다(computeValuationVerdict가
+      // 'unconfirmed'). status는 그대로 'review'(가격 눌림목 조건은 실제로 충족됐으므로)로 두되,
+      // reasonCodes와 headlineReason에서 "기술적 신호 충족"과 "가치평가 확인 여부"를 항상 분리해서
+      // 보여준다 - 가치평가가 독립적으로 확인된 종목(AMAT급)에서만 그 사실을 함께 알린다.
       status = 'review';
       reasonCodes.push('buy_conditions_met');
-      headlineReason = `가격 눌림목 조건(${esc(r.verdict.label)})을 충족했고, 최근 실적 방향(${esc(fd.verdict)})도 확인됐어요`;
+      if(valuationVerdict.status === 'independent_confirmed'){
+        reasonCodes.push('valuation_independent_confirmed');
+        headlineReason = `기술적 매수 관심(가격 눌림목 조건 ${esc(r.verdict.label)} 충족, 실적 방향 ${esc(fd.verdict)})이 발생했고, 독립 평가 모델(${esc(valuationVerdict.methodLabel)}) 기준으로 현재가가 기준값 대비 ${esc(valuationVerdict.diffLabel)} 위치예요(그 값 자체가 매수 신호는 아니에요 - 상세 화면에서 가정을 꼭 확인하세요).`;
+      } else if(valuationVerdict.status === 'reference_only'){
+        reasonCodes.push('valuation_reference_only');
+        headlineReason = `기술적 매수 관심(가격 눌림목 조건 ${esc(r.verdict.label)} 충족, 실적 방향 ${esc(fd.verdict)})이 발생했어요. 다만 독립 적정가는 아직 없고 동종기업 배수 참고범위만 있어요(가치평가 미확인 - 상세 화면 참고, 매수 신호로 보지 마세요).`;
+      } else {
+        reasonCodes.push('valuation_unconfirmed');
+        headlineReason = `기술적 매수 관심(가격 눌림목 조건 ${esc(r.verdict.label)} 충족, 실적 방향 ${esc(fd.verdict)})이 발생했어요. 이건 가격·기술적 신호일 뿐이며, 이 종목의 독립적인 가격 타당성(적정가)은 아직 확인되지 않았어요.`;
+      }
     } else {
       status = 'wait';
       reasonCodes.push('buy_conditions_not_met');
@@ -5114,6 +5252,10 @@ function computeDecisionViewModel(r){
     // 2026-09-20 추가(Codex 독립검토) - 보조 지표(역산 기대성장률)가 왜 없는지를 목록·팝업·상세가
     // 전부 같은 값으로 참고할 수 있게 내보낸다. 판단(status)을 막지는 않는다(위 참고).
     expectationsNote,
+    // 2026-09-20 5차 추가(Codex 독립검토) - 독립 가치평가(DCF·상대가치) 상태를 목록·팝업·상세가
+    // 전부 같은 값으로 참고할 수 있게 내보낸다. 기술적 신호(review/wait)와 무관하게 항상 계산돼
+    // 있어, "review인데 가치평가는 왜 안 보이지"같은 불일치가 생기지 않는다.
+    valuationVerdict,
   };
 }
 function decisionStatusBadgeHtml(r){
