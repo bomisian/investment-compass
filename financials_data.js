@@ -5407,16 +5407,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1789911006.1023219,
-    "_updated_label": "2026-09-20 22:30"
+    "_fetched_at": 1789912143.1019433,
+    "_updated_label": "2026-09-20 22:49"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1789911006.1023219,
-    "_updated_label": "2026-09-20 22:30"
+    "_fetched_at": 1789912143.1019433,
+    "_updated_label": "2026-09-20 22:49"
   },
   "ORCL": {
     "annual": [
@@ -8070,9 +8070,9 @@ const FINANCIALS_DATA = {
         "netIncome": 2917600000.0,
         "opIncome": 3456100000.0,
         "eps": 7.58,
-        "ocf": null,
-        "capex": null,
-        "fcf": null,
+        "ocf": 1703000000.0,
+        "capex": -299400000.0,
+        "fcf": 1403600000.0,
         "pretaxIncome": 3486100000.0,
         "taxProvision": 609600000.0,
         "normalizedIncome": 2917600000.0,
@@ -8083,7 +8083,8 @@ const FINANCIALS_DATA = {
         "otherNonOperating": null,
         "impairment": null,
         "restructuring": null,
-        "stockComp": null
+        "stockComp": null,
+        "_fcfIsProxy": true
       }
     ],
     "_currency": "EUR",
@@ -8117,7 +8118,7 @@ const FINANCIALS_DATA = {
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
     "_yahoo_verified_at": 1789890121.8714051,
-    "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
+    "_cashflow_source": "ASML 공식 IR 자료 수동 확인(2026-09-20) - Yahoo Finance fundamentals-timeseries가 Q2'26 현금흐름을 아직 못 채워서(수집 누락 확인, 회사는 분기 단독 자료를 정상 공시함), ASML 2026-07-15 발표 Financial-statements-US-GAAP-Q2-2026.pdf(Three months ended Jun 28, 2026)에서 OCF/CapEx를 직접 대조해 채움. FCF는 회사 미공시로 OCF-|CapEx| 자체 계산(_fcfIsProxy=True)."
   },
   "LRCX": {
     "annual": [

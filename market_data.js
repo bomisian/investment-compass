@@ -237,6 +237,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Palestinian gunman shoots dead Israeli in the West Bank, soldiers kill motorist - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVE03eUJ3dTJkVEpVNXZXT3dXZVVBT2Nzel9PSVVRSHBSOTEyRDB1UmxGcUlyTDR2WHo2MjdoZGp0Z1ozOU9RSEdLQTZqNWw0R1VyanNvY1NEWFlVeEgwT00zcWtDTUMzU3Rud25ZbDlrMDdPakJIWnItVjNGWWR5b1ZIRTR5WjRoMlIyWDg5dmhiYnlRVzctR3VNNXQzQWZaVGZiNTBKTk9pNkJmMGF2Y2M4Nk5wTGZDRG9IV1ZsWTdvREE?oc=5",
+      "datetime": 1789906868,
+      "headlineKo": "팔레스타인 총격범, 서안 지구에서 이스라엘인 사살, 군인 사살 - 로이터 통신"
+    },
+    {
+      "headline": "Iran seals French language centre in Tehran, accuses it of illegal activities - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaXN4WDAwcUZkX2E4emIyUUMyczNhNldiSVlQcENLSDVrSng0SVl6bjBrSU9QRDJHbE5HSHBWeVZvX0J2RjlUQm1WclN4UnBmTmFoM29sZzNaa19uT1pUMjZuTndiT1hWXzBnQlZKalpCZGZQd2ZnOXo2cWlJZ05yT21vbUx4QXRIY2haTW5NQjhRcFJIeG5TSi10aGdOUkRxdHBCZDFXYUMyTlRNWF9UUW91NDJiRlp4ckpHSUpRVGxidw?oc=5",
+      "datetime": 1789906134,
+      "headlineKo": "이란, 테헤란 프랑스어 센터 폐쇄, 불법 활동 혐의로 비난 - 로이터 통신"
+    },
+    {
       "headline": "Budget airline king Bill Franke warms to first-class seats and premium upgrades",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/20/bill-franke-frontier-spirit-budget-airlines.html",
@@ -244,18 +258,18 @@ const MARKET_DATA = {
       "headlineKo": "저가 항공사의 왕 빌 프랭케(Bill Franke)가 일등석 좌석과 프리미엄 업그레이드를 환영합니다."
     },
     {
-      "headline": "World leaders return to UN amid wars in Middle East and Ukraine - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN3lDRHRlTWN1YnNJaGtha3IwWGxCV0w1QlVNNWpGQ2habE9mTUJpN2tqT2RvRkJqai15TGVhTTRnbmNCX1o5a2NGaXRVWXpnYXF6SlFodGJLYmZDUjNrVmR3ZXgxQ1hua1c3ZnFfeGE3S1ZGb0REWV9DWWRQNFFEazBWSjVPb1VzMExOYWVKOTJ3SlZaRlRyZWkwVHNOQVpxY3J3?oc=5",
-      "datetime": 1789898651,
-      "headlineKo": "중동과 우크라이나 전쟁 속에서 세계 지도자들이 유엔으로 복귀 - 로이터"
-    },
-    {
       "headline": "Saudi, Gulf stocks fall after Houthis claim Riyadh attacks - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZnFXQ1lvNTg5TnJvazhfY3VXa0hrVms4RW1mdVBpR0k4QXZkempjX0h4Y2JIaGNvSm04YVJkTHRDTWpESVFDakhJMExiNGZSSktLcVFsM3VlM3ZibDQwVlE3czF4OEdLdXdnU0FPaUN1aHFLVWN3cW9uVHRTTDdDU1BNaUNMd3NQMlY5VGZPYzA5ODlMQi1rcWVDXzhFZHJWUF9tQjJqUUtzQW1yc0tYNw?oc=5",
       "datetime": 1789891903,
       "headlineKo": "사우디와 걸프 주가는 후티 반군의 리야드 공격 주장 이후 하락 - 로이터"
+    },
+    {
+      "headline": "World leaders return to UN amid wars in Middle East and Ukraine - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN3lDRHRlTWN1YnNJaGtha3IwWGxCV0w1QlVNNWpGQ2habE9mTUJpN2tqT2RvRkJqai15TGVhTTRnbmNCX1o5a2NGaXRVWXpnYXF6SlFodGJLYmZDUjNrVmR3ZXgxQ1hua1c3ZnFfeGE3S1ZGb0REWV9DWWRQNFFEazBWSjVPb1VzMExOYWVKOTJ3SlZaRlRyZWkwVHNOQVpxY3J3?oc=5",
+      "datetime": 1789880700,
+      "headlineKo": "중동과 우크라이나 전쟁 속에서 세계 지도자들이 유엔으로 복귀 - 로이터"
     },
     {
       "headline": "Turkey says it could help meet Saudi military needs under defence pact - Reuters",
@@ -293,42 +307,28 @@ const MARKET_DATA = {
       "headlineKo": "이란, 이스라엘 모사드 간첩 혐의로 유죄판결 받은 남성 처형"
     },
     {
+      "headline": "Luxembourg launches investigation after drones temporarily suspend flight operations - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeFNHRl9fQkZGUUphN2c1MERZQVdWTFppVTExdU5lQlN6NGdTRTRuZ3U5a0U5T1kyd1VtUUY3OE8teFhSVGZzdnpPY3JDZXM1MXNmTm12bWV4SGstZ0piOVZ5RlJDOEJaRHV6YTA1MTV4UlVnTy1uUWpkZEk2S2U4Sm1NNVFxbmtsOVhra2ZzcVRxUkg1QmN2enJDTy04dEFZRWR2VXd6YW5jbGxVX3Y4WnRtdWx0bWZuV3pJNQ?oc=5",
+      "datetime": 1789781520,
+      "headlineKo": "룩셈부르크, 드론이 비행 운항을 일시적으로 중단한 후 조사 개시 - Reuters"
+    },
+    {
       "headline": "Flames, smoke seen near Riyadh airport; Houthis claim attacks on Saudi capital - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYWNnM0NScnlDOXNDY25xQjhZVlRHUUtMOEV3YVZSOW5xekdVelcycGI1VHl3dWpqVGhNM2s1N05NamZxV0hoNVBFN204OHM5dVlQemMySkJGMlpCaURybUY4TVZfd0RDUUxzb3RTeWJVVEI4blFQZFhJekptSHRFUVdqb1pDai1VQ1hPS1JHWk92MEpZYWtESDduUmpwUEg4Nzc4bFp3VDQzM2JMTnRZXzgzbVBvUDk0clU4a3dHMlhuQk0?oc=5",
       "datetime": 1789778520,
       "headlineKo": "리야드 공항 근처에서 화염과 연기가 보입니다. 후티 반군, 사우디 수도에 대한 공격 주장 - 로이터"
-    },
-    {
-      "headline": "Foreign hackers targeted Colorado water systems in August, governor's office says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVnpGSlU3elVMYlloWFFkVUM0YWRtMnl6MDRWaXVRcDQxZDl6Nm9HVW9oSXVsYTBCNTYyUlEyYVV2eW5maHhtMmc1YmRvVnY5MS1MWFo0dFZJRHplLS12azk4TktNUEdITktGeE1HeWhBa3JXTmZ4bzI0Ym9GcW9DeTZ5cEZQajB1a3U4ODVrNHZlRDFOczc2NllYTzc1aUVkampNNk54ZjhOTFNmQ08yVEpza0o0V285bjZOVzRCbXlVeVNXeko3NA?oc=5",
-      "datetime": 1789777260,
-      "headlineKo": "주지사 사무실은 지난 8월 외국 해커들이 콜로라도 수자원 시스템을 공격했다고 밝혔습니다 - Reuters"
-    },
-    {
-      "headline": "S&P 500, Nasdaq advance, turning the page on a tumultuous week - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ2p6dkpCd0xfbVRBMnhySFRVbm5OSElMZXRXc0NpaGhoRmw2MzNfSUstaC1RVFFnUU1DNUM0MEpHTmxhbHJxOC1Ec2lMWU0xMFVaSVdsZGdVSi1JaWpDX093SHhBdlBkdFdGZnFpd05yYW9LRXk2NkdOMnRWSzJ2dkhuTFpDN01LM1JvNjhyamFZM2dLRFRzM24xSUZwRGVBakhwM3N3em1ycFBuWVg2UVB2OTQ?oc=5",
-      "datetime": 1789773024,
-      "headlineKo": "S&P 500, 나스닥 상승, 소란스러운 한 주에 페이지 넘기기 - 로이터"
-    },
-    {
-      "headline": "Trump signs Russia sanctions bill into law - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMWZ3NVV2eHJuOEVQcDhZX3BVSnh2aWxQcE0wWERtWGc3MG9ZS3VmN1lqemJPNS1NbE1pU3RDTlR5TUIteF9hMVdNY2NITDU2N3lva3hWelYydUQ1Nm9xWUZZUHN3R29QeXR3VzhIdFNyOXJ6T1FLNlNEU3JIbUx3Q1ZCVWxHdnI4ZmhJVjFfd0s?oc=5",
-      "datetime": 1789770053,
-      "headlineKo": "트럼프, 러시아 제재 법안 서명 서명 - 로이터"
     }
   ],
   "fgi": {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789908853.562591,
-  "_updated_label": "2026-09-20 21:54",
-  "_last_attempt_at": 1789908853.562591,
-  "_last_success_at": 1789908853.562591,
+  "_fetched_at": 1789912166.4106982,
+  "_updated_label": "2026-09-20 22:50",
+  "_last_attempt_at": 1789912166.4106982,
+  "_last_success_at": 1789912166.4106982,
   "_collection_status": "ok",
   "_collection_errors": []
 };

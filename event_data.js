@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789911006.7742198,
+  "generatedAt": 1789912166.23865,
   "events": [
     {
       "id": "8c729dd25dfd9605f0c9",
@@ -11650,7 +11650,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526395593/d154803d424b3.htm",
         "publishedAt": 1789657200.0,
-        "collectedAt": 1789890147.030608
+        "collectedAt": 1789912143.3388991
       },
       "confirmedFacts": [
         "AVGO가 2026-09-18에 SEC Form 424B3을 제출했습니다.",
@@ -11714,7 +11714,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000135/arm-20260918.htm",
         "publishedAt": 1789657200.0,
-        "collectedAt": 1789890147.030608
+        "collectedAt": 1789912143.3388991
       },
       "confirmedFacts": [
         "ARM가 2026-09-18에 SEC Form 6-K을 제출했습니다."
