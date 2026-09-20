@@ -286,11 +286,11 @@ const MARKET_DATA = {
       "headlineKo": "유럽연합(EU) 집행위원, 이스라엘 장관과 가자 지구의 EU-이스라엘 관계 논의 - reuters.com"
     },
     {
-      "headline": "North Korea fires two ballistic missiles off east coast in three hours - reuters.com",
+      "headline": "North Korea fires two ballistic missiles off east coast in three hours - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTDFuRjFrR3lVU05OakZFWFlOdWFSTGsyelUxZmZrMkZvamthRHNRVkx0ZG95NnRIdXlWUFVhX2pfaUo2M1haY1B5RXNzVjJTRDZ3bXN6MUpYWUxiZThYbE9FWHBUemMtbC1SMHRQeWdBdC00YmxUWEZkXzljNm9PTnBCNS14WGFUOUFQRVZEN25feWZLNkRmcFN4M0pyM3pBZDF2cktnVGF6OXM?oc=5",
       "datetime": 1789885080,
-      "headlineKo": "북한, 3시간 만에 동해상에서 탄도미사일 2발 발사 - reuters.com"
+      "headlineKo": "북한, 3시간 만에 동해상으로 탄도미사일 2발 발사 - 로이터"
     },
     {
       "headline": "World leaders return to UN amid wars in Middle East and Ukraine - reuters.com",
@@ -307,28 +307,28 @@ const MARKET_DATA = {
       "headlineKo": "터키는 국방 협정에 따라 사우디의 군사적 필요를 충족시키는 데 도움이 될 수 있다고 말했습니다 - reuters.com"
     },
     {
+      "headline": "Israeli strikes kill three people in Gaza, medics say - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOemgwbjZHUGxzMHdPUWJTOFhfS1lfVXFyUEdEcDM4WXM1Z1VSb3ZIdHI4cmpveHUxM1ZFb2RsVnVMcXlaS3BNNmdzMnRGNXNaT1VZMkcyY19vUnBHT2pGSkhyVDRqQmpvS0Z4dndGN2VSVEtySkN4MmM2SUJOZFc0T1h5ZXhaQ2sxdUVheGxrd0oySE9HcjVOMTFwZE1lVEVvQm1ud2xB?oc=5",
+      "datetime": 1789829040,
+      "headlineKo": "이스라엘군의 공습으로 가자지구에서 3명이 사망했다고 의료진이 밝혔습니다 - reuters.com"
+    },
+    {
       "headline": "Flames, black smoke seen near Riyadh airport, eyewitness says - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVhEVEhONEZLVTN1Q0NyUzZwOXdIS3JLY0VVMVhabU40LV96QjY3d3A5M3NNTElCTy1SdzFFSVIyOEhxWW1OMUxKM1hHUFc0UDNnaXpLRlBPR2VhZkdsWVktOWtCSWxTUWhYV1FFcnN6c3A1WVVoc192OWNJSWhJQnc0U1QwZ1ZtRXd2a0hlNkJJMVVrckJpSXFlZzJDNVhUTVI5RWtGcVd6SW01UHNEWk9lMA?oc=5",
       "datetime": 1789816871,
       "headlineKo": "목격자에 따르면 리야드 공항 근처에서 화염과 검은 연기가 보였다 - reuters.com"
-    },
-    {
-      "headline": "Poland concludes air operation with no airspace violations recorded - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbEJIeGFNMGRJYVQzR3hPZWNpZXAwQ1B0RGhYVlhkUm9BSmVmR1FJQ3QxSWcxNkUtU2RaOTk0VWVMVUUxeklsQ19Tbmk4Y0tqYUpNTnNLdHl0NlB1QWhoYVVZUnczWVFTOUY1T0FxRGxqN2hVNVRlMmFpRFFjV2ZWcW1OS0pmQWtvdlRiTjBwa05ZOFRyMTZBNzk3a2R2RURBWHJleElrZU1wOUVoNzVRTllSRHA2OFE3LUE?oc=5",
-      "datetime": 1789806984,
-      "headlineKo": "폴란드, 공역 위반 기록 없이 항공 작전 종료 - reuters.com"
     }
   ],
   "fgi": {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789919535.8997283,
-  "_updated_label": "2026-09-21 00:52",
-  "_last_attempt_at": 1789919535.8997283,
-  "_last_success_at": 1789919535.8997283,
+  "_fetched_at": 1789923230.4306936,
+  "_updated_label": "2026-09-21 01:54",
+  "_last_attempt_at": 1789923230.4306936,
+  "_last_success_at": 1789923230.4306936,
   "_collection_status": "ok",
   "_collection_errors": []
 };
