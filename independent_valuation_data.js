@@ -138,7 +138,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-21T07:08:25.722122",
+      "generatedAt": "2026-09-21T07:33:19.173942",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -913,7 +913,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-21T07:08:25.902031",
+      "generatedAt": "2026-09-21T07:33:19.354368",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -963,7 +963,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-21T07:08:26.072600",
+      "generatedAt": "2026-09-21T07:33:19.528136",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -991,7 +991,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "neverSucceeded": true,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "대상종목 비교가격 자료상태 문제: 통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
-      "withheldCheckedAt": "2026-09-21T07:08:26.243160"
+      "withheldCheckedAt": "2026-09-21T07:33:19.699421"
     }
   },
   "STX": {
@@ -1002,7 +1002,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "neverSucceeded": true,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(780.8500341880879)<=band_low(780.8500341880879) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-21T07:08:26.396060"
+      "withheldCheckedAt": "2026-09-21T07:33:19.853046"
     }
   },
   "WDC": {
@@ -1013,7 +1013,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "neverSucceeded": true,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(485.41399183817754)<=band_low(485.41399183817754) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-21T07:08:26.475077"
+      "withheldCheckedAt": "2026-09-21T07:33:19.931819"
     }
   },
   "SNDK": {
@@ -1024,7 +1024,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "neverSucceeded": true,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "선정 기준을 통과한 동종업계 배수가 하나도 없음 -- 밴드 산출 보류(0으로 채우지 않음)",
-      "withheldCheckedAt": "2026-09-21T07:08:26.560102"
+      "withheldCheckedAt": "2026-09-21T07:33:20.010949"
     }
   },
   "PWR": {
@@ -1053,7 +1053,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-21T07:08:26.603779",
+      "generatedAt": "2026-09-21T07:33:20.051630",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -1099,7 +1099,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-21T07:08:26.733319",
+      "generatedAt": "2026-09-21T07:33:20.185335",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -1145,7 +1145,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-21T07:08:26.861381",
+      "generatedAt": "2026-09-21T07:33:20.316224",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
