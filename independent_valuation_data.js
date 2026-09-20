@@ -138,8 +138,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
       "generatedAt": "2026-09-20T17:12:38.074978",
       "asOfDate": "2026-09-20",
-      "lastCheckStatus": "OK",
-      "lastCheckNote": null,
+      "lastCheckStatus": "SKIPPED_RATE_LIMIT",
+      "lastCheckNote": "직전 기록(2026-09-20T17:12:38.074978) 이후 36.7초밖에 지나지 않아(60초 미만) 이번 실행은 건너뜀 -- 반복 호출로 이력이 무한정 불어나는 것을 막기 위한 안전장치. 스냅샷/화면은 변경하지 않음.",
       "priceAgeDaysAtBuild": 2,
       "snapshotAgeDaysAtBuild": 0,
       "priceDateClass": "ok",
@@ -147,8 +147,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "priceStaleAfterDays": 7,
       "snapshotStaleAfterDays": 3,
       "builtAt": "2026-09-20",
-      "isStaleReference": false,
-      "staleReferenceNote": null
+      "isStaleReference": true,
+      "staleReferenceNote": "화면에 보이는 참고범위·비교가격은 실시간이 아니라 과거 참고값입니다 -- 가장 최근 시도(SKIPPED_RATE_LIMIT)가 새 판단을 만들지 못했습니다(사유: 직전 기록(2026-09-20T17:12:38.074978) 이후 36.7초밖에 지나지 않아(60초 미만) 이번 실행은 건너뜀 -- 반복 호출로 이력이 무한정 불어나는 것을 막기 위한 안전장치. 스냅샷/화면은 변경하지 않음.)."
     },
     "valuation": {
       "kind": "independent_value_dcf_scenario_engine",
