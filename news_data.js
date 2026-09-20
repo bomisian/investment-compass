@@ -1197,7 +1197,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "SPY": {
@@ -2845,7 +2845,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "MSFT": {
@@ -5140,7 +5140,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "GOOGL": {
@@ -7753,7 +7753,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "AMZN": {
@@ -10446,7 +10446,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "META": {
@@ -13068,7 +13068,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "AAPL": {
@@ -15721,7 +15721,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "TSLA": {
@@ -15856,7 +15856,61 @@ const NEWS_DATA = {
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Cathie Wood는 2026년에 다른 모든 뛰어난 세븐 이름보다 주가가 뒤처졌음에도 불구하고 Tesla에서 Ark의 핵심 지분을 결코 매각하지 않았습니다. 그녀의 다년간의 확신이 흔들리지 않은 이유는 다음과 같습니다."
+        "headlineKo": "Cathie Wood는 2026년에 다른 모든 뛰어난 세븐 이름보다 주가가 뒤처졌음에도 불구하고 Tesla에서 Ark의 핵심 지분을 결코 매각하지 않았습니다. 그녀의 다년간의 확신이 흔들리지 않은 이유는 다음과 같습니다.",
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Cathie Wood Never Sold Ark's Core Stake in Tesla Despite the Stock Trailing Every Other Magnificent Seven Name in 2026.",
+            "Here's Why Her Multi-Year Conviction Hasn't Wavered.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool It has been a roller-coaster ride for Tesla ( TSLA -0.53% ) stock in recent years."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $400, $100, $250 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "TSLA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "TSLA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "TSLA에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$400",
+            "$100",
+            "$250",
+            "$350",
+            "$1.1 trillion",
+            "$1 billion",
+            "$4,600",
+            "$3,000"
+          ],
+          "sourceExcerpt": [
+            "Cathie Wood Never Sold Ark's Core Stake in Tesla Despite the Stock Trailing Every Other Magnificent Seven Name in 2026.",
+            "Here's Why Her Multi-Year Conviction Hasn't Wavered.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool It has been a roller-coaster ride for Tesla ( TSLA -0.53% ) stock in recent years."
+          ],
+          "analysisUpdatedAt": 1789888315.398713
+        }
       },
       {
         "headline": "Tesla Killed Its Solar Roof. Now Elon Musk Wants 100 GW of Solar",
@@ -15998,9 +16052,9 @@ const NEWS_DATA = {
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Cathie Wood는 2026년에 다른 모든 Magnificent Seven 이름보다 주가가 뒤처졌음에도 불구하고 Tesla의 Ark의 핵심 지분을 결코 매각하지 않았습니다.",
-            "그녀의 다년간의 확신이 흔들리지 않은 이유는 다음과 같습니다.",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 최근 몇 년간 Tesla(TSLA -0.53%) 주식은 롤러코스터를 타고 있었습니다."
+            "Cathie Wood Never Sold Ark's Core Stake in Tesla Despite the Stock Trailing Every Other Magnificent Seven Name in 2026.",
+            "Here's Why Her Multi-Year Conviction Hasn't Wavered.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool It has been a roller-coaster ride for Tesla ( TSLA -0.53% ) stock in recent years."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
@@ -16042,7 +16096,7 @@ const NEWS_DATA = {
             "Here's Why Her Multi-Year Conviction Hasn't Wavered.",
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool It has been a roller-coaster ride for Tesla ( TSLA -0.53% ) stock in recent years."
           ],
-          "analysisUpdatedAt": 1789862485.0186832
+          "analysisUpdatedAt": 1789888315.398713
         }
       },
       {
@@ -18514,9 +18568,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 67,
-      "removed": 1,
-      "updated": "2026-09-20 15:51"
+      "checked": 66,
+      "removed": 0,
+      "updated": "2026-09-20 16:11"
     }
   },
   "ORCL": {
@@ -21176,7 +21230,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "CRM": {
@@ -23600,7 +23654,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "PLTR": {
@@ -26042,7 +26096,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "NVDA": {
@@ -29301,7 +29355,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "AMD": {
@@ -31485,7 +31539,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "AVGO": {
@@ -33414,7 +33468,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "QCOM": {
@@ -34921,7 +34975,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "ARM": {
@@ -36257,7 +36311,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "MRVL": {
@@ -37847,7 +37901,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "INTC": {
@@ -40435,7 +40489,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "TSM": {
@@ -41796,7 +41850,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "ASML": {
@@ -43167,7 +43221,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "AMAT": {
@@ -44544,7 +44598,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "LRCX": {
@@ -45302,7 +45356,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "KLAC": {
@@ -46095,7 +46149,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "MU": {
@@ -48762,7 +48816,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "SNDK": {
@@ -50340,7 +50394,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "WDC": {
@@ -51328,7 +51382,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "ANET": {
@@ -52404,7 +52458,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "COHR": {
@@ -53707,7 +53761,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "LITE": {
@@ -54551,7 +54605,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 19,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "GEV": {
@@ -56242,7 +56296,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "CEG": {
@@ -57201,7 +57255,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "VST": {
@@ -57952,7 +58006,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "ETN": {
@@ -58879,7 +58933,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "PWR": {
@@ -59888,7 +59942,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "HUBB": {
@@ -60434,7 +60488,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "VRT": {
@@ -61203,7 +61257,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "MOD": {
@@ -61758,7 +61812,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "STX": {
@@ -62762,7 +62816,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "EME": {
@@ -63380,7 +63434,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "FIX": {
@@ -63969,7 +64023,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   },
   "BE": {
@@ -64804,7 +64858,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-20 15:51"
+      "updated": "2026-09-20 16:11"
     }
   }
 };

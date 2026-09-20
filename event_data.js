@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789887074.1350865,
+  "generatedAt": 1789888318.9294062,
   "events": [
     {
       "id": "828aec65cea04bb87063",
@@ -598,9 +598,9 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Cathie Wood는 2026년에 다른 모든 Magnificent Seven 이름보다 주가가 뒤처졌음에도 불구하고 Tesla의 Ark의 핵심 지분을 결코 매각하지 않았습니다.",
-        "그녀의 다년간의 확신이 흔들리지 않은 이유는 다음과 같습니다.",
-        "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 최근 몇 년간 Tesla(TSLA -0.53%) 주식은 롤러코스터를 타고 있었습니다."
+        "Cathie Wood Never Sold Ark's Core Stake in Tesla Despite the Stock Trailing Every Other Magnificent Seven Name in 2026.",
+        "Here's Why Her Multi-Year Conviction Hasn't Wavered.",
+        "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool It has been a roller-coaster ride for Tesla ( TSLA -0.53% ) stock in recent years."
       ],
       "marketInterpretation": [
         "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
