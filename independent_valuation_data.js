@@ -138,10 +138,10 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-20T20:16:17.858283",
+      "generatedAt": "2026-09-20T20:28:01.900872",
       "asOfDate": "2026-09-20",
-      "lastCheckStatus": "SKIPPED_RATE_LIMIT",
-      "lastCheckNote": "직전 기록(2026-09-20T20:16:17.858283) 이후 39.5초밖에 지나지 않아(60초 미만) 이번 실행은 건너뜀.",
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
       "priceAgeDaysAtBuild": 2,
       "snapshotAgeDaysAtBuild": 0,
       "priceDateClass": "ok",
@@ -149,8 +149,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "priceStaleAfterDays": 7,
       "snapshotStaleAfterDays": 3,
       "builtAt": "2026-09-20",
-      "isStaleReference": true,
-      "staleReferenceNote": "화면에 보이는 참고범위·비교가격은 실시간이 아니라 과거 참고값입니다 -- 가장 최근 시도(SKIPPED_RATE_LIMIT)가 새 판단을 만들지 못했습니다(사유: 직전 기록(2026-09-20T20:16:17.858283) 이후 39.5초밖에 지나지 않아(60초 미만) 이번 실행은 건너뜀.).",
+      "isStaleReference": false,
+      "staleReferenceNote": null,
       "conditionsForChange": [
         "동종기업(LRCX, KLAC)이 받는 주가수익배수가 재평가되면 참고범위 자체가 이동합니다.",
         "대상종목의 컨센서스 EPS 추정치가 바뀌면(실적 발표 등) 같은 배수라도 범위 값이 달라집니다.",
@@ -913,10 +913,10 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-20T20:16:18.032967",
+      "generatedAt": "2026-09-20T20:28:02.069081",
       "asOfDate": "2026-09-20",
-      "lastCheckStatus": "SKIPPED_RATE_LIMIT",
-      "lastCheckNote": "직전 기록(2026-09-20T20:16:18.032967) 이후 39.3초밖에 지나지 않아(60초 미만) 이번 실행은 건너뜀.",
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
       "priceAgeDaysAtBuild": 2,
       "snapshotAgeDaysAtBuild": 0,
       "priceDateClass": "ok",
@@ -924,8 +924,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "priceStaleAfterDays": 7,
       "snapshotStaleAfterDays": 3,
       "builtAt": "2026-09-20",
-      "isStaleReference": true,
-      "staleReferenceNote": "화면에 보이는 참고범위·비교가격은 실시간이 아니라 과거 참고값입니다 -- 가장 최근 시도(SKIPPED_RATE_LIMIT)가 새 판단을 만들지 못했습니다(사유: 직전 기록(2026-09-20T20:16:18.032967) 이후 39.3초밖에 지나지 않아(60초 미만) 이번 실행은 건너뜀.).",
+      "isStaleReference": false,
+      "staleReferenceNote": null,
       "conditionsForChange": [
         "동종기업(AMAT, KLAC)이 받는 주가수익배수가 재평가되면 참고범위 자체가 이동합니다.",
         "대상종목의 컨센서스 EPS 추정치가 바뀌면(실적 발표 등) 같은 배수라도 범위 값이 달라집니다.",
@@ -963,10 +963,10 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-20T20:16:18.199806",
+      "generatedAt": "2026-09-20T20:28:02.226707",
       "asOfDate": "2026-09-20",
-      "lastCheckStatus": "SKIPPED_RATE_LIMIT",
-      "lastCheckNote": "직전 기록(2026-09-20T20:16:18.199806) 이후 39.2초밖에 지나지 않아(60초 미만) 이번 실행은 건너뜀.",
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
       "priceAgeDaysAtBuild": 2,
       "snapshotAgeDaysAtBuild": 0,
       "priceDateClass": "ok",
@@ -974,13 +974,24 @@ const INDEPENDENT_VALUATION_DATA = {
       "priceStaleAfterDays": 7,
       "snapshotStaleAfterDays": 3,
       "builtAt": "2026-09-20",
-      "isStaleReference": true,
-      "staleReferenceNote": "화면에 보이는 참고범위·비교가격은 실시간이 아니라 과거 참고값입니다 -- 가장 최근 시도(SKIPPED_RATE_LIMIT)가 새 판단을 만들지 못했습니다(사유: 직전 기록(2026-09-20T20:16:18.199806) 이후 39.2초밖에 지나지 않아(60초 미만) 이번 실행은 건너뜀.).",
+      "isStaleReference": false,
+      "staleReferenceNote": null,
       "conditionsForChange": [
         "동종기업(AMAT, LRCX)이 받는 주가수익배수가 재평가되면 참고범위 자체가 이동합니다.",
         "대상종목의 컨센서스 EPS 추정치가 바뀌면(실적 발표 등) 같은 배수라도 범위 값이 달라집니다.",
         "동종기업 포함/제외 구성이 바뀌면(신규 편입, 자료 결측으로 제외 등) 범위가 달라질 수 있습니다."
       ]
+    }
+  },
+  "ASML": {
+    "relativeValueBand": {
+      "rangeLabel": "동종기업 배수 적용 참고범위",
+      "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
+      "available": false,
+      "neverSucceeded": true,
+      "withheldStatus": "JUDGMENT_WITHHELD",
+      "withheldReason": "대상종목 비교가격 자료상태 문제: 통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
+      "withheldCheckedAt": "2026-09-20T20:28:02.390008"
     }
   }
 };
