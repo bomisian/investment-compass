@@ -138,10 +138,10 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-20T21:17:07.855372",
+      "generatedAt": "2026-09-20T21:29:28.479770",
       "asOfDate": "2026-09-20",
-      "lastCheckStatus": "SKIPPED_RATE_LIMIT",
-      "lastCheckNote": "직전 기록(2026-09-20T21:17:07.855372) 이후 37.4초밖에 지나지 않아(60초 미만) 이번 실행은 건너뜀.",
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
       "priceAgeDaysAtBuild": 2,
       "snapshotAgeDaysAtBuild": 0,
       "priceDateClass": "ok",
@@ -149,8 +149,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "priceStaleAfterDays": 7,
       "snapshotStaleAfterDays": 3,
       "builtAt": "2026-09-20",
-      "isStaleReference": true,
-      "staleReferenceNote": "화면에 보이는 참고범위·비교가격은 실시간이 아니라 과거 참고값입니다 -- 가장 최근 시도(SKIPPED_RATE_LIMIT)가 새 판단을 만들지 못했습니다(사유: 직전 기록(2026-09-20T21:17:07.855372) 이후 37.4초밖에 지나지 않아(60초 미만) 이번 실행은 건너뜀.).",
+      "isStaleReference": false,
+      "staleReferenceNote": null,
       "conditionsForChange": [
         "동종기업(LRCX, KLAC)이 받는 주가수익배수가 재평가되면 참고범위 자체가 이동합니다.",
         "대상종목의 컨센서스 EPS 추정치가 바뀌면(실적 발표 등) 같은 배수라도 범위 값이 달라집니다.",
@@ -913,10 +913,10 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-20T21:17:08.029331",
+      "generatedAt": "2026-09-20T21:29:28.645059",
       "asOfDate": "2026-09-20",
-      "lastCheckStatus": "SKIPPED_RATE_LIMIT",
-      "lastCheckNote": "직전 기록(2026-09-20T21:17:08.029331) 이후 37.3초밖에 지나지 않아(60초 미만) 이번 실행은 건너뜀.",
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
       "priceAgeDaysAtBuild": 2,
       "snapshotAgeDaysAtBuild": 0,
       "priceDateClass": "ok",
@@ -924,8 +924,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "priceStaleAfterDays": 7,
       "snapshotStaleAfterDays": 3,
       "builtAt": "2026-09-20",
-      "isStaleReference": true,
-      "staleReferenceNote": "화면에 보이는 참고범위·비교가격은 실시간이 아니라 과거 참고값입니다 -- 가장 최근 시도(SKIPPED_RATE_LIMIT)가 새 판단을 만들지 못했습니다(사유: 직전 기록(2026-09-20T21:17:08.029331) 이후 37.3초밖에 지나지 않아(60초 미만) 이번 실행은 건너뜀.).",
+      "isStaleReference": false,
+      "staleReferenceNote": null,
       "conditionsForChange": [
         "동종기업(AMAT, KLAC)이 받는 주가수익배수가 재평가되면 참고범위 자체가 이동합니다.",
         "대상종목의 컨센서스 EPS 추정치가 바뀌면(실적 발표 등) 같은 배수라도 범위 값이 달라집니다.",
@@ -963,10 +963,10 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-20T21:17:08.195042",
+      "generatedAt": "2026-09-20T21:29:28.804081",
       "asOfDate": "2026-09-20",
-      "lastCheckStatus": "SKIPPED_RATE_LIMIT",
-      "lastCheckNote": "직전 기록(2026-09-20T21:17:08.195042) 이후 37.1초밖에 지나지 않아(60초 미만) 이번 실행은 건너뜀.",
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
       "priceAgeDaysAtBuild": 2,
       "snapshotAgeDaysAtBuild": 0,
       "priceDateClass": "ok",
@@ -974,8 +974,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "priceStaleAfterDays": 7,
       "snapshotStaleAfterDays": 3,
       "builtAt": "2026-09-20",
-      "isStaleReference": true,
-      "staleReferenceNote": "화면에 보이는 참고범위·비교가격은 실시간이 아니라 과거 참고값입니다 -- 가장 최근 시도(SKIPPED_RATE_LIMIT)가 새 판단을 만들지 못했습니다(사유: 직전 기록(2026-09-20T21:17:08.195042) 이후 37.1초밖에 지나지 않아(60초 미만) 이번 실행은 건너뜀.).",
+      "isStaleReference": false,
+      "staleReferenceNote": null,
       "conditionsForChange": [
         "동종기업(AMAT, LRCX)이 받는 주가수익배수가 재평가되면 참고범위 자체가 이동합니다.",
         "대상종목의 컨센서스 EPS 추정치가 바뀌면(실적 발표 등) 같은 배수라도 범위 값이 달라집니다.",
@@ -991,7 +991,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "neverSucceeded": true,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "대상종목 비교가격 자료상태 문제: 통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
-      "withheldCheckedAt": "2026-09-20T21:17:45.323436"
+      "withheldCheckedAt": "2026-09-20T21:29:28.963896"
     }
   }
 };
