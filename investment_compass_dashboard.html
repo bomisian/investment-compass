@@ -4465,7 +4465,7 @@ function renderRelativeValueBandCard(rv){
       <div class="sub" style="margin:0 0 4px;color:var(--sub);font-size:10.5px;">${esc(rv.comparisonPriceNote||'')}</div>
       ${rv.comparisonPriceIssue?`<div class="sub" style="margin:0 0 4px;color:var(--down);">비교가격 자료상태 문제: ${esc(rv.comparisonPriceIssue)}</div>`:''}
       <div class="sub" style="margin:2px 0 8px;"><b>변경 이유</b>: ${esc(rv.changeReasonVsPrevious||'-')}</div>
-      ${(rv.conditionsForChange && rv.conditionsForChange.length) ? `<div class="sub" style="margin:2px 0 8px;"><b>판단이 바뀌는 조건</b><ul style="margin:4px 0 0 16px;padding:0;">${rv.conditionsForChange.map(c=>`<li>${esc(c)}</li>`).join('')}</ul></div>` : ''}
+      ${(rv.conditionsForChange && rv.conditionsForChange.length) ? `<div class="sub" style="margin:2px 0 8px;"><b>이 참고범위가 바뀌는 조건</b> <span style="font-weight:400;">(매수·보유·축소 조건이 아니라, 위 참고범위 숫자 자체가 달라지는 조건이에요)</span><ul style="margin:4px 0 0 16px;padding:0;">${rv.conditionsForChange.map(c=>`<li>${esc(c)}</li>`).join('')}</ul></div>` : ''}
       <details style="margin-top:4px;margin-bottom:4px;">
         <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">산출 근거 자세히 보기</summary>
         <div class="sub" style="margin:6px 0;">판단 시각(스냅샷 생성): ${esc(rv.generatedAt||'-')} · 기준일: ${esc(rv.asOfDate||'-')}</div>
@@ -4478,7 +4478,18 @@ function renderRelativeValueBandCard(rv){
 }
 function renderIndependentValuationSection(r){
   const iv = (typeof INDEPENDENT_VALUATION_DATA !== 'undefined') ? INDEPENDENT_VALUATION_DATA[r.ticker] : null;
-  if(!iv || !iv.valuation) return '';
+  if(!iv) return '';
+  // [2026-09-20 신규 -- 종목 확대] 아직 독립 DCF 적정가 모델이 없는 종목(예: LRCX/KLAC --
+  // AMAT의 5년 DCF 가정을 그대로 복제하지 않았기 때문에 iv.valuation 자체가 없음)도 상대가치
+  // (동종기업 배수) 참고범위는 있을 수 있다. 이 경우에도 카드를 숨기지 않고 보여주되, 위
+  // 장기 점수·판단 요약(decisionSummaryHtml)과는 서로 다른 근거를 쓴다는 걸 명시해서 사용자가
+  // "이 종목도 AMAT처럼 매입가 상한·DCF까지 다 나왔다"고 착각하지 않게 한다.
+  if(!iv.valuation){
+    if(iv.relativeValueBand && iv.relativeValueBand.available){
+      return `<div class="sub" style="margin:6px 0 4px;color:var(--sub);">ℹ️ 이 종목은 아직 독립 DCF 적정가·매입가 상한이 없어요(AMAT의 DCF 가정을 이 종목에 그대로 복제하지 않았어요). 위 장기 점수·판단 요약과는 서로 다른 근거(동종기업 배수)로 계산된 아래 참고범위만 제공돼요.</div>` + renderRelativeValueBandCard(iv.relativeValueBand);
+    }
+    return '';
+  }
   const v = iv.valuation;
   const price = r.price;
   // [2026-09-20 재배치 -- 봄이 요청: 실사용 우선순위] "지금 참고범위 어디쯤인가"라는 질문에
