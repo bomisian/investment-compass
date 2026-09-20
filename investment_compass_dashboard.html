@@ -1848,6 +1848,14 @@ function computeFairValue(ticker, price, fund, est){
     // 흑자 역사가 짧아 Finnhub가 3/5년 EPS 성장률 자체를 안 주는 종목은 이 계산이 자연히 빠짐
     // (지어내지 않음). 아직 승률 검증이 안 된 새 지표라 메인 화면 순위·티어에는 안 쓰고 종목
     // 상세의 참고 문구로만 노출함.
+    // 2026-09-20 추가(Codex 독립검토 - "대부분 종목 판단보류" 문제 후속) - expectations가 null인
+    // 이유는 최소 5가지(과거 성장률 자료 없음/성장률이 너무 낮거나 음수/과거 평균 PER 없음/
+    // historicalPEG가 정상범위 밖/실제 역산 경계값 자체가 음수·극단치)인데, 아래에서 컨센서스
+    // eps0·eps1로 만드는 low/mid/high(fv.fwd)는 이 중 어떤 경우든 이미 정상 계산돼 있다 -
+    // expectations는 그 위에 얹는 "보조 교차검증"일 뿐이다. 이 구조화된 사유를 fv.fwd에 그대로
+    // 실어서, computeDecisionViewModel이 "보조 지표 미산출"과 "가격 경계 자체가 무너짐(실제
+    // 경계값 오류)"을 구분해 쓸 수 있게 한다 - 전자는 판단을 막지 않고, 후자만 막는다.
+    let expectationsUnavailable = null;
     let expectations = null;
     if(fund){
       const hgYears = fund.epsGrowth3Y!=null ? 3 : (fund.epsGrowth5Y!=null ? 5 : null);
@@ -1857,6 +1865,8 @@ function computeFairValue(ticker, price, fund, est){
         // 않을까") - 예전엔 계산 못 하면 그냥 조용히 넘어갔는데, 이러면 "이 종목은 판단 자료가
         // 아예 없다"로 오해할 수 있음. 왜 못 했는지와, 대신 뭘 보면 되는지를 명시함.
         cautions.push(`이 종목은 과거 3·5년 EPS 성장률 데이터가 없어서 '역산 기대성장률'은 계산하지 못했어요(상장 이력이 짧거나 최근에야 흑자 전환한 종목에서 흔해요) - 대신 위 PEG 교차검증과 PER 밴드는 그대로 참고하세요.`);
+        expectationsUnavailable = {kind:'no_growth_history',
+          reason:'과거 3·5년 EPS 성장률 데이터가 없어요(상장 이력이 짧거나 최근 흑자 전환).'};
       } else if(!(histGrowth>=3)){
         // 2026-09-02 수정(사용자 요청: "계산 안 되는 종목엔 다른 판단 방법을 알려줘야") - 예전엔
         // "P/FCF가 더 적합할 수 있다"는 말만 하고 끝났는데, pfcfShareTTM은 이미 수집돼 있던 필드라
@@ -1876,10 +1886,15 @@ function computeFairValue(ticker, price, fund, est){
           ? ` 배당은 현재 중단 상태예요(${_divHere.note})`
           : (typeof divYield === 'number' && divYield > 0.1) ? ` 배당수익률은 ${divYield.toFixed(2)}%예요(02 탭 참고).${_divHere.status==='verified' ? ' (1차 출처로 직접 재검증된 값)' : ''}` : '';
         cautions.push(`이 종목은 과거 ${hgYears}년 EPS 성장률이 0%에 가깝거나 마이너스라서(${histGrowth.toFixed(0)}%), 성장률로 나누는 '역산 기대성장률' 계산 자체가 불안정해져 보류했어요.${pfcfNote}${divNote}`);
+        expectationsUnavailable = {kind:'growth_too_low_or_negative',
+          reason:`과거 ${hgYears}년 EPS 성장률이 낮거나 음수예요(${histGrowth.toFixed(0)}%) - 성장률로 나누는 방식 자체가 이 종목엔 안 맞아요.`,
+          pfcfAvailable: !!pfcfPeer};
       } else if(fund.avgPe3Y!=null){
         const historicalPEG = fund.avgPe3Y / histGrowth;
         if(!(historicalPEG>=0.2 && historicalPEG<=15)){
           cautions.push(`이 종목은 과거 PER·성장률 조합에서 나온 기준 PEG(${historicalPEG.toFixed(2)}배)가 정상 범위를 크게 벗어나서(데이터 왜곡 가능성) '역산 기대성장률' 계산을 보류했어요 - 대신 위 PEG 교차검증과 PER 밴드는 그대로 참고하세요.`);
+          expectationsUnavailable = {kind:'peg_out_of_range',
+            reason:`과거 PER·성장률로 만든 기준 PEG(${historicalPEG.toFixed(2)}배)가 정상 범위(0.2~15배) 밖이에요(이익이 0에 가까운 기저효과 등으로 왜곡됐을 가능성) - 이 방식은 이 종목엔 못 써요.`};
         } else {
           const impliedGrowthRequired = anchorPe / historicalPEG;   // %, PEG=historicalPEG 유지 가정
           const consensusGrowthPct = growth * 100;                  // eps1/eps0-1 (1년치 컨센서스)
@@ -1909,6 +1924,10 @@ function computeFairValue(ticker, price, fund, est){
               ? '역산한 가격 경계가 음수로 나와(계산상 불가능한 값) 이 가정 자체가 이 종목에는 안 맞는 상태예요'
               : `역산한 가격 경계가 현재가의 여러 배(위쪽 ${Math.abs(pctToOvervalued).toFixed(0)}%·아래쪽 ${Math.abs(pctToUndervalued).toFixed(0)}%)로 벌어져서 사실상 어느 쪽으로도 판단하기 어려운 상태예요`;
             cautions.push(`이 종목은 '역산 기대성장률' 방식으로 가격 경계를 구해봤지만 ${reason}(가격 판단 기준 미확인) - 저평가/고평가/적정 배지를 만들지 않고 보류했어요. 대신 위 PEG 교차검증과 PER 밴드는 그대로 참고하세요.`);
+            // 2026-09-20 추가(Codex 독립검토) - 이 경우만 '가격 경계값 실제 계산 오류'로, low/mid/high
+            // 자체(PER 시나리오)는 여전히 정상이지만 이 보조 역산 검증만 이 종목엔 안 맞는다는 뜻이다.
+            // computeDecisionViewModel이 이 kind일 때만 '가격 기준 불안정'으로 판단을 보류한다.
+            expectationsUnavailable = {kind:'bounds_unstable', reason};
           } else {
             expectations = {historicalPEG, impliedGrowthRequired, consensusGrowthPct, gap, hgYears, pctToOvervalued, pctToUndervalued};
           }
@@ -1949,11 +1968,23 @@ function computeFairValue(ticker, price, fund, est){
             else if(gap >= EXPECTATION_GAP_THRESHOLD) cautions.push(`이 종목 자신의 ${hgYears}년 평균 PER·성장률로 역산하면, 지금 가격을 정당화하는 데 필요한 성장은 연 <b>${impliedGrowthRequired.toFixed(0)}%</b>인데 실제 컨센서스는 그보다 높은 <b>${consensusGrowthPct.toFixed(0)}%</b>예요(<b>${gap.toFixed(0)}%p 여유</b>) - 🟢 <b>기대 대비 여유</b>: 컨센서스만 달성돼도 지금 가격이 정당화되고 남는다는 뜻이에요. 다만 이것도 매수 신호는 아니고, 컨센서스 자체가 달성될지는 별개 문제예요.${trendNote2} (1년치 컨센서스 기준 참고 지표, 아직 승률 검증은 안 됐어요)${basisNote}`);
           }
         }
+      } else {
+        // 2026-09-20 추가(Codex 독립검토 - 이전엔 이 경우 아무 캡션도 안 남기고 조용히
+        // expectations만 null로 남았다. 과거 3·5년 성장률은 있는데 자기 고유 3년 평균 PER
+        // 자료(avgPe3Y)가 없는 경우 - 상장 이력이 짧거나 적자였던 해가 섞여 평균 PER 자체를
+        //못 낸 경우 흔함) - 다른 사유들과 똑같이 사유를 명시한다.
+        cautions.push(`이 종목은 과거 평균 PER 자료가 없어서(상장 이력이 짧거나 적자였던 해가 섞였을 수 있어요) '역산 기대성장률'은 계산하지 못했어요 - 대신 위 PEG 교차검증과 PER 밴드는 그대로 참고하세요.`);
+        expectationsUnavailable = {kind:'no_historical_per',
+          reason:'과거 자기 고유 평균 PER 자료가 없어요(상장 이력이 짧거나 적자 연도가 섞였을 수 있음).'};
       }
+    } else {
+      // 2026-09-20 추가(Codex 독립검토) - fund 자체가 없는 극히 드문 경우도 사유를 명시한다.
+      expectationsUnavailable = {kind:'no_fundamentals_data', reason:'실적 지표 원자료 자체가 없어요.'};
     }
     out.fwd = {
       low, mid, high,
       eps0, eps1, growth, anchorPe, pe1y, analysts:nAnalysts, cautions, peg, expectations,
+      expectationsUnavailable,
       endDate0, endDate1, consensusAsOf,
       bandLow, bandHigh, bandSource: hasOwnBand ? 'ticker' : 'universal', bandYears: fund?.perBandYears ?? null,
     };
@@ -3100,6 +3131,9 @@ function buildAtAGlanceHtml(r){
 
   const lines = [];
   lines.push(`<b>${esc(d.headlineReason)}</b>`);
+  // 2026-09-20 추가(Codex 독립검토) - 보조 지표(역산 기대성장률)가 없는 이유를 목록·팝업·상세가
+  // 전부 같은 문구로 보여준다(판단 자체를 막지는 않음 - 위 headlineReason은 이미 정상 판단임).
+  if(d.expectationsNote) lines.push(`<span class="sub" style="font-weight:400;">(참고: 역산 기대성장률 보조지표는 계산되지 않았어요 - ${esc(d.expectationsNote.reason)})</span>`);
   lines.push(`(참고: 가격 눌림목 점수 ${r.score}/5점 · ${esc(label)} - 52주 고점대비 하락·200일선·시장조정만 반영한 "가격 조정 정도" 지표로, 위 최종 판단의 근거 중 하나일 뿐 그 자체가 매수 결론은 아니에요)`);
   if(entryStat.kind==='new') lines.push('오늘 새로운 단기 매수 신호(눌림목)가 떴어요');
   else if(entryStat.kind==='cooldown') lines.push('며칠 전 떴던 단기 매수 신호가 아직 유효해요');
@@ -3383,10 +3417,16 @@ function decisionSummaryHtml(r){
   const checksHtml = (d.nextChecks && d.nextChecks.length)
     ? `<div class="sub" style="margin-top:6px;">다음에 확인하면 재평가돼요: ${d.nextChecks.map(c=>esc(c)).join(' · ')}</div>`
     : '';
+  // 2026-09-20 추가(Codex 독립검토) - 목록 배지와 이 상세 요약이 같은 computeDecisionViewModel
+  // 결과를 쓰므로, 보조 지표(역산 기대성장률) 미산출 사유도 자동으로 여기까지 일관되게 노출된다.
+  const expNoteHtml = d.expectationsNote
+    ? `<div class="sub" style="margin-top:6px;">참고: 역산 기대성장률 보조지표는 계산되지 않았어요 - ${esc(d.expectationsNote.reason)}</div>`
+    : '';
   return `<div class="comment-box" style="background:${meta.bg};color:${meta.color};border:1px solid ${meta.color}33;margin-bottom:12px;">
     <div style="font-weight:700;margin-bottom:4px;"><span class="badge" style="background:${meta.color};color:#fff;">${meta.label}</span> <span style="font-weight:400;font-size:11px;color:var(--sub);">(가격·실적·현금흐름·데이터 상태를 종합한 판정 · policy v${d.policyVersion})</span></div>
     <div style="font-size:13.5px;line-height:1.7;">${esc(d.headlineReason)}</div>
     ${checksHtml}
+    ${expNoteHtml}
   </div>`;
 }
 function tabJudgement(r){
@@ -4938,7 +4978,11 @@ function computeDataHealth(dates, source, dropped, nowDate){
 // staleSessions/trueMissingCount/dropped/invalid 기준으로 교체 - DATA_HEALTH_POLICY_VERSION 3)와
 // cashMissing의 판정 조건(fd.cashDir 문자열 비교 대신 fd.cashUnknown 명시적 플래그)이 실제로
 // 바뀌었으므로 버전을 올린다. 저장된 과거 판단(예: 스캔 캐시)은 이 버전과 다르면 재판정해야 한다.
-const DECISION_POLICY_VERSION = 2;
+// v3(2026-09-20, Codex 독립검토 반영 - "대부분 종목이 같은 '계산상 불안정' 문구로 판단 보류"
+// 문제): valuationUnstable의 판정 조건을 !fv.expectations(보조 지표 미산출 전체)에서
+// fv.expectationsUnavailable?.kind==='bounds_unstable'(실제 가격 경계값 오류)로 좁혔다 - 실제로
+// 판단이 바뀌는 종목이 있으므로 버전을 올린다.
+const DECISION_POLICY_VERSION = 3;
 const DECISION_STATUS_META = {
   unavailable: {label:'판단 보류', color:'#626b76', bg:'#eceff1'},
   risk_first:  {label:'위험 우선', color:'#b3261e', bg:'#fdecea'},
@@ -4950,10 +4994,24 @@ function computeDecisionViewModel(r){
   const nextChecks = [];
   const fv = r.fairValue && r.fairValue.fwd;
   const priceModelMissing = !fv || !!fv.unavailable;
-  // A3에서 고친 부분: 밸류에이션 경계가 음수·극단치로 불안정하면 fv.expectations를 아예 안
-  // 채워서 저평가/고평가 배지를 안 만들었다 - 그 신호를 여기서도 "가격 기준 불안정"으로 재사용.
-  const valuationUnstable = !priceModelMissing && !fv.expectations;
+  // 2026-09-20 재작성(Codex 독립검토 - "대부분 종목이 같은 '계산상 불안정' 문구로 판단 보류"
+  // 지적) - 예전엔 fv.expectations가 없기만 하면(보조 지표인 '역산 기대성장률' 계산 실패) 무조건
+  // 여기서 "가격 판단 기준이 불안정하다"고 보고 가격모델 전체를 판단 보류시켰다. 실제 39종목
+  // 계산으로 확인해보니 fv.expectations가 없는 이유는 다섯 가지인데(과거 성장률 자료 없음·
+  // 성장률이 너무 낮거나 음수·과거 평균 PER 없음·historicalPEG가 비정상 범위·실제 역산 경계값
+  // 자체가 음수/극단치), 이 중 "가격 모델(fv.low/mid/high) 자체를 못 믿을 상태"인 경우는 마지막
+  // 하나(bounds_unstable)뿐이었다. 나머지 네 경우는 보조 교차검증 지표 하나가 안 나온 것뿐이고
+  // fv.low/mid/high(컨센서스 EPS 기반 PER 시나리오)는 이미 정상 계산돼 있다(computeFairValue가
+  // eps0/eps1>0을 그 앞에서 이미 검증했음). 이제 실제로 가격 경계가 깨졌을 때(bounds_unstable)만
+  // "가격 기준 불안정"으로 판단을 보류하고, 나머지는 정상적으로 review/wait까지 판단을 계속하되
+  // 보조 지표가 왜 없는지는 fv.expectationsUnavailable로 목록·팝업·상세가 동일하게 참고할 수 있게 한다.
+  const priceBoundsUnstable = !!(fv && fv.expectationsUnavailable && fv.expectationsUnavailable.kind === 'bounds_unstable');
+  const valuationUnstable = !priceModelMissing && priceBoundsUnstable;
   const valuationReady = !priceModelMissing && !valuationUnstable;
+  // 보조 지표(역산 기대성장률)가 없는 나머지 사유는 판단을 막지 않되, 목록·팝업·상세가 같은
+  // 이유를 보여줄 수 있도록 그대로 실어 내보낸다(아래 return의 expectationsNote).
+  const expectationsNote = (fv && fv.expectationsUnavailable && fv.expectationsUnavailable.kind !== 'bounds_unstable')
+    ? fv.expectationsUnavailable : null;
 
   const fin = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA[r.ticker] : null;
   const fd = fin ? computeFinancialDirection(r, fin) : null;
@@ -4979,6 +5037,13 @@ function computeDecisionViewModel(r){
     reasonCodes.push('price_model_missing');
     headlineReason = (typeof fv?.unavailable === 'string') ? fv.unavailable : '가격 기준을 계산하지 못해 판단을 보류했어요';
     nextChecks.push('애널리스트 컨센서스 EPS·현재가 재조회');
+    // 2026-09-20 추가(Codex 독립검토 - AMAT·KLAC 사례) - 이 컨센서스 EPS 기반 가격모델이 없어도
+    // 별도의 동종기업 배수 참고범위(상대가치)가 있을 수 있다. "전면 계산 불가"처럼 보이지 않게
+    // 그 존재만 짧게 알려준다(매수 신호로 승격하지 않음 - 상세 화면의 참고범위 카드 그대로 유지).
+    const ivRef = (typeof INDEPENDENT_VALUATION_DATA !== 'undefined') ? INDEPENDENT_VALUATION_DATA[r.ticker] : null;
+    if(ivRef && ivRef.relativeValueBand && ivRef.relativeValueBand.available){
+      headlineReason += ' (다만 동종업계 상대가치 참고범위는 있어요 - 상세 화면에서 확인 가능, 매수구간은 아니에요)';
+    }
   } else if(valuationUnstable){
     status = 'unavailable';
     reasonCodes.push('price_model_unstable');
@@ -5043,6 +5108,9 @@ function computeDecisionViewModel(r){
   return {
     ticker: r.ticker, policyVersion: DECISION_POLICY_VERSION, evaluatedAt: Math.floor(Date.now()/1000),
     status, headlineReason, reasonCodes, nextChecks,
+    // 2026-09-20 추가(Codex 독립검토) - 보조 지표(역산 기대성장률)가 왜 없는지를 목록·팝업·상세가
+    // 전부 같은 값으로 참고할 수 있게 내보낸다. 판단(status)을 막지는 않는다(위 참고).
+    expectationsNote,
   };
 }
 function decisionStatusBadgeHtml(r){
