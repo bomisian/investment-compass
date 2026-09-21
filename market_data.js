@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 14.90999984741211,
+      "current": 14.869999885559082,
       "prevClose": 14.8100004196167,
-      "changeAbs": 0.09999942779541016,
-      "changePct": 0.6752155635522815,
-      "pctRank": 20.763723150357997,
+      "changeAbs": 0.05999946594238281,
+      "changePct": 0.4051280502525176,
+      "pctRank": 20.445505171042164,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -51.98067564003066,
-      "ma20": 15.661999988555909,
-      "ma60": 16.16533327102661,
-      "chg1m": -0.2200002670288086,
-      "chg3m": -4.579999923706055,
-      "chg1mPct": -1.4540665258741674,
-      "chg3mPct": -23.499230259063747,
+      "drawdown1y": -52.10949999699002,
+      "ma20": 15.659999990463257,
+      "ma60": 16.164666604995727,
+      "chg1m": -0.26000022888183594,
+      "chg3m": -4.619999885559082,
+      "chg1mPct": -1.718441684833017,
+      "chg3mPct": -23.70446351880089,
       "lastDate": "2026-09-21",
       "bars": 1257,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 93.76000213623047,
+      "current": 93.56999969482422,
       "prevClose": 100.30000305175781,
-      "changeAbs": -6.540000915527344,
-      "changePct": -6.520439398344292,
-      "pctRank": 86.793953858393,
+      "changeAbs": -6.730003356933594,
+      "changePct": -6.709873531569794,
+      "pctRank": 86.55529037390612,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -16.989814369632317,
-      "ma20": 93.17650184631347,
-      "ma60": 84.08450063069661,
-      "chg1m": 5.930000305175781,
-      "chg3m": 18.94000244140625,
-      "chg1mPct": 6.751679587326468,
-      "chg3mPct": 25.314090508766,
+      "drawdown1y": -17.15803256046,
+      "ma20": 93.16700172424316,
+      "ma60": 84.08133392333984,
+      "chg1m": 5.739997863769531,
+      "chg3m": 18.75,
+      "chg1mPct": 6.535349816809406,
+      "chg3mPct": 25.060144448646742,
       "lastDate": "2026-09-21",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 100.31600189208984,
+      "current": 100.30400085449219,
       "prevClose": 100.22000122070312,
-      "changeAbs": 0.09600067138671875,
-      "changePct": 0.09578993236620241,
-      "pctRank": 37.5497215592681,
+      "changeAbs": 0.0839996337890625,
+      "changePct": 0.08381523923960013,
+      "pctRank": 37.47016706443914,
       "min5y": 93.0999984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.2734954340014926,
-      "ma20": 99.43829956054688,
-      "ma60": 100.12893358866374,
-      "chg1m": 1.4160003662109375,
-      "chg3m": -0.7039947509765625,
-      "chg1mPct": 1.4317495898525505,
-      "chg3mPct": -0.6968865317467636,
+      "drawdown1y": -1.2853063163217104,
+      "ma20": 99.437699508667,
+      "ma60": 100.12873357137045,
+      "chg1m": 1.4039993286132812,
+      "chg3m": -0.7159957885742188,
+      "chg1mPct": 1.4196150727519457,
+      "chg3mPct": -0.7087663951366422,
       "lastDate": "2026-09-21",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4389.0,
+      "current": 4382.7001953125,
       "prevClose": 4424.89990234375,
-      "changeAbs": -35.89990234375,
-      "changePct": -0.8113155808278236,
-      "pctRank": 89.1891891891892,
+      "changeAbs": -42.19970703125,
+      "changePct": -0.9536872689232576,
+      "pctRank": 88.95071542130366,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.475178990097675,
-      "ma20": 4477.5099609375,
-      "ma60": 4293.023323567709,
-      "chg1m": -182.39990234375,
-      "chg3m": 186.2998046875,
-      "chg1mPct": -3.9900228866486573,
-      "chg3mPct": 4.432859733732383,
+      "drawdown1y": -17.59363199858098,
+      "ma20": 4477.194970703125,
+      "ma60": 4292.918326822916,
+      "chg1m": -188.69970703125,
+      "chg3m": 180.0,
+      "chg1mPct": -4.127831978438463,
+      "chg3mPct": 4.282960754630174,
       "lastDate": "2026-09-21",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Xi rolls into Trump summit with China's trade engine roaring - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTjdmUF9fTEcySTFqT2t2NUZsd1prTmZjTjJVbmZwOVVVQzVCYV9mem5YNGRVUUdYT05uRTlXTWFheEh5azN5blpURFI1YXItOEJBZWZRRDlLQkx3aGJsdkZia0M2WEpaNHRhTTVmOEpUeU5FdWRPYVN1dUV1bVZrbHpzVEhZZzBrRXNXMTYzOTZzQTVETVkxM1pJT3JIZlpucUJoQTVFaE5LX28?oc=5",
+      "datetime": 1789975920,
+      "headlineKo": "시, 중국 무역 엔진의 활활 타오르는 가운데 트럼프 정상회담에 돌입 - 로이터 통신"
+    },
+    {
       "headline": "Europe faces Q4 jet fuel supply deficit even as South Korea becomes latest big supplier - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVVgydHlkOXlLQ1Q4SWtQNmtjZjNoLTRUNnptMkdnUndRQlhhQWVCVTJ6VzlabXdZSUIxOG9BNDRKOGswSHlZSC1RS3pqMnlMS0R5U25ZZnFMUUNYemhXSVo4aVBhVlNjRnRQWVo2b0h4a2FvT29vMkFyQV8yZVBRSGZmUldDWkRsYVlhVFljYk44QWdTRFJnMUw5bk9BVEpRNVpNa0gtZV90ZVRUYXVSYUtRZ1VHZXFOVmdxbzJTTmFJOEZ4d1E?oc=5",
@@ -244,11 +251,18 @@ const MARKET_DATA = {
       "headlineKo": "한국이 가장 큰 공급국이 되었음에도 불구하고 유럽은 4분기 제트유 공급 부족에 직면 - Reuters"
     },
     {
-      "headline": "Xi rolls into Trump summit with China's trade engine roaring - Reuters",
+      "headline": "Trafigura launches Volare tanker arm, plans Oslo listing - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTjdmUF9fTEcySTFqT2t2NUZsd1prTmZjTjJVbmZwOVVVQzVCYV9mem5YNGRVUUdYT05uRTlXTWFheEh5azN5blpURFI1YXItOEJBZWZRRDlLQkx3aGJsdkZia0M2WEpaNHRhTTVmOEpUeU5FdWRPYVN1dUV1bVZrbHpzVEhZZzBrRXNXMTYzOTZzQTVETVkxM1pJT3JIZlpucUJoQTVFaE5LX28?oc=5",
-      "datetime": 1789959000,
-      "headlineKo": "시, 중국 무역 엔진의 활활 타오르는 가운데 트럼프 정상회담에 돌입 - 로이터 통신"
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbmpETzRmZnpTN05za3BiMHJMNXhiQ3RkUUJ5ZDhCdjBLa2wzQmh0ZVRHZjFzRmc4VTFPRENoUGM2OXI1NlBhdENZNzk4T2RzZndmNDFRc3FleHBLTGRUbURSZ205Q0NBbmwxSVhxbVY3X2N3U3hJQ0FXTHJSNzcwZHFYTXU5SFdMb2ppWmZJQmVoYkdIeVU1RTlxQzdWT2NTM3h4dnRyNng4bWM?oc=5",
+      "datetime": 1789972560,
+      "headlineKo": "Trafigura, Volare 유조선 부문 출시, 오슬로 상장 계획 - Reuters"
+    },
+    {
+      "headline": "COMMENTARY: Hormuz shuttles keep oil flowing, but at a high cost - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY1ZqYkdEeGVjVmotcmtLNWlndkR4bTgzYzlVVThwZ184TG9oX2U2a0ZhYXp1QXZKSnNiT0ZrTngzS1N3OUczT2ZSSFNYUjRPb0VuaEZTcnpDQ0JYTldvMXBlaVRXbU1laHpPUlpSanNXb0pNZnRPcktpVGFtc1h0WG9RMlhMSndOelVoQzBXQmZKbjd5SUZIZEl0ZEl1S0R3VEV4aUd6VlVqMmJQVjE3Wg?oc=5",
+      "datetime": 1789970400,
+      "headlineKo": "논평: 호르무즈 셔틀은 석유 흐름을 유지하지만 비용이 많이 든다 - 로이터"
     },
     {
       "headline": "Vessels trickle through Strait of Hormuz as Middle East conflict persists - Reuters",
@@ -265,11 +279,11 @@ const MARKET_DATA = {
       "headlineKo": "인도 주식은 최근 하락세 이후 소폭 상승했습니다 - Reuters"
     },
     {
-      "headline": "Oil prices slide on hopes of diplomacy in Iran war - Reuters",
+      "headline": "Oil prices slide to 11-day low on hopes of US-Iran diplomacy, Saudi exports - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdEljbFotbFNVU2Nyb1oyaElIUXJJc1ltUmF5a1FrMl9xbEwyNG9LOWwyZ3F2dUZIUl9QYnd6OXU1cU10UGx0QzkxaVp6QkoxY3ZYSm1qc3FvbFprT29VcldJZ3V1Y1YtZ1A3MjEtTUo2dk9laHFBaWZBMFNOMmZDVC16aDBhYUdmdmZFdUJ4d0hoMW5hZTgxRk1ETQ?oc=5",
       "datetime": 1789942200,
-      "headlineKo": "이란 전쟁 외교 기대감에 유가 하락 - 로이터 통신"
+      "headlineKo": "미국-이란 외교, 사우디 수출 기대로 유가 11일 최저치로 하락 - Reuters"
     },
     {
       "headline": "France vows response after Iran closes language centre in Tehran - Reuters",
@@ -305,30 +319,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/20/signs-parents-raising-emotionally-mature-child-psychologist.html",
       "datetime": 1789911241,
       "headlineKo": "심리학자가 말하는 회복력 있고 정서적으로 성숙한 아이를 키우고 있다는 8가지 신호"
-    },
-    {
-      "headline": "Iran and US trade threats after Houthi attacks escalate regional conflict - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdWJkS01sRHBUcXZGZVVoTy1zVU04amJ0VUc3WnZ4UkVZd25TTTR6RGY1ZkV5OUtGZzFULVNDcEo4MzlZMmNkamt0VjR5VHg3YzRDaWhEOFAtZklDbFpGSXpCeE9BeGR3UWp3aFN1MVp2aUMyZE93ZnFUN0VTdzdkZGJnMDdrOFNtc1lhZC1UQlNDWFl3dGRWdjZwYkc2SHJGelBn?oc=5",
-      "datetime": 1789910340,
-      "headlineKo": "후티 반군 공격 이후 이란과 미국의 무역 위협으로 지역 갈등 고조 - 로이터 통신"
-    },
-    {
-      "headline": "Saudi, Gulf stocks fall after Houthis claim Riyadh attacks - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZnFXQ1lvNTg5TnJvazhfY3VXa0hrVms4RW1mdVBpR0k4QXZkempjX0h4Y2JIaGNvSm04YVJkTHRDTWpESVFDakhJMExiNGZSSktLcVFsM3VlM3ZibDQwVlE3czF4OEdLdXdnU0FPaUN1aHFLVWN3cW9uVHRTTDdDU1BNaUNMd3NQMlY5VGZPYzA5ODlMQi1rcWVDXzhFZHJWUF9tQjJqUUtzQW1yc0tYNw?oc=5",
-      "datetime": 1789909176,
-      "headlineKo": "사우디와 걸프 주가는 후티 반군의 리야드 공격 주장 이후 하락 - 로이터"
     }
   ],
   "fgi": {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789985885.575418,
-  "_updated_label": "2026-09-21 19:18",
-  "_last_attempt_at": 1789985885.575418,
-  "_last_success_at": 1789985885.575418,
+  "_fetched_at": 1789989561.352435,
+  "_updated_label": "2026-09-21 20:20",
+  "_last_attempt_at": 1789989561.352435,
+  "_last_success_at": 1789989561.352435,
   "_collection_status": "ok",
   "_collection_errors": []
 };
