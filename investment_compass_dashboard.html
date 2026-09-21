@@ -5074,6 +5074,13 @@ function computeVstRepresentativeDecision(r){
     isDraft: v.validationStatus === 'draft_v1_snapshot',
     validationStatusLabel: v.validationStatus || '-',
     base: valueBase, low: valueLow, high: valueHigh,
+    // [2026-09-21 신규 -- Codex 지적 3번 반영] valueBase(DCF 결과)와 valueLow/valueHigh(EV/EBITDA
+    // 배수 시나리오)는 서로 다른 계산 방식의 결과라 "낮은-기준-높은"이 한 모델의 신뢰구간처럼
+    // 보이면 오해를 준다 -- 각 값의 방법을 그대로 노출해서 화면이 절대 하나로 뭉뚱그리지 않게 한다.
+    baseMethod: v.valueBaseMethod || null, lowMethod: v.valueLowMethod || null, highMethod: v.valueHighMethod || null,
+    valueRangeCaveat: v.valueRangeCaveat || null,
+    boundaryPolicyNote: v.boundaryPolicyNote || null,
+    dcfCashflowMethodologyCaveat: v.dcfCashflowMethodologyCaveat || null,
     rawPrice, price: sanePrice, priceNumericValid, invalidPriceNote,
     priceAsOf, priceIsLive: true,
     diffVsBasePct: verdict.diffPct, diffVsBaseSentence: verdict.diffSentence,
@@ -5096,7 +5103,8 @@ function computeVstRepresentativeDecision(r){
       businessCondition: '가장 낙관적인 재평가(피어 동일배수 14.5배) 시나리오로도 지금 가격을 정당화하지 못한다는 뜻',
       downsideRisk: valueHigh != null ? '재평가(re-rating) 기대가 이미 가격에 선반영됐을 가능성 -- 실제 배수 확대가 뒤따르지 않으면 되돌림 위험' : '-',
     },
-    policyRationale: `보수(9.0배)~피어 동일배수(14.5배) 시나리오 값을 그대로 매매 경계로 썼어요 -- AMAT처럼 요구수익률로 별도 상한을 다시 뽑지 않아요(이미 배수 시나리오 자체가 가격 구간을 제공하기 때문이에요).`,
+    policyRationale: (v.boundaryPolicyNote
+      || `보수(9.0배)~피어 동일배수(14.5배) 시나리오 값을 그대로 매매 경계로 썼어요 -- AMAT처럼 요구수익률로 별도 상한을 다시 뽑지 않아요(이미 배수 시나리오 자체가 가격 구간을 제공하기 때문이에요).`),
   };
 }
 function renderVstFrontCard(r){
@@ -5132,20 +5140,32 @@ function renderVstFrontCard(r){
   const priceRow = d.priceNumericValid
     ? `${fmt(d.price)} (${esc(d.priceAsOf||'-')}) · 대표가격 대비 ${d.diffVsBasePct!=null?pctStr(d.diffVsBasePct):esc(d.diffVsBaseSentence||'비교 불가')}`
     : `<span style="color:var(--warn);">${esc(d.invalidPriceNote||'유효하지 않은 값')}</span>`;
+  // [2026-09-21 수정 -- Codex 지적 3번 반영] "확정 모델"이라는 과장을 없앤다 -- AMAT도 조건부
+  // 모델일 뿐 확정된 모델이 아니다(computeValuationVerdict의 maturity.level='conditional'과
+  // 동일 원칙). 아울러 base(DCF)·low/high(EV/EBITDA 배수)가 서로 다른 계산방식의 결과라는
+  // 점도 이 배너에서 바로 밝힌다(하나의 일관된 구간처럼 보이지 않게).
   const draftNote = d.isDraft
-    ? `<div class="sub" style="margin:2px 0 8px;color:var(--warn);">⚠️ 이 종목의 독립 적정가 모델은 아직 "${esc(d.validationStatusLabel)}"(초안 스냅샷) 단계예요 -- AMAT처럼 원자료 검증·격리 독립검토까지 마친 확정 모델이 아니에요.</div>`
+    ? `<div class="sub" style="margin:2px 0 8px;color:var(--warn);">⚠️ 이 종목의 독립 적정가 모델은 아직 "${esc(d.validationStatusLabel)}"(초안 스냅샷) 단계예요 -- AMAT도 원자료 검증·격리 독립검토를 거친 조건부 모델일 뿐 "확정 모델"은 아니지만, VST는 그중에서도 더 이른 단계(수동 스냅샷 1회, 자동 갱신 없음)예요.</div>`
     : '';
+  const rangeCaveatNote = d.valueRangeCaveat
+    ? `<div class="sub" style="margin:2px 0 8px;">ℹ️ ${esc(d.valueRangeCaveat)}</div>` : '';
+  const dcfMethodologyNote = d.dcfCashflowMethodologyCaveat
+    ? `<div class="sub" style="margin:2px 0 8px;color:var(--warn);">⚠️ 대표가격(DCF $${d.base!=null?d.base.toFixed(2):'-'}) 산식 미해결 이슈: ${esc(d.dcfCashflowMethodologyCaveat)}</div>` : '';
 
   return `
     <div class="comment-box" id="vst-front-${esc(r.ticker)}" style="background:var(--panel-2);margin-bottom:12px;border:1px solid var(--border,#333);">
       <b>🎯 VST 대표가격(EV/EBITDA+DCF 기준) 요약</b>
       <span style="display:inline-block;margin-left:6px;padding:1px 6px;border-radius:8px;background:var(--panel);color:var(--sub);font-size:10px;font-weight:600;vertical-align:middle;">조건부 사업가치 추정 · 초안</span>
-      <div class="fund-row" style="margin-top:6px;"><span>대표가격 · 범위</span>
-        <span class="v"><b>${fmt(d.base)}</b> (보수 ${fmt(d.low)} ~ 재평가 ${fmt(d.high)})</span></div>
+      <div class="fund-row" style="margin-top:6px;"><span>대표가격(DCF)</span>
+        <span class="v"><b>${fmt(d.base)}</b>${d.baseMethod ? ` <span style="color:var(--sub);font-weight:400;font-size:11px;">(${esc(d.baseMethod)})</span>` : ''}</span></div>
+      <div class="fund-row"><span>매매 경계(EV/EBITDA 시나리오)</span>
+        <span class="v">보수 ${fmt(d.low)}${d.lowMethod?` <span style="color:var(--sub);font-weight:400;font-size:10.5px;">(${esc(d.lowMethod)})</span>`:''} ~ 재평가 ${fmt(d.high)}${d.highMethod?` <span style="color:var(--sub);font-weight:400;font-size:10.5px;">(${esc(d.highMethod)})</span>`:''}</span></div>
       <div class="fund-row"><span>현재가 · 관측일</span>
         <span class="v">${priceRow}</span></div>
       <div class="sub" style="margin:2px 0 8px;color:${nowColor};"><b>지금 판단: ${nowLabel}</b><br>${esc(nowDetail)}</div>
       ${draftNote}
+      ${rangeCaveatNote}
+      ${dcfMethodologyNote}
       <details style="margin-top:6px;">
         <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">주 방법 선택 근거 · 매매 경계 산출 · 행동조건(신규매수/기존보유/비중재검토) 자세히 보기</summary>
         <div class="sub" style="margin:8px 0 6px;"><b>왜 EV/EBITDA+DCF를 대표 기준으로 썼는가</b>: ${esc(d.methodReasonShort)}. ${esc(d.evaluationPointNote)}</div>
