@@ -4603,6 +4603,7 @@ function renderRelativeValueBandCard(rv){
   const excludedStr = (rv.peersExcluded||[]).length
     ? (rv.peersExcluded||[]).map(p=>`${esc(p.ticker)}(${esc(p.reason)})`).join('; ')
     : '없음';
+  const epsBasisHtml = renderEpsBasisNoteSection(rv.epsBasisNote);
   return `
     <div class="comment-box" style="background:var(--panel-2);margin-bottom:10px;">
       <b>📊 ${esc(rv.rangeLabel||'동종기업 배수 적용 참고범위')}</b>
@@ -4624,7 +4625,38 @@ function renderRelativeValueBandCard(rv){
         <div class="sub" style="margin:4px 0;">동종기업(참고범위 산출에 사용): ${peersUsedStr}</div>
         <div class="sub" style="margin:4px 0;">제외된 종목: ${excludedStr}</div>
         <div class="sub" style="margin-top:6px;">${esc(rv.bandDisclaimer||'')}</div>
+        ${epsBasisHtml}
       </details>
+    </div>`;
+}
+// [2026-09-21 신규 -- 봄이 4차 요구 1·2번: "EPS 공급자·필드경로·정의확인수준을 참고범위
+// 카드에 표시하고, '출처 확인'과 '기업 간 비교가능성 확인'을 분리해서 보여달라"]
+// note는 generate_dashboard_connection.py의 _build_eps_basis_note_for_ticker()가 만든
+// 블록(eps_basis_notes.json 그대로 전달, 이 함수는 재계산·재해석하지 않고 문구만 조립함).
+// note가 없으면(=아직 이 종목의 EPS 출처를 조사하지 않음) 빈 문자열 -- 값을 지어내지 않는다.
+function renderEpsBasisNoteSection(note){
+  if(!note) return '';
+  const obs = note.observations || [];
+  const obsRows = obs.map(o => `
+    <div class="fund-row"><span>${esc(o.quarterLabel||'-')}${o.note?` <span style="color:var(--sub);font-weight:400;">(${esc(o.note)})</span>`:''}</span>
+      <span class="v" style="font-size:11px;">GAAP $${o.gaapEps!=null?o.gaapEps:'-'} · 조정 $${o.adjustedEps!=null?o.adjustedEps:'-'} · 차이 ${o.diffPct!=null?(o.diffPct>=0?'+':'')+o.diffPct+'%':'-'}${o.sourceUrl?` <a href="${esc(o.sourceUrl)}" target="_blank" rel="noopener">[출처]</a>`:''}</span></div>
+  `).join('');
+  return `
+    <div class="sub" style="margin-top:10px;padding-top:8px;border-top:1px solid var(--border,#333);">
+      <b>이 참고범위가 쓰는 컨센서스 EPS의 출처</b>
+      <div style="margin:4px 0;">공급자: ${esc(note.supplier||'-')} → 실제 산출 주체: ${esc(note.underlyingProvider||'-')}</div>
+      <div style="margin:4px 0;">필드 경로: ${esc(note.fieldPath||'-')}</div>
+      <div style="margin:4px 0;">통화: ${esc(note.currency||'-')} · 주식 단위 가정: ${esc(note.shareBasisAssumed||'-')}</div>
+      <div style="margin:6px 0;padding:6px 8px;background:var(--panel,rgba(255,255,255,0.04));border-radius:6px;">
+        <b>정의 확인 수준</b>: ${esc(note.definitionConfirmationLabel||note.definitionConfirmationLevel||'-')}
+        <div style="margin-top:4px;color:var(--warn);">⚠️ "출처가 추적됐다"는 것과 "이 종목·동종기업들이 서로 같은 이익 기준(GAAP/조정)을 쓴다는 것이 확인됐다"는 것은 다른 이야기예요 -- 아래는 후자를 확정하는 증거가 아니라, 이미 발표된 과거 분기를 직접 대조해본 관찰이에요.</div>
+      </div>
+      ${note.providerGeneralPolicy?`<div style="margin:4px 0;font-size:10.5px;color:var(--sub);">공급자 일반 정책: ${esc(note.providerGeneralPolicy)}</div>`:''}
+      ${obsRows?`<div style="margin:8px 0 2px;"><b>과거 분기 GAAP vs 조정 EPS 대조(관찰, 차이 산식: (조정-GAAP)/GAAP)</b></div>${obsRows}`:''}
+      ${note.observationSummary?`<div style="margin:4px 0;font-size:10.5px;">${esc(note.observationSummary)}</div>`:''}
+      ${note.splitNote?`<div style="margin:4px 0;color:var(--warn);font-size:10.5px;">${esc(note.splitNote)}</div>`:''}
+      ${note.cautionNote?`<div style="margin:6px 0 0;font-size:10.5px;color:var(--warn);">${esc(note.cautionNote)}</div>`:''}
+      ${note.lastReviewed?`<div style="margin:4px 0 0;font-size:10px;color:var(--sub);">마지막 확인일: ${esc(note.lastReviewed)}</div>`:''}
     </div>`;
 }
 function renderIndependentValuationSection(r){

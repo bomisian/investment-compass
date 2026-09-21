@@ -155,7 +155,47 @@ const INDEPENDENT_VALUATION_DATA = {
         "동종기업(LRCX, KLAC)이 받는 주가수익배수가 재평가되면 참고범위 자체가 이동합니다.",
         "대상종목의 컨센서스 EPS 추정치가 바뀌면(실적 발표 등) 같은 배수라도 범위 값이 달라집니다.",
         "동종기업 포함/제외 구성이 바뀌면(신규 편입, 자료 결측으로 제외 등) 범위가 달라질 수 있습니다."
-      ]
+      ],
+      "epsBasisNote": {
+        "supplier": "Yahoo Finance quoteSummary API (earningsTrend 모듈)",
+        "fieldPath": "earningsTrend.trend[].earningsEstimate.avg (buy_signal_telegram.py의 fetch_quote_summary()가 그대로 epsAvg로 저장, 가공 없음)",
+        "underlyingProvider": "S&P Global Market Intelligence (Yahoo Finance 공식 고객센터 안내 기준: \"EPS and revenue estimates & actuals... provided by S&P Global Market Intelligence\", https://help.yahoo.com/kb/exchanges-data-providers-yahoo-finance-sln2310.html)",
+        "providerGeneralPolicy": "S&P Global의 공개 방법론 문서는 '일회성 항목을 조정·제외해 정규화된 이익 지표를 만든다'는 일반 관행을 설명하지만, 종목·기간별 필드 수준의 GAAP/조정 구분 스펙은 무료로 확인하지 못함.",
+        "definitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+        "definitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+        "currency": "USD(quoteCurrency 필드 기준, 종목별 raw 데이터에서 확인됨)",
+        "shareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+        "cautionNote": "아래 관찰된 GAAP·조정 EPS 격차는 해당 회사의 '이미 발표된 과거 분기 실적'을 실적발표 원문에서 직접 대조한 것이며, Yahoo/S&P 컨센서스가 실제로 어느 쪽을 썼는지 확정하지 않는다. 과거 격차를 미래 컨센서스에 보정계수로 적용하지 않았다.",
+        "observations": [
+          {
+            "quarterLabel": "FY2026 Q1(2026-01-25 마감)",
+            "gaapEps": 2.54,
+            "adjustedEps": 2.38,
+            "diffPct": -6.3,
+            "diffCalc": "(조정-GAAP)/GAAP",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000162828026007661/exhibit991q12026earningsre.htm"
+          },
+          {
+            "quarterLabel": "FY2026 Q2(2026-04-26 마감)",
+            "gaapEps": 3.51,
+            "adjustedEps": 2.86,
+            "diffPct": -18.5,
+            "diffCalc": "(조정-GAAP)/GAAP",
+            "sourceUrl": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-second-quarter-2026-results"
+          },
+          {
+            "quarterLabel": "FY2026 Q3(2026-07 마감)",
+            "gaapEps": 3.17,
+            "adjustedEps": 3.5,
+            "diffPct": 10.4,
+            "diffCalc": "(조정-GAAP)/GAAP",
+            "sourceUrl": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-third-quarter-2026-results/"
+          }
+        ],
+        "observationSummary": "3개 분기 모두 격차가 존재하고 부호도 두 번 바뀜(조정이 GAAP보다 낮았다가 높아짐) - 다른 두 종목보다 기준 모호성의 실질적 영향이 클 수 있음(확정 아님, 관찰일 뿐).",
+        "splitNote": null,
+        "lastReviewed": "2026-09-21"
+      }
     },
     "valuation": {
       "kind": "independent_value_dcf_scenario_engine",
@@ -930,7 +970,39 @@ const INDEPENDENT_VALUATION_DATA = {
         "동종기업(AMAT, KLAC)이 받는 주가수익배수가 재평가되면 참고범위 자체가 이동합니다.",
         "대상종목의 컨센서스 EPS 추정치가 바뀌면(실적 발표 등) 같은 배수라도 범위 값이 달라집니다.",
         "동종기업 포함/제외 구성이 바뀌면(신규 편입, 자료 결측으로 제외 등) 범위가 달라질 수 있습니다."
-      ]
+      ],
+      "epsBasisNote": {
+        "supplier": "Yahoo Finance quoteSummary API (earningsTrend 모듈)",
+        "fieldPath": "earningsTrend.trend[].earningsEstimate.avg (buy_signal_telegram.py의 fetch_quote_summary()가 그대로 epsAvg로 저장, 가공 없음)",
+        "underlyingProvider": "S&P Global Market Intelligence (Yahoo Finance 공식 고객센터 안내 기준: \"EPS and revenue estimates & actuals... provided by S&P Global Market Intelligence\", https://help.yahoo.com/kb/exchanges-data-providers-yahoo-finance-sln2310.html)",
+        "providerGeneralPolicy": "S&P Global의 공개 방법론 문서는 '일회성 항목을 조정·제외해 정규화된 이익 지표를 만든다'는 일반 관행을 설명하지만, 종목·기간별 필드 수준의 GAAP/조정 구분 스펙은 무료로 확인하지 못함.",
+        "definitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+        "definitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+        "currency": "USD(quoteCurrency 필드 기준, 종목별 raw 데이터에서 확인됨)",
+        "shareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+        "cautionNote": "아래 관찰된 GAAP·조정 EPS 격차는 해당 회사의 '이미 발표된 과거 분기 실적'을 실적발표 원문에서 직접 대조한 것이며, Yahoo/S&P 컨센서스가 실제로 어느 쪽을 썼는지 확정하지 않는다. 과거 격차를 미래 컨센서스에 보정계수로 적용하지 않았다.",
+        "observations": [
+          {
+            "quarterLabel": "FY2026 Q(2026-03-29 마감)",
+            "gaapEps": 1.45,
+            "adjustedEps": 1.47,
+            "diffPct": 1.4,
+            "diffCalc": "(조정-GAAP)/GAAP",
+            "sourceUrl": "https://newsroom.lamresearch.com/2026-04-22-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-March-29,-2026"
+          },
+          {
+            "quarterLabel": "FY2026 Q(2026-06-28 마감)",
+            "gaapEps": 1.81,
+            "adjustedEps": 1.82,
+            "diffPct": 0.6,
+            "diffCalc": "(조정-GAAP)/GAAP",
+            "sourceUrl": "https://newsroom.lamresearch.com/2026-07-29-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-June-28,-2026"
+          }
+        ],
+        "observationSummary": "확인된 2개 분기 모두 격차가 2% 미만으로 작음 - 기준 모호성의 실질적 영향은 낮아 보임(확정 아님, 관찰일 뿐, 향후 분기엔 달라질 수 있음).",
+        "splitNote": null,
+        "lastReviewed": "2026-09-21"
+      }
     }
   },
   "KLAC": {
@@ -980,7 +1052,41 @@ const INDEPENDENT_VALUATION_DATA = {
         "동종기업(AMAT, LRCX)이 받는 주가수익배수가 재평가되면 참고범위 자체가 이동합니다.",
         "대상종목의 컨센서스 EPS 추정치가 바뀌면(실적 발표 등) 같은 배수라도 범위 값이 달라집니다.",
         "동종기업 포함/제외 구성이 바뀌면(신규 편입, 자료 결측으로 제외 등) 범위가 달라질 수 있습니다."
-      ]
+      ],
+      "epsBasisNote": {
+        "supplier": "Yahoo Finance quoteSummary API (earningsTrend 모듈)",
+        "fieldPath": "earningsTrend.trend[].earningsEstimate.avg (buy_signal_telegram.py의 fetch_quote_summary()가 그대로 epsAvg로 저장, 가공 없음)",
+        "underlyingProvider": "S&P Global Market Intelligence (Yahoo Finance 공식 고객센터 안내 기준: \"EPS and revenue estimates & actuals... provided by S&P Global Market Intelligence\", https://help.yahoo.com/kb/exchanges-data-providers-yahoo-finance-sln2310.html)",
+        "providerGeneralPolicy": "S&P Global의 공개 방법론 문서는 '일회성 항목을 조정·제외해 정규화된 이익 지표를 만든다'는 일반 관행을 설명하지만, 종목·기간별 필드 수준의 GAAP/조정 구분 스펙은 무료로 확인하지 못함.",
+        "definitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+        "definitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+        "currency": "USD(quoteCurrency 필드 기준, 종목별 raw 데이터에서 확인됨)",
+        "shareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+        "cautionNote": "아래 관찰된 GAAP·조정 EPS 격차는 해당 회사의 '이미 발표된 과거 분기 실적'을 실적발표 원문에서 직접 대조한 것이며, Yahoo/S&P 컨센서스가 실제로 어느 쪽을 썼는지 확정하지 않는다. 과거 격차를 미래 컨센서스에 보정계수로 적용하지 않았다.",
+        "observations": [
+          {
+            "quarterLabel": "FY2026 Q3(2026-03-31 마감, 분할 전)",
+            "gaapEps": 9.12,
+            "adjustedEps": 9.4,
+            "diffPct": 3.1,
+            "diffCalc": "(조정-GAAP)/GAAP",
+            "sourceUrl": "https://ir.kla.com/news-events/press-releases/detail/514/kla-corporation-reports-fiscal-2026-third-quarter-results",
+            "note": "2026-05 10:1 액면분할 이전 수치 - 아래 분기와 주식 단위가 다름"
+          },
+          {
+            "quarterLabel": "FY2026 Q4(2026-06 마감, 분할 후)",
+            "gaapEps": 1.04,
+            "adjustedEps": 1.05,
+            "diffPct": 1.0,
+            "diffCalc": "(조정-GAAP)/GAAP",
+            "sourceUrl": "https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full",
+            "note": "2026-05 10:1 액면분할 이후 수치"
+          }
+        ],
+        "observationSummary": "분할 전·후 두 분기 모두 격차가 3% 미만으로 작음 - 기준 모호성의 실질적 영향은 낮아 보임(확정 아님, 관찰일 뿐).",
+        "splitNote": "KLA는 2026-05 10대1 액면분할을 실시함(https://ir.kla.com/news-events/press-releases/detail/515/kla-corporation-announces-ten-to-one-stock-split-and). 분할 전후 EPS를 절대값으로 직접 비교하지 말 것 - 위 두 관찰은 각각 분할 전/후로 표기했고 격차 비율(%)만 비교 가능.",
+        "lastReviewed": "2026-09-21"
+      }
     }
   },
   "ASML": {
