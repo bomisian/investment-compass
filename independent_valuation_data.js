@@ -278,17 +278,101 @@ const INDEPENDENT_VALUATION_DATA = {
     "longTermScenario": {
       "kind": "amat_long_term_eps_growth_exit_multiple_scenario",
       "not_the_dcf": "기존 독립 DCF(compute_forward, 약 $191.30)와 완전히 별개의 시나리오 -- 바닥가격/최악 시나리오가 아니며, 두 값을 평균내지 않는다.",
-      "assumption_disclaimer": "요약: FY2027 EPS만 사실(확인된 컨센서스)이고, 이후 성장률·출구PER·요구수익률은 전부 분석자가 선택한 가정이다. 회사가 확정한 전망이나 검증된 역사적 중앙값이 아니다.",
+      "assumption_disclaimer": "요약: FY2027 EPS는 '지금 관측된 컨센서스'이고, 이후 성장률·출구PER·요구수익률은 전부 분석자가 근거(과거 실적 이력·현재 사이클 가이던스·밸류에이션 관측값)를 조사해 선택한 가정이다. 회사가 확정한 전망이나 통계적으로 검증된 값이 아니다.",
       "assumption_review": {
-        "eps_base": "FY2027 EPS $18.45479(estimates_cache.json 실제 컨센서스, 34명 애널리스트)만 확인된 자료다. 이후 FY2028~FY2031 성장 경로는 컨센서스가 없어 분석자가 고른 가정(연 10%)을 적용한다.",
-        "growth_sustainability": "연 10% EPS 성장을 FY2031까지 4년 더 유지한다는 가정은, 반도체장비 업황의 경기순환성(설비투자 사이클에 따라 AMAT 매출·이익이 과거에도 여러 해 역성장한 이력이 있음)을 감안하면 낙관적인 쪽에 가깝다 -- 4년 내내 경기순환 없이 일정한 성장률이 이어진다고 가정하는 것 자체가 검증된 값이 아니다. 대안: 성장률을 8%로 낮추면(=STRESS_SCENARIOS의 stress_low, 종료PER도 20배로 함께 낮춤) 요구수익률 10% 기준 매입가 상한이 약 $317까지 낮아진다 -- 즉 성장 가정 하나만으로도 결과가 20% 이상 바뀔 수 있을 만큼 결과가 이 가정에 민감하다.",
-        "exit_per_validity": "출구 PER 24배는 AMAT의 최근 실제 forward PER 관측치(상대가치 밴드 계산에 쓰는 peer/자기 자신 forward PE)와 같은 자릿수이지만, 5년 뒤(FY2031)에도 같은 배수가 유지된다는 보장은 없다 -- 반도체장비 업종은 업황에 따라 PER 밴드 자체가 확장·수축한다. 대안: 22~26배 범위(사용자 명시 요구 3)로 이미 민감도를 함께 제시하고, 20배(스트레스 시나리오)까지 낮추면 매입가 상한이 추가로 더 낮아진다는 것도 함께 보여준다.",
-        "no_reverse_engineering": "이 가정들은 '현재 주가와 비슷한 결과가 나오도록' 거꾸로 고른 것이 아니다 -- 성장률 10%/출구 PER 24배/요구수익률 10%는 각각 독립적으로 흔히 쓰이는 라운드 넘버 가정이며, 그 결과($406.85, 현재가와 다를 수 있음)를 그대로 보여준다. 현재가에 맞추기 위해 이 숫자들을 사후에 조정하지 않았다.",
-        "assumption_vs_fact_note": "요약: FY2027 EPS만 사실(확인된 컨센서스)이고, 이후 성장률·출구PER·요구수익률은 전부 분석자가 선택한 가정이다. 회사가 확정한 전망이나 검증된 역사적 중앙값이 아니다."
+        "eps_base": "FY2027 EPS $18.45479는 회사가 확정한 실적이 아니라, 지금(2026-09-21 기준) 관측된 컨센서스 전망치(estimates_cache.json, 34명 애널리스트)다 -- '그 시점에 관측된 전망'이라는 성격이지 '그 시점의 실제 달성'이라는 뜻이 아니다. 이후 FY2028~FY2031 성장 경로는 컨센서스 자체가 없어 EVIDENCE_BASE의 실제 과거 EPS 이력·현재 사이클 가이던스·밸류에이션 관측값을 근거로 분석자가 선택한 가정을 적용한다.",
+        "growth_sustainability": "이 종목의 실제 GAAP EPS는 최근 8년간 -3.4%(FY2019 역성장)부터 +63.3%(FY2021)까지 크게 출렁였고, 지금의 AI 수퍼사이클 직전 3년(FY2023~FY2025)은 +9.0%→+6.2%→+0.6%로 사실상 정체 상태였다 -- '연 10%가 4년 이어진다'를 검증된 값처럼 쓰지 않는다. 지금 컨센서스가 보는 FY2026 (+35.8%)·FY2027(+44.2%)은 AI 데이터센터 설비투자발 단기 급성장 구간이라는 것이 경영진·애널리스트 코멘트의 공통된 설명이며, 이 속도가 4년 더 그대로 이어질 것이라는 근거는 없다. 추천 기준안은 이 수퍼사이클 이전 3년 실제 추세(연 5.2%)와 8년 전체 평균(연 16.6%, 역성장 해 포함) 사이인 연 8%로 정상화 경로를 가정한다 -- 이 역시 검증된 미래가 아니라 과거 이력에 근거한 가정이다.",
+        "exit_per_validity": "지금 이 종목의 NTM(향후 1년 실적 기준) PER은 32.06배로, 자기 자신의 트레일링 3년 평균(21.20배)보다 약 +51% 높다 -- 지금 배수 자체가 AI 사이클 기대를 상당히 반영한 고점권에 가깝다는 뜻이다. 5년 뒤(FY2031)에도 지금의 사이클 고점 배수가 그대로 유지된다고 가정하기보다, 이 종목 자신의 좀 더 정상화된 트레일링 3년 평균 근방(21배)으로 되돌아간다고 보는 것을 추천 기준안으로 삼는다. NTM과 트레일링은 정의가 다르다는 한계는 그대로 남기며, 배수가 더 낮게(15~18배, 사이클 저점권) 혹은 더 높게(24~26배, AI 프리미엄 유지) 갈 경우의 영향은 아래 범위·스트레스 시나리오에서 함께 보여준다.",
+        "no_reverse_engineering": "이 가정들은 '현재 주가와 비슷한 결과가 나오도록' 거꾸로 고른 것이 아니다 -- 추천 기준안(성장 8%·출구PER 21배)의 목표주가·매입가 상한은 현재 비교가격과 독립적으로 계산되며, 그 결과가 현재가보다 높을 수도 낮을 수도 있다는 것을 그대로 보여준다. 현재가에 맞추기 위해 이 숫자들을 사후에 조정하지 않았다.",
+        "assumption_vs_fact_note": "요약: FY2027 EPS는 '지금 관측된 컨센서스'이고, 이후 성장률·출구PER·요구수익률은 전부 분석자가 근거(과거 실적 이력·현재 사이클 가이던스·밸류에이션 관측값)를 조사해 선택한 가정이다. 회사가 확정한 전망이나 통계적으로 검증된 값이 아니다.",
+        "primary_vs_codex_initial": "이번 회차부터 이 모듈의 기본 가정은 성장 연 8%·출구PER 21배(추천 기준안)로 바뀌었다. 2026-09-19 최초 제안이었던 성장 10%·출구PER 24배(Codex 초안)는 삭제하지 않고 비교 시나리오로 계속 함께 계산한다 -- 이쪽은 'AI 사이클 프리미엄(지금의 높은 NTM 배수)이 상당 부분 유지된다'는, 추천 기준안보다 낙관적인 가정 조합에 해당한다. 어느 쪽이 맞다고 확정하지 않으며, 두 값을 평균내지도 않는다."
+      },
+      "evidence_base": {
+        "eps_history": {
+          "kind": "관측값(회사 공시 GAAP EPS, financials_cache.json에 이미 저장된 값 재사용 -- 새로 수집하지 않음)",
+          "source": "SEC 공시 기반 자동수집 캐시(financials_cache.json, AMAT.annual) -- 이 프로젝트가 이미 매 분기 갱신 중인 값을 그대로 읽음",
+          "observed_at": "2026-09-21",
+          "series": [
+            {
+              "fiscal_year_end": "2018-10-28",
+              "eps": 2.96,
+              "yoy_growth": null
+            },
+            {
+              "fiscal_year_end": "2019-10-27",
+              "eps": 2.86,
+              "yoy_growth": -0.034
+            },
+            {
+              "fiscal_year_end": "2020-10-25",
+              "eps": 3.92,
+              "yoy_growth": 0.371
+            },
+            {
+              "fiscal_year_end": "2021-10-31",
+              "eps": 6.4,
+              "yoy_growth": 0.633
+            },
+            {
+              "fiscal_year_end": "2022-10-30",
+              "eps": 7.44,
+              "yoy_growth": 0.163
+            },
+            {
+              "fiscal_year_end": "2023-10-29",
+              "eps": 8.11,
+              "yoy_growth": 0.09
+            },
+            {
+              "fiscal_year_end": "2024-10-27",
+              "eps": 8.61,
+              "yoy_growth": 0.062
+            },
+            {
+              "fiscal_year_end": "2025-10-26",
+              "eps": 8.66,
+              "yoy_growth": 0.006
+            }
+          ],
+          "note": "실제 EPS는 -3.4%(FY2019 역성장)부터 +63.3%(FY2021)까지 매우 크게 출렁였고, AI 설비투자 수퍼사이클 직전인 FY2023~FY2025 3년은 +9.0%→+6.2%→+0.6%로 뚜렷하게 둔화(사실상 정체)했다 -- '성장 지속성'을 라운드 넘버가 아니라 이 실제 이력으로 판단한다.",
+          "derived_cagr_full_7y_fy2018_2025": 0.166,
+          "derived_cagr_recent_precycle_3y_fy2022_2025": 0.052
+        },
+        "current_cycle_guidance": {
+          "kind": "관측값(2026-08 실적발표·경영진 코멘트, 웹검색으로 확인 -- 재검증 안 됨, 링크 참고)",
+          "observed_at": "2026-09-21 조사",
+          "items": [
+            "2026년 반도체장비(WFE) 지출 +30% 이상 전망(경영진 가이던스) -- 첨단 패키징은 +50~60%.",
+            "estimates_cache.json 컨센서스: FY2026 EPS +35.8%, FY2027 EPS +44.2% -- 둘 다 AI 데이터센터 설비투자발 단기 급성장 구간이다.",
+            "성장 동인은 AI 데이터센터 투자·첨단 파운드리/D램 생산·GAA 등 신규 트랜지스터 구조 전환 3가지로, 성장분의 80% 이상이 첨단(leading-edge) 공정에서 나온다는 경영진 설명이 있다.",
+            "위험: 하이퍼스케일러의 설비투자 수요가 충족되면 이 AI 장비 사이클이 안정화(둔화)될 수 있다는 우려가 애널리스트들 사이에 있다 -- 구체적 시점은 제시되지 않음."
+          ],
+          "sources": [
+            "https://www.tradingkey.com/analysis/stocks/us-stocks/262098841-applied-materials-amat-q3-earnings-august-13-2026-semiconductor-equipment-ai-tradingkey"
+          ]
+        },
+        "valuation_multiples": {
+          "kind": "관측값(fundamentals_cache.json -- 이 대시보드가 이미 매일 자동수집하는 값을 그대로 재사용)",
+          "observed_at": "2026-09-21",
+          "current_ntm_forward_per": 32.06,
+          "current_ttm_trailing_per": 36.26,
+          "trailing_3y_avg_per": 21.2,
+          "note": "현재 NTM(향후 1년 예상실적) 기준 PER은 32.06배로, 이 종목 자신의 트레일링 3년 평균(21.20배)보다 약 +51% 높다 -- AI 사이클 기대가 지금 배수에 이미 상당히 반영돼 있다는 뜻이다. 정의가 다르다는 점(현재는 NTM, 3년 평균은 트레일링)은 그대로 밝히고, 직접 하나로 합치지 않는다. 다만 '5년 뒤에도 지금(사이클 고점 근처)의 NTM 배수가 그대로 유지된다'고 가정하는 것과, '이 종목 자신의 좀 더 정상화된 배수 구간(트레일링 3년 평균 근방)으로 되돌아간다'고 가정하는 것 중, 후자가 더 보수적이며 사이클 정점을 영구화하지 않는다는 점에서 출구 배수의 1차 근거로 더 적절하다고 본다."
+        },
+        "cycle_characterization": {
+          "kind": "분석자 판단(위 관측값들을 조합해 내린 해석 -- 그 자체가 사실은 아님)",
+          "text": "반도체장비 업종은 설비투자 사이클에 강하게 연동돼, 실적과 배수가 함께 오르내리는 경향이 이 종목 자신의 8년 EPS 이력(역성장~63% 성장)에서도 확인된다. 지금은 AI 데이터센터발 설비투자 확대로 사이클의 상승 구간(FY2026~FY2027 급성장) 한가운데에 있다. FY2028 이후에도 이 급성장률이 그대로 이어진다고 가정하기보다, 사이클이 정점을 지나면서 성장률과 배수가 함께 정상화된다고 보는 편이 이 종목의 실제 이력과 더 일치한다."
+        }
       },
       "as_of_execution": "2026-09-21",
-      "growth_rate_assumption": 0.1,
-      "exit_per_assumption": 24.0,
+      "growth_rate_assumption": 0.08,
+      "exit_per_assumption": 21.0,
+      "is_primary_recommended_assumption": true,
+      "primary_growth_rate": 0.08,
+      "primary_exit_per": 21.0,
+      "primary_review_by": "2026-12-31",
+      "codex_initial_growth_rate": 0.1,
+      "codex_initial_exit_per": 24.0,
       "growth_years": 4,
       "base_fiscal_year": 2027,
       "target_fiscal_year": 2031,
@@ -299,13 +383,13 @@ const INDEPENDENT_VALUATION_DATA = {
       "base_eps_analysts": 34,
       "target_date": "2031-10-31",
       "eps_path_fy2028_to_fy2031": [
-        20.300269,
-        22.330295900000003,
-        24.563325490000004,
-        27.019658039000007
+        19.9311732,
+        21.525667056,
+        23.24772042048,
+        25.1075380541184
       ],
-      "target_eps_fy2031": 27.019658039000007,
-      "target_price": 648.4717929360002,
+      "target_eps_fy2031": 25.1075380541184,
+      "target_price": 527.2582991364864,
       "comparison_price": 444.57000732421875,
       "comparison_price_as_of": "2026-09-18",
       "base_scenario": {
@@ -318,7 +402,7 @@ const INDEPENDENT_VALUATION_DATA = {
           "3": 2.12,
           "4": 2.12,
           "5": 2.12,
-          "5.120547945205479": 648.7273545798357
+          "5.120547945205479": 527.5138607803219
         },
         "cashflow_note": {
           "approximation_note": "실제 AMAT 분기배당(연 4회 지급)을 이 계산에서는 매입일 이후부터 맞이하는 각 정수 연차에 연 1회 합산 지급으로 근사한다 -- 정확한 분기별 지급일을 쓰려면 엔진을 부분기간 할인 구조로 바꿔야 하며 이번 범위 밖이다. 보유기간이 정수가 아니므로(약 5.1205년), 매도 시점의 부분연도에는 연배당의 12.1%만 비례 배분했다(그 이후 -- 매도 이후 -- 배당은 포함하지 않음). 매도 이후 시점의 배당은 어떤 경우에도 포함하지 않는다."
@@ -327,116 +411,203 @@ const INDEPENDENT_VALUATION_DATA = {
           "0.08": {
             "blocked": false,
             "required_return": 0.08,
-            "max_purchase_price": 445.9002903420637,
+            "max_purchase_price": 364.16623889871596,
             "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
           },
           "0.1": {
             "blocked": false,
             "required_return": 0.1,
-            "max_purchase_price": 406.24355225148827,
+            "max_purchase_price": 331.83930275745547,
             "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
           },
           "0.12": {
             "blocked": false,
             "required_return": 0.12,
-            "max_purchase_price": 370.7527581926096,
+            "max_purchase_price": 302.90621509902616,
             "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
           }
         },
         "conditional_annualized_return_at_comparison_price": {
           "status": "SUCCESS",
-          "rate": 0.0806357264192229,
-          "residual": -9.094947017729282e-12,
+          "rate": 0.03833500715039688,
+          "residual": 3.8966163629083894e-10,
           "note": "solve_implied_rate와는 별개의 신규 수치해 함수 -- P05/P10 근거로 대체하지 않음"
         }
       },
-      "required_return_ceilings": {
-        "8%": 445.9002903420637,
-        "10%": 406.24355225148827,
-        "12%": 370.7527581926096
+      "codex_initial_scenario": {
+        "label": "2026-09-19 Codex 최초 제안(성장 연 10% · 출구PER 24배) -- 대표 가정이 아닌 비교용으로 계속 함께 계산한다. 대표 가정과의 차이는 위 evidence_base/assumption_review에서 설명.",
+        "growth_rate": 0.1,
+        "exit_per": 24.0,
+        "eps_path_fy2028_to_fy2031": [
+          20.300269,
+          22.330295900000003,
+          24.563325490000004,
+          27.019658039000007
+        ],
+        "target_eps_fy2031": 27.019658039000007,
+        "target_price": 648.4717929360002,
+        "scenario": {
+          "blocked": false,
+          "holding_period_actual_days": 1869,
+          "holding_period_actual_years": 5.120547945205479,
+          "cashflows_by_year": {
+            "1": 2.12,
+            "2": 2.12,
+            "3": 2.12,
+            "4": 2.12,
+            "5": 2.12,
+            "5.120547945205479": 648.7273545798357
+          },
+          "cashflow_note": {
+            "approximation_note": "실제 AMAT 분기배당(연 4회 지급)을 이 계산에서는 매입일 이후부터 맞이하는 각 정수 연차에 연 1회 합산 지급으로 근사한다 -- 정확한 분기별 지급일을 쓰려면 엔진을 부분기간 할인 구조로 바꿔야 하며 이번 범위 밖이다. 보유기간이 정수가 아니므로(약 5.1205년), 매도 시점의 부분연도에는 연배당의 12.1%만 비례 배분했다(그 이후 -- 매도 이후 -- 배당은 포함하지 않음). 매도 이후 시점의 배당은 어떤 경우에도 포함하지 않는다."
+          },
+          "ceilings_by_required_return": {
+            "0.08": {
+              "blocked": false,
+              "required_return": 0.08,
+              "max_purchase_price": 445.9002903420637,
+              "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
+            },
+            "0.1": {
+              "blocked": false,
+              "required_return": 0.1,
+              "max_purchase_price": 406.24355225148827,
+              "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
+            },
+            "0.12": {
+              "blocked": false,
+              "required_return": 0.12,
+              "max_purchase_price": 370.7527581926096,
+              "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
+            }
+          },
+          "conditional_annualized_return_at_comparison_price": {
+            "status": "SUCCESS",
+            "rate": 0.0806357264192229,
+            "residual": -9.094947017729282e-12,
+            "note": "solve_implied_rate와는 별개의 신규 수치해 함수 -- P05/P10 근거로 대체하지 않음"
+          }
+        }
       },
-      "conditional_annualized_return_at_comparison_price": 0.0806357264192229,
+      "required_return_ceilings": {
+        "8%": 364.16623889871596,
+        "10%": 331.83930275745547,
+        "12%": 302.90621509902616
+      },
+      "conditional_annualized_return_at_comparison_price": 0.03833500715039688,
       "conditional_annualized_return_status": "SUCCESS",
       "default_required_return": 0.1,
-      "default_ceiling_price": 406.24355225148827,
+      "default_ceiling_price": 331.83930275745547,
       "return_condition_met_at_default_required_return": false,
       "state_label": "수익조건 미충족",
       "blocked": false,
+      "long_term_thesis_confirmation_note": "화면의 '사업 전제' 표시는 최신 분기 매출·영업이익이 동시에 둔화하지 않았는지만 확인한다 -- 이는 '최근 실적 방향'이며, 향후 4년(FY2028~FY2031) EPS 성장 경로(대표 가정 연 8%)가 실제로 달성 가능한지를 확인한 것이 아니다. 장기 사업 전제(웨이퍼설비투자 사이클, 첨단 패키징·공정 복잡도, 제품 믹스, 마진, 재투자 부담, 경쟁·규제 영향)는 evidence_base의 current_cycle_guidance/cycle_characterization에 근거를 남기되, 정기적으로(예: 분기 실적 발표마다) 재확인이 필요한 상태로 표시하며 '확인 완료'로 표시하지 않는다.",
+      "long_term_thesis_confirmed": false,
       "price_return_table": [
         {
-          "purchase_price": 346.24,
+          "purchase_price": 271.84,
           "status": "SUCCESS",
-          "annualized_return": 0.13520968772204467
+          "annualized_return": 0.14421268793225867
         },
         {
-          "purchase_price": 376.24,
+          "purchase_price": 301.84,
           "status": "SUCCESS",
-          "annualized_return": 0.11676070644641637
+          "annualized_return": 0.12078056602381364
         },
         {
-          "purchase_price": 406.24,
+          "purchase_price": 331.84,
           "status": "SUCCESS",
-          "annualized_return": 0.10000189535089697
+          "annualized_return": 0.09999954364488982
         },
         {
-          "purchase_price": 441.24,
+          "purchase_price": 366.84,
           "status": "SUCCESS",
-          "annualized_return": 0.08223717593746183
+          "annualized_return": 0.0784421571667735
+        },
+        {
+          "purchase_price": 421.84,
+          "status": "SUCCESS",
+          "annualized_return": 0.0491326691483209
         },
         {
           "purchase_price": 444.57,
           "status": "SUCCESS",
-          "annualized_return": 0.08063572992591611
-        },
-        {
-          "purchase_price": 496.24,
-          "status": "SUCCESS",
-          "annualized_return": 0.05749184391601146
+          "annualized_return": 0.0383350105222689
         }
       ],
-      "range_growth_fixed_exit_per_22_26": {
-        "note": "성장률을 10%로 고정하고 출구PER만 22~26배로 바꾼 민감도 범위다 -- 모든 위험을 포함한 신뢰구간이나 바닥가격이 아니다. 확률을 검증하지 않았으므로 임의의 성공확률을 붙이지 않는다.",
+      "range_growth_fixed_exit_per_sensitivity": {
+        "note": "성장률을 대표 가정(8%)으로 고정하고 출구PER만 18~24배(자기 과거 트레일링 3년 평균 PER 21.20배를 중심으로 재설정)로 바꾼 민감도 범위다 -- 모든 위험을 포함한 신뢰구간이나 바닥가격이 아니다. 확률을 검증하지 않았으므로 임의의 성공확률을 붙이지 않는다.",
         "scenarios": {
           "low": {
-            "exit_per": 22.0,
-            "growth_rate": 0.1,
-            "target_price": 594.4324768580002,
-            "ceiling_at_default_required_return": 373.0727011364737
+            "exit_per": 18.0,
+            "growth_rate": 0.08,
+            "target_price": 451.9356849741312,
+            "ceiling_at_default_required_return": 285.6041650594352
           },
           "high": {
-            "exit_per": 26.0,
-            "growth_rate": 0.1,
-            "target_price": 702.5111090140001,
-            "ceiling_at_default_required_return": 439.4144033665028
+            "exit_per": 24.0,
+            "growth_rate": 0.08,
+            "target_price": 602.5809132988416,
+            "ceiling_at_default_required_return": 378.0744404554757
           }
         }
       },
       "stress_scenarios": {
-        "note": "확률을 검증하지 않았으므로 임의의 성공확률을 붙이지 않는다. 단기 신호의 높은 승률을 이 장기 기준가격의 검증 근거로 대신 사용하지 않는다.",
+        "note": "확률을 검증하지 않았으므로 임의의 성공확률을 붙이지 않는다. 단기 신호의 높은 승률을 이 장기 기준가격의 검증 근거로 대신 사용하지 않는다. decomposition_vs_primary는 대표 가정(성장 8%·PER 21배) 대비 성장률만/출구PER만/둘 다 바꿨을 때의 효과를 분리해서 보여준다 -- 결합효과를 어느 한쪽 변수 하나의 효과인 것처럼 설명하지 않는다.",
         "scenarios": {
           "stress_low": {
-            "label": "성장 연 8% · 종료 PER 20배(약세 가정)",
-            "growth_rate": 0.08,
-            "exit_per": 20.0,
-            "target_eps": 25.1075380541184,
-            "target_price": 502.15076108236804,
-            "ceiling_at_default_required_return": 316.42759019144876
+            "label": "성장 연 5%(수퍼사이클 이전 3년 실제 추세) · 종료 PER 16배(약세 가정)",
+            "growth_rate": 0.05,
+            "exit_per": 16.0,
+            "target_eps": 22.431912587437505,
+            "target_price": 358.9106013990001,
+            "ceiling_at_default_required_return": 228.5027540649187,
+            "decomposition_vs_primary": {
+              "base_price": 527.2582991364864,
+              "growth_only_price": 471.0701643361876,
+              "growth_only_pct": -0.1065666199893307,
+              "per_only_price": 401.7206088658944,
+              "per_only_pct": -0.23809523809523803,
+              "combined_price": 358.9106013990001,
+              "combined_pct": -0.3192888533252043,
+              "note": "성장률만 바꾼 효과와 출구PER만 바꾼 효과를 각각 보여준다 -- 결합효과(둘 다 바꿨을 때)를 어느 한쪽 변수 하나의 효과인 것처럼 설명하지 않는다."
+            }
           },
           "stress_high": {
-            "label": "성장 연 12% · 종료 PER 26배(강세 가정)",
+            "label": "성장 연 12% · 종료 PER 26배(AI 사이클 프리미엄 유지 가정)",
             "growth_rate": 0.12,
             "exit_per": 26.0,
             "target_eps": 29.03896934973441,
             "target_price": 755.0132030930946,
-            "ceiling_at_default_required_return": 471.64166441122825
+            "ceiling_at_default_required_return": 471.64166441122825,
+            "decomposition_vs_primary": {
+              "base_price": 527.2582991364864,
+              "growth_only_price": 609.8183563444226,
+              "growth_only_pct": 0.15658370355317008,
+              "per_only_price": 652.7959894070784,
+              "per_only_pct": 0.23809523809523814,
+              "combined_price": 755.0132030930946,
+              "combined_pct": 0.4319607758277342,
+              "note": "성장률만 바꾼 효과와 출구PER만 바꾼 효과를 각각 보여준다 -- 결합효과(둘 다 바꿨을 때)를 어느 한쪽 변수 하나의 효과인 것처럼 설명하지 않는다."
+            }
           },
           "stress_zero_growth": {
-            "label": "FY2027 이후 성장 0% · 종료 PER 20배(성장 정지 가정)",
+            "label": "FY2027 이후 성장 0% · 종료 PER 15배(사이클 저점 재현 가정)",
             "growth_rate": 0.0,
-            "exit_per": 20.0,
+            "exit_per": 15.0,
             "target_eps": 18.45479,
-            "target_price": 369.0958,
-            "ceiling_at_default_required_return": 234.7547152459775
+            "target_price": 276.82185,
+            "ceiling_at_default_required_return": 178.11437115231146,
+            "decomposition_vs_primary": {
+              "base_price": 527.2582991364864,
+              "growth_only_price": 387.55059,
+              "growth_only_pct": -0.2649701472035465,
+              "per_only_price": 376.613070811776,
+              "per_only_pct": -0.2857142857142856,
+              "combined_price": 276.82185,
+              "combined_pct": -0.47497867657396187,
+              "note": "성장률만 바꾼 효과와 출구PER만 바꾼 효과를 각각 보여준다 -- 결합효과(둘 다 바꿨을 때)를 어느 한쪽 변수 하나의 효과인 것처럼 설명하지 않는다."
+            }
           }
         }
       }
