@@ -51,11 +51,36 @@ const INDEPENDENT_VALUATION_DATA = {
           "yearOneFCF_weighting": "60% x FY2026 guidance midpoint 재구성 FCFF($5.214B) + 40% x FY2025 실제 재구성 FCFF($4.507B) -- fcffReconstruction 참고(세후이자 add-back = Interest x (1-21%), 아래 formulaError 참고)",
           "growthPath": "10% -> 8% -> 6% -> 4% -> 2.5% (fading from current AI-demand-driven growth to terminal growth over 5 years, 변경 없음)",
           "yearly": [
-            {"year": 1, "fcf": 4.931, "growth": 0.1, "pv": 4.546},
-            {"year": 2, "fcf": 5.325, "growth": 0.08, "pv": 4.524},
-            {"year": 3, "fcf": 5.644, "growth": 0.06, "pv": 4.419},
-            {"year": 4, "fcf": 5.870, "growth": 0.04, "pv": 4.238},
-            {"year": 5, "fcf": 6.017, "growth": 0.025, "pv": 4.005}
+            {
+              "year": 1,
+              "fcf": 4.931,
+              "growth": 0.1,
+              "pv": 4.546
+            },
+            {
+              "year": 2,
+              "fcf": 5.325,
+              "growth": 0.08,
+              "pv": 4.524
+            },
+            {
+              "year": 3,
+              "fcf": 5.644,
+              "growth": 0.06,
+              "pv": 4.419
+            },
+            {
+              "year": 4,
+              "fcf": 5.87,
+              "growth": 0.04,
+              "pv": 4.238
+            },
+            {
+              "year": 5,
+              "fcf": 6.017,
+              "growth": 0.025,
+              "pv": 4.005
+            }
           ],
           "terminalValue_B": 102.796,
           "pvTerminal_B": 68.361,
@@ -78,8 +103,14 @@ const INDEPENDENT_VALUATION_DATA = {
             "note": "2026-09-21 재검토 반영: 직전 스냅샷(perShare $172.67)은 '세후이자 addback'이라는 라벨을 쓰면서 실제로는 Interest x 세율(=세금절감분, tax shield)을 더했다 -- Interest x (1-세율)이어야 할 것을 Interest x 세율로 계산한 산식 오류. FY2026 기준 236M(오류) vs 888.75M(올바른 세후이자) 차이. 이번에 실제 산식을 Interest x (1-세율)로 고쳐 재계산했다(perShare 172.67 -> 208.61) -- 172.67은 대표값으로 쓰지 않는다.",
             "wrongFormulaUsed": "interest x taxRate (세금절감분 = tax shield, After-tax interest 아님)",
             "correctFormula": "interest x (1 - taxRate) (After-tax interest)",
-            "fy2026_wrong_vs_correct_B": {"wrong": 0.236, "correct": 0.889},
-            "fy2025_wrong_vs_correct_B": {"wrong": 0.243, "correct": 0.915}
+            "fy2026_wrong_vs_correct_B": {
+              "wrong": 0.236,
+              "correct": 0.889
+            },
+            "fy2025_wrong_vs_correct_B": {
+              "wrong": 0.243,
+              "correct": 0.915
+            }
           },
           "priorLeveredValue_B": {
             "note": "2026-09-21 최초 수정 전(v1) 값 -- 레버드 현금흐름을 그대로 WACC로 할인. 재계산 근거 비교용으로만 보존, 대표값 아님.",
@@ -102,7 +133,10 @@ const INDEPENDENT_VALUATION_DATA = {
           "taxShieldRateSource": "연방 법인세 statutory rate 근사(VST 발전자산 대부분 ERCOT/텍사스 소재로 주법인세 부담 미미하다고 가정) -- 실제 한계세율 확인 자료는 아님. VST의 실제 납부세액이 EBITDA 대비 매우 작아(가속상각 등 이자 외 세금방패 존재 가능성), 이 21% 가정이 이자 자체의 한계세율을 과대평가할 수 있음(taxShieldRateSensitivity의 0% 시나리오 참고).",
           "fy2026Guidance": {
             "source": "https://investor.vistracorp.com/2026-08-07-Vistra-Reports-Second-Quarter-2026-Results (2026 Guidance reconciliation, 2025-11-06 작성분)",
-            "adjustedEbitda_B_range": [6.8, 7.6],
+            "adjustedEbitda_B_range": [
+              6.8,
+              7.6
+            ],
             "interestPaidNet_B": 1.125,
             "taxesPaid_B": 0.111,
             "capexMaintenance_B": 1.536,
@@ -180,7 +214,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-21T12:13:39.960240",
+      "generatedAt": "2026-09-21T19:19:00.108669",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -995,7 +1029,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-21T12:13:40.151447",
+      "generatedAt": "2026-09-21T19:19:00.301169",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -1077,7 +1111,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-21T12:13:40.331435",
+      "generatedAt": "2026-09-21T19:19:00.481422",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -1138,7 +1172,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "대상종목 비교가격 자료상태 문제: 통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
-      "withheldCheckedAt": "2026-09-21T12:13:40.510873",
+      "withheldCheckedAt": "2026-09-21T19:19:00.667766",
       "neverSucceeded": true
     }
   },
@@ -1149,7 +1183,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(780.8500341880879)<=band_low(780.8500341880879) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-21T12:13:40.676447",
+      "withheldCheckedAt": "2026-09-21T19:19:00.829267",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -1171,7 +1205,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(485.41399183817754)<=band_low(485.41399183817754) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-21T12:13:40.758205",
+      "withheldCheckedAt": "2026-09-21T19:19:00.912138",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -1193,7 +1227,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "선정 기준을 통과한 동종업계 배수가 하나도 없음 -- 밴드 산출 보류(0으로 채우지 않음)",
-      "withheldCheckedAt": "2026-09-21T12:13:40.839053",
+      "withheldCheckedAt": "2026-09-21T19:19:00.993789",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -1215,7 +1249,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "선정 기준을 통과한 동종업계 배수가 하나도 없음 -- 밴드 산출 보류(0으로 채우지 않음)",
-      "withheldCheckedAt": "2026-09-21T12:13:40.880977",
+      "withheldCheckedAt": "2026-09-21T19:19:01.037104",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -1237,7 +1271,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(1031.8389085049957)<=band_low(1031.8389085049957) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-21T12:13:40.922434",
+      "withheldCheckedAt": "2026-09-21T19:19:01.079066",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -1259,7 +1293,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(1200.4549874751785)<=band_low(1200.4549874751785) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-21T12:13:41.004192",
+      "withheldCheckedAt": "2026-09-21T19:19:01.160648",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
