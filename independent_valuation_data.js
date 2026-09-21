@@ -11,7 +11,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "horizon": "12-24 months (normalized forward earnings power)",
       "accountingBasis": "Ongoing Operations Adjusted EBITDA / Adjusted FCF before Growth (company-defined non-GAAP, excludes one-time items)",
       "valueLow": 122.63,
-      "valueBase": 172.67,
+      "valueBase": 208.61,
       "valueHigh": 234.13,
       "currentPrice": 140.73,
       "method": "EV/EBITDA multiple (3 scenarios) cross-checked with a 5-year DCF (Gordon growth terminal value)",
@@ -46,82 +46,70 @@ const INDEPENDENT_VALUATION_DATA = {
         "dcf": {
           "wacc": 0.085,
           "terminalGrowth": 0.025,
-          "cashflowBasis": "unlevered_FCFF_reconstructed_2026-09-21",
-          "yearOneFCF_B": 4.271,
-          "yearOneFCF_weighting": "60% x FY2026 guidance midpoint 재구성 FCFF($4.561B) + 40% x FY2025 실제 재구성 FCFF($3.835B) -- fcffReconstruction 참고(세후이자 add-back 21% 세율 기준)",
+          "cashflowBasis": "unlevered_FCFF_reconstructed_2026-09-21_v2_formula_corrected",
+          "yearOneFCF_B": 4.931,
+          "yearOneFCF_weighting": "60% x FY2026 guidance midpoint 재구성 FCFF($5.214B) + 40% x FY2025 실제 재구성 FCFF($4.507B) -- fcffReconstruction 참고(세후이자 add-back = Interest x (1-21%), 아래 formulaError 참고)",
           "growthPath": "10% -> 8% -> 6% -> 4% -> 2.5% (fading from current AI-demand-driven growth to terminal growth over 5 years, 변경 없음)",
           "yearly": [
-            {
-              "year": 1,
-              "fcf": 4.271,
-              "growth": 0.1,
-              "pv": 3.936
-            },
-            {
-              "year": 2,
-              "fcf": 4.612,
-              "growth": 0.08,
-              "pv": 3.917
-            },
-            {
-              "year": 3,
-              "fcf": 4.889,
-              "growth": 0.06,
-              "pv": 3.828
-            },
-            {
-              "year": 4,
-              "fcf": 5.085,
-              "growth": 0.04,
-              "pv": 3.67
-            },
-            {
-              "year": 5,
-              "fcf": 5.212,
-              "growth": 0.025,
-              "pv": 3.468
-            }
+            {"year": 1, "fcf": 4.931, "growth": 0.1, "pv": 4.546},
+            {"year": 2, "fcf": 5.325, "growth": 0.08, "pv": 4.524},
+            {"year": 3, "fcf": 5.644, "growth": 0.06, "pv": 4.419},
+            {"year": 4, "fcf": 5.870, "growth": 0.04, "pv": 4.238},
+            {"year": 5, "fcf": 6.017, "growth": 0.025, "pv": 4.005}
           ],
-          "terminalValue_B": 89.03,
-          "pvTerminal_B": 59.245,
-          "enterpriseValue_B": 78.031,
-          "equityValue_B": 57.956,
-          "perShare": 172.67,
+          "terminalValue_B": 102.796,
+          "pvTerminal_B": 68.361,
+          "enterpriseValue_B": 90.093,
+          "equityValue_B": 70.018,
+          "perShare": 208.61,
           "waccSensitivity": {
-            "7.5%": 219.54,
-            "8.5%": 172.67,
-            "9.5%": 139.2,
-            "10.5%": 114.11
+            "7.5%": 264.62,
+            "8.5%": 208.61,
+            "9.5%": 168.47,
+            "10.5%": 138.63
           },
           "taxShieldRateSensitivity": {
-            "note": "세후이자 add-back에 쓴 세율을 21%(연방 statutory, VST 발전자산 대부분 텍사스 소재로 법인세 없음 가정) 대신 20%(2023-25 GAAP 유효세율 평균 근사, financials_cache.json 실측)로 바꿔도 결과가 거의 안 바뀜(172.67 -> 172.05, 0.4% 차이) -- 결과가 정확한 세율 가정에 민감하지 않음을 보여주는 견고성 점검, 세율 자체가 검증됐다는 뜻은 아님.",
-            "21%": 172.67,
-            "20%": 172.05
+            "note": "세후이자 add-back = Interest x (1-세율). 세율을 21%->20%로 바꾸면 208.61->209.23(0.3% 차이, 견고함). 하지만 VST 실제 납부세액이 EBITDA 대비 극히 작아($111M/$7.2B, FY2025 $89M/$5.9B) 가속상각·세액공제 등 이자와 무관한 세금방패가 이미 크게 작동 중일 가능성이 높다 -- 그 경우 '이자를 없애면 세금이 21% 늘어난다'는 표준공식의 전제 자체가 VST엔 약하게만 적용될 수 있고, 실제 세후이자 addback은 21% 가정보다 총이자(0% 세율 가정, addback=이자 전액)에 더 가까울 수 있다. 0% 세율 가정 시 결과는 $221.62 -- 즉 현재 $208.61은 $172~222 범위 안의 한 지점이지 확정값이 아니다.",
+            "21%": 208.61,
+            "20%": 209.23,
+            "0%_전액addback_상한근사": 221.62
+          },
+          "formulaErrorHistory": {
+            "note": "2026-09-21 재검토 반영: 직전 스냅샷(perShare $172.67)은 '세후이자 addback'이라는 라벨을 쓰면서 실제로는 Interest x 세율(=세금절감분, tax shield)을 더했다 -- Interest x (1-세율)이어야 할 것을 Interest x 세율로 계산한 산식 오류. FY2026 기준 236M(오류) vs 888.75M(올바른 세후이자) 차이. 이번에 실제 산식을 Interest x (1-세율)로 고쳐 재계산했다(perShare 172.67 -> 208.61) -- 172.67은 대표값으로 쓰지 않는다.",
+            "wrongFormulaUsed": "interest x taxRate (세금절감분 = tax shield, After-tax interest 아님)",
+            "correctFormula": "interest x (1 - taxRate) (After-tax interest)",
+            "fy2026_wrong_vs_correct_B": {"wrong": 0.236, "correct": 0.889},
+            "fy2025_wrong_vs_correct_B": {"wrong": 0.243, "correct": 0.915}
           },
           "priorLeveredValue_B": {
-            "note": "2026-09-21 수정 전 값(레버드 현금흐름을 그대로 WACC로 할인 -- 아래 dcfCashflowMethodologyCaveat에서 설명하는 결함이 있던 계산). 재계산 근거 비교용으로만 보존, 대표값 아님.",
+            "note": "2026-09-21 최초 수정 전(v1) 값 -- 레버드 현금흐름을 그대로 WACC로 할인. 재계산 근거 비교용으로만 보존, 대표값 아님.",
             "yearOneFCF_B": 4.032,
             "enterpriseValue_B": 73.668,
             "equityValue_B": 53.593,
             "perShare": 159.67
+          },
+          "priorFormulaErrorValue_B": {
+            "note": "2026-09-21 v2(산식 오류 있던 버전) 값 -- Interest x 세율(세금절감분)을 세후이자로 잘못 라벨링해 계산. 오류 확인 후 폐기, 비교용으로만 보존.",
+            "yearOneFCF_B": 4.271,
+            "enterpriseValue_B": 78.031,
+            "equityValue_B": 57.956,
+            "perShare": 172.67
           }
         },
         "fcffReconstruction": {
-          "note": "2026-09-21: 'Adjusted FCF before Growth'는 Vistra 공식 조정표에서 'Interest paid, net'과 'Taxes paid'(실제 납부세액, 이자비용 세금공제 반영된 값)를 이미 차감한 레버드(이자지급 후) 현금흐름이다. 이를 WACC(가중평균자본비용)로 할인하면 이자비용을 (1)현금흐름 자체에서 한 번, (2)할인율의 부채비용 성분에서 또 한 번 반영하는 이중계산이 된다. 수정 방법: 세후이자(Interest paid,net x (1-세율))를 다시 더해 언레버드 FCFF로 재구성한 뒤 WACC로 할인 -- 이제 순부채 차감으로 자기자본가치를 구하는 기존 구조와 일관됨.",
+          "note": "2026-09-21(v3, 산식 오류 수정): 'Adjusted FCF before Growth'는 Vistra 공식 조정표에서 'Interest paid, net'과 'Taxes paid'(실제 납부세액)를 이미 차감한 레버드(이자지급 후) 현금흐름이다. 언레버드 FCFF로 재구성하려면 세후이자(Interest x (1-세율), After-tax interest)를 다시 더해야 한다 -- 직전 버전은 이 식을 Interest x 세율(세금절감분, tax shield)로 잘못 구현했다(formulaErrorHistory 참고). 이번에 식을 고쳐 재계산했다.",
           "taxShieldRateUsed": 0.21,
-          "taxShieldRateSource": "연방 법인세 statutory rate 근사(VST 발전자산 대부분 ERCOT/텍사스 소재로 주법인세 부담 미미하다고 가정) -- 실제 한계세율 확인 자료는 아님, 민감도 점검 결과 20%로 바꿔도 결과 0.4%만 변함",
+          "taxShieldRateSource": "연방 법인세 statutory rate 근사(VST 발전자산 대부분 ERCOT/텍사스 소재로 주법인세 부담 미미하다고 가정) -- 실제 한계세율 확인 자료는 아님. VST의 실제 납부세액이 EBITDA 대비 매우 작아(가속상각 등 이자 외 세금방패 존재 가능성), 이 21% 가정이 이자 자체의 한계세율을 과대평가할 수 있음(taxShieldRateSensitivity의 0% 시나리오 참고).",
           "fy2026Guidance": {
             "source": "https://investor.vistracorp.com/2026-08-07-Vistra-Reports-Second-Quarter-2026-Results (2026 Guidance reconciliation, 2025-11-06 작성분)",
-            "adjustedEbitda_B_range": [
-              6.8,
-              7.6
-            ],
+            "adjustedEbitda_B_range": [6.8, 7.6],
             "interestPaidNet_B": 1.125,
             "taxesPaid_B": 0.111,
             "capexMaintenance_B": 1.536,
             "adjustedFcfBeforeGrowth_levered_B_mid": 4.325,
-            "afterTaxInterestAddback_B": 0.236,
-            "reconstructedFcff_B": 4.561
+            "afterTaxInterestAddback_B": 0.889,
+            "afterTaxInterestFormula": "1.125 x (1-0.21) = 0.889",
+            "reconstructedFcff_B": 5.214
           },
           "fy2025Actual": {
             "source": "https://www.prnewswire.com/news-releases/vistra-reports-fourth-quarter-and-full-year-2025-results-302697962.html",
@@ -130,23 +118,24 @@ const INDEPENDENT_VALUATION_DATA = {
             "taxesPaid_B": 0.089,
             "capexMaintenance_B": 1.348,
             "adjustedFcfBeforeGrowth_levered_B": 3.592,
-            "afterTaxInterestAddback_B": 0.243,
-            "reconstructedFcff_B": 3.835
+            "afterTaxInterestAddback_B": 0.915,
+            "afterTaxInterestFormula": "1.158 x (1-0.21) = 0.915",
+            "reconstructedFcff_B": 4.507
           },
           "remainingApproximations": [
             "순차입/상환(net borrowing) 현금흐름은 'Adjusted FCF before Growth' 산식에 별도 항목으로 없어 0으로 가정했다 -- 실제로는 0이 아닐 수 있고, 이 가정이 틀리면 FCFF 재구성치가 그만큼 달라진다.",
             "'Adjusted FCF before Growth'는 성장(growth) capex를 제외한 유지(maintenance) capex만 차감한 값이다(공식 명칭 그대로) -- 이 모델의 10%->2.5% 성장경로가 실제로는 별도 성장capex 지출 없이 달성 가능하다는 가정을 내포한다. 이 부분은 이번 수정 범위 밖이며, 성장경로 자체의 타당성은 AMAT 역산 DCF 작업과 같은 방식의 검증이 아직 필요하다.",
-            "세후이자 add-back에 쓴 21% 세율은 연방 statutory 근사치이며 VST의 실제 한계 현금세율을 별도 확인한 자료는 아니다(다만 민감도 점검상 결과에 미치는 영향은 작음)."
+            "세후이자 add-back에 쓴 21% 세율의 타당성 자체가 불확실하다 -- VST의 실제 납부세액이 매우 작아(이자 외 세금방패 존재 가능성), 이자 자체의 한계세율이 21%보다 낮을 수 있고, 그러면 진짜 addback은 0.889B~1.125B(0%~21% 세율 범위) 사이 어딘가일 수 있다(taxShieldRateSensitivity 참고). 이 불확실성은 이번 수정으로 해소되지 않았다."
           ]
         }
       },
-      "validationStatus": "draft_v2_fcff_reconstructed_2026-09-21",
+      "validationStatus": "draft_v3_fcff_formula_corrected_2026-09-21",
       "valueLowMethod": "EV/EBITDA 9.0배(보수 시나리오, evEbitdaScenarios.conservative_9.0x)",
-      "valueBaseMethod": "5년 DCF(WACC 8.5%, Gordon growth 영구성장률 2.5%, assumptions.dcf.perShare) -- 2026-09-21 세후이자 add-back으로 언레버드 FCFF 재구성 후 재계산(assumptions.dcf.fcffReconstruction 참고) -- EV/EBITDA 3개 시나리오의 평균·중앙값이 아님. 순차입 0 가정 등 remainingApproximations가 남아 있어 여전히 '검토용 값'으로 취급해야 함(확정 적정가 아님).",
+      "valueBaseMethod": "5년 DCF(WACC 8.5%, Gordon growth 영구성장률 2.5%, assumptions.dcf.perShare) -- 2026-09-21 세후이자(Interest x (1-세율)) add-back으로 언레버드 FCFF 재구성 후 재계산(assumptions.dcf.fcffReconstruction 참고, formulaErrorHistory에 이전 산식오류 기록) -- EV/EBITDA 3개 시나리오의 평균·중앙값이 아님. 순차입 0 가정·이자의 실제 한계세율 불확실성 등 remainingApproximations가 남아 있어 여전히 '검토용 값'으로 취급해야 함(확정 적정가 아님, taxShieldRateSensitivity의 $172~222 범위 참고).",
       "valueHighMethod": "EV/EBITDA 14.5배(피어 CEG·NRG 평균 동일배수 재평가 가정, evEbitdaScenarios.peerParity_CEG_NRG_avg_14.5x)",
       "valueRangeCaveat": "valueLow/valueHigh(EV/EBITDA 배수 시나리오)와 valueBase(DCF 결과)는 서로 다른 계산 방식의 산출값이며, 하나의 일관된 low-base-high 구간(같은 방법으로 만든 신뢰구간)이 아니다 -- 세 값을 같은 모델의 세 지점처럼 보여주면 오해를 줄 수 있다. DCF 기준값과 가장 가까운 EV/EBITDA 결과는 evEbitdaScenarios.ownCurrentMultiple_10.13x.perShare($145.54, '재평가 없이 EBITDA 성장만 반영'하는 시나리오)이다.",
       "boundaryPolicyNote": "매입가 상한(보수 9.0배)·비중재검토 하한(피어 동일배수 14.5배)은 통계적으로 검증된 성공확률을 가진 경계가 아니라, 이미 계산해 둔 EV/EBITDA 시나리오 스펙트럼의 양끝을 매매 경계로 재사용한 것이다(AMAT처럼 요구수익률로 별도 매입가 상한을 다시 산출하지 않음). 9.0배는 ERCOT 상품형 발전 가격변동성·머천트 발전 위험을 반영해 피어 대비 낮게 잡은 하한이고, 14.5배는 '시장이 결국 CEG·NRG 수준으로 재평가한다면 도달 가능한 상단'(낙관 시나리오)이다 -- 이 두 배수 선택 자체가 옳다는 통계적 근거는 없고, ERCOT 상품 발전 vs CEG/NRG의 계약·규제 발전 비중 차이에 대한 정성적 판단에 의존한다.",
-      "dcfCashflowMethodologyCaveat": "2026-09-21 재계산 완료(경고문 추가가 아니라 실제 재계산): 이전 스냅샷(v1)은 Vistra의 'Adjusted FCF before Growth'(Interest paid,net과 실제 납부세액을 이미 차감한 레버드 현금흐름)를 그대로 WACC로 할인해, 이자비용을 현금흐름과 할인율 양쪽에서 중복 반영하는 결함이 있었다. 이번에 Vistra의 Q2 2026 가이던스 조정표와 FY2025 실적 조정표(둘 다 아래 sources)에서 Interest paid,net·Taxes paid 원문 수치를 직접 대조해, 세후이자(Interest paid,net x (1-21%))를 다시 더해 언레버드 FCFF로 재구성했다(assumptions.dcf.fcffReconstruction에 전 과정 기록). 그 결과 valueBase가 $159.67에서 $172.67로 바뀌었다(+8.1%) -- 세율 가정을 20%로 바꿔도 $172.05로 변화가 작아(0.4%) 이 결과가 정확한 세율값에 크게 좌우되지 않음을 확인했다. 다만 이 재구성은 순차입(net borrowing)을 0으로 가정한 근사이며, 'Adjusted FCF before Growth'가 애초에 유지(maintenance) capex만 차감한 값이라 향후 성장경로(10%->2.5%)가 실제 성장capex 지출 없이 달성 가능하다는 회사 정의상의 가정을 그대로 물려받는다(assumptions.dcf.fcffReconstruction.remainingApproximations 참고) -- 그래서 $172.67도 여전히 '검토용 값'이며, EV/EBITDA 9.0배/14.5배 시나리오(별도 계산방식, 이번 수정과 무관)와 함께 하나의 확정 적정가처럼 취급하면 안 된다.",
+      "dcfCashflowMethodologyCaveat": "2026-09-21 3차 수정(산식 오류 발견·수정): 최초(v1) 문제는 Interest paid,net(이자지급)을 이미 차감한 레버드 현금흐름을 그대로 WACC로 할인해 이자비용을 이중반영한 것이었다 -- 이를 언레버드 FCFF로 재구성하는 게 목표다. 2차 수정(v2, perShare $172.67)에서 이를 고치려 했지만, '세후이자(after-tax interest) addback'이라고 설명하면서 실제로는 Interest x 세율(=세금절감분, tax shield)을 더하는 산식 오류가 있었다(예: FY2026 $1,125M 이자 부담 x 21% = $236M을 더함 -- 맞는 식은 $1,125M x (1-21%) = $889M). 이번(v3)에 식을 Interest x (1-세율)로 바로잡아 언레버드 FCFF를 재계산했다 -- perShare $172.67(v2, 오류)은 폐기하고 $208.61(v3, 수정)로 바뀐다. 세율 가정을 21%->20%로 바꿔도 $208.61->$209.23(0.3%)로 견고하지만, VST의 실제 납부세액이 EBITDA 대비 매우 작아(가속상각 등 이자 외 세금방패가 이미 크게 작동 중일 가능성) 21% 가정 자체가 이자의 실제 한계세율을 과대평가했을 수 있다 -- 0% 세율(총이자 전액 addback) 가정 시 $221.62까지 올라간다. 즉 $208.61은 대략 $172~222 범위 안의 한 지점이며, 순차입 0 가정과 함께 여전히 '검토용 값'이다(assumptions.dcf.fcffReconstruction.remainingApproximations, formulaErrorHistory 참고). EV/EBITDA 9.0배/14.5배 시나리오(별도 계산방식)와 하나의 확정 적정가처럼 취급하면 안 된다.",
       "unavailableReasons": null,
       "sources": [
         "https://investor.vistracorp.com/2026-08-07-Vistra-Reports-Second-Quarter-2026-Results",
@@ -158,7 +147,7 @@ const INDEPENDENT_VALUATION_DATA = {
         "https://stockanalysis.com/stocks/gev/statistics/",
         "https://stockanalysis.com/stocks/tln/statistics/"
       ],
-      "version": 2
+      "version": 3
     }
   },
   "AMAT": {
@@ -191,7 +180,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-21T18:52:45.734252",
+      "generatedAt": "2026-09-21T12:13:39.960240",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -1006,7 +995,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-21T18:52:45.925031",
+      "generatedAt": "2026-09-21T12:13:40.151447",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -1088,7 +1077,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-21T18:52:46.111735",
+      "generatedAt": "2026-09-21T12:13:40.331435",
       "asOfDate": "2026-09-21",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -1149,7 +1138,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "대상종목 비교가격 자료상태 문제: 통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
-      "withheldCheckedAt": "2026-09-21T18:52:46.300337",
+      "withheldCheckedAt": "2026-09-21T12:13:40.510873",
       "neverSucceeded": true
     }
   },
@@ -1160,7 +1149,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(780.8500341880879)<=band_low(780.8500341880879) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-21T18:52:46.462090",
+      "withheldCheckedAt": "2026-09-21T12:13:40.676447",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -1182,7 +1171,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(485.41399183817754)<=band_low(485.41399183817754) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-21T18:52:46.542378",
+      "withheldCheckedAt": "2026-09-21T12:13:40.758205",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -1204,7 +1193,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "선정 기준을 통과한 동종업계 배수가 하나도 없음 -- 밴드 산출 보류(0으로 채우지 않음)",
-      "withheldCheckedAt": "2026-09-21T18:52:46.624531",
+      "withheldCheckedAt": "2026-09-21T12:13:40.839053",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -1226,7 +1215,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "선정 기준을 통과한 동종업계 배수가 하나도 없음 -- 밴드 산출 보류(0으로 채우지 않음)",
-      "withheldCheckedAt": "2026-09-21T18:52:46.666044",
+      "withheldCheckedAt": "2026-09-21T12:13:40.880977",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -1248,7 +1237,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(1031.8389085049957)<=band_low(1031.8389085049957) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-21T18:52:46.707971",
+      "withheldCheckedAt": "2026-09-21T12:13:40.922434",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -1270,7 +1259,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(1200.4549874751785)<=band_low(1200.4549874751785) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-21T18:52:46.790108",
+      "withheldCheckedAt": "2026-09-21T12:13:41.004192",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
