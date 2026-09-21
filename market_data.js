@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 91.88999938964844,
+      "current": 91.97000122070312,
       "prevClose": 100.30000305175781,
-      "changeAbs": -8.410003662109375,
-      "changePct": -8.38484885964516,
-      "pctRank": 84.96420047732697,
+      "changeAbs": -8.330001831054688,
+      "changePct": -8.305086318647623,
+      "pctRank": 85.04375497215592,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -18.645416668974512,
-      "ma20": 93.08300170898437,
-      "ma60": 84.05333391825359,
-      "chg1m": 4.05999755859375,
-      "chg3m": 17.06999969482422,
-      "chg1mPct": 4.622563445237487,
-      "chg3mPct": 22.81475509816804,
+      "drawdown1y": -18.57458724602964,
+      "ma20": 93.08700180053711,
+      "ma60": 84.05466728210449,
+      "chg1m": 4.1399993896484375,
+      "chg3m": 17.150001525878906,
+      "chg1mPct": 4.71365057877595,
+      "chg3mPct": 22.921680828428663,
       "lastDate": "2026-09-21",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 100.427001953125,
+      "current": 100.40399932861328,
       "prevClose": 100.22000122070312,
-      "changeAbs": 0.207000732421875,
-      "changePct": 0.2065463279790037,
-      "pctRank": 38.02704852824185,
+      "changeAbs": 0.18399810791015625,
+      "changePct": 0.18359419843246472,
+      "pctRank": 37.94749403341289,
       "min5y": 93.0999984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.1642541581739163,
-      "ma20": 99.44384956359863,
-      "ma60": 100.13078358968099,
-      "chg1m": 1.5270004272460938,
-      "chg3m": -0.5929946899414062,
-      "chg1mPct": 1.5439842302191749,
-      "chg3mPct": -0.5870072358412683,
+      "drawdown1y": -1.1868923083299565,
+      "ma20": 99.44269943237305,
+      "ma60": 100.13040021260579,
+      "chg1m": 1.503997802734375,
+      "chg3m": -0.615997314453125,
+      "chg1mPct": 1.5207257629220843,
+      "chg3mPct": -0.6097776033685945,
       "lastDate": "2026-09-21",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4379.39990234375,
+      "current": 4381.0,
       "prevClose": 4424.89990234375,
-      "changeAbs": -45.5,
-      "changePct": -1.0282718480456445,
+      "changeAbs": -43.89990234375,
+      "changePct": -0.9921106310336514,
       "pctRank": 88.87122416534181,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.655686244770628,
-      "ma20": 4477.029956054687,
-      "ma60": 4292.8633219401045,
-      "chg1m": -192.0,
-      "chg3m": 176.69970703125,
-      "chg1mPct": -4.2000263398868665,
-      "chg3mPct": 4.204432836497183,
+      "drawdown1y": -17.625600172161747,
+      "ma20": 4477.1099609375,
+      "ma60": 4292.889990234375,
+      "chg1m": -190.39990234375,
+      "chg3m": 178.2998046875,
+      "chg1mPct": -4.165023984143944,
+      "chg3mPct": 4.242505922415486,
       "lastDate": "2026-09-21",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,18 +237,18 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Wall Street ends sharply higher as AI optimism reignites and Treasury yields retreat - reuters.com",
+      "headline": "Wall Street ends sharply higher as AI optimism reignites and Treasury yields retreat - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbUY0bG1IQkExN3pxSFZoX1VGN0hTNkluZ1hFd1F6VzZwdWtPRExzOXRnS0prRjV1M0I3U2tfUnhZcmJSQkV6STFKbUo2YXB6S1RhNUkycUFJUXg3UXA0WW9CWkRYaVVVUGRqRmRtUERCU1I4M3ZMYXhETmY1Q3FZQU9Ob1MtMzRONFc3NVFrNzVpcTQySVRzd1dENmcxdw?oc=5",
       "datetime": 1790020873,
-      "headlineKo": "인공지능 낙관론이 재점화되고 재무부가 후퇴함에 따라 월스트리트는 급격히 높아집니다 - reuters.com"
+      "headlineKo": "AI 낙관론이 다시 불붙고 국채수익률이 후퇴하면서 월가는 급격히 상승 마감 - Reuters"
     },
     {
-      "headline": "EXCLUSIVE: Trump approval falls to record low of 32% as high costs bite, Reuters/Ipsos poll finds - reuters.com",
+      "headline": "EXCLUSIVE: Trump approval falls to record low of 32% as high costs bite, Reuters/Ipsos poll finds - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa2xXN3ZZR05LSzJLYVpOTFZTVlJkLWhnZUxnRDVlckVJT0pDN3RDRFJoTnJObVJGY0RYMGJLYUpGT0pNVUlrUFlBTVlzS0hNbUhWNk1lYzBNUEdRYmQwNy04X3ZHQzAzY1NGZDZxVEhsOTl3LWFrcjFDMEJhaUxPS2hlbnlUMkRsYml0bnBkSVBUR3F0YUtXbWxDdnVScmE4dGw1LUhXelhOVVNyVm9YbWRJMXI1R2wybnNz?oc=5",
       "datetime": 1790018015,
-      "headlineKo": "독점: 트럼프의 승인은 높은 비용으로 32% 의 낮은 기록으로 떨어진다, 로이터/입소스 여론 조사 결과 - reuters.com"
+      "headlineKo": "독점: 높은 비용으로 트럼프 지지율이 32%로 최저치로 떨어졌다고 Reuters/Ipsos 여론조사 결과 - Reuters"
     },
     {
       "headline": "Intel surges 12% as CPU stocks rally. Here's what's driving the move",
@@ -258,25 +258,25 @@ const MARKET_DATA = {
       "headlineKo": "인텔은 CPU 주가 상승으로 12% 급등했습니다. 이러한 움직임을 주도하는 요인은 다음과 같습니다."
     },
     {
-      "headline": "Gaza students return to in-person schooling for first time in three years - reuters.com",
+      "headline": "Gaza students return to in-person schooling for first time in three years - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeWU4dWw2cjB2T1E3bV80M1JsUHpuZ3ZfUXNCak41UWx3T2kwdmgtY0RuOGd3Y3lWZzNmbGY3VU14SzJJRHpBTExyRmhLSDNfVlN3Uy1aRUZXaVduczlHajZ2WXBGVzBiY0J2US1zZFNEV3VzeHRaTXJWLXA3R1pGY2xnQ3hFcUw4WnVZczMxQ2U2M2czOGNJR29UZVA2VjBJMWtqQ1BHaUVtY3NxUTZXR0pRUEszN3Zq?oc=5",
       "datetime": 1790014760,
-      "headlineKo": "가자지구 학생들은 3년 만에 처음으로 대면 교육에 복귀합니다 - reuters.com"
+      "headlineKo": "가자지구 학생들, 3년 만에 처음으로 대면 학교로 복귀 - 로이터"
     },
     {
-      "headline": "Qatar's wealth fund and JP Morgan Asset Management to launch $20 billion partnership - reuters.com",
+      "headline": "Qatar's wealth fund and JP Morgan Asset Management to launch $20 billion partnership - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOczdRcTBZOTMtVlJTZ0ljR0lvX0VpdzJRbzAwaXdPN0tmVGJMNWJyRVY5d3ZsZUlENm9aWmdDN0dFellPVmMwc0JJdzA2a2dxTUVJNWdfZTJQQUhxUWJSalQyMC12UmxiR3NEZDBBQUpDdFE1V1dTQktKQUFqZ3JIc2N3SVkxMWxiTVhYYXdYelVxUU9XMGlDN3FOX0ZvSmc5dEVCdkJTNXE3dTFxUVVZQVQ4eTBhaG9EUmpWVG1FamY5UUkySGtFRQ?oc=5",
       "datetime": 1790013924,
-      "headlineKo": "카타르의 자산 펀드와 JP Morgan Asset Management, $ 200억 규모의 파트너십 시작 - reuters.com"
+      "headlineKo": "카타르 국부펀드와 JP모건자산운용, 200억 달러 규모 파트너십 개시 - 로이터"
     },
     {
-      "headline": "Europe's STOXX 600 rallies on tech, banks strength as oil prices retreat - reuters.com",
+      "headline": "Europe's STOXX 600 rallies on tech, banks strength as oil prices retreat - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYWF0aU9mWUM0TjNtekhpT0I0NTM1RXoydldTZDlzNVM4Q0FnRXFCLTlaLUQxdEZfMS1qeU1XV0lsNHhvc09zMTBUQV9xVFhaakdCU196dW5sQ212UHdLVjVySHo5UWczV0dVS2dnY3d2Q2dTbWRkOWFRZ0g5aTlGaEtnQkFQcno2ZjdfdndQdGdSR1c3MjdEXzNCZlhRM216di1sdllQSl9OT3pkcWRSd3p3?oc=5",
       "datetime": 1790008856,
-      "headlineKo": "유럽의 STOXX 600, 유가 후퇴로 은행 강세 - reuters.com"
+      "headlineKo": "유럽의 STOXX 600 지수는 유가 하락으로 기술과 은행의 강세를 보이며 랠리를 펼쳤습니다 - Reuters"
     },
     {
       "headline": "Global diesel prices hit record highs, further rises possible - Reuters",
@@ -286,11 +286,11 @@ const MARKET_DATA = {
       "headlineKo": "세계 디젤 가격이 사상 최고치를 기록했고, 추가 상승 가능성도 있다 - 로이터 통신"
     },
     {
-      "headline": "Houthis push for control of Yemen highlands as Trump is said to have called off strikes - reuters.com",
+      "headline": "Houthis push for control of Yemen highlands as Trump is said to have called off strikes - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbHBmWjNkMFR2Skw0MWVFaENxamFwbXN0RGxRei1RenlFVk11R1loSlZtdm16SW5ITGFMalY1bkNBOUVONnVVdENtbDZSdzByT0l0NkJiZUlSSzBvRHBBNWxKd01ja09Eb1Nla205aW5oQkxGVGpiUjZQUTJVYy1EWGx6R2JPN2pGWXVUU29CQ1ZyQmpSMWlzQ1VYUzhidC1SZ3VSMFhyVndUYUZYTXItOGgyTktsQnV1QW1ETzN4NnI2eWhZMXhoZ1h4eEU?oc=5",
       "datetime": 1790004401,
-      "headlineKo": "트럼프가 파업을 철회했다고 알려진 예멘 고지대의 통제를 위한 후티의 압박 - reuters.com"
+      "headlineKo": "트럼프가 공습을 취소한 것으로 알려지자 후티 반군, 예멘 고원 통제 추진 - 로이터 통신"
     },
     {
       "headline": "Kind Snacks founder Daniel Lubetzky: The No.1 piece of advice I give my kids about failure",
@@ -300,18 +300,18 @@ const MARKET_DATA = {
       "headlineKo": "Kind Snacks 창립자 Daniel Lubetzky: 실패에 관해 아이들에게 주는 최고의 조언"
     },
     {
-      "headline": "Czech government reinstates fuel margin caps, plans windfall tax on refineries - reuters.com",
+      "headline": "Czech government reinstates fuel margin caps, plans windfall tax on refineries - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdVZJUm9nYjlBVDQ3d2R1bEQzVk5JRkFMTDE4a0RBa3dxclgzNE0wNDFJY2JHQjkxaEhVUkhKdllrb2dMWFliczdNNlV6U1pxLVlwSEpmZjFtem82aVBIS3h5M0tBMUtyVTBadzQzRjVJcEMxUFVaWERESm1RY21rRHoySTJKdUc3VHJnSDdhQWtJQUxLTWRIbEl4cWlxRE9VZTZFNFQ0UE1VSFlscXpUejhMdFdHeEZJV2U4ekFIOF9WZ0FN?oc=5",
       "datetime": 1789999303,
-      "headlineKo": "체코 정부, 연료 마진 상한 복귀, 정유공장에 대한 횡재세 계획 - reuters.com"
+      "headlineKo": "체코 정부, 연료 마진 한도를 복원하고 정유소에 횡재세 계획 - Reuters"
     },
     {
-      "headline": "Trump, in call with Yemen president, did not pledge military support against Houthis, say sources - reuters.com",
+      "headline": "Trump, in call with Yemen president, did not pledge military support against Houthis, say sources - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbWVNTGJMWUoxcU5nWjh1amVGM0MzcFN0allQZ0oxZm96SVEzZzRtUXM3c2ZvM0hYdDlvc19kS1VDQ1kwcmtOTUVBQkJOOFJzekl6d2FVNEdtcWMwNVV1UG5nNzBfSjY5QUxLUlQxWGxwRU12WnJnQ21rZWx3VHhWd3hKV2gzZHdHSHV6Zkw3czZUTlVhUHd2anl6X2YyZ19UckV2Y2ZVcjZTZEJfYlJkZnhDYjZUTXI3RlVuZDBUWUtPSGVBN0ppMU1xQjBzQQ?oc=5",
       "datetime": 1789999063,
-      "headlineKo": "트럼프 대통령은 예멘 대통령과 통화하면서 후티에 대한 군사적 지원을 약속하지 않았다고 소식통은 말합니다 - reuters.com"
+      "headlineKo": "트럼프 대통령은 예멘 대통령과 통화에서 후티 반군에 대한 군사 지원을 약속하지 않았다고 소식통은 전했습니다."
     },
     {
       "headline": "These Gen Z-approved investment funds are having a moment—what investors should know",
@@ -325,10 +325,10 @@ const MARKET_DATA = {
     "score": 33.7142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1790023031.9863744,
-  "_updated_label": "2026-09-22 05:38",
-  "_last_attempt_at": 1790023031.9863744,
-  "_last_success_at": 1790023031.9863744,
+  "_fetched_at": 1790026299.1149025,
+  "_updated_label": "2026-09-22 06:32",
+  "_last_attempt_at": 1790026299.1149025,
+  "_last_success_at": 1790026299.1149025,
   "_collection_status": "ok",
   "_collection_errors": []
 };
