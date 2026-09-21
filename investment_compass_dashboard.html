@@ -4323,6 +4323,9 @@ function updateReturnConditionCardDOM(cardId){
   // [Bundle 3 신규] 상세화면에서 요구수익률을 바꾸면 목록 행 요약도 같은 값으로 즉시 갱신한다
   // -- 목록과 상세가 서로 다른 조건을 보여주는 일이 없도록.
   if(rcTicker) refreshListRowReturnSummary(rcTicker);
+  // [2026-09-21 3차 수정] 같은 이유로 첫 화면 대표가격 카드(열려 있으면)도 즉시 갱신한다 --
+  // 목록 요약만 갱신하고 첫 카드는 놓쳤던 결함 수정.
+  if(rcTicker) refreshAmatFrontCard(rcTicker);
 }
 document.addEventListener('input', function(e){
   const el = e.target;
@@ -4391,6 +4394,22 @@ function refreshListRowReturnSummary(ticker){
   const el = document.getElementById('list-rc-' + ticker);
   if(!el) return;
   el.innerHTML = buildReturnConditionListSummaryHtml(ticker);
+}
+// [2026-09-21 3차 수정 -- Codex 후속 검토 재현 결함1] 요구수익률 입력이 수익조건 카드·목록
+// 요약은 갱신하면서 첫 화면(01 판단 탭 맨 위) 대표가격 카드는 연결하지 않고 있었다 -- 같은
+// 화면 안에서 사용자가 방금 입력한 값과 다른(이전) 매입가 상한이 그대로 남아 보이는 결함.
+// renderAmatFrontCard(r)는 SHARED_REQUIRED_RETURN_BY_TICKER를 그때그때 다시 읽으므로, 카드가
+// 지금 열려 있으면(id로 찾아지면) 같은 함수를 다시 호출해 통째로 바꿔치기만 하면 된다 -- 새
+// 계산 로직을 만들지 않는다. 카드가 지금 화면에 없으면(다른 탭이거나 아직 상세를 안 열었으면)
+// 아무 것도 하지 않는다 -- 다음에 열릴 때 renderAmatFrontCard가 그 시점의 공유 상태를 읽는다.
+function refreshAmatFrontCard(ticker){
+  const el = document.getElementById('amat-front-' + ticker);
+  if(!el) return;
+  const r = (typeof results !== 'undefined') ? results[ticker] : null;
+  if(!r) return;
+  const html = renderAmatFrontCard(r);
+  if(!html){ el.remove(); return; }
+  el.outerHTML = html;
 }
 function renderReturnConditionCard(v, ticker){
   const rc = v.returnConditionYear3;
@@ -4760,13 +4779,26 @@ function computeAmatRepresentativeDecision(v, rv, r){
   const userRPct = SHARED_REQUIRED_RETURN_BY_TICKER[r.ticker];
   const policyBuyRPct = userRPct != null ? userRPct : 10;
   const policyIsUserChosen = userRPct != null;
-  const policyTrimRPct = 8; // 아래 rationale 참고 -- 미리 계산된 예시 구간의 가장 관대한 쪽 고정값
+  // [2026-09-21 3차 수정 -- Codex 후속 검토가 실제 계산으로 재현한 결함2] 비중재검토 문턱을
+  // 고정 8%로 두면, 사용자가 8%보다 더 낮은(더 관대한) 요구수익률(예: 5%)을 직접 입력했을 때
+  // 신규매수 매입가 상한(사용자 정책, 더 높음)이 비중재검토 매입가 상한(고정 8%, 더 낮음)보다
+  // 커져서 두 가격조건이 동시에 "충족"되는 구간이 생긴다(재현: 5% 입력 시 $209.73~$227.14
+  // 사이 가격이 신규매수·비중재검토 둘 다 충족으로 나옴). 8%를 사용자 정책과 무관한 별도
+  // 민감도 참고값으로 완전히 분리하는 대신, "비중재검토는 신규매수보다 항상 더 관대하거나
+  // 같은 요구수익률을 쓴다"는 단일 정책 규칙으로 통일한다 -- min(사용자/기본 매수 요구수익률,
+  // 8%)를 비중재검토 요구수익률로 써서, 매입가 상한이 항상 ceilingBuy <= ceilingTrimRef
+  // 순서를 지키게 한다(요구수익률이 낮을수록 매입가 상한은 커짐). 이러면 두 조건이 겹치는
+  // 구간 자체가 생기지 않는다 -- 분기 순서를 바꾸거나 5% 입력을 막아서 숨기는 게 아니라,
+  // 두 문턱의 관계 자체를 계산으로 일관되게 만든 것이다.
+  const policyTrimRPct = Math.min(policyBuyRPct, 8);
   const ceilingBuy = cashflowsByYear ? recomputeCeilingJS(cashflowsByYear, policyBuyRPct/100) : null;
   const ceilingTrimRef = cashflowsByYear ? recomputeCeilingJS(cashflowsByYear, policyTrimRPct/100) : null;
   const policyRationale = (policyIsUserChosen
       ? `사용자가 "수익조건(3년 보유)" 카드에 직접 입력한 요구수익률 ${policyBuyRPct}%를 신규매수 문턱에 그대로 적용했어요.`
       : `기본 제안값이에요 -- 이미 계산돼 있는 예시 요구수익률 구간(8%/10%/12%, "수익조건(3년 보유)" 카드와 같은 예시)의 가운데 값 ${policyBuyRPct}%를 신규매수 문턱으로 제안해요.`)
-    + ` 비중재검토 문턱은 그 예시 구간에서 가장 관대한 쪽(${policyTrimRPct}%)을 고정으로 써요 -- 그 관대한 기준으로도 정당화 안 되면 신호가 더 뚜렷하다는 뜻이에요.`
+    + (policyTrimRPct < policyBuyRPct
+        ? ` 비중재검토 문턱은 신규매수 문턱(${policyBuyRPct}%)과 예시 구간에서 가장 관대한 쪽(8%) 중 더 낮은 쪽인 ${policyTrimRPct}%를 써요 -- 신규매수 문턱보다 항상 더 관대하거나 같은 기준을 쓰도록 맞춰서, 두 조건이 서로 다른 가격에서 동시에 "충족"으로 나오는 모순이 생기지 않게 했어요.`
+        : ` 신규매수 문턱(${policyBuyRPct}%)이 이미 8% 이하로 충분히 관대해서, 비중재검토 문턱도 같은 ${policyTrimRPct}%를 그대로 써요(둘이 같은 기준이라 구간이 생기지 않아요) -- 그 기준으로도 정당화 안 되면 신호가 더 뚜렷하다는 뜻이에요.`)
     + ` 이 값들은 DCF가 계산에 쓴 할인율(WACC)을 그대로 가져온 게 아니라, 사용자가 원하는 연 수익률 기준으로 다시 문턱을 잡은 거예요 -- 모델 내재가치 계산 결과를 실제 시장 기대수익률로 단정하지 않아요. "수익조건" 카드에서 요구수익률을 바꾸면 이 문턱도 같은 값으로 다시 계산돼요.`;
 
   const newBuyPriceOk = (priceNumericValid && ceilingBuy != null) ? sanePrice <= ceilingBuy : null;
@@ -4797,10 +4829,10 @@ function computeAmatRepresentativeDecision(v, rv, r){
   const trimPriceOk = (priceNumericValid && ceilingTrimRef != null) ? sanePrice > ceilingTrimRef : null;
   const trim = {
     priceCondition: ceilingTrimRef != null
-      ? `현재가($${priceNumericValid ? sanePrice.toFixed(2) : '유효하지 않음'})가 요구수익률 ${policyTrimRPct}%(가장 관대한 예시) 기준 매입가 상한 $${ceilingTrimRef.toFixed(2)}보다 높아야 함`
+      ? `현재가($${priceNumericValid ? sanePrice.toFixed(2) : '유효하지 않음'})가 요구수익률 ${policyTrimRPct}%(신규매수 문턱보다 항상 더 관대하거나 같음) 기준 매입가 상한 $${ceilingTrimRef.toFixed(2)}보다 높아야 함`
       : '현금흐름 정보가 없어 매입가 상한을 계산할 수 없음(판단 불가)',
     priceOk: trimPriceOk,
-    businessCondition: `가장 관대한 요구수익률(${policyTrimRPct}%) 기준으로도 지금 가격을 정당화하지 못한다는 뜻 -- 다만 상대가치(동종기업 배수) 참고범위는 반대 방향을 가리킬 수 있어 두 신호가 엇갈릴 수 있음`,
+    businessCondition: `요구수익률 ${policyTrimRPct}%(신규매수보다 관대하거나 같은 기준) 기준으로도 지금 가격을 정당화하지 못한다는 뜻 -- 다만 상대가치(동종기업 배수) 참고범위는 반대 방향을 가리킬 수 있어 두 신호가 엇갈릴 수 있음`,
     // [결함1-나 재발 방지] bandStatus가 계산돼 있어도(공통 함수는 "이번 비교가격" 자체의
     // 최신성만으로 bandStatus를 계산 -- 스냅샷 자체 노후(rv.isStaleReference)와는 별개 검사),
     // relVerdict.judgmentAllowed가 false면(스냅샷 노후 포함) 그 값을 "지금 신호"로 인용하지
@@ -4811,7 +4843,7 @@ function computeAmatRepresentativeDecision(v, rv, r){
       : (relVerdict && !relVerdict.judgmentAllowed
           ? `상대가치 쪽은 이번엔 비교가 보류됐어요(${relVerdict.judgmentBlockedReason||'자료 노후'}) -- 과거 참고값을 지금 신호처럼 인용하지 않아요.`
           : null),
-    downsideRisk: ceilingTrimRef != null ? '가장 관대한 요구수익률 기준으로도 지금 가격이 정당화되지 않으므로, DCF 관점에서는 밸류에이션 되돌림(재평가 되돌림) 위험이 상방 여력보다 큼' : '-',
+    downsideRisk: ceilingTrimRef != null ? '신규매수보다 관대하거나 같은 요구수익률 기준으로도 지금 가격이 정당화되지 않으므로, DCF 관점에서는 밸류에이션 되돌림(재평가 되돌림) 위험이 상방 여력보다 큼' : '-',
   };
 
   // ---- DCF vs 상대가치 괴리 설명 -- 결함4: "계산 오류가 아닌 정상적인 차이"라고 검증 없이
@@ -4893,6 +4925,14 @@ function renderAmatFrontCard(r){
     nowLabel = `🔎 매입가 상한(요구수익률 ${d.policyBuyRPct}%) 이하 -- 신규매수 가격조건 충족(사업조건 ${triWord(d.newBuy.businessOk,'충족','미충족')})`;
     nowColor = d.newBuy.businessOk === false ? 'var(--warn)' : (d.newBuy.businessOk == null ? 'var(--sub)' : 'var(--up)');
     nowDetail = `현재가가 요구수익률 ${d.policyBuyRPct}% 기준 매입가 상한(${fmt(d.ceilingBuy)}) 이하 -- 사업조건: ${esc(d.newBuy.businessLabel)}`;
+  } else if(d.ceilingBuy == null || d.ceilingTrimRef == null){
+    // [2026-09-21 3차 수정 -- Codex 후속 검토 재현 결함3] 매입가 상한 두 개가 모두 계산 불가면
+    // (cashflowsByYear가 없는 경우 등) 신규매수·비중재검토 priceOk가 둘 다 null이 되어 아래
+    // else(구간 안)로 떨어졌었다 -- "계산 불가"를 "두 문턱 사이(중립 구간)"라는 확정된 위치로
+    // 잘못 표시한 것. 계산 불가와 구간 내 위치는 다른 사실이라 별도 분기로 분리한다. 위 대표
+    // 가격(DCF 기준값·범위)은 이 계산과 무관하게 이미 유효하면 그대로 계속 보여준다.
+    nowLabel = '❔ 판단 불가(매입가 상한 계산 불가)'; nowColor = 'var(--sub)';
+    nowDetail = '현금흐름 정보가 없어 요구수익률 기준 매입가 상한을 계산할 수 없어요 -- 신규매수·비중재검토 가격조건 중 어느 쪽도 판단할 수 없어요(둘 다 "충족 아님"이라는 뜻이 아니라 "계산 자체가 안 됨"이에요). 위 대표가격(DCF 기준값·범위)은 이 계산과 무관해 계속 유효해요.';
   } else {
     nowLabel = '↔ 매입가 상한 구간 안(신규매수·비중재검토 어느 쪽 가격조건도 아님)'; nowColor = 'var(--sub)';
     nowDetail = `요구수익률 ${d.policyTrimRPct}%~${d.policyBuyRPct}% 기준 매입가 상한(${fmt(d.ceilingTrimRef)}~${fmt(d.ceilingBuy)}) 사이 -- 기존 보유자는 사업조건 유지 여부만 확인`;
@@ -4914,7 +4954,7 @@ function renderAmatFrontCard(r){
     : `<span style="color:var(--warn);">${esc(d.invalidPriceNote||'유효하지 않은 값')}</span>`;
 
   return `
-    <div class="comment-box" style="background:var(--panel-2);margin-bottom:12px;border:1px solid var(--border,#333);">
+    <div class="comment-box" id="amat-front-${esc(r.ticker)}" style="background:var(--panel-2);margin-bottom:12px;border:1px solid var(--border,#333);">
       <b>🎯 AMAT 대표가격(DCF 기준) 요약</b>
       <span style="display:inline-block;margin-left:6px;padding:1px 6px;border-radius:8px;background:var(--panel);color:var(--sub);font-size:10px;font-weight:600;vertical-align:middle;">조건부 사업가치 추정</span>
       <div class="fund-row" style="margin-top:6px;"><span>대표가격 · 범위</span>
