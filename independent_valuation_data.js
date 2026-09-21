@@ -192,7 +192,7 @@ const INDEPENDENT_VALUATION_DATA = {
             "sourceUrl": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-third-quarter-2026-results/"
           }
         ],
-        "observationSummary": "3개 분기 모두 격차가 존재하고 부호도 두 번 바뀜(조정이 GAAP보다 낮았다가 높아짐) - 다른 두 종목보다 기준 모호성의 실질적 영향이 클 수 있음(확정 아님, 관찰일 뿐).",
+        "observationSummary": "3개 분기 모두 격차가 존재하고 부호가 한 번 바뀜(Q1·Q2엔 조정이 GAAP보다 낮았다가, Q3엔 조정이 GAAP보다 높아짐) - 부호 자체가 바뀐 것은 EPS 값이 음수였다는 뜻이 아니라 (조정-GAAP)/GAAP 차이의 방향이 바뀌었다는 뜻임. 다른 두 종목보다 기준 모호성의 실질적 영향이 클 수 있음(확정 아님, 관찰일 뿐).",
         "splitNote": null,
         "lastReviewed": "2026-09-21"
       }
@@ -1071,7 +1071,7 @@ const INDEPENDENT_VALUATION_DATA = {
             "diffPct": 3.1,
             "diffCalc": "(조정-GAAP)/GAAP",
             "sourceUrl": "https://ir.kla.com/news-events/press-releases/detail/514/kla-corporation-reports-fiscal-2026-third-quarter-results",
-            "note": "2026-05 10:1 액면분할 이전 수치 - 아래 분기와 주식 단위가 다름"
+            "note": "2026-06-11 시행된 10:1 액면분할 이전 수치 - 아래 분기와 주식 단위가 다름"
           },
           {
             "quarterLabel": "FY2026 Q4(2026-06 마감, 분할 후)",
@@ -1080,11 +1080,11 @@ const INDEPENDENT_VALUATION_DATA = {
             "diffPct": 1.0,
             "diffCalc": "(조정-GAAP)/GAAP",
             "sourceUrl": "https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full",
-            "note": "2026-05 10:1 액면분할 이후 수치"
+            "note": "2026-06-11 시행된 10:1 액면분할 이후 수치"
           }
         ],
-        "observationSummary": "분할 전·후 두 분기 모두 격차가 3% 미만으로 작음 - 기준 모호성의 실질적 영향은 낮아 보임(확정 아님, 관찰일 뿐).",
-        "splitNote": "KLA는 2026-05 10대1 액면분할을 실시함(https://ir.kla.com/news-events/press-releases/detail/515/kla-corporation-announces-ten-to-one-stock-split-and). 분할 전후 EPS를 절대값으로 직접 비교하지 말 것 - 위 두 관찰은 각각 분할 전/후로 표기했고 격차 비율(%)만 비교 가능.",
+        "observationSummary": "분할 전·후 두 분기 모두 격차가 약 1~3% 수준으로 작음(분할 전 3.1%, 분할 후 1.0%) - 기준 모호성의 실질적 영향은 낮아 보임(확정 아님, 관찰일 뿐).",
+        "splitNote": "KLA는 10대1 액면분할을 발표(2026-05)했고 실제 시행일은 2026-06-11임(https://ir.kla.com/news-events/press-releases/detail/515/kla-corporation-announces-ten-to-one-stock-split-and). 분할 전후 EPS를 절대값으로 직접 비교하지 말 것 - 위 두 관찰은 각각 분할 전/후로 표기했고 격차 비율(%)만 비교 가능.",
         "lastReviewed": "2026-09-21"
       }
     }
