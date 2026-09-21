@@ -5054,9 +5054,13 @@ function renderAmatFrontCard(r){
   // 줄만 읽으면 "요구수익률 10%"가 내가 입력한 값인지 시스템이 대신 정한 값인지 알 수 없었다.
   // 아래 배지를 항상 보이는 줄에 바로 붙인다(새 판정 로직 아님, 이미 계산된 d.policyIsUserChosen을
   // 그대로 드러낼 뿐).
+  // [2026-09-21 실사용 확인 중 수정] 이 배지는 nowDetail에 들어가는데, nowDetail 전체가
+  // 아래 렌더링부에서 esc()로 한 번 더 이스케이프된다(사업조건 라벨 등 다른 값도 이미 그래서
+  // 이중 이스케이프되고 있었음) -- HTML 태그(span)를 넣으면 화면에 "<span..." 글자가 그대로
+  // 노출되는 걸 실제 배포 페이지에서 직접 확인했다. 색상 강조 없이 일반 텍스트로만 구분한다.
   const policyTag = d.policyIsUserChosen
-    ? ' <span style="color:var(--accent);">(내가 입력한 값)</span>'
-    : ' <span style="color:var(--sub);">(시스템 제안 기본값 -- 아래에서 직접 바꿀 수 있음)</span>';
+    ? ' (내가 입력한 값)'
+    : ' (시스템 제안 기본값 -- 아래에서 직접 바꿀 수 있음)';
   let nowLabel, nowColor, nowDetail;
   if(!d.priceNumericValid){
     nowLabel = '❔ 판단 불가(현재가 값이 유효하지 않음)'; nowColor = 'var(--sub)';
