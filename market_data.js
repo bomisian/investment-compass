@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 94.0,
+      "current": 94.22000122070312,
       "prevClose": 100.30000305175781,
-      "changeAbs": -6.3000030517578125,
-      "changePct": -6.281159381926262,
+      "changeAbs": -6.0800018310546875,
+      "changePct": -6.0618161974703275,
       "pctRank": 87.03261734287987,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -16.777332855463257,
-      "ma20": 93.18850173950196,
-      "ma60": 84.08850059509277,
-      "chg1m": 6.1699981689453125,
-      "chg3m": 19.18000030517578,
-      "chg1mPct": 7.024932301394695,
-      "chg3mPct": 25.634857502548996,
+      "drawdown1y": -16.582555319697644,
+      "ma20": 93.1995018005371,
+      "ma60": 84.0921672821045,
+      "chg1m": 6.3899993896484375,
+      "chg3m": 19.400001525878906,
+      "chg1mPct": 7.275417575351888,
+      "chg3mPct": 25.92889816226627,
       "lastDate": "2026-09-21",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 100.30899810791016,
+      "current": 100.31900024414062,
       "prevClose": 100.22000122070312,
-      "changeAbs": 0.08899688720703125,
-      "changePct": 0.08880152277292785,
-      "pctRank": 37.47016706443914,
+      "changeAbs": 0.0989990234375,
+      "changePct": 0.09878170248619902,
+      "pctRank": 37.5497215592681,
       "min5y": 93.0999984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.280388243899755,
-      "ma20": 99.4379493713379,
-      "ma60": 100.12881685892741,
-      "chg1m": 1.40899658203125,
-      "chg3m": -0.71099853515625,
-      "chg1mPct": 1.424667907272541,
-      "chg3mPct": -0.7038195988744868,
+      "drawdown1y": -1.270544590548317,
+      "ma20": 99.43844947814941,
+      "ma60": 100.12898356119791,
+      "chg1m": 1.4189987182617188,
+      "chg3m": -0.7009963989257812,
+      "chg1mPct": 1.4347812905649076,
+      "chg3mPct": -0.6939184539894704,
       "lastDate": "2026-09-21",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4397.5,
+      "current": 4393.7998046875,
       "prevClose": 4424.89990234375,
-      "changeAbs": -27.39990234375,
-      "changePct": -0.6192208399841319,
-      "pctRank": 89.26868044515103,
+      "changeAbs": -31.10009765625,
+      "changePct": -0.7028429646459826,
+      "pctRank": 89.1891891891892,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.315356484154588,
-      "ma20": 4477.9349609375,
-      "ma60": 4293.164990234375,
-      "chg1m": -173.89990234375,
-      "chg3m": 194.7998046875,
-      "chg1mPct": -3.804084220559916,
-      "chg3mPct": 4.635110658256585,
+      "drawdown1y": -17.384929953251373,
+      "ma20": 4477.749951171875,
+      "ma60": 4293.1033203125,
+      "chg1m": -177.60009765625,
+      "chg3m": 191.099609375,
+      "chg1mPct": -3.8850265006392175,
+      "chg3mPct": 4.547067373212673,
       "lastDate": "2026-09-21",
       "bars": 1258,
       "symbol": "GC=F",
@@ -244,18 +244,25 @@ const MARKET_DATA = {
       "headlineKo": "시, 중국 무역 엔진의 활활 타오르는 가운데 트럼프 정상회담에 돌입 - reuters.com"
     },
     {
-      "headline": "Indian shares likely to open muted on oil price concerns - Reuters",
+      "headline": "Vessels trickle through Strait of Hormuz as Middle East conflict persists - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNHdMbF8wY2pMdE0tcHdWa3l5dkc5MGpKWVJEZW9VUnV2UTFlaTlVbVpOZ1pQN245SWZOLU4zWDd3ODlBTUhhZmlmaE1jUGltMzRKUF9xRl9CT2ZpMnNxcXkxOXdQeHJHajFzMkpoNWVnS3N6X3ExamF1ejcyQ3I1LW5DVHRXTXQ5MVVtTEE1cmtxLWhGMURaZ19pajA1blpROVVxRXQ3MHE4Zy1BLUVybldpUm01NU0?oc=5",
+      "datetime": 1789958160,
+      "headlineKo": "중동 분쟁이 지속되면서 선박들이 호르무즈 해협을 통과하고 있다 - reuters.com"
+    },
+    {
+      "headline": "Indian shares open muted as high oil prices, IPO rush weigh - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ3NYaXdLM1g3c3NKZkFDM2I0b0xENENVUGJFaFJIY01mVjQtV2swdVJVelBWV0hMNjBNeGFyTTItOGtRM0tYOTkxcTR1ZXJyS01WclBmMXRCTkdMOUdpbnpTdHhSamd2elBWMWlKVWpVNUoxX1c1emdyU2FlOE1aOHNvZXc1MDRtVlFtYzN4Ui0wMDZSUWNHZFRwSHE4Wm8?oc=5",
       "datetime": 1789957560,
-      "headlineKo": "유가 우려로 인도 증시는 소폭 하락할 듯 - Reuters"
+      "headlineKo": "인도 주식은 고유가와 IPO 러시로 인해 잠잠해졌다 - reuters.com"
     },
     {
-      "headline": "Oil hits over 1-week low on hopes of boost to diplomacy in Iran war - Reuters",
+      "headline": "Oil hits over 1-week low on hopes of boost to diplomacy in Iran war - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdEljbFotbFNVU2Nyb1oyaElIUXJJc1ltUmF5a1FrMl9xbEwyNG9LOWwyZ3F2dUZIUl9QYnd6OXU1cU10UGx0QzkxaVp6QkoxY3ZYSm1qc3FvbFprT29VcldJZ3V1Y1YtZ1A3MjEtTUo2dk9laHFBaWZBMFNOMmZDVC16aDBhYUdmdmZFdUJ4d0hoMW5hZTgxRk1ETQ?oc=5",
       "datetime": 1789942200,
-      "headlineKo": "이란 전쟁 외교 활성화 기대로 유가 1주 최저치 기록 - 로이터 통신"
+      "headlineKo": "이란 전쟁 외교 활성화 기대감에 유가 1주 최저치 기록 - reuters.com"
     },
     {
       "headline": "France vows response after Iran closes language centre in Tehran - Reuters",
@@ -265,18 +272,18 @@ const MARKET_DATA = {
       "headlineKo": "이란이 테헤란의 언어 센터를 폐쇄한 후 프랑스는 대응을 약속했습니다-로이터"
     },
     {
-      "headline": "Trump eyes busy week of meetings as UN General Assembly gathers - Reuters",
+      "headline": "Trump eyes busy week of meetings as UN General Assembly gathers - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUG5QOUZMTWpITXl6enkyOXptSEN2Y196S1Z1RnFocVJ2cFJDRElydmxybGdVaXdtLXZ1MlBkaGpTZEEwc3B6b1JDcW0xWmN6YVQ1bFBDelkyTWRGb0xtZlMwR096dzZ6ZkJFaGgtaTI3NER6cVF0TDZyY0pxbElISXpvVXhYV0t2anhqQVd4cGctSWl0U0JjUEVfOVJEbWdpTURkYw?oc=5",
       "datetime": 1789939033,
-      "headlineKo": "트럼프는 유엔 총회가 열리는 바쁜 주간을 주시하고 있습니다 - 로이터"
+      "headlineKo": "트럼프, 유엔 총회로 바쁜 주간 회의 주목 - reuters.com"
     },
     {
-      "headline": "Qatar launches wealth fund division for domestic investments - Reuters",
+      "headline": "Qatar launches wealth fund division for domestic investments - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbjFTdjVSY2VJTE13ZGZLR0FHWnFlNWNScVFWNHN4N1g0TzNKZElMY3dKb2hWajdiNHRlUjRRdlB0WGdmODZ2aDlBUXN0eUFsYUFWQUIwVC10emkxbnEtbllDNV81Wlp3ZGlzakExV3lWblNjeVZQTi1Vb2RiYm9kVUs0eUg2aVhIX2VSRF9IcEJENG1oTjZ0OTBCVFBGZEZjTmlFa1IzUkQ4U2xnQ1Nr?oc=5",
       "datetime": 1789916143,
-      "headlineKo": "카타르, 국내 투자를 위한 자산펀드 사업부 출범 - Reuters"
+      "headlineKo": "카타르, 국내 투자를 위한 자산펀드 사업부 출범 - reuters.com"
     },
     {
       "headline": "Palestinian gunman shoots dead Israeli in the West Bank, soldiers kill motorist - Reuters",
@@ -293,42 +300,35 @@ const MARKET_DATA = {
       "headlineKo": "심리학자가 말하는 회복력 있고 정서적으로 성숙한 아이를 키우고 있다는 8가지 신호"
     },
     {
-      "headline": "Iran and US trade threats after Houthi attacks escalate regional conflict - Reuters",
+      "headline": "Iran and US trade threats after Houthi attacks escalate regional conflict - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdWJkS01sRHBUcXZGZVVoTy1zVU04amJ0VUc3WnZ4UkVZd25TTTR6RGY1ZkV5OUtGZzFULVNDcEo4MzlZMmNkamt0VjR5VHg3YzRDaWhEOFAtZklDbFpGSXpCeE9BeGR3UWp3aFN1MVp2aUMyZE93ZnFUN0VTdzdkZGJnMDdrOFNtc1lhZC1UQlNDWFl3dGRWdjZwYkc2SHJGelBn?oc=5",
       "datetime": 1789910340,
-      "headlineKo": "후티 반군 공격 이후 이란과 미국의 무역 위협으로 지역 갈등 고조 - 로이터 통신"
+      "headlineKo": "후티 반군 공격 이후 이란과 미국의 무역 위협으로 지역 갈등 고조 - reuters.com"
     },
     {
-      "headline": "Saudi, Gulf stocks fall after Houthis claim Riyadh attacks - Reuters",
+      "headline": "Saudi, Gulf stocks fall after Houthis claim Riyadh attacks - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZnFXQ1lvNTg5TnJvazhfY3VXa0hrVms4RW1mdVBpR0k4QXZkempjX0h4Y2JIaGNvSm04YVJkTHRDTWpESVFDakhJMExiNGZSSktLcVFsM3VlM3ZibDQwVlE3czF4OEdLdXdnU0FPaUN1aHFLVWN3cW9uVHRTTDdDU1BNaUNMd3NQMlY5VGZPYzA5ODlMQi1rcWVDXzhFZHJWUF9tQjJqUUtzQW1yc0tYNw?oc=5",
       "datetime": 1789909176,
-      "headlineKo": "사우디와 걸프 주가는 후티 반군의 리야드 공격 주장 이후 하락 - 로이터"
+      "headlineKo": "사우디와 걸프 주가는 후티 반군의 리야드 공격 주장 이후 하락 - reuters.com"
     },
     {
-      "headline": "Iran seals French language centre in Tehran, accuses it of illegal activities - Reuters",
+      "headline": "Iran seals French language centre in Tehran, accuses it of illegal activities - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaXN4WDAwcUZkX2E4emIyUUMyczNhNldiSVlQcENLSDVrSng0SVl6bjBrSU9QRDJHbE5HSHBWeVZvX0J2RjlUQm1WclN4UnBmTmFoM29sZzNaa19uT1pUMjZuTndiT1hWXzBnQlZKalpCZGZQd2ZnOXo2cWlJZ05yT21vbUx4QXRIY2haTW5NQjhRcFJIeG5TSi10aGdOUkRxdHBCZDFXYUMyTlRNWF9UUW91NDJiRlp4ckpHSUpRVGxidw?oc=5",
       "datetime": 1789906134,
-      "headlineKo": "이란, 테헤란 프랑스어 센터 폐쇄, 불법 활동 혐의로 비난 - 로이터 통신"
-    },
-    {
-      "headline": "Budget airline king Bill Franke warms to first-class seats and premium upgrades",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/20/bill-franke-frontier-spirit-budget-airlines.html",
-      "datetime": 1789905601,
-      "headlineKo": "저가 항공사의 왕 빌 프랭케(Bill Franke)가 일등석 좌석과 프리미엄 업그레이드를 환영합니다."
+      "headlineKo": "이란, 테헤란 프랑스어 센터 폐쇄, 불법 활동 혐의로 비난 - reuters.com"
     }
   ],
   "fgi": {
     "score": 29.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789963904.2769334,
-  "_updated_label": "2026-09-21 13:12",
-  "_last_attempt_at": 1789963904.2769334,
-  "_last_success_at": 1789963904.2769334,
+  "_fetched_at": 1789967545.3716917,
+  "_updated_label": "2026-09-21 14:13",
+  "_last_attempt_at": 1789967545.3716917,
+  "_last_success_at": 1789967545.3716917,
   "_collection_status": "ok",
   "_collection_errors": []
 };
