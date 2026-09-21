@@ -530,6 +530,9 @@
      동일 확인됨) 옆에 AMAT 항목을 형제 키로 추가하는 방식으로 병합했다 -- 파일 종류를 늘리지
      않고, 기존 스크립트 로딩 순서·onerror 방어 로직도 그대로 유지된다. -->
 <script src="independent_valuation_data.js" onerror="void 0"></script>
+<!-- 2026-09-21 신규(봄이 요청: 일별 판단 이력 추적) -- 아직 배포 전이거나 파일이 없어도
+     onerror로 조용히 무시된다(카드 쪽에서도 typeof 체크로 없으면 그냥 숨김). -->
+<script src="amat_decision_history_data.js" onerror="void 0"></script>
 <script>
 // ============ 워치리스트 (지수ETF 제외 - 개별 종목 판단용) ============
 const ETF_THEME = "지수ETF";
@@ -3528,6 +3531,7 @@ function tabJudgement(r){
   return `
     ${decisionSummaryHtml(r)}
     ${renderAmatFrontCard(r)}
+    ${renderVstFrontCard(r)}
     ${buildAtAGlanceHtml(r)}
     ${buildValuationReasonablenessHtml(r)}
     ${earningsBadge(r.ticker)}
@@ -4896,6 +4900,35 @@ function computeAmatRepresentativeDecision(v, rv, r){
 // 않고 tabJudgement의 decisionSummaryHtml(status 배지) 바로 다음에 한 카드만 추가한다.
 // [2026-09-21 2차 수정] 위 계산 결과(공통 함수·3단 사업조건·현금흐름 기반 매매 경계·확인/미확인
 // 분리 괴리 설명)를 그대로 화면에 옮긴다 -- 이 함수는 새 판정을 만들지 않고 d의 필드만 읽는다.
+// 2026-09-21 신규(봄이 요청: "일별 판단·기준가격 변경 이유·이후 실제 실적과 성과를
+// 추적해 주세요") -- amat_decision_history.py가 매 주기(하루 1건, 과거 기록 불변) 만든
+// amat_decision_history_data.js를 그대로 읽어서 표로만 보여준다. 이 함수는 새 판정을
+// 만들지 않는다 -- 서버가 그날 이미 기록한 값만 그대로 옮긴다(화면이 지금 보여주는
+// "지금 판단"과 다를 수 있다 -- 서버 기록은 화면 기본 정책(10%/8%) 기준이고, 사용자가
+// 화면에서 요구수익률을 직접 입력했다면 "지금 판단"이 그 값을 반영해 다를 수 있기
+// 때문이다. 그 차이를 숨기지 않고 아래에 명시한다).
+function renderAmatDecisionHistoryHtml(ticker){
+  const store = (typeof AMAT_DECISION_HISTORY_DATA !== 'undefined') ? AMAT_DECISION_HISTORY_DATA : null;
+  const rows = (store && Array.isArray(store[ticker])) ? store[ticker] : [];
+  if(!rows.length) return '<div class="sub" style="margin:4px 0;">아직 기록된 일별 판단 이력이 없어요(다음 자동 갱신 주기부터 하루 1건씩 쌓여요).</div>';
+  const fmt = x => (typeof x === 'number' && isFinite(x)) ? `$${x.toFixed(2)}` : '-';
+  const recent = rows.slice(-14).reverse(); // 최근 14일, 최신이 위로
+  const body = recent.map(rec => `
+    <tr>
+      <td style="padding:3px 6px;white-space:nowrap;">${esc(rec.date||'-')}</td>
+      <td style="padding:3px 6px;white-space:nowrap;">${fmt(rec.price)}</td>
+      <td style="padding:3px 6px;white-space:nowrap;">${fmt(rec.ceilingBuy)} / ${fmt(rec.ceilingTrimRef)}</td>
+      <td style="padding:3px 6px;">${esc(rec.judgmentLabel||'-')}</td>
+      <td style="padding:3px 6px;color:var(--sub);font-size:10.5px;">${esc(rec.reasonForChange||'-')}</td>
+    </tr>`).join('');
+  return `
+    <div class="sub" style="margin:6px 0 4px;">기록은 화면 기본 정책(요구수익률 10%/8%) 기준이에요 -- 위에서 요구수익률을 직접 입력해도 이 기록엔 반영되지 않아요(서버는 사용자의 화면 입력을 알 수 없어요). 하루 1건만 기록되고 과거 기록은 바뀌지 않아요.</div>
+    <div style="overflow-x:auto;"><table style="width:100%;border-collapse:collapse;font-size:11.5px;">
+      <thead><tr style="color:var(--sub);text-align:left;"><th style="padding:3px 6px;">날짜</th><th style="padding:3px 6px;">현재가</th><th style="padding:3px 6px;">매입상한(10%/8%)</th><th style="padding:3px 6px;">판단</th><th style="padding:3px 6px;">전일 대비 변경 사유</th></tr></thead>
+      <tbody>${body}</tbody>
+    </table></div>
+    <div class="sub" style="margin-top:4px;color:var(--sub);font-size:10.5px;">최근 ${recent.length}건 표시(전체 ${rows.length}건 누적) -- 실제 이후 가격·실적과의 대조는 기록이 쌓이는 대로 이어서 추가할 예정이에요.</div>`;
+}
 function renderAmatFrontCard(r){
   const iv = (typeof INDEPENDENT_VALUATION_DATA !== 'undefined') ? INDEPENDENT_VALUATION_DATA[r.ticker] : null;
   if(!iv || !iv.valuation || iv.valuation.kind !== 'independent_value_dcf_scenario_engine') return '';
@@ -4985,6 +5018,150 @@ function renderAmatFrontCard(r){
         <div class="sub" style="margin:2px 0;">가격 조건: ${esc(d.trim.priceCondition)} — ${triIcon(d.trim.priceOk)} ${triWord(d.trim.priceOk,'충족','미충족')}</div>
         <div class="sub" style="margin:2px 0;">참고: ${esc(d.trim.businessCondition)}</div>
         ${d.trim.counterSignal?`<div class="sub" style="margin:2px 0;color:var(--warn);">⚠️ ${esc(d.trim.counterSignal)}</div>`:''}
+        <div class="sub" style="margin:2px 0 4px;">하방 위험: ${esc(d.trim.downsideRisk)}</div>
+        <div class="sub" style="margin-top:8px;color:var(--warn);">⚠️ 이 카드는 매수·매도를 지시하지 않아요 -- 가격·사업조건이 어느 상태인지만 사실대로 보여주고, 최종 판단은 사용자 몫이에요. 신규 주문·자동매매는 이 프로젝트에 추가하지 않아요.</div>
+      </details>
+      <details style="margin-top:6px;">
+        <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">📅 일별 판단 이력(기준가격 변경 이유 포함) 보기</summary>
+        ${renderAmatDecisionHistoryHtml(r.ticker)}
+      </details>
+    </div>`;
+}
+// ---- VST 대표가격 카드 (2026-09-21 종목 확대 1호 -- 봄이 요청: "종목별 사업에 맞는 방법을
+// 선택하고 AMAT 가정을 그대로 복제하지 마세요") -------------------------------------------
+// AMAT은 DCF 시나리오 엔진(현금흐름 할인 → 요구수익률 기준 매입가 상한)을 쓰지만, VST는 이미
+// 정상화 EBITDA에 동종기업(전력 생산 피어) 배수를 적용한 3개 시나리오 값(valueLow/Base/High)과
+// 5년 DCF 교차검증이 계산돼 있다 -- 그 값 자체가 가격 구간을 제공하므로, AMAT처럼 요구수익률로
+// 별도 매입가 상한을 다시 뽑지 않는다(방법을 억지로 통일하지 않음). 새 판정 로직을 이 카드가
+// 따로 만들지 않고, 이미 검증된 공통 함수(computeValuationVerdict·computeFinancialDirection)를
+// AMAT 카드와 똑같은 원칙으로 재사용한다. VST의 validationStatus는 아직 "draft_v1_snapshot"
+// (AMAT처럼 완결 검증되지 않음)이라 카드에 그 사실을 그대로 밝힌다(과장하지 않음).
+function computeVstRepresentativeDecision(r){
+  const iv = (typeof INDEPENDENT_VALUATION_DATA !== 'undefined') ? INDEPENDENT_VALUATION_DATA[r.ticker] : null;
+  if(!iv || !iv.valuation || iv.valuation.kind !== 'independent_value') return null;
+  const v = iv.valuation;
+  const priceAsOf = (r.series && r.series.dates && r.series.dates.length) ? r.series.dates[r.series.dates.length-1] : null;
+  const rawPrice = r.price;
+  const priceNumericValid = Number.isFinite(rawPrice) && rawPrice > 0;
+  const sanePrice = priceNumericValid ? rawPrice : null;
+  const invalidPriceNote = (!priceNumericValid && rawPrice != null)
+    ? `현재가로 받은 값(${rawPrice})이 유효한 양수가 아니에요 -- 이 값으로는 어떤 가격 비교도 하지 않아요.`
+    : null;
+
+  const verdict = computeValuationVerdict(r.ticker, sanePrice, priceAsOf);
+  if(verdict.status !== 'independent_confirmed') return null; // 스키마 불충족 등은 대표카드를 만들지 않음(지어내지 않음)
+  const dataOk = verdict.judgmentAllowed;
+  const dataReason = verdict.judgmentBlockedReason || null;
+
+  const fin = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA[r.ticker] : null;
+  const fd = fin ? computeFinancialDirection(r, fin) : null;
+  const quarterUnconfirmed = !!fd && (fd.latestQuarterRevenueMissing || fd.latestQuarterOpIncomeMissing);
+  const fdDeteriorating = !!fd && fd.verdict === '매출·수익성 동반 둔화';
+  const businessOk = (!fd) ? null : (quarterUnconfirmed ? null : !fdDeteriorating);
+  const businessLabel = !fd ? '실적 자료 자체가 연결되지 않아 확인 불가'
+    : quarterUnconfirmed ? `최신 분기 매출·영업이익이 아직 미확인(${fd.verdict}) -- 더 오래된 분기로 대신 판단하지 않음`
+    : `최신 분기 기준 확인됨: ${fd.verdict}`;
+
+  const valueLow = verdict.valueLow, valueBase = verdict.valueBase, valueHigh = verdict.valueHigh;
+  const newBuyPriceOk = (priceNumericValid && valueLow != null) ? sanePrice <= valueLow : null;
+  const trimPriceOk = (priceNumericValid && valueHigh != null) ? sanePrice > valueHigh : null;
+
+  return {
+    method: v.method || 'EV/EBITDA 배수(3개 시나리오) + DCF 교차검증',
+    methodReasonShort: 'AMAT의 현금흐름 할인·요구수익률 방식을 그대로 복제하지 않고, 정상화 EBITDA에 동종기업(전력 생산) 배수를 적용한 값과 5년 DCF를 교차검증했어요.',
+    evaluationPointNote: `모델 평가 기준일(${v.asOf}) 기준 값이에요 -- 오늘 날짜로 다시 계산(roll-forward)한 값이 아니에요.`,
+    valuationAnchorDate: v.asOf,
+    isDraft: v.validationStatus === 'draft_v1_snapshot',
+    validationStatusLabel: v.validationStatus || '-',
+    base: valueBase, low: valueLow, high: valueHigh,
+    rawPrice, price: sanePrice, priceNumericValid, invalidPriceNote,
+    priceAsOf, priceIsLive: true,
+    diffVsBasePct: verdict.diffPct, diffVsBaseSentence: verdict.diffSentence,
+    dataOk, dataReason,
+    newBuy: {
+      priceCondition: valueLow != null ? `현재가($${priceNumericValid?sanePrice.toFixed(2):'유효하지 않음'})가 보수 시나리오 값(9.0배 배수 기준) $${valueLow.toFixed(2)} 이하로 내려와야 함` : '값 없음(판단 불가)',
+      priceOk: newBuyPriceOk, businessOk, businessLabel,
+      dataCondition: '자료 최신성·이번 비교가격 관측일을 공통 게이트로 확인', dataOk, dataReason,
+      downsideRisk: 'ERCOT 전력가격 변동성·상품형 발전 마진 위험(피어보다 낮은 배수를 쓴 이유) -- 보수 시나리오보다 더 낮게 내려오면 그만큼 마진 여력이 커짐',
+    },
+    review: {
+      thesisCondition: '신규 매수 가격조건과 무관하게, 최신 분기 매출·영업이익 기준으로 "매출·수익성 동반 둔화"가 새로 확인됐는지만 봄(피어 배수·DCF 가정 자체를 이 카드가 다시 계산하지는 않음)',
+      thesisOk: businessOk, thesisLabel: businessLabel,
+      dataCondition: '자료 최신성 게이트에 걸리면 판단 자체를 보류(과거 참고값)', dataOk, dataReason,
+      downsideRisk: '최신 분기 실적 방향이 "동반 둔화"로 확인되면 보유 근거 자체를 재검토해야 함(가격과 무관한 위험)',
+    },
+    trim: {
+      priceCondition: valueHigh != null ? `현재가($${priceNumericValid?sanePrice.toFixed(2):'유효하지 않음'})가 피어 동일배수(재평가) 시나리오 값 $${valueHigh.toFixed(2)}보다 높아야 함` : '값 없음(판단 불가)',
+      priceOk: trimPriceOk,
+      businessCondition: '가장 낙관적인 재평가(피어 동일배수 14.5배) 시나리오로도 지금 가격을 정당화하지 못한다는 뜻',
+      downsideRisk: valueHigh != null ? '재평가(re-rating) 기대가 이미 가격에 선반영됐을 가능성 -- 실제 배수 확대가 뒤따르지 않으면 되돌림 위험' : '-',
+    },
+    policyRationale: `보수(9.0배)~피어 동일배수(14.5배) 시나리오 값을 그대로 매매 경계로 썼어요 -- AMAT처럼 요구수익률로 별도 상한을 다시 뽑지 않아요(이미 배수 시나리오 자체가 가격 구간을 제공하기 때문이에요).`,
+  };
+}
+function renderVstFrontCard(r){
+  const d = computeVstRepresentativeDecision(r);
+  if(!d) return '';
+  const fmt = x => x!=null ? `$${x.toFixed(2)}` : '-';
+  const pctStr = x => x!=null ? `${x>=0?'+':''}${x.toFixed(0)}%` : '-';
+  const triIcon = ok => ok==null ? '❔' : (ok ? '✅' : '❌');
+  const triWord = (ok, okWord, ngWord) => ok==null ? '미확인' : (ok ? okWord : ngWord);
+
+  let nowLabel, nowColor, nowDetail;
+  if(!d.priceNumericValid){
+    nowLabel = '❔ 판단 불가(현재가 값이 유효하지 않음)'; nowColor = 'var(--sub)';
+    nowDetail = d.invalidPriceNote || '-';
+  } else if(d.dataOk === false){
+    nowLabel = '⏸ 판단 보류(자료 최신성)'; nowColor = 'var(--warn)';
+    nowDetail = d.dataReason || '-';
+  } else if(d.trim.priceOk){
+    nowLabel = '📐 재평가(피어 동일배수) 시나리오 초과 -- 비중재검토 대상(신규매수 조건 아님)'; nowColor = 'var(--down)';
+    nowDetail = `현재가가 피어 동일배수 시나리오 값(${fmt(d.high)})보다 높음`;
+  } else if(d.newBuy.priceOk){
+    nowLabel = `🔎 보수 시나리오 값 이하 -- 신규매수 가격조건 충족(사업조건 ${triWord(d.newBuy.businessOk,'충족','미충족')})`;
+    nowColor = d.newBuy.businessOk === false ? 'var(--warn)' : (d.newBuy.businessOk == null ? 'var(--sub)' : 'var(--up)');
+    nowDetail = `현재가가 보수 시나리오 값(${fmt(d.low)}) 이하 -- 사업조건: ${esc(d.newBuy.businessLabel)}`;
+  } else if(d.low == null || d.high == null){
+    nowLabel = '❔ 판단 불가(가격 구간 계산 불가)'; nowColor = 'var(--sub)';
+    nowDetail = '보수·재평가 시나리오 값이 없어 신규매수·비중재검토 어느 쪽 가격조건도 판단할 수 없어요. 위 대표가격(중앙값)은 이 계산과 무관하게 계속 유효해요.';
+  } else {
+    nowLabel = '↔ 보수~재평가 시나리오 구간 안(신규매수·비중재검토 어느 쪽 가격조건도 아님)'; nowColor = 'var(--sub)';
+    nowDetail = `보수 시나리오 값(${fmt(d.low)})~재평가 시나리오 값(${fmt(d.high)}) 사이 -- 기존 보유자는 사업조건 유지 여부만 확인`;
+  }
+
+  const priceRow = d.priceNumericValid
+    ? `${fmt(d.price)} (${esc(d.priceAsOf||'-')}) · 대표가격 대비 ${d.diffVsBasePct!=null?pctStr(d.diffVsBasePct):esc(d.diffVsBaseSentence||'비교 불가')}`
+    : `<span style="color:var(--warn);">${esc(d.invalidPriceNote||'유효하지 않은 값')}</span>`;
+  const draftNote = d.isDraft
+    ? `<div class="sub" style="margin:2px 0 8px;color:var(--warn);">⚠️ 이 종목의 독립 적정가 모델은 아직 "${esc(d.validationStatusLabel)}"(초안 스냅샷) 단계예요 -- AMAT처럼 원자료 검증·격리 독립검토까지 마친 확정 모델이 아니에요.</div>`
+    : '';
+
+  return `
+    <div class="comment-box" id="vst-front-${esc(r.ticker)}" style="background:var(--panel-2);margin-bottom:12px;border:1px solid var(--border,#333);">
+      <b>🎯 VST 대표가격(EV/EBITDA+DCF 기준) 요약</b>
+      <span style="display:inline-block;margin-left:6px;padding:1px 6px;border-radius:8px;background:var(--panel);color:var(--sub);font-size:10px;font-weight:600;vertical-align:middle;">조건부 사업가치 추정 · 초안</span>
+      <div class="fund-row" style="margin-top:6px;"><span>대표가격 · 범위</span>
+        <span class="v"><b>${fmt(d.base)}</b> (보수 ${fmt(d.low)} ~ 재평가 ${fmt(d.high)})</span></div>
+      <div class="fund-row"><span>현재가 · 관측일</span>
+        <span class="v">${priceRow}</span></div>
+      <div class="sub" style="margin:2px 0 8px;color:${nowColor};"><b>지금 판단: ${nowLabel}</b><br>${esc(nowDetail)}</div>
+      ${draftNote}
+      <details style="margin-top:6px;">
+        <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">주 방법 선택 근거 · 매매 경계 산출 · 행동조건(신규매수/기존보유/비중재검토) 자세히 보기</summary>
+        <div class="sub" style="margin:8px 0 6px;"><b>왜 EV/EBITDA+DCF를 대표 기준으로 썼는가</b>: ${esc(d.methodReasonShort)}. ${esc(d.evaluationPointNote)}</div>
+        <div class="sub" style="margin:8px 0 6px;"><b>매매 경계는 어떻게 나왔는가</b>: ${esc(d.policyRationale)}</div>
+        <div class="sub" style="margin:8px 0 4px;"><b>① 신규매수검토</b></div>
+        <div class="sub" style="margin:2px 0;">가격 조건: ${esc(d.newBuy.priceCondition)} — ${triIcon(d.newBuy.priceOk)} ${triWord(d.newBuy.priceOk,'충족','미충족')}</div>
+        <div class="sub" style="margin:2px 0;">사업 조건: ${esc(d.newBuy.businessCondition)} — ${triIcon(d.newBuy.businessOk)} ${esc(d.newBuy.businessLabel)}</div>
+        <div class="sub" style="margin:2px 0;">자료 조건: ${esc(d.newBuy.dataCondition)} — ${triIcon(d.newBuy.dataOk)} ${d.newBuy.dataOk==null?'미확인':(d.newBuy.dataOk?'정상':('보류' + (d.newBuy.dataReason?`(${esc(d.newBuy.dataReason)})`:'')))}</div>
+        <div class="sub" style="margin:2px 0 8px;">하방 위험: ${esc(d.newBuy.downsideRisk)}</div>
+        <div class="sub" style="margin:8px 0 4px;"><b>② 기존보유</b> <span style="font-weight:400;">(신규매수 가격조건과 다른 질문 -- 이미 보유 중인 경우에만 해당)</span></div>
+        <div class="sub" style="margin:2px 0;">사업 조건(보유 근거 유지 여부): ${esc(d.review.thesisCondition)} — ${triIcon(d.review.thesisOk)} ${esc(d.review.thesisLabel)}</div>
+        <div class="sub" style="margin:2px 0;">자료 조건: ${esc(d.review.dataCondition)} — ${triIcon(d.review.dataOk)} ${d.review.dataOk==null?'미확인':(d.review.dataOk?'정상':('보류' + (d.review.dataReason?`(${esc(d.review.dataReason)})`:'')))}</div>
+        <div class="sub" style="margin:2px 0 8px;">하방 위험: ${esc(d.review.downsideRisk)}</div>
+        <div class="sub" style="margin:8px 0 4px;"><b>③ 비중재검토</b></div>
+        <div class="sub" style="margin:2px 0;">가격 조건: ${esc(d.trim.priceCondition)} — ${triIcon(d.trim.priceOk)} ${triWord(d.trim.priceOk,'충족','미충족')}</div>
+        <div class="sub" style="margin:2px 0;">참고: ${esc(d.trim.businessCondition)}</div>
         <div class="sub" style="margin:2px 0 4px;">하방 위험: ${esc(d.trim.downsideRisk)}</div>
         <div class="sub" style="margin-top:8px;color:var(--warn);">⚠️ 이 카드는 매수·매도를 지시하지 않아요 -- 가격·사업조건이 어느 상태인지만 사실대로 보여주고, 최종 판단은 사용자 몫이에요. 신규 주문·자동매매는 이 프로젝트에 추가하지 않아요.</div>
       </details>
