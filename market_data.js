@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 14.979999542236328,
+      "current": 14.869999885559082,
       "prevClose": 14.8100004196167,
-      "changeAbs": 0.1699991226196289,
-      "changePct": 1.1478671019783042,
-      "pctRank": 21.479713603818613,
+      "changeAbs": 0.05999946594238281,
+      "changePct": 0.4051280502525176,
+      "pctRank": 20.445505171042164,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -51.755233783205526,
-      "ma20": 15.66549997329712,
-      "ma60": 16.166499932607014,
-      "chg1m": -0.15000057220458984,
-      "chg3m": -4.510000228881836,
-      "chg1mPct": -0.9914115734964266,
-      "chg3mPct": -23.14007327781047,
+      "drawdown1y": -52.10949999699002,
+      "ma20": 15.659999990463257,
+      "ma60": 16.164666604995727,
+      "chg1m": -0.26000022888183594,
+      "chg3m": -4.619999885559082,
+      "chg1mPct": -1.718441684833017,
+      "chg3mPct": -23.70446351880089,
       "lastDate": "2026-09-21",
       "bars": 1257,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 92.12000274658203,
+      "current": 91.88999938964844,
       "prevClose": 100.30000305175781,
-      "changeAbs": -8.180000305175781,
-      "changePct": -8.155533455920889,
-      "pctRank": 85.2824184566428,
+      "changeAbs": -8.410003662109375,
+      "changePct": -8.38484885964516,
+      "pctRank": 84.96420047732697,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -18.4417837666744,
-      "ma20": 93.09450187683106,
-      "ma60": 84.0571673075358,
-      "chg1m": 4.290000915527344,
-      "chg3m": 17.300003051757812,
-      "chg1mPct": 4.884436782523779,
-      "chg3mPct": 23.122164023417614,
+      "drawdown1y": -18.645416668974512,
+      "ma20": 93.08300170898437,
+      "ma60": 84.05333391825359,
+      "chg1m": 4.05999755859375,
+      "chg3m": 17.06999969482422,
+      "chg1mPct": 4.622563445237487,
+      "chg3mPct": 22.81475509816804,
       "lastDate": "2026-09-21",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 100.39299774169922,
+      "current": 100.427001953125,
       "prevClose": 100.22000122070312,
-      "changeAbs": 0.17299652099609375,
-      "changePct": 0.17261676201252796,
-      "pctRank": 37.94749403341289,
+      "changeAbs": 0.207000732421875,
+      "changePct": 0.2065463279790037,
+      "pctRank": 38.02704852824185,
       "min5y": 93.0999984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.1977195761657788,
-      "ma20": 99.44214935302735,
-      "ma60": 100.13021685282389,
-      "chg1m": 1.4929962158203125,
-      "chg3m": -0.6269989013671875,
-      "chg1mPct": 1.5096018127255983,
-      "chg3mPct": -0.6206681075060421,
+      "drawdown1y": -1.1642541581739163,
+      "ma20": 99.44384956359863,
+      "ma60": 100.13078358968099,
+      "chg1m": 1.5270004272460938,
+      "chg3m": -0.5929946899414062,
+      "chg1mPct": 1.5439842302191749,
+      "chg3mPct": -0.5870072358412683,
       "lastDate": "2026-09-21",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4387.7001953125,
+      "current": 4379.39990234375,
       "prevClose": 4424.89990234375,
-      "changeAbs": -37.19970703125,
-      "changePct": -0.8406903625446154,
-      "pctRank": 89.1891891891892,
+      "changeAbs": -45.5,
+      "changePct": -1.0282718480456445,
+      "pctRank": 88.87122416534181,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.49961875979095,
-      "ma20": 4477.444970703125,
-      "ma60": 4293.00166015625,
-      "chg1m": -183.69970703125,
-      "chg3m": 185.0,
-      "chg1mPct": -4.01845629250391,
-      "chg3mPct": 4.401931886703233,
+      "drawdown1y": -17.655686244770628,
+      "ma20": 4477.029956054687,
+      "ma60": 4292.8633219401045,
+      "chg1m": -192.0,
+      "chg3m": 176.69970703125,
+      "chg1mPct": -4.2000263398868665,
+      "chg3mPct": 4.204432836497183,
       "lastDate": "2026-09-21",
       "bars": 1258,
       "symbol": "GC=F",
@@ -164,23 +164,23 @@ const MARKET_DATA = {
       "digits": 2
     },
     "dow": {
-      "current": 52116.6484375,
+      "current": 52048.828125,
       "prevClose": 51682.640625,
-      "changeAbs": 434.0078125,
-      "changePct": 0.8397554909182816,
-      "pctRank": 96.01593625498009,
+      "changeAbs": 366.1875,
+      "changePct": 0.7085309410890807,
+      "pctRank": 95.85326953748007,
       "min5y": 28725.509765625,
       "max5y": 54349.12109375,
       "high1y": 54349.12109375,
-      "drawdown1y": -4.107651809859214,
-      "ma20": 52753.03046875,
-      "ma60": 52809.95299479167,
-      "chg1m": -642.5625,
-      "chg3m": 403.9375,
-      "chg1mPct": -1.2179152958924975,
-      "chg3mPct": 0.7811183994747423,
+      "drawdown1y": -4.232438211433243,
+      "ma20": 52749.639453125,
+      "ma60": 52808.82265625,
+      "chg1m": -710.3828125,
+      "chg3m": 336.1171875,
+      "chg1mPct": -1.346462162486734,
+      "chg3mPct": 0.6499701551253644,
       "lastDate": "2026-09-21",
-      "bars": 1255,
+      "bars": 1254,
       "symbol": "^DJI",
       "label": "다우존스 지수",
       "unit": "",
@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 10.089420350601298,
-        "ret3m": 20.882471013953175,
-        "ret6m": 24.476277606580823,
-        "ret1y": 5.977496227659018,
+        "ret1m": 9.82458047191419,
+        "ret3m": 20.591666512877804,
+        "ret6m": 24.17682755810422,
+        "ret1y": 5.722548321174359,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 8.394826931917287,
-        "ret3m": -13.89042798187372,
-        "ret6m": 89.83128244803787,
-        "ret1y": 208.44240566385773,
+        "ret1m": 8.090405039072234,
+        "ret3m": -14.132262759859026,
+        "ret6m": 89.29815001026633,
+        "ret1y": 207.5761593343641,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": 11.38285037440565,
-        "ret3m": 0.7346893319704506,
-        "ret6m": 45.94431296801087,
-        "ret1y": 216.24072559584587,
+        "ret1m": 10.88973852835391,
+        "ret3m": 0.28871880373417813,
+        "ret6m": 45.29819133127331,
+        "ret1y": 214.8406712116106,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": 1.9738035597830939,
-        "ret3m": -13.793374820813288,
-        "ret6m": 16.82033769213409,
-        "ret1y": 47.55349725328226,
+        "ret1m": 1.5801451807438305,
+        "ret3m": -14.126165784235456,
+        "ret6m": 16.369365940867155,
+        "ret1y": 46.98388360229935,
         "winRate": null,
         "count": 12
       }
@@ -229,13 +229,27 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.11709450160556532,
-    "corrPctRank": 1.2552301255230125,
+    "corr60": 0.11241622434136349,
+    "corrPctRank": 1.0887772194304857,
     "corrMin5y": 0.036257837878636255,
-    "corrMedian5y": 0.7046101936389526,
+    "corrMedian5y": 0.7050006629246074,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
+    {
+      "headline": "Wall Street ends sharply higher as AI optimism reignites and Treasury yields retreat - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbUY0bG1IQkExN3pxSFZoX1VGN0hTNkluZ1hFd1F6VzZwdWtPRExzOXRnS0prRjV1M0I3U2tfUnhZcmJSQkV6STFKbUo2YXB6S1RhNUkycUFJUXg3UXA0WW9CWkRYaVVVUGRqRmRtUERCU1I4M3ZMYXhETmY1Q3FZQU9Ob1MtMzRONFc3NVFrNzVpcTQySVRzd1dENmcxdw?oc=5",
+      "datetime": 1790020873,
+      "headlineKo": "인공지능 낙관론이 재점화되고 재무부가 후퇴함에 따라 월스트리트는 급격히 높아집니다 - reuters.com"
+    },
+    {
+      "headline": "EXCLUSIVE: Trump approval falls to record low of 32% as high costs bite, Reuters/Ipsos poll finds - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa2xXN3ZZR05LSzJLYVpOTFZTVlJkLWhnZUxnRDVlckVJT0pDN3RDRFJoTnJObVJGY0RYMGJLYUpGT0pNVUlrUFlBTVlzS0hNbUhWNk1lYzBNUEdRYmQwNy04X3ZHQzAzY1NGZDZxVEhsOTl3LWFrcjFDMEJhaUxPS2hlbnlUMkRsYml0bnBkSVBUR3F0YUtXbWxDdnVScmE4dGw1LUhXelhOVVNyVm9YbWRJMXI1R2wybnNz?oc=5",
+      "datetime": 1790018015,
+      "headlineKo": "독점: 트럼프의 승인은 높은 비용으로 32% 의 낮은 기록으로 떨어진다, 로이터/입소스 여론 조사 결과 - reuters.com"
+    },
     {
       "headline": "Intel surges 12% as CPU stocks rally. Here's what's driving the move",
       "source": "CNBC",
@@ -244,25 +258,25 @@ const MARKET_DATA = {
       "headlineKo": "인텔은 CPU 주가 상승으로 12% 급등했습니다. 이러한 움직임을 주도하는 요인은 다음과 같습니다."
     },
     {
-      "headline": "Wall Street rallies as AI optimism reignites and Treasury yields retreat - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbUY0bG1IQkExN3pxSFZoX1VGN0hTNkluZ1hFd1F6VzZwdWtPRExzOXRnS0prRjV1M0I3U2tfUnhZcmJSQkV6STFKbUo2YXB6S1RhNUkycUFJUXg3UXA0WW9CWkRYaVVVUGRqRmRtUERCU1I4M3ZMYXhETmY1Q3FZQU9Ob1MtMzRONFc3NVFrNzVpcTQySVRzd1dENmcxdw?oc=5",
-      "datetime": 1790015274,
-      "headlineKo": "AI 낙관주의가 다시 불붙고 재무부가 후퇴하면서 월스트리트가 반등했습니다 - Reuters"
-    },
-    {
-      "headline": "Gaza students return to in-person schooling for first time in three years - Reuters",
+      "headline": "Gaza students return to in-person schooling for first time in three years - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeWU4dWw2cjB2T1E3bV80M1JsUHpuZ3ZfUXNCak41UWx3T2kwdmgtY0RuOGd3Y3lWZzNmbGY3VU14SzJJRHpBTExyRmhLSDNfVlN3Uy1aRUZXaVduczlHajZ2WXBGVzBiY0J2US1zZFNEV3VzeHRaTXJWLXA3R1pGY2xnQ3hFcUw4WnVZczMxQ2U2M2czOGNJR29UZVA2VjBJMWtqQ1BHaUVtY3NxUTZXR0pRUEszN3Zq?oc=5",
       "datetime": 1790014760,
-      "headlineKo": "가자지구 학생들, 3년 만에 처음으로 대면 학교로 복귀 - 로이터"
+      "headlineKo": "가자지구 학생들은 3년 만에 처음으로 대면 교육에 복귀합니다 - reuters.com"
     },
     {
-      "headline": "Qatar's wealth fund and JP Morgan Asset Management to launch $20 billion partnership - Reuters",
+      "headline": "Qatar's wealth fund and JP Morgan Asset Management to launch $20 billion partnership - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOczdRcTBZOTMtVlJTZ0ljR0lvX0VpdzJRbzAwaXdPN0tmVGJMNWJyRVY5d3ZsZUlENm9aWmdDN0dFellPVmMwc0JJdzA2a2dxTUVJNWdfZTJQQUhxUWJSalQyMC12UmxiR3NEZDBBQUpDdFE1V1dTQktKQUFqZ3JIc2N3SVkxMWxiTVhYYXdYelVxUU9XMGlDN3FOX0ZvSmc5dEVCdkJTNXE3dTFxUVVZQVQ4eTBhaG9EUmpWVG1FamY5UUkySGtFRQ?oc=5",
       "datetime": 1790013924,
-      "headlineKo": "카타르 국부펀드와 JP모건자산운용, 200억 달러 규모 파트너십 개시 - 로이터"
+      "headlineKo": "카타르의 자산 펀드와 JP Morgan Asset Management, $ 200억 규모의 파트너십 시작 - reuters.com"
+    },
+    {
+      "headline": "Europe's STOXX 600 rallies on tech, banks strength as oil prices retreat - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYWF0aU9mWUM0TjNtekhpT0I0NTM1RXoydldTZDlzNVM4Q0FnRXFCLTlaLUQxdEZfMS1qeU1XV0lsNHhvc09zMTBUQV9xVFhaakdCU196dW5sQ212UHdLVjVySHo5UWczV0dVS2dnY3d2Q2dTbWRkOWFRZ0g5aTlGaEtnQkFQcno2ZjdfdndQdGdSR1c3MjdEXzNCZlhRM216di1sdllQSl9OT3pkcWRSd3p3?oc=5",
+      "datetime": 1790008856,
+      "headlineKo": "유럽의 STOXX 600, 유가 후퇴로 은행 강세 - reuters.com"
     },
     {
       "headline": "Global diesel prices hit record highs, further rises possible - Reuters",
@@ -272,11 +286,11 @@ const MARKET_DATA = {
       "headlineKo": "세계 디젤 가격이 사상 최고치를 기록했고, 추가 상승 가능성도 있다 - 로이터 통신"
     },
     {
-      "headline": "Houthis push for control of Yemen highlands as Trump is said to have called off strikes - Reuters",
+      "headline": "Houthis push for control of Yemen highlands as Trump is said to have called off strikes - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbHBmWjNkMFR2Skw0MWVFaENxamFwbXN0RGxRei1RenlFVk11R1loSlZtdm16SW5ITGFMalY1bkNBOUVONnVVdENtbDZSdzByT0l0NkJiZUlSSzBvRHBBNWxKd01ja09Eb1Nla205aW5oQkxGVGpiUjZQUTJVYy1EWGx6R2JPN2pGWXVUU29CQ1ZyQmpSMWlzQ1VYUzhidC1SZ3VSMFhyVndUYUZYTXItOGgyTktsQnV1QW1ETzN4NnI2eWhZMXhoZ1h4eEU?oc=5",
       "datetime": 1790004401,
-      "headlineKo": "트럼프가 공습을 취소한 것으로 알려지자 후티 반군이 예멘 고원 통제를 추진하다 - 로이터 통신"
+      "headlineKo": "트럼프가 파업을 철회했다고 알려진 예멘 고지대의 통제를 위한 후티의 압박 - reuters.com"
     },
     {
       "headline": "Kind Snacks founder Daniel Lubetzky: The No.1 piece of advice I give my kids about failure",
@@ -286,18 +300,18 @@ const MARKET_DATA = {
       "headlineKo": "Kind Snacks 창립자 Daniel Lubetzky: 실패에 관해 아이들에게 주는 최고의 조언"
     },
     {
-      "headline": "Czech government reinstates fuel margin caps, plans windfall tax on refineries - Reuters",
+      "headline": "Czech government reinstates fuel margin caps, plans windfall tax on refineries - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdVZJUm9nYjlBVDQ3d2R1bEQzVk5JRkFMTDE4a0RBa3dxclgzNE0wNDFJY2JHQjkxaEhVUkhKdllrb2dMWFliczdNNlV6U1pxLVlwSEpmZjFtem82aVBIS3h5M0tBMUtyVTBadzQzRjVJcEMxUFVaWERESm1RY21rRHoySTJKdUc3VHJnSDdhQWtJQUxLTWRIbEl4cWlxRE9VZTZFNFQ0UE1VSFlscXpUejhMdFdHeEZJV2U4ekFIOF9WZ0FN?oc=5",
       "datetime": 1789999303,
-      "headlineKo": "체코 정부, 연료 마진 한도를 복원하고 정유소에 횡재세 계획 - Reuters"
+      "headlineKo": "체코 정부, 연료 마진 상한 복귀, 정유공장에 대한 횡재세 계획 - reuters.com"
     },
     {
-      "headline": "Trump, in call with Yemen president, did not pledge military support against Houthis, say sources - Reuters",
+      "headline": "Trump, in call with Yemen president, did not pledge military support against Houthis, say sources - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbWVNTGJMWUoxcU5nWjh1amVGM0MzcFN0allQZ0oxZm96SVEzZzRtUXM3c2ZvM0hYdDlvc19kS1VDQ1kwcmtOTUVBQkJOOFJzekl6d2FVNEdtcWMwNVV1UG5nNzBfSjY5QUxLUlQxWGxwRU12WnJnQ21rZWx3VHhWd3hKV2gzZHdHSHV6Zkw3czZUTlVhUHd2anl6X2YyZ19UckV2Y2ZVcjZTZEJfYlJkZnhDYjZUTXI3RlVuZDBUWUtPSGVBN0ppMU1xQjBzQQ?oc=5",
       "datetime": 1789999063,
-      "headlineKo": "트럼프 대통령은 예멘 대통령과 통화에서 후티 반군에 대한 군사 지원을 약속하지 않았다고 소식통은 전했습니다."
+      "headlineKo": "트럼프 대통령은 예멘 대통령과 통화하면서 후티에 대한 군사적 지원을 약속하지 않았다고 소식통은 말합니다 - reuters.com"
     },
     {
       "headline": "These Gen Z-approved investment funds are having a moment—what investors should know",
@@ -305,30 +319,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/21/themed-etfs-gen-z-investors.html",
       "datetime": 1789995601,
       "headlineKo": "Z세대가 승인한 이 투자 펀드는 투자자들이 알아야 할 순간을 보내고 있습니다."
-    },
-    {
-      "headline": "Our top 10 things to watch in the stock market Monday",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/21/our-top-10-things-to-watch-in-the-stock-market-monday.html",
-      "datetime": 1789995417,
-      "headlineKo": "월요일 주식시장에서 주목해야 할 10가지"
-    },
-    {
-      "headline": "Trump's favorite 2026 campaign target is Biden: nearly 900 mentions and counting - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWno0QS0wT0lLX3p2S1owR2lyOEhtR1FoZTBmX3NBNnYwYkNHQjhNaUtHbFlhNTRmMlI4UGtaOEhGR25mSk9MVjI1U1IycENiWDVodUUwTERMWE16OWEwaHVnbXVfSGExZS1pX29CZTFxdDlkb1VaTEpuZ2tqMzAyUkxSYTdTQTRHQ0ZjYXJmMWlFRTM3WTFFbWxiaERlaE1haGMwOTYzdFRlR0UtQUQ5YnA0SmhRZ295a2Z3YTA4UDhkSzZBREE?oc=5",
-      "datetime": 1789991983,
-      "headlineKo": "트럼프가 가장 선호하는 2026년 캠페인 목표는 바이든이다: 거의 900번 언급 및 계산 중 - 로이터 통신"
     }
   ],
   "fgi": {
-    "score": 34.6571428571429,
+    "score": 33.7142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1790019523.2478423,
-  "_updated_label": "2026-09-22 04:39",
-  "_last_attempt_at": 1790019523.2478423,
-  "_last_success_at": 1790019523.2478423,
+  "_fetched_at": 1790023031.9863744,
+  "_updated_label": "2026-09-22 05:38",
+  "_last_attempt_at": 1790023031.9863744,
+  "_last_success_at": 1790023031.9863744,
   "_collection_status": "ok",
   "_collection_errors": []
 };
