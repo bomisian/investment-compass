@@ -3527,6 +3527,7 @@ function tabJudgement(r){
 
   return `
     ${decisionSummaryHtml(r)}
+    ${renderAmatFrontCard(r)}
     ${buildAtAGlanceHtml(r)}
     ${buildValuationReasonablenessHtml(r)}
     ${earningsBadge(r.ticker)}
@@ -4657,6 +4658,188 @@ function renderEpsBasisNoteSection(note){
       ${note.splitNote?`<div style="margin:4px 0;color:var(--warn);font-size:10.5px;">${esc(note.splitNote)}</div>`:''}
       ${note.cautionNote?`<div style="margin:6px 0 0;font-size:10.5px;color:var(--warn);">${esc(note.cautionNote)}</div>`:''}
       ${note.lastReviewed?`<div style="margin:4px 0 0;font-size:10px;color:var(--sub);">마지막 확인일: ${esc(note.lastReviewed)}</div>`:''}
+    </div>`;
+}
+// ============================================================================
+// [2026-09-21 신규 -- 봄이 요구 1·2·3번: AMAT 대표가격·행동조건·첫 화면 완성]
+// 이월하지 않고 이번 회차에 분석→계산→화면을 하나로 묶어 완성한다(사용자 명시 요구, 두 번
+// 반복해서 지적됨). 새 가정·새 시나리오는 만들지 않는다 -- 이미 계산돼 있는
+// v.scenarios(conservative/base/optimistic, amat_calc_engine 산출)와 rv(동종기업 배수
+// 참고범위)를 그대로 재사용해서 "대표 기준 선택 + 괴리 설명 + 행동조건"만 새로 구성한다.
+//
+// [대표값의 의미] "오늘 시점의 조건부 사업가치 추정" -- 특정 미래 시점의 목표주가가 아니라,
+// 지금까지 확인된 자료(SEC 공시·가이던스)를 오늘 가정으로 계산한 조건부 값이라는 뜻. 이
+// 프로젝트의 다른 조건부 추정값들과 같은 성격(estimateStatusLabel 참고).
+//
+// [주 방법 선택 근거] DCF(FCFF/WACC 공통 엔진)를 주 기준으로 쓴다:
+//   - AMAT 자신의 SEC 공시 현금흐름·순부채에서 출발한 회사 고유 계산(상대가치는 LRCX·KLAC
+//     "두 종목"의 현재 시장배수를 빌려오는 참고 교차검증일 뿐 -- 피어 수가 적고
+//     eps_basis_notes가 이미 GAAP/조정 EPS 정의 불일치 가능성을 밝혀둠).
+//   - 가정(성장경로·ROIC·순부채원천·기업어음 확인상태)이 전부 문서화·민감도 분석까지 있음.
+//   - 상대가치는 "동종기업이 지금 받는 배수"에 의존하므로 섹터 전체 재평가와 함께 움직이고,
+//     AMAT 자체의 펀더멘털 변화와는 독립적으로 흔들릴 수 있음 -- 그래서 대표(주) 기준이
+//     아니라 교차검증 참고로만 쓴다(상대가치 카드 자체는 계속 별도로 그대로 보여줌 -- 지움도
+//     평균도 아님).
+//
+// [DCF vs 상대가치 괴리를 실제 입력으로 설명] DCF는 AMAT 자신의 절대 현금흐름 할인값이라
+// "시장이 지금 반도체장비 업종에 얼마를 쳐주는지"와 무관하게 움직인다. 상대가치 참고범위는
+// LRCX·KLAC가 "지금" 받는 시장배수를 AMAT의 컨센서스 EPS에 그대로 곱한 값이라, 업종 전체가
+// 재평가(re-rating)되면 AMAT 펀더멘털이 그대로여도 함께 움직인다. 두 값이 크게 벌어지는 건
+// 계산 오류가 아니라 "무엇을 기준으로 삼는가"가 다르기 때문이라는 뜻 -- 어느 쪽이 "맞다"고
+// 이 함수가 결론 내리지 않는다(사용자 명시 요구: 시장가에 맞춘 가정 조정·단순 평균 금지).
+function computeAmatRepresentativeDecision(v, rv, r){
+  const scen = v.scenarios || {};
+  const cons = scen.conservative, base = scen.base, opt = scen.optimistic;
+  if(!base || !base.px) return null; // 시나리오 자체가 없으면 대표값을 구성하지 않는다(지어내지 않음)
+
+  const liveComp = computeLiveComparisonForScenario(v, r.ticker, 'base');
+  const gate = computeLiveJudgmentGate(v, liveComp);
+  const price = liveComp ? liveComp.purchasePrice : (v.summaryCard && v.summaryCard.currentPrice);
+  const priceAsOf = liveComp ? liveComp.priceAsOf : null;
+  const priceIsLive = !!(liveComp && liveComp.isLive);
+  const priceSourceNote = liveComp ? liveComp.source : '저장된 실행 당시 값(실시간 가격 없음)';
+
+  const diffVsBasePct = (price!=null) ? (price - base.px) / base.px * 100 : null;
+  const diffVsConsPct = (price!=null && cons) ? (price - cons.px) / cons.px * 100 : null;
+  const diffVsOptPct = (price!=null && opt) ? (price - opt.px) / opt.px * 100 : null;
+
+  // 상대가치(있으면)와의 괴리 - 값을 새로 계산하지 않고 이미 계산된 rv 필드만 읽는다.
+  const relAvailable = !!(rv && rv.available && rv.rangeLow!=null && rv.rangeHigh!=null);
+  const relMid = relAvailable ? (rv.rangeMid!=null ? rv.rangeMid : (rv.rangeLow+rv.rangeHigh)/2) : null;
+  const dcfVsRelGapPct = (relMid!=null) ? (relMid - base.px) / base.px * 100 : null;
+
+  // ---- 행동조건(가격 조건 + 사업 조건 + 하방 위험) - 신규매수검토/기존보유/비중재검토를
+  // 서로 다른 질문으로 분리한다(사용자 명시 요구: 혼동 금지). 세 조건은 배타적이지 않다 --
+  // 동시에 해당 없음/해당일 수 있다(예: 지금 AMAT처럼 신규매수 조건은 아니면서 비중재검토
+  // 조건에는 해당하는 경우).
+  const fin = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA[r.ticker] : null;
+  const fd = fin ? computeFinancialDirection(r, fin) : null;
+  const fdDeteriorating = !!(fd && fd.verdict === '매출·수익성 동반 둔화');
+  const pendingFiling = !!(v.updateStatus && v.updateStatus.attemptStatus === 'FAILED');
+  // [버그 수정 -- 이번 회차 자체 검증에서 발견] conditionsForChange는 v 최상위가 아니라
+  // v.summaryCard 안에 있다(generate_dashboard_connection.py의 build_amat_entry() 출력 구조).
+  // 최상위 v.conditionsForChange로 읽으면 항상 undefined라 "판단이 바뀌는 조건" 목록이
+  // 조용히 비어 보였을 것 -- 실제 4개 조건 문구를 그대로 재사용한다(새로 짓지 않음).
+  const dcfConditions = (v.summaryCard && v.summaryCard.conditionsForChange) || [];
+
+  const newBuyPriceOk = (price!=null && cons) ? price <= cons.px : null;
+  const newBuy = {
+    priceCondition: cons ? `현재가($${price!=null?price.toFixed(2):'-'})가 보수 시나리오 $${cons.px.toFixed(2)} 이하로 내려와야 함` : '보수 시나리오 값이 없어 판단 불가',
+    priceOk: newBuyPriceOk,
+    businessCondition: '실적 방향이 "매출·수익성 동반 둔화"로 전환되지 않았고, 새 공시 반영 대기(판단 보류) 상태가 아니어야 함',
+    businessOk: (fd!=null) ? (!fdDeteriorating && !pendingFiling) : null,
+    downsideRisk: cons ? `성장률·ROIC 가정이 지금보다 더 낙관적이었던 것으로 드러나면, 보수 시나리오($${cons.px.toFixed(2)})보다 더 아래로 재계산될 수 있음 -- 위 "판단이 바뀌는 조건" 항목이 실제로 이 경우에 해당함` : '-',
+  };
+  const review = {
+    // 기존 보유는 "지금 이 가격에 사도 되는가"가 아니라 "처음 보유를 시작한 근거(사업가치 유지)가
+    // 아직 유효한가"를 본다 -- 가격 테스트가 아니라는 걸 명시적으로 분리한다(사용자 명시 요구).
+    thesisCondition: '신규 매수 가격조건과 무관하게, DCF가 가정한 성장경로·ROIC·순부채가 크게 어긋나지 않았는지를 봄',
+    thesisOk: (fd!=null) ? (!fdDeteriorating) : null,
+    dataCondition: '자료 최신성 게이트(새 공시 반영 대기 등)에 걸리면 판단 자체를 보류(과거 참고값)',
+    dataOk: gate.allowed,
+    downsideRisk: '실적 방향이 "동반 둔화"로 바뀌면 보유 근거 자체를 재검토해야 함(가격과 무관한 위험)',
+  };
+  const trimPriceOk = (price!=null && opt) ? price > opt.px : null;
+  const trim = {
+    priceCondition: opt ? `현재가($${price!=null?price.toFixed(2):'-'})가 낙관 시나리오 $${opt.px.toFixed(2)}보다 높아야 함` : '낙관 시나리오 값이 없어 판단 불가',
+    priceOk: trimPriceOk,
+    businessCondition: 'DCF 기준으로는 낙관 시나리오까지 반영해도 지금 가격을 정당화하지 못한다는 뜻 -- 다만 상대가치(동종기업 배수) 참고범위는 반대 방향(범위 하단 아래)을 가리킬 수 있어 두 신호가 엇갈릴 수 있음',
+    counterSignal: (relAvailable && rv.bandStatus === 'BELOW_BAND')
+      ? `상대가치 참고범위($${rv.rangeLow.toFixed(2)}~$${rv.rangeHigh.toFixed(2)})는 오히려 현재가가 범위 아래에 있다고 봄 -- DCF 신호와 반대 방향, 어느 쪽이 맞는지 이 화면이 판정하지 않음`
+      : null,
+    downsideRisk: opt ? '낙관 시나리오 자체가 지금 가격보다 한참 낮으므로, DCF 관점에서는 밸류에이션 되돌림(재평가 되돌림) 위험이 상방 여력보다 큼' : '-',
+  };
+
+  return {
+    method: 'DCF (FCFF/WACC 공통 엔진)',
+    methodReasonShort: 'AMAT 자체 SEC 공시 현금흐름 기반 · 가정·민감도 전부 문서화됨 (상대가치는 피어 2종목 배수 참고 교차검증)',
+    evaluationPointNote: '오늘 시점의 조건부 사업가치 추정(특정 미래시점 목표주가 아님) · 모델 평가 기준일 ' + (v.valuationAnchorDate||v.asOf||'-'),
+    base: base.px, low: cons ? cons.px : null, high: opt ? opt.px : null,
+    price, priceAsOf, priceIsLive, priceSourceNote,
+    diffVsBasePct, diffVsConsPct, diffVsOptPct,
+    relAvailable, relLow: relAvailable?rv.rangeLow:null, relHigh: relAvailable?rv.rangeHigh:null,
+    relMid, relBandStatus: relAvailable?rv.bandStatus:null, dcfVsRelGapPct,
+    gate, dcfConditions,
+    newBuy, review, trim,
+  };
+}
+// 위 계산 결과를 첫 화면(01 판단 탭 맨 위)에 5개 항목(대표가격·범위 / 현재가·관측일 /
+// 지금 판단 / 핵심 이유 / 바뀌는 조건)으로 즉시 보여주는 카드. 긴 산식·민감도는 <details>로
+// 접는다(사용자 명시 요구: "긴 산식과 근거는 상세로 접으세요"). 목록/상세를 새로 설계하지
+// 않고 tabJudgement의 decisionSummaryHtml(status 배지) 바로 다음에 한 카드만 추가한다.
+function renderAmatFrontCard(r){
+  const iv = (typeof INDEPENDENT_VALUATION_DATA !== 'undefined') ? INDEPENDENT_VALUATION_DATA[r.ticker] : null;
+  if(!iv || !iv.valuation || iv.valuation.kind !== 'independent_value_dcf_scenario_engine') return '';
+  const d = computeAmatRepresentativeDecision(iv.valuation, iv.relativeValueBand, r);
+  if(!d) return '';
+
+  const fmt = x => x!=null ? `$${x.toFixed(2)}` : '-';
+  const pctStr = x => x!=null ? `${x>=0?'+':''}${x.toFixed(0)}%` : '-';
+
+  // "지금 판단" 한 줄 -- 위 목록/상세 status(review 등, 기술적 관심 경로)와 절대 같은 말로
+  // 섞지 않는다(사용자 명시 경고: "review 복귀 = 기술적 관심 경로일 뿐, 적정가 기준 매수 가능과
+  // 다르다"). 이 카드의 "지금 판단"은 오직 DCF 대표값 기준 가격 위치만 말한다.
+  let nowLabel, nowColor, nowDetail;
+  if(d.gate.allowed === false){
+    nowLabel = '⏸ 판단 보류(자료 최신성)'; nowColor = 'var(--warn)';
+    nowDetail = d.gate.reason || '-';
+  } else if(d.trim.priceOk){
+    nowLabel = '📐 DCF 기준 비중재검토 대상(신규매수 조건 아님)'; nowColor = 'var(--down)';
+    nowDetail = `현재가가 낙관 시나리오(${fmt(d.high)})보다 ${pctStr(d.diffVsOptPct)} 높음` + (d.trim.counterSignal ? ' -- 다만 상대가치 참고범위는 반대 신호' : '');
+  } else if(d.newBuy.priceOk){
+    nowLabel = '🔎 DCF 기준 신규매수 가격조건 충족(사업조건 별도 확인 필요)'; nowColor = 'var(--up)';
+    nowDetail = `현재가가 보수 시나리오(${fmt(d.low)}) 이하 -- 사업조건도 함께 충족해야 신규매수 검토 대상`;
+  } else {
+    nowLabel = '↔ 시나리오 범위 안(신규매수·비중재검토 어느 쪽 가격조건도 아님)'; nowColor = 'var(--sub)';
+    nowDetail = `보수~낙관 시나리오(${fmt(d.low)}~${fmt(d.high)}) 범위 안 -- 기존 보유자는 사업조건 유지 여부만 확인`;
+  }
+  // [사용자 명시 경고 반영] status가 review(기술적 관심 경로 재개)인 경우 이 카드 바로 위에서
+  // 혼동 방지 문구를 한 번 더 명시한다.
+  const dvm = r.decision || computeDecisionViewModel(r);
+  const confusionGuard = (dvm.status === 'review' && dvm.usingAltValuationOnly)
+    ? `<div class="sub" style="margin:2px 0 8px;color:var(--warn);">⚠️ 위 상태 배지("review")는 가격 눌림목 등 기술적 관심 경로가 다시 열렸다는 뜻일 뿐, 아래 DCF 대표가격 기준으로 매수해도 된다는 뜻이 아니에요 -- 서로 다른 질문에 대한 서로 다른 답이에요.</div>`
+    : '';
+
+  const gapExplainShort = d.relAvailable
+    ? `DCF는 AMAT 자체 현금흐름 기준이라 ${pctStr(d.diffVsBasePct)} ${d.diffVsBasePct>=0?'높다':'낮다'}고 보는데, 상대가치(LRCX·KLAC 배수 적용)는 ${esc(d.relBandStatus==='BELOW_BAND'?'오히려 범위 아래':(d.relBandStatus==='ABOVE_BAND'?'범위 위':'범위 안'))}라고 봐요 -- 계산 오류가 아니라 DCF는 회사 고유 현금흐름, 상대가치는 지금 업종이 받는 배수를 따르기 때문에 생기는 정상적인 차이예요.`
+    : `상대가치 참고범위는 아직 없어요 -- DCF 대표값만 참고하세요.`;
+
+  const condChangeShort = (d.dcfConditions.slice(0,2).map(c=>`<li>${esc(c)}</li>`).join('')) || '<li>-</li>';
+  const condChangeRest = d.dcfConditions.slice(2).map(c=>`<li>${esc(c)}</li>`).join('');
+
+  return `
+    <div class="comment-box" style="background:var(--panel-2);margin-bottom:12px;border:1px solid var(--border,#333);">
+      <b>🎯 AMAT 대표가격(DCF 기준) 요약</b>
+      <span style="display:inline-block;margin-left:6px;padding:1px 6px;border-radius:8px;background:var(--panel);color:var(--sub);font-size:10px;font-weight:600;vertical-align:middle;">조건부 사업가치 추정</span>
+      <div class="fund-row" style="margin-top:6px;"><span>대표가격 · 범위</span>
+        <span class="v"><b>${fmt(d.base)}</b> (보수 ${fmt(d.low)} ~ 낙관 ${fmt(d.high)})</span></div>
+      <div class="fund-row"><span>현재가 · 관측일</span>
+        <span class="v">${fmt(d.price)} (${esc(d.priceAsOf||'-')}${d.priceIsLive?'':' · 저장값'}) · 대표가격 대비 ${pctStr(d.diffVsBasePct)}</span></div>
+      <div class="sub" style="margin:2px 0 8px;color:${nowColor};"><b>지금 판단: ${nowLabel}</b><br>${esc(nowDetail)}</div>
+      ${confusionGuard}
+      <div class="sub" style="margin:2px 0 8px;"><b>핵심 이유</b>: ${gapExplainShort}</div>
+      <div class="sub" style="margin:2px 0 4px;"><b>판단이 바뀌는 조건</b> <span style="font-weight:400;">(대표가격 자체가 바뀔 수 있는 조건)</span>
+        <ul style="margin:4px 0 0 16px;padding:0;">${condChangeShort}</ul>
+        ${condChangeRest ? `<details style="margin-top:2px;"><summary style="cursor:pointer;color:var(--sub);font-size:11px;">조건 더 보기</summary><ul style="margin:4px 0 0 16px;padding:0;">${condChangeRest}</ul></details>` : ''}
+      </div>
+      <details style="margin-top:6px;">
+        <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">주 방법 선택 근거 · 행동조건(신규매수/기존보유/비중재검토) 자세히 보기</summary>
+        <div class="sub" style="margin:8px 0 6px;"><b>왜 DCF를 대표(주) 기준으로 썼는가</b>: ${esc(d.methodReasonShort)}. ${esc(d.evaluationPointNote)}</div>
+        <div class="sub" style="margin:8px 0 4px;"><b>① 신규매수검토</b></div>
+        <div class="sub" style="margin:2px 0;">가격 조건: ${esc(d.newBuy.priceCondition)} — ${d.newBuy.priceOk==null?'판단 불가':(d.newBuy.priceOk?'✅ 충족':'❌ 미충족')}</div>
+        <div class="sub" style="margin:2px 0;">사업 조건: ${esc(d.newBuy.businessCondition)} — ${d.newBuy.businessOk==null?'판단 불가(실적 자료 없음)':(d.newBuy.businessOk?'✅ 충족':'❌ 미충족')}</div>
+        <div class="sub" style="margin:2px 0 8px;">하방 위험: ${esc(d.newBuy.downsideRisk)}</div>
+        <div class="sub" style="margin:8px 0 4px;"><b>② 기존보유</b> <span style="font-weight:400;">(신규매수 가격조건과 다른 질문 -- 이미 보유 중인 경우에만 해당)</span></div>
+        <div class="sub" style="margin:2px 0;">사업 조건(보유 근거 유지 여부): ${esc(d.review.thesisCondition)} — ${d.review.thesisOk==null?'판단 불가':(d.review.thesisOk?'✅ 유지':'❌ 훼손')}</div>
+        <div class="sub" style="margin:2px 0;">자료 조건: ${esc(d.review.dataCondition)} — ${d.review.dataOk?'✅ 정상':'⚠️ 보류'}</div>
+        <div class="sub" style="margin:2px 0 8px;">하방 위험: ${esc(d.review.downsideRisk)}</div>
+        <div class="sub" style="margin:8px 0 4px;"><b>③ 비중재검토</b></div>
+        <div class="sub" style="margin:2px 0;">가격 조건: ${esc(d.trim.priceCondition)} — ${d.trim.priceOk==null?'판단 불가':(d.trim.priceOk?'✅ 충족(DCF 기준)':'❌ 미충족')}</div>
+        <div class="sub" style="margin:2px 0;">참고: ${esc(d.trim.businessCondition)}</div>
+        ${d.trim.counterSignal?`<div class="sub" style="margin:2px 0;color:var(--warn);">⚠️ ${esc(d.trim.counterSignal)}</div>`:''}
+        <div class="sub" style="margin:2px 0 4px;">하방 위험: ${esc(d.trim.downsideRisk)}</div>
+        <div class="sub" style="margin-top:8px;color:var(--warn);">⚠️ 이 카드는 매수·매도를 지시하지 않아요 -- 가격·사업조건이 어느 상태인지만 사실대로 보여주고, 최종 판단은 사용자 몫이에요. 신규 주문·자동매매는 이 프로젝트에 추가하지 않아요.</div>
+      </details>
     </div>`;
 }
 function renderIndependentValuationSection(r){
@@ -8128,41 +8311,96 @@ function renderMarketNewsAuto(){
   const nowSec = Date.now()/1000;
   const cutoffSec = nowSec - RECENT_DAYS*86400;
 
-  const perTicker = AUTO_TICKERS.map(t => ({t, e: newsEntry(t)}));
+  // [2026-09-21 2차 보완 -- Codex가 실제 renderMarketNewsAuto()를 격리 실행해 재현한 3개 반례 수정]
+  // (1) status='ok'만 보고 "정상"이라 말하면 안 된다 -- 마지막 성공 시각(_last_success_at) 자체가
+  // 실제로 유효한지(존재·과거·수집 주기 이내) 별도로 확인해야 한다. 이 수집기는 매일 실행되므로
+  // 3일(다른 곳의 상대가치 스냅샷 노후 기준과 동일 - 짧은 주기 데이터는 짧은 기준을 씀)을 넘기면
+  // "정상"이라고 말할 수 없다.
+  const COLLECTION_STALE_AFTER_DAYS = 3;
+  const collectionFreshness = (e) => {
+    const t = e && e._last_success_at;
+    if(typeof t !== 'number' || t <= 0) return {fresh:false, reason:'성공 시각 없음'};
+    const ageDays = (nowSec - t) / 86400;
+    if(ageDays < 0) return {fresh:false, reason:'성공 시각이 미래(시계 오류로 간주)'};
+    if(ageDays > COLLECTION_STALE_AFTER_DAYS) return {fresh:false, reason:`마지막 성공이 ${ageDays.toFixed(1)}일 전(수집 주기 대비 노후)`};
+    return {fresh:true, reason:null};
+  };
+
+  const perTicker = AUTO_TICKERS.map(t => {
+    const e = newsEntry(t);
+    const explicitFail = !!(e && e._collection_status && e._collection_status !== 'ok');
+    const freshness = e ? collectionFreshness(e) : {fresh:false, reason:'자료 없음'};
+    return {t, e, explicitFail, fresh: !explicitFail && freshness.fresh, freshnessReason: freshness.reason};
+  });
   const anyDataAtAll = perTicker.some(x => x.e);
   if(!anyDataAtAll) return ''; // news_data.js 자체가 없으면(기존 원칙과 동일) 섹션을 숨긴다
 
-  const failedTickers = perTicker.filter(x => x.e && x.e._collection_status && x.e._collection_status !== 'ok');
-  const okTickers = perTicker.filter(x => x.e && (!x.e._collection_status || x.e._collection_status === 'ok'));
+  const failedTickers = perTicker.filter(x => x.e && x.explicitFail);
+  const freshTickers = perTicker.filter(x => x.e && x.fresh);
+  // (2) status가 ok(또는 없음)이고 명시적 실패도 아니지만, 성공 시각이 없거나 노후면 "확인 불가"로
+  // 별도 취급한다 -- 예전엔 이 경우도 조용히 okTickers에 섞여 "정상"으로 표시됐었다.
+  const unknownTickers = perTicker.filter(x => x.e && !x.explicitFail && !x.fresh);
 
   let recentArticles = [];
-  okTickers.forEach(({t, e}) => {
+  freshTickers.forEach(({t, e}) => {
     (e.news || []).forEach(n => {
-      if(typeof n.datetime === 'number' && n.datetime >= cutoffSec){
+      // (3) 미래 날짜 기사는 "최근 기사"로 절대 세지 않는다 -- 시계 오류·자료 오류로 간주하고
+      // 최신 목록에서 제외한다(예전엔 상한 검사가 없어 미래 10일 뒤 기사도 카드로 노출됐음).
+      if(typeof n.datetime === 'number' && n.datetime >= cutoffSec && n.datetime <= nowSec){
         recentArticles.push({t, n});
       }
     });
   });
   recentArticles.sort((a,b) => (b.n.datetime||0) - (a.n.datetime||0));
-  const analyzed = recentArticles.filter(x => x.n.analysis && (x.n.analysis.facts || x.n.analysis.interpretation));
-  const pendingAnalysis = recentArticles.filter(x => !(x.n.analysis && (x.n.analysis.facts || x.n.analysis.interpretation)));
+
+  // (4) 기사 본문 추출 과정에서 사이트 부속 문구(접근성 안내·회사 소개·구독 유도·쿠키 안내 등)가
+  // "핵심 사실"처럼 섞여 나온 실제 사례가 확인됐다(Motley Fool "Accessibility Help / About Us" 등).
+  // 완전히 걸러낼 방법은 없지만, 흔한 부속 문구 패턴을 가진 문장은 화면에서 제외한다(재작성하지
+  // 않고 그 줄만 제거 -- 원본 데이터 자체는 건드리지 않음).
+  const BOILERPLATE_PATTERNS = [
+    /accessibility help/i, /접근성 도움말/, /회사\s*소개/, /about us/i,
+    /join the motley fool/i, /motley fool/i, /stock advisor/i,
+    /subscribe/i, /구독하기/, /cookie/i, /privacy policy/i, /개인정보\s*처리방침/,
+    /이용약관/, /terms of (service|use)/i, /^log ?in$/i, /^sign ?up$/i,
+    /advertisement/i, /관련기사|더보기\s*>/,
+  ];
+  const isBoilerplate = s => typeof s === 'string' && BOILERPLATE_PATTERNS.some(re => re.test(s));
+  const cleanList = arr => (arr||[]).filter(s => !isBoilerplate(s));
+
+  // (5) analysis.facts가 빈 배열([])이면 배열 자체는 truthy라서 "분석 있음"으로 잘못 집계됐었다
+  // (실제 재현: analysis={facts:[]}가 분석 완료로 처리됨). 부속 문구를 걸러낸 뒤에도 실질적인
+  // 내용(정리된 facts 1개 이상, 또는 interpretation 텍스트)이 남아야 "분석 완료"로 센다.
+  const hasRealAnalysis = n => {
+    const a = n.analysis;
+    if(!a) return false;
+    const cleanFacts = cleanList(a.facts);
+    const hasInterp = typeof a.interpretation === 'string' && a.interpretation.trim().length > 0 && !isBoilerplate(a.interpretation);
+    return cleanFacts.length > 0 || hasInterp;
+  };
+  const analyzed = recentArticles.filter(x => hasRealAnalysis(x.n));
+  const pendingAnalysis = recentArticles.filter(x => !hasRealAnalysis(x.n));
 
   const fmtTs = ts => (typeof ts === 'number' && ts > 0) ? new Date(ts*1000).toISOString().slice(0,16).replace('T',' ') + ' UTC' : '알수없음';
   const fmtDate = ts => (typeof ts === 'number' && ts > 0) ? new Date(ts*1000).toISOString().slice(0,10) : '알수없음';
 
   const collectionStatusLine = `<div class="sub" style="margin-bottom:6px;">수집 상태: ${
-    okTickers.map(x=>`${esc(x.t)}(정상, 마지막 성공 ${esc(fmtTs(x.e._last_success_at))})`).join(' · ') || '없음'
-  }${failedTickers.length ? ' · ⚠️ 수집 실패: ' + failedTickers.map(x=>esc(x.t)).join(', ') : ''}</div>`;
+    [
+      freshTickers.map(x=>`${esc(x.t)}(정상, 마지막 성공 ${esc(fmtTs(x.e._last_success_at))})`).join(' · '),
+      unknownTickers.length ? '⚠️ 확인 불가: ' + unknownTickers.map(x=>`${esc(x.t)}(${esc(x.freshnessReason||'-')})`).join(', ') : '',
+      failedTickers.length ? '⚠️ 수집 실패: ' + failedTickers.map(x=>esc(x.t)).join(', ') : '',
+    ].filter(Boolean).join(' · ') || '없음'
+  }</div>`;
 
   const TONE_LABEL = {positive:'긍정', risk:'위험', mixed:'혼재', neutral:'중립'};
   const renderAnalyzedCard = ({t, n}) => {
     const a = n.analysis;
     const tone = a.tone || 'neutral';
-    const li = arr => (arr && arr.length) ? `<ul>${arr.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>` : '<span class="sub" style="font-size:11.5px;">-</span>';
+    const li = arr => { const c = cleanList(arr); return c.length ? `<ul>${c.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>` : '<span class="sub" style="font-size:11.5px;">-</span>'; };
     const safeUrl = /^https?:\/\//i.test(n.url||'') ? n.url : null;
     const headline = esc(n.headlineKo || n.headline || '');
     const importanceTag = a.importance==='high' ? `<em class="news-importance-pill">중요</em>` : '';
     const openAttr = a.importance==='high' ? ' open' : '';
+    const interp = (a.interpretation && !isBoilerplate(a.interpretation)) ? a.interpretation : null;
     return `
       <article class="news-card tone-${tone}">
         <details${openAttr}>
@@ -8178,12 +8416,12 @@ function renderMarketNewsAuto(){
             <div><b>왜 중요한가</b>${li(a.why)}</div>
             <div><b>초보자용 정리</b>${li(a.beginner)}</div>
           </div>
-          ${(a.interpretation || a.decision) ? `<div class="news-card-interp">
-            ${a.interpretation ? `<b>투자자용 해석</b><p>${esc(a.interpretation)}</p>` : ''}
+          ${(interp || a.decision) ? `<div class="news-card-interp">
+            ${interp ? `<b>투자자용 해석</b><p>${esc(interp)}</p>` : ''}
             ${a.decision ? `<strong>${esc(a.decision)}</strong>` : ''}
           </div>` : ''}
           ${(a.watch && a.watch.length) ? `<div class="news-card-action"><b>다음 확인 포인트</b><span>${a.watch.map(esc).join(' · ')}</span></div>` : ''}
-          <div class="sub" style="margin-top:8px;">근거 품질: ${esc(a.quality||a.certainty||'-')} · 자동 분석(LLM, 이 프로젝트가 재검증하지 않음)</div>
+          <div class="sub" style="margin-top:8px;">근거 품질: ${esc(a.quality||a.certainty||'-')} · 규칙 기반 키워드 분류·문장 추출 요약(LLM 추론이 아님, 이 프로젝트가 재검증하지 않음)</div>
           ${safeUrl ? `<div class="sub" style="margin-top:4px;"><a href="${esc(safeUrl)}" target="_blank" rel="noopener noreferrer nofollow">${esc(n.source||'출처')} 원문 보기</a></div>` : ''}
         </details>
       </article>`;
@@ -8191,7 +8429,7 @@ function renderMarketNewsAuto(){
   const analyzedCards = analyzed.map(renderAnalyzedCard).join('');
 
   const pendingList = pendingAnalysis.length
-    ? `<div class="sub" style="margin:6px 0;">분석 대기 중인 최근 기사 ${pendingAnalysis.length}건(기사는 수집됐지만 아직 개별 분석이 안 붙었어요 -- 다음 자동 실행 때 채워질 수 있어요):<ul style="margin:4px 0 0 16px;padding:0;">${
+    ? `<div class="sub" style="margin:6px 0;">분석 대기 중인 최근 기사 ${pendingAnalysis.length}건(기사는 수집됐지만 아직 개별 분석이 안 붙었거나, 추출된 내용이 부속 문구뿐이었어요 -- 다음 자동 실행 때 채워질 수 있어요):<ul style="margin:4px 0 0 16px;padding:0;">${
         pendingAnalysis.slice(0,5).map(({t,n}) => {
           const safeUrl = /^https?:\/\//i.test(n.url||'') ? n.url : null;
           const headline = esc(n.headlineKo || n.headline || '');
@@ -8207,10 +8445,12 @@ function renderMarketNewsAuto(){
   } else if(recentArticles.length){
     // 기사는 있지만(수집 정상) 전부 분석 대기 상태
     bodyHtml = `<div class="sub" style="margin:6px 0;color:var(--warn);">⚠️ 분석 대기: 최근 ${RECENT_DAYS}일 안에 수집된 기사는 있지만 아직 어느 것도 개별 분석이 붙지 않았어요.</div>` + pendingList;
-  } else if(failedTickers.length && !okTickers.length){
+  } else if(unknownTickers.length && !freshTickers.length){
+    bodyHtml = `<div class="sub" style="color:var(--warn);">⚠️ 확인 불가: 마지막 수집 성공 시각을 확인할 수 없거나 너무 오래돼서(${unknownTickers.map(x=>`${esc(x.t)}: ${esc(x.freshnessReason||'-')}`).join(', ')}) "신규 기사 없음"을 정상 상태로 단정할 수 없어요.</div>`;
+  } else if(failedTickers.length && !freshTickers.length){
     bodyHtml = `<div class="sub" style="color:var(--warn);">⚠️ 수집 실패: 오늘 자동 뉴스 수집이 실패해서 최신 기사를 확인할 수 없어요(${failedTickers.map(x=>esc(x.t)).join(', ')}). 재시도는 다음 자동 실행 때 이뤄져요.</div>`;
   } else {
-    bodyHtml = `<div class="sub">ℹ️ 신규 기사 없음: 최근 ${RECENT_DAYS}일 안에는 QQQ·SPY 관련 새 기사가 수집되지 않았어요(수집 자체는 정상이에요 -- 실제로 조용한 기간일 수 있어요).</div>`;
+    bodyHtml = `<div class="sub">ℹ️ 신규 기사 없음: 최근 ${RECENT_DAYS}일 안에는 QQQ·SPY 관련 새 기사가 수집되지 않았어요(수집 자체는 정상이고 최신이에요 -- 실제로 조용한 기간일 수 있어요).</div>`;
   }
 
   // 기존 수동 로그(BUSINESS_NOTES.MARKET.newsLog)는 지우지 않고 날짜가 있는 과거 분석으로
