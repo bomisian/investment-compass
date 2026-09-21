@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 91.91999816894531,
+      "current": 92.16999816894531,
       "prevClose": 100.30000305175781,
-      "changeAbs": -8.3800048828125,
-      "changePct": -8.354939808414727,
-      "pctRank": 84.96420047732697,
+      "changeAbs": -8.1300048828125,
+      "changePct": -8.10568757272836,
+      "pctRank": 85.44152744630071,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -18.618857324036576,
-      "ma20": 93.08450164794922,
-      "ma60": 84.05383389790853,
-      "chg1m": 4.089996337890625,
-      "chg3m": 17.099998474121094,
-      "chg1mPct": 4.6567189486776215,
-      "chg3mPct": 22.854849697766053,
+      "drawdown1y": -18.397520443333015,
+      "ma20": 93.09700164794921,
+      "ma60": 84.0580005645752,
+      "chg1m": 4.339996337890625,
+      "chg3m": 17.349998474121094,
+      "chg1mPct": 4.941359726074947,
+      "chg3mPct": 23.18898495708134,
       "lastDate": "2026-09-21",
       "bars": 1257,
       "symbol": "CL=F",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4388.89990234375,
+      "current": 4399.5,
       "prevClose": 4424.89990234375,
-      "changeAbs": -36.0,
-      "changePct": -0.8135777259262242,
-      "pctRank": 89.1891891891892,
+      "changeAbs": -25.39990234375,
+      "changePct": -0.574022077432675,
+      "pctRank": 89.26868044515103,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.477061091069544,
-      "ma20": 4477.504956054688,
-      "ma60": 4293.021655273437,
-      "chg1m": -182.5,
-      "chg3m": 186.19970703125,
-      "chg1mPct": -3.9922125366112144,
-      "chg3mPct": 4.430477987435998,
+      "drawdown1y": -17.277751188638568,
+      "ma20": 4478.0349609375,
+      "ma60": 4293.198323567708,
+      "chg1m": -171.89990234375,
+      "chg3m": 196.7998046875,
+      "chg1mPct": -3.7603339461860945,
+      "chg3mPct": 4.682699111085809,
       "lastDate": "2026-09-21",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "EXCLUSIVE: Trump approval falls to record low of 32% as high costs bite, Reuters/Ipsos poll finds - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa2xXN3ZZR05LSzJLYVpOTFZTVlJkLWhnZUxnRDVlckVJT0pDN3RDRFJoTnJObVJGY0RYMGJLYUpGT0pNVUlrUFlBTVlzS0hNbUhWNk1lYzBNUEdRYmQwNy04X3ZHQzAzY1NGZDZxVEhsOTl3LWFrcjFDMEJhaUxPS2hlbnlUMkRsYml0bnBkSVBUR3F0YUtXbWxDdnVScmE4dGw1LUhXelhOVVNyVm9YbWRJMXI1R2wybnNz?oc=5",
+      "datetime": 1790033127,
+      "headlineKo": "독점: 높은 비용으로 트럼프 지지율이 32%로 최저치로 떨어졌다고 Reuters/Ipsos 여론조사 결과 - Reuters"
+    },
+    {
       "headline": "Stocks had a great day on the surface. But something alarming occurred not seen since 1999",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/21/stocks-had-a-great-day-on-the-surface-but-something-alarming-occurred-not-seen-since-1999.html",
@@ -256,13 +263,6 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYkl4X2FBeTYxUnROWDVRbDFTcTk4MnByZWdwTHZWRWRSYmNpbXBtcXl4ck8xeTd4ZDhQX1k4TjZjU0hHdnE0LVdtai05UXFxTUNMX0J1ajdPRmxUYllsOVJUZldTREJoOTNpM3ZycTZXckxsbHBXY3hHRUJoZWtIWG1jQkRDYm1DYkh0Ug?oc=5",
       "datetime": 1790022168,
       "headlineKo": "팟캐스트: 파라마운트 거래, 독일 선거 및 UN의 AI(업데이트) - Reuters"
-    },
-    {
-      "headline": "EXCLUSIVE: Trump approval falls to record low of 32% as high costs bite, Reuters/Ipsos poll finds - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa2xXN3ZZR05LSzJLYVpOTFZTVlJkLWhnZUxnRDVlckVJT0pDN3RDRFJoTnJObVJGY0RYMGJLYUpGT0pNVUlrUFlBTVlzS0hNbUhWNk1lYzBNUEdRYmQwNy04X3ZHQzAzY1NGZDZxVEhsOTl3LWFrcjFDMEJhaUxPS2hlbnlUMkRsYml0bnBkSVBUR3F0YUtXbWxDdnVScmE4dGw1LUhXelhOVVNyVm9YbWRJMXI1R2wybnNz?oc=5",
-      "datetime": 1790021499,
-      "headlineKo": "독점: 높은 비용으로 트럼프 지지율이 32%로 최저치로 떨어졌다고 Reuters/Ipsos 여론조사 결과 - Reuters"
     },
     {
       "headline": "Wall Street ends sharply higher as AI optimism reignites and Treasury yields retreat - Reuters",
@@ -293,6 +293,13 @@ const MARKET_DATA = {
       "headlineKo": "카타르 국부펀드와 JP모건자산운용, 200억 달러 규모 파트너십 개시 - 로이터"
     },
     {
+      "headline": "COMMENTARY: Morning Bid: Summiteering - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeEFPNUpOV29zcl9nZlFKaEJNS2tjMnN2OUNidVJvanpPRUE0RTVLNm1tOGZSQzMxLXAzVy1sWk1SM2hjNHQ1bU5GbzdxdGsxT09Ob3FNTEJMTnc2dTFPM1p2UHpQRndJVlRTb3ZzWS1UOHZpSjhpLVEwQVA1bU9ZTlduRVlVdUZwVlJpcjBlZTdiZ2pqXzlv?oc=5",
+      "datetime": 1790009174,
+      "headlineKo": "논평: 아침 입찰: 정상회담 - 로이터"
+    },
+    {
       "headline": "Europe's STOXX 600 rallies on tech, banks strength as oil prices retreat - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYWF0aU9mWUM0TjNtekhpT0I0NTM1RXoydldTZDlzNVM4Q0FnRXFCLTlaLUQxdEZfMS1qeU1XV0lsNHhvc09zMTBUQV9xVFhaakdCU196dW5sQ212UHdLVjVySHo5UWczV0dVS2dnY3d2Q2dTbWRkOWFRZ0g5aTlGaEtnQkFQcno2ZjdfdndQdGdSR1c3MjdEXzNCZlhRM216di1sdllQSl9OT3pkcWRSd3p3?oc=5",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbHBmWjNkMFR2Skw0MWVFaENxamFwbXN0RGxRei1RenlFVk11R1loSlZtdm16SW5ITGFMalY1bkNBOUVONnVVdENtbDZSdzByT0l0NkJiZUlSSzBvRHBBNWxKd01ja09Eb1Nla205aW5oQkxGVGpiUjZQUTJVYy1EWGx6R2JPN2pGWXVUU29CQ1ZyQmpSMWlzQ1VYUzhidC1SZ3VSMFhyVndUYUZYTXItOGgyTktsQnV1QW1ETzN4NnI2eWhZMXhoZ1h4eEU?oc=5",
       "datetime": 1790004401,
       "headlineKo": "트럼프가 공습을 취소한 것으로 알려지자 후티 반군, 예멘 고원 통제 추진 - 로이터 통신"
-    },
-    {
-      "headline": "Kind Snacks founder Daniel Lubetzky: The No.1 piece of advice I give my kids about failure",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/21/kind-snacks-founder-daniel-lubetzky-the-advice-i-give-my-kids-about-failure.html",
-      "datetime": 1790001002,
-      "headlineKo": "Kind Snacks 창립자 Daniel Lubetzky: 실패에 관해 아이들에게 주는 최고의 조언"
     }
   ],
   "fgi": {
     "score": 33.7142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1790029975.1865263,
-  "_updated_label": "2026-09-22 07:33",
-  "_last_attempt_at": 1790029975.1865263,
-  "_last_success_at": 1790029975.1865263,
+  "_fetched_at": 1790033655.366941,
+  "_updated_label": "2026-09-22 08:35",
+  "_last_attempt_at": 1790033655.366941,
+  "_last_success_at": 1790033655.366941,
   "_collection_status": "ok",
   "_collection_errors": []
 };
