@@ -4687,79 +4687,174 @@ function renderEpsBasisNoteSection(note){
 // 재평가(re-rating)되면 AMAT 펀더멘털이 그대로여도 함께 움직인다. 두 값이 크게 벌어지는 건
 // 계산 오류가 아니라 "무엇을 기준으로 삼는가"가 다르기 때문이라는 뜻 -- 어느 쪽이 "맞다"고
 // 이 함수가 결론 내리지 않는다(사용자 명시 요구: 시장가에 맞춘 가정 조정·단순 평균 금지).
+// [2026-09-21 2차 수정 -- Codex 2차 독립검토("AMAT 대표가격·행동조건·첫 화면 2차 독립 검토")가
+// 실제 HTML 함수를 격리 실행해 재현한 4개 결함을 전부 고친다. 요지: (1) 카드 자체 계산을 따로
+// 두지 말고 이미 검증된 공통 함수(computeValuationVerdict/computeRelativeValueVerdict)만 신뢰
+// 소스로 쓸 것, (2) 확인 안 한 항목을 충족으로 표시하지 말 것, (3) 매매 경계는 기존
+// 수익조건·현금흐름·매입가 상한 계산에서 나오게 할 것, (4) 설명 문구(괴리 해석·"오늘 시점")를
+// 검증된 사실만으로 정직하게 쓸 것. 대표값 자체(시나리오·DCF 선택)는 바꾸지 않는다.
 function computeAmatRepresentativeDecision(v, rv, r){
   const scen = v.scenarios || {};
   const cons = scen.conservative, base = scen.base, opt = scen.optimistic;
   if(!base || !base.px) return null; // 시나리오 자체가 없으면 대표값을 구성하지 않는다(지어내지 않음)
 
   const liveComp = computeLiveComparisonForScenario(v, r.ticker, 'base');
-  const gate = computeLiveJudgmentGate(v, liveComp);
-  const price = liveComp ? liveComp.purchasePrice : (v.summaryCard && v.summaryCard.currentPrice);
+  const rawPrice = liveComp ? liveComp.purchasePrice : (v.summaryCard && v.summaryCard.currentPrice);
   const priceAsOf = liveComp ? liveComp.priceAsOf : null;
   const priceIsLive = !!(liveComp && liveComp.isLive);
   const priceSourceNote = liveComp ? liveComp.source : '저장된 실행 당시 값(실시간 가격 없음)';
 
-  const diffVsBasePct = (price!=null) ? (price - base.px) / base.px * 100 : null;
-  const diffVsConsPct = (price!=null && cons) ? (price - cons.px) / cons.px * 100 : null;
-  const diffVsOptPct = (price!=null && opt) ? (price - opt.px) / opt.px * 100 : null;
+  // [결함1-가] 재현: 가격이 음수/0/NaN이면(-$1 등) 아래 모든 가격 비교를 전부 건너뛴다 --
+  // "판단 불가"로만 남기고, 어떤 조건도 "충족"으로 만들지 않는다.
+  const priceNumericValid = Number.isFinite(rawPrice) && rawPrice > 0;
+  const sanePrice = priceNumericValid ? rawPrice : null;
+  const invalidPriceNote = (!priceNumericValid && rawPrice != null)
+    ? `현재가로 받은 값(${rawPrice})이 유효한 양수가 아니에요 -- 이 값으로는 어떤 가격 비교도 하지 않아요.`
+    : null;
 
-  // 상대가치(있으면)와의 괴리 - 값을 새로 계산하지 않고 이미 계산된 rv 필드만 읽는다.
+  // [결함1-나·다] 카드 자체 로직으로 비율·범위위치·최신성을 다시 만들지 않는다 -- 다른 상세
+  // 카드(decisionSummaryHtml/renderValuationVerdictNote/renderRelativeValueBandCard)가 쓰는 것과
+  // 완전히 같은 공통 함수를 그대로 호출한다. 이 함수들은 이미 (a) 이번 비교가격 자체의
+  // 유효성·최신성(evaluatePriceFreshnessJS) (b) 스냅샷 자체의 노후 여부(rv.isStaleReference·
+  // computeRelativeValueLiveStaleness) (c) 공시 반영 대기(updateStatus.attemptStatus==='FAILED')를
+  // 전부 검사해서, 통과 못 하면 비교 자체를 보류(withheld/null)로 돌려준다 -- 카드가 따로
+  // "2020년 자료를 현재 신호처럼" 흘려보낼 방법이 없다.
+  const dcfVerdict = computeValuationVerdict(r.ticker, sanePrice, priceAsOf);
   const relAvailable = !!(rv && rv.available && rv.rangeLow!=null && rv.rangeHigh!=null);
-  const relMid = relAvailable ? (rv.rangeMid!=null ? rv.rangeMid : (rv.rangeLow+rv.rangeHigh)/2) : null;
-  const dcfVsRelGapPct = (relMid!=null) ? (relMid - base.px) / base.px * 100 : null;
+  const relVerdict = relAvailable ? computeRelativeValueVerdict(rv, sanePrice, priceAsOf, null) : null;
+  // computeValuationVerdict 내부 게이트(공시 반영 대기·자료 노후·이번 비교가격 관측일 노후)가
+  // 이 카드의 "자료 조건"에도 그대로 연결된다 -- 별도 게이트를 새로 만들지 않는다.
+  const dataOk = dcfVerdict.status === 'independent_confirmed' ? dcfVerdict.judgmentAllowed : null;
+  const dataReason = dcfVerdict.judgmentBlockedReason || null;
+  const pendingFiling = !!(v.updateStatus && v.updateStatus.attemptStatus === 'FAILED');
 
-  // ---- 행동조건(가격 조건 + 사업 조건 + 하방 위험) - 신규매수검토/기존보유/비중재검토를
-  // 서로 다른 질문으로 분리한다(사용자 명시 요구: 혼동 금지). 세 조건은 배타적이지 않다 --
-  // 동시에 해당 없음/해당일 수 있다(예: 지금 AMAT처럼 신규매수 조건은 아니면서 비중재검토
-  // 조건에는 해당하는 경우).
+  // ---- 사업 조건(실적 방향) -- 결함2: "확인 안 한 항목을 충족으로 표시하지 않는다". 최신
+  // 분기 매출·영업이익 자체가 미확인이면(fd.latestQuarterRevenueMissing/OpIncomeMissing) fd가
+  // 존재해도 businessOk를 true/false로 확정하지 않고 null(미확인)로 남긴다 -- 화면 전체를
+  // 다시 보류로 덮는 게 아니라, 이 항목 하나만 별도로 "미확인"이라고 밝힌다(사용자 명시 요구).
   const fin = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA[r.ticker] : null;
   const fd = fin ? computeFinancialDirection(r, fin) : null;
-  const fdDeteriorating = !!(fd && fd.verdict === '매출·수익성 동반 둔화');
-  const pendingFiling = !!(v.updateStatus && v.updateStatus.attemptStatus === 'FAILED');
-  // [버그 수정 -- 이번 회차 자체 검증에서 발견] conditionsForChange는 v 최상위가 아니라
-  // v.summaryCard 안에 있다(generate_dashboard_connection.py의 build_amat_entry() 출력 구조).
-  // 최상위 v.conditionsForChange로 읽으면 항상 undefined라 "판단이 바뀌는 조건" 목록이
-  // 조용히 비어 보였을 것 -- 실제 4개 조건 문구를 그대로 재사용한다(새로 짓지 않음).
+  const quarterUnconfirmed = !!fd && (fd.latestQuarterRevenueMissing || fd.latestQuarterOpIncomeMissing);
+  const fdDeteriorating = !!fd && fd.verdict === '매출·수익성 동반 둔화';
+  // null=미확인, true=확인된 최신 분기 기준 "동반 둔화 아님", false=확인된 "동반 둔화"
+  const businessOk = (!fd) ? null : (quarterUnconfirmed ? null : !fdDeteriorating);
+  const businessLabel = !fd ? '실적 자료 자체가 연결되지 않아 확인 불가'
+    : quarterUnconfirmed ? `최신 분기 매출·영업이익이 아직 미확인(${fd.verdict}) -- 더 오래된 분기로 대신 판단하지 않음`
+    : `최신 분기 기준 확인됨: ${fd.verdict}`;
+
+  // [버그 수정 -- 1차 회차 자체 검증에서 발견, 유지] conditionsForChange는 v.summaryCard 안에 있다.
   const dcfConditions = (v.summaryCard && v.summaryCard.conditionsForChange) || [];
 
-  const newBuyPriceOk = (price!=null && cons) ? price <= cons.px : null;
+  // ---- 매매 경계 -- 결함3: 원시 시나리오 .px 끝점(보수/낙관)을 그대로 매수·비중재검토 문턱으로
+  // 쓰지 않는다(근거 없는 별도 정책이라는 지적). 이미 있는 "수익조건(3년 보유)" 카드와 똑같은
+  // 계산(recomputeCeilingJS: Σ현금흐름_t/(1+r)^t, 매입가 상한)을 그대로 재사용해서, 선택한
+  // 요구수익률에서 왜 그 가격이 나오는지 보여준다. r은 여전히 사용자가 직접 바꿀 수 있고
+  // (SHARED_REQUIRED_RETURN_BY_TICKER에 이미 값을 넣었으면 그 값을 그대로 씀 -- "수익조건" 카드와
+  // 같은 값을 공유), 화면이 산식 선택을 사용자에게 통째로 떠넘기지 않도록 근거를 밝힌 기본값을
+  // 제안한다. 이 기본값이 "실제 시장 기대수익률"이라고 주장하지 않는다 -- 모델이 미리 계산해 둔
+  // 예시 구간(8%/10%/12%) 중 가운데 값을 참고용 제안으로 쓸 뿐이다.
+  const rc = v.returnConditionYear3;
+  const baseScenarioRc = rc && rc.scenarios && rc.scenarios.base;
+  const cashflowsByYear = liveComp && liveComp.cashflowsByYear ? liveComp.cashflowsByYear
+    : (baseScenarioRc && baseScenarioRc.cashflowsByYear);
+  const userRPct = SHARED_REQUIRED_RETURN_BY_TICKER[r.ticker];
+  const policyBuyRPct = userRPct != null ? userRPct : 10;
+  const policyIsUserChosen = userRPct != null;
+  const policyTrimRPct = 8; // 아래 rationale 참고 -- 미리 계산된 예시 구간의 가장 관대한 쪽 고정값
+  const ceilingBuy = cashflowsByYear ? recomputeCeilingJS(cashflowsByYear, policyBuyRPct/100) : null;
+  const ceilingTrimRef = cashflowsByYear ? recomputeCeilingJS(cashflowsByYear, policyTrimRPct/100) : null;
+  const policyRationale = (policyIsUserChosen
+      ? `사용자가 "수익조건(3년 보유)" 카드에 직접 입력한 요구수익률 ${policyBuyRPct}%를 신규매수 문턱에 그대로 적용했어요.`
+      : `기본 제안값이에요 -- 이미 계산돼 있는 예시 요구수익률 구간(8%/10%/12%, "수익조건(3년 보유)" 카드와 같은 예시)의 가운데 값 ${policyBuyRPct}%를 신규매수 문턱으로 제안해요.`)
+    + ` 비중재검토 문턱은 그 예시 구간에서 가장 관대한 쪽(${policyTrimRPct}%)을 고정으로 써요 -- 그 관대한 기준으로도 정당화 안 되면 신호가 더 뚜렷하다는 뜻이에요.`
+    + ` 이 값들은 DCF가 계산에 쓴 할인율(WACC)을 그대로 가져온 게 아니라, 사용자가 원하는 연 수익률 기준으로 다시 문턱을 잡은 거예요 -- 모델 내재가치 계산 결과를 실제 시장 기대수익률로 단정하지 않아요. "수익조건" 카드에서 요구수익률을 바꾸면 이 문턱도 같은 값으로 다시 계산돼요.`;
+
+  const newBuyPriceOk = (priceNumericValid && ceilingBuy != null) ? sanePrice <= ceilingBuy : null;
   const newBuy = {
-    priceCondition: cons ? `현재가($${price!=null?price.toFixed(2):'-'})가 보수 시나리오 $${cons.px.toFixed(2)} 이하로 내려와야 함` : '보수 시나리오 값이 없어 판단 불가',
+    priceCondition: ceilingBuy != null
+      ? `현재가($${priceNumericValid ? sanePrice.toFixed(2) : '유효하지 않음'})가 요구수익률 ${policyBuyRPct}% 기준 매입가 상한 $${ceilingBuy.toFixed(2)} 이하로 내려와야 함`
+      : '현금흐름 정보가 없어 매입가 상한을 계산할 수 없음(판단 불가)',
     priceOk: newBuyPriceOk,
-    businessCondition: '실적 방향이 "매출·수익성 동반 둔화"로 전환되지 않았고, 새 공시 반영 대기(판단 보류) 상태가 아니어야 함',
-    businessOk: (fd!=null) ? (!fdDeteriorating && !pendingFiling) : null,
-    downsideRisk: cons ? `성장률·ROIC 가정이 지금보다 더 낙관적이었던 것으로 드러나면, 보수 시나리오($${cons.px.toFixed(2)})보다 더 아래로 재계산될 수 있음 -- 위 "판단이 바뀌는 조건" 항목이 실제로 이 경우에 해당함` : '-',
+    businessCondition: '최신 분기 매출·영업이익이 실제로 확인되었고, 그 기준으로 "매출·수익성 동반 둔화"가 아니어야 함',
+    businessOk,
+    businessLabel,
+    dataCondition: '자료 최신성·이번 비교가격 관측일·공시 반영 대기 여부를 공통 게이트로 확인',
+    dataOk, dataReason,
+    downsideRisk: ceilingBuy != null ? `요구수익률을 지금보다 낮게(더 관대하게) 잡을수록 매입가 상한은 올라가고, 높게(더 보수적으로) 잡을수록 내려감 -- 위 "판단이 바뀌는 조건" 항목이 실제로 이 경우에 해당함` : '-',
   };
   const review = {
-    // 기존 보유는 "지금 이 가격에 사도 되는가"가 아니라 "처음 보유를 시작한 근거(사업가치 유지)가
-    // 아직 유효한가"를 본다 -- 가격 테스트가 아니라는 걸 명시적으로 분리한다(사용자 명시 요구).
-    thesisCondition: '신규 매수 가격조건과 무관하게, DCF가 가정한 성장경로·ROIC·순부채가 크게 어긋나지 않았는지를 봄',
-    thesisOk: (fd!=null) ? (!fdDeteriorating) : null,
-    dataCondition: '자료 최신성 게이트(새 공시 반영 대기 등)에 걸리면 판단 자체를 보류(과거 참고값)',
-    dataOk: gate.allowed,
-    downsideRisk: '실적 방향이 "동반 둔화"로 바뀌면 보유 근거 자체를 재검토해야 함(가격과 무관한 위험)',
+    // 기존 보유는 "지금 이 가격에 사도 되는가"가 아니라 "최신 분기 기준 확인된 실적 방향이
+    // 아직 훼손되지 않았는가"만 본다 -- 가격 테스트가 아니라는 걸 명시적으로 분리한다(사용자
+    // 명시 요구). [결함2] "성장경로·ROIC·순부채를 재검증했다"고 과장하지 않는다 -- 이 화면이
+    // 실제로 다시 계산하는 건 최신 분기 매출·영업이익 방향(businessOk)뿐이다.
+    thesisCondition: '신규 매수 가격조건과 무관하게, 최신 분기 매출·영업이익 기준으로 "매출·수익성 동반 둔화"가 새로 확인됐는지만 봄(DCF의 장기 성장경로·ROIC·순부채 가정 자체를 이 화면이 다시 계산하지는 않음)',
+    thesisOk: businessOk,
+    thesisLabel: businessLabel,
+    dataCondition: '자료 최신성 게이트(새 공시 반영 대기·이번 비교가격 노후 등)에 걸리면 판단 자체를 보류(과거 참고값)',
+    dataOk, dataReason,
+    downsideRisk: '최신 분기 실적 방향이 "동반 둔화"로 확인되면 보유 근거 자체를 재검토해야 함(가격과 무관한 위험) -- 아직 미확인이면 이 위험 여부 자체가 열려 있음',
   };
-  const trimPriceOk = (price!=null && opt) ? price > opt.px : null;
+  const trimPriceOk = (priceNumericValid && ceilingTrimRef != null) ? sanePrice > ceilingTrimRef : null;
   const trim = {
-    priceCondition: opt ? `현재가($${price!=null?price.toFixed(2):'-'})가 낙관 시나리오 $${opt.px.toFixed(2)}보다 높아야 함` : '낙관 시나리오 값이 없어 판단 불가',
+    priceCondition: ceilingTrimRef != null
+      ? `현재가($${priceNumericValid ? sanePrice.toFixed(2) : '유효하지 않음'})가 요구수익률 ${policyTrimRPct}%(가장 관대한 예시) 기준 매입가 상한 $${ceilingTrimRef.toFixed(2)}보다 높아야 함`
+      : '현금흐름 정보가 없어 매입가 상한을 계산할 수 없음(판단 불가)',
     priceOk: trimPriceOk,
-    businessCondition: 'DCF 기준으로는 낙관 시나리오까지 반영해도 지금 가격을 정당화하지 못한다는 뜻 -- 다만 상대가치(동종기업 배수) 참고범위는 반대 방향(범위 하단 아래)을 가리킬 수 있어 두 신호가 엇갈릴 수 있음',
-    counterSignal: (relAvailable && rv.bandStatus === 'BELOW_BAND')
-      ? `상대가치 참고범위($${rv.rangeLow.toFixed(2)}~$${rv.rangeHigh.toFixed(2)})는 오히려 현재가가 범위 아래에 있다고 봄 -- DCF 신호와 반대 방향, 어느 쪽이 맞는지 이 화면이 판정하지 않음`
-      : null,
-    downsideRisk: opt ? '낙관 시나리오 자체가 지금 가격보다 한참 낮으므로, DCF 관점에서는 밸류에이션 되돌림(재평가 되돌림) 위험이 상방 여력보다 큼' : '-',
+    businessCondition: `가장 관대한 요구수익률(${policyTrimRPct}%) 기준으로도 지금 가격을 정당화하지 못한다는 뜻 -- 다만 상대가치(동종기업 배수) 참고범위는 반대 방향을 가리킬 수 있어 두 신호가 엇갈릴 수 있음`,
+    // [결함1-나 재발 방지] bandStatus가 계산돼 있어도(공통 함수는 "이번 비교가격" 자체의
+    // 최신성만으로 bandStatus를 계산 -- 스냅샷 자체 노후(rv.isStaleReference)와는 별개 검사),
+    // relVerdict.judgmentAllowed가 false면(스냅샷 노후 포함) 그 값을 "지금 신호"로 인용하지
+    // 않는다 -- 재현: 2020년 스냅샷(isStaleReference=true)에서도 bandStatus 자체는 계산될 수
+    // 있었는데, judgmentAllowed만 보지 않고 bandStatus만 보면 노후 데이터를 그대로 인용하게 됨.
+    counterSignal: (relVerdict && relVerdict.judgmentAllowed && relVerdict.bandStatus === 'BELOW_BAND')
+      ? `상대가치 참고범위(중앙값 $${relVerdict.valueBase!=null?relVerdict.valueBase.toFixed(2):'-'})는 이번 비교에서 오히려 현재가가 범위 아래에 있다고 봄 -- 반대 방향 신호, 어느 쪽이 맞는지 이 화면이 판정하지 않음`
+      : (relVerdict && !relVerdict.judgmentAllowed
+          ? `상대가치 쪽은 이번엔 비교가 보류됐어요(${relVerdict.judgmentBlockedReason||'자료 노후'}) -- 과거 참고값을 지금 신호처럼 인용하지 않아요.`
+          : null),
+    downsideRisk: ceilingTrimRef != null ? '가장 관대한 요구수익률 기준으로도 지금 가격이 정당화되지 않으므로, DCF 관점에서는 밸류에이션 되돌림(재평가 되돌림) 위험이 상방 여력보다 큼' : '-',
   };
+
+  // ---- DCF vs 상대가치 괴리 설명 -- 결함4: "계산 오류가 아닌 정상적인 차이"라고 검증 없이
+  // 확정하지 않는다. 확인된 것(계산 방식 자체가 다르다는 구조적 사실)과 미확인인 것(그 구조적
+  // 차이가 지금 관측된 괴리의 몇 %를 설명하는지는 분해·검증하지 않았다는 점)을 나눈다.
+  const gapConfirmed = 'DCF는 AMAT 자신의 현금흐름을 할인한 값이고, 상대가치 참고범위는 LRCX·KLAC가 지금 받는 시장배수를 AMAT 컨센서스 EPS에 곱한 값이에요 -- 계산 방식 자체가 다르다는 점은 입력값 구조로 확인돼요(그래서 두 값이 똑같이 움직여야 할 이유가 없어요).';
+  const gapUnconfirmed = relVerdict
+    ? (!relVerdict.judgmentAllowed
+        ? `다만 지금은 상대가치 쪽 비교 자체가 보류돼 있어서(${relVerdict.judgmentBlockedReason||'자료 노후'}), 두 값의 괴리폭을 지금 수치로 비교하지 않았어요.`
+        : `다만 이 계산방식 차이가 지금 괴리(DCF 대비 ${dcfVerdict.diffLabel||'-'}, 상대가치 대비 ${relVerdict.diffLabel||'-'})의 몇 %를 설명하는지는 따로 분해해서 검증하지 않았어요 -- 나머지가 가정 차이 때문인지, 피어를 2종목(LRCX·KLAC)만 쓴 한계 때문인지, 다른 이유인지는 확인되지 않았어요.`)
+    : '상대가치 참고범위 자체가 없어서 괴리를 비교하지 않았어요.';
+
+  const anchorDate = v.valuationAnchorDate || dcfVerdict.valuationAnchorDate || v.asOf || '-';
 
   return {
     method: 'DCF (FCFF/WACC 공통 엔진)',
     methodReasonShort: 'AMAT 자체 SEC 공시 현금흐름 기반 · 가정·민감도 전부 문서화됨 (상대가치는 피어 2종목 배수 참고 교차검증)',
-    evaluationPointNote: '오늘 시점의 조건부 사업가치 추정(특정 미래시점 목표주가 아님) · 모델 평가 기준일 ' + (v.valuationAnchorDate||v.asOf||'-'),
-    base: base.px, low: cons ? cons.px : null, high: opt ? opt.px : null,
-    price, priceAsOf, priceIsLive, priceSourceNote,
-    diffVsBasePct, diffVsConsPct, diffVsOptPct,
-    relAvailable, relLow: relAvailable?rv.rangeLow:null, relHigh: relAvailable?rv.rangeHigh:null,
-    relMid, relBandStatus: relAvailable?rv.bandStatus:null, dcfVsRelGapPct,
-    gate, dcfConditions,
+    // [결함4] "오늘 시점"이라고 부르지 않는다 -- 저장값은 valuationAnchorDate 기준으로 계산된
+    // 값이고, 오늘 날짜로 다시 굴려 계산(roll-forward)하지 않았다.
+    evaluationPointNote: `모델 평가 기준일(${anchorDate}) 기준으로 계산된 조건부 사업가치 추정이에요 -- 특정 미래시점 목표주가가 아니고, "오늘 시점 가치"로 다시 계산한 값도 아니에요.`,
+    valuationAnchorDate: anchorDate,
+    base: dcfVerdict.valueBase != null ? dcfVerdict.valueBase : base.px,
+    low: dcfVerdict.valueLow != null ? dcfVerdict.valueLow : (cons ? cons.px : null),
+    high: dcfVerdict.valueHigh != null ? dcfVerdict.valueHigh : (opt ? opt.px : null),
+    rawPrice, price: sanePrice, priceNumericValid, invalidPriceNote,
+    priceAsOf, priceIsLive, priceSourceNote,
+    diffVsBasePct: dcfVerdict.diffPct, diffVsBaseSentence: dcfVerdict.diffSentence,
+    relAvailable,
+    relLow: relAvailable ? rv.rangeLow : null, relHigh: relAvailable ? rv.rangeHigh : null,
+    relMid: relVerdict ? relVerdict.valueBase : null,
+    // [결함1-나] bandStatus는 "이번 비교가격 자체"의 최신성만으로도 계산될 수 있어(공통 함수의
+    // canCompare 정의), 스냅샷 자체가 노후(rv.isStaleReference)여도 값이 들어 있을 수 있다 --
+    // 이 카드가 밖으로 노출하는 relBandStatus/dcfVsRelGapPct는 judgmentAllowed(스냅샷 노후까지
+    // 포함한 전체 게이트)를 통과했을 때만 채운다. 그래야 이 필드를 읽는 다른 코드가 실수로
+    // 노후 데이터를 현재 신호처럼 쓸 수 없다.
+    relBandStatus: (relVerdict && relVerdict.judgmentAllowed) ? relVerdict.bandStatus : null,
+    relComparisonWithheld: relVerdict ? !relVerdict.judgmentAllowed : null,
+    relWithheldReason: relVerdict ? relVerdict.judgmentBlockedReason : null,
+    dcfVsRelGapPct: (relVerdict && relVerdict.judgmentAllowed && relVerdict.bandStatus != null && dcfVerdict.valueBase != null && relVerdict.valueBase != null)
+      ? (relVerdict.valueBase - dcfVerdict.valueBase) / dcfVerdict.valueBase * 100 : null,
+    gapConfirmed, gapUnconfirmed,
+    dataOk, dataReason, pendingFiling, dcfConditions,
+    policyBuyRPct, policyIsUserChosen, policyTrimRPct, ceilingBuy, ceilingTrimRef, policyRationale,
     newBuy, review, trim,
   };
 }
@@ -4767,6 +4862,8 @@ function computeAmatRepresentativeDecision(v, rv, r){
 // 지금 판단 / 핵심 이유 / 바뀌는 조건)으로 즉시 보여주는 카드. 긴 산식·민감도는 <details>로
 // 접는다(사용자 명시 요구: "긴 산식과 근거는 상세로 접으세요"). 목록/상세를 새로 설계하지
 // 않고 tabJudgement의 decisionSummaryHtml(status 배지) 바로 다음에 한 카드만 추가한다.
+// [2026-09-21 2차 수정] 위 계산 결과(공통 함수·3단 사업조건·현금흐름 기반 매매 경계·확인/미확인
+// 분리 괴리 설명)를 그대로 화면에 옮긴다 -- 이 함수는 새 판정을 만들지 않고 d의 필드만 읽는다.
 function renderAmatFrontCard(r){
   const iv = (typeof INDEPENDENT_VALUATION_DATA !== 'undefined') ? INDEPENDENT_VALUATION_DATA[r.ticker] : null;
   if(!iv || !iv.valuation || iv.valuation.kind !== 'independent_value_dcf_scenario_engine') return '';
@@ -4775,23 +4872,30 @@ function renderAmatFrontCard(r){
 
   const fmt = x => x!=null ? `$${x.toFixed(2)}` : '-';
   const pctStr = x => x!=null ? `${x>=0?'+':''}${x.toFixed(0)}%` : '-';
+  const triIcon = ok => ok==null ? '❔' : (ok ? '✅' : '❌');
+  const triWord = (ok, okWord, ngWord) => ok==null ? '미확인' : (ok ? okWord : ngWord);
 
   // "지금 판단" 한 줄 -- 위 목록/상세 status(review 등, 기술적 관심 경로)와 절대 같은 말로
-  // 섞지 않는다(사용자 명시 경고: "review 복귀 = 기술적 관심 경로일 뿐, 적정가 기준 매수 가능과
-  // 다르다"). 이 카드의 "지금 판단"은 오직 DCF 대표값 기준 가격 위치만 말한다.
+  // 섞지 않는다(사용자 명시 경고). 이 카드의 "지금 판단"은 priceNumericValid·dataOk(공통
+  // 게이트)·매입가 상한 기반 가격조건을 조합한 결과만 말한다 -- 미확인 항목이 있으면 그 사실을
+  // 숨기지 않고 그대로 노출한다.
   let nowLabel, nowColor, nowDetail;
-  if(d.gate.allowed === false){
+  if(!d.priceNumericValid){
+    nowLabel = '❔ 판단 불가(현재가 값이 유효하지 않음)'; nowColor = 'var(--sub)';
+    nowDetail = d.invalidPriceNote || '-';
+  } else if(d.dataOk === false){
     nowLabel = '⏸ 판단 보류(자료 최신성)'; nowColor = 'var(--warn)';
-    nowDetail = d.gate.reason || '-';
+    nowDetail = d.dataReason || '-';
   } else if(d.trim.priceOk){
-    nowLabel = '📐 DCF 기준 비중재검토 대상(신규매수 조건 아님)'; nowColor = 'var(--down)';
-    nowDetail = `현재가가 낙관 시나리오(${fmt(d.high)})보다 ${pctStr(d.diffVsOptPct)} 높음` + (d.trim.counterSignal ? ' -- 다만 상대가치 참고범위는 반대 신호' : '');
+    nowLabel = '📐 매입가 상한(관대 기준) 초과 -- 비중재검토 대상(신규매수 조건 아님)'; nowColor = 'var(--down)';
+    nowDetail = `현재가가 요구수익률 ${d.policyTrimRPct}% 기준 매입가 상한(${fmt(d.ceilingTrimRef)})보다 높음` + (d.trim.counterSignal ? ' -- 다만 상대가치 참고범위는 반대/보류 신호가 있음(아래 참고)' : '');
   } else if(d.newBuy.priceOk){
-    nowLabel = '🔎 DCF 기준 신규매수 가격조건 충족(사업조건 별도 확인 필요)'; nowColor = 'var(--up)';
-    nowDetail = `현재가가 보수 시나리오(${fmt(d.low)}) 이하 -- 사업조건도 함께 충족해야 신규매수 검토 대상`;
+    nowLabel = `🔎 매입가 상한(요구수익률 ${d.policyBuyRPct}%) 이하 -- 신규매수 가격조건 충족(사업조건 ${triWord(d.newBuy.businessOk,'충족','미충족')})`;
+    nowColor = d.newBuy.businessOk === false ? 'var(--warn)' : (d.newBuy.businessOk == null ? 'var(--sub)' : 'var(--up)');
+    nowDetail = `현재가가 요구수익률 ${d.policyBuyRPct}% 기준 매입가 상한(${fmt(d.ceilingBuy)}) 이하 -- 사업조건: ${esc(d.newBuy.businessLabel)}`;
   } else {
-    nowLabel = '↔ 시나리오 범위 안(신규매수·비중재검토 어느 쪽 가격조건도 아님)'; nowColor = 'var(--sub)';
-    nowDetail = `보수~낙관 시나리오(${fmt(d.low)}~${fmt(d.high)}) 범위 안 -- 기존 보유자는 사업조건 유지 여부만 확인`;
+    nowLabel = '↔ 매입가 상한 구간 안(신규매수·비중재검토 어느 쪽 가격조건도 아님)'; nowColor = 'var(--sub)';
+    nowDetail = `요구수익률 ${d.policyTrimRPct}%~${d.policyBuyRPct}% 기준 매입가 상한(${fmt(d.ceilingTrimRef)}~${fmt(d.ceilingBuy)}) 사이 -- 기존 보유자는 사업조건 유지 여부만 확인`;
   }
   // [사용자 명시 경고 반영] status가 review(기술적 관심 경로 재개)인 경우 이 카드 바로 위에서
   // 혼동 방지 문구를 한 번 더 명시한다.
@@ -4800,12 +4904,14 @@ function renderAmatFrontCard(r){
     ? `<div class="sub" style="margin:2px 0 8px;color:var(--warn);">⚠️ 위 상태 배지("review")는 가격 눌림목 등 기술적 관심 경로가 다시 열렸다는 뜻일 뿐, 아래 DCF 대표가격 기준으로 매수해도 된다는 뜻이 아니에요 -- 서로 다른 질문에 대한 서로 다른 답이에요.</div>`
     : '';
 
-  const gapExplainShort = d.relAvailable
-    ? `DCF는 AMAT 자체 현금흐름 기준이라 ${pctStr(d.diffVsBasePct)} ${d.diffVsBasePct>=0?'높다':'낮다'}고 보는데, 상대가치(LRCX·KLAC 배수 적용)는 ${esc(d.relBandStatus==='BELOW_BAND'?'오히려 범위 아래':(d.relBandStatus==='ABOVE_BAND'?'범위 위':'범위 안'))}라고 봐요 -- 계산 오류가 아니라 DCF는 회사 고유 현금흐름, 상대가치는 지금 업종이 받는 배수를 따르기 때문에 생기는 정상적인 차이예요.`
-    : `상대가치 참고범위는 아직 없어요 -- DCF 대표값만 참고하세요.`;
+  const gapExplainShort = `${esc(d.gapConfirmed)} ${esc(d.gapUnconfirmed)}`;
 
   const condChangeShort = (d.dcfConditions.slice(0,2).map(c=>`<li>${esc(c)}</li>`).join('')) || '<li>-</li>';
   const condChangeRest = d.dcfConditions.slice(2).map(c=>`<li>${esc(c)}</li>`).join('');
+
+  const priceRow = d.priceNumericValid
+    ? `${fmt(d.price)} (${esc(d.priceAsOf||'-')}${d.priceIsLive?'':' · 저장값'}) · 대표가격 대비 ${d.diffVsBasePct!=null?pctStr(d.diffVsBasePct):esc(d.diffVsBaseSentence||'비교 불가')}`
+    : `<span style="color:var(--warn);">${esc(d.invalidPriceNote||'유효하지 않은 값')}</span>`;
 
   return `
     <div class="comment-box" style="background:var(--panel-2);margin-bottom:12px;border:1px solid var(--border,#333);">
@@ -4814,7 +4920,7 @@ function renderAmatFrontCard(r){
       <div class="fund-row" style="margin-top:6px;"><span>대표가격 · 범위</span>
         <span class="v"><b>${fmt(d.base)}</b> (보수 ${fmt(d.low)} ~ 낙관 ${fmt(d.high)})</span></div>
       <div class="fund-row"><span>현재가 · 관측일</span>
-        <span class="v">${fmt(d.price)} (${esc(d.priceAsOf||'-')}${d.priceIsLive?'':' · 저장값'}) · 대표가격 대비 ${pctStr(d.diffVsBasePct)}</span></div>
+        <span class="v">${priceRow}</span></div>
       <div class="sub" style="margin:2px 0 8px;color:${nowColor};"><b>지금 판단: ${nowLabel}</b><br>${esc(nowDetail)}</div>
       ${confusionGuard}
       <div class="sub" style="margin:2px 0 8px;"><b>핵심 이유</b>: ${gapExplainShort}</div>
@@ -4823,18 +4929,20 @@ function renderAmatFrontCard(r){
         ${condChangeRest ? `<details style="margin-top:2px;"><summary style="cursor:pointer;color:var(--sub);font-size:11px;">조건 더 보기</summary><ul style="margin:4px 0 0 16px;padding:0;">${condChangeRest}</ul></details>` : ''}
       </div>
       <details style="margin-top:6px;">
-        <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">주 방법 선택 근거 · 행동조건(신규매수/기존보유/비중재검토) 자세히 보기</summary>
+        <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">주 방법 선택 근거 · 매매 경계 산출 · 행동조건(신규매수/기존보유/비중재검토) 자세히 보기</summary>
         <div class="sub" style="margin:8px 0 6px;"><b>왜 DCF를 대표(주) 기준으로 썼는가</b>: ${esc(d.methodReasonShort)}. ${esc(d.evaluationPointNote)}</div>
+        <div class="sub" style="margin:8px 0 6px;"><b>매매 경계는 어떻게 나왔는가</b>: ${esc(d.policyRationale)}</div>
         <div class="sub" style="margin:8px 0 4px;"><b>① 신규매수검토</b></div>
-        <div class="sub" style="margin:2px 0;">가격 조건: ${esc(d.newBuy.priceCondition)} — ${d.newBuy.priceOk==null?'판단 불가':(d.newBuy.priceOk?'✅ 충족':'❌ 미충족')}</div>
-        <div class="sub" style="margin:2px 0;">사업 조건: ${esc(d.newBuy.businessCondition)} — ${d.newBuy.businessOk==null?'판단 불가(실적 자료 없음)':(d.newBuy.businessOk?'✅ 충족':'❌ 미충족')}</div>
+        <div class="sub" style="margin:2px 0;">가격 조건: ${esc(d.newBuy.priceCondition)} — ${triIcon(d.newBuy.priceOk)} ${triWord(d.newBuy.priceOk,'충족','미충족')}</div>
+        <div class="sub" style="margin:2px 0;">사업 조건: ${esc(d.newBuy.businessCondition)} — ${triIcon(d.newBuy.businessOk)} ${esc(d.newBuy.businessLabel)}</div>
+        <div class="sub" style="margin:2px 0;">자료 조건: ${esc(d.newBuy.dataCondition)} — ${triIcon(d.newBuy.dataOk)} ${d.newBuy.dataOk==null?'미확인':(d.newBuy.dataOk?'정상':('보류' + (d.newBuy.dataReason?`(${esc(d.newBuy.dataReason)})`:'')))}</div>
         <div class="sub" style="margin:2px 0 8px;">하방 위험: ${esc(d.newBuy.downsideRisk)}</div>
         <div class="sub" style="margin:8px 0 4px;"><b>② 기존보유</b> <span style="font-weight:400;">(신규매수 가격조건과 다른 질문 -- 이미 보유 중인 경우에만 해당)</span></div>
-        <div class="sub" style="margin:2px 0;">사업 조건(보유 근거 유지 여부): ${esc(d.review.thesisCondition)} — ${d.review.thesisOk==null?'판단 불가':(d.review.thesisOk?'✅ 유지':'❌ 훼손')}</div>
-        <div class="sub" style="margin:2px 0;">자료 조건: ${esc(d.review.dataCondition)} — ${d.review.dataOk?'✅ 정상':'⚠️ 보류'}</div>
+        <div class="sub" style="margin:2px 0;">사업 조건(보유 근거 유지 여부): ${esc(d.review.thesisCondition)} — ${triIcon(d.review.thesisOk)} ${esc(d.review.thesisLabel)}</div>
+        <div class="sub" style="margin:2px 0;">자료 조건: ${esc(d.review.dataCondition)} — ${triIcon(d.review.dataOk)} ${d.review.dataOk==null?'미확인':(d.review.dataOk?'정상':('보류' + (d.review.dataReason?`(${esc(d.review.dataReason)})`:'')))}</div>
         <div class="sub" style="margin:2px 0 8px;">하방 위험: ${esc(d.review.downsideRisk)}</div>
         <div class="sub" style="margin:8px 0 4px;"><b>③ 비중재검토</b></div>
-        <div class="sub" style="margin:2px 0;">가격 조건: ${esc(d.trim.priceCondition)} — ${d.trim.priceOk==null?'판단 불가':(d.trim.priceOk?'✅ 충족(DCF 기준)':'❌ 미충족')}</div>
+        <div class="sub" style="margin:2px 0;">가격 조건: ${esc(d.trim.priceCondition)} — ${triIcon(d.trim.priceOk)} ${triWord(d.trim.priceOk,'충족','미충족')}</div>
         <div class="sub" style="margin:2px 0;">참고: ${esc(d.trim.businessCondition)}</div>
         ${d.trim.counterSignal?`<div class="sub" style="margin:2px 0;color:var(--warn);">⚠️ ${esc(d.trim.counterSignal)}</div>`:''}
         <div class="sub" style="margin:2px 0 4px;">하방 위험: ${esc(d.trim.downsideRisk)}</div>
