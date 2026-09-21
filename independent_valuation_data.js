@@ -275,6 +275,172 @@ const INDEPENDENT_VALUATION_DATA = {
         "lastReviewed": "2026-09-21"
       }
     },
+    "longTermScenario": {
+      "kind": "amat_long_term_eps_growth_exit_multiple_scenario",
+      "not_the_dcf": "기존 독립 DCF(compute_forward, 약 $191.30)와 완전히 별개의 시나리오 -- 바닥가격/최악 시나리오가 아니며, 두 값을 평균내지 않는다.",
+      "assumption_disclaimer": "요약: FY2027 EPS만 사실(확인된 컨센서스)이고, 이후 성장률·출구PER·요구수익률은 전부 분석자가 선택한 가정이다. 회사가 확정한 전망이나 검증된 역사적 중앙값이 아니다.",
+      "assumption_review": {
+        "eps_base": "FY2027 EPS $18.45479(estimates_cache.json 실제 컨센서스, 34명 애널리스트)만 확인된 자료다. 이후 FY2028~FY2031 성장 경로는 컨센서스가 없어 분석자가 고른 가정(연 10%)을 적용한다.",
+        "growth_sustainability": "연 10% EPS 성장을 FY2031까지 4년 더 유지한다는 가정은, 반도체장비 업황의 경기순환성(설비투자 사이클에 따라 AMAT 매출·이익이 과거에도 여러 해 역성장한 이력이 있음)을 감안하면 낙관적인 쪽에 가깝다 -- 4년 내내 경기순환 없이 일정한 성장률이 이어진다고 가정하는 것 자체가 검증된 값이 아니다. 대안: 성장률을 8%로 낮추면(=STRESS_SCENARIOS의 stress_low, 종료PER도 20배로 함께 낮춤) 요구수익률 10% 기준 매입가 상한이 약 $317까지 낮아진다 -- 즉 성장 가정 하나만으로도 결과가 20% 이상 바뀔 수 있을 만큼 결과가 이 가정에 민감하다.",
+        "exit_per_validity": "출구 PER 24배는 AMAT의 최근 실제 forward PER 관측치(상대가치 밴드 계산에 쓰는 peer/자기 자신 forward PE)와 같은 자릿수이지만, 5년 뒤(FY2031)에도 같은 배수가 유지된다는 보장은 없다 -- 반도체장비 업종은 업황에 따라 PER 밴드 자체가 확장·수축한다. 대안: 22~26배 범위(사용자 명시 요구 3)로 이미 민감도를 함께 제시하고, 20배(스트레스 시나리오)까지 낮추면 매입가 상한이 추가로 더 낮아진다는 것도 함께 보여준다.",
+        "no_reverse_engineering": "이 가정들은 '현재 주가와 비슷한 결과가 나오도록' 거꾸로 고른 것이 아니다 -- 성장률 10%/출구 PER 24배/요구수익률 10%는 각각 독립적으로 흔히 쓰이는 라운드 넘버 가정이며, 그 결과($406.85, 현재가와 다를 수 있음)를 그대로 보여준다. 현재가에 맞추기 위해 이 숫자들을 사후에 조정하지 않았다.",
+        "assumption_vs_fact_note": "요약: FY2027 EPS만 사실(확인된 컨센서스)이고, 이후 성장률·출구PER·요구수익률은 전부 분석자가 선택한 가정이다. 회사가 확정한 전망이나 검증된 역사적 중앙값이 아니다."
+      },
+      "as_of_execution": "2026-09-21",
+      "growth_rate_assumption": 0.1,
+      "exit_per_assumption": 24.0,
+      "growth_years": 4,
+      "base_fiscal_year": 2027,
+      "target_fiscal_year": 2031,
+      "estimates_fetched_at": "2026-09-20",
+      "estimates_age_days": 1,
+      "base_eps_fact": 18.45479,
+      "base_eps_end_date": "2027-10-31",
+      "base_eps_analysts": 34,
+      "target_date": "2031-10-31",
+      "eps_path_fy2028_to_fy2031": [
+        20.300269,
+        22.330295900000003,
+        24.563325490000004,
+        27.019658039000007
+      ],
+      "target_eps_fy2031": 27.019658039000007,
+      "target_price": 648.4717929360002,
+      "comparison_price": 444.57000732421875,
+      "comparison_price_as_of": "2026-09-18",
+      "base_scenario": {
+        "blocked": false,
+        "holding_period_actual_days": 1869,
+        "holding_period_actual_years": 5.120547945205479,
+        "cashflows_by_year": {
+          "1": 2.12,
+          "2": 2.12,
+          "3": 2.12,
+          "4": 2.12,
+          "5": 2.12,
+          "5.120547945205479": 648.7273545798357
+        },
+        "cashflow_note": {
+          "approximation_note": "실제 AMAT 분기배당(연 4회 지급)을 이 계산에서는 매입일 이후부터 맞이하는 각 정수 연차에 연 1회 합산 지급으로 근사한다 -- 정확한 분기별 지급일을 쓰려면 엔진을 부분기간 할인 구조로 바꿔야 하며 이번 범위 밖이다. 보유기간이 정수가 아니므로(약 5.1205년), 매도 시점의 부분연도에는 연배당의 12.1%만 비례 배분했다(그 이후 -- 매도 이후 -- 배당은 포함하지 않음). 매도 이후 시점의 배당은 어떤 경우에도 포함하지 않는다."
+        },
+        "ceilings_by_required_return": {
+          "0.08": {
+            "blocked": false,
+            "required_return": 0.08,
+            "max_purchase_price": 445.9002903420637,
+            "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
+          },
+          "0.1": {
+            "blocked": false,
+            "required_return": 0.1,
+            "max_purchase_price": 406.24355225148827,
+            "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
+          },
+          "0.12": {
+            "blocked": false,
+            "required_return": 0.12,
+            "max_purchase_price": 370.7527581926096,
+            "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
+          }
+        },
+        "conditional_annualized_return_at_comparison_price": {
+          "status": "SUCCESS",
+          "rate": 0.0806357264192229,
+          "residual": -9.094947017729282e-12,
+          "note": "solve_implied_rate와는 별개의 신규 수치해 함수 -- P05/P10 근거로 대체하지 않음"
+        }
+      },
+      "required_return_ceilings": {
+        "8%": 445.9002903420637,
+        "10%": 406.24355225148827,
+        "12%": 370.7527581926096
+      },
+      "conditional_annualized_return_at_comparison_price": 0.0806357264192229,
+      "conditional_annualized_return_status": "SUCCESS",
+      "default_required_return": 0.1,
+      "default_ceiling_price": 406.24355225148827,
+      "return_condition_met_at_default_required_return": false,
+      "state_label": "수익조건 미충족",
+      "blocked": false,
+      "price_return_table": [
+        {
+          "purchase_price": 346.24,
+          "status": "SUCCESS",
+          "annualized_return": 0.13520968772204467
+        },
+        {
+          "purchase_price": 376.24,
+          "status": "SUCCESS",
+          "annualized_return": 0.11676070644641637
+        },
+        {
+          "purchase_price": 406.24,
+          "status": "SUCCESS",
+          "annualized_return": 0.10000189535089697
+        },
+        {
+          "purchase_price": 441.24,
+          "status": "SUCCESS",
+          "annualized_return": 0.08223717593746183
+        },
+        {
+          "purchase_price": 444.57,
+          "status": "SUCCESS",
+          "annualized_return": 0.08063572992591611
+        },
+        {
+          "purchase_price": 496.24,
+          "status": "SUCCESS",
+          "annualized_return": 0.05749184391601146
+        }
+      ],
+      "range_growth_fixed_exit_per_22_26": {
+        "note": "성장률을 10%로 고정하고 출구PER만 22~26배로 바꾼 민감도 범위다 -- 모든 위험을 포함한 신뢰구간이나 바닥가격이 아니다. 확률을 검증하지 않았으므로 임의의 성공확률을 붙이지 않는다.",
+        "scenarios": {
+          "low": {
+            "exit_per": 22.0,
+            "growth_rate": 0.1,
+            "target_price": 594.4324768580002,
+            "ceiling_at_default_required_return": 373.0727011364737
+          },
+          "high": {
+            "exit_per": 26.0,
+            "growth_rate": 0.1,
+            "target_price": 702.5111090140001,
+            "ceiling_at_default_required_return": 439.4144033665028
+          }
+        }
+      },
+      "stress_scenarios": {
+        "note": "확률을 검증하지 않았으므로 임의의 성공확률을 붙이지 않는다. 단기 신호의 높은 승률을 이 장기 기준가격의 검증 근거로 대신 사용하지 않는다.",
+        "scenarios": {
+          "stress_low": {
+            "label": "성장 연 8% · 종료 PER 20배(약세 가정)",
+            "growth_rate": 0.08,
+            "exit_per": 20.0,
+            "target_eps": 25.1075380541184,
+            "target_price": 502.15076108236804,
+            "ceiling_at_default_required_return": 316.42759019144876
+          },
+          "stress_high": {
+            "label": "성장 연 12% · 종료 PER 26배(강세 가정)",
+            "growth_rate": 0.12,
+            "exit_per": 26.0,
+            "target_eps": 29.03896934973441,
+            "target_price": 755.0132030930946,
+            "ceiling_at_default_required_return": 471.64166441122825
+          },
+          "stress_zero_growth": {
+            "label": "FY2027 이후 성장 0% · 종료 PER 20배(성장 정지 가정)",
+            "growth_rate": 0.0,
+            "exit_per": 20.0,
+            "target_eps": 18.45479,
+            "target_price": 369.0958,
+            "ceiling_at_default_required_return": 234.7547152459775
+          }
+        }
+      }
+    },
     "valuation": {
       "kind": "independent_value_dcf_scenario_engine",
       "asOf": "2026-09-20",

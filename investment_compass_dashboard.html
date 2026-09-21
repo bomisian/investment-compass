@@ -5312,6 +5312,100 @@ function renderVstFrontCard(r){
       </details>
     </div>`;
 }
+// [2026-09-21 신규] 장기투자 시나리오 카드 -- 기존 DCF(renderAmatScenarioValuation, 약 $191.30)·
+// 상대가치 밴드(renderRelativeValueBandCard)와 완전히 별개의 카드다. "단기 매수 타이밍"과 섞이지
+// 않도록 이 카드 안에서는 "매수 검토"라는 표현을 쓰지 않고 "장기 수익조건"이라는 별도 표현만
+// 쓴다(사용자 명시 요구). 대표가격을 이 값으로 덮어쓰지 않는다 -- 검토용 별도 카드일 뿐이다.
+function renderLongTermScenarioCard(lt, r, dcfPx){
+  if(!lt) return '';
+  const triIcon = ok => ok==null ? '❔' : (ok ? '✅' : '❌');
+  if(lt.blocked){
+    return `<div class="comment-box" style="background:var(--panel-2);margin-bottom:10px;">
+      <b>🧭 장기투자 시나리오 (검토용 -- 대표가격 아님)</b>
+      <div class="sub" style="margin:6px 0 0;color:var(--warn);">⚠️ 자료 미확인 -- ${esc(lt.block_reason||'계산에 필요한 자료를 확보하지 못했어요.')}</div>
+      <div class="sub" style="margin:4px 0 0;font-size:10.5px;">이건 "정상 자료로 계산했지만 수익조건에 못 미침(수익조건 미충족)"과는 다른 상태예요 -- 계산 자체를 아직 할 수 없다는 뜻이에요.</div>
+    </div>`;
+  }
+  // ---- 사업 전제(유지/악화/미확인) -- 새 판정을 만들지 않고, 이미 검증된 같은 화면의
+  // computeFinancialDirection(최신 분기 매출·영업이익 동반 둔화 여부) 결과를 그대로 재사용한다.
+  const fin = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA[r.ticker] : null;
+  const fd = fin ? computeFinancialDirection(r, fin) : null;
+  const quarterUnconfirmed = !!fd && (fd.latestQuarterRevenueMissing || fd.latestQuarterOpIncomeMissing);
+  const fdDeteriorating = !!fd && fd.verdict === '매출·수익성 동반 둔화';
+  const businessOk = (!fd) ? null : (quarterUnconfirmed ? null : !fdDeteriorating);
+  const businessLabel = !fd ? '실적 자료 자체가 연결되지 않아 확인 불가'
+    : quarterUnconfirmed ? `최신 분기 매출·영업이익이 아직 미확인(${fd.verdict})`
+    : `최신 분기 기준: ${fd.verdict}`;
+
+  const stateColor = lt.state_label === '수익조건 충족' ? 'var(--up)'
+    : lt.state_label === '수익조건 미충족' ? 'var(--warn)' : 'var(--sub)';
+  const condRet = lt.conditional_annualized_return_at_comparison_price;
+  const defCeiling = lt.default_ceiling_price;
+  const ceilings = lt.required_return_ceilings || {};
+
+  const priceTableRows = (lt.price_return_table||[]).map(row => `
+    <div class="fund-row"><span>매입가 $${row.purchase_price!=null?row.purchase_price.toFixed(2):'-'}</span>
+      <span class="v">${row.status==='SUCCESS' ? `조건부 연환산 ${ (row.annualized_return*100).toFixed(1)}%` : `산출 실패(${esc(row.status||'-')})`}</span></div>
+  `).join('');
+
+  const rangeSc = (lt.range_growth_fixed_exit_per_22_26||{}).scenarios || {};
+  const rangeLow = rangeSc.low, rangeHigh = rangeSc.high;
+
+  const stressSc = (lt.stress_scenarios||{}).scenarios || {};
+  const stressRows = Object.keys(stressSc).map(k => {
+    const s = stressSc[k];
+    return `<div class="fund-row"><span>${esc(s.label)}</span>
+      <span class="v">목표주가 $${s.target_price!=null?s.target_price.toFixed(2):'-'} · 매입가상한(10%) $${s.ceiling_at_default_required_return!=null?s.ceiling_at_default_required_return.toFixed(2):'-'}</span></div>`;
+  }).join('');
+
+  const ar = lt.assumption_review || {};
+
+  const dcfCompareHtml = (dcfPx!=null) ? `
+    <div class="sub" style="margin:8px 0 4px;"><b>기존 DCF($${dcfPx.toFixed(2)})와 왜 다른가</b></div>
+    <div class="sub" style="margin:2px 0 8px;">기존 DCF는 그 자체 가정(5년 성장경로·WACC·영구성장률 등)에 조건부인 별도 내재가치로 계속 유지돼요 -- 바닥가격·최악 시나리오로 이름을 바꾸지 않았어요. 이번 약 $${lt.target_price!=null?lt.target_price.toFixed(0):'-'}은 "FY2031까지 EPS가 연 ${(lt.growth_rate_assumption*100).toFixed(0)}% 성장하고 그때 PER ${lt.exit_per_assumption}배에 팔린다"는, 서로 다른 핵심 가정(장기 이익성장 + 출구배수)에서 나온 별개의 투자 시나리오예요. 두 값을 평균내지 않고, 두 값 사이 숫자 차이가 아직 해소되지 않았다는 것도 그대로 밝혀요 -- 가정 자체가 다르다는 것만 사실이에요.</div>
+  ` : '';
+
+  return `
+    <div class="comment-box" style="background:var(--panel-2);margin-bottom:10px;">
+      <b>🧭 장기투자 시나리오 (검토용 -- 대표가격 아님)</b>
+      <div class="sub" style="margin:4px 0 8px;color:var(--warn);">⚠️ ${esc(lt.assumption_disclaimer||'기준 EPS만 확인된 자료이고, 이후 성장률·출구PER·요구수익률은 분석자가 선택한 가정이에요.')}</div>
+      <div class="fund-row"><span>이번 비교가격 · 관측일</span>
+        <span class="v">$${lt.comparison_price!=null?lt.comparison_price.toFixed(2):'-'} ${lt.comparison_price_as_of?`(${esc(lt.comparison_price_as_of)})`:''}</span></div>
+      <div class="fund-row"><span>장기 시나리오 기준가격 · 적용 기간</span>
+        <span class="v">$${lt.target_price!=null?lt.target_price.toFixed(2):'-'} (${esc(lt.target_date||'-')}까지, 약 ${lt.base_scenario&&lt.base_scenario.holding_period_actual_years!=null?lt.base_scenario.holding_period_actual_years.toFixed(1):'-'}년)</span></div>
+      <div class="fund-row"><span>현재가 매수 시 조건부 연환산 수익률</span>
+        <span class="v">${condRet!=null?(condRet*100).toFixed(1)+'%':'산출 불가'}</span></div>
+      <div class="fund-row"><span>요구수익률 ${(lt.default_required_return*100).toFixed(0)}% 충족 매입가 상한</span>
+        <span class="v">$${defCeiling!=null?defCeiling.toFixed(2):'-'}</span></div>
+      <div class="fund-row"><span>사업 전제</span>
+        <span class="v">${triIcon(businessOk)} ${esc(businessLabel)}</span></div>
+      <div class="sub" style="margin:8px 0 4px;"><b>장기 수익조건</b>: <span style="color:${stateColor};font-weight:600;">${esc(lt.state_label)}</span>
+        <span style="font-weight:400;color:var(--sub);"> (단기 눌림목 등 기술적 신호와는 다른, 장기 보유수익 조건이에요)</span></div>
+      ${dcfCompareHtml}
+      <details style="margin-top:6px;">
+        <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">요구수익률별 매입가 상한 · 가격별 조건부 수익률표</summary>
+        <div class="sub" style="margin:6px 0 4px;"><b>요구수익률별 매입가 상한</b></div>
+        ${Object.keys(ceilings).map(k=>`<div class="fund-row"><span>요구수익률 ${esc(k)}</span><span class="v">$${ceilings[k]!=null?ceilings[k].toFixed(2):'-'}</span></div>`).join('')}
+        <div class="sub" style="margin:8px 0 4px;"><b>가격별 조건부 연환산 수익률</b></div>
+        ${priceTableRows}
+      </details>
+      <details style="margin-top:6px;">
+        <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">범위·스트레스 시나리오 (신뢰구간·확률 아님)</summary>
+        <div class="sub" style="margin:6px 0 4px;">${esc((lt.range_growth_fixed_exit_per_22_26||{}).note||'')}</div>
+        ${rangeLow?`<div class="fund-row"><span>출구PER ${rangeLow.exit_per}배</span><span class="v">목표주가 $${rangeLow.target_price.toFixed(2)} · 매입가상한(10%) $${rangeLow.ceiling_at_default_required_return!=null?rangeLow.ceiling_at_default_required_return.toFixed(2):'-'}</span></div>`:''}
+        ${rangeHigh?`<div class="fund-row"><span>출구PER ${rangeHigh.exit_per}배</span><span class="v">목표주가 $${rangeHigh.target_price.toFixed(2)} · 매입가상한(10%) $${rangeHigh.ceiling_at_default_required_return!=null?rangeHigh.ceiling_at_default_required_return.toFixed(2):'-'}</span></div>`:''}
+        <div class="sub" style="margin:8px 0 4px;">${esc((lt.stress_scenarios||{}).note||'')}</div>
+        ${stressRows}
+      </details>
+      <details style="margin-top:6px;">
+        <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">가정 타당성 검토(24배 PER·연 10% 성장이 타당한가)</summary>
+        <div class="sub" style="margin:6px 0;">${esc(ar.growth_sustainability||'')}</div>
+        <div class="sub" style="margin:6px 0;">${esc(ar.exit_per_validity||'')}</div>
+        <div class="sub" style="margin:6px 0;">${esc(ar.no_reverse_engineering||'')}</div>
+      </details>
+      <div class="sub" style="margin-top:8px;color:var(--warn);">⚠️ 이 카드는 매수·매도를 지시하지 않아요. 신규 주문·자동매매는 이 프로젝트에 추가하지 않아요.</div>
+    </div>`;
+}
 function renderIndependentValuationSection(r){
   const iv = (typeof INDEPENDENT_VALUATION_DATA !== 'undefined') ? INDEPENDENT_VALUATION_DATA[r.ticker] : null;
   if(!iv) return '';
@@ -5320,27 +5414,33 @@ function renderIndependentValuationSection(r){
   // (동종기업 배수) 참고범위는 있을 수 있다. 이 경우에도 카드를 숨기지 않고 보여주되, 위
   // 장기 점수·판단 요약(decisionSummaryHtml)과는 서로 다른 근거를 쓴다는 걸 명시해서 사용자가
   // "이 종목도 AMAT처럼 매입가 상한·DCF까지 다 나왔다"고 착각하지 않게 한다.
+  // [2026-09-21 신규] 장기투자 시나리오 카드는 DCF 유무와 무관하게(현재는 AMAT만 해당) 가장
+  // 먼저 보여준다 -- 사용자가 명시적으로 요청한 "장기적으로 어느 가격이 적당한가"라는 질문에
+  // 가장 가까운 카드다. 대표가격을 덮어쓰지 않는 별도 카드이므로 순서를 바꿔도 다른 카드의
+  // 계산에는 영향이 없다.
+  const longTermHtml = renderLongTermScenarioCard(iv.longTermScenario, r, iv.valuation ? iv.valuation.px : null);
   if(!iv.valuation){
     const rv = iv.relativeValueBand;
     if(rv && rv.available){
-      return `<div class="sub" style="margin:6px 0 4px;color:var(--sub);">ℹ️ 이 종목은 아직 독립 DCF 적정가·매입가 상한이 없어요(AMAT의 DCF 가정을 이 종목에 그대로 복제하지 않았어요). 위 장기 점수·판단 요약과는 서로 다른 근거(동종기업 배수)로 계산된 아래 참고범위만 제공돼요.</div>` + renderRelativeValueBandCard(rv);
+      return longTermHtml + `<div class="sub" style="margin:6px 0 4px;color:var(--sub);">ℹ️ 이 종목은 아직 독립 DCF 적정가·매입가 상한이 없어요(AMAT의 DCF 가정을 이 종목에 그대로 복제하지 않았어요). 위 장기 점수·판단 요약과는 서로 다른 근거(동종기업 배수)로 계산된 아래 참고범위만 제공돼요.</div>` + renderRelativeValueBandCard(rv);
     }
     // [2026-09-20 보완] available=false여도 withheldReason이 있으면(=시도는 했지만 보류/실패한
     // 경우, 예: ASML 통화 불일치) 카드를 숨기지 않고 그 사유를 보여준다 -- 아무 근거도 없이
     // 조용히 사라지면 사용자가 "왜 이 종목엔 아무것도 없는지" 알 수 없다.
     if(rv && rv.withheldReason){
-      return `<div class="sub" style="margin:6px 0 4px;color:var(--sub);">ℹ️ 이 종목은 아직 독립 DCF 적정가·매입가 상한이 없고, 아래처럼 상대가치 참고범위도 산출되지 않았어요.</div>` + renderRelativeValueBandCard(rv);
+      return longTermHtml + `<div class="sub" style="margin:6px 0 4px;color:var(--sub);">ℹ️ 이 종목은 아직 독립 DCF 적정가·매입가 상한이 없고, 아래처럼 상대가치 참고범위도 산출되지 않았어요.</div>` + renderRelativeValueBandCard(rv);
     }
-    return '';
+    return longTermHtml;
   }
   const v = iv.valuation;
   const price = r.price;
   // [2026-09-20 재배치 -- 봄이 요청: 실사용 우선순위] "지금 참고범위 어디쯤인가"라는 질문에
   // 가장 가까운 상대가치 카드를 먼저, 그다음 매입가 상한(수익조건), 가정이 가장 많고
   // 조건부인 DCF 시나리오를 마지막에 배치한다. 세 값은 여전히 완전히 분리된 별도 카드이며
-  // 평균/합산하지 않는다(위 함수 주석 참고) -- 순서만 바뀐다.
-  if(v.kind === 'independent_value_dcf_scenario_engine') return renderRelativeValueBandCard(iv.relativeValueBand) + renderReturnConditionCard(v, r.ticker) + renderAmatScenarioValuation(v, price, r.ticker);
-  if(v.kind === 'independent_value_dcf_single_engine') return renderAmatScenarioValuation(v, price, r.ticker);
+  // 평균/합산하지 않는다(위 함수 주석 참고) -- 순서만 바뀐다. 장기투자 시나리오 카드는
+  // 2026-09-21 신규로 그보다도 앞, 맨 위에 온다.
+  if(v.kind === 'independent_value_dcf_scenario_engine') return longTermHtml + renderRelativeValueBandCard(iv.relativeValueBand) + renderReturnConditionCard(v, r.ticker) + renderAmatScenarioValuation(v, price, r.ticker);
+  if(v.kind === 'independent_value_dcf_single_engine') return longTermHtml + renderAmatScenarioValuation(v, price, r.ticker);
   const pct = x => { if(x==null) return '-'; const p=(x-price)/price*100; return `${p>=0?'+':''}${p.toFixed(0)}%`; };
   const a = v.assumptions || {};
   const evScenarios = a.evEbitdaScenarios || {};
