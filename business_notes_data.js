@@ -9,6 +9,28 @@ const BUSINESS_NOTES = {
   MARKET: {
     newsLog: [
       {
+        date: "2026-09-21",
+        headline: "나스닥 사상최고치 경신(+2.26%, 27,122.09) - AI 반도체 랠리 확산(AMD 장중 시총 1조달러 돌파·INTC +12.7%·ARM +17%), 메타 'Muse' AI에이전트 흥행이 CPU 수요 재평가 촉발",
+        tone: "positive",
+        importance: "high",
+        horizon: "단기(에이전트형 AI발 CPU 수요 재평가가 실제 실적·가이던스에 반영되는지 확인까지)",
+        facts: ["2026-09-21(월) 나스닥종합이 전일 대비 +2.26% 급등해 27,122.09로 마감, 6월 이후 처음으로 사상최고 종가를 경신했다. S&P500은 +1.49% 7,764.70, 다우존스는 +0.71% 52,048.83로 마감. 필라델피아 반도체지수(SOX)는 +3% 넘게 상승.", "AMD는 이날 장중 한때 $615.52까지 오르며 시가총액이 처음으로 1조달러를 넘어섰고(5거래일 연속 상승, 누적 +25%), 종가는 전일比 +7.5%대인 $602.05 부근으로 마감.", "인텔(INTC)은 +12.7% 급등해 종가 약 $122.36 기록 - Tigress Financial이 목표가를 $118→$145로 상향하며 'Terafab 파트너십·강한 Xeon 수요·18A 공정 실행'을 근거로 제시했고, 트럼프 대통령과 시진핑 주석의 국빈만찬(다수 AI 기업 CEO 참석 예정)을 앞둔 정치적 낙관론도 반영.", "ARM Holdings는 +17% 급등해 종가 $322.35 기록, 하루 만에 시가총액이 약 490억달러 늘어남 - Piper Sandler가 신규 커버리지를 개시하며 목표가 $320·비중확대 의견을 제시, 데이터센터 CPU 진출과 메타 커스텀칩 협력을 근거로 들었다.", "이번 랠리의 공통 배경으로 메타(META)가 9/8 출시한 개인용 AI 에이전트 'Muse'가 출시 6일 만에 90만 다운로드를 넘기며 미국 앱스토어 1위에 오른 점이 꼽힘 - 에이전트형 AI가 지속적·상시적 연산을 요구해 GPU뿐 아니라 CPU 수요도 함께 늘어난다는 해석이 확산됨.", "유가·국채금리 동반 하락도 랠리에 우호적으로 작용."],
+        why: ["이번 랠리의 핵심은 '에이전트형 AI'가 GPU 중심이던 AI 인프라 수요 스토리를 CPU까지 확장시켰다는 재해석 - AMD·INTC·ARM은 모두 CPU 설계·생산 비중이 큰 기업들이라 동반 급등했다.", "인텔·ARM의 급등은 개별 종목 이슈(애널리스트 상향, 신규 커버리지)와 업종 전반 랠리가 겹친 결과라 두 요인을 분리해서 봐야 한다 - 애널리스트 의견은 회사 실적이 실제로 뒷받침되기 전까지는 전망(주장)일 뿐이다.", "ARM은 이번 상승으로 GF Value 대비 66.5% 고평가, 예상 매출의 69배 수준까지 밸류에이션이 높아졌다는 지적도 있어 단기 과열 우려가 공존한다.", "이 워치리스트 관점에서는 AMD·INTC·ARM 세 종목이 동시에 워치리스트에 포함돼 있어, 이번 하루의 재료가 여러 종목에 동시에 반영된 셈 - '여러 근거가 있다'기보다는 '하나의 재료(에이전트 AI발 CPU 수요)가 여러 종목에 퍼진 것'에 가깝다는 점에 유의."],
+        beginner: ["미국 나스닥 지수가 하루 만에 2.26% 오르면서 6월 이후 최고 기록을 새로 썼어요.", "그 중심에는 AMD·인텔(Intel)·ARM 세 반도체 회사가 있어요 - AMD는 주가가 크게 올라 회사 전체 가치(시가총액)가 잠깐이지만 1조달러(약 1,400조원)를 넘었고, 인텔은 하루에 12.7%, ARM은 17%나 올랐어요.", "오르는 이유는 메타(페이스북 회사)가 최근 내놓은 'Muse'라는 개인비서 AI 앱이 출시 엿새 만에 90만 번 넘게 다운로드되면서 흥행했기 때문이에요 - 이런 AI 비서는 그래픽카드(GPU)뿐 아니라 일반 연산 칩(CPU)도 많이 써야 해서, CPU를 잘 만드는 AMD·인텔·ARM에 대한 기대가 갑자기 커진 거예요.", "다만 하루 새 십몇 퍼센트씩 오른 건 이례적인 수준이라, 실제로 이 회사들 실적이 그만큼 좋아지는지는 다음 분기 실적 발표를 봐야 확인할 수 있어요. ARM은 특히 '이미 너무 비싸졌다'는 지적도 나오고 있어요."],
+        interpretation: "이날 랠리는 'GPU 중심 AI 스토리'에서 'CPU까지 포함하는 에이전트 AI 스토리'로 시장의 프레임이 넓어졌다는 신호로 해석할 수 있다. 다만 하루 만에 조 단위 시가총액이 오간 급등은 기대감이 선반영된 결과이지 실적으로 확인된 것은 아니므로, 이 워치리스트의 AMD·INTC·ARM 세 종목 모두 밸류에이션 부담이 동시에 커졌다는 점을 함께 봐야 한다.", 
+        decision: "하루짜리 업종 전반 랠리만으로 매수·매도를 판단하기보다, (1) 인텔의 애널리스트 상향 근거(Terafab·18A 공정)가 향후 실적으로 확인되는지, (2) ARM의 라이선스·로열티 매출에 데이터센터 CPU 기여가 실제로 잡히는지, (3) 메타 Muse의 흥행이 일시적 다운로드 붐인지 지속적 사용으로 이어지는지를 다음 분기까지 지켜볼 것을 권장.",
+        watch: ["인텔 Terafab 파트너십 및 18A 공정 진행 상황 공식 발표", "ARM의 다음 분기 실적에서 데이터센터/CPU 라이선스 매출 비중 변화", "메타 Muse의 다운로드·활성사용자 지속 여부(일시적 흥행인지 확인)", "AMD 시가총액 1조달러 재돌파 및 유지 여부", "SOX 지수의 추가 상승 지속 여부"],
+        confidence: "지수·개별 종목 등락률과 종가는 CNBC·Yahoo Finance·TheStreet·ad-hoc-news 교차 확인으로 신뢰도 높음. 애널리스트 목표가·투자의견은 각 리서치사 발표 기준이나 향후 변경 가능. '에이전트 AI발 CPU 수요 재평가'라는 해석은 다수 매체가 공통 제시했으나 아직 정량적으로 검증된 인과관계는 아님(신뢰도 중간).",
+        sources: [
+          { title: "Nasdaq hits record high as AI chip rally lifts tech stocks (Honolulu Star-Advertiser)", url: "https://www.staradvertiser.com/2026/09/21/breaking-news/nasdaq-hits-record-high-as-ai-chip-rally-lifts-tech-stocks/" },
+          { title: "Stock market today: Nasdaq surges 2% to record high, Dow and S&P 500 gain as chip stocks rally (Yahoo Finance)", url: "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-21-dow-sp-500-nasdaq-080214605.html" },
+          { title: "AMD hits $1 trillion market cap for the first time as stock rides 5-day rally (CNBC)", url: "https://www.cnbc.com/2026/09/21/amd-stock-1-trillion-value.html" },
+          { title: "Intel stock ends the day up 12.7 percent at the close (ad-hoc-news)", url: "https://www.ad-hoc-news.de/boerse/news/nebenwerte/intel-stock-ends-the-day-up-12-7-percent-at-the-close/70147050" },
+          { title: "Arm Stock Rallies 17% as a $2 Billion AI CPU Pipeline Tests Valuation (ts2.tech)", url: "https://ts2.tech/en/arm-stock-rallies-17-as-a-2-billion-ai-cpu-pipeline-tests-valuation/" },
+          { title: "Meta's new Muse AI app tops charts with over 900,000 downloads in six days (Bloomberg)", url: "https://www.bloomberg.com/news/articles/2026-09-21/meta-s-new-muse-ai-app-tops-charts-draws-strong-early-reviews" },
+        ],
+      },
+      {
         date: "2026-09-17",
         headline: "FOMC 금리인상 다음날 3대 지수 급반등(나스닥 +1.69%) - 국채금리·유가 동반 하락, 사우디 송유관 일부 복구 예정·트럼프 '이란전쟁 종전 임박' 발언",
         tone: "mixed",
@@ -2204,6 +2226,24 @@ const BUSINESS_NOTES = {
     ],
     newsLog: [
       {
+        date: "2026-09-21",
+        headline: "주가 +12.7% 급등 - Tigress Financial 목표가 $118→$145 상향(Terafab 파트너십·Xeon 수요·18A 공정 근거), 트럼프-시진핑 국빈만찬 앞두고 AI 낙관론 확산",
+        tone: "positive",
+        importance: "medium",
+        horizon: "단기~중기(18A 공정 실행 및 Terafab 파트너십 구체화 여부 확인까지)",
+        facts: ["2026-09-21(월) 인텔 주가가 전일比 +12.7% 급등해 종가 약 $122.36을 기록.", "리서치사 Tigress Financial이 목표주가를 기존 $118에서 $145로 상향하며 'Terafab 파트너십, 견조한 Xeon(서버용 CPU) 수요, 18A 공정 노드의 순조로운 실행'을 근거로 제시.", "트럼프 대통령과 중국 시진핑 주석의 국빈만찬이 예정돼 있고 다수 AI 기업 CEO들의 참석이 예상되면서, AI 관련 무역·정책 리스크 완화 기대가 투자심리에 긍정적으로 작용.", "같은 날 AMD(+7.5%)·ARM(+17%) 등 반도체주 전반이 동반 급등, SOX 지수 +3%대 상승."],
+        why: ["인텔의 이번 급등은 실적 확정이 아니라 애널리스트의 목표가 상향(전망)과 정치 이벤트에 대한 기대감이 겹친 결과 - 18A 공정의 실제 수율·양산 성과가 아직 공식 확인된 것은 아니다.", "인텔은 최근 몇 년간 파운드리 사업 부진과 대규모 구조조정을 겪어온 종목이라, 이번 상승은 '턴어라운드(실적 반등) 스토리'에 대한 기대감이 반영된 것으로 - 실제 재무 개선이 뒤따르는지가 관건.", "정치 이벤트(트럼프-시진핑 국빈만찬)에 대한 기대는 실제 회담 결과가 나오기 전까지는 불확실성이 크므로, 회담 결과에 따라 되돌려질 수 있는 재료다."],
+        beginner: ["인텔 주가가 하루 만에 12.7% 넘게 올랐어요. 한 증권사(Tigress Financial)가 인텔의 목표주가를 $118에서 $145로 올려 잡으면서 '새 반도체 공정(18A)이 잘 진행되고 있고, 서버용 칩 수요도 좋다'고 평가했기 때문이에요.", "여기에 더해 트럼프 대통령과 중국 시진핑 주석이 곧 만찬을 갖는데, 여기에 AI 관련 기업 CEO들이 많이 참석할 예정이라 미중 관계가 AI 업계에 좋은 쪽으로 풀릴 거라는 기대도 주가를 밀어올렸어요.", "다만 이건 아직 '기대'와 '전망'에 근거한 상승이에요. 실제로 인텔의 새 공정이 잘 되는지, 미중 회담에서 무슨 얘기가 나올지는 지켜봐야 확인할 수 있어요. 인텔은 최근 몇 년간 실적 부진을 겪어온 회사라는 점도 참고하세요."],
+        interpretation: "이번 급등은 인텔의 턴어라운드 기대감이 애널리스트 상향과 정치 이벤트 기대가 겹치며 증폭된 것으로 보인다. 이 워치리스트 관점에서 인텔은 파운드리·18A 공정 실행 여부가 핵심 변수인 종목이라, 이번 상승 자체보다는 근거로 제시된 요인들이 실제로 확인되는지가 더 중요하다.",
+        decision: "하루짜리 급등과 애널리스트 전망만으로 매수 판단을 내리기보다, 18A 공정의 실제 수율·양산 관련 공식 발표와 트럼프-시진핑 회담의 구체적 결과를 확인한 뒤 판단할 것을 권장.",
+        watch: ["18A 공정 노드의 실제 수율·양산 진행 상황 공식 발표", "Terafab 파트너십 세부 내용 공식화 여부", "트럼프-시진핑 국빈만찬 결과 및 반도체 관련 무역정책 언급 여부", "다음 분기 실적에서 Xeon(서버) 부문 매출 추이"],
+        confidence: "주가 등락률·종가는 ad-hoc-news 등 교차 확인으로 신뢰도 높음. 애널리스트 목표가 상향 근거·정치 이벤트 관련 낙관론은 보도 기준이며, 아직 확정된 정책·실적 성과는 아님(신뢰도 중간).",
+        sources: [
+          { title: "Intel Stock Jumps As AI, Pricing Power And SK Hynix Talks Fuel Turnaround (Timothy Sykes)", url: "https://www.timothysykes.com/news/intel-corporation-intc-news-2026_09_21/" },
+          { title: "Intel stock ends the day up 12.7 percent at the close (ad-hoc-news)", url: "https://www.ad-hoc-news.de/boerse/news/nebenwerte/intel-stock-ends-the-day-up-12-7-percent-at-the-close/70147050" },
+        ],
+      },
+      {
         date: "2026-09-10",
         headline: "Intel 자회사 Altera, IPO 추진 중 - $2B+ 규모, Q4 2026 내 실행 가능성",
         facts: ["2026-09-10 보도 기준, Silver Lake와 Intel이 지원하는 프로그래머블 칩 설계사 Altera가 IPO 추진 중인 것으로 알려졌다.", "Altera는 산호세 소재의 반도체 설계 회사로 고급 프로그래머블 로직 칩(FPGA) 전문이다.", "계획상 IPO 규모는 $2B 이상이며, 기밀 방식 사전등록을 몇 주 내 신청할 예정이다.", "IPO 시행 시점은 올해 Q4 내 상장이 가능할 수 있음을 시사했다.", "주요 인수사로는 Barclays, Citigroup, JPMorgan Chase, Morgan Stanley 등이 확정되었다."],
@@ -3852,6 +3892,24 @@ const BUSINESS_NOTES = {
     ],
     newsLog: [
       {
+        date: "2026-09-21",
+        headline: "장중 시가총액 첫 1조달러 돌파(5거래일 연속 상승·누적 +25%) - 메타 'Muse' AI에이전트 흥행에 CPU 수요 재평가",
+        tone: "positive",
+        importance: "high",
+        horizon: "단기~중기(에이전트 AI발 CPU 수요가 실제 데이터센터·클라이언트 매출로 이어지는지 확인까지)",
+        facts: ["2026-09-21(월) AMD 주가가 장중 한때 $615.52까지 올라 시가총액이 사상 처음으로 1조달러를 넘어섰고, 종가는 전일比 약 +7.5%인 $602.05선으로 마감. 최근 5거래일 연속 상승하며 누적 약 +25% 올랐다.", "이번 상승의 배경으로 메타가 9/8 출시한 개인용 AI 에이전트 'Muse'가 출시 6일 만에 90만 다운로드를 돌파하며 미국 앱스토어 1위에 오른 점이 꼽힘 - 에이전트형 AI는 지속적·상시적 연산이 필요해 CPU 수요를 끌어올린다는 해석이 확산됨.", "같은 날 인텔(+12.7%)·ARM(+17%) 등 CPU 비중이 큰 다른 반도체주도 동반 급등, 필라델피아 반도체지수(SOX)는 +3% 넘게 상승."],
+        why: ["AMD의 이번 급등은 실적 발표나 신규 계약 같은 회사 고유의 확정 이벤트가 아니라, '에이전트 AI가 CPU 수요를 늘릴 것'이라는 시장의 재해석(내러티브 변화)에 따른 것 - 실제 데이터센터·클라이언트 매출에 반영되는 데는 시차가 있을 수 있다.", "AMD는 이미 지난주(9/17, GPU·CPU 가격 인상 보도로 +6.7%) 큰 폭 상승한 데 이어 5거래일 연속 상승한 것이라, 단기 과열 및 차익실현 매물 출회 가능성도 함께 고려할 필요가 있다.", "이 워치리스트에서는 8/13 실적 발표 당시 데이터센터 매출이 전년비 +107% 늘었음에도 시간외 주가는 오히려 하락했던 전례가 있다(아래 8/13 항목 참고) - '실적보다 기대치'가 주가를 좌우하는 경향이 이번에도 나타난 셈."],
+        beginner: ["AMD 주가가 하루 만에 7.5% 넘게 올라서, 회사 전체 가치(시가총액)가 처음으로 1조달러(약 1,400조원)를 넘었어요. 최근 5거래일 내내 오르며 누적으로는 25%나 뛰었어요.", "이유는 메타의 새 AI 비서 앱 'Muse'가 큰 인기를 끌면서, 이런 AI 비서를 계속 돌리려면 그래픽카드(GPU)뿐 아니라 일반 연산 칩(CPU)도 많이 필요하다는 기대가 커졌기 때문이에요. AMD는 CPU도 잘 만드는 회사라 수혜주로 꼽힌 거예요.", "다만 이건 아직 '기대감'에 따른 상승이지, AMD의 실제 매출이 늘었다는 확정된 소식은 아니에요. 최근 며칠 새 너무 많이 올라서 잠깐 쉬어갈 수 있다는 점도 참고하세요."],
+        interpretation: "1조달러 시가총액 돌파는 상징적 이정표지만, 이번 상승의 직접적 근거(메타 Muse 흥행→CPU 수요 확대)는 아직 AMD의 확정된 매출로 연결된 것이 아닌 시장의 기대감 단계다. 이 워치리스트에서 AMD는 이미 데이터센터 매출 고성장이 반복 확인된 종목이라, 이번 재료는 기존 성장 스토리에 'CPU 수요 확대'라는 축을 하나 더한 것으로 볼 수 있다.", 
+        decision: "5거래일 연속·누적 +25% 급등 이후라 단기 변동성 확대 가능성을 염두에 두고, 이번 재료(에이전트 AI발 CPU 수요)가 다음 분기 실적 가이던스에 실제로 반영되는지 확인한 뒤 추가 판단할 것을 권장. 신규 진입보다는 기존 보유분의 밸류에이션 부담을 점검하는 시점.",
+        watch: ["다음 분기 실적에서 클라이언트(PC)·데이터센터 부문 매출 가이던스 변화", "메타 Muse 등 AI 에이전트의 다운로드·사용량이 지속되는지 여부", "5일 연속 급등 이후 차익실현 매물 출회 여부", "TSMC 웨이퍼 가격 인상분의 실제 마진 반영(9/17 항목 연계)"],
+        confidence: "주가 등락률·종가·시가총액은 CNBC 등 복수 매체 교차 확인으로 신뢰도 높음. '에이전트 AI발 CPU 수요 재평가'라는 해석은 다수 매체가 공통 제시했으나 정량적으로 검증된 인과관계는 아님(신뢰도 중간).",
+        sources: [
+          { title: "AMD hits $1 trillion market cap for the first time as stock rides 5-day rally (CNBC)", url: "https://www.cnbc.com/2026/09/21/amd-stock-1-trillion-value.html" },
+          { title: "AMD Stock Surges as AI Demand Rises Following Meta's Muse Launch (GuruFocus)", url: "https://www.gurufocus.com/news/9090400/amd-stock-surges-as-ai-demand-rises-following-metas-muse-launch" },
+        ],
+      },
+      {
         date: "2026-09-17",
         headline: "GPU·CPU 4분기 가격 10% 인상설에 주가 종가기준 +6.7% 급등 - TSMC 웨이퍼 단가 인상분 전가 해석",
         tone: "positive",
@@ -4159,6 +4217,24 @@ const BUSINESS_NOTES = {
       {title:"Arm 2026 Q2 Financials (More Than Moore / Ryan Smith, Dr. Ian Cutress)", url:"https://morethanmoore.substack.com/p/arm-2026-q2-financials"},
     ],
     newsLog: [
+      {
+        date: "2026-09-21",
+        headline: "주가 +17% 급등(종가 $322.35, 하루 만에 시총 약 490억달러 증가) - Piper Sandler 신규 커버리지 개시(비중확대·목표가 $320), 데이터센터 CPU·메타 커스텀칩 협력 근거",
+        tone: "positive",
+        importance: "medium",
+        horizon: "단기~중기(데이터센터 CPU 라이선스·로열티 매출이 실제로 확인되는지까지)",
+        facts: ["2026-09-21(월) ARM Holdings 주가가 전일比 +17% 급등해 종가 $322.35를 기록, 하루 만에 시가총액이 약 490억달러 늘어 약 3,433억달러를 기록.", "리서치사 Piper Sandler가 이날 신규 커버리지를 개시하며 '비중확대(Overweight)' 의견과 목표가 $320을 제시 - 데이터센터용 CPU 진출, GPU 관련 협업, 메타의 커스텀칩 프로젝트 참여를 근거로 들었다.", "같은 날 AMD(+7.5%)·인텔(+12.7%) 등 CPU 비중이 큰 반도체주가 동반 급등, 메타의 AI 에이전트 'Muse' 흥행이 CPU 수요 재평가의 공통 배경으로 지목됨.", "이번 상승으로 ARM의 밸류에이션은 GF Value 대비 약 66.5% 고평가, 2026 회계연도 매출의 약 69배 수준까지 높아졌다는 평가도 제기됨."],
+        why: ["ARM의 급등은 신규 리서치 커버리지(전망 제시)와 업종 전반 랠리가 겹친 결과로, 실제 데이터센터 CPU 라이선스·로열티 매출이 재무제표에 확인되기 전 단계의 기대감 반영이다.", "ARM은 반도체 설계 라이선스·로열티 기반 사업모델이라 매출 변동이 실제 고객사(칩 제조사)의 출하량에 후행하는 구조 - 이번 재료(데이터센터 CPU 확대)가 매출로 이어지려면 시간이 걸릴 수 있다.", "이미 시장 평균 대비 크게 고평가된 상태에서 추가 급등한 것이라, 단기 변동성이 커질 수 있다는 밸류에이션 부담이 동시에 제기되고 있다."],
+        beginner: ["반도체 설계회사 ARM 주가가 하루 만에 17%나 올랐어요. 한 증권사(Piper Sandler)가 처음으로 ARM에 대한 분석을 시작하면서 '사라'는 의견과 함께 목표주가 $320을 제시했는데, '데이터센터용 CPU 시장에 진출하고 있고 메타의 자체 칩 개발에도 참여한다'는 점을 근거로 들었어요.", "이날 AMD·인텔도 같이 크게 올랐는데, 공통적으로 메타의 새 AI 비서 앱 흥행으로 CPU 수요가 늘어날 거라는 기대가 배경이에요.", "다만 ARM은 이번 상승으로 '이미 너무 비싸졌다'는 지적도 나오고 있어요 - 회사가 벌어들이는 돈(매출)에 비해 주가가 지나치게 높다는 뜻이니, 앞으로 실제 매출이 그만큼 늘어나는지 확인이 필요해요."],
+        interpretation: "ARM의 이번 급등은 데이터센터 CPU라는 새로운 성장축에 대한 기대감이 반영된 것이나, 라이선스·로열티 모델 특성상 실제 매출 반영에는 시차가 있고 이미 밸류에이션 부담이 크다는 지적도 함께 나오고 있어 두 측면을 함께 봐야 한다.",
+        decision: "신규 리서치 커버리지에 따른 단기 급등이므로, 데이터센터 CPU 관련 실제 라이선스 계약이나 로열티 매출 증가가 다음 분기 실적에서 확인되는지 지켜본 뒤 판단할 것을 권장. 현재 밸류에이션 부담을 감안하면 추격 매수보다는 관망이 합리적.",
+        watch: ["다음 분기 실적에서 데이터센터/CPU 관련 라이선스·로열티 매출 비중 변화", "메타 커스텀칩 프로젝트 참여의 구체적 계약 내용 공개 여부", "밸류에이션 고평가 논란에 따른 단기 변동성 확대 여부"],
+        confidence: "주가 등락률·종가·시가총액 변화는 GuruFocus·ts2.tech 등 교차 확인으로 신뢰도 높음. Piper Sandler의 투자의견·목표가는 해당 리서치사 발표 기준이며 향후 변경 가능(신뢰도 중간).",
+        sources: [
+          { title: "Arm Stock Rallies 17% as a $2 Billion AI CPU Pipeline Tests Valuation (ts2.tech)", url: "https://ts2.tech/en/arm-stock-rallies-17-as-a-2-billion-ai-cpu-pipeline-tests-valuation/" },
+          { title: "ARM Looks 66.5% Overvalued on GF Value as Shares Surge to $322.90 (GuruFocus)", url: "https://www.gurufocus.com/news/9090460/arm-looks-665-overvalued-on-gf-value-as-shares-surge-to-32290" },
+        ],
+      },
       {
         date: "2026-08-26",
         headline: "[방향성 체크] 매출은 사상 최고(더블 비트)인데 가이던스 실망으로 주가 하락 - 변동성 큰 혼재 상황",
