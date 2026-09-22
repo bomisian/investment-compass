@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><title>컨센서스 연구 스냅샷 수집 상태 (AMAT/MRVL/ARM/QCOM)</title>
+<style>
+body{background:#0f1420;color:#e8edf5;font-family:-apple-system,'Malgun Gothic',sans-serif;padding:24px;max-width:920px;margin:0 auto;}
+.panel{border:1px solid #2a3548;border-radius:10px;padding:16px;margin-bottom:18px;background:#171f2e;}
+h1{font-size:16px;} h2{font-size:13px;color:#9aa8bf;margin-bottom:8px;}
+table{width:100%;border-collapse:collapse;font-size:12.5px;}
+td,th{padding:6px 8px;border-bottom:1px solid #2a3548;text-align:left;vertical-align:top;}
+.sub{color:#9aa8bf;font-size:10.5px;margin-top:2px;}
+.badge{display:inline-block;padding:3px 10px;border-radius:20px;font-size:12px;font-weight:600;}
+.disclaimer{background:#241c14;border:1px solid #4a3620;border-radius:8px;padding:10px;font-size:12px;color:#e8c99d;}
+</style></head>
+<body>
+<h1>컨센서스 연구 스냅샷 수집 상태</h1>
+<div class="sub">생성: 2026-09-22T13:41:39.031800+00:00</div>
+
+<div class="panel">
+  <h2>이 페이지가 보여주지 않는 것</h2>
+  <div class="disclaimer">
+    이 페이지는 <b>저장 파이프라인 자체의 상태</b>만 보여준다. 매수·매도 판정, 밴드, 01판단 탭과 전혀 연결돼 있지 않다.
+    "마지막 저장 확인"은 수집기가 마지막으로 실행돼 상태를 남긴 시각일 뿐, 그 실행이 실제로 새 자료를 받아왔다는 뜻이 아니다
+    (입력이 그대로면 정상적으로 "변경 없음"으로 끝난다). "원본 자료 갱신 시각"이 오래됐다면 수집기 실행과 무관하게
+    기존 캐시 자체가 갱신되지 않고 있다는 뜻이다. "성과 확인 완료"는 예측을 실제 발표 실적과 대조 완료한 건수이며,
+    지금은 이 컬렉터가 실적 매칭을 아직 연결하지 않아 전부 0이다 -- 저장이 잘 되고 있다는 것이 예측이 맞았다는 뜻은 아니다.
+    아래 표의 "최신 기록 최초 관측 시각"과 위 "실행 확인 시각(checked_at)"은 서로 다른 값이다 -- 입력이 그대로면 실행은 됐어도(checked_at 갱신)
+    종목별 기록 시각은 그대로다(정상 동작).
+  </div>
+</div>
+
+<div class="panel">
+  <h2>마지막 수집기 실행 상태 <span class="badge" style="background:#4caf7d;color:#0f1420;">OK</span></h2>
+  <div class="sub" style="margin-top:4px;">실행 확인 시각(checked_at): 2026-09-22T13:26:37.988285+00:00</div>
+  
+</div>
+
+<div class="panel">
+  <h2>종목별 저장 현황 (1차 파일럿 4종목)</h2>
+  <table>
+    <tr><th>종목</th><th>최신 기록 최초 관측 시각</th><th>원본 자료 갱신 시각</th><th>관측일 수</th><th>성과 확인 완료</th></tr>
+    <tr>
+  <td>AMAT</td>
+  <td>2026-09-22T13:01:53.073229+00:00<div class="sub">최신 기록 최초 관측 시각(입력 그대로면 안 바뀜 -- 위 "실행 확인 시각"과는 다른 값)</div></td>
+  <td>2026-09-21T14:23:04.393087+00:00<div class="sub">원본 자료 갱신 시각(캐시 기준)</div></td>
+  <td>1일 (1건 저장, 정정본 포함)<div class="sub">서로 다른 관측일 수</div></td>
+  <td>0건<div class="sub">확인 대상 없음 -- 아직 실적 매칭 미연결</div></td>
+</tr><tr>
+  <td>MRVL</td>
+  <td>2026-09-22T13:01:53.073229+00:00<div class="sub">최신 기록 최초 관측 시각(입력 그대로면 안 바뀜 -- 위 "실행 확인 시각"과는 다른 값)</div></td>
+  <td>2026-09-21T14:23:04.393087+00:00<div class="sub">원본 자료 갱신 시각(캐시 기준)</div></td>
+  <td>1일 (1건 저장, 정정본 포함)<div class="sub">서로 다른 관측일 수</div></td>
+  <td>0건<div class="sub">확인 대상 없음 -- 아직 실적 매칭 미연결</div></td>
+</tr><tr>
+  <td>ARM</td>
+  <td>2026-09-22T13:01:53.073229+00:00<div class="sub">최신 기록 최초 관측 시각(입력 그대로면 안 바뀜 -- 위 "실행 확인 시각"과는 다른 값)</div></td>
+  <td>2026-09-21T14:23:04.393087+00:00<div class="sub">원본 자료 갱신 시각(캐시 기준)</div></td>
+  <td>1일 (1건 저장, 정정본 포함)<div class="sub">서로 다른 관측일 수</div></td>
+  <td>0건<div class="sub">확인 대상 없음 -- 아직 실적 매칭 미연결</div></td>
+</tr><tr>
+  <td>QCOM</td>
+  <td>2026-09-22T13:01:53.073229+00:00<div class="sub">최신 기록 최초 관측 시각(입력 그대로면 안 바뀜 -- 위 "실행 확인 시각"과는 다른 값)</div></td>
+  <td>2026-09-21T14:23:04.393087+00:00<div class="sub">원본 자료 갱신 시각(캐시 기준)</div></td>
+  <td>1일 (1건 저장, 정정본 포함)<div class="sub">서로 다른 관측일 수</div></td>
+  <td>0건<div class="sub">확인 대상 없음 -- 아직 실적 매칭 미연결</div></td>
+</tr>
+  </table>
+</div>
+
+</body></html>
