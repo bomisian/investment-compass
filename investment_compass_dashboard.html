@@ -3739,7 +3739,19 @@ function tabJudgement(r){
       </div>
     </div>
     <div id="techSection">${techViewOpen ? renderOverlapNote(r) + renderTradePlan(r) + renderSignalHistory(r) + renderGptSignalComparison() + renderTechSection(r) : ''}</div>
-    ${renderIndependentValuationSection(r)}
+    ${(() => {
+      // [2026-09-22 수정 -- 화면 가독성 수정요청 3번 보완] renderIndependentValuationSection
+      // 내부의 renderLongTermScenarioCard는 위 legacyScenarioFoldHtml에 있는
+      // renderLongTermPrimaryCard와 같은 계산(computeLongTermPrimarySummary)을 공유하는 상세판
+      // 중복 카드다(Codex 지적: "5775행 이후 및 5860행: 장기 시나리오가 첫 카드와 하단
+      // 상세에서 반복된다"). 이 섹션에는 그 외에도 동종비교(renderRelativeValueBandCard)와
+      // DCF 계열 값(renderAmatScenarioValuation/renderReturnConditionCard)이 함께 있어
+      // 요청 3번의 "DCF·장기 시나리오·동종비교"에 정확히 해당한다. 계산은 손대지 않고
+      // 기본 접힘으로만 옮긴다.
+      const ivHtml = renderIndependentValuationSection(r);
+      if(!ivHtml) return '';
+      return `<details style="margin-bottom:12px;"><summary style="cursor:pointer;color:var(--sub);font-size:12.5px;padding:6px 0;">장기 시나리오 상세·DCF·동종비교 자세히 보기 (위 요약과 같은 계산의 상세판)</summary><div style="margin-top:8px;">${ivHtml}</div></details>`;
+    })()}
     ${renderFairValueSection(r)}
     ${renderRiskSection(r)}
     ${renderSellGuide(r)}
