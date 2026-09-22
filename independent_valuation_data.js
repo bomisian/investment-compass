@@ -214,7 +214,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-22T10:47:33.318776",
+      "generatedAt": "2026-09-22T11:10:51.322399",
       "asOfDate": "2026-09-22",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -1621,7 +1621,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-22T10:47:33.518579",
+      "generatedAt": "2026-09-22T11:10:51.523955",
       "asOfDate": "2026-09-22",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -1673,6 +1673,294 @@ const INDEPENDENT_VALUATION_DATA = {
         "splitNote": null,
         "lastReviewed": "2026-09-21"
       }
+    },
+    "longTermScenario": {
+      "kind": "lrcx_long_term_eps_growth_exit_multiple_scenario",
+      "not_the_dcf": "이 종목은 아직 별도의 독립 DCF가 없다 -- 상대가치(동종기업 배수) 참고범위와도 완전히 별개다. 세 값을 섞지 않는다.",
+      "assumption_disclaimer": "요약: FY2028 EPS는 '지금 관측된 컨센서스'이고, 이후 성장률·출구PER·요구수익률은 전부 분석자가 근거(8개년 실제 매출·이익 이력, GAAP=조정 EPS 동일성 확인, 10년 밸류에이션 관측값, FY2026 공식 현금흐름표)를 조사해 선택한 가정이다. 회사가 확정한 전망이나 통계적으로 검증된 값이 아니다.",
+      "assumption_review": {
+        "eps_base": "FY2028 EPS $11.65184는 회사가 확정한 실적이 아니라, 지금(2026-09-22 기준) 관측된 컨센서스 전망치(estimates_cache.json, 26명 애널리스트)다 -- '그 시점에 관측된 전망'이라는 성격이지 '그 시점의 실제 달성'이라는 뜻이 아니다. 이 전망 자체가 이미 AI 반도체 설비투자 슈퍼사이클을 상당 부분 반영한 값(FY2026 실제 $5.76 대비 2개년 합산 약 +102%)이라는 점을 그대로 밝힌다 -- 이후 FY2029~FY2032 성장 경로는 이 전망을 그대로 연장하지 않고, 아래처럼 8개년 실제 이력에 근거한 정상화된 성장률을 쓴다.",
+        "growth_sustainability": "LRCX의 실제 매출은 최근 8개년(FY2019~FY2026) 동안 -14.5%(FY2024)부터 +45.6%(FY2021)까지 크게 출렁였다 -- 웨이퍼설비투자(WFE) 지출은 반도체 업황에 따라 순환한다는 점이 실적으로 그대로 드러난다. 이 모듈은 근래 2개년 컨센서스(FY2027 +50.3%·FY2028 +17.3%, AI 슈퍼사이클 반영)를 그대로 4년 연장하지 않는다 -- 대신 호황(FY2021)과 불황(FY2024)을 모두 포함한 8개년 실제 매출 CAGR(약 13.37%, 이미 한 사이클 전체를 통과한 값)을 정상화된 성장률로 쓴다 -- '컨센서스가 없어서'가 아니라 '있는 컨센서스가 사이클 고점 근처라서' 쓰지 않는다는 뜻이다. 영업이익률·법인세율·순이자는 일정하게 유지된다는 단순화(부문별 손익 공시가 없어 AMAT식 부문별 재구성이 불가능하다는 한계를 명시 -- LRCX는 단일 보고 부문)를 적용하면 순이익도 같은 비율로 성장한다(실제로는 FY2019 영업이익률 25.5%에서 FY2026 35.3%로 이미 크게 개선됐으나, 이 개선이 앞으로도 같은 속도로 이어진다고 가정하지 않는다 -- 마진 고정이 보수적 방향의 단순화). 주식수는 관측된 최근 실현 속도(-1.13%/yr, 2025-08→2026-08)를 그대로 쓰지 않고, FY2026 공식 현금흐름표 실측(자사주 매입 $3,850M + 배당 $1,270M = $5,120M, FCF $4,891M의 약 104.7% -- 이미 FCF를 초과)에 근거해 이보다 보수적인 -1.0%/yr를 가정한다. 이 세 입력의 결과로 EPS 성장률은 약 14.51%가 된다 -- growth_rate_derivation 딕셔너리의 하드코딩이 아니라 _eps_growth_from_bridge()의 실제 계산 결과이며, PRIMARY_GROWTH_RATE도 같은 함수의 같은 결과를 그대로 쓴다(AMAT과 같은 구조적 연결, 회귀시험 LT-L1로 확인).",
+        "exit_per_validity": "LRCX는 FY2026 GAAP 희석EPS와 비GAAP(조정) 희석EPS가 모두 $5.76로 사실상 동일하다(회사 공식 발표, 2026-07-29 실적자료 -- 분기 기준으로도 GAAP $1.81 vs 비GAAP $1.82 등 몇 센트 차이뿐) -- AMAT처럼 '어느 기준의 배수를 쓰는가'가 크게 갈리는 문제가 구조적으로 작다. 대신 이 모듈이 고른 것은 표본기간이다: 최근 3년 평균 PER(32.1배)은 AI 슈퍼사이클 재평가가 상당히 진행된 시점의 관측치이고, 10년 평균(21.0배)은 2018년 저점(6.99배)부터 이번 고점(65.47배 부근)까지 여러 번의 완전한 사이클을 통과한 값이다. 이 모듈은 10년 평균을 그대로(21.0배로 반올림) 쓴다 -- '지금 수준의 AI 프리미엄이 FY2032까지 그대로 유지된다'고 가정하지 않기 위함이다. 다만 10년 평균이 '정상 수준'이라고 확정하는 것도 아니다 -- 아래 범위·스트레스 시나리오에서 5년 평균(25.63배)·3년 평균(32.11배)을 썼을 때의 영향도 함께 보여준다. 출처는 이 프로젝트의 공식 가격 소스(prices_cache.json)가 아니라 제3자 참고자료(fullratio.com, 2026-09-22 조회)이며, 연말/조회시점 종가 기준이라 이 프로젝트의 회계연도(6월 마감) 기준과 완전히 정렬되지는 않는다는 한계를 명시한다.",
+        "no_reverse_engineering": "이 가정들은 '현재 주가와 비슷한 결과가 나오도록' 거꾸로 고른 것이 아니다 -- 추천 기준안(성장 14.51%·출구PER 21배)의 목표주가·매입가 상한은 현재 비교가격과 독립적으로 계산되며, 그 결과가 현재가보다 높을 수도 낮을 수도 있다는 것을 그대로 보여준다. AMAT의 8.82% 성장률·22배 출구PER·1% 주식수 감소를 LRCX에 그대로 복제하지 않았다 -- 성장률은 LRCX 자신의 8개년 매출 CAGR에서, 출구PER은 LRCX 자신의 10년 PER 이력에서, 주식수 감소율은 LRCX 자신의 FY2026 현금흐름표 실측에서 각각 독립적으로 도출했다(우연히 주식수 감소율 -1.0%/yr는 AMAT과 같은 수치가 됐지만, 이는 두 회사 모두 '이미 FCF를 초과하는 자사주매입 속도가 그대로 유지된다고 가정하지 않는다'는 같은 보수적 원칙을 각자의 실측값에 적용한 결과이지, 값을 복사한 것이 아니다).",
+        "assumption_vs_fact_note": "요약: FY2028 EPS는 '지금 관측된 컨센서스'이고, 이후 성장률·출구PER·요구수익률은 전부 분석자가 근거(8개년 실제 매출·이익 이력, GAAP=조정 EPS 동일성 확인, 10년 밸류에이션 관측값, FY2026 공식 현금흐름표)를 조사해 선택한 가정이다. 회사가 확정한 전망이나 통계적으로 검증된 값이 아니다."
+      },
+      "evidence_base": {
+        "eps_basis_note": {
+          "kind": "관측값(회사 공식 발표)",
+          "fact": "FY2026(2026-06-28 마감) GAAP 희석EPS $5.76 = 비GAAP(조정) 희석EPS $5.76 (동일, 2026-07-29 실적발표 연결손익계산서 'Twelve Months Ended June 28, 2026' 섹션).",
+          "quarterly_detail": "2026년 6월 분기 GAAP $1.81 vs 비GAAP $1.82, 2026년 3월 분기 GAAP $1.45 vs 비GAAP $1.47 -- 분기 단위로도 차이는 센트 단위.",
+          "implication": "AMAT은 GAAP/조정 EPS 정의가 갈려 출구PER 선택에 별도 정의-일치 검증이 필요했지만, LRCX는 이 축 자체가 구조적으로 크지 않다.",
+          "currency_and_share_unit": "USD, 보통주 1주 기준(주당). 2024년 10월 10:1 액면분할(주식 병합 아닌 분할)이 이미 있었으나, 이 프로젝트가 쓰는 financials_cache.json·prices_cache.json 모두 분할 조정 후 수치로 일관되게 소급 적용돼 있음을 확인함(주식수 시계열이 2020-10 시점부터 이미 10억 주 이상으로 연속적임)."
+        },
+        "revenue_history": {
+          "kind": "관측값(SEC 소스 financials_cache.json)",
+          "annual_revenue_musd_by_fy": {
+            "2019": 9653.559,
+            "2020": 10044.736,
+            "2021": 14626.15,
+            "2022": 17227.039,
+            "2023": 17428.516,
+            "2024": 14905.386,
+            "2025": 18435.591,
+            "2026": 23232.69
+          },
+          "derived_cagr_8y_fy2019_2026": 0.13367203725807486,
+          "note": "FY2024 매출이 전년대비 -14.5%로 역성장했다는 점(WFE 사이클 조정)과 FY2021 +45.6% 급증(팬데믹 이후 설비투자 붐)을 모두 포함한 8개년 CAGR -- 특정 방향으로 치우친 구간만 골라 쓰지 않았다."
+        },
+        "buyback_and_margin": {
+          "buyback_cash_check_fy2026": {
+            "kind": "실측값(공식 현금흐름표·보도자료, 2026-09-22 조사)",
+            "actual_buyback_musd": 3850.0,
+            "actual_dividends_paid_musd": 1270.0,
+            "actual_total_musd": 5120.0,
+            "fcf_musd": 4891.252,
+            "actual_total_pct_of_fcf": 104.67667582860174,
+            "source": "Lam Research FY2026 실적 발표 보도자료(2026-07-29) 및 관련 보도(총 $5.12B 주주환원, 자사주 $3.85B·배당 $1.27B).",
+            "implication": "이미 FCF의 약 104.7%를 주주환원에 쓰고 있다 -- 이 속도가 그대로 유지·가속된다고 가정하지 않고, 실현 속도(-1.13%/yr)보다도 보수적인 -1.0%/yr 순주식수 감소를 쓴다."
+          },
+          "operating_margin_trend": {
+            "kind": "관측값(SEC 소스)",
+            "fy2019_pct": 25.5,
+            "fy2026_pct": 35.3,
+            "note": "8년간 영업이익률이 9.8%p 개선됐다 -- 이미 상당 부분 실현된 구조적 개선이며, 이 모듈은 향후 4년간 추가 개선을 가정하지 않는다(마진 고정 단순화, 보수적 방향)."
+          },
+          "shares_outstanding_recent_yoy_change_pct": {
+            "kind": "관측값(SEC 소스, 반기 보고 시점 기준)",
+            "aug_2025": 1265621000.0,
+            "aug_2026": 1251321000.0,
+            "yoy_change_pct": -1.129880114189008
+          }
+        },
+        "valuation_multiples": {
+          "trailing_gaap_per_history": {
+            "kind": "제3자 참고자료(fullratio.com, 2026-09-22 조회 -- 이 프로젝트의 공식 가격 소스 아님)",
+            "avg_10y": 21.01,
+            "avg_5y": 25.63,
+            "avg_3y": 32.11,
+            "range_low": 6.99,
+            "range_high": 65.47,
+            "note": "연말/조회시점 종가 기준(이 프로젝트의 회계연도 6월 마감과 완전히 정렬되지 않음) -- 정확한 소수점보다 '표본기간에 따라 10.1~32배 수준의 큰 차이가 난다'는 방향성 근거로 쓴다."
+          },
+          "exit_per_selection_decomposition": {
+            "step0_trailing_10y_avg_gaap_per": 21.01,
+            "step1_trailing_3y_avg_gaap_per_if_used_instead": 32.11,
+            "recency_rerating_effect_pct_not_applied": 0.5283198476915754,
+            "step2_chosen_per": 21.0,
+            "policy_choice_effect_pct_vs_10y_avg": -0.0004759638267491928,
+            "note": "AMAT과 달리 GAAP·조정 EPS가 사실상 동일해(2026-07-29 회사 발표, FY2026 GAAP=비GAAP=$5.76) '정의 효과' 축 자체가 없다. recency_rerating_effect_pct_not_applied(+52.9%p 수준)는 최근 3년 평균을 썼다면 배수가 그만큼 더 높았을 것이라는 뜻이며, 이 모듈은 그 재평가를 그대로 연장하지 않기로 한 정책 선택을 policy_choice_effect_pct_vs_10y_avg(0에 가까움, 10년 평균을 거의 그대로 씀)로 남긴다."
+          }
+        },
+        "consensus_snapshot": {
+          "kind": "관측값(estimates_cache.json, 2026-09-20 수집)",
+          "fy2027_0y": {
+            "eps_avg": 9.50808,
+            "eps_growth_pct": 63.37,
+            "revenue_avg_musd": 34928.098,
+            "revenue_growth_pct": 50.34,
+            "analysts": 29
+          },
+          "fy2028_plus1y": {
+            "eps_avg": 11.65184,
+            "eps_growth_pct": 22.55,
+            "revenue_avg_musd": 40956.155,
+            "revenue_growth_pct": 17.26,
+            "analysts": 26
+          },
+          "note": "base_eps로 쓰는 FY2028 컨센서스는 그 자체로 이미 AI 슈퍼사이클 지속을 상당 부분 반영한 값이다 -- 이 사실을 감추지 않고, 그 이후(FY2029~FY2032) 성장은 이 컨센서스를 연장하지 않는다."
+        }
+      },
+      "as_of_execution": "2026-09-22",
+      "growth_rate_assumption": 0.14512326995765146,
+      "exit_per_assumption": 21.0,
+      "is_primary_recommended_assumption": true,
+      "primary_growth_rate": 0.14512326995765146,
+      "primary_exit_per": 21.0,
+      "primary_review_by": "2026-12-31",
+      "growth_years": 4,
+      "base_fiscal_year": 2028,
+      "target_fiscal_year": 2032,
+      "estimates_fetched_at": "2026-09-21",
+      "estimates_age_days": 1,
+      "base_eps_fact": 11.65184,
+      "base_eps_end_date": "2028-06-30",
+      "base_eps_analysts": 26,
+      "target_date": "2032-06-30",
+      "eps_path": [
+        13.342793121823362,
+        15.27914289003083,
+        17.496502068382306,
+        20.035651661366757
+      ],
+      "target_eps": 20.035651661366757,
+      "target_price": 420.74868488870186,
+      "comparison_price": 302.2799987792969,
+      "comparison_price_as_of": "2026-09-21",
+      "base_scenario": {
+        "blocked": false,
+        "holding_period_actual_days": 2109,
+        "holding_period_actual_years": 5.778082191780822,
+        "cashflows_by_year": {
+          "1": 1.32,
+          "2": 1.32,
+          "3": 1.32,
+          "4": 1.32,
+          "5": 1.32,
+          "5.778082191780822": 421.77575338185255
+        },
+        "cashflow_note": {
+          "approximation_note": "실제 AMAT 분기배당(연 4회 지급)을 이 계산에서는 매입일 이후부터 맞이하는 각 정수 연차에 연 1회 합산 지급으로 근사한다 -- 정확한 분기별 지급일을 쓰려면 엔진을 부분기간 할인 구조로 바꿔야 하며 이번 범위 밖이다. 보유기간이 정수가 아니므로(약 5.7781년), 매도 시점의 부분연도에는 연배당의 77.8%만 비례 배분했다(그 이후 -- 매도 이후 -- 배당은 포함하지 않음). 매도 이후 시점의 배당은 어떤 경우에도 포함하지 않는다."
+        },
+        "ceilings_by_required_return": {
+          "0.08": {
+            "blocked": false,
+            "required_return": 0.08,
+            "max_purchase_price": 275.63907141639055,
+            "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
+          },
+          "0.1": {
+            "blocked": false,
+            "required_return": 0.1,
+            "max_purchase_price": 248.17455415317798,
+            "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
+          },
+          "0.12": {
+            "blocked": false,
+            "required_return": 0.12,
+            "max_purchase_price": 223.88527257424118,
+            "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
+          }
+        },
+        "conditional_annualized_return_at_comparison_price": {
+          "status": "SUCCESS",
+          "rate": 0.06273052652802558,
+          "residual": -7.699441084696446e-10,
+          "note": "solve_implied_rate와는 별개의 신규 수치해 함수 -- P05/P10 근거로 대체하지 않음"
+        }
+      },
+      "required_return_ceilings": {
+        "8%": 275.63907141639055,
+        "10%": 248.17455415317798,
+        "12%": 223.88527257424118
+      },
+      "conditional_annualized_return_at_comparison_price": 0.06273052652802558,
+      "conditional_annualized_return_status": "SUCCESS",
+      "default_required_return": 0.1,
+      "default_ceiling_price": 248.17455415317798,
+      "like_for_like_comparison_note": "target_price($420.75, FY2032 시점의 할인 전 미래 목표주가)와 default_ceiling_price($248.17, 오늘 현재가치로 할인한 연 10% 요구수익률 매입가 상한)는 서로 다른 의미의 가격이다.",
+      "return_condition_met_at_default_required_return": false,
+      "state_label": "수익조건 미충족",
+      "blocked": false,
+      "long_term_thesis_confirmation_note": "화면의 '사업 전제' 표시는 최신 분기 매출·영업이익이 동시에 둔화하지 않았는지만 확인한다 -- 이는 '최근 실적 방향'이며, 향후 4년(FY2029~FY2032) EPS 성장 경로(대표 가정 연 14.51%, 2026-12-31 재검토 예정)가 실제로 달성 가능한지를 확인한 것이 아니다. 웨이퍼설비투자(WFE) 사이클, AI 반도체향 첨단패키징 수요, 메모리/파운드리 자본지출 방향, 마진, 자사주매입 지속가능성은 정기적으로(예: 분기 실적 발표마다) 재확인이 필요한 상태로 표시하며 '확인 완료'로 표시하지 않는다.",
+      "long_term_thesis_confirmed": false,
+      "price_return_table": [
+        {
+          "purchase_price": 168.17,
+          "status": "SUCCESS",
+          "annualized_return": 0.1775790219217015
+        },
+        {
+          "purchase_price": 208.17,
+          "status": "SUCCESS",
+          "annualized_return": 0.1343597029162537
+        },
+        {
+          "purchase_price": 248.17,
+          "status": "SUCCESS",
+          "annualized_return": 0.10000353008704219
+        },
+        {
+          "purchase_price": 302.28,
+          "status": "SUCCESS",
+          "annualized_return": 0.06273052577812446
+        },
+        {
+          "purchase_price": 308.17,
+          "status": "SUCCESS",
+          "annualized_return": 0.0591545856504126
+        },
+        {
+          "purchase_price": 378.17,
+          "status": "SUCCESS",
+          "annualized_return": 0.02197943713781566
+        }
+      ],
+      "range_growth_fixed_exit_per_sensitivity": {
+        "note": "성장률을 대표 가정(14.51%)으로 고정하고 출구PER만 18~26배(10년 평균 부근 저점~5년 평균 부근)로 바꾼 민감도다 -- 신뢰구간이 아니며 확률을 붙이지 않는다.",
+        "scenarios": {
+          "low": {
+            "exit_per": 18.0,
+            "growth_rate": 0.14512326995765146,
+            "target_price": 360.6417299046016,
+            "ceiling_at_default_required_return": 213.52047283180977
+          },
+          "high": {
+            "exit_per": 26.0,
+            "growth_rate": 0.14512326995765146,
+            "target_price": 520.9269431955356,
+            "ceiling_at_default_required_return": 305.93135635545826
+          }
+        }
+      },
+      "stress_scenarios": {
+        "note": "확률을 검증하지 않았으므로 임의의 성공확률을 붙이지 않는다. decomposition_vs_primary는 대표 가정(성장 14.51%·PER 21배) 대비 성장률만/출구PER만/둘 다 바꿨을 때의 효과를 분리해서 보여준다.",
+        "scenarios": {
+          "stress_low": {
+            "label": "성장 연 5%(WFE 사이클 조정 국면, FY2024 실제 매출 역성장 -14.5% 재현 가정) · 종료 PER 7배(10년 GAAP 저점)",
+            "growth_rate": 0.05,
+            "exit_per": 6.99,
+            "target_eps": 14.162884344000002,
+            "target_price": 98.99856156456002,
+            "ceiling_at_default_required_return": 62.67264440272582,
+            "decomposition_vs_primary": {
+              "base_price": 420.74868488870186,
+              "growth_only_price": 297.420571224,
+              "growth_only_pct": -0.29311586249479327,
+              "per_only_price": 140.04920511295364,
+              "per_only_pct": -0.667142857142857,
+              "combined_price": 98.99856156456002,
+              "combined_pct": -0.7647085656589812,
+              "note": "성장률만 바꾼 효과와 출구PER만 바꾼 효과를 각각 보여준다 -- 결합효과를 어느 한쪽 변수 하나의 효과인 것처럼 설명하지 않는다."
+            }
+          },
+          "stress_high": {
+            "label": "성장 연 25%(근래 컨센서스 수준 AI 슈퍼사이클 지속) · 종료 PER 25.6배(5년 평균)",
+            "growth_rate": 0.25,
+            "exit_per": 25.63,
+            "target_eps": 28.446875,
+            "target_price": 729.0934062499999,
+            "ceiling_at_default_required_return": 425.9477095541725,
+            "decomposition_vs_primary": {
+              "base_price": 420.74868488870186,
+              "growth_only_price": 597.384375,
+              "growth_only_pct": 0.41981281571449824,
+              "per_only_price": 513.5137520808299,
+              "per_only_pct": 0.2204761904761905,
+              "combined_price": 729.0934062499999,
+              "combined_pct": 0.7328477365125043,
+              "note": "성장률만 바꾼 효과와 출구PER만 바꾼 효과를 각각 보여준다 -- 결합효과를 어느 한쪽 변수 하나의 효과인 것처럼 설명하지 않는다."
+            }
+          },
+          "stress_consensus_extrapolated": {
+            "label": "성장 연 30%(FY2027·FY2028 컨센서스 성장률을 단순 4년 연장, 이 모듈이 채택하지 않는 예시적 상방) · 종료 PER 32.1배(3년 평균, AI 재평가 유지 가정)",
+            "growth_rate": 0.3,
+            "exit_per": 32.11,
+            "target_eps": 33.278820224,
+            "target_price": 1068.58291739264,
+            "ceiling_at_default_required_return": 621.6770911207587,
+            "decomposition_vs_primary": {
+              "base_price": 420.74868488870186,
+              "growth_only_price": 698.855224704,
+              "growth_only_pct": 0.6609801760613083,
+              "per_only_price": 643.3447748464865,
+              "per_only_pct": 0.529047619047619,
+              "combined_price": 1068.58291739264,
+              "combined_pct": 1.5397177834918385,
+              "note": "성장률만 바꾼 효과와 출구PER만 바꾼 효과를 각각 보여준다 -- 결합효과를 어느 한쪽 변수 하나의 효과인 것처럼 설명하지 않는다."
+            }
+          }
+        }
+      }
     }
   },
   "KLAC": {
@@ -1705,7 +1993,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-22T10:47:33.704334",
+      "generatedAt": "2026-09-22T11:10:51.712954",
       "asOfDate": "2026-09-22",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -1768,7 +2056,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "대상종목 비교가격 자료상태 문제: 통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
-      "withheldCheckedAt": "2026-09-22T10:47:33.893259",
+      "withheldCheckedAt": "2026-09-22T11:10:51.904195",
       "neverSucceeded": true
     }
   },
@@ -1779,7 +2067,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(792.8424768065801)<=band_low(792.8424768065801) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-22T10:47:34.055216",
+      "withheldCheckedAt": "2026-09-22T11:10:52.077810",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -1801,7 +2089,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(495.92545051951635)<=band_low(495.92545051951635) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-22T10:47:34.136587",
+      "withheldCheckedAt": "2026-09-22T11:10:52.162799",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -1823,7 +2111,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "선정 기준을 통과한 동종업계 배수가 하나도 없음 -- 밴드 산출 보류(0으로 채우지 않음)",
-      "withheldCheckedAt": "2026-09-22T10:47:34.230255",
+      "withheldCheckedAt": "2026-09-22T11:10:52.260867",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -1845,7 +2133,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "선정 기준을 통과한 동종업계 배수가 하나도 없음 -- 밴드 산출 보류(0으로 채우지 않음)",
-      "withheldCheckedAt": "2026-09-22T10:47:34.273848",
+      "withheldCheckedAt": "2026-09-22T11:10:52.305062",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -1867,7 +2155,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(1019.8630843019492)<=band_low(1019.8630843019492) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-22T10:47:34.322376",
+      "withheldCheckedAt": "2026-09-22T11:10:52.349573",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -1889,7 +2177,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(1212.937106867378)<=band_low(1212.937106867378) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-22T10:47:34.410629",
+      "withheldCheckedAt": "2026-09-22T11:10:52.434015",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
