@@ -72,9 +72,9 @@ const DATA_STATUS = {
     "market": {
       "label": "시장환경",
       "status": "ok",
-      "lastAttemptAt": 1790107615.4192796,
-      "lastSuccessAt": 1790107615.4192796,
-      "lastPartialSuccessAt": 1790107615.4192796,
+      "lastAttemptAt": 1790107616.1359708,
+      "lastSuccessAt": 1790107616.1359708,
+      "lastPartialSuccessAt": 1790107616.1359708,
       "lastFetchedAt": 1790105372.753858,
       "oldestFetchedAt": 1790105372.753858,
       "warningAfterHours": 6,
@@ -89,9 +89,9 @@ const DATA_STATUS = {
     "prices": {
       "label": "가격·차트",
       "status": "ok",
-      "lastAttemptAt": 1790107615.4270556,
-      "lastSuccessAt": 1790107615.4270556,
-      "lastPartialSuccessAt": 1790107615.4270556,
+      "lastAttemptAt": 1790107616.1441712,
+      "lastSuccessAt": 1790107616.1441712,
+      "lastPartialSuccessAt": 1790107616.1441712,
       "lastFetchedAt": 1790094744.931189,
       "oldestFetchedAt": 1790094744.931189,
       "warningAfterHours": 6,
@@ -106,8 +106,8 @@ const DATA_STATUS = {
     "businessAnalysis": {
       "label": "기업분석",
       "status": "delayed",
-      "lastAttemptAt": 1790107615.6528068,
-      "lastSuccessAt": 1790107615.6528068,
+      "lastAttemptAt": 1790107616.367865,
+      "lastSuccessAt": 1790107616.367865,
       "lastFetchedAt": 1790039772.0586126,
       "oldestFetchedAt": 1790039772.0586126,
       "dataAsOfLabel": "2026-09-22 10:16",
@@ -156,9 +156,9 @@ const DATA_STATUS = {
     "sigma": {
       "label": "시그마(옵션 IV)",
       "status": "partial",
-      "lastAttemptAt": 1790107615.512216,
+      "lastAttemptAt": 1790107616.2327142,
       "lastSuccessAt": 1789747816.5239253,
-      "lastPartialSuccessAt": 1790107615.512216,
+      "lastPartialSuccessAt": 1790107616.2327142,
       "lastFetchedAt": 1790103531.065115,
       "oldestFetchedAt": 1789749774.7042315,
       "warningAfterHours": 6,
@@ -226,7 +226,7 @@ const DATA_STATUS = {
       "lastError": null
     }
   },
-  "generatedAt": 1790107615.9943693,
+  "generatedAt": 1790107616.367865,
   "timezoneGuide": {
     "collector": "Asia/Seoul",
     "market": "America/New_York"
