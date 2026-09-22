@@ -214,7 +214,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-22T20:55:52.812358",
+      "generatedAt": "2026-09-22T21:24:18.497470",
       "asOfDate": "2026-09-22",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -273,6 +273,72 @@ const INDEPENDENT_VALUATION_DATA = {
         "observationSummary": "3개 분기 모두 격차가 존재하고 부호가 한 번 바뀜(Q1·Q2엔 조정이 GAAP보다 낮았다가, Q3엔 조정이 GAAP보다 높아짐) - 부호 자체가 바뀐 것은 EPS 값이 음수였다는 뜻이 아니라 (조정-GAAP)/GAAP 차이의 방향이 바뀌었다는 뜻임. 다른 두 종목보다 기준 모호성의 실질적 영향이 클 수 있음(확정 아님, 관찰일 뿐).",
         "splitNote": null,
         "lastReviewed": "2026-09-21"
+      },
+      "priceMultipleDiagnostic": {
+        "ok": true,
+        "current_price": 464.239990234375,
+        "current_price_as_of": "2026-09-21",
+        "multiples": {
+          "fy_current": {
+            "eps": 12.79441,
+            "period_end": "2026-10-31",
+            "period_label": "FY0(당해 회계연도)",
+            "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+            "per": 36.284595400207984,
+            "per_price_basis_note": "현재가 $464.2400(2026-09-21) / 해당 기간 EPS"
+          },
+          "fy_next": {
+            "eps": 18.45479,
+            "period_end": "2027-10-31",
+            "period_label": "FY1(익년 회계연도)",
+            "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+            "per": 25.155528198065383,
+            "per_price_basis_note": "현재가 $464.2400(2026-09-21) / 해당 기간 EPS"
+          },
+          "ntm": {
+            "eps": 17.849982273972604,
+            "period_end": null,
+            "period_label": "NTM(향후 365일 일수보간)",
+            "window_start": "2026-09-22",
+            "window_end": "2027-09-22",
+            "eps_basis_note": "0y 2026-10-31(가중11%) / +1y 2027-10-31(가중89%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+            "per": 26.00786841739849,
+            "per_price_basis_note": "현재가 $464.2400(2026-09-21) / 해당 기간 EPS"
+          }
+        },
+        "folded_required_eps_if_multiple_held": {
+          "status": "folded_reference_only_not_core_diagnosis",
+          "note": "[접힌 참고용, 핵심 진단(A-1) 아님] '지금 배수(FY0/FY1/NTM PER)가 미래에도 그대로 유지된다면' 필요한 EPS를 역산한 값이다. 배당을 제외하면 필요EPS = 현재EPS x (1+요구수익률)이 되는 항등식이므로(현재가/현재EPS로 만든 배수를 다시 곱해 현재가로 되돌리는 구조), 특히 NTM 행의 갭은 항상 요구수익률(현재 10%)과 같게 나온다 -- 종목별 미래 실적 부담의 차이를 보여주는 값이 아니다. 배당 포함 식은 필요EPS=(현재가x(1+요구수익률)-연배당)/현재배수이며, 미래 배수·배당이 지금과 동일하게 유지된다는 가정에서만 성립하는 조건부 산술이다. 매수가·매도가·확률·성공확률이 아니며 운영 매수 배지·사다리에 연결하지 않는다.",
+          "required_return_assumption": 0.1,
+          "annual_dividend_per_share": 2.12,
+          "dividend_source_status": "model_assumption_maintained_after_confirmed_payment",
+          "dividend_provenance": {
+            "as_of": "2026-09-16",
+            "note": "이번 3년 보유수익 계산은 다음 확정 지급(2026-12-10, $0.53) 이후의 향후 분기배당을 같은 금액($0.53, 연 $2.12/주)으로 3년간 유지한다고 가정한다(model_assumption, 확정 아님). 연차1,2,3 배당은 이 가정을 연 단위로 합산한 근사치이며, 실제 분기 지급일 4회를 정확히 반영하지 않는다. 이미 지급된 2026-09-10 배당은 이 근사에도 포함하지 않는다 -- 연차1의 근사 합계는 '매입 이후 12개월 동안 확정+가정된 분기배당의 합'으로 읽어야 하며, 이미 지난 지급을 재사용한 것이 아니다.",
+            "next_confirmed_payment": {
+              "declared_date": "2026-09-10",
+              "ex_date": "2026-11-19",
+              "payable_date": "2026-12-10",
+              "amount_per_share": 0.53,
+              "note": "회사가 실제로 확정한 다음 지급 -- 이 금액·날짜는 model_assumption이 아니라 확정 사실이다."
+            }
+          },
+          "dividend_example_label": "실제 배당 반영",
+          "by_multiple": {
+            "fy_current": {
+              "required_eps_if_multiple_unchanged": 14.01542400152814,
+              "vs_same_period_eps_pct": 9.54333964229801
+            },
+            "fy_next": {
+              "required_eps_if_multiple_unchanged": 20.215993289972847,
+              "vs_same_period_eps_pct": 9.54333964229801
+            },
+            "ntm": {
+              "required_eps_if_multiple_unchanged": 19.553466708467802,
+              "vs_same_period_eps_pct": 9.543339642298033
+            }
+          }
+        }
       }
     },
     "longTermScenario": {
@@ -1621,7 +1687,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-22T20:55:53.011765",
+      "generatedAt": "2026-09-22T21:24:18.703246",
       "asOfDate": "2026-09-22",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -1672,6 +1738,62 @@ const INDEPENDENT_VALUATION_DATA = {
         "observationSummary": "확인된 2개 분기 모두 격차가 2% 미만으로 작음 - 기준 모호성의 실질적 영향은 낮아 보임(확정 아님, 관찰일 뿐, 향후 분기엔 달라질 수 있음).",
         "splitNote": null,
         "lastReviewed": "2026-09-21"
+      },
+      "priceMultipleDiagnostic": {
+        "ok": true,
+        "current_price": 302.2799987792969,
+        "current_price_as_of": "2026-09-21",
+        "multiples": {
+          "fy_current": {
+            "eps": 9.50808,
+            "period_end": "2027-06-30",
+            "period_label": "FY0(당해 회계연도)",
+            "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+            "per": 31.791907386065,
+            "per_price_basis_note": "현재가 $302.2800(2026-09-21) / 해당 기간 EPS"
+          },
+          "fy_next": {
+            "eps": 11.65184,
+            "period_end": "2028-06-30",
+            "period_label": "FY1(익년 회계연도)",
+            "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+            "per": 25.942683625873414,
+            "per_price_basis_note": "현재가 $302.2800(2026-09-21) / 해당 기간 EPS"
+          },
+          "ntm": {
+            "eps": 10.001438465753424,
+            "period_end": null,
+            "period_label": "NTM(향후 365일 일수보간)",
+            "window_start": "2026-09-22",
+            "window_end": "2027-09-22",
+            "eps_basis_note": "0y 2027-06-30(가중77%) / +1y 2028-06-30(가중23%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+            "per": 30.223652309050692,
+            "per_price_basis_note": "현재가 $302.2800(2026-09-21) / 해당 기간 EPS"
+          }
+        },
+        "folded_required_eps_if_multiple_held": {
+          "status": "folded_reference_only_not_core_diagnosis",
+          "note": "[접힌 참고용, 핵심 진단(A-1) 아님] '지금 배수(FY0/FY1/NTM PER)가 미래에도 그대로 유지된다면' 필요한 EPS를 역산한 값이다. 배당을 제외하면 필요EPS = 현재EPS x (1+요구수익률)이 되는 항등식이므로(현재가/현재EPS로 만든 배수를 다시 곱해 현재가로 되돌리는 구조), 특히 NTM 행의 갭은 항상 요구수익률(현재 10%)과 같게 나온다 -- 종목별 미래 실적 부담의 차이를 보여주는 값이 아니다. 배당 포함 식은 필요EPS=(현재가x(1+요구수익률)-연배당)/현재배수이며, 미래 배수·배당이 지금과 동일하게 유지된다는 가정에서만 성립하는 조건부 산술이다. 매수가·매도가·확률·성공확률이 아니며 운영 매수 배지·사다리에 연결하지 않는다.",
+          "required_return_assumption": 0.1,
+          "annual_dividend_per_share": 0.0,
+          "dividend_source_status": "unknown_assumed_zero_flagged",
+          "dividend_provenance": null,
+          "dividend_example_label": "배당 제외 예시(미확인, 확정 무배당 아님)",
+          "by_multiple": {
+            "fy_current": {
+              "required_eps_if_multiple_unchanged": 10.458888,
+              "vs_same_period_eps_pct": 10.000000000000009
+            },
+            "fy_next": {
+              "required_eps_if_multiple_unchanged": 12.817024000000002,
+              "vs_same_period_eps_pct": 10.000000000000009
+            },
+            "ntm": {
+              "required_eps_if_multiple_unchanged": 11.001582312328768,
+              "vs_same_period_eps_pct": 10.000000000000032
+            }
+          }
+        }
       }
     },
     "longTermScenario": {
@@ -2014,7 +2136,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-22T20:55:53.200406",
+      "generatedAt": "2026-09-22T21:24:18.894300",
       "asOfDate": "2026-09-22",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -2067,6 +2189,62 @@ const INDEPENDENT_VALUATION_DATA = {
         "observationSummary": "분할 전·후 두 분기 모두 격차가 약 1~3% 수준으로 작음(분할 전 3.1%, 분할 후 1.0%) - 기준 모호성의 실질적 영향은 낮아 보임(확정 아님, 관찰일 뿐).",
         "splitNote": "KLA는 10대1 액면분할을 발표(2026-05)했고 실제 시행일은 2026-06-11임(https://ir.kla.com/news-events/press-releases/detail/515/kla-corporation-announces-ten-to-one-stock-split-and). 분할 전후 EPS를 절대값으로 직접 비교하지 말 것 - 위 두 관찰은 각각 분할 전/후로 표기했고 격차 비율(%)만 비교 가능.",
         "lastReviewed": "2026-09-21"
+      },
+      "priceMultipleDiagnostic": {
+        "ok": true,
+        "current_price": 183.97000122070312,
+        "current_price_as_of": "2026-09-21",
+        "multiples": {
+          "fy_current": {
+            "eps": 5.4548,
+            "period_end": "2027-06-30",
+            "period_label": "FY0(당해 회계연도)",
+            "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+            "per": 33.726259665011206,
+            "per_price_basis_note": "현재가 $183.9700(2026-09-21) / 해당 기간 EPS"
+          },
+          "fy_next": {
+            "eps": 6.70539,
+            "period_end": "2028-06-30",
+            "period_label": "FY1(익년 회계연도)",
+            "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+            "per": 27.43613737913874,
+            "per_price_basis_note": "현재가 $183.9700(2026-09-21) / 해당 기간 EPS"
+          },
+          "ntm": {
+            "eps": 5.742607013698629,
+            "period_end": null,
+            "period_label": "NTM(향후 365일 일수보간)",
+            "window_start": "2026-09-22",
+            "window_end": "2027-09-22",
+            "eps_basis_note": "0y 2027-06-30(가중77%) / +1y 2028-06-30(가중23%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+            "per": 32.035972648285735,
+            "per_price_basis_note": "현재가 $183.9700(2026-09-21) / 해당 기간 EPS"
+          }
+        },
+        "folded_required_eps_if_multiple_held": {
+          "status": "folded_reference_only_not_core_diagnosis",
+          "note": "[접힌 참고용, 핵심 진단(A-1) 아님] '지금 배수(FY0/FY1/NTM PER)가 미래에도 그대로 유지된다면' 필요한 EPS를 역산한 값이다. 배당을 제외하면 필요EPS = 현재EPS x (1+요구수익률)이 되는 항등식이므로(현재가/현재EPS로 만든 배수를 다시 곱해 현재가로 되돌리는 구조), 특히 NTM 행의 갭은 항상 요구수익률(현재 10%)과 같게 나온다 -- 종목별 미래 실적 부담의 차이를 보여주는 값이 아니다. 배당 포함 식은 필요EPS=(현재가x(1+요구수익률)-연배당)/현재배수이며, 미래 배수·배당이 지금과 동일하게 유지된다는 가정에서만 성립하는 조건부 산술이다. 매수가·매도가·확률·성공확률이 아니며 운영 매수 배지·사다리에 연결하지 않는다.",
+          "required_return_assumption": 0.1,
+          "annual_dividend_per_share": 0.0,
+          "dividend_source_status": "unknown_assumed_zero_flagged",
+          "dividend_provenance": null,
+          "dividend_example_label": "배당 제외 예시(미확인, 확정 무배당 아님)",
+          "by_multiple": {
+            "fy_current": {
+              "required_eps_if_multiple_unchanged": 6.00028,
+              "vs_same_period_eps_pct": 10.000000000000009
+            },
+            "fy_next": {
+              "required_eps_if_multiple_unchanged": 7.375929000000001,
+              "vs_same_period_eps_pct": 10.000000000000009
+            },
+            "ntm": {
+              "required_eps_if_multiple_unchanged": 6.316867715068493,
+              "vs_same_period_eps_pct": 10.000000000000009
+            }
+          }
+        }
       }
     },
     "longTermScenario": {
@@ -2402,7 +2580,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "대상종목 비교가격 자료상태 문제: 통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
-      "withheldCheckedAt": "2026-09-22T20:55:53.395135",
+      "withheldCheckedAt": "2026-09-22T21:24:19.084494",
       "neverSucceeded": true
     },
     "longTermScenario": {
@@ -2741,7 +2919,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(792.8424768065801)<=band_low(792.8424768065801) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-22T20:55:53.553760",
+      "withheldCheckedAt": "2026-09-22T21:24:19.241788",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -2763,7 +2941,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(495.92545051951635)<=band_low(495.92545051951635) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-22T20:55:53.634148",
+      "withheldCheckedAt": "2026-09-22T21:24:19.321859",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -2785,7 +2963,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "선정 기준을 통과한 동종업계 배수가 하나도 없음 -- 밴드 산출 보류(0으로 채우지 않음)",
-      "withheldCheckedAt": "2026-09-22T20:55:53.714312",
+      "withheldCheckedAt": "2026-09-22T21:24:19.404381",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -2807,7 +2985,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "선정 기준을 통과한 동종업계 배수가 하나도 없음 -- 밴드 산출 보류(0으로 채우지 않음)",
-      "withheldCheckedAt": "2026-09-22T20:55:53.755199",
+      "withheldCheckedAt": "2026-09-22T21:24:19.446872",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -2829,7 +3007,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(1019.8630843019492)<=band_low(1019.8630843019492) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-22T20:55:53.796163",
+      "withheldCheckedAt": "2026-09-22T21:24:19.488986",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -2851,7 +3029,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(1212.937106867378)<=band_low(1212.937106867378) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-22T20:55:53.875858",
+      "withheldCheckedAt": "2026-09-22T21:24:19.572036",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
