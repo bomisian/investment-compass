@@ -2966,7 +2966,7 @@ function renderTable(){
     const chCls = r.drawdownPct>=0?'pos':'neg';
     const capTxt = r.marketCap!=null ? '$'+fmtUsd(r.marketCap) : '-';
     return `<tr id="tblrow-${r.ticker}" onclick="openDetail('${r.ticker}')">
-      <td class="name">${r.ticker}${hasFreshNews(r.ticker) ? '<span class="new-badge" title="Claude가 최근 조사해서 추가한 뉴스 해석 또는 실적 해석이 있어요 - 06 뉴스 탭 또는 05 전망 탭에 NEW 표시를 확인하세요">NEW</span>' : ''}${roleStarsBadge(r.ticker)}${roleTagsInline(r.ticker)}${renderReturnConditionListSummary(r)}</td>
+      <td class="name">${r.ticker}${hasFreshNews(r.ticker) ? '<span class="new-badge" title="Claude가 최근 조사해서 추가한 뉴스 해석 또는 실적 해석이 있어요 - 06 뉴스 탭 또는 05 전망 탭에 NEW 표시를 확인하세요">NEW</span>' : ''}${roleStarsBadge(r.ticker)}${roleTagsInline(r.ticker)}</td>
       <td class="theme">${r.theme}</td>
       <td><span class="badge b-${r.verdict.cls}">${r.verdict.label} ${r.score}</span>${verdictCautionBadge(r)}<br>${decisionStatusBadgeHtml(r)}</td>
       <td>${valuationBadgeHtml(r)}</td>
@@ -3606,6 +3606,10 @@ function renderValuationVerdictNote(vv){
 function decisionSummaryHtml(r){
   const d = r.decision || computeDecisionViewModel(r);
   const meta = DECISION_STATUS_META[d.status] || DECISION_STATUS_META.unavailable;
+  // [2026-09-22 수정 -- 화면 가독성 수정요청 2번] 이 상세 첫 배너가 raw meta.label을 그대로
+  // 써서(review -> 초록 '매수 검토') 목록 배지·한눈에 결론 헤드라인과 다른 문구를 보여주던
+  // 결함을 고친다. 세 위치가 전부 같은 composedDecisionLabel을 쓰게 해 배너 충돌을 없앤다.
+  const {label: badgeLabel} = composedDecisionLabel(r, d, meta.label);
   const checksHtml = (d.nextChecks && d.nextChecks.length)
     ? `<div class="sub" style="margin-top:6px;">다음에 확인하면 재평가돼요: ${d.nextChecks.map(c=>esc(c)).join(' · ')}</div>`
     : '';
@@ -3619,7 +3623,7 @@ function decisionSummaryHtml(r){
   // 특히 중요하다 - 기술적 신호 충족이 가치평가 확인을 뜻하지 않는다는 걸 같은 박스 안에서 보여줌.
   const valuationNoteHtml = renderValuationVerdictNote(d.valuationVerdict);
   return `<div class="comment-box" style="background:${meta.bg};color:${meta.color};border:1px solid ${meta.color}33;margin-bottom:12px;">
-    <div style="font-weight:700;margin-bottom:4px;"><span class="badge" style="background:${meta.color};color:#fff;">${meta.label}</span> <span style="font-weight:400;font-size:11px;color:var(--sub);">(가격·실적·현금흐름·데이터 상태를 종합한 판정 · policy v${d.policyVersion})</span></div>
+    <div style="font-weight:700;margin-bottom:4px;"><span class="badge" style="background:${meta.color};color:#fff;">${esc(badgeLabel)}</span> <span style="font-weight:400;font-size:11px;color:var(--sub);">(가격·실적·현금흐름·데이터 상태를 종합한 판정 · policy v${d.policyVersion})</span></div>
     <div style="font-size:13.5px;line-height:1.7;">${esc(d.headlineReason)}</div>
     ${checksHtml}
     ${expNoteHtml}
@@ -3669,13 +3673,22 @@ function tabJudgement(r){
     bannerText += ` <b style="color:var(--warn,#b8543f);">⚠ 이 점수엔 아래 위험 신호(EPS하향·실적훼손·뉴스우려 등)가 반영 안 됐어요 - 과거 통계는 그 위험을 몰랐던 케이스들 평균이에요.</b>`;
   }
 
+  // [2026-09-22 수정 -- 화면 가독성 수정요청 3번] DCF·장기 시나리오·동종비교 카드
+  // (renderLongTermPrimaryCard/renderAmatFrontCard/renderVstFrontCard/
+  // buildValuationReasonablenessHtml)를 상단에 펼쳐두지 않고 기본 접힘 <details> 안으로
+  // 옮긴다. 계산·숫자는 전혀 바꾸지 않는다 -- $357.95·$569.36 등 기존 시나리오 값은 그대로
+  // 보존되고, 검증된 신규 적정가로 승격되지도 않는다(요청 원문: "$357.95를 새 확정 적정가로
+  // 바꾸라는 요청은 아닙니다"). 상단에는 decisionSummaryHtml(종합 판정 배너)과
+  // buildAtAGlanceHtml(한눈에 결론 헤드라인)만 남긴다 -- 이제 둘 다 composedDecisionLabel을
+  // 공유해 서로 다른 결론으로 보이지 않는다.
+  const legacyScenarioCardsHtml = [renderLongTermPrimaryCard(r), renderAmatFrontCard(r), renderVstFrontCard(r), buildValuationReasonablenessHtml(r)].filter(Boolean).join('');
+  const legacyScenarioFoldHtml = legacyScenarioCardsHtml
+    ? `<details style="margin-bottom:12px;"><summary style="cursor:pointer;color:var(--sub);font-size:12.5px;padding:6px 0;">기존 시나리오 보기 (DCF · 장기투자 판단 기준 · 동종비교 · Forward PER)</summary><div style="margin-top:8px;">${legacyScenarioCardsHtml}</div></details>`
+    : '';
   return `
     ${decisionSummaryHtml(r)}
-    ${renderLongTermPrimaryCard(r)}
-    ${renderAmatFrontCard(r)}
-    ${renderVstFrontCard(r)}
     ${buildAtAGlanceHtml(r)}
-    ${buildValuationReasonablenessHtml(r)}
+    ${legacyScenarioFoldHtml}
     ${earningsBadge(r.ticker)}
     ${renderDataAsOf(r)}
     ${renderDataHealth(r)}
@@ -6294,6 +6307,23 @@ const DECISION_STATUS_META = {
   wait:        {label:'조건 대기', color:'#8a6d00', bg:'#fff6db'},
   review:      {label:'매수 검토', color:'#0a6b45', bg:'#e6f4ec'},
 };
+// [2026-09-22 추가 -- 화면 가독성 수정요청 2번] status가 'review'(기술적 관심 경로)일 때 원래
+// meta.label('매수 검토')을 그대로 내보내면, 장기 수익조건이 미충족인 종목도 상세 첫 배너에
+// 초록 '매수 검토'로 보여 목록 배지·한눈에 결론 헤드라인과 다른 결론처럼 보였다(사용자 지적:
+// "상세 첫 배너는 여전히 예전 매수 검토 라벨을 사용"). decisionStatusBadgeHtml이 쓰던 조합
+// 로직을 공용 함수로 빼서, 목록 배지·상세 첫 배너·한눈에 결론 헤드라인이 항상 같은 라벨을
+// 내보내게 한다 -- 새 판정을 만들지 않고 이미 있는 status·longTermConditionLabelForTicker만
+// 조합한다.
+function composedDecisionLabel(r, d, metaLabel){
+  const ltLabel = (d.status === 'review') ? longTermConditionLabelForTicker(r) : null;
+  const ltShort = ltLabel === '수익조건 충족' ? '장기충족'
+    : ltLabel === '수익조건 미충족' ? '장기미충족'
+    : ltLabel ? '장기보류' : null;
+  return {
+    label: ltShort ? `${ltShort}·기술관심` : metaLabel,
+    ltLabel,
+  };
+}
 // ============ 공통 가치평가(기준가격) 결과 형식 (2026-09-20 신설, 같은 날 결함 수정) ============
 // [배경] Codex 5차 독립검토 지적 - "expectations 객체 존재 여부를 모든 종목의 준비 상태로 삼지
 // 말고, 적용 방법·기준일·대상기간·기준값(또는 범위)·자료상태·근거·미확인 사유를 공통 결과로
@@ -6674,14 +6704,10 @@ function computeDecisionViewModel(r){
 function decisionStatusBadgeHtml(r){
   const d = r.decision || computeDecisionViewModel(r);
   const meta = DECISION_STATUS_META[d.status] || DECISION_STATUS_META.unavailable;
-  // [2026-09-22 수정 -- item2: 목록·팝업도 01 탭 헤드라인과 같은 함수(longTermConditionLabelForTicker)
+  // [2026-09-22 수정 -- item2: 목록·팝업도 01 탭 헤드라인과 같은 공용 함수(composedDecisionLabel)
   // 를 공유한다] status가 review인데 장기 수익조건이 계산돼 있으면(현재 AMAT) 배지도 "매수 검토"만
   // 단독으로 보여주지 않고 장기 상태를 함께 보여준다 -- 목록만 보고 "매수 검토"로 오해하지 않게.
-  const ltLabel = (d.status === 'review') ? longTermConditionLabelForTicker(r) : null;
-  const ltShort = ltLabel === '수익조건 충족' ? '장기충족'
-    : ltLabel === '수익조건 미충족' ? '장기미충족'
-    : ltLabel ? '장기보류' : null;
-  const label = ltShort ? `${ltShort}·기술관심` : meta.label;
+  const {label, ltLabel} = composedDecisionLabel(r, d, meta.label);
   const title = ltLabel
     ? `${d.headlineReason} / 장기 수익조건: ${ltLabel}(단기 기술적 신호와는 다른 질문이에요)`
     : d.headlineReason;
