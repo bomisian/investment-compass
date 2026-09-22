@@ -9195,8 +9195,17 @@ function renderAnalystLog(ticker){
 // (n.analysis.analysisUpdatedAt)을 서로 다른 필드로 구분해서 표시한다. 세 가지 상태를 명확히
 // 나눈다: (a) 수집은 정상인데 최근 창 안에 새 기사가 없음(신규 기사 없음), (b) 수집 자체가 실패
 // (_collection_status!=='ok') (수집 실패), (c) 기사는 있는데 아직 개별 분석이 안 붙음(분석 대기).
+// [2026-09-22 수정 -- item3: "QQQ·SPY 전용 제한을 제거"] 예전엔 이 카드가 QQQ·SPY 두 종목의
+// 자동 수집·분석만 보여줬다 -- 그런데 news_cache.json(NEWS_DATA)은 이미 buy_signal_telegram.py의
+// update_news()가 watchlist 전체(QQQ·SPY 포함 관리종목 전부)를 대상으로 수집·분석해 놓은 자료다
+// (Python 쪽을 다시 확인함: update_news(watchlist, ...)가 watchlist 안의 모든 티커를 순회한다).
+// 즉 개별 관리종목(AMAT·LRCX 등)의 이미 분석된 뉴스가 이 화면에서만 조용히 걸러지고 있었다 --
+// 새 수집·분석 로직을 만들지 않고, 이미 있는 자료를 그대로 다 보여주도록 필터만 넓힌다(사용자
+// 명시 요구: "QQQ·SPY 관련 기사만 고르는 제한을 제거"). 관리종목 목록은 하드코딩하지 않고
+// results(현재 스캔된 관리종목)에서 그대로 읽는다 -- 종목이 늘어나면 이 카드도 자동으로 따라간다.
 function renderMarketNewsAuto(){
-  const AUTO_TICKERS = ['QQQ','SPY'];
+  const managedTickers = (typeof results !== 'undefined' && results) ? Object.keys(results) : [];
+  const AUTO_TICKERS = Array.from(new Set([...managedTickers, 'QQQ', 'SPY']));
   const RECENT_DAYS = 2; // 기존 renderNewsLog(MARKET,...,2)와 같은 최근성 기준을 유지
   const nowSec = Date.now()/1000;
   const cutoffSec = nowSec - RECENT_DAYS*86400;
@@ -9241,7 +9250,16 @@ function renderMarketNewsAuto(){
       }
     });
   });
-  recentArticles.sort((a,b) => (b.n.datetime||0) - (a.n.datetime||0));
+  // [2026-09-22 수정 -- item4 일부: "중요도·최신성으로 상위 노출"] 새 순위 알고리즘(파급력·정책
+  // 확실성·지속성 점수화 등)을 만들지 않는다 -- 이미 계산돼 저장된 a.importance('high' 등, 개별
+  // 기사 분석 시 뽑힌 값)만 1차 기준으로 쓰고, 같은 중요도 안에서는 기존처럼 최신순이다. 종목
+  // 개수가 늘어난 지금(managedTickers 전체) 이 정렬이 없으면 중요 기사가 뒤로 밀릴 수 있다.
+  recentArticles.sort((a,b) => {
+    const ai = (a.n.analysis && a.n.analysis.importance === 'high') ? 1 : 0;
+    const bi = (b.n.analysis && b.n.analysis.importance === 'high') ? 1 : 0;
+    if(ai !== bi) return bi - ai;
+    return (b.n.datetime||0) - (a.n.datetime||0);
+  });
 
   // (4) 기사 본문 추출 과정에서 사이트 부속 문구(접근성 안내·회사 소개·구독 유도·쿠키 안내 등)가
   // "핵심 사실"처럼 섞여 나온 실제 사례가 확인됐다(Motley Fool "Accessibility Help / About Us" 등).
@@ -9290,6 +9308,11 @@ function renderMarketNewsAuto(){
     const headline = esc(n.headlineKo || n.headline || '');
     const importanceTag = a.importance==='high' ? `<em class="news-importance-pill">중요</em>` : '';
     const openAttr = a.importance==='high' ? ' open' : '';
+    // [2026-09-22 신규 -- item4: "오래된 중요 사건은 '오늘 뉴스'가 아니라 '영향 지속 이슈'로"]
+    // 새 지속성 판정을 만들지 않는다 -- 기사일(n.datetime)이 오늘(로컬 UTC 기준)이 아니면서도
+    // 아직 RECENT_DAYS 창 안에 있다는(=계속 최근 목록에 남아있다는) 이미 있는 사실만으로 표시한다.
+    const isToday = typeof n.datetime === 'number' && (nowSec - n.datetime) < 86400;
+    const ongoingTag = (!isToday && a.importance==='high') ? `<em class="news-importance-pill" style="background:#fff3cd;color:#8a6d00;">영향 지속 이슈</em>` : '';
     const interp = (a.interpretation && !isBoilerplate(a.interpretation)) ? a.interpretation : null;
     return `
       <article class="news-card tone-${tone}">
@@ -9299,7 +9322,7 @@ function renderMarketNewsAuto(){
               <span>[${esc(t)}] 기사일 ${esc(fmtDate(n.datetime))} · 분석 작성 ${esc(fmtTs(a.analysisUpdatedAt))}</span>
               <span class="news-auto-tag news-auto-${tone}">${TONE_LABEL[tone]||tone}</span>
             </span>
-            <h3 style="display:inline;margin-left:6px;">${headline}${importanceTag}</h3>
+            <h3 style="display:inline;margin-left:6px;">${headline}${importanceTag}${ongoingTag}</h3>
           </summary>
           <div class="news-card-columns" style="margin-top:10px;">
             <div><b>핵심내용 분석</b>${li(a.facts)}</div>
@@ -9340,8 +9363,35 @@ function renderMarketNewsAuto(){
   } else if(failedTickers.length && !freshTickers.length){
     bodyHtml = `<div class="sub" style="color:var(--warn);">⚠️ 수집 실패: 오늘 자동 뉴스 수집이 실패해서 최신 기사를 확인할 수 없어요(${failedTickers.map(x=>esc(x.t)).join(', ')}). 재시도는 다음 자동 실행 때 이뤄져요.</div>`;
   } else {
-    bodyHtml = `<div class="sub">ℹ️ 신규 기사 없음: 최근 ${RECENT_DAYS}일 안에는 QQQ·SPY 관련 새 기사가 수집되지 않았어요(수집 자체는 정상이고 최신이에요 -- 실제로 조용한 기간일 수 있어요).</div>`;
+    bodyHtml = `<div class="sub">ℹ️ 신규 기사 없음: 최근 ${RECENT_DAYS}일 안에는 관리종목·시장 관련 새 기사가 수집되지 않았어요(수집 자체는 정상이고 최신이에요 -- 실제로 조용한 기간일 수 있어요).</div>`;
   }
+
+  // [2026-09-22 신규 -- item3: "관세·수출규제·금리·물가·정책·지정학처럼 특정 관리종목에 매여
+  // 있지 않은 시장 전체 사건도 포함"] 위 AUTO_TICKERS 확장은 여전히 "종목에 달린 기사"만 다룬다
+  // -- 연준 금리결정처럼 어느 개별 종목에도 안 달린 사건은 위 목록에 절대 안 뜬다. 새 수집·분류
+  // 로직을 만들지 않고, 이미 update_market()이 매 주기 Finnhub 일반 뉴스로 수집해 market_data.js에
+  // 저장해 둔 MARKET_DATA.news(비종목 시장 헤드라인)를 그대로 가져와 보여준다. 이 자료는 이
+  // 프로젝트가 개별 기사 단위로 검토·발언·확정시행을 분류하거나 사실 검증을 한 적이 없으므로,
+  // "확정 사실"처럼 해석을 붙이지 않고 헤드라인·출처·기사일만 그대로 노출한다(사용자 명시 경고:
+  // "원문 확인 없이 문장을 그대로 확정 사실로 넣지는 마세요").
+  const generalNews = (typeof MARKET_DATA !== 'undefined' && MARKET_DATA && Array.isArray(MARKET_DATA.news)) ? MARKET_DATA.news : [];
+  const shownUrls = new Set(recentArticles.map(x => x.n.url).filter(Boolean));
+  const recentGeneral = generalNews.filter(n =>
+    typeof n.datetime === 'number' && n.datetime >= cutoffSec && n.datetime <= nowSec && !shownUrls.has(n.url)
+  ).sort((a,b) => (b.datetime||0) - (a.datetime||0)).slice(0, 8);
+  const generalNewsHtml = recentGeneral.length ? `
+    <details style="margin-top:10px;" open>
+      <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">종목에 안 달린 시장 전체 헤드라인(관세·금리·정책·지정학 등, 최근 ${RECENT_DAYS}일, 개별 분석 없음 -- 원문 그대로)</summary>
+      <div class="sub" style="margin:4px 0 6px;">이 목록은 개별 기사 검토·해석을 거치지 않은 원문 헤드라인이에요 -- 사실 확인·중요도 판단은 아직 안 돼 있어요. 검토 단계인지 확정 시행인지도 이 목록만으로는 구분되지 않으니, 실제 투자 판단 근거로 쓰기 전에 원문을 직접 확인하세요.</div>
+      <ul style="margin:0 0 0 16px;padding:0;">
+        ${recentGeneral.map(n => {
+          const safeUrl = /^https?:\/\//i.test(n.url||'') ? n.url : null;
+          const headline = esc(n.headlineKo || n.headline || '');
+          const inner = safeUrl ? `<a href="${esc(safeUrl)}" target="_blank" rel="noopener noreferrer nofollow">${headline}</a>` : headline;
+          return `<li style="margin:2px 0;">${inner} <span class="sub" style="font-size:10.5px;">(${esc(n.source||'출처 미상')} · ${esc(fmtDate(n.datetime))})</span></li>`;
+        }).join('')}
+      </ul>
+    </details>` : '';
 
   // 기존 수동 로그(BUSINESS_NOTES.MARKET.newsLog)는 지우지 않고 날짜가 있는 과거 분석으로
   // 접어서 보존한다 -- "오늘"이라는 제목으로 재노출하지 않고, 작성일을 그대로 드러낸다.
@@ -9351,9 +9401,10 @@ function renderMarketNewsAuto(){
 
   return `
     <div class="chart-label" style="margin-top:0;">오늘의 시장 헤드라인 해석 ${hintIcon('newsLog')}</div>
-    <div class="sub" style="margin-bottom:6px;">QQQ·SPY(시장 전체를 대표하는 지수 추종 ETF)의 자동 수집·분석 결과예요. 개별 종목 뉴스 하나를 시장 전체의 원인으로 확대하지 않기 위해 이 두 종목만 봐요. 이 프로젝트가 별도로 사실 검증한 건 아니고, buy_signal_telegram.py 실행 시 자동으로 만들어진 분석을 그대로 옮겨 보여줘요.</div>
+    <div class="sub" style="margin-bottom:6px;">관리종목 전체(${esc(String(AUTO_TICKERS.length))}개, QQQ·SPY 포함)의 자동 수집·분석 결과예요(2026-09-22부터 QQQ·SPY로만 제한하던 걸 관리종목 전체로 넓혔어요). 개별 종목 뉴스라도 그 종목 자체에 중요하면 여기 나오고, 시장 전체 원인이라고 자동으로 확대하지 않아요. 이 프로젝트가 별도로 사실 검증한 건 아니고, buy_signal_telegram.py 실행 시 자동으로 만들어진 분석을 그대로 옮겨 보여줘요.</div>
     ${collectionStatusLine}
     ${bodyHtml}
+    ${generalNewsHtml}
     ${manualNote}`;
 }
 function renderNewsLog(ticker, label, recentDays){
