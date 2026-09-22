@@ -785,7 +785,13 @@ function renderHoldings(){
 // 데이터 기준일(renderDataAsOf)은 캐시가 언제 갱신됐는지만 보여주고, "판단 로직이나 설명 문구
 // 자체가 언제 바뀌었는지"는 안 보였음(사용자 지적: "문구가 바뀌었으면 바뀐 일자도 반영되면 좋겠다").
 // 배포 검증할 때도 git log 대신 이 값으로 "최신 코드가 실제로 떴는지" 빠르게 확인 가능.
-const DASHBOARD_VERSION = '2026-09-06';  // 2026-09-08 수정: 9/1~9/6 로직 변경이 다수 있었는데 날짜가 갱신 안 됐음
+// [2026-09-22 수정 -- item2: "2026-09-06 이후 계산·문구가 안 바뀌었다"는 버전 설명이 실제와
+// 모순됨(사용자 명시 지적)] 이 값은 자동 감지가 아니라 의미 있는 판단 로직·설명 문구 변경이 있을
+// 때마다 그 변경을 하는 사람이 직접 이 줄의 날짜를 그날로 갱신해야 한다 -- 코드가 스스로 "오늘
+// 바뀌었다"를 알 방법이 없어서다(빌드 타임스탬프를 쓰면 문구가 안 바뀐 배포도 매번 날짜가 바뀌어
+// 오히려 신뢰를 떨어뜨림). 오늘(2026-09-22) 첫 화면 대표카드 교체·DCF 역할 재배치·추천안 설명
+// 정정 등 판단 로직·문구 변경이 있었으므로 갱신한다.
+const DASHBOARD_VERSION = '2026-09-22';
 
 let results = {};       // ticker -> 계산 결과
 let marketEnv = null;   // {spyDrawdownPct, vix, fgi, fgiSource}
@@ -3174,12 +3180,26 @@ function buildAtAGlanceHtml(r){
   const rs = computeRelStrength(r);
   const isWeakSector = isRelWeak(rs);
 
+  // [2026-09-22 수정 -- item2: 상충 문구 정리] status가 review(기술적 관심)여도, 이 종목에 장기
+  // 수익조건이 계산돼 있으면(현재 AMAT) "매수 검토 가능해 보여요"라는 단정적 헤드라인 대신 두
+  // 사실을 분리해서 보여준다(사용자 예시 형식: "장기 수익조건 미충족 · 기술적 관심 있음"). 단기
+  // 신호 자체(status·verdictSuggestsBuy 판정 로직)는 전혀 바꾸지 않는다 -- 이 헤드라인 문구만
+  // 바꾼다.
+  const ltLabel = (d.status === 'review') ? longTermConditionLabelForTicker(r) : null;
+  const reviewTone = ltLabel
+    ? (ltLabel === '수익조건 충족'
+        ? {bg:'var(--up-bg)', border:'#bfe3cf', color:'#0a6b45', head:`🧭 장기 ${ltLabel} · 기술적 관심도 있음`}
+        : {bg:'#fff6db', border:'#ecd98a', color:'#8a6d00', head:`🧭 장기 ${ltLabel} · 기술적 관심 있음`})
+    : {bg:'var(--up-bg)', border:'#bfe3cf', color:'#0a6b45', head:'✅ 매수 검토 가능해 보여요'};
   const TONE = {
-    review:      {bg:'var(--up-bg)', border:'#bfe3cf', color:'#0a6b45', head:'✅ 매수 검토 가능해 보여요'},
+    review:      reviewTone,
     wait:        {bg:'#fff6db', border:'#ecd98a', color:'#8a6d00', head:'🕒 아직 조건 대기예요'},
     risk_first:  {bg:'#fdecea', border:'#f3c3bf', color:'#b3261e', head:'⚠️ 위험 우선 확인이 필요해요'},
     unavailable: {bg:'var(--panel-2)', border:'var(--line)', color:'#626b76', head:'⏸ 평가를 보류했어요'},
   }[d.status] || {bg:'var(--panel-2)', border:'var(--line)', color:'var(--sub)', head:'-'};
+  const ltHeadlineNote = ltLabel
+    ? `<div class="sub" style="margin:2px 0 6px;">단기 기술적 관심(가격 눌림목 신호)과 장기 보유수익 조건은 서로 다른 질문에 대한 답이에요 -- 하나로 합쳐서 "매수"로 읽지 마세요.</div>`
+    : '';
 
   const lines = [];
   lines.push(`<b>${esc(d.headlineReason)}</b>`);
@@ -3222,6 +3242,7 @@ function buildAtAGlanceHtml(r){
 
   return `<div class="glance-box" style="background:${TONE.bg};border-color:${TONE.border};">
     <div class="glance-head" style="color:${TONE.color};">${TONE.head}</div>
+    ${ltHeadlineNote}
     <div class="glance-line">${lines.join(' · ')}</div>
     ${warnHtml}
     ${mismatchNote}
@@ -3571,6 +3592,7 @@ function tabJudgement(r){
 
   return `
     ${decisionSummaryHtml(r)}
+    ${renderLongTermPrimaryCard(r)}
     ${renderAmatFrontCard(r)}
     ${renderVstFrontCard(r)}
     ${buildAtAGlanceHtml(r)}
@@ -5103,16 +5125,27 @@ function renderAmatFrontCard(r){
     ? `${fmt(d.price)} (${esc(d.priceAsOf||'-')}${d.priceIsLive?'':' · 저장값'}) · 대표가격 대비 ${d.diffVsBasePct!=null?pctStr(d.diffVsBasePct):esc(d.diffVsBaseSentence||'비교 불가')}`
     : `<span style="color:var(--warn);">${esc(d.invalidPriceNote||'유효하지 않은 값')}</span>`;
 
+  // [2026-09-22 수정 -- item1: DCF 역할 재배치] 이 카드는 더 이상 첫 화면의 대표 판단이 아니다
+  // (위 renderLongTermPrimaryCard가 그 역할을 맡는다). DCF $191.30을 지우거나 시장가에 맞춰
+  // 올리지 않고, "현금흐름 가정에 따른 사업가치 참고"로 역할만 재라벨한다(사용자 명시 요구).
+  // 계산 로직(d.trim.priceOk 등)은 전혀 건드리지 않는다 -- 문구만 "전체 비중 축소 최종 결론"으로
+  // 읽히지 않도록 명시적으로 구분한다(사용자 명시 요구: "DCF 기준 수익조건을 넘었다는 사실만으로
+  // 전체 종목의 최종 비중축소 판단을 대신하지 않도록 역할을 구분").
+  const trimScopeNote = d.trim.priceOk
+    ? '<div class="sub" style="margin:2px 0 8px;font-size:10.5px;color:var(--sub);">ℹ️ 이 초과 사실은 DCF(현금흐름 가정) 기준 참고일 뿐, 그 자체로 전체 보유 비중을 줄이라는 최종 결론이 아니에요 -- 보유 근거 변화·포트폴리오 비중 등 이 계산이 모르는 맥락이 더 필요해요. 위 "장기투자 판단 기준" 카드의 장기 수익조건과 함께 참고하세요.</div>'
+    : '';
+
   return `
     <div class="comment-box" id="amat-front-${esc(r.ticker)}" style="background:var(--panel-2);margin-bottom:12px;border:1px solid var(--border,#333);">
-      <b>🎯 AMAT 대표가격(DCF 기준) 요약</b>
-      <span style="display:inline-block;margin-left:6px;padding:1px 6px;border-radius:8px;background:var(--panel);color:var(--sub);font-size:10px;font-weight:600;vertical-align:middle;">조건부 사업가치 추정</span>
+      <b>📎 AMAT 현금흐름 가정에 따른 사업가치 참고(DCF)</b>
+      <span style="display:inline-block;margin-left:6px;padding:1px 6px;border-radius:8px;background:var(--panel);color:var(--sub);font-size:10px;font-weight:600;vertical-align:middle;">조건부 사업가치 추정 · 상세참고</span>
       <div class="fund-row" style="margin-top:6px;"><span>대표가격 · 범위</span>
         <span class="v"><b>${fmt(d.base)}</b> (보수 ${fmt(d.low)} ~ 낙관 ${fmt(d.high)})</span></div>
       <div class="fund-row"><span>현재가 · 관측일</span>
         <span class="v">${priceRow}</span></div>
       <div class="sub" style="margin:2px 0 8px;color:${nowColor};"><b>지금 판단: ${nowLabel}</b><br>${esc(nowDetail)}</div>
       ${confusionGuard}
+      ${trimScopeNote}
       <div class="sub" style="margin:2px 0 8px;"><b>핵심 이유</b>: ${gapExplainShort}</div>
       <div class="sub" style="margin:2px 0 4px;"><b>판단이 바뀌는 조건</b> <span style="font-weight:400;">(대표가격 자체가 바뀔 수 있는 조건)</span>
         <ul style="margin:4px 0 0 16px;padding:0;">${condChangeShort}</ul>
@@ -5339,36 +5372,46 @@ function computeLiveComparisonForLongTermScenario(lt, ticker){
   };
   if(lt.annualized_dividend_per_share == null || lt.target_price == null || !lt.target_date) return stored;
   const live = (typeof LIVE_COMPARISON_BY_TICKER !== 'undefined') ? LIVE_COMPARISON_BY_TICKER[ticker] : null;
-  if(!live || live.price == null || !live.asOf) return stored;
 
-  // [computeLiveComparisonForScenario와 같은 원칙 -- 새 검증을 만들지 않음] 값·날짜 자체의 유효성을
-  // 먼저 본다: 누락/오류/미래 날짜면 저장값으로 조용히 대체하지 않고, 무효 표시를 그대로 들고 간다
-  // (그래야 아래 evaluatePriceFreshnessJS의 기존 관측일 검증이 그대로 걸린다).
-  const priceValid = Number.isFinite(live.price) && live.price > 0;
-  const dateStr = (typeof live.asOf === 'string') ? live.asOf.slice(0, 10) : null;
-  const dateValid = !!dateStr && /^\d{4}-\d{2}-\d{2}$/.test(dateStr)
-                     && !isNaN(new Date(dateStr + 'T00:00:00Z').getTime());
-  let notFuture = false;
-  if(dateValid){
-    const obsTs = new Date(dateStr + 'T00:00:00Z').getTime();
-    const now = new Date();
-    const todayUTC = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
-    notFuture = obsTs <= todayUTC;
+  // [2026-09-22 재수정 -- Codex 반례: LIVE_COMPARISON_BY_TICKER.LRCX={price:100, asOf:null}을
+  // 넣으면 저장값(302.28/2026-09-21)으로 조용히 돌아가고 invalidLiveInput=false가 됐다.] 원인은
+  // 순서였다 -- "live가 아예 없거나 price/asOf 중 하나라도 없으면 저장값"이라는 검사를 부분입력
+  // 유효성 검사보다 먼저 둬서, 날짜만 빠진 경우가 검증을 거치지 않고 곧장 stored로 반환됐다.
+  // computeLiveComparisonForScenario(AMAT, 4080번째 줄 부근)가 이미 쓰는 순서 -- "가격 또는
+  // 날짜 중 하나라도 있으면(=조회 시도는 됐다는 뜻) 먼저 유효성부터 검사하고, 그 다음에야
+  // '아예 시도 자체가 없었다'는 경우를 stored로 처리 -- 를 그대로 맞춰서 고친다.
+  let dateStr = null;
+  if(live && (live.price != null || live.asOf != null)){
+    const priceValid = Number.isFinite(live.price) && live.price > 0;
+    dateStr = (typeof live.asOf === 'string') ? live.asOf.slice(0, 10) : null;
+    const dateValid = !!dateStr && /^\d{4}-\d{2}-\d{2}$/.test(dateStr)
+                       && !isNaN(new Date(dateStr + 'T00:00:00Z').getTime());
+    let notFuture = false;
+    if(dateValid){
+      const obsTs = new Date(dateStr + 'T00:00:00Z').getTime();
+      const now = new Date();
+      const todayUTC = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+      notFuture = obsTs <= todayUTC;
+    }
+    if(!priceValid || !dateValid || !notFuture){
+      const badParts = [];
+      if(!priceValid) badParts.push('가격 누락/오류');
+      if(!dateValid) badParts.push('관측일 누락/형식오류');
+      if(dateValid && !notFuture) badParts.push('관측일이 오늘보다 미래');
+      return {
+        comparisonPrice: priceValid ? live.price : null,
+        comparisonDate: dateValid ? dateStr : null,
+        holdingPeriodYears: null, cashflowsByYear: null,
+        isLive: true, invalidLiveInput: true, invalidLiveReason: badParts.join('·'),
+        source: `실시간 입력값이 유효하지 않음(${badParts.join('·')}) -- 저장된 과거값으로 조용히 대체하지 `
+                + '않고 판단 보류로 이어짐',
+      };
+    }
   }
-  if(!priceValid || !dateValid || !notFuture){
-    const badParts = [];
-    if(!priceValid) badParts.push('가격 누락/오류');
-    if(!dateValid) badParts.push('관측일 누락/형식오류');
-    if(dateValid && !notFuture) badParts.push('관측일이 오늘보다 미래');
-    return {
-      comparisonPrice: priceValid ? live.price : null,
-      comparisonDate: dateValid ? dateStr : null,
-      holdingPeriodYears: null, cashflowsByYear: null,
-      isLive: true, invalidLiveInput: true, invalidLiveReason: badParts.join('·'),
-      source: `실시간 입력값이 유효하지 않음(${badParts.join('·')}) -- 저장된 과거값으로 조용히 대체하지 `
-              + '않고 판단 보류로 이어짐',
-    };
-  }
+  // 여기 도달했다는 것은 live 자체가 없거나(조회 시도 없음), 위 블록을 완전히 유효하게
+  // 통과했다는(가격·날짜 모두 있고 유효함) 뜻이다 -- 부분입력은 위에서 이미 걸러졌으므로
+  // 이 줄이 부분입력을 조용히 stored로 되돌리는 일은 이제 없다.
+  if(!live || live.price == null || !live.asOf) return stored;
 
   const hp = computeHoldingPeriodYearsJS(dateStr, lt.target_date);
   if(!hp){
@@ -5391,20 +5434,13 @@ function computeLiveComparisonForLongTermScenario(lt, ticker){
     source: `실시간 가격(${dateStr} 관측)`,
   };
 }
-function renderLongTermScenarioCard(lt, r, dcfPx){
-  if(!lt) return '';
-  const triIcon = ok => ok==null ? '❔' : (ok ? '✅' : '❌');
-  if(lt.blocked){
-    return `<div class="comment-box" style="background:var(--panel-2);margin-bottom:10px;">
-      <b>🧭 장기투자 시나리오 (검토용 -- 대표가격 아님)</b>
-      <div class="sub" style="margin:6px 0 0;color:var(--warn);">⚠️ 자료 미확인 -- ${esc(lt.block_reason||'계산에 필요한 자료를 확보하지 못했어요.')}</div>
-      <div class="sub" style="margin:4px 0 0;font-size:10.5px;">이건 "정상 자료로 계산했지만 수익조건에 못 미침(수익조건 미충족)"과는 다른 상태예요 -- 계산 자체를 아직 할 수 없다는 뜻이에요.</div>
-    </div>`;
-  }
-  // ---- 최근 실적 방향(분기) -- 새 판정을 만들지 않고, 이미 검증된 같은 화면의
-  // computeFinancialDirection(최신 분기 매출·영업이익 동반 둔화 여부) 결과를 그대로 재사용한다.
-  // [2026-09-21 수정 -- 사용자 지적 반영] 이 신호는 "최근 분기 방향"일 뿐 "향후 4년 장기 성장
-  // 전제가 확인됐다"는 뜻이 아니다. 아래에서 두 상태를 서로 다른 행으로 분리해서 보여준다.
+// [2026-09-22 신규 -- item1 보완: "AMAT 첫 화면의 대표 기준을 실제로 교체"] renderLongTermScenarioCard
+// 안에만 있던 eff*(실시간 재계산) 로직을 공유 함수로 뽑아낸다 -- 새 판정식을 만드는 게 아니라,
+// 기존에 검증된 이 계산을 새 첫 화면 카드(renderAmatLongTermPrimaryCard)와 상세 카드가 "같은 값"을
+// 쓰도록 한 곳에서만 계산하기 위해서다. 요구수익률 변경이 상단·상세·목록에서 서로 다르게 보이는
+// 결함(사용자 명시 경고)을 원천적으로 막는 방법은 계산을 한 번만 하고 공유하는 것뿐이다.
+function computeLongTermPrimarySummary(lt, r){
+  if(!lt || lt.blocked) return null;
   const fin = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA[r.ticker] : null;
   const fd = fin ? computeFinancialDirection(r, fin) : null;
   const quarterUnconfirmed = !!fd && (fd.latestQuarterRevenueMissing || fd.latestQuarterOpIncomeMissing);
@@ -5414,10 +5450,6 @@ function renderLongTermScenarioCard(lt, r, dcfPx){
     : quarterUnconfirmed ? `최신 분기 매출·영업이익이 아직 미확인(${fd.verdict})`
     : `최신 분기 기준: ${fd.verdict}`;
 
-  // [2026-09-22 item2 보완] 저장된 lt.comparison_price/조건부수익률/매입가상한을 그대로 쓰지 않고,
-  // 실시간 가격이 있으면(computeLiveComparisonForLongTermScenario) 같은 계산 규칙으로 다시 만든
-  // eff* 값을 우선 쓴다. target_price(사업 전망 기반)는 그 무엇도 건드리지 않는다 -- 아래 어디에도
-  // target_price를 다시 계산하는 코드가 없다(가격과 무관하다는 불변식을 그대로 지킨다).
   const liveLt = computeLiveComparisonForLongTermScenario(lt, r.ticker);
   const usingLive = !!(liveLt && liveLt.isLive);
   let effComparisonPrice = usingLive ? liveLt.comparisonPrice : lt.comparison_price;
@@ -5467,8 +5499,42 @@ function renderLongTermScenarioCard(lt, r, dcfPx){
   const defCeilingKey = `${(lt.default_required_return*100).toFixed(0)}%`;
   const stateColor = effStateLabel === '수익조건 충족' ? 'var(--up)'
     : (effStateLabel === '수익조건 미충족' || effStateLabel === '비교가격 신뢰 불가') ? 'var(--warn)' : 'var(--sub)';
-  const condRet = effCondRet;
   const defCeiling = effCeilings[defCeilingKey] != null ? effCeilings[defCeilingKey] : lt.default_ceiling_price;
+  return {
+    businessOk, businessLabel, liveLt, usingLive,
+    effComparisonPrice, effComparisonDate, effHoldingPeriodYears, effCondRet,
+    effCeilings, effStateLabel, effLiveNote, defCeilingKey, stateColor, defCeiling,
+  };
+}
+// [2026-09-22 신규 -- item2: "매수 검토 가능"과 "장기 수익조건 미충족"이 서로 독립적인 최종
+// 결론처럼 보이지 않도록] 새 판정을 만들지 않는다 -- 이미 계산된 장기투자 시나리오
+// (computeLongTermPrimarySummary)의 state_label만 그대로 가져온다. 01 탭 헤드라인
+// (buildAtAGlanceHtml)과 목록·팝업 배지(decisionStatusBadgeHtml)가 이 함수 하나만 공유해서
+// 문구가 서로 갈라지지 않게 한다(사용자 명시 요구: "목록/상세가 같은 상태 객체를 읽어야 함").
+// 장기투자 시나리오 계산이 없는 종목(현재는 AMAT만 해당)은 null을 돌려줘서 호출부가 기존
+// 문구로 그대로 폴백하게 한다(지어내지 않음).
+function longTermConditionLabelForTicker(r){
+  const iv = (typeof INDEPENDENT_VALUATION_DATA !== 'undefined') ? INDEPENDENT_VALUATION_DATA[r.ticker] : null;
+  const lt = iv && iv.longTermScenario;
+  if(!lt || lt.blocked) return null;
+  const summary = computeLongTermPrimarySummary(lt, r);
+  return (summary && summary.effStateLabel) ? summary.effStateLabel : null;
+}
+function renderLongTermScenarioCard(lt, r, dcfPx){
+  if(!lt) return '';
+  const triIcon = ok => ok==null ? '❔' : (ok ? '✅' : '❌');
+  if(lt.blocked){
+    return `<div class="comment-box" style="background:var(--panel-2);margin-bottom:10px;">
+      <b>🧭 장기투자 시나리오 (검토용 -- 대표가격 아님)</b>
+      <div class="sub" style="margin:6px 0 0;color:var(--warn);">⚠️ 자료 미확인 -- ${esc(lt.block_reason||'계산에 필요한 자료를 확보하지 못했어요.')}</div>
+      <div class="sub" style="margin:4px 0 0;font-size:10.5px;">이건 "정상 자료로 계산했지만 수익조건에 못 미침(수익조건 미충족)"과는 다른 상태예요 -- 계산 자체를 아직 할 수 없다는 뜻이에요.</div>
+    </div>`;
+  }
+  const summary = computeLongTermPrimarySummary(lt, r);
+  const {businessOk, businessLabel, usingLive, effComparisonPrice, effComparisonDate,
+    effHoldingPeriodYears, effCondRet, effCeilings, effStateLabel, effLiveNote,
+    defCeilingKey, stateColor, defCeiling} = summary;
+  const condRet = effCondRet;
   const ceilings = effCeilings;
 
   const priceTableRows = (lt.price_return_table||[]).map(row => `
@@ -5505,7 +5571,7 @@ function renderLongTermScenarioCard(lt, r, dcfPx){
       <span class="v">목표주가 $${lt.target_price!=null?lt.target_price.toFixed(2):'-'}</span></div>
     <div class="fund-row"><span>최초 제안 (성장 ${(codex.growth_rate*100).toFixed(0)}% · 출구PER ${codex.exit_per}배, 비교용 유지)</span>
       <span class="v">목표주가 $${codex.target_price!=null?codex.target_price.toFixed(2):'-'}</span></div>
-    <div class="sub" style="margin:2px 0 8px;font-size:10.5px;">두 값을 평균내지 않아요. 추천 기준안은 AI 수퍼사이클 직전 3개년 실제 EPS 성장(연 약 5.2%)과 이 종목 자신의 트레일링 3년 평균 PER(21.20배)을 근거로 낮춘 값이고, 최초 제안은 초기 잠정 가정으로 계속 비교용으로만 남겨둬요.</div>
+    <div class="sub" style="margin:2px 0 8px;font-size:10.5px;">두 값을 평균내지 않아요. 추천 기준안(성장 ${(lt.primary_growth_rate*100).toFixed(2)}%·출구PER ${lt.primary_exit_per}배)의 구체적 근거(매출부문별 CAGR·비GAAP 트레일링 PER 실측 등)는 아래 "가정 근거·타당성 검토"에 그대로 있어요 -- 여기서 숫자를 다시 요약하지 않아요(요약이 실제 계산과 어긋나는 걸 막기 위해서예요). 최초 제안은 2026-09-19 초기 잠정 가정으로 계속 비교용으로만 남겨둬요.</div>
   ` : '';
 
   // [2026-09-22 정정 -- item5 보완] 예전엔 이 블록 전체가 eb.eps_history(AMAT 전용 키) 존재
@@ -5574,6 +5640,79 @@ function renderLongTermScenarioCard(lt, r, dcfPx){
         ${ebHtml}
       </details>
       <div class="sub" style="margin-top:8px;color:var(--warn);">⚠️ 이 카드는 매수·매도를 지시하지 않아요. 신규 주문·자동매매는 이 프로젝트에 추가하지 않아요.</div>
+    </div>`;
+}
+// [2026-09-22 신규 -- item1: "AMAT 첫 화면의 대표 기준을 실제로 교체"] 지금까지 첫 화면 맨 위
+// 카드는 renderAmatFrontCard(DCF 기준 대표가격)였다 -- 사용자는 "특정 가격에 맞춘 모델이 아니라
+// 실제 자료와 근거 있는 가정으로 장기 투자조건을 일관되게 판단하는 대시보드"를 원한다고 명시했고,
+// 첫 카드를 "AMAT 장기투자 판단 기준"으로 바꾸라고 요구했다(별도 카드 추가만으로는 요청 미완료라고
+// 명시). 이 카드는 새 판정 로직을 만들지 않는다 -- computeLongTermPrimarySummary(위에서
+// renderLongTermScenarioCard와 공유하도록 뽑아낸 계산)가 만든 값만 그대로 옮긴다. 그래서 상세의
+// "🧭 장기투자 시나리오" 카드와 절대 다른 숫자를 보여줄 수 없다(같은 함수, 같은 lt).
+// 숫자는 하드코딩하지 않는다(사용자 명시 금지) -- 모두 lt/summary에서만 읽는다. 목표가격은
+// "오늘의 적정가"가 아니라 조건부 미래가격이라는 걸 라벨에서 매번 명시한다(사용자 명시 금지).
+// 아직 장기투자 시나리오 계산이 없는 종목(iv.longTermScenario 없음)은 이 카드를 만들지 않는다 --
+// 지어내지 않는다는 원칙.
+function renderLongTermPrimaryCard(r){
+  const iv = (typeof INDEPENDENT_VALUATION_DATA !== 'undefined') ? INDEPENDENT_VALUATION_DATA[r.ticker] : null;
+  const lt = iv && iv.longTermScenario;
+  if(!lt) return '';
+  if(lt.blocked){
+    return `<div class="comment-box" id="lt-primary-${esc(r.ticker)}" style="background:var(--panel-2);margin-bottom:12px;border:1px solid var(--border,#333);">
+      <b>🧭 ${esc(r.ticker)} 장기투자 판단 기준</b>
+      <div class="sub" style="margin:6px 0 0;color:var(--warn);">⚠️ 자료 미확인 -- ${esc(lt.block_reason||'계산에 필요한 자료를 확보하지 못했어요.')}</div>
+      <div class="sub" style="margin:4px 0 0;font-size:10.5px;">"정상 자료로 계산했지만 수익조건에 못 미침"과는 다른 상태예요 -- 계산 자체를 아직 할 수 없다는 뜻이에요.</div>
+    </div>`;
+  }
+  const summary = computeLongTermPrimarySummary(lt, r);
+  if(!summary) return '';
+  const {businessOk, businessLabel, effComparisonPrice, effComparisonDate,
+    effHoldingPeriodYears, effCondRet, effCeilings, effStateLabel, effLiveNote,
+    defCeilingKey, stateColor, defCeiling} = summary;
+  const triIcon = ok => ok==null ? '❔' : (ok ? '✅' : '❌');
+  const fmt = x => x!=null ? `$${x.toFixed(2)}` : '-';
+
+  const ceilingRows = Object.keys(effCeilings||{}).map(k =>
+    `<div class="fund-row"><span>요구수익률 ${esc(k)}</span><span class="v">${fmt(effCeilings[k])}</span></div>`
+  ).join('');
+
+  // [사용자 명시 경고] 이 카드의 결론과 아래 status 배지(review 등, 기술적 관심 경로)를 같은
+  // 말로 섞지 않는다 -- "장기 수익조건 미충족"과 "기술적 관심 있음"은 서로 다른 질문에 대한
+  // 서로 다른 답이라 하나의 최종 결론처럼 합치면 안 된다(item2와 연결되는 경고).
+  const dvm = r.decision || computeDecisionViewModel(r);
+  const confusionGuard = (dvm.status === 'review' && dvm.usingAltValuationOnly)
+    ? `<div class="sub" style="margin:2px 0 8px;color:var(--warn);">⚠️ 아래 상태 배지("review")는 가격 눌림목 등 기술적 관심 경로가 다시 열렸다는 뜻일 뿐, 이 카드의 장기 수익조건과는 다른 질문이에요 -- "장기 수익조건 ${esc(effStateLabel)} · 기술적 관심 있음"처럼 서로 구분해서 보세요.</div>`
+    : '';
+
+  return `
+    <div class="comment-box" id="lt-primary-${esc(r.ticker)}" style="background:var(--panel-2);margin-bottom:12px;border:1px solid var(--border,#333);">
+      <b>🧭 ${esc(r.ticker)} 장기투자 판단 기준</b>
+      <span style="display:inline-block;margin-left:6px;padding:1px 6px;border-radius:8px;background:var(--panel);color:var(--sub);font-size:10px;font-weight:600;vertical-align:middle;">EPS성장·출구PER 가정 · 조건부</span>
+      ${confusionGuard}
+      <div class="fund-row" style="margin-top:6px;"><span>현재 비교가격 · 관측일${summary.usingLive?' (실시간)':''}</span>
+        <span class="v">${fmt(effComparisonPrice)} ${effComparisonDate?`(${esc(effComparisonDate)})`:''}</span></div>
+      <div class="fund-row"><span>목표기간 · 그때의 조건부 목표가격</span>
+        <span class="v">${esc(lt.target_date||'-')}까지(약 ${effHoldingPeriodYears!=null?effHoldingPeriodYears.toFixed(1):'-'}년) · ${fmt(lt.target_price)}
+        <span style="color:var(--sub);font-weight:400;"> (오늘의 적정가가 아니라, 그 목표일에 가정이 맞으면 도달한다고 보는 조건부 미래가격이에요)</span></span></div>
+      <div class="fund-row"><span>현재 가격에서의 조건부 연환산 수익률</span>
+        <span class="v">${effCondRet!=null?(effCondRet*100).toFixed(2)+'%':'산출 불가'}</span></div>
+      <div class="fund-row"><span>요구수익률별 현재 매입가 상한</span>
+        <span class="v"><b>${fmt(defCeiling)}</b> <span style="color:var(--sub);font-weight:400;">(요구수익률 ${esc(defCeilingKey)} 기준)</span></span></div>
+      <details style="margin-top:2px;"><summary style="cursor:pointer;color:var(--sub);font-size:11px;">다른 요구수익률 기준도 보기</summary>
+        <div style="margin-top:4px;">${ceilingRows}</div>
+      </details>
+      <div class="fund-row" style="margin-top:6px;"><span>사업 전제 확인 상태(최근 분기)</span>
+        <span class="v">${triIcon(businessOk)} ${esc(businessLabel)}</span></div>
+      <div class="sub" style="margin:2px 0 8px;font-size:10.5px;">${esc(lt.long_term_thesis_confirmation_note||'장기(4년) 성장경로 자체는 아직 미확인이에요 -- 위는 최근 분기 방향일 뿐, 향후 4년 성장 전제가 확인됐다는 뜻은 아니에요.')}</div>
+      <div class="sub" style="margin:8px 0 4px;"><b>지금 판단(장기 수익조건)</b>: <span style="color:${stateColor};font-weight:600;">${esc(effStateLabel)}</span></div>
+      ${effLiveNote ? `<div class="sub" style="margin:2px 0 8px;font-size:10.5px;color:var(--sub);">${esc(effLiveNote)}</div>` : ''}
+      <div class="sub" style="margin:4px 0 4px;"><b>판단이 바뀌는 조건</b>
+        <ul style="margin:4px 0 0 16px;padding:0;">
+          <li>비교가격이 매입가 상한(${fmt(defCeiling)}, 요구수익률 ${esc(defCeilingKey)} 기준) 아래로 내려오면 -- 가격조건이 충족 쪽으로 바뀔 수 있어요.</li>
+          <li>장기(4년) 성장경로 자체가 실적으로 확인되거나 훼손되면(위 사업 전제 확인 상태) -- 목표가격·조건부수익률의 전제 자체가 바뀌어요.</li>
+        </ul>
+      </div>
+      <div class="sub" style="margin-top:8px;color:var(--warn);">⚠️ 이 카드 하나만으로 전체 보유 비중을 늘리거나 줄이라는 결론을 내리지 않아요 -- 보유 비중·포트폴리오 맥락은 이 계산이 알지 못해요. 아래 DCF 참고값(현금흐름 가정에 따른 사업가치)이 이 조건과 다르게 나올 수 있고, 그 차이도 숨기지 않고 아래에 그대로 보여줘요. 신규 주문·자동매매는 이 프로젝트에 추가하지 않아요.</div>
     </div>`;
 }
 function renderIndependentValuationSection(r){
@@ -6405,7 +6544,18 @@ function computeDecisionViewModel(r){
 function decisionStatusBadgeHtml(r){
   const d = r.decision || computeDecisionViewModel(r);
   const meta = DECISION_STATUS_META[d.status] || DECISION_STATUS_META.unavailable;
-  return `<span class="badge" style="background:${meta.bg};color:${meta.color};border:1px solid ${meta.color}33;margin-left:4px;" title="${esc(d.headlineReason)}">${meta.label}</span>`;
+  // [2026-09-22 수정 -- item2: 목록·팝업도 01 탭 헤드라인과 같은 함수(longTermConditionLabelForTicker)
+  // 를 공유한다] status가 review인데 장기 수익조건이 계산돼 있으면(현재 AMAT) 배지도 "매수 검토"만
+  // 단독으로 보여주지 않고 장기 상태를 함께 보여준다 -- 목록만 보고 "매수 검토"로 오해하지 않게.
+  const ltLabel = (d.status === 'review') ? longTermConditionLabelForTicker(r) : null;
+  const ltShort = ltLabel === '수익조건 충족' ? '장기충족'
+    : ltLabel === '수익조건 미충족' ? '장기미충족'
+    : ltLabel ? '장기보류' : null;
+  const label = ltShort ? `${ltShort}·기술관심` : meta.label;
+  const title = ltLabel
+    ? `${d.headlineReason} / 장기 수익조건: ${ltLabel}(단기 기술적 신호와는 다른 질문이에요)`
+    : d.headlineReason;
+  return `<span class="badge" style="background:${meta.bg};color:${meta.color};border:1px solid ${meta.color}33;margin-left:4px;" title="${esc(title)}">${esc(label)}</span>`;
 }
 function verdictCautionBadge(r){
   const fv = r.fairValue && r.fairValue.fwd;
