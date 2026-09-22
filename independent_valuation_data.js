@@ -2072,24 +2072,26 @@ const INDEPENDENT_VALUATION_DATA = {
     "longTermScenario": {
       "kind": "klac_long_term_eps_growth_exit_multiple_scenario",
       "not_the_dcf": "이 종목은 아직 별도의 독립 DCF가 없다 -- 상대가치(동종기업 배수) 참고범위와도 완전히 별개다. 세 값을 섞지 않는다.",
-      "assumption_disclaimer": "요약: FY2028 EPS는 '지금 관측된 컨센서스'이고, FY2026 실제 비GAAP EPS($3.76)와 회사의 2030 목표모델(비GAAP $8.40±$0.80)은 회사 공식 발표로 확인된 사실이다. 이후 성장률·출구PER·요구수익률은 분석자가 이 사실들을 근거로 선택한 가정이다 -- 회사가 확정한 미래 전망이나 통계적으로 검증된 값이 아니다(목표모델 자체도 '목표(target)'이지 '확정 실적'이 아님).",
+      "assumption_disclaimer": "요약: FY2026 실제 EPS($3.76)와 회사의 2030 목표모델(비GAAP $8.40±$0.80)은 회사 공식 발표로 확인된 사실이다. 목표일의 CY/FY 정의(위 target_date_basis)만 잔여 불확실성으로 남아 있다. 출구PER·요구수익률·목표 이후 연장은 분석자가 선택한 가정이다.",
       "assumption_review": {
-        "eps_base": "FY2028 EPS $6.70539는 회사가 확정한 실적이 아니라, 지금(2026-09-22 기준) 관측된 컨센서스 전망치(estimates_cache.json, 22명 애널리스트)다 -- '그 시점에 관측된 전망'이라는 성격이지 '그 시점의 실제 달성'이라는 뜻이 아니다. 이 컨센서스는 GAAP/비GAAP 구분을 공급자 쪽에서 표시하지 않는다는 한계가 있다(이 프로젝트의 다른 종목과 같은 한계). 반면 성장률 도출에 쓰는 base(FY2026 비GAAP 실제 EPS $3.76)와 회사의 2030 목표(비GAAP $8.40±$0.80)는 둘 다 회사 공식 발표로 확인된 값이며 정의(비GAAP)가 서로 일치한다 -- 이 둘로 계산한 성장률(아래)을 컨센서스 기준 base_eps에 적용하는 것은 '성장률의 정의'와 'base_eps의 정의'가 완전히 같다고 보장하지 않는 근사라는 점을 명시한다(AMAT/LRCX와 같은 종류의 한계, 이 프로젝트 전 종목 공통).",
-        "growth_sustainability": "이 모듈의 대표 성장률(연 22.26%)은 KLA가 2026-07-28 공식 실적 발표에서 직접 공개한 2030 장기 목표모델(비GAAP 희석EPS $8.40±$0.80, FY2026 실제 비GAAP EPS $3.76 대비 4년)로부터 역산한 값이다 -- 범위로 보면 하단 19.24%~상단 25.07%다. 이는 AMAT/LRCX가 쓰는 매출성장-마진-주식수 bottom-up bridge 역산보다 더 직접적인 근거다(회사가 EPS 그 자체를 목표로 제시했기 때문). 다만 이 목표모델 자체가 이미 AI 반도체 설비투자 슈퍼사이클과 회사의 시장점유율 확대(58% 수준)를 반영한 회사 자신의 낙관적 전망이라는 점, 그리고 4년 뒤 실제 달성을 보장하지 않는 목표(target, 아닌 guidance)라는 점을 그대로 밝힌다. 비교용으로, 호황(FY2021 +19.4%)과 불황(FY2024 -6.5%)을 모두 포함한 8개년(FY2019~FY2026) 실제 매출 CAGR은 약 16.84%로, 회사의 목표 매출CAGR(13~17%)보다 낮다 -- 이 모듈은 이 차이를 감추지 않고, 대표 가정으로는 회사 자신의 EPS 목표를 쓰되 이 bottom-up 값을 evidence_base.bottom_up_cross_check로 나란히 남긴다(대표 가정이 회사의 낙관적 시나리오에 가깝다는 것을 이 비교로 드러냄).",
-        "exit_per_validity": "출구PER은 제3자 참고자료(macrotrends.net, 2026-09-22 조회)의 10개년(2016~2025) TTM PER 평균(약 23.18배, 반올림해 23배로 씀)을 그대로 쓴다 -- 최근 3년 평균(약 30.41배)이나 현재 TTM 수준(약 45~50배, fundamentals_cache.json의 peTTM 45.73배)은 AI 반도체 슈퍼사이클 재평가를 상당히 반영한 값이라 '지금 수준이 FY2032까지 그대로 유지된다'고 가정하지 않기 위함이다(AMAT/LRCX와 같은 원칙, 표본기간만 종목별로 다름). 가장 최근 관측치(2026-06-05, 표시PER 49.01배)는 이 모듈이 자체 보유한 분기 GAAP EPS 이력으로 역산한 값과 맞지 않아(위 TRAILING_PE_EXCLUDED_OBSERVATION 참고, FY2027 컨센서스 EPS와 거의 일치하는 것으로 보아 전망치 혼입 의심) 평균에서 제외했다 -- 반대로 2025-12-31 관측치는 같은 방식의 역산과 거의 정확히 일치해(34.37 vs 34.35) 나머지 관측치들의 EPS 정의(TTM GAAP 순이익 기준으로 추정)에 대한 근거로 삼았다. 다만 2023년 이전 연도는 이 프로젝트의 분기 EPS 캐시가 2023년 3분기부터만 있어 개별적으로 재검증하지 못했다는 한계를 그대로 남긴다 -- 표본기간 전체(10.1~35.4배 수준의 큰 차이)에 대한 방향성 근거로 쓴다.",
-        "no_reverse_engineering": "이 가정들은 '현재 주가와 비슷한 결과가 나오도록' 거꾸로 고른 것이 아니다 -- 추천 기준안(성장 22.26%·출구PER 23배)의 목표주가·매입가 상한은 현재 비교가격과 독립적으로 계산되며, 그 결과가 현재가보다 높을 수도 낮을 수도 있다는 것을 그대로 보여준다. AMAT의 8.82%·22배, LRCX의 약 14.5%·21배를 KLAC에 그대로 복제하지 않았다 -- 성장률은 KLAC 자신이 공개한 2030 목표모델에서, 출구PER은 KLAC 자신의 10년 PER 이력에서, 주식수 감소율은 KLAC 자신의 실현 속도(-0.99%/yr)에서 각각 독립적으로 도출했다(우연히 주식수 감소율 -1.0%/yr는 AMAT·LRCX와 같은 반올림값이 됐지만, 세 회사 모두 각자의 실측값을 그대로 반올림한 결과이지 값을 복사한 것이 아니다).",
-        "assumption_vs_fact_note": "요약: FY2028 EPS는 '지금 관측된 컨센서스'이고, FY2026 실제 비GAAP EPS($3.76)와 회사의 2030 목표모델(비GAAP $8.40±$0.80)은 회사 공식 발표로 확인된 사실이다. 이후 성장률·출구PER·요구수익률은 분석자가 이 사실들을 근거로 선택한 가정이다 -- 회사가 확정한 미래 전망이나 통계적으로 검증된 값이 아니다(목표모델 자체도 '목표(target)'이지 '확정 실적'이 아님)."
+        "eps_base_and_target": "[2026-09-22 정정] 기준 경로는 FY2026 실제 비GAAP EPS($3.76, 2026-06-30 마감, 회사 공식 발표로 확인된 사실)에서 회사의 2030 목표모델 비GAAP EPS($8.40, 2030-06-30, 역시 회사 공식 발표)까지 정확히 4년만 본다 -- 최초 버전처럼 이 성장률을 다른 기준일(FY2028 컨센서스)에 다시 적용해 회사가 보증하지 않은 기간까지 연장하지 않는다. target_eps는 이 growth_rate로 재구성한 값이 아니라 회사 발표값 그 자체를 직접 쓴다 -- 따라서 '목표연도에 목표 EPS가 재현되는가'라는 질문은 이 경로에서 설계상 항상 참이다(회귀시험 K1으로 고정).",
+        "target_date_basis": "회사 슬라이드 12쪽의 열 제목은 'CY'나 'FY' 접두어 없이 '2026 Target Model'/'2030 Target Model'로만 표기돼 있어, 원문 자체에는 달력연도(CY)인지 회계연도(FY, 6월 마감)인지 명시돼 있지 않다. 이 모듈은 회계연도(FY)로 취급한다 -- 근거: 같은 슬라이드의 '2026 Target Model' 열(비GAAP EPS $3.80±$0.15)이 이미 완결된 FY2026(2026-06-30 마감) 실제 비GAAP EPS($3.76)와 거의 정확히 일치하는 반면, 이 모듈 작성 시점(2026-09-22)에 CY2026(달력연도 2026)은 아직 끝나지 않아 실적으로 비교할 수 없다 -- 이미 끝난 기간과 거의 일치한다는 사실이 더 직접적인 증거라고 판단했다. 다만 같은 슬라이드 안의 다른 section(거시 웨이퍼설비투자 전망)이 'CY25-CY30E' 표기를 쓴다는 점은 이 판단과 완전히 정합하지 않는 잔여 불확실성으로 남는다 -- 목표모델 자체의 연도 정의(위 판단 근거)와 업계 거시전망 section의 연도 표기(다른 section)가 다를 수 있다고 보지만, 원문에서 이를 명시적으로 분리해 확인하지는 못했다. 재검토 조건: 다음 번 회사 실적 슬라이드에서 이 목표모델 열에 'FY'/'CY' 접두어가 명시되면 갱신.",
+        "extension_scenario_separation": "[2026-09-22 신규] 이 모듈은 회사가 공개한 2030까지의 구간과, 그 이후(예: FY2032까지 2년 추가) 분석자가 임의로 연장한 구간을 완전히 분리한다. 연장 구간은 `target_extension_scenario` 블록에만 담기며, state_label·required_return_ceilings·default_ceiling_price 등 이 모듈의 대표 결과 어디에도 영향을 주지 않는다. 연장 구간의 성장률은 회사 목표 성장률(22.26%)을 재사용하지 않고, 8개년 실측 매출CAGR(약 16.84%, 회사 목표와 독립적으로 조달한 값)을 쓴다.",
+        "exit_per_validity": "출구PER은 제3자 참고자료(macrotrends.net, 2026-09-22 조회)의 10개년(2016~2025) TTM PER 평균(약 23.18배, 반올림해 23배로 씀)을 그대로 쓴다 -- 최근 3년 평균(약 30.41배)이나 현재 TTM 수준(약 45~50배)은 AI 반도체 슈퍼사이클 재평가를 상당히 반영한 값이라 '지금 수준이 목표일까지 그대로 유지된다'고 가정하지 않기 위함이다. [2026-09-22 정정] 가장 최근 관측치(2026-06-05, 표시PER 49.01배) 제외 근거를 다시 계산했다 -- 최초 버전은 자체 검증 계산에서 관측일보다 나중에 끝나는 분기(Q2'26)를 실수로 포함했다(미래참조 오류). 관측일 기준 이미 완결된 마지막 4개 분기로 다시 계산해도 재구성 TTM EPS(약 $35.33, x10 환산)가 표시값($54.64)과 약 1.55배 차이가 나 여전히 맞지 않는다 -- 결론(평균에서 제외)은 유지하되, 정확한 원인은 확정하지 못했다는 점을 그대로 밝힌다. 2025-12-31 관측치는 기간종료일 기준 재구성(period-end TTM)과는 거의 정확히 일치하지만(34.35 vs 34.37), 이는 그 날짜에 시장이 실시간으로 알 수 있었던 값(발표시차 반영 시 약 $31.85 추정)과는 다른 관점이라는 한계를 TRAILING_PE_2025_CROSS_CHECK에 명시한다 -- 이 표를 연말 기준 소급 TTM 평균으로 해석해 장기 정상화 배수를 고르는 근거로만 쓰고, 실시간 밸류에이션 심리를 재현한다고 주장하지 않는다.",
+        "share_count_disclosure": "[2026-09-22 정정] 주식수 감소율(-0.99%/yr 실현 속도)은 참고용 관측값일 뿐 실제 EPS/가격 계산에 반영되지 않는다 -- target_eps를 회사 발표 목표값 그대로 쓰므로, 회사의 자사주매입 계획은 이미 그 목표 안에 내재돼 있다고 본다. 최초 버전은 이 변수를 선언만 하고 계산에 연결하지 않아 사실상 미사용 상태였는데, 이를 화면·문서에 명시적으로 드러내지 않았던 것이 문제였다 -- SHARE_COUNT_NOTE.used_in_calculation=False로 이제 명시한다.",
+        "dividend_and_split_metadata": "[2026-09-22 정정] 배당: 2026-09-01 지급분($0.23/주)은 이 모듈 작성 시점에 이미 완료된 과거 지급이며, 다음 분기 지급은 아직 발표되지 않았다 -- '미래 확정 지급'으로 잘못 표시했던 최초 버전 오류를 고쳤다. 액면분할: KLA는 2026-06-11 장 마감 후 10-for-1 분할을 시행했고 2026-06-12부터 분할 조정 가격으로 거래됐다(KLA 공식 Split FAQ) -- 최초 버전이 다른 종목(LRCX, 2024-10 분할)의 설명을 그대로 남겨뒀던 오류를 고쳤다.",
+        "no_reverse_engineering": "이 가정들은 '현재 주가와 비슷한 결과가 나오도록' 거꾸로 고른 것이 아니다 -- 이번 정정으로 state_label·매입가 상한이 크게 달라질 수 있으며, 그 결과가 이전보다 낮아지거나 '수익조건 미충족'으로 바뀌더라도 그대로 보고한다. 기준 경로는 회사 발표(기준일·목표일·목표EPS)만으로 결정되고 현재 비교가격과 독립적으로 계산된다.",
+        "assumption_vs_fact_note": "요약: FY2026 실제 EPS($3.76)와 회사의 2030 목표모델(비GAAP $8.40±$0.80)은 회사 공식 발표로 확인된 사실이다. 목표일의 CY/FY 정의(위 target_date_basis)만 잔여 불확실성으로 남아 있다. 출구PER·요구수익률·목표 이후 연장은 분석자가 선택한 가정이다."
       },
       "evidence_base": {
         "eps_basis_note": {
           "kind": "관측값(회사 공식 발표, 2026-09-22 원문 재확인)",
-          "fact": "FY2026(2026-06-30 마감) GAAP 희석EPS $3.66, 비GAAP(조정) 희석EPS $3.76 (PR Newswire 공식 보도자료 'KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS', 2026-07-28 발표, 'Twelve Months Ended June 30, 2026' 섹션). GAAP 값은 financials_cache.json 실측치와 일치 확인.",
-          "quarterly_detail": "2026년 6월 분기(Q4 FY2026) GAAP $1.04 vs 비GAAP $1.05 -- 분기 단위로는 차이가 1센트지만, 연간 누적으로는 $3.66 vs $3.76로 약 2.73%p 차이.",
-          "implication": "2030 목표모델의 EPS 정의(비GAAP)와 맞춰, 성장률 계산의 base로 비GAAP $3.76을 쓴다 (GAAP과 혼용하지 않음). base_eps로 실제 계산에 쓰는 FY2028 컨센서스는 공급자가 GAAP/비GAAP 구분을 표시하지 않아 이 정의 일치를 보장하지 못한다는 한계를 ASSUMPTION_REVIEW.eps_base에 남긴다.",
-          "currency_and_share_unit": "USD, 보통주 1주 기준(주당). 2024년 10월 10:1 액면분할이 이미 있었으나, 이 프로젝트가 쓰는 financials_cache.json·prices_cache.json 모두 분할 조정 후 수치로 일관되게 소급 적용돼 있음을 확인함(주식수 시계열이 2020-10 시점부터 이미 10억 주 이상으로 연속적임)."
+          "fact": "FY2026(2026-06-30 마감) GAAP 희석EPS $3.66, 비GAAP(조정) 희석EPS $3.76 (PR Newswire 공식 보도자료 'KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS', 2026-07-28 발표). GAAP 값은 financials_cache.json 실측치와 일치 확인.",
+          "implication": "목표모델 EPS 정의(비GAAP)와 맞춰 성장률 계산의 base로 비GAAP을 쓴다.",
+          "currency_and_share_unit": "USD, 보통주 1주 기준(주당). KLA는 2026-06-11 장 마감 후 10-for-1 액면분할을 시행했고 2026-06-12부터 분할 조정 가격으로 거래됐다(원문: https://d1io3yog0oux5.cloudfront.net/_0ebdd7ea4324b85d41343cefc23f5eca/klatencor/db/1126/10661/description/05.07.26-KLAC-Stock-Split-FAQs.pdf). 이 프로젝트가 쓰는 financials_cache.json·prices_cache.json 모두 분할 조정 후 수치로 일관되게 소급 적용돼 있음을 확인함."
         },
         "target_model_2030": {
-          "kind": "회사 공식 목표(target, 확정 실적 아님) -- 2026-09-22 원문 재확인, 공식 실적 슬라이드 PDF 12쪽(https://d1io3yog0oux5.cloudfront.net/_b9ee755a5f60dd0fb3f9e27967aed6af/klatencor/db/1117/10668/earnings_slide_presentation/KLA+Earnings+Slides+-+Q4+FY26.pdf, 2026-07-28 발표)",
+          "kind": "회사 공식 목표(target, 확정 실적 아님) -- 2026-09-22 원문 재확인, 공식 실적 슬라이드 PDF 12쪽('KLA 2030 Target Model Financial Framework - Split Adjusted', 2026-07-28 발표)",
           "revenue_usd_b": {
             "mid": 26.0,
             "range": 2.5
@@ -2106,12 +2108,22 @@ const INDEPENDENT_VALUATION_DATA = {
             "mid": 8.4,
             "range": 0.8
           },
+          "base_date": "2026-06-30",
+          "target_date": "2030-06-30",
+          "target_date_basis_uncertainty": "회사 슬라이드 12쪽의 열 제목은 'CY'나 'FY' 접두어 없이 '2026 Target Model'/'2030 Target Model'로만 표기돼 있어, 원문 자체에는 달력연도(CY)인지 회계연도(FY, 6월 마감)인지 명시돼 있지 않다. 이 모듈은 회계연도(FY)로 취급한다 -- 근거: 같은 슬라이드의 '2026 Target Model' 열(비GAAP EPS $3.80±$0.15)이 이미 완결된 FY2026(2026-06-30 마감) 실제 비GAAP EPS($3.76)와 거의 정확히 일치하는 반면, 이 모듈 작성 시점(2026-09-22)에 CY2026(달력연도 2026)은 아직 끝나지 않아 실적으로 비교할 수 없다 -- 이미 끝난 기간과 거의 일치한다는 사실이 더 직접적인 증거라고 판단했다. 다만 같은 슬라이드 안의 다른 section(거시 웨이퍼설비투자 전망)이 'CY25-CY30E' 표기를 쓴다는 점은 이 판단과 완전히 정합하지 않는 잔여 불확실성으로 남는다 -- 목표모델 자체의 연도 정의(위 판단 근거)와 업계 거시전망 section의 연도 표기(다른 section)가 다를 수 있다고 보지만, 원문에서 이를 명시적으로 분리해 확인하지는 못했다. 재검토 조건: 다음 번 회사 실적 슬라이드에서 이 목표모델 열에 'FY'/'CY' 접두어가 명시되면 갱신.",
           "implied_eps_cagr_from_fy2026_actual": {
             "mid": 0.22256753856629174,
             "low": 0.19235736012207605,
             "high": 0.250690916312168,
-            "note": "FY2026 실제 비GAAP EPS($3.76, 목표모델상 FY2026 목표 $3.80±$0.15와 근접해 실제 달성치를 그대로 씀)를 base로, 2030 목표(mid/low/high)까지의 4년 연복리성장률 -- _cagr_from_two_points()의 실제 계산 결과이며 하드코딩이 아니다."
+            "note": "표시·민감도 계산용 -- target_eps 자체는 이 값으로 재구성하지 않고 회사 발표값을 직접 쓴다(2026-09-22 정정)."
           }
+        },
+        "target_extension_beyond_2030": {
+          "kind": "분석자 가정(회사 발표 아님, 2030 이후 구간에 대한 회사 공개 목표 없음)",
+          "extension_years": 2,
+          "extension_target_date": "2032-06-30",
+          "extension_growth_rate": 0.16837315102924522,
+          "note": "8개년(FY2019~FY2026) 실측 매출CAGR을 씀 -- 회사의 2026-2030 목표 성장률과 독립적으로 조달한 값이며, 이를 재사용해 2030 이후를 연장하지 않는다(최초 버전의 핵심 오류를 재발하지 않기 위한 설계)."
         },
         "bottom_up_cross_check": {
           "kind": "비교용(대표 가정 아님) -- 관측값(SEC 소스 financials_cache.json, 2026-09-22 조사)",
@@ -2126,22 +2138,22 @@ const INDEPENDENT_VALUATION_DATA = {
             "2026": 13579.476
           },
           "derived_cagr_8y_fy2019_2026": 0.16837315102924522,
-          "note": "FY2024 매출이 전년대비 약 -6.5%로 역성장했다는 점과 FY2021 이후 AI 반도체 장비 수요 확대를 모두 포함한 8개년 CAGR -- 회사의 2030 목표 매출CAGR(13~17%)보다 낮다. 이 모듈은 이 값을 대표 가정으로 쓰지 않지만(회사 자신의 EPS 목표가 더 직접적인 근거), 대표 가정이 이 실측 이력보다 낙관적인 방향이라는 것을 감추지 않는다."
+          "note": "FY2024 매출이 전년대비 약 -6.5%로 역성장했다는 점과 AI 반도체 장비 수요 확대를 모두 포함한 8개년 CAGR -- 회사의 2030 목표 매출CAGR(13~17%)보다 낮다."
         },
-        "buyback_and_shares": {
-          "shares_outstanding_recent_yoy_change_pct": {
-            "kind": "관측값(SEC 소스, 반기 보고 시점 기준)",
-            "date_2025": "2025-07-21",
-            "shares_2025": 1319613700.0,
-            "date_2026": "2026-08-03",
-            "shares_2026": 1306546783.0,
-            "yoy_change_pct": -0.9902077403409759
-          },
-          "operating_margin_ttm_pct": {
-            "kind": "관측값(fundamentals_cache.json, 2026-09-22 조사)",
-            "value": 41.77,
-            "note": "회사의 2030 목표 영업이익률(45~47%)보다 낮음 -- 아직 목표에 도달하지 못한 상태에서 목표를 향해 개선된다고 가정하는 셈이라는 점을 명시."
-          }
+        "share_count": {
+          "kind": "관측값(SEC 소스, 반기 보고 시점 기준) -- 계산 미반영, 참고용",
+          "date_2025": "2025-07-21",
+          "shares_2025": 1319613700.0,
+          "date_2026": "2026-08-03",
+          "shares_2026": 1306546783.0,
+          "yoy_change_pct": -0.9902077403409759,
+          "used_in_calculation": false,
+          "note": "target_eps는 회사가 발표한 2030 목표값을 그대로 쓴다 -- 그 목표 안에 회사 자신의 자사주매입 계획이 이미 내재돼 있다고 보고, 이 모듈이 추가로 주식수 감소를 적용하면 이중 반영이 된다. 이 관측값은 '회사의 실현 속도가 합리적 범위인지' 참고용으로만 남긴다(계산에 연결되지 않음)."
+        },
+        "operating_margin_ttm": {
+          "kind": "관측값(fundamentals_cache.json, 2026-09-22 조사)",
+          "value_pct": 41.77,
+          "note": "회사의 2030 목표 영업이익률(45~47%)보다 낮음 -- 아직 목표에 도달하지 못한 상태."
         },
         "valuation_multiples": {
           "trailing_gaap_per_history": {
@@ -2162,7 +2174,15 @@ const INDEPENDENT_VALUATION_DATA = {
               "as_of": "2026-06-05",
               "displayed_per": 49.01,
               "displayed_ttm_eps": 54.64,
-              "reason": "이 모듈이 자체 역산한 같은 기간 GAAP TTM EPS($36.67, 분할조정 배율 적용)와 맞지 않고 FY2027 컨센서스 EPS(x10 환산 $54.548)와 거의 일치함 -- 실적이 아닌 전망치 혼입 의심, 평균에서 제외."
+              "recomputed_ttm_eps_using_last_4_completed_quarters": 35.33,
+              "recomputed_quarters_used": [
+                "Q2'25(2025-06-30)",
+                "Q3'25(2025-09-30)",
+                "Q4'25(2025-12-31)",
+                "Q1'26(2026-03-31)"
+              ],
+              "recomputed_note": "[2026-09-22 정정] Q2'26(2026-06-30 마감)은 관측일(2026-06-05)보다 나중에 끝나는 분기라 애초에 포함하면 안 됐다(최초 버전의 미래참조 오류) -- 관측일 기준 이미 끝난 마지막 4개 분기로 다시 계산했다.",
+              "reason": "재계산한 TTM EPS($35.33)도 표시값($54.64)과 약 1.55배 차이가 나 맞지 않는다 -- 정확한 원인(제공자 방법론 차이·전망치 혼입·다른 EPS 정의 등)은 확정하지 못했으나, 이 모듈이 재구성할 수 있는 어떤 합리적 방식으로도 재현되지 않아 평균에서 제외한다."
             },
             "avg_10y": 23.18,
             "avg_5y": 25.744,
@@ -2170,34 +2190,36 @@ const INDEPENDENT_VALUATION_DATA = {
             "range_low": 9.69,
             "range_high": 35.36,
             "cross_check_2025": {
-              "kind": "이 모듈이 자체 재계산(financials_cache.json 분기 GAAP EPS 합계 x10 분할조정 배율 적용)",
+              "kind": "이 모듈이 자체 재계산(financials_cache.json 분기 GAAP EPS 합계 x10 분할조정 배율 적용, 관측일=기간종료일인 period-end TTM 방식)",
               "macrotrends_ttm_eps_2025_12_31": 34.35,
               "recomputed_ttm_eps_from_quarterly_gaap": 34.37,
-              "match": "거의 정확히 일치(34.35 vs 34.37) -- 이 표가 GAAP TTM EPS 기준이라는 근거로 삼음."
+              "match": "거의 정확히 일치(34.35 vs 34.37) -- 이 표가 각 기간 말 기준 GAAP TTM EPS를 소급 반영한 값(period-end 관점)이라는 근거로 삼음. 다만 이는 '그 날짜에 실제로 시장이 알 수 있었던 값'(발표시차 반영)과는 다른 관점이라는 한계가 있다 -- 분기 발표가 보통 마감 후 3~4주 뒤에 나오므로, 2025-12-31 시점에 시장이 실제로 알 수 있었던 TTM은 Q4'24~Q3'25(발표시차 반영, 약 $31.85 x10 환산)였을 것으로 추정된다. 이 표를 '연말 기준 소급 TTM 평균'으로 해석해 장기 정상화 배수를 고르는 데 쓰되, '그날의 실시간 밸류에이션 심리'를 정확히 재현한다고는 주장하지 않는다."
             },
             "note": "연말/조회시점 종가 기준(이 프로젝트의 회계연도 6월 마감과 완전히 정렬되지 않음) -- 정확한 소수점보다 '표본기간에 따라 9.7~35.4배 수준의 큰 차이가 난다'는 방향성 근거로 쓴다."
           }
         },
-        "consensus_snapshot": {
-          "kind": "관측값(estimates_cache.json, 2026-09-22 수집 시각 기준 _fetched_at)",
-          "fy2027_0y": {
-            "eps_avg": 5.4548,
-            "revenue_avg_musd": 18114.06278,
-            "analysts": 24
-          },
-          "fy2028_plus1y": {
-            "eps_avg": 6.70539,
-            "revenue_avg_musd": 21416.16564,
-            "analysts": 22
-          },
-          "note": "base_eps로 쓰는 FY2028 컨센서스는 GAAP/비GAAP 구분이 공급자 쪽에서 표시되지 않는다 -- 이 한계를 ASSUMPTION_REVIEW.eps_base에 그대로 남긴다."
+        "consensus_cross_check_only": {
+          "kind": "관측값(estimates_cache.json, 참고용 -- 기준 경로 계산에는 쓰이지 않음)",
+          "note": "FY2028 컨센서스 등 애널리스트 전망은 기준 경로(회사 발표 기준일·목표일)에는 더 이상 쓰이지 않는다(2026-09-22 정정 -- 최초 버전의 핵심 오류가 이 컨센서스를 잘못된 방식으로 재사용한 것이었기 때문). 참고용으로만 아래 compute 함수 결과의 consensus_cross_check 필드에 남긴다(있으면)."
         },
         "dividend_check": {
           "kind": "관측값(회사 공식 발표, 2026-09-22 원문 재확인)",
-          "fact": "분기배당 $0.23/주, 기준일 2026-08-17, 지급일 2026-09-01 (PR Newswire 'KLA Declares Regular Cash Dividend', 2026-08-06 발표).",
+          "fact": "분기배당 $0.23/주, 기준일 2026-08-17, 지급일 2026-09-01(이미 지급 완료) -- PR Newswire 'KLA Declares Regular Cash Dividend', 2026-08-06 발표.",
           "dividend_growth_5y_pct": 17.29,
-          "note": "fundamentals_cache.json의 dividendPerShareTTM(0.8055)은 2024년 10월 분할 전후 지급액이 섞인 TTM 합계로 보이며 최신 분기배당 확정액과 다르다 -- 이 모듈은 confirmed_as_of 시점의 확정 발표(위 fact)를 그대로 쓰고, TTM 캐시값은 쓰지 않는다."
+          "note": "fundamentals_cache.json의 dividendPerShareTTM(0.8055)은 분할 전후 지급액이 섞인 TTM 합계로 보여 쓰지 않는다 -- 확정 발표(위 fact)를 그대로 쓴다."
+        },
+        "stock_split": {
+          "kind": "관측값(회사 공식 발표, 2026-09-22 원문 재확인)",
+          "effective_after_close": "2026-06-11",
+          "first_adjusted_trading_date": "2026-06-12",
+          "ratio": "10-for-1",
+          "source_url": "https://d1io3yog0oux5.cloudfront.net/_0ebdd7ea4324b85d41343cefc23f5eca/klatencor/db/1126/10661/description/05.07.26-KLAC-Stock-Split-FAQs.pdf"
         }
+      },
+      "share_count_note": {
+        "observed_realized_pct_per_year": -0.9902077403409759,
+        "used_in_calculation": false,
+        "reason": "target_eps는 회사가 발표한 2030 목표값을 그대로 쓴다 -- 그 목표 안에 회사 자신의 자사주매입 계획이 이미 내재돼 있다고 보고, 이 모듈이 추가로 주식수 감소를 적용하면 이중 반영이 된다. 이 관측값은 '회사의 실현 속도가 합리적 범위인지' 참고용으로만 남긴다(계산에 연결되지 않음)."
       },
       "as_of_execution": "2026-09-22",
       "growth_rate_assumption": 0.22256753856629174,
@@ -2207,191 +2229,167 @@ const INDEPENDENT_VALUATION_DATA = {
       "primary_exit_per": 23.0,
       "primary_review_by": "2026-12-31",
       "growth_years": 4,
-      "base_fiscal_year": 2028,
-      "target_fiscal_year": 2032,
+      "base_date": "2026-06-30",
+      "target_date_basis_uncertainty": "회사 슬라이드 12쪽의 열 제목은 'CY'나 'FY' 접두어 없이 '2026 Target Model'/'2030 Target Model'로만 표기돼 있어, 원문 자체에는 달력연도(CY)인지 회계연도(FY, 6월 마감)인지 명시돼 있지 않다. 이 모듈은 회계연도(FY)로 취급한다 -- 근거: 같은 슬라이드의 '2026 Target Model' 열(비GAAP EPS $3.80±$0.15)이 이미 완결된 FY2026(2026-06-30 마감) 실제 비GAAP EPS($3.76)와 거의 정확히 일치하는 반면, 이 모듈 작성 시점(2026-09-22)에 CY2026(달력연도 2026)은 아직 끝나지 않아 실적으로 비교할 수 없다 -- 이미 끝난 기간과 거의 일치한다는 사실이 더 직접적인 증거라고 판단했다. 다만 같은 슬라이드 안의 다른 section(거시 웨이퍼설비투자 전망)이 'CY25-CY30E' 표기를 쓴다는 점은 이 판단과 완전히 정합하지 않는 잔여 불확실성으로 남는다 -- 목표모델 자체의 연도 정의(위 판단 근거)와 업계 거시전망 section의 연도 표기(다른 section)가 다를 수 있다고 보지만, 원문에서 이를 명시적으로 분리해 확인하지는 못했다. 재검토 조건: 다음 번 회사 실적 슬라이드에서 이 목표모델 열에 'FY'/'CY' 접두어가 명시되면 갱신.",
       "annualized_dividend_per_share": 0.92,
-      "dividend_source_note": "연배당 $0.92/주(분기 $0.23 x4, 2026-09-22 확인) -- model_assumption(확정 아님, 다음 확정 지급 이후 동일 금액 유지 가정).",
-      "estimates_fetched_at": "2026-09-21",
-      "estimates_age_days": 1,
-      "base_eps_fact": 6.70539,
-      "base_eps_end_date": "2028-06-30",
-      "base_eps_analysts": 22,
-      "target_date": "2032-06-30",
+      "dividend_source_note": "연배당 $0.92/주(분기 $0.23 x4, 2026-09-22 확인, 2026-09-01 지급 완료분 -- model_assumption(확정 아님, 다음 확정 지급 이후 동일 금액 유지 가정).",
+      "target_date": "2030-06-30",
+      "base_eps_fact": 3.76,
+      "base_eps_end_date": "2026-06-30",
       "eps_path": [
-        8.197792147427027,
-        10.022354567357935,
-        12.253005354053423,
-        14.980126595744688
+        4.596853945009257,
+        5.619964412698715,
+        6.8707860588632235,
+        8.400000000000004
       ],
-      "target_eps": 14.980126595744688,
-      "target_price": 344.5429117021278,
+      "target_eps": 8.4,
+      "target_eps_reproduces_company_target": true,
+      "target_price": 193.20000000000002,
+      "consensus_cross_check": {
+        "estimates_fetched_at": "2026-09-21",
+        "note": "참고용 -- 기준 경로 계산에는 쓰이지 않음(2026-09-22 정정)."
+      },
       "comparison_price": 183.97000122070312,
       "comparison_price_as_of": "2026-09-21",
       "comparison_price_invalid_reason": null,
       "base_scenario": {
         "blocked": false,
-        "holding_period_actual_days": 2109,
-        "holding_period_actual_years": 5.778082191780822,
+        "holding_period_actual_days": 1378,
+        "holding_period_actual_years": 3.7753424657534245,
         "cashflows_by_year": {
           "1": 0.92,
           "2": 0.92,
           "3": 0.92,
-          "4": 0.92,
-          "5": 0.92,
-          "5.778082191780822": 345.2587473185662
+          "3.7753424657534245": 193.91331506849318
         },
         "cashflow_note": {
-          "approximation_note": "실제 AMAT 분기배당(연 4회 지급)을 이 계산에서는 매입일 이후부터 맞이하는 각 정수 연차에 연 1회 합산 지급으로 근사한다 -- 정확한 분기별 지급일을 쓰려면 엔진을 부분기간 할인 구조로 바꿔야 하며 이번 범위 밖이다. 보유기간이 정수가 아니므로(약 5.7781년), 매도 시점의 부분연도에는 연배당의 77.8%만 비례 배분했다(그 이후 -- 매도 이후 -- 배당은 포함하지 않음). 매도 이후 시점의 배당은 어떤 경우에도 포함하지 않는다."
+          "approximation_note": "실제 AMAT 분기배당(연 4회 지급)을 이 계산에서는 매입일 이후부터 맞이하는 각 정수 연차에 연 1회 합산 지급으로 근사한다 -- 정확한 분기별 지급일을 쓰려면 엔진을 부분기간 할인 구조로 바꿔야 하며 이번 범위 밖이다. 보유기간이 정수가 아니므로(약 3.7753년), 매도 시점의 부분연도에는 연배당의 77.5%만 비례 배분했다(그 이후 -- 매도 이후 -- 배당은 포함하지 않음). 매도 이후 시점의 배당은 어떤 경우에도 포함하지 않는다."
         },
         "ceilings_by_required_return": {
           "0.08": {
             "blocked": false,
             "required_return": 0.08,
-            "max_purchase_price": 224.99269320895596,
+            "max_purchase_price": 147.38879439124042,
             "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
           },
           "0.1": {
             "blocked": false,
             "required_return": 0.1,
-            "max_purchase_price": 202.54310249851437,
+            "max_purchase_price": 137.59982770352886,
             "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
           },
           "0.12": {
             "blocked": false,
             "required_return": 0.12,
-            "max_purchase_price": 182.69015341864016,
+            "max_purchase_price": 128.62297639030612,
             "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
           }
         },
         "conditional_annualized_return_at_comparison_price": {
           "status": "SUCCESS",
-          "rate": 0.11863477484707798,
-          "residual": -6.501466032204917e-10,
+          "rate": 0.017965399600870985,
+          "residual": -2.148397015844239e-10,
           "note": "solve_implied_rate와는 별개의 신규 수치해 함수 -- P05/P10 근거로 대체하지 않음"
         }
       },
       "required_return_ceilings": {
-        "8%": 224.99269320895596,
-        "10%": 202.54310249851437,
-        "12%": 182.69015341864016
+        "8%": 147.38879439124042,
+        "10%": 137.59982770352886,
+        "12%": 128.62297639030612
       },
-      "conditional_annualized_return_at_comparison_price": 0.11863477484707798,
+      "conditional_annualized_return_at_comparison_price": 0.017965399600870985,
       "conditional_annualized_return_status": "SUCCESS",
       "default_required_return": 0.1,
-      "default_ceiling_price": 202.54310249851437,
-      "like_for_like_comparison_note": "target_price($344.54, FY2032 시점의 할인 전 미래 목표주가)와 default_ceiling_price($202.54, 오늘 현재가치로 할인한 연 10% 요구수익률 매입가 상한)는 서로 다른 의미의 가격이다.",
-      "return_condition_met_at_default_required_return": true,
-      "state_label": "수익조건 충족",
+      "default_ceiling_price": 137.59982770352886,
+      "like_for_like_comparison_note": "target_price($193.20, 2030-06-30 시점의 할인 전 미래 목표주가 -- 회사 목표모델 EPS를 직접 쓴 값)와 default_ceiling_price($137.60, 오늘 현재가치로 할인한 연 10% 요구수익률 매입가 상한)는 서로 다른 의미의 가격이다.",
+      "return_condition_met_at_default_required_return": false,
+      "state_label": "수익조건 미충족",
       "blocked": false,
-      "long_term_thesis_confirmation_note": "화면의 '사업 전제' 표시는 최신 분기 매출·영업이익이 동시에 둔화하지 않았는지만 확인한다 -- 이는 '최근 실적 방향'이며, 향후 4년(FY2029~FY2032) EPS 성장 경로(대표 가정 연 22.26%, 2026-12-31 재검토 예정)가 실제로 달성 가능한지를 확인한 것이 아니다. 회사의 2030 목표모델(매출·마진·EPS) 진행 상황, AI 반도체 검사·계측 수요, 시장점유율, 마진 개선 속도는 정기적으로(예: 분기 실적 발표마다) 재확인이 필요한 상태로 표시하며 '확인 완료'로 표시하지 않는다.",
+      "long_term_thesis_confirmation_note": "화면의 '사업 전제' 표시는 최신 분기 매출·영업이익이 동시에 둔화하지 않았는지만 확인한다 -- 이는 '최근 실적 방향'이며, 회사의 2030 목표모델(매출·마진·EPS) 달성 가능성을 확인한 것이 아니다. AI 반도체 검사·계측 수요, 시장점유율, 마진 개선 속도는 정기적으로(예: 분기 실적 발표마다) 재확인이 필요한 상태로 표시하며 '확인 완료'로 표시하지 않는다.",
       "long_term_thesis_confirmed": false,
       "price_return_table": [
         {
-          "purchase_price": 122.54,
+          "purchase_price": 57.6,
           "status": "SUCCESS",
-          "annualized_return": 0.20104789796500883
+          "annualized_return": 0.388798789646171
         },
         {
-          "purchase_price": 162.54,
+          "purchase_price": 97.6,
           "status": "SUCCESS",
-          "annualized_return": 0.14311238752811728
+          "annualized_return": 0.2057611973115854
+        },
+        {
+          "purchase_price": 137.6,
+          "status": "SUCCESS",
+          "annualized_return": 0.09999963218688201
         },
         {
           "purchase_price": 183.97,
           "status": "SUCCESS",
-          "annualized_return": 0.11863477614297151
+          "annualized_return": 0.017965401401170273
         },
         {
-          "purchase_price": 202.54,
+          "purchase_price": 197.6,
           "status": "SUCCESS",
-          "annualized_return": 0.10000294215249136
+          "annualized_return": -0.0012525891997029592
         },
         {
-          "purchase_price": 262.54,
+          "purchase_price": 267.6,
           "status": "SUCCESS",
-          "annualized_return": 0.05131087717002171
-        },
-        {
-          "purchase_price": 332.54,
-          "status": "SUCCESS",
-          "annualized_return": 0.00888252505673105
+          "annualized_return": -0.0787886393920644
         }
       ],
-      "range_growth_fixed_exit_per_sensitivity": {
-        "note": "성장률을 대표 가정(22.26%)으로 고정하고 출구PER만 15~26배(10년 평균 부근 저점~5년 평균 부근)로 바꾼 민감도다 -- 신뢰구간이 아니며 확률을 붙이지 않는다.",
+      "range_fixed_target_eps_exit_per_sensitivity": {
+        "note": "target_eps(회사 목표모델 값)를 고정하고 출구PER만 15~26배(10년 평균 부근 저점~5년 평균 부근)로 바꾼 민감도다 -- 신뢰구간이 아니며 확률을 붙이지 않는다.",
         "scenarios": {
           "low": {
             "exit_per": 15.0,
-            "growth_rate": 0.22256753856629174,
-            "target_price": 224.70189893617032,
-            "ceiling_at_default_required_return": 133.4499301172953
+            "target_eps": 8.4,
+            "target_price": 126.0,
+            "ceiling_at_default_required_return": 90.70794056842027
           },
           "high": {
             "exit_per": 26.0,
-            "growth_rate": 0.22256753856629174,
-            "target_price": 389.4832914893619,
-            "ceiling_at_default_required_return": 228.45304214147154
+            "target_eps": 8.4,
+            "target_price": 218.4,
+            "ceiling_at_default_required_return": 155.18428537919456
           }
         }
       },
       "stress_scenarios": {
-        "note": "확률을 검증하지 않았으므로 임의의 성공확률을 붙이지 않는다. decomposition_vs_primary는 대표 가정(성장 22.26%·PER 23배) 대비 성장률만/출구PER만/둘 다 바꿨을 때의 효과를 분리해서 보여준다.",
+        "note": "회사가 실제로 공개한 목표 범위(저/중/고 EPS)와 참고 PER만 조합한다 -- 임의의 성장률을 추가로 만들지 않는다. 확률을 검증하지 않았으므로 임의의 성공확률을 붙이지 않는다.",
         "scenarios": {
-          "stress_low": {
-            "label": "성장 연 10%(반도체장비 업황 조정 국면, FY2024 실제 매출 역성장 재현 가정) · 종료 PER 9.69배(10개년 GAAP 저점, 2018년)",
-            "growth_rate": 0.1,
+          "company_target_low_range_pe_low": {
+            "label": "회사 목표모델 하단 EPS $7.60 · 종료 PER 9.69배(10개년 GAAP 저점, 2018년)",
+            "target_eps": 7.6000000000000005,
             "exit_per": 9.69,
-            "target_eps": 9.817361499000004,
-            "target_price": 95.13023292531004,
-            "ceiling_at_default_required_return": 58.746644082039076,
-            "decomposition_vs_primary": {
-              "base_price": 344.5429117021278,
-              "growth_only_price": 225.79931447700008,
-              "growth_only_pct": -0.3446409523809524,
-              "per_only_price": 145.157426712766,
-              "per_only_pct": -0.578695652173913,
-              "combined_price": 95.13023292531004,
-              "combined_pct": -0.7238943838509317,
-              "note": "성장률만 바꾼 효과와 출구PER만 바꾼 효과를 각각 보여준다 -- 결합효과를 어느 한쪽 변수 하나의 효과인 것처럼 설명하지 않는다."
-            }
+            "target_price": 73.644,
+            "ceiling_at_default_required_return": 54.17413635940622
           },
-          "stress_high": {
-            "label": "성장 연 25.07%(회사 2030 목표모델 EPS 상단 $9.20 기준) · 종료 PER 25.74배(5년 평균)",
-            "growth_rate": 0.250690916312168,
+          "company_target_high_range_pe_5y": {
+            "label": "회사 목표모델 상단 EPS $9.20 · 종료 PER 25.74배(5년 평균)",
+            "target_eps": 9.200000000000001,
             "exit_per": 25.744,
-            "target_eps": 16.406805319148937,
-            "target_price": 422.37679613617024,
-            "ceiling_at_default_required_return": 247.41747288458322,
-            "decomposition_vs_primary": {
-              "base_price": 344.5429117021278,
-              "growth_only_price": 377.35652234042556,
-              "growth_only_pct": 0.0952380952380949,
-              "per_only_price": 385.6483790808512,
-              "per_only_pct": 0.1193043478260869,
-              "combined_price": 422.37679613617024,
-              "combined_pct": 0.2259047619047614,
-              "note": "성장률만 바꾼 효과와 출구PER만 바꾼 효과를 각각 보여준다 -- 결합효과를 어느 한쪽 변수 하나의 효과인 것처럼 설명하지 않는다."
-            }
+            "target_price": 236.84480000000002,
+            "ceiling_at_default_required_return": 168.05499192427868
           },
-          "stress_consensus_extrapolated": {
-            "label": "성장 연 30%(FY2025·FY2026 실제 EPS 성장률 수준을 단순 4년 연장, 이 모듈이 채택하지 않는 예시적 상방) · 종료 PER 30.41배(3년 평균, AI 재평가 유지 가정)",
-            "growth_rate": 0.3,
+          "company_target_mid_pe_3y": {
+            "label": "회사 목표모델 중간 EPS $8.40 · 종료 PER 30.41배(3년 평균, AI 재평가 유지 가정, 이 모듈이 채택하지 않는 예시적 상방)",
+            "target_eps": 8.4,
             "exit_per": 30.406666666666666,
-            "target_eps": 19.151264379000004,
-            "target_price": 582.3261122174601,
-            "ceiling_at_default_required_return": 339.63469813321666,
-            "decomposition_vs_primary": {
-              "base_price": 344.5429117021278,
-              "growth_only_price": 440.4790807170001,
-              "growth_only_pct": 0.27844476190476164,
-              "per_only_price": 455.4957160212768,
-              "per_only_pct": 0.32202898550724646,
-              "combined_price": 582.3261122174601,
-              "combined_pct": 0.6901410316080052,
-              "note": "성장률만 바꾼 효과와 출구PER만 바꾼 효과를 각각 보여준다 -- 결합효과를 어느 한쪽 변수 하나의 효과인 것처럼 설명하지 않는다."
-            }
+            "target_price": 255.416,
+            "ceiling_at_default_required_return": 181.01389987611688
           }
         }
+      },
+      "target_extension_scenario": {
+        "note": "회사가 공개하지 않은 2030 이후 구간에 대한 분석자 가정(참고용) -- state_label·required_return_ceilings·default_ceiling_price 등 이 모듈의 대표 결과에 영향을 주지 않는다. 성장률은 회사 목표 성장률을 재사용하지 않고 8개년 실측 매출CAGR을 쓴다.",
+        "extension_years_beyond_target": 2,
+        "extension_target_date": "2032-06-30",
+        "extension_growth_rate": 0.16837315102924522,
+        "extension_target_eps": 11.466804888386463,
+        "extension_target_price": 263.7365124328886,
+        "extension_ceiling_at_default_required_return": 155.95495754417587
       }
     }
   },
