@@ -9,6 +9,25 @@ const BUSINESS_NOTES = {
   MARKET: {
     newsLog: [
       {
+        date: "2026-09-23",
+        headline: "트럼프 UN연설 이란 에스컬레이션·동시 '딜 가능성' 시사 - 유가 $90선 진입, 채권금리 상승에서 방향 전환",
+        tone: "mixed",
+        importance: "high",
+        horizon: "단기(외교협상 진전까지)~거시(유가·금리 구조적 변화 확인)",
+        facts: ["2026-09-23(수) 트럼프 대통령이 UN 총회에서 이란에 대해 '격멸(annihilate)하거나 지옥으로 몰아낼 수 있다'는 강경 발언을 한 한편, '이란이 11월 중간선거 후 미국과 딜할 수 있을 것'이라며 협상 가능성을 동시에 제시했다.", "최근 이란 관련 발언과 달리 이번 연설의 핵심은 '미국과 생산적인 회담'이라는 표현으로 외교전 가능성을 암시한 것 - 시장은 에스컬레이션보다는 'diplomatic off-ramp' 신호로 해석했다.", "WTI는 11월물 기준 $90 이하로 진입(지난 5거래일 대비 -10%↑), Brent는 $99 부근 유지 - 사우디 송유관 복구 우려가 완화되고 외교협상 낙관론이 유입되면서 유가 상승세가 꺾임.", "미 10년물 국채금리는 오후 중반 5.0% 이상에서 거의 내려갔다가 연설 직후 다시 4.95~5.00% 권역으로 안정화(변동성 축소).", "S&P500·Nasdaq 등 주요 지수는 오전 소폭 약세에서 오후(연설 직후) 반등으로 전환했고, 은행주(금리 민감)와 에너지주가 각각 다른 방향으로 움직인 것이 특징.", "CME FedWatch에서 11월 FOMC 추가인상 확률이 상대적으로 낮아지는 신호도 포착됨(유가발 인플레이션 압력 완화 기대)."],
+        why: ["이 연설은 표면적으로는 강경해 보이지만, 실질적으로는 '11월 이후 협상 테이블에 앉을 수 있다'는 신호를 보낸 첫 공식 언급이라는 점에서 시장에 큰 의미가 있다 - 지난주까지 '사우디 송유관 피격으로 전쟁 심화' 우려가 지배적이었는데, 한 걸음 물러나는 신호로 해석된 것.", "유가가 $90 이하로 빠진 것은 지난 2주의 '유가 급등→인플레이션 우려→금리인상' 연쇄반응을 부분 해제하는 의미라 갖는다 - 다만 '완전 해제'가 아니라 '일시 완화'의 성격이므로 협상 구체화 전까지는 반전 리스크가 있다.", "이 워치리스트 입장에서는 (1) 금리인상 경로가 완화될 가능성(밸류에이션 부담 감소), (2) 유가 안정화로 원자재 중심 종목의 상대적 매력 감소 가능성이 동시에 작용한다.", "하지만 11월까지 3개월 이상 협상이 예상되고, 그 사이 후티 반군·이스라엘 등 다른 변수들이 재격화될 수 있다는 점에서 '유가 구조적 안정'을 확정하기는 이르다."],
+        beginner: ["트럼프 대통령이 UN에서 이란에 대해 강한 말을 했어요. '격멸할 수 있다'고 했어요. 하지만 동시에 '11월 선거 후에는 딜할 수 있을 거다'라고도 했어요.", "투자자들이 주목한 건 강경한 말보다는 '협상 가능'이라는 부분이에요. 지난주까지는 '전쟁이 더 심해질 것 같다'는 공포가 있었는데, 이 발언이 '혹시 협상으로 풀릴 수도 있지 않을까'하는 희망을 만든 거죠.", "기름값이 많이 내려갔어요. WTI(미국 원유)는 $90 이하로 떨어졌고, Brent(세계 원유)는 $99 근처를 유지하고 있어요. 지난주까지는 기름값이 $100 이상 올라가 있었는데 말이에요.", "기름값이 내려가면 물가(인플레이션) 걱정도 줄어들고, 그럼 중앙은행이 금리를 더 이상 올릴 필요가 없을 수도 있어요. 반도체·AI 주식처럼 미래 성장에 베팅하는 주식들은 금리가 낮을수록 좋으니까 이건 긍정적인 신호예요.", "하지만 이건 '혹시'일 수도 있어요. 11월까지 3개월이 더 남았고, 그 사이 이란이나 아라비아 상황이 또 악화될 수도 있으니까 기름값·금리가 다시 올라갈 수도 있다는 뜻이에요. 상황을 계속 지켜봐야 해요."],
+        watch: ["이란-미국 간 외교 협상의 구체적 진전 여부(11월 선거 후 실제 협상 테이블 착석 확인)", "WTI 유가의 $90 이하 지속 여부 (상승으로 전환 시 신호 포함)", "미 10년물 국채금리 4.9~5.0% 권역 유지 또는 하향 추세 확인", "이스라엘-하마스·예멘 후티 반군 등 중동 다른 갈등 확전 여부", "다음 FOMC(11월 예정) 금리인상 경로 변화(점도표 수정 여부)"],
+        interpretation: "2주간 '유가 급등→인플레이션 우려→금리인상 가능성 상승'으로 이어진 악재 사이클이 일단 한 숨 돌릴 수 있다는 신호로 해석된다. 다만 이는 이란-미국 외교 진전의 '기대감'에 기반한 것이지, 실제 협상 진행이나 송유관 복구가 시작된 것은 아니다. 11월까지의 협상 결과를 봐야 '구조적 유가 안정→금리 인상 경로 완화'인지, 아니면 '일시적 안도→재확전'인지 판단할 수 있다.",
+        decision: "현물 매수를 고려한다면 오늘의 유가 하락·금리 안정화는 긍정 신호이지만, 그것만으로 눌림목 매수를 확정하기보다는 다음 주 중기의 협상 진전 소식을 함께 확인할 것을 권장. 분할매수 속도를 '빨리'에서 '정상'으로 전환하는 정도는 정당화할 수 있다.",
+        confidence: "트럼프 연설 내용은 UN 기자들의 직접 보도(Reuters, NBC, PBS, ABC)로 확인. 유가·금리 수치는 Bloomberg, Yahoo Finance 기준. 외교협상 진전 여부는 아직 발표 수준이라 실행(실제 협상 착석) 확인 시 신뢰도 상향될 예정.",
+        sources: [
+          { title: "Trump tells U.N. he could 'annihilate' Iran but expects a deal after the midterm elections", url: "https://www.nbcnews.com/politics/trump-administration/trump-address-united-nations-general-assembly-iran-war-rcna599085" },
+          { title: "Trump returns to UN at a moment of anxiety about Iran, AI and the future of the world body itself", url: "https://abcnews.com/US/wireStory/trump-returns-moment-anxiety-iran-ai-future-world-136640108" },
+          { title: "Oil little changed after Trump tells UN that Iran will make a deal after midterm elections", url: "https://www.cnbc.com/2026/09/22/oil-iran-us-bessent-un-crude.html" },
+        ],
+      },
+      {
         date: "2026-09-21",
         headline: "나스닥 사상최고치 경신(+2.26%, 27,122.09) - AI 반도체 랠리 확산(AMD 장중 시총 1조달러 돌파·INTC +12.7%·ARM +17%), 메타 'Muse' AI에이전트 흥행이 CPU 수요 재평가 촉발",
         tone: "positive",
@@ -1111,6 +1130,7 @@ const BUSINESS_NOTES = {
       {title:"The Brussels Reckoning: EU Launches High-Stakes Systemic Risk Probes into X and Meta (FinancialContent)", url:"https://markets.financialcontent.com/wral/article/tokenring-2026-1-16-the-brussels-reckoning-eu-launches-high-stakes-systemic-risk-probes-into-x-and-meta-as-ai-act-enforcement-hits-full-gear"},
     ],
     newsLog: [
+      { date: "2026-09-23", headline: "Meta Connect 2026 Zuckerberg keynote (9/23-24) - 'Phoenix' \ud63c\ud569\ud604\uc2e4 \ud5e4\ub4dc\uc14b\u00b7AI \uae00\ub798\uc2a4\u00b7\uba54\ud0c0\uc544\ubc14\ud0c0 \ucf54\ub371 \ubc1c\ud45c, \uc5d4\ud130\ud504\ub77c\uc774\uc988 AI \ubc0f \uc6e8\uc5b4\ub7ec\ube14 \uc804\ub7b5 \uacf5\uac1c" },
       {
         date: "2026-09-08",
         headline: "이용자 3명, 메타 상대 크립토 사기 광고 방조 집단소송 제기 - '생성AI 광고 도구가 사기 효과 높였다' 주장",
@@ -2300,6 +2320,7 @@ const BUSINESS_NOTES = {
       {title:"Intel Outlines Financial Framework for Foundry Business, Sets Path to Margin Expansion (Intel Newsroom)", url:"https://newsroom.intel.com/corporate/intel-outlines-financial-framework-for-foundry-business-sets-path-to-margin-expansion"},
     ],
     newsLog: [
+      { date: "2026-09-22", headline: "\uc778\ud154 Crescent Island AI GPU \uacf5\uac1c(Hot Chips 2026) - 32 Xe3P \ucf54\uc5b4\u00b7LPDDR5X 160GB~480GB\u00b7\uc5d0\uc774\uc804\ud2b8AI \ucd94\ub860 \ucd5c\uc801\ud654, Q3 \uc0d8\ud50c\ub9c1/2027 \ucd9c\uc2dc \uc9c0\uc5f0" },
       {
         date: "2026-09-21",
         headline: "주가 +12.7% 급등 - Tigress Financial 목표가 $118→$145 상향(Terafab 파트너십·Xeon 수요·18A 공정 근거), 트럼프-시진핑 국빈만찬 앞두고 AI 낙관론 확산",
