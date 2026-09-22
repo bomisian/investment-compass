@@ -1974,6 +1974,25 @@ const BUSINESS_NOTES = {
     ],
     newsLog: [
       {
+        date: "2026-09-22",
+        headline: "Rosenblatt Securities 커버리지 개시(매수·목표가 $2,400, +36% 여력) - NAND을 'AI 필수 부품'으로 재평가, 주가 +5~6%대 상승",
+        importance: "medium",
+        tone: "positive",
+        horizon: "중기(신규 고객 계약·2028회계연도 생산량 확약 물량이 실제 매출로 확인되는지까지)",
+        facts: ["2026-09-22(화) Rosenblatt Securities 애널리스트 Kevin Cassidy가 샌디스크(SNDK)에 대해 신규 커버리지를 개시하며 '매수(Buy)' 의견과 목표가 $2,400을 제시 - 이날 종가 $1,766.64 대비 약 +36% 상승 여력을 시사.", "이 소식에 SNDK 주가는 장중 +5~6%대 상승(일부 매체는 +6.7%, 다른 매체는 +5% 보도), 같은 날 마이크론(+3%)·시게이트도 동반 강세.", "Cassidy는 SanDisk가 2028 회계연도 생산량의 약 65%에 해당하는 신규 고객 계약을 확보한 점을 핵심 근거로 들며, 이것이 낸드 산업 특유의 '호황-불황' 사이클을 완화시킬 수 있다고 평가.", "핵심 투자논지는 'AI가 낸드플래시의 용도를 바꾸고 있다' - 낸드가 범용 저장장치(commodity)에서 AI 컴퓨팅 시스템의 핵심 부품으로 재평가되고 있다는 내용.", "SNDK 주가는 연초 대비 약 +678% 상승한 상태."],
+        why: ["이번 상승은 실적 발표가 아니라 애널리스트의 신규 커버리지 개시(매수 의견·목표가 제시)에 따른 것 - 아직 확정된 재무 성과가 아니라 전망(주장)에 가깝다는 점에 유의.", "다만 '2028 회계연도 생산량의 65%를 이미 고객사와 계약'이라는 근거는 구체적인 수주 잔고(백로그) 성격이라, 단순 심리적 기대보다는 매출 가시성이 비교적 높은 편에 속한다.", "9/18 항목에서 다룬 S&P 100 편입(패시브 자금 유입)과는 별개의 재료로, 이번엔 개별 애널리스트의 펀더멘털 재평가(밸류에이션 상향)가 상승 배경이라는 점에서 성격이 다르다.", "이미 연초 대비 +678% 급등한 상태에서 추가 목표가 상향이 나온 것이라, 단기 과열·차익실현 리스크는 계속 염두에 둘 필요가 있다."],
+        beginner: ["한 증권사(Rosenblatt Securities)가 샌디스크에 대해 처음으로 분석을 시작하면서 '사라'는 의견과 함께 목표주가 2,400달러를 제시했어요. 그날 종가(1,766.64달러) 대비 36% 정도 더 오를 여력이 있다고 본 거예요.", "이 소식에 주가가 하루 만에 5~6% 정도 올랐고, 같은 날 마이크론 같은 다른 메모리 회사 주가도 함께 올랐어요.", "이 증권사가 내세운 이유는 두 가지예요: 첫째, 낸드플래시(저장장치에 쓰는 메모리)가 이제 AI 컴퓨터에 꼭 필요한 핵심 부품으로 여겨지기 시작했다는 것, 둘째, 샌디스크가 2028년 생산할 물량의 65% 정도를 벌써 고객들과 계약해뒀다는 것이에요 - 미래 매출이 어느 정도 확보됐다는 뜻이죠.", "다만 이건 한 증권사의 의견일 뿐이고, 실제로 그만큼 오를지는 알 수 없어요. 샌디스크 주가는 올해 들어 이미 678%나 올라있는 상태라 너무 많이 오른 것 아니냐는 걱정도 함께 있다는 점을 참고하세요."],
+        interpretation: "9/18 S&P 100 편입(수급 요인)에 이어 이번엔 애널리스트의 펀더멘털 재평가(밸류에이션 상향)가 상승 재료로 등장 - 두 재료가 연속으로 나오며 주가 상승 동력이 다변화되는 모습이다. 다만 두 재료 모두 '전망'의 영역이라 실제 실적(다음 분기 가이던스)으로 확인되는지가 중요하다.",
+        decision: "단일 애널리스트의 목표가 상향만으로 매수 근거를 삼기보다, 2028 회계연도 생산량 65% 계약이라는 구체적 수주 내용이 이후 실적 발표(가이던스)에서 확인되는지를 지켜볼 것을 권장.",
+        watch: ["2028 회계연도 생산량 65% 계약 관련 구체적 고객사·조건이 추가로 공개되는지", "다음 분기 실적에서 NAND 가격·마진이 이번 재평가 논지를 뒷받침하는지", "+678% 급등 이후 밸류에이션 부담에 따른 조정 가능성"],
+        confidence: "Rosenblatt Securities의 커버리지 개시(매수·목표가 $2,400)와 이날 주가 상승률은 다수 매체(GuruFocus, 24/7 Wall St., Invezz)가 교차 확인. 다만 상승폭은 매체별로 +5%~+6.7%로 약간의 편차가 있어 정확한 수치는 참고용으로 볼 것.",
+        sources: [
+          {title:"SanDisk (SNDK) Receives \"Buy\" Rating with $2400 Target Price from Rosenblatt Securities (GuruFocus)", url:"https://www.gurufocus.com/news/9091764/sandisk-sndk-receives-buy-rating-with-2400-target-price-from-rosenblatt-securities"},
+          {title:"SanDisk Jumps 6% as Rosenblatt Starts Coverage at Buy With $2,400 Target; Micron Rises 3%, Seagate Ticks Up (24/7 Wall St.)", url:"https://247wallst.com/investing/2026/09/22/sandisk-jumps-6-as-rosenblatt-starts-coverage-at-buy-with-2400-target-micron-rises-3-seagate-ticks-up/"},
+          {title:"SanDisk stock could climb 35% more, Rosenblatt says with a $2,400 target: here's why (Invezz)", url:"https://invezz.com/pk/news/2026/09/22/sandisk-stock-could-climb-35percent-more-rosenblatt-says-with-a-dollar2400-target-heres-why/"},
+        ],
+      },
+      {
         date: "2026-09-18",
         headline: "S&P 100 편입(9/21 발효) 앞두고 +4.93% - AI 데이터센터向 스토리지 수요 모멘텀도 반영",
         importance: "medium",
