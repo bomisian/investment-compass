@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 14.84000015258789,
+      "current": 14.710000038146973,
       "prevClose": 14.869999885559082,
-      "changeAbs": -0.029999732971191406,
-      "changePct": -0.20174669268374024,
-      "pctRank": 20.047732696897373,
+      "changeAbs": -0.15999984741210938,
+      "changePct": -1.0759909121955835,
+      "pctRank": 18.536197295147176,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -52.206117496855796,
-      "ma20": 15.629500007629394,
-      "ma60": 16.117833280563353,
-      "chg1m": -1.010000228881836,
-      "chg3m": -3.789999008178711,
-      "chg1mPct": -6.372241038319657,
-      "chg3mPct": -20.343527530372455,
+      "drawdown1y": -52.62479742482742,
+      "ma20": 15.623000001907348,
+      "ma60": 16.11566661198934,
+      "chg1m": -1.140000343322754,
+      "chg3m": -3.919999122619629,
+      "chg1mPct": -7.19243101505241,
+      "chg3mPct": -21.0413274246134,
       "lastDate": "2026-09-22",
       "bars": 1257,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 89.38999938964844,
+      "current": 90.13999938964844,
       "prevClose": 95.77999877929688,
-      "changeAbs": -6.3899993896484375,
-      "changePct": -6.671538391196612,
-      "pctRank": 81.5433571996818,
+      "changeAbs": -5.6399993896484375,
+      "changePct": -5.888493904290526,
+      "pctRank": 82.33890214797135,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -20.858785476010066,
-      "ma20": 93.49650154113769,
-      "ma60": 84.45416717529297,
-      "chg1m": 2.3300018310546875,
-      "chg3m": 16.18000030517578,
-      "chg1mPct": 2.676317363191439,
-      "chg3mPct": 22.100806594064622,
+      "drawdown1y": -20.194774833899398,
+      "ma20": 93.5340015411377,
+      "ma60": 84.46666717529297,
+      "chg1m": 3.0800018310546875,
+      "chg3m": 16.93000030517578,
+      "chg1mPct": 3.537792232284135,
+      "chg3mPct": 23.125256818595588,
       "lastDate": "2026-09-22",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 100.34100341796875,
+      "current": 100.41200256347656,
       "prevClose": 100.43000030517578,
-      "changeAbs": -0.08899688720703125,
-      "changePct": -0.08861583882962976,
-      "pctRank": 37.629276054097055,
+      "changeAbs": -0.01799774169921875,
+      "changePct": -0.01792068270888098,
+      "pctRank": 37.867939538583926,
       "min5y": 93.0999984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.2488900548766835,
-      "ma20": 99.51104965209962,
-      "ma60": 100.11385027567546,
-      "chg1m": 1.5410003662109375,
-      "chg3m": -1.069000244140625,
-      "chg1mPct": 1.559716921672221,
-      "chg3mPct": -1.0541368755911444,
+      "drawdown1y": -1.1790158839473097,
+      "ma20": 99.514599609375,
+      "ma60": 100.11503359476725,
+      "chg1m": 1.61199951171875,
+      "chg3m": -0.9980010986328125,
+      "chg1mPct": 1.631578402760049,
+      "chg3mPct": -0.9841249014821835,
       "lastDate": "2026-09-22",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4370.10009765625,
+      "current": 4355.5,
       "prevClose": 4383.89990234375,
-      "changeAbs": -13.7998046875,
-      "changePct": -0.31478375407527565,
-      "pctRank": 88.63275039745628,
+      "changeAbs": -28.39990234375,
+      "changePct": -0.6478227828278345,
+      "pctRank": 88.31478537360891,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.830547196527966,
-      "ma20": 4460.869970703125,
-      "ma60": 4297.50166015625,
-      "chg1m": -310.5,
-      "chg3m": 220.7001953125,
-      "chg1mPct": -6.633764763528481,
-      "chg3mPct": 5.318846110442128,
+      "drawdown1y": -18.10506768999097,
+      "ma20": 4460.139965820313,
+      "ma60": 4297.258325195313,
+      "chg1m": -325.10009765625,
+      "chg3m": 206.10009765625,
+      "chg1mPct": -6.945692664900803,
+      "chg3mPct": 4.966985648691905,
       "lastDate": "2026-09-22",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,6 +237,34 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Flight disruptions ease at Newark, Philadelphia following equipment outage",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/22/flight-disruptions-ease-at-newark-philadelphia-after-equipment-outage.html",
+      "datetime": 1790077223,
+      "headlineKo": "장비 중단으로 필라델피아 뉴어크 항공편 운항 중단 완화"
+    },
+    {
+      "headline": "Iran ready to reopen Strait of Hormuz if US eases military pressure and lifts blockade - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNEdfLVlEeU1GTjFkdDRlZ2NCN19kT0tNTEdKTnJBM29mNGk4OW9EMURHRm9WTEljdFBQY3Y1OTB6VnJBMFRMclpzV2xrV0M4NVMzZld6MlFJeHB1Rnp3Y01aVDJ4STB0Vk80bVE5X2JGaHRPeXlHM1h0WExNNHRlWEhuZkhjWWF0ajJYMGxsX0l1djRWYzRJbUZnbkpTM0k2LWZiT1AtWHA1QnhuajhwOVhjOExkWmNOcjkwXzJJTWJUWWlUazVtTDhR?oc=5",
+      "datetime": 1790072478,
+      "headlineKo": "이란, 미국이 군사적 압박 완화하고 봉쇄 해제하면 호르무즈 해협 재개 준비 - 로이터"
+    },
+    {
+      "headline": "ECB, EU central banks oppose stablecoin bank deposit rule - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSXByZ1dMUmEtUkNYT0FyXzRxTVhhUWZJS0RRYU54WlNnaDRFc2lqYWF0MllMOVp1OVVEUm5OQk9yV0FCcENvZldNN1p2MGJCNWlydVpCc3lqaWI3dkFITjFjLUY5d3d0anpSU2pQWVEycUJJMTRzaGNLOUt3c3dueXA0Q0RDbkI4cnVqa05fSFZQM1l3SXRUWUVtT3p1N2JTRy14c3lOaFRMSWYtd3c?oc=5",
+      "datetime": 1790072453,
+      "headlineKo": "ECB, EU 중앙은행, 스테이블코인 은행 예금 규정 반대 - Reuters"
+    },
+    {
+      "headline": "China names Hu Changsheng as new Tibet party chief - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWGFKVnhQN2tVX01XZXJKUk1MalJ6QVhwQ3pwMVp6VUdMMExuQlBDdFBRX3RVN1BnQnA4NFAwa042QnFNTUV5ZVl1TUdaNWlCb1h6OE9IaFBiTlRTNkoyRHE2Q0xBTnpYR0pnOXBuVmFrNzhmUXpvcjBuVzFEV0FJZ1lQMnlqbzBZUXFTOXhndDYzaXhkTHVoZnd0WQ?oc=5",
+      "datetime": 1790062306,
+      "headlineKo": "중국, 후창성(Hu Changsheng)을 티베트 신임 당서기로 임명 - Reuters"
+    },
+    {
       "headline": "Trump set for whirlwind UN meetings with wars in Iran, Ukraine on agenda - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOFdkQk9aWHdzT0hrcFhDNDZPSmlwQVBUUm12TGd4SUVPUURUMVo4Y3I0WHZBSTIxdjdKTWZ4WkF3cVUzUnlrWmNrbTA5T21UN3R0Z0JnekdrZm5ReC1ZS2JmUWVQRXRVNzhaYmNucDI5YVh6d2JxeHp5Yi00Y3p2d0loRTY5YXNiWGRHTlJZb1ZiX1paMVh3UU1XVThfUXR2NHF3T0pod3BBS3VpU3AyTDB3?oc=5",
@@ -249,6 +277,13 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/22/oil-iran-us-bessent-un-crude.html",
       "datetime": 1790050940,
       "headlineKo": "베센트가 이란 항공사 폐쇄 경고를 발령한 후 이란과 미국의 긴장이 고조되는 가운데 석유가 상승하고 있다."
+    },
+    {
+      "headline": "Rupee sways with oil and intervention cues, keeping traders light-footed - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOWZrdHpXRTZxYlZrdHdteGhlbjY4M3lwblRfTEM3d1RsUzRhVjlxX3B5Vnd1a3I5bFZOZ3J1TnpBNTgyYk90WUY1MVdCSEdqZ2Nha0RNV0NvN2RueGgxZ2ZWd3lrVldUUGJValV0djJmNHY2TV9SNUQyeXBTWjBFY2VLTHV4b3UyTmxQRVFHWEFKQU5RSWtSODhuVmU3RDNhai02NzBjQXd6cGZxSFNRZThR?oc=5",
+      "datetime": 1790045880,
+      "headlineKo": "루피는 원유 및 개입 단서로 흔들리며 거래자들의 발을 가볍게 유지합니다 - Reuters"
     },
     {
       "headline": "Alibaba deepens AI push with new chip, bigger model; shares jump 5% - Reuters",
@@ -272,63 +307,28 @@ const MARKET_DATA = {
       "headlineKo": "인도 주식은 유가 완화와 채권 수익률 상승으로 상승했습니다. IT 상한선 상승 - 로이터"
     },
     {
+      "headline": "Gold slips as Fed officials signal rate hikes - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbVA2UjFJM3dkZnhldzYxTHFKc3JKUndzZmw3LUZhR1dUOUQxYWRQanA0bHVPOEhuMk9XWk1uSXFyQXdvWnVXU2Q0ZUtjUktnb2tnLWhCa1ZRS3Vqemt3cFNEMXRqbTU3TnFUM0loWUJxUTc3Z0NOb0tHc09zOVZMOUFEOElkVUVrS3lzdHRib1g2YTJOdjZqYTVWWFk?oc=5",
+      "datetime": 1790043540,
+      "headlineKo": "Fed 관계자들이 금리 인상 신호를 보내면서 금 하락 - Reuters"
+    },
+    {
       "headline": "Binance under US scrutiny over possible Iran sanctions violations, Bloomberg News reports - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWTZ2N0lkRzA4d1VKa1E1SS1nUW5nTzlqTTBfaUx4eVlPVGlsTGFEOF94Q3YteWI1aTB4R0xZSV9sUjFpbnpWTl9yNHloekltZkxvZVVYeDBaYTNHX0tPa3JCVWZiV0tWOG84QTIyeGxwTm5OWl92N1p0YnFyOWxueFpIYmpPMUptVElHYmJHdEJOYWsxbHdELWFmNy1BZl9xU2pEWjNTX2VIUUhQNEREXzVRaTVoRFpXWlRseXNWRG9hQ1hQVUIzblZQS1RUZw?oc=5",
       "datetime": 1790042640,
       "headlineKo": "블룸버그통신은 바이낸스가 이란 제재 위반 가능성에 대해 미국의 조사를 받고 있다고 보도했습니다. - 로이터 통신"
-    },
-    {
-      "headline": "Macron says he discussed Ukraine-Russia energy truce ideas with Trump - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSDY2SG1Ba0Z5TTRwY0IzMHBTTEpSTDZiaFRmNkY2SzVwRjV0TkF1TWFMUl9uZVF3RjhmcTFrQ2NDdVl3eDRQYnROaTV2bnliMHplaXJHVjZsNGJ3MGVZY0dSbjgwcjg3bm9HcXR5WmpDZXo0UDZrMlJJWWIzdjhHNDI4ZVQ1WW9LM1VmQmMwZVVKaWxHTVNiRF9vWkROUnR5a09uZ3ZiZlRnd3lUaWJSRA?oc=5",
-      "datetime": 1790037360,
-      "headlineKo": "마크롱은 트럼프 대통령과 우크라이나-러시아 에너지 휴전 아이디어를 논의했다고 밝혔습니다."
-    },
-    {
-      "headline": "Oil falls 1% after reports suggest Iran could reopen Hormuz within seven days - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMzJ5LUNVMlYtZzRwaGc4MDRoSlpkWFJpVkZnUWlIR2dhbHlqc3ltYXpEQTd2SmhDWlhydUFqMkpMQ2FrZkk0NzlUYWwwR0R2SDBKcWMxaklPcV9FNGpvN2tYOExMb1kzMzZFTGJrNHpvY1FvSElhUDBBSDgxakxoUTlJOXVncjJJbXQyZy15bHFkUzViQlhlTHpMeUNpa2lxN0E?oc=5",
-      "datetime": 1790037240,
-      "headlineKo": "이란이 7일 이내에 호르무즈를 재개할 수 있다는 보도 이후 유가는 1% 하락 - 로이터"
-    },
-    {
-      "headline": "Two Republican Senate candidates call for swift end to Iran war, diverging from Trump - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRlhKcGFudk9RbFRaSkdnYmpiTEtqVlNjb3dxMVdMbHFxWVM5U3pGRHdJWG5GSFVjLXBTOTRiTXJiX3JHMW14UnRMTFBZLW4zWlR4MkNWbFhYcTBnYWllTUEyT1liNzRVTVFSTDM4NUxnQTBMd0ZoZUFOcmFDZWRna3ktaVdhWVdPNzNNLV8ydEFib3g0RXhYRDNtcDNwR0hncUtIeVN5bjJRa196Y19VOUVWQjR1SGc2?oc=5",
-      "datetime": 1790032980,
-      "headlineKo": "공화당 상원 후보 2명, 이란 전쟁 조속히 종식 촉구"
-    },
-    {
-      "headline": "Lockheed wins US Army missile contract worth up to $1.2 billion - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPU0g3eUhxbmJIVWlkVzd1VGdWcHlRNDloREFqOFV0WFVwYjI5RUIxZW01YVVMdGU4U2QtVmtTdmp1R0RFay1GRWJrTndXVndfeDNURG53Tk5hZDdjRVp6Y3pXM1hmcDdRbmI0UUFpeGhkeTFaeTJyZ0JDcjhWM3o2ZWlBWUJzZGt0ZGl1YzRncjBLVjdFYmo1NEJPemJwOXZBa09RTERoSlBPRmhEY2J3eEFCb1hfRjFoZmM5V3VB?oc=5",
-      "datetime": 1790030010,
-      "headlineKo": "록히드, 최대 12억 달러 상당의 미 육군 미사일 계약 체결 - Reuters"
-    },
-    {
-      "headline": "EU's Kallas says Red Sea mission needs more than 10 warships - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaTU1WUtvVTVxSEdiWmZRb3EtNGJJVU5iWnJvSTNiWW5jWjVjWGhPcURCUGpzNDhhYkhfaUdYTmlQUWlNelpYTVZDRVhQLWNRSXFvR280eGhQNGg4WTVkNGVHQ2swS2lqeU9wOE8zTmppa1BPMFN6TllILXVjWlpHbXlVTjcwTDB6MEFjRno1em5uVDdkcG9rcTFDWkwxLWdBMFE0Skhnbw?oc=5",
-      "datetime": 1790027760,
-      "headlineKo": "EU의 Kallas는 홍해 임무에 10척 이상의 전함이 필요하다고 말했습니다 - Reuters"
-    },
-    {
-      "headline": "UK's Burnham agrees to Saudi request for refuelling support - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOFY5NmpXN1F2cFlSR2N2S3hBbDdZOG1Zay1pQVBSRlNQN0ZkbWlHTHNPUF9WSkdnN0w3bWhLV0hVUllmVXhZRnMzMU1oV2dtai1uMDA0enJRVGRZMlFLOGUxMVctbDhnYlNHdHQ2dUxPLWl5eFdGRkRfb0hsUFc3MzVKeDZ5cERiSEh6YzE2Rk5FcGxSczczcjFvWlZTMEJBLTVBenRKMzdGdWc3QnlyZElyT0s?oc=5",
-      "datetime": 1790027121,
-      "headlineKo": "영국 번햄, 사우디의 급유 지원 요청에 동의 - 로이터 통신"
     }
   ],
   "fgi": {
     "score": 33.6571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1790074372.819226,
-  "_updated_label": "2026-09-22 19:53",
-  "_last_attempt_at": 1790074372.819226,
-  "_last_success_at": 1790074372.819226,
+  "_fetched_at": 1790077997.2886264,
+  "_updated_label": "2026-09-22 20:54",
+  "_last_attempt_at": 1790077997.2886264,
+  "_last_success_at": 1790077997.2886264,
   "_collection_status": "ok",
   "_collection_errors": []
 };
