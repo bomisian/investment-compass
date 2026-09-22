@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 93.54000091552734,
+      "current": 93.62000274658203,
       "prevClose": 95.77999877929688,
-      "changeAbs": -2.2399978637695312,
-      "changePct": -2.3386906372081864,
+      "changeAbs": -2.1599960327148438,
+      "changePct": -2.2551639802084997,
       "pctRank": 86.47573587907716,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -17.184591905397937,
-      "ma20": 93.70400161743164,
-      "ma60": 84.52333386739095,
-      "chg1m": 6.480003356933594,
-      "chg3m": 20.330001831054688,
-      "chg1mPct": 7.443146724846132,
-      "chg3mPct": 27.76943325405196,
+      "drawdown1y": -17.113762482453065,
+      "ma20": 93.70800170898437,
+      "ma60": 84.52466723124186,
+      "chg1m": 6.560005187988281,
+      "chg3m": 20.410003662109375,
+      "chg1mPct": 7.535039480759482,
+      "chg3mPct": 27.87871044576778,
       "lastDate": "2026-09-22",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 100.35600280761719,
+      "current": 100.45500183105469,
       "prevClose": 100.43000030517578,
-      "changeAbs": -0.07399749755859375,
-      "changePct": -0.07368067045079975,
-      "pctRank": 37.629276054097055,
+      "changeAbs": 0.02500152587890625,
+      "changePct": 0.024894479540908423,
+      "pctRank": 38.106603023070804,
       "min5y": 93.0999984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.23412832910329,
-      "ma20": 99.51179962158203,
-      "ma60": 100.11410026550293,
-      "chg1m": 1.555999755859375,
-      "chg3m": -1.0540008544921875,
-      "chg1mPct": 1.5748984896733678,
-      "chg3mPct": -1.0393460373042094,
+      "drawdown1y": -1.1366979355959317,
+      "ma20": 99.51674957275391,
+      "ma60": 100.11575024922689,
+      "chg1m": 1.654998779296875,
+      "chg3m": -0.9550018310546875,
+      "chg1mPct": 1.6750999273045366,
+      "chg3mPct": -0.9417234952842354,
       "lastDate": "2026-09-22",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4368.0,
+      "current": 4355.7998046875,
       "prevClose": 4383.89990234375,
-      "changeAbs": -15.89990234375,
-      "changePct": -0.3626885352753946,
-      "pctRank": 88.63275039745628,
+      "changeAbs": -28.10009765625,
+      "changePct": -0.640984016109194,
+      "pctRank": 88.31478537360891,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.87003459301586,
-      "ma20": 4460.764965820313,
-      "ma60": 4297.466658528646,
-      "chg1m": -312.60009765625,
-      "chg3m": 218.60009765625,
-      "chg1mPct": -6.678632891811895,
-      "chg3mPct": 5.268234029040579,
+      "drawdown1y": -18.09943056805572,
+      "ma20": 4460.154956054687,
+      "ma60": 4297.263321940104,
+      "chg1m": -324.80029296875,
+      "chg3m": 206.39990234375,
+      "chg1mPct": -6.939287403155624,
+      "chg3mPct": 4.974210902814331,
       "lastDate": "2026-09-22",
       "bars": 1258,
       "symbol": "GC=F",
@@ -244,32 +244,39 @@ const MARKET_DATA = {
       "headlineKo": "베센트가 이란 항공사 폐쇄 경고를 발령한 후 이란과 미국의 긴장이 고조되는 가운데 석유가 상승하고 있다."
     },
     {
-      "headline": "Oil rises slightly ahead of potential US-Iran talks - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMzJ5LUNVMlYtZzRwaGc4MDRoSlpkWFJpVkZnUWlIR2dhbHlqc3ltYXpEQTd2SmhDWlhydUFqMkpMQ2FrZkk0NzlUYWwwR0R2SDBKcWMxaklPcV9FNGpvN2tYOExMb1kzMzZFTGJrNHpvY1FvSElhUDBBSDgxakxoUTlJOXVncjJJbXQyZy15bHFkUzViQlhlTHpMeUNpa2lxN0E?oc=5",
-      "datetime": 1790048459,
-      "headlineKo": "미-이란 회담 앞두고 유가 소폭 상승 - 로이터"
-    },
-    {
-      "headline": "G7 foreign ministers call on Iran to stop arming Houthis - Reuters",
+      "headline": "G7 foreign ministers call on Iran to stop arming Houthis - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQS01wSTFweHdPbVI1QkNWSXlpQzMxd1FsX0lCcnBpNlQ4dFFVeDdTLWkxNmJNWEdBUi1iZ3VYQ0JjbGdIeGY4Q0ZZXzB6NW9fdVpkSXpLSzdvSzBKNHVBZDNVVGJJV1ZDZXNYMGpwVW9fMklhN0hjMVRia3FNcGFITkVrd1QyTVc4SWI3VXpyelRzbG5uTVZjZkNEZ1lETnpObGs4?oc=5",
       "datetime": 1790045100,
-      "headlineKo": "G7 외무장관들, 이란에 후티 무장 중단 촉구 - 로이터"
+      "headlineKo": "G7 외무장관, 이란에 후티 반군 무장 중단 촉구 - reuters.com"
     },
     {
-      "headline": "Indian shares likely to open higher on easing oil prices, bond yields - Reuters",
+      "headline": "Indian shares edge higher on easing oil prices, bond yields; IT caps gains - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQXlPVWFzejJKbzBBSVA5ZFhMbUdTZ0VVS1RZVXBpMlJRZC1Lak9aNmdldDEwdVZ1RGlPMjlUUFdFSGdocFlTbVpjLTFLcXJsN2VqTFhVZ1d0YmYwLTBUNG9tUHVmWEs2Q1E3em4za29OcHo3MFk2Q0twV3M5WFB4Q2ppeW9LVnd3SzJ2SHhLN1N6MTI4YVU0dDBuS0htU3R5SW9maHVnR2NDUFlManVqYTRidGZiYzVv?oc=5",
       "datetime": 1790044020,
-      "headlineKo": "인도 주식은 유가 완화, 채권 수익률에서 더 높게 열릴 것으로 보인다. - 로이터"
+      "headlineKo": "인도 주식은 유가 완화와 채권 수익률 상승으로 상승했습니다. IT 상한선 상승 - reuters.com"
     },
     {
-      "headline": "Two Republican Senate candidates call for swift end to Iran war, diverging from Trump - Reuters",
+      "headline": "Binance under US scrutiny over possible Iran sanctions violations, Bloomberg News reports - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWTZ2N0lkRzA4d1VKa1E1SS1nUW5nTzlqTTBfaUx4eVlPVGlsTGFEOF94Q3YteWI1aTB4R0xZSV9sUjFpbnpWTl9yNHloekltZkxvZVVYeDBaYTNHX0tPa3JCVWZiV0tWOG84QTIyeGxwTm5OWl92N1p0YnFyOWxueFpIYmpPMUptVElHYmJHdEJOYWsxbHdELWFmNy1BZl9xU2pEWjNTX2VIUUhQNEREXzVRaTVoRFpXWlRseXNWRG9hQ1hQVUIzblZQS1RUZw?oc=5",
+      "datetime": 1790042640,
+      "headlineKo": "블룸버그통신은 바이낸스가 이란 제재 위반 가능성에 대해 미국의 조사를 받고 있다고 보도했습니다. - reuters.com"
+    },
+    {
+      "headline": "Oil rises slightly ahead of potential US-Iran talks - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMzJ5LUNVMlYtZzRwaGc4MDRoSlpkWFJpVkZnUWlIR2dhbHlqc3ltYXpEQTd2SmhDWlhydUFqMkpMQ2FrZkk0NzlUYWwwR0R2SDBKcWMxaklPcV9FNGpvN2tYOExMb1kzMzZFTGJrNHpvY1FvSElhUDBBSDgxakxoUTlJOXVncjJJbXQyZy15bHFkUzViQlhlTHpMeUNpa2lxN0E?oc=5",
+      "datetime": 1790037240,
+      "headlineKo": "미-이란 회담 앞두고 유가 소폭 상승 - reuters.com"
+    },
+    {
+      "headline": "Two Republican Senate candidates call for swift end to Iran war, diverging from Trump - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRlhKcGFudk9RbFRaSkdnYmpiTEtqVlNjb3dxMVdMbHFxWVM5U3pGRHdJWG5GSFVjLXBTOTRiTXJiX3JHMW14UnRMTFBZLW4zWlR4MkNWbFhYcTBnYWllTUEyT1liNzRVTVFSTDM4NUxnQTBMd0ZoZUFOcmFDZWRna3ktaVdhWVdPNzNNLV8ydEFib3g0RXhYRDNtcDNwR0hncUtIeVN5bjJRa196Y19VOUVWQjR1SGc2?oc=5",
-      "datetime": 1790033143,
-      "headlineKo": "공화당 상원 후보 2명, 이란 전쟁 조속히 종식 촉구"
+      "datetime": 1790032980,
+      "headlineKo": "공화당 상원 후보 2명이 이란 전쟁의 조속한 종식을 요구하며 트럼프와는 다르다 - reuters.com"
     },
     {
       "headline": "Lockheed wins US Army missile contract worth up to $1.2 billion - Reuters",
@@ -279,11 +286,11 @@ const MARKET_DATA = {
       "headlineKo": "록히드, 최대 12억 달러 상당의 미 육군 미사일 계약 체결 - Reuters"
     },
     {
-      "headline": "EU's Kallas says Red Sea mission needs more than 10 warships - Reuters",
+      "headline": "EU's Kallas says Red Sea mission needs more than 10 warships - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaTU1WUtvVTVxSEdiWmZRb3EtNGJJVU5iWnJvSTNiWW5jWjVjWGhPcURCUGpzNDhhYkhfaUdYTmlQUWlNelpYTVZDRVhQLWNRSXFvR280eGhQNGg4WTVkNGVHQ2swS2lqeU9wOE8zTmppa1BPMFN6TllILXVjWlpHbXlVTjcwTDB6MEFjRno1em5uVDdkcG9rcTFDWkwxLWdBMFE0Skhnbw?oc=5",
       "datetime": 1790027760,
-      "headlineKo": "EU의 Kallas는 홍해 임무에 10척 이상의 전함이 필요하다고 말했습니다 - Reuters"
+      "headlineKo": "EU의 Kallas는 홍해 임무에 10척 이상의 전함이 필요하다고 말했습니다 - reuters.com"
     },
     {
       "headline": "Stocks had a great day on the surface. But something alarming occurred not seen since 1999",
@@ -293,18 +300,18 @@ const MARKET_DATA = {
       "headlineKo": "주식은 표면적으로 좋은 하루를 보냈습니다. 그러나 1999년 이후 볼 수 없었던 놀라운 일이 발생했습니다."
     },
     {
-      "headline": "Trump administration proposes $5 billion to kickstart investment fund to rebuild Gulf energy sites, WSJ reports - Reuters",
+      "headline": "Trump administration proposes $5 billion to kickstart investment fund to rebuild Gulf energy sites, WSJ reports - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQzdFZjM2QWJJQ0xUUE1Tb2llS3dpWkd3QU9lZWk1QjVCenN4VlE2RnVyUnVFRjhNd29mbWxVVVJDWWlCVnFDbFRfY1NldDQzOTg5UEN1UF9oWVZMS0FSeTZLT1NxZU5DN0lYbzgwNVktTjhrMGFtaUp0T3FsWjVQT1JsZFhQSmV2NU1Kd3hpVjdPdFhTbG8yaWFNV1RfeXNLQ1lvU2tkRmJzSnMtN2kzR2d6NDUtUzUwWDRRWkRQYURQMzl0Q0pLRS0tWVE?oc=5",
       "datetime": 1790023781,
-      "headlineKo": "트럼프 행정부는 걸프 에너지 현장을 재건하기 위한 투자 자금을 시작하기 위해 50억 달러를 제안했다고 WSJ가 보도했습니다 - Reuters"
+      "headlineKo": "트럼프 행정부, 걸프만 에너지 현장 재건을 위한 투자 자금 50억 달러 제안, WSJ 보도 - reuters.com"
     },
     {
-      "headline": "PODCAST: Paramount deal, Germany elections and AI at the UN (Updated) - Reuters",
+      "headline": "PODCAST: Paramount deal, Germany elections and AI at the UN (Updated) - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYkl4X2FBeTYxUnROWDVRbDFTcTk4MnByZWdwTHZWRWRSYmNpbXBtcXl4ck8xeTd4ZDhQX1k4TjZjU0hHdnE0LVdtai05UXFxTUNMX0J1ajdPRmxUYllsOVJUZldTREJoOTNpM3ZycTZXckxsbHBXY3hHRUJoZWtIWG1jQkRDYm1DYkh0Ug?oc=5",
       "datetime": 1790022168,
-      "headlineKo": "팟캐스트: 파라마운트 거래, 독일 선거 및 UN의 AI(업데이트) - Reuters"
+      "headlineKo": "팟캐스트: 파라마운트 거래, 독일 선거 및 UN AI(업데이트) - reuters.com"
     },
     {
       "headline": "Wall Street ends sharply higher as AI optimism reignites and Treasury yields retreat - Reuters",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbUY0bG1IQkExN3pxSFZoX1VGN0hTNkluZ1hFd1F6VzZwdWtPRExzOXRnS0prRjV1M0I3U2tfUnhZcmJSQkV6STFKbUo2YXB6S1RhNUkycUFJUXg3UXA0WW9CWkRYaVVVUGRqRmRtUERCU1I4M3ZMYXhETmY1Q3FZQU9Ob1MtMzRONFc3NVFrNzVpcTQySVRzd1dENmcxdw?oc=5",
       "datetime": 1790020873,
       "headlineKo": "AI 낙관론이 다시 불붙고 국채수익률이 후퇴하면서 월가는 급격히 상승세로 마감 - Reuters"
-    },
-    {
-      "headline": "Nigeria launches $300 million clean energy fund to scale off-grid power access - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSElCNmh3XzNFeDRpdE44VlhKN1hmMDlqSmVtc3BhZVBwNzdhVldMUF90ZTBBQkpYSnJLRWFSbGdwRlJkM0FTODVoS09XbEEtUVU5aENfTDlhcFF0djRpR0ZodmMwbF9KaGdQUlBkM3UwLU5QVkZQX3I1b01aeXY1akVtN2VHNERiWXRObk56aklPdUJOblRqTVlPb1JYMU5EempRR0pYYlJnUnN6YzRTZElVb2lWRXMwWFR1TWNJWk01bW91?oc=5",
-      "datetime": 1790018323,
-      "headlineKo": "나이지리아, 오프 그리드 전력 액세스를 확장하기 위해 $ 300 백만 청정 에너지 기금 출시 - 로이터"
     }
   ],
   "fgi": {
     "score": 33.6571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1790055846.6471837,
-  "_updated_label": "2026-09-22 14:44",
-  "_last_attempt_at": 1790055846.6471837,
-  "_last_success_at": 1790055846.6471837,
+  "_fetched_at": 1790059705.373142,
+  "_updated_label": "2026-09-22 15:49",
+  "_last_attempt_at": 1790059705.373142,
+  "_last_success_at": 1790059705.373142,
   "_collection_status": "ok",
   "_collection_errors": []
 };
