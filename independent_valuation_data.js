@@ -214,7 +214,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-22T11:18:43.829449",
+      "generatedAt": "2026-09-22T11:42:14.381113",
       "asOfDate": "2026-09-22",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -1621,7 +1621,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-22T11:18:44.033639",
+      "generatedAt": "2026-09-22T11:42:14.584501",
       "asOfDate": "2026-09-22",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -1677,20 +1677,21 @@ const INDEPENDENT_VALUATION_DATA = {
     "longTermScenario": {
       "kind": "lrcx_long_term_eps_growth_exit_multiple_scenario",
       "not_the_dcf": "이 종목은 아직 별도의 독립 DCF가 없다 -- 상대가치(동종기업 배수) 참고범위와도 완전히 별개다. 세 값을 섞지 않는다.",
-      "assumption_disclaimer": "요약: FY2028 EPS는 '지금 관측된 컨센서스'이고, 이후 성장률·출구PER·요구수익률은 전부 분석자가 근거(8개년 실제 매출·이익 이력, GAAP=조정 EPS 동일성 확인, 10년 밸류에이션 관측값, FY2026 공식 현금흐름표)를 조사해 선택한 가정이다. 회사가 확정한 전망이나 통계적으로 검증된 값이 아니다.",
+      "assumption_disclaimer": "요약: FY2028 EPS는 '지금 관측된 컨센서스'이고, 이후 성장률·출구PER·요구수익률은 전부 분석자가 근거(8개년 실제 매출·이익 이력, GAAP $5.76 vs 비GAAP $5.82 EPS 정의 확인[2026-09-22 정정 -- 이전에 '동일'로 잘못 적었음], 10년 밸류에이션 관측값, FY2026 공식 현금흐름표)를 조사해 선택한 가정이다. 회사가 확정한 전망이나 통계적으로 검증된 값이 아니다.",
       "assumption_review": {
-        "eps_base": "FY2028 EPS $11.65184는 회사가 확정한 실적이 아니라, 지금(2026-09-22 기준) 관측된 컨센서스 전망치(estimates_cache.json, 26명 애널리스트)다 -- '그 시점에 관측된 전망'이라는 성격이지 '그 시점의 실제 달성'이라는 뜻이 아니다. 이 전망 자체가 이미 AI 반도체 설비투자 슈퍼사이클을 상당 부분 반영한 값(FY2026 실제 $5.76 대비 2개년 합산 약 +102%)이라는 점을 그대로 밝힌다 -- 이후 FY2029~FY2032 성장 경로는 이 전망을 그대로 연장하지 않고, 아래처럼 8개년 실제 이력에 근거한 정상화된 성장률을 쓴다.",
+        "eps_base": "FY2028 EPS $11.65184는 회사가 확정한 실적이 아니라, 지금(2026-09-22 기준) 관측된 컨센서스 전망치(estimates_cache.json, 26명 애널리스트)다 -- '그 시점에 관측된 전망'이라는 성격이지 '그 시점의 실제 달성'이라는 뜻이 아니다. 이 전망 자체가 이미 AI 반도체 설비투자 슈퍼사이클을 상당 부분 반영한 값(FY2026 실제 GAAP EPS $5.76 대비 2개년 합산 약 +102%)이라는 점을 그대로 밝힌다 -- 이후 FY2029~FY2032 성장 경로는 이 전망을 그대로 연장하지 않고, 아래처럼 8개년 실제 이력에 근거한 정상화된 성장률을 쓴다. 다만 8개년 CAGR (13.37%) 자체는 과거의 관측값(재현 가능한 사실)이고, 이를 이미 고점 근처인 FY2028 컨센서스 이후 다시 4년간 적용하는 것은 분석자의 미래 정책 가정이다 -- 이 둘을 구분해서 표시한다(아래 compounding_assumptions_note 참고: 이 가정은 단독이 아니라 마진 고정·자사주 감소율 가정과 함께 겹쳐 적용된다).",
         "growth_sustainability": "LRCX의 실제 매출은 최근 8개년(FY2019~FY2026) 동안 -14.5%(FY2024)부터 +45.6%(FY2021)까지 크게 출렁였다 -- 웨이퍼설비투자(WFE) 지출은 반도체 업황에 따라 순환한다는 점이 실적으로 그대로 드러난다. 이 모듈은 근래 2개년 컨센서스(FY2027 +50.3%·FY2028 +17.3%, AI 슈퍼사이클 반영)를 그대로 4년 연장하지 않는다 -- 대신 호황(FY2021)과 불황(FY2024)을 모두 포함한 8개년 실제 매출 CAGR(약 13.37%, 이미 한 사이클 전체를 통과한 값)을 정상화된 성장률로 쓴다 -- '컨센서스가 없어서'가 아니라 '있는 컨센서스가 사이클 고점 근처라서' 쓰지 않는다는 뜻이다. 영업이익률·법인세율·순이자는 일정하게 유지된다는 단순화(부문별 손익 공시가 없어 AMAT식 부문별 재구성이 불가능하다는 한계를 명시 -- LRCX는 단일 보고 부문)를 적용하면 순이익도 같은 비율로 성장한다(실제로는 FY2019 영업이익률 25.5%에서 FY2026 35.3%로 이미 크게 개선됐으나, 이 개선이 앞으로도 같은 속도로 이어진다고 가정하지 않는다 -- 마진 고정이 보수적 방향의 단순화). 주식수는 관측된 최근 실현 속도(-1.13%/yr, 2025-08→2026-08)를 그대로 쓰지 않고, FY2026 공식 현금흐름표 실측(자사주 매입 $3,850M + 배당 $1,270M = $5,120M, FCF $4,891M의 약 104.7% -- 이미 FCF를 초과)에 근거해 이보다 보수적인 -1.0%/yr를 가정한다. 이 세 입력의 결과로 EPS 성장률은 약 14.51%가 된다 -- growth_rate_derivation 딕셔너리의 하드코딩이 아니라 _eps_growth_from_bridge()의 실제 계산 결과이며, PRIMARY_GROWTH_RATE도 같은 함수의 같은 결과를 그대로 쓴다(AMAT과 같은 구조적 연결, 회귀시험 LT-L1로 확인).",
-        "exit_per_validity": "LRCX는 FY2026 GAAP 희석EPS와 비GAAP(조정) 희석EPS가 모두 $5.76로 사실상 동일하다(회사 공식 발표, 2026-07-29 실적자료 -- 분기 기준으로도 GAAP $1.81 vs 비GAAP $1.82 등 몇 센트 차이뿐) -- AMAT처럼 '어느 기준의 배수를 쓰는가'가 크게 갈리는 문제가 구조적으로 작다. 대신 이 모듈이 고른 것은 표본기간이다: 최근 3년 평균 PER(32.1배)은 AI 슈퍼사이클 재평가가 상당히 진행된 시점의 관측치이고, 10년 평균(21.0배)은 2018년 저점(6.99배)부터 이번 고점(65.47배 부근)까지 여러 번의 완전한 사이클을 통과한 값이다. 이 모듈은 10년 평균을 그대로(21.0배로 반올림) 쓴다 -- '지금 수준의 AI 프리미엄이 FY2032까지 그대로 유지된다'고 가정하지 않기 위함이다. 다만 10년 평균이 '정상 수준'이라고 확정하는 것도 아니다 -- 아래 범위·스트레스 시나리오에서 5년 평균(25.63배)·3년 평균(32.11배)을 썼을 때의 영향도 함께 보여준다. 출처는 이 프로젝트의 공식 가격 소스(prices_cache.json)가 아니라 제3자 참고자료(fullratio.com, 2026-09-22 조회)이며, 연말/조회시점 종가 기준이라 이 프로젝트의 회계연도(6월 마감) 기준과 완전히 정렬되지는 않는다는 한계를 명시한다.",
+        "compounding_assumptions_note": "[2026-09-22 신규 -- item4 보완] FY2029~FY2032 EPS 성장 경로는 서로 다른 세 가정이 동시에 겹쳐 적용된 결과다 -- 각각을 '보수적'이라고 개별적으로 설명하는 것만으로는 부족해서, 세 가정의 결합 효과를 한곳에 모아 밝힌다. (1) 출발점: FY2028 컨센서스 EPS $11.65184 자체가 이미 근래 2개년 AI 슈퍼사이클 반영 컨센서스(FY2027 +50.3%·FY2028 +17.3%)의 결과이므로, 이미 고점 근처에서 성장을 다시 시작한다. (2) 마진: 8년간 9.8%p 개선된 영업이익률(25.5%→35.3%)이 향후 4년간 추가 개선 없이 그대로 유지된다고 가정한다(순이익률=매출성장률과 같은 비율로 성장). (3) 주식수: 이미 FCF의 약 104.7%를 쓰고 있는 자사주매입 속도가 실현 속도(-1.13%/yr)보다도 낮은 -1.0%/yr로 4년간 유지된다고 가정한다. 세 가정 모두 개별적으로는 보수적 방향(추가 재평가·추가 마진개선·추가 가속을 가정하지 않음)이지만, '이미 높은 출발점 위에 8개년 정상화 성장률을 다시 얹는다'는 선택 자체는 여전히 분석자의 정책 판단이며, 세 가정을 함께 봐야 전체 그림(EPS 성장률 약 14.51%가 어떻게 만들어지는지)을 알 수 있다 -- 어느 하나만 따로 떼어 '이 가정은 보수적이다'라고 결론짓지 않는다.",
+        "exit_per_validity": "[2026-09-22 정정] LRCX의 FY2026 GAAP 희석EPS($5.76)와 비GAAP(조정) 희석EPS($5.82)는 완전히 같지 않다(약 1.04%p 차이, 공식 슬라이드 PDF 20쪽 확인 -- 분기 기준으로도 GAAP $1.81 vs 비GAAP $1.82 등 몇 센트 차이는 있음). AMAT처럼 '어느 기준의 배수를 쓰는가'가 크게 갈리는 문제는 아니지만 구조적으로 없다고 단정하지도 않는다 -- 이 모듈이 고른 것은 우선 표본기간이다: 최근 3년 평균 PER(32.1배)은 AI 슈퍼사이클 재평가가 상당히 진행된 시점의 관측치이고, 10년 평균(21.0배)은 2018년 저점(6.99배)부터 이번 고점(65.47배 부근)까지 여러 번의 완전한 사이클을 통과한 값이다. 이 모듈은 10년 평균을 그대로(21.0배로 반올림) 쓴다 -- '지금 수준의 AI 프리미엄이 FY2032까지 그대로 유지된다'고 가정하지 않기 위함이다. 다만 10년 평균이 '정상 수준'이라고 확정하는 것도 아니다 -- 아래 범위·스트레스 시나리오에서 5년 평균(25.63배)·3년 평균(32.11배)을 썼을 때의 영향도 함께 보여준다. 출처는 이 프로젝트의 공식 가격 소스(prices_cache.json)가 아니라 제3자 참고자료(fullratio.com, 2026-09-22 조회)이며, 실제 TTM EPS($5.79)가 GAAP·비GAAP 어느 쪽과도 정확히 일치하지 않고 기본/희석 구분도 확인되지 않는다 -- 이 정의-불확실성을 exit_per_selection_decomposition.eps_definition_check에 별도로 남긴다(영향의 크기가 표본기간 선택 효과보다 훨씬 작다는 것을 확인했고, 그래서 21배를 유지한다). 연말/조회시점 종가 기준이라 이 프로젝트의 회계연도(6월 마감) 기준과 완전히 정렬되지는 않는다는 한계도 명시한다.",
         "no_reverse_engineering": "이 가정들은 '현재 주가와 비슷한 결과가 나오도록' 거꾸로 고른 것이 아니다 -- 추천 기준안(성장 14.51%·출구PER 21배)의 목표주가·매입가 상한은 현재 비교가격과 독립적으로 계산되며, 그 결과가 현재가보다 높을 수도 낮을 수도 있다는 것을 그대로 보여준다. AMAT의 8.82% 성장률·22배 출구PER·1% 주식수 감소를 LRCX에 그대로 복제하지 않았다 -- 성장률은 LRCX 자신의 8개년 매출 CAGR에서, 출구PER은 LRCX 자신의 10년 PER 이력에서, 주식수 감소율은 LRCX 자신의 FY2026 현금흐름표 실측에서 각각 독립적으로 도출했다(우연히 주식수 감소율 -1.0%/yr는 AMAT과 같은 수치가 됐지만, 이는 두 회사 모두 '이미 FCF를 초과하는 자사주매입 속도가 그대로 유지된다고 가정하지 않는다'는 같은 보수적 원칙을 각자의 실측값에 적용한 결과이지, 값을 복사한 것이 아니다).",
-        "assumption_vs_fact_note": "요약: FY2028 EPS는 '지금 관측된 컨센서스'이고, 이후 성장률·출구PER·요구수익률은 전부 분석자가 근거(8개년 실제 매출·이익 이력, GAAP=조정 EPS 동일성 확인, 10년 밸류에이션 관측값, FY2026 공식 현금흐름표)를 조사해 선택한 가정이다. 회사가 확정한 전망이나 통계적으로 검증된 값이 아니다."
+        "assumption_vs_fact_note": "요약: FY2028 EPS는 '지금 관측된 컨센서스'이고, 이후 성장률·출구PER·요구수익률은 전부 분석자가 근거(8개년 실제 매출·이익 이력, GAAP $5.76 vs 비GAAP $5.82 EPS 정의 확인[2026-09-22 정정 -- 이전에 '동일'로 잘못 적었음], 10년 밸류에이션 관측값, FY2026 공식 현금흐름표)를 조사해 선택한 가정이다. 회사가 확정한 전망이나 통계적으로 검증된 값이 아니다."
       },
       "evidence_base": {
         "eps_basis_note": {
-          "kind": "관측값(회사 공식 발표)",
-          "fact": "FY2026(2026-06-28 마감) GAAP 희석EPS $5.76 = 비GAAP(조정) 희석EPS $5.76 (동일, 2026-07-29 실적발표 연결손익계산서 'Twelve Months Ended June 28, 2026' 섹션).",
-          "quarterly_detail": "2026년 6월 분기 GAAP $1.81 vs 비GAAP $1.82, 2026년 3월 분기 GAAP $1.45 vs 비GAAP $1.47 -- 분기 단위로도 차이는 센트 단위.",
-          "implication": "AMAT은 GAAP/조정 EPS 정의가 갈려 출구PER 선택에 별도 정의-일치 검증이 필요했지만, LRCX는 이 축 자체가 구조적으로 크지 않다.",
+          "kind": "관측값(회사 공식 발표, 2026-09-22 원문 재확인 -- [정정] 이전 버전이 '$5.76로 동일'이라고 적었던 것은 오류였음)",
+          "fact": "FY2026(2026-06-28 마감) GAAP 희석EPS $5.76, 비GAAP(조정) 희석EPS $5.82 (서로 다름, 약 1.04%p 차이 -- 공식 슬라이드 PDF 20쪽, https://investor.lamresearch.com/image/Q4_2026_slides_full_final.pdf, 2026-07-29 발표 'Twelve Months Ended June 28, 2026' 섹션).",
+          "quarterly_detail": "2026년 6월 분기 GAAP $1.81 vs 비GAAP $1.82, 2026년 3월 분기 GAAP $1.45 vs 비GAAP $1.47 -- 분기 단위로는 차이가 센트 단위로 작지만, 연간 누적으로는 $5.76 vs $5.82로 무시할 수 없는 차이다.",
+          "implication": "AMAT만큼 GAAP/조정 EPS 정의가 크게 갈리지는 않지만(연간 약 1.04%p), 완전히 같지도 않다 -- 출구PER 선택에 exit_per_selection_decomposition.eps_definition_check로 정의 확인 수준과 그 영향의 크기(표본기간 선택 효과보다 훨씬 작음)를 남긴다.",
           "currency_and_share_unit": "USD, 보통주 1주 기준(주당). 2024년 10월 10:1 액면분할(주식 병합 아닌 분할)이 이미 있었으나, 이 프로젝트가 쓰는 financials_cache.json·prices_cache.json 모두 분할 조정 후 수치로 일관되게 소급 적용돼 있음을 확인함(주식수 시계열이 2020-10 시점부터 이미 10억 주 이상으로 연속적임)."
         },
         "revenue_history": {
@@ -1748,7 +1749,24 @@ const INDEPENDENT_VALUATION_DATA = {
             "recency_rerating_effect_pct_not_applied": 0.5283198476915754,
             "step2_chosen_per": 21.0,
             "policy_choice_effect_pct_vs_10y_avg": -0.0004759638267491928,
-            "note": "AMAT과 달리 GAAP·조정 EPS가 사실상 동일해(2026-07-29 회사 발표, FY2026 GAAP=비GAAP=$5.76) '정의 효과' 축 자체가 없다. recency_rerating_effect_pct_not_applied(+52.9%p 수준)는 최근 3년 평균을 썼다면 배수가 그만큼 더 높았을 것이라는 뜻이며, 이 모듈은 그 재평가를 그대로 연장하지 않기로 한 정책 선택을 policy_choice_effect_pct_vs_10y_avg(0에 가까움, 10년 평균을 거의 그대로 씀)로 남긴다."
+            "eps_definition_check": {
+              "gaap_diluted_eps_fy2026": 5.76,
+              "nongaap_diluted_eps_fy2026": 5.82,
+              "gaap_vs_nongaap_gap_pct": 0.01041666666666674,
+              "third_party_source_ttm_eps": 5.79,
+              "third_party_gap_vs_gaap_pct": 0.005208333333333481,
+              "third_party_gap_vs_nongaap_pct": -0.005154639175257825,
+              "third_party_basic_or_diluted_confirmed": false,
+              "confidence": {
+                "gaap_vs_nongaap_fy2026": "확인됨(공식 슬라이드 PDF 20쪽, 2026-07-29 발표, 2026-09-22 재확인)",
+                "trailing_10y_3y_per_series_eps_basis": "미확인(fullratio.com이 방법론을 공개하지 않고, 기본/희석 구분도 사이트에 없음 -- 2026-09-22 재조회로 확인)",
+                "fy2028_consensus_eps_basis": "미확인(estimates_cache.json 컨센서스 제공자가 GAAP/비GAAP 구분을 표시하지 않음)"
+              },
+              "per_if_10y_series_were_nongaap_basis": 20.78125,
+              "per_if_10y_series_matched_third_party_ttm": 20.890624999999996,
+              "residual_uncertainty_note": "확인된 정의 격차(GAAP $5.76 vs 비GAAP $5.82)는 약 1.04%p다 -- 만약 10년 PER 이력이 비GAAP 기준이었다면 지금 고른 21.0배는 GAAP 기준으로 환산하면 약 20.78배에 해당한다. 제3자 소스(fullratio.com)의 실제 TTM EPS($5.79)는 GAAP·비GAAP 둘 중 어느 쪽과도 정확히 일치하지 않고, 기본/희석 구분도 사이트에 없으며, 회계연도(6월 마감) 기준이 아니라 조회시점 TTM 기준이라 시차도 섞여 있을 수 있다 -- 이 격차가 정의 차이 때문인지 시차 때문인지 분리하지 않았다. 다만 이 정의-불확실성의 크기(약 1~2%p, 배수로 환산하면 약 0.2~0.4배)는 recency_rerating_effect_pct_not_applied(약 +52.9%p, 최근 3년 평균을 썼다면 배수가 그만큼 더 높았을 것)에 비해 한 자릿수 이상 작다 -- 그래서 21배(10년 평균 반올림)를 폐기하지 않고 유지하되, 이 잔여 불확실성을 감춘 것이 아니라 그대로 남긴다."
+            },
+            "note": "recency_rerating_effect_pct_not_applied(+52.9%p 수준)는 최근 3년 평균을 썼다면 배수가 그만큼 더 높았을 것이라는 뜻이며, 이 모듈은 그 재평가를 그대로 연장하지 않기로 한 정책 선택을 policy_choice_effect_pct_vs_10y_avg(0에 가까움, 10년 평균을 거의 그대로 씀)로 남긴다. eps_definition_check는 별도 축으로, GAAP=비GAAP라는 이전 가정이 틀렸음을 인정하고(2026-09-22 정정) 정의 확인 수준과 그 영향의 크기를 함께 남긴다 -- 영향이 표본기간 선택 효과보다 훨씬 작다는 것을 근거로 21배를 유지한다."
           }
         },
         "consensus_snapshot": {
@@ -1780,6 +1798,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "growth_years": 4,
       "base_fiscal_year": 2028,
       "target_fiscal_year": 2032,
+      "annualized_dividend_per_share": 1.32,
+      "dividend_source_note": "연배당 $1.32/주(분기 $0.33 x4, 2026-09-22 확인) -- model_assumption(확정 아님, 다음 확정 지급 이후 동일 금액 유지 가정).",
       "estimates_fetched_at": "2026-09-21",
       "estimates_age_days": 1,
       "base_eps_fact": 11.65184,
@@ -1796,6 +1816,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "target_price": 420.74868488870186,
       "comparison_price": 302.2799987792969,
       "comparison_price_as_of": "2026-09-21",
+      "comparison_price_invalid_reason": null,
       "base_scenario": {
         "blocked": false,
         "holding_period_actual_days": 2109,
@@ -1993,7 +2014,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-22T11:18:44.231280",
+      "generatedAt": "2026-09-22T11:42:14.779622",
       "asOfDate": "2026-09-22",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -2056,7 +2077,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "대상종목 비교가격 자료상태 문제: 통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
-      "withheldCheckedAt": "2026-09-22T11:18:44.422944",
+      "withheldCheckedAt": "2026-09-22T11:42:14.974443",
       "neverSucceeded": true
     }
   },
@@ -2067,7 +2088,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(792.8424768065801)<=band_low(792.8424768065801) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-22T11:18:44.583908",
+      "withheldCheckedAt": "2026-09-22T11:42:15.139253",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -2089,7 +2110,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(495.92545051951635)<=band_low(495.92545051951635) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-22T11:18:44.665572",
+      "withheldCheckedAt": "2026-09-22T11:42:15.222572",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -2111,7 +2132,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "선정 기준을 통과한 동종업계 배수가 하나도 없음 -- 밴드 산출 보류(0으로 채우지 않음)",
-      "withheldCheckedAt": "2026-09-22T11:18:44.748838",
+      "withheldCheckedAt": "2026-09-22T11:42:15.308968",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -2133,7 +2154,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "선정 기준을 통과한 동종업계 배수가 하나도 없음 -- 밴드 산출 보류(0으로 채우지 않음)",
-      "withheldCheckedAt": "2026-09-22T11:18:44.790955",
+      "withheldCheckedAt": "2026-09-22T11:42:15.351876",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -2155,7 +2176,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(1019.8630843019492)<=band_low(1019.8630843019492) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-22T11:18:44.832953",
+      "withheldCheckedAt": "2026-09-22T11:42:15.395887",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -2177,7 +2198,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(1212.937106867378)<=band_low(1212.937106867378) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-22T11:18:44.914779",
+      "withheldCheckedAt": "2026-09-22T11:42:15.478619",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
