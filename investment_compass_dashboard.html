@@ -3102,6 +3102,16 @@ function switchTab(ticker, id){
 function renderTabContent(ticker){
   const r = results[ticker];
   const body = document.getElementById('detailBody');
+  // [2026-09-23 fix -- Codex 화면 재검토 U3] results[ticker]가 아직 없을 때(백그라운드
+  // 스캔/새로고침 도중, 예: 타임프레임 버튼을 누른 시점) tabJudgement(r) 등을 undefined로
+  // 호출하면 내부에서 r.xxx 접근 중 TypeError가 나며 흰 화면으로 멈췄다(공개 사이트에서
+  // 주봉 버튼 클릭 시 재현됨: "Cannot read properties of undefined (reading 'breakdown')").
+  // 오류를 조용히 삼키지 않고, 자료가 아직 없다는 상태를 명시적으로 보여준 뒤 자료가 오면
+  // 정상 렌더로 이어간다.
+  if(!r){
+    body.innerHTML = `<div class="comment-box" style="background:var(--panel-2);">⏳ ${esc(ticker)} 자료를 불러오는 중이에요. 잠시 후 자동으로 갱신돼요.</div>`;
+    return;
+  }
   if(activeTab==='01') body.innerHTML = tabJudgement(r);
   else if(activeTab==='02') body.innerHTML = tabValueQuality(r);
   else if(activeTab==='03') body.innerHTML = tabEarnings(r);
