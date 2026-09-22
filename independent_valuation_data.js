@@ -281,12 +281,12 @@ const INDEPENDENT_VALUATION_DATA = {
       "assumption_disclaimer": "요약: FY2027 EPS는 '지금 관측된 컨센서스'이고, 이후 성장률·출구PER·요구수익률은 전부 분석자가 근거(과거 실적 이력·GAAP/조정 EPS 구분·사업부문별 매출 비중과 가이던스·정의를 맞춘 밸류에이션 관측값)를 조사해 선택한 가정이다. 회사가 확정한 전망이나 통계적으로 검증된 값이 아니다.",
       "assumption_review": {
         "eps_base": "FY2027 EPS $18.45479는 회사가 확정한 실적이 아니라, 지금(2026-09-21 기준) 관측된 컨센서스 전망치(estimates_cache.json, 34명 애널리스트)다 -- '그 시점에 관측된 전망'이라는 성격이지 '그 시점의 실제 달성'이라는 뜻이 아니다. 이후 FY2028~FY2031 성장 경로는 컨센서스 자체가 없어 EVIDENCE_BASE의 실제 과거 EPS 이력·현재 사이클 가이던스·밸류에이션 관측값을 근거로 분석자가 선택한 가정을 적용한다.",
-        "growth_sustainability": "이 종목의 실제 GAAP EPS는 최근 8년간 -3.4%(FY2019 역성장)부터 +63.3%(FY2021)까지 크게 출렁였고, 지금의 AI 수퍼사이클 직전 3년(FY2023~FY2025)은 GAAP 기준 +9.0%→+6.2%→+0.6%로 뚜렷하게 둔화했다. 다만 FY2025 GAAP +0.6%는 사업 둔화만을 뜻하지 않는다 -- 같은 해 조정 (non-GAAP) EPS는 +9% 증가했다(EVIDENCE_BASE.eps_history.gaap_vs_adjusted_fy2025, 회사 공식 발표). 8.82%라는 성장률은 '5.2%와 16.6% 사이'라는 범위 설명도, 목표 성장률을 먼저 정하고 역산한 값도 아니다(EVIDENCE_BASE.revenue_to_eps_bridge.growth_rate_derivation, 2026-09-22 4차 개정) -- 매출·마진·주식수 세 입력을 각각 독립적으로 정한 결과다: 매출 73.3%를 차지하는 반도체장비는 실제 3년 실현 매출 CAGR(약 3.4%, segment_revenue_history -- 이전 버전이 근거로 인용한 5.2%는 실은 전사 EPS CAGR이었다는 점을 정정했다)에 첨단 패키징 가이던스를 반영해 연 6%로, 매출 22.5%를 차지하는 서비스(AGS)는 실제 3년 실현 CAGR(약 4.8%)보다 높지만 회사가 직접 밝힌 '지속가능한 장기 중간 10%대' 가이던스를 우선해 연 14%로, Display(3.7%, 변동성 큼)는 연 5%로 가정해 매출 비중으로 가중하면 전사 매출 성장률은 약 7.73%다. 영업이익률·법인세율·순이자가 일정하게 유지된다는 단순화(부문별 손익 공시가 없어 개별 재구성 불가라는 한계를 명시)를 적용하면 순이익도 연 7.73%로 성장한다. 주식수는 관측된 최근 속도(-2.55%/yr)를 그대로 쓰지 않고, FY2025 현금흐름 검산(자사주 매입 추정+배당이 이미 FCF의 약 90%, capex는 2028년 생산능력 확대를 앞두고 거의 두 배로 증가)에 근거해 독립적으로 -1.0%/yr를 가정한다. 이 세 입력의 결과로 EPS 성장률은 (1.0773/0.99)-1=8.82%가 된다 -- 목표 EPS 성장률을 먼저 정하고 필요 주식수 감소율을 역산하는 계산은 achievement_condition_diagnostic으로 이름을 분리해 참고용으로만 남기며, 이 8.82%의 근거로 쓰지 않는다(이전 버전이 이 역산을 '검증'이라 불렀던 것이 부정확했던 부분, 2026-09-22 정정). 참고로 7년 CAGR은 16.6%(8년 전체 '평균'이 아니라 연복리성장률)이며, 같은 7개 구간의 산술평균은 약 18.4%로 CAGR과는 다르다(복리효과) -- 두 표현을 혼용하지 않는다.",
-        "exit_per_validity": "이전 버전(2026-09-22 3차 개정)은 base_eps(FY2027 컨센서스)가 GAAP 기준인지 확인하지 않은 채 GAAP 기준 트레일링 8년 평균(17.65배)을 출구 PER로 채택했다 -- 4차 개정에서 이 정의 불일치를 직접 검산했다(EVIDENCE_BASE.valuation_multiples.base_eps_basis_check): 트레일링 연간 PER 시리즈는 실제 가격 ÷ GAAP EPS로 역산해도 1.5% 이내로 일치해 GAAP 기준임이 확인됐고, base_eps는 Yahoo 쪽 문서로 직접 확정하지는 못했지만 교차 출처(stockanalysis.com)가 '비GAAP/조정 기준'이라고 명시하는 등 비GAAP일 가능성이 더 높다는 정황이 있다 -- 즉 이전 18배는 정의가 다른 이익과 배수를 묶은 값이었다.\n이번엔 base_eps와 같은(비GAAP) 기준으로 실측 가능한 유일한 트레일링 배수(FY2024·FY2025 2개년, non_gaap_matched_trailing_per, 21.49배·24.42배, 평균 22.96배)를 1차 근거로 삼는다. 표본이 2개뿐이라 8년 GAAP 평균과 같은 수준의 '정상화된 사이클 평균' 주장은 할 수 없다는 한계를 그대로 밝힌다 -- 8년 전체를 아우르는 비GAAP 이력은 이 프로젝트가 수집하지 않았다.\n22배를 선택한 이유: 관측된 두 값(21.49/24.42) 중 FY2025 쪽(24.42)은 이미 AI 사이클 재평가가 상당히 진행된 시점의 관측치라, 이 수준이 FY2031까지 그대로 유지된다고 가정하지 않는다(반도체 장비 사이클은 8년 GAAP PER 이력에서도 10.1배~26.3배로 크게 진동했다). 그렇다고 FY2024 쪽 (21.49)만 쓰지도 않는다 -- 두 값 모두 이미 AI 투자 확대 국면 안에서 관측된 것이라, 이보다 더 낮은 '사이클 저점' 비GAAP 배수를 뒷받침할 자료가 없다. 2개 관측치의 단순평균(22.96)에서 소폭 아래인 22배를 택해, 더 최근·더 높은 관측치 쪽으로 전량 반영하지 않으면서도 없는 자료를 근거로 임의로 더 낮추지 않는다. 이 선택 자체는 표본이 작다는 한계 위의 분석자 판단이며, 더 낮게(비GAAP 장기 이력이 확보되면 재검토) 혹은 더 높게(AI 프리미엄 유지) 갈 경우의 영향은 아래 범위·스트레스 시나리오에서 함께 보여준다.",
-        "no_reverse_engineering": "이 가정들은 '현재 주가와 비슷한 결과가 나오도록' 거꾸로 고른 것이 아니다 -- 추천 기준안(성장 8.82%·출구PER 22배)의 목표주가·매입가 상한은 현재 비교가격과 독립적으로 계산되며, 그 결과가 현재가보다 높을 수도 낮을 수도 있다는 것을 그대로 보여준다. 현재가에 맞추기 위해 이 숫자들을 사후에 조정하지 않았다. 이번 4차 개정으로 목표주가가 이전(9%·18배, 약 $469)보다 오히려 높아졌는데(EPS 정의를 맞추면서 출구 배수가 22배로 올라간 효과가 성장률이 8.82%로 소폭 낮아진 효과보다 큼), 이 사실 자체도 '가격을 올리기 위해 정의를 바꿨다'는 뜻이 아니다 -- 정의 정합성을 먼저 맞추고 남은 결과일 뿐이며, 두 효과(EPS 정의 정렬 vs 성장률 재도출)를 분리해 compute_amat_long_term_scenario 호출부가 보여줄 수 있도록 _decompose_growth_and_per_effect를 그대로 재사용한다.",
+        "growth_sustainability": "이 종목의 실제 GAAP EPS는 최근 8년간 -3.4%(FY2019 역성장)부터 +63.3%(FY2021)까지 크게 출렁였고, 지금의 AI 수퍼사이클 직전 3년(FY2023~FY2025)은 GAAP 기준 +9.0%→+6.2%→+0.6%로 뚜렷하게 둔화했다. 다만 FY2025 GAAP +0.6%는 사업 둔화만을 뜻하지 않는다 -- 같은 해 조정 (non-GAAP) EPS는 +9% 증가했다(EVIDENCE_BASE.eps_history.gaap_vs_adjusted_fy2025, 회사 공식 발표). 8.82%라는 성장률은 '5.2%와 16.6% 사이'라는 범위 설명도, 목표 성장률을 먼저 정하고 역산한 값도 아니다(EVIDENCE_BASE.revenue_to_eps_bridge.growth_rate_derivation, 2026-09-22 4차 개정) -- 매출·마진·주식수 세 입력을 각각 독립적으로 정한 결과다: 매출 73.3%를 차지하는 반도체장비는 실제 3년 실현 매출 CAGR(약 3.4%, segment_revenue_history -- 이전 버전이 근거로 인용한 5.2%는 실은 전사 EPS CAGR이었다는 점을 정정했다)에 첨단 패키징 가이던스를 반영해 연 6%로, 매출 22.5%를 차지하는 서비스(AGS)는 실제 3년 실현 CAGR(약 4.8%)보다 높지만 회사가 직접 밝힌 '지속가능한 장기 중간 10%대' 가이던스를 우선해 연 14%로, Display(3.7%, 변동성 큼)는 연 5%로 가정해 매출 비중으로 가중하면 전사 매출 성장률은 약 7.73%다. 영업이익률·법인세율·순이자가 일정하게 유지된다는 단순화(부문별 손익 공시가 없어 개별 재구성 불가라는 한계를 명시)를 적용하면 순이익도 같은 비율로 성장한다. 주식수는 관측된 최근 속도(-2.55%/yr)를 그대로 쓰지 않고, FY2025 공식 현금흐름표 실측(자사주 매입+배당이 이미 FCF의 약 110%, 발행대금 차감 기준으로도 약 106%, capex는 2028년 생산능력 확대를 앞두고 거의 두 배로 증가)에 근거해 독립적으로 -1.0%/yr를 가정한다(2026-09-22 5차 개정 -- 4차 개정이 '실제 현금검산'이라 불렀던 값이 사실은 추정치였던 것을 확인해 공식 실측값으로 교체했다). 이 세 입력의 결과로 EPS 성장률은 약 8.82%가 된다 -- 이 값은 growth_rate_derivation 딕셔너리의 하드코딩이 아니라 _eps_growth_from_bridge()의 실제 계산 결과이며, PRIMARY_GROWTH_RATE도 같은 함수의 같은 결과를 그대로 쓴다(2026-09-22 5차 개정 신규 -- 입력을 바꾸면 설명과 실제 계산이 함께 바뀐다, 회귀시험 LT1i). 목표 EPS 성장률을 먼저 정하고 필요 주식수 감소율을 역산하는 계산은 achievement_condition_diagnostic으로 이름을 분리해 참고용으로만 남기며, 이 8.82%의 근거로 쓰지 않는다. 참고로 7년 CAGR은 16.6%(8년 전체 '평균'이 아니라 연복리성장률)이며, 같은 7개 구간의 산술평균은 약 18.4%로 CAGR과는 다르다(복리효과) -- 두 표현을 혼용하지 않는다.",
+        "exit_per_validity": "이전 버전(2026-09-22 3차 개정)은 base_eps(FY2027 컨센서스)가 GAAP 기준인지 확인하지 않은 채 GAAP 기준 트레일링 8년 평균(17.65배)을 출구 PER로 채택했다 -- 4차 개정에서 이 정의 불일치를 직접 검산했다(EVIDENCE_BASE.valuation_multiples.base_eps_basis_check): 트레일링 연간 PER 시리즈는 실제 가격 ÷ GAAP EPS로 역산해도 1.5% 이내로 일치해 GAAP 기준임이 확인됐고, base_eps는 Yahoo 쪽 문서로 직접 확정하지는 못했지만 교차 출처(stockanalysis.com)가 '비GAAP/조정 기준'이라고 명시하는 등 비GAAP일 가능성이 더 높다는 정황이 있다 -- 즉 이전 18배는 정의가 다른 이익과 배수를 묶은 값이었다.\n이번엔 base_eps와 같은(비GAAP) 기준으로 실측 가능한 유일한 트레일링 배수(FY2024·FY2025 2개년, non_gaap_matched_trailing_per, 21.49배·24.42배, 평균 22.96배)를 1차 근거로 삼는다. 표본이 2개뿐이라 8년 GAAP 평균과 같은 수준의 '정상화된 사이클 평균' 주장은 할 수 없다는 한계를 그대로 밝힌다 -- 8년 전체를 아우르는 비GAAP 이력은 이 프로젝트가 수집하지 않았다.\n22배를 선택한 이유: 관측된 두 값(21.49/24.42) 중 FY2025 쪽(24.42)은 이미 AI 사이클 재평가가 상당히 진행된 시점의 관측치라, 이 수준이 FY2031까지 그대로 유지된다고 가정하지 않는다(반도체 장비 사이클은 8년 GAAP PER 이력에서도 10.1배~26.3배로 크게 진동했다). 그렇다고 FY2024 쪽 (21.49)만 쓰지도 않는다 -- 두 값 모두 이미 AI 투자 확대 국면 안에서 관측된 것이라, 이보다 더 낮은 '사이클 저점' 비GAAP 배수를 뒷받침할 자료가 없다. 2개 관측치의 단순평균(22.96)에서 소폭 아래인 22배를 택해, 더 최근·더 높은 관측치 쪽으로 전량 반영하지 않으면서도 없는 자료를 근거로 임의로 더 낮추지 않는다. 이 선택 자체는 표본이 작다는 한계 위의 분석자 판단이며, 더 낮게(비GAAP 장기 이력이 확보되면 재검토) 혹은 더 높게(AI 프리미엄 유지) 갈 경우의 영향은 아래 범위·스트레스 시나리오에서 함께 보여준다.\n[2026-09-22 5차 개정 -- 봄이 재지적 반영] 18배(직전)->22배(이번)로 오른 것을 'EPS 기준 정렬 효과' 하나로 설명하면 부정확하다 -- 같은 두 해·같은 가격에서 분모만 GAAP->조정으로 바꾸면 오히려 배수는 24.08배->22.96배로 내려간다(정의 효과는 음수). 실제 상승分의 대부분은 8년 GAAP 평균 (17.65배)에서 최근 2년으로 표본을 좁힌 효과(+36%p 수준)에서 온다. 세 효과(표본기간·정의·정책선택)를 순서대로 분해한 것이 EVIDENCE_BASE.valuation_multiples.exit_per_selection_decomposition이다. 또한 조정 EPS 자체는 공식적으로 FY2022($7.70)·FY2023($8.05)까지 공개돼 있다 -- 조정 EPS가 공개된 연도 자체가 두 해뿐인 것처럼 표현했던 것은 부정확했고, 이 프로젝트가 동일 가격 관측 규칙으로 계산 가능한 표본이 가격 캐시 보관기간(2024-09월 이후) 제약으로 두 해뿐이라는 뜻으로 정정한다.",
+        "no_reverse_engineering": "이 가정들은 '현재 주가와 비슷한 결과가 나오도록' 거꾸로 고른 것이 아니다 -- 추천 기준안(성장 8.82%·출구PER 22배)의 목표주가·매입가 상한은 현재 비교가격과 독립적으로 계산되며, 그 결과가 현재가보다 높을 수도 낮을 수도 있다는 것을 그대로 보여준다. 현재가에 맞추기 위해 이 숫자들을 사후에 조정하지 않았다. 이번 개정으로 목표주가가 이전(9%·18배, 약 $469)보다 오히려 높아졌는데, 그 원인은 '기준을 정렬했더니 배수가 올라간 것' 하나가 아니다(2026-09-22 5차 개정, 봄이 재지적 반영해 정정) -- 실제로는 8년 표본을 최근 2년으로 좁힌 효과(+36%p 수준)가 가장 크고, GAAP->조정 EPS 정의 효과는 오히려 음수(-4.7%p)이며, 22배를 고른 분석자 정책 선택도 음수(-4.2%p)다(EVIDENCE_BASE.valuation_multiples.exit_per_selection_decomposition). 성장률은 9%->8.82%로 소폭 낮아졌다. 이 사실들을 종합해도 '가격을 올리기 위해 가정을 바꿨다'는 뜻은 아니다 -- 원인을 정확하게 분해해 보여주는 것이 목적이며, 두 갈래 효과(성장률 변화 vs 출구배수 변화)의 가격 영향은 compute_amat_long_term_scenario 호출부가 _decompose_growth_and_per_effect로, 출구배수 자체가 왜 그 값인지는 exit_per_selection_decomposition으로 각각 보여준다.",
         "assumption_vs_fact_note": "요약: FY2027 EPS는 '지금 관측된 컨센서스'이고, 이후 성장률·출구PER·요구수익률은 전부 분석자가 근거(과거 실적 이력·GAAP/조정 EPS 구분·사업부문별 매출 비중과 가이던스·정의를 맞춘 밸류에이션 관측값)를 조사해 선택한 가정이다. 회사가 확정한 전망이나 통계적으로 검증된 값이 아니다.",
         "primary_vs_codex_initial": "이 모듈의 기본 가정은 성장 연 8.82%·출구PER 22배(추천 기준안, 2026-09-22 4차 개정 -- EPS/PER 기준 일치 + 성장률 도출·달성조건 역산 분리)다. 2026-09-19 최초 제안이었던 성장 10%·출구PER 24배(Codex 초안)는 삭제하지 않고 비교 시나리오로 계속 함께 계산한다 -- 이쪽은 '지금의 정의 미확인 forwardPE 수준 배수가 상당 부분 유지된다'는, 추천 기준안보다 낙관적인 가정 조합에 해당한다. 어느 쪽이 맞다고 확정하지 않으며, 두 값을 평균내지도 않는다.",
-        "definition_correction_note": "2026-09-22 4차 개정: (1) base_eps(FY2027 컨센서스)가 비GAAP/조정 기준일 가능성이 높다는 점을 확인했다(교차출처, 미확정)면서도 GAAP 기준 트레일링 PER(8년 평균 17.65배)을 그대로 출구 PER로 썼던 정의 불일치를 바로잡았다 -- base_eps와 같은 기준으로 실측된 비GAAP 트레일링 배수(FY2024·FY2025 2개년 평균 22.96배)를 새 1차 근거로 삼아 출구PER을 18배→22배로 올렸다. (2) 반도체장비 부문 성장률의 근거로 인용했던 5.2%가 실은 전사 GAAP EPS CAGR이고 부문 매출 성장률이 아니었던 것을 확인, 회사 공식 자료에서 직접 확보한 부문별 실제 3년 매출 CAGR(반도체장비 3.4%·서비스 4.8%·Display -7.4%)로 교체했다. (3) 목표 EPS 성장률(9%)을 먼저 넣고 필요 주식수 감소율을 역산한 뒤 재대입해 '검증'이라 불렀던 순환 논리를 분리 -- 매출·마진·주식수(FY2025 현금흐름 검산에 근거한 독립 정책 가정 -1.0%/yr)를 각각 먼저 정하고 EPS 성장률(8.82%)을 결과로 산출하도록 재구성했다. 이전의 역산은 achievement_condition_diagnostic으로 이름을 분리해 참고용으로만 남겼다. (4) '필요 감소율이 관측 속도의 1/5라 자금 부담이 낮다'던 단정을 철회하고, 실제 FCF·capex 자료로 검산한 근거(buyback_cash_check_fy2025)로 교체했다. 이 정정의 결과로 추천 기준안이 성장 9%·출구PER 18배에서 성장 8.82%·출구PER 22배로 바뀌었다 -- 목표주가는 약 $469에서 더 올라간다(EPS 기준 정렬로 배수가 올라간 효과가 성장률이 소폭 낮아진 효과보다 크기 때문이며, 가격을 올리기 위해 정의를 바꾼 것이 아니라 정의를 맞춘 결과다). 실제 산출값은 아래를 참고할 것."
+        "definition_correction_note": "2026-09-22 4차 개정: (1) base_eps(FY2027 컨센서스)가 비GAAP/조정 기준일 가능성이 높다는 점을 확인했다(교차출처, 미확정)면서도 GAAP 기준 트레일링 PER(8년 평균 17.65배)을 그대로 출구 PER로 썼던 정의 불일치를 바로잡았다 -- base_eps와 같은 기준으로 실측된 비GAAP 트레일링 배수(FY2024·FY2025 2개년 평균 22.96배)를 새 1차 근거로 삼아 출구PER을 18배→22배로 올렸다. (2) 반도체장비 부문 성장률의 근거로 인용했던 5.2%가 실은 전사 GAAP EPS CAGR이고 부문 매출 성장률이 아니었던 것을 확인, 회사 공식 자료에서 직접 확보한 부문별 실제 3년 매출 CAGR(반도체장비 3.4%·서비스 4.8%·Display -7.4%)로 교체했다. (3) 목표 EPS 성장률(9%)을 먼저 넣고 필요 주식수 감소율을 역산한 뒤 재대입해 '검증'이라 불렀던 순환 논리를 분리 -- 매출·마진·주식수(FY2025 현금흐름 검산에 근거한 독립 정책 가정 -1.0%/yr)를 각각 먼저 정하고 EPS 성장률(8.82%)을 결과로 산출하도록 재구성했다. 이전의 역산은 achievement_condition_diagnostic으로 이름을 분리해 참고용으로만 남겼다. (4) '필요 감소율이 관측 속도의 1/5라 자금 부담이 낮다'던 단정을 철회하고, 실제 FCF·capex 자료로 검산한 근거(buyback_cash_check_fy2025)로 교체했다. 이 정정의 결과로 추천 기준안이 성장 9%·출구PER 18배에서 성장 8.82%·출구PER 22배로 바뀌었다 -- 목표주가는 약 $469에서 더 올라간다. 실제 산출값은 아래를 참고할 것.\n2026-09-22 5차 개정(봄이 재지적 반영, 세 가지 추가 정정): (a) 위 (4)에서 '실제 FCF·capex 자료로 검산'했다고 한 buyback_cash_check_fy2025($3,419M/$1,702M, 89.9%)가 사실은 추정치였다 -- 순주식수 차이×평균주가(매입), 현재 분기배당을 과거 연도에 적용(배당)한 계산값이지 공식 현금흐름표 실측이 아니었다. 공식 FY2025 현금흐름표 실측값(자사주 매입 $4,895M, 배당 $1,384M, 합계는 FCF의 약 110.2%)으로 교체했고, 옛 추정치는 deprecated_estimate_musd로만 남겼다. (b) 위 (1)에서 18->22배 상승 '전부'를 EPS 기준 정렬 효과로 설명했던 것을 정정 -- 같은 표본·같은 가격에서 정의만 바꾸면 오히려 24.08->22.96배로 내려간다(exit_per_selection_decomposition.definition_effect_pct는 음수). 실제 상승의 대부분은 8년 표본을 최근 2년으로 좁힌 효과다. 조정 EPS 자체는 FY2022·FY2023도 공식 공개돼 있어(가격 캐시 보관기간 제약으로 이 프로젝트가 같은 규칙으로 계산 가능한 표본은 여전히 2개년) '공개 자료가 두 해뿐'이라는 표현도 정정했다. (c) growth_rate_derivation(설명용 딕셔너리)과 PRIMARY_GROWTH_RATE(실제 계산 상수)가 분리돼 있어, 입력을 바꿔도 설명만 바뀌고 실제 계산은 그대로였던 결함(Codex 독립검토가 AST 추출로 확인)을 고쳤다 -- 이제 둘 다 _eps_growth_from_bridge() 하나의 결과를 공유한다."
       },
       "evidence_base": {
         "eps_history": {
@@ -434,7 +434,24 @@ const INDEPENDENT_VALUATION_DATA = {
               "implied_pe": 21.49
             },
             "avg_2pt": 22.96,
-            "source_adjusted_eps": "https://investors.appliedmaterials.com/static-files/4d09885a-c580-4dc7-b04e-c9513ab03206"
+            "source_adjusted_eps": "https://investors.appliedmaterials.com/static-files/4d09885a-c580-4dc7-b04e-c9513ab03206",
+            "additional_disclosed_adjusted_eps_no_matching_price": {
+              "fy2022_adjusted_eps": 7.7,
+              "fy2023_adjusted_eps": 8.05,
+              "note": "회사 공식 FY2023 실적발표(FY2023 대비 FY2022 비교 수치 포함)에 명시된 조정 (non-GAAP) EPS다. 같은 가격 관측 규칙(회계연도 마감일 -2~+1일 평균 종가)으로 PER을 계산하려면 2022-10-30·2023-10-29 전후의 실제 종가가 필요한데, 이 프로젝트의 prices_cache.json은 2024-09-18 이후만 보관해 자체 파이프라인으로는 재계산할 수 없다 -- 외부 소스에서 별도로 가져온 가격을 섞으면 종가 산정 규칙(배당·분할 조정 여부 등)이 달라질 수 있어 '같은 가격 관측 규칙'이 깨지므로, 이번 회차에는 신뢰할 수 없는 값을 만들어 쓰지 않는다. 표본을 4개년으로 넓히는 것은 가격 캐시 보관기간 확장이 선행돼야 하는 후속 과제로 남긴다(한계로 명시, 회피가 아님).",
+              "source": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-fourth-quarter-and-fiscal-year-2023"
+            }
+          },
+          "exit_per_selection_decomposition": {
+            "step0_gaap_8yr_avg": 17.65,
+            "step1_sample_period_narrowed_to_2yr_same_definition_gaap": 24.079083883877438,
+            "sample_period_effect_pct": 0.36425404441231946,
+            "step2_definition_changed_to_adjusted_same_2yr_sample": 22.957589926733185,
+            "definition_effect_pct": -0.04657544126482194,
+            "step3_analyst_policy_choice": 22.0,
+            "policy_choice_effect_pct": -0.041711256703740984,
+            "combined_pct_vs_gaap_8yr_baseline": 0.2464589235127479,
+            "note": "순서대로 곱하면 원래 값이 복원된다(8yr_avg*(1+sample)*(1+definition)*(1+policy)=chosen_per). definition_effect_pct(같은 표본·같은 가격에서 이익 기준만 GAAP->조정으로 바꾼 효과)는 음수다(배수가 내려간다) -- 18->22 상승 전부를 'EPS 기준 정렬 효과'라고 부르면 부정확하다. 실제 상승分의 대부분은 8년 표본을 최근 2년으로 좁힌 sample_period_effect_pct(양수, +36%p 수준)에서 온다."
           },
           "finnhub_forward_pe_raw": 32.06094,
           "finnhub_forward_pe_definition_status": "정의 미확인 -- Finnhub 'forwardPE' 필드를 그대로 받은 값. 분모 EPS의 회계기간(달력연도/회계연도)·GAAP 또는 조정 여부가 공급자 쪽에 문서화돼 있지 않아 NTM이라고 단정하지 않는다.",
@@ -515,22 +532,37 @@ const INDEPENDENT_VALUATION_DATA = {
           "operating_margin_note": "8년간 영업이익률은 22.9%~30.2% 범위에서 등락했고 최근 4개년(FY2022~2025)은 28.9~30.2%로 비교적 안정적이다 -- 장기 마진이 추세적으로 계속 확장된다고 가정하지 않고, 최근 수준에서 대체로 유지된다고 본다.",
           "shares_outstanding_recent_yoy_change_pct": -2.55,
           "buyback_cash_check_fy2025": {
-            "kind": "분석자 계산(financials_cache.json 실제 FCF·주식수, prices_cache.json 실제 평균가 사용)",
+            "kind": "관측값(회사 FY2025 공식 현금흐름표 실측치, 2026-09-22 5차 개정 확인 -- 4차 개정의 추정치를 대체)",
             "fcf_musd": 5698,
-            "estimated_net_buyback_spend_musd": 3419,
-            "estimated_dividend_paid_musd": 1702,
-            "buyback_plus_dividend_pct_of_fcf": 89.9,
+            "actual_buyback_musd": 4895,
+            "actual_dividends_paid_musd": 1384,
+            "actual_stock_issuance_proceeds_musd": 261,
+            "actual_buyback_plus_dividend_pct_of_fcf": 110.2,
+            "actual_net_buyback_plus_dividend_pct_of_fcf": 105.62,
             "capex_musd": {
               "fy2024": 1190,
               "fy2025": 2260
             },
-            "note": "FY2025 한 해 기준 자사주 매입 추정 지출과 배당을 합치면 FCF의 약 90%를 차지해 여유가 크지 않다. 게다가 설비투자(capex)가 FY2024 $1,190M에서 FY2025 $2,260M로 거의 두 배로 늘었고, 회사는 2028년까지 생산능력을 추가로 2배 확대하겠다고 밝혀 향후 capex가 더 늘어날 가능성이 있다 -- 이는 향후 FCF에서 자사주 매입에 쓸 수 있는 몫을 좁힐 수 있는 요인이다. 따라서 '필요 감소율이 관측 속도의 일부라 자금 부담이 낮다'고 단정하지 않고, 이 압박 요인을 근거로 향후 자사주 매입 속도를 관측된 최근 속도(-2.55%/yr)보다 뚜렷이 낮게(독립적으로) 가정한다 -- 아래 revenue_to_eps_bridge.growth_rate_derivation 참고."
+            "deprecated_estimate_musd": {
+              "note": "4차 개정이 '실제 현금검산'으로 잘못 제시했던 추정치 -- 공식 실측값이 있으므로 더 이상 쓰지 않는다. 오류 이력 추적용으로만 남긴다.",
+              "estimated_net_buyback_spend_musd": 3419,
+              "estimated_dividend_paid_musd": 1702,
+              "estimated_pct_of_fcf": 89.9
+            },
+            "note": "FY2025 공식 현금흐름표 기준 자사주 매입+배당은 FCF의 약 110.2%(발행대금을 차감한 단순 순현금 기준으로도 약 105.6%)로, FCF만으로는 이미 부족했다는 뜻이다 -- 현금잔고 축소나 그 외 재무활동으로 메운 것으로 보이나, 이 프로젝트는 재무활동 전체를 재구성한 완전한 자본배분표를 만들지 않으며 주식보상 원천징수 등 세부 항목까지는 배분하지 않는다(한계로 명시). 4차 개정의 '89.9%, 여유가 크지 않은 정도'라는 표현은 추정치에 근거해 실제보다 낙관적이었으므로 철회한다. FCF는 이미 capex 차감 후 값이므로 아래 future_share_count_policy_check에서 capex를 다시 빼지 않는다.",
+            "source": "AMAT FY2025 공식 실적발표 현금흐름표, https://investors.appliedmaterials.com/static-files/4d09885a-c580-4dc7-b04e-c9513ab03206"
+          },
+          "future_share_count_policy_check": {
+            "kind": "분석자 정책 가정(위 buyback_cash_check_fy2025 실측과 분리 -- 2026-09-22 5차 개정 신규)",
+            "note": "buyback_cash_check_fy2025는 FY2025 '한 해'의 실측(과거 사실)이다. 향후(FY2028~FY2031) 자사주 순감소율 가정은 이 실측과 별도이며, '실측이 이미 FCF의 110%를 넘는 수준이라 그대로 이어가기 어렵다'는 방향성만 근거로 쓰고 구체적인 미래 달러 예산을 정교하게 역산하지는 않는다 -- 회사의 향후 부채 여력·현금잔고 정책·주식보상 발행 규모를 공시만 으로 재구성할 수 없기 때문이다(한계로 명시, 완전한 자본배분표가 아님). 관측된 최근 순감소 속도(-2.55%/yr)는 이미 자사주 매입에서 주식보상 등 신규 발행분을 차감한 순(net) 수치이므로, 아래 가정도 같은 net 개념으로 읽는다(총매입에서 희석을 이중 차감하지 않는다). capex는 FCF 계산에 이미 반영돼 있으므로 이 정책 가정에서 별도로 다시 빼지 않는다.",
+            "assumption_pct": -1.0,
+            "assumption_basis": "실측(FY2025 buyback+dividend가 FCF의 110.2%, 발행대금 차감 기준 105.6%)이 이미 FCF 한도를 넘어섰고, capex가 FY2024 대비 거의 두 배로 늘어난 상태에서 2028년 생산능력 추가 확대까지 계획돼 있어 향후 FCF 중 자사주 매입에 쓸 수 있는 몫이 더 좁아질 가능성이 있다 -- 이 방향성 하나만 근거로, 관측된 순감소 속도(-2.55%/yr)의 약 40% 수준인 -1.0%/yr로 독립적으로 보수화한다. 이 비율 자체를 현금흐름표에서 역산한 것이 아니라는 점을 명시한다(그런 역산은 신뢰할 만한 미래 부채·현금정책 가정 없이는 불가능하다)."
           }
         },
         "revenue_to_eps_bridge": {
           "kind": "분석자 계산(위 관측값들을 조합한 단순화된 연결식 -- 완전한 부문별 손익계산서 재구성이 아니다. 회사가 부문별 법인세·순이자를 매출만큼 세부적으로 공시하지 않아 한계가 있음을 명시한다)",
           "growth_rate_derivation": {
-            "note": "아래 세 입력(매출·마진, 주식수)은 전부 EPS 성장률과 무관하게 독립적으로 먼저 정하고, 그 결과로 EPS 성장률을 계산한다 -- 목표 EPS 성장률을 미리 넣지 않는다.",
+            "note": "아래 세 입력(매출·마진, 주식수)은 전부 EPS 성장률과 무관하게 독립적으로 먼저 정하고, 그 결과로 EPS 성장률을 계산한다 -- 목표 EPS 성장률을 미리 넣지 않는다. 이 블록의 숫자는 전부 _eps_growth_from_bridge()의 실제 계산 결과이며(하드코딩된 별도 숫자가 아님), PRIMARY_GROWTH_RATE도 같은 함수의 같은 결과를 그대로 쓴다.",
             "step1_segment_weighted_revenue_growth": {
               "inputs": [
                 {
@@ -553,27 +585,31 @@ const INDEPENDENT_VALUATION_DATA = {
                 }
               ],
               "formula": "sum(revenue_share_fy2025 * assumed_annual_growth) -- FY2025 매출 비중을 FY2028~FY2031에도 그대로 유지한다고 가정한 단순화(부문별 비중 변화 자체는 반영하지 않음, 한계로 명시)",
-              "result": 0.0773
+              "result": 0.07733000000000001
             },
             "step2_operating_income_and_below": {
-              "assumption": "영업이익률은 최근 4개년 안정 구간(28.9~30.2%, buyback_and_margin.operating_margin_note)에서 유지된다고 가정 -- 즉 영업이익도 매출과 같은 연 7.73%로 성장한다고 본다(마진 추세적 확장은 가정하지 않음). 법인세율·순이자·본사 미배분 비용은 부문별 공시가 없어 개별 재구성이 불가능하므로, 영업이익 대비 비율이 일정하게 유지된다고 가정한다(즉 순이익도 영업이익과 같은 연 7.73%로 성장 -- 세율 변동이나 순이자 변화는 이 시나리오에 반영하지 않은 단순화이며, 한계로 명시한다).",
-              "implied_net_income_growth": 0.0773
+              "assumption": "영업이익률은 최근 4개년 안정 구간(28.9~30.2%, buyback_and_margin.operating_margin_note)에서 유지된다고 가정 -- 즉 영업이익도 매출과 같은 성장률로 성장한다고 본다(마진 추세적 확장은 가정하지 않음). 법인세율·순이자·본사 미배분 비용은 부문별 공시가 없어 개별 재구성이 불가능하므로, 영업이익 대비 비율이 일정하게 유지된다고 가정한다(즉 순이익도 영업이익과 같은 비율로 성장 -- 세율 변동이나 순이자 변화는 이 시나리오에 반영하지 않은 단순화이며, 한계로 명시한다).",
+              "implied_net_income_growth": 0.07733000000000001
             },
             "step3_independent_share_count_assumption": {
               "assumption_pct": -1.0,
-              "basis": "관측된 최근 1년 속도(-2.55%/yr)를 그대로 쓰지 않고 독립적으로 더 보수적인 -1.0%/yr를 가정한다 -- 근거는 buyback_and_margin.buyback_cash_check_fy2025다: FY2025 한 해에 이미 자사주 매입 추정 지출+배당이 FCF의 약 90%를 차지했고, capex가 FY2024 대비 거의 두 배(2028년 생산능력 추가 확대 계획과 맞물림)로 늘어 향후 FCF 여유가 더 좁아질 수 있다는 점을 반영했다. 이 값은 목표 EPS 성장률을 만들기 위해 역산한 것이 아니라, 자금 여력 판단만으로 먼저 정한 정책 가정이다."
+              "basis": "관측된 최근 1년 속도(-2.55%/yr)를 그대로 쓰지 않고 독립적으로 더 보수적인 -1.0%/yr를 가정한다 -- 근거는 buyback_and_margin.future_share_count_policy_check다: FY2025 공식 현금흐름표 실측상 자사주 매입+배당이 이미 FCF의 약 110%(발행대금 차감 기준 약 106%)를 차지했고, capex가 FY2024 대비 거의 두 배(2028년 생산능력 추가 확대 계획과 맞물림)로 늘어 향후 FCF 여유가 더 좁아질 수 있다는 방향성을 반영했다. 이 값은 목표 EPS 성장률을 만들기 위해 역산한 것이 아니라, 자금 여력 판단만으로 먼저 정한 정책 가정이다(구체적 미래 달러 예산까지 정교하게 역산한 것은 아님, 한계로 명시)."
             },
             "step4_resulting_eps_growth": {
-              "formula": "eps_growth = (1+net_income_growth)/(1+share_count_assumption_pct/100) - 1 -- share_count_assumption_pct는 buyback_and_margin의 관측치와 같은 부호 관례(음수=감소)를 쓴다.",
-              "check": "(1.0773)/(1+(-1.0)/100) - 1 = (1.0773/0.99) - 1 = 0.08818 -> 약 8.82%. 이 값은 입력(매출·마진·주식수)의 결과이며, 사전에 9%나 다른 목표치를 넣지 않았다.",
-              "result": 0.0882
+              "formula": "eps_growth = (1+net_income_growth)/(1+share_count_assumption_pct/100) - 1 -- share_count_assumption_pct는 buyback_and_margin의 관측치와 같은 부호 관례(음수=감소)를 쓴다. _eps_growth_from_bridge()의 실제 계산 결과이며, PRIMARY_GROWTH_RATE도 이 함수의 같은 결과를 그대로 쓴다(딕셔너리 따로·상수 따로가 아님).",
+              "result": 0.08821212121212119
             }
           },
           "achievement_condition_diagnostic": {
-            "kind": "별도 진단(성장률 선택의 근거가 아님 -- 산술 항등식)",
-            "note": "이전 버전은 이 역산(목표 EPS 성장률을 먼저 넣고 필요 주식수 감소율을 구한 뒤 다시 대입)을 '검증'이라고 표현했는데, 이는 growth_rate_derivation과 독립적인 검증이 아니라 같은 식을 반대 방향으로 푼 것뿐이다(2026-09-22 4차 개정, 봄이 지적 반영해 명칭·설명 분리). 참고용으로만 남긴다: 만약 목표 EPS 성장률을 9%로 고정한다면, 순이익 성장 7.73% 가정하에서 필요한 주식수 감소율은 (1.0773/1.09)-1=-0.996%, 즉 연 약 1.0%다 -- 우연히 위 growth_rate_derivation에서 독립적으로 고른 -1.0%/yr와 비슷한 수준이지만, 이는 두 계산이 서로 다른 방향에서 비슷한 결론에 도달했다는 뜻이지 순환 검증이 아니다."
+            "kind": "별도 진단(성장률 선택의 근거가 아님 -- 산술 항등식, _achievement_condition_diagnostic()로 계산, growth_rate_derivation과 별개 함수라 PRIMARY_GROWTH_RATE에 영향을 주지 않는다)",
+            "note": "이 역산(목표 EPS 성장률을 먼저 넣고 필요 주식수 감소율을 구한 뒤 다시 대입)을 '검증'이라고 부르지 않는다 -- growth_rate_derivation과 독립적인 검증이 아니라 같은 식을 반대 방향으로 푼 것뿐이다. 참고용으로만 남긴다: 만약 목표 EPS 성장률을 9%로 고정한다면, 순이익 성장(약 7.73%) 가정하에서 필요한 주식수 감소율은 약 -1.16%다(2026-09-22 5차 개정 -- 4차 개정의 오기 -0.996%를 정정, 정확한 값은 약 -1.16%다). 이는 위 growth_rate_derivation에서 독립적으로 고른 -1.0%/yr와 비슷한 수준(약 0.16%p 차이)이지만, 두 계산이 서로 다른 방향에서 비슷한 결론에 도달했다는 뜻이지 순환 검증이 아니다.",
+            "computed": {
+              "hypothetical_target_eps_growth": 0.09,
+              "net_income_growth_used": 0.07733000000000001,
+              "required_share_count_assumption_pct": -1.1623853211009338
+            }
           },
-          "overall_note": "매출 7.73%(부문 가중, 실제 3년 실현 CAGR을 기준선으로 삼고 회사 가이던스로 조정) -> 영업이익·순이익도 7.73%(마진·세율·순이자 고정 가정, 한계로 명시) -> 독립적으로 정한 주식수 감소 -1.0%/yr(FY2025 현금흐름 검산 근거) -> 결과 EPS 성장률 8.82%. 이 값은 9%를 먼저 정하고 역산한 결과가 아니라, 매출·이익·주식수 가정을 각각 선정한 뒤 EPS 성장률이 산출값으로 나온 것이다."
+          "overall_note": "매출 7.73%(부문 가중, 실제 3년 실현 CAGR을 기준선으로 삼고 회사 가이던스로 조정) -> 영업이익·순이익도 같은 비율로 성장(마진·세율·순이자 고정 가정, 한계로 명시) -> 독립적으로 정한 주식수 감소 -1.0%/yr(FY2025 공식 현금흐름표 실측 근거) -> 결과 EPS 성장률(약 8.82%, _eps_growth_from_bridge()의 실제 계산값). 이 값은 9%를 먼저 정하고 역산한 결과가 아니라, 매출·이익·주식수 가정을 각각 선정한 뒤 EPS 성장률이 산출값으로 나온 것이며, 설명 딕셔너리와 PRIMARY_GROWTH_RATE가 같은 함수·같은 결과를 공유한다(2026-09-22 5차 개정 신규 연결)."
         },
         "cycle_characterization": {
           "kind": "분석자 판단(위 관측값들을 조합해 내린 해석 -- 그 자체가 사실은 아님)",
@@ -581,10 +617,10 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "as_of_execution": "2026-09-22",
-      "growth_rate_assumption": 0.0882,
+      "growth_rate_assumption": 0.08821212121212119,
       "exit_per_assumption": 22.0,
       "is_primary_recommended_assumption": true,
-      "primary_growth_rate": 0.0882,
+      "primary_growth_rate": 0.08821212121212119,
       "primary_exit_per": 22.0,
       "primary_review_by": "2026-12-31",
       "codex_initial_growth_rate": 0.1,
@@ -599,13 +635,13 @@ const INDEPENDENT_VALUATION_DATA = {
       "base_eps_analysts": 34,
       "target_date": "2031-10-31",
       "eps_path_fy2028_to_fy2031": [
-        20.082502478,
-        21.8537791965596,
-        23.78128252169616,
-        25.87879164010976
+        20.08272617242424,
+        21.854266047815965,
+        23.78207721342785,
+        25.879944691254774
       ],
-      "target_eps_fy2031": 25.87879164010976,
-      "target_price": 569.3334160824147,
+      "target_eps_fy2031": 25.879944691254774,
+      "target_price": 569.358783207605,
       "comparison_price": 464.239990234375,
       "comparison_price_as_of": "2026-09-21",
       "base_scenario": {
@@ -618,7 +654,7 @@ const INDEPENDENT_VALUATION_DATA = {
           "3": 2.12,
           "4": 2.12,
           "5": 2.12,
-          "5.112328767123287": 569.5715530687161
+          "5.112328767123287": 569.5969201939064
         },
         "cashflow_note": {
           "approximation_note": "실제 AMAT 분기배당(연 4회 지급)을 이 계산에서는 매입일 이후부터 맞이하는 각 정수 연차에 연 1회 합산 지급으로 근사한다 -- 정확한 분기별 지급일을 쓰려면 엔진을 부분기간 할인 구조로 바꿔야 하며 이번 범위 밖이다. 보유기간이 정수가 아니므로(약 5.1123년), 매도 시점의 부분연도에는 연배당의 11.2%만 비례 배분했다(그 이후 -- 매도 이후 -- 배당은 포함하지 않음). 매도 이후 시점의 배당은 어떤 경우에도 포함하지 않는다."
@@ -627,26 +663,26 @@ const INDEPENDENT_VALUATION_DATA = {
           "0.08": {
             "blocked": false,
             "required_return": 0.08,
-            "max_purchase_price": 392.7686860518927,
+            "max_purchase_price": 392.78580188430675,
             "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
           },
           "0.1": {
             "blocked": false,
             "required_return": 0.1,
-            "max_purchase_price": 357.9294852483546,
+            "max_purchase_price": 357.94506850549794,
             "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
           },
           "0.12": {
             "blocked": false,
             "required_return": 0.12,
-            "max_purchase_price": 326.7441631963544,
+            "max_purchase_price": 326.75837510931575,
             "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
           }
         },
         "conditional_annualized_return_at_comparison_price": {
           "status": "SUCCESS",
-          "rate": 0.04494038501591145,
-          "residual": -6.883169589855243e-10,
+          "rate": 0.044949383212247056,
+          "residual": -8.222400538215879e-10,
           "note": "solve_implied_rate와는 별개의 신규 수치해 함수 -- P05/P10 근거로 대체하지 않음"
         }
       },
@@ -706,15 +742,15 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "required_return_ceilings": {
-        "8%": 392.7686860518927,
-        "10%": 357.9294852483546,
-        "12%": 326.7441631963544
+        "8%": 392.78580188430675,
+        "10%": 357.94506850549794,
+        "12%": 326.75837510931575
       },
-      "conditional_annualized_return_at_comparison_price": 0.04494038501591145,
+      "conditional_annualized_return_at_comparison_price": 0.044949383212247056,
       "conditional_annualized_return_status": "SUCCESS",
       "default_required_return": 0.1,
-      "default_ceiling_price": 357.9294852483546,
-      "like_for_like_comparison_note": "target_price($569.33, FY2031 시점의 할인 전 미래 목표주가)와 default_ceiling_price($357.93, 오늘 현재가치로 할인한 연 10% 요구수익률 매입가 상한)는 서로 다른 의미의 가격이다. 기존 잠정 대표가격(약 $407~410, 요구수익률 기준 매입가 상한 개념)과 같은 뜻으로 비교할 값은 target_price가 아니라 default_ceiling_price다.",
+      "default_ceiling_price": 357.94506850549794,
+      "like_for_like_comparison_note": "target_price($569.36, FY2031 시점의 할인 전 미래 목표주가)와 default_ceiling_price($357.95, 오늘 현재가치로 할인한 연 10% 요구수익률 매입가 상한)는 서로 다른 의미의 가격이다. 기존 잠정 대표가격(약 $407~410, 요구수익률 기준 매입가 상한 개념)과 같은 뜻으로 비교할 값은 target_price가 아니라 default_ceiling_price다.",
       "return_condition_met_at_default_required_return": false,
       "state_label": "수익조건 미충족",
       "blocked": false,
@@ -722,34 +758,34 @@ const INDEPENDENT_VALUATION_DATA = {
       "long_term_thesis_confirmed": false,
       "price_return_table": [
         {
-          "purchase_price": 297.93,
+          "purchase_price": 297.95,
           "status": "SUCCESS",
-          "annualized_return": 0.14063799588684558
+          "annualized_return": 0.14063265254221735
         },
         {
-          "purchase_price": 327.93,
+          "purchase_price": 327.95,
           "status": "SUCCESS",
-          "annualized_return": 0.11919806626672197
+          "annualized_return": 0.11919419593582459
         },
         {
-          "purchase_price": 357.93,
+          "purchase_price": 357.95,
           "status": "SUCCESS",
-          "annualized_return": 0.09999968740120262
+          "annualized_return": 0.09999700535167899
         },
         {
-          "purchase_price": 392.93,
+          "purchase_price": 392.95,
           "status": "SUCCESS",
-          "annualized_return": 0.07991242080904609
+          "annualized_return": 0.07991085927612851
         },
         {
-          "purchase_price": 447.93,
+          "purchase_price": 447.95,
           "status": "SUCCESS",
-          "annualized_return": 0.05234095801658892
+          "annualized_return": 0.052340746330503354
         },
         {
           "purchase_price": 464.24,
           "status": "SUCCESS",
-          "annualized_return": 0.0449403806788268
+          "annualized_return": 0.0449493788751624
         }
       ],
       "range_growth_fixed_exit_per_sensitivity": {
@@ -757,15 +793,15 @@ const INDEPENDENT_VALUATION_DATA = {
         "scenarios": {
           "low": {
             "exit_per": 20.0,
-            "growth_rate": 0.0882,
-            "target_price": 517.5758328021952,
-            "ceiling_at_default_required_return": 326.1343281967827
+            "growth_rate": 0.08821212121212119,
+            "target_price": 517.5988938250955,
+            "ceiling_at_default_required_return": 326.1484947941857
           },
           "high": {
             "exit_per": 25.0,
-            "growth_rate": 0.0882,
-            "target_price": 646.969791002744,
-            "ceiling_at_default_required_return": 405.6222208257125
+            "growth_rate": 0.08821212121212119,
+            "target_price": 646.9986172813693,
+            "ceiling_at_default_required_return": 405.6399290724662
           }
         }
       },
@@ -780,13 +816,13 @@ const INDEPENDENT_VALUATION_DATA = {
             "target_price": 378.25345085284664,
             "ceiling_at_default_required_return": 240.54731400225435,
             "decomposition_vs_primary": {
-              "base_price": 569.3334160824147,
+              "base_price": 569.358783207605,
               "growth_only_price": 462.3097732645903,
-              "growth_only_pct": -0.1879806099460215,
-              "per_only_price": 465.8182495219757,
-              "per_only_pct": -0.18181818181818177,
+              "growth_only_pct": -0.1880167885352204,
+              "per_only_price": 465.8390044425859,
+              "per_only_pct": -0.18181818181818188,
               "combined_price": 378.25345085284664,
-              "combined_pct": -0.33562049904674485,
+              "combined_pct": -0.33565009971063486,
               "note": "성장률만 바꾼 효과와 출구PER만 바꾼 효과를 각각 보여준다 -- 결합효과(둘 다 바꿨을 때)를 어느 한쪽 변수 하나의 효과인 것처럼 설명하지 않는다."
             }
           },
@@ -798,13 +834,13 @@ const INDEPENDENT_VALUATION_DATA = {
             "target_price": 841.573936921493,
             "ceiling_at_default_required_return": 525.1693285195593,
             "decomposition_vs_primary": {
-              "base_price": 569.3334160824147,
+              "base_price": 569.358783207605,
               "growth_only_price": 685.726911565661,
-              "growth_only_pct": 0.20443819420288079,
-              "per_only_price": 698.7273742829635,
+              "growth_only_pct": 0.20438453184558103,
+              "per_only_price": 698.758506663879,
               "per_only_pct": 0.2272727272727273,
               "combined_price": 841.573936921493,
-              "combined_pct": 0.4781741474308083,
+              "combined_pct": 0.4781082890832129,
               "note": "성장률만 바꾼 효과와 출구PER만 바꾼 효과를 각각 보여준다 -- 결합효과(둘 다 바꿨을 때)를 어느 한쪽 변수 하나의 효과인 것처럼 설명하지 않는다."
             }
           },
@@ -816,13 +852,13 @@ const INDEPENDENT_VALUATION_DATA = {
             "target_price": 276.82185,
             "ceiling_at_default_required_return": 178.23695338035208,
             "decomposition_vs_primary": {
-              "base_price": 569.3334160824147,
+              "base_price": 569.358783207605,
               "growth_only_price": 406.00538,
-              "growth_only_pct": -0.28687589990110807,
-              "per_only_price": 388.1818746016464,
+              "growth_only_pct": -0.28690767232450254,
+              "per_only_price": 388.1991703688216,
               "per_only_pct": -0.3181818181818181,
               "combined_price": 276.82185,
-              "combined_pct": -0.5137790226598464,
+              "combined_pct": -0.5138006856757973,
               "note": "성장률만 바꾼 효과와 출구PER만 바꾼 효과를 각각 보여준다 -- 결합효과(둘 다 바꿨을 때)를 어느 한쪽 변수 하나의 효과인 것처럼 설명하지 않는다."
             }
           }
