@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 14.199999809265137,
+      "current": 14.210000038146973,
       "prevClose": 14.869999885559082,
-      "changeAbs": -0.6700000762939453,
-      "changePct": -4.505716754877801,
-      "pctRank": 14.7175815433572,
+      "changeAbs": -0.6599998474121094,
+      "changePct": -4.438465719512645,
+      "pctRank": 14.797136038186157,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -54.267310279620396,
-      "ma20": 15.597499990463257,
-      "ma60": 16.10716660817464,
-      "chg1m": -1.6500005722045898,
-      "chg3m": -4.429999351501465,
-      "chg1mPct": -10.410097996802634,
-      "chg3mPct": -23.778848905322096,
+      "drawdown1y": -54.23510342252682,
+      "ma20": 15.598000001907348,
+      "ma60": 16.107333278656007,
+      "chg1m": -1.640000343322754,
+      "chg3m": -4.419999122619629,
+      "chg1mPct": -10.347005071621842,
+      "chg3mPct": -23.725170809067023,
       "lastDate": "2026-09-22",
       "bars": 1257,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 90.27999877929688,
+      "current": 89.83999633789062,
       "prevClose": 95.77999877929688,
-      "changeAbs": -5.5,
-      "changePct": -5.742326237311293,
-      "pctRank": 82.65712012728719,
+      "changeAbs": -5.94000244140625,
+      "changePct": -6.201714885269135,
+      "pctRank": 82.02068416865554,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -20.07082672107865,
-      "ma20": 93.54100151062012,
-      "ma60": 84.46900049845378,
-      "chg1m": 3.220001220703125,
-      "chg3m": 17.06999969482422,
-      "chg1mPct": 3.6986001734447287,
-      "chg3mPct": 23.316486693474975,
+      "drawdown1y": -20.460381792609883,
+      "ma20": 93.51900138854981,
+      "ma60": 84.46166712443033,
+      "chg1m": 2.779998779296875,
+      "chg3m": 16.62999725341797,
+      "chg1mPct": 3.193198779296841,
+      "chg3mPct": 22.715472560284567,
       "lastDate": "2026-09-22",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 100.58000183105469,
+      "current": 100.53900146484375,
       "prevClose": 100.43000030517578,
-      "changeAbs": 0.15000152587890625,
-      "changePct": 0.14935928051687533,
-      "pctRank": 38.50437549721559,
+      "changeAbs": 0.10900115966796875,
+      "changePct": 0.10853446115378657,
+      "pctRank": 38.34526650755768,
       "min5y": 93.0999984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.0136785484793576,
-      "ma20": 99.5229995727539,
-      "ma60": 100.11783358256022,
-      "chg1m": 1.779998779296875,
-      "chg3m": -0.8300018310546875,
-      "chg1mPct": 1.8016181420200936,
-      "chg3mPct": -0.8184614940161052,
+      "drawdown1y": -1.0540292678619556,
+      "ma20": 99.52094955444336,
+      "ma60": 100.11715024312338,
+      "chg1m": 1.7389984130859375,
+      "chg3m": -0.871002197265625,
+      "chg1mPct": 1.7601197969345588,
+      "chg3mPct": -0.8588917915511963,
       "lastDate": "2026-09-22",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4395.39990234375,
+      "current": 4397.60009765625,
       "prevClose": 4383.89990234375,
-      "changeAbs": 11.5,
-      "changePct": 0.26232350774824476,
-      "pctRank": 89.1891891891892,
+      "changeAbs": 13.7001953125,
+      "changePct": 0.31251159054009214,
+      "pctRank": 89.26868044515103,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.354843880642477,
-      "ma20": 4462.1349609375,
-      "ma60": 4297.923323567708,
-      "chg1m": -285.2001953125,
-      "chg3m": 246.0,
-      "chg1mPct": -6.093239955605485,
-      "chg3mPct": 5.928568125261901,
+      "drawdown1y": -17.313474383182726,
+      "ma20": 4462.244970703125,
+      "ma60": 4297.959993489583,
+      "chg1m": -283.0,
+      "chg3m": 248.2001953125,
+      "chg1mPct": -6.0462332627328825,
+      "chg3mPct": 5.98159254720921,
       "lastDate": "2026-09-22",
       "bars": 1258,
       "symbol": "GC=F",
@@ -164,23 +164,23 @@ const MARKET_DATA = {
       "digits": 2
     },
     "dow": {
-      "current": 51914.23828125,
+      "current": 51863.69140625,
       "prevClose": 52048.828125,
-      "changeAbs": -134.58984375,
-      "changePct": -0.25858381177530115,
-      "pctRank": 95.5378486055777,
+      "changeAbs": -185.13671875,
+      "changePct": -0.35569815002439115,
+      "pctRank": 95.45454545454545,
       "min5y": 28725.509765625,
       "max5y": 54349.12109375,
       "high1y": 54349.12109375,
-      "drawdown1y": -4.480077623150391,
-      "ma20": 52674.493359375,
-      "ma60": 52809.45813802083,
-      "chg1m": -1362.7734375,
-      "chg3m": 247.3984375,
-      "chg1mPct": -2.557901416644946,
-      "chg3mPct": 0.478834080520849,
+      "drawdown1y": -4.573081657038635,
+      "ma20": 52671.966015625,
+      "ma60": 52808.61569010417,
+      "chg1m": -1413.3203125,
+      "chg3m": 196.8515625,
+      "chg1mPct": -2.652776998756866,
+      "chg3mPct": 0.3810017471463616,
       "lastDate": "2026-09-22",
-      "bars": 1255,
+      "bars": 1254,
       "symbol": "^DJI",
       "label": "다우존스 지수",
       "unit": "",
@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 8.060430501940985,
-        "ret3m": 22.145775448768035,
-        "ret6m": 21.558126605970894,
-        "ret1y": 3.820868199696159,
+        "ret1m": 7.767674166611571,
+        "ret3m": 21.81485922503792,
+        "ret6m": 21.22880243514007,
+        "ret1y": 3.5395976479902336,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 11.422396474191544,
-        "ret3m": -4.486007180242546,
-        "ret6m": 91.76091850381832,
-        "ret1y": 215.43096237233837,
+        "ret1m": 11.798617149965152,
+        "ret3m": -4.163501651178569,
+        "ret6m": 92.40840432919441,
+        "ret1y": 216.4960233796299,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": 8.26415419473836,
-        "ret3m": 7.141571017909953,
-        "ret6m": 38.973078239575344,
-        "ret1y": 207.06367198645103,
+        "ret1m": 8.842220980737725,
+        "ret3m": 7.713643871255682,
+        "ret6m": 39.71511258396128,
+        "ret1y": 208.7032110497969,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": 2.32754449551984,
-        "ret3m": -8.484779157803546,
-        "ret6m": 13.932451601267148,
-        "ret1y": 46.341197172357894,
+        "ret1m": 2.349611376667271,
+        "ret3m": -8.465043948564798,
+        "ret6m": 13.957021074527898,
+        "ret1y": 46.372755574554446,
         "winRate": null,
         "count": 12
       }
@@ -229,40 +229,68 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.1404969640354364,
-    "corrPctRank": 1.5899581589958158,
+    "corr60": 0.13792457834176894,
+    "corrPctRank": 1.507537688442211,
     "corrMin5y": 0.036257837878636255,
     "corrMedian5y": 0.7046101936389526,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
     {
-      "headline": "Trump says Iran deal nearing, Tehran offers Hormuz reopening - Reuters",
+      "headline": "Iran submits conditions for reopening of Hormuz to U.S. representative, state media says - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYVI5Zk1aX3RhYUR3djFoUE4wTGo1cEJscDJwelUwamFLQV9WVEh3OU1BcFhkOGJKWWtCVXFPSndFUUpFV2xvWWctLTQxVWFlWmE0d3ctNmJuYzVDLXJSdjdwaktKWFREMVBQeUlZakZvalZOQTAtSlQ5UzZFQkFlUVZPblc2bEE5dzNVRV9pTzM2ZkxURHlFMzVlamZCWG50RUlkaVd5MDc4MzZTbWp1N1J1Y3NnQnUwMnFNRjhWMnd6Y0Z1LWp5NA?oc=5",
+      "datetime": 1790106380,
+      "headlineKo": "이란, 미국 대표에게 호르무즈 재개 조건 제출"
+    },
+    {
+      "headline": "Royal Caribbean nears $3 billion deal to take 50% equity stake in Sandals",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/22/royal-caribbean-sandals.html",
+      "datetime": 1790105617,
+      "headlineKo": "로얄캐리비안은 샌들 지분 50%를 인수하기 위해 30억 달러 규모의 계약을 맺었습니다."
+    },
+    {
+      "headline": "Cisco stock sinks 5% after Piper Sandler cuts price target on growth concerns",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/22/cisco-stock-piper-sandler-price-target.html",
+      "datetime": 1790104871,
+      "headlineKo": "파이퍼 샌들러(Piper Sandler)가 성장 우려로 목표 가격을 인하한 후 시스코 주가는 5% 하락"
+    },
+    {
+      "headline": "Trump at UN: Threats, diplomacy and 'super intelligence' - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPb05jNXUydzFHZ2tRUzBGUndIZFAxTW1jYUtVU3U5NzI1ZjRsckp2YXJuOG9KRE9hOTg1Q3B3b3U1ZC1jWmN1d2J0VU1OMkVfbElFRGhONElJd3I4UklnbVZHTExmT1g2dHFESmJhQWplNWlYUzZsU1ctMW9HRVBXVDJGazNhd1JDbWltQ0hEYmttU2hh?oc=5",
+      "datetime": 1790104182,
+      "headlineKo": "유엔 참석한 트럼프: 위협, 외교 그리고 '초지능' - reuters.com"
+    },
+    {
+      "headline": "Trump says Iran deal nearing, Tehran offers Hormuz reopening - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMHFVWHVmRkJDV09JMHNSQ2RvNk5zS2NwN3lwZ3lNOFNLd0tUdjZHS09lMUhZdHBCWXZUQ1NJUHh5cUxmYlU4NjNTRGRtWDJ3UkFpb05jS1U2R2huempndzFvVEtqZmV1RjN2cTRJWWYybEpQSkptR2NjLWFySUtUeDdXMmdBd0N4dktqeGN6WjdTOGVfQXZJLVgyX2k1RTlzbDZncmktWlI?oc=5",
       "datetime": 1790100359,
-      "headlineKo": "트럼프 \"이란 협상 임박, 테헤란, 호르무즈 재개 제안\" - 로이터 통신"
+      "headlineKo": "트럼프 \"이란 협상 임박, 테헤란은 호르무즈 재개 제안\" - reuters.com"
     },
     {
-      "headline": "Trump warns in UN speech he could 'annihilate' Iran without peace deal - Reuters",
+      "headline": "Trump warns in UN speech he could 'annihilate' Iran without peace deal - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOFdkQk9aWHdzT0hrcFhDNDZPSmlwQVBUUm12TGd4SUVPUURUMVo4Y3I0WHZBSTIxdjdKTWZ4WkF3cVUzUnlrWmNrbTA5T21UN3R0Z0JnekdrZm5ReC1ZS2JmUWVQRXRVNzhaYmNucDI5YVh6d2JxeHp5Yi00Y3p2d0loRTY5YXNiWGRHTlJZb1ZiX1paMVh3UU1XVThfUXR2NHF3T0pod3BBS3VpU3AyTDB3?oc=5",
       "datetime": 1790100313,
-      "headlineKo": "트럼프, 유엔 연설에서 평화협정 없이는 이란 '멸절'시킬 수 있다고 경고 - 로이터"
+      "headlineKo": "트럼프, 유엔 연설에서 평화협정 없이는 이란 '멸절'시킬 수 있다고 경고 - reuters.com"
     },
     {
-      "headline": "Trump at UN: Threats, diplomacy and 'super intelligence' - Reuters",
+      "headline": "EU renews Russia sanctions, drops Russian billionaires Usmanov and Fridman - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPb05jNXUydzFHZ2tRUzBGUndIZFAxTW1jYUtVU3U5NzI1ZjRsckp2YXJuOG9KRE9hOTg1Q3B3b3U1ZC1jWmN1d2J0VU1OMkVfbElFRGhONElJd3I4UklnbVZHTExmT1g2dHFESmJhQWplNWlYUzZsU1ctMW9HRVBXVDJGazNhd1JDbWltQ0hEYmttU2hh?oc=5",
-      "datetime": 1790099502,
-      "headlineKo": "유엔 참석한 트럼프: 위협, 외교 그리고 '초지능' - 로이터"
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMnhFeHB1dlJzNUFaZkYzM0d3cFNyaDI3bFo3VjJFYW5wc0dhandneXlLVkstbVhfd0REaXJrUmx2TF9tRTd0QzdoTExocDNHSFhwVTlVRkZ6RzhKMU4yckMwNzEzS0xtalhQQl9vSkpBdjRxbUFVczFVc1NEQVJQM3R0NEdaQThjX0owTkdxbUcxb3JuM1c3XzNCVGN4dXV4OTNBeEQ3bURQWGxnRmdaVw?oc=5",
+      "datetime": 1790098657,
+      "headlineKo": "EU, 러시아 제재 갱신, 러시아 억만장자 우스마노프와 프리드만 해임 - Reuters"
     },
     {
-      "headline": "Trump says talks with Iran continue and he thinks settlement will be reached - Reuters",
+      "headline": "Trump says talks with Iran continue and he thinks settlement will be reached - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPN3J1Q19pcFNqX1dZdk1GNllCTzNBWWlmWHB3bF9nMGNrcEdvUjc2anM1bndiLWFOYlVjRl9qeTBKby1qaW1zaWY1ZEU1ZEFnM3RTWXB5WUFwNTczcjlOT2ZXc3pfdW1nNFJzY185Wkkxc0UzcEstaHhxNVhHMk0zbERBc2lQTGtKY0dyaGhTWHg5LW5TZUZITXFwTklFcmZadVh4eks3Q1VZeGFGUm1QTW5yV3MzOVZBeFp6SGp1U09NNThl?oc=5",
       "datetime": 1790096983,
-      "headlineKo": "트럼프 \"이란과 대화 계속할 것\""
+      "headlineKo": "트럼프 \"이란과 대화 계속 이어갈 것\""
     },
     {
       "headline": "Nvidia options are doing something unusual ahead of two catalysts. Here's how one trader is playing it",
@@ -279,11 +307,11 @@ const MARKET_DATA = {
       "headlineKo": "나스닥, 기술 부양으로 장중 최고치 경신, 중동 협상 희망 - Reuters"
     },
     {
-      "headline": "Banks, telecoms weigh on FTSE 100; focus on US-Iran talks - Reuters",
+      "headline": "Banks, telecoms weigh on FTSE 100; focus on US-Iran talks - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ3JCUDhubW1Yb0o4bFpaMFdtVE9oYVVuUll5R0tpVS1YNXpjd285eWxWa1ZDUklJd0ZBNnZJdnJQdEVnZmJ6czA1TEYtMmFhNjlUcWZGeDdhMFdpNXRJd21TaWlmcjRiWTBHNEpDVmg2U0RicWlnUWNWRFkyUy01WXA4c09OREpKM2JNWUk5dHEyNDQ0SWM1U3BudkhJUENDWXVjdlUyRl9nZw?oc=5",
       "datetime": 1790093499,
-      "headlineKo": "은행, 통신업체는 FTSE 100에 무게를 두고 있습니다. 미국-이란 회담에 집중 - 로이터"
+      "headlineKo": "은행, 통신업체는 FTSE 100에 무게를 두고 있습니다. 미국-이란 회담에 집중 - reuters.com"
     },
     {
       "headline": "We're protecting big profits in tech, and buying more non-tech in this oversold market",
@@ -291,44 +319,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/22/were-protecting-big-profits-in-tech-and-buying-more-non-tech-in-this-oversold-market.html",
       "datetime": 1790092092,
       "headlineKo": "우리는 기술 분야에서 큰 이익을 보호하고 이 과매도 시장에서 비기술 분야를 더 많이 구매하고 있습니다."
-    },
-    {
-      "headline": "Saudi Arabia restarts East-West oil pipeline, sources say - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNmJidHFzNHlscWlnT2hsWFdKc1hNRFMxOWRnTTRQRHVHbV9tRTJySFJoOGFoZXdNdTIwMngxZlczRmY3dWJxWkNiWTRYclVyT0JoWXQyUHJpNThicmpUNDMwWjNqREdrYmw3Ty1peU9oaEtRdC1GWXE1S0o1eGlrWDZONDhqS0FDbWotZXV1LXBvTEhUWHdlT1BzYU5udjNKTTFXdk1hX0wwVk1yczRTdV94R0p4UUQ1bEViTXJ2S2pEaTVLTFlvdw?oc=5",
-      "datetime": 1790089939,
-      "headlineKo": "사우디아라비아가 동서 송유관을 재개했다고 소식통이 전했습니다 - 로이터 통신"
-    },
-    {
-      "headline": "Trump says he thinks US will make deal with Iran after election - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYkw1RzVpeWp6Q0lENW1HSzFGSUJoNEx5VmJZdWlpa2otcmNiY3RUeXlJc0FJMnNCc3Zsa2c0dUkxN3c3cGhiemFFd2xEWjZMUWtVQ1VvdG9sNmYtZF9XV1NoMjZFNEMzUTZJaVJkWlBlQ1VPRTA0WjB5QVNNUHlKZEw4SW1pNmI5TmM3RktzX1Zvbmp6cWQ1WXVWNUVab2NidTR5d2g3YmR3UWZuYVJUcQ?oc=5",
-      "datetime": 1790088896,
-      "headlineKo": "트럼프 \"대선 이후 미국이 이란과 협상할 것\""
-    },
-    {
-      "headline": "Democrats lead the polls. Republicans lead in cash heading into the midterms",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/22/republicans-democrats-election-fundraising-2026.html",
-      "datetime": 1790088656,
-      "headlineKo": "민주당이 여론조사를 주도하고 있다. 공화당, 중간고사 진출에 앞서 현금 확보"
-    },
-    {
-      "headline": "Egypt's NBE steps in to buy Banque Misr's UAE operations after sanctions threat - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOc1V6cVZXYmhuN2pBWXZKc2s3VUdNNlg3N0dKeVpNQmhtamE3NXQ1NFhqRUdObVBGZms1dDdQaWswNUNnaktFczEtb19zc09fcFRYWmx2OERxakN6VUhtdGFfTnprWG94ZExiVmstMlV2akFCaHNkMml0SW5mSEY3UDl4SmZyT3o0R3gzT00xbnRQWXpPN0ZJSUd4YVRCelZabjBBNzZvNlN6elkyQWJlcGxnQ1UzTzNSX0ZpVzVpQkJramgyaEE?oc=5",
-      "datetime": 1790088573,
-      "headlineKo": "이집트 NBE, 제재 위협 이후 Banque Misr의 UAE 사업 인수에 개입 - Reuters"
     }
   ],
   "fgi": {
-    "score": 36.1714285714286,
+    "score": 35.2571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1790105372.753858,
-  "_updated_label": "2026-09-23 04:30",
-  "_last_attempt_at": 1790105372.753858,
-  "_last_success_at": 1790105372.753858,
+  "_fetched_at": 1790109247.2650406,
+  "_updated_label": "2026-09-23 05:34",
+  "_last_attempt_at": 1790109247.2650406,
+  "_last_success_at": 1790109247.2650406,
   "_collection_status": "ok",
   "_collection_errors": []
 };

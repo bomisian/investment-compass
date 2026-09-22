@@ -1,8 +1,155 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790107615.9430318,
+  "generatedAt": 1790109247.0679333,
   "events": [
+    {
+      "id": "01aefc240304509f2417",
+      "schemaVersion": 1,
+      "eventType": "dilution_warrant",
+      "eventLabel": "워런트·신주·희석 가능성",
+      "primaryTicker": "INTC",
+      "relatedTickers": [
+        "INTC",
+        "QQQ",
+        "SPY"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Intel",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Intel Is Up 25% in 5 Days. The $145 Price Target Just Moved Too",
+      "headlineKo": "인텔은 5일 만에 25% 상승했습니다. 145달러 목표 가격도 방금 움직였습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=457883f0f473ada0a708561ff0eb577f3c075986ad8a6c2dfaedb9f4bee30251",
+        "publishedAt": 1790103933,
+        "collectedAt": 1790109181.839408
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "145달러 목표 가격이 너무 높아졌습니다 - 24/7 Wall St.",
+        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,775.60 +0.01% Dow Jones 51,951.80 −0.34% Nasdaq 100 30,754.00 +0.77% Russell 2000 2,895.86 +0.55% S&P 500 7,775.60 +0.01% 다우존스 51,951.80 −0.34% 나스닥 100 30,754.00 +0.77% 러셀 2000 2,895.86 +0.",
+        "145달러 목표 가격이 너무 많이 움직였습니다. Intel은 최근 몇 년 만에 가장 빠른 상승세를 보였습니다. 그러나 급등 전에 목표 가격을 제시한 분석가는 이러한 움직임이 여전히 가장 중요한 촉매제를 놓치고 있다고 생각합니다."
+      ],
+      "marketInterpretation": [
+        "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 25%, $145, $121.78, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "INTC에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 25%, $145, $121.78, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "INTC",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "신규 주식 수·행사가격",
+        "조달 자금 사용처",
+        "완전희석 주식수와 EPS"
+      ]
+    },
+    {
+      "id": "c0b35d1e9cbad00142ee",
+      "schemaVersion": 1,
+      "eventType": "regulatory_legal_export",
+      "eventLabel": "규제·소송·수출 제한",
+      "primaryTicker": "CRM",
+      "relatedTickers": [
+        "CRM",
+        "SPY"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Salesforce vs. ServiceNow: Which Technology Stock Is a Better Buy in 2026?",
+      "headlineKo": "Salesforce 대 ServiceNow: 2026년에는 어떤 기술 주식이 더 나은 구매입니까?",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=68d58b8e2929f6963c7b5e44a5008a7d2250624581dd63338158e4dddf0fbb0a",
+        "publishedAt": 1790100814,
+        "collectedAt": 1790109181.839408
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "ServiceNow: 2026년에는 어느 기술주를 매수하는 것이 더 나은가요?",
+        "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 소프트웨어 거대 기업들이 기업의 모든 구석구석에 인공 지능을 통합하기 위해 경쟁하면서 투자자들은 Sa를 선택할지 여부에 대해 논쟁을 벌이고 있습니다.",
+        "Salesforce는 고객 관계 관리 분야에서 여전히 지배적인 세력을 유지하고 있으며 ServiceNow는 IT 및 인적 자원 전반에 걸쳐 복잡한 워크플로를 자동화하여 대규모 틈새 시장을 개척했습니다."
+      ],
+      "marketInterpretation": [
+        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: $ 233.28, 1.33 %, $ 3.14 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "CRM에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: $ 233.28, 1.33 %, $ 3.14 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "CRM",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "공식 규제 적용일·대상 제품",
+        "회사의 매출 영향 추정",
+        "대체 제품·지역 판매"
+      ]
+    },
     {
       "id": "2c672afed39fe435e3af",
       "schemaVersion": 1,
@@ -4889,7 +5036,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1dda7270cfc8bd93e3e9c4c195f17681dc9577e5fec7b4a70c4f4518b1f96881",
         "publishedAt": 1790020201,
-        "collectedAt": 1790087194.2232182
+        "collectedAt": 1790109181.839408
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5037,7 +5184,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=39696fe534e8f1e298e67fc58e6197f64ac536a4c9fae5d9cbdd89208fa82a27",
         "publishedAt": 1790017325,
-        "collectedAt": 1790087194.2232182
+        "collectedAt": 1790109181.839408
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6734,7 +6881,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=26432137ca0d3f666105ae0189ed15b2de0f146c42cb46c156daf83e057df62e",
         "publishedAt": 1790006746,
-        "collectedAt": 1790087194.2232182
+        "collectedAt": 1790109181.839408
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12488,7 +12635,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5d9149c2ca039a4461b529ed6c75a559df3b538d6518dbf5986fcf34f40503ee",
         "publishedAt": 1789855261,
-        "collectedAt": 1790087194.2232182
+        "collectedAt": 1790109181.839408
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12893,17 +13040,17 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1c412c5686b672e112e74c73f6163e769da70ec87b32a9cbe224cf4a4cc0daf3",
         "publishedAt": 1789834996,
-        "collectedAt": 1790087194.2232182
+        "collectedAt": 1790109181.839408
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "더 나은 인공 지능 주식: Aehr 테스트 시스템 vs.",
         "KLA 주식회사 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 틈새 장비 제공업체와 다각화된 업계 거대 기업 사이에서 선택하려면 높은 성장 잠재력의 균형을 맞춰야 합니다.",
-        "투자자를 위해 Aehr Test Systems(AEHR +0.21%)와 KLA(KLAC +0.03%)를 비교하는 방법은 다음과 같습니다."
+        "투자자를 위해 Aehr Test Systems(AEHR +3.79%)와 KLA(KLAC +2.37%)를 비교하는 방법은 다음과 같습니다."
       ],
       "marketInterpretation": [
         "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.21%, 0.03%, 70% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 3.79%, 2.37%, 70% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -12918,7 +13065,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.21%, 0.03%, 70% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 3.79%, 2.37%, 70% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -14381,7 +14528,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=31b8bc9cbfe8fd4a71619ae7750a1be016fb0b76edce5c04b1f5f122884ecfd5",
         "publishedAt": 1789805621,
-        "collectedAt": 1790087194.2232182
+        "collectedAt": 1790109181.839408
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14831,7 +14978,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4c2672fecdcacea8ce6ad2e9d6b5e06d6192368bc02aa08ea48592121cd859b1",
         "publishedAt": 1789795794,
-        "collectedAt": 1790087194.2232182
+        "collectedAt": 1790109181.839408
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15428,7 +15575,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b8457811a4da8c2a73c287963b87e1ae7ca1013bbc069d7046338325e1de17f8",
         "publishedAt": 1789770780,
-        "collectedAt": 1790087194.2232182
+        "collectedAt": 1790109181.839408
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17994,227 +18141,35 @@ const EVENT_DATA = {
         "적용 PER 변화",
         "회사 공식 가이던스"
       ]
-    },
-    {
-      "id": "ff6c2c3b232f321ef5cc",
-      "schemaVersion": 1,
-      "eventType": "supply_chain",
-      "eventLabel": "공급망 문제",
-      "primaryTicker": "AAPL",
-      "relatedTickers": [
-        "AAPL",
-        "MU",
-        "QCOM",
-        "WDC"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Apple",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기 비용 부담 / 출시 후 수요 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "How Apple's iPhone 18 price increases impact your trade-in value at Verizon, T-Mobile, or AT&T",
-      "headlineKo": "Apple의 iPhone 18 가격 인상이 Verizon, T-Mobile 또는 AT&T의 보상 판매 가치에 미치는 영향",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=56cf5280801daec218f30a849fb3bc763fc3c0d0f84252935e2f0e17ee16caf4",
-        "publishedAt": 1789734082,
-        "collectedAt": 1790107202.4616306
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
-        "가격 인상 폭과 제조원가 변화는 시장조사업체·애널리스트 전망치입니다.",
-        "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
-      ],
-      "marketInterpretation": [
-        "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
-        "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
-        "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
-      ],
-      "aiInference": [
-        "이 기사는 AAPL의 사업과 관련된 'How Apple's iPhone 18 price increases impact your trade-in value at Verizon, T-Mobile, or AT&T' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
-        "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
-        "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
-      ],
-      "whyItMatters": [
-        "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
-        "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
-        "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AAPL",
-          "direction": "혼합",
-          "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "MU",
-          "direction": "긍정",
-          "reason": "메모리 ASP와 이익률 개선 가능성",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "WDC",
-          "direction": "긍정",
-          "reason": "메모리·스토리지 가격 강세 수혜 가능성",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "QCOM",
-          "direction": "중립·확인",
-          "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "iPhone 18 실제 출고가·사전예약",
-        "애플 아이폰 출하량과 제품 믹스",
-        "메모리 현물·계약 가격",
-        "AAPL 매출총이익률과 MU/WDC 가이던스"
-      ]
-    },
-    {
-      "id": "514d0a5f399c72195b1c",
-      "schemaVersion": 1,
-      "eventType": "long_term_supply",
-      "eventLabel": "장기 공급계약",
-      "primaryTicker": "AVGO",
-      "relatedTickers": [
-        "AVGO",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Broadcom",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Here’s When Nividia’s Dominance Fades, Opening Broadcom’s Era of Dominance",
-      "headlineKo": "Nividia의 지배력이 사라지고 Broadcom의 지배력 시대가 열리는 순간입니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=20247d906545b87ad0ff00906d5d206158c21068a623438c5e3701d9f556ee42",
-        "publishedAt": 1789733951,
-        "collectedAt": 1790107202.4616306
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Nividia의 지배력이 사라지고 Broadcom의 지배력 시대가 열리는 순간 - 24/7 Wall St.",
-        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,669.20 +0.30% Dow Jones 51,799.60 −0.10% Nasdaq 100 29,701.00 +0.80% Russell 2000 2,862.20 −0.42% S&P 500 7,669.20 +0.30% 다우존스 51,799.60 −0.10% 나스닥 100 29,701.00 +0.80% 러셀 2000 2,862.20 −0.",
-        "무엇인가는 주어야 하며, 그 시기는 대부분의 투자자들이 인식하는 것보다 더 가깝습니다."
-      ],
-      "marketInterpretation": [
-        "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: $96.22, 105.8%, $89.02 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AVGO의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "AVGO에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: $96.22, 105.8%, $89.02 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AVGO의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AVGO",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "계약 기간·최소구매 조건",
-        "연도별 매출 인식",
-        "수주잔고·취소 조건"
-      ]
     }
   ],
   "byTicker": {
-    "AAPL": [
-      "2c672afed39fe435e3af",
-      "2f15e1bb7bdc2511883e",
-      "db0d22d37d8a2aa35474",
-      "a5edb9145e4953fd6530",
-      "7ffbba16fdad050a29d7",
-      "ee666a90b969535eac3d",
-      "8c729dd25dfd9605f0c9",
-      "c52c25fd78c11c53f34a",
-      "5435830767c71e842f0f",
-      "9d41142cbba27aa19d52",
-      "e5dbd425f4f347917b56",
-      "d16c64b048b0efdc540d",
-      "f90af8848140b8ee34f9",
-      "ff6c2c3b232f321ef5cc"
-    ],
-    "META": [
-      "2c672afed39fe435e3af",
-      "f32824776d6a477ab9ab",
-      "91f0eedf28288ef58d44",
-      "22caef48cafabc83a799",
-      "611facc333f092e17ae1",
-      "6405cabcb9cf519e880c",
-      "ed1e6204d9bf4644d24e",
-      "5151e881fc66bc52dcbe",
+    "INTC": [
+      "01aefc240304509f2417",
+      "9716f6edd2f00dc4b9ea",
       "b09cd36c20c6f95e9fd1",
       "db0d22d37d8a2aa35474",
-      "fd6c910bf6bb4a5fa1e8",
-      "a3ddac4656027a873827",
-      "38439709d34a65a7083c",
-      "f700cd60313e2c3e5a48",
-      "0f50bfd93824af065920",
-      "aa1880459df847fccd2b",
-      "a5edb9145e4953fd6530",
-      "80e32e583212efdb7d8f",
-      "6c48c14a718ca34d02b0",
-      "c4e418d345d85d0deece",
-      "25897293ef9bd61f31c1",
-      "10fb056b5d213479b559",
-      "0885a8db207ab0d32de9",
-      "14ffd1f531b3f63563ef"
+      "392adc1f4c253bb3395e",
+      "f5c69b999f965e86b9c0",
+      "4fedbce9d9afd4b3d97e",
+      "367fd98ff3228b6b25bf",
+      "08443c7dae875a787650",
+      "fa99fcaac7ce7ed36ee1",
+      "a273527a5b574fe258c3",
+      "f064b85100918e010d80",
+      "aaf02cf79c0c320c7996",
+      "871d46a3da0860f60ec0",
+      "dc0a131c2ac1dd2c714f",
+      "2c4acc02fa8b0bade91d",
+      "c2c9d8678125112bf9c5",
+      "f708089a400c47a1d40a",
+      "65b6be940260963a4d04",
+      "25d9203f396edf970db1",
+      "7c7a967ef98d9adbfaac",
+      "0e3a2bd4576f0591df89"
     ],
     "QQQ": [
+      "01aefc240304509f2417",
       "2c672afed39fe435e3af",
       "6d4047f33edd847a51f8",
       "7b9771983314c442ea05",
@@ -18283,10 +18238,11 @@ const EVENT_DATA = {
       "104f49682ec6d89eedba",
       "3f005af442cabbd1c6ec",
       "e2ad263d41e60789005d",
-      "63ee4e0a4a6815449b1b",
-      "514d0a5f399c72195b1c"
+      "63ee4e0a4a6815449b1b"
     ],
     "SPY": [
+      "01aefc240304509f2417",
+      "c0b35d1e9cbad00142ee",
       "2c672afed39fe435e3af",
       "7dbd2ef0f7939f2634ca",
       "6d4047f33edd847a51f8",
@@ -18411,8 +18367,51 @@ const EVENT_DATA = {
       "3f005af442cabbd1c6ec",
       "0e3a2bd4576f0591df89",
       "e2ad263d41e60789005d",
-      "63ee4e0a4a6815449b1b",
-      "514d0a5f399c72195b1c"
+      "63ee4e0a4a6815449b1b"
+    ],
+    "CRM": [
+      "c0b35d1e9cbad00142ee"
+    ],
+    "AAPL": [
+      "2c672afed39fe435e3af",
+      "2f15e1bb7bdc2511883e",
+      "db0d22d37d8a2aa35474",
+      "a5edb9145e4953fd6530",
+      "7ffbba16fdad050a29d7",
+      "ee666a90b969535eac3d",
+      "8c729dd25dfd9605f0c9",
+      "c52c25fd78c11c53f34a",
+      "5435830767c71e842f0f",
+      "9d41142cbba27aa19d52",
+      "e5dbd425f4f347917b56",
+      "d16c64b048b0efdc540d",
+      "f90af8848140b8ee34f9"
+    ],
+    "META": [
+      "2c672afed39fe435e3af",
+      "f32824776d6a477ab9ab",
+      "91f0eedf28288ef58d44",
+      "22caef48cafabc83a799",
+      "611facc333f092e17ae1",
+      "6405cabcb9cf519e880c",
+      "ed1e6204d9bf4644d24e",
+      "5151e881fc66bc52dcbe",
+      "b09cd36c20c6f95e9fd1",
+      "db0d22d37d8a2aa35474",
+      "fd6c910bf6bb4a5fa1e8",
+      "a3ddac4656027a873827",
+      "38439709d34a65a7083c",
+      "f700cd60313e2c3e5a48",
+      "0f50bfd93824af065920",
+      "aa1880459df847fccd2b",
+      "a5edb9145e4953fd6530",
+      "80e32e583212efdb7d8f",
+      "6c48c14a718ca34d02b0",
+      "c4e418d345d85d0deece",
+      "25897293ef9bd61f31c1",
+      "10fb056b5d213479b559",
+      "0885a8db207ab0d32de9",
+      "14ffd1f531b3f63563ef"
     ],
     "PLTR": [
       "7dbd2ef0f7939f2634ca",
@@ -18469,8 +18468,7 @@ const EVENT_DATA = {
       "216445f71853f780854a",
       "da98f914364d763e2d45",
       "3f005af442cabbd1c6ec",
-      "b8ba2416466cedfef150",
-      "ff6c2c3b232f321ef5cc"
+      "b8ba2416466cedfef150"
     ],
     "ORCL": [
       "0f5bc3d29acde692f19d",
@@ -18612,8 +18610,7 @@ const EVENT_DATA = {
       "a053dcedeff947f542b2",
       "89af57c18dac45fbc10d",
       "a62b3aef0d0098a0ecd5",
-      "65b6be940260963a4d04",
-      "514d0a5f399c72195b1c"
+      "65b6be940260963a4d04"
     ],
     "MRVL": [
       "7508811d4b3549c347f2",
@@ -18728,8 +18725,7 @@ const EVENT_DATA = {
       "8e07079c6b8dbca0ba0b",
       "ee666a90b969535eac3d",
       "9d41142cbba27aa19d52",
-      "6d075e8f84abad0104a3",
-      "ff6c2c3b232f321ef5cc"
+      "6d075e8f84abad0104a3"
     ],
     "GOOGL": [
       "08454abd866566194ef4",
@@ -18770,29 +18766,6 @@ const EVENT_DATA = {
       "38e4cd3e0428f5789920",
       "0e3a2bd4576f0591df89"
     ],
-    "INTC": [
-      "9716f6edd2f00dc4b9ea",
-      "b09cd36c20c6f95e9fd1",
-      "db0d22d37d8a2aa35474",
-      "392adc1f4c253bb3395e",
-      "f5c69b999f965e86b9c0",
-      "4fedbce9d9afd4b3d97e",
-      "367fd98ff3228b6b25bf",
-      "08443c7dae875a787650",
-      "fa99fcaac7ce7ed36ee1",
-      "a273527a5b574fe258c3",
-      "f064b85100918e010d80",
-      "aaf02cf79c0c320c7996",
-      "871d46a3da0860f60ec0",
-      "dc0a131c2ac1dd2c714f",
-      "2c4acc02fa8b0bade91d",
-      "c2c9d8678125112bf9c5",
-      "f708089a400c47a1d40a",
-      "65b6be940260963a4d04",
-      "25d9203f396edf970db1",
-      "7c7a967ef98d9adbfaac",
-      "0e3a2bd4576f0591df89"
-    ],
     "FIX": [
       "c942f9b3fdf483c7336f"
     ],
@@ -18815,8 +18788,7 @@ const EVENT_DATA = {
       "7ffbba16fdad050a29d7",
       "ee666a90b969535eac3d",
       "9d41142cbba27aa19d52",
-      "3f005af442cabbd1c6ec",
-      "ff6c2c3b232f321ef5cc"
+      "3f005af442cabbd1c6ec"
     ],
     "COHR": [
       "b4aadb81cca7c30b70fe",
