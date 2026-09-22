@@ -694,8 +694,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "growth_years": 4,
       "base_fiscal_year": 2027,
       "target_fiscal_year": 2031,
-      "estimates_fetched_at": "2026-09-21",
-      "estimates_age_days": 1,
+      "estimates_fetched_at": "2026-09-22",
+      "estimates_age_days": 0,
       "base_eps_fact": 18.45479,
       "base_eps_end_date": "2027-10-31",
       "base_eps_analysts": 34,
@@ -935,8 +935,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "kind": "independent_value_dcf_scenario_engine",
       "asOf": "2026-09-22",
       "valuationAnchorDate": "2026-07-26",
-      "runId": "AMAT_REAL_20260922T212410393612",
-      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260922T212410370826",
+      "runId": "AMAT_REAL_20260922T233013180627",
+      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260922T233013158481",
       "engineVersion": "amat_calc_engine v4 (2026-09-18, 모델 채택 검토) -- D&A/CapEx 비율 곡선을 FY2025 실측 대조로 조정(min(0.60,0.20+0.10*(i+1)) -> min(0.45,0.19+0.065*i)), 계산 결과가 달라짐(v3 대비). 과거 실행은 각자 저장된 code_snapshots로 그 시점 값 그대로 재현 가능.",
       "isReplayFixture": false,
       "px": 191.18875891941352,
@@ -947,21 +947,21 @@ const INDEPENDENT_VALUATION_DATA = {
           "growthY1": 0.3134993682913383,
           "roic": 0.18,
           "ntmValue": 40504380020.0,
-          "runId": "AMAT_REAL_20260922T212410377328"
+          "runId": "AMAT_REAL_20260922T233013165566"
         },
         "base": {
           "px": 191.18875891941352,
           "growthY1": 0.38220422220060324,
           "roic": 0.22,
           "ntmValue": 42623031600.0,
-          "runId": "AMAT_REAL_20260922T212410393612"
+          "runId": "AMAT_REAL_20260922T233013180627"
         },
         "optimistic": {
           "px": 202.91184230912685,
           "growthY1": 0.45090907610986797,
           "roic": 0.26,
           "ntmValue": 44741683180.0,
-          "runId": "AMAT_REAL_20260922T212410433102"
+          "runId": "AMAT_REAL_20260922T233013216019"
         }
       },
       "priorDeliveredPx": 129.13,
@@ -1643,7 +1643,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "updateStatus": {
         "attemptStatus": "SUCCESS",
         "failureType": null,
-        "attemptedAt": "2026-09-22T21:24:10.401672",
+        "attemptedAt": "2026-09-22T23:30:13.188561",
         "dataAsOf": "2026-09-21",
         "holdPrice": false,
         "reason": ""
@@ -1922,8 +1922,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "target_fiscal_year": 2032,
       "annualized_dividend_per_share": 1.32,
       "dividend_source_note": "연배당 $1.32/주(분기 $0.33 x4, 2026-09-22 확인) -- model_assumption(확정 아님, 다음 확정 지급 이후 동일 금액 유지 가정).",
-      "estimates_fetched_at": "2026-09-21",
-      "estimates_age_days": 1,
+      "estimates_fetched_at": "2026-09-22",
+      "estimates_age_days": 0,
       "base_eps_fact": 11.65184,
       "base_eps_end_date": "2028-06-30",
       "base_eps_analysts": 26,
@@ -2425,7 +2425,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "target_eps_reproduces_company_target": true,
       "target_price": 193.20000000000002,
       "consensus_cross_check": {
-        "estimates_fetched_at": "2026-09-21",
+        "estimates_fetched_at": "2026-09-22",
         "note": "참고용 -- 기준 경로 계산에는 쓰이지 않음(2026-09-22 정정)."
       },
       "comparison_price": 183.97000122070312,
@@ -2761,7 +2761,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "annualized_dividend_per_share": 8.64048,
       "dividend_source_note": "연배당 €7.52/주(분기상당 €1.88 x4, 2026-09-22 확인)를 환율 1.149로 환전한 $8.64/주로 현금흐름에 반영 -- model_assumption(확정 아님, 다음 확정 지급 이후 동일 금액 유지 및 환율 고정 가정).",
       "consensus_cross_check": {
-        "estimates_fetched_at": "2026-09-21",
+        "estimates_fetched_at": "2026-09-22",
         "estimates_financial_currency": "EUR",
         "estimates_quote_currency": "USD",
         "note": "참고용 -- 기준 경로 계산(상향식 EUR 역산)에는 쓰이지 않음. 컨센서스 EPS도 EUR 기준(financialCurrency=EUR)이라 이 모듈의 target_eps_eur와 같은 통화다."
