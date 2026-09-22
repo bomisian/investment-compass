@@ -5316,6 +5316,81 @@ function renderVstFrontCard(r){
 // 상대가치 밴드(renderRelativeValueBandCard)와 완전히 별개의 카드다. "단기 매수 타이밍"과 섞이지
 // 않도록 이 카드 안에서는 "매수 검토"라는 표현을 쓰지 않고 "장기 수익조건"이라는 별도 표현만
 // 쓴다(사용자 명시 요구). 대표가격을 이 값으로 덮어쓰지 않는다 -- 검토용 별도 카드일 뿐이다.
+// [2026-09-22 신규 -- item2 보완: "실제 화면 가격과 장기 카드의 계산을 연결"] 지금까지
+// renderLongTermScenarioCard는 lt(파이썬이 파이프라인 실행 시점에 계산해 그대로 저장한 값)만
+// 읽었다 -- 화면을 여는 지금 시각의 실시간 가격이 lt.comparison_price보다 새로워도 카드가
+// 전혀 반영하지 못했다(Codex 재현: 같은 lt에 $100/$1,000를 넣어도 HTML이 완전히 같았음).
+// 이 함수는 computeLiveComparisonForScenario(AMAT DCF 카드가 이미 쓰는 것)와 같은 원칙 --
+// LIVE_COMPARISON_BY_TICKER를 새로 만들지 않고 그대로 재사용, 새 현금흐름/이분법 계산식도
+// 만들지 않고 이미 있는 computeHoldingPeriodYearsJS/buildReturnCashflowsJS/solveAnnualizedReturnJS/
+// recomputeCeilingJS를 그대로 쓴다(Python _build_one_scenario_cashflows_and_ceilings과 같은 공식).
+// target_price(사업 전망 기반, 가격과 무관)는 이 함수가 절대 건드리지 않는다 -- 여기서 다시
+// 계산하는 것은 "비교가격이 바뀌면 달라져야 하는" 값(보유기간·현금흐름·조건부수익률·매입가상한)뿐.
+// lt.annualized_dividend_per_share가 없는 구버전 데이터(아직 이 필드를 노출하지 않는 티커)는
+// null을 돌려줘서 호출부가 기존 저장값 표시로 그대로 폴백하게 한다(회귀 없음).
+function computeLiveComparisonForLongTermScenario(lt, ticker){
+  if(!lt || lt.blocked) return null;
+  const stored = {
+    comparisonPrice: lt.comparison_price, comparisonDate: lt.comparison_price_as_of,
+    holdingPeriodYears: lt.base_scenario && lt.base_scenario.holding_period_actual_years,
+    cashflowsByYear: lt.base_scenario && lt.base_scenario.cashflows_by_year,
+    isLive: false, invalidLiveInput: false,
+    source: '저장된 실행 당시 값(재현용) -- 아직 실시간 가격을 받지 못했거나 이 종목은 실시간 연결 정보가 없음',
+  };
+  if(lt.annualized_dividend_per_share == null || lt.target_price == null || !lt.target_date) return stored;
+  const live = (typeof LIVE_COMPARISON_BY_TICKER !== 'undefined') ? LIVE_COMPARISON_BY_TICKER[ticker] : null;
+  if(!live || live.price == null || !live.asOf) return stored;
+
+  // [computeLiveComparisonForScenario와 같은 원칙 -- 새 검증을 만들지 않음] 값·날짜 자체의 유효성을
+  // 먼저 본다: 누락/오류/미래 날짜면 저장값으로 조용히 대체하지 않고, 무효 표시를 그대로 들고 간다
+  // (그래야 아래 evaluatePriceFreshnessJS의 기존 관측일 검증이 그대로 걸린다).
+  const priceValid = Number.isFinite(live.price) && live.price > 0;
+  const dateStr = (typeof live.asOf === 'string') ? live.asOf.slice(0, 10) : null;
+  const dateValid = !!dateStr && /^\d{4}-\d{2}-\d{2}$/.test(dateStr)
+                     && !isNaN(new Date(dateStr + 'T00:00:00Z').getTime());
+  let notFuture = false;
+  if(dateValid){
+    const obsTs = new Date(dateStr + 'T00:00:00Z').getTime();
+    const now = new Date();
+    const todayUTC = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+    notFuture = obsTs <= todayUTC;
+  }
+  if(!priceValid || !dateValid || !notFuture){
+    const badParts = [];
+    if(!priceValid) badParts.push('가격 누락/오류');
+    if(!dateValid) badParts.push('관측일 누락/형식오류');
+    if(dateValid && !notFuture) badParts.push('관측일이 오늘보다 미래');
+    return {
+      comparisonPrice: priceValid ? live.price : null,
+      comparisonDate: dateValid ? dateStr : null,
+      holdingPeriodYears: null, cashflowsByYear: null,
+      isLive: true, invalidLiveInput: true, invalidLiveReason: badParts.join('·'),
+      source: `실시간 입력값이 유효하지 않음(${badParts.join('·')}) -- 저장된 과거값으로 조용히 대체하지 `
+              + '않고 판단 보류로 이어짐',
+    };
+  }
+
+  const hp = computeHoldingPeriodYearsJS(dateStr, lt.target_date);
+  if(!hp){
+    return Object.assign({}, stored, {
+      source: `실시간 가격(${dateStr}) 기준 보유기간을 계산할 수 없어(관측일이 목표일 이후이거나 날짜 오류) `
+              + '저장된 실행 당시 값을 대신 사용',
+    });
+  }
+  const cashflows = buildReturnCashflowsJS(lt.annualized_dividend_per_share, lt.target_price, hp.years);
+  if(!cashflows){
+    return Object.assign({}, stored, {
+      source: `실시간 가격(${dateStr}) 기준 보유기간(${hp.years.toFixed(4)}년)이 현금흐름을 구성할 수 없는 `
+              + '범위라 저장된 실행 당시 값을 대신 사용',
+    });
+  }
+  return {
+    comparisonPrice: live.price, comparisonDate: dateStr,
+    holdingPeriodYears: hp.years, holdingPeriodDays: hp.days,
+    cashflowsByYear: cashflows, isLive: true, invalidLiveInput: false,
+    source: `실시간 가격(${dateStr} 관측)`,
+  };
+}
 function renderLongTermScenarioCard(lt, r, dcfPx){
   if(!lt) return '';
   const triIcon = ok => ok==null ? '❔' : (ok ? '✅' : '❌');
@@ -5339,11 +5414,62 @@ function renderLongTermScenarioCard(lt, r, dcfPx){
     : quarterUnconfirmed ? `최신 분기 매출·영업이익이 아직 미확인(${fd.verdict})`
     : `최신 분기 기준: ${fd.verdict}`;
 
-  const stateColor = lt.state_label === '수익조건 충족' ? 'var(--up)'
-    : lt.state_label === '수익조건 미충족' ? 'var(--warn)' : 'var(--sub)';
-  const condRet = lt.conditional_annualized_return_at_comparison_price;
-  const defCeiling = lt.default_ceiling_price;
-  const ceilings = lt.required_return_ceilings || {};
+  // [2026-09-22 item2 보완] 저장된 lt.comparison_price/조건부수익률/매입가상한을 그대로 쓰지 않고,
+  // 실시간 가격이 있으면(computeLiveComparisonForLongTermScenario) 같은 계산 규칙으로 다시 만든
+  // eff* 값을 우선 쓴다. target_price(사업 전망 기반)는 그 무엇도 건드리지 않는다 -- 아래 어디에도
+  // target_price를 다시 계산하는 코드가 없다(가격과 무관하다는 불변식을 그대로 지킨다).
+  const liveLt = computeLiveComparisonForLongTermScenario(lt, r.ticker);
+  const usingLive = !!(liveLt && liveLt.isLive);
+  let effComparisonPrice = usingLive ? liveLt.comparisonPrice : lt.comparison_price;
+  let effComparisonDate = usingLive ? liveLt.comparisonDate : lt.comparison_price_as_of;
+  let effHoldingPeriodYears = lt.base_scenario && lt.base_scenario.holding_period_actual_years;
+  let effCondRet = lt.conditional_annualized_return_at_comparison_price;
+  let effCeilings = lt.required_return_ceilings || {};
+  let effStateLabel = lt.state_label;
+  let effLiveNote = '';
+  if(usingLive){
+    if(liveLt.invalidLiveInput){
+      effCondRet = null;
+      effStateLabel = '비교가격 신뢰 불가';
+      effLiveNote = `⚠️ 지금 연결된 실시간 비교가격이 유효하지 않아요(${esc(liveLt.invalidLiveReason||'-')}) -- `
+        + '조건부 수익률·수익조건 판정은 보류했어요(매입가 상한·목표가격은 그대로예요).';
+    } else {
+      const liveFreshness = evaluatePriceFreshnessJS(
+        {priceAsOf: effComparisonDate, isLive: true}, {price_stale_threshold_days: 7});
+      if(liveFreshness.stale){
+        effStateLabel = '비교가격 신뢰 불가';
+        effCondRet = null;
+        effLiveNote = `⚠️ 지금 연결된 실시간 비교가격(${esc(effComparisonDate||'-')} 관측)을 신뢰할 수 없어요(`
+          + `${esc(liveFreshness.reason||'')}) -- 조건부 수익률·수익조건 판정은 보류했어요.`;
+      } else if(liveLt.cashflowsByYear){
+        effHoldingPeriodYears = liveLt.holdingPeriodYears;
+        const rr = solveAnnualizedReturnJS(liveLt.cashflowsByYear, effComparisonPrice);
+        effCondRet = (rr.status === 'SUCCESS') ? rr.rate : null;
+        const newCeilings = {};
+        Object.keys(lt.required_return_ceilings || {}).forEach(function(k){
+          newCeilings[k] = recomputeCeilingJS(liveLt.cashflowsByYear, parseFloat(k) / 100.0);
+        });
+        effCeilings = newCeilings;
+        effStateLabel = (effCondRet != null)
+          ? (effCondRet >= lt.default_required_return ? '수익조건 충족' : '수익조건 미충족')
+          : '현재가 비교 불가(비교가격 미확인)';
+        if(lt.comparison_price !== effComparisonPrice || lt.comparison_price_as_of !== effComparisonDate){
+          effLiveNote = `이 카드는 지금 연결된 실시간 가격($${effComparisonPrice!=null?effComparisonPrice.toFixed(2):'-'}, `
+            + `${esc(effComparisonDate||'-')} 관측)으로 다시 계산했어요 -- 파이프라인이 마지막으로 저장한 값`
+            + `($${lt.comparison_price!=null?lt.comparison_price.toFixed(2):'-'}, ${esc(lt.comparison_price_as_of||'-')})`
+            + '과 다를 수 있어요. 목표가격(사업 전망 기반)은 가격과 무관해 바뀌지 않아요.';
+        }
+      } else if(liveLt.source){
+        effLiveNote = `ℹ️ ${esc(liveLt.source)}`;
+      }
+    }
+  }
+  const defCeilingKey = `${(lt.default_required_return*100).toFixed(0)}%`;
+  const stateColor = effStateLabel === '수익조건 충족' ? 'var(--up)'
+    : (effStateLabel === '수익조건 미충족' || effStateLabel === '비교가격 신뢰 불가') ? 'var(--warn)' : 'var(--sub)';
+  const condRet = effCondRet;
+  const defCeiling = effCeilings[defCeilingKey] != null ? effCeilings[defCeilingKey] : lt.default_ceiling_price;
+  const ceilings = effCeilings;
 
   const priceTableRows = (lt.price_return_table||[]).map(row => `
     <div class="fund-row"><span>매입가 $${row.purchase_price!=null?row.purchase_price.toFixed(2):'-'}</span>
@@ -5382,10 +5508,21 @@ function renderLongTermScenarioCard(lt, r, dcfPx){
     <div class="sub" style="margin:2px 0 8px;font-size:10.5px;">두 값을 평균내지 않아요. 추천 기준안은 AI 수퍼사이클 직전 3개년 실제 EPS 성장(연 약 5.2%)과 이 종목 자신의 트레일링 3년 평균 PER(21.20배)을 근거로 낮춘 값이고, 최초 제안은 초기 잠정 가정으로 계속 비교용으로만 남겨둬요.</div>
   ` : '';
 
-  const ebHtml = (eb && eb.eps_history) ? `
+  // [2026-09-22 정정 -- item5 보완] 예전엔 이 블록 전체가 eb.eps_history(AMAT 전용 키) 존재
+  // 여부에 묶여 있었다 -- LRCX는 evidence_base에 eps_history가 아니라 revenue_history를 쓰므로
+  // 근거표 자체가 통째로 출력되지 않는 결함이었다. 이제 각 하위 필드를 독립적으로 검사해서,
+  // 어느 티커든 실제로 있는 항목만 그만큼 보여준다(공통 화면 재사용 + 종목별 자료 차이를
+  // 하나가 다른 하나를 가리지 않게 함).
+  const ebHtml = eb ? `
     <div class="sub" style="margin:6px 0 4px;"><b>근거자료(evidence base)</b></div>
-    <div class="sub" style="margin:2px 0 6px;font-size:10.5px;">${esc(eb.eps_history.note||'')}<br>7개년(FY2018~FY2025) CAGR 약 ${(eb.eps_history.derived_cagr_full_7y_fy2018_2025*100).toFixed(1)}% · AI 수퍼사이클 직전 3개년(FY2022~FY2025) CAGR 약 ${(eb.eps_history.derived_cagr_recent_precycle_3y_fy2022_2025*100).toFixed(1)}%</div>
-    ${eb.valuation_multiples ? `<div class="sub" style="margin:2px 0 6px;font-size:10.5px;">${esc(eb.valuation_multiples.note||'')} (현재 NTM PER ${eb.valuation_multiples.current_ntm_forward_per} · 트레일링 3년평균 PER ${eb.valuation_multiples.trailing_3y_avg_per})</div>` : ''}
+    ${eb.eps_history ? `<div class="sub" style="margin:2px 0 6px;font-size:10.5px;">${esc(eb.eps_history.note||'')}<br>7개년(FY2018~FY2025) CAGR 약 ${(eb.eps_history.derived_cagr_full_7y_fy2018_2025*100).toFixed(1)}% · AI 수퍼사이클 직전 3개년(FY2022~FY2025) CAGR 약 ${(eb.eps_history.derived_cagr_recent_precycle_3y_fy2022_2025*100).toFixed(1)}%</div>` : ''}
+    ${eb.revenue_history ? `<div class="sub" style="margin:2px 0 6px;font-size:10.5px;">${esc(eb.revenue_history.note||'')}<br>8개년(FY2019~FY2026) 매출 CAGR 약 ${(eb.revenue_history.derived_cagr_8y_fy2019_2026*100).toFixed(2)}%</div>` : ''}
+    ${eb.eps_basis_note ? `<div class="sub" style="margin:2px 0 6px;font-size:10.5px;">${esc(eb.eps_basis_note.fact||'')} ${esc(eb.eps_basis_note.implication||'')}</div>` : ''}
+    ${(eb.buyback_and_margin && eb.buyback_and_margin.buyback_cash_check_fy2026) ? `<div class="sub" style="margin:2px 0 6px;font-size:10.5px;">${esc(eb.buyback_and_margin.buyback_cash_check_fy2026.implication||'')} (자사주매입+배당이 FCF 대비 약 ${eb.buyback_and_margin.buyback_cash_check_fy2026.actual_total_pct_of_fcf.toFixed(1)}%)</div>` : ''}
+    ${eb.valuation_multiples && eb.valuation_multiples.current_ntm_forward_per != null ? `<div class="sub" style="margin:2px 0 6px;font-size:10.5px;">${esc(eb.valuation_multiples.note||'')} (현재 NTM PER ${eb.valuation_multiples.current_ntm_forward_per} · 트레일링 3년평균 PER ${eb.valuation_multiples.trailing_3y_avg_per})</div>` : ''}
+    ${eb.valuation_multiples && eb.valuation_multiples.trailing_gaap_per_history ? `<div class="sub" style="margin:2px 0 6px;font-size:10.5px;">${esc(eb.valuation_multiples.trailing_gaap_per_history.note||'')} (10년평균 ${eb.valuation_multiples.trailing_gaap_per_history.avg_10y}배 · 5년평균 ${eb.valuation_multiples.trailing_gaap_per_history.avg_5y}배 · 3년평균 ${eb.valuation_multiples.trailing_gaap_per_history.avg_3y}배)</div>` : ''}
+    ${(eb.valuation_multiples && eb.valuation_multiples.exit_per_selection_decomposition && eb.valuation_multiples.exit_per_selection_decomposition.eps_definition_check) ? `<div class="sub" style="margin:2px 0 6px;font-size:10.5px;">${esc(eb.valuation_multiples.exit_per_selection_decomposition.eps_definition_check.residual_uncertainty_note||'')}</div>` : ''}
+    ${eb.consensus_snapshot ? `<div class="sub" style="margin:2px 0 6px;font-size:10.5px;">${esc(eb.consensus_snapshot.note||'')}</div>` : ''}
     ${(eb.current_cycle_guidance && (eb.current_cycle_guidance.sources||[]).length) ? `<div class="sub" style="margin:2px 0 6px;font-size:10.5px;">2026 가이던스·업황 조사 출처: ${eb.current_cycle_guidance.sources.map((u,i)=>`<a href="${esc(u)}" target="_blank" rel="noopener">[${i+1}]</a>`).join(' ')}</div>` : ''}
     ${eb.cycle_characterization ? `<div class="sub" style="margin:2px 0 6px;font-size:10.5px;">${esc(eb.cycle_characterization.text||'')}</div>` : ''}
   ` : '';
@@ -5394,10 +5531,11 @@ function renderLongTermScenarioCard(lt, r, dcfPx){
     <div class="comment-box" style="background:var(--panel-2);margin-bottom:10px;">
       <b>🧭 장기투자 시나리오 (검토용 -- 대표가격 아님)</b>
       <div class="sub" style="margin:4px 0 8px;color:var(--warn);">⚠️ ${esc(lt.assumption_disclaimer||'기준 EPS만 확인된 자료이고, 이후 성장률·출구PER·요구수익률은 분석자가 선택한 가정이에요.')}</div>
-      <div class="fund-row"><span>이번 비교가격 · 관측일</span>
-        <span class="v">$${lt.comparison_price!=null?lt.comparison_price.toFixed(2):'-'} ${lt.comparison_price_as_of?`(${esc(lt.comparison_price_as_of)})`:''}</span></div>
+      ${effLiveNote ? `<div class="sub" style="margin:2px 0 8px;font-size:10.5px;color:var(--sub);">${effLiveNote}</div>` : ''}
+      <div class="fund-row"><span>이번 비교가격 · 관측일${usingLive?' (실시간)':''}</span>
+        <span class="v">$${effComparisonPrice!=null?effComparisonPrice.toFixed(2):'-'} ${effComparisonDate?`(${esc(effComparisonDate)})`:''}</span></div>
       <div class="fund-row"><span>장기 시나리오 기준가격 · 적용 기간</span>
-        <span class="v">$${lt.target_price!=null?lt.target_price.toFixed(2):'-'} (${esc(lt.target_date||'-')}까지, 약 ${lt.base_scenario&&lt.base_scenario.holding_period_actual_years!=null?lt.base_scenario.holding_period_actual_years.toFixed(1):'-'}년)</span></div>
+        <span class="v">$${lt.target_price!=null?lt.target_price.toFixed(2):'-'} (${esc(lt.target_date||'-')}까지, 약 ${effHoldingPeriodYears!=null?effHoldingPeriodYears.toFixed(1):'-'}년)</span></div>
       <div class="fund-row"><span>현재가 매수 시 조건부 연환산 수익률</span>
         <span class="v">${condRet!=null?(condRet*100).toFixed(1)+'%':'산출 불가'}</span></div>
       <div class="fund-row"><span>요구수익률 ${(lt.default_required_return*100).toFixed(0)}% 충족 매입가 상한</span>
@@ -5407,7 +5545,7 @@ function renderLongTermScenarioCard(lt, r, dcfPx){
       <div class="fund-row"><span>장기 사업 전제(4년 성장경로) 확인 상태</span>
         <span class="v">❔ 미확인 -- 최근 분기 방향과는 별개예요</span></div>
       <div class="sub" style="margin:2px 0 8px;font-size:10.5px;">${esc(lt.long_term_thesis_confirmation_note||'')}</div>
-      <div class="sub" style="margin:8px 0 4px;"><b>장기 수익조건</b>: <span style="color:${stateColor};font-weight:600;">${esc(lt.state_label)}</span>
+      <div class="sub" style="margin:8px 0 4px;"><b>장기 수익조건</b>: <span style="color:${stateColor};font-weight:600;">${esc(effStateLabel)}</span>
         <span style="font-weight:400;color:var(--sub);"> (단기 눌림목 등 기술적 신호와는 다른, 장기 보유수익 조건이에요)</span></div>
       ${dcfCompareHtml}
       ${codexCompareHtml}
@@ -5429,6 +5567,7 @@ function renderLongTermScenarioCard(lt, r, dcfPx){
       <details style="margin-top:6px;">
         <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">가정 근거·타당성 검토(추천 기준안이 왜 이 숫자인가)</summary>
         <div class="sub" style="margin:6px 0;">${esc(ar.growth_sustainability||'')}</div>
+        ${ar.compounding_assumptions_note ? `<div class="sub" style="margin:6px 0;">${esc(ar.compounding_assumptions_note)}</div>` : ''}
         <div class="sub" style="margin:6px 0;">${esc(ar.exit_per_validity||'')}</div>
         <div class="sub" style="margin:6px 0;">${esc(ar.no_reverse_engineering||'')}</div>
         <div class="sub" style="margin:6px 0;">${esc(ar.primary_vs_codex_initial||'')}</div>
@@ -5453,13 +5592,13 @@ function renderIndependentValuationSection(r){
   if(!iv.valuation){
     const rv = iv.relativeValueBand;
     if(rv && rv.available){
-      return longTermHtml + `<div class="sub" style="margin:6px 0 4px;color:var(--sub);">ℹ️ 이 종목은 아직 독립 DCF 적정가·매입가 상한이 없어요(AMAT의 DCF 가정을 이 종목에 그대로 복제하지 않았어요). 위 장기 점수·판단 요약과는 서로 다른 근거(동종기업 배수)로 계산된 아래 참고범위만 제공돼요.</div>` + renderRelativeValueBandCard(rv);
+      return longTermHtml + `<div class="sub" style="margin:6px 0 4px;color:var(--sub);">ℹ️ 이 종목은 아직 독립 DCF 적정가·DCF 기반 매입가 상한이 없어요(AMAT의 DCF 가정을 이 종목에 그대로 복제하지 않았어요)${(iv.longTermScenario && !iv.longTermScenario.blocked) ? ' -- 위 장기투자 시나리오 카드의 매입가 상한은 DCF가 아니라 EPS성장·출구PER 가정에 근거한 별도 값이에요' : ''}. 위 장기 점수·판단 요약과는 서로 다른 근거(동종기업 배수)로 계산된 아래 참고범위만 제공돼요.</div>` + renderRelativeValueBandCard(rv);
     }
     // [2026-09-20 보완] available=false여도 withheldReason이 있으면(=시도는 했지만 보류/실패한
     // 경우, 예: ASML 통화 불일치) 카드를 숨기지 않고 그 사유를 보여준다 -- 아무 근거도 없이
     // 조용히 사라지면 사용자가 "왜 이 종목엔 아무것도 없는지" 알 수 없다.
     if(rv && rv.withheldReason){
-      return longTermHtml + `<div class="sub" style="margin:6px 0 4px;color:var(--sub);">ℹ️ 이 종목은 아직 독립 DCF 적정가·매입가 상한이 없고, 아래처럼 상대가치 참고범위도 산출되지 않았어요.</div>` + renderRelativeValueBandCard(rv);
+      return longTermHtml + `<div class="sub" style="margin:6px 0 4px;color:var(--sub);">ℹ️ 이 종목은 아직 독립 DCF 적정가·DCF 기반 매입가 상한이 없고, 아래처럼 상대가치 참고범위도 산출되지 않았어요${(iv.longTermScenario && !iv.longTermScenario.blocked) ? ' -- 위 장기투자 시나리오 카드의 매입가 상한은 DCF가 아니라 EPS성장·출구PER 가정에 근거한 별도 값이에요' : ''}.</div>` + renderRelativeValueBandCard(rv);
     }
     return longTermHtml;
   }
