@@ -796,6 +796,13 @@ const DASHBOARD_VERSION = '2026-09-22';
 let results = {};       // ticker -> 계산 결과
 let marketEnv = null;   // {spyDrawdownPct, vix, fgi, fgiSource}
 let cleanOnlyFilter = false;  // 2026-09-09 추가: "리스크 배지 없는 진짜 깨끗한 강한매수만" 필터 상태
+// [2026-09-22 신규 -- item5: "단타 과거 기록을 먼저 더 볼 수 있게"] '조회기간'(화면에 몇 거래일치
+// 보여줄지)은 '매도·평가 종료기간'(실제 10거래일 평가 규칙)과 서로 다른 개념이다(사용자 명시
+// 요구) -- 조회기간을 늘려도 status 판정(진행 중/평가 종료/중단) 로직 자체는 절대 바꾸지 않는다.
+let signalLogLookbackDays = 10;  // 10|30|90|180|'all'
+let signalLogTickerFilter = 'all';
+let signalLogStatusFilter = 'all';  // 'all'|'진행중'|'평가종료'|'조건훼손'
+let signalLogVisibleCount = 20;  // "더보기"로 늘어남(20씩)
 let openTicker = null;  // 지금 상세 패널에 열려있는 티커(비동기 장기이력 로딩 후 화면이 그 사이 바뀌었는지 확인용)
 const longHistoryCache = {}; // ticker -> {closes, dates} (10년치, 최초 조회 후 세션 동안 재사용)
 // ============ 멀티 타임프레임 캔들차트 (2026-08-14 추가) ============
@@ -2549,7 +2556,7 @@ function renderSimpleView(){
   }
 
   // ---- 단기 매수 타이밍(최근 단타 신호 로그만) ----
-  stBox.innerHTML = scored.length ? buildRecentSignalLogHtml(scored) : '<div class="sub">아직 스캔 결과가 없어요.</div>';
+  stBox.innerHTML = scored.length ? buildRecentSignalLogHtml(scored, 'simple') : '<div class="sub">아직 스캔 결과가 없어요.</div>';
 }
 
 // ============ 종합 추천(최우선) - 장기+단기 신호 겹침 + 뉴스 방향성 (2026-09-01 추가) ============
@@ -2622,56 +2629,128 @@ function buildComboPickHtml(scored){
 //    깨지면 '중단(조건 깨짐)' - 사용자가 말한 "시점이 변화가 생기면"에 해당하는, 신호 정의에
 //    이미 들어있던 전제가 무너진 경우만 표시(임의의 손절 % 같은 새 기준을 만들지 않음)
 //  · 10거래일이 지나면 '평가 종료'로 표기하고 최종 결과(%)를 그대로 보여줌
-const RECENT_SIGNAL_LOG_MAX = 20;
-function buildRecentSignalLogHtml(scored){
+const RECENT_SIGNAL_LOG_MAX = 20;  // "더보기" 1회당 증가폭(signalLogVisibleCount 초기값과 동일)
+// [2026-09-22 재작성 -- item5: "단타 과거 기록을 먼저 더 볼 수 있게"] 예전엔 ago>10을 그냥
+// continue로 건너뛰고 20건에서 잘랐다 -- 과거 기록이 없다는 뜻이 아니라 표시 단계에서 숨긴
+// 것뿐이었다(사용자 명시 지적, Codex 재확인). status 판정(진행 중/평가 종료/중단)은 실제 10거래일
+// 평가규칙 그대로 유지한다 -- 조회기간(아래 lookbackDays)을 늘려도 이 규칙 자체는 절대 안 바뀐다.
+// [사용자 명시 경고] 이 로그는 "그 시점에 실제로 저장된 결정 기록"이 아니라, 지금 이 함수가
+// ts.entryFlags/ts.scores(현재 신호판정 로직을 과거 가격 시계열에 그대로 적용해 계산한 값)를
+// 매번 다시 읽어서 만드는 "현재 정책으로 과거를 재계산한" 로그다(AMAT_DECISION_HISTORY_DATA처럼
+// 그날 그대로 저장돼 불변인 기록과는 다르다) -- 그 차이를 숨기지 않고 안내문에 명시한다.
+// valBadge/dirBadge/epsFundBadges는 "지금 이 순간" 기준으로 다시 계산된 참고정보다 -- 신호가 뜬
+// 그 날짜의 판단 근거가 아니었다는 걸 라벨로 명시해서, 과거 신호의 근거였던 것처럼 오해하지
+// 않게 한다(사용자 명시 경고).
+function buildRecentSignalLogHtml(scored, instanceId){
+  instanceId = instanceId || 'main';
+  const LOOKBACK_OPTIONS = [10, 30, 90, 180, 'all'];
+  const lookback = signalLogLookbackDays;
+  const maxAgoForCollection = lookback === 'all' ? Infinity : lookback;
+
   const items = [];
   scored.forEach(r=>{
     const ts = r.series && r.series.techSeries;
     if(!ts || !ts.entryFlags) return;
     const closes = r.series.closes, dates = r.series.dates, ma200 = ts.ma200;
     const lastIdx = closes.length - 1;
-    // 2026-09-10 추가(사용자 요청): 장기 목록(①)엔 있던 참고 지표(기준가 대비·가격타당성·
-    // EPS상향하양·실적훼손·뉴스방향성 우려/혼재/긍정)가 단타 신호 로그(②)엔 없어서 종목별로
-    // 따로 눌러 확인해야 했음 - 새 판정을 만들지 않고 기존 함수(valuationBadgeHtml·
-    // epsFundamentalDirectionBadges·directionBadge, r.fvUpsidePct)를 그대로 재사용해서 종목당
-    // 한 번만 계산 후 그 종목의 모든 신호 항목에 공통으로 붙임.
     const valBadge = valuationBadgeHtml(r);
     const dirBadge = directionBadge(r.ticker);
     const epsFundBadges = epsFundamentalDirectionBadges(r.ticker);
     for(let i=0;i<ts.entryFlags.length;i++){
       if(!ts.entryFlags[i]) continue;
       const ago = lastIdx - i;
-      if(ago > 10) continue;  // 검증된 평가기간(10거래일)을 넘으면 로그에서 자연스럽게 빠짐
+      if(ago > maxAgoForCollection) continue;  // 조회기간(표시 범위)만 제한 -- 평가규칙과 무관
       const since = (closes[lastIdx]-closes[i])/closes[i]*100;
       const wasUptrend = ma200 && ma200[i]!=null && closes[i]>ma200[i];
       const nowUptrend = r.ma200Pct!=null && r.ma200Pct>=0;
       const strong = ts.scores[i]>=2;
-      let status, statusColor;
-      if(ago>=10){ status = '평가 종료(10거래일)'; statusColor = 'var(--sub)'; }
-      else if(wasUptrend && !nowUptrend){ status = '중단(우상향 전제 깨짐)'; statusColor = 'var(--down)'; }
-      else{ status = '진행 중'; statusColor = 'var(--up)'; }
-      items.push({ticker:r.ticker, date:dates[i], price:closes[i], since, ago, strong, status, statusColor, valBadge, dirBadge, epsFundBadges});
+      // [실제 평가규칙 -- 조회기간과 무관하게 항상 10거래일 기준] 이 판정식 자체는 건드리지 않는다.
+      let status, statusColor, statusCategory;
+      if(ago>=10){ status = '평가 종료(10거래일)'; statusColor = 'var(--sub)'; statusCategory = '평가종료'; }
+      else if(wasUptrend && !nowUptrend){ status = '중단(우상향 전제 깨짐)'; statusColor = 'var(--down)'; statusCategory = '조건훼손'; }
+      else{ status = '진행 중'; statusColor = 'var(--up)'; statusCategory = '진행중'; }
+      // [10일 평가성과 vs 이후 변화 구분 -- 사용자 명시 요구] ago>=10인 항목은 since가 "10일째
+      // 평가 시점"이 아니라 "지금까지"의 누적 변화율이다 -- 둘을 같은 숫자로 섞어 보여주지 않도록
+      // 10일째 시점의 값(sinceAt10)을 별도로 계산해 평가 종료 항목에서만 함께 보여준다.
+      let sinceAt10 = null;
+      if(ago > 10){
+        const idxAt10 = i + 10;
+        if(idxAt10 <= lastIdx && closes[idxAt10]!=null){
+          sinceAt10 = (closes[idxAt10]-closes[i])/closes[i]*100;
+        }
+      }
+      items.push({ticker:r.ticker, date:dates[i], price:closes[i], since, sinceAt10, ago, strong,
+        status, statusColor, statusCategory, valBadge, dirBadge, epsFundBadges});
     }
   });
-  const head = `<div class="sub" style="margin-top:14px;padding-top:10px;border-top:1px solid var(--line);margin-bottom:4px;">
-    <b>최근 단타 신호 로그</b> ${hintIcon('signalHistory')} <span style="font-weight:400;">(최근 10거래일 · 전 종목 - 오늘 새 자리가 없어도 며칠 전 신호가 아직 유효할 수 있어요. 가격타당성·EPS·실적·뉴스방향성은 ①목록과 같은 참고 지표예요 - 매수 신호가 아니에요)</span>
+
+  const availableTickers = Array.from(new Set(items.map(x=>x.ticker))).sort();
+  // 필터 상태가 가리키는 종목이 이번 조회기간엔 없을 수도 있음(예전 필터가 남아있는 경우) --
+  // 그래도 필터 자체는 유지하고, 결과가 0건이면 그 사실을 그대로 보여준다(조용히 리셋하지 않음).
+  let filtered = items;
+  if(signalLogTickerFilter !== 'all') filtered = filtered.filter(x=>x.ticker===signalLogTickerFilter);
+  if(signalLogStatusFilter !== 'all') filtered = filtered.filter(x=>x.statusCategory===signalLogStatusFilter);
+  filtered.sort((a,b)=> a.ago - b.ago);
+
+  const lookbackLabel = lookback === 'all' ? '확보된 전체 기간' : `최근 ${lookback}거래일`;
+  const lookbackSelect = `<select onchange="signalLogLookbackDays=(this.value==='all'?'all':parseInt(this.value,10));signalLogVisibleCount=${RECENT_SIGNAL_LOG_MAX};refreshAllSignalLogBoxes();" style="font-size:11.5px;">
+    ${LOOKBACK_OPTIONS.map(o=>`<option value="${o}" ${String(lookback)===String(o)?'selected':''}>${o==='all'?'확보 전체':o+'거래일'}</option>`).join('')}
+  </select>`;
+  const tickerSelect = `<select onchange="signalLogTickerFilter=this.value;signalLogVisibleCount=${RECENT_SIGNAL_LOG_MAX};refreshAllSignalLogBoxes();" style="font-size:11.5px;">
+    <option value="all" ${signalLogTickerFilter==='all'?'selected':''}>전 종목</option>
+    ${availableTickers.map(t=>`<option value="${esc(t)}" ${signalLogTickerFilter===t?'selected':''}>${esc(t)}</option>`).join('')}
+  </select>`;
+  const statusSelect = `<select onchange="signalLogStatusFilter=this.value;signalLogVisibleCount=${RECENT_SIGNAL_LOG_MAX};refreshAllSignalLogBoxes();" style="font-size:11.5px;">
+    <option value="all" ${signalLogStatusFilter==='all'?'selected':''}>전체 상태</option>
+    <option value="진행중" ${signalLogStatusFilter==='진행중'?'selected':''}>진행 중</option>
+    <option value="평가종료" ${signalLogStatusFilter==='평가종료'?'selected':''}>평가 종료</option>
+    <option value="조건훼손" ${signalLogStatusFilter==='조건훼손'?'selected':''}>조건훼손(중단)</option>
+  </select>`;
+
+  const head = `<div id="recent-signal-log-${esc(instanceId)}" class="sub" style="margin-top:14px;padding-top:10px;border-top:1px solid var(--line);margin-bottom:4px;">
+    <div><b>최근 단타 신호 로그</b> ${hintIcon('signalHistory')} <span style="font-weight:400;">(${lookbackLabel} · 전 종목 - 종료된 신호·손실 사례도 그대로 남아있어요. 아래 참고 배지는 신호 당시가 아니라 "지금" 기준이에요)</span></div>
+    <div style="margin-top:6px;display:flex;gap:8px;flex-wrap:wrap;align-items:center;">
+      <label class="sub" style="display:inline-flex;align-items:center;gap:4px;">조회기간 ${lookbackSelect}</label>
+      <label class="sub" style="display:inline-flex;align-items:center;gap:4px;">종목 ${tickerSelect}</label>
+      <label class="sub" style="display:inline-flex;align-items:center;gap:4px;">상태 ${statusSelect}</label>
+    </div>
+    <div class="sub" style="margin-top:4px;font-size:10.5px;">ℹ️ 이 목록은 "그 시점에 실제로 저장된 결정 기록"이 아니라, 현재 신호 판정 로직을 과거 가격 시계열에 다시 적용해 매번 새로 계산한 결과예요(조회기간을 늘려도 아래 평가 종료·진행 중·조건훼손 판정 규칙 자체는 항상 10거래일 기준 그대로예요 -- 조회범위와 평가규칙은 서로 다른 설정이에요).</div>
   </div>`;
   if(!items.length){
-    return `${head}<div class="sub">최근 10거래일 안에는 단타 진입 신호가 없었어요.</div>`;
+    return `${head}<div class="sub">${lookbackLabel} 안에는 단타 진입 신호가 없었어요.</div>`;
   }
-  items.sort((a,b)=> a.ago - b.ago);
-  const rows = items.slice(0, RECENT_SIGNAL_LOG_MAX).map(it=>`
+  if(!filtered.length){
+    return `${head}<div class="sub">지금 필터(종목·상태) 조건에 맞는 신호가 ${lookbackLabel} 안에는 없어요.</div>`;
+  }
+  const visibleCount = signalLogVisibleCount;
+  const rows = filtered.slice(0, visibleCount).map(it=>`
     <div class="fund-row" style="align-items:flex-start;">
       <span style="flex:1;">
         <b style="cursor:pointer;" onclick="openDetail('${it.ticker}')">${it.ticker}</b> · ${it.date} · $${it.price.toFixed(2)}
         ${it.strong?'<span class="badge b-strong-buy" style="margin-left:4px;">강한</span>':''}
         <span class="sub" style="display:block;">${it.ago===0?'오늘':`${it.ago}거래일 전`} · <span style="color:${it.statusColor};font-weight:600;">${it.status}</span></span>
-        <span class="sub" style="display:block;margin-top:2px;">${it.valBadge}${it.dirBadge}${it.epsFundBadges}</span>
+        <span class="sub" style="display:block;margin-top:2px;color:var(--sub);">📌 지금 기준 참고정보(신호 당시 근거 아님): ${it.valBadge}${it.dirBadge}${it.epsFundBadges}</span>
       </span>
-      <span class="v" style="text-align:right;white-space:nowrap;color:${it.since>=0?'var(--up)':'var(--down)'}">${it.since>=0?'+':''}${it.since.toFixed(1)}%</span>
+      <span class="v" style="text-align:right;white-space:nowrap;">
+        <span style="color:${it.since>=0?'var(--up)':'var(--down)'}">${it.since>=0?'+':''}${it.since.toFixed(1)}%${it.ago>=10?'(현재까지)':''}</span>
+        ${it.sinceAt10!=null ? `<span class="sub" style="display:block;font-size:10px;">10일째 ${it.sinceAt10>=0?'+':''}${it.sinceAt10.toFixed(1)}%</span>` : ''}
+      </span>
     </div>`).join('');
-  return `${head}${rows}
-    ${items.length>RECENT_SIGNAL_LOG_MAX ? `<div class="sub" style="margin-top:4px;">+${items.length-RECENT_SIGNAL_LOG_MAX}개 더 있어요 - 아래 비교 표에서 개별 종목을 확인하세요.</div>` : ''}`;
+  const moreBtn = filtered.length > visibleCount
+    ? `<div style="margin-top:6px;"><button class="toggle-btn" onclick="signalLogVisibleCount+=${RECENT_SIGNAL_LOG_MAX};refreshAllSignalLogBoxes();">더보기 (${filtered.length-visibleCount}개 남음)</button></div>`
+    : '';
+  return `${head}${rows}${moreBtn}`;
+}
+// [2026-09-22 신규] 필터 컨트롤(조회기간·종목·상태)이 바뀌면 이 함수가 두 표시 위치(01 탭 요약의
+// todayEntryBox 안 로그, 심플보기의 simpleShortTermBody 로그)를 모두 같은 상태로 다시 그린다 --
+// 새 계산을 만들지 않고 buildRecentSignalLogHtml을 다시 호출할 뿐이다. 전체 renderSummary를
+// 다시 돌리지 않아서(차트·다른 카드 재계산 없음) 필터 조작이 가볍다.
+function refreshAllSignalLogBoxes(){
+  const scored = Object.values(results).filter(r=>!r.error);
+  ['main','simple'].forEach(id=>{
+    const el = document.getElementById('recent-signal-log-'+id);
+    if(el) el.outerHTML = buildRecentSignalLogHtml(scored, id);
+  });
 }
 function renderSummary(){
   const card = document.getElementById('summaryCard');
@@ -2764,7 +2843,7 @@ function renderSummary(){
         ? `<div class="rec-list">${chips}</div>`
         : `<span class="sub">오늘은 새로 난 진입 자리가 없어요 - 종목당 연 3.2회뿐인 희귀 신호라 흔한 일이에요. <b>단기 신호가 없어도 위 ① 장기 눌림목 점수가 매수관심 이상이면 6~12개월 관점에서는 이미 매수를 고려할 구간</b>이에요 - 단기 신호는 그 안에서 타이밍을 더 좁혀주는 보조 지표일 뿐, 없다고 매수관심 종목까지 거를 필요는 없어요.</span>`}
       ${cont.length ? `<div class="sub" style="margin-top:6px;">조건은 유지 중이지만 <b>지난 신호의 연장</b>인 종목 ${cont.length}개(${cont.map(r=>r.ticker).join(', ')}) — 새 진입 자리는 아니에요.</div>` : ''}
-      ${buildRecentSignalLogHtml(scored)}
+      ${buildRecentSignalLogHtml(scored, 'main')}
       ${watchHtml}`;
   }
 
