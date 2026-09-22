@@ -2404,6 +2404,334 @@ const INDEPENDENT_VALUATION_DATA = {
       "withheldReason": "대상종목 비교가격 자료상태 문제: 통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
       "withheldCheckedAt": "2026-09-22T17:54:09.916517",
       "neverSucceeded": true
+    },
+    "longTermScenario": {
+      "kind": "asml_long_term_revenue_margin_bridge_exit_multiple_scenario",
+      "not_the_dcf": "이 종목은 아직 별도의 독립 DCF가 없다 -- 상대가치(동종기업 배수) 참고범위와도 완전히 별개다(그 밴드는 통화 불일치로 JUDGMENT_WITHHELD 상태). 세 값을 섞지 않는다.",
+      "assumption_disclaimer": "요약: FY2025 실제 기본 EPS(€24.73)와 회사의 2030 목표 매출(€44~60십억)·매출총이익률(56~60%) 범위는 회사 공식 발표로 확인된 사실이다. 그 사이를 잇는 영업비용비율·세율·주식수 감소율·환율은 전부 분석자가 선택한 가정이며, 그 중 환율이 가장 큰 불확실성 원천이다.",
+      "assumption_review": {
+        "eps_base_and_target": "[2026-09-22 신규] 기준 경로는 FY2025 실제 기본 EPS(€24.73, 2025-12-31 마감, 회사 공식 발표 SEC 6-K로 확인된 사실)에서 출발해 정확히 5.0027년(2030-12-31까지, 둘 다 달력연도 12월 마감이라 소수점 없이 정확히 5.0년) 뒤의 목표EPS까지를 본다. KLAC과 달리 target_eps 자체를 회사 발표값으로 직접 쓸 수 없다 -- 회사는 2030 목표로 매출·매출총이익률 '범위'만 제시했고 EPS·순이익·영업이익률·세율은 공개하지 않았다(KLAC의 비GAAP EPS $8.40 직접 제시와 결정적으로 다름) -- 그래서 이 모듈은 target_eps를 회사 발표값 그대로 쓰지 못하고, 아래 상향식(bottom-up) 다리로 분석자가 직접 역산한다(그 역산 가정은 전부 assumption이며 회사 발표가 아니다). 회사가 실제로 제시한 매출 범위(€44~60십억)와 매출총이익률 범위(56~60%)만 대표 경로의 사실(fact) 입력이고, 그 아래(영업비용비율·세율·주식수 감소율)는 전부 이 모듈이 선택한 가정(assumption)이다 -- 이 구분을 target_eps 자체에 강제로 섞지 않는다.",
+        "target_date_basis": "ASML은 회계연도가 달력연도와 같아(12월 마감) KLAC처럼 'FY vs calendar' 표기 혼동이 구조적으로 발생하지 않는다 -- 기준일(2025-12-31)과 목표일(2030-12-31) 모두 회사가 실제로 쓰는 회계연도 마감일이며, 둘의 차이는 정확히 5.0년(소수년 보정 불필요)이다.",
+        "currency_and_fx_methodology": "[신규, ASML 고유] 재무 통화(EUR)와 시세 통화(USD)가 다른 이 프로젝트 최초의 종목이다. 이 모듈은 '기준EPS부터 목표주가까지 전부 EUR로 계산한 뒤, 최종 target_price와 연배당 두 값만 환율(1 EUR = 1.149 USD, Frankfurter.app(유럽중앙은행 참조환율 집계, https://api.frankfurter.app/latest?from=EUR&to=USD), 2026-09-22 조회, 관측일 2026-09-21)로 환전해 USD 시세(comparison_price)와 비교 가능하게 만드는' 단일 환전 지점 설계를 쓴다 -- 중간 단계(매출·이익률·EPS 성장률 계산)에서는 EUR/USD를 섞지 않는다. 환율은 목표일까지 오늘 수준(2026-09-21 관측치)에서 변하지 않는다고 가정한다(model_assumption, 확정 아님 -- 이 프로젝트의 어떤 모듈도 환율을 예측하지 않으므로 새 예측모델을 만들지 않고 가장 단순·투명한 가정을 쓴다). 5년 뒤 실제 환율이 오늘과 다르면 target_price(USD)·매입가 상한은 그 방향과 크기만큼 그대로 움직인다 -- 이 모듈에서 가장 큰 단일 불확실성 원천이다. 통화 구조 자체(이중상장, 1:1, ADR 아님)는 회사 공식 자료로 확인했고, 같은 날 두 거래소 종가 비율이 독립 환율 소스와 거의 일치한다는 교차확인(FX_CROSS_CHECK)도 남긴다.",
+        "bottom_up_bridge_limitation": "이 다리는 두 가지를 고정 단순화한다: (1) 영업비용비율(매출총이익률-영업이익률, FY2025 실측 약 18.20%)이 2030년까지 그대로 유지된다 -- 실제로는 매출 규모가 커지면서(약 5.9~8.4십억유로 -> 5.2십억유로 중앙값 기준 약 +59% 매출 성장) 고정비 성격의 연구개발비·판관비 비율이 낮아지는 영업레버리지가 있을 수 있으나, 회사가 이를 구체적으로 제시하지 않아 '추가 레버리지 없음'이라는 보수적 가정을 쓴다(과장 방지). (2) 유효세율(FY2025 실측 약 17.65%)과 세전이익=영업이익 근사(FY2025 실측 격차 약 +0.93%, 순금융손익 효과 작음)가 그대로 유지된다. 이 두 가정이 회사가 실제로 공개한 것이 아니라는 점이 KLAC(회사가 EPS 자체를 제시)과 가장 크게 다른 지점이다.",
+        "target_model_reaffirmation": "회사의 2030 목표(매출 €44~60십억, 매출총이익률 56~60%)는 2024-11-14 Investor Day에서 최초 발표됐고, 2025-10-16 실적발표 콜에서 '목표 불변'으로 명시적으로 재확인됐다(가장 최근의 명시적 수치 재확인 -- 2026-09-22 조사 시점 기준). 이후 분기 콜(2026-04-15 Q1 2026)에서는 목표의 존재를 언급했으나 수치를 다시 제시하지는 않았다 -- 목표가 철회됐다는 신호는 없으나, 매 분기 재확인되는 것은 아니라는 점을 그대로 밝힌다. 재검토 조건: 회사가 이 목표를 공식적으로 바꾸면(예: 차기 Investor Day) 갱신.",
+        "extension_scenario_separation": "[신규] 이 모듈은 회사가 목표로 제시한 2030년말까지의 구간과, 그 이후(2032년말까지 2년 추가) 분석자가 임의로 연장한 구간을 완전히 분리한다. 연장 구간은 `target_extension_scenario` 블록에만 담기며, state_label·required_return_ceilings·default_ceiling_price 등 이 모듈의 대표 결과 어디에도 영향을 주지 않는다. 연장 구간의 성장률은 회사 목표(매출·마진)를 재사용하지 않고, 7개년 실측 매출CAGR(약 16.91%, 회사 목표와 독립적으로 조달한 값)을 쓴다.",
+        "share_count_disclosure": "[신규] 주식수 감소율 가정(-1.00%/yr)은 KLAC(계산에 아예 미반영)과 달리 이 모듈의 실제 EPS 역산 계산에 직접 쓰인다 -- 회사가 EPS를 직접 제시하지 않아 순이익에서 EPS로 넘어가는 다리 자체에 주식수 가정이 필요하기 때문이다(KLAC은 target_eps를 회사값 그대로 썼으므로 이 다리가 아예 필요 없었음). 근거는 위 SHARE_COUNT_OBSERVATIONS(제3자 소스 2개 + 신규 자사주매입 프로그램 규모)이며, 목표EPS를 부풀리지 않는 방향(더 보수적인 값)을 채택했다.",
+        "no_reverse_engineering": "이 가정들은 '현재 주가와 비슷한 결과가 나오도록' 거꾸로 고른 것이 아니다 -- 기준 경로는 회사 발표(기준일·목표일·목표 매출/마진 범위)와 FY2025 실측 비율(영업비용비율·세율)만으로 결정되고 현재 비교가격과 독립적으로 계산된다. 그 결과가 매수 매력적이지 않게 나오더라도 그대로 보고한다.",
+        "assumption_vs_fact_note": "요약: FY2025 실제 기본 EPS(€24.73)와 회사의 2030 목표 매출(€44~60십억)·매출총이익률(56~60%) 범위는 회사 공식 발표로 확인된 사실이다. 그 사이를 잇는 영업비용비율·세율·주식수 감소율·환율은 전부 분석자가 선택한 가정이며, 그 중 환율이 가장 큰 불확실성 원천이다."
+      },
+      "evidence_base": {
+        "eps_basis_note": {
+          "kind": "관측값(회사 공식 발표 SEC 6-K, 2026-09-22 원문 재확인)",
+          "fact": "FY2025(2025-12-31 마감) 기본(basic) EPS €24.73 (ASML 'Q4 and full-year 2025 financial results' 공식 보도자료, 2026-01-28 발표, US GAAP 기준 -- 회사는 분기·연간 실적발표를 US GAAP으로, IFRS는 별도 연차보고서(2026-02-25)로만 공개한다고 원문에 명시). 희석 EPS는 이 보도자료에 별도 공개되지 않았다.",
+          "definition_cross_check": {
+            "kind": "관측(정의 확인 수준 명시, KLAC의 GAAP/비GAAP 격차 노출과 같은 원칙)",
+            "official_basic_eps": 24.73,
+            "financials_cache_computed_eps": 24.71,
+            "diff_pct": -0.08087343307723316,
+            "note": "두 값의 격차(약 -0.08%)는 매우 작다 -- financials_cache 값이 희석EPS이거나 소수점 반올림 차이로 추정되나 정확한 원인은 확정하지 않았다. 이 모듈은 회사가 원문에서 '기본(basic) EPS'로 명시한 값을 대표 기준값으로 쓴다(공식 발표 원문 표기를 그대로 신뢰)."
+          },
+          "currency_and_share_unit": {
+            "kind": "관측값(회사 공식 투자자 페이지, 2026-09-22 확인)",
+            "fact": "ASML 보통주는 Euronext Amsterdam(EUR, ISIN NL0010273215)과 Nasdaq(USD, CUSIP USN070592100)에 동시에 직접 등록·상장돼 있다 -- 예탁증서(ADR/ADS) 구조가 아니라 같은 보통주 1주가 두 시장에서 각자의 통화로 거래되는 이중상장(dual listing)이다.",
+            "source_url": "https://www.asml.com/en/investors/shares",
+            "implication": "환전 비율(ADR 비율 등)을 별도로 조사할 필요가 없다 -- 1주=1주이므로 주식수·EPS는 EUR 그대로 쓰고, 가격만 시장별 통화로 환전하면 된다."
+          }
+        },
+        "target_model_2030": {
+          "kind": "회사 공식 목표(target, 확정 실적 아님) -- 2026-09-22 원문 재확인",
+          "announcement_date": "2024-11-14",
+          "source_url": "https://www.asml.com/en/news/press-releases/2024/asml-investor-day-2024",
+          "reaffirmed_as_of": "2025-10-16",
+          "revenue_eur_b": {
+            "low": 44.0,
+            "mid": 52.0,
+            "high": 60.0
+          },
+          "gross_margin_pct": {
+            "low": 56.0,
+            "mid": 58.0,
+            "high": 60.0
+          },
+          "no_eps_target_disclosed": true,
+          "no_eps_target_note": "회사는 2030 목표로 매출·매출총이익률 '범위'만 제시했고 EPS·순이익·영업이익률·세율은 공개하지 않았다(KLAC의 비GAAP EPS $8.40 직접 제시와 결정적으로 다름) -- 그래서 이 모듈은 target_eps를 회사 발표값 그대로 쓰지 못하고, 아래 상향식(bottom-up) 다리로 분석자가 직접 역산한다(그 역산 가정은 전부 assumption이며 회사 발표가 아니다)."
+        },
+        "target_extension_beyond_2030": {
+          "kind": "분석자 가정(회사 발표 아님, 2030 이후 구간에 대한 회사 공개 목표 없음)",
+          "extension_years": 2,
+          "extension_target_date": "2032-12-31",
+          "extension_growth_rate": 0.1690905908663627,
+          "note": "7개년(FY2018~FY2025) 실측 매출CAGR을 씀(2021년 데이터가 financials_cache.json에 없어 확인 가능한 가장 이른 해인 2018년부터) -- 회사의 2030 목표(매출·마진)와 독립적으로 조달한 값이며, 이를 재사용해 2030 이후를 연장하지 않는다."
+        },
+        "fy2025_actuals": {
+          "kind": "관측값(회사 공식 발표 SEC 6-K, 2026-09-22 원문 재확인)",
+          "revenue_eur_m": 32667.3,
+          "gross_margin_pct": 52.8,
+          "op_income_eur_m": 11301.4,
+          "net_income_eur_m": 9609.4,
+          "pretax_income_eur_m": 11406.1,
+          "tax_provision_eur_m": 2013.4,
+          "derived_opex_ratio_pct": 18.204548279166012,
+          "derived_effective_tax_rate_pct": 17.651958162737483,
+          "derived_pretax_vs_opincome_gap_pct": 0.9264338931459948
+        },
+        "revenue_history_for_extension": {
+          "kind": "관측값(2018년: 회사 공식 보도자료 2019-01-23, 2025년: financials_cache.json == 회사 공식 발표와 일치 확인, 2026-09-22 조사)",
+          "revenue_eur_m_by_year": {
+            "2018": 10944.0,
+            "2025": 32667.3
+          },
+          "derived_cagr_7y": 0.1690905908663627
+        },
+        "share_count": {
+          "kind": "관측값(제3자 소스 2개, 2026-09-22 조회 -- 이 프로젝트의 공식 시세 소스 아님)",
+          "stockanalysis_com_1y_change_pct": -1.44,
+          "companiesmarketcap_com_1y_change_pct": -0.52,
+          "buyback_program_2026_2028": {
+            "size_eur_b": 12.0,
+            "years": 3,
+            "note": "2022-2025 프로그램(최대 €12십억 중 €7.6십억 집행 후 2025-12 종료)을 이어 2026-2028년 집행 예정인 신규 프로그램 -- SEC 6-K 공식 실적발표 원문."
+          },
+          "shares_2025_implied": null,
+          "chosen_assumption_pct_per_year": -1.0,
+          "note": "KLAC과 달리 이 모듈의 실제 EPS 역산에 직접 쓰인다(위 share_count_disclosure 참조).",
+          "used_in_calculation": true
+        },
+        "valuation_multiples": {
+          "trailing_pe_history": {
+            "kind": "제3자 참고자료(fullratio.com, 2026-09-22 조회 -- macrotrends.net 직접 접속이 차단(HTTP 403)돼 같은 성격의 대체 소스를 씀 -- 이 프로젝트의 공식 가격 소스 아님)",
+            "observations_by_year": {
+              "2016": 29.12,
+              "2017": 30.1,
+              "2018": 22.19,
+              "2019": 42.76,
+              "2020": 47.11,
+              "2021": 48.79,
+              "2022": 36.32,
+              "2023": 34.22,
+              "2024": 34.56,
+              "2025": 36.77
+            },
+            "excluded_current_observation": {
+              "as_of": "2026-09",
+              "displayed_per": 54.62,
+              "reason": "조회 시점(2026-09) 현재 PER(54.62배)은 10개년 이력 중 최고치(2021년 48.79배)보다도 높다 -- AI 반도체 슈퍼사이클 재평가를 상당히 반영한 값으로 판단해 평균에서 제외한다(KLAC이 조회시점 관측치를 제외한 것과 같은 원칙)."
+            },
+            "avg_10y": 36.194,
+            "avg_5y": 38.132,
+            "avg_3y": 35.18333333333334,
+            "range_low": 22.19,
+            "range_high": 48.79,
+            "note": "PER은 무차원 배수이므로 이 모듈은 EUR EPS에 그대로 곱해 EUR 목표주가를 만든다 -- 제3자 소스가 USD(Nasdaq) 가격을 쓰면서 분모 EPS를 어떤 방식으로 환산했는지는 투명하게 공개되지 않아, 그 환산 방식에 대한 잔여 불확실성이 배수 자체에 약간 섞여 있을 수 있음을 한계로 명시한다."
+          }
+        },
+        "dividend_check": {
+          "kind": "관측값(회사 공식 발표, 2026-09-22 원문 재확인)",
+          "fact": "2026년 중간배당 2회 모두 주당 €1.88(2026-02-18, 2026-08-05 지급 완료) -- FY2025 총배당 €7.50/주.",
+          "currency": "EUR",
+          "source_urls": [
+            "https://www.asml.com/en/investors/why-invest-in-asml/capital-return-and-financing",
+            "https://www.gurufocus.com/news/8962369/asml-announces-188-interim-dividend-for-2026"
+          ]
+        },
+        "fx_rate": {
+          "kind": "관측값(제3자 환율 집계, 2026-09-22 조회) + 교차확인(이중상장 실제 종가 비율)",
+          "rate": 1.149,
+          "as_of": "2026-09-21",
+          "source": "Frankfurter.app(유럽중앙은행 참조환율 집계, https://api.frankfurter.app/latest?from=EUR&to=USD), 2026-09-22 조회",
+          "cross_check": {
+            "kind": "검증(다른 독립 소스 두 개로 같은 결론 확인) -- 2026-09-22 조사",
+            "asml_us_close_2026_09_15": 1591.48,
+            "asml_eu_close_2026_09_15": 1388.8,
+            "implied_fx_from_dual_listing": 1.145938940092166,
+            "note": "같은 날 두 거래소의 실제 종가 비율(약 1.1459)이 독립적으로 조회한 환율(1.149, 2026-09-21)과 거의 일치한다 -- ASML의 Nasdaq·Euronext 상장이 같은 보통주를 1:1로 공유한다는 사실(아래 dual_listing_structure)과도 정합적이다. 이 교차확인이 통화 구조 이해가 맞다는 근거이지, 환율 예측의 정확성을 보증하지는 않는다."
+          }
+        },
+        "relative_value_band_status_note": {
+          "kind": "참고(이 모듈과 별개 시스템 -- 고치려 시도하지 않음, 사용자 지시)",
+          "status": "JUDGMENT_WITHHELD",
+          "reason": "asml_relative_value_last_check_status.json: 대상종목(ASML) 자신의 financial_currency(EUR)와 quote_currency(USD)가 달라 amat_calc_engine.validate_target_price()가 자동으로 DATA_ERROR로 판정 -- 환전 로직이 그 모듈에 아직 없기 때문.",
+          "relationship_to_this_module": "이 장기투자 시나리오 모듈은 그 검사 함수를 호출하지 않고 (상대가치 밴드와 완전히 별개 계산 경로), 독자적인 환전 설계(currency_and_fx_methodology)로 이 문제를 우회한다 -- 상대가치 모듈 자체는 이 작업으로 고쳐지지 않으며 여전히 JUDGMENT_WITHHELD 상태로 남는다."
+        }
+      },
+      "as_of_execution": "2026-09-22",
+      "currency_note": "재무 기준통화 EUR, 시세·매입가상한·목표가 표시통화 USD(환율은 currency_and_fx_methodology 참조) -- LRCX/KLAC/AMAT(모두 USD 단일통화)과 달리 이 필드가 반드시 필요한 첫 종목이다.",
+      "gross_margin_assumption_pct": 58.0,
+      "revenue_assumption_eur_m": 52000.0,
+      "exit_per_assumption": 36.0,
+      "fx_rate_assumption": 1.149,
+      "is_primary_recommended_assumption": true,
+      "primary_gross_margin_pct": 58.0,
+      "primary_revenue_eur_m": 52000.0,
+      "primary_exit_per": 36.0,
+      "primary_fx_rate": 1.149,
+      "primary_review_by": "2026-12-31",
+      "growth_years": 5.002739726027397,
+      "base_date": "2025-12-31",
+      "base_eps_fact_eur": 24.73,
+      "target_date": "2030-12-31",
+      "shares_2025_implied_m": 388.5725839061868,
+      "shares_2030_assumed_m": 369.51848606551283,
+      "share_count_assumption_pct_per_year": -1.0,
+      "target_eps_eur": 46.116239818721226,
+      "growth_rate_implied": 0.13265152148400028,
+      "opex_ratio_assumption_pct": 18.204548279166012,
+      "effective_tax_rate_assumption_pct": 17.651958162737483,
+      "target_price_eur": 1660.1846334739641,
+      "target_price": 1907.552143861585,
+      "annualized_dividend_per_share_eur": 7.52,
+      "annualized_dividend_per_share": 8.64048,
+      "dividend_source_note": "연배당 €7.52/주(분기상당 €1.88 x4, 2026-09-22 확인)를 환율 1.149로 환전한 $8.64/주로 현금흐름에 반영 -- model_assumption(확정 아님, 다음 확정 지급 이후 동일 금액 유지 및 환율 고정 가정).",
+      "consensus_cross_check": {
+        "estimates_fetched_at": "2026-09-21",
+        "estimates_financial_currency": "EUR",
+        "estimates_quote_currency": "USD",
+        "note": "참고용 -- 기준 경로 계산(상향식 EUR 역산)에는 쓰이지 않음. 컨센서스 EPS도 EUR 기준(financialCurrency=EUR)이라 이 모듈의 target_eps_eur와 같은 통화다."
+      },
+      "comparison_price": 1711.3199462890625,
+      "comparison_price_as_of": "2026-09-21",
+      "comparison_price_currency_note": "comparison_price는 prices_cache.json의 실시간 USD(Nasdaq) 시세를 그대로 쓴다 -- target_price(EUR에서 환전한 USD)와 통화가 이미 일치하므로 추가 환전이 필요 없다.",
+      "comparison_price_invalid_reason": null,
+      "base_scenario": {
+        "blocked": false,
+        "holding_period_actual_days": 1562,
+        "holding_period_actual_years": 4.279452054794521,
+        "cashflows_by_year": {
+          "1": 8.64048,
+          "2": 8.64048,
+          "3": 8.64048,
+          "4": 8.64048,
+          "4.279452054794521": 1909.9667437519959
+        },
+        "cashflow_note": {
+          "approximation_note": "실제 AMAT 분기배당(연 4회 지급)을 이 계산에서는 매입일 이후부터 맞이하는 각 정수 연차에 연 1회 합산 지급으로 근사한다 -- 정확한 분기별 지급일을 쓰려면 엔진을 부분기간 할인 구조로 바꿔야 하며 이번 범위 밖이다. 보유기간이 정수가 아니므로(약 4.2795년), 매도 시점의 부분연도에는 연배당의 27.9%만 비례 배분했다(그 이후 -- 매도 이후 -- 배당은 포함하지 않음). 매도 이후 시점의 배당은 어떤 경우에도 포함하지 않는다."
+        },
+        "ceilings_by_required_return": {
+          "0.08": {
+            "blocked": false,
+            "required_return": 0.08,
+            "max_purchase_price": 1402.6301146088256,
+            "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
+          },
+          "0.1": {
+            "blocked": false,
+            "required_return": 0.1,
+            "max_purchase_price": 1297.63503571705,
+            "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
+          },
+          "0.12": {
+            "blocked": false,
+            "required_return": 0.12,
+            "max_purchase_price": 1202.2233478265196,
+            "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
+          }
+        },
+        "conditional_annualized_return_at_comparison_price": {
+          "status": "SUCCESS",
+          "rate": 0.030540889579356155,
+          "residual": 8.537881512893364e-10,
+          "note": "solve_implied_rate와는 별개의 신규 수치해 함수 -- P05/P10 근거로 대체하지 않음"
+        }
+      },
+      "required_return_ceilings": {
+        "8%": 1402.6301146088256,
+        "10%": 1297.63503571705,
+        "12%": 1202.2233478265196
+      },
+      "conditional_annualized_return_at_comparison_price": 0.030540889579356155,
+      "conditional_annualized_return_status": "SUCCESS",
+      "default_required_return": 0.1,
+      "default_ceiling_price": 1297.63503571705,
+      "like_for_like_comparison_note": "target_price($1907.55, 2030-12-31 시점의 할인 전 미래 목표주가(USD 환전값) -- 회사 목표 매출·마진에서 역산한 EUR EPS x 출구PER x 환율)와 default_ceiling_price($1297.64, 오늘 현재가치로 할인한 연 10% 요구수익률 매입가 상한)는 서로 다른 의미의 가격이다.",
+      "return_condition_met_at_default_required_return": false,
+      "state_label": "수익조건 미충족",
+      "blocked": false,
+      "long_term_thesis_confirmation_note": "화면의 '사업 전제' 표시는 최신 분기 매출총이익률이 회사의 2030 목표 범위(56~60%)를 향해 실제로 개선 중인지만 확인한다(2026-09-22 조사 시점: Q4'25 52.2% -> Q1'26 53.0% -> Q2'26 54.0%, 목표 하단에 점차 근접) -- 이는 '최근 실적 방향'이며, 2030 매출·마진 목표 자체의 달성 가능성이나 이 모듈의 영업비용비율·세율 고정 가정의 타당성을 확인한 것이 아니다. AI 반도체 EUV·High-NA 수요, 중국向 규제 영향은 정기적으로(예: 분기 실적 발표마다) 재확인이 필요한 상태로 표시하며 '확인 완료'로 표시하지 않는다.",
+      "long_term_thesis_confirmed": false,
+      "price_return_table": [
+        {
+          "purchase_price": 1217.64,
+          "status": "SUCCESS",
+          "annualized_return": 0.11663742680343599
+        },
+        {
+          "purchase_price": 1257.64,
+          "status": "SUCCESS",
+          "annualized_return": 0.10815392562873276
+        },
+        {
+          "purchase_price": 1297.64,
+          "status": "SUCCESS",
+          "annualized_return": 0.09999900735759863
+        },
+        {
+          "purchase_price": 1357.64,
+          "status": "SUCCESS",
+          "annualized_return": 0.08833448473181416
+        },
+        {
+          "purchase_price": 1427.64,
+          "status": "SUCCESS",
+          "annualized_return": 0.07550906549826661
+        },
+        {
+          "purchase_price": 1711.32,
+          "status": "SUCCESS",
+          "annualized_return": 0.030540881960951047
+        }
+      ],
+      "range_growth_fixed_exit_per_sensitivity": {
+        "note": "target_eps(상향식 역산 EUR 값)를 고정하고 출구PER만 22.19~48.79배(10년 이력 저점~고점)로 바꾼 민감도다 -- 신뢰구간이 아니며 확률을 붙이지 않는다.",
+        "scenarios": {
+          "low": {
+            "exit_per": 22.19,
+            "target_eps_eur": 46.116239818721226,
+            "target_price": 1175.7939464524602,
+            "ceiling_at_default_required_return": 810.9706285699252
+          },
+          "high": {
+            "exit_per": 48.79,
+            "target_eps_eur": 46.116239818721226,
+            "target_price": 2585.2630305279645,
+            "ceiling_at_default_required_return": 1748.3546423362914
+          }
+        }
+      },
+      "stress_scenarios": {
+        "note": "회사가 실제로 공개한 매출·매출총이익률 목표 범위(저/중/고)에서 역산한 EPS와 참고 PER만 조합한다 -- 임의의 성장률을 추가로 만들지 않는다. 확률을 검증하지 않았으므로 임의의 성공확률을 붙이지 않는다.",
+        "scenarios": {
+          "company_target_low_range_pe_low": {
+            "label": "회사 목표 하단(매출 €44십억·매출총이익률 56%) · 종료 PER 22.19배(10개년 저점, 2018년)",
+            "target_eps_eur": 37.06033351646757,
+            "exit_per": 22.19,
+            "target_price": 944.9017520392474,
+            "ceiling_at_default_required_return": 657.4130554441941
+          },
+          "company_target_high_range_pe_5y": {
+            "label": "회사 목표 상단(매출 €60십억·매출총이익률 60%) · 종료 PER 38.13배(5년 평균)",
+            "target_eps_eur": 55.88527345781,
+            "exit_per": 38.132,
+            "target_price": 2448.5388173696997,
+            "ceiling_at_default_required_return": 1657.4245941661275
+          },
+          "company_target_mid_pe_3y": {
+            "label": "회사 목표 중간(매출 €52십억·매출총이익률 58%) · 종료 PER 35.18배(3년 평균)",
+            "target_eps_eur": 46.116239818721226,
+            "exit_per": 35.18333333333334,
+            "target_price": 1864.278970227688,
+            "ceiling_at_default_required_return": 1268.8557019610653
+          }
+        }
+      },
+      "target_extension_scenario": {
+        "note": "회사가 공개하지 않은 2030 이후 구간에 대한 분석자 가정(참고용) -- state_label·required_return_ceilings·default_ceiling_price 등 이 모듈의 대표 결과에 영향을 주지 않는다. 성장률은 회사 목표(매출·마진)를 재사용하지 않고 7개년 실측 매출CAGR을 쓴다.",
+        "extension_years_beyond_target": 2,
+        "extension_target_date": "2032-12-31",
+        "extension_growth_rate": 0.1690905908663627,
+        "extension_target_eps_eur": 63.03042266763109,
+        "extension_target_price": 2607.1904032238926,
+        "extension_ceiling_at_default_required_return": 1471.6076971510154
+      }
     }
   },
   "STX": {
