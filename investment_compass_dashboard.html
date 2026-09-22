@@ -4829,6 +4829,7 @@ function renderRelativeValueBandCard(rv){
       ${rv.comparisonPriceIssue?`<div class="sub" style="margin:0 0 4px;color:var(--down);">비교가격 자료상태 문제: ${esc(rv.comparisonPriceIssue)}</div>`:''}
       <div class="sub" style="margin:2px 0 8px;"><b>변경 이유</b>: ${esc(rv.changeReasonVsPrevious||'-')}</div>
       ${(rv.conditionsForChange && rv.conditionsForChange.length) ? `<div class="sub" style="margin:2px 0 8px;"><b>이 참고범위가 바뀌는 조건</b> <span style="font-weight:400;">(매수·보유·축소 조건이 아니라, 위 참고범위 숫자 자체가 달라지는 조건이에요)</span><ul style="margin:4px 0 0 16px;padding:0;">${rv.conditionsForChange.map(c=>`<li>${esc(c)}</li>`).join('')}</ul></div>` : ''}
+      ${renderPriceMultipleDiagnosticSection(rv.priceMultipleDiagnostic)}
       <details style="margin-top:4px;margin-bottom:4px;">
         <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">산출 근거 자세히 보기</summary>
         <div class="sub" style="margin:6px 0;">판단 시각(스냅샷 생성): ${esc(rv.generatedAt||'-')} · 기준일: ${esc(rv.asOfDate||'-')}</div>
@@ -4839,6 +4840,56 @@ function renderRelativeValueBandCard(rv){
         ${epsBasisHtml}
       </details>
     </div>`;
+}
+// [2026-09-22 신규 -- Codex 2차 독립검토(PER A1/A2) 수정 1·2번 반영] 별도 검토 페이지
+// (<ticker>_relative_value_review.html)에만 있던 현재가 대비 PER 진단(A-1: FY0/FY1/NTM,
+// 밴드 계산과 무관한 참고용)과 "배수 유지 조건" 필요 EPS(A-2: 접힌 참고용)를 01판단 탭
+// 카드에도 그대로 표시한다. 값은 서버가 스냅샷에서 그대로 넘겨준 것을 조립만 한다
+// (재계산하지 않음 -- 이 파일의 다른 렌더 함수와 동일한 규율). A-1은 항상 펼쳐서 보이고,
+// A-2는 실제 <details>로 기본 접힘 -- opacity만으로 "접힌 척"하지 않는다(수정 2번).
+function renderPriceMultipleDiagnosticSection(pmd){
+  if(!pmd) return '';
+  if(!pmd.ok){
+    return `<div class="sub" style="margin:6px 0;color:var(--sub);">현재가 대비 PER 진단: 산출 보류 -- ${esc(pmd.error_message||'자료 없음')}</div>`;
+  }
+  const mult = pmd.multiples || {};
+  const order = [['fy_current','FY0(당해)'], ['fy_next','FY1(익년)'], ['ntm','NTM(향후 365일)']];
+  const rows = order.map(([key,label]) => {
+    const m = mult[key] || {};
+    const perTxt = (m.per!=null) ? `${m.per.toFixed(2)}x` : '산출 보류';
+    const epsTxt = (m.eps!=null) ? `$${Number(m.eps).toFixed(4)}` : '-';
+    const periodTxt = m.period_end ? m.period_end : (m.window_start && m.window_end ? `${m.window_start}~${m.window_end}` : '-');
+    const noteTxt = m.eps_basis_note || m.error_message || '';
+    return `<div class="fund-row"><span>${esc(m.period_label||label)} <span style="color:var(--sub);font-weight:400;">(${esc(periodTxt)})</span></span>
+      <span class="v" style="font-size:11px;">${perTxt} <span style="color:var(--sub);">(EPS ${epsTxt})</span></span></div>
+      ${noteTxt?`<div class="sub" style="margin:0 0 4px;font-size:10px;">${esc(noteTxt)}</div>`:''}`;
+  }).join('');
+  const folded = pmd.folded_required_eps_if_multiple_held || {};
+  const byMultiple = folded.by_multiple || {};
+  const foldedRows = order.map(([key,label]) => {
+    const v = byMultiple[key];
+    if(!v) return '';
+    const m = mult[key] || {};
+    const gapTxt = (v.vs_same_period_eps_pct!=null) ? `${v.vs_same_period_eps_pct.toFixed(2)}%` : '-';
+    return `<div class="fund-row"><span>${esc(m.period_label||label)}</span>
+      <span class="v" style="font-size:11px;">필요 EPS $${v.required_eps_if_multiple_unchanged!=null?v.required_eps_if_multiple_unchanged.toFixed(4):'-'} (갭 ${gapTxt})</span></div>`;
+  }).join('');
+  const divProv = folded.dividend_provenance || {};
+  const divAsOf = divProv.as_of ? ` · 확인일 ${esc(divProv.as_of)}` : '';
+  const divLabel = esc(folded.dividend_example_label || '');
+  return `
+    <div class="sub" style="margin:8px 0 4px;">
+      <b>현재가 대비 PER 진단</b> <span style="color:var(--warn);font-weight:400;">(참고, 위 참고범위 산출에는 안 씀)</span> -- 현재가 $${pmd.current_price!=null?pmd.current_price.toFixed(2):'-'}(${esc(pmd.current_price_as_of||'-')}) 기준
+      <div style="margin-top:2px;color:var(--sub);font-size:10.5px;">FY0·FY1·NTM은 서로 다른 이익 기간을 분모로 쓰는 서로 다른 지표입니다 -- 산술 오류가 아니라 기간 정의가 다릅니다.</div>
+      <div style="margin-top:4px;">${rows}</div>
+    </div>
+    <details style="margin:4px 0 8px;">
+      <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">(접힌 참고용, 핵심 진단 아님) "배수 유지 조건" 필요 EPS</summary>
+      <div class="sub" style="margin:6px 0;color:var(--warn);">${esc(folded.note||'')}</div>
+      <div style="margin:4px 0;">${foldedRows}</div>
+      <div class="sub" style="margin-top:4px;font-size:10.5px;">요구수익률 가정 ${folded.required_return_assumption!=null?(folded.required_return_assumption*100).toFixed(0):'-'}% · 연배당 ${divLabel} $${folded.annual_dividend_per_share!=null?folded.annual_dividend_per_share.toFixed(2):'-'}/주 (상태: ${esc(folded.dividend_source_status||'-')}${divAsOf})</div>
+      ${divProv.note?`<div class="sub" style="margin-top:2px;font-size:10.5px;">${esc(divProv.note)}</div>`:''}
+    </details>`;
 }
 // [2026-09-21 신규 -- 봄이 4차 요구 1·2번: "EPS 공급자·필드경로·정의확인수준을 참고범위
 // 카드에 표시하고, '출처 확인'과 '기업 간 비교가능성 확인'을 분리해서 보여달라"]
