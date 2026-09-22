@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790109425.7591448,
+  "generatedAt": 1790110864.5687113,
   "records": {
     "MSFT": [
       {
@@ -15577,6 +15577,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1790110864.5687113,
+        "dataAsOf": 1790083172,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 2.1,
+            "after": 1.75
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "엔비디아 주가, 이익 호황에도 불구하고 10년 최저치 기록",
+        "newsUrl": "https://finnhub.io/api/news?id=df900d43ab873db9b626aa8ea8590fdb387996cb65dd460a1f938180bdc6a2ca",
+        "eventId": "356166af032f77380ca4",
+        "fingerprint": "{\"changes\": [{\"after\": 1.75, \"before\": 2.1, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"356166af032f77380ca4\"}"
+      },
+      {
         "changedAt": 1790107615.2711341,
         "dataAsOf": 1790083172,
         "changes": [
@@ -16836,32 +16853,26 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=7c894a3a8d556b8d736a1e286c9cc55bc7c49c8203ca8ab596d47ff8eb33e2ab",
         "eventId": "f7abfd02fe21db6af72a",
         "fingerprint": "{\"changes\": [{\"after\": 5, \"before\": 4.9, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"f7abfd02fe21db6af72a\"}"
-      },
-      {
-        "changedAt": 1788660958.0453053,
-        "dataAsOf": 1788650220,
-        "changes": [
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -0.35,
-            "after": 0.0
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -4.55,
-            "after": -4.2
-          }
-        ],
-        "cause": "AI 컴퓨팅 수요 확대 가능성",
-        "newsHeadline": "Nvidia가 지원하는 AI 회사, 1,030억 달러라는 엄청난 금액 공개",
-        "newsUrl": "https://finnhub.io/api/news?id=e354cb6b2a7f1bfb803503068deaad9ddf4b46f37e11d5767bea6d223bee6d37",
-        "eventId": "7652b6bc6572aebcf538",
-        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -0.35, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -4.2, \"before\": -4.55, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"7652b6bc6572aebcf538\"}"
       }
     ],
     "AMD": [
+      {
+        "changedAt": 1790110864.5687113,
+        "dataAsOf": 1790092809,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 4.03,
+            "after": 3.68
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "가격 예측: Marvell, AMD 및 Broadcom - 2027년의 대담한 가격 예측",
+        "newsUrl": "https://finnhub.io/api/news?id=8fa27144427a71dcee3f5d423079abba35fbbcf5d4381cd4bf5f4c6ab4a6467a",
+        "eventId": "7508811d4b3549c347f2",
+        "fingerprint": "{\"changes\": [{\"after\": 3.68, \"before\": 4.03, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"7508811d4b3549c347f2\"}"
+      },
       {
         "changedAt": 1790107615.2711341,
         "dataAsOf": 1790092809,
@@ -18224,23 +18235,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=ffa1ff2780a4397efd1c6b3878cabb3067edbc1bbc113a8a27f9656421319068",
         "eventId": "bc40ecde4d85b2bee1d9",
         "fingerprint": "{\"changes\": [{\"after\": 5, \"before\": 4.55, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"bc40ecde4d85b2bee1d9\"}"
-      },
-      {
-        "changedAt": 1788356819.5285218,
-        "dataAsOf": 1788319010,
-        "changes": [
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 4.2,
-            "after": 4.55
-          }
-        ],
-        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
-        "newsHeadline": "어플라이드 머티리얼즈 자사주 매입: 역사 및 투자자 영향 설명",
-        "newsUrl": "https://finnhub.io/api/news?id=5e9cf7661d15f873fa05ed31caef7ac055d8ac9497816dd1916c155a9e296d6a",
-        "eventId": "be886586317106dbfc23",
-        "fingerprint": "{\"changes\": [{\"after\": 4.55, \"before\": 4.2, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"be886586317106dbfc23\"}"
       }
     ],
     "AVGO": [
@@ -30048,6 +30042,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "MU": [
       {
+        "changedAt": 1790110864.5687113,
+        "dataAsOf": 1790096080,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 4.02,
+            "after": 3.67
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Michael Burry, Acer의 메모리 공급 증가로 Micron, Nebius, Palantir Shorts 추가",
+        "newsUrl": "https://finnhub.io/api/news?id=c8a2439af7138dcbfe668a020b3b528a07d635c165cdb3ee4d94db08bdc87f25",
+        "eventId": "7d02c8d9aba8fc294a26",
+        "fingerprint": "{\"changes\": [{\"after\": 3.67, \"before\": 4.02, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"7d02c8d9aba8fc294a26\"}"
+      },
+      {
         "changedAt": 1790109247.118554,
         "dataAsOf": 1790096080,
         "changes": [
@@ -31409,23 +31420,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=621e1b678a037049c86a70afcad64cf225bcf14f4a3782849cecd216c92e4ace",
         "eventId": "3b0f62bb79f7a275b575",
         "fingerprint": "{\"changes\": [{\"after\": 1.92, \"before\": 1.57, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"3b0f62bb79f7a275b575\"}"
-      },
-      {
-        "changedAt": 1788488548.505292,
-        "dataAsOf": 1788477121,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 1.22,
-            "after": 1.57
-          }
-        ],
-        "cause": "AI 서버 메모리 수요와 가격 강세",
-        "newsHeadline": "Hock Tan은 Broadcom의 2028년 AI 매출에 2,300억 달러를 기록했습니다. 올해는 4번입니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=b37fd1d13d880cb8fecf07556978e321b5448d4ecf29bae8e3d5613ecb23c04b",
-        "eventId": "a679944bf3f827b85f28",
-        "fingerprint": "{\"changes\": [{\"after\": 1.57, \"before\": 1.22, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"a679944bf3f827b85f28\"}"
       }
     ],
     "SNDK": [
