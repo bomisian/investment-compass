@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 89.83999633789062,
+      "current": 89.8499984741211,
       "prevClose": 95.77999877929688,
-      "changeAbs": -5.94000244140625,
-      "changePct": -6.201714885269135,
+      "changeAbs": -5.930000305175781,
+      "changePct": -6.191272061759066,
       "pctRank": 82.02068416865554,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -20.460381792609883,
-      "ma20": 93.51900138854981,
-      "ma60": 84.46166712443033,
-      "chg1m": 2.779998779296875,
-      "chg3m": 16.62999725341797,
-      "chg1mPct": 3.193198779296841,
-      "chg3mPct": 22.715472560284567,
+      "drawdown1y": -20.451526426075382,
+      "ma20": 93.51950149536133,
+      "ma60": 84.46183382670084,
+      "chg1m": 2.7900009155273438,
+      "chg3m": 16.639999389648438,
+      "chg1mPct": 3.2046875646298947,
+      "chg3mPct": 22.72913481456069,
       "lastDate": "2026-09-22",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 100.53900146484375,
+      "current": 100.552001953125,
       "prevClose": 100.43000030517578,
-      "changeAbs": 0.10900115966796875,
-      "changePct": 0.10853446115378657,
-      "pctRank": 38.34526650755768,
+      "changeAbs": 0.12200164794921875,
+      "changePct": 0.12147928664591595,
+      "pctRank": 38.424821002386636,
       "min5y": 93.0999984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.0540292678619556,
-      "ma20": 99.52094955444336,
-      "ma60": 100.11715024312338,
-      "chg1m": 1.7389984130859375,
-      "chg3m": -0.871002197265625,
-      "chg1mPct": 1.7601197969345588,
-      "chg3mPct": -0.8588917915511963,
+      "drawdown1y": -1.0412347710573422,
+      "ma20": 99.52159957885742,
+      "ma60": 100.11736691792807,
+      "chg1m": 1.7519989013671875,
+      "chg3m": -0.858001708984375,
+      "chg1mPct": 1.773278185476753,
+      "chg3mPct": -0.8460720619271183,
       "lastDate": "2026-09-22",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4397.60009765625,
+      "current": 4396.2001953125,
       "prevClose": 4383.89990234375,
-      "changeAbs": 13.7001953125,
-      "changePct": 0.31251159054009214,
-      "pctRank": 89.26868044515103,
+      "changeAbs": 12.30029296875,
+      "changePct": 0.28057878242552786,
+      "pctRank": 89.1891891891892,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.313474383182726,
-      "ma20": 4462.244970703125,
-      "ma60": 4297.959993489583,
-      "chg1m": -283.0,
-      "chg3m": 248.2001953125,
-      "chg1mPct": -6.0462332627328825,
-      "chg3mPct": 5.98159254720921,
+      "drawdown1y": -17.33979625384786,
+      "ma20": 4462.174975585937,
+      "ma60": 4297.936661783854,
+      "chg1m": -284.39990234375,
+      "chg3m": 246.80029296875,
+      "chg1mPct": -6.0761418709143635,
+      "chg3mPct": 5.94785508211313,
       "lastDate": "2026-09-22",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,6 +237,27 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Trump says Iran deal nearing, Tehran offers Hormuz reopening - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMHFVWHVmRkJDV09JMHNSQ2RvNk5zS2NwN3lwZ3lNOFNLd0tUdjZHS09lMUhZdHBCWXZUQ1NJUHh5cUxmYlU4NjNTRGRtWDJ3UkFpb05jS1U2R2huempndzFvVEtqZmV1RjN2cTRJWWYybEpQSkptR2NjLWFySUtUeDdXMmdBd0N4dktqeGN6WjdTOGVfQXZJLVgyX2k1RTlzbDZncmktWlI?oc=5",
+      "datetime": 1790111298,
+      "headlineKo": "트럼프 \"이란 협상 임박, 테헤란, 호르무즈 재개 제안\" - 로이터 통신"
+    },
+    {
+      "headline": "A top chip stock analyst sees big things for Nvidia, Broadcom. How his case aligns with ours",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/22/a-top-chip-stock-analyst-sees-big-things-for-nvidia-broadcom-how-his-case-aligns-with-ours.html",
+      "datetime": 1790109828,
+      "headlineKo": "최고의 칩 주식 분석가는 Nvidia, Broadcom에 큰 영향을 미칠 것으로 보고 있습니다. 그의 사건이 우리 사건과 어떻게 일치하는지"
+    },
+    {
+      "headline": "Trump warns in UN speech he could 'annihilate' Iran without peace deal - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOFdkQk9aWHdzT0hrcFhDNDZPSmlwQVBUUm12TGd4SUVPUURUMVo4Y3I0WHZBSTIxdjdKTWZ4WkF3cVUzUnlrWmNrbTA5T21UN3R0Z0JnekdrZm5ReC1ZS2JmUWVQRXRVNzhaYmNucDI5YVh6d2JxeHp5Yi00Y3p2d0loRTY5YXNiWGRHTlJZb1ZiX1paMVh3UU1XVThfUXR2NHF3T0pod3BBS3VpU3AyTDB3?oc=5",
+      "datetime": 1790108418,
+      "headlineKo": "트럼프, 유엔 연설에서 평화협정 없이는 이란 '멸절'시킬 수 있다고 경고 - 로이터"
+    },
+    {
       "headline": "Iran submits conditions for reopening of Hormuz to U.S. representative, state media says - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYVI5Zk1aX3RhYUR3djFoUE4wTGo1cEJscDJwelUwamFLQV9WVEh3OU1BcFhkOGJKWWtCVXFPSndFUUpFV2xvWWctLTQxVWFlWmE0d3ctNmJuYzVDLXJSdjdwaktKWFREMVBQeUlZakZvalZOQTAtSlQ5UzZFQkFlUVZPblc2bEE5dzNVRV9pTzM2ZkxURHlFMzVlamZCWG50RUlkaVd5MDc4MzZTbWp1N1J1Y3NnQnUwMnFNRjhWMnd6Y0Z1LWp5NA?oc=5",
@@ -258,25 +279,11 @@ const MARKET_DATA = {
       "headlineKo": "파이퍼 샌들러(Piper Sandler)가 성장 우려로 목표 가격을 인하한 후 시스코 주가는 5% 하락"
     },
     {
-      "headline": "Trump at UN: Threats, diplomacy and 'super intelligence' - reuters.com",
+      "headline": "Trump at UN: Threats, diplomacy and 'super intelligence' - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPb05jNXUydzFHZ2tRUzBGUndIZFAxTW1jYUtVU3U5NzI1ZjRsckp2YXJuOG9KRE9hOTg1Q3B3b3U1ZC1jWmN1d2J0VU1OMkVfbElFRGhONElJd3I4UklnbVZHTExmT1g2dHFESmJhQWplNWlYUzZsU1ctMW9HRVBXVDJGazNhd1JDbWltQ0hEYmttU2hh?oc=5",
       "datetime": 1790104182,
-      "headlineKo": "유엔 참석한 트럼프: 위협, 외교 그리고 '초지능' - reuters.com"
-    },
-    {
-      "headline": "Trump says Iran deal nearing, Tehran offers Hormuz reopening - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMHFVWHVmRkJDV09JMHNSQ2RvNk5zS2NwN3lwZ3lNOFNLd0tUdjZHS09lMUhZdHBCWXZUQ1NJUHh5cUxmYlU4NjNTRGRtWDJ3UkFpb05jS1U2R2huempndzFvVEtqZmV1RjN2cTRJWWYybEpQSkptR2NjLWFySUtUeDdXMmdBd0N4dktqeGN6WjdTOGVfQXZJLVgyX2k1RTlzbDZncmktWlI?oc=5",
-      "datetime": 1790100359,
-      "headlineKo": "트럼프 \"이란 협상 임박, 테헤란은 호르무즈 재개 제안\" - reuters.com"
-    },
-    {
-      "headline": "Trump warns in UN speech he could 'annihilate' Iran without peace deal - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOFdkQk9aWHdzT0hrcFhDNDZPSmlwQVBUUm12TGd4SUVPUURUMVo4Y3I0WHZBSTIxdjdKTWZ4WkF3cVUzUnlrWmNrbTA5T21UN3R0Z0JnekdrZm5ReC1ZS2JmUWVQRXRVNzhaYmNucDI5YVh6d2JxeHp5Yi00Y3p2d0loRTY5YXNiWGRHTlJZb1ZiX1paMVh3UU1XVThfUXR2NHF3T0pod3BBS3VpU3AyTDB3?oc=5",
-      "datetime": 1790100313,
-      "headlineKo": "트럼프, 유엔 연설에서 평화협정 없이는 이란 '멸절'시킬 수 있다고 경고 - reuters.com"
+      "headlineKo": "유엔 참석한 트럼프: 위협, 외교 그리고 '초지능' - 로이터"
     },
     {
       "headline": "EU renews Russia sanctions, drops Russian billionaires Usmanov and Fridman - Reuters",
@@ -286,11 +293,11 @@ const MARKET_DATA = {
       "headlineKo": "EU, 러시아 제재 갱신, 러시아 억만장자 우스마노프와 프리드만 해임 - Reuters"
     },
     {
-      "headline": "Trump says talks with Iran continue and he thinks settlement will be reached - reuters.com",
+      "headline": "Trump says talks with Iran continue and he thinks settlement will be reached - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPN3J1Q19pcFNqX1dZdk1GNllCTzNBWWlmWHB3bF9nMGNrcEdvUjc2anM1bndiLWFOYlVjRl9qeTBKby1qaW1zaWY1ZEU1ZEFnM3RTWXB5WUFwNTczcjlOT2ZXc3pfdW1nNFJzY185Wkkxc0UzcEstaHhxNVhHMk0zbERBc2lQTGtKY0dyaGhTWHg5LW5TZUZITXFwTklFcmZadVh4eks3Q1VZeGFGUm1QTW5yV3MzOVZBeFp6SGp1U09NNThl?oc=5",
       "datetime": 1790096983,
-      "headlineKo": "트럼프 \"이란과 대화 계속 이어갈 것\""
+      "headlineKo": "트럼프 \"이란과 대화 계속할 것\""
     },
     {
       "headline": "Nvidia options are doing something unusual ahead of two catalysts. Here's how one trader is playing it",
@@ -300,35 +307,28 @@ const MARKET_DATA = {
       "headlineKo": "Nvidia 옵션은 두 가지 촉매제에 앞서 특이한 일을 하고 있습니다. 한 트레이더가 플레이하는 방법은 다음과 같습니다."
     },
     {
+      "headline": "Turkey's Erdogan urges UN reform, wider recognition of Palestinian state - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSThYSHV3S2NvRFpqMU1uTkFwSEFLYVJXLUZMQ0kyM0hhNGJ6N3RMNS0tYVRTVWczMGVZaldiLUF0VDRLOEhUdXJNN3hEMTBmYm13aDlhU3Bqbm1YMFBlMVhxcGozUmZLWFJhV2NqeVE0NmFRb1dEellicGhxTFZza0VkN2xjS0NVUE5PTE5EWWlGUEx5T3p3ZmpoLVV4RGJOZzRFUUtqWFlsX0RyZGhGMmlUcDhxQk01QS1GVHFB?oc=5",
+      "datetime": 1790095183,
+      "headlineKo": "터키 에르도안, 유엔 개혁과 팔레스타인 국가 인정 확대 촉구 - 로이터 통신"
+    },
+    {
       "headline": "Nasdaq hits intraday record high on tech boost, Mideast negotiation hopes - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOUI2bTZ5ZFhnZUozYjg5LXM1WHhuT24xUS0zYmRRZkViWVBreE05ZTNMWFBDSGhHTXUyQ3ZyMWhsUFdxSUlxUXVUUXVHWGRVelg3Z2RuVXo3bndwaXJfRXhEUEFERFNSUVZoaDNERnFxdnhuNkxLdVhnNDRpRGhxYndETzVJdVNnZXJESmpMNmw5QVFQODFGY2w2NzVCcFl0bXBSNjRaTQ?oc=5",
       "datetime": 1790094420,
       "headlineKo": "나스닥, 기술 부양으로 장중 최고치 경신, 중동 협상 희망 - Reuters"
-    },
-    {
-      "headline": "Banks, telecoms weigh on FTSE 100; focus on US-Iran talks - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ3JCUDhubW1Yb0o4bFpaMFdtVE9oYVVuUll5R0tpVS1YNXpjd285eWxWa1ZDUklJd0ZBNnZJdnJQdEVnZmJ6czA1TEYtMmFhNjlUcWZGeDdhMFdpNXRJd21TaWlmcjRiWTBHNEpDVmg2U0RicWlnUWNWRFkyUy01WXA4c09OREpKM2JNWUk5dHEyNDQ0SWM1U3BudkhJUENDWXVjdlUyRl9nZw?oc=5",
-      "datetime": 1790093499,
-      "headlineKo": "은행, 통신업체는 FTSE 100에 무게를 두고 있습니다. 미국-이란 회담에 집중 - reuters.com"
-    },
-    {
-      "headline": "We're protecting big profits in tech, and buying more non-tech in this oversold market",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/22/were-protecting-big-profits-in-tech-and-buying-more-non-tech-in-this-oversold-market.html",
-      "datetime": 1790092092,
-      "headlineKo": "우리는 기술 분야에서 큰 이익을 보호하고 이 과매도 시장에서 비기술 분야를 더 많이 구매하고 있습니다."
     }
   ],
   "fgi": {
     "score": 35.2571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1790109247.2650406,
-  "_updated_label": "2026-09-23 05:34",
-  "_last_attempt_at": 1790109247.2650406,
-  "_last_success_at": 1790109247.2650406,
+  "_fetched_at": 1790112972.6902995,
+  "_updated_label": "2026-09-23 06:36",
+  "_last_attempt_at": 1790112972.6902995,
+  "_last_success_at": 1790112972.6902995,
   "_collection_status": "ok",
   "_collection_errors": []
 };
