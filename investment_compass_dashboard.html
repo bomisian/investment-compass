@@ -9372,234 +9372,130 @@ function renderAnalystLog(ticker){
 // watch[](다음에 확인할 포인트, gpt의 watch와 동일 - renderViewLog의 watchNext와 같은 패턴).
 // 구형 항목(coreAnalysis/whyItMatters/beginnerSummary만 있는 기존 ORCL 등 15여개 로그)은 그대로
 // 두고 렌더러가 두 형식을 다 지원하도록 함 - 기존 데이터를 굳이 다시 쓸 필요 없게.
-// [2026-09-21 신규 -- 봄이 요구 1번] "오늘의 시장 헤드라인 해석"이 실제로는 BUSINESS_NOTES.MARKET.newsLog
-// (Claude가 손으로 조사해서 쓰는 수동 로그, 최근 갱신 2026-09-17)를 읽고 있어서, buy_signal_telegram.py가
-// 매일 자동 수집·분석하는 news_cache.json(QQQ/SPY 등, news_data.js로 배포)과 갱신 주기가 서로 분리돼
-// 있었다(Codex 지적, 실제 재현 확인됨). 최근 2일 안에 수동 로그 항목이 없으면 과거 항목 1건을 강제로
-// 펼쳐 "오늘" 제목 아래 보여주는 fallback까지 있어 더 오래된 글이 최신인 것처럼 보일 위험이 있었다.
-//
-// 이 함수는 수동 로그 대신 news_cache.json(NEWS_DATA)에 이미 있는 QQQ·SPY(개별 종목이 아니라
-// 지수 추종 ETF만 -- 특정 종목 뉴스를 시장 전체 원인으로 확대하지 않기 위함)의 실제 자동 수집·분석
-// 결과를 상단에 연결한다. 이 자동 분석(facts/why/beginner/interpretation/decision/watch)은 이미
-// buy_signal_telegram.py 실행 시 만들어지는 실제 데이터이고, 이 함수는 그걸 새로 짓지 않고 그대로
-// 옮겨 보여줄 뿐이다(재해석·재계산 없음, 화면 배치만 다르다).
-//
-// 기사 발생일(n.datetime)·수집 시각(e._fetched_at/_last_success_at)·분석 작성 시각
-// (n.analysis.analysisUpdatedAt)을 서로 다른 필드로 구분해서 표시한다. 세 가지 상태를 명확히
-// 나눈다: (a) 수집은 정상인데 최근 창 안에 새 기사가 없음(신규 기사 없음), (b) 수집 자체가 실패
-// (_collection_status!=='ok') (수집 실패), (c) 기사는 있는데 아직 개별 분석이 안 붙음(분석 대기).
-// [2026-09-22 수정 -- item3: "QQQ·SPY 전용 제한을 제거"] 예전엔 이 카드가 QQQ·SPY 두 종목의
-// 자동 수집·분석만 보여줬다 -- 그런데 news_cache.json(NEWS_DATA)은 이미 buy_signal_telegram.py의
-// update_news()가 watchlist 전체(QQQ·SPY 포함 관리종목 전부)를 대상으로 수집·분석해 놓은 자료다
-// (Python 쪽을 다시 확인함: update_news(watchlist, ...)가 watchlist 안의 모든 티커를 순회한다).
-// 즉 개별 관리종목(AMAT·LRCX 등)의 이미 분석된 뉴스가 이 화면에서만 조용히 걸러지고 있었다 --
-// 새 수집·분석 로직을 만들지 않고, 이미 있는 자료를 그대로 다 보여주도록 필터만 넓힌다(사용자
-// 명시 요구: "QQQ·SPY 관련 기사만 고르는 제한을 제거"). 관리종목 목록은 하드코딩하지 않고
-// results(현재 스캔된 관리종목)에서 그대로 읽는다 -- 종목이 늘어나면 이 카드도 자동으로 따라간다.
-function renderMarketNewsAuto(){
-  const managedTickers = (typeof results !== 'undefined' && results) ? Object.keys(results) : [];
-  const AUTO_TICKERS = Array.from(new Set([...managedTickers, 'QQQ', 'SPY']));
-  const RECENT_DAYS = 2; // 기존 renderNewsLog(MARKET,...,2)와 같은 최근성 기준을 유지
-  const nowSec = Date.now()/1000;
-  const cutoffSec = nowSec - RECENT_DAYS*86400;
-
-  // [2026-09-21 2차 보완 -- Codex가 실제 renderMarketNewsAuto()를 격리 실행해 재현한 3개 반례 수정]
-  // (1) status='ok'만 보고 "정상"이라 말하면 안 된다 -- 마지막 성공 시각(_last_success_at) 자체가
-  // 실제로 유효한지(존재·과거·수집 주기 이내) 별도로 확인해야 한다. 이 수집기는 매일 실행되므로
-  // 3일(다른 곳의 상대가치 스냅샷 노후 기준과 동일 - 짧은 주기 데이터는 짧은 기준을 씀)을 넘기면
-  // "정상"이라고 말할 수 없다.
-  const COLLECTION_STALE_AFTER_DAYS = 3;
-  const collectionFreshness = (e) => {
-    const t = e && e._last_success_at;
-    if(typeof t !== 'number' || t <= 0) return {fresh:false, reason:'성공 시각 없음'};
-    const ageDays = (nowSec - t) / 86400;
-    if(ageDays < 0) return {fresh:false, reason:'성공 시각이 미래(시계 오류로 간주)'};
-    if(ageDays > COLLECTION_STALE_AFTER_DAYS) return {fresh:false, reason:`마지막 성공이 ${ageDays.toFixed(1)}일 전(수집 주기 대비 노후)`};
-    return {fresh:true, reason:null};
-  };
-
-  const perTicker = AUTO_TICKERS.map(t => {
-    const e = newsEntry(t);
-    const explicitFail = !!(e && e._collection_status && e._collection_status !== 'ok');
-    const freshness = e ? collectionFreshness(e) : {fresh:false, reason:'자료 없음'};
-    return {t, e, explicitFail, fresh: !explicitFail && freshness.fresh, freshnessReason: freshness.reason};
-  });
-  const anyDataAtAll = perTicker.some(x => x.e);
-  if(!anyDataAtAll) return ''; // news_data.js 자체가 없으면(기존 원칙과 동일) 섹션을 숨긴다
-
-  const failedTickers = perTicker.filter(x => x.e && x.explicitFail);
-  const freshTickers = perTicker.filter(x => x.e && x.fresh);
-  // (2) status가 ok(또는 없음)이고 명시적 실패도 아니지만, 성공 시각이 없거나 노후면 "확인 불가"로
-  // 별도 취급한다 -- 예전엔 이 경우도 조용히 okTickers에 섞여 "정상"으로 표시됐었다.
-  const unknownTickers = perTicker.filter(x => x.e && !x.explicitFail && !x.fresh);
-
-  let recentArticles = [];
-  freshTickers.forEach(({t, e}) => {
-    (e.news || []).forEach(n => {
-      // (3) 미래 날짜 기사는 "최근 기사"로 절대 세지 않는다 -- 시계 오류·자료 오류로 간주하고
-      // 최신 목록에서 제외한다(예전엔 상한 검사가 없어 미래 10일 뒤 기사도 카드로 노출됐음).
-      if(typeof n.datetime === 'number' && n.datetime >= cutoffSec && n.datetime <= nowSec){
-        recentArticles.push({t, n});
-      }
-    });
-  });
-  // [2026-09-22 수정 -- item4 일부: "중요도·최신성으로 상위 노출"] 새 순위 알고리즘(파급력·정책
-  // 확실성·지속성 점수화 등)을 만들지 않는다 -- 이미 계산돼 저장된 a.importance('high' 등, 개별
-  // 기사 분석 시 뽑힌 값)만 1차 기준으로 쓰고, 같은 중요도 안에서는 기존처럼 최신순이다. 종목
-  // 개수가 늘어난 지금(managedTickers 전체) 이 정렬이 없으면 중요 기사가 뒤로 밀릴 수 있다.
-  recentArticles.sort((a,b) => {
-    const ai = (a.n.analysis && a.n.analysis.importance === 'high') ? 1 : 0;
-    const bi = (b.n.analysis && b.n.analysis.importance === 'high') ? 1 : 0;
-    if(ai !== bi) return bi - ai;
-    return (b.n.datetime||0) - (a.n.datetime||0);
-  });
-
-  // (4) 기사 본문 추출 과정에서 사이트 부속 문구(접근성 안내·회사 소개·구독 유도·쿠키 안내 등)가
-  // "핵심 사실"처럼 섞여 나온 실제 사례가 확인됐다(Motley Fool "Accessibility Help / About Us" 등).
-  // 완전히 걸러낼 방법은 없지만, 흔한 부속 문구 패턴을 가진 문장은 화면에서 제외한다(재작성하지
-  // 않고 그 줄만 제거 -- 원본 데이터 자체는 건드리지 않음).
-  const BOILERPLATE_PATTERNS = [
-    /accessibility help/i, /접근성 도움말/, /회사\s*소개/, /about us/i,
-    /join the motley fool/i, /motley fool/i, /stock advisor/i,
-    /subscribe/i, /구독하기/, /cookie/i, /privacy policy/i, /개인정보\s*처리방침/,
-    /이용약관/, /terms of (service|use)/i, /^log ?in$/i, /^sign ?up$/i,
-    /advertisement/i, /관련기사|더보기\s*>/,
-  ];
-  const isBoilerplate = s => typeof s === 'string' && BOILERPLATE_PATTERNS.some(re => re.test(s));
-  const cleanList = arr => (arr||[]).filter(s => !isBoilerplate(s));
-
-  // (5) analysis.facts가 빈 배열([])이면 배열 자체는 truthy라서 "분석 있음"으로 잘못 집계됐었다
-  // (실제 재현: analysis={facts:[]}가 분석 완료로 처리됨). 부속 문구를 걸러낸 뒤에도 실질적인
-  // 내용(정리된 facts 1개 이상, 또는 interpretation 텍스트)이 남아야 "분석 완료"로 센다.
-  const hasRealAnalysis = n => {
-    const a = n.analysis;
-    if(!a) return false;
-    const cleanFacts = cleanList(a.facts);
-    const hasInterp = typeof a.interpretation === 'string' && a.interpretation.trim().length > 0 && !isBoilerplate(a.interpretation);
-    return cleanFacts.length > 0 || hasInterp;
-  };
-  const analyzed = recentArticles.filter(x => hasRealAnalysis(x.n));
-  const pendingAnalysis = recentArticles.filter(x => !hasRealAnalysis(x.n));
-
-  const fmtTs = ts => (typeof ts === 'number' && ts > 0) ? new Date(ts*1000).toISOString().slice(0,16).replace('T',' ') + ' UTC' : '알수없음';
-  const fmtDate = ts => (typeof ts === 'number' && ts > 0) ? new Date(ts*1000).toISOString().slice(0,10) : '알수없음';
-
-  const collectionStatusLine = `<div class="sub" style="margin-bottom:6px;">수집 상태: ${
-    [
-      freshTickers.map(x=>`${esc(x.t)}(정상, 마지막 성공 ${esc(fmtTs(x.e._last_success_at))})`).join(' · '),
-      unknownTickers.length ? '⚠️ 확인 불가: ' + unknownTickers.map(x=>`${esc(x.t)}(${esc(x.freshnessReason||'-')})`).join(', ') : '',
-      failedTickers.length ? '⚠️ 수집 실패: ' + failedTickers.map(x=>esc(x.t)).join(', ') : '',
-    ].filter(Boolean).join(' · ') || '없음'
-  }</div>`;
-
-  const TONE_LABEL = {positive:'긍정', risk:'위험', mixed:'혼재', neutral:'중립'};
-  const renderAnalyzedCard = ({t, n}) => {
-    const a = n.analysis;
-    const tone = a.tone || 'neutral';
-    const li = arr => { const c = cleanList(arr); return c.length ? `<ul>${c.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>` : '<span class="sub" style="font-size:11.5px;">-</span>'; };
-    const safeUrl = /^https?:\/\//i.test(n.url||'') ? n.url : null;
-    const headline = esc(n.headlineKo || n.headline || '');
-    const importanceTag = a.importance==='high' ? `<em class="news-importance-pill">중요</em>` : '';
-    const openAttr = a.importance==='high' ? ' open' : '';
-    // [2026-09-22 신규 -- item4: "오래된 중요 사건은 '오늘 뉴스'가 아니라 '영향 지속 이슈'로"]
-    // 새 지속성 판정을 만들지 않는다 -- 기사일(n.datetime)이 오늘(로컬 UTC 기준)이 아니면서도
-    // 아직 RECENT_DAYS 창 안에 있다는(=계속 최근 목록에 남아있다는) 이미 있는 사실만으로 표시한다.
-    const isToday = typeof n.datetime === 'number' && (nowSec - n.datetime) < 86400;
-    const ongoingTag = (!isToday && a.importance==='high') ? `<em class="news-importance-pill" style="background:#fff3cd;color:#8a6d00;">영향 지속 이슈</em>` : '';
-    const interp = (a.interpretation && !isBoilerplate(a.interpretation)) ? a.interpretation : null;
-    return `
-      <article class="news-card tone-${tone}">
-        <details${openAttr}>
-          <summary style="cursor:pointer;list-style:revert;">
-            <span class="news-card-head" style="display:inline-flex;">
-              <span>[${esc(t)}] 기사일 ${esc(fmtDate(n.datetime))} · 분석 작성 ${esc(fmtTs(a.analysisUpdatedAt))}</span>
-              <span class="news-auto-tag news-auto-${tone}">${TONE_LABEL[tone]||tone}</span>
-            </span>
-            <h3 style="display:inline;margin-left:6px;">${headline}${importanceTag}${ongoingTag}</h3>
-          </summary>
-          <div class="news-card-columns" style="margin-top:10px;">
-            <div><b>핵심내용 분석</b>${li(a.facts)}</div>
-            <div><b>왜 중요한가</b>${li(a.why)}</div>
-            <div><b>초보자용 정리</b>${li(a.beginner)}</div>
-          </div>
-          ${(interp || a.decision) ? `<div class="news-card-interp">
-            ${interp ? `<b>투자자용 해석</b><p>${esc(interp)}</p>` : ''}
-            ${a.decision ? `<strong>${esc(a.decision)}</strong>` : ''}
-          </div>` : ''}
-          ${(a.watch && a.watch.length) ? `<div class="news-card-action"><b>다음 확인 포인트</b><span>${a.watch.map(esc).join(' · ')}</span></div>` : ''}
-          <div class="sub" style="margin-top:8px;">근거 품질: ${esc(a.quality||a.certainty||'-')} · 규칙 기반 키워드 분류·문장 추출 요약(LLM 추론이 아님, 이 프로젝트가 재검증하지 않음)</div>
-          ${safeUrl ? `<div class="sub" style="margin-top:4px;"><a href="${esc(safeUrl)}" target="_blank" rel="noopener noreferrer nofollow">${esc(n.source||'출처')} 원문 보기</a></div>` : ''}
-        </details>
-      </article>`;
-  };
-  const analyzedCards = analyzed.map(renderAnalyzedCard).join('');
-
-  const pendingList = pendingAnalysis.length
-    ? `<div class="sub" style="margin:6px 0;">분석 대기 중인 최근 기사 ${pendingAnalysis.length}건(기사는 수집됐지만 아직 개별 분석이 안 붙었거나, 추출된 내용이 부속 문구뿐이었어요 -- 다음 자동 실행 때 채워질 수 있어요):<ul style="margin:4px 0 0 16px;padding:0;">${
-        pendingAnalysis.slice(0,5).map(({t,n}) => {
-          const safeUrl = /^https?:\/\//i.test(n.url||'') ? n.url : null;
-          const headline = esc(n.headlineKo || n.headline || '');
-          const inner = safeUrl ? `<a href="${esc(safeUrl)}" target="_blank" rel="noopener noreferrer nofollow">${headline}</a>` : headline;
-          return `<li>[${esc(t)}] ${inner} <span class="sub" style="font-size:10.5px;">(${esc(fmtDate(n.datetime))})</span></li>`;
-        }).join('')
-      }</ul></div>`
-    : '';
-
-  let bodyHtml;
-  if(analyzedCards){
-    bodyHtml = analyzedCards + pendingList;
-  } else if(recentArticles.length){
-    // 기사는 있지만(수집 정상) 전부 분석 대기 상태
-    bodyHtml = `<div class="sub" style="margin:6px 0;color:var(--warn);">⚠️ 분석 대기: 최근 ${RECENT_DAYS}일 안에 수집된 기사는 있지만 아직 어느 것도 개별 분석이 붙지 않았어요.</div>` + pendingList;
-  } else if(unknownTickers.length && !freshTickers.length){
-    bodyHtml = `<div class="sub" style="color:var(--warn);">⚠️ 확인 불가: 마지막 수집 성공 시각을 확인할 수 없거나 너무 오래돼서(${unknownTickers.map(x=>`${esc(x.t)}: ${esc(x.freshnessReason||'-')}`).join(', ')}) "신규 기사 없음"을 정상 상태로 단정할 수 없어요.</div>`;
-  } else if(failedTickers.length && !freshTickers.length){
-    bodyHtml = `<div class="sub" style="color:var(--warn);">⚠️ 수집 실패: 오늘 자동 뉴스 수집이 실패해서 최신 기사를 확인할 수 없어요(${failedTickers.map(x=>esc(x.t)).join(', ')}). 재시도는 다음 자동 실행 때 이뤄져요.</div>`;
-  } else {
-    bodyHtml = `<div class="sub">ℹ️ 신규 기사 없음: 최근 ${RECENT_DAYS}일 안에는 관리종목·시장 관련 새 기사가 수집되지 않았어요(수집 자체는 정상이고 최신이에요 -- 실제로 조용한 기간일 수 있어요).</div>`;
-  }
-
-  // [2026-09-22 신규 -- item3: "관세·수출규제·금리·물가·정책·지정학처럼 특정 관리종목에 매여
-  // 있지 않은 시장 전체 사건도 포함"] 위 AUTO_TICKERS 확장은 여전히 "종목에 달린 기사"만 다룬다
-  // -- 연준 금리결정처럼 어느 개별 종목에도 안 달린 사건은 위 목록에 절대 안 뜬다. 새 수집·분류
-  // 로직을 만들지 않고, 이미 update_market()이 매 주기 Finnhub 일반 뉴스로 수집해 market_data.js에
-  // 저장해 둔 MARKET_DATA.news(비종목 시장 헤드라인)를 그대로 가져와 보여준다. 이 자료는 이
-  // 프로젝트가 개별 기사 단위로 검토·발언·확정시행을 분류하거나 사실 검증을 한 적이 없으므로,
-  // "확정 사실"처럼 해석을 붙이지 않고 헤드라인·출처·기사일만 그대로 노출한다(사용자 명시 경고:
-  // "원문 확인 없이 문장을 그대로 확정 사실로 넣지는 마세요").
-  const generalNews = (typeof MARKET_DATA !== 'undefined' && MARKET_DATA && Array.isArray(MARKET_DATA.news)) ? MARKET_DATA.news : [];
-  const shownUrls = new Set(recentArticles.map(x => x.n.url).filter(Boolean));
-  const recentGeneral = generalNews.filter(n =>
-    typeof n.datetime === 'number' && n.datetime >= cutoffSec && n.datetime <= nowSec && !shownUrls.has(n.url)
-  ).sort((a,b) => (b.datetime||0) - (a.datetime||0)).slice(0, 8);
-  const generalNewsHtml = recentGeneral.length ? `
-    <details style="margin-top:10px;" open>
-      <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">종목에 안 달린 시장 전체 헤드라인(관세·금리·정책·지정학 등, 최근 ${RECENT_DAYS}일, 개별 분석 없음 -- 원문 그대로)</summary>
-      <div class="sub" style="margin:4px 0 6px;">이 목록은 개별 기사 검토·해석을 거치지 않은 원문 헤드라인이에요 -- 사실 확인·중요도 판단은 아직 안 돼 있어요. 검토 단계인지 확정 시행인지도 이 목록만으로는 구분되지 않으니, 실제 투자 판단 근거로 쓰기 전에 원문을 직접 확인하세요.</div>
-      <ul style="margin:0 0 0 16px;padding:0;">
-        ${recentGeneral.map(n => {
-          const safeUrl = /^https?:\/\//i.test(n.url||'') ? n.url : null;
-          const headline = esc(n.headlineKo || n.headline || '');
-          const inner = safeUrl ? `<a href="${esc(safeUrl)}" target="_blank" rel="noopener noreferrer nofollow">${headline}</a>` : headline;
-          return `<li style="margin:2px 0;">${inner} <span class="sub" style="font-size:10.5px;">(${esc(n.source||'출처 미상')} · ${esc(fmtDate(n.datetime))})</span></li>`;
-        }).join('')}
-      </ul>
-    </details>` : '';
-
-  // 기존 수동 로그(BUSINESS_NOTES.MARKET.newsLog)는 지우지 않고 날짜가 있는 과거 분석으로
-  // 접어서 보존한다 -- "오늘"이라는 제목으로 재노출하지 않고, 작성일을 그대로 드러낸다.
-  const manualNote = (typeof BUSINESS_NOTES !== 'undefined' && BUSINESS_NOTES && BUSINESS_NOTES.MARKET && (BUSINESS_NOTES.MARKET.newsLog||[]).length)
-    ? `<details style="margin-top:10px;"><summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">Claude가 과거에 수동으로 조사해서 쓴 시장 해석 보기(자동 수집이 아님, 날짜 그대로 표시)</summary>${renderNewsLog('MARKET', '시장(수동 조사 보존)', 3650)}</details>`
-    : '';
-
-  return `
-    <div class="chart-label" style="margin-top:0;">오늘의 시장 헤드라인 해석 ${hintIcon('newsLog')}</div>
-    <div class="sub" style="margin-bottom:6px;">관리종목 전체(${esc(String(AUTO_TICKERS.length))}개, QQQ·SPY 포함)의 자동 수집·분석 결과예요(2026-09-22부터 QQQ·SPY로만 제한하던 걸 관리종목 전체로 넓혔어요). 개별 종목 뉴스라도 그 종목 자체에 중요하면 여기 나오고, 시장 전체 원인이라고 자동으로 확대하지 않아요. 이 프로젝트가 별도로 사실 검증한 건 아니고, buy_signal_telegram.py 실행 시 자동으로 만들어진 분석을 그대로 옮겨 보여줘요.</div>
-    ${collectionStatusLine}
-    ${bodyHtml}
-    ${generalNewsHtml}
-    ${manualNote}`;
+// MARKET_ISSUE_NEWS_V1: issue selection is independent of price scans/results.
+// Topic ordering is editorial navigation, not a predicted-return score.
+function marketIssueText(value){
+  return typeof value === 'string' ? value.replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim() : '';
 }
+function marketIssueProfile(n){
+  const text = `${marketIssueText(n.headline)} ${marketIssueText(n.headlineKo)}`;
+  const has = re => re.test(text);
+  const topic = (key,label,rank,impact,watch) => ({key,label,rank,impact,watch});
+  const recap = has(/stock market today|market wrap|stock futures|stocks (rise|fall|gain)|s&p 500.*(record|8,000)|주식 시장:|시장 마감/i);
+  const direct = recap ? -12 : 0;
+  if(has(/tariff|export (curb|control|ban|restrict)|sanction|관세|수출.{0,6}(규제|제한|통제)|제재/i))
+    return topic('trade','관세·수출규제',95+direct,'규제가 강화되면 수출 가능 매출과 원가에 부담이 생기고, 면제·완화되면 부담이 줄 수 있습니다. 적용 대상과 시행 시점에 따라 기업별 영향이 달라집니다.','발언·검토·공식 시행 구분 / 대상 국가·품목 / 면제 조건');
+  if(has(/\bfomc\b|federal reserve|\bfed\b|interest rate|rate (cut|hike)|inflation|\bcpi\b|\bpce\b|payroll|연준|금리|인플레|물가|고용지표/i))
+    return topic('rates','금리·물가·고용',100+direct,'금리와 물가 전망이 바뀌면 기업의 자금조달 비용과 주식에 적용되는 배수가 함께 달라질 수 있습니다. 인하는 성장주에 우호적일 수 있지만 경기 둔화가 원인인지도 봐야 합니다.','실제 발표값과 시장 예상의 차이 / 국채금리 반응 / 다음 정책 일정');
+  if(has(/iran|hormuz|mideast|middle east|ukraine|ceasefire|crude|\boil\b|이란|호르무즈|중동|우크라이나|휴전|유가|원유/i))
+    return topic('geopolitics','지정학·원유·운송',90+direct,'분쟁·해상 운송 차질이 커지면 유가·물류비와 물가 부담이 높아질 수 있습니다. 협상 진전은 반대 경로지만, 발언과 실제 통항·공급 회복은 구분해야 합니다.','협상 제안인지 합의·이행인지 / 원유 공급·통항 / 유가·운임 반응');
+  if(has(/\bai\b|artificial intelligence|anthropic|openai|\bxai\b|data.?cent(er|re)|인공지능|앤트로픽|오픈ai|데이터센터|뮤즈/i) && has(/invest|spend|capex|demand|order|deal|model|develop|slow|launch|투자|수요|계약|개발|모델|출시|감속|조절/i))
+    return topic('ai','AI 투자·개발·수요',85+direct,'AI 투자·개발 계획의 변화는 반도체·메모리·전력·냉각 수요에 연결될 수 있습니다. 발표 금액이나 계획이 실제 주문과 집행으로 이어지는지가 핵심입니다.','계획과 확정 계약 구분 / 투자 집행 일정 / 공급업체 수주·실적');
+  if(has(/earnings|guidance|revenue|profit warning|outlook|실적|가이던스|매출|이익 전망/i))
+    return topic('earnings','기업 실적·전망 변화',80+direct,'실적과 회사 전망이 기존 기대에서 얼마나 달라졌는지가 중요합니다. 매출 변화뿐 아니라 마진·현금흐름과 다음 기간 전망을 함께 확인합니다.','공식 실적·가이던스 / 컨센서스 대비 차이 / 일회성 요인');
+  if(has(/acqui|merger|contract|partnership|equity stake|supply (deal|agreement)|인수|합병|공급계약|지분|파트너십|수주/i))
+    return topic('corporate','기업 계약·인수·공급망',70+direct,'계약·인수는 매출 기회와 자금 부담을 동시에 바꿀 수 있습니다. 논의 단계인지 확정됐는지, 실제 매출 인식 시점과 지급 조건을 확인해야 합니다.','확정 여부 / 금액·기간·취소 조건 / 자금조달과 실적 반영 시점');
+  if(has(/semiconductor|chip|nvidia|broadcom|tsmc|반도체|엔비디아|브로드컴/i))
+    return topic('chips','반도체 산업·시장 전망',55+direct,'산업 전망과 애널리스트 의견은 실제 수주·매출과 다를 수 있습니다. 이번 보도가 수요·공급 변화인지 주가 전망 의견인지 구분해 확인합니다.','회사 발표와 분석가 의견 구분 / 주문·공급 지표 / 이익 전망 변경');
+  return null;
+}
+function marketIssueIsEtfOnly(n){
+  const text = `${marketIssueText(n.headline)} ${marketIssueText(n.headlineKo)}`;
+  return /\betf\b|\bqqq\b|\bspy\b|exchange.traded/i.test(text) && !marketIssueProfile(n);
+}
+function marketIssueUrl(url){
+  try { const u = new URL(url); return /^(https?:)$/.test(u.protocol) ? u.href : ''; } catch { return ''; }
+}
+function marketIssueKey(n){
+  const title = marketIssueText(n.headline || n.headlineKo).toLowerCase().replace(/\s*[-–|]\s*(reuters|cnbc|yahoo).*$/i,'').replace(/[^a-z0-9가-힣]/g,'');
+  return title || marketIssueUrl(n.url);
+}
+function buildMarketIssueGroups(market, news, nowSec){
+  const recent = 72*3600, candidates = [], sources = [];
+  const freshness = (stamp) => Number.isFinite(stamp) && stamp > 0 && stamp <= nowSec && nowSec-stamp <= recent;
+  const newsStamp = market && (market._news_last_success_at || market._last_success_at);
+  const generalFailed = market && (market._news_collection_status === 'error' || (market._collection_errors||[]).includes('시장 헤드라인'));
+  sources.push({label:'시장 뉴스', fresh:!generalFailed && freshness(newsStamp), stamp:newsStamp});
+  const add = (n,ticker,sourceFresh) => {
+    if(!n || !Number.isFinite(n.datetime) || n.datetime <= 0 || n.datetime > nowSec || nowSec-n.datetime>recent) return;
+    if(!marketIssueText(n.headline || n.headlineKo) || marketIssueIsEtfOnly(n)) return;
+    const profile = marketIssueProfile(n);
+    // ETF/index feed membership never gives an article priority. Keep real events from any feed.
+    if(!profile && ticker !== 'MARKET') return;
+    candidates.push({n,ticker,sourceFresh,profile:profile || {key:'other',label:'기타 시장 소식',rank:10,impact:'구체적인 실적·금리·수급 연결 근거를 확인하기 전에는 시장 전체 방향으로 해석하지 않습니다.',watch:'원문에서 사건·의견 구분 / 영향받는 사업·시장 확인'}});
+  };
+  (Array.isArray(market && market.news)?market.news:[]).forEach(n=>add(n,'MARKET',sources[0].fresh));
+  Object.entries(news || {}).forEach(([ticker,e])=>{
+    if(!e || !Array.isArray(e.news)) return;
+    const fresh = (!e._collection_status || e._collection_status==='ok') && freshness(e._last_success_at);
+    sources.push({label:ticker,fresh,stamp:e._last_success_at});
+    e.news.forEach(n=>add(n,ticker,fresh));
+  });
+  // Prefer substantive source summaries on identical articles, never merge different event claims.
+  const richness = x => marketIssueText(x.n.summaryKo || x.n.summary || x.n.description).length;
+  candidates.sort((a,b)=>richness(b)-richness(a) || Number(b.sourceFresh)-Number(a.sourceFresh));
+  const seenTitles = new Set(), seenUrls = new Set(), unique = [];
+  candidates.forEach(x=>{
+    const key=marketIssueKey(x.n), url=marketIssueUrl(x.n.url);
+    if((key && seenTitles.has(key)) || (url && seenUrls.has(url))) return;
+    if(key) seenTitles.add(key); if(url) seenUrls.add(url); unique.push(x);
+  });
+  unique.sort((a,b)=>b.profile.rank-a.profile.rank || b.n.datetime-a.n.datetime);
+  const groups=[];
+  unique.forEach(x=>{
+    let g=groups.find(g=>g.key===x.profile.key);
+    if(!g){g={...x.profile,articles:[]};groups.push(g);}
+    g.articles.push(x);
+  });
+  return {groups,sources,articleCount:unique.length};
+}
+function rememberMarketIssuesOpen(el){
+  try { localStorage.setItem('compass_market_issues_open_v1',el.open?'1':'0'); } catch {}
+}
+function renderMarketNewsAuto(){
+  const market = typeof MARKET_DATA!=='undefined' && MARKET_DATA ? MARKET_DATA : {};
+  const news = typeof NEWS_DATA!=='undefined' && NEWS_DATA ? NEWS_DATA : {};
+  const model = buildMarketIssueGroups(market,news,Date.now()/1000);
+  const safe = s => esc(marketIssueText(s));
+  const fmt = ts => Number.isFinite(ts) && ts>0 ? new Date(ts*1000).toISOString().slice(0,16).replace('T',' ')+' UTC' : '확인 안 됨';
+  const clean = s => {const t=marketIssueText(s);return /accessibility help|skip to content|subscribe|개인정보 처리방침|내용으로 건너뛰기/i.test(t)?'':t;};
+  const article = (x, related=false) => {
+    const n=x.n, title=marketIssueText(n.headlineKo || n.headline), url=marketIssueUrl(n.url);
+    const a=n.analysis && !['QQQ','SPY'].includes(x.ticker) ? n.analysis : null;
+    const facts = a && Array.isArray(a.facts) ? a.facts.map(clean).filter(s=>s && s!==title && s!==marketIssueText(n.headline) && !/제목만으로|^\||YTD|at close|종가 S&P/i.test(s)).slice(0,2) : [];
+    const summary=clean(n.summaryKo || n.summary || n.description);
+    const summaryText=summary || facts.join(' ');
+    const hasBody=!!summaryText;
+    const body=hasBody ? summaryText.slice(0,650) : title;
+    return `<article class="market-issue-article" style="padding:${related?'10px 0':'0'};overflow-wrap:anywhere;">
+      <div class="sub" style="font-size:11px;">${safe(n.source||'출처 미상')} · ${safe(fmt(n.datetime))}${!x.sourceFresh?' · 수집 갱신 확인 필요':''}</div>
+      <h3 style="font-size:14px;line-height:1.6;margin:5px 0 8px;">${safe(title)}</h3>
+      ${hasBody?`<p style="font-size:13px;line-height:1.75;margin:6px 0;"><b>보도 요약</b> · ${safe(body)}</p>`:''}
+      <div class="sub" style="font-size:11px;">${hasBody ? (summary?'뉴스 공급자가 제공한 요약 · 한글은 자동 번역':'기존 기사 분석에서 추출한 내용') : '제목에서 확인되는 내용만 표시 · 본문 요약 미확보'}</div>
+      ${!related?`<p style="font-size:13px;line-height:1.75;margin:9px 0;"><b>시장에 미칠 수 있는 영향</b><br>${safe(x.profile.impact)}</p><div style="font-size:12px;line-height:1.7;"><b>다음 확인</b> · ${safe(x.profile.watch)}</div>`:''}
+      ${url?`<a style="display:inline-block;margin-top:8px;font-size:12px;" href="${safe(url)}" target="_blank" rel="noopener noreferrer nofollow">원문 보기 ↗</a>`:''}
+      ${n.headlineKo || n.summaryKo?`<details style="margin-top:6px;"><summary style="cursor:pointer;font-size:11px;">번역 전 제목·요약</summary><div class="sub" style="line-height:1.7;">${safe(n.headline)}${n.summary?`<p>${safe(n.summary)}</p>`:''}</div></details>`:''}
+    </article>`;
+  };
+  const cards=model.groups.map(g=>`<section class="market-issue-group" style="margin:10px 0;padding:14px;background:var(--bg,#f8f8f6);border:1px solid var(--line,#ddd);border-radius:12px;min-width:0;">
+    <div style="font-size:12px;font-weight:700;margin-bottom:8px;color:var(--accent,#306db3);">${safe(g.label)} · ${g.articles.length}건</div>
+    ${article(g.articles[0])}
+    ${g.articles.length>1?`<details style="margin-top:10px;"><summary style="cursor:pointer;font-size:12px;">같은 주제의 다른 보도 ${g.articles.length-1}건</summary><div class="sub" style="margin-top:6px;">같은 주제의 별도 보도입니다. 발언·협상·실행 여부는 각각 확인하세요.</div>${g.articles.slice(1).map(x=>article(x,true)).join('')}</details>`:''}
+  </section>`).join('');
+  const status=model.sources.filter(x=>!x.fresh).length;
+  let open=false; try {open=localStorage.getItem('compass_market_issues_open_v1')==='1';} catch {}
+  const manual=(typeof BUSINESS_NOTES!=='undefined' && BUSINESS_NOTES?.MARKET?.newsLog?.length)
+    ? `<details style="margin-top:12px;"><summary style="cursor:pointer;">이전 수동 시장 해석 보관함</summary>${renderNewsLog('MARKET','이전 시장 해석',3650)}</details>`:'';
+  return `<details id="marketIssueNews" data-news-version="issue-first-v1" ${open?'open':''} ontoggle="rememberMarketIssuesOpen(this)" style="margin-top:8px;">
+    <summary style="cursor:pointer;font-size:14px;font-weight:700;line-height:1.8;">시장 주요 이슈 · 요약과 해석 보기 <span class="sub" style="font-size:12px;font-weight:400;">최근 72시간 · ${model.groups.length}개 주제</span></summary>
+    <p class="sub" style="line-height:1.7;">금리·정책·지정학과 기업의 주요 사건을 우선합니다. 보도 요약과 조건부 영향 해석을 구분하며, 영향 설명은 주가 예측이 아닙니다.</p>
+    ${cards || '<p class="sub">최근 72시간 이슈 자료가 없습니다. 마지막 수집 상태를 아래에서 확인하세요.</p>'}
+    <details style="margin-top:10px;"><summary style="cursor:pointer;font-size:12px;">수집 상태${status?` · ${status}개 경로 갱신 확인 필요`:''}</summary><div class="sub" style="line-height:1.8;">${model.sources.map(x=>`${safe(x.label)} · 마지막 성공 ${safe(fmt(x.stamp))} · ${x.fresh?'최근 수집 확인':'갱신 확인 필요'}`).join('<br>')}</div></details>
+    ${manual}
+  </details>`;
+}
+// END_MARKET_ISSUE_NEWS_V1
+
 function renderNewsLog(ticker, label, recentDays){
   const n = (typeof BUSINESS_NOTES !== 'undefined' && BUSINESS_NOTES) ? BUSINESS_NOTES[ticker] : null;
   const log = n && n.newsLog;
