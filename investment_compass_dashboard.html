@@ -3289,8 +3289,11 @@ function buildAtAGlanceHtml(r){
     ? `<div class="sub" style="margin:2px 0 6px;">단기 기술적 관심(가격 눌림목 신호)과 장기 보유수익 조건은 서로 다른 질문에 대한 답이에요 -- 하나로 합쳐서 "매수"로 읽지 마세요.</div>`
     : '';
 
+  // [2026-09-24 수정 -- 화면 재검토 U5] 바로 위 decisionSummaryHtml 배너가 이미 이
+  // d.headlineReason 전체 문장을 보여주므로, 여기서 같은 문장을 통째로 반복하지 않는다
+  // (Codex 지적: "첫 배너와 다음 요약에서 같은 설명이 반복된다"). 값 자체는 그대로 두고
+  // 중복 표시만 없앤다 -- 아래 보조 정보(점수·신호·EPS 방향·뉴스)는 그대로 유지한다.
   const lines = [];
-  lines.push(`<b>${esc(d.headlineReason)}</b>`);
   // 2026-09-20 추가(Codex 독립검토) - 보조 지표(역산 기대성장률)가 없는 이유를 목록·팝업·상세가
   // 전부 같은 문구로 보여준다(판단 자체를 막지는 않음 - 위 headlineReason은 이미 정상 판단임).
   if(d.expectationsNote) lines.push(`<span class="sub" style="font-weight:400;">(참고: 역산 기대성장률 보조지표는 계산되지 않았어요 - ${esc(d.expectationsNote.reason)})</span>`);
@@ -3325,7 +3328,7 @@ function buildAtAGlanceHtml(r){
   const perDevSignal = perDev!=null ? (Math.abs(perDev)<3 ? null : (perDev>0 ? 'high' : 'low')) : null;
   const fairSignal = hasFwd ? (belowFair ? 'low' : 'high') : null;
   const mismatchNote = (fairSignal && perDevSignal && fairSignal!==perDevSignal)
-    ? `<div class="sub" style="margin-top:8px;">ℹ️ 바로 위 '기준가 대비'는 <b>내년 예상 실적 기준</b> 계산이고, 02탭의 PER 비교는 <b>이 종목 자신의 최근 3년 평균</b>과 비교한 거예요 - 비교 기준이 서로 달라서 방향이 다르게 나올 수 있어요(계산이 틀린 게 아니에요). 자세한 건 02탭에서 확인하세요.</div>`
+    ? `<div class="sub" style="margin-top:8px;">ℹ️ 아래 접힌 '기존 시나리오 보기'의 PER 유지 기준가 비교는 <b>내년 예상 실적 기준</b> 계산이고, 02탭의 PER 비교는 <b>이 종목 자신의 최근 3년 평균</b>과 비교한 거예요 - 비교 기준이 서로 달라서 방향이 다르게 나올 수 있어요(계산이 틀린 게 아니에요). 자세한 건 02탭에서 확인하세요.</div>`
     : '';
 
   const warnParts = [];
@@ -6017,8 +6020,8 @@ function renderFairValueSection(r){
         지금 주가 <b>$${price.toFixed(2)}</b>는 그 기준가보다
         <b>${Math.abs(discountPct).toFixed(0)}% ${cheaper?'낮아요':'높아요'}</b>.
         <span style="font-weight:400;">${cheaper
-          ? `이 기준가의 배수 자체가 오늘 주가에서 역산한 값이라, 독립적인 저평가 신호가 아니라 <b>내년 예상 성장분이 아직 지금 가격에 반영되지 않았다는 뜻</b>에 가까워요.`
-          : `이 기준가의 배수 자체가 오늘 주가에서 역산한 값이라, 독립적인 고평가 신호가 아니라 <b>내년 예상 성장분보다 지금 가격이 이미 더 앞서 있다는 뜻</b>에 가까워요.`}</span>
+          ? `이 기준가의 배수 자체가 오늘 주가에서 역산한 값이라, 독립적인 저평가 신호가 아니라 <b>내년 예상 EPS가 올해보다 높다는 뜻일 뿐</b>이에요 -- PER 유지 계산만으로는 시장이 그 성장을 얼마나 반영했는지 알 수 없어요.`
+          : `이 기준가의 배수 자체가 오늘 주가에서 역산한 값이라, 독립적인 고평가 신호가 아니라 <b>내년 예상 EPS가 올해보다 낮거나 증가폭이 작다는 뜻일 뿐</b>이에요 -- PER 유지 계산만으로는 시장이 그 성장을 얼마나 반영했는지 알 수 없어요.`}</span>
         <br><span style="font-weight:400;color:var(--sub);">⚠️ 검증 결과 이 저평가/고평가 여부는 이후 수익률을 예측하지 못했어요(오히려 반대 방향이었음 - 아래 경고 참고) - "그래서 사야 한다"는 뜻은 아니에요.</span>
         <br><span style="font-weight:400;color:var(--sub);">⚠️ 위 %(${Math.abs(discountPct).toFixed(0)}%)는 <b>기준가를 분모</b>로 잡은 값이라, 종목 목록 표의 '기준가 대비' 열(현재가를 분모로 잡음)과는 계산 기준이 달라 같은 종목이라도 숫자가 다르게 보여요 - 서로 비교하지 마세요. 또한 이 기준가(anchorPe 방식)는 수학적으로 내년 EPS 성장률과 거의 같은 값이라(성장률이 높을수록 기준가도 같이 높아짐) "적정가"라고 부를 수 없는 시나리오 가격이고, '가격 타당성' 배지(과거 PER·성장률 역산 방식)와 서로 다른 결론(예: 한쪽은 고평가, 다른 쪽은 저평가 쪽)이 나올 수 있어요 - 둘 다 참고용 지표이고 계산 방식이 달라서 생기는 정상적인 차이입니다.</span>
       </div>`;
