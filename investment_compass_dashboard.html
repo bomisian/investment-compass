@@ -872,7 +872,14 @@ function getChartSeries(ticker){
 }
 async function setChartTimeframe(ticker, tf){
   chartTimeframe = tf;
-  chartUseLongHistory = true; // 사용자가 일/주/월/연봉 버튼을 직접 눌렀을 때만 장기 데이터로 전환
+  // [2026-09-24 수정 -- 24번 독립검토 확인3] 주석의 원래 의도('사용자가 일/주/월/연봉 버튼을
+  // 직접 눌렀을 때만 장기 데이터로 전환')와 달리, 이전 코드는 D(일봉) 포함 네 버튼 전부에서
+  // 무조건 true로 고정했다. 그 결과 W/M/Y에서 장기 데이터 조회가 실패한 뒤 사용자가 다시
+  // 일봉을 눌러도 chartUseLongHistory가 true로 남아 있어, getChartSeries의 빠른 기본 경로
+  // (D이면서 !chartUseLongHistory일 때 r.series를 즉시 반환)를 못 타고 또 longHistoryCache를
+  // 요구해 로딩 문구가 다시 뜨는 현상(Codex 24번 검토 재현)의 원인으로 보인다. 계산·차트
+  // 렌더 로직은 그대로 두고, D를 선택했을 때만 false로 되돌린다.
+  chartUseLongHistory = (tf !== 'D');
   chartZoom = { span: null, center: null }; // 타임프레임이 바뀌면 인덱스 의미가 달라지므로 리셋
   chartPinnedIdx = null;
   if(!longHistoryCache[ticker]){
