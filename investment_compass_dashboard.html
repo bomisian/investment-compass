@@ -3656,7 +3656,28 @@ function decisionSummaryHtml(r){
 function renderJudgementConclusionCard(r){
   const d = r.decision || computeDecisionViewModel(r);
   const meta = DECISION_STATUS_META[d.status] || DECISION_STATUS_META.unavailable;
-  const {label: badgeLabel, bg: bannerBg, color: bannerColor} = composedDecisionLabel(r, d, meta.label);
+  const {bg: bannerBg, color: bannerColor} = composedDecisionLabel(r, d, meta.label);
+  // [2026-09-24 수정 -- 24번 독립검토 필수1] status가 review(기술적 관심 경로)일 때 공용 배지
+  // 라벨 "매수 검토"를 이 결론 카드에서만 "기술적 관심 있음"으로 바꿔 표시한다 -- 목록·팝업
+  // 배지(decisionStatusBadgeHtml)는 이번에 건드리지 않는다(사이트 전체 라벨 변경은 이번
+  // 요청 범위 밖). 위험 우선·조건 대기·판단 보류는 그 이유 자체가 핵심 정보라 라벨을 바꾸지
+  // 않는다(24번 독립검토: "그 상태들은 이유 자체가 핵심 정보이므로 줄이지 않는다").
+  const cardLabel = d.status === 'review' ? '기술적 관심 있음' : meta.label;
+
+  const fin = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA[r.ticker] : null;
+  const fd = fin ? computeFinancialDirection(r, fin) : null;
+  const bizPhraseForReason = !fd ? '실적 자료 미확인'
+    : (fd.latestQuarterRevenueMissing || fd.latestQuarterOpIncomeMissing) ? '최신 분기 실적 미확인'
+    : esc(fd.verdict);
+  // [2026-09-24 수정 -- 24번 독립검토 필수1] review 상태의 d.headlineReason은 기술적 신호·
+  // 실적 방향·독립 평가 모델(DCF) 존재 여부까지 한 문장에 다 담아 카드가 길고 아래 "가격 매력도
+  // 미판정" 문구와 함께 서로 다른 결론처럼 읽혔다. 계산(headlineReason 값 자체)은 바꾸지 않고,
+  // 이 카드에 보여줄 문구만 review일 때 짧게 재구성한다 -- 원문 전체는 배지 title(마우스 오버)
+  // 로 그대로 남긴다. risk_first·wait·unavailable은 이유 자체가 핵심 정보라 원문을 그대로 쓴다.
+  const reasonHtml = d.status === 'review'
+    ? `최근 분기 실적·전망은 <b>${bizPhraseForReason}</b> 상태이고, 가격 눌림목 조건에 따른 <b>기술적 관심</b>이 있어요.`
+    : esc(d.headlineReason);
+
   const checksHtml = (d.nextChecks && d.nextChecks.length)
     ? `<div class="sub" style="margin-top:6px;">다음에 확인하면 재평가돼요: ${d.nextChecks.map(c=>esc(c)).join(' · ')}</div>`
     : '';
@@ -3672,11 +3693,9 @@ function renderJudgementConclusionCard(r){
   if(isWeakSector) warnParts.push(`⚠️ 같은 그룹(${esc(rs.sector)}) 대비 최근 20일 크게 뒤처져 있어요`);
   const warnHtml = warnParts.map(w=>`<div class="glance-warn">${w}</div>`).join('');
   return `<div class="comment-box" style="background:${bannerBg};color:${bannerColor};border:1px solid ${bannerColor}33;margin-bottom:12px;">
-    <div style="font-weight:700;margin-bottom:4px;"><span class="badge" style="background:${bannerColor};color:#fff;">${esc(badgeLabel)}</span> <span style="font-weight:400;font-size:11px;color:var(--sub);">(가격·실적·현금흐름·데이터 상태를 종합한 판정 · policy v${d.policyVersion})</span></div>
-    <div style="font-size:13.5px;line-height:1.7;">${esc(d.headlineReason)}</div>
-    <div style="margin-top:8px;padding-top:8px;border-top:1px dashed ${bannerColor}55;font-size:13px;line-height:1.7;">
-      <b>가격 매력도: 아직 판정하지 못했어요.</b> 위 판정은 사업·실적·데이터 상태를 종합한 것이지, 검증된 적정가 대비 저평가·고평가를 확정한 게 아니에요. 가격이 눌려 있다는 사실만으로 저평가라고 볼 수는 없어요 - 아래 '계산 방법과 다른 가격 시나리오'에 검증 전 참고 모델들이 있어요.
-    </div>
+    <div style="font-weight:700;margin-bottom:6px;"><span class="badge" style="background:${bannerColor};color:#fff;" title="${esc(d.headlineReason)} (policy v${d.policyVersion})">${esc(cardLabel)}</span></div>
+    <div style="font-size:14px;font-weight:700;margin-bottom:4px;">가격 매력도: 아직 판정하지 못했어요.</div>
+    <div style="font-size:13.5px;line-height:1.7;">${reasonHtml}</div>
     ${checksHtml}
     ${expNoteHtml}
     ${warnHtml}
@@ -3708,15 +3727,39 @@ function renderFourLineEvidenceCard(r){
   const ddItem = (b.items||[]).find(it=>it.key==='drawdown');
   const posText = ddItem ? `52주 종가 고점대비 ${esc(ddItem.valueText)} · 점수기여 +${ddItem.points}점` : '자료 없음';
 
+  // [2026-09-24 수정 -- 24번 독립검토 필수2] 자료가 아예 없어서(뉴스 로그 없음·동종그룹 비교
+  // 불가·실적 자료 미연결) 위험 신호를 "발견하지 못한" 경우와, 실제로 세 항목을 다 확인했는데
+  // 위험이 없는 경우를 구분하지 않고 둘 다 "특이 위험 신호 없음"으로 출력하던 결함을 고친다.
+  // 계산(dc/rs/fd 자체)은 바꾸지 않고, 각 신호를 위험/정상/미확인 세 상태로 나눠서 표시만
+  // 분리한다. 실제 함수로 결측 상태 2건(전체 미확인 / 일부 위험+일부 미확인)을 넣어 확인함.
   const dc = getDirectionCheck(r.ticker);
   const isRisk = dc && dc.tone==='risk';
+  const notesForTicker = (typeof BUSINESS_NOTES !== 'undefined') ? BUSINESS_NOTES[r.ticker] : undefined;
+  const newsUnconfirmed = !notesForTicker || !notesForTicker.newsLog || !notesForTicker.newsLog.length;
+
   const rs = computeRelStrength(r);
   const isWeakSector = isRelWeak(rs);
+  const groupUnconfirmed = !rs;
+
+  const bizUnconfirmed = !fd || fd.latestQuarterRevenueMissing || fd.latestQuarterOpIncomeMissing;
+
   const riskParts = [];
-  if(isRisk) riskParts.push('최근 뉴스에 우려되는 부분 있음');
-  if(isWeakSector) riskParts.push(`같은 그룹(${rs.sector}) 대비 최근 20일 뒤처짐`);
-  if(fd && fd.verdict === '매출·수익성 동반 둔화') riskParts.push('매출·수익성 동반 둔화');
-  const riskText = riskParts.length ? esc(riskParts.join(' · ')) : '특이 위험 신호 없음';
+  const unconfirmedParts = [];
+  if(newsUnconfirmed) unconfirmedParts.push('뉴스 미확인');
+  else if(isRisk) riskParts.push('최근 뉴스에 우려되는 부분 있음');
+  if(groupUnconfirmed) unconfirmedParts.push('그룹비교 미확인');
+  else if(isWeakSector) riskParts.push(`같은 그룹(${rs.sector}) 대비 최근 20일 뒤처짐`);
+  if(bizUnconfirmed) unconfirmedParts.push('실적 미확인');
+  else if(fd.verdict === '매출·수익성 동반 둔화') riskParts.push('매출·수익성 동반 둔화');
+
+  let riskText;
+  if(riskParts.length){
+    riskText = esc(riskParts.join(' · ')) + (unconfirmedParts.length ? ` <span style="color:var(--sub);">(미확인: ${esc(unconfirmedParts.join('·'))})</span>` : '');
+  } else if(unconfirmedParts.length){
+    riskText = `확인 가능한 위험 없음 <span style="color:var(--sub);">(미확인: ${esc(unconfirmedParts.join('·'))})</span>`;
+  } else {
+    riskText = '확인한 항목(뉴스·그룹비교·실적)에서 추가 경고 없음';
+  }
 
   return `<div class="comment-box" style="background:var(--panel-2);margin-bottom:12px;">
     <div class="fund-row"><span style="color:var(--sub);">사업</span><span class="v">${bizText}</span></div>
