@@ -3840,8 +3840,33 @@ function renderFourLineEvidenceCard(r){
     } else {
       priceText = `단일 비교기업(${esc(sc.peerTicker||'')}) 참고가격 보류 -- ${esc(sc.reason||'사유 미상')}`;
     }
+  } else if(iv && iv.priceMultipleDiagnosticOnly && iv.priceMultipleDiagnosticOnly.ok){
+    // [2026-09-24 수정 -- 34번 배치, Codex 1번 지적] 이 분기를 relativeValueBand 보류
+    // 분기보다 먼저 검사하도록 순서를 바꿨다. 예전 순서는 PWR/SNDK처럼 다중peer 밴드는
+    // 항상 보류(0개 peer 통과)인데 peer가 필요 없는 자기배수 A진단은 실제로 계산 가능한
+    // 종목에서, 밴드보류 분기가 먼저 걸려 새로 계산된 A진단 값이 화면에 아예 안 나타나고
+    // 항상 "비교가격 미지원(보류중)"만 보이는 결함이 있었다(Codex가 실제 생성물로 재현 --
+    // PWR/SNDK는 ALREADY_COVERED_TICKERS에서 통째로 제외돼 priceMultipleDiagnosticOnly
+    // 자체가 아예 없었음, patch39에서 그 제외 범위를 '실제 성공한 9종목'으로 좁혀 해결).
+    // A진단도 실패하면(예: ASML 통화불일치) 이 분기를 그냥 지나쳐 아래 밴드보류 분기로
+    // 자연스럽게 넘어간다('그대로 차단' 원칙 유지, 새 통화 예외 로직 없음).
+    const pmdOnly = iv.priceMultipleDiagnosticOnly;
+    const staleTag = pmdOnly.isStaleReference ? ' [과거 참고값]' : '';
+    const multOnly = pmdOnly.multiples || {};
+    const candOnly = (multOnly.ntm && multOnly.ntm.per!=null) ? multOnly.ntm : ((multOnly.fy_next && multOnly.fy_next.per!=null) ? multOnly.fy_next : ((multOnly.fy_current && multOnly.fy_current.per!=null) ? multOnly.fy_current : null));
+    const mdShortP = (iso)=> iso ? String(iso).slice(5,10).replace('-', '/') : '';
+    priceText = candOnly
+      ? `[비교기업 없음, A진단]${staleTag} ${esc(candOnly.period_label||'')} 예상 EPS $${candOnly.eps!=null?Number(candOnly.eps).toFixed(2):'-'} · 현재 가격은 ${candOnly.per.toFixed(2)}배 ($${pmdOnly.price!=null?Number(pmdOnly.price).toFixed(2):'-'}${pmdOnly.priceAsOf?`(${mdShortP(pmdOnly.priceAsOf)})`:''})`
+      : '가격 배수 진단 자료 없음(NTM/FY1/FY0 모두 산출 불가)';
   } else if(rvForPrice && rvForPrice.available === false && rvForPrice.withheldReason){
     priceText = `비교가격 미지원(보류중) -- ${esc(rvForPrice.withheldReason)}`;
+  } else if(iv && iv.priceMultipleDiagnosticOnly){
+    // [2026-09-24 신규 -- 33번 배치, Codex 1번 지적, 34번에서 순서 재배치] 위에서 ok===true는
+    // 이미 처리됐으므로 여기 도달하는 건 A진단도 보류인 경우다(예: TSM 통화불일치, 또는
+    // relativeValueBand 자체가 없는 종목의 A진단 보류). relativeValueBand도 없어서 바로
+    // 위 밴드보류 분기를 지나친 경우에만 도달한다(TSM처럼 아예 밴드 시도가 없는 27종목).
+    const pmdOnlyHeld = iv.priceMultipleDiagnosticOnly;
+    priceText = `A진단(자기배수) 보류 -- ${esc(pmdOnlyHeld.reason||'사유 미상')}`;
   } else if(!iv){
     priceText = '아직 상대가치 비교 파이프라인에 포함되지 않음';
   } else {
@@ -3915,6 +3940,45 @@ function renderFourLineEvidenceCard(r){
           ${(sc2.peerPricePossibleMissingSessionDates && sc2.peerPricePossibleMissingSessionDates.length) ? `<div style="color:var(--warn);margin-top:4px;">참고(${esc(sc2.peerTicker)}, 비교기업): ${esc(sc2.peerPricePossibleMissingSessionDates.join(', '))}에는 원본 가격 캐시에 일봉이 없습니다(휴장일인지 자료 결측인지 미확인).</div>` : ''}
           ${(sc2.lastCheckStatus === 'FAILED') ? `<div style="color:var(--warn);margin-top:4px;">참고: 가장 최근 자동 갱신 시도가 실패했습니다${sc2.lastCheckNote ? `(사유: ${esc(sc2.lastCheckNote)})` : ''} -- 위 값은 마지막으로 성공했을 때의 과거 참고값입니다.</div>` : ''}
           <div style="margin-top:4px;">${esc(sc2.disclaimer||'')}</div>
+        </div>
+      </details>`;
+    })() : ''}
+    ${(iv && iv.priceMultipleDiagnosticOnly && iv.priceMultipleDiagnosticOnly.ok) ? (()=>{
+      // [2026-09-24 신규 -- 33번 배치, Codex 1번 지적] singleComparisonReference의 details
+      // 블록과 동일한 형식(값을 지어내지 않고 서버가 이미 계산·전달한 필드만 그대로 나열).
+      const pmdOnly2 = iv.priceMultipleDiagnosticOnly;
+      const m2 = pmdOnly2.multiples || {};
+      const todayISO2 = new Date().toISOString().slice(0,10);
+      // [2026-09-24 수정 -- 34번 배치, Codex 2번 지적] 예전엔 FY0/FY1이라는 공급자 태그(라벨)만
+      // 보여주고 실제 회계연도 종료일(period_end)이나 NTM 보간 구간(window_start~end)을 표시
+      //하지 않았다. 서버가 이미 계산해 전달한 값을 그대로 옮기기만 한다(재계산 아님, 숫자를
+      // 고쳐 맞추지 않음). 종료된 FY0(예: MU 2026-08-31)는 오늘보다 과거면 "이미 종료된
+      // 회계연도 -- 컨센서스 추정치일 뿐 확정 실적 아님"이라는 주의문을 덧붙인다(값 자체를
+      // 확정 실적으로 승격하지 않음, 값은 그대로).
+      const fmtRow = (label, obj) => {
+        if(!obj) return '';
+        const endNote = obj.period_end
+          ? ` (회계연도 종료 ${esc(obj.period_end)}${obj.period_end < todayISO2 ? ' -- 이미 종료된 회계연도, 컨센서스 추정치일 뿐 확정 실적 아님' : ''})`
+          : '';
+        return `<div>${esc(label)}: ${esc(obj.period_label||'')}${endNote} EPS $${obj.eps!=null?Number(obj.eps).toFixed(2):'-'} · PER ${obj.per!=null?Number(obj.per).toFixed(2):'-'}배</div>`;
+      };
+      const fmtNtmRow = (obj) => {
+        if(!obj) return '';
+        const winNote = (obj.window_start && obj.window_end) ? ` (보간구간 ${esc(obj.window_start)} ~ ${esc(obj.window_end)})` : '';
+        return `<div>NTM: ${esc(obj.period_label||'')}${winNote} EPS $${obj.eps!=null?Number(obj.eps).toFixed(2):'-'} · PER ${obj.per!=null?Number(obj.per).toFixed(2):'-'}배</div>`;
+      };
+      return `<details style="margin:4px 0 8px;"><summary style="cursor:pointer;font-size:12px;color:var(--sub);">A진단(자기배수) 근거 자세히 보기</summary>
+        <div style="margin-top:6px;font-size:12px;line-height:1.7;color:var(--sub);">
+          ${fmtRow('FY0(공급자 0y)', m2.fy_current)}
+          ${fmtRow('FY1(공급자 +1y)', m2.fy_next)}
+          ${m2.ntm && m2.ntm.ok===false ? `<div style="color:var(--warn);">NTM: 산출 보류 -- ${esc(m2.ntm.error_message||'')}</div>` : fmtNtmRow(m2.ntm)}
+          <div style="margin-top:4px;"><b>EPS 정의 확인수준(잠정)</b>: ${esc(pmdOnly2.epsDefinitionConfirmationLabel||pmdOnly2.epsDefinitionConfirmationLevel||'미확인')}</div>
+          <div>통화 기준: ${esc(pmdOnly2.epsCurrencyBasisNote||'미확인')}</div>
+          <div>주식수 기준: ${esc(pmdOnly2.epsShareBasisAssumed||'미확인')}</div>
+          <div>분할 확인: ${esc(pmdOnly2.epsSplitConfirmationNote||'미확인')}</div>
+          ${(pmdOnly2.pricePossibleMissingSessionDates && pmdOnly2.pricePossibleMissingSessionDates.length) ? `<div style="color:var(--warn);margin-top:4px;">참고: ${esc(pmdOnly2.pricePossibleMissingSessionDates.join(', '))}에는 원본 가격 캐시에 일봉이 없습니다(휴장일인지 자료 결측인지 미확인).</div>` : ''}
+          ${(pmdOnly2.lastCheckStatus === 'FAILED') ? `<div style="color:var(--warn);margin-top:4px;">참고: 가장 최근 자동 갱신 시도가 실패했습니다${pmdOnly2.lastCheckNote ? `(사유: ${esc(pmdOnly2.lastCheckNote)})` : ''} -- 위 값은 마지막으로 성공했을 때의 과거 참고값입니다.</div>` : ''}
+          <div style="margin-top:4px;">${esc(pmdOnly2.disclaimer||'')}</div>
         </div>
       </details>`;
     })() : ''}

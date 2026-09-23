@@ -182,6 +182,65 @@ const INDEPENDENT_VALUATION_DATA = {
         "https://stockanalysis.com/stocks/tln/statistics/"
       ],
       "version": 3
+    },
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "VST",
+      "price": 140.77999877929688,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 9.47291,
+          "period_end": "2026-12-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 14.861325482802735,
+          "per_price_basis_note": "현재가 $140.7800(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 10.38114,
+          "period_end": "2027-12-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 13.561130933529157,
+          "per_price_basis_note": "현재가 $140.7800(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 10.137286465753425,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2026-12-31(가중27%) / +1y 2027-12-31(가중73%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 13.887345420778123,
+          "per_price_basis_note": "현재가 $140.7800(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
     }
   },
   "AMAT": {
@@ -944,8 +1003,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "kind": "independent_value_dcf_scenario_engine",
       "asOf": "2026-09-24",
       "valuationAnchorDate": "2026-07-26",
-      "runId": "AMAT_REAL_20260924T040004907229",
-      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260924T040004884743",
+      "runId": "AMAT_REAL_20260924T043257131932",
+      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260924T043257108796",
       "engineVersion": "amat_calc_engine v4 (2026-09-18, 모델 채택 검토) -- D&A/CapEx 비율 곡선을 FY2025 실측 대조로 조정(min(0.60,0.20+0.10*(i+1)) -> min(0.45,0.19+0.065*i)), 계산 결과가 달라짐(v3 대비). 과거 실행은 각자 저장된 code_snapshots로 그 시점 값 그대로 재현 가능.",
       "isReplayFixture": false,
       "px": 191.18875891941352,
@@ -956,21 +1015,21 @@ const INDEPENDENT_VALUATION_DATA = {
           "growthY1": 0.3134993682913383,
           "roic": 0.18,
           "ntmValue": 40504380020.0,
-          "runId": "AMAT_REAL_20260924T040004891483"
+          "runId": "AMAT_REAL_20260924T043257115676"
         },
         "base": {
           "px": 191.18875891941352,
           "growthY1": 0.38220422220060324,
           "roic": 0.22,
           "ntmValue": 42623031600.0,
-          "runId": "AMAT_REAL_20260924T040004907229"
+          "runId": "AMAT_REAL_20260924T043257131932"
         },
         "optimistic": {
           "px": 202.91184230912685,
           "growthY1": 0.45090907610986797,
           "roic": 0.26,
           "ntmValue": 44741683180.0,
-          "runId": "AMAT_REAL_20260924T040004949430"
+          "runId": "AMAT_REAL_20260924T043257172711"
         }
       },
       "priorDeliveredPx": 129.13,
@@ -1652,7 +1711,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "updateStatus": {
         "attemptStatus": "SUCCESS",
         "failureType": null,
-        "attemptedAt": "2026-09-24T04:00:04.916008",
+        "attemptedAt": "2026-09-24T04:32:57.140301",
         "dataAsOf": "2026-09-21",
         "holdPrice": false,
         "reason": ""
@@ -2937,6 +2996,38 @@ const INDEPENDENT_VALUATION_DATA = {
         "extension_target_price": 2607.1904032238926,
         "extension_ceiling_at_default_required_return": 1471.6076971510154
       }
+    },
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK_WITHHELD",
+      "lastCheckNote": "가격 자료상태 문제: 통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": false,
+      "reason": "가격 자료상태 문제: 통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
+      "diagnosticKind": null,
+      "ticker": "ASML",
+      "price": null,
+      "priceAsOf": null,
+      "priceType": null,
+      "pricePossibleMissingSessionDates": [],
+      "financialCurrency": null,
+      "quoteCurrency": null,
+      "estimatesFetchedAt": null,
+      "multiples": null,
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "missing",
+      "isStaleReference": true,
+      "staleReasons": [
+        "대상종목 가격 관측일(알수없음)이 확인되지 않습니다(누락 또는 형식 오류)"
+      ],
+      "disclaimer": null,
+      "epsDefinitionConfirmationLevel": null,
+      "epsDefinitionConfirmationLabel": null,
+      "epsCurrencyBasisNote": null,
+      "epsShareBasisAssumed": null,
+      "epsSplitConfirmationNote": null
     }
   },
   "STX": {
@@ -3141,6 +3232,65 @@ const INDEPENDENT_VALUATION_DATA = {
       "priorRangeHigh": 4815.407277052234,
       "priorRangeMid": 4596.89484541051,
       "priorBandStatus": "BELOW_BAND"
+    },
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "SNDK",
+      "price": 1766.6400146484375,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 213.90302,
+          "period_end": "2027-06-30",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 8.25906999652664,
+          "per_price_basis_note": "현재가 $1766.6400(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 263.48553,
+          "period_end": "2028-06-30",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 6.7048843807416585,
+          "per_price_basis_note": "현재가 $1766.6400(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 225.5854744109589,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2027-06-30(가중76%) / +1y 2028-06-30(가중24%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 7.831355362136803,
+          "per_price_basis_note": "현재가 $1766.6400(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
     }
   },
   "PWR": {
@@ -3163,6 +3313,65 @@ const INDEPENDENT_VALUATION_DATA = {
       "priorRangeHigh": 546.4337972092212,
       "priorRangeMid": 471.83052823467415,
       "priorBandStatus": "ABOVE_BAND"
+    },
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "PWR",
+      "price": 642.6099853515625,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 16.73333,
+          "period_end": "2026-12-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 38.4029948224031,
+          "per_price_basis_note": "현재가 $642.6100(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 19.71509,
+          "period_end": "2027-12-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 32.594828902711704,
+          "per_price_basis_note": "현재가 $642.6100(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 18.914507863013696,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2026-12-31(가중27%) / +1y 2027-12-31(가중73%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 33.97444913743443,
+          "per_price_basis_note": "현재가 $642.6100(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
     }
   },
   "EME": {
@@ -3487,6 +3696,1557 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetQuoteCurrency": "USD",
       "peerFinancialCurrency": "USD",
       "peerQuoteCurrency": "USD"
+    }
+  },
+  "AAPL": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "AAPL",
+      "price": 338.9800109863281,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 8.81945,
+          "period_end": "2026-09-30",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 38.43550459340754,
+          "per_price_basis_note": "현재가 $338.9800(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 9.58154,
+          "period_end": "2027-09-30",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 35.3784476176406,
+          "per_price_basis_note": "현재가 $338.9800(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 9.569012493150684,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2026-09-30(가중2%) / +1y 2027-09-30(가중98%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 35.42476417801351,
+          "per_price_basis_note": "현재가 $338.9800(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "AMD": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "AMD",
+      "price": 615.52001953125,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 7.57578,
+          "period_end": "2026-12-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 81.24840208285484,
+          "per_price_basis_note": "현재가 $615.5200(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 15.57069,
+          "period_end": "2027-12-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 39.530683581218945,
+          "per_price_basis_note": "현재가 $615.5200(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 13.424111424657534,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2026-12-31(가중27%) / +1y 2027-12-31(가중73%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 45.85182587211374,
+          "per_price_basis_note": "현재가 $615.5200(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "AMZN": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "AMZN",
+      "price": 258.45001220703125,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 12.87793,
+          "period_end": "2026-12-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 20.069220146951512,
+          "per_price_basis_note": "현재가 $258.4500(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 10.48489,
+          "period_end": "2027-12-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 24.649759053936783,
+          "per_price_basis_note": "현재가 $258.4500(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 11.127404849315068,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2026-12-31(가중27%) / +1y 2027-12-31(가중73%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 23.22644099921823,
+          "per_price_basis_note": "현재가 $258.4500(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "ANET": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "ANET",
+      "price": 205.4199981689453,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 4.11217,
+          "period_end": "2026-12-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 49.954160010151654,
+          "per_price_basis_note": "현재가 $205.4200(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 5.18742,
+          "period_end": "2027-12-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 39.59964648494729,
+          "per_price_basis_note": "현재가 $205.4200(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 4.898722739726027,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2026-12-31(가중27%) / +1y 2027-12-31(가중73%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 41.93337918537392,
+          "per_price_basis_note": "현재가 $205.4200(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "ARM": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "ARM",
+      "price": 322.8999938964844,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 2.22304,
+          "period_end": "2027-03-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 145.25154468497388,
+          "per_price_basis_note": "현재가 $322.9000(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 3.05476,
+          "period_end": "2028-03-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 105.70388308622752,
+          "per_price_basis_note": "현재가 $322.9000(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 2.6263672328767123,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2027-03-31(가중52%) / +1y 2028-03-31(가중48%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 122.94548525219209,
+          "per_price_basis_note": "현재가 $322.9000(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "AVGO": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "AVGO",
+      "price": 362.6600036621094,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 11.65766,
+          "period_end": "2026-10-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 31.109159442127268,
+          "per_price_basis_note": "현재가 $362.6600(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 19.38391,
+          "period_end": "2027-10-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 18.709331794364985,
+          "per_price_basis_note": "현재가 $362.6600(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 18.600701095890408,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2026-10-31(가중10%) / +1y 2027-10-31(가중90%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 19.497114748122833,
+          "per_price_basis_note": "현재가 $362.6600(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "BE": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "BE",
+      "price": 272.8900146484375,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 2.70582,
+          "period_end": "2026-12-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 100.85298159095487,
+          "per_price_basis_note": "현재가 $272.8900(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 4.92871,
+          "period_end": "2027-12-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 55.36743177189113,
+          "per_price_basis_note": "현재가 $272.8900(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 4.331879260273972,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2026-12-31(가중27%) / +1y 2027-12-31(가중73%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 62.995757326620044,
+          "per_price_basis_note": "현재가 $272.8900(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "CEG": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "CEG",
+      "price": 262.1099853515625,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 12.13424,
+          "period_end": "2026-12-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 21.600857190195885,
+          "per_price_basis_note": "현재가 $262.1100(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 13.25239,
+          "period_end": "2027-12-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 19.7783181261314,
+          "per_price_basis_note": "현재가 $262.1100(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 12.952174383561644,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2026-12-31(가중27%) / +1y 2027-12-31(가중73%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 20.236755434996418,
+          "per_price_basis_note": "현재가 $262.1100(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "CRM": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "CRM",
+      "price": 236.4199981689453,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 16.75532,
+          "period_end": "2027-01-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 14.110145205758249,
+          "per_price_basis_note": "현재가 $236.4200(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 16.00674,
+          "period_end": "2028-01-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 14.770028011259338,
+          "per_price_basis_note": "현재가 $236.4200(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 16.271306630136987,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2027-01-31(가중35%) / +1y 2028-01-31(가중65%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 14.529871727145672,
+          "per_price_basis_note": "현재가 $236.4200(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "ETN": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "ETN",
+      "price": 435.42999267578125,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 13.55393,
+          "period_end": "2026-12-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 32.125737160792575,
+          "per_price_basis_note": "현재가 $435.4300(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 16.13361,
+          "period_end": "2027-12-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 26.988999528052386,
+          "per_price_basis_note": "현재가 $435.4300(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 15.440983589041096,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2026-12-31(가중27%) / +1y 2027-12-31(가중73%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 28.199627968312736,
+          "per_price_basis_note": "현재가 $435.4300(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "GEV": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "GEV",
+      "price": 946.219970703125,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 30.78103,
+          "period_end": "2026-12-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 30.74036088796005,
+          "per_price_basis_note": "현재가 $946.2200(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 24.85029,
+          "period_end": "2027-12-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 38.07681804530752,
+          "per_price_basis_note": "현재가 $946.2200(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 26.44265306849315,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2026-12-31(가중27%) / +1y 2027-12-31(가중73%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 35.78385150129135,
+          "per_price_basis_note": "현재가 $946.2200(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "GOOGL": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "GOOGL",
+      "price": 354.9700012207031,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 20.62484,
+          "period_end": "2026-12-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 17.210800239938983,
+          "per_price_basis_note": "현재가 $354.9700(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 14.90606,
+          "period_end": "2027-12-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 23.813804668752383,
+          "per_price_basis_note": "현재가 $354.9700(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 16.44151326027397,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2026-12-31(가중27%) / +1y 2027-12-31(가중73%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 21.589861930676577,
+          "per_price_basis_note": "현재가 $354.9700(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "HUBB": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "HUBB",
+      "price": 458.8299865722656,
+      "priceAsOf": "2026-09-22",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 20.46293,
+          "period_end": "2026-12-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 22.422497001761997,
+          "per_price_basis_note": "현재가 $458.8300(2026-09-22) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 22.91317,
+          "period_end": "2027-12-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 20.024727550673504,
+          "per_price_basis_note": "현재가 $458.8300(2026-09-22) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 22.255297342465756,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2026-12-31(가중27%) / +1y 2027-12-31(가중73%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 20.61666395697906,
+          "per_price_basis_note": "현재가 $458.8300(2026-09-22) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "INTC": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "INTC",
+      "price": 121.77999877929688,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 1.52026,
+          "period_end": "2026-12-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 80.10471812669996,
+          "per_price_basis_note": "현재가 $121.7800(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 2.06208,
+          "period_end": "2027-12-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 59.05687402006561,
+          "per_price_basis_note": "현재가 $121.7800(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 1.9166050410958904,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2026-12-31(가중27%) / +1y 2027-12-31(가중73%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 63.53943361730105,
+          "per_price_basis_note": "현재가 $121.7800(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "META": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "META",
+      "price": 741.25,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 31.22882,
+          "period_end": "2026-12-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 23.736087370576282,
+          "per_price_basis_note": "현재가 $741.2500(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 33.89897,
+          "period_end": "2027-12-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 21.866446089659952,
+          "per_price_basis_note": "현재가 $741.2500(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 33.18205301369863,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2026-12-31(가중27%) / +1y 2027-12-31(가중73%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 22.338883000819386,
+          "per_price_basis_note": "현재가 $741.2500(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "MOD": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "MOD",
+      "price": 197.6199951171875,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 7.62314,
+          "period_end": "2027-03-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 25.923700091719095,
+          "per_price_basis_note": "현재가 $197.6200(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 11.00765,
+          "period_end": "2028-03-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 17.952968627925806,
+          "per_price_basis_note": "현재가 $197.6200(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 9.264395534246576,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2027-03-31(가중52%) / +1y 2028-03-31(가중48%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 21.331126719133422,
+          "per_price_basis_note": "현재가 $197.6200(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "MRVL": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "MRVL",
+      "price": 257.3800048828125,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 4.2113,
+          "period_end": "2027-01-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 61.11652099893442,
+          "per_price_basis_note": "현재가 $257.3800(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 6.75725,
+          "period_end": "2028-01-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 38.089460192062226,
+          "per_price_basis_note": "현재가 $257.3800(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 5.8574484931506845,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2027-01-31(가중35%) / +1y 2028-01-31(가중65%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 43.94063476337449,
+          "per_price_basis_note": "현재가 $257.3800(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "MSFT": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "MSFT",
+      "price": 501.6099853515625,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 19.75972,
+          "period_end": "2027-06-30",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 25.385480429457626,
+          "per_price_basis_note": "현재가 $501.6100(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 23.67588,
+          "period_end": "2028-06-30",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 21.186540282834788,
+          "per_price_basis_note": "현재가 $501.6100(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 20.682431671232877,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2027-06-30(가중76%) / +1y 2028-06-30(가중24%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 24.252950200688932,
+          "per_price_basis_note": "현재가 $501.6100(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "MU": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "MU",
+      "price": 1043.9599609375,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 73.53377,
+          "period_end": "2026-08-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 14.197013983337179,
+          "per_price_basis_note": "현재가 $1043.9600(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 158.90678,
+          "period_end": "2027-08-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 6.569637626144712,
+          "per_price_basis_note": "현재가 $1043.9600(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "ok": false,
+          "error_message": "창 끝(2027-09-24)이 +1y 마감일(2027-08-31)을 넘어감 -- 그 이후 구간은 이 두 추정치로 답할 수 없어 억지로 채우지 않고 산출 보류 (재현: as_of가 늦어질수록 이 조건에 걸리게 됨)"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "NVDA": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "NVDA",
+      "price": 227.3800048828125,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 9.30713,
+          "period_end": "2027-01-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 24.430732662250605,
+          "per_price_basis_note": "현재가 $227.3800(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 15.68263,
+          "period_end": "2028-01-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 14.498843936432378,
+          "per_price_basis_note": "현재가 $227.3800(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 13.42937109589041,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2027-01-31(가중35%) / +1y 2028-01-31(가중65%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 16.931545286762848,
+          "per_price_basis_note": "현재가 $227.3800(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "ORCL": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "ORCL",
+      "price": 148.55999755859375,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 8.1414,
+          "period_end": "2027-05-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 18.247475564226512,
+          "per_price_basis_note": "현재가 $148.5600(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 10.99719,
+          "period_end": "2028-05-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 13.508905234754856,
+          "per_price_basis_note": "현재가 $148.5600(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 9.048993534246575,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2027-05-31(가중68%) / +1y 2028-05-31(가중32%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 16.417295138554096,
+          "per_price_basis_note": "현재가 $148.5600(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "PLTR": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "PLTR",
+      "price": 183.08999633789062,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 1.61155,
+          "period_end": "2026-12-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 113.61111745703865,
+          "per_price_basis_note": "현재가 $183.0900(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 2.32666,
+          "period_end": "2027-12-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 78.6922009824773,
+          "per_price_basis_note": "현재가 $183.0900(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 2.1346578630136985,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2026-12-31(가중27%) / +1y 2027-12-31(가중73%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 85.7701833676546,
+          "per_price_basis_note": "현재가 $183.0900(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "QCOM": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "QCOM",
+      "price": 194.22999572753906,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 10.48422,
+          "period_end": "2026-09-30",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 18.52593666744298,
+          "per_price_basis_note": "현재가 $194.2300(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 10.20401,
+          "period_end": "2027-09-30",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 19.034673204704724,
+          "per_price_basis_note": "현재가 $194.2300(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 10.208616191780822,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2026-09-30(가중2%) / +1y 2027-09-30(가중98%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 19.026084640533146,
+          "per_price_basis_note": "현재가 $194.2300(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "TSLA": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "TSLA",
+      "price": 375.29998779296875,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 1.7779,
+          "period_end": "2026-12-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 211.09173057706775,
+          "per_price_basis_note": "현재가 $375.3000(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 2.19724,
+          "period_end": "2027-12-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 170.8051864124851,
+          "per_price_basis_note": "현재가 $375.3000(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 2.084650082191781,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2026-12-31(가중27%) / +1y 2027-12-31(가중73%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 180.0302079466411,
+          "per_price_basis_note": "현재가 $375.3000(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    }
+  },
+  "TSM": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK_WITHHELD",
+      "lastCheckNote": "가격 자료상태 문제: 통화 불일치: financial_currency='TWD', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": false,
+      "reason": "가격 자료상태 문제: 통화 불일치: financial_currency='TWD', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
+      "diagnosticKind": null,
+      "ticker": "TSM",
+      "price": null,
+      "priceAsOf": null,
+      "priceType": null,
+      "pricePossibleMissingSessionDates": [],
+      "financialCurrency": null,
+      "quoteCurrency": null,
+      "estimatesFetchedAt": null,
+      "multiples": null,
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "missing",
+      "isStaleReference": true,
+      "staleReasons": [
+        "대상종목 가격 관측일(알수없음)이 확인되지 않습니다(누락 또는 형식 오류)"
+      ],
+      "disclaimer": null,
+      "epsDefinitionConfirmationLevel": null,
+      "epsDefinitionConfirmationLabel": null,
+      "epsCurrencyBasisNote": null,
+      "epsShareBasisAssumed": null,
+      "epsSplitConfirmationNote": null
+    }
+  },
+  "VRT": {
+    "priceMultipleDiagnosticOnly": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T04:32:47.094007+09:00",
+      "ok": true,
+      "reason": null,
+      "diagnosticKind": "price_multiple_only_no_peer",
+      "ticker": "VRT",
+      "price": 250.86000061035156,
+      "priceAsOf": "2026-09-21",
+      "priceType": "confirmed_close",
+      "pricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "financialCurrency": "USD",
+      "quoteCurrency": "USD",
+      "estimatesFetchedAt": "2026-09-23",
+      "multiples": {
+        "fy_current": {
+          "eps": 6.73489,
+          "period_end": "2026-12-31",
+          "period_label": "FY0(당해 회계연도)",
+          "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
+          "per": 37.24782447973932,
+          "per_price_basis_note": "현재가 $250.8600(2026-09-21) / 해당 기간 EPS"
+        },
+        "fy_next": {
+          "eps": 9.12236,
+          "period_end": "2027-12-31",
+          "period_label": "FY1(익년 회계연도)",
+          "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
+          "per": 27.49946292520264,
+          "per_price_basis_note": "현재가 $250.8600(2026-09-21) / 해당 기간 EPS"
+        },
+        "ntm": {
+          "eps": 8.481340657534247,
+          "period_end": null,
+          "period_label": "NTM(향후 365일 일수보간)",
+          "window_start": "2026-09-24",
+          "window_end": "2027-09-24",
+          "eps_basis_note": "0y 2026-12-31(가중27%) / +1y 2027-12-31(가중73%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+          "per": 29.577871086631166,
+          "per_price_basis_note": "현재가 $250.8600(2026-09-21) / 해당 기간 EPS"
+        }
+      },
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T04:32:47.094007+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 대상종목 자신의 FY0/FY1/NTM 컨센서스 EPS 대비 현재가의 배수(PER) 진단일 뿐이다 -- 동종업계 비교나 매수가·매도가·적정가가 아니며, 배지·판정에 연결하지 않는다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이다.",
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
     }
   }
 };
