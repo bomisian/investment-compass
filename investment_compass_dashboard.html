@@ -3766,7 +3766,11 @@ function renderMarketReferencePriceCard(r){
   return `<div class="comment-box" style="background:var(--panel-2);margin-bottom:12px;">
     <div style="font-weight:700;font-size:15px;margin-bottom:2px;">${esc(r.ticker)} 잠정 시장 비교가격 약 $${mid.toFixed(0)}</div>
     ${staleBanner}
-    <div class="sub" style="margin-bottom:6px;">${price!=null?`${esc(rv.comparisonPriceAsOf||'')} 가격 $${price.toFixed(2)}`:''}${diffOrIssueHtml}</div>
+    // [2026-09-24 수정 -- 30번 배치, Codex 지적] 새 카드를 더 만들지 않고, 서버가 이미 계산해 넣은 rv.comparisonPriceLabel을
+    // 그대로 재사용한다(renderRelativeValueBandCard와 같은 필드) -- 장중 미확정 봉을 건너뛰고 직전 확정 종가를 대신 쓨을 때는
+    // "최근 종가" 대신 "전 거래일 확정 종가"로 자동으로 바뀌며(값 자체는 지어내지 않음), 장중 관측값을 쓰는
+    // 경우에도 그 사실 자체를 숨기지 않는다.
+    <div class="sub" style="margin-bottom:6px;">${price!=null?`${esc(rv.comparisonPriceAsOf||'')} ${esc(rv.comparisonPriceLabel||'가격')} $${price.toFixed(2)}`:''}${diffOrIssueHtml}</div>
     <div style="font-size:13px;line-height:1.7;">${peersUsed?esc(peersUsed):'동종기업'}와 같은 NTM 배수를 적용한 값이에요. 기업별 차이 조정 전(동일배수 가정)이며${definitionNote?`, ${esc(definitionNote)}`:''}.</div>
     <details style="margin-top:8px;">
       <summary style="cursor:pointer;color:var(--sub);font-size:12px;">비교기업별 값·전망 변화 시 기준가격</summary>
