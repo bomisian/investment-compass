@@ -3736,7 +3736,28 @@ function renderMarketReferencePriceCard(r){
   if(!rv || !rv.available || rv.rangeMid==null) return '';
   const mid = rv.rangeMid;
   const price = rv.comparisonPrice;
-  const diffPct = (price!=null && mid) ? (price/mid - 1)*100 : null;
+  // [2026-09-24 수정 -- 27번 독립검토] renderRelativeValueBandCard와 같은 이중 노후 검사
+  // (서버가 빌드 시점에 표시한 rv.isStaleReference + 지금 열어본 시점 재검사
+  // computeRelativeValueLiveStaleness)를 그대로 재사용한다. 새 계산식이 아니라 이미 있는
+  // 신호를 이 카드에도 연결하는 것뿐이다. 노후여도 마지막 값 자체는 지우지 않고 "과거
+  // 참고가격 · 갱신 확인 필요"로 표시만 바꾼다.
+  const liveStale = computeRelativeValueLiveStaleness(rv);
+  const isStaleNow = !!rv.isStaleReference || liveStale.stale;
+  const staleNoteParts = [];
+  if(rv.isStaleReference && rv.staleReferenceNote) staleNoteParts.push(rv.staleReferenceNote);
+  if(liveStale.stale && liveStale.reasons.length) staleNoteParts.push('지금 열어본 시점 재검사: ' + liveStale.reasons.join('; ') + '.');
+  const staleBanner = isStaleNow
+    ? `<div class="sub" style="margin:4px 0 6px;color:var(--warn);">⚠️ 과거 참고가격 · 갱신 확인 필요 (기준일 ${esc(rv.comparisonPriceAsOf||rv.asOfDate||'-')}): ${esc(staleNoteParts.join(' '))}</div>`
+    : '';
+  // [2026-09-24 수정 -- 27번 독립검토] 기준가격(rv.rangeMid) 유효성과 비교가격
+  // (rv.comparisonPrice) 유효성은 서로 다른 축이다. comparisonPriceIssue가 있으면 비교가격
+  // 자체를 못 믿는다는 뜻이므로, 기준가격은 그대로 보여주되 할인·할증률 문장(diffPct)만
+  // 보류하고 "비교가격 확인 필요" 안내로 대체한다 -- 계산식은 바꾸지 않는다.
+  const hasComparisonIssue = !!rv.comparisonPriceIssue;
+  const diffPct = (!hasComparisonIssue && price!=null && mid) ? (price/mid - 1)*100 : null;
+  const diffOrIssueHtml = hasComparisonIssue
+    ? ` · <span style="color:var(--down);">비교가격 확인 필요 -- ${esc(rv.comparisonPriceIssue)}</span>`
+    : (diffPct!=null ? ` · 비교 기준보다 약 ${Math.abs(diffPct).toFixed(1)}% ${diffPct<0?'낮음':'높음'}` : '');
   const peersUsed = (rv.peersUsed||[]).join('·');
   const epsNote = rv.epsBasisNote;
   const definitionNote = epsNote ? epsNote.definitionConfirmationLabel : null;
@@ -3744,7 +3765,8 @@ function renderMarketReferencePriceCard(r){
   const bothDown = mid*0.81;
   return `<div class="comment-box" style="background:var(--panel-2);margin-bottom:12px;">
     <div style="font-weight:700;font-size:15px;margin-bottom:2px;">${esc(r.ticker)} 잠정 시장 비교가격 약 $${mid.toFixed(0)}</div>
-    <div class="sub" style="margin-bottom:6px;">${price!=null?`${esc(rv.comparisonPriceAsOf||'')} 가격 $${price.toFixed(2)}`:''}${diffPct!=null?` · 비교 기준보다 약 ${Math.abs(diffPct).toFixed(1)}% ${diffPct<0?'낮음':'높음'}`:''}</div>
+    ${staleBanner}
+    <div class="sub" style="margin-bottom:6px;">${price!=null?`${esc(rv.comparisonPriceAsOf||'')} 가격 $${price.toFixed(2)}`:''}${diffOrIssueHtml}</div>
     <div style="font-size:13px;line-height:1.7;">${peersUsed?esc(peersUsed):'동종기업'}와 같은 NTM 배수를 적용한 값이에요. 기업별 차이 조정 전(동일배수 가정)이며${definitionNote?`, ${esc(definitionNote)}`:''}.</div>
     <details style="margin-top:8px;">
       <summary style="cursor:pointer;color:var(--sub);font-size:12px;">비교기업별 값·전망 변화 시 기준가격</summary>
