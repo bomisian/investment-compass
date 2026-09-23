@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790129862.873347,
+  "generatedAt": 1790131367.4408493,
   "events": [
     {
       "id": "9e990aded54a51a2589b",
@@ -708,6 +708,77 @@ const EVENT_DATA = {
       ]
     },
     {
+      "id": "24c6db510826d69be124",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "CRM",
+      "relatedTickers": [
+        "CRM",
+        "QQQ",
+        "SPY"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "How Far Could CRM Stock Swing In A Year?",
+      "headlineKo": "CRM 주식은 1년에 얼마나 변동될 수 있나요?",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a6af23dc1a2783597affa9452a4eff38cb0b0a22d508bdb19d426711b4332419",
+        "publishedAt": 1790110657,
+        "collectedAt": 1790131306.4389548
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "CRM 주식은 1년에 얼마나 변동될 수 있나요?",
+        "| Trefis CRM 주식은 1년에 얼마나 변동될 수 있습니까?",
+        "2026년 9월 22일 · Trefis Team CRM YTD -10.1% SPY YTD +14.0% QQQ YTD +21.0% CRM 분석 → Salesforce(CRM) 주식은 3개월 동안 약 58% 수익률을 올린 후 약 $236에 거래됩니다."
+      ],
+      "marketInterpretation": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 10.1%, 14.0%, 21.0% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "CRM에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 10.1%, 14.0%, 21.0% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "CRM",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 CAPEX 집행",
+        "공급업체 수주·매출",
+        "투자 기업 OCF·FCF·부채"
+      ]
+    },
+    {
       "id": "6bf85a7b79aceb77e03b",
       "schemaVersion": 1,
       "eventType": "ai_investment_change",
@@ -1019,12 +1090,12 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=457883f0f473ada0a708561ff0eb577f3c075986ad8a6c2dfaedb9f4bee30251",
         "publishedAt": 1790103933,
-        "collectedAt": 1790109181.839408
+        "collectedAt": 1790131306.4389548
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "145달러 목표 가격이 너무 높아졌습니다 - 24/7 Wall St.",
-        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,775.60 +0.01% Dow Jones 51,951.80 −0.34% Nasdaq 100 30,754.00 +0.77% Russell 2000 2,895.86 +0.55% S&P 500 7,775.60 +0.01% 다우존스 51,951.80 −0.34% 나스닥 100 30,754.00 +0.77% 러셀 2000 2,895.86 +0.",
+        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,775.40 +0.01% Dow Jones 51,964.80 +0.04% Nasdaq 100 30,741.00 −0.03% Russell 2000 2,892.03 −0.13% S&P 500 7,775.40 +0.01% 다우존스 51,964.80 +0.04% 나스닥 100 30,741.00 −0.03% 러셀 2000 2,892.03 −0.",
         "145달러 목표 가격이 너무 많이 움직였습니다. Intel은 최근 몇 년 만에 가장 빠른 상승세를 보였습니다. 그러나 급등 전에 목표 가격을 제시한 분석가는 이러한 움직임이 여전히 가장 중요한 촉매제를 놓치고 있다고 생각합니다."
       ],
       "marketInterpretation": [
@@ -1295,12 +1366,12 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=68d58b8e2929f6963c7b5e44a5008a7d2250624581dd63338158e4dddf0fbb0a",
         "publishedAt": 1790100814,
-        "collectedAt": 1790109181.839408
+        "collectedAt": 1790131306.4389548
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "ServiceNow: 2026년에는 어느 기술주를 매수하는 것이 더 나은가요?",
-        "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 소프트웨어 거대 기업들이 기업의 모든 구석구석에 인공 지능을 통합하기 위해 경쟁하면서 투자자들은 Sa를 선택할지 여부에 대해 논쟁을 벌이고 있습니다.",
+        "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 소프트웨어 거대 기업들이 인공 지능을 기업의 모든 구석구석에 통합하기 위해 경쟁하면서 투자자들은 Sa를 선택할지 여부에 대해 논쟁을 벌이고 있습니다.",
         "Salesforce는 고객 관계 관리 분야에서 여전히 지배적인 세력을 유지하고 있으며 ServiceNow는 IT 및 인적 자원 전반에 걸쳐 복잡한 워크플로를 자동화하여 대규모 틈새 시장을 개척했습니다."
       ],
       "marketInterpretation": [
@@ -6507,7 +6578,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1dda7270cfc8bd93e3e9c4c195f17681dc9577e5fec7b4a70c4f4518b1f96881",
         "publishedAt": 1790020201,
-        "collectedAt": 1790109181.839408
+        "collectedAt": 1790131306.4389548
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6655,7 +6726,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=39696fe534e8f1e298e67fc58e6197f64ac536a4c9fae5d9cbdd89208fa82a27",
         "publishedAt": 1790017325,
-        "collectedAt": 1790109181.839408
+        "collectedAt": 1790131306.4389548
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8352,7 +8423,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=26432137ca0d3f666105ae0189ed15b2de0f146c42cb46c156daf83e057df62e",
         "publishedAt": 1790006746,
-        "collectedAt": 1790109181.839408
+        "collectedAt": 1790131306.4389548
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14143,7 +14214,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5d9149c2ca039a4461b529ed6c75a559df3b538d6518dbf5986fcf34f40503ee",
         "publishedAt": 1789855261,
-        "collectedAt": 1790109181.839408
+        "collectedAt": 1790131306.4389548
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14548,7 +14619,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1c412c5686b672e112e74c73f6163e769da70ec87b32a9cbe224cf4a4cc0daf3",
         "publishedAt": 1789834996,
-        "collectedAt": 1790109181.839408
+        "collectedAt": 1790131306.4389548
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16036,7 +16107,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=31b8bc9cbfe8fd4a71619ae7750a1be016fb0b76edce5c04b1f5f122884ecfd5",
         "publishedAt": 1789805621,
-        "collectedAt": 1790109181.839408
+        "collectedAt": 1790131306.4389548
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16486,7 +16557,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4c2672fecdcacea8ce6ad2e9d6b5e06d6192368bc02aa08ea48592121cd859b1",
         "publishedAt": 1789795794,
-        "collectedAt": 1790109181.839408
+        "collectedAt": 1790131306.4389548
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17083,7 +17154,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b8457811a4da8c2a73c287963b87e1ae7ca1013bbc069d7046338325e1de17f8",
         "publishedAt": 1789770780,
-        "collectedAt": 1790109181.839408
+        "collectedAt": 1790131306.4389548
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18033,79 +18104,6 @@ const EVENT_DATA = {
         "공급업체 수주·매출",
         "투자 기업 OCF·FCF·부채"
       ]
-    },
-    {
-      "id": "f45147908163444f34ff",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "GOOGL",
-      "relatedTickers": [
-        "GOOGL"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Alphabet",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Analyst Sets Jaw-Dropping Price Target on Alphabet Stock",
-      "headlineKo": "애널리스트는 알파벳 주식에 대해 놀라운 가격 목표를 설정했습니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ad2b7d34705765f39d5d2538104d9f53c5a79dceaf10a6209b6777644ee9bb46",
-        "publishedAt": 1789757006,
-        "collectedAt": 1790129476.3874466
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Analyst Sets Jaw-Dropping Price Target on Alphabet Stock",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "GOOGL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "GOOGL에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "GOOGL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "GOOGL",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "목표주가 산식의 EPS",
-        "적용 PER 변화",
-        "회사 공식 가이던스"
-      ]
     }
   ],
   "byTicker": {
@@ -18142,6 +18140,7 @@ const EVENT_DATA = {
       "9e990aded54a51a2589b",
       "9c71dc69d53be64b9b58",
       "93e5c12dbd0e4a40b131",
+      "24c6db510826d69be124",
       "b60c71a5be3415afbfe6",
       "01aefc240304509f2417",
       "2c672afed39fe435e3af",
@@ -18212,6 +18211,7 @@ const EVENT_DATA = {
       "f29667a4e93112d4323c",
       "9c71dc69d53be64b9b58",
       "93e5c12dbd0e4a40b131",
+      "24c6db510826d69be124",
       "4b19b2fcbd22d17cfc6c",
       "b60c71a5be3415afbfe6",
       "01aefc240304509f2417",
@@ -18355,8 +18355,7 @@ const EVENT_DATA = {
       "ed13add05dd51aafe7ec",
       "280bcf979e498637d23d",
       "0885a8db207ab0d32de9",
-      "0cc61b88c7a41799e2b6",
-      "f45147908163444f34ff"
+      "0cc61b88c7a41799e2b6"
     ],
     "SNDK": [
       "0ebfa23854841fc7d971",
@@ -18588,6 +18587,10 @@ const EVENT_DATA = {
       "584d08f027936776ae43",
       "d16c64b048b0efdc540d"
     ],
+    "CRM": [
+      "24c6db510826d69be124",
+      "c0b35d1e9cbad00142ee"
+    ],
     "MRVL": [
       "6bf85a7b79aceb77e03b",
       "7508811d4b3549c347f2",
@@ -18664,9 +18667,6 @@ const EVENT_DATA = {
       "bb5bc080eceafc9aad01",
       "e0cb52db78b1f4853b43",
       "7c0e3fc7eb2a451b2886"
-    ],
-    "CRM": [
-      "c0b35d1e9cbad00142ee"
     ],
     "AMAT": [
       "6d4047f33edd847a51f8",

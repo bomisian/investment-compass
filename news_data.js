@@ -1693,7 +1693,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "SPY": {
@@ -3823,7 +3823,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "MSFT": {
@@ -7375,7 +7375,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "GOOGL": {
@@ -11612,7 +11612,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "AMZN": {
@@ -15873,7 +15873,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "META": {
@@ -20075,7 +20075,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "AAPL": {
@@ -24254,7 +24254,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 102,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "TSLA": {
@@ -28448,7 +28448,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "ORCL": {
@@ -31662,19 +31662,83 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "CRM": {
-    "_last_attempt_at": 1790109181.839408,
+    "_last_attempt_at": 1790131306.4389548,
     "nextEarnings": {
       "date": "2026-12-01",
       "hour": "amc",
-      "epsEstimate": 3.4643,
-      "revenueEstimate": 11573246327
+      "epsEstimate": 3.4696,
+      "revenueEstimate": 11570106459
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "How Far Could CRM Stock Swing In A Year?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a6af23dc1a2783597affa9452a4eff38cb0b0a22d508bdb19d426711b4332419",
+        "datetime": 1790110657,
+        "relevance": 0.75,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "CRM 주식은 1년에 얼마나 변동될 수 있나요?",
+            "| Trefis CRM 주식은 1년에 얼마나 변동될 수 있습니까?",
+            "2026년 9월 22일 · Trefis Team CRM YTD -10.1% SPY YTD +14.0% QQQ YTD +21.0% CRM 분석 → Salesforce(CRM) 주식은 3개월 동안 약 58% 수익률을 올린 후 약 $236에 거래됩니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 10.1%, 14.0%, 21.0% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "CRM에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.75,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "10.1%",
+            "14.0%",
+            "21.0%",
+            "$236",
+            "58%",
+            "$152",
+            "$368.",
+            "$236,"
+          ],
+          "sourceExcerpt": [
+            "How Far Could CRM Stock Swing In A Year?",
+            "| Trefis How Far Could CRM Stock Swing In A Year?",
+            "September 22nd, 2026 · by Trefis Team CRM YTD -10.1% SPY YTD +14.0% QQQ YTD +21.0% Analyze CRM → Salesforce (CRM) stock trades at about $236 after returning about 58% over three months."
+          ],
+          "analysisUpdatedAt": 1790131314.1411805
+        },
+        "headlineKo": "CRM 주식은 1년에 얼마나 변동될 수 있나요?"
+      },
       {
         "headline": "Salesforce vs. ServiceNow: Which Technology Stock Is a Better Buy in 2026?",
         "source": "Yahoo",
@@ -31692,7 +31756,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "ServiceNow: 2026년에는 어느 기술주를 매수하는 것이 더 나은가요?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 소프트웨어 거대 기업들이 기업의 모든 구석구석에 인공 지능을 통합하기 위해 경쟁하면서 투자자들은 Sa를 선택할지 여부에 대해 논쟁을 벌이고 있습니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 소프트웨어 거대 기업들이 인공 지능을 기업의 모든 구석구석에 통합하기 위해 경쟁하면서 투자자들은 Sa를 선택할지 여부에 대해 논쟁을 벌이고 있습니다.",
             "Salesforce는 고객 관계 관리 분야에서 여전히 지배적인 세력을 유지하고 있으며 ServiceNow는 IT 및 인적 자원 전반에 걸쳐 복잡한 워크플로를 자동화하여 대규모 틈새 시장을 개척했습니다."
           ],
           "why": [
@@ -31735,7 +31799,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool As software giants race to integrate artificial intelligence into every corner of the enterprise, investors are debating whether Sa",
             "Salesforce remains the dominant force in customer relationship management, while ServiceNow has carved out a massive niche by automating complex workflows across IT and human resources."
           ],
-          "analysisUpdatedAt": 1790109189.9216573
+          "analysisUpdatedAt": 1790131318.668031
         },
         "headlineKo": "Salesforce 대 ServiceNow: 2026년에는 어떤 기술 주식이 더 나은 구매입니까?"
       },
@@ -31785,7 +31849,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790109191.6502929
+          "analysisUpdatedAt": 1790131321.0543914
         },
         "headlineKo": "Salesforce(CRM), AI 파트너 관계를 강화하고 핸즈프리 워크플로를 더욱 긴밀하게 만듭니다."
       },
@@ -31797,46 +31861,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Salesforce, Inc. (CRM) is Attracting Investor Attention: Here is What You Should Know",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "CRM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce, Inc. (CRM) is Attracting Investor Attention: Here is What You Should Know' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790109193.7240922
-        },
         "headlineKo": "Salesforce, Inc.(CRM)가 투자자의 관심을 끌고 있습니다: 알아야 할 사항은 다음과 같습니다."
       },
       {
@@ -31848,16 +31872,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "AMD, Intel, Salesforce, GameStop 및 오늘날의 시장을 설명하는 기타 주식"
-      },
-      {
-        "headline": "NOW Rides on Strong Workflow Demand: Can It Outpace CRM & MSFT?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e6272c5672cb262eceaabd7785a75c890c4ae4500ac59b2ca09dbd9dbfdd4b15",
-        "datetime": 1790001660,
-        "relevance": 0.75,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "지금은 강력한 워크플로 수요에 힘입어 CRM 및 MSFT를 능가할 수 있습니까?"
       },
       {
         "headline": "Salesforce’s Marc Benioff to AI industry: Regulate yourselves or get sued",
@@ -31938,6 +31952,69 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "How Far Could CRM Stock Swing In A Year?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a6af23dc1a2783597affa9452a4eff38cb0b0a22d508bdb19d426711b4332419",
+        "datetime": 1790110657,
+        "headlineKo": "CRM 주식은 1년에 얼마나 변동될 수 있나요?",
+        "relevance": 0.75,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "CRM 주식은 1년에 얼마나 변동될 수 있나요?",
+            "| Trefis CRM 주식은 1년에 얼마나 변동될 수 있습니까?",
+            "2026년 9월 22일 · Trefis Team CRM YTD -10.1% SPY YTD +14.0% QQQ YTD +21.0% CRM 분석 → Salesforce(CRM) 주식은 3개월 동안 약 58% 수익률을 올린 후 약 $236에 거래됩니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 10.1%, 14.0%, 21.0% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "CRM에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.75,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "10.1%",
+            "14.0%",
+            "21.0%",
+            "$236",
+            "58%",
+            "$152",
+            "$368.",
+            "$236,"
+          ],
+          "sourceExcerpt": [
+            "How Far Could CRM Stock Swing In A Year?",
+            "| Trefis How Far Could CRM Stock Swing In A Year?",
+            "September 22nd, 2026 · by Trefis Team CRM YTD -10.1% SPY YTD +14.0% QQQ YTD +21.0% Analyze CRM → Salesforce (CRM) stock trades at about $236 after returning about 58% over three months."
+          ],
+          "analysisUpdatedAt": 1790131314.1411805
+        }
+      },
+      {
         "headline": "Salesforce vs. ServiceNow: Which Technology Stock Is a Better Buy in 2026?",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=68d58b8e2929f6963c7b5e44a5008a7d2250624581dd63338158e4dddf0fbb0a",
@@ -31954,7 +32031,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "ServiceNow: 2026년에는 어느 기술주를 매수하는 것이 더 나은가요?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 소프트웨어 거대 기업들이 기업의 모든 구석구석에 인공 지능을 통합하기 위해 경쟁하면서 투자자들은 Sa를 선택할지 여부에 대해 논쟁을 벌이고 있습니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 소프트웨어 거대 기업들이 인공 지능을 기업의 모든 구석구석에 통합하기 위해 경쟁하면서 투자자들은 Sa를 선택할지 여부에 대해 논쟁을 벌이고 있습니다.",
             "Salesforce는 고객 관계 관리 분야에서 여전히 지배적인 세력을 유지하고 있으며 ServiceNow는 IT 및 인적 자원 전반에 걸쳐 복잡한 워크플로를 자동화하여 대규모 틈새 시장을 개척했습니다."
           ],
           "why": [
@@ -31997,7 +32074,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool As software giants race to integrate artificial intelligence into every corner of the enterprise, investors are debating whether Sa",
             "Salesforce remains the dominant force in customer relationship management, while ServiceNow has carved out a massive niche by automating complex workflows across IT and human resources."
           ],
-          "analysisUpdatedAt": 1790109189.9216573
+          "analysisUpdatedAt": 1790131318.668031
         }
       },
       {
@@ -32046,7 +32123,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790109191.6502929
+          "analysisUpdatedAt": 1790131321.0543914
         }
       },
       {
@@ -34435,15 +34512,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790109181.839408,
-    "_updated_label": "2026-09-23 05:33",
-    "_last_success_at": 1790109181.839408,
+    "_fetched_at": 1790131306.4389548,
+    "_updated_label": "2026-09-23 11:42",
+    "_last_success_at": 1790131306.4389548,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 70,
+      "checked": 71,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "PLTR": {
@@ -37833,7 +37910,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 80,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "NVDA": {
@@ -42778,7 +42855,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "AMD": {
@@ -46399,7 +46476,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "AVGO": {
@@ -49032,7 +49109,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "QCOM": {
@@ -51312,7 +51389,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "ARM": {
@@ -53395,7 +53472,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "MRVL": {
@@ -55722,19 +55799,133 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "INTC": {
-    "_last_attempt_at": 1790109181.839408,
+    "_last_attempt_at": 1790131306.4389548,
     "nextEarnings": {
-      "date": "2026-10-22",
+      "date": "2026-10-21",
       "hour": "amc",
-      "epsEstimate": 0.3917,
-      "revenueEstimate": 16728525136
+      "epsEstimate": 0.3946,
+      "revenueEstimate": 16738400134
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "ASML vs. Intel: Which AI Chip Stock Is a Better Buy in 2026?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5c84178296358c5d1f44e6fedf939e44f4c51866e39c0e198a910c91a9a30441",
+        "datetime": 1790121301,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "인텔: 2026년에는 어느 AI 칩 주식이 더 나은 구매인가?",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 2026년 AI가 칩 산업을 재편하면서 반도체 회사들은 그들의 역할을 재정의하고 있습니다.",
+            "ASML Holding( ASML +2.14% )과 Intel( INTC +1.71% ) 중에서 선택하려면 업계 필수 툴킷과 제조 기반 간의 차이점을 이해해야 합니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 2.14%, 1.71%, $37.5 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "INTC에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "2.14%",
+            "1.71%",
+            "$37.5 billion",
+            "15.6%",
+            "$11.0 billion",
+            "29.4%",
+            "$12.2 billion",
+            "10%"
+          ],
+          "sourceExcerpt": [
+            "Intel: Which AI Chip Stock Is a Better Buy in 2026?",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool As AI reshapes the chip industry in 2026, semiconductor companies are redefining their roles.",
+            "Choosing between ASML Holding ( ASML +2.14% ) and Intel ( INTC +1.71% ) requires understanding the difference between the industry's essential toolkit and its manufacturing foundation."
+          ],
+          "analysisUpdatedAt": 1790131327.7670207
+        },
+        "headlineKo": "ASML 대 Intel: 2026년에는 어떤 AI 칩 주식을 구매하는 것이 더 나은가요?"
+      },
+      {
+        "headline": "Intel (INTC) Stock Moves 1.71%: What You Should Know",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b38e5c742332d42084f2e89c006a5f9e71908cc66386db38cff89e82c3abed8f",
+        "datetime": 1790113504,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Intel (INTC) Stock Moves 1.71%: What You Should Know",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel (INTC) Stock Moves 1.71%: What You Should Know' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790131330.2842183
+        },
+        "headlineKo": "인텔(INTC) 주가 1.71% 변동: 알아야 할 사항"
+      },
       {
         "headline": "Intel Is Up 25% in 5 Days. The $145 Price Target Just Moved Too",
         "source": "Yahoo",
@@ -55752,7 +55943,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "145달러 목표 가격이 너무 높아졌습니다 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,775.60 +0.01% Dow Jones 51,951.80 −0.34% Nasdaq 100 30,754.00 +0.77% Russell 2000 2,895.86 +0.55% S&P 500 7,775.60 +0.01% 다우존스 51,951.80 −0.34% 나스닥 100 30,754.00 +0.77% 러셀 2000 2,895.86 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,775.40 +0.01% Dow Jones 51,964.80 +0.04% Nasdaq 100 30,741.00 −0.03% Russell 2000 2,892.03 −0.13% S&P 500 7,775.40 +0.01% 다우존스 51,964.80 +0.04% 나스닥 100 30,741.00 −0.03% 러셀 2000 2,892.03 −0.",
             "145달러 목표 가격이 너무 많이 움직였습니다. Intel은 최근 몇 년 만에 가장 빠른 상승세를 보였습니다. 그러나 급등 전에 목표 가격을 제시한 분석가는 이러한 움직임이 여전히 가장 중요한 촉매제를 놓치고 있다고 생각합니다."
           ],
           "why": [
@@ -55792,10 +55983,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "The $145 Price Target Just Moved Too - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,775.60 +0.01% Dow Jones 51,951.80 −0.34% Nasdaq 100 30,754.00 +0.77% Russell 2000 2,895.86 +0.55% S&P 500 7,775.60 +0.01% Dow Jones 51,951.80 −0.34% Nasdaq 100 30,754.00 +0.77% Russell 2000 2,895.86 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,775.40 +0.01% Dow Jones 51,964.80 +0.04% Nasdaq 100 30,741.00 −0.03% Russell 2000 2,892.03 −0.13% S&P 500 7,775.40 +0.01% Dow Jones 51,964.80 +0.04% Nasdaq 100 30,741.00 −0.03% Russell 2000 2,892.03 −0.",
             "The $145 Price Target Just Moved Too Intel just staged one of its fastest rallies in years, but the analyst who called the price target before the surge thinks the move is still missing its most important catalyst."
           ],
-          "analysisUpdatedAt": 1790109203.047384
+          "analysisUpdatedAt": 1790131333.7808514
         },
         "headlineKo": "인텔은 5일 만에 25% 상승했습니다. 145달러 목표 가격도 방금 움직였습니다."
       },
@@ -55807,46 +55998,6 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "실적·재무 부담 확인 필요",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Intel Drops as Muse Revives the Server CPU Thesis",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "INTC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel Drops as Muse Revives the Server CPU Thesis' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790109205.266865
-        },
         "headlineKo": "Intel은 Muse가 서버 CPU 논제를 부활시키자 하락했습니다."
       },
       {
@@ -55857,67 +56008,7 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Can Intel's Core Ultra Expansion With Googlebook Benefit the Stock?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "INTC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 INTC의 사업과 관련된 'Can Intel's Core Ultra Expansion With Googlebook Benefit the Stock?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790109207.352478
-        },
         "headlineKo": "Googlebook을 사용한 Intel의 Core Ultra 확장이 주식에 도움이 될 수 있습니까?"
-      },
-      {
-        "headline": "Intel stock up 25% in last 5 days, on CPU demand as AI agents gain traction",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b43857665c5363aaf4c6c7aaeedd671aa130c326cc6dadf55b40fb37145e120e",
-        "datetime": 1790089937,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "AI 에이전트가 견인력을 얻으면서 CPU 수요로 인해 지난 5일 동안 인텔 주가가 25% 상승했습니다."
-      },
-      {
-        "headline": "Intel: The Smart Money Is Piling In",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=7cda62f2415e8938eccec75ad9c98b1f40fe4381744b6b1c8db933587ce7b13a",
-        "datetime": 1790085400,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "인텔: 스마트 머니가 늘어나고 있다"
       },
       {
         "headline": "Intel: No Bad Products, Just Bad Prices (Rating Downgrade)",
@@ -55982,6 +56073,118 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "ASML vs. Intel: Which AI Chip Stock Is a Better Buy in 2026?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5c84178296358c5d1f44e6fedf939e44f4c51866e39c0e198a910c91a9a30441",
+        "datetime": 1790121301,
+        "headlineKo": "ASML 대 Intel: 2026년에는 어떤 AI 칩 주식을 구매하는 것이 더 나은가요?",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "인텔: 2026년에는 어느 AI 칩 주식이 더 나은 구매인가?",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 2026년 AI가 칩 산업을 재편하면서 반도체 회사들은 그들의 역할을 재정의하고 있습니다.",
+            "ASML Holding( ASML +2.14% )과 Intel( INTC +1.71% ) 중에서 선택하려면 업계 필수 툴킷과 제조 기반 간의 차이점을 이해해야 합니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 2.14%, 1.71%, $37.5 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "INTC에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "2.14%",
+            "1.71%",
+            "$37.5 billion",
+            "15.6%",
+            "$11.0 billion",
+            "29.4%",
+            "$12.2 billion",
+            "10%"
+          ],
+          "sourceExcerpt": [
+            "Intel: Which AI Chip Stock Is a Better Buy in 2026?",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool As AI reshapes the chip industry in 2026, semiconductor companies are redefining their roles.",
+            "Choosing between ASML Holding ( ASML +2.14% ) and Intel ( INTC +1.71% ) requires understanding the difference between the industry's essential toolkit and its manufacturing foundation."
+          ],
+          "analysisUpdatedAt": 1790131327.7670207
+        }
+      },
+      {
+        "headline": "Intel (INTC) Stock Moves 1.71%: What You Should Know",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b38e5c742332d42084f2e89c006a5f9e71908cc66386db38cff89e82c3abed8f",
+        "datetime": 1790113504,
+        "headlineKo": "인텔(INTC) 주가 1.71% 변동: 알아야 할 사항",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Intel (INTC) Stock Moves 1.71%: What You Should Know",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel (INTC) Stock Moves 1.71%: What You Should Know' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790131330.2842183
+        }
+      },
+      {
         "headline": "Intel Is Up 25% in 5 Days. The $145 Price Target Just Moved Too",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=457883f0f473ada0a708561ff0eb577f3c075986ad8a6c2dfaedb9f4bee30251",
@@ -55998,7 +56201,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "145달러 목표 가격이 너무 높아졌습니다 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,775.60 +0.01% Dow Jones 51,951.80 −0.34% Nasdaq 100 30,754.00 +0.77% Russell 2000 2,895.86 +0.55% S&P 500 7,775.60 +0.01% 다우존스 51,951.80 −0.34% 나스닥 100 30,754.00 +0.77% 러셀 2000 2,895.86 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,775.40 +0.01% Dow Jones 51,964.80 +0.04% Nasdaq 100 30,741.00 −0.03% Russell 2000 2,892.03 −0.13% S&P 500 7,775.40 +0.01% 다우존스 51,964.80 +0.04% 나스닥 100 30,741.00 −0.03% 러셀 2000 2,892.03 −0.",
             "145달러 목표 가격이 너무 많이 움직였습니다. Intel은 최근 몇 년 만에 가장 빠른 상승세를 보였습니다. 그러나 급등 전에 목표 가격을 제시한 분석가는 이러한 움직임이 여전히 가장 중요한 촉매제를 놓치고 있다고 생각합니다."
           ],
           "why": [
@@ -56038,10 +56241,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "The $145 Price Target Just Moved Too - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,775.60 +0.01% Dow Jones 51,951.80 −0.34% Nasdaq 100 30,754.00 +0.77% Russell 2000 2,895.86 +0.55% S&P 500 7,775.60 +0.01% Dow Jones 51,951.80 −0.34% Nasdaq 100 30,754.00 +0.77% Russell 2000 2,895.86 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,775.40 +0.01% Dow Jones 51,964.80 +0.04% Nasdaq 100 30,741.00 −0.03% Russell 2000 2,892.03 −0.13% S&P 500 7,775.40 +0.01% Dow Jones 51,964.80 +0.04% Nasdaq 100 30,741.00 −0.03% Russell 2000 2,892.03 −0.",
             "The $145 Price Target Just Moved Too Intel just staged one of its fastest rallies in years, but the analyst who called the price target before the surge thinks the move is still missing its most important catalyst."
           ],
-          "analysisUpdatedAt": 1790109203.047384
+          "analysisUpdatedAt": 1790131333.7808514
         }
       },
       {
@@ -59185,15 +59388,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790109181.839408,
-    "_updated_label": "2026-09-23 05:33",
-    "_last_success_at": 1790109181.839408,
+    "_fetched_at": 1790131306.4389548,
+    "_updated_label": "2026-09-23 11:42",
+    "_last_success_at": 1790131306.4389548,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 86,
+      "checked": 88,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "TSM": {
@@ -61178,7 +61381,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "ASML": {
@@ -63041,7 +63244,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "AMAT": {
@@ -64925,7 +65128,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "LRCX": {
@@ -65816,11 +66019,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1790109181.839408,
+    "_last_attempt_at": 1790131306.4389548,
     "nextEarnings": {
       "date": "2026-10-27",
       "hour": "",
@@ -65829,6 +66032,56 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "KLA (KLAC) Stock Moves 2.36%: What You Should Know",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c6c88a66313f6d5812c519a5bb96d19997585a54821a76eeab5f90e1a40ac4a3",
+        "datetime": 1790115305,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "KLA (KLAC) Stock Moves 2.36%: What You Should Know",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "KLAC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'KLA (KLAC) Stock Moves 2.36%: What You Should Know' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "KLAC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790131340.5601792
+        },
+        "headlineKo": "KLA (KLAC) 주식 2.36% 변동: 알아야 할 사항"
+      },
       {
         "headline": "Semiconductor Metrology Global Market Opportunity Analysis and Industry Forecast 2026-2036 Featuring KLA Corp., Applied Materials, ASML, Hitachi High-Tech Corp., Lam Research Corp. and More",
         "source": "Yahoo",
@@ -65875,7 +66128,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790109214.6220217
+          "analysisUpdatedAt": 1790131342.6635332
         },
         "headlineKo": "반도체 계측 글로벌 시장 기회 분석 및 산업 예측 2026~2036년 KLA Corp., Applied Materials, ASML, Hitachi High-Tech Corp., Lam Research Corp. 등 포함"
       },
@@ -65939,7 +66192,7 @@ const NEWS_DATA = {
             "KLA Corporation | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Choosing between a niche equipment provider and a diversified industry titan requires balancing high growth potenti",
             "Here is how Aehr Test Systems ( AEHR +3.79% ) and KLA ( KLAC +2.37% ) compare for investors."
           ],
-          "analysisUpdatedAt": 1790109218.0504613
+          "analysisUpdatedAt": 1790131347.3147495
         },
         "headlineKo": "더 나은 인공 지능 주식: Aehr Test Systems vs. KLA Corporation"
       },
@@ -65951,15 +66204,37 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "KLA Corp(NASDAQ:KLAC): 강력한 수익성을 바탕으로 합리적인 성장"
+      },
+      {
+        "headline": "KLAC Gains From AI Infrastructure: Can It Outpace AMAT & ASML?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8a88638457d86816368e0fad014858a38c6302f947199fd09b47de613d992430",
+        "datetime": 1789751880,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "KLAC는 AI 인프라를 통해 이익을 얻습니다: AMAT 및 ASML을 능가할 수 있습니까?"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "KLA (KLAC) Stock Moves 2.36%: What You Should Know",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c6c88a66313f6d5812c519a5bb96d19997585a54821a76eeab5f90e1a40ac4a3",
+        "datetime": 1790115305,
+        "headlineKo": "KLA (KLAC) 주식 2.36% 변동: 알아야 할 사항",
+        "relevance": 1,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "low",
-          "tone": "positive",
+          "tone": "neutral",
           "certainty": "본문 확인 필요",
-          "label": "실적·수요 개선 가능성",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "KLA Corp (NASDAQ:KLAC): Affordable Growth Backed by Strong Profitability",
+            "KLA (KLAC) Stock Moves 2.36%: What You Should Know",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -65983,38 +66258,15 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 KLAC의 사업과 관련된 'KLA Corp (NASDAQ:KLAC): Affordable Growth Backed by Strong Profitability' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'KLA (KLAC) Stock Moves 2.36%: What You Should Know' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "KLAC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790109219.1167183
-        },
-        "headlineKo": "KLA Corp(NASDAQ:KLAC): 강력한 수익성을 바탕으로 합리적인 성장"
+          "analysisUpdatedAt": 1790131340.5601792
+        }
       },
-      {
-        "headline": "KLAC Gains From AI Infrastructure: Can It Outpace AMAT & ASML?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8a88638457d86816368e0fad014858a38c6302f947199fd09b47de613d992430",
-        "datetime": 1789751880,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "KLAC는 AI 인프라를 통해 이익을 얻습니다: AMAT 및 ASML을 능가할 수 있습니까?"
-      },
-      {
-        "headline": "Lam Research Climbs 5% as Chip Equipment Names Outrun the Sector; Applied Materials Rises 4%, KLA Corp. Gains 3%",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=360dbc368dec5888dedfa09dc6ca0aa128bb5d70219db1b77cdef0e56b339fff",
-        "datetime": 1789750784,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Lam Research는 칩 장비 이름이 해당 부문을 앞지르면서 5% 상승했습니다. 어플라이드 머티리얼즈 4% 상승, KLA Corp. 3% 상승"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Semiconductor Metrology Global Market Opportunity Analysis and Industry Forecast 2026-2036 Featuring KLA Corp., Applied Materials, ASML, Hitachi High-Tech Corp., Lam Research Corp. and More",
         "source": "Yahoo",
@@ -66061,7 +66313,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790109214.6220217
+          "analysisUpdatedAt": 1790131342.6635332
         }
       },
       {
@@ -66124,7 +66376,7 @@ const NEWS_DATA = {
             "KLA Corporation | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Choosing between a niche equipment provider and a diversified industry titan requires balancing high growth potenti",
             "Here is how Aehr Test Systems ( AEHR +3.79% ) and KLA ( KLAC +2.37% ) compare for investors."
           ],
-          "analysisUpdatedAt": 1790109218.0504613
+          "analysisUpdatedAt": 1790131347.3147495
         }
       },
       {
@@ -66650,15 +66902,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790109181.839408,
-    "_updated_label": "2026-09-23 05:33",
-    "_last_success_at": 1790109181.839408,
+    "_fetched_at": 1790131306.4389548,
+    "_updated_label": "2026-09-23 11:42",
+    "_last_success_at": 1790131306.4389548,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 19,
+      "checked": 20,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "MU": {
@@ -70752,7 +71004,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "SNDK": {
@@ -73249,7 +73501,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "WDC": {
@@ -74421,7 +74673,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "ANET": {
@@ -75788,7 +76040,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "COHR": {
@@ -77315,7 +77567,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "LITE": {
@@ -78578,7 +78830,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "GEV": {
@@ -80803,7 +81055,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "CEG": {
@@ -82131,7 +82383,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "VST": {
@@ -83353,7 +83605,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "ETN": {
@@ -84539,7 +84791,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "PWR": {
@@ -85634,7 +85886,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "HUBB": {
@@ -86180,11 +86432,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "VRT": {
-    "_last_attempt_at": 1790109181.839408,
+    "_last_attempt_at": 1790131306.4389548,
     "nextEarnings": {
       "date": "2026-10-20",
       "hour": "",
@@ -86193,6 +86445,56 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Vertiv Holdings Co. (VRT) Stock Moves 1.04%: What You Should Know",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8e648ac20b9800c147ab640daeb7b2da49b1382c8831afc297a747abbf3796bc",
+        "datetime": 1790113504,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Vertiv Holdings Co. (VRT) Stock Moves 1.04%: What You Should Know",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "VRT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 VRT의 사업과 관련된 'Vertiv Holdings Co. (VRT) Stock Moves 1.04%: What You Should Know' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "VRT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790131352.5910304
+        },
+        "headlineKo": "Vertiv Holdings Co.(VRT) 주가 1.04% 변동: 알아야 할 사항"
+      },
       {
         "headline": "Eaton vs. Vertiv: Which Data Center Power Stock Has an Edge?",
         "source": "Yahoo",
@@ -86239,7 +86541,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790109229.5987463
+          "analysisUpdatedAt": 1790131354.4792948
         },
         "headlineKo": "Eaton 대 Vertiv: 어느 데이터 센터 전력 재고에 우위가 있습니까?"
       },
@@ -86289,7 +86591,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790109231.0555153
+          "analysisUpdatedAt": 1790131356.4194577
         },
         "headlineKo": "Zacks 분석가 블로그에서는 NVIDIA, Vertiv, Arista Networks, Broadcom 및 Hewlett Packard를 강조합니다."
       },
@@ -86301,60 +86603,6 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Eaton: 이 AI 인프라 주식이 더 나은 구매입니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 인공지능(AI) 붐이 새로운 인프라 경쟁을 만들고 있습니다.",
-            "데이터 센터에서는 최신 칩을 따라잡기 위해 더 많은 전력, 냉각 및 장비가 필요합니다.",
-            "그리고 Vertiv(VRT +1.04%) 및 Eaton(ETN +1.62%)과 같은 회사는 모두 수혜를 입을 수 있는 위치에 있지만 어느 쪽이 더 나은 AI 인프라 플레이입니까?"
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 1.04%, 1.62%, 1.04 % — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "VRT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "VRT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "VRT에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "1.04%",
-            "1.62%",
-            "1.04 %",
-            "$ 2.60",
-            "$ 253.46",
-            "$97",
-            "$ 249.14",
-            "$ 255.40"
-          ],
-          "sourceExcerpt": [
-            "Eaton: This AI Infrastructure Stock Is the Better Buy | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The artificial intelligence (AI) boom is creating a new infrastructure race.",
-            "Data centers need more power, cooling, and equipment to keep up with the latest chips.",
-            "And companies like Vertiv ( VRT +1.04% ) and Eaton ( ETN +1.62% ) are both positioned to benefit, but which one is the better AI infrastructure play?"
-          ],
-          "analysisUpdatedAt": 1790109235.0888808
-        },
         "headlineKo": "Vertiv 대 Eaton: 이 AI 인프라 주식이 더 나은 구매입니다"
       },
       {
@@ -86366,19 +86614,58 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Vertiv 주식이 작년에 급격하게 상승했지만 최고치보다 훨씬 낮은 이유는 무엇입니까?"
-      },
-      {
-        "headline": "If You Invested $1000 In Vertiv Holdings Stock 5 Years Ago, You Would Have This Much Today",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=2666b89c6e303c68449408c80789ebd85fb7128f7459898f8791cec88d78fb7a",
-        "datetime": 1790008229,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "5년 전에 Vertiv Holdings 주식에 1,000달러를 투자했다면 현재 이 정도의 수익을 얻게 될 것입니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Vertiv Holdings Co. (VRT) Stock Moves 1.04%: What You Should Know",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8e648ac20b9800c147ab640daeb7b2da49b1382c8831afc297a747abbf3796bc",
+        "datetime": 1790113504,
+        "headlineKo": "Vertiv Holdings Co.(VRT) 주가 1.04% 변동: 알아야 할 사항",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Vertiv Holdings Co. (VRT) Stock Moves 1.04%: What You Should Know",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "VRT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 VRT의 사업과 관련된 'Vertiv Holdings Co. (VRT) Stock Moves 1.04%: What You Should Know' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "VRT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790131352.5910304
+        }
+      },
       {
         "headline": "Eaton vs. Vertiv: Which Data Center Power Stock Has an Edge?",
         "source": "Yahoo",
@@ -86425,7 +86712,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790109229.5987463
+          "analysisUpdatedAt": 1790131354.4792948
         }
       },
       {
@@ -86474,7 +86761,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790109231.0555153
+          "analysisUpdatedAt": 1790131356.4194577
         }
       },
       {
@@ -87287,24 +87574,24 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790109181.839408,
-    "_updated_label": "2026-09-23 05:33",
-    "_last_success_at": 1790109181.839408,
+    "_fetched_at": 1790131306.4389548,
+    "_updated_label": "2026-09-23 11:42",
+    "_last_success_at": 1790131306.4389548,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 24,
+      "checked": 25,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "MOD": {
-    "_last_attempt_at": 1790109181.839408,
+    "_last_attempt_at": 1790131306.4389548,
     "nextEarnings": {
       "date": "2026-10-26",
       "hour": "",
-      "epsEstimate": 1.4961,
-      "revenueEstimate": 978233106
+      "epsEstimate": 1.4973,
+      "revenueEstimate": 978801231
     },
     "_earnings_status": "ok",
     "news": [
@@ -87354,7 +87641,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790109242.1207063
+          "analysisUpdatedAt": 1790131362.3125515
         },
         "headlineKo": "월스트리트 상승세는 Modine(MOD)에 대해 낙관적입니다. 매수해야 할까요?"
       },
@@ -87404,7 +87691,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790109244.1820314
+          "analysisUpdatedAt": 1790131364.293925
         },
         "headlineKo": "Gentherm과 Modine Manufacturing Company, Gentherm과 Modine의 성능 기술 사업 결합 제안과 관련된 추가 정보 발표"
       },
@@ -87454,7 +87741,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790109245.197456
+          "analysisUpdatedAt": 1790131365.554115
         },
         "headlineKo": "Modine은 2026년 9월 28일 Performance Technologies 분사 및 Gentherm과의 합병 기록일을 설정하여 ~$1.90/주 특별 배당금을 선언합니다."
       },
@@ -87526,7 +87813,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790109242.1207063
+          "analysisUpdatedAt": 1790131362.3125515
         }
       },
       {
@@ -87575,7 +87862,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790109244.1820314
+          "analysisUpdatedAt": 1790131364.293925
         }
       },
       {
@@ -87624,7 +87911,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790109245.197456
+          "analysisUpdatedAt": 1790131365.554115
         }
       },
       {
@@ -87891,15 +88178,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790109181.839408,
-    "_updated_label": "2026-09-23 05:34",
-    "_last_success_at": 1790109181.839408,
+    "_fetched_at": 1790131306.4389548,
+    "_updated_label": "2026-09-23 11:42",
+    "_last_success_at": 1790131306.4389548,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "STX": {
@@ -89043,7 +89330,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "EME": {
@@ -89801,7 +90088,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "FIX": {
@@ -90567,7 +90854,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   },
   "BE": {
@@ -91694,7 +91981,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-09-23 11:17"
+      "updated": "2026-09-23 11:42"
     }
   }
 };
