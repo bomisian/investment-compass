@@ -189,9 +189,9 @@ const INDEPENDENT_VALUATION_DATA = {
       "rangeLabel": "동종기업 배수 적용 참고범위",
       "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
       "available": true,
-      "rangeLow": 538.7901536856265,
-      "rangeHigh": 572.1524255798771,
-      "rangeMid": 555.4712896327518,
+      "rangeLow": 538.6515159908283,
+      "rangeHigh": 571.997077427679,
+      "rangeMid": 555.3242967092536,
       "bandStatus": "BELOW_BAND",
       "bandDisclaimer": "이 범위는 검증된 매수가·바닥가격·성공확률이 아니다 -- 동종업계가 지금 받는 배수를 그대로 적용한 참고 범위일 뿐이며, 이 범위와 별도로 산출되는 장기 DCF 내재가치(조건부 참고값)와도 다른 개념이다.",
       "comparisonPrice": 464.239990234375,
@@ -222,9 +222,9 @@ const INDEPENDENT_VALUATION_DATA = {
           "reason": "통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)"
         }
       ],
-      "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-24T03:36:18.488911+09:00",
-      "asOfDate": "2026-09-24",
+      "changeReasonVsPrevious": "대상종목(공통기준) 컨센서스 EPS 변경 ($17.8810 -> $17.8655); KLAC forward P/E 변경 (31.9978x -> 32.0169x); LRCX forward P/E 변경 (30.1320x -> 30.1504x)",
+      "generatedAt": "2026-09-24T03:56:17.488722+09:00",
+      "asOfDate": "2026-09-23",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
       "lastCheckWasBenignSkip": false,
@@ -305,13 +305,13 @@ const INDEPENDENT_VALUATION_DATA = {
             "per_price_basis_note": "현재가 $464.2400(2026-09-21) / 해당 기간 EPS"
           },
           "ntm": {
-            "eps": 17.880998054794517,
+            "eps": 17.86549016438356,
             "period_end": null,
             "period_label": "NTM(향후 365일 일수보간)",
-            "window_start": "2026-09-24",
-            "window_end": "2027-09-24",
+            "window_start": "2026-09-23",
+            "window_end": "2027-09-23",
             "eps_basis_note": "0y 2026-10-31(가중10%) / +1y 2027-10-31(가중90%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-            "per": 25.962756039218746,
+            "per": 25.985292648722208,
             "per_price_basis_note": "현재가 $464.2400(2026-09-21) / 해당 기간 EPS"
           }
         },
@@ -343,7 +343,7 @@ const INDEPENDENT_VALUATION_DATA = {
               "vs_same_period_eps_pct": 9.54333964229801
             },
             "ntm": {
-              "required_eps_if_multiple_unchanged": 19.58744243059626,
+              "required_eps_if_multiple_unchanged": 19.57045456953203,
               "vs_same_period_eps_pct": 9.54333964229801
             }
           }
@@ -944,8 +944,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "kind": "independent_value_dcf_scenario_engine",
       "asOf": "2026-09-24",
       "valuationAnchorDate": "2026-07-26",
-      "runId": "AMAT_REAL_20260924T033152937740",
-      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260924T033152914757",
+      "runId": "AMAT_REAL_20260924T040004907229",
+      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260924T040004884743",
       "engineVersion": "amat_calc_engine v4 (2026-09-18, 모델 채택 검토) -- D&A/CapEx 비율 곡선을 FY2025 실측 대조로 조정(min(0.60,0.20+0.10*(i+1)) -> min(0.45,0.19+0.065*i)), 계산 결과가 달라짐(v3 대비). 과거 실행은 각자 저장된 code_snapshots로 그 시점 값 그대로 재현 가능.",
       "isReplayFixture": false,
       "px": 191.18875891941352,
@@ -956,21 +956,21 @@ const INDEPENDENT_VALUATION_DATA = {
           "growthY1": 0.3134993682913383,
           "roic": 0.18,
           "ntmValue": 40504380020.0,
-          "runId": "AMAT_REAL_20260924T033152922093"
+          "runId": "AMAT_REAL_20260924T040004891483"
         },
         "base": {
           "px": 191.18875891941352,
           "growthY1": 0.38220422220060324,
           "roic": 0.22,
           "ntmValue": 42623031600.0,
-          "runId": "AMAT_REAL_20260924T033152937740"
+          "runId": "AMAT_REAL_20260924T040004907229"
         },
         "optimistic": {
           "px": 202.91184230912685,
           "growthY1": 0.45090907610986797,
           "roic": 0.26,
           "ntmValue": 44741683180.0,
-          "runId": "AMAT_REAL_20260924T033152973324"
+          "runId": "AMAT_REAL_20260924T040004949430"
         }
       },
       "priorDeliveredPx": 129.13,
@@ -1652,7 +1652,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "updateStatus": {
         "attemptStatus": "SUCCESS",
         "failureType": null,
-        "attemptedAt": "2026-09-24T03:31:52.946161",
+        "attemptedAt": "2026-09-24T04:00:04.916008",
         "dataAsOf": "2026-09-21",
         "holdPrice": false,
         "reason": ""
@@ -1671,9 +1671,9 @@ const INDEPENDENT_VALUATION_DATA = {
       "rangeLabel": "동종기업 배수 적용 참고범위",
       "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
       "available": true,
-      "rangeLow": 260.45476651978265,
-      "rangeHigh": 320.99739262638803,
-      "rangeMid": 290.72607957308537,
+      "rangeLow": 260.52180215851666,
+      "rangeHigh": 320.99283253394617,
+      "rangeMid": 290.7573173462314,
       "bandStatus": "WITHIN_BAND",
       "bandDisclaimer": "이 범위는 검증된 매수가·바닥가격·성공확률이 아니다 -- 동종업계가 지금 받는 배수를 그대로 적용한 참고 범위일 뿐이며, 이 범위와 별도로 산출되는 장기 DCF 내재가치(조건부 참고값)와도 다른 개념이다.",
       "comparisonPrice": 302.2799987792969,
@@ -1704,9 +1704,9 @@ const INDEPENDENT_VALUATION_DATA = {
           "reason": "통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)"
         }
       ],
-      "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-24T03:36:18.704699+09:00",
-      "asOfDate": "2026-09-24",
+      "changeReasonVsPrevious": "AMAT forward P/E 변경 (25.9628x -> 25.9853x); KLAC forward P/E 변경 (31.9978x -> 32.0169x)",
+      "generatedAt": "2026-09-24T03:56:18.084672+09:00",
+      "asOfDate": "2026-09-23",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
       "lastCheckWasBenignSkip": false,
@@ -1779,13 +1779,13 @@ const INDEPENDENT_VALUATION_DATA = {
             "per_price_basis_note": "현재가 $302.2800(2026-09-21) / 해당 기간 EPS"
           },
           "ntm": {
-            "eps": 10.031861260273972,
+            "eps": 10.025740547945205,
             "period_end": null,
             "period_label": "NTM(향후 365일 일수보간)",
-            "window_start": "2026-09-24",
-            "window_end": "2027-09-24",
-            "eps_basis_note": "0y 2027-06-30(가중76%) / +1y 2028-06-30(가중24%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-            "per": 30.131995542673756,
+            "window_start": "2026-09-23",
+            "window_end": "2027-09-23",
+            "eps_basis_note": "0y 2027-06-30(가중77%) / +1y 2028-06-30(가중23%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+            "per": 30.150391119112868,
             "per_price_basis_note": "현재가 $302.2800(2026-09-21) / 해당 기간 EPS"
           }
         },
@@ -1807,8 +1807,8 @@ const INDEPENDENT_VALUATION_DATA = {
               "vs_same_period_eps_pct": 10.000000000000009
             },
             "ntm": {
-              "required_eps_if_multiple_unchanged": 11.035047386301372,
-              "vs_same_period_eps_pct": 10.000000000000032
+              "required_eps_if_multiple_unchanged": 11.028314602739727,
+              "vs_same_period_eps_pct": 10.000000000000009
             }
           }
         }
@@ -2129,9 +2129,9 @@ const INDEPENDENT_VALUATION_DATA = {
       "rangeLabel": "동종기업 배수 적용 참고범위",
       "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
       "available": true,
-      "rangeLow": 149.27181595631245,
-      "rangeHigh": 173.24268988423506,
-      "rangeMid": 161.25725292027374,
+      "rangeLow": 149.31235654943637,
+      "rangeHigh": 173.24515100672963,
+      "rangeMid": 161.278753778083,
       "bandStatus": "ABOVE_BAND",
       "bandDisclaimer": "이 범위는 검증된 매수가·바닥가격·성공확률이 아니다 -- 동종업계가 지금 받는 배수를 그대로 적용한 참고 범위일 뿐이며, 이 범위와 별도로 산출되는 장기 DCF 내재가치(조건부 참고값)와도 다른 개념이다.",
       "comparisonPrice": 183.97000122070312,
@@ -2162,9 +2162,9 @@ const INDEPENDENT_VALUATION_DATA = {
           "reason": "통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)"
         }
       ],
-      "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-24T03:36:18.908671+09:00",
-      "asOfDate": "2026-09-24",
+      "changeReasonVsPrevious": "AMAT forward P/E 변경 (25.9628x -> 25.9853x); LRCX forward P/E 변경 (30.1320x -> 30.1504x)",
+      "generatedAt": "2026-09-24T03:56:18.678309+09:00",
+      "asOfDate": "2026-09-23",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
       "lastCheckWasBenignSkip": false,
@@ -2239,13 +2239,13 @@ const INDEPENDENT_VALUATION_DATA = {
             "per_price_basis_note": "현재가 $183.9700(2026-09-21) / 해당 기간 EPS"
           },
           "ntm": {
-            "eps": 5.749459561643835,
+            "eps": 5.746033287671232,
             "period_end": null,
             "period_label": "NTM(향후 365일 일수보간)",
-            "window_start": "2026-09-24",
-            "window_end": "2027-09-24",
-            "eps_basis_note": "0y 2027-06-30(가중76%) / +1y 2028-06-30(가중24%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-            "per": 31.997790270239594,
+            "window_start": "2026-09-23",
+            "window_end": "2027-09-23",
+            "eps_basis_note": "0y 2027-06-30(가중77%) / +1y 2028-06-30(가중23%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+            "per": 32.01687007547131,
             "per_price_basis_note": "현재가 $183.9700(2026-09-21) / 해당 기간 EPS"
           }
         },
@@ -2267,8 +2267,8 @@ const INDEPENDENT_VALUATION_DATA = {
               "vs_same_period_eps_pct": 10.000000000000009
             },
             "ntm": {
-              "required_eps_if_multiple_unchanged": 6.324405517808219,
-              "vs_same_period_eps_pct": 10.000000000000009
+              "required_eps_if_multiple_unchanged": 6.320636616438357,
+              "vs_same_period_eps_pct": 10.000000000000032
             }
           }
         }
@@ -2607,7 +2607,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "대상종목 비교가격 자료상태 문제: 통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
-      "withheldCheckedAt": "2026-09-24T03:36:19.113214+09:00",
+      "withheldCheckedAt": "2026-09-24T03:56:19.314658+09:00",
       "neverSucceeded": true
     },
     "longTermScenario": {
@@ -2945,8 +2945,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
-      "withheldReason": "band_high(792.7313519361525)<=band_low(792.7313519361525) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-24T03:36:19.276397+09:00",
+      "withheldReason": "band_high(792.7868365568219)<=band_low(792.7868365568219) -- 밴드 폭이 0 이하",
+      "withheldCheckedAt": "2026-09-24T03:56:19.544947+09:00",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -2959,6 +2959,75 @@ const INDEPENDENT_VALUATION_DATA = {
       "priorRangeHigh": 780.8500341880879,
       "priorRangeMid": 550.2035076524292,
       "priorBandStatus": "ABOVE_BAND"
+    },
+    "singleComparisonReference": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T03:56:25.018610+09:00",
+      "ok": true,
+      "reason": null,
+      "referenceKind": "single_comparison",
+      "peerCount": 1,
+      "targetTicker": "STX",
+      "peerTicker": "WDC",
+      "targetEps1": 40.39675147945205,
+      "targetEps1Basis": "NTM 컨센서스 EPS(blend_ntm_eps_from_annual_estimates, peer와 동일 함수로 산출)",
+      "peerForwardPe": 19.623641082609776,
+      "peerPrice": 448.1700134277344,
+      "peerPriceAsOf": "2026-09-21",
+      "appliedPrice": 792.7313519361525,
+      "targetCurrentPrice": 877.3300170898438,
+      "targetCurrentPriceAsOf": "2026-09-21",
+      "targetCurrentPriceType": "confirmed_close",
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T03:56:25.018610+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 비교기업이 정확히 1개일 때 그 기업의 forward P/E를 대상종목 자신의 NTM EPS에 그대로 곱한 '단일 비교기업 참고가격'일 뿐이다 -- 검증된 매수가·매도가·성공확률·신뢰구간이 아니며, low/high 범위 개념 자체가 없다(peer 1개라 범위를 구성하지 않음, 산술 실패 아님). 여러 peer로 만드는 상대가치 밴드(relativeValueBand)와는 다른 개념이며 서로 바꿔 쓰면 안 된다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이므로(eps_definition_confirmation_level 참고) 이 적용가격도 잠정으로 취급해야 한다.",
+      "targetEpsPeriodDetail": {
+        "0y_end": "2027-06-30",
+        "0y_eps": 35.78091,
+        "1y_end": "2028-06-30",
+        "1y_eps": 55.3714
+      },
+      "targetEpsNtmWeight": {
+        "weight_0y": 0.7643835616438356,
+        "weight_1y": 0.2356164383561644,
+        "days_in_0y": 279,
+        "days_in_1y": 86
+      },
+      "peerEpsPeriodDetail": {
+        "0y_end": "2027-06-30",
+        "0y_eps": 20.09143,
+        "1y_end": "2028-06-30",
+        "1y_eps": 31.74953
+      },
+      "peerEpsNtmWeight": {
+        "weight_0y": 0.7643835616438356,
+        "weight_1y": 0.2356164383561644,
+        "days_in_0y": 279,
+        "days_in_1y": 86
+      },
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: target='USD', peer='USD'. 재무제표통화(financialCurrency): target='USD', peer='USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)",
+      "targetPricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "targetEstimatesFetchedAt": "2026-09-23",
+      "peerCurrentPriceType": "confirmed_close",
+      "peerPricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "targetFinancialCurrency": "USD",
+      "targetQuoteCurrency": "USD",
+      "peerFinancialCurrency": "USD",
+      "peerQuoteCurrency": "USD"
     }
   },
   "WDC": {
@@ -2967,8 +3036,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
-      "withheldReason": "band_high(495.9977987238455)<=band_low(495.9977987238455) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-24T03:36:19.357616+09:00",
+      "withheldReason": "band_high(495.963085420791)<=band_low(495.963085420791) -- 밴드 폭이 0 이하",
+      "withheldCheckedAt": "2026-09-24T03:56:19.652620+09:00",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -2981,6 +3050,75 @@ const INDEPENDENT_VALUATION_DATA = {
       "priorRangeHigh": 485.41399183817754,
       "priorRangeMid": 333.0186167998752,
       "priorBandStatus": "WITHIN_BAND"
+    },
+    "singleComparisonReference": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T03:56:25.018610+09:00",
+      "ok": true,
+      "reason": null,
+      "referenceKind": "single_comparison",
+      "peerCount": 1,
+      "targetTicker": "WDC",
+      "peerTicker": "STX",
+      "targetEps1": 22.83827,
+      "targetEps1Basis": "NTM 컨센서스 EPS(blend_ntm_eps_from_annual_estimates, peer와 동일 함수로 산출)",
+      "peerForwardPe": 21.717835839748172,
+      "peerPrice": 877.3300170898438,
+      "peerPriceAsOf": "2026-09-21",
+      "appliedPrice": 495.9977987238455,
+      "targetCurrentPrice": 448.1700134277344,
+      "targetCurrentPriceAsOf": "2026-09-21",
+      "targetCurrentPriceType": "confirmed_close",
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T03:56:25.018610+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 비교기업이 정확히 1개일 때 그 기업의 forward P/E를 대상종목 자신의 NTM EPS에 그대로 곱한 '단일 비교기업 참고가격'일 뿐이다 -- 검증된 매수가·매도가·성공확률·신뢰구간이 아니며, low/high 범위 개념 자체가 없다(peer 1개라 범위를 구성하지 않음, 산술 실패 아님). 여러 peer로 만드는 상대가치 밴드(relativeValueBand)와는 다른 개념이며 서로 바꿔 쓰면 안 된다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이므로(eps_definition_confirmation_level 참고) 이 적용가격도 잠정으로 취급해야 한다.",
+      "targetEpsPeriodDetail": {
+        "0y_end": "2027-06-30",
+        "0y_eps": 20.09143,
+        "1y_end": "2028-06-30",
+        "1y_eps": 31.74953
+      },
+      "targetEpsNtmWeight": {
+        "weight_0y": 0.7643835616438356,
+        "weight_1y": 0.2356164383561644,
+        "days_in_0y": 279,
+        "days_in_1y": 86
+      },
+      "peerEpsPeriodDetail": {
+        "0y_end": "2027-06-30",
+        "0y_eps": 35.78091,
+        "1y_end": "2028-06-30",
+        "1y_eps": 55.3714
+      },
+      "peerEpsNtmWeight": {
+        "weight_0y": 0.7643835616438356,
+        "weight_1y": 0.2356164383561644,
+        "days_in_0y": 279,
+        "days_in_1y": 86
+      },
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: target='USD', peer='USD'. 재무제표통화(financialCurrency): target='USD', peer='USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)",
+      "targetPricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "targetEstimatesFetchedAt": "2026-09-23",
+      "peerCurrentPriceType": "confirmed_close",
+      "peerPricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "targetFinancialCurrency": "USD",
+      "targetQuoteCurrency": "USD",
+      "peerFinancialCurrency": "USD",
+      "peerQuoteCurrency": "USD"
     }
   },
   "SNDK": {
@@ -2990,7 +3128,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "선정 기준을 통과한 동종업계 배수가 하나도 없음 -- 밴드 산출 보류(0으로 채우지 않음)",
-      "withheldCheckedAt": "2026-09-24T03:36:19.438329+09:00",
+      "withheldCheckedAt": "2026-09-24T03:56:19.760417+09:00",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -3012,7 +3150,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "선정 기준을 통과한 동종업계 배수가 하나도 없음 -- 밴드 산출 보류(0으로 채우지 않음)",
-      "withheldCheckedAt": "2026-09-24T03:36:19.480151+09:00",
+      "withheldCheckedAt": "2026-09-24T03:56:19.821397+09:00",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -3033,8 +3171,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
-      "withheldReason": "band_high(1019.3811670843517)<=band_low(1019.3811670843517) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-24T03:36:19.521732+09:00",
+      "withheldReason": "band_high(1019.6219966443072)<=band_low(1019.6219966443072) -- 밴드 폭이 0 이하",
+      "withheldCheckedAt": "2026-09-24T03:56:19.884204+09:00",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -3047,6 +3185,75 @@ const INDEPENDENT_VALUATION_DATA = {
       "priorRangeHigh": 1202.308820321575,
       "priorRangeMid": 1117.0738644132853,
       "priorBandStatus": "BELOW_BAND"
+    },
+    "singleComparisonReference": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T03:56:25.018610+09:00",
+      "ok": true,
+      "reason": null,
+      "referenceKind": "single_comparison",
+      "peerCount": 1,
+      "targetTicker": "EME",
+      "peerTicker": "FIX",
+      "targetEps1": 35.70230435616438,
+      "targetEps1Basis": "NTM 컨센서스 EPS(blend_ntm_eps_from_annual_estimates, peer와 동일 함수로 산출)",
+      "peerForwardPe": 28.552251331316228,
+      "peerPrice": 1632.5899658203125,
+      "peerPriceAsOf": "2026-09-21",
+      "appliedPrice": 1019.3811670843517,
+      "targetCurrentPrice": 757.7100219726562,
+      "targetCurrentPriceAsOf": "2026-09-21",
+      "targetCurrentPriceType": "confirmed_close",
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T03:56:25.018610+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 비교기업이 정확히 1개일 때 그 기업의 forward P/E를 대상종목 자신의 NTM EPS에 그대로 곱한 '단일 비교기업 참고가격'일 뿐이다 -- 검증된 매수가·매도가·성공확률·신뢰구간이 아니며, low/high 범위 개념 자체가 없다(peer 1개라 범위를 구성하지 않음, 산술 실패 아님). 여러 peer로 만드는 상대가치 밴드(relativeValueBand)와는 다른 개념이며 서로 바꿔 쓰면 안 된다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이므로(eps_definition_confirmation_level 참고) 이 적용가격도 잠정으로 취급해야 한다.",
+      "targetEpsPeriodDetail": {
+        "0y_end": "2026-12-31",
+        "0y_eps": 32.85062,
+        "1y_end": "2027-12-31",
+        "1y_eps": 36.74899
+      },
+      "targetEpsNtmWeight": {
+        "weight_0y": 0.2684931506849315,
+        "weight_1y": 0.7315068493150685,
+        "days_in_0y": 98,
+        "days_in_1y": 267
+      },
+      "peerEpsPeriodDetail": {
+        "0y_end": "2026-12-31",
+        "0y_eps": 49.00705,
+        "1y_end": "2027-12-31",
+        "1y_eps": 60.17848
+      },
+      "peerEpsNtmWeight": {
+        "weight_0y": 0.2684931506849315,
+        "weight_1y": 0.7315068493150685,
+        "days_in_0y": 98,
+        "days_in_1y": 267
+      },
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: target='USD', peer='USD'. 재무제표통화(financialCurrency): target='USD', peer='USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)",
+      "targetPricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "targetEstimatesFetchedAt": "2026-09-23",
+      "peerCurrentPriceType": "confirmed_close",
+      "peerPricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "targetFinancialCurrency": "USD",
+      "targetQuoteCurrency": "USD",
+      "peerFinancialCurrency": "USD",
+      "peerQuoteCurrency": "USD"
     }
   },
   "FIX": {
@@ -3055,8 +3262,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
-      "withheldReason": "band_high(1213.510528561379)<=band_low(1213.510528561379) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-24T03:36:19.603681+09:00",
+      "withheldReason": "band_high(1213.2239035105695)<=band_low(1213.2239035105695) -- 밴드 폭이 0 이하",
+      "withheldCheckedAt": "2026-09-24T03:56:19.992829+09:00",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -3069,10 +3276,82 @@ const INDEPENDENT_VALUATION_DATA = {
       "priorRangeHigh": 1924.1925211179203,
       "priorRangeMid": 1562.3237542965494,
       "priorBandStatus": "WITHIN_BAND"
+    },
+    "singleComparisonReference": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T03:56:25.018610+09:00",
+      "ok": true,
+      "reason": null,
+      "referenceKind": "single_comparison",
+      "peerCount": 1,
+      "targetTicker": "FIX",
+      "peerTicker": "EME",
+      "targetEps1": 57.179027561643835,
+      "targetEps1Basis": "NTM 컨센서스 EPS(blend_ntm_eps_from_annual_estimates, peer와 동일 함수로 산출)",
+      "peerForwardPe": 21.223000465566013,
+      "peerPrice": 757.7100219726562,
+      "peerPriceAsOf": "2026-09-21",
+      "appliedPrice": 1213.510528561379,
+      "targetCurrentPrice": 1632.5899658203125,
+      "targetCurrentPriceAsOf": "2026-09-21",
+      "targetCurrentPriceType": "confirmed_close",
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T03:56:25.018610+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 비교기업이 정확히 1개일 때 그 기업의 forward P/E를 대상종목 자신의 NTM EPS에 그대로 곱한 '단일 비교기업 참고가격'일 뿐이다 -- 검증된 매수가·매도가·성공확률·신뢰구간이 아니며, low/high 범위 개념 자체가 없다(peer 1개라 범위를 구성하지 않음, 산술 실패 아님). 여러 peer로 만드는 상대가치 밴드(relativeValueBand)와는 다른 개념이며 서로 바꿔 쓰면 안 된다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이므로(eps_definition_confirmation_level 참고) 이 적용가격도 잠정으로 취급해야 한다.",
+      "targetEpsPeriodDetail": {
+        "0y_end": "2026-12-31",
+        "0y_eps": 49.00705,
+        "1y_end": "2027-12-31",
+        "1y_eps": 60.17848
+      },
+      "targetEpsNtmWeight": {
+        "weight_0y": 0.2684931506849315,
+        "weight_1y": 0.7315068493150685,
+        "days_in_0y": 98,
+        "days_in_1y": 267
+      },
+      "peerEpsPeriodDetail": {
+        "0y_end": "2026-12-31",
+        "0y_eps": 32.85062,
+        "1y_end": "2027-12-31",
+        "1y_eps": 36.74899
+      },
+      "peerEpsNtmWeight": {
+        "weight_0y": 0.2684931506849315,
+        "weight_1y": 0.7315068493150685,
+        "days_in_0y": 98,
+        "days_in_1y": 267
+      },
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: target='USD', peer='USD'. 재무제표통화(financialCurrency): target='USD', peer='USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)",
+      "targetPricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "targetEstimatesFetchedAt": "2026-09-23",
+      "peerCurrentPriceType": "confirmed_close",
+      "peerPricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "targetFinancialCurrency": "USD",
+      "targetQuoteCurrency": "USD",
+      "peerFinancialCurrency": "USD",
+      "peerQuoteCurrency": "USD"
     }
   },
   "COHR": {
     "singleComparisonReference": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T03:56:25.018610+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -3089,7 +3368,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-09-21",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-09-24",
-      "generatedAt": "2026-09-24T03:36:19.789775+09:00",
+      "generatedAt": "2026-09-24T03:56:25.018610+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3122,16 +3401,28 @@ const INDEPENDENT_VALUATION_DATA = {
       },
       "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
       "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
-      "epsCurrencyBasisNote": "USD(quoteCurrency 필드 기준, 종목별 raw 데이터에서 확인됨)",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: target='USD', peer='USD'. 재무제표통화(financialCurrency): target='USD', peer='USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
       "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
       "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)",
       "targetPricePossibleMissingSessionDates": [
         "2026-09-22"
-      ]
+      ],
+      "targetEstimatesFetchedAt": "2026-09-23",
+      "peerCurrentPriceType": "confirmed_close",
+      "peerPricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "targetFinancialCurrency": "USD",
+      "targetQuoteCurrency": "USD",
+      "peerFinancialCurrency": "USD",
+      "peerQuoteCurrency": "USD"
     }
   },
   "LITE": {
     "singleComparisonReference": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T03:56:25.018610+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -3148,7 +3439,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-09-21",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-09-24",
-      "generatedAt": "2026-09-24T03:36:19.789775+09:00",
+      "generatedAt": "2026-09-24T03:56:25.018610+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3181,12 +3472,21 @@ const INDEPENDENT_VALUATION_DATA = {
       },
       "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
       "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
-      "epsCurrencyBasisNote": "USD(quoteCurrency 필드 기준, 종목별 raw 데이터에서 확인됨)",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: target='USD', peer='USD'. 재무제표통화(financialCurrency): target='USD', peer='USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
       "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
       "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)",
       "targetPricePossibleMissingSessionDates": [
         "2026-09-22"
-      ]
+      ],
+      "targetEstimatesFetchedAt": "2026-09-23",
+      "peerCurrentPriceType": "confirmed_close",
+      "peerPricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "targetFinancialCurrency": "USD",
+      "targetQuoteCurrency": "USD",
+      "peerFinancialCurrency": "USD",
+      "peerQuoteCurrency": "USD"
     }
   }
 };
