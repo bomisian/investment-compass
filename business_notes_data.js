@@ -3789,6 +3789,44 @@ const BUSINESS_NOTES = {
           { title: "NHTSA Opens Investigation into Tesla Cybercab Self-Certification (NHTSA official)", url: "https://www.nhtsa.gov/press-releases/investigation-tesla-cybercab-self-certification" },
         ],
       },
+      {
+        date: "2026-09-21",
+        headline: "캘리포니아 인종차별 민사소송 정식 재판 개시 - 프리몬트 공장 6,000명+ 대상, 배상 상한 없음",
+        importance: "high",
+        tone: "risk",
+        horizon: "단기(10/30 재판 종결까지 헤드라인 리스크) + 중기(판결이 Vaughn 잔여소송·EEOC 조정 등 병행 소송 협상력에 영향)",
+        facts: [
+          "캘리포니아주 민권부(CRD)가 2022년 2월 약 3년간의 조사 끝에 제기한 소송이 2026-09-21 앨러미다카운티 고등법원(오클랜드)에서 정식 재판(배심원 없는 벤치 트라이얼, Peter Borkon 판사 주재)에 들어갔다 - 2026-10-30까지 진행될 예정이다.",
+          "소장은 프리몬트 공장 관리자·감독자가 인종차별적 발언을 반복하고, 공장을 '플랜테이션'으로 부르거나 흑인 근로자를 '노예'로 지칭했으며, 스와스티카·인종차별 낙서가 방치됐다고 주장한다.",
+          "2018년 6월~2024년 6월 기간 흑인 근로자가 백인 근로자보다 월평균 약 $1,533 적게 받았다는 임금격차 주장도 포함돼 있다.",
+          "소송 대상 근로자는 6,000명 이상이며, 캘리포니아주법상 이런 유형의 소송에는 손해배상 상한이 없다.",
+          "별개로 2021년 Owen Diaz 소송에서 배심원이 $137M 평결을 냈다가 $3.2M로 축소된 전례가 있고, 유사한 Vaughn 집단소송은 2026년 7월 일부 합의됐으나 약 580명이 계속 소송을 이어가고 있으며, 2023년 제기된 연방 EEOC 소송은 현재 조정 단계다.",
+          "테슬라는 \"차별을 용인하지 않으며 위반자를 해고해왔다\"는 입장이나, 원고 측은 일부 해고 근로자가 계약직 형태로 재고용된 사례를 문제 삼고 있다.",
+        ],
+        why: [
+          "배심원 없는 벤치 트라이얼이라 2021년 Diaz 사건 같은 극단적 배심원 평결 리스크는 상대적으로 낮지만, 배상 상한이 없고 대상 인원이 6,000명 이상이라 판결에 따른 재무적 노출 규모는 아직 확정되지 않았다.",
+          "이미 Vaughn 집단소송·EEOC 연방조정 등 유사 소송이 동시에 진행 중이라, 이번 판결 내용이 다른 소송들의 합의 협상력에도 영향을 줄 수 있다.",
+          "프리몬트 공장 노무 관행에 대한 부정적 헤드라인이 10월 말까지 이어질 수 있어 ESG·브랜드 리스크 측면의 노이즈가 예상된다.",
+        ],
+        beginner: [
+          "이번 재판은 배심원이 아니라 판사 혼자 결론을 내리는 방식이라, 2021년처럼 배심원 감정에 따라 배상액이 극단적으로 커질 가능성은 상대적으로 낮아요.",
+          "다만 캘리포니아주법은 이런 소송에 배상 상한이 없어서, 판결이 나오기 전까지는 최종적으로 얼마가 될지 예단하기 어려워요.",
+          "테슬라는 이미 끝난 것처럼 보였던 인종차별 관련 소송을 여러 건(Diaz, Vaughn, EEOC, 이번 CRD 소송) 동시에 안고 있다는 점도 함께 알아두면 좋아요.",
+        ],
+        interpretation: "이번 재판은 신규 사건이 아니라 2022년 제소된 캘리포니아 민권부(CRD) 소송이 4년 넘는 조사·절차를 거쳐 정식 재판 단계에 들어간 것이다. 배심원 없는 벤치 트라이얼이라는 점에서 2021년 Diaz 사건처럼 배심원 감정에 좌우되는 초고액 평결 리스크는 상대적으로 낮지만, 캘리포니아주법상 배상 상한이 없고 대상 근로자가 6,000명 이상이라는 점에서 판결 결과에 따른 재무적 노출은 여전히 불확실하다. 테슬라가 이미 유사한 소송(Vaughn, EEOC)을 여러 건 동시에 안고 있는 만큼, 이번 판결이 다른 소송의 합의 협상력에도 영향을 줄 수 있다.",
+        decision: "재판 진행 자체가 즉시 실적에 영향을 주는 이벤트는 아니므로, 10/30까지는 헤드라인 리스크로 보고 판결 이후 실제 배상액·후속 조치 규모를 다시 확인할 것.",
+        watch: [
+          "2026-10-30 재판 종결 및 Borkon 판사 판결 내용(배상액 포함)",
+          "판결이 Vaughn 잔여 소송(약 580명) 및 EEOC 연방조정에 미치는 영향",
+          "테슬라의 재고용 계약직 관련 반박 증거 제시 여부",
+        ],
+        confidence: "재판 개시일(9/21)·재판부·기간·임금격차 수치·과거 Diaz/Vaughn/EEOC 소송 현황은 Electrek·JURIST·CleanTechnica·Lawyer Monthly·U.S. News/Yahoo Finance 등 복수 매체가 일치되게 보도해 신뢰도가 높음. 다만 최종 판결 결과나 배상액은 아직 나오지 않아 향후 확인이 필요함.",
+        sources: [
+          {title:"Tesla goes to trial over racism claims against Black workers at 'plantation' (Electrek)", url:"https://electrek.co/2026/09/21/tesla-racism-trial-california-fremont-black-workers/"},
+          {title:"Tesla faces major trial for alleged bias against Black workers, after years of lawsuits (U.S. News/Yahoo Finance)", url:"https://www.usnews.com/news/top-news/articles/2026-09-21/tesla-faces-major-trial-for-alleged-bias-against-black-workers-after-years-of-lawsuits"},
+          {title:"Tesla racial discrimination trial begins in California (JURIST)", url:"https://www.jurist.org/news/2026/09/tesla/"},
+        ],
+      },
     ],
     viewLog: [
       {
