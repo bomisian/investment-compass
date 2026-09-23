@@ -882,7 +882,12 @@ async function setChartTimeframe(ticker, tf){
   chartUseLongHistory = (tf !== 'D');
   chartZoom = { span: null, center: null }; // 타임프레임이 바뀌면 인덱스 의미가 달라지므로 리셋
   chartPinnedIdx = null;
-  if(!longHistoryCache[ticker]){
+  // [2026-09-24 수정 -- 25번 독립검토 2번] tf==='D'일 때는 이미 위에서 chartUseLongHistory를
+  // false로 되돌렸고, getChartSeries의 빠른 기본 경로(r.series)가 바로 쓰인다 -- longHistoryCache가
+  // 없어도 장기 조회가 전혀 필요 없다. 이전엔 tf 조건 없이 캐시 유무만 봐서, 일봉을 직접 누러도
+  // 불필요한 fetchLongHistory가 다시 시작됐다(Codex 25번 검토 재현: "일봉을 직접 누러도 불필요한
+  // 장기 조회를 다시 시작한다"). 이제 일봉이 아닐 때만(주·월·연봉) 장기 데이터가 필요하므로 그때만 조회한다.
+  if(tf !== 'D' && !longHistoryCache[ticker]){
     renderTabContent(ticker); // 버튼 활성 표시만 먼저 갱신
     const c = document.getElementById('priceCanvas');
     if(c) c.insertAdjacentHTML('afterend', '<div id="chartTfLoading" class="sub" style="margin-top:6px;">⏳ 장기 데이터를 불러오는 중...</div>');
@@ -891,6 +896,12 @@ async function setChartTimeframe(ticker, tf){
     }catch(e){
       if(openTicker===ticker && activeTab==='01'){
         chartTimeframe = 'D';
+        // [2026-09-24 수정 -- 25번 독립검토 2번] 실패 복귀에서 기간만 'D'로 바꾸고
+        // chartUseLongHistory는 그대로 true로 남아 있었다 -- 그 결과 getChartSeries가 여전히
+        // longHistoryCache(비어있음)를 요구해서 null을 반환하고, "일봉으로 돌아갔다"는 안내와
+        // 달리 실제로는 표시할 시리즈가 없는 모순 상태가 됐다(Codex 25번 검토 재현). 기간과
+        // 플래그를 함께 기본 일봉 상태로 되돌린다.
+        chartUseLongHistory = false;
         const el = document.getElementById('chartTfLoading');
         if(el) el.textContent = '장기 데이터 조회에 실패해서 2년치 기본 화면으로 되돌아갔어요.';
         setTimeout(()=>{ if(openTicker===ticker) renderTabContent(ticker); }, 1500);
@@ -3734,15 +3745,16 @@ function renderFourLineEvidenceCard(r){
   const ddItem = (b.items||[]).find(it=>it.key==='drawdown');
   const posText = ddItem ? `52주 종가 고점대비 ${esc(ddItem.valueText)} · 점수기여 +${ddItem.points}점` : '자료 없음';
 
-  // [2026-09-24 수정 -- 24번 독립검토 필수2] 자료가 아예 없어서(뉴스 로그 없음·동종그룹 비교
-  // 불가·실적 자료 미연결) 위험 신호를 "발견하지 못한" 경우와, 실제로 세 항목을 다 확인했는데
-  // 위험이 없는 경우를 구분하지 않고 둘 다 "특이 위험 신호 없음"으로 출력하던 결함을 고친다.
-  // 계산(dc/rs/fd 자체)은 바꾸지 않고, 각 신호를 위험/정상/미확인 세 상태로 나눠서 표시만
-  // 분리한다. 실제 함수로 결측 상태 2건(전체 미확인 / 일부 위험+일부 미확인)을 넣어 확인함.
+  // [2026-09-24 수정 -- 25번 독립검토 1번] 이전에는 뉴스 미확인 여부를 단순히 newsLog 배열이
+  // 비어있는지만 봤다. 그 결과 일반 기사(directionCheck 없음) 한 건만 있어도 "뉴스를 다
+  // 확인했다"로 간주되어 위험 미평가가 "추가 경고 없음"으로 승격되는 결함이 있었다(Codex 25번
+  // 검토 재현: 일반 기사만 있는 픽스처에서 "확인한 항목에서 추가 경고 없음"이 나옴). 생기기사
+  // 존재와 방향성 분석 완료는 다른 것이다 -- 실제 판정 입력인 getDirectionCheck()의 결과(dc)가
+  // 있는지를 기준으로 뉴스 확인 여부를 판정한다 -- dc가 null이면(directionCheck가 붙은 행이
+  // 하나도 없으면) 기사 존재와 무관하게 "뉴스 미확인"이다.
   const dc = getDirectionCheck(r.ticker);
   const isRisk = dc && dc.tone==='risk';
-  const notesForTicker = (typeof BUSINESS_NOTES !== 'undefined') ? BUSINESS_NOTES[r.ticker] : undefined;
-  const newsUnconfirmed = !notesForTicker || !notesForTicker.newsLog || !notesForTicker.newsLog.length;
+  const newsUnconfirmed = !dc;
 
   const rs = computeRelStrength(r);
   const isWeakSector = isRelWeak(rs);
@@ -3759,11 +3771,17 @@ function renderFourLineEvidenceCard(r){
   if(bizUnconfirmed) unconfirmedParts.push('실적 미확인');
   else if(fd.verdict === '매출·수익성 동반 둔화') riskParts.push('매출·수익성 동반 둔화');
 
+  // [2026-09-24 수정 -- 25번 독립검토 1번] 세 항목이 모두 미확인인데도 "확인 가능한 위험
+  // 없음"을 앞세우면 사용자가 괄호를 읽기 전에 안전하다고 받아들일 수 있다는 지적을 반영해,
+  // 이 경우만 "위험 확인 미완료"를 먼저 내세운다. 일부만 미확인이고 확인된 항목에 위험이
+  // 없으면 "확인된 항목의 추가 경고 없음"으로 범위를 한정해서 쓴다.
   let riskText;
   if(riskParts.length){
     riskText = esc(riskParts.join(' · ')) + (unconfirmedParts.length ? ` <span style="color:var(--sub);">(미확인: ${esc(unconfirmedParts.join('·'))})</span>` : '');
+  } else if(unconfirmedParts.length === 3){
+    riskText = `위험 확인 미완료 — ${esc(unconfirmedParts.join('·'))}`;
   } else if(unconfirmedParts.length){
-    riskText = `확인 가능한 위험 없음 <span style="color:var(--sub);">(미확인: ${esc(unconfirmedParts.join('·'))})</span>`;
+    riskText = `확인된 항목의 추가 경고 없음 <span style="color:var(--sub);">· ${esc(unconfirmedParts.join('·'))}</span>`;
   } else {
     riskText = '확인한 항목(뉴스·그룹비교·실적)에서 추가 경고 없음';
   }
