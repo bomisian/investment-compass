@@ -2071,7 +2071,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "SPY": {
@@ -4293,9 +4293,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 49,
-      "removed": 1,
-      "updated": "2026-09-24 05:40"
+      "checked": 48,
+      "removed": 0,
+      "updated": "2026-09-24 06:01"
     }
   },
   "MSFT": {
@@ -8450,7 +8450,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "GOOGL": {
@@ -13120,7 +13120,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 105,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "AMZN": {
@@ -17763,7 +17763,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 113,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "META": {
@@ -22489,7 +22489,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "AAPL": {
@@ -27154,7 +27154,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 113,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "TSLA": {
@@ -31779,7 +31779,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 112,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "ORCL": {
@@ -35493,11 +35493,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "CRM": {
-    "_last_attempt_at": 1790175399.3859837,
+    "_last_attempt_at": 1790197201.9747524,
     "nextEarnings": {
       "date": "2026-12-01",
       "hour": "amc",
@@ -35507,6 +35507,193 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
+        "headline": "Enterprise Software Stocks Rally as Tech Tape Slides: Atlassian Corporation, Monday.com and Salesforce Climb 3%, ServiceNow Nudges Higher",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a0e0d5ea5d7b1e29d03f47ff94e0166cca71fd0acfa7b3d9b2f677c96c596a56",
+        "datetime": 1790186656,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "기술 테이프 슬라이드로 엔터프라이즈 소프트웨어 주가 반등: Atlassian Corporation, Monday.com 및 Salesforce가 3% 상승하고 ServiceNow가 더 높아졌습니다 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,719.40 −0.71% Dow Jones 51,561.90 −0.73% Nasdaq 100 30,521.30 −0.75% Russell 2000 2,842.88 −1.83% S&P 500 7,719.40 −0.71% 다우존스 51,561.90 −0.73% 나스닥 100 30,521.30 −0.75% 러셀 2000 2,842.88 −1.",
+            "작성자 David Moadel 2026년 9월 23일 오후 2시 4분(ET) 게시 · 4분 읽기 Market Movers 데스크."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 3%, 1%, 0.88% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "CRM에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "3%",
+            "1%",
+            "0.88%",
+            "$194.56,",
+            "$87.43,",
+            "$239.91,",
+            "$140.03,",
+            "2%"
+          ],
+          "sourceExcerpt": [
+            "Enterprise Software Stocks Rally as Tech Tape Slides: Atlassian Corporation, Monday.com and Salesforce Climb 3%, ServiceNow Nudges Higher - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,719.40 −0.71% Dow Jones 51,561.90 −0.73% Nasdaq 100 30,521.30 −0.75% Russell 2000 2,842.88 −1.83% S&P 500 7,719.40 −0.71% Dow Jones 51,561.90 −0.73% Nasdaq 100 30,521.30 −0.75% Russell 2000 2,842.88 −1.",
+            "By David Moadel Published September 23, 2026, 2:04pm ET · 4 min read Market Movers desk."
+          ],
+          "analysisUpdatedAt": 1790197210.3317113
+        },
+        "headlineKo": "기술 테이프 슬라이드로 엔터프라이즈 소프트웨어 주가 반등: Atlassian Corporation, Monday.com 및 Salesforce가 3% 상승하고 ServiceNow가 더 높아졌습니다."
+      },
+      {
+        "headline": "The Street is Finally Going Bullish on Salesforce and I Keep Buying",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=07312afddf2a9d6744a72df9071f1a950cce77e98d5ff07b2dbe4dd3a134edae",
+        "datetime": 1790174749,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "거리는 마침내 Salesforce에서 강세를 보이고 있으며 나는 계속 구매합니다 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,719.40 −0.71% Dow Jones 51,561.90 −0.73% Nasdaq 100 30,521.30 −0.75% Russell 2000 2,842.88 −1.83% S&P 500 7,719.40 −0.71% 다우존스 51,561.90 −0.73% 나스닥 100 30,521.30 −0.75% 러셀 2000 2,842.88 −1.",
+            "현금 흐름과 자사주 매입 수학이 그에게 군중을 설득한 이유는 다음과 같습니다... 작성자: Alex Sirois 2026년 9월 23일 게시, 오전 10시 45분(ET) · 3분 읽기 𝕏 f ⧉ 회사 건물에 눈에 띄게 표시된 Salesforce 로고는 영향력 확대를 상징합니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $1.5 billion, $3.90 billion, 210% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "CRM에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$1.5 billion",
+            "$3.90 billion",
+            "210%",
+            "100%",
+            "62%",
+            "60%",
+            "$14.402 billion",
+            "15.83%"
+          ],
+          "sourceExcerpt": [
+            "The Street is Finally Going Bullish on Salesforce and I Keep Buying - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,719.40 −0.71% Dow Jones 51,561.90 −0.73% Nasdaq 100 30,521.30 −0.75% Russell 2000 2,842.88 −1.83% S&P 500 7,719.40 −0.71% Dow Jones 51,561.90 −0.73% Nasdaq 100 30,521.30 −0.75% Russell 2000 2,842.88 −1.",
+            "Here is why the cash flow and buyback math convinced him the crowd… By Alex Sirois Published September 23, 2026, 10:45am ET · 3 min read 𝕏 f ⧉ The Salesforce logo prominently displayed on a company building, symbolizing its expanding influe"
+          ],
+          "analysisUpdatedAt": 1790197215.1384113
+        },
+        "headlineKo": "거리는 마침내 Salesforce에서 강세를 보이고 있으며 계속 구매하고 있습니다."
+      },
+      {
+        "headline": "Salesforce: AWU Economics Are Worsening, Now Faster Than Ever",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=7655253c136d23f4f1f95f4abbf37782d556f9721c2c8d4607f847ad8b3f89ed",
+        "datetime": 1790163906,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "규제·법무 · 비선형 위험",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Salesforce: AWU 경제 상황이 그 어느 때보다 빠르게 악화되고 있습니다(NYSE:CRM) | 알파 요약 찾기 Salesforce, Inc.",
+            "매출 성장을 능가하는 비용 상승과 지속적인 마진 압박으로 인해 단위 경제가 악화되고 있습니다.",
+            "AWU 및 토큰 사용이 가속화되고 있지만 비용 흡수율이 높고 총 마진은 2분기에 77.28% TTM으로 감소했습니다."
+          ],
+          "why": [
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 77.28%, 18.2%, 10.8% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
+          ],
+          "interpretation": "CRM에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "77.28%",
+            "18.2%",
+            "10.8%"
+          ],
+          "sourceExcerpt": [
+            "Salesforce: AWU Economics Are Worsening, Now Faster Than Ever (NYSE:CRM) | Seeking Alpha Summary Salesforce, Inc.",
+            "faces deteriorating unit economics, with rising costs outpacing revenue growth and persistent margin compression.",
+            "AWU and token usage are accelerating, but cost absorption is high, and gross margins have declined to 77.28% TTM in Q2."
+          ],
+          "analysisUpdatedAt": 1790197219.8557622
+        },
+        "headlineKo": "Salesforce: AWU 경제 상황이 그 어느 때보다 빠르게 악화되고 있습니다."
+      },
+      {
         "headline": "Salesforce Remains Down Over 12 Months: This Wall Street Firm Doubled Down On Its Belief That 70% Returns Await Investors",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f6902add2b63baad439585d68ec8cfb178b6b567dc76506d4536af33958d862b",
@@ -35514,77 +35701,6 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "mixed",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 70%, $233.28,, $281.89., 20.8%, $25 billion, 5.76%, 11.32%, 8.58%.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce Remains Down Over 12 Months: This Wall Street Firm Doubled Down On Its Belief That 70% Returns Await Investors' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: CRM에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
-          "relevance": 0.5,
-          "quality": "high",
-          "verifiedNumbers": [
-            "70%",
-            "$233.28,",
-            "$281.89.",
-            "20.8%",
-            "$25 billion",
-            "5.76%",
-            "11.32%",
-            "8.58%"
-          ],
-          "sourceExcerpt": [
-            "Salesforce Remains Down Over 12 Months: This Wall Street Firm Doubled Down On Its Belief That 70% Returns Await Investors - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,731.70 −0.55% Dow Jones 51,771.40 −0.33% Nasdaq 100 30,477.50 −0.89% Russell 2000 2,850.33 −1.57% S&P 500 7,731.70 −0.55% Dow Jones 51,771.40 −0.33% Nasdaq 100 30,477.50 −0.89% Russell 2000 2,850.33 −1.",
-            "The bull case hinges… By Alex Sirois Published September 23, 2026, 7:20am ET · 4 min read 𝕏 f ⧉ © Noam Galai / Getty Images Entertainment via Getty Images Salesforce ( NYSE:CRM | CRM Price Prediction ) currently trades at $233.28, while the"
-          ],
-          "analysisUpdatedAt": 1790175404.6399555
-        },
         "headlineKo": "Salesforce는 12개월 넘게 하락세를 유지하고 있습니다. 이 월스트리트 회사는 70%의 수익이 투자자를 기다리고 있다는 믿음을 두 배로 강화했습니다."
       },
       {
@@ -35595,148 +35711,7 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "“The New Clippy”: Benioff Uses Salesforce’s Biggest Product Launch in Years to Challenge Microsoft",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "CRM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 '“The New Clippy”: Benioff Uses Salesforce’s Biggest Product Launch in Years to Challenge Microsoft' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790175406.7608495
-        },
         "headlineKo": "\"The New Clippy\": Benioff는 Salesforce의 수년 만에 가장 큰 제품 출시를 통해 Microsoft에 도전합니다."
-      },
-      {
-        "headline": "Marc Benioff Says Microsoft Shut Salesforce Out Of OpenAI — So He Bet On Anthropic Instead, And It Could Pay 'Tens Of Billions'",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=fd8f095417e78cd53641b569982fdef6e7aa14924e169f61b8be59e1f374daa7",
-        "datetime": 1790129351,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "mixed",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.25%, 0.40%, 0.68%, 4.20%, 6.50%, 2.54%, 10.64%, 1.83%.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'Marc Benioff Says Microsoft Shut Salesforce Out Of OpenAI — So He Bet On Anthropic Instead, And It Could Pay 'Tens Of Billions'' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: CRM에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
-          "relevance": 0.5,
-          "quality": "high",
-          "verifiedNumbers": [
-            "0.25%",
-            "0.40%",
-            "0.68%",
-            "4.20%",
-            "6.50%",
-            "2.54%",
-            "10.64%",
-            "1.83%"
-          ],
-          "sourceExcerpt": [
-            "Marc Benioff Says Microsoft Shut Salesforce Out Of OpenAI — So He Bet On Anthropic Instead, And It Could Pay 'Tens Of Billions' AI Agent Trending News Earnings All DIA 0.25% SPY 0.40% QQQ 0.68% Trending MCD 4.20% IONQ 6.50% GOOGL 2.54% PGY ",
-            "Marc Benioff Says Microsoft Shut Salesforce Out Of OpenAI — So He Bet On Anthropic Instead, And It Could Pay 'Tens Of Billions' Salesforce’s AI strategy ties together its Anthropic investment, Slack integration and Agentforce push.",
-            "Salesforce CEO Marc Benioff speaks during the keynote address at Salesforce's Dreamforce conference on September 15, 2026 in San Francisco, California."
-          ],
-          "analysisUpdatedAt": 1790175407.8484702
-        },
-        "headlineKo": "Marc Benioff는 Microsoft가 OpenAI에서 Salesforce를 종료했다고 말합니다. 그래서 그는 대신 Anthropic에 베팅했으며 '수십억'의 비용을 지불할 수 있습니다."
-      },
-      {
-        "headline": "Salesforce Just Bet $25 Billion on Itself. Here’s the Catch Nobody Mentions",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=034666c29eb408cbb13576b1055c73c6d7ceb74b2b79573dfdd404b46c3bad6a",
-        "datetime": 1790122887,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Salesforce는 자체적으로 250억 달러를 걸었습니다. 아무도 언급하지 않은 캐치가 있습니다."
-      },
-      {
-        "headline": "How Far Could CRM Stock Swing In A Year?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a6af23dc1a2783597affa9452a4eff38cb0b0a22d508bdb19d426711b4332419",
-        "datetime": 1790110657,
-        "relevance": 0.75,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "CRM 주식은 1년에 얼마나 변동될 수 있나요?"
       },
       {
         "headline": "Salesforce’s Marc Benioff to AI industry: Regulate yourselves or get sued",
@@ -35816,6 +35791,190 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Enterprise Software Stocks Rally as Tech Tape Slides: Atlassian Corporation, Monday.com and Salesforce Climb 3%, ServiceNow Nudges Higher",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a0e0d5ea5d7b1e29d03f47ff94e0166cca71fd0acfa7b3d9b2f677c96c596a56",
+        "datetime": 1790186656,
+        "headlineKo": "기술 테이프 슬라이드로 엔터프라이즈 소프트웨어 주가 반등: Atlassian Corporation, Monday.com 및 Salesforce가 3% 상승하고 ServiceNow가 더 높아졌습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "기술 테이프 슬라이드로 엔터프라이즈 소프트웨어 주가 반등: Atlassian Corporation, Monday.com 및 Salesforce가 3% 상승하고 ServiceNow가 더 높아졌습니다 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,719.40 −0.71% Dow Jones 51,561.90 −0.73% Nasdaq 100 30,521.30 −0.75% Russell 2000 2,842.88 −1.83% S&P 500 7,719.40 −0.71% 다우존스 51,561.90 −0.73% 나스닥 100 30,521.30 −0.75% 러셀 2000 2,842.88 −1.",
+            "작성자 David Moadel 2026년 9월 23일 오후 2시 4분(ET) 게시 · 4분 읽기 Market Movers 데스크."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 3%, 1%, 0.88% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "CRM에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "3%",
+            "1%",
+            "0.88%",
+            "$194.56,",
+            "$87.43,",
+            "$239.91,",
+            "$140.03,",
+            "2%"
+          ],
+          "sourceExcerpt": [
+            "Enterprise Software Stocks Rally as Tech Tape Slides: Atlassian Corporation, Monday.com and Salesforce Climb 3%, ServiceNow Nudges Higher - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,719.40 −0.71% Dow Jones 51,561.90 −0.73% Nasdaq 100 30,521.30 −0.75% Russell 2000 2,842.88 −1.83% S&P 500 7,719.40 −0.71% Dow Jones 51,561.90 −0.73% Nasdaq 100 30,521.30 −0.75% Russell 2000 2,842.88 −1.",
+            "By David Moadel Published September 23, 2026, 2:04pm ET · 4 min read Market Movers desk."
+          ],
+          "analysisUpdatedAt": 1790197210.3317113
+        }
+      },
+      {
+        "headline": "The Street is Finally Going Bullish on Salesforce and I Keep Buying",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=07312afddf2a9d6744a72df9071f1a950cce77e98d5ff07b2dbe4dd3a134edae",
+        "datetime": 1790174749,
+        "headlineKo": "거리는 마침내 Salesforce에서 강세를 보이고 있으며 계속 구매하고 있습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "거리는 마침내 Salesforce에서 강세를 보이고 있으며 나는 계속 구매합니다 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,719.40 −0.71% Dow Jones 51,561.90 −0.73% Nasdaq 100 30,521.30 −0.75% Russell 2000 2,842.88 −1.83% S&P 500 7,719.40 −0.71% 다우존스 51,561.90 −0.73% 나스닥 100 30,521.30 −0.75% 러셀 2000 2,842.88 −1.",
+            "현금 흐름과 자사주 매입 수학이 그에게 군중을 설득한 이유는 다음과 같습니다... 작성자: Alex Sirois 2026년 9월 23일 게시, 오전 10시 45분(ET) · 3분 읽기 𝕏 f ⧉ 회사 건물에 눈에 띄게 표시된 Salesforce 로고는 영향력 확대를 상징합니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $1.5 billion, $3.90 billion, 210% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "CRM에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$1.5 billion",
+            "$3.90 billion",
+            "210%",
+            "100%",
+            "62%",
+            "60%",
+            "$14.402 billion",
+            "15.83%"
+          ],
+          "sourceExcerpt": [
+            "The Street is Finally Going Bullish on Salesforce and I Keep Buying - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,719.40 −0.71% Dow Jones 51,561.90 −0.73% Nasdaq 100 30,521.30 −0.75% Russell 2000 2,842.88 −1.83% S&P 500 7,719.40 −0.71% Dow Jones 51,561.90 −0.73% Nasdaq 100 30,521.30 −0.75% Russell 2000 2,842.88 −1.",
+            "Here is why the cash flow and buyback math convinced him the crowd… By Alex Sirois Published September 23, 2026, 10:45am ET · 3 min read 𝕏 f ⧉ The Salesforce logo prominently displayed on a company building, symbolizing its expanding influe"
+          ],
+          "analysisUpdatedAt": 1790197215.1384113
+        }
+      },
+      {
+        "headline": "Salesforce: AWU Economics Are Worsening, Now Faster Than Ever",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=7655253c136d23f4f1f95f4abbf37782d556f9721c2c8d4607f847ad8b3f89ed",
+        "datetime": 1790163906,
+        "headlineKo": "Salesforce: AWU 경제 상황이 그 어느 때보다 빠르게 악화되고 있습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "규제·법무 · 비선형 위험",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Salesforce: AWU 경제 상황이 그 어느 때보다 빠르게 악화되고 있습니다(NYSE:CRM) | 알파 요약 찾기 Salesforce, Inc.",
+            "매출 성장을 능가하는 비용 상승과 지속적인 마진 압박으로 인해 단위 경제가 악화되고 있습니다.",
+            "AWU 및 토큰 사용이 가속화되고 있지만 비용 흡수율이 높고 총 마진은 2분기에 77.28% TTM으로 감소했습니다."
+          ],
+          "why": [
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 77.28%, 18.2%, 10.8% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
+          ],
+          "interpretation": "CRM에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "77.28%",
+            "18.2%",
+            "10.8%"
+          ],
+          "sourceExcerpt": [
+            "Salesforce: AWU Economics Are Worsening, Now Faster Than Ever (NYSE:CRM) | Seeking Alpha Summary Salesforce, Inc.",
+            "faces deteriorating unit economics, with rising costs outpacing revenue growth and persistent margin compression.",
+            "AWU and token usage are accelerating, but cost absorption is high, and gross margins have declined to 77.28% TTM in Q2."
+          ],
+          "analysisUpdatedAt": 1790197219.8557622
+        }
+      },
       {
         "headline": "Salesforce Remains Down Over 12 Months: This Wall Street Firm Doubled Down On Its Belief That 70% Returns Await Investors",
         "source": "Yahoo",
@@ -38595,15 +38754,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790175399.3859837,
-    "_updated_label": "2026-09-23 23:56",
-    "_last_success_at": 1790175399.3859837,
+    "_fetched_at": 1790197201.9747524,
+    "_updated_label": "2026-09-24 06:00",
+    "_last_success_at": 1790197201.9747524,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 75,
+      "checked": 78,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "PLTR": {
@@ -42412,7 +42571,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "NVDA": {
@@ -47920,7 +48079,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 131,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "AMD": {
@@ -52051,7 +52210,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "AVGO": {
@@ -55043,7 +55202,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "QCOM": {
@@ -57565,7 +57724,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "ARM": {
@@ -59968,7 +60127,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "MRVL": {
@@ -62550,11 +62709,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "INTC": {
-    "_last_attempt_at": 1790175399.3859837,
+    "_last_attempt_at": 1790197201.9747524,
     "nextEarnings": {
       "date": "2026-10-21",
       "hour": "amc",
@@ -62564,32 +62723,130 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Intel Skyrocketed 30% Higher in 1 Month: Here’s What to Do Now",
+        "headline": "Here is Why Intel (INTC) is a Bad Investment at Today’s Price",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b686a144139d3a2ad1739d1a4f2d1bfd2e6b6029783d366a9d92601e5c8499fd",
-        "datetime": 1790170977,
+        "url": "https://finnhub.io/api/news?id=c693e3ce9bd4e6e29819a0ddef701662b426ce9443e77143fdf1ab1b3bb27b8e",
+        "datetime": 1790189308,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Here is Why Intel (INTC) is a Bad Investment at Today’s Price",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 INTC의 사업과 관련된 'Here is Why Intel (INTC) is a Bad Investment at Today’s Price' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790197228.0545726
+        },
+        "headlineKo": "인텔(INTC)이 현재 가격으로 나쁜 투자인 이유는 다음과 같습니다."
+      },
+      {
+        "headline": "Intel (INTC) Can Fill Only Half its CPU Orders. Is That a Problem or a Signal?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2b0be225bf6a62c68740ece8525ee0addf621729658a24ef95b588ac61702e28",
+        "datetime": 1790188691,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Intel (INTC) Can Fill Only Half its CPU Orders. Is That a Problem or a Signal?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel (INTC) Can Fill Only Half its CPU Orders. Is That a Problem or a Signal?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790197230.1268249
+        },
+        "headlineKo": "Intel(INTC)은 CPU 주문의 절반만 채울 수 있습니다. 그것이 문제인가, 아니면 신호인가?"
+      },
+      {
+        "headline": "Intel Falls 2.24% as Muse Keeps the CPU Thesis Alive",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=754d6e25c06c824c73cdf8c62001fc31d0465aa1a56df0e754839d41800377f2",
+        "datetime": 1790188204,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "실적 발표 · 본업과 특이항목 분리",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "인텔은 한 달 만에 30% 급등했습니다. 지금 해야 할 일은 다음과 같습니다. - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,731.70 −0.55% Dow Jones 51,771.40 −0.33% Nasdaq 100 30,477.50 −0.89% Russell 2000 2,850.33 −1.57% S&P 500 7,731.70 −0.55% 다우존스 51,771.40 −0.33% 나스닥 100 30,477.50 −0.89% 러셀 2000 2,850.33 −1.",
-            "© Justin Sullivan / Getty Images Intel(NASDAQ:INTC | INTC Price Prediction)의 가격은 123.86달러로 완전 가격으로 보입니다."
+            "Intel Falls 2.24% as Muse Keeps the CPU Thesis Alive",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 30%, $123.86,, 37.52% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
             "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -62600,152 +62857,39 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
+            "매출·영업이익 성장",
+            "정상화이익과 특이항목",
+            "가이던스·OCF·FCF"
           ],
-          "interpretation": "INTC에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "INTC에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "30%",
-            "$123.86,",
-            "37.52%",
-            "$5 billion",
-            "$16.13 billion",
-            "25.42%",
-            "59%",
-            "$0.42"
-          ],
-          "sourceExcerpt": [
-            "Intel Skyrocketed 30% Higher in 1 Month: Here's What to Do Now - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,731.70 −0.55% Dow Jones 51,771.40 −0.33% Nasdaq 100 30,477.50 −0.89% Russell 2000 2,850.33 −1.57% S&P 500 7,731.70 −0.55% Dow Jones 51,771.40 −0.33% Nasdaq 100 30,477.50 −0.89% Russell 2000 2,850.33 −1.",
-            "© Justin Sullivan / Getty Images At $123.86, Intel ( NASDAQ:INTC | INTC Price Prediction ) looks fully priced."
-          ],
-          "analysisUpdatedAt": 1790175418.2863324
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790197232.1462333
         },
-        "headlineKo": "인텔은 한 달 만에 30% 급등했습니다. 지금 해야 할 일은 다음과 같습니다."
+        "headlineKo": "Muse가 CPU 논제를 유지함에 따라 Intel은 2.24% 하락했습니다."
       },
       {
-        "headline": "Intel CEO Just Got a Real-World Test of His Quantum Vision",
+        "headline": "Not Intel. Not Nvidia. This Chip Giant Holds an Unbreakable Moat in Next-Gen Data Centers.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e5fdbc50ff922de818ee09314372c6fac568d879dd4b6f02808a4b1a5999ac15",
-        "datetime": 1790167298,
+        "url": "https://finnhub.io/api/news?id=915fe84b4c7f7b4decd1665d6e197fe4c36ccfee1c4fbfa2d75631da47054ea6",
+        "datetime": 1790184900,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Intel CEO Just Got a Real-World Test of His Quantum Vision",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "INTC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel CEO Just Got a Real-World Test of His Quantum Vision' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790175419.842998
-        },
-        "headlineKo": "인텔 CEO가 자신의 양자 비전을 실제로 테스트했습니다."
+        "headlineKo": "인텔이 아닙니다. 엔비디아가 아닙니다. 이 거대 칩은 차세대 데이터 센터에서 깨지지 않는 해자를 보유하고 있습니다."
       },
       {
-        "headline": "Intel: The Future Has Arguably Never Looked This Bright",
+        "headline": "Intel Is Storming Back Into The AI Conversation - Reiterate Buy",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=6fda29cd18fda45d438039e321b8dc0167e1784ce30e11a61369f82e84eb0383",
-        "datetime": 1790153100,
+        "url": "https://finnhub.io/api/news?id=5546e8bc62580d140367c6756379ac754fdbb5844bc03b1b62d082f97a62d46e",
+        "datetime": 1790179679,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Intel: The Future Has Arguably Never Looked This Bright",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "INTC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel: The Future Has Arguably Never Looked This Bright' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790175420.7395031
-        },
-        "headlineKo": "인텔: 미래가 이렇게 밝았던 적은 없을 것입니다"
-      },
-      {
-        "headline": "Stock of the Day: Is Intel About to Reverse?",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=0333b45db9ccac9db86a2bd22aa045f5d48e51bc64af0e95b21c3b23d8813154",
-        "datetime": 1790152197,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "오늘의 주식: 인텔이 반전할 것인가?"
-      },
-      {
-        "headline": "Intel: The Party Is Only Getting Started",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=0549f40525d719d2fba7f2bc1dde1d17ccf2d1000299fdc8c2271a346852a33c",
-        "datetime": 1790142176,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "인텔: 파티는 이제 시작일 뿐입니다."
+        "headlineKo": "인텔은 AI 대화에 다시 뛰어들고 있습니다 - 구매를 반복합니다"
       },
       {
         "headline": "Intel: No Bad Products, Just Bad Prices (Rating Downgrade)",
@@ -62809,6 +62953,170 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Here is Why Intel (INTC) is a Bad Investment at Today’s Price",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c693e3ce9bd4e6e29819a0ddef701662b426ce9443e77143fdf1ab1b3bb27b8e",
+        "datetime": 1790189308,
+        "headlineKo": "인텔(INTC)이 현재 가격으로 나쁜 투자인 이유는 다음과 같습니다.",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Here is Why Intel (INTC) is a Bad Investment at Today’s Price",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 INTC의 사업과 관련된 'Here is Why Intel (INTC) is a Bad Investment at Today’s Price' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790197228.0545726
+        }
+      },
+      {
+        "headline": "Intel (INTC) Can Fill Only Half its CPU Orders. Is That a Problem or a Signal?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2b0be225bf6a62c68740ece8525ee0addf621729658a24ef95b588ac61702e28",
+        "datetime": 1790188691,
+        "headlineKo": "Intel(INTC)은 CPU 주문의 절반만 채울 수 있습니다. 그것이 문제인가, 아니면 신호인가?",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Intel (INTC) Can Fill Only Half its CPU Orders. Is That a Problem or a Signal?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel (INTC) Can Fill Only Half its CPU Orders. Is That a Problem or a Signal?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790197230.1268249
+        }
+      },
+      {
+        "headline": "Intel Falls 2.24% as Muse Keeps the CPU Thesis Alive",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=754d6e25c06c824c73cdf8c62001fc31d0465aa1a56df0e754839d41800377f2",
+        "datetime": 1790188204,
+        "headlineKo": "Muse가 CPU 논제를 유지함에 따라 Intel은 2.24% 하락했습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "실적 발표 · 본업과 특이항목 분리",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Intel Falls 2.24% as Muse Keeps the CPU Thesis Alive",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+            "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "매출·영업이익 성장",
+            "정상화이익과 특이항목",
+            "가이던스·OCF·FCF"
+          ],
+          "interpretation": "INTC에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790197232.1462333
+        }
+      },
+      {
+        "headline": "Not Intel. Not Nvidia. This Chip Giant Holds an Unbreakable Moat in Next-Gen Data Centers.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=915fe84b4c7f7b4decd1665d6e197fe4c36ccfee1c4fbfa2d75631da47054ea6",
+        "datetime": 1790184900,
+        "headlineKo": "인텔이 아닙니다. 엔비디아가 아닙니다. 이 거대 칩은 차세대 데이터 센터에서 깨지지 않는 해자를 보유하고 있습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false
+      },
+      {
+        "headline": "Intel Is Storming Back Into The AI Conversation - Reiterate Buy",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=5546e8bc62580d140367c6756379ac754fdbb5844bc03b1b62d082f97a62d46e",
+        "datetime": 1790179679,
+        "headlineKo": "인텔은 AI 대화에 다시 뛰어들고 있습니다 - 구매를 반복합니다",
+        "relevance": 0.5,
+        "keywordFlag": false
+      },
       {
         "headline": "Intel Skyrocketed 30% Higher in 1 Month: Here’s What to Do Now",
         "source": "Yahoo",
@@ -66411,15 +66719,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790175399.3859837,
-    "_updated_label": "2026-09-23 23:57",
-    "_last_success_at": 1790175399.3859837,
+    "_fetched_at": 1790197201.9747524,
+    "_updated_label": "2026-09-24 06:00",
+    "_last_success_at": 1790197201.9747524,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 96,
+      "checked": 101,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "TSM": {
@@ -68439,7 +68747,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "ASML": {
@@ -70302,7 +70610,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "AMAT": {
@@ -72319,7 +72627,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "LRCX": {
@@ -73259,11 +73567,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1790175399.3859837,
+    "_last_attempt_at": 1790197201.9747524,
     "nextEarnings": {
       "date": "2026-10-27",
       "hour": "",
@@ -73318,7 +73626,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790175428.1074257
+          "analysisUpdatedAt": 1790197240.3632793
         },
         "headlineKo": "KLA (KLAC) 주식 2.36% 변동: 알아야 할 사항"
       },
@@ -73368,7 +73676,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790175429.866394
+          "analysisUpdatedAt": 1790197242.5474892
         },
         "headlineKo": "반도체 계측 글로벌 시장 기회 분석 및 산업 예측 2026~2036년 KLA Corp., Applied Materials, ASML, Hitachi High-Tech Corp., Lam Research Corp. 등 포함"
       },
@@ -73390,11 +73698,11 @@ const NEWS_DATA = {
           "facts": [
             "더 나은 인공 지능 주식: Aehr 테스트 시스템 vs.",
             "KLA 주식회사 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 틈새 장비 제공업체와 다각화된 업계 거대 기업 사이에서 선택하려면 높은 성장 잠재력의 균형을 맞춰야 합니다.",
-            "다음은 투자자를 위해 Aehr Test Systems(AEHR -5.07%)와 KLA(KLAC -2.20%)를 비교하는 방법입니다."
+            "다음은 투자자를 위해 Aehr Test Systems(AEHR -3.20%)와 KLA(KLAC -0.24%)를 비교하는 방법입니다."
           ],
           "why": [
             "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 5.07%, 2.20%, 70% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 3.20%, 0.24%, 70% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -73418,8 +73726,8 @@ const NEWS_DATA = {
           "relevance": 0.5,
           "quality": "medium",
           "verifiedNumbers": [
-            "5.07%",
-            "2.20%",
+            "3.20%",
+            "0.24%",
             "70%",
             "$50.0 million",
             "15.2%",
@@ -73430,9 +73738,9 @@ const NEWS_DATA = {
           "sourceExcerpt": [
             "Better Artificial Intelligence Stock: Aehr Test Systems vs.",
             "KLA Corporation | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Choosing between a niche equipment provider and a diversified industry titan requires balancing high growth potenti",
-            "Here is how Aehr Test Systems ( AEHR -5.07% ) and KLA ( KLAC -2.20% ) compare for investors."
+            "Here is how Aehr Test Systems ( AEHR -3.20% ) and KLA ( KLAC -0.24% ) compare for investors."
           ],
-          "analysisUpdatedAt": 1790175432.9004776
+          "analysisUpdatedAt": 1790197245.9202056
         },
         "headlineKo": "더 나은 인공 지능 주식: Aehr Test Systems vs. KLA Corporation"
       },
@@ -73504,7 +73812,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790175428.1074257
+          "analysisUpdatedAt": 1790197240.3632793
         }
       },
       {
@@ -73553,7 +73861,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790175429.866394
+          "analysisUpdatedAt": 1790197242.5474892
         }
       },
       {
@@ -73574,11 +73882,11 @@ const NEWS_DATA = {
           "facts": [
             "더 나은 인공 지능 주식: Aehr 테스트 시스템 vs.",
             "KLA 주식회사 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 틈새 장비 제공업체와 다각화된 업계 거대 기업 사이에서 선택하려면 높은 성장 잠재력의 균형을 맞춰야 합니다.",
-            "다음은 투자자를 위해 Aehr Test Systems(AEHR -5.07%)와 KLA(KLAC -2.20%)를 비교하는 방법입니다."
+            "다음은 투자자를 위해 Aehr Test Systems(AEHR -3.20%)와 KLA(KLAC -0.24%)를 비교하는 방법입니다."
           ],
           "why": [
             "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 5.07%, 2.20%, 70% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 3.20%, 0.24%, 70% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -73602,8 +73910,8 @@ const NEWS_DATA = {
           "relevance": 0.5,
           "quality": "medium",
           "verifiedNumbers": [
-            "5.07%",
-            "2.20%",
+            "3.20%",
+            "0.24%",
             "70%",
             "$50.0 million",
             "15.2%",
@@ -73614,9 +73922,9 @@ const NEWS_DATA = {
           "sourceExcerpt": [
             "Better Artificial Intelligence Stock: Aehr Test Systems vs.",
             "KLA Corporation | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Choosing between a niche equipment provider and a diversified industry titan requires balancing high growth potenti",
-            "Here is how Aehr Test Systems ( AEHR -5.07% ) and KLA ( KLAC -2.20% ) compare for investors."
+            "Here is how Aehr Test Systems ( AEHR -3.20% ) and KLA ( KLAC -0.24% ) compare for investors."
           ],
-          "analysisUpdatedAt": 1790175432.9004776
+          "analysisUpdatedAt": 1790197245.9202056
         }
       },
       {
@@ -74142,15 +74450,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790175399.3859837,
-    "_updated_label": "2026-09-23 23:57",
-    "_last_success_at": 1790175399.3859837,
+    "_fetched_at": 1790197201.9747524,
+    "_updated_label": "2026-09-24 06:00",
+    "_last_success_at": 1790197201.9747524,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "MU": {
@@ -78790,7 +79098,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "SNDK": {
@@ -81688,7 +81996,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "WDC": {
@@ -82942,7 +83250,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "ANET": {
@@ -84429,7 +84737,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "COHR": {
@@ -85956,7 +86264,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "LITE": {
@@ -87352,7 +87660,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "GEV": {
@@ -89803,7 +90111,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "CEG": {
@@ -91131,7 +91439,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "VST": {
@@ -92353,7 +92661,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "ETN": {
@@ -93637,7 +93945,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "PWR": {
@@ -94861,7 +95169,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "HUBB": {
@@ -95407,11 +95715,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "VRT": {
-    "_last_attempt_at": 1790175399.3859837,
+    "_last_attempt_at": 1790197201.9747524,
     "nextEarnings": {
       "date": "2026-10-20",
       "hour": "",
@@ -95466,7 +95774,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790175438.6204808
+          "analysisUpdatedAt": 1790197250.9158213
         },
         "headlineKo": "Nvidia는 새로운 AI 공장 표준에 대해 Tesla 및 Vertiv 제품 인증을 받았습니다."
       },
@@ -95516,7 +95824,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790175440.8485699
+          "analysisUpdatedAt": 1790197252.8309767
         },
         "headlineKo": "Vertiv Holdings Co.(VRT) 주가 1.04% 변동: 알아야 할 사항"
       },
@@ -95566,7 +95874,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790175442.9099152
+          "analysisUpdatedAt": 1790197254.890353
         },
         "headlineKo": "Eaton 대 Vertiv: 어느 데이터 센터 전력 재고에 우위가 있습니까?"
       },
@@ -95638,7 +95946,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790175438.6204808
+          "analysisUpdatedAt": 1790197250.9158213
         }
       },
       {
@@ -95687,7 +95995,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790175440.8485699
+          "analysisUpdatedAt": 1790197252.8309767
         }
       },
       {
@@ -95736,7 +96044,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790175442.9099152
+          "analysisUpdatedAt": 1790197254.890353
         }
       },
       {
@@ -96598,19 +96906,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790175399.3859837,
-    "_updated_label": "2026-09-23 23:57",
-    "_last_success_at": 1790175399.3859837,
+    "_fetched_at": 1790197201.9747524,
+    "_updated_label": "2026-09-24 06:00",
+    "_last_success_at": 1790197201.9747524,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "MOD": {
-    "_last_attempt_at": 1790175399.3859837,
+    "_last_attempt_at": 1790197201.9747524,
     "nextEarnings": {
       "date": "2026-10-26",
       "hour": "",
@@ -96665,7 +96973,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790175451.0871356
+          "analysisUpdatedAt": 1790197260.4805837
         },
         "headlineKo": "월스트리트 상승세는 Modine(MOD)에 대해 낙관적입니다. 매수해야 할까요?"
       },
@@ -96715,7 +97023,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790175452.8299394
+          "analysisUpdatedAt": 1790197262.540929
         },
         "headlineKo": "Gentherm과 Modine Manufacturing Company, Gentherm과 Modine의 성능 기술 사업 결합 제안과 관련된 추가 정보 발표"
       },
@@ -96765,7 +97073,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790175453.8894863
+          "analysisUpdatedAt": 1790197263.6868742
         },
         "headlineKo": "Modine은 2026년 9월 28일 Performance Technologies 분사 및 Gentherm과의 합병 기록일을 설정하여 ~$1.90/주 특별 배당금을 선언합니다."
       },
@@ -96837,7 +97145,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790175451.0871356
+          "analysisUpdatedAt": 1790197260.4805837
         }
       },
       {
@@ -96886,7 +97194,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790175452.8299394
+          "analysisUpdatedAt": 1790197262.540929
         }
       },
       {
@@ -96935,7 +97243,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790175453.8894863
+          "analysisUpdatedAt": 1790197263.6868742
         }
       },
       {
@@ -97202,15 +97510,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790175399.3859837,
-    "_updated_label": "2026-09-23 23:57",
-    "_last_success_at": 1790175399.3859837,
+    "_fetched_at": 1790197201.9747524,
+    "_updated_label": "2026-09-24 06:01",
+    "_last_success_at": 1790197201.9747524,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "STX": {
@@ -98487,7 +98795,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "EME": {
@@ -99245,7 +99553,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "FIX": {
@@ -100011,7 +100319,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   },
   "BE": {
@@ -101187,7 +101495,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-24 05:40"
+      "updated": "2026-09-24 06:01"
     }
   }
 };
