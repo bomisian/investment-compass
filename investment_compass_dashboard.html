@@ -3269,17 +3269,16 @@ function buildAtAGlanceHtml(r){
   const rs = computeRelStrength(r);
   const isWeakSector = isRelWeak(rs);
 
-  // [2026-09-22 수정 -- item2: 상충 문구 정리] status가 review(기술적 관심)여도, 이 종목에 장기
-  // 수익조건이 계산돼 있으면(현재 AMAT) "매수 검토 가능해 보여요"라는 단정적 헤드라인 대신 두
-  // 사실을 분리해서 보여준다(사용자 예시 형식: "장기 수익조건 미충족 · 기술적 관심 있음"). 단기
-  // 신호 자체(status·verdictSuggestsBuy 판정 로직)는 전혀 바꾸지 않는다 -- 이 헤드라인 문구만
-  // 바꾼다.
-  const ltLabel = (d.status === 'review') ? longTermConditionLabelForTicker(r) : null;
-  const reviewTone = ltLabel
-    ? (ltLabel === '수익조건 충족'
-        ? {bg:'var(--up-bg)', border:'#bfe3cf', color:'#0a6b45', head:`🧭 장기 ${ltLabel} · 기술적 관심도 있음`}
-        : {bg:'#fff6db', border:'#ecd98a', color:'#8a6d00', head:`🧭 장기 ${ltLabel} · 기술적 관심 있음`})
-    : {bg:'var(--up-bg)', border:'#bfe3cf', color:'#0a6b45', head:'✅ 매수 검토 가능해 보여요'};
+  // [2026-09-24 재작성 -- 화면 재검토 A진단 상단전환 3번] 이전엔 이 헤드라인 톤·문구가
+  // longTermConditionLabelForTicker(검증 전 장기 DCF/EPS성장 시나리오)를 읽어 "장기미충족
+  // ·기술관심"처럼 가격 적정성 판단까지 상단에서 내리고 있었다. 사용자 지적: "사업 변화·
+  // 기술적 관심·자료 상태는 각각 관측된 사실로 보여주고, 가격 적정성은 현재 진단(A-1)이
+  // 알려주는 범위와 연구 중인 부분을 짧게 구분하는 것이 맞다." 이제 이 헤드라인은 status가
+  // review일 때 항상 같은 중립 문구를 쓴다 -- 장기 시나리오 결론과 무관하다. 장기 시나리오의
+  // 실제 결론은 지우지 않았고 접힌 참고 영역(renderLongTermScenarioCard 등)에 그대로 있다.
+  const ltLabel = null; // 더 이상 이 헤드라인의 톤·문구에 반영하지 않음(참고용 변수만 남김)
+  const reviewTone = {bg:'var(--up-bg)', border:'#bfe3cf', color:'#0a6b45',
+    head:'🔎 기술적 매수 관심이 있어요 (가격 판단은 위 현재 가격 진단·아래 참고 모델 확인)'};
   const TONE = {
     review:      reviewTone,
     wait:        {bg:'#fff6db', border:'#ecd98a', color:'#8a6d00', head:'🕒 아직 조건 대기예요'},
@@ -3298,14 +3297,19 @@ function buildAtAGlanceHtml(r){
   // 2026-09-20 5차 추가(Codex 독립검토, 요청 1·3·5) - "한눈에 결론" 헤드라인도 목록 배지·판단 요약과
   // 같은 독립 가치평가 노트를 그대로 보여준다(같은 함수 재사용, 새 계산 아님) - 이 헤드라인이
   // review(매수 검토)여도 가치평가가 미확인이면 그 사실이 바로 다음 줄에 같이 보이게 한다.
-  const vvNote = renderValuationVerdictNote(d.valuationVerdict);
-  if(vvNote) lines.push(vvNote);
+  // [2026-09-24 수정 -- 화면 재검토 A진단 상단전환 2번] 이 vvNote(DCF·독립 평가 모델의
+  // 현재가 대비 고평가/저평가 판단)는 검증 전 모델의 결론이라, 위 A-1(현재 가격 진단)과
+  // 함께 상단에 있으면 "이미 가격 판단이 끝났다"는 인상을 준다. 계산은 그대로 두고
+  // tabJudgement의 접힌 참고 영역(legacyScenarioCardsHtml)으로만 옮긴다 -- 값 자체를
+  // 지우지 않는다.
   lines.push(`(참고: 가격 눌림목 점수 ${r.score}/5점 · ${esc(label)} - 52주 고점대비 하락·200일선·시장조정만 반영한 "가격 조정 정도" 지표로, 위 최종 판단의 근거 중 하나일 뿐 그 자체가 매수 결론은 아니에요)`);
   if(entryStat.kind==='new') lines.push('오늘 새로운 단기 매수 신호(눌림목)가 떴어요');
   else if(entryStat.kind==='cooldown') lines.push('며칠 전 떴던 단기 매수 신호가 아직 유효해요');
   else if(entryStat.kind==='watch') lines.push('단기 매수 신호까진 아니지만 근접해서 지켜볼 만해요');
   else lines.push('지금은 단기 매수 신호가 없어요');
-  if(hasFwd) lines.push(`PER 유지 시나리오 기준가($${fwd.mid.toFixed(0)}) 대비 지금 가격이 <b>${belowFair?'낮은':'높은'}</b> 편이에요<span class="sub" style="font-weight:400;"> (적정가가 아니라 시나리오 가격이라 저평가·고평가 판단 근거가 아니에요 · 매수신호 아님, 검증상 오히려 반대로 나왔어요)</span>`);
+  // [2026-09-24 수정 -- 화면 재검토 A진단 상단전환 2번] 'PER 유지 시나리오 기준가 대비 낮은/높은 편'
+  // 문장도 검증 전 시나리오 모델의 결론이라 상단에서 제거한다. renderFairValueSection(하단,
+  // 상세 화면)에는 이 계산이 그대로 남아 있다 -- 값을 지우거나 바꾸지 않는다.
   if(eps && eps.epsNow!=null && (eps.direction==='상향' || eps.direction==='하향')) lines.push(`최근 애널리스트 EPS 전망은 <b>${esc(eps.direction)}</b> 중이에요`);
   if(dc && !isRisk) lines.push(`최근 뉴스 체크: <b>${esc(DIR_LABEL[dc.tone]||dc.tone)}</b>`);
 
@@ -3693,13 +3697,19 @@ function tabJudgement(r){
   // 바꾸라는 요청은 아닙니다"). 상단에는 decisionSummaryHtml(종합 판정 배너)과
   // buildAtAGlanceHtml(한눈에 결론 헤드라인)만 남긴다 -- 이제 둘 다 composedDecisionLabel을
   // 공유해 서로 다른 결론으로 보이지 않는다.
-  const legacyScenarioCardsHtml = [renderLongTermPrimaryCard(r), renderAmatFrontCard(r), renderVstFrontCard(r), buildValuationReasonablenessHtml(r)].filter(Boolean).join('');
+  // [2026-09-24 추가 -- 화면 재검토 A진단 상단전환 2번] buildAtAGlanceHtml에서 뺀
+  // renderValuationVerdictNote(DCF·독립 평가 모델의 현재가 대비 판단)를 여기 접힌 참고
+  // 영역 맨 앞에 보존한다 -- 계산도, 노출 여부도 바뀌지 않고 위치만 상단에서 여기로 옮겼다.
+  const decisionForFold = r.decision || computeDecisionViewModel(r);
+  const vvNoteFolded = renderValuationVerdictNote(decisionForFold.valuationVerdict);
+  const legacyScenarioCardsHtml = [vvNoteFolded, renderLongTermPrimaryCard(r), renderAmatFrontCard(r), renderVstFrontCard(r), buildValuationReasonablenessHtml(r)].filter(Boolean).join('');
   const legacyScenarioFoldHtml = legacyScenarioCardsHtml
     ? `<details style="margin-bottom:12px;"><summary style="cursor:pointer;color:var(--sub);font-size:12.5px;padding:6px 0;">기존 시나리오 보기 (DCF · 장기투자 판단 기준 · 동종비교 · Forward PER)</summary><div style="margin-top:8px;">${legacyScenarioCardsHtml}</div></details>`
     : '';
   return `
     ${decisionSummaryHtml(r)}
     ${buildAtAGlanceHtml(r)}
+    ${renderPriceMultipleDiagnosticTopCard(r)}
     ${legacyScenarioFoldHtml}
     ${earningsBadge(r.ticker)}
     ${renderDataAsOf(r)}
@@ -4866,7 +4876,6 @@ function renderRelativeValueBandCard(rv){
       ${rv.comparisonPriceIssue?`<div class="sub" style="margin:0 0 4px;color:var(--down);">비교가격 자료상태 문제: ${esc(rv.comparisonPriceIssue)}</div>`:''}
       <div class="sub" style="margin:2px 0 8px;"><b>변경 이유</b>: ${esc(rv.changeReasonVsPrevious||'-')}</div>
       ${(rv.conditionsForChange && rv.conditionsForChange.length) ? `<div class="sub" style="margin:2px 0 8px;"><b>이 참고범위가 바뀌는 조건</b> <span style="font-weight:400;">(매수·보유·축소 조건이 아니라, 위 참고범위 숫자 자체가 달라지는 조건이에요)</span><ul style="margin:4px 0 0 16px;padding:0;">${rv.conditionsForChange.map(c=>`<li>${esc(c)}</li>`).join('')}</ul></div>` : ''}
-      ${renderPriceMultipleDiagnosticSection(rv.priceMultipleDiagnostic)}
       <details style="margin-top:4px;margin-bottom:4px;">
         <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">산출 근거 자세히 보기</summary>
         <div class="sub" style="margin:6px 0;">판단 시각(스냅샷 생성): ${esc(rv.generatedAt||'-')} · 기준일: ${esc(rv.asOfDate||'-')}</div>
@@ -4927,6 +4936,27 @@ function renderPriceMultipleDiagnosticSection(pmd){
       <div class="sub" style="margin-top:4px;font-size:10.5px;">요구수익률 가정 ${folded.required_return_assumption!=null?(folded.required_return_assumption*100).toFixed(0):'-'}% · 연배당 ${divLabel} $${folded.annual_dividend_per_share!=null?folded.annual_dividend_per_share.toFixed(2):'-'}/주 (상태: ${esc(folded.dividend_source_status||'-')}${divAsOf})</div>
       ${divProv.note?`<div class="sub" style="margin-top:2px;font-size:10.5px;">${esc(divProv.note)}</div>`:''}
     </details>`;
+}
+// [2026-09-24 신규 -- 화면 재검토 A진단 상단전환] priceMultipleDiagnostic(A-1)이
+// 동종기업 비교 카드(renderRelativeValueBandCard) 안에 묻혀 있어, 그 카드가 접히거나
+// 아예 없는 종목(예: 동종기업 참고범위 자체가 산출되지 않은 경우)에서 A-1도 함께 보이지
+// 않았다(사용자 지적: "새 A 진단은 동종기업 비교 카드 안에 묻혀 있습니다"). A-1은 밴드
+// 산출과 무관한 독립 진단(현재가 대비 이익기간별 배수)이므로, 동종기업 카드 존재 여부와
+// 상관없이 그 자체로 화면 상단에 항상 펼쳐서 보여준다. 재계산하지 않고 서버가 이미 넘긴
+// iv.relativeValueBand.priceMultipleDiagnostic 값을 그대로 조립만 한다(다른 렌더 함수와
+// 동일한 규율). 이 진단은 "새 적정가"가 아니라 "지금 가격이 어떤 이익 배수에 해당하는가"
+// 진단일 뿐이라는 점을 카드 자체에도 명시한다.
+function renderPriceMultipleDiagnosticTopCard(r){
+  const iv = (typeof INDEPENDENT_VALUATION_DATA !== 'undefined') ? INDEPENDENT_VALUATION_DATA[r.ticker] : null;
+  const pmd = iv && iv.relativeValueBand && iv.relativeValueBand.priceMultipleDiagnostic;
+  if(!pmd) return '';
+  const body = renderPriceMultipleDiagnosticSection(pmd);
+  if(!body) return '';
+  return `<div class="comment-box" style="background:var(--panel-2);margin-bottom:10px;">
+    <b>📐 현재 가격 진단</b>
+    <div class="sub" style="margin:4px 0 8px;">지금 가격에 이익 기간별로 어떤 배수가 매겨져 있는지 보여주는 진단이에요 -- <b>새로 산출된 적정가·매수가격이 아니에요.</b> 아래 접힌 참고 영역의 DCF·장기 시나리오·동종비교 모델은 이 진단과 별개로 검증 중이며, 이 카드가 그 모델들의 결론을 대신하지 않아요.</div>
+    ${body}
+  </div>`;
 }
 // [2026-09-21 신규 -- 봄이 4차 요구 1·2번: "EPS 공급자·필드경로·정의확인수준을 참고범위
 // 카드에 표시하고, '출처 확인'과 '기업 간 비교가능성 확인'을 분리해서 보여달라"]
@@ -6343,21 +6373,20 @@ const DECISION_STATUS_META = {
 // 로직을 공용 함수로 빼서, 목록 배지·상세 첫 배너·한눈에 결론 헤드라인이 항상 같은 라벨을
 // 내보내게 한다 -- 새 판정을 만들지 않고 이미 있는 status·longTermConditionLabelForTicker만
 // 조합한다.
+// [2026-09-24 재작성 -- 화면 재검토 A진단 상단전환 3번] 기존엔 이 함수가
+// longTermConditionLabelForTicker(검증 전 장기 DCF/EPS성장 시나리오의 결론)를 읽어 전역
+// 배지의 라벨·색을 "장기미충족·기술관심"(노랑)으로 바꿔치기했다. 사용자 지적: "검증되지
+// 않은 다른 모델로 배지를 바꾸어서도 안 된다 -- 가격 적정성 판단은 아직 검증 중임을
+// 짧게 구분하는 것이 맞다." 전역 배지는 이제 d.status(기술적 신호·실적·자료 상태만 반영,
+// computeDecisionViewModel 참고)만 그대로 쓴다. 장기 시나리오의 결론 자체는 지우지
+// 않았다 -- renderLongTermScenarioCard/renderLongTermPrimaryCard(접힌 참고 영역)에
+// 그대로 남아 있다. ltLabel은 더 이상 배지 라벨/톤에 반영되지 않지만, 호출부 호환을 위해
+// 필드는 유지한다(참고용, 사용하지 않음).
 function composedDecisionLabel(r, d, metaLabel){
   const ltLabel = (d.status === 'review') ? longTermConditionLabelForTicker(r) : null;
-  const ltShort = ltLabel === '수익조건 충족' ? '장기충족'
-    : ltLabel === '수익조건 미충족' ? '장기미충족'
-    : ltLabel ? '장기보류' : null;
-  // [2026-09-23 수정 -- 화면 재검토 U2] 라벨 문구는 "장기미충족·기술관심"으로 바뀌었는데
-  // 배경·글자색은 review의 초록(DECISION_STATUS_META.review)을 그대로 물려받아, 목록·상세
-  // 배지가 "미충족"이라고 쓰면서도 초록색으로 "충족"처럼 보이는 모순이 남아 있었다(Codex
-  // 재검토 지적). 장기 수익조건이 미충족·보류면 wait(조건 대기)의 노란 톤을 쓴다. 충족이거나
-  // 장기 계산 자체가 없는 종목(ltLabel=null)은 기존 review 초록을 그대로 쓴다. 새 판정 상태를
-  // 만들지 않고 기존 DECISION_STATUS_META의 색만 재사용한다.
-  const toneStatus = (ltShort === '장기미충족' || ltShort === '장기보류') ? 'wait' : d.status;
-  const tone = DECISION_STATUS_META[toneStatus] || DECISION_STATUS_META.unavailable;
+  const tone = DECISION_STATUS_META[d.status] || DECISION_STATUS_META.unavailable;
   return {
-    label: ltShort ? `${ltShort}·기술관심` : metaLabel,
+    label: metaLabel,
     ltLabel, bg: tone.bg, color: tone.color,
   };
 }
@@ -6692,7 +6721,13 @@ function computeDecisionViewModel(r){
       // 먼저 밝힌다 - 과거 참고값이라는 점과 보류 사유를 headlineReason 자체에도 노출한다.
       if(valuationVerdict.status === 'independent_confirmed' && !valuationBlocked){
         reasonCodes.push('valuation_independent_confirmed');
-        headlineReason = `기술적 매수 관심(가격 눌림목 조건 ${esc(r.verdict.label)} 충족, 실적 방향 ${esc(fd.verdict)})이 발생했고, 독립 평가 모델(${esc(valuationVerdict.methodLabel)}) 기준으로 ${esc(valuationVerdict.diffSentence||('현재가가 기준값 대비 '+valuationVerdict.diffLabel))}(그 값 자체가 매수 신호는 아니에요 - 상세 화면에서 가정을 꼭 확인하세요).`;
+        // [2026-09-24 수정 -- 화면 재검토 A진단 상단전환] 이전엔 여기서 독립 평가 모델
+        // (DCF 등)의 diffSentence("현재가가 기준값 대비 비싸요/저평가")까지 상단 헤드라인에
+        // 그대로 실어, 검증 전 모델의 결론이 전체 판단 설명을 대신하는 셈이었다(사용자 지적).
+        // 이제 이 헤드라인은 "그런 모델이 존재한다"는 사실만 알리고, 그 모델의 결론(비싸다/
+        // 싸다)은 상세 화면의 접힌 참고 영역에서만 확인하게 한다 -- 계산·모델 결과 자체는
+        // 전혀 바꾸지 않았다.
+        headlineReason = `기술적 매수 관심(가격 눌림목 조건 ${esc(r.verdict.label)} 충족, 실적 방향 ${esc(fd.verdict)})이 발생했어요. 독립 평가 모델(${esc(valuationVerdict.methodLabel)})도 있지만, 그 결론은 아직 검증 중이라 여기서는 반영하지 않아요(상세 화면의 '현재 가격 진단'·접힌 참고 영역에서 확인하세요 - 그 값 자체가 매수 신호는 아니에요).`;
       } else if(valuationVerdict.status === 'independent_confirmed' && valuationBlocked){
         reasonCodes.push('valuation_independent_confirmed_stale');
         headlineReason = `기술적 매수 관심(가격 눌림목 조건 ${esc(r.verdict.label)} 충족, 실적 방향 ${esc(fd.verdict)})이 발생했어요. 독립 평가 모델(${esc(valuationVerdict.methodLabel)}) 값은 있지만 지금은 과거 참고값이에요 - ${esc(valuationVerdict.judgmentBlockedReason||'자료 최신성 확인 대기')}(상세 화면 참고, 매수 신호로 보지 마세요).`;
