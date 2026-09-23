@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 92.69999694824219,
+      "current": 92.70999908447266,
       "prevClose": 94.58999633789062,
-      "changeAbs": -1.8899993896484375,
-      "changePct": -1.9980964825255483,
+      "changeAbs": -1.8799972534179688,
+      "changePct": -1.9875222816399287,
       "pctRank": 85.8392999204455,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -17.92828733698797,
-      "ma20": 94.27350120544433,
-      "ma60": 84.9066670735677,
-      "chg1m": 7.689994812011719,
-      "chg3m": 22.360000610351562,
-      "chg1mPct": 9.0459882587561,
-      "chg3mPct": 31.78845859323242,
+      "drawdown1y": -17.91943197045347,
+      "ma20": 94.27400131225586,
+      "ma60": 84.90683377583822,
+      "chg1m": 7.6999969482421875,
+      "chg3m": 22.37000274658203,
+      "chg1mPct": 9.057754093339236,
+      "chg3mPct": 31.802678292907157,
       "lastDate": "2026-09-23",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 101.1449966430664,
+      "current": 101.10700225830078,
       "prevClose": 100.43000030517578,
-      "changeAbs": 0.714996337890625,
-      "changePct": 0.7119350151528147,
-      "pctRank": 41.87898089171975,
+      "changeAbs": 0.677001953125,
+      "changePct": 0.6741033068483521,
+      "pctRank": 41.48089171974522,
       "min5y": 93.0999984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -0.45763602449755414,
-      "ma20": 99.55124931335449,
-      "ma60": 100.12725016276042,
-      "chg1m": 2.3449935913085938,
-      "chg3m": -0.26500701904296875,
-      "chg1mPct": 2.3734752215342896,
-      "chg3mPct": -0.26132236413870225,
+      "drawdown1y": -0.4950283919194609,
+      "ma20": 99.54934959411621,
+      "ma60": 100.12661692301432,
+      "chg1m": 2.3069992065429688,
+      "chg3m": -0.30300140380859375,
+      "chg1mPct": 2.3350193676961872,
+      "chg3mPct": -0.29878847536400055,
       "lastDate": "2026-09-23",
       "bars": 1256,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4322.5,
+      "current": 4322.7001953125,
       "prevClose": 4376.39990234375,
-      "changeAbs": -53.89990234375,
-      "changePct": -1.231603682170002,
+      "changeAbs": -53.69970703125,
+      "changePct": -1.2270292530280769,
       "pctRank": 87.44038155802862,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -18.725555066005285,
-      "ma20": 4442.5849609375,
-      "ma60": 4302.333325195313,
-      "chg1m": -375.2998046875,
-      "chg3m": 313.699951171875,
-      "chg1mPct": -7.988842017342311,
-      "chg3mPct": 7.825283061039114,
+      "drawdown1y": -18.72179086406154,
+      "ma20": 4442.594970703125,
+      "ma60": 4302.336661783854,
+      "chg1m": -375.099609375,
+      "chg3m": 313.900146484375,
+      "chg1mPct": -7.984580547700708,
+      "chg3mPct": 7.830276957219058,
       "lastDate": "2026-09-23",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,6 +237,33 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran, US still far apart in peace talks, Iranian official says; Pezeshkian vows no surrender - Reuters",
+      "summary": "Iran, US still far apart in peace talks, Iranian official says; Pezeshkian vows no surrender Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWjBhV01rbEcwcTJwZjdTbjF1ekxtTnZiRzc2b3p3d1NRVjZZWEUyM0gtQlFPeXBWX0hRdlVpMS11d01GVHpiQmdVY1FlN3dIZUQ4eDRTcTZBRFJxYjRMeVp3eWg5M0Q1YWw5a2N3cEhOUHlhOWRxNmZQTjVLenl2MjRrSENSaUYyTkFhc0ZNdnNoNnN0VXZOM2NhRGRLOWcyUEtXUk9wbThsdXBzc1ZYQW5iRQ?oc=5",
+      "datetime": 1790197183,
+      "headlineKo": "이란과 미국은 평화 회담에서 여전히 멀리 떨어져 있다고 이란 관리가 말했습니다. Pezeshkian은 항복하지 않겠다고 맹세했습니다-Reuters",
+      "summaryKo": "이란과 미국은 평화 회담에서 여전히 멀리 떨어져 있다고 이란 관리가 말했습니다. Pezeshkian은 항복하지 않겠다고 맹세했습니다."
+    },
+    {
+      "headline": "Wall Street ends down as oil prices, Treasury yields rise - Reuters",
+      "summary": "Wall Street ends down as oil prices, Treasury yields rise Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeEU4dTJoZV9XeFR4cENDYXhRMG1Tb3E4aHFNc1RoUEpHeVJNYmtnS1RHb0lVdzg5S1BKelZiUkR4eER2bkFZc0tjcWxlRFEyODRlVlRoNlNmblFabUhsZnJwTllqbmd2RUQ5NmI0M0JVc3B3aVkwcmt0SE9vTERyLVhFRzIybV9OMU94QlF6UGdORGhJZldzTUJ6X1F2TjhTRVpLNDZWeVN6WU1hR0ZLRw?oc=5",
+      "datetime": 1790195056,
+      "headlineKo": "월스트리트는 유가로 인해 하락하고 국채 수익률이 상승합니다 - Reuters",
+      "summaryKo": "월스트리트는 유가로 인해 종료되고 국채 수익률이 상승합니다."
+    },
+    {
+      "headline": "Iran's Pezeshkian accuses Trump of 'bullying mentality,' vows no surrender - Reuters",
+      "summary": "Iran's Pezeshkian accuses Trump of 'bullying mentality,' vows no surrender Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMjhvWl9UZXFUYjJ2MHhOTWJvdFgxYUN2b1NuVXYtYTNwVXEzS0J6cVVrZTVBYWxmNHJTLUZ6SG55eFE4azRCZVZDUloyUnVtNE85dGp5Q2xDUmtOVEdVUl8wenVVdUZpWm5ONE5OQUhSYjd1VWNfNm9Ib3g0VjBqdXItY1pTdW5XekI5MFJOWGpoazl2Y29Zb2dMSWx6S2VRckFRVm1WVUlYUkQ1S0dGM3piVGZ6TjgyNGZXcWNFVWFxN2M?oc=5",
+      "datetime": 1790194565,
+      "headlineKo": "이란의 페제쉬키안은 트럼프가 '괴롭히는 사고방식'을 가지고 있다고 비난하고 항복하지 않겠다고 맹세했습니다.",
+      "summaryKo": "이란의 페제쉬키안은 트럼프가 '괴롭히는 사고방식'을 가지고 있다고 비난하고 항복하지 않겠다고 맹세했습니다."
+    },
+    {
       "headline": "OpenAI and Anthropic CEOs push for AI cooperation at UN after Trump rebuffs 'globalist scheme' to control it",
       "summary": "Altman is one of several tech executives who's argued that AI companies should temper the pace of AI development in order to manage potential risks.",
       "source": "CNBC",
@@ -255,6 +282,15 @@ const MARKET_DATA = {
       "summaryKo": "Stifel은 소프트웨어 및 클라우드 거대 기업을 업그레이드하여 보류 상태에서 구매했습니다."
     },
     {
+      "headline": "Zelenskiy warns of painful winter for Russia if energy truce talks fail - Reuters",
+      "summary": "Zelenskiy warns of painful winter for Russia if energy truce talks fail Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOd3MzYlZCZEgzcUlDYjZORWhrZEFaczhhdjlTV2tXYW9lcjk0V1BIZlpqNVM1d21rQU1GYi1vX1p2QWtLV2MtRFNUZ2VuZzRmSkNCUGZibHFPVjF1NjdBUkhrU2NmR3pzZk4wdDFSdFdfWkJfX19wdll1LUROTGVVTkF6RUQzSmZ2NXBsRi14WHJnZkJiajIxUXVfbnc5Wk5zRXBncjZhRHNveHl2Yl9MeE9GWHliX0dW?oc=5",
+      "datetime": 1790192624,
+      "headlineKo": "Zelenskiy는 에너지 휴전 협상이 실패하면 러시아에 고통스러운 겨울이 올 것이라고 경고했습니다.",
+      "summaryKo": "Zelenskiy는 에너지 휴전 협상이 실패하면 러시아에 고통스러운 겨울이 올 것이라고 경고했습니다."
+    },
+    {
       "headline": "Tesla Roadster reveal is creating a unique options opportunity, says Mike Khouw",
       "summary": "Teslas are expensive cars, and the Roadster, which the company will reveal on October 1st, will likely be the its most expensive.",
       "source": "CNBC",
@@ -264,12 +300,12 @@ const MARKET_DATA = {
       "summaryKo": "테슬라는 고가의 자동차인데, 회사가 10월 1일 공개할 로드스터가 가장 비쌀 것으로 보인다."
     },
     {
-      "headline": "Oil settles up around 4% as Iran's president vows to never surrender - reuters.com",
-      "summary": "Oil settles up around 4% as Iran's president vows to never surrender reuters.com",
+      "headline": "Oil settles up around 4% as Iran's president vows to never surrender - Reuters",
+      "summary": "Oil settles up around 4% as Iran's president vows to never surrender Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeFhpNFFXWGZ2azRGVllBNXpwLXZQeTFySkY3Vi12SmpTNmMyY09oU3RMa3Rqb21pNUl0ZGhSbVBWQnZBOXdOb19xSlU3TnNra0F6OWowVHp5RHlSblJGTVhXandWeEFJaDBOTi1VcjdrSjVNeGVJZnVjeUJXM3NVYUgxZ28yQkVuWXNhc1pxd093NVVBTHZnWm40c01OS00zZHAwRWVR?oc=5",
       "datetime": 1790189324,
-      "headlineKo": "이란 대통령이 절대 항복하지 않겠다고 약속함에 따라 유가는 약 4% 상승 - reuters.com",
+      "headlineKo": "이란 대통령이 절대 항복하지 않겠다고 약속함에 따라 유가는 약 4% 상승 - 로이터",
       "summaryKo": "이란 대통령이 절대 항복하지 않겠다고 약속함에 따라 유가는 약 4% 상승했습니다."
     },
     {
@@ -282,79 +318,43 @@ const MARKET_DATA = {
       "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
     },
     {
-      "headline": "Wall Street falls as oil prices, Treasury yields rise - Reuters",
-      "summary": "Wall Street falls as oil prices, Treasury yields rise Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeEU4dTJoZV9XeFR4cENDYXhRMG1Tb3E4aHFNc1RoUEpHeVJNYmtnS1RHb0lVdzg5S1BKelZiUkR4eER2bkFZc0tjcWxlRFEyODRlVlRoNlNmblFabUhsZnJwTllqbmd2RUQ5NmI0M0JVc3B3aVkwcmt0SE9vTERyLVhFRzIybV9OMU94QlF6UGdORGhJZldzTUJ6X1F2TjhTRVpLNDZWeVN6WU1hR0ZLRw?oc=5",
-      "datetime": 1790188678,
-      "headlineKo": "유가 하락으로 월스트리트 하락, 국채수익률 상승 - Reuters",
-      "summaryKo": "유가 하락으로 월스트리트 하락, 국채수익률 상승 Reuters"
-    },
-    {
-      "headline": "Rubio, after Lavrov talks, says Russia has also voiced interest in 'limited ceasefire' - Reuters",
-      "summary": "Rubio, after Lavrov talks, says Russia has also voiced interest in 'limited ceasefire' Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOd3MzYlZCZEgzcUlDYjZORWhrZEFaczhhdjlTV2tXYW9lcjk0V1BIZlpqNVM1d21rQU1GYi1vX1p2QWtLV2MtRFNUZ2VuZzRmSkNCUGZibHFPVjF1NjdBUkhrU2NmR3pzZk4wdDFSdFdfWkJfX19wdll1LUROTGVVTkF6RUQzSmZ2NXBsRi14WHJnZkJiajIxUXVfbnc5Wk5zRXBncjZhRHNveHl2Yl9MeE9GWHliX0dW?oc=5",
-      "datetime": 1790186025,
-      "headlineKo": "루비오 총리는 라브로프 회담 후 러시아도 '제한적 휴전'에 관심을 표명했다고 밝혔습니다.",
-      "summaryKo": "루비오 총리는 라브로프 회담 후 러시아도 '제한적 휴전'에 관심을 표명했다고 말했습니다."
-    },
-    {
-      "headline": "Iran, US still far apart in peace talks, Iranian official says; Pezeshkian vows no surrender - reuters.com",
-      "summary": "Iran, US still far apart in peace talks, Iranian official says; Pezeshkian vows no surrender reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWjBhV01rbEcwcTJwZjdTbjF1ekxtTnZiRzc2b3p3d1NRVjZZWEUyM0gtQlFPeXBWX0hRdlVpMS11d01GVHpiQmdVY1FlN3dIZUQ4eDRTcTZBRFJxYjRMeVp3eWg5M0Q1YWw5a2N3cEhOUHlhOWRxNmZQTjVLenl2MjRrSENSaUYyTkFhc0ZNdnNoNnN0VXZOM2NhRGRLOWcyUEtXUk9wbThsdXBzc1ZYQW5iRQ?oc=5",
-      "datetime": 1790185127,
-      "headlineKo": "이란과 미국은 평화 회담에서 여전히 멀리 떨어져 있다고 이란 관리가 말했습니다. 페제쉬키안, 항복하지 않겠다 맹세 - reuters.com",
-      "summaryKo": "이란과 미국은 평화 회담에서 여전히 멀리 떨어져 있다고 이란 관리가 말했습니다. 페제쉬키안, 항복하지 않을 것을 맹세하다 reuters.com"
-    },
-    {
-      "headline": "Iran's Pezeshkian accuses Trump of 'bullying mentality,' vows no surrender - reuters.com",
-      "summary": "Iran's Pezeshkian accuses Trump of 'bullying mentality,' vows no surrender reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMjhvWl9UZXFUYjJ2MHhOTWJvdFgxYUN2b1NuVXYtYTNwVXEzS0J6cVVrZTVBYWxmNHJTLUZ6SG55eFE4azRCZVZDUloyUnVtNE85dGp5Q2xDUmtOVEdVUl8wenVVdUZpWm5ONE5OQUhSYjd1VWNfNm9Ib3g0VjBqdXItY1pTdW5XekI5MFJOWGpoazl2Y29Zb2dMSWx6S2VRckFRVm1WVUlYUkQ1S0dGM3piVGZ6TjgyNGZXcWNFVWFxN2M?oc=5",
-      "datetime": 1790185075,
-      "headlineKo": "이란의 페제쉬키안은 트럼프가 '괴롭히는 사고방식'을 가지고 있다고 비난하고 항복하지 않겠다고 맹세했습니다-reuters.com",
-      "summaryKo": "이란의 페제쉬키안은 트럼프가 '괴롭히는 사고방식'을 가지고 있다고 비난하고 항복하지 않겠다고 맹세했습니다."
-    },
-    {
-      "headline": "Trump plans grand spectacle for potentially tense Xi talks - reuters.com",
-      "summary": "Trump plans grand spectacle for potentially tense Xi talks reuters.com",
+      "headline": "Trump plans grand spectacle for potentially tense Xi talks - Reuters",
+      "summary": "Trump plans grand spectacle for potentially tense Xi talks Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaVBYbDJtMVNJRWNyaDlFLXhaWDBIbERYTkRRYVliRGR3eklaai1JTHBhZ2tOTjBqRk1CSTFvOENrMjduNVhWRUFiNzRsbDg0Y1ZJdFlKTy1oSUVBaUpTNlkwVS02emZkaHVUZVRaZjJleVhJWF9uY09xSHZMOVh3YXh2aVMwV09HeGJGSXVZTWZCRE5iNHdNdDI0bDU5aXZvMjJzMQ?oc=5",
       "datetime": 1790183259,
-      "headlineKo": "트럼프, 잠재적으로 긴장감 넘치는 시진핑 회담의 장엄한 광경 계획 - reuters.com",
-      "summaryKo": "트럼프는 잠재적으로 긴장된 시 회담을 위한 장엄한 광경을 계획하고 있습니다 reuters.com"
+      "headlineKo": "트럼프는 잠재적으로 긴장될 수 있는 시 회담을 위한 장엄한 광경을 계획하고 있습니다 - 로이터",
+      "summaryKo": "트럼프는 잠재적으로 긴장된 시진핑 회담을 위한 장엄한 광경을 계획하고 있습니다."
     },
     {
-      "headline": "FTSE 100 muted as energy gains offset broader drag; Iran, Xi visit watched - reuters.com",
-      "summary": "FTSE 100 muted as energy gains offset broader drag; Iran, Xi visit watched reuters.com",
+      "headline": "FTSE 100 muted as energy gains offset broader drag; Iran, Xi visit watched - Reuters",
+      "summary": "FTSE 100 muted as energy gains offset broader drag; Iran, Xi visit watched Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYm9UZS1CY1Z1eU5IVFFEUFd6V2VCbW80eWgwMjk4Z3ZyWDJSSk9JZ1dXY3oyd3oxX2RyRmJMT0o2SmFEOEhMWG4yMnBrUEdyQ09MVERNWkx0UDFmOFNIdV9NXzBON09NSFcyM2RlRmdnbUJvcGQ3RFhPNWJYeVlPbU5zRGp4NVU3VmJZNUZvTDZvRnc?oc=5",
       "datetime": 1790182171,
-      "headlineKo": "에너지 증가로 인해 FTSE 100이 음소거되어 더 넓은 항력을 상쇄합니다. 이란, 시진핑 방문 주목 - reuters.com",
-      "summaryKo": "에너지 증가로 인해 FTSE 100이 음소거되어 더 넓은 항력을 상쇄합니다. 이란, 시 방문 지켜봤다 reuters.com"
+      "headlineKo": "에너지 증가로 인해 FTSE 100이 음소거되어 더 넓은 항력을 상쇄합니다. 이란, 시 방문 주목 - 로이터",
+      "summaryKo": "에너지 증가로 인해 FTSE 100이 음소거되어 더 넓은 항력을 상쇄합니다. 이란, 시 방문 지켜봤다 로이터"
     },
     {
-      "headline": "Trump Gaza board pitches $2.45 billion Gaza plan, implementation uncertain - reuters.com",
-      "summary": "Trump Gaza board pitches $2.45 billion Gaza plan, implementation uncertain reuters.com",
+      "headline": "Trump Gaza board pitches $2.45 billion Gaza plan, implementation uncertain - Reuters",
+      "summary": "Trump Gaza board pitches $2.45 billion Gaza plan, implementation uncertain Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVEN3dTZ4OF80SGwwTXpoYTA1dks2bjlIZk5KbVJPVFdGYTJXM0s5YVZwbWRKYW93ODZ6OHlWRFpHYVlqUTdnSDlTYzFuZXhRbnM5bHhwX3RBVXZFS29nOG9rTWNyX0hVZE1FUmhrQ01MLU9XODg2MjR0azNMRmVOcUt4RU0zYTlDZjJYV3ZsYmFhdGxxbzhBX2dGT21qbGxEbHE1T253R3lSRDhYUm1HQnhUWENYTXJyczk0d3Z2RWNHUQ?oc=5",
       "datetime": 1790182054,
-      "headlineKo": "트럼프 가자지구 이사회, 24억 5천만 달러 규모의 가자지구 계획 발표, 이행 불확실 - reuters.com",
-      "summaryKo": "트럼프 가자지구 이사회, 24억 5천만 달러 규모의 가자지구 계획 발표, 실행 불확실 reuters.com"
+      "headlineKo": "트럼프 가자지구 이사회, 24억 5천만 달러 규모의 가자지구 계획 발표, 이행 불확실 - Reuters",
+      "summaryKo": "트럼프 가자지구 이사회, 24억 5천만 달러 규모의 가자지구 계획 발표, 이행 불확실 Reuters"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790197286.9478674,
+  "_news_last_success_at": 1790200824.6115026,
   "fgi": {
     "score": 34.6857142857143,
     "rating": "fear"
   },
-  "_fetched_at": 1790197265.864366,
-  "_updated_label": "2026-09-24 06:01",
-  "_last_attempt_at": 1790197265.864366,
-  "_last_success_at": 1790197265.864366,
+  "_fetched_at": 1790200803.0838974,
+  "_updated_label": "2026-09-24 07:00",
+  "_last_attempt_at": 1790200803.0838974,
+  "_last_success_at": 1790200803.0838974,
   "_collection_status": "ok",
   "_collection_errors": []
 };
