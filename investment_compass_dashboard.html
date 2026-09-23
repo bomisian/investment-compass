@@ -3722,6 +3722,40 @@ function renderJudgementConclusionCard(r){
 // [2026-09-24 신규 -- 화면 구조 개편 2번] 근거 네 줄(사업/가격/고점대비위치/주요위험). 전부
 // 새로 계산하지 않고 이미 있는 값(computeFinancialDirection·priceMultipleDiagnostic·
 // b.items의 drawdown·뉴스/그룹 신호)을 압축해서 보여준다.
+// [2026-09-24 신규 -- 사용자 요청: 잠정 시장 비교가격 표시] iv.relativeValueBand는 이미
+// generate_dashboard_connection.py가 동종기업(LRCX/KLAC) NTM PER 중앙값과 AMAT의 공통기준
+// NTM EPS로 계산해 rangeMid에 넣어둔 값이다(재계산 아님 -- 기존 renderRelativeValueBandCard와
+// 같은 원본 데이터, rv.rangeLow/rangeHigh만 보여주고 rv.rangeMid는 화면에 안 보이던 것을
+// 이번에 노출한다). Codex 독립 재계산과 동일 숫자로 일치 확인됨(569.97). "검증된 적정가"가
+// 아니라 "동종기업과 같은 배수를 적용하면"이라는 조건부 시장 비교값임을 제목·부연 설명에
+// 항상 명시한다 -- 매수가·매도가·확률로 연결하지 않는다. EPS·배수 각각 10% 하락 시나리오는
+// rangeMid에 0.9/0.81을 곱한 단순 산술(같은 항등식 V=E×M에서 그대로 나옴, 과거 확률 아님)이다.
+function renderMarketReferencePriceCard(r){
+  const iv = (typeof INDEPENDENT_VALUATION_DATA !== 'undefined') ? INDEPENDENT_VALUATION_DATA[r.ticker] : null;
+  const rv = iv && iv.relativeValueBand;
+  if(!rv || !rv.available || rv.rangeMid==null) return '';
+  const mid = rv.rangeMid;
+  const price = rv.comparisonPrice;
+  const diffPct = (price!=null && mid) ? (price/mid - 1)*100 : null;
+  const peersUsed = (rv.peersUsed||[]).join('·');
+  const epsNote = rv.epsBasisNote;
+  const definitionNote = epsNote ? epsNote.definitionConfirmationLabel : null;
+  const epsDown = mid*0.9;
+  const bothDown = mid*0.81;
+  return `<div class="comment-box" style="background:var(--panel-2);margin-bottom:12px;">
+    <div style="font-weight:700;font-size:15px;margin-bottom:2px;">${esc(r.ticker)} 잠정 시장 비교가격 약 $${mid.toFixed(0)}</div>
+    <div class="sub" style="margin-bottom:6px;">${price!=null?`${esc(rv.comparisonPriceAsOf||'')} 가격 $${price.toFixed(2)}`:''}${diffPct!=null?` · 비교 기준보다 약 ${Math.abs(diffPct).toFixed(1)}% ${diffPct<0?'낮음':'높음'}`:''}</div>
+    <div style="font-size:13px;line-height:1.7;">${peersUsed?esc(peersUsed):'동종기업'}와 같은 NTM 배수를 적용한 값이에요. 기업별 차이 조정 전(동일배수 가정)이며${definitionNote?`, ${esc(definitionNote)}`:''}.</div>
+    <details style="margin-top:8px;">
+      <summary style="cursor:pointer;color:var(--sub);font-size:12px;">비교기업별 값·전망 변화 시 기준가격</summary>
+      <div style="margin-top:6px;font-size:12.5px;line-height:1.7;">
+        <div>비교기업 배수 적용값 구간: $${rv.rangeLow!=null?rv.rangeLow.toFixed(2):'-'} ~ $${rv.rangeHigh!=null?rv.rangeHigh.toFixed(2):'-'}(통계적 신뢰구간 아님)</div>
+        <div style="margin-top:4px;">전망(EPS)만 10% 낮아지면: 약 $${epsDown.toFixed(0)} · 동종배수만 10% 낮아지면: 약 $${epsDown.toFixed(0)} · 둘 다 10% 낮아지면: 약 $${bothDown.toFixed(0)} <span style="color:var(--sub);">(과거 확률로 정한 구간이 아니라 전망·시장평가 변화의 영향을 보여주는 예시예요)</span></div>
+        <div style="margin-top:6px;color:var(--warn);">${esc(rv.bandDisclaimer||'이 범위는 검증된 매수가·적정가가 아닙니다.')}</div>
+      </div>
+    </details>
+  </div>`;
+}
 function renderFourLineEvidenceCard(r){
   const b = r.breakdown;
   const fin = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA[r.ticker] : null;
@@ -3847,6 +3881,7 @@ function tabJudgement(r){
 
   return `
     ${renderJudgementConclusionCard(r)}
+    ${renderMarketReferencePriceCard(r)}
     ${renderFourLineEvidenceCard(r)}
     <div class="row" style="justify-content:space-between;align-items:baseline;margin-top:14px;flex-wrap:wrap;gap:6px;">
       <div class="chart-label" style="margin-top:0;">캔들차트${chartTimeframe==='D' ? ' · 20일 이동평균선(주황)' + (longHistoryCache[r.ticker] ? '' : ' · <span style="color:var(--green);">▲</span> 과거 단타 매수신호') : ` · ${{'W':'20주','M':'20개월','Y':'20년'}[chartTimeframe]} 이동평균선(주황, 매수신호 마커는 일봉에서만 표시돼요)`} — ${IS_TOUCH ? '차트를 톡 누르면 그날 정보가 아래에 나와요 (끌면 좌우 이동)' : '차트를 클릭하면 그 구간이 확대돼요'}</div>
