@@ -189,9 +189,9 @@ const INDEPENDENT_VALUATION_DATA = {
       "rangeLabel": "동종기업 배수 적용 참고범위",
       "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
       "available": true,
-      "rangeLow": 555.1393611523129,
+      "rangeLow": 554.1189343859586,
       "rangeHigh": 585.5220584653131,
-      "rangeMid": 570.330709808813,
+      "rangeMid": 569.8204964256358,
       "bandStatus": "BELOW_BAND",
       "bandDisclaimer": "이 범위는 검증된 매수가·바닥가격·성공확률이 아니다 -- 동종업계가 지금 받는 배수를 그대로 적용한 참고 범위일 뿐이며, 이 범위와 별도로 산출되는 장기 DCF 내재가치(조건부 참고값)와도 다른 개념이다.",
       "comparisonPrice": 472.4599914550781,
@@ -213,8 +213,8 @@ const INDEPENDENT_VALUATION_DATA = {
           "reason": "통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)"
         }
       ],
-      "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-23T23:31:39.397246",
+      "changeReasonVsPrevious": "LRCX forward P/E 변경 (31.0733x -> 31.0162x)",
+      "generatedAt": "2026-09-23T23:58:41.505677",
       "asOfDate": "2026-09-23",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -1662,9 +1662,9 @@ const INDEPENDENT_VALUATION_DATA = {
       "rangeLabel": "동종기업 배수 적용 참고범위",
       "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
       "available": true,
-      "rangeLow": 264.64733936498544,
-      "rangeHigh": 327.9787870188115,
-      "rangeMid": 296.31306319189844,
+      "rangeLow": 265.134695439601,
+      "rangeHigh": 328.58276986852457,
+      "rangeMid": 296.8587326540628,
       "bandStatus": "WITHIN_BAND",
       "bandDisclaimer": "이 범위는 검증된 매수가·바닥가격·성공확률이 아니다 -- 동종업계가 지금 받는 배수를 그대로 적용한 참고 범위일 뿐이며, 이 범위와 별도로 산출되는 장기 DCF 내재가치(조건부 참고값)와도 다른 개념이다.",
       "comparisonPrice": 310.9599914550781,
@@ -1686,8 +1686,8 @@ const INDEPENDENT_VALUATION_DATA = {
           "reason": "통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)"
         }
       ],
-      "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-23T23:31:39.614051",
+      "changeReasonVsPrevious": "대상종목(공통기준) 컨센서스 EPS 변경 ($10.0073 -> $10.0257)",
+      "generatedAt": "2026-09-23T23:58:41.749200",
       "asOfDate": "2026-09-23",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -1745,29 +1745,29 @@ const INDEPENDENT_VALUATION_DATA = {
         "current_price_as_of": "2026-09-22",
         "multiples": {
           "fy_current": {
-            "eps": 9.50808,
+            "eps": 9.50548,
             "period_end": "2027-06-30",
             "period_label": "FY0(당해 회계연도)",
             "eps_basis_note": "회계연도 0y 컨센서스 평균 EPS(그대로, 계절성 조정 없음)",
-            "per": 32.704814374203636,
+            "per": 32.71376000528938,
             "per_price_basis_note": "현재가 $310.9600(2026-09-22) / 해당 기간 EPS"
           },
           "fy_next": {
-            "eps": 11.65184,
+            "eps": 11.73954,
             "period_end": "2028-06-30",
             "period_label": "FY1(익년 회계연도)",
             "eps_basis_note": "회계연도 +1y 컨센서스 평균 EPS",
-            "per": 26.687629718145644,
+            "per": 26.48826031131357,
             "per_price_basis_note": "현재가 $310.9600(2026-09-22) / 해당 기간 EPS"
           },
           "ntm": {
-            "eps": 10.007311780821917,
+            "eps": 10.025740547945205,
             "period_end": null,
             "period_label": "NTM(향후 365일 일수보간)",
             "window_start": "2026-09-23",
             "window_end": "2027-09-23",
             "eps_basis_note": "0y 2027-06-30(가중77%) / +1y 2028-06-30(가중23%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-            "per": 31.073279044928334,
+            "per": 31.01616184540203,
             "per_price_basis_note": "현재가 $310.9600(2026-09-22) / 해당 기간 EPS"
           }
         },
@@ -1781,15 +1781,15 @@ const INDEPENDENT_VALUATION_DATA = {
           "dividend_example_label": "배당 제외 예시(미확인, 확정 무배당 아님)",
           "by_multiple": {
             "fy_current": {
-              "required_eps_if_multiple_unchanged": 10.458888000000002,
-              "vs_same_period_eps_pct": 10.000000000000032
+              "required_eps_if_multiple_unchanged": 10.456028000000002,
+              "vs_same_period_eps_pct": 10.000000000000009
             },
             "fy_next": {
-              "required_eps_if_multiple_unchanged": 12.817024,
+              "required_eps_if_multiple_unchanged": 12.913494000000002,
               "vs_same_period_eps_pct": 10.000000000000009
             },
             "ntm": {
-              "required_eps_if_multiple_unchanged": 11.00804295890411,
+              "required_eps_if_multiple_unchanged": 11.028314602739727,
               "vs_same_period_eps_pct": 10.000000000000009
             }
           }
@@ -2112,8 +2112,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
       "available": true,
       "rangeLow": 151.95613515300474,
-      "rangeHigh": 178.54809574925517,
-      "rangeMid": 165.25211545112995,
+      "rangeHigh": 178.21989841947848,
+      "rangeMid": 165.0880167862416,
       "bandStatus": "ABOVE_BAND",
       "bandDisclaimer": "이 범위는 검증된 매수가·바닥가격·성공확률이 아니다 -- 동종업계가 지금 받는 배수를 그대로 적용한 참고 범위일 뿐이며, 이 범위와 별도로 산출되는 장기 DCF 내재가치(조건부 참고값)와도 다른 개념이다.",
       "comparisonPrice": 188.32000732421875,
@@ -2135,8 +2135,8 @@ const INDEPENDENT_VALUATION_DATA = {
           "reason": "통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)"
         }
       ],
-      "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-23T23:31:39.816552",
+      "changeReasonVsPrevious": "LRCX forward P/E 변경 (31.0733x -> 31.0162x)",
+      "generatedAt": "2026-09-23T23:58:41.956793",
       "asOfDate": "2026-09-23",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -2580,7 +2580,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "대상종목 비교가격 자료상태 문제: 통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
-      "withheldCheckedAt": "2026-09-23T23:31:40.015880",
+      "withheldCheckedAt": "2026-09-23T23:58:42.169665",
       "neverSucceeded": true
     },
     "longTermScenario": {
@@ -2919,7 +2919,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(821.8505434712173)<=band_low(821.8505434712173) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-23T23:31:40.180916",
+      "withheldCheckedAt": "2026-09-23T23:58:42.333234",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -2941,7 +2941,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(519.9944022501892)<=band_low(519.9944022501892) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-23T23:31:40.263502",
+      "withheldCheckedAt": "2026-09-23T23:58:42.416254",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -2963,7 +2963,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "선정 기준을 통과한 동종업계 배수가 하나도 없음 -- 밴드 산출 보류(0으로 채우지 않음)",
-      "withheldCheckedAt": "2026-09-23T23:31:40.345061",
+      "withheldCheckedAt": "2026-09-23T23:58:42.496564",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -2985,7 +2985,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "선정 기준을 통과한 동종업계 배수가 하나도 없음 -- 밴드 산출 보류(0으로 채우지 않음)",
-      "withheldCheckedAt": "2026-09-23T23:31:40.386513",
+      "withheldCheckedAt": "2026-09-23T23:58:42.538269",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -3007,7 +3007,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(1014.9629331775288)<=band_low(1014.9629331775288) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-23T23:31:40.427745",
+      "withheldCheckedAt": "2026-09-23T23:58:42.580063",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -3029,7 +3029,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(1211.2864504765214)<=band_low(1211.2864504765214) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-09-23T23:31:40.512998",
+      "withheldCheckedAt": "2026-09-23T23:58:42.661152",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
