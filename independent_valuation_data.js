@@ -189,20 +189,24 @@ const INDEPENDENT_VALUATION_DATA = {
       "rangeLabel": "동종기업 배수 적용 참고범위",
       "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
       "available": true,
-      "rangeLow": 538.7901536856265,
-      "rangeHigh": 572.1524255798771,
-      "rangeMid": 555.4712896327518,
+      "rangeLow": 538.6515159908283,
+      "rangeHigh": 571.997077427679,
+      "rangeMid": 555.3242967092536,
       "bandStatus": "BELOW_BAND",
       "bandDisclaimer": "이 범위는 검증된 매수가·바닥가격·성공확률이 아니다 -- 동종업계가 지금 받는 배수를 그대로 적용한 참고 범위일 뿐이며, 이 범위와 별도로 산출되는 장기 DCF 내재가치(조건부 참고값)와도 다른 개념이다.",
       "comparisonPrice": 464.239990234375,
       "comparisonPriceAsOf": "2026-09-21",
-      "comparisonPriceLabel": "전 거래일 확정 종가",
-      "comparisonPriceNote": "오늘(2026-09-23) 장중 관측값 $469.80999755859375은(는) 아직 정규장이 끝나지 않아 확정 종가가 아니므로 계산에 쓰지 않았고, 그 직전 확정 종가를 대신 씁니다.",
+      "comparisonPriceLabel": "최근 확인된 확정 종가",
+      "comparisonPriceNote": "오늘(2026-09-23) 장중 관측값 $469.80999755859375은(는) 아직 정규장이 끝나지 않아 확정 종가가 아니므로 계산에 쓰지 않았고, 그 직전 확정 종가를 대신 씁니다. 참고: 2026-09-22에는 이 캐시에 일봉 자체가 없습니다(휴장일인지 자료 결측인지는 확인되지 않음) -- 그래서 이 값이 반드시 '전 거래일' 값은 아닐 수 있습니다.",
       "comparisonPriceType": "confirmed_close",
       "comparisonPriceIsIntradayFallbackSkipped": true,
       "comparisonPriceIntradayObservedDate": "2026-09-23",
       "comparisonPriceIntradayObservedValue": 469.80999755859375,
       "comparisonPriceIntradayRetrievedAt": "2026-09-23T17:00:57Z",
+      "comparisonPriceHasPossibleMissingSession": true,
+      "comparisonPricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
       "comparisonPriceIssue": null,
       "peersUsed": [
         "LRCX",
@@ -218,14 +222,14 @@ const INDEPENDENT_VALUATION_DATA = {
           "reason": "통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)"
         }
       ],
-      "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-24T03:05:46.857551+09:00",
-      "asOfDate": "2026-09-24",
+      "changeReasonVsPrevious": "대상종목(공통기준) 컨센서스 EPS 변경 ($17.8810 -> $17.8655); KLAC forward P/E 변경 (31.9978x -> 32.0169x); LRCX forward P/E 변경 (30.1320x -> 30.1504x)",
+      "generatedAt": "2026-09-24T03:17:57.534077+09:00",
+      "asOfDate": "2026-09-23",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
       "lastCheckWasBenignSkip": false,
       "lastCheckBenignSkipNote": null,
-      "priceAgeDaysAtBuild": 3,
+      "priceAgeDaysAtBuild": 2,
       "snapshotAgeDaysAtBuild": 0,
       "priceDateClass": "ok",
       "snapshotDateClass": "ok",
@@ -301,13 +305,13 @@ const INDEPENDENT_VALUATION_DATA = {
             "per_price_basis_note": "현재가 $464.2400(2026-09-21) / 해당 기간 EPS"
           },
           "ntm": {
-            "eps": 17.880998054794517,
+            "eps": 17.86549016438356,
             "period_end": null,
             "period_label": "NTM(향후 365일 일수보간)",
-            "window_start": "2026-09-24",
-            "window_end": "2027-09-24",
+            "window_start": "2026-09-23",
+            "window_end": "2027-09-23",
             "eps_basis_note": "0y 2026-10-31(가중10%) / +1y 2027-10-31(가중90%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-            "per": 25.962756039218746,
+            "per": 25.985292648722208,
             "per_price_basis_note": "현재가 $464.2400(2026-09-21) / 해당 기간 EPS"
           }
         },
@@ -339,7 +343,7 @@ const INDEPENDENT_VALUATION_DATA = {
               "vs_same_period_eps_pct": 9.54333964229801
             },
             "ntm": {
-              "required_eps_if_multiple_unchanged": 19.58744243059626,
+              "required_eps_if_multiple_unchanged": 19.57045456953203,
               "vs_same_period_eps_pct": 9.54333964229801
             }
           }
@@ -940,8 +944,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "kind": "independent_value_dcf_scenario_engine",
       "asOf": "2026-09-24",
       "valuationAnchorDate": "2026-07-26",
-      "runId": "AMAT_REAL_20260924T030202365489",
-      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260924T030202341977",
+      "runId": "AMAT_REAL_20260924T033152937740",
+      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260924T033152914757",
       "engineVersion": "amat_calc_engine v4 (2026-09-18, 모델 채택 검토) -- D&A/CapEx 비율 곡선을 FY2025 실측 대조로 조정(min(0.60,0.20+0.10*(i+1)) -> min(0.45,0.19+0.065*i)), 계산 결과가 달라짐(v3 대비). 과거 실행은 각자 저장된 code_snapshots로 그 시점 값 그대로 재현 가능.",
       "isReplayFixture": false,
       "px": 191.18875891941352,
@@ -952,21 +956,21 @@ const INDEPENDENT_VALUATION_DATA = {
           "growthY1": 0.3134993682913383,
           "roic": 0.18,
           "ntmValue": 40504380020.0,
-          "runId": "AMAT_REAL_20260924T030202349091"
+          "runId": "AMAT_REAL_20260924T033152922093"
         },
         "base": {
           "px": 191.18875891941352,
           "growthY1": 0.38220422220060324,
           "roic": 0.22,
           "ntmValue": 42623031600.0,
-          "runId": "AMAT_REAL_20260924T030202365489"
+          "runId": "AMAT_REAL_20260924T033152937740"
         },
         "optimistic": {
           "px": 202.91184230912685,
           "growthY1": 0.45090907610986797,
           "roic": 0.26,
           "ntmValue": 44741683180.0,
-          "runId": "AMAT_REAL_20260924T030202405030"
+          "runId": "AMAT_REAL_20260924T033152973324"
         }
       },
       "priorDeliveredPx": 129.13,
@@ -1648,7 +1652,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "updateStatus": {
         "attemptStatus": "SUCCESS",
         "failureType": null,
-        "attemptedAt": "2026-09-24T03:02:02.373419",
+        "attemptedAt": "2026-09-24T03:31:52.946161",
         "dataAsOf": "2026-09-21",
         "holdPrice": false,
         "reason": ""
@@ -1667,20 +1671,24 @@ const INDEPENDENT_VALUATION_DATA = {
       "rangeLabel": "동종기업 배수 적용 참고범위",
       "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
       "available": true,
-      "rangeLow": 260.45476651978265,
-      "rangeHigh": 320.99739262638803,
-      "rangeMid": 290.72607957308537,
+      "rangeLow": 260.52180215851666,
+      "rangeHigh": 320.99283253394617,
+      "rangeMid": 290.7573173462314,
       "bandStatus": "WITHIN_BAND",
       "bandDisclaimer": "이 범위는 검증된 매수가·바닥가격·성공확률이 아니다 -- 동종업계가 지금 받는 배수를 그대로 적용한 참고 범위일 뿐이며, 이 범위와 별도로 산출되는 장기 DCF 내재가치(조건부 참고값)와도 다른 개념이다.",
       "comparisonPrice": 302.2799987792969,
       "comparisonPriceAsOf": "2026-09-21",
-      "comparisonPriceLabel": "전 거래일 확정 종가",
-      "comparisonPriceNote": "오늘(2026-09-23) 장중 관측값 $304.5893859863281은(는) 아직 정규장이 끝나지 않아 확정 종가가 아니므로 계산에 쓰지 않았고, 그 직전 확정 종가를 대신 씁니다.",
+      "comparisonPriceLabel": "최근 확인된 확정 종가",
+      "comparisonPriceNote": "오늘(2026-09-23) 장중 관측값 $304.5893859863281은(는) 아직 정규장이 끝나지 않아 확정 종가가 아니므로 계산에 쓰지 않았고, 그 직전 확정 종가를 대신 씁니다. 참고: 2026-09-22에는 이 캐시에 일봉 자체가 없습니다(휴장일인지 자료 결측인지는 확인되지 않음) -- 그래서 이 값이 반드시 '전 거래일' 값은 아닐 수 있습니다.",
       "comparisonPriceType": "confirmed_close",
       "comparisonPriceIsIntradayFallbackSkipped": true,
       "comparisonPriceIntradayObservedDate": "2026-09-23",
       "comparisonPriceIntradayObservedValue": 304.5893859863281,
       "comparisonPriceIntradayRetrievedAt": "2026-09-23T17:00:58Z",
+      "comparisonPriceHasPossibleMissingSession": true,
+      "comparisonPricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
       "comparisonPriceIssue": null,
       "peersUsed": [
         "AMAT",
@@ -1696,14 +1704,14 @@ const INDEPENDENT_VALUATION_DATA = {
           "reason": "통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)"
         }
       ],
-      "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-24T03:05:47.143538+09:00",
-      "asOfDate": "2026-09-24",
+      "changeReasonVsPrevious": "AMAT forward P/E 변경 (25.9628x -> 25.9853x); KLAC forward P/E 변경 (31.9978x -> 32.0169x)",
+      "generatedAt": "2026-09-24T03:17:58.107699+09:00",
+      "asOfDate": "2026-09-23",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
       "lastCheckWasBenignSkip": false,
       "lastCheckBenignSkipNote": null,
-      "priceAgeDaysAtBuild": 3,
+      "priceAgeDaysAtBuild": 2,
       "snapshotAgeDaysAtBuild": 0,
       "priceDateClass": "ok",
       "snapshotDateClass": "ok",
@@ -1771,13 +1779,13 @@ const INDEPENDENT_VALUATION_DATA = {
             "per_price_basis_note": "현재가 $302.2800(2026-09-21) / 해당 기간 EPS"
           },
           "ntm": {
-            "eps": 10.031861260273972,
+            "eps": 10.025740547945205,
             "period_end": null,
             "period_label": "NTM(향후 365일 일수보간)",
-            "window_start": "2026-09-24",
-            "window_end": "2027-09-24",
-            "eps_basis_note": "0y 2027-06-30(가중76%) / +1y 2028-06-30(가중24%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-            "per": 30.131995542673756,
+            "window_start": "2026-09-23",
+            "window_end": "2027-09-23",
+            "eps_basis_note": "0y 2027-06-30(가중77%) / +1y 2028-06-30(가중23%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+            "per": 30.150391119112868,
             "per_price_basis_note": "현재가 $302.2800(2026-09-21) / 해당 기간 EPS"
           }
         },
@@ -1799,8 +1807,8 @@ const INDEPENDENT_VALUATION_DATA = {
               "vs_same_period_eps_pct": 10.000000000000009
             },
             "ntm": {
-              "required_eps_if_multiple_unchanged": 11.035047386301372,
-              "vs_same_period_eps_pct": 10.000000000000032
+              "required_eps_if_multiple_unchanged": 11.028314602739727,
+              "vs_same_period_eps_pct": 10.000000000000009
             }
           }
         }
@@ -2121,20 +2129,24 @@ const INDEPENDENT_VALUATION_DATA = {
       "rangeLabel": "동종기업 배수 적용 참고범위",
       "rangeKind": "peer_multiple_reference_range_not_a_buy_zone",
       "available": true,
-      "rangeLow": 149.27181595631245,
-      "rangeHigh": 173.24268988423506,
-      "rangeMid": 161.25725292027374,
+      "rangeLow": 149.31235654943637,
+      "rangeHigh": 173.24515100672963,
+      "rangeMid": 161.278753778083,
       "bandStatus": "ABOVE_BAND",
       "bandDisclaimer": "이 범위는 검증된 매수가·바닥가격·성공확률이 아니다 -- 동종업계가 지금 받는 배수를 그대로 적용한 참고 범위일 뿐이며, 이 범위와 별도로 산출되는 장기 DCF 내재가치(조건부 참고값)와도 다른 개념이다.",
       "comparisonPrice": 183.97000122070312,
       "comparisonPriceAsOf": "2026-09-21",
-      "comparisonPriceLabel": "전 거래일 확정 종가",
-      "comparisonPriceNote": "오늘(2026-09-23) 장중 관측값 $186.09500122070312은(는) 아직 정규장이 끝나지 않아 확정 종가가 아니므로 계산에 쓰지 않았고, 그 직전 확정 종가를 대신 씁니다.",
+      "comparisonPriceLabel": "최근 확인된 확정 종가",
+      "comparisonPriceNote": "오늘(2026-09-23) 장중 관측값 $186.09500122070312은(는) 아직 정규장이 끝나지 않아 확정 종가가 아니므로 계산에 쓰지 않았고, 그 직전 확정 종가를 대신 씁니다. 참고: 2026-09-22에는 이 캐시에 일봉 자체가 없습니다(휴장일인지 자료 결측인지는 확인되지 않음) -- 그래서 이 값이 반드시 '전 거래일' 값은 아닐 수 있습니다.",
       "comparisonPriceType": "confirmed_close",
       "comparisonPriceIsIntradayFallbackSkipped": true,
       "comparisonPriceIntradayObservedDate": "2026-09-23",
       "comparisonPriceIntradayObservedValue": 186.09500122070312,
       "comparisonPriceIntradayRetrievedAt": "2026-09-23T17:00:58Z",
+      "comparisonPriceHasPossibleMissingSession": true,
+      "comparisonPricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
       "comparisonPriceIssue": null,
       "peersUsed": [
         "AMAT",
@@ -2150,14 +2162,14 @@ const INDEPENDENT_VALUATION_DATA = {
           "reason": "통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)"
         }
       ],
-      "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-09-24T03:05:47.397415+09:00",
-      "asOfDate": "2026-09-24",
+      "changeReasonVsPrevious": "AMAT forward P/E 변경 (25.9628x -> 25.9853x); LRCX forward P/E 변경 (30.1320x -> 30.1504x)",
+      "generatedAt": "2026-09-24T03:17:58.709188+09:00",
+      "asOfDate": "2026-09-23",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
       "lastCheckWasBenignSkip": false,
       "lastCheckBenignSkipNote": null,
-      "priceAgeDaysAtBuild": 3,
+      "priceAgeDaysAtBuild": 2,
       "snapshotAgeDaysAtBuild": 0,
       "priceDateClass": "ok",
       "snapshotDateClass": "ok",
@@ -2227,13 +2239,13 @@ const INDEPENDENT_VALUATION_DATA = {
             "per_price_basis_note": "현재가 $183.9700(2026-09-21) / 해당 기간 EPS"
           },
           "ntm": {
-            "eps": 5.749459561643835,
+            "eps": 5.746033287671232,
             "period_end": null,
             "period_label": "NTM(향후 365일 일수보간)",
-            "window_start": "2026-09-24",
-            "window_end": "2027-09-24",
-            "eps_basis_note": "0y 2027-06-30(가중76%) / +1y 2028-06-30(가중24%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
-            "per": 31.997790270239594,
+            "window_start": "2026-09-23",
+            "window_end": "2027-09-23",
+            "eps_basis_note": "0y 2027-06-30(가중77%) / +1y 2028-06-30(가중23%) 일수 가중 선형보간(ntm_method=annual_day_weighted_approximation, 계절성 미반영 근사, blend_ntm_eps_from_annual_estimates와 완전히 동일한 계산).",
+            "per": 32.01687007547131,
             "per_price_basis_note": "현재가 $183.9700(2026-09-21) / 해당 기간 EPS"
           }
         },
@@ -2255,8 +2267,8 @@ const INDEPENDENT_VALUATION_DATA = {
               "vs_same_period_eps_pct": 10.000000000000009
             },
             "ntm": {
-              "required_eps_if_multiple_unchanged": 6.324405517808219,
-              "vs_same_period_eps_pct": 10.000000000000009
+              "required_eps_if_multiple_unchanged": 6.320636616438357,
+              "vs_same_period_eps_pct": 10.000000000000032
             }
           }
         }
@@ -3077,13 +3089,45 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-09-21",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-09-24",
-      "generatedAt": "2026-09-24T02:44:18.598839+09:00",
+      "generatedAt": "2026-09-24T03:19:57.875425+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
       "isStaleReference": false,
       "staleReasons": [],
-      "disclaimer": "이 값은 비교기업이 정확히 1개일 때 그 기업의 forward P/E를 대상종목 자신의 NTM EPS에 그대로 곱한 '단일 비교기업 참고가격'일 뿐이다 -- 검증된 매수가·매도가·성공확률·신뢰구간이 아니며, low/high 범위 개념 자체가 없다(peer 1개라 범위를 구성하지 않음, 산술 실패 아님). 여러 peer로 만드는 상대가치 밴드(relativeValueBand)와는 다른 개념이며 서로 바꿔 쓰면 안 된다."
+      "disclaimer": "이 값은 비교기업이 정확히 1개일 때 그 기업의 forward P/E를 대상종목 자신의 NTM EPS에 그대로 곱한 '단일 비교기업 참고가격'일 뿐이다 -- 검증된 매수가·매도가·성공확률·신뢰구간이 아니며, low/high 범위 개념 자체가 없다(peer 1개라 범위를 구성하지 않음, 산술 실패 아님). 여러 peer로 만드는 상대가치 밴드(relativeValueBand)와는 다른 개념이며 서로 바꿔 쓰면 안 된다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이므로(eps_definition_confirmation_level 참고) 이 적용가격도 잠정으로 취급해야 한다.",
+      "targetEpsPeriodDetail": {
+        "0y_end": "2027-06-30",
+        "0y_eps": 9.41634,
+        "1y_end": "2028-06-30",
+        "1y_eps": 13.95531
+      },
+      "targetEpsNtmWeight": {
+        "weight_0y": 0.7643835616438356,
+        "weight_1y": 0.2356164383561644,
+        "days_in_0y": 279,
+        "days_in_1y": 86
+      },
+      "peerEpsPeriodDetail": {
+        "0y_end": "2027-06-30",
+        "0y_eps": 21.67057,
+        "1y_end": "2028-06-30",
+        "1y_eps": 34.52037
+      },
+      "peerEpsNtmWeight": {
+        "weight_0y": 0.7643835616438356,
+        "weight_1y": 0.2356164383561644,
+        "days_in_0y": 279,
+        "days_in_1y": 86
+      },
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "USD(quoteCurrency 필드 기준, 종목별 raw 데이터에서 확인됨)",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)",
+      "targetPricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ]
     }
   },
   "LITE": {
@@ -3104,13 +3148,45 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-09-21",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-09-24",
-      "generatedAt": "2026-09-24T02:44:18.598839+09:00",
+      "generatedAt": "2026-09-24T03:19:57.875425+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
       "isStaleReference": false,
       "staleReasons": [],
-      "disclaimer": "이 값은 비교기업이 정확히 1개일 때 그 기업의 forward P/E를 대상종목 자신의 NTM EPS에 그대로 곱한 '단일 비교기업 참고가격'일 뿐이다 -- 검증된 매수가·매도가·성공확률·신뢰구간이 아니며, low/high 범위 개념 자체가 없다(peer 1개라 범위를 구성하지 않음, 산술 실패 아님). 여러 peer로 만드는 상대가치 밴드(relativeValueBand)와는 다른 개념이며 서로 바꿔 쓰면 안 된다."
+      "disclaimer": "이 값은 비교기업이 정확히 1개일 때 그 기업의 forward P/E를 대상종목 자신의 NTM EPS에 그대로 곱한 '단일 비교기업 참고가격'일 뿐이다 -- 검증된 매수가·매도가·성공확률·신뢰구간이 아니며, low/high 범위 개념 자체가 없다(peer 1개라 범위를 구성하지 않음, 산술 실패 아님). 여러 peer로 만드는 상대가치 밴드(relativeValueBand)와는 다른 개념이며 서로 바꿔 쓰면 안 된다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이므로(eps_definition_confirmation_level 참고) 이 적용가격도 잠정으로 취급해야 한다.",
+      "targetEpsPeriodDetail": {
+        "0y_end": "2027-06-30",
+        "0y_eps": 21.67057,
+        "1y_end": "2028-06-30",
+        "1y_eps": 34.52037
+      },
+      "targetEpsNtmWeight": {
+        "weight_0y": 0.7643835616438356,
+        "weight_1y": 0.2356164383561644,
+        "days_in_0y": 279,
+        "days_in_1y": 86
+      },
+      "peerEpsPeriodDetail": {
+        "0y_end": "2027-06-30",
+        "0y_eps": 9.41634,
+        "1y_end": "2028-06-30",
+        "1y_eps": 13.95531
+      },
+      "peerEpsNtmWeight": {
+        "weight_0y": 0.7643835616438356,
+        "weight_1y": 0.2356164383561644,
+        "days_in_0y": 279,
+        "days_in_1y": 86
+      },
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "USD(quoteCurrency 필드 기준, 종목별 raw 데이터에서 확인됨)",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)",
+      "targetPricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ]
     }
   }
 };

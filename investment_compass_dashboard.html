@@ -3816,12 +3816,14 @@ function renderFourLineEvidenceCard(r){
     // 조사된 경우에만 이 값이 존재한다. 범위·신뢰구간·매수판정이 아니므로 절대 그런 단어를
     // 쓰지 않고, "1개사 비교 참고가격"이라는 것과 그 비교기업 이름을 항상 함께 밝힌다.
     const sc = iv.singleComparisonReference;
+    // [2026-09-24 수정 -- 31번 배치, Codex 4번 지적] 이 줄을 계속 길게 늘리지 않는다 --
+    // 핵심 가격과 짧은 상태만 여기 두고, FY0/FY1 원 구간·EPS·NTM가중치·EPS정의확인수준·
+    // 통화·분할 확인수준 같은 나머지 근거는 아래 scDetailsHtml(<details> 기본 접힘)로 뺀다.
     if(sc.ok){
       const staleTag = sc.isStaleReference ? ' [과거 참고값]' : '';
-      priceText = `[${esc(sc.peerTicker)} 1개사 비교, 범위 아님]${staleTag} NTM EPS $${sc.targetEps1!=null?Number(sc.targetEps1).toFixed(2):'-'} · `
-        + `${esc(sc.peerTicker)} forward PER ${sc.peerForwardPe!=null?Number(sc.peerForwardPe).toFixed(2):'-'}배 적용 시 참고가 `
+      priceText = `[${esc(sc.peerTicker)} 1개사 비교, 범위 아님]${staleTag} 참고가 `
         + `$${sc.appliedPrice!=null?Number(sc.appliedPrice).toFixed(2):'-'}`
-        + `${sc.targetCurrentPrice!=null?` (현재가 $${Number(sc.targetCurrentPrice).toFixed(2)}, ${esc(sc.targetCurrentPriceAsOf||'')})`:''}`;
+        + `${sc.targetCurrentPrice!=null?` (현재가 $${Number(sc.targetCurrentPrice).toFixed(2)})`:''}`;
     } else {
       priceText = `단일 비교기업(${esc(sc.peerTicker||'')}) 참고가격 보류 -- ${esc(sc.reason||'사유 미상')}`;
     }
@@ -3878,6 +3880,27 @@ function renderFourLineEvidenceCard(r){
   return `<div class="comment-box" style="background:var(--panel-2);margin-bottom:12px;">
     <div class="fund-row"><span style="color:var(--sub);">사업</span><span class="v">${bizText}</span></div>
     <div class="fund-row"><span style="color:var(--sub);">가격</span><span class="v">${priceText}</span></div>
+    ${(iv && iv.singleComparisonReference && iv.singleComparisonReference.ok) ? (()=>{
+      // [2026-09-24 신규 -- 31번 배치, Codex 4번 지적] target/peer 원 관측일·FY0/FY1
+      // 기간·EPS·NTM가중치·EPS정의/통화/분할 확인수준을 기본 접힘으로 보존한다(값을
+      // 지어내지 않고 서버가 이미 계산·전달한 필드만 그대로 나열). EPS 정의가 미확인이면
+      // "잠정"이라는 것을 굵게 명시한다(AMAT 경로와 동일한 원칙).
+      const sc2 = iv.singleComparisonReference;
+      const fmtEps = (p)=> p ? `${esc(p['0y_end']||'')} EPS $${p['0y_eps']!=null?Number(p['0y_eps']).toFixed(2):'-'} · ${esc(p['1y_end']||'')} EPS $${p['1y_eps']!=null?Number(p['1y_eps']).toFixed(2):'-'}` : '자료 없음';
+      const fmtWeight = (w)=> w ? `0y 가중치 ${w.weight_0y!=null?(w.weight_0y*100).toFixed(0):'-'}%(${w.days_in_0y!=null?w.days_in_0y:'-'}일) · +1y 가중치 ${w.weight_1y!=null?(w.weight_1y*100).toFixed(0):'-'}%(${w.days_in_1y!=null?w.days_in_1y:'-'}일)` : '자료 없음';
+      return `<details style="margin:4px 0 8px;"><summary style="cursor:pointer;font-size:12px;color:var(--sub);">단일 비교기업 참고가격 근거 자세히 보기</summary>
+        <div style="margin-top:6px;font-size:12px;line-height:1.7;color:var(--sub);">
+          <div><b>${esc(r.ticker)}</b>(대상) NTM EPS $${sc2.targetEps1!=null?Number(sc2.targetEps1).toFixed(2):'-'} -- ${fmtEps(sc2.targetEpsPeriodDetail)} / ${fmtWeight(sc2.targetEpsNtmWeight)}</div>
+          <div><b>${esc(sc2.peerTicker)}</b>(비교기업) forward PER ${sc2.peerForwardPe!=null?Number(sc2.peerForwardPe).toFixed(2):'-'}배, 가격 $${sc2.peerPrice!=null?Number(sc2.peerPrice).toFixed(2):'-'}(${esc(sc2.peerPriceAsOf||'')}) -- ${fmtEps(sc2.peerEpsPeriodDetail)} / ${fmtWeight(sc2.peerEpsNtmWeight)}</div>
+          <div style="margin-top:4px;"><b>EPS 정의 확인수준(잠정)</b>: ${esc(sc2.epsDefinitionConfirmationLabel||sc2.epsDefinitionConfirmationLevel||'미확인')}</div>
+          <div>통화 기준: ${esc(sc2.epsCurrencyBasisNote||'미확인')}</div>
+          <div>주식수 기준: ${esc(sc2.epsShareBasisAssumed||'미확인')}</div>
+          <div>분할 확인: ${esc(sc2.epsSplitConfirmationNote||'미확인')}</div>
+          ${(sc2.targetPricePossibleMissingSessionDates && sc2.targetPricePossibleMissingSessionDates.length) ? `<div style="color:var(--warn);margin-top:4px;">참고: ${esc(sc2.targetPricePossibleMissingSessionDates.join(', '))}에는 원본 가격 캐시에 일봉이 없습니다(휴장일인지 자료 결측인지 미확인).</div>` : ''}
+          <div style="margin-top:4px;">${esc(sc2.disclaimer||'')}</div>
+        </div>
+      </details>`;
+    })() : ''}
     <div class="fund-row"><span style="color:var(--sub);">가격 위치</span><span class="v">${posText}</span></div>
     <div class="fund-row"><span style="color:var(--sub);">주의</span><span class="v">${riskText}</span></div>
   </div>`;
