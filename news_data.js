@@ -2,27 +2,28 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1790155191.531952,
+    "_last_attempt_at": 1790177254.7484846,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "ONEQ: The Downside Requires A Perfect Storm Despite QQQ-Like Risks",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=efb89b82cf1b9f30361e0606bdd5ddbe3d4dcce037218c798a3e9416dfa95589",
-        "datetime": 1790134792,
-        "relevance": 1.0,
+        "headline": "Stock Market Today: Nasdaq Dips After Hitting Record Highs; Micron, Sandisk Sink In Buy Zones (Live Coverage)",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8ded3d10be8591bd56b7e0f44d7e67e8e8febbe8bc8ae3389ae7cef41205e2a9",
+        "datetime": 1790167741,
+        "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "실적·재무 부담 확인 필요",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "ONEQ: 단점은 QQQ와 유사한 위험에도 불구하고 완벽한 폭풍을 요구합니다(NASDAQ:ONEQ) | 알파를 추구하다"
+            "Stock Market Today: Nasdaq Dips After Hitting Record Highs; Micron, Sandisk Sink In Buy Zones (Live Coverage)",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -45,16 +46,124 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'ONEQ: The Downside Requires A Perfect Storm Despite QQQ-Like Risks' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Stock Market Today: Nasdaq Dips After Hitting Record Highs; Micron, Sandisk Sink In Buy Zones (Live Coverage)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1.0,
+          "relevance": 0.67,
           "quality": "low",
           "verifiedNumbers": [],
-          "sourceExcerpt": [
-            "ONEQ: The Downside Requires A Perfect Storm Despite QQQ-Like Risks (NASDAQ:ONEQ) | Seeking Alpha"
-          ],
-          "analysisUpdatedAt": 1790155195.7746809
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790177258.5541172
         },
+        "headlineKo": "오늘의 주식 시장: 나스닥은 사상 최고치를 기록한 후 하락했습니다. Micron, Sandisk가 매수 구역에 싱크(실시간 보도)"
+      },
+      {
+        "headline": "Don't Sell This Nasdaq Rally",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=5f620b4f6ec9728f344c95eb4dba0c3f24b4781e71d7f2e9d68ed1fcda9df0c7",
+        "datetime": 1790154000,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Don't Sell This Nasdaq Rally",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Don't Sell This Nasdaq Rally' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790177259.5489194
+        },
+        "headlineKo": "이번 나스닥 랠리를 팔지 마세요"
+      },
+      {
+        "headline": "Stock Market Today: Dow, Nasdaq, S&P 500 Futures Drop as Trump Threatens to 'Annihilate' Iran at UNGA—KB Home, Worthington, IONQ in Focus (UPDATED)",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=1b4db9008693acff14dee5e9dad069573c7c34c2a84ee3c6aed7147d51d1f508",
+        "datetime": 1790152291,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Stock Market Today: Dow, Nasdaq, S&P 500 Futures Drop as Trump Threatens to 'Annihilate' Iran at UNGA—KB Home, Worthington, IONQ in Focus (UPDATED)",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Stock Market Today: Dow, Nasdaq, S&P 500 Futures Drop as Trump Threatens to 'Annihilate' Iran at UNGA—KB Home, Worthington, IONQ in Focus (UPDATED)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790177260.61805
+        },
+        "headlineKo": "오늘의 주식 시장: 트럼프가 UNGA에서 이란을 '전멸'하겠다고 위협하면서 다우, 나스닥, S&P 500 선물 하락 - KB 홈, 워딩턴, IONQ 집중(업데이트됨)"
+      },
+      {
+        "headline": "ONEQ: The Downside Requires A Perfect Storm Despite QQQ-Like Risks",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=efb89b82cf1b9f30361e0606bdd5ddbe3d4dcce037218c798a3e9416dfa95589",
+        "datetime": 1790134792,
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "flagTerms": [],
         "headlineKo": "ONEQ: 단점은 QQQ와 유사한 위험에도 불구하고 완벽한 폭풍이 필요합니다"
       },
       {
@@ -65,148 +174,157 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "주식 희석 · 주당가치 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "나스닥은 칩 제조업체가 오르고 유가가 냉각되면서 기록적인 마감을 기록했습니다 — AAPL, META, SPCX, MSFT, VKTX 초점 신규 에이전트 연결 동향 뉴스 수익 전체 DIA 0.10% SPY 0.09% QQQ 0.03% 추세 SMCI 1.59% SLS 2.50% INFQ 5.26% SOXX 0.64%",
-            "나스닥은 칩 제조업체가 오르고 유가가 냉각되면서 기록적인 마감을 기록했습니다. — AAPL, META, SPCX, MSFT, VKTX In Focus 월스트리트는 이번 주 도널드 트럼프와 시진핑 중국 국가주석 간의 정상회담을 준비하고 있습니다.",
-            "트레이더들이 2026년 7월 29일 뉴욕시 뉴욕증권거래소(NYSE)에서 일하고 있다."
-          ],
-          "why": [
-            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.10%, 0.09%, 0.03% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "신규 주식 수·행사가격",
-            "조달 자금 사용처",
-            "완전희석 주식수와 EPS"
-          ],
-          "interpretation": "QQQ에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.10%",
-            "0.09%",
-            "0.03%",
-            "1.59%",
-            "2.50%",
-            "5.26%",
-            "0.64%",
-            "0.63%"
-          ],
-          "sourceExcerpt": [
-            "Nasdaq Jumps To Close At Record As Chipmakers Climb, Oil Prices Cool — AAPL, META, SPCX, MSFT, VKTX In Focus New Connect your Agent Trending News Earnings All DIA 0.10% SPY 0.09% QQQ 0.03% Trending SMCI 1.59% SLS 2.50% INFQ 5.26% SOXX 0.64%",
-            "Nasdaq Jumps To Close At Record As Chipmakers Climb, Oil Prices Cool — AAPL, META, SPCX, MSFT, VKTX In Focus Wall Street is gearing up for this week’s summit between Donald Trump and Chinese President Xi Jinping.",
-            "Traders work on the New York Stock Exchange (NYSE) on July 29, 2026 in New York City."
-          ],
-          "analysisUpdatedAt": 1790155200.9707499
-        },
         "headlineKo": "나스닥은 칩 제조업체가 오르고 유가가 냉각되면서 기록적인 마감을 기록했습니다 — AAPL, META, SPCX, MSFT, VKTX 집중"
-      },
-      {
-        "headline": "BlackRock Just Declared War on QQQ. Here’s How You Can Collect the Spoils.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=15206b63c3fab3cffd7e52b5d6b8beb22555ae35cc9167c2e2a757088c70f1b1",
-        "datetime": 1790084136,
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "장기 공급계약 · 매출 가시성 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "BlackRock은 방금 QQQ에 전쟁을 선포했습니다.",
-            "전리품을 수집하는 방법은 다음과 같습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,782.40 +0.10% Dow Jones 51,974.80 +0.06% Nasdaq 100 30,769.40 +0.06% Russell 2000 2,888.43 −0.25% S&P 500 7,782.40 +0.10% 다우존스 51,974.80 +0.06% 나스닥 100 30,769.40 +0.06% 러셀 2000 2,888.43 −0."
-          ],
-          "why": [
-            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.10%, 0.06%, 0.25% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "계약 기간·최소구매 조건",
-            "연도별 매출 인식",
-            "수주잔고·취소 조건"
-          ],
-          "interpretation": "QQQ에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1.0,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.10%",
-            "0.06%",
-            "0.25%",
-            "0.12%",
-            "$10",
-            "$10,000",
-            "$18",
-            "$10,000."
-          ],
-          "sourceExcerpt": [
-            "BlackRock Just Declared War on QQQ.",
-            "Here's How You Can Collect the Spoils.",
-            "Skip to content ❚❚ At close S&P 500 7,782.40 +0.10% Dow Jones 51,974.80 +0.06% Nasdaq 100 30,769.40 +0.06% Russell 2000 2,888.43 −0.25% S&P 500 7,782.40 +0.10% Dow Jones 51,974.80 +0.06% Nasdaq 100 30,769.40 +0.06% Russell 2000 2,888.43 −0."
-          ],
-          "analysisUpdatedAt": 1790155204.589011
-        },
-        "headlineKo": "BlackRock은 방금 QQQ에 전쟁을 선포했습니다. 전리품을 수집하는 방법은 다음과 같습니다."
-      },
-      {
-        "headline": "Where Will QQQ Be in 20 Years? Here's What the Nasdaq-100's Historical Growth Rate Suggests.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c079a11cbfe330a149881a96b5eaa0dcd971e5bda4a6e381fd3aa6c7d341eeef",
-        "datetime": 1790076000,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "20년 후 QQQ는 어디에 있을까요? Nasdaq-100의 역사적 성장률이 시사하는 바는 다음과 같습니다."
-      },
-      {
-        "headline": "Stock Market Today: S&P 500, Dow, Futures Gain Nasdaq 100 Slips as Trump Administration Targets Iranian Airlines— Lennar, Greenland Mines, Accenture in Focus (UPDATED)",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=2a068c5fbd27b4924c67485c8dbce2dc7bfa0b40d6c93b6bf0c6fe1a2b065d35",
-        "datetime": 1790065946,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "오늘의 주식 시장: 트럼프 행정부가 이란 항공을 표적으로 삼으면서 S&P 500, 다우, 선물이 나스닥 100 하락을 기록했습니다. - Lennar, Greenland Mines, Accenture in Focus(업데이트됨)"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Stock Market Today: Nasdaq Dips After Hitting Record Highs; Micron, Sandisk Sink In Buy Zones (Live Coverage)",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8ded3d10be8591bd56b7e0f44d7e67e8e8febbe8bc8ae3389ae7cef41205e2a9",
+        "datetime": 1790167741,
+        "headlineKo": "오늘의 주식 시장: 나스닥은 사상 최고치를 기록한 후 하락했습니다. Micron, Sandisk가 매수 구역에 싱크(실시간 보도)",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Stock Market Today: Nasdaq Dips After Hitting Record Highs; Micron, Sandisk Sink In Buy Zones (Live Coverage)",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Stock Market Today: Nasdaq Dips After Hitting Record Highs; Micron, Sandisk Sink In Buy Zones (Live Coverage)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790177258.5541172
+        }
+      },
+      {
+        "headline": "Don't Sell This Nasdaq Rally",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=5f620b4f6ec9728f344c95eb4dba0c3f24b4781e71d7f2e9d68ed1fcda9df0c7",
+        "datetime": 1790154000,
+        "headlineKo": "이번 나스닥 랠리를 팔지 마세요",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Don't Sell This Nasdaq Rally",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Don't Sell This Nasdaq Rally' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790177259.5489194
+        }
+      },
+      {
+        "headline": "Stock Market Today: Dow, Nasdaq, S&P 500 Futures Drop as Trump Threatens to 'Annihilate' Iran at UNGA—KB Home, Worthington, IONQ in Focus (UPDATED)",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=1b4db9008693acff14dee5e9dad069573c7c34c2a84ee3c6aed7147d51d1f508",
+        "datetime": 1790152291,
+        "headlineKo": "오늘의 주식 시장: 트럼프가 UNGA에서 이란을 '전멸'하겠다고 위협하면서 다우, 나스닥, S&P 500 선물 하락 - KB 홈, 워딩턴, IONQ 집중(업데이트됨)",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Stock Market Today: Dow, Nasdaq, S&P 500 Futures Drop as Trump Threatens to 'Annihilate' Iran at UNGA—KB Home, Worthington, IONQ in Focus (UPDATED)",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Stock Market Today: Dow, Nasdaq, S&P 500 Futures Drop as Trump Threatens to 'Annihilate' Iran at UNGA—KB Home, Worthington, IONQ in Focus (UPDATED)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790177260.61805
+        }
+      },
       {
         "headline": "ONEQ: The Downside Requires A Perfect Storm Despite QQQ-Like Risks",
         "source": "SeekingAlpha",
@@ -1945,15 +2063,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790155191.531952,
-    "_updated_label": "2026-09-23 18:20",
-    "_last_success_at": 1790155191.531952,
+    "_fetched_at": 1790177254.7484846,
+    "_updated_label": "2026-09-24 00:27",
+    "_last_success_at": 1790177254.7484846,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 39,
+      "checked": 42,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "SPY": {
@@ -4132,7 +4250,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "MSFT": {
@@ -8056,7 +8174,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "GOOGL": {
@@ -12549,11 +12667,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "AMZN": {
-    "_last_attempt_at": 1790155191.531952,
+    "_last_attempt_at": 1790177254.7484846,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "amc",
@@ -12563,139 +12681,11 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Rocket Lab CEO Puts Iridium Deal Alongside SpaceX And Amazon’s Spectrum Bets: ‘You Can’t Just Magic Up Spectrum’",
+        "headline": "Can Disney's International Streaming Expansion Challenge NFLX & AMZN?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=16dc459eeb2d7d33b12671b94607b1492f983a81c7cac00222339b030b0b97c3",
-        "datetime": 1790130502,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Rocket Lab CEO, SpaceX 및 Amazon Spectrum 베팅과 함께 이리듐 거래 제시: '스펙트럼을 마법처럼 사용할 수는 없습니다' 신규 에이전트 연결 트렌드 뉴스 수익 전체 DIA 0.10% SPY 0.09% QQQ 0.03% 트렌드 SMCI 1.59% SLS 2.50% INFQ 5.26% SOXX 0",
-            "Rocket Lab CEO는 SpaceX 및 Amazon의 Spectrum 베팅과 함께 Iridium 거래를 진행합니다. 'You Can't Magic Up Spectrum' CEO Peter Beck은 Rocket Lab이 30억 달러가 아닌 약 3억 5천만 달러에 Iridium 별자리를 배포할 수 있었을 것이라고 추정했습니다.",
-            "이 사진 일러스트에는 Rocket Lab USA, Inc.의 로고가 있습니다."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.10%, 0.09%, 0.03% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMZN",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "AMZN에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.10%",
-            "0.09%",
-            "0.03%",
-            "1.59%",
-            "2.50%",
-            "5.26%",
-            "0.64%",
-            "0.63%"
-          ],
-          "sourceExcerpt": [
-            "Rocket Lab CEO Puts Iridium Deal Alongside SpaceX And Amazon’s Spectrum Bets: ‘You Can’t Just Magic Up Spectrum’ New Connect your Agent Trending News Earnings All DIA 0.10% SPY 0.09% QQQ 0.03% Trending SMCI 1.59% SLS 2.50% INFQ 5.26% SOXX 0",
-            "Rocket Lab CEO Puts Iridium Deal Alongside SpaceX And Amazon’s Spectrum Bets: ‘You Can’t Just Magic Up Spectrum’ CEO Peter Beck estimated Rocket Lab could have deployed Iridium’s constellation for about $350 million instead of $3 billion.",
-            "In this photo illustration, the logo of Rocket Lab USA, Inc."
-          ],
-          "analysisUpdatedAt": 1790155213.8888447
-        },
-        "headlineKo": "Rocket Lab CEO는 SpaceX 및 Amazon의 스펙트럼 베팅과 함께 이리듐 거래를 제안합니다: '스펙트럼을 마술처럼 향상시킬 수는 없습니다'"
-      },
-      {
-        "headline": "VGT Holders Bought ‘Tech’ and Own No Google, Meta, or Amazon: The Sector Rule That Decides What’s Inside",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5689ddb9b57259262486fbc4b3848e155e2ba4172ad5fcb0556ec7c43f2d295c",
-        "datetime": 1790115304,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "neutral",
-          "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "VGT 보유자는 '기술'을 구입하고 Google, Meta 또는 Amazon을 소유하지 않습니다: 내부 내용을 결정하는 부문 규칙 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,782.40 +0.10% Dow Jones 51,974.80 +0.06% Nasdaq 100 30,769.40 +0.06% Russell 2000 2,888.43 −0.25% S&P 500 7,782.40 +0.10% 다우존스 51,974.80 +0.06% 나스닥 100 30,769.40 +0.06% 러셀 2000 2,888.43 −0.",
-            "어떤 것이 전체 포트폴리오가 실제로 어떻게 조화되는지를 아는 것이 좋습니다."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.09%, $9, $10,000 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMZN",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "AMZN에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 비용·CAPEX·영업현금흐름·FCF·부채에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.09%",
-            "$9",
-            "$10,000",
-            "14.65%",
-            "12.85%",
-            "8.38%",
-            "5.42%",
-            "5.41%"
-          ],
-          "sourceExcerpt": [
-            "VGT Holders Bought 'Tech' and Own No Google, Meta, or Amazon: The Sector Rule That Decides What's Inside - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,782.40 +0.10% Dow Jones 51,974.80 +0.06% Nasdaq 100 30,769.40 +0.06% Russell 2000 2,888.43 −0.25% S&P 500 7,782.40 +0.10% Dow Jones 51,974.80 +0.06% Nasdaq 100 30,769.40 +0.06% Russell 2000 2,888.43 −0.",
-            "Knowing which ones changes how your whole portfolio actually fits together."
-          ],
-          "analysisUpdatedAt": 1790155217.5527022
-        },
-        "headlineKo": "VGT 보유자는 '기술'을 구입하고 Google, Meta 또는 Amazon을 소유하지 않습니다: 내부 내용을 결정하는 부문 규칙"
-      },
-      {
-        "headline": "Amazon.com (AMZN) Blocks Rival AI Shopping Agent On Its Platform",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7d96e1f939a7d93111edee3ea421edb3a4bc9f031b1392f9a3a21031cd0ae943",
-        "datetime": 1790111699,
-        "relevance": 1,
+        "url": "https://finnhub.io/api/news?id=3f20578224861606069636654d7c5d2dffb4192ae8068c1f7a5f4af366b435bf",
+        "datetime": 1790171280,
+        "relevance": 0.75,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
@@ -12706,7 +12696,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Amazon.com (AMZN) Blocks Rival AI Shopping Agent On Its Platform",
+            "Can Disney's International Streaming Expansion Challenge NFLX & AMZN?",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -12730,35 +12720,134 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon.com (AMZN) Blocks Rival AI Shopping Agent On Its Platform' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Can Disney's International Streaming Expansion Challenge NFLX & AMZN?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.75,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790177267.947662
+        },
+        "headlineKo": "디즈니의 국제 스트리밍 확장이 NFLX와 AMZN에 도전할 수 있을까요?"
+      },
+      {
+        "headline": "Amazon debuts direct rail service for Los Angeles-to-East Coast shipments",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f0e3df9e974492f8fa648412565a127f76834a1fd253d9fa016a93b27b3331d0",
+        "datetime": 1790170980,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Amazon debuts direct rail service for Los Angeles-to-East Coast shipments",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon debuts direct rail service for Los Angeles-to-East Coast shipments' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790177268.9341166
+        },
+        "headlineKo": "아마존, 로스앤젤레스-동해안 배송을 위한 직행 철도 서비스 개시"
+      },
+      {
+        "headline": "Amazon (AMZN) Stock May Be 41% Undervalued As AI Spending Climbs",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2c5a78bbbff7c5ad8144f33f5fb152c1139281bd1e56c1c9a967b1c06bedbab0",
+        "datetime": 1790169520,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Amazon (AMZN) Stock May Be 41% Undervalued As AI Spending Climbs",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "AMZN에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790155219.9867382
+          "analysisUpdatedAt": 1790177271.0691872
         },
-        "headlineKo": "Amazon.com(AMZN), 자사 플랫폼에서 라이벌 AI 쇼핑 에이전트 차단"
+        "headlineKo": "AI 지출이 증가함에 따라 아마존(AMZN) 주식은 41% 저평가될 수 있습니다."
       },
       {
-        "headline": "Generac Rallies on Power Deal With Amazon. How to Play GNRC Stock Now.",
+        "headline": "Morgan Stanley Just Put a $54 Target on This AI-Pivoting Bitcoin Miner. Amazon Is Already a Customer",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2da96848313d1a6168cd62848a92a309682b4c8d701e12164fa872f918d7e02c",
-        "datetime": 1790109330,
+        "url": "https://finnhub.io/api/news?id=990e93d9a7ef2aa189a6e64f74e2663bde37358b0f5224e28682f0452806a784",
+        "datetime": 1790168979,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Generac은 Amazon과의 강력한 거래를 위해 집회를 가졌습니다. 지금 GNRC 주식을 플레이하는 방법."
+        "headlineKo": "Morgan Stanley는 이 AI 중심 비트코인 ​​채굴기에 54달러의 목표를 설정했습니다. 아마존은 이미 고객입니다"
       },
       {
-        "headline": "Amazon fires a warning shot at Prime members",
+        "headline": "The Climate Pledge Fashion Coalition Launches with Amazon, Stella McCartney, World Economic Forum, and Canopy, Bringing Together More Than 60 Industry Leaders to Accelerate Climate Innovation Across F",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=31b4809153818c82ea891e87169a53807a2c1979ee578f9c136a914110354293",
-        "datetime": 1790106041,
+        "url": "https://finnhub.io/api/news?id=59c8417133803db4fb703ec75598f4d026ccbdeac044b20ea08f31a7a37298f0",
+        "datetime": 1790168400,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "아마존, 프라임 회원들에 경고 사격"
+        "headlineKo": "기후 서약 패션 연합(Climate Pledge Fashion Coalition), Amazon, Stella McCartney, 세계경제포럼(World Economic Forum), Canopy와 함께 출범하여 F 전반에 걸쳐 기후 혁신을 가속화하기 위해 60명 이상의 업계 리더들이 한자리에 모였습니다."
       },
       {
         "headline": "Amazon (AMZN) Sued Again, This Time over How it Treats Pregnant Warehouse Workers",
@@ -12985,6 +13074,170 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Can Disney's International Streaming Expansion Challenge NFLX & AMZN?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3f20578224861606069636654d7c5d2dffb4192ae8068c1f7a5f4af366b435bf",
+        "datetime": 1790171280,
+        "headlineKo": "디즈니의 국제 스트리밍 확장이 NFLX와 AMZN에 도전할 수 있을까요?",
+        "relevance": 0.75,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Can Disney's International Streaming Expansion Challenge NFLX & AMZN?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Can Disney's International Streaming Expansion Challenge NFLX & AMZN?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.75,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790177267.947662
+        }
+      },
+      {
+        "headline": "Amazon debuts direct rail service for Los Angeles-to-East Coast shipments",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f0e3df9e974492f8fa648412565a127f76834a1fd253d9fa016a93b27b3331d0",
+        "datetime": 1790170980,
+        "headlineKo": "아마존, 로스앤젤레스-동해안 배송을 위한 직행 철도 서비스 개시",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Amazon debuts direct rail service for Los Angeles-to-East Coast shipments",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon debuts direct rail service for Los Angeles-to-East Coast shipments' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790177268.9341166
+        }
+      },
+      {
+        "headline": "Amazon (AMZN) Stock May Be 41% Undervalued As AI Spending Climbs",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2c5a78bbbff7c5ad8144f33f5fb152c1139281bd1e56c1c9a967b1c06bedbab0",
+        "datetime": 1790169520,
+        "headlineKo": "AI 지출이 증가함에 따라 아마존(AMZN) 주식은 41% 저평가될 수 있습니다.",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Amazon (AMZN) Stock May Be 41% Undervalued As AI Spending Climbs",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "AMZN에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790177271.0691872
+        }
+      },
+      {
+        "headline": "Morgan Stanley Just Put a $54 Target on This AI-Pivoting Bitcoin Miner. Amazon Is Already a Customer",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=990e93d9a7ef2aa189a6e64f74e2663bde37358b0f5224e28682f0452806a784",
+        "datetime": 1790168979,
+        "headlineKo": "Morgan Stanley는 이 AI 중심 비트코인 ​​채굴기에 54달러의 목표를 설정했습니다. 아마존은 이미 고객입니다",
+        "relevance": 0.5,
+        "keywordFlag": false
+      },
+      {
+        "headline": "The Climate Pledge Fashion Coalition Launches with Amazon, Stella McCartney, World Economic Forum, and Canopy, Bringing Together More Than 60 Industry Leaders to Accelerate Climate Innovation Across F",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=59c8417133803db4fb703ec75598f4d026ccbdeac044b20ea08f31a7a37298f0",
+        "datetime": 1790168400,
+        "headlineKo": "기후 서약 패션 연합(Climate Pledge Fashion Coalition), Amazon, Stella McCartney, 세계경제포럼(World Economic Forum), Canopy와 함께 출범하여 F 전반에 걸쳐 기후 혁신을 가속화하기 위해 60명 이상의 업계 리더들이 한자리에 모였습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false
+      },
       {
         "headline": "Rocket Lab CEO Puts Iridium Deal Alongside SpaceX And Amazon’s Spectrum Bets: ‘You Can’t Just Magic Up Spectrum’",
         "source": "Yahoo",
@@ -17049,15 +17302,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790155191.531952,
-    "_updated_label": "2026-09-23 18:20",
-    "_last_success_at": 1790155191.531952,
+    "_fetched_at": 1790177254.7484846,
+    "_updated_label": "2026-09-24 00:27",
+    "_last_success_at": 1790177254.7484846,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 108,
+      "checked": 113,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "META": {
@@ -21604,7 +21857,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 112,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "AAPL": {
@@ -26130,7 +26383,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 108,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "TSLA": {
@@ -30590,7 +30843,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 107,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "ORCL": {
@@ -34112,7 +34365,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 80,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "CRM": {
@@ -37222,7 +37475,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "PLTR": {
@@ -40866,11 +41119,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "NVDA": {
-    "_last_attempt_at": 1790155191.531952,
+    "_last_attempt_at": 1790177254.7484846,
     "nextEarnings": {
       "date": "2026-11-17",
       "hour": "amc",
@@ -40880,82 +41133,32 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Why Is NVIDIA Getting Cheaper While Apple Hits New All-Time Highs",
+        "headline": "IONQ Stock On Track To Hit Over 1-Month High On Nvidia Superion 256 Deployment, Quantum Error Decoder Breakthrough",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ee2b564c59fca237d4452703f3fe6b53fef067acc2094cda3ea986eab0f4c15d",
-        "datetime": 1790141724,
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Why Is NVIDIA Getting Cheaper While Apple Hits New All-Time Highs",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Why Is NVIDIA Getting Cheaper While Apple Hits New All-Time Highs' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.4,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790155224.7533844
-        },
-        "headlineKo": "Apple이 새로운 사상 최고치를 경신하는 동안 NVIDIA가 더 저렴해지는 이유"
-      },
-      {
-        "headline": "Elon Musk Is Going All In on Nvidia, but Are These Two Chip Stocks Better Buys?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ce3227f4430724f3f6167df2109e850513ce621ba8d0f15f3fca3952c91f3ec7",
-        "datetime": 1790140800,
+        "url": "https://finnhub.io/api/news?id=da0eefdeacd52b1aeb250ced0c8b29b524d6aaec29729b8ae928e1c576397957",
+        "datetime": 1790169724,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "medium",
-          "tone": "positive",
+          "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "장기 공급계약 · 매출 가시성 확인",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Elon Musk는 Nvidia에 올인하고 있지만 이 두 칩 주식을 사는 것이 더 나은가요?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Elon Musk는 Space Exploration Technologies가 Nvidia(NVDA +0.66%) 칩을 독점적으로 사용할 것이라고 발표하여 큰 파장을 일으켰습니다.",
-            "이는 그래픽 처리 장치(GPU) 제조업체에게 큰 일격이었으며 앞으로 몇 년 동안 수천억 달러의 수익을 올릴 것이 확실합니다."
+            "IONQ 주식은 Nvidia Superion 256 배포, 양자 오류 디코더 획기적인 AI 에이전트로 1개월 최고치를 기록할 예정입니다. 동향 뉴스 수익 전체 DIA 0.37% SPY 0.45% QQQ 0.69% 추세 MCD 5.11% IONQ 5.98% PLTR 3.92% DKNG 3.49% GOOGL 2",
+            "IONQ 주식은 Nvidia Superion 256 배포에서 1개월 이상 최고치를 기록할 예정이며 Quantum Error Decoder Breakthrough IonQ는 Nvidia Accelerated Quantum Research Center에서 최초의 온프레미스 양자 컴퓨팅 배포가 될 것이라고 밝혔습니다.",
+            "공개된 포토 일러스트에는 스마트폰 화면에 이온큐 로고가 표시된 모습이 담겨 있다."
           ],
           "why": [
-            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 1.34%, 0.52%, 0.66 % — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.37%, 0.45%, 0.69% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -40966,38 +41169,101 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "계약 기간·최소구매 조건",
-            "연도별 매출 인식",
-            "수주잔고·취소 조건"
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
           ],
-          "interpretation": "NVDA에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "NVDA에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.4,
           "quality": "medium",
           "verifiedNumbers": [
-            "1.34%",
-            "0.52%",
-            "0.66 %",
-            "$ 1.49",
-            "$ 228.87",
-            "$5.5",
-            "$ 226.50",
-            "$ 229.98"
+            "0.37%",
+            "0.45%",
+            "0.69%",
+            "5.11%",
+            "5.98%",
+            "3.92%",
+            "3.49%",
+            "2.79%"
           ],
           "sourceExcerpt": [
-            "Elon Musk Is Going All In on Nvidia, but Are These Two Chip Stocks Better Buys?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Elon Musk made waves when he announced that Space Exploration Technologies would exclusively use Nvidia ( NVDA +0.66% ) chips going",
-            "It was a big coup for the graphics processing unit (GPU) maker and is sure to bring in hundreds of billions of dollars in revenue in the coming years."
+            "IONQ Stock On Track To Hit Over 1-Month High On Nvidia Superion 256 Deployment, Quantum Error Decoder Breakthrough AI Agent Trending News Earnings All DIA 0.37% SPY 0.45% QQQ 0.69% Trending MCD 5.11% IONQ 5.98% PLTR 3.92% DKNG 3.49% GOOGL 2",
+            "IONQ Stock On Track To Hit Over 1-Month High On Nvidia Superion 256 Deployment, Quantum Error Decoder Breakthrough IonQ said it would be the first on-premises quantum computing deployment at Nvidia’s Accelerated Quantum Research Center.",
+            "In this photo illustration, the IonQ logo is seen displayed on a smartphone screen."
           ],
-          "analysisUpdatedAt": 1790155227.9683852
+          "analysisUpdatedAt": 1790177282.2027423
         },
-        "headlineKo": "Elon Musk는 Nvidia에 올인하고 있지만 이 두 칩 주식을 사는 것이 더 나은가요?"
+        "headlineKo": "IONQ 주식은 Nvidia Superion 256 배포, 양자 오류 디코더 혁신으로 1개월 최고치를 기록할 예정입니다."
       },
       {
-        "headline": "Pat Gelsinger Just Backed a $100 Million Challenge to Nvidia’s AI Networking Moat. AMD Could Benefit",
+        "headline": "IonQ Surges 11% as NVIDIA Research Center Deal Follows Error-Decoder Breakthrough; D-Wave Climbs 5%, Rigetti Rises 4%",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=71ab3b639e4e85698bd9a015a96b4385053a43d05e75363a56c73e1f1e45bb09",
-        "datetime": 1790137473,
+        "url": "https://finnhub.io/api/news?id=2ab020bb1d0f32e7a11792b7dd1ba2aa2ce6db9e969dc61a5117d74d2d9a62eb",
+        "datetime": 1790169585,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "IonQ는 NVIDIA 연구 센터 거래로 오류 디코더의 돌파구를 따라 11% 급등합니다. D-Wave 상승 5%, Rigetti 상승 4% - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,735.00 −0.51% Dow Jones 51,740.80 −0.39% Nasdaq 100 30,515.60 −0.77% Russell 2000 2,861.98 −1.17% S&P 500 7,735.00 −0.51% 다우존스 51,740.80 −0.39% 나스닥 100 30,515.60 −0.77% 러셀 2000 2,861.98 −1.",
+            "𝕏 f ⧉ © 양자 프로세서 칩 - 강력한 슈퍼컴퓨터, 가상 화면의 현대 기술 및 컴퓨팅 개념."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 11%, 5%, 4% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "NVDA에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "11%",
+            "5%",
+            "4%",
+            "0.3%",
+            "$45.29,",
+            "$18.38,",
+            "$17.15,"
+          ],
+          "sourceExcerpt": [
+            "IonQ Surges 11% as NVIDIA Research Center Deal Follows Error-Decoder Breakthrough; D-Wave Climbs 5%, Rigetti Rises 4% - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,735.00 −0.51% Dow Jones 51,740.80 −0.39% Nasdaq 100 30,515.60 −0.77% Russell 2000 2,861.98 −1.17% S&P 500 7,735.00 −0.51% Dow Jones 51,740.80 −0.39% Nasdaq 100 30,515.60 −0.77% Russell 2000 2,861.98 −1.",
+            "𝕏 f ⧉ © Quantum processor chip ?powerful supercomputer, Modern technology and computing concept on virtual screen."
+          ],
+          "analysisUpdatedAt": 1790177287.250968
+        },
+        "headlineKo": "IonQ는 NVIDIA 연구 센터 거래로 오류 디코더의 돌파구를 따라 11% 급등합니다. D-Wave 상승 5%, 리게티 상승 4%"
+      },
+      {
+        "headline": "Supermicro Now Shipping NVIDIA Vera Rubin NVL72 Racks",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=49806e5beef3eeaacc767ef84e03e28252bf0e36fce788a52b9f0f35a89b776f",
+        "datetime": 1790168700,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
@@ -41009,7 +41275,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Pat Gelsinger Just Backed a $100 Million Challenge to Nvidia’s AI Networking Moat. AMD Could Benefit",
+            "Supermicro Now Shipping NVIDIA Vera Rubin NVL72 Racks",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -41033,38 +41299,230 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Pat Gelsinger Just Backed a $100 Million Challenge to Nvidia’s AI Networking Moat. AMD Could Benefit' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Supermicro Now Shipping NVIDIA Vera Rubin NVL72 Racks' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.4,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790155230.0261204
+          "analysisUpdatedAt": 1790177289.411299
         },
-        "headlineKo": "Pat Gelsinger는 Nvidia의 AI 네트워킹 해자에 대한 1억 달러 규모의 도전을 지지했습니다. AMD는 이점을 누릴 수 있습니다"
+        "headlineKo": "Supermicro, 이제 NVIDIA Vera Rubin NVL72 랙 출시"
       },
       {
-        "headline": "Nvidia Stock Could Surge by 2028: Here's How Beginners Can Get In Now According to Motley Fool's Price Estimates",
+        "headline": "Zacks Investment Ideas feature highlights: Astera Labs, SpaceX, Cloudflare, NVIDIA and Meta Platforms",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b27439abc0c0e249a9a8bbc95f96b046268ed725488b2ec3321afcae8003cba7",
-        "datetime": 1790137200,
+        "url": "https://finnhub.io/api/news?id=c2fd5efbaf80de9259710f8533e0d5a5e411009a96ef3d87b814c21522f0c1e0",
+        "datetime": 1790168700,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Nvidia 주식은 2028년까지 급등할 수 있습니다: Motley Fool의 가격 추정에 따르면 초보자가 지금 들어갈 수 있는 방법은 다음과 같습니다."
+        "headlineKo": "Zacks 투자 아이디어 주요 특징: Astera Labs, SpaceX, Cloudflare, NVIDIA 및 Meta 플랫폼"
       },
       {
-        "headline": "NVDA Edges Down Overnight After 6-Day Winning Streak — Director Mark Stevens Sells Another $300M In Stock",
+        "headline": "Nvidia Just Qualified Tesla and Vertiv Products for Its New AI-Factory Standard",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=764cae47fd124ed96c474e7bf6253dd3b3eb8de9abc54c227a1f3f94f82d3dac",
-        "datetime": 1790135821,
-        "relevance": 0.6,
+        "url": "https://finnhub.io/api/news?id=cf0252f691bc6c7c9a1793484cd49be96f4630aa6279da270669b7073a70103d",
+        "datetime": 1790168504,
+        "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "NVDA가 6일 연속 우승 후 밤새 하락세 — Mark Stevens 감독, 추가로 3억 달러의 재고 판매"
+        "headlineKo": "Nvidia는 새로운 AI 공장 표준에 대해 Tesla 및 Vertiv 제품 인증을 받았습니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "IONQ Stock On Track To Hit Over 1-Month High On Nvidia Superion 256 Deployment, Quantum Error Decoder Breakthrough",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=da0eefdeacd52b1aeb250ced0c8b29b524d6aaec29729b8ae928e1c576397957",
+        "datetime": 1790169724,
+        "headlineKo": "IONQ 주식은 Nvidia Superion 256 배포, 양자 오류 디코더 혁신으로 1개월 최고치를 기록할 예정입니다.",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "IONQ 주식은 Nvidia Superion 256 배포, 양자 오류 디코더 획기적인 AI 에이전트로 1개월 최고치를 기록할 예정입니다. 동향 뉴스 수익 전체 DIA 0.37% SPY 0.45% QQQ 0.69% 추세 MCD 5.11% IONQ 5.98% PLTR 3.92% DKNG 3.49% GOOGL 2",
+            "IONQ 주식은 Nvidia Superion 256 배포에서 1개월 이상 최고치를 기록할 예정이며 Quantum Error Decoder Breakthrough IonQ는 Nvidia Accelerated Quantum Research Center에서 최초의 온프레미스 양자 컴퓨팅 배포가 될 것이라고 밝혔습니다.",
+            "공개된 포토 일러스트에는 스마트폰 화면에 이온큐 로고가 표시된 모습이 담겨 있다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.37%, 0.45%, 0.69% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "NVDA에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.37%",
+            "0.45%",
+            "0.69%",
+            "5.11%",
+            "5.98%",
+            "3.92%",
+            "3.49%",
+            "2.79%"
+          ],
+          "sourceExcerpt": [
+            "IONQ Stock On Track To Hit Over 1-Month High On Nvidia Superion 256 Deployment, Quantum Error Decoder Breakthrough AI Agent Trending News Earnings All DIA 0.37% SPY 0.45% QQQ 0.69% Trending MCD 5.11% IONQ 5.98% PLTR 3.92% DKNG 3.49% GOOGL 2",
+            "IONQ Stock On Track To Hit Over 1-Month High On Nvidia Superion 256 Deployment, Quantum Error Decoder Breakthrough IonQ said it would be the first on-premises quantum computing deployment at Nvidia’s Accelerated Quantum Research Center.",
+            "In this photo illustration, the IonQ logo is seen displayed on a smartphone screen."
+          ],
+          "analysisUpdatedAt": 1790177282.2027423
+        }
+      },
+      {
+        "headline": "IonQ Surges 11% as NVIDIA Research Center Deal Follows Error-Decoder Breakthrough; D-Wave Climbs 5%, Rigetti Rises 4%",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2ab020bb1d0f32e7a11792b7dd1ba2aa2ce6db9e969dc61a5117d74d2d9a62eb",
+        "datetime": 1790169585,
+        "headlineKo": "IonQ는 NVIDIA 연구 센터 거래로 오류 디코더의 돌파구를 따라 11% 급등합니다. D-Wave 상승 5%, 리게티 상승 4%",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "IonQ는 NVIDIA 연구 센터 거래로 오류 디코더의 돌파구를 따라 11% 급등합니다. D-Wave 상승 5%, Rigetti 상승 4% - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,735.00 −0.51% Dow Jones 51,740.80 −0.39% Nasdaq 100 30,515.60 −0.77% Russell 2000 2,861.98 −1.17% S&P 500 7,735.00 −0.51% 다우존스 51,740.80 −0.39% 나스닥 100 30,515.60 −0.77% 러셀 2000 2,861.98 −1.",
+            "𝕏 f ⧉ © 양자 프로세서 칩 - 강력한 슈퍼컴퓨터, 가상 화면의 현대 기술 및 컴퓨팅 개념."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 11%, 5%, 4% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "NVDA에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "11%",
+            "5%",
+            "4%",
+            "0.3%",
+            "$45.29,",
+            "$18.38,",
+            "$17.15,"
+          ],
+          "sourceExcerpt": [
+            "IonQ Surges 11% as NVIDIA Research Center Deal Follows Error-Decoder Breakthrough; D-Wave Climbs 5%, Rigetti Rises 4% - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,735.00 −0.51% Dow Jones 51,740.80 −0.39% Nasdaq 100 30,515.60 −0.77% Russell 2000 2,861.98 −1.17% S&P 500 7,735.00 −0.51% Dow Jones 51,740.80 −0.39% Nasdaq 100 30,515.60 −0.77% Russell 2000 2,861.98 −1.",
+            "𝕏 f ⧉ © Quantum processor chip ?powerful supercomputer, Modern technology and computing concept on virtual screen."
+          ],
+          "analysisUpdatedAt": 1790177287.250968
+        }
+      },
+      {
+        "headline": "Supermicro Now Shipping NVIDIA Vera Rubin NVL72 Racks",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=49806e5beef3eeaacc767ef84e03e28252bf0e36fce788a52b9f0f35a89b776f",
+        "datetime": 1790168700,
+        "headlineKo": "Supermicro, 이제 NVIDIA Vera Rubin NVL72 랙 출시",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Supermicro Now Shipping NVIDIA Vera Rubin NVL72 Racks",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Supermicro Now Shipping NVIDIA Vera Rubin NVL72 Racks' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790177289.411299
+        }
+      },
+      {
+        "headline": "Zacks Investment Ideas feature highlights: Astera Labs, SpaceX, Cloudflare, NVIDIA and Meta Platforms",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c2fd5efbaf80de9259710f8533e0d5a5e411009a96ef3d87b814c21522f0c1e0",
+        "datetime": 1790168700,
+        "headlineKo": "Zacks 투자 아이디어 주요 특징: Astera Labs, SpaceX, Cloudflare, NVIDIA 및 Meta 플랫폼",
+        "relevance": 0.4,
+        "keywordFlag": false
+      },
+      {
+        "headline": "Nvidia Just Qualified Tesla and Vertiv Products for Its New AI-Factory Standard",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=cf0252f691bc6c7c9a1793484cd49be96f4630aa6279da270669b7073a70103d",
+        "datetime": 1790168504,
+        "headlineKo": "Nvidia는 새로운 AI 공장 표준에 대해 Tesla 및 Vertiv 제품 인증을 받았습니다.",
+        "relevance": 0.4,
+        "keywordFlag": false
+      },
       {
         "headline": "Why Is NVIDIA Getting Cheaper While Apple Hits New All-Time Highs",
         "source": "Yahoo",
@@ -46161,15 +46619,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790155191.531952,
-    "_updated_label": "2026-09-23 18:20",
-    "_last_success_at": 1790155191.531952,
+    "_fetched_at": 1790177254.7484846,
+    "_updated_label": "2026-09-24 00:28",
+    "_last_success_at": 1790177254.7484846,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 126,
+      "checked": 131,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "AMD": {
@@ -50135,7 +50593,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "AVGO": {
@@ -53032,7 +53490,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "QCOM": {
@@ -55417,7 +55875,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "ARM": {
@@ -57610,7 +58068,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "MRVL": {
@@ -60049,7 +60507,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "INTC": {
@@ -63918,7 +64376,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "TSM": {
@@ -65938,7 +66396,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "ASML": {
@@ -67801,7 +68259,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "AMAT": {
@@ -69734,7 +70192,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "LRCX": {
@@ -70625,7 +71083,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "KLAC": {
@@ -71516,7 +71974,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "MU": {
@@ -76023,7 +76481,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "SNDK": {
@@ -78714,7 +79172,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "WDC": {
@@ -79933,7 +80391,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "ANET": {
@@ -81420,7 +81878,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "COHR": {
@@ -82947,7 +83405,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "LITE": {
@@ -84259,7 +84717,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "GEV": {
@@ -86583,7 +87041,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "CEG": {
@@ -87911,7 +88369,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "VST": {
@@ -89133,7 +89591,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "ETN": {
@@ -90368,7 +90826,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "PWR": {
@@ -91494,7 +91952,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "HUBB": {
@@ -92040,7 +92498,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "VRT": {
@@ -93239,7 +93697,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "MOD": {
@@ -93843,7 +94301,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "STX": {
@@ -95057,7 +95515,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "EME": {
@@ -95815,7 +96273,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "FIX": {
@@ -96581,7 +97039,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   },
   "BE": {
@@ -97708,7 +98166,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-09-23 23:57"
+      "updated": "2026-09-24 00:28"
     }
   }
 };
