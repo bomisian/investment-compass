@@ -940,8 +940,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "kind": "independent_value_dcf_scenario_engine",
       "asOf": "2026-09-24",
       "valuationAnchorDate": "2026-07-26",
-      "runId": "AMAT_REAL_20260924T023032913493",
-      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260924T023032890444",
+      "runId": "AMAT_REAL_20260924T030202365489",
+      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260924T030202341977",
       "engineVersion": "amat_calc_engine v4 (2026-09-18, 모델 채택 검토) -- D&A/CapEx 비율 곡선을 FY2025 실측 대조로 조정(min(0.60,0.20+0.10*(i+1)) -> min(0.45,0.19+0.065*i)), 계산 결과가 달라짐(v3 대비). 과거 실행은 각자 저장된 code_snapshots로 그 시점 값 그대로 재현 가능.",
       "isReplayFixture": false,
       "px": 191.18875891941352,
@@ -952,21 +952,21 @@ const INDEPENDENT_VALUATION_DATA = {
           "growthY1": 0.3134993682913383,
           "roic": 0.18,
           "ntmValue": 40504380020.0,
-          "runId": "AMAT_REAL_20260924T023032897338"
+          "runId": "AMAT_REAL_20260924T030202349091"
         },
         "base": {
           "px": 191.18875891941352,
           "growthY1": 0.38220422220060324,
           "roic": 0.22,
           "ntmValue": 42623031600.0,
-          "runId": "AMAT_REAL_20260924T023032913493"
+          "runId": "AMAT_REAL_20260924T030202365489"
         },
         "optimistic": {
           "px": 202.91184230912685,
           "growthY1": 0.45090907610986797,
           "roic": 0.26,
           "ntmValue": 44741683180.0,
-          "runId": "AMAT_REAL_20260924T023032940955"
+          "runId": "AMAT_REAL_20260924T030202405030"
         }
       },
       "priorDeliveredPx": 129.13,
@@ -1135,7 +1135,7 @@ const INDEPENDENT_VALUATION_DATA = {
           "commercial_paper": null
         }
       },
-      "changeReasonVsPrevious": "시장가 변동($472.46→$464.24)",
+      "changeReasonVsPrevious": "직전 실행과 입력값 동일(변경 없음)",
       "summaryCard": {
         "fairValueRangeLow": 178.63961039194137,
         "fairValueRangeHigh": 202.91184230912685,
@@ -1145,7 +1145,7 @@ const INDEPENDENT_VALUATION_DATA = {
         "currentPriceNote": "이 실행이 계산 당시 비교한 가격(위 asOf 시점) -- 화면을 여는 시점의 실시간 가격과 다를 수 있음",
         "diffVsCurrentPricePct": 142.81761796992112,
         "diffVsCurrentPriceLabel": "높음",
-        "inputChangeSummary": "시장가 변동($472.46→$464.24)",
+        "inputChangeSummary": "직전 실행과 입력값 동일(변경 없음)",
         "dataStatusLevel": "최신_반영_완료",
         "dataStatusLabel": "최신 자료 반영 완료",
         "dataStatusDetail": "순부채: SEC 자동수집 성공(기준일 2026-07-26)",
@@ -1648,7 +1648,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "updateStatus": {
         "attemptStatus": "SUCCESS",
         "failureType": null,
-        "attemptedAt": "2026-09-24T02:30:32.921569",
+        "attemptedAt": "2026-09-24T03:02:02.373419",
         "dataAsOf": "2026-09-21",
         "holdPrice": false,
         "reason": ""
@@ -3057,6 +3057,60 @@ const INDEPENDENT_VALUATION_DATA = {
       "priorRangeHigh": 1924.1925211179203,
       "priorRangeMid": 1562.3237542965494,
       "priorBandStatus": "WITHIN_BAND"
+    }
+  },
+  "COHR": {
+    "singleComparisonReference": {
+      "ok": true,
+      "reason": null,
+      "referenceKind": "single_comparison",
+      "peerCount": 1,
+      "targetTicker": "COHR",
+      "peerTicker": "LITE",
+      "targetEps1": 10.48579594520548,
+      "targetEps1Basis": "NTM 컨센서스 EPS(blend_ntm_eps_from_annual_estimates, peer와 동일 함수로 산출)",
+      "peerForwardPe": 38.64614497720687,
+      "peerPrice": 954.489990234375,
+      "peerPriceAsOf": "2026-09-21",
+      "appliedPrice": 405.23559029981897,
+      "targetCurrentPrice": 321.5199890136719,
+      "targetCurrentPriceAsOf": "2026-09-21",
+      "targetCurrentPriceType": "confirmed_close",
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T02:44:18.598839+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 비교기업이 정확히 1개일 때 그 기업의 forward P/E를 대상종목 자신의 NTM EPS에 그대로 곱한 '단일 비교기업 참고가격'일 뿐이다 -- 검증된 매수가·매도가·성공확률·신뢰구간이 아니며, low/high 범위 개념 자체가 없다(peer 1개라 범위를 구성하지 않음, 산술 실패 아님). 여러 peer로 만드는 상대가치 밴드(relativeValueBand)와는 다른 개념이며 서로 바꿔 쓰면 안 된다."
+    }
+  },
+  "LITE": {
+    "singleComparisonReference": {
+      "ok": true,
+      "reason": null,
+      "referenceKind": "single_comparison",
+      "peerCount": 1,
+      "targetTicker": "LITE",
+      "peerTicker": "COHR",
+      "targetEps1": 24.698194109589043,
+      "targetEps1Basis": "NTM 컨센서스 EPS(blend_ntm_eps_from_annual_estimates, peer와 동일 함수로 산출)",
+      "peerForwardPe": 30.662430462485162,
+      "peerPrice": 321.5199890136719,
+      "peerPriceAsOf": "2026-09-21",
+      "appliedPrice": 757.3066594342347,
+      "targetCurrentPrice": 954.489990234375,
+      "targetCurrentPriceAsOf": "2026-09-21",
+      "targetCurrentPriceType": "confirmed_close",
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T02:44:18.598839+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 비교기업이 정확히 1개일 때 그 기업의 forward P/E를 대상종목 자신의 NTM EPS에 그대로 곱한 '단일 비교기업 참고가격'일 뿐이다 -- 검증된 매수가·매도가·성공확률·신뢰구간이 아니며, low/high 범위 개념 자체가 없다(peer 1개라 범위를 구성하지 않음, 산술 실패 아님). 여러 peer로 만드는 상대가치 밴드(relativeValueBand)와는 다른 개념이며 서로 바꿔 쓰면 안 된다."
     }
   }
 };

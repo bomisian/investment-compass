@@ -3810,6 +3810,21 @@ function renderFourLineEvidenceCard(r){
       : '가격 배수 진단 자료 없음';
   } else if(rvForPrice && rvForPrice.available === false && rvForPrice.withheldReason){
     priceText = `비교가격 미지원(보류중) -- ${esc(rvForPrice.withheldReason)}`;
+  } else if(iv && iv.singleComparisonReference){
+    // [2026-09-24 신규 -- 30번 배치, Codex 3번 지적] 다수 peer 밴드(relativeValueBand)가 아직
+    // 없는 종목(예: COHR/LITE) 중, 사업구성·통화·회계연도가 맞아 비교기업이 정확히 1개로
+    // 조사된 경우에만 이 값이 존재한다. 범위·신뢰구간·매수판정이 아니므로 절대 그런 단어를
+    // 쓰지 않고, "1개사 비교 참고가격"이라는 것과 그 비교기업 이름을 항상 함께 밝힌다.
+    const sc = iv.singleComparisonReference;
+    if(sc.ok){
+      const staleTag = sc.isStaleReference ? ' [과거 참고값]' : '';
+      priceText = `[${esc(sc.peerTicker)} 1개사 비교, 범위 아님]${staleTag} NTM EPS $${sc.targetEps1!=null?Number(sc.targetEps1).toFixed(2):'-'} · `
+        + `${esc(sc.peerTicker)} forward PER ${sc.peerForwardPe!=null?Number(sc.peerForwardPe).toFixed(2):'-'}배 적용 시 참고가 `
+        + `$${sc.appliedPrice!=null?Number(sc.appliedPrice).toFixed(2):'-'}`
+        + `${sc.targetCurrentPrice!=null?` (현재가 $${Number(sc.targetCurrentPrice).toFixed(2)}, ${esc(sc.targetCurrentPriceAsOf||'')})`:''}`;
+    } else {
+      priceText = `단일 비교기업(${esc(sc.peerTicker||'')}) 참고가격 보류 -- ${esc(sc.reason||'사유 미상')}`;
+    }
   } else if(!iv){
     priceText = '아직 상대가치 비교 파이프라인에 포함되지 않음';
   } else {
