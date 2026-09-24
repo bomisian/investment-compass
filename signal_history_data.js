@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790262416.491925,
+  "generatedAt": 1790263876.0074015,
   "records": {
     "MSFT": [
       {
@@ -3717,6 +3717,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AMZN": [
       {
+        "changedAt": 1790263876.0074015,
+        "dataAsOf": 1790217418,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -1.05,
+            "after": 0.0
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -2.62,
+            "after": -2.1
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 1.05,
+            "after": 2.1
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "AMZY: Amazon의 4,960억 달러 AWS 백로그에서 얻은 주간 수익",
+        "newsUrl": "https://finnhub.io/api/news?id=ccf237bf1d089dac5db395b792b83e60c39d36463f400bed22ac8b86065053ca",
+        "eventId": "c6cb851edbaa1de15737",
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -1.05, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.1, \"before\": -2.62, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 2.1, \"before\": 1.05, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"c6cb851edbaa1de15737\"}"
+      },
+      {
         "changedAt": 1790262341.1524923,
         "dataAsOf": 1790217418,
         "changes": [
@@ -5300,26 +5329,38 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=a315f6709959f09b7975b57023eb1f1e42c8aa9255c8cb764863fc87b4c164c5",
         "eventId": "2b2c3a2549b83c099888",
         "fingerprint": "{\"changes\": [{\"after\": 5, \"before\": 4.72, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -3.5, \"before\": -2.45, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.97, \"before\": -2.45, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 2.1, \"before\": 2.62, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"2b2c3a2549b83c099888\"}"
-      },
-      {
-        "changedAt": 1788912337.336323,
-        "dataAsOf": 1788888648,
-        "changes": [
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 2.98,
-            "after": 2.62
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "Qualcomm 주가 급등 - Amazon, 주요 AI 칩 파트너십 체결",
-        "newsUrl": "https://finnhub.io/api/news?id=16b2f3f6aea6b463a60eb8e65bffc1c8ee54422bdac9d88303f0d2d486f5d59d",
-        "eventId": "de94cb545df45aea48bc",
-        "fingerprint": "{\"changes\": [{\"after\": 2.62, \"before\": 2.98, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"de94cb545df45aea48bc\"}"
       }
     ],
     "META": [
+      {
+        "changedAt": 1790263876.0074015,
+        "dataAsOf": 1790250668,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.75,
+            "after": 2.1
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 3.32,
+            "after": 4.03
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.87,
+            "after": -0.52
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Vertiv, AI가 액체 냉각 서비스에 대한 수요를 주도함에 따라 King Environmental 인수",
+        "newsUrl": "https://finnhub.io/api/news?id=8949da48fdc88a8e210f0f55840a0114c6e844047d9debd27d59ccb001878316",
+        "eventId": "c09a6cd9633911beb0ba",
+        "fingerprint": "{\"changes\": [{\"after\": 2.1, \"before\": 1.75, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 4.03, \"before\": 3.32, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.52, \"before\": -0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"c09a6cd9633911beb0ba\"}"
+      },
       {
         "changedAt": 1790262341.1524923,
         "dataAsOf": 1790225710,
@@ -7120,41 +7161,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=13dfd6f695cca4f6776492e69d2af6375a4836c13cfcb6621751508bc0dde196",
         "eventId": "20fb349b72177dd607ba",
         "fingerprint": "{\"changes\": [{\"after\": 0.87, \"before\": 0.52, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.22, \"before\": 0.52, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.35, \"before\": 0.0, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"20fb349b72177dd607ba\"}"
-      },
-      {
-        "changedAt": 1788683551.6288676,
-        "dataAsOf": 1788565700,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 0.0,
-            "after": 0.52
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -2.8,
-            "after": -1.75
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -0.52,
-            "after": 0.0
-          },
-          {
-            "key": "signal",
-            "label": "종합 시그널",
-            "before": "주의 강화",
-            "after": "중립·확인 대기"
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "Jim Cramer는 Meta Platforms, Inc.(NASDAQ: META)의 대규모 법원 승리가 아슬아슬한 상황이었다고 말했습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=3fd8ebcf47ac803c19af2b5be8c23376d35a75ee74d7197f3ac7342fb9b3069a",
-        "eventId": "66797f47a5e1b0d990a5",
-        "fingerprint": "{\"changes\": [{\"after\": 0.52, \"before\": 0.0, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.75, \"before\": -2.8, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.0, \"before\": -0.52, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"66797f47a5e1b0d990a5\"}"
       }
     ],
     "AAPL": [
@@ -12421,6 +12427,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "CRM": [
       {
+        "changedAt": 1790263876.0074015,
+        "dataAsOf": 1790226000,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.35,
+            "after": -0.7
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Navatar는 Claude와 Salesforce를 사모펀드 및 M&A를 위한 실시간 AI 거래 엔진으로 전환합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=0d48770676512835e008bfda3bf05416c1708024d7078f4a7071d05d2794ac5d",
+        "eventId": "83a975fb234d014d1677",
+        "fingerprint": "{\"changes\": [{\"after\": -0.7, \"before\": -0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"83a975fb234d014d1677\"}"
+      },
+      {
         "changedAt": 1790241618.7845516,
         "dataAsOf": 1790226000,
         "changes": [
@@ -15748,6 +15771,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1790263876.0074015,
+        "dataAsOf": 1790257523,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -3.15,
+            "after": -2.8
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Wells Fargo는 2028년에 AI 지출 수학이 깨져서 S&P 500 목표를 7,700으로 줄인다고 말했습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=b82e5a8087a9175aa61dc7b802b84ae62b312b94e26d1c3ccc119ccbbd66fba5",
+        "eventId": "e32c19084cd600224ce3",
+        "fingerprint": "{\"changes\": [{\"after\": -2.8, \"before\": -3.15, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}], \"eventId\": \"e32c19084cd600224ce3\"}"
+      },
+      {
         "changedAt": 1790262341.1524923,
         "dataAsOf": 1790257523,
         "changes": [
@@ -17061,26 +17101,38 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=4c6721f6863f81b0676afbb9dfe754f6ba86610426f9c0a38b666c45568ab23a",
         "eventId": "6b1196410ac48bdc43a6",
         "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 1.92, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"6b1196410ac48bdc43a6\"}"
-      },
-      {
-        "changedAt": 1788964425.160571,
-        "dataAsOf": 1788960900,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 2.8,
-            "after": 1.92
-          }
-        ],
-        "cause": "AI 컴퓨팅 수요 확대 가능성",
-        "newsHeadline": "아마존은 AI에 2000억 달러 이상을 투자할 계획이다. 그게 현명한 행동인가요?",
-        "newsUrl": "https://finnhub.io/api/news?id=e998b739df3ca5ca63165e6ef562f50f0e49a1c61d7efae22ba52250ccf89691",
-        "eventId": "d85f0f2383ad88ff1364",
-        "fingerprint": "{\"changes\": [{\"after\": 1.92, \"before\": 2.8, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"d85f0f2383ad88ff1364\"}"
       }
     ],
     "AMD": [
+      {
+        "changedAt": 1790263876.0074015,
+        "dataAsOf": 1790255670,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -2.45,
+            "after": -2.1
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -4.2,
+            "after": -3.85
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 3.85,
+            "after": 4.2
+          }
+        ],
+        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
+        "newsHeadline": "알파벳 또는 메타: 누구의 AI 빌드에 자금을 지원하시겠습니까?",
+        "newsUrl": "https://finnhub.io/api/news?id=9ff12295daf3d56a9b20d74bc91682c95dcc4b21cd95d3d1ae6f51786a655aaa",
+        "eventId": "352a85b0f9c4120535bc",
+        "fingerprint": "{\"changes\": [{\"after\": -2.1, \"before\": -2.45, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -3.85, \"before\": -4.2, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 4.2, \"before\": 3.85, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"352a85b0f9c4120535bc\"}"
+      },
       {
         "changedAt": 1790262341.1524923,
         "dataAsOf": 1790255670,
@@ -18443,23 +18495,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=295cf89aeacf729dfe6c6dd5f2e235c0d1efd4e82463b43b5effcf1ef68f6c79",
         "eventId": "8eb4815839a42b0941d5",
         "fingerprint": "{\"changes\": [{\"after\": -3.15, \"before\": -2.1, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -3.15, \"before\": -1.92, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"8eb4815839a42b0941d5\"}"
-      },
-      {
-        "changedAt": 1788819279.496161,
-        "dataAsOf": 1788795657,
-        "changes": [
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -1.22,
-            "after": -1.92
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "AMD Is Behind The AI Chip Shift Nobody Is Talking About",
-        "newsUrl": "https://finnhub.io/api/news?id=ed58ccb2a6d417bdb7eafb56f307cb7f915d6a5ce939224d2e07ec6d5f917b32",
-        "eventId": "b6b859f3cb04f4165e41",
-        "fingerprint": "{\"changes\": [{\"after\": -1.92, \"before\": -1.22, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"b6b859f3cb04f4165e41\"}"
       }
     ],
     "AVGO": [
@@ -40749,6 +40784,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "VST": [
       {
+        "changedAt": 1790263876.0074015,
+        "dataAsOf": 1790090086,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 2.27,
+            "after": 1.92
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 4.55,
+            "after": 3.85
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 2.27,
+            "after": 1.92
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Vistra(VST)는 저렴한 가격입니까, 아니면 새로운 전력 거래 이후 정가로 책정됩니까?",
+        "newsUrl": "https://finnhub.io/api/news?id=9389c69fccdc5df687423afc5e7d1a2472d962081de9d8a84bb42974da7f9ee2",
+        "eventId": "83dc0eb9cc41033d2db6",
+        "fingerprint": "{\"changes\": [{\"after\": 1.92, \"before\": 2.27, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 3.85, \"before\": 4.55, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 1.92, \"before\": 2.27, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"83dc0eb9cc41033d2db6\"}"
+      },
+      {
         "changedAt": 1790262341.1524923,
         "dataAsOf": 1790090086,
         "changes": [
@@ -42552,6 +42616,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "VRT": [
+      {
+        "changedAt": 1790263876.0074015,
+        "dataAsOf": 1790250668,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.0,
+            "after": 0.7
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -0.52,
+            "after": 0.88
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.52,
+            "after": 0.18
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Vertiv, AI가 액체 냉각 서비스에 대한 수요를 주도함에 따라 King Environmental 인수",
+        "newsUrl": "https://finnhub.io/api/news?id=8949da48fdc88a8e210f0f55840a0114c6e844047d9debd27d59ccb001878316",
+        "eventId": "c09a6cd9633911beb0ba",
+        "fingerprint": "{\"changes\": [{\"after\": 0.7, \"before\": 0.0, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.88, \"before\": -0.52, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.18, \"before\": -0.52, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"c09a6cd9633911beb0ba\"}"
+      },
       {
         "changedAt": 1790262341.1524923,
         "dataAsOf": 1790078700,
