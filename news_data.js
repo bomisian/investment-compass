@@ -2071,7 +2071,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "SPY": {
@@ -4459,7 +4459,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "MSFT": {
@@ -8745,7 +8745,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "GOOGL": {
@@ -13599,7 +13599,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 110,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "AMZN": {
@@ -18436,7 +18436,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 118,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "META": {
@@ -23336,7 +23336,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 122,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "AAPL": {
@@ -28086,7 +28086,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "TSLA": {
@@ -32881,7 +32881,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "ORCL": {
@@ -36711,11 +36711,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "CRM": {
-    "_last_attempt_at": 1790197201.9747524,
+    "_last_attempt_at": 1790219448.5431528,
     "nextEarnings": {
       "date": "2026-12-01",
       "hour": "amc",
@@ -36724,6 +36724,138 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Salesforce vs. UiPath: Which Technology Stock Is a Better Buy in 2026?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=72ac0ef1139510c42289ce3e55b82f318ddaab109f012ffc9b7a60d76e314679",
+        "datetime": 1790203833,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "UiPath: 2026년에는 어느 기술주를 매수하는 것이 더 나은가요?",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 소프트웨어 거대 기업이 에이전트 인공 지능을 통합함에 따라 투자자는 기존 거대 기업과 전문 혁신 기업 중에서 결정해야 합니다.",
+            "Salesforce(CRM +1.84%)와 UiPath(PATH -1.58%) 중에서 선택하려면 고성장 자동화와 성숙한 수익성을 비교해야 합니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.84%, 1.58%, $ 237.58 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "CRM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "1.84%",
+            "1.58%",
+            "$ 237.58",
+            "1.84 %",
+            "$ 4.30",
+            "$ 13.04",
+            "1.58 %",
+            "$ 0.21"
+          ],
+          "sourceExcerpt": [
+            "UiPath: Which Technology Stock Is a Better Buy in 2026?",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool As software giants integrate agentic artificial intelligence, investors must decide between established titans and specialized inno",
+            "Choosing between Salesforce ( CRM +1.84% ) and UiPath ( PATH -1.58% ) involves weighing mature profitability against high-growth automation."
+          ],
+          "analysisUpdatedAt": 1790219455.3634737
+        },
+        "headlineKo": "Salesforce와 UiPath: 2026년에는 어떤 기술 주식을 구매하는 것이 더 나은가요?"
+      },
+      {
+        "headline": "Wells Fargo Raises Salesforce’s Price Target. Can $1.5 Billion Agentforce ARR Drive Growth?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1f69fa7f2fd34f334dc684be3ea8c70eae8cbd9f9004af4c37ada0558f54b767",
+        "datetime": 1790200740,
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Wells Fargo Raises Salesforce’s Price Target. Can $1.5 Billion Agentforce ARR Drive Growth?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: CRM에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 판매량·ASP(평균판매가격)·매출총이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1.0,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790219457.71709
+        },
+        "headlineKo": "Wells Fargo는 Salesforce의 목표 가격을 높였습니다. 15억 달러 규모의 Agentforce ARR이 성장을 촉진할 수 있습니까?"
+      },
       {
         "headline": "Enterprise Software Stocks Rally as Tech Tape Slides: Atlassian Corporation, Monday.com and Salesforce Climb 3%, ServiceNow Nudges Higher",
         "source": "Yahoo",
@@ -36741,7 +36873,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "기술 테이프 슬라이드로 엔터프라이즈 소프트웨어 주가 반등: Atlassian Corporation, Monday.com 및 Salesforce가 3% 상승하고 ServiceNow가 더 높아졌습니다 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,719.40 −0.71% Dow Jones 51,561.90 −0.73% Nasdaq 100 30,521.30 −0.75% Russell 2000 2,842.88 −1.83% S&P 500 7,719.40 −0.71% 다우존스 51,561.90 −0.73% 나스닥 100 30,521.30 −0.75% 러셀 2000 2,842.88 −1.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,709.40 −0.12% Dow Jones 51,464.40 −0.18% Nasdaq 100 30,481.20 −0.12% Russell 2000 2,837.65 −0.19% S&P 500 7,709.40 −0.12% 다우존스 51,464.40 −0.18% 나스닥 100 30,481.20 −0.12% 러셀 2000 2,837.65 −0.",
             "작성자 David Moadel 2026년 9월 23일 오후 2시 4분(ET) 게시 · 4분 읽기 Market Movers 데스크."
           ],
           "why": [
@@ -36781,10 +36913,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Enterprise Software Stocks Rally as Tech Tape Slides: Atlassian Corporation, Monday.com and Salesforce Climb 3%, ServiceNow Nudges Higher - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,719.40 −0.71% Dow Jones 51,561.90 −0.73% Nasdaq 100 30,521.30 −0.75% Russell 2000 2,842.88 −1.83% S&P 500 7,719.40 −0.71% Dow Jones 51,561.90 −0.73% Nasdaq 100 30,521.30 −0.75% Russell 2000 2,842.88 −1.",
+            "Skip to content ❚❚ At close S&P 500 7,709.40 −0.12% Dow Jones 51,464.40 −0.18% Nasdaq 100 30,481.20 −0.12% Russell 2000 2,837.65 −0.19% S&P 500 7,709.40 −0.12% Dow Jones 51,464.40 −0.18% Nasdaq 100 30,481.20 −0.12% Russell 2000 2,837.65 −0.",
             "By David Moadel Published September 23, 2026, 2:04pm ET · 4 min read Market Movers desk."
           ],
-          "analysisUpdatedAt": 1790197210.3317113
+          "analysisUpdatedAt": 1790219460.0718505
         },
         "headlineKo": "기술 테이프 슬라이드로 엔터프라이즈 소프트웨어 주가 반등: Atlassian Corporation, Monday.com 및 Salesforce가 3% 상승하고 ServiceNow가 더 높아졌습니다."
       },
@@ -36796,60 +36928,6 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "거리는 마침내 Salesforce에서 강세를 보이고 있으며 나는 계속 구매합니다 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,719.40 −0.71% Dow Jones 51,561.90 −0.73% Nasdaq 100 30,521.30 −0.75% Russell 2000 2,842.88 −1.83% S&P 500 7,719.40 −0.71% 다우존스 51,561.90 −0.73% 나스닥 100 30,521.30 −0.75% 러셀 2000 2,842.88 −1.",
-            "현금 흐름과 자사주 매입 수학이 그에게 군중을 설득한 이유는 다음과 같습니다... 작성자: Alex Sirois 2026년 9월 23일 게시, 오전 10시 45분(ET) · 3분 읽기 𝕏 f ⧉ 회사 건물에 눈에 띄게 표시된 Salesforce 로고는 영향력 확대를 상징합니다."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $1.5 billion, $3.90 billion, 210% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "CRM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "CRM에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$1.5 billion",
-            "$3.90 billion",
-            "210%",
-            "100%",
-            "62%",
-            "60%",
-            "$14.402 billion",
-            "15.83%"
-          ],
-          "sourceExcerpt": [
-            "The Street is Finally Going Bullish on Salesforce and I Keep Buying - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,719.40 −0.71% Dow Jones 51,561.90 −0.73% Nasdaq 100 30,521.30 −0.75% Russell 2000 2,842.88 −1.83% S&P 500 7,719.40 −0.71% Dow Jones 51,561.90 −0.73% Nasdaq 100 30,521.30 −0.75% Russell 2000 2,842.88 −1.",
-            "Here is why the cash flow and buyback math convinced him the crowd… By Alex Sirois Published September 23, 2026, 10:45am ET · 3 min read 𝕏 f ⧉ The Salesforce logo prominently displayed on a company building, symbolizing its expanding influe"
-          ],
-          "analysisUpdatedAt": 1790197215.1384113
-        },
         "headlineKo": "거리는 마침내 Salesforce에서 강세를 보이고 있으며 계속 구매하고 있습니다."
       },
       {
@@ -36860,76 +36938,7 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Salesforce: AWU 경제 상황이 그 어느 때보다 빠르게 악화되고 있습니다(NYSE:CRM) | 알파 요약 찾기 Salesforce, Inc.",
-            "매출 성장을 능가하는 비용 상승과 지속적인 마진 압박으로 인해 단위 경제가 악화되고 있습니다.",
-            "AWU 및 토큰 사용이 가속화되고 있지만 비용 흡수율이 높고 총 마진은 2분기에 77.28% TTM으로 감소했습니다."
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 77.28%, 18.2%, 10.8% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "CRM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "CRM에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "77.28%",
-            "18.2%",
-            "10.8%"
-          ],
-          "sourceExcerpt": [
-            "Salesforce: AWU Economics Are Worsening, Now Faster Than Ever (NYSE:CRM) | Seeking Alpha Summary Salesforce, Inc.",
-            "faces deteriorating unit economics, with rising costs outpacing revenue growth and persistent margin compression.",
-            "AWU and token usage are accelerating, but cost absorption is high, and gross margins have declined to 77.28% TTM in Q2."
-          ],
-          "analysisUpdatedAt": 1790197219.8557622
-        },
         "headlineKo": "Salesforce: AWU 경제 상황이 그 어느 때보다 빠르게 악화되고 있습니다."
-      },
-      {
-        "headline": "Salesforce Remains Down Over 12 Months: This Wall Street Firm Doubled Down On Its Belief That 70% Returns Await Investors",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f6902add2b63baad439585d68ec8cfb178b6b567dc76506d4536af33958d862b",
-        "datetime": 1790162439,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Salesforce는 12개월 넘게 하락세를 유지하고 있습니다. 이 월스트리트 회사는 70%의 수익이 투자자를 기다리고 있다는 믿음을 두 배로 강화했습니다."
-      },
-      {
-        "headline": "“The New Clippy”: Benioff Uses Salesforce’s Biggest Product Launch in Years to Challenge Microsoft",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=48330200f7756fa509b5a62fce5118b3b427f23d9dcf5b4264fdcb6e536f8b11",
-        "datetime": 1790138813,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "\"The New Clippy\": Benioff는 Salesforce의 수년 만에 가장 큰 제품 출시를 통해 Microsoft에 도전합니다."
       },
       {
         "headline": "Salesforce’s Marc Benioff to AI industry: Regulate yourselves or get sued",
@@ -37010,6 +37019,136 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "Salesforce vs. UiPath: Which Technology Stock Is a Better Buy in 2026?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=72ac0ef1139510c42289ce3e55b82f318ddaab109f012ffc9b7a60d76e314679",
+        "datetime": 1790203833,
+        "headlineKo": "Salesforce와 UiPath: 2026년에는 어떤 기술 주식을 구매하는 것이 더 나은가요?",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "UiPath: 2026년에는 어느 기술주를 매수하는 것이 더 나은가요?",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 소프트웨어 거대 기업이 에이전트 인공 지능을 통합함에 따라 투자자는 기존 거대 기업과 전문 혁신 기업 중에서 결정해야 합니다.",
+            "Salesforce(CRM +1.84%)와 UiPath(PATH -1.58%) 중에서 선택하려면 고성장 자동화와 성숙한 수익성을 비교해야 합니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.84%, 1.58%, $ 237.58 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "CRM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "1.84%",
+            "1.58%",
+            "$ 237.58",
+            "1.84 %",
+            "$ 4.30",
+            "$ 13.04",
+            "1.58 %",
+            "$ 0.21"
+          ],
+          "sourceExcerpt": [
+            "UiPath: Which Technology Stock Is a Better Buy in 2026?",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool As software giants integrate agentic artificial intelligence, investors must decide between established titans and specialized inno",
+            "Choosing between Salesforce ( CRM +1.84% ) and UiPath ( PATH -1.58% ) involves weighing mature profitability against high-growth automation."
+          ],
+          "analysisUpdatedAt": 1790219455.3634737
+        }
+      },
+      {
+        "headline": "Wells Fargo Raises Salesforce’s Price Target. Can $1.5 Billion Agentforce ARR Drive Growth?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1f69fa7f2fd34f334dc684be3ea8c70eae8cbd9f9004af4c37ada0558f54b767",
+        "datetime": 1790200740,
+        "headlineKo": "Wells Fargo는 Salesforce의 목표 가격을 높였습니다. 15억 달러 규모의 Agentforce ARR이 성장을 촉진할 수 있습니까?",
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Wells Fargo Raises Salesforce’s Price Target. Can $1.5 Billion Agentforce ARR Drive Growth?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: CRM에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 판매량·ASP(평균판매가격)·매출총이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1.0,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790219457.71709
+        }
+      },
+      {
         "headline": "Enterprise Software Stocks Rally as Tech Tape Slides: Atlassian Corporation, Monday.com and Salesforce Climb 3%, ServiceNow Nudges Higher",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a0e0d5ea5d7b1e29d03f47ff94e0166cca71fd0acfa7b3d9b2f677c96c596a56",
@@ -37026,7 +37165,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "기술 테이프 슬라이드로 엔터프라이즈 소프트웨어 주가 반등: Atlassian Corporation, Monday.com 및 Salesforce가 3% 상승하고 ServiceNow가 더 높아졌습니다 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,719.40 −0.71% Dow Jones 51,561.90 −0.73% Nasdaq 100 30,521.30 −0.75% Russell 2000 2,842.88 −1.83% S&P 500 7,719.40 −0.71% 다우존스 51,561.90 −0.73% 나스닥 100 30,521.30 −0.75% 러셀 2000 2,842.88 −1.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,709.40 −0.12% Dow Jones 51,464.40 −0.18% Nasdaq 100 30,481.20 −0.12% Russell 2000 2,837.65 −0.19% S&P 500 7,709.40 −0.12% 다우존스 51,464.40 −0.18% 나스닥 100 30,481.20 −0.12% 러셀 2000 2,837.65 −0.",
             "작성자 David Moadel 2026년 9월 23일 오후 2시 4분(ET) 게시 · 4분 읽기 Market Movers 데스크."
           ],
           "why": [
@@ -37066,10 +37205,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Enterprise Software Stocks Rally as Tech Tape Slides: Atlassian Corporation, Monday.com and Salesforce Climb 3%, ServiceNow Nudges Higher - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,719.40 −0.71% Dow Jones 51,561.90 −0.73% Nasdaq 100 30,521.30 −0.75% Russell 2000 2,842.88 −1.83% S&P 500 7,719.40 −0.71% Dow Jones 51,561.90 −0.73% Nasdaq 100 30,521.30 −0.75% Russell 2000 2,842.88 −1.",
+            "Skip to content ❚❚ At close S&P 500 7,709.40 −0.12% Dow Jones 51,464.40 −0.18% Nasdaq 100 30,481.20 −0.12% Russell 2000 2,837.65 −0.19% S&P 500 7,709.40 −0.12% Dow Jones 51,464.40 −0.18% Nasdaq 100 30,481.20 −0.12% Russell 2000 2,837.65 −0.",
             "By David Moadel Published September 23, 2026, 2:04pm ET · 4 min read Market Movers desk."
           ],
-          "analysisUpdatedAt": 1790197210.3317113
+          "analysisUpdatedAt": 1790219460.0718505
         }
       },
       {
@@ -39972,15 +40111,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790197201.9747524,
-    "_updated_label": "2026-09-24 06:00",
-    "_last_success_at": 1790197201.9747524,
+    "_fetched_at": 1790219448.5431528,
+    "_updated_label": "2026-09-24 12:11",
+    "_last_success_at": 1790219448.5431528,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 78,
+      "checked": 80,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "PLTR": {
@@ -43954,7 +44093,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "NVDA": {
@@ -49636,7 +49775,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "AMD": {
@@ -53893,7 +54032,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 105,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "AVGO": {
@@ -56913,7 +57052,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "QCOM": {
@@ -59493,7 +59632,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "ARM": {
@@ -61959,7 +62098,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "MRVL": {
@@ -64569,19 +64708,147 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "INTC": {
-    "_last_attempt_at": 1790197201.9747524,
+    "_last_attempt_at": 1790219448.5431528,
     "nextEarnings": {
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "hour": "amc",
       "epsEstimate": 0.3946,
       "revenueEstimate": 16738400134
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "VYM’s Index Buys on Forecast Yield, So It Held Intel and Walgreens Right Into Their Dividend Cuts",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d1acee3475185c12e2f91dd925269337c9f4eb74e1b150180c3f027628251f55",
+        "datetime": 1790202959,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "VYM의 지수는 예측 수익률에 따라 매수하여 Intel과 Walgreens가 배당금 삭감을 바로 유지했습니다. - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,709.40 −0.12% Dow Jones 51,464.40 −0.18% Nasdaq 100 30,481.20 −0.12% Russell 2000 2,837.65 −0.19% S&P 500 7,709.40 −0.12% 다우존스 51,464.40 −0.18% 나스닥 100 30,481.20 −0.12% 러셀 2000 2,837.65 −0.",
+            "작성자 Ryne Mauck 2026년 9월 23일 오후 6시 35분(ET) 게시 · 3분 읽기 The ETF Examiner Desk."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $0.365, $0.125, $0.50. — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "INTC에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$0.365",
+            "$0.125",
+            "$0.50.",
+            "$0.48",
+            "$0.25",
+            "60.59%",
+            "79.94%",
+            "$123.68"
+          ],
+          "sourceExcerpt": [
+            "VYM's Index Buys on Forecast Yield, So It Held Intel and Walgreens Right Into Their Dividend Cuts - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,709.40 −0.12% Dow Jones 51,464.40 −0.18% Nasdaq 100 30,481.20 −0.12% Russell 2000 2,837.65 −0.19% S&P 500 7,709.40 −0.12% Dow Jones 51,464.40 −0.18% Nasdaq 100 30,481.20 −0.12% Russell 2000 2,837.65 −0.",
+            "By Ryne Mauck Published September 23, 2026, 6:35pm ET · 3 min read The ETF Examiner desk."
+          ],
+          "analysisUpdatedAt": 1790219468.167826
+        },
+        "headlineKo": "VYM의 지수는 예측 수익률을 매수하여 Intel과 Walgreens를 배당금 삭감에 바로 참여시켰습니다."
+      },
+      {
+        "headline": "Prediction: Intel Names a Major Outside Customer for Its Next Factory Process Before 2027",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=73c72b62da42f6bff45e133d97a9ddafedbe9be12aeee018b33c147bb5ca2696",
+        "datetime": 1790201221,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "예측: 인텔, 2027년 이전의 다음 공장 프로세스를 위해 주요 외부 고객을 지명 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Intel( INTC -1.02% ) 주가는 상승세를 보였습니다.",
+            "이 글을 쓰는 시점에서 주식은 약 122달러에 거래되고 있으며 이는 지난 주에만 약 20% 상승했습니다.",
+            "그 운영의 큰 부분은 파운드리(다른 회사를 위해 칩을 만드는 사업)에 달려 있습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $122, 20%, $23 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "INTC에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$122",
+            "20%",
+            "$23 billion",
+            "$2.1 billion",
+            "$3.2 billion",
+            "31%",
+            "$5.8 billion",
+            "$293 million"
+          ],
+          "sourceExcerpt": [
+            "Prediction: Intel Names a Major Outside Customer for Its Next Factory Process Before 2027 | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Intel ( INTC -1.02% ) stock has been on a",
+            "Shares trade around $122 as of this writing, up about 20% in just the past week.",
+            "A big part of that run rests on the foundry (the business that makes chips for other companies)."
+          ],
+          "analysisUpdatedAt": 1790219471.947983
+        },
+        "headlineKo": "예측: 인텔은 2027년 이전의 다음 공장 프로세스를 위해 주요 외부 고객을 지명합니다."
+      },
       {
         "headline": "Here is Why Intel (INTC) is a Bad Investment at Today’s Price",
         "source": "Yahoo",
@@ -64628,7 +64895,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790197228.0545726
+          "analysisUpdatedAt": 1790219474.026968
         },
         "headlineKo": "인텔(INTC)이 현재 가격으로 나쁜 투자인 이유는 다음과 같습니다."
       },
@@ -64640,46 +64907,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Intel (INTC) Can Fill Only Half its CPU Orders. Is That a Problem or a Signal?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "INTC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel (INTC) Can Fill Only Half its CPU Orders. Is That a Problem or a Signal?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790197230.1268249
-        },
         "headlineKo": "Intel(INTC)은 CPU 주문의 절반만 채울 수 있습니다. 그것이 문제인가, 아니면 신호인가?"
       },
       {
@@ -64690,66 +64917,7 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "실적 발표 · 본업과 특이항목 분리",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Intel Falls 2.24% as Muse Keeps the CPU Thesis Alive",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-            "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "INTC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "매출·영업이익 성장",
-            "정상화이익과 특이항목",
-            "가이던스·OCF·FCF"
-          ],
-          "interpretation": "INTC에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790197232.1462333
-        },
         "headlineKo": "Muse가 CPU 논제를 유지함에 따라 Intel은 2.24% 하락했습니다."
-      },
-      {
-        "headline": "Not Intel. Not Nvidia. This Chip Giant Holds an Unbreakable Moat in Next-Gen Data Centers.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=915fe84b4c7f7b4decd1665d6e197fe4c36ccfee1c4fbfa2d75631da47054ea6",
-        "datetime": 1790184900,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "인텔이 아닙니다. 엔비디아가 아닙니다. 이 거대 칩은 차세대 데이터 센터에서 깨지지 않는 해자를 보유하고 있습니다."
-      },
-      {
-        "headline": "Intel Is Storming Back Into The AI Conversation - Reiterate Buy",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=5546e8bc62580d140367c6756379ac754fdbb5844bc03b1b62d082f97a62d46e",
-        "datetime": 1790179679,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "인텔은 AI 대화에 다시 뛰어들고 있습니다 - 구매를 반복합니다"
       },
       {
         "headline": "Intel: No Bad Products, Just Bad Prices (Rating Downgrade)",
@@ -64814,6 +64982,132 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "VYM’s Index Buys on Forecast Yield, So It Held Intel and Walgreens Right Into Their Dividend Cuts",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d1acee3475185c12e2f91dd925269337c9f4eb74e1b150180c3f027628251f55",
+        "datetime": 1790202959,
+        "headlineKo": "VYM의 지수는 예측 수익률을 매수하여 Intel과 Walgreens를 배당금 삭감에 바로 참여시켰습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "VYM의 지수는 예측 수익률에 따라 매수하여 Intel과 Walgreens가 배당금 삭감을 바로 유지했습니다. - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,709.40 −0.12% Dow Jones 51,464.40 −0.18% Nasdaq 100 30,481.20 −0.12% Russell 2000 2,837.65 −0.19% S&P 500 7,709.40 −0.12% 다우존스 51,464.40 −0.18% 나스닥 100 30,481.20 −0.12% 러셀 2000 2,837.65 −0.",
+            "작성자 Ryne Mauck 2026년 9월 23일 오후 6시 35분(ET) 게시 · 3분 읽기 The ETF Examiner Desk."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $0.365, $0.125, $0.50. — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "INTC에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$0.365",
+            "$0.125",
+            "$0.50.",
+            "$0.48",
+            "$0.25",
+            "60.59%",
+            "79.94%",
+            "$123.68"
+          ],
+          "sourceExcerpt": [
+            "VYM's Index Buys on Forecast Yield, So It Held Intel and Walgreens Right Into Their Dividend Cuts - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,709.40 −0.12% Dow Jones 51,464.40 −0.18% Nasdaq 100 30,481.20 −0.12% Russell 2000 2,837.65 −0.19% S&P 500 7,709.40 −0.12% Dow Jones 51,464.40 −0.18% Nasdaq 100 30,481.20 −0.12% Russell 2000 2,837.65 −0.",
+            "By Ryne Mauck Published September 23, 2026, 6:35pm ET · 3 min read The ETF Examiner desk."
+          ],
+          "analysisUpdatedAt": 1790219468.167826
+        }
+      },
+      {
+        "headline": "Prediction: Intel Names a Major Outside Customer for Its Next Factory Process Before 2027",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=73c72b62da42f6bff45e133d97a9ddafedbe9be12aeee018b33c147bb5ca2696",
+        "datetime": 1790201221,
+        "headlineKo": "예측: 인텔은 2027년 이전의 다음 공장 프로세스를 위해 주요 외부 고객을 지명합니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "예측: 인텔, 2027년 이전의 다음 공장 프로세스를 위해 주요 외부 고객을 지명 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Intel( INTC -1.02% ) 주가는 상승세를 보였습니다.",
+            "이 글을 쓰는 시점에서 주식은 약 122달러에 거래되고 있으며 이는 지난 주에만 약 20% 상승했습니다.",
+            "그 운영의 큰 부분은 파운드리(다른 회사를 위해 칩을 만드는 사업)에 달려 있습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $122, 20%, $23 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "INTC에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$122",
+            "20%",
+            "$23 billion",
+            "$2.1 billion",
+            "$3.2 billion",
+            "31%",
+            "$5.8 billion",
+            "$293 million"
+          ],
+          "sourceExcerpt": [
+            "Prediction: Intel Names a Major Outside Customer for Its Next Factory Process Before 2027 | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Intel ( INTC -1.02% ) stock has been on a",
+            "Shares trade around $122 as of this writing, up about 20% in just the past week.",
+            "A big part of that run rests on the foundry (the business that makes chips for other companies)."
+          ],
+          "analysisUpdatedAt": 1790219471.947983
+        }
+      },
+      {
         "headline": "Here is Why Intel (INTC) is a Bad Investment at Today’s Price",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c693e3ce9bd4e6e29819a0ddef701662b426ce9443e77143fdf1ab1b3bb27b8e",
@@ -64859,7 +65153,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790197228.0545726
+          "analysisUpdatedAt": 1790219474.026968
         }
       },
       {
@@ -68579,15 +68873,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790197201.9747524,
-    "_updated_label": "2026-09-24 06:00",
-    "_last_success_at": 1790197201.9747524,
+    "_fetched_at": 1790219448.5431528,
+    "_updated_label": "2026-09-24 12:11",
+    "_last_success_at": 1790219448.5431528,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 101,
+      "checked": 103,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "TSM": {
@@ -70607,7 +70901,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "ASML": {
@@ -72470,7 +72764,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "AMAT": {
@@ -74515,7 +74809,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "LRCX": {
@@ -75455,11 +75749,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1790197201.9747524,
+    "_last_attempt_at": 1790219448.5431528,
     "nextEarnings": {
       "date": "2026-10-27",
       "hour": "",
@@ -75514,7 +75808,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790197240.3632793
+          "analysisUpdatedAt": 1790219480.3746939
         },
         "headlineKo": "KLA (KLAC) 주식 2.36% 변동: 알아야 할 사항"
       },
@@ -75564,7 +75858,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790197242.5474892
+          "analysisUpdatedAt": 1790219482.9268312
         },
         "headlineKo": "반도체 계측 글로벌 시장 기회 분석 및 산업 예측 2026~2036년 KLA Corp., Applied Materials, ASML, Hitachi High-Tech Corp., Lam Research Corp. 등 포함"
       },
@@ -75628,7 +75922,7 @@ const NEWS_DATA = {
             "KLA Corporation | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Choosing between a niche equipment provider and a diversified industry titan requires balancing high growth potenti",
             "Here is how Aehr Test Systems ( AEHR -3.20% ) and KLA ( KLAC -0.24% ) compare for investors."
           ],
-          "analysisUpdatedAt": 1790197245.9202056
+          "analysisUpdatedAt": 1790219487.5945823
         },
         "headlineKo": "더 나은 인공 지능 주식: Aehr Test Systems vs. KLA Corporation"
       },
@@ -75700,7 +75994,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790197240.3632793
+          "analysisUpdatedAt": 1790219480.3746939
         }
       },
       {
@@ -75749,7 +76043,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790197242.5474892
+          "analysisUpdatedAt": 1790219482.9268312
         }
       },
       {
@@ -75812,7 +76106,7 @@ const NEWS_DATA = {
             "KLA Corporation | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Choosing between a niche equipment provider and a diversified industry titan requires balancing high growth potenti",
             "Here is how Aehr Test Systems ( AEHR -3.20% ) and KLA ( KLAC -0.24% ) compare for investors."
           ],
-          "analysisUpdatedAt": 1790197245.9202056
+          "analysisUpdatedAt": 1790219487.5945823
         }
       },
       {
@@ -76338,15 +76632,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790197201.9747524,
-    "_updated_label": "2026-09-24 06:00",
-    "_last_success_at": 1790197201.9747524,
+    "_fetched_at": 1790219448.5431528,
+    "_updated_label": "2026-09-24 12:11",
+    "_last_success_at": 1790219448.5431528,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "MU": {
@@ -81112,7 +81406,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 113,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "SNDK": {
@@ -84010,7 +84304,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "WDC": {
@@ -85264,7 +85558,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "ANET": {
@@ -86751,7 +87045,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "COHR": {
@@ -88278,7 +88572,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "LITE": {
@@ -89721,7 +90015,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "GEV": {
@@ -92172,7 +92466,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "CEG": {
@@ -93500,7 +93794,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "VST": {
@@ -94762,7 +95056,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "ETN": {
@@ -96046,7 +96340,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "PWR": {
@@ -97319,7 +97613,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "HUBB": {
@@ -97865,11 +98159,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "VRT": {
-    "_last_attempt_at": 1790197201.9747524,
+    "_last_attempt_at": 1790219448.5431528,
     "nextEarnings": {
       "date": "2026-10-20",
       "hour": "",
@@ -97878,6 +98172,70 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Why Does Vertiv Cost The Most In A Group It Does Not Out-Grow?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2c807570686d5cc6f996a7b525c43ec2faf68df36eded367f74404f8519e3df9",
+        "datetime": 1790196982,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Vertiv가 성장하지 않는 그룹에서 비용이 가장 많이 드는 이유는 무엇입니까?",
+            "| Trefis 성장하지 않는 그룹에서 Vertiv의 비용이 가장 높은 이유는 무엇입니까?",
+            "2026년 9월 23일 · Trefis 팀 VRT YTD +56.6% SPY YTD +14.0% XLI YTD +10.3% VRT 분석 → Vertiv(VRT)는 56.3배의 수익으로 동종 그룹에서 가장 비싼 주식입니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 56.6%, 14.0%, 10.3% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "VRT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "VRT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "VRT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "56.6%",
+            "14.0%",
+            "10.3%",
+            "56.3 times",
+            "76.7%",
+            "46.2%",
+            "26.2%",
+            "44.0 times"
+          ],
+          "sourceExcerpt": [
+            "Why Does Vertiv Cost The Most In A Group It Does Not Out-Grow?",
+            "| Trefis Why Does Vertiv Cost The Most In A Group It Does Not Out-Grow?",
+            "September 23rd, 2026 · by Trefis Team VRT YTD +56.6% SPY YTD +14.0% XLI YTD +10.3% Analyze VRT → Vertiv (VRT) is the most expensive stock in its peer group , at 56.3 times earnings."
+          ],
+          "analysisUpdatedAt": 1790219495.8844614
+        },
+        "headlineKo": "Vertiv가 성장하지 않는 그룹에서 비용이 가장 많이 드는 이유는 무엇입니까?"
+      },
       {
         "headline": "Nvidia Just Qualified Tesla and Vertiv Products for Its New AI-Factory Standard",
         "source": "Yahoo",
@@ -97924,7 +98282,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790197250.9158213
+          "analysisUpdatedAt": 1790219497.9969876
         },
         "headlineKo": "Nvidia는 새로운 AI 공장 표준에 대해 Tesla 및 Vertiv 제품 인증을 받았습니다."
       },
@@ -97974,7 +98332,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790197252.8309767
+          "analysisUpdatedAt": 1790219500.0487018
         },
         "headlineKo": "Vertiv Holdings Co.(VRT) 주가 1.04% 변동: 알아야 할 사항"
       },
@@ -97986,46 +98344,6 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Eaton vs. Vertiv: Which Data Center Power Stock Has an Edge?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "VRT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 VRT의 사업과 관련된 'Eaton vs. Vertiv: Which Data Center Power Stock Has an Edge?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "VRT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790197254.890353
-        },
         "headlineKo": "Eaton 대 Vertiv: 어느 데이터 센터 전력 재고에 우위가 있습니까?"
       },
       {
@@ -98037,19 +98355,72 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Zacks 분석가 블로그에서는 NVIDIA, Vertiv, Arista Networks, Broadcom 및 Hewlett Packard를 강조합니다."
-      },
-      {
-        "headline": "Vertiv vs. Eaton: This AI Infrastructure Stock Is the Better Buy",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0dc701c7569ec3eb96660fa962d1576087d56a2accfdc12b1121a4a008bd9ec4",
-        "datetime": 1790078700,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Vertiv 대 Eaton: 이 AI 인프라 주식이 더 나은 구매입니다"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Why Does Vertiv Cost The Most In A Group It Does Not Out-Grow?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2c807570686d5cc6f996a7b525c43ec2faf68df36eded367f74404f8519e3df9",
+        "datetime": 1790196982,
+        "headlineKo": "Vertiv가 성장하지 않는 그룹에서 비용이 가장 많이 드는 이유는 무엇입니까?",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Vertiv가 성장하지 않는 그룹에서 비용이 가장 많이 드는 이유는 무엇입니까?",
+            "| Trefis 성장하지 않는 그룹에서 Vertiv의 비용이 가장 높은 이유는 무엇입니까?",
+            "2026년 9월 23일 · Trefis 팀 VRT YTD +56.6% SPY YTD +14.0% XLI YTD +10.3% VRT 분석 → Vertiv(VRT)는 56.3배의 수익으로 동종 그룹에서 가장 비싼 주식입니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 56.6%, 14.0%, 10.3% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "VRT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "VRT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "VRT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "56.6%",
+            "14.0%",
+            "10.3%",
+            "56.3 times",
+            "76.7%",
+            "46.2%",
+            "26.2%",
+            "44.0 times"
+          ],
+          "sourceExcerpt": [
+            "Why Does Vertiv Cost The Most In A Group It Does Not Out-Grow?",
+            "| Trefis Why Does Vertiv Cost The Most In A Group It Does Not Out-Grow?",
+            "September 23rd, 2026 · by Trefis Team VRT YTD +56.6% SPY YTD +14.0% XLI YTD +10.3% Analyze VRT → Vertiv (VRT) is the most expensive stock in its peer group , at 56.3 times earnings."
+          ],
+          "analysisUpdatedAt": 1790219495.8844614
+        }
+      },
       {
         "headline": "Nvidia Just Qualified Tesla and Vertiv Products for Its New AI-Factory Standard",
         "source": "Yahoo",
@@ -98096,7 +98467,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790197250.9158213
+          "analysisUpdatedAt": 1790219497.9969876
         }
       },
       {
@@ -98145,7 +98516,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790197252.8309767
+          "analysisUpdatedAt": 1790219500.0487018
         }
       },
       {
@@ -99056,19 +99427,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790197201.9747524,
-    "_updated_label": "2026-09-24 06:00",
-    "_last_success_at": 1790197201.9747524,
+    "_fetched_at": 1790219448.5431528,
+    "_updated_label": "2026-09-24 12:11",
+    "_last_success_at": 1790219448.5431528,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 26,
+      "checked": 27,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "MOD": {
-    "_last_attempt_at": 1790197201.9747524,
+    "_last_attempt_at": 1790219448.5431528,
     "nextEarnings": {
       "date": "2026-10-26",
       "hour": "",
@@ -99123,7 +99494,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790197260.4805837
+          "analysisUpdatedAt": 1790219505.7591932
         },
         "headlineKo": "월스트리트 상승세는 Modine(MOD)에 대해 낙관적입니다. 매수해야 할까요?"
       },
@@ -99173,7 +99544,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790197262.540929
+          "analysisUpdatedAt": 1790219508.1899958
         },
         "headlineKo": "Gentherm과 Modine Manufacturing Company, Gentherm과 Modine의 성능 기술 사업 결합 제안과 관련된 추가 정보 발표"
       },
@@ -99223,7 +99594,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790197263.6868742
+          "analysisUpdatedAt": 1790219509.5512218
         },
         "headlineKo": "Modine은 2026년 9월 28일 Performance Technologies 분사 및 Gentherm과의 합병 기록일을 설정하여 ~$1.90/주 특별 배당금을 선언합니다."
       },
@@ -99295,7 +99666,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790197260.4805837
+          "analysisUpdatedAt": 1790219505.7591932
         }
       },
       {
@@ -99344,7 +99715,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790197262.540929
+          "analysisUpdatedAt": 1790219508.1899958
         }
       },
       {
@@ -99393,7 +99764,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790197263.6868742
+          "analysisUpdatedAt": 1790219509.5512218
         }
       },
       {
@@ -99660,15 +100031,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790197201.9747524,
-    "_updated_label": "2026-09-24 06:01",
-    "_last_success_at": 1790197201.9747524,
+    "_fetched_at": 1790219448.5431528,
+    "_updated_label": "2026-09-24 12:11",
+    "_last_success_at": 1790219448.5431528,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "STX": {
@@ -100945,7 +101316,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "EME": {
@@ -101752,7 +102123,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 19,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "FIX": {
@@ -102518,7 +102889,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   },
   "BE": {
@@ -103694,7 +104065,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-24 11:46"
+      "updated": "2026-09-24 12:11"
     }
   }
 };
