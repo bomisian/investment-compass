@@ -999,8 +999,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "kind": "independent_value_dcf_scenario_engine",
       "asOf": "2026-09-24",
       "valuationAnchorDate": "2026-07-26",
-      "runId": "AMAT_REAL_20260924T101313100372",
-      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260924T101313075143",
+      "runId": "AMAT_REAL_20260924T103928986757",
+      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260924T103928964053",
       "engineVersion": "amat_calc_engine v4 (2026-09-18, 모델 채택 검토) -- D&A/CapEx 비율 곡선을 FY2025 실측 대조로 조정(min(0.60,0.20+0.10*(i+1)) -> min(0.45,0.19+0.065*i)), 계산 결과가 달라짐(v3 대비). 과거 실행은 각자 저장된 code_snapshots로 그 시점 값 그대로 재현 가능.",
       "isReplayFixture": false,
       "px": 191.13545249506214,
@@ -1011,21 +1011,21 @@ const INDEPENDENT_VALUATION_DATA = {
           "growthY1": 0.3134993682913383,
           "roic": 0.18,
           "ntmValue": 40504380020.0,
-          "runId": "AMAT_REAL_20260924T101313082458"
+          "runId": "AMAT_REAL_20260924T103928970865"
         },
         "base": {
           "px": 191.13545249506214,
           "growthY1": 0.38220422220060324,
           "roic": 0.22,
           "ntmValue": 42623031600.0,
-          "runId": "AMAT_REAL_20260924T101313100372"
+          "runId": "AMAT_REAL_20260924T103928986757"
         },
         "optimistic": {
           "px": 202.85487015646135,
           "growthY1": 0.45090907610986797,
           "roic": 0.26,
           "ntmValue": 44741683180.0,
-          "runId": "AMAT_REAL_20260924T101313158322"
+          "runId": "AMAT_REAL_20260924T103929015703"
         }
       },
       "priorDeliveredPx": 129.13,
@@ -1194,7 +1194,7 @@ const INDEPENDENT_VALUATION_DATA = {
           "commercial_paper": null
         }
       },
-      "changeReasonVsPrevious": "시장가 변동($464.24→$474.38)",
+      "changeReasonVsPrevious": "직전 실행과 입력값 동일(변경 없음)",
       "summaryCard": {
         "fairValueRangeLow": 178.5902842333341,
         "fairValueRangeHigh": 202.85487015646135,
@@ -1204,7 +1204,7 @@ const INDEPENDENT_VALUATION_DATA = {
         "currentPriceNote": "이 실행이 계산 당시 비교한 가격(위 asOf 시점) -- 화면을 여는 시점의 실시간 가격과 다를 수 있음",
         "diffVsCurrentPricePct": 148.19048412542296,
         "diffVsCurrentPriceLabel": "높음",
-        "inputChangeSummary": "시장가 변동($464.24→$474.38)",
+        "inputChangeSummary": "직전 실행과 입력값 동일(변경 없음)",
         "dataStatusLevel": "최신_반영_완료",
         "dataStatusLabel": "최신 자료 반영 완료",
         "dataStatusDetail": "순부채: SEC 자동수집 성공(기준일 2026-07-26)",
@@ -1707,7 +1707,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "updateStatus": {
         "attemptStatus": "SUCCESS",
         "failureType": null,
-        "attemptedAt": "2026-09-24T10:13:13.116037",
+        "attemptedAt": "2026-09-24T10:39:28.995362",
         "dataAsOf": "2026-09-23",
         "holdPrice": false,
         "reason": ""
@@ -3048,7 +3048,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-09-24T10:13:22.499794+09:00",
+      "lastCheckCheckedAt": "2026-09-24T10:24:17.696773+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -3065,13 +3065,15 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-09-23",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-09-24",
-      "generatedAt": "2026-09-24T10:13:22.499794+09:00",
+      "generatedAt": "2026-09-24T10:24:17.696773+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
       "isStaleReference": false,
       "staleReasons": [],
       "disclaimer": "이 값은 비교기업이 정확히 1개일 때 그 기업의 forward P/E를 대상종목 자신의 NTM EPS에 그대로 곱한 '단일 비교기업 참고가격'일 뿐이다 -- 검증된 매수가·매도가·성공확률·신뢰구간이 아니며, low/high 범위 개념 자체가 없다(peer 1개라 범위를 구성하지 않음, 산술 실패 아님). 여러 peer로 만드는 상대가치 밴드(relativeValueBand)와는 다른 개념이며 서로 바꿔 쓰면 안 된다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이므로(eps_definition_confirmation_level 참고) 이 적용가격도 잠정으로 취급해야 한다.",
+      "priceAsOfDatesMatch": true,
+      "priceAsOfDatesNote": null,
       "targetEpsPeriodDetail": {
         "0y_end": "2027-06-30",
         "0y_eps": 35.78091,
@@ -3137,7 +3139,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-09-24T10:13:22.499794+09:00",
+      "lastCheckCheckedAt": "2026-09-24T10:24:17.696773+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -3154,13 +3156,15 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-09-23",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-09-24",
-      "generatedAt": "2026-09-24T10:13:22.499794+09:00",
+      "generatedAt": "2026-09-24T10:24:17.696773+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
       "isStaleReference": false,
       "staleReasons": [],
       "disclaimer": "이 값은 비교기업이 정확히 1개일 때 그 기업의 forward P/E를 대상종목 자신의 NTM EPS에 그대로 곱한 '단일 비교기업 참고가격'일 뿐이다 -- 검증된 매수가·매도가·성공확률·신뢰구간이 아니며, low/high 범위 개념 자체가 없다(peer 1개라 범위를 구성하지 않음, 산술 실패 아님). 여러 peer로 만드는 상대가치 밴드(relativeValueBand)와는 다른 개념이며 서로 바꿔 쓰면 안 된다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이므로(eps_definition_confirmation_level 참고) 이 적용가격도 잠정으로 취급해야 한다.",
+      "priceAsOfDatesMatch": true,
+      "priceAsOfDatesNote": null,
       "targetEpsPeriodDetail": {
         "0y_end": "2027-06-30",
         "0y_eps": 20.09143,
@@ -3360,6 +3364,75 @@ const INDEPENDENT_VALUATION_DATA = {
       "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: 'USD'. 재무제표통화(financialCurrency): 'USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
       "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
       "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)"
+    },
+    "singleComparisonReference": {
+      "lastCheckStatus": "OK",
+      "lastCheckNote": null,
+      "lastCheckCheckedAt": "2026-09-24T10:24:17.696773+09:00",
+      "ok": true,
+      "reason": null,
+      "referenceKind": "single_comparison",
+      "peerCount": 1,
+      "targetTicker": "PWR",
+      "peerTicker": "MTZ",
+      "targetEps1": 18.914507863013696,
+      "targetEps1Basis": "NTM 컨센서스 EPS(blend_ntm_eps_from_annual_estimates, peer와 동일 함수로 산출)",
+      "peerForwardPe": 19.080329963677684,
+      "peerPrice": 222.89999389648438,
+      "peerPriceAsOf": "2026-09-21",
+      "appliedPrice": 360.8950511268774,
+      "targetCurrentPrice": 634.9000244140625,
+      "targetCurrentPriceAsOf": "2026-09-23",
+      "targetCurrentPriceType": "confirmed_close",
+      "asOfDate": "2026-09-24",
+      "generatedAt": "2026-09-24T10:24:17.696773+09:00",
+      "generatedAtClass": "ok",
+      "generatedAtAgeDays": 0,
+      "priceDateClass": "ok",
+      "isStaleReference": false,
+      "staleReasons": [],
+      "disclaimer": "이 값은 비교기업이 정확히 1개일 때 그 기업의 forward P/E를 대상종목 자신의 NTM EPS에 그대로 곱한 '단일 비교기업 참고가격'일 뿐이다 -- 검증된 매수가·매도가·성공확률·신뢰구간이 아니며, low/high 범위 개념 자체가 없다(peer 1개라 범위를 구성하지 않음, 산술 실패 아님). 여러 peer로 만드는 상대가치 밴드(relativeValueBand)와는 다른 개념이며 서로 바꿔 쓰면 안 된다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이므로(eps_definition_confirmation_level 참고) 이 적용가격도 잠정으로 취급해야 한다.",
+      "priceAsOfDatesMatch": false,
+      "priceAsOfDatesNote": "대상(2026-09-23)과 비교기업(2026-09-21) 가격 기준일이 다름 -- 최신 공통 거래일로 맞춘 값이 아니라 각자 확보 가능했던 최신 확정 종가를 그대로 사용함(둘 다 개별적으로 노후 기준은 통과)",
+      "targetEpsPeriodDetail": {
+        "0y_end": "2026-12-31",
+        "0y_eps": 16.73333,
+        "1y_end": "2027-12-31",
+        "1y_eps": 19.71509
+      },
+      "targetEpsNtmWeight": {
+        "weight_0y": 0.2684931506849315,
+        "weight_1y": 0.7315068493150685,
+        "days_in_0y": 98,
+        "days_in_1y": 267
+      },
+      "peerEpsPeriodDetail": {
+        "0y_end": "2026-12-31",
+        "0y_eps": 9.31133,
+        "1y_end": "2027-12-31",
+        "1y_eps": 12.55239
+      },
+      "peerEpsNtmWeight": {
+        "weight_0y": 0.2684931506849315,
+        "weight_1y": 0.7315068493150685,
+        "days_in_0y": 98,
+        "days_in_1y": 267
+      },
+      "epsDefinitionConfirmationLevel": "source_traced_comparability_unconfirmed",
+      "epsDefinitionConfirmationLabel": "출처는 추적됨(Yahoo→S&P Global Market Intelligence) · 기업 간 이익기준 비교가능성은 미확인",
+      "epsCurrencyBasisNote": "주가 통화(quoteCurrency)는 raw 데이터에서 확인됨: target='USD', peer='USD'. 재무제표통화(financialCurrency): target='USD', peer='USD'. EPS 컨센서스 필드(earningsTrend) 응답 자체에는 통화가 별도로 명시되지 않으므로, 위 두 통화가 서로 일치한다는 사실로 USD 표시를 근사 추정할 뿐 EPS 필드 자체의 통화가 개별 확인된 것은 아니다.",
+      "epsShareBasisAssumed": "희석(diluted) 기준으로 추정 - 컨센서스 EPS 업계 관행상 일반적이나 이 필드 자체에서 개별 확인되지는 않음",
+      "epsSplitConfirmationNote": "분할(액면분할 등) 조정 여부는 개별 확인되지 않음(자료 없음, 지어내지 않음)",
+      "targetPricePossibleMissingSessionDates": [
+        "2026-09-22"
+      ],
+      "targetEstimatesFetchedAt": "2026-09-23",
+      "peerCurrentPriceType": "confirmed_close",
+      "peerPricePossibleMissingSessionDates": [],
+      "targetFinancialCurrency": "USD",
+      "targetQuoteCurrency": "USD",
+      "peerFinancialCurrency": "USD",
+      "peerQuoteCurrency": "USD"
     }
   },
   "EME": {
@@ -3386,7 +3459,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-09-24T10:13:22.499794+09:00",
+      "lastCheckCheckedAt": "2026-09-24T10:24:17.696773+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -3403,13 +3476,15 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-09-23",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-09-24",
-      "generatedAt": "2026-09-24T10:13:22.499794+09:00",
+      "generatedAt": "2026-09-24T10:24:17.696773+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
       "isStaleReference": false,
       "staleReasons": [],
       "disclaimer": "이 값은 비교기업이 정확히 1개일 때 그 기업의 forward P/E를 대상종목 자신의 NTM EPS에 그대로 곱한 '단일 비교기업 참고가격'일 뿐이다 -- 검증된 매수가·매도가·성공확률·신뢰구간이 아니며, low/high 범위 개념 자체가 없다(peer 1개라 범위를 구성하지 않음, 산술 실패 아님). 여러 peer로 만드는 상대가치 밴드(relativeValueBand)와는 다른 개념이며 서로 바꿔 쓰면 안 된다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이므로(eps_definition_confirmation_level 참고) 이 적용가격도 잠정으로 취급해야 한다.",
+      "priceAsOfDatesMatch": true,
+      "priceAsOfDatesNote": null,
       "targetEpsPeriodDetail": {
         "0y_end": "2026-12-31",
         "0y_eps": 32.85062,
@@ -3477,7 +3552,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-09-24T10:13:22.499794+09:00",
+      "lastCheckCheckedAt": "2026-09-24T10:24:17.696773+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -3494,13 +3569,15 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-09-23",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-09-24",
-      "generatedAt": "2026-09-24T10:13:22.499794+09:00",
+      "generatedAt": "2026-09-24T10:24:17.696773+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
       "isStaleReference": false,
       "staleReasons": [],
       "disclaimer": "이 값은 비교기업이 정확히 1개일 때 그 기업의 forward P/E를 대상종목 자신의 NTM EPS에 그대로 곱한 '단일 비교기업 참고가격'일 뿐이다 -- 검증된 매수가·매도가·성공확률·신뢰구간이 아니며, low/high 범위 개념 자체가 없다(peer 1개라 범위를 구성하지 않음, 산술 실패 아님). 여러 peer로 만드는 상대가치 밴드(relativeValueBand)와는 다른 개념이며 서로 바꿔 쓰면 안 된다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이므로(eps_definition_confirmation_level 참고) 이 적용가격도 잠정으로 취급해야 한다.",
+      "priceAsOfDatesMatch": true,
+      "priceAsOfDatesNote": null,
       "targetEpsPeriodDetail": {
         "0y_end": "2026-12-31",
         "0y_eps": 49.00705,
@@ -3548,7 +3625,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-09-24T10:13:22.499794+09:00",
+      "lastCheckCheckedAt": "2026-09-24T10:24:17.696773+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -3565,13 +3642,15 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-09-23",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-09-24",
-      "generatedAt": "2026-09-24T10:13:22.499794+09:00",
+      "generatedAt": "2026-09-24T10:24:17.696773+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
       "isStaleReference": false,
       "staleReasons": [],
       "disclaimer": "이 값은 비교기업이 정확히 1개일 때 그 기업의 forward P/E를 대상종목 자신의 NTM EPS에 그대로 곱한 '단일 비교기업 참고가격'일 뿐이다 -- 검증된 매수가·매도가·성공확률·신뢰구간이 아니며, low/high 범위 개념 자체가 없다(peer 1개라 범위를 구성하지 않음, 산술 실패 아님). 여러 peer로 만드는 상대가치 밴드(relativeValueBand)와는 다른 개념이며 서로 바꿔 쓰면 안 된다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이므로(eps_definition_confirmation_level 참고) 이 적용가격도 잠정으로 취급해야 한다.",
+      "priceAsOfDatesMatch": true,
+      "priceAsOfDatesNote": null,
       "targetEpsPeriodDetail": {
         "0y_end": "2027-06-30",
         "0y_eps": 9.41634,
@@ -3615,7 +3694,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-09-24T10:13:22.499794+09:00",
+      "lastCheckCheckedAt": "2026-09-24T10:24:17.696773+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -3632,13 +3711,15 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-09-23",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-09-24",
-      "generatedAt": "2026-09-24T10:13:22.499794+09:00",
+      "generatedAt": "2026-09-24T10:24:17.696773+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
       "isStaleReference": false,
       "staleReasons": [],
       "disclaimer": "이 값은 비교기업이 정확히 1개일 때 그 기업의 forward P/E를 대상종목 자신의 NTM EPS에 그대로 곱한 '단일 비교기업 참고가격'일 뿐이다 -- 검증된 매수가·매도가·성공확률·신뢰구간이 아니며, low/high 범위 개념 자체가 없다(peer 1개라 범위를 구성하지 않음, 산술 실패 아님). 여러 peer로 만드는 상대가치 밴드(relativeValueBand)와는 다른 개념이며 서로 바꿔 쓰면 안 된다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이므로(eps_definition_confirmation_level 참고) 이 적용가격도 잠정으로 취급해야 한다.",
+      "priceAsOfDatesMatch": true,
+      "priceAsOfDatesNote": null,
       "targetEpsPeriodDetail": {
         "0y_end": "2027-06-30",
         "0y_eps": 21.67057,
