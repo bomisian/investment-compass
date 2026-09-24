@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790240137.6500137,
+  "generatedAt": 1790241618.7845516,
   "records": {
     "MSFT": [
       {
@@ -1921,6 +1921,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "GOOGL": [
       {
+        "changedAt": 1790241618.7845516,
+        "dataAsOf": 1790224117,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.7,
+            "after": 1.05
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.57,
+            "after": -1.22
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Alphabet(GOOGL)이 개인 금융을 Gemini에 도입함으로써 무엇을 얻을 수 있을까요?",
+        "newsUrl": "https://finnhub.io/api/news?id=08922e79cd85f6ad85ebe695f592fdc9dc91f54a0f4f5130ac1f5655c54907d4",
+        "eventId": "cb7243559f8f736cae88",
+        "fingerprint": "{\"changes\": [{\"after\": 1.05, \"before\": 0.7, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.22, \"before\": -1.57, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"cb7243559f8f736cae88\"}"
+      },
+      {
         "changedAt": 1790240137.6500137,
         "dataAsOf": 1790224117,
         "changes": [
@@ -3678,35 +3701,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=d912c2264f2a145e9e1ed97bbaf3ee0df9cd5a1d268ef8a14b6eab04e4674957",
         "eventId": "b769097e86b1493c9352",
         "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -0.52, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.2, \"before\": -5, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.05, \"before\": -1.57, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"b769097e86b1493c9352\"}"
-      },
-      {
-        "changedAt": 1788890198.0753438,
-        "dataAsOf": 1788836516,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 1.4,
-            "after": 1.05
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 0.18,
-            "after": -0.52
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -1.22,
-            "after": -1.57
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "Broadcom: 최근 수익으로 내가 가장 신뢰하지 않는 AI 주식인 이유 확인",
-        "newsUrl": "https://finnhub.io/api/news?id=d912c2264f2a145e9e1ed97bbaf3ee0df9cd5a1d268ef8a14b6eab04e4674957",
-        "eventId": "b769097e86b1493c9352",
-        "fingerprint": "{\"changes\": [{\"after\": 1.05, \"before\": 1.4, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -0.52, \"before\": 0.18, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.57, \"before\": -1.22, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"b769097e86b1493c9352\"}"
       }
     ],
     "AMZN": [
@@ -12396,6 +12390,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "CRM": [
+      {
+        "changedAt": 1790241618.7845516,
+        "dataAsOf": 1790226000,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.0,
+            "after": 0.35
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -1.05,
+            "after": -0.35
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.7,
+            "after": -0.35
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Navatar는 Claude와 Salesforce를 사모펀드 및 M&A를 위한 실시간 AI 거래 엔진으로 전환합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=0d48770676512835e008bfda3bf05416c1708024d7078f4a7071d05d2794ac5d",
+        "eventId": "83a975fb234d014d1677",
+        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.0, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -0.35, \"before\": -1.05, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.35, \"before\": -0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"83a975fb234d014d1677\"}"
+      },
       {
         "changedAt": 1790219511.6279755,
         "dataAsOf": 1790200740,
