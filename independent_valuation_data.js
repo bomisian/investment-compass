@@ -999,8 +999,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "kind": "independent_value_dcf_scenario_engine",
       "asOf": "2026-09-24",
       "valuationAnchorDate": "2026-07-26",
-      "runId": "AMAT_REAL_20260924T103928986757",
-      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260924T103928964053",
+      "runId": "AMAT_REAL_20260924T114646623717",
+      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260924T114646597672",
       "engineVersion": "amat_calc_engine v4 (2026-09-18, 모델 채택 검토) -- D&A/CapEx 비율 곡선을 FY2025 실측 대조로 조정(min(0.60,0.20+0.10*(i+1)) -> min(0.45,0.19+0.065*i)), 계산 결과가 달라짐(v3 대비). 과거 실행은 각자 저장된 code_snapshots로 그 시점 값 그대로 재현 가능.",
       "isReplayFixture": false,
       "px": 191.13545249506214,
@@ -1011,21 +1011,21 @@ const INDEPENDENT_VALUATION_DATA = {
           "growthY1": 0.3134993682913383,
           "roic": 0.18,
           "ntmValue": 40504380020.0,
-          "runId": "AMAT_REAL_20260924T103928970865"
+          "runId": "AMAT_REAL_20260924T114646605564"
         },
         "base": {
           "px": 191.13545249506214,
           "growthY1": 0.38220422220060324,
           "roic": 0.22,
           "ntmValue": 42623031600.0,
-          "runId": "AMAT_REAL_20260924T103928986757"
+          "runId": "AMAT_REAL_20260924T114646623717"
         },
         "optimistic": {
           "px": 202.85487015646135,
           "growthY1": 0.45090907610986797,
           "roic": 0.26,
           "ntmValue": 44741683180.0,
-          "runId": "AMAT_REAL_20260924T103929015703"
+          "runId": "AMAT_REAL_20260924T114646668821"
         }
       },
       "priorDeliveredPx": 129.13,
@@ -1707,7 +1707,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "updateStatus": {
         "attemptStatus": "SUCCESS",
         "failureType": null,
-        "attemptedAt": "2026-09-24T10:39:28.995362",
+        "attemptedAt": "2026-09-24T11:46:46.633760",
         "dataAsOf": "2026-09-23",
         "holdPrice": false,
         "reason": ""
@@ -3048,7 +3048,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-09-24T11:14:01.953869+09:00",
+      "lastCheckCheckedAt": "2026-09-24T11:37:16.295452+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -3065,7 +3065,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-09-23",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-09-24",
-      "generatedAt": "2026-09-24T11:14:01.953869+09:00",
+      "generatedAt": "2026-09-24T11:37:16.295452+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3112,7 +3112,21 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetFinancialCurrency": "USD",
       "targetQuoteCurrency": "USD",
       "peerFinancialCurrency": "USD",
-      "peerQuoteCurrency": "USD"
+      "peerQuoteCurrency": "USD",
+      "priceDateAlignmentApplied": true,
+      "priceDateAlignmentCommonDate": "2026-09-23",
+      "priceDateAlignmentIsPastReference": false,
+      "priceDateAlignmentNote": "target·peer 공통 확정 거래일(2026-09-23)이 각자의 최신 확정 종가일과 일치합니다.",
+      "peerPriceUsedInCalculation": 473.69000244140625,
+      "peerPriceUsedInCalculationAsOf": "2026-09-23",
+      "peerLastCollectionStatus": null,
+      "peerLastCollectionNote": null,
+      "targetHasMissingSessionsAsOfNow": false,
+      "targetMissingSessionsAsOfNow": [],
+      "targetCalendarSourceAsOfNow": "pandas_market_calendars_cross_checked_against_NYSE_schedule",
+      "peerHasMissingSessionsAsOfNow": false,
+      "peerMissingSessionsAsOfNow": [],
+      "peerCalendarSourceAsOfNow": "pandas_market_calendars_cross_checked_against_NYSE_schedule"
     }
   },
   "WDC": {
@@ -3139,7 +3153,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-09-24T11:14:01.953869+09:00",
+      "lastCheckCheckedAt": "2026-09-24T11:37:16.295452+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -3156,7 +3170,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-09-23",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-09-24",
-      "generatedAt": "2026-09-24T11:14:01.953869+09:00",
+      "generatedAt": "2026-09-24T11:37:16.295452+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3203,7 +3217,21 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetFinancialCurrency": "USD",
       "targetQuoteCurrency": "USD",
       "peerFinancialCurrency": "USD",
-      "peerQuoteCurrency": "USD"
+      "peerQuoteCurrency": "USD",
+      "priceDateAlignmentApplied": true,
+      "priceDateAlignmentCommonDate": "2026-09-23",
+      "priceDateAlignmentIsPastReference": false,
+      "priceDateAlignmentNote": "target·peer 공통 확정 거래일(2026-09-23)이 각자의 최신 확정 종가일과 일치합니다.",
+      "peerPriceUsedInCalculation": 923.8599853515625,
+      "peerPriceUsedInCalculationAsOf": "2026-09-23",
+      "peerLastCollectionStatus": null,
+      "peerLastCollectionNote": null,
+      "targetHasMissingSessionsAsOfNow": false,
+      "targetMissingSessionsAsOfNow": [],
+      "targetCalendarSourceAsOfNow": "pandas_market_calendars_cross_checked_against_NYSE_schedule",
+      "peerHasMissingSessionsAsOfNow": false,
+      "peerMissingSessionsAsOfNow": [],
+      "peerCalendarSourceAsOfNow": "pandas_market_calendars_cross_checked_against_NYSE_schedule"
     }
   },
   "SNDK": {
@@ -3368,7 +3396,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-09-24T11:14:01.953869+09:00",
+      "lastCheckCheckedAt": "2026-09-24T11:37:16.295452+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -3381,16 +3409,20 @@ const INDEPENDENT_VALUATION_DATA = {
       "peerPrice": 222.89999389648438,
       "peerPriceAsOf": "2026-09-21",
       "appliedPrice": 360.8950511268774,
-      "targetCurrentPrice": 634.9000244140625,
-      "targetCurrentPriceAsOf": "2026-09-23",
+      "targetCurrentPrice": 642.6099853515625,
+      "targetCurrentPriceAsOf": "2026-09-21",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-09-24",
-      "generatedAt": "2026-09-24T11:14:01.953869+09:00",
+      "generatedAt": "2026-09-24T11:37:16.295452+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
-      "isStaleReference": false,
-      "staleReasons": [],
+      "isStaleReference": true,
+      "staleReasons": [
+        "대상(2026-09-23)과 비교기업(2026-09-21) 가격 기준일이 다름 -- 최신 공통 거래일로 맞춘 값이 아니라 각자 확보 가능했던 최신 확정 종가를 그대로 사용함(둘 다 개별적으로 노후 기준은 통과)",
+        "target(PWR)·peer(MTZ) 공통 확정 거래일(2026-09-21)로 가격을 맞췄습니다 -- target 자체 최신 확정 종가(2026-09-23)나 peer 자체 최신 확정 종가(2026-09-21)보다 과거일 수 있습니다(그중 더 오래된 쪽에 맞춰짐). EPS는 그대로 현재(2026-09-24) 기준입니다 -- 가격만 과거 공통일자를 씁니다.",
+        "비교기업(MTZ) 가격이 실제 실행시각 기준으로 이미 마감된 거래일 중 아직 반영 안 된 날짜가 있음(2026-09-22, 2026-09-23)"
+      ],
       "disclaimer": "이 값은 비교기업이 정확히 1개일 때 그 기업의 forward P/E를 대상종목 자신의 NTM EPS에 그대로 곱한 '단일 비교기업 참고가격'일 뿐이다 -- 검증된 매수가·매도가·성공확률·신뢰구간이 아니며, low/high 범위 개념 자체가 없다(peer 1개라 범위를 구성하지 않음, 산술 실패 아님). 여러 peer로 만드는 상대가치 밴드(relativeValueBand)와는 다른 개념이며 서로 바꿔 쓰면 안 된다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이므로(eps_definition_confirmation_level 참고) 이 적용가격도 잠정으로 취급해야 한다.",
       "priceAsOfDatesMatch": false,
       "priceAsOfDatesNote": "대상(2026-09-23)과 비교기업(2026-09-21) 가격 기준일이 다름 -- 최신 공통 거래일로 맞춘 값이 아니라 각자 확보 가능했던 최신 확정 종가를 그대로 사용함(둘 다 개별적으로 노후 기준은 통과)",
@@ -3432,7 +3464,39 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetFinancialCurrency": "USD",
       "targetQuoteCurrency": "USD",
       "peerFinancialCurrency": "USD",
-      "peerQuoteCurrency": "USD"
+      "peerQuoteCurrency": "USD",
+      "priceDateAlignmentApplied": true,
+      "priceDateAlignmentCommonDate": "2026-09-21",
+      "priceDateAlignmentIsPastReference": true,
+      "priceDateAlignmentNote": "target(PWR)·peer(MTZ) 공통 확정 거래일(2026-09-21)로 가격을 맞췄습니다 -- target 자체 최신 확정 종가(2026-09-23)나 peer 자체 최신 확정 종가(2026-09-21)보다 과거일 수 있습니다(그중 더 오래된 쪽에 맞춰짐). EPS는 그대로 현재(2026-09-24) 기준입니다 -- 가격만 과거 공통일자를 씁니다.",
+      "peerPriceUsedInCalculation": 222.89999389648438,
+      "peerPriceUsedInCalculationAsOf": "2026-09-21",
+      "peerLastCollectionStatus": {
+        "checkedAt": "2026-09-24T11:37:11.833808+09:00",
+        "pricesLastAttempt": {
+          "outcome": "cache_fresh",
+          "errorDetail": null,
+          "lastPriceSessionDate": "2026-09-21",
+          "hasMissingSessionsAsOfNow": true,
+          "latestExpectedCompletedSessionAsOfNow": "2026-09-23",
+          "calendarSourceAsOfNow": "pandas_market_calendars_cross_checked_against_NYSE_schedule",
+          "recencyCheckNote": null
+        },
+        "estimatesLastAttempt": {
+          "outcome": "cache_fresh",
+          "errorDetail": null
+        }
+      },
+      "peerLastCollectionNote": null,
+      "targetHasMissingSessionsAsOfNow": false,
+      "targetMissingSessionsAsOfNow": [],
+      "targetCalendarSourceAsOfNow": "pandas_market_calendars_cross_checked_against_NYSE_schedule",
+      "peerHasMissingSessionsAsOfNow": true,
+      "peerMissingSessionsAsOfNow": [
+        "2026-09-22",
+        "2026-09-23"
+      ],
+      "peerCalendarSourceAsOfNow": "pandas_market_calendars_cross_checked_against_NYSE_schedule"
     }
   },
   "EME": {
@@ -3459,7 +3523,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-09-24T11:14:01.953869+09:00",
+      "lastCheckCheckedAt": "2026-09-24T11:37:16.295452+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -3476,7 +3540,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-09-23",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-09-24",
-      "generatedAt": "2026-09-24T11:14:01.953869+09:00",
+      "generatedAt": "2026-09-24T11:37:16.295452+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3525,7 +3589,21 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetFinancialCurrency": "USD",
       "targetQuoteCurrency": "USD",
       "peerFinancialCurrency": "USD",
-      "peerQuoteCurrency": "USD"
+      "peerQuoteCurrency": "USD",
+      "priceDateAlignmentApplied": true,
+      "priceDateAlignmentCommonDate": "2026-09-23",
+      "priceDateAlignmentIsPastReference": false,
+      "priceDateAlignmentNote": "target·peer 공통 확정 거래일(2026-09-23)이 각자의 최신 확정 종가일과 일치합니다.",
+      "peerPriceUsedInCalculation": 1625.9000244140625,
+      "peerPriceUsedInCalculationAsOf": "2026-09-23",
+      "peerLastCollectionStatus": null,
+      "peerLastCollectionNote": null,
+      "targetHasMissingSessionsAsOfNow": false,
+      "targetMissingSessionsAsOfNow": [],
+      "targetCalendarSourceAsOfNow": "pandas_market_calendars_cross_checked_against_NYSE_schedule",
+      "peerHasMissingSessionsAsOfNow": false,
+      "peerMissingSessionsAsOfNow": [],
+      "peerCalendarSourceAsOfNow": "pandas_market_calendars_cross_checked_against_NYSE_schedule"
     }
   },
   "FIX": {
@@ -3552,7 +3630,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-09-24T11:14:01.953869+09:00",
+      "lastCheckCheckedAt": "2026-09-24T11:37:16.295452+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -3569,7 +3647,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-09-23",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-09-24",
-      "generatedAt": "2026-09-24T11:14:01.953869+09:00",
+      "generatedAt": "2026-09-24T11:37:16.295452+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3618,14 +3696,28 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetFinancialCurrency": "USD",
       "targetQuoteCurrency": "USD",
       "peerFinancialCurrency": "USD",
-      "peerQuoteCurrency": "USD"
+      "peerQuoteCurrency": "USD",
+      "priceDateAlignmentApplied": true,
+      "priceDateAlignmentCommonDate": "2026-09-23",
+      "priceDateAlignmentIsPastReference": false,
+      "priceDateAlignmentNote": "target·peer 공통 확정 거래일(2026-09-23)이 각자의 최신 확정 종가일과 일치합니다.",
+      "peerPriceUsedInCalculation": 751.7999877929688,
+      "peerPriceUsedInCalculationAsOf": "2026-09-23",
+      "peerLastCollectionStatus": null,
+      "peerLastCollectionNote": null,
+      "targetHasMissingSessionsAsOfNow": false,
+      "targetMissingSessionsAsOfNow": [],
+      "targetCalendarSourceAsOfNow": "pandas_market_calendars_cross_checked_against_NYSE_schedule",
+      "peerHasMissingSessionsAsOfNow": false,
+      "peerMissingSessionsAsOfNow": [],
+      "peerCalendarSourceAsOfNow": "pandas_market_calendars_cross_checked_against_NYSE_schedule"
     }
   },
   "COHR": {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-09-24T11:14:01.953869+09:00",
+      "lastCheckCheckedAt": "2026-09-24T11:37:16.295452+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -3642,7 +3734,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-09-23",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-09-24",
-      "generatedAt": "2026-09-24T11:14:01.953869+09:00",
+      "generatedAt": "2026-09-24T11:37:16.295452+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3687,14 +3779,28 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetFinancialCurrency": "USD",
       "targetQuoteCurrency": "USD",
       "peerFinancialCurrency": "USD",
-      "peerQuoteCurrency": "USD"
+      "peerQuoteCurrency": "USD",
+      "priceDateAlignmentApplied": true,
+      "priceDateAlignmentCommonDate": "2026-09-23",
+      "priceDateAlignmentIsPastReference": false,
+      "priceDateAlignmentNote": "target·peer 공통 확정 거래일(2026-09-23)이 각자의 최신 확정 종가일과 일치합니다.",
+      "peerPriceUsedInCalculation": 937.0,
+      "peerPriceUsedInCalculationAsOf": "2026-09-23",
+      "peerLastCollectionStatus": null,
+      "peerLastCollectionNote": null,
+      "targetHasMissingSessionsAsOfNow": false,
+      "targetMissingSessionsAsOfNow": [],
+      "targetCalendarSourceAsOfNow": "pandas_market_calendars_cross_checked_against_NYSE_schedule",
+      "peerHasMissingSessionsAsOfNow": false,
+      "peerMissingSessionsAsOfNow": [],
+      "peerCalendarSourceAsOfNow": "pandas_market_calendars_cross_checked_against_NYSE_schedule"
     }
   },
   "LITE": {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-09-24T11:14:01.953869+09:00",
+      "lastCheckCheckedAt": "2026-09-24T11:37:16.295452+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -3711,7 +3817,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-09-23",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-09-24",
-      "generatedAt": "2026-09-24T11:14:01.953869+09:00",
+      "generatedAt": "2026-09-24T11:37:16.295452+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3756,7 +3862,21 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetFinancialCurrency": "USD",
       "targetQuoteCurrency": "USD",
       "peerFinancialCurrency": "USD",
-      "peerQuoteCurrency": "USD"
+      "peerQuoteCurrency": "USD",
+      "priceDateAlignmentApplied": true,
+      "priceDateAlignmentCommonDate": "2026-09-23",
+      "priceDateAlignmentIsPastReference": false,
+      "priceDateAlignmentNote": "target·peer 공통 확정 거래일(2026-09-23)이 각자의 최신 확정 종가일과 일치합니다.",
+      "peerPriceUsedInCalculation": 300.6000061035156,
+      "peerPriceUsedInCalculationAsOf": "2026-09-23",
+      "peerLastCollectionStatus": null,
+      "peerLastCollectionNote": null,
+      "targetHasMissingSessionsAsOfNow": false,
+      "targetMissingSessionsAsOfNow": [],
+      "targetCalendarSourceAsOfNow": "pandas_market_calendars_cross_checked_against_NYSE_schedule",
+      "peerHasMissingSessionsAsOfNow": false,
+      "peerMissingSessionsAsOfNow": [],
+      "peerCalendarSourceAsOfNow": "pandas_market_calendars_cross_checked_against_NYSE_schedule"
     }
   },
   "AAPL": {

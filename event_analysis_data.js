@@ -1,15 +1,15 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790216033.0817287,
+  "generatedAt": 1790218004.7168682,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1790216033.0817287,
-      "dataAsOf": 1790186458,
-      "signal": "중립·확인 대기",
-      "netScore": -1.12,
-      "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
+      "updatedAt": 1790218004.7168682,
+      "dataAsOf": 1790183904,
+      "signal": "주의 강화",
+      "netScore": -2.18,
+      "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
@@ -18,7 +18,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": 2.45,
+          "score": 1.92,
           "level": "우호적"
         },
         "valuationBurden": {
@@ -43,8 +43,8 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -0.87,
-          "level": "중립"
+          "score": -1.4,
+          "level": "주의"
         },
         "insiderSignal": {
           "label": "내부자 거래 신호",
@@ -53,19 +53,6 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
-        {
-          "eventId": "fca0d71d79a54e238887",
-          "headline": "마이크로소프트, 2030년까지 걸프 클라우드 및 AI 투자에 100억 달러 약속",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1790186458,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=e9aa9da652349079c3e3499ef78679b00378d767ea9ca11dd472e05af41ea188",
-          "factorChanges": {
-            "growth": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
-        },
         {
           "eventId": "6422b289477ae8813491",
           "headline": "Microsoft는 AI 피싱 공급망을 차단한 후에도 정체 상태를 유지합니다.",
@@ -179,13 +166,13 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 9,
+      "unverifiedEvidenceCount": 8,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1790216033.0817287,
-      "dataAsOf": 1790185250,
+      "updatedAt": 1790218004.7168682,
+      "dataAsOf": 1790198919,
       "signal": "주의 강화",
       "netScore": -3.09,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
@@ -232,6 +219,34 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "6ac05893f468c4231c06",
+          "headline": "구글은 Gemini가 자체적으로 3개 회사를 해킹했다고 밝혔습니다. 이제 Google은 AI에 대해 엇갈린 신호를 보내고 있습니다.",
+          "eventLabel": "규제·소송·수출 제한",
+          "publishedAt": 1790198919,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=d446bf4fad54b9fc5fe69dc78feffd15d543c6c99e684752f625b10421c2bfb4",
+          "factorChanges": {
+            "businessRisk": -2,
+            "growth": -1,
+            "shortTermMomentum": -1
+          },
+          "reason": "회사 실적과의 연결고리 확인"
+        },
+        {
+          "eventId": "a35485eff03dcfd457dd",
+          "headline": "S&P 500, 다우, 나스닥은 더 많은 금리 인상을 요구하는 가운데 수익률 급등으로 하락 — AMZN, GOOGL, NFLX, SPCX, RKLB 집중",
+          "eventLabel": "장기 공급계약",
+          "publishedAt": 1790198608,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=3e0635280d4c1dd83e1a0c7e8985b5372eb0051938459206652a02ef0b524aee",
+          "factorChanges": {
+            "growth": 2,
+            "longTermCompetitiveness": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
         {
           "eventId": "9f51be02f92ac7c8beb0",
           "headline": "Microsoft는 2030년까지 중동에 100억 달러 이상을 투자합니다 – 투자자가 알아야 할 사항",
@@ -373,34 +388,6 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "회사 실적과의 연결고리 확인"
-        },
-        {
-          "eventId": "a39b45b2c5399d4afb82",
-          "headline": "Google은 EU에 대해 4억 6,300만 달러의 벌금을 부과했습니다. 위치 데이터 위반",
-          "eventLabel": "규제·소송·수출 제한",
-          "publishedAt": 1790011144,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=05b2735fbdc363b808e8509a12c69948915f61ca9363442fc1f4291448ff8447",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "회사 실적과의 연결고리 확인"
-        },
-        {
-          "eventId": "fe2b5d3d40f35665ab07",
-          "headline": "기술 매도는 알파벳에 대한 나의 믿음을 강화할 뿐입니다.",
-          "eventLabel": "규제·소송·수출 제한",
-          "publishedAt": 1789989479,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=e6222db2e5e7db2760c706194e0753a2e4e935ae331fbe72b3733331913c1c02",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "회사 실적과의 연결고리 확인"
         }
       ],
       "confirmedEvidenceCount": 0,
@@ -409,20 +396,20 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1790216033.0817287,
-      "dataAsOf": 1790188387,
+      "updatedAt": 1790218004.7168682,
+      "dataAsOf": 1790201220,
       "signal": "우호적 변화",
-      "netScore": 4.55,
+      "netScore": 7.42,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 2.27,
+          "score": 2.8,
           "level": "우호적"
         },
         "growth": {
           "label": "성장성",
-          "score": 4.55,
+          "score": 5,
           "level": "우호적"
         },
         "valuationBurden": {
@@ -442,12 +429,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -3.32,
+          "score": -2.27,
           "level": "주의"
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 1.23,
+          "score": 2.28,
           "level": "우호적"
         },
         "insiderSignal": {
@@ -457,6 +444,34 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "84abc55a74766853e1d9",
+          "headline": "오라클, AI 지출 급증으로 직원 2,500명 정리해고",
+          "eventLabel": "장기 공급계약",
+          "publishedAt": 1790201220,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=93ff118813bb2000efdc96542bb717d9ce10646d4a2f0a430fa118b95c525027",
+          "factorChanges": {
+            "growth": 2,
+            "longTermCompetitiveness": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "클라우드 CAPEX 경쟁과 가격·마진 압력 비교 필요"
+        },
+        {
+          "eventId": "a35485eff03dcfd457dd",
+          "headline": "S&P 500, 다우, 나스닥은 더 많은 금리 인상을 요구하는 가운데 수익률 급등으로 하락 — AMZN, GOOGL, NFLX, SPCX, RKLB 집중",
+          "eventLabel": "장기 공급계약",
+          "publishedAt": 1790198608,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=3e0635280d4c1dd83e1a0c7e8985b5372eb0051938459206652a02ef0b524aee",
+          "factorChanges": {
+            "growth": 2,
+            "longTermCompetitiveness": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
         {
           "eventId": "92d41c324ca48ba375d0",
           "headline": "AI 부채가 37베이시스 포인트 프리미엄을 가지면서 Oracle 하락",
@@ -592,34 +607,6 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "사업·실적 연결 경로 확인 필요"
-        },
-        {
-          "eventId": "8796422a5ee85921a950",
-          "headline": "아마존(AMZN)이 이번에는 임신한 창고 근로자를 대우하는 방식에 대해 다시 소송을 제기했습니다.",
-          "eventLabel": "규제·소송·수출 제한",
-          "publishedAt": 1789939453,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=7daba8694b21986bc274937c2a502b8b614ed1292728329a35cf100758cece36",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "회사 실적과의 연결고리 확인"
-        },
-        {
-          "eventId": "7b7171c8b3b0717d2ea8",
-          "headline": "예측: 2036년까지 아마존(AMZN) 주식에 대한 5,000달러 투자의 가치는 다음과 같습니다.",
-          "eventLabel": "장기 공급계약",
-          "publishedAt": 1789901520,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=7fde59d748acdf610e04fb347056f4d07c78e236dcae741c375650463629793c",
-          "factorChanges": {
-            "growth": 2,
-            "longTermCompetitiveness": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "회사 실적과의 연결고리 확인"
         }
       ],
       "confirmedEvidenceCount": 0,
@@ -628,11 +615,11 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1790216033.0817287,
-      "dataAsOf": 1790168640,
-      "signal": "주의 강화",
-      "netScore": -2.02,
-      "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
+      "updatedAt": 1790218004.7168682,
+      "dataAsOf": 1790207784,
+      "signal": "중립·확인 대기",
+      "netScore": -1.33,
+      "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
@@ -641,7 +628,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": 2.28,
+          "score": 2.62,
           "level": "우호적"
         },
         "valuationBurden": {
@@ -666,7 +653,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -0.87,
+          "score": -0.52,
           "level": "중립"
         },
         "insiderSignal": {
@@ -676,6 +663,33 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "9b66c5277889d778f29e",
+          "headline": "억만장자 팀 드레이퍼(Tim Draper), 애플과 메타의 비트코인 ​​없는 대차대조표 겨냥",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1790207784,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=5a57c263d0897aa2d88d4977470b00b8c419f2a39311162da2a36851e3249e8c",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
+        {
+          "eventId": "a35485eff03dcfd457dd",
+          "headline": "S&P 500, 다우, 나스닥은 더 많은 금리 인상을 요구하는 가운데 수익률 급등으로 하락 — AMZN, GOOGL, NFLX, SPCX, RKLB 집중",
+          "eventLabel": "장기 공급계약",
+          "publishedAt": 1790198608,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=3e0635280d4c1dd83e1a0c7e8985b5372eb0051938459206652a02ef0b524aee",
+          "factorChanges": {
+            "growth": 2,
+            "longTermCompetitiveness": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
         {
           "eventId": "3f70c72636cfef48d52e",
           "headline": "Meta Platforms의 전국 TV 광고는 비즈니스 모델의 주요 변화를 보여줍니다.",
@@ -815,45 +829,18 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "사업·실적 연결 경로 확인 필요"
-        },
-        {
-          "eventId": "db0d22d37d8a2aa35474",
-          "headline": "오늘 Intel, Arm 및 기타 AI 칩 주식이 급등한 이유",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1790038998,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=e0e81c35f9dfab690733bf2e90c84e610216e4850d5c4e0f2f403dc7264ef223",
-          "factorChanges": {
-            "growth": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
-        },
-        {
-          "eventId": "a3ddac4656027a873827",
-          "headline": "나스닥은 AI 주식이 터지면서 거의 3% 더 높게 마감하고 AMD는 1조 달러 클럽에 진입합니다 — AMD, ARM, META, AMZN, PSKY 집중",
-          "eventLabel": "규제·소송·수출 제한",
-          "publishedAt": 1790028294,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=f590f157a45e9ede0b45e363e2fe2fa232850b082542c852b4d171af05ca41ea",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 16,
+      "unverifiedEvidenceCount": 17,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1790216033.0817287,
-      "dataAsOf": 1790164503,
+      "updatedAt": 1790218004.7168682,
+      "dataAsOf": 1790207784,
       "signal": "주의 강화",
-      "netScore": -6.52,
+      "netScore": -5.83,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -863,7 +850,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": -0.17,
+          "score": 0.17,
           "level": "중립"
         },
         "valuationBurden": {
@@ -888,7 +875,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -2.1,
+          "score": -1.75,
           "level": "주의"
         },
         "insiderSignal": {
@@ -898,6 +885,19 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "9b66c5277889d778f29e",
+          "headline": "억만장자 팀 드레이퍼(Tim Draper), 애플과 메타의 비트코인 ​​없는 대차대조표 겨냥",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1790207784,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=5a57c263d0897aa2d88d4977470b00b8c419f2a39311162da2a36851e3249e8c",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
         {
           "eventId": "d3c77d043644fab8b571",
           "headline": "Apple의 iPhone 18 수요는 마진에서 개선되고 중국은 여전히 ​​약세를 유지하고 있다고 UBS가 밝혔습니다 — 최신 목표는 13%의 하락 가능성을 암시합니다",
@@ -1026,20 +1026,20 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 9,
+      "unverifiedEvidenceCount": 10,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1790216033.0817287,
-      "dataAsOf": 1790191500,
+      "updatedAt": 1790218004.7168682,
+      "dataAsOf": 1790213100,
       "signal": "우호적 변화",
-      "netScore": 8.56,
+      "netScore": 9.26,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 2.97,
+          "score": 3.32,
           "level": "우호적"
         },
         "growth": {
@@ -1069,7 +1069,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 2.27,
+          "score": 2.62,
           "level": "우호적"
         },
         "insiderSignal": {
@@ -1079,6 +1079,20 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "20ea4cddfe3f54cd895d",
+          "headline": "Tesla는 화려한 슈퍼차저를 움직이지만 BYD는 보이는 것보다 거울에 더 가까이 있습니다.",
+          "eventLabel": "장기 공급계약",
+          "publishedAt": 1790213100,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=583ea1d42dd9664463d77cc1308a18519326b4e305a86aed96fe7b9f8af805e0",
+          "factorChanges": {
+            "growth": 2,
+            "longTermCompetitiveness": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "회사 실적과의 연결고리 확인"
+        },
         {
           "eventId": "640ae9ca0057ebb06ccf",
           "headline": "Tesla를 구매하기 전에 알아야 할 3가지 사항",
@@ -1220,25 +1234,25 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 10,
+      "unverifiedEvidenceCount": 11,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1790216033.0817287,
-      "dataAsOf": 1790188387,
+      "updatedAt": 1790218004.7168682,
+      "dataAsOf": 1790201220,
       "signal": "우호적 변화",
-      "netScore": 5.6,
+      "netScore": 7.69,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 1.4,
+          "score": 1.92,
           "level": "우호적"
         },
         "growth": {
           "label": "성장성",
-          "score": 2.8,
+          "score": 3.85,
           "level": "우호적"
         },
         "valuationBurden": {
@@ -1263,7 +1277,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 1.4,
+          "score": 1.92,
           "level": "우호적"
         },
         "insiderSignal": {
@@ -1273,6 +1287,20 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "84abc55a74766853e1d9",
+          "headline": "오라클, AI 지출 급증으로 직원 2,500명 정리해고",
+          "eventLabel": "장기 공급계약",
+          "publishedAt": 1790201220,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=93ff118813bb2000efdc96542bb717d9ce10646d4a2f0a430fa118b95c525027",
+          "factorChanges": {
+            "growth": 2,
+            "longTermCompetitiveness": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 매출 기회와 FCF·부채·신용 부담이 동시에 존재"
+        },
         {
           "eventId": "92d41c324ca48ba375d0",
           "headline": "AI 부채가 37베이시스 포인트 프리미엄을 가지면서 Oracle 하락",
@@ -1317,12 +1345,12 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 3,
+      "unverifiedEvidenceCount": 4,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 1790163906,
       "signal": "주의 강화",
       "netScore": -3.78,
@@ -1405,20 +1433,20 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1790216033.0817287,
-      "dataAsOf": 1790169724,
+      "updatedAt": 1790218004.7168682,
+      "dataAsOf": 1790193929,
       "signal": "중립·확인 대기",
-      "netScore": -0.98,
+      "netScore": -0.29,
       "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 0.7,
+          "score": 0.87,
           "level": "중립"
         },
         "growth": {
           "label": "성장성",
-          "score": 0.35,
+          "score": 0.7,
           "level": "중립"
         },
         "valuationBurden": {
@@ -1443,7 +1471,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -0.35,
+          "score": -0.18,
           "level": "중립"
         },
         "insiderSignal": {
@@ -1453,6 +1481,20 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "6463ca7d63f523c5dd52",
+          "headline": "Palantir 주가는 8억 7,500만 달러의 FAA AI 거래 손실에도 불구하고 3% 상승: 이유는 다음과 같습니다.",
+          "eventLabel": "주요 고객 계약",
+          "publishedAt": 1790193929,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=ce53829547394e02bc8c847ad24c9ca6f66bbbe3981bcffe21b97ef91ef84712",
+          "factorChanges": {
+            "growth": 2,
+            "longTermCompetitiveness": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
+        },
         {
           "eventId": "7d9d382560c59619c70f",
           "headline": "IONQ 주식은 Nvidia Superion 256 배포, 양자 오류 디코더 혁신으로 1개월 최고치를 기록할 예정입니다.",
@@ -1509,20 +1551,6 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -1
           },
           "reason": "회사 실적과의 연결고리 확인"
-        },
-        {
-          "eventId": "627d5aed151a1af3fefd",
-          "headline": "Palantir를 피하고 대신 이 2가지 방산 주식을 구매해야 하는 이유",
-          "eventLabel": "장기 공급계약",
-          "publishedAt": 1789908120,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=8f9316959e49175d5a269885a5c8e8dfc7c7e5b76e4814c9aa943db72fdac021",
-          "factorChanges": {
-            "growth": 2,
-            "longTermCompetitiveness": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "회사 실적과의 연결고리 확인"
         }
       ],
       "confirmedEvidenceCount": 0,
@@ -1531,15 +1559,15 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1790216033.0817287,
-      "dataAsOf": 1790189853,
+      "updatedAt": 1790218004.7168682,
+      "dataAsOf": 1790207784,
       "signal": "우호적 변화",
-      "netScore": 6.56,
+      "netScore": 7.08,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 2.8,
+          "score": 3.32,
           "level": "우호적"
         },
         "growth": {
@@ -1579,6 +1607,33 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "9b66c5277889d778f29e",
+          "headline": "억만장자 팀 드레이퍼(Tim Draper), 애플과 메타의 비트코인 ​​없는 대차대조표 겨냥",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1790207784,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=5a57c263d0897aa2d88d4977470b00b8c419f2a39311162da2a36851e3249e8c",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 컴퓨팅 수요 확대 가능성"
+        },
+        {
+          "eventId": "84abc55a74766853e1d9",
+          "headline": "오라클, AI 지출 급증으로 직원 2,500명 정리해고",
+          "eventLabel": "장기 공급계약",
+          "publishedAt": 1790201220,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=93ff118813bb2000efdc96542bb717d9ce10646d4a2f0a430fa118b95c525027",
+          "factorChanges": {
+            "growth": 2,
+            "longTermCompetitiveness": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "데이터센터 투자 지속 시 AI 컴퓨팅 수요 유지 가능성"
+        },
         {
           "eventId": "42a5512169d1a81cb852",
           "headline": "Nvidia는 이 AI IPO 후보를 지지합니다. 불과 6개월 만에 10억 달러 손실",
@@ -1632,19 +1687,6 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "사업·실적 연결 경로 확인 필요"
-        },
-        {
-          "eventId": "fca0d71d79a54e238887",
-          "headline": "마이크로소프트, 2030년까지 걸프 클라우드 및 AI 투자에 100억 달러 약속",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1790186458,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=e9aa9da652349079c3e3499ef78679b00378d767ea9ca11dd472e05af41ea188",
-          "factorChanges": {
-            "growth": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "AI 컴퓨팅 수요 확대 가능성"
         },
         {
           "eventId": "f549ccba050d4d969cc9",
@@ -1724,20 +1766,6 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "AI 컴퓨팅 수요 확대 가능성"
-        },
-        {
-          "eventId": "4b19b2fcbd22d17cfc6c",
-          "headline": "AMD 주식은 올해 Nvidia를 제치고 상승했습니다. 여전히 구매하는 것이 더 나은가요?",
-          "eventLabel": "워런트·신주·희석 가능성",
-          "publishedAt": 1790108401,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=5aad699f45e8041b8eff7ec629b21aa21274b5e4adcf4f31b1c78733bd973371",
-          "factorChanges": {
-            "valuationBurden": -2,
-            "businessRisk": -1,
-            "shortTermMomentum": -2
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
         }
       ],
       "confirmedEvidenceCount": 0,
@@ -1746,10 +1774,10 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1790216033.0817287,
-      "dataAsOf": 1790189853,
+      "updatedAt": 1790218004.7168682,
+      "dataAsOf": 1790207784,
       "signal": "우호적 변화",
-      "netScore": 2.97,
+      "netScore": 2.27,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -1784,7 +1812,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 3.15,
+          "score": 2.45,
           "level": "우호적"
         },
         "insiderSignal": {
@@ -1794,6 +1822,19 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "9b66c5277889d778f29e",
+          "headline": "억만장자 팀 드레이퍼(Tim Draper), 애플과 메타의 비트코인 ​​없는 대차대조표 겨냥",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1790207784,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=5a57c263d0897aa2d88d4977470b00b8c419f2a39311162da2a36851e3249e8c",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+        },
         {
           "eventId": "42a5512169d1a81cb852",
           "headline": "Nvidia는 이 AI IPO 후보를 지지합니다. 불과 6개월 만에 10억 달러 손실",
@@ -1814,19 +1855,6 @@ const EVENT_ANALYSIS_DATA = {
           "publishedAt": 1790189559,
           "verificationStatus": "needs_confirmation",
           "sourceUrl": "https://finnhub.io/api/news?id=fec2d7296db6de14c116510aac29b2161c2a5b74baf451b7b01dd805a13c802b",
-          "factorChanges": {
-            "growth": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-        },
-        {
-          "eventId": "fca0d71d79a54e238887",
-          "headline": "마이크로소프트, 2030년까지 걸프 클라우드 및 AI 투자에 100억 달러 약속",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1790186458,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=e9aa9da652349079c3e3499ef78679b00378d767ea9ca11dd472e05af41ea188",
           "factorChanges": {
             "growth": 1,
             "shortTermMomentum": 1
@@ -1956,12 +1984,12 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 32,
+      "unverifiedEvidenceCount": 31,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 1790143118,
       "signal": "주의 강화",
       "netScore": -3.08,
@@ -2098,20 +2126,20 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1790216033.0817287,
-      "dataAsOf": 1790164503,
+      "updatedAt": 1790218004.7168682,
+      "dataAsOf": 1790188350,
       "signal": "주의 강화",
-      "netScore": -8.55,
+      "netScore": -6.44,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 0.52,
-          "level": "중립"
+          "score": 1.05,
+          "level": "우호적"
         },
         "growth": {
           "label": "성장성",
-          "score": -2.27,
+          "score": -1.22,
           "level": "주의"
         },
         "valuationBurden": {
@@ -2136,7 +2164,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -2.8,
+          "score": -2.27,
           "level": "주의"
         },
         "insiderSignal": {
@@ -2146,6 +2174,20 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "08a309671fea52fc96b8",
+          "headline": "Lumentum 주가는 Corning 및 Qualcomm과의 AI 광학 기술 파트너십 이후 상승했습니다. 이것이 LITE 주식에 의미하는 바.",
+          "eventLabel": "주요 고객 계약",
+          "publishedAt": 1790188350,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=5982de957991babfb88338199c57bf82ece2d0304b103cdcc4ea0fbe530dda8b",
+          "factorChanges": {
+            "growth": 2,
+            "longTermCompetitiveness": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
+        },
         {
           "eventId": "d3c77d043644fab8b571",
           "headline": "Apple의 iPhone 18 수요는 마진에서 개선되고 중국은 여전히 ​​약세를 유지하고 있다고 UBS가 밝혔습니다 — 최신 목표는 13%의 하락 가능성을 암시합니다",
@@ -2260,12 +2302,12 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 8,
+      "unverifiedEvidenceCount": 9,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 1790189559,
       "signal": "주의 강화",
       "netScore": -8.2,
@@ -2430,7 +2472,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 1790092809,
       "signal": "주의 강화",
       "netScore": -4.62,
@@ -2513,7 +2555,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 1790103933,
       "signal": "주의 강화",
       "netScore": -10,
@@ -2735,11 +2777,11 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1790216033.0817287,
-      "dataAsOf": 1790103026,
-      "signal": "우호적 변화",
-      "netScore": 2.59,
-      "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
+      "updatedAt": 1790218004.7168682,
+      "dataAsOf": 1790199608,
+      "signal": "중립·확인 대기",
+      "netScore": 0.69,
+      "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
@@ -2748,12 +2790,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": 2.45,
+          "score": 1.92,
           "level": "우호적"
         },
         "valuationBurden": {
           "label": "밸류에이션 부담",
-          "score": -1.05,
+          "score": -1.57,
           "level": "주의"
         },
         "customerConcentration": {
@@ -2768,12 +2810,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -0.52,
-          "level": "중립"
+          "score": -1.05,
+          "level": "주의"
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 0.53,
+          "score": 0.0,
           "level": "중립"
         },
         "insiderSignal": {
@@ -2783,6 +2825,21 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "7c5dde5d5601ab60f3a3",
+          "headline": "Arm 대 대만 반도체 제조: 2026년에는 어느 칩 주식을 구매하는 것이 더 나을까요?",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1790199608,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=6716aa599d281c90ee171b57ba0516a8ed5d5cd5298fc1912bb39d58dd984e6f",
+          "factorChanges": {
+            "growth": -1,
+            "valuationBurden": -1,
+            "businessRisk": -1,
+            "shortTermMomentum": -1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
         {
           "eventId": "e813c5fe155d224c2662",
           "headline": "포장재가 공급업체에 더 가까워짐에 따라 TSMC가 이익을 얻습니다.",
@@ -2853,12 +2910,12 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 5,
+      "unverifiedEvidenceCount": 6,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 1789955539,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -2927,7 +2984,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 1790141547,
       "signal": "우호적 변화",
       "netScore": 2.09,
@@ -2996,7 +3053,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 1790141547,
       "signal": "우호적 변화",
       "netScore": 2.09,
@@ -3065,7 +3122,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3119,20 +3176,20 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1790216033.0817287,
-      "dataAsOf": 1790189853,
+      "updatedAt": 1790218004.7168682,
+      "dataAsOf": 1790207784,
       "signal": "우호적 변화",
-      "netScore": 3.76,
+      "netScore": 5.52,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 0.52,
-          "level": "중립"
+          "score": 1.05,
+          "level": "우호적"
         },
         "growth": {
           "label": "성장성",
-          "score": 4.02,
+          "score": 4.9,
           "level": "우호적"
         },
         "valuationBurden": {
@@ -3157,7 +3214,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 3.5,
+          "score": 3.85,
           "level": "우호적"
         },
         "insiderSignal": {
@@ -3167,6 +3224,33 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "9b66c5277889d778f29e",
+          "headline": "억만장자 팀 드레이퍼(Tim Draper), 애플과 메타의 비트코인 ​​없는 대차대조표 겨냥",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1790207784,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=5a57c263d0897aa2d88d4977470b00b8c419f2a39311162da2a36851e3249e8c",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 서버 메모리 수요와 가격 강세"
+        },
+        {
+          "eventId": "dd98d261ed2268d61541",
+          "headline": "AI 전력을 위해 ON Semiconductor를 소유하시겠습니까, 아니면 Micron의 계약을 소유하시겠습니까?",
+          "eventLabel": "주요 고객 계약",
+          "publishedAt": 1790196069,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=ed026cc79d5fc406d5822cd7a7c8330aad434369d3ac15a602f6bc4f7c0dc684",
+          "factorChanges": {
+            "growth": 2,
+            "longTermCompetitiveness": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "회사 실적과의 연결고리 확인"
+        },
         {
           "eventId": "42a5512169d1a81cb852",
           "headline": "Nvidia는 이 AI IPO 후보를 지지합니다. 불과 6개월 만에 10억 달러 손실",
@@ -3187,19 +3271,6 @@ const EVENT_ANALYSIS_DATA = {
           "publishedAt": 1790189559,
           "verificationStatus": "needs_confirmation",
           "sourceUrl": "https://finnhub.io/api/news?id=fec2d7296db6de14c116510aac29b2161c2a5b74baf451b7b01dd805a13c802b",
-          "factorChanges": {
-            "growth": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "AI 서버 메모리 수요와 가격 강세"
-        },
-        {
-          "eventId": "fca0d71d79a54e238887",
-          "headline": "마이크로소프트, 2030년까지 걸프 클라우드 및 AI 투자에 100억 달러 약속",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1790186458,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=e9aa9da652349079c3e3499ef78679b00378d767ea9ca11dd472e05af41ea188",
           "factorChanges": {
             "growth": 1,
             "shortTermMomentum": 1
@@ -3312,29 +3383,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -1
           },
           "reason": "회사 실적과의 연결고리 확인"
-        },
-        {
-          "eventId": "c7c02cd46a76f74707b7",
-          "headline": "오늘 AAPL, OKTA, AMD 주식이 52주 최고가로 뛰어올랐던 이유는 무엇입니까?",
-          "eventLabel": "공급망 문제",
-          "publishedAt": 1790132737,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=de890e77e1c862a1d3fffaa4584accf286cc2c2d84ad200122b315ef8458ff13",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "메모리 ASP와 이익률 개선 가능성"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 37,
+      "unverifiedEvidenceCount": 36,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 1790191675,
       "signal": "중립·확인 대기",
       "netScore": -0.63,
@@ -3475,7 +3532,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 1790164503,
       "signal": "주의 강화",
       "netScore": -7.56,
@@ -3586,7 +3643,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 1790167334,
       "signal": "중립·확인 대기",
       "netScore": -0.56,
@@ -3668,7 +3725,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3722,21 +3779,21 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1790216033.0817287,
-      "dataAsOf": 0,
-      "signal": "중립·확인 대기",
-      "netScore": 0.0,
-      "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
+      "updatedAt": 1790218004.7168682,
+      "dataAsOf": 1790188350,
+      "signal": "우호적 변화",
+      "netScore": 2.09,
+      "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 0.0,
+          "score": 0.52,
           "level": "중립"
         },
         "growth": {
           "label": "성장성",
-          "score": 0.0,
-          "level": "중립"
+          "score": 1.05,
+          "level": "우호적"
         },
         "valuationBurden": {
           "label": "밸류에이션 부담",
@@ -3760,7 +3817,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 0.0,
+          "score": 0.52,
           "level": "중립"
         },
         "insiderSignal": {
@@ -3769,14 +3826,29 @@ const EVENT_ANALYSIS_DATA = {
           "level": "중립"
         }
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "eventId": "08a309671fea52fc96b8",
+          "headline": "Lumentum 주가는 Corning 및 Qualcomm과의 AI 광학 기술 파트너십 이후 상승했습니다. 이것이 LITE 주식에 의미하는 바.",
+          "eventLabel": "주요 고객 계약",
+          "publishedAt": 1790188350,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=5982de957991babfb88338199c57bf82ece2d0304b103cdcc4ea0fbe530dda8b",
+          "factorChanges": {
+            "growth": 2,
+            "longTermCompetitiveness": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        }
+      ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 0,
+      "unverifiedEvidenceCount": 1,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 1790165100,
       "signal": "우호적 변화",
       "netScore": 4.34,
@@ -3899,7 +3971,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 1789986464,
       "signal": "우호적 변화",
       "netScore": 3.49,
@@ -3982,7 +4054,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 1790090086,
       "signal": "우호적 변화",
       "netScore": 10,
@@ -3990,7 +4062,7 @@ const EVENT_ANALYSIS_DATA = {
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 2.8,
+          "score": 2.62,
           "level": "우호적"
         },
         "growth": {
@@ -4020,7 +4092,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 2.8,
+          "score": 2.62,
           "level": "우호적"
         },
         "insiderSignal": {
@@ -4084,7 +4156,7 @@ const EVENT_ANALYSIS_DATA = {
             "longTermCompetitiveness": 1,
             "shortTermMomentum": 1
           },
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
+          "reason": "회사 실적과의 연결고리 확인"
         },
         {
           "eventId": "d0ca4006dc014110df85",
@@ -4135,7 +4207,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 1790078700,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -4204,7 +4276,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4258,7 +4330,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4312,7 +4384,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 1790078700,
       "signal": "주의 강화",
       "netScore": -3.14,
@@ -4396,7 +4468,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4450,7 +4522,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 1790093088,
       "signal": "중립·확인 대기",
       "netScore": -0.35,
@@ -4517,7 +4589,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4571,10 +4643,10 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1790216033.0817287,
-      "dataAsOf": 0,
+      "updatedAt": 1790218004.7168682,
+      "dataAsOf": 1790208941,
       "signal": "중립·확인 대기",
-      "netScore": 0.0,
+      "netScore": -1.26,
       "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -4584,12 +4656,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": 0.0,
+          "score": -0.35,
           "level": "중립"
         },
         "valuationBurden": {
           "label": "밸류에이션 부담",
-          "score": 0.0,
+          "score": -0.35,
           "level": "중립"
         },
         "customerConcentration": {
@@ -4604,12 +4676,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": 0.0,
+          "score": -0.35,
           "level": "중립"
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 0.0,
+          "score": -0.35,
           "level": "중립"
         },
         "insiderSignal": {
@@ -4618,14 +4690,30 @@ const EVENT_ANALYSIS_DATA = {
           "level": "중립"
         }
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "eventId": "065d6d015059ec0e9946",
+          "headline": "메타, 가장 큰 문제 해결 위해 신제품 출시",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1790208941,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=529272832cceb7eb6824996e990dfd1034880f1d9199f92b673205d13f50aa30",
+          "factorChanges": {
+            "growth": -1,
+            "valuationBurden": -1,
+            "businessRisk": -1,
+            "shortTermMomentum": -1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        }
+      ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 0,
+      "unverifiedEvidenceCount": 1,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1790216033.0817287,
+      "updatedAt": 1790218004.7168682,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,

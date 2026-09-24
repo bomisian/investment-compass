@@ -3939,6 +3939,11 @@ function renderFourLineEvidenceCard(r){
           ${(sc2.targetPricePossibleMissingSessionDates && sc2.targetPricePossibleMissingSessionDates.length) ? `<div style="color:var(--warn);margin-top:4px;">참고(${esc(r.ticker)}, 대상): ${esc(sc2.targetPricePossibleMissingSessionDates.join(', '))}에는 원본 가격 캐시에 일봉이 없습니다(휴장일인지 자료 결측인지 미확인).</div>` : ''}
           ${(sc2.peerPricePossibleMissingSessionDates && sc2.peerPricePossibleMissingSessionDates.length) ? `<div style="color:var(--warn);margin-top:4px;">참고(${esc(sc2.peerTicker)}, 비교기업): ${esc(sc2.peerPricePossibleMissingSessionDates.join(', '))}에는 원본 가격 캐시에 일봉이 없습니다(휴장일인지 자료 결측인지 미확인).</div>` : ''}
           ${(sc2.lastCheckStatus === 'FAILED') ? `<div style="color:var(--warn);margin-top:4px;">참고: 가장 최근 자동 갱신 시도가 실패했습니다${sc2.lastCheckNote ? `(사유: ${esc(sc2.lastCheckNote)})` : ''} -- 위 값은 마지막으로 성공했을 때의 과거 참고값입니다.</div>` : ''}
+          ${(sc2.priceAsOfDatesMatch === false && sc2.priceAsOfDatesNote) ? `<div style="color:var(--warn);margin-top:4px;">${esc(sc2.priceAsOfDatesNote)}</div>` : ''}
+          ${(sc2.priceDateAlignmentIsPastReference && sc2.priceDateAlignmentNote) ? `<div style="color:var(--warn);margin-top:4px;">${esc(sc2.priceDateAlignmentNote)}</div>` : ''}
+          ${(sc2.targetHasMissingSessionsAsOfNow && sc2.targetMissingSessionsAsOfNow && sc2.targetMissingSessionsAsOfNow.length) ? `<div style="color:var(--warn);margin-top:4px;">참고(${esc(r.ticker)}, 대상): 실제 실행시각 기준으로 이미 마감됐어야 할 거래일 중 ${esc(sc2.targetMissingSessionsAsOfNow.join(', '))}이(가) 아직 가격 자료에 반영되지 않았습니다.</div>` : ''}
+          ${(sc2.peerHasMissingSessionsAsOfNow && sc2.peerMissingSessionsAsOfNow && sc2.peerMissingSessionsAsOfNow.length) ? `<div style="color:var(--warn);margin-top:4px;">참고(${esc(sc2.peerTicker)}, 비교기업): 실제 실행시각 기준으로 이미 마감됐어야 할 거래일 중 ${esc(sc2.peerMissingSessionsAsOfNow.join(', '))}이(가) 아직 가격 자료에 반영되지 않았습니다.</div>` : ''}
+          ${(sc2.peerLastCollectionNote) ? `<div style="color:var(--warn);margin-top:4px;">${esc(sc2.peerLastCollectionNote)}</div>` : ''}
           <div style="margin-top:4px;">${esc(sc2.disclaimer||'')}</div>
         </div>
       </details>`;
