@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790219832.1169012,
+  "generatedAt": 1790221424.350865,
   "records": {
     "MSFT": [
       {
@@ -15737,6 +15737,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1790221424.350865,
+        "dataAsOf": 1790207784,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 3.32,
+            "after": 4.2
+          }
+        ],
+        "cause": "AI 컴퓨팅 수요 확대 가능성",
+        "newsHeadline": "억만장자 팀 드레이퍼(Tim Draper), 애플과 메타의 비트코인 ​​없는 대차대조표 겨냥",
+        "newsUrl": "https://finnhub.io/api/news?id=5a57c263d0897aa2d88d4977470b00b8c419f2a39311162da2a36851e3249e8c",
+        "eventId": "9b66c5277889d778f29e",
+        "fingerprint": "{\"changes\": [{\"after\": 4.2, \"before\": 3.32, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"9b66c5277889d778f29e\"}"
+      },
+      {
         "changedAt": 1790218004.7168682,
         "dataAsOf": 1790207784,
         "changes": [
@@ -17044,26 +17061,32 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=470b39475e22d8491a0f318030910782763d88d703ed9d5b22219464f9c590dd",
         "eventId": "7f25b63d67ebe8703a02",
         "fingerprint": "{\"changes\": [{\"after\": 3.5, \"before\": 3.85, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"7f25b63d67ebe8703a02\"}"
-      },
-      {
-        "changedAt": 1788918371.9258187,
-        "dataAsOf": 1788902924,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 4.55,
-            "after": 3.85
-          }
-        ],
-        "cause": "AI 컴퓨팅 수요 확대 가능성",
-        "newsHeadline": "AMD는 AI 야망에 700억 달러를 투자했습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=470b39475e22d8491a0f318030910782763d88d703ed9d5b22219464f9c590dd",
-        "eventId": "7f25b63d67ebe8703a02",
-        "fingerprint": "{\"changes\": [{\"after\": 3.85, \"before\": 4.55, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"7f25b63d67ebe8703a02\"}"
       }
     ],
     "AMD": [
+      {
+        "changedAt": 1790221424.350865,
+        "dataAsOf": 1790207784,
+        "changes": [
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -4.9,
+            "after": -4.2
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 2.8,
+            "after": 3.15
+          }
+        ],
+        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
+        "newsHeadline": "억만장자 팀 드레이퍼(Tim Draper), 애플과 메타의 비트코인 ​​없는 대차대조표 겨냥",
+        "newsUrl": "https://finnhub.io/api/news?id=5a57c263d0897aa2d88d4977470b00b8c419f2a39311162da2a36851e3249e8c",
+        "eventId": "9b66c5277889d778f29e",
+        "fingerprint": "{\"changes\": [{\"after\": -4.2, \"before\": -4.9, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 3.15, \"before\": 2.8, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"9b66c5277889d778f29e\"}"
+      },
       {
         "changedAt": 1790219511.6279755,
         "dataAsOf": 1790207784,
@@ -18432,29 +18455,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=e354cb6b2a7f1bfb803503068deaad9ddf4b46f37e11d5767bea6d223bee6d37",
         "eventId": "7652b6bc6572aebcf538",
         "fingerprint": "{\"changes\": [{\"after\": -1.4, \"before\": -0.35, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -0.87, \"before\": -0.35, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"7652b6bc6572aebcf538\"}"
-      },
-      {
-        "changedAt": 1788646151.382251,
-        "dataAsOf": 1788635100,
-        "changes": [
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": 0.0,
-            "after": -0.35
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": 0.0,
-            "after": -0.35
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "Broadcom 대 Nvidia: 수익 창출 후 어느 인공 지능(AI) 칩 제조업체가 더 나은 구매인지 보여주는 1가지 중요한 지표",
-        "newsUrl": "https://finnhub.io/api/news?id=df0f33cba1195e3098ad03ae5ff7a516af30f6bd19e205403a453411b81836f0",
-        "eventId": "23bb64bc332b943998df",
-        "fingerprint": "{\"changes\": [{\"after\": -0.35, \"before\": 0.0, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -0.35, \"before\": 0.0, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"23bb64bc332b943998df\"}"
       }
     ],
     "AVGO": [
@@ -24874,6 +24874,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "INTC": [
       {
+        "changedAt": 1790221424.350865,
+        "dataAsOf": 1790103933,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -1.22,
+            "after": -0.87
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -4.02,
+            "after": -3.67
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "인텔은 5일 만에 25% 상승했습니다. 145달러 목표 가격도 방금 움직였습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=457883f0f473ada0a708561ff0eb577f3c075986ad8a6c2dfaedb9f4bee30251",
+        "eventId": "01aefc240304509f2417",
+        "fingerprint": "{\"changes\": [{\"after\": -0.87, \"before\": -1.22, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.67, \"before\": -4.02, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"01aefc240304509f2417\"}"
+      },
+      {
         "changedAt": 1790196011.6391113,
         "dataAsOf": 1790103933,
         "changes": [
@@ -26685,35 +26708,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=df9407e0a8dffe9ecf7bc29c65174d27dbdc17d6666131b99fb96e092bed7c3d",
         "eventId": "2e31e49d8a1e4a76e3c5",
         "fingerprint": "{\"changes\": [{\"after\": -1.05, \"before\": -1.4, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -0.7, \"before\": -0.87, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"2e31e49d8a1e4a76e3c5\"}"
-      },
-      {
-        "changedAt": 1788872569.6770327,
-        "dataAsOf": 1788856295,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 1.4,
-            "after": 1.05
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 1.75,
-            "after": 1.05
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -0.35,
-            "after": -1.4
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "다우, S&P 500, 나스닥 선물은 이란 분쟁으로 석유가 100달러를 향해 되돌아가면서 하락: TSLA, NVDA, ORCL, INTC, BIDU, BABA, BE In Focus",
-        "newsUrl": "https://finnhub.io/api/news?id=d5a94a395e24ff1e3dacea1d66ee21aef24b3c94faaaa133f9831ebf2832e600",
-        "eventId": "8262825b785fe4ee46f5",
-        "fingerprint": "{\"changes\": [{\"after\": 1.05, \"before\": 1.4, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.05, \"before\": 1.75, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.4, \"before\": -0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"8262825b785fe4ee46f5\"}"
       }
     ],
     "TSM": [
