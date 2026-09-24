@@ -999,33 +999,33 @@ const INDEPENDENT_VALUATION_DATA = {
       "kind": "independent_value_dcf_scenario_engine",
       "asOf": "2026-09-24",
       "valuationAnchorDate": "2026-07-26",
-      "runId": "AMAT_REAL_20260924T043257131932",
-      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260924T043257108796",
+      "runId": "AMAT_REAL_20260924T101313100372",
+      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260924T101313075143",
       "engineVersion": "amat_calc_engine v4 (2026-09-18, 모델 채택 검토) -- D&A/CapEx 비율 곡선을 FY2025 실측 대조로 조정(min(0.60,0.20+0.10*(i+1)) -> min(0.45,0.19+0.065*i)), 계산 결과가 달라짐(v3 대비). 과거 실행은 각자 저장된 code_snapshots로 그 시점 값 그대로 재현 가능.",
       "isReplayFixture": false,
-      "px": 191.18875891941352,
+      "px": 191.13545249506214,
       "priceState": "PRICE_STRETCHED",
       "scenarios": {
         "conservative": {
-          "px": 178.63961039194137,
+          "px": 178.5902842333341,
           "growthY1": 0.3134993682913383,
           "roic": 0.18,
           "ntmValue": 40504380020.0,
-          "runId": "AMAT_REAL_20260924T043257115676"
+          "runId": "AMAT_REAL_20260924T101313082458"
         },
         "base": {
-          "px": 191.18875891941352,
+          "px": 191.13545249506214,
           "growthY1": 0.38220422220060324,
           "roic": 0.22,
           "ntmValue": 42623031600.0,
-          "runId": "AMAT_REAL_20260924T043257131932"
+          "runId": "AMAT_REAL_20260924T101313100372"
         },
         "optimistic": {
-          "px": 202.91184230912685,
+          "px": 202.85487015646135,
           "growthY1": 0.45090907610986797,
           "roic": 0.26,
           "ntmValue": 44741683180.0,
-          "runId": "AMAT_REAL_20260924T043257172711"
+          "runId": "AMAT_REAL_20260924T101313158322"
         }
       },
       "priorDeliveredPx": 129.13,
@@ -1194,24 +1194,24 @@ const INDEPENDENT_VALUATION_DATA = {
           "commercial_paper": null
         }
       },
-      "changeReasonVsPrevious": "직전 실행과 입력값 동일(변경 없음)",
+      "changeReasonVsPrevious": "시장가 변동($464.24→$474.38)",
       "summaryCard": {
-        "fairValueRangeLow": 178.63961039194137,
-        "fairValueRangeHigh": 202.91184230912685,
-        "fairValueBase": 191.18875891941352,
-        "currentPrice": 464.239990234375,
-        "currentPriceAsOf": "2026-09-21",
+        "fairValueRangeLow": 178.5902842333341,
+        "fairValueRangeHigh": 202.85487015646135,
+        "fairValueBase": 191.13545249506214,
+        "currentPrice": 474.3800048828125,
+        "currentPriceAsOf": "2026-09-23",
         "currentPriceNote": "이 실행이 계산 당시 비교한 가격(위 asOf 시점) -- 화면을 여는 시점의 실시간 가격과 다를 수 있음",
-        "diffVsCurrentPricePct": 142.81761796992112,
+        "diffVsCurrentPricePct": 148.19048412542296,
         "diffVsCurrentPriceLabel": "높음",
-        "inputChangeSummary": "직전 실행과 입력값 동일(변경 없음)",
+        "inputChangeSummary": "시장가 변동($464.24→$474.38)",
         "dataStatusLevel": "최신_반영_완료",
         "dataStatusLabel": "최신 자료 반영 완료",
         "dataStatusDetail": "순부채: SEC 자동수집 성공(기준일 2026-07-26)",
         "asOf": "2026-09-24",
         "estimateStatusLabel": "조건부 DCF 추정값 (conditional DCF estimate) -- 검증된 대표 적정가로 확정된 것이 아님",
         "estimateStatusNote": "이 값은 현재 이 파일에 기록된 성장·마진·자본비용 가정 아래에서 계산된 결과다. 입력별 신뢰 등급(직접관측/외부컨센서스/파생추정/순수판단)이 서로 다르며, 등급이 낮은 입력(4~5년차 성장률, D&A 곡선, 영구성장률)이 결과에 가장 크게 기여한다. '장기 내재가치 점검'에는 참고할 수 있으나, 매수/매도 타이밍 판단 근거로 단독 사용하지 않는다 -- AMAT_모델_채택_최종검토_2026-09-18.md, AMAT_모델채택_구현완료보고_2026-09-18.md 참고.",
-        "computedJudgmentAtRunTime": "현재가가 조건부 DCF 추정범위를 상회(+142.8%)",
+        "computedJudgmentAtRunTime": "현재가가 조건부 DCF 추정범위를 상회(+148.2%)",
         "judgmentReasonSummary": "장기 내재가치 점검용 참고값(입력별 신뢰등급이 다르며, 등급이 낮은 입력이 결과를 가장 크게 좌우함). 매수·매도 타이밍 신호가 아님 -- 과거 시점 검증 기록이 아직 충분히 쌓이지 않았음.",
         "conditionsForChange": [
           "2~5년차 실제 실적이 재평가 성장경로(18/10/6/4%)를 상회/하회하는지",
@@ -1254,9 +1254,9 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "roicSensitivity": {
-        "18%": 187.49392854882382,
-        "22%": 191.18875891941352,
-        "26%": 193.74671840674483
+        "18%": 187.44202898985822,
+        "22%": 191.13545249506214,
+        "26%": 193.69243799866493
       },
       "growthPathTable": [
         {
@@ -1306,23 +1306,23 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "growthPathSensitivity": {
-        "y2=7%": 175.19985562083315,
-        "y2=10%(기준)": 179.56046561135508,
-        "y2=13%": 183.92107560187694
+        "y2=7%": 175.15147072102778,
+        "y2=10%(기준)": 179.51073847758258,
+        "y2=13%": 183.8700062341374
       },
       "valuationTiming": {
         "valuation_anchor_date": "2026-07-26",
-        "price_comparison_date": "2026-09-21",
-        "gap_days": 57,
-        "approx_roll_forward_multiplier": 1.017113143574915,
-        "approx_effect_pct": 1.7113143574915002,
+        "price_comparison_date": "2026-09-23",
+        "gap_days": 59,
+        "approx_roll_forward_multiplier": 1.017722491373625,
+        "approx_effect_pct": 1.7722491373624916,
         "applied_to_px": false,
-        "note": "현재 FCFF 계산은 TTM 마지막 분기 종료일(2026-07-26)을 '지금'으로 두고 1년차부터 할인한다. 화면에서 비교하는 현재가 조회 시점(2026-09-21)은 그보다 57일 뒤라서, 같은 시점 기준으로 정확히 맞추려면 적정가를 약 1.71% 만큼 앞으로 굴려야 한다는 근사치다(연 단위 복리 근사, 실제 분기별 현금흐름 발생 시점은 고려하지 않음). 이 회차에는 px에 적용하지 않고 진단값으로만 남긴다 -- 크기가 시나리오 간 가격 차이보다 작고, 정확히 보정하려면 반기/분기 단위 부분기간 할인으로 엔진을 바꿔야 해서 이번 범위(기존 화면·엔진 구조 유지) 밖이다."
+        "note": "현재 FCFF 계산은 TTM 마지막 분기 종료일(2026-07-26)을 '지금'으로 두고 1년차부터 할인한다. 화면에서 비교하는 현재가 조회 시점(2026-09-23)은 그보다 59일 뒤라서, 같은 시점 기준으로 정확히 맞추려면 적정가를 약 1.77% 만큼 앞으로 굴려야 한다는 근사치다(연 단위 복리 근사, 실제 분기별 현금흐름 발생 시점은 고려하지 않음). 이 회차에는 px에 적용하지 않고 진단값으로만 남긴다 -- 크기가 시나리오 간 가격 차이보다 작고, 정확히 보정하려면 반기/분기 단위 부분기간 할인으로 엔진을 바꿔야 해서 이번 범위(기존 화면·엔진 구조 유지) 밖이다."
       },
       "dataFreshness": {
         "checked_as_of_execution": "2026-09-24",
-        "price_as_of": "2026-09-21",
-        "price_gap_days": 3,
+        "price_as_of": "2026-09-23",
+        "price_gap_days": 1,
         "price_stale": false,
         "price_stale_threshold_days": 7,
         "next_expected_earnings_date": "2026-11-19",
@@ -1356,22 +1356,22 @@ const INDEPENDENT_VALUATION_DATA = {
         "scenarios": {
           "conservative": {
             "blocked": false,
-            "p3PerShare": 237.31436716946962,
-            "purchasePriceUsed": 464.239990234375,
+            "p3PerShare": 237.26106930296172,
+            "purchasePriceUsed": 474.3800048828125,
             "scenarioAnnualizedReturn": {
               "status": "SUCCESS",
-              "rate": -0.20427468343648347,
+              "rate": -0.2107588926192648,
               "label": "시나리오 연환산 수익률 (보장 수익률 아님, 이 시나리오의 가정이 그대로 실현된다는 조건부 수치)"
             },
             "cashflowsByYear": {
               "1": 2.12,
               "2": 2.12,
-              "2.8465753424657536": 239.109106895497
+              "2.841095890410959": 239.04419259063295
             },
             "illustrativeRequiredReturnExamples": {
-              "0.08": 195.84757704783084,
-              "0.10": 185.9718050074564,
-              "0.12": 176.76114256044167
+              "0.08": 195.8764245056504,
+              "0.10": 186.01751632043462,
+              "0.12": 176.82167169101356
             },
             "illustrativeExamplesNote": "시스템 기본값이 아니라 참고용 예시일 뿐이다 -- 실제 판정은 사용자가 직접 입력한 요구수익률 기준으로만 내려간다.",
             "judgment": {
@@ -1383,30 +1383,30 @@ const INDEPENDENT_VALUATION_DATA = {
             "stalenessBlockReason": null,
             "p3ValuationDate": "2029-07-26",
             "valuationAnchorDate": "2026-07-26",
-            "priceComparisonDate": "2026-09-21",
-            "holdingPeriodActualDays": 1039,
-            "holdingPeriodActualYears": 2.8465753424657536,
+            "priceComparisonDate": "2026-09-23",
+            "holdingPeriodActualDays": 1037,
+            "holdingPeriodActualYears": 2.841095890410959,
             "netDebtYear0": -2789000000.0,
             "netDebtYear3": -31628393335.900764
           },
           "base": {
             "blocked": false,
-            "p3PerShare": 254.6205706093421,
-            "purchasePriceUsed": 464.239990234375,
+            "p3PerShare": 254.56287156273729,
+            "purchasePriceUsed": 474.3800048828125,
             "scenarioAnnualizedReturn": {
               "status": "SUCCESS",
-              "rate": -0.18463895381305528,
+              "rate": -0.19124402173531513,
               "label": "시나리오 연환산 수익률 (보장 수익률 아님, 이 시나리오의 가정이 그대로 실현된다는 조건부 수치)"
             },
             "cashflowsByYear": {
               "1": 2.12,
               "2": 2.12,
-              "2.8465753424657536": 256.4153103353695
+              "2.841095890410959": 256.34599485040854
             },
             "illustrativeRequiredReturnExamples": {
-              "0.08": 209.74897789652215,
-              "0.10": 199.16574205970508,
-              "0.12": 189.2954110989684
+              "0.08": 209.7801520834473,
+              "0.10": 199.2149885406675,
+              "0.12": 189.36053656700796
             },
             "illustrativeExamplesNote": "시스템 기본값이 아니라 참고용 예시일 뿐이다 -- 실제 판정은 사용자가 직접 입력한 요구수익률 기준으로만 내려간다.",
             "judgment": {
@@ -1418,30 +1418,30 @@ const INDEPENDENT_VALUATION_DATA = {
             "stalenessBlockReason": null,
             "p3ValuationDate": "2029-07-26",
             "valuationAnchorDate": "2026-07-26",
-            "priceComparisonDate": "2026-09-21",
-            "holdingPeriodActualDays": 1039,
-            "holdingPeriodActualYears": 2.8465753424657536,
+            "priceComparisonDate": "2026-09-23",
+            "holdingPeriodActualDays": 1037,
+            "holdingPeriodActualYears": 2.841095890410959,
             "netDebtYear0": -2789000000.0,
             "netDebtYear3": -33103686423.388443
           },
           "optimistic": {
             "blocked": false,
-            "p3PerShare": 270.78236368592366,
-            "purchasePriceUsed": 464.239990234375,
+            "p3PerShare": 270.7206241595405,
+            "purchasePriceUsed": 474.3800048828125,
             "scenarioAnnualizedReturn": {
               "status": "SUCCESS",
-              "rate": -0.16706179238715327,
+              "rate": -0.17377421500125365,
               "label": "시나리오 연환산 수익률 (보장 수익률 아님, 이 시나리오의 가정이 그대로 실현된다는 조건부 수치)"
             },
             "cashflowsByYear": {
               "1": 2.12,
               "2": 2.12,
-              "2.8465753424657536": 272.57710341195104
+              "2.841095890410959": 272.5037474472117
             },
             "illustrativeRequiredReturnExamples": {
-              "0.08": 222.73111836261268,
-              "0.10": 211.4872013124374,
-              "0.12": 201.00082385398386
+              "0.08": 222.76452139956646,
+              "0.10": 211.53980232804173,
+              "0.12": 201.0702922022391
             },
             "illustrativeExamplesNote": "시스템 기본값이 아니라 참고용 예시일 뿐이다 -- 실제 판정은 사용자가 직접 입력한 요구수익률 기준으로만 내려간다.",
             "judgment": {
@@ -1453,14 +1453,14 @@ const INDEPENDENT_VALUATION_DATA = {
             "stalenessBlockReason": null,
             "p3ValuationDate": "2029-07-26",
             "valuationAnchorDate": "2026-07-26",
-            "priceComparisonDate": "2026-09-21",
-            "holdingPeriodActualDays": 1039,
-            "holdingPeriodActualYears": 2.8465753424657536,
+            "priceComparisonDate": "2026-09-23",
+            "holdingPeriodActualDays": 1037,
+            "holdingPeriodActualYears": 2.841095890410959,
             "netDebtYear0": -2789000000.0,
             "netDebtYear3": -34578979510.87612
           }
         },
-        "cashflowApproximationNote": "실제 AMAT 분기배당(연 4회 지급)을 이 계산에서는 매입일 이후부터 맞이하는 각 정수 연차에 연 1회 합산 지급으로 근사한다 -- 정확한 분기별 지급일을 쓰려면 엔진을 부분기간 할인 구조로 바꿔야 하며 이번 범위 밖이다. 보유기간이 정수가 아니므로(약 2.8466년), 매도 시점의 부분연도에는 연배당의 84.7%만 비례 배분했다(그 이후 -- 매도 이후 -- 배당은 포함하지 않음). 매도 이후 시점의 배당은 어떤 경우에도 포함하지 않는다.",
+        "cashflowApproximationNote": "실제 AMAT 분기배당(연 4회 지급)을 이 계산에서는 매입일 이후부터 맞이하는 각 정수 연차에 연 1회 합산 지급으로 근사한다 -- 정확한 분기별 지급일을 쓰려면 엔진을 부분기간 할인 구조로 바꿔야 하며 이번 범위 밖이다. 보유기간이 정수가 아니므로(약 2.8411년), 매도 시점의 부분연도에는 연배당의 84.1%만 비례 배분했다(그 이후 -- 매도 이후 -- 배당은 포함하지 않음). 매도 이후 시점의 배당은 어떤 경우에도 포함하지 않는다.",
         "dividendSource": {
           "confirmed_as_of": "2026-09-16",
           "quarterly_dividend_per_share": 0.53,
@@ -1500,8 +1500,8 @@ const INDEPENDENT_VALUATION_DATA = {
         },
         "dataFreshnessAsOfThisCard": {
           "checked_as_of_execution": "2026-09-24",
-          "price_as_of": "2026-09-21",
-          "price_gap_days": 3,
+          "price_as_of": "2026-09-23",
+          "price_gap_days": 1,
           "price_stale": false,
           "price_stale_threshold_days": 7,
           "next_expected_earnings_date": "2026-11-19",
@@ -1537,20 +1537,20 @@ const INDEPENDENT_VALUATION_DATA = {
         "scenarios": {
           "conservative": {
             "blocked": false,
-            "p3PerShare": 196.73005388937037,
-            "purchasePriceUsed": 464.239990234375,
+            "p3PerShare": 196.67933414322664,
+            "purchasePriceUsed": 474.3800048828125,
             "scenarioAnnualizedReturn": {
               "status": "SUCCESS",
-              "rate": -0.6345890574542408,
+              "rate": -0.6463545340777272,
               "label": "시나리오 연환산 수익률 (보장 수익률 아님, 이 시나리오의 가정이 그대로 실현된다는 조건부 수치)"
             },
             "cashflowsByYear": {
-              "0.8438356164383561": 198.51898539621968
+              "0.8383561643835616": 198.4566492117198
             },
             "illustrativeRequiredReturnExamples": {
-              "0.08": 186.03638489139487,
-              "0.10": 183.17804723177775,
-              "0.12": 180.4139546984095
+              "0.08": 186.0564125747918,
+              "0.10": 183.21618742224345,
+              "0.12": 180.46933650217161
             },
             "illustrativeExamplesNote": "시스템 기본값이 아니라 참고용 예시일 뿐이다 -- 실제 판정은 사용자가 직접 입력한 요구수익률 기준으로만 내려간다.",
             "judgment": {
@@ -1562,28 +1562,28 @@ const INDEPENDENT_VALUATION_DATA = {
             "stalenessBlockReason": null,
             "p3ValuationDate": "2027-07-26",
             "valuationAnchorDate": "2026-07-26",
-            "priceComparisonDate": "2026-09-21",
-            "holdingPeriodActualDays": 308,
-            "holdingPeriodActualYears": 0.8438356164383561,
+            "priceComparisonDate": "2026-09-23",
+            "holdingPeriodActualDays": 306,
+            "holdingPeriodActualYears": 0.8383561643835616,
             "netDebtYear0": -2789000000.0,
             "netDebtYear3": -8937842304.149162
           },
           "base": {
             "blocked": false,
-            "p3PerShare": 210.71959349375012,
-            "purchasePriceUsed": 464.239990234375,
+            "p3PerShare": 210.6647424579847,
+            "purchasePriceUsed": 474.3800048828125,
             "scenarioAnnualizedReturn": {
               "status": "SUCCESS",
-              "rate": -0.6038779423728784,
+              "rate": -0.6164294296504975,
               "label": "시나리오 연환산 수익률 (보장 수익률 아님, 이 시나리오의 가정이 그대로 실현된다는 조건부 수치)"
             },
             "cashflowsByYear": {
-              "0.8438356164383561": 212.50852500059943
+              "0.8383561643835616": 212.44205752647784
             },
             "illustrativeRequiredReturnExamples": {
-              "0.08": 199.1462815045546,
-              "0.10": 196.08651813337596,
-              "0.12": 193.12764129820127
+              "0.08": 199.167965701246,
+              "0.10": 196.12758747435112,
+              "0.12": 193.18716364125487
             },
             "illustrativeExamplesNote": "시스템 기본값이 아니라 참고용 예시일 뿐이다 -- 실제 판정은 사용자가 직접 입력한 요구수익률 기준으로만 내려간다.",
             "judgment": {
@@ -1595,28 +1595,28 @@ const INDEPENDENT_VALUATION_DATA = {
             "stalenessBlockReason": null,
             "p3ValuationDate": "2027-07-26",
             "valuationAnchorDate": "2026-07-26",
-            "priceComparisonDate": "2026-09-21",
-            "holdingPeriodActualDays": 308,
-            "holdingPeriodActualYears": 0.8438356164383561,
+            "priceComparisonDate": "2026-09-23",
+            "holdingPeriodActualDays": 306,
+            "holdingPeriodActualYears": 0.8383561643835616,
             "netDebtYear0": -2789000000.0,
             "netDebtYear3": -9072287696.1128
           },
           "optimistic": {
             "blocked": false,
-            "p3PerShare": 223.78825221643703,
-            "purchasePriceUsed": 464.239990234375,
+            "p3PerShare": 223.72960040061375,
+            "purchasePriceUsed": 474.3800048828125,
             "scenarioAnnualizedReturn": {
               "status": "SUCCESS",
-              "rate": -0.5748477290586831,
+              "rate": -0.5881280947353619,
               "label": "시나리오 연환산 수익률 (보장 수익률 아님, 이 시나리오의 가정이 그대로 실현된다는 조건부 수치)"
             },
             "cashflowsByYear": {
-              "0.8438356164383561": 225.57718372328634
+              "0.8383561643835616": 225.5069154691069
             },
             "illustrativeRequiredReturnExamples": {
-              "0.08": 211.39320095810507,
-              "0.10": 208.14527100269177,
-              "0.12": 205.0044318130127
+              "0.08": 211.41648752835587,
+              "0.10": 208.1891307432191,
+              "0.12": 205.06787539249487
             },
             "illustrativeExamplesNote": "시스템 기본값이 아니라 참고용 예시일 뿐이다 -- 실제 판정은 사용자가 직접 입력한 요구수익률 기준으로만 내려간다.",
             "judgment": {
@@ -1628,14 +1628,14 @@ const INDEPENDENT_VALUATION_DATA = {
             "stalenessBlockReason": null,
             "p3ValuationDate": "2027-07-26",
             "valuationAnchorDate": "2026-07-26",
-            "priceComparisonDate": "2026-09-21",
-            "holdingPeriodActualDays": 308,
-            "holdingPeriodActualYears": 0.8438356164383561,
+            "priceComparisonDate": "2026-09-23",
+            "holdingPeriodActualDays": 306,
+            "holdingPeriodActualYears": 0.8383561643835616,
             "netDebtYear0": -2789000000.0,
             "netDebtYear3": -9206733088.07644
           }
         },
-        "cashflowApproximationNote": "실제 AMAT 분기배당(연 4회 지급)을 이 계산에서는 매입일 이후부터 맞이하는 각 정수 연차에 연 1회 합산 지급으로 근사한다 -- 정확한 분기별 지급일을 쓰려면 엔진을 부분기간 할인 구조로 바꿔야 하며 이번 범위 밖이다. 보유기간이 정수가 아니므로(약 0.8438년), 매도 시점의 부분연도에는 연배당의 84.4%만 비례 배분했다(그 이후 -- 매도 이후 -- 배당은 포함하지 않음). 매도 이후 시점의 배당은 어떤 경우에도 포함하지 않는다.",
+        "cashflowApproximationNote": "실제 AMAT 분기배당(연 4회 지급)을 이 계산에서는 매입일 이후부터 맞이하는 각 정수 연차에 연 1회 합산 지급으로 근사한다 -- 정확한 분기별 지급일을 쓰려면 엔진을 부분기간 할인 구조로 바꿔야 하며 이번 범위 밖이다. 보유기간이 정수가 아니므로(약 0.8384년), 매도 시점의 부분연도에는 연배당의 83.8%만 비례 배분했다(그 이후 -- 매도 이후 -- 배당은 포함하지 않음). 매도 이후 시점의 배당은 어떤 경우에도 포함하지 않는다.",
         "dividendSource": {
           "confirmed_as_of": "2026-09-16",
           "quarterly_dividend_per_share": 0.53,
@@ -1675,8 +1675,8 @@ const INDEPENDENT_VALUATION_DATA = {
         },
         "dataFreshnessAsOfThisCard": {
           "checked_as_of_execution": "2026-09-24",
-          "price_as_of": "2026-09-21",
-          "price_gap_days": 3,
+          "price_as_of": "2026-09-23",
+          "price_gap_days": 1,
           "price_stale": false,
           "price_stale_threshold_days": 7,
           "next_expected_earnings_date": "2026-11-19",
@@ -1707,8 +1707,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "updateStatus": {
         "attemptStatus": "SUCCESS",
         "failureType": null,
-        "attemptedAt": "2026-09-24T04:32:57.140301",
-        "dataAsOf": "2026-09-21",
+        "attemptedAt": "2026-09-24T10:13:13.116037",
+        "dataAsOf": "2026-09-23",
         "holdPrice": false,
         "reason": ""
       },
