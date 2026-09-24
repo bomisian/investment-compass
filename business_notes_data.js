@@ -5742,6 +5742,25 @@ const BUSINESS_NOTES = {
     ],
     newsLog: [
       {
+        date: "2026-09-21",
+        headline: "비스트라, 텍사스 AI 데이터센터에 20년 장기 전력공급 계약 체결 — 200~207 MW 공급",
+        tone: "positive",
+        importance: "high",
+        horizon: "5~10년 (장기 수익 안정성 향상)",
+        facts: ["2026년 9월 21일 발표: 비스트라(VST)가 New Era Energy의 Texas Critical Data Center(TCDC)에 200~207 MW 규모의 전력을 20년간 공급하는 장기계약(PPA, Power Purchase Agreement) 체결", "전력 공급원은 비스트라 자회사 Luminant ET Services의 오디서, 텍사스 소재 천연가스 발전소(1,180 MW 용량)", "데이터센터와 발전소가 같은 부지(adjacent)에 있어 송배전 손실 최소화 및 안정적 공급 보장", "계약은 20년 기본계약 이후 자동 1년 단위 갱신(automatic one-year renewal periods)", "비스트라는 전력 공급 부분에 대해 5% 비의결권 지분(non-voting interest) 보유"],
+        why: ["AI 데이터센터 전력 수요의 대폭 증가 속에서 비스트라가 20년 장기계약을 확보했다는 것은 향후 2~3년 최고조의 전력 수요를 넘어 5~10년까지 안정적 수익원을 확보했다는 의미예요", "텍사스는 미국 내 가장 큰 데이터센터 벨트이며, 마이크로소프트·메타·아마존 등 하이퍼스케일러들이 텍사스에 대규모 인프라 투자를 집중하는 지역이에요. 비스트라가 이 지역의 주요 공급자로 자리잡은 점은 경쟁 우위로 작용할 수 있어요", "3월(Meta와 핵심 발전소 지원 계약) 이후 9월(New Era Energy와 20년 PPA)로 이어지는 연달아 대규모 계약 체결은 비스트라의 AI 전력 공급 포지셔닝을 시장에 다시 한 번 강하게 입증하는 신호이며, 주식 모멘텀 재가동의 계기가 될 수 있어요", "다만 천연가스 가격 변동성, 규제 환경 변화(탄소규제 강화), 재생에너지 전환 가속화 등이 장기 수익성을 잠식할 수 있다는 점은 염두에 두어야 해요"],
+        beginner: ["비스트라는 전기를 만들어 팔아서 먹고사는 회사인데, 이번에 '앞으로 20년간 이 데이터센터에 매달 정해진 양의 전기를 공급하겠다'는 계약을 체결했다고 보면 돼요", "요즘 AI 데이터센터들이 엄청 많은 전기를 쓰는데, 비스트라가 그 수요를 잡았다는 뜻이에요", "20년 장기계약이라는 것은 '앞으로 20년은 이 고객으로부터 꾸준히 돈이 들어온다'는 의미라 기업 입장에서는 매우 좋은 계약이에요"],
+        watch: ["10월 말~11월 초 3분기 실적 발표 시 매출 성장률과 조정 EBITDA 마진 추이", "추가 AI 데이터센터 장기 계약 공시 여부 및 규모", "경쟁사(Constellation Energy·NextEra·Duke Energy 등)의 AI 관련 전력 공급 계약 공시 현황 비교", "천연가스 현물 가격 변동성(장기 수익성에 영향)"],
+        interpretation: "AI 인프라 붐 속에서 비스트라가 '전력 공급자'로서의 입지를 다시 확실히 하는 모습으로 보여요. 하지만 이미 3월부터 대규모 계약이 누적되었고, 주가도 이를 충분히 반영한 상태(연초 대비 +50% 넘음)라서 '뉴스'의 서프라이즈 정도는 크지 않을 수 있어요. 다만 다음 분기 실적에서 이런 계약들의 누적 효과가 매출·마진에 얼마나 긍정적으로 반영되는지가 진정한 확인 포인트가 될 거예요.",
+        decision: "현재 보유 중이라면 홀드, 신규 진입을 고려 중이라면 10월 말~11월 초 3분기 실적 발표(예상 11월 초) 때 다른 발전사 대비 마진율·가이던스 방향을 비교한 후 판단할 것을 권해요.",
+        confidence: "계약의 실체와 규모는 공개된 공시 자료(SEC 8-K 등)로 명확하고, 텍사스 AI 데이터센터 수요의 증가도 산업 대세로 확인돼요. 다만 주가 반응은 이미 반영 수준이 높을 수 있으므로, '뉴스 가치'보다는 '실적 확인 도구'로 보는 게 맞아요.",
+        sources: [
+          { title: "Vistra Corp. - Form 8-K - FY2026", url: "https://www.sec.gov/Archives/edgar/data/1692819/000119312526073364/d21122dex991.htm" },
+          { title: "New Era Energy & Digital Secures 20-Year, 207 MW PPA with Vistra", url: "https://finance.yahoo.com/energy/articles/era-energy-digital-secures-20-110000164.html" },
+          { title: "New Era Energy shares surge on 20-year power deal with Vistra for Texas data center project", url: "https://finance.yahoo.com/energy/articles/era-energy-secures-20-power-132300226.html" },
+        ],
+      },
+      {
         date: "2026-09-03",
         headline: "Vistra, Cogentrix Energy 인수(2026-01-05 합의, 아직 종결 전) - 천연가스 5,500MW 추가 확보 + Meta·AWS 장기 전력공급 계약으로 AI 데이터센터 수혜 직결",
         tone: "positive",

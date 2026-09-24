@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 94.41999816894531,
+      "current": 94.06999969482422,
       "prevClose": 92.16000366210938,
-      "changeAbs": 2.2599945068359375,
-      "changePct": 2.4522508865362718,
-      "pctRank": 87.19172633253778,
+      "changeAbs": 1.9099960327148438,
+      "changePct": 2.072478251756102,
+      "pctRank": 86.87350835322196,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -16.40548851700102,
-      "ma20": 94.85600128173829,
-      "ma60": 85.31300048828125,
-      "chg1m": 12.05999755859375,
-      "chg3m": 22.5,
-      "chg1mPct": 14.643027524550515,
-      "chg3mPct": 31.28476164188139,
+      "drawdown1y": -16.715358799052893,
+      "ma20": 94.83850135803223,
+      "ma60": 85.30716718037924,
+      "chg1m": 11.709999084472656,
+      "chg3m": 22.150001525878906,
+      "chg1mPct": 14.21806580584321,
+      "chg3mPct": 30.798111915752475,
       "lastDate": "2026-09-24",
       "bars": 1257,
       "symbol": "CL=F",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4307.5,
+      "current": 4308.60009765625,
       "prevClose": 4318.39990234375,
-      "changeAbs": -10.89990234375,
-      "changePct": -0.2524060436791468,
+      "changeAbs": -9.7998046875,
+      "changePct": -0.22693138452002318,
       "pctRank": 87.28139904610492,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -19.007594782375413,
-      "ma20": 4425.0899658203125,
-      "ma60": 4306.748323567708,
-      "chg1m": -387.0,
-      "chg3m": 259.89990234375,
-      "chg1mPct": -8.243689423793802,
-      "chg3mPct": 6.4210864728025925,
+      "drawdown1y": -18.986910033645543,
+      "ma20": 4425.144970703125,
+      "ma60": 4306.766658528646,
+      "chg1m": -385.89990234375,
+      "chg3m": 261.0,
+      "chg1mPct": -8.220255668202151,
+      "chg3mPct": 6.448265483320134,
       "lastDate": "2026-09-24",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "S&P 500 ends marginally lower as investors focus on US-Iran war - Reuters",
+      "summary": "S&P 500 ends marginally lower as investors focus on US-Iran war Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdkxPUUdXbDkwcTdtbC1yM0NWMldPb2lpeExQRVh2SVFWQUl4Q3haSlp4U04yU1BoanNVeWF5bTIwbWJRQXVEQkIwMm0taFZ4eDJ3dUVjOTVuSWhEMVRZNV9vdUNab01CS1o4aUpoQVE5TmFqV1BMTFVaZVJzVEFES3Y4S1BLZFQ1TDFtR2dLZklJRkdFN3hTaENjVDhSc05sT1BVZ09idlU1ZGkwdTZLRi1n?oc=5",
+      "datetime": 1790284412,
+      "headlineKo": "투자자들이 미국-이란 전쟁에 집중함에 따라 S&P 500은 소폭 하락 마감 - Reuters",
+      "summaryKo": "투자자들이 미국-이란 전쟁에 집중함에 따라 S&P 500은 소폭 하락 마감 - 최신"
+    },
+    {
       "headline": "History shows financial calamities occur when rates rise rapidly like this: 'Something always breaks'",
       "summary": "The 10-year Treasury note yield is spiking to levels not seen in years, and that may be a bad omen for financial markets.",
       "source": "CNBC",
@@ -262,15 +271,6 @@ const MARKET_DATA = {
       "datetime": 1790282037,
       "headlineKo": "사우디아라비아는 후티 미사일을 요격했다고 밝혔습니다. 그룹, 리야드와 아람코에 대한 파업 주장 - 로이터",
       "summaryKo": "사우디아라비아는 후티 미사일을 요격했다고 밝혔습니다. 그룹, 리야드와 아람코에 대한 파업 주장 Reuters"
-    },
-    {
-      "headline": "S&P 500 ends marginally lower as investors focus on US-Iran war - Reuters",
-      "summary": "S&P 500 ends marginally lower as investors focus on US-Iran war Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdkxPUUdXbDkwcTdtbC1yM0NWMldPb2lpeExQRVh2SVFWQUl4Q3haSlp4U04yU1BoanNVeWF5bTIwbWJRQXVEQkIwMm0taFZ4eDJ3dUVjOTVuSWhEMVRZNV9vdUNab01CS1o4aUpoQVE5TmFqV1BMTFVaZVJzVEFES3Y4S1BLZFQ1TDFtR2dLZklJRkdFN3hTaENjVDhSc05sT1BVZ09idlU1ZGkwdTZLRi1n?oc=5",
-      "datetime": 1790281026,
-      "headlineKo": "투자자들이 미국-이란 전쟁에 집중함에 따라 S&P 500은 소폭 하락 마감 - Reuters",
-      "summaryKo": "투자자들이 미국-이란 전쟁에 집중함에 따라 S&P 500은 소폭 하락 마감 - 최신"
     },
     {
       "headline": "Netanyahu's fleeting visit to New York mirrors strained US ties - reuters.com",
@@ -341,19 +341,20 @@ const MARKET_DATA = {
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORXFRdU50SU1neUhFbzk2V2JmSXRiRDFJbm5BR1VFaWp6NXhaZ2hRcExwUjJNeHRwVlFNd0xKY2tBWnI4N0c3Tk0zWTFyUHNCSnZJRUw3Znp3bU1UREd5OHo5anJLY21GdkVTa2V1TnQ2ZTVxOGRXSHRfUmIxN0dCRzFSaXJFVWRJOHQzVWE4dTdjcXRZNk5nSVg0eFBEYWd4akJGNWVzbE5rNEhwSVowcUp5SXhHZzV3OVBsUkp3UkQ1RTZvWHNwWTdn?oc=5",
       "datetime": 1790270847,
-      "headlineKo": "미국의 새로운 제재로 이란 항공편 운항 중단 - 로이터"
+      "headlineKo": "미국의 새로운 제재로 이란 항공편 운항 중단 - 로이터",
+      "summaryKo": "미국의 새로운 제재로 이란 항공편 폐쇄 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790289678.824344,
+  "_news_last_success_at": 1790293327.1577134,
   "fgi": {
     "score": 36.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1790289656.2660022,
-  "_updated_label": "2026-09-25 07:41",
-  "_last_attempt_at": 1790289656.2660022,
-  "_last_success_at": 1790289656.2660022,
+  "_fetched_at": 1790293319.2967699,
+  "_updated_label": "2026-09-25 08:42",
+  "_last_attempt_at": 1790293319.2967699,
+  "_last_success_at": 1790293319.2967699,
   "_collection_status": "ok",
   "_collection_errors": []
 };
