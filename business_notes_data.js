@@ -9,6 +9,25 @@ const BUSINESS_NOTES = {
   MARKET: {
     newsLog: [
       {
+        date: "2026-09-24",
+        headline: "美中 정상회담 개막 - 무역휴전 2개월 연장(~2027.1.10 '부산합의'), 반도체 수출규제 관련 새로운 돌파구는 없어",
+        tone: "mixed",
+        importance: "medium",
+        horizon: "단기(1/10 재연장 여부)~중기(반도체 수출규제 완화 여부)",
+        facts: ["2026-09-24(목) 시진핑 중국 국가주석이 사흘 일정으로 워싱턴을 방문해 트럼프 대통령과 6개월 만에 두 번째 정상회담을 가졌다 - 트럼프가 공항(조인트베이스 앤드루스)에서 직접 영접한 것은 11년 만에 처음이다.", "베센트 재무장관은 '부산 합의(Busan Agreement)'로 불리는 기존 무역휴전을 원래 만료일(11/10)에서 2개월 연장해 2027년 1월 10일까지 유지하기로 했다고 발표했다 - '세부사항을 협상할 시간이 더 필요하다'는 설명.", "이번 회담 의제에는 무역·관세 외에 대만, 이란(중국의 대이란 지지·위성정보 우려), AI 거버넌스 등이 포함됐고, 미국은 중대 AI 안보 사고 발생 시 상대국에 통보하는 핫라인 신설을 제안했다.", "다만 반도체 수출규제(첨단 AI칩 접근 제한)는 이번 회담의 공식 협상 의제로 명시되지 않았고, 9/24 미국 증시는 S&P500 -0.07%·나스닥 -0.06%로 거의 변화가 없었다 - 반도체 랠리(AMD·INTC·QCOM 등 두자릿수 급등)는 회담 기대감이 선반영된 9/21에 이미 발생했었다."],
+        why: ["9/23 항목에서 '다음날 정상회담 결과가 반도체 수출규제·관세의 추가 변수로 남아있다'고 지적했는데, 실제 결과는 '기존 휴전의 단순 연장'에 그쳐 당장의 긴장 완화도 급격한 악화도 아닌 현상 유지로 마무리됐다.", "무역휴전이 깨지지 않았다는 점은 관세·수출규제 급변 리스크를 단기적으로 낮추지만, 만료 시점이 11/10에서 1/10로 두 달 늦춰졌을 뿐 근본적인 불확실성(재연장 여부)은 그대로 남는다는 점에 유의해야 한다.", "반도체 수출규제 자체는 협상 테이블에 오르지 않았다는 점에서, TSM·AVGO·AMAT·LRCX·KLAC·ASML 등 대중국 매출 비중이 있는 종목들의 규제 리스크는 이번 회담으로 해소된 것이 아니라 '1월까지 시한부 유예' 상태로 봐야 한다."],
+        beginner: ["미국과 중국 정상(트럼프 대통령·시진핑 주석)이 워싱턴에서 만났어요. 원래 있던 '무역 휴전'(서로 관세를 크게 올리지 않기로 한 약속)을 2개월 더 연장해서 내년 1월 10일까지 유지하기로 했어요.", "시장이 궁금해했던 '반도체 수출규제를 더 풀어줄까'라는 부분은 이번 회담에서 다뤄지지 않았어요. 그래서 이미 지난주(9/21)에 반도체주들이 기대감에 미리 올랐던 것 외에, 회담 당일에는 주가가 거의 움직이지 않았어요.", "즉, '나쁜 소식은 없었지만 새로운 좋은 소식도 없었다'는 무난한 결과예요. 휴전이 깨지지 않은 건 다행이지만, 언제든 1월에 다시 협상해야 하는 시한부 상태라는 점은 계속 지켜봐야 해요."],
+        interpretation: "이번 정상회담은 예상대로 '돌파구 없는 무난한 현상유지'로 마무리됐다. 무역휴전 연장 자체는 급격한 관세·수출규제 리스크를 피했다는 점에서 안도 요인이지만, 반도체 수출규제가 협상 의제에서 빠졌다는 점에서 TSM·AVGO·AMAT 등 대중국 노출 종목의 규제 불확실성은 해소되지 않고 1월 10일로 시한만 연장된 상태다.",
+        decision: "이번 회담 결과만으로 포지션을 바꿀 근거는 약하다 - 이미 반도체 랠리는 9/21에 선반영됐고, 9/24 당일 시장 반응도 미미했다. 다음 관찰 포인트는 1월 10일 재연장 여부와 그 사이 개별 수출규제 관련 발표.",
+        confidence: "정상회담·무역휴전 연장 세부사항은 CNBC·The Week·Al Jazeera 교차 확인. 9/24 지수 등락률은 TheStreet 보도 기준. 반도체주 9/21 선반영 랠리는 기존 MARKET 9/21 항목 및 별도 매체(Yahoo Finance) 교차확인.",
+        sources: [
+          { title: "US-China trade truce extended as Bessent, Trump welcome Xi in first visit of three years (CNBC)", url: "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html" },
+          { title: "Xi arrives in Washington, US-China trade truce extension (The Week)", url: "https://www.theweek.in/news/world/2026/09/24/xi-arrives-in-washington-us-china-trade-truce-extension.html" },
+          { title: "Trump meets China's Xi Jinping at US airport on arrival for three-day trip (Al Jazeera)", url: "https://www.aljazeera.com/news/2026/9/23/trump-meets-chinas-xi-jinping-at-us-airport-on-arrival-for-three-day-trip" },
+          { title: "Stock Market Today (Sept. 24, 2026): S&P 500, Dow stagnate as higher treasury yields and oil weigh on sentiment (TheStreet)", url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-24-2026" },
+        ],
+      },
+      {
         date: "2026-09-23",
         headline: "美 10년물 국채금리 5.135%로 2007년 7월 이후 최고치 - 9월 PMI 서프라이즈로 10월 추가 금리인상 확률 55%→70% 급등, 나스닥 -1.13%·S&P500 -0.75% 하락",
         tone: "risk",
@@ -2611,6 +2630,26 @@ const BUSINESS_NOTES = {
       {title:"Will Oracle's RPO Expansion Strengthen Long-Term Revenue Outlook? (Yahoo Finance)", url:"https://finance.yahoo.com/news/oracles-rpo-expansion-strengthen-long-165600242.html"},
     ],
     newsLog: [
+      {
+        date: "2026-09-24",
+        headline: "오라클, 뉴멕시코 'Project Jupiter' AI데이터센터에 force majeure(불가항력) 통지 - 가스관 인허가 지연으로 CDS 사상 최고치 급등, 주가 -3~7%대 하락",
+        importance: "high",
+        tone: "risk",
+        horizon: "단기(공사 지연 해소 여부)~중기(2028년 가동 목표 유지 가능성)",
+        facts: ["2026-09-24(목) 오라클이 뉴멕시코 'Project Jupiter' AI 데이터센터(설계용량 2.45GW) 개발사인 Stack Infrastructure에 force majeure(불가항력) 조항을 발동하는 공식 통지를 보냈다는 보도가 나왔다 - 2028년 가동 목표를 지키지 못할 경우 대금 지급을 유예하려는 목적.", "지연의 핵심 원인은 발전용 천연가스 파이프라인 인허가 - 뉴멕시코주 토지관리국(State Land Office)이 경로 신청을 반복적으로 반려하면서 파이프라인 가동 시점이 2027년 2월 1일로 밀렸다.", "오라클은 '이 통지가 주요 임차인(primary tenant) 지위를 포기하거나 대금지급 유예가 확정됐다는 의미는 아니다'라고 선을 그었고, 공식적으로는 '프로젝트가 일정대로 진행 중'이라는 입장을 유지하며 통지 자체에 대한 구체적 언급은 피했다.", "이 소식에 오라클 주가는 프리마켓에서 최대 -5%, 장중 한때 -7%대까지 낙폭이 커졌다가 종가 기준 -3.3~3.5%(약 139달러대)로 마감했고, 오라클 신용부도스와프(CDS)는 사상 최고치로 치솟았다 - 이 프로젝트에 대출($180억, 약 20개 은행단)을 제공한 Blue Owl Capital 주가도 동반 하락."],
+        why: ["오라클은 9/10 실적에서 클라우드 인프라 매출 121% 급증과 $664B 규모 RPO(미청구잔고)로 AI 데이터센터 수요가 견조함을 입증했지만, 이번 통지는 그 수요를 실제 '가동 가능한 용량'으로 전환하는 실행 단계에서 규제·인허가 리스크가 현실화되고 있음을 보여준다.", "8/26·9/10 항목에서 이미 지적됐던 신용등급(BBB-)·부채 부담 이슈가 이번 CDS 사상 최고치로 다시 부각됐다 - 시장이 '수주는 많지만 실제 완공·수익화까지의 자금조달 리스크'에 더 예민하게 반응하기 시작했다는 신호.", "RPO(6,640억 달러) 중 12개월 내 인식 예정 비중이 13%에 불과하다는 점에서, 이런 개별 프로젝트 지연이 반복되면 오라클이 약속한 매출 인식 시점 자체가 뒤로 밀릴 위험이 있다."],
+        beginner: ["오라클이 짓고 있는 초대형 AI데이터센터('Project Jupiter', 뉴멕시코) 공사가 늦어지고 있어요. 원인은 데이터센터에 전기를 만들어줄 가스관 인허가가 주정부에서 계속 반려됐기 때문이에요.", "그래서 오라클은 '불가항력(force majeure)'이라는 법적 장치를 써서 '공사가 늦어지면 돈을 늦게 내겠다'고 통지했어요. 회사가 망하거나 프로젝트를 포기한다는 뜻은 아니고, 일종의 '법적 안전장치'를 걸어둔 거예요.", "이 소식에 오라클 주가가 하루 새 3~7% 정도 빠졌고, 회사가 돈을 못 갚을 위험에 대비하는 보험 성격의 상품인 CDS 가격이 역대 최고치로 올랐어요 - 투자자들이 '오라클이 AI에 쏟아붓는 막대한 투자금을 제때 회수할 수 있을까'를 더 걱정하기 시작했다는 뜻이에요.", "오라클은 '예정대로 진행 중'이라고만 밝히고 통지 자체에는 구체적으로 답하지 않아서, 당장 패닉할 일은 아니지만 앞으로 계속 지켜봐야 할 이슈로 떠올랐어요."],
+        interpretation: "9/10 실적에서 확인된 강한 수요(클라우드 인프라 매출 +121%, RPO $664B)와는 별개로, 이번 force majeure 통지는 '수주→실제 가동'으로 이어지는 실행 단계에서 인허가·인프라 리스크가 현실화될 수 있음을 보여준 첫 구체적 사례다. 회사는 프로젝트 자체를 포기한 것이 아니라고 선을 그었지만, CDS 사상 최고치는 채권시장이 오라클의 대규모 부채 부담을 이전보다 더 무겁게 보기 시작했다는 신호로 해석할 수 있다.",
+        decision: "단기 주가 낙폭(-3~7%)은 패닉성 매도에 가까우나, 이번 사안은 8/26·9/10 항목에서 이어져 온 '높은 성장 vs 부채·신용 리스크' 구도를 재확인시켰다. 신규 매수보다는 CDS·신용등급 후속 코멘트와 다음 분기 데이터센터 가동 일정 안내를 먼저 확인한 뒤 판단할 것을 권장.",
+        watch: ["가스관 인허가·2027년 2월 가동 목표 준수 여부", "오라클 CDS 스프레드·신용등급 추가 코멘트", "Blue Owl Capital 등 프로젝트 대출단 관련 후속 보도"],
+        confidence: "force majeure 통지·주가 낙폭은 CNBC·Yahoo Finance·TradingKey·Motley Fool 등 다수 매체가 교차 확인. 종가 낙폭은 매체별로 -3.3%~-7%(장중 고점 대비 포함)로 다소 편차가 있어 종가 기준(-3.3~3.5%) 수치를 우선 채택. Project Jupiter 세부 계약조건(대출 규모 등)은 TradingKey 분석 기사 기준으로 교차검증이 제한적임에 유의.",
+        sources: [
+        {title:"Oracle sends 'force majeure' notice about data center project — stock drops 3% (CNBC)", url:"https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html"},
+        {title:"Oracle stock drops as the company moves to shield itself from costs linked to controversial data center (Yahoo Finance)", url:"https://finance.yahoo.com/markets/article/oracle-stock-drops-as-the-company-moves-to-shield-itself-from-costs-linked-to-controversial-data-center-133351264.html"},
+        {title:"Oracle Tumbles as Project Jupiter Data Center Force Majeure Notice Sparks Delay Concerns (TradingKey)", url:"https://www.tradingkey.com/analysis/stocks/us-stocks/262185282-oracle-orcl-stock-drop-project-jupiter-force-majeure-delay-tradingkey"},
+        {title:"Stock Market Today, Sept. 24: Oracle Stock Dips As it Issues Force Majeure Notice on Project Jupiter Data Center (The Motley Fool)", url:"https://www.fool.com/coverage/stock-market-today/2026/09/24/stock-market-today-sept-24-oracle-stock-dips-as-it-issues-force-majeure-notice-on-project-jupiter-data-center/"},
+        ],
+      },
       {
         date: "2026-09-10",
         headline: "FY2027 1분기 실적 서프라이즈 - 매출·EPS 컨센서스 상회, 클라우드 인프라 매출 121% 급증에 시간외 +7%",
