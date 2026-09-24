@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790287242.9224656,
+  "generatedAt": 1790287834.30017,
   "events": [
     {
       "id": "08b2b4cf97f5e73a3b17",
@@ -7848,7 +7848,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000660/tsm-monthend6kx20260924.htm",
         "publishedAt": 1790175600.0,
-        "collectedAt": 1790265649.7846398
+        "collectedAt": 1790287818.2254581
       },
       "confirmedFacts": [
         "TSM가 2026-09-24에 SEC Form 6-K을 제출했습니다.",
@@ -7873,6 +7873,71 @@ const EVENT_DATA = {
       "impacts": [
         {
           "ticker": "TSM",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
+      ],
+      "earningsEvidence": null
+    },
+    {
+      "id": "9927405307b711679bf2",
+      "schemaVersion": 1,
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
+      "primaryTicker": "VST",
+      "relatedTickers": [
+        "VST"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "VST SEC Form 8-K filed",
+      "headlineKo": "VST SEC Form 8-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126037577/ef20082680_8k.htm",
+        "publishedAt": 1790175600.0,
+        "collectedAt": 1790287818.2254581
+      },
+      "confirmedFacts": [
+        "VST가 2026-09-24에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 중요 계약 체결·변경 · 기타 중요 사건 · 재무제표·첨부자료",
+        "원문에서 관련 표현이 확인된 주제: 계약·수주 · 자금조달·증권발행"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+      ],
+      "whyItMatters": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "VST",
           "direction": "중립·원문 확인",
           "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
           "basis": "official_filing"
@@ -7912,7 +7977,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026063311/vrt-20260924.htm",
         "publishedAt": 1790175600.0,
-        "collectedAt": 1790265649.7846398
+        "collectedAt": 1790287818.2254581
       },
       "confirmedFacts": [
         "VRT가 2026-09-24에 SEC Form 8-K을 제출했습니다.",
@@ -17947,68 +18012,6 @@ const EVENT_DATA = {
         "공급업체 수주·매출",
         "투자 기업 OCF·FCF·부채"
       ]
-    },
-    {
-      "id": "08443c7dae875a787650",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "INTC",
-      "relatedTickers": [
-        "INTC"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Intel",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "중기·장기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Intel Stock Soars as AI Spending Fears Fade",
-      "headlineKo": "AI 지출 우려가 사라지면서 인텔 주가 급등",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=39696fe534e8f1e298e67fc58e6197f64ac536a4c9fae5d9cbdd89208fa82a27",
-        "publishedAt": 1790017325,
-        "collectedAt": 1790285945.2142594
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "AI 지출 우려가 사라지면서 인텔 주가 급등"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "INTC",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
     }
   ],
   "byTicker": {
@@ -18558,8 +18561,7 @@ const EVENT_DATA = {
       "392adc1f4c253bb3395e",
       "f5c69b999f965e86b9c0",
       "4fedbce9d9afd4b3d97e",
-      "367fd98ff3228b6b25bf",
-      "08443c7dae875a787650"
+      "367fd98ff3228b6b25bf"
     ],
     "STX": [
       "62ba0ebb0b1c845c4890",
@@ -18664,6 +18666,12 @@ const EVENT_DATA = {
     "LITE": [
       "08a309671fea52fc96b8"
     ],
+    "VST": [
+      "9927405307b711679bf2",
+      "83dc0eb9cc41033d2db6",
+      "fb447e9a569bc6636dff",
+      "5c1f265b79629b68eec0"
+    ],
     "ANET": [
       "f549ccba050d4d969cc9",
       "b60c71a5be3415afbfe6",
@@ -18676,11 +18684,6 @@ const EVENT_DATA = {
     ],
     "LRCX": [
       "864679df8b23131ed200"
-    ],
-    "VST": [
-      "83dc0eb9cc41033d2db6",
-      "fb447e9a569bc6636dff",
-      "5c1f265b79629b68eec0"
     ],
     "ETN": [
       "48f3767e830aeb53aae5"
