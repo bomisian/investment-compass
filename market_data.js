@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 93.26000213623047,
+      "current": 93.05999755859375,
       "prevClose": 94.61000061035156,
-      "changeAbs": -1.3499984741210938,
-      "changePct": -1.4269088525651974,
-      "pctRank": 86.24801271860095,
+      "changeAbs": -1.5500030517578125,
+      "changePct": -1.6383078340116004,
+      "pctRank": 86.08903020667726,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -17.432488131039435,
-      "ma20": 95.35200157165528,
-      "ma60": 85.72750053405761,
-      "chg1m": 11.029998779296875,
-      "chg3m": 24.029998779296875,
-      "chg1mPct": 13.413593979096964,
-      "chg3mPct": 34.71038222460262,
+      "drawdown1y": -17.60956168840161,
+      "ma20": 95.34200134277344,
+      "ma60": 85.72416712443034,
+      "chg1m": 10.829994201660156,
+      "chg3m": 23.829994201660156,
+      "chg1mPct": 13.1703681862333,
+      "chg3mPct": 34.4214835275947,
       "lastDate": "2026-09-25",
       "bars": 1258,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 101.26300048828125,
+      "current": 101.23400115966797,
       "prevClose": 101.29000091552734,
-      "changeAbs": -0.02700042724609375,
-      "changePct": -0.026656557411438127,
+      "changeAbs": -0.055999755859375,
+      "changePct": -0.055286558745395835,
       "pctRank": 42.482100238663485,
       "min5y": 93.33000183105469,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -0.34150193877172663,
-      "ma20": 99.77214965820312,
-      "ma60": 100.13071683247884,
-      "chg1m": 2.3430023193359375,
-      "chg3m": -0.16699981689453125,
-      "chg1mPct": 2.3685830597513027,
-      "chg3mPct": -0.16464538735292655,
+      "drawdown1y": -0.3700417758341068,
+      "ma20": 99.77069969177246,
+      "ma60": 100.13023351033529,
+      "chg1m": 2.3140029907226562,
+      "chg3m": -0.1959991455078125,
+      "chg1mPct": 2.3392671184350147,
+      "chg3mPct": -0.19323587194922945,
       "lastDate": "2026-09-25",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4329.2998046875,
+      "current": 4322.89990234375,
       "prevClose": 4298.0,
-      "changeAbs": 31.2998046875,
-      "changePct": 0.7282411514076315,
-      "pctRank": 87.5297855440826,
+      "changeAbs": 24.89990234375,
+      "changePct": 0.5793369554153095,
+      "pctRank": 87.450357426529,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -18.597700733642963,
-      "ma20": 4407.879956054688,
-      "ma60": 4310.704988606771,
-      "chg1m": -324.0,
-      "chg3m": 233.0,
-      "chg1mPct": -6.962800885376409,
-      "chg3mPct": 5.688060227754136,
+      "drawdown1y": -18.718035843098146,
+      "ma20": 4407.5599609375,
+      "ma60": 4310.598323567709,
+      "chg1m": -330.39990234375,
+      "chg3m": 226.60009765625,
+      "chg1mPct": -7.1003355943436475,
+      "chg3mPct": 5.531824047569608,
       "lastDate": "2026-09-25",
       "bars": 1259,
       "symbol": "GC=F",
@@ -237,13 +237,49 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Iran's president says it is up to US to choose if it wants to end Iran war - Reuters",
-      "summary": "Iran's president says it is up to US to choose if it wants to end Iran war Reuters",
+      "headline": "Oil prices fall as markets look to Iran truce, but remain wary of attacks on oil facilities - reuters.com",
+      "summary": "Oil prices fall as markets look to Iran truce, but remain wary of attacks on oil facilities reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV3EzX3oydnQxRk5Ld1BKbk82ek14ZVdyLVpTdldjdEpqeDJfTVZ2Q0F1TnhvaWlhR1p0Z3hScDV0S2Z1UFR5OXhKSWk3NmtqTzd0SkJfa2RLRFpOOUlEcE5mR1d4Z21Td2FCQVZqNHV1eDloQkplT1NHaHhyTDlqOG5DYlFFdnRERThxNU0yX29LcTRyal9pMHQ4ZzNoU0VKZkdHN2hFYjhCZUpZZ3d2am11SDJYYVBiN0JxWVBtczNRYkh1?oc=5",
+      "datetime": 1790298660,
+      "headlineKo": "시장이 이란의 휴전을 기대하면서 유가는 하락했지만 석유 시설에 대한 공격은 여전히 ​​경계하고 있습니다 - reuters.com",
+      "summaryKo": "시장이 이란의 휴전을 기대하면서 유가는 하락했지만 석유 시설에 대한 공격은 여전히 ​​경계하고 있습니다 reuters.com"
+    },
+    {
+      "headline": "Saudi Grand Mufti tells troops to be ready to sacrifice their lives fighting Houthis - reuters.com",
+      "summary": "Saudi Grand Mufti tells troops to be ready to sacrifice their lives fighting Houthis reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTXZJVk41ZE5xYUdhR0dIQjd0eVNzaWlmNVd3VmNNZTEyc2dZOWlnZm1nYW9xU19UNTNia0ZLaDUya2xYcXpYRW1tcUJVa0phSUlfOU82SXJHZjc1WHJTUFV5MkNRZUJ0LXFOSG8zRUswZGtJbHktVkZPeGJKd1lUMVBldUlwbGlXOW5qYm1VbnhJVU9QQ0x3Z1ZtNVpjMTVRNXZOZTJvbHZyNjZINzBYc3hvYVpWRndIbldwWjBCUDhJMnhyWVNmTkhxVUU?oc=5",
+      "datetime": 1790295420,
+      "headlineKo": "사우디 그랜드 무프티(Saudi Grand Mufti)는 군대에 후티 반군과의 싸움에서 목숨을 바칠 준비가 되어 있다고 말했다 - reuters.com",
+      "summaryKo": "사우디 그랜드 무프티(Saudi Grand Mufti)는 군대에 후티 반군과의 싸움에서 목숨을 바칠 준비가 되어 있다고 말했다 reuters.com"
+    },
+    {
+      "headline": "Iran's president says it is up to US to choose if it wants to end Iran war - reuters.com",
+      "summary": "Iran's president says it is up to US to choose if it wants to end Iran war reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOb21pSm1ydXhYbXJ1SFNldm9vNm5nS0t3bmhGczZBS1Vfd3QwMTRJcnExUUY5cXh1OEZ4aDVSbDE2eFAtYk03Y0RfS1VROXZSV21mWkNwRUdjYWxqa2dzNVpVbWVxNGxEalNZc01qa3JVa1FGd3JVbXY4Ujdtb1dQcWFFdlVEUngyZng4WTlMZjhEa2dJVGY5OHhqNXFpZGxxVlFWLWl5d3FtNGV4aXdpYWVYaWQtMFI0dmc?oc=5",
       "datetime": 1790293355,
-      "headlineKo": "이란 대통령 \"이란 전쟁 종식 여부 선택은 미국에 달려 있다\" - 로이터",
-      "summaryKo": "이란 대통령, 이란 전쟁 종식 여부 선택은 미국에 달렸다 - 로이터"
+      "headlineKo": "이란 대통령, 이란 전쟁 종식 여부 선택은 미국에 달렸다 - reuters.com",
+      "summaryKo": "이란 대통령, 이란 전쟁 종식 여부 선택은 미국에 달렸다"
+    },
+    {
+      "headline": "S&P 500 ends marginally lower as investors focus on US-Iran war - reuters.com",
+      "summary": "S&P 500 ends marginally lower as investors focus on US-Iran war reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdkxPUUdXbDkwcTdtbC1yM0NWMldPb2lpeExQRVh2SVFWQUl4Q3haSlp4U04yU1BoanNVeWF5bTIwbWJRQXVEQkIwMm0taFZ4eDJ3dUVjOTVuSWhEMVRZNV9vdUNab01CS1o4aUpoQVE5TmFqV1BMTFVaZVJzVEFES3Y4S1BLZFQ1TDFtR2dLZklJRkdFN3hTaENjVDhSc05sT1BVZ09idlU1ZGkwdTZLRi1n?oc=5",
+      "datetime": 1790292637,
+      "headlineKo": "투자자들이 미국-이란 전쟁에 집중함에 따라 S&P 500은 소폭 하락 마감 - reuters.com",
+      "summaryKo": "투자자들이 미국-이란 전쟁에 집중함에 따라 S&P 500은 소폭 하락 마감했습니다. reuters.com"
+    },
+    {
+      "headline": "Britain warns Iran it will not tolerate hostile activity on UK soil, Sky News reports - reuters.com",
+      "summary": "Britain warns Iran it will not tolerate hostile activity on UK soil, Sky News reports reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZmt3OWdYdUxlUXlJa0h6T0lndm5xUDBvRjg0M0plMzcxOThXT2lIaUNSY1NnczJYOEpwa3dYcGZWT2NGc0R3VGNHeVRJb0N5dS16V2FHamQyWkFuRkpSdXNIQk5CUk13dGU3NW1UNF9IdzFHSlFuOHpJRS1KZk1Hal9XNDFHbTlybmwxaUZsZmlINjRGZ29PekZNNFBpMHBabkxMelNBb1NPWk04Y3FYcU83QVR1T0xKTTJXeURIT1pwdDdJYUE?oc=5",
+      "datetime": 1790290932,
+      "headlineKo": "영국은 이란에 영국 땅에서의 적대적인 활동을 용납하지 않을 것이라고 경고했다고 스카이 뉴스가 보도했습니다. - reuters.com",
+      "summaryKo": "영국은 이란에 영국 땅에서의 적대적인 활동을 용납하지 않을 것이라고 경고했다고 스카이 뉴스가 reuters.com에 보도했습니다."
     },
     {
       "headline": "Police arrest actors, politicians protesting against Netanyahu outside UN - Reuters",
@@ -255,15 +291,6 @@ const MARKET_DATA = {
       "summaryKo": "경찰은 UN 밖에서 네타냐후에 반대하는 시위를 벌이던 배우와 정치인을 체포했습니다."
     },
     {
-      "headline": "S&P 500 ends marginally lower as investors focus on US-Iran war - Reuters",
-      "summary": "S&P 500 ends marginally lower as investors focus on US-Iran war Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdkxPUUdXbDkwcTdtbC1yM0NWMldPb2lpeExQRVh2SVFWQUl4Q3haSlp4U04yU1BoanNVeWF5bTIwbWJRQXVEQkIwMm0taFZ4eDJ3dUVjOTVuSWhEMVRZNV9vdUNab01CS1o4aUpoQVE5TmFqV1BMTFVaZVJzVEFES3Y4S1BLZFQ1TDFtR2dLZklJRkdFN3hTaENjVDhSc05sT1BVZ09idlU1ZGkwdTZLRi1n?oc=5",
-      "datetime": 1790284412,
-      "headlineKo": "투자자들이 미국-이란 전쟁에 집중함에 따라 S&P 500은 소폭 하락 마감 - Reuters",
-      "summaryKo": "투자자들이 미국-이란 전쟁에 집중함에 따라 S&P 500은 소폭 하락 마감 - 최신"
-    },
-    {
       "headline": "History shows financial calamities occur when rates rise rapidly like this: 'Something always breaks'",
       "summary": "The 10-year Treasury note yield is spiking to levels not seen in years, and that may be a bad omen for financial markets.",
       "source": "CNBC",
@@ -273,22 +300,22 @@ const MARKET_DATA = {
       "summaryKo": "10년 만기 국채 수익률이 지난 몇 년 동안 볼 수 없었던 수준으로 급등하고 있으며 이는 금융 시장에 나쁜 징조일 수 있습니다."
     },
     {
-      "headline": "US Senate rejects Democratic-led resolution to curb Trump's Iran war powers - Reuters",
-      "summary": "US Senate rejects Democratic-led resolution to curb Trump's Iran war powers Reuters",
+      "headline": "US Senate rejects Democratic-led resolution to curb Trump's Iran war powers - reuters.com",
+      "summary": "US Senate rejects Democratic-led resolution to curb Trump's Iran war powers reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMU45a3FvODBzSXpndWg1QUVuQzlqUmVJWjZEWUFXNWltVUx0Sm4zbDE1X3lFSnFYd2hQeGotT1YtejB1NU9lZDJKcnJjeEZqNkJtZkQ0anhFUG92V3pWLXlyQzhIalFwTzRuVnVvd3BGQ2tfYTJ3RUxMRlhlWTdTUFE3MnAzMUxmallxcE9SZU5ldmxJeE1fYnhyT0c5eG9lVXVydVg2TFhnbnFJYUFsOE56U194eTltTnc2bGFR?oc=5",
       "datetime": 1790282076,
-      "headlineKo": "미국 상원, 트럼프의 이란 전쟁 권한을 억제하기 위한 민주당 주도의 결의안 거부 - 로이터",
-      "summaryKo": "미국 상원, 트럼프의 이란 전쟁 권한을 억제하기 위한 민주당 주도의 결의안 거부 - 최신"
+      "headlineKo": "미국 상원, 트럼프의 이란 전쟁권을 억제하기 위한 민주당 주도의 결의안 거부 - reuters.com",
+      "summaryKo": "미 상원, 트럼프의 이란 전쟁권을 억제하기 위한 민주당 주도의 결의안 거부 reuters.com"
     },
     {
-      "headline": "Saudi Arabia says it intercepted Houthi missiles; group claims strikes on Riyadh, Aramco - Reuters",
-      "summary": "Saudi Arabia says it intercepted Houthi missiles; group claims strikes on Riyadh, Aramco Reuters",
+      "headline": "Saudi Arabia says it intercepted Houthi missiles; group claims strikes on Riyadh, Aramco - reuters.com",
+      "summary": "Saudi Arabia says it intercepted Houthi missiles; group claims strikes on Riyadh, Aramco reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLW1IRmRaem1xSHEwTjd1VldSMmNqZk55VmdmZkh4QnNhU21SM0ZtWGg4RDdxSkNOM1F6ZUJ4LUYybUlzcWx6S01zbzd5N3BRSWRTc0N6eExNa2RFQXVTYlM3RmtXOFlDUk1Yc2Q0LXNkTEFPQlpCNjgzZHNlbkZXWGtXT1NRNFZ3a2lvWWNxVkk1Rng0Q2ZtNUk4TzZ0YXpNdDFaRUZQa2lBVHpnV05pV1QtZVlJSjJpTFFPTA?oc=5",
       "datetime": 1790282037,
-      "headlineKo": "사우디아라비아는 후티 미사일을 요격했다고 밝혔습니다. 그룹, 리야드와 아람코에 대한 파업 주장 - 로이터",
-      "summaryKo": "사우디아라비아는 후티 미사일을 요격했다고 밝혔습니다. 그룹, 리야드와 아람코에 대한 파업 주장 Reuters"
+      "headlineKo": "사우디아라비아는 후티 미사일을 요격했다고 밝혔습니다. 단체, 리야드와 아람코에서 파업 주장 - reuters.com",
+      "summaryKo": "사우디아라비아는 후티 미사일을 요격했다고 밝혔습니다. 단체, 리야드와 아람코에 대한 파업 주장 reuters.com"
     },
     {
       "headline": "New York lawsuit says Polymarket's prediction markets are illegal gambling - Reuters",
@@ -300,13 +327,13 @@ const MARKET_DATA = {
       "summaryKo": "뉴욕 소송에서는 폴리마켓의 예측 시장이 불법 도박이라고 밝혔습니다."
     },
     {
-      "headline": "Netanyahu's fleeting visit to New York mirrors strained US ties - Reuters",
-      "summary": "Netanyahu's fleeting visit to New York mirrors strained US ties Reuters",
+      "headline": "Netanyahu's fleeting visit to New York mirrors strained US ties - reuters.com",
+      "summary": "Netanyahu's fleeting visit to New York mirrors strained US ties reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOU0dMX1dTN0FUMTNHM3B6Yi0zelh2NDZKR2toOTJlYmZlRktKVW91TVV2YlJ2M1E4Qy1BTmlGb2Y4NUJURWstS1J0OEhaRWg0LWt6eHBDV21hYTNfS2F3M3BUNDkzQVAwV3g1WUJxWVZZa0xfRWlUeXptSzNNTUxZenBaMEtYcXYwU1pQck1qT2NZcmw3bTFWVkJhV3lMM2w0SzNaZVMtZWFFdHY4U1o2V1UwWQ?oc=5",
       "datetime": 1790279034,
-      "headlineKo": "네타냐후의 짧은 뉴욕 방문은 미국 관계의 경색을 반영 - 로이터 통신",
-      "summaryKo": "네타냐후의 짧은 뉴욕 방문은 미국 관계를 경색하게 만들었습니다."
+      "headlineKo": "네타냐후의 짧은 뉴욕 방문은 미국 관계에 경색을 반영 - reuters.com",
+      "summaryKo": "네타냐후의 뉴욕 방문은 미국 관계를 경색하게 만들었다 reuters.com"
     },
     {
       "headline": "What must happen for Boeing stock to get unstuck. The company needs, at least, to do its part",
@@ -316,45 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790278045,
       "headlineKo": "보잉 주식이 풀려나려면 무슨 일이 일어나야 할까요? 회사는 최소한 자신의 역할을 다해야 합니다.",
       "summaryKo": "통제 안팎에서 제트메이커가 직면한 역풍 중 일부는 해소되어야 합니다."
-    },
-    {
-      "headline": "Houthis say they attacked Riyadh and Aramco facilities in Yanbu - Reuters",
-      "summary": "Houthis say they attacked Riyadh and Aramco facilities in Yanbu Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMWlXS0IwYk9WRDdxeGk1MmxybUpOa2lqYWN5Zm8wckN4ZVJJQUlCNXBJUkpsdXdTT240ZDhHMmJOWEszcHJUZDZscy1ibVkyZjlEUm03c3ZXZHlEanBFcE5Wa3A3QjVabTdPRTgtcnd5bWRhcVB0M0hEbW5QTUN0R2R3clB2OV9YblRYREFsY0NLU3ItMTFqRlFoRDVyV00zWnVoTUNzQ1ZDXzV1aUVN?oc=5",
-      "datetime": 1790277880,
-      "headlineKo": "후티 반군은 얀부의 리야드와 아람코 시설을 공격했다고 말했습니다 - 로이터",
-      "summaryKo": "Houthis는 그들이 Yanbu의 Riyadh와 Aramco 시설을 공격했다고 말했습니다. Reuters"
-    },
-    {
-      "headline": "Dozens of delegates walk out of UN hall at start of Netanyahu speech - Reuters",
-      "summary": "Dozens of delegates walk out of UN hall at start of Netanyahu speech Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPekk0eU1sNTF4VFZQZ0diQ1d2R05UZVN3a011d1JBeDJRemY1SGU2eHQwemxHcnNQa0JkLXpReklrN0FZR19pcW80NkFCMU1JTmptX3Y0UUVzWWI4YTlhMklyQ2dzbFZEaDRodUk2NTNPYVB6ZF84TkxJa3VMcUduOEtMdkdaa3ZUTS02QVFlWmhwYi1ubEtDbFRHa19Xc0hHREp2SHU5dTVyaHFxeTgw?oc=5",
-      "datetime": 1790277823,
-      "headlineKo": "네타냐후 연설이 시작되자 수십 명의 대표자들이 유엔 홀에서 걸어나오고 있다 - 로이터 통신",
-      "summaryKo": "네타냐후 연설이 시작되자 수십 명의 대표자들이 UN 홀에서 걸어나오고 있습니다."
-    },
-    {
-      "headline": "US Senate rejects resolution curbing Trump's Iran war powers - Reuters",
-      "summary": "US Senate rejects resolution curbing Trump's Iran war powers Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNODVQSjliMlBWTFZPaHV3aXY5Y3hMVGl0dWc0bTRDdGxOU1NhOXZJVmx1eWh2Q3VmX0h3UWZnOVZlODRXcEU1LVNtWHpVSDNVOGpmU3BWVVNzUzd1T1d5UlRLcktuVENkeGpMem1FcmJkUWVoR1dpMFY0QnZ1ZDZZV0pHczRpOWI4ZnZtRS1CdGUzQlZMUlRzazU5dk9yZUl6NjdlMlNFSQ?oc=5",
-      "datetime": 1790275907,
-      "headlineKo": "미국 상원, 트럼프의 이란 전쟁 권한을 억제하는 결의안 거부 - 로이터",
-      "summaryKo": "미 상원, 트럼프의 이란 전쟁권을 억제하는 결의안 거부 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790300628.9759023,
+  "_news_last_success_at": 1790304289.1746926,
   "fgi": {
     "score": 36.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1790300617.2060683,
-  "_updated_label": "2026-09-25 10:44",
-  "_last_attempt_at": 1790300617.2060683,
-  "_last_success_at": 1790300617.2060683,
+  "_fetched_at": 1790304268.1316724,
+  "_updated_label": "2026-09-25 11:45",
+  "_last_attempt_at": 1790304268.1316724,
+  "_last_success_at": 1790304268.1316724,
   "_collection_status": "ok",
   "_collection_errors": []
 };
