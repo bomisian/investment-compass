@@ -2631,6 +2631,45 @@ const BUSINESS_NOTES = {
     ],
     newsLog: [
       {
+        date: "2026-09-23",
+        headline: "오라클 클라우드 인프라 조직 감원 546명 - WARN 공시로 2026년 미국 내 총 2,578명 확정, 대상 다수가 40세 이상·개발자·엔지니어 집중",
+        importance: "medium",
+        tone: "risk",
+        horizon: "단기(연령차별 소송·평판 리스크 여부)~중기(OCI 매출 고성장과 핵심 기술인력 감축의 실행력 상충 여부)",
+        facts: [
+          "미국 각 주 WARN(Worker Adjustment and Retraining Notification) 공시 기준으로, 오라클은 2026년 두 차례에 걸쳐 미국 내 총 2,578명의 정리해고를 공식 신고했다 - 1차(3/27~31 접수, 5/26~6/1 이직) 1,778명, 2차(9/14 접수, 11/13 이직) 800명. 주별로는 캘리포니아 1,143명, 워싱턴 834명, 미주리 539명, 뉴욕 62명이다.",
+          "이와 별도로 비즈니스 인사이더가 입수한 오라클 내부 문서에 따르면, 9월 셋째 주 '아메리카 클라우드 인프라(America Cloud Infrastructure)' 조직에서만 546명이 감원됐다 - 이 조직 전체 인원(7,185명)의 약 7.6%에 해당한다.",
+          "이 546명 중 다수가 40세 이상이었고 약 16%는 60세 이상이었다 - 오라클은 연방 연령차별금지법(ADEA) 관련 공시 의무를 준수하기 위해 감원 대상자의 연령대를 문서에 명시했다.",
+          "직군별로는 소프트웨어 개발자가 약 17%(그중 Software Developer III 직급 57명이 최다), 매니저급이 128명(약 23%, Program Manager IV 직급 61명 포함), 데이터센터 지원 인력 41명(부사장 1명·시니어 디렉터 2명 포함), Principal Core Infrastructure Engineer 등 핵심 기술직도 다수 포함됐다.",
+          "오라클은 이미 2026 회계연도(6월 말 마감) 중 전체 직원 수를 약 162,000명에서 141,000명으로 21,000명(약 13%) 줄인 상태였는데, 이번 546명은 그 이후에도 계속되는 추가 감원이다.",
+          "오라클 측은 이번에 드러난 감원자 연령 구성에 대해 별도의 공식 입장을 내지 않았다.",
+        ],
+        why: [
+          "9/14 항목에서는 '2만~3만명(전체 약 13%) 규모로 추정'이라는 수준이었던 감원 스케일이, 이번에 WARN 공시(미국 내 2,578명 확정)와 유출 내부 문서(클라우드 조직만 546명, 연령·직급 세부 breakdown)로 구체적 수치와 대상이 드러났다는 점에서 정보의 신뢰도가 한 단계 높아진 사안이다.",
+          "감원 대상이 소프트웨어 개발자·Core Infrastructure Engineer 등 OCI(오라클 클라우드 인프라) 핵심 기술 인력에 집중돼 있다는 점은, 9/10 실적에서 강조된 '클라우드 인프라 매출 +121% 급증' 스토리와 방향이 어긋난다 - 매출은 급성장하는데 그 사업을 떠받치는 실무 인력은 오히려 줄고 있다는 신호다.",
+          "40세·60세 이상 비중이 두드러진다는 점은 향후 연령차별 관련 소송이나 평판 리스크로 이어질 수 있는 잠재 요인이며, 8/13·8/26 항목에서 이어진 '감원-신용등급 강등-CDS 급등'의 재무 압박 구도에 인적자원 리스크가 추가되는 모습이다.",
+        ],
+        beginner: [
+          "오라클이 미국에서 법적으로 신고해야 하는 감원 인원(WARN 공시)이 이번에 구체적인 숫자(2,578명)로 처음 확인됐어요 - 예전에는 '2만~3만명 될 것'이라는 추측만 있었어요.",
+          "그런데 유출된 내부 문서를 보면, 특히 오라클이 앞으로 잘될 거라고 자랑하던 클라우드 사업부에서 잘린 546명 중 상당수가 40세가 넘은 직원이었고, 그 중에서도 소프트웨어 개발자·엔지니어가 많이 포함돼 있었어요.",
+          "매출이 잘나가는 사업부에서 경력 있는 기술 인력을 줄인다는 게 '비용은 줄이지만 실제 일할 사람도 줄어드는 것 아니냐'는 우려로 이어질 수 있고, 나이 많은 직원이 유독 많이 잘렸다는 점은 나중에 법적 분쟁으로 번질 수도 있는 부분이에요.",
+        ],
+        interpretation: "이번 사안은 9/14 항목의 '대규모 감원'이 추정치에서 WARN 공시·내부 문서 기반의 구체적 수치로 확인된 것으로, 새로운 사건이 아니라 기존 감원 스토리의 신뢰도 높은 후속 확인이라는 성격이 강하다. 다만 감원 대상이 OCI 핵심 기술 인력과 40세 이상 직원에 쏠려 있다는 세부 내용은 '고성장 사업부의 실행력'과 '연령차별 리스크'라는 두 가지 새로운 관찰 포인트를 추가한다. 아직 오라클의 공식 대응이나 소송 제기 등 후속 조치는 확인되지 않았다.",
+        decision: "이번 감원 세부 내용만으로 투자 판단을 바꿀 사안은 아니며, 9/24 Project Jupiter 통지·9/20 크레딧 리스크 항목과 함께 '재무 부담 심화' 큰 흐름의 일부로 참고할 것.",
+        watch: [
+          "연령차별 관련 소송이나 EEOC 제소 여부",
+          "클라우드 인프라(OCI) 부서의 추가 인력 감축이 다음 분기 클라우드 매출 성장세(현재 +121%)에 실행 차질을 주는지 여부",
+          "오라클의 연령 구성 공개에 대한 공식 해명 여부",
+        ],
+        confidence: "미국 내 WARN 공시 합계(2,578명)는 각 주 정부 공시 데이터를 집계한 TheStreet 보도로 비교적 신뢰도가 높다. 클라우드 조직 546명·연령대·직급 세부 내용은 비즈니스 인사이더가 입수했다고 알려진 내부 문서를 인용한 2차 보도(Business Today, Qz, Business Standard 등)에 근거하며, 원문서 자체를 직접 확인하지는 못해 세부 수치(직급별 인원 등)의 정확도는 2차 보도 교차확인 수준임을 감안해야 한다.",
+        sources: [
+        {title:"Oracle layoffs top 2,500 workers as AI spending surge (TheStreet)", url:"https://www.thestreet.com/employment/oracle-layoffs-top-2500-workers-ai-spending-surge-2026"},
+        {title:"Oracle layoff: Workers over 40 bear the brunt of job cuts in cloud division (Business Today)", url:"https://www.businesstoday.in/technology/news/story/oracle-layoff-workers-over-40-bear-the-brunt-of-job-cuts-in-cloud-division-557238-2026-09-23"},
+        {title:"Oracle layoffs hit software developers, engineers hardest, document shows (Qz)", url:"https://qz.com/oracle-cloud-layoffs-software-developers-engineers-092226"},
+        {title:"Oracle job cuts hit middle managers, workers over 40 in cloud unit (Business Standard)", url:"https://www.business-standard.com/companies/news/oracle-job-cuts-hit-middle-managers-workers-over-40-in-cloud-unit-126092400300_1.html"},
+        ],
+      },
+      {
         date: "2026-09-24",
         headline: "오라클, 뉴멕시코 'Project Jupiter' AI데이터센터에 force majeure(불가항력) 통지 - 가스관 인허가 지연으로 CDS 사상 최고치 급등, 주가 -3~7%대 하락",
         importance: "high",
