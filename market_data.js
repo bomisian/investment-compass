@@ -237,6 +237,33 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Here's exactly what Paramount promised Hollywood to land WBD — and why some are still skeptical",
+      "summary": "Paramount CEO David Ellison's antitrust settlement eased some theatrical concerns, but questions remain about what happens when the five-year agreement ends.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/25/paramount-hollywood-promises.html",
+      "datetime": 1790375492,
+      "headlineKo": "파라마운트가 헐리우드에게 WBD를 도입하겠다고 약속한 내용과 일부 사람들이 여전히 회의적인 이유는 다음과 같습니다.",
+      "summaryKo": "파라마운트 CEO 데이비드 엘리슨(David Ellison)의 독점금지 합의는 일부 연극적 우려를 완화시켰지만 5년 계약이 종료되면 어떤 일이 일어날지에 대한 의문이 남아 있습니다."
+    },
+    {
+      "headline": "Iran will make no nuclear concessions, Iranian official says - Reuters",
+      "summary": "Iran will make no nuclear concessions, Iranian official says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORVpYNWQxeFFCcXEzQTZQdkM1LTJpVWc2RHpwOWtxbzV0OHg2aE12UGV1Y2VOQUN4WHdvOVB4YzBGT0ltckk5d0hDZGZUVXk3YWs0WnA5R2xjNmNBbkhHRzNra2pIQVlLa1pNQ29OV1QxQVdSTWJnaWZEYkVaaXJXa3d4cHVvV1o5VGlpWFRjUG9HVTFoMWw4TFZwNlI4aHJwQjU0UVRuZzJISFp0ZU9YQUw4VQ?oc=5",
+      "datetime": 1790368785,
+      "headlineKo": "이란은 핵 양보를 하지 않을 것이라고 이란 관리가 밝혔습니다 - 로이터",
+      "summaryKo": "이란은 핵 양보를 하지 않을 것이라고 이란 관리가 밝혔습니다."
+    },
+    {
+      "headline": "Iran's Araqchi says now up to US to accept 7-day plan - Reuters",
+      "summary": "Iran's Araqchi says now up to US to accept 7-day plan Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUmpYaGtLNnJmeGdiOGNJZVNJQVJ0eVNmRzdLNHdQWF9hVkFfZ3FkSmtwamwxUmpkdWJJNmxldmtYckJzUGpFblZsYzVLV19PeFd2ZkFvSmgxUDJZQUF4MUdSQXU4SjFlWmM2WU42clJWNUlVNy1DVkRmY2k3MEJoQkQteWVKdVlBaFNiLWVla3FnTXdHSUdBZGN4eXhNUDJfN2c?oc=5",
+      "datetime": 1790368569,
+      "headlineKo": "이란 아라크치 \"이제 미국이 7일 계획 수용할 것\"",
+      "summaryKo": "이란 아라크치 \"이제 미국이 7일 계획 수용할 것\""
+    },
+    {
       "headline": "What we want to see next week from one of Jim Cramer's 6 stocks to buy",
       "summary": "Micron has all the leverage heading into earnings as memory supply constraints persist. But how long will this favorable cycle last?",
       "source": "CNBC",
@@ -246,13 +273,13 @@ const MARKET_DATA = {
       "summaryKo": "Micron은 메모리 공급 제약이 지속됨에 따라 수익으로 향하는 모든 영향력을 갖고 있습니다. 하지만 이 유리한 사이클은 언제까지 지속될 것인가?"
     },
     {
-      "headline": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says - reuters.com",
-      "summary": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says reuters.com",
+      "headline": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says - Reuters",
+      "summary": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS3NaNENZd05ESDQwSFdrTGwyLUtGX3NzT1NiR0tzbWwtM282dHRxbkxLYTk2b1Rkd01xQldYM2ItTlNRV01wbnhDMWpZVkliRnBhMlFWYVg1VHh6bjRCVkQwVGFFamhhWWpJa0p5aHlVRkJpblI1UUZJeDN6VFg1Z1hhdGFBSklFN2ZyVjZ0b1IyNUpoMU5GN0tmTlZPMExVNFppU2ZSRGFwcW1QSElZaktmS3pXSElm?oc=5",
       "datetime": 1790362753,
-      "headlineKo": "트럼프, 시진핑에 중국의 이란 지원 경고",
-      "summaryKo": "트럼프, 시진핑에 중국의 이란 지원 경고"
+      "headlineKo": "트럼프, 시에 중국의 이란 지원 경고, 보증 받았다 - 로이터 통신",
+      "summaryKo": "트럼프, 시에 중국의 이란 지원 경고, 확신 받았다고 미 특사 로이터통신"
     },
     {
       "headline": "Microsoft gives Copilot a much-needed overhaul, and the stock deservedly soars",
@@ -264,13 +291,13 @@ const MARKET_DATA = {
       "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
     },
     {
-      "headline": "Hurt by Trump, Senate Republicans plan to bolster affordability credentials before midterms - reuters.com",
-      "summary": "Hurt by Trump, Senate Republicans plan to bolster affordability credentials before midterms reuters.com",
+      "headline": "Hurt by Trump, Senate Republicans plan to bolster affordability credentials before midterms - Reuters",
+      "summary": "Hurt by Trump, Senate Republicans plan to bolster affordability credentials before midterms Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLVpEek9KREFnOGlnd1c3RldyaGpVZ3BJUjdWemtCekdlWG5Qem9jXzJpbFpSTHNNTUFIYWtJM1JwdEgyTUFJTWYtZnBQWTJGZHJUS0tQX080Y1ZtS2Z6VHZOX1NiY2h0ZU5iWW9ZMk1yR2QyNGRGYUxMNzdRbzZ1VkFKaDVfM3ZZXzFVLWxMdFNIWG0wS01WN0xJY3VNQUFxaTFLZFp0dkdCTlowcXFSWklJem5HOU1FeDhXSjFuZzRWREpJWWI0MlExdw?oc=5",
       "datetime": 1790359558,
-      "headlineKo": "트럼프에 상처받은 공화당 상원은 중간선사 전에 경제성 자격을 강화할 계획이다 - reuters.com",
-      "summaryKo": "트럼프에 상처받은 공화당 상원 의원들은 중간선거 전에 경제성 자격을 강화할 계획입니다 reuters.com"
+      "headlineKo": "트럼프에 상처받은 공화당 상원 의원들은 중간고사 이전에 경제성 자격을 강화할 계획이다 - 로이터 통신",
+      "summaryKo": "트럼프의 타격을 입은 상원 공화당은 중간 선거 전에 경제성 자격을 강화할 계획입니다."
     },
     {
       "headline": "The iced coffee debate reflects 'everything wrong with hiring right now,' says career expert",
@@ -282,15 +309,6 @@ const MARKET_DATA = {
       "summaryKo": "아이스 커피는 인터넷을 통해 진행되는 세대 간 채용 논쟁의 중심에 있습니다. 한 직업 전문가는 이것이 무너진 취업 시장을 반영한다고 말합니다."
     },
     {
-      "headline": "Iran will make no nuclear concessions, Iranian official says - reuters.com",
-      "summary": "Iran will make no nuclear concessions, Iranian official says reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORVpYNWQxeFFCcXEzQTZQdkM1LTJpVWc2RHpwOWtxbzV0OHg2aE12UGV1Y2VOQUN4WHdvOVB4YzBGT0ltckk5d0hDZGZUVXk3YWs0WnA5R2xjNmNBbkhHRzNra2pIQVlLa1pNQ29OV1QxQVdSTWJnaWZEYkVaaXJXa3d4cHVvV1o5VGlpWFRjUG9HVTFoMWw4TFZwNlI4aHJwQjU0UVRuZzJISFp0ZU9YQUw4VQ?oc=5",
-      "datetime": 1790356117,
-      "headlineKo": "이란은 핵 양보를 하지 않을 것이라고 이란 관리가 밝혔습니다 - reuters.com",
-      "summaryKo": "이란은 핵 양보를 하지 않을 것이라고 이란 관리가 밝혔습니다."
-    },
-    {
       "headline": "10-year Treasury yield hit a 19-year high—and some investors see opportunity to buy bonds",
       "summary": "The 10-year Treasury yield hit its highest level since 2007. Here’s what higher yields can mean for bond investors and borrowers.",
       "source": "CNBC",
@@ -300,13 +318,22 @@ const MARKET_DATA = {
       "summaryKo": "10년 만기 국채 수익률은 2007년 이후 최고치를 기록했습니다. 채권 투자자와 대출자에게 더 높은 수익률이 의미하는 바는 다음과 같습니다."
     },
     {
-      "headline": "EXCLUSIVE: Qatar Airways retires idle A330s and sends pilots to RwandAir as Iran war drags - reuters.com",
-      "summary": "EXCLUSIVE: Qatar Airways retires idle A330s and sends pilots to RwandAir as Iran war drags reuters.com",
+      "headline": "Saudi Grand Mufti tells troops to be ready to sacrifice their lives fighting Houthis - Reuters",
+      "summary": "Saudi Grand Mufti tells troops to be ready to sacrifice their lives fighting Houthis Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTXZJVk41ZE5xYUdhR0dIQjd0eVNzaWlmNVd3VmNNZTEyc2dZOWlnZm1nYW9xU19UNTNia0ZLaDUya2xYcXpYRW1tcUJVa0phSUlfOU82SXJHZjc1WHJTUFV5MkNRZUJ0LXFOSG8zRUswZGtJbHktVkZPeGJKd1lUMVBldUlwbGlXOW5qYm1VbnhJVU9QQ0x3Z1ZtNVpjMTVRNXZOZTJvbHZyNjZINzBYc3hvYVpWRndIbldwWjBCUDhJMnhyWVNmTkhxVUU?oc=5",
+      "datetime": 1790347745,
+      "headlineKo": "사우디 그랜드 무프티(Saudi Grand Mufti)는 군대에 후티 반군과의 싸움에서 목숨을 바칠 준비가 되어 있다고 말했다 - 로이터",
+      "summaryKo": "사우디 그랜드 무프티(Saudi Grand Mufti), 후티 반군과의 전투에서 목숨을 바칠 준비가 되어 있다고 군대에 지시 - 최신"
+    },
+    {
+      "headline": "EXCLUSIVE: Qatar Airways retires idle A330s and sends pilots to RwandAir as Iran war drags - Reuters",
+      "summary": "EXCLUSIVE: Qatar Airways retires idle A330s and sends pilots to RwandAir as Iran war drags Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZU95VVVfeElqRlJLSHBPWFg3bE0zRjdvVFNIWGxSZF8zcDB4R2poelQ2MUFWR3Y2Y2FlSEp2OVVBcjdxSC1jNWhDQVhHQlpMbnp3SlZKR0ZFT0t4LVVwTEVrOUhhN0taRkh1SHAzM2VfeG0wTjhTcG12RXJCLW9WUVltTGlFb2dUdGdINl9fUktFcGg1UEhuQlY3WlU1ZUxGdG10ZDA3RkozdmE4aW9PSC1qaFJfcFQ1M08zVERyMVJOV1BzWDFRT0NKMjk?oc=5",
       "datetime": 1790343223,
-      "headlineKo": "독점: 카타르항공, 이란 전쟁으로 인해 유휴 A330을 퇴역시키고 조종사를 RwandAir에 파견 - reuters.com",
-      "summaryKo": "독점: 카타르항공, 이란 전쟁으로 인해 유휴 상태인 A330을 퇴역시키고 조종사를 RwandAir에 파견 reuters.com"
+      "headlineKo": "독점: 카타르항공, 이란 전쟁으로 인해 유휴 A330을 퇴역시키고 조종사를 RwandAir에 파견 - Reuters",
+      "summaryKo": "독점: 카타르항공은 이란 전쟁으로 인해 유휴 상태인 A330을 퇴역시키고 조종사를 RwandAir에 파견했습니다."
     },
     {
       "headline": "Top 10 things to watch in the stock market Friday",
@@ -316,45 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790341798,
       "headlineKo": "금요일 주식시장에서 주목해야 할 10가지",
       "summaryKo": "주식은 더 높은 시가를 향하고 있으며 S&P 500과 나스닥은 상승세를 기록할 준비가 되어 있습니다."
-    },
-    {
-      "headline": "Airlines waive flight-change fees ahead of nor'easter",
-      "summary": "Flight disruptions were minimal for Saturday as of Friday morning.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/25/flights-storm-new-york-boston-east-coast.html",
-      "datetime": 1790340744,
-      "headlineKo": "항공사, 동북아를 앞두고 항공편 변경 수수료 면제",
-      "summaryKo": "금요일 아침부터 토요일의 비행 중단은 최소화되었습니다."
-    },
-    {
-      "headline": "UAE markets decline after warning on regional air travel - reuters.com",
-      "summary": "UAE markets decline after warning on regional air travel reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdmc1cG4yNlZ5Z2FjX3VJcHhsVDJmX0JMTFdKZ2JBODlNY3RYRS1VeWNhbXJXTlRTTEhXRUlualU0dHo1SzU1b3hjUFVHUlhpLUhhZk11WVU0dlFDcHRXaTN1ZEctd0pXaEFxQnAySlJiMzNOZGNFWk9qZUJNaThzOVhmNk5NeWQ3U2NTMFJuSGw0LXdoUHVXQTdiRXZPc2ZaQ1hoVS1zczFnUzg?oc=5",
-      "datetime": 1790338663,
-      "headlineKo": "지역 항공 여행 경고 이후 UAE 시장 하락 - reuters.com",
-      "summaryKo": "UAE 시장은 지역 항공 여행에 대한 경고 이후 하락세를 보이고 있습니다 reuters.com"
-    },
-    {
-      "headline": "New study reveals the estate-planning choices that are likely to pit heirs against each other",
-      "summary": "The study identified contested trust disputes by examining thousands of civil filings that were scheduled to come before San Francisco Superior Court.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/25/study-estate-planning-heirs-legal-battles.html",
-      "datetime": 1790337602,
-      "headlineKo": "새로운 연구에 따르면 상속인들이 서로 대립할 가능성이 있는 유산 계획 선택이 밝혀졌습니다.",
-      "summaryKo": "이 연구에서는 샌프란시스코 고등법원에 제출될 예정인 수천 건의 민사 소송을 조사하여 신탁 분쟁에 대한 이의가 있는지 확인했습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790373681.0183227,
+  "_news_last_success_at": 1790377219.1653993,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790373666.961528,
-  "_updated_label": "2026-09-26 07:01",
-  "_last_attempt_at": 1790373666.961528,
-  "_last_success_at": 1790373666.961528,
+  "_fetched_at": 1790377203.320316,
+  "_updated_label": "2026-09-26 08:00",
+  "_last_attempt_at": 1790377203.320316,
+  "_last_success_at": 1790377203.320316,
   "_collection_status": "ok",
   "_collection_errors": []
 };
