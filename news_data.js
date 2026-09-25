@@ -2479,7 +2479,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "SPY": {
@@ -5251,7 +5251,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "MSFT": {
@@ -10087,7 +10087,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "GOOGL": {
@@ -15816,7 +15816,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "AMZN": {
@@ -21469,7 +21469,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 139,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "META": {
@@ -27351,7 +27351,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 149,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "AAPL": {
@@ -32785,7 +32785,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 131,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "TSLA": {
@@ -38206,7 +38206,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 132,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "ORCL": {
@@ -42929,11 +42929,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 107,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "CRM": {
-    "_last_attempt_at": 1790307933.6617064,
+    "_last_attempt_at": 1790330037.7023342,
     "nextEarnings": {
       "date": "2026-12-01",
       "hour": "amc",
@@ -42960,7 +42960,7 @@ const NEWS_DATA = {
           "facts": [
             "Salesforce에서 더 이상 알려주지 않는 내용은 무엇입니까?",
             "| Trefis Salesforce에서 더 이상 알려주지 않는 내용은 무엇입니까?",
-            "2026년 9월 24일 · Trefis Team CRM YTD -9.7% SPY YTD +13.2% QQQ YTD +20.9% CRM 분석 → Salesforce(CRM) 주식은 S&P 500의 5.0%에 비해 3개월 만에 56% 상승했습니다."
+            "2026년 9월 24일 · Trefis Team CRM YTD -9.5% SPY YTD +13.1% QQQ YTD +20.9% CRM 분석 → Salesforce(CRM) 주식은 S&P 500의 5.0%에 비해 3개월 만에 56% 상승했습니다."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
@@ -43000,9 +43000,9 @@ const NEWS_DATA = {
           "sourceExcerpt": [
             "What Is Salesforce No Longer Telling You?",
             "| Trefis What Is Salesforce No Longer Telling You?",
-            "September 24th, 2026 · by Trefis Team CRM YTD -9.7% SPY YTD +13.2% QQQ YTD +20.9% Analyze CRM → Salesforce (CRM) stock has gained 56% in three months, against 5.0% for the S&P 500."
+            "September 24th, 2026 · by Trefis Team CRM YTD -9.5% SPY YTD +13.1% QQQ YTD +20.9% Analyze CRM → Salesforce (CRM) stock has gained 56% in three months, against 5.0% for the S&P 500."
           ],
-          "analysisUpdatedAt": 1790307939.474674
+          "analysisUpdatedAt": 1790330044.464733
         },
         "headlineKo": "Salesforce에서 더 이상 알려주지 않는 내용은 무엇입니까?"
       },
@@ -43052,7 +43052,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790307941.6124716
+          "analysisUpdatedAt": 1790330046.849027
         },
         "headlineKo": "Zenity Labs, SalesBleed, 제로 클릭 CRM 데이터 도용 및 AI 에이전트 사칭을 가능하게 하는 Salesforce Agentforce 결함 3가지 발견"
       },
@@ -43101,7 +43101,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790307942.7105663
+          "analysisUpdatedAt": 1790330047.9281123
         },
         "headlineKo": "Palantir 대 Salesforce: One은 144배의 수익으로 거래합니다. 단 하나의 비용으로 소유할 수 있습니다."
       },
@@ -43221,7 +43221,7 @@ const NEWS_DATA = {
           "facts": [
             "Salesforce에서 더 이상 알려주지 않는 내용은 무엇입니까?",
             "| Trefis Salesforce에서 더 이상 알려주지 않는 내용은 무엇입니까?",
-            "2026년 9월 24일 · Trefis Team CRM YTD -9.7% SPY YTD +13.2% QQQ YTD +20.9% CRM 분석 → Salesforce(CRM) 주식은 S&P 500의 5.0%에 비해 3개월 만에 56% 상승했습니다."
+            "2026년 9월 24일 · Trefis Team CRM YTD -9.5% SPY YTD +13.1% QQQ YTD +20.9% CRM 분석 → Salesforce(CRM) 주식은 S&P 500의 5.0%에 비해 3개월 만에 56% 상승했습니다."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
@@ -43261,9 +43261,9 @@ const NEWS_DATA = {
           "sourceExcerpt": [
             "What Is Salesforce No Longer Telling You?",
             "| Trefis What Is Salesforce No Longer Telling You?",
-            "September 24th, 2026 · by Trefis Team CRM YTD -9.7% SPY YTD +13.2% QQQ YTD +20.9% Analyze CRM → Salesforce (CRM) stock has gained 56% in three months, against 5.0% for the S&P 500."
+            "September 24th, 2026 · by Trefis Team CRM YTD -9.5% SPY YTD +13.1% QQQ YTD +20.9% Analyze CRM → Salesforce (CRM) stock has gained 56% in three months, against 5.0% for the S&P 500."
           ],
-          "analysisUpdatedAt": 1790307939.474674
+          "analysisUpdatedAt": 1790330044.464733
         }
       },
       {
@@ -43312,7 +43312,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790307941.6124716
+          "analysisUpdatedAt": 1790330046.849027
         }
       },
       {
@@ -43360,7 +43360,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790307942.7105663
+          "analysisUpdatedAt": 1790330047.9281123
         }
       },
       {
@@ -46553,15 +46553,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790307933.6617064,
-    "_updated_label": "2026-09-25 12:45",
-    "_last_success_at": 1790307933.6617064,
+    "_fetched_at": 1790330037.7023342,
+    "_updated_label": "2026-09-25 18:54",
+    "_last_success_at": 1790330037.7023342,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "PLTR": {
@@ -51186,7 +51186,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "NVDA": {
@@ -57607,7 +57607,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 155,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "AMD": {
@@ -62552,7 +62552,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "AVGO": {
@@ -65943,7 +65943,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "QCOM": {
@@ -68962,7 +68962,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "ARM": {
@@ -71606,7 +71606,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "MRVL": {
@@ -74673,11 +74673,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "INTC": {
-    "_last_attempt_at": 1790307933.6617064,
+    "_last_attempt_at": 1790330037.7023342,
     "nextEarnings": {
       "date": "2026-10-22",
       "hour": "amc",
@@ -74686,6 +74686,70 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "AMD, INTC Stocks Extend Rally As Meta's Muse Fuels Bets On An AI-Agent CPU Boom",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c3298b332bf6a6a18a9675f56e98f1333aadc8c43944bd1ce7c05d5222092b6a",
+        "datetime": 1790307005,
+        "relevance": 0.75,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "메타의 뮤즈가 AI 에이전트 CPU 붐에 베팅하면서 AMD, INTC 주식은 상승세를 확장합니다. AI 에이전트 동향 뉴스 수익 전체 DIA 0.33% SPY 0.32% QQQ 0.54% 추세 AMD 2.11% MU 1.13% AKAM 23.02% FSLR 1.09% INTC 1.59% MRNA 0.61% ENPH 1.16% 유 0.05% AE",
+            "Meta의 Muse가 AI 에이전트 CPU 붐에 베팅하면서 AMD, INTC 주식이 반등을 확대했습니다. Agentic AI는 칩 인프라 및 CPU 수요에 대한 기대치를 재편하고 있습니다.",
+            "(사진: Mustafa Ciftci/Anadolu Agency/Getty Images) Yuvraj Malik · Stocktwits 게시일: 2026년 9월 24일 | 오후 11시 30분(EDT) 공유 · Meta의 Muse에 우리 추가 AI 에이전트는 CPU 수요 증가에 대한 기대를 불러일으키고 Intel, AMD 및 Arm 점유율을 높입니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.33%, 0.32%, 0.54% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "INTC에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.75,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.33%",
+            "0.32%",
+            "0.54%",
+            "2.11%",
+            "1.13%",
+            "23.02%",
+            "1.09%",
+            "1.59%"
+          ],
+          "sourceExcerpt": [
+            "AMD, INTC Stocks Extend Rally As Meta's Muse Fuels Bets On An AI-Agent CPU Boom AI Agent Trending News Earnings All DIA 0.33% SPY 0.32% QQQ 0.54% Trending AMD 2.11% MU 1.13% AKAM 23.02% FSLR 1.09% INTC 1.59% MRNA 0.61% ENPH 1.16% U 0.05% AE",
+            "AMD, INTC Stocks Extend Rally As Meta's Muse Fuels Bets On An AI-Agent CPU Boom Agentic AI is reshaping expectations for chip infrastructure and CPU demand.",
+            "(Photo by Mustafa Ciftci/Anadolu Agency/Getty Images) Yuvraj Malik · Stocktwits Published Sep 24, 2026 | 11:30 PM EDT Share · Add us on Meta’s Muse AI agent is fueling expectations of stronger CPU demand, lifting Intel, AMD and Arm shares s"
+          ],
+          "analysisUpdatedAt": 1790330054.7603204
+        },
+        "headlineKo": "AMD, INTC 주식은 Meta의 Muse가 AI 에이전트 CPU 붐에 베팅하면서 랠리를 확장합니다."
+      },
       {
         "headline": "Intel Shares Rise as Agentic AI Keeps CPUs in the Loop",
         "source": "Yahoo",
@@ -74731,7 +74795,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790307947.6991158
+          "analysisUpdatedAt": 1790330056.4259286
         },
         "headlineKo": "Agentic AI가 CPU를 루프에 유지함에 따라 Intel 주가 상승"
       },
@@ -74752,7 +74816,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "인텔은 YTD 223%의 이익 실현으로 3% 하락했습니다. AMD 하락 3%, NVIDIA 하락 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,713.60 +0.08% Dow Jones 51,417.70 +0.09% Nasdaq 100 30,553.60 +0.21% Russell 2000 2,841.58 +0.15% S&P 500 7,713.60 +0.08% 다우존스 51,417.70 +0.09% 나스닥 100 30,553.60 +0.21% 러셀 2000 2,841.58 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,737.80 +0.39% Dow Jones 51,548.70 +0.34% Nasdaq 100 30,691.20 +0.66% Russell 2000 2,847.08 +0.34% S&P 500 7,737.80 +0.39% 다우존스 51,548.70 +0.34% 나스닥 100 30,691.20 +0.66% 러셀 2000 2,847.08 +0.",
             "작성자: David Moadel 2026년 9월 24일 오전 9시 29분(ET) 게시 · 3분 읽기 Market Movers 데스크."
           ],
           "why": [
@@ -74792,10 +74856,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Intel Drops 3% as Profit Taking Follows 223% YTD Run; AMD Falls 3%, NVIDIA Slips - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,713.60 +0.08% Dow Jones 51,417.70 +0.09% Nasdaq 100 30,553.60 +0.21% Russell 2000 2,841.58 +0.15% S&P 500 7,713.60 +0.08% Dow Jones 51,417.70 +0.09% Nasdaq 100 30,553.60 +0.21% Russell 2000 2,841.58 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,737.80 +0.39% Dow Jones 51,548.70 +0.34% Nasdaq 100 30,691.20 +0.66% Russell 2000 2,847.08 +0.34% S&P 500 7,737.80 +0.39% Dow Jones 51,548.70 +0.34% Nasdaq 100 30,691.20 +0.66% Russell 2000 2,847.08 +0.",
             "By David Moadel Published September 24, 2026, 9:29am ET · 3 min read Market Movers desk."
           ],
-          "analysisUpdatedAt": 1790307951.3292992
+          "analysisUpdatedAt": 1790330060.480979
         },
         "headlineKo": "인텔은 YTD 223%의 이익 실현으로 3% 하락했습니다. AMD 3% 하락, NVIDIA 하락"
       },
@@ -74807,46 +74871,6 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Intel's 293% Rally Is Putting Its Valuation to the Test",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "INTC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel's 293% Rally Is Putting Its Valuation to the Test' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790307953.1628
-        },
         "headlineKo": "인텔의 293% 상승이 그 가치를 시험하고 있습니다"
       },
       {
@@ -74858,16 +74882,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Meta의 AI 에이전트가 데이터 센터에 CPU를 배치하고 있지만 Intel에게는 낙관적이지 않습니다."
-      },
-      {
-        "headline": "AMD vs. Intel: Which Artificial Intelligence (AI) Chip Stock Has More Room to Run?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=794749277dbf560f885831f9653682b7f04a44884acabdce2d72c55b702253e2",
-        "datetime": 1790248921,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "AMD 대 Intel: 어떤 인공 지능(AI) 칩 주식이 더 많은 실행 여지를 갖고 있습니까?"
       },
       {
         "headline": "Intel: No Bad Products, Just Bad Prices (Rating Downgrade)",
@@ -74932,6 +74946,69 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "AMD, INTC Stocks Extend Rally As Meta's Muse Fuels Bets On An AI-Agent CPU Boom",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c3298b332bf6a6a18a9675f56e98f1333aadc8c43944bd1ce7c05d5222092b6a",
+        "datetime": 1790307005,
+        "headlineKo": "AMD, INTC 주식은 Meta의 Muse가 AI 에이전트 CPU 붐에 베팅하면서 랠리를 확장합니다.",
+        "relevance": 0.75,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "메타의 뮤즈가 AI 에이전트 CPU 붐에 베팅하면서 AMD, INTC 주식은 상승세를 확장합니다. AI 에이전트 동향 뉴스 수익 전체 DIA 0.33% SPY 0.32% QQQ 0.54% 추세 AMD 2.11% MU 1.13% AKAM 23.02% FSLR 1.09% INTC 1.59% MRNA 0.61% ENPH 1.16% 유 0.05% AE",
+            "Meta의 Muse가 AI 에이전트 CPU 붐에 베팅하면서 AMD, INTC 주식이 반등을 확대했습니다. Agentic AI는 칩 인프라 및 CPU 수요에 대한 기대치를 재편하고 있습니다.",
+            "(사진: Mustafa Ciftci/Anadolu Agency/Getty Images) Yuvraj Malik · Stocktwits 게시일: 2026년 9월 24일 | 오후 11시 30분(EDT) 공유 · Meta의 Muse에 우리 추가 AI 에이전트는 CPU 수요 증가에 대한 기대를 불러일으키고 Intel, AMD 및 Arm 점유율을 높입니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.33%, 0.32%, 0.54% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "INTC에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.75,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.33%",
+            "0.32%",
+            "0.54%",
+            "2.11%",
+            "1.13%",
+            "23.02%",
+            "1.09%",
+            "1.59%"
+          ],
+          "sourceExcerpt": [
+            "AMD, INTC Stocks Extend Rally As Meta's Muse Fuels Bets On An AI-Agent CPU Boom AI Agent Trending News Earnings All DIA 0.33% SPY 0.32% QQQ 0.54% Trending AMD 2.11% MU 1.13% AKAM 23.02% FSLR 1.09% INTC 1.59% MRNA 0.61% ENPH 1.16% U 0.05% AE",
+            "AMD, INTC Stocks Extend Rally As Meta's Muse Fuels Bets On An AI-Agent CPU Boom Agentic AI is reshaping expectations for chip infrastructure and CPU demand.",
+            "(Photo by Mustafa Ciftci/Anadolu Agency/Getty Images) Yuvraj Malik · Stocktwits Published Sep 24, 2026 | 11:30 PM EDT Share · Add us on Meta’s Muse AI agent is fueling expectations of stronger CPU demand, lifting Intel, AMD and Arm shares s"
+          ],
+          "analysisUpdatedAt": 1790330054.7603204
+        }
+      },
+      {
         "headline": "Intel Shares Rise as Agentic AI Keeps CPUs in the Loop",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c7490e1cb2aca8f4de2138e1bb82a4f093f3b7da1ae3efd7d89337ea38ef1873",
@@ -74976,7 +75053,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790307947.6991158
+          "analysisUpdatedAt": 1790330056.4259286
         }
       },
       {
@@ -74996,7 +75073,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "인텔은 YTD 223%의 이익 실현으로 3% 하락했습니다. AMD 하락 3%, NVIDIA 하락 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,713.60 +0.08% Dow Jones 51,417.70 +0.09% Nasdaq 100 30,553.60 +0.21% Russell 2000 2,841.58 +0.15% S&P 500 7,713.60 +0.08% 다우존스 51,417.70 +0.09% 나스닥 100 30,553.60 +0.21% 러셀 2000 2,841.58 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,737.80 +0.39% Dow Jones 51,548.70 +0.34% Nasdaq 100 30,691.20 +0.66% Russell 2000 2,847.08 +0.34% S&P 500 7,737.80 +0.39% 다우존스 51,548.70 +0.34% 나스닥 100 30,691.20 +0.66% 러셀 2000 2,847.08 +0.",
             "작성자: David Moadel 2026년 9월 24일 오전 9시 29분(ET) 게시 · 3분 읽기 Market Movers 데스크."
           ],
           "why": [
@@ -75036,10 +75113,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Intel Drops 3% as Profit Taking Follows 223% YTD Run; AMD Falls 3%, NVIDIA Slips - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,713.60 +0.08% Dow Jones 51,417.70 +0.09% Nasdaq 100 30,553.60 +0.21% Russell 2000 2,841.58 +0.15% S&P 500 7,713.60 +0.08% Dow Jones 51,417.70 +0.09% Nasdaq 100 30,553.60 +0.21% Russell 2000 2,841.58 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,737.80 +0.39% Dow Jones 51,548.70 +0.34% Nasdaq 100 30,691.20 +0.66% Russell 2000 2,847.08 +0.34% S&P 500 7,737.80 +0.39% Dow Jones 51,548.70 +0.34% Nasdaq 100 30,691.20 +0.66% Russell 2000 2,847.08 +0.",
             "By David Moadel Published September 24, 2026, 9:29am ET · 3 min read Market Movers desk."
           ],
-          "analysisUpdatedAt": 1790307951.3292992
+          "analysisUpdatedAt": 1790330060.480979
         }
       },
       {
@@ -79122,15 +79199,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790307933.6617064,
-    "_updated_label": "2026-09-25 12:45",
-    "_last_success_at": 1790307933.6617064,
+    "_fetched_at": 1790330037.7023342,
+    "_updated_label": "2026-09-25 18:54",
+    "_last_success_at": 1790330037.7023342,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 111,
+      "checked": 112,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "TSM": {
@@ -81493,7 +81570,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "ASML": {
@@ -83489,7 +83566,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "AMAT": {
@@ -85725,7 +85802,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "LRCX": {
@@ -86812,11 +86889,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1790307933.6617064,
+    "_last_attempt_at": 1790330037.7023342,
     "nextEarnings": {
       "date": "2026-10-27",
       "hour": "",
@@ -86871,7 +86948,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790307958.3348205
+          "analysisUpdatedAt": 1790330066.174596
         },
         "headlineKo": "Teradyne, AI 테스트 포트폴리오 강화: KLAC & COHU를 이길 수 있을까요?"
       },
@@ -86921,7 +86998,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790307960.5275788
+          "analysisUpdatedAt": 1790330068.788768
         },
         "headlineKo": "Zacks 분석가 블로그에서는 Applied Materials, Lam Research 및 KLA를 강조합니다."
       },
@@ -86971,7 +87048,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790307962.850276
+          "analysisUpdatedAt": 1790330070.8400068
         },
         "headlineKo": "KLA(KLAC)는 반도체 계측 분야에서 역할을 심화하고 있습니다."
       },
@@ -87043,7 +87120,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790307958.3348205
+          "analysisUpdatedAt": 1790330066.174596
         }
       },
       {
@@ -87092,7 +87169,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790307960.5275788
+          "analysisUpdatedAt": 1790330068.788768
         }
       },
       {
@@ -87141,7 +87218,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790307962.850276
+          "analysisUpdatedAt": 1790330070.8400068
         }
       },
       {
@@ -87886,15 +87963,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790307933.6617064,
-    "_updated_label": "2026-09-25 12:46",
-    "_last_success_at": 1790307933.6617064,
+    "_fetched_at": 1790330037.7023342,
+    "_updated_label": "2026-09-25 18:54",
+    "_last_success_at": 1790330037.7023342,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "MU": {
@@ -93411,7 +93488,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 131,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "SNDK": {
@@ -96684,7 +96761,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "WDC": {
@@ -98133,7 +98210,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "ANET": {
@@ -99730,7 +99807,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "COHR": {
@@ -101334,7 +101411,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "LITE": {
@@ -102875,7 +102952,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "GEV": {
@@ -105596,7 +105673,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "CEG": {
@@ -107021,7 +107098,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "VST": {
@@ -108410,7 +108487,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "ETN": {
@@ -109869,7 +109946,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "PWR": {
@@ -111484,7 +111561,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "HUBB": {
@@ -112030,11 +112107,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "VRT": {
-    "_last_attempt_at": 1790307933.6617064,
+    "_last_attempt_at": 1790330037.7023342,
     "nextEarnings": {
       "date": "2026-10-20",
       "hour": "",
@@ -112089,7 +112166,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790307967.83004
+          "analysisUpdatedAt": 1790330076.6234798
         },
         "headlineKo": "Ameresco, NN, FuelCell Energy, Vertiv 및 Blue Bird 주가 급락, 알아야 할 사항"
       },
@@ -112157,7 +112234,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790307969.587167
+          "analysisUpdatedAt": 1790330078.8735976
         },
         "headlineKo": "Vertiv Holdings(VRT)의 14억 5천만 달러 UIG 거래로 AI 인프라 성장이 가속화될까요?"
       },
@@ -112221,7 +112298,7 @@ const NEWS_DATA = {
             "Management called each of these deals immaterial to results, but TIKR’s cash flow data show Vertiv spent close to $1.46 billion in cash on acquisitions across just the last four reported quarters.",
             "GAAP operating margin swung from 21.17% in December 2025 to a two year low of 16.37% the very next quarter, right after the single largest acquisition outlay in that window, before climbing back to 19.48% in June 2026."
           ],
-          "analysisUpdatedAt": 1790307971.7995691
+          "analysisUpdatedAt": 1790330081.3193617
         },
         "headlineKo": "Vertiv의 연속 M&A 과정: '중요하지 않은' 거래에서 15억 달러가 수익에 미치는 영향"
       },
@@ -112293,7 +112370,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790307967.83004
+          "analysisUpdatedAt": 1790330076.6234798
         }
       },
       {
@@ -112360,7 +112437,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790307969.587167
+          "analysisUpdatedAt": 1790330078.8735976
         }
       },
       {
@@ -112423,7 +112500,7 @@ const NEWS_DATA = {
             "Management called each of these deals immaterial to results, but TIKR’s cash flow data show Vertiv spent close to $1.46 billion in cash on acquisitions across just the last four reported quarters.",
             "GAAP operating margin swung from 21.17% in December 2025 to a two year low of 16.37% the very next quarter, right after the single largest acquisition outlay in that window, before climbing back to 19.48% in June 2026."
           ],
-          "analysisUpdatedAt": 1790307971.7995691
+          "analysisUpdatedAt": 1790330081.3193617
         }
       },
       {
@@ -113655,19 +113732,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790307933.6617064,
-    "_updated_label": "2026-09-25 12:46",
-    "_last_success_at": 1790307933.6617064,
+    "_fetched_at": 1790330037.7023342,
+    "_updated_label": "2026-09-25 18:54",
+    "_last_success_at": 1790330037.7023342,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "MOD": {
-    "_last_attempt_at": 1790307933.6617064,
+    "_last_attempt_at": 1790330037.7023342,
     "nextEarnings": {
       "date": "2026-10-26",
       "hour": "",
@@ -113722,7 +113799,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790307977.8469756
+          "analysisUpdatedAt": 1790330086.818077
         },
         "headlineKo": "시장 하락으로 모딘(MOD) 상승: 주요 사실"
       },
@@ -113772,7 +113849,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790307979.595944
+          "analysisUpdatedAt": 1790330089.1908484
         },
         "headlineKo": "Modine(MOD)은 더 넓은 시장보다 더 하락합니다: 알아야 할 사항"
       },
@@ -113822,7 +113899,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790307981.9112842
+          "analysisUpdatedAt": 1790330091.848445
         },
         "headlineKo": "월스트리트 상승세는 Modine(MOD)에 대해 낙관적입니다. 매수해야 할까요?"
       },
@@ -113894,7 +113971,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790307977.8469756
+          "analysisUpdatedAt": 1790330086.818077
         }
       },
       {
@@ -113943,7 +114020,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790307979.595944
+          "analysisUpdatedAt": 1790330089.1908484
         }
       },
       {
@@ -113992,7 +114069,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790307981.9112842
+          "analysisUpdatedAt": 1790330091.848445
         }
       },
       {
@@ -114357,15 +114434,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790307933.6617064,
-    "_updated_label": "2026-09-25 12:46",
-    "_last_success_at": 1790307933.6617064,
+    "_fetched_at": 1790330037.7023342,
+    "_updated_label": "2026-09-25 18:54",
+    "_last_success_at": 1790330037.7023342,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "STX": {
@@ -115768,7 +115845,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "EME": {
@@ -116722,7 +116799,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "FIX": {
@@ -117488,7 +117565,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   },
   "BE": {
@@ -118914,7 +118991,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-25 18:30"
+      "updated": "2026-09-25 18:54"
     }
   }
 };
