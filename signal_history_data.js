@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790352495.2476544,
+  "generatedAt": 1790354038.396878,
   "records": {
     "MSFT": [
       {
@@ -8865,6 +8865,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "TSLA": [
       {
+        "changedAt": 1790354038.396878,
+        "dataAsOf": 1790343660,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.57,
+            "after": 1.22
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.57,
+            "after": 0.87
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.0,
+            "after": -0.35
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Tesla 대 Nvidia: 2030년까지 어떤 물리적 AI 주식이 로봇 공학에 더 큰 이익을 가져다 줄까요?",
+        "newsUrl": "https://finnhub.io/api/news?id=88a9a2463ad560bf98a70bdf368f50d37851890301dd6f8fb9d20ea242b18aa1",
+        "eventId": "59daeb17ee701d11a433",
+        "fingerprint": "{\"changes\": [{\"after\": 1.22, \"before\": 1.57, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.87, \"before\": 1.57, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.35, \"before\": 0.0, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"59daeb17ee701d11a433\"}"
+      },
+      {
         "changedAt": 1790350660.7806306,
         "dataAsOf": 1790343660,
         "changes": [
@@ -10532,23 +10561,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=3f6ec1b9d6f274f5f3fd77b2010b11c4b1c8b8f4cc95e56aaa7ba70f620d8ee7",
         "eventId": "bd5f35ecf60ff20643b4",
         "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": 0.35, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"bd5f35ecf60ff20643b4\"}"
-      },
-      {
-        "changedAt": 1788872569.6770327,
-        "dataAsOf": 1788848488,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": -4.55,
-            "after": -5
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "Tesla: Elon은 Robotaxi Moonshot을 향해 가고 있습니다",
-        "newsUrl": "https://finnhub.io/api/news?id=3f6ec1b9d6f274f5f3fd77b2010b11c4b1c8b8f4cc95e56aaa7ba70f620d8ee7",
-        "eventId": "bd5f35ecf60ff20643b4",
-        "fingerprint": "{\"changes\": [{\"after\": -5, \"before\": -4.55, \"key\": \"growth\", \"label\": \"성장성\"}], \"eventId\": \"bd5f35ecf60ff20643b4\"}"
       }
     ],
     "ORCL": [
@@ -15967,6 +15979,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1790354038.396878,
+        "dataAsOf": 1790350860,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 3.85,
+            "after": 4.2
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "RMX, NVIDIA H200 GPU용 Technologent와 컴퓨팅 공급 구매 주문 체결",
+        "newsUrl": "https://finnhub.io/api/news?id=d05d7e5b8acc8a9d9c8bbe429e8bbb4fb5650437aa1d053eac4c4f5193fbe33d",
+        "eventId": "8b6f77d3a957b3007f27",
+        "fingerprint": "{\"changes\": [{\"after\": 4.2, \"before\": 3.85, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"8b6f77d3a957b3007f27\"}"
+      },
+      {
         "changedAt": 1790331965.2839081,
         "dataAsOf": 1790330700,
         "changes": [
@@ -17286,23 +17315,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=48ea559406f5409722baf8cd9abf2e5821bffab691f5f4773d1036deae3251b3",
         "eventId": "bcba7600d99e974215ca",
         "fingerprint": "{\"changes\": [{\"after\": 2.27, \"before\": 1.92, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"bcba7600d99e974215ca\"}"
-      },
-      {
-        "changedAt": 1789024999.702858,
-        "dataAsOf": 1788998437,
-        "changes": [
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": 0.0,
-            "after": -0.35
-          }
-        ],
-        "cause": "AI 컴퓨팅 수요 확대 가능성",
-        "newsHeadline": "AI 연구 스타트업 Listen Labs는 Salesforce 강연을 위해 15억 달러 자금 조달 라운드를 취소했습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=b2c907e57a2108a79ff71459f4dcefee7104f52adc9852990f8235668aec4799",
-        "eventId": "56a1cac3074a99cfdcd0",
-        "fingerprint": "{\"changes\": [{\"after\": -0.35, \"before\": 0.0, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}], \"eventId\": \"56a1cac3074a99cfdcd0\"}"
       }
     ],
     "AMD": [
