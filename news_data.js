@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1790309850.5880222,
+    "_last_attempt_at": 1790331909.7676473,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -16,24 +16,22 @@ const NEWS_DATA = {
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500, Dow, Nasdaq 선물은 국채 수익률이 계속 급등함에 따라 완화됩니다 — ORCL, META, AKAM, GOOGL, MGM In Focus AI 에이전트 동향 뉴스 수익 전체 DIA 0.10% SPY 0.03% QQQ 0.11% 추세 BB 0.69% BCRX 0.58% TLT 0.13% AMZN 0.56% QNT 32.56% FS",
-            "국채 수익률이 계속 급등하면서 S&P 500, Dow, Nasdaq 선물 완화 — ORCL, META, AKAM, GOOGL, MGM In Focus 국채 수익률은 인플레이션 우려로 인해 상승세를 재개했습니다.",
-            "거래자들이 2026년 8월 5일 오전 거래 중에 뉴욕 증권 거래소 바닥에서 일하고 있습니다."
+            "S&P 500, Dow, Nasdaq Futures Ease As Treasury Yields Continue To Spike — ORCL, META, AKAM, GOOGL, MGM In Focus",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.10%, 0.03%, 0.11% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -43,30 +41,18 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'S&P 500, Dow, Nasdaq Futures Ease As Treasury Yields Continue To Spike — ORCL, META, AKAM, GOOGL, MGM In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.10%",
-            "0.03%",
-            "0.11%",
-            "0.69%",
-            "0.58%",
-            "0.13%",
-            "0.56%",
-            "32.56%"
-          ],
-          "sourceExcerpt": [
-            "S&P 500, Dow, Nasdaq Futures Ease As Treasury Yields Continue To Spike — ORCL, META, AKAM, GOOGL, MGM In Focus AI Agent Trending News Earnings All DIA 0.10% SPY 0.03% QQQ 0.11% Trending BB 0.69% BCRX 0.58% TLT 0.13% AMZN 0.56% QNT 32.56% FS",
-            "S&P 500, Dow, Nasdaq Futures Ease As Treasury Yields Continue To Spike — ORCL, META, AKAM, GOOGL, MGM In Focus Treasury yields resumed their march higher amid inflation concerns.",
-            "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
-          ],
-          "analysisUpdatedAt": 1790309856.468021
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790331914.121937
         },
         "headlineKo": "국채 수익률이 계속 급등함에 따라 S&P 500, Dow, Nasdaq 선물 완화 — ORCL, META, AKAM, GOOGL, MGM 집중"
       },
@@ -116,7 +102,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790309857.3721094
+          "analysisUpdatedAt": 1790331914.965873
         },
         "headlineKo": "SPY 또는 QQQ 구매, 소프트웨어 보유, 반도체 판매"
       },
@@ -166,7 +152,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790309859.4809856
+          "analysisUpdatedAt": 1790331916.8434274
         },
         "headlineKo": "Zacks 투자 아이디어 주요 특징: GLD, QQQ, USO, MU 및 TWLO"
       },
@@ -202,24 +188,22 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500, Dow, Nasdaq 선물은 국채 수익률이 계속 급등함에 따라 완화됩니다 — ORCL, META, AKAM, GOOGL, MGM In Focus AI 에이전트 동향 뉴스 수익 전체 DIA 0.10% SPY 0.03% QQQ 0.11% 추세 BB 0.69% BCRX 0.58% TLT 0.13% AMZN 0.56% QNT 32.56% FS",
-            "국채 수익률이 계속 급등하면서 S&P 500, Dow, Nasdaq 선물 완화 — ORCL, META, AKAM, GOOGL, MGM In Focus 국채 수익률은 인플레이션 우려로 인해 상승세를 재개했습니다.",
-            "거래자들이 2026년 8월 5일 오전 거래 중에 뉴욕 증권 거래소 바닥에서 일하고 있습니다."
+            "S&P 500, Dow, Nasdaq Futures Ease As Treasury Yields Continue To Spike — ORCL, META, AKAM, GOOGL, MGM In Focus",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.10%, 0.03%, 0.11% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -229,30 +213,18 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'S&P 500, Dow, Nasdaq Futures Ease As Treasury Yields Continue To Spike — ORCL, META, AKAM, GOOGL, MGM In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.10%",
-            "0.03%",
-            "0.11%",
-            "0.69%",
-            "0.58%",
-            "0.13%",
-            "0.56%",
-            "32.56%"
-          ],
-          "sourceExcerpt": [
-            "S&P 500, Dow, Nasdaq Futures Ease As Treasury Yields Continue To Spike — ORCL, META, AKAM, GOOGL, MGM In Focus AI Agent Trending News Earnings All DIA 0.10% SPY 0.03% QQQ 0.11% Trending BB 0.69% BCRX 0.58% TLT 0.13% AMZN 0.56% QNT 32.56% FS",
-            "S&P 500, Dow, Nasdaq Futures Ease As Treasury Yields Continue To Spike — ORCL, META, AKAM, GOOGL, MGM In Focus Treasury yields resumed their march higher amid inflation concerns.",
-            "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
-          ],
-          "analysisUpdatedAt": 1790309856.468021
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790331914.121937
         }
       },
       {
@@ -301,7 +273,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790309857.3721094
+          "analysisUpdatedAt": 1790331914.965873
         }
       },
       {
@@ -350,7 +322,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790309859.4809856
+          "analysisUpdatedAt": 1790331916.8434274
         }
       },
       {
@@ -2471,15 +2443,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790309850.5880222,
-    "_updated_label": "2026-09-25 13:17",
-    "_last_success_at": 1790309850.5880222,
+    "_fetched_at": 1790331909.7676473,
+    "_updated_label": "2026-09-25 19:25",
+    "_last_success_at": 1790331909.7676473,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "SPY": {
@@ -5251,7 +5223,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "MSFT": {
@@ -10087,7 +10059,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "GOOGL": {
@@ -15816,11 +15788,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "AMZN": {
-    "_last_attempt_at": 1790309850.5880222,
+    "_last_attempt_at": 1790331909.7676473,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "amc",
@@ -15829,6 +15801,120 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Amazon Expands Multichannel Tools for Sellers",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1d89233df2262df587fa4c4e8b47f7685d6b7d557dcd9b37e541ada25154226b",
+        "datetime": 1790327438,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Amazon Expands Multichannel Tools for Sellers",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon Expands Multichannel Tools for Sellers' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790331924.2637107
+        },
+        "headlineKo": "Amazon, 판매자를 위한 다중 채널 도구 확장"
+      },
+      {
+        "headline": "AMZN, META, GOOGL, MSFT, ORCL: Michael Burry Sounds Fresh Alarm On Big Tech’s AI Spending, Warns Of Massive Write-Offs In Two Years",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f89acd32dcc2c1ef8bb9f33a485a41b9ffa9dd8d4a5696db1f8e025be8438861",
+        "datetime": 1790315218,
+        "relevance": 0.75,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "장기 공급계약 · 매출 가시성 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AMZN, META, GOOGL, MSFT, ORCL: Michael Burry가 거대 기술 기업의 AI 지출에 대해 새로운 경고를 보내고 2년 안에 대규모 상각을 경고함 AI 에이전트 동향 뉴스 수익 전체 DIA 0.30% SPY 0.35% QQQ 0.60% 추세 AMD 2.18% MU 1.30% AKAM 23.62% ON",
+            "AMZN, META, GOOGL, MSFT, ORCL: Michael Burry는 Big Tech의 AI 지출에 대해 새로운 경고를 보내고 2년 안에 대규모 상각을 경고합니다. Burry는 레버리지 증가, 부외 약정 및 회계 관행을 AI 인프라 분야로 표시합니다.",
+            "마이클 버리(Michael Burry)가 2015년 11월 23일 뉴욕시 지그펠트 극장(Ziegfeld Theatre)에서 열린 \"The Big Short\" 뉴욕 프리미어에 참석했습니다."
+          ],
+          "why": [
+            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.30%, 0.35%, 0.60% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 기간·최소구매 조건",
+            "연도별 매출 인식",
+            "수주잔고·취소 조건"
+          ],
+          "interpretation": "AMZN에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.75,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.30%",
+            "0.35%",
+            "0.60%",
+            "2.18%",
+            "1.30%",
+            "23.62%",
+            "31.21%",
+            "0.49%"
+          ],
+          "sourceExcerpt": [
+            "AMZN, META, GOOGL, MSFT, ORCL: Michael Burry Sounds Fresh Alarm On Big Tech’s AI Spending, Warns Of Massive Write-Offs In Two Years AI Agent Trending News Earnings All DIA 0.30% SPY 0.35% QQQ 0.60% Trending AMD 2.18% MU 1.30% AKAM 23.62% ON",
+            "AMZN, META, GOOGL, MSFT, ORCL: Michael Burry Sounds Fresh Alarm On Big Tech’s AI Spending, Warns Of Massive Write-Offs In Two Years Burry flags rising leverage, off-balance-sheet commitments and accounting practices as AI infrastructure spe",
+            "Michael Burry attends \"The Big Short\" New York Premiere at Ziegfeld Theater on November 23, 2015 in New York City."
+          ],
+          "analysisUpdatedAt": 1790331927.4297597
+        },
+        "headlineKo": "AMZN, META, GOOGL, MSFT, ORCL: Michael Burry는 Big Tech의 AI 지출에 대해 새로운 경종을 울리고 2년 안에 대규모 상각을 경고합니다."
+      },
       {
         "headline": "Microsoft vs. Amazon: Which AI Cloud Stock Converts Capex Into Profits Better?",
         "source": "Yahoo",
@@ -15874,7 +15960,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790309865.106666
+          "analysisUpdatedAt": 1790331930.5268304
         },
         "headlineKo": "Microsoft 대 Amazon: 어떤 AI 클라우드 주식이 Capex를 이익으로 더 잘 전환합니까?"
       },
@@ -15886,46 +15972,6 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Shopify Opens Its Doors to Muse, Here’s Why Amazon Won’t",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMZN",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Shopify Opens Its Doors to Muse, Here’s Why Amazon Won’t' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790309867.4891648
-        },
         "headlineKo": "Shopify가 Muse에 문을 열었습니다. Amazon이 그렇지 않은 이유는 다음과 같습니다."
       },
       {
@@ -15936,69 +15982,19 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Amazon Stock Dips After $100 Million Indiana Manufacturing Push",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMZN",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon Stock Dips After $100 Million Indiana Manufacturing Push' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790309868.929719
-        },
         "headlineKo": "1억 달러 규모의 인디애나 제조업 추진 이후 아마존 주가 하락"
-      },
-      {
-        "headline": "Amazon Opens Seller Data to Claude Days After Blocking Meta’s Muse",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=53ea65417720a161a139ad15411eaf521e1787a0891d3fcfe3b1668495ec56a6",
-        "datetime": 1790280732,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Amazon은 Meta의 Muse를 차단한 후 며칠 만에 판매자 데이터를 Claude에게 공개합니다."
       },
       {
         "headline": "Amazon Faces Another Worker Lawsuit. Is Employment Scrutiny Becoming an Investor Risk?",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a97ac1e573880911176468b598d01eac02501771761389edb0d3b093887e444b",
         "datetime": 1790280517,
+        "headlineKo": "아마존, 또 다른 근로자 소송 직면. 고용 조사가 투자자 위험이 되고 있습니까?",
         "relevance": 0.5,
         "keywordFlag": true,
         "flagTerms": [
           "lawsuit"
-        ],
-        "headlineKo": "아마존, 또 다른 근로자 소송 직면. 고용 조사가 투자자 위험이 되고 있습니까?"
+        ]
       },
       {
         "headline": "Amazon (AMZN) Sued Again, This Time over How it Treats Pregnant Warehouse Workers",
@@ -16226,6 +16222,118 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "Amazon Expands Multichannel Tools for Sellers",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1d89233df2262df587fa4c4e8b47f7685d6b7d557dcd9b37e541ada25154226b",
+        "datetime": 1790327438,
+        "headlineKo": "Amazon, 판매자를 위한 다중 채널 도구 확장",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Amazon Expands Multichannel Tools for Sellers",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon Expands Multichannel Tools for Sellers' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790331924.2637107
+        }
+      },
+      {
+        "headline": "AMZN, META, GOOGL, MSFT, ORCL: Michael Burry Sounds Fresh Alarm On Big Tech’s AI Spending, Warns Of Massive Write-Offs In Two Years",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f89acd32dcc2c1ef8bb9f33a485a41b9ffa9dd8d4a5696db1f8e025be8438861",
+        "datetime": 1790315218,
+        "headlineKo": "AMZN, META, GOOGL, MSFT, ORCL: Michael Burry는 Big Tech의 AI 지출에 대해 새로운 경종을 울리고 2년 안에 대규모 상각을 경고합니다.",
+        "relevance": 0.75,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "장기 공급계약 · 매출 가시성 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AMZN, META, GOOGL, MSFT, ORCL: Michael Burry가 거대 기술 기업의 AI 지출에 대해 새로운 경고를 보내고 2년 안에 대규모 상각을 경고함 AI 에이전트 동향 뉴스 수익 전체 DIA 0.30% SPY 0.35% QQQ 0.60% 추세 AMD 2.18% MU 1.30% AKAM 23.62% ON",
+            "AMZN, META, GOOGL, MSFT, ORCL: Michael Burry는 Big Tech의 AI 지출에 대해 새로운 경고를 보내고 2년 안에 대규모 상각을 경고합니다. Burry는 레버리지 증가, 부외 약정 및 회계 관행을 AI 인프라 분야로 표시합니다.",
+            "마이클 버리(Michael Burry)가 2015년 11월 23일 뉴욕시 지그펠트 극장(Ziegfeld Theatre)에서 열린 \"The Big Short\" 뉴욕 프리미어에 참석했습니다."
+          ],
+          "why": [
+            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.30%, 0.35%, 0.60% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 기간·최소구매 조건",
+            "연도별 매출 인식",
+            "수주잔고·취소 조건"
+          ],
+          "interpretation": "AMZN에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.75,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.30%",
+            "0.35%",
+            "0.60%",
+            "2.18%",
+            "1.30%",
+            "23.62%",
+            "31.21%",
+            "0.49%"
+          ],
+          "sourceExcerpt": [
+            "AMZN, META, GOOGL, MSFT, ORCL: Michael Burry Sounds Fresh Alarm On Big Tech’s AI Spending, Warns Of Massive Write-Offs In Two Years AI Agent Trending News Earnings All DIA 0.30% SPY 0.35% QQQ 0.60% Trending AMD 2.18% MU 1.30% AKAM 23.62% ON",
+            "AMZN, META, GOOGL, MSFT, ORCL: Michael Burry Sounds Fresh Alarm On Big Tech’s AI Spending, Warns Of Massive Write-Offs In Two Years Burry flags rising leverage, off-balance-sheet commitments and accounting practices as AI infrastructure spe",
+            "Michael Burry attends \"The Big Short\" New York Premiere at Ziegfeld Theater on November 23, 2015 in New York City."
+          ],
+          "analysisUpdatedAt": 1790331927.4297597
+        }
+      },
+      {
         "headline": "Microsoft vs. Amazon: Which AI Cloud Stock Converts Capex Into Profits Better?",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a472dbfca3b00ba5b8d30e0077a3fced1967311cf6f34695ced5853e3844b337",
@@ -16270,7 +16378,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790309865.106666
+          "analysisUpdatedAt": 1790331930.5268304
         }
       },
       {
@@ -21461,15 +21569,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790309850.5880222,
-    "_updated_label": "2026-09-25 13:17",
-    "_last_success_at": 1790309850.5880222,
+    "_fetched_at": 1790331909.7676473,
+    "_updated_label": "2026-09-25 19:25",
+    "_last_success_at": 1790331909.7676473,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 139,
+      "checked": 142,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "META": {
@@ -27351,7 +27459,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 149,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "AAPL": {
@@ -32785,7 +32893,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 131,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "TSLA": {
@@ -38206,7 +38314,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 132,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "ORCL": {
@@ -42929,7 +43037,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 107,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "CRM": {
@@ -46561,7 +46669,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "PLTR": {
@@ -51186,11 +51294,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "NVDA": {
-    "_last_attempt_at": 1790309850.5880222,
+    "_last_attempt_at": 1790331909.7676473,
     "nextEarnings": {
       "date": "2026-11-17",
       "hour": "amc",
@@ -51200,11 +51308,75 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "How IonQ’s On‑Prem Quantum System At NVIDIA (NVDA) Has Changed Its Investment Story",
+        "headline": "Meet the Super Semiconductor ETF With 34.7% of Its Assets Parked in Intel, AMD, Micron, and Nvidia",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4784373fb8232e480a49640a551fa8f29166563af084adccb7b708ebaa5e58fd",
-        "datetime": 1790295675,
-        "relevance": 1.0,
+        "url": "https://finnhub.io/api/news?id=0a631d22b6ed00e3abc504ac0fd0827111496f55bf2c86927c032fbecf5cd453",
+        "datetime": 1790330700,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "공급망 · 생산 차질 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Intel, AMD, Micron, Nvidia에 자산의 34.7%가 투자된 Super Semiconductor ETF를 만나보세요 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% The Motley Fool에 합류 The iShares Semiconductor ETF (",
+            "ETF는 30개의 반도체 주식을 보유하고 있지만 자산의 상당 부분이 Intel, Advanced Micro Devices, Micron Technology 및 Nvidia 등 상위 4개 포지션에 집중되어 있습니다.",
+            "2026년 해당 주식의 폭발적인 수익률로 인해 ETF는 연초 대비 90%의 수익률을 달성했지만, 아직 투자자들이 이를 매수할 시간이 있을까요?"
+          ],
+          "why": [
+            "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 90%, 9.86%, 9.48% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "주문은 있어도 부품이나 생산 문제로 제때 팔지 못할 수 있다는 뉴스입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "출하 지연 기간",
+            "재고와 리드타임",
+            "매출총이익률·대체 공급처"
+          ],
+          "interpretation": "NVDA에 대한 공급망 · 생산 차질 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "90%",
+            "9.86%",
+            "9.48%",
+            "7.90%",
+            "7.47%",
+            "0.06 %",
+            "$ 0.35",
+            "$ 566.07"
+          ],
+          "sourceExcerpt": [
+            "Meet the Super Semiconductor ETF With 34.7% of Its Assets Parked in Intel, AMD, Micron, and Nvidia | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The iShares Semiconductor ETF ( ",
+            "Although the ETF holds 30 semiconductor stocks, a substantial portion of its assets is concentrated in its top four positions: Intel , Advanced Micro Devices , Micron Technology , and Nvidia .",
+            "The blistering returns in those stocks during 2026 have fueled a 90% year-to-date return in the ETF, but is there still time for investors to buy it?"
+          ],
+          "analysisUpdatedAt": 1790331939.598698
+        },
+        "headlineKo": "자산의 34.7%가 Intel, AMD, Micron, Nvidia에 편입된 Super Semiconductor ETF를 만나보세요"
+      },
+      {
+        "headline": "Zacks Market Edge Highlights: McDonald's, Sandisk and NVIDIA",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8a1db3c4993388547c2438acd3c0f62f94b64d6f0b9cf70d4aa37f7f8a98d346",
+        "datetime": 1790326440,
+        "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
@@ -51215,7 +51387,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "How IonQ’s On‑Prem Quantum System At NVIDIA (NVDA) Has Changed Its Investment Story",
+            "Zacks Market Edge Highlights: McDonald's, Sandisk and NVIDIA",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -51239,43 +51411,146 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 NVDA의 사업과 관련된 'How IonQ’s On‑Prem Quantum System At NVIDIA (NVDA) Has Changed Its Investment Story' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Zacks Market Edge Highlights: McDonald's, Sandisk and NVIDIA' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1.0,
+          "relevance": 0.4,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790309877.5471141
+          "analysisUpdatedAt": 1790331941.5297925
         },
-        "headlineKo": "IonQ의 NVIDIA(NVDA) 온프레미스 Quantum 시스템이 투자 스토리를 어떻게 변화시켰습니까?"
+        "headlineKo": "Zacks Market Edge 하이라이트: McDonald's, Sandisk 및 NVIDIA"
       },
       {
-        "headline": "Why Semiconductor Investors Are Rotating From SMH’s Nvidia Concentration to PSI’s Equal-Weight Approach",
+        "headline": "Nvidia Raised Its Dividend 2,400%, but a $10,000 Investment Still Pays Just $44 a Year",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=cc7f3145d3b9c6caf18b2af6bda94def5e393748336c73150a1d9e948cbbeada",
-        "datetime": 1790283684,
+        "url": "https://finnhub.io/api/news?id=9b350db1543c1a84dafc7afa50431573d441f56dd6ad3ad909289bbe4823e5ff",
+        "datetime": 1790324640,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $16.87, $225,, 1,230%, $10,000, $132,000, $0.01, $0.25, 2,400%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Nvidia Raised Its Dividend 2,400%, but a $10,000 Investment Still Pays Just $44 a Year' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: NVDA에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.4,
+          "quality": "high",
+          "verifiedNumbers": [
+            "$16.87",
+            "$225,",
+            "1,230%",
+            "$10,000",
+            "$132,000",
+            "$0.01",
+            "$0.25",
+            "2,400%"
+          ],
+          "sourceExcerpt": [
+            "Nvidia Raised Its Dividend 2,400%, but a $10,000 Investment Still Pays Just $44 a Year | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia ( NVDA -0.41% ) stock's run throughou",
+            "30, 2022 -- the day OpenAI released ChatGPT to the public -- shares closed around $16.87 on a split-adjusted basis.",
+            "Given their current level around $225, that's roughly a 1,230% gain."
+          ],
+          "analysisUpdatedAt": 1790331942.9767792
+        },
+        "headlineKo": "Nvidia는 배당금을 2,400% 높였지만 10,000달러 투자로 여전히 연간 44달러만 지불합니다."
+      },
+      {
+        "headline": "The Zacks Analyst Blog Highlights Marvell Technology and NVIDIA",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e0dd49e48a70d970eae532740394afa77694958c28be8abbd459eb2fadfa3a22",
+        "datetime": 1790324340,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Zacks 분석가 블로그에서는 Marvell 기술과 NVIDIA를 강조합니다."
+      },
+      {
+        "headline": "SPCX Stock Climbs Premarket As Musk Teases 3 Nvidia Chip Waves — Google Books SpaceX Ride For Orbital AI Test",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8f5e31947991dba1515d1617f995f2d59a666968938d8f5f6cebf66f4f0a80ca",
+        "datetime": 1790323450,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "머스크가 3가지 Nvidia 칩 파동을 예고하면서 SPCX 주식은 프리마켓 상승 — 궤도 AI 테스트를 위한 Google Books SpaceX Ride"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Meet the Super Semiconductor ETF With 34.7% of Its Assets Parked in Intel, AMD, Micron, and Nvidia",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0a631d22b6ed00e3abc504ac0fd0827111496f55bf2c86927c032fbecf5cd453",
+        "datetime": 1790330700,
+        "headlineKo": "자산의 34.7%가 Intel, AMD, Micron, Nvidia에 편입된 Super Semiconductor ETF를 만나보세요",
+        "relevance": 0.4,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "경쟁사 진입 · 해자 점검",
+          "label": "공급망 · 생산 차질 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "반도체 투자자들이 SMH의 Nvidia 집중 방식에서 PSI의 동일 가중치 접근 방식으로 전환하는 이유 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,713.60 +0.08% Dow Jones 51,417.70 +0.09% Nasdaq 100 30,553.60 +0.21% Russell 2000 2,841.58 +0.15% S&P 500 7,713.60 +0.08% 다우존스 51,417.70 +0.09% 나스닥 100 30,553.60 +0.21% 러셀 2000 2,841.58 +0.",
-            "Ryne Mauck 작성 2026년 9월 24일 오후 5시 1분(ET) 게시 · 4분 읽기 ETF 심사관 데스크."
+            "Intel, AMD, Micron, Nvidia에 자산의 34.7%가 투자된 Super Semiconductor ETF를 만나보세요 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% The Motley Fool에 합류 The iShares Semiconductor ETF (",
+            "ETF는 30개의 반도체 주식을 보유하고 있지만 자산의 상당 부분이 Intel, Advanced Micro Devices, Micron Technology 및 Nvidia 등 상위 4개 포지션에 집중되어 있습니다.",
+            "2026년 해당 주식의 폭발적인 수익률로 인해 ETF는 연초 대비 90%의 수익률을 달성했지만, 아직 투자자들이 이를 매수할 시간이 있을까요?"
           ],
           "why": [
-            "경쟁사의 신제품·시장 진입은 가격·점유율·고객 선택에 영향을 줄 수 있어 성능과 실제 수주를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $71.1 billion, 0.35%, 21.7% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 90%, 9.86%, 9.48% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "새 경쟁자가 같은 시장에 들어왔다는 뜻입니다. 제품 발표만으로 기존 회사 매출이 바로 줄지는 않습니다.",
+            "주문은 있어도 부품이나 생산 문제로 제때 팔지 못할 수 있다는 뉴스입니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -51286,59 +51561,58 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "성능·가격 비교",
-            "실제 고객 수주",
-            "기존 회사 점유율·마진"
+            "출하 지연 기간",
+            "재고와 리드타임",
+            "매출총이익률·대체 공급처"
           ],
-          "interpretation": "NVDA에 대한 경쟁사 진입 · 해자 점검 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 경쟁사의 신제품·시장 진입은 가격·점유율·고객 선택에 영향을 줄 수 있어 성능과 실제 수주를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "NVDA에 대한 공급망 · 생산 차질 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.4,
           "quality": "medium",
           "verifiedNumbers": [
-            "$71.1 billion",
-            "0.35%",
-            "21.7%",
-            "9.29%",
-            "5.74%",
-            "5.63%",
-            "5.67%",
-            "26.55%"
+            "90%",
+            "9.86%",
+            "9.48%",
+            "7.90%",
+            "7.47%",
+            "0.06 %",
+            "$ 0.35",
+            "$ 566.07"
           ],
           "sourceExcerpt": [
-            "Why Semiconductor Investors Are Rotating From SMH's Nvidia Concentration to PSI's Equal-Weight Approach - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,713.60 +0.08% Dow Jones 51,417.70 +0.09% Nasdaq 100 30,553.60 +0.21% Russell 2000 2,841.58 +0.15% S&P 500 7,713.60 +0.08% Dow Jones 51,417.70 +0.09% Nasdaq 100 30,553.60 +0.21% Russell 2000 2,841.58 +0.",
-            "By Ryne Mauck Published September 24, 2026, 5:01pm ET · 4 min read The ETF Examiner desk."
+            "Meet the Super Semiconductor ETF With 34.7% of Its Assets Parked in Intel, AMD, Micron, and Nvidia | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The iShares Semiconductor ETF ( ",
+            "Although the ETF holds 30 semiconductor stocks, a substantial portion of its assets is concentrated in its top four positions: Intel , Advanced Micro Devices , Micron Technology , and Nvidia .",
+            "The blistering returns in those stocks during 2026 have fueled a 90% year-to-date return in the ETF, but is there still time for investors to buy it?"
           ],
-          "analysisUpdatedAt": 1790309881.8293874
-        },
-        "headlineKo": "반도체 투자자들이 SMH의 Nvidia 집중에서 PSI의 동일 가중치 접근 방식으로 전환하는 이유"
+          "analysisUpdatedAt": 1790331939.598698
+        }
       },
       {
-        "headline": "AI Boom Adds More Customers But Spending Remains Highly Concentrated: What It Means for Nvidia, CoreWeave",
+        "headline": "Zacks Market Edge Highlights: McDonald's, Sandisk and NVIDIA",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d44cd3810ebbc16f5001645bc35bb6b43ba5889628a54e8463c31004e528bed9",
-        "datetime": 1790281558,
+        "url": "https://finnhub.io/api/news?id=8a1db3c4993388547c2438acd3c0f62f94b64d6f0b9cf70d4aa37f7f8a98d346",
+        "datetime": 1790326440,
+        "headlineKo": "Zacks Market Edge 하이라이트: McDonald's, Sandisk 및 NVIDIA",
         "relevance": 0.4,
         "keywordFlag": false,
-        "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "medium",
+          "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AI Boom Adds More Customers But Spending Remains Highly Concentrated: What It Means for Nvidia, CoreWeave",
+            "Zacks Market Edge Highlights: McDonald's, Sandisk and NVIDIA",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -51348,42 +51622,118 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "NVDA에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Zacks Market Edge Highlights: McDonald's, Sandisk and NVIDIA' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.4,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790309882.8575847
-        },
-        "headlineKo": "AI 붐으로 더 많은 고객이 추가되지만 지출은 여전히 ​​고도로 집중되어 있습니다: Nvidia, CoreWeave에 대한 의미"
+          "analysisUpdatedAt": 1790331941.5297925
+        }
       },
       {
-        "headline": "OpenAI’s former head of data centers joins Nvidia",
+        "headline": "Nvidia Raised Its Dividend 2,400%, but a $10,000 Investment Still Pays Just $44 a Year",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=59431de641b80210b03815e31488d435e8876766a5c78269e3764438aef94f80",
-        "datetime": 1790275307,
+        "url": "https://finnhub.io/api/news?id=9b350db1543c1a84dafc7afa50431573d441f56dd6ad3ad909289bbe4823e5ff",
+        "datetime": 1790324640,
+        "headlineKo": "Nvidia는 배당금을 2,400% 높였지만 10,000달러 투자로 여전히 연간 44달러만 지불합니다.",
         "relevance": 0.4,
         "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "OpenAI의 전 데이터 센터 책임자가 Nvidia에 합류"
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $16.87, $225,, 1,230%, $10,000, $132,000, $0.01, $0.25, 2,400%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Nvidia Raised Its Dividend 2,400%, but a $10,000 Investment Still Pays Just $44 a Year' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: NVDA에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.4,
+          "quality": "high",
+          "verifiedNumbers": [
+            "$16.87",
+            "$225,",
+            "1,230%",
+            "$10,000",
+            "$132,000",
+            "$0.01",
+            "$0.25",
+            "2,400%"
+          ],
+          "sourceExcerpt": [
+            "Nvidia Raised Its Dividend 2,400%, but a $10,000 Investment Still Pays Just $44 a Year | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia ( NVDA -0.41% ) stock's run throughou",
+            "30, 2022 -- the day OpenAI released ChatGPT to the public -- shares closed around $16.87 on a split-adjusted basis.",
+            "Given their current level around $225, that's roughly a 1,230% gain."
+          ],
+          "analysisUpdatedAt": 1790331942.9767792
+        }
       },
       {
-        "headline": "Nvidia Stock Drops as CEO Huang Suggests Drastic Alternative to AI Regulation",
+        "headline": "The Zacks Analyst Blog Highlights Marvell Technology and NVIDIA",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b1d6e024811ee9dc37af060cc06228b9a73337277fcd1c4c6f864b4e894ba041",
-        "datetime": 1790274720,
+        "url": "https://finnhub.io/api/news?id=e0dd49e48a70d970eae532740394afa77694958c28be8abbd459eb2fadfa3a22",
+        "datetime": 1790324340,
+        "headlineKo": "Zacks 분석가 블로그에서는 Marvell 기술과 NVIDIA를 강조합니다.",
         "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "CEO Huang이 AI 규제에 대한 과감한 대안을 제안함에 따라 Nvidia 주가 하락"
-      }
-    ],
-    "newsHistory": [
+        "keywordFlag": false
+      },
+      {
+        "headline": "SPCX Stock Climbs Premarket As Musk Teases 3 Nvidia Chip Waves — Google Books SpaceX Ride For Orbital AI Test",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8f5e31947991dba1515d1617f995f2d59a666968938d8f5f6cebf66f4f0a80ca",
+        "datetime": 1790323450,
+        "headlineKo": "머스크가 3가지 Nvidia 칩 파동을 예고하면서 SPCX 주식은 프리마켓 상승 — 궤도 AI 테스트를 위한 Google Books SpaceX Ride",
+        "relevance": 0.4,
+        "keywordFlag": false
+      },
       {
         "headline": "How IonQ’s On‑Prem Quantum System At NVIDIA (NVDA) Has Changed Its Investment Story",
         "source": "Yahoo",
@@ -57599,15 +57949,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790309850.5880222,
-    "_updated_label": "2026-09-25 13:18",
-    "_last_success_at": 1790309850.5880222,
+    "_fetched_at": 1790331909.7676473,
+    "_updated_label": "2026-09-25 19:25",
+    "_last_success_at": 1790331909.7676473,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 155,
+      "checked": 160,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "AMD": {
@@ -62552,7 +62902,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "AVGO": {
@@ -65943,7 +66293,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "QCOM": {
@@ -68962,7 +69312,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "ARM": {
@@ -71606,7 +71956,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "MRVL": {
@@ -74673,7 +75023,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "INTC": {
@@ -79207,7 +79557,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 112,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "TSM": {
@@ -81570,7 +81920,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "ASML": {
@@ -83566,7 +83916,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "AMAT": {
@@ -85802,7 +86152,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "LRCX": {
@@ -86889,7 +87239,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "KLAC": {
@@ -87971,7 +88321,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "MU": {
@@ -93488,7 +93838,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 131,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "SNDK": {
@@ -96761,7 +97111,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "WDC": {
@@ -98210,7 +98560,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "ANET": {
@@ -99807,7 +100157,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "COHR": {
@@ -101411,7 +101761,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "LITE": {
@@ -102952,7 +103302,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "GEV": {
@@ -105673,7 +106023,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "CEG": {
@@ -107098,7 +107448,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "VST": {
@@ -108487,7 +108837,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "ETN": {
@@ -109946,7 +110296,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "PWR": {
@@ -111561,7 +111911,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "HUBB": {
@@ -112107,7 +112457,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "VRT": {
@@ -113740,7 +114090,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "MOD": {
@@ -114442,7 +114792,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "STX": {
@@ -115845,7 +116195,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "EME": {
@@ -116799,7 +117149,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "FIX": {
@@ -117565,7 +117915,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   },
   "BE": {
@@ -118991,7 +119341,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-25 18:54"
+      "updated": "2026-09-25 19:25"
     }
   }
 };
