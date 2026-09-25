@@ -2402,7 +2402,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "SPY": {
@@ -5174,7 +5174,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "MSFT": {
@@ -9886,7 +9886,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 109,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "GOOGL": {
@@ -15489,7 +15489,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 128,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "AMZN": {
@@ -21002,7 +21002,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "META": {
@@ -26695,7 +26695,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 143,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "AAPL": {
@@ -32080,7 +32080,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "TSLA": {
@@ -37389,7 +37389,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "ORCL": {
@@ -41917,11 +41917,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "CRM": {
-    "_last_attempt_at": 1790285945.2142594,
+    "_last_attempt_at": 1790307933.6617064,
     "nextEarnings": {
       "date": "2026-12-01",
       "hour": "amc",
@@ -41990,7 +41990,7 @@ const NEWS_DATA = {
             "| Trefis What Is Salesforce No Longer Telling You?",
             "September 24th, 2026 · by Trefis Team CRM YTD -9.7% SPY YTD +13.2% QQQ YTD +20.9% Analyze CRM → Salesforce (CRM) stock has gained 56% in three months, against 5.0% for the S&P 500."
           ],
-          "analysisUpdatedAt": 1790285952.4740279
+          "analysisUpdatedAt": 1790307939.474674
         },
         "headlineKo": "Salesforce에서 더 이상 알려주지 않는 내용은 무엇입니까?"
       },
@@ -42040,7 +42040,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790285954.6101286
+          "analysisUpdatedAt": 1790307941.6124716
         },
         "headlineKo": "Zenity Labs, SalesBleed, 제로 클릭 CRM 데이터 도용 및 AI 에이전트 사칭을 가능하게 하는 Salesforce Agentforce 결함 3가지 발견"
       },
@@ -42089,7 +42089,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790285955.7422304
+          "analysisUpdatedAt": 1790307942.7105663
         },
         "headlineKo": "Palantir 대 Salesforce: One은 144배의 수익으로 거래합니다. 단 하나의 비용으로 소유할 수 있습니다."
       },
@@ -42251,7 +42251,7 @@ const NEWS_DATA = {
             "| Trefis What Is Salesforce No Longer Telling You?",
             "September 24th, 2026 · by Trefis Team CRM YTD -9.7% SPY YTD +13.2% QQQ YTD +20.9% Analyze CRM → Salesforce (CRM) stock has gained 56% in three months, against 5.0% for the S&P 500."
           ],
-          "analysisUpdatedAt": 1790285952.4740279
+          "analysisUpdatedAt": 1790307939.474674
         }
       },
       {
@@ -42300,7 +42300,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790285954.6101286
+          "analysisUpdatedAt": 1790307941.6124716
         }
       },
       {
@@ -42348,7 +42348,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790285955.7422304
+          "analysisUpdatedAt": 1790307942.7105663
         }
       },
       {
@@ -45541,15 +45541,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790285945.2142594,
-    "_updated_label": "2026-09-25 06:39",
-    "_last_success_at": 1790285945.2142594,
+    "_fetched_at": 1790307933.6617064,
+    "_updated_label": "2026-09-25 12:45",
+    "_last_success_at": 1790307933.6617064,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "PLTR": {
@@ -50174,7 +50174,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "NVDA": {
@@ -56421,7 +56421,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 152,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "AMD": {
@@ -61175,7 +61175,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "AVGO": {
@@ -64500,7 +64500,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "QCOM": {
@@ -67519,7 +67519,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "ARM": {
@@ -70163,7 +70163,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "MRVL": {
@@ -73104,11 +73104,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "INTC": {
-    "_last_attempt_at": 1790285945.2142594,
+    "_last_attempt_at": 1790307933.6617064,
     "nextEarnings": {
       "date": "2026-10-22",
       "hour": "amc",
@@ -73162,7 +73162,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790285964.4667678
+          "analysisUpdatedAt": 1790307947.6991158
         },
         "headlineKo": "Agentic AI가 CPU를 루프에 유지함에 따라 Intel 주가 상승"
       },
@@ -73183,7 +73183,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "인텔은 YTD 223%의 이익 실현으로 3% 하락했습니다. AMD 하락 3%, NVIDIA 하락 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,707.40 −0.14% Dow Jones 51,371.70 −0.36% Nasdaq 100 30,489.00 −0.10% Russell 2000 2,837.42 −0.20% S&P 500 7,707.40 −0.14% 다우존스 51,371.70 −0.36% 나스닥 100 30,489.00 −0.10% 러셀 2000 2,837.42 −0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,713.60 +0.08% Dow Jones 51,417.70 +0.09% Nasdaq 100 30,553.60 +0.21% Russell 2000 2,841.58 +0.15% S&P 500 7,713.60 +0.08% 다우존스 51,417.70 +0.09% 나스닥 100 30,553.60 +0.21% 러셀 2000 2,841.58 +0.",
             "작성자: David Moadel 2026년 9월 24일 오전 9시 29분(ET) 게시 · 3분 읽기 Market Movers 데스크."
           ],
           "why": [
@@ -73223,10 +73223,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Intel Drops 3% as Profit Taking Follows 223% YTD Run; AMD Falls 3%, NVIDIA Slips - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,707.40 −0.14% Dow Jones 51,371.70 −0.36% Nasdaq 100 30,489.00 −0.10% Russell 2000 2,837.42 −0.20% S&P 500 7,707.40 −0.14% Dow Jones 51,371.70 −0.36% Nasdaq 100 30,489.00 −0.10% Russell 2000 2,837.42 −0.",
+            "Skip to content ❚❚ At close S&P 500 7,713.60 +0.08% Dow Jones 51,417.70 +0.09% Nasdaq 100 30,553.60 +0.21% Russell 2000 2,841.58 +0.15% S&P 500 7,713.60 +0.08% Dow Jones 51,417.70 +0.09% Nasdaq 100 30,553.60 +0.21% Russell 2000 2,841.58 +0.",
             "By David Moadel Published September 24, 2026, 9:29am ET · 3 min read Market Movers desk."
           ],
-          "analysisUpdatedAt": 1790285968.5963993
+          "analysisUpdatedAt": 1790307951.3292992
         },
         "headlineKo": "인텔은 YTD 223%의 이익 실현으로 3% 하락했습니다. AMD 3% 하락, NVIDIA 하락"
       },
@@ -73276,7 +73276,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790285970.6172473
+          "analysisUpdatedAt": 1790307953.1628
         },
         "headlineKo": "인텔의 293% 상승이 그 가치를 시험하고 있습니다"
       },
@@ -73407,7 +73407,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790285964.4667678
+          "analysisUpdatedAt": 1790307947.6991158
         }
       },
       {
@@ -73427,7 +73427,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "인텔은 YTD 223%의 이익 실현으로 3% 하락했습니다. AMD 하락 3%, NVIDIA 하락 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,707.40 −0.14% Dow Jones 51,371.70 −0.36% Nasdaq 100 30,489.00 −0.10% Russell 2000 2,837.42 −0.20% S&P 500 7,707.40 −0.14% 다우존스 51,371.70 −0.36% 나스닥 100 30,489.00 −0.10% 러셀 2000 2,837.42 −0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,713.60 +0.08% Dow Jones 51,417.70 +0.09% Nasdaq 100 30,553.60 +0.21% Russell 2000 2,841.58 +0.15% S&P 500 7,713.60 +0.08% 다우존스 51,417.70 +0.09% 나스닥 100 30,553.60 +0.21% 러셀 2000 2,841.58 +0.",
             "작성자: David Moadel 2026년 9월 24일 오전 9시 29분(ET) 게시 · 3분 읽기 Market Movers 데스크."
           ],
           "why": [
@@ -73467,10 +73467,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Intel Drops 3% as Profit Taking Follows 223% YTD Run; AMD Falls 3%, NVIDIA Slips - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,707.40 −0.14% Dow Jones 51,371.70 −0.36% Nasdaq 100 30,489.00 −0.10% Russell 2000 2,837.42 −0.20% S&P 500 7,707.40 −0.14% Dow Jones 51,371.70 −0.36% Nasdaq 100 30,489.00 −0.10% Russell 2000 2,837.42 −0.",
+            "Skip to content ❚❚ At close S&P 500 7,713.60 +0.08% Dow Jones 51,417.70 +0.09% Nasdaq 100 30,553.60 +0.21% Russell 2000 2,841.58 +0.15% S&P 500 7,713.60 +0.08% Dow Jones 51,417.70 +0.09% Nasdaq 100 30,553.60 +0.21% Russell 2000 2,841.58 +0.",
             "By David Moadel Published September 24, 2026, 9:29am ET · 3 min read Market Movers desk."
           ],
-          "analysisUpdatedAt": 1790285968.5963993
+          "analysisUpdatedAt": 1790307951.3292992
         }
       },
       {
@@ -73519,7 +73519,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790285970.6172473
+          "analysisUpdatedAt": 1790307953.1628
         }
       },
       {
@@ -77553,15 +77553,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790285945.2142594,
-    "_updated_label": "2026-09-25 06:39",
-    "_last_success_at": 1790285945.2142594,
+    "_fetched_at": 1790307933.6617064,
+    "_updated_label": "2026-09-25 12:45",
+    "_last_success_at": 1790307933.6617064,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "TSM": {
@@ -79924,7 +79924,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "ASML": {
@@ -81885,7 +81885,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "AMAT": {
@@ -84037,7 +84037,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "LRCX": {
@@ -85075,11 +85075,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1790285945.2142594,
+    "_last_attempt_at": 1790307933.6617064,
     "nextEarnings": {
       "date": "2026-10-27",
       "hour": "",
@@ -85134,7 +85134,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790285976.791674
+          "analysisUpdatedAt": 1790307958.3348205
         },
         "headlineKo": "Teradyne, AI 테스트 포트폴리오 강화: KLAC & COHU를 이길 수 있을까요?"
       },
@@ -85184,7 +85184,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790285979.1367714
+          "analysisUpdatedAt": 1790307960.5275788
         },
         "headlineKo": "Zacks 분석가 블로그에서는 Applied Materials, Lam Research 및 KLA를 강조합니다."
       },
@@ -85234,7 +85234,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790285980.8034785
+          "analysisUpdatedAt": 1790307962.850276
         },
         "headlineKo": "KLA(KLAC)는 반도체 계측 분야에서 역할을 심화하고 있습니다."
       },
@@ -85306,7 +85306,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790285976.791674
+          "analysisUpdatedAt": 1790307958.3348205
         }
       },
       {
@@ -85355,7 +85355,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790285979.1367714
+          "analysisUpdatedAt": 1790307960.5275788
         }
       },
       {
@@ -85404,7 +85404,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790285980.8034785
+          "analysisUpdatedAt": 1790307962.850276
         }
       },
       {
@@ -86149,15 +86149,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790285945.2142594,
-    "_updated_label": "2026-09-25 06:39",
-    "_last_success_at": 1790285945.2142594,
+    "_fetched_at": 1790307933.6617064,
+    "_updated_label": "2026-09-25 12:46",
+    "_last_success_at": 1790307933.6617064,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "MU": {
@@ -91543,7 +91543,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 128,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "SNDK": {
@@ -94816,7 +94816,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "WDC": {
@@ -96265,7 +96265,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "ANET": {
@@ -97829,7 +97829,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "COHR": {
@@ -99433,7 +99433,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "LITE": {
@@ -100974,7 +100974,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "GEV": {
@@ -103695,7 +103695,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "CEG": {
@@ -105071,7 +105071,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "VST": {
@@ -106410,7 +106410,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "ETN": {
@@ -107820,7 +107820,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "PWR": {
@@ -109386,7 +109386,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "HUBB": {
@@ -109932,11 +109932,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "VRT": {
-    "_last_attempt_at": 1790285945.2142594,
+    "_last_attempt_at": 1790307933.6617064,
     "nextEarnings": {
       "date": "2026-10-20",
       "hour": "",
@@ -109945,6 +109945,124 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Ameresco, NN, FuelCell Energy, Vertiv, and Blue Bird Shares Plummet, What You Need To Know",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0281a78e757eabe82931d5516f5c824903f2a04a1484bcb4267e0f102e6d9ccd",
+        "datetime": 1790292058,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Ameresco, NN, FuelCell Energy, Vertiv, and Blue Bird Shares Plummet, What You Need To Know",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "VRT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 VRT의 사업과 관련된 'Ameresco, NN, FuelCell Energy, Vertiv, and Blue Bird Shares Plummet, What You Need To Know' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "VRT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790307967.83004
+        },
+        "headlineKo": "Ameresco, NN, FuelCell Energy, Vertiv 및 Blue Bird 주가 급락, 알아야 할 사항"
+      },
+      {
+        "headline": "Will Vertiv Holdings (VRT)’s $1.45 Billion UIG Deal Accelerate its AI Infrastructure Growth?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ebd6cae8fbb22847c5dc7de6f16df89b6342265361990dae6d20d2320d4417bf",
+        "datetime": 1790283395,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 VRT의 사업과 관련된 'Will Vertiv Holdings (VRT)’s $1.45 Billion UIG Deal Accelerate its AI Infrastructure Growth?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: VRT에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790307969.587167
+        },
+        "headlineKo": "Vertiv Holdings(VRT)의 14억 5천만 달러 UIG 거래로 AI 인프라 성장이 가속화될까요?"
+      },
       {
         "headline": "Vertiv’s Serial M&A Trail: What $1.5B in ‘Immaterial’ Deals Is Doing to Its Margins",
         "source": "Yahoo",
@@ -110005,7 +110123,7 @@ const NEWS_DATA = {
             "Management called each of these deals immaterial to results, but TIKR’s cash flow data show Vertiv spent close to $1.46 billion in cash on acquisitions across just the last four reported quarters.",
             "GAAP operating margin swung from 21.17% in December 2025 to a two year low of 16.37% the very next quarter, right after the single largest acquisition outlay in that window, before climbing back to 19.48% in June 2026."
           ],
-          "analysisUpdatedAt": 1790285989.2321475
+          "analysisUpdatedAt": 1790307971.7995691
         },
         "headlineKo": "Vertiv의 연속 M&A 과정: '중요하지 않은' 거래에서 15억 달러가 수익에 미치는 영향"
       },
@@ -110017,60 +110135,6 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "장기 공급계약 · 매출 가시성 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "AI 랙이 뜨거워짐에 따라 Vertiv는 데이터 센터 냉각 AI 에이전트를 중심으로 사업을 확장합니다. Trending News Earnings All DIA 0.35% SPY 0.17% QQQ 0.17% Trending BB 5.61% COST 0.88% TLT 1.28% META 4.29% AKAM 11.24% FSLR 9.87% ONDO 26.11% QNT 23.88%",
-            "AI가 액체 냉각 서비스에 대한 수요를 주도함에 따라 Vertiv는 King Environmental 인수 Vertiv가 점점 더 복잡해지는 액체 냉각 데이터 센터를 위한 서비스를 구축함에 따라 유럽의 유체 관리 및 시운전 기능을 추가합니다.",
-            "참석자들은 2026년 6월 3일 대만 타이베이에서 열린 Vertiv 부스에서 최신 데이터 센터의 액체 냉각 아키텍처와 전력 인프라를 시연하는 상세하고 조명이 켜진 축소 모델 주위에 모였습니다."
-          ],
-          "why": [
-            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.35%, 0.17%, 5.61% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "VRT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "VRT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "계약 기간·최소구매 조건",
-            "연도별 매출 인식",
-            "수주잔고·취소 조건"
-          ],
-          "interpretation": "VRT에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.35%",
-            "0.17%",
-            "5.61%",
-            "0.88%",
-            "1.28%",
-            "4.29%",
-            "11.24%",
-            "9.87%"
-          ],
-          "sourceExcerpt": [
-            "As AI Racks Get Hotter, Vertiv Expands The Business Around Data Center Cooling AI Agent Trending News Earnings All DIA 0.35% SPY 0.17% QQQ 0.17% Trending BB 5.61% COST 0.88% TLT 1.28% META 4.29% AKAM 11.24% FSLR 9.87% ONDO 26.11% QNT 23.88%",
-            "Vertiv To Acquire King Environmental As AI Drives Demand For Liquid-Cooling Services The deal adds European fluid-management and commissioning capabilities as Vertiv builds out services for increasingly complex liquid-cooled data centers.",
-            "Attendees gather around a detailed, illuminated scale model demonstrating the liquid cooling architecture and power infrastructure of a modern data center at the Vertiv booth on June 03, 2026 in Taipei, Taiwan."
-          ],
-          "analysisUpdatedAt": 1790285992.7459552
-        },
         "headlineKo": "Vertiv, AI가 액체 냉각 서비스에 대한 수요를 주도함에 따라 King Environmental 인수"
       },
       {
@@ -110081,24 +110145,36 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "Vertiv, King Environmental Services Ltd. 인수 계약 발표, 글로벌 유체 관리 서비스 확장"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Ameresco, NN, FuelCell Energy, Vertiv, and Blue Bird Shares Plummet, What You Need To Know",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0281a78e757eabe82931d5516f5c824903f2a04a1484bcb4267e0f102e6d9ccd",
+        "datetime": 1790292058,
+        "headlineKo": "Ameresco, NN, FuelCell Energy, Vertiv 및 Blue Bird 주가 급락, 알아야 할 사항",
+        "relevance": 0.67,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "medium",
-          "tone": "positive",
+          "importance": "low",
+          "tone": "neutral",
           "certainty": "본문 확인 필요",
-          "label": "고객 계약 · 매출 연결 확인",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Vertiv Announces Agreement to Acquire King Environmental Services Ltd., Expanding Global Fluid Management Services",
+            "Ameresco, NN, FuelCell Energy, Vertiv, and Blue Bird Shares Plummet, What You Need To Know",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
-            "VRT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -110108,42 +110184,87 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "계약 금액·기간·취소 조건",
-            "수주잔고와 매출 인식 시점",
-            "관련 사업부 매출총이익률"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "VRT에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 VRT의 사업과 관련된 'Ameresco, NN, FuelCell Energy, Vertiv, and Blue Bird Shares Plummet, What You Need To Know' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "VRT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.67,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790285994.806248
-        },
-        "headlineKo": "Vertiv, King Environmental Services Ltd. 인수 계약 발표, 글로벌 유체 관리 서비스 확장"
+          "analysisUpdatedAt": 1790307967.83004
+        }
       },
       {
-        "headline": "Vertiv To Acquire European Provider Of Fluid Management, Commissioning And Load-Testing Services King Environmental Services; Financial Terms Not Disclosed",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=6a84c8b37921886b65e18697e2d99477ca49c9eb5c70a7065cb328476c4c93d5",
-        "datetime": 1790231690,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Vertiv, 유럽의 유체 관리, 시운전 및 부하 테스트 서비스 제공업체 King Environmental Services 인수 재정 조건은 공개되지 않음"
-      },
-      {
-        "headline": "Why Does Vertiv Cost The Most In A Group It Does Not Out-Grow?",
+        "headline": "Will Vertiv Holdings (VRT)’s $1.45 Billion UIG Deal Accelerate its AI Infrastructure Growth?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2c807570686d5cc6f996a7b525c43ec2faf68df36eded367f74404f8519e3df9",
-        "datetime": 1790196982,
-        "relevance": 0.67,
+        "url": "https://finnhub.io/api/news?id=ebd6cae8fbb22847c5dc7de6f16df89b6342265361990dae6d20d2320d4417bf",
+        "datetime": 1790283395,
+        "headlineKo": "Vertiv Holdings(VRT)의 14억 5천만 달러 UIG 거래로 AI 인프라 성장이 가속화될까요?",
+        "relevance": 1,
         "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Vertiv가 성장하지 않는 그룹에서 비용이 가장 많이 드는 이유는 무엇입니까?"
-      }
-    ],
-    "newsHistory": [
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 VRT의 사업과 관련된 'Will Vertiv Holdings (VRT)’s $1.45 Billion UIG Deal Accelerate its AI Infrastructure Growth?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: VRT에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790307969.587167
+        }
+      },
       {
         "headline": "Vertiv’s Serial M&A Trail: What $1.5B in ‘Immaterial’ Deals Is Doing to Its Margins",
         "source": "Yahoo",
@@ -110204,7 +110325,7 @@ const NEWS_DATA = {
             "Management called each of these deals immaterial to results, but TIKR’s cash flow data show Vertiv spent close to $1.46 billion in cash on acquisitions across just the last four reported quarters.",
             "GAAP operating margin swung from 21.17% in December 2025 to a two year low of 16.37% the very next quarter, right after the single largest acquisition outlay in that window, before climbing back to 19.48% in June 2026."
           ],
-          "analysisUpdatedAt": 1790285989.2321475
+          "analysisUpdatedAt": 1790307971.7995691
         }
       },
       {
@@ -111436,19 +111557,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790285945.2142594,
-    "_updated_label": "2026-09-25 06:39",
-    "_last_success_at": 1790285945.2142594,
+    "_fetched_at": 1790307933.6617064,
+    "_updated_label": "2026-09-25 12:46",
+    "_last_success_at": 1790307933.6617064,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 31,
+      "checked": 33,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "MOD": {
-    "_last_attempt_at": 1790285945.2142594,
+    "_last_attempt_at": 1790307933.6617064,
     "nextEarnings": {
       "date": "2026-10-26",
       "hour": "",
@@ -111457,6 +111578,56 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Modine (MOD) Rises As Market Takes a Dip: Key Facts",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=70ea9b7f35da7deb8f10ca7e8b26a6f0256f28290fea1c1b138a80667f57b31d",
+        "datetime": 1790282704,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Modine (MOD) Rises As Market Takes a Dip: Key Facts",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MOD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MOD의 사업과 관련된 'Modine (MOD) Rises As Market Takes a Dip: Key Facts' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MOD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790307977.8469756
+        },
+        "headlineKo": "시장 하락으로 모딘(MOD) 상승: 주요 사실"
+      },
       {
         "headline": "Modine (MOD) Dips More Than Broader Market: What You Should Know",
         "source": "Yahoo",
@@ -111503,7 +111674,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790286001.1184638
+          "analysisUpdatedAt": 1790307979.595944
         },
         "headlineKo": "Modine(MOD)은 더 넓은 시장보다 더 하락합니다: 알아야 할 사항"
       },
@@ -111553,7 +111724,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790286003.1686802
+          "analysisUpdatedAt": 1790307981.9112842
         },
         "headlineKo": "월스트리트 상승세는 Modine(MOD)에 대해 낙관적입니다. 매수해야 할까요?"
       },
@@ -111565,6 +111736,28 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "Gentherm과 Modine Manufacturing Company, Gentherm과 Modine의 성능 기술 사업 결합 제안과 관련된 추가 정보 발표"
+      },
+      {
+        "headline": "Modine Sets September 28, 2026 Record Date For Performance Technologies Spin-Off And Merger With Gentherm, Which Declares ~$1.90/Share Special Dividend",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=ec295604c0e6a62590c05ce4c8733a7bad33d552fd99d4b296edd0701afa3573",
+        "datetime": 1789662987,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Modine은 2026년 9월 28일 Performance Technologies 분사 및 Gentherm과의 합병 기록일을 설정하여 ~$1.90/주 특별 배당금을 선언합니다."
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Modine (MOD) Rises As Market Takes a Dip: Key Facts",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=70ea9b7f35da7deb8f10ca7e8b26a6f0256f28290fea1c1b138a80667f57b31d",
+        "datetime": 1790282704,
+        "headlineKo": "시장 하락으로 모딘(MOD) 상승: 주요 사실",
+        "relevance": 1,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "low",
@@ -111573,7 +111766,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Gentherm and Modine Manufacturing Company Announce Additional Information in Connection with Proposed Combination of Gentherm and Modine’s Performance Technologies Business",
+            "Modine (MOD) Rises As Market Takes a Dip: Key Facts",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -111597,38 +111790,15 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 MOD의 사업과 관련된 'Gentherm and Modine Manufacturing Company Announce Additional Information in Connection with Proposed Combination of Gentherm and Modine’s Performance Technologies Business' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 MOD의 사업과 관련된 'Modine (MOD) Rises As Market Takes a Dip: Key Facts' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "MOD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790286005.3827982
-        },
-        "headlineKo": "Gentherm과 Modine Manufacturing Company, Gentherm과 Modine의 성능 기술 사업 결합 제안과 관련된 추가 정보 발표"
+          "analysisUpdatedAt": 1790307977.8469756
+        }
       },
-      {
-        "headline": "Modine Sets September 28, 2026 Record Date For Performance Technologies Spin-Off And Merger With Gentherm, Which Declares ~$1.90/Share Special Dividend",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=ec295604c0e6a62590c05ce4c8733a7bad33d552fd99d4b296edd0701afa3573",
-        "datetime": 1789662987,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Modine은 2026년 9월 28일 Performance Technologies 분사 및 Gentherm과의 합병 기록일을 설정하여 ~$1.90/주 특별 배당금을 선언합니다."
-      },
-      {
-        "headline": "Modine Manufacturing Company (MOD) is Attracting Investor Attention: Here is What You Should Know",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e183f228bd126e9083ae46911f1f184e835721d5ed0d239713307f5a7df9a783",
-        "datetime": 1789563602,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Modine Manufacturing Company(MOD)가 투자자의 관심을 끌고 있습니다: 알아야 할 사항은 다음과 같습니다."
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Modine (MOD) Dips More Than Broader Market: What You Should Know",
         "source": "Yahoo",
@@ -111675,7 +111845,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790286001.1184638
+          "analysisUpdatedAt": 1790307979.595944
         }
       },
       {
@@ -111724,7 +111894,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790286003.1686802
+          "analysisUpdatedAt": 1790307981.9112842
         }
       },
       {
@@ -112089,15 +112259,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790285945.2142594,
-    "_updated_label": "2026-09-25 06:40",
-    "_last_success_at": 1790285945.2142594,
+    "_fetched_at": 1790307933.6617064,
+    "_updated_label": "2026-09-25 12:46",
+    "_last_success_at": 1790307933.6617064,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 16,
+      "checked": 17,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "STX": {
@@ -113500,7 +113670,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "EME": {
@@ -114454,7 +114624,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "FIX": {
@@ -115220,7 +115390,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   },
   "BE": {
@@ -116569,7 +116739,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-25 12:21"
+      "updated": "2026-09-25 12:46"
     }
   }
 };

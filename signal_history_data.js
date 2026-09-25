@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790306463.7476418,
+  "generatedAt": 1790307985.5079496,
   "records": {
     "MSFT": [
       {
@@ -17188,6 +17188,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AMD": [
       {
+        "changedAt": 1790307985.5079496,
+        "dataAsOf": 1790293021,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 4.72,
+            "after": 5
+          }
+        ],
+        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
+        "newsHeadline": "오라클은 AI 데이터 센터가 지연될 경우 보호를 원합니다. 투자자를 위한 변화는 다음과 같습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=592e01d5b9cda1a437e7350f1a043d723d33a5e49e9ba27710b533cf074a8708",
+        "eventId": "c63bb00f47a911fb0df1",
+        "fingerprint": "{\"changes\": [{\"after\": 5, \"before\": 4.72, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"c63bb00f47a911fb0df1\"}"
+      },
+      {
         "changedAt": 1790306463.7476418,
         "dataAsOf": 1790293021,
         "changes": [
@@ -18567,23 +18584,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=6fd36e837660d73978d3db29bcd873d62e28fff7c505e2c3b5d11b979819a06d",
         "eventId": "1b68d303793ab4eb30fa",
         "fingerprint": "{\"changes\": [{\"after\": -3.5, \"before\": -4.2, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -4.38, \"before\": -4.72, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"1b68d303793ab4eb30fa\"}"
-      },
-      {
-        "changedAt": 1788979660.6317592,
-        "dataAsOf": 1788965121,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 0.87,
-            "after": 0.35
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "CFO가 AI 칩 시장 전망을 3조 달러로 높이면서 AMD 주가 3% 상승; 인텔이 주목하다",
-        "newsUrl": "https://finnhub.io/api/news?id=6fd36e837660d73978d3db29bcd873d62e28fff7c505e2c3b5d11b979819a06d",
-        "eventId": "1b68d303793ab4eb30fa",
-        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.87, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"1b68d303793ab4eb30fa\"}"
       }
     ],
     "AVGO": [
@@ -43066,6 +43066,41 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "VRT": [
+      {
+        "changedAt": 1790307985.5079496,
+        "dataAsOf": 1790283395,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.7,
+            "after": 0.87
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.88,
+            "after": 1.57
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.18,
+            "after": 0.7
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "중립·확인 대기",
+            "after": "우호적 변화"
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Vertiv Holdings(VRT)의 14억 5천만 달러 UIG 거래로 AI 인프라 성장이 가속화될까요?",
+        "newsUrl": "https://finnhub.io/api/news?id=ebd6cae8fbb22847c5dc7de6f16df89b6342265361990dae6d20d2320d4417bf",
+        "eventId": "4eab307bb7c3551953f3",
+        "fingerprint": "{\"changes\": [{\"after\": 0.87, \"before\": 0.7, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.57, \"before\": 0.88, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.7, \"before\": 0.18, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"우호적 변화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"4eab307bb7c3551953f3\"}"
+      },
       {
         "changedAt": 1790263876.0074015,
         "dataAsOf": 1790250668,
