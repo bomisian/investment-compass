@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790372782.163863,
+  "generatedAt": 1790373666.8174605,
   "records": {
     "MSFT": [
       {
@@ -8907,6 +8907,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "TSLA": [
       {
+        "changedAt": 1790373666.8174605,
+        "dataAsOf": 1790343660,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.87,
+            "after": 0.52
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.35,
+            "after": -0.7
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "중립·확인 대기",
+            "after": "주의 강화"
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Tesla 대 Nvidia: 2030년까지 어떤 물리적 AI 주식이 로봇 공학에 더 큰 이익을 가져다 줄까요?",
+        "newsUrl": "https://finnhub.io/api/news?id=88a9a2463ad560bf98a70bdf368f50d37851890301dd6f8fb9d20ea242b18aa1",
+        "eventId": "59daeb17ee701d11a433",
+        "fingerprint": "{\"changes\": [{\"after\": 0.52, \"before\": 0.87, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.7, \"before\": -0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"주의 강화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"59daeb17ee701d11a433\"}"
+      },
+      {
         "changedAt": 1790354038.396878,
         "dataAsOf": 1790343660,
         "changes": [
@@ -10586,23 +10615,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=b890242de378ed9adda730e34d574ce3f59d9a98fb911133f1299f77d54de5ee",
         "eventId": "83ae83da2bde742479c3",
         "fingerprint": "{\"changes\": [{\"after\": -4.2, \"before\": -5, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.4, \"before\": -3.5, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}], \"eventId\": \"83ae83da2bde742479c3\"}"
-      },
-      {
-        "changedAt": 1788890198.0753438,
-        "dataAsOf": 1788848488,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 0.35,
-            "after": 0.0
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "Tesla: Elon은 Robotaxi Moonshot을 향해 가고 있습니다",
-        "newsUrl": "https://finnhub.io/api/news?id=3f6ec1b9d6f274f5f3fd77b2010b11c4b1c8b8f4cc95e56aaa7ba70f620d8ee7",
-        "eventId": "bd5f35ecf60ff20643b4",
-        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": 0.35, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"bd5f35ecf60ff20643b4\"}"
       }
     ],
     "ORCL": [
@@ -17402,6 +17414,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AMD": [
       {
+        "changedAt": 1790373666.8174605,
+        "dataAsOf": 1790362320,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 4.9,
+            "after": 4.55
+          }
+        ],
+        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
+        "newsHeadline": "Sundar Pichai는 Alphabet의 클라우드 백로그가 지난 분기에 82%의 수익 성장을 달성한 후 5,140억 달러를 기록했으며 Fortune 100대 기업 중 거의 90%가 Gemini Enterprise를 사용하고 있다고 보고했습니다. Google Cloud가 더 큰 규모로 성장하고 있나요?",
+        "newsUrl": "https://finnhub.io/api/news?id=b1256672be167a906f8ada2512a2e4c34d4411864860cf79e832c584ea3ef4bc",
+        "eventId": "973026ade0df4b72018c",
+        "fingerprint": "{\"changes\": [{\"after\": 4.55, \"before\": 4.9, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"973026ade0df4b72018c\"}"
+      },
+      {
         "changedAt": 1790372782.163863,
         "dataAsOf": 1790362320,
         "changes": [
@@ -18793,23 +18822,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=8921289cb1f7b10eb6ba4514047370ed7900e7c9bf6eb93c33fce00878e367cc",
         "eventId": "43aa0111c11bedb8d1c7",
         "fingerprint": "{\"changes\": [{\"after\": 0.7, \"before\": 1.05, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -3.15, \"before\": -2.1, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"43aa0111c11bedb8d1c7\"}"
-      },
-      {
-        "changedAt": 1789077585.2185578,
-        "dataAsOf": 1789062653,
-        "changes": [
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -3.15,
-            "after": -2.1
-          }
-        ],
-        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
-        "newsHeadline": "150억 달러 규모의 핵 베팅으로 AI 파워가 잠기면서 알파벳 가장자리가 더 높아졌습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=ff3a802637a90748c5c85f5658206cc5b6a37b5ccb9c36920eeb41183714e722",
-        "eventId": "c25a39baa7f8c002cfa3",
-        "fingerprint": "{\"changes\": [{\"after\": -2.1, \"before\": -3.15, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"c25a39baa7f8c002cfa3\"}"
       }
     ],
     "AVGO": [
@@ -25475,6 +25487,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "INTC": [
       {
+        "changedAt": 1790373666.8174605,
+        "dataAsOf": 1790364852,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -1.05,
+            "after": -1.4
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -4.37,
+            "after": -5
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -2.8,
+            "after": -3.15
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "ARM 대 Intel: 인공지능 기업의 수익 성장 추세가 보여주는 것",
+        "newsUrl": "https://finnhub.io/api/news?id=67d8575455a4cf6658f4eeb38e99c3a13123a49a25b580d5c367b7bc5627038b",
+        "eventId": "ba6ee32f02f9c80acb0c",
+        "fingerprint": "{\"changes\": [{\"after\": -1.4, \"before\": -1.05, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -5, \"before\": -4.37, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -3.15, \"before\": -2.8, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"ba6ee32f02f9c80acb0c\"}"
+      },
+      {
         "changedAt": 1790372782.163863,
         "dataAsOf": 1790364852,
         "changes": [
@@ -27256,29 +27297,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=d22aa0272d9035e92d7f7b24d9f4ddb003a454c5e657c603da3dbdfb0f3fccc9",
         "eventId": "30be6fc1ca57d6b54525",
         "fingerprint": "{\"changes\": [{\"after\": -3.5, \"before\": -4.2, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.97, \"before\": -3.32, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -3.67, \"before\": -4.37, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"30be6fc1ca57d6b54525\"}"
-      },
-      {
-        "changedAt": 1789011951.2930255,
-        "dataAsOf": 1788989390,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 0.35,
-            "after": 0.87
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -4.9,
-            "after": -4.37
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "Meta, 자동화된 비즈니스 메시징 강화를 위해 스웨덴 AI 스타트업 인수",
-        "newsUrl": "https://finnhub.io/api/news?id=d22aa0272d9035e92d7f7b24d9f4ddb003a454c5e657c603da3dbdfb0f3fccc9",
-        "eventId": "30be6fc1ca57d6b54525",
-        "fingerprint": "{\"changes\": [{\"after\": 0.87, \"before\": 0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.37, \"before\": -4.9, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"30be6fc1ca57d6b54525\"}"
       }
     ],
     "TSM": [
@@ -43688,6 +43706,41 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "VRT": [
+      {
+        "changedAt": 1790373666.8174605,
+        "dataAsOf": 1790363985,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.22,
+            "after": 0.7
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 2.8,
+            "after": 1.4
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": 0.0,
+            "after": -0.7
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 1.57,
+            "after": 0.7
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Vertiv 주식은 얼마나 더 하락할 수 있나요?",
+        "newsUrl": "https://finnhub.io/api/news?id=aecf2c6328a3a0cea1c628dad0a2c7effdeb5cad98602a758fab23dde11e5026",
+        "eventId": "306ac444e0038e6b3c53",
+        "fingerprint": "{\"changes\": [{\"after\": 0.7, \"before\": 1.22, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.4, \"before\": 2.8, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.7, \"before\": 0.0, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.7, \"before\": 1.57, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"306ac444e0038e6b3c53\"}"
+      },
       {
         "changedAt": 1790352069.608965,
         "dataAsOf": 1790283395,

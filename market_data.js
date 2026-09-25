@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 92.41999816894531,
+      "current": 92.44000244140625,
       "prevClose": 94.61000061035156,
-      "changeAbs": -2.19000244140625,
-      "changePct": -2.3147684465469025,
+      "changeAbs": -2.1699981689453125,
+      "changePct": -2.2936245163789657,
       "pctRank": 85.52108194112968,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -18.17618356262947,
-      "ma20": 95.31000137329102,
-      "ma60": 85.7135004679362,
-      "chg1m": 10.189994812011719,
-      "chg3m": 23.18999481201172,
-      "chg1mPct": 12.392064205300198,
-      "chg3mPct": 33.49702973788629,
+      "drawdown1y": -18.158472829560466,
+      "ma20": 95.31100158691406,
+      "ma60": 85.71383387247721,
+      "chg1m": 10.209999084472656,
+      "chg3m": 23.209999084472656,
+      "chg1mPct": 12.41639142364422,
+      "chg3mPct": 33.525925117766306,
       "lastDate": "2026-09-25",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 101.02899932861328,
+      "current": 101.03500366210938,
       "prevClose": 101.29000091552734,
-      "changeAbs": -0.2610015869140625,
-      "changePct": -0.25767754423433126,
+      "changeAbs": -0.25499725341796875,
+      "changePct": -0.2517496802380606,
       "pctRank": 40.89101034208433,
       "min5y": 93.3499984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -0.5717953727470859,
-      "ma20": 99.83244934082032,
-      "ma60": 100.11365013122558,
-      "chg1m": 1.8590011596679688,
-      "chg3m": -0.33100128173828125,
-      "chg1mPct": 1.8745600423436406,
-      "chg3mPct": -0.3265600628898153,
+      "drawdown1y": -0.5658861773332302,
+      "ma20": 99.83274955749512,
+      "ma60": 100.11375020345052,
+      "chg1m": 1.8650054931640625,
+      "chg3m": -0.3249969482421875,
+      "chg1mPct": 1.880614629020011,
+      "chg3mPct": -0.32063629270439903,
       "lastDate": "2026-09-25",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4320.89990234375,
+      "current": 4320.5,
       "prevClose": 4298.0,
-      "changeAbs": 22.89990234375,
-      "changePct": 0.5328036841263378,
+      "changeAbs": 22.5,
+      "changePct": 0.5234993020009306,
       "pctRank": 87.44038155802862,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -18.755641138614166,
-      "ma20": 4407.4599609375,
-      "ma60": 4310.564990234375,
-      "chg1m": -332.39990234375,
-      "chg3m": 224.60009765625,
-      "chg1mPct": -7.143315846722515,
-      "chg3mPct": 5.482999496258413,
+      "drawdown1y": -18.7631603615213,
+      "ma20": 4407.439965820313,
+      "ma60": 4310.558325195312,
+      "chg1m": -332.7998046875,
+      "chg3m": 224.2001953125,
+      "chg1mPct": -7.151909798553152,
+      "chg3mPct": 5.473236970007469,
       "lastDate": "2026-09-25",
       "bars": 1258,
       "symbol": "GC=F",
@@ -246,13 +246,13 @@ const MARKET_DATA = {
       "summaryKo": "Micron은 메모리 공급 제약이 지속됨에 따라 수익으로 향하는 모든 영향력을 갖고 있습니다. 하지만 이 유리한 사이클은 언제까지 지속될 것인가?"
     },
     {
-      "headline": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says - Reuters",
-      "summary": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says Reuters",
+      "headline": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says - reuters.com",
+      "summary": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS3NaNENZd05ESDQwSFdrTGwyLUtGX3NzT1NiR0tzbWwtM282dHRxbkxLYTk2b1Rkd01xQldYM2ItTlNRV01wbnhDMWpZVkliRnBhMlFWYVg1VHh6bjRCVkQwVGFFamhhWWpJa0p5aHlVRkJpblI1UUZJeDN6VFg1Z1hhdGFBSklFN2ZyVjZ0b1IyNUpoMU5GN0tmTlZPMExVNFppU2ZSRGFwcW1QSElZaktmS3pXSElm?oc=5",
       "datetime": 1790362753,
-      "headlineKo": "트럼프, 시에 중국의 이란 지원 경고, 보증 받았다 - 로이터 통신",
-      "summaryKo": "트럼프, 시에 중국의 이란 지원 경고, 확신 받았다고 미 특사 로이터통신"
+      "headlineKo": "트럼프, 시진핑에 중국의 이란 지원 경고",
+      "summaryKo": "트럼프, 시진핑에 중국의 이란 지원 경고"
     },
     {
       "headline": "Microsoft gives Copilot a much-needed overhaul, and the stock deservedly soars",
@@ -264,13 +264,13 @@ const MARKET_DATA = {
       "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
     },
     {
-      "headline": "Hurt by Trump, Senate Republicans plan to bolster affordability credentials before midterms - Reuters",
-      "summary": "Hurt by Trump, Senate Republicans plan to bolster affordability credentials before midterms Reuters",
+      "headline": "Hurt by Trump, Senate Republicans plan to bolster affordability credentials before midterms - reuters.com",
+      "summary": "Hurt by Trump, Senate Republicans plan to bolster affordability credentials before midterms reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLVpEek9KREFnOGlnd1c3RldyaGpVZ3BJUjdWemtCekdlWG5Qem9jXzJpbFpSTHNNTUFIYWtJM1JwdEgyTUFJTWYtZnBQWTJGZHJUS0tQX080Y1ZtS2Z6VHZOX1NiY2h0ZU5iWW9ZMk1yR2QyNGRGYUxMNzdRbzZ1VkFKaDVfM3ZZXzFVLWxMdFNIWG0wS01WN0xJY3VNQUFxaTFLZFp0dkdCTlowcXFSWklJem5HOU1FeDhXSjFuZzRWREpJWWI0MlExdw?oc=5",
       "datetime": 1790359558,
-      "headlineKo": "트럼프에 상처받은 공화당 상원 의원들은 중간고사 이전에 경제성 자격을 강화할 계획이다 - 로이터 통신",
-      "summaryKo": "트럼프의 타격을 입은 상원 공화당은 중간 선거 전에 경제성 자격을 강화할 계획입니다."
+      "headlineKo": "트럼프에 상처받은 공화당 상원은 중간선사 전에 경제성 자격을 강화할 계획이다 - reuters.com",
+      "summaryKo": "트럼프에 상처받은 공화당 상원 의원들은 중간선거 전에 경제성 자격을 강화할 계획입니다 reuters.com"
     },
     {
       "headline": "The iced coffee debate reflects 'everything wrong with hiring right now,' says career expert",
@@ -282,12 +282,12 @@ const MARKET_DATA = {
       "summaryKo": "아이스 커피는 인터넷을 통해 진행되는 세대 간 채용 논쟁의 중심에 있습니다. 한 직업 전문가는 이것이 무너진 취업 시장을 반영한다고 말합니다."
     },
     {
-      "headline": "Iran will make no nuclear concessions, Iranian official says - Reuters",
-      "summary": "Iran will make no nuclear concessions, Iranian official says Reuters",
+      "headline": "Iran will make no nuclear concessions, Iranian official says - reuters.com",
+      "summary": "Iran will make no nuclear concessions, Iranian official says reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORVpYNWQxeFFCcXEzQTZQdkM1LTJpVWc2RHpwOWtxbzV0OHg2aE12UGV1Y2VOQUN4WHdvOVB4YzBGT0ltckk5d0hDZGZUVXk3YWs0WnA5R2xjNmNBbkhHRzNra2pIQVlLa1pNQ29OV1QxQVdSTWJnaWZEYkVaaXJXa3d4cHVvV1o5VGlpWFRjUG9HVTFoMWw4TFZwNlI4aHJwQjU0UVRuZzJISFp0ZU9YQUw4VQ?oc=5",
       "datetime": 1790356117,
-      "headlineKo": "이란은 핵 양보를 하지 않을 것이라고 이란 관리가 밝혔습니다 - 로이터",
+      "headlineKo": "이란은 핵 양보를 하지 않을 것이라고 이란 관리가 밝혔습니다 - reuters.com",
       "summaryKo": "이란은 핵 양보를 하지 않을 것이라고 이란 관리가 밝혔습니다."
     },
     {
@@ -300,13 +300,13 @@ const MARKET_DATA = {
       "summaryKo": "10년 만기 국채 수익률은 2007년 이후 최고치를 기록했습니다. 채권 투자자와 대출자에게 더 높은 수익률이 의미하는 바는 다음과 같습니다."
     },
     {
-      "headline": "EXCLUSIVE: Qatar Airways retires idle A330s and sends pilots to RwandAir as Iran war drags - Reuters",
-      "summary": "EXCLUSIVE: Qatar Airways retires idle A330s and sends pilots to RwandAir as Iran war drags Reuters",
+      "headline": "EXCLUSIVE: Qatar Airways retires idle A330s and sends pilots to RwandAir as Iran war drags - reuters.com",
+      "summary": "EXCLUSIVE: Qatar Airways retires idle A330s and sends pilots to RwandAir as Iran war drags reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZU95VVVfeElqRlJLSHBPWFg3bE0zRjdvVFNIWGxSZF8zcDB4R2poelQ2MUFWR3Y2Y2FlSEp2OVVBcjdxSC1jNWhDQVhHQlpMbnp3SlZKR0ZFT0t4LVVwTEVrOUhhN0taRkh1SHAzM2VfeG0wTjhTcG12RXJCLW9WUVltTGlFb2dUdGdINl9fUktFcGg1UEhuQlY3WlU1ZUxGdG10ZDA3RkozdmE4aW9PSC1qaFJfcFQ1M08zVERyMVJOV1BzWDFRT0NKMjk?oc=5",
       "datetime": 1790343223,
-      "headlineKo": "독점: 카타르항공, 이란 전쟁으로 인해 유휴 A330을 퇴역시키고 조종사를 RwandAir에 파견 - Reuters",
-      "summaryKo": "독점: 카타르항공은 이란 전쟁으로 인해 유휴 상태인 A330을 퇴역시키고 조종사를 RwandAir에 파견했습니다."
+      "headlineKo": "독점: 카타르항공, 이란 전쟁으로 인해 유휴 A330을 퇴역시키고 조종사를 RwandAir에 파견 - reuters.com",
+      "summaryKo": "독점: 카타르항공, 이란 전쟁으로 인해 유휴 상태인 A330을 퇴역시키고 조종사를 RwandAir에 파견 reuters.com"
     },
     {
       "headline": "Top 10 things to watch in the stock market Friday",
@@ -327,13 +327,13 @@ const MARKET_DATA = {
       "summaryKo": "금요일 아침부터 토요일의 비행 중단은 최소화되었습니다."
     },
     {
-      "headline": "UAE markets decline after warning on regional air travel - Reuters",
-      "summary": "UAE markets decline after warning on regional air travel Reuters",
+      "headline": "UAE markets decline after warning on regional air travel - reuters.com",
+      "summary": "UAE markets decline after warning on regional air travel reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdmc1cG4yNlZ5Z2FjX3VJcHhsVDJmX0JMTFdKZ2JBODlNY3RYRS1VeWNhbXJXTlRTTEhXRUlualU0dHo1SzU1b3hjUFVHUlhpLUhhZk11WVU0dlFDcHRXaTN1ZEctd0pXaEFxQnAySlJiMzNOZGNFWk9qZUJNaThzOVhmNk5NeWQ3U2NTMFJuSGw0LXdoUHVXQTdiRXZPc2ZaQ1hoVS1zczFnUzg?oc=5",
       "datetime": 1790338663,
-      "headlineKo": "UAE 시장은 지역 항공 여행에 대한 경고 이후 하락세를 보이고 있습니다 - Reuters",
-      "summaryKo": "UAE 시장은 지역 항공 여행에 대한 경고 이후 하락 - 최신"
+      "headlineKo": "지역 항공 여행 경고 이후 UAE 시장 하락 - reuters.com",
+      "summaryKo": "UAE 시장은 지역 항공 여행에 대한 경고 이후 하락세를 보이고 있습니다 reuters.com"
     },
     {
       "headline": "New study reveals the estate-planning choices that are likely to pit heirs against each other",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790370016.1117976,
+  "_news_last_success_at": 1790373681.0183227,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790370003.1983342,
-  "_updated_label": "2026-09-26 06:00",
-  "_last_attempt_at": 1790370003.1983342,
-  "_last_success_at": 1790370003.1983342,
+  "_fetched_at": 1790373666.961528,
+  "_updated_label": "2026-09-26 07:01",
+  "_last_attempt_at": 1790373666.961528,
+  "_last_success_at": 1790373666.961528,
   "_collection_status": "ok",
   "_collection_errors": []
 };
