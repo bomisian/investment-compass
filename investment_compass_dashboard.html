@@ -3671,6 +3671,21 @@ function decisionSummaryHtml(r){
 // 배너를 그대로 재사용하되(계산 변경 없음), "가격판정 상태"를 별도 줄로 명시해서 매수 검토 같은
 // 기술적 관심 배지가 검증된 적정가 판정으로 오인되지 않게 분리한다. 아직 검증된 적정가 모델이
 // 없다는 사실 자체를 그대로 보여준다 -- 기존 시나리오 값($357.95 등)을 새 적정가로 승격하지 않는다.
+// [41번 배치 후속 -- AMAT 가격매력도 미판정 조사] 이 카드의 "가격 매력도" 줄이 모든 티커에서
+// 고정 문구("아직 판정하지 못했어요")였던 걸 고친다. d.valuationVerdict(computeValuationVerdict
+// 결과)는 이미 계산돼 있는 값이라 여기서는 그 결과를 문장으로 옮기기만 한다(재계산 없음).
+// unconfirmed(독립 평가 모델도 참고범위도 없음)일 때만 기존 문구를 그대로 쓴다 -- 값이 있는데
+// 없다고 보여주지 않는다.
+function priceAttractivenessLine(vv){
+  if(!vv || vv.status === 'unconfirmed'){
+    return '아직 판정하지 못했어요.' + (vv && vv.unconfirmedReason ? ` (${vv.unconfirmedReason})` : '');
+  }
+  const sentence = vv.diffSentence || '현재가와 비교할 수치가 없어요';
+  if(vv.judgmentAllowed){
+    return `${sentence} (${vv.methodLabel||'참고 모델'} 기준${vv.maturity&&vv.maturity.label?', '+vv.maturity.label:''} -- 확정된 매수·매도 신호 아님)`;
+  }
+  return `${vv.methodLabel||'참고 모델'} 값은 있지만 지금은 과거 참고값이에요 - ${vv.judgmentBlockedReason||'자료 최신성 확인 대기'}`;
+}
 function renderJudgementConclusionCard(r){
   const d = r.decision || computeDecisionViewModel(r);
   const meta = DECISION_STATUS_META[d.status] || DECISION_STATUS_META.unavailable;
@@ -3712,7 +3727,7 @@ function renderJudgementConclusionCard(r){
   const warnHtml = warnParts.map(w=>`<div class="glance-warn">${w}</div>`).join('');
   return `<div class="comment-box" style="background:${bannerBg};color:${bannerColor};border:1px solid ${bannerColor}33;margin-bottom:12px;">
     <div style="font-weight:700;margin-bottom:6px;"><span class="badge" style="background:${bannerColor};color:#fff;" title="${esc(d.headlineReason)} (policy v${d.policyVersion})">${esc(cardLabel)}</span></div>
-    <div style="font-size:14px;font-weight:700;margin-bottom:4px;">가격 매력도: 아직 판정하지 못했어요.</div>
+    <div style="font-size:14px;font-weight:700;margin-bottom:4px;">가격 매력도: ${esc(priceAttractivenessLine(d.valuationVerdict))}</div>
     <div style="font-size:13.5px;line-height:1.7;">${reasonHtml}</div>
     ${checksHtml}
     ${expNoteHtml}
