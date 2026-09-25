@@ -9,6 +9,45 @@ const BUSINESS_NOTES = {
   MARKET: {
     newsLog: [
       {
+        date: "2026-09-25",
+        headline: "美 3대지수 주간 상승 마감(나스닥 27,108·+0.63%) - 금리 급등세 진정, 유가는 이란-호르무즈 해협 재개통 논의에 하락, 소비자심리는 4개월래 최저",
+        tone: "mixed",
+        importance: "medium",
+        horizon: "단기(다음주 시장 방향)~중기(금리·인플레이션 기대 추이)",
+        facts: [
+          "2026-09-25(금) 다우존스 +0.86% 51,791.56, S&P500 +0.53% 7,744.64, 나스닥종합 +0.63% 27,108.19로 3대 지수가 모두 상승 마감했고, 주간 기준으로는 나스닥·S&P500이 각각 약 2%씩 오르며 9/23 급락분(나스닥 -1.13%)을 대부분 되돌렸다.",
+          "이번 주 초 5.135~5.2%까지 치솟아 2007년 이후(19년래) 최고치를 기록했던 10년물 국채금리는 9/25에는 큰 변동 없이 한 주를 마감했다 - 급등세가 일단 진정되는 신호로 해석됨.",
+          "WTI 원유는 배럴당 약 $94로 -2.80% 하락했고(브렌트유는 $99선) - 미국과 이란이 호르무즈 해협의 단계적(phased) 재개통을 논의하고 있다는 보도가 유가 하락을 이끌었다.",
+          "미시간대 9월 소비자심리지수 확정치는 48.1로 4개월 최저치를 기록했고, 1년 인플레이션 기대치는 8월 4.0%에서 9월 4.6%로, 5~10년 기대치는 3.4%(5월 이후 최고)로 각각 상승했다 - 디젤유 사상최고가·휘발유값 상승이 주요 배경으로 지목됐다."
+        ],
+        why: [
+          "9/23 항목에서 지적한 '금리 급등發 밸류에이션 압박'이 9/25에는 진정 국면으로 접어들었다는 점은 이 워치리스트의 고PER 성장주(PLTR, CRM 등)에 단기적으로는 안도 요인이다.",
+          "다만 유가 하락의 원인이 '수요 둔화'가 아니라 '이란 관련 지정학적 리스크의 일시적 완화(외교적 진전 보도)'라는 점에서, 협상이 결렬되면 언제든 재차 급등할 수 있는 불안정한 하락이라는 점에 유의해야 한다.",
+          "소비자심리 악화와 인플레이션 기대 상승(4.6%)이 동시에 나타난 조합은 '스태그플레이션' 우려를 자극할 수 있는 지표로, 9/23 항목에서 언급된 10월 FOMC 추가 금리인상 논의에 오히려 힘을 더할 수 있다.",
+          "결국 이번 주는 '금리·유가 급등 → 진정'의 롤러코스터였고, 지수는 주간 기준 상승은 마감했지만 그 이면의 인플레이션·소비심리 지표는 오히려 악화되고 있어 지수 반등을 그대로 낙관 신호로 받아들이기는 어렵다."
+        ],
+        beginner: [
+          "이번 주에는 미국 3대 지수(다우·S&P500·나스닥)가 모두 올라서 한 주를 마쳤어요. 나스닥과 S&P500은 한 주 동안 약 2% 정도 올랐어요.",
+          "초반에 크게 뛰었던 국채 금리(2007년 이후 최고치)는 금요일엔 별로 안 움직였어요 - '계속 오르던 흐름이 일단 멈췄다'는 뜻이에요.",
+          "기름값(원유)은 미국과 이란이 '호르무즈 해협'이라는 중요한 뱃길을 다시 열지 이야기하고 있다는 소식에 좀 내렸어요(약 -2.8%). 하지만 이 협상이 깨지면 기름값은 다시 오를 수 있어요.",
+          "그런데 미국 소비자들이 '경제를 어떻게 느끼는지' 보여주는 지수는 4개월 만에 가장 낮았고, '앞으로 물가가 얼마나 오를 것 같다'는 기대치는 오히려 더 높아졌어요(4.6%). 경기는 안 좋게 보면서 물가는 더 오를까 걱정하는 상태라, 중앙은행이 금리를 낮추기 어렵게 만드는 신호예요."
+        ],
+        watch: [
+          "10월 FOMC 회의 결과 및 추가 금리인상 여부",
+          "미국-이란 호르무즈 해협 재개통 협상의 실제 진전 여부(유가 방향 결정)",
+          "10월 이후 발표될 소비자심리·인플레이션 기대 지표 추이"
+        ],
+        interpretation: "지수는 주간 기준 상승했지만, 그 배경은 '위험이 사라졌다'가 아니라 '급등했던 금리·유가가 일시적으로 진정됐다'는 것에 가깝다. 동시에 소비자심리 악화와 인플레이션 기대 상승이 함께 나타나 10월 FOMC의 추가 금리인상 논쟁에 오히려 힘을 더할 수 있는 재료라, 표면적인 지수 반등을 곧바로 낙관적으로 해석하기보다는 금리·유가·소비자심리 등 매크로 지표를 계속 함께 봐야 하는 국면이다.",
+        decision: "이번 항목만으로 워치리스트 포지션을 바꿀 근거는 약함 - 금리·유가 진정은 긍정적이나 인플레이션 기대 상승은 상반된 신호이므로, 10월 FOMC(추가 인상 여부)와 호르무즈 해협 협상 진전 여부를 다음 확인 포인트로 유지.",
+        confidence: "지수 등락률·금리·유가 수치는 Yahoo Finance 종합 기사 기준, 소비자심리지수·인플레이션 기대치는 별도 매체(AllWeatherFinance, 미시간대 서베이 인용) 교차 확인. 다만 CNBC 원문 기사 일부는 접근 제한(403)으로 헤드라인 확인에 그쳤다.",
+        sources: [
+          { title: "Stock market today: Dow, S&P 500, Nasdaq notch weekly wins as market shrugs off bond sell-off, oil prices ease (Yahoo Finance)", url: "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-25-dow-sp-500-nasdaq-081738529.html" },
+          { title: "10-year Treasury yield is little changed to end a volatile week (CNBC)", url: "https://www.cnbc.com/2026/09/25/treasury-yields-bonds-debt.html" },
+          { title: "Oil falls as potential diplomatic solution to Iran conflict emerges (CNBC)", url: "https://www.cnbc.com/2026/09/25/oil-falls-as-potential-diplomatic-solution-to-iran-conflict-arises.html" },
+          { title: "The University of Michigan's consumer sentiment index fell to a four-month low in September (AllWeatherFinance)", url: "https://allweatherfinance.com/the-university-of-michigans-consumer-sentiment-index-fell-to-a-four-month-low-in-september-while-inflation-expectations-for-the-next-year-rose-to-4-6/" }
+        ],
+      },
+      {
         date: "2026-09-24",
         headline: "美中 정상회담 개막 - 무역휴전 2개월 연장(~2027.1.10 '부산합의'), 반도체 수출규제 관련 새로운 돌파구는 없어",
         tone: "mixed",

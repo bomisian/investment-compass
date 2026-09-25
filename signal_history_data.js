@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790374604.6622798,
+  "generatedAt": 1790376128.8251889,
   "records": {
     "MSFT": [
       {
@@ -1921,6 +1921,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "GOOGL": [
       {
+        "changedAt": 1790376128.8251889,
+        "dataAsOf": 1790362320,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 2.1,
+            "after": 1.75
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 3.85,
+            "after": 3.15
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 1.05,
+            "after": 0.7
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Sundar Pichai는 Alphabet의 클라우드 백로그가 지난 분기에 82%의 수익 성장을 달성한 후 5,140억 달러를 기록했으며 Fortune 100대 기업 중 거의 90%가 Gemini Enterprise를 사용하고 있다고 보고했습니다. Google Cloud가 더 큰 규모로 성장하고 있나요?",
+        "newsUrl": "https://finnhub.io/api/news?id=b1256672be167a906f8ada2512a2e4c34d4411864860cf79e832c584ea3ef4bc",
+        "eventId": "973026ade0df4b72018c",
+        "fingerprint": "{\"changes\": [{\"after\": 1.75, \"before\": 2.1, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 3.15, \"before\": 3.85, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.7, \"before\": 1.05, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"973026ade0df4b72018c\"}"
+      },
+      {
         "changedAt": 1790372782.163863,
         "dataAsOf": 1790362320,
         "changes": [
@@ -3702,29 +3731,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=87db35c1f6a0acc4716bebd554f20b21949f2d19395bf1b45d4f06ac10bdedd4",
         "eventId": "a66e455b3f1e8dd64c22",
         "fingerprint": "{\"changes\": [{\"after\": 1.22, \"before\": 1.57, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.75, \"before\": 2.45, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.17, \"before\": 0.18, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"a66e455b3f1e8dd64c22\"}"
-      },
-      {
-        "changedAt": 1789013800.1175673,
-        "dataAsOf": 1789008087,
-        "changes": [
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 0.52,
-            "after": 0.18
-          },
-          {
-            "key": "signal",
-            "label": "종합 시그널",
-            "before": "우호적 변화",
-            "after": "중립·확인 대기"
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "아이폰 전환자들이 삼성 폴더블에 몰려들다: 애플의 듀오가 이를 바꿀 것인가?",
-        "newsUrl": "https://finnhub.io/api/news?id=87db35c1f6a0acc4716bebd554f20b21949f2d19395bf1b45d4f06ac10bdedd4",
-        "eventId": "a66e455b3f1e8dd64c22",
-        "fingerprint": "{\"changes\": [{\"after\": 0.18, \"before\": 0.52, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"우호적 변화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"a66e455b3f1e8dd64c22\"}"
       }
     ],
     "AMZN": [
@@ -5362,6 +5368,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "META": [
+      {
+        "changedAt": 1790376128.8251889,
+        "dataAsOf": 1790358781,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.4,
+            "after": 1.05
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 2.62,
+            "after": 1.92
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -2.8,
+            "after": -3.15
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "AI 에이전트가 앱 스토어 1위를 차지한 후 Meta가 매수할 수 있는 최고의 Magnificent Seven 주식입니까?",
+        "newsUrl": "https://finnhub.io/api/news?id=45a7f36c7153031c7265ad8365d216e1f96175416d545b4bf0304def95b54c95",
+        "eventId": "d3fb7eacb9f4fa8564d2",
+        "fingerprint": "{\"changes\": [{\"after\": 1.05, \"before\": 1.4, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.92, \"before\": 2.62, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.15, \"before\": -2.8, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"d3fb7eacb9f4fa8564d2\"}"
+      },
       {
         "changedAt": 1790372782.163863,
         "dataAsOf": 1790358781,
@@ -7192,35 +7227,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=d2690b055b5759a8377f3b08a922d55af75802b5bb7e2e416f493da1e9b39051",
         "eventId": "4d7d75cd442cdbf0e3da",
         "fingerprint": "{\"changes\": [{\"after\": 1.22, \"before\": 0.87, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -0.52, \"before\": -1.22, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.5, \"before\": -2.8, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"4d7d75cd442cdbf0e3da\"}"
-      },
-      {
-        "changedAt": 1788935376.3852985,
-        "dataAsOf": 1788915628,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": -0.7,
-            "after": -1.22
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -4.9,
-            "after": -5
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -2.27,
-            "after": -2.8
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "Meta Platforms, 주요 소송을 해결하고 180억 달러 지불",
-        "newsUrl": "https://finnhub.io/api/news?id=5f31aa1688ce6739aeaf219c3674b3e7415c138734496e4490764e314dc75f56",
-        "eventId": "24260ff486f38668eea3",
-        "fingerprint": "{\"changes\": [{\"after\": -1.22, \"before\": -0.7, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -5, \"before\": -4.9, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -2.8, \"before\": -2.27, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"24260ff486f38668eea3\"}"
       }
     ],
     "AAPL": [
@@ -27301,6 +27307,41 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "TSM": [
       {
+        "changedAt": 1790376128.8251889,
+        "dataAsOf": 1790367600,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.05,
+            "after": 0.7
+          },
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -0.52,
+            "after": -0.87
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -1.57,
+            "after": -1.92
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.0,
+            "after": -0.35
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "2026년 Nvidia를 압도하는 반도체 주식을 만나보세요",
+        "newsUrl": "https://finnhub.io/api/news?id=b28eba917a011f40661e75dc1bc15a471ccb5135d9911c90c4c4ed4c357afa90",
+        "eventId": "0315cc25085331cce14a",
+        "fingerprint": "{\"changes\": [{\"after\": 0.7, \"before\": 1.05, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.87, \"before\": -0.52, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.92, \"before\": -1.57, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.35, \"before\": 0.0, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"0315cc25085331cce14a\"}"
+      },
+      {
         "changedAt": 1790372782.163863,
         "dataAsOf": 1790341381,
         "changes": [
@@ -32899,6 +32940,41 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "SNDK": [
       {
+        "changedAt": 1790376128.8251889,
+        "dataAsOf": 1790344981,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.7,
+            "after": 0.35
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.05,
+            "after": 0.35
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.7,
+            "after": -1.05
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "중립·확인 대기",
+            "after": "주의 강화"
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "예측: 2030년 Sandisk에 대한 500달러 투자의 가치는 다음과 같습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=d8f68db7053b50519a99047d217db1cffa656ca07c88cf2f7b0fe6a6550f9d9e",
+        "eventId": "6e32a8b47ea7fb9a0a3b",
+        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.7, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.35, \"before\": 1.05, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.05, \"before\": -0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"주의 강화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"6e32a8b47ea7fb9a0a3b\"}"
+      },
+      {
         "changedAt": 1790372782.163863,
         "dataAsOf": 1790344981,
         "changes": [
@@ -34824,29 +34900,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=2655b5499832086dd089e5178af7978d49bb40a69b0518d9322e793fbb21256c",
         "eventId": "34ab0e9e5bdac00081c5",
         "fingerprint": "{\"changes\": [{\"after\": 0.88, \"before\": 1.23, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.22, \"before\": -0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"34ab0e9e5bdac00081c5\"}"
-      },
-      {
-        "changedAt": 1788262225.5814428,
-        "dataAsOf": 1787727600,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 0.88,
-            "after": 1.23
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -1.22,
-            "after": -0.87
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "SNXX: Sandisk의 회복에 대한 레버리지 노출 그러나 단기 변동성으로 인해 주의가 요구됨",
-        "newsUrl": "https://finnhub.io/api/news?id=2655b5499832086dd089e5178af7978d49bb40a69b0518d9322e793fbb21256c",
-        "eventId": "34ab0e9e5bdac00081c5",
-        "fingerprint": "{\"changes\": [{\"after\": 1.23, \"before\": 0.88, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.87, \"before\": -1.22, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"34ab0e9e5bdac00081c5\"}"
       }
     ],
     "WDC": [
