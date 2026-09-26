@@ -237,13 +237,22 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Saudi coalition says it intercepts Houthi missiles, drones - reuters.com",
-      "summary": "Saudi coalition says it intercepts Houthi missiles, drones reuters.com",
+      "headline": "Iran awaits US move after WSJ report says Trump rejects peace plan - Reuters",
+      "summary": "Iran awaits US move after WSJ report says Trump rejects peace plan Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
+      "datetime": 1790389370,
+      "headlineKo": "트럼프가 평화 계획을 거부했다는 WSJ 보도 이후 이란은 미국의 조치를 기다리고 있다 - 로이터",
+      "summaryKo": "트럼프가 평화 계획을 거부했다고 WSJ 보고서가 보도한 후 이란은 미국의 조치를 기다리고 있습니다."
+    },
+    {
+      "headline": "Saudi coalition says it intercepts Houthi missiles, drones - Reuters",
+      "summary": "Saudi coalition says it intercepts Houthi missiles, drones Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdndqUFdtd2J6b19yZlhhZjlOZXVBYkNvYjVtTjQzYUxlRTVldkZHbjdQdDQtMGI0ZFEwSEY2MTc1OHNTcWJHUXJCbFJjSlpFb0o3blUxMTRBQWZncEVZaEZiMEdJbU9ZOGZIbUFxQzB3SGduZFZ2ZGFDYWNoZEtqVTd0QXRVZUc2UHRXMnpjUi1XM0d0a3dXcDg3ZFRqd2xsWHdzVXlhOXhMMDlQeHlpcEFXWjNncEZWbnBxZ0NaLXI?oc=5",
-      "datetime": 1790387822,
-      "headlineKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - reuters.com",
-      "summaryKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 reuters.com"
+      "datetime": 1790385900,
+      "headlineKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - 로이터 통신",
+      "summaryKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - 최신"
     },
     {
       "headline": "Here's exactly what Paramount promised Hollywood to land WBD — and why some are still skeptical",
@@ -255,31 +264,31 @@ const MARKET_DATA = {
       "summaryKo": "파라마운트 CEO 데이비드 엘리슨(David Ellison)의 독점금지 합의는 일부 연극적 우려를 완화시켰지만 5년 계약이 종료되면 어떤 일이 일어날지에 대한 의문이 남아 있습니다."
     },
     {
-      "headline": "Iran will make no nuclear concessions, Iranian official says - reuters.com",
-      "summary": "Iran will make no nuclear concessions, Iranian official says reuters.com",
+      "headline": "Iran will make no nuclear concessions, Iranian official says - Reuters",
+      "summary": "Iran will make no nuclear concessions, Iranian official says Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORVpYNWQxeFFCcXEzQTZQdkM1LTJpVWc2RHpwOWtxbzV0OHg2aE12UGV1Y2VOQUN4WHdvOVB4YzBGT0ltckk5d0hDZGZUVXk3YWs0WnA5R2xjNmNBbkhHRzNra2pIQVlLa1pNQ29OV1QxQVdSTWJnaWZEYkVaaXJXa3d4cHVvV1o5VGlpWFRjUG9HVTFoMWw4TFZwNlI4aHJwQjU0UVRuZzJISFp0ZU9YQUw4VQ?oc=5",
       "datetime": 1790368785,
-      "headlineKo": "이란은 핵 양보를 하지 않을 것이라고 이란 관리가 밝혔습니다 - reuters.com",
+      "headlineKo": "이란은 핵 양보를 하지 않을 것이라고 이란 관리가 밝혔습니다 - 로이터",
       "summaryKo": "이란은 핵 양보를 하지 않을 것이라고 이란 관리가 밝혔습니다."
     },
     {
-      "headline": "Iran's Araqchi says now up to US to accept 7-day plan - reuters.com",
-      "summary": "Iran's Araqchi says now up to US to accept 7-day plan reuters.com",
+      "headline": "Iran's Araqchi says now up to US to accept 7-day plan - Reuters",
+      "summary": "Iran's Araqchi says now up to US to accept 7-day plan Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUmpYaGtLNnJmeGdiOGNJZVNJQVJ0eVNmRzdLNHdQWF9hVkFfZ3FkSmtwamwxUmpkdWJJNmxldmtYckJzUGpFblZsYzVLV19PeFd2ZkFvSmgxUDJZQUF4MUdSQXU4SjFlWmM2WU42clJWNUlVNy1DVkRmY2k3MEJoQkQteWVKdVlBaFNiLWVla3FnTXdHSUdBZGN4eXhNUDJfN2c?oc=5",
       "datetime": 1790368569,
-      "headlineKo": "이란 아라크치 \"이제 미국이 7일 계획 수용할 것\" - reuters.com",
+      "headlineKo": "이란 아라크치 \"이제 미국이 7일 계획 수용할 것\"",
       "summaryKo": "이란 아라크치 \"이제 미국이 7일 계획 수용할 것\""
     },
     {
-      "headline": "EU warns of energy price crisis, asks countries to consider curbing demand, letter shows - reuters.com",
-      "summary": "EU warns of energy price crisis, asks countries to consider curbing demand, letter shows reuters.com",
+      "headline": "EU warns of energy price crisis, asks countries to consider curbing demand, letter shows - Reuters",
+      "summary": "EU warns of energy price crisis, asks countries to consider curbing demand, letter shows Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNemtIR2FDbDVHcjRWdzNYQnpYZGdsSW5yZTIzRlFtTnhXMVoxUGc1RTNWNlNVTkdiZk05SHpsMmh1TXlvQmdOLWR3MHlGRHV0Qkg4SGFhd1p1SUhfQ3YzVWVNZmc5TTVXbEdzQ19yQXU2RnE0MFprTjlYZGluYWVtb0JuQ3NzWkdNTnhqQ3hKYk9oelprY1FxbU1LZmgzcFByWVh6M01JR3BVMm56REhOR3JST2hQQXBXRUlkSFhqT3dOZGxsSi1fTTlkcWw?oc=5",
       "datetime": 1790367386,
-      "headlineKo": "EU, 에너지 가격 위기 경고, 국가들에 수요 억제 고려 요청 - reuters.com",
-      "summaryKo": "EU는 에너지 가격 위기를 경고하고 국가들에 수요 억제를 고려할 것을 요청했다고 서한은 reuters.com에 표시됩니다."
+      "headlineKo": "EU, 에너지 가격 위기 경고, 국가들에 수요 억제 고려 요청, 서신 공개 - Reuters",
+      "summaryKo": "EU는 에너지 가격 위기를 경고하고 국가들에게 수요 억제를 고려할 것을 요청했다고 서신은 밝혔습니다."
     },
     {
       "headline": "What we want to see next week from one of Jim Cramer's 6 stocks to buy",
@@ -291,13 +300,13 @@ const MARKET_DATA = {
       "summaryKo": "Micron은 메모리 공급 제약이 지속됨에 따라 수익으로 향하는 모든 영향력을 갖고 있습니다. 하지만 이 유리한 사이클은 언제까지 지속될 것인가?"
     },
     {
-      "headline": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says - reuters.com",
-      "summary": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says reuters.com",
+      "headline": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says - Reuters",
+      "summary": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS3NaNENZd05ESDQwSFdrTGwyLUtGX3NzT1NiR0tzbWwtM282dHRxbkxLYTk2b1Rkd01xQldYM2ItTlNRV01wbnhDMWpZVkliRnBhMlFWYVg1VHh6bjRCVkQwVGFFamhhWWpJa0p5aHlVRkJpblI1UUZJeDN6VFg1Z1hhdGFBSklFN2ZyVjZ0b1IyNUpoMU5GN0tmTlZPMExVNFppU2ZSRGFwcW1QSElZaktmS3pXSElm?oc=5",
       "datetime": 1790362753,
-      "headlineKo": "트럼프, 시진핑에 중국의 이란 지원 경고",
-      "summaryKo": "트럼프, 시진핑에 중국의 이란 지원 경고"
+      "headlineKo": "트럼프, 시에 중국의 이란 지원 경고, 보증 받았다 - 로이터 통신",
+      "summaryKo": "트럼프, 시에 중국의 이란 지원 경고, 확신 받았다고 미 특사 로이터통신"
     },
     {
       "headline": "Microsoft gives Copilot a much-needed overhaul, and the stock deservedly soars",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790354409,
       "headlineKo": "10년 만기 국채 수익률이 19년 만에 최고치를 기록했으며 일부 투자자들은 채권 매수 기회를 보고 있습니다.",
       "summaryKo": "10년 만기 국채 수익률은 2007년 이후 최고치를 기록했습니다. 채권 투자자와 대출자에게 더 높은 수익률이 의미하는 바는 다음과 같습니다."
-    },
-    {
-      "headline": "EXCLUSIVE: Qatar Airways retires idle A330s and sends pilots to RwandAir as Iran war drags - reuters.com",
-      "summary": "EXCLUSIVE: Qatar Airways retires idle A330s and sends pilots to RwandAir as Iran war drags reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZU95VVVfeElqRlJLSHBPWFg3bE0zRjdvVFNIWGxSZF8zcDB4R2poelQ2MUFWR3Y2Y2FlSEp2OVVBcjdxSC1jNWhDQVhHQlpMbnp3SlZKR0ZFT0t4LVVwTEVrOUhhN0taRkh1SHAzM2VfeG0wTjhTcG12RXJCLW9WUVltTGlFb2dUdGdINl9fUktFcGg1UEhuQlY3WlU1ZUxGdG10ZDA3RkozdmE4aW9PSC1qaFJfcFQ1M08zVERyMVJOV1BzWDFRT0NKMjk?oc=5",
-      "datetime": 1790343223,
-      "headlineKo": "독점: 카타르항공, 이란 전쟁으로 인해 유휴 A330을 퇴역시키고 조종사를 RwandAir에 파견 - reuters.com",
-      "summaryKo": "독점: 카타르항공, 이란 전쟁으로 인해 유휴 상태인 A330을 퇴역시키고 조종사를 RwandAir에 파견 reuters.com"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790396282.8065434,
+  "_news_last_success_at": 1790400060.6161447,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790396268.4061692,
-  "_updated_label": "2026-09-26 13:18",
-  "_last_attempt_at": 1790396268.4061692,
-  "_last_success_at": 1790396268.4061692,
+  "_fetched_at": 1790400045.5664327,
+  "_updated_label": "2026-09-26 14:21",
+  "_last_attempt_at": 1790400045.5664327,
+  "_last_success_at": 1790400045.5664327,
   "_collection_status": "ok",
   "_collection_errors": []
 };
