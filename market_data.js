@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran awaits US move after WSJ report says Trump rejects peace plan - Reuters",
+      "summary": "Iran awaits US move after WSJ report says Trump rejects peace plan Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
+      "datetime": 1790407635,
+      "headlineKo": "트럼프가 평화 계획을 거부했다는 WSJ 보도 이후 이란은 미국의 조치를 기다리고 있다 - 로이터",
+      "summaryKo": "트럼프가 평화 계획을 거부했다고 WSJ 보고서가 보도한 후 이란은 미국의 조치를 기다리고 있습니다."
+    },
+    {
       "headline": "Six big takeaways from a turbulent week of UN diplomacy - Reuters",
       "summary": "Six big takeaways from a turbulent week of UN diplomacy Reuters",
       "source": "Reuters",
@@ -244,15 +253,6 @@ const MARKET_DATA = {
       "datetime": 1790399340,
       "headlineKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 - 로이터",
       "summaryKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 Reuters"
-    },
-    {
-      "headline": "Iran awaits US move after WSJ report says Trump rejects peace plan - Reuters",
-      "summary": "Iran awaits US move after WSJ report says Trump rejects peace plan Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
-      "datetime": 1790387940,
-      "headlineKo": "트럼프가 평화 계획을 거부했다는 WSJ 보도 이후 이란은 미국의 조치를 기다리고 있다 - 로이터",
-      "summaryKo": "트럼프가 평화 계획을 거부했다고 WSJ 보고서가 보도한 후 이란은 미국의 조치를 기다리고 있습니다."
     },
     {
       "headline": "Saudi coalition says it intercepts Houthi missiles, drones - Reuters",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790414818.1124086,
+  "_news_last_success_at": 1790418816.536103,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790414809.6940658,
-  "_updated_label": "2026-09-26 18:27",
-  "_last_attempt_at": 1790414809.6940658,
-  "_last_success_at": 1790414809.6940658,
+  "_fetched_at": 1790418808.9013069,
+  "_updated_label": "2026-09-26 19:34",
+  "_last_attempt_at": 1790418808.9013069,
+  "_last_success_at": 1790418808.9013069,
   "_collection_status": "ok",
   "_collection_errors": []
 };
