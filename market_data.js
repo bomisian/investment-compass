@@ -215,10 +215,10 @@ const MARKET_DATA = {
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": 2.9579939351369156,
-        "ret3m": -4.050195082058794,
-        "ret6m": 16.729715045754865,
-        "ret1y": 51.48728175986537,
+        "ret1m": 2.8406113768131513,
+        "ret3m": -4.15958759391204,
+        "ret6m": 16.596631328203927,
+        "ret1y": 51.3145708900548,
         "winRate": null,
         "count": 12
       }
@@ -241,7 +241,7 @@ const MARKET_DATA = {
       "summary": "Six big takeaways from a turbulent week of UN diplomacy Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOFZoZDdKM2NZd3RrRFBLRGQ3VWoteUxkRFFtemw1RGVqbXdBWEdDR3FNazZ6MERQMWdCMThtVnJ5dnpmYjU0WWgzZW03OU5vWVZKLXRmS0s2c3BKV2lKbTlGLTJDRThYRW96eGJNVEhDZ3VEVVhPNGxpSkszTFc5WXNNQWh4dVRYWEJIZkhPTGN3ZDJXeW5FV2dYT3M?oc=5",
-      "datetime": 1790399504,
+      "datetime": 1790399340,
       "headlineKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 - 로이터",
       "summaryKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 Reuters"
     },
@@ -250,7 +250,7 @@ const MARKET_DATA = {
       "summary": "Iran awaits US move after WSJ report says Trump rejects peace plan Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
-      "datetime": 1790389370,
+      "datetime": 1790387940,
       "headlineKo": "트럼프가 평화 계획을 거부했다는 WSJ 보도 이후 이란은 미국의 조치를 기다리고 있다 - 로이터",
       "summaryKo": "트럼프가 평화 계획을 거부했다고 WSJ 보고서가 보도한 후 이란은 미국의 조치를 기다리고 있습니다."
     },
@@ -262,15 +262,6 @@ const MARKET_DATA = {
       "datetime": 1790385900,
       "headlineKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - 로이터 통신",
       "summaryKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - 최신"
-    },
-    {
-      "headline": "How Trump's diplomatic week exposed the limits of his power - Reuters",
-      "summary": "How Trump's diplomatic week exposed the limits of his power Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWUNJQ25mYi11NFg0WjVHdEZaSjVqMHhQS0NIT2tfQjc5UF9EZUpGWUNWZW40VGlmZjlhRFVZTkRicnh3UTlERy1vcU9majF6em4wYlRVN1V5S0RaTnpmR0VDdDV5VzBqNHY5dWNuWEJtdkF3VWNfQlVLbDc4S19Zb1Y1MzYxN2kwNGhVRF9uVUF0RTZPaVoyX1NvRmRkeFVG?oc=5",
-      "datetime": 1790376357,
-      "headlineKo": "트럼프의 외교 주간은 어떻게 그의 권력 한계를 드러냈는가 - 로이터",
-      "summaryKo": "트럼프의 외교 주간은 어떻게 그의 권력 한계를 드러냈는가 - 최신"
     },
     {
       "headline": "Here's exactly what Paramount promised Hollywood to land WBD — and why some are still skeptical",
@@ -343,18 +334,27 @@ const MARKET_DATA = {
       "datetime": 1790359558,
       "headlineKo": "트럼프에 상처받은 공화당 상원 의원들은 중간고사 이전에 경제성 자격을 강화할 계획이다 - 로이터 통신",
       "summaryKo": "트럼프의 타격을 입은 상원 공화당은 중간 선거 전에 경제성 자격을 강화할 계획입니다."
+    },
+    {
+      "headline": "The iced coffee debate reflects 'everything wrong with hiring right now,' says career expert",
+      "summary": "Iced coffee is at the center of an intergenerational hiring debate taking place across the internet. A career expert says it reflects a broken job market.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/25/iced-coffee-job-interview.html",
+      "datetime": 1790358649,
+      "headlineKo": "아이스 커피 논쟁은 '지금 채용의 모든 잘못된 점'을 반영한다고 경력 전문가는 말합니다.",
+      "summaryKo": "아이스 커피는 인터넷을 통해 진행되는 세대 간 채용 논쟁의 중심에 있습니다. 한 직업 전문가는 이것이 무너진 취업 시장을 반영한다고 말합니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790411133.9021049,
+  "_news_last_success_at": 1790414818.1124086,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790411126.4408178,
-  "_updated_label": "2026-09-26 17:26",
-  "_last_attempt_at": 1790411126.4408178,
-  "_last_success_at": 1790411126.4408178,
+  "_fetched_at": 1790414809.6940658,
+  "_updated_label": "2026-09-26 18:27",
+  "_last_attempt_at": 1790414809.6940658,
+  "_last_success_at": 1790414809.6940658,
   "_collection_status": "ok",
   "_collection_errors": []
 };
