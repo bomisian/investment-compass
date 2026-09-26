@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 101.03500366210938,
+      "current": 100.97000122070312,
       "prevClose": 101.29000091552734,
-      "changeAbs": -0.25499725341796875,
-      "changePct": -0.2517496802380606,
-      "pctRank": 40.89101034208433,
+      "changeAbs": -0.31999969482421875,
+      "changePct": -0.31592426886350644,
+      "pctRank": 40.41368337311058,
       "min5y": 93.3499984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -0.5658861773332302,
-      "ma20": 99.83274955749512,
-      "ma60": 100.11375020345052,
-      "chg1m": 1.8650054931640625,
-      "chg3m": -0.3249969482421875,
-      "chg1mPct": 1.880614629020011,
-      "chg3mPct": -0.32063629270439903,
+      "drawdown1y": -0.6298586613562529,
+      "ma20": 99.82949943542481,
+      "ma60": 100.11266682942708,
+      "chg1m": 1.8000030517578125,
+      "chg3m": -0.3899993896484375,
+      "chg1mPct": 1.8150681506430404,
+      "chg3mPct": -0.38476656205604653,
       "lastDate": "2026-09-25",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -164,21 +164,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "dow": {
-      "current": 51828.62109375,
+      "current": 51828.6015625,
       "prevClose": 51349.98046875,
-      "changeAbs": 478.640625,
-      "changePct": 0.9321145220128872,
+      "changeAbs": 478.62109375,
+      "changePct": 0.9320764864580113,
       "pctRank": 95.2191235059761,
       "min5y": 28725.509765625,
       "max5y": 54349.12109375,
       "high1y": 54349.12109375,
-      "drawdown1y": -4.63760949446127,
-      "ma20": 52375.9396484375,
-      "ma60": 52773.3326171875,
-      "chg1m": -1635.2578125,
-      "chg3m": -47.48828125,
-      "chg1mPct": -3.058621719848382,
-      "chg3mPct": -0.09154171702954546,
+      "drawdown1y": -4.637645431104964,
+      "ma20": 52375.938671875,
+      "ma60": 52773.332291666666,
+      "chg1m": -1635.27734375,
+      "chg3m": -47.5078125,
+      "chg1mPct": -3.0586582515224756,
+      "chg3mPct": -0.09157936682679377,
       "lastDate": "2026-09-25",
       "bars": 1255,
       "symbol": "^DJI",
@@ -237,15 +237,6 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "How Trump's diplomatic week exposed the limits of his power - reuters.com",
-      "summary": "How Trump's diplomatic week exposed the limits of his power reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWUNJQ25mYi11NFg0WjVHdEZaSjVqMHhQS0NIT2tfQjc5UF9EZUpGWUNWZW40VGlmZjlhRFVZTkRicnh3UTlERy1vcU9majF6em4wYlRVN1V5S0RaTnpmR0VDdDV5VzBqNHY5dWNuWEJtdkF3VWNfQlVLbDc4S19Zb1Y1MzYxN2kwNGhVRF9uVUF0RTZPaVoyX1NvRmRkeFVG?oc=5",
-      "datetime": 1790376357,
-      "headlineKo": "트럼프의 외교 주간, 그의 권력 한계가 어떻게 드러났는가 - reuters.com",
-      "summaryKo": "트럼프의 외교 주간은 어떻게 그의 권력 한계를 드러냈는가 reuters.com"
-    },
-    {
       "headline": "Here's exactly what Paramount promised Hollywood to land WBD — and why some are still skeptical",
       "summary": "Paramount CEO David Ellison's antitrust settlement eased some theatrical concerns, but questions remain about what happens when the five-year agreement ends.",
       "source": "CNBC",
@@ -255,40 +246,31 @@ const MARKET_DATA = {
       "summaryKo": "파라마운트 CEO 데이비드 엘리슨(David Ellison)의 독점금지 합의는 일부 연극적 우려를 완화시켰지만 5년 계약이 종료되면 어떤 일이 일어날지에 대한 의문이 남아 있습니다."
     },
     {
-      "headline": "Trump, Xi discuss Middle East war as Iran presses 7-day plan to end fighting - reuters.com",
-      "summary": "Trump, Xi discuss Middle East war as Iran presses 7-day plan to end fighting reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSktoVFV5TmFoZFFlNGJOdHNQbl9ZNWVfOFVvRTN2UXpLMlBhSnZ6ZVZLdFNlRU5CR3RjaHYxWDJRclcyb1lrVzh1WG83MWtmcjRyVnpRdTZIcTdtY01WRlFaVXZ5aWFBSXgzdk9LdzZNdmlQWHJlUmJuci1TSFI1bWRtYXJwYWdEYjBVMHJlVnpYbndpR1lQbllKNkphM0t1SmhXaXNYQmVncDFVOHFJ?oc=5",
-      "datetime": 1790374611,
-      "headlineKo": "이란이 7일간의 전쟁 종식 계획을 압박하자 트럼프-시, 중동 전쟁 논의 - reuters.com",
-      "summaryKo": "트럼프-시, 이란이 7일간의 전쟁 종료 계획을 압박하자 중동 전쟁 논의 reuters.com"
-    },
-    {
-      "headline": "Iran will make no nuclear concessions, Iranian official says - reuters.com",
-      "summary": "Iran will make no nuclear concessions, Iranian official says reuters.com",
+      "headline": "Iran will make no nuclear concessions, Iranian official says - Reuters",
+      "summary": "Iran will make no nuclear concessions, Iranian official says Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORVpYNWQxeFFCcXEzQTZQdkM1LTJpVWc2RHpwOWtxbzV0OHg2aE12UGV1Y2VOQUN4WHdvOVB4YzBGT0ltckk5d0hDZGZUVXk3YWs0WnA5R2xjNmNBbkhHRzNra2pIQVlLa1pNQ29OV1QxQVdSTWJnaWZEYkVaaXJXa3d4cHVvV1o5VGlpWFRjUG9HVTFoMWw4TFZwNlI4aHJwQjU0UVRuZzJISFp0ZU9YQUw4VQ?oc=5",
       "datetime": 1790368785,
-      "headlineKo": "이란은 핵 양보를 하지 않을 것이라고 이란 관리가 밝혔습니다 - reuters.com",
+      "headlineKo": "이란은 핵 양보를 하지 않을 것이라고 이란 관리가 밝혔습니다 - 로이터",
       "summaryKo": "이란은 핵 양보를 하지 않을 것이라고 이란 관리가 밝혔습니다."
     },
     {
-      "headline": "Iran's Araqchi says now up to US to accept 7-day plan - reuters.com",
-      "summary": "Iran's Araqchi says now up to US to accept 7-day plan reuters.com",
+      "headline": "Iran's Araqchi says now up to US to accept 7-day plan - Reuters",
+      "summary": "Iran's Araqchi says now up to US to accept 7-day plan Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUmpYaGtLNnJmeGdiOGNJZVNJQVJ0eVNmRzdLNHdQWF9hVkFfZ3FkSmtwamwxUmpkdWJJNmxldmtYckJzUGpFblZsYzVLV19PeFd2ZkFvSmgxUDJZQUF4MUdSQXU4SjFlWmM2WU42clJWNUlVNy1DVkRmY2k3MEJoQkQteWVKdVlBaFNiLWVla3FnTXdHSUdBZGN4eXhNUDJfN2c?oc=5",
       "datetime": 1790368569,
-      "headlineKo": "이란 아라크치 \"이제 미국이 7일 계획 수용할 것\" - reuters.com",
+      "headlineKo": "이란 아라크치 \"이제 미국이 7일 계획 수용할 것\"",
       "summaryKo": "이란 아라크치 \"이제 미국이 7일 계획 수용할 것\""
     },
     {
-      "headline": "EU warns of energy price crisis, asks countries to consider curbing demand, letter shows - reuters.com",
-      "summary": "EU warns of energy price crisis, asks countries to consider curbing demand, letter shows reuters.com",
+      "headline": "EU warns of energy price crisis, asks countries to consider curbing demand, letter shows - Reuters",
+      "summary": "EU warns of energy price crisis, asks countries to consider curbing demand, letter shows Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNemtIR2FDbDVHcjRWdzNYQnpYZGdsSW5yZTIzRlFtTnhXMVoxUGc1RTNWNlNVTkdiZk05SHpsMmh1TXlvQmdOLWR3MHlGRHV0Qkg4SGFhd1p1SUhfQ3YzVWVNZmc5TTVXbEdzQ19yQXU2RnE0MFprTjlYZGluYWVtb0JuQ3NzWkdNTnhqQ3hKYk9oelprY1FxbU1LZmgzcFByWVh6M01JR3BVMm56REhOR3JST2hQQXBXRUlkSFhqT3dOZGxsSi1fTTlkcWw?oc=5",
       "datetime": 1790367386,
-      "headlineKo": "EU, 에너지 가격 위기 경고, 국가들에 수요 억제 고려 요청 - reuters.com",
-      "summaryKo": "EU는 에너지 가격 위기를 경고하고 국가들에 수요 억제를 고려할 것을 요청했다고 서한은 reuters.com에 표시됩니다."
+      "headlineKo": "EU, 에너지 가격 위기 경고, 국가들에 수요 억제 고려 요청, 서신 공개 - Reuters",
+      "summaryKo": "EU는 에너지 가격 위기를 경고하고 국가들에게 수요 억제를 고려할 것을 요청했다고 서신은 밝혔습니다."
     },
     {
       "headline": "What we want to see next week from one of Jim Cramer's 6 stocks to buy",
@@ -300,13 +282,13 @@ const MARKET_DATA = {
       "summaryKo": "Micron은 메모리 공급 제약이 지속됨에 따라 수익으로 향하는 모든 영향력을 갖고 있습니다. 하지만 이 유리한 사이클은 언제까지 지속될 것인가?"
     },
     {
-      "headline": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says - reuters.com",
-      "summary": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says reuters.com",
+      "headline": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says - Reuters",
+      "summary": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS3NaNENZd05ESDQwSFdrTGwyLUtGX3NzT1NiR0tzbWwtM282dHRxbkxLYTk2b1Rkd01xQldYM2ItTlNRV01wbnhDMWpZVkliRnBhMlFWYVg1VHh6bjRCVkQwVGFFamhhWWpJa0p5aHlVRkJpblI1UUZJeDN6VFg1Z1hhdGFBSklFN2ZyVjZ0b1IyNUpoMU5GN0tmTlZPMExVNFppU2ZSRGFwcW1QSElZaktmS3pXSElm?oc=5",
       "datetime": 1790362753,
-      "headlineKo": "트럼프, 시진핑에 중국의 이란 지원 경고",
-      "summaryKo": "트럼프, 시진핑에 중국의 이란 지원 경고"
+      "headlineKo": "트럼프, 시에 중국의 이란 지원 경고, 보증 받았다 - 로이터 통신",
+      "summaryKo": "트럼프, 시에 중국의 이란 지원 경고, 확신 받았다고 미 특사 로이터통신"
     },
     {
       "headline": "Microsoft gives Copilot a much-needed overhaul, and the stock deservedly soars",
@@ -318,13 +300,13 @@ const MARKET_DATA = {
       "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
     },
     {
-      "headline": "Hurt by Trump, Senate Republicans plan to bolster affordability credentials before midterms - reuters.com",
-      "summary": "Hurt by Trump, Senate Republicans plan to bolster affordability credentials before midterms reuters.com",
+      "headline": "Hurt by Trump, Senate Republicans plan to bolster affordability credentials before midterms - Reuters",
+      "summary": "Hurt by Trump, Senate Republicans plan to bolster affordability credentials before midterms Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLVpEek9KREFnOGlnd1c3RldyaGpVZ3BJUjdWemtCekdlWG5Qem9jXzJpbFpSTHNNTUFIYWtJM1JwdEgyTUFJTWYtZnBQWTJGZHJUS0tQX080Y1ZtS2Z6VHZOX1NiY2h0ZU5iWW9ZMk1yR2QyNGRGYUxMNzdRbzZ1VkFKaDVfM3ZZXzFVLWxMdFNIWG0wS01WN0xJY3VNQUFxaTFLZFp0dkdCTlowcXFSWklJem5HOU1FeDhXSjFuZzRWREpJWWI0MlExdw?oc=5",
       "datetime": 1790359558,
-      "headlineKo": "트럼프에 상처받은 공화당 상원은 중간선사 전에 경제성 자격을 강화할 계획이다 - reuters.com",
-      "summaryKo": "트럼프에 상처받은 공화당 상원 의원들은 중간선거 전에 경제성 자격을 강화할 계획입니다 reuters.com"
+      "headlineKo": "트럼프에 상처받은 공화당 상원 의원들은 중간고사 이전에 경제성 자격을 강화할 계획이다 - 로이터 통신",
+      "summaryKo": "트럼프의 타격을 입은 상원 공화당은 중간 선거 전에 경제성 자격을 강화할 계획입니다."
     },
     {
       "headline": "The iced coffee debate reflects 'everything wrong with hiring right now,' says career expert",
@@ -343,18 +325,36 @@ const MARKET_DATA = {
       "datetime": 1790354409,
       "headlineKo": "10년 만기 국채 수익률이 19년 만에 최고치를 기록했으며 일부 투자자들은 채권 매수 기회를 보고 있습니다.",
       "summaryKo": "10년 만기 국채 수익률은 2007년 이후 최고치를 기록했습니다. 채권 투자자와 대출자에게 더 높은 수익률이 의미하는 바는 다음과 같습니다."
+    },
+    {
+      "headline": "EXCLUSIVE: Qatar Airways retires idle A330s and sends pilots to RwandAir as Iran war drags - Reuters",
+      "summary": "EXCLUSIVE: Qatar Airways retires idle A330s and sends pilots to RwandAir as Iran war drags Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZU95VVVfeElqRlJLSHBPWFg3bE0zRjdvVFNIWGxSZF8zcDB4R2poelQ2MUFWR3Y2Y2FlSEp2OVVBcjdxSC1jNWhDQVhHQlpMbnp3SlZKR0ZFT0t4LVVwTEVrOUhhN0taRkh1SHAzM2VfeG0wTjhTcG12RXJCLW9WUVltTGlFb2dUdGdINl9fUktFcGg1UEhuQlY3WlU1ZUxGdG10ZDA3RkozdmE4aW9PSC1qaFJfcFQ1M08zVERyMVJOV1BzWDFRT0NKMjk?oc=5",
+      "datetime": 1790343223,
+      "headlineKo": "독점: 카타르항공, 이란 전쟁으로 인해 유휴 A330을 퇴역시키고 조종사를 RwandAir에 파견 - Reuters",
+      "summaryKo": "독점: 카타르항공은 이란 전쟁으로 인해 유휴 상태인 A330을 퇴역시키고 조종사를 RwandAir에 파견했습니다."
+    },
+    {
+      "headline": "Top 10 things to watch in the stock market Friday",
+      "summary": "Stocks are heading for a higher open, and the S&P 500 and Nasdaq are poised to post winning weeks.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/25/top-10-things-to-watch-in-the-stock-market-friday.html",
+      "datetime": 1790341798,
+      "headlineKo": "금요일 주식시장에서 주목해야 할 10가지",
+      "summaryKo": "주식은 더 높은 시가를 향하고 있으며 S&P 500과 나스닥은 상승세를 기록할 준비가 되어 있습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790388898.1457062,
+  "_news_last_success_at": 1790392523.6480513,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790388876.5529473,
-  "_updated_label": "2026-09-26 11:15",
-  "_last_attempt_at": 1790388876.5529473,
-  "_last_success_at": 1790388876.5529473,
+  "_fetched_at": 1790392509.1164303,
+  "_updated_label": "2026-09-26 12:15",
+  "_last_attempt_at": 1790392509.1164303,
+  "_last_success_at": 1790392509.1164303,
   "_collection_status": "ok",
   "_collection_errors": []
 };
