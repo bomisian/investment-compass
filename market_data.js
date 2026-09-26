@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "How Trump's diplomatic week exposed the limits of his power - Reuters",
+      "summary": "How Trump's diplomatic week exposed the limits of his power Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWUNJQ25mYi11NFg0WjVHdEZaSjVqMHhQS0NIT2tfQjc5UF9EZUpGWUNWZW40VGlmZjlhRFVZTkRicnh3UTlERy1vcU9majF6em4wYlRVN1V5S0RaTnpmR0VDdDV5VzBqNHY5dWNuWEJtdkF3VWNfQlVLbDc4S19Zb1Y1MzYxN2kwNGhVRF9uVUF0RTZPaVoyX1NvRmRkeFVG?oc=5",
+      "datetime": 1790376357,
+      "headlineKo": "트럼프의 외교 주간은 어떻게 그의 권력 한계를 드러냈는가 - 로이터",
+      "summaryKo": "트럼프의 외교 주간은 어떻게 그의 권력 한계를 드러냈는가 - 최신"
+    },
+    {
       "headline": "Here's exactly what Paramount promised Hollywood to land WBD — and why some are still skeptical",
       "summary": "Paramount CEO David Ellison's antitrust settlement eased some theatrical concerns, but questions remain about what happens when the five-year agreement ends.",
       "source": "CNBC",
@@ -271,6 +280,15 @@ const MARKET_DATA = {
       "datetime": 1790368569,
       "headlineKo": "이란 아라크치 \"이제 미국이 7일 계획 수용할 것\"",
       "summaryKo": "이란 아라크치 \"이제 미국이 7일 계획 수용할 것\""
+    },
+    {
+      "headline": "EU warns of energy price crisis, asks countries to consider curbing demand, letter shows - Reuters",
+      "summary": "EU warns of energy price crisis, asks countries to consider curbing demand, letter shows Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNemtIR2FDbDVHcjRWdzNYQnpYZGdsSW5yZTIzRlFtTnhXMVoxUGc1RTNWNlNVTkdiZk05SHpsMmh1TXlvQmdOLWR3MHlGRHV0Qkg4SGFhd1p1SUhfQ3YzVWVNZmc5TTVXbEdzQ19yQXU2RnE0MFprTjlYZGluYWVtb0JuQ3NzWkdNTnhqQ3hKYk9oelprY1FxbU1LZmgzcFByWVh6M01JR3BVMm56REhOR3JST2hQQXBXRUlkSFhqT3dOZGxsSi1fTTlkcWw?oc=5",
+      "datetime": 1790367386,
+      "headlineKo": "EU, 에너지 가격 위기 경고, 국가들에 수요 억제 고려 요청, 서신 공개 - Reuters",
+      "summaryKo": "EU는 에너지 가격 위기를 경고하고 국가들에게 수요 억제를 고려할 것을 요청했다고 서신은 밝혔습니다."
     },
     {
       "headline": "What we want to see next week from one of Jim Cramer's 6 stocks to buy",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790358649,
       "headlineKo": "아이스 커피 논쟁은 '지금 채용의 모든 잘못된 점'을 반영한다고 경력 전문가는 말합니다.",
       "summaryKo": "아이스 커피는 인터넷을 통해 진행되는 세대 간 채용 논쟁의 중심에 있습니다. 한 직업 전문가는 이것이 무너진 취업 시장을 반영한다고 말합니다."
-    },
-    {
-      "headline": "10-year Treasury yield hit a 19-year high—and some investors see opportunity to buy bonds",
-      "summary": "The 10-year Treasury yield hit its highest level since 2007. Here’s what higher yields can mean for bond investors and borrowers.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/25/treasury-yield-buy-bonds.html",
-      "datetime": 1790354409,
-      "headlineKo": "10년 만기 국채 수익률이 19년 만에 최고치를 기록했으며 일부 투자자들은 채권 매수 기회를 보고 있습니다.",
-      "summaryKo": "10년 만기 국채 수익률은 2007년 이후 최고치를 기록했습니다. 채권 투자자와 대출자에게 더 높은 수익률이 의미하는 바는 다음과 같습니다."
-    },
-    {
-      "headline": "Saudi Grand Mufti tells troops to be ready to sacrifice their lives fighting Houthis - Reuters",
-      "summary": "Saudi Grand Mufti tells troops to be ready to sacrifice their lives fighting Houthis Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTXZJVk41ZE5xYUdhR0dIQjd0eVNzaWlmNVd3VmNNZTEyc2dZOWlnZm1nYW9xU19UNTNia0ZLaDUya2xYcXpYRW1tcUJVa0phSUlfOU82SXJHZjc1WHJTUFV5MkNRZUJ0LXFOSG8zRUswZGtJbHktVkZPeGJKd1lUMVBldUlwbGlXOW5qYm1VbnhJVU9QQ0x3Z1ZtNVpjMTVRNXZOZTJvbHZyNjZINzBYc3hvYVpWRndIbldwWjBCUDhJMnhyWVNmTkhxVUU?oc=5",
-      "datetime": 1790347745,
-      "headlineKo": "사우디 그랜드 무프티(Saudi Grand Mufti)는 군대에 후티 반군과의 싸움에서 목숨을 바칠 준비가 되어 있다고 말했다 - 로이터",
-      "summaryKo": "사우디 그랜드 무프티(Saudi Grand Mufti), 후티 반군과의 전투에서 목숨을 바칠 준비가 되어 있다고 군대에 지시 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790380814.5069113,
+  "_news_last_success_at": 1790385194.7327943,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790380803.2364907,
-  "_updated_label": "2026-09-26 09:00",
-  "_last_attempt_at": 1790380803.2364907,
-  "_last_success_at": 1790380803.2364907,
+  "_fetched_at": 1790385184.391794,
+  "_updated_label": "2026-09-26 10:13",
+  "_last_attempt_at": 1790385184.391794,
+  "_last_success_at": 1790385184.391794,
   "_collection_status": "ok",
   "_collection_errors": []
 };
