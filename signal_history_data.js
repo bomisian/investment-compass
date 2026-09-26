@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790442003.1428757,
+  "generatedAt": 1790442589.1346173,
   "records": {
     "MSFT": [
       {
@@ -3735,6 +3735,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AMZN": [
       {
+        "changedAt": 1790442589.1346173,
+        "dataAsOf": 1790424300,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 3.67,
+            "after": 4.2
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.52,
+            "after": 1.05
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "아마존은 데이터센터에 2,200억 달러를 지출하고 있습니다. 주식을 믿을 수 없을 만큼 구매하게 만드는 이유는 다음과 같습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=872c9159864b8fb5af911d4b795f76345d4540d38486637db166a3fcf21c294f",
+        "eventId": "c06a758f41f623e946b2",
+        "fingerprint": "{\"changes\": [{\"after\": 4.2, \"before\": 3.67, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 1.05, \"before\": 0.52, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"c06a758f41f623e946b2\"}"
+      },
+      {
         "changedAt": 1790372782.163863,
         "dataAsOf": 1790315218,
         "changes": [
@@ -5342,32 +5365,38 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=c3337d011ae7dd402563733535a14ca9a5cc988f69539437d6ff2872117c48d2",
         "eventId": "167286f06cba9abc13f0",
         "fingerprint": "{\"changes\": [{\"after\": 0.97, \"before\": 1.5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"167286f06cba9abc13f0\"}"
-      },
+      }
+    ],
+    "META": [
       {
-        "changedAt": 1789010069.714424,
-        "dataAsOf": 1788991309,
+        "changedAt": 1790442589.1346173,
+        "dataAsOf": 1790376708,
         "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.23,
+            "after": 1.75
+          },
           {
             "key": "businessRisk",
             "label": "사업 리스크",
-            "before": -4.5,
-            "after": -5
+            "before": -4.55,
+            "after": -3.5
           },
           {
             "key": "shortTermMomentum",
             "label": "단기 뉴스 모멘텀",
-            "before": 0.97,
-            "after": 1.5
+            "before": -3.5,
+            "after": -2.97
           }
         ],
         "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "S&P 500, Dow, Nasdaq은 유가가 101달러를 넘으면서 하락 마감, Bessent의 확장된 환매 계획에 따라 팝 수익률 — AAPL, META, AMZN, CRM 집중",
-        "newsUrl": "https://finnhub.io/api/news?id=c3337d011ae7dd402563733535a14ca9a5cc988f69539437d6ff2872117c48d2",
-        "eventId": "167286f06cba9abc13f0",
-        "fingerprint": "{\"changes\": [{\"after\": -5, \"before\": -4.5, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 1.5, \"before\": 0.97, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"167286f06cba9abc13f0\"}"
-      }
-    ],
-    "META": [
+        "newsHeadline": "S&P 500, Dow, Nasdaq은 미국-이란 분쟁 완화 조짐 속에 칩 제조업체의 강세, 석유 완화에 대한 주간 상승 — META, COST, MSFT, CRWD, SKHY 집중",
+        "newsUrl": "https://finnhub.io/api/news?id=c781ef986078d0ea640818550c59948fa53c13e56d3161aebbcea884e3580690",
+        "eventId": "69cc1abaac53ff9b5c85",
+        "fingerprint": "{\"changes\": [{\"after\": 1.75, \"before\": 1.23, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.5, \"before\": -4.55, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -2.97, \"before\": -3.5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"69cc1abaac53ff9b5c85\"}"
+      },
       {
         "changedAt": 1790417036.3868268,
         "dataAsOf": 1790376708,
@@ -7192,35 +7221,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=2c50c9c122ce361357da6c5f6f43119bb626ae70541fda74045942e1bcefff7f",
         "eventId": "87dcd7e24de31ce660d7",
         "fingerprint": "{\"changes\": [{\"after\": -0.17, \"before\": 0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -5, \"before\": -4.2, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -2.45, \"before\": -1.92, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"87dcd7e24de31ce660d7\"}"
-      },
-      {
-        "changedAt": 1788987250.909649,
-        "dataAsOf": 1788943590,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 0.0,
-            "after": 0.35
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -4.9,
-            "after": -4.2
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -2.27,
-            "after": -1.92
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "META 주식 상승 프리마켓: Zuckerberg는 스레드가 'X보다 크거나 규모가 비슷하다'고 말합니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=d2690b055b5759a8377f3b08a922d55af75802b5bb7e2e416f493da1e9b39051",
-        "eventId": "4d7d75cd442cdbf0e3da",
-        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.0, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.2, \"before\": -4.9, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.92, \"before\": -2.27, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"4d7d75cd442cdbf0e3da\"}"
       }
     ],
     "AAPL": [
@@ -16079,6 +16079,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1790442589.1346173,
+        "dataAsOf": 1790425320,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 3.85,
+            "after": 4.2
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Nvidia는 10년 만에 가장 저렴한 가치로 52주 최고가에 근접했습니다. 역사에 따르면 2030년까지 투자한 1,000달러의 가치는 이 정도입니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=adc1d3988f41d16b08a227e9650b3e66f806fa36ecfee1a584ce5455f31d8cdd",
+        "eventId": "3dd9c50f483a7fbdc281",
+        "fingerprint": "{\"changes\": [{\"after\": 4.2, \"before\": 3.85, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"3dd9c50f483a7fbdc281\"}"
+      },
+      {
         "changedAt": 1790398223.7056656,
         "dataAsOf": 1790377781,
         "changes": [
@@ -17392,32 +17409,26 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=8921289cb1f7b10eb6ba4514047370ed7900e7c9bf6eb93c33fce00878e367cc",
         "eventId": "43aa0111c11bedb8d1c7",
         "fingerprint": "{\"changes\": [{\"after\": 2.45, \"before\": 1.92, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"43aa0111c11bedb8d1c7\"}"
-      },
-      {
-        "changedAt": 1789077585.2185578,
-        "dataAsOf": 1789062653,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 1.57,
-            "after": 1.92
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 4.2,
-            "after": 5
-          }
-        ],
-        "cause": "AI 컴퓨팅 수요 확대 가능성",
-        "newsHeadline": "150억 달러 규모의 핵 베팅으로 AI 파워가 잠기면서 알파벳 가장자리가 더 높아졌습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=ff3a802637a90748c5c85f5658206cc5b6a37b5ccb9c36920eeb41183714e722",
-        "eventId": "c25a39baa7f8c002cfa3",
-        "fingerprint": "{\"changes\": [{\"after\": 1.92, \"before\": 1.57, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 5, \"before\": 4.2, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"c25a39baa7f8c002cfa3\"}"
       }
     ],
     "AMD": [
+      {
+        "changedAt": 1790442589.1346173,
+        "dataAsOf": 1790424300,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 3.68,
+            "after": 4.2
+          }
+        ],
+        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
+        "newsHeadline": "아마존은 데이터센터에 2,200억 달러를 지출하고 있습니다. 주식을 믿을 수 없을 만큼 구매하게 만드는 이유는 다음과 같습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=872c9159864b8fb5af911d4b795f76345d4540d38486637db166a3fcf21c294f",
+        "eventId": "c06a758f41f623e946b2",
+        "fingerprint": "{\"changes\": [{\"after\": 4.2, \"before\": 3.68, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"c06a758f41f623e946b2\"}"
+      },
       {
         "changedAt": 1790440780.7091172,
         "dataAsOf": 1790406765,
@@ -18786,29 +18797,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=20a10f3a75b537f65670fd11dc2107ae145daa107c44d0c80bd3fa9ceb45e98e",
         "eventId": "2339ab3da2726373fde1",
         "fingerprint": "{\"changes\": [{\"after\": -1.75, \"before\": -1.05, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"2339ab3da2726373fde1\"}"
-      },
-      {
-        "changedAt": 1789240264.5747104,
-        "dataAsOf": 1789210980,
-        "changes": [
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -1.05,
-            "after": 0.0
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -1.57,
-            "after": -1.05
-          }
-        ],
-        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
-        "newsHeadline": "Broadcom의 AI 칩 매출은 지난 분기에 221% 증가했습니다. 1년에 $ 1,000의 투자가 오늘 이만큼 가치가 있을 것입니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=f26bd8a1f6278ea7208ebad9a29f3efca4384fad68d8040c24b1bd8cc88e95b9",
-        "eventId": "7f5f7d7375108989b14c",
-        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -1.05, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.05, \"before\": -1.57, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"7f5f7d7375108989b14c\"}"
       }
     ],
     "AVGO": [
@@ -31671,6 +31659,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "MU": [
       {
+        "changedAt": 1790442589.1346173,
+        "dataAsOf": 1790424300,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 4.9,
+            "after": 5
+          }
+        ],
+        "cause": "AI 서버 메모리 수요와 가격 강세",
+        "newsHeadline": "아마존은 데이터센터에 2,200억 달러를 지출하고 있습니다. 주식을 믿을 수 없을 만큼 구매하게 만드는 이유는 다음과 같습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=872c9159864b8fb5af911d4b795f76345d4540d38486637db166a3fcf21c294f",
+        "eventId": "c06a758f41f623e946b2",
+        "fingerprint": "{\"changes\": [{\"after\": 5, \"before\": 4.9, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"c06a758f41f623e946b2\"}"
+      },
+      {
         "changedAt": 1790440780.7091172,
         "dataAsOf": 1790406765,
         "changes": [
@@ -33068,35 +33073,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=8921289cb1f7b10eb6ba4514047370ed7900e7c9bf6eb93c33fce00878e367cc",
         "eventId": "43aa0111c11bedb8d1c7",
         "fingerprint": "{\"changes\": [{\"after\": 4.38, \"before\": 4.72, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 4.37, \"before\": 4.72, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"43aa0111c11bedb8d1c7\"}"
-      },
-      {
-        "changedAt": 1789092713.5199726,
-        "dataAsOf": 1789084350,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 0.7,
-            "after": 0.35
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 4.9,
-            "after": 4.72
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 4.55,
-            "after": 4.72
-          }
-        ],
-        "cause": "AI 서버 메모리 수요와 가격 강세",
-        "newsHeadline": "기술 백만장자들은 주식을 팔지 않고도 다각화하기 위해 7자리 숫자의 Nvidia와 Apple 지분을 교환 자금으로 모으고 있습니다. 7년 락업이 대가입니다",
-        "newsUrl": "https://finnhub.io/api/news?id=8921289cb1f7b10eb6ba4514047370ed7900e7c9bf6eb93c33fce00878e367cc",
-        "eventId": "43aa0111c11bedb8d1c7",
-        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.7, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 4.72, \"before\": 4.9, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 4.72, \"before\": 4.55, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"43aa0111c11bedb8d1c7\"}"
       }
     ],
     "SNDK": [

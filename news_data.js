@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1790420646.6903906,
+    "_last_attempt_at": 1790442524.0691073,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -52,7 +52,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790420651.699652
+          "analysisUpdatedAt": 1790442528.651722
         },
         "headlineKo": "나스닥 사상 최고치는 당신을 놀라게 할 것입니다"
       },
@@ -116,7 +116,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Vanguard Information Technology ETF ( VGT +0.78% ) and the Invesco QQQ Trust ETF ( QQQ +0.46% ) are two of the more popular ETF",
             "In that time, they've averaged over 23% and 20% annual returns, respectively."
           ],
-          "analysisUpdatedAt": 1790420654.2234533
+          "analysisUpdatedAt": 1790442532.776051
         },
         "headlineKo": "VGT 대 QQQ: 최대 장기 성장을 위해 지금 1,000달러를 어디에 투자해야 합니까?"
       },
@@ -136,13 +136,13 @@ const NEWS_DATA = {
           "label": "규제·법무 · 비선형 위험",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "오늘 주식 시장: 이란의 Stra 재개 제안 이후 낙관론 속에 다우, S&P 500, 나스닥 선물 상승 - Benzinga SPY 770.44 QQQ 746.21 +0.69% BTC/USD 84,614.94 +0.27% DIA 515.10 +0.47% GLD 394.33 +0.67% TLT 79.58 +0.20% 미국 로그인 Regis",
+            "오늘 주식 시장: 이란의 Stra 재개 제안 이후 낙관론 속에 다우, S&P 500, 나스닥 선물 상승 - Benzinga SPY 772.04 +0.09% QQQ 745.40 +0.12% BTC/USD 84,167.88 +0.09% DIA 517.72 +0.04% GLD 393.05 −0.09% TLT 79.38 +0.08% 미국 서명",
             "목요일에는 혼조세로 마감한 후 다우존스, S&P 500, 나스닥 종합지수 선물이 상승하면서 금요일에는 긍정적인 개장이 예상됩니다.",
             "도널드 트럼프 대통령이 호르무즈 해협을 재개하고 7일 이내에 핵협정 협상을 재개하겠다고 제안한 압바스 아라그치 이란 외무장관의 발언도 낙관론에 일조했다."
           ],
           "why": [
             "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.69%, 0.27%, 0.47% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.09%, 0.12%, 0.04% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -166,21 +166,21 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.69%",
-            "0.27%",
-            "0.47%",
-            "0.67%",
-            "0.20%",
+            "0.09%",
+            "0.12%",
+            "0.04%",
+            "0.08%",
             "5.175%",
             "5.469%",
-            "4.895%"
+            "4.895%",
+            "66.4%"
           ],
           "sourceExcerpt": [
-            "Stock Market Today: Dow, S&P 500, Nasdaq Futures Rise Amid Optimism Following Iran’s Offer To Reopen Stra - Benzinga SPY 770.44 QQQ 746.21 +0.69% BTC/USD 84,614.94 +0.27% DIA 515.10 +0.47% GLD 394.33 +0.67% TLT 79.58 +0.20% US Sign in Regis",
+            "Stock Market Today: Dow, S&P 500, Nasdaq Futures Rise Amid Optimism Following Iran’s Offer To Reopen Stra - Benzinga SPY 772.04 +0.09% QQQ 745.40 +0.12% BTC/USD 84,167.88 +0.09% DIA 517.72 +0.04% GLD 393.05 −0.09% TLT 79.38 +0.08% US Sign i",
             "stocks look set for a positive opening on Friday, with futures of the Dow Jones, S&P 500 and Nasdaq Composite rising, after closing Thursday on a mixed note.",
             "Contributing to the optimism are comments from Iranian Foreign Minister Abbas Araghchi, who proposed to reopen the Strait of Hormuz and resume talks on a nuclear deal within seven days, provided that President Donald Trump agrees to accept "
           ],
-          "analysisUpdatedAt": 1790420657.0231023
+          "analysisUpdatedAt": 1790442536.6253881
         },
         "headlineKo": "오늘의 주식 시장: 다우, S&P 500, 나스닥 선물은 이란의 호르무즈 해협 재개 제안에 따른 낙관론 속에 상승 — AKAM, COST, SCHL In Focus (업데이트됨)"
       },
@@ -252,7 +252,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790420651.699652
+          "analysisUpdatedAt": 1790442528.651722
         }
       },
       {
@@ -315,7 +315,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Vanguard Information Technology ETF ( VGT +0.78% ) and the Invesco QQQ Trust ETF ( QQQ +0.46% ) are two of the more popular ETF",
             "In that time, they've averaged over 23% and 20% annual returns, respectively."
           ],
-          "analysisUpdatedAt": 1790420654.2234533
+          "analysisUpdatedAt": 1790442532.776051
         }
       },
       {
@@ -334,13 +334,13 @@ const NEWS_DATA = {
           "label": "규제·법무 · 비선형 위험",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "오늘 주식 시장: 이란의 Stra 재개 제안 이후 낙관론 속에 다우, S&P 500, 나스닥 선물 상승 - Benzinga SPY 770.44 QQQ 746.21 +0.69% BTC/USD 84,614.94 +0.27% DIA 515.10 +0.47% GLD 394.33 +0.67% TLT 79.58 +0.20% 미국 로그인 Regis",
+            "오늘 주식 시장: 이란의 Stra 재개 제안 이후 낙관론 속에 다우, S&P 500, 나스닥 선물 상승 - Benzinga SPY 772.04 +0.09% QQQ 745.40 +0.12% BTC/USD 84,167.88 +0.09% DIA 517.72 +0.04% GLD 393.05 −0.09% TLT 79.38 +0.08% 미국 서명",
             "목요일에는 혼조세로 마감한 후 다우존스, S&P 500, 나스닥 종합지수 선물이 상승하면서 금요일에는 긍정적인 개장이 예상됩니다.",
             "도널드 트럼프 대통령이 호르무즈 해협을 재개하고 7일 이내에 핵협정 협상을 재개하겠다고 제안한 압바스 아라그치 이란 외무장관의 발언도 낙관론에 일조했다."
           ],
           "why": [
             "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.69%, 0.27%, 0.47% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.09%, 0.12%, 0.04% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -364,21 +364,21 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.69%",
-            "0.27%",
-            "0.47%",
-            "0.67%",
-            "0.20%",
+            "0.09%",
+            "0.12%",
+            "0.04%",
+            "0.08%",
             "5.175%",
             "5.469%",
-            "4.895%"
+            "4.895%",
+            "66.4%"
           ],
           "sourceExcerpt": [
-            "Stock Market Today: Dow, S&P 500, Nasdaq Futures Rise Amid Optimism Following Iran’s Offer To Reopen Stra - Benzinga SPY 770.44 QQQ 746.21 +0.69% BTC/USD 84,614.94 +0.27% DIA 515.10 +0.47% GLD 394.33 +0.67% TLT 79.58 +0.20% US Sign in Regis",
+            "Stock Market Today: Dow, S&P 500, Nasdaq Futures Rise Amid Optimism Following Iran’s Offer To Reopen Stra - Benzinga SPY 772.04 +0.09% QQQ 745.40 +0.12% BTC/USD 84,167.88 +0.09% DIA 517.72 +0.04% GLD 393.05 −0.09% TLT 79.38 +0.08% US Sign i",
             "stocks look set for a positive opening on Friday, with futures of the Dow Jones, S&P 500 and Nasdaq Composite rising, after closing Thursday on a mixed note.",
             "Contributing to the optimism are comments from Iranian Foreign Minister Abbas Araghchi, who proposed to reopen the Strait of Hormuz and resume talks on a nuclear deal within seven days, provided that President Donald Trump agrees to accept "
           ],
-          "analysisUpdatedAt": 1790420657.0231023
+          "analysisUpdatedAt": 1790442536.6253881
         }
       },
       {
@@ -2660,15 +2660,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790420646.6903906,
-    "_updated_label": "2026-09-26 20:04",
-    "_last_success_at": 1790420646.6903906,
+    "_fetched_at": 1790442524.0691073,
+    "_updated_label": "2026-09-27 02:08",
+    "_last_success_at": 1790442524.0691073,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "SPY": {
@@ -5779,7 +5779,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "MSFT": {
@@ -11316,7 +11316,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 128,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "GOOGL": {
@@ -17571,11 +17571,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "AMZN": {
-    "_last_attempt_at": 1790420646.6903906,
+    "_last_attempt_at": 1790442524.0691073,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "amc",
@@ -17585,74 +17585,10 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Amazon Has No Dividend. Here's Why Long-Term Investors Should Own It Anyway.",
+        "headline": "Amazon.com (AMZN) Confirmed Iranian Drone Strikes Hit AWS Data Centers",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=bd4ce2fcc220d3dbe76b33c6419492500c151bd403ed38d7ff2394939292dc62",
-        "datetime": 1790411700,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "어쨌든 장기 투자자가 이를 소유해야 하는 이유는 다음과 같습니다.",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 지난 25년 동안 Amazon(AMZN +0.12%)의 주가는 66,570%(9월 1일 기준) 급등했습니다.",
-            "이는 금세기 투자자들에게 가장 위대한 성과일 수 있습니다."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $10,000, $6.7 million, 181% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMZN",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "AMZN에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$10,000",
-            "$6.7 million",
-            "181%",
-            "520%",
-            "39%",
-            "60%",
-            "$220 billion",
-            "67%"
-          ],
-          "sourceExcerpt": [
-            "Here's Why Long-Term Investors Should Own It Anyway.",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Over the past 25 years, shares of Amazon ( AMZN +0.12% ) have skyrocketed 66,570% (as of Sept.",
-            "This might be the single greatest performer for investors this century."
-          ],
-          "analysisUpdatedAt": 1790420667.0116806
-        },
-        "headlineKo": "아마존에는 배당금이 없습니다. 어쨌든 장기 투자자가 이를 소유해야 하는 이유는 다음과 같습니다."
-      },
-      {
-        "headline": "Let’s Take a Closer Look at Amazon’s (AMZN) Debt-Fueled AI Buildout",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b9dcea6c86759db10cdc5031906ce1b96eb29ec6dbbde4f5219dbd99e0f9890d",
-        "datetime": 1790378434,
+        "url": "https://finnhub.io/api/news?id=4a1e72e5916d0ec5a28c7e50f0879a0bbd33f157706a1858fbc0b0caefbb120d",
+        "datetime": 1790431813,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
@@ -17664,7 +17600,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Let’s Take a Closer Look at Amazon’s (AMZN) Debt-Fueled AI Buildout",
+            "Amazon.com (AMZN) Confirmed Iranian Drone Strikes Hit AWS Data Centers",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -17688,42 +17624,125 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Let’s Take a Closer Look at Amazon’s (AMZN) Debt-Fueled AI Buildout' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 비용·CAPEX·영업현금흐름·FCF·부채 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon.com (AMZN) Confirmed Iranian Drone Strikes Hit AWS Data Centers' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790420669.8003983
+          "analysisUpdatedAt": 1790442543.3716052
         },
-        "headlineKo": "Amazon(AMZN)의 부채 기반 AI 구축을 자세히 살펴보겠습니다."
+        "headlineKo": "Amazon.com(AMZN)은 이란의 드론 공격이 AWS 데이터 센터를 강타했음을 확인했습니다."
       },
       {
-        "headline": "Amazon Stocks Move Lower as Anthropic Commits $11.6 Billion Elsewhere",
+        "headline": "Amazon Is Spending $220 Billion on Data Centers. Here's Why That Makes The Stock an Incredible Buy",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=082e743010acf82d7984c545e135a59cf1b8536211c4f56d84991c43692b476f",
-        "datetime": 1790360134,
+        "url": "https://finnhub.io/api/news?id=872c9159864b8fb5af911d4b795f76345d4540d38486637db166a3fcf21c294f",
+        "datetime": 1790424300,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
           "facts": [
-            "Amazon Stocks Move Lower as Anthropic Commits $11.6 Billion Elsewhere",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $220 Billion, $220 billion, 0.12%, $496 billion, 37%, 28%, 64%, 0.12 %.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon Is Spending $220 Billion on Data Centers. Here's Why That Makes The Stock an Incredible Buy' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMZN에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.5,
+          "quality": "high",
+          "verifiedNumbers": [
+            "$220 Billion",
+            "$220 billion",
+            "0.12%",
+            "$496 billion",
+            "37%",
+            "28%",
+            "64%",
+            "0.12 %"
+          ],
+          "sourceExcerpt": [
+            "Amazon Is Spending $220 Billion on Data Centers.",
+            "Here's Why That Makes The Stock an Incredible Buy | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool When a company announces that it's spending nearly all of its available cash flow",
+            "When the figure is as large as $220 billion, like Amazon ( AMZN +0.12% ) is spending, it really should have investors questioning what's going on."
+          ],
+          "analysisUpdatedAt": 1790442546.3009193
+        },
+        "headlineKo": "아마존은 데이터센터에 2,200억 달러를 지출하고 있습니다. 주식을 믿을 수 없을 만큼 구매하게 만드는 이유는 다음과 같습니다."
+      },
+      {
+        "headline": "Amazon Turned $1,000 Into $5,239 Over Ten Years but Recent Buyers Face a Rougher Reality",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b42df6e5adc416c213772c833a473fc2f851191e9fecdd555a8846ba985c0820",
+        "datetime": 1790423118,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Amazon은 10년에 걸쳐 $1,000를 $5,239로 바꾸었지만 최근 구매자는 더 힘든 현실에 직면해 있습니다. - 연중무휴 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.21% S&P 500 7,753.80 +0.60% 다우존스 51,875.60 +0.98% 나스닥 100 30,672.40 +0.60% 러셀 2000 2,843.25 +0.",
+            "작성자: Chris Lange 2026년 9월 26일 오전 7시 45분(ET) · 2분 읽음 𝕏 f ⧉ © jetcityimage / iStock Editorial via Getty Images 10년 전 Amazon(NASDAQ:AMZN | AMZN Price Prediction)은 분할 조정된 $40.81에 거래되었습니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $1,000, $5,239, $40.81. — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -17733,40 +17752,52 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
           ],
-          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon Stocks Move Lower as Anthropic Commits $11.6 Billion Elsewhere' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "AMZN에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790420671.6815605
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$1,000",
+            "$5,239",
+            "$40.81.",
+            "$249.67",
+            "511.85%",
+            "$107 billion",
+            "$716.9 billion",
+            "$2.2 billion"
+          ],
+          "sourceExcerpt": [
+            "Amazon Turned $1,000 Into $5,239 Over Ten Years but Recent Buyers Face a Rougher Reality - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.21% S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.",
+            "By Chris Lange Published September 26, 2026, 7:45am ET · 2 min read 𝕏 f ⧉ © jetcityimage / iStock Editorial via Getty Images Ten years ago, Amazon ( NASDAQ:AMZN | AMZN Price Prediction ) traded at a split-adjusted $40.81."
+          ],
+          "analysisUpdatedAt": 1790442551.6236358
         },
-        "headlineKo": "Anthropic이 다른 곳에서 116억 달러를 투자함에 따라 Amazon 주식은 하락했습니다."
+        "headlineKo": "Amazon은 10년에 걸쳐 $1,000를 $5,239로 바꾸었지만 최근 구매자들은 더 힘든 현실에 직면해 있습니다."
       },
       {
-        "headline": "Quantum Is a $850 Billion Dream. Microsoft and Amazon Are Betting Big on It.",
+        "headline": "Amazon Has No Dividend. Here's Why Long-Term Investors Should Own It Anyway.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=aca2b2c724f93957fd3158140b34a280985b39d71bbc2d7204ba1a09ea8678a6",
-        "datetime": 1790359320,
+        "url": "https://finnhub.io/api/news?id=bd4ce2fcc220d3dbe76b33c6419492500c151bd403ed38d7ff2394939292dc62",
+        "datetime": 1790411700,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "양자는 8,500억 달러 규모의 꿈입니다. Microsoft와 Amazon이 이에 큰 투자를 하고 있습니다."
+        "headlineKo": "아마존에는 배당금이 없습니다. 어쨌든 장기 투자자가 이를 소유해야 하는 이유는 다음과 같습니다."
       },
       {
-        "headline": "Generac Is Becoming an AI Power Play. Amazon Just Made That Case Bigger.",
+        "headline": "Let’s Take a Closer Look at Amazon’s (AMZN) Debt-Fueled AI Buildout",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=77ba65fdecfa5bbf0642ac1cbc62986cbda16536b3bd96cbc64a30c5eabefc9f",
-        "datetime": 1790357795,
-        "relevance": 0.5,
+        "url": "https://finnhub.io/api/news?id=b9dcea6c86759db10cdc5031906ce1b96eb29ec6dbbde4f5219dbd99e0f9890d",
+        "datetime": 1790378434,
+        "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Generac은 AI 파워 플레이가 되고 있습니다. 아마존은 그 사건을 더 크게 만들었습니다."
+        "headlineKo": "Amazon(AMZN)의 부채 기반 AI 구축을 자세히 살펴보겠습니다."
       },
       {
         "headline": "Amazon, US Steel, Pirelli and others make facility investments, while layoffs progress",
@@ -18005,6 +18036,198 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Amazon.com (AMZN) Confirmed Iranian Drone Strikes Hit AWS Data Centers",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4a1e72e5916d0ec5a28c7e50f0879a0bbd33f157706a1858fbc0b0caefbb120d",
+        "datetime": 1790431813,
+        "headlineKo": "Amazon.com(AMZN)은 이란의 드론 공격이 AWS 데이터 센터를 강타했음을 확인했습니다.",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Amazon.com (AMZN) Confirmed Iranian Drone Strikes Hit AWS Data Centers",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon.com (AMZN) Confirmed Iranian Drone Strikes Hit AWS Data Centers' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790442543.3716052
+        }
+      },
+      {
+        "headline": "Amazon Is Spending $220 Billion on Data Centers. Here's Why That Makes The Stock an Incredible Buy",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=872c9159864b8fb5af911d4b795f76345d4540d38486637db166a3fcf21c294f",
+        "datetime": 1790424300,
+        "headlineKo": "아마존은 데이터센터에 2,200억 달러를 지출하고 있습니다. 주식을 믿을 수 없을 만큼 구매하게 만드는 이유는 다음과 같습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $220 Billion, $220 billion, 0.12%, $496 billion, 37%, 28%, 64%, 0.12 %.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon Is Spending $220 Billion on Data Centers. Here's Why That Makes The Stock an Incredible Buy' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMZN에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.5,
+          "quality": "high",
+          "verifiedNumbers": [
+            "$220 Billion",
+            "$220 billion",
+            "0.12%",
+            "$496 billion",
+            "37%",
+            "28%",
+            "64%",
+            "0.12 %"
+          ],
+          "sourceExcerpt": [
+            "Amazon Is Spending $220 Billion on Data Centers.",
+            "Here's Why That Makes The Stock an Incredible Buy | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool When a company announces that it's spending nearly all of its available cash flow",
+            "When the figure is as large as $220 billion, like Amazon ( AMZN +0.12% ) is spending, it really should have investors questioning what's going on."
+          ],
+          "analysisUpdatedAt": 1790442546.3009193
+        }
+      },
+      {
+        "headline": "Amazon Turned $1,000 Into $5,239 Over Ten Years but Recent Buyers Face a Rougher Reality",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b42df6e5adc416c213772c833a473fc2f851191e9fecdd555a8846ba985c0820",
+        "datetime": 1790423118,
+        "headlineKo": "Amazon은 10년에 걸쳐 $1,000를 $5,239로 바꾸었지만 최근 구매자들은 더 힘든 현실에 직면해 있습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Amazon은 10년에 걸쳐 $1,000를 $5,239로 바꾸었지만 최근 구매자는 더 힘든 현실에 직면해 있습니다. - 연중무휴 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.21% S&P 500 7,753.80 +0.60% 다우존스 51,875.60 +0.98% 나스닥 100 30,672.40 +0.60% 러셀 2000 2,843.25 +0.",
+            "작성자: Chris Lange 2026년 9월 26일 오전 7시 45분(ET) · 2분 읽음 𝕏 f ⧉ © jetcityimage / iStock Editorial via Getty Images 10년 전 Amazon(NASDAQ:AMZN | AMZN Price Prediction)은 분할 조정된 $40.81에 거래되었습니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $1,000, $5,239, $40.81. — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "AMZN에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$1,000",
+            "$5,239",
+            "$40.81.",
+            "$249.67",
+            "511.85%",
+            "$107 billion",
+            "$716.9 billion",
+            "$2.2 billion"
+          ],
+          "sourceExcerpt": [
+            "Amazon Turned $1,000 Into $5,239 Over Ten Years but Recent Buyers Face a Rougher Reality - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.21% S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.",
+            "By Chris Lange Published September 26, 2026, 7:45am ET · 2 min read 𝕏 f ⧉ © jetcityimage / iStock Editorial via Getty Images Ten years ago, Amazon ( NASDAQ:AMZN | AMZN Price Prediction ) traded at a split-adjusted $40.81."
+          ],
+          "analysisUpdatedAt": 1790442551.6236358
+        }
+      },
       {
         "headline": "Amazon Has No Dividend. Here's Why Long-Term Investors Should Own It Anyway.",
         "source": "Yahoo",
@@ -23811,15 +24034,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790420646.6903906,
-    "_updated_label": "2026-09-26 20:04",
-    "_last_success_at": 1790420646.6903906,
+    "_fetched_at": 1790442524.0691073,
+    "_updated_label": "2026-09-27 02:09",
+    "_last_success_at": 1790442524.0691073,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 154,
+      "checked": 157,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "META": {
@@ -30318,7 +30541,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 165,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "AAPL": {
@@ -36428,7 +36651,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 149,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "TSLA": {
@@ -42754,7 +42977,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 155,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "ORCL": {
@@ -48065,7 +48288,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "CRM": {
@@ -52033,7 +52256,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "PLTR": {
@@ -57362,11 +57585,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 126,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "NVDA": {
-    "_last_attempt_at": 1790420646.6903906,
+    "_last_attempt_at": 1790442524.0691073,
     "nextEarnings": {
       "date": "2026-11-17",
       "hour": "amc",
@@ -57375,6 +57598,70 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Nvidia Trades Near Its 52-Week High at Its Cheapest Valuation in a Decade. History Says This Is What $1,000 Invested Could Be Worth by 2030.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=adc1d3988f41d16b08a227e9650b3e66f806fa36ecfee1a584ce5455f31d8cdd",
+        "datetime": 1790425320,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "장기 공급계약 · 매출 가시성 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nvidia는 10년 만에 가장 저렴한 가치로 52주 최고가에 근접했습니다.",
+            "역사에 따르면 2030년까지 투자한 1,000달러의 가치는 이 정도입니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 2026년 현재까지 가장 궁금한 반도체 주식 중 하나는 Nvidia(NVDA +0.22%)입니다."
+          ],
+          "why": [
+            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $1,000, 20%, 40% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 기간·최소구매 조건",
+            "연도별 매출 인식",
+            "수주잔고·취소 조건"
+          ],
+          "interpretation": "NVDA에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$1,000",
+            "20%",
+            "40%",
+            "$15.68",
+            "$225,",
+            "15 times",
+            "25 times",
+            "$390"
+          ],
+          "sourceExcerpt": [
+            "Nvidia Trades Near Its 52-Week High at Its Cheapest Valuation in a Decade.",
+            "History Says This Is What $1,000 Invested Could Be Worth by 2030.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool One of the more curious semiconductor stocks so far in 2026 is Nvidia ( NVDA +0.22% ) ."
+          ],
+          "analysisUpdatedAt": 1790442562.685241
+        },
+        "headlineKo": "Nvidia는 10년 만에 가장 저렴한 가치로 52주 최고가에 근접했습니다. 역사에 따르면 2030년까지 투자한 1,000달러의 가치는 이 정도입니다."
+      },
       {
         "headline": "Nvidia vs. Broadcom: Whose AI Bull Case is Better?",
         "source": "Yahoo",
@@ -57435,7 +57722,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia ( NVDA +0.22% ) is at the top of the AI computing food chain, holding the largest market share by far and being quite a bit ",
             "However, Broadcom ( AVGO +0.70% ) is taking a different approach to the AI computing world and also looks like a strong contender, especially as its custom AI chips gain popularity."
           ],
-          "analysisUpdatedAt": 1790420680.4955397
+          "analysisUpdatedAt": 1790442565.3187804
         },
         "headlineKo": "Nvidia vs. Broadcom: 누구의 AI Bull Case가 더 나은가요?"
       },
@@ -57485,7 +57772,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790420682.5398514
+          "analysisUpdatedAt": 1790442567.72826
         },
         "headlineKo": "NVIDIA(NVDA) 대 Broadcom(AVGO): 어느 AI 칩 주식이 더 강한 해자를 갖고 있습니까?"
       },
@@ -57497,46 +57784,6 @@ const NEWS_DATA = {
         "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Nvidia (NVDA) Is Central To New Global AI Rules Debate",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Nvidia (NVDA) Is Central To New Global AI Rules Debate' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1.0,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790420684.2680159
-        },
         "headlineKo": "엔비디아(NVDA)는 새로운 글로벌 AI 규칙 논쟁의 중심입니다"
       },
       {
@@ -57548,19 +57795,72 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Nvidia는 7조 달러에 도달하려면 거의 전체 Broadcom을 추가해야 합니다."
-      },
-      {
-        "headline": "Does IonQ's NVIDIA Quantum Tie-Up Reframe the Long-Term Hardware Opportunity for Rigetti Computing (RGTI)?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2ba248df89a1705af5bd3220dd3941537d3b3000b40d5f7373c087f7f9f02079",
-        "datetime": 1790370455,
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "IonQ의 NVIDIA Quantum 제휴는 RGTI(Rigetti Computing)에 대한 장기적인 하드웨어 기회를 재구성합니까?"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Nvidia Trades Near Its 52-Week High at Its Cheapest Valuation in a Decade. History Says This Is What $1,000 Invested Could Be Worth by 2030.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=adc1d3988f41d16b08a227e9650b3e66f806fa36ecfee1a584ce5455f31d8cdd",
+        "datetime": 1790425320,
+        "headlineKo": "Nvidia는 10년 만에 가장 저렴한 가치로 52주 최고가에 근접했습니다. 역사에 따르면 2030년까지 투자한 1,000달러의 가치는 이 정도입니다.",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "장기 공급계약 · 매출 가시성 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nvidia는 10년 만에 가장 저렴한 가치로 52주 최고가에 근접했습니다.",
+            "역사에 따르면 2030년까지 투자한 1,000달러의 가치는 이 정도입니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 2026년 현재까지 가장 궁금한 반도체 주식 중 하나는 Nvidia(NVDA +0.22%)입니다."
+          ],
+          "why": [
+            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $1,000, 20%, 40% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 기간·최소구매 조건",
+            "연도별 매출 인식",
+            "수주잔고·취소 조건"
+          ],
+          "interpretation": "NVDA에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$1,000",
+            "20%",
+            "40%",
+            "$15.68",
+            "$225,",
+            "15 times",
+            "25 times",
+            "$390"
+          ],
+          "sourceExcerpt": [
+            "Nvidia Trades Near Its 52-Week High at Its Cheapest Valuation in a Decade.",
+            "History Says This Is What $1,000 Invested Could Be Worth by 2030.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool One of the more curious semiconductor stocks so far in 2026 is Nvidia ( NVDA +0.22% ) ."
+          ],
+          "analysisUpdatedAt": 1790442562.685241
+        }
+      },
       {
         "headline": "Nvidia vs. Broadcom: Whose AI Bull Case is Better?",
         "source": "Yahoo",
@@ -57621,7 +57921,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia ( NVDA +0.22% ) is at the top of the AI computing food chain, holding the largest market share by far and being quite a bit ",
             "However, Broadcom ( AVGO +0.70% ) is taking a different approach to the AI computing world and also looks like a strong contender, especially as its custom AI chips gain popularity."
           ],
-          "analysisUpdatedAt": 1790420680.4955397
+          "analysisUpdatedAt": 1790442565.3187804
         }
       },
       {
@@ -57670,7 +57970,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790420682.5398514
+          "analysisUpdatedAt": 1790442567.72826
         }
       },
       {
@@ -64567,15 +64867,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790420646.6903906,
-    "_updated_label": "2026-09-26 20:04",
-    "_last_success_at": 1790420646.6903906,
+    "_fetched_at": 1790442524.0691073,
+    "_updated_label": "2026-09-27 02:09",
+    "_last_success_at": 1790442524.0691073,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 174,
+      "checked": 175,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "AMD": {
@@ -69955,7 +70255,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 132,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "AVGO": {
@@ -73598,7 +73898,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "QCOM": {
@@ -76994,7 +77294,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 80,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "ARM": {
@@ -79913,7 +80213,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "MRVL": {
@@ -83337,7 +83637,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "INTC": {
@@ -88338,7 +88638,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 122,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "TSM": {
@@ -91017,7 +91317,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "ASML": {
@@ -93013,7 +93313,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "AMAT": {
@@ -95249,7 +95549,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "LRCX": {
@@ -96443,7 +96743,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "KLAC": {
@@ -97610,7 +97910,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "MU": {
@@ -103693,7 +103993,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "SNDK": {
@@ -107223,7 +107523,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "WDC": {
@@ -108848,7 +109148,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "ANET": {
@@ -110561,7 +110861,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "COHR": {
@@ -112200,7 +112500,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "LITE": {
@@ -113866,7 +114166,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "GEV": {
@@ -116685,7 +116985,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "CEG": {
@@ -118110,7 +118410,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "VST": {
@@ -119648,7 +119948,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "ETN": {
@@ -121350,7 +121650,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "PWR": {
@@ -123126,7 +123426,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "HUBB": {
@@ -123768,7 +124068,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "VRT": {
@@ -125744,7 +126044,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "MOD": {
@@ -126446,7 +126746,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "STX": {
@@ -127849,7 +128149,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "EME": {
@@ -128852,7 +129152,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "FIX": {
@@ -129608,7 +129908,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   },
   "BE": {
@@ -131067,7 +131367,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-27 01:39"
+      "updated": "2026-09-27 02:09"
     }
   }
 };
