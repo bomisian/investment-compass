@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 6.862875879066488,
-        "ret3m": 23.828245447315233,
-        "ret6m": 26.79339780310872,
-        "ret1y": 3.7383750187633513,
+        "ret1m": 8.040454355689786,
+        "ret3m": 27.197134119624454,
+        "ret6m": 24.100067661055746,
+        "ret1y": 4.124063727512772,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 11.398224399314017,
-        "ret3m": -3.2118315528391395,
-        "ret6m": 96.66673734912918,
-        "ret1y": 206.26162952105324,
+        "ret1m": 11.474571632384345,
+        "ret3m": -9.41949998415248,
+        "ret6m": 83.69522763983636,
+        "ret1y": 203.68724707899938,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": 1.3802336566920426,
-        "ret3m": 7.656531901834862,
-        "ret6m": 47.179501844345985,
-        "ret1y": 221.6008206898802,
+        "ret1m": 4.905581196800135,
+        "ret3m": 0.5337721062528056,
+        "ret6m": 30.33891046980761,
+        "ret1y": 206.8096882999462,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": 2.8406113768131513,
-        "ret3m": -4.15958759391204,
-        "ret6m": 16.596631328203927,
-        "ret1y": 51.3145708900548,
+        "ret1m": 3.156133479311385,
+        "ret3m": -11.175476447795074,
+        "ret6m": 8.647936104201847,
+        "ret1y": 47.146757924268435,
         "winRate": null,
         "count": 12
       }
@@ -229,10 +229,10 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.17663471195282363,
-    "corrPctRank": 3.682008368200837,
+    "corr60": 0.1182793552729685,
+    "corrPctRank": 1.340033500837521,
     "corrMin5y": 0.036257837878636255,
-    "corrMedian5y": 0.7042624712561381,
+    "corrMedian5y": 0.7042728323798291,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
@@ -244,6 +244,15 @@ const MARKET_DATA = {
       "datetime": 1790375492,
       "headlineKo": "파라마운트가 헐리우드에게 WBD를 도입하겠다고 약속한 내용과 일부 사람들이 여전히 회의적인 이유는 다음과 같습니다.",
       "summaryKo": "파라마운트 CEO 데이비드 엘리슨(David Ellison)의 독점금지 합의는 일부 연극적 우려를 완화시켰지만 5년 계약이 종료되면 어떤 일이 일어날지에 대한 의문이 남아 있습니다."
+    },
+    {
+      "headline": "Trump, Xi discuss Middle East war as Iran presses 7-day plan to end fighting - Reuters",
+      "summary": "Trump, Xi discuss Middle East war as Iran presses 7-day plan to end fighting Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSktoVFV5TmFoZFFlNGJOdHNQbl9ZNWVfOFVvRTN2UXpLMlBhSnZ6ZVZLdFNlRU5CR3RjaHYxWDJRclcyb1lrVzh1WG83MWtmcjRyVnpRdTZIcTdtY01WRlFaVXZ5aWFBSXgzdk9LdzZNdmlQWHJlUmJuci1TSFI1bWRtYXJwYWdEYjBVMHJlVnpYbndpR1lQbllKNkphM0t1SmhXaXNYQmVncDFVOHFJ?oc=5",
+      "datetime": 1790374611,
+      "headlineKo": "트럼프-시, 이란이 7일간의 전쟁 종식 계획을 압박하자 중동 전쟁 논의 - 로이터",
+      "summaryKo": "트럼프-시, 이란이 7일간 전쟁 종료 계획 압박하자 중동 전쟁 논의 - 로이터"
     },
     {
       "headline": "Iran will make no nuclear concessions, Iranian official says - Reuters",
@@ -271,6 +280,15 @@ const MARKET_DATA = {
       "datetime": 1790365244,
       "headlineKo": "Jim Cramer의 매수 주식 6개 중 다음 주에 보고 싶은 것",
       "summaryKo": "Micron은 메모리 공급 제약이 지속됨에 따라 수익으로 향하는 모든 영향력을 갖고 있습니다. 하지만 이 유리한 사이클은 언제까지 지속될 것인가?"
+    },
+    {
+      "headline": "Oil prices slide about 2% as US, Iran explore path out of war - Reuters",
+      "summary": "Oil prices slide about 2% as US, Iran explore path out of war Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV3EzX3oydnQxRk5Ld1BKbk82ek14ZVdyLVpTdldjdEpqeDJfTVZ2Q0F1TnhvaWlhR1p0Z3hScDV0S2Z1UFR5OXhKSWk3NmtqTzd0SkJfa2RLRFpOOUlEcE5mR1d4Z21Td2FCQVZqNHV1eDloQkplT1NHaHhyTDlqOG5DYlFFdnRERThxNU0yX29LcTRyal9pMHQ4ZzNoU0VKZkdHN2hFYjhCZUpZZ3d2am11SDJYYVBiN0JxWVBtczNRYkh1?oc=5",
+      "datetime": 1790364532,
+      "headlineKo": "미국과 이란이 전쟁에서 벗어날 길을 모색함에 따라 유가는 약 2% 하락 - 로이터",
+      "summaryKo": "미국과 이란이 전쟁에서 벗어날 길을 모색하면서 유가는 약 2% 하락 - 로이터"
     },
     {
       "headline": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says - Reuters",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790347745,
       "headlineKo": "사우디 그랜드 무프티(Saudi Grand Mufti)는 군대에 후티 반군과의 싸움에서 목숨을 바칠 준비가 되어 있다고 말했다 - 로이터",
       "summaryKo": "사우디 그랜드 무프티(Saudi Grand Mufti), 후티 반군과의 전투에서 목숨을 바칠 준비가 되어 있다고 군대에 지시 - 최신"
-    },
-    {
-      "headline": "EXCLUSIVE: Qatar Airways retires idle A330s and sends pilots to RwandAir as Iran war drags - Reuters",
-      "summary": "EXCLUSIVE: Qatar Airways retires idle A330s and sends pilots to RwandAir as Iran war drags Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZU95VVVfeElqRlJLSHBPWFg3bE0zRjdvVFNIWGxSZF8zcDB4R2poelQ2MUFWR3Y2Y2FlSEp2OVVBcjdxSC1jNWhDQVhHQlpMbnp3SlZKR0ZFT0t4LVVwTEVrOUhhN0taRkh1SHAzM2VfeG0wTjhTcG12RXJCLW9WUVltTGlFb2dUdGdINl9fUktFcGg1UEhuQlY3WlU1ZUxGdG10ZDA3RkozdmE4aW9PSC1qaFJfcFQ1M08zVERyMVJOV1BzWDFRT0NKMjk?oc=5",
-      "datetime": 1790343223,
-      "headlineKo": "독점: 카타르항공, 이란 전쟁으로 인해 유휴 A330을 퇴역시키고 조종사를 RwandAir에 파견 - Reuters",
-      "summaryKo": "독점: 카타르항공은 이란 전쟁으로 인해 유휴 상태인 A330을 퇴역시키고 조종사를 RwandAir에 파견했습니다."
-    },
-    {
-      "headline": "Top 10 things to watch in the stock market Friday",
-      "summary": "Stocks are heading for a higher open, and the S&P 500 and Nasdaq are poised to post winning weeks.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/25/top-10-things-to-watch-in-the-stock-market-friday.html",
-      "datetime": 1790341798,
-      "headlineKo": "금요일 주식시장에서 주목해야 할 10가지",
-      "summaryKo": "주식은 더 높은 시가를 향하고 있으며 S&P 500과 나스닥은 상승세를 기록할 준비가 되어 있습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790377219.1653993,
+  "_news_last_success_at": 1790380814.5069113,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790377203.320316,
-  "_updated_label": "2026-09-26 08:00",
-  "_last_attempt_at": 1790377203.320316,
-  "_last_success_at": 1790377203.320316,
+  "_fetched_at": 1790380803.2364907,
+  "_updated_label": "2026-09-26 09:00",
+  "_last_attempt_at": 1790380803.2364907,
+  "_last_success_at": 1790380803.2364907,
   "_collection_status": "ok",
   "_collection_errors": []
 };
