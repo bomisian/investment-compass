@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "27-year-old started a run club to meet new people—now his NYC side hustle brings in $640K a year",
+      "summary": "When Owen Akhibi Herrera started his New York City-based run club in 2024, he craved community — and entrepreneurial opportunity.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/26/nyc-run-club-side-hustle.html",
+      "datetime": 1790427901,
+      "headlineKo": "27세의 그는 새로운 사람들을 만나기 위해 달리기 클럽을 시작했습니다. 이제 그의 뉴욕시 부업으로 연간 64만 달러를 벌어들입니다.",
+      "summaryKo": "Owen Akhibi Herrera는 2024년 뉴욕에 기반을 둔 운영 클럽을 시작했을 때 커뮤니티와 기업가적 기회를 갈망했습니다."
+    },
+    {
       "headline": "Iran awaits US move after WSJ report says Trump rejects peace plan - Reuters",
       "summary": "Iran awaits US move after WSJ report says Trump rejects peace plan Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790362753,
       "headlineKo": "트럼프, 시에 중국의 이란 지원 경고, 보증 받았다 - 로이터 통신",
       "summaryKo": "트럼프, 시에 중국의 이란 지원 경고, 확신 받았다고 미 특사 로이터통신"
-    },
-    {
-      "headline": "Microsoft gives Copilot a much-needed overhaul, and the stock deservedly soars",
-      "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/25/microsoft-gives-copilot-a-much-needed-overhaul-and-the-stock-deservedly-soars.html",
-      "datetime": 1790361518,
-      "headlineKo": "Microsoft는 Copilot에 절실히 필요한 점검을 제공하고 주가는 당연히 치솟습니다.",
-      "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790426106.5514536,
+  "_news_last_success_at": 1790429764.50651,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790426094.8363507,
-  "_updated_label": "2026-09-26 21:35",
-  "_last_attempt_at": 1790426094.8363507,
-  "_last_success_at": 1790426094.8363507,
+  "_fetched_at": 1790429756.2580812,
+  "_updated_label": "2026-09-26 22:36",
+  "_last_attempt_at": 1790429756.2580812,
+  "_last_success_at": 1790429756.2580812,
   "_collection_status": "ok",
   "_collection_errors": []
 };
