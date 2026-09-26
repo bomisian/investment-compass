@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "China pushes back against US on Iran and Cuba in UN speech - Reuters",
+      "summary": "China pushes back against US on Iran and Cuba in UN speech Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNmFyYk05dGVubEpsSTJ2dGwxcWtFNEx0ZDNybVVaMndCOUpzOTV5SHNjdmw0eHFCQzlsSHZONU91bHVjeU9lQ1RjSTJSM0pZRDhzUUNENHl1b1daMUxkajZ2QklCNTY5bXUxV0dEczRhZTJmU0VKWHhUeWN0OG5OYWRXdWRYUHJOaFJWbjlySGpEdUQtaDdDWThfTWk?oc=5",
+      "datetime": 1790435989,
+      "headlineKo": "중국, 유엔 연설에서 이란과 쿠바 문제에 대해 미국에 반발 - 로이터",
+      "summaryKo": "중국, 유엔 연설에서 이란과 쿠바에 대해 미국에 반발 - 최신"
+    },
+    {
       "headline": "Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics",
       "summary": "A federal jury awarded Taction Technology more than $5.7 billion after finding Apple infringed claims from two haptics patents. Apple plans to appeal.",
       "source": "CNBC",
@@ -244,15 +253,6 @@ const MARKET_DATA = {
       "datetime": 1790434559,
       "headlineKo": "Apple, iPhone 및 Apple Watch 햅틱에 대해 57억 달러 규모의 특허 침해 판결에 직면",
       "summaryKo": "연방 배심원은 Apple이 두 가지 햅틱 특허에 대한 침해 주장을 판결한 후 Taction Technology에 57억 달러 이상을 지급했습니다. 애플은 항소할 계획이다."
-    },
-    {
-      "headline": "China pushes back against US on Iran and Cuba in UN speech - Reuters",
-      "summary": "China pushes back against US on Iran and Cuba in UN speech Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNmFyYk05dGVubEpsSTJ2dGwxcWtFNEx0ZDNybVVaMndCOUpzOTV5SHNjdmw0eHFCQzlsSHZONU91bHVjeU9lQ1RjSTJSM0pZRDhzUUNENHl1b1daMUxkajZ2QklCNTY5bXUxV0dEczRhZTJmU0VKWHhUeWN0OG5OYWRXdWRYUHJOaFJWbjlySGpEdUQtaDdDWThfTWk?oc=5",
-      "datetime": 1790433011,
-      "headlineKo": "중국, 유엔 연설에서 이란과 쿠바 문제에 대해 미국에 반발 - 로이터",
-      "summaryKo": "중국, 유엔 연설에서 이란과 쿠바에 대해 미국에 반발 - 최신"
     },
     {
       "headline": "The blue-collar AI job market is booming. Will data center backlash make it go bust?",
@@ -289,6 +289,15 @@ const MARKET_DATA = {
       "datetime": 1790399340,
       "headlineKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 - 로이터",
       "summaryKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 Reuters"
+    },
+    {
+      "headline": "Britain warns Iran it will not tolerate hostile activity on UK soil - Reuters",
+      "summary": "Britain warns Iran it will not tolerate hostile activity on UK soil Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZmt3OWdYdUxlUXlJa0h6T0lndm5xUDBvRjg0M0plMzcxOThXT2lIaUNSY1NnczJYOEpwa3dYcGZWT2NGc0R3VGNHeVRJb0N5dS16V2FHamQyWkFuRkpSdXNIQk5CUk13dGU3NW1UNF9IdzFHSlFuOHpJRS1KZk1Hal9XNDFHbTlybmwxaUZsZmlINjRGZ29PekZNNFBpMHBabkxMelNBb1NPWk04Y3FYcU83QVR1T0xKTTJXeURIT1pwdDdJYUE?oc=5",
+      "datetime": 1790394347,
+      "headlineKo": "영국, 이란에 영국 영토에서의 적대적 활동을 용납하지 않을 것이라고 경고 - 로이터",
+      "summaryKo": "영국, 이란에 영국 땅에서의 적대적 활동을 용납하지 않을 것이라고 경고 - 최신"
     },
     {
       "headline": "Saudi coalition says it intercepts Houthi missiles, drones - Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790365244,
       "headlineKo": "Jim Cramer의 매수 주식 6개 중 다음 주에 보고 싶은 것",
       "summaryKo": "Micron은 메모리 공급 제약이 지속됨에 따라 수익으로 향하는 모든 영향력을 갖고 있습니다. 하지만 이 유리한 사이클은 언제까지 지속될 것인가?"
-    },
-    {
-      "headline": "Microsoft gives Copilot a much-needed overhaul, and the stock deservedly soars",
-      "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/25/microsoft-gives-copilot-a-much-needed-overhaul-and-the-stock-deservedly-soars.html",
-      "datetime": 1790361518,
-      "headlineKo": "Microsoft는 Copilot에 절실히 필요한 점검을 제공하고 주가는 당연히 치솟습니다.",
-      "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790437024.9065385,
+  "_news_last_success_at": 1790440788.9187863,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790437013.8073986,
-  "_updated_label": "2026-09-27 00:37",
-  "_last_attempt_at": 1790437013.8073986,
-  "_last_success_at": 1790437013.8073986,
+  "_fetched_at": 1790440780.8531954,
+  "_updated_label": "2026-09-27 01:40",
+  "_last_attempt_at": 1790440780.8531954,
+  "_last_success_at": 1790440780.8531954,
   "_collection_status": "ok",
   "_collection_errors": []
 };

@@ -35,7 +35,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "SPY": {
     "ticker": "SPY",
@@ -69,7 +69,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "MSFT": {
     "ticker": "MSFT",
@@ -103,7 +103,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "GOOGL": {
     "ticker": "GOOGL",
@@ -137,7 +137,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "AMZN": {
     "ticker": "AMZN",
@@ -171,7 +171,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "META": {
     "ticker": "META",
@@ -205,7 +205,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "AAPL": {
     "ticker": "AAPL",
@@ -239,7 +239,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "TSLA": {
     "ticker": "TSLA",
@@ -273,7 +273,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "ORCL": {
     "ticker": "ORCL",
@@ -307,7 +307,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "CRM": {
     "ticker": "CRM",
@@ -341,7 +341,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "PLTR": {
     "ticker": "PLTR",
@@ -375,7 +375,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "NVDA": {
     "ticker": "NVDA",
@@ -409,7 +409,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "AMD": {
     "ticker": "AMD",
@@ -443,7 +443,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "AVGO": {
     "ticker": "AVGO",
@@ -477,7 +477,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "QCOM": {
     "ticker": "QCOM",
@@ -511,7 +511,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "ARM": {
     "ticker": "ARM",
@@ -545,15 +545,15 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "MRVL": {
     "ticker": "MRVL",
-    "currentPrice": 261.93499755859375,
-    "anchorPrice": 261.93499755859375,
+    "currentPrice": 261.94000244140625,
+    "anchorPrice": 261.94000244140625,
     "anchorDate": "2026-09-25",
     "impliedVolatility": 0.58398853515625,
-    "sigmaMove": 21.183632717343627,
+    "sigmaMove": 21.184037480358427,
     "sigmaScore": 0.0,
     "zScore": 0.0,
     "previousSigmaScore": 0.0,
@@ -569,17 +569,17 @@ const SIGMA_DATA = {
     "qualityDetail": "ATM 주변 콜·풋 유효 호가 IV 중앙값 · 콜 3 / 풋 3",
     "status": "정상",
     "sigmaFactor": 0.0,
-    "lower1Sigma": 240.7513648412501,
-    "upper1Sigma": 283.1186302759374,
-    "lower1_5Sigma": 230.15954848257832,
-    "upper1_5Sigma": 293.7104466346092,
-    "lower2Sigma": 219.5677321239065,
-    "upper2Sigma": 304.30226299328103,
+    "lower1Sigma": 240.75596496104782,
+    "upper1Sigma": 283.1240399217647,
+    "lower1_5Sigma": 230.1639462208686,
+    "upper1_5Sigma": 293.71605866194386,
+    "lower2Sigma": 219.5719274806894,
+    "upper2Sigma": 304.3080774021231,
     "bandFrozenAt": "2026-09-26T02:01",
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "INTC": {
     "ticker": "INTC",
@@ -613,7 +613,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "TSM": {
     "ticker": "TSM",
@@ -647,7 +647,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "ASML": {
     "ticker": "ASML",
@@ -681,7 +681,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "AMAT": {
     "ticker": "AMAT",
@@ -715,7 +715,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "LRCX": {
     "ticker": "LRCX",
@@ -749,7 +749,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "KLAC": {
     "ticker": "KLAC",
@@ -783,7 +783,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "MU": {
     "ticker": "MU",
@@ -817,7 +817,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "SNDK": {
     "ticker": "SNDK",
@@ -851,7 +851,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "WDC": {
     "ticker": "WDC",
@@ -885,7 +885,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "ANET": {
     "ticker": "ANET",
@@ -919,7 +919,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "COHR": {
     "ticker": "COHR",
@@ -953,7 +953,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "LITE": {
     "ticker": "LITE",
@@ -987,7 +987,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "GEV": {
     "ticker": "GEV",
@@ -1021,7 +1021,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "CEG": {
     "ticker": "CEG",
@@ -1055,7 +1055,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "VST": {
     "ticker": "VST",
@@ -1089,7 +1089,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "ETN": {
     "ticker": "ETN",
@@ -1123,7 +1123,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "PWR": {
     "ticker": "PWR",
@@ -1221,7 +1221,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "MOD": {
     "ticker": "MOD",
@@ -1287,7 +1287,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "EME": {
     "ticker": "EME",
@@ -1385,7 +1385,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   },
   "BE": {
     "ticker": "BE",
@@ -1419,6 +1419,6 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1790355675.307213,
-    "_updated_label": "2026-09-27 01:15"
+    "_updated_label": "2026-09-27 01:40"
   }
 };

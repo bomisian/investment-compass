@@ -2668,7 +2668,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "SPY": {
@@ -5779,7 +5779,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "MSFT": {
@@ -11316,7 +11316,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 128,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "GOOGL": {
@@ -17571,7 +17571,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "AMZN": {
@@ -23819,7 +23819,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 154,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "META": {
@@ -30318,7 +30318,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 165,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "AAPL": {
@@ -36428,7 +36428,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 149,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "TSLA": {
@@ -42754,7 +42754,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 155,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "ORCL": {
@@ -48065,11 +48065,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "CRM": {
-    "_last_attempt_at": 1790418756.3509014,
+    "_last_attempt_at": 1790440680.1255693,
     "nextEarnings": {
       "date": "2026-12-01",
       "hour": "amc",
@@ -48124,9 +48124,73 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790418760.577268
+          "analysisUpdatedAt": 1790440687.366365
         },
         "headlineKo": "Salesforce(CRM)의 경제적 해자는 무엇이며, 확대되나요, 아니면 축소되나요?"
+      },
+      {
+        "headline": "Here's How Much $100 Invested In Salesforce 15 Years Ago Would Be Worth Today",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=996d18107bcb6c344fd64cdbbe6c9ba81aeee58ad5259f0828004f84adc39026",
+        "datetime": 1790352927,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "15년 전 Salesforce에 투자한 $100의 현재 가치는 다음과 같습니다. - Salesforce(NYSE:CRM) - Benzinga SPY 771.30 +0.54% QQQ 744.50 +0.45% BTC/USD 83,955.09 −0.51% DIA 513.76 +0.94% GLD 393.41 +0.43% TLT 79.35 −0.11% US 로그인 Re",
+            "현재 Salesforce의 시가총액은 1,928억 1천만 달러입니다.",
+            "CRM에서 100달러 구매: 투자자가 15년 전에 CRM 주식 100달러를 구매했다면 이 글을 쓰는 시점의 CRM 가격 234.28달러를 기준으로 현재 그 가치는 819.11달러가 될 것입니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $100, 0.54%, 0.45% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "CRM에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$100",
+            "0.54%",
+            "0.45%",
+            "0.51%",
+            "0.94%",
+            "0.43%",
+            "0.11%",
+            "1.34%"
+          ],
+          "sourceExcerpt": [
+            "Here's How Much $100 Invested In Salesforce 15 Years Ago Would Be Worth Today - Salesforce (NYSE:CRM) - Benzinga SPY 771.30 +0.54% QQQ 744.50 +0.45% BTC/USD 83,955.09 −0.51% DIA 513.76 +0.94% GLD 393.41 +0.43% TLT 79.35 −0.11% US Sign in Re",
+            "Currently, Salesforce has a market capitalization of $192.81 billion.",
+            "Buying $100 In CRM: If an investor had bought $100 of CRM stock 15 years ago, it would be worth $819.11 today based on a price of $234.28 for CRM at the time of writing."
+          ],
+          "analysisUpdatedAt": 1790440694.1392918
+        },
+        "headlineKo": "15년 전 Salesforce에 투자한 100달러의 현재 가치는 다음과 같습니다."
       },
       {
         "headline": "Here’s The Actual Reason I Keep Buying Salesforce On Repeat",
@@ -48188,7 +48252,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.21% S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.",
             "The reasoning comes down to a single strategic asset that every AI model will eventually need to borrow."
           ],
-          "analysisUpdatedAt": 1790418763.096777
+          "analysisUpdatedAt": 1790440698.4423187
         },
         "headlineKo": "내가 Salesforce를 계속해서 구매하는 실제 이유는 다음과 같습니다."
       },
@@ -48200,45 +48264,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "실적 발표 · 본업과 특이항목 분리",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Why Is Salesforce (CRM) Down 5.5% Since Last Earnings Report?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "CRM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "매출·영업이익 성장",
-            "정상화이익과 특이항목",
-            "가이던스·OCF·FCF"
-          ],
-          "interpretation": "CRM에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790418765.454228
-        },
         "headlineKo": "지난 수익 보고서 이후 Salesforce(CRM)가 5.5% 하락한 이유는 무엇입니까?"
       },
       {
@@ -48250,16 +48275,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Salesforce: Anthropic Stake는 250억 달러 규모의 주식 환매 부채를 상환할 수 있는 옵션을 제공합니다."
-      },
-      {
-        "headline": "DataGroomr Recognized in Salesforce 2027 Partner of the Year Awards",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=928cf55d5ef601f68bb1cbd477176b866f4d672b59f786bdf7629cd839ed232b",
-        "datetime": 1790340060,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "DataGroomr는 Salesforce 2027 올해의 파트너 상으로 선정되었습니다."
       },
       {
         "headline": "Salesforce’s Marc Benioff to AI industry: Regulate yourselves or get sued",
@@ -48385,7 +48400,70 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790418760.577268
+          "analysisUpdatedAt": 1790440687.366365
+        }
+      },
+      {
+        "headline": "Here's How Much $100 Invested In Salesforce 15 Years Ago Would Be Worth Today",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=996d18107bcb6c344fd64cdbbe6c9ba81aeee58ad5259f0828004f84adc39026",
+        "datetime": 1790352927,
+        "headlineKo": "15년 전 Salesforce에 투자한 100달러의 현재 가치는 다음과 같습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "15년 전 Salesforce에 투자한 $100의 현재 가치는 다음과 같습니다. - Salesforce(NYSE:CRM) - Benzinga SPY 771.30 +0.54% QQQ 744.50 +0.45% BTC/USD 83,955.09 −0.51% DIA 513.76 +0.94% GLD 393.41 +0.43% TLT 79.35 −0.11% US 로그인 Re",
+            "현재 Salesforce의 시가총액은 1,928억 1천만 달러입니다.",
+            "CRM에서 100달러 구매: 투자자가 15년 전에 CRM 주식 100달러를 구매했다면 이 글을 쓰는 시점의 CRM 가격 234.28달러를 기준으로 현재 그 가치는 819.11달러가 될 것입니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $100, 0.54%, 0.45% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "CRM에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$100",
+            "0.54%",
+            "0.45%",
+            "0.51%",
+            "0.94%",
+            "0.43%",
+            "0.11%",
+            "1.34%"
+          ],
+          "sourceExcerpt": [
+            "Here's How Much $100 Invested In Salesforce 15 Years Ago Would Be Worth Today - Salesforce (NYSE:CRM) - Benzinga SPY 771.30 +0.54% QQQ 744.50 +0.45% BTC/USD 83,955.09 −0.51% DIA 513.76 +0.94% GLD 393.41 +0.43% TLT 79.35 −0.11% US Sign in Re",
+            "Currently, Salesforce has a market capitalization of $192.81 billion.",
+            "Buying $100 In CRM: If an investor had bought $100 of CRM stock 15 years ago, it would be worth $819.11 today based on a price of $234.28 for CRM at the time of writing."
+          ],
+          "analysisUpdatedAt": 1790440694.1392918
         }
       },
       {
@@ -48448,7 +48526,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.21% S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.",
             "The reasoning comes down to a single strategic asset that every AI model will eventually need to borrow."
           ],
-          "analysisUpdatedAt": 1790418763.096777
+          "analysisUpdatedAt": 1790440698.4423187
         }
       },
       {
@@ -51947,15 +52025,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790418756.3509014,
-    "_updated_label": "2026-09-26 19:32",
-    "_last_success_at": 1790418756.3509014,
+    "_fetched_at": 1790440680.1255693,
+    "_updated_label": "2026-09-27 01:38",
+    "_last_success_at": 1790440680.1255693,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 90,
+      "checked": 91,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "PLTR": {
@@ -57284,7 +57362,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 126,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "NVDA": {
@@ -64497,7 +64575,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 174,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "AMD": {
@@ -69877,7 +69955,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 132,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "AVGO": {
@@ -73520,7 +73598,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "QCOM": {
@@ -76916,7 +76994,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 80,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "ARM": {
@@ -79835,7 +79913,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "MRVL": {
@@ -83259,11 +83337,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "INTC": {
-    "_last_attempt_at": 1790418756.3509014,
+    "_last_attempt_at": 1790440680.1255693,
     "nextEarnings": {
       "date": "2026-10-22",
       "hour": "amc",
@@ -83272,6 +83350,70 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Intel Is Up 220% in 2026. Can It Reach $150 Before 2026 Is Over?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=58c23cfd58abe212c173f3b30bba5fbfefa8406d8ce58e9370ed9188f90b82e3",
+        "datetime": 1790417100,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "2026년이 끝나기 전에 150달러에 도달할 수 있을까요?",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 합류 Intel( INTC -3.45% )은 2026년 최고 실적 주식 중 하나였습니다.",
+            "현재 S&P 500에서 6번째로 실적이 좋은 주식으로 평가되고 있으며( ^GSPC +0.51% ) 올해 들어 지금까지 220% 이상 상승했습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 220%, $150, 59% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "INTC에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "220%",
+            "$150",
+            "59%",
+            "0.12%",
+            "3.45 %",
+            "$ 123.00",
+            "$650",
+            "$ 122.84"
+          ],
+          "sourceExcerpt": [
+            "Can It Reach $150 Before 2026 Is Over?",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Intel ( INTC -3.45% ) has been one of the top-performing stocks in 2026.",
+            "It currently ranks as the sixth-best-performing stock in the S&P 500 ( ^GSPC +0.51% ) , rising more than 220% so far this year."
+          ],
+          "analysisUpdatedAt": 1790440714.6340852
+        },
+        "headlineKo": "인텔은 2026년에 220% 상승합니다. 2026년이 끝나기 전에 150달러에 도달할 수 있습니까?"
+      },
       {
         "headline": "Is Now the Time to Bet on Intel’s (INTC) Server CPU Comeback and AI Ambitions?",
         "source": "Yahoo",
@@ -83318,7 +83460,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790418770.8269885
+          "analysisUpdatedAt": 1790440718.2298703
         },
         "headlineKo": "이제 Intel(INTC)의 서버 CPU 복귀와 AI 야망에 베팅할 때입니까?"
       },
@@ -83368,7 +83510,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790418772.8378396
+          "analysisUpdatedAt": 1790440721.8648136
         },
         "headlineKo": "인텔(INTC)은 엣지 AI 및 뇌 영감 컴퓨팅 분야에서 무엇을 하고 있나요?"
       },
@@ -83380,60 +83522,6 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "장기 공급계약 · 매출 가시성 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "인텔: 인공지능 기업에 대한 수익 성장 추세가 보여주는 것 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool ARM에 합류: Qu에서 꾸준한 상승 추세 유지",
-            "평가 기간 동안 기존 라이선스 모델에 전적으로 의존하는 대신 생산 실리콘을 외부 고객에게 직접 판매하는 것으로 운영 사업을 확장했으며, 공동 연구도 공식 발표했습니다.",
-            "인텔: 최근 상승으로 높은 절대 수익 기록 인텔( INTC -3.45% )은 다양한 컴퓨팅 및 관련 최종 제품을 설계, 제조 및 판매하여 전체 수익의 대부분을 얻습니다."
-          ],
-          "why": [
-            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 3.45%, $20 billion, $ 123.00 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "INTC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "계약 기간·최소구매 조건",
-            "연도별 매출 인식",
-            "수주잔고·취소 조건"
-          ],
-          "interpretation": "INTC에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "3.45%",
-            "$20 billion",
-            "$ 123.00",
-            "3.45 %",
-            "$ 4.39",
-            "$ 310.32",
-            "1.30 %",
-            "$ 3.98"
-          ],
-          "sourceExcerpt": [
-            "Intel: What Revenue Growth Trends Reveal About These Artificial Intelligence Companies | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool ARM: Maintaining a Steady Upward Trend in Qu",
-            "During the evaluated window, it expanded its operational business into selling production silicon directly to external customers instead of relying entirely on its historical licensing model, and it also formally announced a joint research ",
-            "Intel: Recording High Absolute Revenue With a Recent Jump Intel ( INTC -3.45% ) earns most of its overall revenue by designing, manufacturing, and selling various computing and related end products."
-          ],
-          "analysisUpdatedAt": 1790418775.2674832
-        },
         "headlineKo": "ARM 대 Intel: 인공지능 기업의 수익 성장 추세가 보여주는 것"
       },
       {
@@ -83445,16 +83533,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "이번 주 인텔 주식이 급등한 이유"
-      },
-      {
-        "headline": "AMD, NVIDIA and Intel Forecast: Chip Stocks Push Higher",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5e30bbd1eb32a63b73593e6e596b12dd0512b70132f2c5601bc9348ec88162cc",
-        "datetime": 1790348276,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "AMD, NVIDIA 및 Intel 전망: 칩 재고가 상승세를 보이고 있습니다."
       },
       {
         "headline": "Intel: No Bad Products, Just Bad Prices (Rating Downgrade)",
@@ -83519,6 +83597,69 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "Intel Is Up 220% in 2026. Can It Reach $150 Before 2026 Is Over?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=58c23cfd58abe212c173f3b30bba5fbfefa8406d8ce58e9370ed9188f90b82e3",
+        "datetime": 1790417100,
+        "headlineKo": "인텔은 2026년에 220% 상승합니다. 2026년이 끝나기 전에 150달러에 도달할 수 있습니까?",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "2026년이 끝나기 전에 150달러에 도달할 수 있을까요?",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 합류 Intel( INTC -3.45% )은 2026년 최고 실적 주식 중 하나였습니다.",
+            "현재 S&P 500에서 6번째로 실적이 좋은 주식으로 평가되고 있으며( ^GSPC +0.51% ) 올해 들어 지금까지 220% 이상 상승했습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 220%, $150, 59% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "INTC에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "220%",
+            "$150",
+            "59%",
+            "0.12%",
+            "3.45 %",
+            "$ 123.00",
+            "$650",
+            "$ 122.84"
+          ],
+          "sourceExcerpt": [
+            "Can It Reach $150 Before 2026 Is Over?",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Intel ( INTC -3.45% ) has been one of the top-performing stocks in 2026.",
+            "It currently ranks as the sixth-best-performing stock in the S&P 500 ( ^GSPC +0.51% ) , rising more than 220% so far this year."
+          ],
+          "analysisUpdatedAt": 1790440714.6340852
+        }
+      },
+      {
         "headline": "Is Now the Time to Bet on Intel’s (INTC) Server CPU Comeback and AI Ambitions?",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=67fe3fb7a098102518a06943be3517e56521c2e4daa878a52bfd6ef10188ee8f",
@@ -83564,7 +83705,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790418770.8269885
+          "analysisUpdatedAt": 1790440718.2298703
         }
       },
       {
@@ -83613,7 +83754,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790418772.8378396
+          "analysisUpdatedAt": 1790440721.8648136
         }
       },
       {
@@ -88189,15 +88330,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790418756.3509014,
-    "_updated_label": "2026-09-26 19:32",
-    "_last_success_at": 1790418756.3509014,
+    "_fetched_at": 1790440680.1255693,
+    "_updated_label": "2026-09-27 01:38",
+    "_last_success_at": 1790440680.1255693,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 121,
+      "checked": 122,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "TSM": {
@@ -90876,7 +91017,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "ASML": {
@@ -92872,7 +93013,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "AMAT": {
@@ -95108,7 +95249,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "LRCX": {
@@ -96302,11 +96443,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1790418756.3509014,
+    "_last_attempt_at": 1790440680.1255693,
     "nextEarnings": {
       "date": "2026-10-27",
       "hour": "",
@@ -96379,7 +96520,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790418780.0410013
+          "analysisUpdatedAt": 1790440728.4214468
         },
         "headlineKo": "KLA(NASDAQ:KLAC)는 강력한 성장 기반과 건설적인 기술 설정을 결합합니다."
       },
@@ -96429,7 +96570,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790418782.1575267
+          "analysisUpdatedAt": 1790440731.8337345
         },
         "headlineKo": "Teradyne, AI 테스트 포트폴리오 강화: KLAC & COHU를 이길 수 있을까요?"
       },
@@ -96479,7 +96620,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790418784.4836502
+          "analysisUpdatedAt": 1790440734.2494123
         },
         "headlineKo": "Zacks 분석가 블로그에서는 Applied Materials, Lam Research 및 KLA를 강조합니다."
       },
@@ -96569,7 +96710,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790418780.0410013
+          "analysisUpdatedAt": 1790440728.4214468
         }
       },
       {
@@ -96618,7 +96759,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790418782.1575267
+          "analysisUpdatedAt": 1790440731.8337345
         }
       },
       {
@@ -96667,7 +96808,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790418784.4836502
+          "analysisUpdatedAt": 1790440734.2494123
         }
       },
       {
@@ -97461,15 +97602,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790418756.3509014,
-    "_updated_label": "2026-09-26 19:33",
-    "_last_success_at": 1790418756.3509014,
+    "_fetched_at": 1790440680.1255693,
+    "_updated_label": "2026-09-27 01:38",
+    "_last_success_at": 1790440680.1255693,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "MU": {
@@ -103552,11 +103693,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "SNDK": {
-    "_last_attempt_at": 1790438855.029855,
+    "_last_attempt_at": 1790440680.1255693,
     "nextEarnings": {
       "date": "2026-11-04",
       "hour": "",
@@ -103610,7 +103751,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790416876.5161302
+          "analysisUpdatedAt": 1790440742.2828176
         },
         "headlineKo": "Sandisk: 940억 달러 규모의 계약으로 전망 강화"
       },
@@ -103660,7 +103801,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790416878.0856435
+          "analysisUpdatedAt": 1790440746.4610658
         },
         "headlineKo": "AI 메모리 주식은 또 다른 실행을 준비하고 있습니까? 마이크론, 샌디스크, 신규 구매 포인트 청산 시도"
       },
@@ -103724,7 +103865,7 @@ const NEWS_DATA = {
             "An investment of $500 in Sandisk stock when it was spun off is now worth over $26,000.",
             "These gains of more than 52x have been fueled by a severe shortage in the NAND flash storage market."
           ],
-          "analysisUpdatedAt": 1790416880.7773516
+          "analysisUpdatedAt": 1790440750.619796
         },
         "headlineKo": "예측: 2030년 Sandisk에 대한 500달러 투자의 가치는 다음과 같습니다."
       },
@@ -103795,7 +103936,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790416876.5161302
+          "analysisUpdatedAt": 1790440742.2828176
         }
       },
       {
@@ -103844,7 +103985,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790416878.0856435
+          "analysisUpdatedAt": 1790440746.4610658
         }
       },
       {
@@ -103907,7 +104048,7 @@ const NEWS_DATA = {
             "An investment of $500 in Sandisk stock when it was spun off is now worth over $26,000.",
             "These gains of more than 52x have been fueled by a severe shortage in the NAND flash storage market."
           ],
-          "analysisUpdatedAt": 1790416880.7773516
+          "analysisUpdatedAt": 1790440750.619796
         }
       },
       {
@@ -107074,17 +107215,16 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790416674.3373768,
-    "_updated_label": "2026-09-26 19:01",
-    "_last_success_at": 1790416674.3373768,
-    "_collection_status": "error",
+    "_fetched_at": 1790440680.1255693,
+    "_updated_label": "2026-09-27 01:39",
+    "_last_success_at": 1790440680.1255693,
+    "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
-    },
-    "_last_error": "The read operation timed out"
+      "updated": "2026-09-27 01:39"
+    }
   },
   "WDC": {
     "_last_attempt_at": 1790438855.029855,
@@ -108708,7 +108848,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "ANET": {
@@ -110421,7 +110561,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "COHR": {
@@ -112060,7 +112200,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "LITE": {
@@ -113726,7 +113866,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "GEV": {
@@ -116545,7 +116685,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "CEG": {
@@ -117970,7 +118110,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "VST": {
@@ -119508,7 +119648,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "ETN": {
@@ -121210,7 +121350,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "PWR": {
@@ -122986,7 +123126,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "HUBB": {
@@ -123628,11 +123768,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "VRT": {
-    "_last_attempt_at": 1790418756.3509014,
+    "_last_attempt_at": 1790440680.1255693,
     "nextEarnings": {
       "date": "2026-10-20",
       "hour": "",
@@ -123701,7 +123841,7 @@ const NEWS_DATA = {
             "| Trefis How Much Further Could Vertiv Stock Fall?",
             "September 25th, 2026 · by Trefis Team VRT YTD +56.4% SPY YTD +13.7% XLI YTD +10.4% Analyze VRT → Vertiv (VRT) stock has lost about a quarter of its value over the past three months and now trades near $245."
           ],
-          "analysisUpdatedAt": 1790418792.5702794
+          "analysisUpdatedAt": 1790440760.6041796
         },
         "headlineKo": "Vertiv 주식은 얼마나 더 하락할 수 있나요?"
       },
@@ -123751,7 +123891,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790418793.6139176
+          "analysisUpdatedAt": 1790440761.7268379
         },
         "headlineKo": "Vertiv가 King Environmental Services를 인수함에 따라 VRT 주식을 플레이하는 방법"
       },
@@ -123801,7 +123941,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790418795.869896
+          "analysisUpdatedAt": 1790440764.9533453
         },
         "headlineKo": "Vertiv 외 6개 AI 산업주 지금 매수 가능"
       },
@@ -123889,7 +124029,7 @@ const NEWS_DATA = {
             "| Trefis How Much Further Could Vertiv Stock Fall?",
             "September 25th, 2026 · by Trefis Team VRT YTD +56.4% SPY YTD +13.7% XLI YTD +10.4% Analyze VRT → Vertiv (VRT) stock has lost about a quarter of its value over the past three months and now trades near $245."
           ],
-          "analysisUpdatedAt": 1790418792.5702794
+          "analysisUpdatedAt": 1790440760.6041796
         }
       },
       {
@@ -123938,7 +124078,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790418793.6139176
+          "analysisUpdatedAt": 1790440761.7268379
         }
       },
       {
@@ -123987,7 +124127,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790418795.869896
+          "analysisUpdatedAt": 1790440764.9533453
         }
       },
       {
@@ -125596,19 +125736,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790418756.3509014,
-    "_updated_label": "2026-09-26 19:33",
-    "_last_success_at": 1790418756.3509014,
+    "_fetched_at": 1790440680.1255693,
+    "_updated_label": "2026-09-27 01:39",
+    "_last_success_at": 1790440680.1255693,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "MOD": {
-    "_last_attempt_at": 1790418756.3509014,
+    "_last_attempt_at": 1790440680.1255693,
     "nextEarnings": {
       "date": "2026-10-26",
       "hour": "",
@@ -125663,7 +125803,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790418801.5230377
+          "analysisUpdatedAt": 1790440772.573649
         },
         "headlineKo": "시장 하락으로 모딘(MOD) 상승: 주요 사실"
       },
@@ -125713,7 +125853,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790418803.9424524
+          "analysisUpdatedAt": 1790440776.0025635
         },
         "headlineKo": "Modine(MOD)은 더 넓은 시장보다 더 하락합니다: 알아야 할 사항"
       },
@@ -125763,7 +125903,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790418806.447709
+          "analysisUpdatedAt": 1790440778.3914573
         },
         "headlineKo": "월스트리트 상승세는 Modine(MOD)에 대해 낙관적입니다. 매수해야 할까요?"
       },
@@ -125835,7 +125975,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790418801.5230377
+          "analysisUpdatedAt": 1790440772.573649
         }
       },
       {
@@ -125884,7 +126024,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790418803.9424524
+          "analysisUpdatedAt": 1790440776.0025635
         }
       },
       {
@@ -125933,7 +126073,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790418806.447709
+          "analysisUpdatedAt": 1790440778.3914573
         }
       },
       {
@@ -126298,15 +126438,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790418756.3509014,
-    "_updated_label": "2026-09-26 19:33",
-    "_last_success_at": 1790418756.3509014,
+    "_fetched_at": 1790440680.1255693,
+    "_updated_label": "2026-09-27 01:39",
+    "_last_success_at": 1790440680.1255693,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "STX": {
@@ -127709,7 +127849,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "EME": {
@@ -128712,7 +128852,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "FIX": {
@@ -129468,7 +129608,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   },
   "BE": {
@@ -130927,7 +131067,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-27 01:15"
+      "updated": "2026-09-27 01:39"
     }
   }
 };
