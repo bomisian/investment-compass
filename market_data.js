@@ -237,6 +237,24 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics",
+      "summary": "A federal jury awarded Taction Technology more than $5.7 billion after finding Apple infringed claims from two haptics patents. Apple plans to appeal.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/26/apple-taction-technology-patent-infringement-verdict.html",
+      "datetime": 1790434559,
+      "headlineKo": "Apple, iPhone 및 Apple Watch 햅틱에 대해 57억 달러 규모의 특허 침해 판결에 직면",
+      "summaryKo": "연방 배심원은 Apple이 두 가지 햅틱 특허에 대한 침해 주장을 판결한 후 Taction Technology에 57억 달러 이상을 지급했습니다. 애플은 항소할 계획이다."
+    },
+    {
+      "headline": "China pushes back against US on Iran and Cuba in UN speech - Reuters",
+      "summary": "China pushes back against US on Iran and Cuba in UN speech Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNmFyYk05dGVubEpsSTJ2dGwxcWtFNEx0ZDNybVVaMndCOUpzOTV5SHNjdmw0eHFCQzlsSHZONU91bHVjeU9lQ1RjSTJSM0pZRDhzUUNENHl1b1daMUxkajZ2QklCNTY5bXUxV0dEczRhZTJmU0VKWHhUeWN0OG5OYWRXdWRYUHJOaFJWbjlySGpEdUQtaDdDWThfTWk?oc=5",
+      "datetime": 1790433011,
+      "headlineKo": "중국, 유엔 연설에서 이란과 쿠바 문제에 대해 미국에 반발 - 로이터",
+      "summaryKo": "중국, 유엔 연설에서 이란과 쿠바에 대해 미국에 반발 - 최신"
+    },
+    {
       "headline": "The blue-collar AI job market is booming. Will data center backlash make it go bust?",
       "summary": "The public has soured on AI data centers and states are slowing development, but for HVAC, plumbing, welding, and electrical workers, it's been a jobs boom.",
       "source": "CNBC",
@@ -268,7 +286,7 @@ const MARKET_DATA = {
       "summary": "Six big takeaways from a turbulent week of UN diplomacy Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOFZoZDdKM2NZd3RrRFBLRGQ3VWoteUxkRFFtemw1RGVqbXdBWEdDR3FNazZ6MERQMWdCMThtVnJ5dnpmYjU0WWgzZW03OU5vWVZKLXRmS0s2c3BKV2lKbTlGLTJDRThYRW96eGJNVEhDZ3VEVVhPNGxpSkszTFc5WXNNQWh4dVRYWEJIZkhPTGN3ZDJXeW5FV2dYT3M?oc=5",
-      "datetime": 1790399504,
+      "datetime": 1790399340,
       "headlineKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 - 로이터",
       "summaryKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 Reuters"
     },
@@ -280,15 +298,6 @@ const MARKET_DATA = {
       "datetime": 1790385900,
       "headlineKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - 로이터 통신",
       "summaryKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - 최신"
-    },
-    {
-      "headline": "How Trump's diplomatic week exposed the limits of his power - Reuters",
-      "summary": "How Trump's diplomatic week exposed the limits of his power Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWUNJQ25mYi11NFg0WjVHdEZaSjVqMHhQS0NIT2tfQjc5UF9EZUpGWUNWZW40VGlmZjlhRFVZTkRicnh3UTlERy1vcU9majF6em4wYlRVN1V5S0RaTnpmR0VDdDV5VzBqNHY5dWNuWEJtdkF3VWNfQlVLbDc4S19Zb1Y1MzYxN2kwNGhVRF9uVUF0RTZPaVoyX1NvRmRkeFVG?oc=5",
-      "datetime": 1790376357,
-      "headlineKo": "트럼프의 외교 주간은 어떻게 그의 권력 한계를 드러냈는가 - 로이터",
-      "summaryKo": "트럼프의 외교 주간은 어떻게 그의 권력 한계를 드러냈는가 - 최신"
     },
     {
       "headline": "Here's exactly what Paramount promised Hollywood to land WBD — and why some are still skeptical",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790361518,
       "headlineKo": "Microsoft는 Copilot에 절실히 필요한 점검을 제공하고 주가는 당연히 치솟습니다.",
       "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
-    },
-    {
-      "headline": "Hurt by Trump, Senate Republicans plan to bolster affordability credentials before midterms - Reuters",
-      "summary": "Hurt by Trump, Senate Republicans plan to bolster affordability credentials before midterms Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLVpEek9KREFnOGlnd1c3RldyaGpVZ3BJUjdWemtCekdlWG5Qem9jXzJpbFpSTHNNTUFIYWtJM1JwdEgyTUFJTWYtZnBQWTJGZHJUS0tQX080Y1ZtS2Z6VHZOX1NiY2h0ZU5iWW9ZMk1yR2QyNGRGYUxMNzdRbzZ1VkFKaDVfM3ZZXzFVLWxMdFNIWG0wS01WN0xJY3VNQUFxaTFLZFp0dkdCTlowcXFSWklJem5HOU1FeDhXSjFuZzRWREpJWWI0MlExdw?oc=5",
-      "datetime": 1790359558,
-      "headlineKo": "트럼프에 상처받은 공화당 상원 의원들은 중간고사 이전에 경제성 자격을 강화할 계획이다 - 로이터 통신",
-      "summaryKo": "트럼프의 타격을 입은 상원 공화당은 중간 선거 전에 경제성 자격을 강화할 계획입니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790433375.3917212,
+  "_news_last_success_at": 1790437024.9065385,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790433364.903094,
-  "_updated_label": "2026-09-26 23:36",
-  "_last_attempt_at": 1790433364.903094,
-  "_last_success_at": 1790433364.903094,
+  "_fetched_at": 1790437013.8073986,
+  "_updated_label": "2026-09-27 00:37",
+  "_last_attempt_at": 1790437013.8073986,
+  "_last_success_at": 1790437013.8073986,
   "_collection_status": "ok",
   "_collection_errors": []
 };
