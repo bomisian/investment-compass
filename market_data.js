@@ -237,33 +237,6 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Iran awaits US move after WSJ report says Trump rejects peace plan - Reuters",
-      "summary": "Iran awaits US move after WSJ report says Trump rejects peace plan Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
-      "datetime": 1790407635,
-      "headlineKo": "트럼프가 평화 계획을 거부했다는 WSJ 보도 이후 이란은 미국의 조치를 기다리고 있다 - 로이터",
-      "summaryKo": "트럼프가 평화 계획을 거부했다고 WSJ 보고서가 보도한 후 이란은 미국의 조치를 기다리고 있습니다."
-    },
-    {
-      "headline": "Six big takeaways from a turbulent week of UN diplomacy - Reuters",
-      "summary": "Six big takeaways from a turbulent week of UN diplomacy Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOFZoZDdKM2NZd3RrRFBLRGQ3VWoteUxkRFFtemw1RGVqbXdBWEdDR3FNazZ6MERQMWdCMThtVnJ5dnpmYjU0WWgzZW03OU5vWVZKLXRmS0s2c3BKV2lKbTlGLTJDRThYRW96eGJNVEhDZ3VEVVhPNGxpSkszTFc5WXNNQWh4dVRYWEJIZkhPTGN3ZDJXeW5FV2dYT3M?oc=5",
-      "datetime": 1790399340,
-      "headlineKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 - 로이터",
-      "summaryKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 Reuters"
-    },
-    {
-      "headline": "Saudi coalition says it intercepts Houthi missiles, drones - Reuters",
-      "summary": "Saudi coalition says it intercepts Houthi missiles, drones Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdndqUFdtd2J6b19yZlhhZjlOZXVBYkNvYjVtTjQzYUxlRTVldkZHbjdQdDQtMGI0ZFEwSEY2MTc1OHNTcWJHUXJCbFJjSlpFb0o3blUxMTRBQWZncEVZaEZiMEdJbU9ZOGZIbUFxQzB3SGduZFZ2ZGFDYWNoZEtqVTd0QXRVZUc2UHRXMnpjUi1XM0d0a3dXcDg3ZFRqd2xsWHdzVXlhOXhMMDlQeHlpcEFXWjNncEZWbnBxZ0NaLXI?oc=5",
-      "datetime": 1790385900,
-      "headlineKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - 로이터 통신",
-      "summaryKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - 최신"
-    },
-    {
       "headline": "Here's exactly what Paramount promised Hollywood to land WBD — and why some are still skeptical",
       "summary": "Paramount CEO David Ellison's antitrust settlement eased some theatrical concerns, but questions remain about what happens when the five-year agreement ends.",
       "source": "CNBC",
@@ -309,6 +282,15 @@ const MARKET_DATA = {
       "summaryKo": "Micron은 메모리 공급 제약이 지속됨에 따라 수익으로 향하는 모든 영향력을 갖고 있습니다. 하지만 이 유리한 사이클은 언제까지 지속될 것인가?"
     },
     {
+      "headline": "Oil prices slide about 2% as US, Iran explore path out of war - Reuters",
+      "summary": "Oil prices slide about 2% as US, Iran explore path out of war Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV3EzX3oydnQxRk5Ld1BKbk82ek14ZVdyLVpTdldjdEpqeDJfTVZ2Q0F1TnhvaWlhR1p0Z3hScDV0S2Z1UFR5OXhKSWk3NmtqTzd0SkJfa2RLRFpOOUlEcE5mR1d4Z21Td2FCQVZqNHV1eDloQkplT1NHaHhyTDlqOG5DYlFFdnRERThxNU0yX29LcTRyal9pMHQ4ZzNoU0VKZkdHN2hFYjhCZUpZZ3d2am11SDJYYVBiN0JxWVBtczNRYkh1?oc=5",
+      "datetime": 1790364532,
+      "headlineKo": "미국과 이란이 전쟁에서 벗어날 길을 모색함에 따라 유가는 약 2% 하락 - 로이터",
+      "summaryKo": "미국과 이란이 전쟁에서 벗어날 길을 모색하면서 유가는 약 2% 하락 - 로이터"
+    },
+    {
       "headline": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says - Reuters",
       "summary": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says Reuters",
       "source": "Reuters",
@@ -343,18 +325,36 @@ const MARKET_DATA = {
       "datetime": 1790358649,
       "headlineKo": "아이스 커피 논쟁은 '지금 채용의 모든 잘못된 점'을 반영한다고 경력 전문가는 말합니다.",
       "summaryKo": "아이스 커피는 인터넷을 통해 진행되는 세대 간 채용 논쟁의 중심에 있습니다. 한 직업 전문가는 이것이 무너진 취업 시장을 반영한다고 말합니다."
+    },
+    {
+      "headline": "10-year Treasury yield hit a 19-year high—and some investors see opportunity to buy bonds",
+      "summary": "The 10-year Treasury yield hit its highest level since 2007. Here’s what higher yields can mean for bond investors and borrowers.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/25/treasury-yield-buy-bonds.html",
+      "datetime": 1790354409,
+      "headlineKo": "10년 만기 국채 수익률이 19년 만에 최고치를 기록했으며 일부 투자자들은 채권 매수 기회를 보고 있습니다.",
+      "summaryKo": "10년 만기 국채 수익률은 2007년 이후 최고치를 기록했습니다. 채권 투자자와 대출자에게 더 높은 수익률이 의미하는 바는 다음과 같습니다."
+    },
+    {
+      "headline": "UN expands list of companies linked to Israeli settlements - reuters.com",
+      "summary": "UN expands list of companies linked to Israeli settlements reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbUdzWEtGVmZTbFBmNGhwVFpWNWV0SUpuWG1CYThwUWlfWDh6OGZKd3VpUDVHZDJhREMwWnVYOEszVXhNeE1acnN0NTZmLVlwTEx6X0hOMHJaRDJySzh5OXNKMnI5YUlMZERaZTFIeFJfTFFGLVIyM1VFUmlVUlVyaXVLX3dfbnR5ZE9nUDhZMmdQZTdrU0NFYUY0a2c2RXd0LUlvUFpwTkRPZw?oc=5",
+      "datetime": 1790348822,
+      "headlineKo": "유엔, 이스라엘 정착촌 관련 기업 목록 확대 - reuters.com",
+      "summaryKo": "UN, 이스라엘 정착촌 관련 기업 목록 확대 reuters.com"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790418816.536103,
+  "_news_last_success_at": 1790422485.8242483,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790418808.9013069,
-  "_updated_label": "2026-09-26 19:34",
-  "_last_attempt_at": 1790418808.9013069,
-  "_last_success_at": 1790418808.9013069,
+  "_fetched_at": 1790422473.788895,
+  "_updated_label": "2026-09-26 20:35",
+  "_last_attempt_at": 1790422473.788895,
+  "_last_success_at": 1790422473.788895,
   "_collection_status": "ok",
   "_collection_errors": []
 };
