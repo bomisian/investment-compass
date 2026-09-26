@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790437094.9127162,
+  "generatedAt": 1790438918.5603924,
   "records": {
     "MSFT": [
       {
@@ -7225,6 +7225,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AAPL": [
       {
+        "changedAt": 1790438918.5603924,
+        "dataAsOf": 1790406765,
+        "changes": [
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -2.8,
+            "after": -1.75
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 1.93,
+            "after": 2.45
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Apple(AAPL)이 온디바이스 AI를 탑재한 최초의 폴더블 iPhone 출시에 투자자들이 대응할 수 있는 방법",
+        "newsUrl": "https://finnhub.io/api/news?id=2dc8f5809d15a59953da596f285f5373b5fd989cbcd3796011f9898449dbb509",
+        "eventId": "4677bc1d348b7cc57bb9",
+        "fingerprint": "{\"changes\": [{\"after\": -1.75, \"before\": -2.8, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 2.45, \"before\": 1.93, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"4677bc1d348b7cc57bb9\"}"
+      },
+      {
         "changedAt": 1790417036.3868268,
         "dataAsOf": 1790406765,
         "changes": [
@@ -8892,29 +8915,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=0ad66e505147f480152d6169b3fc788b5c2965eb3b24b17a9d831ea7e9a9a0ab",
         "eventId": "63442a4a2206bc3b1a77",
         "fingerprint": "{\"changes\": [{\"after\": -1.4, \"before\": -2.8, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.37, \"before\": -5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"63442a4a2206bc3b1a77\"}"
-      },
-      {
-        "changedAt": 1788990983.5001717,
-        "dataAsOf": 1788982308,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 0.87,
-            "after": 0.52
-          },
-          {
-            "key": "competitiveRisk",
-            "label": "경쟁 심화 리스크",
-            "before": 0.0,
-            "after": -0.7
-          }
-        ],
-        "cause": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-        "newsHeadline": "폴더블 iPhone Duo의 소프트웨어는 경쟁사 대비 '빛나는' 데 도움이 됩니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=0ad66e505147f480152d6169b3fc788b5c2965eb3b24b17a9d831ea7e9a9a0ab",
-        "eventId": "63442a4a2206bc3b1a77",
-        "fingerprint": "{\"changes\": [{\"after\": 0.52, \"before\": 0.87, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -0.7, \"before\": 0.0, \"key\": \"competitiveRisk\", \"label\": \"경쟁 심화 리스크\"}], \"eventId\": \"63442a4a2206bc3b1a77\"}"
       }
     ],
     "TSLA": [
@@ -10630,6 +10630,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "ORCL": [
+      {
+        "changedAt": 1790438918.5603924,
+        "dataAsOf": 1790374081,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 3.67,
+            "after": 3.85
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 1.4,
+            "after": 1.57
+          }
+        ],
+        "cause": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+        "newsHeadline": "Bloom Energy(BE)는 오라클이 2.4GW AI 연료 전지 거래 약속을 재확인한 후 8.7% 상승했습니다. 상승세가 바뀌었나요?",
+        "newsUrl": "https://finnhub.io/api/news?id=bc92f47df2a597a54174a2fc21f251751fe09d36d8e1bbaee6b61edd90d8d080",
+        "eventId": "44bb333abc0cc450052a",
+        "fingerprint": "{\"changes\": [{\"after\": 3.85, \"before\": 3.67, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.57, \"before\": 1.4, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"44bb333abc0cc450052a\"}"
+      },
       {
         "changedAt": 1790417036.3868268,
         "dataAsOf": 1790374081,
@@ -12532,44 +12555,38 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=a58caa30d9b5afdc47c26cfd32b5cd3a522c9e5ea5a1c9234bba7b0794c025f7",
         "eventId": "b519b25a5c4aa593de71",
         "fingerprint": "{\"changes\": [{\"after\": 1.75, \"before\": 2.27, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 2.62, \"before\": 3.67, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.27, \"before\": -1.75, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"주의 강화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"b519b25a5c4aa593de71\"}"
-      },
+      }
+    ],
+    "CRM": [
       {
-        "changedAt": 1788750997.7770286,
-        "dataAsOf": 1788699869,
+        "changedAt": 1790438918.5603924,
+        "dataAsOf": 1790226000,
         "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 1.92,
-            "after": 2.27
-          },
           {
             "key": "growth",
             "label": "성장성",
-            "before": 3.5,
-            "after": 3.67
+            "before": 0.18,
+            "after": 0.7
           },
           {
             "key": "businessRisk",
             "label": "사업 리스크",
-            "before": -2.27,
-            "after": -3.32
+            "before": -1.05,
+            "after": 0.0
           },
           {
             "key": "shortTermMomentum",
             "label": "단기 뉴스 모멘텀",
-            "before": -1.57,
-            "after": -1.75
+            "before": 0.18,
+            "after": 0.7
           }
         ],
         "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "인플레이션 데이터, 오라클 수익, 에너지 공급 경색: 이번 주에 주목해야 할 사항",
-        "newsUrl": "https://finnhub.io/api/news?id=a58caa30d9b5afdc47c26cfd32b5cd3a522c9e5ea5a1c9234bba7b0794c025f7",
-        "eventId": "b519b25a5c4aa593de71",
-        "fingerprint": "{\"changes\": [{\"after\": 2.27, \"before\": 1.92, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 3.67, \"before\": 3.5, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.32, \"before\": -2.27, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.75, \"before\": -1.57, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"b519b25a5c4aa593de71\"}"
-      }
-    ],
-    "CRM": [
+        "newsHeadline": "Navatar는 Claude와 Salesforce를 사모펀드 및 M&A를 위한 실시간 AI 거래 엔진으로 전환합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=0d48770676512835e008bfda3bf05416c1708024d7078f4a7071d05d2794ac5d",
+        "eventId": "83a975fb234d014d1677",
+        "fingerprint": "{\"changes\": [{\"after\": 0.7, \"before\": 0.18, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.0, \"before\": -1.05, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.7, \"before\": 0.18, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"83a975fb234d014d1677\"}"
+      },
       {
         "changedAt": 1790372782.163863,
         "dataAsOf": 1790226000,
@@ -17402,6 +17419,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AMD": [
       {
+        "changedAt": 1790438918.5603924,
+        "dataAsOf": 1790406765,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 4.9,
+            "after": 4.03
+          }
+        ],
+        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
+        "newsHeadline": "Apple(AAPL)이 온디바이스 AI를 탑재한 최초의 폴더블 iPhone 출시에 투자자들이 대응할 수 있는 방법",
+        "newsUrl": "https://finnhub.io/api/news?id=2dc8f5809d15a59953da596f285f5373b5fd989cbcd3796011f9898449dbb509",
+        "eventId": "4677bc1d348b7cc57bb9",
+        "fingerprint": "{\"changes\": [{\"after\": 4.03, \"before\": 4.9, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"4677bc1d348b7cc57bb9\"}"
+      },
+      {
         "changedAt": 1790394946.695382,
         "dataAsOf": 1790377781,
         "changes": [
@@ -18787,29 +18821,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=b9f957b325d3887f289d92a1d4247fc7927cfb16f5bdbc75b2d4c975e8d52365",
         "eventId": "226453c8c2ad689479cd",
         "fingerprint": "{\"changes\": [{\"after\": 1.05, \"before\": 0.7, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -1.05, \"before\": -1.4, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.57, \"before\": -1.92, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"226453c8c2ad689479cd\"}"
-      },
-      {
-        "changedAt": 1789115698.9016356,
-        "dataAsOf": 1789113954,
-        "changes": [
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -2.45,
-            "after": -1.4
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -3.15,
-            "after": -1.92
-          }
-        ],
-        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
-        "newsHeadline": "네 번째 레드 세션은 석유 가격이 105달러를 돌파하고 오라클이 285억 달러의 AI 청구서를 발송함에 따라 폴더블 구동 Apple로 실행됩니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=353e4ae02b79598186ded3dea272fb32a65f2f8712e0a0e9c1c4dcc2a3721420",
-        "eventId": "251efb9a6aa19939813b",
-        "fingerprint": "{\"changes\": [{\"after\": -1.4, \"before\": -2.45, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.92, \"before\": -3.15, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"251efb9a6aa19939813b\"}"
       }
     ],
     "AVGO": [
@@ -20784,6 +20795,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "QCOM": [
       {
+        "changedAt": 1790438918.5603924,
+        "dataAsOf": 1790358781,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 4.9,
+            "after": 5
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -2.97,
+            "after": -1.92
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.7,
+            "after": 1.22
+          }
+        ],
+        "cause": "스마트폰 수요가 줄면 고객 칩 수요에 부담",
+        "newsHeadline": "AI 에이전트가 앱 스토어 1위를 차지한 후 Meta가 매수할 수 있는 최고의 Magnificent Seven 주식입니까?",
+        "newsUrl": "https://finnhub.io/api/news?id=45a7f36c7153031c7265ad8365d216e1f96175416d545b4bf0304def95b54c95",
+        "eventId": "d3fb7eacb9f4fa8564d2",
+        "fingerprint": "{\"changes\": [{\"after\": 5, \"before\": 4.9, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.92, \"before\": -2.97, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 1.22, \"before\": 0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"d3fb7eacb9f4fa8564d2\"}"
+      },
+      {
         "changedAt": 1790394946.695382,
         "dataAsOf": 1790358781,
         "changes": [
@@ -22355,29 +22395,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=a315f6709959f09b7975b57023eb1f1e42c8aa9255c8cb764863fc87b4c164c5",
         "eventId": "2b2c3a2549b83c099888",
         "fingerprint": "{\"changes\": [{\"after\": 2.97, \"before\": 2.45, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 2.28, \"before\": 0.7, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.1, \"before\": -3.05, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -5, \"before\": -4.8, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"2b2c3a2549b83c099888\"}"
-      },
-      {
-        "changedAt": 1788901262.897737,
-        "dataAsOf": 1788888648,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 1.23,
-            "after": 0.7
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -4.27,
-            "after": -4.8
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "Qualcomm 주가 급등 - Amazon, 주요 AI 칩 파트너십 체결",
-        "newsUrl": "https://finnhub.io/api/news?id=16b2f3f6aea6b463a60eb8e65bffc1c8ee54422bdac9d88303f0d2d486f5d59d",
-        "eventId": "de94cb545df45aea48bc",
-        "fingerprint": "{\"changes\": [{\"after\": 0.7, \"before\": 1.23, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.8, \"before\": -4.27, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"de94cb545df45aea48bc\"}"
       }
     ],
     "ARM": [
@@ -31380,6 +31397,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "KLAC": [
       {
+        "changedAt": 1790438918.5603924,
+        "dataAsOf": 1790339450,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -0.17,
+            "after": 0.35
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.17,
+            "after": 0.35
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "KLA(NASDAQ:KLAC)는 강력한 성장 기반과 건설적인 기술 설정을 결합합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=7a57b127c807435ce1ae147556022d031929592ac5100da85bd32efcfae7e28f",
+        "eventId": "e93e0895b79a0c367129",
+        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": -0.17, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.35, \"before\": -0.17, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"e93e0895b79a0c367129\"}"
+      },
+      {
         "changedAt": 1790417036.3868268,
         "dataAsOf": 1790339450,
         "changes": [
@@ -31642,6 +31682,23 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "MU": [
+      {
+        "changedAt": 1790438918.5603924,
+        "dataAsOf": 1790406765,
+        "changes": [
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -5,
+            "after": -4.9
+          }
+        ],
+        "cause": "AI 서버 메모리 수요와 가격 강세",
+        "newsHeadline": "Apple(AAPL)이 온디바이스 AI를 탑재한 최초의 폴더블 iPhone 출시에 투자자들이 대응할 수 있는 방법",
+        "newsUrl": "https://finnhub.io/api/news?id=2dc8f5809d15a59953da596f285f5373b5fd989cbcd3796011f9898449dbb509",
+        "eventId": "4677bc1d348b7cc57bb9",
+        "fingerprint": "{\"changes\": [{\"after\": -4.9, \"before\": -5, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"4677bc1d348b7cc57bb9\"}"
+      },
       {
         "changedAt": 1790394946.695382,
         "dataAsOf": 1790377781,
@@ -33058,23 +33115,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=ff3a802637a90748c5c85f5658206cc5b6a37b5ccb9c36920eeb41183714e722",
         "eventId": "c25a39baa7f8c002cfa3",
         "fingerprint": "{\"changes\": [{\"after\": 4.9, \"before\": 5, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 4.55, \"before\": 5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"c25a39baa7f8c002cfa3\"}"
-      },
-      {
-        "changedAt": 1789055035.405458,
-        "dataAsOf": 1789044360,
-        "changes": [
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 4.9,
-            "after": 5
-          }
-        ],
-        "cause": "AI 서버 메모리 수요와 가격 강세",
-        "newsHeadline": "억만장자 Stanley Druckenmiller는 Micron, Broadcom 및 Intel을 매각했습니다. 그의 포트폴리오에 남아 있는 가장 큰 AI 칩 디자이너는 다음과 같습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=e3e97dcdd57beb975b1c2fa2fba7fb0a1680aeaf4c180f0508f6ebe396f6adc7",
-        "eventId": "4faf99c06db8b1f5e2b0",
-        "fingerprint": "{\"changes\": [{\"after\": 5, \"before\": 4.9, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"4faf99c06db8b1f5e2b0\"}"
       }
     ],
     "SNDK": [
@@ -35055,6 +35095,41 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "WDC": [
       {
+        "changedAt": 1790438918.5603924,
+        "dataAsOf": 1790358781,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.52,
+            "after": 0.7
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.0,
+            "after": 0.88
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -2.1,
+            "after": -1.05
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.52,
+            "after": 0.18
+          }
+        ],
+        "cause": "메모리·스토리지 가격 강세 수혜 가능성",
+        "newsHeadline": "AI 에이전트가 앱 스토어 1위를 차지한 후 Meta가 매수할 수 있는 최고의 Magnificent Seven 주식입니까?",
+        "newsUrl": "https://finnhub.io/api/news?id=45a7f36c7153031c7265ad8365d216e1f96175416d545b4bf0304def95b54c95",
+        "eventId": "d3fb7eacb9f4fa8564d2",
+        "fingerprint": "{\"changes\": [{\"after\": 0.7, \"before\": 0.52, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.88, \"before\": 0.0, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.05, \"before\": -2.1, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.18, \"before\": -0.52, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"d3fb7eacb9f4fa8564d2\"}"
+      },
+      {
         "changedAt": 1790394946.695382,
         "dataAsOf": 1790358781,
         "changes": [
@@ -36752,41 +36827,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=c019df79aeb64a57110444a7f5ae48b96950fa80d5e4741bb27b74b09096dfe6",
         "eventId": "ad165dbb9ea8550001bb",
         "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.0, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.0, \"before\": -0.7, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.35, \"before\": -0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"ad165dbb9ea8550001bb\"}"
-      },
-      {
-        "changedAt": 1787309676.7896874,
-        "dataAsOf": 1787212801,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 0.52,
-            "after": 0.0
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 0.35,
-            "after": -0.7
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -0.18,
-            "after": -0.7
-          },
-          {
-            "key": "signal",
-            "label": "종합 시그널",
-            "before": "중립·확인 대기",
-            "after": "주의 강화"
-          }
-        ],
-        "cause": "메모리·스토리지 가격 강세 수혜 가능성",
-        "newsHeadline": "Apple 제품을 구매하시나요? 비용을 지불하는 데 도움이 되는 4가지 도구",
-        "newsUrl": "https://finnhub.io/api/news?id=a03b08e1b2008c44e24564b7729d0b10f7da5eb33418846cce278009d8d4233d",
-        "eventId": "936d88911278db315ec0",
-        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": 0.52, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -0.7, \"before\": 0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.7, \"before\": -0.18, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"주의 강화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"936d88911278db315ec0\"}"
       }
     ],
     "ANET": [
