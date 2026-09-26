@@ -237,13 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "China pushes back against US on Iran and Cuba in UN speech - Reuters",
-      "summary": "China pushes back against US on Iran and Cuba in UN speech Reuters",
+      "headline": "China pushes back against US on Iran and Cuba in UN speech - reuters.com",
+      "summary": "China pushes back against US on Iran and Cuba in UN speech reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNmFyYk05dGVubEpsSTJ2dGwxcWtFNEx0ZDNybVVaMndCOUpzOTV5SHNjdmw0eHFCQzlsSHZONU91bHVjeU9lQ1RjSTJSM0pZRDhzUUNENHl1b1daMUxkajZ2QklCNTY5bXUxV0dEczRhZTJmU0VKWHhUeWN0OG5OYWRXdWRYUHJOaFJWbjlySGpEdUQtaDdDWThfTWk?oc=5",
       "datetime": 1790441455,
-      "headlineKo": "중국, 유엔 연설에서 이란과 쿠바 문제에 대해 미국에 반발 - 로이터",
-      "summaryKo": "중국, 유엔 연설에서 이란과 쿠바에 대해 미국에 반발 - 최신"
+      "headlineKo": "중국, 유엔 연설에서 이란과 쿠바에 대해 미국에 반발 - reuters.com",
+      "summaryKo": "중국, 유엔 연설에서 이란과 쿠바에 대해 미국에 반발 reuters.com"
     },
     {
       "headline": "Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics",
@@ -264,13 +264,13 @@ const MARKET_DATA = {
       "summaryKo": "대중은 AI 데이터 센터에 불만을 품고 있으며 주에서는 개발 속도를 늦추고 있지만 HVAC, 배관, 용접 및 전기 작업자에게는 일자리 붐이 일어났습니다."
     },
     {
-      "headline": "Saudi coalition says it intercepts Houthi missiles, drones - Reuters",
-      "summary": "Saudi coalition says it intercepts Houthi missiles, drones Reuters",
+      "headline": "Saudi coalition says it intercepts Houthi missiles, drones - reuters.com",
+      "summary": "Saudi coalition says it intercepts Houthi missiles, drones reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdndqUFdtd2J6b19yZlhhZjlOZXVBYkNvYjVtTjQzYUxlRTVldkZHbjdQdDQtMGI0ZFEwSEY2MTc1OHNTcWJHUXJCbFJjSlpFb0o3blUxMTRBQWZncEVZaEZiMEdJbU9ZOGZIbUFxQzB3SGduZFZ2ZGFDYWNoZEtqVTd0QXRVZUc2UHRXMnpjUi1XM0d0a3dXcDg3ZFRqd2xsWHdzVXlhOXhMMDlQeHlpcEFXWjNncEZWbnBxZ0NaLXI?oc=5",
       "datetime": 1790428842,
-      "headlineKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - 로이터 통신",
-      "summaryKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - 최신"
+      "headlineKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - reuters.com",
+      "summaryKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 reuters.com"
     },
     {
       "headline": "27-year-old started a run club to meet new people—now his NYC side hustle brings in $640K a year",
@@ -282,31 +282,31 @@ const MARKET_DATA = {
       "summaryKo": "Owen Akhibi Herrera는 2024년 뉴욕에 기반을 둔 운영 클럽을 시작했을 때 커뮤니티와 기업가적 기회를 갈망했습니다."
     },
     {
-      "headline": "Six big takeaways from a turbulent week of UN diplomacy - Reuters",
-      "summary": "Six big takeaways from a turbulent week of UN diplomacy Reuters",
+      "headline": "Six big takeaways from a turbulent week of UN diplomacy - reuters.com",
+      "summary": "Six big takeaways from a turbulent week of UN diplomacy reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOFZoZDdKM2NZd3RrRFBLRGQ3VWoteUxkRFFtemw1RGVqbXdBWEdDR3FNazZ6MERQMWdCMThtVnJ5dnpmYjU0WWgzZW03OU5vWVZKLXRmS0s2c3BKV2lKbTlGLTJDRThYRW96eGJNVEhDZ3VEVVhPNGxpSkszTFc5WXNNQWh4dVRYWEJIZkhPTGN3ZDJXeW5FV2dYT3M?oc=5",
-      "datetime": 1790399504,
-      "headlineKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 - 로이터",
-      "summaryKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 Reuters"
+      "datetime": 1790399340,
+      "headlineKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 - reuters.com",
+      "summaryKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 reuters.com"
     },
     {
-      "headline": "Britain warns Iran it will not tolerate hostile activity on UK soil - Reuters",
-      "summary": "Britain warns Iran it will not tolerate hostile activity on UK soil Reuters",
+      "headline": "Britain warns Iran it will not tolerate hostile activity on UK soil - reuters.com",
+      "summary": "Britain warns Iran it will not tolerate hostile activity on UK soil reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZmt3OWdYdUxlUXlJa0h6T0lndm5xUDBvRjg0M0plMzcxOThXT2lIaUNSY1NnczJYOEpwa3dYcGZWT2NGc0R3VGNHeVRJb0N5dS16V2FHamQyWkFuRkpSdXNIQk5CUk13dGU3NW1UNF9IdzFHSlFuOHpJRS1KZk1Hal9XNDFHbTlybmwxaUZsZmlINjRGZ29PekZNNFBpMHBabkxMelNBb1NPWk04Y3FYcU83QVR1T0xKTTJXeURIT1pwdDdJYUE?oc=5",
       "datetime": 1790394347,
-      "headlineKo": "영국, 이란에 영국 영토에서의 적대적 활동을 용납하지 않을 것이라고 경고 - 로이터",
-      "summaryKo": "영국, 이란에 영국 땅에서의 적대적 활동을 용납하지 않을 것이라고 경고 - 최신"
+      "headlineKo": "영국, 이란에 영국 땅에서의 적대적 활동을 용납하지 않을 것이라고 경고 - reuters.com",
+      "summaryKo": "영국, 이란에 영국 땅에서의 적대적 활동을 용납하지 않을 것이라고 경고 reuters.com"
     },
     {
-      "headline": "Trump rejects Iranian proposal to open Hormuz and end fighting - Reuters",
-      "summary": "Trump rejects Iranian proposal to open Hormuz and end fighting Reuters",
+      "headline": "Trump rejects Iranian proposal to open Hormuz and end fighting - reuters.com",
+      "summary": "Trump rejects Iranian proposal to open Hormuz and end fighting reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
       "datetime": 1790387940,
-      "headlineKo": "트럼프, 호르무즈 개방과 전쟁 종식을 위한 이란의 제안 거부 - 로이터",
-      "summaryKo": "트럼프, 호르무즈 개방하고 전쟁 종식하라는 이란 제안 거부 - 중앙일보"
+      "headlineKo": "트럼프, 호르무즈 개방과 전쟁 종식하라는 이란의 제안 거부 - reuters.com",
+      "summaryKo": "트럼프, 호르무즈 개방하고 전쟁 종식하라는 이란 제안 거부"
     },
     {
       "headline": "Here's exactly what Paramount promised Hollywood to land WBD — and why some are still skeptical",
@@ -318,22 +318,22 @@ const MARKET_DATA = {
       "summaryKo": "파라마운트 CEO 데이비드 엘리슨(David Ellison)의 독점금지 합의는 일부 연극적 우려를 완화시켰지만 5년 계약이 종료되면 어떤 일이 일어날지에 대한 의문이 남아 있습니다."
     },
     {
-      "headline": "Iran's Araqchi says now up to US to accept 7-day plan - Reuters",
-      "summary": "Iran's Araqchi says now up to US to accept 7-day plan Reuters",
+      "headline": "Iran's Araqchi says now up to US to accept 7-day plan - reuters.com",
+      "summary": "Iran's Araqchi says now up to US to accept 7-day plan reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUmpYaGtLNnJmeGdiOGNJZVNJQVJ0eVNmRzdLNHdQWF9hVkFfZ3FkSmtwamwxUmpkdWJJNmxldmtYckJzUGpFblZsYzVLV19PeFd2ZkFvSmgxUDJZQUF4MUdSQXU4SjFlWmM2WU42clJWNUlVNy1DVkRmY2k3MEJoQkQteWVKdVlBaFNiLWVla3FnTXdHSUdBZGN4eXhNUDJfN2c?oc=5",
       "datetime": 1790368569,
-      "headlineKo": "이란 아라크치 \"이제 미국이 7일 계획 수용할 것\"",
+      "headlineKo": "이란 아라크치 \"이제 미국이 7일 계획 수용할 것\" - reuters.com",
       "summaryKo": "이란 아라크치 \"이제 미국이 7일 계획 수용할 것\""
     },
     {
-      "headline": "EU warns of energy price crisis, asks countries to consider curbing demand, letter shows - Reuters",
-      "summary": "EU warns of energy price crisis, asks countries to consider curbing demand, letter shows Reuters",
+      "headline": "EU warns of energy price crisis, asks countries to consider curbing demand, letter shows - reuters.com",
+      "summary": "EU warns of energy price crisis, asks countries to consider curbing demand, letter shows reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNemtIR2FDbDVHcjRWdzNYQnpYZGdsSW5yZTIzRlFtTnhXMVoxUGc1RTNWNlNVTkdiZk05SHpsMmh1TXlvQmdOLWR3MHlGRHV0Qkg4SGFhd1p1SUhfQ3YzVWVNZmc5TTVXbEdzQ19yQXU2RnE0MFprTjlYZGluYWVtb0JuQ3NzWkdNTnhqQ3hKYk9oelprY1FxbU1LZmgzcFByWVh6M01JR3BVMm56REhOR3JST2hQQXBXRUlkSFhqT3dOZGxsSi1fTTlkcWw?oc=5",
       "datetime": 1790367386,
-      "headlineKo": "EU, 에너지 가격 위기 경고, 국가들에 수요 억제 고려 요청, 서신 공개 - Reuters",
-      "summaryKo": "EU는 에너지 가격 위기를 경고하고 국가들에게 수요 억제를 고려할 것을 요청했다고 서신은 밝혔습니다."
+      "headlineKo": "EU, 에너지 가격 위기 경고, 국가들에 수요 억제 고려 요청 - reuters.com",
+      "summaryKo": "EU는 에너지 가격 위기를 경고하고 국가들에 수요 억제를 고려할 것을 요청했다고 서한은 reuters.com에 표시됩니다."
     },
     {
       "headline": "What we want to see next week from one of Jim Cramer's 6 stocks to buy",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790444426.780818,
+  "_news_last_success_at": 1790448125.2745454,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790444415.808704,
-  "_updated_label": "2026-09-27 02:40",
-  "_last_attempt_at": 1790444415.808704,
-  "_last_success_at": 1790444415.808704,
+  "_fetched_at": 1790448107.0477178,
+  "_updated_label": "2026-09-27 03:42",
+  "_last_attempt_at": 1790448107.0477178,
+  "_last_success_at": 1790448107.0477178,
   "_collection_status": "ok",
   "_collection_errors": []
 };
