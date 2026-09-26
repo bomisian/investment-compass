@@ -250,9 +250,18 @@ const MARKET_DATA = {
       "summary": "Saudi coalition says it intercepts Houthi missiles, drones Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdndqUFdtd2J6b19yZlhhZjlOZXVBYkNvYjVtTjQzYUxlRTVldkZHbjdQdDQtMGI0ZFEwSEY2MTc1OHNTcWJHUXJCbFJjSlpFb0o3blUxMTRBQWZncEVZaEZiMEdJbU9ZOGZIbUFxQzB3SGduZFZ2ZGFDYWNoZEtqVTd0QXRVZUc2UHRXMnpjUi1XM0d0a3dXcDg3ZFRqd2xsWHdzVXlhOXhMMDlQeHlpcEFXWjNncEZWbnBxZ0NaLXI?oc=5",
-      "datetime": 1790385900,
+      "datetime": 1790387822,
       "headlineKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - 로이터 통신",
       "summaryKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - 최신"
+    },
+    {
+      "headline": "How Trump's diplomatic week exposed the limits of his power - Reuters",
+      "summary": "How Trump's diplomatic week exposed the limits of his power Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWUNJQ25mYi11NFg0WjVHdEZaSjVqMHhQS0NIT2tfQjc5UF9EZUpGWUNWZW40VGlmZjlhRFVZTkRicnh3UTlERy1vcU9majF6em4wYlRVN1V5S0RaTnpmR0VDdDV5VzBqNHY5dWNuWEJtdkF3VWNfQlVLbDc4S19Zb1Y1MzYxN2kwNGhVRF9uVUF0RTZPaVoyX1NvRmRkeFVG?oc=5",
+      "datetime": 1790376357,
+      "headlineKo": "트럼프의 외교 주간은 어떻게 그의 권력 한계를 드러냈는가 - 로이터",
+      "summaryKo": "트럼프의 외교 주간은 어떻게 그의 권력 한계를 드러냈는가 - 최신"
     },
     {
       "headline": "Here's exactly what Paramount promised Hollywood to land WBD — and why some are still skeptical",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790358649,
       "headlineKo": "아이스 커피 논쟁은 '지금 채용의 모든 잘못된 점'을 반영한다고 경력 전문가는 말합니다.",
       "summaryKo": "아이스 커피는 인터넷을 통해 진행되는 세대 간 채용 논쟁의 중심에 있습니다. 한 직업 전문가는 이것이 무너진 취업 시장을 반영한다고 말합니다."
-    },
-    {
-      "headline": "10-year Treasury yield hit a 19-year high—and some investors see opportunity to buy bonds",
-      "summary": "The 10-year Treasury yield hit its highest level since 2007. Here’s what higher yields can mean for bond investors and borrowers.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/25/treasury-yield-buy-bonds.html",
-      "datetime": 1790354409,
-      "headlineKo": "10년 만기 국채 수익률이 19년 만에 최고치를 기록했으며 일부 투자자들은 채권 매수 기회를 보고 있습니다.",
-      "summaryKo": "10년 만기 국채 수익률은 2007년 이후 최고치를 기록했습니다. 채권 투자자와 대출자에게 더 높은 수익률이 의미하는 바는 다음과 같습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790400060.6161447,
+  "_news_last_success_at": 1790403748.8851073,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790400045.5664327,
-  "_updated_label": "2026-09-26 14:21",
-  "_last_attempt_at": 1790400045.5664327,
-  "_last_success_at": 1790400045.5664327,
+  "_fetched_at": 1790403738.8004887,
+  "_updated_label": "2026-09-26 15:22",
+  "_last_attempt_at": 1790403738.8004887,
+  "_last_success_at": 1790403738.8004887,
   "_collection_status": "ok",
   "_collection_errors": []
 };
