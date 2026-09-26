@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 8.040454355689786,
-        "ret3m": 27.197134119624454,
-        "ret6m": 24.100067661055746,
-        "ret1y": 4.124063727512772,
+        "ret1m": 6.862875879066488,
+        "ret3m": 23.828245447315233,
+        "ret6m": 26.79339780310872,
+        "ret1y": 3.7383750187633513,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 11.474571632384345,
-        "ret3m": -9.41949998415248,
-        "ret6m": 83.69522763983636,
-        "ret1y": 203.68724707899938,
+        "ret1m": 11.398357736899523,
+        "ret3m": -3.2117157026920085,
+        "ret6m": 96.66697274846388,
+        "ret1y": 206.26199609948333,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": 4.905581196800135,
-        "ret3m": 0.5337721062528056,
-        "ret6m": 30.33891046980761,
-        "ret1y": 206.8096882999462,
+        "ret1m": 1.3802336566920426,
+        "ret3m": 7.656531901834862,
+        "ret6m": 47.179501844345985,
+        "ret1y": 221.6008206898802,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": 3.156133479311385,
-        "ret3m": -11.175476447795074,
-        "ret6m": 8.647936104201847,
-        "ret1y": 47.146757924268435,
+        "ret1m": 2.9579939351369156,
+        "ret3m": -4.050195082058794,
+        "ret6m": 16.729715045754865,
+        "ret1y": 51.48728175986537,
         "winRate": null,
         "count": 12
       }
@@ -229,21 +229,21 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.1182793552729685,
-    "corrPctRank": 1.340033500837521,
+    "corr60": 0.1766344201220604,
+    "corrPctRank": 3.682008368200837,
     "corrMin5y": 0.036257837878636255,
-    "corrMedian5y": 0.7042728323798291,
+    "corrMedian5y": 0.7042624712561381,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
     {
-      "headline": "How Trump's diplomatic week exposed the limits of his power - Reuters",
-      "summary": "How Trump's diplomatic week exposed the limits of his power Reuters",
+      "headline": "How Trump's diplomatic week exposed the limits of his power - reuters.com",
+      "summary": "How Trump's diplomatic week exposed the limits of his power reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWUNJQ25mYi11NFg0WjVHdEZaSjVqMHhQS0NIT2tfQjc5UF9EZUpGWUNWZW40VGlmZjlhRFVZTkRicnh3UTlERy1vcU9majF6em4wYlRVN1V5S0RaTnpmR0VDdDV5VzBqNHY5dWNuWEJtdkF3VWNfQlVLbDc4S19Zb1Y1MzYxN2kwNGhVRF9uVUF0RTZPaVoyX1NvRmRkeFVG?oc=5",
       "datetime": 1790376357,
-      "headlineKo": "트럼프의 외교 주간은 어떻게 그의 권력 한계를 드러냈는가 - 로이터",
-      "summaryKo": "트럼프의 외교 주간은 어떻게 그의 권력 한계를 드러냈는가 - 최신"
+      "headlineKo": "트럼프의 외교 주간, 그의 권력 한계가 어떻게 드러났는가 - reuters.com",
+      "summaryKo": "트럼프의 외교 주간은 어떻게 그의 권력 한계를 드러냈는가 reuters.com"
     },
     {
       "headline": "Here's exactly what Paramount promised Hollywood to land WBD — and why some are still skeptical",
@@ -255,40 +255,40 @@ const MARKET_DATA = {
       "summaryKo": "파라마운트 CEO 데이비드 엘리슨(David Ellison)의 독점금지 합의는 일부 연극적 우려를 완화시켰지만 5년 계약이 종료되면 어떤 일이 일어날지에 대한 의문이 남아 있습니다."
     },
     {
-      "headline": "Trump, Xi discuss Middle East war as Iran presses 7-day plan to end fighting - Reuters",
-      "summary": "Trump, Xi discuss Middle East war as Iran presses 7-day plan to end fighting Reuters",
+      "headline": "Trump, Xi discuss Middle East war as Iran presses 7-day plan to end fighting - reuters.com",
+      "summary": "Trump, Xi discuss Middle East war as Iran presses 7-day plan to end fighting reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSktoVFV5TmFoZFFlNGJOdHNQbl9ZNWVfOFVvRTN2UXpLMlBhSnZ6ZVZLdFNlRU5CR3RjaHYxWDJRclcyb1lrVzh1WG83MWtmcjRyVnpRdTZIcTdtY01WRlFaVXZ5aWFBSXgzdk9LdzZNdmlQWHJlUmJuci1TSFI1bWRtYXJwYWdEYjBVMHJlVnpYbndpR1lQbllKNkphM0t1SmhXaXNYQmVncDFVOHFJ?oc=5",
       "datetime": 1790374611,
-      "headlineKo": "트럼프-시, 이란이 7일간의 전쟁 종식 계획을 압박하자 중동 전쟁 논의 - 로이터",
-      "summaryKo": "트럼프-시, 이란이 7일간 전쟁 종료 계획 압박하자 중동 전쟁 논의 - 로이터"
+      "headlineKo": "이란이 7일간의 전쟁 종식 계획을 압박하자 트럼프-시, 중동 전쟁 논의 - reuters.com",
+      "summaryKo": "트럼프-시, 이란이 7일간의 전쟁 종료 계획을 압박하자 중동 전쟁 논의 reuters.com"
     },
     {
-      "headline": "Iran will make no nuclear concessions, Iranian official says - Reuters",
-      "summary": "Iran will make no nuclear concessions, Iranian official says Reuters",
+      "headline": "Iran will make no nuclear concessions, Iranian official says - reuters.com",
+      "summary": "Iran will make no nuclear concessions, Iranian official says reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORVpYNWQxeFFCcXEzQTZQdkM1LTJpVWc2RHpwOWtxbzV0OHg2aE12UGV1Y2VOQUN4WHdvOVB4YzBGT0ltckk5d0hDZGZUVXk3YWs0WnA5R2xjNmNBbkhHRzNra2pIQVlLa1pNQ29OV1QxQVdSTWJnaWZEYkVaaXJXa3d4cHVvV1o5VGlpWFRjUG9HVTFoMWw4TFZwNlI4aHJwQjU0UVRuZzJISFp0ZU9YQUw4VQ?oc=5",
       "datetime": 1790368785,
-      "headlineKo": "이란은 핵 양보를 하지 않을 것이라고 이란 관리가 밝혔습니다 - 로이터",
+      "headlineKo": "이란은 핵 양보를 하지 않을 것이라고 이란 관리가 밝혔습니다 - reuters.com",
       "summaryKo": "이란은 핵 양보를 하지 않을 것이라고 이란 관리가 밝혔습니다."
     },
     {
-      "headline": "Iran's Araqchi says now up to US to accept 7-day plan - Reuters",
-      "summary": "Iran's Araqchi says now up to US to accept 7-day plan Reuters",
+      "headline": "Iran's Araqchi says now up to US to accept 7-day plan - reuters.com",
+      "summary": "Iran's Araqchi says now up to US to accept 7-day plan reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUmpYaGtLNnJmeGdiOGNJZVNJQVJ0eVNmRzdLNHdQWF9hVkFfZ3FkSmtwamwxUmpkdWJJNmxldmtYckJzUGpFblZsYzVLV19PeFd2ZkFvSmgxUDJZQUF4MUdSQXU4SjFlWmM2WU42clJWNUlVNy1DVkRmY2k3MEJoQkQteWVKdVlBaFNiLWVla3FnTXdHSUdBZGN4eXhNUDJfN2c?oc=5",
       "datetime": 1790368569,
-      "headlineKo": "이란 아라크치 \"이제 미국이 7일 계획 수용할 것\"",
+      "headlineKo": "이란 아라크치 \"이제 미국이 7일 계획 수용할 것\" - reuters.com",
       "summaryKo": "이란 아라크치 \"이제 미국이 7일 계획 수용할 것\""
     },
     {
-      "headline": "EU warns of energy price crisis, asks countries to consider curbing demand, letter shows - Reuters",
-      "summary": "EU warns of energy price crisis, asks countries to consider curbing demand, letter shows Reuters",
+      "headline": "EU warns of energy price crisis, asks countries to consider curbing demand, letter shows - reuters.com",
+      "summary": "EU warns of energy price crisis, asks countries to consider curbing demand, letter shows reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNemtIR2FDbDVHcjRWdzNYQnpYZGdsSW5yZTIzRlFtTnhXMVoxUGc1RTNWNlNVTkdiZk05SHpsMmh1TXlvQmdOLWR3MHlGRHV0Qkg4SGFhd1p1SUhfQ3YzVWVNZmc5TTVXbEdzQ19yQXU2RnE0MFprTjlYZGluYWVtb0JuQ3NzWkdNTnhqQ3hKYk9oelprY1FxbU1LZmgzcFByWVh6M01JR3BVMm56REhOR3JST2hQQXBXRUlkSFhqT3dOZGxsSi1fTTlkcWw?oc=5",
       "datetime": 1790367386,
-      "headlineKo": "EU, 에너지 가격 위기 경고, 국가들에 수요 억제 고려 요청, 서신 공개 - Reuters",
-      "summaryKo": "EU는 에너지 가격 위기를 경고하고 국가들에게 수요 억제를 고려할 것을 요청했다고 서신은 밝혔습니다."
+      "headlineKo": "EU, 에너지 가격 위기 경고, 국가들에 수요 억제 고려 요청 - reuters.com",
+      "summaryKo": "EU는 에너지 가격 위기를 경고하고 국가들에 수요 억제를 고려할 것을 요청했다고 서한은 reuters.com에 표시됩니다."
     },
     {
       "headline": "What we want to see next week from one of Jim Cramer's 6 stocks to buy",
@@ -300,22 +300,13 @@ const MARKET_DATA = {
       "summaryKo": "Micron은 메모리 공급 제약이 지속됨에 따라 수익으로 향하는 모든 영향력을 갖고 있습니다. 하지만 이 유리한 사이클은 언제까지 지속될 것인가?"
     },
     {
-      "headline": "Oil prices slide about 2% as US, Iran explore path out of war - Reuters",
-      "summary": "Oil prices slide about 2% as US, Iran explore path out of war Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV3EzX3oydnQxRk5Ld1BKbk82ek14ZVdyLVpTdldjdEpqeDJfTVZ2Q0F1TnhvaWlhR1p0Z3hScDV0S2Z1UFR5OXhKSWk3NmtqTzd0SkJfa2RLRFpOOUlEcE5mR1d4Z21Td2FCQVZqNHV1eDloQkplT1NHaHhyTDlqOG5DYlFFdnRERThxNU0yX29LcTRyal9pMHQ4ZzNoU0VKZkdHN2hFYjhCZUpZZ3d2am11SDJYYVBiN0JxWVBtczNRYkh1?oc=5",
-      "datetime": 1790364532,
-      "headlineKo": "미국과 이란이 전쟁에서 벗어날 길을 모색함에 따라 유가는 약 2% 하락 - 로이터",
-      "summaryKo": "미국과 이란이 전쟁에서 벗어날 길을 모색하면서 유가는 약 2% 하락 - 로이터"
-    },
-    {
-      "headline": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says - Reuters",
-      "summary": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says Reuters",
+      "headline": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says - reuters.com",
+      "summary": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS3NaNENZd05ESDQwSFdrTGwyLUtGX3NzT1NiR0tzbWwtM282dHRxbkxLYTk2b1Rkd01xQldYM2ItTlNRV01wbnhDMWpZVkliRnBhMlFWYVg1VHh6bjRCVkQwVGFFamhhWWpJa0p5aHlVRkJpblI1UUZJeDN6VFg1Z1hhdGFBSklFN2ZyVjZ0b1IyNUpoMU5GN0tmTlZPMExVNFppU2ZSRGFwcW1QSElZaktmS3pXSElm?oc=5",
       "datetime": 1790362753,
-      "headlineKo": "트럼프, 시에 중국의 이란 지원 경고, 보증 받았다 - 로이터 통신",
-      "summaryKo": "트럼프, 시에 중국의 이란 지원 경고, 확신 받았다고 미 특사 로이터통신"
+      "headlineKo": "트럼프, 시진핑에 중국의 이란 지원 경고",
+      "summaryKo": "트럼프, 시진핑에 중국의 이란 지원 경고"
     },
     {
       "headline": "Microsoft gives Copilot a much-needed overhaul, and the stock deservedly soars",
@@ -327,13 +318,13 @@ const MARKET_DATA = {
       "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
     },
     {
-      "headline": "Hurt by Trump, Senate Republicans plan to bolster affordability credentials before midterms - Reuters",
-      "summary": "Hurt by Trump, Senate Republicans plan to bolster affordability credentials before midterms Reuters",
+      "headline": "Hurt by Trump, Senate Republicans plan to bolster affordability credentials before midterms - reuters.com",
+      "summary": "Hurt by Trump, Senate Republicans plan to bolster affordability credentials before midterms reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLVpEek9KREFnOGlnd1c3RldyaGpVZ3BJUjdWemtCekdlWG5Qem9jXzJpbFpSTHNNTUFIYWtJM1JwdEgyTUFJTWYtZnBQWTJGZHJUS0tQX080Y1ZtS2Z6VHZOX1NiY2h0ZU5iWW9ZMk1yR2QyNGRGYUxMNzdRbzZ1VkFKaDVfM3ZZXzFVLWxMdFNIWG0wS01WN0xJY3VNQUFxaTFLZFp0dkdCTlowcXFSWklJem5HOU1FeDhXSjFuZzRWREpJWWI0MlExdw?oc=5",
       "datetime": 1790359558,
-      "headlineKo": "트럼프에 상처받은 공화당 상원 의원들은 중간고사 이전에 경제성 자격을 강화할 계획이다 - 로이터 통신",
-      "summaryKo": "트럼프의 타격을 입은 상원 공화당은 중간 선거 전에 경제성 자격을 강화할 계획입니다."
+      "headlineKo": "트럼프에 상처받은 공화당 상원은 중간선사 전에 경제성 자격을 강화할 계획이다 - reuters.com",
+      "summaryKo": "트럼프에 상처받은 공화당 상원 의원들은 중간선거 전에 경제성 자격을 강화할 계획입니다 reuters.com"
     },
     {
       "headline": "The iced coffee debate reflects 'everything wrong with hiring right now,' says career expert",
@@ -343,18 +334,27 @@ const MARKET_DATA = {
       "datetime": 1790358649,
       "headlineKo": "아이스 커피 논쟁은 '지금 채용의 모든 잘못된 점'을 반영한다고 경력 전문가는 말합니다.",
       "summaryKo": "아이스 커피는 인터넷을 통해 진행되는 세대 간 채용 논쟁의 중심에 있습니다. 한 직업 전문가는 이것이 무너진 취업 시장을 반영한다고 말합니다."
+    },
+    {
+      "headline": "10-year Treasury yield hit a 19-year high—and some investors see opportunity to buy bonds",
+      "summary": "The 10-year Treasury yield hit its highest level since 2007. Here’s what higher yields can mean for bond investors and borrowers.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/25/treasury-yield-buy-bonds.html",
+      "datetime": 1790354409,
+      "headlineKo": "10년 만기 국채 수익률이 19년 만에 최고치를 기록했으며 일부 투자자들은 채권 매수 기회를 보고 있습니다.",
+      "summaryKo": "10년 만기 국채 수익률은 2007년 이후 최고치를 기록했습니다. 채권 투자자와 대출자에게 더 높은 수익률이 의미하는 바는 다음과 같습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790385194.7327943,
+  "_news_last_success_at": 1790388898.1457062,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790385184.391794,
-  "_updated_label": "2026-09-26 10:13",
-  "_last_attempt_at": 1790385184.391794,
-  "_last_success_at": 1790385184.391794,
+  "_fetched_at": 1790388876.5529473,
+  "_updated_label": "2026-09-26 11:15",
+  "_last_attempt_at": 1790388876.5529473,
+  "_last_success_at": 1790388876.5529473,
   "_collection_status": "ok",
   "_collection_errors": []
 };
