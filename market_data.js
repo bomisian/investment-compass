@@ -237,6 +237,24 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "The blue-collar AI job market is booming. Will data center backlash make it go bust?",
+      "summary": "The public has soured on AI data centers and states are slowing development, but for HVAC, plumbing, welding, and electrical workers, it's been a jobs boom.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/26/blue-collar-jobs-ai-data-center-backlash.html",
+      "datetime": 1790430222,
+      "headlineKo": "블루칼라 AI 채용시장이 호황을 누리고 있다. 데이터 센터 반발로 인해 파산하게 될까요?",
+      "summaryKo": "대중은 AI 데이터 센터에 불만을 품고 있으며 주에서는 개발 속도를 늦추고 있지만 HVAC, 배관, 용접 및 전기 작업자에게는 일자리 붐이 일어났습니다."
+    },
+    {
+      "headline": "Iran awaits US move after WSJ report says Trump rejects peace plan - Reuters",
+      "summary": "Iran awaits US move after WSJ report says Trump rejects peace plan Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
+      "datetime": 1790428665,
+      "headlineKo": "트럼프가 평화 계획을 거부했다는 WSJ 보도 이후 이란은 미국의 조치를 기다리고 있다 - 로이터",
+      "summaryKo": "트럼프가 평화 계획을 거부했다고 WSJ 보고서가 보도한 후 이란은 미국의 조치를 기다리고 있습니다."
+    },
+    {
       "headline": "27-year-old started a run club to meet new people—now his NYC side hustle brings in $640K a year",
       "summary": "When Owen Akhibi Herrera started his New York City-based run club in 2024, he craved community — and entrepreneurial opportunity.",
       "source": "CNBC",
@@ -244,15 +262,6 @@ const MARKET_DATA = {
       "datetime": 1790427901,
       "headlineKo": "27세의 그는 새로운 사람들을 만나기 위해 달리기 클럽을 시작했습니다. 이제 그의 뉴욕시 부업으로 연간 64만 달러를 벌어들입니다.",
       "summaryKo": "Owen Akhibi Herrera는 2024년 뉴욕에 기반을 둔 운영 클럽을 시작했을 때 커뮤니티와 기업가적 기회를 갈망했습니다."
-    },
-    {
-      "headline": "Iran awaits US move after WSJ report says Trump rejects peace plan - Reuters",
-      "summary": "Iran awaits US move after WSJ report says Trump rejects peace plan Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
-      "datetime": 1790407635,
-      "headlineKo": "트럼프가 평화 계획을 거부했다는 WSJ 보도 이후 이란은 미국의 조치를 기다리고 있다 - 로이터",
-      "summaryKo": "트럼프가 평화 계획을 거부했다고 WSJ 보고서가 보도한 후 이란은 미국의 조치를 기다리고 있습니다."
     },
     {
       "headline": "Six big takeaways from a turbulent week of UN diplomacy - Reuters",
@@ -291,15 +300,6 @@ const MARKET_DATA = {
       "summaryKo": "파라마운트 CEO 데이비드 엘리슨(David Ellison)의 독점금지 합의는 일부 연극적 우려를 완화시켰지만 5년 계약이 종료되면 어떤 일이 일어날지에 대한 의문이 남아 있습니다."
     },
     {
-      "headline": "Iran will make no nuclear concessions, Iranian official says - Reuters",
-      "summary": "Iran will make no nuclear concessions, Iranian official says Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORVpYNWQxeFFCcXEzQTZQdkM1LTJpVWc2RHpwOWtxbzV0OHg2aE12UGV1Y2VOQUN4WHdvOVB4YzBGT0ltckk5d0hDZGZUVXk3YWs0WnA5R2xjNmNBbkhHRzNra2pIQVlLa1pNQ29OV1QxQVdSTWJnaWZEYkVaaXJXa3d4cHVvV1o5VGlpWFRjUG9HVTFoMWw4TFZwNlI4aHJwQjU0UVRuZzJISFp0ZU9YQUw4VQ?oc=5",
-      "datetime": 1790368785,
-      "headlineKo": "이란은 핵 양보를 하지 않을 것이라고 이란 관리가 밝혔습니다 - 로이터",
-      "summaryKo": "이란은 핵 양보를 하지 않을 것이라고 이란 관리가 밝혔습니다."
-    },
-    {
       "headline": "Iran's Araqchi says now up to US to accept 7-day plan - Reuters",
       "summary": "Iran's Araqchi says now up to US to accept 7-day plan Reuters",
       "source": "Reuters",
@@ -327,34 +327,34 @@ const MARKET_DATA = {
       "summaryKo": "Micron은 메모리 공급 제약이 지속됨에 따라 수익으로 향하는 모든 영향력을 갖고 있습니다. 하지만 이 유리한 사이클은 언제까지 지속될 것인가?"
     },
     {
-      "headline": "Oil prices slide about 2% as US, Iran explore path out of war - Reuters",
-      "summary": "Oil prices slide about 2% as US, Iran explore path out of war Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV3EzX3oydnQxRk5Ld1BKbk82ek14ZVdyLVpTdldjdEpqeDJfTVZ2Q0F1TnhvaWlhR1p0Z3hScDV0S2Z1UFR5OXhKSWk3NmtqTzd0SkJfa2RLRFpOOUlEcE5mR1d4Z21Td2FCQVZqNHV1eDloQkplT1NHaHhyTDlqOG5DYlFFdnRERThxNU0yX29LcTRyal9pMHQ4ZzNoU0VKZkdHN2hFYjhCZUpZZ3d2am11SDJYYVBiN0JxWVBtczNRYkh1?oc=5",
-      "datetime": 1790364532,
-      "headlineKo": "미국과 이란이 전쟁에서 벗어날 길을 모색함에 따라 유가는 약 2% 하락 - 로이터",
-      "summaryKo": "미국과 이란이 전쟁에서 벗어날 길을 모색하면서 유가는 약 2% 하락 - 로이터"
+      "headline": "Microsoft gives Copilot a much-needed overhaul, and the stock deservedly soars",
+      "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/25/microsoft-gives-copilot-a-much-needed-overhaul-and-the-stock-deservedly-soars.html",
+      "datetime": 1790361518,
+      "headlineKo": "Microsoft는 Copilot에 절실히 필요한 점검을 제공하고 주가는 당연히 치솟습니다.",
+      "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
     },
     {
-      "headline": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says - Reuters",
-      "summary": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says Reuters",
+      "headline": "Hurt by Trump, Senate Republicans plan to bolster affordability credentials before midterms - Reuters",
+      "summary": "Hurt by Trump, Senate Republicans plan to bolster affordability credentials before midterms Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS3NaNENZd05ESDQwSFdrTGwyLUtGX3NzT1NiR0tzbWwtM282dHRxbkxLYTk2b1Rkd01xQldYM2ItTlNRV01wbnhDMWpZVkliRnBhMlFWYVg1VHh6bjRCVkQwVGFFamhhWWpJa0p5aHlVRkJpblI1UUZJeDN6VFg1Z1hhdGFBSklFN2ZyVjZ0b1IyNUpoMU5GN0tmTlZPMExVNFppU2ZSRGFwcW1QSElZaktmS3pXSElm?oc=5",
-      "datetime": 1790362753,
-      "headlineKo": "트럼프, 시에 중국의 이란 지원 경고, 보증 받았다 - 로이터 통신",
-      "summaryKo": "트럼프, 시에 중국의 이란 지원 경고, 확신 받았다고 미 특사 로이터통신"
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLVpEek9KREFnOGlnd1c3RldyaGpVZ3BJUjdWemtCekdlWG5Qem9jXzJpbFpSTHNNTUFIYWtJM1JwdEgyTUFJTWYtZnBQWTJGZHJUS0tQX080Y1ZtS2Z6VHZOX1NiY2h0ZU5iWW9ZMk1yR2QyNGRGYUxMNzdRbzZ1VkFKaDVfM3ZZXzFVLWxMdFNIWG0wS01WN0xJY3VNQUFxaTFLZFp0dkdCTlowcXFSWklJem5HOU1FeDhXSjFuZzRWREpJWWI0MlExdw?oc=5",
+      "datetime": 1790359558,
+      "headlineKo": "트럼프에 상처받은 공화당 상원 의원들은 중간고사 이전에 경제성 자격을 강화할 계획이다 - 로이터 통신",
+      "summaryKo": "트럼프의 타격을 입은 상원 공화당은 중간 선거 전에 경제성 자격을 강화할 계획입니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790429764.50651,
+  "_news_last_success_at": 1790433375.3917212,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790429756.2580812,
-  "_updated_label": "2026-09-26 22:36",
-  "_last_attempt_at": 1790429756.2580812,
-  "_last_success_at": 1790429756.2580812,
+  "_fetched_at": 1790433364.903094,
+  "_updated_label": "2026-09-26 23:36",
+  "_last_attempt_at": 1790433364.903094,
+  "_last_success_at": 1790433364.903094,
   "_collection_status": "ok",
   "_collection_errors": []
 };
