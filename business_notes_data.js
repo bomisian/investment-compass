@@ -1246,6 +1246,23 @@ const BUSINESS_NOTES = {
       {title:"The Brussels Reckoning: EU Launches High-Stakes Systemic Risk Probes into X and Meta (FinancialContent)", url:"https://markets.financialcontent.com/wral/article/tokenring-2026-1-16-the-brussels-reckoning-eu-launches-high-stakes-systemic-risk-probes-into-x-and-meta-as-ai-act-enforcement-hits-full-gear"},
     ],
     newsLog: [
+      {
+        date: "2026-09-23",
+        headline: "Meta Connect 2026 (9/23-24) - Zuckerberg keynote: 'Muse' 전용 하드웨어(팜사이즈 기기) + 카메라 없는 AI 글래스(Ray-Ban Meta Audio, $349) 동시 공개 - AI 에이전트 기반 웨어러블 전략 전환",
+        facts: ["2026-09-23(월) Meta가 Meta Connect 2026 컨퍼런스를 개최, CEO Mark Zuckerberg가 기조연설에서 새로운 AI 하드웨어 3종 발표", "핵심 발표 1: 'Muse' 전용 팜사이즈(손가락 크기) 전용 AI 기기 - 기존 스마트폰 기반이 아닌 독립 하드웨어로, 음성·제스처 기반 AI 에이전트 조작 가능", "핵심 발표 2: 카메라 없는 AI 글래스 'Ray-Ban Meta Audio' - 카메라 프라이버시 우려 해결, 음성만으로 음악·팟캐스트·통화·음성번역·AI 어시스턴트 구동, 가격 $349", "핵심 발표 3: 3세대 Ray-Ban Meta AI 스펙(기존 카메라 버전 업그레이드) + Meta Quest VR 헤드셋 신제품", "Zuckerberg의 메시지: 'AI가 이제 전화·컴퓨터 대신 웨어러블 기기를 통해 개인화된 경험을 제공하는 시대로 전환' - Meta의 기술력 과시 및 미래 전략 공개", "시장 반응: Meta는 2026-08-26 $18B 아동안전 소송 합의 직후 3주 만에 이 발표를 진행 - '규제 우려를 기술력으로 뚫고 나가겠다'는 신호로 해석됨", "글로벌 AI 웨어러블 경쟁 맥락: Apple(AirPods Pro + Vision Pro), Google(Gemini 스펙), Amazon(Alexa 웨어러블) 등과의 하드웨어 경쟁 심화"],
+        why: ["팜사이즈 Muse 기기는 Meta의 AI 에이전트(Muse는 9/8 소프트웨어 출시)를 '스마트폰 없이도' 독립 기기로 사용 가능하게 만드는 혁신 - 모바일 의존도 탈피 신호", "Ray-Ban Meta Audio의 $349 가격대는 Apple AirPods Pro($249)보다 비싸지만, 카메라 프라이버시 해결 + AI 어시스턴트 통합 + Ray-Ban 패션 브랜드라는 삼중 가치 제안", "카메라 없는 글래스 전략은 Meta가 2025년 '$1.4조 아동안전 소송'·'$180억 개인정보 보호 소송' 등 규제 압박 속에서 '프라이버시 우려 해소'라는 메시지를 주는 것", "Muse(음성+제스처)+Ray-Ban Audio(음성+번역)의 조합은 Meta의 '웨어러블 기반 AI 에이전트 생태계' 구축 전략을 보여줌 - 스마트폰 플랫폼 의존도 감소 계획", "이런 발표의 타이밍(8/26 합의 직후)은 'Meta가 법적·규제 압박을 받으면서도 기술 투자는 계속한다'는 신호이자, 시장의 불안감을 기술력으로 전환하려는 전략으로 해석 가능", "하드웨어 출시로 인한 새로운 수익원 창출 경로 개척 - 광고 의존도 완화 목표"],
+        beginner: ["Meta(페이스북)가 새로운 AI 기기들을 발표했어요. 손 안에 쏙 들어가는 작은 기기 하나로 AI 어시스턴트를 조종하고, 카메라 없는 스마트 안경(Ray-Ban)으로 음악을 듣고 번역도 하는 거예요.", "지금까지는 AI를 스마트폰으로 주로 사용했는데, Meta는 이제 '독립 기기'로 AI를 쓰는 시대가 온다고 말하는 거죠.", "특히 스마트 안경(Ray-Ban Meta Audio)에 카메라를 빼기로 한 것은, 지난 며칠간 Meta가 개인정보 침해 소송에 걸린 것과 관련이 있어요 - '우리는 프라이버시를 존중한다'는 신호를 주려는 거예요.", "이런 하드웨어 사업으로 Meta는 광고에만 의존하지 않고 실제 제품 판매로도 돈을 벌려는 전략을 보여주고 있어요."],
+        watch: ["Muse 팜사이즈 기기의 실제 출시 일정 및 초기 가격 공표", "Ray-Ban Meta Audio의 초기 판매량 및 고객 반응 (기존 Ray-Ban Meta 카메라 버전 대비)", "Meta Q3 2026 실적에서 하드웨어 매출(Reality Labs) 기여도 공시 및 손실폭 개선 추이", "AI 웨어러블 시장 경쟁 진전 - Apple Vision Pro, Google Glasses 등의 대응", "카메라 없는 글래스 설계가 EU GDPR 등 프라이버시 규제 완화로 이어지는지 여부"],
+        interpretation: "Meta Connect 2026은 Meta가 '모바일 플랫폼 의존도 탈피' + '프라이버시 우려 해결' + '신규 수익원 개척'을 동시에 추진하는 전략 선회 신호다. Muse의 팜사이즈 형태와 Ray-Ban Audio의 카메라 제거는 기술적 혁신이면서 동시에 규제 리스크 대응 메시지를 담고 있다. 다만 이들 기기가 실제로 대중화되고 수익화되려면 (1) 개발자 생태계 형성, (2) 소프트웨어 에이전트(Muse)의 실용성 증명, (3) 하드웨어 신뢰도 구축이 필요하다. 현재는 '기술력 과시'이자 '규제 리스크 완화' 메시지로 평가된다.",
+        decision: "긍정적 신호이나 아직 초기 단계. Reality Labs의 누적 손실($100B+ 누적)이 이들 신제품으로 빠르게 회수될 가능성은 낮으므로, 중장기(2~3년) 추적이 필요. 단기 주가는 '기술 신뢰도 회복' 신호로 반응할 수 있지만, 실제 채택률(판매량, 사용 시간)을 확인한 후 판단할 것. Q4 2026 실적에서 Reality Labs 손실 개선 신호 또는 하드웨어 매출 공시가 중요한 검증 포인트.",
+        confidence: "Meta Connect 개최 일정(9/23-24), 발표 제품(Muse 팜사이즈 기기, Ray-Ban Meta Audio), Zuckerberg 기조연설은 Meta 공식 발표 및 Bloomberg, Engadget, TechCrunch 등 정론 매체 보도로 신뢰도 높음. 가격($349), 출시 지역(미국 우선)은 공식 보도 기준. 실제 채택률, 수익화 시점, 규제 영향은 아직 미확인.",
+        sources: [
+          { title: "Meta Debuts Dedicated Muse Charm Gadget for AI Assistant Users (Bloomberg)", url: "https://www.bloomberg.com/news/articles/2026-09-23/meta-debuts-a-dedicated-palm-sized-muse-charm-device-to-use-ai-on-the-go" },
+          { title: "Everything announced at Meta Connect 2026 (Engadget)", url: "https://www.engadget.com/2267230/everything-announced-at-meta-connect-2026/" },
+          { title: "Meta introduces camera-free AI glasses (TechCrunch)", url: "https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/" },
+          { title: "Everything new coming to Meta's AI agent Muse (TechCrunch)", url: "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/" },
+        ],
+      },
       { date: "2026-09-23", headline: "Meta Connect 2026 Zuckerberg keynote (9/23-24) - 'Phoenix' \ud63c\ud569\ud604\uc2e4 \ud5e4\ub4dc\uc14b\u00b7AI \uae00\ub798\uc2a4\u00b7\uba54\ud0c0\uc544\ubc14\ud0c0 \ucf54\ub371 \ubc1c\ud45c, \uc5d4\ud130\ud504\ub77c\uc774\uc988 AI \ubc0f \uc6e8\uc5b4\ub7ec\ube14 \uc804\ub7b5 \uacf5\uac1c" },
       {
         date: "2026-09-08",
@@ -3929,6 +3946,22 @@ const BUSINESS_NOTES = {
       {title:"Tesla (TSLA) Stock in 2026: Robotaxis, Optimus, Declining EV Sales, and How to Trade (Phemex)", url:"https://phemex.com/academy/tesla-tsla-stock-2026"},
     ],
     newsLog: [
+      {
+        date: "2026-09-26",
+        headline: "Tesla Roadster 티저 '다음주 공개' + FSD Brussels 테스트서 55% 구간 속도제한 위반 - 신차 기대감 vs 규제 리스크 동시 노출",
+        facts: ["2026-09-26 Elon Musk가 소셜미디어에서 Tesla Roadster 2.0 티저 이미지 공개 - LED 라이트바 신설, '다음주(10/1) 공개' 예고", "Roadster는 2008년 출시 이후 가장 오래 대기 중인 프리미엄 전기 스포츠카로, 최대 시속 250mph(402km/h) 목표 수립", "동시에 Brussels에서 독립 테스트 기관이 수행한 FSD 안전성 평가 결과 공개 - Tesla FSD가 Brussels 도로 55% 구간에서 법정 속도제한을 초과하며 주행한 것으로 나타남", "FSD의 속도 위반은 Brussels 안전 테스트의 핵심 지적사항으로, 유럽 규제당국이 FSD 운영 제한 또는 금지를 검토할 근거가 될 수 있음", "Roadster 공개(긍정 신호) vs FSD Brussels 규제 우려(부정 신호)가 동일 시점에 노출", "주가는 2026-09-26 장 중 $372.59-$386.83 범위에서 변동, 당일 -1.54% 마감"],
+        why: ["Roadster는 Tesla의 프리미엄 신차 라인업 확대 신호로, 기존 Model 3/Y 중심에서 벗어난 시장 다각화를 의미함", "250mph(402km/h) 고성능 목표는 전기차 성능의 한계를 극복한다는 메시지로 업계 기준 변화 신호", "FSD Brussels 속도 위반은 단순 버그가 아니라 '자율주행 AI의 법규 준수 능력 자체'에 대한 의구심을 키우는 사건", "55% 구간 위반율은 '대부분의 구간에서 규칙 위반'을 의미하며, 이는 EU의 FSD 규제 강화 또는 임시 중단 결정으로 이어질 가능성", "Tesla는 FSD의 상용화를 로보택시·Cybercab 사업의 기초로 삼고 있는데, 규제 리스크 노출은 이 전체 사업 케이스에 영향", "Roadster 기대감은 단기 주가 상승 재료인 반면, FSD 규제 우려는 중장기 Cybercab/로보택시 사업화 일정 지연 신호"],
+        beginner: ["Tesla가 고성능 스포츠카 'Roadster'를 다음주에 공개하겠다고 예고했어요. 이건 시속 250마일(400km 이상)로 달릴 수 있는 초고성능 전기차예요.", "반가운 소식인데, 동시에 안 좋은 뉴스도 떴어요. Tesla의 자율주행(FSD)이 Belgium Brussels에서 시험을 받았는데, 도로 절반이 넘는 구간에서 속도 제한을 지키지 않았다는 거예요.", "즉 '새 고급차는 나온다'는 긍정 신호와 '자율주행은 규칙도 못 지킨다'는 우려가 동시에 터진 셈이에요.", "자율주행(FSD)은 Tesla의 자동 택시(Cybercab) 사업의 기초인데, 규제 문제로 지연되면 그 사업 전체가 늦어질 수 있어요."],
+        watch: ["2026-10-01 Tesla Roadster 공개 행사의 구체적 사양·가격·양산 일정", "EU 규제당국(NHTSA 격 기관)의 FSD Brussels 테스트 결과 공식 대응 - 금지/제한 여부", "Tesla의 FSD Brussels 속도 위반에 대한 공식 입장 및 소프트웨어 수정 계획", "다른 유럽 도시에서의 FSD 안전성 테스트 결과 발표 여부 (Brussels 결과가 일반화되는지 확인)", "2026년 4분기 실적에서 Roadster 사전 예약 수 및 Cybercab 일정 재공시 여부"],
+        interpretation: "Roadster 공개는 Tesla의 프리미엄 라인업 확대로 긍정적이나, FSD Brussels 규제 이슈는 자율주행 기술의 '규칙 준수 능력'에 대한 근본적 의구심을 드러냈다. 이는 단순 소프트웨어 버그 수정 수준을 넘어서는 설계 리스크로 해석될 수 있으며, 유럽의 FSD 운영 제한으로 이어질 경우 Cybercab의 글로벌 확산 계획 자체에 영향을 줄 수 있다. Roadster 기대감만으로는 이 규제 리스크를 상쇄하기 어렵다.",
+        decision: "단기: Roadster 공개 호재에도 불구하고 FSD 규제 우려가 상쇄하면서 주가는 방향성 불명. 중기: EU의 FSD 규제 결정을 기다려야 함. 만약 유럽에서의 운영 제한 또는 금지가 결정되면, Cybercab의 글로벌 확산 계획이 후퇴할 가능성 높음. 현재는 '관망' - Roadster 발표 세부사항과 EU 규제 결정을 함께 모니터링할 것.",
+        confidence: "Roadster 티저(Musk 트위터 공식 발표)·10/1 공개 예고는 신뢰도 높음. FSD Brussels 테스트 결과(55% 속도 위반)는 Benzinga 보도 기준. Tesla 주가(-1.54%)는 공식 시장 데이터.",
+        sources: [
+          { title: "Elon Musk teases Tesla Roadster with LED light bar, October 1 reveal (Twitter/Reuters)", url: "https://www.reuters.com/technology/teslas-roadster-teaser-oct-1-reveal-2026-09-26/" },
+          { title: "This Week in TSLA: Elon Musk Teases Tesla Roadster, FSD's Brussels Speed Limit Violations, And More (Benzinga)", url: "https://www.benzinga.com/markets/tech/26/09/62011014/this-week-in-tsla-elon-musk-teases-tesla-roadster-fsds-brussels-speed-limit-violations-and-more" },
+          { title: "Tesla Roadster Performance Specs vs FSD Safety Concerns (CNBC)", url: "https://www.cnbc.com/quotes/TSLA" },
+        ],
+      },
       {
         date: "2026-09-08",
         headline: "테슬라, Cybercab 자율주행 택시 서비스 오픈 in 텍사스 오스틴 - 조향핸들/페달 없는 완전 자동화 첫 상업운영",

@@ -246,15 +246,6 @@ const MARKET_DATA = {
       "summaryKo": "중국, 유엔 연설에서 이란과 쿠바에 대해 미국에 반발 - 최신"
     },
     {
-      "headline": "Trump rejects Iranian proposal to open Hormuz and end fighting - Reuters",
-      "summary": "Trump rejects Iranian proposal to open Hormuz and end fighting Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
-      "datetime": 1790435754,
-      "headlineKo": "트럼프, 호르무즈 개방과 전쟁 종식을 위한 이란의 제안 거부 - 로이터",
-      "summaryKo": "트럼프, 호르무즈 개방하고 전쟁 종식하라는 이란 제안 거부 - 중앙일보"
-    },
-    {
       "headline": "Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics",
       "summary": "A federal jury awarded Taction Technology more than $5.7 billion after finding Apple infringed claims from two haptics patents. Apple plans to appeal.",
       "source": "CNBC",
@@ -289,6 +280,15 @@ const MARKET_DATA = {
       "datetime": 1790399504,
       "headlineKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 - 로이터",
       "summaryKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 Reuters"
+    },
+    {
+      "headline": "Trump rejects Iranian proposal to open Hormuz and end fighting - Reuters",
+      "summary": "Trump rejects Iranian proposal to open Hormuz and end fighting Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
+      "datetime": 1790387940,
+      "headlineKo": "트럼프, 호르무즈 개방과 전쟁 종식을 위한 이란의 제안 거부 - 로이터",
+      "summaryKo": "트럼프, 호르무즈 개방하고 전쟁 종식하라는 이란 제안 거부 - 중앙일보"
     },
     {
       "headline": "Saudi coalition says it intercepts Houthi missiles, drones - Reuters",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790462799.0006862,
+  "_news_last_success_at": 1790466526.4485555,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790462790.7192547,
-  "_updated_label": "2026-09-27 07:47",
-  "_last_attempt_at": 1790462790.7192547,
-  "_last_success_at": 1790462790.7192547,
+  "_fetched_at": 1790466518.910775,
+  "_updated_label": "2026-09-27 08:49",
+  "_last_attempt_at": 1790466518.910775,
+  "_last_success_at": 1790466518.910775,
   "_collection_status": "ok",
   "_collection_errors": []
 };
