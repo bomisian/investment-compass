@@ -1808,8 +1808,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1790335585.604084,
-    "_updated_label": "2026-09-25"
+    "_fetched_at": 1790407910.2063046,
+    "_updated_label": "2026-09-26"
   },
   "KLAC": {
     "transactions": [
