@@ -286,18 +286,9 @@ const MARKET_DATA = {
       "summary": "Six big takeaways from a turbulent week of UN diplomacy Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOFZoZDdKM2NZd3RrRFBLRGQ3VWoteUxkRFFtemw1RGVqbXdBWEdDR3FNazZ6MERQMWdCMThtVnJ5dnpmYjU0WWgzZW03OU5vWVZKLXRmS0s2c3BKV2lKbTlGLTJDRThYRW96eGJNVEhDZ3VEVVhPNGxpSkszTFc5WXNNQWh4dVRYWEJIZkhPTGN3ZDJXeW5FV2dYT3M?oc=5",
-      "datetime": 1790399340,
+      "datetime": 1790399504,
       "headlineKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 - 로이터",
       "summaryKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 Reuters"
-    },
-    {
-      "headline": "Britain warns Iran it will not tolerate hostile activity on UK soil - Reuters",
-      "summary": "Britain warns Iran it will not tolerate hostile activity on UK soil Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZmt3OWdYdUxlUXlJa0h6T0lndm5xUDBvRjg0M0plMzcxOThXT2lIaUNSY1NnczJYOEpwa3dYcGZWT2NGc0R3VGNHeVRJb0N5dS16V2FHamQyWkFuRkpSdXNIQk5CUk13dGU3NW1UNF9IdzFHSlFuOHpJRS1KZk1Hal9XNDFHbTlybmwxaUZsZmlINjRGZ29PekZNNFBpMHBabkxMelNBb1NPWk04Y3FYcU83QVR1T0xKTTJXeURIT1pwdDdJYUE?oc=5",
-      "datetime": 1790394347,
-      "headlineKo": "영국, 이란에 영국 영토에서의 적대적 활동을 용납하지 않을 것이라고 경고 - 로이터",
-      "summaryKo": "영국, 이란에 영국 땅에서의 적대적 활동을 용납하지 않을 것이라고 경고 - 최신"
     },
     {
       "headline": "Saudi coalition says it intercepts Houthi missiles, drones - Reuters",
@@ -343,18 +334,27 @@ const MARKET_DATA = {
       "datetime": 1790367386,
       "headlineKo": "EU, 에너지 가격 위기 경고, 국가들에 수요 억제 고려 요청, 서신 공개 - Reuters",
       "summaryKo": "EU는 에너지 가격 위기를 경고하고 국가들에게 수요 억제를 고려할 것을 요청했다고 서신은 밝혔습니다."
+    },
+    {
+      "headline": "What we want to see next week from one of Jim Cramer's 6 stocks to buy",
+      "summary": "Micron has all the leverage heading into earnings as memory supply constraints persist. But how long will this favorable cycle last?",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/25/what-we-want-to-see-next-week-from-one-of-jim-cramers-6-stocks-to-buy.html",
+      "datetime": 1790365244,
+      "headlineKo": "Jim Cramer의 매수 주식 6개 중 다음 주에 보고 싶은 것",
+      "summaryKo": "Micron은 메모리 공급 제약이 지속됨에 따라 수익으로 향하는 모든 영향력을 갖고 있습니다. 하지만 이 유리한 사이클은 언제까지 지속될 것인가?"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790459080.8648345,
+  "_news_last_success_at": 1790462799.0006862,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790459072.5308452,
-  "_updated_label": "2026-09-27 06:45",
-  "_last_attempt_at": 1790459072.5308452,
-  "_last_success_at": 1790459072.5308452,
+  "_fetched_at": 1790462790.7192547,
+  "_updated_label": "2026-09-27 07:47",
+  "_last_attempt_at": 1790462790.7192547,
+  "_last_success_at": 1790462790.7192547,
   "_collection_status": "ok",
   "_collection_errors": []
 };
