@@ -241,7 +241,7 @@ const MARKET_DATA = {
       "summary": "China pushes back against US on Iran and Cuba in UN speech Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNmFyYk05dGVubEpsSTJ2dGwxcWtFNEx0ZDNybVVaMndCOUpzOTV5SHNjdmw0eHFCQzlsSHZONU91bHVjeU9lQ1RjSTJSM0pZRDhzUUNENHl1b1daMUxkajZ2QklCNTY5bXUxV0dEczRhZTJmU0VKWHhUeWN0OG5OYWRXdWRYUHJOaFJWbjlySGpEdUQtaDdDWThfTWk?oc=5",
-      "datetime": 1790435989,
+      "datetime": 1790441455,
       "headlineKo": "중국, 유엔 연설에서 이란과 쿠바 문제에 대해 미국에 반발 - 로이터",
       "summaryKo": "중국, 유엔 연설에서 이란과 쿠바에 대해 미국에 반발 - 최신"
     },
@@ -264,13 +264,13 @@ const MARKET_DATA = {
       "summaryKo": "대중은 AI 데이터 센터에 불만을 품고 있으며 주에서는 개발 속도를 늦추고 있지만 HVAC, 배관, 용접 및 전기 작업자에게는 일자리 붐이 일어났습니다."
     },
     {
-      "headline": "Iran awaits US move after WSJ report says Trump rejects peace plan - Reuters",
-      "summary": "Iran awaits US move after WSJ report says Trump rejects peace plan Reuters",
+      "headline": "Saudi coalition says it intercepts Houthi missiles, drones - Reuters",
+      "summary": "Saudi coalition says it intercepts Houthi missiles, drones Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
-      "datetime": 1790428665,
-      "headlineKo": "트럼프가 평화 계획을 거부했다는 WSJ 보도 이후 이란은 미국의 조치를 기다리고 있다 - 로이터",
-      "summaryKo": "트럼프가 평화 계획을 거부했다고 WSJ 보고서가 보도한 후 이란은 미국의 조치를 기다리고 있습니다."
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdndqUFdtd2J6b19yZlhhZjlOZXVBYkNvYjVtTjQzYUxlRTVldkZHbjdQdDQtMGI0ZFEwSEY2MTc1OHNTcWJHUXJCbFJjSlpFb0o3blUxMTRBQWZncEVZaEZiMEdJbU9ZOGZIbUFxQzB3SGduZFZ2ZGFDYWNoZEtqVTd0QXRVZUc2UHRXMnpjUi1XM0d0a3dXcDg3ZFRqd2xsWHdzVXlhOXhMMDlQeHlpcEFXWjNncEZWbnBxZ0NaLXI?oc=5",
+      "datetime": 1790428842,
+      "headlineKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - 로이터 통신",
+      "summaryKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - 최신"
     },
     {
       "headline": "27-year-old started a run club to meet new people—now his NYC side hustle brings in $640K a year",
@@ -286,7 +286,7 @@ const MARKET_DATA = {
       "summary": "Six big takeaways from a turbulent week of UN diplomacy Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOFZoZDdKM2NZd3RrRFBLRGQ3VWoteUxkRFFtemw1RGVqbXdBWEdDR3FNazZ6MERQMWdCMThtVnJ5dnpmYjU0WWgzZW03OU5vWVZKLXRmS0s2c3BKV2lKbTlGLTJDRThYRW96eGJNVEhDZ3VEVVhPNGxpSkszTFc5WXNNQWh4dVRYWEJIZkhPTGN3ZDJXeW5FV2dYT3M?oc=5",
-      "datetime": 1790399340,
+      "datetime": 1790399504,
       "headlineKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 - 로이터",
       "summaryKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 Reuters"
     },
@@ -300,13 +300,13 @@ const MARKET_DATA = {
       "summaryKo": "영국, 이란에 영국 땅에서의 적대적 활동을 용납하지 않을 것이라고 경고 - 최신"
     },
     {
-      "headline": "Saudi coalition says it intercepts Houthi missiles, drones - Reuters",
-      "summary": "Saudi coalition says it intercepts Houthi missiles, drones Reuters",
+      "headline": "Trump rejects Iranian proposal to open Hormuz and end fighting - Reuters",
+      "summary": "Trump rejects Iranian proposal to open Hormuz and end fighting Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdndqUFdtd2J6b19yZlhhZjlOZXVBYkNvYjVtTjQzYUxlRTVldkZHbjdQdDQtMGI0ZFEwSEY2MTc1OHNTcWJHUXJCbFJjSlpFb0o3blUxMTRBQWZncEVZaEZiMEdJbU9ZOGZIbUFxQzB3SGduZFZ2ZGFDYWNoZEtqVTd0QXRVZUc2UHRXMnpjUi1XM0d0a3dXcDg3ZFRqd2xsWHdzVXlhOXhMMDlQeHlpcEFXWjNncEZWbnBxZ0NaLXI?oc=5",
-      "datetime": 1790385900,
-      "headlineKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - 로이터 통신",
-      "summaryKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - 최신"
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
+      "datetime": 1790387940,
+      "headlineKo": "트럼프, 호르무즈 개방과 전쟁 종식을 위한 이란의 제안 거부 - 로이터",
+      "summaryKo": "트럼프, 호르무즈 개방하고 전쟁 종식하라는 이란 제안 거부 - 중앙일보"
     },
     {
       "headline": "Here's exactly what Paramount promised Hollywood to land WBD — and why some are still skeptical",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790440788.9187863,
+  "_news_last_success_at": 1790444426.780818,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790440780.8531954,
-  "_updated_label": "2026-09-27 01:40",
-  "_last_attempt_at": 1790440780.8531954,
-  "_last_success_at": 1790440780.8531954,
+  "_fetched_at": 1790444415.808704,
+  "_updated_label": "2026-09-27 02:40",
+  "_last_attempt_at": 1790444415.808704,
+  "_last_success_at": 1790444415.808704,
   "_collection_status": "ok",
   "_collection_errors": []
 };
