@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1790376068.3660204,
+    "_last_attempt_at": 1790398132.1954784,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -16,22 +16,24 @@ const NEWS_DATA = {
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "The Nasdaq's All-Time High Should Scare You",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "나스닥 사상 최고치는 여러분을 놀라게 할 것입니다(NASDAQ:QQQM) | 알파 추구 요약 나스닥 종합 지수는 YTD 16.5% 급등하여 사상 최고치를 기록했지만 시장 열광은 늘어나는 시스템적 위험을 가리고 있습니다.",
+            "거대 기술 기업(예: Nvidia, Microsoft, Amazon, Alphabet/Google) 간의 AI 중심 투기와 순환 자금 조달은 역사적으로 높은 가치 평가와 집중적인 이익을 가져왔습니다.",
+            "마진 부채는 전례 없는 수준의 레버리지 비율로 인해 1조 4500억 달러로 치솟았고, 금리 상승으로 인해 하방 위험이 증폭되었습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 16.5%, $1.45 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -41,20 +43,90 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
           ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'The Nasdaq's All-Time High Should Scare You' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790376072.3403084
+          "quality": "medium",
+          "verifiedNumbers": [
+            "16.5%",
+            "$1.45 trillion"
+          ],
+          "sourceExcerpt": [
+            "The Nasdaq's All-Time High Should Scare You (NASDAQ:QQQM) | Seeking Alpha Summary The Nasdaq Composite Index has surged 16.5% YTD, reaching all-time highs, but market enthusiasm masks mounting systemic risks.",
+            "AI-driven speculation and circular financing among tech giants (e.g., Nvidia, Microsoft, Amazon, Alphabet/Google) have led to historically high valuations and concentrated gains.",
+            "Margin debt has soared to $1.45 trillion, with leverage ratios at unprecedented levels, amplifying downside risk amid rising rates."
+          ],
+          "analysisUpdatedAt": 1790398150.087989
         },
         "headlineKo": "나스닥 사상 최고치는 당신을 놀라게 할 것입니다"
+      },
+      {
+        "headline": "VGT vs. QQQ: Where Should You Invest $1,000 Right Now for Maximum Long-Term Growth?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=44d49afce7e3b7717a0df1df3c918b991299c4aec740114afce1277a90b98be8",
+        "datetime": 1790348700,
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "QQQ: 최대 장기 성장을 위해 지금 1,000달러를 어디에 투자해야 합니까?",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Vanguard Information Technology ETF( VGT +0.78% )와 Invesco QQQ Trust ETF( QQQ +0.46% )는 가장 인기 있는 ETF 중 두 가지입니다.",
+            "그 기간 동안 그들은 각각 평균 ​​23%와 20% 이상의 연간 수익률을 기록했습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $1,000, 0.78%, 0.46% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1.0,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$1,000",
+            "0.78%",
+            "0.46%",
+            "23%",
+            "20%",
+            "100%",
+            "66.4%",
+            "17.73%"
+          ],
+          "sourceExcerpt": [
+            "QQQ: Where Should You Invest $1,000 Right Now for Maximum Long-Term Growth?",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Vanguard Information Technology ETF ( VGT +0.78% ) and the Invesco QQQ Trust ETF ( QQQ +0.46% ) are two of the more popular ETF",
+            "In that time, they've averaged over 23% and 20% annual returns, respectively."
+          ],
+          "analysisUpdatedAt": 1790398158.6067886
+        },
+        "headlineKo": "VGT 대 QQQ: 최대 장기 성장을 위해 지금 1,000달러를 어디에 투자해야 합니까?"
       },
       {
         "headline": "Stock Market Today: Dow, S&P 500, Nasdaq Futures Rise Amid Optimism Following Iran’s Offer To Reopen Strait of Hormuz — AKAM, COST, SCHL In Focus (UPDATED)",
@@ -116,7 +188,7 @@ const NEWS_DATA = {
             "stocks look set for a positive opening on Friday, with futures of the Dow Jones, S&P 500 and Nasdaq Composite rising, after closing Thursday on a mixed note.",
             "Contributing to the optimism are comments from Iranian Foreign Minister Abbas Araghchi, who proposed to reopen the Strait of Hormuz and resume talks on a nuclear deal within seven days, provided that President Donald Trump agrees to accept "
           ],
-          "analysisUpdatedAt": 1790376074.8221576
+          "analysisUpdatedAt": 1790398165.8020225
         },
         "headlineKo": "오늘의 주식 시장: 다우, S&P 500, 나스닥 선물은 이란의 호르무즈 해협 재개 제안에 따른 낙관론 속에 상승 — AKAM, COST, SCHL In Focus (업데이트됨)"
       },
@@ -128,6 +200,28 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "국채 수익률이 계속 급등함에 따라 S&P 500, Dow, Nasdaq 선물 완화 — ORCL, META, AKAM, GOOGL, MGM 집중"
+      },
+      {
+        "headline": "Buy SPY Or QQQ, Hold Software, And Sell Semiconductors",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=a3b8660d5fa27a9289f5455e045388abd0be089089b2fd91592374cf787aad77",
+        "datetime": 1790253810,
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "SPY 또는 QQQ 구매, 소프트웨어 보유, 반도체 판매"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "The Nasdaq's All-Time High Should Scare You",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=6cb9fb84a799b6e9ec5a21e052d0fba9fc989d7dd1fab75fb90a74dd6d3874bc",
+        "datetime": 1790355245,
+        "headlineKo": "나스닥 사상 최고치는 당신을 놀라게 할 것입니다",
+        "relevance": 0.67,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "high",
@@ -136,13 +230,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500, Dow, Nasdaq 선물은 국채 수익률이 계속 급등함에 따라 완화됩니다 — ORCL, META, AKAM, GOOGL, MGM In Focus AI 에이전트 동향 뉴스 수익 전체 DIA 1.01% SPY 0.66% QQQ 0.59% 추세 LTC 3.64% KOD 9.00% VST 0.74% SUI 18.34% IOVA 2.24% SR",
-            "국채 수익률이 계속 급등하면서 S&P 500, Dow, Nasdaq 선물 완화 — ORCL, META, AKAM, GOOGL, MGM In Focus 국채 수익률은 인플레이션 우려로 인해 상승세를 재개했습니다.",
-            "거래자들이 2026년 8월 5일 오전 거래 중에 뉴욕 증권 거래소 바닥에서 일하고 있습니다."
+            "나스닥 사상 최고치는 여러분을 놀라게 할 것입니다(NASDAQ:QQQM) | 알파 추구 요약 나스닥 종합 지수는 YTD 16.5% 급등하여 사상 최고치를 기록했지만 시장 열광은 늘어나는 시스템적 위험을 가리고 있습니다.",
+            "거대 기술 기업(예: Nvidia, Microsoft, Amazon, Alphabet/Google) 간의 AI 중심 투기와 순환 자금 조달은 역사적으로 높은 가치 평가와 집중적인 이익을 가져왔습니다.",
+            "마진 부채는 전례 없는 수준의 레버리지 비율로 인해 1조 4500억 달러로 치솟았고, 금리 상승으로 인해 하방 위험이 증폭되었습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 1.01%, 0.66%, 0.59% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 16.5%, $1.45 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -166,72 +260,45 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "1.01%",
-            "0.66%",
-            "0.59%",
-            "3.64%",
-            "9.00%",
-            "0.74%",
-            "18.34%",
-            "2.24%"
+            "16.5%",
+            "$1.45 trillion"
           ],
           "sourceExcerpt": [
-            "S&P 500, Dow, Nasdaq Futures Ease As Treasury Yields Continue To Spike — ORCL, META, AKAM, GOOGL, MGM In Focus AI Agent Trending News Earnings All DIA 1.01% SPY 0.66% QQQ 0.59% Trending LTC 3.64% KOD 9.00% VST 0.74% SUI 18.34% IOVA 2.24% SR",
-            "S&P 500, Dow, Nasdaq Futures Ease As Treasury Yields Continue To Spike — ORCL, META, AKAM, GOOGL, MGM In Focus Treasury yields resumed their march higher amid inflation concerns.",
-            "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
+            "The Nasdaq's All-Time High Should Scare You (NASDAQ:QQQM) | Seeking Alpha Summary The Nasdaq Composite Index has surged 16.5% YTD, reaching all-time highs, but market enthusiasm masks mounting systemic risks.",
+            "AI-driven speculation and circular financing among tech giants (e.g., Nvidia, Microsoft, Amazon, Alphabet/Google) have led to historically high valuations and concentrated gains.",
+            "Margin debt has soared to $1.45 trillion, with leverage ratios at unprecedented levels, amplifying downside risk amid rising rates."
           ],
-          "analysisUpdatedAt": 1790376078.1966808
-        },
-        "headlineKo": "국채 수익률이 계속 급등함에 따라 S&P 500, Dow, Nasdaq 선물 완화 — ORCL, META, AKAM, GOOGL, MGM 집중"
+          "analysisUpdatedAt": 1790398150.087989
+        }
       },
       {
-        "headline": "Buy SPY Or QQQ, Hold Software, And Sell Semiconductors",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=a3b8660d5fa27a9289f5455e045388abd0be089089b2fd91592374cf787aad77",
-        "datetime": 1790253810,
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "SPY 또는 QQQ 구매, 소프트웨어 보유, 반도체 판매"
-      },
-      {
-        "headline": "Zacks Investment Ideas feature highlights: GLD, QQQ, USO, MU and TWLO",
+        "headline": "VGT vs. QQQ: Where Should You Invest $1,000 Right Now for Maximum Long-Term Growth?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1e54f54df5821281e2827804742d5be370fd0a280064caf24c71be3aaa55bade",
-        "datetime": 1790242440,
+        "url": "https://finnhub.io/api/news?id=44d49afce7e3b7717a0df1df3c918b991299c4aec740114afce1277a90b98be8",
+        "datetime": 1790348700,
+        "headlineKo": "VGT 대 QQQ: 최대 장기 성장을 위해 지금 1,000달러를 어디에 투자해야 합니까?",
         "relevance": 1.0,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Zacks 투자 아이디어 주요 특징: GLD, QQQ, USO, MU 및 TWLO"
-      }
-    ],
-    "newsHistory": [
-      {
-        "headline": "The Nasdaq's All-Time High Should Scare You",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=6cb9fb84a799b6e9ec5a21e052d0fba9fc989d7dd1fab75fb90a74dd6d3874bc",
-        "datetime": 1790355245,
-        "headlineKo": "나스닥 사상 최고치는 당신을 놀라게 할 것입니다",
-        "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "The Nasdaq's All-Time High Should Scare You",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "QQQ: 최대 장기 성장을 위해 지금 1,000달러를 어디에 투자해야 합니까?",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Vanguard Information Technology ETF( VGT +0.78% )와 Invesco QQQ Trust ETF( QQQ +0.46% )는 가장 인기 있는 ETF 중 두 가지입니다.",
+            "그 기간 동안 그들은 각각 평균 ​​23%와 20% 이상의 연간 수익률을 기록했습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $1,000, 0.78%, 0.46% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -241,18 +308,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
           ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'The Nasdaq's All-Time High Should Scare You' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790376072.3403084
+          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1.0,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$1,000",
+            "0.78%",
+            "0.46%",
+            "23%",
+            "20%",
+            "100%",
+            "66.4%",
+            "17.73%"
+          ],
+          "sourceExcerpt": [
+            "QQQ: Where Should You Invest $1,000 Right Now for Maximum Long-Term Growth?",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Vanguard Information Technology ETF ( VGT +0.78% ) and the Invesco QQQ Trust ETF ( QQQ +0.46% ) are two of the more popular ETF",
+            "In that time, they've averaged over 23% and 20% annual returns, respectively."
+          ],
+          "analysisUpdatedAt": 1790398158.6067886
         }
       },
       {
@@ -315,7 +394,7 @@ const NEWS_DATA = {
             "stocks look set for a positive opening on Friday, with futures of the Dow Jones, S&P 500 and Nasdaq Composite rising, after closing Thursday on a mixed note.",
             "Contributing to the optimism are comments from Iranian Foreign Minister Abbas Araghchi, who proposed to reopen the Strait of Hormuz and resume talks on a nuclear deal within seven days, provided that President Donald Trump agrees to accept "
           ],
-          "analysisUpdatedAt": 1790376074.8221576
+          "analysisUpdatedAt": 1790398165.8020225
         }
       },
       {
@@ -2597,15 +2676,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790376068.3660204,
-    "_updated_label": "2026-09-26 07:41",
-    "_last_success_at": 1790376068.3660204,
+    "_fetched_at": 1790398132.1954784,
+    "_updated_label": "2026-09-26 13:49",
+    "_last_success_at": 1790398132.1954784,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 52,
+      "checked": 53,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "SPY": {
@@ -5582,7 +5661,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "MSFT": {
@@ -10982,7 +11061,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 126,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "GOOGL": {
@@ -17219,11 +17298,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 143,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "AMZN": {
-    "_last_attempt_at": 1790376068.3660204,
+    "_last_attempt_at": 1790398132.1954784,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "amc",
@@ -17232,6 +17311,56 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Let’s Take a Closer Look at Amazon’s (AMZN) Debt-Fueled AI Buildout",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b9dcea6c86759db10cdc5031906ce1b96eb29ec6dbbde4f5219dbd99e0f9890d",
+        "datetime": 1790378434,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Let’s Take a Closer Look at Amazon’s (AMZN) Debt-Fueled AI Buildout",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Let’s Take a Closer Look at Amazon’s (AMZN) Debt-Fueled AI Buildout' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 비용·CAPEX·영업현금흐름·FCF·부채 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790398171.6961274
+        },
+        "headlineKo": "Amazon(AMZN)의 부채 기반 AI 구축을 자세히 살펴보겠습니다."
+      },
       {
         "headline": "Amazon Stocks Move Lower as Anthropic Commits $11.6 Billion Elsewhere",
         "source": "Yahoo",
@@ -17278,7 +17407,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790376083.5520616
+          "analysisUpdatedAt": 1790398173.6901746
         },
         "headlineKo": "Anthropic이 다른 곳에서 116억 달러를 투자함에 따라 Amazon 주식은 하락했습니다."
       },
@@ -17328,9 +17457,19 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790376085.2960567
+          "analysisUpdatedAt": 1790398175.5848804
         },
         "headlineKo": "양자는 8,500억 달러 규모의 꿈입니다. Microsoft와 Amazon이 이에 큰 투자를 하고 있습니다."
+      },
+      {
+        "headline": "Generac Is Becoming an AI Power Play. Amazon Just Made That Case Bigger.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=77ba65fdecfa5bbf0642ac1cbc62986cbda16536b3bd96cbc64a30c5eabefc9f",
+        "datetime": 1790357795,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Generac은 AI 파워 플레이가 되고 있습니다. 아마존은 그 사건을 더 크게 만들었습니다."
       },
       {
         "headline": "Should SpaceX Investors Be Worried About Competition From Amazon?",
@@ -17340,26 +17479,37 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "SpaceX 투자자는 Amazon과의 경쟁을 걱정해야 합니까?"
+      },
+      {
+        "headline": "Amazon, US Steel, Pirelli and others make facility investments, while layoffs progress",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=978e79606dfaae08de4f57ad2a71a53c66b27ab2f330ccb6f9327540a4290bd2",
+        "datetime": 1790351460,
+        "headlineKo": "아마존·유에스스틸·피렐리 등 설비투자, 정리해고 진행",
+        "relevance": 0.5,
+        "keywordFlag": true,
+        "flagTerms": [
+          "layoffs"
+        ],
         "analysis": {
           "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "SpaceX 투자자는 Amazon과의 경쟁을 걱정해야 합니까?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 합류 Amazon( AMZN +0.12% )은 경쟁하는 여러 시장을 장악하고 있습니다.",
-            "미국 시장 점유율 1위를 차지하고 있습니다."
+            "Amazon, US Steel, Pirelli and others make facility investments, while layoffs progress",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.44%, $1.6 trillion, $4.3 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -17369,54 +17519,19 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "AMZN에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon, US Steel, Pirelli and others make facility investments, while layoffs progress' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 비용·CAPEX·영업현금흐름·FCF·부채 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.44%",
-            "$1.6 trillion",
-            "$4.3 billion",
-            "66%",
-            "$1.7 billion",
-            "79%",
-            "0.12 %",
-            "$ 0.29"
-          ],
-          "sourceExcerpt": [
-            "Should SpaceX Investors Be Worried About Competition From Amazon?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Amazon ( AMZN +0.12% ) dominates several markets in which it competes.",
-            "It has the leading market share in the U.S."
-          ],
-          "analysisUpdatedAt": 1790376089.6846771
-        },
-        "headlineKo": "SpaceX 투자자는 Amazon과의 경쟁을 걱정해야 합니까?"
-      },
-      {
-        "headline": "Amazon Wouldn’t Be Doing What It’s Doing if AI Capex Was Going to Fail",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4bed683095584e03297cf6b07a420c249da56baad41a3418ee695e706c48666b",
-        "datetime": 1790353845,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "AI Capex가 실패한다면 Amazon은 현재 하고 있는 일을 하지 않을 것입니다."
-      },
-      {
-        "headline": "Amazon, US Steel, Pirelli and others make facility investments, while layoffs progress",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=978e79606dfaae08de4f57ad2a71a53c66b27ab2f330ccb6f9327540a4290bd2",
-        "datetime": 1790351460,
-        "relevance": 0.5,
-        "keywordFlag": true,
-        "flagTerms": [
-          "layoffs"
-        ],
-        "headlineKo": "아마존·유에스스틸·피렐리 등 설비투자, 정리해고 진행"
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790353985.3037267
+        }
       },
       {
         "headline": "Amazon Faces Another Worker Lawsuit. Is Employment Scrutiny Becoming an Investor Risk?",
@@ -17600,18 +17715,17 @@ const NEWS_DATA = {
           ],
           "analysisUpdatedAt": 1789592488.0944464
         }
-      },
+      }
+    ],
+    "newsHistory": [
       {
-        "headline": "Amazon: I Love The Business, But I Don't Trust This Market (Rating Downgrade)",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=b463dbcea11b71d07d751cfa2ab2028f1f42a66bd8cf76efafd3f4b32e53ace9",
-        "datetime": 1789553598,
-        "headlineKo": "Amazon: 나는 사업을 사랑하지만 이 시장을 신뢰하지 않습니다(등급 하향)",
-        "relevance": 0.5,
-        "keywordFlag": true,
-        "flagTerms": [
-          "downgrade"
-        ],
+        "headline": "Let’s Take a Closer Look at Amazon’s (AMZN) Debt-Fueled AI Buildout",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b9dcea6c86759db10cdc5031906ce1b96eb29ec6dbbde4f5219dbd99e0f9890d",
+        "datetime": 1790378434,
+        "headlineKo": "Amazon(AMZN)의 부채 기반 AI 구축을 자세히 살펴보겠습니다.",
+        "relevance": 1,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "low",
@@ -17620,7 +17734,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Amazon: I Love The Business, But I Don't Trust This Market (Rating Downgrade)",
+            "Let’s Take a Closer Look at Amazon’s (AMZN) Debt-Fueled AI Buildout",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -17644,17 +17758,15 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon: I Love The Business, But I Don't Trust This Market (Rating Downgrade)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Let’s Take a Closer Look at Amazon’s (AMZN) Debt-Fueled AI Buildout' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 비용·CAPEX·영업현금흐름·FCF·부채 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
+          "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789569517.4852097
+          "analysisUpdatedAt": 1790398171.6961274
         }
-      }
-    ],
-    "newsHistory": [
+      },
       {
         "headline": "Amazon Stocks Move Lower as Anthropic Commits $11.6 Billion Elsewhere",
         "source": "Yahoo",
@@ -17701,7 +17813,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790376083.5520616
+          "analysisUpdatedAt": 1790398173.6901746
         }
       },
       {
@@ -17750,8 +17862,17 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790376085.2960567
+          "analysisUpdatedAt": 1790398175.5848804
         }
+      },
+      {
+        "headline": "Generac Is Becoming an AI Power Play. Amazon Just Made That Case Bigger.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=77ba65fdecfa5bbf0642ac1cbc62986cbda16536b3bd96cbc64a30c5eabefc9f",
+        "datetime": 1790357795,
+        "headlineKo": "Generac은 AI 파워 플레이가 되고 있습니다. 아마존은 그 사건을 더 크게 만들었습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false
       },
       {
         "headline": "Should SpaceX Investors Be Worried About Competition From Amazon?",
@@ -23340,15 +23461,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790376068.3660204,
-    "_updated_label": "2026-09-26 07:41",
-    "_last_success_at": 1790376068.3660204,
+    "_fetched_at": 1790398132.1954784,
+    "_updated_label": "2026-09-26 13:49",
+    "_last_success_at": 1790398132.1954784,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 151,
+      "checked": 153,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "META": {
@@ -29812,7 +29933,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 164,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "AAPL": {
@@ -35837,7 +35958,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 148,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "TSLA": {
@@ -41823,7 +41944,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "ORCL": {
@@ -46975,7 +47096,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "CRM": {
@@ -50865,7 +50986,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "PLTR": {
@@ -56070,11 +56191,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 124,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "NVDA": {
-    "_last_attempt_at": 1790376068.3660204,
+    "_last_attempt_at": 1790398132.1954784,
     "nextEarnings": {
       "date": "2026-11-17",
       "hour": "amc",
@@ -56083,6 +56204,120 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Nvidia (NVDA) Is Central To New Global AI Rules Debate",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ad4b2ed379ce3de6131643c55a749ea7d631d75a1af9652e0e503b8017d153e0",
+        "datetime": 1790392731,
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nvidia (NVDA) Is Central To New Global AI Rules Debate",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Nvidia (NVDA) Is Central To New Global AI Rules Debate' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790398185.8192146
+        },
+        "headlineKo": "엔비디아(NVDA)는 새로운 글로벌 AI 규칙 논쟁의 중심입니다"
+      },
+      {
+        "headline": "Nvidia Would Have to Add Almost a Whole Broadcom to Reach $7 Trillion",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4c4c114117f5c7acb7be91f7324a441243a63a96f45648fcea675aa10394aa57",
+        "datetime": 1790379841,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nvidia는 7조 달러에 도달하기 위해 거의 전체 Broadcom을 추가해야 할 것 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% The Motley Fool에 합류 Nvidia ( NVDA +0.22% ) , 세계에서 가장 가치 있는 회사, i",
+            "다음 큰 라운드 숫자는 7조 달러입니다.",
+            "그리고 이들 사이의 격차는 생각보다 큽니다. 약 1조 5500억 달러로, 이는 칩 및 인프라 소프트웨어 사업인 1조 6900억 달러 규모의 Broadcom( AVGO +0.70% )의 거의 전체 시장 가치에 해당합니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $7 trillion, $1.55 trillion, 0.70% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "NVDA에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$7 trillion",
+            "$1.55 trillion",
+            "0.70%",
+            "$1.69 trillion",
+            "$225",
+            "$290",
+            "28%",
+            "37%"
+          ],
+          "sourceExcerpt": [
+            "Nvidia Would Have to Add Almost a Whole Broadcom to Reach $7 Trillion | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia ( NVDA +0.22% ) , the world's most valuable company, i",
+            "The next big round number is $7 trillion.",
+            "And the gap between them is larger than it sounds: roughly $1.55 trillion, or nearly the full market value of Broadcom ( AVGO +0.70% ) , the $1.69 trillion chip and infrastructure software business."
+          ],
+          "analysisUpdatedAt": 1790398188.304026
+        },
+        "headlineKo": "Nvidia는 7조 달러에 도달하려면 거의 전체 Broadcom을 추가해야 합니다."
+      },
       {
         "headline": "Does IonQ's NVIDIA Quantum Tie-Up Reframe the Long-Term Hardware Opportunity for Rigetti Computing (RGTI)?",
         "source": "Yahoo",
@@ -56129,7 +56364,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790376097.047112
+          "analysisUpdatedAt": 1790398190.381498
         },
         "headlineKo": "IonQ의 NVIDIA Quantum 제휴는 RGTI(Rigetti Computing)에 대한 장기적인 하드웨어 기회를 재구성합니까?"
       },
@@ -56141,6 +56376,77 @@ const NEWS_DATA = {
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "2026년 Nvidia를 압도하는 반도체 주식을 만나보세요"
+      },
+      {
+        "headline": "Credo vs. Nvidia: Which AI Chip Stock Is a Better Buy in 2026?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1de20d5db04664ca26cc79dc9c98c740e0e658bf9759975a6f4560f2fb0a7d33",
+        "datetime": 1790364001,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Credo vs. Nvidia: 2026년에는 어느 AI 칩 주식이 더 나은 매수인가?"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Nvidia (NVDA) Is Central To New Global AI Rules Debate",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ad4b2ed379ce3de6131643c55a749ea7d631d75a1af9652e0e503b8017d153e0",
+        "datetime": 1790392731,
+        "headlineKo": "엔비디아(NVDA)는 새로운 글로벌 AI 규칙 논쟁의 중심입니다",
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nvidia (NVDA) Is Central To New Global AI Rules Debate",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Nvidia (NVDA) Is Central To New Global AI Rules Debate' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790398185.8192146
+        }
+      },
+      {
+        "headline": "Nvidia Would Have to Add Almost a Whole Broadcom to Reach $7 Trillion",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4c4c114117f5c7acb7be91f7324a441243a63a96f45648fcea675aa10394aa57",
+        "datetime": 1790379841,
+        "headlineKo": "Nvidia는 7조 달러에 도달하려면 거의 전체 Broadcom을 추가해야 합니다.",
+        "relevance": 0.4,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "medium",
@@ -56149,13 +56455,13 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "2026년 Nvidia를 압도하는 뛰어난 반도체 주식을 만나보세요 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 합류 Nvidia(NVDA +0.22%)는 시장에서 가장 인기 있는 S 중 하나입니다.",
-            "시가총액이 5조 4500억 달러가 넘는 이 기업은 올해 들어 지금까지(9월 1일 기준) 21%의 상승률을 기록하며 세계에서 가장 가치 있는 상장 기업입니다.",
-            "올해 Nvidia의 인상적인 수익률에도 불구하고 46% 이상 상승한 Taiwan Semiconductor Manufacturing(TSM -0.12%)(TSMC)과 비교할 수 없습니다."
+            "Nvidia는 7조 달러에 도달하기 위해 거의 전체 Broadcom을 추가해야 할 것 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% The Motley Fool에 합류 Nvidia ( NVDA +0.22% ) , 세계에서 가장 가치 있는 회사, i",
+            "다음 큰 라운드 숫자는 7조 달러입니다.",
+            "그리고 이들 사이의 격차는 생각보다 큽니다. 약 1조 5500억 달러로, 이는 칩 및 인프라 소프트웨어 사업인 1조 6900억 달러 규모의 Broadcom( AVGO +0.70% )의 거의 전체 시장 가치에 해당합니다."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $5.45 trillion, 21%, 0.12% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: $7 trillion, $1.55 trillion, 0.70% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -56179,110 +56485,23 @@ const NEWS_DATA = {
           "relevance": 0.4,
           "quality": "medium",
           "verifiedNumbers": [
-            "$5.45 trillion",
-            "21%",
-            "0.12%",
-            "46%",
-            "0.12 %",
-            "$ 450.61",
-            "$2.3",
-            "$ 449.01"
+            "$7 trillion",
+            "$1.55 trillion",
+            "0.70%",
+            "$1.69 trillion",
+            "$225",
+            "$290",
+            "28%",
+            "37%"
           ],
           "sourceExcerpt": [
-            "Meet the Magnificent Semiconductor Stock Crushing Nvidia in 2026 | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia ( NVDA +0.22% ) has been one of the market's most popular s",
-            "With a market capitalization of over $5.45 trillion, it's the world's most valuable public company, aided by its 21% gains so far this year (as of Sept.",
-            "Despite Nvidia's impressive returns this year, it doesn't compare to Taiwan Semiconductor Manufacturing ( TSM -0.12% ) (TSMC), which is up over 46%."
+            "Nvidia Would Have to Add Almost a Whole Broadcom to Reach $7 Trillion | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia ( NVDA +0.22% ) , the world's most valuable company, i",
+            "The next big round number is $7 trillion.",
+            "And the gap between them is larger than it sounds: roughly $1.55 trillion, or nearly the full market value of Broadcom ( AVGO +0.70% ) , the $1.69 trillion chip and infrastructure software business."
           ],
-          "analysisUpdatedAt": 1790376102.1022139
-        },
-        "headlineKo": "2026년 Nvidia를 압도하는 반도체 주식을 만나보세요"
+          "analysisUpdatedAt": 1790398188.304026
+        }
       },
-      {
-        "headline": "Credo vs. Nvidia: Which AI Chip Stock Is a Better Buy in 2026?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1de20d5db04664ca26cc79dc9c98c740e0e658bf9759975a6f4560f2fb0a7d33",
-        "datetime": 1790364001,
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Nvidia: 2026년에는 어느 AI 칩 주식이 더 나은 매수일까요?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 인공지능 붐이 반도체 환경을 변화시켰습니다.",
-            "Credo Technology Group( CRDO +7.65% )과 업계 거대 기업인 Nvidia( NVDA +0.22% )와 같은 고성장 연결 전문가 사이를 결정하려면 특정 틈새 시장을 살펴봐야 합니다."
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 7.65%, 0.22%, $ 210.97 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "NVDA에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "7.65%",
-            "0.22%",
-            "$ 210.97",
-            "7.65 %",
-            "$ 15.00",
-            "$ 225.07",
-            "0.22 %",
-            "$ 0.49"
-          ],
-          "sourceExcerpt": [
-            "Nvidia: Which AI Chip Stock Is a Better Buy in 2026?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The artificial intelligence boom has transformed the semiconductor landscape.",
-            "Deciding between a high-growth connectivity specialist like Credo Technology Group ( CRDO +7.65% ) and the industry giant Nvidia ( NVDA +0.22% ) requires a look at their specific niches."
-          ],
-          "analysisUpdatedAt": 1790376109.097731
-        },
-        "headlineKo": "Credo vs. Nvidia: 2026년에는 어느 AI 칩 주식이 더 나은 매수인가?"
-      },
-      {
-        "headline": "How Nvidia Can Benefit from Musk’s SpaceX Chip Surprise",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0ba942c7130e40ea7f10c1df7e6d15977e42630086e3d9655b1e48108f1f42a8",
-        "datetime": 1790360760,
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Nvidia가 Musk의 SpaceX 칩 놀라움으로 이점을 얻을 수 있는 방법"
-      },
-      {
-        "headline": "Nvidia CEO Pushes Back On The 'AI Apocalypse,' But The Risk Of A Slowdown Remains",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=2769961299cc9aa6e33eb347813ad1b6ec940e5ebfff8767f98df93c21e02447",
-        "datetime": 1790359227,
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "엔비디아 CEO, 'AI 종말'에 대해 반발하지만 둔화 위험은 여전히 ​​남아"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Does IonQ's NVIDIA Quantum Tie-Up Reframe the Long-Term Hardware Opportunity for Rigetti Computing (RGTI)?",
         "source": "Yahoo",
@@ -56329,7 +56548,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790376097.047112
+          "analysisUpdatedAt": 1790398190.381498
         }
       },
       {
@@ -63065,15 +63284,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790376068.3660204,
-    "_updated_label": "2026-09-26 07:41",
-    "_last_success_at": 1790376068.3660204,
+    "_fetched_at": 1790398132.1954784,
+    "_updated_label": "2026-09-26 13:49",
+    "_last_success_at": 1790398132.1954784,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 170,
+      "checked": 172,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "AMD": {
@@ -68397,7 +68616,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "AVGO": {
@@ -71914,7 +72133,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "QCOM": {
@@ -75273,7 +75492,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "ARM": {
@@ -78192,7 +78411,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "MRVL": {
@@ -81581,7 +81800,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "INTC": {
@@ -86519,7 +86738,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "TSM": {
@@ -89114,7 +89333,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "ASML": {
@@ -91110,7 +91329,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "AMAT": {
@@ -93346,7 +93565,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "LRCX": {
@@ -94540,7 +94759,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "KLAC": {
@@ -95707,7 +95926,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "MU": {
@@ -101645,7 +101864,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "SNDK": {
@@ -105175,7 +105394,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "WDC": {
@@ -106624,7 +106843,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "ANET": {
@@ -108337,7 +108556,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "COHR": {
@@ -109976,7 +110195,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "LITE": {
@@ -111642,7 +111861,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "GEV": {
@@ -114461,7 +114680,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "CEG": {
@@ -115886,7 +116105,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "VST": {
@@ -117361,7 +117580,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "ETN": {
@@ -119063,7 +119282,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "PWR": {
@@ -120839,7 +121058,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "HUBB": {
@@ -121481,7 +121700,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "VRT": {
@@ -123457,7 +123676,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "MOD": {
@@ -124159,7 +124378,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "STX": {
@@ -125562,7 +125781,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "EME": {
@@ -126565,7 +126784,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "FIX": {
@@ -127331,7 +127550,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   },
   "BE": {
@@ -128790,7 +129009,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-26 13:17"
+      "updated": "2026-09-26 13:49"
     }
   }
 };
