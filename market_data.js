@@ -246,6 +246,15 @@ const MARKET_DATA = {
       "summaryKo": "중국, 유엔 연설에서 이란과 쿠바에 대해 미국에 반발 - 최신"
     },
     {
+      "headline": "Trump rejects Iranian proposal to open Hormuz and end fighting - Reuters",
+      "summary": "Trump rejects Iranian proposal to open Hormuz and end fighting Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
+      "datetime": 1790435754,
+      "headlineKo": "트럼프, 호르무즈 개방과 전쟁 종식을 위한 이란의 제안 거부 - 로이터",
+      "summaryKo": "트럼프, 호르무즈 개방하고 전쟁 종식하라는 이란 제안 거부 - 중앙일보"
+    },
+    {
       "headline": "Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics",
       "summary": "A federal jury awarded Taction Technology more than $5.7 billion after finding Apple infringed claims from two haptics patents. Apple plans to appeal.",
       "source": "CNBC",
@@ -291,15 +300,6 @@ const MARKET_DATA = {
       "summaryKo": "영국, 이란에 영국 땅에서의 적대적 활동을 용납하지 않을 것이라고 경고 - 최신"
     },
     {
-      "headline": "Trump rejects Iranian proposal to open Hormuz and end fighting - Reuters",
-      "summary": "Trump rejects Iranian proposal to open Hormuz and end fighting Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
-      "datetime": 1790387940,
-      "headlineKo": "트럼프, 호르무즈 개방과 전쟁 종식을 위한 이란의 제안 거부 - 로이터",
-      "summaryKo": "트럼프, 호르무즈 개방하고 전쟁 종식하라는 이란 제안 거부 - 중앙일보"
-    },
-    {
       "headline": "Saudi coalition says it intercepts Houthi missiles, drones - Reuters",
       "summary": "Saudi coalition says it intercepts Houthi missiles, drones Reuters",
       "source": "Reuters",
@@ -307,6 +307,15 @@ const MARKET_DATA = {
       "datetime": 1790385900,
       "headlineKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - 로이터 통신",
       "summaryKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - 최신"
+    },
+    {
+      "headline": "How Trump's diplomatic week exposed the limits of his power - Reuters",
+      "summary": "How Trump's diplomatic week exposed the limits of his power Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWUNJQ25mYi11NFg0WjVHdEZaSjVqMHhQS0NIT2tfQjc5UF9EZUpGWUNWZW40VGlmZjlhRFVZTkRicnh3UTlERy1vcU9majF6em4wYlRVN1V5S0RaTnpmR0VDdDV5VzBqNHY5dWNuWEJtdkF3VWNfQlVLbDc4S19Zb1Y1MzYxN2kwNGhVRF9uVUF0RTZPaVoyX1NvRmRkeFVG?oc=5",
+      "datetime": 1790376357,
+      "headlineKo": "트럼프의 외교 주간은 어떻게 그의 권력 한계를 드러냈는가 - 로이터",
+      "summaryKo": "트럼프의 외교 주간은 어떻게 그의 권력 한계를 드러냈는가 - 최신"
     },
     {
       "headline": "Here's exactly what Paramount promised Hollywood to land WBD — and why some are still skeptical",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790367386,
       "headlineKo": "EU, 에너지 가격 위기 경고, 국가들에 수요 억제 고려 요청, 서신 공개 - Reuters",
       "summaryKo": "EU는 에너지 가격 위기를 경고하고 국가들에게 수요 억제를 고려할 것을 요청했다고 서신은 밝혔습니다."
-    },
-    {
-      "headline": "What we want to see next week from one of Jim Cramer's 6 stocks to buy",
-      "summary": "Micron has all the leverage heading into earnings as memory supply constraints persist. But how long will this favorable cycle last?",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/25/what-we-want-to-see-next-week-from-one-of-jim-cramers-6-stocks-to-buy.html",
-      "datetime": 1790365244,
-      "headlineKo": "Jim Cramer의 매수 주식 6개 중 다음 주에 보고 싶은 것",
-      "summaryKo": "Micron은 메모리 공급 제약이 지속됨에 따라 수익으로 향하는 모든 영향력을 갖고 있습니다. 하지만 이 유리한 사이클은 언제까지 지속될 것인가?"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790455455.4838428,
+  "_news_last_success_at": 1790459080.8648345,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790455448.3631244,
-  "_updated_label": "2026-09-27 05:44",
-  "_last_attempt_at": 1790455448.3631244,
-  "_last_success_at": 1790455448.3631244,
+  "_fetched_at": 1790459072.5308452,
+  "_updated_label": "2026-09-27 06:45",
+  "_last_attempt_at": 1790459072.5308452,
+  "_last_success_at": 1790459072.5308452,
   "_collection_status": "ok",
   "_collection_errors": []
 };
