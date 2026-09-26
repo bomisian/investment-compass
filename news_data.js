@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1790442524.0691073,
+    "_last_attempt_at": 1790464647.2630618,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -52,7 +52,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790442528.651722
+          "analysisUpdatedAt": 1790464650.6321986
         },
         "headlineKo": "나스닥 사상 최고치는 당신을 놀라게 할 것입니다"
       },
@@ -116,7 +116,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Vanguard Information Technology ETF ( VGT +0.78% ) and the Invesco QQQ Trust ETF ( QQQ +0.46% ) are two of the more popular ETF",
             "In that time, they've averaged over 23% and 20% annual returns, respectively."
           ],
-          "analysisUpdatedAt": 1790442532.776051
+          "analysisUpdatedAt": 1790464655.1695342
         },
         "headlineKo": "VGT 대 QQQ: 최대 장기 성장을 위해 지금 1,000달러를 어디에 투자해야 합니까?"
       },
@@ -180,7 +180,7 @@ const NEWS_DATA = {
             "stocks look set for a positive opening on Friday, with futures of the Dow Jones, S&P 500 and Nasdaq Composite rising, after closing Thursday on a mixed note.",
             "Contributing to the optimism are comments from Iranian Foreign Minister Abbas Araghchi, who proposed to reopen the Strait of Hormuz and resume talks on a nuclear deal within seven days, provided that President Donald Trump agrees to accept "
           ],
-          "analysisUpdatedAt": 1790442536.6253881
+          "analysisUpdatedAt": 1790464657.728422
         },
         "headlineKo": "오늘의 주식 시장: 다우, S&P 500, 나스닥 선물은 이란의 호르무즈 해협 재개 제안에 따른 낙관론 속에 상승 — AKAM, COST, SCHL In Focus (업데이트됨)"
       },
@@ -252,7 +252,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790442528.651722
+          "analysisUpdatedAt": 1790464650.6321986
         }
       },
       {
@@ -315,7 +315,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Vanguard Information Technology ETF ( VGT +0.78% ) and the Invesco QQQ Trust ETF ( QQQ +0.46% ) are two of the more popular ETF",
             "In that time, they've averaged over 23% and 20% annual returns, respectively."
           ],
-          "analysisUpdatedAt": 1790442532.776051
+          "analysisUpdatedAt": 1790464655.1695342
         }
       },
       {
@@ -378,7 +378,7 @@ const NEWS_DATA = {
             "stocks look set for a positive opening on Friday, with futures of the Dow Jones, S&P 500 and Nasdaq Composite rising, after closing Thursday on a mixed note.",
             "Contributing to the optimism are comments from Iranian Foreign Minister Abbas Araghchi, who proposed to reopen the Strait of Hormuz and resume talks on a nuclear deal within seven days, provided that President Donald Trump agrees to accept "
           ],
-          "analysisUpdatedAt": 1790442536.6253881
+          "analysisUpdatedAt": 1790464657.728422
         }
       },
       {
@@ -2660,15 +2660,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790442524.0691073,
-    "_updated_label": "2026-09-27 02:08",
-    "_last_success_at": 1790442524.0691073,
+    "_fetched_at": 1790464647.2630618,
+    "_updated_label": "2026-09-27 08:17",
+    "_last_success_at": 1790464647.2630618,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "SPY": {
@@ -5771,7 +5771,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "MSFT": {
@@ -11308,7 +11308,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 128,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "GOOGL": {
@@ -17661,11 +17661,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 146,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "AMZN": {
-    "_last_attempt_at": 1790442524.0691073,
+    "_last_attempt_at": 1790464647.2630618,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "amc",
@@ -17720,7 +17720,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790442543.3716052
+          "analysisUpdatedAt": 1790464662.907199
         },
         "headlineKo": "Amazon.com(AMZN)은 이란의 드론 공격이 AWS 데이터 센터를 강타했음을 확인했습니다."
       },
@@ -17801,7 +17801,7 @@ const NEWS_DATA = {
             "Here's Why That Makes The Stock an Incredible Buy | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool When a company announces that it's spending nearly all of its available cash flow",
             "When the figure is as large as $220 billion, like Amazon ( AMZN +0.12% ) is spending, it really should have investors questioning what's going on."
           ],
-          "analysisUpdatedAt": 1790442546.3009193
+          "analysisUpdatedAt": 1790464663.9649239
         },
         "headlineKo": "아마존은 데이터센터에 2,200억 달러를 지출하고 있습니다. 주식을 믿을 수 없을 만큼 구매하게 만드는 이유는 다음과 같습니다."
       },
@@ -17865,7 +17865,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.21% S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.",
             "By Chris Lange Published September 26, 2026, 7:45am ET · 2 min read 𝕏 f ⧉ © jetcityimage / iStock Editorial via Getty Images Ten years ago, Amazon ( NASDAQ:AMZN | AMZN Price Prediction ) traded at a split-adjusted $40.81."
           ],
-          "analysisUpdatedAt": 1790442551.6236358
+          "analysisUpdatedAt": 1790464666.2389712
         },
         "headlineKo": "Amazon은 10년에 걸쳐 $1,000를 $5,239로 바꾸었지만 최근 구매자들은 더 힘든 현실에 직면해 있습니다."
       },
@@ -18172,7 +18172,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790442543.3716052
+          "analysisUpdatedAt": 1790464662.907199
         }
       },
       {
@@ -18252,7 +18252,7 @@ const NEWS_DATA = {
             "Here's Why That Makes The Stock an Incredible Buy | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool When a company announces that it's spending nearly all of its available cash flow",
             "When the figure is as large as $220 billion, like Amazon ( AMZN +0.12% ) is spending, it really should have investors questioning what's going on."
           ],
-          "analysisUpdatedAt": 1790442546.3009193
+          "analysisUpdatedAt": 1790464663.9649239
         }
       },
       {
@@ -18315,7 +18315,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.21% S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.",
             "By Chris Lange Published September 26, 2026, 7:45am ET · 2 min read 𝕏 f ⧉ © jetcityimage / iStock Editorial via Getty Images Ten years ago, Amazon ( NASDAQ:AMZN | AMZN Price Prediction ) traded at a split-adjusted $40.81."
           ],
-          "analysisUpdatedAt": 1790442551.6236358
+          "analysisUpdatedAt": 1790464666.2389712
         }
       },
       {
@@ -24124,15 +24124,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790442524.0691073,
-    "_updated_label": "2026-09-27 02:09",
-    "_last_success_at": 1790442524.0691073,
+    "_fetched_at": 1790464647.2630618,
+    "_updated_label": "2026-09-27 08:17",
+    "_last_success_at": 1790464647.2630618,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 157,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "META": {
@@ -30680,7 +30680,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 166,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "AAPL": {
@@ -36902,7 +36902,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 151,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "TSLA": {
@@ -43340,7 +43340,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 157,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "ORCL": {
@@ -48853,7 +48853,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 126,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "CRM": {
@@ -52821,7 +52821,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "PLTR": {
@@ -58227,11 +58227,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 127,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "NVDA": {
-    "_last_attempt_at": 1790442524.0691073,
+    "_last_attempt_at": 1790464647.2630618,
     "nextEarnings": {
       "date": "2026-11-17",
       "hour": "amc",
@@ -58241,139 +58241,11 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Nvidia Trades Near Its 52-Week High at Its Cheapest Valuation in a Decade. History Says This Is What $1,000 Invested Could Be Worth by 2030.",
+        "headline": "‘Don’t Ship Products Until They’re in Control’: Nvidia’s Huang Weighs In on AI Safety Debate",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=adc1d3988f41d16b08a227e9650b3e66f806fa36ecfee1a584ce5455f31d8cdd",
-        "datetime": 1790425320,
+        "url": "https://finnhub.io/api/news?id=7b6c2263bce74ace2986e42983ef8b40ffb28798b7698653e31765ba97f147d6",
+        "datetime": 1790452740,
         "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "장기 공급계약 · 매출 가시성 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Nvidia는 10년 만에 가장 저렴한 가치로 52주 최고가에 근접했습니다.",
-            "역사에 따르면 2030년까지 투자한 1,000달러의 가치는 이 정도입니다.",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 2026년 현재까지 가장 궁금한 반도체 주식 중 하나는 Nvidia(NVDA +0.22%)입니다."
-          ],
-          "why": [
-            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $1,000, 20%, 40% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "계약 기간·최소구매 조건",
-            "연도별 매출 인식",
-            "수주잔고·취소 조건"
-          ],
-          "interpretation": "NVDA에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$1,000",
-            "20%",
-            "40%",
-            "$15.68",
-            "$225,",
-            "15 times",
-            "25 times",
-            "$390"
-          ],
-          "sourceExcerpt": [
-            "Nvidia Trades Near Its 52-Week High at Its Cheapest Valuation in a Decade.",
-            "History Says This Is What $1,000 Invested Could Be Worth by 2030.",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool One of the more curious semiconductor stocks so far in 2026 is Nvidia ( NVDA +0.22% ) ."
-          ],
-          "analysisUpdatedAt": 1790442562.685241
-        },
-        "headlineKo": "Nvidia는 10년 만에 가장 저렴한 가치로 52주 최고가에 근접했습니다. 역사에 따르면 2030년까지 투자한 1,000달러의 가치는 이 정도입니다."
-      },
-      {
-        "headline": "Nvidia vs. Broadcom: Whose AI Bull Case is Better?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=030fdadd39d106b9a582bbe574e8c0db6fc0bbc8de01eb6b505a0f35b6e1c462",
-        "datetime": 1790410920,
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Broadcom: 누구의 AI Bull Case가 더 나은가요?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia( NVDA +0.22% )는 AI 컴퓨팅 먹이 사슬의 최상위에 있으며 지금까지 가장 큰 시장 점유율을 차지하고 있으며 상당히 높은 위치를 차지하고 있습니다.",
-            "그러나 Broadcom(AVGO +0.70%)은 AI 컴퓨팅 세계에 대해 다른 접근 방식을 취하고 있으며 특히 맞춤형 AI 칩이 인기를 얻으면서 강력한 경쟁자처럼 보입니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.70%, 0.22 %, $ 0.49 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "NVDA에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.70%",
-            "0.22 %",
-            "$ 0.49",
-            "$ 225.07",
-            "$5.4",
-            "$ 223.13",
-            "$ 226.94",
-            "$ 164.27"
-          ],
-          "sourceExcerpt": [
-            "Broadcom: Whose AI Bull Case is Better?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia ( NVDA +0.22% ) is at the top of the AI computing food chain, holding the largest market share by far and being quite a bit ",
-            "However, Broadcom ( AVGO +0.70% ) is taking a different approach to the AI computing world and also looks like a strong contender, especially as its custom AI chips gain popularity."
-          ],
-          "analysisUpdatedAt": 1790442565.3187804
-        },
-        "headlineKo": "Nvidia vs. Broadcom: 누구의 AI Bull Case가 더 나은가요?"
-      },
-      {
-        "headline": "NVIDIA (NVDA) vs. Broadcom (AVGO): Which AI Chip Stock Has the Stronger Moat?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=59fb5ee40cadd499d2557266fbec626123c350c97af49ee2eb226eecf03fa537",
-        "datetime": 1790398261,
-        "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
@@ -58384,7 +58256,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "NVIDIA (NVDA) vs. Broadcom (AVGO): Which AI Chip Stock Has the Stronger Moat?",
+            "‘Don’t Ship Products Until They’re in Control’: Nvidia’s Huang Weighs In on AI Safety Debate",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -58408,38 +58280,313 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 NVDA의 사업과 관련된 'NVIDIA (NVDA) vs. Broadcom (AVGO): Which AI Chip Stock Has the Stronger Moat?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 '‘Don’t Ship Products Until They’re in Control’: Nvidia’s Huang Weighs In on AI Safety Debate' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1.0,
+          "relevance": 0.4,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790442567.72826
+          "analysisUpdatedAt": 1790464671.552066
         },
-        "headlineKo": "NVIDIA(NVDA) 대 Broadcom(AVGO): 어느 AI 칩 주식이 더 강한 해자를 갖고 있습니까?"
+        "headlineKo": "'통제될 때까지 제품을 배송하지 마세요': Nvidia의 Huang이 AI 안전 논쟁에 참여"
       },
       {
-        "headline": "Nvidia (NVDA) Is Central To New Global AI Rules Debate",
+        "headline": "Nvidia Is Weighing a $10 Billion Stake in Anthropic's IPO. It Would Be Buying Its Own Demand.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ad4b2ed379ce3de6131643c55a749ea7d631d75a1af9652e0e503b8017d153e0",
-        "datetime": 1790392731,
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "엔비디아(NVDA)는 새로운 글로벌 AI 규칙 논쟁의 중심입니다"
-      },
-      {
-        "headline": "Nvidia Would Have to Add Almost a Whole Broadcom to Reach $7 Trillion",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4c4c114117f5c7acb7be91f7324a441243a63a96f45648fcea675aa10394aa57",
-        "datetime": 1790379841,
+        "url": "https://finnhub.io/api/news?id=8907543619da0857c9de2b29ffc05169568c8192344acea3561719a3d8740b79",
+        "datetime": 1790452621,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Nvidia는 7조 달러에 도달하려면 거의 전체 Broadcom을 추가해야 합니다."
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "경쟁사 수주 · 고객 점유 변화",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nvidia는 Anthropic의 IPO에서 100억 달러 규모의 지분을 보유하고 있습니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 합류 Nvidia( NVDA +0.22% )는 Anthropic에 두 번째 100억 달러 수표를 발행할 준비를 하고 있을 수도 있습니다.",
+            "칩 제조업체는 Anthropic의 계획된 기업공개(IPO)에 주요 투자자가 되기 위해 협상 중이라고 로이터는 이번 달에 밝혔습니다. 이 거래는 주요 고객과의 관계를 심화시킬 수 있습니다."
+          ],
+          "why": [
+            "경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다.",
+            "이번 기사에서 확인된 구체적 수치: $10 Billion, $10 billion, $100 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "경쟁사가 같은 고객에게 납품할 기회를 얻었다는 뜻입니다. 기존 회사 물량을 빼앗은 것인지, 고객이 공급처를 하나 더 늘린 것인지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "신규 공급사의 실제 물량",
+            "기존 공급사 매출 비중",
+            "고객의 이중 공급 전략"
+          ],
+          "interpretation": "NVDA에 대한 경쟁사 수주 · 고객 점유 변화 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$10 Billion",
+            "$10 billion",
+            "$100 billion",
+            "$2 trillion",
+            "$5 billion",
+            "$30 billion",
+            "1%",
+            "$735 million"
+          ],
+          "sourceExcerpt": [
+            "Nvidia Is Weighing a $10 Billion Stake in Anthropic's IPO.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia ( NVDA +0.22% ) might be gearing up to write Anthropic a second $10 billion check.",
+            "The chipmaker's in talks to be an anchor investor in Anthropic's planned initial public offering (IPO) , Reuters said this month, a deal that could deepen its ties to a major customer."
+          ],
+          "analysisUpdatedAt": 1790464675.7628138
+        },
+        "headlineKo": "Nvidia는 Anthropic의 IPO에서 100억 달러 규모의 지분을 보유하고 있습니다. 그것은 자체 수요를 구매하는 것입니다."
+      },
+      {
+        "headline": "IonQ (IONQ) Just Landed Nvidia Less Than 2 Years After Jensen Huang’s 30-Year Quantum Warning",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8c4628850ec64098b27886bb66f3415206f48622e6a5a0d1c1ed1c5c8d8034a2",
+        "datetime": 1790445236,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "IonQ (IONQ) Just Landed Nvidia Less Than 2 Years After Jensen Huang’s 30-Year Quantum Warning",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'IonQ (IONQ) Just Landed Nvidia Less Than 2 Years After Jensen Huang’s 30-Year Quantum Warning' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790464677.7553482
+        },
+        "headlineKo": "IonQ(IONQ)는 Jensen Huang의 30년 양자 경고 이후 2년도 채 되지 않아 Nvidia에 상륙했습니다."
+      },
+      {
+        "headline": "Nvidia Trades Near Its 52-Week High at Its Cheapest Valuation in a Decade. History Says This Is What $1,000 Invested Could Be Worth by 2030.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=adc1d3988f41d16b08a227e9650b3e66f806fa36ecfee1a584ce5455f31d8cdd",
+        "datetime": 1790425320,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Nvidia는 10년 만에 가장 저렴한 가치로 52주 최고가에 근접했습니다. 역사에 따르면 2030년까지 투자한 1,000달러의 가치는 이 정도입니다."
+      },
+      {
+        "headline": "Nvidia vs. Broadcom: Whose AI Bull Case is Better?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=030fdadd39d106b9a582bbe574e8c0db6fc0bbc8de01eb6b505a0f35b6e1c462",
+        "datetime": 1790410920,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Nvidia vs. Broadcom: 누구의 AI Bull Case가 더 나은가요?"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "‘Don’t Ship Products Until They’re in Control’: Nvidia’s Huang Weighs In on AI Safety Debate",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=7b6c2263bce74ace2986e42983ef8b40ffb28798b7698653e31765ba97f147d6",
+        "datetime": 1790452740,
+        "headlineKo": "'통제될 때까지 제품을 배송하지 마세요': Nvidia의 Huang이 AI 안전 논쟁에 참여",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "‘Don’t Ship Products Until They’re in Control’: Nvidia’s Huang Weighs In on AI Safety Debate",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 '‘Don’t Ship Products Until They’re in Control’: Nvidia’s Huang Weighs In on AI Safety Debate' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790464671.552066
+        }
+      },
+      {
+        "headline": "Nvidia Is Weighing a $10 Billion Stake in Anthropic's IPO. It Would Be Buying Its Own Demand.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8907543619da0857c9de2b29ffc05169568c8192344acea3561719a3d8740b79",
+        "datetime": 1790452621,
+        "headlineKo": "Nvidia는 Anthropic의 IPO에서 100억 달러 규모의 지분을 보유하고 있습니다. 그것은 자체 수요를 구매하는 것입니다.",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "경쟁사 수주 · 고객 점유 변화",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nvidia는 Anthropic의 IPO에서 100억 달러 규모의 지분을 보유하고 있습니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 합류 Nvidia( NVDA +0.22% )는 Anthropic에 두 번째 100억 달러 수표를 발행할 준비를 하고 있을 수도 있습니다.",
+            "칩 제조업체는 Anthropic의 계획된 기업공개(IPO)에 주요 투자자가 되기 위해 협상 중이라고 로이터는 이번 달에 밝혔습니다. 이 거래는 주요 고객과의 관계를 심화시킬 수 있습니다."
+          ],
+          "why": [
+            "경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다.",
+            "이번 기사에서 확인된 구체적 수치: $10 Billion, $10 billion, $100 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "경쟁사가 같은 고객에게 납품할 기회를 얻었다는 뜻입니다. 기존 회사 물량을 빼앗은 것인지, 고객이 공급처를 하나 더 늘린 것인지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "신규 공급사의 실제 물량",
+            "기존 공급사 매출 비중",
+            "고객의 이중 공급 전략"
+          ],
+          "interpretation": "NVDA에 대한 경쟁사 수주 · 고객 점유 변화 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$10 Billion",
+            "$10 billion",
+            "$100 billion",
+            "$2 trillion",
+            "$5 billion",
+            "$30 billion",
+            "1%",
+            "$735 million"
+          ],
+          "sourceExcerpt": [
+            "Nvidia Is Weighing a $10 Billion Stake in Anthropic's IPO.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia ( NVDA +0.22% ) might be gearing up to write Anthropic a second $10 billion check.",
+            "The chipmaker's in talks to be an anchor investor in Anthropic's planned initial public offering (IPO) , Reuters said this month, a deal that could deepen its ties to a major customer."
+          ],
+          "analysisUpdatedAt": 1790464675.7628138
+        }
+      },
+      {
+        "headline": "IonQ (IONQ) Just Landed Nvidia Less Than 2 Years After Jensen Huang’s 30-Year Quantum Warning",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8c4628850ec64098b27886bb66f3415206f48622e6a5a0d1c1ed1c5c8d8034a2",
+        "datetime": 1790445236,
+        "headlineKo": "IonQ(IONQ)는 Jensen Huang의 30년 양자 경고 이후 2년도 채 되지 않아 Nvidia에 상륙했습니다.",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "IonQ (IONQ) Just Landed Nvidia Less Than 2 Years After Jensen Huang’s 30-Year Quantum Warning",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'IonQ (IONQ) Just Landed Nvidia Less Than 2 Years After Jensen Huang’s 30-Year Quantum Warning' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790464677.7553482
+        }
+      },
       {
         "headline": "Nvidia Trades Near Its 52-Week High at Its Cheapest Valuation in a Decade. History Says This Is What $1,000 Invested Could Be Worth by 2030.",
         "source": "Yahoo",
@@ -65509,15 +65656,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790442524.0691073,
-    "_updated_label": "2026-09-27 02:09",
-    "_last_success_at": 1790442524.0691073,
+    "_fetched_at": 1790464647.2630618,
+    "_updated_label": "2026-09-27 08:17",
+    "_last_success_at": 1790464647.2630618,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 175,
+      "checked": 178,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "AMD": {
@@ -70975,7 +71122,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 133,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "AVGO": {
@@ -74681,7 +74828,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "QCOM": {
@@ -78154,7 +78301,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "ARM": {
@@ -81073,7 +81220,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "MRVL": {
@@ -84497,7 +84644,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "INTC": {
@@ -89498,7 +89645,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 122,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "TSM": {
@@ -92177,7 +92324,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "ASML": {
@@ -94250,7 +94397,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "AMAT": {
@@ -96486,7 +96633,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "LRCX": {
@@ -97680,7 +97827,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "KLAC": {
@@ -98847,7 +98994,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "MU": {
@@ -105104,7 +105251,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 150,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "SNDK": {
@@ -108634,7 +108781,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "WDC": {
@@ -110322,7 +110469,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "ANET": {
@@ -112035,7 +112182,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "COHR": {
@@ -113674,7 +113821,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "LITE": {
@@ -115340,7 +115487,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "GEV": {
@@ -118236,7 +118383,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "CEG": {
@@ -119661,7 +119808,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "VST": {
@@ -121199,7 +121346,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "ETN": {
@@ -122901,7 +123048,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "PWR": {
@@ -124677,7 +124824,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "HUBB": {
@@ -125319,7 +125466,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "VRT": {
@@ -127295,7 +127442,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "MOD": {
@@ -127997,7 +128144,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "STX": {
@@ -129400,7 +129547,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "EME": {
@@ -130403,7 +130550,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "FIX": {
@@ -131159,7 +131306,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   },
   "BE": {
@@ -132618,7 +132765,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-27 07:46"
+      "updated": "2026-09-27 08:18"
     }
   }
 };
