@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Trump says men arrested at UK air base used by US were looking to do 'big damage' - Reuters",
+      "summary": "Trump says men arrested at UK air base used by US were looking to do 'big damage' Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOThaUHcwMHZuZEY2dldUNjhYQ29PeWRJdEYxWFBPV3NEUUdSc0l4MkdhN3liTGdyNG9XaEhwWG8xRk8xR29JVlA0ZEV2ZXM3RVZCRDlPSHhzU29Pek9tZVREdUdvOHRXS1ZuaTR0TXVGV253bkplU1lNbG85WXRjYzcwV2ZSekFCa1gtR1RtV09zM3NYeF93?oc=5",
+      "datetime": 1790527490,
+      "headlineKo": "트럼프, 미국이 사용하는 영국 공군기지에서 체포된 남성들은 '큰 피해'를 노리고 있었다 - 로이터",
+      "summaryKo": "트럼프, 미국이 사용하는 영국 공군기지에서 체포된 남성들은 '큰 피해'를 입히려 하고 있었다 - 로이터"
+    },
+    {
       "headline": "Here are the 4 big things we're watching in the stock market in the week ahead",
       "summary": "Both sides of the Fed's dual mandate are in focus. Plus, Micron reports and Eli Lilly delivers updates on its obesity pipeline.",
       "source": "CNBC",
@@ -246,13 +255,13 @@ const MARKET_DATA = {
       "summaryKo": "연준의 이중 권한에 대한 양측의 관심이 집중되고 있습니다. 또한 Micron은 보고하고 Eli Lilly는 비만 파이프라인에 대한 업데이트를 제공합니다."
     },
     {
-      "headline": "Trump says men arrested at US air base in UK were looking to do 'big damage' - Reuters",
-      "summary": "Trump says men arrested at US air base in UK were looking to do 'big damage' Reuters",
+      "headline": "PODCAST: Iran-US diplomacy, RAF Fairford and Brazil elections - Reuters",
+      "summary": "PODCAST: Iran-US diplomacy, RAF Fairford and Brazil elections Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOThaUHcwMHZuZEY2dldUNjhYQ29PeWRJdEYxWFBPV3NEUUdSc0l4MkdhN3liTGdyNG9XaEhwWG8xRk8xR29JVlA0ZEV2ZXM3RVZCRDlPSHhzU29Pek9tZVREdUdvOHRXS1ZuaTR0TXVGV253bkplU1lNbG85WXRjYzcwV2ZSekFCa1gtR1RtV09zM3NYeF93?oc=5",
-      "datetime": 1790524145,
-      "headlineKo": "트럼프, 영국 주둔 미 공군기지에서 체포된 남성들은 '큰 피해'를 노리고 있었다 - 로이터",
-      "summaryKo": "트럼프, 영국 주둔 미 공군기지에서 체포된 남성들은 '큰 피해'를 노리고 있었다 - 로이터"
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMEhHb1NVZ2VyRG1XTjdXS2hvVWVDem9lNERpM3hNWWstWjFrbjA5YXhHb0c5a0txQW1mT3IyWGFBa2FCQ19melMwVkh2S2xINWdOdXVrSDBHanRaeUU0d0N6aXk2LTJaQ3RZc3NRNmFFZi1PcWJzV29VU0pwcXBUR3pOZVFLUmhRMHBOajZtYlBua0diZEE?oc=5",
+      "datetime": 1790524884,
+      "headlineKo": "팟캐스트: 이란-미국 외교, RAF 페어포드 및 브라질 선거 - Reuters",
+      "summaryKo": "팟캐스트: 이란-미국 외교, RAF Fairford 및 브라질 선거 Reuters"
     },
     {
       "headline": "At NFL games this season, drone defense tech aims to bring down disruptions",
@@ -271,6 +280,24 @@ const MARKET_DATA = {
       "datetime": 1790508755,
       "headlineKo": "월스트리트 자금이 소액 투자자들로부터 주식 시장의 원동력으로 자리 잡았습니다.",
       "summaryKo": "한 회사는 기관 투자자들 사이에서 \"위험 선호도에 대한 합리적으로 건설적인 신호\"를 보고 있습니다."
+    },
+    {
+      "headline": "Deputy chair of Turkey's AK Party resigns after trading allegation amid funds crisis - Reuters",
+      "summary": "Deputy chair of Turkey's AK Party resigns after trading allegation amid funds crisis Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcTYwUjZCOEZlU3ZxVDI1Q1Ytb2pqM1l1U2NLQUxoVU5nQzZ3ZDdkZ1U2LXF2MEZVSHFFR1NWdWlGek5aS1ZoelpVaG5wSjZaamVSVWM3alBqY3FqWmk0SXdmUjRmWEdvQ2ZKU3JTQ3M5TFpJeDFjdk82Y05aNmNYUWhrUzJhQ0x4enNDXy15WVp2VWJCNndSaG5oYWZpTHZxTEd4T1ZiTlJUYzVaemdnQWNpNUxZeFJFS2xiRENDR3R6aWFIWUVMQWp1RkJ2dVk?oc=5",
+      "datetime": 1790507503,
+      "headlineKo": "터키 AK당 부의장, 자금 위기 속 거래 혐의로 사임 - 로이터",
+      "summaryKo": "터키 AK당 부의장은 자금 위기 속에서 거래 혐의로 사임 - 최신"
+    },
+    {
+      "headline": "Seven people killed in strike on market in Yemen, Houthi-run health ministry says - reuters.com",
+      "summary": "Seven people killed in strike on market in Yemen, Houthi-run health ministry says reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQjI3MkxLdHM5cEZjNElqWk1FbnN6bnFnN2Rzdm0teV9IM3lBYnVkNUJuci0xS281b0dlTVJwalJpOEZmNGc0RmJLeUhreUV0QWtybE9YZU8waUNsM1BybjdUR1hSQ0lNWmpPZktPQ2k5VksyZ0dhd3p0QTVDOWhrUGgxQzhIU3A0Y0tiaUpWS0JoZlZqUnJZbXBpOUwxeWxESG1pR1RtYW9aSmhHTE1XN21POGIxa05xcHJ2SDQ3RkxQbGc?oc=5",
+      "datetime": 1790507086,
+      "headlineKo": "후티 반군 보건부가 예멘에서 시장 파업으로 7명이 사망했다고 밝혔다 - reuters.com",
+      "summaryKo": "후티 반군 보건부가 예멘 시장 파업으로 7명 사망했다고 reuters.com이 밝혔습니다."
     },
     {
       "headline": "Iran's army voices readiness for potential renewed US attack - Reuters",
@@ -316,45 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790435460,
       "headlineKo": "미국 30년 국채 수익률, 심리 측정 후 '진공' 상태에서 5.5% 돌파",
       "summaryKo": "미국 30년물 수익률은 소비자 심리가 예상치를 상회함에 따라 5.5%를 넘어 다년간 최고치를 기록했으며, 지속적인 금리 기대 속에서 10년물도 상승했습니다."
-    },
-    {
-      "headline": "Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics",
-      "summary": "A federal jury awarded Taction Technology more than $5.7 billion after finding Apple infringed claims from two haptics patents. Apple plans to appeal.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/26/apple-taction-technology-patent-infringement-verdict.html",
-      "datetime": 1790434559,
-      "headlineKo": "Apple, iPhone 및 Apple Watch 햅틱에 대해 57억 달러 규모의 특허 침해 판결에 직면",
-      "summaryKo": "연방 배심원은 Apple이 두 가지 햅틱 특허에 대한 침해 주장을 판결한 후 Taction Technology에 57억 달러 이상을 지급했습니다. 애플은 항소할 계획이다."
-    },
-    {
-      "headline": "PODCAST: Iran’s peace proposal, OpenAI image leak and FIFA reform - Reuters",
-      "summary": "PODCAST: Iran’s peace proposal, OpenAI image leak and FIFA reform Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX3BxMHVzWk9qNUllR2xVX0x5WHlKMk1DalNmZ0laTDNYZkRMRWhwSjNFVktkSzM4aklocUdIeDgtWlc3N001a25kUkdKZTNTV3pKU2YwZkI1TE1qeklLOXJQNXg4UFMyZGhCSjVRSTQ4Q2p6N3ZoT084c3NBdndHWmF4TXR0b1ZHOHhEMmJiVDNWVjVzaVJKbHU4bw?oc=5",
-      "datetime": 1790432160,
-      "headlineKo": "팟캐스트: 이란의 평화 제안, OpenAI 이미지 유출 및 FIFA 개혁 - Reuters",
-      "summaryKo": "팟캐스트: 이란의 평화 제안, OpenAI 이미지 유출 및 FIFA 개혁 Reuters"
-    },
-    {
-      "headline": "The blue-collar AI job market is booming. Will data center backlash make it go bust?",
-      "summary": "The public has soured on AI data centers and states are slowing development, but for HVAC, plumbing, welding, and electrical workers, it's been a jobs boom.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/26/blue-collar-jobs-ai-data-center-backlash.html",
-      "datetime": 1790430222,
-      "headlineKo": "블루칼라 AI 채용시장이 호황을 누리고 있다. 데이터 센터 반발로 인해 파산하게 될까요?",
-      "summaryKo": "대중은 AI 데이터 센터에 불만을 품고 있으며 주에서는 개발 속도를 늦추고 있지만 HVAC, 배관, 용접 및 전기 작업자에게는 일자리 붐이 일어났습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790528411.8308659,
+  "_news_last_success_at": 1790532016.495691,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790528403.3451293,
-  "_updated_label": "2026-09-28 02:00",
-  "_last_attempt_at": 1790528403.3451293,
-  "_last_success_at": 1790528403.3451293,
+  "_fetched_at": 1790532003.370652,
+  "_updated_label": "2026-09-28 03:00",
+  "_last_attempt_at": 1790532003.370652,
+  "_last_success_at": 1790532003.370652,
   "_collection_status": "ok",
   "_collection_errors": []
 };
