@@ -237,11 +237,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Here are the 4 big things we're watching in the stock market in the week ahead",
+      "summary": "Both sides of the Fed's dual mandate are in focus. Plus, Micron reports and Eli Lilly delivers updates on its obesity pipeline.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/27/here-are-the-4-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+      "datetime": 1790525803,
+      "headlineKo": "다음 주에 주식 시장에서 우리가 주목해야 할 4가지 주요 사항은 다음과 같습니다.",
+      "summaryKo": "연준의 이중 권한에 대한 양측의 관심이 집중되고 있습니다. 또한 Micron은 보고하고 Eli Lilly는 비만 파이프라인에 대한 업데이트를 제공합니다."
+    },
+    {
       "headline": "Trump says men arrested at US air base in UK were looking to do 'big damage' - Reuters",
       "summary": "Trump says men arrested at US air base in UK were looking to do 'big damage' Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOThaUHcwMHZuZEY2dldUNjhYQ29PeWRJdEYxWFBPV3NEUUdSc0l4MkdhN3liTGdyNG9XaEhwWG8xRk8xR29JVlA0ZEV2ZXM3RVZCRDlPSHhzU29Pek9tZVREdUdvOHRXS1ZuaTR0TXVGV253bkplU1lNbG85WXRjYzcwV2ZSekFCa1gtR1RtV09zM3NYeF93?oc=5",
-      "datetime": 1790522663,
+      "datetime": 1790524145,
       "headlineKo": "트럼프, 영국 주둔 미 공군기지에서 체포된 남성들은 '큰 피해'를 노리고 있었다 - 로이터",
       "summaryKo": "트럼프, 영국 주둔 미 공군기지에서 체포된 남성들은 '큰 피해'를 노리고 있었다 - 로이터"
     },
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790430222,
       "headlineKo": "블루칼라 AI 채용시장이 호황을 누리고 있다. 데이터 센터 반발로 인해 파산하게 될까요?",
       "summaryKo": "대중은 AI 데이터 센터에 불만을 품고 있으며 주에서는 개발 속도를 늦추고 있지만 HVAC, 배관, 용접 및 전기 작업자에게는 일자리 붐이 일어났습니다."
-    },
-    {
-      "headline": "27-year-old started a run club to meet new people—now his NYC side hustle brings in $640K a year",
-      "summary": "When Owen Akhibi Herrera started his New York City-based run club in 2024, he craved community — and entrepreneurial opportunity.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/26/nyc-run-club-side-hustle.html",
-      "datetime": 1790427901,
-      "headlineKo": "27세의 그는 새로운 사람들을 만나기 위해 달리기 클럽을 시작했습니다. 이제 그의 뉴욕시 부업으로 연간 64만 달러를 벌어들입니다.",
-      "summaryKo": "Owen Akhibi Herrera는 2024년 뉴욕에 기반을 둔 운영 클럽을 시작했을 때 커뮤니티와 기업가적 기회를 갈망했습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790524815.7512906,
+  "_news_last_success_at": 1790528411.8308659,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790524803.3501215,
-  "_updated_label": "2026-09-28 01:00",
-  "_last_attempt_at": 1790524803.3501215,
-  "_last_success_at": 1790524803.3501215,
+  "_fetched_at": 1790528403.3451293,
+  "_updated_label": "2026-09-28 02:00",
+  "_last_attempt_at": 1790528403.3451293,
+  "_last_success_at": 1790528403.3451293,
   "_collection_status": "ok",
   "_collection_errors": []
 };
