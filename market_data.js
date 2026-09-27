@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Trump says men arrested at US air base in UK were looking to do 'big damage' - Reuters",
+      "summary": "Trump says men arrested at US air base in UK were looking to do 'big damage' Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOThaUHcwMHZuZEY2dldUNjhYQ29PeWRJdEYxWFBPV3NEUUdSc0l4MkdhN3liTGdyNG9XaEhwWG8xRk8xR29JVlA0ZEV2ZXM3RVZCRDlPSHhzU29Pek9tZVREdUdvOHRXS1ZuaTR0TXVGV253bkplU1lNbG85WXRjYzcwV2ZSekFCa1gtR1RtV09zM3NYeF93?oc=5",
+      "datetime": 1790522663,
+      "headlineKo": "트럼프, 영국 주둔 미 공군기지에서 체포된 남성들은 '큰 피해'를 노리고 있었다 - 로이터",
+      "summaryKo": "트럼프, 영국 주둔 미 공군기지에서 체포된 남성들은 '큰 피해'를 노리고 있었다 - 로이터"
+    },
+    {
       "headline": "At NFL games this season, drone defense tech aims to bring down disruptions",
       "summary": "The NFL told CNBC it recorded 10,852 drone violations over stadiums between 2021 and 2025. The Jaguars became the first team to sign a drone defense firm.",
       "source": "CNBC",
@@ -244,15 +253,6 @@ const MARKET_DATA = {
       "datetime": 1790510401,
       "headlineKo": "이번 시즌 NFL 경기에서 드론 방어 기술은 혼란을 줄이는 것을 목표로 합니다.",
       "summaryKo": "NFL은 CNBC에 2021년부터 2025년까지 경기장에서 10,852건의 드론 위반을 기록했다고 말했습니다. 재규어는 드론 방어 회사와 계약한 첫 번째 팀이 되었습니다."
-    },
-    {
-      "headline": "Men arrested in major incident at UK air base used by US - Reuters",
-      "summary": "Men arrested in major incident at UK air base used by US Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOThaUHcwMHZuZEY2dldUNjhYQ29PeWRJdEYxWFBPV3NEUUdSc0l4MkdhN3liTGdyNG9XaEhwWG8xRk8xR29JVlA0ZEV2ZXM3RVZCRDlPSHhzU29Pek9tZVREdUdvOHRXS1ZuaTR0TXVGV253bkplU1lNbG85WXRjYzcwV2ZSekFCa1gtR1RtV09zM3NYeF93?oc=5",
-      "datetime": 1790508886,
-      "headlineKo": "미국이 사용하는 영국 공군 기지에서 대형 사고로 남성 체포 - 로이터",
-      "summaryKo": "미국이 사용하는 영국 공군 기지에서 대형 사고로 남성 체포 로이터"
     },
     {
       "headline": "Wall Street money takes back over from small investors as driving force of the stock market",
@@ -300,6 +300,15 @@ const MARKET_DATA = {
       "summaryKo": "중국, 유엔 연설에서 이란과 쿠바에 대해 미국에 반발 - 최신"
     },
     {
+      "headline": "US 30-year yield tops 5.5% in ‘Vacuum’ after sentiment gauge",
+      "summary": "US 30-year yield hits multiyear highs above 5.5% as consumer sentiment beats estimates, with 10-year also rising, amid ongoing rate expectations.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-25/us-30-year-yield-tops-5-5-in-vacuum-after-sentiment-gauge",
+      "datetime": 1790435460,
+      "headlineKo": "미국 30년 국채 수익률, 심리 측정 후 '진공' 상태에서 5.5% 돌파",
+      "summaryKo": "미국 30년물 수익률은 소비자 심리가 예상치를 상회함에 따라 5.5%를 넘어 다년간 최고치를 기록했으며, 지속적인 금리 기대 속에서 10년물도 상승했습니다."
+    },
+    {
       "headline": "Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics",
       "summary": "A federal jury awarded Taction Technology more than $5.7 billion after finding Apple infringed claims from two haptics patents. Apple plans to appeal.",
       "source": "CNBC",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790427901,
       "headlineKo": "27세의 그는 새로운 사람들을 만나기 위해 달리기 클럽을 시작했습니다. 이제 그의 뉴욕시 부업으로 연간 64만 달러를 벌어들입니다.",
       "summaryKo": "Owen Akhibi Herrera는 2024년 뉴욕에 기반을 둔 운영 클럽을 시작했을 때 커뮤니티와 기업가적 기회를 갈망했습니다."
-    },
-    {
-      "headline": "Major TV networks resume live coverage of White House after ban",
-      "summary": "Fox News, CNN and MS NOW airs footage of Trump hosting Xi and his wife, Madame Peng Liyuan in the White House for tea on the summit’s final day",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-25/major-tv-networks-resume-live-coverage-of-white-house-after-ban",
-      "datetime": 1790405906,
-      "headlineKo": "주요 TV 네트워크는 금지 이후 백악관 생방송을 재개합니다.",
-      "summaryKo": "폭스뉴스, CNN, MS NOW는 트럼프 대통령이 정상회담 마지막 날 백악관에서 시 부부와 함께 차를 마시기 위해 부인 펑리위안 여사를 초대하는 장면을 방송했다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790521271.8450353,
+  "_news_last_success_at": 1790524815.7512906,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790521259.8628893,
-  "_updated_label": "2026-09-28 00:01",
-  "_last_attempt_at": 1790521259.8628893,
-  "_last_success_at": 1790521259.8628893,
+  "_fetched_at": 1790524803.3501215,
+  "_updated_label": "2026-09-28 01:00",
+  "_last_attempt_at": 1790524803.3501215,
+  "_last_success_at": 1790524803.3501215,
   "_collection_status": "ok",
   "_collection_errors": []
 };
