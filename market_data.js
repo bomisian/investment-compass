@@ -309,6 +309,15 @@ const MARKET_DATA = {
       "summaryKo": "후티 반군 보건부, 예멘 시장 파업으로 7명 사망 로이터 통신"
     },
     {
+      "headline": "Iranian tennis player savours refuge from war at Asian Games - Reuters",
+      "summary": "Iranian tennis player savours refuge from war at Asian Games Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUmY1bllrTGZaelFybmRMUUFvU180NGRmbWFYQkM4NVNhaE5MRndnbTRSSXVwQzZyVDVqZWlYZFZsNl9Ldnl0ZFpiUG5pcUZjMHJLQS03YV91blFEODlPbWVmNXhzUzBockJISmYzSjg0RmpsMjE5NmdMWmNkOUhFTGtzU05iSzN1dU9EeG5jMjQ5YUp5MDBIdjdnVmxtdnd0VDJFdg?oc=5",
+      "datetime": 1790505364,
+      "headlineKo": "이란 테니스 선수, 아시안게임에서 전쟁 피난길 만끽 - 로이터",
+      "summaryKo": "이란 테니스 선수, 아시안 게임에서 전쟁으로부터 피난처를 맛보다 - 로이터"
+    },
+    {
       "headline": "Iran's army voices readiness for potential renewed US attack - Reuters",
       "summary": "Iran's army voices readiness for potential renewed US attack Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790452772,
       "headlineKo": "중국, 미국, AI 대화에 동의하고 시 주석 방문 중 300억 달러 규모의 물품에 대한 관세 인하 - Reuters",
       "summaryKo": "중국, 미국, AI 대화에 동의하고 시 방문 중 300억 달러 규모의 물품에 대한 관세 인하 - 로이터"
-    },
-    {
-      "headline": "China pushes back against US on Iran and Cuba in UN speech - Reuters",
-      "summary": "China pushes back against US on Iran and Cuba in UN speech Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNmFyYk05dGVubEpsSTJ2dGwxcWtFNEx0ZDNybVVaMndCOUpzOTV5SHNjdmw0eHFCQzlsSHZONU91bHVjeU9lQ1RjSTJSM0pZRDhzUUNENHl1b1daMUxkajZ2QklCNTY5bXUxV0dEczRhZTJmU0VKWHhUeWN0OG5OYWRXdWRYUHJOaFJWbjlySGpEdUQtaDdDWThfTWk?oc=5",
-      "datetime": 1790450077,
-      "headlineKo": "중국, 유엔 연설에서 이란과 쿠바 문제에 대해 미국에 반발 - 로이터",
-      "summaryKo": "중국, 유엔 연설에서 이란과 쿠바에 대해 미국에 반발 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790535614.755478,
+  "_news_last_success_at": 1790539211.7721293,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790535603.3839993,
-  "_updated_label": "2026-09-28 04:00",
-  "_last_attempt_at": 1790535603.3839993,
-  "_last_success_at": 1790535603.3839993,
+  "_fetched_at": 1790539203.355305,
+  "_updated_label": "2026-09-28 05:00",
+  "_last_attempt_at": 1790539203.355305,
+  "_last_success_at": 1790539203.355305,
   "_collection_status": "ok",
   "_collection_errors": []
 };
