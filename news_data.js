@@ -2782,7 +2782,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "SPY": {
@@ -5885,7 +5885,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "MSFT": {
@@ -11556,7 +11556,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "GOOGL": {
@@ -18184,7 +18184,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 151,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "AMZN": {
@@ -24690,7 +24690,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 158,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "META": {
@@ -31517,7 +31517,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 172,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "AAPL": {
@@ -37874,7 +37874,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 153,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "TSLA": {
@@ -44330,7 +44330,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 159,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "ORCL": {
@@ -49852,7 +49852,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 127,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "CRM": {
@@ -53883,7 +53883,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "PLTR": {
@@ -59417,11 +59417,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "NVDA": {
-    "_last_attempt_at": 1790508855.2090652,
+    "_last_attempt_at": 1790509147.6029415,
     "nextEarnings": {
       "date": "2026-11-17",
       "hour": "amc",
@@ -59430,6 +59430,70 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "3 Reasons Why Nvidia Fits Warren Buffett's Investment Style",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3e0b54b2bb227716c646f29fa07febca4b32de2976e4e402bc082b9b2bf1b0cd",
+        "datetime": 1790496900,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nvidia가 Warren Buffett의 투자 스타일에 적합한 3가지 이유 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% The Motley Fool에 합류하세요. Warren Buffett과 Berkshire Hathaway는 Nvidia를 소유한 적이 없습니다( N",
+            "반도체 주식은 매력적인 가치 평가로 거래되는 내구성 있고 복합적인 비즈니스 모델을 갖춘 넓은 해자를 보유하고 있습니다.",
+            "Nvidia가 버핏형 투자로 간주되어야 하는 이유를 더 자세히 살펴보겠습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $500 billion, 0.22 %, $ 0.49 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "NVDA에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$500 billion",
+            "0.22 %",
+            "$ 0.49",
+            "$ 225.07",
+            "$5.4",
+            "$ 223.13",
+            "$ 226.94",
+            "$ 164.27"
+          ],
+          "sourceExcerpt": [
+            "3 Reasons Why Nvidia Fits Warren Buffett's Investment Style | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool While Warren Buffett and Berkshire Hathaway have never owned Nvidia ( N",
+            "The semiconductor stock has a wide moat with a durable, compounding business model that is trading at an attractive valuation.",
+            "Let's dig deeper into why Nvidia should be considered a Buffett-style investment ."
+          ],
+          "analysisUpdatedAt": 1790509153.4608617
+        },
+        "headlineKo": "Nvidia가 Warren Buffett의 투자 스타일에 적합한 3가지 이유"
+      },
       {
         "headline": "A $1,000 Investment Split Between Alphabet and Nvidia Will Be Worth This Much by 2030",
         "source": "Yahoo",
@@ -59490,7 +59554,7 @@ const NEWS_DATA = {
             "Nvidia is the world's largest company, while Alphabet is the third-largest behind Apple , which isn't pursuing AI technology as aggressively as Alphabet.",
             "Both of these companies have an incredibly bright future, and I think they will make investors a lot of money from now through 2030."
           ],
-          "analysisUpdatedAt": 1790486861.7569036
+          "analysisUpdatedAt": 1790509156.1697958
         },
         "headlineKo": "Alphabet과 Nvidia의 1,000달러 투자 분할은 2030년까지 이만큼 가치가 있을 것입니다"
       },
@@ -59540,7 +59604,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790486864.943855
+          "analysisUpdatedAt": 1790509159.1103618
         },
         "headlineKo": "'통제될 때까지 제품을 배송하지 마세요': Nvidia의 Huang이 AI 안전 논쟁에 참여"
       },
@@ -59552,60 +59616,6 @@ const NEWS_DATA = {
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "경쟁사 수주 · 고객 점유 변화",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Nvidia는 Anthropic의 IPO에서 100억 달러 규모의 지분을 보유하고 있습니다.",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 합류 Nvidia( NVDA +0.22% )는 Anthropic에 두 번째 100억 달러 수표를 발행할 준비를 하고 있을 수도 있습니다.",
-            "칩 제조업체는 Anthropic의 계획된 기업공개(IPO)에 주요 투자자가 되기 위해 협상 중이라고 로이터는 이번 달에 밝혔습니다. 이 거래는 주요 고객과의 관계를 심화시킬 수 있습니다."
-          ],
-          "why": [
-            "경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다.",
-            "이번 기사에서 확인된 구체적 수치: $10 Billion, $10 billion, $100 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "경쟁사가 같은 고객에게 납품할 기회를 얻었다는 뜻입니다. 기존 회사 물량을 빼앗은 것인지, 고객이 공급처를 하나 더 늘린 것인지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "신규 공급사의 실제 물량",
-            "기존 공급사 매출 비중",
-            "고객의 이중 공급 전략"
-          ],
-          "interpretation": "NVDA에 대한 경쟁사 수주 · 고객 점유 변화 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$10 Billion",
-            "$10 billion",
-            "$100 billion",
-            "$2 trillion",
-            "$5 billion",
-            "$30 billion",
-            "1%",
-            "$735 million"
-          ],
-          "sourceExcerpt": [
-            "Nvidia Is Weighing a $10 Billion Stake in Anthropic's IPO.",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia ( NVDA +0.22% ) might be gearing up to write Anthropic a second $10 billion check.",
-            "The chipmaker's in talks to be an anchor investor in Anthropic's planned initial public offering (IPO) , Reuters said this month, a deal that could deepen its ties to a major customer."
-          ],
-          "analysisUpdatedAt": 1790486868.1178255
-        },
         "headlineKo": "Nvidia는 Anthropic의 IPO에서 100억 달러 규모의 지분을 보유하고 있습니다. 그것은 자체 수요를 구매하는 것입니다."
       },
       {
@@ -59617,19 +59627,72 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "IonQ(IONQ)는 Jensen Huang의 30년 양자 경고 이후 2년도 채 되지 않아 Nvidia에 상륙했습니다."
-      },
-      {
-        "headline": "Nvidia Trades Near Its 52-Week High at Its Cheapest Valuation in a Decade. History Says This Is What $1,000 Invested Could Be Worth by 2030.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=adc1d3988f41d16b08a227e9650b3e66f806fa36ecfee1a584ce5455f31d8cdd",
-        "datetime": 1790425320,
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Nvidia는 10년 만에 가장 저렴한 가치로 52주 최고가에 근접했습니다. 역사에 따르면 2030년까지 투자한 1,000달러의 가치는 이 정도입니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "3 Reasons Why Nvidia Fits Warren Buffett's Investment Style",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3e0b54b2bb227716c646f29fa07febca4b32de2976e4e402bc082b9b2bf1b0cd",
+        "datetime": 1790496900,
+        "headlineKo": "Nvidia가 Warren Buffett의 투자 스타일에 적합한 3가지 이유",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nvidia가 Warren Buffett의 투자 스타일에 적합한 3가지 이유 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% The Motley Fool에 합류하세요. Warren Buffett과 Berkshire Hathaway는 Nvidia를 소유한 적이 없습니다( N",
+            "반도체 주식은 매력적인 가치 평가로 거래되는 내구성 있고 복합적인 비즈니스 모델을 갖춘 넓은 해자를 보유하고 있습니다.",
+            "Nvidia가 버핏형 투자로 간주되어야 하는 이유를 더 자세히 살펴보겠습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $500 billion, 0.22 %, $ 0.49 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "NVDA에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$500 billion",
+            "0.22 %",
+            "$ 0.49",
+            "$ 225.07",
+            "$5.4",
+            "$ 223.13",
+            "$ 226.94",
+            "$ 164.27"
+          ],
+          "sourceExcerpt": [
+            "3 Reasons Why Nvidia Fits Warren Buffett's Investment Style | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool While Warren Buffett and Berkshire Hathaway have never owned Nvidia ( N",
+            "The semiconductor stock has a wide moat with a durable, compounding business model that is trading at an attractive valuation.",
+            "Let's dig deeper into why Nvidia should be considered a Buffett-style investment ."
+          ],
+          "analysisUpdatedAt": 1790509153.4608617
+        }
+      },
       {
         "headline": "A $1,000 Investment Split Between Alphabet and Nvidia Will Be Worth This Much by 2030",
         "source": "Yahoo",
@@ -59690,7 +59753,7 @@ const NEWS_DATA = {
             "Nvidia is the world's largest company, while Alphabet is the third-largest behind Apple , which isn't pursuing AI technology as aggressively as Alphabet.",
             "Both of these companies have an incredibly bright future, and I think they will make investors a lot of money from now through 2030."
           ],
-          "analysisUpdatedAt": 1790486861.7569036
+          "analysisUpdatedAt": 1790509156.1697958
         }
       },
       {
@@ -59739,7 +59802,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790486864.943855
+          "analysisUpdatedAt": 1790509159.1103618
         }
       },
       {
@@ -66923,17 +66986,16 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790486830.4954557,
-    "_updated_label": "2026-09-27 14:27",
-    "_last_success_at": 1790486830.4954557,
-    "_collection_status": "error",
+    "_fetched_at": 1790509147.6029415,
+    "_updated_label": "2026-09-27 20:39",
+    "_last_success_at": 1790509147.6029415,
+    "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 179,
+      "checked": 180,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
-    },
-    "_last_error": "The read operation timed out"
+      "updated": "2026-09-27 20:39"
+    }
   },
   "AMD": {
     "_last_attempt_at": 1790505104.7039855,
@@ -72573,7 +72635,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 137,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "AVGO": {
@@ -76356,7 +76418,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "QCOM": {
@@ -79878,7 +79940,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "ARM": {
@@ -82797,7 +82859,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "MRVL": {
@@ -86306,7 +86368,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "INTC": {
@@ -91307,7 +91369,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 122,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "TSM": {
@@ -94014,7 +94076,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "ASML": {
@@ -96136,7 +96198,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "AMAT": {
@@ -98372,7 +98434,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "LRCX": {
@@ -99566,7 +99628,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "KLAC": {
@@ -100733,7 +100795,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "MU": {
@@ -107093,7 +107155,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 152,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "SNDK": {
@@ -110755,7 +110817,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "WDC": {
@@ -112443,7 +112505,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "ANET": {
@@ -114156,7 +114218,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "COHR": {
@@ -115795,7 +115857,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "LITE": {
@@ -117459,7 +117521,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "GEV": {
@@ -120432,7 +120494,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "CEG": {
@@ -121857,7 +121919,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "VST": {
@@ -123472,7 +123534,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "ETN": {
@@ -125174,7 +125236,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "PWR": {
@@ -127027,7 +127089,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "HUBB": {
@@ -127669,7 +127731,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "VRT": {
@@ -129645,7 +129707,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "MOD": {
@@ -130347,7 +130409,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "STX": {
@@ -131750,7 +131812,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "EME": {
@@ -132753,7 +132815,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "FIX": {
@@ -133509,7 +133571,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   },
   "BE": {
@@ -134968,7 +135030,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-27 20:34"
+      "updated": "2026-09-27 20:39"
     }
   }
 };
