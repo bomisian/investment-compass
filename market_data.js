@@ -237,13 +237,22 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Police declare major incident at UK's Fairford air base, used by US air forces - Reuters",
-      "summary": "Police declare major incident at UK's Fairford air base, used by US air forces Reuters",
+      "headline": "Men arrested in major incident at UK air base used by US - Reuters",
+      "summary": "Men arrested in major incident at UK air base used by US Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOThaUHcwMHZuZEY2dldUNjhYQ29PeWRJdEYxWFBPV3NEUUdSc0l4MkdhN3liTGdyNG9XaEhwWG8xRk8xR29JVlA0ZEV2ZXM3RVZCRDlPSHhzU29Pek9tZVREdUdvOHRXS1ZuaTR0TXVGV253bkplU1lNbG85WXRjYzcwV2ZSekFCa1gtR1RtV09zM3NYeF93?oc=5",
-      "datetime": 1790495568,
-      "headlineKo": "경찰, 미 공군이 사용하는 영국 페어포드 공군기지에서 대형 사고 선포 - 로이터 통신",
-      "summaryKo": "경찰, 미 공군이 사용하는 영국 페어포드 공군기지에서 중대한 사건 선포 - 최신"
+      "datetime": 1790502935,
+      "headlineKo": "미국이 사용하는 영국 공군 기지에서 대형 사고로 남성 체포 - 로이터",
+      "summaryKo": "미국이 사용하는 영국 공군 기지에서 대형 사고로 남성 체포 로이터"
+    },
+    {
+      "headline": "Iran's army voices readiness for potential renewed US attack - Reuters",
+      "summary": "Iran's army voices readiness for potential renewed US attack Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbVBhbkluN19hdE9jdGtYdDdlZXNYWGd3T25HUGREMlVVb2ZZWmlrYU0tYTJreW9YcjlMeUhwdXp2UlNPMTFtUXFOWVh6enk2TG45VEtKNEw1bnZKdTUyQnhNdmZ1VmhEYXhYZkFObl9KcHROa1h0S2QyVE83MnQwMnp5bjN2UTM4NmpKeUM5eFNTQzg4RXRCWFNpZEhmdw?oc=5",
+      "datetime": 1790502011,
+      "headlineKo": "이란군, 미국의 재공격 가능성에 대비 태세 표명 - 로이터",
+      "summaryKo": "이란군, 미국의 새로운 공격 가능성에 대한 준비 표명 - 최신"
     },
     {
       "headline": "Iran insists on diplomatic solution after Trump rejects peace plan - Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790399504,
       "headlineKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 - 로이터",
       "summaryKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 Reuters"
-    },
-    {
-      "headline": "How Trump’s diesel ban threat is making US exports more profitable",
-      "summary": "Europe is desperate for diesel after the Iran war led to a swath of lost supply and attacks on Russian oil refineries by Ukraine added to tightness in the global market",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-25/trump-s-diesel-ban-talk-has-just-made-us-exports-more-lucrative",
-      "datetime": 1790395995,
-      "headlineKo": "트럼프의 디젤 금지 위협이 미국 수출의 수익성을 높이는 방법",
-      "summaryKo": "이란 전쟁으로 공급이 중단되고 우크라이나가 러시아 정유소를 공격해 세계 시장이 경색된 이후 유럽은 디젤 수요가 절실하다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790503291.3178785,
+  "_news_last_success_at": 1790507028.622566,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790503275.9342005,
-  "_updated_label": "2026-09-27 19:01",
-  "_last_attempt_at": 1790503275.9342005,
-  "_last_success_at": 1790503275.9342005,
+  "_fetched_at": 1790507017.5650954,
+  "_updated_label": "2026-09-27 20:04",
+  "_last_attempt_at": 1790507017.5650954,
+  "_last_success_at": 1790507017.5650954,
   "_collection_status": "ok",
   "_collection_errors": []
 };
