@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Trump to have dinner with Anthropic CEO Amodei at the White House, Axios reports",
+      "summary": "Athropic CEO Dario Amodei is set to have dinner with President Donald Trump at the White House on Sunday, Axios reported.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/27/trump-dinner-anthropic-ceo-amodei.html",
+      "datetime": 1790534647,
+      "headlineKo": "Axios는 트럼프가 백악관에서 Anthropic CEO Amodei와 저녁 식사를 할 것이라고 보도했습니다.",
+      "summaryKo": "Athropic CEO Dario Amodei는 일요일 백악관에서 도널드 트럼프 대통령과 만찬을 가질 예정이라고 Axios가 보도했습니다."
+    },
+    {
       "headline": "Trump says men arrested at UK air base used by US were looking to do 'big damage' - Reuters",
       "summary": "Trump says men arrested at UK air base used by US were looking to do 'big damage' Reuters",
       "source": "Reuters",
@@ -291,13 +300,13 @@ const MARKET_DATA = {
       "summaryKo": "터키 AK당 부의장은 자금 위기 속에서 거래 혐의로 사임 - 최신"
     },
     {
-      "headline": "Seven people killed in strike on market in Yemen, Houthi-run health ministry says - reuters.com",
-      "summary": "Seven people killed in strike on market in Yemen, Houthi-run health ministry says reuters.com",
+      "headline": "Seven people killed in strike on market in Yemen, Houthi-run health ministry says - Reuters",
+      "summary": "Seven people killed in strike on market in Yemen, Houthi-run health ministry says Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQjI3MkxLdHM5cEZjNElqWk1FbnN6bnFnN2Rzdm0teV9IM3lBYnVkNUJuci0xS281b0dlTVJwalJpOEZmNGc0RmJLeUhreUV0QWtybE9YZU8waUNsM1BybjdUR1hSQ0lNWmpPZktPQ2k5VksyZ0dhd3p0QTVDOWhrUGgxQzhIU3A0Y0tiaUpWS0JoZlZqUnJZbXBpOUwxeWxESG1pR1RtYW9aSmhHTE1XN21POGIxa05xcHJ2SDQ3RkxQbGc?oc=5",
       "datetime": 1790507086,
-      "headlineKo": "후티 반군 보건부가 예멘에서 시장 파업으로 7명이 사망했다고 밝혔다 - reuters.com",
-      "summaryKo": "후티 반군 보건부가 예멘 시장 파업으로 7명 사망했다고 reuters.com이 밝혔습니다."
+      "headlineKo": "후티 반군 보건부가 예멘에서 시장 파업으로 7명이 사망했다고 밝혔다 - 로이터 통신",
+      "summaryKo": "후티 반군 보건부, 예멘 시장 파업으로 7명 사망 로이터 통신"
     },
     {
       "headline": "Iran's army voices readiness for potential renewed US attack - Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790450077,
       "headlineKo": "중국, 유엔 연설에서 이란과 쿠바 문제에 대해 미국에 반발 - 로이터",
       "summaryKo": "중국, 유엔 연설에서 이란과 쿠바에 대해 미국에 반발 - 최신"
-    },
-    {
-      "headline": "US 30-year yield tops 5.5% in ‘Vacuum’ after sentiment gauge",
-      "summary": "US 30-year yield hits multiyear highs above 5.5% as consumer sentiment beats estimates, with 10-year also rising, amid ongoing rate expectations.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-25/us-30-year-yield-tops-5-5-in-vacuum-after-sentiment-gauge",
-      "datetime": 1790435460,
-      "headlineKo": "미국 30년 국채 수익률, 심리 측정 후 '진공' 상태에서 5.5% 돌파",
-      "summaryKo": "미국 30년물 수익률은 소비자 심리가 예상치를 상회함에 따라 5.5%를 넘어 다년간 최고치를 기록했으며, 지속적인 금리 기대 속에서 10년물도 상승했습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790532016.495691,
+  "_news_last_success_at": 1790535614.755478,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790532003.370652,
-  "_updated_label": "2026-09-28 03:00",
-  "_last_attempt_at": 1790532003.370652,
-  "_last_success_at": 1790532003.370652,
+  "_fetched_at": 1790535603.3839993,
+  "_updated_label": "2026-09-28 04:00",
+  "_last_attempt_at": 1790535603.3839993,
+  "_last_success_at": 1790535603.3839993,
   "_collection_status": "ok",
   "_collection_errors": []
 };
