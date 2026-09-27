@@ -309,6 +309,15 @@ const MARKET_DATA = {
       "summaryKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 Reuters"
     },
     {
+      "headline": "Crude oil price dips as traders weigh US-Iran Hormuz talks, supply risks",
+      "summary": "Oil eases as US-Iran Hormuz talks unfold, amid supply risks, regional tensions, and uncertain prospects for a breakthrough.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-24/latest-oil-market-news-and-analysis-for-date",
+      "datetime": 1790393874,
+      "headlineKo": "거래자들이 미국-이란 호르무즈 회담과 공급 위험을 저울질하면서 원유 가격 하락",
+      "summaryKo": "공급 위험, 지역적 긴장, 돌파구에 대한 불확실한 전망 속에서 미국-이란 호르무즈 회담이 전개되면서 유가는 완화되고 있습니다."
+    },
+    {
       "headline": "Saudi coalition says it intercepts Houthi missiles, drones - Reuters",
       "summary": "Saudi coalition says it intercepts Houthi missiles, drones Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790368569,
       "headlineKo": "이란 아라크치 \"이제 미국이 7일 계획 수용할 것\"",
       "summaryKo": "이란 아라크치 \"이제 미국이 7일 계획 수용할 것\""
-    },
-    {
-      "headline": "EU warns of energy price crisis, asks countries to consider curbing demand, letter shows - Reuters",
-      "summary": "EU warns of energy price crisis, asks countries to consider curbing demand, letter shows Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNemtIR2FDbDVHcjRWdzNYQnpYZGdsSW5yZTIzRlFtTnhXMVoxUGc1RTNWNlNVTkdiZk05SHpsMmh1TXlvQmdOLWR3MHlGRHV0Qkg4SGFhd1p1SUhfQ3YzVWVNZmc5TTVXbEdzQ19yQXU2RnE0MFprTjlYZGluYWVtb0JuQ3NzWkdNTnhqQ3hKYk9oelprY1FxbU1LZmgzcFByWVh6M01JR3BVMm56REhOR3JST2hQQXBXRUlkSFhqT3dOZGxsSi1fTTlkcWw?oc=5",
-      "datetime": 1790367386,
-      "headlineKo": "EU, 에너지 가격 위기 경고, 국가들에 수요 억제 고려 요청, 서신 공개 - Reuters",
-      "summaryKo": "EU는 에너지 가격 위기를 경고하고 국가들에게 수요 억제를 고려할 것을 요청했다고 서신은 밝혔습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790477574.2005503,
+  "_news_last_success_at": 1790481273.4159315,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790477565.415756,
-  "_updated_label": "2026-09-27 11:53",
-  "_last_attempt_at": 1790477565.415756,
-  "_last_success_at": 1790477565.415756,
+  "_fetched_at": 1790481264.1007476,
+  "_updated_label": "2026-09-27 12:55",
+  "_last_attempt_at": 1790481264.1007476,
+  "_last_success_at": 1790481264.1007476,
   "_collection_status": "ok",
   "_collection_errors": []
 };
