@@ -2668,7 +2668,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "SPY": {
@@ -5771,7 +5771,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "MSFT": {
@@ -11308,7 +11308,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 128,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "GOOGL": {
@@ -17873,7 +17873,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 150,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "AMZN": {
@@ -24344,7 +24344,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 157,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "META": {
@@ -31074,7 +31074,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 170,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "AAPL": {
@@ -37296,7 +37296,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 151,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "TSLA": {
@@ -43734,7 +43734,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 157,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "ORCL": {
@@ -49247,11 +49247,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 126,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "CRM": {
-    "_last_attempt_at": 1790462731.5921276,
+    "_last_attempt_at": 1790484918.7437527,
     "nextEarnings": {
       "date": "2026-12-01",
       "hour": "amc",
@@ -49306,7 +49306,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462735.795207
+          "analysisUpdatedAt": 1790484931.514675
         },
         "headlineKo": "Salesforce(CRM)의 경제적 해자는 무엇이며, 확대되나요, 아니면 축소되나요?"
       },
@@ -49370,7 +49370,7 @@ const NEWS_DATA = {
             "Currently, Salesforce has a market capitalization of $192.81 billion.",
             "Buying $100 In CRM: If an investor had bought $100 of CRM stock 15 years ago, it would be worth $819.11 today based on a price of $234.28 for CRM at the time of writing."
           ],
-          "analysisUpdatedAt": 1790462739.5812323
+          "analysisUpdatedAt": 1790484934.0427148
         },
         "headlineKo": "15년 전 Salesforce에 투자한 100달러의 현재 가치는 다음과 같습니다."
       },
@@ -49434,7 +49434,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.21% S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.",
             "The reasoning comes down to a single strategic asset that every AI model will eventually need to borrow."
           ],
-          "analysisUpdatedAt": 1790462741.8758419
+          "analysisUpdatedAt": 1790484937.4716525
         },
         "headlineKo": "내가 Salesforce를 계속해서 구매하는 실제 이유는 다음과 같습니다."
       },
@@ -49582,7 +49582,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462735.795207
+          "analysisUpdatedAt": 1790484931.514675
         }
       },
       {
@@ -49645,7 +49645,7 @@ const NEWS_DATA = {
             "Currently, Salesforce has a market capitalization of $192.81 billion.",
             "Buying $100 In CRM: If an investor had bought $100 of CRM stock 15 years ago, it would be worth $819.11 today based on a price of $234.28 for CRM at the time of writing."
           ],
-          "analysisUpdatedAt": 1790462739.5812323
+          "analysisUpdatedAt": 1790484934.0427148
         }
       },
       {
@@ -49708,7 +49708,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.21% S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.",
             "The reasoning comes down to a single strategic asset that every AI model will eventually need to borrow."
           ],
-          "analysisUpdatedAt": 1790462741.8758419
+          "analysisUpdatedAt": 1790484937.4716525
         }
       },
       {
@@ -53207,15 +53207,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790462731.5921276,
-    "_updated_label": "2026-09-27 07:45",
-    "_last_success_at": 1790462731.5921276,
+    "_fetched_at": 1790484918.7437527,
+    "_updated_label": "2026-09-27 13:55",
+    "_last_success_at": 1790484918.7437527,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "PLTR": {
@@ -58621,7 +58621,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 127,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "NVDA": {
@@ -66058,7 +66058,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 178,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "AMD": {
@@ -71655,7 +71655,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "AVGO": {
@@ -75361,7 +75361,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "QCOM": {
@@ -78834,7 +78834,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "ARM": {
@@ -81753,7 +81753,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "MRVL": {
@@ -85177,11 +85177,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "INTC": {
-    "_last_attempt_at": 1790462731.5921276,
+    "_last_attempt_at": 1790484918.7437527,
     "nextEarnings": {
       "date": "2026-10-22",
       "hour": "amc",
@@ -85250,7 +85250,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Intel ( INTC -3.45% ) has been one of the top-performing stocks in 2026.",
             "It currently ranks as the sixth-best-performing stock in the S&P 500 ( ^GSPC +0.51% ) , rising more than 220% so far this year."
           ],
-          "analysisUpdatedAt": 1790462747.613494
+          "analysisUpdatedAt": 1790484944.6895342
         },
         "headlineKo": "인텔은 2026년에 220% 상승합니다. 2026년이 끝나기 전에 150달러에 도달할 수 있습니까?"
       },
@@ -85300,7 +85300,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462749.9756513
+          "analysisUpdatedAt": 1790484946.3755581
         },
         "headlineKo": "이제 Intel(INTC)의 서버 CPU 복귀와 AI 야망에 베팅할 때입니까?"
       },
@@ -85350,7 +85350,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462752.390721
+          "analysisUpdatedAt": 1790484948.5450933
         },
         "headlineKo": "인텔(INTC)은 엣지 AI 및 뇌 영감 컴퓨팅 분야에서 무엇을 하고 있나요?"
       },
@@ -85496,7 +85496,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Intel ( INTC -3.45% ) has been one of the top-performing stocks in 2026.",
             "It currently ranks as the sixth-best-performing stock in the S&P 500 ( ^GSPC +0.51% ) , rising more than 220% so far this year."
           ],
-          "analysisUpdatedAt": 1790462747.613494
+          "analysisUpdatedAt": 1790484944.6895342
         }
       },
       {
@@ -85545,7 +85545,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462749.9756513
+          "analysisUpdatedAt": 1790484946.3755581
         }
       },
       {
@@ -85594,7 +85594,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462752.390721
+          "analysisUpdatedAt": 1790484948.5450933
         }
       },
       {
@@ -90170,15 +90170,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790462731.5921276,
-    "_updated_label": "2026-09-27 07:45",
-    "_last_success_at": 1790462731.5921276,
+    "_fetched_at": 1790484918.7437527,
+    "_updated_label": "2026-09-27 13:55",
+    "_last_success_at": 1790484918.7437527,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 122,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "TSM": {
@@ -92857,7 +92857,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "ASML": {
@@ -94979,7 +94979,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "AMAT": {
@@ -97215,7 +97215,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "LRCX": {
@@ -98409,11 +98409,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1790462731.5921276,
+    "_last_attempt_at": 1790484918.7437527,
     "nextEarnings": {
       "date": "2026-10-27",
       "hour": "",
@@ -98486,7 +98486,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462756.3810627
+          "analysisUpdatedAt": 1790484955.0023477
         },
         "headlineKo": "KLA(NASDAQ:KLAC)는 강력한 성장 기반과 건설적인 기술 설정을 결합합니다."
       },
@@ -98536,7 +98536,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462758.147272
+          "analysisUpdatedAt": 1790484959.125334
         },
         "headlineKo": "Teradyne, AI 테스트 포트폴리오 강화: KLAC & COHU를 이길 수 있을까요?"
       },
@@ -98586,7 +98586,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462760.5422897
+          "analysisUpdatedAt": 1790484962.4774446
         },
         "headlineKo": "Zacks 분석가 블로그에서는 Applied Materials, Lam Research 및 KLA를 강조합니다."
       },
@@ -98676,7 +98676,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462756.3810627
+          "analysisUpdatedAt": 1790484955.0023477
         }
       },
       {
@@ -98725,7 +98725,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462758.147272
+          "analysisUpdatedAt": 1790484959.125334
         }
       },
       {
@@ -98774,7 +98774,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462760.5422897
+          "analysisUpdatedAt": 1790484962.4774446
         }
       },
       {
@@ -99568,15 +99568,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790462731.5921276,
-    "_updated_label": "2026-09-27 07:46",
-    "_last_success_at": 1790462731.5921276,
+    "_fetched_at": 1790484918.7437527,
+    "_updated_label": "2026-09-27 13:56",
+    "_last_success_at": 1790484918.7437527,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "MU": {
@@ -105833,11 +105833,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 150,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "SNDK": {
-    "_last_attempt_at": 1790462731.5921276,
+    "_last_attempt_at": 1790484918.7437527,
     "nextEarnings": {
       "date": "2026-11-04",
       "hour": "",
@@ -105891,7 +105891,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462764.553362
+          "analysisUpdatedAt": 1790484968.9307084
         },
         "headlineKo": "Sandisk: 940억 달러 규모의 계약으로 전망 강화"
       },
@@ -105941,7 +105941,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462766.0123038
+          "analysisUpdatedAt": 1790484971.2841883
         },
         "headlineKo": "AI 메모리 주식은 또 다른 실행을 준비하고 있습니까? 마이크론, 샌디스크, 신규 구매 포인트 청산 시도"
       },
@@ -106005,7 +106005,7 @@ const NEWS_DATA = {
             "An investment of $500 in Sandisk stock when it was spun off is now worth over $26,000.",
             "These gains of more than 52x have been fueled by a severe shortage in the NAND flash storage market."
           ],
-          "analysisUpdatedAt": 1790462768.560053
+          "analysisUpdatedAt": 1790484973.9645905
         },
         "headlineKo": "예측: 2030년 Sandisk에 대한 500달러 투자의 가치는 다음과 같습니다."
       },
@@ -106076,7 +106076,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462764.553362
+          "analysisUpdatedAt": 1790484968.9307084
         }
       },
       {
@@ -106125,7 +106125,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462766.0123038
+          "analysisUpdatedAt": 1790484971.2841883
         }
       },
       {
@@ -106188,7 +106188,7 @@ const NEWS_DATA = {
             "An investment of $500 in Sandisk stock when it was spun off is now worth over $26,000.",
             "These gains of more than 52x have been fueled by a severe shortage in the NAND flash storage market."
           ],
-          "analysisUpdatedAt": 1790462768.560053
+          "analysisUpdatedAt": 1790484973.9645905
         }
       },
       {
@@ -109355,15 +109355,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790462731.5921276,
-    "_updated_label": "2026-09-27 07:46",
-    "_last_success_at": 1790462731.5921276,
+    "_fetched_at": 1790484918.7437527,
+    "_updated_label": "2026-09-27 13:56",
+    "_last_success_at": 1790484918.7437527,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "WDC": {
@@ -111051,7 +111051,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "ANET": {
@@ -112764,7 +112764,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "COHR": {
@@ -114403,7 +114403,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "LITE": {
@@ -116069,7 +116069,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "GEV": {
@@ -118965,7 +118965,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "CEG": {
@@ -120390,7 +120390,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "VST": {
@@ -121928,7 +121928,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "ETN": {
@@ -123630,7 +123630,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "PWR": {
@@ -125406,7 +125406,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "HUBB": {
@@ -126048,11 +126048,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "VRT": {
-    "_last_attempt_at": 1790462731.5921276,
+    "_last_attempt_at": 1790484918.7437527,
     "nextEarnings": {
       "date": "2026-10-20",
       "hour": "",
@@ -126121,7 +126121,7 @@ const NEWS_DATA = {
             "| Trefis How Much Further Could Vertiv Stock Fall?",
             "September 25th, 2026 · by Trefis Team VRT YTD +56.4% SPY YTD +13.7% XLI YTD +10.4% Analyze VRT → Vertiv (VRT) stock has lost about a quarter of its value over the past three months and now trades near $245."
           ],
-          "analysisUpdatedAt": 1790462775.093279
+          "analysisUpdatedAt": 1790484981.456715
         },
         "headlineKo": "Vertiv 주식은 얼마나 더 하락할 수 있나요?"
       },
@@ -126171,7 +126171,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462776.2099483
+          "analysisUpdatedAt": 1790484982.5945175
         },
         "headlineKo": "Vertiv가 King Environmental Services를 인수함에 따라 VRT 주식을 플레이하는 방법"
       },
@@ -126221,7 +126221,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462778.2894526
+          "analysisUpdatedAt": 1790484984.168757
         },
         "headlineKo": "Vertiv 외 6개 AI 산업주 지금 매수 가능"
       },
@@ -126309,7 +126309,7 @@ const NEWS_DATA = {
             "| Trefis How Much Further Could Vertiv Stock Fall?",
             "September 25th, 2026 · by Trefis Team VRT YTD +56.4% SPY YTD +13.7% XLI YTD +10.4% Analyze VRT → Vertiv (VRT) stock has lost about a quarter of its value over the past three months and now trades near $245."
           ],
-          "analysisUpdatedAt": 1790462775.093279
+          "analysisUpdatedAt": 1790484981.456715
         }
       },
       {
@@ -126358,7 +126358,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462776.2099483
+          "analysisUpdatedAt": 1790484982.5945175
         }
       },
       {
@@ -126407,7 +126407,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462778.2894526
+          "analysisUpdatedAt": 1790484984.168757
         }
       },
       {
@@ -128016,19 +128016,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790462731.5921276,
-    "_updated_label": "2026-09-27 07:46",
-    "_last_success_at": 1790462731.5921276,
+    "_fetched_at": 1790484918.7437527,
+    "_updated_label": "2026-09-27 13:56",
+    "_last_success_at": 1790484918.7437527,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "MOD": {
-    "_last_attempt_at": 1790462731.5921276,
+    "_last_attempt_at": 1790484918.7437527,
     "nextEarnings": {
       "date": "2026-10-26",
       "hour": "",
@@ -128083,7 +128083,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462783.3739293
+          "analysisUpdatedAt": 1790484991.592076
         },
         "headlineKo": "시장 하락으로 모딘(MOD) 상승: 주요 사실"
       },
@@ -128133,7 +128133,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462785.7338521
+          "analysisUpdatedAt": 1790484993.7692668
         },
         "headlineKo": "Modine(MOD)은 더 넓은 시장보다 더 하락합니다: 알아야 할 사항"
       },
@@ -128183,7 +128183,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462788.2294848
+          "analysisUpdatedAt": 1790484995.862548
         },
         "headlineKo": "월스트리트 상승세는 Modine(MOD)에 대해 낙관적입니다. 매수해야 할까요?"
       },
@@ -128255,7 +128255,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462783.3739293
+          "analysisUpdatedAt": 1790484991.592076
         }
       },
       {
@@ -128304,7 +128304,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462785.7338521
+          "analysisUpdatedAt": 1790484993.7692668
         }
       },
       {
@@ -128353,7 +128353,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790462788.2294848
+          "analysisUpdatedAt": 1790484995.862548
         }
       },
       {
@@ -128718,15 +128718,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790462731.5921276,
-    "_updated_label": "2026-09-27 07:46",
-    "_last_success_at": 1790462731.5921276,
+    "_fetched_at": 1790484918.7437527,
+    "_updated_label": "2026-09-27 13:56",
+    "_last_success_at": 1790484918.7437527,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "STX": {
@@ -130129,7 +130129,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "EME": {
@@ -131132,7 +131132,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "FIX": {
@@ -131888,7 +131888,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   },
   "BE": {
@@ -133347,7 +133347,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-27 13:29"
+      "updated": "2026-09-27 13:56"
     }
   }
 };

@@ -309,6 +309,15 @@ const MARKET_DATA = {
       "summaryKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 Reuters"
     },
     {
+      "headline": "How Trump’s diesel ban threat is making US exports more profitable",
+      "summary": "Europe is desperate for diesel after the Iran war led to a swath of lost supply and attacks on Russian oil refineries by Ukraine added to tightness in the global market",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-25/trump-s-diesel-ban-talk-has-just-made-us-exports-more-lucrative",
+      "datetime": 1790395995,
+      "headlineKo": "트럼프의 디젤 금지 위협이 미국 수출의 수익성을 높이는 방법",
+      "summaryKo": "이란 전쟁으로 공급이 중단되고 우크라이나가 러시아 정유소를 공격해 세계 시장이 경색된 이후 유럽은 디젤 수요가 절실하다."
+    },
+    {
       "headline": "Crude oil price dips as traders weigh US-Iran Hormuz talks, supply risks",
       "summary": "Oil eases as US-Iran Hormuz talks unfold, amid supply risks, regional tensions, and uncertain prospects for a breakthrough.",
       "source": "Bloomberg",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790375492,
       "headlineKo": "파라마운트가 헐리우드에게 WBD를 도입하겠다고 약속한 내용과 일부 사람들이 여전히 회의적인 이유는 다음과 같습니다.",
       "summaryKo": "파라마운트 CEO 데이비드 엘리슨(David Ellison)의 독점금지 합의는 일부 연극적 우려를 완화시켰지만 5년 계약이 종료되면 어떤 일이 일어날지에 대한 의문이 남아 있습니다."
-    },
-    {
-      "headline": "Iran's Araqchi says now up to US to accept 7-day plan - Reuters",
-      "summary": "Iran's Araqchi says now up to US to accept 7-day plan Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUmpYaGtLNnJmeGdiOGNJZVNJQVJ0eVNmRzdLNHdQWF9hVkFfZ3FkSmtwamwxUmpkdWJJNmxldmtYckJzUGpFblZsYzVLV19PeFd2ZkFvSmgxUDJZQUF4MUdSQXU4SjFlWmM2WU42clJWNUlVNy1DVkRmY2k3MEJoQkQteWVKdVlBaFNiLWVla3FnTXdHSUdBZGN4eXhNUDJfN2c?oc=5",
-      "datetime": 1790368569,
-      "headlineKo": "이란 아라크치 \"이제 미국이 7일 계획 수용할 것\"",
-      "summaryKo": "이란 아라크치 \"이제 미국이 7일 계획 수용할 것\""
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790481273.4159315,
+  "_news_last_success_at": 1790485006.5923364,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790481264.1007476,
-  "_updated_label": "2026-09-27 12:55",
-  "_last_attempt_at": 1790481264.1007476,
-  "_last_success_at": 1790481264.1007476,
+  "_fetched_at": 1790484998.3449078,
+  "_updated_label": "2026-09-27 13:57",
+  "_last_attempt_at": 1790484998.3449078,
+  "_last_success_at": 1790484998.3449078,
   "_collection_status": "ok",
   "_collection_errors": []
 };
