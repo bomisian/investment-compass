@@ -2,10 +2,124 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1790464647.2630618,
+    "_last_attempt_at": 1790486830.4954557,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "This 17% Yield Nasdaq Covered Call ETF Is Somehow Outperforming QQQ",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5062bc5b3b26ddec7c39a7e752b1ddd09a671205db429c12beaa16b174f09079",
+        "datetime": 1790470930,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "장기 공급계약 · 매출 가시성 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "이 17% 수익률 Nasdaq Covered Call ETF는 어떻게든 QQQ(24/7 Wall St.)를 능가합니다.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.21% S&P 500 7,753.80 +0.60% 다우존스 51,875.60 +0.98% 나스닥 100 30,672.40 +0.60% 러셀 2000 2,843.25 +0.",
+            "작성자: Tony Dong 2026년 9월 26일 오후 9시 2분(ET) · 3분 읽기 𝕏 f ⧉ 조명이 켜진 Nasdaq 표지판과 거래 화면은 기술 중심 지수가 높은 국채 수익률을 탐색하는 동안에도 역동적인 시장 활동을 반영합니다."
+          ],
+          "why": [
+            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 17%, 0.60%, 0.98% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 기간·최소구매 조건",
+            "연도별 매출 인식",
+            "수주잔고·취소 조건"
+          ],
+          "interpretation": "QQQ에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "17%",
+            "0.60%",
+            "0.98%",
+            "0.21%",
+            "17.58%",
+            "100%",
+            "0.83%",
+            "0.68%"
+          ],
+          "sourceExcerpt": [
+            "This 17% Yield Nasdaq Covered Call ETF Is Somehow Outperforming QQQ - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.21% S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.",
+            "By Tony Dong Published September 26, 2026, 9:02pm ET · 3 min read 𝕏 f ⧉ The illuminated Nasdaq sign and trading screens reflect the dynamic market activity, even as the tech-heavy index navigates high Treasury yields."
+          ],
+          "analysisUpdatedAt": 1790486841.4924226
+        },
+        "headlineKo": "이 17% 수익률 Nasdaq Covered Call ETF는 어떻게든 QQQ를 능가합니다."
+      },
+      {
+        "headline": "Why ‘All-Time High’ Is the Most Misleading Phrase in Investing and How You Can Avoid Getting Trapped in the Woods with QQQ",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=90b2967af02b7fff927560200bebf38481197c4f770aca8074ecb01616a9288b",
+        "datetime": 1790431202,
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Why ‘All-Time High’ Is the Most Misleading Phrase in Investing and How You Can Avoid Getting Trapped in the Woods with QQQ",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Why ‘All-Time High’ Is the Most Misleading Phrase in Investing and How You Can Avoid Getting Trapped in the Woods with QQQ' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790486842.6497343
+        },
+        "headlineKo": "'역대 최고치'가 투자에서 가장 오해를 불러일으키는 문구인 이유와 QQQ로 숲에 빠지지 않는 방법"
+      },
       {
         "headline": "The Nasdaq's All-Time High Should Scare You",
         "source": "SeekingAlpha",
@@ -52,7 +166,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790464650.6321986
+          "analysisUpdatedAt": 1790486843.6408644
         },
         "headlineKo": "나스닥 사상 최고치는 당신을 놀라게 할 것입니다"
       },
@@ -64,60 +178,6 @@ const NEWS_DATA = {
         "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "QQQ: 최대 장기 성장을 위해 지금 1,000달러를 어디에 투자해야 합니까?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Vanguard Information Technology ETF( VGT +0.78% )와 Invesco QQQ Trust ETF( QQQ +0.46% )는 가장 인기 있는 ETF 중 두 가지입니다.",
-            "그 기간 동안 그들은 각각 평균 ​​23%와 20% 이상의 연간 수익률을 기록했습니다."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $1,000, 0.78%, 0.46% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1.0,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$1,000",
-            "0.78%",
-            "0.46%",
-            "23%",
-            "20%",
-            "100%",
-            "66.4%",
-            "17.73%"
-          ],
-          "sourceExcerpt": [
-            "QQQ: Where Should You Invest $1,000 Right Now for Maximum Long-Term Growth?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Vanguard Information Technology ETF ( VGT +0.78% ) and the Invesco QQQ Trust ETF ( QQQ +0.46% ) are two of the more popular ETF",
-            "In that time, they've averaged over 23% and 20% annual returns, respectively."
-          ],
-          "analysisUpdatedAt": 1790464655.1695342
-        },
         "headlineKo": "VGT 대 QQQ: 최대 장기 성장을 위해 지금 1,000달러를 어디에 투자해야 합니까?"
       },
       {
@@ -128,25 +188,37 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "오늘의 주식 시장: 다우, S&P 500, 나스닥 선물은 이란의 호르무즈 해협 재개 제안에 따른 낙관론 속에 상승 — AKAM, COST, SCHL In Focus (업데이트됨)"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "This 17% Yield Nasdaq Covered Call ETF Is Somehow Outperforming QQQ",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5062bc5b3b26ddec7c39a7e752b1ddd09a671205db429c12beaa16b174f09079",
+        "datetime": 1790470930,
+        "headlineKo": "이 17% 수익률 Nasdaq Covered Call ETF는 어떻게든 QQQ를 능가합니다.",
+        "relevance": 1,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "high",
+          "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
+          "label": "장기 공급계약 · 매출 가시성 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "오늘 주식 시장: 이란의 Stra 재개 제안 이후 낙관론 속에 다우, S&P 500, 나스닥 선물 상승 - Benzinga SPY 772.04 +0.09% QQQ 745.40 +0.12% BTC/USD 84,167.88 +0.09% DIA 517.72 +0.04% GLD 393.05 −0.09% TLT 79.38 +0.08% 미국 서명",
-            "목요일에는 혼조세로 마감한 후 다우존스, S&P 500, 나스닥 종합지수 선물이 상승하면서 금요일에는 긍정적인 개장이 예상됩니다.",
-            "도널드 트럼프 대통령이 호르무즈 해협을 재개하고 7일 이내에 핵협정 협상을 재개하겠다고 제안한 압바스 아라그치 이란 외무장관의 발언도 낙관론에 일조했다."
+            "이 17% 수익률 Nasdaq Covered Call ETF는 어떻게든 QQQ(24/7 Wall St.)를 능가합니다.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.21% S&P 500 7,753.80 +0.60% 다우존스 51,875.60 +0.98% 나스닥 100 30,672.40 +0.60% 러셀 2000 2,843.25 +0.",
+            "작성자: Tony Dong 2026년 9월 26일 오후 9시 2분(ET) · 3분 읽기 𝕏 f ⧉ 조명이 켜진 Nasdaq 표지판과 거래 화면은 기술 중심 지수가 높은 국채 수익률을 탐색하는 동안에도 역동적인 시장 활동을 반영합니다."
           ],
           "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.09%, 0.12%, 0.04% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 17%, 0.60%, 0.98% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -157,55 +229,81 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
+            "계약 기간·최소구매 조건",
+            "연도별 매출 인식",
+            "수주잔고·취소 조건"
           ],
-          "interpretation": "QQQ에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
+          "interpretation": "QQQ에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.09%",
-            "0.12%",
-            "0.04%",
-            "0.08%",
-            "5.175%",
-            "5.469%",
-            "4.895%",
-            "66.4%"
+            "17%",
+            "0.60%",
+            "0.98%",
+            "0.21%",
+            "17.58%",
+            "100%",
+            "0.83%",
+            "0.68%"
           ],
           "sourceExcerpt": [
-            "Stock Market Today: Dow, S&P 500, Nasdaq Futures Rise Amid Optimism Following Iran’s Offer To Reopen Stra - Benzinga SPY 772.04 +0.09% QQQ 745.40 +0.12% BTC/USD 84,167.88 +0.09% DIA 517.72 +0.04% GLD 393.05 −0.09% TLT 79.38 +0.08% US Sign i",
-            "stocks look set for a positive opening on Friday, with futures of the Dow Jones, S&P 500 and Nasdaq Composite rising, after closing Thursday on a mixed note.",
-            "Contributing to the optimism are comments from Iranian Foreign Minister Abbas Araghchi, who proposed to reopen the Strait of Hormuz and resume talks on a nuclear deal within seven days, provided that President Donald Trump agrees to accept "
+            "This 17% Yield Nasdaq Covered Call ETF Is Somehow Outperforming QQQ - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.21% S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.",
+            "By Tony Dong Published September 26, 2026, 9:02pm ET · 3 min read 𝕏 f ⧉ The illuminated Nasdaq sign and trading screens reflect the dynamic market activity, even as the tech-heavy index navigates high Treasury yields."
           ],
-          "analysisUpdatedAt": 1790464657.728422
-        },
-        "headlineKo": "오늘의 주식 시장: 다우, S&P 500, 나스닥 선물은 이란의 호르무즈 해협 재개 제안에 따른 낙관론 속에 상승 — AKAM, COST, SCHL In Focus (업데이트됨)"
+          "analysisUpdatedAt": 1790486841.4924226
+        }
       },
       {
-        "headline": "S&P 500, Dow, Nasdaq Futures Ease As Treasury Yields Continue To Spike — ORCL, META, AKAM, GOOGL, MGM In Focus",
+        "headline": "Why ‘All-Time High’ Is the Most Misleading Phrase in Investing and How You Can Avoid Getting Trapped in the Woods with QQQ",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a0179787a69f2d16ac3f59ea2ed64bf8031404848f694df72cc375de35c889f3",
-        "datetime": 1790295174,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "국채 수익률이 계속 급등함에 따라 S&P 500, Dow, Nasdaq 선물 완화 — ORCL, META, AKAM, GOOGL, MGM 집중"
-      },
-      {
-        "headline": "Buy SPY Or QQQ, Hold Software, And Sell Semiconductors",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=a3b8660d5fa27a9289f5455e045388abd0be089089b2fd91592374cf787aad77",
-        "datetime": 1790253810,
+        "url": "https://finnhub.io/api/news?id=90b2967af02b7fff927560200bebf38481197c4f770aca8074ecb01616a9288b",
+        "datetime": 1790431202,
+        "headlineKo": "'역대 최고치'가 투자에서 가장 오해를 불러일으키는 문구인 이유와 QQQ로 숲에 빠지지 않는 방법",
         "relevance": 1.0,
         "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "SPY 또는 QQQ 구매, 소프트웨어 보유, 반도체 판매"
-      }
-    ],
-    "newsHistory": [
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Why ‘All-Time High’ Is the Most Misleading Phrase in Investing and How You Can Avoid Getting Trapped in the Woods with QQQ",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Why ‘All-Time High’ Is the Most Misleading Phrase in Investing and How You Can Avoid Getting Trapped in the Woods with QQQ' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790486842.6497343
+        }
+      },
       {
         "headline": "The Nasdaq's All-Time High Should Scare You",
         "source": "SeekingAlpha",
@@ -252,7 +350,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790464650.6321986
+          "analysisUpdatedAt": 1790486843.6408644
         }
       },
       {
@@ -2660,15 +2758,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790464647.2630618,
-    "_updated_label": "2026-09-27 08:17",
-    "_last_success_at": 1790464647.2630618,
+    "_fetched_at": 1790486830.4954557,
+    "_updated_label": "2026-09-27 14:27",
+    "_last_success_at": 1790486830.4954557,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 53,
+      "checked": 55,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "SPY": {
@@ -5771,7 +5869,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "MSFT": {
@@ -11308,7 +11406,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 128,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "GOOGL": {
@@ -17873,11 +17971,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 150,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "AMZN": {
-    "_last_attempt_at": 1790464647.2630618,
+    "_last_attempt_at": 1790486830.4954557,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "amc",
@@ -17886,6 +17984,56 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Anthropic's IPO is a $300 billion test for Amazon",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ff1f8ea5a0b56499ddcde47ef5a6e66d429e37cd5c511db2a0c7e6f82a5552e9",
+        "datetime": 1790473620,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Anthropic's IPO is a $300 billion test for Amazon",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Anthropic's IPO is a $300 billion test for Amazon' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790486849.913287
+        },
+        "headlineKo": "Anthropic의 IPO는 Amazon에 대한 3000억 달러 규모의 테스트입니다."
+      },
       {
         "headline": "Amazon.com (AMZN) Confirmed Iranian Drone Strikes Hit AWS Data Centers",
         "source": "Yahoo",
@@ -17932,7 +18080,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790464662.907199
+          "analysisUpdatedAt": 1790486852.0570517
         },
         "headlineKo": "Amazon.com(AMZN)은 이란의 드론 공격이 AWS 데이터 센터를 강타했음을 확인했습니다."
       },
@@ -18013,7 +18161,7 @@ const NEWS_DATA = {
             "Here's Why That Makes The Stock an Incredible Buy | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool When a company announces that it's spending nearly all of its available cash flow",
             "When the figure is as large as $220 billion, like Amazon ( AMZN +0.12% ) is spending, it really should have investors questioning what's going on."
           ],
-          "analysisUpdatedAt": 1790464663.9649239
+          "analysisUpdatedAt": 1790486853.0165772
         },
         "headlineKo": "아마존은 데이터센터에 2,200억 달러를 지출하고 있습니다. 주식을 믿을 수 없을 만큼 구매하게 만드는 이유는 다음과 같습니다."
       },
@@ -18025,60 +18173,6 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Amazon은 10년에 걸쳐 $1,000를 $5,239로 바꾸었지만 최근 구매자는 더 힘든 현실에 직면해 있습니다. - 연중무휴 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.21% S&P 500 7,753.80 +0.60% 다우존스 51,875.60 +0.98% 나스닥 100 30,672.40 +0.60% 러셀 2000 2,843.25 +0.",
-            "작성자: Chris Lange 2026년 9월 26일 오전 7시 45분(ET) · 2분 읽음 𝕏 f ⧉ © jetcityimage / iStock Editorial via Getty Images 10년 전 Amazon(NASDAQ:AMZN | AMZN Price Prediction)은 분할 조정된 $40.81에 거래되었습니다."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $1,000, $5,239, $40.81. — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMZN",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "AMZN에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$1,000",
-            "$5,239",
-            "$40.81.",
-            "$249.67",
-            "511.85%",
-            "$107 billion",
-            "$716.9 billion",
-            "$2.2 billion"
-          ],
-          "sourceExcerpt": [
-            "Amazon Turned $1,000 Into $5,239 Over Ten Years but Recent Buyers Face a Rougher Reality - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.21% S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.",
-            "By Chris Lange Published September 26, 2026, 7:45am ET · 2 min read 𝕏 f ⧉ © jetcityimage / iStock Editorial via Getty Images Ten years ago, Amazon ( NASDAQ:AMZN | AMZN Price Prediction ) traded at a split-adjusted $40.81."
-          ],
-          "analysisUpdatedAt": 1790464666.2389712
-        },
         "headlineKo": "Amazon은 10년에 걸쳐 $1,000를 $5,239로 바꾸었지만 최근 구매자들은 더 힘든 현실에 직면해 있습니다."
       },
       {
@@ -18090,16 +18184,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "아마존에는 배당금이 없습니다. 어쨌든 장기 투자자가 이를 소유해야 하는 이유는 다음과 같습니다."
-      },
-      {
-        "headline": "Let’s Take a Closer Look at Amazon’s (AMZN) Debt-Fueled AI Buildout",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b9dcea6c86759db10cdc5031906ce1b96eb29ec6dbbde4f5219dbd99e0f9890d",
-        "datetime": 1790378434,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Amazon(AMZN)의 부채 기반 AI 구축을 자세히 살펴보겠습니다."
       },
       {
         "headline": "Amazon, US Steel, Pirelli and others make facility investments, while layoffs progress",
@@ -18339,6 +18423,55 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "Anthropic's IPO is a $300 billion test for Amazon",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ff1f8ea5a0b56499ddcde47ef5a6e66d429e37cd5c511db2a0c7e6f82a5552e9",
+        "datetime": 1790473620,
+        "headlineKo": "Anthropic의 IPO는 Amazon에 대한 3000억 달러 규모의 테스트입니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Anthropic's IPO is a $300 billion test for Amazon",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Anthropic's IPO is a $300 billion test for Amazon' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790486849.913287
+        }
+      },
+      {
         "headline": "Amazon.com (AMZN) Confirmed Iranian Drone Strikes Hit AWS Data Centers",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4a1e72e5916d0ec5a28c7e50f0879a0bbd33f157706a1858fbc0b0caefbb120d",
@@ -18384,7 +18517,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790464662.907199
+          "analysisUpdatedAt": 1790486852.0570517
         }
       },
       {
@@ -18464,7 +18597,7 @@ const NEWS_DATA = {
             "Here's Why That Makes The Stock an Incredible Buy | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool When a company announces that it's spending nearly all of its available cash flow",
             "When the figure is as large as $220 billion, like Amazon ( AMZN +0.12% ) is spending, it really should have investors questioning what's going on."
           ],
-          "analysisUpdatedAt": 1790464663.9649239
+          "analysisUpdatedAt": 1790486853.0165772
         }
       },
       {
@@ -24336,15 +24469,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790464647.2630618,
-    "_updated_label": "2026-09-27 08:17",
-    "_last_success_at": 1790464647.2630618,
+    "_fetched_at": 1790486830.4954557,
+    "_updated_label": "2026-09-27 14:27",
+    "_last_success_at": 1790486830.4954557,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 157,
+      "checked": 158,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "META": {
@@ -31074,7 +31207,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 170,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "AAPL": {
@@ -37296,7 +37429,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 151,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "TSLA": {
@@ -43734,7 +43867,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 157,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "ORCL": {
@@ -49247,7 +49380,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 126,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "CRM": {
@@ -53215,7 +53348,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "PLTR": {
@@ -58621,11 +58754,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 127,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "NVDA": {
-    "_last_attempt_at": 1790464647.2630618,
+    "_last_attempt_at": 1790486830.4954557,
     "nextEarnings": {
       "date": "2026-11-17",
       "hour": "amc",
@@ -58634,6 +58767,70 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "A $1,000 Investment Split Between Alphabet and Nvidia Will Be Worth This Much by 2030",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f72f4de1d44f4ee9244c7f89dc5c824d80bf381ca63beebe989af5c4dbc5d8b5",
+        "datetime": 1790476500,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "경쟁사 진입 · 해자 점검",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Alphabet과 Nvidia 간의 1,000달러 투자 분할은 2030년까지 이만큼 가치가 있을 것입니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Alphabet ( GOOG +0.61% ) ( GOOGL +0.46% ) 및",
+            "Nvidia는 세계 최대 기업인 반면 Alphabet은 Alphabet만큼 공격적으로 AI 기술을 추구하지 않는 Apple에 이어 세 번째로 큰 회사입니다.",
+            "두 회사 모두 믿을 수 없을 정도로 밝은 미래를 가지고 있으며 지금부터 2030년까지 투자자들에게 많은 돈을 벌어줄 것이라고 생각합니다."
+          ],
+          "why": [
+            "경쟁사의 신제품·시장 진입은 가격·점유율·고객 선택에 영향을 줄 수 있어 성능과 실제 수주를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $1,000, 0.22 %, $ 0.49 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "새 경쟁자가 같은 시장에 들어왔다는 뜻입니다. 제품 발표만으로 기존 회사 매출이 바로 줄지는 않습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "성능·가격 비교",
+            "실제 고객 수주",
+            "기존 회사 점유율·마진"
+          ],
+          "interpretation": "NVDA에 대한 경쟁사 진입 · 해자 점검 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 경쟁사의 신제품·시장 진입은 가격·점유율·고객 선택에 영향을 줄 수 있어 성능과 실제 수주를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$1,000",
+            "0.22 %",
+            "$ 0.49",
+            "$ 225.07",
+            "$5.4",
+            "$ 223.13",
+            "$ 226.94",
+            "$ 164.27"
+          ],
+          "sourceExcerpt": [
+            "A $1,000 Investment Split Between Alphabet and Nvidia Will Be Worth This Much by 2030 | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Alphabet ( GOOG +0.61% ) ( GOOGL +0.46% ) and",
+            "Nvidia is the world's largest company, while Alphabet is the third-largest behind Apple , which isn't pursuing AI technology as aggressively as Alphabet.",
+            "Both of these companies have an incredibly bright future, and I think they will make investors a lot of money from now through 2030."
+          ],
+          "analysisUpdatedAt": 1790486861.7569036
+        },
+        "headlineKo": "Alphabet과 Nvidia의 1,000달러 투자 분할은 2030년까지 이만큼 가치가 있을 것입니다"
+      },
       {
         "headline": "‘Don’t Ship Products Until They’re in Control’: Nvidia’s Huang Weighs In on AI Safety Debate",
         "source": "Yahoo",
@@ -58680,7 +58877,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790464671.552066
+          "analysisUpdatedAt": 1790486864.943855
         },
         "headlineKo": "'통제될 때까지 제품을 배송하지 마세요': Nvidia의 Huang이 AI 안전 논쟁에 참여"
       },
@@ -58744,7 +58941,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia ( NVDA +0.22% ) might be gearing up to write Anthropic a second $10 billion check.",
             "The chipmaker's in talks to be an anchor investor in Anthropic's planned initial public offering (IPO) , Reuters said this month, a deal that could deepen its ties to a major customer."
           ],
-          "analysisUpdatedAt": 1790464675.7628138
+          "analysisUpdatedAt": 1790486868.1178255
         },
         "headlineKo": "Nvidia는 Anthropic의 IPO에서 100억 달러 규모의 지분을 보유하고 있습니다. 그것은 자체 수요를 구매하는 것입니다."
       },
@@ -58756,46 +58953,6 @@ const NEWS_DATA = {
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "실적·재무 부담 확인 필요",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "IonQ (IONQ) Just Landed Nvidia Less Than 2 Years After Jensen Huang’s 30-Year Quantum Warning",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 NVDA의 사업과 관련된 'IonQ (IONQ) Just Landed Nvidia Less Than 2 Years After Jensen Huang’s 30-Year Quantum Warning' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.4,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790464677.7553482
-        },
         "headlineKo": "IonQ(IONQ)는 Jensen Huang의 30년 양자 경고 이후 2년도 채 되지 않아 Nvidia에 상륙했습니다."
       },
       {
@@ -58807,19 +58964,72 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Nvidia는 10년 만에 가장 저렴한 가치로 52주 최고가에 근접했습니다. 역사에 따르면 2030년까지 투자한 1,000달러의 가치는 이 정도입니다."
-      },
-      {
-        "headline": "Nvidia vs. Broadcom: Whose AI Bull Case is Better?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=030fdadd39d106b9a582bbe574e8c0db6fc0bbc8de01eb6b505a0f35b6e1c462",
-        "datetime": 1790410920,
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Nvidia vs. Broadcom: 누구의 AI Bull Case가 더 나은가요?"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "A $1,000 Investment Split Between Alphabet and Nvidia Will Be Worth This Much by 2030",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f72f4de1d44f4ee9244c7f89dc5c824d80bf381ca63beebe989af5c4dbc5d8b5",
+        "datetime": 1790476500,
+        "headlineKo": "Alphabet과 Nvidia의 1,000달러 투자 분할은 2030년까지 이만큼 가치가 있을 것입니다",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "경쟁사 진입 · 해자 점검",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Alphabet과 Nvidia 간의 1,000달러 투자 분할은 2030년까지 이만큼 가치가 있을 것입니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Alphabet ( GOOG +0.61% ) ( GOOGL +0.46% ) 및",
+            "Nvidia는 세계 최대 기업인 반면 Alphabet은 Alphabet만큼 공격적으로 AI 기술을 추구하지 않는 Apple에 이어 세 번째로 큰 회사입니다.",
+            "두 회사 모두 믿을 수 없을 정도로 밝은 미래를 가지고 있으며 지금부터 2030년까지 투자자들에게 많은 돈을 벌어줄 것이라고 생각합니다."
+          ],
+          "why": [
+            "경쟁사의 신제품·시장 진입은 가격·점유율·고객 선택에 영향을 줄 수 있어 성능과 실제 수주를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $1,000, 0.22 %, $ 0.49 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "새 경쟁자가 같은 시장에 들어왔다는 뜻입니다. 제품 발표만으로 기존 회사 매출이 바로 줄지는 않습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "성능·가격 비교",
+            "실제 고객 수주",
+            "기존 회사 점유율·마진"
+          ],
+          "interpretation": "NVDA에 대한 경쟁사 진입 · 해자 점검 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 경쟁사의 신제품·시장 진입은 가격·점유율·고객 선택에 영향을 줄 수 있어 성능과 실제 수주를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$1,000",
+            "0.22 %",
+            "$ 0.49",
+            "$ 225.07",
+            "$5.4",
+            "$ 223.13",
+            "$ 226.94",
+            "$ 164.27"
+          ],
+          "sourceExcerpt": [
+            "A $1,000 Investment Split Between Alphabet and Nvidia Will Be Worth This Much by 2030 | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Alphabet ( GOOG +0.61% ) ( GOOGL +0.46% ) and",
+            "Nvidia is the world's largest company, while Alphabet is the third-largest behind Apple , which isn't pursuing AI technology as aggressively as Alphabet.",
+            "Both of these companies have an incredibly bright future, and I think they will make investors a lot of money from now through 2030."
+          ],
+          "analysisUpdatedAt": 1790486861.7569036
+        }
+      },
       {
         "headline": "‘Don’t Ship Products Until They’re in Control’: Nvidia’s Huang Weighs In on AI Safety Debate",
         "source": "Yahoo",
@@ -58866,7 +59076,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790464671.552066
+          "analysisUpdatedAt": 1790486864.943855
         }
       },
       {
@@ -58929,7 +59139,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia ( NVDA +0.22% ) might be gearing up to write Anthropic a second $10 billion check.",
             "The chipmaker's in talks to be an anchor investor in Anthropic's planned initial public offering (IPO) , Reuters said this month, a deal that could deepen its ties to a major customer."
           ],
-          "analysisUpdatedAt": 1790464675.7628138
+          "analysisUpdatedAt": 1790486868.1178255
         }
       },
       {
@@ -66050,15 +66260,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790464647.2630618,
-    "_updated_label": "2026-09-27 08:17",
-    "_last_success_at": 1790464647.2630618,
+    "_fetched_at": 1790486830.4954557,
+    "_updated_label": "2026-09-27 14:27",
+    "_last_success_at": 1790486830.4954557,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 178,
+      "checked": 179,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "AMD": {
@@ -71655,7 +71865,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "AVGO": {
@@ -75361,7 +75571,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "QCOM": {
@@ -78834,7 +79044,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "ARM": {
@@ -81753,7 +81963,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "MRVL": {
@@ -85177,7 +85387,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "INTC": {
@@ -90178,7 +90388,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 122,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "TSM": {
@@ -92857,7 +93067,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "ASML": {
@@ -94979,7 +95189,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "AMAT": {
@@ -97215,7 +97425,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "LRCX": {
@@ -98409,7 +98619,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "KLAC": {
@@ -99576,7 +99786,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "MU": {
@@ -105833,7 +106043,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 150,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "SNDK": {
@@ -109363,7 +109573,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "WDC": {
@@ -111051,7 +111261,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "ANET": {
@@ -112764,7 +112974,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "COHR": {
@@ -114403,7 +114613,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "LITE": {
@@ -116069,7 +116279,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "GEV": {
@@ -118965,7 +119175,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "CEG": {
@@ -120390,7 +120600,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "VST": {
@@ -121928,7 +122138,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "ETN": {
@@ -123630,7 +123840,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "PWR": {
@@ -125406,7 +125616,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "HUBB": {
@@ -126048,7 +126258,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "VRT": {
@@ -128024,7 +128234,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "MOD": {
@@ -128726,7 +128936,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "STX": {
@@ -130129,7 +130339,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "EME": {
@@ -131132,7 +131342,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "FIX": {
@@ -131888,7 +132098,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   },
   "BE": {
@@ -133347,7 +133557,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-27 13:56"
+      "updated": "2026-09-27 14:27"
     }
   }
 };
