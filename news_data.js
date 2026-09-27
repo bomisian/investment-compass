@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1790486830.4954557,
+    "_last_attempt_at": 1790508855.2090652,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -66,7 +66,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.21% S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.",
             "By Tony Dong Published September 26, 2026, 9:02pm ET · 3 min read 𝕏 f ⧉ The illuminated Nasdaq sign and trading screens reflect the dynamic market activity, even as the tech-heavy index navigates high Treasury yields."
           ],
-          "analysisUpdatedAt": 1790486841.4924226
+          "analysisUpdatedAt": 1790508859.9056833
         },
         "headlineKo": "이 17% 수익률 Nasdaq Covered Call ETF는 어떻게든 QQQ를 능가합니다."
       },
@@ -116,7 +116,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790486842.6497343
+          "analysisUpdatedAt": 1790508861.3722396
         },
         "headlineKo": "'역대 최고치'가 투자에서 가장 오해를 불러일으키는 문구인 이유와 QQQ로 숲에 빠지지 않는 방법"
       },
@@ -130,22 +130,24 @@ const NEWS_DATA = {
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "The Nasdaq's All-Time High Should Scare You",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "나스닥 사상 최고치는 여러분을 놀라게 할 것입니다(NASDAQ:QQQM) | 알파 추구 요약 나스닥 종합 지수는 YTD 16.5% 급등하여 사상 최고치를 기록했지만 시장 열광은 늘어나는 시스템적 위험을 가리고 있습니다.",
+            "거대 기술 기업(예: Nvidia, Microsoft, Amazon, Alphabet/Google) 간의 AI 중심 투기와 순환 자금 조달은 역사적으로 높은 가치 평가와 집중적인 이익을 가져왔습니다.",
+            "마진 부채는 전례 없는 수준의 레버리지 비율로 인해 1조 4500억 달러로 치솟았고, 금리 상승으로 인해 하방 위험이 증폭되었습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 16.5%, $1.45 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -155,18 +157,24 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
           ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'The Nasdaq's All-Time High Should Scare You' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790486843.6408644
+          "quality": "medium",
+          "verifiedNumbers": [
+            "16.5%",
+            "$1.45 trillion"
+          ],
+          "sourceExcerpt": [
+            "The Nasdaq's All-Time High Should Scare You (NASDAQ:QQQM) | Seeking Alpha Summary The Nasdaq Composite Index has surged 16.5% YTD, reaching all-time highs, but market enthusiasm masks mounting systemic risks.",
+            "AI-driven speculation and circular financing among tech giants (e.g., Nvidia, Microsoft, Amazon, Alphabet/Google) have led to historically high valuations and concentrated gains.",
+            "Margin debt has soared to $1.45 trillion, with leverage ratios at unprecedented levels, amplifying downside risk amid rising rates."
+          ],
+          "analysisUpdatedAt": 1790508864.4372973
         },
         "headlineKo": "나스닥 사상 최고치는 당신을 놀라게 할 것입니다"
       },
@@ -252,7 +260,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.21% S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.",
             "By Tony Dong Published September 26, 2026, 9:02pm ET · 3 min read 𝕏 f ⧉ The illuminated Nasdaq sign and trading screens reflect the dynamic market activity, even as the tech-heavy index navigates high Treasury yields."
           ],
-          "analysisUpdatedAt": 1790486841.4924226
+          "analysisUpdatedAt": 1790508859.9056833
         }
       },
       {
@@ -301,7 +309,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790486842.6497343
+          "analysisUpdatedAt": 1790508861.3722396
         }
       },
       {
@@ -314,22 +322,24 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "The Nasdaq's All-Time High Should Scare You",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "나스닥 사상 최고치는 여러분을 놀라게 할 것입니다(NASDAQ:QQQM) | 알파 추구 요약 나스닥 종합 지수는 YTD 16.5% 급등하여 사상 최고치를 기록했지만 시장 열광은 늘어나는 시스템적 위험을 가리고 있습니다.",
+            "거대 기술 기업(예: Nvidia, Microsoft, Amazon, Alphabet/Google) 간의 AI 중심 투기와 순환 자금 조달은 역사적으로 높은 가치 평가와 집중적인 이익을 가져왔습니다.",
+            "마진 부채는 전례 없는 수준의 레버리지 비율로 인해 1조 4500억 달러로 치솟았고, 금리 상승으로 인해 하방 위험이 증폭되었습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 16.5%, $1.45 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -339,18 +349,24 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
           ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'The Nasdaq's All-Time High Should Scare You' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790486843.6408644
+          "quality": "medium",
+          "verifiedNumbers": [
+            "16.5%",
+            "$1.45 trillion"
+          ],
+          "sourceExcerpt": [
+            "The Nasdaq's All-Time High Should Scare You (NASDAQ:QQQM) | Seeking Alpha Summary The Nasdaq Composite Index has surged 16.5% YTD, reaching all-time highs, but market enthusiasm masks mounting systemic risks.",
+            "AI-driven speculation and circular financing among tech giants (e.g., Nvidia, Microsoft, Amazon, Alphabet/Google) have led to historically high valuations and concentrated gains.",
+            "Margin debt has soared to $1.45 trillion, with leverage ratios at unprecedented levels, amplifying downside risk amid rising rates."
+          ],
+          "analysisUpdatedAt": 1790508864.4372973
         }
       },
       {
@@ -2758,15 +2774,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790486830.4954557,
-    "_updated_label": "2026-09-27 14:27",
-    "_last_success_at": 1790486830.4954557,
+    "_fetched_at": 1790508855.2090652,
+    "_updated_label": "2026-09-27 20:34",
+    "_last_success_at": 1790508855.2090652,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "SPY": {
@@ -5869,7 +5885,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "MSFT": {
@@ -11540,7 +11556,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "GOOGL": {
@@ -18168,11 +18184,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 151,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "AMZN": {
-    "_last_attempt_at": 1790486830.4954557,
+    "_last_attempt_at": 1790508855.2090652,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "amc",
@@ -18227,7 +18243,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790486849.913287
+          "analysisUpdatedAt": 1790508872.3853724
         },
         "headlineKo": "Anthropic의 IPO는 Amazon에 대한 3000억 달러 규모의 테스트입니다."
       },
@@ -18277,7 +18293,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790486852.0570517
+          "analysisUpdatedAt": 1790508874.551939
         },
         "headlineKo": "Amazon.com(AMZN)은 이란의 드론 공격이 AWS 데이터 센터를 강타했음을 확인했습니다."
       },
@@ -18358,7 +18374,7 @@ const NEWS_DATA = {
             "Here's Why That Makes The Stock an Incredible Buy | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool When a company announces that it's spending nearly all of its available cash flow",
             "When the figure is as large as $220 billion, like Amazon ( AMZN +0.12% ) is spending, it really should have investors questioning what's going on."
           ],
-          "analysisUpdatedAt": 1790486853.0165772
+          "analysisUpdatedAt": 1790508877.0542777
         },
         "headlineKo": "아마존은 데이터센터에 2,200억 달러를 지출하고 있습니다. 주식을 믿을 수 없을 만큼 구매하게 만드는 이유는 다음과 같습니다."
       },
@@ -18665,7 +18681,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790486849.913287
+          "analysisUpdatedAt": 1790508872.3853724
         }
       },
       {
@@ -18714,7 +18730,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790486852.0570517
+          "analysisUpdatedAt": 1790508874.551939
         }
       },
       {
@@ -18794,7 +18810,7 @@ const NEWS_DATA = {
             "Here's Why That Makes The Stock an Incredible Buy | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool When a company announces that it's spending nearly all of its available cash flow",
             "When the figure is as large as $220 billion, like Amazon ( AMZN +0.12% ) is spending, it really should have investors questioning what's going on."
           ],
-          "analysisUpdatedAt": 1790486853.0165772
+          "analysisUpdatedAt": 1790508877.0542777
         }
       },
       {
@@ -24666,15 +24682,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790486830.4954557,
-    "_updated_label": "2026-09-27 14:27",
-    "_last_success_at": 1790486830.4954557,
+    "_fetched_at": 1790508855.2090652,
+    "_updated_label": "2026-09-27 20:34",
+    "_last_success_at": 1790508855.2090652,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 158,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "META": {
@@ -31501,7 +31517,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 172,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "AAPL": {
@@ -37858,7 +37874,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 153,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "TSLA": {
@@ -44314,7 +44330,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 159,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "ORCL": {
@@ -49836,7 +49852,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 127,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "CRM": {
@@ -53867,7 +53883,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "PLTR": {
@@ -59401,11 +59417,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "NVDA": {
-    "_last_attempt_at": 1790486830.4954557,
+    "_last_attempt_at": 1790508855.2090652,
     "nextEarnings": {
       "date": "2026-11-17",
       "hour": "amc",
@@ -66910,13 +66926,14 @@ const NEWS_DATA = {
     "_fetched_at": 1790486830.4954557,
     "_updated_label": "2026-09-27 14:27",
     "_last_success_at": 1790486830.4954557,
-    "_collection_status": "ok",
+    "_collection_status": "error",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 179,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
-    }
+      "updated": "2026-09-27 20:34"
+    },
+    "_last_error": "The read operation timed out"
   },
   "AMD": {
     "_last_attempt_at": 1790505104.7039855,
@@ -72556,7 +72573,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 137,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "AVGO": {
@@ -76339,7 +76356,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "QCOM": {
@@ -79861,7 +79878,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "ARM": {
@@ -82780,7 +82797,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "MRVL": {
@@ -86289,7 +86306,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "INTC": {
@@ -91290,7 +91307,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 122,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "TSM": {
@@ -93997,7 +94014,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "ASML": {
@@ -96119,7 +96136,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "AMAT": {
@@ -98355,7 +98372,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "LRCX": {
@@ -99549,7 +99566,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "KLAC": {
@@ -100716,7 +100733,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "MU": {
@@ -107076,7 +107093,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 152,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "SNDK": {
@@ -110738,7 +110755,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "WDC": {
@@ -112426,7 +112443,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "ANET": {
@@ -114139,7 +114156,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "COHR": {
@@ -115778,7 +115795,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "LITE": {
@@ -117442,7 +117459,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "GEV": {
@@ -120415,7 +120432,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "CEG": {
@@ -121840,7 +121857,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "VST": {
@@ -123455,7 +123472,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "ETN": {
@@ -125157,7 +125174,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "PWR": {
@@ -127010,7 +127027,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "HUBB": {
@@ -127652,7 +127669,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "VRT": {
@@ -129628,7 +129645,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "MOD": {
@@ -130330,7 +130347,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "STX": {
@@ -131733,7 +131750,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "EME": {
@@ -132736,7 +132753,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "FIX": {
@@ -133492,7 +133509,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   },
   "BE": {
@@ -134951,7 +134968,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-27 20:03"
+      "updated": "2026-09-27 20:34"
     }
   }
 };
