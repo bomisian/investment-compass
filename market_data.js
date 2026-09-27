@@ -237,31 +237,49 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Iran insists on diplomatic solution after Trump rejects peace plan - Reuters",
-      "summary": "Iran insists on diplomatic solution after Trump rejects peace plan Reuters",
+      "headline": "Security increased at US Fairford air base in England - reuters.com",
+      "summary": "Security increased at US Fairford air base in England reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOThaUHcwMHZuZEY2dldUNjhYQ29PeWRJdEYxWFBPV3NEUUdSc0l4MkdhN3liTGdyNG9XaEhwWG8xRk8xR29JVlA0ZEV2ZXM3RVZCRDlPSHhzU29Pek9tZVREdUdvOHRXS1ZuaTR0TXVGV253bkplU1lNbG85WXRjYzcwV2ZSekFCa1gtR1RtV09zM3NYeF93?oc=5",
+      "datetime": 1790493129,
+      "headlineKo": "영국 페어포드 공군기지 보안 강화 - reuters.com",
+      "summaryKo": "영국 주 페어포드 공군기지 보안 강화 reuters.com"
+    },
+    {
+      "headline": "Iran insists on diplomatic solution after Trump rejects peace plan - reuters.com",
+      "summary": "Iran insists on diplomatic solution after Trump rejects peace plan reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVF9ZM3dkR3ZQUWpnUVNzR0lsd0tkTTZkZ1AwN1RnZzVzQXo3WjZWY0VTNVo4dU9PM3ZfUnBKWUZuTWtRa01jNUxtVHhyZW1TakhIWlhCdl9UV0gxc3BWMUdTZ2x2Z2czNEVNV3JVYkJGOEYzSU5MREtHYldqdXZDXy1jdWlsTVZKR3pZTy1qS01IT1FpZDlkZVBLUHEzTXVDSDFlRWhva1Vsdld3cVhnUXZiYnNxTUhtb2c?oc=5",
       "datetime": 1790462160,
-      "headlineKo": "트럼프가 평화안 거부하자 이란, 외교적 해결 주장 - 로이터",
-      "summaryKo": "이란, 트럼프가 평화 계획 거부하자 외교적 해결 주장 - 최신"
+      "headlineKo": "트럼프가 평화안 거부하자 이란, 외교적 해결 주장 - reuters.com",
+      "summaryKo": "트럼프가 평화 계획을 거부하자 이란, 외교적 해결 주장 reuters.com"
     },
     {
-      "headline": "China, US agree to AI dialogue, tariff cuts on $30 billion in goods during Xi visit - Reuters",
-      "summary": "China, US agree to AI dialogue, tariff cuts on $30 billion in goods during Xi visit Reuters",
+      "headline": "Trump rejects Iranian proposal to open Hormuz and end fighting - reuters.com",
+      "summary": "Trump rejects Iranian proposal to open Hormuz and end fighting reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
+      "datetime": 1790458071,
+      "headlineKo": "트럼프, 호르무즈 개방과 전쟁 종식하라는 이란의 제안 거부 - reuters.com",
+      "summaryKo": "트럼프, 호르무즈 개방하고 전쟁 종식하라는 이란 제안 거부"
+    },
+    {
+      "headline": "China, US agree to AI dialogue, tariff cuts on $30 billion in goods during Xi visit - reuters.com",
+      "summary": "China, US agree to AI dialogue, tariff cuts on $30 billion in goods during Xi visit reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT2FRVWRwSDZuWUZPYTRXcmNuNTFDR0hrQkVUZnpSdV9RdGhpUjV5R0hwN2V6MUNUS2hiTHpENFhwUFVDODBIeDhBSm5SdUJOeU1qSUhjekl2RzBDd0VBYi0tdmNDblQwV1RMTF9QMGFHdlFRcDRmalE3dWlhX0l6aUJjSGtsVjlsZXNnbmZWY3JzMEtwY3hxNEZHT3JjWXJEQlVRSFpSM0haSUROOUFRaWJB?oc=5",
       "datetime": 1790452772,
-      "headlineKo": "중국, 미국, AI 대화에 동의하고 시 주석 방문 중 300억 달러 규모의 물품에 대한 관세 인하 - Reuters",
-      "summaryKo": "중국, 미국, AI 대화에 동의하고 시 방문 중 300억 달러 규모의 물품에 대한 관세 인하 - 로이터"
+      "headlineKo": "중국, 미국, AI 대화에 동의하고 시 주석 방문 중 300억 달러 규모의 물품에 대한 관세 인하 - reuters.com",
+      "summaryKo": "중국, 미국, AI 대화에 동의하고 시 주석 방문 중 300억 달러 규모의 물품에 대한 관세 인하 reuters.com"
     },
     {
-      "headline": "China pushes back against US on Iran and Cuba in UN speech - Reuters",
-      "summary": "China pushes back against US on Iran and Cuba in UN speech Reuters",
+      "headline": "China pushes back against US on Iran and Cuba in UN speech - reuters.com",
+      "summary": "China pushes back against US on Iran and Cuba in UN speech reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNmFyYk05dGVubEpsSTJ2dGwxcWtFNEx0ZDNybVVaMndCOUpzOTV5SHNjdmw0eHFCQzlsSHZONU91bHVjeU9lQ1RjSTJSM0pZRDhzUUNENHl1b1daMUxkajZ2QklCNTY5bXUxV0dEczRhZTJmU0VKWHhUeWN0OG5OYWRXdWRYUHJOaFJWbjlySGpEdUQtaDdDWThfTWk?oc=5",
       "datetime": 1790450077,
-      "headlineKo": "중국, 유엔 연설에서 이란과 쿠바 문제에 대해 미국에 반발 - 로이터",
-      "summaryKo": "중국, 유엔 연설에서 이란과 쿠바에 대해 미국에 반발 - 최신"
+      "headlineKo": "중국, 유엔 연설에서 이란과 쿠바에 대해 미국에 반발 - reuters.com",
+      "summaryKo": "중국, 유엔 연설에서 이란과 쿠바에 대해 미국에 반발 reuters.com"
     },
     {
       "headline": "Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics",
@@ -282,13 +300,13 @@ const MARKET_DATA = {
       "summaryKo": "대중은 AI 데이터 센터에 불만을 품고 있으며 주에서는 개발 속도를 늦추고 있지만 HVAC, 배관, 용접 및 전기 작업자에게는 일자리 붐이 일어났습니다."
     },
     {
-      "headline": "Saudi coalition says it intercepts Houthi missiles, drones - Reuters",
-      "summary": "Saudi coalition says it intercepts Houthi missiles, drones Reuters",
+      "headline": "Saudi coalition says it intercepts Houthi missiles, drones - reuters.com",
+      "summary": "Saudi coalition says it intercepts Houthi missiles, drones reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdndqUFdtd2J6b19yZlhhZjlOZXVBYkNvYjVtTjQzYUxlRTVldkZHbjdQdDQtMGI0ZFEwSEY2MTc1OHNTcWJHUXJCbFJjSlpFb0o3blUxMTRBQWZncEVZaEZiMEdJbU9ZOGZIbUFxQzB3SGduZFZ2ZGFDYWNoZEtqVTd0QXRVZUc2UHRXMnpjUi1XM0d0a3dXcDg3ZFRqd2xsWHdzVXlhOXhMMDlQeHlpcEFXWjNncEZWbnBxZ0NaLXI?oc=5",
       "datetime": 1790428842,
-      "headlineKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - 로이터 통신",
-      "summaryKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - 최신"
+      "headlineKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - reuters.com",
+      "summaryKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 reuters.com"
     },
     {
       "headline": "27-year-old started a run club to meet new people—now his NYC side hustle brings in $640K a year",
@@ -309,13 +327,13 @@ const MARKET_DATA = {
       "summaryKo": "폭스뉴스, CNN, MS NOW는 트럼프 대통령이 정상회담 마지막 날 백악관에서 시 부부와 함께 차를 마시기 위해 부인 펑리위안 여사를 초대하는 장면을 방송했다."
     },
     {
-      "headline": "Six big takeaways from a turbulent week of UN diplomacy - Reuters",
-      "summary": "Six big takeaways from a turbulent week of UN diplomacy Reuters",
+      "headline": "Six big takeaways from a turbulent week of UN diplomacy - reuters.com",
+      "summary": "Six big takeaways from a turbulent week of UN diplomacy reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOFZoZDdKM2NZd3RrRFBLRGQ3VWoteUxkRFFtemw1RGVqbXdBWEdDR3FNazZ6MERQMWdCMThtVnJ5dnpmYjU0WWgzZW03OU5vWVZKLXRmS0s2c3BKV2lKbTlGLTJDRThYRW96eGJNVEhDZ3VEVVhPNGxpSkszTFc5WXNNQWh4dVRYWEJIZkhPTGN3ZDJXeW5FV2dYT3M?oc=5",
-      "datetime": 1790399340,
-      "headlineKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 - 로이터",
-      "summaryKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 Reuters"
+      "datetime": 1790399504,
+      "headlineKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 - reuters.com",
+      "summaryKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 reuters.com"
     },
     {
       "headline": "How Trump’s diesel ban threat is making US exports more profitable",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790395995,
       "headlineKo": "트럼프의 디젤 금지 위협이 미국 수출의 수익성을 높이는 방법",
       "summaryKo": "이란 전쟁으로 공급이 중단되고 우크라이나가 러시아 정유소를 공격해 세계 시장이 경색된 이후 유럽은 디젤 수요가 절실하다."
-    },
-    {
-      "headline": "Crude oil price dips as traders weigh US-Iran Hormuz talks, supply risks",
-      "summary": "Oil eases as US-Iran Hormuz talks unfold, amid supply risks, regional tensions, and uncertain prospects for a breakthrough.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-24/latest-oil-market-news-and-analysis-for-date",
-      "datetime": 1790393874,
-      "headlineKo": "거래자들이 미국-이란 호르무즈 회담과 공급 위험을 저울질하면서 원유 가격 하락",
-      "summaryKo": "공급 위험, 지역적 긴장, 돌파구에 대한 불확실한 전망 속에서 미국-이란 호르무즈 회담이 전개되면서 유가는 완화되고 있습니다."
-    },
-    {
-      "headline": "Trump rejects Iranian proposal to open Hormuz and end fighting - Reuters",
-      "summary": "Trump rejects Iranian proposal to open Hormuz and end fighting Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
-      "datetime": 1790387940,
-      "headlineKo": "트럼프, 호르무즈 개방과 전쟁 종식을 위한 이란의 제안 거부 - 로이터",
-      "summaryKo": "트럼프, 호르무즈 개방하고 전쟁 종식하라는 이란 제안 거부 - 중앙일보"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790495987.3686643,
+  "_news_last_success_at": 1790499636.8309834,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790495977.1387613,
-  "_updated_label": "2026-09-27 17:00",
-  "_last_attempt_at": 1790495977.1387613,
-  "_last_success_at": 1790495977.1387613,
+  "_fetched_at": 1790499619.8925874,
+  "_updated_label": "2026-09-27 18:01",
+  "_last_attempt_at": 1790499619.8925874,
+  "_last_success_at": 1790499619.8925874,
   "_collection_status": "ok",
   "_collection_errors": []
 };
