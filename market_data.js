@@ -237,6 +237,24 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "At NFL games this season, drone defense tech aims to bring down disruptions",
+      "summary": "The NFL told CNBC it recorded 10,852 drone violations over stadiums between 2021 and 2025. The Jaguars became the first team to sign a drone defense firm.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/27/nfl-drone-defense-tech-game-disruptions.html",
+      "datetime": 1790510401,
+      "headlineKo": "이번 시즌 NFL 경기에서 드론 방어 기술은 혼란을 줄이는 것을 목표로 합니다.",
+      "summaryKo": "NFL은 CNBC에 2021년부터 2025년까지 경기장에서 10,852건의 드론 위반을 기록했다고 말했습니다. 재규어는 드론 방어 회사와 계약한 첫 번째 팀이 되었습니다."
+    },
+    {
+      "headline": "Men arrested in major incident at UK air base used by US - Reuters",
+      "summary": "Men arrested in major incident at UK air base used by US Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOThaUHcwMHZuZEY2dldUNjhYQ29PeWRJdEYxWFBPV3NEUUdSc0l4MkdhN3liTGdyNG9XaEhwWG8xRk8xR29JVlA0ZEV2ZXM3RVZCRDlPSHhzU29Pek9tZVREdUdvOHRXS1ZuaTR0TXVGV253bkplU1lNbG85WXRjYzcwV2ZSekFCa1gtR1RtV09zM3NYeF93?oc=5",
+      "datetime": 1790508886,
+      "headlineKo": "미국이 사용하는 영국 공군 기지에서 대형 사고로 남성 체포 - 로이터",
+      "summaryKo": "미국이 사용하는 영국 공군 기지에서 대형 사고로 남성 체포 로이터"
+    },
+    {
       "headline": "Wall Street money takes back over from small investors as driving force of the stock market",
       "summary": "One firm sees a \"reasonably constructive signal for risk appetite\" among institutional investors.",
       "source": "CNBC",
@@ -244,15 +262,6 @@ const MARKET_DATA = {
       "datetime": 1790508755,
       "headlineKo": "월스트리트 자금이 소액 투자자들로부터 주식 시장의 원동력으로 자리 잡았습니다.",
       "summaryKo": "한 회사는 기관 투자자들 사이에서 \"위험 선호도에 대한 합리적으로 건설적인 신호\"를 보고 있습니다."
-    },
-    {
-      "headline": "Men arrested in major incident at UK air base used by US - Reuters",
-      "summary": "Men arrested in major incident at UK air base used by US Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOThaUHcwMHZuZEY2dldUNjhYQ29PeWRJdEYxWFBPV3NEUUdSc0l4MkdhN3liTGdyNG9XaEhwWG8xRk8xR29JVlA0ZEV2ZXM3RVZCRDlPSHhzU29Pek9tZVREdUdvOHRXS1ZuaTR0TXVGV253bkplU1lNbG85WXRjYzcwV2ZSekFCa1gtR1RtV09zM3NYeF93?oc=5",
-      "datetime": 1790502935,
-      "headlineKo": "미국이 사용하는 영국 공군 기지에서 대형 사고로 남성 체포 - 로이터",
-      "summaryKo": "미국이 사용하는 영국 공군 기지에서 대형 사고로 남성 체포 로이터"
     },
     {
       "headline": "Iran's army voices readiness for potential renewed US attack - Reuters",
@@ -334,29 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790405906,
       "headlineKo": "주요 TV 네트워크는 금지 이후 백악관 생방송을 재개합니다.",
       "summaryKo": "폭스뉴스, CNN, MS NOW는 트럼프 대통령이 정상회담 마지막 날 백악관에서 시 부부와 함께 차를 마시기 위해 부인 펑리위안 여사를 초대하는 장면을 방송했다."
-    },
-    {
-      "headline": "Six big takeaways from a turbulent week of UN diplomacy - Reuters",
-      "summary": "Six big takeaways from a turbulent week of UN diplomacy Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOFZoZDdKM2NZd3RrRFBLRGQ3VWoteUxkRFFtemw1RGVqbXdBWEdDR3FNazZ6MERQMWdCMThtVnJ5dnpmYjU0WWgzZW03OU5vWVZKLXRmS0s2c3BKV2lKbTlGLTJDRThYRW96eGJNVEhDZ3VEVVhPNGxpSkszTFc5WXNNQWh4dVRYWEJIZkhPTGN3ZDJXeW5FV2dYT3M?oc=5",
-      "datetime": 1790399504,
-      "headlineKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 - 로이터",
-      "summaryKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 Reuters"
     }
   ],
-  "_news_collection_status": "error",
-  "_news_last_success_at": 1790510411.3986504,
+  "_news_collection_status": "ok",
+  "_news_last_success_at": 1790517612.6863935,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790514003.3798518,
-  "_updated_label": "2026-09-27 22:01",
-  "_last_attempt_at": 1790514003.3798518,
-  "_last_success_at": 1790510402.811215,
-  "_collection_status": "partial",
-  "_collection_errors": [
-    "시장 헤드라인"
-  ]
+  "_fetched_at": 1790517603.346106,
+  "_updated_label": "2026-09-27 23:00",
+  "_last_attempt_at": 1790517603.346106,
+  "_last_success_at": 1790517603.346106,
+  "_collection_status": "ok",
+  "_collection_errors": []
 };
