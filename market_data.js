@@ -345,16 +345,18 @@ const MARKET_DATA = {
       "summaryKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 Reuters"
     }
   ],
-  "_news_collection_status": "ok",
+  "_news_collection_status": "error",
   "_news_last_success_at": 1790510411.3986504,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790510402.811215,
-  "_updated_label": "2026-09-27 21:00",
-  "_last_attempt_at": 1790510402.811215,
+  "_fetched_at": 1790514003.3798518,
+  "_updated_label": "2026-09-27 22:01",
+  "_last_attempt_at": 1790514003.3798518,
   "_last_success_at": 1790510402.811215,
-  "_collection_status": "ok",
-  "_collection_errors": []
+  "_collection_status": "partial",
+  "_collection_errors": [
+    "시장 헤드라인"
+  ]
 };
