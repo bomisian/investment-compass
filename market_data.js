@@ -241,9 +241,27 @@ const MARKET_DATA = {
       "summary": "Iran insists on diplomatic solution after Trump rejects peace plan Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVF9ZM3dkR3ZQUWpnUVNzR0lsd0tkTTZkZ1AwN1RnZzVzQXo3WjZWY0VTNVo4dU9PM3ZfUnBKWUZuTWtRa01jNUxtVHhyZW1TakhIWlhCdl9UV0gxc3BWMUdTZ2x2Z2czNEVNV3JVYkJGOEYzSU5MREtHYldqdXZDXy1jdWlsTVZKR3pZTy1qS01IT1FpZDlkZVBLUHEzTXVDSDFlRWhva1Vsdld3cVhnUXZiYnNxTUhtb2c?oc=5",
-      "datetime": 1790462554,
+      "datetime": 1790462160,
       "headlineKo": "트럼프가 평화안 거부하자 이란, 외교적 해결 주장 - 로이터",
       "summaryKo": "이란, 트럼프가 평화 계획 거부하자 외교적 해결 주장 - 최신"
+    },
+    {
+      "headline": "Trump rejects Iranian proposal to open Hormuz and end fighting - Reuters",
+      "summary": "Trump rejects Iranian proposal to open Hormuz and end fighting Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
+      "datetime": 1790458071,
+      "headlineKo": "트럼프, 호르무즈 개방과 전쟁 종식을 위한 이란의 제안 거부 - 로이터",
+      "summaryKo": "트럼프, 호르무즈 개방하고 전쟁 종식하라는 이란 제안 거부 - 중앙일보"
+    },
+    {
+      "headline": "China, US agree to AI dialogue, tariff cuts on $30 billion in goods during Xi visit - Reuters",
+      "summary": "China, US agree to AI dialogue, tariff cuts on $30 billion in goods during Xi visit Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT2FRVWRwSDZuWUZPYTRXcmNuNTFDR0hrQkVUZnpSdV9RdGhpUjV5R0hwN2V6MUNUS2hiTHpENFhwUFVDODBIeDhBSm5SdUJOeU1qSUhjekl2RzBDd0VBYi0tdmNDblQwV1RMTF9QMGFHdlFRcDRmalE3dWlhX0l6aUJjSGtsVjlsZXNnbmZWY3JzMEtwY3hxNEZHT3JjWXJEQlVRSFpSM0haSUROOUFRaWJB?oc=5",
+      "datetime": 1790452772,
+      "headlineKo": "중국, 미국, AI 대화에 동의하고 시 주석 방문 중 300억 달러 규모의 물품에 대한 관세 인하 - Reuters",
+      "summaryKo": "중국, 미국, AI 대화에 동의하고 시 방문 중 300억 달러 규모의 물품에 대한 관세 인하 - 로이터"
     },
     {
       "headline": "China pushes back against US on Iran and Cuba in UN speech - Reuters",
@@ -291,15 +309,6 @@ const MARKET_DATA = {
       "summaryKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 Reuters"
     },
     {
-      "headline": "Trump rejects Iranian proposal to open Hormuz and end fighting - Reuters",
-      "summary": "Trump rejects Iranian proposal to open Hormuz and end fighting Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
-      "datetime": 1790387940,
-      "headlineKo": "트럼프, 호르무즈 개방과 전쟁 종식을 위한 이란의 제안 거부 - 로이터",
-      "summaryKo": "트럼프, 호르무즈 개방하고 전쟁 종식하라는 이란 제안 거부 - 중앙일보"
-    },
-    {
       "headline": "Saudi coalition says it intercepts Houthi missiles, drones - Reuters",
       "summary": "Saudi coalition says it intercepts Houthi missiles, drones Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790367386,
       "headlineKo": "EU, 에너지 가격 위기 경고, 국가들에 수요 억제 고려 요청, 서신 공개 - Reuters",
       "summaryKo": "EU는 에너지 가격 위기를 경고하고 국가들에게 수요 억제를 고려할 것을 요청했다고 서신은 밝혔습니다."
-    },
-    {
-      "headline": "What we want to see next week from one of Jim Cramer's 6 stocks to buy",
-      "summary": "Micron has all the leverage heading into earnings as memory supply constraints persist. But how long will this favorable cycle last?",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/25/what-we-want-to-see-next-week-from-one-of-jim-cramers-6-stocks-to-buy.html",
-      "datetime": 1790365244,
-      "headlineKo": "Jim Cramer의 매수 주식 6개 중 다음 주에 보고 싶은 것",
-      "summaryKo": "Micron은 메모리 공급 제약이 지속됨에 따라 수익으로 향하는 모든 영향력을 갖고 있습니다. 하지만 이 유리한 사이클은 언제까지 지속될 것인가?"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790473889.2622185,
+  "_news_last_success_at": 1790477574.2005503,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790473882.0437336,
-  "_updated_label": "2026-09-27 10:51",
-  "_last_attempt_at": 1790473882.0437336,
-  "_last_success_at": 1790473882.0437336,
+  "_fetched_at": 1790477565.415756,
+  "_updated_label": "2026-09-27 11:53",
+  "_last_attempt_at": 1790477565.415756,
+  "_last_success_at": 1790477565.415756,
   "_collection_status": "ok",
   "_collection_errors": []
 };
