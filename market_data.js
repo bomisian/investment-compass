@@ -246,6 +246,15 @@ const MARKET_DATA = {
       "summaryKo": "Athropic CEO Dario Amodei는 일요일 백악관에서 도널드 트럼프 대통령과 만찬을 가질 예정이라고 Axios가 보도했습니다."
     },
     {
+      "headline": "Israel revokes diplomatic status of Dutch diplomats in Ramallah - Reuters",
+      "summary": "Israel revokes diplomatic status of Dutch diplomats in Ramallah Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNN3pkY0Zia2l4Qm1yYmVVUzlQZWpYc1dnWkZJRllIREhJTy1PNWxPYXByWGdPNDVYNVN2bWx5cWxPNnFINDhIVWhEaW5BRk9qNjVJS3ExdVM5SW9MTmJ0UkJJTzFHS2Fvam5rMVhsZzZsVmZnWXFFVzFDTk05UW96V0IxNFpydV9nTEREeFJSamlqeTJWX0h0Mjl6U2ZWUG41eWtoekJiZE1Pa0dOaUZOaA?oc=5",
+      "datetime": 1790532933,
+      "headlineKo": "이스라엘, 라말라 주재 네덜란드 외교관의 외교적 지위 박탈 - 로이터 통신",
+      "summaryKo": "이스라엘, 라말라 주둔 네덜란드 외교관의 외교적 지위 박탈 - 로이터"
+    },
+    {
       "headline": "Trump says men arrested at UK air base used by US were looking to do 'big damage' - Reuters",
       "summary": "Trump says men arrested at UK air base used by US were looking to do 'big damage' Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790462160,
       "headlineKo": "트럼프가 평화안 거부하자 이란, 외교적 해결 주장 - 로이터",
       "summaryKo": "이란, 트럼프가 평화 계획 거부하자 외교적 해결 주장 - 최신"
-    },
-    {
-      "headline": "China, US agree to AI dialogue, tariff cuts on $30 billion in goods during Xi visit - Reuters",
-      "summary": "China, US agree to AI dialogue, tariff cuts on $30 billion in goods during Xi visit Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT2FRVWRwSDZuWUZPYTRXcmNuNTFDR0hrQkVUZnpSdV9RdGhpUjV5R0hwN2V6MUNUS2hiTHpENFhwUFVDODBIeDhBSm5SdUJOeU1qSUhjekl2RzBDd0VBYi0tdmNDblQwV1RMTF9QMGFHdlFRcDRmalE3dWlhX0l6aUJjSGtsVjlsZXNnbmZWY3JzMEtwY3hxNEZHT3JjWXJEQlVRSFpSM0haSUROOUFRaWJB?oc=5",
-      "datetime": 1790452772,
-      "headlineKo": "중국, 미국, AI 대화에 동의하고 시 주석 방문 중 300억 달러 규모의 물품에 대한 관세 인하 - Reuters",
-      "summaryKo": "중국, 미국, AI 대화에 동의하고 시 방문 중 300억 달러 규모의 물품에 대한 관세 인하 - 로이터"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790539211.7721293,
+  "_news_last_success_at": 1790542812.8975153,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790539203.355305,
-  "_updated_label": "2026-09-28 05:00",
-  "_last_attempt_at": 1790539203.355305,
-  "_last_success_at": 1790539203.355305,
+  "_fetched_at": 1790542803.3937814,
+  "_updated_label": "2026-09-28 06:00",
+  "_last_attempt_at": 1790542803.3937814,
+  "_last_success_at": 1790542803.3937814,
   "_collection_status": "ok",
   "_collection_errors": []
 };
