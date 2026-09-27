@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790534613.0380197,
+  "generatedAt": 1790534764.3815963,
   "records": {
     "MSFT": [
       {
