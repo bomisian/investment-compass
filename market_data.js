@@ -304,7 +304,7 @@ const MARKET_DATA = {
       "summary": "Six big takeaways from a turbulent week of UN diplomacy Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOFZoZDdKM2NZd3RrRFBLRGQ3VWoteUxkRFFtemw1RGVqbXdBWEdDR3FNazZ6MERQMWdCMThtVnJ5dnpmYjU0WWgzZW03OU5vWVZKLXRmS0s2c3BKV2lKbTlGLTJDRThYRW96eGJNVEhDZ3VEVVhPNGxpSkszTFc5WXNNQWh4dVRYWEJIZkhPTGN3ZDJXeW5FV2dYT3M?oc=5",
-      "datetime": 1790399504,
+      "datetime": 1790399340,
       "headlineKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 - 로이터",
       "summaryKo": "격동의 유엔 외교 주간에서 얻은 6가지 주요 시사점 Reuters"
     },
@@ -336,25 +336,25 @@ const MARKET_DATA = {
       "summaryKo": "트럼프, 호르무즈 개방하고 전쟁 종식하라는 이란 제안 거부 - 중앙일보"
     },
     {
-      "headline": "Here's exactly what Paramount promised Hollywood to land WBD — and why some are still skeptical",
-      "summary": "Paramount CEO David Ellison's antitrust settlement eased some theatrical concerns, but questions remain about what happens when the five-year agreement ends.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/25/paramount-hollywood-promises.html",
-      "datetime": 1790375492,
-      "headlineKo": "파라마운트가 헐리우드에게 WBD를 도입하겠다고 약속한 내용과 일부 사람들이 여전히 회의적인 이유는 다음과 같습니다.",
-      "summaryKo": "파라마운트 CEO 데이비드 엘리슨(David Ellison)의 독점금지 합의는 일부 연극적 우려를 완화시켰지만 5년 계약이 종료되면 어떤 일이 일어날지에 대한 의문이 남아 있습니다."
+      "headline": "Battered bonds draw support from falling oil prices - Reuters",
+      "summary": "Battered bonds draw support from falling oil prices Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSXl3a0V4VjdBS1ZlOENTNmpGcmdEa1BNaDh3N21xanZ2Q1JYRGEwbV9QTGdMN21oV1N5Ukw3SEhEa1ZLUENNNTFuVWV3cjQ1RFR2cWtCdlJBNVp2bDBsZTExZWYzVW44eGtJMHFiUkVyOG9xU3c3Z2Y5THFDWDNLMA?oc=5",
+      "datetime": 1790384987,
+      "headlineKo": "낡은 채권은 유가 하락으로 지지를 얻습니다 - Reuters",
+      "summaryKo": "낡은 채권은 유가 하락으로 지지를 얻습니다 - Reuters"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790488663.453426,
+  "_news_last_success_at": 1790492329.105717,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790488654.4660778,
-  "_updated_label": "2026-09-27 14:58",
-  "_last_attempt_at": 1790488654.4660778,
-  "_last_success_at": 1790488654.4660778,
+  "_fetched_at": 1790492315.6212282,
+  "_updated_label": "2026-09-27 15:59",
+  "_last_attempt_at": 1790492315.6212282,
+  "_last_success_at": 1790492315.6212282,
   "_collection_status": "ok",
   "_collection_errors": []
 };
