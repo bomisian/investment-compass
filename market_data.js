@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Wall Street money takes back over from small investors as driving force of the stock market",
+      "summary": "One firm sees a \"reasonably constructive signal for risk appetite\" among institutional investors.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/27/institutional-investors-stocks-treaurys-retail-traders.html",
+      "datetime": 1790508755,
+      "headlineKo": "월스트리트 자금이 소액 투자자들로부터 주식 시장의 원동력으로 자리 잡았습니다.",
+      "summaryKo": "한 회사는 기관 투자자들 사이에서 \"위험 선호도에 대한 합리적으로 건설적인 신호\"를 보고 있습니다."
+    },
+    {
       "headline": "Men arrested in major incident at UK air base used by US - Reuters",
       "summary": "Men arrested in major incident at UK air base used by US Reuters",
       "source": "Reuters",
@@ -295,7 +304,7 @@ const MARKET_DATA = {
       "summary": "PODCAST: Iran’s peace proposal, OpenAI image leak and FIFA reform Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX3BxMHVzWk9qNUllR2xVX0x5WHlKMk1DalNmZ0laTDNYZkRMRWhwSjNFVktkSzM4aklocUdIeDgtWlc3N001a25kUkdKZTNTV3pKU2YwZkI1TE1qeklLOXJQNXg4UFMyZGhCSjVRSTQ4Q2p6N3ZoT084c3NBdndHWmF4TXR0b1ZHOHhEMmJiVDNWVjVzaVJKbHU4bw?oc=5",
-      "datetime": 1790432208,
+      "datetime": 1790432160,
       "headlineKo": "팟캐스트: 이란의 평화 제안, OpenAI 이미지 유출 및 FIFA 개혁 - Reuters",
       "summaryKo": "팟캐스트: 이란의 평화 제안, OpenAI 이미지 유출 및 FIFA 개혁 Reuters"
     },
@@ -307,15 +316,6 @@ const MARKET_DATA = {
       "datetime": 1790430222,
       "headlineKo": "블루칼라 AI 채용시장이 호황을 누리고 있다. 데이터 센터 반발로 인해 파산하게 될까요?",
       "summaryKo": "대중은 AI 데이터 센터에 불만을 품고 있으며 주에서는 개발 속도를 늦추고 있지만 HVAC, 배관, 용접 및 전기 작업자에게는 일자리 붐이 일어났습니다."
-    },
-    {
-      "headline": "Saudi coalition says it intercepts Houthi missiles, drones - Reuters",
-      "summary": "Saudi coalition says it intercepts Houthi missiles, drones Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdndqUFdtd2J6b19yZlhhZjlOZXVBYkNvYjVtTjQzYUxlRTVldkZHbjdQdDQtMGI0ZFEwSEY2MTc1OHNTcWJHUXJCbFJjSlpFb0o3blUxMTRBQWZncEVZaEZiMEdJbU9ZOGZIbUFxQzB3SGduZFZ2ZGFDYWNoZEtqVTd0QXRVZUc2UHRXMnpjUi1XM0d0a3dXcDg3ZFRqd2xsWHdzVXlhOXhMMDlQeHlpcEFXWjNncEZWbnBxZ0NaLXI?oc=5",
-      "datetime": 1790428842,
-      "headlineKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - 로이터 통신",
-      "summaryKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - 최신"
     },
     {
       "headline": "27-year-old started a run club to meet new people—now his NYC side hustle brings in $640K a year",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790507028.622566,
+  "_news_last_success_at": 1790510411.3986504,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790507017.5650954,
-  "_updated_label": "2026-09-27 20:04",
-  "_last_attempt_at": 1790507017.5650954,
-  "_last_success_at": 1790507017.5650954,
+  "_fetched_at": 1790510402.811215,
+  "_updated_label": "2026-09-27 21:00",
+  "_last_attempt_at": 1790510402.811215,
+  "_last_success_at": 1790510402.811215,
   "_collection_status": "ok",
   "_collection_errors": []
 };
