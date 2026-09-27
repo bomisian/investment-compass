@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran insists on diplomatic solution after Trump rejects peace plan - Reuters",
+      "summary": "Iran insists on diplomatic solution after Trump rejects peace plan Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVF9ZM3dkR3ZQUWpnUVNzR0lsd0tkTTZkZ1AwN1RnZzVzQXo3WjZWY0VTNVo4dU9PM3ZfUnBKWUZuTWtRa01jNUxtVHhyZW1TakhIWlhCdl9UV0gxc3BWMUdTZ2x2Z2czNEVNV3JVYkJGOEYzSU5MREtHYldqdXZDXy1jdWlsTVZKR3pZTy1qS01IT1FpZDlkZVBLUHEzTXVDSDFlRWhva1Vsdld3cVhnUXZiYnNxTUhtb2c?oc=5",
+      "datetime": 1790462554,
+      "headlineKo": "트럼프가 평화안 거부하자 이란, 외교적 해결 주장 - 로이터",
+      "summaryKo": "이란, 트럼프가 평화 계획 거부하자 외교적 해결 주장 - 최신"
+    },
+    {
       "headline": "China pushes back against US on Iran and Cuba in UN speech - Reuters",
       "summary": "China pushes back against US on Iran and Cuba in UN speech Reuters",
       "source": "Reuters",
@@ -300,15 +309,6 @@ const MARKET_DATA = {
       "summaryKo": "사우디 연합군, 후티 미사일과 드론 요격 발표 - 최신"
     },
     {
-      "headline": "How Trump's diplomatic week exposed the limits of his power - Reuters",
-      "summary": "How Trump's diplomatic week exposed the limits of his power Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWUNJQ25mYi11NFg0WjVHdEZaSjVqMHhQS0NIT2tfQjc5UF9EZUpGWUNWZW40VGlmZjlhRFVZTkRicnh3UTlERy1vcU9majF6em4wYlRVN1V5S0RaTnpmR0VDdDV5VzBqNHY5dWNuWEJtdkF3VWNfQlVLbDc4S19Zb1Y1MzYxN2kwNGhVRF9uVUF0RTZPaVoyX1NvRmRkeFVG?oc=5",
-      "datetime": 1790376357,
-      "headlineKo": "트럼프의 외교 주간은 어떻게 그의 권력 한계를 드러냈는가 - 로이터",
-      "summaryKo": "트럼프의 외교 주간은 어떻게 그의 권력 한계를 드러냈는가 - 최신"
-    },
-    {
       "headline": "Here's exactly what Paramount promised Hollywood to land WBD — and why some are still skeptical",
       "summary": "Paramount CEO David Ellison's antitrust settlement eased some theatrical concerns, but questions remain about what happens when the five-year agreement ends.",
       "source": "CNBC",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790466526.4485555,
+  "_news_last_success_at": 1790470205.1512437,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790466518.910775,
-  "_updated_label": "2026-09-27 08:49",
-  "_last_attempt_at": 1790466518.910775,
-  "_last_success_at": 1790466518.910775,
+  "_fetched_at": 1790470196.889534,
+  "_updated_label": "2026-09-27 09:50",
+  "_last_attempt_at": 1790470196.889534,
+  "_last_success_at": 1790470196.889534,
   "_collection_status": "ok",
   "_collection_errors": []
 };
