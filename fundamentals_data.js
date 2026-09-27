@@ -506,8 +506,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 31.47,
     "name": "Applied Materials Inc",
     "theme": "반도체 장비",
-    "_fetched_at": 1790479422.1629672,
-    "_updated_label": "2026-09-27 12:23"
+    "_fetched_at": 1790551542.1417553,
+    "_updated_label": "2026-09-28 08:25"
   },
   "QQQ": {
     "52WeekHigh": 748.65,
