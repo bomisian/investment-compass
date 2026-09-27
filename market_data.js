@@ -300,6 +300,15 @@ const MARKET_DATA = {
       "summaryKo": "Owen Akhibi Herrera는 2024년 뉴욕에 기반을 둔 운영 클럽을 시작했을 때 커뮤니티와 기업가적 기회를 갈망했습니다."
     },
     {
+      "headline": "Major TV networks resume live coverage of White House after ban",
+      "summary": "Fox News, CNN and MS NOW airs footage of Trump hosting Xi and his wife, Madame Peng Liyuan in the White House for tea on the summit’s final day",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-25/major-tv-networks-resume-live-coverage-of-white-house-after-ban",
+      "datetime": 1790405906,
+      "headlineKo": "주요 TV 네트워크는 금지 이후 백악관 생방송을 재개합니다.",
+      "summaryKo": "폭스뉴스, CNN, MS NOW는 트럼프 대통령이 정상회담 마지막 날 백악관에서 시 부부와 함께 차를 마시기 위해 부인 펑리위안 여사를 초대하는 장면을 방송했다."
+    },
+    {
       "headline": "Six big takeaways from a turbulent week of UN diplomacy - Reuters",
       "summary": "Six big takeaways from a turbulent week of UN diplomacy Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790387940,
       "headlineKo": "트럼프, 호르무즈 개방과 전쟁 종식을 위한 이란의 제안 거부 - 로이터",
       "summaryKo": "트럼프, 호르무즈 개방하고 전쟁 종식하라는 이란 제안 거부 - 중앙일보"
-    },
-    {
-      "headline": "Battered bonds draw support from falling oil prices - Reuters",
-      "summary": "Battered bonds draw support from falling oil prices Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSXl3a0V4VjdBS1ZlOENTNmpGcmdEa1BNaDh3N21xanZ2Q1JYRGEwbV9QTGdMN21oV1N5Ukw3SEhEa1ZLUENNNTFuVWV3cjQ1RFR2cWtCdlJBNVp2bDBsZTExZWYzVW44eGtJMHFiUkVyOG9xU3c3Z2Y5THFDWDNLMA?oc=5",
-      "datetime": 1790384987,
-      "headlineKo": "낡은 채권은 유가 하락으로 지지를 얻습니다 - Reuters",
-      "summaryKo": "낡은 채권은 유가 하락으로 지지를 얻습니다 - Reuters"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790492329.105717,
+  "_news_last_success_at": 1790495987.3686643,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790492315.6212282,
-  "_updated_label": "2026-09-27 15:59",
-  "_last_attempt_at": 1790492315.6212282,
-  "_last_success_at": 1790492315.6212282,
+  "_fetched_at": 1790495977.1387613,
+  "_updated_label": "2026-09-27 17:00",
+  "_last_attempt_at": 1790495977.1387613,
+  "_last_success_at": 1790495977.1387613,
   "_collection_status": "ok",
   "_collection_errors": []
 };
