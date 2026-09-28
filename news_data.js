@@ -2851,7 +2851,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "SPY": {
@@ -6225,7 +6225,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "MSFT": {
@@ -6360,7 +6360,54 @@ const NEWS_DATA = {
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "ChronoScale: 50MW Microsoft Win이 시작되었으나 더 많은 용량이 필요할 수 있음"
+        "headlineKo": "ChronoScale: 50MW Microsoft Win이 시작되었으나 더 많은 용량이 필요할 수 있음",
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "주식 희석 · 주당가치 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "ChronoScale: 50MW Microsoft Win이 시작되었지만 더 많은 용량이 필요할 수 있음(CHRN) | 알파 추구 Michael Del Monte 7.72K 팔로워 팔로우 요약 ChronoScale Holdings Corporation은 다음을 활용하는 신흥 네오클라우드 제공업체로 자리매김하고 있습니다.",
+            "CHRN의 성장은 컴퓨팅 용량 확장에 달려 있으며, 회사의 고객 기반 개발 능력은 더 높은 금융 비용과 치열한 경쟁에 직면할 수 있습니다.",
+            "나는 초기 단계의 위험, 높은 가치 평가 및 향후 자본 조달에 대한 의존도를 반영하여 보류 등급과 $19.68의 목표 가격을 가진 CHRN 주식을 추천합니다."
+          ],
+          "why": [
+            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $19.68 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "신규 주식 수·행사가격",
+            "조달 자금 사용처",
+            "완전희석 주식수와 EPS"
+          ],
+          "interpretation": "MSFT에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$19.68"
+          ],
+          "sourceExcerpt": [
+            "ChronoScale: 50MW Microsoft Win Is A Start, But More Capacity May Be Needed (CHRN) | Seeking Alpha Michael Del Monte 7.72K Followers Follow Summary ChronoScale Holdings Corporation is positioned as an emerging neocloud provider, leveraging ",
+            "CHRN's growth hinges on scaling compute capacity, and the company's ability to develop its customer base may face higher financing costs and heightened competition.",
+            "I recommend CHRN shares with a Hold rating and a $19.68 price target, reflecting early-stage risks, high valuation, and dependency on future capital raises."
+          ],
+          "analysisUpdatedAt": 1790618408.847223
+        }
       },
       {
         "headline": "Microsoft Rolls Out Refreshed Copilot App as Stock Lags Megacap Peers",
@@ -6611,7 +6658,54 @@ const NEWS_DATA = {
         "datetime": 1790599973,
         "headlineKo": "ChronoScale: 50MW Microsoft Win이 시작되었으나 더 많은 용량이 필요할 수 있음",
         "relevance": 0.4,
-        "keywordFlag": false
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "주식 희석 · 주당가치 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "ChronoScale: 50MW Microsoft Win이 시작되었지만 더 많은 용량이 필요할 수 있음(CHRN) | 알파 추구 Michael Del Monte 7.72K 팔로워 팔로우 요약 ChronoScale Holdings Corporation은 다음을 활용하는 신흥 네오클라우드 제공업체로 자리매김하고 있습니다.",
+            "CHRN의 성장은 컴퓨팅 용량 확장에 달려 있으며, 회사의 고객 기반 개발 능력은 더 높은 금융 비용과 치열한 경쟁에 직면할 수 있습니다.",
+            "나는 초기 단계의 위험, 높은 가치 평가 및 향후 자본 조달에 대한 의존도를 반영하여 보류 등급과 $19.68의 목표 가격을 가진 CHRN 주식을 추천합니다."
+          ],
+          "why": [
+            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $19.68 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "신규 주식 수·행사가격",
+            "조달 자금 사용처",
+            "완전희석 주식수와 EPS"
+          ],
+          "interpretation": "MSFT에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$19.68"
+          ],
+          "sourceExcerpt": [
+            "ChronoScale: 50MW Microsoft Win Is A Start, But More Capacity May Be Needed (CHRN) | Seeking Alpha Michael Del Monte 7.72K Followers Follow Summary ChronoScale Holdings Corporation is positioned as an emerging neocloud provider, leveraging ",
+            "CHRN's growth hinges on scaling compute capacity, and the company's ability to develop its customer base may face higher financing costs and heightened competition.",
+            "I recommend CHRN shares with a Hold rating and a $19.68 price target, reflecting early-stage risks, high valuation, and dependency on future capital raises."
+          ],
+          "analysisUpdatedAt": 1790618408.847223
+        }
       },
       {
         "headline": "Microsoft Rolls Out Refreshed Copilot App as Stock Lags Megacap Peers",
@@ -12430,9 +12524,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 144,
-      "removed": 1,
-      "updated": "2026-09-29 02:50"
+      "checked": 143,
+      "removed": 0,
+      "updated": "2026-09-29 03:00"
     }
   },
   "GOOGL": {
@@ -19784,7 +19878,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 167,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "AMZN": {
@@ -26883,7 +26977,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 172,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "META": {
@@ -34481,7 +34575,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "AAPL": {
@@ -41530,7 +41624,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 170,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "TSLA": {
@@ -48641,7 +48735,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 172,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "ORCL": {
@@ -54810,7 +54904,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 142,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "CRM": {
@@ -58981,7 +59075,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "PLTR": {
@@ -64806,7 +64900,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "NVDA": {
@@ -72622,7 +72716,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "AMD": {
@@ -78865,7 +78959,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 149,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "AVGO": {
@@ -82969,7 +83063,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "QCOM": {
@@ -86806,7 +86900,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "ARM": {
@@ -89865,7 +89959,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "MRVL": {
@@ -93624,7 +93718,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "INTC": {
@@ -99011,7 +99105,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 128,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "TSM": {
@@ -102128,7 +102222,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "ASML": {
@@ -104250,7 +104344,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "AMAT": {
@@ -106631,7 +106725,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "LRCX": {
@@ -107888,7 +107982,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "KLAC": {
@@ -109055,7 +109149,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "MU": {
@@ -116122,7 +116216,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 170,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "SNDK": {
@@ -119901,7 +119995,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "WDC": {
@@ -121715,7 +121809,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "ANET": {
@@ -123554,7 +123648,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "COHR": {
@@ -125242,7 +125336,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "LITE": {
@@ -126934,7 +127028,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "GEV": {
@@ -130047,7 +130141,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "CEG": {
@@ -131521,7 +131615,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "VST": {
@@ -133136,7 +133230,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "ETN": {
@@ -134888,7 +134982,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "PWR": {
@@ -136741,7 +136835,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "HUBB": {
@@ -137373,7 +137467,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "VRT": {
@@ -139349,7 +139443,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "MOD": {
@@ -140031,7 +140125,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "STX": {
@@ -141497,7 +141591,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "EME": {
@@ -142500,7 +142594,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "FIX": {
@@ -143256,7 +143350,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   },
   "BE": {
@@ -144715,7 +144809,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-29 02:50"
+      "updated": "2026-09-29 03:00"
     }
   }
 };
