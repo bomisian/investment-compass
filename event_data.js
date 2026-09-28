@@ -1,8 +1,159 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790619746.404376,
+  "generatedAt": 1790621650.974133,
   "events": [
+    {
+      "id": "7e835e242f9bccbee079",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "NVDA",
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "relatedEntities": [
+        {
+          "name": "NVIDIA",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Jim Cramer on Nvidia's $150 billion buyback expansion",
+      "headlineKo": "Nvidia의 1,500억 달러 자사주 매입 확장에 대한 Jim Cramer의 의견",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9dac7aa046e17a5052d3e22bd1f7b57733fd6259ca024a9835084ac1aebec675",
+        "publishedAt": 1790617607,
+        "collectedAt": 1790621582.715903
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Nvidia의 1,500억 달러 규모의 자사주 매입 확장에 대한 Jim Cramer Tech & Innovation Cramer는 Nvidia의 새로운 자사주 매입 계획이 '매우 중요하다'고 말했습니다. CNBC의 Jim Cramer는 칩 제조업체의 새로운 자사주 매입 계획이 만약 종료된다면 Nvidia 주식의 궤적을 바꿀 수 있다고 말했습니다.",
+        "Cramer는 CNBC에서 \"이것은 매우 중요한 자사주 매입입니다.\"라고 말했습니다.",
+        "\"그들이 활발하게 활동하고 매일 거기에 있다면 주식의 궤적이 바뀔 것이라고 생각합니다.\" Nvidia 이사회는 월요일에 1,500억 달러의 추가 자사주 매입을 승인하여 남은 승인 금액을 2,350억 달러로 늘렸습니다."
+      ],
+      "marketInterpretation": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $150 billion, $235 billion, 3% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "NVDA에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 비용·CAPEX·영업현금흐름·FCF·부채에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $150 billion, $235 billion, 3% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 CAPEX 집행",
+        "공급업체 수주·매출",
+        "투자 기업 OCF·FCF·부채"
+      ]
+    },
+    {
+      "id": "2dde9ce490376f2fc740",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "NVDA",
+      "relatedTickers": [
+        "NVDA",
+        "SPY"
+      ],
+      "relatedEntities": [
+        {
+          "name": "NVIDIA",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Jensen Huang Just Gave Investors 150 Billion Reasons to Buy Nvidia Stock",
+      "headlineKo": "Jensen Huang은 투자자들에게 Nvidia 주식을 구매해야 할 1,500억 가지 이유를 제공했습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8d4060800fb7216f213e192e42e652a3b94b89ff7ca9df04ccc94f94144ff2e8",
+        "publishedAt": 1790616900,
+        "collectedAt": 1790621582.715903
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Jensen Huang은 투자자들에게 Nvidia 주식을 구매해야 하는 1,500억 가지 이유를 제시했습니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 4년 전 Nvidia( NVDA +2.05% )는 w의 대명사가 되었습니다.",
+        "당시 회사의 그래픽 처리 장치(GPU)는 대기업이 갑자기 필요로 하는 생성 모델을 훈련하고 실행할 수 있는 널리 사용되는 유일한 하드웨어였습니다.",
+        "그 이후로 Nvidia는 칩, 소프트웨어, 네트워킹, 심지어 모델 자체까지 AI 인프라 스택의 중심에 머물 수 있었습니다."
+      ],
+      "marketInterpretation": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $150 billion, $39 billion, $235 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "NVDA에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $150 billion, $39 billion, $235 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 CAPEX 집행",
+        "공급업체 수주·매출",
+        "투자 기업 OCF·FCF·부채"
+      ]
+    },
     {
       "id": "c4a03476521ce24a8790",
       "schemaVersion": 1,
@@ -2352,6 +2503,213 @@ const EVENT_DATA = {
       ]
     },
     {
+      "id": "027ede6b432faef41639",
+      "schemaVersion": 1,
+      "eventType": "analyst_target_change",
+      "eventLabel": "애널리스트 목표주가 변경",
+      "primaryTicker": "AMZN",
+      "relatedTickers": [
+        "AMZN",
+        "QQQ",
+        "SPY"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Amazon",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Amazon’s AI Capex Is Paying Off and I’m Buying",
+      "headlineKo": "Amazon의 AI Capex가 성과를 거두고 있으며 구매 중입니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=808d854c8eab75bae56807253ffecaf816062dbcc5184e4bd2bd0355de1b24ae",
+        "publishedAt": 1790598491,
+        "collectedAt": 1790621582.715903
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Amazon의 AI Capex는 성과를 거두고 있으며 구매 중입니다 - 연중무휴 Wall St.",
+        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,708.00 −0.59% Dow Jones 51,630.40 −0.47% Nasdaq 100 30,373.30 −0.98% Russell 2000 2,829.49 −0.48% S&P 500 7,708.00 −0.59% 다우존스 51,630.40 −0.47% 나스닥 100 30,373.30 −0.98% 러셀 2000 2,829.49 −0.",
+        "다른 사람들이 건설하는 동안 유료 도로가 건설되는 것을 보는 이유는 다음과 같습니다. 작성자: Alex Sirois 2026년 9월 28일 게시, 오전 8:28(ET) · 읽기 3분 𝕏 f ⧉ AI의 약속으로 조명된 고급 데이터 센터는 혁신을 주도하는 핵심 인프라를 나타냅니다."
+      ],
+      "marketInterpretation": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: $131.8 billion, $220 billion, $35.10 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "AMZN에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: $131.8 billion, $220 billion, $35.10 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AMZN",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "목표주가 산식의 EPS",
+        "적용 PER 변화",
+        "회사 공식 가이던스"
+      ]
+    },
+    {
+      "id": "69f8fefe2d65fe5b31bd",
+      "schemaVersion": 1,
+      "eventType": "regulatory_legal_export",
+      "eventLabel": "규제·소송·수출 제한",
+      "primaryTicker": "AMZN",
+      "relatedTickers": [
+        "AAPL",
+        "AMZN"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Apple",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        },
+        {
+          "name": "Amazon",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "단기·장기",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Update: Apple, Amazon Face Renewed UK Consumer Lawsuit",
+      "headlineKo": "업데이트: Apple, Amazon, 영국 소비자 소송 갱신",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=146616e3062191bb2ccd8d35492086b76dbba65773d551d433ce8477bc0bde25",
+        "publishedAt": 1790597984,
+        "collectedAt": 1790621582.715903
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "업데이트: Apple, Amazon, 영국 소비자 소송 갱신"
+      ],
+      "marketInterpretation": [],
+      "aiInference": [
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AMZN",
+          "direction": "risk",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
+        }
+      ],
+      "watch": []
+    },
+    {
+      "id": "51b3b06850f99f7b56cd",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "실적 발표",
+      "primaryTicker": "AMZN",
+      "relatedTickers": [
+        "AMZN"
+      ],
+      "relatedEntities": [
+        {
+          "name": "AWS",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "ACI Worldwide and Cognizant Complete BASE24-eps Performance Testing on AWS",
+      "headlineKo": "ACI Worldwide 및 Cognizant는 AWS에서 BASE24-eps 성능 테스트를 완료했습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f56f5c121a01e82b8bd4cf51addef5cd9fa342b137b9bbc504aec7a8b9928021",
+        "publishedAt": 1790597508,
+        "collectedAt": 1790621582.715903
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "ACI Worldwide 및 Cognizant는 AWS에서 BASE24-eps 성능 테스트를 완료했습니다."
+      ],
+      "marketInterpretation": [],
+      "aiInference": [
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AMZN",
+          "direction": "mixed",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
+        }
+      ],
+      "watch": []
+    },
+    {
       "id": "ca13381c6d85dd29df51",
       "schemaVersion": 1,
       "eventType": "ai_investment_change",
@@ -2384,7 +2742,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=20a8dce073cb2ea4daddf7445be087c894be0a401f141107c8688333ab537234",
         "publishedAt": 1790596800,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2460,7 +2818,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cd4c439db09dbb4f6dda8a24ac915366c6713e32be44d36c4695792f0ea11d2f",
         "publishedAt": 1790595787,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2618,7 +2976,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6605328b763b7a861d1ad51a136bf7f9c2d3937c0ea2d00b95a6ef706eafa11c",
         "publishedAt": 1790591444,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3499,7 +3857,7 @@ const EVENT_DATA = {
       "schemaVersion": 1,
       "eventType": "major_customer_contract",
       "eventLabel": "주요 고객 계약",
-      "primaryTicker": "SPY",
+      "primaryTicker": "QQQ",
       "relatedTickers": [
         "QQQ",
         "SPY"
@@ -3522,7 +3880,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=84ccb21ee2457c46413e29388d513d06ec0abcc99aaef9e9b0047756faa384d4",
         "publishedAt": 1790586086,
-        "collectedAt": 1790617344.8725235
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3533,10 +3891,10 @@ const EVENT_DATA = {
       "marketInterpretation": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
         "이번 기사에서 확인된 구체적 수치: 0.50%, 1.21%, 0.46% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
-        "SPY에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+        "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
@@ -3549,11 +3907,11 @@ const EVENT_DATA = {
       "whyItMatters": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
         "이번 기사에서 확인된 구체적 수치: 0.50%, 1.21%, 0.46% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
-          "ticker": "SPY",
+          "ticker": "QQQ",
           "direction": "확인 필요",
           "reason": "회사 실적과의 연결고리 확인",
           "basis": "analysis"
@@ -4527,7 +4885,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=333ff7d6bb612eaddc2e47370baa06c2dae3102539c654a4cd38c5bba323a74a",
         "publishedAt": 1790565238,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5144,15 +5502,15 @@ const EVENT_DATA = {
           "verification": "headline_or_analysis"
         }
       ],
-      "importance": "high",
+      "importance": "medium",
       "sourceReliability": {
         "level": "medium",
         "score": 65,
         "kind": "reported",
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
-      "direction": "positive",
-      "expectedHorizon": "중기·장기",
+      "direction": "neutral",
+      "expectedHorizon": "다음 실적까지 확인",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Seattle tower across from Amazon sold for $12.5M after a $97M deal in 2019. Where smart real estate money is going now",
@@ -5161,34 +5519,45 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=046e71909627e2e5b53a022bf6123c909de4b49c03ff411fe06d34d5f0f9907c",
         "publishedAt": 1790557200,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "아마존 맞은편 시애틀 타워는 2019년 9,700만 달러 거래 후 1,250만 달러에 매각되었습니다. 현명한 부동산 자금이 지금 어디로 가는지"
+        "Seattle tower across from Amazon sold for $12.5M after a $97M deal in 2019. Where smart real estate money is going now",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
       ],
-      "marketInterpretation": [],
+      "marketInterpretation": [
+        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
       "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+        "AMZN에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
       ],
       "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+        "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
       ],
       "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
           "ticker": "AMZN",
-          "direction": "positive",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
         }
       ],
-      "watch": []
+      "watch": [
+        "계약 금액·기간·취소 조건",
+        "수주잔고와 매출 인식 시점",
+        "관련 사업부 매출총이익률"
+      ]
     },
     {
       "id": "c420ff4892ef58bfaaf6",
@@ -5322,7 +5691,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=33aa3209db96726fbc8fdc9260499d31d2edbbc493bee9b0decba92a7b346e19",
         "publishedAt": 1790554800,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5470,7 +5839,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=775175fcf3bea8010248ea91f0065e4dc7b5027d6eb678cd723ad9e3923834fd",
         "publishedAt": 1790552202,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5901,7 +6270,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b495c52071712436fd2d36279ee75eb9feb8d68ccbc7899b1bc9381b7a1bb45a",
         "publishedAt": 1790544841,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5977,7 +6346,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2d2595a727b56c66f3d86723aac8263a7167b3030304dea3748a4a812f862a01",
         "publishedAt": 1790544421,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6440,7 +6809,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=35b2f82c1930a8dc83b008153c53fb98e4db6c2b981863b2cc683b7ef334a139",
         "publishedAt": 1790532926,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7314,7 +7683,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f20aeb42f5f42aaeeef2af7dc689d344433b0abffd38ca908b07c6c88ae3704a",
         "publishedAt": 1790514300,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7643,7 +8012,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a3bb0c4f37f00046f5d2ce10ff84b2eac5e77c7db703184608bd4c4086a9c25f",
         "publishedAt": 1790508989,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8532,7 +8901,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3e0b54b2bb227716c646f29fa07febca4b32de2976e4e402bc082b9b2bf1b0cd",
         "publishedAt": 1790496900,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9315,7 +9684,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5062bc5b3b26ddec7c39a7e752b1ddd09a671205db429c12beaa16b174f09079",
         "publishedAt": 1790470930,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10238,7 +10607,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=adc1d3988f41d16b08a227e9650b3e66f806fa36ecfee1a584ce5455f31d8cdd",
         "publishedAt": 1790425320,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10317,7 +10686,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=872c9159864b8fb5af911d4b795f76345d4540d38486637db166a3fcf21c294f",
         "publishedAt": 1790424300,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10414,7 +10783,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b42df6e5adc416c213772c833a473fc2f851191e9fecdd555a8846ba985c0820",
         "publishedAt": 1790423118,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11106,7 +11475,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bd4ce2fcc220d3dbe76b33c6419492500c151bd403ed38d7ff2394939292dc62",
         "publishedAt": 1790411700,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11574,7 +11943,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4c4c114117f5c7acb7be91f7324a441243a63a96f45648fcea675aa10394aa57",
         "publishedAt": 1790379841,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12198,7 +12567,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b28eba917a011f40661e75dc1bc15a471ccb5135d9911c90c4c4ed4c357afa90",
         "publishedAt": 1790367600,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12483,7 +12852,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1de20d5db04664ca26cc79dc9c98c740e0e658bf9759975a6f4560f2fb0a7d33",
         "publishedAt": 1790364001,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13961,7 +14330,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fac3168b41288ab64287e041a50f94389f930ce8d294fb213b3a540ba4565e64",
         "publishedAt": 1790354101,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14036,7 +14405,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4bed683095584e03297cf6b07a420c249da56baad41a3418ee695e706c48666b",
         "publishedAt": 1790353845,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14323,7 +14692,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d05d7e5b8acc8a9d9c8bbe429e8bbb4fb5650437aa1d053eac4c4f5193fbe33d",
         "publishedAt": 1790350860,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14396,7 +14765,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=412affd2ab1171c66b0098c8e3996d9315f347635974a43ee8e9fb10eb9ccbe7",
         "publishedAt": 1790350822,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14533,7 +14902,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=44d49afce7e3b7717a0df1df3c918b991299c4aec740114afce1277a90b98be8",
         "publishedAt": 1790348700,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16348,7 +16717,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0a631d22b6ed00e3abc504ac0fd0827111496f55bf2c86927c032fbecf5cd453",
         "publishedAt": 1790330700,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16831,7 +17200,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9b350db1543c1a84dafc7afa50431573d441f56dd6ad3ad909289bbe4823e5ff",
         "publishedAt": 1790324640,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17365,7 +17734,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=d647ac7e03dfab213f0e17872784a9c06edcfdd3a36f04c74969368bf23e9649",
         "publishedAt": 1790318478,
-        "collectedAt": 1790598775.8863478
+        "collectedAt": 1790621582.715903
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17777,460 +18146,60 @@ const EVENT_DATA = {
         "공급업체 수주·매출",
         "투자 기업 OCF·FCF·부채"
       ]
-    },
-    {
-      "id": "29d63b27b91050e66f42",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "MU",
-      "relatedTickers": [
-        "MU",
-        "SPY"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Is Micron Stock Going to $1,625? 1 Wall Street Analyst Think So.",
-      "headlineKo": "마이크론 주식이 1,625달러로 갈까요? 1 월스트리트 분석가는 그렇게 생각합니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=aca694620df5fd0ad9e16d19c64fd0cf11a70c20d207c9aa3733e42a0a6c58b7",
-        "publishedAt": 1790308201,
-        "collectedAt": 1790617344.8725235
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 지난 5월 마이크론(MU +0.81%) 주식의 돌파 랠리를 촉발했던 월스트리트 애널리스트가 업데이트로 돌아왔습니다.",
-        "UBS의 티모시 아쿠리(Timothy Arcuri)는 9월 10일 UBS의 4분기 실적 보고서를 앞두고 이번 주 메모에서 매수 의견과 목표 가격인 1,625달러를 재차 밝혔습니다.",
-        "마이크론 주가는 지난해 AI 붐으로 촉발된 메모리 칩 부족 사태에서 가장 큰 승자 중 하나로 급등했다."
-      ],
-      "marketInterpretation": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: $1,625, 80%, 352% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "MU에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: $1,625, 80%, 352% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "MU",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "목표주가 산식의 EPS",
-        "적용 PER 변화",
-        "회사 공식 가이던스"
-      ]
-    },
-    {
-      "id": "062656e9614e04f0bb28",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "AMD",
-      "relatedTickers": [
-        "AMD",
-        "ARM",
-        "INTC",
-        "META",
-        "MU",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Meta",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        },
-        {
-          "name": "Intel",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "AMD, INTC Stocks Extend Rally As Meta's Muse Fuels Bets On An AI-Agent CPU Boom",
-      "headlineKo": "AMD, INTC 주식은 Meta의 Muse가 AI 에이전트 CPU 붐에 베팅하면서 랠리를 확장합니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c3298b332bf6a6a18a9675f56e98f1333aadc8c43944bd1ce7c05d5222092b6a",
-        "publishedAt": 1790307005,
-        "collectedAt": 1790617344.8725235
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "AMD, INTC 주식은 메타의 뮤즈가 AI 에이전트 CPU 붐에 베팅을 촉진함에 따라 랠리를 확장합니다. AI 에이전트 동향 뉴스 수익 전체 DIA 0.38% SPY 0.38% QQQ 0.68% 추세 QNT 38.61% MU 1.65% FSLR 1.02% AKAM 21.27% INTC 2.00% MP 0.87% AMD 2.45% AAOI 2.74%C",
-        "Meta의 Muse가 AI 에이전트 CPU 붐에 베팅하면서 AMD, INTC 주식이 반등을 확대했습니다. Agentic AI는 칩 인프라 및 CPU 수요에 대한 기대치를 재편하고 있습니다.",
-        "(사진: Mustafa Ciftci/Anadolu Agency/Getty Images) Yuvraj Malik · Stocktwits 게시일: 2026년 9월 24일 | 오후 11시 30분(EDT) 공유 · Meta의 Muse에 우리 추가 AI 에이전트는 CPU 수요 증가에 대한 기대를 불러일으키고 Intel, AMD 및 Arm 점유율을 높입니다."
-      ],
-      "marketInterpretation": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.38%, 0.68%, 38.61% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "AMD에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.38%, 0.68%, 38.61% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AMD",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "실제 CAPEX 집행",
-        "공급업체 수주·매출",
-        "투자 기업 OCF·FCF·부채"
-      ]
-    },
-    {
-      "id": "e0c395f25246c9143fd9",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "MRVL",
-      "relatedTickers": [
-        "MRVL",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Marvell",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Astera Labs vs. Marvell Technology: Which Tech Stock Is a Better Buy in 2026?",
-      "headlineKo": "Astera Labs vs. Marvell Technology: 2026년에는 어떤 기술주를 구매하는 것이 더 나은가요?",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b6b6d7fca409817ccd77c4f7bbcd45cb696b33f0df30f98dd16b0abb0fcae8c3",
-        "publishedAt": 1790305861,
-        "collectedAt": 1790617344.8725235
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Marvell Technology: 2026년에는 어떤 기술주를 구매하는 것이 더 나은가요?",
-        "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 인공지능(AI) 인프라의 급속한 확장으로 인해 특수 연결 칩에 대한 수요가 급증했습니다.",
-        "이로 인해 많은 투자자들은 고성장 Astera Labs(ALAB +0.01%)와 보다 확고한 Marvell Technology(MRVL -0.75%) 중에서 선택하게 됩니다."
-      ],
-      "marketInterpretation": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.01%, 0.75%, $ 360.51 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "MRVL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.01%, 0.75%, $ 360.51 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "MRVL",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "실제 CAPEX 집행",
-        "공급업체 수주·매출",
-        "투자 기업 OCF·FCF·부채"
-      ]
-    },
-    {
-      "id": "4657f061792856c9c27d",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "MU",
-      "relatedTickers": [
-        "MU"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "neutral",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Bank of America doubles down on Micron stock before earnings",
-      "headlineKo": "Bank of America는 실적 전 마이크론 주식을 두 배로 줄였습니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f26e27cf0c5c53ca44241db9c83154c24713b9fe4208659696264b26fcba891f",
-        "publishedAt": 1790305620,
-        "collectedAt": 1790617344.8725235
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Bank of America doubles down on Micron stock before earnings",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-        "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "MU에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-        "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "MU",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "매출·영업이익 성장",
-        "정상화이익과 특이항목",
-        "가이던스·OCF·FCF"
-      ]
-    },
-    {
-      "id": "484adaf019b62671d477",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "ETN",
-      "relatedTickers": [
-        "ETN",
-        "SPY"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "What Could Go Wrong With Eaton Stock?",
-      "headlineKo": "Eaton 주식에 어떤 문제가 생길 수 있나요?",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b3d444233e152c24259d1c1c771d1186b13b45fda25a4a71b8c3aaf0a8adf179",
-        "publishedAt": 1790297304,
-        "collectedAt": 1790617344.8725235
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Eaton 주식에 어떤 문제가 생길 수 있나요?",
-        "| Trefis Eaton 주식에 어떤 문제가 생길 수 있나요?",
-        "2026년 9월 24일 · Trefis 팀 ETN YTD +39.3% SPY YTD +13.1% XLI YTD +9.4% ETN 분석 → Eaton의 순이익률은 보유자가 지금 주목해야 할 수치입니다."
-      ],
-      "marketInterpretation": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 39.3%, 13.1%, 9.4% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "ETN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "ETN에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 39.3%, 13.1%, 9.4% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "ETN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "ETN",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "실제 CAPEX 집행",
-        "공급업체 수주·매출",
-        "투자 기업 OCF·FCF·부채"
-      ]
     }
   ],
   "byTicker": {
-    "CRM": [
-      "c4a03476521ce24a8790",
-      "3182bfd4f6c5bc2235e6",
-      "9ce585c11ae5e4ce2697",
-      "d9b735d1d9663a390a28",
-      "e56b9f41db45f5b1336c",
-      "2436f640ce2d8097479c",
-      "814f752a2e1b7536ab88"
-    ],
-    "QQQ": [
-      "c4a03476521ce24a8790",
-      "6980c5957876f0f27997",
-      "00c4f6e9a375f8482ea3",
-      "a98c57babacea29b03ac",
-      "e6840b097dc0e30cb700",
+    "NVDA": [
+      "7e835e242f9bccbee079",
+      "2dde9ce490376f2fc740",
+      "e98fa7663941a67f486a",
       "bb2677c9783e279722b8",
-      "71a1c8813a4db1c1c162",
-      "c2acf3671d80e75468b5",
-      "2f81646004e88ec5966e",
-      "dd1e9e16c090d8e891bf",
-      "b0e1dfc65d4e4ee79a14",
-      "7e82c424f51a5959b7cf",
+      "6c010b47417483c46032",
       "71a19646e895bcdcb16a",
-      "92027e423385283d1c08",
+      "ca13381c6d85dd29df51",
+      "1ba74f7c9f4062ff47a0",
+      "7080ed90ced41c416996",
+      "4b3d96f8093aa2d22e65",
+      "5257258a8a5235dbb0b9",
+      "30676da4ec1c066a1ee8",
       "f51116253d27afe9d256",
-      "9a3e7933c8fce8578b5b",
       "79bb7d17ac5024e8c69e",
+      "2eb14f30191727202ddc",
+      "557097cc5612d67d9d89",
       "43b66f5e60b0d4468207",
-      "3f9e8b0683f0c3c012c5",
-      "631b87b8af24698ee33c",
-      "8beaa69bc17270545c3d",
+      "fa75ebb9f01022274d5a",
       "2e33d04ec036997cea29",
-      "b24c0448258e4f7b59d1",
+      "682851951321b0dacbc4",
+      "88b08e4d0508d0ef31e4",
       "0916819f1050d15ada29",
-      "7c3fe09a8e92cbd4e0e0",
-      "4e0e5c82076bed3586d0",
-      "0c936b807757258f7ee5",
-      "b0e8f32ba0ca96234d30",
-      "1bb308aa3f7b299d2944",
-      "39d8bc92327d68403b6f",
-      "f9e107ff09469c572d39",
-      "bcdf0585322d98a81891",
-      "0ff9f1cb6434e9ef2017",
-      "398d2f4d21d93a2ae2ae",
-      "18396909fa81707f0dd5",
-      "5da2929f4474965f6d79",
-      "c4bdde81f30e02c6dd30",
-      "e6c7cfb90cc3895052a3",
-      "e057dbefb3dfd98cac13",
-      "0c1dc2247b37c12ddffe",
-      "69cc1abaac53ff9b5c85",
-      "e6d94fc6e07be70027d0",
-      "871cd6ed758f3ad1821f",
-      "7b188c40ce8beca1093e",
-      "668f4766ddd2810dd758",
-      "256a58e344b56f709be3",
-      "24e55a6c51a6302ed725",
-      "0a9dc0efa1e0ba7edb15",
-      "2436f640ce2d8097479c",
-      "9ca29ca58eb7190a4f98",
-      "0336846f1b55e4fe38d3",
-      "62f5f1ac42a83d89817b",
-      "d4c10bb1317f71e0dbe2",
-      "966fdfd0f663a8593613",
-      "0337506cc4aa64ae094b",
-      "ffad0ca509ec8611302f",
+      "c420ff4892ef58bfaaf6",
+      "f0275586114f557ddadf",
+      "6ea036e04af0403091de",
+      "57a9bebcffc910ce09c6",
+      "cc96fd8d6f5d087ff192",
+      "d966931707ed0bc76eb8",
+      "5ff874496b8ecf56dc21",
+      "4d514a30fd51f19f9c5c",
+      "5609162d92fe8f6b132e",
+      "65e5e9bc68621341a5d7",
+      "3dd9c50f483a7fbdc281",
+      "c06a758f41f623e946b2",
+      "4677bc1d348b7cc57bb9",
+      "f2c136101cab566bb513",
+      "3d4195d14ea3cb69628b",
+      "0315cc25085331cce14a",
+      "adc4d512ce5f903410cd",
+      "973026ade0df4b72018c",
+      "f796a66b548d07a53169",
+      "8b6f77d3a957b3007f27",
+      "59daeb17ee701d11a433",
+      "306a714a306ffc8716a5",
       "e93e0895b79a0c367129",
-      "76c515ff445659db3478",
-      "cc9efbcbb2a058104ef7",
-      "46c1de89e4c2ec916ebd",
-      "fb5c9833f67e5a4488b5",
-      "2bb7a4dfcb223659d9f8",
-      "b8374462887864e7edc9",
-      "ff8f315a2b1cd4802d66",
-      "d957c0da16362d4f2096",
-      "2726b0e3dd918bbf6738",
-      "e80294dd9a1679a6a385",
-      "97cbbbbc779278efdfd8",
-      "a0d8f1dfda760f1ae4b2",
-      "062656e9614e04f0bb28"
+      "250cf5699434cc076cbf",
+      "0cb51017189160a38982"
     ],
     "SPY": [
+      "2dde9ce490376f2fc740",
       "c4a03476521ce24a8790",
       "6980c5957876f0f27997",
       "00c4f6e9a375f8482ea3",
@@ -18247,6 +18216,7 @@ const EVENT_DATA = {
       "b0e1dfc65d4e4ee79a14",
       "7e82c424f51a5959b7cf",
       "71a19646e895bcdcb16a",
+      "027ede6b432faef41639",
       "3182bfd4f6c5bc2235e6",
       "7080ed90ced41c416996",
       "f51116253d27afe9d256",
@@ -18342,11 +18312,88 @@ const EVENT_DATA = {
       "2726b0e3dd918bbf6738",
       "e80294dd9a1679a6a385",
       "97cbbbbc779278efdfd8",
-      "a0d8f1dfda760f1ae4b2",
-      "29d63b27b91050e66f42",
-      "062656e9614e04f0bb28",
-      "e0c395f25246c9143fd9",
-      "484adaf019b62671d477"
+      "a0d8f1dfda760f1ae4b2"
+    ],
+    "CRM": [
+      "c4a03476521ce24a8790",
+      "3182bfd4f6c5bc2235e6",
+      "9ce585c11ae5e4ce2697",
+      "d9b735d1d9663a390a28",
+      "e56b9f41db45f5b1336c",
+      "2436f640ce2d8097479c",
+      "814f752a2e1b7536ab88"
+    ],
+    "QQQ": [
+      "c4a03476521ce24a8790",
+      "6980c5957876f0f27997",
+      "00c4f6e9a375f8482ea3",
+      "a98c57babacea29b03ac",
+      "e6840b097dc0e30cb700",
+      "bb2677c9783e279722b8",
+      "71a1c8813a4db1c1c162",
+      "c2acf3671d80e75468b5",
+      "2f81646004e88ec5966e",
+      "dd1e9e16c090d8e891bf",
+      "b0e1dfc65d4e4ee79a14",
+      "7e82c424f51a5959b7cf",
+      "71a19646e895bcdcb16a",
+      "027ede6b432faef41639",
+      "92027e423385283d1c08",
+      "f51116253d27afe9d256",
+      "9a3e7933c8fce8578b5b",
+      "79bb7d17ac5024e8c69e",
+      "43b66f5e60b0d4468207",
+      "3f9e8b0683f0c3c012c5",
+      "631b87b8af24698ee33c",
+      "8beaa69bc17270545c3d",
+      "2e33d04ec036997cea29",
+      "b24c0448258e4f7b59d1",
+      "0916819f1050d15ada29",
+      "7c3fe09a8e92cbd4e0e0",
+      "4e0e5c82076bed3586d0",
+      "0c936b807757258f7ee5",
+      "b0e8f32ba0ca96234d30",
+      "1bb308aa3f7b299d2944",
+      "39d8bc92327d68403b6f",
+      "f9e107ff09469c572d39",
+      "bcdf0585322d98a81891",
+      "0ff9f1cb6434e9ef2017",
+      "398d2f4d21d93a2ae2ae",
+      "18396909fa81707f0dd5",
+      "5da2929f4474965f6d79",
+      "c4bdde81f30e02c6dd30",
+      "e6c7cfb90cc3895052a3",
+      "e057dbefb3dfd98cac13",
+      "0c1dc2247b37c12ddffe",
+      "69cc1abaac53ff9b5c85",
+      "e6d94fc6e07be70027d0",
+      "871cd6ed758f3ad1821f",
+      "7b188c40ce8beca1093e",
+      "668f4766ddd2810dd758",
+      "256a58e344b56f709be3",
+      "24e55a6c51a6302ed725",
+      "0a9dc0efa1e0ba7edb15",
+      "2436f640ce2d8097479c",
+      "9ca29ca58eb7190a4f98",
+      "0336846f1b55e4fe38d3",
+      "62f5f1ac42a83d89817b",
+      "d4c10bb1317f71e0dbe2",
+      "966fdfd0f663a8593613",
+      "0337506cc4aa64ae094b",
+      "ffad0ca509ec8611302f",
+      "e93e0895b79a0c367129",
+      "76c515ff445659db3478",
+      "cc9efbcbb2a058104ef7",
+      "46c1de89e4c2ec916ebd",
+      "fb5c9833f67e5a4488b5",
+      "2bb7a4dfcb223659d9f8",
+      "b8374462887864e7edc9",
+      "ff8f315a2b1cd4802d66",
+      "d957c0da16362d4f2096",
+      "2726b0e3dd918bbf6738",
+      "e80294dd9a1679a6a385",
+      "97cbbbbc779278efdfd8",
+      "a0d8f1dfda760f1ae4b2"
     ],
     "MU": [
       "f27cf163f2e546ecc19d",
@@ -18401,18 +18448,14 @@ const EVENT_DATA = {
       "ff8f315a2b1cd4802d66",
       "d957c0da16362d4f2096",
       "97cbbbbc779278efdfd8",
-      "a0d8f1dfda760f1ae4b2",
-      "29d63b27b91050e66f42",
-      "062656e9614e04f0bb28",
-      "4657f061792856c9c27d"
+      "a0d8f1dfda760f1ae4b2"
     ],
     "ARM": [
       "6980c5957876f0f27997",
       "10a2f8b7e937580bc351",
       "ba6ee32f02f9c80acb0c",
       "d4c10bb1317f71e0dbe2",
-      "2bb7a4dfcb223659d9f8",
-      "062656e9614e04f0bb28"
+      "2bb7a4dfcb223659d9f8"
     ],
     "MRVL": [
       "6980c5957876f0f27997",
@@ -18421,8 +18464,7 @@ const EVENT_DATA = {
       "90ca73a7c19289a3ea86",
       "8f144971e9901774e01b",
       "0c1dc2247b37c12ddffe",
-      "24e55a6c51a6302ed725",
-      "e0c395f25246c9143fd9"
+      "24e55a6c51a6302ed725"
     ],
     "QCOM": [
       "6980c5957876f0f27997",
@@ -18483,13 +18525,13 @@ const EVENT_DATA = {
       "0a09f5ef46eced7e3000",
       "2bb7a4dfcb223659d9f8",
       "ff8f315a2b1cd4802d66",
-      "97cbbbbc779278efdfd8",
-      "062656e9614e04f0bb28"
+      "97cbbbbc779278efdfd8"
     ],
     "AAPL": [
       "e98fa7663941a67f486a",
       "2f81646004e88ec5966e",
       "b0e1dfc65d4e4ee79a14",
+      "69f8fefe2d65fe5b31bd",
       "92027e423385283d1c08",
       "dd738c50090aa0daac83",
       "30676da4ec1c066a1ee8",
@@ -18553,54 +18595,6 @@ const EVENT_DATA = {
       "e93e0895b79a0c367129",
       "250cf5699434cc076cbf",
       "fb5c9833f67e5a4488b5",
-      "0cb51017189160a38982",
-      "062656e9614e04f0bb28"
-    ],
-    "NVDA": [
-      "e98fa7663941a67f486a",
-      "bb2677c9783e279722b8",
-      "6c010b47417483c46032",
-      "71a19646e895bcdcb16a",
-      "ca13381c6d85dd29df51",
-      "1ba74f7c9f4062ff47a0",
-      "7080ed90ced41c416996",
-      "4b3d96f8093aa2d22e65",
-      "5257258a8a5235dbb0b9",
-      "30676da4ec1c066a1ee8",
-      "f51116253d27afe9d256",
-      "79bb7d17ac5024e8c69e",
-      "2eb14f30191727202ddc",
-      "557097cc5612d67d9d89",
-      "43b66f5e60b0d4468207",
-      "fa75ebb9f01022274d5a",
-      "2e33d04ec036997cea29",
-      "682851951321b0dacbc4",
-      "88b08e4d0508d0ef31e4",
-      "0916819f1050d15ada29",
-      "c420ff4892ef58bfaaf6",
-      "f0275586114f557ddadf",
-      "6ea036e04af0403091de",
-      "57a9bebcffc910ce09c6",
-      "cc96fd8d6f5d087ff192",
-      "d966931707ed0bc76eb8",
-      "5ff874496b8ecf56dc21",
-      "4d514a30fd51f19f9c5c",
-      "5609162d92fe8f6b132e",
-      "65e5e9bc68621341a5d7",
-      "3dd9c50f483a7fbdc281",
-      "c06a758f41f623e946b2",
-      "4677bc1d348b7cc57bb9",
-      "f2c136101cab566bb513",
-      "3d4195d14ea3cb69628b",
-      "0315cc25085331cce14a",
-      "adc4d512ce5f903410cd",
-      "973026ade0df4b72018c",
-      "f796a66b548d07a53169",
-      "8b6f77d3a957b3007f27",
-      "59daeb17ee701d11a433",
-      "306a714a306ffc8716a5",
-      "e93e0895b79a0c367129",
-      "250cf5699434cc076cbf",
       "0cb51017189160a38982"
     ],
     "ORCL": [
@@ -18700,8 +18694,7 @@ const EVENT_DATA = {
       "fb5c9833f67e5a4488b5",
       "ff8f315a2b1cd4802d66",
       "d957c0da16362d4f2096",
-      "a0d8f1dfda760f1ae4b2",
-      "062656e9614e04f0bb28"
+      "a0d8f1dfda760f1ae4b2"
     ],
     "TSM": [
       "bb2677c9783e279722b8",
@@ -18753,6 +18746,9 @@ const EVENT_DATA = {
       "6e32a8b47ea7fb9a0a3b"
     ],
     "AMZN": [
+      "027ede6b432faef41639",
+      "69f8fefe2d65fe5b31bd",
+      "51b3b06850f99f7b56cd",
       "92027e423385283d1c08",
       "5257258a8a5235dbb0b9",
       "ea0ff5e0b26e7af92471",
@@ -18804,8 +18800,7 @@ const EVENT_DATA = {
       "d483473f05d585b6d16e",
       "0ee1988cffe13ca946d4",
       "52f463d4d9462ad821b1",
-      "a435acf1372536bc46f1",
-      "484adaf019b62671d477"
+      "a435acf1372536bc46f1"
     ],
     "PWR": [
       "504d2772e4c3ee8bb46c",
