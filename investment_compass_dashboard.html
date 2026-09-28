@@ -533,6 +533,9 @@
 <!-- 2026-09-21 신규(봄이 요청: 일별 판단 이력 추적) -- 아직 배포 전이거나 파일이 없어도
      onerror로 조용히 무시된다(카드 쪽에서도 typeof 체크로 없으면 그냥 숨김). -->
 <script src="amat_decision_history_data.js" onerror="void 0"></script>
+<!-- 2026-09-28 신규(사용자 요청: 종목별 시장 기준 적정가 범위, 07 탭) -- C_research/sp500_20260928/build_100_fair_value.py가
+     매일(92d 수집 직후) 생성. 없으면 onerror로 무시하고 07 탭은 '자료 없음'을 표시. $578.74·매수 배지와 연결하지 않음. -->
+<script>document.write('<script src="fair_value_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <script>
 // ============ 워치리스트 (지수ETF 제외 - 개별 종목 판단용) ============
 const ETF_THEME = "지수ETF";
@@ -3101,7 +3104,7 @@ function refreshOpenDetailIfCurrent(ticker){
 }
 
 function renderTabs(ticker){
-  const tabs = [['01','판단'],['02','가치/퀄리티'],['03','실적'],['04','재무제표'],['05','전망'],['06','뉴스']];
+  const tabs = [['01','판단'],['02','가치/퀄리티'],['03','실적'],['04','재무제표'],['05','전망'],['06','뉴스'],['07','적정가']];
   const el = document.getElementById('detailTabs');
   el.innerHTML = tabs.map(([id,label])=>{
     // 05(실적 해석)·06(뉴스 해석)에 Claude가 최근 추가한 조사 기록이 있으면 탭 버튼 자체에 NEW 표시 -
@@ -3136,6 +3139,7 @@ function renderTabContent(ticker){
   else if(activeTab==='04') body.innerHTML = tabFinancials(r);
   else if(activeTab==='05') body.innerHTML = tabForecast(r);
   else if(activeTab==='06') body.innerHTML = tabNews(r);
+  else if(activeTab==='07') body.innerHTML = tabFairValue(r);
 
   requestAnimationFrame(()=>{
     if(activeTab==='01'){
@@ -8545,6 +8549,53 @@ function relatedNewsHtml(ticker){
     <div class="chart-label" style="margin-top:18px;">연관 종목 뉴스 <span style="font-weight:400;font-size:11px;color:var(--sub);">(${esc(rel.join(', '))} 최근 ${RELATED_NEWS_WINDOW_DAYS}일)</span></div>
     ${rows}
     <div class="sub" style="margin-top:6px;">경쟁사·공급망 관계의 종목 뉴스예요(Claude 수동 큐레이션, 자동 분류 아님) - 이 종목과의 인과관계는 직접 판단하세요.</div>`;
+}
+// [2026-09-28 신규] 07 적정가 탭 -- fair_value_data.js(window.FAIR_VALUE)만 읽는다. 다른 판정·배지와 연결하지 않는다.
+// 계산: NTM EPS × 동종 NTM PER 중앙값 × 이 종목의 평소 상대 PER 비율 q[p25·중앙·p75] (build_100_fair_value.py).
+function tabFairValue(r){
+  const FV = (typeof window !== 'undefined') ? window.FAIR_VALUE : null;
+  const box = (html) => `<div class="comment-box" style="background:var(--panel-2);">${html}</div>`;
+  if(!FV || !FV.rows) return box('적정가 자료(fair_value_data.js)가 아직 없어요. 매일 아침 수집 후 생성돼요.');
+  const x = FV.rows[r.ticker];
+  const usd = (v) => (typeof v === 'number' && isFinite(v)) ? '$' + v.toFixed(v >= 100 ? 0 : 2) : '—';
+  const pct = (v) => (typeof v === 'number' && isFinite(v)) ? (v >= 0 ? '+' : '') + (v * 100).toFixed(1) + '%' : '—';
+  const asof = `<div class="sub" style="margin-top:8px;">컨센서스 기준일 ${esc(FV.as_of_consensus_day || '')} · 생성 ${esc((FV.generated_at || '').slice(0, 16))} UTC</div>`;
+  if(!x) return box(`${esc(r.ticker)}은 적정가 계산 대상 목록에 없어요.`) + asof;
+  if(x.status !== 'ok'){
+    const why = (x.reasons || [x.reason || '']).map(s => `<li>${esc(s)}</li>`).join('');
+    const ref = (typeof x.fwd_pe === 'number') ? `<div class="sub" style="margin-top:6px;">참고: 선행 PER ${x.fwd_pe.toFixed(1)}배 · 동종 중앙 ${x.peer_median_pe.toFixed(1)}배</div>` : '';
+    return box(`<b>${x.status === '대상아님' ? '대상 아님' : '적정가를 내지 않았어요 (' + esc(x.status) + ')'}</b><ul style="margin:6px 0 0 18px;">${why}</ul>${ref}`) + asof;
+  }
+  const color = x.label === '낮음' ? '#1a7f5a' : (x.label === '높음' ? '#b3261e' : '#626b76');
+  const q = x.q, d = x.display_only || {};
+  const peers = Object.entries(x.peer_pe || {}).map(([k, v]) => `${esc(k)} ${v.toFixed(1)}배`).join(' · ');
+  return `
+  <div class="comment-box" style="background:var(--panel-2);">
+    <div class="sub">시장 기준 적정가 범위 (동종 선행 PER × 이 종목이 평소 받아온 상대 비율)</div>
+    <div style="font-size:26px;font-weight:800;margin:4px 0;">${usd(x.band[0])} ~ ${usd(x.band[2])} <span class="sub">(중앙 ${usd(x.band[1])})</span></div>
+    <div>현재가 <b>${usd(x.price)}</b> · 중앙 대비 <b>${pct(x.band_mid_gap)}</b> · 판정 <b style="color:${color};">${esc(x.label)}</b> · 신뢰 <b>${esc(x.confidence || '')}</b></div>
+    ${x.confidence === '낮음' ? '<div class="sub" style="margin-top:4px;color:#876000;">신뢰 낮음: 이 종목이 평소 받아온 상대 PER 비율이 들쭉날쭉해(상위/하위 ' + (q.p75 / q.p25).toFixed(2) + '배) 범위가 넓고 흔들릴 수 있어요.</div>' : ''}
+    <div class="sub" style="margin-top:4px;">1년 뒤 참고값(FY1 ${esc(x.fy1_end || '')} EPS 기준, 할인 전) ${usd(x.band_1y[0])} ~ ${usd(x.band_1y[2])} · 3년: 컨센서스 없음</div>
+  </div>
+  <div class="comment-box" style="margin-top:10px;">
+    <b>계산 근거</b>
+    <ul style="margin:6px 0 0 18px;">
+      <li>12개월 선행 EPS ${usd(x.ntm_eps)} × 동종 선행 PER 중앙 ${x.peer_median_pe.toFixed(1)}배 (${peers})</li>
+      <li>동종 기준: ${esc(x.peer_basis || '')}</li>
+      <li>평소 상대 PER 비율 q: 하위 ${q.p25.toFixed(2)} / 중앙 ${q.median.toFixed(2)} / 상위 ${q.p75.toFixed(2)} (${esc(q.from)}~${esc(q.to)}, ${q.months}개월, 최근 36개월 중앙 ${q.recent36_median.toFixed(2)}) · 오늘 ${x.today_q.toFixed(2)}</li>
+      <li>EPS 정의: ${esc(x.methodology || '')} (동종도 같은 정의만 사용)</li>
+    </ul>
+  </div>
+  <div class="comment-box" style="margin-top:10px;">
+    <b>참고 지표 (가격에 곱하지 않음)</b>
+    <ul style="margin:6px 0 0 18px;">
+      <li>추정치 90일 변화 ${pct(d.rev90)} (동종 중앙 ${pct(d.peer_rev90_median)}) · 30일 ${pct(d.rev30)}</li>
+      <li>EV/EBITDA(TTM) ${typeof d.ev_ebitda_ttm === 'number' ? d.ev_ebitda_ttm.toFixed(1) + '배' : '—'} (동종 중앙 ${typeof d.peer_ev_ebitda_median === 'number' ? d.peer_ev_ebitda_median.toFixed(1) + '배' : '—'}) · Yahoo PEG ${typeof d.yahoo_peg === 'number' ? d.yahoo_peg.toFixed(2) : '—'}</li>
+    </ul>
+  </div>
+  <div class="comment-box" style="margin-top:10px;background:var(--warn-bg);color:#876000;">
+    매수·매도 신호가 아니에요. q는 과거 후행(GAAP) PER로 잰 비율을 선행 PER에 적용한 값이라 기준이 섞여 있고, 이 범위의 예측력은 검증되지 않았어요.
+  </div>${asof}`;
 }
 function tabNews(r){
   const logHtml = renderNewsLog(r.ticker);
