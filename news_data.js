@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1790530879.214276,
+    "_last_attempt_at": 1790553601.2415955,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -23,12 +23,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "이 17% 수익률 Nasdaq Covered Call ETF는 어떻게든 QQQ(24/7 Wall St.)를 능가합니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.21% S&P 500 7,753.80 +0.60% 다우존스 51,875.60 +0.98% 나스닥 100 30,672.40 +0.60% 러셀 2000 2,843.25 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,730.00 −0.31% Dow Jones 51,669.60 −0.40% Nasdaq 100 30,569.60 −0.34% Russell 2000 2,829.32 −0.49% S&P 500 7,730.00 −0.31% 다우존스 51,669.60 −0.40% 나스닥 100 30,569.60 −0.34% 러셀 2000 2,829.32 −0.",
             "작성자: Tony Dong 2026년 9월 26일 오후 9시 2분(ET) · 3분 읽기 𝕏 f ⧉ 조명이 켜진 Nasdaq 표지판과 거래 화면은 기술 중심 지수가 높은 국채 수익률을 탐색하는 동안에도 역동적인 시장 활동을 반영합니다."
           ],
           "why": [
             "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 17%, 0.60%, 0.98% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 17%, 0.31%, 0.40% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -53,20 +53,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "17%",
-            "0.60%",
-            "0.98%",
-            "0.21%",
+            "0.31%",
+            "0.40%",
+            "0.34%",
+            "0.49%",
             "17.58%",
             "100%",
-            "0.83%",
-            "0.68%"
+            "0.83%"
           ],
           "sourceExcerpt": [
             "This 17% Yield Nasdaq Covered Call ETF Is Somehow Outperforming QQQ - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.21% S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,730.00 −0.31% Dow Jones 51,669.60 −0.40% Nasdaq 100 30,569.60 −0.34% Russell 2000 2,829.32 −0.49% S&P 500 7,730.00 −0.31% Dow Jones 51,669.60 −0.40% Nasdaq 100 30,569.60 −0.34% Russell 2000 2,829.32 −0.",
             "By Tony Dong Published September 26, 2026, 9:02pm ET · 3 min read 𝕏 f ⧉ The illuminated Nasdaq sign and trading screens reflect the dynamic market activity, even as the tech-heavy index navigates high Treasury yields."
           ],
-          "analysisUpdatedAt": 1790530883.9537528
+          "analysisUpdatedAt": 1790553608.5118024
         },
         "headlineKo": "이 17% 수익률 Nasdaq Covered Call ETF는 어떻게든 QQQ를 능가합니다."
       },
@@ -116,7 +116,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790530885.0245004
+          "analysisUpdatedAt": 1790553609.9016418
         },
         "headlineKo": "'역대 최고치'가 투자에서 가장 오해를 불러일으키는 문구인 이유와 QQQ로 숲에 빠지지 않는 방법"
       },
@@ -174,7 +174,7 @@ const NEWS_DATA = {
             "AI-driven speculation and circular financing among tech giants (e.g., Nvidia, Microsoft, Amazon, Alphabet/Google) have led to historically high valuations and concentrated gains.",
             "Margin debt has soared to $1.45 trillion, with leverage ratios at unprecedented levels, amplifying downside risk amid rising rates."
           ],
-          "analysisUpdatedAt": 1790530887.658895
+          "analysisUpdatedAt": 1790553612.9633152
         },
         "headlineKo": "나스닥 사상 최고치는 당신을 놀라게 할 것입니다"
       },
@@ -217,12 +217,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "이 17% 수익률 Nasdaq Covered Call ETF는 어떻게든 QQQ(24/7 Wall St.)를 능가합니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.21% S&P 500 7,753.80 +0.60% 다우존스 51,875.60 +0.98% 나스닥 100 30,672.40 +0.60% 러셀 2000 2,843.25 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,730.00 −0.31% Dow Jones 51,669.60 −0.40% Nasdaq 100 30,569.60 −0.34% Russell 2000 2,829.32 −0.49% S&P 500 7,730.00 −0.31% 다우존스 51,669.60 −0.40% 나스닥 100 30,569.60 −0.34% 러셀 2000 2,829.32 −0.",
             "작성자: Tony Dong 2026년 9월 26일 오후 9시 2분(ET) · 3분 읽기 𝕏 f ⧉ 조명이 켜진 Nasdaq 표지판과 거래 화면은 기술 중심 지수가 높은 국채 수익률을 탐색하는 동안에도 역동적인 시장 활동을 반영합니다."
           ],
           "why": [
             "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 17%, 0.60%, 0.98% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 17%, 0.31%, 0.40% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -247,20 +247,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "17%",
-            "0.60%",
-            "0.98%",
-            "0.21%",
+            "0.31%",
+            "0.40%",
+            "0.34%",
+            "0.49%",
             "17.58%",
             "100%",
-            "0.83%",
-            "0.68%"
+            "0.83%"
           ],
           "sourceExcerpt": [
             "This 17% Yield Nasdaq Covered Call ETF Is Somehow Outperforming QQQ - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.21% S&P 500 7,753.80 +0.60% Dow Jones 51,875.60 +0.98% Nasdaq 100 30,672.40 +0.60% Russell 2000 2,843.25 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,730.00 −0.31% Dow Jones 51,669.60 −0.40% Nasdaq 100 30,569.60 −0.34% Russell 2000 2,829.32 −0.49% S&P 500 7,730.00 −0.31% Dow Jones 51,669.60 −0.40% Nasdaq 100 30,569.60 −0.34% Russell 2000 2,829.32 −0.",
             "By Tony Dong Published September 26, 2026, 9:02pm ET · 3 min read 𝕏 f ⧉ The illuminated Nasdaq sign and trading screens reflect the dynamic market activity, even as the tech-heavy index navigates high Treasury yields."
           ],
-          "analysisUpdatedAt": 1790530883.9537528
+          "analysisUpdatedAt": 1790553608.5118024
         }
       },
       {
@@ -309,7 +309,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790530885.0245004
+          "analysisUpdatedAt": 1790553609.9016418
         }
       },
       {
@@ -366,7 +366,7 @@ const NEWS_DATA = {
             "AI-driven speculation and circular financing among tech giants (e.g., Nvidia, Microsoft, Amazon, Alphabet/Google) have led to historically high valuations and concentrated gains.",
             "Margin debt has soared to $1.45 trillion, with leverage ratios at unprecedented levels, amplifying downside risk amid rising rates."
           ],
-          "analysisUpdatedAt": 1790530887.658895
+          "analysisUpdatedAt": 1790553612.9633152
         }
       },
       {
@@ -2774,15 +2774,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790530879.214276,
-    "_updated_label": "2026-09-28 02:41",
-    "_last_success_at": 1790530879.214276,
+    "_fetched_at": 1790553601.2415955,
+    "_updated_label": "2026-09-28 09:00",
+    "_last_success_at": 1790553601.2415955,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "SPY": {
@@ -5928,7 +5928,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "MSFT": {
@@ -11823,7 +11823,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "GOOGL": {
@@ -18696,11 +18696,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 156,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "AMZN": {
-    "_last_attempt_at": 1790530879.214276,
+    "_last_attempt_at": 1790553601.2415955,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "amc",
@@ -18709,6 +18709,134 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "I'd Buy Amazon Stock While It Sits 12% Below Its Record",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b495c52071712436fd2d36279ee75eb9feb8d68ccbc7899b1bc9381b7a1bb45a",
+        "datetime": 1790544841,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "규제·법무 · 비선형 위험",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "아마존 주식이 사상 최고치보다 12% 아래에 있을 때 매수하겠다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Shares of Amazon( AMZN +0.12% )은 284.02달러라는 사상 최고치를 기록했습니다.",
+            "그들은 회사가 2분기 실적을 발표한 후 2거래일 동안 약 21%나 급등하면서 빠르게 성장했습니다.",
+            "그 이후로 주식은 그 점프의 대부분을 돌려주었습니다."
+          ],
+          "why": [
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 21%, $249, 12% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
+          ],
+          "interpretation": "AMZN에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "21%",
+            "$249",
+            "12%",
+            "80%",
+            "$8 billion",
+            "26%",
+            "$19.8 billion",
+            "20%"
+          ],
+          "sourceExcerpt": [
+            "I'd Buy Amazon Stock While It Sits 12% Below Its Record | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Shares of Amazon ( AMZN +0.12% ) set an all-time closing high of $284.02 on",
+            "They got there fast, jumping about 21% over the two trading days after the company posted its second-quarter results.",
+            "Since then, the stock has given back most of that jump."
+          ],
+          "analysisUpdatedAt": 1790553622.0647733
+        },
+        "headlineKo": "나는 아마존 주식이 사상 최고치보다 12% 아래에 있을 때 매수하겠다"
+      },
+      {
+        "headline": "Is Amazon Stock a Buy, Hold, or Sell Below $250?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=35b2f82c1930a8dc83b008153c53fb98e4db6c2b981863b2cc683b7ef334a139",
+        "datetime": 1790532926,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "장기 공급계약 · 매출 가시성 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Amazon 주식은 $250 미만에서 매수, 보유 또는 매도됩니까?",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,730.00 −0.31% Dow Jones 51,669.60 −0.40% Nasdaq 100 30,569.60 −0.34% Russell 2000 2,829.32 −0.49% S&P 500 7,730.00 −0.31% 다우존스 51,669.60 −0.40% 나스닥 100 30,569.60 −0.34% 러셀 2000 2,829.32 −0.",
+            "AWS는 18분기 만에 가장 빠른 속도로 성장하고 있으며 약 5000억 달러에 달하는 계약 잔고를 기록하고 있지만 분석가의 2027년 수익 추정치는 2026년보다 낮습니다."
+          ],
+          "why": [
+            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $250, $249.38, $329.54. — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 기간·최소구매 조건",
+            "연도별 매출 인식",
+            "수주잔고·취소 조건"
+          ],
+          "interpretation": "AMZN에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$250",
+            "$249.38",
+            "$329.54.",
+            "4.47%",
+            "45.6%",
+            "$496 billion",
+            "$53.4 billion",
+            "$7.6 billion"
+          ],
+          "sourceExcerpt": [
+            "Is Amazon Stock a Buy, Hold, or Sell Below $250?",
+            "Skip to content ❚❚ At close S&P 500 7,730.00 −0.31% Dow Jones 51,669.60 −0.40% Nasdaq 100 30,569.60 −0.34% Russell 2000 2,829.32 −0.49% S&P 500 7,730.00 −0.31% Dow Jones 51,669.60 −0.40% Nasdaq 100 30,569.60 −0.34% Russell 2000 2,829.32 −0.",
+            "AWS is accelerating at its fastest pace in 18 quarters and sitting on nearly half a trillion dollars in contracted backlog, yet analyst earnings estimates for 2027 fall below 2026."
+          ],
+          "analysisUpdatedAt": 1790553624.3526688
+        },
+        "headlineKo": "Amazon 주식은 $250 미만에서 매수, 보유 또는 매도됩니까?"
+      },
       {
         "headline": "Amazon offers one inbound shipment to reach eight countries",
         "source": "Yahoo",
@@ -18755,7 +18883,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790530893.0823565
+          "analysisUpdatedAt": 1790553626.0988753
         },
         "headlineKo": "아마존은 8개국에 도달하는 단일 인바운드 배송을 제공합니다."
       },
@@ -18767,46 +18895,6 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Amazon copies Costco move that benefits members and workers",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMZN",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon copies Costco move that benefits members and workers' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790530893.7918572
-        },
         "headlineKo": "아마존은 회원과 근로자에게 혜택을 주는 코스트코의 움직임을 따라합니다."
       },
       {
@@ -18817,81 +18905,7 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "장기 공급계약 · 매출 가시성 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "휴스턴, Amazon.com에 문제가 있습니다. 문제는 유럽에 있습니다!",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 우주에서 제공되는 빠르고 전 세계에 걸친 광대역 인터넷 서비스에 관해 미국인들은 기본적으로 두 개의 회사를 가지고 있습니다.",
-            "Amazon과 FCC 이 이야기는 약간 복잡하므로 Kuiper부터 시작하여 단계별로 설명하겠습니다."
-          ],
-          "why": [
-            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $11.5 billion, 0.51%, 50% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMZN",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "계약 기간·최소구매 조건",
-            "연도별 매출 인식",
-            "수주잔고·취소 조건"
-          ],
-          "interpretation": "AMZN에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$11.5 billion",
-            "0.51%",
-            "50%",
-            "47 times",
-            "0.58%",
-            "0.12 %",
-            "$ 0.29",
-            "$ 249.67"
-          ],
-          "sourceExcerpt": [
-            "Houston, Amazon.com Has a Problem -- and It's in Europe!",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool When it comes to fast, globe-spanning, broadband internet service delivered from space, Americans basically have two companies to c",
-            "Amazon and the FCC This story is a little bit complicated, so let me roll it out for you in stages -- beginning with Kuiper."
-          ],
-          "analysisUpdatedAt": 1790530898.0865378
-        },
         "headlineKo": "휴스턴, Amazon.com에 문제가 있습니다. 문제는 유럽에 있습니다!"
-      },
-      {
-        "headline": "Amazon Opened Seller Central to Walmart and eBay but Blocked Meta’s Muse. Here’s What Connects the Two Moves",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a99127fe4f353426e2bef4cde8cdb62eeba75f6e38b7740748c411d67c07f47f",
-        "datetime": 1790502496,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Amazon은 Walmart와 eBay에 Seller Central을 열었지만 Meta의 Muse는 차단했습니다. 두 가지 움직임을 연결하는 것은 다음과 같습니다"
-      },
-      {
-        "headline": "Anthropic's IPO is a $300 billion test for Amazon",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ff1f8ea5a0b56499ddcde47ef5a6e66d429e37cd5c511db2a0c7e6f82a5552e9",
-        "datetime": 1790473620,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Anthropic의 IPO는 Amazon에 대한 3000억 달러 규모의 테스트입니다."
       },
       {
         "headline": "Amazon, US Steel, Pirelli and others make facility investments, while layoffs progress",
@@ -19131,6 +19145,132 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "I'd Buy Amazon Stock While It Sits 12% Below Its Record",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b495c52071712436fd2d36279ee75eb9feb8d68ccbc7899b1bc9381b7a1bb45a",
+        "datetime": 1790544841,
+        "headlineKo": "나는 아마존 주식이 사상 최고치보다 12% 아래에 있을 때 매수하겠다",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "규제·법무 · 비선형 위험",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "아마존 주식이 사상 최고치보다 12% 아래에 있을 때 매수하겠다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Shares of Amazon( AMZN +0.12% )은 284.02달러라는 사상 최고치를 기록했습니다.",
+            "그들은 회사가 2분기 실적을 발표한 후 2거래일 동안 약 21%나 급등하면서 빠르게 성장했습니다.",
+            "그 이후로 주식은 그 점프의 대부분을 돌려주었습니다."
+          ],
+          "why": [
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 21%, $249, 12% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
+          ],
+          "interpretation": "AMZN에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "21%",
+            "$249",
+            "12%",
+            "80%",
+            "$8 billion",
+            "26%",
+            "$19.8 billion",
+            "20%"
+          ],
+          "sourceExcerpt": [
+            "I'd Buy Amazon Stock While It Sits 12% Below Its Record | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Shares of Amazon ( AMZN +0.12% ) set an all-time closing high of $284.02 on",
+            "They got there fast, jumping about 21% over the two trading days after the company posted its second-quarter results.",
+            "Since then, the stock has given back most of that jump."
+          ],
+          "analysisUpdatedAt": 1790553622.0647733
+        }
+      },
+      {
+        "headline": "Is Amazon Stock a Buy, Hold, or Sell Below $250?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=35b2f82c1930a8dc83b008153c53fb98e4db6c2b981863b2cc683b7ef334a139",
+        "datetime": 1790532926,
+        "headlineKo": "Amazon 주식은 $250 미만에서 매수, 보유 또는 매도됩니까?",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "장기 공급계약 · 매출 가시성 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Amazon 주식은 $250 미만에서 매수, 보유 또는 매도됩니까?",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,730.00 −0.31% Dow Jones 51,669.60 −0.40% Nasdaq 100 30,569.60 −0.34% Russell 2000 2,829.32 −0.49% S&P 500 7,730.00 −0.31% 다우존스 51,669.60 −0.40% 나스닥 100 30,569.60 −0.34% 러셀 2000 2,829.32 −0.",
+            "AWS는 18분기 만에 가장 빠른 속도로 성장하고 있으며 약 5000억 달러에 달하는 계약 잔고를 기록하고 있지만 분석가의 2027년 수익 추정치는 2026년보다 낮습니다."
+          ],
+          "why": [
+            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $250, $249.38, $329.54. — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 기간·최소구매 조건",
+            "연도별 매출 인식",
+            "수주잔고·취소 조건"
+          ],
+          "interpretation": "AMZN에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$250",
+            "$249.38",
+            "$329.54.",
+            "4.47%",
+            "45.6%",
+            "$496 billion",
+            "$53.4 billion",
+            "$7.6 billion"
+          ],
+          "sourceExcerpt": [
+            "Is Amazon Stock a Buy, Hold, or Sell Below $250?",
+            "Skip to content ❚❚ At close S&P 500 7,730.00 −0.31% Dow Jones 51,669.60 −0.40% Nasdaq 100 30,569.60 −0.34% Russell 2000 2,829.32 −0.49% S&P 500 7,730.00 −0.31% Dow Jones 51,669.60 −0.40% Nasdaq 100 30,569.60 −0.34% Russell 2000 2,829.32 −0.",
+            "AWS is accelerating at its fastest pace in 18 quarters and sitting on nearly half a trillion dollars in contracted backlog, yet analyst earnings estimates for 2027 fall below 2026."
+          ],
+          "analysisUpdatedAt": 1790553624.3526688
+        }
+      },
+      {
         "headline": "Amazon offers one inbound shipment to reach eight countries",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=65fd58ae0f93453d0cff84f9c5ea8e42f2fb8aaffe4b1d05af7626072f8d794c",
@@ -19176,7 +19316,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790530893.0823565
+          "analysisUpdatedAt": 1790553626.0988753
         }
       },
       {
@@ -25347,15 +25487,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790530879.214276,
-    "_updated_label": "2026-09-28 02:41",
-    "_last_success_at": 1790530879.214276,
+    "_fetched_at": 1790553601.2415955,
+    "_updated_label": "2026-09-28 09:00",
+    "_last_success_at": 1790553601.2415955,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 162,
+      "checked": 164,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "META": {
@@ -32563,7 +32703,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 181,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "AAPL": {
@@ -39226,7 +39366,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 158,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "TSLA": {
@@ -45983,7 +46123,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 164,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "ORCL": {
@@ -51678,7 +51818,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "CRM": {
@@ -55709,7 +55849,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "PLTR": {
@@ -61243,11 +61383,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "NVDA": {
-    "_last_attempt_at": 1790530879.214276,
+    "_last_attempt_at": 1790553601.2415955,
     "nextEarnings": {
       "date": "2026-11-17",
       "hour": "amc",
@@ -61257,92 +61397,28 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "IonQ Lined Up 3 Superion 256 Systems With NVIDIA, FIU, and SDT. Here’s Where the Stock Could Go",
+        "headline": "3 Simple Reasons I'd Rather Own Nvidia Than SpaceX",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a3bb0c4f37f00046f5d2ce10ff84b2eac5e77c7db703184608bd4c4086a9c25f",
-        "datetime": 1790508989,
+        "url": "https://finnhub.io/api/news?id=2d2595a727b56c66f3d86723aac8263a7167b3030304dea3748a4a812f862a01",
+        "datetime": 1790544421,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "medium",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "IonQ는 NVIDIA, FIU 및 SDT를 사용하여 3개의 Superion 256 시스템을 구성했습니다.",
-            "주식이 갈 수 있는 곳은 다음과 같습니다 | TIKR.com 주식 리뷰 IonQ는 NVIDIA, FIU 및 SDT를 사용하여 3개의 Superion 256 시스템을 라인업했습니다.",
-            "주식이 갈 수 있는 곳은 다음과 같습니다. Wiltone Asuncion • 6분 읽기 검토자: David Hanson 마지막 업데이트 2026년 9월 27일 @Preis_King from pixabay via Canva, @Aflo Images from afro(Aflo) via Canva IonQ Stock에 대한 Key 통계 현재 가격: $45.48 T"
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $45.48, $133, $67 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "NVDA에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$45.48",
-            "$133",
-            "$67",
-            "193%",
-            "29%",
-            "1.4%",
-            "$44.87,",
-            "$28.83"
-          ],
-          "sourceExcerpt": [
-            "IonQ Lined Up 3 Superion 256 Systems With NVIDIA, FIU, and SDT.",
-            "Here&#8217;s Where the Stock Could Go | TIKR.com Stock Reviews IonQ Lined Up 3 Superion 256 Systems With NVIDIA, FIU, and SDT.",
-            "Here’s Where the Stock Could Go Wiltone Asuncion • 6 minute read Reviewed by: David Hanson Last updated Sep 27, 2026 @Preis_King from pixabay via Canva, @Aflo Images from アフロ（Aflo） via Canva K ey Stats for IonQ Stock Current Price: $45.48 T"
-          ],
-          "analysisUpdatedAt": 1790530906.913689
-        },
-        "headlineKo": "IonQ는 NVIDIA, FIU 및 SDT를 사용하여 3개의 Superion 256 시스템을 구성했습니다. 주식이 갈 수 있는 곳은 다음과 같습니다"
-      },
-      {
-        "headline": "3 Reasons Why Nvidia Fits Warren Buffett's Investment Style",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3e0b54b2bb227716c646f29fa07febca4b32de2976e4e402bc082b9b2bf1b0cd",
-        "datetime": 1790496900,
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
+          "tone": "risk",
           "certainty": "본문 기반 간이 분석",
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Nvidia가 Warren Buffett의 투자 스타일에 적합한 3가지 이유 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% The Motley Fool에 합류하세요. Warren Buffett과 Berkshire Hathaway는 Nvidia를 소유한 적이 없습니다( N",
-            "반도체 주식은 매력적인 가치 평가로 거래되는 내구성 있고 복합적인 비즈니스 모델을 갖춘 넓은 해자를 보유하고 있습니다.",
-            "Nvidia가 버핏형 투자로 간주되어야 하는 이유를 더 자세히 살펴보겠습니다."
+            "SpaceX보다 Nvidia를 소유하고 싶은 3가지 간단한 이유 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia( NVDA +0.22% ) 및 SpaceX( SPCX +0.44% )는 가장 가치 있는 두 가지 c입니다.",
+            "두 회사 모두 AI 붐의 중심에 있으며 투자자들은 향후 몇 년 동안 이들 회사에 대해 높은 기대를 갖고 있습니다.",
+            "하지만 어떤 것을 사야할지 고민하신다면 어려운 선택은 아니라고 생각합니다."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $500 billion, 0.22 %, $ 0.49 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 100 times, $2 trillion, $150. — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -61366,51 +61442,51 @@ const NEWS_DATA = {
           "relevance": 0.4,
           "quality": "medium",
           "verifiedNumbers": [
-            "$500 billion",
-            "0.22 %",
-            "$ 0.49",
-            "$ 225.07",
-            "$5.4",
-            "$ 223.13",
-            "$ 226.94",
-            "$ 164.27"
+            "100 times",
+            "$2 trillion",
+            "$150.",
+            "92%",
+            "$4.1 billion",
+            "66%",
+            "$541 million",
+            "20 times"
           ],
           "sourceExcerpt": [
-            "3 Reasons Why Nvidia Fits Warren Buffett's Investment Style | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool While Warren Buffett and Berkshire Hathaway have never owned Nvidia ( N",
-            "The semiconductor stock has a wide moat with a durable, compounding business model that is trading at an attractive valuation.",
-            "Let's dig deeper into why Nvidia should be considered a Buffett-style investment ."
+            "3 Simple Reasons I'd Rather Own Nvidia Than SpaceX | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia ( NVDA +0.22% ) and SpaceX ( SPCX +0.44% ) are two of the most valuable c",
+            "Both companies are central to the AI boom, and investors have high expectations for them over the coming years.",
+            "However, if you're trying to decide which one to buy, I don't think it's a difficult choice."
           ],
-          "analysisUpdatedAt": 1790530910.2218711
+          "analysisUpdatedAt": 1790553636.0920842
         },
-        "headlineKo": "Nvidia가 Warren Buffett의 투자 스타일에 적합한 3가지 이유"
+        "headlineKo": "SpaceX보다 Nvidia를 소유하고 싶은 3가지 간단한 이유"
       },
       {
-        "headline": "A $1,000 Investment Split Between Alphabet and Nvidia Will Be Worth This Much by 2030",
+        "headline": "Apple and Nvidia Are the Two Largest Companies in the World. Which is the Better Stock to Buy?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f72f4de1d44f4ee9244c7f89dc5c824d80bf381ca63beebe989af5c4dbc5d8b5",
-        "datetime": 1790476500,
+        "url": "https://finnhub.io/api/news?id=3cb10ae6c791ea2937ab87e2f61914db539bb01c48fb3e6ac392ca6ece07c099",
+        "datetime": 1790539500,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "medium",
+          "importance": "high",
           "tone": "positive",
           "certainty": "본문 기반 간이 분석",
-          "label": "경쟁사 진입 · 해자 점검",
+          "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Alphabet과 Nvidia 간의 1,000달러 투자 분할은 2030년까지 이만큼 가치가 있을 것입니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Alphabet ( GOOG +0.61% ) ( GOOGL +0.46% ) 및",
-            "Nvidia는 세계 최대 기업인 반면 Alphabet은 Alphabet만큼 공격적으로 AI 기술을 추구하지 않는 Apple에 이어 세 번째로 큰 회사입니다.",
-            "두 회사 모두 믿을 수 없을 정도로 밝은 미래를 가지고 있으며 지금부터 2030년까지 투자자들에게 많은 돈을 벌어줄 것이라고 생각합니다."
+            "Apple과 Nvidia는 세계에서 가장 큰 두 회사입니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia( NVDA +0.22% )는 시가총액 기준으로 세계 최대 기업으로 약 5조 4천억 달러의 가치를 갖고 있습니다.",
+            "Apple( AAPL +1.53% )은 5조 달러 미만으로 두 번째로 큰 기업입니다."
           ],
           "why": [
-            "경쟁사의 신제품·시장 진입은 가격·점유율·고객 선택에 영향을 줄 수 있어 성능과 실제 수주를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $1,000, 0.22 %, $ 0.49 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.53%, $5 trillion, 0.28% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "새 경쟁자가 같은 시장에 들어왔다는 뜻입니다. 제품 발표만으로 기존 회사 매출이 바로 줄지는 않습니다.",
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -61421,55 +61497,298 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "성능·가격 비교",
-            "실제 고객 수주",
-            "기존 회사 점유율·마진"
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
           ],
-          "interpretation": "NVDA에 대한 경쟁사 진입 · 해자 점검 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 경쟁사의 신제품·시장 진입은 가격·점유율·고객 선택에 영향을 줄 수 있어 성능과 실제 수주를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "NVDA에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.4,
           "quality": "medium",
           "verifiedNumbers": [
-            "$1,000",
-            "0.22 %",
-            "$ 0.49",
-            "$ 225.07",
-            "$5.4",
-            "$ 223.13",
-            "$ 226.94",
-            "$ 164.27"
+            "1.53%",
+            "$5 trillion",
+            "0.28%",
+            "$500 billion",
+            "$54 billion",
+            "$109 billion",
+            "$31 billion",
+            "16%"
           ],
           "sourceExcerpt": [
-            "A $1,000 Investment Split Between Alphabet and Nvidia Will Be Worth This Much by 2030 | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Alphabet ( GOOG +0.61% ) ( GOOGL +0.46% ) and",
-            "Nvidia is the world's largest company, while Alphabet is the third-largest behind Apple , which isn't pursuing AI technology as aggressively as Alphabet.",
-            "Both of these companies have an incredibly bright future, and I think they will make investors a lot of money from now through 2030."
+            "Apple and Nvidia Are the Two Largest Companies in the World.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia ( NVDA +0.22% ) is the world's largest company by market cap and has a valuation of about $5.4 trillion.",
+            "Apple ( AAPL +1.53% ) is the second-largest at just under $5 trillion."
           ],
-          "analysisUpdatedAt": 1790530912.4080596
+          "analysisUpdatedAt": 1790553638.3003542
         },
-        "headlineKo": "Alphabet과 Nvidia의 1,000달러 투자 분할은 2030년까지 이만큼 가치가 있을 것입니다"
+        "headlineKo": "Apple과 Nvidia는 세계에서 가장 큰 두 회사입니다. 어느 주식을 구매하는 것이 더 나은가요?"
       },
       {
-        "headline": "‘Don’t Ship Products Until They’re in Control’: Nvidia’s Huang Weighs In on AI Safety Debate",
+        "headline": "China May Reopen Nvidia's AI Market. How Will NVDA Stock React Monday?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7b6c2263bce74ace2986e42983ef8b40ffb28798b7698653e31765ba97f147d6",
-        "datetime": 1790452740,
+        "url": "https://finnhub.io/api/news?id=5a95437768886272c76be2f6edca793119ef38853d6e17d33ffd0c24ad7d8619",
+        "datetime": 1790535600,
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "China May Reopen Nvidia's AI Market. How Will NVDA Stock React Monday?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'China May Reopen Nvidia's AI Market. How Will NVDA Stock React Monday?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790553639.0527773
+        },
+        "headlineKo": "중국은 엔비디아의 AI 시장을 재개할 수도 있다. NVDA 주식은 월요일에 어떻게 반응할까요?"
+      },
+      {
+        "headline": "Nvidia (NVDA) Stock Could Trade At A Discount Despite Its 10x Run",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9fb6aaabb19333215b0bb187d565ef49c98ea247e2b32868d71ca728e9c7ee57",
+        "datetime": 1790532428,
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "엔비디아(NVDA) 주식은 10배 상승에도 불구하고 할인된 가격으로 거래될 수 있습니다"
+      },
+      {
+        "headline": "China may permit Alibaba, ByteDance to buy new Nvidia chips – The Information",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=68448e3de272bc46d0ede0fa344b6dd6dc92f9b6139618d319d04af7a7d5b38e",
+        "datetime": 1790530217,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "'통제될 때까지 제품을 배송하지 마세요': Nvidia의 Huang이 AI 안전 논쟁에 참여"
-      },
-      {
-        "headline": "Nvidia Is Weighing a $10 Billion Stake in Anthropic's IPO. It Would Be Buying Its Own Demand.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8907543619da0857c9de2b29ffc05169568c8192344acea3561719a3d8740b79",
-        "datetime": 1790452621,
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Nvidia는 Anthropic의 IPO에서 100억 달러 규모의 지분을 보유하고 있습니다. 그것은 자체 수요를 구매하는 것입니다."
+        "headlineKo": "중국, Alibaba, ByteDance의 새로운 Nvidia 칩 구매를 허용할 수도 있음 – The Information"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "3 Simple Reasons I'd Rather Own Nvidia Than SpaceX",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2d2595a727b56c66f3d86723aac8263a7167b3030304dea3748a4a812f862a01",
+        "datetime": 1790544421,
+        "headlineKo": "SpaceX보다 Nvidia를 소유하고 싶은 3가지 간단한 이유",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "SpaceX보다 Nvidia를 소유하고 싶은 3가지 간단한 이유 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia( NVDA +0.22% ) 및 SpaceX( SPCX +0.44% )는 가장 가치 있는 두 가지 c입니다.",
+            "두 회사 모두 AI 붐의 중심에 있으며 투자자들은 향후 몇 년 동안 이들 회사에 대해 높은 기대를 갖고 있습니다.",
+            "하지만 어떤 것을 사야할지 고민하신다면 어려운 선택은 아니라고 생각합니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 100 times, $2 trillion, $150. — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "NVDA에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "100 times",
+            "$2 trillion",
+            "$150.",
+            "92%",
+            "$4.1 billion",
+            "66%",
+            "$541 million",
+            "20 times"
+          ],
+          "sourceExcerpt": [
+            "3 Simple Reasons I'd Rather Own Nvidia Than SpaceX | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia ( NVDA +0.22% ) and SpaceX ( SPCX +0.44% ) are two of the most valuable c",
+            "Both companies are central to the AI boom, and investors have high expectations for them over the coming years.",
+            "However, if you're trying to decide which one to buy, I don't think it's a difficult choice."
+          ],
+          "analysisUpdatedAt": 1790553636.0920842
+        }
+      },
+      {
+        "headline": "Apple and Nvidia Are the Two Largest Companies in the World. Which is the Better Stock to Buy?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3cb10ae6c791ea2937ab87e2f61914db539bb01c48fb3e6ac392ca6ece07c099",
+        "datetime": 1790539500,
+        "headlineKo": "Apple과 Nvidia는 세계에서 가장 큰 두 회사입니다. 어느 주식을 구매하는 것이 더 나은가요?",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Apple과 Nvidia는 세계에서 가장 큰 두 회사입니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia( NVDA +0.22% )는 시가총액 기준으로 세계 최대 기업으로 약 5조 4천억 달러의 가치를 갖고 있습니다.",
+            "Apple( AAPL +1.53% )은 5조 달러 미만으로 두 번째로 큰 기업입니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.53%, $5 trillion, 0.28% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "NVDA에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "1.53%",
+            "$5 trillion",
+            "0.28%",
+            "$500 billion",
+            "$54 billion",
+            "$109 billion",
+            "$31 billion",
+            "16%"
+          ],
+          "sourceExcerpt": [
+            "Apple and Nvidia Are the Two Largest Companies in the World.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia ( NVDA +0.22% ) is the world's largest company by market cap and has a valuation of about $5.4 trillion.",
+            "Apple ( AAPL +1.53% ) is the second-largest at just under $5 trillion."
+          ],
+          "analysisUpdatedAt": 1790553638.3003542
+        }
+      },
+      {
+        "headline": "China May Reopen Nvidia's AI Market. How Will NVDA Stock React Monday?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5a95437768886272c76be2f6edca793119ef38853d6e17d33ffd0c24ad7d8619",
+        "datetime": 1790535600,
+        "headlineKo": "중국은 엔비디아의 AI 시장을 재개할 수도 있다. NVDA 주식은 월요일에 어떻게 반응할까요?",
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "China May Reopen Nvidia's AI Market. How Will NVDA Stock React Monday?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'China May Reopen Nvidia's AI Market. How Will NVDA Stock React Monday?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790553639.0527773
+        }
+      },
+      {
+        "headline": "Nvidia (NVDA) Stock Could Trade At A Discount Despite Its 10x Run",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9fb6aaabb19333215b0bb187d565ef49c98ea247e2b32868d71ca728e9c7ee57",
+        "datetime": 1790532428,
+        "headlineKo": "엔비디아(NVDA) 주식은 10배 상승에도 불구하고 할인된 가격으로 거래될 수 있습니다",
+        "relevance": 1.0,
+        "keywordFlag": false
+      },
+      {
+        "headline": "China may permit Alibaba, ByteDance to buy new Nvidia chips – The Information",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=68448e3de272bc46d0ede0fa344b6dd6dc92f9b6139618d319d04af7a7d5b38e",
+        "datetime": 1790530217,
+        "headlineKo": "중국, Alibaba, ByteDance의 새로운 Nvidia 칩 구매를 허용할 수도 있음 – The Information",
+        "relevance": 0.4,
+        "keywordFlag": false
+      },
       {
         "headline": "IonQ Lined Up 3 Superion 256 Systems With NVIDIA, FIU, and SDT. Here’s Where the Stock Could Go",
         "source": "Yahoo",
@@ -68878,26 +69197,17 @@ const NEWS_DATA = {
         "headlineKo": "Synaptics, NVIDIA Isaac Sim 및 Holoscan에 촉각 감지 및 엣지 AI 제공",
         "relevance": 0.4,
         "keywordFlag": false
-      },
-      {
-        "headline": "Nvidia eyes a $10 billion Anthropic bet at an awkward moment",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=73456aacf14a9fab999dc8b2aae30e9c855c7a0cb47e7008298b506f963f0b17",
-        "datetime": 1789474629,
-        "headlineKo": "Nvidia는 어색한 순간에 100억 달러 규모의 Anthropic 베팅을 주목하고 있습니다.",
-        "relevance": 0.4,
-        "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790530879.214276,
-    "_updated_label": "2026-09-28 02:41",
-    "_last_success_at": 1790530879.214276,
+    "_fetched_at": 1790553601.2415955,
+    "_updated_label": "2026-09-28 09:00",
+    "_last_success_at": 1790553601.2415955,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 181,
+      "checked": 185,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "AMD": {
@@ -74714,7 +75024,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 140,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "AVGO": {
@@ -78593,7 +78903,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "QCOM": {
@@ -82255,7 +82565,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "ARM": {
@@ -85237,7 +85547,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "MRVL": {
@@ -88809,7 +89119,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "INTC": {
@@ -94027,7 +94337,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 125,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "TSM": {
@@ -96801,7 +97111,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "ASML": {
@@ -98923,7 +99233,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "AMAT": {
@@ -101159,7 +101469,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "LRCX": {
@@ -102353,7 +102663,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "KLAC": {
@@ -103520,7 +103830,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "MU": {
@@ -110064,7 +110374,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 157,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "SNDK": {
@@ -113790,7 +114100,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "WDC": {
@@ -115478,7 +115788,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "ANET": {
@@ -117191,7 +117501,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "COHR": {
@@ -118830,7 +119140,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "LITE": {
@@ -120522,7 +120832,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "GEV": {
@@ -123572,7 +123882,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "CEG": {
@@ -124997,7 +125307,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "VST": {
@@ -126612,7 +126922,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "ETN": {
@@ -128314,7 +128624,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "PWR": {
@@ -130167,7 +130477,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "HUBB": {
@@ -130809,7 +131119,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "VRT": {
@@ -132785,7 +133095,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "MOD": {
@@ -133467,7 +133777,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "STX": {
@@ -134933,7 +135243,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "EME": {
@@ -135936,7 +136246,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "FIX": {
@@ -136692,7 +137002,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   },
   "BE": {
@@ -138151,7 +138461,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-28 08:22"
+      "updated": "2026-09-28 09:00"
     }
   }
 };
