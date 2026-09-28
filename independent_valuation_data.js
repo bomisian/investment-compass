@@ -379,7 +379,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "snapshotDateClass": "ok",
       "priceStaleAfterDays": 7,
       "snapshotStaleAfterDays": 3,
-      "builtAt": "2026-09-28",
+      "builtAt": "2026-09-29",
       "isStaleReference": false,
       "staleReferenceNote": null,
       "conditionsForChange": [
@@ -835,7 +835,7 @@ const INDEPENDENT_VALUATION_DATA = {
           "text": "반도체장비 업종은 설비투자 사이클에 강하게 연동돼, 실적과 배수가 함께 오르내리는 경향이 이 종목 자신의 8년 EPS 이력(역성장~63% 성장)과 8년 트레일링 PER 이력(10.1배~26.3배)에서도 확인된다. 지금은 AI 데이터센터발 설비투자 확대로 사이클의 상승 구간(FY2026~FY2027 급성장, 패키징 CY2026 +70%대) 한가운데에 있다. 다만 회사 매출의 73.3%를 차지하는 반도체장비 (Semiconductor Systems) 부문은 이 사이클성이 가장 강하고, 22.5%를 차지하는 서비스(AGS) 부문은 회사가 스스로 '지속가능한 장기 중간 10%대 성장'이라고 밝힌 만큼 상대적으로 안정적인 성장 기반이다 -- 다만 AGS의 실제 3년 실현 매출 CAGR(약 4.8%, segment_revenue_history)은 이 가이던스보다 낮아, 가이던스를 우선한 이상 그 괴리를 인식한 채로 쓴다는 것을 의미한다. 이 둘을 매출 비중으로 가중해 전사 장기 성장 경로를 추정하는 것이, FY2028 이후에도 현재 급성장률(연 35~44%)이 그대로 이어진다고 가정하는 것이나, 반대로 부문별 실제 3년 실현 CAGR(반도체장비 3.4%·서비스 4.8%)로만 되돌아간다고 가정하는 것보다 사업 구성과 회사 가이던스를 함께 반영한 접근이라고 본다."
         }
       },
-      "as_of_execution": "2026-09-28",
+      "as_of_execution": "2026-09-29",
       "growth_rate_assumption": 0.08821212121212119,
       "exit_per_assumption": 22.0,
       "is_primary_recommended_assumption": true,
@@ -847,20 +847,20 @@ const INDEPENDENT_VALUATION_DATA = {
       "growth_years": 4,
       "base_fiscal_year": 2027,
       "target_fiscal_year": 2031,
-      "estimates_fetched_at": "2026-09-28",
+      "estimates_fetched_at": "2026-09-29",
       "estimates_age_days": 0,
-      "base_eps_fact": 18.47185,
+      "base_eps_fact": 18.48185,
       "base_eps_end_date": "2027-10-31",
       "base_eps_analysts": 34,
       "target_date": "2031-10-31",
       "eps_path_fy2028_to_fy2031": [
-        20.10129107121212,
-        21.874468595706013,
-        23.80406187092117,
-        25.9038686620197
+        20.112173192424244,
+        21.886310651913547,
+        23.816948540026285,
+        25.917892091541937
       ],
-      "target_eps_fy2031": 25.9038686620197,
-      "target_price": 569.8851105644334,
+      "target_eps_fy2031": 25.917892091541937,
+      "target_price": 570.1936260139227,
       "comparison_price": 485.0,
       "comparison_price_as_of": "2026-09-25",
       "base_scenario": {
@@ -873,7 +873,7 @@ const INDEPENDENT_VALUATION_DATA = {
           "3": 2.12,
           "4": 2.12,
           "5": 2.12,
-          "5.101369863013699": 570.1000146740224
+          "5.101369863013699": 570.4085301235117
         },
         "cashflow_note": {
           "approximation_note": "실제 AMAT 분기배당(연 4회 지급)을 이 계산에서는 매입일 이후부터 맞이하는 각 정수 연차에 연 1회 합산 지급으로 근사한다 -- 정확한 분기별 지급일을 쓰려면 엔진을 부분기간 할인 구조로 바꿔야 하며 이번 범위 밖이다. 보유기간이 정수가 아니므로(약 5.1014년), 매도 시점의 부분연도에는 연배당의 10.1%만 비례 배분했다(그 이후 -- 매도 이후 -- 배당은 포함하지 않음). 매도 이후 시점의 배당은 어떤 경우에도 포함하지 않는다."
@@ -882,26 +882,26 @@ const INDEPENDENT_VALUATION_DATA = {
           "0.08": {
             "blocked": false,
             "required_return": 0.08,
-            "max_purchase_price": 393.4498153106803,
+            "max_purchase_price": 393.6581540241929,
             "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
           },
           "0.1": {
             "blocked": false,
             "required_return": 0.1,
-            "max_purchase_price": 358.62011578668773,
+            "max_purchase_price": 358.8098377107565,
             "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
           },
           "0.12": {
             "blocked": false,
             "required_return": 0.12,
-            "max_purchase_price": 327.4371589454567,
+            "max_purchase_price": 327.6102192961553,
             "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
           }
         },
         "conditional_annualized_return_at_comparison_price": {
           "status": "SUCCESS",
-          "rate": 0.03622456443094958,
-          "residual": 6.727987056365237e-10,
+          "rate": 0.03633321334278887,
+          "residual": -1.6547119230381213e-10,
           "note": "solve_implied_rate와는 별개의 신규 수치해 함수 -- P05/P10 근거로 대체하지 않음"
         }
       },
@@ -910,13 +910,13 @@ const INDEPENDENT_VALUATION_DATA = {
         "growth_rate": 0.1,
         "exit_per": 24.0,
         "eps_path_fy2028_to_fy2031": [
-          20.319035000000003,
-          22.350938500000005,
-          24.586032350000007,
-          27.04463558500001
+          20.330035000000002,
+          22.363038500000005,
+          24.599342350000008,
+          27.05927658500001
         ],
-        "target_eps_fy2031": 27.04463558500001,
-        "target_price": 649.0712540400002,
+        "target_eps_fy2031": 27.05927658500001,
+        "target_price": 649.4226380400003,
         "scenario": {
           "blocked": false,
           "holding_period_actual_days": 1862,
@@ -927,7 +927,7 @@ const INDEPENDENT_VALUATION_DATA = {
             "3": 2.12,
             "4": 2.12,
             "5": 2.12,
-            "5.101369863013699": 649.2861581495893
+            "5.101369863013699": 649.6375421495893
           },
           "cashflow_note": {
             "approximation_note": "실제 AMAT 분기배당(연 4회 지급)을 이 계산에서는 매입일 이후부터 맞이하는 각 정수 연차에 연 1회 합산 지급으로 근사한다 -- 정확한 분기별 지급일을 쓰려면 엔진을 부분기간 할인 구조로 바꿔야 하며 이번 범위 밖이다. 보유기간이 정수가 아니므로(약 5.1014년), 매도 시점의 부분연도에는 연배당의 10.1%만 비례 배분했다(그 이후 -- 매도 이후 -- 배당은 포함하지 않음). 매도 이후 시점의 배당은 어떤 경우에도 포함하지 않는다."
@@ -936,40 +936,40 @@ const INDEPENDENT_VALUATION_DATA = {
             "0.08": {
               "blocked": false,
               "required_return": 0.08,
-              "max_purchase_price": 446.92376381806815,
+              "max_purchase_price": 447.16105141786295,
               "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
             },
             "0.1": {
               "blocked": false,
               "required_return": 0.1,
-              "max_purchase_price": 407.3157241415945,
+              "max_purchase_price": 407.5318081292112,
               "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
             },
             "0.12": {
               "blocked": false,
               "required_return": 0.12,
-              "max_purchase_price": 371.85626918138155,
+              "max_purchase_price": 372.053376452251,
               "formula": "요구수익률 충족 매입가격 = sum(D_i / (1+r)^t_i) + P_target / (1+r)^(실제 보유기간)"
             }
           },
           "conditional_annualized_return_at_comparison_price": {
             "status": "SUCCESS",
-            "rate": 0.062688316170977,
-            "residual": -1.3523049346986227e-10,
+            "rate": 0.0627998565210987,
+            "residual": 3.7761083149234764e-10,
             "note": "solve_implied_rate와는 별개의 신규 수치해 함수 -- P05/P10 근거로 대체하지 않음"
           }
         }
       },
       "required_return_ceilings": {
-        "8%": 393.4498153106803,
-        "10%": 358.62011578668773,
-        "12%": 327.4371589454567
+        "8%": 393.6581540241929,
+        "10%": 358.8098377107565,
+        "12%": 327.6102192961553
       },
-      "conditional_annualized_return_at_comparison_price": 0.03622456443094958,
+      "conditional_annualized_return_at_comparison_price": 0.03633321334278887,
       "conditional_annualized_return_status": "SUCCESS",
       "default_required_return": 0.1,
-      "default_ceiling_price": 358.62011578668773,
-      "like_for_like_comparison_note": "target_price($569.89, FY2031 시점의 할인 전 미래 목표주가)와 default_ceiling_price($358.62, 오늘 현재가치로 할인한 연 10% 요구수익률 매입가 상한)는 서로 다른 의미의 가격이다. 기존 잠정 대표가격(약 $407~410, 요구수익률 기준 매입가 상한 개념)과 같은 뜻으로 비교할 값은 target_price가 아니라 default_ceiling_price다.",
+      "default_ceiling_price": 358.8098377107565,
+      "like_for_like_comparison_note": "target_price($570.19, FY2031 시점의 할인 전 미래 목표주가)와 default_ceiling_price($358.81, 오늘 현재가치로 할인한 연 10% 요구수익률 매입가 상한)는 서로 다른 의미의 가격이다. 기존 잠정 대표가격(약 $407~410, 요구수익률 기준 매입가 상한 개념)과 같은 뜻으로 비교할 값은 target_price가 아니라 default_ceiling_price다.",
       "return_condition_met_at_default_required_return": false,
       "state_label": "수익조건 미충족",
       "blocked": false,
@@ -977,34 +977,34 @@ const INDEPENDENT_VALUATION_DATA = {
       "long_term_thesis_confirmed": false,
       "price_return_table": [
         {
-          "purchase_price": 298.62,
+          "purchase_price": 298.81,
           "status": "SUCCESS",
-          "annualized_return": 0.1406376385797557
+          "annualized_return": 0.14061316891720707
         },
         {
-          "purchase_price": 328.62,
+          "purchase_price": 328.81,
           "status": "SUCCESS",
-          "annualized_return": 0.1192001031417021
+          "annualized_return": 0.11918910514420983
         },
         {
-          "purchase_price": 358.62,
+          "purchase_price": 358.81,
           "status": "SUCCESS",
-          "annualized_return": 0.10000007032767821
+          "annualized_return": 0.0999999014805325
         },
         {
-          "purchase_price": 393.62,
+          "purchase_price": 393.81,
           "status": "SUCCESS",
-          "annualized_return": 0.0799075717579171
+          "annualized_return": 0.079917573356829
         },
         {
-          "purchase_price": 448.62,
+          "purchase_price": 448.81,
           "status": "SUCCESS",
-          "annualized_return": 0.05232368679708084
+          "annualized_return": 0.05234586879437299
         },
         {
           "purchase_price": 485.0,
           "status": "SUCCESS",
-          "annualized_return": 0.03622456443094958
+          "annualized_return": 0.03633321334278887
         }
       ],
       "range_growth_fixed_exit_per_sensitivity": {
@@ -1013,14 +1013,14 @@ const INDEPENDENT_VALUATION_DATA = {
           "low": {
             "exit_per": 20.0,
             "growth_rate": 0.08821212121212119,
-            "target_price": 518.077373240394,
-            "ceiling_at_default_required_return": 326.7608892129914
+            "target_price": 518.3578418308388,
+            "ceiling_at_default_required_return": 326.93336368941755
           },
           "high": {
             "exit_per": 25.0,
             "growth_rate": 0.08821212121212119,
-            "target_price": 647.5967165504925,
-            "ceiling_at_default_required_return": 406.40895564723223
+            "target_price": 647.9473022885484,
+            "ceiling_at_default_required_return": 406.6245487427648
           }
         }
       },
@@ -1031,17 +1031,17 @@ const INDEPENDENT_VALUATION_DATA = {
             "label": "성장 연 3.3%(부문별 실제 3년 실현 매출 CAGR 가중, 회사 가이던스 미반영) · 종료 PER 18배(비GAAP 실측 범위 하단 이하 약세 가정)",
             "growth_rate": 0.033,
             "exit_per": 18.0,
-            "target_eps": 21.03350646554862,
-            "target_price": 378.60311637987513,
-            "ceiling_at_default_required_return": 240.991037448874,
+            "target_eps": 21.044893254887825,
+            "target_price": 378.80807858798084,
+            "ceiling_at_default_required_return": 241.11707919021165,
             "decomposition_vs_primary": {
-              "base_price": 569.8851105644334,
-              "growth_only_price": 462.73714224206964,
-              "growth_only_pct": -0.1880167885352203,
-              "per_only_price": 466.2696359163546,
-              "per_only_pct": -0.18181818181818177,
-              "combined_price": 378.60311637987513,
-              "combined_pct": -0.33565009971063486,
+              "base_price": 570.1936260139227,
+              "growth_only_price": 462.98765160753214,
+              "growth_only_pct": -0.18801678853522086,
+              "per_only_price": 466.5220576477549,
+              "per_only_pct": -0.18181818181818188,
+              "combined_price": 378.80807858798084,
+              "combined_pct": -0.3356500997106353,
               "note": "성장률만 바꾼 효과와 출구PER만 바꾼 효과를 각각 보여준다 -- 결합효과(둘 다 바꿨을 때)를 어느 한쪽 변수 하나의 효과인 것처럼 설명하지 않는다."
             }
           },
@@ -1049,17 +1049,17 @@ const INDEPENDENT_VALUATION_DATA = {
             "label": "성장 연 14%(AGS 장기 가이던스 수준 전사 확대) · 종료 PER 27배(AI 사이클 프리미엄 유지·확대 가정)",
             "growth_rate": 0.14,
             "exit_per": 27.0,
-            "target_eps": 31.198218731496013,
-            "target_price": 842.3519057503923,
-            "ceiling_at_default_required_return": 526.173879181996,
+            "target_eps": 31.21510833309602,
+            "target_price": 842.8079249935926,
+            "ceiling_at_default_required_return": 526.4543087305827,
             "decomposition_vs_primary": {
-              "base_price": 569.8851105644334,
-              "growth_only_price": 686.3608120929123,
-              "growth_only_pct": 0.20438453184558103,
-              "per_only_price": 699.4044538745319,
-              "per_only_pct": 0.2272727272727273,
-              "combined_price": 842.3519057503923,
-              "combined_pct": 0.4781082890832131,
+              "base_price": 570.1936260139227,
+              "growth_only_price": 686.7323833281124,
+              "growth_only_pct": 0.2043845318455808,
+              "per_only_price": 699.7830864716323,
+              "per_only_pct": 0.22727272727272707,
+              "combined_price": 842.8079249935926,
+              "combined_pct": 0.4781082890832129,
               "note": "성장률만 바꾼 효과와 출구PER만 바꾼 효과를 각각 보여준다 -- 결합효과(둘 다 바꿨을 때)를 어느 한쪽 변수 하나의 효과인 것처럼 설명하지 않는다."
             }
           },
@@ -1067,17 +1067,17 @@ const INDEPENDENT_VALUATION_DATA = {
             "label": "FY2027 이후 성장 0% · 종료 PER 15배(비GAAP 기준 장기 이력이 없어 GAAP 8년 저점권 10~15배대를 참고한 예시적 하방)",
             "growth_rate": 0.0,
             "exit_per": 15.0,
-            "target_eps": 18.47185,
-            "target_price": 277.07775,
-            "ceiling_at_default_required_return": 178.5578987413644,
+            "target_eps": 18.48185,
+            "target_price": 277.22775,
+            "ceiling_at_default_required_return": 178.65014141075883,
             "decomposition_vs_primary": {
-              "base_price": 569.8851105644334,
-              "growth_only_price": 406.3807,
-              "growth_only_pct": -0.28690767232450265,
-              "per_only_price": 388.5580299302955,
-              "per_only_pct": -0.3181818181818181,
-              "combined_price": 277.07775,
-              "combined_pct": -0.5138006856757973,
+              "base_price": 570.1936260139227,
+              "growth_only_price": 406.6007,
+              "growth_only_pct": -0.28690767232450287,
+              "per_only_price": 388.76838137312905,
+              "per_only_pct": -0.31818181818181823,
+              "combined_price": 277.22775,
+              "combined_pct": -0.5138006856757974,
               "note": "성장률만 바꾼 효과와 출구PER만 바꾼 효과를 각각 보여준다 -- 결합효과(둘 다 바꿨을 때)를 어느 한쪽 변수 하나의 효과인 것처럼 설명하지 않는다."
             }
           }
@@ -1086,35 +1086,35 @@ const INDEPENDENT_VALUATION_DATA = {
     },
     "valuation": {
       "kind": "independent_value_dcf_scenario_engine",
-      "asOf": "2026-09-28",
+      "asOf": "2026-09-29",
       "valuationAnchorDate": "2026-07-26",
-      "runId": "AMAT_REAL_20260928T000058055244",
-      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260928T000058006648",
+      "runId": "AMAT_REAL_20260929T000819663816",
+      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20260929T000819638873",
       "engineVersion": "amat_calc_engine v4 (2026-09-18, 모델 채택 검토) -- D&A/CapEx 비율 곡선을 FY2025 실측 대조로 조정(min(0.60,0.20+0.10*(i+1)) -> min(0.45,0.19+0.065*i)), 계산 결과가 달라짐(v3 대비). 과거 실행은 각자 저장된 code_snapshots로 그 시점 값 그대로 재현 가능.",
       "isReplayFixture": false,
-      "px": 190.65158803673046,
+      "px": 190.69257988018958,
       "priceState": "PRICE_STRETCHED",
       "scenarios": {
         "conservative": {
-          "px": 178.14023896832552,
-          "growthY1": 0.31038922041703154,
+          "px": 178.1783900260701,
+          "growthY1": 0.3106854249764892,
           "roic": 0.18,
-          "ntmValue": 40408472390.0,
-          "runId": "AMAT_REAL_20260928T000058017697"
+          "ntmValue": 40417606450.0,
+          "runId": "AMAT_REAL_20260929T000819646452"
         },
         "base": {
-          "px": 190.65158803673046,
-          "growthY1": 0.37893038233291176,
+          "px": 190.69257988018958,
+          "growthY1": 0.3792421766060252,
           "roic": 0.22,
-          "ntmValue": 42522076200.0,
-          "runId": "AMAT_REAL_20260928T000058055244"
+          "ntmValue": 42531691000.0,
+          "runId": "AMAT_REAL_20260929T000819663816"
         },
         "optimistic": {
-          "px": 202.3394526354332,
-          "growthY1": 0.447471544248792,
+          "px": 202.3830994782693,
+          "growthY1": 0.4477989282355612,
           "roic": 0.26,
-          "ntmValue": 44635680010.0,
-          "runId": "AMAT_REAL_20260928T000058099750"
+          "ntmValue": 44645775550.0,
+          "runId": "AMAT_REAL_20260929T000819690650"
         }
       },
       "priorDeliveredPx": 129.13,
@@ -1155,14 +1155,14 @@ const INDEPENDENT_VALUATION_DATA = {
       "ntm": {
         "ok": true,
         "scenario": "base",
-        "ntm_value": 42522076200.0,
+        "ntm_value": 42531691000.0,
         "period_start": "2026-07-27",
         "period_end": "2027-07-25",
         "components": {
           "FY2026Q4": 10250000000.0,
-          "FY2027Q1": 9414311200.0,
-          "FY2027Q2": 10619966000.0,
-          "FY2027Q3": 12237799000.0
+          "FY2027Q1": 9417116000.0,
+          "FY2027Q2": 10623130000.0,
+          "FY2027Q3": 12241445000.0
         },
         "component_kinds": {
           "FY2026Q4": "company_guidance_midpoint",
@@ -1172,9 +1172,9 @@ const INDEPENDENT_VALUATION_DATA = {
         },
         "component_sources": {
           "FY2026Q4": "SEC 8-K Item 2.02 (accession 0001628280-26-056699, filed 2026-08-13)",
-          "FY2027Q1": "FY2026Q1 실적($7.012B) x (1 + FY2027 컨센서스 성장률 34.26%) -- estimates_cache.json",
-          "FY2027Q2": "FY2026Q2 실적($7.910B) x (1 + FY2027 컨센서스 성장률 34.26%) -- estimates_cache.json",
-          "FY2027Q3": "FY2026Q3 실적($9.115B) x (1 + FY2027 컨센서스 성장률 34.26%) -- estimates_cache.json"
+          "FY2027Q1": "FY2026Q1 실적($7.012B) x (1 + FY2027 컨센서스 성장률 34.30%) -- estimates_cache.json",
+          "FY2027Q2": "FY2026Q2 실적($7.910B) x (1 + FY2027 컨센서스 성장률 34.30%) -- estimates_cache.json",
+          "FY2027Q3": "FY2026Q3 실적($9.115B) x (1 + FY2027 컨센서스 성장률 34.30%) -- estimates_cache.json"
         },
         "as_of": "2026-08-13",
         "note": "FY 라벨 기준 1년차 4개 분기를 매 실행마다 다시 계산한다. 1개 분기(FY2026Q4)는 회사 자신의 최근 8-K 가이던스를 씀. 나머지 분기는 '연간 컨센서스 기반 분기 추정'이다(작년 동기 실적 x 그 회계연도 Yahoo 컨센서스 성장률 -- 실제 분기별 컨센서스를 수집한 값이 아니고, 회사가 확정한 값도 아님). FY2027Q1: 연간 컨센서스 기반 분기 추정(가이던스 없음) / FY2027Q2: 연간 컨센서스 기반 분기 추정(가이던스 없음) / FY2027Q3: 연간 컨센서스 기반 분기 추정(가이던스 없음)"
@@ -1267,7 +1267,7 @@ const INDEPENDENT_VALUATION_DATA = {
         "as_of": "2026-07-26",
         "kind": "sec_xbrl_auto",
         "selection_basis": "SEC XBRL 자동 수집 성공(기업어음: 이번 분기 SEC XBRL 조회 결과 CommercialPaper 개념 태그 자체가 없음(404, 태그 미보고 사실은 확인됨) -- 이것이 실제 잔액 0을 뜻하는지 다른 부채 항목에 이미 포함돼 있는지는 미확인. 계산에는 0으로 처리(검증 안 된 금액을 임의로 더하지 않음), 포함관계 확정 전까지는 이 net_debt를 확정값이 아닌 '기업어음 포함관계 미확인' 상태로 취급해야 함.) -- 채택 접수번호(accession): cash_and_equivalents=0001628280-26-058235, commercial_paper=None, long_term_debt_current=0001628280-26-058235, long_term_debt_noncurrent=0001628280-26-058235 + 단기투자자산 $2,196M 반영(2026-07-26 기준, 10-Q 본문 직접대조, 나머지 3개 구성요소와 동일 기준일 여부는 net_debt_source.short_term_investments.basis_date_status 참고)",
-        "age_days": 64,
+        "age_days": 65,
         "stale": false,
         "collection_failure_reason": null,
         "short_term_investments_included": true,
@@ -1283,24 +1283,24 @@ const INDEPENDENT_VALUATION_DATA = {
           "commercial_paper": null
         }
       },
-      "changeReasonVsPrevious": "직전 실행과 입력값 동일(변경 없음)",
+      "changeReasonVsPrevious": "직전 실행과 입력값이 미세하게만 다름(표시 임계값 미만이라 생략): 1년차 성장률 소폭 변화(37.89%→37.92%, 표시 임계값 0.5%p 미만이라 주요 사유에서 생략)",
       "summaryCard": {
-        "fairValueRangeLow": 178.14023896832552,
-        "fairValueRangeHigh": 202.3394526354332,
-        "fairValueBase": 190.65158803673046,
+        "fairValueRangeLow": 178.1783900260701,
+        "fairValueRangeHigh": 202.3830994782693,
+        "fairValueBase": 190.69257988018958,
         "currentPrice": 485.0,
         "currentPriceAsOf": "2026-09-25",
         "currentPriceNote": "이 실행이 계산 당시 비교한 가격(위 asOf 시점) -- 화면을 여는 시점의 실시간 가격과 다를 수 있음",
-        "diffVsCurrentPricePct": 154.39074753815382,
+        "diffVsCurrentPricePct": 154.33606294734753,
         "diffVsCurrentPriceLabel": "높음",
-        "inputChangeSummary": "직전 실행과 입력값 동일(변경 없음)",
+        "inputChangeSummary": "직전 실행과 입력값이 미세하게만 다름(표시 임계값 미만이라 생략): 1년차 성장률 소폭 변화(37.89%→37.92%, 표시 임계값 0.5%p 미만이라 주요 사유에서 생략)",
         "dataStatusLevel": "최신_반영_완료",
         "dataStatusLabel": "최신 자료 반영 완료",
         "dataStatusDetail": "순부채: SEC 자동수집 성공(기준일 2026-07-26)",
-        "asOf": "2026-09-28",
+        "asOf": "2026-09-29",
         "estimateStatusLabel": "조건부 DCF 추정값 (conditional DCF estimate) -- 검증된 대표 적정가로 확정된 것이 아님",
         "estimateStatusNote": "이 값은 현재 이 파일에 기록된 성장·마진·자본비용 가정 아래에서 계산된 결과다. 입력별 신뢰 등급(직접관측/외부컨센서스/파생추정/순수판단)이 서로 다르며, 등급이 낮은 입력(4~5년차 성장률, D&A 곡선, 영구성장률)이 결과에 가장 크게 기여한다. '장기 내재가치 점검'에는 참고할 수 있으나, 매수/매도 타이밍 판단 근거로 단독 사용하지 않는다 -- AMAT_모델_채택_최종검토_2026-09-18.md, AMAT_모델채택_구현완료보고_2026-09-18.md 참고.",
-        "computedJudgmentAtRunTime": "현재가가 조건부 DCF 추정범위를 상회(+154.4%)",
+        "computedJudgmentAtRunTime": "현재가가 조건부 DCF 추정범위를 상회(+154.3%)",
         "judgmentReasonSummary": "장기 내재가치 점검용 참고값(입력별 신뢰등급이 다르며, 등급이 낮은 입력이 결과를 가장 크게 좌우함). 매수·매도 타이밍 신호가 아님 -- 과거 시점 검증 기록이 아직 충분히 쌓이지 않았음.",
         "conditionsForChange": [
           "2~5년차 실제 실적이 재평가 성장경로(18/10/6/4%)를 상회/하회하는지",
@@ -1309,7 +1309,7 @@ const INDEPENDENT_VALUATION_DATA = {
           "FY2026Q3 이후 단기투자자산 값이 SEC XBRL API 표준 태그로 자동 인덱싱돼, 매 분기 10-Q 본문을 수동 대조하지 않아도 되는지"
         ]
       },
-      "growthY1Basis": "NTM(2026-07-27~2027-07-25, $42.522B, 시나리오=base) 대비 TTM(2025-07-28~2026-07-26, $30.837B) = 37.89%. 구성: {'FY2026Q4': 10250000000.0, 'FY2027Q1': 9414311200.0, 'FY2027Q2': 10619966000.0, 'FY2027Q3': 12237799000.0}. 참고(성장률 아님): FY2025 실적 대비 TTM 비율은 과거 서로 다른 기간의 차이일 뿐이라 미래 성장률로 쓰지 않음.",
+      "growthY1Basis": "NTM(2026-07-27~2027-07-25, $42.532B, 시나리오=base) 대비 TTM(2025-07-28~2026-07-26, $30.837B) = 37.92%. 구성: {'FY2026Q4': 10250000000.0, 'FY2027Q1': 9417116000.0, 'FY2027Q2': 10623130000.0, 'FY2027Q3': 12241445000.0}. 참고(성장률 아님): FY2025 실적 대비 TTM 비율은 과거 서로 다른 기간의 차이일 뿐이라 미래 성장률로 쓰지 않음.",
       "assumptionNotes": {
         "growth_y1": {
           "observed": "TTM($30.837B, 2025-07-28~2026-07-26)과 직전 완결회계연도 FY2025($28.368B)의 차이는 실측값이지만, 두 구간의 기준일이 다르므로 이 비율 자체를 미래 성장률로 쓰지 않는다(과거 참고용 지표로만 별도 표시, 아래 historical_reference 참고. 8.70% -- 이전 회차 보고서의 8.66% 표기는 원문 재확인 결과 단순 필사 오차였고, 실행 기록(growth_y1_basis)에는 당시에도 8.70%로 정확히 저장돼 있었다).",
@@ -1343,9 +1343,9 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "roicSensitivity": {
-        "18%": 186.96831990981394,
-        "22%": 190.65158803673046,
-        "26%": 193.20154289382654
+        "18%": 187.00847891796602,
+        "22%": 190.69257988018958,
+        "26%": 193.24311131557513
       },
       "growthPathTable": [
         {
@@ -1395,9 +1395,9 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "growthPathSensitivity": {
-        "y2=7%": 174.71038843257145,
-        "y2=10%(기준)": 179.05798832461483,
-        "y2=13%": 183.40558821665812
+        "y2=7%": 174.74777576139613,
+        "y2=10%(기준)": 179.09635870288523,
+        "y2=13%": 183.44494164437432
       },
       "valuationTiming": {
         "valuation_anchor_date": "2026-07-26",
@@ -1409,9 +1409,9 @@ const INDEPENDENT_VALUATION_DATA = {
         "note": "현재 FCFF 계산은 TTM 마지막 분기 종료일(2026-07-26)을 '지금'으로 두고 1년차부터 할인한다. 화면에서 비교하는 현재가 조회 시점(2026-09-25)은 그보다 61일 뒤라서, 같은 시점 기준으로 정확히 맞추려면 적정가를 약 1.83% 만큼 앞으로 굴려야 한다는 근사치다(연 단위 복리 근사, 실제 분기별 현금흐름 발생 시점은 고려하지 않음). 이 회차에는 px에 적용하지 않고 진단값으로만 남긴다 -- 크기가 시나리오 간 가격 차이보다 작고, 정확히 보정하려면 반기/분기 단위 부분기간 할인으로 엔진을 바꿔야 해서 이번 범위(기존 화면·엔진 구조 유지) 밖이다."
       },
       "dataFreshness": {
-        "checked_as_of_execution": "2026-09-28",
+        "checked_as_of_execution": "2026-09-29",
         "price_as_of": "2026-09-25",
-        "price_gap_days": 3,
+        "price_gap_days": 4,
         "price_stale": false,
         "price_stale_threshold_days": 7,
         "next_expected_earnings_date": "2026-11-19",
@@ -1426,7 +1426,7 @@ const INDEPENDENT_VALUATION_DATA = {
         "note": "다음 실적 발표 예상일 이전이고 확인된 미반영 공시도 없어, 현재 net_debt·가이던스·컨센서스 기준을 유효한 값으로 쓴다. 예정일 자체가 추정치이므로 실제 발표일이 다르면 이 판정도 같이 갱신해야 한다.",
         "net_debt_source_kind_used": "sec_xbrl_auto",
         "net_debt_selection_basis": "SEC XBRL 자동 수집 성공(기업어음: 이번 분기 SEC XBRL 조회 결과 CommercialPaper 개념 태그 자체가 없음(404, 태그 미보고 사실은 확인됨) -- 이것이 실제 잔액 0을 뜻하는지 다른 부채 항목에 이미 포함돼 있는지는 미확인. 계산에는 0으로 처리(검증 안 된 금액을 임의로 더하지 않음), 포함관계 확정 전까지는 이 net_debt를 확정값이 아닌 '기업어음 포함관계 미확인' 상태로 취급해야 함.) -- 채택 접수번호(accession): cash_and_equivalents=0001628280-26-058235, commercial_paper=None, long_term_debt_current=0001628280-26-058235, long_term_debt_noncurrent=0001628280-26-058235 + 단기투자자산 $2,196M 반영(2026-07-26 기준, 10-Q 본문 직접대조, 나머지 3개 구성요소와 동일 기준일 여부는 net_debt_source.short_term_investments.basis_date_status 참고)",
-        "net_debt_age_days": 64,
+        "net_debt_age_days": 65,
         "net_debt_max_age_days": 200,
         "net_debt_stale": false,
         "net_debt_collection_failure_reason": null,
@@ -1445,22 +1445,22 @@ const INDEPENDENT_VALUATION_DATA = {
         "scenarios": {
           "conservative": {
             "blocked": false,
-            "p3PerShare": 236.65617476872984,
+            "p3PerShare": 236.70869408911992,
             "purchasePriceUsed": 485.0,
             "scenarioAnnualizedReturn": {
               "status": "SUCCESS",
-              "rate": -0.21799556376090554,
+              "rate": -0.2179352495975764,
               "label": "시나리오 연환산 수익률 (보장 수익률 아님, 이 시나리오의 가정이 그대로 실현된다는 조건부 수치)"
             },
             "cashflowsByYear": {
               "1": 2.12,
               "2": 2.12,
-              "2.835616438356164": 238.42768161804491
+              "2.835616438356164": 238.480200938435
             },
             "illustrativeRequiredReturnExamples": {
-              "0.08": 195.46181210357133,
-              "0.10": 185.64225883720425,
-              "0.12": 176.48221084808597
+              "0.08": 195.50403442884067,
+              "0.10": 185.68234046207866,
+              "0.12": 176.5202959974751
             },
             "illustrativeExamplesNote": "시스템 기본값이 아니라 참고용 예시일 뿐이다 -- 실제 판정은 사용자가 직접 입력한 요구수익률 기준으로만 내려간다.",
             "judgment": {
@@ -1476,26 +1476,26 @@ const INDEPENDENT_VALUATION_DATA = {
             "holdingPeriodActualDays": 1035,
             "holdingPeriodActualYears": 2.835616438356164,
             "netDebtYear0": -2789000000.0,
-            "netDebtYear3": -31561609413.09249
+            "netDebtYear3": -31567969786.69329
           },
           "base": {
             "blocked": false,
-            "p3PerShare": 253.91242377095003,
+            "p3PerShare": 253.96886120732788,
             "purchasePriceUsed": 485.0,
             "scenarioAnnualizedReturn": {
               "status": "SUCCESS",
-              "rate": -0.19862220892791818,
+              "rate": -0.19856025395411053,
               "label": "시나리오 연환산 수익률 (보장 수익률 아님, 이 시나리오의 가정이 그대로 실현된다는 조건부 수치)"
             },
             "cashflowsByYear": {
               "1": 2.12,
               "2": 2.12,
-              "2.835616438356164": 255.6839306202651
+              "2.835616438356164": 255.74036805664295
             },
             "illustrativeRequiredReturnExamples": {
-              "0.08": 209.33478214371937,
-              "0.10": 198.81185993084608,
-              "0.12": 188.99583090760214
+              "0.08": 209.38015439489124,
+              "0.10": 198.85493177825325,
+              "0.12": 189.03675733581227
             },
             "illustrativeExamplesNote": "시스템 기본값이 아니라 참고용 예시일 뿐이다 -- 실제 판정은 사용자가 직접 입력한 요구수익률 기준으로만 내려간다.",
             "judgment": {
@@ -1511,26 +1511,26 @@ const INDEPENDENT_VALUATION_DATA = {
             "holdingPeriodActualDays": 1035,
             "holdingPeriodActualYears": 2.835616438356164,
             "netDebtYear0": -2789000000.0,
-            "netDebtYear3": -33033387557.27449
+            "netDebtYear3": -33040082687.380577
           },
           "optimistic": {
             "blocked": false,
-            "p3PerShare": 270.02768766572785,
+            "p3PerShare": 270.0877858004345,
             "purchasePriceUsed": 485.0,
             "scenarioAnnualizedReturn": {
               "status": "SUCCESS",
-              "rate": -0.18127822376686714,
+              "rate": -0.18121480307308963,
               "label": "시나리오 연환산 수익률 (보장 수익률 아님, 이 시나리오의 가정이 그대로 실현된다는 조건부 수치)"
             },
             "cashflowsByYear": {
               "1": 2.12,
               "2": 2.12,
-              "2.835616438356164": 271.7991945150429
+              "2.835616438356164": 271.8592926497496
             },
             "illustrativeRequiredReturnExamples": {
-              "0.08": 222.29046985850422,
-              "0.10": 211.11068553226656,
-              "0.12": 200.68204901399034
+              "0.08": 222.338785087506,
+              "0.10": 211.15655114654095,
+              "0.12": 200.7256300508604
             },
             "illustrativeExamplesNote": "시스템 기본값이 아니라 참고용 예시일 뿐이다 -- 실제 판정은 사용자가 직접 입력한 요구수익률 기준으로만 내려간다.",
             "judgment": {
@@ -1546,7 +1546,7 @@ const INDEPENDENT_VALUATION_DATA = {
             "holdingPeriodActualDays": 1035,
             "holdingPeriodActualYears": 2.835616438356164,
             "netDebtYear0": -2789000000.0,
-            "netDebtYear3": -34505165701.45647
+            "netDebtYear3": -34512195588.06786
           }
         },
         "cashflowApproximationNote": "실제 AMAT 분기배당(연 4회 지급)을 이 계산에서는 매입일 이후부터 맞이하는 각 정수 연차에 연 1회 합산 지급으로 근사한다 -- 정확한 분기별 지급일을 쓰려면 엔진을 부분기간 할인 구조로 바꿔야 하며 이번 범위 밖이다. 보유기간이 정수가 아니므로(약 2.8356년), 매도 시점의 부분연도에는 연배당의 83.6%만 비례 배분했다(그 이후 -- 매도 이후 -- 배당은 포함하지 않음). 매도 이후 시점의 배당은 어떤 경우에도 포함하지 않는다.",
@@ -1588,9 +1588,9 @@ const INDEPENDENT_VALUATION_DATA = {
           "note": "향후 자사주매입 규모·시기에 대한 회사 공식 가이던스를 확보하지 못해 0으로 둔다(산출 보류가 아니라 '모델링하지 않음'을 명시적으로 선택 -- 매입액을 임의로 지어내지 않는다). 이 선택이 결과를 항상 보수적으로 만든다고 단정하지 않는다 -- 자사주매입이 주당가치에 미치는 방향은 매입가격과 내재가치의 관계에 따라 달라지며, 이번 범위에서는 그 방향을 예측하지 않는다."
         },
         "dataFreshnessAsOfThisCard": {
-          "checked_as_of_execution": "2026-09-28",
+          "checked_as_of_execution": "2026-09-29",
           "price_as_of": "2026-09-25",
-          "price_gap_days": 3,
+          "price_gap_days": 4,
           "price_stale": false,
           "price_stale_threshold_days": 7,
           "next_expected_earnings_date": "2026-11-19",
@@ -1605,7 +1605,7 @@ const INDEPENDENT_VALUATION_DATA = {
           "note": "다음 실적 발표 예상일 이전이고 확인된 미반영 공시도 없어, 현재 net_debt·가이던스·컨센서스 기준을 유효한 값으로 쓴다. 예정일 자체가 추정치이므로 실제 발표일이 다르면 이 판정도 같이 갱신해야 한다.",
           "net_debt_source_kind_used": "sec_xbrl_auto",
           "net_debt_selection_basis": "SEC XBRL 자동 수집 성공(기업어음: 이번 분기 SEC XBRL 조회 결과 CommercialPaper 개념 태그 자체가 없음(404, 태그 미보고 사실은 확인됨) -- 이것이 실제 잔액 0을 뜻하는지 다른 부채 항목에 이미 포함돼 있는지는 미확인. 계산에는 0으로 처리(검증 안 된 금액을 임의로 더하지 않음), 포함관계 확정 전까지는 이 net_debt를 확정값이 아닌 '기업어음 포함관계 미확인' 상태로 취급해야 함.) -- 채택 접수번호(accession): cash_and_equivalents=0001628280-26-058235, commercial_paper=None, long_term_debt_current=0001628280-26-058235, long_term_debt_noncurrent=0001628280-26-058235 + 단기투자자산 $2,196M 반영(2026-07-26 기준, 10-Q 본문 직접대조, 나머지 3개 구성요소와 동일 기준일 여부는 net_debt_source.short_term_investments.basis_date_status 참고)",
-          "net_debt_age_days": 64,
+          "net_debt_age_days": 65,
           "net_debt_max_age_days": 200,
           "net_debt_stale": false,
           "net_debt_collection_failure_reason": null,
@@ -1626,20 +1626,20 @@ const INDEPENDENT_VALUATION_DATA = {
         "scenarios": {
           "conservative": {
             "blocked": false,
-            "p3PerShare": 196.18189262158504,
+            "p3PerShare": 196.22442452029546,
             "purchasePriceUsed": 485.0,
             "scenarioAnnualizedReturn": {
               "status": "SUCCESS",
-              "rate": -0.6590315995297715,
+              "rate": -0.6589436350526283,
               "label": "시나리오 연환산 수익률 (보장 수익률 아님, 이 시나리오의 가정이 그대로 실현된다는 조건부 수치)"
             },
             "cashflowsByYear": {
-              "0.8328767123287671": 197.94759125172203
+              "0.8328767123287671": 197.99012315043245
             },
             "illustrativeRequiredReturnExamples": {
-              "0.08": 185.65743830313676,
-              "0.10": 182.84168622032612,
-              "0.12": 180.11823244527312
+              "0.08": 185.6973294849936,
+              "0.10": 182.8809723971833,
+              "0.12": 180.156933448755
             },
             "illustrativeExamplesNote": "시스템 기본값이 아니라 참고용 예시일 뿐이다 -- 실제 판정은 사용자가 직접 입력한 요구수익률 기준으로만 내려간다.",
             "judgment": {
@@ -1655,24 +1655,24 @@ const INDEPENDENT_VALUATION_DATA = {
             "holdingPeriodActualDays": 304,
             "holdingPeriodActualYears": 0.8328767123287671,
             "netDebtYear0": -2789000000.0,
-            "netDebtYear3": -8931756197.76462
+            "netDebtYear3": -8932335826.944103
           },
           "base": {
             "blocked": false,
-            "p3PerShare": 210.1299051477696,
+            "p3PerShare": 210.1756040362678,
             "purchasePriceUsed": 485.0,
             "scenarioAnnualizedReturn": {
               "status": "SUCCESS",
-              "rate": -0.6299847212260602,
+              "rate": -0.6298889065519233,
               "label": "시나리오 연환산 수익률 (보장 수익률 아님, 이 시나리오의 가정이 그대로 실현된다는 조건부 수치)"
             },
             "cashflowsByYear": {
-              "0.8328767123287671": 211.8956037779066
+              "0.8328767123287671": 211.9413026664048
             },
             "illustrativeRequiredReturnExamples": {
-              "0.08": 198.73944783230783,
-              "0.10": 195.72528896377517,
-              "0.12": 192.80993203330252
+              "0.08": 198.78230937216404,
+              "0.10": 195.7675004490404,
+              "0.12": 192.851514772294
             },
             "illustrativeExamplesNote": "시스템 기본값이 아니라 참고용 예시일 뿐이다 -- 실제 판정은 사용자가 직접 입력한 요구수익률 기준으로만 내려간다.",
             "judgment": {
@@ -1688,24 +1688,24 @@ const INDEPENDENT_VALUATION_DATA = {
             "holdingPeriodActualDays": 304,
             "holdingPeriodActualYears": 0.8328767123287671,
             "netDebtYear0": -2789000000.0,
-            "netDebtYear3": -9065881268.339603
+            "netDebtYear3": -9066491404.318003
           },
           "optimistic": {
             "blocked": false,
-            "p3PerShare": 223.15987345380447,
+            "p3PerShare": 223.2085322121268,
             "purchasePriceUsed": 485.0,
             "scenarioAnnualizedReturn": {
               "status": "SUCCESS",
-              "rate": -0.6025001466242202,
+              "rate": -0.602396897145991,
               "label": "시나리오 연환산 수익률 (보장 수익률 아님, 이 시나리오의 가정이 그대로 실현된다는 조건부 수치)"
             },
             "cashflowsByYear": {
-              "0.8328767123287671": 224.92557208394146
+              "0.8328767123287671": 224.9742308422638
             },
             "illustrativeRequiredReturnExamples": {
-              "0.08": 210.96041259157693,
-              "0.10": 207.76090587331964,
-              "0.12": 204.6662766609895
+              "0.08": 211.0060502291153,
+              "0.10": 207.80585135290232,
+              "0.12": 204.71055267105146
             },
             "illustrativeExamplesNote": "시스템 기본값이 아니라 참고용 예시일 뿐이다 -- 실제 판정은 사용자가 직접 입력한 요구수익률 기준으로만 내려간다.",
             "judgment": {
@@ -1721,7 +1721,7 @@ const INDEPENDENT_VALUATION_DATA = {
             "holdingPeriodActualDays": 304,
             "holdingPeriodActualYears": 0.8328767123287671,
             "netDebtYear0": -2789000000.0,
-            "netDebtYear3": -9200006338.914583
+            "netDebtYear3": -9200646981.691904
           }
         },
         "cashflowApproximationNote": "실제 AMAT 분기배당(연 4회 지급)을 이 계산에서는 매입일 이후부터 맞이하는 각 정수 연차에 연 1회 합산 지급으로 근사한다 -- 정확한 분기별 지급일을 쓰려면 엔진을 부분기간 할인 구조로 바꿔야 하며 이번 범위 밖이다. 보유기간이 정수가 아니므로(약 0.8329년), 매도 시점의 부분연도에는 연배당의 83.3%만 비례 배분했다(그 이후 -- 매도 이후 -- 배당은 포함하지 않음). 매도 이후 시점의 배당은 어떤 경우에도 포함하지 않는다.",
@@ -1763,9 +1763,9 @@ const INDEPENDENT_VALUATION_DATA = {
           "note": "향후 자사주매입 규모·시기에 대한 회사 공식 가이던스를 확보하지 못해 0으로 둔다(산출 보류가 아니라 '모델링하지 않음'을 명시적으로 선택 -- 매입액을 임의로 지어내지 않는다). 이 선택이 결과를 항상 보수적으로 만든다고 단정하지 않는다 -- 자사주매입이 주당가치에 미치는 방향은 매입가격과 내재가치의 관계에 따라 달라지며, 이번 범위에서는 그 방향을 예측하지 않는다."
         },
         "dataFreshnessAsOfThisCard": {
-          "checked_as_of_execution": "2026-09-28",
+          "checked_as_of_execution": "2026-09-29",
           "price_as_of": "2026-09-25",
-          "price_gap_days": 3,
+          "price_gap_days": 4,
           "price_stale": false,
           "price_stale_threshold_days": 7,
           "next_expected_earnings_date": "2026-11-19",
@@ -1780,7 +1780,7 @@ const INDEPENDENT_VALUATION_DATA = {
           "note": "다음 실적 발표 예상일 이전이고 확인된 미반영 공시도 없어, 현재 net_debt·가이던스·컨센서스 기준을 유효한 값으로 쓴다. 예정일 자체가 추정치이므로 실제 발표일이 다르면 이 판정도 같이 갱신해야 한다.",
           "net_debt_source_kind_used": "sec_xbrl_auto",
           "net_debt_selection_basis": "SEC XBRL 자동 수집 성공(기업어음: 이번 분기 SEC XBRL 조회 결과 CommercialPaper 개념 태그 자체가 없음(404, 태그 미보고 사실은 확인됨) -- 이것이 실제 잔액 0을 뜻하는지 다른 부채 항목에 이미 포함돼 있는지는 미확인. 계산에는 0으로 처리(검증 안 된 금액을 임의로 더하지 않음), 포함관계 확정 전까지는 이 net_debt를 확정값이 아닌 '기업어음 포함관계 미확인' 상태로 취급해야 함.) -- 채택 접수번호(accession): cash_and_equivalents=0001628280-26-058235, commercial_paper=None, long_term_debt_current=0001628280-26-058235, long_term_debt_noncurrent=0001628280-26-058235 + 단기투자자산 $2,196M 반영(2026-07-26 기준, 10-Q 본문 직접대조, 나머지 3개 구성요소와 동일 기준일 여부는 net_debt_source.short_term_investments.basis_date_status 참고)",
-          "net_debt_age_days": 64,
+          "net_debt_age_days": 65,
           "net_debt_max_age_days": 200,
           "net_debt_stale": false,
           "net_debt_collection_failure_reason": null,
@@ -1796,7 +1796,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "updateStatus": {
         "attemptStatus": "SUCCESS",
         "failureType": null,
-        "attemptedAt": "2026-09-28T00:00:58.065452",
+        "attemptedAt": "2026-09-29T00:08:19.672778",
         "dataAsOf": "2026-09-25",
         "holdPrice": false,
         "reason": ""
@@ -1861,7 +1861,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "snapshotDateClass": "ok",
       "priceStaleAfterDays": 7,
       "snapshotStaleAfterDays": 3,
-      "builtAt": "2026-09-28",
+      "builtAt": "2026-09-29",
       "isStaleReference": false,
       "staleReferenceNote": null,
       "conditionsForChange": [
@@ -2072,7 +2072,7 @@ const INDEPENDENT_VALUATION_DATA = {
           "note": "base_eps로 쓰는 FY2028 컨센서스는 그 자체로 이미 AI 슈퍼사이클 지속을 상당 부분 반영한 값이다 -- 이 사실을 감추지 않고, 그 이후(FY2029~FY2032) 성장은 이 컨센서스를 연장하지 않는다."
         }
       },
-      "as_of_execution": "2026-09-28",
+      "as_of_execution": "2026-09-29",
       "growth_rate_assumption": 0.14512326995765146,
       "exit_per_assumption": 21.0,
       "is_primary_recommended_assumption": true,
@@ -2084,7 +2084,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "target_fiscal_year": 2032,
       "annualized_dividend_per_share": 1.32,
       "dividend_source_note": "연배당 $1.32/주(분기 $0.33 x4, 2026-09-22 확인) -- model_assumption(확정 아님, 다음 확정 지급 이후 동일 금액 유지 가정).",
-      "estimates_fetched_at": "2026-09-28",
+      "estimates_fetched_at": "2026-09-29",
       "estimates_age_days": 0,
       "base_eps_fact": 11.73954,
       "base_eps_end_date": "2028-06-30",
@@ -2319,7 +2319,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "snapshotDateClass": "ok",
       "priceStaleAfterDays": 7,
       "snapshotStaleAfterDays": 3,
-      "builtAt": "2026-09-28",
+      "builtAt": "2026-09-29",
       "isStaleReference": false,
       "staleReferenceNote": null,
       "conditionsForChange": [
@@ -2570,7 +2570,7 @@ const INDEPENDENT_VALUATION_DATA = {
         "used_in_calculation": false,
         "reason": "target_eps는 회사가 발표한 2030 목표값을 그대로 쓴다 -- 그 목표 안에 회사 자신의 자사주매입 계획이 이미 내재돼 있다고 보고, 이 모듈이 추가로 주식수 감소를 적용하면 이중 반영이 된다. 이 관측값은 '회사의 실현 속도가 합리적 범위인지' 참고용으로만 남긴다(계산에 연결되지 않음)."
       },
-      "as_of_execution": "2026-09-28",
+      "as_of_execution": "2026-09-29",
       "growth_rate_assumption": 0.19524787250137576,
       "exit_per_assumption": 23.0,
       "is_primary_recommended_assumption": true,
@@ -2596,7 +2596,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "target_eps_reproduces_company_target": true,
       "target_price": 193.20000000000002,
       "consensus_cross_check": {
-        "estimates_fetched_at": "2026-09-28",
+        "estimates_fetched_at": "2026-09-29",
         "note": "참고용 -- 기준 경로 계산에는 쓰이지 않음(2026-09-22 정정)."
       },
       "comparison_price": 187.9199981689453,
@@ -2903,7 +2903,7 @@ const INDEPENDENT_VALUATION_DATA = {
           "relationship_to_this_module": "이 장기투자 시나리오 모듈은 그 검사 함수를 호출하지 않고 (상대가치 밴드와 완전히 별개 계산 경로), 독자적인 환전 설계(currency_and_fx_methodology)로 이 문제를 우회한다 -- 상대가치 모듈 자체는 이 작업으로 고쳐지지 않으며 여전히 JUDGMENT_WITHHELD 상태로 남는다."
         }
       },
-      "as_of_execution": "2026-09-28",
+      "as_of_execution": "2026-09-29",
       "currency_note": "재무 기준통화 EUR, 시세·매입가상한·목표가 표시통화 USD(환율은 currency_and_fx_methodology 참조) -- LRCX/KLAC/AMAT(모두 USD 단일통화)과 달리 이 필드가 반드시 필요한 첫 종목이다.",
       "gross_margin_assumption_pct": 58.0,
       "revenue_assumption_eur_m": 52000.0,
@@ -2932,7 +2932,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "annualized_dividend_per_share": 8.64048,
       "dividend_source_note": "연배당 €7.52/주(분기상당 €1.88 x4, 2026-09-22 확인)를 환율 1.149로 환전한 $8.64/주로 현금흐름에 반영 -- model_assumption(확정 아님, 다음 확정 지급 이후 동일 금액 유지 및 환율 고정 가정).",
       "consensus_cross_check": {
-        "estimates_fetched_at": "2026-09-28",
+        "estimates_fetched_at": "2026-09-29",
         "estimates_financial_currency": "EUR",
         "estimates_quote_currency": "USD",
         "note": "참고용 -- 기준 경로 계산(상향식 EUR 역산)에는 쓰이지 않음. 컨센서스 EPS도 EUR 기준(financialCurrency=EUR)이라 이 모듈의 target_eps_eur와 같은 통화다."

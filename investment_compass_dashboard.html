@@ -8559,30 +8559,41 @@ function tabFairValue(r){
   const x = FV.rows[r.ticker];
   const usd = (v) => (typeof v === 'number' && isFinite(v)) ? '$' + v.toFixed(v >= 100 ? 0 : 2) : '—';
   const pct = (v) => (typeof v === 'number' && isFinite(v)) ? (v >= 0 ? '+' : '') + (v * 100).toFixed(1) + '%' : '—';
-  const asof = `<div class="sub" style="margin-top:8px;">컨센서스 기준일 ${esc(FV.as_of_consensus_day || '')} · 생성 ${esc((FV.generated_at || '').slice(0, 16))} UTC</div>`;
+  const asof = `<div class="sub" style="margin-top:8px;">가격 기준 ${esc(FV.price_session_day || '')} 장마감 · 컨센서스 수집 ${esc(FV.consensus_fetched_day || FV.as_of_consensus_day || '')} · 생성 ${esc((FV.generated_at || '').slice(0, 16))} UTC</div>`;
   if(!x) return box(`${esc(r.ticker)}은 적정가 계산 대상 목록에 없어요.`) + asof;
+  // Fable 100 검증: 필수 필드가 없으면 예외 대신 자료부족으로 표시
+  if(x.status === 'ok' && (!x.q || !Array.isArray(x.band) || x.band.length !== 3 || !Array.isArray(x.band_1y) || typeof x.ntm_eps !== 'number' || typeof x.peer_median_pe !== 'number' || typeof x.today_q !== 'number')){
+    return box('적정가 자료 형식이 올바르지 않아 표시하지 않아요.') + asof;
+  }
   if(x.status !== 'ok'){
     const why = (x.reasons || [x.reason || '']).map(s => `<li>${esc(s)}</li>`).join('');
-    const ref = (typeof x.fwd_pe === 'number') ? `<div class="sub" style="margin-top:6px;">참고: 선행 PER ${x.fwd_pe.toFixed(1)}배 · 동종 중앙 ${x.peer_median_pe.toFixed(1)}배</div>` : '';
+    const ref = (typeof x.fwd_pe === 'number' && typeof x.peer_median_pe === 'number') ? `<div class="sub" style="margin-top:6px;">참고: 선행 PER ${x.fwd_pe.toFixed(1)}배 · 동종 중앙 ${x.peer_median_pe.toFixed(1)}배</div>` : '';
     return box(`<b>${x.status === '대상아님' ? '대상 아님' : '적정가를 내지 않았어요 (' + esc(x.status) + ')'}</b><ul style="margin:6px 0 0 18px;">${why}</ul>${ref}`) + asof;
   }
-  const color = x.label === '낮음' ? '#1a7f5a' : (x.label === '높음' ? '#b3261e' : '#626b76');
+  // [Codex L07-2] 신뢰 '낮음'은 방향 판정(낮음/중립/높음)을 숨기고 '판정 보류'로 표시한다.
+  const lowConf = x.confidence !== '보통';
+  const shownLabel = lowConf ? '판정 보류(신뢰 낮음)' : x.label;
+  const color = lowConf ? '#876000' : (x.label === '낮음' ? '#1a7f5a' : (x.label === '높음' ? '#b3261e' : '#626b76'));
   const q = x.q, d = x.display_only || {};
   const peers = Object.entries(x.peer_pe || {}).map(([k, v]) => `${esc(k)} ${v.toFixed(1)}배`).join(' · ');
   return `
   <div class="comment-box" style="background:var(--panel-2);">
-    <div class="sub">시장 기준 적정가 범위 (동종 선행 PER × 이 종목이 평소 받아온 상대 비율)</div>
+    <div class="sub">시장 기준 적정가 범위 — 상대가치 참고 범위(미검증) · 동종 선행 PER × 이 종목이 과거에 받아온 상대 비율</div>
+    <div class="sub" style="color:#876000;">확정 적정가나 예측 구간이 아니에요. 과거 비율은 후행(GAAP) PER로 잰 값을 선행 PER에 적용해 기준이 섞여 있어요.</div>
     <div style="font-size:26px;font-weight:800;margin:4px 0;">${usd(x.band[0])} ~ ${usd(x.band[2])} <span class="sub">(중앙 ${usd(x.band[1])})</span></div>
-    <div>현재가 <b>${usd(x.price)}</b> · 중앙 대비 <b>${pct(x.band_mid_gap)}</b> · 판정 <b style="color:${color};">${esc(x.label)}</b> · 신뢰 <b>${esc(x.confidence || '')}</b></div>
-    ${x.confidence === '낮음' ? '<div class="sub" style="margin-top:4px;color:#876000;">신뢰 낮음: 이 종목이 평소 받아온 상대 PER 비율이 들쭉날쭉해(상위/하위 ' + (q.p75 / q.p25).toFixed(2) + '배) 범위가 넓고 흔들릴 수 있어요.</div>' : ''}
-    <div class="sub" style="margin-top:4px;">1년 뒤 참고값(FY1 ${esc(x.fy1_end || '')} EPS 기준, 할인 전) ${usd(x.band_1y[0])} ~ ${usd(x.band_1y[2])} · 3년: 컨센서스 없음</div>
+    <div>현재가 <b>${usd(x.price)}</b> · 중앙 대비 <b>${pct(x.band_mid_gap)}</b> · 판정 <b style="color:${color};">${esc(shownLabel)}</b> · 과거 비율 분산 기준 신뢰 <b>${esc(x.confidence || '')}</b></div>
+    ${lowConf ? '<div class="sub" style="margin-top:4px;color:#876000;">신뢰 낮음이라 방향 판정을 하지 않아요. 사유: ' + ((x.caution && x.caution.length) ? x.caution.map(esc).join(' / ') : ('과거 상대 PER 비율이 들쭉날쭉함(상위/하위 ' + (q.p75 / q.p25).toFixed(2) + '배)')) + '</div>' : ''}
+    <div class="sub" style="margin-top:4px;">FY1(${esc(x.fy1_end || '')} 종료) EPS 기준 시나리오(할인 전) ${usd(x.band_1y[0])} ~ ${usd(x.band_1y[2])} · 3년: 컨센서스 없음</div>
   </div>
   <div class="comment-box" style="margin-top:10px;">
     <b>계산 근거</b>
     <ul style="margin:6px 0 0 18px;">
       <li>12개월 선행 EPS ${usd(x.ntm_eps)} × 동종 선행 PER 중앙 ${x.peer_median_pe.toFixed(1)}배 (${peers})</li>
       <li>동종 기준: ${esc(x.peer_basis || '')}</li>
-      <li>평소 상대 PER 비율 q: 하위 ${q.p25.toFixed(2)} / 중앙 ${q.median.toFixed(2)} / 상위 ${q.p75.toFixed(2)} (${esc(q.from)}~${esc(q.to)}, ${q.months}개월, 최근 36개월 중앙 ${q.recent36_median.toFixed(2)}) · 오늘 ${x.today_q.toFixed(2)}</li>
+      <li>과거 상대 PER 비율(후행 기준) 분포: 하위 ${q.p25.toFixed(2)} / 중앙 ${q.median.toFixed(2)} / 상위 ${q.p75.toFixed(2)} (${esc(q.from)}~${esc(q.to)}, 유효 ${q.months}개월, 동종 3개 이상인 달만)</li>
+      <li>최근 36개월(달력 기준, 유효 ${q.recent36_valid_months ?? '—'}개월) 중앙 ${typeof q.recent36_median === 'number' ? q.recent36_median.toFixed(2) : '—'} · 전체 대비 ${pct(q.drift_recent36_vs_all)}</li>
+      <li>비율 계산 EPS: ${esc(q.eps_basis || '')} · 선행 EPS / 최근 연간 GAAP EPS = ${typeof x.fwd_to_last_gaap_eps === 'number' ? x.fwd_to_last_gaap_eps.toFixed(2) + '배' : '—'}</li>
+      <li>오늘 상대 PER 비율(선행 기준, 정의가 달라 위 분포와 직접 비교는 참고만): ${x.today_q.toFixed(2)}</li>
       <li>EPS 정의: ${esc(x.methodology || '')} (동종도 같은 정의만 사용)</li>
     </ul>
   </div>
