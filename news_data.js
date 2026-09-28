@@ -2851,7 +2851,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "SPY": {
@@ -6225,7 +6225,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "MSFT": {
@@ -12526,7 +12526,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 143,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "GOOGL": {
@@ -19878,7 +19878,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 167,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "AMZN": {
@@ -26977,7 +26977,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 172,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "META": {
@@ -34575,7 +34575,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "AAPL": {
@@ -41624,7 +41624,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 170,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "TSLA": {
@@ -48735,7 +48735,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 172,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "ORCL": {
@@ -54904,11 +54904,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 142,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "CRM": {
-    "_last_attempt_at": 1790596841.5874462,
+    "_last_attempt_at": 1790619647.7157767,
     "nextEarnings": {
       "date": "2026-12-01",
       "hour": "amc",
@@ -54918,6 +54918,194 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
+        "headline": "Salesforce Is Cheap. ServiceNow Is Growing Faster. Here’s the Stock I’d Buy.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=fb1bee487322d2ba0215cd18d2ea10b6b27b1022d1b4d05c3caccafc9cfefdb0",
+        "datetime": 1790616624,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,715.00 −0.50% Dow Jones 51,655.00 −0.43% Nasdaq 100 30,405.20 −0.87% Russell 2000 2,829.89 −0.47% S&P 500 7,715.00 −0.50% 다우존스 51,655.00 −0.43% 나스닥 100 30,405.20 −0.87% 러셀 2000 2,829.89 −0.",
+            "두 거대 AI 소프트웨어 기업은 모두 올 여름 강력한 에이전트 예약을 보고했지만 평가 스펙트럼의 정반대 위치에 있습니다.",
+            "더 저렴한 제품을 구매하려는 주장은 보이는 것보다 강력하며 그에 반대하는 주장도 동일합니다… 작성자 Vandita Jadeja 2026년 9월 28일 오후 1시 30분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 이 이미지는 시장 동향과 기업 성과, r을 시각화합니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 24%, 10.8%, $3.877 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "CRM에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "24%",
+            "10.8%",
+            "$3.877",
+            "24.5%",
+            "$1",
+            "14%",
+            "13%",
+            "$1.5"
+          ],
+          "sourceExcerpt": [
+            "Skip to content ❚❚ At close S&P 500 7,715.00 −0.50% Dow Jones 51,655.00 −0.43% Nasdaq 100 30,405.20 −0.87% Russell 2000 2,829.89 −0.47% S&P 500 7,715.00 −0.50% Dow Jones 51,655.00 −0.43% Nasdaq 100 30,405.20 −0.87% Russell 2000 2,829.89 −0.",
+            "Two AI software giants both reported strong agentic bookings this summer, but they sit at opposite ends of the valuation spectrum.",
+            "The case for buying the cheaper one is stronger than it looks, and the case against it is equally… By Vandita Jadeja Published September 28, 2026, 1:30pm ET · 3 min read 𝕏 f ⧉ This image visualizes market trends and corporate performance, r"
+          ],
+          "analysisUpdatedAt": 1790619658.025561
+        },
+        "headlineKo": "세일즈포스는 저렴합니다. ServiceNow는 더 빠르게 성장하고 있습니다. 내가 사고 싶은 주식은 여기 있습니다."
+      },
+      {
+        "headline": "Is Salesforce (CRM) Cheap After AIforce And Koa Launches?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=bc56e2723ae45995f6bafa5f821aa5956b65af8b397601ef08cc341f6e8215b8",
+        "datetime": 1790611674,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Is Salesforce (CRM) Cheap After AIforce And Koa Launches?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Is Salesforce (CRM) Cheap After AIforce And Koa Launches?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790619659.6442075
+        },
+        "headlineKo": "AIforce와 Koa 출시 후 Salesforce(CRM)가 저렴합니까?"
+      },
+      {
+        "headline": "Why Salesforce, ServiceNow and Snowflake All Dropped 4% Within Minutes of a Meta Announcement Monday",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0c31012dfddd5de5c0f1a6a1ac9decccfe782586ed93a1e114e6291b90e77de5",
+        "datetime": 1790608451,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Salesforce, ServiceNow 및 Snowflake가 월요일 - 연중무휴 24시간 메타 발표 후 몇 분 만에 모두 4% 하락한 이유",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,715.00 −0.50% Dow Jones 51,655.00 −0.43% Nasdaq 100 30,405.20 −0.87% Russell 2000 2,829.89 −0.47% S&P 500 7,715.00 −0.50% 다우존스 51,655.00 −0.43% 나스닥 100 30,405.20 −0.87% 러셀 2000 2,829.89 −0.",
+            "작성자: Joel South 2026년 9월 28일 오전 11시 14분(동부 표준시) 게시 · 3분 읽기 𝕏 f ⧉ © dinero facebook( BY-SA 2.0 ) by clasesde periodismo 오늘 아침 오전 8시 36분(동부 표준시)에 Meta(NASDAQ:META | META Price Prediction)에서 “Meta가 엔터프라이즈 플랫폼을 출시합니다”를 게시했습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 4%, 4.23%, $224.13, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "CRM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "4%",
+            "4.23%",
+            "$224.13,",
+            "4.99%",
+            "$128.85",
+            "4.06%",
+            "$322.30.",
+            "20.9%"
+          ],
+          "sourceExcerpt": [
+            "Why Salesforce, ServiceNow and Snowflake All Dropped 4% Within Minutes of a Meta Announcement Monday - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,715.00 −0.50% Dow Jones 51,655.00 −0.43% Nasdaq 100 30,405.20 −0.87% Russell 2000 2,829.89 −0.47% S&P 500 7,715.00 −0.50% Dow Jones 51,655.00 −0.43% Nasdaq 100 30,405.20 −0.87% Russell 2000 2,829.89 −0.",
+            "By Joel South Published September 28, 2026, 11:14am ET · 3 min read 𝕏 f ⧉ © dinero facebook ( BY-SA 2.0 ) by clasesdeperiodismo At 8:36 AM ET this morning, Meta ( NASDAQ:META | META Price Prediction ) published “Meta launches enterprise pla"
+          ],
+          "analysisUpdatedAt": 1790619665.0550628
+        },
+        "headlineKo": "Salesforce, ServiceNow 및 Snowflake가 월요일 메타 발표 후 몇 분 만에 모두 4% 하락한 이유"
+      },
+      {
+        "headline": "Cowboy Clean Fuels Sells First Durable Carbon Removal Credits in Salesforce-Backed Purchase Through Milkywire",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6b8f718b477a76208d33777377bcd49eec647e9b2631a101dfa3dc7efee95cf8",
+        "datetime": 1790594100,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Cowboy Clean Fuels, Milkywire를 통한 Salesforce 지원 구매에서 최초의 내구성 있는 탄소 제거 크레딧 판매"
+      },
+      {
         "headline": "Oracle vs. Salesforce: Which Enterprise AI Stock Has More Room to Run?",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0ad228e5cee00579bb888434211ab0045679fddb600ae20cefccc7b78154a030",
@@ -54925,209 +55113,7 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "장기 공급계약 · 매출 가시성 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Salesforce: 어느 기업 AI 주식에 더 많은 투자 여지가 있나요?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool Enterprise에 참여 AI 주식은 Salesforce(CRM -1.76%) 및 Oracle(ORCL -1.7)과 같이 지난 한 해 동안 투자자들에게 큰 승리를 거두지 못했습니다.",
-            "Salesforce의 주가는 지난 12개월 동안 약 3% 하락한 반면 Oracle의 주가는 55% 하락한 반면, S&P 500의 주가는 16% 상승했습니다( ^GSPC +0.51% )."
-          ],
-          "why": [
-            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 121%, $7.4 billion, 30% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "CRM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "계약 기간·최소구매 조건",
-            "연도별 매출 인식",
-            "수주잔고·취소 조건"
-          ],
-          "interpretation": "CRM에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "121%",
-            "$7.4 billion",
-            "30%",
-            "$19.3 billion",
-            "$1.92.",
-            "235%",
-            "$28.5 billion",
-            "$165 billion"
-          ],
-          "sourceExcerpt": [
-            "Salesforce: Which Enterprise AI Stock Has More Room to Run?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Enterprise AI stocks haven't been big winners for investors over the past year, as Salesforce ( CRM -1.76% ) and Oracle ( ORCL -1.7",
-            "Salesforce's stock is down about 3% over the past 12 months, while Oracle's stock has cratered 55%, compared to the S&P 500 's ( ^GSPC +0.51% ) 16% gains."
-          ],
-          "analysisUpdatedAt": 1790596846.285037
-        },
         "headlineKo": "Oracle vs. Salesforce: 어느 기업 AI 주식에 더 많은 투자 여지가 있나요?"
-      },
-      {
-        "headline": "Salesforce vs. Palantir Technologies: What Revenue Trends Reveal to Investors About These Tech Giants",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5287b6c214906caf05e49bb7eb42b6ee9c77764999a1f05f298b26c35865d71f",
-        "datetime": 1790552106,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "장기 공급계약 · 매출 가시성 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Palantir Technologies: 거대 기술 기업에 대한 수익 추세가 투자자에게 알려주는 것 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool Salesforce에 합류: 꾸준한 수익 성장 유지",
-            "최근 Intercom으로 알려진 전문 고객 에이전트 플랫폼의 전략적 인수를 마무리했으며 동시에 엔터테인먼트 거대 기업인 Live Nation과 다년간의 자동 팬 지원 파트너십을 확대했습니다.",
-            "Palantir Technologies: 빠른 수익 가속화 경험 Palantir Technologies( PLTR -1.52% )는 주로 고객이 활용하는 고급 데이터 통합 ​​및 분석 소프트웨어 플랫폼을 엔지니어링하고 배포하여 수익을 창출합니다."
-          ],
-          "why": [
-            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 1.52%, $ 234.02, 1.76 % — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "CRM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "계약 기간·최소구매 조건",
-            "연도별 매출 인식",
-            "수주잔고·취소 조건"
-          ],
-          "interpretation": "CRM에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "1.52%",
-            "$ 234.02",
-            "1.76 %",
-            "$ 4.20",
-            "$ 189.67",
-            "1.52 %",
-            "$ 2.92",
-            "$193"
-          ],
-          "sourceExcerpt": [
-            "Palantir Technologies: What Revenue Trends Reveal to Investors About These Tech Giants | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Salesforce: Maintaining Steady Revenue Growt",
-            "It recently finalized the strategic acquisition of a specialized customer agent platform formerly known as Intercom, and it concurrently expanded a multiyear automated fan support partnership with entertainment giant Live Nation during the ",
-            "Palantir Technologies: Experiencing Rapid Revenue Acceleration Palantir Technologies ( PLTR -1.52% ) primarily generates its revenue by engineering and deploying highly advanced data integration and analytical software platforms utilized by"
-          ],
-          "analysisUpdatedAt": 1790596849.0619738
-        },
-        "headlineKo": "Salesforce 대 Palantir Technologies: 거대 기술 기업에 대해 투자자에게 드러나는 수익 추세"
-      },
-      {
-        "headline": "Salesforce Stock Is Down Nearly 12% in 2026. Time to Sell or Load Up?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=42441dbf9da54cf378169bec47533a0a9492c2ef648055fbdfa9ec2ae6ad7f2f",
-        "datetime": 1790426366,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Salesforce 주식은 2026년에 거의 12% 하락했습니다.",
-            "| TIKR.com 주식 리뷰 Salesforce 주식은 2026년에 거의 12% 하락했습니다.",
-            "Wiltone Asuncion • 6분 읽기 검토자: David Hanson 최종 업데이트 2026년 9월 26일 Canva를 통한 Getty Images의 @Blue Planet Studio, Canva를 통한 Sorapop Udomsri의 @Sorapop Udomsri Salesforce 주식에 대한 주요 통계 현재 가격: $234.02 Tar"
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 12%, $234.02, $450 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "CRM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "CRM에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "12%",
-            "$234.02",
-            "$450",
-            "$281",
-            "93%",
-            "16%",
-            "11.66%",
-            "$264.91"
-          ],
-          "sourceExcerpt": [
-            "Salesforce Stock Is Down Nearly 12% in 2026.",
-            "| TIKR.com Stock Reviews Salesforce Stock Is Down Nearly 12% in 2026.",
-            "Wiltone Asuncion • 6 minute read Reviewed by: David Hanson Last updated Sep 26, 2026 @Blue Planet Studio from Getty Images via Canva, @Sorapop Udomsri from Sorapop Udomsri via Canva K ey Stats for Salesforce Stock Current Price: $234.02 Tar"
-          ],
-          "analysisUpdatedAt": 1790596851.3678086
-        },
-        "headlineKo": "Salesforce 주식은 2026년에 거의 12% 하락했습니다. 판매할 시간인가요, 아니면 충전할 시간인가요?"
-      },
-      {
-        "headline": "What is Salesforce’s (CRM) Economic Moat, and is it Widening or Narrowing?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3a3171465471dfeb94e71868a1436d6d94c6ec6fcd1b096959c64e3557e7efd2",
-        "datetime": 1790392191,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Salesforce(CRM)의 경제적 해자는 무엇이며, 확대되나요, 아니면 축소되나요?"
-      },
-      {
-        "headline": "Here's How Much $100 Invested In Salesforce 15 Years Ago Would Be Worth Today",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=996d18107bcb6c344fd64cdbbe6c9ba81aeee58ad5259f0828004f84adc39026",
-        "datetime": 1790352927,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "15년 전 Salesforce에 투자한 100달러의 현재 가치는 다음과 같습니다."
       },
       {
         "headline": "Salesforce’s Marc Benioff to AI industry: Regulate yourselves or get sued",
@@ -55207,6 +55193,190 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Salesforce Is Cheap. ServiceNow Is Growing Faster. Here’s the Stock I’d Buy.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=fb1bee487322d2ba0215cd18d2ea10b6b27b1022d1b4d05c3caccafc9cfefdb0",
+        "datetime": 1790616624,
+        "headlineKo": "세일즈포스는 저렴합니다. ServiceNow는 더 빠르게 성장하고 있습니다. 내가 사고 싶은 주식은 여기 있습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,715.00 −0.50% Dow Jones 51,655.00 −0.43% Nasdaq 100 30,405.20 −0.87% Russell 2000 2,829.89 −0.47% S&P 500 7,715.00 −0.50% 다우존스 51,655.00 −0.43% 나스닥 100 30,405.20 −0.87% 러셀 2000 2,829.89 −0.",
+            "두 거대 AI 소프트웨어 기업은 모두 올 여름 강력한 에이전트 예약을 보고했지만 평가 스펙트럼의 정반대 위치에 있습니다.",
+            "더 저렴한 제품을 구매하려는 주장은 보이는 것보다 강력하며 그에 반대하는 주장도 동일합니다… 작성자 Vandita Jadeja 2026년 9월 28일 오후 1시 30분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 이 이미지는 시장 동향과 기업 성과, r을 시각화합니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 24%, 10.8%, $3.877 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "CRM에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "24%",
+            "10.8%",
+            "$3.877",
+            "24.5%",
+            "$1",
+            "14%",
+            "13%",
+            "$1.5"
+          ],
+          "sourceExcerpt": [
+            "Skip to content ❚❚ At close S&P 500 7,715.00 −0.50% Dow Jones 51,655.00 −0.43% Nasdaq 100 30,405.20 −0.87% Russell 2000 2,829.89 −0.47% S&P 500 7,715.00 −0.50% Dow Jones 51,655.00 −0.43% Nasdaq 100 30,405.20 −0.87% Russell 2000 2,829.89 −0.",
+            "Two AI software giants both reported strong agentic bookings this summer, but they sit at opposite ends of the valuation spectrum.",
+            "The case for buying the cheaper one is stronger than it looks, and the case against it is equally… By Vandita Jadeja Published September 28, 2026, 1:30pm ET · 3 min read 𝕏 f ⧉ This image visualizes market trends and corporate performance, r"
+          ],
+          "analysisUpdatedAt": 1790619658.025561
+        }
+      },
+      {
+        "headline": "Is Salesforce (CRM) Cheap After AIforce And Koa Launches?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=bc56e2723ae45995f6bafa5f821aa5956b65af8b397601ef08cc341f6e8215b8",
+        "datetime": 1790611674,
+        "headlineKo": "AIforce와 Koa 출시 후 Salesforce(CRM)가 저렴합니까?",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Is Salesforce (CRM) Cheap After AIforce And Koa Launches?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Is Salesforce (CRM) Cheap After AIforce And Koa Launches?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790619659.6442075
+        }
+      },
+      {
+        "headline": "Why Salesforce, ServiceNow and Snowflake All Dropped 4% Within Minutes of a Meta Announcement Monday",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0c31012dfddd5de5c0f1a6a1ac9decccfe782586ed93a1e114e6291b90e77de5",
+        "datetime": 1790608451,
+        "headlineKo": "Salesforce, ServiceNow 및 Snowflake가 월요일 메타 발표 후 몇 분 만에 모두 4% 하락한 이유",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Salesforce, ServiceNow 및 Snowflake가 월요일 - 연중무휴 24시간 메타 발표 후 몇 분 만에 모두 4% 하락한 이유",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,715.00 −0.50% Dow Jones 51,655.00 −0.43% Nasdaq 100 30,405.20 −0.87% Russell 2000 2,829.89 −0.47% S&P 500 7,715.00 −0.50% 다우존스 51,655.00 −0.43% 나스닥 100 30,405.20 −0.87% 러셀 2000 2,829.89 −0.",
+            "작성자: Joel South 2026년 9월 28일 오전 11시 14분(동부 표준시) 게시 · 3분 읽기 𝕏 f ⧉ © dinero facebook( BY-SA 2.0 ) by clasesde periodismo 오늘 아침 오전 8시 36분(동부 표준시)에 Meta(NASDAQ:META | META Price Prediction)에서 “Meta가 엔터프라이즈 플랫폼을 출시합니다”를 게시했습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 4%, 4.23%, $224.13, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "CRM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "4%",
+            "4.23%",
+            "$224.13,",
+            "4.99%",
+            "$128.85",
+            "4.06%",
+            "$322.30.",
+            "20.9%"
+          ],
+          "sourceExcerpt": [
+            "Why Salesforce, ServiceNow and Snowflake All Dropped 4% Within Minutes of a Meta Announcement Monday - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,715.00 −0.50% Dow Jones 51,655.00 −0.43% Nasdaq 100 30,405.20 −0.87% Russell 2000 2,829.89 −0.47% S&P 500 7,715.00 −0.50% Dow Jones 51,655.00 −0.43% Nasdaq 100 30,405.20 −0.87% Russell 2000 2,829.89 −0.",
+            "By Joel South Published September 28, 2026, 11:14am ET · 3 min read 𝕏 f ⧉ © dinero facebook ( BY-SA 2.0 ) by clasesdeperiodismo At 8:36 AM ET this morning, Meta ( NASDAQ:META | META Price Prediction ) published “Meta launches enterprise pla"
+          ],
+          "analysisUpdatedAt": 1790619665.0550628
+        }
+      },
+      {
+        "headline": "Cowboy Clean Fuels Sells First Durable Carbon Removal Credits in Salesforce-Backed Purchase Through Milkywire",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6b8f718b477a76208d33777377bcd49eec647e9b2631a101dfa3dc7efee95cf8",
+        "datetime": 1790594100,
+        "headlineKo": "Cowboy Clean Fuels, Milkywire를 통한 Salesforce 지원 구매에서 최초의 내구성 있는 탄소 제거 크레딧 판매",
+        "relevance": 0.5,
+        "keywordFlag": false
+      },
       {
         "headline": "Oracle vs. Salesforce: Which Enterprise AI Stock Has More Room to Run?",
         "source": "Yahoo",
@@ -59067,15 +59237,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790596841.5874462,
-    "_updated_label": "2026-09-28 21:00",
-    "_last_success_at": 1790596841.5874462,
+    "_fetched_at": 1790619647.7157767,
+    "_updated_label": "2026-09-29 03:21",
+    "_last_success_at": 1790619647.7157767,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 94,
+      "checked": 98,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "PLTR": {
@@ -64900,7 +65070,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "NVDA": {
@@ -72716,7 +72886,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "AMD": {
@@ -78959,7 +79129,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 149,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "AVGO": {
@@ -83063,7 +83233,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "QCOM": {
@@ -86900,7 +87070,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "ARM": {
@@ -89959,7 +90129,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "MRVL": {
@@ -93718,11 +93888,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "INTC": {
-    "_last_attempt_at": 1790596841.5874462,
+    "_last_attempt_at": 1790619647.7157767,
     "nextEarnings": {
       "date": "2026-10-22",
       "hour": "amc",
@@ -93732,143 +93902,11 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Computer Vision Global Market Report 2026: Secure Your Share of a $37.1 Billion Market Growing 15.9% Annually by 2030—Benchmark Microsoft, Sony, Intel, Texas Instruments and MediaTek as AI, Edge Visio",
+        "headline": "Intel Stock Falls Over 4.8% as OpenShell Preserves an x86 Route",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=466e72eda9d3ce0ac7473abf0a66463f4e2fd5eac2e75107f4d5905d61948025",
-        "datetime": 1790587680,
+        "url": "https://finnhub.io/api/news?id=46aaf2f5cfcd6cca3c965244886fd04c2dd2d01b97d2478c6b872a9e8c4844d1",
+        "datetime": 1790613881,
         "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 INTC의 사업과 관련된 'Computer Vision Global Market Report 2026: Secure Your Share of a $37.1 Billion Market Growing 15.9% Annually by 2030—Benchmark Microsoft, Sony, Intel, Texas Instruments and MediaTek as AI, Edge Visio' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: INTC에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
-          "relevance": 0.5,
-          "quality": "high",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790596857.4811778
-        },
-        "headlineKo": "2026년 컴퓨터 비전 글로벌 시장 보고서: 2030년까지 매년 15.9% 성장하는 371억 달러 시장 점유율 확보—Microsoft, Sony, Intel, Texas Instruments 및 MediaTek을 AI, Edge Visio로 벤치마킹"
-      },
-      {
-        "headline": "INTC, AMD, AVGO: Chip Stocks Lead Slide As Tech Gets Hammered Amid Renewed U.S.-Iran Tensions",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f0962506e75fdbd8c68f04e26ab77822fa6dfca9adfe3e913a6fa0130704283f",
-        "datetime": 1790586499,
-        "relevance": 0.75,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "INTC, AMD, AVGO: 미국-이란 긴장이 다시 고조되는 가운데 기술이 타격을 입으면서 칩 주가 하락세를 주도 AI 에이전트 동향 뉴스 수익 전체 DIA 0.58% SPY 0.46% QQQ 0.81% 추세 NVDA 1.25% QNT 44.26% KOD 61.95% HBAR 23.96% AMPX 12.92% SPCX 0.76% TTD",
-            "INTC, AMD, AVGO: 미국-이란 긴장이 다시 고조되는 가운데 기술이 타격을 입으면서 칩 주가 하락세를 주도합니다. 오일 쇼크로 인해 AI 거래는 새로운 거시적 테스트를 받게 되었습니다.",
-            "트레이더들이 뉴욕 증권 거래소(NYSE)의 폐장 시간 전에 일하고 있습니다. (사진 출처는 JOHANNES EISELE/AFP via Getty Images) Yuvraj Malik · Stocktwits 게시일: 2026년 9월 28일 | 오전 5:08 EDT 공유 · 브렌트유 상승에 우리를 추가하세요"
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.58%, 0.46%, 0.81% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "INTC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "INTC에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.75,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.58%",
-            "0.46%",
-            "0.81%",
-            "1.25%",
-            "44.26%",
-            "61.95%",
-            "23.96%",
-            "12.92%"
-          ],
-          "sourceExcerpt": [
-            "INTC, AMD, AVGO: Chip Stocks Lead Slide As Tech Gets Hammered Amid Renewed U.S.-Iran Tensions AI Agent Trending News Earnings All DIA 0.58% SPY 0.46% QQQ 0.81% Trending NVDA 1.25% QNT 44.26% KOD 61.95% HBAR 23.96% AMPX 12.92% SPCX 0.76% TTD",
-            "INTC, AMD, AVGO: Chip Stocks Lead Slide As Tech Gets Hammered Amid Renewed U.S.-Iran Tensions Oil shock has put the AI trade under a fresh macro test.",
-            "Traders work before the closing bell at the New York Stock Exchange (NYSE) (Photo credit should read JOHANNES EISELE/AFP via Getty Images) Yuvraj Malik · Stocktwits Published Sep 28, 2026 | 5:08 AM EDT Share · Add us on Brent crude climbed "
-          ],
-          "analysisUpdatedAt": 1790596861.1181622
-        },
-        "headlineKo": "INTC, AMD, AVGO: 미국-이란 긴장이 다시 고조되는 가운데 기술이 타격을 입으면서 칩 주식이 하락세를 주도"
-      },
-      {
-        "headline": "Why is Intel Corporation (INTC) up over 33%? Is the Rally Sustainable?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=626d2cb5db65df084e68031af541445da66445e6f01f1c661340149731540e82",
-        "datetime": 1790546242,
-        "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
@@ -93879,7 +93917,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Why is Intel Corporation (INTC) up over 33%? Is the Rally Sustainable?",
+            "Intel Stock Falls Over 4.8% as OpenShell Preserves an x86 Route",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -93903,35 +93941,149 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 INTC의 사업과 관련된 'Why is Intel Corporation (INTC) up over 33%? Is the Rally Sustainable?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel Stock Falls Over 4.8% as OpenShell Preserves an x86 Route' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
+          "relevance": 0.5,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790596863.1184616
+          "analysisUpdatedAt": 1790619673.5780284
         },
-        "headlineKo": "Intel Corporation(INTC)이 33% 이상 상승한 이유는 무엇입니까? 집회는 지속 가능한가?"
+        "headlineKo": "OpenShell이 ​​x86 경로를 유지함에 따라 Intel 주가는 4.8% 이상 하락합니다."
       },
       {
-        "headline": "History Says Intel's Best Years Have Been Hard to Follow. 2026 Is Its Best in More Than 4 Decades.",
+        "headline": "Intel Shares Tumble 5% as Fresh AI Risks Rattle Chip Stocks",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5aadfe09f010c16eecb25f80d7df3b4fe03773e679a318f78e8fa2303ff4d4fe",
-        "datetime": 1790537461,
+        "url": "https://finnhub.io/api/news?id=8a60308f43ba2421f6b218d4f98dd69775a0bc6e289c2dcd2d388a41583c2591",
+        "datetime": 1790613331,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "역사에 따르면 인텔의 최고의 해는 따라가기가 어려웠습니다. 2026년은 40년 만에 최고입니다."
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Intel Shares Tumble 5% as Fresh AI Risks Rattle Chip Stocks",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel Shares Tumble 5% as Fresh AI Risks Rattle Chip Stocks' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790619675.8546321
+        },
+        "headlineKo": "인텔 주가는 새로운 AI가 칩 주식을 위협하면서 5% 하락했습니다."
       },
       {
-        "headline": "Intel Stock Surged Over 40% in September. History Shows What's Next.",
+        "headline": "Intel Drops 4% on Oil-Driven Rate Fears, NVIDIA Rises 3% on Record $150B Buyback; Taiwan Semiconductor Slips",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9c2acbe7c1302ba70321ca68993297c3a065e28198000a66445d8f64c244c479",
-        "datetime": 1790527920,
+        "url": "https://finnhub.io/api/news?id=c137c0bee7bc7b4e2bab604d0f52aebd7876e01950616f18bd02213909f5b5bc",
+        "datetime": 1790606000,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "인텔 주식은 9월에 40% 이상 급등했습니다. 역사는 다음을 보여줍니다."
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "공급망 · 생산 차질 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Intel은 석유로 인한 환율 우려로 4% 하락하고 NVIDIA는 기록적인 1,500억 달러 자사주 매입으로 3% 상승합니다. 대만 반도체 전표 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,715.00 −0.50% Dow Jones 51,655.00 −0.43% Nasdaq 100 30,405.20 −0.87% Russell 2000 2,829.89 −0.47% S&P 500 7,715.00 −0.50% 다우존스 51,655.00 −0.43% 나스닥 100 30,405.20 −0.87% 러셀 2000 2,829.89 −0.",
+            "작성자 David Moadel 2026년 9월 28일 오전 10시 33분(ET) 게시 · 4분 읽기 Market Movers 데스크."
+          ],
+          "why": [
+            "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 4%, 3%, $150 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "주문은 있어도 부품이나 생산 문제로 제때 팔지 못할 수 있다는 뉴스입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "출하 지연 기간",
+            "재고와 리드타임",
+            "매출총이익률·대체 공급처"
+          ],
+          "interpretation": "INTC에 대한 공급망 · 생산 차질 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "4%",
+            "3%",
+            "$150",
+            "$117.98,",
+            "221%",
+            "$231.90,",
+            "$446.37,",
+            "0.9%"
+          ],
+          "sourceExcerpt": [
+            "Intel Drops 4% on Oil-Driven Rate Fears, NVIDIA Rises 3% on Record $150B Buyback; Taiwan Semiconductor Slips - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,715.00 −0.50% Dow Jones 51,655.00 −0.43% Nasdaq 100 30,405.20 −0.87% Russell 2000 2,829.89 −0.47% S&P 500 7,715.00 −0.50% Dow Jones 51,655.00 −0.43% Nasdaq 100 30,405.20 −0.87% Russell 2000 2,829.89 −0.",
+            "By David Moadel Published September 28, 2026, 10:33am ET · 4 min read Market Movers desk."
+          ],
+          "analysisUpdatedAt": 1790619680.1885889
+        },
+        "headlineKo": "Intel은 석유로 인한 환율 우려로 4% 하락하고 NVIDIA는 기록적인 1,500억 달러 자사주 매입으로 3% 상승합니다. 대만 반도체 전표"
+      },
+      {
+        "headline": "Bet on These ETFs as Intel Stock Jumps Nearly 40% in a Month",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c58073226f89f30d7ef4689c377f4e13abf2a13e24d267a63d5d5109cac76370",
+        "datetime": 1790603880,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "인텔 주식이 한 달 만에 거의 40% 상승하므로 이 ETF에 투자하세요"
+      },
+      {
+        "headline": "SKHY Likely to Gain From a Potential Intel Partnership: Worth a Buy?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8edece9a2392b198f2b5e891047de03b6cd7d2e9cae3c610edd9ed520a41ea47",
+        "datetime": 1790602860,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "SKHY는 잠재적인 인텔 파트너십을 통해 이익을 얻을 가능성이 높습니다: 구매할 가치가 있나요?"
       },
       {
         "headline": "Intel: No Bad Products, Just Bad Prices (Rating Downgrade)",
@@ -93995,6 +94147,185 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Intel Stock Falls Over 4.8% as OpenShell Preserves an x86 Route",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=46aaf2f5cfcd6cca3c965244886fd04c2dd2d01b97d2478c6b872a9e8c4844d1",
+        "datetime": 1790613881,
+        "headlineKo": "OpenShell이 ​​x86 경로를 유지함에 따라 Intel 주가는 4.8% 이상 하락합니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Intel Stock Falls Over 4.8% as OpenShell Preserves an x86 Route",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel Stock Falls Over 4.8% as OpenShell Preserves an x86 Route' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790619673.5780284
+        }
+      },
+      {
+        "headline": "Intel Shares Tumble 5% as Fresh AI Risks Rattle Chip Stocks",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8a60308f43ba2421f6b218d4f98dd69775a0bc6e289c2dcd2d388a41583c2591",
+        "datetime": 1790613331,
+        "headlineKo": "인텔 주가는 새로운 AI가 칩 주식을 위협하면서 5% 하락했습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Intel Shares Tumble 5% as Fresh AI Risks Rattle Chip Stocks",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel Shares Tumble 5% as Fresh AI Risks Rattle Chip Stocks' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790619675.8546321
+        }
+      },
+      {
+        "headline": "Intel Drops 4% on Oil-Driven Rate Fears, NVIDIA Rises 3% on Record $150B Buyback; Taiwan Semiconductor Slips",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c137c0bee7bc7b4e2bab604d0f52aebd7876e01950616f18bd02213909f5b5bc",
+        "datetime": 1790606000,
+        "headlineKo": "Intel은 석유로 인한 환율 우려로 4% 하락하고 NVIDIA는 기록적인 1,500억 달러 자사주 매입으로 3% 상승합니다. 대만 반도체 전표",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "공급망 · 생산 차질 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Intel은 석유로 인한 환율 우려로 4% 하락하고 NVIDIA는 기록적인 1,500억 달러 자사주 매입으로 3% 상승합니다. 대만 반도체 전표 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,715.00 −0.50% Dow Jones 51,655.00 −0.43% Nasdaq 100 30,405.20 −0.87% Russell 2000 2,829.89 −0.47% S&P 500 7,715.00 −0.50% 다우존스 51,655.00 −0.43% 나스닥 100 30,405.20 −0.87% 러셀 2000 2,829.89 −0.",
+            "작성자 David Moadel 2026년 9월 28일 오전 10시 33분(ET) 게시 · 4분 읽기 Market Movers 데스크."
+          ],
+          "why": [
+            "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 4%, 3%, $150 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "주문은 있어도 부품이나 생산 문제로 제때 팔지 못할 수 있다는 뉴스입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "출하 지연 기간",
+            "재고와 리드타임",
+            "매출총이익률·대체 공급처"
+          ],
+          "interpretation": "INTC에 대한 공급망 · 생산 차질 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "4%",
+            "3%",
+            "$150",
+            "$117.98,",
+            "221%",
+            "$231.90,",
+            "$446.37,",
+            "0.9%"
+          ],
+          "sourceExcerpt": [
+            "Intel Drops 4% on Oil-Driven Rate Fears, NVIDIA Rises 3% on Record $150B Buyback; Taiwan Semiconductor Slips - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,715.00 −0.50% Dow Jones 51,655.00 −0.43% Nasdaq 100 30,405.20 −0.87% Russell 2000 2,829.89 −0.47% S&P 500 7,715.00 −0.50% Dow Jones 51,655.00 −0.43% Nasdaq 100 30,405.20 −0.87% Russell 2000 2,829.89 −0.",
+            "By David Moadel Published September 28, 2026, 10:33am ET · 4 min read Market Movers desk."
+          ],
+          "analysisUpdatedAt": 1790619680.1885889
+        }
+      },
+      {
+        "headline": "Bet on These ETFs as Intel Stock Jumps Nearly 40% in a Month",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c58073226f89f30d7ef4689c377f4e13abf2a13e24d267a63d5d5109cac76370",
+        "datetime": 1790603880,
+        "headlineKo": "인텔 주식이 한 달 만에 거의 40% 상승하므로 이 ETF에 투자하세요",
+        "relevance": 0.5,
+        "keywordFlag": false
+      },
+      {
+        "headline": "SKHY Likely to Gain From a Potential Intel Partnership: Worth a Buy?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8edece9a2392b198f2b5e891047de03b6cd7d2e9cae3c610edd9ed520a41ea47",
+        "datetime": 1790602860,
+        "headlineKo": "SKHY는 잠재적인 인텔 파트너십을 통해 이익을 얻을 가능성이 높습니다: 구매할 가치가 있나요?",
+        "relevance": 0.5,
+        "keywordFlag": false
+      },
       {
         "headline": "Computer Vision Global Market Report 2026: Secure Your Share of a $37.1 Billion Market Growing 15.9% Annually by 2030—Benchmark Microsoft, Sony, Intel, Texas Instruments and MediaTek as AI, Edge Visio",
         "source": "Yahoo",
@@ -99097,15 +99428,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790596841.5874462,
-    "_updated_label": "2026-09-28 21:01",
-    "_last_success_at": 1790596841.5874462,
+    "_fetched_at": 1790619647.7157767,
+    "_updated_label": "2026-09-29 03:21",
+    "_last_success_at": 1790619647.7157767,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 128,
+      "checked": 133,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "TSM": {
@@ -102222,7 +102553,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "ASML": {
@@ -104344,7 +104675,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "AMAT": {
@@ -106725,7 +107056,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "LRCX": {
@@ -107982,11 +108313,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1790596841.5874462,
+    "_last_attempt_at": 1790619647.7157767,
     "nextEarnings": {
       "date": "2026-10-27",
       "hour": "",
@@ -108059,7 +108390,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790596868.750141
+          "analysisUpdatedAt": 1790619695.6136067
         },
         "headlineKo": "KLA(NASDAQ:KLAC)는 강력한 성장 기반과 건설적인 기술 설정을 결합합니다."
       },
@@ -108109,7 +108440,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790596870.8869774
+          "analysisUpdatedAt": 1790619697.8564284
         },
         "headlineKo": "Teradyne, AI 테스트 포트폴리오 강화: KLAC & COHU를 이길 수 있을까요?"
       },
@@ -108159,7 +108490,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790596873.1172268
+          "analysisUpdatedAt": 1790619700.1987724
         },
         "headlineKo": "Zacks 분석가 블로그에서는 Applied Materials, Lam Research 및 KLA를 강조합니다."
       },
@@ -108249,7 +108580,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790596868.750141
+          "analysisUpdatedAt": 1790619695.6136067
         }
       },
       {
@@ -108298,7 +108629,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790596870.8869774
+          "analysisUpdatedAt": 1790619697.8564284
         }
       },
       {
@@ -108347,7 +108678,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790596873.1172268
+          "analysisUpdatedAt": 1790619700.1987724
         }
       },
       {
@@ -109141,15 +109472,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790596841.5874462,
-    "_updated_label": "2026-09-28 21:01",
-    "_last_success_at": 1790596841.5874462,
+    "_fetched_at": 1790619647.7157767,
+    "_updated_label": "2026-09-29 03:21",
+    "_last_success_at": 1790619647.7157767,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "MU": {
@@ -116216,11 +116547,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 170,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "SNDK": {
-    "_last_attempt_at": 1790596841.5874462,
+    "_last_attempt_at": 1790619647.7157767,
     "nextEarnings": {
       "date": "2026-11-04",
       "hour": "",
@@ -116230,138 +116561,10 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Should You Buy Sandisk Stock After Its $14 Billion Buyback Announcement?",
+        "headline": "SanDisk's 600% Rally Is Heading Into a Big Memory Test",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7e40290596dfa02e73f8d42f0feec08e68ca67e49c6fbd5f28bd35c1f7b8aba8",
-        "datetime": 1790562000,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "주식 희석 · 주당가치 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "140억 달러 규모의 자사주 매입 발표 후 Sandisk 주식을 구매해야 합니까?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool Sandisk에 참여하세요( SNDK +1.38% )는 S&P 500에서 가장 인기 있는 주식이었으며 140억 달러 규모의 자사주 매입으로 랠리가 연장될 수 있습니다.",
-            "자사주 매입은 발행 주식 수를 줄여 인위적으로 주가를 높이지만, 이를 통해 제공할 수 있는 몇 가지 미묘한 신호가 있습니다."
-          ],
-          "why": [
-            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $14 Billion, $14 billion, $15.5 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "SNDK의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "SNDK",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "신규 주식 수·행사가격",
-            "조달 자금 사용처",
-            "완전희석 주식수와 EPS"
-          ],
-          "interpretation": "SNDK에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$14 Billion",
-            "$14 billion",
-            "$15.5 billion",
-            "1.38 %",
-            "$ 24.18",
-            "$ 1,777.80",
-            "$260",
-            "$ 1742.59"
-          ],
-          "sourceExcerpt": [
-            "Should You Buy Sandisk Stock After Its $14 Billion Buyback Announcement?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Sandisk ( SNDK +1.38% ) has been the hottest stock in the S&P 500 , and its $14 billion buyback can extend the rally.",
-            "Buybacks artificially increase stock prices by reducing the number of shares outstanding, but there are a few subtle signals they can provide."
-          ],
-          "analysisUpdatedAt": 1790596879.3312838
-        },
-        "headlineKo": "140억 달러 규모의 자사주 매입 발표 후 Sandisk 주식을 구매해야 합니까?"
-      },
-      {
-        "headline": "Down 23%, Should You Buy the Dip on Sandisk Stock?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3a67b38439d2132bef008015bd045c3cb902edb70788424e64df4cee018c4150",
-        "datetime": 1790502300,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "장기 공급계약 · 매출 가시성 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "23% 하락, Sandisk 주식 하락세를 매수해야 할까요?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Sandisk( SNDK +1.38% )는 메모리 및 스토리지 산업이 순환적일 수 있음에도 불구하고 최근 주가 하락 이후 매수 가치가 있어 보입니다.",
-            "매출이 전년 대비 372% 급증한 회계 4분기 보고서에도 불구하고 주가는 2026년 6월 최고치인 2,354달러보다 23% 하락했습니다."
-          ],
-          "why": [
-            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 23%, $2,354,, 372% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "SNDK의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "SNDK",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "계약 기간·최소구매 조건",
-            "연도별 매출 인식",
-            "수주잔고·취소 조건"
-          ],
-          "interpretation": "SNDK에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "23%",
-            "$2,354,",
-            "372%",
-            "1,600%",
-            "12%",
-            "38%",
-            "68%",
-            "$39.25"
-          ],
-          "sourceExcerpt": [
-            "Down 23%, Should You Buy the Dip on Sandisk Stock?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Sandisk ( SNDK +1.38% ) looks worth buying after its recent pullback, even though the memory and storage industry can be cyclical.",
-            "The stock is down 23% from its June 2026 high of $2,354, despite a fiscal fourth-quarter report that showed revenue surging 372% year over year."
-          ],
-          "analysisUpdatedAt": 1790596881.6771264
-        },
-        "headlineKo": "23% 하락, Sandisk 주식 하락세를 매수해야 할까요?"
-      },
-      {
-        "headline": "Sandisk: The Market Still Doubts This Boom",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=0926cfbb94d2716e21b1298c8dab584fcb5a653c28728daacf6b944e1151c1a1",
-        "datetime": 1790497561,
+        "url": "https://finnhub.io/api/news?id=2d6b87042aadc3edc8be84e8d477afaebeb36a8131d11a0db9c9cce8fcb16701",
+        "datetime": 1790606827,
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
@@ -116373,7 +116576,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Sandisk: The Market Still Doubts This Boom",
+            "SanDisk's 600% Rally Is Heading Into a Big Memory Test",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -116397,38 +116600,339 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 SNDK의 사업과 관련된 'Sandisk: The Market Still Doubts This Boom' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 SNDK의 사업과 관련된 'SanDisk's 600% Rally Is Heading Into a Big Memory Test' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "SNDK 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.67,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790596882.6627119
+          "analysisUpdatedAt": 1790619707.6369388
         },
-        "headlineKo": "Sandisk: 시장은 여전히 ​​이러한 호황을 의심하고 있습니다."
+        "headlineKo": "SanDisk의 600% 랠리가 대규모 메모리 테스트로 향하고 있습니다."
       },
       {
-        "headline": "Will SanDisk (SNDK) Ride the Next Wave of AI-Driven NAND Demand?",
+        "headline": "PENG vs. SNDK: Which AI Data Center Infrastructure Provider Is Better?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a75acb5ee0f36c06c14112274f91e2943fca74f61c6dc91a2f875745d0c4506f",
-        "datetime": 1790497519,
-        "relevance": 1,
+        "url": "https://finnhub.io/api/news?id=460d000774db1c990e593ccb6ed017b3c15c96f4db748d5f460911b1ea33c973",
+        "datetime": 1790606280,
+        "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "SanDisk(SNDK)가 AI 기반 NAND 수요의 차세대 물결을 탈 것인가?"
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "PENG vs. SNDK: Which AI Data Center Infrastructure Provider Is Better?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "SNDK",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 SNDK의 사업과 관련된 'PENG vs. SNDK: Which AI Data Center Infrastructure Provider Is Better?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "SNDK 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790619710.2398622
+        },
+        "headlineKo": "PENG 대 SNDK: 어느 AI 데이터 센터 인프라 제공업체가 더 낫습니까?"
       },
       {
-        "headline": "Sandisk: $94B In Contracts Reinforces Outlook",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=11e1f7ba8080a7948619b3f506bb9ac7af120dbc6ad68c262bf345388c53584e",
-        "datetime": 1790357884,
+        "headline": "Retail Investors Think These 2 Stocks Could Be The Next NVIDIA And Sandisk",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a9db4ee7029044d78b8904947ea6744c90168a8b9f20f63d282b6bfbcf8ffbd1",
+        "datetime": 1790600907,
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Sandisk: 940억 달러 규모의 계약으로 전망 강화"
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 SNDK의 사업과 관련된 'Retail Investors Think These 2 Stocks Could Be The Next NVIDIA And Sandisk' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: SNDK에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.67,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790619712.4563487
+        },
+        "headlineKo": "소매 투자자들은 이 두 주식이 차세대 NVIDIA와 Sandisk가 될 수 있다고 생각합니다."
+      },
+      {
+        "headline": "Why Sandisk, Marvell and Other AI Stocks Are Falling",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5d7755432803415153fea2845b41d4630817128c486eaf300877095f4e4cb9a9",
+        "datetime": 1790598480,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Sandisk, Marvell 및 기타 AI 주식이 하락하는 이유"
+      },
+      {
+        "headline": "Sandisk, Marvell and Other AI Stocks Fall. OpenAI Just Reignited Safety Fears.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=dafb57d370c01ca365a2ab28488f62dc34226673b44d934580ca54d9d70ab05b",
+        "datetime": 1790591880,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Sandisk, Marvell 및 기타 AI 주식 하락. OpenAI가 안전에 대한 두려움을 다시 불러일으켰습니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "SanDisk's 600% Rally Is Heading Into a Big Memory Test",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2d6b87042aadc3edc8be84e8d477afaebeb36a8131d11a0db9c9cce8fcb16701",
+        "datetime": 1790606827,
+        "headlineKo": "SanDisk의 600% 랠리가 대규모 메모리 테스트로 향하고 있습니다.",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "SanDisk's 600% Rally Is Heading Into a Big Memory Test",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "SNDK",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 SNDK의 사업과 관련된 'SanDisk's 600% Rally Is Heading Into a Big Memory Test' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "SNDK 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790619707.6369388
+        }
+      },
+      {
+        "headline": "PENG vs. SNDK: Which AI Data Center Infrastructure Provider Is Better?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=460d000774db1c990e593ccb6ed017b3c15c96f4db748d5f460911b1ea33c973",
+        "datetime": 1790606280,
+        "headlineKo": "PENG 대 SNDK: 어느 AI 데이터 센터 인프라 제공업체가 더 낫습니까?",
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "PENG vs. SNDK: Which AI Data Center Infrastructure Provider Is Better?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "SNDK",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 SNDK의 사업과 관련된 'PENG vs. SNDK: Which AI Data Center Infrastructure Provider Is Better?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "SNDK 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790619710.2398622
+        }
+      },
+      {
+        "headline": "Retail Investors Think These 2 Stocks Could Be The Next NVIDIA And Sandisk",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a9db4ee7029044d78b8904947ea6744c90168a8b9f20f63d282b6bfbcf8ffbd1",
+        "datetime": 1790600907,
+        "headlineKo": "소매 투자자들은 이 두 주식이 차세대 NVIDIA와 Sandisk가 될 수 있다고 생각합니다.",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 SNDK의 사업과 관련된 'Retail Investors Think These 2 Stocks Could Be The Next NVIDIA And Sandisk' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: SNDK에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.67,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790619712.4563487
+        }
+      },
+      {
+        "headline": "Why Sandisk, Marvell and Other AI Stocks Are Falling",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5d7755432803415153fea2845b41d4630817128c486eaf300877095f4e4cb9a9",
+        "datetime": 1790598480,
+        "headlineKo": "Sandisk, Marvell 및 기타 AI 주식이 하락하는 이유",
+        "relevance": 0.67,
+        "keywordFlag": false
+      },
+      {
+        "headline": "Sandisk, Marvell and Other AI Stocks Fall. OpenAI Just Reignited Safety Fears.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=dafb57d370c01ca365a2ab28488f62dc34226673b44d934580ca54d9d70ab05b",
+        "datetime": 1790591880,
+        "headlineKo": "Sandisk, Marvell 및 기타 AI 주식 하락. OpenAI가 안전에 대한 두려움을 다시 불러일으켰습니다.",
+        "relevance": 0.67,
+        "keywordFlag": false
+      },
       {
         "headline": "Should You Buy Sandisk Stock After Its $14 Billion Buyback Announcement?",
         "source": "Yahoo",
@@ -119987,15 +120491,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790596841.5874462,
-    "_updated_label": "2026-09-28 21:01",
-    "_last_success_at": 1790596841.5874462,
+    "_fetched_at": 1790619647.7157767,
+    "_updated_label": "2026-09-29 03:21",
+    "_last_success_at": 1790619647.7157767,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 86,
+      "checked": 91,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "WDC": {
@@ -121809,7 +122313,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "ANET": {
@@ -123648,7 +124152,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "COHR": {
@@ -125336,7 +125840,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "LITE": {
@@ -127028,7 +127532,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "GEV": {
@@ -130141,7 +130645,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "CEG": {
@@ -131615,7 +132119,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "VST": {
@@ -133230,7 +133734,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "ETN": {
@@ -134982,7 +135486,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "PWR": {
@@ -136835,7 +137339,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "HUBB": {
@@ -137467,11 +137971,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "VRT": {
-    "_last_attempt_at": 1790596841.5874462,
+    "_last_attempt_at": 1790619647.7157767,
     "nextEarnings": {
       "date": "2026-10-20",
       "hour": "",
@@ -137480,6 +137984,120 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "What Did Vertiv Say Before Its Stock Took Off?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=280573b7b086b0342bf0e9f389fd3c0842156abba4ba1c796b8382632095a4e3",
+        "datetime": 1790612514,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Vertiv는 주식이 폭락하기 전에 무엇을 말했습니까?",
+            "| Trefis Vertiv는 주식이 폭락하기 전에 무엇을 말했습니까?",
+            "2026년 9월 28일 · Trefis Team VRT YTD +56.4% SPY YTD +13.7% XLI YTD +10.4% VRT 분석 → Vertiv(VRT) 주식은 2025년 9월 24일에 시작된 12개월 동안 79% 수익률을 기록했습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 56.4%, 13.7%, 10.4% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "VRT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "VRT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "VRT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "56.4%",
+            "13.7%",
+            "10.4%",
+            "79%",
+            "$10,000",
+            "$17,900",
+            "37%",
+            "19.0%"
+          ],
+          "sourceExcerpt": [
+            "What Did Vertiv Say Before Its Stock Took Off?",
+            "| Trefis What Did Vertiv Say Before Its Stock Took Off?",
+            "September 28th, 2026 · by Trefis Team VRT YTD +56.4% SPY YTD +13.7% XLI YTD +10.4% Analyze VRT → Vertiv (VRT) stock returned 79% in the twelve months that began on September 24, 2025."
+          ],
+          "analysisUpdatedAt": 1790619724.2722647
+        },
+        "headlineKo": "Vertiv는 주식이 폭락하기 전에 무엇을 말했습니까?"
+      },
+      {
+        "headline": "Do Options Traders Know Something About Vertiv Stock We Don't?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e58d4e4bf161ffe6f43a74189619fea695689167c92d13b36d91735a55616d7b",
+        "datetime": 1790601960,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Do Options Traders Know Something About Vertiv Stock We Don't?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "VRT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 VRT의 사업과 관련된 'Do Options Traders Know Something About Vertiv Stock We Don't?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "VRT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790619726.8443785
+        },
+        "headlineKo": "옵션 거래자는 Vertiv 주식에 대해 우리가 모르는 사실을 알고 있습니까?"
+      },
       {
         "headline": "How Much Further Could Vertiv Stock Fall?",
         "source": "Yahoo",
@@ -137540,7 +138158,7 @@ const NEWS_DATA = {
             "| Trefis How Much Further Could Vertiv Stock Fall?",
             "September 25th, 2026 · by Trefis Team VRT YTD +56.4% SPY YTD +13.7% XLI YTD +10.4% Analyze VRT → Vertiv (VRT) stock has lost about a quarter of its value over the past three months and now trades near $245."
           ],
-          "analysisUpdatedAt": 1790596889.4363167
+          "analysisUpdatedAt": 1790619731.5812585
         },
         "headlineKo": "Vertiv 주식은 얼마나 더 하락할 수 있나요?"
       },
@@ -137552,46 +138170,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "How to Play VRT Stock as Vertiv Acquires King Environmental Services",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "VRT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 VRT의 사업과 관련된 'How to Play VRT Stock as Vertiv Acquires King Environmental Services' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "VRT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790596890.6232648
-        },
         "headlineKo": "Vertiv가 King Environmental Services를 인수함에 따라 VRT 주식을 플레이하는 방법"
       },
       {
@@ -137602,15 +138180,28 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "Vertiv 외 6개 AI 산업주 지금 매수 가능"
+      },
+      {
+        "headline": "Vertiv Holdings Co (VRT) Shares Drop Into Securities Probe After Q2 Miss",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4602276d9632be28e8f784576ab98ba39aa43c13511810df51063bc1d1eb0691",
+        "datetime": 1790345561,
+        "headlineKo": "Vertiv Holdings Co(VRT) 주식이 2분기 부진 이후 증권 조사에 진입했습니다.",
+        "relevance": 1,
+        "keywordFlag": true,
+        "flagTerms": [
+          "probe"
+        ],
         "analysis": {
           "version": 9,
           "importance": "low",
-          "tone": "neutral",
+          "tone": "risk",
           "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Vertiv and 6 More AI Industrial Stocks to Buy Now",
+            "Vertiv Holdings Co (VRT) Shares Drop Into Securities Probe After Q2 Miss",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -137634,40 +138225,129 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 VRT의 사업과 관련된 'Vertiv and 6 More AI Industrial Stocks to Buy Now' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 VRT의 사업과 관련된 'Vertiv Holdings Co (VRT) Shares Drop Into Securities Probe After Q2 Miss' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "VRT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790373652.355018
+        }
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "What Did Vertiv Say Before Its Stock Took Off?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=280573b7b086b0342bf0e9f389fd3c0842156abba4ba1c796b8382632095a4e3",
+        "datetime": 1790612514,
+        "headlineKo": "Vertiv는 주식이 폭락하기 전에 무엇을 말했습니까?",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Vertiv는 주식이 폭락하기 전에 무엇을 말했습니까?",
+            "| Trefis Vertiv는 주식이 폭락하기 전에 무엇을 말했습니까?",
+            "2026년 9월 28일 · Trefis Team VRT YTD +56.4% SPY YTD +13.7% XLI YTD +10.4% VRT 분석 → Vertiv(VRT) 주식은 2025년 9월 24일에 시작된 12개월 동안 79% 수익률을 기록했습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 56.4%, 13.7%, 10.4% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "VRT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "VRT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "VRT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "56.4%",
+            "13.7%",
+            "10.4%",
+            "79%",
+            "$10,000",
+            "$17,900",
+            "37%",
+            "19.0%"
+          ],
+          "sourceExcerpt": [
+            "What Did Vertiv Say Before Its Stock Took Off?",
+            "| Trefis What Did Vertiv Say Before Its Stock Took Off?",
+            "September 28th, 2026 · by Trefis Team VRT YTD +56.4% SPY YTD +13.7% XLI YTD +10.4% Analyze VRT → Vertiv (VRT) stock returned 79% in the twelve months that began on September 24, 2025."
+          ],
+          "analysisUpdatedAt": 1790619724.2722647
+        }
+      },
+      {
+        "headline": "Do Options Traders Know Something About Vertiv Stock We Don't?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e58d4e4bf161ffe6f43a74189619fea695689167c92d13b36d91735a55616d7b",
+        "datetime": 1790601960,
+        "headlineKo": "옵션 거래자는 Vertiv 주식에 대해 우리가 모르는 사실을 알고 있습니까?",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Do Options Traders Know Something About Vertiv Stock We Don't?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "VRT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 VRT의 사업과 관련된 'Do Options Traders Know Something About Vertiv Stock We Don't?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "VRT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.67,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790596892.6447723
-        },
-        "headlineKo": "Vertiv 외 6개 AI 산업주 지금 매수 가능"
+          "analysisUpdatedAt": 1790619726.8443785
+        }
       },
-      {
-        "headline": "Vertiv Holdings Co (VRT) Shares Drop Into Securities Probe After Q2 Miss",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4602276d9632be28e8f784576ab98ba39aa43c13511810df51063bc1d1eb0691",
-        "datetime": 1790345561,
-        "relevance": 1,
-        "keywordFlag": true,
-        "flagTerms": [
-          "probe"
-        ],
-        "headlineKo": "Vertiv Holdings Co(VRT) 주식이 2분기 부진 이후 증권 조사에 진입했습니다."
-      },
-      {
-        "headline": "Why Vertiv Holdings Co (VRT) Is Back In The Spotlight",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=410ca22f92b264025a9563b12baeb2f1136816ca92171f956de5860db4917e85",
-        "datetime": 1790341882,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Vertiv Holdings Co(VRT)가 다시 주목받는 이유"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "How Much Further Could Vertiv Stock Fall?",
         "source": "Yahoo",
@@ -137728,7 +138408,7 @@ const NEWS_DATA = {
             "| Trefis How Much Further Could Vertiv Stock Fall?",
             "September 25th, 2026 · by Trefis Team VRT YTD +56.4% SPY YTD +13.7% XLI YTD +10.4% Analyze VRT → Vertiv (VRT) stock has lost about a quarter of its value over the past three months and now trades near $245."
           ],
-          "analysisUpdatedAt": 1790596889.4363167
+          "analysisUpdatedAt": 1790619731.5812585
         }
       },
       {
@@ -139435,19 +140115,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790596841.5874462,
-    "_updated_label": "2026-09-28 21:01",
-    "_last_success_at": 1790596841.5874462,
+    "_fetched_at": 1790619647.7157767,
+    "_updated_label": "2026-09-29 03:22",
+    "_last_success_at": 1790619647.7157767,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 40,
+      "checked": 43,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "MOD": {
-    "_last_attempt_at": 1790596841.5874462,
+    "_last_attempt_at": 1790619647.7157767,
     "nextEarnings": {
       "date": "2026-10-26",
       "hour": "",
@@ -139502,7 +140182,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790596898.502076
+          "analysisUpdatedAt": 1790619739.1015964
         },
         "headlineKo": "시장 하락으로 모딘(MOD) 상승: 주요 사실"
       },
@@ -139552,7 +140232,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790596900.7407894
+          "analysisUpdatedAt": 1790619741.3854854
         },
         "headlineKo": "Modine(MOD)은 더 넓은 시장보다 더 하락합니다: 알아야 할 사항"
       },
@@ -139602,7 +140282,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790596902.8563788
+          "analysisUpdatedAt": 1790619743.936266
         },
         "headlineKo": "월스트리트 상승세는 Modine(MOD)에 대해 낙관적입니다. 매수해야 할까요?"
       }
@@ -139654,7 +140334,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790596898.502076
+          "analysisUpdatedAt": 1790619739.1015964
         }
       },
       {
@@ -139703,7 +140383,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790596900.7407894
+          "analysisUpdatedAt": 1790619741.3854854
         }
       },
       {
@@ -139752,7 +140432,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790596902.8563788
+          "analysisUpdatedAt": 1790619743.936266
         }
       },
       {
@@ -140117,15 +140797,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790596841.5874462,
-    "_updated_label": "2026-09-28 21:01",
-    "_last_success_at": 1790596841.5874462,
+    "_fetched_at": 1790619647.7157767,
+    "_updated_label": "2026-09-29 03:22",
+    "_last_success_at": 1790619647.7157767,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "STX": {
@@ -141591,7 +142271,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "EME": {
@@ -142594,7 +143274,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "FIX": {
@@ -143350,7 +144030,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   },
   "BE": {
@@ -144809,7 +145489,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-29 03:00"
+      "updated": "2026-09-29 03:22"
     }
   }
 };
