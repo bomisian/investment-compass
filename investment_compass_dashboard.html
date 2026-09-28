@@ -399,7 +399,7 @@
       <div style="margin-top:6px;padding:8px;background:var(--warn-bg);color:#876000;border-radius:8px;"><b>2026-09-29 재검증</b>: 이 점수는 "가격이 많이 빠졌다"는 사실을 정확히 보여주지만, "지금 가격에 모아가도 좋다"는 뜻으로는 믿기 어려워요. <b>S&P500 전체(약 500종목)</b>로 넓히면 4점 이상에서 1년 뒤 SPY보다 더 오른 비율(SPY 초과 승률)이 53%(처음 4점 진입일만 보면 49%), 2023~26년 45%였고, 산 뒤 1년 안에 평균 -17%(10번 중 1번은 -39% 이상)까지 더 빠졌어요. <b>워치리스트 36종목</b>에서는 SPY 초과수익 중앙 +29%·SPY 초과 승률 75%로 좋았지만 산 뒤 평균 -18%(10번 중 1번 -42% 이상)까지 빠졌고, "4점 이상일 때만 사기"가 매달 적립식보다 최종금액이 나은 종목은 36개 중 9개뿐이었어요. <b>"큰 폭 조정(가격 기준)"</b>으로 읽고, 07 적정가 탭의 종합 판단과 함께 보세요. (아래 +63%·78%는 워치리스트 우량주 기준 수치 — 생존편향 포함)</div>
       <div style="margin-top:8px;padding:10px;background:var(--panel-2);border-radius:8px;">
       <b>왜 이렇게 바꿨나 (중요)</b><br>
-      원래 9지표(밸류에이션·부채·EPS성장·RSI·VIX·F&G 포함) 합산 점수를 <b>대형주 13종목 15년치(2011~2026) 실데이터로 검증</b>했더니, 점수와 12개월 후 실제 초과수익률의 상관이 <b>-0.06(사실상 0, 오히려 약간 역방향)</b>이었어요 — 즉 그 점수가 높다고 더 오르지 않았어요. 지표를 하나씩 뜯어보니 <b>미래수익률 예측력이 있었던 건 "52주 하락 깊이"와 "200일선 아래" 두 개뿐</b>이고, PER괴리·부채비율·EPS성장·RSI·VIX·F&G는 예측력이 없거나(flat) 오히려 반대였어요(예: 부채 많은 종목이 더 올랐고, 시장 조정기가 오히려 매수 적기였음). 그래서 검증된 2개(+시장조정 소폭)만 점수에 넣고, 나머지는 <b>점수에서 빼고 '참고 지표'로만</b> 남겼어요. 개편 점수는 상관 <b>+0.14</b>(시기 분할해도 견고), 점수 구간별 12개월 초과수익이 단조 증가(0점 +20% → ≥4점 +63%, 승률 66→78%).<br>
+      원래 9지표(밸류에이션·부채·EPS성장·RSI·VIX·F&G 포함) 합산 점수를 <b>대형주 13종목 15년치(2011~2026) 실데이터로 검증</b>했더니, 점수와 12개월 후 실제 초과수익률의 상관이 <b>-0.06(사실상 0, 오히려 약간 역방향)</b>이었어요 — 즉 그 점수가 높다고 더 오르지 않았어요. 지표를 하나씩 뜯어보니 <b>미래수익률 예측력이 있었던 건 "52주 하락 깊이"와 "200일선 아래" 두 개뿐</b>이고, PER괴리·부채비율·EPS성장·RSI·VIX·F&G는 예측력이 없거나(flat) 오히려 반대였어요(예: 부채 많은 종목이 더 올랐고, 시장 조정기가 오히려 매수 적기였음). 그래서 검증된 2개(+시장조정 소폭)만 점수에 넣고, 나머지는 <b>점수에서 빼고 '참고 지표'로만</b> 남겼어요. 개편 점수는 상관 <b>+0.14</b>(시기 분할해도 견고), 점수 구간별 12개월 초과수익이 단조 증가(0점 +20% → ≥4점 +63%, SPY 초과 승률 66→78% — 워치리스트 우량주 13종목 기준).<br>
       <b>⚠️ 꼭 기억할 것</b>: ① <b>생존편향</b> — 검증 표본이 "지금까지 살아남은 우량 대형주"라, 이 점수는 <b>이미 고른 우량주를 '언제' 살지(타이밍)</b>에만 유효하고 <b>'어떤' 종목을 살지는 판단 못 해요</b>. 실적으로 진짜 무너지는 회사엔 "눌림목"이 함정이에요 — 종목 선택은 02~05 탭(밸류에이션·실적)으로 직접 보세요. ② <b>6~12개월 관점</b>이에요(3개월 안쪽은 예측력 거의 0 — 그건 단기판단이 담당). ③ 참고 지표(PER·부채·EPS 등)는 점수엔 안 들어가지만, 어떤 우량주를 고를지 볼 때는 여전히 의미 있어요.
       </div>
     </div>
@@ -4066,7 +4066,7 @@ function tabJudgement(r){
   // (지표가 바뀌면 설명도 따라 바뀌어야 신뢰할 수 있는 정보임 - 사용자 요청)
   const bannerStyle = {
     // 2026-09-29 102 재검증: 워치리스트에선 재현되나 S&P500 전체로 넓히면 우위가 거의 사라짐 -> 수치를 정직하게 교체
-    '강한 매수기회': {bg:'var(--up-bg)', color:'#a8322c', stat:'워치리스트 기준 12개월 SPY대비 초과수익 중앙 +29%·SPY 초과 승률 75%(단 S&P500 전체로 넓히면 SPY 초과 승률 53%, 2023~26년 45%로 우위가 거의 사라져요. 산 뒤 평균 -17~-18%까지 더 빠졌어요)'},
+    '강한 매수기회': {bg:'var(--up-bg)', color:'#a8322c', stat:'워치리스트 기준 12개월 SPY대비 초과수익 중앙 +29%·SPY 초과 승률 75%(단 S&P500 전체로 넓히면 SPY 초과 승률 53%, 2023~26년 45%로 우위가 거의 사라져요. 산 뒤 평균 최대낙폭은 S&P -17%·워치리스트 -18%)'},
     '매수 관심':     {bg:'#fdf1ee',      color:'#b8543f', stat:'12개월 초과수익 평균 +32%'},
   }[r.verdict.label] || {bg:'var(--panel-2)', color:'#626b76', stat:null};
   const bannerBg = bannerStyle.bg, bannerColor = bannerStyle.color;
@@ -7621,7 +7621,7 @@ function renderUsageWarning(){
     아무 날이나 사는 것보다 이 자리에서 사는 게 통계적으로 유리했다(승률 ${SIGNAL_STATS.ciLow}~${SIGNAL_STATS.ciHigh}%,
     n=${SIGNAL_STATS.n})는 뜻이지, <b>팔았다 샀다를 반복하라는 뜻이 아니에요.</b>
     <span class="sub" style="display:block;margin-top:6px;">※ 거래비용 왕복 0.2%를 반영해도 승률 ${A.costWinRate}%로 유지돼요(10일 보유라 회전율이 낮아서). 비용 문제가 아니라 <b>시장에 없는 기간</b>이 문제예요.</span>
-    <span style="display:block;margin-top:8px;">📌 <b>신호가 한동안 안 뜨는 급등 종목</b>(2026-09-29 재검증, 103번): 이 신호는 "잠깐 쉴 때" 뜨는 구조라 쉬지 않고 오르는 종목(최근 CRM·MSFT·ANET·AAPL은 3개월간 RSI가 38 아래로 한 번도 안 내려옴)은 원래 못 잡아요. 대안 규칙 29가지를 2015~21년에 고르고 2022~26년에 확인했지만, 기존 신호에 보태는 추가 효과가 검출되지 않아(발생 당시 최근 10거래일에 기존 신호가 없던 새 신호만 보면 10일 승률 54%, 무작위 대비 초과 +0.6%p·95% 구간 -0.9~+2.1%p) 매수 신호로 추가하지 않았어요.
+    <span style="display:block;margin-top:8px;">📌 <b>신호가 한동안 안 뜨는 급등 종목</b>(2026-09-29 재검증, 103번): 이 신호는 "잠깐 쉴 때" 뜨는 구조라 쉬지 않고 오르는 종목(최근 CRM·MSFT·ANET·AAPL은 3개월간 RSI가 38 아래로 한 번도 안 내려옴)은 원래 못 잡아요. 대안 규칙 29가지를 2015~21년에 고르고 2022~26년에 확인했지만, 기존 신호에 보태는 추가 효과가 검출되지 않아(발생 당일 포함 최근 10거래일에 기존 신호가 없던 새 신호만 보면 10일 승률 54%, 무작위 대비 초과 +0.6%p·95% 구간 -0.9~+2.1%p) 매수 신호로 추가하지 않았어요.
     해당 표본 관찰값: <b>어차피 살 종목을 신호까지 기다리면 오늘 사는 것보다 평균 약 6% 비싸게 샀어요</b>(2022~26년 워치리스트, 신호가 40거래일 안에 없으면 40일째에 산다고 가정 — 대부분 상승장이던 기간이라 기다림 비용이 컸어요. 하락장에선 반대일 수 있고, 다른 매수 방식이 더 낫다는 검증은 하지 않았어요).</span>
   </div>`;
 }
@@ -8587,7 +8587,7 @@ function marketFairCellHtml(ticker){
     const rng = src ? `<span class="sub" style="font-size:10px;">${tag}</span> ${same ? f1(src.band[1]) : f1(src.band[0]) + '~' + f1(src.band[2])} · ${fairPosText(src.price, src.band)}<br>` : '';
     const why = src ? '' : `<br><span class="sub" style="font-size:10px;">${esc(cb.basis || '')}</span>`;
     const c = FAIR_JUDGE_COLOR[cb.judgment] || '#626b76';
-    return `<span title="${esc(cb.basis || '')} · 확실성 ${esc(cb.confidence || '—')} · 참고용(예측력 미검증) · 07 적정가 탭에서 근거 확인">${rng}<span style="font-size:11px;color:${c};font-weight:700;">${esc(cb.judgment)}</span><span class="sub" style="font-size:10px;"> (참고)</span>${why}</span>`;
+    return `<span title="${esc(cb.basis || '')} · 확실성 ${esc(cb.confidence || '—')} · 참고용(예측력 미검증) · 07 적정가 탭에서 근거 확인">${rng}<span style="font-size:11px;color:${c};font-weight:700;">${esc(cb.judgment)}</span><span class="sub" style="font-size:10px;"> ${(cb.basis || '').includes('단독') ? '(' + tag + ' 단독·미검증)' : '(참고)'}</span>${why}</span>`;
   }
   const x = marketFairRow(ticker);
   if(!x) return '<span class="sub">-</span>';
@@ -8620,7 +8620,7 @@ const FAIR_JUDGE_COLOR = {'싸다':'#1a7f5a', '적정':'#626b76', '비싸다':'#
 function fairAltAgeDays(){
   const A = (typeof window !== 'undefined') ? window.FAIR_VALUE_ALT : null;
   const g = A && A.generated_at ? Date.parse(A.generated_at) : NaN;
-  return isFinite(g) ? Math.floor((Date.now() - g) / 86400000) : null;
+  return isFinite(g) ? (Date.now() - g) / 86400000 : null;   // 소수 일수(72시간 초과 판정용), 표시는 Math.floor
 }
 function fairMethodLines(cb){
   const b = (cb && cb.by_method) || {};
@@ -8652,11 +8652,11 @@ function fairValueAltBox(r){
   const m = A.market_mood || {};
   // 83 검증: 명목금리는 할인율에서 상쇄돼 판정엔 영향 없음. 오래된 금리는 '장기 기준' 참고값·자기과거 확인에만 영향 -> 그 부분만 경고
   const rateStale = (typeof m.rate_stale_days === 'number' && m.rate_stale_days > 10);
-  const staleRate = rateStale ? ` <b style="color:#876000;">(금리 자료가 ${m.rate_stale_days}일 전 값 — 아래 '장기 기준' 참고값·자기과거 확인은 믿지 마세요)</b>` : '';
-  const mood = `<div class="sub" style="margin-top:6px;">시장 분위기: 오늘 S&P 500 종목 가격이 가정하는 요구수익률 중앙 ${pc(m.discount_rate_k, 2)} = 10년 국채 ${typeof m.nominal_10y === 'number' ? m.nominal_10y.toFixed(2) + '%' : '—'} + 위험프리미엄 ${pc(m.erp_market_median, 2)} (장기 기준 ${pc(m.erp_long_run_reference, 0)}) — ${esc(m.note || '')}${staleRate}. 가격·EPS·성장 입력이 같으면 금리만 바뀌어도 이 범위·판정은 같아요(할인율을 시장 가격에서 거꾸로 구하기 때문). 금리 영향은 아래 '장기 기준' 참고값에만 들어가요.</div>`;
+  const staleRate = rateStale ? ` <b style="color:#876000;">(금리 자료가 ${m.rate_stale_days}일 전 값 — 아래 고정 ERP 참고값은 숨겼고, 자기 과거(실질금리) 교차확인도 믿지 마세요)</b>` : '';
+  const mood = `<div class="sub" style="margin-top:6px;">시장 분위기: 오늘 S&P 500 종목 가격이 가정하는 요구수익률 중앙 ${pc(m.discount_rate_k, 2)} = 10년 국채 ${typeof m.nominal_10y === 'number' ? m.nominal_10y.toFixed(2) + '%' : '—'} + 위험프리미엄 ${pc(m.erp_market_median, 2)} (장기 기준 ${pc(m.erp_long_run_reference, 0)}) — ${esc(m.note || '')}${staleRate}. 가격·EPS·성장 입력이 같으면 금리만 바뀌어도 이 범위·판정은 같아요(할인율을 시장 가격에서 거꾸로 구하기 때문). 금리 영향은 아래 '고정 ERP 5% 참고값'과 '자기 과거(실질금리) 교차확인'에만 들어가요.</div>`;
   const head = `<b>② 성장률 방법</b> <span class="sub">— 오늘 가격이 "앞으로 몇 % 성장"을 가정하는지 거꾸로 계산해 애널리스트 기대와 비교 (할인율은 오늘 S&P 500 가격에서 역산)</span>`;
   const age = fairAltAgeDays();
-  const asof2 = `<div class="sub" style="margin-top:6px;">② 기준: 컨센서스 수집 ${esc(A.as_of_consensus_day || '')} · 명목금리 ${esc(m.rate_date || '')} · 실질금리 ${esc(m.real_rate_date || '')} · 생성 ${esc((A.generated_at || '').slice(0, 16))} UTC${(age != null && age > 3) ? ` <b style="color:#b3261e;">(자료가 ${age}일째 갱신되지 않았어요)</b>` : ''}</div>`;
+  const asof2 = `<div class="sub" style="margin-top:6px;">② 기준: 컨센서스 수집 ${esc(A.as_of_consensus_day || '')} · 명목금리 ${esc(m.rate_date || '')} · 실질금리 ${esc(m.real_rate_date || '')} · 생성 ${esc((A.generated_at || '').slice(0, 16))} UTC${(age != null && age > 3) ? ` <b style="color:#b3261e;">(자료가 ${Math.floor(age)}일 넘게 갱신되지 않았어요)</b>` : ''}</div>`;
   if(x.status !== 'ok'){
     const why = (x.reasons || []).map(s => `<li>${esc(s)}</li>`).join('');
     const ref = Array.isArray(x.reference_band) ? `<div class="sub" style="margin-top:4px;">참고 범위(판정 안 함) ${usd(x.reference_band[0])} ~ ${usd(x.reference_band[2])}</div>` : '';
@@ -8680,7 +8680,7 @@ function fairValueAltBox(r){
     <ul style="margin:6px 0 0 18px;">
       <li>오늘 가격이 가정하는 성장률 <b>${pc(i.implied_growth)}</b> vs 애널리스트 기대(내년 매출) 낮음 ${pc(g[0], 0)} / 평균 ${pc(g[1], 0)} / 높음 ${pc(g[2], 0)} — 2년차부터 10년차에 3%로 서서히 낮아진다고 가정</li>
       <li>12개월 선행 EPS ${usd(i.ntm_eps)} · 선행 PER ${typeof i.fwd_pe === 'number' ? i.fwd_pe.toFixed(1) + '배' : '—'} · 영업이익률 ${pc(i.op_margin_ttm, 0)}${typeof i.op_margin_pct_in_own_annual_history === 'number' ? ' (자기 과거 ' + i.own_annual_margin_years + '년 기록 대비 위치 ' + (i.op_margin_pct_in_own_annual_history * 100).toFixed(0) + '%, 100%=최고치 이상)' : ''}</li>
-      ${rateStale ? '' : `<li>장기 기준 위험프리미엄(5%)+현재 국채금리로 할인하면 가운데 값 ${usd(x.value_at_long_run_erp)} — 시장 분위기가 평소로 돌아갈 때의 참고치(금리 영향은 여기에만)</li>`}
+      ${rateStale ? '' : `<li>장기 기준 위험프리미엄(5%)+현재 국채금리로 할인하면 가운데 값 ${usd(x.value_at_long_run_erp)} — 위험프리미엄 5% 가정 시 참고치</li>`}
       ${ownLine}
     </ul>${caution}${mood}
     <div class="sub" style="margin-top:4px;">할인율을 ±1%p만 바꿔도 8~10종목의 판정이 바뀌어요. 애널리스트 전망은 낙관 쪽으로 치우치는 경향이 있어요.</div>${asof2}
