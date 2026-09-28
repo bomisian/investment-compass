@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 93.44000244140625,
+      "current": 93.29000091552734,
       "prevClose": 92.41000366210938,
-      "changeAbs": 1.029998779296875,
-      "changePct": 1.1145966220962316,
+      "changeAbs": 0.8799972534179688,
+      "changePct": 0.9522748820956833,
       "pctRank": 86.2370723945903,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -17.273125306746252,
-      "ma20": 95.81150169372559,
-      "ma60": 86.12583389282227,
-      "chg1m": 9.910003662109375,
-      "chg3m": 22.69000244140625,
-      "chg1mPct": 11.864005515304274,
-      "chg3mPct": 32.070674828842755,
+      "drawdown1y": -17.405928786101487,
+      "ma20": 95.80400161743164,
+      "ma60": 86.12333386739095,
+      "chg1m": 9.760002136230469,
+      "chg3m": 22.540000915527344,
+      "chg1mPct": 11.684427485768754,
+      "chg3mPct": 31.858658537847834,
       "lastDate": "2026-09-28",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 101.1969985961914,
+      "current": 101.19100189208984,
       "prevClose": 100.97000122070312,
-      "changeAbs": 0.22699737548828125,
-      "changePct": 0.22481665122703515,
+      "changeAbs": 0.22100067138671875,
+      "changePct": 0.21887755641762266,
       "pctRank": 42.16388225934765,
       "min5y": 93.3499984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -0.40645803727913377,
-      "ma20": 99.90434951782227,
-      "ma60": 100.11828346252442,
-      "chg1m": 2.0369949340820312,
-      "chg3m": 0.08699798583984375,
-      "chg1mPct": 2.054250563587262,
-      "chg3mPct": 0.08604290902450748,
+      "drawdown1y": -0.41235972418548483,
+      "ma20": 99.90404968261718,
+      "ma60": 100.11818351745606,
+      "chg1m": 2.0309982299804688,
+      "chg3m": 0.08100128173828125,
+      "chg1mPct": 2.0482030606827677,
+      "chg3mPct": 0.08011203763160536,
       "lastDate": "2026-09-28",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4144.2998046875,
+      "current": 4148.5,
       "prevClose": 4321.2001953125,
-      "changeAbs": -176.900390625,
-      "changePct": -4.093779103705861,
-      "pctRank": 84.8966613672496,
+      "changeAbs": -172.7001953125,
+      "changePct": -3.99657936468298,
+      "pctRank": 84.97615262321145,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -22.076190568874654,
-      "ma20": 4388.194970703125,
-      "ma60": 4310.879988606771,
-      "chg1m": -519.7001953125,
-      "chg3m": 105.39990234375,
-      "chg1mPct": -11.142800071022728,
-      "chg3mPct": 2.609619076783434,
+      "drawdown1y": -21.99721577589888,
+      "ma20": 4388.40498046875,
+      "ma60": 4310.9499918619795,
+      "chg1m": -515.5,
+      "chg3m": 109.60009765625,
+      "chg1mPct": -11.052744425385935,
+      "chg3mPct": 2.713612624879604,
       "lastDate": "2026-09-28",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "US, Iran set to hold separate talks with mediators on Monday or Tuesday, official says - Reuters",
+      "summary": "US, Iran set to hold separate talks with mediators on Monday or Tuesday, official says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMmZHcTFrcTNwTDVHTi1veU9KdXk1SC11X1NDWHB3VnBhbUQyOXh6Y002MFJaN1cyb0pfLVRIZnE4RUgwR1pieG0zY05NajZrNmFIbl9CTmpGbENaa01VOGEwZVZURnphdVdmUHJ2cWxGMURSNXNrRzdGanlKdWhqc0NiMWlHRnhTWlN4dlZIMjlNSEhxVlpkNFI4N1VTWHZfYWZsNi1lcE9GYjFsWDVmRW1QbFk2WjBhTWpfUS1aSTBNc3dBYW90RDVadjg?oc=5",
+      "datetime": 1790629356,
+      "headlineKo": "미국과 이란은 월요일이나 화요일에 중재자들과 별도의 회담을 가질 예정이라고 관계자가 밝혔습니다 - 로이터 통신",
+      "summaryKo": "미국, 이란은 월요일 또는 화요일에 중재자와 별도의 회담을 개최할 예정이라고 로이터 통신이 보도했다."
+    },
+    {
       "headline": "Michael Burry believes the AI bubble 'may burst' sooner than he first believed",
       "summary": "The famed short seller is switching to puts with expiries in June for his major tech short bets.",
       "source": "CNBC",
@@ -244,6 +253,33 @@ const MARKET_DATA = {
       "datetime": 1790628194,
       "headlineKo": "마이클 버리(Michael Burry)는 AI 거품이 자신이 처음 믿었던 것보다 더 빨리 '터질 수 있다'고 믿습니다.",
       "summaryKo": "유명한 공매도자는 주요 기술 공매도 베팅을 위해 6월 만기 풋옵션으로 전환하고 있습니다."
+    },
+    {
+      "headline": "Stocks fall as higher oil prices, Treasury yields weigh - Reuters",
+      "summary": "Stocks fall as higher oil prices, Treasury yields weigh Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMG5ieTU4M0RYMC1lQi0wbDVONnJJbW5NS3pya2xkLXUxSFF3ajh5ZWlER3B5ZW1IR0J3ZjRxZFFCTDd2ajh4ZnVHZ2xqY1U2c0pIamh2MGhzWVlIMVVieHpOXzg0bnJwRFlTaEg4dVdycUc1X25ZQlZkUUsxUGZ3TGc1RDlNWjg2U1RFQ3JEUWx2NGIxb0ZvZXJJb0F6MjcxOER2WHFIdmtSei1fZHdBS29YcGhvUFk?oc=5",
+      "datetime": 1790627931,
+      "headlineKo": "유가 상승으로 주가 하락, 국채수익률 부담 - Reuters",
+      "summaryKo": "유가 상승으로 주가 하락, 국채수익률 부담 Reuters"
+    },
+    {
+      "headline": "EXCLUSIVE: US to grant sanctions waiver for flights between Iran and Iraq's Najaf, source says - Reuters",
+      "summary": "EXCLUSIVE: US to grant sanctions waiver for flights between Iran and Iraq's Najaf, source says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOHIxYnY3TE1lQ1JIaWFqTGo2bE5IZ20wamRnZUhEMVdaZWdfWVRQVUpUQjFTSUg1elR2a1dMb1RwNTNnMmg1QXExOGthdmlQbkIweWwyS3JNaXVocWlPRU9kLWRQWmRQSlY1dHVWQ014b1cxT2dPY3pvUmNpMENwN29NV0E3VWpmaEU5N0h6WDFzcjBmNTBQSjlKRlRRQ2dpZEdHX3JUSGh5aTZiTjc0S0FTMmpfeUFld1VXZjd0LXloZw?oc=5",
+      "datetime": 1790627473,
+      "headlineKo": "독점: 미국이 이란과 이라크 나자프 간 항공편에 대한 제재 면제를 허용할 것이라고 소식통이 전했습니다.",
+      "summaryKo": "독점 : 미국은이란과 이라크 나자프 간 항공편에 대한 제재 면제를 허용한다고 소식통은 로이터에 말했습니다."
+    },
+    {
+      "headline": "Trump says US will win Iran war 'very soon' - Reuters",
+      "summary": "Trump says US will win Iran war 'very soon' Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTG94TG8yOEo5eWNpRUFIUkMta1JRQ2RPZUJiTWxVbXdfdENtbmJxOXZOYUgxRTY5YUJ5eW92Z2tSUWtoVGVobXhhUk5CTkVBMW1rMndfR2FldUZud05YSkZuSFZRSmZQTU1xbmhSTFQyd3ozTk5LYVp1OGZzWGRvWWt6clZ1UzViY2JhMVVlODhvSFNTQno0Y1ZKOA?oc=5",
+      "datetime": 1790627193,
+      "headlineKo": "트럼프 \"미국이 이란전에서 곧 승리할 것\" - 로이터",
+      "summaryKo": "트럼프 \"미국이 이란전에서 곧 승리할 것\" - 로이터"
     },
     {
       "headline": "Meta's splashy new business AI hire offers yet another reason to bank on Zuckerberg",
@@ -273,15 +309,6 @@ const MARKET_DATA = {
       "summaryKo": "미국이 사용하는 영국의 페어포드 공군기지를 공격하려는 음모가 의심됩니다: 우리는 무엇을 알고 있습니까? 로이터"
     },
     {
-      "headline": "US, Iran set to hold separate talks with mediators on Monday or Tuesday, official says - Reuters",
-      "summary": "US, Iran set to hold separate talks with mediators on Monday or Tuesday, official says Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMmZHcTFrcTNwTDVHTi1veU9KdXk1SC11X1NDWHB3VnBhbUQyOXh6Y002MFJaN1cyb0pfLVRIZnE4RUgwR1pieG0zY05NajZrNmFIbl9CTmpGbENaa01VOGEwZVZURnphdVdmUHJ2cWxGMURSNXNrRzdGanlKdWhqc0NiMWlHRnhTWlN4dlZIMjlNSEhxVlpkNFI4N1VTWHZfYWZsNi1lcE9GYjFsWDVmRW1QbFk2WjBhTWpfUS1aSTBNc3dBYW90RDVadjg?oc=5",
-      "datetime": 1790622696,
-      "headlineKo": "미국과 이란은 월요일이나 화요일에 중재자들과 별도의 회담을 가질 예정이라고 관계자가 밝혔습니다 - 로이터 통신",
-      "summaryKo": "미국, 이란은 월요일 또는 화요일에 중재자와 별도의 회담을 개최할 예정이라고 로이터 통신이 보도했다."
-    },
-    {
       "headline": "UK examines foreign state involvement in suspected airbase plot, releases suspects - Reuters",
       "summary": "UK examines foreign state involvement in suspected airbase plot, releases suspects Reuters",
       "source": "Reuters",
@@ -289,15 +316,6 @@ const MARKET_DATA = {
       "datetime": 1790622664,
       "headlineKo": "영국, 공군 기지 음모 의심에 외국 정부 개입 조사, 용의자 석방 - 로이터 통신",
       "summaryKo": "영국, 공군 기지 음모 의심에 외국 정부 개입 조사, 용의자 석방 - 최신"
-    },
-    {
-      "headline": "Trump says US will win Iran war 'very soon' - Reuters",
-      "summary": "Trump says US will win Iran war 'very soon' Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTG94TG8yOEo5eWNpRUFIUkMta1JRQ2RPZUJiTWxVbXdfdENtbmJxOXZOYUgxRTY5YUJ5eW92Z2tSUWtoVGVobXhhUk5CTkVBMW1rMndfR2FldUZud05YSkZuSFZRSmZQTU1xbmhSTFQyd3ozTk5LYVp1OGZzWGRvWWt6clZ1UzViY2JhMVVlODhvSFNTQno0Y1ZKOA?oc=5",
-      "datetime": 1790622609,
-      "headlineKo": "트럼프 \"미국이 이란전에서 곧 승리할 것\" - 로이터",
-      "summaryKo": "트럼프 \"미국이 이란전에서 곧 승리할 것\" - 로이터"
     },
     {
       "headline": "What the market needs to branch out beyond AI stocks. Plus, a win for CrowdStrike",
@@ -309,15 +327,6 @@ const MARKET_DATA = {
       "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
     },
     {
-      "headline": "Wall St declines as oil prices, Treasury yields remain elevated - Reuters",
-      "summary": "Wall St declines as oil prices, Treasury yields remain elevated Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMG5ieTU4M0RYMC1lQi0wbDVONnJJbW5NS3pya2xkLXUxSFF3ajh5ZWlER3B5ZW1IR0J3ZjRxZFFCTDd2ajh4ZnVHZ2xqY1U2c0pIamh2MGhzWVlIMVVieHpOXzg0bnJwRFlTaEg4dVdycUc1X25ZQlZkUUsxUGZ3TGc1RDlNWjg2U1RFQ3JEUWx2NGIxb0ZvZXJJb0F6MjcxOER2WHFIdmtSei1fZHdBS29YcGhvUFk?oc=5",
-      "datetime": 1790621316,
-      "headlineKo": "유가로 월스트리트 하락, 국채수익률 상승 유지 - Reuters",
-      "summaryKo": "유가로 월스트리트 하락, 국채수익률 상승 유지 Reuters"
-    },
-    {
       "headline": "Feds can't withhold counterterrorism funds from states to force election admin changes, judge rules",
       "summary": "The judge said FEMA never explained how the election changes it wanted were \"tied to the goal of shoring up vulnerabilities to terrorist attacks.\"",
       "source": "CNBC",
@@ -325,15 +334,6 @@ const MARKET_DATA = {
       "datetime": 1790620911,
       "headlineKo": "연준은 선거 관리 변경, 판사 규칙을 강제하기 위해 주에서 대테러 자금을 보류할 수 없습니다.",
       "summaryKo": "판사는 FEMA가 원하는 선거 변경이 \"테러 공격에 대한 취약성을 강화하려는 목표와 어떻게 연결되어 있는지\" 설명하지 않았다고 말했습니다."
-    },
-    {
-      "headline": "EXCLUSIVE: US to grant sanctions waiver for flights between Iran and Iraq's Najaf, source says - Reuters",
-      "summary": "EXCLUSIVE: US to grant sanctions waiver for flights between Iran and Iraq's Najaf, source says Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOHIxYnY3TE1lQ1JIaWFqTGo2bE5IZ20wamRnZUhEMVdaZWdfWVRQVUpUQjFTSUg1elR2a1dMb1RwNTNnMmg1QXExOGthdmlQbkIweWwyS3JNaXVocWlPRU9kLWRQWmRQSlY1dHVWQ014b1cxT2dPY3pvUmNpMENwN29NV0E3VWpmaEU5N0h6WDFzcjBmNTBQSjlKRlRRQ2dpZEdHX3JUSGh5aTZiTjc0S0FTMmpfeUFld1VXZjd0LXloZw?oc=5",
-      "datetime": 1790619732,
-      "headlineKo": "독점: 미국이 이란과 이라크 나자프 간 항공편에 대한 제재 면제를 허용할 것이라고 소식통이 전했습니다.",
-      "summaryKo": "독점 : 미국은이란과 이라크 나자프 간 항공편에 대한 제재 면제를 허용한다고 소식통은 로이터에 말했습니다."
     },
     {
       "headline": "EXCLUSIVE: Russia raises 2027 military spending by 27%, budget documents show - Reuters",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790629217.6578202,
+  "_news_last_success_at": 1790632813.3063242,
   "fgi": {
     "score": 33.9428571428571,
     "rating": "fear"
   },
-  "_fetched_at": 1790629203.5643358,
-  "_updated_label": "2026-09-29 06:00",
-  "_last_attempt_at": 1790629203.5643358,
-  "_last_success_at": 1790629203.5643358,
+  "_fetched_at": 1790632803.611952,
+  "_updated_label": "2026-09-29 07:00",
+  "_last_attempt_at": 1790632803.611952,
+  "_last_success_at": 1790632803.611952,
   "_collection_status": "ok",
   "_collection_errors": []
 };
