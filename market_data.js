@@ -72,22 +72,22 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 93.30999755859375,
+      "current": 93.19000244140625,
       "prevClose": 92.41000366210938,
-      "changeAbs": 0.899993896484375,
-      "changePct": 0.9739139279499857,
+      "changeAbs": 0.779998779296875,
+      "changePct": 0.8440631407708685,
       "pctRank": 86.24801271860095,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -17.388224807698048,
-      "ma20": 95.80500144958496,
-      "ma60": 86.1236671447754,
-      "chg1m": 9.779998779296875,
-      "chg3m": 22.55999755859375,
-      "chg1mPct": 11.708366960638426,
-      "chg3mPct": 31.88692234430212,
-      "lastDate": "2026-09-27",
+      "drawdown1y": -17.4944621874498,
+      "ma20": 95.79900169372559,
+      "ma60": 86.1216672261556,
+      "chg1m": 9.660003662109375,
+      "chg3m": 22.44000244140625,
+      "chg1mPct": 11.564711843984405,
+      "chg3mPct": 31.717317938383395,
+      "lastDate": "2026-09-28",
       "bars": 1258,
       "symbol": "CL=F",
       "label": "WTI 유가",
@@ -118,22 +118,22 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4299.10009765625,
+      "current": 4253.7001953125,
       "prevClose": 4321.2001953125,
-      "changeAbs": -22.10009765625,
-      "changePct": -0.5114342464443902,
-      "pctRank": 86.97378872120731,
+      "changeAbs": -67.5,
+      "changePct": -1.562066022148704,
+      "pctRank": 86.65607625099285,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -19.165535187346627,
-      "ma20": 4395.934985351562,
-      "ma60": 4313.459993489583,
-      "chg1m": -364.89990234375,
-      "chg3m": 260.2001953125,
-      "chg1mPct": -7.823754338416595,
-      "chg3mPct": 6.442353155657742,
-      "lastDate": "2026-09-27",
+      "drawdown1y": -20.019173559364177,
+      "ma20": 4393.664990234375,
+      "ma60": 4312.7033284505205,
+      "chg1m": -410.2998046875,
+      "chg3m": 214.80029296875,
+      "chg1mPct": -8.797165623659948,
+      "chg3mPct": 5.31828711189655,
+      "lastDate": "2026-09-28",
       "bars": 1259,
       "symbol": "GC=F",
       "label": "금",
@@ -237,22 +237,22 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Oil rebounds after Trump rejects Iran peace deal - Reuters",
-      "summary": "Oil rebounds after Trump rejects Iran peace deal Reuters",
+      "headline": "Oil rebounds after Trump rejects Iran peace deal - reuters.com",
+      "summary": "Oil rebounds after Trump rejects Iran peace deal reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU3FBcU1hWkxSdzlSbHdGdkJEbDR0REJsckozLWtuZGRwbXJvNU1kVnFMendhelM2Q3plNUFlUm1yZTljZDFiMEQwZjVDcWt2X011c193RWUtWTVlcEE4bjBKSWtYZ1A5MnhXS2hUSlVCN0lPcjhTRmNBc2V4ZERrclRaVW45NUl0cmtsb1g2d0s3SFB5NDRPc0lnRzVSZHZ2S0E?oc=5",
       "datetime": 1790547929,
-      "headlineKo": "트럼프가이란 평화 협정을 거부 한 후 유가 반등 - 로이터 통신",
-      "summaryKo": "트럼프가이란 평화 협정을 거부 한 후 유가 반등 - 최신"
+      "headlineKo": "트럼프가 이란 평화협정을 거부한 후 유가 반등 - reuters.com",
+      "summaryKo": "트럼프가 이란 평화협정을 거부한 후 유가 반등 reuters.com"
     },
     {
-      "headline": "Iran-linked diesel price spike makes electric trucks cheaper than diesel in key EU markets, environmental group says - Reuters",
-      "summary": "Iran-linked diesel price spike makes electric trucks cheaper than diesel in key EU markets, environmental group says Reuters",
+      "headline": "Iran-linked diesel price spike makes electric trucks cheaper than diesel in key EU markets, environmental group says - reuters.com",
+      "summary": "Iran-linked diesel price spike makes electric trucks cheaper than diesel in key EU markets, environmental group says reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZVBWUjdTSkRRcUtpSUp6djB6M1NoZHpMQmlsRXBpU3R2Z0ZuT2dOa09tYzBoQ1hQbXFGbVJGa3c2TmFiZ0JaUF85cU15bXVOcTBKdUgyYWdoUGRJT1htcmZEN0NJMGJlT0JtWHBPQjZJeDhiMzlQWFBYWFl3WDRMNE5nem12bkFobF8yMFJMaTZ4bkZwRVVQbEUwZG5UY0lXR1VZTnRFNVhZSkcxYnkxT3hsQTZlOF9UaEt4Q1VTem1PUURnQjdFRWViN0QtSzBVb0tlcFFpUnFFSFBMMnc?oc=5",
       "datetime": 1790546558,
-      "headlineKo": "이란 관련 디젤 가격 급등으로 주요 EU 시장에서 전기 트럭이 디젤보다 저렴해진다고 환경단체가 밝혔습니다.",
-      "summaryKo": "이란 관련 디젤 가격 급등으로 주요 EU 시장에서 전기 트럭이 디젤보다 저렴해진다고 환경 단체가 밝혔습니다."
+      "headlineKo": "이란 관련 디젤 가격 급등으로 주요 EU 시장에서 전기 트럭이 디젤보다 저렴해진다고 환경 단체가 밝혔습니다. - reuters.com",
+      "summaryKo": "이란 관련 디젤 가격 급등으로 주요 EU 시장에서 전기 트럭이 디젤보다 저렴해진다고 환경단체가 로이터통신에서 밝혔습니다."
     },
     {
       "headline": "South Korea demands apology from Ukraine over North Korean POW disclosure - Reuters",
@@ -264,12 +264,12 @@ const MARKET_DATA = {
       "summaryKo": "한국, 북한 포로 공개에 대해 우크라이나에 사과 요구 - 최신"
     },
     {
-      "headline": "Israel's Netanyahu visited Abu Dhabi on Sunday, Israeli official says - Reuters",
-      "summary": "Israel's Netanyahu visited Abu Dhabi on Sunday, Israeli official says Reuters",
+      "headline": "Israel's Netanyahu visited Abu Dhabi on Sunday, Israeli official says - reuters.com",
+      "summary": "Israel's Netanyahu visited Abu Dhabi on Sunday, Israeli official says reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY0pGMVlCUkt6b01MNWJkNlc5WlA2dlV1bUs3MDl2LXhhWFU3MGVEenBLQk1SaHNSMU1LNlh1SUpDWUloTzROY0pvb3JnWjJOUmlFSXdiNDVEeXBsRDFZb3gyVUlOY1B3UWc2MVZFLXllN1BkVlV6SXNKWWx0ZVV2azFEOVRmSE84THhKX0lLZTMyanowSnNNb0ItOGc5blhxOVR6UDQwdXVpNVljMnpwbHJBRkEzYk9mQWc?oc=5",
       "datetime": 1790539303,
-      "headlineKo": "이스라엘 네타냐후가 일요일 아부다비를 방문했다고 이스라엘 관리가 밝혔습니다 - 로이터 통신",
+      "headlineKo": "이스라엘 네타냐후가 일요일 아부다비를 방문했다고 이스라엘 관리가 밝혔습니다 - reuters.com",
       "summaryKo": "이스라엘 네타냐후 총리가 일요일 아부다비를 방문했다고 이스라엘 관리가 밝혔습니다."
     },
     {
@@ -291,22 +291,13 @@ const MARKET_DATA = {
       "summaryKo": "이스라엘, 라말라 주둔 네덜란드 외교관의 외교적 지위 박탈 - 로이터"
     },
     {
-      "headline": "Hezbollah plans to contribute to project to house thousands of Lebanese displaced, chief says - Reuters",
-      "summary": "Hezbollah plans to contribute to project to house thousands of Lebanese displaced, chief says Reuters",
+      "headline": "Hezbollah plans to contribute to project to house thousands of Lebanese displaced, chief says - reuters.com",
+      "summary": "Hezbollah plans to contribute to project to house thousands of Lebanese displaced, chief says reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMVNNUHRJYW5NYlh3R2V0TVpWTGM0Q1dHb3FsLUROcGxvQUd6aEt0OFFpN3RaU2tuZjVkRk9zYXN4ZG55TDRRa1I5YTJrSzQzV1gtU1ZQbHBLTHVwVXdYOHN3ODZxZ1k3eXlidWhEUW93RDMzQW5wSDA0ZGprV1ZjcVljb3hwbTJWWi1yd1ZTdHVIVjRXekRnSzVrRHlIWjV2Q2V0YV9BVWZ2TXVXTW9rWjFxQ0tEOFpYcW5Ja3V0YXJFUFZjQW1NU1E0c2kxSHM?oc=5",
       "datetime": 1790527664,
-      "headlineKo": "헤즈볼라는 수천 명의 레바논 난민을 수용하는 프로젝트에 기여할 계획이라고 헤즈볼라는 말했습니다 - Reuters",
-      "summaryKo": "헤즈볼라는 수천 명의 레바논 난민을 수용하는 프로젝트에 기여할 계획이라고 헤즈볼라는 로이터 통신에 말했습니다."
-    },
-    {
-      "headline": "Trump says men arrested at UK air base used by US were looking to do 'big damage' - Reuters",
-      "summary": "Trump says men arrested at UK air base used by US were looking to do 'big damage' Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOThaUHcwMHZuZEY2dldUNjhYQ29PeWRJdEYxWFBPV3NEUUdSc0l4MkdhN3liTGdyNG9XaEhwWG8xRk8xR29JVlA0ZEV2ZXM3RVZCRDlPSHhzU29Pek9tZVREdUdvOHRXS1ZuaTR0TXVGV253bkplU1lNbG85WXRjYzcwV2ZSekFCa1gtR1RtV09zM3NYeF93?oc=5",
-      "datetime": 1790527490,
-      "headlineKo": "트럼프, 미국이 사용하는 영국 공군기지에서 체포된 남성들은 '큰 피해'를 노리고 있었다 - 로이터",
-      "summaryKo": "트럼프, 미국이 사용하는 영국 공군기지에서 체포된 남성들은 '큰 피해'를 입히려 하고 있었다 - 로이터"
+      "headlineKo": "헤즈볼라는 수천 명의 레바논 난민을 수용하는 프로젝트에 기여할 계획이라고 헤즈볼라는 말했습니다 - reuters.com",
+      "summaryKo": "헤즈볼라는 수천 명의 레바논 난민을 수용하는 프로젝트에 기여할 계획이라고 최고 책임자는 reuters.com에서 밝혔습니다."
     },
     {
       "headline": "Here are the 4 big things we're watching in the stock market in the week ahead",
@@ -314,15 +305,17 @@ const MARKET_DATA = {
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/27/here-are-the-4-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
       "datetime": 1790525803,
-      "headlineKo": "다음 주에 주식 시장에서 우리가 주목해야 할 4가지 주요 사항은 다음과 같습니다."
+      "headlineKo": "다음 주에 주식 시장에서 우리가 주목해야 할 4가지 주요 사항은 다음과 같습니다.",
+      "summaryKo": "연준의 이중 권한에 대한 양측의 관심이 집중되고 있습니다. 또한 Micron은 보고하고 Eli Lilly는 비만 파이프라인에 대한 업데이트를 제공합니다."
     },
     {
-      "headline": "PODCAST: Iran-US diplomacy, RAF Fairford and Brazil elections - Reuters",
-      "summary": "PODCAST: Iran-US diplomacy, RAF Fairford and Brazil elections Reuters",
+      "headline": "PODCAST: Iran-US diplomacy, RAF Fairford and Brazil elections - reuters.com",
+      "summary": "PODCAST: Iran-US diplomacy, RAF Fairford and Brazil elections reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMEhHb1NVZ2VyRG1XTjdXS2hvVWVDem9lNERpM3hNWWstWjFrbjA5YXhHb0c5a0txQW1mT3IyWGFBa2FCQ19melMwVkh2S2xINWdOdXVrSDBHanRaeUU0d0N6aXk2LTJaQ3RZc3NRNmFFZi1PcWJzV29VU0pwcXBUR3pOZVFLUmhRMHBOajZtYlBua0diZEE?oc=5",
       "datetime": 1790524884,
-      "headlineKo": "팟캐스트: 이란-미국 외교, RAF 페어포드 및 브라질 선거 - Reuters"
+      "headlineKo": "팟캐스트: 이란-미국 외교, RAF 페어포드 및 브라질 선거 - reuters.com",
+      "summaryKo": "팟캐스트: 이란-미국 외교, RAF Fairford 및 브라질 선거 reuters.com"
     },
     {
       "headline": "At NFL games this season, drone defense tech aims to bring down disruptions",
@@ -330,7 +323,8 @@ const MARKET_DATA = {
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/27/nfl-drone-defense-tech-game-disruptions.html",
       "datetime": 1790510401,
-      "headlineKo": "이번 시즌 NFL 경기에서 드론 방어 기술은 혼란을 줄이는 것을 목표로 합니다."
+      "headlineKo": "이번 시즌 NFL 경기에서 드론 방어 기술은 혼란을 줄이는 것을 목표로 합니다.",
+      "summaryKo": "NFL은 CNBC에 2021년부터 2025년까지 경기장에서 10,852건의 드론 위반을 기록했다고 말했습니다. 재규어는 드론 방어 회사와 계약한 첫 번째 팀이 되었습니다."
     },
     {
       "headline": "Wall Street money takes back over from small investors as driving force of the stock market",
@@ -338,19 +332,28 @@ const MARKET_DATA = {
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/27/institutional-investors-stocks-treaurys-retail-traders.html",
       "datetime": 1790508755,
-      "headlineKo": "월스트리트 자금이 소액 투자자들로부터 주식 시장의 원동력으로 자리 잡았습니다."
+      "headlineKo": "월스트리트 자금이 소액 투자자들로부터 주식 시장의 원동력으로 자리 잡았습니다.",
+      "summaryKo": "한 회사는 기관 투자자들 사이에서 \"위험 선호도에 대한 합리적으로 건설적인 신호\"를 보고 있습니다."
+    },
+    {
+      "headline": "Deputy chair of Turkey's AK Party resigns after trading allegation amid funds crisis - reuters.com",
+      "summary": "Deputy chair of Turkey's AK Party resigns after trading allegation amid funds crisis reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcTYwUjZCOEZlU3ZxVDI1Q1Ytb2pqM1l1U2NLQUxoVU5nQzZ3ZDdkZ1U2LXF2MEZVSHFFR1NWdWlGek5aS1ZoelpVaG5wSjZaamVSVWM3alBqY3FqWmk0SXdmUjRmWEdvQ2ZKU3JTQ3M5TFpJeDFjdk82Y05aNmNYUWhrUzJhQ0x4enNDXy15WVp2VWJCNndSaG5oYWZpTHZxTEd4T1ZiTlJUYzVaemdnQWNpNUxZeFJFS2xiRENDR3R6aWFIWUVMQWp1RkJ2dVk?oc=5",
+      "datetime": 1790507503,
+      "headlineKo": "터키 AK당 부의장, 자금 위기 속 거래 의혹 후 사임 - reuters.com"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790553744.061238,
+  "_news_last_success_at": 1790558720.679584,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790553717.1116188,
-  "_updated_label": "2026-09-28 09:03",
-  "_last_attempt_at": 1790553717.1116188,
-  "_last_success_at": 1790553717.1116188,
+  "_fetched_at": 1790558702.0005598,
+  "_updated_label": "2026-09-28 10:25",
+  "_last_attempt_at": 1790558702.0005598,
+  "_last_success_at": 1790558702.0005598,
   "_collection_status": "ok",
   "_collection_errors": []
 };
