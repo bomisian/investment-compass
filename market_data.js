@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 94.45999908447266,
+      "current": 94.1500015258789,
       "prevClose": 92.41000366210938,
-      "changeAbs": 2.0499954223632812,
-      "changePct": 2.2183695932519862,
-      "pctRank": 87.19172633253778,
+      "changeAbs": 1.7399978637695312,
+      "changePct": 1.8829107183370646,
+      "pctRank": 86.793953858393,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -16.370073805528584,
-      "ma20": 95.86250152587891,
-      "ma60": 86.14283383687338,
-      "chg1m": 10.930000305175781,
-      "chg3m": 23.709999084472656,
-      "chg1mPct": 13.085119675453424,
-      "chg3mPct": 33.5123661971345,
+      "drawdown1y": -16.644529376108018,
+      "ma20": 95.84700164794921,
+      "ma60": 86.13766721089681,
+      "chg1m": 10.620002746582031,
+      "chg3m": 23.400001525878906,
+      "chg1mPct": 12.713998445806546,
+      "chg3mPct": 33.07420710371577,
       "lastDate": "2026-09-28",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 101.11799621582031,
+      "current": 101.16400146484375,
       "prevClose": 100.97000122070312,
-      "changeAbs": 0.1479949951171875,
-      "changePct": 0.1465732329681722,
-      "pctRank": 41.6865552903739,
+      "changeAbs": 0.194000244140625,
+      "changePct": 0.1921365175747336,
+      "pctRank": 41.84566428003182,
       "min5y": 93.3499984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -0.4842086325911543,
-      "ma20": 99.90039939880371,
-      "ma60": 100.1169667561849,
-      "chg1m": 1.9579925537109375,
-      "chg3m": 0.00799560546875,
-      "chg1mPct": 1.9745789445337805,
-      "chg3mPct": 0.007907828523869493,
+      "drawdown1y": -0.438932332279085,
+      "ma20": 99.90269966125489,
+      "ma60": 100.11773351033528,
+      "chg1m": 2.003997802734375,
+      "chg3m": 0.0540008544921875,
+      "chg1mPct": 2.0209739095644412,
+      "chg3mPct": 0.053408025087736906,
       "lastDate": "2026-09-28",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4220.2998046875,
+      "current": 4206.39990234375,
       "prevClose": 4321.2001953125,
-      "changeAbs": -100.900390625,
-      "changePct": -2.335008471360654,
-      "pctRank": 86.00953895071542,
+      "changeAbs": -114.80029296875,
+      "changePct": -2.6566761033955726,
+      "pctRank": 85.77106518282989,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -20.64718933926596,
-      "ma20": 4391.994970703125,
-      "ma60": 4312.146655273437,
-      "chg1m": -443.7001953125,
-      "chg3m": 181.39990234375,
-      "chg1mPct": -9.513297498123928,
-      "chg3mPct": 4.4913195852782755,
+      "drawdown1y": -20.90854430690622,
+      "ma20": 4391.299975585937,
+      "ma60": 4311.914990234375,
+      "chg1m": -457.60009765625,
+      "chg3m": 167.5,
+      "chg1mPct": -9.811322848547384,
+      "chg3mPct": 4.147168883853762,
       "lastDate": "2026-09-28",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,67 +237,67 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Indian shares open lower as US-Iran stalemate lifts oil prices - reuters.com",
-      "summary": "Indian shares open lower as US-Iran stalemate lifts oil prices reuters.com",
+      "headline": "Indian shares hit near six-month low as US-Iran deadlock lifts oil prices - Reuters",
+      "summary": "Indian shares hit near six-month low as US-Iran deadlock lifts oil prices Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQmUtcnhXbVNOQ0lacFk2Z1JXa0JON1VtZTRsYnZVMDlKdjh0dXhobk9tajVtRVdUbE5RV2MxUy1MbUpkNkc4UXNvalZoZXltbUNScGEyanBReERmbTRuQnB2d2M2dkU3NkJ0anMybXdHWV9QWElRVG9WcDhNSzE4eTV4VWs4WWluaGpYR1NZZTNuYVFPNWZwUk1YcXNOR0NrN0REb2V5eENFRjFaTVNpeWtJdw?oc=5",
       "datetime": 1790561940,
-      "headlineKo": "미국과 이란의 교착상태로 유가가 상승하면서 인도 증시는 하락세로 출발 - reuters.com",
-      "summaryKo": "미국-이란 교착상태로 인한 유가 상승으로 인도 증시는 하락세로 출발 reuters.com"
+      "headlineKo": "미국-이란 교착상태로 유가 ​​상승으로 인도 증시 6개월만에 최저치 기록 - Reuters",
+      "summaryKo": "미국-이란 교착상태로 유가 ​​상승으로 인도 주가 6개월 가까이 최저치 기록 - 최신"
     },
     {
-      "headline": "Gold drops more than 2% on US rate-hike bets - reuters.com",
-      "summary": "Gold drops more than 2% on US rate-hike bets reuters.com",
+      "headline": "Gold drops more than 2% on US rate-hike bets - Reuters",
+      "summary": "Gold drops more than 2% on US rate-hike bets Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQenE0aVBHOTNMeURZcVZjN3J0S1RMZ2kzakFJYklBMXhZckhuTGxLVnVaa2pmZjg0MzJHMU1fOGwwY3pfWjBXYmZUcGYtUjMzOFB4UW9ydUdKZDNOU2JrTHotMk9qa1ZGNkZXdGs3b0NKcGhveU11cmZGOC0wbzM1WWVJSzk3bDAxLWs3QUxVSy02QQ?oc=5",
       "datetime": 1790559660,
-      "headlineKo": "미국 금리 인상 베팅으로 금값 2% 이상 하락 - reuters.com",
-      "summaryKo": "미국 금리 인상 베팅으로 금값 2% 이상 하락 reuters.com"
+      "headlineKo": "미국 금리인상 베팅으로 금값 2% 이상 하락 - Reuters",
+      "summaryKo": "미국 금리인상 베팅으로 금값 2% 이상 하락 - Reuters"
     },
     {
-      "headline": "Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build - reuters.com",
-      "summary": "Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build reuters.com",
+      "headline": "Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build - Reuters",
+      "summary": "Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVGN6Yy1FQUFsN3Z3US1YZWg2amxMczRubW9XaV9vWHJTc0JYbGN6YjhiX1hlWG5CZUdJbEVpcmwwTmdMT3EtTTNqRENIM25PSWY2RUhFVnBkTFBhY3d5VnlJY3NqWHhTSm8xN1FXY0lsVjBjN0JfQXI2Zml5WTNEcW9wMExxT21BbDVETDJZOFFrY0RXMGkwTUJHaTgzS2k1SHBQTVNhTlN5VVJVTllz?oc=5",
       "datetime": 1790559300,
-      "headlineKo": "미국-이란 긴장이 석유를 끌어올리면서 달러 기업들, 매파적인 연준 베팅 구축 - reuters.com",
-      "summaryKo": "미국-이란 긴장이 석유를 끌어올리면서 달러 기업, 매파적인 연준이 베팅 reuters.com 구축"
+      "headlineKo": "미국-이란 긴장으로 석유가 상승하고 매파적인 Fed 베팅이 구축되면서 달러는 확고하게 유지되었습니다-Reuters",
+      "summaryKo": "미국-이란 긴장으로 석유가 상승함에 따라 달러는 확고하게 유지되고 매파적인 Fed 베팅은 Reuters를 구성합니다."
     },
     {
-      "headline": "Stocks slip in Asia as oil climbs, bonds retreat - reuters.com",
-      "summary": "Stocks slip in Asia as oil climbs, bonds retreat reuters.com",
+      "headline": "Stocks slip in Asia as oil climbs, bonds retreat - Reuters",
+      "summary": "Stocks slip in Asia as oil climbs, bonds retreat Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNjVwRkxEMEdFMlBlSmpIbDZEZ3dDclNNLVVBLTBya2k1VlpyT00xM1VBeFZ2cmNheUplNXJDYy1Vam9FYWdibUxrWmFLd1ZIUU9LRGhhX09yQkQ0OXF6dW5MZ0Qwc0dXNF9fU3ZBR2NwU3R5eGNWdnpPMW1heVpsUkpGNA?oc=5",
       "datetime": 1790556600,
-      "headlineKo": "유가 상승과 채권 하락으로 아시아 주식 하락 - reuters.com",
-      "summaryKo": "유가 상승, 채권 후퇴로 아시아 주식 하락 reuters.com"
+      "headlineKo": "유가 상승, 채권 후퇴로 아시아 주식 하락 - Reuters",
+      "summaryKo": "유가 상승과 채권 후퇴로 아시아 주식 하락 - Reuters"
     },
     {
-      "headline": "Mideast oil exports rebound in September as Saudi Arabia boosts shipments - reuters.com",
-      "summary": "Mideast oil exports rebound in September as Saudi Arabia boosts shipments reuters.com",
+      "headline": "Mideast oil exports rebound in September as Saudi Arabia boosts shipments - Reuters",
+      "summary": "Mideast oil exports rebound in September as Saudi Arabia boosts shipments Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdHV0WUlQdWJ2UVdjY2FzaFliQU1TaEEtYmJQUzVUbjUwcWJkNkhZSXYwV1BwbkFqY3Z6MVRkT21jbWhCUEg0eGY0TnFnY25XVjFiQzBMbE5yOXJlbzZVYVZ3UTJMc1BjLUFtb0FVaDRWVW9jRVFUZDQ0N2hGX19NREk0MHhZZVNSekNVb01JLWVPR0gzdm9fQ1ZTbFlHa2hYSDFBY2JpdkpmeDRFM0dpU0VmdHluNzZGbkpZ?oc=5",
       "datetime": 1790554620,
-      "headlineKo": "사우디아라비아의 수출 증가로 9월 중동 석유 수출 반등 - reuters.com",
-      "summaryKo": "사우디아라비아의 수출 증가로 인해 9월 중동 석유 수출이 반등했습니다 reuters.com"
+      "headlineKo": "사우디아라비아의 수출 증가로 9월 중동 석유 수출이 반등 - Reuters",
+      "summaryKo": "사우디아라비아의 선적 증가로 인해 9월 중동 석유 수출이 반등했습니다."
     },
     {
-      "headline": "Oil heads higher as US-Iran peace talks in stalemate - reuters.com",
-      "summary": "Oil heads higher as US-Iran peace talks in stalemate reuters.com",
+      "headline": "Oil heads higher as US-Iran peace talks in stalemate - Reuters",
+      "summary": "Oil heads higher as US-Iran peace talks in stalemate Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU3FBcU1hWkxSdzlSbHdGdkJEbDR0REJsckozLWtuZGRwbXJvNU1kVnFMendhelM2Q3plNUFlUm1yZTljZDFiMEQwZjVDcWt2X011c193RWUtWTVlcEE4bjBKSWtYZ1A5MnhXS2hUSlVCN0lPcjhTRmNBc2V4ZERrclRaVW45NUl0cmtsb1g2d0s3SFB5NDRPc0lnRzVSZHZ2S0E?oc=5",
       "datetime": 1790547180,
-      "headlineKo": "교착 상태에 빠진 미국-이란 평화 협상으로 유가 상승 - reuters.com",
-      "summaryKo": "교착 상태에 빠진 미국-이란 평화 회담으로 유가 상승 reuters.com"
+      "headlineKo": "교착 상태에 빠진 미국-이란 평화 회담으로 유가 상승 - 로이터 통신",
+      "summaryKo": "교착 상태에 빠진 미국-이란 평화 협상으로 유가 상승 - 로이터"
     },
     {
-      "headline": "Iran-linked diesel price spike makes electric trucks cheaper than diesel in key EU markets, environmental group says - reuters.com",
-      "summary": "Iran-linked diesel price spike makes electric trucks cheaper than diesel in key EU markets, environmental group says reuters.com",
+      "headline": "Iran-linked diesel price spike makes electric trucks cheaper than diesel in key EU markets, environmental group says - Reuters",
+      "summary": "Iran-linked diesel price spike makes electric trucks cheaper than diesel in key EU markets, environmental group says Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZVBWUjdTSkRRcUtpSUp6djB6M1NoZHpMQmlsRXBpU3R2Z0ZuT2dOa09tYzBoQ1hQbXFGbVJGa3c2TmFiZ0JaUF85cU15bXVOcTBKdUgyYWdoUGRJT1htcmZEN0NJMGJlT0JtWHBPQjZJeDhiMzlQWFBYWFl3WDRMNE5nem12bkFobF8yMFJMaTZ4bkZwRVVQbEUwZG5UY0lXR1VZTnRFNVhZSkcxYnkxT3hsQTZlOF9UaEt4Q1VTem1PUURnQjdFRWViN0QtSzBVb0tlcFFpUnFFSFBMMnc?oc=5",
       "datetime": 1790546558,
-      "headlineKo": "이란 관련 디젤 가격 급등으로 주요 EU 시장에서 전기 트럭이 디젤보다 저렴해진다고 환경 단체가 밝혔습니다. - reuters.com",
-      "summaryKo": "이란 관련 디젤 가격 급등으로 주요 EU 시장에서 전기 트럭이 디젤보다 저렴해진다고 환경단체가 로이터통신에서 밝혔습니다."
+      "headlineKo": "이란 관련 디젤 가격 급등으로 주요 EU 시장에서 전기 트럭이 디젤보다 저렴해진다고 환경단체가 밝혔습니다.",
+      "summaryKo": "이란 관련 디젤 가격 급등으로 주요 EU 시장에서 전기 트럭이 디젤보다 저렴해진다고 환경 단체가 밝혔습니다."
     },
     {
       "headline": "South Korea demands apology from Ukraine over North Korean POW disclosure - Reuters",
@@ -309,12 +309,12 @@ const MARKET_DATA = {
       "summaryKo": "한국, 북한 포로 공개에 대해 우크라이나에 사과 요구 - 최신"
     },
     {
-      "headline": "Israel's Netanyahu visited Abu Dhabi on Sunday, Israeli official says - reuters.com",
-      "summary": "Israel's Netanyahu visited Abu Dhabi on Sunday, Israeli official says reuters.com",
+      "headline": "Israel's Netanyahu visited Abu Dhabi on Sunday, Israeli official says - Reuters",
+      "summary": "Israel's Netanyahu visited Abu Dhabi on Sunday, Israeli official says Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY0pGMVlCUkt6b01MNWJkNlc5WlA2dlV1bUs3MDl2LXhhWFU3MGVEenBLQk1SaHNSMU1LNlh1SUpDWUloTzROY0pvb3JnWjJOUmlFSXdiNDVEeXBsRDFZb3gyVUlOY1B3UWc2MVZFLXllN1BkVlV6SXNKWWx0ZVV2azFEOVRmSE84THhKX0lLZTMyanowSnNNb0ItOGc5blhxOVR6UDQwdXVpNVljMnpwbHJBRkEzYk9mQWc?oc=5",
       "datetime": 1790539303,
-      "headlineKo": "이스라엘 네타냐후가 일요일 아부다비를 방문했다고 이스라엘 관리가 밝혔습니다 - reuters.com",
+      "headlineKo": "이스라엘 네타냐후가 일요일 아부다비를 방문했다고 이스라엘 관리가 밝혔습니다 - 로이터 통신",
       "summaryKo": "이스라엘 네타냐후 총리가 일요일 아부다비를 방문했다고 이스라엘 관리가 밝혔습니다."
     },
     {
@@ -336,24 +336,24 @@ const MARKET_DATA = {
       "summaryKo": "이스라엘, 라말라 주둔 네덜란드 외교관의 외교적 지위 박탈 - 로이터"
     },
     {
-      "headline": "Hezbollah plans to contribute to project to house thousands of Lebanese displaced, chief says - reuters.com",
-      "summary": "Hezbollah plans to contribute to project to house thousands of Lebanese displaced, chief says reuters.com",
+      "headline": "Hezbollah plans to contribute to project to house thousands of Lebanese displaced, chief says - Reuters",
+      "summary": "Hezbollah plans to contribute to project to house thousands of Lebanese displaced, chief says Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMVNNUHRJYW5NYlh3R2V0TVpWTGM0Q1dHb3FsLUROcGxvQUd6aEt0OFFpN3RaU2tuZjVkRk9zYXN4ZG55TDRRa1I5YTJrSzQzV1gtU1ZQbHBLTHVwVXdYOHN3ODZxZ1k3eXlidWhEUW93RDMzQW5wSDA0ZGprV1ZjcVljb3hwbTJWWi1yd1ZTdHVIVjRXekRnSzVrRHlIWjV2Q2V0YV9BVWZ2TXVXTW9rWjFxQ0tEOFpYcW5Ja3V0YXJFUFZjQW1NU1E0c2kxSHM?oc=5",
       "datetime": 1790527664,
-      "headlineKo": "헤즈볼라는 수천 명의 레바논 난민을 수용하는 프로젝트에 기여할 계획이라고 헤즈볼라는 말했습니다 - reuters.com"
+      "headlineKo": "헤즈볼라는 수천 명의 레바논 난민을 수용하는 프로젝트에 기여할 계획이라고 헤즈볼라는 말했습니다 - Reuters"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790574055.4681993,
+  "_news_last_success_at": 1790577827.0747852,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790574035.9876008,
-  "_updated_label": "2026-09-28 14:41",
-  "_last_attempt_at": 1790574035.9876008,
-  "_last_success_at": 1790574035.9876008,
+  "_fetched_at": 1790577809.1149888,
+  "_updated_label": "2026-09-28 15:44",
+  "_last_attempt_at": 1790577809.1149888,
+  "_last_success_at": 1790577809.1149888,
   "_collection_status": "ok",
   "_collection_errors": []
 };
