@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790572037.5630193,
+  "generatedAt": 1790574035.7650948,
   "events": [
     {
       "id": "c4756e3ae26ff61a7223",
@@ -241,6 +241,76 @@ const EVENT_DATA = {
         "목표주가 산식의 EPS",
         "적용 PER 변화",
         "회사 공식 가이던스"
+      ]
+    },
+    {
+      "id": "2284b4f0e1a54a847558",
+      "schemaVersion": 1,
+      "eventType": "dilution_warrant",
+      "eventLabel": "워런트·신주·희석 가능성",
+      "primaryTicker": "SNDK",
+      "relatedTickers": [
+        "SNDK",
+        "SPY"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Should You Buy Sandisk Stock After Its $14 Billion Buyback Announcement?",
+      "headlineKo": "140억 달러 규모의 자사주 매입 발표 후 Sandisk 주식을 구매해야 합니까?",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=7e40290596dfa02e73f8d42f0feec08e68ca67e49c6fbd5f28bd35c1f7b8aba8",
+        "publishedAt": 1790562000,
+        "collectedAt": 1790573969.9960763
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "140억 달러 규모의 자사주 매입 발표 후 Sandisk 주식을 구매해야 합니까?",
+        "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool Sandisk에 참여하세요( SNDK +1.38% )는 S&P 500에서 가장 인기 있는 주식이었으며 140억 달러 규모의 자사주 매입으로 랠리가 연장될 수 있습니다.",
+        "자사주 매입은 발행 주식 수를 줄여 인위적으로 주가를 높이지만, 이를 통해 제공할 수 있는 몇 가지 미묘한 신호가 있습니다."
+      ],
+      "marketInterpretation": [
+        "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $14 Billion, $14 billion, $15.5 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "SNDK의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "SNDK에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $14 Billion, $14 billion, $15.5 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "SNDK의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "SNDK",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "신규 주식 수·행사가격",
+        "조달 자금 사용처",
+        "완전희석 주식수와 EPS"
       ]
     },
     {
@@ -668,7 +738,7 @@ const EVENT_DATA = {
       "schemaVersion": 1,
       "eventType": "long_term_supply",
       "eventLabel": "장기 공급계약",
-      "primaryTicker": "PLTR",
+      "primaryTicker": "CRM",
       "relatedTickers": [
         "CRM",
         "PLTR",
@@ -692,7 +762,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5287b6c214906caf05e49bb7eb42b6ee9c77764999a1f05f298b26c35865d71f",
         "publishedAt": 1790552106,
-        "collectedAt": 1790571685.2359047
+        "collectedAt": 1790573969.9960763
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -703,10 +773,10 @@ const EVENT_DATA = {
       "marketInterpretation": [
         "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
         "이번 기사에서 확인된 구체적 수치: 1.52%, $ 234.02, 1.76 % — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
-        "PLTR에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+        "CRM에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
@@ -718,11 +788,11 @@ const EVENT_DATA = {
       "whyItMatters": [
         "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
         "이번 기사에서 확인된 구체적 수치: 1.52%, $ 234.02, 1.76 % — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
-          "ticker": "PLTR",
+          "ticker": "CRM",
           "direction": "확인 필요",
           "reason": "회사 실적과의 연결고리 확인",
           "basis": "analysis"
@@ -1446,7 +1516,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5aadfe09f010c16eecb25f80d7df3b4fe03773e679a318f78e8fa2303ff4d4fe",
         "publishedAt": 1790537461,
-        "collectedAt": 1790551248.2013555
+        "collectedAt": 1790573969.9960763
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1757,7 +1827,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9c2acbe7c1302ba70321ca68993297c3a065e28198000a66445d8f64c244c479",
         "publishedAt": 1790527920,
-        "collectedAt": 1790551248.2013555
+        "collectedAt": 1790573969.9960763
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3150,7 +3220,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3a67b38439d2132bef008015bd045c3cb902edb70788424e64df4cee018c4150",
         "publishedAt": 1790502300,
-        "collectedAt": 1790551248.2013555
+        "collectedAt": 1790573969.9960763
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3473,76 +3543,6 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
-    },
-    {
-      "id": "acdd008b064f05b3d046",
-      "schemaVersion": 1,
-      "eventType": "regulatory_legal_export",
-      "eventLabel": "규제·소송·수출 제한",
-      "primaryTicker": "SNDK",
-      "relatedTickers": [
-        "QQQ",
-        "SNDK"
-      ],
-      "relatedEntities": [],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Sandisk: The Market Still Doubts This Boom",
-      "headlineKo": "Sandisk: 시장은 여전히 ​​이러한 호황을 의심하고 있습니다.",
-      "source": {
-        "name": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=0926cfbb94d2716e21b1298c8dab584fcb5a653c28728daacf6b944e1151c1a1",
-        "publishedAt": 1790497561,
-        "collectedAt": 1790551248.2013555
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Sandisk: 시장은 여전히 ​​이러한 호황을 의심하고 있습니다(NASDAQ:SNDK) | 알파 요약 찾기 Sandisk는 2026년에 649%의 수익을 올리고 놀라운 수익 성장을 제공했음에도 불구하고 단지 8.2배의 미래 수익으로 거래됩니다.",
-        "데이터 센터 비트는 포트폴리오의 12%에서 38%로 급증하여 기존 소비자 NAND 수요에 대한 의존도를 줄였습니다.",
-        "AI 추론 요구 사항이 증가함에 따라 고객은 다년 약정을 확대하고 있으며, 이는 기업 수요가 여전히 과소평가되어 있다는 증거를 강화하고 있습니다."
-      ],
-      "marketInterpretation": [
-        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 649%, 12%, 38% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "SNDK의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "SNDK에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 649%, 12%, 38% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "SNDK의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "SNDK",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "공식 규제 적용일·대상 제품",
-        "회사의 매출 영향 추정",
-        "대체 제품·지역 판매"
-      ]
     },
     {
       "id": "8f144971e9901774e01b",
@@ -5443,7 +5443,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=42441dbf9da54cf378169bec47533a0a9492c2ef648055fbdfa9ec2ae6ad7f2f",
         "publishedAt": 1790426366,
-        "collectedAt": 1790551248.2013555
+        "collectedAt": 1790573969.9960763
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6293,7 +6293,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=58c23cfd58abe212c173f3b30bba5fbfefa8406d8ce58e9370ed9188f90b82e3",
         "publishedAt": 1790417100,
-        "collectedAt": 1790551248.2013555
+        "collectedAt": 1790573969.9960763
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7879,7 +7879,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=aecf2c6328a3a0cea1c628dad0a2c7effdeb5cad98602a758fab23dde11e5026",
         "publishedAt": 1790363985,
-        "collectedAt": 1790551248.2013555
+        "collectedAt": 1790573969.9960763
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8424,7 +8424,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d48f242763ee6ecba7a3bea1805b6ba6527d151bebf20eaa47f16ad723f8a8ce",
         "publishedAt": 1790360409,
-        "collectedAt": 1790551248.2013555
+        "collectedAt": 1790573969.9960763
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8796,7 +8796,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=11e1f7ba8080a7948619b3f506bb9ac7af120dbc6ad68c262bf345388c53584e",
         "publishedAt": 1790357884,
-        "collectedAt": 1790551248.2013555
+        "collectedAt": 1790573969.9960763
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8853,7 +8853,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=11e1f7ba8080a7948619b3f506bb9ac7af120dbc6ad68c262bf345388c53584e",
         "publishedAt": 1790357884,
-        "collectedAt": 1790551248.2013555
+        "collectedAt": 1790573969.9960763
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9476,7 +9476,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=996d18107bcb6c344fd64cdbbe6c9ba81aeee58ad5259f0828004f84adc39026",
         "publishedAt": 1790352927,
-        "collectedAt": 1790551248.2013555
+        "collectedAt": 1790573969.9960763
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10030,8 +10030,8 @@ const EVENT_DATA = {
         "kind": "reported",
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
+      "direction": "neutral",
+      "expectedHorizon": "다음 실적까지 확인",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Why Is Salesforce (CRM) Down 5.5% Since Last Earnings Report?",
@@ -10040,34 +10040,45 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=85059dde66cdb18d4f9ba1d85b956eefbb67326ecd6013a338d631c868e8e89e",
         "publishedAt": 1790346604,
-        "collectedAt": 1790551248.2013555
+        "collectedAt": 1790573969.9960763
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "지난 수익 보고서 이후 Salesforce(CRM)가 5.5% 하락한 이유는 무엇입니까?"
+        "Why Is Salesforce (CRM) Down 5.5% Since Last Earnings Report?",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
       ],
-      "marketInterpretation": [],
+      "marketInterpretation": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
       "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+        "CRM에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
       ],
       "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+        "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
       ],
       "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
           "ticker": "CRM",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
         }
       ],
-      "watch": []
+      "watch": [
+        "매출·영업이익 성장",
+        "정상화이익과 특이항목",
+        "가이던스·OCF·FCF"
+      ]
     },
     {
       "id": "455f00c7ec9831d1196b",
@@ -10165,7 +10176,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d8f68db7053b50519a99047d217db1cffa656ca07c88cf2f7b0fe6a6550f9d9e",
         "publishedAt": 1790344981,
-        "collectedAt": 1790551248.2013555
+        "collectedAt": 1790573969.9960763
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11009,7 +11020,7 @@ const EVENT_DATA = {
         "name": "ChartMill",
         "url": "https://finnhub.io/api/news?id=7a57b127c807435ce1ae147556022d031929592ac5100da85bd32efcfae7e28f",
         "publishedAt": 1790339450,
-        "collectedAt": 1790551248.2013555
+        "collectedAt": 1790573969.9960763
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11799,7 +11810,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=52516bc2d4e980e61a6a989c742fa73e548a2407529bfd8c5d65d6a418b4250f",
         "publishedAt": 1790329317,
-        "collectedAt": 1790551248.2013555
+        "collectedAt": 1790573969.9960763
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14405,7 +14416,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ebd6cae8fbb22847c5dc7de6f16df89b6342265361990dae6d20d2320d4417bf",
         "publishedAt": 1790283395,
-        "collectedAt": 1790551248.2013555
+        "collectedAt": 1790573969.9960763
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15473,7 +15484,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=dc87cd8372f12b2edf2e436f27a3a792335f5f56b2fe3b2c07723126e6e09968",
         "publishedAt": 1790275003,
-        "collectedAt": 1790551248.2013555
+        "collectedAt": 1790573969.9960763
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15937,7 +15948,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c7490e1cb2aca8f4de2138e1bb82a4f093f3b7da1ae3efd7d89337ea38ef1873",
         "publishedAt": 1790271292,
-        "collectedAt": 1790551248.2013555
+        "collectedAt": 1790573969.9960763
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16518,7 +16529,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=11ccf5b0b4427002145bbc7be512c657f0b7c1892cc2c33425d1416b00b85ea0",
         "publishedAt": 1790266017,
-        "collectedAt": 1790551248.2013555
+        "collectedAt": 1790573969.9960763
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17453,7 +17464,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=61aed548f4d2321752a021df11fad08199abb17b04bd471cd785bf814bb714a9",
         "publishedAt": 1790255102,
-        "collectedAt": 1790551248.2013555
+        "collectedAt": 1790573969.9960763
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17892,6 +17903,7 @@ const EVENT_DATA = {
     "SPY": [
       "c4756e3ae26ff61a7223",
       "b24c0448258e4f7b59d1",
+      "2284b4f0e1a54a847558",
       "0916819f1050d15ada29",
       "7c3fe09a8e92cbd4e0e0",
       "d9b735d1d9663a390a28",
@@ -18189,7 +18201,6 @@ const EVENT_DATA = {
       "39d8bc92327d68403b6f",
       "f9e107ff09469c572d39",
       "bcdf0585322d98a81891",
-      "acdd008b064f05b3d046",
       "0ff9f1cb6434e9ef2017",
       "398d2f4d21d93a2ae2ae",
       "18396909fa81707f0dd5",
@@ -18246,9 +18257,9 @@ const EVENT_DATA = {
     ],
     "SNDK": [
       "b24c0448258e4f7b59d1",
+      "2284b4f0e1a54a847558",
       "0916819f1050d15ada29",
       "8f2fd24c3e051de19fff",
-      "acdd008b064f05b3d046",
       "60c46943e1ca99bfbe48",
       "a7f634b175678f73b967",
       "256a58e344b56f709be3",
