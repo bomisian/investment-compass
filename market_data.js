@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 93.19000244140625,
+      "current": 93.87999725341797,
       "prevClose": 92.41000366210938,
-      "changeAbs": 0.779998779296875,
-      "changePct": 0.8440631407708685,
-      "pctRank": 86.24801271860095,
+      "changeAbs": 1.4699935913085938,
+      "changePct": 1.5907299351307473,
+      "pctRank": 86.64546899841018,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -17.4944621874498,
-      "ma20": 95.79900169372559,
-      "ma60": 86.1216672261556,
-      "chg1m": 9.660003662109375,
-      "chg3m": 22.44000244140625,
-      "chg1mPct": 11.564711843984405,
-      "chg3mPct": 31.717317938383395,
+      "drawdown1y": -16.883576989880567,
+      "ma20": 95.83350143432617,
+      "ma60": 86.13316713968912,
+      "chg1m": 10.349998474121094,
+      "chg3m": 23.12999725341797,
+      "chg1mPct": 12.390756165899008,
+      "chg3mPct": 32.69257562320561,
       "lastDate": "2026-09-28",
       "bars": 1258,
       "symbol": "CL=F",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4253.7001953125,
+      "current": 4248.7001953125,
       "prevClose": 4321.2001953125,
-      "changeAbs": -67.5,
-      "changePct": -1.562066022148704,
+      "changeAbs": -72.5,
+      "changePct": -1.6777746163819414,
       "pctRank": 86.65607625099285,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -20.019173559364177,
-      "ma20": 4393.664990234375,
-      "ma60": 4312.7033284505205,
-      "chg1m": -410.2998046875,
-      "chg3m": 214.80029296875,
-      "chg1mPct": -8.797165623659948,
-      "chg3mPct": 5.31828711189655,
+      "drawdown1y": -20.113186798154214,
+      "ma20": 4393.414990234375,
+      "ma60": 4312.6199951171875,
+      "chg1m": -415.2998046875,
+      "chg3m": 209.80029296875,
+      "chg1mPct": -8.904369740298028,
+      "chg3mPct": 5.194491025811363,
       "lastDate": "2026-09-28",
       "bars": 1259,
       "symbol": "GC=F",
@@ -237,22 +237,40 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Oil rebounds after Trump rejects Iran peace deal - reuters.com",
-      "summary": "Oil rebounds after Trump rejects Iran peace deal reuters.com",
+      "headline": "Stocks cautious in Asia as oil gains, yields rise - Reuters",
+      "summary": "Stocks cautious in Asia as oil gains, yields rise Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU3FBcU1hWkxSdzlSbHdGdkJEbDR0REJsckozLWtuZGRwbXJvNU1kVnFMendhelM2Q3plNUFlUm1yZTljZDFiMEQwZjVDcWt2X011c193RWUtWTVlcEE4bjBKSWtYZ1A5MnhXS2hUSlVCN0lPcjhTRmNBc2V4ZERrclRaVW45NUl0cmtsb1g2d0s3SFB5NDRPc0lnRzVSZHZ2S0E?oc=5",
-      "datetime": 1790547929,
-      "headlineKo": "트럼프가 이란 평화협정을 거부한 후 유가 반등 - reuters.com",
-      "summaryKo": "트럼프가 이란 평화협정을 거부한 후 유가 반등 reuters.com"
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNjVwRkxEMEdFMlBlSmpIbDZEZ3dDclNNLVVBLTBya2k1VlpyT00xM1VBeFZ2cmNheUplNXJDYy1Vam9FYWdibUxrWmFLd1ZIUU9LRGhhX09yQkQ0OXF6dW5MZ0Qwc0dXNF9fU3ZBR2NwU3R5eGNWdnpPMW1heVpsUkpGNA?oc=5",
+      "datetime": 1790556600,
+      "headlineKo": "유가 상승, 수익률 상승으로 아시아 증시 조심스러워 - Reuters",
+      "summaryKo": "유가 상승과 수익률 상승으로 아시아 주식은 조심스러워 - 로이터"
     },
     {
-      "headline": "Iran-linked diesel price spike makes electric trucks cheaper than diesel in key EU markets, environmental group says - reuters.com",
-      "summary": "Iran-linked diesel price spike makes electric trucks cheaper than diesel in key EU markets, environmental group says reuters.com",
+      "headline": "Mideast oil exports rebound in September as Saudi Arabia boosts shipments - Reuters",
+      "summary": "Mideast oil exports rebound in September as Saudi Arabia boosts shipments Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdHV0WUlQdWJ2UVdjY2FzaFliQU1TaEEtYmJQUzVUbjUwcWJkNkhZSXYwV1BwbkFqY3Z6MVRkT21jbWhCUEg0eGY0TnFnY25XVjFiQzBMbE5yOXJlbzZVYVZ3UTJMc1BjLUFtb0FVaDRWVW9jRVFUZDQ0N2hGX19NREk0MHhZZVNSekNVb01JLWVPR0gzdm9fQ1ZTbFlHa2hYSDFBY2JpdkpmeDRFM0dpU0VmdHluNzZGbkpZ?oc=5",
+      "datetime": 1790554620,
+      "headlineKo": "사우디아라비아의 수출 증가로 9월 중동 석유 수출이 반등 - Reuters",
+      "summaryKo": "사우디아라비아의 선적 증가로 인해 9월 중동 석유 수출이 반등했습니다."
+    },
+    {
+      "headline": "Oil heads higher as US-Iran peace talks in stalemate - Reuters",
+      "summary": "Oil heads higher as US-Iran peace talks in stalemate Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU3FBcU1hWkxSdzlSbHdGdkJEbDR0REJsckozLWtuZGRwbXJvNU1kVnFMendhelM2Q3plNUFlUm1yZTljZDFiMEQwZjVDcWt2X011c193RWUtWTVlcEE4bjBKSWtYZ1A5MnhXS2hUSlVCN0lPcjhTRmNBc2V4ZERrclRaVW45NUl0cmtsb1g2d0s3SFB5NDRPc0lnRzVSZHZ2S0E?oc=5",
+      "datetime": 1790547180,
+      "headlineKo": "교착 상태에 빠진 미국-이란 평화 회담으로 유가 상승 - 로이터 통신",
+      "summaryKo": "교착 상태에 빠진 미국-이란 평화 협상으로 유가 상승 - 로이터"
+    },
+    {
+      "headline": "Iran-linked diesel price spike makes electric trucks cheaper than diesel in key EU markets, environmental group says - Reuters",
+      "summary": "Iran-linked diesel price spike makes electric trucks cheaper than diesel in key EU markets, environmental group says Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZVBWUjdTSkRRcUtpSUp6djB6M1NoZHpMQmlsRXBpU3R2Z0ZuT2dOa09tYzBoQ1hQbXFGbVJGa3c2TmFiZ0JaUF85cU15bXVOcTBKdUgyYWdoUGRJT1htcmZEN0NJMGJlT0JtWHBPQjZJeDhiMzlQWFBYWFl3WDRMNE5nem12bkFobF8yMFJMaTZ4bkZwRVVQbEUwZG5UY0lXR1VZTnRFNVhZSkcxYnkxT3hsQTZlOF9UaEt4Q1VTem1PUURnQjdFRWViN0QtSzBVb0tlcFFpUnFFSFBMMnc?oc=5",
       "datetime": 1790546558,
-      "headlineKo": "이란 관련 디젤 가격 급등으로 주요 EU 시장에서 전기 트럭이 디젤보다 저렴해진다고 환경 단체가 밝혔습니다. - reuters.com",
-      "summaryKo": "이란 관련 디젤 가격 급등으로 주요 EU 시장에서 전기 트럭이 디젤보다 저렴해진다고 환경단체가 로이터통신에서 밝혔습니다."
+      "headlineKo": "이란 관련 디젤 가격 급등으로 주요 EU 시장에서 전기 트럭이 디젤보다 저렴해진다고 환경단체가 밝혔습니다.",
+      "summaryKo": "이란 관련 디젤 가격 급등으로 주요 EU 시장에서 전기 트럭이 디젤보다 저렴해진다고 환경 단체가 밝혔습니다."
     },
     {
       "headline": "South Korea demands apology from Ukraine over North Korean POW disclosure - Reuters",
@@ -264,12 +282,12 @@ const MARKET_DATA = {
       "summaryKo": "한국, 북한 포로 공개에 대해 우크라이나에 사과 요구 - 최신"
     },
     {
-      "headline": "Israel's Netanyahu visited Abu Dhabi on Sunday, Israeli official says - reuters.com",
-      "summary": "Israel's Netanyahu visited Abu Dhabi on Sunday, Israeli official says reuters.com",
+      "headline": "Israel's Netanyahu visited Abu Dhabi on Sunday, Israeli official says - Reuters",
+      "summary": "Israel's Netanyahu visited Abu Dhabi on Sunday, Israeli official says Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY0pGMVlCUkt6b01MNWJkNlc5WlA2dlV1bUs3MDl2LXhhWFU3MGVEenBLQk1SaHNSMU1LNlh1SUpDWUloTzROY0pvb3JnWjJOUmlFSXdiNDVEeXBsRDFZb3gyVUlOY1B3UWc2MVZFLXllN1BkVlV6SXNKWWx0ZVV2azFEOVRmSE84THhKX0lLZTMyanowSnNNb0ItOGc5blhxOVR6UDQwdXVpNVljMnpwbHJBRkEzYk9mQWc?oc=5",
       "datetime": 1790539303,
-      "headlineKo": "이스라엘 네타냐후가 일요일 아부다비를 방문했다고 이스라엘 관리가 밝혔습니다 - reuters.com",
+      "headlineKo": "이스라엘 네타냐후가 일요일 아부다비를 방문했다고 이스라엘 관리가 밝혔습니다 - 로이터 통신",
       "summaryKo": "이스라엘 네타냐후 총리가 일요일 아부다비를 방문했다고 이스라엘 관리가 밝혔습니다."
     },
     {
@@ -291,13 +309,13 @@ const MARKET_DATA = {
       "summaryKo": "이스라엘, 라말라 주둔 네덜란드 외교관의 외교적 지위 박탈 - 로이터"
     },
     {
-      "headline": "Hezbollah plans to contribute to project to house thousands of Lebanese displaced, chief says - reuters.com",
-      "summary": "Hezbollah plans to contribute to project to house thousands of Lebanese displaced, chief says reuters.com",
+      "headline": "Hezbollah plans to contribute to project to house thousands of Lebanese displaced, chief says - Reuters",
+      "summary": "Hezbollah plans to contribute to project to house thousands of Lebanese displaced, chief says Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMVNNUHRJYW5NYlh3R2V0TVpWTGM0Q1dHb3FsLUROcGxvQUd6aEt0OFFpN3RaU2tuZjVkRk9zYXN4ZG55TDRRa1I5YTJrSzQzV1gtU1ZQbHBLTHVwVXdYOHN3ODZxZ1k3eXlidWhEUW93RDMzQW5wSDA0ZGprV1ZjcVljb3hwbTJWWi1yd1ZTdHVIVjRXekRnSzVrRHlIWjV2Q2V0YV9BVWZ2TXVXTW9rWjFxQ0tEOFpYcW5Ja3V0YXJFUFZjQW1NU1E0c2kxSHM?oc=5",
       "datetime": 1790527664,
-      "headlineKo": "헤즈볼라는 수천 명의 레바논 난민을 수용하는 프로젝트에 기여할 계획이라고 헤즈볼라는 말했습니다 - reuters.com",
-      "summaryKo": "헤즈볼라는 수천 명의 레바논 난민을 수용하는 프로젝트에 기여할 계획이라고 최고 책임자는 reuters.com에서 밝혔습니다."
+      "headlineKo": "헤즈볼라는 수천 명의 레바논 난민을 수용하는 프로젝트에 기여할 계획이라고 헤즈볼라는 말했습니다 - Reuters",
+      "summaryKo": "헤즈볼라는 수천 명의 레바논 난민을 수용하는 프로젝트에 기여할 계획이라고 헤즈볼라는 로이터 통신에 말했습니다."
     },
     {
       "headline": "Here are the 4 big things we're watching in the stock market in the week ahead",
@@ -309,13 +327,13 @@ const MARKET_DATA = {
       "summaryKo": "연준의 이중 권한에 대한 양측의 관심이 집중되고 있습니다. 또한 Micron은 보고하고 Eli Lilly는 비만 파이프라인에 대한 업데이트를 제공합니다."
     },
     {
-      "headline": "PODCAST: Iran-US diplomacy, RAF Fairford and Brazil elections - reuters.com",
-      "summary": "PODCAST: Iran-US diplomacy, RAF Fairford and Brazil elections reuters.com",
+      "headline": "PODCAST: Iran-US diplomacy, RAF Fairford and Brazil elections - Reuters",
+      "summary": "PODCAST: Iran-US diplomacy, RAF Fairford and Brazil elections Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMEhHb1NVZ2VyRG1XTjdXS2hvVWVDem9lNERpM3hNWWstWjFrbjA5YXhHb0c5a0txQW1mT3IyWGFBa2FCQ19melMwVkh2S2xINWdOdXVrSDBHanRaeUU0d0N6aXk2LTJaQ3RZc3NRNmFFZi1PcWJzV29VU0pwcXBUR3pOZVFLUmhRMHBOajZtYlBua0diZEE?oc=5",
       "datetime": 1790524884,
-      "headlineKo": "팟캐스트: 이란-미국 외교, RAF 페어포드 및 브라질 선거 - reuters.com",
-      "summaryKo": "팟캐스트: 이란-미국 외교, RAF Fairford 및 브라질 선거 reuters.com"
+      "headlineKo": "팟캐스트: 이란-미국 외교, RAF 페어포드 및 브라질 선거 - Reuters",
+      "summaryKo": "팟캐스트: 이란-미국 외교, RAF Fairford 및 브라질 선거 Reuters"
     },
     {
       "headline": "At NFL games this season, drone defense tech aims to bring down disruptions",
@@ -325,35 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790510401,
       "headlineKo": "이번 시즌 NFL 경기에서 드론 방어 기술은 혼란을 줄이는 것을 목표로 합니다.",
       "summaryKo": "NFL은 CNBC에 2021년부터 2025년까지 경기장에서 10,852건의 드론 위반을 기록했다고 말했습니다. 재규어는 드론 방어 회사와 계약한 첫 번째 팀이 되었습니다."
-    },
-    {
-      "headline": "Wall Street money takes back over from small investors as driving force of the stock market",
-      "summary": "One firm sees a \"reasonably constructive signal for risk appetite\" among institutional investors.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/27/institutional-investors-stocks-treaurys-retail-traders.html",
-      "datetime": 1790508755,
-      "headlineKo": "월스트리트 자금이 소액 투자자들로부터 주식 시장의 원동력으로 자리 잡았습니다.",
-      "summaryKo": "한 회사는 기관 투자자들 사이에서 \"위험 선호도에 대한 합리적으로 건설적인 신호\"를 보고 있습니다."
-    },
-    {
-      "headline": "Deputy chair of Turkey's AK Party resigns after trading allegation amid funds crisis - reuters.com",
-      "summary": "Deputy chair of Turkey's AK Party resigns after trading allegation amid funds crisis reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcTYwUjZCOEZlU3ZxVDI1Q1Ytb2pqM1l1U2NLQUxoVU5nQzZ3ZDdkZ1U2LXF2MEZVSHFFR1NWdWlGek5aS1ZoelpVaG5wSjZaamVSVWM3alBqY3FqWmk0SXdmUjRmWEdvQ2ZKU3JTQ3M5TFpJeDFjdk82Y05aNmNYUWhrUzJhQ0x4enNDXy15WVp2VWJCNndSaG5oYWZpTHZxTEd4T1ZiTlJUYzVaemdnQWNpNUxZeFJFS2xiRENDR3R6aWFIWUVMQWp1RkJ2dVk?oc=5",
-      "datetime": 1790507503,
-      "headlineKo": "터키 AK당 부의장, 자금 위기 속 거래 의혹 후 사임 - reuters.com"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790558720.679584,
+  "_news_last_success_at": 1790562422.3271194,
   "fgi": {
     "score": 37,
     "rating": "fear"
   },
-  "_fetched_at": 1790558702.0005598,
-  "_updated_label": "2026-09-28 10:25",
-  "_last_attempt_at": 1790558702.0005598,
-  "_last_success_at": 1790558702.0005598,
+  "_fetched_at": 1790562405.6507814,
+  "_updated_label": "2026-09-28 11:27",
+  "_last_attempt_at": 1790562405.6507814,
+  "_last_success_at": 1790562405.6507814,
   "_collection_status": "ok",
   "_collection_errors": []
 };
