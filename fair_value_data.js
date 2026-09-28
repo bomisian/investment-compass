@@ -1,6 +1,6 @@
 window.FAIR_VALUE = {
  "schema": "100/v2",
- "generated_at": "2026-09-28T15:06:55.171102+00:00",
+ "generated_at": "2026-09-28T15:12:00.957525+00:00",
  "as_of_consensus_day": "2026-09-28",
  "consensus_fetched_day": "2026-09-28",
  "price_session_day": "2026-09-25",
