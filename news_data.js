@@ -3026,7 +3026,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "SPY": {
@@ -6525,7 +6525,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "MSFT": {
@@ -13049,9 +13049,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 150,
-      "removed": 1,
-      "updated": "2026-09-29 15:29"
+      "checked": 149,
+      "removed": 0,
+      "updated": "2026-09-29 16:05"
     }
   },
   "GOOGL": {
@@ -20650,7 +20650,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 173,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "AMZN": {
@@ -28031,7 +28031,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 181,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "META": {
@@ -35675,7 +35675,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "AAPL": {
@@ -42869,7 +42869,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 175,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "TSLA": {
@@ -50322,7 +50322,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 182,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "ORCL": {
@@ -56656,11 +56656,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "CRM": {
-    "_last_attempt_at": 1790642545.8610718,
+    "_last_attempt_at": 1790665492.4821537,
     "nextEarnings": {
       "date": "2026-12-01",
       "hour": "amc",
@@ -56715,7 +56715,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642553.339167
+          "analysisUpdatedAt": 1790665497.1918156
         },
         "headlineKo": "메타 플랫폼, AI 푸시로 Salesforce, ServiceNow 겨냥"
       },
@@ -56765,7 +56765,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642555.2721343
+          "analysisUpdatedAt": 1790665499.377088
         },
         "headlineKo": "Meta는 Microsoft, Salesforce 및 ServiceNow를 공지합니다."
       },
@@ -56785,7 +56785,7 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,693.20 −0.07% Dow Jones 51,505.90 −0.11% Nasdaq 100 30,319.60 −0.04% Russell 2000 2,820.96 −0.11% S&P 500 7,693.20 −0.07% 다우존스 51,505.90 −0.11% 나스닥 100 30,319.60 −0.04% 러셀 2000 2,820.96 −0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,694.00 −0.05% Dow Jones 51,523.90 −0.08% Nasdaq 100 30,310.80 −0.07% Russell 2000 2,819.66 −0.16% S&P 500 7,694.00 −0.05% 다우존스 51,523.90 −0.08% 나스닥 100 30,310.80 −0.07% 러셀 2000 2,819.66 −0.",
             "두 거대 AI 소프트웨어 기업은 모두 올 여름 강력한 에이전트 예약을 보고했지만 평가 스펙트럼의 정반대 위치에 있습니다.",
             "더 저렴한 제품을 구매하려는 주장은 보이는 것보다 강력하며 그에 반대하는 주장도 동일합니다… 작성자 Vandita Jadeja 2026년 9월 28일 오후 1시 30분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 이 이미지는 시장 동향과 기업 성과, r을 시각화합니다."
           ],
@@ -56825,11 +56825,11 @@ const NEWS_DATA = {
             "$1.5"
           ],
           "sourceExcerpt": [
-            "Skip to content ❚❚ At close S&P 500 7,693.20 −0.07% Dow Jones 51,505.90 −0.11% Nasdaq 100 30,319.60 −0.04% Russell 2000 2,820.96 −0.11% S&P 500 7,693.20 −0.07% Dow Jones 51,505.90 −0.11% Nasdaq 100 30,319.60 −0.04% Russell 2000 2,820.96 −0.",
+            "Skip to content ❚❚ At close S&P 500 7,694.00 −0.05% Dow Jones 51,523.90 −0.08% Nasdaq 100 30,310.80 −0.07% Russell 2000 2,819.66 −0.16% S&P 500 7,694.00 −0.05% Dow Jones 51,523.90 −0.08% Nasdaq 100 30,310.80 −0.07% Russell 2000 2,819.66 −0.",
             "Two AI software giants both reported strong agentic bookings this summer, but they sit at opposite ends of the valuation spectrum.",
             "The case for buying the cheaper one is stronger than it looks, and the case against it is equally… By Vandita Jadeja Published September 28, 2026, 1:30pm ET · 3 min read 𝕏 f ⧉ This image visualizes market trends and corporate performance, r"
           ],
-          "analysisUpdatedAt": 1790642559.2606921
+          "analysisUpdatedAt": 1790665503.6453638
         },
         "headlineKo": "세일즈포스는 저렴합니다. ServiceNow는 더 빠르게 성장하고 있습니다. 내가 사고 싶은 주식은 여기 있습니다."
       },
@@ -56977,7 +56977,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642553.339167
+          "analysisUpdatedAt": 1790665497.1918156
         }
       },
       {
@@ -57026,7 +57026,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642555.2721343
+          "analysisUpdatedAt": 1790665499.377088
         }
       },
       {
@@ -57045,7 +57045,7 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,693.20 −0.07% Dow Jones 51,505.90 −0.11% Nasdaq 100 30,319.60 −0.04% Russell 2000 2,820.96 −0.11% S&P 500 7,693.20 −0.07% 다우존스 51,505.90 −0.11% 나스닥 100 30,319.60 −0.04% 러셀 2000 2,820.96 −0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,694.00 −0.05% Dow Jones 51,523.90 −0.08% Nasdaq 100 30,310.80 −0.07% Russell 2000 2,819.66 −0.16% S&P 500 7,694.00 −0.05% 다우존스 51,523.90 −0.08% 나스닥 100 30,310.80 −0.07% 러셀 2000 2,819.66 −0.",
             "두 거대 AI 소프트웨어 기업은 모두 올 여름 강력한 에이전트 예약을 보고했지만 평가 스펙트럼의 정반대 위치에 있습니다.",
             "더 저렴한 제품을 구매하려는 주장은 보이는 것보다 강력하며 그에 반대하는 주장도 동일합니다… 작성자 Vandita Jadeja 2026년 9월 28일 오후 1시 30분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 이 이미지는 시장 동향과 기업 성과, r을 시각화합니다."
           ],
@@ -57085,11 +57085,11 @@ const NEWS_DATA = {
             "$1.5"
           ],
           "sourceExcerpt": [
-            "Skip to content ❚❚ At close S&P 500 7,693.20 −0.07% Dow Jones 51,505.90 −0.11% Nasdaq 100 30,319.60 −0.04% Russell 2000 2,820.96 −0.11% S&P 500 7,693.20 −0.07% Dow Jones 51,505.90 −0.11% Nasdaq 100 30,319.60 −0.04% Russell 2000 2,820.96 −0.",
+            "Skip to content ❚❚ At close S&P 500 7,694.00 −0.05% Dow Jones 51,523.90 −0.08% Nasdaq 100 30,310.80 −0.07% Russell 2000 2,819.66 −0.16% S&P 500 7,694.00 −0.05% Dow Jones 51,523.90 −0.08% Nasdaq 100 30,310.80 −0.07% Russell 2000 2,819.66 −0.",
             "Two AI software giants both reported strong agentic bookings this summer, but they sit at opposite ends of the valuation spectrum.",
             "The case for buying the cheaper one is stronger than it looks, and the case against it is equally… By Vandita Jadeja Published September 28, 2026, 1:30pm ET · 3 min read 𝕏 f ⧉ This image visualizes market trends and corporate performance, r"
           ],
-          "analysisUpdatedAt": 1790642559.2606921
+          "analysisUpdatedAt": 1790665503.6453638
         }
       },
       {
@@ -61073,15 +61073,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790642545.8610718,
-    "_updated_label": "2026-09-29 09:42",
-    "_last_success_at": 1790642545.8610718,
+    "_fetched_at": 1790665492.4821537,
+    "_updated_label": "2026-09-29 16:05",
+    "_last_success_at": 1790665492.4821537,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "PLTR": {
@@ -67162,7 +67162,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 142,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "NVDA": {
@@ -74930,7 +74930,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "AMD": {
@@ -81561,7 +81561,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 160,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "AVGO": {
@@ -85935,7 +85935,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "QCOM": {
@@ -89926,7 +89926,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "ARM": {
@@ -93083,7 +93083,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "MRVL": {
@@ -97099,11 +97099,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "INTC": {
-    "_last_attempt_at": 1790642545.8610718,
+    "_last_attempt_at": 1790665492.4821537,
     "nextEarnings": {
       "date": "2026-10-22",
       "hour": "amc",
@@ -97112,6 +97112,56 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Intel (INTC) Shared Its Factory Bill. Did It Give Up Too Much Flexibility?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4005048ddb73cd344eea5988bf40a33bc7171489cffeaee680fe0a3d74e0e188",
+        "datetime": 1790648380,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Intel (INTC) Shared Its Factory Bill. Did It Give Up Too Much Flexibility?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel (INTC) Shared Its Factory Bill. Did It Give Up Too Much Flexibility?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790665509.2276525
+        },
+        "headlineKo": "인텔(INTC)이 공장 명세서를 공유했습니다. 유연성을 너무 많이 포기했나요?"
+      },
       {
         "headline": "AMD, Intel, Western Digital, Vishay Intertechnology, and Penguin Solutions Stocks Trade Down, What You Need To Know",
         "source": "Yahoo",
@@ -97158,7 +97208,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642565.8658266
+          "analysisUpdatedAt": 1790665511.8309984
         },
         "headlineKo": "AMD, Intel, Western Digital, Vishay Intertechnology 및 Penguin Solutions 주식 거래 하락, 알아야 할 사항"
       },
@@ -97222,7 +97272,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool As the demand for advanced computing power reaches new heights, investors are evaluating two distinct paths in the chip industry.",
             "Deciding between Intel ( INTC -5.67% ) and Nvidia ( NVDA +1.68% ) involves comparing a legacy giant in transition against a high-flying market leader."
           ],
-          "analysisUpdatedAt": 1790642570.2708247
+          "analysisUpdatedAt": 1790665514.6717803
         },
         "headlineKo": "Intel vs. Nvidia: 2026년에는 어떤 반도체 주식을 사는 것이 더 나을까요?"
       },
@@ -97234,46 +97284,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Here's Why Intel (INTC) Fell More Than Broader Market",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "INTC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 INTC의 사업과 관련된 'Here's Why Intel (INTC) Fell More Than Broader Market' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642572.2946362
-        },
         "headlineKo": "인텔(INTC)이 더 넓은 시장보다 더 하락한 이유는 다음과 같습니다."
       },
       {
@@ -97285,16 +97295,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Intel vs. Qualcomm: 2026년에는 어떤 칩 주식을 구매하는 것이 더 나을까요?"
-      },
-      {
-        "headline": "Intel Stock Falls Over 4.8% as OpenShell Preserves an x86 Route",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=46aaf2f5cfcd6cca3c965244886fd04c2dd2d01b97d2478c6b872a9e8c4844d1",
-        "datetime": 1790613881,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "OpenShell이 ​​x86 경로를 유지함에 따라 Intel 주가는 4.8% 이상 하락합니다."
       },
       {
         "headline": "Intel: No Bad Products, Just Bad Prices (Rating Downgrade)",
@@ -97359,6 +97359,55 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "Intel (INTC) Shared Its Factory Bill. Did It Give Up Too Much Flexibility?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4005048ddb73cd344eea5988bf40a33bc7171489cffeaee680fe0a3d74e0e188",
+        "datetime": 1790648380,
+        "headlineKo": "인텔(INTC)이 공장 명세서를 공유했습니다. 유연성을 너무 많이 포기했나요?",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Intel (INTC) Shared Its Factory Bill. Did It Give Up Too Much Flexibility?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel (INTC) Shared Its Factory Bill. Did It Give Up Too Much Flexibility?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790665509.2276525
+        }
+      },
+      {
         "headline": "AMD, Intel, Western Digital, Vishay Intertechnology, and Penguin Solutions Stocks Trade Down, What You Need To Know",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bbcb8cf02e94c79b7afb86be45278f2db91324c7ca7e777d9946575da85f33d6",
@@ -97404,7 +97453,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642565.8658266
+          "analysisUpdatedAt": 1790665511.8309984
         }
       },
       {
@@ -97467,7 +97516,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool As the demand for advanced computing power reaches new heights, investors are evaluating two distinct paths in the chip industry.",
             "Deciding between Intel ( INTC -5.67% ) and Nvidia ( NVDA +1.68% ) involves comparing a legacy giant in transition against a high-flying market leader."
           ],
-          "analysisUpdatedAt": 1790642570.2708247
+          "analysisUpdatedAt": 1790665514.6717803
         }
       },
       {
@@ -102809,15 +102858,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790642545.8610718,
-    "_updated_label": "2026-09-29 09:42",
-    "_last_success_at": 1790642545.8610718,
+    "_fetched_at": 1790665492.4821537,
+    "_updated_label": "2026-09-29 16:05",
+    "_last_success_at": 1790665492.4821537,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 137,
+      "checked": 138,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "TSM": {
@@ -105934,7 +105983,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "ASML": {
@@ -108091,7 +108140,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "AMAT": {
@@ -110472,7 +110521,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "LRCX": {
@@ -111715,11 +111764,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1790642545.8610718,
+    "_last_attempt_at": 1790665492.4821537,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -111792,7 +111841,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642579.1320627
+          "analysisUpdatedAt": 1790665520.4291017
         },
         "headlineKo": "KLA(NASDAQ:KLAC)는 강력한 성장 기반과 건설적인 기술 설정을 결합합니다."
       },
@@ -111842,7 +111891,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642581.1200368
+          "analysisUpdatedAt": 1790665522.565107
         },
         "headlineKo": "Teradyne, AI 테스트 포트폴리오 강화: KLAC & COHU를 이길 수 있을까요?"
       },
@@ -111892,7 +111941,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642583.7724092
+          "analysisUpdatedAt": 1790665524.6962311
         },
         "headlineKo": "Zacks 분석가 블로그에서는 Applied Materials, Lam Research 및 KLA를 강조합니다."
       },
@@ -111982,7 +112031,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642579.1320627
+          "analysisUpdatedAt": 1790665520.4291017
         }
       },
       {
@@ -112031,7 +112080,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642581.1200368
+          "analysisUpdatedAt": 1790665522.565107
         }
       },
       {
@@ -112080,7 +112129,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642583.7724092
+          "analysisUpdatedAt": 1790665524.6962311
         }
       },
       {
@@ -112874,15 +112923,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790642545.8610718,
-    "_updated_label": "2026-09-29 09:43",
-    "_last_success_at": 1790642545.8610718,
+    "_fetched_at": 1790665492.4821537,
+    "_updated_label": "2026-09-29 16:05",
+    "_last_success_at": 1790665492.4821537,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "MU": {
@@ -120306,11 +120355,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 180,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "SNDK": {
-    "_last_attempt_at": 1790642545.8610718,
+    "_last_attempt_at": 1790665492.4821537,
     "nextEarnings": {
       "date": "2026-11-04",
       "hour": "",
@@ -120379,7 +120428,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Sandisk ( SNDK -3.65% ) stock climbed 22% on June 25.",
             "The flash memory company didn't report anything that day."
           ],
-          "analysisUpdatedAt": 1790642590.7204747
+          "analysisUpdatedAt": 1790665531.3290915
         },
         "headlineKo": "Sandisk는 Micron의 마지막 보고서 다음날 22% 상승했습니다. 마이크론은 수요일에 다시 보고합니다."
       },
@@ -120405,7 +120454,7 @@ const NEWS_DATA = {
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 3.65 %, $ 1,712.89, $260 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 3.65 %, $ 1,712.89, $251 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "SNDK의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -120431,10 +120480,10 @@ const NEWS_DATA = {
           "verifiedNumbers": [
             "3.65 %",
             "$ 1,712.89",
-            "$260",
+            "$251",
             "$ 1659.02",
             "$ 1762.00",
-            "$ 103.35",
+            "$ 112.00",
             "$ 2354.39",
             "71.47%"
           ],
@@ -120443,7 +120492,7 @@ const NEWS_DATA = {
             "ET Monday after OpenAI announced over the weekend that it will pause training on some of its artificial intelligence models as it investigates new reports of AI agents going \"rogue.\" Image source: Getty Images.",
             "Why this might be bad news for Sandisk stock Training AI models -- and even more using AI to answer questions (inference) and operate AI agents -- requires enormous amounts of memory."
           ],
-          "analysisUpdatedAt": 1790642594.6399243
+          "analysisUpdatedAt": 1790665534.1034682
         },
         "headlineKo": "오늘 Sandisk 주가가 하락한 이유"
       },
@@ -120493,7 +120542,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642596.9545403
+          "analysisUpdatedAt": 1790665535.8198247
         },
         "headlineKo": "AI 하드웨어 피로가 Sandisk와 Marvell로 확산되고 있습니다."
       },
@@ -120579,7 +120628,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Sandisk ( SNDK -3.65% ) stock climbed 22% on June 25.",
             "The flash memory company didn't report anything that day."
           ],
-          "analysisUpdatedAt": 1790642590.7204747
+          "analysisUpdatedAt": 1790665531.3290915
         }
       },
       {
@@ -120604,7 +120653,7 @@ const NEWS_DATA = {
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 3.65 %, $ 1,712.89, $260 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 3.65 %, $ 1,712.89, $251 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "SNDK의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -120630,10 +120679,10 @@ const NEWS_DATA = {
           "verifiedNumbers": [
             "3.65 %",
             "$ 1,712.89",
-            "$260",
+            "$251",
             "$ 1659.02",
             "$ 1762.00",
-            "$ 103.35",
+            "$ 112.00",
             "$ 2354.39",
             "71.47%"
           ],
@@ -120642,7 +120691,7 @@ const NEWS_DATA = {
             "ET Monday after OpenAI announced over the weekend that it will pause training on some of its artificial intelligence models as it investigates new reports of AI agents going \"rogue.\" Image source: Getty Images.",
             "Why this might be bad news for Sandisk stock Training AI models -- and even more using AI to answer questions (inference) and operate AI agents -- requires enormous amounts of memory."
           ],
-          "analysisUpdatedAt": 1790642594.6399243
+          "analysisUpdatedAt": 1790665534.1034682
         }
       },
       {
@@ -120691,7 +120740,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642596.9545403
+          "analysisUpdatedAt": 1790665535.8198247
         }
       },
       {
@@ -124435,15 +124484,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790642545.8610718,
-    "_updated_label": "2026-09-29 09:43",
-    "_last_success_at": 1790642545.8610718,
+    "_fetched_at": 1790665492.4821537,
+    "_updated_label": "2026-09-29 16:05",
+    "_last_success_at": 1790665492.4821537,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "WDC": {
@@ -126376,7 +126425,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "ANET": {
@@ -128264,7 +128313,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "COHR": {
@@ -130015,7 +130064,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "LITE": {
@@ -131681,7 +131730,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "GEV": {
@@ -134864,7 +134913,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "CEG": {
@@ -136437,7 +136486,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "VST": {
@@ -138052,7 +138101,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "ETN": {
@@ -140001,7 +140050,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "PWR": {
@@ -141854,7 +141903,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "HUBB": {
@@ -142486,11 +142535,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "VRT": {
-    "_last_attempt_at": 1790642545.8610718,
+    "_last_attempt_at": 1790665492.4821537,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -142499,6 +142548,56 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Vertiv (VRT): A $1.45 Billion Power Bet Lands As Wells Fargo Defends A Premium Multiple",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=28e1f008b28aeb926c7bcaba08b7e6b49c1604311bc60b5b33d50d7909e4e89a",
+        "datetime": 1790645583,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Vertiv (VRT): A $1.45 Billion Power Bet Lands As Wells Fargo Defends A Premium Multiple",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "VRT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 VRT의 사업과 관련된 'Vertiv (VRT): A $1.45 Billion Power Bet Lands As Wells Fargo Defends A Premium Multiple' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "VRT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790665541.3037913
+        },
+        "headlineKo": "Vertiv(VRT): Wells Fargo가 프리미엄 배수를 방어함에 따라 14억 5천만 달러의 파워 베팅이 이루어졌습니다."
+      },
       {
         "headline": "Why Vertiv Holdings Co. (VRT) Dipped More Than Broader Market Today",
         "source": "Yahoo",
@@ -142545,7 +142644,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642604.3261516
+          "analysisUpdatedAt": 1790665543.8362849
         },
         "headlineKo": "Vertiv Holdings Co.(VRT)가 오늘날 더 넓은 시장보다 하락한 이유"
       },
@@ -142595,7 +142694,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642607.186521
+          "analysisUpdatedAt": 1790665546.06909
         },
         "headlineKo": "Vertiv(VRT) 대 Eaton(ETN): 어떤 AI Power 주식을 구매하는 것이 더 나은가요?"
       },
@@ -142607,60 +142706,6 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Vertiv는 주식이 폭락하기 전에 무엇을 말했습니까?",
-            "| Trefis Vertiv는 주식이 폭락하기 전에 무엇을 말했습니까?",
-            "2026년 9월 28일 · Trefis Team VRT YTD +56.4% SPY YTD +13.7% XLI YTD +10.4% VRT 분석 → Vertiv(VRT) 주식은 2025년 9월 24일에 시작된 12개월 동안 79% 수익률을 기록했습니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 56.4%, 13.7%, 10.4% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "VRT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "VRT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "VRT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "56.4%",
-            "13.7%",
-            "10.4%",
-            "79%",
-            "$10,000",
-            "$17,900",
-            "37%",
-            "19.0%"
-          ],
-          "sourceExcerpt": [
-            "What Did Vertiv Say Before Its Stock Took Off?",
-            "| Trefis What Did Vertiv Say Before Its Stock Took Off?",
-            "September 28th, 2026 · by Trefis Team VRT YTD +56.4% SPY YTD +13.7% XLI YTD +10.4% Analyze VRT → Vertiv (VRT) stock returned 79% in the twelve months that began on September 24, 2025."
-          ],
-          "analysisUpdatedAt": 1790642610.8672278
-        },
         "headlineKo": "Vertiv는 주식이 폭락하기 전에 무엇을 말했습니까?"
       },
       {
@@ -142672,16 +142717,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "옵션 거래자는 Vertiv 주식에 대해 우리가 모르는 사실을 알고 있습니까?"
-      },
-      {
-        "headline": "How Much Further Could Vertiv Stock Fall?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=aecf2c6328a3a0cea1c628dad0a2c7effdeb5cad98602a758fab23dde11e5026",
-        "datetime": 1790363985,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Vertiv 주식은 얼마나 더 하락할 수 있나요?"
       },
       {
         "headline": "Vertiv Holdings Co (VRT) Shares Drop Into Securities Probe After Q2 Miss",
@@ -142738,6 +142773,55 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "Vertiv (VRT): A $1.45 Billion Power Bet Lands As Wells Fargo Defends A Premium Multiple",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=28e1f008b28aeb926c7bcaba08b7e6b49c1604311bc60b5b33d50d7909e4e89a",
+        "datetime": 1790645583,
+        "headlineKo": "Vertiv(VRT): Wells Fargo가 프리미엄 배수를 방어함에 따라 14억 5천만 달러의 파워 베팅이 이루어졌습니다.",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Vertiv (VRT): A $1.45 Billion Power Bet Lands As Wells Fargo Defends A Premium Multiple",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "VRT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 VRT의 사업과 관련된 'Vertiv (VRT): A $1.45 Billion Power Bet Lands As Wells Fargo Defends A Premium Multiple' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "VRT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790665541.3037913
+        }
+      },
+      {
         "headline": "Why Vertiv Holdings Co. (VRT) Dipped More Than Broader Market Today",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4d45fbcddcb5c46728f39ad856f68fc250a9546e190ce04e7782378ef668be3e",
@@ -142783,7 +142867,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642604.3261516
+          "analysisUpdatedAt": 1790665543.8362849
         }
       },
       {
@@ -142832,7 +142916,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642607.186521
+          "analysisUpdatedAt": 1790665546.06909
         }
       },
       {
@@ -144714,19 +144798,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790642545.8610718,
-    "_updated_label": "2026-09-29 09:43",
-    "_last_success_at": 1790642545.8610718,
+    "_fetched_at": 1790665492.4821537,
+    "_updated_label": "2026-09-29 16:05",
+    "_last_success_at": 1790665492.4821537,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 45,
+      "checked": 46,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "MOD": {
-    "_last_attempt_at": 1790642545.8610718,
+    "_last_attempt_at": 1790665492.4821537,
     "nextEarnings": {
       "date": "2026-10-26",
       "hour": "",
@@ -144781,7 +144865,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642618.1108575
+          "analysisUpdatedAt": 1790665552.9308004
         },
         "headlineKo": "시장 하락으로 모딘(MOD) 상승: 주요 사실"
       },
@@ -144831,7 +144915,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642620.6717587
+          "analysisUpdatedAt": 1790665555.3908875
         },
         "headlineKo": "Modine(MOD)은 더 넓은 시장보다 더 하락합니다: 알아야 할 사항"
       },
@@ -144881,7 +144965,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642623.1150098
+          "analysisUpdatedAt": 1790665557.7285445
         },
         "headlineKo": "월스트리트 상승세는 Modine(MOD)에 대해 낙관적입니다. 매수해야 할까요?"
       }
@@ -144933,7 +145017,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642618.1108575
+          "analysisUpdatedAt": 1790665552.9308004
         }
       },
       {
@@ -144982,7 +145066,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642620.6717587
+          "analysisUpdatedAt": 1790665555.3908875
         }
       },
       {
@@ -145031,7 +145115,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790642623.1150098
+          "analysisUpdatedAt": 1790665557.7285445
         }
       },
       {
@@ -145396,15 +145480,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790642545.8610718,
-    "_updated_label": "2026-09-29 09:43",
-    "_last_success_at": 1790642545.8610718,
+    "_fetched_at": 1790665492.4821537,
+    "_updated_label": "2026-09-29 16:05",
+    "_last_success_at": 1790665492.4821537,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "STX": {
@@ -146989,7 +147073,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "EME": {
@@ -147992,7 +148076,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "FIX": {
@@ -148855,7 +148939,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   },
   "BE": {
@@ -150544,7 +150628,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-29 15:29"
+      "updated": "2026-09-29 16:05"
     }
   }
 };
