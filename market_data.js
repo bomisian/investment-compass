@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 94.25,
+      "current": 93.97000122070312,
       "prevClose": 92.5999984741211,
-      "changeAbs": 1.6500015258789062,
-      "changePct": 1.7818591285830656,
+      "changeAbs": 1.3700027465820312,
+      "changePct": 1.4794846319191957,
       "pctRank": 86.793953858393,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -16.555995974759707,
-      "ma20": 96.19400138854981,
-      "ma60": 86.54016710917155,
-      "chg1m": 10.849998474121094,
-      "chg3m": 24.75,
-      "chg1mPct": 13.00959025852578,
-      "chg3mPct": 35.61151079136691,
+      "drawdown1y": -16.803892200401204,
+      "ma20": 96.18000144958496,
+      "ma60": 86.53550046284994,
+      "chg1m": 10.569999694824219,
+      "chg3m": 24.470001220703125,
+      "chg1mPct": 12.67386031347297,
+      "chg3mPct": 35.20863484993255,
       "lastDate": "2026-09-29",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 101.29399871826172,
+      "current": 101.26200103759766,
       "prevClose": 101.19999694824219,
-      "changeAbs": 0.09400177001953125,
-      "changePct": 0.09288712732630575,
-      "pctRank": 42.6412092283214,
+      "changeAbs": 0.06200408935546875,
+      "changePct": 0.06126886484708115,
+      "pctRank": 42.482100238663485,
       "min5y": 93.3499984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -0.3109948727405554,
-      "ma20": 99.9976993560791,
-      "ma60": 100.1257334391276,
-      "chg1m": 1.5940017700195312,
-      "chg3m": 0.10399627685546875,
-      "chg1mPct": 1.5987982134513345,
-      "chg3mPct": 0.10277327240473925,
+      "drawdown1y": -0.3424855532561222,
+      "ma20": 99.9960994720459,
+      "ma60": 100.12520014444986,
+      "chg1m": 1.5620040893554688,
+      "chg3m": 0.07199859619140625,
+      "chg1mPct": 1.5667042499172397,
+      "chg3mPct": 0.0711518869990114,
       "lastDate": "2026-09-29",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4159.7998046875,
+      "current": 4173.5,
       "prevClose": 4168.39990234375,
-      "changeAbs": -8.60009765625,
-      "changePct": -0.20631652091284372,
-      "pctRank": 85.21462639109699,
+      "changeAbs": 5.10009765625,
+      "changePct": 0.12235144841507141,
+      "pctRank": 85.53259141494436,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -21.784749528625515,
-      "ma20": 4373.314965820313,
-      "ma60": 4311.1533203125,
-      "chg1m": -370.10009765625,
-      "chg3m": 121.2998046875,
-      "chg1mPct": -8.170160613587992,
-      "chg3mPct": 3.0035856057323262,
+      "drawdown1y": -21.527149581948645,
+      "ma20": 4373.999975585937,
+      "ma60": 4311.381656901041,
+      "chg1m": -356.39990234375,
+      "chg3m": 135.0,
+      "chg1mPct": -7.867721363100105,
+      "chg3mPct": 3.342825306425653,
       "lastDate": "2026-09-29",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Trump denies offering Iran sanctions relief for nuclear concessions - Reuters",
+      "summary": "Trump denies offering Iran sanctions relief for nuclear concessions Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLVF4LWZMa3hVb1J2cTVXVjRXdmh0RkFkMkY4MHVWVTVhQmZCQjJpT1l2QmExeFBXd3FRa256Z1Z1Z3k3UFQzOGY5VW1OSHBrcFVGQjkzVkdRaG1rc3FkR19CY3dhajI3cy0zOFZUb2tkTkRLUDN1aHdYd0tRMHM2ZVZiMk1Ld0dvZEhzX0JsblduWjdGa0dfZ3pzSDRqejRRdWZUY0RQUzA?oc=5",
+      "datetime": 1790651700,
+      "headlineKo": "트럼프, 이란 제재 완화 제안 부인 - 로이터",
+      "summaryKo": "트럼프, 핵 양보를 위해 이란 제재 완화 제안 부인 - 로이터"
+    },
+    {
       "headline": "Dollar holds near two-month peak as yields rise, Fed data looms - Reuters",
       "summary": "Dollar holds near two-month peak as yields rise, Fed data looms Reuters",
       "source": "Reuters",
@@ -262,15 +271,6 @@ const MARKET_DATA = {
       "datetime": 1790637392,
       "headlineKo": "유가 상승으로 주가 하락, 국채수익률 부담 - Reuters",
       "summaryKo": "유가 상승으로 주가 하락, 국채수익률 부담 Reuters"
-    },
-    {
-      "headline": "US, Iran separately talk with mediators in latest bid to end war - Reuters",
-      "summary": "US, Iran separately talk with mediators in latest bid to end war Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMmZHcTFrcTNwTDVHTi1veU9KdXk1SC11X1NDWHB3VnBhbUQyOXh6Y002MFJaN1cyb0pfLVRIZnE4RUgwR1pieG0zY05NajZrNmFIbl9CTmpGbENaa01VOGEwZVZURnphdVdmUHJ2cWxGMURSNXNrRzdGanlKdWhqc0NiMWlHRnhTWlN4dlZIMjlNSEhxVlpkNFI4N1VTWHZfYWZsNi1lcE9GYjFsWDVmRW1QbFk2WjBhTWpfUS1aSTBNc3dBYW90RDVadjg?oc=5",
-      "datetime": 1790635343,
-      "headlineKo": "미국과 이란, 최근 전쟁 종식을 위해 중재자들과 별도로 대화 - 로이터 통신",
-      "summaryKo": "미국과 이란, 최근 전쟁 종식을 위해 중재자들과 별도로 대화 - 최신"
     },
     {
       "headline": "Pentagon awards RTX's Raytheon $20.7 billion contract for AMRAAM missiles amid stockpile concerns - Reuters",
@@ -314,7 +314,8 @@ const MARKET_DATA = {
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTG94TG8yOEo5eWNpRUFIUkMta1JRQ2RPZUJiTWxVbXdfdENtbmJxOXZOYUgxRTY5YUJ5eW92Z2tSUWtoVGVobXhhUk5CTkVBMW1rMndfR2FldUZud05YSkZuSFZRSmZQTU1xbmhSTFQyd3ozTk5LYVp1OGZzWGRvWWt6clZ1UzViY2JhMVVlODhvSFNTQno0Y1ZKOA?oc=5",
       "datetime": 1790627193,
-      "headlineKo": "트럼프 \"미국이 이란전에서 곧 승리할 것\" - 로이터"
+      "headlineKo": "트럼프 \"미국이 이란전에서 곧 승리할 것\" - 로이터",
+      "summaryKo": "트럼프 \"미국이 이란전에서 곧 승리할 것\" - 로이터"
     },
     {
       "headline": "Meta's splashy new business AI hire offers yet another reason to bank on Zuckerberg",
@@ -322,7 +323,8 @@ const MARKET_DATA = {
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/28/metas-splashy-new-business-ai-hire-offers-yet-another-reason-to-bank-on-zuckerberg.html",
       "datetime": 1790625676,
-      "headlineKo": "Meta의 화려한 새 비즈니스 AI 고용은 Zuckerberg에 투자해야 할 또 다른 이유를 제공합니다."
+      "headlineKo": "Meta의 화려한 새 비즈니스 AI 고용은 Zuckerberg에 투자해야 할 또 다른 이유를 제공합니다.",
+      "summaryKo": "Mark Zuckerberg는 MongoDB의 CJ Desai를 영입함으로써 엔터프라이즈 AI 비즈니스 구축에 진지하다는 점을 보여줍니다."
     },
     {
       "headline": "Boeing 737 Max 10 certification delayed by software issue, FAA says",
@@ -330,7 +332,8 @@ const MARKET_DATA = {
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/28/faa-boeing-737-max-10-certification-delay-software-issue.html",
       "datetime": 1790624802,
-      "headlineKo": "FAA는 보잉 737 Max 10 인증이 소프트웨어 문제로 지연됐다고 밝혔습니다."
+      "headlineKo": "FAA는 보잉 737 Max 10 인증이 소프트웨어 문제로 지연됐다고 밝혔습니다.",
+      "summaryKo": "FAA 관리자는 기관이 항공기의 소프트웨어 문제를 평가할 수 있을 때까지 Max 10이 연기될 것이라고 말했습니다."
     },
     {
       "headline": "Suspected plot to attack UK's Fairford airbase, used by US: What do we know? - Reuters",
@@ -338,19 +341,20 @@ const MARKET_DATA = {
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbnV2QWZzNUNIR09FaDEtTFBwU0g2SmZwZ0U3YVNNd0kyVGFQTDFLU2Y1T1FSOUFnSVNHNmtoc2hCYklVeHg4QVJ0UDJPRndqZVBiV3h1U3ZsZmpRQzdELWdMejhzazZMenlmT3FrdkVaM0dBRlBieGRlWG1DRDVnOTB0bjhiT3ppNzZSaWFwc2tGMU83U2c?oc=5",
       "datetime": 1790622754,
-      "headlineKo": "미국이 사용하는 영국의 페어포드 공군기지를 공격하려는 음모가 의심됩니다: 우리는 무엇을 알고 있습니까? - 로이터"
+      "headlineKo": "미국이 사용하는 영국의 페어포드 공군기지를 공격하려는 음모가 의심됩니다: 우리는 무엇을 알고 있습니까? - 로이터",
+      "summaryKo": "미국이 사용하는 영국의 페어포드 공군기지를 공격하려는 음모가 의심됩니다: 우리는 무엇을 알고 있습니까? 로이터"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790659317.8564813,
+  "_news_last_success_at": 1790663401.6909146,
   "fgi": {
     "score": 33.8285714285714,
     "rating": "fear"
   },
-  "_fetched_at": 1790659300.015245,
-  "_updated_label": "2026-09-29 14:22",
-  "_last_attempt_at": 1790659300.015245,
-  "_last_success_at": 1790659300.015245,
+  "_fetched_at": 1790663390.2961957,
+  "_updated_label": "2026-09-29 15:30",
+  "_last_attempt_at": 1790663390.2961957,
+  "_last_success_at": 1790663390.2961957,
   "_collection_status": "ok",
   "_collection_errors": []
 };
