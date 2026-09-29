@@ -8587,7 +8587,7 @@ function marketFairCellHtml(ticker){
     const rng = src ? `<span class="sub" style="font-size:10px;">${tag}</span> ${same ? f1(src.band[1]) : f1(src.band[0]) + '~' + f1(src.band[2])} · ${fairPosText(src.price, src.band)}<br>` : '';
     const why = src ? '' : `<br><span class="sub" style="font-size:10px;">${esc(cb.basis || '')}</span>`;
     const c = FAIR_JUDGE_COLOR[cb.judgment] || '#626b76';
-    return `<span title="${esc(cb.basis || '')} · 확실성 ${esc(cb.confidence || '—')} · 참고용(예측력 미검증) · 07 적정가 탭에서 근거 확인">${rng}<span style="font-size:11px;color:${c};font-weight:700;">${esc(cb.judgment)}</span><span class="sub" style="font-size:10px;"> ${(cb.basis || '').includes('단독') ? '(' + tag + ' 단독·미검증)' : '(참고)'}</span>${why}</span>`;
+    return `<span title="${esc(cb.basis || '')} · 확실성 ${esc(cb.confidence || '—')} · 참고용(예측력 미검증) · 07 적정가 탭에서 근거 확인">${rng}<span style="font-size:11px;color:${c};font-weight:700;">${esc(cb.judgment)}</span><span class="sub" style="font-size:10px;"> ${(cb.basis || '').includes('단독') ? '(' + tag + ' 단독·미검증)' : '(참고)'}</span>${why}${estMomentumChip(ticker) ? '<br>' + estMomentumChip(ticker) : ''}</span>`;
   }
   const x = marketFairRow(ticker);
   if(!x) return '<span class="sub">-</span>';
@@ -8621,6 +8621,39 @@ function fairAltAgeDays(){
   const A = (typeof window !== 'undefined') ? window.FAIR_VALUE_ALT : null;
   const g = A && A.generated_at ? Date.parse(A.generated_at) : NaN;
   return isFinite(g) ? (Date.now() - g) / 86400000 : null;   // 소수 일수(72시간 초과 판정용), 표시는 Math.floor
+}
+// 2026-09-29(사용자 요청): 애널리스트 이익 전망이 올라가는 중인지(상향/하향 우세) + 목표가는 참고만
+const EST_DIR_STYLE = {'상향 우세':{c:'#1a7f5a', i:'▲'}, '하향 우세':{c:'#b3261e', i:'▼'}, '혼조':{c:'#626b76', i:'◆'}};
+function estMomentum(ticker){
+  const a = marketFairAltRow(ticker);
+  const e = a && a.estimate_momentum;
+  return (e && e.status === 'ok') ? e : null;
+}
+function estMomentumChip(ticker){
+  const e = estMomentum(ticker);
+  if(!e) return '';
+  const st = EST_DIR_STYLE[e.direction] || EST_DIR_STYLE['혼조'];
+  return `<span style="font-size:10px;color:${st.c};" title="최근 30일 애널리스트 이익 추정 수정: 상향 ${e.revisions_up_30d}건 / 하향 ${e.revisions_down_30d}건">${st.i}전망 ${esc(e.direction)}</span>`;
+}
+function estMomentumBox(ticker){
+  const e = estMomentum(ticker);
+  if(!e) return '';
+  const pc = (v) => (typeof v === 'number' && isFinite(v)) ? (v >= 0 ? '+' : '') + (v * 100).toFixed(1) + '%' : '—';
+  const usd = (v) => (typeof v === 'number' && isFinite(v)) ? '$' + v.toFixed(v >= 100 ? 0 : 2) : '—';
+  const st = EST_DIR_STYLE[e.direction] || EST_DIR_STYLE['혼조'];
+  const scn = (typeof e.scenario_mid_if_trend_repeats === 'number')
+    ? `<li>최근 90일의 이익 전망 변화(${pc(e.ntm_change_90d)})가 앞으로 90일 한 번 더 반복된다고 가정하면 ② 가운데 값 → <b>${usd(e.scenario_mid_if_trend_repeats)}</b> (시나리오, 예측 아님)</li>` : '';
+  const tgt = (typeof e.target_mean === 'number')
+    ? `<li>애널리스트 평균 목표가 ${usd(e.target_mean)} (현재가 대비 ${pc(e.target_gap)}, ${e.n_target || '?'}명, 최저 ${usd(e.target_low)}~최고 ${usd(e.target_high)}) — <b>목표가는 대체로 높게 잡혀 기준가로 쓰지 않아요</b>. 방향(상향·하향 우세)만 참고해요.</li>` : '';
+  return `<div class="comment-box" style="margin-top:10px;">
+    <b>이익 전망 방향</b> <span style="color:${st.c};font-weight:700;">${st.i} ${esc(e.direction)}</span>
+    <ul style="margin:6px 0 0 18px;">
+      <li>최근 30일 애널리스트 이익 추정 수정: 상향 <b>${e.revisions_up_30d}</b>건 / 하향 <b>${e.revisions_down_30d}</b>건 (올해+내년 합산)</li>
+      <li>12개월 선행 EPS 추정치 변화: 30일 ${pc(e.ntm_change_30d)} · 90일 ${pc(e.ntm_change_90d)}</li>
+      ${scn}${tgt}
+    </ul>
+    <div class="sub" style="margin-top:4px;">'우세' 기준: 최근 30일 수정 3건 이상 중 (상향−하향)/전체가 ±0.3 이상이고 30일 추정치 변화 방향이 같을 때. 미리 정한 표시 기준이며, 이 방향이 주가를 예측하는지는 아직 검증 못 했어요(과거 추정치 이력이 없어 매일 쌓는 중).</div>
+  </div>`;
 }
 function fairMethodLines(cb){
   const b = (cb && cb.by_method) || {};
@@ -8687,7 +8720,7 @@ function fairValueAltBox(r){
   </div>`;
 }
 function tabFairValue(r){
-  return fairValueSummaryBox(r) + '<div class="chart-label" style="margin-top:4px;">① 같은 업종 대비 PER 방법</div>' + tabFairValue100(r) + fairValueAltBox(r);
+  return fairValueSummaryBox(r) + estMomentumBox(r.ticker) + '<div class="chart-label" style="margin-top:4px;">① 같은 업종 대비 PER 방법</div>' + tabFairValue100(r) + fairValueAltBox(r);
 }
 function tabFairValue100(r){
   const FV = (typeof window !== 'undefined') ? window.FAIR_VALUE : null;
