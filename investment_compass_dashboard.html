@@ -4190,7 +4190,7 @@ function renderSmartMoneyPage(){
     return `<tr style="cursor:pointer;" onclick="toggleSmartDetail('${esc(x.ticker)}')">
       <td><b>${esc(x.ticker)}</b>${x.in_watchlist ? ' ⭐' : ''}<div class="sub" style="font-size:10.5px;">${esc((x.name || '').slice(0, 26))}</div></td>
       <td>${x.holders}</td><td>${c['신규'] || 0}</td><td>${c['추가'] || 0}</td><td>${c['유지'] || 0}</td><td>${c['일부매도'] || 0}</td><td>${c['전량매도'] || 0}</td>
-      <td>${typeof p.price === 'number' ? '$' + p.price.toFixed(2) : '—'}<div class="sub" style="font-size:10px;">${esc(p.price_date || '')}</div></td>
+      <td>${typeof p.price === 'number' ? '$' + p.price.toFixed(2) : `<span class="sub" title="${esc(x.price_quality_reason || '')}">가격 자료부족</span>`}<div class="sub" style="font-size:10px;">${esc(p.price_date || '')}</div></td>
       <td>${pc(p.dd52)}</td><td>${pc(p.ret_1m)} / ${pc(p.ret_3m)} / ${pc(p.ret_6m)}</td>
       <td>${e ? `${esc((EST_DIR_STYLE[e.direction] || {}).i || '')}${pc(e.ntm_change_90d, 1)}` : '—'}</td>
       ${PRICE_ZONE_OPERATIONAL ? `<td>${z && z.zone ? esc(z.zone) : (z && z.status ? `<span class="sub">${esc(z.status)}</span>` : '<span class="sub">관심종목만</span>')}</td>` : ''}
