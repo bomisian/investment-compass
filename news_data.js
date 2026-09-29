@@ -3026,7 +3026,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "SPY": {
@@ -6530,7 +6530,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "MSFT": {
@@ -13251,7 +13251,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 155,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "GOOGL": {
@@ -21064,7 +21064,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 178,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "AMZN": {
@@ -28445,7 +28445,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 181,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "META": {
@@ -36008,7 +36008,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "AAPL": {
@@ -43323,7 +43323,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 177,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "TSLA": {
@@ -50865,7 +50865,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 183,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "ORCL": {
@@ -57384,11 +57384,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 152,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "CRM": {
-    "_last_attempt_at": 1790665492.4821537,
+    "_last_attempt_at": 1790688265.0884814,
     "nextEarnings": {
       "date": "2026-12-01",
       "hour": "amc",
@@ -57443,7 +57443,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665497.1918156
+          "analysisUpdatedAt": 1790688269.6654854
         },
         "headlineKo": "메타 플랫폼, AI 푸시로 Salesforce, ServiceNow 겨냥"
       },
@@ -57493,7 +57493,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665499.377088
+          "analysisUpdatedAt": 1790688271.3164194
         },
         "headlineKo": "Meta는 Microsoft, Salesforce 및 ServiceNow를 공지합니다."
       },
@@ -57513,7 +57513,7 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,694.00 −0.05% Dow Jones 51,523.90 −0.08% Nasdaq 100 30,310.80 −0.07% Russell 2000 2,819.66 −0.16% S&P 500 7,694.00 −0.05% 다우존스 51,523.90 −0.08% 나스닥 100 30,310.80 −0.07% 러셀 2000 2,819.66 −0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,707.60 +0.12% Dow Jones 51,583.90 +0.04% Nasdaq 100 30,427.20 +0.32% Russell 2000 2,827.96 +0.14% S&P 500 7,707.60 +0.12% 다우존스 51,583.90 +0.04% 나스닥 100 30,427.20 +0.32% 러셀 2000 2,827.96 +0.",
             "두 거대 AI 소프트웨어 기업은 모두 올 여름 강력한 에이전트 예약을 보고했지만 평가 스펙트럼의 정반대 위치에 있습니다.",
             "더 저렴한 제품을 구매하려는 주장은 보이는 것보다 강력하며 그에 반대하는 주장도 동일합니다… 작성자 Vandita Jadeja 2026년 9월 28일 오후 1시 30분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 이 이미지는 시장 동향과 기업 성과, r을 시각화합니다."
           ],
@@ -57553,11 +57553,11 @@ const NEWS_DATA = {
             "$1.5"
           ],
           "sourceExcerpt": [
-            "Skip to content ❚❚ At close S&P 500 7,694.00 −0.05% Dow Jones 51,523.90 −0.08% Nasdaq 100 30,310.80 −0.07% Russell 2000 2,819.66 −0.16% S&P 500 7,694.00 −0.05% Dow Jones 51,523.90 −0.08% Nasdaq 100 30,310.80 −0.07% Russell 2000 2,819.66 −0.",
+            "Skip to content ❚❚ At close S&P 500 7,707.60 +0.12% Dow Jones 51,583.90 +0.04% Nasdaq 100 30,427.20 +0.32% Russell 2000 2,827.96 +0.14% S&P 500 7,707.60 +0.12% Dow Jones 51,583.90 +0.04% Nasdaq 100 30,427.20 +0.32% Russell 2000 2,827.96 +0.",
             "Two AI software giants both reported strong agentic bookings this summer, but they sit at opposite ends of the valuation spectrum.",
             "The case for buying the cheaper one is stronger than it looks, and the case against it is equally… By Vandita Jadeja Published September 28, 2026, 1:30pm ET · 3 min read 𝕏 f ⧉ This image visualizes market trends and corporate performance, r"
           ],
-          "analysisUpdatedAt": 1790665503.6453638
+          "analysisUpdatedAt": 1790688274.6702845
         },
         "headlineKo": "세일즈포스는 저렴합니다. ServiceNow는 더 빠르게 성장하고 있습니다. 내가 사고 싶은 주식은 여기 있습니다."
       },
@@ -57705,7 +57705,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665497.1918156
+          "analysisUpdatedAt": 1790688269.6654854
         }
       },
       {
@@ -57754,7 +57754,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665499.377088
+          "analysisUpdatedAt": 1790688271.3164194
         }
       },
       {
@@ -57773,7 +57773,7 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,694.00 −0.05% Dow Jones 51,523.90 −0.08% Nasdaq 100 30,310.80 −0.07% Russell 2000 2,819.66 −0.16% S&P 500 7,694.00 −0.05% 다우존스 51,523.90 −0.08% 나스닥 100 30,310.80 −0.07% 러셀 2000 2,819.66 −0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,707.60 +0.12% Dow Jones 51,583.90 +0.04% Nasdaq 100 30,427.20 +0.32% Russell 2000 2,827.96 +0.14% S&P 500 7,707.60 +0.12% 다우존스 51,583.90 +0.04% 나스닥 100 30,427.20 +0.32% 러셀 2000 2,827.96 +0.",
             "두 거대 AI 소프트웨어 기업은 모두 올 여름 강력한 에이전트 예약을 보고했지만 평가 스펙트럼의 정반대 위치에 있습니다.",
             "더 저렴한 제품을 구매하려는 주장은 보이는 것보다 강력하며 그에 반대하는 주장도 동일합니다… 작성자 Vandita Jadeja 2026년 9월 28일 오후 1시 30분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 이 이미지는 시장 동향과 기업 성과, r을 시각화합니다."
           ],
@@ -57813,11 +57813,11 @@ const NEWS_DATA = {
             "$1.5"
           ],
           "sourceExcerpt": [
-            "Skip to content ❚❚ At close S&P 500 7,694.00 −0.05% Dow Jones 51,523.90 −0.08% Nasdaq 100 30,310.80 −0.07% Russell 2000 2,819.66 −0.16% S&P 500 7,694.00 −0.05% Dow Jones 51,523.90 −0.08% Nasdaq 100 30,310.80 −0.07% Russell 2000 2,819.66 −0.",
+            "Skip to content ❚❚ At close S&P 500 7,707.60 +0.12% Dow Jones 51,583.90 +0.04% Nasdaq 100 30,427.20 +0.32% Russell 2000 2,827.96 +0.14% S&P 500 7,707.60 +0.12% Dow Jones 51,583.90 +0.04% Nasdaq 100 30,427.20 +0.32% Russell 2000 2,827.96 +0.",
             "Two AI software giants both reported strong agentic bookings this summer, but they sit at opposite ends of the valuation spectrum.",
             "The case for buying the cheaper one is stronger than it looks, and the case against it is equally… By Vandita Jadeja Published September 28, 2026, 1:30pm ET · 3 min read 𝕏 f ⧉ This image visualizes market trends and corporate performance, r"
           ],
-          "analysisUpdatedAt": 1790665503.6453638
+          "analysisUpdatedAt": 1790688274.6702845
         }
       },
       {
@@ -61801,15 +61801,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790665492.4821537,
-    "_updated_label": "2026-09-29 16:05",
-    "_last_success_at": 1790665492.4821537,
+    "_fetched_at": 1790688265.0884814,
+    "_updated_label": "2026-09-29 22:24",
+    "_last_success_at": 1790688265.0884814,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "PLTR": {
@@ -67946,7 +67946,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "NVDA": {
@@ -75732,7 +75732,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "AMD": {
@@ -82525,7 +82525,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 165,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "AVGO": {
@@ -86962,7 +86962,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "QCOM": {
@@ -90953,7 +90953,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "ARM": {
@@ -94194,7 +94194,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "MRVL": {
@@ -98210,11 +98210,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "INTC": {
-    "_last_attempt_at": 1790665492.4821537,
+    "_last_attempt_at": 1790688265.0884814,
     "nextEarnings": {
       "date": "2026-10-22",
       "hour": "amc",
@@ -98223,6 +98223,56 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Intel: An Overlooked Business And A Ticking Clock",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=8d7c8bbe8ef11fd5f9733a5be83922dd9f6574cc9899553b9bb7e52c9f69b4f3",
+        "datetime": 1790662417,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Intel: An Overlooked Business And A Ticking Clock",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel: An Overlooked Business And A Ticking Clock' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790688279.1406062
+        },
+        "headlineKo": "인텔: 간과된 비즈니스와 똑딱거리는 시계"
+      },
       {
         "headline": "Intel (INTC) Shared Its Factory Bill. Did It Give Up Too Much Flexibility?",
         "source": "Yahoo",
@@ -98269,7 +98319,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665509.2276525
+          "analysisUpdatedAt": 1790688281.2251952
         },
         "headlineKo": "인텔(INTC)이 공장 명세서를 공유했습니다. 유연성을 너무 많이 포기했나요?"
       },
@@ -98319,7 +98369,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665511.8309984
+          "analysisUpdatedAt": 1790688283.8255222
         },
         "headlineKo": "AMD, Intel, Western Digital, Vishay Intertechnology 및 Penguin Solutions 주식 거래 하락, 알아야 할 사항"
       },
@@ -98331,60 +98381,6 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Nvidia: 2026년에는 어떤 반도체 주식을 매수하는 것이 더 나은가요?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 고급 컴퓨팅 성능에 대한 수요가 새로운 정점에 도달함에 따라 투자자들은 칩 산업에서 두 ​​가지 별개의 경로를 평가하고 있습니다.",
-            "Intel( INTC -5.67% )과 Nvidia( NVDA +1.68% ) 사이를 결정하려면 전환 중인 기존 거대 기업과 고공행진 중인 시장 리더를 비교해야 합니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 5.67%, 1.68%, $116.03 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "INTC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "INTC에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "5.67%",
-            "1.68%",
-            "$116.03",
-            "5.67 %",
-            "$6.97",
-            "$228.86",
-            "1.68 %",
-            "$3.79"
-          ],
-          "sourceExcerpt": [
-            "Nvidia: Which Semiconductor Stock Is a Better Buy in 2026?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool As the demand for advanced computing power reaches new heights, investors are evaluating two distinct paths in the chip industry.",
-            "Deciding between Intel ( INTC -5.67% ) and Nvidia ( NVDA +1.68% ) involves comparing a legacy giant in transition against a high-flying market leader."
-          ],
-          "analysisUpdatedAt": 1790665514.6717803
-        },
         "headlineKo": "Intel vs. Nvidia: 2026년에는 어떤 반도체 주식을 사는 것이 더 나을까요?"
       },
       {
@@ -98396,16 +98392,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "인텔(INTC)이 더 넓은 시장보다 더 하락한 이유는 다음과 같습니다."
-      },
-      {
-        "headline": "Intel vs. Qualcomm: Which Chip Stock Is a Better Buy in 2026?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=36af7b73f308d271333276d854ba112e9c59d582bbf0b9ed058cbf22a3f2547f",
-        "datetime": 1790624153,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Intel vs. Qualcomm: 2026년에는 어떤 칩 주식을 구매하는 것이 더 나을까요?"
       },
       {
         "headline": "Intel: No Bad Products, Just Bad Prices (Rating Downgrade)",
@@ -98470,6 +98456,55 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "Intel: An Overlooked Business And A Ticking Clock",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=8d7c8bbe8ef11fd5f9733a5be83922dd9f6574cc9899553b9bb7e52c9f69b4f3",
+        "datetime": 1790662417,
+        "headlineKo": "인텔: 간과된 비즈니스와 똑딱거리는 시계",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Intel: An Overlooked Business And A Ticking Clock",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel: An Overlooked Business And A Ticking Clock' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790688279.1406062
+        }
+      },
+      {
         "headline": "Intel (INTC) Shared Its Factory Bill. Did It Give Up Too Much Flexibility?",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4005048ddb73cd344eea5988bf40a33bc7171489cffeaee680fe0a3d74e0e188",
@@ -98515,7 +98550,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665509.2276525
+          "analysisUpdatedAt": 1790688281.2251952
         }
       },
       {
@@ -98564,7 +98599,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665511.8309984
+          "analysisUpdatedAt": 1790688283.8255222
         }
       },
       {
@@ -103969,15 +104004,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790665492.4821537,
-    "_updated_label": "2026-09-29 16:05",
-    "_last_success_at": 1790665492.4821537,
+    "_fetched_at": 1790688265.0884814,
+    "_updated_label": "2026-09-29 22:24",
+    "_last_success_at": 1790688265.0884814,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 138,
+      "checked": 139,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "TSM": {
@@ -107250,7 +107285,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "ASML": {
@@ -109407,7 +109442,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "AMAT": {
@@ -111788,7 +111823,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "LRCX": {
@@ -113031,11 +113066,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1790665492.4821537,
+    "_last_attempt_at": 1790688265.0884814,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -113044,6 +113079,56 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "KLA: This Window Of Opportunity Won't Last Forever",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=11b88fd225ebb05a13ef10c2eaf8ae89ef9e6b1d9ba1e134a37fc2a7cc9c24bb",
+        "datetime": 1790663025,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "KLA: This Window Of Opportunity Won't Last Forever",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "KLAC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'KLA: This Window Of Opportunity Won't Last Forever' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "KLAC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790688288.592017
+        },
+        "headlineKo": "KLA: 기회의 창은 영원히 지속되지 않습니다"
+      },
       {
         "headline": "KLA (NASDAQ:KLAC) Pairs Strong Growth Fundamentals With a Constructive Technical Setup",
         "source": "ChartMill",
@@ -113108,7 +113193,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665520.4291017
+          "analysisUpdatedAt": 1790688289.998424
         },
         "headlineKo": "KLA(NASDAQ:KLAC)는 강력한 성장 기반과 건설적인 기술 설정을 결합합니다."
       },
@@ -113158,7 +113243,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665522.565107
+          "analysisUpdatedAt": 1790688292.4298575
         },
         "headlineKo": "Teradyne, AI 테스트 포트폴리오 강화: KLAC & COHU를 이길 수 있을까요?"
       },
@@ -113170,6 +113255,28 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "Zacks 분석가 블로그에서는 Applied Materials, Lam Research 및 KLA를 강조합니다."
+      },
+      {
+        "headline": "KLA (KLAC) Is Deepening Its Role In Semiconductor Metrology",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0508a3d1d26a4eca3ace5b7f0415dd81ba3670db4889c215710b3bff047423c0",
+        "datetime": 1790230444,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "KLA(KLAC)는 반도체 계측 분야에서 역할을 심화하고 있습니다."
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "KLA: This Window Of Opportunity Won't Last Forever",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=11b88fd225ebb05a13ef10c2eaf8ae89ef9e6b1d9ba1e134a37fc2a7cc9c24bb",
+        "datetime": 1790663025,
+        "headlineKo": "KLA: 기회의 창은 영원히 지속되지 않습니다",
+        "relevance": 0.5,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "low",
@@ -113178,7 +113285,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "The Zacks Analyst Blog Highlights Applied Materials, Lam Research and KLA",
+            "KLA: This Window Of Opportunity Won't Last Forever",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -113202,38 +113309,15 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 KLAC의 사업과 관련된 'The Zacks Analyst Blog Highlights Applied Materials, Lam Research and KLA' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'KLA: This Window Of Opportunity Won't Last Forever' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "KLAC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.5,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665524.6962311
-        },
-        "headlineKo": "Zacks 분석가 블로그에서는 Applied Materials, Lam Research 및 KLA를 강조합니다."
+          "analysisUpdatedAt": 1790688288.592017
+        }
       },
-      {
-        "headline": "KLA (KLAC) Is Deepening Its Role In Semiconductor Metrology",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0508a3d1d26a4eca3ace5b7f0415dd81ba3670db4889c215710b3bff047423c0",
-        "datetime": 1790230444,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "KLA(KLAC)는 반도체 계측 분야에서 역할을 심화하고 있습니다."
-      },
-      {
-        "headline": "EXCLUSIVE: Beyond Nvidia: Why Jensen Investment's Allen Bond Favors Broadcom, KLAC, Amphenol",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=2e020918d11f90010ce04ad9340ca9e55c7b5bb8a68c338121c17e6eccdf756a",
-        "datetime": 1790168972,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "독점: Nvidia를 넘어서: Jensen Investment의 Allen Bond가 Broadcom, KLAC, Amphen을 선호하는 이유"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "KLA (NASDAQ:KLAC) Pairs Strong Growth Fundamentals With a Constructive Technical Setup",
         "source": "ChartMill",
@@ -113298,7 +113382,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665520.4291017
+          "analysisUpdatedAt": 1790688289.998424
         }
       },
       {
@@ -113347,7 +113431,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665522.565107
+          "analysisUpdatedAt": 1790688292.4298575
         }
       },
       {
@@ -114190,15 +114274,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790665492.4821537,
-    "_updated_label": "2026-09-29 16:05",
-    "_last_success_at": 1790665492.4821537,
+    "_fetched_at": 1790688265.0884814,
+    "_updated_label": "2026-09-29 22:24",
+    "_last_success_at": 1790688265.0884814,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 26,
+      "checked": 27,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "MU": {
@@ -121816,11 +121900,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "SNDK": {
-    "_last_attempt_at": 1790665492.4821537,
+    "_last_attempt_at": 1790688265.0884814,
     "nextEarnings": {
       "date": "2026-11-04",
       "hour": "",
@@ -121829,6 +121913,106 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "As Macro Fears Grow Rapidly, Sandisk Is Printing Money",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=a8fb82f74ddb4a9287e88396fb389353355111a81910c03522b8f682bcf0ad0f",
+        "datetime": 1790672412,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "As Macro Fears Grow Rapidly, Sandisk Is Printing Money",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "SNDK",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 SNDK의 사업과 관련된 'As Macro Fears Grow Rapidly, Sandisk Is Printing Money' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "SNDK 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790688297.1542282
+        },
+        "headlineKo": "매크로에 대한 두려움이 빠르게 커지면서 Sandisk는 돈을 인쇄하고 있습니다"
+      },
+      {
+        "headline": "The Zacks Analyst Blog Highlights Seagate, Western Digital, Micron and Sandisk",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=78670df92098c7ff15c9bbde736b803aa93fabbddb797c95d07abcd575b85502",
+        "datetime": 1790662440,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "The Zacks Analyst Blog Highlights Seagate, Western Digital, Micron and Sandisk",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "SNDK",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 SNDK의 사업과 관련된 'The Zacks Analyst Blog Highlights Seagate, Western Digital, Micron and Sandisk' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "SNDK 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790688299.309554
+        },
+        "headlineKo": "Zacks 분석가 블로그에서는 Seagate, Western Digital, Micron 및 Sandisk를 강조합니다."
+      },
       {
         "headline": "Sandisk Jumped 22% the Day After Micron's Last Report. Micron Reports Again Wednesday.",
         "source": "Yahoo",
@@ -121889,7 +122073,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Sandisk ( SNDK -3.65% ) stock climbed 22% on June 25.",
             "The flash memory company didn't report anything that day."
           ],
-          "analysisUpdatedAt": 1790665531.3290915
+          "analysisUpdatedAt": 1790688301.9160373
         },
         "headlineKo": "Sandisk는 Micron의 마지막 보고서 다음날 22% 상승했습니다. 마이크론은 수요일에 다시 보고합니다."
       },
@@ -121901,60 +122085,6 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "오늘 Sandisk 주가가 하락한 이유 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Sandisk( SNDK -3.65% ) 주가는 오후 2시 45분까지 3.9% 하락했습니다.",
-            "OpenAI는 지난 주말 AI 에이전트가 \"불법\"으로 행동한다는 새로운 보고를 조사하면서 일부 인공 지능 모델에 대한 훈련을 중단할 것이라고 발표한 후 월요일(ET) 월요일에 발표했습니다. 이미지 출처: 게티 이미지.",
-            "이것이 Sandisk 주식 트레이닝 AI 모델에 나쁜 소식이 될 수 있는 이유는 무엇입니까? AI를 사용하여 질문에 답하고(추론) AI 에이전트를 운영하는 것에는 엄청난 양의 메모리가 필요합니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 3.65 %, $ 1,712.89, $251 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "SNDK의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "SNDK",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "SNDK에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "3.65 %",
-            "$ 1,712.89",
-            "$251",
-            "$ 1659.02",
-            "$ 1762.00",
-            "$ 112.00",
-            "$ 2354.39",
-            "71.47%"
-          ],
-          "sourceExcerpt": [
-            "Why Sandisk Stock Dropped Today | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Sandisk ( SNDK -3.65% ) stock fell 3.9% through 2:45 p.m.",
-            "ET Monday after OpenAI announced over the weekend that it will pause training on some of its artificial intelligence models as it investigates new reports of AI agents going \"rogue.\" Image source: Getty Images.",
-            "Why this might be bad news for Sandisk stock Training AI models -- and even more using AI to answer questions (inference) and operate AI agents -- requires enormous amounts of memory."
-          ],
-          "analysisUpdatedAt": 1790665534.1034682
-        },
         "headlineKo": "오늘 Sandisk 주가가 하락한 이유"
       },
       {
@@ -121965,6 +122095,18 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "AI 하드웨어 피로가 Sandisk와 Marvell로 확산되고 있습니다."
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "As Macro Fears Grow Rapidly, Sandisk Is Printing Money",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=a8fb82f74ddb4a9287e88396fb389353355111a81910c03522b8f682bcf0ad0f",
+        "datetime": 1790672412,
+        "headlineKo": "매크로에 대한 두려움이 빠르게 커지면서 Sandisk는 돈을 인쇄하고 있습니다",
+        "relevance": 0.67,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "low",
@@ -121973,7 +122115,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AI Hardware Fatigue Is Spreading to Sandisk and Marvell",
+            "As Macro Fears Grow Rapidly, Sandisk Is Printing Money",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -121997,38 +122139,64 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 SNDK의 사업과 관련된 'AI Hardware Fatigue Is Spreading to Sandisk and Marvell' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 SNDK의 사업과 관련된 'As Macro Fears Grow Rapidly, Sandisk Is Printing Money' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "SNDK 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.67,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665535.8198247
-        },
-        "headlineKo": "AI 하드웨어 피로가 Sandisk와 Marvell로 확산되고 있습니다."
+          "analysisUpdatedAt": 1790688297.1542282
+        }
       },
       {
-        "headline": "SanDisk's 600% Rally Is Heading Into a Big Memory Test",
+        "headline": "The Zacks Analyst Blog Highlights Seagate, Western Digital, Micron and Sandisk",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2d6b87042aadc3edc8be84e8d477afaebeb36a8131d11a0db9c9cce8fcb16701",
-        "datetime": 1790606827,
+        "url": "https://finnhub.io/api/news?id=78670df92098c7ff15c9bbde736b803aa93fabbddb797c95d07abcd575b85502",
+        "datetime": 1790662440,
+        "headlineKo": "Zacks 분석가 블로그에서는 Seagate, Western Digital, Micron 및 Sandisk를 강조합니다.",
         "relevance": 0.67,
         "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "SanDisk의 600% 랠리가 대규모 메모리 테스트로 향하고 있습니다."
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "The Zacks Analyst Blog Highlights Seagate, Western Digital, Micron and Sandisk",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "SNDK",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 SNDK의 사업과 관련된 'The Zacks Analyst Blog Highlights Seagate, Western Digital, Micron and Sandisk' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "SNDK 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790688299.309554
+        }
       },
-      {
-        "headline": "PENG vs. SNDK: Which AI Data Center Infrastructure Provider Is Better?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=460d000774db1c990e593ccb6ed017b3c15c96f4db748d5f460911b1ea33c973",
-        "datetime": 1790606280,
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "PENG 대 SNDK: 어느 AI 데이터 센터 인프라 제공업체가 더 낫습니까?"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Sandisk Jumped 22% the Day After Micron's Last Report. Micron Reports Again Wednesday.",
         "source": "Yahoo",
@@ -122089,7 +122257,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Sandisk ( SNDK -3.65% ) stock climbed 22% on June 25.",
             "The flash memory company didn't report anything that day."
           ],
-          "analysisUpdatedAt": 1790665531.3290915
+          "analysisUpdatedAt": 1790688301.9160373
         }
       },
       {
@@ -125945,15 +126113,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790665492.4821537,
-    "_updated_label": "2026-09-29 16:05",
-    "_last_success_at": 1790665492.4821537,
+    "_fetched_at": 1790688265.0884814,
+    "_updated_label": "2026-09-29 22:25",
+    "_last_success_at": 1790688265.0884814,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 94,
+      "checked": 96,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "WDC": {
@@ -127935,7 +128103,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "ANET": {
@@ -129823,7 +129991,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "COHR": {
@@ -131574,7 +131742,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "LITE": {
@@ -133212,7 +133380,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "GEV": {
@@ -136395,7 +136563,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "CEG": {
@@ -137968,7 +138136,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "VST": {
@@ -139583,7 +139751,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "ETN": {
@@ -141532,7 +141700,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "PWR": {
@@ -143385,7 +143553,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "HUBB": {
@@ -144017,11 +144185,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "VRT": {
-    "_last_attempt_at": 1790665492.4821537,
+    "_last_attempt_at": 1790688265.0884814,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -144076,7 +144244,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665541.3037913
+          "analysisUpdatedAt": 1790688309.1149669
         },
         "headlineKo": "Vertiv(VRT): Wells Fargo가 프리미엄 배수를 방어함에 따라 14억 5천만 달러의 파워 베팅이 이루어졌습니다."
       },
@@ -144126,7 +144294,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665543.8362849
+          "analysisUpdatedAt": 1790688310.858934
         },
         "headlineKo": "Vertiv Holdings Co.(VRT)가 오늘날 더 넓은 시장보다 하락한 이유"
       },
@@ -144176,7 +144344,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665546.06909
+          "analysisUpdatedAt": 1790688312.714258
         },
         "headlineKo": "Vertiv(VRT) 대 Eaton(ETN): 어떤 AI Power 주식을 구매하는 것이 더 나은가요?"
       },
@@ -144300,7 +144468,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665541.3037913
+          "analysisUpdatedAt": 1790688309.1149669
         }
       },
       {
@@ -144349,7 +144517,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665543.8362849
+          "analysisUpdatedAt": 1790688310.858934
         }
       },
       {
@@ -144398,7 +144566,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665546.06909
+          "analysisUpdatedAt": 1790688312.714258
         }
       },
       {
@@ -146280,19 +146448,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790665492.4821537,
-    "_updated_label": "2026-09-29 16:05",
-    "_last_success_at": 1790665492.4821537,
+    "_fetched_at": 1790688265.0884814,
+    "_updated_label": "2026-09-29 22:25",
+    "_last_success_at": 1790688265.0884814,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "MOD": {
-    "_last_attempt_at": 1790665492.4821537,
+    "_last_attempt_at": 1790688265.0884814,
     "nextEarnings": {
       "date": "2026-10-26",
       "hour": "",
@@ -146347,7 +146515,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665552.9308004
+          "analysisUpdatedAt": 1790688318.0468202
         },
         "headlineKo": "시장 하락으로 모딘(MOD) 상승: 주요 사실"
       },
@@ -146397,7 +146565,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665555.3908875
+          "analysisUpdatedAt": 1790688319.7588916
         },
         "headlineKo": "Modine(MOD)은 더 넓은 시장보다 더 하락합니다: 알아야 할 사항"
       },
@@ -146447,7 +146615,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665557.7285445
+          "analysisUpdatedAt": 1790688322.0743937
         },
         "headlineKo": "월스트리트 상승세는 Modine(MOD)에 대해 낙관적입니다. 매수해야 할까요?"
       }
@@ -146499,7 +146667,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665552.9308004
+          "analysisUpdatedAt": 1790688318.0468202
         }
       },
       {
@@ -146548,7 +146716,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665555.3908875
+          "analysisUpdatedAt": 1790688319.7588916
         }
       },
       {
@@ -146597,7 +146765,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790665557.7285445
+          "analysisUpdatedAt": 1790688322.0743937
         }
       },
       {
@@ -146962,15 +147130,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790665492.4821537,
-    "_updated_label": "2026-09-29 16:05",
-    "_last_success_at": 1790665492.4821537,
+    "_fetched_at": 1790688265.0884814,
+    "_updated_label": "2026-09-29 22:25",
+    "_last_success_at": 1790688265.0884814,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "STX": {
@@ -148604,7 +148772,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "EME": {
@@ -149607,7 +149775,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "FIX": {
@@ -150470,7 +150638,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   },
   "BE": {
@@ -152131,7 +152299,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-29 22:00"
+      "updated": "2026-09-29 22:25"
     }
   }
 };

@@ -3043,20 +3043,29 @@ function rsiBoundaryInfo(r){
   const c = r && r.series && r.series.closes, dts = r && r.series && r.series.dates;
   if(!Array.isArray(c) || !Array.isArray(dts) || c.length < 200 || dts.length !== c.length) return {hidden: '가격 이력 부족(200봉 미만)'};
   if(!c.every(v => typeof v === 'number' && isFinite(v) && v > 0)) return {hidden: '비정상 종가 포함'};
-  const lastD = String(dts[dts.length - 1] || '');
-  if(!/^\d{4}-\d{2}-\d{2}$/.test(lastD)) return {hidden: '날짜 형식 오류'};
+  // Codex L12-4: 모든 날짜가 실제 달력 날짜(YYYY-MM-DD)이고 엄격 오름차순인지 확인(중복·역순·NaN 거부)
+  const okDate = s => { if(typeof s !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(s)) return false; const d = new Date(s + 'T00:00:00Z'); return !isNaN(d) && d.toISOString().slice(0, 10) === s; };
+  for(let i = 0; i < dts.length; i++){
+    if(!okDate(dts[i])) return {hidden: '날짜 형식 오류'};
+    if(i > 0 && !(dts[i] > dts[i - 1])) return {hidden: '날짜 중복·역순'};
+  }
+  const lastD = dts[dts.length - 1];
+  { const wdL = new Date(lastD + 'T00:00:00Z').getUTCDay(); if(wdL === 0 || wdL === 6) return {hidden: '주말 날짜 봉(자료 이상)'}; }   // 121 경미2
+  if(typeof isUsTradingDay === 'function' && !isUsTradingDay(lastD)) return {hidden: '휴장일 날짜 봉(자료 이상)'};   // Codex L12-5
   const et = new Date(new Date().toLocaleString('en-US', {timeZone: 'America/New_York'}));
   const p2 = n => String(n).padStart(2, '0');
   const todayET = `${et.getFullYear()}-${p2(et.getMonth() + 1)}-${p2(et.getDate())}`;
   if(lastD > todayET) return {hidden: '미래 날짜 봉'};
   const wd = et.getDay(), mins = et.getHours() * 60 + et.getMinutes();
-  if(lastD === todayET && wd >= 1 && wd <= 5 && mins < 16 * 60 + 15) return {hidden: '장중 — 마감(미 동부 16:15) 후 표시'};
+  // 완료 세션 판정은 미 동부 시각 기준 하나로(Codex L12-7: dataHealth.lastBarIsTodayIntraday는 시각과 무관하게 '오늘 봉'이면 true라 마감 후 정상 봉까지 막음)
+  if(lastD === todayET && mins < 16 * 60 + 15) return {hidden: '장중 — 마감(미 동부 16:15) 후 표시'};
   const dayDiff = (a, b) => (Date.parse(b + 'T00:00:00Z') - Date.parse(a + 'T00:00:00Z')) / 86400000;
   if(dayDiff(lastD, todayET) > 5) return {hidden: '마지막 종가가 5일보다 오래됨'};
   const tail = dts.slice(-260);
   for(let i = 1; i < tail.length; i++){ if(dayDiff(tail[i - 1], tail[i]) > 5) return {hidden: '최근 1년 가격에 5일 넘는 빈 구간'}; }
   const judge = p => { const cc = c.concat([p]); const ts = computeTechnicalSeries(cc, null, sma(cc, 200)); const i = cc.length - 1;
     return {rsi: ts.rsiArr[i], score: ts.scores[i], entry: ts.entryFlags[i], ma200: sma(cc, 200)[i]}; };
+  { const st0 = rsiStateAt(c); if(!st0 || (st0.avgG === 0 && st0.avgL === 0)) return {hidden: '가격 변화 없음(RSI 무의미)'}; }   // 121 경미1
   const est = rsiThresholdPrice(c, RSI_PULLBACK_HI);
   if(!est) return {hidden: 'RSI 계산 불가'};
   const lastRsi = last(rsi(c));
@@ -3065,6 +3074,7 @@ function rsiBoundaryInfo(r){
   for(let k = 0; k < 200 && p > 0; k++){ j = judge(p); if(j.rsi < RSI_PULLBACK_HI) break; p = Math.round((p - 0.01) * 100) / 100; }
   if(!(p > 0) || !j || !(j.rsi < RSI_PULLBACK_HI)) return {hidden: '경계 가격 찾기 실패'};
   const above = judge(Math.round((p + 0.01) * 100) / 100);
+  if(!(above.rsi >= RSI_PULLBACK_HI)) return {hidden: '경계 확인 실패(1센트 위도 38 미만)'};   // Codex L12-4 예방: 경계 명시 검증
   return {state: 'boundary', lastDate: lastD, last: c[c.length - 1], p, rsiAt: j.rsi, rsiAbove: above.rsi, scoreAt: j.score, entryAt: j.entry, ma200At: j.ma200, lastRsi};
 }
 function rsiBoundaryHtml(r){
@@ -4431,7 +4441,7 @@ function smYearLookup(v){
   const k = String(v || '').trim().toUpperCase();
   if(!el) return;
   if(!k){ el.innerHTML = ''; return; }
-  if((S.rows || {})[k]){ const y = (S.rows[k].year || {}); el.innerHTML = `위 목록 대상 종목이에요 — 올해 매수 ${y.n_buyers || 0}명 · 이탈 ${y.n_sellers || 0}명 · 현재 보유 ${S.rows[k].holders || 0}명. ${(y.n_buyers || 0) ? "'올해 매수 목록'에서 겹침 1명 이상으로" : (y.n_sellers || 0) ? "'올해 보고상 전량 이탈 목록'에서" : "'현재 보유 기준' 보기에서"} 보여요`; return; }
+  if((S.rows || {})[k]){ const DVk = window.__smDiv || new Set(); const y0 = (S.rows[k].year || {}); const _f = a => (a || []).filter(d => !DVk.has(d.key)); const _mw = Number(smPrefs().minW) || 0; const _fw = a => _f(a).filter(d => !_mw || (d.w || 0) >= _mw); const y = {n_buyers: _fw(y0.buyers).length, n_sellers: _f(y0.sellers).length}; const _hn = (S.rows[k].investors || []).filter(i => i.action !== '전량매도' && !DVk.has(i.key) && (!_mw || (i.w || 0) >= _mw)).length; /* 119·Codex L12-6: 화면과 같은 집중+비중 기준 */ el.innerHTML = `위 목록 대상 종목이에요 — 올해 매수 ${y.n_buyers || 0}명 · 이탈 ${y.n_sellers || 0}명 · 현재 보유 ${_hn}명. ${(y.n_buyers || 0) ? "'올해 매수 목록'에서 겹침 1명 이상으로" : (y.n_sellers || 0) ? "'올해 보고상 전량 이탈 목록'에서" : "'현재 보유 기준' 보기에서"} 보여요`; return; }
   const o0 = (S.year_index || {})[k];
   const DV = new Set((S.managers || []).filter(m => (m.n_positions || 0) > 300 && (window.__smDiv || new Set()).has(m.key)).map(m => m.manager));
   const mw = Number(smPrefs().minW) || 0;
