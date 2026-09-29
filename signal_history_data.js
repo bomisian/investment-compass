@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790642625.6928256,
+  "generatedAt": 1790644509.9827125,
   "records": {
     "MSFT": [
       {
@@ -17757,6 +17757,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AMD": [
       {
+        "changedAt": 1790644509.9827125,
+        "dataAsOf": 1790636878,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -1.4,
+            "after": -3.4
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -4.37,
+            "after": -5
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "투자자들이 트럼프의 이란 제재 완화를 외면하면서 S&P 500, 다우, 나스닥은 수익률 상승으로 인한 압력 하락 — NVDA, BA, AMD, NVTS, CBRS 집중",
+        "newsUrl": "https://finnhub.io/api/news?id=b057d340744e7590865880f8a83751b466d402f8a17a19fb34b5a008d6e818fb",
+        "eventId": "f58b987533f7811cddb5",
+        "fingerprint": "{\"changes\": [{\"after\": -3.4, \"before\": -1.4, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -5, \"before\": -4.37, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"f58b987533f7811cddb5\"}"
+      },
+      {
         "changedAt": 1790640418.157528,
         "dataAsOf": 1790631451,
         "changes": [
@@ -19052,35 +19075,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=148d2b9a86f9fd2d148af7d671fb89645b9a830632cc135d26a642bc5aacc0af",
         "eventId": "e97402f29b3673422fa9",
         "fingerprint": "{\"changes\": [{\"after\": 1.75, \"before\": 2.62, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -5, \"before\": -3.7, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -4.6, \"before\": -3.73, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"e97402f29b3673422fa9\"}"
-      },
-      {
-        "changedAt": 1789502839.7789433,
-        "dataAsOf": 1789486736,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 1.92,
-            "after": 2.62
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -3.52,
-            "after": -3.7
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -5,
-            "after": -3.73
-          }
-        ],
-        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
-        "newsHeadline": "인도, 아이폰 수리 조사 확대 후 애플 주가 하락",
-        "newsUrl": "https://finnhub.io/api/news?id=0c5ad6092fabe1a15a62383727d518cb6da5eb62192629f1cb9e8df4d4d43151",
-        "eventId": "d84ab48fbd444914a48c",
-        "fingerprint": "{\"changes\": [{\"after\": 2.62, \"before\": 1.92, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.7, \"before\": -3.52, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -3.73, \"before\": -5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"d84ab48fbd444914a48c\"}"
       }
     ],
     "AVGO": [
@@ -25945,6 +25939,41 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "INTC": [
       {
+        "changedAt": 1790644509.9827125,
+        "dataAsOf": 1790606000,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.35,
+            "after": 0.7
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -3.5,
+            "after": -2.8
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.53,
+            "after": -0.18
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "주의 강화",
+            "after": "중립·확인 대기"
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Intel은 석유로 인한 환율 우려로 4% 하락하고 NVIDIA는 기록적인 1,500억 달러 자사주 매입으로 3% 상승합니다. 대만 반도체 전표",
+        "newsUrl": "https://finnhub.io/api/news?id=c137c0bee7bc7b4e2bab604d0f52aebd7876e01950616f18bd02213909f5b5bc",
+        "eventId": "bb2677c9783e279722b8",
+        "fingerprint": "{\"changes\": [{\"after\": 0.7, \"before\": 0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.8, \"before\": -3.5, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.18, \"before\": -0.53, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"bb2677c9783e279722b8\"}"
+      },
+      {
         "changedAt": 1790640418.157528,
         "dataAsOf": 1790606000,
         "changes": [
@@ -27696,47 +27725,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=c85b24cac3b2b14cb4bd0fffcafac0404e7ed0e2199f9e7c7f9b4cfe4a9350a7",
         "eventId": "8f467c43891b70437366",
         "fingerprint": "{\"changes\": [{\"after\": 2.1, \"before\": 1.57, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.57, \"before\": -2.62, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.17, \"before\": -0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"8f467c43891b70437366\"}"
-      },
-      {
-        "changedAt": 1789240264.5747104,
-        "dataAsOf": 1789212900,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 0.52,
-            "after": 0.87
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 1.92,
-            "after": 1.57
-          },
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -2.45,
-            "after": -1.4
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -2.1,
-            "after": -2.62
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -0.7,
-            "after": -0.35
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "Where Will Micron Be in 10 Years?",
-        "newsUrl": "https://finnhub.io/api/news?id=c85b24cac3b2b14cb4bd0fffcafac0404e7ed0e2199f9e7c7f9b4cfe4a9350a7",
-        "eventId": "8f467c43891b70437366",
-        "fingerprint": "{\"changes\": [{\"after\": 0.87, \"before\": 0.52, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.57, \"before\": 1.92, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.4, \"before\": -2.45, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.62, \"before\": -2.1, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.35, \"before\": -0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"8f467c43891b70437366\"}"
       }
     ],
     "TSM": [

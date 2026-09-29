@@ -4053,28 +4053,51 @@ function renderFourLineEvidenceCard(r){
 // [2026-09-29 신규, 사용자 요청] 점수 없는 종목 요약 카드 -- 흩어진 정보를 한 화면에 사실 상태로만 모은다.
 // 106번 검증: VALUE×ENTRY 점수·매트릭스·기대수익률 %는 과거 성적을 가르지 못해 만들지 않음. 새 계산 없음(기존 값 재사용,
 // 50일선 이격·200일선 기울기만 이미 받은 종가로 계산). 매수 판정·배지·장기 점수와 연결하지 않는다.
-function summaryLadderHtml(price, band, tag){
-  if(typeof price !== 'number' || !isFinite(price) || price <= 0 || !Array.isArray(band) || band.length !== 3 || band.some(v => typeof v !== 'number' || !isFinite(v))) return '';
-  if(!(band[2] > band[0] * 1.005)){  // 87 검증: 범위가 한 점이면 막대 대신 단일값(목록 칸과 동일하게)
-    const one = band[1], dd = ((one / price - 1) * 100);
-    return `<div style="font-size:12.5px;margin-top:4px;">${esc(tag)} 기준 한 값 $${one.toFixed(one >= 100 ? 0 : 2)} <span class="sub">(현재가 대비 ${(dd >= 0 ? '+' : '') + dd.toFixed(0)}%)</span></div>`;
-  }
+function summaryBandOk(band){
+  // Codex #09 P2: 양수·유한·정렬(하한<=중앙<=상한)·하한<상한일 때만 사다리
+  return Array.isArray(band) && band.length === 3 && band.every(v => typeof v === 'number' && isFinite(v) && v > 0)
+    && band[0] <= band[1] && band[1] <= band[2];
+}
+// 기준가(= 범위·판정을 만든 날의 가격) 하나로 위치를 계산. 색은 중립(행동 권유로 읽히지 않게, Codex #09 P2).
+function summaryLadderHtml(basePrice, band, tag){
+  if(typeof basePrice !== 'number' || !isFinite(basePrice) || basePrice <= 0 || !summaryBandOk(band)) return '';
   const [lo, mid, hi] = band;
-  const cuts = [lo, (lo + mid) / 2, (mid + hi) / 2, hi];
-  const zones = [['범위 아래', '#1a7f5a'], ['하단권', '#5a9e7f'], ['중앙권', '#8a8f96'], ['상단권', '#c9826f'], ['범위 위', '#b3261e']];
-  const zi = price < cuts[0] ? 0 : price < cuts[1] ? 1 : price <= cuts[2] ? 2 : price <= cuts[3] ? 3 : 4;
-  const span = hi - lo, left = lo - span * 0.25, right = hi + span * 0.25;
-  const pos = Math.max(0, Math.min(100, (price - left) / (right - left) * 100));
-  const x = v => ((v - left) / (right - left) * 100).toFixed(1);
   const f = v => '$' + v.toFixed(v >= 100 ? 0 : 2);
-  const d = v => ((v / price - 1) * 100 >= 0 ? '+' : '') + ((v / price - 1) * 100).toFixed(0) + '%';
+  const d = v => { const x = (v / basePrice - 1) * 100; return (x >= 0 ? '+' : '') + x.toFixed(0) + '%'; };
+  const same = (a, b) => Math.abs(b / a - 1) < 0.005;
+  if(same(lo, hi)){
+    return `<div style="font-size:12.5px;margin-top:4px;">${esc(tag)} 기준 한 값 ${f(mid)} <span class="sub">(기준가 대비 ${d(mid)})</span></div><div class="sub" style="font-size:10.5px;">참고 값일 뿐이에요 — 예측·매수 권유 아님.</div>`;
+  }
+  // 중앙이 하한/상한과 같으면(ORCL·NVDA 등 성장률 상한에 걸린 경우) 폭 0인 단계를 없애고 구간을 줄인다(Codex #09 P2)
+  let cuts, names;
+  if(same(mid, hi)){ cuts = [lo, hi]; names = ['범위 아래', '범위 안(하단~상단·가운데=상단)', '범위 위']; }
+  else if(same(lo, mid)){ cuts = [lo, hi]; names = ['범위 아래', '범위 안(하단·가운데=하단~상단)', '범위 위']; }
+  else { cuts = [lo, (lo + mid) / 2, (mid + hi) / 2, hi]; names = ['범위 아래', '하단권', '중앙권', '상단권', '범위 위']; }
+  // 경계 규칙(fairPosText와 동일): 하한 미만=범위 아래, 상한 초과=범위 위, 그 사이는 범위 안
+  let zi;
+  if(basePrice < lo) zi = 0;
+  else if(basePrice > hi) zi = names.length - 1;
+  else if(names.length === 3) zi = 1;
+  else zi = basePrice < cuts[1] ? 1 : (basePrice <= cuts[2] ? 2 : 3);
+  const span = hi - lo, left = lo - span * 0.25, right = hi + span * 0.25;
+  const x = v => Math.max(0, Math.min(100, (v - left) / (right - left) * 100)).toFixed(1);
+  const ticks = cuts.map(c => `<div style="position:absolute;left:${x(c)}%;top:0;width:1px;height:14px;background:#8a8f96;"></div>`).join('');
   return `<div style="margin:6px 0 2px;">
-    <div style="position:relative;height:14px;border-radius:7px;background:linear-gradient(90deg,#1a7f5a22 0%,#1a7f5a22 ${x(cuts[0])}%,#5a9e7f33 ${x(cuts[0])}%,#5a9e7f33 ${x(cuts[1])}%,#8a8f9633 ${x(cuts[1])}%,#8a8f9633 ${x(cuts[2])}%,#c9826f33 ${x(cuts[2])}%,#c9826f33 ${x(cuts[3])}%,#b3261e22 ${x(cuts[3])}%);">
-      <div title="현재가" style="position:absolute;left:calc(${pos.toFixed(1)}% - 2px);top:-3px;width:4px;height:20px;background:#202124;border-radius:2px;"></div>
+    <div style="position:relative;height:14px;border-radius:7px;background:#8a8f9622;">
+      <div style="position:absolute;left:${x(lo)}%;width:${(x(hi) - x(lo)).toFixed(1)}%;top:0;height:14px;background:#8a8f9633;"></div>${ticks}
+      <div title="기준가" style="position:absolute;left:calc(${x(basePrice)}% - 2px);top:-3px;width:4px;height:20px;background:#202124;border-radius:2px;"></div>
     </div>
-    <div class="sub" style="display:flex;justify-content:space-between;font-size:10.5px;margin-top:2px;"><span>${f(lo)}</span><span>${f(mid)}</span><span>${f(hi)}</span></div>
-    <div style="font-size:12.5px;">현재 위치 <b style="color:${zones[zi][1]};">${zones[zi][0]}</b> <span class="sub">(${esc(tag)} 범위 기준 · 하단까지 ${d(lo)} · 가운데까지 ${d(mid)} · 상단까지 ${d(hi)})</span></div>
+    <div class="sub" style="display:flex;justify-content:space-between;font-size:10.5px;margin-top:2px;"><span>하단 ${f(lo)}</span><span>가운데 ${f(mid)}</span><span>상단 ${f(hi)}</span></div>
+    <div style="font-size:12.5px;">기준가의 위치: <b>${names[zi]}</b> <span class="sub">(${esc(tag)} 범위 · 하단 ${d(lo)} · 가운데 ${d(mid)} · 상단 ${d(hi)}, 기준가 대비 차이)</span></div>
+    <div class="sub" style="font-size:10.5px;">참고 범위 안에서의 위치일 뿐이에요 — 예측·매수 권유 아님.</div>
   </div>`;
+}
+// 조회 시점 현재가를 '참고'로만 쓸 수 있는지: 캐시 폴백·구조 이상·품질 위험·지연 세션이 있으면 사용 안 함(Codex #09 P1)
+function summaryLivePriceOk(r){
+  const h = r && r.dataHealth;
+  // dropped(값이 비어 버린 봉, 대개 당일 미완성 봉 1개)는 단독으로 막지 않고 표시만 한다 -- Yahoo 정상 응답의 25/39가 dropped=1
+  return !!(h && !h.invalid && !h.cacheFallbackUsed && h.staleSessions === 0 && h.trueMissingCount === 0
+    && typeof r.price === 'number' && isFinite(r.price) && r.price > 0);
 }
 function summaryCardHtml(r){
   if(!r || !r.ticker) return '';
@@ -4083,34 +4106,48 @@ function summaryCardHtml(r){
   const a = (typeof marketFairAltRow === 'function') ? marketFairAltRow(tk) : null;
   const cb = (typeof marketFairCombined === 'function') ? marketFairCombined(tk) : null;
   const em = (typeof estMomentum === 'function') ? estMomentum(tk) : null;
+  const FV = (typeof window !== 'undefined') ? window.FAIR_VALUE : null;
+  const FA = (typeof window !== 'undefined') ? window.FAIR_VALUE_ALT : null;
   const ddt = (typeof window !== 'undefined' && window.DRAWDOWN_TYPE && window.DRAWDOWN_TYPE.rows) ? window.DRAWDOWN_TYPE.rows[tk] : null;
   const num = v => typeof v === 'number' && isFinite(v);
   const pc = (v, dg = 1) => num(v) ? (v >= 0 ? '+' : '') + (v * 100).toFixed(dg) + '%' : '—';
   const pp = (v, dg = 1) => num(v) ? (v >= 0 ? '+' : '') + v.toFixed(dg) + '%' : '—';
-  const price = (num(r.price) && r.price > 0) ? r.price : (a && num(a.price) && a.price > 0 ? a.price : null);
   const row = (k, v) => `<div class="fund-row"><span>${k}</span><span class="v">${v}</span></div>`;
   const sec = (title, body) => body ? `<div style="flex:1 1 230px;min-width:220px;"><div style="font-weight:700;font-size:12.5px;margin:4px 0 2px;">${title}</div>${body}</div>` : '';
 
-  // 가치: ① 흔들림 등급 보통이면 ①, 아니면 ② (결합에 실제 쓰인 방법과 동일)
-  const use1 = x1 && x1.status === 'ok' && x1.confidence === '보통' && Array.isArray(x1.band) && x1.band.length === 3;
-  const use2 = a && a.status === 'ok' && Array.isArray(a.band) && a.band.length === 3;
+  // 가치: 결합 규칙과 같은 출처(① 흔들림 등급 보통일 때만 ①, 아니면 ②). 기준가·기준일은 '선택한 범위 자체'의 것(Codex #09 P2)
+  const use1 = x1 && x1.status === 'ok' && x1.confidence === '보통' && summaryBandOk(x1.band) && num(x1.price) && x1.price > 0;
+  const use2 = !use1 && a && a.status === 'ok' && summaryBandOk(a.band) && num(a.price) && a.price > 0;
   const src = use1 ? x1 : (use2 ? a : null);
-  const cbCol = cb ? ((typeof FAIR_JUDGE_COLOR !== 'undefined' && FAIR_JUDGE_COLOR[cb.judgment]) || '#626b76') : '#8a8f96';
-  const valueBody = (cb ? row('종합(참고)', `<b style="color:${cbCol};">${esc(cb.judgment)}</b> <span class="sub">${esc(cb.confidence ? '확실성 ' + cb.confidence : '')}</span>`) : row('종합(참고)', '자료 없음'))
-    + ((src && summaryLadderHtml(price, src.band, use1 ? '① 동종 PER' : '② 성장률')) || `<div class="sub">${esc(cb ? cb.basis || '' : '적정가 자료 없음')}</div>`)
-    + ((src && (window.FAIR_VALUE_ALT || {}).as_of_consensus_day) ? `<div class="sub" style="font-size:10.5px;">현재가는 대시보드 조회 시점, 범위는 ${esc(window.FAIR_VALUE_ALT.as_of_consensus_day)} 수집 기준</div>` : '');
+  const srcTag = use1 ? '① 동종 PER' : '② 성장률';
+  const srcDate = use1 ? `가격 ${esc((FV && FV.price_session_day) || '?')} 종가 · 컨센서스 ${esc((FV && (FV.consensus_fetched_day || FV.as_of_consensus_day)) || '?')} 수집 · EPS ${esc(x1.methodology || '')}`
+                       : (use2 ? `컨센서스·가격 ${esc((FA && FA.as_of_consensus_day) || '?')} 수집 · EPS ${esc((a.inputs && a.inputs.eps_methodology) || '')}` : '');
+  const ladder = src ? summaryLadderHtml(src.price, src.band, srcTag) : '';
+  const judge = cb ? `<b>${esc(cb.judgment)}</b> <span class="sub">${esc(cb.confidence ? '확실성 ' + cb.confidence : '')}${src ? ' · 기준가 시점 판정' : ''}</span>` : '자료 없음';
+  let live = '';
+  if(src && ladder){
+    if(summaryLivePriceOk(r)){
+      const g = (r.price / src.price - 1) * 100;
+      live = `<div class="sub" style="font-size:10.5px;">참고: 조회 시점 현재가 $${r.price.toFixed(2)} (${esc((r.dataHealth && r.dataHealth.lastDate) || '')}) — 기준가 대비 ${(g >= 0 ? '+' : '') + g.toFixed(1)}%. 위치·판정은 기준가 기준이라 현재가로 다시 매기지 않아요.</div>`;
+    } else {
+      live = `<div class="sub" style="font-size:10.5px;">조회 시점 현재가: 자료부족(캐시·지연·조회 실패) — 표시 안 함</div>`;
+    }
+  }
+  const valueBody = row('종합(참고)', judge)
+    + (src ? row('기준가', `$${src.price.toFixed(2)} <span class="sub">(${srcDate})</span>`) : '')
+    + (ladder || `<div class="sub">${esc(cb ? cb.basis || '' : '적정가 자료 없음')}</div>`) + live;
 
   // 이익
-  const earnBody = em ? row('전망 방향', `<b style="color:${(EST_DIR_STYLE[em.direction] || {}).c || '#626b76'};">${esc((EST_DIR_STYLE[em.direction] || {}).i || '')}${esc(em.direction)}</b>`)
+  const earnBody = em ? row('전망 방향', `<b>${esc((EST_DIR_STYLE[em.direction] || {}).i || '')}${esc(em.direction)}</b>`)
     + row('선행 EPS 추정 30일 / 90일', `${pc(em.ntm_change_30d)} / ${pc(em.ntm_change_90d)}`)
     + row('최근 30일 수정 상향 / 하향', `${em.revisions_up_30d ?? '?'} / ${em.revisions_down_30d ?? '?'}건`) : '<div class="sub">이익 전망 자료 없음</div>';
 
-  // 시장 기대
+  // 시장 기대(② 방법 기준가 시점)
   const ai = a && a.inputs ? a.inputs : null;
   const gUsed = ai && Array.isArray(ai.growth_used) ? ai.growth_used : null;
-  const expBody = (ai && num(ai.implied_growth) && gUsed && num(gUsed[1]))
-    ? row('가격이 가정하는 성장률', `<b>${pc(ai.implied_growth)}</b>`) + row('애널리스트 기대(내년 매출)', pc(gUsed[1]))
-      + row('기대 − 가정', `<b>${((gUsed[1] - ai.implied_growth) * 100 >= 0 ? '+' : '') + ((gUsed[1] - ai.implied_growth) * 100).toFixed(1)}%p</b> <span class="sub">(+면 가격이 전망보다 덜 가정)</span>`)
+  const expBody = (a && a.status === 'ok' && ai && num(ai.implied_growth) && gUsed && num(gUsed[1]))
+    ? row('가격이 가정하는 성장률', pc(ai.implied_growth)) + row('애널리스트 기대(내년 매출)', pc(gUsed[1]))
+      + row('기대 − 가정', `${((gUsed[1] - ai.implied_growth) * 100 >= 0 ? '+' : '') + ((gUsed[1] - ai.implied_growth) * 100).toFixed(1)}%p <span class="sub">(+면 가격이 전망보다 덜 가정)</span>`)
     : `<div class="sub">${esc(a && a.status && a.status !== 'ok' ? '② 방법 ' + a.status : '자료 없음')}</div>`;
 
   // 밸류에이션
@@ -4122,35 +4159,42 @@ function summaryCardHtml(r){
     own && own.status === 'ok' && num(own.spread_pct) ? row('자기 과거 대비(금리 보정)', `${esc(own.label)} <span class="sub">(과거 ${own.months}개월 중 위치 ${(own.spread_pct * 100).toFixed(0)}% · 0%=가장 비쌈, 100%=가장 쌈)</span>`) : '',
   ].join('') || '<div class="sub">자료 없음</div>';
 
-  // 차트(기존 종가로만)
-  const cl = r.series && Array.isArray(r.series.closes) ? r.series.closes.filter(num) : [];
-  const avg = (arr) => arr.reduce((s, v) => s + v, 0) / arr.length;
-  const ma50 = cl.length >= 50 ? avg(cl.slice(-50)) : null;
-  const ma200now = cl.length >= 200 ? avg(cl.slice(-200)) : null;
-  const ma200prev = cl.length >= 220 ? avg(cl.slice(-220, -20)) : null;
-  const slope = (ma200now && ma200prev) ? ma200now / ma200prev - 1 : null;
-  const last = cl.length ? cl[cl.length - 1] : null;
-  const chartBody = row('200일선 대비', num(r.ma200Pct) ? `${pp(r.ma200Pct)} ${r.ma200Pct >= 0 ? '(위)' : '(아래)'}` : '—')
-    + row('200일선 기울기(20거래일)', num(slope) ? `${pc(slope)} ${slope >= 0 ? '상승' : '하락'}` : '—')
-    + row('50일선 대비', (ma50 && last) ? pc(last / ma50 - 1) : '—')
-    + row('52주 종가 고점대비', pp(r.drawdownPct)) + row('RSI(14)', num(r.rsi) ? r.rsi.toFixed(0) : '—')
-    + row('단기 신호', esc((r.techVerdict && r.techVerdict.label) || '—'));
+  // 차트(조회한 종가 기준 -- 가격 자료가 정상일 때만)
+  const cl = r.series && Array.isArray(r.series.closes) ? r.series.closes.filter(v => num(v) && v > 0) : [];
+  const avg = arr => arr.reduce((t, v) => t + v, 0) / arr.length;
+  const priceOk = summaryLivePriceOk(r);
+  let chartBody;
+  if(!priceOk){
+    chartBody = '<div class="sub">가격 자료부족(캐시·지연·조회 실패) — 차트 상태 표시 안 함</div>';
+  } else {
+    const ma50 = cl.length >= 50 ? avg(cl.slice(-50)) : null;
+    const ma200now = cl.length >= 200 ? avg(cl.slice(-200)) : null;
+    const ma200prev = cl.length >= 220 ? avg(cl.slice(-220, -20)) : null;
+    const slope = (ma200now && ma200prev) ? ma200now / ma200prev - 1 : null;
+    const last = cl.length ? cl[cl.length - 1] : null;
+    chartBody = row('200일선 대비', num(r.ma200Pct) ? `${pp(r.ma200Pct)} ${r.ma200Pct >= 0 ? '(위)' : '(아래)'}` : '—')
+      + row('200일선 기울기(20거래일)', num(slope) ? `${pc(slope)} ${slope >= 0 ? '상승' : '하락'}` : '—')
+      + row('50일선 대비', (ma50 && last) ? pc(last / ma50 - 1) : '—')
+      + row('52주 종가 고점대비', pp(r.drawdownPct)) + row('RSI(14)', num(r.rsi) ? r.rsi.toFixed(0) : '—')
+      + `<div class="sub" style="font-size:10.5px;">${esc((r.dataHealth && r.dataHealth.lastDate) || '')} 종가 기준${(r.dataHealth && r.dataHealth.dropped > 0) ? ` · 값이 빈 봉 ${r.dataHealth.dropped}개 제외` : ''}</div>`;
+  }
 
-  // 하락 유형 + 장기 점수
-  const ddBody = row('장기 점수(가격 기준)', `${num(r.score) ? r.score : '—'}/5 <span class="sub">${esc(r.verdict && r.verdict.label === '강한 매수기회' ? '큰 폭 조정' : (r.verdict && r.verdict.label) || '')}</span>`)
-    + (ddt && !ddt.skip && ddt.label_forward ? row('빠진 이유(최근 90일)', esc(ddt.label_forward)) : '')
-    + (ddt && !ddt.skip && ddt.label_trailing ? row('빠진 이유(고점 이후 실적)', esc(ddt.label_trailing)) : '');
+  // 하락 성격: 점수·행동 문구 없이 사실만(Codex #09 P2)
+  const ddBody = (ddt && !ddt.skip && (ddt.label_forward || ddt.label_trailing))
+    ? (ddt.label_forward ? row('최근 90일', esc(ddt.label_forward)) : '') + (ddt.label_trailing ? row('고점 이후 공시 실적', esc(ddt.label_trailing)) : '')
+      + `<div class="sub" style="font-size:10.5px;">가격 ${esc(ddt.price_date || '')} · 추정치 ${esc((window.DRAWDOWN_TYPE && window.DRAWDOWN_TYPE.consensus_as_of) || '')} 기준</div>`
+    : '<div class="sub">자료 없음</div>';
 
   return `<div class="comment-box" style="background:var(--panel-2);margin-bottom:12px;">
     <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;">
-      <div style="font-size:16px;font-weight:800;">${esc(tk)} 한눈에 보기 <span class="sub" style="font-weight:400;">· 현재가 ${num(price) ? '$' + price.toFixed(2) : '—'}</span></div>
-      <div class="sub">점수 없음 · 사실 상태만</div>
+      <div style="font-size:16px;font-weight:800;">${esc(tk)} 한눈에 보기</div>
+      <div class="sub">점수 없음 · 사실 상태만 · 항목마다 기준일이 달라요</div>
     </div>
     <div style="display:flex;flex-wrap:wrap;gap:4px 18px;margin-top:4px;">
       ${sec('가치 위치', valueBody)}${sec('이익 전망', earnBody)}${sec('시장 기대', expBody)}
-      ${sec('밸류에이션', valBody)}${sec('차트 상태', chartBody)}${sec('하락 성격', ddBody)}
+      ${sec('밸류에이션', valBody)}${sec('차트 상태', chartBody)}${sec('하락 성격(가격 vs 이익)', ddBody)}
     </div>
-    <div class="sub" style="margin-top:6px;color:#876000;">이 항목들을 점수로 합치거나 "좋은 매수 구간"으로 묶어도 2016~2025 S&P500에서 이후 성적 차이가 없었어요(106번 검증). 가격 위치(하단권·상단권 등)도 참고 범위 안의 위치일 뿐 매수·매도 신호가 아니에요. 자세한 근거는 07 적정가 탭.</div>
+    <div class="sub" style="margin-top:6px;color:#876000;">이 항목들을 점수로 합치거나 "좋은 매수 구간"으로 묶어도 2016~2025 S&P500에서 이후 성적 차이가 없었어요(106번 검증). 범위 안 위치도 참고일 뿐 매수·매도 신호가 아니에요. 자세한 근거는 07 적정가 탭.</div>
   </div>`;
 }
 function tabJudgement(r){
