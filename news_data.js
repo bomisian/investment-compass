@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1790644451.3427227,
+    "_last_attempt_at": 1790667391.4268296,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -66,7 +66,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Invesco QQQ ETF ( QQQ -1.07% ) is one of the market's best-performing exchange-traded funds (ETFs) of the past 15 years, earnin",
             "That would seemingly make it an easily defensible choice to add to your portfolio."
           ],
-          "analysisUpdatedAt": 1790644458.6845202
+          "analysisUpdatedAt": 1790667398.8238966
         },
         "headlineKo": "지금 QQQ나 VUG를 구매해야 할까요? 역사가 제안하는 것은 다음과 같습니다."
       },
@@ -116,7 +116,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790644460.8370733
+          "analysisUpdatedAt": 1790667401.3391736
         },
         "headlineKo": "Invesco QQQ(QQQ)가 귀하의 투자 레이더에 포함되어야 합니까?"
       },
@@ -180,7 +180,7 @@ const NEWS_DATA = {
             "stock futures declined on Monday, as the Dow Jones, S&P 500, and Nasdaq 100 indices fell, following Friday’s higher close.",
             "This tracked a sharp sell-off across Asian equities as surging U.S."
           ],
-          "analysisUpdatedAt": 1790644463.4744918
+          "analysisUpdatedAt": 1790667404.3937457
         },
         "headlineKo": "오늘의 주식 시장: S&P 500, 다우, 나스닥 100 선물은 수익률 상승과 트럼프의 호르무즈 거래 거부로 투자자들을 놀라게 했습니다 — LLY, PEP, JEF 초점(업데이트됨)"
       },
@@ -266,7 +266,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Invesco QQQ ETF ( QQQ -1.07% ) is one of the market's best-performing exchange-traded funds (ETFs) of the past 15 years, earnin",
             "That would seemingly make it an easily defensible choice to add to your portfolio."
           ],
-          "analysisUpdatedAt": 1790644458.6845202
+          "analysisUpdatedAt": 1790667398.8238966
         }
       },
       {
@@ -315,7 +315,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790644460.8370733
+          "analysisUpdatedAt": 1790667401.3391736
         }
       },
       {
@@ -378,7 +378,7 @@ const NEWS_DATA = {
             "stock futures declined on Monday, as the Dow Jones, S&P 500, and Nasdaq 100 indices fell, following Friday’s higher close.",
             "This tracked a sharp sell-off across Asian equities as surging U.S."
           ],
-          "analysisUpdatedAt": 1790644463.4744918
+          "analysisUpdatedAt": 1790667404.3937457
         }
       },
       {
@@ -3018,15 +3018,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790644451.3427227,
-    "_updated_label": "2026-09-29 10:14",
-    "_last_success_at": 1790644451.3427227,
+    "_fetched_at": 1790667391.4268296,
+    "_updated_label": "2026-09-29 16:36",
+    "_last_success_at": 1790667391.4268296,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "SPY": {
@@ -6525,7 +6525,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "MSFT": {
@@ -13051,7 +13051,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 149,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "GOOGL": {
@@ -20650,11 +20650,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 173,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "AMZN": {
-    "_last_attempt_at": 1790644451.3427227,
+    "_last_attempt_at": 1790667391.4268296,
     "nextEarnings": {
       "date": "2026-10-29",
       "hour": "amc",
@@ -20709,7 +20709,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790644469.7832582
+          "analysisUpdatedAt": 1790667410.0595238
         },
         "headlineKo": "아마존(AMZN)이 오늘날 더 넓은 시장보다 더 많이 하락한 이유"
       },
@@ -20759,7 +20759,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790644472.082676
+          "analysisUpdatedAt": 1790667412.1805508
         },
         "headlineKo": "아마존(AMZN) 대 알리바바(BABA): 어떤 AI 베팅이 성과를 거두기 시작했나요?"
       },
@@ -20809,7 +20809,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790644474.9406075
+          "analysisUpdatedAt": 1790667414.6109388
         },
         "headlineKo": "아마존, 10월에 100억 달러 규모의 홀리데이 캐털리스트 출시"
       },
@@ -21068,7 +21068,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790644469.7832582
+          "analysisUpdatedAt": 1790667410.0595238
         }
       },
       {
@@ -21117,7 +21117,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790644472.082676
+          "analysisUpdatedAt": 1790667412.1805508
         }
       },
       {
@@ -21166,7 +21166,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790644474.9406075
+          "analysisUpdatedAt": 1790667414.6109388
         }
       },
       {
@@ -28023,15 +28023,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790644451.3427227,
-    "_updated_label": "2026-09-29 10:14",
-    "_last_success_at": 1790644451.3427227,
+    "_fetched_at": 1790667391.4268296,
+    "_updated_label": "2026-09-29 16:36",
+    "_last_success_at": 1790667391.4268296,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 181,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "META": {
@@ -35675,7 +35675,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "AAPL": {
@@ -42869,7 +42869,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 175,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "TSLA": {
@@ -50322,7 +50322,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 182,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "ORCL": {
@@ -56656,7 +56656,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "CRM": {
@@ -61081,7 +61081,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "PLTR": {
@@ -67162,11 +67162,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 142,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "NVDA": {
-    "_last_attempt_at": 1790644451.3427227,
+    "_last_attempt_at": 1790667391.4268296,
     "nextEarnings": {
       "date": "2026-11-17",
       "hour": "amc",
@@ -67176,134 +67176,22 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "S&P 500, Dow, Nasdaq Drop Under Pressure From Elevated Yields As Investors Shrug Off Trump’s Iran Sanction Relief — NVDA, BA, AMD, NVTS, CBRS In Focus",
+        "headline": "Nvidia turns to insurers to spread risk of AI build-out - FT",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b057d340744e7590865880f8a83751b466d402f8a17a19fb34b5a008d6e818fb",
-        "datetime": 1790636878,
-        "relevance": 0.6,
-        "keywordFlag": true,
-        "flagTerms": [
-          "sanction"
-        ],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "S&P 500, Dow, Nasdaq Drop Under Pressure From Elevated Yields As Investors Shrug Off Trump’s Iran Sanction Relief — NVDA, BA, AMD, NVTS, CBRS In Focus",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "NVDA에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.6,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790644481.9954166
-        },
-        "headlineKo": "투자자들이 트럼프의 이란 제재 완화를 외면하면서 S&P 500, 다우, 나스닥은 수익률 상승으로 인한 압력 하락 — NVDA, BA, AMD, NVTS, CBRS 집중"
-      },
-      {
-        "headline": "Nvidia’s Glass Packaging Push Could Reshape AI Chips",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8a9725071a03f6f0d57eaf0d4874d92e0e61c5a50a265e4c7edb0afb01061936",
-        "datetime": 1790635587,
+        "url": "https://finnhub.io/api/news?id=62d89ab530bbd287d3772f1a9f93cd5d053cefc91719f4d95c60a5c850aa0d64",
+        "datetime": 1790659305,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Nvidia의 유리 포장 추진으로 AI 칩의 형태가 바뀔 수 있음 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,689.60 −0.11% Dow Jones 51,502.90 −0.12% Nasdaq 100 30,279.80 −0.17% Russell 2000 2,819.91 −0.15% S&P 500 7,689.60 −0.11% 다우존스 51,502.90 −0.12% 나스닥 100 30,279.80 −0.17% 러셀 2000 2,819.91 −0.",
-            "이러한 칩을 함께 고정하는 재료의 변화에 ​​따라 패키지에 얼마나 많은 메모리가 들어가고 비용이 얼마나 빨리 상승하는지 결정할 수 있습니다."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 50%, $3,917, $7,373 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "NVDA에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "50%",
-            "$3,917",
-            "$7,373",
-            "$1.70",
-            "$3.20"
-          ],
-          "sourceExcerpt": [
-            "Nvidia’s Glass Packaging Push Could Reshape AI Chips - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,689.60 −0.11% Dow Jones 51,502.90 −0.12% Nasdaq 100 30,279.80 −0.17% Russell 2000 2,819.91 −0.15% S&P 500 7,689.60 −0.11% Dow Jones 51,502.90 −0.12% Nasdaq 100 30,279.80 −0.17% Russell 2000 2,819.91 −0.",
-            "A shift in the material holding these chips together could determine how much memory fits in a package and how fast costs spiral upward."
-          ],
-          "analysisUpdatedAt": 1790644485.875268
-        },
-        "headlineKo": "Nvidia의 유리 포장 추진으로 AI 칩의 형태가 바뀔 수 있음"
-      },
-      {
-        "headline": "Why Nvidia (NVDA) Stock Is Trading Up Today",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=19471c81a0941cd8c32237c47aea994c7c93ff3dcbea54e21c833de61a49f590",
-        "datetime": 1790635116,
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
           "importance": "low",
-          "tone": "neutral",
+          "tone": "risk",
           "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Why Nvidia (NVDA) Stock Is Trading Up Today",
+            "Nvidia turns to insurers to spread risk of AI build-out - FT",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -67327,38 +67215,315 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Why Nvidia (NVDA) Stock Is Trading Up Today' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Nvidia turns to insurers to spread risk of AI build-out - FT' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790667420.436951
+        },
+        "headlineKo": "Nvidia, AI 구축 위험 분산을 위해 보험사로 전환 - FT"
+      },
+      {
+        "headline": "PANW, CRWD, ZS Lead Nasdaq-100 Gains As Nvidia's AI Agent Safety Push, Security Scares Lift Cybersecurity Stocks",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=57dbde5cbf5b804634d82a2d9c1b53131cc463cfd5b70364a9bba4cf5986bca4",
+        "datetime": 1790653108,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "PANW, CRWD, ZS 리드 Nasdaq-100은 Nvidia의 AI 에이전트 안전 강화로 이익을 얻고 보안 위협은 사이버 보안 주식을 상승시킵니다. AI 에이전트 동향 뉴스 수익 전체 DIA 0.10% SPY 0.04% QQQ 0.15% 추세 MU 1.80% NVDA 0.61% NVTS 12.45% KOD 3.34% SMMT 27.39",
+            "PANW, CRWD, ZS 리드 Nasdaq-100이 이익을 얻습니다. Nvidia의 AI 에이전트 안전 추진으로 보안 공포가 사이버 보안 주식 상승 AI 에이전트 채택과 새로운 보안 우려로 인해 사이버 방어 도구에 대한 수요가 증가하고 있습니다.",
+            "팔로알토 네트웍스 로고는 2025년 11월 26일 벨기에 브뤼셀에서 열린 이 사진 일러스트레이션에서 시각적 디지털 배경이 있는 휴대폰에 표시되어 있습니다.(Photo Illustration by Jonathan Raa/NurPhoto via Getty Images) Yuvraj Malik ·"
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.10%, 0.04%, 0.15% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "NVDA에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.10%",
+            "0.04%",
+            "0.15%",
+            "1.80%",
+            "0.61%",
+            "12.45%",
+            "3.34%",
+            "27.39%"
+          ],
+          "sourceExcerpt": [
+            "PANW, CRWD, ZS Lead Nasdaq-100 Gains As Nvidia's AI Agent Safety Push, Security Scares Lift Cybersecurity Stocks AI Agent Trending News Earnings All DIA 0.10% SPY 0.04% QQQ 0.15% Trending MU 1.80% NVDA 0.61% NVTS 12.45% KOD 3.34% SMMT 27.39",
+            "PANW, CRWD, ZS Lead Nasdaq-100 Gains As Nvidia's AI Agent Safety Push, Security Scares Lift Cybersecurity Stocks AI agent adoption and fresh security concerns are boosting demand for cyber defense tools.",
+            "The Palo Alto Networks logo is displayed on a mobile phone with a visual digital background in this photo illustration in Brussels, Belgium, on November 26, 2025.(Photo Illustration by Jonathan Raa/NurPhoto via Getty Images) Yuvraj Malik · "
+          ],
+          "analysisUpdatedAt": 1790667426.7780702
+        },
+        "headlineKo": "PANW, CRWD, ZS Lead Nasdaq-100은 Nvidia의 AI 에이전트 안전 추진으로 이익을 얻고 보안 공포로 인해 사이버 보안 주식이 상승합니다."
+      },
+      {
+        "headline": "Is CEO Jensen Huang Becoming Nvidia (NVDA)’s Most Valuable Political Asset?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=726f5fb49c3ec6e1d67d3a65fe95d4af3cfaff63d617dd55ba6180abb3b4cf91",
+        "datetime": 1790645438,
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Is CEO Jensen Huang Becoming Nvidia (NVDA)’s Most Valuable Political Asset?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Is CEO Jensen Huang Becoming Nvidia (NVDA)’s Most Valuable Political Asset?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1.0,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790644488.2559307
+          "analysisUpdatedAt": 1790667428.5824802
         },
-        "headlineKo": "Nvidia(NVDA) 주식이 오늘 거래되는 이유"
+        "headlineKo": "CEO Jensen Huang이 Nvidia(NVDA)의 가장 귀중한 정치적 자산이 되고 있습니까?"
       },
       {
-        "headline": "Nvidia’s Latest $150 Billion Move Delivers a Clear Message to Investors About What’s Next for the Stock.",
+        "headline": "S&P 500, Dow, Nasdaq Drop Under Pressure From Elevated Yields As Investors Shrug Off Trump’s Iran Sanction Relief — NVDA, BA, AMD, NVTS, CBRS In Focus",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9ba68aa13ff6c53f55d37aad8f18688db25660746319c49f28b810ebe3ee4622",
-        "datetime": 1790634601,
+        "url": "https://finnhub.io/api/news?id=b057d340744e7590865880f8a83751b466d402f8a17a19fb34b5a008d6e818fb",
+        "datetime": 1790636878,
+        "relevance": 0.6,
+        "keywordFlag": true,
+        "flagTerms": [
+          "sanction"
+        ],
+        "headlineKo": "투자자들이 트럼프의 이란 제재 완화를 외면하면서 S&P 500, 다우, 나스닥은 수익률 상승으로 인한 압력 하락 — NVDA, BA, AMD, NVTS, CBRS 집중"
+      },
+      {
+        "headline": "Nvidia’s Glass Packaging Push Could Reshape AI Chips",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8a9725071a03f6f0d57eaf0d4874d92e0e61c5a50a265e4c7edb0afb01061936",
+        "datetime": 1790635587,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Nvidia의 최근 1,500억 달러 규모의 움직임은 투자자들에게 주식의 다음 단계에 대한 명확한 메시지를 전달합니다."
-      },
-      {
-        "headline": "Nvidia launches tool to keep AI from going rogue",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=124097ea99ea59060057d88eaa46223e7167fb46ecdebdda8702cabb5c6de440",
-        "datetime": 1790631917,
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "엔비디아, AI의 악성 행위 방지 도구 출시"
+        "headlineKo": "Nvidia의 유리 포장 추진으로 AI 칩의 형태가 바뀔 수 있음"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Nvidia turns to insurers to spread risk of AI build-out - FT",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=62d89ab530bbd287d3772f1a9f93cd5d053cefc91719f4d95c60a5c850aa0d64",
+        "datetime": 1790659305,
+        "headlineKo": "Nvidia, AI 구축 위험 분산을 위해 보험사로 전환 - FT",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nvidia turns to insurers to spread risk of AI build-out - FT",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Nvidia turns to insurers to spread risk of AI build-out - FT' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790667420.436951
+        }
+      },
+      {
+        "headline": "PANW, CRWD, ZS Lead Nasdaq-100 Gains As Nvidia's AI Agent Safety Push, Security Scares Lift Cybersecurity Stocks",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=57dbde5cbf5b804634d82a2d9c1b53131cc463cfd5b70364a9bba4cf5986bca4",
+        "datetime": 1790653108,
+        "headlineKo": "PANW, CRWD, ZS Lead Nasdaq-100은 Nvidia의 AI 에이전트 안전 추진으로 이익을 얻고 보안 공포로 인해 사이버 보안 주식이 상승합니다.",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "PANW, CRWD, ZS 리드 Nasdaq-100은 Nvidia의 AI 에이전트 안전 강화로 이익을 얻고 보안 위협은 사이버 보안 주식을 상승시킵니다. AI 에이전트 동향 뉴스 수익 전체 DIA 0.10% SPY 0.04% QQQ 0.15% 추세 MU 1.80% NVDA 0.61% NVTS 12.45% KOD 3.34% SMMT 27.39",
+            "PANW, CRWD, ZS 리드 Nasdaq-100이 이익을 얻습니다. Nvidia의 AI 에이전트 안전 추진으로 보안 공포가 사이버 보안 주식 상승 AI 에이전트 채택과 새로운 보안 우려로 인해 사이버 방어 도구에 대한 수요가 증가하고 있습니다.",
+            "팔로알토 네트웍스 로고는 2025년 11월 26일 벨기에 브뤼셀에서 열린 이 사진 일러스트레이션에서 시각적 디지털 배경이 있는 휴대폰에 표시되어 있습니다.(Photo Illustration by Jonathan Raa/NurPhoto via Getty Images) Yuvraj Malik ·"
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.10%, 0.04%, 0.15% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "NVDA에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.10%",
+            "0.04%",
+            "0.15%",
+            "1.80%",
+            "0.61%",
+            "12.45%",
+            "3.34%",
+            "27.39%"
+          ],
+          "sourceExcerpt": [
+            "PANW, CRWD, ZS Lead Nasdaq-100 Gains As Nvidia's AI Agent Safety Push, Security Scares Lift Cybersecurity Stocks AI Agent Trending News Earnings All DIA 0.10% SPY 0.04% QQQ 0.15% Trending MU 1.80% NVDA 0.61% NVTS 12.45% KOD 3.34% SMMT 27.39",
+            "PANW, CRWD, ZS Lead Nasdaq-100 Gains As Nvidia's AI Agent Safety Push, Security Scares Lift Cybersecurity Stocks AI agent adoption and fresh security concerns are boosting demand for cyber defense tools.",
+            "The Palo Alto Networks logo is displayed on a mobile phone with a visual digital background in this photo illustration in Brussels, Belgium, on November 26, 2025.(Photo Illustration by Jonathan Raa/NurPhoto via Getty Images) Yuvraj Malik · "
+          ],
+          "analysisUpdatedAt": 1790667426.7780702
+        }
+      },
+      {
+        "headline": "Is CEO Jensen Huang Becoming Nvidia (NVDA)’s Most Valuable Political Asset?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=726f5fb49c3ec6e1d67d3a65fe95d4af3cfaff63d617dd55ba6180abb3b4cf91",
+        "datetime": 1790645438,
+        "headlineKo": "CEO Jensen Huang이 Nvidia(NVDA)의 가장 귀중한 정치적 자산이 되고 있습니까?",
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Is CEO Jensen Huang Becoming Nvidia (NVDA)’s Most Valuable Political Asset?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Is CEO Jensen Huang Becoming Nvidia (NVDA)’s Most Valuable Political Asset?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790667428.5824802
+        }
+      },
       {
         "headline": "S&P 500, Dow, Nasdaq Drop Under Pressure From Elevated Yields As Investors Shrug Off Trump’s Iran Sanction Relief — NVDA, BA, AMD, NVTS, CBRS In Focus",
         "source": "Yahoo",
@@ -74773,164 +74938,17 @@ const NEWS_DATA = {
         "headlineKo": "Nvidia Rubin 클러스터가 온라인 상태가 되면서 CoreWeave 주가 상승",
         "relevance": 0.4,
         "keywordFlag": false
-      },
-      {
-        "headline": "AI Safety Could Mean More Nvidia GPU Demand, Not Less, SemiAnalysis Says",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ac8f734db964484127dcacbf2d99122ad766193db35b7eb4297ccb3918a228ef",
-        "datetime": 1789566816,
-        "headlineKo": "AI 안전은 더 많은 Nvidia GPU 수요를 의미할 수 있다고 SemiAnalytic은 말합니다.",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "AI Safety Could Mean More Nvidia GPU Demand, Not Less, SemiAnalysis Says",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 NVDA의 사업과 관련된 'AI Safety Could Mean More Nvidia GPU Demand, Not Less, SemiAnalysis Says' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.4,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789569616.0873098
-        }
-      },
-      {
-        "headline": "Apple building M8 AI servers, talks with Nvidia, reports The Information",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=941e635f03cf933cbbeb371842d7821176794d077aec220c3d5f708d2006eeaa",
-        "datetime": 1789566567,
-        "headlineKo": "Apple이 M8 AI 서버를 구축하고 Nvidia와 대화하고 있다고 The Information이 보도했습니다.",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Apple building M8 AI servers, talks with Nvidia, reports The Information",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Apple building M8 AI servers, talks with Nvidia, reports The Information' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.4,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789569618.1607249
-        }
-      },
-      {
-        "headline": "Stock Market Today: Dow Wavers Ahead Of Likely Fed Rate Increase; Nvidia, Intel, SK Hynix Rally (Live Coverage)",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0df9980bc7b3c01f125269b32b161a8833f4e6701cc9f36aa51d87ac148c069e",
-        "datetime": 1789566154,
-        "headlineKo": "오늘 주식시장: 다우지수는 연준 금리 인상 가능성을 앞두고 흔들립니다. 엔비디아, 인텔, SK하이닉스 랠리 (생중계)",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Stock Market Today: Dow Wavers Ahead Of Likely Fed Rate Increase; Nvidia, Intel, SK Hynix Rally (Live Coverage)",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Stock Market Today: Dow Wavers Ahead Of Likely Fed Rate Increase; Nvidia, Intel, SK Hynix Rally (Live Coverage)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.4,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789569620.1440632
-        }
       }
     ],
-    "_fetched_at": 1790644451.3427227,
-    "_updated_label": "2026-09-29 10:14",
-    "_last_success_at": 1790644451.3427227,
+    "_fetched_at": 1790667391.4268296,
+    "_updated_label": "2026-09-29 16:37",
+    "_last_success_at": 1790667391.4268296,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "AMD": {
@@ -81561,7 +81579,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 160,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "AVGO": {
@@ -85935,7 +85953,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "QCOM": {
@@ -89926,7 +89944,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "ARM": {
@@ -93083,7 +93101,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "MRVL": {
@@ -97099,7 +97117,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "INTC": {
@@ -102866,7 +102884,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 138,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "TSM": {
@@ -105983,7 +106001,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "ASML": {
@@ -108140,7 +108158,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "AMAT": {
@@ -110521,7 +110539,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "LRCX": {
@@ -111764,7 +111782,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "KLAC": {
@@ -112931,7 +112949,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "MU": {
@@ -120355,7 +120373,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 180,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "SNDK": {
@@ -124492,7 +124510,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "WDC": {
@@ -126425,7 +126443,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "ANET": {
@@ -128313,7 +128331,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "COHR": {
@@ -130064,7 +130082,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "LITE": {
@@ -131730,7 +131748,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "GEV": {
@@ -134913,7 +134931,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "CEG": {
@@ -136486,7 +136504,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "VST": {
@@ -138101,7 +138119,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "ETN": {
@@ -140050,7 +140068,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "PWR": {
@@ -141903,7 +141921,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "HUBB": {
@@ -142535,7 +142553,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "VRT": {
@@ -144806,7 +144824,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "MOD": {
@@ -145488,7 +145506,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "STX": {
@@ -147073,7 +147091,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "EME": {
@@ -148076,7 +148094,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "FIX": {
@@ -148939,7 +148957,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   },
   "BE": {
@@ -150628,7 +150646,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-29 16:05"
+      "updated": "2026-09-29 16:37"
     }
   }
 };
