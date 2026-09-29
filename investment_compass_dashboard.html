@@ -436,7 +436,7 @@
     <h2>🐋 Smart Money <span style="font-weight:400;font-size:12px;color:var(--sub);">(유명 투자자 패널의 13F 공개 공시 기준 — 과거 포지션 정보)</span></h2>
     <div id="smartBody"><div class="sub">자료(smart_money_data.js)를 불러오는 중이거나 아직 없어요.</div></div>
   </div>
-  <div class="card">
+  <div class="card" id="housePtrCard" style="display:none;">
     <h2>🏛 미국 하원의원 주식거래 공시 <span style="font-weight:400;font-size:12px;color:var(--sub);">(낸시 펠로시 등 · 하원 사무처 PTR · 13F와 별개)</span></h2>
     <div id="housePtrBody"><div class="sub">자료(house_ptr_data.js)가 없어요.</div></div>
   </div>
@@ -4519,7 +4519,8 @@ function smYearLookup(v){
 function renderHousePtr(){
   const el = document.getElementById('housePtrBody');
   const H = window.HOUSE_PTR;
-  if(!el || !H || !H.by_ticker) return;
+  if(!el || !H || !H.by_ticker) return;   // 검증 127 E-1: 자료 없으면(공개 사이트 등) 카드 자체를 숨긴 채로 둠
+  const card = document.getElementById('housePtrCard'); if(card) card.style.display = '';
   const TX = {P: '🟢매수', S: '🔴매도', 'S (partial)': '🟠일부매도'};
   const tr = x => `${esc(TX[x.tx] || x.tx)}${x.option ? ` <span style="color:#876000;">옵션${x.call_put ? '(' + esc(x.call_put) + ')' : ''}</span>` : ''}`;
   const own = o => ({SP: '배우자', JT: '공동', DC: '자녀', SELF: '본인'}[o] || esc(o || ''));
