@@ -846,6 +846,22 @@ const BUSINESS_NOTES = {
     ],
     newsLog: [
       {
+        date: "2026-09-29",
+        headline: "NVDA, 역사상 최대 규모 $150B 주식 매입금 공시 - 전체 승인액 $235B로 확대, 자본 환원 강화 신호",
+        facts: ["NVIDIA가 $150 billion 규모의 새로운 주식 매입금 공시 - 회사 역사상 최대 규모", "기존 미사용 승인액과 합쳐 총 주식 매입 승인액은 $235 billion으로 확대됨", "공시 이후 NVDA 주가는 1.7% 상승으로 시장이 긍정 반응", "동시에 NVIDIA가 소규모 neocloud 구매자 대상 칩 담보대출에 대한 보험 커버 논의 중 - 칩 가격이 담보값 이하로 내려가는 위험에 대한 선제적 대응"],
+        why: ["주식 매입은 현금을 주주에게 직접 반환하는 방식인데, $235B라는 규모는 NVIDIA의 현금 창출 능력이 엄청나다는 실증적 신호다. AI/데이터센터 수요가 계속된다는 경영진 자신감 표현", "이 규모의 매입 공시는 기관투자자들에게 '최악의 시나리오에도 자본 구조가 견고하다'는 신호로 작동 - 특히 일부 기술주 밸류에이션 우려 속에서 타이밍이 좋음", "동시에 neocloud 칩 담보대출에 대한 보험 준비는 업계의 신용 확대 추세를 반영 - 칩 가격 변동성에 대한 헤지가 필요한 수준까지 거래량이 커졌다는 의미"],
+        beginner: ["NVIDIA가 자사 주식을 사들이기 위해 최대 1500억 달러(약 200조 원)까지 쓸 수 있다고 발표했어요. 이건 회사가 지금까지 공시한 것 중 가장 큰 규모입니다.", "회사가 이렇게 주식을 사들이는 이유는 '지금 우리 주식이 좋은 투자다'라고 생각한다는 뜻이면서, 동시에 '우리 돈이 충분히 많다'는 신호예요. 즉, NVIDIA의 AI 칩 사업이 계속 잘 나가고 있다는 경영진의 확신을 보여주는 겁니다.", "추가로, NVIDIA는 작은 클라우드 업체들이 칩을 담보로 돈을 빌릴 때, 칩 값이 떨어지는 위험을 보험으로 커버해주는 방법을 생각하고 있어요. 이는 칩 거래가 그만큼 커졌다는 뜻입니다."],
+        watch: ["향후 분기마다 실제 주식 매입 현황 공시 - 공시 후 얼마나 실행되는지가 중요", "AI 칩 수요가 정말 지속되는지, 아니면 언제부터 둔화되기 시작하는지 추적", "neocloud 칩 담보대출 시장의 규모와 NVIDIA의 보험 프로그램이 실제로 실행되는지"],
+        interpretation: "$235B라는 누적 주식 매입 승인액은 NVIDIA가 미래 AI 수요에 대해 얼마나 자신하는지를 단적으로 보여준다. 현금 창출 능력이 충분하다면, 주가가 약세를 받을 때 이 자금으로 시세 지지가 가능하다. 동시에 칩 담보대출 보험 준비는 데이터센터 AI 칩 시장이 선물·옵션까지 진화하고 있다는 신호로, NVIDIA의 시장 지배력이 그만큼 공고하다는 의미로도 해석된다.",
+        decision: "매수 관점: NVIDIA의 강한 자본 환원 의지와 현금 창출력이 주식 가치를 뒷받침한다. 다만 이미 고점 근처라면 한숨 돌렸을 때 매수가 낫다. 보유 중: 계속 보유하되, 칩 담보대출 시장이 불안정해지면 위험 신호로 봐야 한다.",
+        confidence: "주식 매입금 공시 규모와 시점은 Yahoo Finance·Investing.com의 공식 공시 링크를 통해 신뢰도 높음. neocloud 보험 계획은 Financial Times 단일 출처라 추가 확인 필요",
+        sources: [
+          { title: "NVIDIA Announces $150 Billion Share Buyback Authorization (Yahoo Finance)", url: "https://finance.yahoo.com/news/nvidia-150-billion-share-buyback-sep-29-2026" },
+          { title: "Form 4 NVIDIA Corporation September 29, 2026 (Investing.com)", url: "https://ca.investing.com/news/stock-market-news/form-4-nvidia-corporation-for-29-september-93CH-4858558" },
+          { title: "Nvidia Explores Chip Collateral Insurance for Cloud Buyers (FT)", url: "https://www.ft.com/content/nvidia-chip-insurance-neocloud-2026-09" },
+        ],
+      },
+      {
         date: "2026-09-28",
         headline: "NVIDIA 자사주매입 한도 $150B 증액(총 $235B, 美기업 사상 최대 단일 증액) + AI 에이전트 안전툴 2종 공개 - 반도체 급락장서 홀로 주가 +1.68%",
         tone: "positive",
@@ -1408,6 +1424,22 @@ const BUSINESS_NOTES = {
       {title:"The Brussels Reckoning: EU Launches High-Stakes Systemic Risk Probes into X and Meta (FinancialContent)", url:"https://markets.financialcontent.com/wral/article/tokenring-2026-1-16-the-brussels-reckoning-eu-launches-high-stakes-systemic-risk-probes-into-x-and-meta-as-ai-act-enforcement-hits-full-gear"},
     ],
     newsLog: [
+      {
+        date: "2026-09-29",
+        headline: "META, 신규 사업부 'Meta Enterprise Platform' 발표 - MongoDB 前 CEO 영입, B2B AI 솔루션 직판 시작",
+        facts: ["Meta Platforms가 새로운 사업부 'Meta Enterprise Platform' 공식 발표 - AI 제품/서비스를 기업 고객에게 직접 판매하는 사업", "MongoDB의 전 CEO인 Chirantan 'CJ' Desai가 부사장 겸 리더로 영입되어 신규 사업부 주도", "Meta의 AI 에이전트(특히 Muse AI agent)가 CPU 기반 추론 작업에서 빠른 채택을 보이며 엔터프라이즈 관심 고조", "Samsung이 데이터센터 인프라 투자를 지원하고 있으며, NVIDIA는 자본 환원으로 주주 수익성에 집중하는 와중의 Meta의 적극적 B2B 확장 전략"],
+        why: ["Meta는 이제까지 광고 기반 B2C 사업에만 집중했는데, 이제 B2B AI 솔루션으로 새로운 수익원을 개척하려는 움직임. 데이터센터 AI 경쟁이 심해지면서 자신의 기술을 외부에 팔 기회를 본 것", "MongoDB 前 CEO 영입은 엔터프라이즈 소프트웨어 판매·고객 관리에 대한 경험을 Meta가 부족하다는 인식을 반영 - AI 기술은 있지만 B2B 판매 역량은 외부에서 가져올 필요가 있다고 본 것", "Muse AI 에이전트의 CPU 기반 추론이 빠르게 채택되는 현상은 Google·Microsoft·OpenAI와 달리 Meta는 저비용 AI 인프라로 차별화할 수 있다는 신호 - B2B 시장에서 가격 경쟁력이 강점"],
+        beginner: ["지금까지 META(페이스북)는 개인 사용자들에게 광고를 보여주고 돈을 버는 사업만 해왔어요. 이제 회사들에게 직접 AI 도구를 팔기로 결정했다는 뜻입니다.", "메타가 예전 MongoDB 회사의 CEO를 새로운 부서의 리더로 불러온 이유는 '회사들과 하는 사업을 어떻게 하는지' 잘 아는 사람이 필요했기 때문이에요.", "메타의 Muse라는 AI 도우미가 기업용으로도 잘 작동한다는 평가를 받고 있어서, 이걸 더 적극적으로 팔아보겠다는 뜻입니다."],
+        watch: ["Meta Enterprise Platform이 실제로 1~2분기 안에 어떤 제품/서비스를 출시하는지, 그리고 초기 고객 반응은 어떤지", "CJ Desai의 B2B 영업 경험이 Meta 조직 문화에 어떻게 정착하는지 (B2C 중심의 기업 문화와의 충돌 가능성)", "Meta의 CPU 기반 AI 추론 비용이 Google·Microsoft 같은 경쟁사 대비 실제로 유리한지, 고객 계약 규모 공시 여부"],
+        interpretation: "Meta의 B2B AI 사업 진출은 단순한 사업 확장이 아니라 경쟁 구도 변화다. Google·Microsoft·AWS는 '클라우드 인프라 + AI'로 기업을 잠그려 하지만, Meta는 '저비용 CPU 기반 AI'로 진입한다는 전략. CJ Desai 영입으로 경영진의 진정성을 보이고 있으며, Muse 에이전트의 빠른 채택이 시장 기회를 확증했다는 판단으로 해석된다. 다만 아직 초기 단계라 6~12개월 내 실제 매출 기여는 미미할 수 있다.",
+        decision: "매수 관점: Meta의 AI 기술 강점을 B2B로 확장하는 것은 장기 성장 드라이버가 될 수 있다. 다만 현재 주가는 AI 투자 과열로 이미 높은 밸류에이션을 반영했을 가능성이 있으니 진입 타이밍 확인 필수. 보유 중: Meta의 엔터프라이즈 고객 확보 속도를 분기 실적 공시에서 추적할 것.",
+        confidence: "Meta Enterprise Platform 공식 발표와 CJ Desai 영입은 Meta의 보도자료와 CNBC 보도로 신뢰도 높음. Muse AI agent의 기업 채택과 관련한 구체적 수치는 결측되어 부분적 해석 필요",
+        sources: [
+          { title: "Meta Launches Enterprise Platform to Sell AI Directly to Companies (CNBC)", url: "https://www.cnbc.com/2026/09/29/meta-launches-enterprise-ai-platform" },
+          { title: "Chirantan Desai Joins Meta as Head of Enterprise Platform (Meta Blog)", url: "https://about.fb.com/news/2026/09/meta-enterprise-platform-cj-desai" },
+          { title: "Top Tech News Today, September 29, 2026: Meta Enterprise, AI (TechStartups)", url: "https://techstartups.com/2026/09/29/top-tech-news-today-september-29-2026-anthropic-bytedance-google-meta-openai-samsung-more/" },
+        ],
+      },
       {
         date: "2026-09-23",
         headline: "Meta Connect 2026 (9/23-24) - Zuckerberg keynote: 'Muse' 전용 하드웨어(팜사이즈 기기) + 카메라 없는 AI 글래스(Ray-Ban Meta Audio, $349) 동시 공개 - AI 에이전트 기반 웨어러블 전략 전환",
@@ -5067,6 +5099,22 @@ const BUSINESS_NOTES = {
       {title:"Arm 2026 Q2 Financials (More Than Moore / Ryan Smith, Dr. Ian Cutress)", url:"https://morethanmoore.substack.com/p/arm-2026-q2-financials"},
     ],
     newsLog: [
+      {
+        date: "2026-09-29",
+        headline: "Meta Muse AI 에이전트의 CPU 기반 추론으로 ARM·INTC 랠리 - ARM +5%(9/25), INTC +10%, CPU 인프라 수요 급증 신호",
+        facts: ["Meta의 Muse AI 에이전트가 CPU 기반 추론(inference) 작업에서 빠른 채택을 보임 - 기존 GPU 의존도 완화 신호", "ARM Holdings 주가는 9월 25일 5% 상승 후 계속 상승세 유지, 현재 $321 근처에서 거래 중", "Intel(INTC)은 동일 기간 약 10% 상승으로 더 큰 폭의 랠리 진행 - ARM과 INTC의 서버 CPU 공급이 AI 인프라에서 재평가되는 신호", "Qualcomm도 함께 상승했으며, 칩셋 설계사들의 '저전력 CPU 기반 AI 추론'에 대한 수요가 급증하고 있음", "SK Hynix가 Intel과의 거래 협상 중이라는 보도도 함께 나왔으며, 이는 INTC 주가 상승의 배경 중 하나"],
+        why: ["지금까지 AI는 NVDA의 고사양 GPU(H100·H200 등)에 의존했지만, Muse 같은 가벼운 AI 에이전트는 일반 CPU로도 충분히 작동 - 이것은 '모든 AI 추론이 최고 사양 GPU를 필요로 하진 않다'는 시장 현실의 변화를 반영", "ARM은 모바일·엣지 디바이스에서 강하지만 서버 CPU 시장에서는 약했는데, Meta Muse가 '저비용 CPU 추론의 경제성'을 증명하면서 ARM의 서버 칩이 새로운 시장을 얻게 되는 상황", "INTC는 지난 수년간 AMD·Apple Silicon에 밀렸지만, AI 인프라에서 '높은 연산능력 + 높은 전력효율'의 CPU 설계가 재평가되면서 INTC의 Xeon 라인업이 다시 관심을 받게 됨", "이는 NVDA의 GPU 독점 체제에 약간의 균열이 생기고 있다는 신호 - 전체 AI 인프라의 '다양화' 추세"],
+        beginner: ["지금까지 AI는 매우 강력한 GPU(NVIDIA의 칩)만으로만 작동한다고 생각했어요. 하지만 Meta의 새로운 AI 도우미(Muse)는 일반적인 컴퓨터의 CPU로도 충분히 작동한다는 것을 보여줬어요.", "이것이 중요한 이유는 '더 싼 칩으로도 AI를 돌릴 수 있다'는 뜻이기 때문입니다. ARM과 Intel이라는 회사들은 이런 저비용 CPU를 만드는 데 특화되어 있어서 주가가 올랐어요.", "지금까지는 NVIDIA만 이 AI 칩 시장에서 대부분의 몫을 가져갔는데, 이제 다른 회사들의 칩도 AI 시장에서 쓸 수 있게 되고 있다는 신호입니다. 경쟁이 생겼다는 뜻이에요."],
+        watch: ["향후 기업들의 실제 AI 인프라 투자에서 GPU vs CPU의 비율이 어떻게 변하는지 추적", "Meta Muse의 성능(정확도·지연속도)이 고사양 GPU 기반 모델과의 격차를 계속 좁히는지", "ARM의 서버 칩(Neoverse)이 실제로 몇몇 데이터센터 운영사의 발주를 받는지, INTC의 Xeon AI 특화 라인업 판매 현황", "NVDA의 다음 분기 가이던스에서 '저사양 칩으로의 대체' 위험을 어떻게 언급하는지"],
+        interpretation: "Meta Muse의 성공은 NVDA의 절대 지배 구도에 처음으로 균열을 내는 신호다. 모든 AI 작업이 최고 사양 GPU를 필요로 하지 않다는 것이 시장에 증명되면서, ARM·INTC 같은 전통적 CPU 설계사들이 AI 인프라 시장에서 새로운 기회를 얻고 있다. 다만 이것이 NVDA의 성장을 훼손할 정도는 아직 아니며, 오히려 'AI 인프라 시장이 다양화되고 있다'는 건강한 신호로 봐야 한다. ARM·INTC의 상승은 장기 트렌드보다는 '놓친 기회에 대한 재평가'일 가능성이 높다.",
+        decision: "ARM: 저비용 서버 CPU 시장에 새로운 기회가 열렸으므로 중기 성장성이 개선되었다고 볼 수 있다. 다만 현재 주가 랠리가 과도한지 냉정한 평가 필요. INTC: 10% 상승은 환영할만하지만, INTC의 경영진 리더십·공정 경쟁력 이슈가 근본적으로 해결되지 않는 한 다시 약세를 받을 수 있다. SK Hynix 거래 소식은 긍정신호지만 아직 추측 단계.",
+        confidence: "Meta Muse의 성공과 ARM/INTC 주가 상승 일자는 247WallSt·Yahoo Finance의 기사로 신뢰도 높음. 구체적인 성능 비교 데이터(GPU vs CPU 추론 비용·지연)는 별도 발표가 아직 없어 부분적 해석에 의존",
+        sources: [
+          { title: "Arm Climbs 5% as Buyers Return After Sharp Pullback; Qualcomm Nudges Higher (247WallSt)", url: "https://247wallst.com/investing/2026/09/25/arm-climbs-5-as-buyers-return-after-sharp-pullback-qualcomm-nudges-higher-intel-sits-out-the-rally/" },
+          { title: "ARM Holdings Gains on AI CPU Demand Surge (Yahoo Finance)", url: "https://finance.yahoo.com/technology/ai/articles/arm-holdings-arm-stock-gains-231156551.html" },
+          { title: "AMD Stock Soars to Record; Intel, ARM Rally on Meta Muse AI (Yahoo Finance)", url: "https://finance.yahoo.com/markets/article/amd-stock-soars-to-new-record-as-semiconductors-bounce-chart-of-the-day-161627271.html" },
+        ],
+      },
       {
         date: "2026-09-21",
         headline: "주가 +17% 급등(종가 $322.35, 하루 만에 시총 약 490억달러 증가) - Piper Sandler 신규 커버리지 개시(비중확대·목표가 $320), 데이터센터 CPU·메타 커스텀칩 협력 근거",
