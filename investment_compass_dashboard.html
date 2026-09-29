@@ -4229,7 +4229,7 @@ function renderSmartMoneyPage(){
         ${flags.length ? `<div style="color:#876000;font-size:12px;">⚠️ ${flags.map(esc).join(' · ')} — 따라 사기 전 가격 부담 확인</div>` : ''}
         ${ad ? `<div style="color:#876000;font-size:12px;">⚠️ After-Drop: ${((p.after_drop_detail) || []).map(d => `${esc(d.manager || '')} 공개일(${esc(d.public_since || '')}) 가격이 보고기준일 대비 ${(d.drop_at_public * 100).toFixed(0)}%`).join(' · ')}. ${esc(S.after_drop_note || '')}</div>` : ''}
         <div style="font-weight:700;font-size:12.5px;margin-top:6px;">보유·매수 투자자 (보유 금액 순)</div>
-        <div style="overflow-x:auto;"><table style="width:100%;font-size:12px;"><thead><tr><th>투자자</th><th>행동</th><th>보유 금액</th><th>보유 주식</th><th>직전 분기 대비</th><th>포트 비중</th><th>기간</th><th>공개일</th></tr></thead><tbody>${buyers || '<tr><td colspan="8" class="sub">없음</td></tr>'}</tbody></table></div>
+        <div style="overflow-x:auto;"><table style="width:100%;font-size:12px;"><thead><tr><th>투자자</th><th>행동</th><th>분기말 보유액</th><th>보유 주식</th><th>직전 분기 대비</th><th>포트 비중</th><th>기간</th><th>공개일</th></tr></thead><tbody>${buyers || '<tr><td colspan="8" class="sub">없음</td></tr>'}</tbody></table></div>
         <div style="font-weight:700;font-size:12.5px;margin-top:8px;">매도 (누가·몇 주·언제)</div>
         <div style="overflow-x:auto;"><table style="width:100%;font-size:12px;"><thead><tr><th>투자자</th><th>행동</th><th>판 주식</th><th>보유 변화</th><th>매도 시기</th><th>공개</th></tr></thead><tbody>${sellers || '<tr><td colspan="6" class="sub">이번 공시 매도 없음</td></tr>'}</tbody></table></div>
         ${(x.quarter_history || []).length ? `<div style="font-weight:700;font-size:12.5px;margin-top:8px;">분기별 투자 현황 (${esc(S.history_from || '')}부터)</div>
@@ -4242,7 +4242,9 @@ function renderSmartMoneyPage(){
     const rp = (S.replication || {})[m.key] || {};
     return `<tr><td>${esc(m.manager)}<div class="sub" style="font-size:10.5px;">${esc(m.firm || '')}</div></td><td>${esc(m.report_date || '')}</td><td>${esc(m.filing_date || '')}</td><td>${m.n_positions ?? ''}</td><td>🆕${m.counts?.['신규'] ?? 0} ⬆${m.counts?.['추가'] ?? 0} ⬇${m.counts?.['일부매도'] ?? 0} ❌${m.counts?.['전량매도'] ?? 0}</td><td>${pc(rp.excess_cagr_full, 1)}</td></tr>`;
   }).join('');
+  const SS = S.source_status || {};
   body.innerHTML = `
+    ${SS.ok === false ? `<div class="comment-box" style="background:#fdecea;color:#b3261e;"><b>⚠️ 13F 수집 지연</b> — ${esc(SS.reason || '')}. 이 상태에서는 NEW 표시를 하지 않아요(새 공시가 없는 것과 구분).</div>` : ''}
     <div class="comment-box" style="background:var(--warn-bg);color:#876000;">
       <b>판단은 직접 — 매수 권유가 아니에요.</b> 여러 유명 투자자가 겹치는 종목을 모아 보여주고, 그중 <b>내 단기 매수 신호</b>(RSI·200일선 규칙) 상태를 붙였어요. ${esc(S.backtest_note || '')}
     </div>
@@ -4257,7 +4259,7 @@ function renderSmartMoneyPage(){
     <div style="overflow-x:auto;margin-top:8px;"><table style="width:100%;font-size:12.5px;">
       <thead><tr><th>종목</th><th>겹침</th><th>내 신호</th><th>현재가</th><th>52주 고점대비</th><th>RSI</th><th>투자자 보유액 합</th><th>시가총액</th><th>공시 경과</th></tr></thead>
       <tbody>${tr || '<tr><td colspan="9" class="sub">조건에 맞는 종목이 없어요</td></tr>'}</tbody></table></div>
-    <div class="sub" style="margin-top:6px;"><span style="background:#b3261e;color:#fff;border-radius:6px;padding:0 5px;font-size:10px;font-weight:700;">NEW</span> = 공개 후 ${S.new_days || 14}일 이내 신규·추가 매수(3명 이상 겹치는 대상 종목·관심종목은 텔레그램으로도 알려요). 행을 누르면 투자자별 보유 금액·수량(큰 순서), 매도 내역, 분기별 현황이 펼쳐져요. 가격은 ${esc(S.today || '')} 기준.</div>
+    <div class="sub" style="margin-top:6px;"><span style="background:#b3261e;color:#fff;border-radius:6px;padding:0 5px;font-size:10px;font-weight:700;">NEW</span> = 공개 후 ${S.new_days || 14}일 이내 13F 신규·증가 보유 공개(실제 체결 시점·금액 아님, 분기말 보유 기준). 행을 누르면 투자자별 보유 금액·수량(큰 순서), 매도 내역, 분기별 현황이 펼쳐져요. 가격은 ${esc(S.today || '')} 기준.</div>
     <details style="margin-top:12px;"><summary style="cursor:pointer;font-weight:600;">추적 투자자 18명</summary>
       <div class="sub" style="margin:6px 0;">복제 성과 = 공시를 공개일 다음 날 따라 샀을 때 SPY 대비 연환산(2020-11~). 기간마다 순위가 뒤바뀌어 실력 순위로 읽으면 안 돼요.</div>
       <div style="overflow-x:auto;"><table style="width:100%;font-size:12px;"><thead><tr><th>투자자</th><th>보고기준일</th><th>공개일</th><th>종목 수</th><th>이번 분기 행동</th><th>복제 성과</th></tr></thead><tbody>${mgr}</tbody></table></div>
