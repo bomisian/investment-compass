@@ -360,6 +360,7 @@
     </div>
     <div class="sub" style="margin-bottom:6px;">판단(장기) = <b>눌림목 강도(0~5)</b>, 실데이터 검증된 12개월 초과수익 예측 지표만 반영(52주 하락 깊이+200일선 아래+시장조정). 6~12개월·우량주 타이밍용 · 단기판단 = 우상향 눌림목(RSI 30~38) 또는 과매도(RSI&lt;30, 하락추세면 반등 확인)+쿨다운, 14년치 검증(현실 진입 기준 10일 승률 66%)<br>
     <b>그룹대비강도</b> = 같은 섹터 대비 최근 20일 상대수익률 - "많이 뒤처지면 나쁜 신호"만 검증됐고 "앞서면 좋다"는 아직 검증 전이라 참고용이에요</div>
+    <div class="sub" style="margin-bottom:4px;font-size:11.5px;">📌 <b>가치 참고범위</b>(시장기준 적정가 칸): 모형 가정과 자료 기준일에 따른 추정값이며 예측·매수 권유가 아닙니다. · <b>단기신호</b>(단기판단·단기신호 기준가 칸): 과거 가격·거래량 규칙의 관측 결과이며 수익을 보장하지 않습니다. 두 값은 방법·기간이 달라 합치지 않아요.</div>
     <div id="marketSigmaSummary" class="sub" style="margin-bottom:8px;"></div>
     <div style="overflow-x:auto;">
     <table id="resultTable" style="display:none;min-width:1420px;">
@@ -373,6 +374,7 @@
           <th data-key="auxScore" title="가격 타당성·EPS 전망·애널리스트 목표가·내부자 매매·뉴스 방향성·그룹대비강도를 모아 긍정/조심 개수만 센 거예요. 새로 만든 예측이 아니라 이미 이 표·상세 화면에 있는 값들을 모은 참고용 요약이에요 - 매수·매도 신호 아니에요. 종목을 열면 '보조 근거 체크' 카드에서 자세히 볼 수 있어요">보조 근거</th>
           <th data-key="relStrength20" title="같은 섹터 그룹(동일가중) 대비 최근 20일 수익률 차이. 뒤처짐(-11%p 이하)은 5년치 검증된 경고. 앞섬(+11%p 이상)은 2026-08-26 10년치 재검증 결과 반도체 그룹에서도 사이클 전체로는 근거가 약함(2021-2023 구간은 오히려 역방향) - AI 강세장 국면 한정 효과로 판단해 신호로 쓰지 않음, 참고용 숫자만">그룹대비강도(20일)</th>
           <th data-key="techScore" title="우상향 눌림목(RSI 30~38) 또는 과매도(RSI<30, 하락추세면 당일 반등 확인) + 거래량 급증시 강한신호, 뭉침제거 쿨다운. 백테스트 검증 규칙 기준 단타용 판단">단기판단</th>
+          <th data-key="sigPriceGap" title="단기신호: 과거 가격·거래량 규칙의 관측 결과이며 수익을 보장하지 않습니다. 기존 단기 매수 신호 규칙(종가>200일선 + RSI 30~38)을 거꾸로 풀어 '다음 거래일 종가가 이 가격 이하로 마감하면 RSI가 38 이하'가 되는 값이에요. 새 신호가 아니고, 가치 참고범위(시장기준 적정가)와 합친 값도 아니에요. 하락추세면 한 가격으로 정할 수 없어요(RSI 30 미만 뒤 반등하는 날이 조건).">단기신호 기준가</th>
           <th data-key="drawdownPct" title="최근 1년 &quot;종가&quot; 기준 최고가 대비 지금 얼마나 빠졌는지(일중 고가 아님 - 검증된 계산방식과 동일하게 종가로 통일)">고점대비 하락(종가)</th>
           <th data-key="price">현재가</th>
           <th data-key="perNow" title="현재가 ÷ 올해 예상 EPS(Yahoo 컨센서스). 01 판단 탭의 '지금 PER · 올해 실적 기준'과 같은 값이에요. Yahoo 추정치가 없는 종목만 Finnhub FWD PER로 대체하고 그 경우 * 표시가 붙어요">PER(올해예상)</th>
@@ -2974,6 +2976,60 @@ function renderMarketSigmaSummary(){
     : '지금은 시장 전체가 한쪽으로 크게 몰린 상태는 아니에요.';
   el.innerHTML = `<b>시장 전체 시그마 요약</b>(옵션 IV로 계산 가능했던 ${scored.length}/${rows.length}종목 기준) ${hintIcon('sigmaBand')} · 평균 ${avg>=0?'+':''}${avg.toFixed(2)}σ · -1σ 이하 ${below1}개 · -1.5σ 이하 ${below15}개 · +1σ 이상 ${above1}개<br>${read}`;
 }
+// D8(DECISIONS_LOG_20260930, Codex L10-7): '단기신호 기준가' -- 기존 단기 규칙(RSI_PULLBACK_HI·200일선)을 거꾸로 풀어
+// "마지막 종가 다음 거래일 종가가 얼마 이하면 RSI가 기준 이하가 되는가"만 계산. 새 규칙·새 배지 없음, 가치 참고범위와 합치지 않음.
+function rsiStateAt(closes, period=14){
+  let gains=0, losses=0, avgG=null, avgL=null;
+  for(let i=1;i<closes.length;i++){
+    const diff = closes[i]-closes[i-1], gain = diff>0?diff:0, loss = diff<0?-diff:0;
+    if(i<=period){ gains+=gain; losses+=loss; if(i===period){ avgG=gains/period; avgL=losses/period; } }
+    else { avgG=(avgG*(period-1)+gain)/period; avgL=(avgL*(period-1)+loss)/period; }
+  }
+  return avgG==null ? null : {avgG, avgL};
+}
+function rsiThresholdPrice(closes, target, period=14){
+  // 다음 종가 P(<= 마지막 종가, 하락일)에서 RSI = target 이 되는 P. 하락일엔 gain=0, loss=last-P.
+  const st = rsiStateAt(closes, period);
+  if(!st || !(target > 0 && target < 100)) return null;
+  const last = closes[closes.length-1];
+  const g1 = st.avgG*(period-1)/period;
+  const rs = target/(100-target);
+  const d = period*g1/rs - (period-1)*st.avgL;       // 필요한 하락폭
+  if(!isFinite(d)) return null;
+  return {price: last - Math.max(d, 0), already: d <= 0, last};
+}
+function shortSignalPriceInfo(r){
+  const c = r && r.series && r.series.closes, dts = r && r.series && r.series.dates;
+  if(!Array.isArray(c) || c.length < 200) return null;
+  const last = c[c.length-1];
+  const sum199 = c.slice(-199).reduce((a,b)=>a+b,0);
+  const ma200Next = P => (sum199 + P) / 200;
+  const t38 = rsiThresholdPrice(c, RSI_PULLBACK_HI), t30 = rsiThresholdPrice(c, 30);
+  if(!t38 || !t30 || !(t38.price > 0)) return null;
+  const st0 = rsiStateAt(c); if(!st0 || (st0.avgG === 0 && st0.avgL === 0)) return null;   // 117 검증: 상수 구간은 표시 안 함
+  const up38 = t38.price > ma200Next(t38.price);
+  const ma200Now = c.slice(-200).reduce((a,b)=>a+b,0) / 200;
+  return {lastDate: dts ? dts[dts.length-1] : null, last, p38: t38.price, p30: t30.price, already38: t38.already, already30: t30.already,
+          uptrendNow: last > ma200Now, ma200Now,
+          ma200AtP38: ma200Next(t38.price), uptrendAtP38: up38,
+          cooldown: (() => { const es = r.entryStat || {}; return es.since != null && es.since + 1 <= SIGNAL_COOLDOWN; })()};  // 117 검증: '내일' 기준 쿨다운
+}
+function shortSignalPriceHtml(r){
+  const s = shortSignalPriceInfo(r);
+  if(!s) return '<span class="sub">-</span>';
+  const f = v => '$' + v.toFixed(v >= 100 ? 1 : 2);
+  const pct = v => { const x = (v / s.last - 1) * 100; return (x >= 0 ? '+' : '') + x.toFixed(1) + '%'; };
+  const f30 = s.p30 > 0 ? f(s.p30) : '계산 불가';
+  const tip = `단기신호: 과거 가격·거래량 규칙의 관측 결과이며 수익을 보장하지 않습니다. 마지막 종가(${s.lastDate || '?'}) ${f(s.last)} 다음 거래일 종가 기준 계산. RSI ${RSI_PULLBACK_HI} 도달가 ${f(s.p38)}(이때 200일선 약 ${f(s.ma200AtP38)}), RSI 30 도달가 ${f30}.`;
+  let main;
+  if(s.already38 && s.uptrendNow) main = `<span title="${esc(tip)}">RSI 이미 ${RSI_PULLBACK_HI} 이하(우상향) — 단기판단 칸 확인</span>`;
+  else if(s.already30) main = `<span title="${esc(tip)}" class="sub">하락추세·RSI 이미 30 미만 — 종가가 오르는(반등) 날이 조건</span>`;
+  else if(s.already38 || !s.uptrendAtP38) main = `<span title="${esc(tip)}" class="sub">${s.uptrendNow ? `RSI ${RSI_PULLBACK_HI} 가격(${f(s.p38)})에선 200일선 아래` : '하락추세'} — RSI 30 미만(${f30}↓) 뒤 반등하는 날</span>`;
+  else if(s.uptrendAtP38) main = `<span title="${esc(tip)}">${f(s.p38)} 이하 <span class="sub">(${pct(s.p38)})</span></span><div class="sub" style="font-size:10px;">단, 200일선 약 ${f(s.ma200AtP38)} 위 유지</div>`;
+  else main = `<span title="${esc(tip)}" class="sub">하락추세 — RSI 30 미만(${f(s.p30)}↓) 뒤 반등하는 날</span>`;
+  return main + (s.cooldown ? `<div class="sub" style="font-size:10px;">${(r.entryStat||{}).since === 0 ? '오늘 신호' : `최근 신호 ${(r.entryStat||{}).since}거래일 전`} — 내일은 쿨다운이라 새 신호 아님</div>` : '')
+    + `<div class="sub" style="font-size:10px;">${esc(s.lastDate || '')} 종가 다음 날 기준</div>`;
+}
 function renderTable(){
   renderMarketSigmaSummary();
   const table = document.getElementById('resultTable');
@@ -2989,7 +3045,8 @@ function renderTable(){
   // 쓰고, 매수 신호처럼 단정하지 않음(아래 표 안내문에도 명시).
   rows.forEach(r=>{ if(r.relStrength20===undefined) r.relStrength20 = (computeRelStrength(r)||{}).rel ?? null; });
   rows.forEach(r=>{ if(r._auxEvidence===undefined){ r._auxEvidence = computeAuxiliaryEvidence(r); r.auxScore = r._auxEvidence.posCount - r._auxEvidence.negCount; } });
-  rows.forEach(r=>{ r.marketFairGap = marketFairGapOf(r.ticker); }); // 2026-09-29: 시장기준 적정가 칸 정렬용(중앙 대비 %)
+  rows.forEach(r=>{ r.marketFairGap = marketFairGapOf(r.ticker); });
+  rows.forEach(r=>{ const s = shortSignalPriceInfo(r); r.sigPriceGap = s ? ((s.already38 && s.uptrendNow) ? 0 : (!s.already38 && s.uptrendAtP38 ? (s.p38 / s.last - 1) * 100 : null)) : null; }); // D8 정렬용(기준가까지 남은 %) // 2026-09-29: 시장기준 적정가 칸 정렬용(중앙 대비 %)
   if(themeFilter) rows = rows.filter(r=>r.theme===themeFilter);
   if(verdictFilter) rows = rows.filter(r=>r.verdict.label===verdictFilter);
   if(search) rows = rows.filter(r=>r.ticker.includes(search) || (r.name||'').toUpperCase().includes(search));
@@ -3023,6 +3080,7 @@ function renderTable(){
           : (r.entryStat && r.entryStat.kind==='cooldown'
             ? `<span title="${r.entryStat.since}거래일 전 신호의 연장이라 새 진입 자리는 아니에요" class="sub" style="margin-left:4px;">연장</span>` : '')
       }</td>
+      <td>${shortSignalPriceHtml(r)}</td>
       <td class="${chCls}">${r.drawdownPct.toFixed(1)}%</td>
       <td>$${r.price.toFixed(2)}</td>
       <td>${r.perNow!=null?r.perNow.toFixed(1)+(r.perNowSource==='finnhub'?'*':''):'-'}</td>
@@ -3041,7 +3099,7 @@ function renderTable(){
   if(errRows.length){
     body.innerHTML += errRows.map(r=>`<tr>
       <td class="name">${r.ticker}</td>
-      <td colspan="13" class="err">
+      <td colspan="17" class="err">
         조회 실패: ${r.msg}
         <button class="secondary" style="padding:4px 10px;font-size:11.5px;margin-left:8px;" onclick="event.stopPropagation();retryTicker('${r.ticker}')">↻ 재조회</button>
       </td>
@@ -4179,7 +4237,7 @@ function toggleSmartDetail(ticker){
 // 판단은 사용자 몫 -- 점수·매수 권유 없음(111 백테스트: 겹침만으로는 우위 확인 안 됨).
 const SM_PREF_KEY = 'compass_smart_prefs';
 function smPrefs(){
-  const d = {minHolders: 3, scope: 'screen', sig: 'all', showWl: true, view: 'buy'};
+  const d = {minHolders: 3, scope: 'screen', sig: 'all', showWl: true, view: 'buy', conc: true};
   try{ return Object.assign(d, JSON.parse(localStorage.getItem(SM_PREF_KEY) || '{}')); }catch(e){ return d; }
 }
 function setSmPref(k, v){
@@ -4198,17 +4256,58 @@ function smYearHtml(x, S){
   const y = x.year;
   if(!y) return '';
   const q = rd => { const m = /^(\d{4})-(\d{2})/.exec(rd || ''); return m ? `${m[1]}Q${Math.ceil(Number(m[2]) / 3)}` : esc(rd || ''); };
+  const iv = e => smInterval(e.prev_report_date, e.report_date);
   const buys = (y.buyers || []).map(b => `<tr><td>${esc(b.manager || '')}</td>
-      <td>${(b.buys || []).map(e => `${esc(SM_ACT[e.action] || '')}${q(e.report_date)} ${e.action === '신규' ? '신규 보유' : '보유 증가'} ${e.shares_change > 0 ? '+' + smShares(e.shares_change) : ''} <span class="sub">· 공개일 ${esc(e.public_since || '')}</span>`).join('<br>')}</td>
+      <td>${(b.buys || []).map(e => `${esc(SM_ACT[e.action] || '')}${q(e.report_date)} ${e.action === '신규' ? '신규 보유' : '보유 증가'} ${e.shares_change > 0 ? '+' + smShares(e.shares_change) : ''}${iv(e)} <span class="sub">· 공개일 ${esc(e.public_since || '')}</span>`).join('<br>')}</td>
       <td style="text-align:right;">${smShares(b.shares)}</td><td style="text-align:right;">${smMoney(b.value_usd)}</td>
-      <td>${(b.partial_sells || []).length ? `⬇ 일부매도 ${(b.partial_sells || []).map(s => q(s.report_date)).join(', ')}` : '—'}</td></tr>`).join('');
-  const sells = (y.sellers || []).map(d => `<tr><td>${esc(d.manager || '')}</td><td>❌ ${q(d.report_date)} 보유 0 (전량매도 추정)</td>
-      <td style="text-align:right;">${smShares(d.shares_sold)}</td><td>${esc(d.public_since || '')} 공개</td><td>${d.bought_this_year ? '올해 샀다가 팜' : ''}</td></tr>`).join('');
+      <td>${(b.partial_sells || []).length ? `⬇ 감소 ${(b.partial_sells || []).map(s => q(s.report_date)).join(', ')}` : '—'}${(b.full_sells || []).length ? `<div class="sub" style="font-size:10.5px;">중간 전량 이탈 ${(b.full_sells || []).map(s => q(s.report_date)).join(', ')} 후 재진입</div>` : ''}${b.amended ? '<div class="sub" style="font-size:10.5px;">정정공시 반영</div>' : ''}</td></tr>`).join('');
+  const sells = (y.sellers || []).map(d => `<tr><td>${esc(d.manager || '')}</td><td>❌ ${q(d.report_date)} 보고상 미보유 (전량 이탈 추정)${iv(d)}${d.amended ? ' · 정정공시 반영' : ''}</td>
+      <td style="text-align:right;">${smShares(d.shares_sold)}</td><td>${esc(d.public_since || '')} 공개</td><td>${d.bought_this_year ? '올해 신규·증가 후 보고상 이탈' : ''}</td></tr>`).join('');
   return `<div style="font-weight:700;font-size:12.5px;margin-top:6px;color:#1e7b34;">올해 매수한 투자자 ${y.n_buyers || 0}명 <span class="sub" style="font-weight:400;">(${esc(y.basis || '')}년 공개 13F · 최근 공시에서도 보유 중인 사람만 · 실제 거래일·거래대금은 공시로 확인 불가)</span></div>
-    <div style="overflow-x:auto;"><table style="width:100%;font-size:12px;"><thead><tr><th>투자자</th><th>보유 증가 분기 (직전 공시 대비 · 매수 추정)</th><th>최근 보유 주식</th><th>분기말 보유평가액</th><th>올해 일부매도</th></tr></thead><tbody>${buys || '<tr><td colspan="5" class="sub">없음</td></tr>'}</tbody></table></div>
-    <div style="font-weight:700;font-size:12.5px;margin-top:8px;color:#b3261e;">올해 전량 매도한 투자자 ${y.n_sellers || 0}명</div>
-    <div style="overflow-x:auto;"><table style="width:100%;font-size:12px;"><thead><tr><th>투자자</th><th>보유 0이 된 분기</th><th>판 주식(직전 보유)</th><th>공개일</th><th>비고</th></tr></thead><tbody>${sells || '<tr><td colspan="5" class="sub">없음</td></tr>'}</tbody></table></div>
+    <div style="overflow-x:auto;"><table style="width:100%;font-size:12px;"><thead><tr><th>투자자</th><th>보유 증가 분기 (직전 공시 대비 · 매수 추정)</th><th>최근 보유 주식</th><th>분기말 보유평가액</th><th>올해 감소·이탈 이력</th></tr></thead><tbody>${buys || '<tr><td colspan="5" class="sub">없음</td></tr>'}</tbody></table></div>
+    <div style="font-weight:700;font-size:12.5px;margin-top:8px;color:#b3261e;">올해 전량 이탈한 투자자 ${y.n_sellers || 0}명 <span class="sub" style="font-weight:400;">(미제출 분기는 매도로 보지 않음)</span></div>
+    <div style="overflow-x:auto;"><table style="width:100%;font-size:12px;"><thead><tr><th>투자자</th><th>보유 0이 된 분기</th><th>직전 보고 주식(이탈 추정분)</th><th>공개일</th><th>비고</th></tr></thead><tbody>${sells || '<tr><td colspan="5" class="sub">없음</td></tr>'}</tbody></table></div>
+    ${(y.n_reduced || 0) ? `<div class="sub" style="font-size:11px;margin-top:4px;">올해 늘리지 않고 줄이기만(매수 인원에 안 셈): ${(y.reduced || []).map(h => esc(h.manager || '') + ' ' + smMoney(h.value_usd)).join(' · ')}</div>` : ''}
     ${(y.n_holders_only || 0) ? `<div class="sub" style="font-size:11px;margin-top:4px;">올해 사고팔지 않고 보유만: ${(y.holders_only || []).map(h => esc(h.manager || '') + ' ' + smMoney(h.value_usd)).join(' · ')}</div>` : ''}`;
+}
+// 두 보고기준일이 연속 분기가 아니면(빈 보고서·미제출 분기를 건너뜀) 다분기 변화로 표시(Codex L10-12)
+function smInterval(prev, rd){
+  const n = s => { const m = /^(\d{4})-(\d{2})/.exec(s || ''); return m ? Number(m[1]) * 4 + Math.ceil(Number(m[2]) / 3) : null; };
+  const a = n(prev), b = n(rd);
+  if(a == null || b == null || b - a <= 1) return '';
+  const lab = v => `${Math.floor((v - 1) / 4)}Q${((v - 1) % 4) + 1}`;
+  return ` <span style="color:#876000;font-size:10.5px;">(${lab(a)}→${lab(b)} ${b - a}개 분기 사이 변화 — 중간 분기 보고 없음/판정불가)</span>`;
+}
+// 목록(가격·신호 계산 대상) 밖 종목의 올해 매수·이탈 가벼운 목록(Codex L10-12: 목록 수준에서 발견 가능하게)
+function smYearOffList(S, P, DIV){
+  const idx = S.year_index || {};
+  const want = P.view === 'sell' ? 'sellers' : 'buyers';
+  const items = Object.entries(idx).map(([tk, o]) => {
+    const arr = (o[want] || []).filter(e => !(P.conc && DIV.has(e[3])));
+    return {tk, arr};
+  }).filter(x => x.arr.length >= Math.min(P.minHolders, 1) && x.arr.length).sort((a, b) => b.arr.length - a.arr.length || a.tk.localeCompare(b.tk));
+  if(!items.length) return '';
+  const qq = rd => { const m = /^(\d{4})-(\d{2})/.exec(rd || ''); return m ? `${m[1]}Q${Math.ceil(Number(m[2]) / 3)}` : esc(rd || ''); };
+  return `<details style="margin-top:10px;"><summary style="cursor:pointer;font-weight:600;">목록 밖 종목 ${items.length}개 — 올해 ${P.view === 'sell' ? '보고상 전량 이탈' : '보유 증가'} 1명 이상 (가격·신호 미계산)</summary>
+    <div style="overflow-x:auto;"><table style="width:100%;font-size:12px;"><thead><tr><th>종목</th><th>인원</th><th>투자자 (분기 · 공개일)</th></tr></thead><tbody>${items.map(x => `<tr><td><b>${esc(x.tk)}</b></td><td>${x.arr.length}명</td><td>${x.arr.map(e => `${esc(e[0])} (${qq(e[1])}${smInterval(e[4], e[1]) ? ' · 다분기' : ''} · ${esc(e[2])})`).join(' · ')}</td></tr>`).join('')}</tbody></table></div></details>`;
+}
+function smYearLookup(v){
+  const el = document.getElementById('smYearFound');
+  const S = window.SMART_MONEY || {};
+  const k = String(v || '').trim().toUpperCase();
+  if(!el) return;
+  if(!k){ el.innerHTML = ''; return; }
+  if((S.rows || {})[k]){ const y = (S.rows[k].year || {}); el.innerHTML = `위 목록 대상 종목이에요 — 올해 매수 ${y.n_buyers || 0}명 · 이탈 ${y.n_sellers || 0}명 · 현재 보유 ${S.rows[k].holders || 0}명. ${(y.n_buyers || 0) ? "'올해 매수 목록'에서 겹침 1명 이상으로" : (y.n_sellers || 0) ? "'올해 보고상 전량 이탈 목록'에서" : "'현재 보유 기준' 보기에서"} 보여요`; return; }
+  const o0 = (S.year_index || {})[k];
+  const DV = new Set((S.managers || []).filter(m => (m.n_positions || 0) > 300 && (window.__smDiv || new Set()).has(m.key)).map(m => m.manager));
+  const o = o0 ? {buyers: o0.buyers.filter(b => !DV.has(b[0])), sellers: o0.sellers.filter(s => !DV.has(s[0])), n_reduced: o0.n_reduced} : null;
+  if(o){ o.n_buyers = o.buyers.length; o.n_sellers = o.sellers.length; }
+  if(!o){ el.innerHTML = '올해 공개 13F에서 추적 투자자의 보유 증가·이탈 없음'; return; }
+  const qq = rd => { const m = /^(\d{4})-(\d{2})/.exec(rd || ''); return m ? `${m[1]}Q${Math.ceil(Number(m[2]) / 3)}` : esc(rd || ''); };
+  el.innerHTML = `<b>${esc(k)}</b> 매수 ${o.n_buyers}명 · 이탈 ${o.n_sellers}명 · 감소만 ${o.n_reduced}명`
+    + (o.buyers.length ? `<br>보유 증가: ${o.buyers.map(b => `${esc(b[0])}(${qq(b[1])}, 공개 ${esc(b[2])})`).join(' · ')}` : '')
+    + (o.sellers.length ? `<br>보고상 이탈: ${o.sellers.map(s => `${esc(s[0])}(${qq(s[1])}, 공개 ${esc(s[2])})`).join(' · ')}` : '')
+    + '<br><span style="font-size:11px;">가격·신호는 목록 종목만 계산해요.</span>';
 }
 function renderSmartMoneyPage(){
   const body = document.getElementById('smartBody');
@@ -4216,11 +4315,22 @@ function renderSmartMoneyPage(){
   if(!body) return;
   if(!S || !S.rows){ body.innerHTML = '<div class="sub">Smart Money 자료가 아직 없어요. 매일 아침 수집 후 생성돼요.</div>'; return; }
   const P = smPrefs();
-  if(![2, 3, 4, 5, 6].includes(Number(P.minHolders))) P.minHolders = 3;  // 103 검증: 저장값이 이상하면 기본값
+  if(![1, 2, 3, 4, 5, 6].includes(Number(P.minHolders))) P.minHolders = 3;  // 103 검증: 저장값이 이상하면 기본값
   if(!['buy', 'sell', 'hold'].includes(P.view)) P.view = 'buy';
   // D2·D3(DECISIONS_LOG_20260930): 올해 공개 13F 기준 매수/매도 목록. 매도한 투자자는 매수 목록에서 빠지고 매도 목록에 나옴
-  const Y = x => x.year || {n_buyers: 0, n_sellers: 0, n_holders_only: 0, buyers: [], sellers: [], holders_only: []};
-  const vCount = x => P.view === 'buy' ? (Y(x).n_buyers || 0) : P.view === 'sell' ? (Y(x).n_sellers || 0) : (x.holders || 0);
+  const DIV = new Set((S.managers || []).filter(m => (m.n_positions || 0) > 300).map(m => m.key));
+  const DIVN = new Set((S.managers || []).filter(m => (m.n_positions || 0) > 300).map(m => m.manager));
+  window.__smDiv = P.conc ? DIV : new Set();
+  const Y = x => {
+    const y = x.year || {n_buyers: 0, n_sellers: 0, n_holders_only: 0, n_reduced: 0, buyers: [], sellers: [], holders_only: [], reduced: []};
+    if(!P.conc || !DIV.size) return y;
+    const f = a => (a || []).filter(d => !DIV.has(d.key));
+    const o = Object.assign({}, y, {buyers: f(y.buyers), sellers: f(y.sellers), holders_only: f(y.holders_only), reduced: f(y.reduced)});
+    o.n_buyers = o.buyers.length; o.n_sellers = o.sellers.length; o.n_holders_only = o.holders_only.length; o.n_reduced = o.reduced.length;
+    return o;
+  };
+  const HN = x => (!P.conc || !DIV.size) ? (x.holders || 0) : (x.investors || []).filter(i => i.action !== '전량매도' && !DIV.has(i.key)).length;
+  const vCount = x => P.view === 'buy' ? (Y(x).n_buyers || 0) : P.view === 'sell' ? (Y(x).n_sellers || 0) : HN(x);
   const vValue = x => P.view === 'buy' ? (Y(x).buyers || []).reduce((t, d) => t + (d.value_usd || 0), 0)
     : P.view === 'sell' ? (Y(x).sellers || []).length : (x.buyers_by_value || []).reduce((t, d) => t + (d.value_usd || 0), 0);
   const pc = (v, d = 0) => (typeof v === 'number' && isFinite(v)) ? (v >= 0 ? '+' : '') + (v * 100).toFixed(d) + '%' : '—';
@@ -4243,13 +4353,13 @@ function renderSmartMoneyPage(){
     const minAge = ages.length ? Math.min(...ages) : null;
     const fr = minAge == null ? '' : (minAge <= 14 ? '🟢' : minAge <= 45 ? '🟡' : minAge <= 90 ? '🟠' : '🔴');
     const heldVal = (x.buyers_by_value || []).reduce((t, d) => t + (d.value_usd || 0), 0);
-    const buyers = (x.buyers_by_value || []).map(d => `<tr><td>${esc(d.manager || '')}${(d.is_new && smartFresh()) ? ' <span style="background:#b3261e;color:#fff;border-radius:6px;padding:0 5px;font-size:10px;font-weight:700;">NEW</span>' : ''}</td><td>${esc(SM_ACT[d.action] || '')} ${esc(d.action || '')}</td><td style="text-align:right;">${smMoney(d.value_usd)}</td><td style="text-align:right;">${smShares(d.shares)}</td><td style="text-align:right;">${d.shares_change > 0 ? '+' : ''}${smShares(d.shares_change)}</td><td>${typeof d.weight_cur === 'number' ? (d.weight_cur * 100).toFixed(1) + '%' : '—'}</td><td>${esc(d.period || '')}</td><td>${esc(d.public_since || '')} (${d.days_since_filing ?? '?'}일 전)</td></tr>`).join('');
-    const sellers = (x.sellers || []).map(d => `<tr><td>${esc(d.manager || '')}</td><td>${esc(SM_ACT[d.action] || '')} ${esc(d.action || '')}</td><td style="text-align:right;">${smShares(-d.shares_change)}</td><td style="text-align:right;">${smShares(d.prev_shares)} → ${smShares(d.shares)}${d.split_adjusted ? `<div class="sub" style="font-size:10px;">분할 반영(${esc(d.split_adjusted)})</div>` : ''}</td><td>${esc(d.period || '')} 사이</td><td>${esc(d.public_since || '')} 공개</td></tr>`).join('');
+    const buyers = (x.buyers_by_value || []).filter(d => !(P.conc && DIV.has(d.manager_key))).map(d => `<tr><td>${esc(d.manager || '')}${(d.is_new && smartFresh()) ? ' <span style="background:#b3261e;color:#fff;border-radius:6px;padding:0 5px;font-size:10px;font-weight:700;">NEW</span>' : ''}</td><td>${esc(SM_ACT[d.action] || '')} ${esc(d.action || '')}</td><td style="text-align:right;">${smMoney(d.value_usd)}</td><td style="text-align:right;">${smShares(d.shares)}</td><td style="text-align:right;">${d.shares_change > 0 ? '+' : ''}${smShares(d.shares_change)}</td><td>${typeof d.weight_cur === 'number' ? (d.weight_cur * 100).toFixed(1) + '%' : '—'}</td><td>${esc(d.period || '')}</td><td>${esc(d.public_since || '')} (${d.days_since_filing ?? '?'}일 전)</td></tr>`).join('');
+    const sellers = (x.sellers || []).filter(d => !(P.conc && DIV.has(d.manager_key))).map(d => `<tr><td>${esc(d.manager || '')}</td><td>${esc(SM_ACT[d.action] || '')} ${esc(d.action || '')}</td><td style="text-align:right;">${smShares(-d.shares_change)}</td><td style="text-align:right;">${smShares(d.prev_shares)} → ${smShares(d.shares)}${d.split_adjusted ? `<div class="sub" style="font-size:10px;">분할 반영(${esc(d.split_adjusted)})</div>` : ''}</td><td>${esc(d.period || '')} 사이</td><td>${esc(d.public_since || '')} 공개</td></tr>`).join('');
     const ad = (x.flags || []).includes('AFTER_DROP');
     const flags = (x.flags || []).filter(f => f !== 'AFTER_DROP');
     return `<tr style="cursor:pointer;" onclick="toggleSmartDetail('${esc(x.ticker)}')">
       <td><b>${esc(x.ticker)}</b>${x.in_watchlist ? ' ⭐' : ''}${((x.new_buys || []).length && smartFresh()) ? ' <span style="background:#b3261e;color:#fff;border-radius:6px;padding:0 5px;font-size:10px;font-weight:700;">NEW</span>' : ''}<div class="sub" style="font-size:10.5px;">${esc((x.name || '').slice(0, 24))}</div>${catChip(sc.category)}</td>
-      <td style="text-align:center;white-space:nowrap;"><span style="${P.view === 'buy' ? 'font-weight:700;font-size:14px;' : ''}color:#1e7b34;">매수 ${Y(x).n_buyers || 0}명</span> · <span style="${P.view === 'sell' ? 'font-weight:700;font-size:14px;' : ''}color:#b3261e;">매도 ${Y(x).n_sellers || 0}명</span><div class="sub" style="font-size:10.5px;${P.view === 'hold' ? 'font-weight:700;' : ''}">현재 보유 ${x.holders}명 (보유만 ${Y(x).n_holders_only || 0})</div></td>
+      <td style="text-align:center;white-space:nowrap;"><span style="${P.view === 'buy' ? 'font-weight:700;font-size:14px;' : ''}color:#1e7b34;">매수 ${Y(x).n_buyers || 0}명</span> · <span style="${P.view === 'sell' ? 'font-weight:700;font-size:14px;' : ''}color:#b3261e;">매도 ${Y(x).n_sellers || 0}명</span><div class="sub" style="font-size:10.5px;${P.view === 'hold' ? 'font-weight:700;' : ''}">현재 보유 ${HN(x)}명 (보유만 ${Y(x).n_holders_only || 0} · 감소만 ${Y(x).n_reduced || 0})</div></td>
       <td>${s ? `${esc(s.icon || '')} ${esc(s.stage || '')}${typeof p.ma200_gap === 'number' ? `<div class="sub" style="font-size:10.5px;">200일선 ${p.ma200_gap >= 0 ? '위' : '아래'} ${pc(p.ma200_gap)}</div>` : ''}${s.last_entry_date ? `<div class="sub" style="font-size:10.5px;">최근 신호 ${esc(s.last_entry_date)}(${s.sessions_since_entry}거래일 전)</div>` : ''}` : `<span class="sub">${esc(x.my_signal_note || '가격 자료부족')}</span>`}</td>
       <td>${typeof p.price === 'number' ? '$' + p.price.toFixed(2) : `<span class="sub" title="${esc(x.price_quality_reason || '')}">가격 자료부족</span>`}<div class="sub" style="font-size:10px;">${esc(p.price_date || '')}</div></td>
       <td>${pc(p.dd52)}</td><td>${typeof p.rsi14 === 'number' ? p.rsi14.toFixed(0) : '—'}</td>
@@ -4257,14 +4367,14 @@ function renderSmartMoneyPage(){
       <td style="text-align:right;">${smMoney(sc.market_cap)}</td>
       <td>${esc(fr)} ${minAge != null ? minAge + '일' : ''}</td></tr>
       <tr id="smd_${esc(x.ticker)}" style="display:none;"><td colspan="9" style="background:var(--panel-2);">
-        <div class="sub" style="margin-bottom:4px;">13F는 분기말 보유를 최대 45일 뒤 공개해요 — <b>지금도 같은 포지션인지는 알 수 없어요</b>. 매매 시점은 '두 분기말 사이'까지만 알 수 있어요.</div>
+        <div class="sub" style="margin-bottom:4px;">13F는 분기말 보유를 최대 45일 뒤 공개해요 — <b>지금도 같은 포지션인지는 알 수 없어요</b>. 보유 변화는 '두 분기말 사이'에 관측된 것일 뿐, 실제 매매일·대금은 알 수 없어요.</div>
         ${flags.length ? `<div style="color:#876000;font-size:12px;">⚠️ ${flags.map(esc).join(' · ')} — 따라 사기 전 가격 부담 확인</div>` : ''}
         ${ad ? `<div style="color:#876000;font-size:12px;">⚠️ After-Drop: ${((p.after_drop_detail) || []).map(d => `${esc(d.manager || '')} 공개일(${esc(d.public_since || '')}) 가격이 보고기준일 대비 ${(d.drop_at_public * 100).toFixed(0)}%`).join(' · ')}. ${esc(S.after_drop_note || '')}</div>` : ''}
-        ${smYearHtml(x, S)}
+        ${smYearHtml(Object.assign({}, x, {year: Y(x)}), S)}
         <div style="font-weight:700;font-size:12.5px;margin-top:10px;">최신 분기 보유 현황 (분기말 보유평가액 순)</div>
         <div style="overflow-x:auto;"><table style="width:100%;font-size:12px;"><thead><tr><th>투자자</th><th>행동</th><th>분기말 보유액</th><th>보유 주식</th><th>직전 분기 대비</th><th>포트 비중</th><th>기간</th><th>공개일</th></tr></thead><tbody>${buyers || '<tr><td colspan="8" class="sub">없음</td></tr>'}</tbody></table></div>
-        <div style="font-weight:700;font-size:12.5px;margin-top:8px;">매도 (누가·몇 주·언제)</div>
-        <div style="overflow-x:auto;"><table style="width:100%;font-size:12px;"><thead><tr><th>투자자</th><th>행동</th><th>판 주식</th><th>보유 변화</th><th>매도 시기</th><th>공개</th></tr></thead><tbody>${sellers || '<tr><td colspan="6" class="sub">이번 공시 매도 없음</td></tr>'}</tbody></table></div>
+        <div style="font-weight:700;font-size:12.5px;margin-top:8px;">최신 분기 보유 감소·이탈 (직전 공시 대비, 추정)</div>
+        <div style="overflow-x:auto;"><table style="width:100%;font-size:12px;"><thead><tr><th>투자자</th><th>행동</th><th>감소 주식(추정)</th><th>보유 변화</th><th>변화 관측 구간</th><th>공개</th></tr></thead><tbody>${sellers || '<tr><td colspan="6" class="sub">이번 공시 감소·이탈 없음</td></tr>'}</tbody></table></div>
         ${(x.quarter_history || []).length ? `<div style="font-weight:700;font-size:12.5px;margin-top:8px;">분기별 투자 현황 (${esc(S.history_from || '')}부터)</div>
         <div style="overflow-x:auto;"><table style="width:100%;font-size:11.5px;"><thead><tr><th>보고기준일</th><th>보유</th><th>🆕</th><th>⬆</th><th>➖</th><th>⬇</th><th>❌</th><th>투자자(분기말 보유액 순)</th></tr></thead><tbody>${[...x.quarter_history].reverse().map(q => `<tr><td>${esc(q.report_date)}</td><td><b>${q.holders ?? '?'}</b>명</td><td>${q.counts?.['신규'] || 0}</td><td>${q.counts?.['추가'] || 0}</td><td>${q.counts?.['유지'] || 0}</td><td>${q.counts?.['일부매도'] || 0}</td><td>${q.counts?.['전량매도'] || 0}</td><td>${(q.entries || []).map(e => `${esc(SM_ACT[e.action] || '')}${esc(e.manager || '')} ${e.action === '전량매도' ? '' : smMoney(e.value_usd)}`).join(' · ')}</td></tr>`).join('')}</tbody></table></div>` : ''}
         <div class="sub" style="font-size:11px;margin-top:4px;">분류: ${esc(sc.category || '')} · 시가총액 ${smMoney(sc.market_cap)} · 영업이익률 ${pc(sc.operating_margin, 1)} · 매출 성장(올해/내년 추정) ${pc(sc.rev_growth_fy0)} / ${pc(sc.rev_growth_fy1)} · 내 신호 기준: ${esc((s && s.rule) || '단기 매수 신호와 동일')}</div>
@@ -4286,10 +4396,11 @@ function renderSmartMoneyPage(){
       <b>판단은 직접 — 매수 권유가 아니에요.</b> 여러 유명 투자자가 겹치는 종목을 모아 보여주고, 그중 <b>내 단기 매수 신호</b>(RSI·200일선 규칙) 상태를 붙였어요. ${esc(S.backtest_note || '')}
     </div>
     <div class="row" style="flex-wrap:wrap;gap:8px 14px;margin-top:10px;align-items:center;font-size:13px;">
-      <span>보기 ${sel('view', [['buy', `올해 매수 목록(${esc(S.year_basis || '')}년 공개 13F)`], ['sell', '올해 매도 목록(전량매도)'], ['hold', '현재 보유 기준']])}</span>
-      <span>겹침 인원 ${sel('minHolders', [[2, '2명 이상'], [3, '3명 이상'], [4, '4명 이상'], [5, '5명 이상'], [6, '6명 이상']])}</span>
+      <span>보기 ${sel('view', [['buy', `올해 매수 목록(${esc(S.year_basis || '')}년 공개 13F)`], ['sell', '올해 보고상 전량 이탈 목록'], ['hold', '현재 보유 기준']])}</span>
+      <span>겹침 인원 ${sel('minHolders', [[1, '1명 이상'], [2, '2명 이상'], [3, '3명 이상'], [4, '4명 이상'], [5, '5명 이상'], [6, '6명 이상']])}</span>
       <span>대상 ${sel('scope', [['screen', '흑자 대형주 + 적자 성장주 + 예외'], ['all', '전체(소형주·ETF 포함)']])}</span>
       <span>내 신호 ${sel('sig', [['all', '전체'], ['now', '🟢매수 신호·🟠반등 확인 중'], ['recent', '최근 20거래일 안에 신호']])}</span>
+      <label class="sub" style="cursor:pointer;" title="끄면 Point72·Gotham·Fisher 같은 수백~수천 종목 분산 운용사도 인원에 포함"><input type="checkbox" ${P.conc ? 'checked' : ''} onchange="setSmPref('conc', this.checked)"> 집중 운용만(13F 종목 300개 이하 · ${DIV.size ? `분산형 ${DIV.size}곳 제외` : '지금 패널엔 300개 초과 운용사가 없어 차이 없음'})</label>
       <label class="sub" style="cursor:pointer;"><input type="checkbox" ${P.showWl ? 'checked' : ''} onchange="setSmPref('showWl', this.checked)"> ⭐관심종목은 겹침 인원·대상과 무관하게 보기</label>
       <span class="sub">${rows.length}종목</span>
     </div>
@@ -4298,8 +4409,10 @@ function renderSmartMoneyPage(){
       <thead><tr><th>종목</th><th>겹침</th><th>내 신호</th><th>현재가</th><th>52주 고점대비</th><th>RSI</th><th>투자자 보유액 합</th><th>시가총액</th><th>공시 경과</th></tr></thead>
       <tbody>${tr || '<tr><td colspan="9" class="sub">조건에 맞는 종목이 없어요</td></tr>'}</tbody></table></div>
     <div class="sub" style="margin-top:6px;"><span style="background:#b3261e;color:#fff;border-radius:6px;padding:0 5px;font-size:10px;font-weight:700;">NEW</span> = 공개 후 ${S.new_days || 14}일 이내 13F 신규·증가 보유 공개(실제 체결 시점·금액 아님, 분기말 보유 기준). 행을 누르면 투자자별 분기말 보유액·수량(큰 순서), 매도 내역, 분기별 현황이 펼쳐져요. 가격은 ${esc(S.today || '')} 기준.</div>
-    <div class="sub" style="font-size:11px;margin-top:2px;">${esc(S.year_rule || '')}</div>
-    <details style="margin-top:12px;"><summary style="cursor:pointer;font-weight:600;">추적 투자자 ${(S.managers || []).length}명</summary>
+    ${P.view !== 'hold' ? smYearOffList(S, P, DIV) : ''}
+    <div style="margin-top:8px;font-size:12.5px;">목록에 없는 종목 찾기(올해 1명 이상 보유 증가·이탈): <input id="smYearSearch" placeholder="티커 예: NFLX" style="width:110px;" oninput="smYearLookup(this.value)"> <span id="smYearFound" class="sub"></span></div>
+    <div class="sub" style="font-size:11px;margin-top:2px;">사용 분기(보고기준일): ${(S.year_quarters || []).map(esc).join(', ') || '—'} · ${esc(S.year_rule || '')}</div>
+    <details style="margin-top:12px;"><summary style="cursor:pointer;font-weight:600;">추적 투자자 ${(S.managers || []).length}명 (유명 펀더멘털 운용자 패널 — 성과 순위·시장 대표 표본 아님${P.conc ? ` · 지금 인원 집계 분모 = 집중 운용 ${(S.managers || []).length - DIV.size}명` : ''})</summary>
       <div class="sub" style="margin:6px 0;">복제 성과 = 공시를 공개일 다음 날 따라 샀을 때 SPY 대비 연환산(2020-11~). 기간마다 순위가 뒤바뀌어 실력 순위로 읽으면 안 돼요.</div>
       <div style="overflow-x:auto;"><table style="width:100%;font-size:12px;"><thead><tr><th>투자자</th><th>보고기준일</th><th>공개일</th><th>종목 수</th><th>이번 분기 행동</th><th>복제 성과</th></tr></thead><tbody>${mgr}</tbody></table></div>
     </details>`;

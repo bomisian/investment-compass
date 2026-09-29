@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 16.110000610351562,
+      "current": 16.1299991607666,
       "prevClose": 16.06999969482422,
-      "changeAbs": 0.04000091552734375,
-      "changePct": 0.24891671616040625,
-      "pctRank": 33.09466984884646,
+      "changeAbs": 0.05999946594238281,
+      "changePct": 0.37336320523831296,
+      "pctRank": 33.253778838504374,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -48.11593878842017,
-      "ma20": 15.722499990463257,
-      "ma60": 16.05749996503194,
-      "chg1m": 1.1900005340576172,
-      "chg3m": -0.4799995422363281,
-      "chg1mPct": 7.975874852362651,
-      "chg3mPct": -2.8933064365370273,
+      "drawdown1y": -48.051531217062916,
+      "ma20": 15.72349991798401,
+      "ma60": 16.057833274205525,
+      "chg1m": 1.2099990844726562,
+      "chg3m": -0.46000099182128906,
+      "chg1mPct": 8.109913393332999,
+      "chg3mPct": -2.77276062441466,
       "lastDate": "2026-09-29",
       "bars": 1257,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 92.93000030517578,
+      "current": 92.56999969482422,
       "prevClose": 92.5999984741211,
-      "changeAbs": 0.3300018310546875,
-      "changePct": 0.35637347353403365,
-      "pctRank": 85.8392999204455,
+      "changeAbs": -0.029998779296875,
+      "changePct": -0.03239609048725714,
+      "pctRank": 85.52108194112968,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -17.72465443468786,
-      "ma20": 96.1280014038086,
-      "ma60": 86.5181671142578,
-      "chg1m": 9.529998779296875,
-      "chg3m": 23.43000030517578,
-      "chg1mPct": 11.42685684045189,
-      "chg3mPct": 33.71223065492918,
+      "drawdown1y": -18.04338008327422,
+      "ma20": 96.11000137329101,
+      "ma60": 86.5121671040853,
+      "chg1m": 9.169998168945312,
+      "chg3m": 23.06999969482422,
+      "chg1mPct": 10.995201440254021,
+      "chg3mPct": 33.194244165214705,
       "lastDate": "2026-09-29",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 101.36599731445312,
+      "current": 101.4469985961914,
       "prevClose": 101.19999694824219,
-      "changeAbs": 0.1660003662109375,
-      "changePct": 0.164031987368376,
-      "pctRank": 43.27764518695306,
+      "changeAbs": 0.24700164794921875,
+      "changePct": 0.24407278201356614,
+      "pctRank": 43.99363564041368,
       "min5y": 93.3499984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -0.24013708732679717,
-      "ma20": 100.00129928588868,
-      "ma60": 100.12693341573079,
-      "chg1m": 1.6660003662109375,
-      "chg3m": 0.175994873046875,
-      "chg1mPct": 1.6710134575789581,
-      "chg3mPct": 0.17392515940375064,
+      "drawdown1y": -0.16041926304599663,
+      "ma20": 100.00534934997559,
+      "ma60": 100.1282834370931,
+      "chg1m": 1.7470016479492188,
+      "chg3m": 0.25699615478515625,
+      "chg1mPct": 1.752258476854467,
+      "chg3mPct": 0.25397385965473124,
       "lastDate": "2026-09-29",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4173.39990234375,
+      "current": 4171.39990234375,
       "prevClose": 4168.39990234375,
-      "changeAbs": 5.0,
-      "changePct": 0.11995010356824617,
+      "changeAbs": 3.0,
+      "changePct": 0.07197006214094769,
       "pctRank": 85.53259141494436,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -21.529031682920518,
-      "ma20": 4373.994970703125,
-      "ma60": 4311.379988606771,
-      "chg1m": -356.5,
-      "chg3m": 134.89990234375,
-      "chg1mPct": -7.869931073213085,
-      "chg3mPct": 3.3403467214002722,
+      "drawdown1y": -21.566636978436538,
+      "ma20": 4373.894970703125,
+      "ma60": 4311.346655273437,
+      "chg1m": -358.5,
+      "chg3m": 132.89990234375,
+      "chg1mPct": -7.914082159177815,
+      "chg3mPct": 3.2908233835272998,
       "lastDate": "2026-09-29",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,40 +237,49 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Trump denies offering Iran sanctions relief, Tehran says ready for talks - reuters.com",
-      "summary": "Trump denies offering Iran sanctions relief, Tehran says ready for talks reuters.com",
+      "headline": "Rubio says UK airbase incident involved a foreign state - Reuters",
+      "summary": "Rubio says UK airbase incident involved a foreign state Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORFpiaUU2ZUhub0d4T044ZzdtZEhwSklBLXRIMk9RWk8wMUlSUElhV0FydEMyN3R4enJjVmttUS1Cb0xoeklqQmMwOG9Rb3F4Mzd1bmtXSHRVM0ZKSWE3X2oweDN3emF0SHpnXzhGbGJpSUg2Nk0wNlZlUTlLNl9SRU4tRWdqNHp2WHFpck5ha2s3SXhfNk0yREVTak1RQWM?oc=5",
+      "datetime": 1790671173,
+      "headlineKo": "루비오 \"영국 공군기지 사건은 외국과 관련돼 있다\" - 로이터 통신",
+      "summaryKo": "루비오 \"영국 공군기지 사건은 외국과 연관돼 있다\" - 로이터"
+    },
+    {
+      "headline": "Trump denies offering Iran sanctions relief, Tehran says ready for talks - Reuters",
+      "summary": "Trump denies offering Iran sanctions relief, Tehran says ready for talks Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPODNDSVp4Qi1GQVY3bEJ2d0dpZzVBbEU4NUpYQzBpV2QwaW9uVGdwdHJnQkstVFlUSTNRazRHaUVFOVFWOTJXRjhnS2dncDBNLVVsa0JiWC0zN3ktZXdvV0tWN3FrakF4aUZIX0w2RjMwVHJWc0lBZUpYU09SWmsyUmdQd3dJdXh1N3lTb1pDZ1ZEYkhOUTVPV0lhak9YM3ZxTm1vR1BmRnFnZjNUMWF0M1NabHhLblkxd05FM3dn?oc=5",
       "datetime": 1790667180,
-      "headlineKo": "테헤란은 트럼프가 이란에 대한 제재 완화 제안을 거부했다고 말했다. - reuters.com",
-      "summaryKo": "테헤란에 따르면 트럼프 대통령은 이란에 대한 제재 완화 제안을 부인하고 있다. reuters.com"
+      "headlineKo": "트럼프, 이란 제재 완화 제안 부인, 테헤란 “대화 준비됐다” - 로이터 통신",
+      "summaryKo": "트럼프, 이란 제재 완화 제안 부인, 테헤란, 회담 준비 로이터"
     },
     {
-      "headline": "Israel kills senior Hamas commander in Gaza strike - reuters.com",
-      "summary": "Israel kills senior Hamas commander in Gaza strike reuters.com",
+      "headline": "Israel kills senior Hamas commander in Gaza strike - Reuters",
+      "summary": "Israel kills senior Hamas commander in Gaza strike Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNlNQRWEzNEg3UzNvTHdIM1B1TEFCd1hQWUZwS2Z3UGRNaXJVQXlyU2lUWmhOV2xaWDgtVTloQWl6ay0yTW80emxfQ255TnN0NjBYQzlUR2xYVTFJSlZ0ZUdkMDV2bjJFclg3RWFmSEJDUGxXYWd6YXdpY1VmUlBxanVwemhHSFJLTld1UU5iNzBUd2ZwQzBtZVlxY1RVVFZ5NnRPTUhOcHljc1Fj?oc=5",
       "datetime": 1790663940,
-      "headlineKo": "이스라엘, 가자지구 공격에서 선임 하마스 사령관 살해 - reuters.com",
-      "summaryKo": "이스라엘, 가자지구 공격으로 선임 하마스 사령관 살해 reuters.com"
+      "headlineKo": "이스라엘, 가자지구 공습으로 하마스 고위사령관 사살 - 로이터 통신",
+      "summaryKo": "이스라엘, 가자 공격으로 하마스 고위 사령관 살해 - 최신"
     },
     {
-      "headline": "US forces exit Iraq after two decades, leaving opening for Iran - reuters.com",
-      "summary": "US forces exit Iraq after two decades, leaving opening for Iran reuters.com",
+      "headline": "US forces exit Iraq after two decades, leaving opening for Iran - Reuters",
+      "summary": "US forces exit Iraq after two decades, leaving opening for Iran Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPalJlU2twR3RkNzhyVlFwZmJkZmg3RXQ3VEpxTFowU2dhY1pEeG8wZWlLQ2NVb0lNUERZQXRSdThEbWdxdGx6aExDVkFGNHdUVkZwRFlSclVvYWxEVk5wTFlYQVZmblBJUlcxZ180Sm9YdWtXNDZoZkVfYVQ5aDR1VTZIMGFRWnNsVEs5LVJWMkVXWmpaVnIzd2hBTzl5M1pIenM3c09RaW41aEVoOWRSRkNB?oc=5",
       "datetime": 1790661900,
-      "headlineKo": "미군은 20년 만에 이라크를 떠났고, 이란으로 개항했다 - reuters.com",
-      "summaryKo": "미군은 20년 만에 이라크를 떠났고, 이란에 개방되었습니다 reuters.com"
+      "headlineKo": "미군, 20년 만에 이라크에서 철수, 이란으로의 개방 - Reuters",
+      "summaryKo": "미군이 20년 만에 이라크에서 철수하고 이란에게 개방을 남겨뒀다 - 로이터"
     },
     {
-      "headline": "Battered bond market braces for a new era of interest rates - reuters.com",
-      "summary": "Battered bond market braces for a new era of interest rates reuters.com",
+      "headline": "Battered bond market braces for a new era of interest rates - Reuters",
+      "summary": "Battered bond market braces for a new era of interest rates Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFJEcnNjUGNwM1N4MlNkdG1pZ0VwVmt4cWhUZ2t0UkN4aHlRNzVyR3hCd2dUMG1FRWszT05VOUN4MUhDSGhXQUhIamhNWWJJNUpGXzZWcFc2Mk5Hcl9yNXBaaWVDVDlZQWg0d2xIRGl0RFhqWjJlR1ZORGlrNXRmdGZxSF9URFQ3Zzc5d2dER1g4U3hvZDZXMHNKVlhFaGRBRmRKRVJR?oc=5",
       "datetime": 1790657220,
-      "headlineKo": "새로운 금리 시대를 위한 타격을 입은 채권 시장의 버팀목 - reuters.com",
-      "summaryKo": "새로운 금리 시대를 위한 타격 채권 시장 교정 장치 reuters.com"
+      "headlineKo": "무너진 채권시장, 새로운 금리 시대를 대비하다 - 로이터 통신",
+      "summaryKo": "훼손된 채권 시장은 새로운 금리 시대를 대비하고 있습니다 - 최신"
     },
     {
       "headline": "Indian rupee drops to two-month low past key 96/USD barrier as oil worries deepen - reuters.com",
@@ -282,22 +291,22 @@ const MARKET_DATA = {
       "summaryKo": "석유 걱정이 깊어짐에 따라 인도 루피가 2개월 낮은 과거 키 96/USD 장벽으로 떨어집니다 reuters.com"
     },
     {
-      "headline": "Trump denies offering Iran sanctions relief for nuclear concessions - reuters.com",
-      "summary": "Trump denies offering Iran sanctions relief for nuclear concessions reuters.com",
+      "headline": "Trump denies offering Iran sanctions relief for nuclear concessions - Reuters",
+      "summary": "Trump denies offering Iran sanctions relief for nuclear concessions Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLVF4LWZMa3hVb1J2cTVXVjRXdmh0RkFkMkY4MHVWVTVhQmZCQjJpT1l2QmExeFBXd3FRa256Z1Z1Z3k3UFQzOGY5VW1OSHBrcFVGQjkzVkdRaG1rc3FkR19CY3dhajI3cy0zOFZUb2tkTkRLUDN1aHdYd0tRMHM2ZVZiMk1Ld0dvZEhzX0JsblduWjdGa0dfZ3pzSDRqejRRdWZUY0RQUzA?oc=5",
       "datetime": 1790651700,
-      "headlineKo": "트럼프, 핵 양보에 대한 이란의 제재 완화 제안 거부 - reuters.com",
-      "summaryKo": "트럼프, 핵 양보에 대한 이란의 제재 완화 제안 거부 reuters.com"
+      "headlineKo": "트럼프, 이란 제재 완화 제안 부인 - 로이터",
+      "summaryKo": "트럼프, 핵 양보를 위해 이란 제재 완화 제안 부인 - 로이터"
     },
     {
-      "headline": "Gold edges up from 7-week low; all eyes on Middle East, US economic data - reuters.com",
-      "summary": "Gold edges up from 7-week low; all eyes on Middle East, US economic data reuters.com",
+      "headline": "Gold edges up from 7-week low; all eyes on Middle East, US economic data - Reuters",
+      "summary": "Gold edges up from 7-week low; all eyes on Middle East, US economic data Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQS2xzZnhUOThNWWNuT0t4S3g4MWRteWlSQlpXMWdudFlqNUN6MW1Zbm9pZzVHR0xnWGdvNmNiUkh6MDhvUk4yY2J1cTRYa1V2ajllOHJyUV8teEpvbHc2QW9MTTBseHVXcXpGbGNpVEtLR2hDSmRxM1FHWDZaN3hMUk9tOGhVcGpBdVo5TmdFaEVpUHNfSzZvYzJPS29xYnZlekQ4eEl3?oc=5",
       "datetime": 1790650740,
-      "headlineKo": "금은 7주 최저치에서 상승; 중동, 미국 경제 데이터에 대한 모든 시선 - reuters.com",
-      "summaryKo": "금은 7주 최저치에서 상승; 중동, 미국 경제 데이터에 대한 모든 시선 reuters.com"
+      "headlineKo": "금은 7주 최저치에서 상승했습니다. 중동과 미국 경제지표에 주목 - Reuters",
+      "summaryKo": "금은 7주 최저치에서 상승했습니다. 중동과 미국 경제 데이터에 주목 Reuters"
     },
     {
       "headline": "Dollar firms near two-month peak as oil, US yields rise; jobs data looms - reuters.com",
@@ -309,20 +318,21 @@ const MARKET_DATA = {
       "summaryKo": "석유로 2개월 피크에 가까운 달러 기업, 미국 수익률 상승, 일자리 데이터 정리 reuters.com"
     },
     {
-      "headline": "Oil prices rise for second session on continued Middle East supply concerns - reuters.com",
-      "summary": "Oil prices rise for second session on continued Middle East supply concerns reuters.com",
+      "headline": "Oil prices rise for second session on continued Middle East supply concerns - Reuters",
+      "summary": "Oil prices rise for second session on continued Middle East supply concerns Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPalFIekNtR2pWcEdaNDNsUElsMTRodXZvOVBPbFJnSFlhbDlqbldRbE1TTGVUeTJGN2NRTk4zUGFlWG1NTl9PUkVjNHVzbnZ4YVJxbXg5aVZfZXJzYWhDa3FfZl92OG5Ic3ZNWEluX0N5ZV9aRlRYYXVYeUNUR3lXVGo1dHp4dmdzaF9pZDVGMjVCUGptMU5YcmlzcEhBa2t1NTZMMmsyeFVBWnNPLVJxS2NoM0FIUEQ0Q2ZF?oc=5",
       "datetime": 1790641980,
-      "headlineKo": "유가는 계속되는 중동 공급 우려에 대한 두 번째 세션에서 상승합니다 - reuters.com"
+      "headlineKo": "지속적인 중동 공급 우려로 두 번째 세션에서 유가 상승 - Reuters",
+      "summaryKo": "지속적인 중동 공급 우려로 두 번째 세션에서 유가 상승 - 최신"
     },
     {
-      "headline": "Stocks fall as higher oil prices, Treasury yields weigh - reuters.com",
-      "summary": "Stocks fall as higher oil prices, Treasury yields weigh reuters.com",
+      "headline": "Stocks fall as higher oil prices, Treasury yields weigh - Reuters",
+      "summary": "Stocks fall as higher oil prices, Treasury yields weigh Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMG5ieTU4M0RYMC1lQi0wbDVONnJJbW5NS3pya2xkLXUxSFF3ajh5ZWlER3B5ZW1IR0J3ZjRxZFFCTDd2ajh4ZnVHZ2xqY1U2c0pIamh2MGhzWVlIMVVieHpOXzg0bnJwRFlTaEg4dVdycUc1X25ZQlZkUUsxUGZ3TGc1RDlNWjg2U1RFQ3JEUWx2NGIxb0ZvZXJJb0F6MjcxOER2WHFIdmtSei1fZHdBS29YcGhvUFk?oc=5",
       "datetime": 1790637392,
-      "headlineKo": "주가는 유가 상승에 따라 하락하고, 국채 수익률은 중량 - reuters.com"
+      "headlineKo": "유가 상승으로 주가 하락, 국채수익률 부담 - Reuters"
     },
     {
       "headline": "Pentagon awards RTX's Raytheon $20.7 billion contract for AMRAAM missiles amid stockpile concerns - Reuters",
@@ -332,26 +342,18 @@ const MARKET_DATA = {
       "datetime": 1790633039,
       "headlineKo": "미 국방부, 비축 우려 속에 RTX의 Raytheon에 AMRAAM 미사일 207억 달러 계약 체결 - Reuters",
       "summaryKo": "미 국방부, 비축 우려 속에 RTX의 Raytheon에 AMRAAM 미사일 207억 달러 계약 체결 - 최신"
-    },
-    {
-      "headline": "UAE president discussed bilateral relations with Israel's Netanyahu, state news agency says - reuters.com",
-      "summary": "UAE president discussed bilateral relations with Israel's Netanyahu, state news agency says reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOazRQYzVlZmhxU1lnQU1XNnlzN1BnYkhvZnNFUDh0QXk0Skg2OWZJRUhCWjlqYWFwWno2ZDFlWThPZVZzay1OeHM0YlNZMGJFVXJvMlk3RUpXVkFzQklhcE5Qalp6anpyX2tOVUVlQ21NSjFlWC1hSzBVdDR3U1pYNXBSVFdnV1NrOW4yMUZkTVpOSGZnV3BYTnNudUZ1cVFyVm5WZ0pacG5hZXZFc3ZNWkdabzZuelplNWEyY1FlMmR2QkdhZjJTVFFMZw?oc=5",
-      "datetime": 1790629449,
-      "headlineKo": "주 통신사는 UAE 대통령이 이스라엘의 네타냐후와 양국 관계를 논의했다고 말합니다 - reuters.com"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790671262.9598136,
+  "_news_last_success_at": 1790674987.8944395,
   "fgi": {
     "score": 33.8285714285714,
     "rating": "fear"
   },
-  "_fetched_at": 1790671218.5760167,
-  "_updated_label": "2026-09-29 17:41",
-  "_last_attempt_at": 1790671218.5760167,
-  "_last_success_at": 1790671218.5760167,
+  "_fetched_at": 1790674967.4881272,
+  "_updated_label": "2026-09-29 18:43",
+  "_last_attempt_at": 1790674967.4881272,
+  "_last_success_at": 1790674967.4881272,
   "_collection_status": "ok",
   "_collection_errors": []
 };
