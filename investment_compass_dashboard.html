@@ -4095,8 +4095,9 @@ function summaryLadderHtml(basePrice, band, tag){
 // 조회 시점 현재가를 '참고'로만 쓸 수 있는지: 캐시 폴백·구조 이상·품질 위험·지연 세션이 있으면 사용 안 함(Codex #09 P1)
 function summaryLivePriceOk(r){
   const h = r && r.dataHealth;
-  // dropped(값이 비어 버린 봉, 대개 당일 미완성 봉 1개)는 단독으로 막지 않고 표시만 한다 -- Yahoo 정상 응답의 25/39가 dropped=1
-  return !!(h && !h.invalid && !h.cacheFallbackUsed && h.staleSessions === 0 && h.trueMissingCount === 0
+  // Codex #89 P1: 대시보드 공용 데이터 품질 기준(dataQualityRisk = 빈 봉·누락·지연 포함)으로 통일. 빈 봉이 최신 미완성 봉인지
+  // 구분할 증거를 저장하지 않으므로 빈 봉 1개도 자료부족으로 본다.
+  return !!(h && !h.invalid && h.dataQualityRisk === false && !h.cacheFallbackUsed && h.staleSessions === 0 && h.trueMissingCount === 0
     && typeof r.price === 'number' && isFinite(r.price) && r.price > 0);
 }
 function summaryCardHtml(r){
@@ -4130,7 +4131,7 @@ function summaryCardHtml(r){
       const g = (r.price / src.price - 1) * 100;
       live = `<div class="sub" style="font-size:10.5px;">참고: 조회 시점 현재가 $${r.price.toFixed(2)} (${esc((r.dataHealth && r.dataHealth.lastDate) || '')}) — 기준가 대비 ${(g >= 0 ? '+' : '') + g.toFixed(1)}%. 위치·판정은 기준가 기준이라 현재가로 다시 매기지 않아요.</div>`;
     } else {
-      live = `<div class="sub" style="font-size:10.5px;">조회 시점 현재가: 자료부족(캐시·지연·조회 실패) — 표시 안 함</div>`;
+      live = `<div class="sub" style="font-size:10.5px;">조회 시점 현재가: 자료부족(캐시·지연·조회 실패·빈 봉·누락) — 표시 안 함</div>`;
     }
   }
   const valueBody = row('종합(참고)', judge)
@@ -4165,7 +4166,7 @@ function summaryCardHtml(r){
   const priceOk = summaryLivePriceOk(r);
   let chartBody;
   if(!priceOk){
-    chartBody = '<div class="sub">가격 자료부족(캐시·지연·조회 실패) — 차트 상태 표시 안 함</div>';
+    chartBody = '<div class="sub">가격 자료부족(캐시·지연·조회 실패·빈 봉·누락) — 차트 상태 표시 안 함</div>';
   } else {
     const ma50 = cl.length >= 50 ? avg(cl.slice(-50)) : null;
     const ma200now = cl.length >= 200 ? avg(cl.slice(-200)) : null;
@@ -4176,7 +4177,7 @@ function summaryCardHtml(r){
       + row('200일선 기울기(20거래일)', num(slope) ? `${pc(slope)} ${slope >= 0 ? '상승' : '하락'}` : '—')
       + row('50일선 대비', (ma50 && last) ? pc(last / ma50 - 1) : '—')
       + row('52주 종가 고점대비', pp(r.drawdownPct)) + row('RSI(14)', num(r.rsi) ? r.rsi.toFixed(0) : '—')
-      + `<div class="sub" style="font-size:10.5px;">${esc((r.dataHealth && r.dataHealth.lastDate) || '')} 종가 기준${(r.dataHealth && r.dataHealth.dropped > 0) ? ` · 값이 빈 봉 ${r.dataHealth.dropped}개 제외` : ''}</div>`;
+      + `<div class="sub" style="font-size:10.5px;">${esc((r.dataHealth && r.dataHealth.lastDate) || '')} 종가 기준</div>`;
   }
 
   // 하락 성격: 점수·행동 문구 없이 사실만(Codex #09 P2)
@@ -8742,8 +8743,8 @@ function marketFairCellHtml(ticker){
     const x1 = marketFairRow(ticker), a = marketFairAltRow(ticker);
     const f1 = v => '$' + v.toFixed(v >= 100 ? 0 : 2);
     // Codex L08-3/5: 범위 출처 표시. ①은 흔들림 등급 '보통'일 때만(결합에 쓰인 상태와 동일), 아니면 ②
-    const use1 = x1 && x1.status === 'ok' && x1.confidence === '보통' && Array.isArray(x1.band) && x1.band.length === 3;
-    const use2 = a && a.status === 'ok' && Array.isArray(a.band) && a.band.length === 3;
+    const use1 = x1 && x1.status === 'ok' && x1.confidence === '보통' && marketFairBandOk(x1.band);
+    const use2 = a && a.status === 'ok' && marketFairBandOk(a.band);
     const src = use1 ? x1 : (use2 ? a : null);
     const tag = use1 ? '①' : (use2 ? '②' : '');
     // 성장률이 상·하한에 모두 걸리면(예: MRVL) 범위가 한 점으로 모인다 -> '$314~$314' 대신 한 값만
@@ -8755,7 +8756,7 @@ function marketFairCellHtml(ticker){
   }
   const x = marketFairRow(ticker);
   if(!x) return '<span class="sub">-</span>';
-  if(x.status !== 'ok' || !Array.isArray(x.band) || x.band.length !== 3){
+  if(x.status !== 'ok' || !marketFairBandOk(x.band)){
     const why = (x.reasons || [x.reason || '']).join(' / ');
     return `<span class="sub" title="${esc(why)}">${esc(x.status === '대상아님' ? '대상 아님' : (x.status || '-'))}</span>`;
   }
@@ -8775,9 +8776,30 @@ function marketFairAltRow(ticker){
   const A = (typeof window !== 'undefined') ? window.FAIR_VALUE_ALT : null;
   return (A && A.rows) ? A.rows[ticker] : null;
 }
+function marketFairBandOk(band){
+  return Array.isArray(band) && band.length === 3 && band.every(v => typeof v === 'number' && isFinite(v) && v > 0)
+    && band[0] <= band[1] && band[1] <= band[2];
+}
 function marketFairCombined(ticker){
   const a = marketFairAltRow(ticker);
-  return (a && a.combined_with_100 && a.combined_with_100.judgment) ? a.combined_with_100 : null;
+  const cb = (a && a.combined_with_100 && a.combined_with_100.judgment) ? a.combined_with_100 : null;
+  if(!cb) return null;
+  const DIR = ['싸다', '적정', '비싸다'];
+  const hold = (why) => ({judgment: '판단보류', confidence: null, basis: why, by_method: cb.by_method});
+  // Codex #89 P2(세대): 화면이 실제로 읽은 ① 파일(FAIR_VALUE)이 ②가 결합에 쓴 ① 세대와 같은지(생성 시각·가격 기준일·수집일)
+  const FV = (typeof window !== 'undefined') ? window.FAIR_VALUE : null;
+  const FA = (typeof window !== 'undefined') ? window.FAIR_VALUE_ALT : null;
+  if(FA && FA.same_generation_as_100 === false) return hold('두 방법의 자료 세대가 달라 합치지 않음');
+  if(FV && FA && FA.source_100_generated_at && (FV.generated_at !== FA.source_100_generated_at
+     || FV.price_session_day !== FA.source_100_price_session_day || (FV.consensus_fetched_day || FV.as_of_consensus_day) !== FA.source_100_consensus_day)){
+    return hold('화면에 불러온 ① 자료와 ② 결합에 쓴 ① 자료의 세대가 달라 합치지 않음(갱신 중일 수 있음)');
+  }
+  // Codex #89 P2(범위): 결합에 쓰인 방법의 범위가 비정상이면 방향 판정을 내지 않음
+  const bm = cb.by_method || {};
+  const x1 = marketFairRow(ticker);
+  if(DIR.includes(bm.peer_pe) && !(x1 && marketFairBandOk(x1.band))) return hold('① 범위 자료 이상');
+  if(DIR.includes(bm.growth) && !(a && marketFairBandOk(a.band))) return hold('② 범위 자료 이상');
+  return cb;
 }
 const FAIR_JUDGE_COLOR = {'싸다':'#1a7f5a', '적정':'#626b76', '비싸다':'#b3261e', '혼재':'#876000', '판단보류':'#876000', '자료부족':'#8a8f96'};
 // Codex L08-6: 화면을 여는 시점 기준으로 자료가 며칠 묵었는지(생성 중단 시 경고가 멈추지 않게)
@@ -8860,7 +8882,7 @@ function fairValueAltBox(r){
     return `<div class="comment-box" style="margin-top:10px;">${head}<div style="margin-top:6px;"><b>${esc(x.status === '대상아님' ? '대상 아님' : x.status)}</b></div><ul style="margin:6px 0 0 18px;">${why}</ul>${ref}${mood}${asof2}</div>`;
   }
   // 83 검증: status ok인데 band가 없으면 07 탭 전체가 예외로 멈췄음 -> 가드
-  if(!Array.isArray(x.band) || x.band.length !== 3 || x.band.some(v => typeof v !== 'number')){
+  if(!marketFairBandOk(x.band)){
     return `<div class="comment-box" style="margin-top:10px;">${head}<div style="margin-top:6px;">자료 형식이 올바르지 않아 표시하지 않아요.</div>${asof2}</div>`;
   }
   const i = x.inputs || {}, g = i.growth_used || [];
@@ -8896,7 +8918,7 @@ function tabFairValue100(r){
   const asof = `<div class="sub" style="margin-top:8px;">가격 기준 ${esc(FV.price_session_day || '')} 장마감 · 컨센서스 수집 ${esc(FV.consensus_fetched_day || FV.as_of_consensus_day || '')} · 생성 ${esc((FV.generated_at || '').slice(0, 16))} UTC</div>`;
   if(!x) return box(`${esc(r.ticker)}은 적정가 계산 대상 목록에 없어요.`) + asof;
   // Fable 100 검증: 필수 필드가 없으면 예외 대신 자료부족으로 표시
-  if(x.status === 'ok' && (!x.q || !Array.isArray(x.band) || x.band.length !== 3 || !Array.isArray(x.band_1y) || typeof x.ntm_eps !== 'number' || typeof x.peer_median_pe !== 'number' || typeof x.today_q !== 'number')){
+  if(x.status === 'ok' && (!x.q || !marketFairBandOk(x.band) || !Array.isArray(x.band_1y) || typeof x.ntm_eps !== 'number' || typeof x.peer_median_pe !== 'number' || typeof x.today_q !== 'number')){
     return box('적정가 자료 형식이 올바르지 않아 표시하지 않아요.') + asof;
   }
   if(x.status !== 'ok'){
