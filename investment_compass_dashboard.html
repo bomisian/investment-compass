@@ -4681,7 +4681,11 @@ function summaryCardHtml(r){
   const srcTag = use1 ? '① 동종 PER' : '② 성장률';
   const srcDate = use1 ? `가격 ${esc((FV && FV.price_session_day) || '?')} 종가 · 컨센서스 ${esc((FV && (FV.consensus_fetched_day || FV.as_of_consensus_day)) || '?')} 수집 · EPS ${esc(x1.methodology || '')}`
                        : (use2 ? `컨센서스·가격 ${esc((FA && FA.as_of_consensus_day) || '?')} 수집 · EPS ${esc((a.inputs && a.inputs.eps_methodology) || '')}` : '');
-  const ladder = src ? summaryLadderHtml(src.price, src.band, srcTag) : '';
+  // 125 검증: ② 범위가 너무 넓어 판단보류인 종목은 사다리(위치 막대)도 위치를 말하지 않게 -- 범위 숫자만
+  const wideSum = use2 && cb && (cb.basis || '').includes('너무 넓');
+  const ladder = src ? (wideSum
+    ? `<div style="font-size:12.5px;margin-top:4px;">② 참고 범위 $${src.band[0].toFixed(0)} ~ $${src.band[2].toFixed(0)} <span class="sub">(가운데 $${src.band[1].toFixed(0)}) — 범위가 너무 넓어 위치를 판단하지 않아요</span></div>`
+    : summaryLadderHtml(src.price, src.band, srcTag)) : '';
   const fjn = cb ? fairJudgeNotes(tk, cb) : {suffix: '', notes: []};
   const rcn1 = fairRuleChangeNote(tk);
   const judge = cb ? `<b>${esc(cb.judgment)}${esc(fjn.suffix)}</b> <span class="sub">${esc(cb.confidence ? '확실성 ' + cb.confidence : '')}${src ? ' · 기준가 시점 판정' : ''}</span>${fjn.notes.map(n => `<div class="sub" style="font-size:11px;color:#876000;">${esc(n)}</div>`).join('')}${rcn1 ? `<div class="sub" style="font-size:11px;color:#876000;">${esc(rcn1)}</div>` : ''}` : '자료 없음';
