@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790640717.6444917,
+  "generatedAt": 1790642625.6451006,
   "events": [
     {
       "id": "0d0506cdcdcdb766dc11",
@@ -1417,11 +1417,11 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fb1bee487322d2ba0215cd18d2ea10b6b27b1022d1b4d05c3caccafc9cfefdb0",
         "publishedAt": 1790616624,
-        "collectedAt": 1790619647.7157767
+        "collectedAt": 1790642545.8610718
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,715.00 −0.50% Dow Jones 51,655.00 −0.43% Nasdaq 100 30,405.20 −0.87% Russell 2000 2,829.89 −0.47% S&P 500 7,715.00 −0.50% 다우존스 51,655.00 −0.43% 나스닥 100 30,405.20 −0.87% 러셀 2000 2,829.89 −0.",
+        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,693.20 −0.07% Dow Jones 51,505.90 −0.11% Nasdaq 100 30,319.60 −0.04% Russell 2000 2,820.96 −0.11% S&P 500 7,693.20 −0.07% 다우존스 51,505.90 −0.11% 나스닥 100 30,319.60 −0.04% 러셀 2000 2,820.96 −0.",
         "두 거대 AI 소프트웨어 기업은 모두 올 여름 강력한 에이전트 예약을 보고했지만 평가 스펙트럼의 정반대 위치에 있습니다.",
         "더 저렴한 제품을 구매하려는 주장은 보이는 것보다 강력하며 그에 반대하는 주장도 동일합니다… 작성자 Vandita Jadeja 2026년 9월 28일 오후 1시 30분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 이 이미지는 시장 동향과 기업 성과, r을 시각화합니다."
       ],
@@ -2812,7 +2812,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c137c0bee7bc7b4e2bab604d0f52aebd7876e01950616f18bd02213909f5b5bc",
         "publishedAt": 1790606000,
-        "collectedAt": 1790619647.7157767
+        "collectedAt": 1790642545.8610718
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3339,7 +3339,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8edece9a2392b198f2b5e891047de03b6cd7d2e9cae3c610edd9ed520a41ea47",
         "publishedAt": 1790602860,
-        "collectedAt": 1790619647.7157767
+        "collectedAt": 1790642545.8610718
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3647,7 +3647,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a9db4ee7029044d78b8904947ea6744c90168a8b9f20f63d282b6bfbcf8ffbd1",
         "publishedAt": 1790600907,
-        "collectedAt": 1790619647.7157767
+        "collectedAt": 1790642545.8610718
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4524,69 +4524,6 @@ const EVENT_DATA = {
       ]
     },
     {
-      "id": "9ce585c11ae5e4ce2697",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "CRM",
-      "relatedTickers": [
-        "CRM",
-        "ORCL"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Oracle",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "중기·장기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Oracle vs. Salesforce: Which Enterprise AI Stock Has More Room to Run?",
-      "headlineKo": "Oracle vs. Salesforce: 어느 기업 AI 주식에 더 많은 투자 여지가 있나요?",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0ad228e5cee00579bb888434211ab0045679fddb600ae20cefccc7b78154a030",
-        "publishedAt": 1790588400,
-        "collectedAt": 1790619647.7157767
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Oracle vs. Salesforce: 어느 기업 AI 주식에 더 많은 투자 여지가 있나요?"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "CRM",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
-    },
-    {
       "id": "7080ed90ced41c416996",
       "schemaVersion": 1,
       "eventType": "ai_investment_change",
@@ -5238,7 +5175,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f0962506e75fdbd8c68f04e26ab77822fa6dfca9adfe3e913a6fa0130704283f",
         "publishedAt": 1790586499,
-        "collectedAt": 1790619647.7157767
+        "collectedAt": 1790642545.8610718
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6546,7 +6483,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7e40290596dfa02e73f8d42f0feec08e68ca67e49c6fbd5f28bd35c1f7b8aba8",
         "publishedAt": 1790562000,
-        "collectedAt": 1790619647.7157767
+        "collectedAt": 1790642545.8610718
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7248,7 +7185,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5287b6c214906caf05e49bb7eb42b6ee9c77764999a1f05f298b26c35865d71f",
         "publishedAt": 1790552106,
-        "collectedAt": 1790619647.7157767
+        "collectedAt": 1790642545.8610718
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8002,7 +7939,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5aadfe09f010c16eecb25f80d7df3b4fe03773e679a318f78e8fa2303ff4d4fe",
         "publishedAt": 1790537461,
-        "collectedAt": 1790619647.7157767
+        "collectedAt": 1790642545.8610718
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8313,7 +8250,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9c2acbe7c1302ba70321ca68993297c3a065e28198000a66445d8f64c244c479",
         "publishedAt": 1790527920,
-        "collectedAt": 1790619647.7157767
+        "collectedAt": 1790642545.8610718
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9743,7 +9680,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3a67b38439d2132bef008015bd045c3cb902edb70788424e64df4cee018c4150",
         "publishedAt": 1790502300,
-        "collectedAt": 1790619647.7157767
+        "collectedAt": 1790642545.8610718
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11826,7 +11763,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=42441dbf9da54cf378169bec47533a0a9492c2ef648055fbdfa9ec2ae6ad7f2f",
         "publishedAt": 1790426366,
-        "collectedAt": 1790619647.7157767
+        "collectedAt": 1790642545.8610718
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12676,7 +12613,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=58c23cfd58abe212c173f3b30bba5fbfefa8406d8ce58e9370ed9188f90b82e3",
         "publishedAt": 1790417100,
-        "collectedAt": 1790619647.7157767
+        "collectedAt": 1790642545.8610718
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14336,7 +14273,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=aecf2c6328a3a0cea1c628dad0a2c7effdeb5cad98602a758fab23dde11e5026",
         "publishedAt": 1790363985,
-        "collectedAt": 1790619647.7157767
+        "collectedAt": 1790642545.8610718
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14870,7 +14807,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d48f242763ee6ecba7a3bea1805b6ba6527d151bebf20eaa47f16ad723f8a8ce",
         "publishedAt": 1790360409,
-        "collectedAt": 1790619647.7157767
+        "collectedAt": 1790642545.8610718
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15243,7 +15180,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=11e1f7ba8080a7948619b3f506bb9ac7af120dbc6ad68c262bf345388c53584e",
         "publishedAt": 1790357884,
-        "collectedAt": 1790619647.7157767
+        "collectedAt": 1790642545.8610718
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15866,7 +15803,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=996d18107bcb6c344fd64cdbbe6c9ba81aeee58ad5259f0828004f84adc39026",
         "publishedAt": 1790352927,
-        "collectedAt": 1790619647.7157767
+        "collectedAt": 1790642545.8610718
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16430,7 +16367,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=85059dde66cdb18d4f9ba1d85b956eefbb67326ecd6013a338d631c868e8e89e",
         "publishedAt": 1790346604,
-        "collectedAt": 1790619647.7157767
+        "collectedAt": 1790642545.8610718
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16566,7 +16503,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d8f68db7053b50519a99047d217db1cffa656ca07c88cf2f7b0fe6a6550f9d9e",
         "publishedAt": 1790344981,
-        "collectedAt": 1790619647.7157767
+        "collectedAt": 1790642545.8610718
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17407,7 +17344,7 @@ const EVENT_DATA = {
         "name": "ChartMill",
         "url": "https://finnhub.io/api/news?id=7a57b127c807435ce1ae147556022d031929592ac5100da85bd32efcfae7e28f",
         "publishedAt": 1790339450,
-        "collectedAt": 1790619647.7157767
+        "collectedAt": 1790642545.8610718
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18180,6 +18117,73 @@ const EVENT_DATA = {
         "재고와 리드타임",
         "매출총이익률·대체 공급처"
       ]
+    },
+    {
+      "id": "6e663adb9afd51e104f3",
+      "schemaVersion": 1,
+      "eventType": "analyst_target_change",
+      "eventLabel": "애널리스트 목표주가 변경",
+      "primaryTicker": "VRT",
+      "relatedTickers": [
+        "VRT"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "low",
+        "score": 42,
+        "kind": "reported",
+        "reason": "속보·의견 성격이 강해 원문 재확인 필요"
+      },
+      "direction": "neutral",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "낮음·확인 필요",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Wells Fargo Initiates Coverage On Vertiv Holdings with Overweight Rating, Announces Price Target of $340",
+      "headlineKo": "Wells Fargo, 비중확대 등급으로 Vertiv Holdings에 대한 보도 개시, 목표 가격 $340 발표",
+      "source": {
+        "name": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=52516bc2d4e980e61a6a989c742fa73e548a2407529bfd8c5d65d6a418b4250f",
+        "publishedAt": 1790329317,
+        "collectedAt": 1790642545.8610718
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Wells Fargo Initiates Coverage On Vertiv Holdings with Overweight Rating, Announces Price Target of $340",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "VRT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "VRT에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "VRT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "VRT",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "목표주가 산식의 EPS",
+        "적용 PER 변화",
+        "회사 공식 가이던스"
+      ]
     }
   ],
   "byTicker": {
@@ -18595,7 +18599,6 @@ const EVENT_DATA = {
       "6c010b47417483c46032",
       "1ba74f7c9f4062ff47a0",
       "3182bfd4f6c5bc2235e6",
-      "9ce585c11ae5e4ce2697",
       "4b3d96f8093aa2d22e65",
       "5257258a8a5235dbb0b9",
       "30676da4ec1c066a1ee8",
@@ -18705,7 +18708,6 @@ const EVENT_DATA = {
     "CRM": [
       "c4a03476521ce24a8790",
       "3182bfd4f6c5bc2235e6",
-      "9ce585c11ae5e4ce2697",
       "d9b735d1d9663a390a28",
       "e56b9f41db45f5b1336c",
       "2436f640ce2d8097479c",
@@ -18824,7 +18826,8 @@ const EVENT_DATA = {
       "46c1de89e4c2ec916ebd"
     ],
     "VRT": [
-      "306ac444e0038e6b3c53"
+      "306ac444e0038e6b3c53",
+      "6e663adb9afd51e104f3"
     ],
     "ETN": [
       "4feda5e9978e40952bca",

@@ -4049,6 +4049,110 @@ function renderFourLineEvidenceCard(r){
     <div class="fund-row"><span style="color:var(--sub);">주의</span><span class="v">${riskText}</span></div>
   </div>`;
 }
+
+// [2026-09-29 신규, 사용자 요청] 점수 없는 종목 요약 카드 -- 흩어진 정보를 한 화면에 사실 상태로만 모은다.
+// 106번 검증: VALUE×ENTRY 점수·매트릭스·기대수익률 %는 과거 성적을 가르지 못해 만들지 않음. 새 계산 없음(기존 값 재사용,
+// 50일선 이격·200일선 기울기만 이미 받은 종가로 계산). 매수 판정·배지·장기 점수와 연결하지 않는다.
+function summaryLadderHtml(price, band, tag){
+  if(typeof price !== 'number' || !isFinite(price) || price <= 0 || !Array.isArray(band) || band.length !== 3 || band.some(v => typeof v !== 'number' || !isFinite(v))) return '';
+  if(!(band[2] > band[0] * 1.005)){  // 87 검증: 범위가 한 점이면 막대 대신 단일값(목록 칸과 동일하게)
+    const one = band[1], dd = ((one / price - 1) * 100);
+    return `<div style="font-size:12.5px;margin-top:4px;">${esc(tag)} 기준 한 값 $${one.toFixed(one >= 100 ? 0 : 2)} <span class="sub">(현재가 대비 ${(dd >= 0 ? '+' : '') + dd.toFixed(0)}%)</span></div>`;
+  }
+  const [lo, mid, hi] = band;
+  const cuts = [lo, (lo + mid) / 2, (mid + hi) / 2, hi];
+  const zones = [['범위 아래', '#1a7f5a'], ['하단권', '#5a9e7f'], ['중앙권', '#8a8f96'], ['상단권', '#c9826f'], ['범위 위', '#b3261e']];
+  const zi = price < cuts[0] ? 0 : price < cuts[1] ? 1 : price <= cuts[2] ? 2 : price <= cuts[3] ? 3 : 4;
+  const span = hi - lo, left = lo - span * 0.25, right = hi + span * 0.25;
+  const pos = Math.max(0, Math.min(100, (price - left) / (right - left) * 100));
+  const x = v => ((v - left) / (right - left) * 100).toFixed(1);
+  const f = v => '$' + v.toFixed(v >= 100 ? 0 : 2);
+  const d = v => ((v / price - 1) * 100 >= 0 ? '+' : '') + ((v / price - 1) * 100).toFixed(0) + '%';
+  return `<div style="margin:6px 0 2px;">
+    <div style="position:relative;height:14px;border-radius:7px;background:linear-gradient(90deg,#1a7f5a22 0%,#1a7f5a22 ${x(cuts[0])}%,#5a9e7f33 ${x(cuts[0])}%,#5a9e7f33 ${x(cuts[1])}%,#8a8f9633 ${x(cuts[1])}%,#8a8f9633 ${x(cuts[2])}%,#c9826f33 ${x(cuts[2])}%,#c9826f33 ${x(cuts[3])}%,#b3261e22 ${x(cuts[3])}%);">
+      <div title="현재가" style="position:absolute;left:calc(${pos.toFixed(1)}% - 2px);top:-3px;width:4px;height:20px;background:#202124;border-radius:2px;"></div>
+    </div>
+    <div class="sub" style="display:flex;justify-content:space-between;font-size:10.5px;margin-top:2px;"><span>${f(lo)}</span><span>${f(mid)}</span><span>${f(hi)}</span></div>
+    <div style="font-size:12.5px;">현재 위치 <b style="color:${zones[zi][1]};">${zones[zi][0]}</b> <span class="sub">(${esc(tag)} 범위 기준 · 하단까지 ${d(lo)} · 가운데까지 ${d(mid)} · 상단까지 ${d(hi)})</span></div>
+  </div>`;
+}
+function summaryCardHtml(r){
+  if(!r || !r.ticker) return '';
+  const tk = r.ticker;
+  const x1 = (typeof marketFairRow === 'function') ? marketFairRow(tk) : null;
+  const a = (typeof marketFairAltRow === 'function') ? marketFairAltRow(tk) : null;
+  const cb = (typeof marketFairCombined === 'function') ? marketFairCombined(tk) : null;
+  const em = (typeof estMomentum === 'function') ? estMomentum(tk) : null;
+  const ddt = (typeof window !== 'undefined' && window.DRAWDOWN_TYPE && window.DRAWDOWN_TYPE.rows) ? window.DRAWDOWN_TYPE.rows[tk] : null;
+  const num = v => typeof v === 'number' && isFinite(v);
+  const pc = (v, dg = 1) => num(v) ? (v >= 0 ? '+' : '') + (v * 100).toFixed(dg) + '%' : '—';
+  const pp = (v, dg = 1) => num(v) ? (v >= 0 ? '+' : '') + v.toFixed(dg) + '%' : '—';
+  const price = (num(r.price) && r.price > 0) ? r.price : (a && num(a.price) && a.price > 0 ? a.price : null);
+  const row = (k, v) => `<div class="fund-row"><span>${k}</span><span class="v">${v}</span></div>`;
+  const sec = (title, body) => body ? `<div style="flex:1 1 230px;min-width:220px;"><div style="font-weight:700;font-size:12.5px;margin:4px 0 2px;">${title}</div>${body}</div>` : '';
+
+  // 가치: ① 흔들림 등급 보통이면 ①, 아니면 ② (결합에 실제 쓰인 방법과 동일)
+  const use1 = x1 && x1.status === 'ok' && x1.confidence === '보통' && Array.isArray(x1.band) && x1.band.length === 3;
+  const use2 = a && a.status === 'ok' && Array.isArray(a.band) && a.band.length === 3;
+  const src = use1 ? x1 : (use2 ? a : null);
+  const cbCol = cb ? ((typeof FAIR_JUDGE_COLOR !== 'undefined' && FAIR_JUDGE_COLOR[cb.judgment]) || '#626b76') : '#8a8f96';
+  const valueBody = (cb ? row('종합(참고)', `<b style="color:${cbCol};">${esc(cb.judgment)}</b> <span class="sub">${esc(cb.confidence ? '확실성 ' + cb.confidence : '')}</span>`) : row('종합(참고)', '자료 없음'))
+    + ((src && summaryLadderHtml(price, src.band, use1 ? '① 동종 PER' : '② 성장률')) || `<div class="sub">${esc(cb ? cb.basis || '' : '적정가 자료 없음')}</div>`)
+    + ((src && (window.FAIR_VALUE_ALT || {}).as_of_consensus_day) ? `<div class="sub" style="font-size:10.5px;">현재가는 대시보드 조회 시점, 범위는 ${esc(window.FAIR_VALUE_ALT.as_of_consensus_day)} 수집 기준</div>` : '');
+
+  // 이익
+  const earnBody = em ? row('전망 방향', `<b style="color:${(EST_DIR_STYLE[em.direction] || {}).c || '#626b76'};">${esc((EST_DIR_STYLE[em.direction] || {}).i || '')}${esc(em.direction)}</b>`)
+    + row('선행 EPS 추정 30일 / 90일', `${pc(em.ntm_change_30d)} / ${pc(em.ntm_change_90d)}`)
+    + row('최근 30일 수정 상향 / 하향', `${em.revisions_up_30d ?? '?'} / ${em.revisions_down_30d ?? '?'}건`) : '<div class="sub">이익 전망 자료 없음</div>';
+
+  // 시장 기대
+  const ai = a && a.inputs ? a.inputs : null;
+  const gUsed = ai && Array.isArray(ai.growth_used) ? ai.growth_used : null;
+  const expBody = (ai && num(ai.implied_growth) && gUsed && num(gUsed[1]))
+    ? row('가격이 가정하는 성장률', `<b>${pc(ai.implied_growth)}</b>`) + row('애널리스트 기대(내년 매출)', pc(gUsed[1]))
+      + row('기대 − 가정', `<b>${((gUsed[1] - ai.implied_growth) * 100 >= 0 ? '+' : '') + ((gUsed[1] - ai.implied_growth) * 100).toFixed(1)}%p</b> <span class="sub">(+면 가격이 전망보다 덜 가정)</span>`)
+    : `<div class="sub">${esc(a && a.status && a.status !== 'ok' ? '② 방법 ' + a.status : '자료 없음')}</div>`;
+
+  // 밸류에이션
+  const own = a && a.own_history_rate_adjusted;
+  const valBody = [
+    ai && num(ai.fwd_pe) ? row('선행 PER', ai.fwd_pe.toFixed(1) + '배') : '',
+    x1 && num(x1.peer_median_pe) ? row('동종 선행 PER 중앙', x1.peer_median_pe.toFixed(1) + '배') : '',
+    x1 && x1.q && num(x1.q.median) && num(x1.today_q) ? row('동종 대비 비율 오늘 / 과거 중앙', `${x1.today_q.toFixed(2)} / ${x1.q.median.toFixed(2)} <span class="sub">(정의 달라 참고)</span>`) : '',
+    own && own.status === 'ok' && num(own.spread_pct) ? row('자기 과거 대비(금리 보정)', `${esc(own.label)} <span class="sub">(과거 ${own.months}개월 중 위치 ${(own.spread_pct * 100).toFixed(0)}% · 0%=가장 비쌈, 100%=가장 쌈)</span>`) : '',
+  ].join('') || '<div class="sub">자료 없음</div>';
+
+  // 차트(기존 종가로만)
+  const cl = r.series && Array.isArray(r.series.closes) ? r.series.closes.filter(num) : [];
+  const avg = (arr) => arr.reduce((s, v) => s + v, 0) / arr.length;
+  const ma50 = cl.length >= 50 ? avg(cl.slice(-50)) : null;
+  const ma200now = cl.length >= 200 ? avg(cl.slice(-200)) : null;
+  const ma200prev = cl.length >= 220 ? avg(cl.slice(-220, -20)) : null;
+  const slope = (ma200now && ma200prev) ? ma200now / ma200prev - 1 : null;
+  const last = cl.length ? cl[cl.length - 1] : null;
+  const chartBody = row('200일선 대비', num(r.ma200Pct) ? `${pp(r.ma200Pct)} ${r.ma200Pct >= 0 ? '(위)' : '(아래)'}` : '—')
+    + row('200일선 기울기(20거래일)', num(slope) ? `${pc(slope)} ${slope >= 0 ? '상승' : '하락'}` : '—')
+    + row('50일선 대비', (ma50 && last) ? pc(last / ma50 - 1) : '—')
+    + row('52주 종가 고점대비', pp(r.drawdownPct)) + row('RSI(14)', num(r.rsi) ? r.rsi.toFixed(0) : '—')
+    + row('단기 신호', esc((r.techVerdict && r.techVerdict.label) || '—'));
+
+  // 하락 유형 + 장기 점수
+  const ddBody = row('장기 점수(가격 기준)', `${num(r.score) ? r.score : '—'}/5 <span class="sub">${esc(r.verdict && r.verdict.label === '강한 매수기회' ? '큰 폭 조정' : (r.verdict && r.verdict.label) || '')}</span>`)
+    + (ddt && !ddt.skip && ddt.label_forward ? row('빠진 이유(최근 90일)', esc(ddt.label_forward)) : '')
+    + (ddt && !ddt.skip && ddt.label_trailing ? row('빠진 이유(고점 이후 실적)', esc(ddt.label_trailing)) : '');
+
+  return `<div class="comment-box" style="background:var(--panel-2);margin-bottom:12px;">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;">
+      <div style="font-size:16px;font-weight:800;">${esc(tk)} 한눈에 보기 <span class="sub" style="font-weight:400;">· 현재가 ${num(price) ? '$' + price.toFixed(2) : '—'}</span></div>
+      <div class="sub">점수 없음 · 사실 상태만</div>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:4px 18px;margin-top:4px;">
+      ${sec('가치 위치', valueBody)}${sec('이익 전망', earnBody)}${sec('시장 기대', expBody)}
+      ${sec('밸류에이션', valBody)}${sec('차트 상태', chartBody)}${sec('하락 성격', ddBody)}
+    </div>
+    <div class="sub" style="margin-top:6px;color:#876000;">이 항목들을 점수로 합치거나 "좋은 매수 구간"으로 묶어도 2016~2025 S&P500에서 이후 성적 차이가 없었어요(106번 검증). 가격 위치(하단권·상단권 등)도 참고 범위 안의 위치일 뿐 매수·매도 신호가 아니에요. 자세한 근거는 07 적정가 탭.</div>
+  </div>`;
+}
 function tabJudgement(r){
   const b = r.breakdown;
   const pct = Math.max(0, Math.min(100, r.score / 5 * 100)); // 새 점수 범위 0~5 -> 0~100%
@@ -4110,6 +4214,7 @@ function tabJudgement(r){
   const ivHtmlFolded = renderIndependentValuationSection(r);
 
   return `
+    ${summaryCardHtml(r)}
     ${renderJudgementConclusionCard(r)}
     ${r.ticker === 'AMAT' ? '' : renderMarketReferencePriceCard(r)}
     ${renderFourLineEvidenceCard(r)}
@@ -7631,13 +7736,13 @@ function renderUsageWarning(){
     n=${SIGNAL_STATS.n})는 뜻이지, <b>팔았다 샀다를 반복하라는 뜻이 아니에요.</b>
     <span class="sub" style="display:block;margin-top:6px;">※ 거래비용 왕복 0.2%를 반영해도 승률 ${A.costWinRate}%로 유지돼요(10일 보유라 회전율이 낮아서). 비용 문제가 아니라 <b>시장에 없는 기간</b>이 문제예요.</span>
     <span style="display:block;margin-top:8px;">📌 <b>신호가 한동안 안 뜨는 급등 종목</b>(2026-09-29 재검증, 103번): 이 신호는 "잠깐 쉴 때" 뜨는 구조라 쉬지 않고 오르는 종목(최근 CRM·MSFT·ANET·AAPL은 3개월간 RSI가 38 아래로 한 번도 안 내려옴)은 원래 못 잡아요. 대안 규칙 29가지를 2015~21년에 고르고 2022~26년에 확인했지만, 기존 신호에 보태는 추가 효과가 검출되지 않아(발생 당일 포함 최근 10거래일에 기존 신호가 없던 새 신호만 보면 10일 승률 54%, 무작위 대비 초과 +0.6%p·95% 구간 -0.9~+2.1%p) 매수 신호로 추가하지 않았어요.
-    해당 표본 관찰값: <b>어차피 살 종목을 신호까지 기다리면 오늘 사는 것보다 평균 약 6% 비싸게 샀어요</b>(2022~26년 워치리스트, 신호가 40거래일 안에 없으면 40일째에 산다고 가정).</span>
+    해당 표본 관찰값: <b>어차피 살 종목을 신호까지 기다리면 오늘 사는 것보다 평균 약 6% 비싸게 샀어요</b>(2022~26년 워치리스트, 신호가 40거래일 안에 없으면 40일째에 산다고 가정 — 대부분 상승장이던 기간이라 기다림 비용이 컸어요. 하락장에선 반대일 수 있어요).</span>
     <!-- 2026-09-29 105번 연구(사용자 요청: 1차·2차 매수 시점). 조건 기반 1차 매수는 검증 미통과(볼린저 하단 등 18개 후보, S&P500 전체에선 효과 없음) -> 배지 대신 분할 안내만 -->
     <span style="display:block;margin-top:8px;padding:8px;background:var(--panel-2);color:#4b5157;border-radius:8px;">🧭 <b>1차·2차 나눠 사기 참고 (과거 통계, 매수 권유 아님)</b><br>
     "언제 사야 싸냐"를 찾으려고 볼린저 하단·20일선 터치·짧은 과매도 등 18가지 조건을 시험했지만, <b>"이때 사면 싸다"고 할 만한 조건은 확인되지 않았어요</b>(워치리스트에선 좋아 보였지만 S&P500 전체에선 차이 없음).
     대신 확인된 건: 사기로 정한 날 <b>바로 산 경우가 이후 한 달 동안 나눠 산 평균가보다 싸게 산 비율이 54~62%</b>였고, 더 싸지길 기다린 경우는 평균적으로 오히려 비쌌어요(약 +1~6%). 기다려서 더 싸게 산 경우도 절반쯤 있지만, 못 사고 올라가 버릴 때 손해가 훨씬 컸어요.<br>
-    나눠 산다면: <b>1차 = 결정한 날 절반</b> · <b>2차 = 🟢 매수 신호가 뜨는 날 또는 20~40거래일 뒤 중 먼저 오는 날 나머지 절반</b>.
-    이 방식도 평균적으로는 한 번에 사는 것보다 약간 비쌌어요(워치리스트 2022~26 +1.8%, S&P500 +0.5%). 분할은 싸게 사는 방법이 아니라 <b>산 직후 크게 떨어질 때의 부담을 줄이는 방법</b>이에요. 2015~2026년 대형주 기록이며(현재 살아남은 종목만이라 "빨리 사는 게 유리"가 과대 추정됐을 수 있음), 앞으로도 같다는 보장은 없어요.</span>
+    과거에 나눠 산 방식 중 비용이 작았던 건: <b>1차 = 결정한 날 절반</b> · <b>2차 = 🟢 매수 신호가 뜨는 날 또는 20~40거래일 뒤 중 먼저 오는 날 나머지 절반</b>이었어요.
+    이 방식도 평균적으로는 한 번에 사는 것보다 약간 비쌌어요(기한 40거래일 기준 워치리스트 2022~26 +1.8%, S&P500 +0.5% / 기한 20거래일이면 +0.9%, +0.3%). 분할은 싸게 사는 방법이 아니라 <b>산 직후 크게 떨어질 때의 부담을 줄이는 방법</b>이에요. 2015~2026년 대형주 기록이며(현재 살아남은 종목만이라 "빨리 사는 게 유리"가 과대 추정됐을 수 있음), 앞으로도 같다는 보장은 없어요.</span>
   </div>`;
 }
 
@@ -8663,7 +8768,7 @@ function estMomentumBox(ticker){
   return `<div class="comment-box" style="margin-top:10px;">
     <b>이익 전망 방향</b> <span style="color:${st.c};font-weight:700;">${st.i} ${esc(e.direction)}</span>
     <ul style="margin:6px 0 0 18px;">
-      <li>최근 30일 애널리스트 이익 추정 수정: 상향 <b>${e.revisions_up_30d}</b>건 / 하향 <b>${e.revisions_down_30d}</b>건 (올해+내년 합산)</li>
+      <li>최근 30일 애널리스트 이익 추정 수정: 상향 <b>${e.revisions_up_30d ?? '?'}</b>건 / 하향 <b>${e.revisions_down_30d ?? '?'}</b>건 (올해+내년 합산)</li>
       <li>12개월 선행 EPS 추정치 변화: 30일 ${pc(e.ntm_change_30d)} · 90일 ${pc(e.ntm_change_90d)}</li>
       ${scn}${tgt}
     </ul>
@@ -8718,7 +8823,7 @@ function fairValueAltBox(r){
   const col = FAIR_JUDGE_COLOR[x.label] || '#626b76';
   const own = x.own_history_rate_adjusted || {};
   const ownLine = own.status === 'ok'
-    ? `<li>교차확인 — 자기 과거(금리 보정): <b>${esc(own.label)}</b> (이익수익률−실질금리가 과거 ${own.months}개월 중 하위 ${(own.spread_pct * 100).toFixed(0)}% 위치, 판정엔 안 씀)</li>`
+    ? `<li>교차확인 — 자기 과거(금리 보정): <b>${esc(own.label)}</b> (이익수익률−실질금리가 과거 ${own.months}개월 중 위치 ${(own.spread_pct * 100).toFixed(0)}% — 0%=가장 비쌈, 판정엔 안 씀)</li>`
     : `<li>교차확인 — 자기 과거(금리 보정): ${esc(own.reason || own.status || '—')}</li>`;
   const caution = (x.caution || []).length ? `<div class="sub" style="margin-top:4px;color:#876000;">주의: ${(x.caution).map(esc).join(' / ')}</div>` : '';
   return `<div class="comment-box" style="margin-top:10px;">
