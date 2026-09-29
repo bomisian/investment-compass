@@ -3148,7 +3148,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "SPY": {
@@ -6652,7 +6652,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "MSFT": {
@@ -13373,7 +13373,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 155,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "GOOGL": {
@@ -21186,7 +21186,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 178,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "AMZN": {
@@ -28701,7 +28701,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 183,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "META": {
@@ -36264,7 +36264,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "AAPL": {
@@ -43579,7 +43579,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 177,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "TSLA": {
@@ -51121,7 +51121,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 183,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "ORCL": {
@@ -57640,7 +57640,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 152,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "CRM": {
@@ -62065,7 +62065,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "PLTR": {
@@ -68202,7 +68202,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "NVDA": {
@@ -76007,7 +76007,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "AMD": {
@@ -82800,7 +82800,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 165,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "AVGO": {
@@ -87237,7 +87237,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "QCOM": {
@@ -91228,7 +91228,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "ARM": {
@@ -94469,7 +94469,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "MRVL": {
@@ -98485,7 +98485,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "INTC": {
@@ -98667,66 +98667,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "인텔(INTC)이 더 넓은 시장보다 더 하락한 이유는 다음과 같습니다."
-      },
-      {
-        "headline": "Intel: No Bad Products, Just Bad Prices (Rating Downgrade)",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=24253218157182bdae74306508e7f30ef1f0e4b3be7679ed837b8e25702026a8",
-        "datetime": 1789493921,
-        "headlineKo": "인텔: 나쁜 제품은 없고 가격만 나쁠 뿐(등급 하향)",
-        "relevance": 0.5,
-        "keywordFlag": true,
-        "flagTerms": [
-          "downgrade"
-        ],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "인텔: 나쁜 제품은 없고 가격만 나쁠 뿐임(등급 다운그레이드) (NASDAQ:INTC) | Alpha Tech 주식 찾기 전문가 투자 그룹 요약 팔로우 우리는 주가가 확실히 미래를 앞섰다고 생각하기 때문에 Intel Corporation의 위험 프로필이 더 높다고 봅니다.",
-            "Intel의 CPU 시장 점유율은 AMD와 Arm Holdings의 압박을 받고 있으며, 이는 1995년 이후 최저 수준입니다.",
-            "올해 분기별 가격 인상으로 인해 인텔의 낮은 기대치에 비해 재무적 성과가 향상되었지만, 우리는 이것이 지속가능성과는 거리가 멀다고 생각합니다."
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $20, $100, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "INTC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "INTC에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$20",
-            "$100,"
-          ],
-          "sourceExcerpt": [
-            "Intel: No Bad Products, Just Bad Prices (Rating Downgrade) (NASDAQ:INTC) | Seeking Alpha Tech Stock Pros Investing Group Follow Summary We see a higher risk profile for Intel Corporation as we think the stock price has clearly outrun the fu",
-            "Intel's CPU market share is under pressure from AMD and Arm Holdings, at its lowest since 1995.",
-            "While quarterly price hikes this year have carried Intel's financial outperformance against low expectations, we think this is far from sustainable."
-          ],
-          "analysisUpdatedAt": 1789524885.2128074
-        }
       }
     ],
     "newsHistory": [
@@ -104285,9 +104225,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 139,
+      "checked": 138,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "TSM": {
@@ -107560,7 +107500,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "ASML": {
@@ -109717,7 +109657,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "AMAT": {
@@ -112098,7 +112038,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "LRCX": {
@@ -113341,7 +113281,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "KLAC": {
@@ -114557,7 +114497,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "MU": {
@@ -122175,7 +122115,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "SNDK": {
@@ -126396,7 +126336,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "WDC": {
@@ -128378,7 +128318,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "ANET": {
@@ -130266,7 +130206,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "COHR": {
@@ -132017,7 +131957,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "LITE": {
@@ -133655,7 +133595,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "GEV": {
@@ -136838,7 +136778,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "CEG": {
@@ -138411,7 +138351,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "VST": {
@@ -140026,7 +139966,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "ETN": {
@@ -141975,7 +141915,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "PWR": {
@@ -143828,7 +143768,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "HUBB": {
@@ -144460,7 +144400,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "VRT": {
@@ -146731,7 +146671,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "MOD": {
@@ -147413,7 +147353,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "STX": {
@@ -149047,7 +148987,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "EME": {
@@ -150050,7 +149990,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "FIX": {
@@ -150913,7 +150853,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   },
   "BE": {
@@ -152574,7 +152514,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-29 22:56"
+      "updated": "2026-09-30 02:42"
     }
   }
 };
