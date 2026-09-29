@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 93.41000366210938,
+      "current": 93.5999984741211,
       "prevClose": 92.5999984741211,
-      "changeAbs": 0.8100051879882812,
-      "changePct": 0.8747356385914555,
-      "pctRank": 86.24801271860095,
+      "changeAbs": 1.0,
+      "changePct": 1.0799136247064516,
+      "pctRank": 86.3275039745628,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -17.29968465168419,
-      "ma20": 96.15200157165528,
-      "ma60": 86.5261671702067,
-      "chg1m": 10.010002136230469,
-      "chg3m": 23.910003662109375,
-      "chg1mPct": 12.002400423367353,
-      "chg3mPct": 34.402882967063846,
+      "drawdown1y": -17.131473215522064,
+      "ma20": 96.16150131225587,
+      "ma60": 86.5293337504069,
+      "chg1m": 10.199996948242188,
+      "chg3m": 24.099998474121094,
+      "chg1mPct": 12.230211944393242,
+      "chg3mPct": 34.67625679729654,
       "lastDate": "2026-09-29",
       "bars": 1258,
       "symbol": "CL=F",
@@ -95,44 +95,44 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 101.21399688720703,
-      "prevClose": 100.97000122070312,
-      "changeAbs": 0.24399566650390625,
-      "changePct": 0.24165164262063693,
-      "pctRank": 42.243436754176614,
+      "current": 101.2249984741211,
+      "prevClose": 101.19999694824219,
+      "changeAbs": 0.02500152587890625,
+      "changePct": 0.02470506584273224,
+      "pctRank": 42.4483306836248,
       "min5y": 93.3499984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -0.38972908253697147,
-      "ma20": 99.90519943237305,
-      "ma60": 100.11856676737467,
-      "chg1m": 2.0539932250976562,
-      "chg3m": 0.10399627685546875,
-      "chg1mPct": 2.0713928491740465,
-      "chg3mPct": 0.10285459027563461,
+      "drawdown1y": -0.37890181470114914,
+      "ma20": 99.99424934387207,
+      "ma60": 100.1245834350586,
+      "chg1m": 1.5250015258789062,
+      "chg3m": 0.03499603271484375,
+      "chg1mPct": 1.5295903435890663,
+      "chg3mPct": 0.034584476598968454,
       "lastDate": "2026-09-29",
-      "bars": 1257,
+      "bars": 1258,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
       "unit": "",
       "digits": 1
     },
     "gold": {
-      "current": 4151.5,
+      "current": 4161.60009765625,
       "prevClose": 4168.39990234375,
-      "changeAbs": -16.89990234375,
-      "changePct": -0.4054290072852117,
-      "pctRank": 84.98808578236697,
+      "changeAbs": -6.7998046875,
+      "changePct": -0.16312745530189415,
+      "pctRank": 85.22637013502779,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -21.940807832624852,
-      "ma20": 4372.899975585938,
-      "ma60": 4311.014990234375,
-      "chg1m": -378.39990234375,
-      "chg3m": 113.0,
-      "chg1mPct": -8.353383308712132,
-      "chg3mPct": 2.7980685898229543,
+      "drawdown1y": -21.750899254072888,
+      "ma20": 4373.40498046875,
+      "ma60": 4311.183325195312,
+      "chg1m": -368.2998046875,
+      "chg3m": 123.10009765625,
+      "chg1mPct": -8.130418168775503,
+      "chg3mPct": 3.048163864213198,
       "lastDate": "2026-09-29",
       "bars": 1259,
       "symbol": "GC=F",
@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 6.862875879066488,
-        "ret3m": 23.828245447315233,
-        "ret6m": 26.79339780310872,
-        "ret1y": 3.7383750187633513,
+        "ret1m": 0.9850794177712174,
+        "ret3m": 18.64851160037613,
+        "ret6m": 27.649510157196588,
+        "ret1y": 3.0457321372028945,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 11.398357736899523,
-        "ret3m": -3.2117157026920085,
-        "ret6m": 96.66697274846388,
-        "ret1y": 206.26199609948333,
+        "ret1m": 7.905386559638683,
+        "ret3m": -9.404007162311068,
+        "ret6m": 95.14964425489237,
+        "ret1y": 201.51847478770156,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": 1.3802336566920426,
-        "ret3m": 7.656531901834862,
-        "ret6m": 47.179501844345985,
-        "ret1y": 221.6008206898802,
+        "ret1m": -1.6672894589340181,
+        "ret3m": 1.2174630383644525,
+        "ret6m": 43.204930916315874,
+        "ret1y": 208.9524015832293,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": 2.8406113768131513,
-        "ret3m": -4.15958759391204,
-        "ret6m": 16.596631328203927,
-        "ret1y": 51.3145708900548,
+        "ret1m": 0.0919932805675483,
+        "ret3m": -8.618235195489488,
+        "ret6m": 13.895361511974436,
+        "ret1y": 50.149266575205466,
         "winRate": null,
         "count": 12
       }
@@ -229,13 +229,31 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.1766344201220604,
-    "corrPctRank": 3.6881810561609383,
+    "corr60": 0.18192176021970624,
+    "corrPctRank": 4.103852596314908,
     "corrMin5y": 0.036257837878636255,
     "corrMedian5y": 0.7039790233989506,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
+    {
+      "headline": "Oil prices rise for second session on continued Middle East supply concern - Reuters",
+      "summary": "Oil prices rise for second session on continued Middle East supply concern Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPalFIekNtR2pWcEdaNDNsUElsMTRodXZvOVBPbFJnSFlhbDlqbldRbE1TTGVUeTJGN2NRTk4zUGFlWG1NTl9PUkVjNHVzbnZ4YVJxbXg5aVZfZXJzYWhDa3FfZl92OG5Ic3ZNWEluX0N5ZV9aRlRYYXVYeUNUR3lXVGo1dHp4dmdzaF9pZDVGMjVCUGptMU5YcmlzcEhBa2t1NTZMMmsyeFVBWnNPLVJxS2NoM0FIUEQ0Q2ZF?oc=5",
+      "datetime": 1790641980,
+      "headlineKo": "지속적인 중동 공급 우려로 두 번째 세션에서 유가 상승 - Reuters",
+      "summaryKo": "지속적인 중동 공급 우려로 두 번째 세션에서 유가 상승 - 최신"
+    },
+    {
+      "headline": "Stocks fall as higher oil prices, Treasury yields weigh - Reuters",
+      "summary": "Stocks fall as higher oil prices, Treasury yields weigh Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMG5ieTU4M0RYMC1lQi0wbDVONnJJbW5NS3pya2xkLXUxSFF3ajh5ZWlER3B5ZW1IR0J3ZjRxZFFCTDd2ajh4ZnVHZ2xqY1U2c0pIamh2MGhzWVlIMVVieHpOXzg0bnJwRFlTaEg4dVdycUc1X25ZQlZkUUsxUGZ3TGc1RDlNWjg2U1RFQ3JEUWx2NGIxb0ZvZXJJb0F6MjcxOER2WHFIdmtSei1fZHdBS29YcGhvUFk?oc=5",
+      "datetime": 1790637392,
+      "headlineKo": "유가 상승으로 주가 하락, 국채수익률 부담 - Reuters",
+      "summaryKo": "유가 상승으로 주가 하락, 국채수익률 부담 Reuters"
+    },
     {
       "headline": "US, Iran separately talk with mediators in latest bid to end war - Reuters",
       "summary": "US, Iran separately talk with mediators in latest bid to end war Reuters",
@@ -262,15 +280,6 @@ const MARKET_DATA = {
       "datetime": 1790628194,
       "headlineKo": "마이클 버리(Michael Burry)는 AI 거품이 자신이 처음 믿었던 것보다 더 빨리 '터질 수 있다'고 믿습니다.",
       "summaryKo": "유명한 공매도자는 주요 기술 공매도 베팅을 위해 6월 만기 풋옵션으로 전환하고 있습니다."
-    },
-    {
-      "headline": "Stocks fall as higher oil prices, Treasury yields weigh - Reuters",
-      "summary": "Stocks fall as higher oil prices, Treasury yields weigh Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMG5ieTU4M0RYMC1lQi0wbDVONnJJbW5NS3pya2xkLXUxSFF3ajh5ZWlER3B5ZW1IR0J3ZjRxZFFCTDd2ajh4ZnVHZ2xqY1U2c0pIamh2MGhzWVlIMVVieHpOXzg0bnJwRFlTaEg4dVdycUc1X25ZQlZkUUsxUGZ3TGc1RDlNWjg2U1RFQ3JEUWx2NGIxb0ZvZXJJb0F6MjcxOER2WHFIdmtSei1fZHdBS29YcGhvUFk?oc=5",
-      "datetime": 1790627931,
-      "headlineKo": "유가 상승으로 주가 하락, 국채수익률 부담 - Reuters",
-      "summaryKo": "유가 상승으로 주가 하락, 국채수익률 부담 Reuters"
     },
     {
       "headline": "EXCLUSIVE: US to grant sanctions waiver for flights between Iran and Iraq's Najaf, source says - Reuters",
@@ -300,21 +309,13 @@ const MARKET_DATA = {
       "summaryKo": "Mark Zuckerberg는 MongoDB의 CJ Desai를 영입함으로써 엔터프라이즈 AI 비즈니스 구축에 진지하다는 점을 보여줍니다."
     },
     {
-      "headline": "UK examines foreign state involvement in suspected airbase plot, releases suspects - Reuters",
-      "summary": "UK examines foreign state involvement in suspected airbase plot, releases suspects Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSXYwS1pBdDdVa1JYckZZdFNGeWpwdGRUR0hOX1NuMV9vOWFBYUlDbDAzdjFVbVZ1c2J1N0xrM0hPc2RvLVhlM2d5MlZ4WnJtOW9iSzJGNEw2UTJhR25tdWZKYzhucGVKZG1sRDYyZDZudmViaGRjMmdLNVdqS1NWZERRR3EyY1JxMG5tWUNDTTJpZFJxbHZkR0FqU3BPdFBpMTdGWmVWOGQzOEJq?oc=5",
-      "datetime": 1790625469,
-      "headlineKo": "영국, 공군 기지 음모 의심에 외국 정부 개입 조사, 용의자 석방 - 로이터 통신",
-      "summaryKo": "영국, 공군 기지 음모 의심에 외국 정부 개입 조사, 용의자 석방 - 최신"
-    },
-    {
       "headline": "Boeing 737 Max 10 certification delayed by software issue, FAA says",
       "summary": "The FAA administrator said the Max 10 will be delayed until the agency can assess a software issue on the aircraft.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/28/faa-boeing-737-max-10-certification-delay-software-issue.html",
       "datetime": 1790624802,
-      "headlineKo": "FAA는 보잉 737 Max 10 인증이 소프트웨어 문제로 지연됐다고 밝혔습니다."
+      "headlineKo": "FAA는 보잉 737 Max 10 인증이 소프트웨어 문제로 지연됐다고 밝혔습니다.",
+      "summaryKo": "FAA 관리자는 기관이 항공기의 소프트웨어 문제를 평가할 수 있을 때까지 Max 10이 연기될 것이라고 말했습니다."
     },
     {
       "headline": "Suspected plot to attack UK's Fairford airbase, used by US: What do we know? - Reuters",
@@ -322,7 +323,8 @@ const MARKET_DATA = {
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbnV2QWZzNUNIR09FaDEtTFBwU0g2SmZwZ0U3YVNNd0kyVGFQTDFLU2Y1T1FSOUFnSVNHNmtoc2hCYklVeHg4QVJ0UDJPRndqZVBiV3h1U3ZsZmpRQzdELWdMejhzazZMenlmT3FrdkVaM0dBRlBieGRlWG1DRDVnOTB0bjhiT3ppNzZSaWFwc2tGMU83U2c?oc=5",
       "datetime": 1790622754,
-      "headlineKo": "미국이 사용하는 영국의 페어포드 공군기지를 공격하려는 음모가 의심됩니다: 우리는 무엇을 알고 있습니까? - 로이터"
+      "headlineKo": "미국이 사용하는 영국의 페어포드 공군기지를 공격하려는 음모가 의심됩니다: 우리는 무엇을 알고 있습니까? - 로이터",
+      "summaryKo": "미국이 사용하는 영국의 페어포드 공군기지를 공격하려는 음모가 의심됩니다: 우리는 무엇을 알고 있습니까? 로이터"
     },
     {
       "headline": "What the market needs to branch out beyond AI stocks. Plus, a win for CrowdStrike",
@@ -330,7 +332,8 @@ const MARKET_DATA = {
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/28/what-the-market-needs-to-branch-out-beyond-ai-stocks-plus-a-win-for-crowdstrike-.html",
       "datetime": 1790621646,
-      "headlineKo": "시장이 AI 주식을 넘어 확장하기 위해 필요한 것. 게다가 CrowdStrike의 승리"
+      "headlineKo": "시장이 AI 주식을 넘어 확장하기 위해 필요한 것. 게다가 CrowdStrike의 승리",
+      "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
     },
     {
       "headline": "Feds can't withhold counterterrorism funds from states to force election admin changes, judge rules",
@@ -338,19 +341,20 @@ const MARKET_DATA = {
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/28/elections-dhs-counterterrorism.html",
       "datetime": 1790620911,
-      "headlineKo": "연준은 선거 관리 변경, 판사 규칙을 강제하기 위해 주에서 대테러 자금을 보류할 수 없습니다."
+      "headlineKo": "연준은 선거 관리 변경, 판사 규칙을 강제하기 위해 주에서 대테러 자금을 보류할 수 없습니다.",
+      "summaryKo": "판사는 FEMA가 원하는 선거 변경이 \"테러 공격에 대한 취약성을 강화하려는 목표와 어떻게 연결되어 있는지\" 설명하지 않았다고 말했습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790644529.453578,
+  "_news_last_success_at": 1790648225.8624942,
   "fgi": {
     "score": 33.9428571428571,
     "rating": "fear"
   },
-  "_fetched_at": 1790644510.134162,
-  "_updated_label": "2026-09-29 10:15",
-  "_last_attempt_at": 1790644510.134162,
-  "_last_success_at": 1790644510.134162,
+  "_fetched_at": 1790648214.921438,
+  "_updated_label": "2026-09-29 11:17",
+  "_last_attempt_at": 1790648214.921438,
+  "_last_success_at": 1790648214.921438,
   "_collection_status": "ok",
   "_collection_errors": []
 };

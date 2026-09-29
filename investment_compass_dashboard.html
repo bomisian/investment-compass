@@ -8785,20 +8785,27 @@ function marketFairCombined(ticker){
   const cb = (a && a.combined_with_100 && a.combined_with_100.judgment) ? a.combined_with_100 : null;
   if(!cb) return null;
   const DIR = ['싸다', '적정', '비싸다'];
-  const hold = (why) => ({judgment: '판단보류', confidence: null, basis: why, by_method: cb.by_method});
+  // 91 검증: 보류 사유가 된 방법의 방향 단어가 07 탭 방법별 줄에 남지 않도록 by_method도 치환
+  const hold = (why, mask) => ({judgment: '판단보류', confidence: null, basis: why,
+    by_method: {peer_pe: (mask.peer ? mask.peer : (cb.by_method || {}).peer_pe), growth: (mask.growth ? mask.growth : (cb.by_method || {}).growth)}});
   // Codex #89 P2(세대): 화면이 실제로 읽은 ① 파일(FAIR_VALUE)이 ②가 결합에 쓴 ① 세대와 같은지(생성 시각·가격 기준일·수집일)
   const FV = (typeof window !== 'undefined') ? window.FAIR_VALUE : null;
   const FA = (typeof window !== 'undefined') ? window.FAIR_VALUE_ALT : null;
-  if(FA && FA.same_generation_as_100 === false) return hold('두 방법의 자료 세대가 달라 합치지 않음');
+  const GEN = {peer: '세대 불일치', growth: '세대 불일치'};
+  if(FA && FA.same_generation_as_100 === false) return hold('두 방법의 자료 세대가 달라 합치지 않음', GEN);
+  // 91 검증: 세대 정보가 없는 구 형식 ② 파일이 새 ① 파일과 함께 로드되면(배포 전환 중) 보수적으로 보류
+  if(FV && FA && !FA.source_100_generated_at) return hold('② 자료에 세대 정보가 없어 합치지 않음(구 형식 파일)', GEN);
   if(FV && FA && FA.source_100_generated_at && (FV.generated_at !== FA.source_100_generated_at
      || FV.price_session_day !== FA.source_100_price_session_day || (FV.consensus_fetched_day || FV.as_of_consensus_day) !== FA.source_100_consensus_day)){
-    return hold('화면에 불러온 ① 자료와 ② 결합에 쓴 ① 자료의 세대가 달라 합치지 않음(갱신 중일 수 있음)');
+    return hold('화면에 불러온 ① 자료와 ② 결합에 쓴 ① 자료의 세대가 달라 합치지 않음(갱신 중일 수 있음)', GEN);
   }
   // Codex #89 P2(범위): 결합에 쓰인 방법의 범위가 비정상이면 방향 판정을 내지 않음
   const bm = cb.by_method || {};
   const x1 = marketFairRow(ticker);
-  if(DIR.includes(bm.peer_pe) && !(x1 && marketFairBandOk(x1.band))) return hold('① 범위 자료 이상');
-  if(DIR.includes(bm.growth) && !(a && marketFairBandOk(a.band))) return hold('② 범위 자료 이상');
+  const bad1 = DIR.includes(bm.peer_pe) && !(x1 && marketFairBandOk(x1.band));
+  const bad2 = DIR.includes(bm.growth) && !(a && marketFairBandOk(a.band));
+  if(bad1 || bad2) return hold([bad1 ? '① 범위 자료 이상' : '', bad2 ? '② 범위 자료 이상' : ''].filter(Boolean).join(' · '),
+    {peer: bad1 ? '범위 자료 이상' : null, growth: bad2 ? '범위 자료 이상' : null});
   return cb;
 }
 const FAIR_JUDGE_COLOR = {'싸다':'#1a7f5a', '적정':'#626b76', '비싸다':'#b3261e', '혼재':'#876000', '판단보류':'#876000', '자료부족':'#8a8f96'};
