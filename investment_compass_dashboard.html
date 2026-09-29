@@ -542,6 +542,8 @@
 <script>document.write('<script src="fair_value_alt_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 2026-09-29 신규(사용자 요청: 큰 폭 조정이 이익 때문인지 가격만의 조정인지) -- 104_drawdown_type/build_104_drawdown_type.py가 매일 생성. 설명용. -->
 <script>document.write('<script src="drawdown_type_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
+<!-- 2026-09-29 신규(사용자 요청: 이쯤이면 나쁘지 않다/좀 높다 기준) -- 107_price_zone/build_107_price_zone.py가 매일 생성. -->
+<script>document.write('<script src="price_zone_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <script>
 // ============ 워치리스트 (지수ETF 제외 - 개별 종목 판단용) ============
 const ETF_THEME = "지수ETF";
@@ -4053,6 +4055,59 @@ function renderFourLineEvidenceCard(r){
 // [2026-09-29 신규, 사용자 요청] 점수 없는 종목 요약 카드 -- 흩어진 정보를 한 화면에 사실 상태로만 모은다.
 // 106번 검증: VALUE×ENTRY 점수·매트릭스·기대수익률 %는 과거 성적을 가르지 못해 만들지 않음. 새 계산 없음(기존 값 재사용,
 // 50일선 이격·200일선 기울기만 이미 받은 종가로 계산). 매수 판정·배지·장기 점수와 연결하지 않는다.
+
+// [2026-09-29 신규, 사용자 요청] 시장 기준 가격대 -- "딱 얼마는 아니어도 이쯤이면 나쁘지 않다/좀 높다".
+// 107_price_zone/build_107_price_zone.py: 오늘 S&P500에서 성장률·전망 변화·이익률·섹터가 비슷한 종목에 시장이 주는 PER로
+// NTM EPS를 곱해 4구간(싼 편/나쁘지 않은 편/다소 높은 편/높은 편) 가격을 만든다. 오늘 시장 기준 상대값, 수익 예측 아님.
+function priceZoneRow(ticker){
+  const Z = (typeof window !== 'undefined') ? window.PRICE_ZONE : null;
+  return (Z && Z.rows) ? Z.rows[ticker] : null;
+}
+function priceZoneOk(z){
+  return !!(z && z.status === 'ok' && Array.isArray(z.price_cuts) && z.price_cuts.length === 3
+    && z.price_cuts.every(v => typeof v === 'number' && isFinite(v) && v > 0) && z.price_cuts[0] <= z.price_cuts[1] && z.price_cuts[1] <= z.price_cuts[2]
+    && typeof z.price === 'number' && z.price > 0
+    && [z.fwd_pe, z.warranted_pe_mid, z.market_percentile].every(v => typeof v === 'number' && isFinite(v)));
+}
+function priceZoneStatusText(z){
+  if(!z) return '자료부족';
+  if(z.status === '대상아님') return '대상 아님';
+  if(z.status === 'ok') return '자료 이상';   // 93 검증: status ok인데 값 이상일 때 'ok'가 그대로 보이던 문제
+  return z.status || '자료부족';
+}
+function priceZoneCellHtml(ticker){
+  const z = priceZoneRow(ticker);
+  if(!z) return '';
+  if(!priceZoneOk(z)) return `<span class="sub" style="font-size:10.5px;" title="${esc(z.reason || '')}">가격대: ${esc(priceZoneStatusText(z))}</span>`;
+  const f = v => '$' + v.toFixed(v >= 100 ? 0 : 2);
+  const c = z.price_cuts;
+  const outside = z.in_fit_sample === false ? ' <span class="sub" style="font-size:10px;" title="선행 PER이 3~150배 밖이거나 S&P500 밖이라 기준 추정 표본에 없음 — 같은 식을 적용만 함">(표본 밖)</span>' : '';
+  return `<span title="오늘 시장에서 매출 성장·전망 변화·업종이 비슷한 종목과 비교한 가격대 (시장 백분위 ${(z.market_percentile * 100).toFixed(0)}%)"><b>${esc(z.zone)}</b>${outside}<br><span class="sub" style="font-size:10.5px;">나쁘지 않음 ≤${f(c[1])} · 높음 >${f(c[2])}</span></span>`;
+}
+function priceZoneBoxHtml(ticker){
+  const z = priceZoneRow(ticker);
+  const Z = (typeof window !== 'undefined') ? window.PRICE_ZONE : null;
+  if(!z) return '';
+  const head = '<div style="font-weight:700;font-size:13.5px;">시장 기준 가격대</div>';
+  if(!priceZoneOk(z)) return `<div style="margin-bottom:8px;">${head}<div class="sub">${esc(priceZoneStatusText(z))} — ${esc(z.reason || '')}</div></div>`;
+  const f = v => '$' + v.toFixed(v >= 100 ? 0 : 2);
+  const c = z.price_cuts, pe = z.pe_cuts || [];
+  const zones = (Z && Z.zones) || ['싼 편', '나쁘지 않은 편', '다소 높은 편', '높은 편'];
+  const cells = [
+    [zones[0], `${f(c[0])} 미만`, pe[0]], [zones[1], `${f(c[0])} ~ ${f(c[1])}`, pe[1]],
+    [zones[2], `${f(c[1])} ~ ${f(c[2])}`, pe[2]], [zones[3], `${f(c[2])} 초과`, null],
+  ].map(([n, r]) => `<div style="flex:1 1 110px;padding:6px 8px;border-radius:6px;${n === z.zone ? 'background:#20212414;outline:2px solid #202124;' : 'background:#8a8f9614;'}"><div style="font-weight:700;font-size:12.5px;">${esc(n)}</div><div style="font-size:12px;">${r}</div></div>`).join('');
+  const m = (Z && Z.model) || {};
+  const i = z.inputs || {};
+  const pc = v => (typeof v === 'number' && isFinite(v)) ? (v >= 0 ? '+' : '') + (v * 100).toFixed(0) + '%' : '—';
+  return `<div style="margin-bottom:10px;">${head}
+    <div style="display:flex;flex-wrap:wrap;gap:6px;margin:6px 0;">${cells}</div>
+    <div style="font-size:12.5px;">기준가 <b>$${z.price.toFixed(2)}</b> → <b>${esc(z.zone)}</b> <span class="sub">(선행 PER ${z.fwd_pe.toFixed(1)}배 vs 시장이 비슷한 종목에 주는 PER 중앙 ${z.warranted_pe_mid.toFixed(1)}배 · 시장 백분위 ${(z.market_percentile * 100).toFixed(0)}%)</span></div>
+    ${z.in_fit_sample === false ? `<div class="sub" style="font-size:11px;color:#876000;">이 종목은 ${esc(z.note || '기준 추정 표본 밖')} — 같은 식을 적용만 한 참고값이에요.</div>` : ''}
+    <div class="sub" style="font-size:11px;">실제로 기준 PER을 가르는 건 주로 <b>내년 매출 성장률과 업종</b>이에요(최근 90일 EPS 상향은 소폭 반영, EPS 성장률·이익률은 영향 거의 없음). 이 종목 입력: 내년 매출 성장 ${pc(i.g_rev)} · 내년 EPS 성장 ${pc(i.g_eps)} · 최근 90일 EPS 추정 변화 ${pc(i.rev90)} · 영업이익률 ${pc(i.margin)} · 섹터(${esc(z.sector || '')})${(z.capped && z.capped.length) ? ` · <b>${esc(z.capped.join('·'))}</b>는 시장 표본 범위 밖이라 끝값으로 제한` : ''}</div>
+    <div class="sub" style="font-size:11px;">오늘 S&P500 ${m.n_fit || '?'}종목이 받는 PER로 만든 상대 기준이에요(설명력 R² ${typeof m.r2 === 'number' ? m.r2.toFixed(2) : '?'} — 같은 조건이어도 PER이 꽤 흩어져서 구간이 넓어요). 시장 전체가 비싸지면 기준도 같이 올라가고, 앞으로의 수익을 예측하지는 않아요. 기준가 ${esc((Z && Z.price_session_day) || '')} 종가 · 추정치 ${esc((Z && Z.as_of_consensus_day) || '')} 수집.</div>
+  </div>`;
+}
 function summaryBandOk(band){
   // Codex #09 P2: 양수·유한·정렬(하한<=중앙<=상한)·하한<상한일 때만 사다리
   return Array.isArray(band) && band.length === 3 && band.every(v => typeof v === 'number' && isFinite(v) && v > 0)
@@ -4191,8 +4246,9 @@ function summaryCardHtml(r){
       <div style="font-size:16px;font-weight:800;">${esc(tk)} 한눈에 보기</div>
       <div class="sub">점수 없음 · 사실 상태만 · 항목마다 기준일이 달라요</div>
     </div>
+    <div style="margin-top:6px;">${priceZoneBoxHtml(tk)}</div>
     <div style="display:flex;flex-wrap:wrap;gap:4px 18px;margin-top:4px;">
-      ${sec('가치 위치', valueBody)}${sec('이익 전망', earnBody)}${sec('시장 기대', expBody)}
+      ${sec('가치 위치(적정가 두 방법)', valueBody)}${sec('이익 전망', earnBody)}${sec('시장 기대', expBody)}
       ${sec('밸류에이션', valBody)}${sec('차트 상태', chartBody)}${sec('하락 성격(가격 vs 이익)', ddBody)}
     </div>
     <div class="sub" style="margin-top:6px;color:#876000;">이 항목들을 점수로 합치거나 "좋은 매수 구간"으로 묶어도 2016~2025 S&P500에서 이후 성적 차이가 없었어요(106번 검증). 범위 안 위치도 참고일 뿐 매수·매도 신호가 아니에요. 자세한 근거는 07 적정가 탭.</div>
@@ -8737,6 +8793,14 @@ function marketFairGapOf(ticker){
   return (a && a.status === 'ok' && typeof a.band_mid_gap === 'number') ? a.band_mid_gap : null;
 }
 function marketFairCellHtml(ticker){
+  const pz = priceZoneCellHtml(ticker);
+  if(!pz) return marketFairCellHtmlCore(ticker);
+  // 목록은 가격대를 주 판정으로, 적정가 두 방법의 종합은 한 줄 참고로만(범위 숫자는 상세 카드·07 탭에서)
+  const cb = marketFairCombined(ticker);
+  const em = estMomentumChip(ticker);
+  return pz + (cb ? `<br><span class="sub" style="font-size:10px;" title="${esc(cb.basis || '')}">적정가 두 방법: ${esc(cb.judgment)}</span>` : '') + (em ? '<br>' + em : '');
+}
+function marketFairCellHtmlCore(ticker){
   // 2026-09-29: 두 방법 종합 판단을 먼저 보여준다(전 종목). 범위는 ① 동종 방법, 없으면 ② 성장률 방법.
   const cb = marketFairCombined(ticker);
   if(cb){
