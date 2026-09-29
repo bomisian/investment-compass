@@ -1,9 +1,44 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790709307.3170817,
+  "generatedAt": 1790711250.396694,
   "records": {
     "MSFT": [
+      {
+        "changedAt": 1790711250.396694,
+        "dataAsOf": 1790704320,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 4.2,
+            "after": 4.9
+          },
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -1.4,
+            "after": -1.05
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -0.87,
+            "after": -0.52
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 2.45,
+            "after": 3.15
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "워렌 버핏과 빌 애크먼이 알파벳, 아마존, 마이크로소프트, 메타를 사랑하는 이유를 설명하는 두 가지 숫자",
+        "newsUrl": "https://finnhub.io/api/news?id=e5fe16063f9dd6ed4111dbfd11d4c5a1c2905557d82ff4e6ac8c74ffcdc65cec",
+        "eventId": "fb99bdb450b2b46e5dfc",
+        "fingerprint": "{\"changes\": [{\"after\": 4.9, \"before\": 4.2, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.05, \"before\": -1.4, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -0.52, \"before\": -0.87, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 3.15, \"before\": 2.45, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"fb99bdb450b2b46e5dfc\"}"
+      },
       {
         "changedAt": 1790708905.6133652,
         "dataAsOf": 1790704320,
@@ -1828,35 +1863,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=625a9199994b44f142f5cedf8f2d994d6a54131927ca628d42c49fe8344b9cd8",
         "eventId": "0b1926b2dc974afa68fc",
         "fingerprint": "{\"changes\": [{\"after\": 3.5, \"before\": 3.15, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 1.92, \"before\": 1.57, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"0b1926b2dc974afa68fc\"}"
-      },
-      {
-        "changedAt": 1789010069.714424,
-        "dataAsOf": 1788983679,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 1.22,
-            "after": 1.57
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 2.45,
-            "after": 3.15
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 1.22,
-            "after": 1.57
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "Microsoft Stock이 계속해서 이렇게 수익을 낼 수 있을까요?",
-        "newsUrl": "https://finnhub.io/api/news?id=1936d438ad55a94bd69e7342245ccb247cbbe85dd91eee960172a47c6bd063a4",
-        "eventId": "d0b7db76e84b919b52e5",
-        "fingerprint": "{\"changes\": [{\"after\": 1.57, \"before\": 1.22, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 3.15, \"before\": 2.45, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 1.57, \"before\": 1.22, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"d0b7db76e84b919b52e5\"}"
       }
     ],
     "GOOGL": [
@@ -3663,6 +3669,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AMZN": [
       {
+        "changedAt": 1790711250.396694,
+        "dataAsOf": 1790704320,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 2.45,
+            "after": 2.8
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 1.05,
+            "after": 1.4
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "워렌 버핏과 빌 애크먼이 알파벳, 아마존, 마이크로소프트, 메타를 사랑하는 이유를 설명하는 두 가지 숫자",
+        "newsUrl": "https://finnhub.io/api/news?id=e5fe16063f9dd6ed4111dbfd11d4c5a1c2905557d82ff4e6ac8c74ffcdc65cec",
+        "eventId": "fb99bdb450b2b46e5dfc",
+        "fingerprint": "{\"changes\": [{\"after\": 2.8, \"before\": 2.45, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 1.4, \"before\": 1.05, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"fb99bdb450b2b46e5dfc\"}"
+      },
+      {
         "changedAt": 1790708905.6133652,
         "dataAsOf": 1790704320,
         "changes": [
@@ -5348,32 +5377,44 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=20a10f3a75b537f65670fd11dc2107ae145daa107c44d0c80bd3fa9ceb45e98e",
         "eventId": "2339ab3da2726373fde1",
         "fingerprint": "{\"changes\": [{\"after\": 2.1, \"before\": 2.62, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 4.2, \"before\": 5, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.32, \"before\": -4.85, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -3.05, \"before\": -3.57, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"2339ab3da2726373fde1\"}"
-      },
+      }
+    ],
+    "META": [
       {
-        "changedAt": 1789349683.2421887,
-        "dataAsOf": 1789286700,
+        "changedAt": 1790711250.396694,
+        "dataAsOf": 1790704320,
         "changes": [
           {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 3.5,
-            "after": 2.62
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.57,
+            "after": 1.92
+          },
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -1.22,
+            "after": -0.87
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -2.27,
+            "after": -1.92
           },
           {
             "key": "shortTermMomentum",
             "label": "단기 뉴스 모멘텀",
-            "before": -2.7,
-            "after": -3.57
+            "before": 0.7,
+            "after": 1.05
           }
         ],
         "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "10년 전 Apple 주식에 20,000달러를 투자한 것은 Amazon에 같은 금액을 투자한 것보다 더 많은 수익을 거두었습니다. 다음 10년을 위한 Better Buy가 여기에 있습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=20a10f3a75b537f65670fd11dc2107ae145daa107c44d0c80bd3fa9ceb45e98e",
-        "eventId": "2339ab3da2726373fde1",
-        "fingerprint": "{\"changes\": [{\"after\": 2.62, \"before\": 3.5, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -3.57, \"before\": -2.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"2339ab3da2726373fde1\"}"
-      }
-    ],
-    "META": [
+        "newsHeadline": "워렌 버핏과 빌 애크먼이 알파벳, 아마존, 마이크로소프트, 메타를 사랑하는 이유를 설명하는 두 가지 숫자",
+        "newsUrl": "https://finnhub.io/api/news?id=e5fe16063f9dd6ed4111dbfd11d4c5a1c2905557d82ff4e6ac8c74ffcdc65cec",
+        "eventId": "fb99bdb450b2b46e5dfc",
+        "fingerprint": "{\"changes\": [{\"after\": 1.92, \"before\": 1.57, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.87, \"before\": -1.22, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.92, \"before\": -2.27, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 1.05, \"before\": 0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"fb99bdb450b2b46e5dfc\"}"
+      },
       {
         "changedAt": 1790708905.6133652,
         "dataAsOf": 1790704320,
@@ -7240,47 +7281,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=937b1548531416896a208cab353bef25747baa53e6bb5913f23c7bfa721f6d8a",
         "eventId": "651799e9871e68378cc7",
         "fingerprint": "{\"changes\": [{\"after\": -1.05, \"before\": -0.52, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.1, \"before\": -1.05, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -3.15, \"before\": -1.57, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -3.15, \"before\": -1.57, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"651799e9871e68378cc7\"}"
-      },
-      {
-        "changedAt": 1789502839.7789433,
-        "dataAsOf": 1789492531,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 0.0,
-            "after": -0.52
-          },
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": 0.0,
-            "after": -1.05
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": 0.0,
-            "after": -1.57
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 0.0,
-            "after": -1.57
-          },
-          {
-            "key": "signal",
-            "label": "종합 시그널",
-            "before": "중립·확인 대기",
-            "after": "주의 강화"
-          }
-        ],
-        "cause": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-        "newsHeadline": "Meta의 24억 달러 규모의 법적 탭이 국가 규제의 악몽으로 폭발할 수 있는 이유",
-        "newsUrl": "https://finnhub.io/api/news?id=5d72d95b9329f2f78fbfe1b1675882caeec92a4007752adee786052b14085667",
-        "eventId": "5ddc0789b8904a8c5936",
-        "fingerprint": "{\"changes\": [{\"after\": -0.52, \"before\": 0.0, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.05, \"before\": 0.0, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.57, \"before\": 0.0, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.57, \"before\": 0.0, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"주의 강화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"5ddc0789b8904a8c5936\"}"
       }
     ],
     "AAPL": [
@@ -10781,6 +10781,41 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "ORCL": [
       {
+        "changedAt": 1790711250.396694,
+        "dataAsOf": 1790697141,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.4,
+            "after": 1.05
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.05,
+            "after": 0.0
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -4.02,
+            "after": -4.72
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.4,
+            "after": -2.1
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Oracle은 Fusion Claw 출시로 25개의 에이전트 애플리케이션을 추가하면서 5% 증가했습니다. Salesforce는 정체 상태를 유지하고 ServiceNow는 미끄러졌습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=f1a9d37fd5f3965059517e1a8a3388c8e5137fa4a88b8c696665cfdd7788a8e1",
+        "eventId": "1e633b125ee50754bf15",
+        "fingerprint": "{\"changes\": [{\"after\": 1.05, \"before\": 1.4, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.0, \"before\": 1.05, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.72, \"before\": -4.02, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -2.1, \"before\": -1.4, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"1e633b125ee50754bf15\"}"
+      },
+      {
         "changedAt": 1790708905.6133652,
         "dataAsOf": 1790669925,
         "changes": [
@@ -12670,38 +12705,44 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=9a0a6074224133694dcc57e2d033d109069e8b898dcd4643b33009273eaebe06",
         "eventId": "ef0274471843356cbac7",
         "fingerprint": "{\"changes\": [{\"after\": 2.62, \"before\": 2.1, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 3.85, \"before\": 2.8, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.1, \"before\": -1.05, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -3.85, \"before\": -3.32, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.22, \"before\": -0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"ef0274471843356cbac7\"}"
-      },
+      }
+    ],
+    "CRM": [
       {
-        "changedAt": 1788989117.608275,
-        "dataAsOf": 1788972586,
+        "changedAt": 1790711250.396694,
+        "dataAsOf": 1790697141,
         "changes": [
           {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -1.75,
-            "after": -1.05
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.4,
+            "after": 1.05
           },
           {
             "key": "businessRisk",
             "label": "사업 리스크",
-            "before": -3.67,
-            "after": -3.32
+            "before": 0.0,
+            "after": -0.7
           },
           {
             "key": "shortTermMomentum",
             "label": "단기 뉴스 모멘텀",
-            "before": -1.4,
-            "after": -0.7
+            "before": 0.7,
+            "after": 0.35
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "우호적 변화",
+            "after": "중립·확인 대기"
           }
         ],
         "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "Oracle의 파괴적인 성격은 매우 매력적입니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=c5b94b4dfcc242a16664c1243c5ed5607d1a12fff13c8269217b59d4b9f4885f",
-        "eventId": "af543bdca1a1eb660b95",
-        "fingerprint": "{\"changes\": [{\"after\": -1.05, \"before\": -1.75, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -3.32, \"before\": -3.67, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.7, \"before\": -1.4, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"af543bdca1a1eb660b95\"}"
-      }
-    ],
-    "CRM": [
+        "newsHeadline": "Oracle은 Fusion Claw 출시로 25개의 에이전트 애플리케이션을 추가하면서 5% 증가했습니다. Salesforce는 정체 상태를 유지하고 ServiceNow는 미끄러졌습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=f1a9d37fd5f3965059517e1a8a3388c8e5137fa4a88b8c696665cfdd7788a8e1",
+        "eventId": "1e633b125ee50754bf15",
+        "fingerprint": "{\"changes\": [{\"after\": 1.05, \"before\": 1.4, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.7, \"before\": 0.0, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.35, \"before\": 0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"우호적 변화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"1e633b125ee50754bf15\"}"
+      },
       {
         "changedAt": 1790595006.6196523,
         "dataAsOf": 1790588400,
@@ -25937,6 +25978,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "INTC": [
       {
+        "changedAt": 1790711250.396694,
+        "dataAsOf": 1790697360,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.35,
+            "after": 0.7
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.17,
+            "after": 0.52
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "2026년 차세대 컴퓨팅 시장 보고서: Microsoft, AWS, NVIDIA, IBM 및 Intel이 AI, 양자 및 엣지 컴퓨팅을 가속화함에 따라 2030년까지 4,860억 달러의 매출 급증을 8,118억 5천만 달러로 활용",
+        "newsUrl": "https://finnhub.io/api/news?id=91fb73dffa21ff5d80fdaf7d34a2d0b476d482388a30e3c4850260c6ce25fe8e",
+        "eventId": "f505606a97ed76c3f864",
+        "fingerprint": "{\"changes\": [{\"after\": 0.7, \"before\": 0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.52, \"before\": 0.17, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"f505606a97ed76c3f864\"}"
+      },
+      {
         "changedAt": 1790708905.6133652,
         "dataAsOf": 1790606000,
         "changes": [
@@ -27670,41 +27734,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=d610f6ef7b0b38f225d3912367f42af0b6e869261694dcb6006a8e6d1b802d95",
         "eventId": "7efd683b9ebb6ccef810",
         "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 1.22, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.75, \"before\": 2.97, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.9, \"before\": -1.75, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.35, \"before\": 1.75, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"우호적 변화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"7efd683b9ebb6ccef810\"}"
-      },
-      {
-        "changedAt": 1789349683.2421887,
-        "dataAsOf": 1789326652,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 3.32,
-            "after": 2.97
-          },
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -1.4,
-            "after": -0.35
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -1.57,
-            "after": -1.75
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 1.05,
-            "after": 1.75
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "Intel(INTC)은 CPU 부족으로 승리하고 있지만 파운드리 가치 평가에는 더 많은 증거가 필요합니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=958a691c65294af0436ba0a4f03da20b8a7bae7677a8ea9914091a4689266779",
-        "eventId": "e6ae3663ddcf0b10eb01",
-        "fingerprint": "{\"changes\": [{\"after\": 2.97, \"before\": 3.32, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.35, \"before\": -1.4, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.75, \"before\": -1.57, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 1.75, \"before\": 1.05, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"e6ae3663ddcf0b10eb01\"}"
       }
     ],
     "TSM": [
@@ -33607,6 +33636,47 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "SNDK": [
       {
+        "changedAt": 1790711250.396694,
+        "dataAsOf": 1790692227,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.35,
+            "after": 0.7
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.53,
+            "after": 1.22
+          },
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -1.05,
+            "after": -2.1
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -1.57,
+            "after": -2.1
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.87,
+            "after": -1.57
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "SanDisk는 투자자가 기대하는 것보다 훨씬 더 큰 기회를 가질 수 있습니다",
+        "newsUrl": "https://finnhub.io/api/news?id=25a915c7b31086363632835c27c4da0ef6cfd5b07ec9f09e553e614f50d10730",
+        "eventId": "f95f1eadf2fd6dc2207c",
+        "fingerprint": "{\"changes\": [{\"after\": 0.7, \"before\": 0.35, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.22, \"before\": 0.53, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.1, \"before\": -1.05, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.1, \"before\": -1.57, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.57, \"before\": -0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"f95f1eadf2fd6dc2207c\"}"
+      },
+      {
         "changedAt": 1790708905.6133652,
         "dataAsOf": 1790600907,
         "changes": [
@@ -35604,41 +35674,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=665448d42f78e46e1e76524f9b023f91df352d9f1e664660c0594888cca4a72b",
         "eventId": "4e2980d96fa059a8405f",
         "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 0.88, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.7, \"before\": -1.75, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.87, \"before\": 0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"우호적 변화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"4e2980d96fa059a8405f\"}"
-      },
-      {
-        "changedAt": 1788503634.4771805,
-        "dataAsOf": 1788405452,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 1.05,
-            "after": 0.52
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 1.92,
-            "after": 0.88
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 0.87,
-            "after": 0.35
-          },
-          {
-            "key": "signal",
-            "label": "종합 시그널",
-            "before": "우호적 변화",
-            "after": "중립·확인 대기"
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "Leopold Aschenbrenner의 AI 펀드는 강제로 매각되었습니다. Micron과 SanDisk가 틀렸습니까? 아니면 레버리지입니까?",
-        "newsUrl": "https://finnhub.io/api/news?id=665448d42f78e46e1e76524f9b023f91df352d9f1e664660c0594888cca4a72b",
-        "eventId": "4e2980d96fa059a8405f",
-        "fingerprint": "{\"changes\": [{\"after\": 0.52, \"before\": 1.05, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.88, \"before\": 1.92, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.35, \"before\": 0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"우호적 변화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"4e2980d96fa059a8405f\"}"
       }
     ],
     "WDC": [
