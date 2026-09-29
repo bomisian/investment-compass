@@ -361,6 +361,7 @@
     <div class="sub" style="margin-bottom:6px;">판단(장기) = <b>눌림목 강도(0~5)</b>, 실데이터 검증된 12개월 초과수익 예측 지표만 반영(52주 하락 깊이+200일선 아래+시장조정). 6~12개월·우량주 타이밍용 · 단기판단 = 우상향 눌림목(RSI 30~38) 또는 과매도(RSI&lt;30, 하락추세면 반등 확인)+쿨다운, 14년치 검증(현실 진입 기준 10일 승률 66%)<br>
     <b>그룹대비강도</b> = 같은 섹터 대비 최근 20일 상대수익률 - "많이 뒤처지면 나쁜 신호"만 검증됐고 "앞서면 좋다"는 아직 검증 전이라 참고용이에요</div>
     <div class="sub" style="margin-bottom:4px;font-size:11.5px;">📌 <b>가치 참고범위</b>(시장기준 적정가 칸): 모형 가정과 자료 기준일에 따른 추정값이며 예측·매수 권유가 아닙니다. · <b>단기신호</b>(단기판단 칸): 과거 가격·거래량 규칙의 관측 결과이며 수익을 보장하지 않습니다. 두 값은 방법·기간이 달라 합치지 않아요.</div>
+    <div id="fairRuleBanner"></div>
     <div id="marketSigmaSummary" class="sub" style="margin-bottom:8px;"></div>
     <div style="overflow-x:auto;">
     <table id="resultTable" style="display:none;min-width:1420px;">
@@ -3094,6 +3095,7 @@ function rsiBoundaryHtml(r){
 }
 function renderTable(){
   renderMarketSigmaSummary();
+  { const fb = document.getElementById('fairRuleBanner'); if(fb) fb.innerHTML = fairRuleChangeBanner(); }
   const table = document.getElementById('resultTable');
   const body = document.getElementById('resultBody');
   const themeFilter = document.getElementById('themeFilter').value;
@@ -3527,12 +3529,17 @@ function buildAtAGlanceHtml(r){
 // PEG로 대체 판단한 경우엔 배지에 *를 붙여 방법이 다르다는 걸 표시함(정밀도 낮음을 숨기지 않음).
 // 2026-09-29(122 점검, 사용자 지적 ORCL·CEG): 최근 4분기 잉여현금흐름이 적자인데 순이익은 흑자 -> '싸 보임'은 조건부
 // (두 적정가 계산 모두 'EPS = 주주 몫 현금'을 가정하므로 이 경우 과대평가될 수 있음)
+function usdSigned(v){ return (v < 0 ? '-$' : '$') + fmtUsd(Math.abs(v)); }
 function fcfWarn(ticker){
   const F = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA : null;
   const q = F && F[ticker] && Array.isArray(F[ticker].quarterly) ? F[ticker].quarterly : [];
-  const qf = q.filter(x => typeof x.fcf === 'number' && isFinite(x.fcf)), qn = q.filter(x => typeof x.netIncome === 'number' && isFinite(x.netIncome));
-  if(qf.length < 4 || qn.length < 4) return null;
-  const fcf = qf.slice(-4).reduce((s, x) => s + x.fcf, 0), ni = qn.slice(-4).reduce((s, x) => s + x.netIncome, 0);
+  // Codex L15-2: 같은 최근 연속 4분기(두 값 모두 있음, 분기 간격 60~120일, 마지막 분기말 200일 이내)일 때만
+  const last4 = q.slice(-4);
+  if(last4.length < 4 || !last4.every(x => typeof x.fcf === 'number' && isFinite(x.fcf) && typeof x.netIncome === 'number' && isFinite(x.netIncome) && /^\d{4}-\d{2}-\d{2}$/.test(String(x.endDate || '')))) return null;
+  const ds = last4.map(x => Date.parse(x.endDate + 'T00:00:00Z'));
+  for(let i = 1; i < 4; i++){ const g = (ds[i] - ds[i - 1]) / 86400000; if(!(g >= 60 && g <= 120)) return null; }
+  if((Date.now() - ds[3]) / 86400000 > 200) return null;
+  const fcf = last4.reduce((s, x) => s + x.fcf, 0), ni = last4.reduce((s, x) => s + x.netIncome, 0);
   return (fcf < 0 && ni > 0) ? {fcf, ni} : null;
 }
 function valuationBadgeHtml(r){
@@ -3541,7 +3548,7 @@ function valuationBadgeHtml(r){
   const exp = fwd.expectations;
   const peg = fwd.peg;
   const fw = fcfWarn(r.ticker);
-  const fwTip = fw ? ` · ⚠️ 최근 4분기 잉여현금흐름 $${fmtUsd(fw.fcf)}(적자)인데 순이익 $${fmtUsd(fw.ni)}(흑자) -- 이익이 현금으로 안 들어오는 중이라 '싸 보임'은 조건부` : '';
+  const fwTip = fw ? ` · ⚠️ 최근 4분기 잉여현금흐름 ${usdSigned(fw.fcf)}(적자)인데 순이익 ${usdSigned(fw.ni)}(흑자) -- 순이익은 흑자지만 투자지출 등을 반영한 잉여현금흐름은 적자라 '싸 보임'은 조건부` : '';
   if(exp){
     // 122: 자기 과거 기준 '적정' 구간(상단/하단)이 2배를 넘으면 배지로서 의미가 약해 보류
     const _w = (1 + exp.pctToOvervalued / 100) / (1 + exp.pctToUndervalued / 100);
@@ -3557,7 +3564,7 @@ function valuationBadgeHtml(r){
   if(peg!=null && (_uk === 'bounds_unstable' || _uk === 'growth_too_low_or_negative')){
     return `<span class="val-badge val-unknown" title="${_uk === 'bounds_unstable' ? '자기 과거 기준 가격 경계가 불안정해' : '예상 성장률이 너무 낮거나 마이너스라'} 자기 과거 대비 판단을 보류해요(PEG ${peg.toFixed(2)}배는 참고만)${fwTip}">판단보류</span>`;
   }
-  const _why = (_uk === 'no_growth_history' || _uk === 'no_historical_per') ? '상장 이력이 짧아 자기 고유 성장률·PER 역사가 없어서' : '자기 과거 기준 계산을 쓸 수 없어서';
+  const _why = (_uk === 'no_growth_history' || _uk === 'no_historical_per') ? '사용 가능한 과거 성장률·PER 자료가 부족해서' : '자기 과거 기준 계산을 쓸 수 없어서';
   if(peg!=null){
     if(peg <= 1 && fw) return `<span class="val-badge val-fair" title="PEG ${peg.toFixed(2)}배 - ${_why} PEG로 대체${fwTip}. 참고용">저평가*(조건부)</span>`;
     if(peg <= 1) return `<span class="val-badge val-cheap" title="PEG ${peg.toFixed(2)}배(성장률 대비 저평가 쪽) - ${_why} PEG로 대체 판단함. 참고용">저평가*</span>`;
@@ -4675,7 +4682,9 @@ function summaryCardHtml(r){
   const srcDate = use1 ? `가격 ${esc((FV && FV.price_session_day) || '?')} 종가 · 컨센서스 ${esc((FV && (FV.consensus_fetched_day || FV.as_of_consensus_day)) || '?')} 수집 · EPS ${esc(x1.methodology || '')}`
                        : (use2 ? `컨센서스·가격 ${esc((FA && FA.as_of_consensus_day) || '?')} 수집 · EPS ${esc((a.inputs && a.inputs.eps_methodology) || '')}` : '');
   const ladder = src ? summaryLadderHtml(src.price, src.band, srcTag) : '';
-  const judge = cb ? `<b>${esc(cb.judgment)}</b> <span class="sub">${esc(cb.confidence ? '확실성 ' + cb.confidence : '')}${src ? ' · 기준가 시점 판정' : ''}</span>` : '자료 없음';
+  const fjn = cb ? fairJudgeNotes(tk, cb) : {suffix: '', notes: []};
+  const rcn1 = fairRuleChangeNote(tk);
+  const judge = cb ? `<b>${esc(cb.judgment)}${esc(fjn.suffix)}</b> <span class="sub">${esc(cb.confidence ? '확실성 ' + cb.confidence : '')}${src ? ' · 기준가 시점 판정' : ''}</span>${fjn.notes.map(n => `<div class="sub" style="font-size:11px;color:#876000;">${esc(n)}</div>`).join('')}${rcn1 ? `<div class="sub" style="font-size:11px;color:#876000;">${esc(rcn1)}</div>` : ''}` : '자료 없음';
   let live = '';
   if(src && ladder){
     if(summaryLivePriceOk(r)){
@@ -4698,7 +4707,7 @@ function summaryCardHtml(r){
   const ai = a && a.inputs ? a.inputs : null;
   const gUsed = ai && Array.isArray(ai.growth_used) ? ai.growth_used : null;
   const expBody = (a && a.status === 'ok' && ai && num(ai.implied_growth) && gUsed && num(gUsed[1]))
-    ? row('가격이 가정하는 성장률', pc(ai.implied_growth)) + row('애널리스트 기대(내년 매출)', pc(gUsed[1]))
+    ? row('가격이 가정하는 성장률', pc(ai.implied_growth)) + row(ai.consensus_rev_growth_raw ? '애널리스트 기대(내년 매출 평균)' : '계산에 쓴 성장률(가운데)', pc(gUsed[1]) + ((Array.isArray(ai.consensus_rev_growth_raw) && typeof ai.consensus_rev_growth_raw[1] === 'number' && Math.abs(ai.consensus_rev_growth_raw[1] - gUsed[1]) > 0.0005) ? ` <span class="sub">(원 컨센서스 평균 ${pc(ai.consensus_rev_growth_raw[1])}를 −15~40%로 자름)</span>` : (!ai.consensus_rev_growth_raw ? ' <span class="sub">(매출 추정 없음 — EPS 성장률 대체)</span>' : '')))
       + row('기대 − 가정', `${((gUsed[1] - ai.implied_growth) * 100 >= 0 ? '+' : '') + ((gUsed[1] - ai.implied_growth) * 100).toFixed(1)}%p <span class="sub">(+면 가격이 전망보다 덜 가정)</span>`)
     : `<div class="sub">${esc(a && a.status && a.status !== 'ok' ? '② 방법 ' + a.status : '자료 없음')}</div>`;
 
@@ -9289,6 +9298,47 @@ function marketFairGapOf(ticker){
   const a = marketFairAltRow(ticker);
   return (a && a.status === 'ok' && typeof a.band_mid_gap === 'number') ? a.band_mid_gap : null;
 }
+// 2026-09-29(Codex L15-3): 적정가 종합 판단에 붙는 보조 표시를 한 곳에서 -- 목록·01 요약 카드·07 종합이 같은 문구를 쓰게
+// suffix: '(경계)'  notes: 경계/범위 넓음/현금흐름 조건부/추정 하향
+function fairJudgeNotes(ticker, cb){
+  const out = {suffix: '', notes: []};
+  if(!cb) return out;
+  const x1 = marketFairRow(ticker), a = marketFairAltRow(ticker);
+  const use1 = x1 && x1.status === 'ok' && x1.confidence === '보통' && marketFairBandOk(x1.band);
+  const use2 = a && a.status === 'ok' && marketFairBandOk(a.band);
+  if(cb.judgment === '적정' && use2 && !use1 && a.boundary){
+    out.suffix = '(경계)';
+    out.notes.push('가격이 범위 밖이지만 할인율 ±1%p 여유 안이라 적정으로 취급');
+  }
+  if((cb.basis || '').includes('너무 넓')) out.notes.push('범위가 너무 넓어(상단이 하단의 2배 초과) 싸다·비싸다를 판단하지 않음');
+  if(cb.judgment !== '싸다' && cb.judgment !== '비싸다'){
+    const fw0 = (typeof fcfWarn === 'function') ? fcfWarn(ticker) : null;
+    if(fw0) out.notes.push(`현금흐름 주의: 최근 4분기 잉여현금흐름 ${usdSigned(fw0.fcf)} 적자·순이익 ${usdSigned(fw0.ni)} 흑자 -- 이익 기반 적정가가 과대일 수 있음`);
+  }
+  if(cb.judgment === '싸다'){
+    const fw = (typeof fcfWarn === 'function') ? fcfWarn(ticker) : null;
+    if(fw) out.notes.push(`조건부: 최근 4분기 잉여현금흐름 ${usdSigned(fw.fcf)} 적자·순이익 ${usdSigned(fw.ni)} 흑자 -- 순이익은 흑자지만 투자지출 등을 반영한 잉여현금흐름은 적자`);
+    const em = estMomentum(ticker);
+    if(em && String(em.direction || '').includes('하향')) out.notes.push('이익 추정 하향 중 -- 싼 이유일 수 있음');
+  }
+  return out;
+}
+// 2026-09-29 적정가 규칙 변경 공지(Codex L15-3: 새 시장 정보가 아니라 규칙 변경으로 판정이 바뀐 종목을 첫 화면에 알림) -- 10-06까지 표시
+const FAIR_RULE_CHANGE_20260929 = {until: '2026-10-07', changes: {
+  'GOOGL': '적정→싸다', 'WDC': '적정→싸다', 'STX': '적정→싸다', 'META': '싸다→적정', 'CRM': '싸다→적정', 'ORCL': '싸다→판단보류',
+  'NVDA': '적정→판단보류', 'AVGO': '적정→판단보류', 'LITE': '적정→판단보류', 'VST': '적정→판단보류', 'MOD': '적정→판단보류',
+  'ETN': '비싸다→적정', 'BE': '비싸다→적정', 'PWR': '적정→비싸다'}};
+function fairRuleChangeActive(){ return new Date().toISOString().slice(0, 10) < FAIR_RULE_CHANGE_20260929.until; }
+function fairRuleChangeNote(ticker){
+  if(!fairRuleChangeActive()) return '';
+  const c = FAIR_RULE_CHANGE_20260929.changes[ticker];
+  return c ? `9/29 규칙 변경으로 ${c}(새 정보 아님)` : '';
+}
+function fairRuleChangeBanner(){
+  if(!fairRuleChangeActive()) return '';
+  const e = Object.entries(FAIR_RULE_CHANGE_20260929.changes).map(([t, c]) => `${t} ${c}`).join(' · ');
+  return `<div class="sub" style="font-size:11.5px;margin-bottom:6px;color:#876000;">📢 <b>2026-09-29 시장기준 적정가 규칙 변경</b> — 범위 끝점을 분석가 최저·최고 1명 대신 '정규분포 가정 참고 범위'로 좁히고, 그래도 2배 넘게 넓으면 판단보류, 싸다·비싸다는 할인율 ±1%p 여유 밖일 때만. <b>새 시장 정보가 아니라 규칙 변경으로</b> 판정이 바뀐 종목: ${esc(e)}. '가격 타당성'(자기 과거 대비)도 적정 구간이 너무 넓거나 과거 계산이 불안정하면 판단보류로 바뀌었어요.</div>`;
+}
 function marketFairCellHtml(ticker){
   // 2026-09-29 Codex 107 FAIL: 재감사 전까지 목록 첫 줄에 쓰지 않음(연구용). 재감사 통과 시 PRICE_ZONE_OPERATIONAL=true로 전환.
   const pz = PRICE_ZONE_OPERATIONAL ? priceZoneCellHtml(ticker) : '';
@@ -9312,13 +9362,14 @@ function marketFairCellHtmlCore(ticker){
     const tag = use1 ? '①' : (use2 ? '②' : '');
     // 성장률이 상·하한에 모두 걸리면(예: MRVL) 범위가 한 점으로 모인다 -> '$314~$314' 대신 한 값만
     const same = src && Math.abs(src.band[2] / src.band[0] - 1) < 0.005;
-    const rng = src ? `<span class="sub" style="font-size:10px;">${tag}</span> ${same ? f1(src.band[1]) : f1(src.band[0]) + '~' + f1(src.band[2])} · ${fairPosText(src.price, src.band)}<br>` : '';
+    const wideR = (cb.basis || '').includes('너무 넓');
+    const rng = src ? `<span class="sub" style="font-size:10px;">${tag}</span> ${same ? f1(src.band[1]) : f1(src.band[0]) + '~' + f1(src.band[2])} · ${wideR ? '범위 넓음(위치 판단 안 함)' : fairPosText(src.price, src.band)}<br>` : '';
     const why = src ? '' : `<br><span class="sub" style="font-size:10px;">${esc(cb.basis || '')}</span>`;
     const c = FAIR_JUDGE_COLOR[cb.judgment] || '#626b76';
     let tags = '';
     if(cb.judgment === '싸다'){
       const fw = fcfWarn(ticker);
-      if(fw) tags += `<br><span style="font-size:10px;color:#876000;" title="최근 4분기 잉여현금흐름 $${fmtUsd(fw.fcf)} 적자, 순이익 $${fmtUsd(fw.ni)} 흑자 -- 계산은 이익이 현금이라고 가정">조건부: 이익이 현금으로 안 들어오는 중</span>`;
+      if(fw) tags += `<br><span style="font-size:10px;color:#876000;" title="최근 4분기 잉여현금흐름 ${usdSigned(fw.fcf)} 적자, 순이익 ${usdSigned(fw.ni)} 흑자 -- 계산은 이익이 현금이라고 가정">조건부: 순이익은 흑자지만 투자지출 반영 잉여현금흐름은 적자</span>`;
       const em = estMomentum(ticker);
       if(em && String(em.direction || '').includes('하향')) tags += `<br><span style="font-size:10px;color:#876000;">이익 추정 하향 중 -- 싼 이유일 수 있음</span>`;
     }
@@ -9328,6 +9379,12 @@ function marketFairCellHtmlCore(ticker){
       const cheapB = /^저평가/.test(bl), dearB = /^고평가/.test(bl);
       if((cb.judgment === '싸다' && dearB) || (cb.judgment === '비싸다' && cheapB)) tags += `<br><span style="font-size:10px;color:#626b76;">자기 과거 대비로는 ${esc(bl)} -- 기준이 달라요</span>`;
     }
+    if(cb.judgment !== '싸다' && cb.judgment !== '비싸다'){
+      const fw0 = fcfWarn(ticker);
+      if(fw0) tags += `<br><span style="font-size:10px;color:#876000;" title="최근 4분기 잉여현금흐름 ${usdSigned(fw0.fcf)} 적자, 순이익 ${usdSigned(fw0.ni)} 흑자">현금흐름 주의: 순이익 흑자·잉여현금흐름 적자</span>`;
+    }
+    const rcn = fairRuleChangeNote(ticker);
+    if(rcn) tags += `<br><span style="font-size:10px;color:#876000;">${esc(rcn)}</span>`;
     return `<span title="${esc(cb.basis || '')} · 확실성 ${esc(cb.confidence || '—')} · 참고용(예측력 미검증) · 07 적정가 탭에서 근거 확인">${rng}<span style="font-size:11px;color:${c};font-weight:700;">${esc(cb.judgment)}${(cb.judgment === '적정' && use2 && !use1 && a && a.boundary) ? '(경계)' : ''}</span><span class="sub" style="font-size:10px;"> ${(cb.basis || '').includes('너무 넓') ? '(범위 넓음)' : ((cb.basis || '').includes('단독') ? '(' + tag + ' 단독·미검증)' : '(참고)')}</span>${(cb.judgment === '적정' && use2 && !use1 && a && a.boundary) ? '<br><span class="sub" style="font-size:10px;" title="가격이 범위 밖이지만 할인율을 ±1%p만 바꿔도 범위 안이 되는 정도라 적정으로 취급">범위 밖이지만 할인율 ±1%p 여유 안</span>' : ''}${why}${tags}${estMomentumChip(ticker) ? '<br>' + estMomentumChip(ticker) : ''}</span>`;
   }
   const x = marketFairRow(ticker);
@@ -9384,7 +9441,7 @@ function marketFairCombined(ticker){
     {peer: bad1 ? '범위 자료 이상' : null, growth: bad2 ? '범위 자료 이상' : null});
   return cb;
 }
-const FAIR_JUDGE_COLOR = {'싸다':'#1a7f5a', '적정':'#626b76', '비싸다':'#b3261e', '혼재':'#876000', '판단보류':'#876000', '자료부족':'#8a8f96'};
+const FAIR_JUDGE_COLOR = {'싸다':'#1a7f5a', '적정':'#626b76', '비싸다':'#b3261e', '혼재':'#876000', '판단보류':'#876000', '판단보류(범위 넓음)':'#876000', '자료부족':'#8a8f96'};
 // Codex L08-6: 화면을 여는 시점 기준으로 자료가 며칠 묵었는지(생성 중단 시 경고가 멈추지 않게)
 function fairAltAgeDays(){
   const A = (typeof window !== 'undefined') ? window.FAIR_VALUE_ALT : null;
@@ -9438,8 +9495,10 @@ function fairValueSummaryBox(r){
   const col = FAIR_JUDGE_COLOR[cb.judgment] || '#626b76';
   return `<div class="comment-box" style="background:var(--panel-2);margin-bottom:10px;">
     <div class="sub">종합 — 두 가지 계산법을 합친 "지금 가격이 적당한가" (참고용)</div>
-    <div style="font-size:22px;font-weight:800;margin:4px 0;color:${col};">${esc(cb.judgment)} <span class="sub" style="font-size:12px;font-weight:400;">· 확실성 ${esc(cb.confidence || '—')}</span></div>
+    <div style="font-size:22px;font-weight:800;margin:4px 0;color:${col};">${esc(cb.judgment)}${esc(fairJudgeNotes(r.ticker, cb).suffix)} <span class="sub" style="font-size:12px;font-weight:400;">· 확실성 ${esc(cb.confidence || '—')}</span></div>
     <div class="sub">${esc(cb.basis || '')}</div>
+    ${fairJudgeNotes(r.ticker, cb).notes.map(n => `<div class="sub" style="font-size:12px;color:#876000;">${esc(n)}</div>`).join('')}
+    ${fairRuleChangeNote(r.ticker) ? `<div class="sub" style="font-size:12px;color:#876000;">${esc(fairRuleChangeNote(r.ticker))}</div>` : ''}
     <div style="margin-top:4px;font-size:13px;">${fairMethodLines(cb)}</div>
     <div class="sub" style="margin-top:4px;color:#876000;">두 방법이 같으면 그 판정, 반대면 '판단보류', 한쪽만 싸다/비싸다면 '혼재'예요. ①은 과거 비율 흔들림 등급이 '보통'일 때만 판정에 써요(아니면 '보류'로 빼고 ② 단독). 과거 검증에서 이 판단으로 앞으로의 주가를 맞히는 힘은 확인되지 않았어요 — 매수·매도 신호가 아니에요.</div>
   </div>`;
@@ -9468,8 +9527,9 @@ function fairValueAltBox(r){
   if(!marketFairBandOk(x.band)){
     return `<div class="comment-box" style="margin-top:10px;">${head}<div style="margin-top:6px;">자료 형식이 올바르지 않아 표시하지 않아요.</div>${asof2}</div>`;
   }
-  const i = x.inputs || {}, g = i.growth_used || [];
+  const i = x.inputs || {}, g = i.growth_used || [], cr = i.consensus_rev_growth_raw, gr = i.growth_raw;
   const col = FAIR_JUDGE_COLOR[x.label] || '#626b76';
+  const wide2 = String(x.label || '').startsWith('판단보류');
   const own = x.own_history_rate_adjusted || {};
   const ownLine = own.status === 'ok'
     ? `<li>교차확인 — 자기 과거(금리 보정): <b>${esc(own.label)}</b> (이익수익률−실질금리가 과거 ${own.months}개월 중 위치 ${(own.spread_pct * 100).toFixed(0)}% — 0%=가장 비쌈, 판정엔 안 씀)</li>`
@@ -9477,10 +9537,14 @@ function fairValueAltBox(r){
   const caution = (x.caution || []).length ? `<div class="sub" style="margin-top:4px;color:#876000;">주의: ${(x.caution).map(esc).join(' / ')}</div>` : '';
   return `<div class="comment-box" style="margin-top:10px;">
     ${head}
-    <div style="font-size:20px;font-weight:800;margin:6px 0 2px;">${usd(x.band[0])} ~ ${usd(x.band[2])} <span class="sub">(가운데 ${usd(x.band[1])})</span></div>
-    <div>현재가 <b>${usd(x.price)}</b> · <b>${fairPosText(x.price, x.band)}</b> → <b style="color:${col};">${esc(x.label)}</b> · 확실성 ${esc(x.confidence || '—')}</div>
+    <div style="font-size:20px;font-weight:800;margin:6px 0 2px;">${usd(x.band[0])} ~ ${usd(x.band[2])} <span class="sub">(가운데 ${usd(x.band[1])} · 가정 기반 참고 범위, 실제 분위 아님)</span></div>
+    <div>현재가 <b>${usd(x.price)}</b> · <b>${wide2 ? '범위 넓음(위치 판단 안 함)' : fairPosText(x.price, x.band)}</b> → <b style="color:${col};">${esc(x.label)}${x.boundary ? '(경계)' : ''}</b> · 확실성 ${esc(x.confidence || '—')}</div>
+    ${x.boundary ? `<div class="sub" style="color:#876000;">가격이 범위 밖이지만 할인율 ±1%p를 넣으면 범위 안이 되는 정도라 적정으로 취급해요(싸다 기준 ${usd(x.cheap_below)} 미만 · 비싸다 기준 ${usd(x.dear_above)} 초과)</div>` : ''}
+    ${wide2 ? `<div class="sub" style="color:#876000;">범위 상단이 하단의 ${typeof x.band_high_low_ratio === 'number' ? x.band_high_low_ratio.toFixed(2) + '배로' : ''} 2배를 넘어 싸다·비싸다를 판단하지 않아요.</div>` : ''}
     <ul style="margin:6px 0 0 18px;">
-      <li>오늘 가격이 가정하는 성장률 <b>${pc(i.implied_growth)}</b> vs 애널리스트 기대(내년 매출) 낮음 ${pc(g[0], 0)} / 평균 ${pc(g[1], 0)} / 높음 ${pc(g[2], 0)} — 2년차부터 10년차에 3%로 서서히 낮아진다고 가정</li>
+      <li>오늘 가격이 가정하는 성장률 <b>${pc(i.implied_growth)}</b> vs <b>계산에 쓴 성장률</b> 낮음 ${pc(g[0], 0)} / 가운데 ${pc(g[1], 0)} / 높음 ${pc(g[2], 0)} — 2년차부터 10년차에 3%로 서서히 낮아진다고 가정</li>
+      ${Array.isArray(cr) && cr.length === 3 ? `<li class="sub">원 애널리스트 컨센서스(내년 매출 성장, Yahoo) 최저 ${pc(cr[0], 0)} / 평균 ${pc(cr[1], 0)} / 최고 ${pc(cr[2], 0)} → 최소 폭 ±5%p 적용 후 ${(Array.isArray(gr) && gr[1] >= -0.15 && gr[1] <= 0.40) ? '정규분포 가정으로 끝점을 좁힘(최저·최고 1명 대신 대략적인 중간 범위)' : '평균이 −15~40% 밖이라 좁히지 않고 잘라서 씀(가정 시나리오)'} · −15~40%로 자름</li>`
+        : (Array.isArray(gr) && gr.length === 3 ? `<li class="sub">매출 추정이 없어 EPS 성장률 ±10%p로 만든 축소 전 계산 입력 ${pc(gr[0], 0)} / ${pc(gr[1], 0)} / ${pc(gr[2], 0)} (원 컨센서스 범위가 아님)</li>` : '')}
       <li>12개월 선행 EPS ${usd(i.ntm_eps)} · 선행 PER ${typeof i.fwd_pe === 'number' ? i.fwd_pe.toFixed(1) + '배' : '—'} · 영업이익률 ${pc(i.op_margin_ttm, 0)}${typeof i.op_margin_pct_in_own_annual_history === 'number' ? ' (자기 과거 ' + i.own_annual_margin_years + '년 기록 대비 위치 ' + (i.op_margin_pct_in_own_annual_history * 100).toFixed(0) + '%, 100%=최고치 이상)' : ''}</li>
       ${rateStale ? '' : `<li>장기 기준 위험프리미엄(5%)+현재 국채금리로 할인하면 가운데 값 ${usd(x.value_at_long_run_erp)} — 위험프리미엄 5% 가정 시 참고치</li>`}
       ${ownLine}
