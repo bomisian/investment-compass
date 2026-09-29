@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790686395.8840861,
+  "generatedAt": 1790686804.9340718,
   "events": [
     {
       "id": "90bbde23a1609d7a4576",
@@ -923,77 +923,6 @@ const EVENT_DATA = {
         "실제 CAPEX 집행",
         "공급업체 수주·매출",
         "투자 기업 OCF·FCF·부채"
-      ]
-    },
-    {
-      "id": "0cb96c2cd20d387aac48",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "TSLA",
-      "relatedTickers": [
-        "QQQ",
-        "SPY",
-        "TSLA"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "TSLA Stock Slides As Retail Turns Cautious Ahead Of Q3 Deliveries — But Musk’s Terafab Is Moving Fast",
-      "headlineKo": "소매업이 3분기 배송을 앞두고 조심스러워지면서 TSLA 주가가 하락했지만 머스크의 Terafab은 빠르게 움직이고 있습니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c8e2ab8c800cb9ca99f05de4a4ee2dd0be9aa919f0515aea74468ee5089658fe",
-        "publishedAt": 1790653866,
-        "collectedAt": 1790686059.0786128
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "3분기 납품을 앞두고 소매업이 조심스러워지면서 TSLA 주가가 하락했지만 머스크의 Terafab은 빠르게 움직이고 있습니다. AI 에이전트 동향 뉴스 수익 전체 DIA 0.10% SPY 0.10% QQQ 0.16% 추세 KOD 2.13% LKNCY 3.84% QNT 8.61% SMMT 22.74% BCRX 1.40% AKAM 1.1",
-        "3분기 배송을 앞두고 소매업체가 조심스러워지면서 TSLA 주가가 하락했지만 머스크의 테라팹(Terafab)은 빠르게 움직이고 있다 세미애널리시스(SemiAnalytics)는 머스크의 테라팹(Terafab) 현장에 콘크리트가 쏟아지고 있으며 2028년 중반쯤 장비가 입주할 것으로 예상한다고 밝혔다.",
-        "(Getty Images를 통한 Visual China Group의 사진/Getty Images를 통한 Visual China Group) Deepti Sri · Stocktwits 2026년 9월 28일 게시 | 오후 11:51 EDT 공유 · Cantor에 추가 Fitzgerald는 3분기 차량 인도가 합의된 수준보다 낮을 것으로 예상합니다."
-      ],
-      "marketInterpretation": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.10%, 0.16%, 2.13% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "TSLA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "TSLA에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.10%, 0.16%, 2.13% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "TSLA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "TSLA",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "목표주가 산식의 EPS",
-        "적용 PER 변화",
-        "회사 공식 가이던스"
       ]
     },
     {
@@ -18296,6 +18225,74 @@ const EVENT_DATA = {
         "정상화이익과 특이항목",
         "가이던스·OCF·FCF"
       ]
+    },
+    {
+      "id": "455f00c7ec9831d1196b",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "COHR",
+      "relatedTickers": [
+        "COHR"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "neutral",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "What Is Coherent (COHR) Really Betting On With PhotonLink For AI Datacenters?",
+      "headlineKo": "Coherent(COHR)는 AI 데이터센터를 위해 PhotonLink를 통해 실제로 무엇에 투자하고 있습니까?",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c78fc8baa8728bbeebad0e1ee3d2344330519772cc033139f2b6adfbf9e36719",
+        "publishedAt": 1790345407,
+        "collectedAt": 1790686059.0786128
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "What Is Coherent (COHR) Really Betting On With PhotonLink For AI Datacenters?",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+      ],
+      "aiInference": [
+        "이 기사는 COHR의 사업과 관련된 'What Is Coherent (COHR) Really Betting On With PhotonLink For AI Datacenters?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+        "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+      ],
+      "whyItMatters": [
+        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "COHR",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "다음 실적 매출·EPS",
+        "영업현금흐름과 CAPEX",
+        "회사 공식 가이던스",
+        "주가 반응이 하루 이상 지속되는지"
+      ]
     }
   ],
   "byTicker": {
@@ -18537,7 +18534,6 @@ const EVENT_DATA = {
       "b8481e801c3e280ef2d7",
       "db16c1259bff667165c7",
       "d087a2f0c4bb8e45de0e",
-      "0cb96c2cd20d387aac48",
       "c3bfba58cf6cb45a523f",
       "01ce81d9ffe329eda6ee",
       "e54276c77bf5a65fa6b4",
@@ -18670,7 +18666,6 @@ const EVENT_DATA = {
     "QQQ": [
       "b0773e95073e3e8d7c96",
       "d087a2f0c4bb8e45de0e",
-      "0cb96c2cd20d387aac48",
       "c3bfba58cf6cb45a523f",
       "f58b987533f7811cddb5",
       "d598b779de1a497afcda",
@@ -18802,7 +18797,6 @@ const EVENT_DATA = {
       "5271e305757f8005275e"
     ],
     "TSLA": [
-      "0cb96c2cd20d387aac48",
       "e40b941fb47ec0d5be02",
       "7a9c3e7342e212083bd7",
       "5dbba31805f0f0bc453d",
@@ -18955,6 +18949,9 @@ const EVENT_DATA = {
     ],
     "PWR": [
       "504d2772e4c3ee8bb46c"
+    ],
+    "COHR": [
+      "455f00c7ec9831d1196b"
     ]
   }
 };

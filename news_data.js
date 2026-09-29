@@ -3026,7 +3026,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "SPY": {
@@ -6530,7 +6530,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "MSFT": {
@@ -13251,7 +13251,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 155,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "GOOGL": {
@@ -21064,7 +21064,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 178,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "AMZN": {
@@ -28445,7 +28445,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 181,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "META": {
@@ -36008,7 +36008,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "AAPL": {
@@ -43323,7 +43323,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 177,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "TSLA": {
@@ -43458,7 +43458,47 @@ const NEWS_DATA = {
         "relevance": 0.6,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "소매업이 3분기 배송을 앞두고 조심스러워지면서 TSLA 주가가 하락했지만 머스크의 Terafab은 빠르게 움직이고 있습니다."
+        "headlineKo": "소매업이 3분기 배송을 앞두고 조심스러워지면서 TSLA 주가가 하락했지만 머스크의 Terafab은 빠르게 움직이고 있습니다.",
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "소매업이 3분기 배송을 앞두고 조심스러워지면서 TSLA 주가가 하락했지만 머스크의 Terafab은 빠르게 움직이고 있습니다.",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "TSLA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 '소매업이 3분기 배송을 앞두고 조심스러워지면서 TSLA 주가가 하락했지만 머스크의 Terafab은 빠르게 움직이고 있습니다.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "TSLA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.6,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790686803.2769973
+        }
       },
       {
         "headline": "Elon Musk’s Path to Trillionaire Stalls Ahead of Key Tesla and SpaceX Events",
@@ -43606,24 +43646,22 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "medium",
+          "importance": "low",
           "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
+          "certainty": "본문 확인 필요",
+          "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "3분기 납품을 앞두고 소매업이 조심스러워지면서 TSLA 주가가 하락했지만 머스크의 Terafab은 빠르게 움직이고 있습니다. AI 에이전트 동향 뉴스 수익 전체 DIA 0.10% SPY 0.10% QQQ 0.16% 추세 KOD 2.13% LKNCY 3.84% QNT 8.61% SMMT 22.74% BCRX 1.40% AKAM 1.1",
-            "3분기 배송을 앞두고 소매업체가 조심스러워지면서 TSLA 주가가 하락했지만 머스크의 테라팹(Terafab)은 빠르게 움직이고 있다 세미애널리시스(SemiAnalytics)는 머스크의 테라팹(Terafab) 현장에 콘크리트가 쏟아지고 있으며 2028년 중반쯤 장비가 입주할 것으로 예상한다고 밝혔다.",
-            "(Getty Images를 통한 Visual China Group의 사진/Getty Images를 통한 Visual China Group) Deepti Sri · Stocktwits 2026년 9월 28일 게시 | 오후 11:51 EDT 공유 · Cantor에 추가 Fitzgerald는 3분기 차량 인도가 합의된 수준보다 낮을 것으로 예상합니다."
+            "소매업이 3분기 배송을 앞두고 조심스러워지면서 TSLA 주가가 하락했지만 머스크의 Terafab은 빠르게 움직이고 있습니다.",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.10%, 0.16%, 2.13% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "TSLA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -43633,30 +43671,18 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "TSLA에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 '소매업이 3분기 배송을 앞두고 조심스러워지면서 TSLA 주가가 하락했지만 머스크의 Terafab은 빠르게 움직이고 있습니다.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "TSLA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.6,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.10%",
-            "0.16%",
-            "2.13%",
-            "3.84%",
-            "8.61%",
-            "22.74%",
-            "1.40%",
-            "1.16%"
-          ],
-          "sourceExcerpt": [
-            "TSLA Stock Slides As Retail Turns Cautious Ahead Of Q3 Deliveries — But Musk’s Terafab Is Moving Fast AI Agent Trending News Earnings All DIA 0.10% SPY 0.10% QQQ 0.16% Trending KOD 2.13% LKNCY 3.84% QNT 8.61% SMMT 22.74% BCRX 1.40% AKAM 1.1",
-            "TSLA Stock Slides As Retail Turns Cautious Ahead Of Q3 Deliveries — But Musk’s Terafab Is Moving Fast SemiAnalysis said concrete is being poured at Musk’s Terafab site and projected equipment move-in around mid-2028.",
-            "(Photo by Visual China Group via Getty Images/Visual China Group via Getty Images) Deepti Sri · Stocktwits Published Sep 28, 2026 | 11:51 PM EDT Share · Add us on Cantor Fitzgerald expects Q3 vehicle deliveries below a consensus cited in it"
-          ],
-          "analysisUpdatedAt": 1790663079.6658707
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790686803.2769973
         }
       },
       {
@@ -50837,9 +50863,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 184,
-      "removed": 1,
-      "updated": "2026-09-29 21:53"
+      "checked": 183,
+      "removed": 0,
+      "updated": "2026-09-29 22:00"
     }
   },
   "ORCL": {
@@ -57358,7 +57384,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 152,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "CRM": {
@@ -61783,7 +61809,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "PLTR": {
@@ -67920,7 +67946,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "NVDA": {
@@ -75706,7 +75732,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "AMD": {
@@ -82499,7 +82525,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 165,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "AVGO": {
@@ -86936,7 +86962,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "QCOM": {
@@ -90927,7 +90953,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "ARM": {
@@ -94168,7 +94194,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "MRVL": {
@@ -98184,7 +98210,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "INTC": {
@@ -103951,7 +103977,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 138,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "TSM": {
@@ -107224,7 +107250,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "ASML": {
@@ -109381,7 +109407,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "AMAT": {
@@ -111762,7 +111788,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "LRCX": {
@@ -113005,7 +113031,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "KLAC": {
@@ -114172,7 +114198,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "MU": {
@@ -121790,7 +121816,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "SNDK": {
@@ -125927,7 +125953,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "WDC": {
@@ -127909,7 +127935,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "ANET": {
@@ -129797,7 +129823,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "COHR": {
@@ -131548,7 +131574,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "LITE": {
@@ -133186,7 +133212,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "GEV": {
@@ -136369,7 +136395,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "CEG": {
@@ -137942,7 +137968,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "VST": {
@@ -139557,7 +139583,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "ETN": {
@@ -141506,7 +141532,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "PWR": {
@@ -143359,7 +143385,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "HUBB": {
@@ -143991,7 +144017,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "VRT": {
@@ -146262,7 +146288,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "MOD": {
@@ -146944,7 +146970,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "STX": {
@@ -148578,7 +148604,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "EME": {
@@ -149581,7 +149607,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "FIX": {
@@ -150444,7 +150470,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   },
   "BE": {
@@ -152105,7 +152131,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-29 21:53"
+      "updated": "2026-09-29 22:00"
     }
   }
 };
