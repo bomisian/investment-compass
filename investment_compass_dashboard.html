@@ -9820,8 +9820,7 @@ function basePriceBox(r){
       <li class="sub">애널리스트 목표가·최저·최고는 쓰지 않아요(EPS·매출 컨센서스 평균만). 점유율·부채 등 회사 고유의 질은 반영 안 돼요. 예측력 미검증 · 매수·매도 신호 아님.</li>
     </ul>
     <div class="sub" style="margin-top:6px;">컨센서스 ${esc(B.consensus_day || '')} · 생성 ${esc((B.generated_at || '').slice(0, 16))} · 비교 대상 S&P 500 ${B.universe_n || '—'}종목</div>
-  </div>`
-  + simpleCalcHtml(r.ticker, e.live ? e.price : null);
+  </div>`;
 }
 function marketFairCellHtml(ticker){
   // 2026-09-30: 전 종목 '시장 기준가'(126)를 우선 표시. 자료가 없을 때만 기존 두 방법(①·②)으로 폴백.
