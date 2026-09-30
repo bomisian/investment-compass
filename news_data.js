@@ -3777,7 +3777,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "SPY": {
@@ -7771,7 +7771,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "MSFT": {
@@ -15151,7 +15151,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 171,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "GOOGL": {
@@ -23415,7 +23415,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "AMZN": {
@@ -31283,7 +31283,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "META": {
@@ -38868,7 +38868,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "AAPL": {
@@ -46649,7 +46649,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "TSLA": {
@@ -54343,7 +54343,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "ORCL": {
@@ -54720,58 +54720,6 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789747501.089079
-        }
-      },
-      {
-        "headline": "ORCL Stock Layoffs: What to Know About the Latest Oracle Job Cuts",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=20fdcbaa29b82e233a94eb4d06956b3a9509c5c5d7faffb7b7d3e4a6f05e8c11",
-        "datetime": 1789576402,
-        "headlineKo": "ORCL 주식 정리 해고: 최신 Oracle 직원 감축에 대해 알아야 할 사항",
-        "relevance": 1,
-        "keywordFlag": true,
-        "flagTerms": [
-          "layoffs"
-        ],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "실적·재무 부담 확인 필요",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "ORCL Stock Layoffs: What to Know About the Latest Oracle Job Cuts",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "ORCL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 ORCL의 사업과 관련된 'ORCL Stock Layoffs: What to Know About the Latest Oracle Job Cuts' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 비용·CAPEX·영업현금흐름·FCF·부채 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "ORCL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789636814.3280506
         }
       }
     ],
@@ -61469,9 +61417,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 168,
+      "checked": 167,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "CRM": {
@@ -66311,7 +66259,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 108,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "PLTR": {
@@ -73047,7 +72995,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 157,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "NVDA": {
@@ -80763,7 +80711,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "AMD": {
@@ -88146,7 +88094,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 180,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "AVGO": {
@@ -92949,7 +92897,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 95,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "QCOM": {
@@ -97276,7 +97224,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "ARM": {
@@ -100678,7 +100626,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "MRVL": {
@@ -105182,7 +105130,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "INTC": {
@@ -111462,7 +111410,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 148,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "TSM": {
@@ -115032,7 +114980,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "ASML": {
@@ -117474,7 +117422,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "AMAT": {
@@ -120411,7 +120359,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "LRCX": {
@@ -121745,7 +121693,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "KLAC": {
@@ -123134,7 +123082,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "MU": {
@@ -130832,7 +130780,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "SNDK": {
@@ -135564,7 +135512,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 105,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "WDC": {
@@ -137595,7 +137543,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "ANET": {
@@ -139731,7 +139679,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "COHR": {
@@ -141815,7 +141763,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "LITE": {
@@ -143722,7 +143670,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "GEV": {
@@ -147038,7 +146986,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "CEG": {
@@ -148786,7 +148734,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "VST": {
@@ -150504,7 +150452,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "ETN": {
@@ -152453,7 +152401,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "PWR": {
@@ -154388,7 +154336,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "HUBB": {
@@ -154960,7 +154908,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "VRT": {
@@ -157475,7 +157423,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "MOD": {
@@ -158157,7 +158105,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "STX": {
@@ -159926,7 +159874,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "EME": {
@@ -160978,7 +160926,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "FIX": {
@@ -161890,7 +161838,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   },
   "BE": {
@@ -163789,7 +163737,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-01 01:24"
+      "updated": "2026-10-01 01:55"
     }
   }
 };
