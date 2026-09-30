@@ -8160,10 +8160,15 @@ function decisionStatusBadgeHtml(r){
   // [2026-09-22 수정 -- item2: 목록·팝업도 01 탭 헤드라인과 같은 공용 함수(composedDecisionLabel)
   // 를 공유한다] status가 review인데 장기 수익조건이 계산돼 있으면(현재 AMAT) 배지도 "매수 검토"만
   // 단독으로 보여주지 않고 장기 상태를 함께 보여준다 -- 목록만 보고 "매수 검토"로 오해하지 않게.
-  const {label, ltLabel, bg, color} = composedDecisionLabel(r, d, meta.label);
+  let {label, ltLabel, bg, color} = composedDecisionLabel(r, d, meta.label);
+  let _extra = '';
+  if(d.status === 'review' && VALUE_CONFLICT_BADGE){
+    const _vc = valueConflictInfo(r.ticker);
+    if(_vc && _vc.expensive){ label = '기술적 관심 · 가치 상충'; bg = DECISION_STATUS_META.wait.bg; color = DECISION_STATUS_META.wait.color; _extra = ` / 시장 기준가로는 ${_vc.label} ${_vc.gap >= 0 ? '+' : ''}${(_vc.gap * 100).toFixed(0)}% - 가격이 빠진 것과 싸진 것은 별개예요`; }
+  }
   const title = ltLabel
-    ? `${d.headlineReason} / 장기 수익조건: ${ltLabel}(단기 기술적 신호와는 다른 질문이에요)`
-    : d.headlineReason;
+    ? `${d.headlineReason} / 장기 수익조건: ${ltLabel}(단기 기술적 신호와는 다른 질문이에요)${_extra}`
+    : d.headlineReason + _extra;
   return `<span class="badge" style="background:${bg};color:${color};border:1px solid ${color}33;margin-left:4px;" title="${esc(title)}">${esc(label)}</span>`;
 }
 function verdictCautionBadge(r){
@@ -8183,12 +8188,15 @@ function verdictCautionBadge(r){
     const fd = fin ? computeFinancialDirection(r, fin) : null;
     if(fd && fd.verdict === '매출·수익성 동반 둔화') fundamentalMismatch = true;
   }
-  if(!fvWarn && !dataWarn && !fundamentalMismatch) return '';
+  const _vc = (verdictSuggestsBuy && VALUE_CONFLICT_BADGE) ? valueConflictInfo(r.ticker) : null;
+  const valueConflict = !!(_vc && _vc.expensive);
+  if(!fvWarn && !dataWarn && !fundamentalMismatch && !valueConflict) return '';
   const parts = [];
+  if(valueConflict) parts.push(`이 점수는 '가격이 많이 빠졌는지'만 재요. 시장 기준가로는 ${_vc.label} ${_vc.gap >= 0 ? '+' : ''}${(_vc.gap * 100).toFixed(0)}%라 빠졌어도 싸진 건 아닐 수 있어요${_vc.disagree ? ' (다른 계산은 ' + _vc.others.join(' · ') + ' - 계산마다 갈려요)' : ''}`);
   if(fundamentalMismatch) parts.push('이 판단은 가격 지표만 본 점수예요 - 최근 매출·수익성은 오히려 동반 둔화 중이니 실적을 따로 확인하세요');
   if(fvWarn) parts.push('기준가(밸류에이션) 참고사항 있음 - 상세보기에서 확인');
   if(dataWarn) parts.push('가격 데이터 지연·누락 의심 - 상세보기에서 확인');
-  return `<span class="sub" style="color:var(--warn);font-size:11px;margin-left:4px;cursor:help;" title="${esc(parts.join(' · '))} — 이 배지는 판단(장기) 점수(눌림목 강도)와 무관한 별도 참고 정보예요.">⚠️</span>`;
+  return `<span class="sub" style="color:var(--warn);font-size:11px;margin-left:4px;cursor:help;" title="${esc(parts.join(' · '))} — 이 배지는 판단(장기) 점수(눌림목 강도)와 무관한 별도 참고 정보예요.">⚠️${valueConflict ? '<b style="font-size:10px;">가치 상충</b>' : ''}</span>`;
 }
 
 function renderDataHealth(r){
@@ -9585,7 +9593,8 @@ function basePriceEval(ticker){
   const x = basePriceRow(ticker);
   if(!x || x.status !== 'ok' || !(typeof x.base === 'number' && x.base > 0) || !marketFairBandOk(x.band)) return x ? {x, ok:false} : null;
   const rr = (typeof results !== 'undefined' && results) ? results[ticker] : null;
-  const live = (rr && !rr.error && typeof rr.price === 'number' && rr.price > 0) ? rr.price : null;
+  const _pOk = (typeof summaryLivePriceOk === 'function') ? (() => { try { return !!summaryLivePriceOk(rr); } catch(e){ return false; } })() : true;
+  const live = (rr && !rr.error && _pOk && typeof rr.price === 'number' && rr.price > 0) ? rr.price : null;   // 2026-09-30: 가격 자료 품질 불량이면 라이브가 대신 수집일 가격(Codex 126 P1-2)
   const price = live || x.price;
   const gap = price / x.base - 1;
   let label = gap >= 0.35 ? '크게 고평가' : gap >= 0.15 ? '고평가' : gap <= -0.35 ? '크게 저평가' : gap <= -0.15 ? '저평가' : '적정';
@@ -9595,6 +9604,23 @@ function basePriceEval(ticker){
 function basePriceGapOf(ticker){
   const e = basePriceEval(ticker);
   return (e && e.ok) ? e.gap : null;
+}
+// [2026-09-30 신규, 사용자 지적 CEG] 낙폭 점수('강한 매수기회')·가격타당성·시장 기준가가 서로 다른 말을 할 때 숨기지 않고 드러낸다.
+// 판정·점수는 바꾸지 않음. 시장 기준가(126)가 고평가 쪽인데 가격 하락 점수는 매수 쪽이면 '상충'으로 표시하고,
+// 같은 EPS에 업종(GICS 세부업종) PER 중앙값을 곱한 값·다른 두 적정가 계산(100·101)의 판정을 옆에 붙여 '계산마다 갈린다'는 사실을 보여준다.
+const VALUE_CONFLICT_BADGE = true;   // false로 바꾸면 배지 색·문구 변경만 끄고 나머지 표시는 유지
+function valueConflictInfo(ticker){
+  const e = (typeof basePriceEval === 'function') ? basePriceEval(ticker) : null;
+  if(!e || !e.ok) return null;
+  const x1 = marketFairRow(ticker), a = marketFairAltRow(ticker);
+  const peerBase = (x1 && typeof x1.peer_median_pe === 'number' && typeof x1.ntm_eps === 'number' && x1.peer_median_pe > 0 && x1.ntm_eps > 0) ? x1.peer_median_pe * x1.ntm_eps : null;
+  const peerGap = peerBase ? e.price / peerBase - 1 : null;
+  const others = [];
+  if(x1 && x1.status === 'ok' && x1.label) others.push('과거배수(100) ' + x1.label);
+  if(a && a.status === 'ok' && a.label) others.push('성장역산(101) ' + a.label);
+  const expensive = e.label === '고평가' || e.label === '크게 고평가';
+  const disagree = expensive && others.some(t => /적정|중립|저평가|싸다/.test(t));
+  return {label: e.label, gap: e.gap, expensive, peerBase, peerGap, others, disagree};
 }
 function basePriceCellHtml(ticker){
   const e = basePriceEval(ticker);
@@ -9612,6 +9638,12 @@ function basePriceCellHtml(ticker){
   }
   if(x.cycle) tags += `<br><span style="font-size:10px;color:#876000;" title="${esc((x.notes || [])[0] || '')}">사이클 주의(이익 정점엔 PER이 낮은 게 보통)</span>`;
   else if(e.gap >= 1.0) tags += `<br><span style="font-size:10px;color:#626b76;">시장 표준 PER로는 설명 안 됨(먼 미래 성장 기대 반영)</span>`;
+  const vc = valueConflictInfo(ticker);
+  if(vc && vc.expensive){
+    const f2 = v => '$' + v.toFixed(v >= 100 ? 0 : 2);
+    if(vc.peerBase) tags += `<br><span style="font-size:10px;color:#626b76;" title="같은 EPS × 같은 세부업종 PER 중앙값">업종 PER 기준 ${f2(vc.peerBase)} (${vc.peerGap >= 0 ? '+' : ''}${(vc.peerGap * 100).toFixed(0)}%)</span>`;
+    if(vc.disagree) tags += `<br><span style="font-size:10px;color:#876000;" title="${esc(vc.others.join(' · '))}">⚖ 다른 계산과 갈림: ${esc(vc.others.join(' · '))}</span>`;
+  }
   const em2 = estMomentumChip(ticker);
   const tip = `기준가 ${f(x.base)} = 내년(${esc(String(x.fy1_end || ''))}) 예상 EPS $${x.eps1.toFixed(2)} × 기준 PER ${x.base_pe.toFixed(1)}배(내년 매출 성장 예상 ${(x.rev_growth * 100).toFixed(0)}%와 비슷한 S&P 500 ${x.n_neighbors}개 종목의 PER 중앙값) · 시장 범위 ${f(x.band[0])}~${f(x.band[2])} · ${e.live ? '현재가' : '수집일 가격'} ${f(e.price)} · 참고용(예측력 미검증) · 07 탭에서 근거`;
   return `<span title="${tip}">기준가 <b${x.cycle ? ' style="color:#8a8f96;"' : ''}>${f(x.base)}</b>${x.cycle ? '<span class="sub" style="font-size:10px;"> 신뢰 낮음</span>' : ''} <span class="sub" style="font-size:10px;">(${f(x.band[0])}~${f(x.band[2])})</span><br><span style="font-size:11px;color:${c};font-weight:700;">${esc(e.label)} ${g}</span>${tags}${em2 ? '<br>' + em2 : ''}</span>`;
