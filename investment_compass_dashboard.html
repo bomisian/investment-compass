@@ -1428,6 +1428,8 @@ const SIGNAL_STATS = {
   hold: [[10,66.1],[15,67.4],[20,68.5]],  // 보유기간별 승률
   ciLow: 62.8, ciHigh: 69.9,  // 95% 신뢰구간 (n=686). '정확히 66%'가 아니라 이 범위로 읽어야 함
   n: 686,
+  // [초안 2026-09-30] 비교 기준(514종목 재검증): 아무 날 사도 약 58%, 같은 날 타종목 평균 약 60%, 신호 초과수익 ≈ +0.2%p(95%구간에 0 포함)
+  baseAnyDay: 58, basePeers: 60,
 };
 
 // ============ 2026-08-25 타당성 감사 결과 (투자 판단의 근거 자체를 점검) ============
@@ -2788,8 +2790,10 @@ function buildRecentSignalLogHtml(scored, instanceId){
         <span class="sub" style="display:block;margin-top:2px;color:var(--sub);">📌 지금 기준 참고정보(신호 당시 근거 아님): ${it.valBadge}${it.dirBadge}${it.epsFundBadges}</span>
       </span>
       <span class="v" style="text-align:right;white-space:nowrap;">
-        <span style="color:${it.since>=0?'var(--up)':'var(--down)'}">${it.since>=0?'+':''}${it.since.toFixed(1)}%${it.ago>=10?'(현재까지)':''}</span>
-        ${it.sinceAt10!=null ? `<span class="sub" style="display:block;font-size:10px;">10일째 ${it.sinceAt10>=0?'+':''}${it.sinceAt10.toFixed(1)}%</span>` : ''}
+        ${it.sinceAt10!=null
+          ? `<span style="color:${it.sinceAt10>=0?'var(--up)':'var(--down)'};font-weight:600;">10일째 ${it.sinceAt10>=0?'+':''}${it.sinceAt10.toFixed(1)}%</span>
+        <span class="sub" style="display:block;font-size:10px;">현재까지 ${it.since>=0?'+':''}${it.since.toFixed(1)}% (상승장 영향 포함·신호 성적 아님)</span>`
+          : `<span style="color:${it.since>=0?'var(--up)':'var(--down)'}">${it.since>=0?'+':''}${it.since.toFixed(1)}%</span><span class="sub" style="display:block;font-size:10px;">진행 중(10일 미경과)</span>`}
       </span>
     </div>`).join('');
   const moreBtn = filtered.length > visibleCount
@@ -4493,13 +4497,27 @@ function toggleSmartDetail(ticker){
 // 판단은 사용자 몫 -- 점수·매수 권유 없음(111 백테스트: 겹침만으로는 우위 확인 안 됨).
 const SM_PREF_KEY = 'compass_smart_prefs';
 function smPrefs(){
-  const d = {minHolders: 3, scope: 'screen', sig: 'all', showWl: true, view: 'buy', conc: true, minW: 0, fontSize: '12.5'};
+  const d = {minHolders: 3, scope: 'screen', sig: 'all', showWl: true, view: 'buy', conc: true, minW: 0, fontSize: '12.5', mgr: ''};
   try{ return Object.assign(d, JSON.parse(localStorage.getItem(SM_PREF_KEY) || '{}')); }catch(e){ return d; }
 }
 function setSmPref(k, v){
   const p = smPrefs(); p[k] = v;
   try{ localStorage.setItem(SM_PREF_KEY, JSON.stringify(p)); }catch(e){}
   renderSmartMoneyPage();
+}
+// [2026-09-30 사용자 요청] 투자자별 보기: 대표 15명 선택 + 이름 검색(전체 추적 투자자).
+// 15명 = 성과형(공개일 다음 날 복제 3년 성과 SPY 대비 상위·집중 운용) + 영향력형(유명·대형). 성과 순위는 기간마다 뒤바뀌어 다음 성과를 보장하지 않아요.
+const SM_TOP15 = [
+  ['성과형 (최근 3년 복제 성과 상위)', ['cas','slate_path','jericho','whale_rock','atreides','duquesne','appaloosa','oaktree']],
+  ['영향력형 (유명·대형, 성과 보장 아님)', ['berkshire','pershing','greenlight','baupost','elliott','coatue','tiger']],
+];
+function smMgrPick(v){
+  const S = window.SMART_MONEY || {};
+  const q = String(v || '').trim().toLowerCase();
+  if(!q){ setSmPref('mgr', ''); return; }
+  const m = (S.managers || []).find(m => (m.manager + ' — ' + m.firm).toLowerCase() === q)
+    || (S.managers || []).find(m => (m.manager + ' ' + m.firm + ' ' + m.key).toLowerCase().includes(q));
+  setSmPref('mgr', m ? m.key : '');
 }
 function smMoney(v){
   if(typeof v !== 'number' || !isFinite(v)) return '—';
@@ -4636,6 +4654,7 @@ function renderSmartMoneyPage(){
     return;
   }
   const P = smPrefs();
+  const mgrKey = (P.mgr && (S.managers || []).some(m => m.key === P.mgr)) ? P.mgr : '';
   if(![1, 2, 3, 4, 5, 6].includes(Number(P.minHolders))) P.minHolders = 3;  // 103 검증: 저장값이 이상하면 기본값
   if(!['buy', 'sell', 'hold'].includes(P.view)) P.view = 'buy';
   if(![0, 0.01].includes(Number(P.minW))) P.minW = 0; P.minW = Number(P.minW);   // D17: 비중 1% 이상만 세기(선택)
@@ -4682,15 +4701,19 @@ function renderSmartMoneyPage(){
     }
   }
   const rows = all.filter(x => {
+    if(mgrKey && !(x.investors || []).some(i => i.key === mgrKey)) return false;
     const sc = x.screen || {};
     const inScope = P.scope === 'all' ? true : (sc.default_pass || (P.showWl && x.in_watchlist));
-    const enough = vCount(x) >= P.minHolders || (P.showWl && x.in_watchlist);
+    const enough = mgrKey ? true : (vCount(x) >= P.minHolders || (P.showWl && x.in_watchlist));
     const s = x.my_signal || {};
     const sigOk = P.sig === 'all' ? true
       : P.sig === 'now' ? (s.icon === '🟢' || s.icon === '🟠')
       : P.sig === 'recent' ? (typeof s.sessions_since_entry === 'number' && s.sessions_since_entry <= 20) : true;
     return inScope && enough && sigOk;
-  }).sort((a, b) => (vCount(b) - vCount(a)) || (vValue(b) - vValue(a)));
+  }).sort((a, b) => {
+    if(mgrKey){ const wa = ((a.investors || []).find(i => i.key === mgrKey) || {}).w || 0, wb = ((b.investors || []).find(i => i.key === mgrKey) || {}).w || 0; return wb - wa; }
+    return (vCount(b) - vCount(a)) || (vValue(b) - vValue(a));
+  });
   const sel = (k, opts) => `<select onchange="setSmPref('${k}', ${(k === 'minHolders' || k === 'minW') ? 'Number(this.value)' : 'this.value'})">${opts.map(([v, l]) => `<option value="${v}" ${String(P[k]) === String(v) ? 'selected' : ''}>${l}</option>`).join('')}</select>`;
   const catChip = c => c ? `<span class="sub" style="font-size:10px;border:1px solid var(--line);border-radius:8px;padding:0 5px;">${esc(c)}</span>` : '';
   const tr = rows.map(x => {
@@ -4718,7 +4741,7 @@ function renderSmartMoneyPage(){
         <div style="white-space:nowrap;"><span style="color:#1e7b34;font-weight:700;">신규/증가 보유 ${R.n13b}명</span> <span class="sub">·</span> <span style="color:#b3261e;" title="최근 3개월 전량 이탈 ${R.nfull}명 + 보유 감소 ${R.nred}명">감소/이탈 ${R.n13s}명</span></div>
         ${(R.hb.length || R.hs.length) ? `<div style="font-size:11px;white-space:nowrap;" title="의원 거래 공시(하원 매일 자동 + 상원 수동 갱신 ${esc(((window.HOUSE_PTR || {}).senate || {}).collected_at || '없음')}) · 실제 거래, 금액은 구간) — 13F와 별개">🏛 의원 매수 ${R.hb.length} · 매도 ${R.hs.length}${R.hb.filter(b => (hpTrack(b.key) || {}).good).length ? ` <span style="color:#8a5a00;">🏅${R.hb.filter(b => (hpTrack(b.key) || {}).good).length}</span>` : ''}</div>` : ''}
         <div class="sub" style="font-size:10px;">${x.r3m ? '최근 3개월 공개분' : '올해 공개분(3개월 자료 없음)'} · 분기말 보유 변화(실제 거래일·가격 아님)</div></td>
-      <td>${notableHtml}</td>
+      <td>${mgrKey ? (() => { const mi = (x.investors || []).find(i => i.key === mgrKey) || {}; const mc = {'신규':'#1e7b34','추가':'#1e7b34','유지':'inherit','일부매도':'#b3261e','전량매도':'#b3261e'}[mi.action] || 'inherit'; return `<div style="white-space:nowrap;">${esc(smMgrName(mgrKey))}: <b style="color:${mc}">${esc(mi.action || '')}</b></div><div class="sub" style="font-size:10.5px;">${typeof mi.w === 'number' ? '포트 ' + (mi.w * 100).toFixed(2) + '%' : ''}${typeof vmap[mgrKey] === 'number' && vmap[mgrKey] > 0 ? ' · 분기말 ' + smMoney(vmap[mgrKey]) : ''}</div>`; })() : notableHtml}</td>
       <td><div style="${P.view === 'hold' ? 'font-weight:700;' : ''}">${HN(x)}명 보유</div><div class="sub" style="font-size:10.5px;">합산 분기말 ${smMoney(heldVal)}${heldEst ? ` <span title="금액 단위 추정 보정분 — 확정 합계에 안 넣음">+추정 ${smMoney(heldEst)}</span>` : ''}</div><div class="sub" style="font-size:10px;">올해 증가 ${Y(x).n_buyers || 0} · 이탈 ${Y(x).n_sellers || 0}</div></td>
       <td style="font-size:12px;">${s ? `${esc(s.icon || '')} ${esc(s.stage || '')}` : `<span class="sub">${esc(x.my_signal_note || '가격 자료부족')}</span>`}
         <div class="sub" style="font-size:10.5px;white-space:nowrap;">${typeof p.price === 'number' ? '$' + p.price.toFixed(2) : '가격 —'} · 고점대비 ${pc(p.dd52)} · RSI ${typeof p.rsi14 === 'number' ? p.rsi14.toFixed(0) : '—'}</div>
@@ -4743,6 +4766,8 @@ function renderSmartMoneyPage(){
       <b>판단은 직접 — 매수 권유가 아니에요.</b> 여러 유명 투자자가 겹치는 종목을 모아 보여주고, 그중 <b>내 단기 매수 신호</b>(RSI·200일선 규칙) 상태를 붙였어요. ${esc(S.backtest_note || '')}
     </div>
     <div class="row" style="flex-wrap:wrap;gap:8px 14px;margin-top:10px;align-items:center;font-size:13px;">
+      <span title="대표 15명 중에서 고르거나, 오른쪽 검색창에 아무 투자자 이름을 치면 그 사람이 보유한 종목만 보여줘요(보유 비중 큰 순). 13F 분기말 공개 기준이라 지금 들고 있는지는 알 수 없어요.">투자자 <select onchange="setSmPref('mgr', this.value)"><option value="">전체(겹침 보기)</option>${SM_TOP15.map(([g, ks]) => `<optgroup label="${esc(g)}">${ks.filter(k => (S.managers || []).some(m => m.key === k)).map(k => `<option value="${k}" ${mgrKey === k ? 'selected' : ''}>${esc(smMgrName(k))}</option>`).join('')}</optgroup>`).join('')}</select></span>
+      <span>🔍 <input list="smMgrList" placeholder="투자자 이름 검색 (예: Buffett)" style="width:170px;" onchange="smMgrPick(this.value)"><datalist id="smMgrList">${(S.managers || []).map(m => `<option value="${esc(m.manager + ' — ' + m.firm)}"></option>`).join('')}</datalist></span>
       <span>보기 ${sel('view', [['buy', `올해 매수 목록(${esc(S.year_basis || '')}년 공개 13F)`], ['sell', '올해 보고상 전량 이탈 목록'], ['hold', '현재 보유 기준']])}</span>
       <span title="비중 1% 이상만: 그 투자자 포트폴리오(주식)에서 이 종목이 1% 이상인 경우만 인원으로 셈 — 아주 작은 지분이 겹침을 부풀리지 않게">겹침 집계 ${sel('minW', [[0, '보유만 해도 셈'], [0.01, '비중 1% 이상만']])}</span>
       <span title="매수/매도 보기: 최근 3개월 인원(13F+하원의원) · 현재 보유 보기: 보유 인원">최근 3개월 인원 ${sel('minHolders', [[1, '1명 이상'], [2, '2명 이상'], [3, '3명 이상'], [4, '4명 이상'], [5, '5명 이상'], [6, '6명 이상']])}</span>
@@ -4751,6 +4776,9 @@ function renderSmartMoneyPage(){
       <label class="sub" style="cursor:pointer;" title="끄면 Point72·Gotham·Fisher 같은 수백~수천 종목 분산 운용사도 인원에 포함"><input type="checkbox" ${P.conc ? 'checked' : ''} onchange="setSmPref('conc', this.checked)"> 집중 운용만(13F 주식 보유 종목 300개 이하 · ${DIV.size ? `분산형 ${DIV.size}곳 제외` : '지금 패널엔 300개 초과 운용사가 없어 차이 없음'})</label>
       <label class="sub" style="cursor:pointer;"><input type="checkbox" ${P.showWl ? 'checked' : ''} onchange="setSmPref('showWl', this.checked)"> ⭐관심종목은 겹침 인원·대상과 무관하게 보기</label>
       <span class="sub">${rows.length}종목</span>${extraNote}
+    </div>
+    ${mgrKey ? `<div class="comment-box" style="background:var(--panel-2);margin-top:8px;"><b>${esc(smMgrName(mgrKey))}</b> 보유·변동 종목 ${rows.length}개 (현재 '대상' 설정 범위 안, 비중 큰 순) — <a href="javascript:void 0" onclick="setSmPref('mgr','')">전체 보기로</a>. 초록 = 신규·추가, 빨강 = 감소·이탈. 13F 분기말 공개 기준이라 실제 매매일·가격이 아니고 매수 권유도 아니에요.${(mgrKey && P.scope !== 'all') ? ' 소형주·ETF까지 보려면 대상을 「전체」로.' : ''}</div>` : ''}
+    <div style="display:none">
     </div>
     <div class="sub" style="font-size:11px;margin-top:2px;">대형주 기준: 시가총액 ${smMoney((S.screen_rule || {}).cap_min_default)} 이상. 흑자 = 영업이익률 > 0. 적자 성장주 = 적자여도 매출 성장 20%+ 또는 내년 EPS 흑자 추정 또는 EPS 추정 개선(예전 팔란티어·테슬라 같은 경우).</div>
     <div class="sub" style="font-size:11px;margin-top:8px;">표 크기 ${sel('fontSize', [['11', '작게'], ['12.5', '보통'], ['14', '크게']])} · 열 경계(머리글 오른쪽 끝)를 끌어서 너비 조절 · <a href="javascript:void 0" onclick="smResetCols()">열 너비 초기화</a></div>
@@ -8460,7 +8488,7 @@ function renderTradePlan(r){
       <div class="sub" style="margin-top:8px;">검증은 <b>손절 없이 10~20일 보유</b>한 기준이에요. 위 -10%는 손절선이 아니라 "여기까지 빠지면 과거 신호 중 나빴던 8.5%에 해당한다"는 <b>참고선</b>이에요.</div>
     </div>
     <div class="comment-box" style="background:var(--panel-2);color:#4b5157;margin-top:8px;">
-      <b>신호가 떴는데 계속 빠지는 건 정상이에요.</b> 14년치 검증에서 신호 후 10일간 <b>평균 ${SIGNAL_STATS.avgMaxDrop}%까지는 흔히 더 빠졌고</b>, ${SIGNAL_STATS.severeShare}%는 -10%를 넘겨 빠졌어요. 그래도 10일 뒤에 보면 ${SIGNAL_STATS.winRate}%가 플러스였다는 뜻이지, "사자마자 오른다"는 뜻이 아니에요. 미리 알고 들어가야 흔들리지 않아요.
+      <b>신호가 떴는데 계속 빠지는 건 정상이에요.</b> 14년치 검증에서 신호 후 10일간 <b>평균 ${SIGNAL_STATS.avgMaxDrop}%까지는 흔히 더 빠졌고</b>, ${SIGNAL_STATS.severeShare}%는 -10%를 넘겨 빠졌어요. 그래도 10일 뒤에 보면 ${SIGNAL_STATS.winRate}%가 플러스였다는 뜻이지, "사자마자 오른다"는 뜻이 아니에요. 단, 아무 날 사도 약 ${SIGNAL_STATS.baseAnyDay}%, 같은 날 다른 종목 평균 약 ${SIGNAL_STATS.basePeers}%가 플러스였어서 <b>이 신호만의 추가 효과는 작아요</b>. 참고로 신호 종목 중 손실 나는 쪽은 -8~10%에서 한 번 재점검하는 걸 권해요(자동 손절 아님).
     </div>
     ${renderUsageWarning()}
     ${renderSignalDistribution()}`
