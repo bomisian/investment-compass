@@ -9739,39 +9739,6 @@ function basePriceCellHtml(ticker){
   const tip = `기준가 ${f(x.base)} = 내년(${esc(String(x.fy1_end || ''))}) 예상 EPS $${x.eps1.toFixed(2)} × 기준 PER ${x.base_pe.toFixed(1)}배(${x.basis === 'sector' ? '같은 업종·같은 EPS 기준 종목 중 ' : '업종 안 비교군 부족 - 업종 무관 '}내년 매출 성장 예상 ${(x.rev_growth * 100).toFixed(0)}%와 비슷한 ${x.n_neighbors}개 종목의 PER 중앙값) · 시장 범위 ${f(x.band[0])}~${f(x.band[2])} · ${e.live ? '현재가' : '수집일 가격'} ${f(e.price)} · 참고용(예측력 미검증) · 07 탭에서 근거`;
   return `<span title="${tip}">기준가 <b${x.cycle ? ' style="color:#8a8f96;"' : ''}>${f(x.base)}</b>${x.cycle ? '<span class="sub" style="font-size:10px;"> 신뢰 낮음</span>' : ''} <span class="sub" style="font-size:10px;">(${f(x.band[0])}~${f(x.band[2])})</span><br><span style="font-size:11px;color:${c};font-weight:700;">${esc(e.label)} ${g}</span>${tags}${em2 ? '<br>' + em2 : ''}</span>`;
 }
-// [2026-09-30 신규] 간단 계산(127b): 성장률 자동 추정 -> 10년 성장 페이드 적정가 + 역DCF(시장 내재 성장). 판정·배지와 연결하지 않음(예측력 미검증).
-function simpleCalcHtml(ticker, livePrice){
-  const S = (typeof window !== 'undefined') ? window.SIMPLE_CALC : null;
-  const x = S && S.rows ? S.rows[ticker] : null;
-  if(!x || x.status !== 'ok') return '';
-  const f = v => '$' + v.toFixed(v >= 100 ? 0 : 2), pc = v => (v >= 0 ? '+' : '') + (v * 100).toFixed(0) + '%', p1 = v => (v * 100).toFixed(1) + '%';
-  const price = (typeof livePrice === 'number' && livePrice > 0) ? livePrice : x.price;
-  const gap = price / x.fair - 1, dpp = (x.g_implied - x.g0) * 100;
-  const read = Math.abs(dpp) < 3 ? '시장 기대와 내 추정이 비슷' : dpp > 0 ? `시장이 내 추정보다 성장을 <b>${dpp.toFixed(0)}%p</b> 더 기대(가격에 기대가 많이 얹힘)` : `시장이 내 추정보다 성장을 <b>${(-dpp).toFixed(0)}%p</b> 덜 기대(기대가 낮게 반영)`;
-  const wide = S.spread_p10_p90 ? `S&P 500 전체 괴리의 하위 10%~상위 10%가 ${pc(Math.exp(S.spread_p10_p90[0]) - 1)}~${pc(Math.exp(S.spread_p10_p90[1]) - 1)}라서 ±30% 안쪽 차이는 구분이 어려워요.` : '';
-  let head;
-  if(x.cycle){
-    head = `<div><b style="color:#876000;">사이클 종목 — 판정 안 함.</b> 지금 이익은 정점 수준일 수 있어 ‘싸다/비싸다’ 판단을 숨겼어요. 시장 내재 성장 <b>${p1(x.g_implied)}</b>(내 추정 ${p1(x.g0)})는 참고만 하세요.</div>`
-         + (typeof x.norm_fair === 'number' ? `<div style="margin-top:3px;">정규화 참고: 최근 5년 평균 영업이익률(${p1(x.avg_opm5)}) ÷ 지금(${p1(x.ttm_opm)}) = ×${x.norm_factor.toFixed(2)}${x.norm_factor <= 0.201 ? '(하한 적용)' : ''} → 이익을 그만큼 낮춰 터미널 PER 11로 계산하면 <b>${f(x.norm_fair)}</b> (현재가 ${pc(price / x.norm_fair - 1)}). <span class="sub">평균 회귀를 가정한 극단적 시나리오라 지금의 호황이 구조적이면 크게 빗나가요.</span></div>` : '');
-  } else {
-    head = `<div>내 추정 성장(시작 성장률) <b>${p1(x.g0)}</b> → 10년 뒤 4%로 감소 · 모델 참고값 <b>${f(x.fair)}</b> <span class="sub">(성장 ±4%p 민감도 ${f(x.band[0])}~${f(x.band[2])} — 신뢰구간 아님)</span></div>
-    <div>현재가 ${f(price)} = 모델 참고값 대비 <b>${pc(gap)}</b> · 지금 가격이 성립하려면 성장 <b>${p1(x.g_implied)}</b> 필요(시장 내재) → ${read}</div>`
-         + (typeof x.gap_abs === 'number' ? `<div class="sub" style="margin-top:3px;">할인율만 바꾼 민감도(10년 국채 ${p1(S.y10 || 0)} + 4.5%×베타 = ${p1(x.r_abs)}): 참고값 ${f(x.fair_abs)} → 현재가 ${pc(price / x.fair_abs - 1)}. <b>독립 검산이 아니에요</b>(같은 EPS×75%·터미널 PER 16 구조 반복).</div>` : '');
-  }
-  const refs = [];
-  refs.push(`내년 PER ${x.per.toFixed(1)}배`);
-  if(x.peg && !x.cycle) refs.push(`PEG ${x.peg.toFixed(2)}(5년 평균 성장 ${p1(x.g5)} 기준)`);
-  if(typeof x.fcf_yield === 'number') refs.push(`잉여현금흐름 수익률 ${p1(x.fcf_yield)}`);
-  if(typeof x.earn_quality === 'number') refs.push(`이익 품질(잉여현금흐름÷순이익) ${x.earn_quality.toFixed(1)}${x.earn_quality < 0.5 ? ' — 이익 대비 현금이 적음(투자지출 큼)' : ''}`);
-  if(typeof x.sh_chg === 'number') refs.push(`주식 수 연 ${x.sh_chg >= 0 ? '+' : ''}${(x.sh_chg * 100).toFixed(1)}%(3년, ${x.sh_chg <= -0.01 ? '자사주 매입으로 감소' : x.sh_chg >= 0.02 ? '주식 발행으로 증가' : '큰 변화 없음'})`);
-  const fx = x.eps_fix ? '<br><span class="sub">올해 EPS에 일회성 이익이 섞인 것으로 보고 성장률을 매출 성장으로 대체했어요.</span>' : '';
-  return `<div class="chart-label" style="margin-top:8px;">🧪 연구 실험 · 검증 전 — 간단 계산(가격 판정 아님)</div>
-  <div class="comment-box" style="background:var(--panel-2);">
-    ${head}
-    <div class="sub" style="margin-top:4px;">참고: ${refs.join(' · ')} · S&P 500 중 비싼 쪽 ${Math.round(x.pctile * 100)}% 위치${fx}</div>
-    <div class="sub" style="margin-top:4px;">${esc(wide)} EPS의 75%를 현금으로 보고 10년 뒤 모든 종목에 PER 16을 주는 단순 모형이고(실제 잉여현금흐름·투자지출·순부채 미반영), 할인율을 S&P 500 중앙값이 '적정'이 되도록 맞춘 <b>상대 순위</b>예요(시장 전체가 비싼지는 못 말함). 자사주 매입은 컨센서스 EPS에 이미 들어 있어 성장에 더하지 않았어요. Codex 검토(2026-09-30)로 대표 가격판정에서 제외·공개 배포 보류. 예측력 미검증 · 매수·매도 신호 아님. 컨센서스 ${esc(S.consensus_day || '')}</div>
-  </div>`;
-}
 function basePriceBox(r){
   const B = (typeof window !== 'undefined') ? window.BASE_PRICE : null;
   const e = basePriceEval(r.ticker);
