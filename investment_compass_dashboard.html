@@ -5046,7 +5046,7 @@ function tabJudgement(r){
         ${techViewOpen ? '▲ 단타 신호 상세 닫기' : '▼ 단타 신호 상세 보기 (진입판단·RSI·MACD·과거 신호)'}
       </div>
     </div>
-    <div id="techSection">${techViewOpen ? renderOverlapNote(r) + renderTradePlan(r) + renderSignalHistory(r) + renderGptSignalComparison() + renderTechSection(r) : ''}</div>
+    <div id="techSection">${techViewOpen ? renderOverlapNote(r) + renderPriceStructure(r) + renderTradePlan(r) + renderSignalHistory(r) + renderGptSignalComparison() + renderTechSection(r) : ''}</div>
 
     <details style="margin-top:16px;"><summary style="cursor:pointer;font-weight:600;padding:6px 0;">▸ 계산 방법과 다른 가격 시나리오</summary>
       <div style="margin-top:8px;">
@@ -8397,6 +8397,44 @@ function renderRelStrength(r){
     <br><span class="sub">계산 기준: <b>동일가중</b>(시가총액 가중 아님) · 이 종목 자신도 바스켓에 <b>포함</b> · <b>배당 미반영</b>(가격만) · <b>시장(SPY) 대비 조정 없음</b>. 그룹 구성(${rs.members}종목): ${rs.tickers.map(esc).join(', ')}</span>
     ${extraLine}
     <br><span class="sub">🕐 <b>${asOfDate?esc(asOfDate):'-'} 종가 기준으로 방금 계산된 값</b>이에요 - 저장된 캐시가 아니라 조회할 때마다 그 시점 가격으로 다시 계산돼요. 그래서 날짜가 바뀌거나 다시 스캔하면 이 숫자도 자동으로 바뀌어요(직접 수정할 필요 없음).</span>
+  </div>`;
+}
+
+// ---- 현재 가격 구조 (2026-09-30 추가, Codex 방향상태 감사 + 514종목 재검증 반영) ----
+// 현재 상태를 보여주는 라벨일 뿐 '앞으로의 방향 예측'이 아님. 검증: 구조별 20일 뒤 결과가 같은 날 타종목 평균 대비 거의 0
+// (상승 -0.07%p / 중립 -0.06%p / 하락 +0.40%p, 하락 구조가 오히려 잘 반등). 그래서 향후 방향 확률은 검증 통과 전까지 '미확인'으로 고정.
+function renderPriceStructure(r){
+  const c = r && r.series && r.series.closes;
+  if(!c || c.length < 225) return '';
+  const n = c.length - 1, m50 = sma(c, 50), m200 = sma(c, 200);
+  if(m50[n]==null || m200[n]==null || m200[n-20]==null) return '';
+  const px = c[n], f = v => '$' + v.toFixed(v >= 100 ? 0 : 2);
+  const up = px > m50[n] && m50[n] > m200[n] && m200[n] > m200[n-20];
+  const dn = px < m50[n] && m50[n] < m200[n] && m200[n] < m200[n-20];
+  let crossAgo = null, crossDir = null;
+  for(let k = 0; k < 10 && n-k-1 >= 0; k++){
+    const i = n-k;
+    if(m50[i]==null || m50[i-1]==null) break;
+    const a = c[i] > m50[i], b = c[i-1] > m50[i-1];
+    if(a !== b){ crossAgo = k; crossDir = a ? 'up' : 'down'; break; }
+  }
+  let label, note, inval;
+  if(up){ label = '상승 구조'; note = '주가 &gt; 50일선 &gt; 200일선, 200일선 상승';
+    inval = `종가가 50일선(${f(m50[n])}) 아래로 내려가면 구조 약화, 200일선(${f(m200[n])}) 아래면 구조 붕괴`; }
+  else if(dn){ label = '하락 구조'; note = '주가 &lt; 50일선 &lt; 200일선, 200일선 하락';
+    inval = `종가가 50일선(${f(m50[n])}) 위로 회복하면 하락 구조 완화, 200일선(${f(m200[n])}) 위면 해소`; }
+  else if(crossAgo != null){ label = '전환 구간'; note = crossDir === 'up' ? '최근 10거래일 안에 50일선을 위로 넘었어요(아직 상승 구조는 아님)' : '최근 10거래일 안에 50일선 아래로 내려왔어요(아직 하락 구조는 아님)';
+    inval = `50일선 ${f(m50[n])} · 200일선 ${f(m200[n])} 기준으로 다시 어느 쪽에 안착하는지 확인`; }
+  else { label = '중립'; note = '상승·하락 구조 조건을 모두 충족하지 않음';
+    inval = `50일선 ${f(m50[n])} · 200일선 ${f(m200[n])} 위치 변화 확인`; }
+  const short = crossAgo == null ? '없음' : (crossDir === 'up' ? `50일선 상향 돌파 (${crossAgo === 0 ? '오늘' : crossAgo + '거래일 전'})` : `50일선 하향 이탈 (${crossAgo === 0 ? '오늘' : crossAgo + '거래일 전'})`);
+  return `<div class="comment-box" style="background:var(--panel-2);color:var(--text,inherit);margin-top:10px;">
+    <div style="font-weight:700;margin-bottom:4px;">📐 현재 가격 구조 <span class="sub" style="font-weight:400;">(참고용 · 매수·매도 신호 아님)</span></div>
+    <div class="fund-row"><span>현재 가격 구조</span><span class="v"><b>${label}</b> <span class="sub" style="font-size:10.5px;">${note}</span></span></div>
+    <div class="fund-row"><span>단기 전환</span><span class="v">${short}</span></div>
+    <div class="fund-row"><span>향후 10일 방향</span><span class="v">방향 우위 미확인</span></div>
+    <div class="fund-row"><span>무효화 기준</span><span class="v" style="text-align:right;">${inval}</span></div>
+    <div class="sub" style="font-size:10.5px;margin-top:6px;">과거 514종목·20거래일 검증에서 상승 구조 56%·중립 58%·하락 구조 61%가 올랐고, 같은 날 다른 종목 평균과의 차이는 거의 0(-0.1~+0.4%p)이었어요. 하락 구조가 오히려 잘 반등했으니 <b>"구조가 좋으니 오른다/나쁘니 빠진다"로 읽으면 안 돼요.</b> 향후 방향 확률은 검증을 통과하기 전까지 표시하지 않아요.</div>
   </div>`;
 }
 
