@@ -2141,6 +2141,26 @@ const BUSINESS_NOTES = {
     newsLog: [
       {
         date: "2026-09-30",
+        headline: "마이크론 Q4 FY2026 실적 발표 - 매출·순이익 모두 예상치 상회, AI 데이터센터 수요로 수익률 최고 갱신, Q1 가이던스도 강력",
+        tone: "positive",
+        importance: "high",
+        horizon: "단기(AI 메모리 수급 및 가격 프리미엄 지속성)~중기(HBM 맞춤형 칩 출시 타이밍과 경쟁사 추격)",
+        facts: ["Q4 FY2026(2026-09-30) 매출 $54.23B (예상 $51.07B, +6.4% 초과달성), GAAP EPS $33.42 (예상 $31.61, +5.7% 초과달성)", "그로스마진 87% (예상 86%, +1%p 우수)", "데이터센터 DRAM 매출 $39.8B (+343% YoY), 전체 매출의 73% 차지", "데이터센터 SSD 매출 $10B 이상 (전년 대비 10배 이상 증가)", "Q1 FY2027 가이던스: 매출 $61.5B ± $1.5B (예상 $57.0B, +8.1% 상향), EPS $38.15 ± $1.00 (예상 $35.14, +8.6% 상향)", "회계연도 2026 전체: 매출 $133.19B (+256% YoY), DRAM 매출 $100B 초과 달성", "CEO Sanjay Mehrotra: NVIDIA와 협력해 업계 최초 맞춤형 HBM(High-Bandwidth Memory) 구현 진행 중"],
+        why: ["AI 인프라 수급 불일치 시장에서 유일한 미국 HBM 제조사인 마이크론의 지배력이 Q4 실적으로 확정됐다 - 데이터센터 DRAM과 SSD 매출이 각각 343%, 1000%+ 급증한 것은 단순 수요 강화가 아니라 NVIDIA, Meta 등 AI 빅테크의 '마이크론 필수 의존'을 보여주는 증거다.", "그로스마진 87%는 마이크론 역사상 최고 수준으로, AI 메모리 가격 프리미엄이 실현된 증거 - 일반 DRAM 대비 HBM의 판매가가 최소 3~5배이고, 공급 병목 상황에서 더 올라갈 여지가 있다는 점이 중기 수익성의 위험 요소(수급 정상화 시 가격 하락)이자 기회(현재로선 마진 최대화 국면).", "Q1 가이던스가 전 분기 대비 13% 상향된 것은 '시즌성이 아닌 추세 가속'을 시사한다 - AI 데이터센터 확충 주기가 가을~겨울로 이어지고 있고, 마이크론은 거의 유일한 HBM 공급처라 가격 인상력이 지속될 가능성이 크다.", "다만 Q2~Q3 NVDA 등 경쟁사도 HBM 개발을 완성하거나 대량 공급을 시작할 시점이라, 현재의 마이크론 독점적 지위는 2027년 중반부터 약화될 전망 - 이 기간(Q1 FY27 ~ Q2 FY27)이 '마이크론의 황금기'다."],
+        beginner: ["마이크론은 '메모리 칩'을 만드는 회사예요 - 컴퓨터나 데이터센터(큰 서버실)에서 일시적으로 정보를 저장하는 곳이죠.", "요즘 AI 학습에는 엄청 빠른 메모리가 필요한데, 마이크론이 그걸 만드는 거의 유일한 미국 회사예요. 그래서 NVIDIA(AI 칩) 같은 큰 회사들이 마이크론 제품을 꼭 사야 하는 상황이 됐어요.", "어제(9/30) 마이크론이 지난 3개월 실적을 발표했는데, 예상보다 훨씬 잘 나왔어요 - 매출은 6%, 이익은 6% 더 많이 벌었고, '어느 정도 남기냐'를 보여주는 지표(수익률)도 87%로 역대 최고를 기록했어요.", "다음 분기(내달부터 3개월) 예상도 아주 좋다고 회사가 밝혔어요. 매출을 8% 더 크게 전망했고, 이익도 8% 더 많이 벌 거라고 예상했거든요.", "다만 주의할 점은, 마이크론의 현재 이런 '좋은 상황'은 다른 회사들이 같은 제품을 못 만들어서라는 거예요. 내년 중반쯤 되면 경쟁사들도 따라 만들 수 있게 될 것 같아서, 그때까지가 '마이크론이 가장 잘할 시간'이라고 볼 수 있어요."],
+        watch: ["Q1 FY2027 실제 실적이 $61.5B 가이던스와 일치하는지 (가이던스 달성률)", "NVIDIA, AMD, Intel 등 반도체사들의 HBM 개발 진도 및 양산 일정", "마이크론의 현재 HBM 공급 가격 변화 추이 (프리미엄 지속 여부)", "경쟁사 HBM 출시 이후 마이크론의 시장점유율 및 가격 인하 폭", "AI 데이터센터 자본지출(capex) 계획 변화 - 특히 Meta, Microsoft의 2027년 전망"],
+        interpretation: "마이크론의 Q4 실적은 단순 '좋은 실적'이 아니라 'AI 인프라 투자 사이클의 정점 근처에서 현재 마이크론이 독점 공급자'라는 뜻이다. 매출의 73%가 데이터센터 DRAM이고, 그 중 HBM 비중이 지속 확대되는 상황에서 마이크론은 기술적·공급적 우위를 극대화하는 중이다. 다만 이 우위는 임시적이다 - 경쟁사 HBM이 2027년 중반 출시되면 가격 경합이 심해질 것이 예정된 상황이다. 따라서 현재의 높은 마진(87%)과 Q1 강한 가이던스는 '황금기가 지속되기까지의 기간'을 계획하는 데 중요한 신호다.",
+        decision: "마이크론은 현재 AI 인프라 투자 사이클의 수혜주이며, Q1 가이던스 달성 확률이 높다. 다만 중기(2027년 하반기)로는 경쟁사 추격이 가격을 낮출 것이 거의 확실하므로, '지금 사는 것'은 장기 보유보다는 6~12개월 수익 사이클을 염두에 두는 것이 현명하다. 투자 나침반의 '낙폭 점수'가 높은 시점(큰 폭 조정)일 때는 MU를 추가 진입 기회로 고려할 가치가 있다.",
+        confidence: "Q4 실적 수치(매출 $54.23B, EPS $33.42, 마진 87%)와 Q1 가이던스는 마이크론 공식 IR 릴리즈(SEC 8-K)와 CNBC, Yahoo Finance, Benzinga 등 복수 1차 매체가 일치해 신뢰도 높음. CEO 발언 중 '맞춤형 HBM 구현'은 NVIDIA와의 협력이라는 언급이 여러 매체에서 재확인돼 신뢰도 높다. 다만 경쟁사 HBM 출시 일정과 실제 가격 하락 시나리오는 애널리스트 전망(forecast)이라 확실성이 떨어진다.",
+        sources: [
+          { title: "Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold (CNBC)", url: "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html" },
+          { title: "Micron Technology (MU) Shares Rise After Q4 Earnings Beat Wall Street Estimates (GuruFocus)", url: "https://www.gurufocus.com/news/9104131/micron-technology-mu-shares-rise-after-q4-earnings-beat-wall-street-estimates" },
+          { title: "Micron Delivers Q4 Double Beat, Sees 'Even Stronger' Year Ahead (Benzinga)", url: "https://www.benzinga.com/markets/earnings/26/09/62093596/micron-delivers-q4-double-beat-sees-even-stronger-year-ahead" },
+          { title: "Micron Technology Q4 2026 Earnings - MarketBeat", url: "https://www.marketbeat.com/earnings/reports/2026-9-30-micron-technology-inc-stock/" },
+        ],
+      },
+      {
+        date: "2026-09-30",
         headline: "Micron(MU) FY2026 4분기 '역대 최대' 실적 - 매출 $54.2B(+379% YoY)·비GAAP EPS $33.42 어닝비트, Q1 가이던스도 컨센서스 상회했지만 시간외 주가는 +0.3%에 그쳐",
         tone: "mixed",
         importance: "high",
