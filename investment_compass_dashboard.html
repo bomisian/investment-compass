@@ -437,7 +437,7 @@
     <div id="smartBody"><div class="sub">자료(smart_money_data.js)를 불러오는 중이거나 아직 없어요.</div></div>
   </div>
   <div class="card" id="housePtrCard" style="display:none;">
-    <h2>🏛 미국 의원 주식거래 공시 <span style="font-weight:400;font-size:12px;color:var(--sub);">(하원 매일 자동 · 상원 주 1회 수동 · 낸시 펠로시 등 · 하원 사무처 PTR · 13F와 별개)</span></h2>
+    <h2>🏛 미국 의원 주식거래 공시 — 참고 목록 <span style="font-weight:400;font-size:12px;color:var(--sub);">(하원 매일 자동 · 상원 수집 중단(접근 가능 여부 재검토 알림만) · 13F·Smart Money와 별개, 매수 신호 아님)</span></h2>
     <div id="housePtrBody"><div class="sub">자료(house_ptr_data.js)가 없어요.</div></div>
   </div>
   </div><!-- /pageSmart -->
@@ -4363,11 +4363,9 @@ function smartDetailHtml(x){
       <div style="font-size:12.5px;margin-top:4px;">최근 변동 공개 최신일 <b>${esc(allPub[allPub.length - 1] || '—')}</b> · 현재 보유 투자자 <b>${hN}명</b></div>
       <div style="font-size:12.5px;"><span style="color:#1e7b34;font-weight:700;">신규/증가 ${rB.length}명</span>: ${top3(rB)}${rB.length > 3 ? ` 외 ${rB.length - 3}명` : ''}</div>
       <div style="font-size:12.5px;"><span style="color:#b3261e;font-weight:700;">감소/이탈 ${rS.length + rR.length}명</span>: ${top3(rR.concat(rS))}${rS.length + rR.length > 3 ? ` 외 ${rS.length + rR.length - 3}명` : ''}</div>
-      ${(() => { const h = hpR3(x.ticker); const li = a => a.map(d => esc(hpName(d.key)) + hpTrackBadge(d.key) + (d.opt ? ' <span class="sub">(옵션)</span>' : '')).join(' · ');
-        return ((h.buyers || []).length || (h.sellers || []).length) ? `<div style="font-size:12.5px;">🏛 의원 <span style="color:#1e7b34;">매수 ${(h.buyers || []).length}</span>${(h.buyers || []).length ? ': ' + li(h.buyers) : ''} · <span style="color:#b3261e;">매도 ${(h.sellers || []).length}</span>${(h.sellers || []).length ? ': ' + li(h.sellers) : ''} <span class="sub">(실제 거래 공시·금액은 구간)</span></div>` : ''; })()}
       <div class="sub" style="font-size:11px;margin-top:4px;">읽는 순서: 공개일이 충분히 최근인가 → 신규·증가가 있는가 → 비중·규모 큰 운용자인가 → 여러 운용자 방향이 같은가 → 실적·밸류에이션과 모순 없는가. 매수 판단이 아니라 추가 조사 우선순위용.</div>
     </div>`;
-  const recRow = (d, act, col) => `<tr><td>${esc(d.manager || smMgrName(d.key))}${smTrackBadge(d.key)}</td><td style="color:${col};">${act}</td><td style="text-align:right;">${d.value_usd ? smMoney(d.value_usd) : '—'}</td><td style="text-align:right;">${wtxt(d)}</td><td>${esc(lastPub(d) || '—')}</td></tr>`;
+  const recRow = (d, act, col) => `<tr><td>${esc(d.manager || smMgrName(d.key))}</td><td style="color:${col};">${act}</td><td style="text-align:right;">${d.value_usd ? smMoney(d.value_usd) : '—'}</td><td style="text-align:right;">${wtxt(d)}</td><td>${esc(lastPub(d) || '—')}</td></tr>`;
   const recent = `<div style="font-weight:700;font-size:12.5px;margin-top:4px;">최근 3개월 변동 (비중 큰 순)</div>
     <div style="overflow-x:auto;"><table style="width:100%;font-size:12px;"><thead><tr><th>투자자</th><th>변화</th><th>분기말 보유액</th><th>포트 비중</th><th>공개일</th></tr></thead><tbody>
       ${byW(rB).map(d => recRow(d, (d.buys || []).some(e => e.action === '신규') ? '🆕 신규' : '⬆ 증가', '#1e7b34')).join('')}
@@ -4378,11 +4376,6 @@ function smartDetailHtml(x){
   return summary + recent + `
         <details style="margin-top:10px;"><summary style="cursor:pointer;font-weight:600;">전체 이력·원자료 보기 (올해 전체·최신 분기 보유 표·분기별 현황)</summary>
         <div class="sub" style="margin-bottom:4px;">13F는 분기말 보유를 최대 45일 뒤 공개해요 — <b>지금도 같은 포지션인지는 알 수 없어요</b>. 보유 변화는 '두 분기말 사이'에 관측된 것일 뿐, 실제 매매일·대금은 알 수 없어요.</div>
-        ${(() => { const h = hpR3(x.ticker); if(!(h.buyers || []).length && !(h.sellers || []).length) return '';
-          const li = a => a.map(d => `${esc(hpName(d.key))}${hpTrackBadge(d.key)} <span class="sub">(${esc(d.d || '')} 공시${d.opt ? ' · 옵션만' : ''})</span>`).join(' · ') || '없음';
-          return `<div style="font-weight:700;font-size:12.5px;margin-top:6px;">🏛 하원의원 최근 3개월 <span class="sub" style="font-weight:400;">(본인·배우자 계좌 PTR, 금액은 구간만 공개 · 13F와 별개 자료 · 인원엔 옵션 거래도 포함, 🏅 성적은 주식만)</span></div>
-            <div style="font-size:12px;"><span style="color:#1e7b34;">매수 ${(h.buyers || []).length}명</span>: ${li(h.buyers || [])}</div>
-            <div style="font-size:12px;"><span style="color:#b3261e;">매도 ${(h.sellers || []).length}명</span>: ${li(h.sellers || [])}</div>`; })()}
         ${smYearHtml(Object.assign({}, x, {year: Y(x)}), S)}
         <div style="font-weight:700;font-size:12.5px;margin-top:10px;">최신 분기 보유 현황 (분기말 보유평가액 순)</div>
         <div style="overflow-x:auto;"><table style="width:100%;font-size:12px;"><thead><tr><th>투자자</th><th>행동</th><th>분기말 보유액</th><th>보유 주식</th><th>직전 분기 대비</th><th>포트 비중</th><th>기간</th><th>공개일</th></tr></thead><tbody>${buyers || '<tr><td colspan="8" class="sub">없음</td></tr>'}</tbody></table></div>
@@ -4396,35 +4389,7 @@ function smartDetailHtml(x){
 `;
 }
 // 2026-09-30 사용자 요청: 투자자를 모르니 '과거 성과 좋은 사람' 표식. 114 순위(13F 복제 3년 CAGR − SPY, 적격 354명 중 상위 100) -- 과거 성과일 뿐
-function smTrack(key){
-  const T = (window.SMART_MONEY || {}).track || {};
-  return T[key] || null;
-}
-// 2026-09-30 사용자 요청: 13F 말고 하원의원(펠로시 등)도 최근 3개월 매수·매도 인원에 포함, 성적 좋은 의원 🏅
-function hpR3(tk){
-  const H = window.HOUSE_PTR;
-  const o = H && H.by_ticker && H.by_ticker[tk];
-  return (o && o.r3m) ? o.r3m : {buyers: [], sellers: []};
-}
-function hpTrack(mk){
-  const H = window.HOUSE_PTR;
-  return (H && H.member_track) ? H.member_track[mk] || null : null;
-}
-function hpName(mk){
-  const H = window.HOUSE_PTR;
-  return (H && H.member_names && H.member_names[mk]) || mk || '';
-}
-function hpTrackBadge(mk){
-  const x = hpTrack(mk);
-  if(!x || !x.good) return '';
-  return ` <span style="font-size:10px;color:#8a5a00;background:#fff4d6;border-radius:6px;padding:0 4px;white-space:nowrap;" title="과거 주식 매수 ${x.n}건(공시 다음 날 매수·약 6개월 보유 가정) 중 SPY를 이긴 비율 ${(x.win * 100).toFixed(0)}%, 평균 초과 ${(x.mean_excess * 100 >= 0 ? '+' : '') + (x.mean_excess * 100).toFixed(1)}%p · 과거 성적일 뿐(우리 검증상 의원 매수 전체는 SPY 대비 우위 없음)">🏅승률 ${(x.win * 100).toFixed(0)}%</span>`;
-}
-function smTrackBadge(key){
-  const x = smTrack(key);
-  if(!x) return '';
-  const ex = typeof x.excess_cagr === 'number' ? (x.excess_cagr >= 0 ? '+' : '') + (x.excess_cagr * 100).toFixed(0) + '%p' : '';
-  return ` <span style="font-size:10px;color:#8a5a00;background:#fff4d6;border-radius:6px;padding:0 4px;white-space:nowrap;" title="공개일 다음 날부터 13F 보유를 따라 샀다고 가정한 3년 성과(${esc((x.window || []).join('~'))})가 SPY보다 연 ${ex} 좋았음 · 적격 ${x.n_eligible || '?'}명 중 ${x.rank}위(${esc(x.as_of || '')}) · 과거 성과일 뿐, 다음 해에도 낫다는 증거는 없었음(111·114 검증)">🏅${x.rank}위 ${ex}</span>`;
-}
+// 2026-10-01: 투자자·의원의 과거 성과 표식은 삭제함 -- 성과 순위는 지속성 증거가 없어 표시하지 않음.
 function smMgrName(key){
   const S = window.SMART_MONEY || {};
   if(!S.__mgrMap) S.__mgrMap = Object.fromEntries((S.managers || []).map(m => [m.key, m.manager]));
@@ -4512,10 +4477,9 @@ function setSmPref(k, v){
   renderSmartMoneyPage();
 }
 // [2026-09-30 사용자 요청] 투자자별 보기: 대표 15명 선택 + 이름 검색(전체 추적 투자자).
-// 15명 = 성과형(공개일 다음 날 복제 3년 성과 SPY 대비 상위·집중 운용) + 영향력형(유명·대형). 성과 순위는 기간마다 뒤바뀌어 다음 성과를 보장하지 않아요.
+// 2026-10-01: 투자자 그룹 구분과 과거 성과 문구 제거(지속성 증거 없음). 한 목록, 이름(영문 키)순 -- 성과 순서 아님.
 const SM_TOP15 = [
-  ['성과형 (최근 3년 복제 성과 상위)', ['cas','slate_path','jericho','whale_rock','atreides','duquesne','appaloosa','oaktree']],
-  ['영향력형 (유명·대형, 성과 보장 아님)', ['berkshire','pershing','greenlight','baupost','elliott','coatue','tiger']],
+  ['대표 운용자 15명 (유명·대형·집중 운용 — 성과 보장 아님, 순서는 이름순)', ['appaloosa','atreides','baupost','berkshire','cas','coatue','duquesne','elliott','greenlight','jericho','oaktree','pershing','slate_path','tiger','whale_rock']],
 ];
 function smMgrPick(v){
   const S = window.SMART_MONEY || {};
@@ -4537,7 +4501,7 @@ function smYearHtml(x, S){
   if(!y) return '';
   const q = rd => { const m = /^(\d{4})-(\d{2})/.exec(rd || ''); return m ? `${m[1]}Q${Math.ceil(Number(m[2]) / 3)}` : esc(rd || ''); };
   const iv = e => smInterval(e.prev_report_date, e.report_date);
-  const buys = (y.buyers || []).map(b => `<tr><td>${esc(b.manager || '')}${smTrackBadge(b.key)}</td>
+  const buys = (y.buyers || []).map(b => `<tr><td>${esc(b.manager || '')}</td>
       <td>${(b.buys || []).map(e => `${esc(SM_ACT[e.action] || '')}${q(e.report_date)} ${e.action === '신규' ? '신규 보유' : '보유 증가'} ${e.shares_change > 0 ? '+' + smShares(e.shares_change) : ''}${iv(e)} <span class="sub">· 공개일 ${esc(e.public_since || '')}</span>`).join('<br>')}</td>
       <td style="text-align:right;">${smShares(b.shares)}</td><td style="text-align:right;">${smMoney(b.value_usd)}</td>
       <td>${(b.partial_sells || []).length ? `⬇ 감소 ${(b.partial_sells || []).map(s => q(s.report_date)).join(', ')}` : '—'}${(b.full_sells || []).length ? `<div class="sub" style="font-size:10.5px;">중간 전량 이탈 ${(b.full_sells || []).map(s => q(s.report_date)).join(', ')} 후 재진입</div>` : ''}${b.amended ? '<div class="sub" style="font-size:10.5px;">정정공시 반영</div>' : ''}</td></tr>`).join('');
@@ -4549,7 +4513,7 @@ function smYearHtml(x, S){
     <div style="overflow-x:auto;"><table style="width:100%;font-size:12px;"><thead><tr><th>투자자</th><th>보유 0이 된 분기</th><th>직전 보고 주식(이탈 추정분)</th><th>공개일</th><th>비고</th></tr></thead><tbody>${sells || '<tr><td colspan="5" class="sub">없음</td></tr>'}</tbody></table></div>
     ${(y.n_reduced || 0) ? `<div class="sub" style="font-size:11px;margin-top:4px;">올해 늘리지 않고 줄이기만(매수 인원에 안 셈): ${(y.reduced || []).map(h => esc(h.manager || '') + ' ' + smMoney(h.value_usd)).join(' · ')}</div>` : ''}
     ${(y.n_holders_only || 0) ? `<div class="sub" style="font-size:11px;margin-top:4px;">올해 사고팔지 않고 보유만: ${(y.holders_only || []).map(h => esc(h.manager || '') + ' ' + smMoney(h.value_usd) + (h.tiny ? ` <span style="color:#876000;" title="${esc(h.tiny_note || '')}">(올해 샀지만 100만 달러 미만 소량 — 매수 인원에 안 셈)</span>` : '')).join(' · ')}</div>` : ''}
-    <div class="sub" style="font-size:10.5px;margin-top:4px;">🏅 = 13F를 따라 샀다고 가정한 과거 3년 성과가 SPY보다 좋았던 투자자(적격 투자자 중 상위 100 안). 과거 성과일 뿐 — 우리 검증에서 상위권이 다음 해에도 더 잘한다는 증거는 없었어요. 평가액 100만 달러 미만 소량 매수는 매수 인원에서 빼요.</div>`;
+    <div class="sub" style="font-size:10.5px;margin-top:4px;">평가액 100만 달러 미만 소량 보유 증가는 인원에서 빼요.</div>`;
 }
 // 두 보고기준일이 연속 분기가 아니면(빈 보고서·미제출 분기를 건너뜀) 다분기 변화로 표시(Codex L10-12)
 function smInterval(prev, rd){
@@ -4570,7 +4534,7 @@ function smYearOffList(S, P, DIV){
   if(!items.length) return '';
   const qq = rd => { const m = /^(\d{4})-(\d{2})/.exec(rd || ''); return m ? `${m[1]}Q${Math.ceil(Number(m[2]) / 3)}` : esc(rd || ''); };
   return `<details style="margin-top:10px;"><summary style="cursor:pointer;font-weight:600;">목록 밖 종목 ${items.length}개 — 올해 ${P.view === 'sell' ? '보고상 전량 이탈' : '보유 증가'} 1명 이상 (가격·신호 미계산)</summary>
-    <div style="overflow-x:auto;"><table style="width:100%;font-size:12px;"><thead><tr><th>종목</th><th>인원</th><th>투자자 (분기 · 공개일)</th></tr></thead><tbody>${items.map(x => `<tr><td><b>${esc(x.tk)}</b></td><td>${x.arr.length}명</td><td>${x.arr.map(e => `${esc(e[0])}${want === 'buyers' ? smTrackBadge(e[3]) : ''} (${qq(e[1])}${smInterval(e[4], e[1]) ? ' · 다분기' : ''} · ${esc(e[2])})`).join(' · ')}</td></tr>`).join('')}</tbody></table></div></details>`;
+    <div style="overflow-x:auto;"><table style="width:100%;font-size:12px;"><thead><tr><th>종목</th><th>인원</th><th>투자자 (분기 · 공개일)</th></tr></thead><tbody>${items.map(x => `<tr><td><b>${esc(x.tk)}</b></td><td>${x.arr.length}명</td><td>${x.arr.map(e => `${esc(e[0])} (${qq(e[1])}${smInterval(e[4], e[1]) ? ' · 다분기' : ''} · ${esc(e[2])})`).join(' · ')}</td></tr>`).join('')}</tbody></table></div></details>`;
 }
 function smYearLookup(v){
   const el = document.getElementById('smYearFound');
@@ -4592,34 +4556,34 @@ function smYearLookup(v){
     + (o.sellers.length ? `<br>보고상 이탈: ${o.sellers.map(s => `${esc(s[0])}(${qq(s[1])}, 공개 ${esc(s[2])})`).join(' · ')}` : '')
     + '<br><span style="font-size:11px;">가격·신호는 목록 종목만 계산해요.</span>';
 }
-// [2026-09-30 신규] 하원의원 거래 공시(PTR) -- window.HOUSE_PTR만 읽음. Smart Money 인원·알림·배지와 합치지 않음.
+// [2026-10-01 v2] 의원 거래 '참고 목록' 카드 -- window.HOUSE_PTR(127/v2-reference-only)만 읽음.
+// 내용 검토 P1-2: Smart Money 표·인원·정렬·알림과 합치지 않음. 종목별 매수/매도 인원, 의원 성과 표식 없음. 공시일·거래일·유형·금액 구간·계좌·원문 링크만.
 function renderHousePtr(){
   const el = document.getElementById('housePtrBody');
   const H = window.HOUSE_PTR;
-  if(!el || !H || !H.by_ticker) return;   // 검증 127 E-1: 자료 없으면(공개 사이트 등) 카드 자체를 숨긴 채로 둠
+  if(!el || !H || H.schema !== '127/v2-reference-only') return;   // 자료 없거나 옛 형식이면 카드 숨김 유지
   const card = document.getElementById('housePtrCard'); if(card) card.style.display = '';
-  const TX = {P: '🟢매수', S: '🔴매도', 'S (partial)': '🟠일부매도'};
-  const tr = x => `${esc(TX[x.tx] || x.tx)}${x.option ? ` <span style="color:#876000;">옵션${x.call_put ? '(' + esc(x.call_put) + ')' : ''}</span>` : ''}`;
-  const own = o => ({SP: '배우자', JT: '공동', DC: '자녀', SELF: '본인'}[o] || esc(o || ''));
-  const pel = (H.pelosi || []).slice(0, 12).map(x => `<tr><td><b>${esc(x.ticker || '—')}</b>${WATCH_SET_HAS(x.ticker) ? ' ⭐' : ''}</td><td>${tr(x)}</td><td>${esc(x.tx_date || '')}</td><td>${esc(x.filing_date || '')}</td><td>${esc(x.amount || '')}</td><td>${own(x.owner)}</td></tr>`).join('');
-  const all = Object.entries(H.by_ticker);
-  const wl = all.filter(([, o]) => o.in_watchlist).sort((a, b) => b[1].n_buy_members - a[1].n_buy_members || a[0].localeCompare(b[0]));
-  const top = all.filter(([, o]) => !o.in_watchlist).sort((a, b) => b[1].n_buy_members - a[1].n_buy_members || b[1].n_trades - a[1].n_trades).slice(0, 15);
-  const rowT = ([tk, o]) => `<tr><td><b>${esc(tk)}</b>${o.in_watchlist ? ' ⭐' : ''}</td><td style="color:#1e7b34;">매수 ${o.n_buy_members}명</td><td style="color:#b3261e;">매도 ${o.n_sell_members}명</td><td class="sub" style="font-size:11px;">${(o.trades || []).slice(0, 3).map(x => `${esc(x.member || '')}${hpTrackBadge(x.member_key || Object.keys(H.member_names || {}).find(k => H.member_names[k] === x.member))} ${tr(x)} ${esc(x.tx_date || '')} ${esc(x.amount || '')}`).join('<br>')}</td></tr>`;
-  const tbl = (head, body) => `<div style="overflow-x:auto;"><table style="width:100%;font-size:12px;"><thead><tr>${head}</tr></thead><tbody>${body || '<tr><td colspan="6" class="sub">없음</td></tr>'}</tbody></table></div>`;
-  el.innerHTML = `<div class="comment-box" style="background:var(--warn-bg);color:#876000;font-size:12px;">${esc(H.note || '')} <b>자료 수집 ${esc((H.source && H.source.collected_at) || '').slice(0, 10)} · 가장 최근 공시 ${esc(H.max_filing_date || '')}</b> (자동 갱신 없음)</div>
-    <div style="font-weight:700;font-size:12.5px;margin-top:8px;">낸시 펠로시 최근 거래 <span class="sub" style="font-weight:400;">(대부분 배우자 Paul Pelosi 계좌 · 옵션은 콜옵션 매수가 많음)</span></div>
-    ${tbl('<th>종목</th><th>거래</th><th>거래일</th><th>공시일</th><th>금액 구간</th><th>계좌</th>', pel)}
-    <div style="font-weight:700;font-size:12.5px;margin-top:10px;">관심종목 — ${esc(H.year_basis || '')}년 공시된 하원의원 거래</div>
-    ${tbl('<th>종목</th><th>매수 의원</th><th>매도 의원</th><th>최근 거래(최대 3건)</th>', wl.map(rowT).join(''))}
-    <details style="margin-top:8px;"><summary style="cursor:pointer;font-weight:600;">관심종목 밖 — 올해 매수 의원이 많은 종목 15개</summary>${tbl('<th>종목</th><th>매수 의원</th><th>매도 의원</th><th>최근 거래(최대 3건)</th>', top.map(rowT).join(''))}</details>
-    <div class="sub" style="font-size:11px;margin-top:4px;">의원 수는 올해 공시 기준 서로 다른 의원 수(본인·배우자 계좌 포함). 금액은 구간으로만 공시돼 합계를 내지 않아요. 최근 3개월 매수·매도는 위 Smart Money 목록 인원에 '🏛의원'으로 합산돼요(알림에는 안 씀).</div>
-    <div class="sub" style="font-size:11px;margin-top:2px;">🏅승률 = ${esc(H.track_rule || '')}</div>
-    <div class="sub" style="font-size:11px;margin-top:2px;">상원: ${H.senate ? `수동 갱신 ${esc(H.senate.collected_at || '')} (사용자가 상원 사이트 이용조건에 직접 동의한 뒤 조회 · 전자 제출 ${esc(String((H.senate.stats || {}).electronic || '?'))}건, 스캔본 ${esc(String((H.senate.stats || {}).paper_skipped || '?'))}건 제외 · 수백 종목 일괄 거래 계좌와 6개월 넘게 늦은 신고는 제외 · 상원은 🏅 계산 안 함). 매주 월요일 알림.` : '아직 수집 안 함'}</div>`;
-}
-function WATCH_SET_HAS(tk){
-  const H = window.HOUSE_PTR;
-  return !!(tk && H && H.by_ticker && H.by_ticker[tk] && H.by_ticker[tk].in_watchlist);
+  const TX = {P: '매수', S: '매도', 'S (partial)': '일부 매도'};
+  const tx = x => `${esc(TX[x.tx] || x.tx || '')}${x.option ? ` <span class="sub">(옵션${x.call_put ? ' ' + esc(x.call_put) : ''})</span>` : ''}`;
+  const own = o => ({SP: '배우자', JT: '공동', DC: '자녀', SELF: '본인'}[o] || esc(o || '—'));
+  const link = u => /^https:\/\/disclosures-clerk\.house\.gov\//.test(u || '') ? `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer nofollow">원문</a>` : '—';
+  const hrow = (x, showMember) => `<tr><td><b>${esc(x.ticker || '—')}</b></td>${showMember ? `<td>${esc(x.member || '')}</td>` : ''}<td>${tx(x)}</td><td>${esc(x.filing_date || '')}</td><td>${esc(x.tx_date || '')}</td><td>${esc(x.amount || '')}</td><td>${own(x.owner)}</td><td>${link(x.pdf)}</td></tr>`;
+  const tbl = (head, body, n) => `<div style="overflow-x:auto;"><table style="width:100%;font-size:12px;"><thead><tr>${head}</tr></thead><tbody>${body || `<tr><td colspan="${n}" class="sub">없음</td></tr>`}</tbody></table></div>`;
+  const hs = H.house || {}; const last = Date.parse(hs.last_success_utc || '');
+  const kst = isFinite(last) ? new Date(last + 9 * 3600000).toISOString().slice(0, 16).replace('T', ' ') + ' KST' : '확인 안 됨';
+  const stale = !isFinite(last) || (Date.now() - last) / 3600000 > 36 || hs.last_attempt_ok === false;
+  const W = H.watch_trades || []; const S = H.senate_snapshot;
+  const srow = x => `<tr><td><b>${esc(x.ticker || '—')}</b></td><td>${esc(x.member || '')}</td><td>${tx(x)}</td><td>${esc(x.filing_date || '')}</td><td>${esc(x.tx_date || '')}</td><td>${typeof x.amount_low === 'number' ? '$' + x.amount_low.toLocaleString('en-US') + ' 이상 구간' : '—'}</td><td>${esc(x.owner_note || '')}</td><td class="sub">보고서 ${esc(x.report_id8 || '')}…</td></tr>`;
+  el.innerHTML = `<div class="comment-box" style="background:var(--warn-bg);color:#876000;font-size:12.5px;"><b>${esc(H.notice || '')}</b><div style="font-size:11.5px;margin-top:3px;">${esc(H.terms || '')}</div></div>
+    <div style="font-size:12px;margin-top:6px;">하원 마지막 성공: <b>${esc(kst)}</b> · 가장 최근 공시 ${esc(hs.max_filing_date || '—')} · 출처 ${esc(hs.site || '')}${stale ? ' <span style="color:#b3261e;font-weight:700;">⚠️ 하원 자동 수집이 36시간 넘게 성공하지 않았거나 마지막 시도가 실패했어요 — 아래 목록이 최신이 아닐 수 있어요</span>' : ''}</div>
+    <div style="font-weight:700;font-size:12.5px;margin-top:8px;">낸시 펠로시 최근 거래 <span class="sub" style="font-weight:400;">(하원 공시 · 최근 12건)</span></div>
+    ${tbl('<th>종목</th><th>거래 유형</th><th>공시일</th><th>실제 거래일</th><th>금액 구간</th><th>계좌</th><th>원문</th>', (H.pelosi || []).slice(0, 12).map(x => hrow(x, false)).join(''), 7)}
+    <details style="margin-top:8px;"><summary style="cursor:pointer;font-weight:600;">관심종목 관련 하원 거래 공시 — 최근 ${esc(String(hs.watch_window_days || ''))}일 공시분 ${W.length}건${(H.watch_trades_total || 0) > W.length ? ` (전체 ${H.watch_trades_total}건 중 최신순)` : ''}, 공시일 최신순</summary>
+      ${tbl('<th>종목</th><th>의원</th><th>거래 유형</th><th>공시일</th><th>실제 거래일</th><th>금액 구간</th><th>계좌</th><th>원문</th>', W.map(x => hrow(x, true)).join(''), 8)}</details>
+    ${S ? `<details style="margin-top:8px;"><summary style="cursor:pointer;font-weight:600;">상원 — <span style="color:#b3261e;">${esc(S.status || '수동 수집·갱신 중단')}</span> (${esc(S.collected_at || '')} 1회분 ${(S.rows || []).length}건, 이후 갱신 없음)</summary>
+      <div class="sub" style="font-size:11.5px;margin:4px 0;">${esc(S.why_stopped || '')} 하원 목록과 합치지 않아요. 출처: ${esc(S.source || '')}. 금액은 구간 하한만, 계좌는 본인·배우자 구분이 안 되는 경우가 있어요.</div>
+      ${tbl('<th>종목</th><th>의원</th><th>거래 유형</th><th>공시일</th><th>실제 거래일</th><th>금액 구간</th><th>계좌</th><th>원문</th>', (S.rows || []).map(srow).join(''), 8)}</details>` : ''}
+    <div class="sub" style="font-size:11px;margin-top:4px;">이 카드는 참고 목록이에요. 종목별 매수·매도 인원을 세거나 의원을 성과로 표시하지 않고, Smart Money 표·정렬·알림에 쓰지 않아요.</div>`;
 }
 const SM_COLW_KEY = 'compass_sm_colw_v1';
 function smResetCols(){ try{ localStorage.removeItem(SM_COLW_KEY); }catch(e){} renderSmartMoneyPage(); }
@@ -4672,14 +4636,13 @@ function renderSmartMoneyPage(){
   // 2026-09-30 사용자 요청: 목록 주 표시 = 최근 3개월(공개일 기준) 매수·매도 인원. 필터(집중 운용·비중 1%)는 올해 기준과 같게.
   const R3 = x => {
     const r = x.r3m;
-    if(!r){ const y = Y(x); return {nb: y.n_buyers || 0, ns: y.n_sellers || 0, nfull: y.n_sellers || 0, nred: 0, buyers: y.buyers || [], hb: [], hs: [], n13b: y.n_buyers || 0, n13s: y.n_sellers || 0, lastBuy: null, lastSell: null}; }
+    if(!r){ const y = Y(x); return {nb: y.n_buyers || 0, ns: y.n_sellers || 0, nfull: y.n_sellers || 0, nred: 0, buyers: y.buyers || [], n13b: y.n_buyers || 0, n13s: y.n_sellers || 0, lastBuy: null, lastSell: null}; }
     const f = a => (a || []).filter(d => !(P.conc && DIV.has(d.key)));
     const fw = a => f(a).filter(d => !P.minW || (d.w || 0) >= P.minW);
     const b = fw(r.buyers), s = f(r.sellers), rd = fw(r.reduced);
-    const h = hpR3(x.ticker), hb = h.buyers || [], hs = h.sellers || [];
     const mx = a => a.map(d => d.d || '').reduce((m, v) => v > m ? v : m, '') || null;
-    return {nb: b.length + hb.length, ns: s.length + rd.length + hs.length, nfull: s.length, nred: rd.length, buyers: b, hb, hs,
-            n13b: b.length, n13s: s.length + rd.length, lastBuy: mx(b.concat(hb)), lastSell: mx(s.concat(rd, hs))};
+    return {nb: b.length, ns: s.length + rd.length, nfull: s.length, nred: rd.length, buyers: b,
+            n13b: b.length, n13s: s.length + rd.length, lastBuy: mx(b), lastSell: mx(s.concat(rd))};   // 2026-10-01: 13F 만(의원 합산 제거)
   };
   const Y = x => {
     const y = x.year || {n_buyers: 0, n_sellers: 0, n_holders_only: 0, n_reduced: 0, buyers: [], sellers: [], holders_only: [], reduced: []};
@@ -4691,7 +4654,7 @@ function renderSmartMoneyPage(){
     return o;
   };
   const HN = x => ((!P.conc || !DIV.size) && !P.minW) ? (x.holders || 0) : (x.investors || []).filter(i => i.action !== '전량매도' && !(P.conc && DIV.has(i.key)) && (!P.minW || (i.w || 0) >= P.minW)).length;
-  const vCount = x => P.view === 'buy' ? R3(x).nb : P.view === 'sell' ? R3(x).ns : HN(x);   // 2026-09-30: 최근 3개월(13F+의원) 인원 우선
+  const vCount = x => P.view === 'buy' ? R3(x).nb : P.view === 'sell' ? R3(x).ns : HN(x);   // 최근 3개월 13F 인원(2026-10-01: 의원 제외)
   const vValue = x => P.view === 'buy' ? (Y(x).buyers || []).reduce((t, d) => t + (d.value_usd || 0), 0)
     : P.view === 'sell' ? (Y(x).sellers || []).length : (x.buyers_by_value || []).reduce((t, d) => t + (d.value_usd || 0), 0);
   const pc = (v, d = 0) => (typeof v === 'number' && isFinite(v)) ? (v >= 0 ? '+' : '') + (v * 100).toFixed(d) + '%' : '—';
@@ -4733,19 +4696,19 @@ function renderSmartMoneyPage(){
     const R = R3(x);
     const vmap = Object.fromEntries((x.buyers_by_value || []).map(d => [d.manager_key, d.value_usd]));
     const today0 = new Date(S.generated_at || Date.now()); const pubDate = minAge != null ? new Date(today0.getTime() - minAge * 86400000) : null;
-    const pubTxt = pubDate ? `${pubDate.getMonth() + 1}/${pubDate.getDate()} 공개 · ${minAge}일 전` : '공개일 확인 불가';
+    const genTxt = isFinite(today0.getTime()) ? `${today0.getFullYear()}-${String(today0.getMonth() + 1).padStart(2, '0')}-${String(today0.getDate()).padStart(2, '0')}` : '';
+    const pubTxt = pubDate ? `${pubDate.getMonth() + 1}/${pubDate.getDate()} 공개 · ${genTxt} 생성 기준 ${minAge}일 전` : '공개일 확인 불가';   // 2026-10-01 P2-2: 경과일의 기준일(자료 생성일) 표시
     // 주목 투자자: 최근 3개월 신규·증가 보유 중 '그 운용사 포트폴리오 비중' 큰 순(성과 점수 아님). 동률이면 분기말 보유액 큰 순
     const notable = [...R.buyers].sort((a, b) => ((b.w || 0) - (a.w || 0)) || ((vmap[b.key] || 0) - (vmap[a.key] || 0)));
     const tag = k => { const w = (x.investors || []).find(i => i.key === k)?.w; const v = vmap[k];
       return `<span class="sub" style="font-size:10px;">${typeof w === 'number' ? '포트 ' + (w * 100).toFixed(1) + '%' : ''}${typeof v === 'number' && v > 0 ? ' · 분기말 ' + smMoney(v) : ''}</span>`; };
     const notableHtml = notable.length
-      ? notable.slice(0, 2).map(b => `<div style="white-space:nowrap;">${esc(smMgrName(b.key))}${smTrackBadge(b.key)} ${tag(b.key)}</div>`).join('') + (notable.length > 2 ? `<div class="sub" style="font-size:10.5px;">외 ${notable.length - 2}명 (눌러서 전체)</div>` : '')
+      ? notable.slice(0, 2).map(b => `<div style="white-space:nowrap;">${esc(smMgrName(b.key))} ${tag(b.key)}</div>`).join('') + (notable.length > 2 ? `<div class="sub" style="font-size:10.5px;">외 ${notable.length - 2}명 (눌러서 전체)</div>` : '')
       : '<span class="sub">최근 3개월 신규·증가 없음</span>';
     return `<tr style="cursor:pointer;" onclick="toggleSmartDetail('${esc(x.ticker)}')">
       <td><b>${esc(x.ticker)}</b>${x.in_watchlist ? ' ⭐' : ''}${((x.new_buys || []).length && smartFresh()) ? ' <span style="background:#b3261e;color:#fff;border-radius:6px;padding:0 5px;font-size:10px;font-weight:700;">NEW</span>' : ''}<div class="sub" style="font-size:10.5px;">${esc((x.name || '').slice(0, 24))}</div>${catChip(sc.category)}</td>
       <td><div style="font-weight:700;white-space:nowrap;">${esc(fr)} ${esc(pubTxt)}</div>
         <div style="white-space:nowrap;"><span style="color:#1e7b34;font-weight:700;">신규/증가 보유 ${R.n13b}명</span> <span class="sub">·</span> <span style="color:#b3261e;" title="최근 3개월 전량 이탈 ${R.nfull}명 + 보유 감소 ${R.nred}명">감소/이탈 ${R.n13s}명</span></div>
-        ${(R.hb.length || R.hs.length) ? `<div style="font-size:11px;white-space:nowrap;" title="의원 거래 공시(하원 매일 자동 + 상원 수동 갱신 ${esc(((window.HOUSE_PTR || {}).senate || {}).collected_at || '없음')}) · 실제 거래, 금액은 구간) — 13F와 별개">🏛 의원 매수 ${R.hb.length} · 매도 ${R.hs.length}${R.hb.filter(b => (hpTrack(b.key) || {}).good).length ? ` <span style="color:#8a5a00;">🏅${R.hb.filter(b => (hpTrack(b.key) || {}).good).length}</span>` : ''}</div>` : ''}
         <div class="sub" style="font-size:10px;">${x.r3m ? '최근 3개월 공개분' : '올해 공개분(3개월 자료 없음)'} · 분기말 보유 변화(실제 거래일·가격 아님)</div></td>
       <td>${mgrKey ? (() => { const mi = (x.investors || []).find(i => i.key === mgrKey) || {}; const mc = {'신규':'#1e7b34','추가':'#1e7b34','유지':'inherit','일부매도':'#b3261e','전량매도':'#b3261e'}[mi.action] || 'inherit'; return `<div style="white-space:nowrap;">${esc(smMgrName(mgrKey))}: <b style="color:${mc}">${esc(mi.action || '')}</b></div><div class="sub" style="font-size:10.5px;">${typeof mi.w === 'number' ? '포트 ' + (mi.w * 100).toFixed(2) + '%' : ''}${typeof vmap[mgrKey] === 'number' && vmap[mgrKey] > 0 ? ' · 분기말 ' + smMoney(vmap[mgrKey]) : ''}</div>`; })() : notableHtml}</td>
       <td><div style="${P.view === 'hold' ? 'font-weight:700;' : ''}">${HN(x)}명 보유</div><div class="sub" style="font-size:10.5px;">합산 분기말 ${smMoney(heldVal)}${heldEst ? ` <span title="금액 단위 추정 보정분 — 확정 합계에 안 넣음">+추정 ${smMoney(heldEst)}</span>` : ''}</div><div class="sub" style="font-size:10px;">올해 증가 ${Y(x).n_buyers || 0} · 이탈 ${Y(x).n_sellers || 0}</div></td>
@@ -4776,7 +4739,7 @@ function renderSmartMoneyPage(){
       <span>🔍 <input list="smMgrList" placeholder="투자자 이름 검색 (예: Buffett)" style="width:170px;" onchange="smMgrPick(this.value)"><datalist id="smMgrList">${(S.managers || []).map(m => `<option value="${esc(m.manager + ' — ' + m.firm)}"></option>`).join('')}</datalist></span>
       <span>보기 ${sel('view', [['buy', `올해 매수 목록(${esc(S.year_basis || '')}년 공개 13F)`], ['sell', '올해 보고상 전량 이탈 목록'], ['hold', '현재 보유 기준']])}</span>
       <span title="비중 1% 이상만: 그 투자자 포트폴리오(주식)에서 이 종목이 1% 이상인 경우만 인원으로 셈 — 아주 작은 지분이 겹침을 부풀리지 않게">겹침 집계 ${sel('minW', [[0, '보유만 해도 셈'], [0.01, '비중 1% 이상만']])}</span>
-      <span title="매수/매도 보기: 최근 3개월 인원(13F+하원의원) · 현재 보유 보기: 보유 인원">최근 3개월 인원 ${sel('minHolders', [[1, '1명 이상'], [2, '2명 이상'], [3, '3명 이상'], [4, '4명 이상'], [5, '5명 이상'], [6, '6명 이상']])}</span>
+      <span title="신규·증가/이탈 보기: 최근 3개월 13F 인원 · 현재 보유 보기: 보유 인원">최근 3개월 인원 ${sel('minHolders', [[1, '1명 이상'], [2, '2명 이상'], [3, '3명 이상'], [4, '4명 이상'], [5, '5명 이상'], [6, '6명 이상']])}</span>
       <span>대상 ${sel('scope', [['screen', '흑자 대형주 + 적자 성장주 + 예외'], ['all', '전체(소형주·ETF 포함)']])}</span>
       <span>내 신호 ${sel('sig', [['all', '전체'], ['now', '🟢매수 신호·🟠반등 확인 중'], ['recent', '최근 20거래일 안에 신호']])}</span>
       <label class="sub" style="cursor:pointer;" title="끄면 Point72·Gotham·Fisher 같은 수백~수천 종목 분산 운용사도 인원에 포함"><input type="checkbox" ${P.conc ? 'checked' : ''} onchange="setSmPref('conc', this.checked)"> 집중 운용만(13F 주식 보유 종목 300개 이하 · ${DIV.size ? `분산형 ${DIV.size}곳 제외` : '지금 패널엔 300개 초과 운용사가 없어 차이 없음'})</label>
