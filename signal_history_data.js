@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790845220.7933884,
+  "generatedAt": 1790847347.6998675,
   "records": {
     "MSFT": [
       {
@@ -3687,6 +3687,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AMZN": [
       {
+        "changedAt": 1790847347.6998675,
+        "dataAsOf": 1790832003,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 4.55,
+            "after": 4.2
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 5,
+            "after": 4.72
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Amazon, Constellation과 20년 원자력 계약 체결, AI로 인한 전력 수요 촉진을 위해 30억 달러 투자 유치",
+        "newsUrl": "https://finnhub.io/api/news?id=f317ff8db46435518ae4ebd81d6452319e844ba10ab9138aa424ebef2cb4efc0",
+        "eventId": "71614825c4b16ebb2dad",
+        "fingerprint": "{\"changes\": [{\"after\": 4.2, \"before\": 4.55, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 4.72, \"before\": 5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"71614825c4b16ebb2dad\"}"
+      },
+      {
         "changedAt": 1790845220.7933884,
         "dataAsOf": 1790832003,
         "changes": [
@@ -5402,23 +5425,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=fc71a99933c41d025d94da073faa19d03e23d9efb14a122e4e1811b9e61fe2d6",
         "eventId": "d842716dcd8958632a9b",
         "fingerprint": "{\"changes\": [{\"after\": 2.8, \"before\": 1.57, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 5, \"before\": 2.62, \"key\": \"growth\", \"label\": \"성장성\"}], \"eventId\": \"d842716dcd8958632a9b\"}"
-      },
-      {
-        "changedAt": 1789593014.1150758,
-        "dataAsOf": 1789579185,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 3.67,
-            "after": 2.62
-          }
-        ],
-        "cause": "클라우드 CAPEX 경쟁과 가격·마진 압력 비교 필요",
-        "newsHeadline": "Oracle Rallies 2% as Restructuring Helps Finance the AI Sprint",
-        "newsUrl": "https://finnhub.io/api/news?id=dfff713c4b1d3cd125ff2e7ef025bfcab04e23f0607199530fae1bf059a9c0a1",
-        "eventId": "25ffe673ac5013a0ba8e",
-        "fingerprint": "{\"changes\": [{\"after\": 2.62, \"before\": 3.67, \"key\": \"growth\", \"label\": \"성장성\"}], \"eventId\": \"25ffe673ac5013a0ba8e\"}"
       }
     ],
     "META": [
@@ -8973,6 +8979,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "TSLA": [
       {
+        "changedAt": 1790847347.6998675,
+        "dataAsOf": 1790829586,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -2.27,
+            "after": -1.92
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Cathie Wood가 중국 합병 장애물 속에서 머스크가 트럼프, 시과 '모든 각도에서 일하고 있다'고 말한 후 TSLA, SPCX 상승",
+        "newsUrl": "https://finnhub.io/api/news?id=fce5bb4bbd6d3f02b4f37709d86a481c20fac2e9f4c3014a018a723e47ea0670",
+        "eventId": "f34ff13fae74720b54cc",
+        "fingerprint": "{\"changes\": [{\"after\": -1.92, \"before\": -2.27, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"f34ff13fae74720b54cc\"}"
+      },
+      {
         "changedAt": 1790845220.7933884,
         "dataAsOf": 1790829586,
         "changes": [
@@ -10718,16 +10741,24 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=fea943af624d97a648f988107802bf2a3077832175fce3409300a938c059a946",
         "eventId": "4ca22e99f89b1c0dc509",
         "fingerprint": "{\"changes\": [{\"after\": -1.4, \"before\": -0.87, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -5, \"before\": -4.02, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -2.8, \"before\": -2.27, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"4ca22e99f89b1c0dc509\"}"
-      },
+      }
+    ],
+    "ORCL": [
       {
-        "changedAt": 1789301422.0360973,
-        "dataAsOf": 1789252681,
+        "changedAt": 1790847347.6998675,
+        "dataAsOf": 1790817386,
         "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.22,
+            "after": 0.7
+          },
           {
             "key": "valuationBurden",
             "label": "밸류에이션 부담",
-            "before": -0.35,
-            "after": -1.4
+            "before": -2.1,
+            "after": -2.62
           },
           {
             "key": "businessRisk",
@@ -10738,18 +10769,16 @@ const SIGNAL_HISTORY_DATA = {
           {
             "key": "shortTermMomentum",
             "label": "단기 뉴스 모멘텀",
-            "before": -1.22,
-            "after": -2.27
+            "before": -2.1,
+            "after": -2.62
           }
         ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "Tesla가 S&P 500에 합류했을 때 Tesla의 10,000달러는 오늘날 약 15,700달러가 될 것입니다. 인덱스 펀드가 더 나았을 것입니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=f943a12719707ac9beef8dd9b9298f8492a3b6cba62f8c451e55b9221de532dd",
-        "eventId": "d59debbc12334c26450a",
-        "fingerprint": "{\"changes\": [{\"after\": -1.4, \"before\": -0.35, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -4.02, \"before\": -3.5, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -2.27, \"before\": -1.22, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"d59debbc12334c26450a\"}"
-      }
-    ],
-    "ORCL": [
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "CEG 주가 밤새 상승: Constellation, Amazon과 20년 원자력 계약 체결",
+        "newsUrl": "https://finnhub.io/api/news?id=28875decffb04ca755d66f2a77f936619eed8e8ea6a6e3e494fbc092a4b150a9",
+        "eventId": "0903700366d285ff6ca4",
+        "fingerprint": "{\"changes\": [{\"after\": 0.7, \"before\": 1.22, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.62, \"before\": -2.1, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -4.02, \"before\": -3.5, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -2.62, \"before\": -2.1, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"0903700366d285ff6ca4\"}"
+      },
       {
         "changedAt": 1790823946.655055,
         "dataAsOf": 1790793120,
@@ -12640,41 +12669,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=ce60885893e1428e238dc0ba35bfaec010118efa1e0bd9e42b8465e6b3714a52",
         "eventId": "5571442d2d0704473243",
         "fingerprint": "{\"changes\": [{\"after\": -1.4, \"before\": -1.75, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"5571442d2d0704473243\"}"
-      },
-      {
-        "changedAt": 1789077585.2185578,
-        "dataAsOf": 1789067866,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 1.75,
-            "after": 2.1
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 2.1,
-            "after": 2.8
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -2.1,
-            "after": -1.75
-          },
-          {
-            "key": "signal",
-            "label": "종합 시그널",
-            "before": "주의 강화",
-            "after": "중립·확인 대기"
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "AMZN은 2억 3천만 달러의 투자로 전체 식품에 더 큰 투자를 하고 있지만 Amazon의 실제 매장은 활력을 잃고 있습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=ce60885893e1428e238dc0ba35bfaec010118efa1e0bd9e42b8465e6b3714a52",
-        "eventId": "5571442d2d0704473243",
-        "fingerprint": "{\"changes\": [{\"after\": 2.1, \"before\": 1.75, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 2.8, \"before\": 2.1, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.75, \"before\": -2.1, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"5571442d2d0704473243\"}"
       }
     ],
     "CRM": [
@@ -32592,6 +32586,41 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "MU": [
       {
+        "changedAt": 1790847347.6998675,
+        "dataAsOf": 1790841421,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.7,
+            "after": 0.35
+          },
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -3.15,
+            "after": -3.67
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 3.85,
+            "after": 3.33
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "우호적 변화",
+            "after": "중립·확인 대기"
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Micron 주식에 대한 Michael Burry의 새로운 베팅은 2027년 6월에 만료됩니다. 내 생각에는 그의 타이밍이 잘못된 것 같습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=ac4c01142900520393769acde7eeaa5d63f0b2224fa3a86eb52caf6add9254b2",
+        "eventId": "90138bbf34f1b19118f1",
+        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.7, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -3.67, \"before\": -3.15, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": 3.33, \"before\": 3.85, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"우호적 변화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"90138bbf34f1b19118f1\"}"
+      },
+      {
         "changedAt": 1790845220.7933884,
         "dataAsOf": 1790841421,
         "changes": [
@@ -33857,23 +33886,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=df62a695d899a9919a03e9e3a5077094e2e066cef93641ed080e6d3ff61e6849",
         "eventId": "ac27d3090a35c6d7af1f",
         "fingerprint": "{\"changes\": [{\"after\": -1.4, \"before\": -2.45, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": 4.72, \"before\": 4.55, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"ac27d3090a35c6d7af1f\"}"
-      },
-      {
-        "changedAt": 1789681629.1119962,
-        "dataAsOf": 1789663608,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 0.0,
-            "after": 0.52
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "마이크론과 메모리 병목 현상",
-        "newsUrl": "https://finnhub.io/api/news?id=e8835dbc6cf9a961c6bb02f393a1d12ffde10628584ebd1168c097f37fa72d7f",
-        "eventId": "58e363724038c828b5ca",
-        "fingerprint": "{\"changes\": [{\"after\": 0.52, \"before\": 0.0, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"58e363724038c828b5ca\"}"
       }
     ],
     "SNDK": [
@@ -41820,6 +41832,53 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "CEG": [
+      {
+        "changedAt": 1790847347.6998675,
+        "dataAsOf": 1790832003,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 2.27,
+            "after": 1.92
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 2.8,
+            "after": 1.57
+          },
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": 0.0,
+            "after": -0.52
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -4.2,
+            "after": -4.72
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.52,
+            "after": -0.35
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "우호적 변화",
+            "after": "중립·확인 대기"
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Amazon, Constellation과 20년 원자력 계약 체결, AI로 인한 전력 수요 촉진을 위해 30억 달러 투자 유치",
+        "newsUrl": "https://finnhub.io/api/news?id=f317ff8db46435518ae4ebd81d6452319e844ba10ab9138aa424ebef2cb4efc0",
+        "eventId": "71614825c4b16ebb2dad",
+        "fingerprint": "{\"changes\": [{\"after\": 1.92, \"before\": 2.27, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.57, \"before\": 2.8, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.52, \"before\": 0.0, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -4.72, \"before\": -4.2, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.35, \"before\": 0.52, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"우호적 변화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"71614825c4b16ebb2dad\"}"
+      },
       {
         "changedAt": 1790845220.7933884,
         "dataAsOf": 1790832003,
