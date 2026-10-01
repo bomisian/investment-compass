@@ -8238,11 +8238,12 @@ function verdictCautionBadge(r){
   }
   const _vc = (verdictSuggestsBuy && VALUE_CONFLICT_BADGE) ? valueConflictInfo(r.ticker) : null;
   const valueConflict = !!(_vc && _vc.expensive);
-  if(!fvWarn && !dataWarn && !fundamentalMismatch && !valueConflict) return '';
+  const fvWarnShown = fvWarn && !PEER_VALUE_HIDDEN;
+  if(!fvWarnShown && !dataWarn && !fundamentalMismatch && !valueConflict) return '';
   const parts = [];
   if(valueConflict) parts.push(`이 점수는 '가격이 많이 빠졌는지'만 재요. 시장 기준가로는 ${_vc.label} ${_vc.gap >= 0 ? '+' : ''}${(_vc.gap * 100).toFixed(0)}%라 빠졌어도 싸진 건 아닐 수 있어요${_vc.disagree ? ' (다른 계산은 ' + _vc.others.join(' · ') + ' - 계산마다 갈려요)' : ''}`);
   if(fundamentalMismatch) parts.push('이 판단은 가격 지표만 본 점수예요 - 최근 매출·수익성은 오히려 동반 둔화 중이니 실적을 따로 확인하세요');
-  if(fvWarn) parts.push('기준가(밸류에이션) 참고사항 있음 - 상세보기에서 확인');
+  if(fvWarnShown) parts.push('기준가(밸류에이션) 참고사항 있음 - 상세보기에서 확인');
   if(dataWarn) parts.push('가격 데이터 지연·누락 의심 - 상세보기에서 확인');
   return `<span class="sub" style="color:var(--warn);font-size:11px;margin-left:4px;cursor:help;" title="${esc(parts.join(' · '))} — 이 배지는 판단(장기) 점수(눌림목 강도)와 무관한 별도 참고 정보예요.">⚠️${valueConflict ? '<b style="font-size:10px;">가치 상충</b>' : ''}</span>`;
 }
@@ -9998,7 +9999,7 @@ function fairValueAltBox(r){
 }
 function tabFairValue(r){
   const pzBox = PRICE_ZONE_OPERATIONAL ? '' : priceZoneBoxHtml(r.ticker);
-  if(PEER_VALUE_HIDDEN) return `<div class="comment-box" style="background:var(--panel-2);"><b>가치 참고 범위는 지금 표시하지 않아요.</b><div class="sub" style="margin-top:4px;">이전 '시장 기준가'와 적정가 두 방법(동종 PER·성장률 비교)은 독립 검증을 받지 않은 계산이라 금액·범위·판정을 2026-10-01부터 숨겼어요. 새 계산('동종 PER 참고 범위')은 입력·계산 패킷이 검증을 통과한 뒤 공개 여부를 따로 결정해요. 아래 이익 전망(추정치 변화)은 가치 판단이 아닌 사실 표시라 그대로 둬요.</div></div>` + estMomentumBox(r.ticker);
+  if(PEER_VALUE_HIDDEN) return `<div class="comment-box" style="background:var(--panel-2);"><b>가치 참고 범위는 지금 표시하지 않아요.</b><div class="sub" style="margin-top:4px;">이전 '시장 기준가'와 적정가 두 방법(동종 PER·성장률 비교)은 독립 검증을 받지 않은 계산이라 금액·범위·판정을 2026-10-01부터 숨겼어요. 새 계산('동종 PER 참고 범위')은 입력·계산 패킷이 검증을 통과한 뒤 공개 여부를 따로 결정해요. 이익 전망(추정치 변화 방향)은 가치 판단이 아니지만, 같은 자료 파일에 들어 있어 공개 화면에서는 함께 내려갔어요(이 PC에서만 아래에 보여요).</div></div>` + estMomentumBox(r.ticker);
   return basePriceBox(r) + fairValueSummaryBox(r) + estMomentumBox(r.ticker) + (pzBox ? `<div class="comment-box" style="margin-top:10px;">${pzBox}</div>` : '') + '<div class="chart-label" style="margin-top:4px;">(참고·이전 방식) ① 같은 업종 대비 PER 방법</div>' + tabFairValue100(r) + fairValueAltBox(r);
 }
 function tabFairValue100(r){
@@ -11587,6 +11588,17 @@ function renderNewsLog(ticker, label, recentDays){
 // 15년치 백테스트로 검증된 것에만 %를 붙이는 원칙이 있음(CLAUDE.md 전체에 걸친 원칙). 이 로그는
 // 그런 검증이 없는 정성적 판단이라, 숫자로 확신을 꾸며내는 대신 "무엇을 확인하면 view가 바뀌는지"
 // 조건을 명시하는 방식으로 假정밀도를 피함 - 대신 그 조건들 자체가 다음 갱신 때 체크리스트가 됨.
+// 2026-10-01 PLAN_132 v0.2 감사: 수동 작성 노트 속 가격 판단 문장(PER 유지 시나리오 금액·싼/비싼·고평가/저평가·목표가)을 표시할 때 가림.
+// 원본 파일(business_notes_data.js)은 그대로 두고 화면에서만 문장 단위로 뺀다.
+const PV_NOTE_RE = /PER ?유지|기준가|싼 편|비싼 편|고평가|저평가|적정가|적정하게 거래|목표가|목표주가|밸류에이션|현재가|지금 가격|주가\(\$|괴리/;
+function pvMaskNote(s){
+  if(!PEER_VALUE_HIDDEN || typeof s !== 'string' || !PV_NOTE_RE.test(s)) return s;
+  const kept = s.split(/(?<=[.!?])\s+/).filter(x => !PV_NOTE_RE.test(x));
+  let out = kept.join(' ');
+  const open = (out.match(/<b[ >]/g) || []).length, close = (out.match(/<\/b>/g) || []).length;
+  if(open !== close) out = out.replace(/<[^>]+>/g, '');
+  return out.trim() ? out + ' <span class="sub">(가격 판단 문장은 숨겼어요)</span>' : '<span class="sub">(가격 판단 문장이라 숨겼어요)</span>';
+}
 function renderViewLog(ticker){
   const n = (typeof BUSINESS_NOTES !== 'undefined' && BUSINESS_NOTES) ? BUSINESS_NOTES[ticker] : null;
   const log = n && n.viewLog;
@@ -11598,12 +11610,12 @@ function renderViewLog(ticker){
       const safe = /^https?:\/\//i.test(s.url||'') ? s.url : null;
       return safe ? `<li><a href="${esc(safe)}" target="_blank" rel="noopener noreferrer nofollow">${esc(s.title)}</a></li>` : '';
     }).join('');
-    const li = arr => (arr||[]).map(x=>`<li>${x}</li>`).join('');
+    const li = arr => (arr||[]).map(x=>`<li>${pvMaskNote(x)}</li>`).join('');
     return `
       <div class="fund-col" style="margin-top:10px;${idx===0?'border-left:3px solid var(--accent);padding-left:10px;':''}">
         <div class="sub" style="margin-bottom:4px;"><b>${esc(e.date)} 작성</b>${idx===0?' · <span style="color:var(--accent);font-weight:700;">최신</span>':''}${staleBadgeHtml(e.date, idx===0)}</div>
-        <div style="font-size:14px;font-weight:700;margin-bottom:6px;">${e.headline}</div>
-        <div style="font-size:12.5px;line-height:1.75;margin-bottom:8px;">${e.view}</div>
+        <div style="font-size:14px;font-weight:700;margin-bottom:6px;">${pvMaskNote(e.headline)}</div>
+        <div style="font-size:12.5px;line-height:1.75;margin-bottom:8px;">${pvMaskNote(e.view)}</div>
         <div class="fund-grid">
           <div class="fund-col"><h3 style="color:var(--up);">📈 확인되면 비중 늘릴 조건</h3><ul style="margin:0;padding-left:18px;font-size:12.5px;line-height:1.7;">${li(e.increaseIf)}</ul></div>
           <div class="fund-col"><h3 style="color:var(--down);">📉 판단이 틀렸다고 볼 조건</h3><ul style="margin:0;padding-left:18px;font-size:12.5px;line-height:1.7;">${li(e.wrongIf)}</ul></div>
@@ -12543,7 +12555,7 @@ function forecastComment(est, r){
   // "결국 긍정적인지 주의할 점이 있는지"부터 한 줄로 보여줌(tone은 이미 위에서 계산된 값 재사용).
   const forecastHeadline = tone==='warn' ? '🟡 컨센서스에 주의할 점이 있어요' : '🟢 컨센서스는 특별한 우려가 없어요';
   items.unshift(`<b style="font-size:14.5px;">${forecastHeadline}</b>`);
-  items.push(`<span class="sub">컨센서스 숫자로 자동 계산된 설명이라, 애널리스트 추정이 바뀌면 이 문장도 바뀝니다. 목표주가는 낙관 편향이 있으니 참고용으로만 보세요.</span>`);
+  items.push(`<span class="sub">컨센서스 숫자로 자동 계산된 설명이라, 애널리스트 추정이 바뀌면 이 문장도 바뀝니다.${PEER_VALUE_HIDDEN ? '' : ' 목표주가는 낙관 편향이 있으니 참고용으로만 보세요.'}</span>`);
   return cmtBox(items, tone);
 }
 
@@ -13204,7 +13216,7 @@ function setupForecastChart(ticker){
   const est = ESTIMATES_DATA[ticker];
   const r = results[ticker];
   const canvas = document.getElementById('forecastCanvas');
-  if(!canvas || !est || est.targetMean==null) return;
+  if(PEER_VALUE_HIDDEN || !canvas || !est || est.targetMean==null) return;
   const W = canvas.width = canvas.clientWidth*2;
   const H = canvas.height = 260*2;
   const ctx = canvas.getContext('2d');
