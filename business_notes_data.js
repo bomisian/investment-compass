@@ -4543,6 +4543,22 @@ const BUSINESS_NOTES = {
     ],
     newsLog: [
       {
+        date: "2026-10-01",
+        headline: "로드스터 발표 2주 연기(10/15 예정) + AI칩 메모리 최적화 - 악천후와 공급망 제약의 이중 신호",
+        facts: ["2026-10-01 Elon Musk가 소셜미디어에서 Tesla Roadster 공개 행사 연기를 공식 발표했습니다. 예정되었던 10/1 공개를 10/15로 2주 연기하는 이유는 텍사스 오스틴의 높은 풍속 경고와 홍수 주의보입니다(Tesla 공식, USA TODAY 보도).", "동시에 Musk는 Tesla의 AI 칩 설계 최적화에 대해 직접 발언했습니다. AI5 칩의 메모리를 당초 계획(144GB LPDDR5)에서 절반(72GB)으로 감소시켰고, AI6의 메모리도 3분의 1 수준으로 축소했습니다(Teslarati, CleanTechnica 보도).", "메모리 감소 결정의 배경은 '공급망 제약'입니다. Musk는 '메모리 볼륨을 확보하기 위한 의도적 결정'이라고 명시했으며, 이를 통해 Optimus 휴머노이드 로봇의 생산 규모를 가속화할 수 있다고 설명했습니다(Tesla 공식 발언, 기술 매체 인용).", "Roadster는 완성 예정 차량으로 2024년 발표 이후 가장 오래 대기 중인 신규 모델이며, 10/1 공개를 목표로 마케팅을 진행해온 상황이었습니다(앞선 newsLog 9/26 항목 참고).", "10/1 발표 연기는 '생산 지연 신호'가 아니라 '악천후로 인한 일시적 일정 조정'으로 공식화되었지만, 오스틴의 대규모 인프라(Gigafactory)가 악천후 영향을 받을 수 있다는 점은 공급망 취약성을 암시합니다."],
+        why: ["Roadster 연기 자체는 '2주 지연'이라 단기 영향은 제한적이지만, 중요한 신호는 '행사가 충분히 완성된 제품을 보여주지 못할 가능성'입니다. 앞선 2026-09-03/04 newsLog에서 지적된 '구체적 사양·가격·양산 일정 부재' 우려가 다시 확인되는 셈입니다.", "AI 칩 메모리 감소는 '성능 트레이드'입니다. 메모리 감소는 연산 능력 제한을 의미하며, 이를 감수하고서도 'Optimus 대량생산 가속화'를 택한 결정입니다. 이는 (1) 메모리 공급 병목이 생각보다 심각하다는 뜻이고, (2) Optimus 로봇의 상용화 일정을 메모리 공급보다 우선시한다는 전략적 신호입니다.", "공급망 제약이 명시된 것은 Tesla의 'AI 하드웨어 개발 속도'가 반도체 산업의 일반적 공급 추이 이상을 필요로 한다는 뜻입니다. 이는 경쟁사(Nvidia 등)와의 칩 공급 경쟁에서 Tesla가 시간 경쟁하고 있음을 시사합니다.", "Roadster를 포함한 신차·신기술 공개 행사가 계속 '미흡한 콘크리트 정보 + 일정 지연'의 패턴을 보이고 있다는 점은, Tesla의 '약속-실행 갭'에 대한 누적 우려(newsLog 8월~9월 전반에 걸친 지적)를 재확인합니다."],
+        beginner: ["Elon Musk가 Tesla의 새로운 고급 전기차 Roadster를 10월 1일에 공개하겠다고 했는데, 어제(10/1) 갑자기 '나쁜 날씨 때문에 2주 뒤인 10월 15일로 미룬다'고 발표했어요.", "더 주목할 부분은 AI 칩 이야기예요. Tesla가 로봇을 만드는 데 쓸 컴퓨터 칩(AI5·AI6)의 메모리를 크게 줄이기로 했다는 거거든요. 당초 계획보다 AI5는 절반(72GB), AI6은 3분의 1 수준으로 줄인 거예요.", "왜 줄였느냐는 것이 문제예요 - 반도체 공급이 부족해서입니다. Musk는 '메모리를 줄이는 대신 로봇을 더 빨리 더 많이 만들 수 있다'고 설명했어요. 즉, Tesla가 AI 칩 전쟁에서 '성능 일부를 포기하고 대신 물량을 확보'하는 선택을 한 거라는 뜻이에요.", "Roadster 연기는 '일시적 일정 조정'으로 보이지만, 계속된 행사 연기와 불완전한 공개(앞선 Cybercab 9/3 행사처럼)가 패턴이 되고 있다는 게 문제입니다."],
+        watch: ["10월 15일 Roadster 실제 공개 여부 및 기술 사양·가격·양산 일정 공개 정도", "Optimus 로봇의 생산 확대가 실제로 시작되는지, 그리고 AI 칩 메모리 감소가 성능에 미치는 실제 영향", "Tesla의 반도체 공급망 다각화 계획(TSMC, Samsung 등 외부 파운드리 활용 여부)", "다음 분기 실적에서 Optimus 로봇 판매·생산 수량 공시 여부", "경쟁사(Boston Dynamics 등)의 로봇 상용화 진행도 대비 Tesla Optimus의 시장 진입 시점"],
+        interpretation: "Roadster 2주 연기와 AI 칩 메모리 감소는 겉으로는 별개 사건이지만, 본질적으로는 같은 공급망 압박을 반영합니다. 악천후는 '진짜 이유'일 수도 있지만, Roadster와 Optimus 로봇이라는 '두 가지 신규 사업'의 동시 개발·생산이 Tesla의 공급망에 상당한 스트레스를 주고 있다는 신호로 해석됩니다. 메모리 감소 결정은 '성능보다 물량을 우선한다'는 전략적 선택이며, 이는 Optimus의 상용화 일정이 생각보다 앞당겨져 있음을 암시합니다. 다만 9/26 FSD Brussels 규제 우려와 함께 고려하면, Tesla는 동시에 (1) 자율주행(Cybercab), (2) 로보택시 승인 진행, (3) Optimus 로봇 대량생산의 '3개 전선'에서 일정 지연과 규제 리스크에 직면해 있는 것으로 보입니다.",
+        decision: "10월 15일 Roadster 공개 내용(구체적 사양, 가격, 양산 일정)을 확인할 때까지 판단 보류. 현재 TSLA의 '약속-실행 갭'이 누적되는 중이며, Roadster 공개가 그 갭을 좁히는지 계속 늘리는지가 분기말~4분기 주가 방향을 결정할 것으로 예상. AI 칩 메모리 감소가 실제로 Optimus 생산 가속화로 이어지는지도 다음 실적에서 첫 신호를 찾을 수 있을 것.",
+        confidence: "Roadster 연기(일정, 악천후 사유)는 Musk 소셜미디어 공식 발표 및 USA TODAY 등 복수 매체 확인으로 신뢰도 높음. AI 칩 메모리 감소(AI5 144GB→72GB, AI6 3분의 1 감소) 수치와 '공급망 제약' 근거는 Teslarati·CleanTechnica 보도 및 기술 커뮤니티 분석 기준으로 신뢰도 중상(1차 공식 발표는 아니나 Musk 직접 언급에 기반). 메모리 감소가 Optimus 생산에 주는 실제 영향은 추정 수준.",
+        sources: [
+          { title: "Elon Musk delays Tesla Roadster reveal to October 15 due to Austin weather (USA TODAY/Reuters)", url: "https://www.reuters.com/business/autos-transportation/tesla-roadster-delayed-austin-weather-oct-15-2026-10-01/" },
+          { title: "Tesla AI5 chip memory cut in half to 72GB to accelerate Optimus production (Teslarati)", url: "https://www.teslarati.com/tesla-ai5-chip-memory-72gb-optimus/" },
+          { title: "Elon Musk: Tesla AI chip memory optimization for robot production (CleanTechnica)", url: "https://cleantechnica.com/2026/10/01/elon-musk-tesla-ai-chip-memory-cut-optimus/" },
+        ],
+      },
+      {
         date: "2026-09-26",
         headline: "Tesla Roadster 티저 '다음주 공개' + FSD Brussels 테스트서 55% 구간 속도제한 위반 - 신차 기대감 vs 규제 리스크 동시 노출",
         facts: ["2026-09-26 Elon Musk가 소셜미디어에서 Tesla Roadster 2.0 티저 이미지 공개 - LED 라이트바 신설, '다음주(10/1) 공개' 예고", "Roadster는 2008년 출시 이후 가장 오래 대기 중인 프리미엄 전기 스포츠카로, 최대 시속 250mph(402km/h) 목표 수립", "동시에 Brussels에서 독립 테스트 기관이 수행한 FSD 안전성 평가 결과 공개 - Tesla FSD가 Brussels 도로 55% 구간에서 법정 속도제한을 초과하며 주행한 것으로 나타남", "FSD의 속도 위반은 Brussels 안전 테스트의 핵심 지적사항으로, 유럽 규제당국이 FSD 운영 제한 또는 금지를 검토할 근거가 될 수 있음", "Roadster 공개(긍정 신호) vs FSD Brussels 규제 우려(부정 신호)가 동일 시점에 노출", "주가는 2026-09-26 장 중 $372.59-$386.83 범위에서 변동, 당일 -1.54% 마감"],
