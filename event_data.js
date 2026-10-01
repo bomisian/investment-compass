@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790867396.8295271,
+  "generatedAt": 1790867942.5768836,
   "events": [
     {
       "id": "d7090e9b3bd2cb3442c0",
@@ -2130,6 +2130,77 @@ const EVENT_DATA = {
       ]
     },
     {
+      "id": "a4c5d2dd85d2240730d3",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "실적 발표",
+      "primaryTicker": "SPY",
+      "relatedTickers": [
+        "QQQ",
+        "SPY"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "low",
+        "score": 42,
+        "kind": "reported",
+        "reason": "속보·의견 성격이 강해 원문 재확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "낮음·확인 필요",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Tom Lee Says ‘Buckle Up’ for Stock Market Rally as S&P 500 Historical Setup Signals Strong Q4",
+      "headlineKo": "톰 리(Tom Lee), S&P 500 역사적 설정이 4분기 강세 신호를 보내면서 주식 시장 반등을 위해 '버클 업'이라고 밝혔습니다.",
+      "source": {
+        "name": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=5122b8df865fc34f62aa38209ae8a7c3af8567f2c3e2d905fb5868f4028870bc",
+        "publishedAt": 1790844633,
+        "collectedAt": 1790867902.7776053
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Tom Lee는 S&P 500 역사적 설정이 강세를 나타냄에 따라 주식 시장 반등에 대해 '버클 업'이라고 말합니다. Q4 - State Str - Benzinga SPY 765.82 +0.42% QQQ 743.93 +0.56% BTC/USD 83,777.94 +0.27% DIA 510.98 +0.48% GLD 383.30 +0.65% TLT 77.43 −0.45% 미국 서명",
+        "이 회장은 올해 중반 시장실적 통계에 대해 X에 올린 글에서 \"4분기 실적이 좋아 보인다\"고 밝혔다. 현재 시장 설정 및 3분기 Gain Lee는 S&P 500 성과를 매핑하는 금융 추적 계정 OddStats의 분석을 강조했습니다.",
+        "이 데이터는 지수가 긍정적인 3분기 수익률과 함께 약 14% 이상의 2분기 이익을 달성한 사례를 분리합니다."
+      ],
+      "marketInterpretation": [
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.42%, 0.56%, 0.27% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "SPY에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.42%, 0.56%, 0.27% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "SPY",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "공식 매출·EPS 가이던스",
+        "컨센서스 추정치 변경",
+        "마진·FCF 전망"
+      ]
+    },
+    {
       "id": "7f1fba7349dfb4b045e9",
       "schemaVersion": 1,
       "eventType": "analyst_target_change",
@@ -3731,7 +3802,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ff7223554078df0ced7983593f33c82ca9484f684de84a872f948b0a1901ab86",
         "publishedAt": 1790809589,
-        "collectedAt": 1790844691.158069
+        "collectedAt": 1790867902.7776053
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4186,7 +4257,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a8ee20b68da4f30c86817c3e8c558746e67664bb035e14246f6f82f294a2fc4a",
         "publishedAt": 1790803409,
-        "collectedAt": 1790844691.158069
+        "collectedAt": 1790867902.7776053
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11433,7 +11504,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b29367caa8ba474888c37b79cc487e137a3df2ee3a998352f56a21dd1d9e104d",
         "publishedAt": 1790723207,
-        "collectedAt": 1790844691.158069
+        "collectedAt": 1790867902.7776053
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11583,7 +11654,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=df076b1e0ea4fcf5a99c515a953021e0b32023f0067e91178578e91f8038213b",
         "publishedAt": 1790721008,
-        "collectedAt": 1790844691.158069
+        "collectedAt": 1790867902.7776053
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16261,7 +16332,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fdcfa1be162ac5375b1ef45f1fcc079eaf82ce0e7bf624b88d3df0aff60b81cf",
         "publishedAt": 1790686844,
-        "collectedAt": 1790844691.158069
+        "collectedAt": 1790867902.7776053
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16986,7 +17057,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=976b3a54fc726e513d001c0552ba79df790ef613be9c9afa0157d3b5fbe298eb",
         "publishedAt": 1790676246,
-        "collectedAt": 1790844691.158069
+        "collectedAt": 1790867902.7776053
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17361,7 +17432,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=3d83c16bbcf5ad20d4f99283dfad35ae495a554dc968389144c75f4476ae5cdc",
         "publishedAt": 1790673245,
-        "collectedAt": 1790844691.158069
+        "collectedAt": 1790867902.7776053
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18253,73 +18324,6 @@ const EVENT_DATA = {
         "공급업체 수주·매출",
         "투자 기업 OCF·FCF·부채"
       ]
-    },
-    {
-      "id": "bb34b5f7cc1a3d356150",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "AMD",
-      "relatedTickers": [
-        "AMD"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "neutral",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Bank of America resets AMD price target after major milestone",
-      "headlineKo": "Bank of America는 주요 이정표 이후 AMD 가격 목표를 재설정했습니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b43e186f8e36b36c87a9214662b4f09356a81bb787c34e145bbf309e8d9371d7",
-        "publishedAt": 1790649180,
-        "collectedAt": 1790866802.2321687
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Bank of America resets AMD price target after major milestone",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "AMD에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AMD",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "목표주가 산식의 EPS",
-        "적용 PER 변화",
-        "회사 공식 가이던스"
-      ]
     }
   ],
   "byTicker": {
@@ -18425,6 +18429,7 @@ const EVENT_DATA = {
       "cf0e38eaa1a4c5171233",
       "5c24ba5cb179009deb80",
       "e16287760074f0049784",
+      "a4c5d2dd85d2240730d3",
       "90138bbf34f1b19118f1",
       "05ddc92e9ea5374a7570",
       "4b4a344308ae870cc6a5",
@@ -18610,8 +18615,7 @@ const EVENT_DATA = {
       "db16c1259bff667165c7",
       "eb145d717ac5dd655bbb",
       "87a9f17ae310e26fb0bc",
-      "d087a2f0c4bb8e45de0e",
-      "bb34b5f7cc1a3d356150"
+      "d087a2f0c4bb8e45de0e"
     ],
     "AVGO": [
       "6a8965da998a08e77331",
@@ -18695,6 +18699,7 @@ const EVENT_DATA = {
       "cf0e38eaa1a4c5171233",
       "5c24ba5cb179009deb80",
       "e16287760074f0049784",
+      "a4c5d2dd85d2240730d3",
       "f34ff13fae74720b54cc",
       "0903700366d285ff6ca4",
       "36d4e817286b3d43f32c",
