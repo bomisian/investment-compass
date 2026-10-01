@@ -3889,14 +3889,128 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "SPY": {
-    "_last_attempt_at": 1790867902.7776053,
+    "_last_attempt_at": 1790890923.3121443,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "If The S&P 500 Doesn’t Hit 10,000, This ETF Is Going To Zero",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=91c602a2874be1c1ce30fa5b8005948794cb70635596d6318e16ecd37b931e39",
+        "datetime": 1790867394,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "S&P 500이 10,000에 도달하지 못하면 이 ETF는 0이 될 것입니다 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,679.80 +0.09% Dow Jones 50,997.80 −0.06% Nasdaq 100 30,549.60 +0.20% Russell 2000 2,814.41 +0.41% S&P 500 7,679.80 +0.09% 다우존스 50,997.80 −0.06% 나스닥 100 30,549.60 +0.20% 러셀 2000 2,814.41 +0.",
+            "대부분의 투자자에게 수학이 의미가 있는지 여부는 다릅니다… AJ Tiarsmith 작성 2026년 10월 1일 오전 11시 9분(ET) · 읽기 4분 𝕏 f ⧉ 동전 더미와 촛대 차트는 야심찬 g를 나타내는 S&P 500 지수를 보여줍니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.09%, 0.06%, 0.20% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "SPY",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "SPY에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.09%",
+            "0.06%",
+            "0.20%",
+            "0.41%",
+            "11.55%",
+            "14.18%",
+            "$23 billion",
+            "62%"
+          ],
+          "sourceExcerpt": [
+            "If The S&P 500 Doesn't Hit 10,000, This ETF Is Going To Zero - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,679.80 +0.09% Dow Jones 50,997.80 −0.06% Nasdaq 100 30,549.60 +0.20% Russell 2000 2,814.41 +0.41% S&P 500 7,679.80 +0.09% Dow Jones 50,997.80 −0.06% Nasdaq 100 30,549.60 +0.20% Russell 2000 2,814.41 +0.",
+            "Whether the math even makes sense for most investors is a different… By AJ Tiarsmith Published October 1, 2026, 11:09am ET · 4 min read 𝕏 f ⧉ Stacks of coins and a candlestick chart illustrate the S&P 500 index, representing the ambitious g"
+          ],
+          "analysisUpdatedAt": 1790890930.4083781
+        },
+        "headlineKo": "S&P 500이 10,000에 도달하지 못하면 이 ETF는 0이 됩니다."
+      },
+      {
+        "headline": "S&P 500 2026 September Dividends Reveal Most Promising Sectors (And It's Not Tech)",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=2045286ed4332c168720473e823677d4098286c2f7c2189543624a99224df6ce",
+        "datetime": 1790864119,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "S&P 500 2026 September Dividends Reveal Most Promising Sectors (And It's Not Tech)",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "SPY",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 SPY의 사업과 관련된 'S&P 500 2026 September Dividends Reveal Most Promising Sectors (And It's Not Tech)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "SPY 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790890931.302262
+        },
+        "headlineKo": "S&P 500 2026년 9월 배당금으로 가장 유망한 부문 공개(기술 부문 아님)"
+      },
       {
         "headline": "S&P 500 Looks Fine Going Into October. Is the Number Underneath a Warning?",
         "source": "Yahoo",
@@ -3943,7 +4057,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790867908.6649914
+          "analysisUpdatedAt": 1790890931.9802945
         },
         "headlineKo": "S&P 500은 10월에도 괜찮아 보입니다. 숫자 아래에 경고가 있나요?"
       },
@@ -3955,60 +4069,6 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Tom Lee는 S&P 500 역사적 설정이 강세를 나타냄에 따라 주식 시장 반등에 대해 '버클 업'이라고 말합니다. Q4 - State Str - Benzinga SPY 765.82 +0.42% QQQ 743.93 +0.56% BTC/USD 83,777.94 +0.27% DIA 510.98 +0.48% GLD 383.30 +0.65% TLT 77.43 −0.45% 미국 서명",
-            "이 회장은 올해 중반 시장실적 통계에 대해 X에 올린 글에서 \"4분기 실적이 좋아 보인다\"고 밝혔다. 현재 시장 설정 및 3분기 Gain Lee는 S&P 500 성과를 매핑하는 금융 추적 계정 OddStats의 분석을 강조했습니다.",
-            "이 데이터는 지수가 긍정적인 3분기 수익률과 함께 약 14% 이상의 2분기 이익을 달성한 사례를 분리합니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.42%, 0.56%, 0.27% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "SPY",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "SPY에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.42%",
-            "0.56%",
-            "0.27%",
-            "0.48%",
-            "0.65%",
-            "0.45%",
-            "14%",
-            "14.87%"
-          ],
-          "sourceExcerpt": [
-            "Tom Lee Says ‘Buckle Up’ for Stock Market Rally as S&P 500 Historical Setup Signals Strong Q4 - State Str - Benzinga SPY 765.82 +0.42% QQQ 743.93 +0.56% BTC/USD 83,777.94 +0.27% DIA 510.98 +0.48% GLD 383.30 +0.65% TLT 77.43 −0.45% US Sign i",
-            "Commenting on mid-year market performance statistics, Lee stated in a post on X that the \" 4Q looking good .\" Current Market Setup and Q3 Gain Lee highlighted analysis from financial tracking account OddStats, which maps S&P 500 performance",
-            "The data isolates instances where the index achieved a second-quarter gain of roughly 14% or higher alongside a positive third-quarter return."
-          ],
-          "analysisUpdatedAt": 1790867914.4422042
-        },
         "headlineKo": "톰 리(Tom Lee), S&P 500 역사적 설정이 4분기 강세 신호를 보내면서 주식 시장 반등을 위해 '버클 업'이라고 밝혔습니다."
       },
       {
@@ -4019,81 +4079,7 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "오늘 주식 시장: 나스닥 100 선물 상승, 이란이 미국의 Ceas 복원 제안을 받음에 따라 다우 존스 하락 - Benzinga SPY 763.32 +0.09% QQQ 743.35 +0.48% BTC/USD 83,618.51 +0.07% DIA 506.20 −0.46% GLD 380.60 −0.06% TLT 77.10 −0.48% 미국 기호",
-            "목요일에는 다우존스와 S&P 500 지수 선물이 하락하고 나스닥 100 선물은 수요일 혼성 장 이후 상승하는 등 혼조세로 개장할 것으로 보입니다.",
-            "붕괴된 걸프만 휴전을 복원하기 위한 제안에 대한 미국의 최종 대응"
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.09%, 0.48%, 0.07% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "SPY",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "SPY에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.09%",
-            "0.48%",
-            "0.07%",
-            "0.46%",
-            "0.06%",
-            "5.33%",
-            "4.91%",
-            "39.3%"
-          ],
-          "sourceExcerpt": [
-            "Stock Market Today: Nasdaq 100 Futures Gain, Dow Jones Drops as Iran Receives US Proposal To Restore Ceas - Benzinga SPY 763.32 +0.09% QQQ 743.35 +0.48% BTC/USD 83,618.51 +0.07% DIA 506.20 −0.46% GLD 380.60 −0.06% TLT 77.10 −0.48% US Sign i",
-            "stocks look set to open on a mixed note on Thursday, with futures of the Dow Jones and S&P 500 indices falling, while the Nasdaq 100 futures rose, following Wednesday’s mixed close.",
-            "response regarding a proposal to restore the collapsed Gulf ceasefire as final U.S."
-          ],
-          "analysisUpdatedAt": 1790867921.6346977
-        },
         "headlineKo": "오늘의 주식 시장: 이란이 미국의 휴전 복원 제안을 받아들임에 따라 S&P 500, Nasdaq 100, Dow Jones 선물 상승 - CEG, VICR, MU 초점(업데이트됨)"
-      },
-      {
-        "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e760657530b57f140075bbca22337b8805378952d3a1f101c5cb39b48f04f765",
-        "datetime": 1790833197,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "주식시장: 오늘 S&P 500이 상승할 것인가, 하락할 것인가?"
-      },
-      {
-        "headline": "Forget Waiting Three Months for SPY’s Dividend. Invesco’s High-Dividend Fund Pays Every Month",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ff7223554078df0ced7983593f33c82ca9484f684de84a872f948b0a1901ab86",
-        "datetime": 1790809589,
-        "relevance": 0.75,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "SPY의 배당을 위해 3개월을 기다리는 것은 잊어버리세요. Invesco의 고배당 펀드는 매달 지급됩니다."
       },
       {
         "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Gains as Trump Dismisses Iran Sanction Relief as 'Hoax'— Nvidia, AAR, Vail Resorts in Focus (UPDATED)",
@@ -4215,6 +4201,118 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "If The S&P 500 Doesn’t Hit 10,000, This ETF Is Going To Zero",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=91c602a2874be1c1ce30fa5b8005948794cb70635596d6318e16ecd37b931e39",
+        "datetime": 1790867394,
+        "headlineKo": "S&P 500이 10,000에 도달하지 못하면 이 ETF는 0이 됩니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "S&P 500이 10,000에 도달하지 못하면 이 ETF는 0이 될 것입니다 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,679.80 +0.09% Dow Jones 50,997.80 −0.06% Nasdaq 100 30,549.60 +0.20% Russell 2000 2,814.41 +0.41% S&P 500 7,679.80 +0.09% 다우존스 50,997.80 −0.06% 나스닥 100 30,549.60 +0.20% 러셀 2000 2,814.41 +0.",
+            "대부분의 투자자에게 수학이 의미가 있는지 여부는 다릅니다… AJ Tiarsmith 작성 2026년 10월 1일 오전 11시 9분(ET) · 읽기 4분 𝕏 f ⧉ 동전 더미와 촛대 차트는 야심찬 g를 나타내는 S&P 500 지수를 보여줍니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.09%, 0.06%, 0.20% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "SPY",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "SPY에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.09%",
+            "0.06%",
+            "0.20%",
+            "0.41%",
+            "11.55%",
+            "14.18%",
+            "$23 billion",
+            "62%"
+          ],
+          "sourceExcerpt": [
+            "If The S&P 500 Doesn't Hit 10,000, This ETF Is Going To Zero - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,679.80 +0.09% Dow Jones 50,997.80 −0.06% Nasdaq 100 30,549.60 +0.20% Russell 2000 2,814.41 +0.41% S&P 500 7,679.80 +0.09% Dow Jones 50,997.80 −0.06% Nasdaq 100 30,549.60 +0.20% Russell 2000 2,814.41 +0.",
+            "Whether the math even makes sense for most investors is a different… By AJ Tiarsmith Published October 1, 2026, 11:09am ET · 4 min read 𝕏 f ⧉ Stacks of coins and a candlestick chart illustrate the S&P 500 index, representing the ambitious g"
+          ],
+          "analysisUpdatedAt": 1790890930.4083781
+        }
+      },
+      {
+        "headline": "S&P 500 2026 September Dividends Reveal Most Promising Sectors (And It's Not Tech)",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=2045286ed4332c168720473e823677d4098286c2f7c2189543624a99224df6ce",
+        "datetime": 1790864119,
+        "headlineKo": "S&P 500 2026년 9월 배당금으로 가장 유망한 부문 공개(기술 부문 아님)",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "S&P 500 2026 September Dividends Reveal Most Promising Sectors (And It's Not Tech)",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "SPY",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 SPY의 사업과 관련된 'S&P 500 2026 September Dividends Reveal Most Promising Sectors (And It's Not Tech)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "SPY 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1790890931.302262
+        }
+      },
+      {
         "headline": "S&P 500 Looks Fine Going Into October. Is the Number Underneath a Warning?",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9ed7a5097b553ac44da23c7f9efd8b578a361746e15e27cf6a30076baa12c6ab",
@@ -4260,7 +4358,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790867908.6649914
+          "analysisUpdatedAt": 1790890931.9802945
         }
       },
       {
@@ -8291,15 +8389,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790867902.7776053,
-    "_updated_label": "2026-10-02 00:18",
-    "_last_success_at": 1790867902.7776053,
+    "_fetched_at": 1790890923.3121443,
+    "_updated_label": "2026-10-02 06:42",
+    "_last_success_at": 1790890923.3121443,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 89,
+      "checked": 91,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "MSFT": {
@@ -16425,7 +16523,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "GOOGL": {
@@ -24648,7 +24746,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "AMZN": {
@@ -32475,7 +32573,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "META": {
@@ -39914,7 +40012,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "AAPL": {
@@ -47659,7 +47757,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "TSLA": {
@@ -55487,7 +55585,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "ORCL": {
@@ -63360,7 +63458,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 182,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "CRM": {
@@ -68402,7 +68500,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "PLTR": {
@@ -75727,7 +75825,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 169,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "NVDA": {
@@ -83355,7 +83453,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "AMD": {
@@ -91184,7 +91282,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "AVGO": {
@@ -96762,7 +96860,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 112,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "QCOM": {
@@ -101455,7 +101553,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 105,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "ARM": {
@@ -105230,7 +105328,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "MRVL": {
@@ -110094,7 +110192,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "INTC": {
@@ -116658,7 +116756,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 154,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "TSM": {
@@ -120703,7 +120801,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "ASML": {
@@ -123568,7 +123666,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "AMAT": {
@@ -126945,7 +127043,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "LRCX": {
@@ -128361,7 +128459,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "KLAC": {
@@ -129832,7 +129930,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "MU": {
@@ -137318,7 +137416,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "SNDK": {
@@ -142383,7 +142481,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 113,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "WDC": {
@@ -144736,7 +144834,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "ANET": {
@@ -147130,7 +147228,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "COHR": {
@@ -149529,7 +149627,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "LITE": {
@@ -151801,11 +151899,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "GEV": {
-    "_last_attempt_at": 1790867902.7776053,
+    "_last_attempt_at": 1790890923.3121443,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -151830,7 +151928,7 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "GE Vernova의 CEO가 주주들에게 좋은 소식을 전했습니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool GE Vernova( GEV +1.11% ) CEO인 Scott Strazik이 최근 선물을 주었습니다.",
+            "GE Vernova의 CEO가 주주들에게 좋은 소식을 전했습니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool GE Vernova( GEV +3.89% ) CEO인 Scott Strazik이 최근 선물을 주었습니다.",
             "이는 가이던스 인상에는 미치지 못했지만 투자자들에게 수익 기대치를 높일 수 있는 충분한 이유를 제공한 사업에 대한 일련의 미묘하고 긍정적인 의견이었습니다.",
             "Scott Strazik의 말 참고로 GE Vernova는 전력(주로 가스 터빈 장비 및 서비스)의 세 가지 부문으로 운영되며 이자, 과세, 감가상각 및 상각 전 수익(EBITDA) 29억 달러를 담당합니다."
           ],
@@ -151864,17 +151962,17 @@ const NEWS_DATA = {
             "$1.4 billion",
             "$598 million",
             "$200 billion",
-            "1.11 %",
-            "$ 10.52",
-            "$ 961.01",
+            "3.89 %",
+            "$ 36.96",
+            "$ 987.45",
             "$253"
           ],
           "sourceExcerpt": [
-            "GE Vernova's CEO Just Delivered Great News to Shareholders | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool GE Vernova 's ( GEV +1.11% ) CEO, Scott Strazik, recently gave a present",
+            "GE Vernova's CEO Just Delivered Great News to Shareholders | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool GE Vernova 's ( GEV +3.89% ) CEO, Scott Strazik, recently gave a present",
             "It was a series of subtly positive comments on the business that fell short of a guidance hike, but gave investors plenty of reason to raise earnings expectations.",
             "What Scott Strazik said For reference, GE Vernova operates out of three segments: power (mainly gas turbine equipment and services), responsible for $2.9 billion in earnings before interest, taxation, depreciation, and amortization (EBITDA)"
           ],
-          "analysisUpdatedAt": 1790867933.2653794
+          "analysisUpdatedAt": 1790890939.412416
         },
         "headlineKo": "GE Vernova의 CEO가 주주들에게 좋은 소식을 전했습니다."
       },
@@ -151924,7 +152022,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790867937.1024833
+          "analysisUpdatedAt": 1790890941.6442897
         },
         "headlineKo": "GE Vernova(GEV), 새로운 원자로 설계에 대한 NRC 허가 획득"
       },
@@ -151974,7 +152072,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790867939.6722808
+          "analysisUpdatedAt": 1790890943.7096522
         },
         "headlineKo": "GE Vernova Inc.(GEV)가 추세 주식인 이유 외에도 알아야 할 사항은 다음과 같습니다."
       },
@@ -152016,7 +152114,7 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "GE Vernova의 CEO가 주주들에게 좋은 소식을 전했습니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool GE Vernova( GEV +1.11% ) CEO인 Scott Strazik이 최근 선물을 주었습니다.",
+            "GE Vernova의 CEO가 주주들에게 좋은 소식을 전했습니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool GE Vernova( GEV +3.89% ) CEO인 Scott Strazik이 최근 선물을 주었습니다.",
             "이는 가이던스 인상에는 미치지 못했지만 투자자들에게 수익 기대치를 높일 수 있는 충분한 이유를 제공한 사업에 대한 일련의 미묘하고 긍정적인 의견이었습니다.",
             "Scott Strazik의 말 참고로 GE Vernova는 전력(주로 가스 터빈 장비 및 서비스)의 세 가지 부문으로 운영되며 이자, 과세, 감가상각 및 상각 전 수익(EBITDA) 29억 달러를 담당합니다."
           ],
@@ -152050,17 +152148,17 @@ const NEWS_DATA = {
             "$1.4 billion",
             "$598 million",
             "$200 billion",
-            "1.11 %",
-            "$ 10.52",
-            "$ 961.01",
+            "3.89 %",
+            "$ 36.96",
+            "$ 987.45",
             "$253"
           ],
           "sourceExcerpt": [
-            "GE Vernova's CEO Just Delivered Great News to Shareholders | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool GE Vernova 's ( GEV +1.11% ) CEO, Scott Strazik, recently gave a present",
+            "GE Vernova's CEO Just Delivered Great News to Shareholders | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool GE Vernova 's ( GEV +3.89% ) CEO, Scott Strazik, recently gave a present",
             "It was a series of subtly positive comments on the business that fell short of a guidance hike, but gave investors plenty of reason to raise earnings expectations.",
             "What Scott Strazik said For reference, GE Vernova operates out of three segments: power (mainly gas turbine equipment and services), responsible for $2.9 billion in earnings before interest, taxation, depreciation, and amortization (EBITDA)"
           ],
-          "analysisUpdatedAt": 1790867933.2653794
+          "analysisUpdatedAt": 1790890939.412416
         }
       },
       {
@@ -152109,7 +152207,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790867937.1024833
+          "analysisUpdatedAt": 1790890941.6442897
         }
       },
       {
@@ -152158,7 +152256,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790867939.6722808
+          "analysisUpdatedAt": 1790890943.7096522
         }
       },
       {
@@ -155293,15 +155391,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790867902.7776053,
-    "_updated_label": "2026-10-02 00:18",
-    "_last_success_at": 1790867902.7776053,
+    "_fetched_at": 1790890923.3121443,
+    "_updated_label": "2026-10-02 06:42",
+    "_last_success_at": 1790890923.3121443,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "CEG": {
@@ -157833,7 +157931,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "VST": {
@@ -159725,7 +159823,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "ETN": {
@@ -162010,7 +162108,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "PWR": {
@@ -164044,7 +164142,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "HUBB": {
@@ -164715,7 +164813,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "VRT": {
@@ -167387,7 +167485,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "MOD": {
@@ -168128,7 +168226,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "STX": {
@@ -170023,7 +170121,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "EME": {
@@ -171160,7 +171258,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "FIX": {
@@ -172149,7 +172247,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   },
   "BE": {
@@ -174048,7 +174146,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-02 06:11"
+      "updated": "2026-10-02 06:42"
     }
   }
 };

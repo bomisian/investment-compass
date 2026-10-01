@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790889073.5947616,
+  "generatedAt": 1790890946.4738438,
   "events": [
     {
       "id": "b3a6dde48d569609fa3a",
@@ -1915,6 +1915,76 @@ const EVENT_DATA = {
         "신규 주식 수·행사가격",
         "조달 자금 사용처",
         "완전희석 주식수와 EPS"
+      ]
+    },
+    {
+      "id": "dac713c69df20e138c1b",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "SPY",
+      "relatedTickers": [
+        "QQQ",
+        "SPY"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "If The S&P 500 Doesn’t Hit 10,000, This ETF Is Going To Zero",
+      "headlineKo": "S&P 500이 10,000에 도달하지 못하면 이 ETF는 0이 됩니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=91c602a2874be1c1ce30fa5b8005948794cb70635596d6318e16ecd37b931e39",
+        "publishedAt": 1790867394,
+        "collectedAt": 1790890923.3121443
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "S&P 500이 10,000에 도달하지 못하면 이 ETF는 0이 될 것입니다 - 24/7 Wall St.",
+        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,679.80 +0.09% Dow Jones 50,997.80 −0.06% Nasdaq 100 30,549.60 +0.20% Russell 2000 2,814.41 +0.41% S&P 500 7,679.80 +0.09% 다우존스 50,997.80 −0.06% 나스닥 100 30,549.60 +0.20% 러셀 2000 2,814.41 +0.",
+        "대부분의 투자자에게 수학이 의미가 있는지 여부는 다릅니다… AJ Tiarsmith 작성 2026년 10월 1일 오전 11시 9분(ET) · 읽기 4분 𝕏 f ⧉ 동전 더미와 촛대 차트는 야심찬 g를 나타내는 S&P 500 지수를 보여줍니다."
+      ],
+      "marketInterpretation": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.09%, 0.06%, 0.20% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "SPY에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.09%, 0.06%, 0.20% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "SPY",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 CAPEX 집행",
+        "공급업체 수주·매출",
+        "투자 기업 OCF·FCF·부채"
       ]
     },
     {
@@ -4951,7 +5021,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=5122b8df865fc34f62aa38209ae8a7c3af8567f2c3e2d905fb5868f4028870bc",
         "publishedAt": 1790844633,
-        "collectedAt": 1790867902.7776053
+        "collectedAt": 1790890923.3121443
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6596,7 +6666,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ff7223554078df0ced7983593f33c82ca9484f684de84a872f948b0a1901ab86",
         "publishedAt": 1790809589,
-        "collectedAt": 1790867902.7776053
+        "collectedAt": 1790890923.3121443
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7051,7 +7121,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a8ee20b68da4f30c86817c3e8c558746e67664bb035e14246f6f82f294a2fc4a",
         "publishedAt": 1790803409,
-        "collectedAt": 1790867902.7776053
+        "collectedAt": 1790890923.3121443
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14331,7 +14401,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b29367caa8ba474888c37b79cc487e137a3df2ee3a998352f56a21dd1d9e104d",
         "publishedAt": 1790723207,
-        "collectedAt": 1790867902.7776053
+        "collectedAt": 1790890923.3121443
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14481,7 +14551,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=df076b1e0ea4fcf5a99c515a953021e0b32023f0067e91178578e91f8038213b",
         "publishedAt": 1790721008,
-        "collectedAt": 1790867902.7776053
+        "collectedAt": 1790890923.3121443
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18040,77 +18110,6 @@ const EVENT_DATA = {
         "재고와 리드타임",
         "매출총이익률·대체 공급처"
       ]
-    },
-    {
-      "id": "89cbd01c0483009c1a46",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "PLTR",
-      "relatedTickers": [
-        "PLTR",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "If You Invest $1,000 in Palantir Each Month Starting Now, This is What You’d Have in 5 Years",
-      "headlineKo": "지금부터 매달 Palantir에 1,000달러를 투자하면 5년 후에는 이 금액을 갖게 됩니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3e365a0e8f3b7ade956b9c4bd4e901247099900dffb1e68a5cd96e31a714130a",
-        "publishedAt": 1790695845,
-        "collectedAt": 1790888678.6616092
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "지금부터 매달 Palantir에 1,000달러를 투자하면 5년 후에는 이 금액을 얻게 됩니다. - 24/7 Wall St.",
-        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,688.60 −0.12% Dow Jones 51,412.00 −0.29% Nasdaq 100 30,415.70 +0.28% Russell 2000 2,808.41 −0.56% S&P 500 7,688.60 −0.12% 다우존스 51,412.00 −0.29% 나스닥 100 30,415.70 +0.28% 러셀 2000 2,808.41 −0.",
-        "다음은 간단한 월간 계획이 각 계획과 비교되는 방법입니다."
-      ],
-      "marketInterpretation": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: $1,000, $60,000, $189.67. — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "PLTR에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: $1,000, $60,000, $189.67. — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "PLTR",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "목표주가 산식의 EPS",
-        "적용 PER 변화",
-        "회사 공식 가이던스"
-      ]
     }
   ],
   "byTicker": {
@@ -18367,6 +18366,7 @@ const EVENT_DATA = {
       "124f14e1e9844f84fb7c",
       "85b12bedbf9fc79e982d",
       "92ea573756206a441158",
+      "dac713c69df20e138c1b",
       "1f3ea04df805c0a36731",
       "0edde89fa5be7992a109",
       "48fd1bd45ec9cb3fb636",
@@ -18456,8 +18456,7 @@ const EVENT_DATA = {
       "c1260d8fe06d711f9648",
       "ce65f19dd9553fc014ef",
       "839850ceadb9b759b9b0",
-      "1e633b125ee50754bf15",
-      "89cbd01c0483009c1a46"
+      "1e633b125ee50754bf15"
     ],
     "COHR": [
       "3920fd4b73f7cdc79031",
@@ -18478,6 +18477,7 @@ const EVENT_DATA = {
       "124f14e1e9844f84fb7c",
       "85b12bedbf9fc79e982d",
       "92ea573756206a441158",
+      "dac713c69df20e138c1b",
       "0edde89fa5be7992a109",
       "48fd1bd45ec9cb3fb636",
       "d120c47a1245458d62c9",
@@ -18541,8 +18541,7 @@ const EVENT_DATA = {
       "c1260d8fe06d711f9648",
       "ce65f19dd9553fc014ef",
       "839850ceadb9b759b9b0",
-      "1e633b125ee50754bf15",
-      "89cbd01c0483009c1a46"
+      "1e633b125ee50754bf15"
     ],
     "TSLA": [
       "ebed3cffacda7c7172e0",
@@ -18758,8 +18757,7 @@ const EVENT_DATA = {
       "ca0b78262fce14ab2b4a",
       "b40208aaaff30716962f",
       "e1a4f31815b74a29b94b",
-      "67caf8abc8fd5925144a",
-      "89cbd01c0483009c1a46"
+      "67caf8abc8fd5925144a"
     ],
     "LRCX": [
       "7f1fba7349dfb4b045e9"
