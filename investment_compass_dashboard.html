@@ -559,6 +559,7 @@
 <script>document.write('<script src="fair_value_alt_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 2026-09-30 신규(사용자 지시: 애널리스트 범위 말고 우리 기준가 공식으로 전 종목 표기) -- 126_base_price/build_126_base_price.py가 매일 생성. -->
 <script>document.write('<script src="base_price_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
+<script>document.write('<script src="price_ref_coverage_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 2026-09-29 신규(사용자 요청: 큰 폭 조정이 이익 때문인지 가격만의 조정인지) -- 104_drawdown_type/build_104_drawdown_type.py가 매일 생성. 설명용. -->
 <script>document.write('<script src="drawdown_type_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 2026-09-29 신규(사용자 요청: 이쯤이면 나쁘지 않다/좀 높다 기준) -- 107_price_zone/build_107_price_zone.py가 매일 생성. -->
@@ -5097,6 +5098,7 @@ function tabJudgement(r){
       </div>
     </details>
 
+    ${priceRefCoverageHtml(r.ticker)}
     <details style="margin-top:10px;"><summary style="cursor:pointer;font-weight:600;padding:6px 0;">▸ 데이터 상태·출처</summary>
       <div style="margin-top:8px;">
         ${earningsBadge(r.ticker)}
@@ -9738,6 +9740,23 @@ function basePriceCellHtml(ticker){
   const em2 = estMomentumChip(ticker);
   const tip = `기준가 ${f(x.base)} = 내년(${esc(String(x.fy1_end || ''))}) 예상 EPS $${x.eps1.toFixed(2)} × 기준 PER ${x.base_pe.toFixed(1)}배(${x.basis === 'sector' ? '같은 업종·같은 EPS 기준 종목 중 ' : '업종 안 비교군 부족 - 업종 무관 '}내년 매출 성장 예상 ${(x.rev_growth * 100).toFixed(0)}%와 비슷한 ${x.n_neighbors}개 종목의 PER 중앙값) · 시장 범위 ${f(x.band[0])}~${f(x.band[2])} · ${e.live ? '현재가' : '수집일 가격'} ${f(e.price)} · 참고용(예측력 미검증) · 07 탭에서 근거`;
   return `<span title="${tip}">기준가 <b${x.cycle ? ' style="color:#8a8f96;"' : ''}>${f(x.base)}</b>${x.cycle ? '<span class="sub" style="font-size:10px;"> 신뢰 낮음</span>' : ''} <span class="sub" style="font-size:10px;">(${f(x.band[0])}~${f(x.band[2])})</span><br><span style="font-size:11px;color:${c};font-weight:700;">${esc(e.label)} ${g}</span>${tags}${em2 ? '<br>' + em2 : ''}</span>`;
+}
+// [2026-10-01 신규] 연구용 가격참조 커버리지(129 v0.3r2, Codex 감사 PASS): 상태·사유·다음 필요자료만. 가격·판정·순위·신호·알림과 연결하지 않음.
+function priceRefCoverageHtml(ticker){
+  const C = (typeof window !== 'undefined') ? window.PRICE_REF_COVERAGE : null;
+  if(!C || !C.rows) return '';
+  const col = {SOURCE_BACKED_RANGE:'#1b6b3a', RESEARCH_SCENARIO_ONLY:'#876000', NOT_READY:'#626b76', NOT_APPLICABLE:'#8a8f96'};
+  const chip = x => `<b style="color:${col[x.state] || '#626b76'};">${esc(x.label)}</b>`;
+  const x = C.rows[ticker];
+  const one = x ? `<div class="comment-box" style="background:var(--panel-2);">${chip(x)} · 분류 ${esc(x.class)}
+      <div class="sub" style="margin-top:4px;">사유: ${(x.reasons || []).map(esc).join('; ')}</div>
+      <div class="sub" style="margin-top:4px;">다음에 필요한 원자료: ${(x.next || []).map(esc).join('; ')}</div></div>` : '<div class="sub">이 종목은 커버리지 표에 없습니다.</div>';
+  const sum = Object.entries(C.summary || {}).map(([k, v]) => `${esc((({SOURCE_BACKED_RANGE:'출처 기반 범위 준비됨', RESEARCH_SCENARIO_ONLY:'연구 시나리오만 있음', NOT_READY:'NOT_READY', NOT_APPLICABLE:'대상 아님'})[k]) || k)} ${v}`).join(' · ');
+  const all = Object.entries(C.rows).map(([t, r]) => `<tr><td style="padding:2px 8px 2px 0;">${esc(t)}</td><td style="padding:2px 8px 2px 0;">${chip(r)}</td><td class="sub" style="padding:2px 0;">${esc((r.reasons || [])[0] || '')}</td></tr>`).join('');
+  return `<details style="margin-top:10px;"><summary style="cursor:pointer;font-weight:600;padding:6px 0;">▸ 연구용 가격참조 커버리지 (가격 아님)</summary>
+    <div style="margin-top:8px;">${one}
+    <div class="sub" style="margin-top:6px;">${esc(C.policy || '')}<br>전체 41종목: ${sum} · 기준 ${esc(String(C.consensus_day || ''))} · ${esc(C.version || '')} · 매니페스트 ${esc(String(C.manifest_sha256 || '').slice(0, 12))}</div>
+    <details style="margin-top:6px;"><summary style="cursor:pointer;font-size:12.5px;color:var(--sub);">전체 종목 상태 보기</summary><table style="font-size:12px;margin-top:6px;border-collapse:collapse;">${all}</table></details></div></details>`;
 }
 function basePriceBox(r){
   const B = (typeof window !== 'undefined') ? window.BASE_PRICE : null;
