@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790936968.5186584,
+  "generatedAt": 1790938854.9417212,
   "events": [
     {
       "id": "e0eeae9ec683bcaedb54",
@@ -439,6 +439,79 @@ const EVENT_DATA = {
         "공식 매출·EPS 가이던스",
         "컨센서스 추정치 변경",
         "마진·FCF 전망"
+      ]
+    },
+    {
+      "id": "0269855baa404240fe02",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "QQQ",
+      "relatedTickers": [
+        "AMZN",
+        "MU",
+        "QQQ",
+        "SPY",
+        "STX"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Stocktwits Passport Portfolio: QQQ Holds Up Better Than SPY, DIA And Asian Stocks Amid Bond Market Rout This Week",
+      "headlineKo": "Stocktwits 여권 포트폴리오: QQQ는 이번 주 채권 시장 하락 속에서 SPY, DIA 및 아시아 주식보다 더 나은 모습을 유지합니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=bc8aa8f8dc7b1b729cc67078895996bac0600bf43adbaf273446fd9ed902bc59",
+        "publishedAt": 1790921953,
+        "collectedAt": 1790938822.4966052
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Stocktwits 여권 포트폴리오: QQQ는 이번 주 채권 시장의 대패 속에서 SPY, DIA 및 아시아 주식보다 더 나은 모습을 유지합니다. AI 에이전트 동향 뉴스 수익 전체 DIA 0.57% SPY 0.53% QQQ 0.76% 추세 NKE 10.10% AMZN 0.64% MCD 0.22% STX 5.45% MU 0.59%",
+        "Stocktwits 여권 포트폴리오: QQQ는 이번 주 채권 시장의 대패 속에서 SPY, DIA 및 아시아 주식보다 더 나은 모습을 유지하고 있습니다. Nasdaq을 추적하는 Invesco QQQ Trust는 이번 주에 지금까지 동료 중에서 가장 낮은 하락세를 기록했습니다.",
+        "검정색 배경에 주식 시장이 하락했습니다."
+      ],
+      "marketInterpretation": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.57%, 0.53%, 0.76% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.57%, 0.53%, 0.76% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "QQQ",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 CAPEX 집행",
+        "공급업체 수주·매출",
+        "투자 기업 OCF·FCF·부채"
       ]
     },
     {
@@ -13352,7 +13425,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=a614fe6381c28affd2154cd1bd5af99d4a2c067b58bcf01e81cb808d167a27b7",
         "publishedAt": 1790772460,
-        "collectedAt": 1790913732.1253555
+        "collectedAt": 1790938822.4966052
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16595,7 +16668,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=933afec0bf4e4c49c1603f4fe38dc8dbd4cf21c46cf6dd2a58b279fd7cd51834",
         "publishedAt": 1790735593,
-        "collectedAt": 1790913732.1253555
+        "collectedAt": 1790938822.4966052
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16812,7 +16885,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=863db48307d9b0cebe4c74a39ae2423615cefdb5af2796106219e25a2d76025c",
         "publishedAt": 1790724710,
-        "collectedAt": 1790913732.1253555
+        "collectedAt": 1790938822.4966052
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17174,7 +17247,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=52cf6de53b5689bd0714c3363548ff0ac1aa89a179f54f770870db1c9e62abbd",
         "publishedAt": 1790720400,
-        "collectedAt": 1790913732.1253555
+        "collectedAt": 1790938822.4966052
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18020,62 +18093,6 @@ const EVENT_DATA = {
         "적용 PER 변화",
         "회사 공식 가이던스"
       ]
-    },
-    {
-      "id": "a98137e9fa34ccedada9",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "MU",
-      "relatedTickers": [
-        "MU"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "What Micron’s next earnings could reveal about the AI chip market",
-      "headlineKo": "Micron의 다음 실적이 AI 칩 시장에 대해 밝힐 수 있는 것",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9b14cc5197b2d545dcfd3bb0c4a2d7794702d40677f79b9997fd8a2ca150a0e0",
-        "publishedAt": 1790713200,
-        "collectedAt": 1790934526.0931425
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Micron의 다음 실적이 AI 칩 시장에 대해 밝힐 수 있는 것"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "MU",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
     }
   ],
   "byTicker": {
@@ -18122,6 +18139,7 @@ const EVENT_DATA = {
       "e0eeae9ec683bcaedb54",
       "5919e96d87d5217351eb",
       "ccec3c3d5322269c8824",
+      "0269855baa404240fe02",
       "0e01c69790881ae304cf",
       "3a72b6df53e77404ce30",
       "374db392c7e83c40ed3e",
@@ -18186,8 +18204,7 @@ const EVENT_DATA = {
       "e227c2a28a84461b826f",
       "5b03345b136391e8da73",
       "89a696716d4d74b20d3b",
-      "0b033bf14b0854fa244e",
-      "a98137e9fa34ccedada9"
+      "0b033bf14b0854fa244e"
     ],
     "NVDA": [
       "e0eeae9ec683bcaedb54",
@@ -18294,6 +18311,7 @@ const EVENT_DATA = {
       "4ca621a1ddee5bfc88d5",
       "5919e96d87d5217351eb",
       "2b704432c27532f8733f",
+      "0269855baa404240fe02",
       "cafc5d15193d5f54da75",
       "6832cb655a90a3dafd84",
       "29fe8dd9dff4fa8a9084",
@@ -18329,6 +18347,7 @@ const EVENT_DATA = {
     "QQQ": [
       "2b704432c27532f8733f",
       "ccec3c3d5322269c8824",
+      "0269855baa404240fe02",
       "9300b1599e56fea8d471",
       "81078e2ef4f310088426",
       "fc9adc00e2cd5ce31fd0",
@@ -18403,6 +18422,7 @@ const EVENT_DATA = {
     "SPY": [
       "2b704432c27532f8733f",
       "ccec3c3d5322269c8824",
+      "0269855baa404240fe02",
       "9300b1599e56fea8d471",
       "3a72b6df53e77404ce30",
       "81078e2ef4f310088426",
@@ -18514,6 +18534,11 @@ const EVENT_DATA = {
       "62f61c65830dc9a0d9e4",
       "6fe9bf8765596c2fc91f",
       "b22bc025810b2c0f8510"
+    ],
+    "STX": [
+      "0269855baa404240fe02",
+      "92ea573756206a441158",
+      "a3c1481fb52550f392cd"
     ],
     "META": [
       "9300b1599e56fea8d471",
@@ -18723,10 +18748,6 @@ const EVENT_DATA = {
     "ANET": [
       "85b12bedbf9fc79e982d",
       "6185ce19f103a144983f"
-    ],
-    "STX": [
-      "92ea573756206a441158",
-      "a3c1481fb52550f392cd"
     ],
     "QCOM": [
       "2aed50099d4fbe3cb593",
