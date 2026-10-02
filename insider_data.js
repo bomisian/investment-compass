@@ -1724,8 +1724,8 @@ const INSIDER_DATA = {
   },
   "ASML": {
     "transactions": [],
-    "_fetched_at": 1790847347.841591,
-    "_updated_label": "2026-10-01"
+    "_fetched_at": 1790919560.9702895,
+    "_updated_label": "2026-10-02"
   },
   "AMAT": {
     "transactions": [
@@ -3265,8 +3265,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1790847347.841591,
-    "_updated_label": "2026-10-01"
+    "_fetched_at": 1790919560.9702895,
+    "_updated_label": "2026-10-02"
   },
   "BE": {
     "transactions": [
