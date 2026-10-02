@@ -246,6 +246,15 @@ const MARKET_DATA = {
       "summaryKo": "유대인 공동체를 겨냥한 테러 음모 혐의로 이란인 2명 영국에서 기소 - 최신"
     },
     {
+      "headline": "What do we know about flydubai flight 1073? - Reuters",
+      "summary": "What do we know about flydubai flight 1073? Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVlJGRkhlVDNVaGt3ekU3cFNoQzExQVRHTkFZc0lPWkhrQXFaWXFDMGJTdzNKMmF4T0JMcHRTQkxYRGhMbTZJNWt5WVZPNFM5MElvUGlYaHNLMU1kUVd1N2xkR3RaS0ppYll2a3hFZ1Y2N1k3bnpGUXI5T0JNclZpb0Mwdy11TTI1NzR5Ni1lS0ZZcl9IczM4LWExaG4?oc=5",
+      "datetime": 1790974404,
+      "headlineKo": "플라이두바이 1073편에 대해 우리는 무엇을 알고 있나요? - 로이터",
+      "summaryKo": "플라이두바이 1073편에 대해 우리는 무엇을 알고 있나요? 로이터"
+    },
+    {
       "headline": "Israeli officials to question co-pilot of flydubai flight, source says - Reuters",
       "summary": "Israeli officials to question co-pilot of flydubai flight, source says Reuters",
       "source": "Reuters",
@@ -253,15 +262,6 @@ const MARKET_DATA = {
       "datetime": 1790972450,
       "headlineKo": "이스라엘 관리들이 플라이두바이 비행 부조종사를 심문할 것이라고 소식통이 전했습니다.",
       "summaryKo": "이스라엘 관리들이 플라이두바이 비행의 부조종사를 심문할 것이라고 소식통이 말했습니다."
-    },
-    {
-      "headline": "Explainer: What do we know about flydubai flight 1073? - Reuters",
-      "summary": "Explainer: What do we know about flydubai flight 1073? Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVlJGRkhlVDNVaGt3ekU3cFNoQzExQVRHTkFZc0lPWkhrQXFaWXFDMGJTdzNKMmF4T0JMcHRTQkxYRGhMbTZJNWt5WVZPNFM5MElvUGlYaHNLMU1kUVd1N2xkR3RaS0ppYll2a3hFZ1Y2N1k3bnpGUXI5T0JNclZpb0Mwdy11TTI1NzR5Ni1lS0ZZcl9IczM4LWExaG4?oc=5",
-      "datetime": 1790972406,
-      "headlineKo": "설명: 플라이두바이 1073편에 대해 우리는 무엇을 알고 있나요? - 로이터",
-      "summaryKo": "설명: 플라이두바이 1073편에 대해 우리는 무엇을 알고 있나요? 로이터"
     },
     {
       "headline": "EXCLUSIVE: G7 countries agree on release of diesel and oil stocks after US pressure - reuters.com",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790976755.5475097,
+  "_news_last_success_at": 1790980798.6361346,
   "fgi": {
     "score": 31.1714285714286,
     "rating": "fear"
   },
-  "_fetched_at": 1790976742.7881832,
-  "_updated_label": "2026-10-03 06:33",
-  "_last_attempt_at": 1790976742.7881832,
-  "_last_success_at": 1790976742.7881832,
+  "_fetched_at": 1790980790.5161257,
+  "_updated_label": "2026-10-03 07:40",
+  "_last_attempt_at": 1790980790.5161257,
+  "_last_success_at": 1790980790.5161257,
   "_collection_status": "ok",
   "_collection_errors": []
 };
