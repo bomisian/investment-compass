@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790982675.7139385,
+  "generatedAt": 1790984522.9346912,
   "records": {
     "MSFT": [
       {
@@ -36074,6 +36074,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "WDC": [
       {
+        "changedAt": 1790984522.9346912,
+        "dataAsOf": 1790971358,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -2.8,
+            "after": -2.45
+          },
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -0.35,
+            "after": 0.0
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -4.02,
+            "after": -3.67
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "세 번째 목요일에 Google의 9억 2천만 달러 규모의 AI 협약이 시작되면서 SPCX 주가가 상승했습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=2a7776e834dca6c2b0ebc4a861be7977a6d592f84149e54306c8264bc8cab7cd",
+        "eventId": "fbb636cc3926e7178202",
+        "fingerprint": "{\"changes\": [{\"after\": -2.45, \"before\": -2.8, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.0, \"before\": -0.35, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -3.67, \"before\": -4.02, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"fbb636cc3926e7178202\"}"
+      },
+      {
         "changedAt": 1790980790.1775115,
         "dataAsOf": 1790971358,
         "changes": [
@@ -37765,29 +37794,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=e982b9b10637ca38c16ead2813078f4f1e3e69e0390b6918d1eca3b0253f8840",
         "eventId": "2b95fdaee54122dac7c3",
         "fingerprint": "{\"changes\": [{\"after\": -3.67, \"before\": -3.15, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.67, \"before\": -3.15, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"2b95fdaee54122dac7c3\"}"
-      },
-      {
-        "changedAt": 1788901262.897737,
-        "dataAsOf": 1788884340,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": -2.62,
-            "after": -3.15
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -2.62,
-            "after": -3.15
-          }
-        ],
-        "cause": "메모리·스토리지 가격 강세 수혜 가능성",
-        "newsHeadline": "Apple, 새로운 CEO Ternus가 무대에 오르면서 최초의 폴더블 iPhone 공개 예정",
-        "newsUrl": "https://finnhub.io/api/news?id=a8c4fc81b70a48ca8c1bc29495bc1502f0dde9d52e28e524b625d99bb1bfa022",
-        "eventId": "e08d294166d607e6fa00",
-        "fingerprint": "{\"changes\": [{\"after\": -3.15, \"before\": -2.62, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.15, \"before\": -2.62, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"e08d294166d607e6fa00\"}"
       }
     ],
     "ANET": [
@@ -43741,6 +43747,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "VST": [
+      {
+        "changedAt": 1790984522.9346912,
+        "dataAsOf": 1790973424,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.7,
+            "after": 1.05
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.4,
+            "after": 2.1
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.35,
+            "after": 0.7
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "트럼프 행정부는 Vistra의 원자력 용량 확장을 위해 40억 달러의 연방 대출을 준비한 것으로 알려짐",
+        "newsUrl": "https://finnhub.io/api/news?id=b381071346cdccaa923c9d2d4714acbc53905119ff5a8870022fd89d72b83fb2",
+        "eventId": "1cde97e0c777a2860f13",
+        "fingerprint": "{\"changes\": [{\"after\": 1.05, \"before\": 0.7, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 2.1, \"before\": 1.4, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.7, \"before\": 0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"1cde97e0c777a2860f13\"}"
+      },
       {
         "changedAt": 1790980790.1775115,
         "dataAsOf": 1790973424,

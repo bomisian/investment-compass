@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1790961757.9292467,
+    "_last_attempt_at": 1790984507.0644338,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -19,20 +19,20 @@ const NEWS_DATA = {
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "label": "장기 공급계약 · 매출 가시성 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Stocktwits 여권 포트폴리오: QQQ는 이번 주 채권 시장의 대패 속에서 SPY, DIA 및 아시아 주식보다 더 나은 모습을 유지합니다. AI 에이전트 동향 뉴스 수익 모든 DIA 0.43% SPY 0.71% QQQ 0.99% 추세 NKE 5.01% XRPN 81.35% RIVN 4.57% TTD 1.16% WDC 11.0",
+            "Stocktwits 여권 포트폴리오: QQQ는 이번 주 채권 시장의 대패 속에서 SPY, DIA 및 아시아 주식보다 더 나은 모습을 유지합니다. AI 에이전트 동향 뉴스 수익 전체 DIA 0.49% SPY 0.73% QQQ 0.99% 추세 CBRS 0.93% IBRX 11.30% VST 3.16% XRPN 62.19% WULF 3",
             "Stocktwits 여권 포트폴리오: QQQ는 이번 주 채권 시장의 대패 속에서 SPY, DIA 및 아시아 주식보다 더 나은 모습을 유지하고 있습니다. Nasdaq을 추적하는 Invesco QQQ Trust는 이번 주에 지금까지 동료 중에서 가장 낮은 하락세를 기록했습니다.",
             "검정색 배경에 주식 시장이 하락했습니다."
           ],
           "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.43%, 0.71%, 0.99% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.49%, 0.73%, 0.99% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -43,30 +43,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
+            "계약 기간·최소구매 조건",
+            "연도별 매출 인식",
+            "수주잔고·취소 조건"
           ],
-          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "QQQ에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 1.0,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.43%",
-            "0.71%",
+            "0.49%",
+            "0.73%",
             "0.99%",
-            "5.01%",
-            "81.35%",
-            "4.57%",
-            "1.16%",
-            "11.05%"
+            "0.93%",
+            "11.30%",
+            "3.16%",
+            "62.19%",
+            "3.93%"
           ],
           "sourceExcerpt": [
-            "Stocktwits Passport Portfolio: QQQ Holds Up Better Than SPY, DIA And Asian Stocks Amid Bond Market Rout This Week AI Agent Trending News Earnings All DIA 0.43% SPY 0.71% QQQ 0.99% Trending NKE 5.01% XRPN 81.35% RIVN 4.57% TTD 1.16% WDC 11.0",
+            "Stocktwits Passport Portfolio: QQQ Holds Up Better Than SPY, DIA And Asian Stocks Amid Bond Market Rout This Week AI Agent Trending News Earnings All DIA 0.49% SPY 0.73% QQQ 0.99% Trending CBRS 0.93% IBRX 11.30% VST 3.16% XRPN 62.19% WULF 3",
             "Stocktwits Passport Portfolio: QQQ Holds Up Better Than SPY, DIA And Asian Stocks Amid Bond Market Rout This Week The Invesco QQQ Trust, which tracks the Nasdaq, has posted the lowest decline amongst its peers so far this week, bolstered in",
             "Stock market down on a black background."
           ],
-          "analysisUpdatedAt": 1790961764.6370242
+          "analysisUpdatedAt": 1790984514.0444849
         },
         "headlineKo": "Stocktwits 여권 포트폴리오: QQQ는 이번 주 채권 시장 하락 속에서 SPY, DIA 및 아시아 주식보다 더 나은 모습을 유지합니다."
       },
@@ -130,7 +130,7 @@ const NEWS_DATA = {
             "stock futures pared losses to advance on Thursday, as the Dow Jones, S&P 500, and Nasdaq 100 indices rose, following Wednesday’s mixed close.",
             "weekly jobless claims edged down to a seasonally adjusted 197,000 for the week ending Sept."
           ],
-          "analysisUpdatedAt": 1790961767.1226711
+          "analysisUpdatedAt": 1790984516.8695247
         },
         "headlineKo": "오늘의 주식 시장: 이란이 미국의 휴전 복원 제안을 받아들임에 따라 S&P 500, Nasdaq 100, Dow Jones 선물 상승 - CEG, VICR, MU 초점(업데이트됨)"
       },
@@ -194,7 +194,7 @@ const NEWS_DATA = {
             "stocks are higher at midday Wednesday, led by technology and software shares, after softer-than-expected inflation data eased fears of another Federal Reserve rate hike.",
             "Oil is climbing again, however, and long-dated Treasury yields remain close to multi-decade highs."
           ],
-          "analysisUpdatedAt": 1790961771.9989784
+          "analysisUpdatedAt": 1790984519.9652143
         },
         "headlineKo": "Cooler PCE가 금리 인상 베팅을 줄임에 따라 Nasdaq 100이 상승하고 Micron 실적이 불투명해짐: 오늘 주식 시장"
       },
@@ -350,20 +350,20 @@ const NEWS_DATA = {
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "label": "장기 공급계약 · 매출 가시성 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Stocktwits 여권 포트폴리오: QQQ는 이번 주 채권 시장의 대패 속에서 SPY, DIA 및 아시아 주식보다 더 나은 모습을 유지합니다. AI 에이전트 동향 뉴스 수익 모든 DIA 0.43% SPY 0.71% QQQ 0.99% 추세 NKE 5.01% XRPN 81.35% RIVN 4.57% TTD 1.16% WDC 11.0",
+            "Stocktwits 여권 포트폴리오: QQQ는 이번 주 채권 시장의 대패 속에서 SPY, DIA 및 아시아 주식보다 더 나은 모습을 유지합니다. AI 에이전트 동향 뉴스 수익 전체 DIA 0.49% SPY 0.73% QQQ 0.99% 추세 CBRS 0.93% IBRX 11.30% VST 3.16% XRPN 62.19% WULF 3",
             "Stocktwits 여권 포트폴리오: QQQ는 이번 주 채권 시장의 대패 속에서 SPY, DIA 및 아시아 주식보다 더 나은 모습을 유지하고 있습니다. Nasdaq을 추적하는 Invesco QQQ Trust는 이번 주에 지금까지 동료 중에서 가장 낮은 하락세를 기록했습니다.",
             "검정색 배경에 주식 시장이 하락했습니다."
           ],
           "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.43%, 0.71%, 0.99% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.49%, 0.73%, 0.99% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -374,30 +374,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
+            "계약 기간·최소구매 조건",
+            "연도별 매출 인식",
+            "수주잔고·취소 조건"
           ],
-          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "QQQ에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 1.0,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.43%",
-            "0.71%",
+            "0.49%",
+            "0.73%",
             "0.99%",
-            "5.01%",
-            "81.35%",
-            "4.57%",
-            "1.16%",
-            "11.05%"
+            "0.93%",
+            "11.30%",
+            "3.16%",
+            "62.19%",
+            "3.93%"
           ],
           "sourceExcerpt": [
-            "Stocktwits Passport Portfolio: QQQ Holds Up Better Than SPY, DIA And Asian Stocks Amid Bond Market Rout This Week AI Agent Trending News Earnings All DIA 0.43% SPY 0.71% QQQ 0.99% Trending NKE 5.01% XRPN 81.35% RIVN 4.57% TTD 1.16% WDC 11.0",
+            "Stocktwits Passport Portfolio: QQQ Holds Up Better Than SPY, DIA And Asian Stocks Amid Bond Market Rout This Week AI Agent Trending News Earnings All DIA 0.49% SPY 0.73% QQQ 0.99% Trending CBRS 0.93% IBRX 11.30% VST 3.16% XRPN 62.19% WULF 3",
             "Stocktwits Passport Portfolio: QQQ Holds Up Better Than SPY, DIA And Asian Stocks Amid Bond Market Rout This Week The Invesco QQQ Trust, which tracks the Nasdaq, has posted the lowest decline amongst its peers so far this week, bolstered in",
             "Stock market down on a black background."
           ],
-          "analysisUpdatedAt": 1790961764.6370242
+          "analysisUpdatedAt": 1790984514.0444849
         }
       },
       {
@@ -460,7 +460,7 @@ const NEWS_DATA = {
             "stock futures pared losses to advance on Thursday, as the Dow Jones, S&P 500, and Nasdaq 100 indices rose, following Wednesday’s mixed close.",
             "weekly jobless claims edged down to a seasonally adjusted 197,000 for the week ending Sept."
           ],
-          "analysisUpdatedAt": 1790961767.1226711
+          "analysisUpdatedAt": 1790984516.8695247
         }
       },
       {
@@ -523,7 +523,7 @@ const NEWS_DATA = {
             "stocks are higher at midday Wednesday, led by technology and software shares, after softer-than-expected inflation data eased fears of another Federal Reserve rate hike.",
             "Oil is climbing again, however, and long-dated Treasury yields remain close to multi-decade highs."
           ],
-          "analysisUpdatedAt": 1790961771.9989784
+          "analysisUpdatedAt": 1790984519.9652143
         }
       },
       {
@@ -3944,15 +3944,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1790961757.9292467,
-    "_updated_label": "2026-10-03 02:22",
-    "_last_success_at": 1790961757.9292467,
+    "_fetched_at": 1790984507.0644338,
+    "_updated_label": "2026-10-03 08:41",
+    "_last_success_at": 1790984507.0644338,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "SPY": {
@@ -8730,7 +8730,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "MSFT": {
@@ -16776,7 +16776,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "GOOGL": {
@@ -24919,7 +24919,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "AMZN": {
@@ -32791,7 +32791,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "META": {
@@ -40306,7 +40306,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "AAPL": {
@@ -48230,7 +48230,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "TSLA": {
@@ -56088,7 +56088,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "ORCL": {
@@ -64306,7 +64306,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "CRM": {
@@ -69623,7 +69623,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "PLTR": {
@@ -77569,7 +77569,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 181,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "NVDA": {
@@ -84939,7 +84939,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "AMD": {
@@ -92761,7 +92761,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "AVGO": {
@@ -98864,7 +98864,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 124,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "QCOM": {
@@ -103680,7 +103680,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 107,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "ARM": {
@@ -107532,7 +107532,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "MRVL": {
@@ -112648,7 +112648,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 107,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "INTC": {
@@ -119636,9 +119636,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 162,
-      "removed": 1,
-      "updated": "2026-10-03 08:01"
+      "checked": 161,
+      "removed": 0,
+      "updated": "2026-10-03 08:42"
     }
   },
   "TSM": {
@@ -124051,7 +124051,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "ASML": {
@@ -126916,7 +126916,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "AMAT": {
@@ -130363,7 +130363,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "LRCX": {
@@ -132009,7 +132009,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "KLAC": {
@@ -133564,7 +133564,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "MU": {
@@ -140915,7 +140915,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "SNDK": {
@@ -146454,7 +146454,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "WDC": {
@@ -149270,7 +149270,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "ANET": {
@@ -151760,7 +151760,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "COHR": {
@@ -154523,7 +154523,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "LITE": {
@@ -156804,7 +156804,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "GEV": {
@@ -160577,7 +160577,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "CEG": {
@@ -163297,7 +163297,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "VST": {
@@ -165351,7 +165351,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "ETN": {
@@ -167816,7 +167816,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "PWR": {
@@ -169997,7 +169997,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "HUBB": {
@@ -170728,7 +170728,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "VRT": {
@@ -173714,7 +173714,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "MOD": {
@@ -174649,7 +174649,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "STX": {
@@ -176949,7 +176949,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "EME": {
@@ -178264,7 +178264,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "FIX": {
@@ -179303,7 +179303,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   },
   "BE": {
@@ -181202,7 +181202,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-03 08:01"
+      "updated": "2026-10-03 08:42"
     }
   }
 };
