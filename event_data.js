@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790960414.5458138,
+  "generatedAt": 1790961774.8685198,
   "events": [
     {
       "id": "af6425171f6659bcec20",
@@ -3334,11 +3334,9 @@ const EVENT_DATA = {
       "eventLabel": "AI·데이터센터 투자 변화",
       "primaryTicker": "QQQ",
       "relatedTickers": [
-        "AMZN",
-        "MU",
         "QQQ",
         "SPY",
-        "STX"
+        "WDC"
       ],
       "relatedEntities": [],
       "importance": "medium",
@@ -3358,17 +3356,17 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bc8aa8f8dc7b1b729cc67078895996bac0600bf43adbaf273446fd9ed902bc59",
         "publishedAt": 1790921953,
-        "collectedAt": 1790938822.4966052
+        "collectedAt": 1790961757.9292467
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Stocktwits 여권 포트폴리오: QQQ는 이번 주 채권 시장의 대패 속에서 SPY, DIA 및 아시아 주식보다 더 나은 모습을 유지합니다. AI 에이전트 동향 뉴스 수익 전체 DIA 0.57% SPY 0.53% QQQ 0.76% 추세 NKE 10.10% AMZN 0.64% MCD 0.22% STX 5.45% MU 0.59%",
+        "Stocktwits 여권 포트폴리오: QQQ는 이번 주 채권 시장의 대패 속에서 SPY, DIA 및 아시아 주식보다 더 나은 모습을 유지합니다. AI 에이전트 동향 뉴스 수익 모든 DIA 0.43% SPY 0.71% QQQ 0.99% 추세 NKE 5.01% XRPN 81.35% RIVN 4.57% TTD 1.16% WDC 11.0",
         "Stocktwits 여권 포트폴리오: QQQ는 이번 주 채권 시장의 대패 속에서 SPY, DIA 및 아시아 주식보다 더 나은 모습을 유지하고 있습니다. Nasdaq을 추적하는 Invesco QQQ Trust는 이번 주에 지금까지 동료 중에서 가장 낮은 하락세를 기록했습니다.",
         "검정색 배경에 주식 시장이 하락했습니다."
       ],
       "marketInterpretation": [
         "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.57%, 0.53%, 0.76% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.43%, 0.71%, 0.99% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -3383,7 +3381,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.57%, 0.53%, 0.76% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.43%, 0.71%, 0.99% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -16309,17 +16307,17 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=a614fe6381c28affd2154cd1bd5af99d4a2c067b58bcf01e81cb808d167a27b7",
         "publishedAt": 1790772460,
-        "collectedAt": 1790938822.4966052
+        "collectedAt": 1790961757.9292467
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "PCE가 금리 인상 베팅을 줄이면서 나스닥 100 상승: 오늘의 주식 시장 - United Therapeutics (NASDAQ:UTHR - Benzinga SPY 762.26 −0.05% QQQ 739.14 −0.09% BTC/USD 84,359.40 +0.96% DIA 508.07 −0.10% GLD 382.12 +0.34% TLT 77.84 +0.07% US Sign i",
+        "PCE가 금리 인상 베팅을 줄이면서 나스닥 100 상승: 오늘의 주식 시장 - United Therapeutics (NASDAQ:UTHR - Benzinga SPY 769.38 +0.71% QQQ 749.95 +1.07% BTC/USD 85,246.88 +0.46% DIA 510.29 +0.33% GLD 379.41 −0.88% TLT 77.57 −0.18% US Sign i",
         "수요일 정오에는 예상보다 약한 인플레이션 데이터가 연준의 또 다른 금리 인상에 대한 우려를 완화한 후 기술주와 소프트웨어 주가 주도로 주식이 상승했습니다.",
         "그러나 유가는 다시 오르고 있으며 장기 국채 수익률은 수십년래 최고치에 근접한 상태를 유지하고 있습니다."
       ],
       "marketInterpretation": [
         "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.05%, 0.09%, 0.96% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.71%, 1.07%, 0.46% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -16335,7 +16333,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.05%, 0.09%, 0.96% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.71%, 1.07%, 0.46% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -18362,7 +18360,6 @@ const EVENT_DATA = {
       "4ca621a1ddee5bfc88d5",
       "5919e96d87d5217351eb",
       "2b704432c27532f8733f",
-      "0269855baa404240fe02",
       "cafc5d15193d5f54da75",
       "6832cb655a90a3dafd84",
       "29fe8dd9dff4fa8a9084",
@@ -18402,7 +18399,6 @@ const EVENT_DATA = {
       "e0eeae9ec683bcaedb54",
       "5919e96d87d5217351eb",
       "ccec3c3d5322269c8824",
-      "0269855baa404240fe02",
       "0e01c69790881ae304cf",
       "3a72b6df53e77404ce30",
       "374db392c7e83c40ed3e",
@@ -18626,6 +18622,7 @@ const EVENT_DATA = {
     "WDC": [
       "79ec7f6c493e8e437885",
       "153b34f2955f97f974f5",
+      "0269855baa404240fe02",
       "8263d2be765e18fde8c7",
       "c992c6aef9f54a73c695",
       "1c31ac315baa273dc334"
@@ -18681,7 +18678,6 @@ const EVENT_DATA = {
     ],
     "STX": [
       "153b34f2955f97f974f5",
-      "0269855baa404240fe02",
       "92ea573756206a441158",
       "a3c1481fb52550f392cd"
     ],
