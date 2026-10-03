@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791005720.446666,
+  "generatedAt": 1791007599.538898,
   "events": [
     {
       "id": "f6f47e11392f30299f2e",
@@ -485,6 +485,77 @@ const EVENT_DATA = {
         "공식 매출·EPS 가이던스",
         "컨센서스 추정치 변경",
         "마진·FCF 전망"
+      ]
+    },
+    {
+      "id": "64909fadbb7a557cc35f",
+      "schemaVersion": 1,
+      "eventType": "regulatory_legal_export",
+      "eventLabel": "규제·소송·수출 제한",
+      "primaryTicker": "QQQ",
+      "relatedTickers": [
+        "NVDA",
+        "QQQ",
+        "SPY"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "S&P 500, Nasdaq, Dow End Week Higher As Weak Jobs Report Cools Rate Hike Bets — NVDA, BA, SPCX, RIVN, APLD In Focus",
+      "headlineKo": "S&P 500, Nasdaq, Dow는 취약한 일자리 보고서가 금리 인상 베팅을 냉각함에 따라 주간 상승 — NVDA, BA, SPCX, RIVN, APLD 집중",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d04eae234e3a29ff64372c2c9007ab3075e1d99b0395ce2a635e928e33c28b0a",
+        "publishedAt": 1790980139,
+        "collectedAt": 1791007570.0228393
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "S&P 500, Nasdaq, Dow는 취약한 일자리 보고서가 금리 인상 베팅을 식히면서 주간 상승 — NVDA, BA, SPCX, RIVN, APLD 초점 AI 에이전트 동향 뉴스 수입 전체 DIA 0.49% SPY 0.74% QQQ 1.02% 추세 CRMD 2.16% IBRX 10.83% IWM 0.90% APP 4.65% NVAX 1",
+        "S&P 500, Nasdaq, Dow는 취약한 일자리 보고서가 금리 인상 베팅을 냉각함에 따라 주간 상승세 — NVDA, BA, SPCX, RIVN, APLD In Focus",
+        "경제는 지난 달 29,000개의 일자리를 추가했으며 실업률은 경제학자들의 예상보다 낮은 4.2%로 상승했습니다."
+      ],
+      "marketInterpretation": [
+        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.49%, 0.74%, 1.02% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "QQQ에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.49%, 0.74%, 1.02% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "QQQ",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "공식 규제 적용일·대상 제품",
+        "회사의 매출 영향 추정",
+        "대체 제품·지역 판매"
       ]
     },
     {
@@ -6280,18 +6351,17 @@ const EVENT_DATA = {
       ]
     },
     {
-      "id": "19e28d123e638f8e85ba",
+      "id": "53dd5d9ff1c3e67b4e93",
       "schemaVersion": 1,
-      "eventType": "long_term_supply",
-      "eventLabel": "장기 공급계약",
+      "eventType": "regulatory_legal_export",
+      "eventLabel": "규제·소송·수출 제한",
       "primaryTicker": "QQQ",
       "relatedTickers": [
         "QQQ",
-        "SPY",
-        "VST"
+        "SPY"
       ],
       "relatedEntities": [],
-      "importance": "medium",
+      "importance": "high",
       "sourceReliability": {
         "level": "medium",
         "score": 65,
@@ -6308,32 +6378,32 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bc8aa8f8dc7b1b729cc67078895996bac0600bf43adbaf273446fd9ed902bc59",
         "publishedAt": 1790921953,
-        "collectedAt": 1790984507.0644338
+        "collectedAt": 1791007570.0228393
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Stocktwits 여권 포트폴리오: QQQ는 이번 주 채권 시장의 대패 속에서 SPY, DIA 및 아시아 주식보다 더 나은 모습을 유지합니다. AI 에이전트 동향 뉴스 수익 전체 DIA 0.49% SPY 0.73% QQQ 0.99% 추세 CBRS 0.93% IBRX 11.30% VST 3.16% XRPN 62.19% WULF 3",
+        "Stocktwits 여권 포트폴리오: QQQ는 이번 주 채권 시장의 대패 속에서 SPY, DIA 및 아시아 주식보다 더 나은 모습을 유지합니다. AI 에이전트 동향 뉴스 수익 전체 DIA 0.49% SPY 0.74% QQQ 1.02% 추세 CRMD 2.16% IBRX 10.83% IWM 0.90% APP 4.65% NVAX 1.3",
         "Stocktwits 여권 포트폴리오: QQQ는 이번 주 채권 시장의 대패 속에서 SPY, DIA 및 아시아 주식보다 더 나은 모습을 유지하고 있습니다. Nasdaq을 추적하는 Invesco QQQ Trust는 이번 주에 지금까지 동료 중에서 가장 낮은 하락세를 기록했습니다.",
         "검정색 배경에 주식 시장이 하락했습니다."
       ],
       "marketInterpretation": [
-        "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.49%, 0.73%, 0.99% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.49%, 0.74%, 1.02% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
-        "QQQ에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+        "QQQ에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
       ],
       "beginnerExplanation": [
-        "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
+        "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
         "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
       ],
       "whyItMatters": [
-        "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.49%, 0.73%, 0.99% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.49%, 0.74%, 1.02% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -6345,9 +6415,9 @@ const EVENT_DATA = {
         }
       ],
       "watch": [
-        "계약 기간·최소구매 조건",
-        "연도별 매출 인식",
-        "수주잔고·취소 조건"
+        "공식 규제 적용일·대상 제품",
+        "회사의 매출 영향 추정",
+        "대체 제품·지역 판매"
       ]
     },
     {
@@ -17938,105 +18008,6 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
-    },
-    {
-      "id": "0760c72e3009db7b04b0",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "TSLA",
-      "relatedTickers": [
-        "AMD",
-        "MU",
-        "NVDA",
-        "ORCL",
-        "TSLA"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Tesla",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "중기 투자 사이클",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Why Tesla’s $25 Billion Credit Line Is a High-Stakes Bet on AI and Robotaxis",
-      "headlineKo": "Tesla의 250억 달러 신용 한도가 AI와 Robotaxis에 큰 투자를 하는 이유",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9806c32816c9b40acc33c979802485ba4670b27546c9bc1fbb6e957444592036",
-        "publishedAt": 1790782080,
-        "collectedAt": 1791003220.9724946
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-        "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-        "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-      ],
-      "marketInterpretation": [
-        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-      ],
-      "aiInference": [
-        "이 기사는 TSLA의 사업과 관련된 'Why Tesla’s $25 Billion Credit Line Is a High-Stakes Bet on AI and Robotaxis' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-        "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-        "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-      ],
-      "whyItMatters": [
-        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "긍정",
-          "reason": "AI 컴퓨팅 수요 확대 가능성",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "AMD",
-          "direction": "긍정",
-          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "MU",
-          "direction": "긍정",
-          "reason": "AI 서버 메모리 수요와 가격 강세",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "ORCL",
-          "direction": "혼합",
-          "reason": "클라우드 수요와 자본 부담 동시 확대",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "실제 수주·가동 데이터센터",
-        "관련 기업 매출·수주잔고",
-        "CAPEX 대비 영업현금흐름",
-        "금리와 프로젝트 부채 비용"
-      ]
     }
   ],
   "byTicker": {
@@ -18054,6 +18025,7 @@ const EVENT_DATA = {
       "a01ca827b3b071bd4fde",
       "52d700670141c8311feb",
       "0f1776e9ff6c99aa7ba9",
+      "64909fadbb7a557cc35f",
       "130a6564f18c190d37ff",
       "f2fb25dbe2e563abdb82",
       "1cde97e0c777a2860f13",
@@ -18086,7 +18058,7 @@ const EVENT_DATA = {
       "0eba8a3688bb864aaa44",
       "2b704432c27532f8733f",
       "ccec3c3d5322269c8824",
-      "19e28d123e638f8e85ba",
+      "53dd5d9ff1c3e67b4e93",
       "9300b1599e56fea8d471",
       "3a72b6df53e77404ce30",
       "81078e2ef4f310088426",
@@ -18181,6 +18153,7 @@ const EVENT_DATA = {
       "482a0782a94a2ce3e1b6",
       "cbc3abe0a34b96d222e9",
       "52d700670141c8311feb",
+      "64909fadbb7a557cc35f",
       "130a6564f18c190d37ff",
       "40106bbcf3bc4bc2ed6c",
       "ef718706fb0776b90812",
@@ -18223,8 +18196,7 @@ const EVENT_DATA = {
       "702be6bdc6d216849274",
       "1919ed183035f36200af",
       "b412ca3fff1db1f4ee01",
-      "bbd621df0146549d9c04",
-      "0760c72e3009db7b04b0"
+      "bbd621df0146549d9c04"
     ],
     "AMZN": [
       "cbc3abe0a34b96d222e9",
@@ -18324,6 +18296,7 @@ const EVENT_DATA = {
       "cbc3abe0a34b96d222e9",
       "52d700670141c8311feb",
       "0f1776e9ff6c99aa7ba9",
+      "64909fadbb7a557cc35f",
       "130a6564f18c190d37ff",
       "1cde97e0c777a2860f13",
       "fbb636cc3926e7178202",
@@ -18351,7 +18324,7 @@ const EVENT_DATA = {
       "0eba8a3688bb864aaa44",
       "2b704432c27532f8733f",
       "ccec3c3d5322269c8824",
-      "19e28d123e638f8e85ba",
+      "53dd5d9ff1c3e67b4e93",
       "9300b1599e56fea8d471",
       "81078e2ef4f310088426",
       "fc9adc00e2cd5ce31fd0",
@@ -18427,8 +18400,7 @@ const EVENT_DATA = {
       "05bbbc0d31bf2f8dc53e",
       "702be6bdc6d216849274",
       "b412ca3fff1db1f4ee01",
-      "bbd621df0146549d9c04",
-      "0760c72e3009db7b04b0"
+      "bbd621df0146549d9c04"
     ],
     "TSLA": [
       "0f1776e9ff6c99aa7ba9",
@@ -18446,8 +18418,7 @@ const EVENT_DATA = {
       "0edde89fa5be7992a109",
       "dda74fcd1d9dd2aaafd8",
       "f34ff13fae74720b54cc",
-      "921323316ac05a414cec",
-      "0760c72e3009db7b04b0"
+      "921323316ac05a414cec"
     ],
     "GEV": [
       "130a6564f18c190d37ff",
@@ -18523,13 +18494,11 @@ const EVENT_DATA = {
       "e708ea967ec98f351d4c",
       "702be6bdc6d216849274",
       "1919ed183035f36200af",
-      "bbd621df0146549d9c04",
-      "0760c72e3009db7b04b0"
+      "bbd621df0146549d9c04"
     ],
     "VST": [
       "1cde97e0c777a2860f13",
       "be073e69c886b8afc328",
-      "19e28d123e638f8e85ba",
       "861d693e1a2d5c825999",
       "0faff5467b98c120d86e"
     ],
@@ -18592,8 +18561,7 @@ const EVENT_DATA = {
       "7c0eae5d7ba4e2795881",
       "05bbbc0d31bf2f8dc53e",
       "702be6bdc6d216849274",
-      "bbd621df0146549d9c04",
-      "0760c72e3009db7b04b0"
+      "bbd621df0146549d9c04"
     ],
     "ETN": [
       "2d0e78f2f89b04be7bd4"
