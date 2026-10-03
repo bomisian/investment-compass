@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "David Ellison just brought in a co-CEO to run his new empire: Meet Ynon Kreiz",
+      "summary": "Ynon Kreiz's appointment as co-CEO of Skydance answers a key governance question for Ellison's soon-to-be-merged company.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/03/david-ellison-ynon-kreiz-skydance.html",
+      "datetime": 1791025201,
+      "headlineKo": "David Ellison은 자신의 새로운 제국을 운영하기 위해 공동 CEO를 영입했습니다. Ynon Kreiz를 만나보세요",
+      "summaryKo": "Ynon Kreiz가 Skydance의 공동 CEO로 임명되면서 곧 합병될 Ellison 회사의 주요 거버넌스 문제에 대한 답이 제시되었습니다."
+    },
+    {
       "headline": "Photos of the week - Reuters",
       "summary": "Photos of the week Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790955268,
       "headlineKo": "Mike Khouw는 채권 매도의 십자선에 있는 부문이 반등할 준비가 되어 있다고 말했습니다.",
       "summaryKo": "시장에서 가장 뜨거운 부문 중 하나인 유틸리티 분야에서 흥미로운 줄다리기가 벌어지고 있습니다."
-    },
-    {
-      "headline": "Nvidia breaks through to new record highs. Plus, more good news for Boeing",
-      "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/02/nvidia-breaks-through-to-new-record-highs-plus-more-good-news-for-boeing.html",
-      "datetime": 1790955111,
-      "headlineKo": "Nvidia가 새로운 기록을 경신했습니다. 게다가 보잉에 대한 더 좋은 소식도 있습니다.",
-      "summaryKo": "Investing Club은 매주 평일 오전 10시 20분(ET)에 \"아침 모임\"을 개최합니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791022508.410805,
+  "_news_last_success_at": 1791026685.9186213,
   "fgi": {
     "score": 31.1714285714286,
     "rating": "fear"
   },
-  "_fetched_at": 1791022500.6632843,
-  "_updated_label": "2026-10-03 19:15",
-  "_last_attempt_at": 1791022500.6632843,
-  "_last_success_at": 1791022500.6632843,
+  "_fetched_at": 1791026676.3294454,
+  "_updated_label": "2026-10-03 20:25",
+  "_last_attempt_at": 1791026676.3294454,
+  "_last_success_at": 1791026676.3294454,
   "_collection_status": "ok",
   "_collection_errors": []
 };
