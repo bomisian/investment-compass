@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791053330.3513122,
+  "_news_last_success_at": 1791057041.853853,
   "fgi": {
     "score": 31.1714285714286,
     "rating": "fear"
   },
-  "_fetched_at": 1791053321.4793901,
-  "_updated_label": "2026-10-04 03:49",
-  "_last_attempt_at": 1791053321.4793901,
-  "_last_success_at": 1791053321.4793901,
+  "_fetched_at": 1791057034.399676,
+  "_updated_label": "2026-10-04 04:51",
+  "_last_attempt_at": 1791057034.399676,
+  "_last_success_at": 1791057034.399676,
   "_collection_status": "ok",
   "_collection_errors": []
 };
