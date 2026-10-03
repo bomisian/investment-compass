@@ -336,25 +336,25 @@ const MARKET_DATA = {
       "summaryKo": "유대인 공동체를 겨냥한 테러 음모 혐의로 이란인 2명 영국에서 기소 - 최신"
     },
     {
-      "headline": "Explainer: What do we know about flydubai flight 1073? - Reuters",
-      "summary": "Explainer: What do we know about flydubai flight 1073? Reuters",
+      "headline": "What do we know about flydubai flight 1073? - Reuters",
+      "summary": "What do we know about flydubai flight 1073? Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVlJGRkhlVDNVaGt3ekU3cFNoQzExQVRHTkFZc0lPWkhrQXFaWXFDMGJTdzNKMmF4T0JMcHRTQkxYRGhMbTZJNWt5WVZPNFM5MElvUGlYaHNLMU1kUVd1N2xkR3RaS0ppYll2a3hFZ1Y2N1k3bnpGUXI5T0JNclZpb0Mwdy11TTI1NzR5Ni1lS0ZZcl9IczM4LWExaG4?oc=5",
       "datetime": 1790967480,
-      "headlineKo": "설명: 플라이두바이 1073편에 대해 우리는 무엇을 알고 있나요? - 로이터",
-      "summaryKo": "설명: 플라이두바이 1073편에 대해 우리는 무엇을 알고 있나요? 로이터"
+      "headlineKo": "플라이두바이 1073편에 대해 우리는 무엇을 알고 있나요? - 로이터",
+      "summaryKo": "플라이두바이 1073편에 대해 우리는 무엇을 알고 있나요? 로이터"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791057041.853853,
+  "_news_last_success_at": 1791060760.6271727,
   "fgi": {
     "score": 31.1714285714286,
     "rating": "fear"
   },
-  "_fetched_at": 1791057034.399676,
-  "_updated_label": "2026-10-04 04:51",
-  "_last_attempt_at": 1791057034.399676,
-  "_last_success_at": 1791057034.399676,
+  "_fetched_at": 1791060752.357826,
+  "_updated_label": "2026-10-04 05:53",
+  "_last_attempt_at": 1791060752.357826,
+  "_last_success_at": 1791060752.357826,
   "_collection_status": "ok",
   "_collection_errors": []
 };
