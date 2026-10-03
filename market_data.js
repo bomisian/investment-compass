@@ -345,16 +345,18 @@ const MARKET_DATA = {
       "summaryKo": "업계가 일자리 창출, 노동력 노령화, 높은 이직률을 따라잡기 위해 고군분투하고 있기 때문에 숙련된 기술 분야의 일자리는 풍부합니다."
     }
   ],
-  "_news_collection_status": "ok",
+  "_news_collection_status": "error",
   "_news_last_success_at": 1791030571.860098,
   "fgi": {
     "score": 31.1714285714286,
     "rating": "fear"
   },
-  "_fetched_at": 1791030561.6805468,
-  "_updated_label": "2026-10-03 21:29",
-  "_last_attempt_at": 1791030561.6805468,
+  "_fetched_at": 1791034282.9079802,
+  "_updated_label": "2026-10-03 22:32",
+  "_last_attempt_at": 1791034282.9079802,
   "_last_success_at": 1791030561.6805468,
-  "_collection_status": "ok",
-  "_collection_errors": []
+  "_collection_status": "partial",
+  "_collection_errors": [
+    "시장 헤드라인"
+  ]
 };
