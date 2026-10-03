@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1790992067.2535021,
+  "generatedAt": 1790993945.9842587,
   "events": [
     {
       "id": "f2fb25dbe2e563abdb82",
