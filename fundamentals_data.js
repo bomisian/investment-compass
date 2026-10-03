@@ -607,8 +607,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 13.18,
     "name": "Salesforce Inc",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1790986408.159151,
-    "_updated_label": "2026-10-03 09:13"
+    "_fetched_at": 1791058905.0811956,
+    "_updated_label": "2026-10-04 05:21"
   },
   "PLTR": {
     "forwardPE": 86.71009,
