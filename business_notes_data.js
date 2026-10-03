@@ -1819,7 +1819,45 @@ const BUSINESS_NOTES = {
           { title: "Meta Loses New Mexico Trial, Could See $219 Billion Penalty (Bloomberg Law)", url: "https://news.bloomberglaw.com/litigation/meta-loses-new-mexico-jury-trial-over-cambridge-analytica-data" },
           { title: "Meta Misled Users About Facebook Data Practices, New Mexico Jury Finds (US News)", url: "https://www.usnews.com/news/top-news/articles/2026-09-25/meta-misled-consumers-in-case-over-cambridge-analytica-scandal-new-mexico-jury-says" },
         ],
+      },      {
+        date: "2026-10-01",
+        headline: "뉴멕시코주, 메타에 최대 $400억 벌금 공식 청구 - 9/25 배심 평결 이론상 최대치($2,190억) 대신 구체적 요구액 제시",
+        importance: "high",
+        tone: "risk",
+        horizon: "중기 - 약 2주 내 판사 최종 판결이 1차 변곡점, 메타 항소 시 장기화 가능",
+        facts: [
+          "2026-10-01(현지시간) 뉴멕시코주 법무부가 산타페 지방법원에서 열린 벌금 심리에서 메타에 350억~400억 달러 규모의 민사 벌금을 공식 요청했다.",
+          "이는 9/25 배심원단이 내린 '위반 건당 최대 $5,000 × 4,390만 건 = 이론상 최대 $2,190억' 산정 방식과 달리, 주 정부가 법원에 실제로 요청한 구체적 액수다.",
+          "메타 측 변호인은 이 정도 규모의 벌금이 \"비현실적이고(surreal) 양심에 충격적이며(shocking to the conscience) 위헌적\"이라고 주장했고, 법이 보호하려는 기업 활동 자체를 위축시킬 것이라고 반박했다.",
+          "담당 판사 프랜시스 매튜(Francis Mathew)는 추가 서면 제출 기한을 화요일로 연장했으며, 최종 판결은 이후 약 2주 내 나올 것으로 예상된다.",
+          "이번 벌금은 2018년 케임브리지 애널리티카 스캔들과 관련해 메타가 11년간 이용자 데이터 처리 방식에 대해 26건의 기만적 진술을 했다는 배심원 판단에 근거한다.",
+          "8월 29개 주와 합의한 아동안전 소송($180억, 8/20·8/26 항목)과는 완전히 별개 사안으로, 뉴멕시코주가 유일하게 자체적으로 끝까지 진행한 케이스다.",
+        ],
+        why: [
+          "이론상 최대치($2,190억) 대비 실제 청구액($350~400억)이 1/5 수준으로 대폭 낮아졌다는 점은, 최종 확정 벌금이 시장이 9/25 평결 직후 우려했던 최악의 시나리오보다는 완화될 가능성을 시사한다.",
+          "다만 $400억이라 해도 메타 역사상 최대 규모의 단일 프라이버시 소송 벌금이 될 수 있어, 확정 시 분기 실적에 일회성 소송충당금으로 반영될 가능성이 있다.",
+          "판사의 최종 결정(약 2주 후 예상)이 다음 확인포인트이며, 메타의 항소 가능성도 여전히 높아 실제 현금 유출까지는 수년이 걸릴 수 있다.",
+        ],
+        beginner: [
+          "지난 9/25에 배심원단이 \"메타가 잘못했다\"고 판단했을 때는 \"이론적으로는 최대 $2,190억까지 벌금을 매길 수 있다\"는 계산이었어요. 이번엔 뉴멕시코주가 실제로 법원에 \"$350~400억을 벌금으로 매겨달라\"고 구체적으로 요청한 거예요.",
+          "숫자가 많이 줄었지만, 그래도 $400억이면 역대 최대급 프라이버시 벌금이 될 수 있어요. 메타는 \"말도 안 되는 금액\"이라며 반박하고 있고요.",
+          "아직 판사가 최종 결정을 내린 건 아니고, 앞으로 약 2주 안에 나올 것으로 보여요.",
+        ],
+        interpretation: "이론상 최대치($2,190억) 대비 주 정부의 실제 청구액($350~400억)은 1/5 수준으로, 시장이 9/25 평결 직후 우려했던 최악의 시나리오보다는 완화된 숫자다. 다만 판사가 어느 수준에서 최종 벌금을 정할지는 여전히 불확실하고, 메타가 이를 '위헌적'이라며 강하게 반박하고 있어 항소를 통한 장기화 가능성이 높다. 확정 전까지는 헤드라인 리스크로 남되, 실제 현금 유출 시점은 수년 뒤가 될 공산이 크다.",
+        decision: "확정 벌금액이 나오기 전까지는 포지션 변경 근거로 삼기보다 '리스크 규모가 좁혀지고 있다'는 정도로만 참고 - 약 2주 후 예상되는 판결 시점에 재확인 필요.",
+        watch: [
+          "판사 프랜시스 매튜의 최종 벌금 판결 (약 2주 내 예상)",
+          "메타의 항소 제기 여부 및 항소심 진행 상황",
+          "메타 분기보고서상 소송충당금(litigation reserve) 반영 규모",
+        ],
+        confidence: "뉴멕시코주의 실제 청구액($35~40B)과 메타 측 반박 발언, 판사의 서면 제출 기한 연장은 Yahoo Finance, Seeking Alpha, Santa Fe New Mexican 등 복수 매체가 일치해 보도해 신뢰도 높음. 이론상 최대치($2,190억)와의 비교는 9/25 항목에서 이미 확인한 수치를 그대로 사용했다.",
+        sources: [
+          { title: "New Mexico wants Meta to pay up to $40 billion in penalties after data privacy trial (Yahoo Finance)", url: "https://finance.yahoo.com/media-advertising/articles/mexico-wants-meta-pay-40-231305611.html" },
+          { title: "New Mexico asks judge to order Meta to pay up to $40 billion in Cambridge Analytica case (Santa Fe New Mexican)", url: "https://www.santafenewmexican.com/news/local_news/new-mexico-asks-judge-to-order-meta-to-pay-up-to-40-billion-in-cambridge/article_f0a349e9-9634-4d66-8bd3-1a998e272ea1.html" },
+          { title: "New Mexico reportedly seeks up to $40B in penalties from Meta over data privacy (Seeking Alpha)", url: "https://seekingalpha.com/news/4649716-new-mexico-reportedly-seeks-up-to-40b-in-penalties-from-meta-over-data-privacy" },
+        ],
       },
+
     ],
     analystLog: [{
       date: "2026-08-11",
@@ -3929,7 +3967,45 @@ const BUSINESS_NOTES = {
           { title: "AI tax breaks draw Warren probe of Meta, Google, Amazon, Microsoft (InvestmentNews)", url: "https://www.investmentnews.com/regulation-legal-compliance/ai-tax-breaks-draw-warren-probe-of-meta-google-amazon-microsoft/268376" },
           { title: "Amazon.com (AMZN) Draws Senate Questions Over AI Data Center Tax Deductions (Yahoo Finance)", url: "https://finance.yahoo.com/economy/policy/articles/amazon-com-amzn-draws-senate-160501839.html" },
         ],
+      },      {
+        date: "2026-09-29",
+        headline: "아마존 뉴욕 SWF1(록 태번) 물류센터서 팀스터스 부당노동행위 파업 - 컨베이어벨트 속도·안전신고 묵살 문제 제기",
+        importance: "high",
+        tone: "risk",
+        horizon: "단기 - 개별 파업 자체의 직접 영향은 제한적이나, 4분기 성수기 노무 리스크 확산 여부가 다음 변곡점",
+        facts: [
+          "2026-09-29 뉴욕주 오렌지카운티 록 태번(Rock Tavern) 소재 아마존 SWF1 물류센터에서 노동자들이 부당노동행위(ULP) 파업에 돌입했고, 파업은 10/1에도 이어졌다.",
+          "국제팀스터즈노조(IBT) 산하 Local 445가 파업을 조직했으며, 노동자들은 위험한 컨베이어벨트 속도, 떨어지는 소포·어수선한 통로로 인한 부상 위험, 불공정한 생산성 경고장, 부서 이동 시 부실한 안전교육 등을 문제로 제기했다.",
+          "노동자들은 회사 내부 피드백 시스템('Voice of the Associate')에 올린 안전 관련 게시물이 삭제됐다고 주장했다.",
+          "아마존 대변인 아일린 하즈(Eileen Hards)는 이번 파업을 \"노동자를 위협·협박하려는 불법적 시도\"라고 규정하며 시설 접근을 막았다고 주장했고, \"외부 조직가들\"이 파업을 주도했으며 운영에는 지장이 없었다고 반박했다.",
+          "아마존 측은 \"안전하고 포용적인 업무환경, 경쟁력 있는 임금, 입사 첫날부터 적용되는 건강보험, 경력 성장 기회를 제공하고 있다\"는 공식 입장을 냈다.",
+          "이는 9/2 리버사이드 DJT6 물류센터 파업(노조 지도부 해고 반발)과는 별개로, 다른 주·다른 물류센터에서 새로 발생한 노동 분쟁이다.",
+        ],
+        why: [
+          "올해 들어 반복되는 아마존 물류센터 안전·노동 이슈(9/2 리버사이드, 9/18 홀푸드 임금개선 등)에 또 하나의 사례가 추가된 것으로, 노사 갈등이 특정 지역에 국한되지 않고 여러 주로 확산되는 패턴을 보여준다.",
+          "팀스터스가 아마존 물류망 전반에서 노조 조직화를 지속 확대하려는 움직임을 보이고 있어, 이런 파업이 반복될 경우 성수기(4분기) 물류 운영에 대한 투자자 우려로 이어질 수 있다.",
+          "다만 아마존 측이 \"운영에 지장 없음\"이라고 밝힌 만큼, 이번 건 자체가 즉각적인 매출·배송 차질로 이어질 가능성은 낮아 보인다.",
+        ],
+        beginner: [
+          "뉴욕주에 있는 아마존 물류창고(SWF1)에서 직원들이 \"컨베이어벨트가 너무 빨리 돌아서 위험하다\", \"안전 문제를 회사에 말해도 안 들어준다\"며 파업을 했어요.",
+          "노조(팀스터스)가 이 파업을 조직했고, 아마존은 \"이건 불법적인 협박 시도\"라며 \"외부 사람들이 주도한 것\"이라고 반박했어요.",
+          "아마존 물류창고에서 이런 노동 갈등이 올해 들어 여러 번 있었는데, 이번이 또 다른 지역의 또 다른 사례예요.",
+        ],
+        interpretation: "이번 SWF1 파업은 9/2 리버사이드 파업에 이어 올해 아마존 물류망 전반에서 반복되는 노동 분쟁의 연장선이다. 단일 창고의 단기 파업이 아마존 전체 실적에 미치는 영향은 제한적이지만, 성수기를 앞두고 여러 주에서 유사한 분쟁이 누적되는 패턴 자체는 인건비·노무 리스크가 구조적으로 커지고 있다는 신호로 볼 수 있다.",
+        decision: "단일 사건만으로는 투자 판단을 바꿀 근거가 약함 - 다만 4분기 성수기 진입 전 유사 파업이 추가로 발생하는지, 팀스터스의 조직화 확산 속도를 계속 지켜볼 필요.",
+        watch: [
+          "파업 지속 여부 및 추가 물류센터로의 확산 여부",
+          "4분기 성수기(블랙프라이데이·연말) 물류 운영 영향 여부",
+          "팀스터스의 아마존 물류망 조직화 확대 추이",
+        ],
+        confidence: "파업 발생 사실, 노동자 측 주장 내용, 아마존 측 반박 발언은 Teamsters 공식 보도자료와 Hoodline 보도가 일치해 신뢰도 높음. 다만 참여 인원 수는 두 출처 모두 명시하지 않아 확인하지 못했다.",
+        sources: [
+          { title: "Amazon Warehouse Workers at SWF1 Launch Unfair Labor Practice Strike (Teamsters)", url: "https://teamster.org/2026/09/amazon-warehouse-workers-at-swf1-launch-unfair-labor-practice-strike/" },
+          { title: "Rock Tavern Amazon SWF1 Workers Walk Off Job Over Safety (Hoodline)", url: "https://hoodline.com/2026/10/rock-tavern-amazon-workers-walk-off-job-say-safety-pleas-were-ignored-for-months/" },
+          { title: "Amazon (AMZN) Workers Strike At New York SWF1 Warehouse Over Safety Concerns (Yahoo Finance)", url: "https://finance.yahoo.com/markets/stocks/articles/amazon-amzn-workers-strike-york-170805167.html" },
+        ],
       },
+
     ],
     viewLog: [
       {
@@ -5472,7 +5548,45 @@ const BUSINESS_NOTES = {
           { title: "Broadcom to lend Anthropic $42 billion to lease chips: Report (Semafor)", url: "https://www.semafor.com/article/10/01/2026/broadcom-to-lend-anthropic-42-billion-to-lease-chips-report" },
           { title: "Broadcom (AVGO) to Lend $42 Billion to Anthropic, Strengthening Its Role in AI Chip Design (GuruFocus)", url: "https://www.gurufocus.com/news/9105228/broadcom-avgo-to-lend-42-billion-to-anthropic-strengthening-its-role-in-ai-chip-design" },
         ],
+      },      {
+        date: "2026-10-02",
+        headline: "브로드컴, 앤트로픽向 신규 부채조달 $600억 추진 - 기존 $420억 대출과 합쳐 총 익스포저 $1,020억로 확대",
+        importance: "high",
+        tone: "mixed",
+        horizon: "중기 - 조달 완료 여부·조건과 레버리지 영향이 다음 분기 실적까지 이어지는 이슈",
+        facts: [
+          "2026-10-02 보도에 따르면 브로드컴이 앤트로픽의 AI 칩 구매·리스를 지원하기 위해 최대 $600억 규모의 신규 부채를 추가로 조달하고 있다.",
+          "이는 10/1 공시된 최대 $420억 규모의 '칩 리스용 대출'(앤트로픽에 빌려주는 자금)과는 별개의 추가 조달로, 두 금액을 합치면 브로드컴의 앤트로픽向 총 금융 익스포저는 약 $1,020억에 달한다.",
+          "이번 $600억 신규 부채가 실제로 조달되면 브로드컴의 총부채는 현재 약 $665억에서 약 $1,265억으로 거의 두 배 가까이 늘어난다.",
+          "브로드컴은 이로써 앤트로픽의 AI 칩 공급업체이자 대출기관(lender) 역할을 동시에 맡게 되어, 단일 고객에 대한 리스크가 집중되는 '순환 금융' 구조가 된다.",
+          "애널리스트들은 브로드컴 매출이 2025 회계연도 $639억에서 2028 회계연도 약 $2,720억까지 성장할 것으로 전망하고 있다.",
+          "앤트로픽은 이르면 2026년 11월 중순 IPO를 추진 중인 것으로 알려졌다.",
+        ],
+        why: [
+          "칩 공급사가 동시에 고객에게 대규모 대출까지 제공하는 '순환 금융(circular financing)' 구조는 최근 AI 업계에서 반복되는 패턴으로, 앤트로픽의 성장이 둔화될 경우 브로드컴은 '칩 수요 감소'와 '대출 회수 리스크'를 동시에 떠안게 된다.",
+          "담보로 잡힌 칩 자산은 앤트로픽이 어려워지는 바로 그 시점에 가치가 떨어질 가능성이 커서, 보호 장치가 가장 필요할 때 오히려 약해지는 구조적 약점이 있다.",
+          "총부채가 거의 두 배로 늘어나는 점은 향후 브로드컴의 신용등급·이자비용에 영향을 줄 수 있어 재무 레버리지 측면에서 계속 지켜봐야 한다.",
+        ],
+        beginner: [
+          "브로드컴이 앤트로픽(Claude를 만드는 AI 회사)에 칩을 팔면서 동시에 그 칩을 살 돈까지 빌려주고 있어요. 이번에 빌려주는 돈이 $600억 더 늘어서, 기존 $420억이랑 합치면 총 $1,020억이나 돼요.",
+          "문제는 이렇게 되면 브로드컴 입장에서 \"앤트로픽이 잘 되면 좋지만, 혹시 안 되면 칩도 안 팔리고 빌려준 돈도 못 받는\" 이중 리스크가 생긴다는 거예요.",
+          "브로드컴이 지는 전체 빚도 이번 조달로 거의 두 배 가까이 늘어나요.",
+        ],
+        interpretation: "브로드컴은 앤트로픽向 공급·금융을 동시에 늘리며 AI 랠리에 베팅하고 있지만, 이는 전형적인 '순환금융' 구조로 앤트로픽이라는 단일 고객에 대한 의존도와 리스크를 동시에 키우는 결정이다. 단기적으로는 매출 가시성 확보에 긍정적이나, 중장기적으로는 브로드컴의 재무 레버리지와 고객 집중 리스크를 함께 모니터링해야 하는 사안이다.",
+        decision: "아직 확정 조달이 아니라 '추진 중'인 단계 - 실제 조달 완료 여부와 조건(금리·만기)이 공개되면 재평가 필요, 현재로선 리스크 요인으로만 기록.",
+        watch: [
+          "$600억 신규 부채 조달의 실제 완료 여부 및 조건(금리·만기)",
+          "앤트로픽 IPO 추진 상황 (2026년 11월 중순 목표)",
+          "브로드컴 신용등급·총부채 변동 여부",
+        ],
+        confidence: "$600억 신규 부채 조달 추진과 기존 $420억 대출 공시 내용은 Yahoo Finance, Investing.com(Reuters 인용), Qz.com 등 복수 매체가 일치해 보도해 신뢰도 높음. 다만 '총 $1,020억' 합산치는 두 건을 단순 합산한 수치이며, 실제 집행 여부와 세부 조건은 아직 확정되지 않았다는 점에 유의해야 한다.",
+        sources: [
+          { title: "Broadcom Bets $102 Billion on Anthropic Chips (Yahoo Finance)", url: "https://finance.yahoo.com/technology/ai/articles/broadcom-bets-102-billion-anthropic-183557853.html" },
+          { title: "Exclusive-Broadcom to lend Anthropic up to $42 billion to lease its chips, filing says (Investing.com / Reuters)", url: "https://www.investing.com/news/stock-market-news/exclusivebroadcom-to-lendanthropic-up-to-42-billion-to-lease-its-chips-filing-says-4926853" },
+          { title: "Broadcom raises $60 billion in debt to fund Anthropic AI chips (Qz)", url: "https://qz.com/broadcom-60-billion-debt-financing-anthropic-ai-chips-100226" },
+        ],
       },
+
     ],
     viewLog: [
       {
