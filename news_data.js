@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1791030542.012112,
+    "_last_attempt_at": 1791053302.5952065,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -22,7 +22,7 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500, Nasdaq, Dow는 약한 일자리 보고서가 금리 인상 베팅을 식히면서 주간 상승 — NVDA, BA, SPCX, RIVN, APLD 초점 AI 에이전트 동향 뉴스 수입 전체 DIA 0.49% SPY 0.74% QQQ 1.02% 추세 COMP 0.25% WLD 9.19% GLD 0.88% GPCR 3.38% CRMD 2.",
+            "S&P 500, Nasdaq, Dow는 취약한 일자리 보고서가 금리 인상 베팅을 식히면서 주간 상승 — NVDA, BA, SPCX, RIVN, APLD 초점 AI 에이전트 동향 뉴스 수입 전체 DIA 0.49% SPY 0.74% QQQ 1.02% 추세 QUBT 2.50% CAT 2.31% BONK 7.11% CVS 1.48% AGEN 0.",
             "S&P 500, Nasdaq, Dow는 취약한 일자리 보고서가 금리 인상 베팅을 냉각함에 따라 주간 상승세 — NVDA, BA, SPCX, RIVN, APLD In Focus",
             "경제는 지난 달 29,000개의 일자리를 추가했으며 실업률은 경제학자들의 예상보다 낮은 4.2%로 상승했습니다."
           ],
@@ -55,18 +55,18 @@ const NEWS_DATA = {
             "0.49%",
             "0.74%",
             "1.02%",
-            "0.25%",
-            "9.19%",
-            "0.88%",
-            "3.38%",
-            "2.16%"
+            "2.50%",
+            "2.31%",
+            "7.11%",
+            "1.48%",
+            "0.36%"
           ],
           "sourceExcerpt": [
-            "S&P 500, Nasdaq, Dow End Week Higher As Weak Jobs Report Cools Rate Hike Bets — NVDA, BA, SPCX, RIVN, APLD In Focus AI Agent Trending News Earnings All DIA 0.49% SPY 0.74% QQQ 1.02% Trending COMP 0.25% WLD 9.19% GLD 0.88% GPCR 3.38% CRMD 2.",
+            "S&P 500, Nasdaq, Dow End Week Higher As Weak Jobs Report Cools Rate Hike Bets — NVDA, BA, SPCX, RIVN, APLD In Focus AI Agent Trending News Earnings All DIA 0.49% SPY 0.74% QQQ 1.02% Trending QUBT 2.50% CAT 2.31% BONK 7.11% CVS 1.48% AGEN 0.",
             "S&P 500, Nasdaq, Dow End Week Higher As Weak Jobs Report Cools Rate Hike Bets — NVDA, BA, SPCX, RIVN, APLD In Focus The U.S.",
             "economy added 29,000 jobs last month, with unemployment rising to 4.2%, lower than what economists expected."
           ],
-          "analysisUpdatedAt": 1791030549.0983417
+          "analysisUpdatedAt": 1791053308.2525284
         },
         "headlineKo": "S&P 500, Nasdaq, Dow는 취약한 일자리 보고서가 금리 인상 베팅을 냉각함에 따라 주간 상승 — NVDA, BA, SPCX, RIVN, APLD 집중"
       },
@@ -86,7 +86,7 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Dow는 400포인트 상승, Nasdaq은 채용 보고서 후 사상 최고 기록 AI Agent Trending News Earnings All DIA 0.49% SPY 0.74% QQQ 1.02% Trending COMP 0.25% WLD 9.19% GLD 0.88% GPCR 3.38% CRMD 2.16% PEPE 3.62% VST 0.19% 코르즈 0.61% KTA 0.37% 에어로 0",
+            "Dow는 400포인트 상승, Nasdaq은 채용 보고서 후 사상 최고 기록 AI Agent Trending News Earnings All DIA 0.49% SPY 0.74% QQQ 1.02% Trending QUBT 2.50% CAT 2.31% BONK 7.11% CVS 1.48% AGEN 0.36% NIGHT 8.03% NAIL 2.39% JAKK 6.47% DIS 0.85% T.TS",
             "Dow는 400포인트 상승하고 Nasdaq은 채용 보고서 이후 사상 최고치를 기록했습니다. BlackRock의 Rosenberg는 데이터를 'Dovish'라고 부릅니다.",
             "급여 증가율은 29,000명에 불과하며, 이는 경제학자들이 예상한 90,000명 증가보다 훨씬 낮습니다."
           ],
@@ -119,48 +119,48 @@ const NEWS_DATA = {
             "0.49%",
             "0.74%",
             "1.02%",
-            "0.25%",
-            "9.19%",
-            "0.88%",
-            "3.38%",
-            "2.16%"
+            "2.50%",
+            "2.31%",
+            "7.11%",
+            "1.48%",
+            "0.36%"
           ],
           "sourceExcerpt": [
-            "Dow Jumps 400 Points, Nasdaq Hits Record High After Jobs Report AI Agent Trending News Earnings All DIA 0.49% SPY 0.74% QQQ 1.02% Trending COMP 0.25% WLD 9.19% GLD 0.88% GPCR 3.38% CRMD 2.16% PEPE 3.62% VST 0.19% CORZ 0.61% KTA 0.37% AERO 0",
+            "Dow Jumps 400 Points, Nasdaq Hits Record High After Jobs Report AI Agent Trending News Earnings All DIA 0.49% SPY 0.74% QQQ 1.02% Trending QUBT 2.50% CAT 2.31% BONK 7.11% CVS 1.48% AGEN 0.36% NIGHT 8.03% NAIL 2.39% JAKK 6.47% DIS 0.85% T.TS",
             "Dow Jumps 400 Points, Nasdaq Hits Record High After Jobs Report — BlackRock’s Rosenberg Calls Data ‘Dovish’ The September payroll expansion sharply missed expectations, with U.S.",
             "payrolls increasing by just 29,000, well below the 90,000 increase economists expected."
           ],
-          "analysisUpdatedAt": 1791030554.8265731
+          "analysisUpdatedAt": 1791053311.4176836
         },
         "headlineKo": "Dow는 400 포인트 점프하고 Nasdaq은 채용 보고서 이후 사상 최고치를 기록했습니다. BlackRock의 Rosenberg는 데이터를 'Dovish'라고 부릅니다."
       },
       {
-        "headline": "Stocktwits Passport Portfolio: QQQ Holds Up Better Than SPY, DIA And Asian Stocks Amid Bond Market Rout This Week",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=bc8aa8f8dc7b1b729cc67078895996bac0600bf43adbaf273446fd9ed902bc59",
-        "datetime": 1790921953,
-        "relevance": 1.0,
+        "headline": "Weak Jobs Report Lifts Nvidia, Nasdaq 100 to Record Highs: Stock Market Today",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=66f10db24c8b69fc95ec5d22056263115837637b4d5402efd3b84e0d25834953",
+        "datetime": 1790945559,
+        "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "medium",
+          "importance": "high",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Stocktwits 여권 포트폴리오: QQQ는 이번 주 채권 시장의 대패 속에서 SPY, DIA 및 아시아 주식보다 더 나은 모습을 유지합니다. AI 에이전트 동향 뉴스 수익 모든 DIA 0.49% SPY 0.74% QQQ 1.02% 추세 COMP 0.17% WLD 8.89% GLD 0.89% CRMD 2.16% PEPE 3.64",
-            "Stocktwits 여권 포트폴리오: QQQ는 이번 주 채권 시장의 대패 속에서 SPY, DIA 및 아시아 주식보다 더 나은 모습을 유지하고 있습니다. Nasdaq을 추적하는 Invesco QQQ Trust는 이번 주에 지금까지 동료 중에서 가장 낮은 하락세를 기록했습니다.",
-            "검정색 배경에 주식 시장이 하락했습니다."
+            "약한 일자리 보고서, Nvidia, Nasdaq 100 최고 기록: 오늘의 주식 시장 - Invesco QQQ Trust, 시리즈 1(NASDA - Benzinga SPY 769.86 +0.03% QQQ 749.55 −0.00% BTC/USD 84,845.20 +0.41% DIA 511.70 +0.12% GLD 380.52 +0.10% TLT 77.53 +0.06% US Sign i",
+            "예상보다 훨씬 부진한 9월 고용 보고서가 연준의 추가 금리 인상에 대한 투자를 줄인 후 나스닥 100 지수가 사상 최고치를 기록하며 금요일 정오에 주가가 상승했습니다.",
+            "칩 주식이 Nvidia Corp.의 움직임을 이끌었습니다."
           ],
           "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.49%, 0.74%, 1.02% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.03%, 0.00%, 0.41% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -171,52 +171,52 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
           ],
-          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1.0,
+          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.49%",
-            "0.74%",
-            "1.02%",
-            "0.17%",
-            "8.89%",
-            "0.89%",
-            "2.16%",
-            "3.64%"
+            "0.03%",
+            "0.00%",
+            "0.41%",
+            "0.12%",
+            "0.10%",
+            "0.06%",
+            "$237.88",
+            "4.2%"
           ],
           "sourceExcerpt": [
-            "Stocktwits Passport Portfolio: QQQ Holds Up Better Than SPY, DIA And Asian Stocks Amid Bond Market Rout This Week AI Agent Trending News Earnings All DIA 0.49% SPY 0.74% QQQ 1.02% Trending COMP 0.17% WLD 8.89% GLD 0.89% CRMD 2.16% PEPE 3.64",
-            "Stocktwits Passport Portfolio: QQQ Holds Up Better Than SPY, DIA And Asian Stocks Amid Bond Market Rout This Week The Invesco QQQ Trust, which tracks the Nasdaq, has posted the lowest decline amongst its peers so far this week, bolstered in",
-            "Stock market down on a black background."
+            "Weak Jobs Report, Nvidia, Nasdaq 100 Record High: Stock Market Today - Invesco QQQ Trust, Series 1 (NASDA - Benzinga SPY 769.86 +0.03% QQQ 749.55 −0.00% BTC/USD 84,845.20 +0.41% DIA 511.70 +0.12% GLD 380.52 +0.10% TLT 77.53 +0.06% US Sign i",
+            "stocks climbed at midday Friday, with the Nasdaq 100 leading and reaching new record highs, after a much weaker-than-expected September jobs report pared bets on further Federal Reserve rate hikes.",
+            "Chip stocks led the move as Nvidia Corp."
           ],
-          "analysisUpdatedAt": 1791030558.3359818
+          "analysisUpdatedAt": 1791053317.1328378
         },
+        "headlineKo": "약한 일자리 보고서로 Nvidia, Nasdaq 100 지수가 사상 최고치로 상승: 오늘의 주식 시장"
+      },
+      {
+        "headline": "QUICK SPARK: Nasdaq 100 Rallies to All-Time Highs as Fed Hike Bets Cool",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=ebc5b40cef746e9597f5a4dbcd455add79ca133602f7a39f39bd3cf347b1c85f",
+        "datetime": 1790937617,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "QUICK SPARK: 연준의 하이킹 베팅이 식으면서 나스닥 100 지수가 사상 최고치로 반등"
+      },
+      {
+        "headline": "Stocktwits Passport Portfolio: QQQ Holds Up Better Than SPY, DIA And Asian Stocks Amid Bond Market Rout This Week",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=bc8aa8f8dc7b1b729cc67078895996bac0600bf43adbaf273446fd9ed902bc59",
+        "datetime": 1790921953,
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "flagTerms": [],
         "headlineKo": "Stocktwits 여권 포트폴리오: QQQ는 이번 주 채권 시장 하락 속에서 SPY, DIA 및 아시아 주식보다 더 나은 모습을 유지합니다."
-      },
-      {
-        "headline": "Stock Market Today: S&P 500, Nasdaq 100, Dow Jones Futures Gain as Iran Receives US Proposal To Restore Ceasefire— CEG, VICR, MU in Focus (UPDATED)",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=f4a67a79a351154887b1288004ff3028401cc195d2abe51ec5f0de3da4219db3",
-        "datetime": 1790843976,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "오늘의 주식 시장: 이란이 미국의 휴전 복원 제안을 받아들임에 따라 S&P 500, Nasdaq 100, Dow Jones 선물 상승 - CEG, VICR, MU 초점(업데이트됨)"
-      },
-      {
-        "headline": "Nasdaq 100 Climbs as Cooler PCE Cuts Rate Hike Bets, Micron Earnings Loom: Stock Market Today",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=a614fe6381c28affd2154cd1bd5af99d4a2c067b58bcf01e81cb808d167a27b7",
-        "datetime": 1790772460,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Cooler PCE가 금리 인상 베팅을 줄임에 따라 Nasdaq 100이 상승하고 Micron 실적이 불투명해짐: 오늘 주식 시장"
       },
       {
         "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Gains as Trump Dismisses Iran Sanction Relief as 'Hoax'— Nvidia, AAR, Vail Resorts in Focus (UPDATED)",
@@ -353,7 +353,7 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500, Nasdaq, Dow는 약한 일자리 보고서가 금리 인상 베팅을 식히면서 주간 상승 — NVDA, BA, SPCX, RIVN, APLD 초점 AI 에이전트 동향 뉴스 수입 전체 DIA 0.49% SPY 0.74% QQQ 1.02% 추세 COMP 0.25% WLD 9.19% GLD 0.88% GPCR 3.38% CRMD 2.",
+            "S&P 500, Nasdaq, Dow는 취약한 일자리 보고서가 금리 인상 베팅을 식히면서 주간 상승 — NVDA, BA, SPCX, RIVN, APLD 초점 AI 에이전트 동향 뉴스 수입 전체 DIA 0.49% SPY 0.74% QQQ 1.02% 추세 QUBT 2.50% CAT 2.31% BONK 7.11% CVS 1.48% AGEN 0.",
             "S&P 500, Nasdaq, Dow는 취약한 일자리 보고서가 금리 인상 베팅을 냉각함에 따라 주간 상승세 — NVDA, BA, SPCX, RIVN, APLD In Focus",
             "경제는 지난 달 29,000개의 일자리를 추가했으며 실업률은 경제학자들의 예상보다 낮은 4.2%로 상승했습니다."
           ],
@@ -386,18 +386,18 @@ const NEWS_DATA = {
             "0.49%",
             "0.74%",
             "1.02%",
-            "0.25%",
-            "9.19%",
-            "0.88%",
-            "3.38%",
-            "2.16%"
+            "2.50%",
+            "2.31%",
+            "7.11%",
+            "1.48%",
+            "0.36%"
           ],
           "sourceExcerpt": [
-            "S&P 500, Nasdaq, Dow End Week Higher As Weak Jobs Report Cools Rate Hike Bets — NVDA, BA, SPCX, RIVN, APLD In Focus AI Agent Trending News Earnings All DIA 0.49% SPY 0.74% QQQ 1.02% Trending COMP 0.25% WLD 9.19% GLD 0.88% GPCR 3.38% CRMD 2.",
+            "S&P 500, Nasdaq, Dow End Week Higher As Weak Jobs Report Cools Rate Hike Bets — NVDA, BA, SPCX, RIVN, APLD In Focus AI Agent Trending News Earnings All DIA 0.49% SPY 0.74% QQQ 1.02% Trending QUBT 2.50% CAT 2.31% BONK 7.11% CVS 1.48% AGEN 0.",
             "S&P 500, Nasdaq, Dow End Week Higher As Weak Jobs Report Cools Rate Hike Bets — NVDA, BA, SPCX, RIVN, APLD In Focus The U.S.",
             "economy added 29,000 jobs last month, with unemployment rising to 4.2%, lower than what economists expected."
           ],
-          "analysisUpdatedAt": 1791030549.0983417
+          "analysisUpdatedAt": 1791053308.2525284
         }
       },
       {
@@ -416,7 +416,7 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Dow는 400포인트 상승, Nasdaq은 채용 보고서 후 사상 최고 기록 AI Agent Trending News Earnings All DIA 0.49% SPY 0.74% QQQ 1.02% Trending COMP 0.25% WLD 9.19% GLD 0.88% GPCR 3.38% CRMD 2.16% PEPE 3.62% VST 0.19% 코르즈 0.61% KTA 0.37% 에어로 0",
+            "Dow는 400포인트 상승, Nasdaq은 채용 보고서 후 사상 최고 기록 AI Agent Trending News Earnings All DIA 0.49% SPY 0.74% QQQ 1.02% Trending QUBT 2.50% CAT 2.31% BONK 7.11% CVS 1.48% AGEN 0.36% NIGHT 8.03% NAIL 2.39% JAKK 6.47% DIS 0.85% T.TS",
             "Dow는 400포인트 상승하고 Nasdaq은 채용 보고서 이후 사상 최고치를 기록했습니다. BlackRock의 Rosenberg는 데이터를 'Dovish'라고 부릅니다.",
             "급여 증가율은 29,000명에 불과하며, 이는 경제학자들이 예상한 90,000명 증가보다 훨씬 낮습니다."
           ],
@@ -449,19 +449,91 @@ const NEWS_DATA = {
             "0.49%",
             "0.74%",
             "1.02%",
-            "0.25%",
-            "9.19%",
-            "0.88%",
-            "3.38%",
-            "2.16%"
+            "2.50%",
+            "2.31%",
+            "7.11%",
+            "1.48%",
+            "0.36%"
           ],
           "sourceExcerpt": [
-            "Dow Jumps 400 Points, Nasdaq Hits Record High After Jobs Report AI Agent Trending News Earnings All DIA 0.49% SPY 0.74% QQQ 1.02% Trending COMP 0.25% WLD 9.19% GLD 0.88% GPCR 3.38% CRMD 2.16% PEPE 3.62% VST 0.19% CORZ 0.61% KTA 0.37% AERO 0",
+            "Dow Jumps 400 Points, Nasdaq Hits Record High After Jobs Report AI Agent Trending News Earnings All DIA 0.49% SPY 0.74% QQQ 1.02% Trending QUBT 2.50% CAT 2.31% BONK 7.11% CVS 1.48% AGEN 0.36% NIGHT 8.03% NAIL 2.39% JAKK 6.47% DIS 0.85% T.TS",
             "Dow Jumps 400 Points, Nasdaq Hits Record High After Jobs Report — BlackRock’s Rosenberg Calls Data ‘Dovish’ The September payroll expansion sharply missed expectations, with U.S.",
             "payrolls increasing by just 29,000, well below the 90,000 increase economists expected."
           ],
-          "analysisUpdatedAt": 1791030554.8265731
+          "analysisUpdatedAt": 1791053311.4176836
         }
+      },
+      {
+        "headline": "Weak Jobs Report Lifts Nvidia, Nasdaq 100 to Record Highs: Stock Market Today",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=66f10db24c8b69fc95ec5d22056263115837637b4d5402efd3b84e0d25834953",
+        "datetime": 1790945559,
+        "headlineKo": "약한 일자리 보고서로 Nvidia, Nasdaq 100 지수가 사상 최고치로 상승: 오늘의 주식 시장",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "약한 일자리 보고서, Nvidia, Nasdaq 100 최고 기록: 오늘의 주식 시장 - Invesco QQQ Trust, 시리즈 1(NASDA - Benzinga SPY 769.86 +0.03% QQQ 749.55 −0.00% BTC/USD 84,845.20 +0.41% DIA 511.70 +0.12% GLD 380.52 +0.10% TLT 77.53 +0.06% US Sign i",
+            "예상보다 훨씬 부진한 9월 고용 보고서가 연준의 추가 금리 인상에 대한 투자를 줄인 후 나스닥 100 지수가 사상 최고치를 기록하며 금요일 정오에 주가가 상승했습니다.",
+            "칩 주식이 Nvidia Corp.의 움직임을 이끌었습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.03%, 0.00%, 0.41% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.03%",
+            "0.00%",
+            "0.41%",
+            "0.12%",
+            "0.10%",
+            "0.06%",
+            "$237.88",
+            "4.2%"
+          ],
+          "sourceExcerpt": [
+            "Weak Jobs Report, Nvidia, Nasdaq 100 Record High: Stock Market Today - Invesco QQQ Trust, Series 1 (NASDA - Benzinga SPY 769.86 +0.03% QQQ 749.55 −0.00% BTC/USD 84,845.20 +0.41% DIA 511.70 +0.12% GLD 380.52 +0.10% TLT 77.53 +0.06% US Sign i",
+            "stocks climbed at midday Friday, with the Nasdaq 100 leading and reaching new record highs, after a much weaker-than-expected September jobs report pared bets on further Federal Reserve rate hikes.",
+            "Chip stocks led the move as Nvidia Corp."
+          ],
+          "analysisUpdatedAt": 1791053317.1328378
+        }
+      },
+      {
+        "headline": "QUICK SPARK: Nasdaq 100 Rallies to All-Time Highs as Fed Hike Bets Cool",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=ebc5b40cef746e9597f5a4dbcd455add79ca133602f7a39f39bd3cf347b1c85f",
+        "datetime": 1790937617,
+        "headlineKo": "QUICK SPARK: 연준의 하이킹 베팅이 식으면서 나스닥 100 지수가 사상 최고치로 반등",
+        "relevance": 0.67,
+        "keywordFlag": false
       },
       {
         "headline": "Stocktwits Passport Portfolio: QQQ Holds Up Better Than SPY, DIA And Asian Stocks Amid Bond Market Rout This Week",
@@ -4070,15 +4142,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791030542.012112,
-    "_updated_label": "2026-10-03 21:29",
-    "_last_success_at": 1791030542.012112,
+    "_fetched_at": 1791053302.5952065,
+    "_updated_label": "2026-10-04 03:48",
+    "_last_success_at": 1791053302.5952065,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 79,
+      "checked": 81,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "SPY": {
@@ -9066,7 +9138,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "MSFT": {
@@ -17141,7 +17213,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "GOOGL": {
@@ -25319,7 +25391,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "AMZN": {
@@ -33259,7 +33331,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "META": {
@@ -40858,7 +40930,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "AAPL": {
@@ -48751,7 +48823,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "TSLA": {
@@ -56653,7 +56725,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "ORCL": {
@@ -64817,7 +64889,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "CRM": {
@@ -70212,7 +70284,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "PLTR": {
@@ -78333,7 +78405,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 183,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "NVDA": {
@@ -85731,7 +85803,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "AMD": {
@@ -93696,7 +93768,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "AVGO": {
@@ -100005,7 +100077,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 128,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "QCOM": {
@@ -104954,7 +105026,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 110,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "ARM": {
@@ -108869,7 +108941,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "MRVL": {
@@ -114195,7 +114267,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "INTC": {
@@ -121393,7 +121465,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 166,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "TSM": {
@@ -126025,7 +126097,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 102,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "ASML": {
@@ -128890,7 +128962,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "AMAT": {
@@ -132337,7 +132409,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "LRCX": {
@@ -134032,7 +134104,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "KLAC": {
@@ -135636,7 +135708,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "MU": {
@@ -142825,7 +142897,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "SNDK": {
@@ -148548,7 +148620,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 124,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "WDC": {
@@ -151469,7 +151541,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "ANET": {
@@ -153959,7 +154031,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "COHR": {
@@ -156722,7 +156794,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "LITE": {
@@ -159052,7 +159124,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "GEV": {
@@ -162825,7 +162897,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "CEG": {
@@ -165545,7 +165617,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "VST": {
@@ -167657,7 +167729,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "ETN": {
@@ -170169,7 +170241,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "PWR": {
@@ -172399,7 +172471,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "HUBB": {
@@ -173130,7 +173202,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "VRT": {
@@ -176116,7 +176188,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "MOD": {
@@ -177145,7 +177217,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "STX": {
@@ -179523,7 +179595,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "EME": {
@@ -180838,7 +180910,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "FIX": {
@@ -181926,7 +181998,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   },
   "BE": {
@@ -183825,7 +183897,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-04 03:02"
+      "updated": "2026-10-04 03:48"
     }
   }
 };

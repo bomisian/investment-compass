@@ -318,6 +318,15 @@ const MARKET_DATA = {
       "summaryKo": "USS 조지 워싱턴호에 탑승한 젊은 선원들이 이란과의 전쟁에 적응하고 있습니다."
     },
     {
+      "headline": "Iran executes detainee over January protests, judiciary says - Reuters",
+      "summary": "Iran executes detainee over January protests, judiciary says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWGdCTURnWkJyS1ZoczFjQWo3VF9BaXVrdm1tZV8wR0pwSmxYSFZMNVl0V19fU2NIWGRxNG0zSl9vM3BnRWVDUGpzRG5jM28tTmVibEZuNG5UeTZ1elJ1eVgzVFhQQ21GOXVVUFJqbEppZFMzTld0dExWXy16X245eTVrc2htcWl0dkxsNFMwQUdpSHEyTUFSX0Y4cEwyNXVHODdoUjV6VXF3QlR2bHNsYjFzVQ?oc=5",
+      "datetime": 1791021367,
+      "headlineKo": "이란, 1월 시위 혐의로 억류자 처형했다고 사법부 발표 - 로이터 통신",
+      "summaryKo": "이란, 1월 시위 혐의로 억류자 처형했다고 사법부 발표 - 로이터 통신"
+    },
+    {
       "headline": "Two Iranians charged in UK over alleged terrorism plot targeting Jewish community - Reuters",
       "summary": "Two Iranians charged in UK over alleged terrorism plot targeting Jewish community Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790967480,
       "headlineKo": "설명: 플라이두바이 1073편에 대해 우리는 무엇을 알고 있나요? - 로이터",
       "summaryKo": "설명: 플라이두바이 1073편에 대해 우리는 무엇을 알고 있나요? 로이터"
-    },
-    {
-      "headline": "Saudis plan assault on Houthis to break Red Sea chokehold - Reuters",
-      "summary": "Saudis plan assault on Houthis to break Red Sea chokehold Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUVJialJyWHg0VzlHXzBiaTU3elZhbWEtQzd0TjhNOGNsWFFZNTYyMGFqODJGcVc3aVBaYVY3QkRzWWpEZDlQNEpJeVp6ZjMxYkZKYi1nZ0FUenFUSFRFRTNCb3NaTmdCaTJ1WWV1RmlqcmhSZGtsZWZobE5jSHp3RkJiVXpueWdVOHJmbDhzUEEzVXB6OF9jYkJHcnpfQklTNDVHZ20yS1J6QQ?oc=5",
-      "datetime": 1790964780,
-      "headlineKo": "사우디, 홍해의 압박을 무너뜨리기 위해 후티 반군에 대한 공격 계획 - 로이터 통신",
-      "summaryKo": "사우디, 홍해의 초크홀드를 파괴하기 위해 후티 반군에 대한 공격 계획 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791049591.8564758,
+  "_news_last_success_at": 1791053330.3513122,
   "fgi": {
     "score": 31.1714285714286,
     "rating": "fear"
   },
-  "_fetched_at": 1791049584.4479058,
-  "_updated_label": "2026-10-04 02:47",
-  "_last_attempt_at": 1791049584.4479058,
-  "_last_success_at": 1791049584.4479058,
+  "_fetched_at": 1791053321.4793901,
+  "_updated_label": "2026-10-04 03:49",
+  "_last_attempt_at": 1791053321.4793901,
+  "_last_success_at": 1791053321.4793901,
   "_collection_status": "ok",
   "_collection_errors": []
 };

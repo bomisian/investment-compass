@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791051467.3139918,
+  "generatedAt": 1791053321.097434,
   "events": [
     {
       "id": "863f772ed7470d36226a",
@@ -1946,11 +1946,11 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d04eae234e3a29ff64372c2c9007ab3075e1d99b0395ce2a635e928e33c28b0a",
         "publishedAt": 1790980139,
-        "collectedAt": 1791030542.012112
+        "collectedAt": 1791053302.5952065
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "S&P 500, Nasdaq, Dow는 약한 일자리 보고서가 금리 인상 베팅을 식히면서 주간 상승 — NVDA, BA, SPCX, RIVN, APLD 초점 AI 에이전트 동향 뉴스 수입 전체 DIA 0.49% SPY 0.74% QQQ 1.02% 추세 COMP 0.25% WLD 9.19% GLD 0.88% GPCR 3.38% CRMD 2.",
+        "S&P 500, Nasdaq, Dow는 취약한 일자리 보고서가 금리 인상 베팅을 식히면서 주간 상승 — NVDA, BA, SPCX, RIVN, APLD 초점 AI 에이전트 동향 뉴스 수입 전체 DIA 0.49% SPY 0.74% QQQ 1.02% 추세 QUBT 2.50% CAT 2.31% BONK 7.11% CVS 1.48% AGEN 0.",
         "S&P 500, Nasdaq, Dow는 취약한 일자리 보고서가 금리 인상 베팅을 냉각함에 따라 주간 상승세 — NVDA, BA, SPCX, RIVN, APLD In Focus",
         "경제는 지난 달 29,000개의 일자리를 추가했으며 실업률은 경제학자들의 예상보다 낮은 4.2%로 상승했습니다."
       ],
@@ -5004,8 +5004,7 @@ const EVENT_DATA = {
       "primaryTicker": "QQQ",
       "relatedTickers": [
         "QQQ",
-        "SPY",
-        "VST"
+        "SPY"
       ],
       "relatedEntities": [],
       "importance": "high",
@@ -5025,11 +5024,11 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f1d3a640223802c2276993cd81d5afd21d268ec7b89361b58699eedbe4adcc13",
         "publishedAt": 1790952073,
-        "collectedAt": 1791030542.012112
+        "collectedAt": 1791053302.5952065
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Dow는 400포인트 상승, Nasdaq은 채용 보고서 후 사상 최고 기록 AI Agent Trending News Earnings All DIA 0.49% SPY 0.74% QQQ 1.02% Trending COMP 0.25% WLD 9.19% GLD 0.88% GPCR 3.38% CRMD 2.16% PEPE 3.62% VST 0.19% 코르즈 0.61% KTA 0.37% 에어로 0",
+        "Dow는 400포인트 상승, Nasdaq은 채용 보고서 후 사상 최고 기록 AI Agent Trending News Earnings All DIA 0.49% SPY 0.74% QQQ 1.02% Trending QUBT 2.50% CAT 2.31% BONK 7.11% CVS 1.48% AGEN 0.36% NIGHT 8.03% NAIL 2.39% JAKK 6.47% DIS 0.85% T.TS",
         "Dow는 400포인트 상승하고 Nasdaq은 채용 보고서 이후 사상 최고치를 기록했습니다. BlackRock의 Rosenberg는 데이터를 'Dovish'라고 부릅니다.",
         "급여 증가율은 29,000명에 불과하며, 이는 경제학자들이 예상한 90,000명 증가보다 훨씬 낮습니다."
       ],
@@ -8120,7 +8119,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bc8aa8f8dc7b1b729cc67078895996bac0600bf43adbaf273446fd9ed902bc59",
         "publishedAt": 1790921953,
-        "collectedAt": 1791030542.012112
+        "collectedAt": 1791053302.5952065
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18697,7 +18696,6 @@ const EVENT_DATA = {
     "VST": [
       "1cde97e0c777a2860f13",
       "be073e69c886b8afc328",
-      "7f5928e2394482ed7a9a",
       "861d693e1a2d5c825999",
       "0faff5467b98c120d86e"
     ],
