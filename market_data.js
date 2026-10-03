@@ -237,6 +237,24 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Novig credits Sydney Sweeney-backed campaign for platform’s surge in growth",
+      "summary": "Novig's \"Just Sports\" campaign drew backlash from some female athletes but also brought in a rush of trading volume.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/03/novig-credits-sydney-sweeney-backed-campaign-for-platforms-surge-in-growth.html",
+      "datetime": 1791034248,
+      "headlineKo": "Novig는 Sydney Sweeney가 후원하는 캠페인이 플랫폼의 성장 급증에 기여했다고 평가합니다.",
+      "summaryKo": "Novig의 \"Just Sports\" 캠페인은 일부 여성 운동선수들의 반발을 불러일으켰지만 동시에 거래량이 급증했습니다."
+    },
+    {
+      "headline": "Private capital is reshaping Hollywood moviemaking",
+      "summary": "As Hollywood's financing structures diversify, private capital is increasingly funding the big screen and changing the types of movies that are being made.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/03/private-capital-hollywood-film-financing.html",
+      "datetime": 1791028801,
+      "headlineKo": "민간 자본이 할리우드 영화제작을 재편하고 있다",
+      "summaryKo": "할리우드의 자금 조달 구조가 다양해짐에 따라 민간 자본은 점점 더 대형 스크린에 자금을 지원하고 제작되는 영화의 유형을 변화시키고 있습니다."
+    },
+    {
       "headline": "David Ellison just brought in a co-CEO to run his new empire: Meet Ynon Kreiz",
       "summary": "Ynon Kreiz's appointment as co-CEO of Skydance answers a key governance question for Ellison's soon-to-be-merged company.",
       "source": "CNBC",
@@ -264,15 +282,6 @@ const MARKET_DATA = {
       "summaryKo": "금주의 사진 로이터"
     },
     {
-      "headline": "G7 countries agree on release of diesel and oil stocks after US pressure - Reuters",
-      "summary": "G7 countries agree on release of diesel and oil stocks after US pressure Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnMyRFpEcDhNOHlnU2NJT3F1R2M5QkEzMjJPaGRUYlZ1S2RYYmNMZ1pERlZINEtxMkJDTktfMThYeHZ0U2FDZjVoQ3l3eHViLVkyajQ0S1RfSDJ4QS1xTEgxNVlaZzJSSkVjLTJYM04tX3ZHUEVSY0VHdjJHUU45RHBRajVxQzA3emVQNXpvRG9XRVVVZUtSdUtveUN2WUp6RzhBeVQwQ0JzVk8zWWYzS1FCVUtTZ3UtNTllVzJrbTJyUC00?oc=5",
-      "datetime": 1790979630,
-      "headlineKo": "G7 국가, 미국의 압력 이후 디젤 및 석유 재고 방출에 동의 - 로이터",
-      "summaryKo": "G7 국가, 미국의 압력 이후 디젤 및 석유 재고 방출에 동의 - 최신"
-    },
-    {
       "headline": "Two Iranians charged in UK over alleged terrorism plot targeting Jewish community - Reuters",
       "summary": "Two Iranians charged in UK over alleged terrorism plot targeting Jewish community Reuters",
       "source": "Reuters",
@@ -282,15 +291,6 @@ const MARKET_DATA = {
       "summaryKo": "유대인 공동체를 겨냥한 테러 음모 혐의로 이란인 2명 영국에서 기소 - 최신"
     },
     {
-      "headline": "What do we know about flydubai flight 1073? - Reuters",
-      "summary": "What do we know about flydubai flight 1073? Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVlJGRkhlVDNVaGt3ekU3cFNoQzExQVRHTkFZc0lPWkhrQXFaWXFDMGJTdzNKMmF4T0JMcHRTQkxYRGhMbTZJNWt5WVZPNFM5MElvUGlYaHNLMU1kUVd1N2xkR3RaS0ppYll2a3hFZ1Y2N1k3bnpGUXI5T0JNclZpb0Mwdy11TTI1NzR5Ni1lS0ZZcl9IczM4LWExaG4?oc=5",
-      "datetime": 1790974404,
-      "headlineKo": "플라이두바이 1073편에 대해 우리는 무엇을 알고 있나요? - 로이터",
-      "summaryKo": "플라이두바이 1073편에 대해 우리는 무엇을 알고 있나요? 로이터"
-    },
-    {
       "headline": "Israeli officials to question co-pilot of flydubai flight, source says - Reuters",
       "summary": "Israeli officials to question co-pilot of flydubai flight, source says Reuters",
       "source": "Reuters",
@@ -298,6 +298,15 @@ const MARKET_DATA = {
       "datetime": 1790972450,
       "headlineKo": "이스라엘 관리들이 플라이두바이 비행 부조종사를 심문할 것이라고 소식통이 전했습니다.",
       "summaryKo": "이스라엘 관리들이 플라이두바이 비행의 부조종사를 심문할 것이라고 소식통이 말했습니다."
+    },
+    {
+      "headline": "Explainer: What do we know about flydubai flight 1073? - Reuters",
+      "summary": "Explainer: What do we know about flydubai flight 1073? Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVlJGRkhlVDNVaGt3ekU3cFNoQzExQVRHTkFZc0lPWkhrQXFaWXFDMGJTdzNKMmF4T0JMcHRTQkxYRGhMbTZJNWt5WVZPNFM5MElvUGlYaHNLMU1kUVd1N2xkR3RaS0ppYll2a3hFZ1Y2N1k3bnpGUXI5T0JNclZpb0Mwdy11TTI1NzR5Ni1lS0ZZcl9IczM4LWExaG4?oc=5",
+      "datetime": 1790967480,
+      "headlineKo": "설명: 플라이두바이 1073편에 대해 우리는 무엇을 알고 있나요? - 로이터",
+      "summaryKo": "설명: 플라이두바이 1073편에 대해 우리는 무엇을 알고 있나요? 로이터"
     },
     {
       "headline": "Saudis plan assault on Houthis to break Red Sea chokehold - Reuters",
@@ -334,29 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790959063,
       "headlineKo": "이라크는 매일 40편의 이란 항공편이 나자프를 오가는 비행을 허가했다고 밝혔습니다.",
       "summaryKo": "이라크는 매일 40편의 이란 항공편이 나자프를 오가는 비행을 허가했다고 밝혔습니다."
-    },
-    {
-      "headline": "1.7 million skilled trade jobs will open annually through 2035, report says—experts don't know who will fill them",
-      "summary": "Jobs in the skilled trades are abundant as the industry struggles to keep up with job creation, an aging workforce, and high turnover rates.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/02/1point7-million-skilled-trade-jobs-to-open-annually-through-2035-report-says.html",
-      "datetime": 1790957701,
-      "headlineKo": "보고서에 따르면 2035년까지 매년 170만 개의 숙련된 무역 일자리가 창출될 것이라고 합니다. 전문가들은 누가 그 일자리를 채울지 모릅니다.",
-      "summaryKo": "업계가 일자리 창출, 노동력 노령화, 높은 이직률을 따라잡기 위해 고군분투하고 있기 때문에 숙련된 기술 분야의 일자리는 풍부합니다."
     }
   ],
-  "_news_collection_status": "error",
-  "_news_last_success_at": 1791030571.860098,
+  "_news_collection_status": "ok",
+  "_news_last_success_at": 1791038032.0879726,
   "fgi": {
     "score": 31.1714285714286,
     "rating": "fear"
   },
-  "_fetched_at": 1791034282.9079802,
-  "_updated_label": "2026-10-03 22:32",
-  "_last_attempt_at": 1791034282.9079802,
-  "_last_success_at": 1791030561.6805468,
-  "_collection_status": "partial",
-  "_collection_errors": [
-    "시장 헤드라인"
-  ]
+  "_fetched_at": 1791038018.0720885,
+  "_updated_label": "2026-10-03 23:34",
+  "_last_attempt_at": 1791038018.0720885,
+  "_last_success_at": 1791038018.0720885,
+  "_collection_status": "ok",
+  "_collection_errors": []
 };
