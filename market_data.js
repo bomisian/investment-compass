@@ -246,6 +246,24 @@ const MARKET_DATA = {
       "summaryKo": "알파세대 아이들은 스스로 돈을 벌고 쓰고 있습니다. 부모는 저축, 투자 및 교육 도구를 사용하여 건강한 습관을 기를 수 있습니다."
     },
     {
+      "headline": "Portugal prosecutors probe legality of US use of Lajes base in Iran war - Reuters",
+      "summary": "Portugal prosecutors probe legality of US use of Lajes base in Iran war Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPalVaWllxS1FsVThCWHF3bXZTLXVRNWNhMTdNaERvemRJSWRtZU1iRHNTN19WSGt5THpaRjZpZkE5OGtMYkZPY3JOSG95ZlF3TU10M05VYkdCMHJ0bW93dlk5THJmYm9pM2daU1VteXJKWnp1bm5GSDBobkZyUDBzNDNkaExRSElQSG9zR3hfNFFtazQ4Y2ZtWk92a1NXZXRRbUd1Y0ZQOA?oc=5",
+      "datetime": 1791035715,
+      "headlineKo": "포르투갈 검찰, 이란 전쟁에서 미국의 라헤스 기지 사용 합법성 조사 - 로이터",
+      "summaryKo": "포르투갈 검찰,이란 전쟁에서 미국의 라헤스 기지 사용의 합법성 조사 - 최신"
+    },
+    {
+      "headline": "Fire, smoke seen near Aramco facility in Riyadh, witness says - Reuters",
+      "summary": "Fire, smoke seen near Aramco facility in Riyadh, witness says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUmVOVEVCTVdITFV4aHd1aWM4aC1lZzBQTUIxcG9zSkU0ZXJKbHVRdTRWTUVsRWVsRmZHYlI2ZW01dnp3NlQ4WEV3Wnp0YXpVV2VCQ2RmeVBQQ3BUN0E3S1ZrRkw0ODdkVVJsSnFWWVM5YWVZZExacUlwdGRrc3h1LVJkNHNWY1dZS1F2UE1aR1JHYzNkX0ktS0RIQW4zX3RJUWV4eVBqVFd6X0t1?oc=5",
+      "datetime": 1791034690,
+      "headlineKo": "리야드 아람코 공장 근처에서 화재와 연기가 목격됐다고 증언 - 로이터 통신",
+      "summaryKo": "리야드 아람코 공장 근처에서 화재와 연기가 목격됐다고 목격자 로이터통신이 전했다."
+    },
+    {
       "headline": "Novig credits Sydney Sweeney-backed campaign for platform’s surge in growth",
       "summary": "Novig's \"Just Sports\" campaign drew backlash from some female athletes but also brought in a rush of trading volume.",
       "source": "CNBC",
@@ -262,6 +280,15 @@ const MARKET_DATA = {
       "datetime": 1791028801,
       "headlineKo": "민간 자본이 할리우드 영화제작을 재편하고 있다",
       "summaryKo": "할리우드의 자금 조달 구조가 다양해짐에 따라 민간 자본은 점점 더 대형 스크린에 자금을 지원하고 제작되는 영화의 유형을 변화시키고 있습니다."
+    },
+    {
+      "headline": "Two Iranians appear in UK court over alleged plot to target Jews - Reuters",
+      "summary": "Two Iranians appear in UK court over alleged plot to target Jews Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaEpZdXR4cjlWM01SNUpLcnVmZ2VyZm5uM0VjU0hPV0Fwc0F4RkRBSGlBRWR0OEdKcXNkUEtlQVJ6SUFoVHFlMGxES09mOFhSQnZGRFIzdnpzbmJfSTRQdWg5NFdGeGxuQWozUll2RVM0amlhN2NxbmRvLWY1bnlHVkVJX0tEdUpibHRSSUUwWXQzZTlMdkkyeVFqZ19JUlVHVlFnQ3ln?oc=5",
+      "datetime": 1791027732,
+      "headlineKo": "이란인 2명이 유대인을 표적으로 삼으려는 음모 혐의로 영국 법원에 출두 - 로이터 통신",
+      "summaryKo": "두 명의 이란인이 유대인을 표적으로 삼으려는 음모 혐의로 영국 법원에 출두 - 최신"
     },
     {
       "headline": "Man arrested in Fairford air base investigation released on bail - Reuters",
@@ -316,45 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790964780,
       "headlineKo": "사우디, 홍해의 압박을 무너뜨리기 위해 후티 반군에 대한 공격 계획 - 로이터 통신",
       "summaryKo": "사우디, 홍해의 초크홀드를 파괴하기 위해 후티 반군에 대한 공격 계획 - 최신"
-    },
-    {
-      "headline": "Friday's rally in the S&P 500 might not be enough, but Linde is out of this world",
-      "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/02/fridays-rally-in-the-sp-500-might-not-be-enough-but-linde-is-out-of-this-world.html",
-      "datetime": 1790964215,
-      "headlineKo": "S&P 500의 금요일 랠리는 충분하지 않을 수도 있지만 Linde는 이 세상에서 벗어났습니다.",
-      "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
-    },
-    {
-      "headline": "IEA's Birol says oil prices starting to fall after reserve release decision - Reuters",
-      "summary": "IEA's Birol says oil prices starting to fall after reserve release decision Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcHZzWUw2YjVHbmx6SmNmYURKOGxkcy0zbndDQnpTMnRSc0JLOEpIaWw0MzVmeGRzNGZPeUFZQlM4aGduVEV5cVRCYlFwSk53RUQxYzhoZHd2UFhwX25mZlJKbmFzR2Zza3E3OGRVRVN4M0lvV2w3bTQwb1FzQ0s5eUhvQ3VjZTBZbW11QzVKTWctQ3FYQk9GZ2VYRVdKMEo1RVp2S3Z0LTVVMV9OZE15ZURBejNCWVkteVdzZDRsMHc?oc=5",
-      "datetime": 1790962592,
-      "headlineKo": "IEA의 Birol은 예비 방출 결정 이후 유가가 하락하기 시작했다고 말했습니다 - Reuters",
-      "summaryKo": "IEA의 Birol은 예비 방출 결정 이후 유가가 하락하기 시작했다고 말했습니다 - 최신"
-    },
-    {
-      "headline": "Iraq says 40 daily Iranian flights cleared to fly to and from Najaf - Reuters",
-      "summary": "Iraq says 40 daily Iranian flights cleared to fly to and from Najaf Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVkJSVEI3TWpXNlBROHk2RmowaVBxM0RhTlBEcmF0aVdwbnI5blc4R3hvV0J6QUo1UGxTMExXT0xtMnNqcXJrZEtjUG5fZGtnc1hSZjEtNWdSYTg4dGFxMlBneG5yMDhxTzdVVEdWenhsZmdnZl9WdFhqMEZVOEdiN0pINUp4djFQa0Y2SUV2R1MxRkdJbEwxTnVHN1JmTWVTb3B6RUMwMjVBZw?oc=5",
-      "datetime": 1790959063,
-      "headlineKo": "이라크는 매일 40편의 이란 항공편이 나자프를 오가는 비행을 허가했다고 밝혔습니다.",
-      "summaryKo": "이라크는 매일 40편의 이란 항공편이 나자프를 오가는 비행을 허가했다고 밝혔습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791041757.7185147,
+  "_news_last_success_at": 1791045471.5248992,
   "fgi": {
     "score": 31.1714285714286,
     "rating": "fear"
   },
-  "_fetched_at": 1791041745.4846766,
-  "_updated_label": "2026-10-04 00:36",
-  "_last_attempt_at": 1791041745.4846766,
-  "_last_success_at": 1791041745.4846766,
+  "_fetched_at": 1791045458.162134,
+  "_updated_label": "2026-10-04 01:38",
+  "_last_attempt_at": 1791045458.162134,
+  "_last_success_at": 1791045458.162134,
   "_collection_status": "ok",
   "_collection_errors": []
 };
