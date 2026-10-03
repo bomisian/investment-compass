@@ -215,10 +215,10 @@ const MARKET_DATA = {
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": 6.026851892335228,
-        "ret3m": -4.069296399381239,
-        "ret6m": 15.619445933149256,
-        "ret1y": 44.11247569174399,
+        "ret1m": 6.100225937859682,
+        "ret3m": -4.0029092183270105,
+        "ret6m": 15.699458367150676,
+        "ret1y": 44.212206233237275,
         "winRate": null,
         "count": 12
       }
@@ -246,6 +246,15 @@ const MARKET_DATA = {
       "summaryKo": "금주의 사진 로이터"
     },
     {
+      "headline": "G7 countries agree on release of diesel and oil stocks after US pressure - Reuters",
+      "summary": "G7 countries agree on release of diesel and oil stocks after US pressure Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnMyRFpEcDhNOHlnU2NJT3F1R2M5QkEzMjJPaGRUYlZ1S2RYYmNMZ1pERlZINEtxMkJDTktfMThYeHZ0U2FDZjVoQ3l3eHViLVkyajQ0S1RfSDJ4QS1xTEgxNVlaZzJSSkVjLTJYM04tX3ZHUEVSY0VHdjJHUU45RHBRajVxQzA3emVQNXpvRG9XRVVVZUtSdUtveUN2WUp6RzhBeVQwQ0JzVk8zWWYzS1FCVUtTZ3UtNTllVzJrbTJyUC00?oc=5",
+      "datetime": 1790979630,
+      "headlineKo": "G7 국가, 미국의 압력 이후 디젤 및 석유 재고 방출에 동의 - 로이터",
+      "summaryKo": "G7 국가, 미국의 압력 이후 디젤 및 석유 재고 방출에 동의 - 최신"
+    },
+    {
       "headline": "Two Iranians charged in UK over alleged terrorism plot targeting Jewish community - Reuters",
       "summary": "Two Iranians charged in UK over alleged terrorism plot targeting Jewish community Reuters",
       "source": "Reuters",
@@ -271,15 +280,6 @@ const MARKET_DATA = {
       "datetime": 1790972450,
       "headlineKo": "이스라엘 관리들이 플라이두바이 비행 부조종사를 심문할 것이라고 소식통이 전했습니다.",
       "summaryKo": "이스라엘 관리들이 플라이두바이 비행의 부조종사를 심문할 것이라고 소식통이 말했습니다."
-    },
-    {
-      "headline": "EXCLUSIVE: G7 countries agree on release of diesel and oil stocks after US pressure - reuters.com",
-      "summary": "EXCLUSIVE: G7 countries agree on release of diesel and oil stocks after US pressure reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnMyRFpEcDhNOHlnU2NJT3F1R2M5QkEzMjJPaGRUYlZ1S2RYYmNMZ1pERlZINEtxMkJDTktfMThYeHZ0U2FDZjVoQ3l3eHViLVkyajQ0S1RfSDJ4QS1xTEgxNVlaZzJSSkVjLTJYM04tX3ZHUEVSY0VHdjJHUU45RHBRajVxQzA3emVQNXpvRG9XRVVVZUtSdUtveUN2WUp6RzhBeVQwQ0JzVk8zWWYzS1FCVUtTZ3UtNTllVzJrbTJyUC00?oc=5",
-      "datetime": 1790965343,
-      "headlineKo": "독점: G7 국가, 미국의 압력 이후 디젤 및 석유 재고 방출에 동의 - reuters.com",
-      "summaryKo": "독점: G7 국가, 미국의 압력 이후 디젤 및 석유 재고 공개에 동의 reuters.com"
     },
     {
       "headline": "Saudis plan assault on Houthis to break Red Sea chokehold - Reuters",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790992078.6267624,
+  "_news_last_success_at": 1790995807.439627,
   "fgi": {
     "score": 31.1714285714286,
     "rating": "fear"
   },
-  "_fetched_at": 1790992070.183264,
-  "_updated_label": "2026-10-03 10:48",
-  "_last_attempt_at": 1790992070.183264,
-  "_last_success_at": 1790992070.183264,
+  "_fetched_at": 1790995798.090488,
+  "_updated_label": "2026-10-03 11:50",
+  "_last_attempt_at": 1790995798.090488,
+  "_last_success_at": 1790995798.090488,
   "_collection_status": "ok",
   "_collection_errors": []
 };
