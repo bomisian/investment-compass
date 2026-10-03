@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Gen Alpha kids are earning money. Here's how parents can help them save and invest",
+      "summary": "Gen Alpha kids are earning and spending their own money. Parents can use savings, investing and education tools to build healthy habits.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/03/investing-for-kids-accounts.html",
+      "datetime": 1791036001,
+      "headlineKo": "알파세대 아이들은 돈을 벌고 있습니다. 부모가 저축과 투자를 도울 수 있는 방법은 다음과 같습니다.",
+      "summaryKo": "알파세대 아이들은 스스로 돈을 벌고 쓰고 있습니다. 부모는 저축, 투자 및 교육 도구를 사용하여 건강한 습관을 기를 수 있습니다."
+    },
+    {
       "headline": "Novig credits Sydney Sweeney-backed campaign for platform’s surge in growth",
       "summary": "Novig's \"Just Sports\" campaign drew backlash from some female athletes but also brought in a rush of trading volume.",
       "source": "CNBC",
@@ -253,6 +262,15 @@ const MARKET_DATA = {
       "datetime": 1791028801,
       "headlineKo": "민간 자본이 할리우드 영화제작을 재편하고 있다",
       "summaryKo": "할리우드의 자금 조달 구조가 다양해짐에 따라 민간 자본은 점점 더 대형 스크린에 자금을 지원하고 제작되는 영화의 유형을 변화시키고 있습니다."
+    },
+    {
+      "headline": "Man arrested in Fairford air base investigation released on bail - Reuters",
+      "summary": "Man arrested in Fairford air base investigation released on bail Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZlM4THR1SEZQZDZfdFlpejVLZ2tuMk5qbTFiVjhNbEtpRW1tNjMwZHV0dlhKWjdXdU5TWTZ5dm5ZTW9jRjBjcV9YWUxWVGQ4cjRyN1pDd0I3bDhiSms3LTB6THluWTVfeFBRTUdNWjlJMkJnTEpXRTQ3SlR3bTlFSWFkM3lUd3pIUEVESkpHcWVLVWNMQmdRNzZlR01XNXZYd3Vtcjdn?oc=5",
+      "datetime": 1791026289,
+      "headlineKo": "페어포드 공군기지 조사에서 체포된 남자, 보석으로 석방 - 로이터 통신",
+      "summaryKo": "페어포드 공군기지 조사에서 체포된 남자 보석으로 석방 - 최신"
     },
     {
       "headline": "David Ellison just brought in a co-CEO to run his new empire: Meet Ynon Kreiz",
@@ -273,15 +291,6 @@ const MARKET_DATA = {
       "summaryKo": "USS 조지 워싱턴호에 탑승한 젊은 선원들이 이란과의 전쟁에 적응하고 있습니다."
     },
     {
-      "headline": "Photos of the week - Reuters",
-      "summary": "Photos of the week Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBST1Vlam5INGJkYkZwRklEdXp4bXlJOFpsRUxtR2M2UUt3Snd2dl9Cd3g1MUJQM0dvWWJUM3h5cjBxRkZRWjFoYUZuU1BfZEpzNGVHTTg3a3JzMVZtUnpjSHNwMjNjX2M?oc=5",
-      "datetime": 1790985920,
-      "headlineKo": "금주의 사진 - 로이터",
-      "summaryKo": "금주의 사진 로이터"
-    },
-    {
       "headline": "Two Iranians charged in UK over alleged terrorism plot targeting Jewish community - Reuters",
       "summary": "Two Iranians charged in UK over alleged terrorism plot targeting Jewish community Reuters",
       "source": "Reuters",
@@ -289,15 +298,6 @@ const MARKET_DATA = {
       "datetime": 1790975506,
       "headlineKo": "유대인 공동체를 겨냥한 테러 음모 혐의로 영국에서 이란인 2명 기소 - 로이터",
       "summaryKo": "유대인 공동체를 겨냥한 테러 음모 혐의로 이란인 2명 영국에서 기소 - 최신"
-    },
-    {
-      "headline": "Israeli officials to question co-pilot of flydubai flight, source says - Reuters",
-      "summary": "Israeli officials to question co-pilot of flydubai flight, source says Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVGxxTlpqUHE0NEg5VG14WnhFcU54UVJnSjV4SUdEdGxUVXlUSTVUMkNRQWtDand4UmUxdWtONDlfU2Z5QW5kSVc5NTJrekxscVdoQ0hvT2UyaWdFNHA0dnozZHVHcVViZkJxZmdhTE1zMDAyQlpXOERLMm1NU2pHckFpakUwRWR0V1NfTXRfSTlaQlBjSHNJdXVueGgzd2hUSUl3ZUtSZVA2ZDJ2QzBNdTdMeXdoUDVI?oc=5",
-      "datetime": 1790972450,
-      "headlineKo": "이스라엘 관리들이 플라이두바이 비행 부조종사를 심문할 것이라고 소식통이 전했습니다.",
-      "summaryKo": "이스라엘 관리들이 플라이두바이 비행의 부조종사를 심문할 것이라고 소식통이 말했습니다."
     },
     {
       "headline": "Explainer: What do we know about flydubai flight 1073? - Reuters",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791038032.0879726,
+  "_news_last_success_at": 1791041757.7185147,
   "fgi": {
     "score": 31.1714285714286,
     "rating": "fear"
   },
-  "_fetched_at": 1791038018.0720885,
-  "_updated_label": "2026-10-03 23:34",
-  "_last_attempt_at": 1791038018.0720885,
-  "_last_success_at": 1791038018.0720885,
+  "_fetched_at": 1791041745.4846766,
+  "_updated_label": "2026-10-04 00:36",
+  "_last_attempt_at": 1791041745.4846766,
+  "_last_success_at": 1791041745.4846766,
   "_collection_status": "ok",
   "_collection_errors": []
 };
