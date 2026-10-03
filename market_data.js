@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 3.894672598643867,
-        "ret3m": 15.20528647986692,
-        "ret6m": 24.496836607635597,
-        "ret1y": 4.451305920457527,
+        "ret1m": 2.5314410920273644,
+        "ret3m": 15.945590104846463,
+        "ret6m": 22.499471689587725,
+        "ret1y": 3.8969071209324246,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 15.845903392353922,
-        "ret3m": 1.3100677970039332,
-        "ret6m": 89.1773721784503,
-        "ret1y": 187.12208020815004,
+        "ret1m": 16.102198511738486,
+        "ret3m": 3.6636323727703646,
+        "ret6m": 88.8520415786362,
+        "ret1y": 200.06215267360292,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": 20.98061251243557,
-        "ret3m": 23.764416333544247,
-        "ret6m": 47.27995829010248,
-        "ret1y": 226.53579285509585,
+        "ret1m": 15.721607263932702,
+        "ret3m": 23.21869475619551,
+        "ret6m": 48.70334961623881,
+        "ret1y": 230.1459508923327,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": 6.100225937859682,
-        "ret3m": -4.0029092183270105,
-        "ret6m": 15.699458367150676,
-        "ret1y": 44.212206233237275,
+        "ret1m": 6.099451516258503,
+        "ret3m": -1.9370863672293903,
+        "ret6m": 13.761092163944276,
+        "ret1y": 46.54210330995912,
         "winRate": null,
         "count": 12
       }
@@ -229,13 +229,22 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.18097347326162994,
-    "corrPctRank": 4.184100418410042,
+    "corr60": 0.1859328150901393,
+    "corrPctRank": 4.773869346733668,
     "corrMin5y": 0.036257837878636255,
-    "corrMedian5y": 0.7029859278619927,
+    "corrMedian5y": 0.7032219476116398,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
+    {
+      "headline": "Photos of the week - Reuters",
+      "summary": "Photos of the week Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBST1Vlam5INGJkYkZwRklEdXp4bXlJOFpsRUxtR2M2UUt3Snd2dl9Cd3g1MUJQM0dvWWJUM3h5cjBxRkZRWjFoYUZuU1BfZEpzNGVHTTg3a3JzMVZtUnpjSHNwMjNjX2M?oc=5",
+      "datetime": 1790985920,
+      "headlineKo": "금주의 사진 - 로이터",
+      "summaryKo": "금주의 사진 로이터"
+    },
     {
       "headline": "Two Iranians charged in UK over alleged terrorism plot targeting Jewish community - Reuters",
       "summary": "Two Iranians charged in UK over alleged terrorism plot targeting Jewish community Reuters",
@@ -291,15 +300,6 @@ const MARKET_DATA = {
       "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
     },
     {
-      "headline": "Photos of the week - Reuters",
-      "summary": "Photos of the week Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBST1Vlam5INGJkYkZwRklEdXp4bXlJOFpsRUxtR2M2UUt3Snd2dl9Cd3g1MUJQM0dvWWJUM3h5cjBxRkZRWjFoYUZuU1BfZEpzNGVHTTg3a3JzMVZtUnpjSHNwMjNjX2M?oc=5",
-      "datetime": 1790963871,
-      "headlineKo": "금주의 사진 - 로이터",
-      "summaryKo": "금주의 사진 로이터"
-    },
-    {
       "headline": "Iraq says 40 daily Iranian flights cleared to fly to and from Najaf - Reuters",
       "summary": "Iraq says 40 daily Iranian flights cleared to fly to and from Najaf Reuters",
       "source": "Reuters",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1790984530.6370955,
+  "_news_last_success_at": 1790988270.9828694,
   "fgi": {
     "score": 31.1714285714286,
     "rating": "fear"
   },
-  "_fetched_at": 1790984523.5507116,
-  "_updated_label": "2026-10-03 08:42",
-  "_last_attempt_at": 1790984523.5507116,
-  "_last_success_at": 1790984523.5507116,
+  "_fetched_at": 1790988263.457383,
+  "_updated_label": "2026-10-03 09:44",
+  "_last_attempt_at": 1790988263.457383,
+  "_last_success_at": 1790988263.457383,
   "_collection_status": "ok",
   "_collection_errors": []
 };
