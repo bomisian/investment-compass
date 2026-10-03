@@ -246,6 +246,15 @@ const MARKET_DATA = {
       "summaryKo": "Ynon Kreiz가 Skydance의 공동 CEO로 임명되면서 곧 합병될 Ellison 회사의 주요 거버넌스 문제에 대한 답이 제시되었습니다."
     },
     {
+      "headline": "Aboard the USS George Washington, young sailors adjust to war with Iran - Reuters",
+      "summary": "Aboard the USS George Washington, young sailors adjust to war with Iran Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMmwtU1dvSVNubGRlbFl6OE9ObzN4MFVRYkUtMFVueTVRbE5KWGx5RTR4T1NFS2oyN1J3V0YxOEVhU3ZTeXAwX0ppOHNKRWE1S1NNYXl3UWt3WGQ2SWFJbkdHMmJLTVRNanp6THZ1R1VPUmRoR1lLSGRvYWtLRWk4bjJnTGJsLWlqMklpeVhPbUx2dTBpN2Z2YVpkOE83Rm8waTdaNmtDaWpxdTlHb0FzQkE5RnFiWFhk?oc=5",
+      "datetime": 1791023503,
+      "headlineKo": "USS 조지 워싱턴호에 탑승한 젊은 선원들, 이란과의 전쟁에 적응하다 - 로이터",
+      "summaryKo": "USS 조지 워싱턴호에 탑승한 젊은 선원들이 이란과의 전쟁에 적응하고 있습니다."
+    },
+    {
       "headline": "Photos of the week - Reuters",
       "summary": "Photos of the week Reuters",
       "source": "Reuters",
@@ -295,7 +304,7 @@ const MARKET_DATA = {
       "summary": "Saudis plan assault on Houthis to break Red Sea chokehold Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUVJialJyWHg0VzlHXzBiaTU3elZhbWEtQzd0TjhNOGNsWFFZNTYyMGFqODJGcVc3aVBaYVY3QkRzWWpEZDlQNEpJeVp6ZjMxYkZKYi1nZ0FUenFUSFRFRTNCb3NaTmdCaTJ1WWV1RmlqcmhSZGtsZWZobE5jSHp3RkJiVXpueWdVOHJmbDhzUEEzVXB6OF9jYkJHcnpfQklTNDVHZ20yS1J6QQ?oc=5",
-      "datetime": 1790964821,
+      "datetime": 1790964780,
       "headlineKo": "사우디, 홍해의 압박을 무너뜨리기 위해 후티 반군에 대한 공격 계획 - 로이터 통신",
       "summaryKo": "사우디, 홍해의 초크홀드를 파괴하기 위해 후티 반군에 대한 공격 계획 - 최신"
     },
@@ -307,6 +316,15 @@ const MARKET_DATA = {
       "datetime": 1790964215,
       "headlineKo": "S&P 500의 금요일 랠리는 충분하지 않을 수도 있지만 Linde는 이 세상에서 벗어났습니다.",
       "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
+    },
+    {
+      "headline": "IEA's Birol says oil prices starting to fall after reserve release decision - Reuters",
+      "summary": "IEA's Birol says oil prices starting to fall after reserve release decision Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcHZzWUw2YjVHbmx6SmNmYURKOGxkcy0zbndDQnpTMnRSc0JLOEpIaWw0MzVmeGRzNGZPeUFZQlM4aGduVEV5cVRCYlFwSk53RUQxYzhoZHd2UFhwX25mZlJKbmFzR2Zza3E3OGRVRVN4M0lvV2w3bTQwb1FzQ0s5eUhvQ3VjZTBZbW11QzVKTWctQ3FYQk9GZ2VYRVdKMEo1RVp2S3Z0LTVVMV9OZE15ZURBejNCWVkteVdzZDRsMHc?oc=5",
+      "datetime": 1790962592,
+      "headlineKo": "IEA의 Birol은 예비 방출 결정 이후 유가가 하락하기 시작했다고 말했습니다 - Reuters",
+      "summaryKo": "IEA의 Birol은 예비 방출 결정 이후 유가가 하락하기 시작했다고 말했습니다 - 최신"
     },
     {
       "headline": "Iraq says 40 daily Iranian flights cleared to fly to and from Najaf - Reuters",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1790957701,
       "headlineKo": "보고서에 따르면 2035년까지 매년 170만 개의 숙련된 무역 일자리가 창출될 것이라고 합니다. 전문가들은 누가 그 일자리를 채울지 모릅니다.",
       "summaryKo": "업계가 일자리 창출, 노동력 노령화, 높은 이직률을 따라잡기 위해 고군분투하고 있기 때문에 숙련된 기술 분야의 일자리는 풍부합니다."
-    },
-    {
-      "headline": "UK new car sales rise 12% in September as EVs and Chinese brands gain ground - Reuters",
-      "summary": "UK new car sales rise 12% in September as EVs and Chinese brands gain ground Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeHZ6ZW1IM2ZoUVdSWTVLdVA3cHRxQmE1STZ5aXQ4akJGc3V6NExmVnpZOGtJUHhMajdvY2FwclpscEsxYzRqcnlSM3UwbXpoWW5iMjdjVWlMeFZ6THJCWWpMWkFpZ2k1UG1jTjd2V3JhVGZmb005MDlNQnRTT25ldHlCQUZuTTNIWkFnd3diQzNvZ0NYVWgyeVZZUkVtQkEtQ1lIclNndTVicXN5NF9haVZCZlJUaWZvLUpubWp3?oc=5",
-      "datetime": 1790956863,
-      "headlineKo": "영국의 9월 신차 판매는 EV와 중국 브랜드의 입지가 강화되면서 12% 증가했습니다.",
-      "summaryKo": "영국의 9월 신차 판매는 EV와 중국 브랜드의 입지가 강화되면서 12% 증가했습니다."
-    },
-    {
-      "headline": "The sector in the cross hairs of the bond sell-off looks poised for a bounce, says Mike Khouw",
-      "summary": "An interesting tug of war is happening in one of the market's hottest sectors: utilities.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/02/the-sector-in-the-cross-hairs-of-the-bond-sell-off-looks-poised-for-a-bounce-says-mike-khouw.html",
-      "datetime": 1790955268,
-      "headlineKo": "Mike Khouw는 채권 매도의 십자선에 있는 부문이 반등할 준비가 되어 있다고 말했습니다.",
-      "summaryKo": "시장에서 가장 뜨거운 부문 중 하나인 유틸리티 분야에서 흥미로운 줄다리기가 벌어지고 있습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791026685.9186213,
+  "_news_last_success_at": 1791030571.860098,
   "fgi": {
     "score": 31.1714285714286,
     "rating": "fear"
   },
-  "_fetched_at": 1791026676.3294454,
-  "_updated_label": "2026-10-03 20:25",
-  "_last_attempt_at": 1791026676.3294454,
-  "_last_success_at": 1791026676.3294454,
+  "_fetched_at": 1791030561.6805468,
+  "_updated_label": "2026-10-03 21:29",
+  "_last_attempt_at": 1791030561.6805468,
+  "_last_success_at": 1791030561.6805468,
   "_collection_status": "ok",
   "_collection_errors": []
 };
