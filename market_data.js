@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Supreme Court Justice Alito said he's 'thought about' retirement as Senate control hangs in balance",
+      "summary": "The Senate could flip to Democrats after November's midterm election, jeopardizing a potential Supreme Court nomination by President Donald Trump.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/04/supreme-court-justice-alito-thought-about-retiring.html",
+      "datetime": 1791136391,
+      "headlineKo": "알리토 대법관은 상원 통제가 불안정해 은퇴를 '생각하고 있다'고 말했다.",
+      "summaryKo": "11월 중간선거 이후 상원이 민주당으로 바뀌면서 도널드 트럼프 대통령의 대법관 지명 가능성이 위태로워질 수 있다."
+    },
+    {
       "headline": "Here are 3 things we're watching in the stock market in the week ahead",
       "summary": "The oil and bond markets will remain a critical driver of stocks.",
       "source": "CNBC",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1791026289,
       "headlineKo": "페어포드 공군기지 조사에서 체포된 남자, 보석으로 석방 - 로이터 통신",
       "summaryKo": "페어포드 공군기지 조사에서 체포된 남자 보석으로 석방 - 최신"
-    },
-    {
-      "headline": "David Ellison just brought in a co-CEO to run his new empire: Meet Ynon Kreiz",
-      "summary": "Ynon Kreiz's appointment as co-CEO of Skydance answers a key governance question for Ellison's soon-to-be-merged company.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/03/david-ellison-ynon-kreiz-skydance.html",
-      "datetime": 1791025201,
-      "headlineKo": "David Ellison은 자신의 새로운 제국을 운영하기 위해 공동 CEO를 영입했습니다. Ynon Kreiz를 만나보세요",
-      "summaryKo": "Ynon Kreiz가 Skydance의 공동 CEO로 임명되면서 곧 합병될 Ellison 회사의 주요 거버넌스 문제에 대한 답이 제시되었습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791135264.4365606,
+  "_news_last_success_at": 1791138990.4827163,
   "fgi": {
     "score": 31.1714285714286,
     "rating": "fear"
   },
-  "_fetched_at": 1791135256.847376,
-  "_updated_label": "2026-10-05 02:34",
-  "_last_attempt_at": 1791135256.847376,
-  "_last_success_at": 1791135256.847376,
+  "_fetched_at": 1791138982.3760245,
+  "_updated_label": "2026-10-05 03:36",
+  "_last_attempt_at": 1791138982.3760245,
+  "_last_success_at": 1791138982.3760245,
   "_collection_status": "ok",
   "_collection_errors": []
 };
