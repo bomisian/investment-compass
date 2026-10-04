@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "This NYC startup requires 4 days in office but just let everyone work remote for a whole month",
+      "summary": "SolComms, a New York City-based PR firm, says letting employees work from anywhere in the world boosted revenue, productivity and happiness.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/04/work-from-anywhere-month.html",
+      "datetime": 1791122401,
+      "headlineKo": "이 NYC 스타트업은 사무실에 4일이 필요하지만 모든 사람이 한 달 동안 원격으로 일하도록 허용합니다.",
+      "summaryKo": "뉴욕시에 본사를 둔 홍보 회사인 SolComms는 직원들이 세계 어디에서나 일할 수 있게 함으로써 수익, 생산성 및 행복이 향상되었다고 말합니다."
+    },
+    {
       "headline": "Starting a watch collection? What beginners should know before buying",
       "summary": "Watch experts explain how beginners can start a collection, what tends to hold value, when to buy used and how to avoid costly mistakes.",
       "source": "CNBC",
@@ -244,6 +253,15 @@ const MARKET_DATA = {
       "datetime": 1791121471,
       "headlineKo": "시계 컬렉션을 시작하시나요? 초보자가 구매하기 전에 알아야 할 사항",
       "summaryKo": "전문가들이 초보자가 컬렉션을 시작하는 방법, 가치를 유지하는 경향, 중고 제품 구입 시기, 비용이 많이 드는 실수를 피하는 방법에 대해 설명하는 것을 시청하세요."
+    },
+    {
+      "headline": "OpenAI safety employee quits, calls for nuclear-level safeguards",
+      "summary": "David Robinson, formerly leading OpenAI’s safety transparency efforts, wrote in The Atlantic that ChatGPT maker “has thrived by trial and error”",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-03/openai-safety-employee-quits-calls-for-nuclear-level-safeguards",
+      "datetime": 1791038431,
+      "headlineKo": "OpenAI 안전 직원 사임, 핵 수준의 안전 조치 요구",
+      "summaryKo": "이전에 OpenAI의 안전 투명성 노력을 이끌었던 David Robinson은 ChatGPT 제조업체가 \"시행과 오류를 통해 성장했다\"고 The Atlantic에 썼습니다."
     },
     {
       "headline": "Gen Alpha kids are earning money. Here's how parents can help them save and invest",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1791023503,
       "headlineKo": "USS 조지 워싱턴호에 탑승한 젊은 선원들, 이란과의 전쟁에 적응하다 - 로이터",
       "summaryKo": "USS 조지 워싱턴호에 탑승한 젊은 선원들이 이란과의 전쟁에 적응하고 있습니다."
-    },
-    {
-      "headline": "Iran executes detainee over January protests, judiciary says - Reuters",
-      "summary": "Iran executes detainee over January protests, judiciary says Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWGdCTURnWkJyS1ZoczFjQWo3VF9BaXVrdm1tZV8wR0pwSmxYSFZMNVl0V19fU2NIWGRxNG0zSl9vM3BnRWVDUGpzRG5jM28tTmVibEZuNG5UeTZ1elJ1eVgzVFhQQ21GOXVVUFJqbEppZFMzTld0dExWXy16X245eTVrc2htcWl0dkxsNFMwQUdpSHEyTUFSX0Y4cEwyNXVHODdoUjV6VXF3QlR2bHNsYjFzVQ?oc=5",
-      "datetime": 1791021367,
-      "headlineKo": "이란, 1월 시위 혐의로 억류자 처형했다고 사법부 발표 - 로이터 통신",
-      "summaryKo": "이란, 1월 시위 혐의로 억류자 처형했다고 사법부 발표 - 로이터 통신"
-    },
-    {
-      "headline": "Two Iranians charged in UK over alleged terrorism plot targeting Jewish community - Reuters",
-      "summary": "Two Iranians charged in UK over alleged terrorism plot targeting Jewish community Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPN1pSQkNGMThITHRzNldaeUlFYjFYWk5Bckx6cllZZkJXU0R5ZEtkTGpxcDdxX3B5c1pQZFlzN0hvOGNjUjMtR2tMRW5iVDg0bVRERkk4RXBKT2dmUEJmdDJjZWNpSXVJTHhqdGp2SzdPSkVMY3pkM0xaVnBoTXZyZi1EaF9uRGtkWTlYenhvSDVKU1BXUEZ4cFA4SWlOWHVhSDBjeExKZ2ZnTVB1M281WUdWd3NvM1hJenc?oc=5",
-      "datetime": 1790975506,
-      "headlineKo": "유대인 공동체를 겨냥한 테러 음모 혐의로 영국에서 이란인 2명 기소 - 로이터",
-      "summaryKo": "유대인 공동체를 겨냥한 테러 음모 혐의로 이란인 2명 영국에서 기소 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791123799.4296324,
+  "_news_last_success_at": 1791127522.795163,
   "fgi": {
     "score": 31.1714285714286,
     "rating": "fear"
   },
-  "_fetched_at": 1791123791.0035524,
-  "_updated_label": "2026-10-04 23:23",
-  "_last_attempt_at": 1791123791.0035524,
-  "_last_success_at": 1791123791.0035524,
+  "_fetched_at": 1791127511.8176093,
+  "_updated_label": "2026-10-05 00:25",
+  "_last_attempt_at": 1791127511.8176093,
+  "_last_success_at": 1791127511.8176093,
   "_collection_status": "ok",
   "_collection_errors": []
 };
