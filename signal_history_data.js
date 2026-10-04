@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791142854.9812262,
+  "generatedAt": 1791144019.1949177,
   "records": {
     "MSFT": [
       {
@@ -16205,6 +16205,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1791144019.1949177,
+        "dataAsOf": 1791131994,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -2.8,
+            "after": -2.45
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -4.55,
+            "after": -4.2
+          }
+        ],
+        "cause": "AI 컴퓨팅 수요 확대 가능성",
+        "newsHeadline": "투자자들은 Micron의 최신 수익 보고서에 미지근한 반응을 보였습니다. 간과된 역풍이 그 이유를 설명할 수 있습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=bb46c9b03b933b2c9d53ba36a64023ca471fb4c570546e933c310788978fb7cf",
+        "eventId": "40a2cdebd2112245cc7f",
+        "fingerprint": "{\"changes\": [{\"after\": -2.45, \"before\": -2.8, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -4.2, \"before\": -4.55, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"40a2cdebd2112245cc7f\"}"
+      },
+      {
         "changedAt": 1791140710.5376039,
         "dataAsOf": 1791131994,
         "changes": [
@@ -17380,29 +17403,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=df900d43ab873db9b626aa8ea8590fdb387996cb65dd460a1f938180bdc6a2ca",
         "eventId": "356166af032f77380ca4",
         "fingerprint": "{\"changes\": [{\"after\": 2.8, \"before\": 3.32, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 2.1, \"before\": 1.93, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"356166af032f77380ca4\"}"
-      },
-      {
-        "changedAt": 1790088507.1957614,
-        "dataAsOf": 1790083172,
-        "changes": [
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -3.15,
-            "after": -4.2
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 3.85,
-            "after": 1.93
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "엔비디아 주가, 이익 호황에도 불구하고 10년 최저치 기록",
-        "newsUrl": "https://finnhub.io/api/news?id=df900d43ab873db9b626aa8ea8590fdb387996cb65dd460a1f938180bdc6a2ca",
-        "eventId": "356166af032f77380ca4",
-        "fingerprint": "{\"changes\": [{\"after\": -4.2, \"before\": -3.15, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": 1.93, \"before\": 3.85, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"356166af032f77380ca4\"}"
       }
     ],
     "AMD": [

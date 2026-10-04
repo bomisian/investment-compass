@@ -1,11 +1,11 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791142854.9812262,
+  "generatedAt": 1791144019.1949177,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1790948708,
       "signal": "주의 강화",
       "netScore": -5.45,
@@ -103,7 +103,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1791075974,
       "signal": "주의 강화",
       "netScore": -10,
@@ -328,7 +328,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1791129505,
       "signal": "우호적 변화",
       "netScore": 10,
@@ -548,7 +548,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1791129505,
       "signal": "주의 강화",
       "netScore": -5.87,
@@ -731,7 +731,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1791097223,
       "signal": "주의 강화",
       "netScore": -10,
@@ -914,7 +914,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1791011381,
       "signal": "주의 강화",
       "netScore": -5.04,
@@ -1021,7 +1021,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1791091599,
       "signal": "우호적 변화",
       "netScore": 6.09,
@@ -1160,7 +1160,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1790999148,
       "signal": "중립·확인 대기",
       "netScore": 0.92,
@@ -1257,7 +1257,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1790955901,
       "signal": "주의 강화",
       "netScore": -5.46,
@@ -1367,10 +1367,10 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1791131994,
       "signal": "우호적 변화",
-      "netScore": 5.52,
+      "netScore": 6.08,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -1385,7 +1385,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "valuationBurden": {
           "label": "밸류에이션 부담",
-          "score": -2.8,
+          "score": -2.45,
           "level": "주의"
         },
         "customerConcentration": {
@@ -1400,7 +1400,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -4.55,
+          "score": -4.2,
           "level": "주의"
         },
         "shortTermMomentum": {
@@ -1562,28 +1562,27 @@ const EVENT_ANALYSIS_DATA = {
           "reason": "AI 컴퓨팅 수요 확대 가능성"
         },
         {
-          "eventId": "130a6564f18c190d37ff",
+          "eventId": "64909fadbb7a557cc35f",
           "headline": "S&P 500, Nasdaq, Dow는 취약한 일자리 보고서가 금리 인상 베팅을 냉각함에 따라 주간 상승 — NVDA, BA, SPCX, RIVN, APLD 집중",
-          "eventLabel": "AI·데이터센터 투자 변화",
+          "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1790980139,
           "verificationStatus": "needs_confirmation",
           "sourceUrl": "https://finnhub.io/api/news?id=d04eae234e3a29ff64372c2c9007ab3075e1d99b0395ce2a635e928e33c28b0a",
           "factorChanges": {
+            "businessRisk": -2,
             "growth": -1,
-            "valuationBurden": -1,
-            "businessRisk": -1,
             "shortTermMomentum": -1
           },
           "reason": "사업·실적 연결 경로 확인 필요"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 35,
+      "unverifiedEvidenceCount": 34,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1791131994,
       "signal": "우호적 변화",
       "netScore": 9.47,
@@ -1794,7 +1793,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1791119040,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -2014,7 +2013,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1791092412,
       "signal": "주의 강화",
       "netScore": -10,
@@ -2181,7 +2180,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1790956051,
       "signal": "주의 강화",
       "netScore": -2.52,
@@ -2265,7 +2264,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1791119740,
       "signal": "주의 강화",
       "netScore": -7.49,
@@ -2402,7 +2401,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1791102000,
       "signal": "중립·확인 대기",
       "netScore": -1.47,
@@ -2622,7 +2621,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1791067952,
       "signal": "주의 강화",
       "netScore": -3.43,
@@ -2773,7 +2772,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1791067952,
       "signal": "주의 강화",
       "netScore": -5.17,
@@ -2897,7 +2896,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1790882881,
       "signal": "주의 강화",
       "netScore": -8.18,
@@ -3023,7 +3022,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1791106882,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -3092,7 +3091,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3146,7 +3145,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1791131994,
       "signal": "우호적 변화",
       "netScore": 8.52,
@@ -3362,7 +3361,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1791119760,
       "signal": "우호적 변화",
       "netScore": 2.65,
@@ -3485,7 +3484,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1791087600,
       "signal": "주의 강화",
       "netScore": -9.18,
@@ -3693,7 +3692,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3747,7 +3746,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1790947452,
       "signal": "중립·확인 대기",
       "netScore": 1.4,
@@ -3816,7 +3815,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1791027565,
       "signal": "주의 강화",
       "netScore": -3.77,
@@ -3900,7 +3899,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1791059100,
       "signal": "중립·확인 대기",
       "netScore": -1.26,
@@ -3969,7 +3968,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1791108395,
       "signal": "우호적 변화",
       "netScore": 3.22,
@@ -4108,7 +4107,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1790973424,
       "signal": "중립·확인 대기",
       "netScore": -0.48,
@@ -4191,7 +4190,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4245,7 +4244,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1790916195,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -4314,7 +4313,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4368,7 +4367,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1790899108,
       "signal": "중립·확인 대기",
       "netScore": -0.35,
@@ -4435,7 +4434,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4489,7 +4488,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1791132600,
       "signal": "중립·확인 대기",
       "netScore": -1.62,
@@ -4626,7 +4625,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4680,7 +4679,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 1791112920,
       "signal": "우호적 변화",
       "netScore": 2.09,
@@ -4749,7 +4748,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1791142854.9812262,
+      "updatedAt": 1791144019.1949177,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
