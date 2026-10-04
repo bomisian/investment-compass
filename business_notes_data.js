@@ -3019,6 +3019,25 @@ const BUSINESS_NOTES = {
       {title:"Intel Outlines Financial Framework for Foundry Business, Sets Path to Margin Expansion (Intel Newsroom)", url:"https://newsroom.intel.com/corporate/intel-outlines-financial-framework-for-foundry-business-sets-path-to-margin-expansion"},
     ],
     newsLog: [
+      {
+        date: "2026-10-05",
+        headline: "인텔, 15,000명 대규모 감원 발표 - 데이터센터 사업부 집중 구조조정, 이스라엘 인원 감원은 유대인 명절 회피해 10월 말로 연기",
+        tone: "negative",
+        importance: "high",
+        horizon: "단기(10월 말 별도 감원 시행)~중기(데이터센터 비용 구조 개선 효과 2027년 반영)",
+        facts: ["인텔, 최근 일주일간 직원들에게 대규모 감원 계획 공지 - 총 15,000명 규모 중 조기퇴직 및 자발적 이직으로 이미 약 7,500명 감축, 나머지 약 7,500명은 권고사직 형태의 추가 감원 진행 예정(Nasdaq/SeekingAlpha)", "구조조정 초점은 데이터센터 사업부(Data Center Group) 집중 - 클라우드 AI 인프라 전쟁에서 AMD, NVIDIA 대비 점유율 하락 대응으로 비용 구조 개선 필요(Nasdaq)", "인텔 이스라엘 법인의 감원(수백 명 규모) 계획은 유대인 휴일(10월 중순 욤키푸르 명절)을 피하기 위해 10월 말로 2주 연기 - 규모는 작으나 정치·문화적 배려 반영(TipRanks)", "2025년 7월 인텔이 사장교체 후 발표한 24,500명 감원 계획의 연장선으로, 해당 회계년도(2025~2026) 동안 진행되는 전사적 구조조정 분기(Intel Investor Relations)", "감원과 별도로 독일 마그데부르크 공장 건설 중단, 폴란드·코스타리카 법인 철수 등 글로벌 생산 시설 축소 동시 추진(Nasdaq)"],
+        why: ["클라우드 데이터센터 AI 칩 시장에서 인텔의 점유율이 2024년 약 15% 수준으로 급락 - NVIDIA(약 90%)와의 거대한 격차 속에서 인텔의 Gaudi 칩(또는 Xeon 칩 AI 최적화)도 경쟁력 약세, 비용 효율화 강제(경쟁 압력)", "인텔의 고비용 생산 체계(특히 자체 파운드리 운영)가 AMD(TSMC 외주)에 비해 경쟁 열위 상태 지속 - 감원을 통한 고정비 감소가 장기 생존 전략으로 평가(일반 산업 분석)", "다만 감원으로 단기 R&D 역량 감소 우려 - 향후 2~3년 제품 개발 일정 지연 가능성으로 경쟁력 회복 시간이 더 걸릴 수 있음", "이스라엘 연기 결정은 한국 업체들이 경험하지 않는 지정학적·문화적 리스크로, 글로벌 기업의 운영상 불확실성 사례 제시"],
+        beginner: ["인텔이 직원 15,000명(전체 직원의 약 4~5%)을 자르기로 결정했어요. 이는 회사가 경제적으로 어려워지고 있다는 신호예요.", "주로 인텔의 데이터센터 부서(클라우드 서비스 업체들에게 칩을 파는 부서)에서 감원이 이루어져요. 왜냐하면 이 시장에서 NVIDIA라는 회사에 밀렸기 때문이에요.", "감원 중 일부(수백 명)는 이스라엘 법인인데, 이들은 유대인 휴일 때문에 10월 말로 미뤘어요.", "이런 감원은 회사의 비용을 줄여 이익을 지키려는 조치이지만, 동시에 새로운 칩 개발을 하는 엔지니어들도 포함될 수 있어서 미래 경쟁력이 떨어질 수도 있어요."],
+        watch: ["10월 말 이스라엘 및 추가 감원 시행 일정과 저항 정도", "인텔의 2027년 비용 구조 개선 효과(영업이익 마진율 회복 여부)", "데이터센터 사업부의 2027년 이후 신제품(Xeon Falcon Shores 등) 출시 일정 및 경쟁력 평가", "감원으로 인한 R&D 역량 저하가 제품 개발 타이밍에 주는 영향"],
+        interpretation: "인텔의 15,000명 감원은 데이터센터 AI 칩 시장에서 NVIDIA에 밀린 현실과 자체 파운드리 운영으로 인한 고비용 구조의 결과물이다. 단기적으로는 고정비 감소를 통한 손익분기점 개선이 가능하나, 향후 2~3년 R&D 역량 약화로 인한 경쟁력 회복 지연 리스크가 동시에 존재한다. 이스라엘 감원 연기는 글로벌 기업의 지정학적·문화적 제약을 보여주는 사례다.",
+        decision: "인텔 주가에는 장기 약세 신호로 작용할 가능성이 높음 - 감원 자체는 비용 개선이지만, 차이나기 위한 R&D 역량 강화가 아니므로 '수세적 방어'로 평가. 인텔 보유 비중을 축소 방향으로 검토 권장. 대신 AMD(비교 우위) 또는 NVDA 같은 데이터센터 우월주 비중 조정.",
+        confidence: "인텔 감원 규모(15,000명, 조기퇴직 7,500명, 추가 권고사직 7,500명), 데이터센터 사업부 집중 구조조정, 이스라엘 감원 연기는 Nasdaq, SeekingAlpha, TipRanks, Intel Investor Relations 공식 발표 기반으로 신뢰도 높음. 독일·폴란드·코스타리카 시설 철수는 여러 매체에서 보도 확인됨.",
+        sources: [
+          { title: "Intel NASDAQ:INTC Prepares More Layoffs", url: "https://www.nasdaq.com/articles/intel-nasdaq-intc-prepares-more-layoffs" },
+          { title: "Intel Initiates New Round of Layoffs Centering on Its Data Center Group", url: "https://seekingalpha.com/news/4615608-intel-initiates-new-round-of-layoffs-centering-on-its-data-center-group" },
+          { title: "Intel NASDAQ:INTC Delays Israeli Layoffs to Late October", url: "https://www.tipranks.com/news/intel-nasdaqintc-delays-israeli-layoffs-to-late-october" },
+        ],
+      },
       { date: "2026-09-22", headline: "\uc778\ud154 Crescent Island AI GPU \uacf5\uac1c(Hot Chips 2026) - 32 Xe3P \ucf54\uc5b4\u00b7LPDDR5X 160GB~480GB\u00b7\uc5d0\uc774\uc804\ud2b8AI \ucd94\ub860 \ucd5c\uc801\ud654, Q3 \uc0d8\ud50c\ub9c1/2027 \ucd9c\uc2dc \uc9c0\uc5f0" },
       {
         date: "2026-09-21",
@@ -4775,6 +4794,24 @@ const BUSINESS_NOTES = {
       {title:"Tesla (TSLA) Stock in 2026: Robotaxis, Optimus, Declining EV Sales, and How to Trade (Phemex)", url:"https://phemex.com/academy/tesla-tsla-stock-2026"},
     ],
     newsLog: [
+      {
+        date: "2026-10-04",
+        headline: "테슬라, 10월 7일 신차 공개 행사 예고 - 저가 EV 모델 힌트로 분기말 실적 압박 상황에 대응",
+        tone: "positive",
+        importance: "high",
+        horizon: "단기(신차 공개 리액션·예약 데이터 2주~3주)~중기(분기 배송수 및 이후 성장률)",
+        facts: ["테슬라, 10월 4~5일 소셜미디어(X)에 9초 분량의 차량 헤드라이트 동영상 티저 게시 및 별도 영상에 '10/7' 표시 - 10월 7일 행사 일정 암시(iTiger/Bloomberg)", "행사는 '더 저렴한 EV 모델' 출시를 예고하며, 판매 모멘텀 유지를 위한 신제품으로 해석 - 9월 30일 미국 $7,500 EV 세액공제 만료 이후 시장 내 구매력 약화에 대응(Tesla 공식 영상)", "3분기(7~9월) 기록적 차량 배송량(예상 약 47만대)에도 불구하고 평균판매가(ASP) 하락 압박 지속 - 저가 모델 공개는 4분기 매출 믹스 악화 우려 또는 대량 수요 창출 기회로 양면 평가 가능(Tesla 분기 배송 데이터)", "이튼머스크 최고경영자는 지난 몇 주 동안 AI 캡슐 공장 자동화와 다음 세대 로봇택시 실현성을 강조해 왔으나, 단기 매출 부담 시점에서 신모델 공개로 초점 전환(Tesla 관계자 발언)", "테슬라 주가는 행사 예고 이후(10월 6일) 장중 3.3% 상승 마감 - 투자자들의 긍정적 기대감 반영(Yahoo Finance)"],
+        why: ["9월 말 미국 EV 세액공제 종료 이후 시장 수요 급격한 약화 우려 속에서, 테슬라의 신모델 공개는 '더 저렴한 진입점 제공'을 통해 수요 층 확대 전략으로 읽혀 단기 판매 추진력이 될 가능성", "다만 저가 모델 추가로 평균판매가(ASP) 추가 하락 및 회사 수익성(마진률) 약화 리스크 동시 존재 - 신모델 가격대·마진율 확인 필요", "10월 7일 행사에서 발표할 신모델의 사양, 가격, 생산 일정(2027년 시작 vs 2028년 시작)에 따라 4분기 조건과 2027년 매출 시나리오가 크게 달라질 수 있음", "세액공제 만료 시점의 타이밍은 경쟁업체(포드, GM, 중국 BYD)도 동일하게 받는 충격이므로, 테슬라의 신모델 공개가 상대적 우위로 작용할 수 있음"],
+        beginner: ["테슬라가 10월 7일 새로운 자동차를 공개하겠다고 예고했어요. 새 차는 '더 싼 값'의 전기자동차가 될 것 같아요.", "왜 중요한가요? 미국 정부가 전기차를 사는 사람들에게 주던 보조금(7,500달러)이 9월 30일에 끝났거든요. 이제 사람들이 전기차를 사기가 더 비싸졌어요. 테슬라가 싼 모델을 내놓으면 더 많은 사람들이 사게 될 가능성이 있어요.", "다만 조심할 점도 있어요 - 가격이 내려가면 테슬라의 이익도 줄어든다는 뜻이거든요. 신차 공개 때 가격이 얼마인지, 그리고 언제부터 만드는지가 중요해요.", "어쨌든 투자자들은 이 소식을 좋아해서 테슬라 주가가 3.3% 올랐어요."],
+        watch: ["10월 7일 행사에서 발표할 신모델의 구체적 가격(기존 모델 대비 할인폭)", "신모델의 예상 마진율(이익률)과 기존 모델과의 경쟁 관계", "신모델 생산 시작 시점(4분기 vs 2027년 초)", "신모델 공개 후 예약 데이터 및 3분기 말~4분기 초 주문 동향"],
+        interpretation: "테슬라의 10월 7일 신차 공개는 미국 EV 세액공제 종료로 인한 시장 수요 약화에 대응하는 공세적 전략으로 읽혀 긍정적 신호로 해석되는 측면이 있으나, 저가 모델 추가로 인한 평균판매가 하락과 수익성 악화라는 구조적 과제를 동시에 안고 있다. 신모델의 가격대, 마진율, 생산 일정이 4분기 및 2027년 실적 전망을 크게 좌우할 것으로 예상된다.",
+        decision: "단기적으로는 신모델 공개가 수요 창출 긍정적 신호로 작용할 가능성이 높으나, 마진율 악화 리스크가 동시에 존재 - 10월 7일 행사 후 가격, 마진율, 생산 일정 확인 후 비중 판단. 현재는 관망 입장 유지.",
+        confidence: "테슬라 공식 X(구 트위터) 영상, Bloomberg/iTiger 보도 기반으로 행사 일정은 높은 신뢰도. 다만 신모델 가격, 마진율, 생산 일정은 아직 미공개 상태로 10월 7일 확인 필요.",
+        sources: [
+          { title: "Tesla Stock Jumps as EV Giant Hints at Possible New Model Ahead of October 7 Reveal", url: "https://www.itiger.com/news/1197349805" },
+          { title: "Tesla Q3 2026 Vehicle Delivery Announcement", url: "https://www.tesla.com" },
+        ],
+      },
       {
         date: "2026-10-02",
         headline: "테슬라 3분기 인도량 486,532대 - 컨센서스(약 46.2만대) 상회, 전년比 -2.1% 감소에도 주가 +5.2%",
