@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "It's time for us to put cash to work in this ugly market. Here's where we will do our buying",
+      "summary": "In his Sunday column, Jim Cramer explains why investors need to hold their nose and do some buying.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/investingclub/2026/10/04/its-time-for-us-to-put-cash-to-work-in-this-ugly-market-heres-where-we-will-do-our-buying.html",
+      "datetime": 1791145936,
+      "headlineKo": "이제 우리가 이 추악한 시장에서 일하기 위해 현금을 투입해야 할 때입니다. 우리가 구매를 할 곳은 여기입니다",
+      "summaryKo": "일요일 칼럼에서 짐 크레이머(Jim Cramer)는 왜 투자자들이 입을 다물고 매수를 해야 하는지 설명합니다."
+    },
+    {
       "headline": "Supreme Court Justice Alito said he's 'thought about' retirement as Senate control hangs in balance",
       "summary": "The Senate could flip to Democrats after November's midterm election, jeopardizing a potential Supreme Court nomination by President Donald Trump.",
       "source": "CNBC",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1791027732,
       "headlineKo": "이란인 2명이 유대인을 표적으로 삼으려는 음모 혐의로 영국 법원에 출두 - 로이터 통신",
       "summaryKo": "두 명의 이란인이 유대인을 표적으로 삼으려는 음모 혐의로 영국 법원에 출두 - 최신"
-    },
-    {
-      "headline": "Man arrested in Fairford air base investigation released on bail - Reuters",
-      "summary": "Man arrested in Fairford air base investigation released on bail Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZlM4THR1SEZQZDZfdFlpejVLZ2tuMk5qbTFiVjhNbEtpRW1tNjMwZHV0dlhKWjdXdU5TWTZ5dm5ZTW9jRjBjcV9YWUxWVGQ4cjRyN1pDd0I3bDhiSms3LTB6THluWTVfeFBRTUdNWjlJMkJnTEpXRTQ3SlR3bTlFSWFkM3lUd3pIUEVESkpHcWVLVWNMQmdRNzZlR01XNXZYd3Vtcjdn?oc=5",
-      "datetime": 1791026289,
-      "headlineKo": "페어포드 공군기지 조사에서 체포된 남자, 보석으로 석방 - 로이터 통신",
-      "summaryKo": "페어포드 공군기지 조사에서 체포된 남자 보석으로 석방 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791146570.234494,
+  "_news_last_success_at": 1791150274.5527024,
   "fgi": {
     "score": 31.1714285714286,
     "rating": "fear"
   },
-  "_fetched_at": 1791146562.8604248,
-  "_updated_label": "2026-10-05 05:43",
-  "_last_attempt_at": 1791146562.8604248,
-  "_last_success_at": 1791146562.8604248,
+  "_fetched_at": 1791150266.1054564,
+  "_updated_label": "2026-10-05 06:45",
+  "_last_attempt_at": 1791150266.1054564,
+  "_last_success_at": 1791150266.1054564,
   "_collection_status": "ok",
   "_collection_errors": []
 };
