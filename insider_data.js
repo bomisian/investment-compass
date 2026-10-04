@@ -4,13 +4,13 @@
 const INSIDER_DATA = {
   "QQQ": {
     "transactions": [],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "SPY": {
     "transactions": [],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "MSFT": {
     "transactions": [
@@ -143,11 +143,19 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "GOOGL": {
     "transactions": [
+      {
+        "name": "ARNOLD FRANCES",
+        "share": 83,
+        "transactionPrice": 340.45,
+        "transactionDate": "2026-09-30",
+        "filingDate": "2026-10-02",
+        "code": "S"
+      },
       {
         "name": "ARNOLD FRANCES",
         "share": 82,
@@ -173,8 +181,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "AMZN": {
     "transactions": [
@@ -339,8 +347,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "META": {
     "transactions": [
@@ -505,8 +513,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "AAPL": {
     "transactions": [
@@ -575,8 +583,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "TSLA": {
     "transactions": [
@@ -589,8 +597,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "ORCL": {
     "transactions": [
@@ -627,8 +635,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "CRM": {
     "transactions": [
@@ -657,8 +665,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "PLTR": {
     "transactions": [
@@ -823,8 +831,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "NVDA": {
     "transactions": [
@@ -989,8 +997,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "AMD": {
     "transactions": [
@@ -1155,8 +1163,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "AVGO": {
     "transactions": [
@@ -1313,11 +1321,19 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "QCOM": {
     "transactions": [
+      {
+        "name": "Grech Patricia Y",
+        "share": 98,
+        "transactionPrice": 186.55,
+        "transactionDate": "2026-10-02",
+        "filingDate": "2026-10-02",
+        "code": "S"
+      },
       {
         "name": "AMON CRISTIANO R",
         "share": 10000,
@@ -1469,18 +1485,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-08-03",
         "filingDate": "2026-08-03",
         "code": "S"
-      },
-      {
-        "name": "Palkhiwala Akash J.",
-        "share": 32,
-        "transactionPrice": 189.4247,
-        "transactionDate": "2026-07-14",
-        "filingDate": "2026-07-14",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "ARM": {
     "transactions": [
@@ -1501,8 +1509,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "MRVL": {
     "transactions": [
@@ -1563,8 +1571,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "INTC": {
     "transactions": [
@@ -1577,8 +1585,8 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "TSM": {
     "transactions": [
@@ -1743,8 +1751,8 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "ASML": {
     "transactions": [],
@@ -1770,8 +1778,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "LRCX": {
     "transactions": [
@@ -1840,8 +1848,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "KLAC": {
     "transactions": [
@@ -1950,8 +1958,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "MU": {
     "transactions": [
@@ -2116,11 +2124,19 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "SNDK": {
     "transactions": [
+      {
+        "name": "Shek Bernard",
+        "share": 600,
+        "transactionPrice": 1734.94,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-02",
+        "code": "S"
+      },
       {
         "name": "Goeckeler David",
         "share": 165,
@@ -2272,18 +2288,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-09-14",
         "filingDate": "2026-09-16",
         "code": "S"
-      },
-      {
-        "name": "Goeckeler David",
-        "share": 3200,
-        "transactionPrice": 1537.6776,
-        "transactionDate": "2026-09-14",
-        "filingDate": "2026-09-16",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "WDC": {
     "transactions": [
@@ -2448,8 +2456,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "ANET": {
     "transactions": [
@@ -2614,8 +2622,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "COHR": {
     "transactions": [
@@ -2692,11 +2700,19 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "LITE": {
     "transactions": [
+      {
+        "name": "Ali Wajid",
+        "share": 24542,
+        "transactionPrice": 1048.5,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-02",
+        "code": "S"
+      },
       {
         "name": "Wupen Yuen",
         "share": 500,
@@ -2848,23 +2864,15 @@ const INSIDER_DATA = {
         "transactionDate": "2026-08-31",
         "filingDate": "2026-09-01",
         "code": "S"
-      },
-      {
-        "name": "Wupen Yuen",
-        "share": 500,
-        "transactionPrice": 940.95,
-        "transactionDate": "2026-08-28",
-        "filingDate": "2026-09-01",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "GEV": {
     "transactions": [],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "CEG": {
     "transactions": [
@@ -2877,8 +2885,8 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "VST": {
     "transactions": [
@@ -2939,8 +2947,8 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "ETN": {
     "transactions": [
@@ -2977,13 +2985,13 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "PWR": {
     "transactions": [],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "HUBB": {
     "transactions": [
@@ -2996,8 +3004,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "VRT": {
     "transactions": [
@@ -3066,8 +3074,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "MOD": {
     "transactions": [
@@ -3080,179 +3088,179 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "STX": {
     "transactions": [
       {
-        "name": "Morris John Christopher",
-        "share": 40,
-        "transactionPrice": 902.07,
-        "transactionDate": "2026-09-21",
-        "filingDate": "2026-09-22",
+        "name": "MOSLEY WILLIAM D",
+        "share": 962,
+        "transactionPrice": 945.9696,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-02",
         "code": "S"
       },
       {
-        "name": "Morris John Christopher",
-        "share": 40,
-        "transactionPrice": 899.53,
-        "transactionDate": "2026-09-21",
-        "filingDate": "2026-09-22",
+        "name": "MOSLEY WILLIAM D",
+        "share": 440,
+        "transactionPrice": 944.8064,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-02",
         "code": "S"
       },
       {
-        "name": "Morris John Christopher",
-        "share": 80,
-        "transactionPrice": 897.28,
-        "transactionDate": "2026-09-21",
-        "filingDate": "2026-09-22",
-        "code": "S"
-      },
-      {
-        "name": "Morris John Christopher",
-        "share": 915,
-        "transactionPrice": 894.27,
-        "transactionDate": "2026-09-21",
-        "filingDate": "2026-09-22",
-        "code": "S"
-      },
-      {
-        "name": "Morris John Christopher",
-        "share": 40,
-        "transactionPrice": 893.15,
-        "transactionDate": "2026-09-21",
-        "filingDate": "2026-09-22",
-        "code": "S"
-      },
-      {
-        "name": "Morris John Christopher",
-        "share": 40,
-        "transactionPrice": 890.54,
-        "transactionDate": "2026-09-21",
-        "filingDate": "2026-09-22",
-        "code": "S"
-      },
-      {
-        "name": "Morris John Christopher",
-        "share": 120,
-        "transactionPrice": 887.9167,
-        "transactionDate": "2026-09-21",
-        "filingDate": "2026-09-22",
-        "code": "S"
-      },
-      {
-        "name": "Morris John Christopher",
-        "share": 40,
-        "transactionPrice": 886.27,
-        "transactionDate": "2026-09-21",
-        "filingDate": "2026-09-22",
-        "code": "S"
-      },
-      {
-        "name": "Morris John Christopher",
-        "share": 320,
-        "transactionPrice": 883.0775,
-        "transactionDate": "2026-09-21",
-        "filingDate": "2026-09-22",
-        "code": "S"
-      },
-      {
-        "name": "Morris John Christopher",
-        "share": 200,
-        "transactionPrice": 881.902,
-        "transactionDate": "2026-09-21",
-        "filingDate": "2026-09-22",
-        "code": "S"
-      },
-      {
-        "name": "Morris John Christopher",
-        "share": 741,
-        "transactionPrice": 881.1584,
-        "transactionDate": "2026-09-21",
-        "filingDate": "2026-09-22",
-        "code": "S"
-      },
-      {
-        "name": "Morris John Christopher",
-        "share": 200,
-        "transactionPrice": 879.712,
-        "transactionDate": "2026-09-21",
-        "filingDate": "2026-09-22",
-        "code": "S"
-      },
-      {
-        "name": "Morris John Christopher",
+        "name": "MOSLEY WILLIAM D",
         "share": 280,
-        "transactionPrice": 878.3757,
-        "transactionDate": "2026-09-21",
-        "filingDate": "2026-09-22",
+        "transactionPrice": 943.2129,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-02",
         "code": "S"
       },
       {
-        "name": "Morris John Christopher",
-        "share": 418,
-        "transactionPrice": 877.364,
-        "transactionDate": "2026-09-21",
-        "filingDate": "2026-09-22",
+        "name": "MOSLEY WILLIAM D",
+        "share": 40,
+        "transactionPrice": 941.22,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-02",
         "code": "S"
       },
       {
-        "name": "Morris John Christopher",
-        "share": 760,
-        "transactionPrice": 876.5447,
-        "transactionDate": "2026-09-21",
-        "filingDate": "2026-09-22",
+        "name": "MOSLEY WILLIAM D",
+        "share": 80,
+        "transactionPrice": 940.2,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-02",
         "code": "S"
       },
       {
-        "name": "Morris John Christopher",
-        "share": 974,
-        "transactionPrice": 875.349,
-        "transactionDate": "2026-09-21",
-        "filingDate": "2026-09-22",
+        "name": "MOSLEY WILLIAM D",
+        "share": 720,
+        "transactionPrice": 939.2706,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-02",
         "code": "S"
       },
       {
-        "name": "Morris John Christopher",
-        "share": 986,
-        "transactionPrice": 874.5038,
-        "transactionDate": "2026-09-21",
-        "filingDate": "2026-09-22",
+        "name": "MOSLEY WILLIAM D",
+        "share": 640,
+        "transactionPrice": 938.3194,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-02",
         "code": "S"
       },
       {
-        "name": "Morris John Christopher",
-        "share": 1040,
-        "transactionPrice": 873.4914,
-        "transactionDate": "2026-09-21",
-        "filingDate": "2026-09-22",
+        "name": "MOSLEY WILLIAM D",
+        "share": 579,
+        "transactionPrice": 937.3285,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-02",
         "code": "S"
       },
       {
-        "name": "Morris John Christopher",
-        "share": 1000,
-        "transactionPrice": 872.4244,
-        "transactionDate": "2026-09-21",
-        "filingDate": "2026-09-22",
+        "name": "MOSLEY WILLIAM D",
+        "share": 759,
+        "transactionPrice": 936.4299,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-02",
         "code": "S"
       },
       {
-        "name": "Morris John Christopher",
-        "share": 520,
-        "transactionPrice": 871.5615,
-        "transactionDate": "2026-09-21",
-        "filingDate": "2026-09-22",
+        "name": "MOSLEY WILLIAM D",
+        "share": 640,
+        "transactionPrice": 935.1494,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-02",
+        "code": "S"
+      },
+      {
+        "name": "MOSLEY WILLIAM D",
+        "share": 822,
+        "transactionPrice": 934.3513,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-02",
+        "code": "S"
+      },
+      {
+        "name": "MOSLEY WILLIAM D",
+        "share": 840,
+        "transactionPrice": 933.2762,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-02",
+        "code": "S"
+      },
+      {
+        "name": "MOSLEY WILLIAM D",
+        "share": 1320,
+        "transactionPrice": 932.0368,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-02",
+        "code": "S"
+      },
+      {
+        "name": "MOSLEY WILLIAM D",
+        "share": 1665,
+        "transactionPrice": 930.994,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-02",
+        "code": "S"
+      },
+      {
+        "name": "MOSLEY WILLIAM D",
+        "share": 855,
+        "transactionPrice": 930.0334,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-02",
+        "code": "S"
+      },
+      {
+        "name": "MOSLEY WILLIAM D",
+        "share": 360,
+        "transactionPrice": 929.0089,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-02",
+        "code": "S"
+      },
+      {
+        "name": "MOSLEY WILLIAM D",
+        "share": 640,
+        "transactionPrice": 927.8963,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-02",
+        "code": "S"
+      },
+      {
+        "name": "MOSLEY WILLIAM D",
+        "share": 480,
+        "transactionPrice": 926.7758,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-02",
+        "code": "S"
+      },
+      {
+        "name": "MOSLEY WILLIAM D",
+        "share": 1080,
+        "transactionPrice": 925.8826,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-02",
+        "code": "S"
+      },
+      {
+        "name": "MOSLEY WILLIAM D",
+        "share": 640,
+        "transactionPrice": 924.7198,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-02",
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "EME": {
     "transactions": [],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   },
   "FIX": {
     "transactions": [
@@ -3294,6 +3302,14 @@ const INSIDER_DATA = {
   },
   "BE": {
     "transactions": [
+      {
+        "name": "Joshi Aman",
+        "share": 8437,
+        "transactionPrice": 277.17,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-02",
+        "code": "S"
+      },
       {
         "name": "Joshi Aman",
         "share": 3601,
@@ -3375,7 +3391,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791062626.9859924,
-    "_updated_label": "2026-10-04"
+    "_fetched_at": 1791135186.2066405,
+    "_updated_label": "2026-10-05"
   }
 };
