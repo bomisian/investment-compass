@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Here are 3 things we're watching in the stock market in the week ahead",
+      "summary": "The oil and bond markets will remain a critical driver of stocks.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/investingclub/2026/10/04/here-are-3-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+      "datetime": 1791127985,
+      "headlineKo": "이번주 주식시장에서 주목해야 할 3가지 사항은 다음과 같습니다.",
+      "summaryKo": "석유와 채권 시장은 여전히 ​​주식의 중요한 동인이 될 것입니다."
+    },
+    {
       "headline": "This NYC startup requires 4 days in office but just let everyone work remote for a whole month",
       "summary": "SolComms, a New York City-based PR firm, says letting employees work from anywhere in the world boosted revenue, productivity and happiness.",
       "source": "CNBC",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1791025201,
       "headlineKo": "David Ellison은 자신의 새로운 제국을 운영하기 위해 공동 CEO를 영입했습니다. Ynon Kreiz를 만나보세요",
       "summaryKo": "Ynon Kreiz가 Skydance의 공동 CEO로 임명되면서 곧 합병될 Ellison 회사의 주요 거버넌스 문제에 대한 답이 제시되었습니다."
-    },
-    {
-      "headline": "Aboard the USS George Washington, young sailors adjust to war with Iran - Reuters",
-      "summary": "Aboard the USS George Washington, young sailors adjust to war with Iran Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMmwtU1dvSVNubGRlbFl6OE9ObzN4MFVRYkUtMFVueTVRbE5KWGx5RTR4T1NFS2oyN1J3V0YxOEVhU3ZTeXAwX0ppOHNKRWE1S1NNYXl3UWt3WGQ2SWFJbkdHMmJLTVRNanp6THZ1R1VPUmRoR1lLSGRvYWtLRWk4bjJnTGJsLWlqMklpeVhPbUx2dTBpN2Z2YVpkOE83Rm8waTdaNmtDaWpxdTlHb0FzQkE5RnFiWFhk?oc=5",
-      "datetime": 1791023503,
-      "headlineKo": "USS 조지 워싱턴호에 탑승한 젊은 선원들, 이란과의 전쟁에 적응하다 - 로이터",
-      "summaryKo": "USS 조지 워싱턴호에 탑승한 젊은 선원들이 이란과의 전쟁에 적응하고 있습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791127522.795163,
+  "_news_last_success_at": 1791131473.092647,
   "fgi": {
     "score": 31.1714285714286,
     "rating": "fear"
   },
-  "_fetched_at": 1791127511.8176093,
-  "_updated_label": "2026-10-05 00:25",
-  "_last_attempt_at": 1791127511.8176093,
-  "_last_success_at": 1791127511.8176093,
+  "_fetched_at": 1791131464.228068,
+  "_updated_label": "2026-10-05 01:31",
+  "_last_attempt_at": 1791131464.228068,
+  "_last_success_at": 1791131464.228068,
   "_collection_status": "ok",
   "_collection_errors": []
 };
