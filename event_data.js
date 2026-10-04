@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791120044.2184076,
+  "generatedAt": 1791121947.0767791,
   "events": [
     {
       "id": "9d9108c97a5869b68911",
@@ -3783,11 +3783,11 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d04eae234e3a29ff64372c2c9007ab3075e1d99b0395ce2a635e928e33c28b0a",
         "publishedAt": 1790980139,
-        "collectedAt": 1791099142.8935874
+        "collectedAt": 1791121927.217804
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "S&P 500, Nasdaq, Dow는 취약한 일자리 보고서가 금리 인상 베팅을 식히면서 주간 상승 — NVDA, BA, SPCX, RIVN, APLD 초점 AI 에이전트 동향 뉴스 수입 전체 DIA 0.49% SPY 0.74% QQQ 1.02% 추세 BTC 0.41% CBRS 1.82% WEN 2.08% PUMP 17.00% 재스미",
+        "S&P 500, Nasdaq, Dow는 취약한 일자리 보고서가 금리 인상 베팅을 식히면서 주간 상승 — NVDA, BA, SPCX, RIVN, APLD 초점 AI 에이전트 동향 뉴스 수익 전체 DIA 0.49% SPY 0.74% QQQ 1.02% 추세 FET 6.97% VSTM 2.53% WRD 3.37% SHIB 0.22% 루트 0.",
         "S&P 500, Nasdaq, Dow는 취약한 일자리 보고서가 금리 인상 베팅을 냉각함에 따라 주간 상승세 — NVDA, BA, SPCX, RIVN, APLD In Focus",
         "경제는 지난 달 29,000개의 일자리를 추가했으며 실업률은 경제학자들의 예상보다 낮은 4.2%로 상승했습니다."
       ],
@@ -9961,7 +9961,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bc8aa8f8dc7b1b729cc67078895996bac0600bf43adbaf273446fd9ed902bc59",
         "publishedAt": 1790921953,
-        "collectedAt": 1791099142.8935874
+        "collectedAt": 1791121927.217804
       },
       "confirmedFacts": [],
       "reportedClaims": [
