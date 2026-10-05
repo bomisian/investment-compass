@@ -4320,7 +4320,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "SPY": {
@@ -9827,7 +9827,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 112,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "MSFT": {
@@ -18042,7 +18042,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "GOOGL": {
@@ -26082,7 +26082,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "AMZN": {
@@ -33958,7 +33958,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "META": {
@@ -41750,7 +41750,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "AAPL": {
@@ -49766,7 +49766,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "TSLA": {
@@ -57508,7 +57508,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "ORCL": {
@@ -65806,7 +65806,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "CRM": {
@@ -71419,7 +71419,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "PLTR": {
@@ -79839,7 +79839,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "NVDA": {
@@ -79961,7 +79961,61 @@ const NEWS_DATA = {
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Nvidia는 직원당 720만 달러의 수익을 창출해 3년 만에 500% 증가했습니다. 이 숫자는 더욱 놀랍습니다."
+        "headlineKo": "Nvidia는 직원당 720만 달러의 수익을 창출해 3년 만에 500% 증가했습니다. 이 숫자는 더욱 놀랍습니다.",
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "장기 공급계약 · 매출 가시성 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nvidia는 직원당 720만 달러의 수익을 창출해 3년 만에 500% 증가했습니다.",
+            "이 숫자는 더욱 놀랍습니다.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,785.60 +0.73% Dow Jones 51,350.60 +0.23% Nasdaq 100 31,112.60 +0.92% Russell 2000 2,853.81 +0.62% S&P 500 7,785.60 +0.73% 다우존스 51,350.60 +0.23% 나스닥 100 31,112.60 +0.92% 러셀 2000 2,853.81 +0."
+          ],
+          "why": [
+            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $7.2 Million, 500%, $7.2 million — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 기간·최소구매 조건",
+            "연도별 매출 인식",
+            "수주잔고·취소 조건"
+          ],
+          "interpretation": "NVDA에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$7.2 Million",
+            "500%",
+            "$7.2 million",
+            "$302.97 billion",
+            "$12.5 million",
+            "$9.7 million",
+            "$403.43 billion",
+            "$4.762 billion"
+          ],
+          "sourceExcerpt": [
+            "Nvidia Generates $7.2 Million per Employee, Up 500% in 3 Years.",
+            "This Number Is Even More Astounding.",
+            "Skip to content ❚❚ At close S&P 500 7,785.60 +0.73% Dow Jones 51,350.60 +0.23% Nasdaq 100 31,112.60 +0.92% Russell 2000 2,853.81 +0.62% S&P 500 7,785.60 +0.73% Dow Jones 51,350.60 +0.23% Nasdaq 100 31,112.60 +0.92% Russell 2000 2,853.81 +0."
+          ],
+          "analysisUpdatedAt": 1791232164.4388285
+        }
       },
       {
         "headline": "Market Chatter: Nvidia-Groq $20 Billion Licensing Deal Faces Lawsuit",
@@ -80135,7 +80189,61 @@ const NEWS_DATA = {
         "datetime": 1791215517,
         "headlineKo": "Nvidia는 직원당 720만 달러의 수익을 창출해 3년 만에 500% 증가했습니다. 이 숫자는 더욱 놀랍습니다.",
         "relevance": 0.4,
-        "keywordFlag": false
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "장기 공급계약 · 매출 가시성 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nvidia는 직원당 720만 달러의 수익을 창출해 3년 만에 500% 증가했습니다.",
+            "이 숫자는 더욱 놀랍습니다.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,785.60 +0.73% Dow Jones 51,350.60 +0.23% Nasdaq 100 31,112.60 +0.92% Russell 2000 2,853.81 +0.62% S&P 500 7,785.60 +0.73% 다우존스 51,350.60 +0.23% 나스닥 100 31,112.60 +0.92% 러셀 2000 2,853.81 +0."
+          ],
+          "why": [
+            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $7.2 Million, 500%, $7.2 million — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 기간·최소구매 조건",
+            "연도별 매출 인식",
+            "수주잔고·취소 조건"
+          ],
+          "interpretation": "NVDA에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$7.2 Million",
+            "500%",
+            "$7.2 million",
+            "$302.97 billion",
+            "$12.5 million",
+            "$9.7 million",
+            "$403.43 billion",
+            "$4.762 billion"
+          ],
+          "sourceExcerpt": [
+            "Nvidia Generates $7.2 Million per Employee, Up 500% in 3 Years.",
+            "This Number Is Even More Astounding.",
+            "Skip to content ❚❚ At close S&P 500 7,785.60 +0.73% Dow Jones 51,350.60 +0.23% Nasdaq 100 31,112.60 +0.92% Russell 2000 2,853.81 +0.62% S&P 500 7,785.60 +0.73% Dow Jones 51,350.60 +0.23% Nasdaq 100 31,112.60 +0.92% Russell 2000 2,853.81 +0."
+          ],
+          "analysisUpdatedAt": 1791232164.4388285
+        }
       },
       {
         "headline": "Market Chatter: Nvidia-Groq $20 Billion Licensing Deal Faces Lawsuit",
@@ -87393,9 +87501,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 186,
-      "removed": 1,
-      "updated": "2026-10-06 05:07"
+      "checked": 185,
+      "removed": 0,
+      "updated": "2026-10-06 05:29"
     }
   },
   "AMD": {
@@ -95365,7 +95473,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "AVGO": {
@@ -102507,7 +102615,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "QCOM": {
@@ -108041,7 +108149,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "ARM": {
@@ -112327,7 +112435,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "MRVL": {
@@ -118010,7 +118118,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 118,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "INTC": {
@@ -125966,7 +126074,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 183,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "TSM": {
@@ -130963,7 +131071,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 109,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "ASML": {
@@ -134034,7 +134142,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "AMAT": {
@@ -137514,7 +137622,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "LRCX": {
@@ -139434,7 +139542,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "KLAC": {
@@ -141162,7 +141270,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "MU": {
@@ -148602,7 +148710,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "SNDK": {
@@ -154687,7 +154795,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "WDC": {
@@ -158161,7 +158269,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "ANET": {
@@ -160811,7 +160919,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "COHR": {
@@ -163609,7 +163717,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "LITE": {
@@ -166243,7 +166351,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "GEV": {
@@ -170223,7 +170331,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "CEG": {
@@ -173259,7 +173367,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "VST": {
@@ -175769,7 +175877,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "ETN": {
@@ -178329,7 +178437,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "PWR": {
@@ -180608,7 +180716,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "HUBB": {
@@ -181329,7 +181437,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "VRT": {
@@ -184457,7 +184565,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "MOD": {
@@ -185521,7 +185629,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "STX": {
@@ -188391,7 +188499,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "EME": {
@@ -189755,7 +189863,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "FIX": {
@@ -190953,11 +191061,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   },
   "BE": {
-    "_last_attempt_at": 1791209582.3466194,
+    "_last_attempt_at": 1791232160.6053965,
     "nextEarnings": {
       "date": "2026-10-29",
       "hour": "amc",
@@ -191012,7 +191120,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791209595.432719
+          "analysisUpdatedAt": 1791232167.6111524
         },
         "headlineKo": "Bloom Energy (NYSE:BE) 주식은 높은 성장과 펀더멘털 개선으로 좋은 모습을 보이고 있습니다"
       },
@@ -191062,7 +191170,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791209597.4718585
+          "analysisUpdatedAt": 1791232169.7254794
         },
         "headlineKo": "Bloom Energy(BE) 주식은 24배 실행 후에도 여전히 저평가된 것으로 보입니다."
       },
@@ -191082,13 +191190,13 @@ const NEWS_DATA = {
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "BE 주식은 월요일 슬라이드 이후 회복합니다. 분석가 지원: Peers FCEL, PLUG Edge 더 높은 AI 에이전트 동향 뉴스 수익 모든 DIA 0.27% SPY 0.29% QQQ 0.36% 추세 SDEV 30.21% WULF 4.58% ONDS 4.83% IBRX 1.90% CAPR 5.87% MARA 2.05% CMG 5.75% MS",
+            "BE 주식은 월요일 슬라이드 이후 회복합니다. 애널리스트 지원: Peers FCEL, PLUG Edge 더 높은 AI 에이전트 동향 뉴스 수익 모든 DIA 0.22% SPY 0.66% QQQ 0.87% 추세 NVAX 20.36% SPCX 7.57% AMZN 0.02% CAPR 12.40% RDW 4.14% NVDA 2.20% 조비 2.52%A",
             "BE 주식은 분석가 지원에 대한 월요일 슬라이드 이후 회복됩니다: Peers FCEL, PLUG Edge Higher Jefferies는 보류 등급을 유지하면서 BE의 목표 가격을 $229에서 $264로 높였습니다.",
             "이번 포토 일러스트에는 블룸에너지(Be) 로고가 스마트폰 화면에 표시된 모습이 담겨 있다."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.27%, 0.29%, 0.36% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.22%, 0.66%, 0.87% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "BE의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -191112,21 +191220,21 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.27%",
-            "0.29%",
-            "0.36%",
-            "30.21%",
-            "4.58%",
-            "4.83%",
-            "1.90%",
-            "5.87%"
+            "0.22%",
+            "0.66%",
+            "0.87%",
+            "20.36%",
+            "7.57%",
+            "0.02%",
+            "12.40%",
+            "4.14%"
           ],
           "sourceExcerpt": [
-            "BE Stock Recovers After Monday Slide On Analyst Support: Peers FCEL, PLUG Edge Higher AI Agent Trending News Earnings All DIA 0.27% SPY 0.29% QQQ 0.36% Trending SDEV 30.21% WULF 4.58% ONDS 4.83% IBRX 1.90% CAPR 5.87% MARA 2.05% CMG 5.75% MS",
+            "BE Stock Recovers After Monday Slide On Analyst Support: Peers FCEL, PLUG Edge Higher AI Agent Trending News Earnings All DIA 0.22% SPY 0.66% QQQ 0.87% Trending NVAX 20.36% SPCX 7.57% AMZN 0.02% CAPR 12.40% RDW 4.14% NVDA 2.20% JOBY 2.52% A",
             "BE Stock Recovers After Monday Slide On Analyst Support: Peers FCEL, PLUG Edge Higher Jefferies lifted its price target on BE to $264 from $229 while keeping a Hold rating.",
             "In this photo illustration, the Bloom Energy (Be) logo is seen displayed on a smartphone screen."
           ],
-          "analysisUpdatedAt": 1791209601.0979419
+          "analysisUpdatedAt": 1791232174.1805072
         },
         "headlineKo": "BE 주식은 분석가 지원에 대한 월요일 슬라이드 이후 회복됩니다: 동료 FCEL, PLUG Edge 더 높음"
       },
@@ -191198,7 +191306,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791209595.432719
+          "analysisUpdatedAt": 1791232167.6111524
         }
       },
       {
@@ -191247,7 +191355,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791209597.4718585
+          "analysisUpdatedAt": 1791232169.7254794
         }
       },
       {
@@ -191266,13 +191374,13 @@ const NEWS_DATA = {
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "BE 주식은 월요일 슬라이드 이후 회복합니다. 분석가 지원: Peers FCEL, PLUG Edge 더 높은 AI 에이전트 동향 뉴스 수익 모든 DIA 0.27% SPY 0.29% QQQ 0.36% 추세 SDEV 30.21% WULF 4.58% ONDS 4.83% IBRX 1.90% CAPR 5.87% MARA 2.05% CMG 5.75% MS",
+            "BE 주식은 월요일 슬라이드 이후 회복합니다. 애널리스트 지원: Peers FCEL, PLUG Edge 더 높은 AI 에이전트 동향 뉴스 수익 모든 DIA 0.22% SPY 0.66% QQQ 0.87% 추세 NVAX 20.36% SPCX 7.57% AMZN 0.02% CAPR 12.40% RDW 4.14% NVDA 2.20% 조비 2.52%A",
             "BE 주식은 분석가 지원에 대한 월요일 슬라이드 이후 회복됩니다: Peers FCEL, PLUG Edge Higher Jefferies는 보류 등급을 유지하면서 BE의 목표 가격을 $229에서 $264로 높였습니다.",
             "이번 포토 일러스트에는 블룸에너지(Be) 로고가 스마트폰 화면에 표시된 모습이 담겨 있다."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.27%, 0.29%, 0.36% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.22%, 0.66%, 0.87% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "BE의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -191296,21 +191404,21 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.27%",
-            "0.29%",
-            "0.36%",
-            "30.21%",
-            "4.58%",
-            "4.83%",
-            "1.90%",
-            "5.87%"
+            "0.22%",
+            "0.66%",
+            "0.87%",
+            "20.36%",
+            "7.57%",
+            "0.02%",
+            "12.40%",
+            "4.14%"
           ],
           "sourceExcerpt": [
-            "BE Stock Recovers After Monday Slide On Analyst Support: Peers FCEL, PLUG Edge Higher AI Agent Trending News Earnings All DIA 0.27% SPY 0.29% QQQ 0.36% Trending SDEV 30.21% WULF 4.58% ONDS 4.83% IBRX 1.90% CAPR 5.87% MARA 2.05% CMG 5.75% MS",
+            "BE Stock Recovers After Monday Slide On Analyst Support: Peers FCEL, PLUG Edge Higher AI Agent Trending News Earnings All DIA 0.22% SPY 0.66% QQQ 0.87% Trending NVAX 20.36% SPCX 7.57% AMZN 0.02% CAPR 12.40% RDW 4.14% NVDA 2.20% JOBY 2.52% A",
             "BE Stock Recovers After Monday Slide On Analyst Support: Peers FCEL, PLUG Edge Higher Jefferies lifted its price target on BE to $264 from $229 while keeping a Hold rating.",
             "In this photo illustration, the Bloom Energy (Be) logo is seen displayed on a smartphone screen."
           ],
-          "analysisUpdatedAt": 1791209601.0979419
+          "analysisUpdatedAt": 1791232174.1805072
         }
       },
       {
@@ -192844,15 +192952,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791209582.3466194,
-    "_updated_label": "2026-10-05 23:13",
-    "_last_success_at": 1791209582.3466194,
+    "_fetched_at": 1791232160.6053965,
+    "_updated_label": "2026-10-06 05:29",
+    "_last_success_at": 1791232160.6053965,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-06 05:07"
+      "updated": "2026-10-06 05:29"
     }
   }
 };

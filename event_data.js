@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791230873.2879212,
+  "generatedAt": 1791232192.0743506,
   "events": [
     {
       "id": "9e94bdd57d499e942193",
@@ -893,6 +893,83 @@ const EVENT_DATA = {
         "목표주가 산식의 EPS",
         "적용 PER 변화",
         "회사 공식 가이던스"
+      ]
+    },
+    {
+      "id": "3ace07f55ddabddb7cff",
+      "schemaVersion": 1,
+      "eventType": "long_term_supply",
+      "eventLabel": "장기 공급계약",
+      "primaryTicker": "NVDA",
+      "relatedTickers": [
+        "NVDA",
+        "QQQ",
+        "SPY"
+      ],
+      "relatedEntities": [
+        {
+          "name": "NVIDIA",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Nvidia Generates $7.2 Million per Employee, Up 500% in 3 Years. This Number Is Even More Astounding.",
+      "headlineKo": "Nvidia는 직원당 720만 달러의 수익을 창출해 3년 만에 500% 증가했습니다. 이 숫자는 더욱 놀랍습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=fb56f6ad3dd10485a7f4e1b6c50af21909d14625d8bbab09f52060bc2db42aac",
+        "publishedAt": 1791215517,
+        "collectedAt": 1791230402.216535
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Nvidia는 직원당 720만 달러의 수익을 창출해 3년 만에 500% 증가했습니다.",
+        "이 숫자는 더욱 놀랍습니다.",
+        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,785.60 +0.73% Dow Jones 51,350.60 +0.23% Nasdaq 100 31,112.60 +0.92% Russell 2000 2,853.81 +0.62% S&P 500 7,785.60 +0.73% 다우존스 51,350.60 +0.23% 나스닥 100 31,112.60 +0.92% 러셀 2000 2,853.81 +0."
+      ],
+      "marketInterpretation": [
+        "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: $7.2 Million, 500%, $7.2 million — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "NVDA에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: $7.2 Million, 500%, $7.2 million — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "계약 기간·최소구매 조건",
+        "연도별 매출 인식",
+        "수주잔고·취소 조건"
       ]
     },
     {
@@ -7340,7 +7417,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126038468/ef20083016_8k.htm",
         "publishedAt": 1791126000.0,
-        "collectedAt": 1791209462.6971855
+        "collectedAt": 1791232175.8027217
       },
       "confirmedFacts": [
         "VST가 2026-10-05에 SEC Form 8-K을 제출했습니다.",
@@ -7405,7 +7482,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126038523/ef20083229_8k.htm",
         "publishedAt": 1791126000.0,
-        "collectedAt": 1791209462.6971855
+        "collectedAt": 1791232175.8027217
       },
       "confirmedFacts": [
         "ETN가 2026-10-05에 SEC Form 8-K을 제출했습니다.",
@@ -18221,106 +18298,6 @@ const EVENT_DATA = {
         "회사의 매출 영향 추정",
         "대체 제품·지역 판매"
       ]
-    },
-    {
-      "id": "0e01c69790881ae304cf",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "PLTR",
-      "relatedTickers": [
-        "AMD",
-        "INTC",
-        "MU",
-        "NVDA",
-        "ORCL",
-        "PLTR"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Intel",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "중기 투자 사이클",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Palantir Billionaire Peter Thiel Has 42% of His Portfolio in These 2 Artificial Intelligence Stocks",
-      "headlineKo": "Palantir의 억만장자 Peter Thiel은 이 2개의 인공 지능 주식에 자신의 포트폴리오의 42%를 보유하고 있습니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9af7daa37f7801ef72a28fe2aaf0d05bd9a625b8590c8b07d50ed983a6295560",
-        "publishedAt": 1790914800,
-        "collectedAt": 1791230402.216535
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-        "기사에서 언급된 규모: 42%, 0.37%, 1.01%, 28%, $25 billion, 37%, 0.37 %, $ 248.23.",
-        "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-      ],
-      "marketInterpretation": [
-        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-      ],
-      "aiInference": [
-        "이 기사는 PLTR의 사업과 관련된 'Palantir Billionaire Peter Thiel Has 42% of His Portfolio in These 2 Artificial Intelligence Stocks' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-        "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-        "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-      ],
-      "whyItMatters": [
-        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "긍정",
-          "reason": "AI 컴퓨팅 수요 확대 가능성",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "AMD",
-          "direction": "긍정",
-          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "MU",
-          "direction": "긍정",
-          "reason": "AI 서버 메모리 수요와 가격 강세",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "ORCL",
-          "direction": "혼합",
-          "reason": "클라우드 수요와 자본 부담 동시 확대",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "실제 수주·가동 데이터센터",
-        "관련 기업 매출·수주잔고",
-        "CAPEX 대비 영업현금흐름",
-        "금리와 프로젝트 부채 비용"
-      ]
     }
   ],
   "byTicker": {
@@ -18352,6 +18329,7 @@ const EVENT_DATA = {
       "ac401e50fd4958b85ff8",
       "98f503f0aaa51b7e09c0",
       "ff9e1f3ca6b418f34ec1",
+      "3ace07f55ddabddb7cff",
       "9822db0049065331c31c",
       "154776bc1709cfac5e88",
       "95f2c7f500594c950ed5",
@@ -18482,6 +18460,7 @@ const EVENT_DATA = {
     ],
     "NVDA": [
       "2f9e930923a6072accd3",
+      "3ace07f55ddabddb7cff",
       "efe22d7617892c232751",
       "0484aa779bf49542fc38",
       "e6dfe852365b65e0e0c8",
@@ -18532,8 +18511,7 @@ const EVENT_DATA = {
       "e0eeae9ec683bcaedb54",
       "4ca621a1ddee5bfc88d5",
       "5919e96d87d5217351eb",
-      "ccec3c3d5322269c8824",
-      "0e01c69790881ae304cf"
+      "ccec3c3d5322269c8824"
     ],
     "TSLA": [
       "1401b8ff519455a04a1a",
@@ -18578,6 +18556,7 @@ const EVENT_DATA = {
       "ac401e50fd4958b85ff8",
       "98f503f0aaa51b7e09c0",
       "ff9e1f3ca6b418f34ec1",
+      "3ace07f55ddabddb7cff",
       "154776bc1709cfac5e88",
       "bcd59098a90f7c99b244",
       "11205f880c9a48b541f5",
@@ -18693,8 +18672,7 @@ const EVENT_DATA = {
       "d846f9dbf1f2e5bdfa00",
       "e0eeae9ec683bcaedb54",
       "5919e96d87d5217351eb",
-      "ccec3c3d5322269c8824",
-      "0e01c69790881ae304cf"
+      "ccec3c3d5322269c8824"
     ],
     "AVGO": [
       "ac401e50fd4958b85ff8",
@@ -18740,8 +18718,7 @@ const EVENT_DATA = {
       "42c919f32289af652eae",
       "fb9eaffaf3048fc83767",
       "40b67c8308f5886f650b",
-      "5fa2b21136024248e5e2",
-      "0e01c69790881ae304cf"
+      "5fa2b21136024248e5e2"
     ],
     "VST": [
       "9822db0049065331c31c",
@@ -18836,8 +18813,7 @@ const EVENT_DATA = {
       "346b62693c53d7f34360",
       "e0eeae9ec683bcaedb54",
       "71b530eb37edc2815c5a",
-      "5919e96d87d5217351eb",
-      "0e01c69790881ae304cf"
+      "5919e96d87d5217351eb"
     ],
     "INTC": [
       "0f2ce2093088bf00e4d0",
@@ -18855,8 +18831,7 @@ const EVENT_DATA = {
       "a01ca827b3b071bd4fde",
       "06d55b15401e5a5d3f8d",
       "6e2eff2a7544f22ea905",
-      "8b663cf8c07b0af83f86",
-      "0e01c69790881ae304cf"
+      "8b663cf8c07b0af83f86"
     ],
     "TSM": [
       "0f2ce2093088bf00e4d0",
@@ -18935,8 +18910,7 @@ const EVENT_DATA = {
       "430a9bae8e9a1aecd4f3",
       "7db500f9d5fcc874e200",
       "e0eeae9ec683bcaedb54",
-      "5919e96d87d5217351eb",
-      "0e01c69790881ae304cf"
+      "5919e96d87d5217351eb"
     ],
     "ARM": [
       "e7354037494021c09545",
