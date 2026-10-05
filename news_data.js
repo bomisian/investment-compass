@@ -4185,7 +4185,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "SPY": {
@@ -9594,7 +9594,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 110,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "MSFT": {
@@ -17846,7 +17846,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "GOOGL": {
@@ -25847,7 +25847,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "AMZN": {
@@ -33771,7 +33771,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "META": {
@@ -41521,7 +41521,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "AAPL": {
@@ -49522,7 +49522,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "TSLA": {
@@ -57355,7 +57355,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "ORCL": {
@@ -65670,7 +65670,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "CRM": {
@@ -71171,7 +71171,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "PLTR": {
@@ -79547,7 +79547,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "NVDA": {
@@ -87173,7 +87173,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "AMD": {
@@ -95210,7 +95210,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "AVGO": {
@@ -102120,7 +102120,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 139,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "QCOM": {
@@ -107465,7 +107465,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 118,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "ARM": {
@@ -111597,7 +111597,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "MRVL": {
@@ -117119,7 +117119,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 115,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "INTC": {
@@ -124868,7 +124868,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 178,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "TSM": {
@@ -129744,7 +129744,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "ASML": {
@@ -132815,7 +132815,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "AMAT": {
@@ -136295,7 +136295,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "LRCX": {
@@ -138089,7 +138089,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "KLAC": {
@@ -139693,7 +139693,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "MU": {
@@ -147122,7 +147122,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "SNDK": {
@@ -153048,7 +153048,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 127,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "WDC": {
@@ -156357,7 +156357,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "ANET": {
@@ -158929,7 +158929,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "COHR": {
@@ -161727,7 +161727,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "LITE": {
@@ -164229,7 +164229,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "GEV": {
@@ -168079,7 +168079,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "CEG": {
@@ -170943,7 +170943,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "VST": {
@@ -173283,7 +173283,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "ETN": {
@@ -175795,7 +175795,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "PWR": {
@@ -178025,7 +178025,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "HUBB": {
@@ -178756,7 +178756,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "VRT": {
@@ -181742,7 +181742,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "MOD": {
@@ -182806,7 +182806,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "STX": {
@@ -185520,7 +185520,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "EME": {
@@ -186835,7 +186835,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "FIX": {
@@ -187986,11 +187986,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
+      "updated": "2026-10-05 23:13"
     }
   },
   "BE": {
-    "_last_attempt_at": 1791208802.2121353,
+    "_last_attempt_at": 1791209582.3466194,
     "nextEarnings": {
       "date": "2026-10-29",
       "hour": "amc",
@@ -188045,7 +188045,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791186532.234581
+          "analysisUpdatedAt": 1791209595.432719
         },
         "headlineKo": "Bloom Energy (NYSE:BE) 주식은 높은 성장과 펀더멘털 개선으로 좋은 모습을 보이고 있습니다"
       },
@@ -188095,7 +188095,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791186534.5431886
+          "analysisUpdatedAt": 1791209597.4718585
         },
         "headlineKo": "Bloom Energy(BE) 주식은 24배 실행 후에도 여전히 저평가된 것으로 보입니다."
       },
@@ -188115,13 +188115,13 @@ const NEWS_DATA = {
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "BE 주식은 월요일 슬라이드 이후 회복합니다. 애널리스트 지원: Peers FCEL, PLUG Edge 더 높은 AI 에이전트 동향 뉴스 수익 모든 DIA 0.21% SPY 0.14% QQQ 0.06% 추세 CBRS 7.82% WDC 1.25% SDEV 29.55% BE 0.29% AGEN 0.36% NU 7.97% CRMD 3.10%BB.TSX",
+            "BE 주식은 월요일 슬라이드 이후 회복합니다. 분석가 지원: Peers FCEL, PLUG Edge 더 높은 AI 에이전트 동향 뉴스 수익 모든 DIA 0.27% SPY 0.29% QQQ 0.36% 추세 SDEV 30.21% WULF 4.58% ONDS 4.83% IBRX 1.90% CAPR 5.87% MARA 2.05% CMG 5.75% MS",
             "BE 주식은 분석가 지원에 대한 월요일 슬라이드 이후 회복됩니다: Peers FCEL, PLUG Edge Higher Jefferies는 보류 등급을 유지하면서 BE의 목표 가격을 $229에서 $264로 높였습니다.",
             "이번 포토 일러스트에는 블룸에너지(Be) 로고가 스마트폰 화면에 표시된 모습이 담겨 있다."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.21%, 0.14%, 0.06% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.27%, 0.29%, 0.36% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "BE의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -188145,21 +188145,21 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.21%",
-            "0.14%",
-            "0.06%",
-            "7.82%",
-            "1.25%",
-            "29.55%",
+            "0.27%",
             "0.29%",
-            "0.36%"
+            "0.36%",
+            "30.21%",
+            "4.58%",
+            "4.83%",
+            "1.90%",
+            "5.87%"
           ],
           "sourceExcerpt": [
-            "BE Stock Recovers After Monday Slide On Analyst Support: Peers FCEL, PLUG Edge Higher AI Agent Trending News Earnings All DIA 0.21% SPY 0.14% QQQ 0.06% Trending CBRS 7.82% WDC 1.25% SDEV 29.55% BE 0.29% AGEN 0.36% NU 7.97% CRMD 3.10% BB.TSX",
+            "BE Stock Recovers After Monday Slide On Analyst Support: Peers FCEL, PLUG Edge Higher AI Agent Trending News Earnings All DIA 0.27% SPY 0.29% QQQ 0.36% Trending SDEV 30.21% WULF 4.58% ONDS 4.83% IBRX 1.90% CAPR 5.87% MARA 2.05% CMG 5.75% MS",
             "BE Stock Recovers After Monday Slide On Analyst Support: Peers FCEL, PLUG Edge Higher Jefferies lifted its price target on BE to $264 from $229 while keeping a Hold rating.",
             "In this photo illustration, the Bloom Energy (Be) logo is seen displayed on a smartphone screen."
           ],
-          "analysisUpdatedAt": 1791186537.2803247
+          "analysisUpdatedAt": 1791209601.0979419
         },
         "headlineKo": "BE 주식은 분석가 지원에 대한 월요일 슬라이드 이후 회복됩니다: 동료 FCEL, PLUG Edge 더 높음"
       },
@@ -188231,7 +188231,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791186532.234581
+          "analysisUpdatedAt": 1791209595.432719
         }
       },
       {
@@ -188280,7 +188280,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791186534.5431886
+          "analysisUpdatedAt": 1791209597.4718585
         }
       },
       {
@@ -188299,13 +188299,13 @@ const NEWS_DATA = {
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "BE 주식은 월요일 슬라이드 이후 회복합니다. 애널리스트 지원: Peers FCEL, PLUG Edge 더 높은 AI 에이전트 동향 뉴스 수익 모든 DIA 0.21% SPY 0.14% QQQ 0.06% 추세 CBRS 7.82% WDC 1.25% SDEV 29.55% BE 0.29% AGEN 0.36% NU 7.97% CRMD 3.10%BB.TSX",
+            "BE 주식은 월요일 슬라이드 이후 회복합니다. 분석가 지원: Peers FCEL, PLUG Edge 더 높은 AI 에이전트 동향 뉴스 수익 모든 DIA 0.27% SPY 0.29% QQQ 0.36% 추세 SDEV 30.21% WULF 4.58% ONDS 4.83% IBRX 1.90% CAPR 5.87% MARA 2.05% CMG 5.75% MS",
             "BE 주식은 분석가 지원에 대한 월요일 슬라이드 이후 회복됩니다: Peers FCEL, PLUG Edge Higher Jefferies는 보류 등급을 유지하면서 BE의 목표 가격을 $229에서 $264로 높였습니다.",
             "이번 포토 일러스트에는 블룸에너지(Be) 로고가 스마트폰 화면에 표시된 모습이 담겨 있다."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.21%, 0.14%, 0.06% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.27%, 0.29%, 0.36% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "BE의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -188329,21 +188329,21 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.21%",
-            "0.14%",
-            "0.06%",
-            "7.82%",
-            "1.25%",
-            "29.55%",
+            "0.27%",
             "0.29%",
-            "0.36%"
+            "0.36%",
+            "30.21%",
+            "4.58%",
+            "4.83%",
+            "1.90%",
+            "5.87%"
           ],
           "sourceExcerpt": [
-            "BE Stock Recovers After Monday Slide On Analyst Support: Peers FCEL, PLUG Edge Higher AI Agent Trending News Earnings All DIA 0.21% SPY 0.14% QQQ 0.06% Trending CBRS 7.82% WDC 1.25% SDEV 29.55% BE 0.29% AGEN 0.36% NU 7.97% CRMD 3.10% BB.TSX",
+            "BE Stock Recovers After Monday Slide On Analyst Support: Peers FCEL, PLUG Edge Higher AI Agent Trending News Earnings All DIA 0.27% SPY 0.29% QQQ 0.36% Trending SDEV 30.21% WULF 4.58% ONDS 4.83% IBRX 1.90% CAPR 5.87% MARA 2.05% CMG 5.75% MS",
             "BE Stock Recovers After Monday Slide On Analyst Support: Peers FCEL, PLUG Edge Higher Jefferies lifted its price target on BE to $264 from $229 while keeping a Hold rating.",
             "In this photo illustration, the Bloom Energy (Be) logo is seen displayed on a smartphone screen."
           ],
-          "analysisUpdatedAt": 1791186537.2803247
+          "analysisUpdatedAt": 1791209601.0979419
         }
       },
       {
@@ -189877,16 +189877,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791186045.0120077,
-    "_updated_label": "2026-10-05 16:48",
-    "_last_success_at": 1791186045.0120077,
-    "_collection_status": "error",
+    "_fetched_at": 1791209582.3466194,
+    "_updated_label": "2026-10-05 23:13",
+    "_last_success_at": 1791209582.3466194,
+    "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-05 23:11"
-    },
-    "_last_error": "The read operation timed out"
+      "updated": "2026-10-05 23:13"
+    }
   }
 };
