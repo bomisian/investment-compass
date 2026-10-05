@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791232192.0743506,
+  "generatedAt": 1791234058.353849,
   "events": [
     {
       "id": "9e94bdd57d499e942193",
@@ -2025,6 +2025,73 @@ const EVENT_DATA = {
       "watch": []
     },
     {
+      "id": "b4e9044206c6f1b2e2cc",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "실적 발표",
+      "primaryTicker": "AMD",
+      "relatedTickers": [
+        "AMD"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Why Advanced Micro (AMD) Could Beat Earnings Estimates Again",
+      "headlineKo": "Advanced Micro(AMD)가 수익 추정치를 다시 이길 수 있는 이유",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=08fb72ac71e38f733470be935666481d7400b695a98adfbf7c5a4d96c6d2c296",
+        "publishedAt": 1791213002,
+        "collectedAt": 1791234002.297302
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Why Advanced Micro (AMD) Could Beat Earnings Estimates Again",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "AMD에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AMD",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "매출·영업이익 성장",
+        "정상화이익과 특이항목",
+        "가이던스·OCF·FCF"
+      ]
+    },
+    {
       "id": "4bfab5815be5875a4a0b",
       "schemaVersion": 1,
       "eventType": "major_customer_contract",
@@ -2090,6 +2157,62 @@ const EVENT_DATA = {
         "수주잔고와 매출 인식 시점",
         "관련 사업부 매출총이익률"
       ]
+    },
+    {
+      "id": "db4160e908d43457847a",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "AMD",
+      "relatedTickers": [
+        "AMD"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "중기·장기",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "AMD Stock: The $8 Billion Bet That Could Redefine Its AI Strategy",
+      "headlineKo": "AMD 주식: AI 전략을 재정의할 수 있는 80억 달러 투자",
+      "source": {
+        "name": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=d95d6bce7b72cb14b2d79a463776ec31619d35f212a0654a25699d7292da709c",
+        "publishedAt": 1791209469,
+        "collectedAt": 1791234002.297302
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "AMD 주식: AI 전략을 재정의할 수 있는 80억 달러 투자"
+      ],
+      "marketInterpretation": [],
+      "aiInference": [
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AMD",
+          "direction": "mixed",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
+        }
+      ],
+      "watch": []
     },
     {
       "id": "a91015b46f0ece30cacf",
@@ -2852,7 +2975,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=49d0805dfcac39242942c0f980cec058d5f35d3223e05b6f8182c978fd94bd6b",
         "publishedAt": 1791203662,
-        "collectedAt": 1791211460.834829
+        "collectedAt": 1791234002.297302
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4583,7 +4706,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=51eb55409c689d88e5bf97a1b9347d52f44cfa8e6dd45e6d8505406e0cf2a44a",
         "publishedAt": 1791185489,
-        "collectedAt": 1791211460.834829
+        "collectedAt": 1791234002.297302
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6216,7 +6339,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3095b2198571f5d5345e9484bceca72e67887a00e256c185125648fad63eab33",
         "publishedAt": 1791140519,
-        "collectedAt": 1791211460.834829
+        "collectedAt": 1791234002.297302
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9855,7 +9978,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a7bfaeadebd575188d152c345c9fbabf0175dc885806bf3cd3c62091296909a6",
         "publishedAt": 1791040956,
-        "collectedAt": 1791211460.834829
+        "collectedAt": 1791234002.297302
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11743,7 +11866,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a3ec4a78d686a99c53adbedae0b4aa1d97e7cf22db5a37eeee6689151025dbc3",
         "publishedAt": 1790988602,
-        "collectedAt": 1791211460.834829
+        "collectedAt": 1791234002.297302
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12889,7 +13012,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=77a81e189fc5320c28347b74d6b0f6ca9197b2b4b4f2b7443888b790916d2c5a",
         "publishedAt": 1790967777,
-        "collectedAt": 1791211460.834829
+        "collectedAt": 1791234002.297302
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13936,7 +14059,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ec2cfaeaf725b9907870fd3d232e71b92c36bcdff69e4ca75c3ba31173954db1",
         "publishedAt": 1790958620,
-        "collectedAt": 1791211460.834829
+        "collectedAt": 1791234002.297302
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14662,7 +14785,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=671cd27a3c56758f631b5b37cc4bbdcde20aad7e6e997e3035b4405771f0b4b7",
         "publishedAt": 1790954576,
-        "collectedAt": 1791211460.834829
+        "collectedAt": 1791234002.297302
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18151,153 +18274,6 @@ const EVENT_DATA = {
         "컨센서스 추정치 변경",
         "마진·FCF 전망"
       ]
-    },
-    {
-      "id": "0269855baa404240fe02",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "QQQ",
-      "relatedTickers": [
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Stocktwits Passport Portfolio: QQQ Holds Up Better Than SPY, DIA And Asian Stocks Amid Bond Market Rout This Week",
-      "headlineKo": "Stocktwits 여권 포트폴리오: QQQ는 이번 주 채권 시장 하락 속에서 SPY, DIA 및 아시아 주식보다 더 나은 모습을 유지합니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=bc8aa8f8dc7b1b729cc67078895996bac0600bf43adbaf273446fd9ed902bc59",
-        "publishedAt": 1790921953,
-        "collectedAt": 1791213388.8175483
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Stocktwits 여권 포트폴리오: QQQ는 이번 주 채권 시장의 대패 속에서 SPY, DIA 및 아시아 주식보다 더 나은 모습을 유지합니다. AI 에이전트 동향 뉴스 수익 모든 DIA 0.49% SPY 0.74% QQQ 1.02% 추세 COMP 0.17% WLD 8.89% GLD 0.89% CRMD 2.16% PEPE 3.64",
-        "Stocktwits 여권 포트폴리오: QQQ는 이번 주 채권 시장의 대패 속에서 SPY, DIA 및 아시아 주식보다 더 나은 모습을 유지하고 있습니다. Nasdaq을 추적하는 Invesco QQQ Trust는 이번 주에 지금까지 동료 중에서 가장 낮은 하락세를 기록했습니다.",
-        "검정색 배경에 주식 시장이 하락했습니다."
-      ],
-      "marketInterpretation": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.49%, 0.74%, 1.02% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.49%, 0.74%, 1.02% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "QQQ",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "실제 CAPEX 집행",
-        "공급업체 수주·매출",
-        "투자 기업 OCF·FCF·부채"
-      ]
-    },
-    {
-      "id": "9300b1599e56fea8d471",
-      "schemaVersion": 1,
-      "eventType": "regulatory_legal_export",
-      "eventLabel": "규제·소송·수출 제한",
-      "primaryTicker": "META",
-      "relatedTickers": [
-        "META",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Meta",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "META Stock Holds Up Overnight: New Mexico Seeks Up To $40B Privacy Penalty In Cambridge Analytica Case",
-      "headlineKo": "META 주식이 밤새 유지됨: 뉴멕시코주, Cambridge Analytica 사건에서 최대 400억 달러의 개인 정보 보호 벌금 청구",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=fb75a95de2de0a771fcb1753603431da915512ab5318be66343c4c712eb74469",
-        "publishedAt": 1790919842,
-        "collectedAt": 1791230402.216535
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "META 주식은 밤새 상승: 뉴멕시코, Cambridge Analytica 사례에서 최대 400억 달러의 개인 정보 보호 벌금 추구 AI 에이전트 동향 뉴스 수익 전체 DIA 0.49% SPY 0.50% QQQ 0.82% Trending NKE 10.24% ASTS 0.24% CTVA 0.56% IWM 0.53% MARA 2.77% DIS 0.04",
-        "META 주식이 밤새 유지됨: 뉴멕시코, Cambridge Analytica 사건에서 최대 400억 달러의 개인 정보 보호 벌금을 요구합니다. 개인 정보 보호 벌금은 Meta 주식이 회사의 AI 추진에 추진력을 얻음에도 불구하고 새로운 위험을 추가합니다.",
-        "Meta의 CEO인 Mark Zuckerberg가 2024년 1월 31일 온라인 아동 성착취에 관한 상원 사법위원회 청문회에서 증언합니다."
-      ],
-      "marketInterpretation": [
-        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: $40, 0.49%, 0.50% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "META의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "META에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: $40, 0.49%, 0.50% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "META의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "META",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "공식 규제 적용일·대상 제품",
-        "회사의 매출 영향 추정",
-        "대체 제품·지역 판매"
-      ]
     }
   ],
   "byTicker": {
@@ -18433,9 +18409,7 @@ const EVENT_DATA = {
       "6e2eff2a7544f22ea905",
       "0eba8a3688bb864aaa44",
       "2b704432c27532f8733f",
-      "ccec3c3d5322269c8824",
-      "0269855baa404240fe02",
-      "9300b1599e56fea8d471"
+      "ccec3c3d5322269c8824"
     ],
     "MSFT": [
       "e581f772ddaef7f6d85c",
@@ -18548,8 +18522,7 @@ const EVENT_DATA = {
       "df523500445edc84444e",
       "cbc3abe0a34b96d222e9",
       "00ec534d42ff7c45f02c",
-      "164705d71cebe6abf557",
-      "9300b1599e56fea8d471"
+      "164705d71cebe6abf557"
     ],
     "QQQ": [
       "8c04d156d33202894018",
@@ -18617,9 +18590,7 @@ const EVENT_DATA = {
       "6e2eff2a7544f22ea905",
       "0eba8a3688bb864aaa44",
       "2b704432c27532f8733f",
-      "ccec3c3d5322269c8824",
-      "0269855baa404240fe02",
-      "9300b1599e56fea8d471"
+      "ccec3c3d5322269c8824"
     ],
     "MU": [
       "8b89763319694d2deb11",
@@ -18865,14 +18836,9 @@ const EVENT_DATA = {
       "2638cc267b6383ea6506",
       "2d0e78f2f89b04be7bd4"
     ],
-    "KLAC": [
-      "4bfab5815be5875a4a0b"
-    ],
-    "FIX": [
-      "a91015b46f0ece30cacf",
-      "9d9108c97a5869b68911"
-    ],
     "AMD": [
+      "b4e9044206c6f1b2e2cc",
+      "db4160e908d43457847a",
       "e6dfe852365b65e0e0c8",
       "6027a438cf60fd018c80",
       "bcd59098a90f7c99b244",
@@ -18911,6 +18877,13 @@ const EVENT_DATA = {
       "7db500f9d5fcc874e200",
       "e0eeae9ec683bcaedb54",
       "5919e96d87d5217351eb"
+    ],
+    "KLAC": [
+      "4bfab5815be5875a4a0b"
+    ],
+    "FIX": [
+      "a91015b46f0ece30cacf",
+      "9d9108c97a5869b68911"
     ],
     "ARM": [
       "e7354037494021c09545",

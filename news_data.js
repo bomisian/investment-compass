@@ -4320,7 +4320,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "SPY": {
@@ -9827,7 +9827,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 112,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "MSFT": {
@@ -18042,7 +18042,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "GOOGL": {
@@ -26082,7 +26082,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "AMZN": {
@@ -33958,7 +33958,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "META": {
@@ -41750,7 +41750,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "AAPL": {
@@ -49766,7 +49766,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "TSLA": {
@@ -57508,7 +57508,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "ORCL": {
@@ -65806,7 +65806,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "CRM": {
@@ -71419,7 +71419,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "PLTR": {
@@ -79839,7 +79839,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "NVDA": {
@@ -87503,11 +87503,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "AMD": {
-    "_last_attempt_at": 1791211460.834829,
+    "_last_attempt_at": 1791234002.297302,
     "nextEarnings": {
       "date": "2026-11-02",
       "hour": "amc",
@@ -87517,22 +87517,22 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Nvidia and AMD just hit record highs, but tech stocks still look cheap",
+        "headline": "Chip Stocks Pause After Two-Day Pop. AMD Stock Gets Price-Target Hikes.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6149b0bfa38034197020d39f5afd3f6b6e0f87c37b1df55880fdf557fc02dc4a",
-        "datetime": 1791208410,
+        "url": "https://finnhub.io/api/news?id=b40c2c521c39f6ec64c152ebc17bb9bfffb234d657e103ec700698322dc97149",
+        "datetime": 1791217527,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "low",
-          "tone": "positive",
+          "tone": "neutral",
           "certainty": "본문 확인 필요",
-          "label": "실적·수요 개선 가능성",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Nvidia and AMD just hit record highs, but tech stocks still look cheap",
+            "Chip Stocks Pause After Two-Day Pop. AMD Stock Gets Price-Target Hikes.",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -87556,21 +87556,71 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'Nvidia and AMD just hit record highs, but tech stocks still look cheap' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'Chip Stocks Pause After Two-Day Pop. AMD Stock Gets Price-Target Hikes.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791211467.8086355
+          "analysisUpdatedAt": 1791234007.727629
         },
-        "headlineKo": "Nvidia와 AMD는 사상 최고치를 경신했지만 기술주는 여전히 저렴해 보입니다."
+        "headlineKo": "이틀만에 칩주 급락. AMD 주식은 목표 가격 인상을 얻습니다."
       },
       {
-        "headline": "Visual Computing Market Report 2026: Global Size, Share, Trends and Growth Forecast to 2030 | Capitalize on AI, Real-Time 3D and AR/VR with NVIDIA, Apple, Microsoft and AMD",
+        "headline": "Sozzi talks with Zscaler CEO about AI cybersecurity, while Nvidia & AMD stocks rip higher",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ee5cd25b7c93703fe137f69b98dcb799d0bdbc856fc121d8db2b24643fafac11",
-        "datetime": 1791207420,
+        "url": "https://finnhub.io/api/news?id=551974b98e5d5fd3af4ee67951134981184d0882c6391aef8dd99484b70d51c1",
+        "datetime": 1791213132,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Sozzi talks with Zscaler CEO about AI cybersecurity, while Nvidia & AMD stocks rip higher",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'Sozzi talks with Zscaler CEO about AI cybersecurity, while Nvidia & AMD stocks rip higher' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791234009.7608786
+        },
+        "headlineKo": "Sozzi는 Zscaler CEO와 AI 사이버 보안에 대해 이야기하고 Nvidia 및 AMD 주식은 상승합니다."
+      },
+      {
+        "headline": "Why Advanced Micro (AMD) Could Beat Earnings Estimates Again",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=08fb72ac71e38f733470be935666481d7400b695a98adfbf7c5a4d96c6d2c296",
+        "datetime": 1791213002,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
@@ -87578,89 +87628,19 @@ const NEWS_DATA = {
           "version": 9,
           "importance": "medium",
           "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'Visual Computing Market Report 2026: Global Size, Share, Trends and Growth Forecast to 2030 | Capitalize on AI, Real-Time 3D and AR/VR with NVIDIA, Apple, Microsoft and AMD' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: AMD에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
-          "relevance": 1,
-          "quality": "high",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791211469.9228036
-        },
-        "headlineKo": "비주얼 컴퓨팅 시장 보고서 2026: 2030년까지 글로벌 규모, 점유율, 추세 및 성장 예측 | NVIDIA, Apple, Microsoft 및 AMD를 통해 AI, 실시간 3D 및 AR/VR 활용"
-      },
-      {
-        "headline": "Intel Drops 4% as Elon Musk Signals Taiwan Semiconductor Could Join Terafab; AMD Slips, NVIDIA Holds Steady",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=49d0805dfcac39242942c0f980cec058d5f35d3223e05b6f8182c978fd94bd6b",
-        "datetime": 1791203662,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "certainty": "본문 확인 필요",
+          "label": "실적 발표 · 본업과 특이항목 분리",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Elon Musk가 대만 반도체가 Terafab에 합류할 수 있다는 신호를 보내면서 Intel은 4% 하락했습니다. AMD 전표, NVIDIA는 꾸준한 유지 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,753.90 +0.32% Dow Jones 51,067.60 −0.32% Nasdaq 100 30,982.80 +0.50% Russell 2000 2,834.54 −0.06% S&P 500 7,753.90 +0.32% 다우존스 51,067.60 −0.32% 나스닥 100 30,982.80 +0.50% 러셀 2000 2,834.54 −0.",
-            "작성자 David Moadel 2026년 10월 5일 오전 8시 34분(ET) 게시 · 3분 읽기 Market Movers 데스크."
+            "Why Advanced Micro (AMD) Could Beat Earnings Estimates Again",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 4%, $114.52,, $628.89, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
             "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -87671,52 +87651,39 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
+            "매출·영업이익 성장",
+            "정상화이익과 특이항목",
+            "가이던스·OCF·FCF"
           ],
-          "interpretation": "AMD에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "AMD에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "4%",
-            "$114.52,",
-            "$628.89,",
-            "0.8%",
-            "0.5%",
-            "0.7%",
-            "0.2%",
-            "$293 million"
-          ],
-          "sourceExcerpt": [
-            "Intel Drops 4% as Elon Musk Signals Taiwan Semiconductor Could Join Terafab; AMD Slips, NVIDIA Holds Steady - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,753.90 +0.32% Dow Jones 51,067.60 −0.32% Nasdaq 100 30,982.80 +0.50% Russell 2000 2,834.54 −0.06% S&P 500 7,753.90 +0.32% Dow Jones 51,067.60 −0.32% Nasdaq 100 30,982.80 +0.50% Russell 2000 2,834.54 −0.",
-            "By David Moadel Published October 5, 2026, 8:34am ET · 3 min read Market Movers desk."
-          ],
-          "analysisUpdatedAt": 1791211478.071563
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791234011.6218207
         },
-        "headlineKo": "Elon Musk가 대만 반도체가 Terafab에 합류할 수 있다는 신호를 보내면서 Intel은 4% 하락했습니다. AMD 전표, NVIDIA는 꾸준함 유지"
+        "headlineKo": "Advanced Micro(AMD)가 수익 추정치를 다시 이길 수 있는 이유"
       },
       {
-        "headline": "Zacks Investment Ideas feature highlights: Arm Holdings, Advanced Micro Devices, Marvell, Applied Optoelectronics and Nebius",
+        "headline": "3 reasons Nvidia and AMD stocks can't stop climbing",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=be79c6548e2e6ca178d7ec8b86255da7a8c548ebd10ff7826947ca5c18473794",
-        "datetime": 1791201660,
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Zacks 투자 아이디어 주요 특징: Arm Holdings, Advanced Micro Devices, Marvell, Applied Optoelectronics 및 Nebius"
-      },
-      {
-        "headline": "Meet the Low-Cost Vanguard ETF With 32.4% Invested in Nvidia, Broadcom, Micron, AMD, Intel, and Lam Research, While VOO Has Just 14.8%.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b0cf215ea487392e67e586be62096cb6b8d47e93ddaf02471c8e9a3ec0ce5353",
-        "datetime": 1791197400,
+        "url": "https://finnhub.io/api/news?id=4fa9994728204ab0765d47ee6726d0b28f3d042974bde96ad5ebe3db1443acb6",
+        "datetime": 1791212400,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Nvidia, Broadcom, Micron, AMD, Intel 및 Lam Research에 32.4%를 투자한 반면 VOO는 14.8%에 불과한 저비용 Vanguard ETF를 만나보세요."
+        "headlineKo": "엔비디아와 AMD 주가 상승을 멈출 수 없는 3가지 이유"
+      },
+      {
+        "headline": "AMD Stock: The $8 Billion Bet That Could Redefine Its AI Strategy",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=d95d6bce7b72cb14b2d79a463776ec31619d35f212a0654a25699d7292da709c",
+        "datetime": 1791209469,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "AMD 주식: AI 전략을 재정의할 수 있는 80억 달러 투자"
       },
       {
         "headline": "AMD: The AI Momentum Train Looks Unstoppable, But I'm Pausing Accumulation (Downgrade)",
@@ -87732,6 +87699,170 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Chip Stocks Pause After Two-Day Pop. AMD Stock Gets Price-Target Hikes.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b40c2c521c39f6ec64c152ebc17bb9bfffb234d657e103ec700698322dc97149",
+        "datetime": 1791217527,
+        "headlineKo": "이틀만에 칩주 급락. AMD 주식은 목표 가격 인상을 얻습니다.",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Chip Stocks Pause After Two-Day Pop. AMD Stock Gets Price-Target Hikes.",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'Chip Stocks Pause After Two-Day Pop. AMD Stock Gets Price-Target Hikes.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791234007.727629
+        }
+      },
+      {
+        "headline": "Sozzi talks with Zscaler CEO about AI cybersecurity, while Nvidia & AMD stocks rip higher",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=551974b98e5d5fd3af4ee67951134981184d0882c6391aef8dd99484b70d51c1",
+        "datetime": 1791213132,
+        "headlineKo": "Sozzi는 Zscaler CEO와 AI 사이버 보안에 대해 이야기하고 Nvidia 및 AMD 주식은 상승합니다.",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Sozzi talks with Zscaler CEO about AI cybersecurity, while Nvidia & AMD stocks rip higher",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'Sozzi talks with Zscaler CEO about AI cybersecurity, while Nvidia & AMD stocks rip higher' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791234009.7608786
+        }
+      },
+      {
+        "headline": "Why Advanced Micro (AMD) Could Beat Earnings Estimates Again",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=08fb72ac71e38f733470be935666481d7400b695a98adfbf7c5a4d96c6d2c296",
+        "datetime": 1791213002,
+        "headlineKo": "Advanced Micro(AMD)가 수익 추정치를 다시 이길 수 있는 이유",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적 발표 · 본업과 특이항목 분리",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Why Advanced Micro (AMD) Could Beat Earnings Estimates Again",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "매출·영업이익 성장",
+            "정상화이익과 특이항목",
+            "가이던스·OCF·FCF"
+          ],
+          "interpretation": "AMD에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791234011.6218207
+        }
+      },
+      {
+        "headline": "3 reasons Nvidia and AMD stocks can't stop climbing",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4fa9994728204ab0765d47ee6726d0b28f3d042974bde96ad5ebe3db1443acb6",
+        "datetime": 1791212400,
+        "headlineKo": "엔비디아와 AMD 주가 상승을 멈출 수 없는 3가지 이유",
+        "relevance": 1,
+        "keywordFlag": false
+      },
+      {
+        "headline": "AMD Stock: The $8 Billion Bet That Could Redefine Its AI Strategy",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=d95d6bce7b72cb14b2d79a463776ec31619d35f212a0654a25699d7292da709c",
+        "datetime": 1791209469,
+        "headlineKo": "AMD 주식: AI 전략을 재정의할 수 있는 80억 달러 투자",
+        "relevance": 1,
+        "keywordFlag": false
+      },
       {
         "headline": "Nvidia and AMD just hit record highs, but tech stocks still look cheap",
         "source": "Yahoo",
@@ -95298,182 +95429,17 @@ const NEWS_DATA = {
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789747543.020389
         }
-      },
-      {
-        "headline": "GMKtec Unveils EVO-X5 Pro at IFA 2026 with AMD Ryzen(TM) AI Max Processors, Introducing the World's First Desktop AI Supercomputer Capable of Running a 300B-Parameter LLM Fully Offline",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=96b50ba1f744728594879bb29f96103fafb350ea7f33a2b6202520c3e12f2b49",
-        "datetime": 1789729020,
-        "headlineKo": "GMKtec, IFA 2026에서 AMD Ryzen(TM) AI Max 프로세서를 탑재한 EVO-X5 Pro 공개, 300B 매개변수 LLM을 완전 오프라인으로 실행할 수 있는 세계 최초의 데스크탑 AI 슈퍼컴퓨터 소개",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "GMKtec Unveils EVO-X5 Pro at IFA 2026 with AMD Ryzen(TM) AI Max Processors, Introducing the World's First Desktop AI Supercomputer Capable of Running a 300B-Parameter LLM Fully Offline",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'GMKtec Unveils EVO-X5 Pro at IFA 2026 with AMD Ryzen(TM) AI Max Processors, Introducing the World's First Desktop AI Supercomputer Capable of Running a 300B-Parameter LLM Fully Offline' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789747544.910466
-        }
-      },
-      {
-        "headline": "Zacks Investment Ideas feature highlights: NVIDIA, Advanced Micro Devices, Tempus, Moderna, Super Micro Computer and Aya Gold & Silver",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=64b3da817a58392d7d1677e7e792a15381f254e560b2786fcec01a1bf78d67e8",
-        "datetime": 1789726380,
-        "headlineKo": "Zacks 투자 아이디어 주요 특징: NVIDIA, Advanced Micro Devices, Tempus, Moderna, Super Micro Computer 및 Aya Gold & Silver",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Zacks Investment Ideas feature highlights: NVIDIA, Advanced Micro Devices, Tempus, Moderna, Super Micro Computer and Aya Gold & Silver",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'Zacks Investment Ideas feature highlights: NVIDIA, Advanced Micro Devices, Tempus, Moderna, Super Micro Computer and Aya Gold & Silver' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.4,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789747546.612945
-        }
-      },
-      {
-        "headline": "AMD Stock Rises Premarket: Report Flags Chip Price Hike Linked To TSMC Costs",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6913d0365ea3e2cdf61414cafbb0e40a4adf3a233087baa2ca218817cbdb8fbd",
-        "datetime": 1789723333,
-        "headlineKo": "AMD 주가 상승 프리마켓: TSMC 비용과 관련된 칩 가격 인상을 표시하는 보고서",
-        "relevance": 1,
-        "keywordFlag": false
-      },
-      {
-        "headline": "Why Are Nasdaq, S&P 500 And Dow Futures Rising Premarket? NVDA, CRWV, AMD, SPCX, BE Stocks In Focus",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=aff236c6a1ff979bd5564efed57b12548c2d42119ff1107d59b5f07ce9766ef0",
-        "datetime": 1789720112,
-        "headlineKo": "Nasdaq, S&P 500 및 Dow Futures가 프리마켓 상승하는 이유는 무엇입니까? NVDA, CRWV, AMD, SPCX, BE 주식에 집중",
-        "relevance": 1,
-        "keywordFlag": false
-      },
-      {
-        "headline": "Dow Jones Futures: S&P 500, Nasdaq Rebound Above Key Level; Moderna, AMD, SpaceX Flash Buy Signals",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1b353f221d269fb06c0864981159bf974df8dcf5f648a2490a0e7f238230c195",
-        "datetime": 1789700941,
-        "headlineKo": "다우존스 선물: S&P 500, 나스닥이 주요 수준 위로 반등; Moderna, AMD, SpaceX Flash 구매 신호",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Dow Jones Futures: S&P 500, Nasdaq Rebound Above Key Level; Moderna, AMD, SpaceX Flash Buy Signals",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'Dow Jones Futures: S&P 500, Nasdaq Rebound Above Key Level; Moderna, AMD, SpaceX Flash Buy Signals' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789725396.7479792
-        }
       }
     ],
-    "_fetched_at": 1791211460.834829,
-    "_updated_label": "2026-10-05 23:44",
-    "_last_success_at": 1791211460.834829,
+    "_fetched_at": 1791234002.297302,
+    "_updated_label": "2026-10-06 06:00",
+    "_last_success_at": 1791234002.297302,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "AVGO": {
@@ -102615,7 +102581,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "QCOM": {
@@ -108149,7 +108115,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "ARM": {
@@ -112435,7 +112401,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "MRVL": {
@@ -118118,7 +118084,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 118,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "INTC": {
@@ -126074,7 +126040,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 183,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "TSM": {
@@ -131071,7 +131037,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 109,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "ASML": {
@@ -134142,7 +134108,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "AMAT": {
@@ -137622,11 +137588,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "LRCX": {
-    "_last_attempt_at": 1791211460.834829,
+    "_last_attempt_at": 1791234002.297302,
     "nextEarnings": {
       "date": "2026-10-21",
       "hour": "",
@@ -137681,7 +137647,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791211485.2157006
+          "analysisUpdatedAt": 1791234019.9640508
         },
         "headlineKo": "AI가 스토리지 수요 촉진: Lam Research의 NAND 성장을 촉진할 것인가?"
       },
@@ -137735,17 +137701,17 @@ const NEWS_DATA = {
             "14.8%",
             "90%",
             "8.9%",
-            "0.65%",
+            "0.69%",
             "42%",
-            "1.25%",
-            "1.25 %"
+            "2.12%",
+            "2.12 %"
           ],
           "sourceExcerpt": [
             "Meet the Low-Cost Vanguard ETF With 32.4% Invested in Nvidia, Broadcom, Micron, AMD, Intel, and Lam Research, While VOO Has Just 14.8%.",
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Even before OpenAI released ChatGPT to the public in November 2022, technology was by far the most valuable sector in the S&P 500 (",
             "The artificial intelligence (AI) boom has taken the S&P 500's concentrated technology sector exposure to a whole new level."
           ],
-          "analysisUpdatedAt": 1791211487.6077838
+          "analysisUpdatedAt": 1791234022.3575513
         },
         "headlineKo": "Nvidia, Broadcom, Micron, AMD, Intel 및 Lam Research에 32.4%를 투자한 반면 VOO는 14.8%에 불과한 저비용 Vanguard ETF를 만나보세요."
       },
@@ -137795,7 +137761,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791211497.691895
+          "analysisUpdatedAt": 1791234024.2394142
         },
         "headlineKo": "Lam Research(LRCX)의 경제적 해자는 무엇이며, 확대되거나 축소되고 있습니까?"
       },
@@ -137867,7 +137833,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791211485.2157006
+          "analysisUpdatedAt": 1791234019.9640508
         }
       },
       {
@@ -137920,17 +137886,17 @@ const NEWS_DATA = {
             "14.8%",
             "90%",
             "8.9%",
-            "0.65%",
+            "0.69%",
             "42%",
-            "1.25%",
-            "1.25 %"
+            "2.12%",
+            "2.12 %"
           ],
           "sourceExcerpt": [
             "Meet the Low-Cost Vanguard ETF With 32.4% Invested in Nvidia, Broadcom, Micron, AMD, Intel, and Lam Research, While VOO Has Just 14.8%.",
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Even before OpenAI released ChatGPT to the public in November 2022, technology was by far the most valuable sector in the S&P 500 (",
             "The artificial intelligence (AI) boom has taken the S&P 500's concentrated technology sector exposure to a whole new level."
           ],
-          "analysisUpdatedAt": 1791211487.6077838
+          "analysisUpdatedAt": 1791234022.3575513
         }
       },
       {
@@ -137979,7 +137945,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791211497.691895
+          "analysisUpdatedAt": 1791234024.2394142
         }
       },
       {
@@ -139534,15 +139500,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791211460.834829,
-    "_updated_label": "2026-10-05 23:44",
-    "_last_success_at": 1791211460.834829,
+    "_fetched_at": 1791234002.297302,
+    "_updated_label": "2026-10-06 06:00",
+    "_last_success_at": 1791234002.297302,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "KLAC": {
@@ -141270,7 +141236,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "MU": {
@@ -148710,7 +148676,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "SNDK": {
@@ -154795,7 +154761,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "WDC": {
@@ -158269,7 +158235,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "ANET": {
@@ -160919,7 +160885,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "COHR": {
@@ -163717,7 +163683,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "LITE": {
@@ -166351,7 +166317,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "GEV": {
@@ -170331,7 +170297,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "CEG": {
@@ -173367,7 +173333,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "VST": {
@@ -175877,7 +175843,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "ETN": {
@@ -178437,7 +178403,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "PWR": {
@@ -180716,7 +180682,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "HUBB": {
@@ -181437,7 +181403,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "VRT": {
@@ -184565,7 +184531,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "MOD": {
@@ -185629,7 +185595,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "STX": {
@@ -188499,7 +188465,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "EME": {
@@ -189863,7 +189829,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "FIX": {
@@ -191061,7 +191027,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   },
   "BE": {
@@ -192960,7 +192926,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-06 05:29"
+      "updated": "2026-10-06 06:00"
     }
   }
 };
