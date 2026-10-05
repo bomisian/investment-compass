@@ -4150,7 +4150,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "SPY": {
@@ -9408,7 +9408,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 105,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "MSFT": {
@@ -17638,7 +17638,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "GOOGL": {
@@ -25755,7 +25755,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "AMZN": {
@@ -33615,7 +33615,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "META": {
@@ -41311,7 +41311,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "AAPL": {
@@ -49258,7 +49258,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "TSLA": {
@@ -57101,7 +57101,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "ORCL": {
@@ -65381,7 +65381,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "CRM": {
@@ -70882,7 +70882,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "PLTR": {
@@ -79119,7 +79119,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "NVDA": {
@@ -86731,11 +86731,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "AMD": {
-    "_last_attempt_at": 1791165584.0493925,
+    "_last_attempt_at": 1791188397.1509974,
     "nextEarnings": {
       "date": "2026-11-02",
       "hour": "amc",
@@ -86744,6 +86744,70 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Stocktwits M&A Watch: Paramount-Warner Bros Combination, Skyworks-Qorvo Merger, AMD’s World Labs Acquisition In Focus",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=51eb55409c689d88e5bf97a1b9347d52f44cfa8e6dd45e6d8505406e0cf2a44a",
+        "datetime": 1791185489,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "규제·법무 · 비선형 위험",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Stocktwits M&A 보기: Paramount-Warner Bros 조합, Skyworks-Qorvo 합병, AMD의 World Labs 인수에 초점 AI 에이전트 동향 뉴스 수익 전체 DIA 0.09% SPY 0.10% QQQ 0.03% 동향 SDEV 19.11% CBRS 6.32% QCOM 2.96% AGEN 1.44% AM",
+            "Stocktwits M&A 보기: Paramount-Warner Bros 조합, Skyworks-Qorvo 합병, AMD의 World Labs 인수에 집중 초점을 맞춘 주요 거래 중에는 Paramount Skydance와 Warner Bros가 있습니다.",
+            "Discovery의 합병, Skyworks와 Qorvo의 합병, Advanced Micro Devices의 World Labs 인수."
+          ],
+          "why": [
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.09%, 0.10%, 0.03% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
+          ],
+          "interpretation": "AMD에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.09%",
+            "0.10%",
+            "0.03%",
+            "19.11%",
+            "6.32%",
+            "2.96%",
+            "1.44%",
+            "0.19%"
+          ],
+          "sourceExcerpt": [
+            "Stocktwits M&A Watch: Paramount-Warner Bros Combination, Skyworks-Qorvo Merger, AMD’s World Labs Acquisition In Focus AI Agent Trending News Earnings All DIA 0.09% SPY 0.10% QQQ 0.03% Trending SDEV 19.11% CBRS 6.32% QCOM 2.96% AGEN 1.44% AM",
+            "Stocktwits M&A Watch: Paramount-Warner Bros Combination, Skyworks-Qorvo Merger, AMD’s World Labs Acquisition In Focus Among the major deals in focus are Paramount Skydance and Warner Bros.",
+            "Discovery’s merger, Skyworks and Qorvo’s combination, and Advanced Micro Devices’ acquisition of World Labs."
+          ],
+          "analysisUpdatedAt": 1791188406.3036973
+        },
+        "headlineKo": "Stocktwits M&A 보기: Paramount-Warner Bros 조합, Skyworks-Qorvo 합병, AMD의 World Labs 인수에 초점"
+      },
       {
         "headline": "AMD’s $8.2 Billion AI Bet Comes With a $1 Trillion Valuation Problem",
         "source": "Yahoo",
@@ -86808,7 +86872,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791165588.8406518
+          "analysisUpdatedAt": 1791188408.4024
         },
         "headlineKo": "AMD의 82억 달러 AI 베팅에는 1조 달러 가치 평가 문제가 발생함"
       },
@@ -86872,7 +86936,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool AMD ( AMD +2.95% ) has had an incredible year.",
             "It's the ninth-best-performing S&P 500 ( ^GSPC +0.73% ) stock, rising nearly 200% so far this year."
           ],
-          "analysisUpdatedAt": 1791165591.2699504
+          "analysisUpdatedAt": 1791188411.4068003
         },
         "headlineKo": "AMD는 시가총액 1조 달러에 도달했습니다. 마침내 엔비디아를 무너뜨릴 수 있을까?"
       },
@@ -86884,46 +86948,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Is Advanced Micro Devices (AMD) Still a Buy After Its 180% Plus Rally?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'Is Advanced Micro Devices (AMD) Still a Buy After Its 180% Plus Rally?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791165592.8366175
-        },
         "headlineKo": "AMD(Advanced Micro Devices)는 180% 플러스 상승 이후에도 여전히 매수세를 보이고 있습니까?"
       },
       {
@@ -86935,16 +86959,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "AMD의 CPU 사업이 AI 칩 야망에 자금을 지원할 수 있습니까?"
-      },
-      {
-        "headline": "Prediction: This AI Chip Stock Will Be the Biggest Winner of 2027 (Hint: It’s Not Nvidia, AMD, or Broadcom)",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3cbc6c6c0489fd7871ef6ef60d42c8e47422fbe7010e81af63fcff7e378e40de",
-        "datetime": 1791020401,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "예측: 이 AI 칩 주식은 2027년의 가장 큰 승자가 될 것입니다(힌트: Nvidia, AMD 또는 Broadcom이 아닙니다)"
       },
       {
         "headline": "AMD: The AI Momentum Train Looks Unstoppable, But I'm Pausing Accumulation (Downgrade)",
@@ -86960,6 +86974,69 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Stocktwits M&A Watch: Paramount-Warner Bros Combination, Skyworks-Qorvo Merger, AMD’s World Labs Acquisition In Focus",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=51eb55409c689d88e5bf97a1b9347d52f44cfa8e6dd45e6d8505406e0cf2a44a",
+        "datetime": 1791185489,
+        "headlineKo": "Stocktwits M&A 보기: Paramount-Warner Bros 조합, Skyworks-Qorvo 합병, AMD의 World Labs 인수에 초점",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "규제·법무 · 비선형 위험",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Stocktwits M&A 보기: Paramount-Warner Bros 조합, Skyworks-Qorvo 합병, AMD의 World Labs 인수에 초점 AI 에이전트 동향 뉴스 수익 전체 DIA 0.09% SPY 0.10% QQQ 0.03% 동향 SDEV 19.11% CBRS 6.32% QCOM 2.96% AGEN 1.44% AM",
+            "Stocktwits M&A 보기: Paramount-Warner Bros 조합, Skyworks-Qorvo 합병, AMD의 World Labs 인수에 집중 초점을 맞춘 주요 거래 중에는 Paramount Skydance와 Warner Bros가 있습니다.",
+            "Discovery의 합병, Skyworks와 Qorvo의 합병, Advanced Micro Devices의 World Labs 인수."
+          ],
+          "why": [
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.09%, 0.10%, 0.03% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
+          ],
+          "interpretation": "AMD에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.09%",
+            "0.10%",
+            "0.03%",
+            "19.11%",
+            "6.32%",
+            "2.96%",
+            "1.44%",
+            "0.19%"
+          ],
+          "sourceExcerpt": [
+            "Stocktwits M&A Watch: Paramount-Warner Bros Combination, Skyworks-Qorvo Merger, AMD’s World Labs Acquisition In Focus AI Agent Trending News Earnings All DIA 0.09% SPY 0.10% QQQ 0.03% Trending SDEV 19.11% CBRS 6.32% QCOM 2.96% AGEN 1.44% AM",
+            "Stocktwits M&A Watch: Paramount-Warner Bros Combination, Skyworks-Qorvo Merger, AMD’s World Labs Acquisition In Focus Among the major deals in focus are Paramount Skydance and Warner Bros.",
+            "Discovery’s merger, Skyworks and Qorvo’s combination, and Advanced Micro Devices’ acquisition of World Labs."
+          ],
+          "analysisUpdatedAt": 1791188406.3036973
+        }
+      },
       {
         "headline": "AMD’s $8.2 Billion AI Bet Comes With a $1 Trillion Valuation Problem",
         "source": "Yahoo",
@@ -87024,7 +87101,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791165588.8406518
+          "analysisUpdatedAt": 1791188408.4024
         }
       },
       {
@@ -87087,7 +87164,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool AMD ( AMD +2.95% ) has had an incredible year.",
             "It's the ninth-best-performing S&P 500 ( ^GSPC +0.73% ) stock, rising nearly 200% so far this year."
           ],
-          "analysisUpdatedAt": 1791165591.2699504
+          "analysisUpdatedAt": 1791188411.4068003
         }
       },
       {
@@ -94681,26 +94758,17 @@ const NEWS_DATA = {
         "headlineKo": "AMD, 부문 반등 속에 칩 주식 상승 주도",
         "relevance": 1,
         "keywordFlag": false
-      },
-      {
-        "headline": "AMD Jumps 7% as Semiconductor Rebound Reaches a Third Session; Broadcom Rises 3%, NVIDIA Edges Higher",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a4520d8df0917a1192e7d8356ebcc97c408c67359fd03540e581c18e4a5947ef",
-        "datetime": 1789666627,
-        "headlineKo": "반도체 반등이 세 번째 세션에 도달함에 따라 AMD는 7% 상승합니다. Broadcom 상승 3%, NVIDIA Edge 상승",
-        "relevance": 1,
-        "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791165584.0493925,
-    "_updated_label": "2026-10-05 10:59",
-    "_last_success_at": 1791165584.0493925,
+    "_fetched_at": 1791188397.1509974,
+    "_updated_label": "2026-10-05 17:20",
+    "_last_success_at": 1791188397.1509974,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "AVGO": {
@@ -101459,7 +101527,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "QCOM": {
@@ -106611,7 +106679,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 113,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "ARM": {
@@ -110743,7 +110811,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "MRVL": {
@@ -116279,7 +116347,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 115,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "INTC": {
@@ -123880,7 +123948,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 173,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "TSM": {
@@ -128642,7 +128710,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "ASML": {
@@ -131667,7 +131735,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "AMAT": {
@@ -135114,11 +135182,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "LRCX": {
-    "_last_attempt_at": 1791186045.0120077,
+    "_last_attempt_at": 1791188397.1509974,
     "nextEarnings": {
       "date": "2026-10-21",
       "hour": "",
@@ -135173,7 +135241,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791163515.2304947
+          "analysisUpdatedAt": 1791188417.0655868
         },
         "headlineKo": "Lam Research(LRCX)의 경제적 해자는 무엇이며, 확대되거나 축소되고 있습니까?"
       },
@@ -135187,24 +135255,22 @@ const NEWS_DATA = {
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Lam Research 주식: AI 제조 복잡성 및 설치 기반 성장(NASDAQ:LRCX) | Alpha Manimala Misra 찾기 팔로워 56명 팔로우 요약 Lam Research는 고급 카이에 대한 수요로 인해 장기적인 상승세가 예상되는 신중한 매수 등급을 받았습니다.",
-            "LRCX의 성장은 칩 복잡성 증가에 의해 뒷받침되며, 이로 인해 더 많은 처리 단계가 필요하고 장비 및 반복 서비스 수익이 모두 증가합니다.",
-            "~$340에 LRCX는 5년 평균보다 훨씬 높은 35.9배의 선도 EPS로 거래되므로 가치 평가에서는 이미 강력한 수익 성장을 예상하고 있습니다."
+            "Lam Research: AI Manufacturing Complexity And Installed-Base Growth Support A Cautious Buy",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $340,, 14%, 20% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "LRCX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -135214,25 +135280,18 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "LRCX에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 LRCX의 사업과 관련된 'Lam Research: AI Manufacturing Complexity And Installed-Base Growth Support A Cautious Buy' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "LRCX 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$340,",
-            "14%",
-            "20%"
-          ],
-          "sourceExcerpt": [
-            "Lam Research Stock: AI Manufacturing Complexity And Installed-Base Growth (NASDAQ:LRCX) | Seeking Alpha Manimala Misra 56 Followers Follow Summary Lam Research is rated a cautious Buy, with long-term upside driven by demand for advanced chi",
-            "LRCX's growth is underpinned by increasing chip complexity, which requires more processing steps and drives both equipment and recurring service revenue.",
-            "At ~$340, LRCX trades at 35.9x forward EPS—well above its five-year average—so valuation already anticipates robust earnings growth."
-          ],
-          "analysisUpdatedAt": 1791163517.8633287
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791188418.4198852
         },
         "headlineKo": "Lam Research: AI 제조 복잡성 및 설치 기반 성장으로 인해 신중한 구매 지원"
       },
@@ -135282,7 +135341,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791163519.3967946
+          "analysisUpdatedAt": 1791188420.7274559
         },
         "headlineKo": "Analog Devices, AMD, KLA Corporation, Lam Research 및 Marvell Technology 주식 거래, 알아야 할 사항"
       },
@@ -135354,7 +135413,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791163515.2304947
+          "analysisUpdatedAt": 1791188417.0655868
         }
       },
       {
@@ -135367,24 +135426,22 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Lam Research 주식: AI 제조 복잡성 및 설치 기반 성장(NASDAQ:LRCX) | Alpha Manimala Misra 찾기 팔로워 56명 팔로우 요약 Lam Research는 고급 카이에 대한 수요로 인해 장기적인 상승세가 예상되는 신중한 매수 등급을 받았습니다.",
-            "LRCX의 성장은 칩 복잡성 증가에 의해 뒷받침되며, 이로 인해 더 많은 처리 단계가 필요하고 장비 및 반복 서비스 수익이 모두 증가합니다.",
-            "~$340에 LRCX는 5년 평균보다 훨씬 높은 35.9배의 선도 EPS로 거래되므로 가치 평가에서는 이미 강력한 수익 성장을 예상하고 있습니다."
+            "Lam Research: AI Manufacturing Complexity And Installed-Base Growth Support A Cautious Buy",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $340,, 14%, 20% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "LRCX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -135394,25 +135451,18 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "LRCX에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 LRCX의 사업과 관련된 'Lam Research: AI Manufacturing Complexity And Installed-Base Growth Support A Cautious Buy' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "LRCX 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$340,",
-            "14%",
-            "20%"
-          ],
-          "sourceExcerpt": [
-            "Lam Research Stock: AI Manufacturing Complexity And Installed-Base Growth (NASDAQ:LRCX) | Seeking Alpha Manimala Misra 56 Followers Follow Summary Lam Research is rated a cautious Buy, with long-term upside driven by demand for advanced chi",
-            "LRCX's growth is underpinned by increasing chip complexity, which requires more processing steps and drives both equipment and recurring service revenue.",
-            "At ~$340, LRCX trades at 35.9x forward EPS—well above its five-year average—so valuation already anticipates robust earnings growth."
-          ],
-          "analysisUpdatedAt": 1791163517.8633287
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791188418.4198852
         }
       },
       {
@@ -135461,7 +135511,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791163519.3967946
+          "analysisUpdatedAt": 1791188420.7274559
         }
       },
       {
@@ -136918,17 +136968,16 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791163273.369934,
-    "_updated_label": "2026-10-05 10:25",
-    "_last_success_at": 1791163273.369934,
-    "_collection_status": "error",
+    "_fetched_at": 1791188397.1509974,
+    "_updated_label": "2026-10-05 17:20",
+    "_last_success_at": 1791188397.1509974,
+    "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
-    },
-    "_last_error": "The read operation timed out"
+      "updated": "2026-10-05 17:20"
+    }
   },
   "KLAC": {
     "_last_attempt_at": 1791186045.0120077,
@@ -138531,7 +138580,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "MU": {
@@ -145966,7 +146015,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "SNDK": {
@@ -151815,7 +151864,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 126,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "WDC": {
@@ -154998,7 +155047,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "ANET": {
@@ -157570,7 +157619,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "COHR": {
@@ -160368,7 +160417,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "LITE": {
@@ -162870,7 +162919,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "GEV": {
@@ -166720,7 +166769,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "CEG": {
@@ -169521,7 +169570,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "VST": {
@@ -171682,7 +171731,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "ETN": {
@@ -174194,7 +174243,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "PWR": {
@@ -176432,7 +176481,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "HUBB": {
@@ -177163,7 +177212,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "VRT": {
@@ -180149,7 +180198,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "MOD": {
@@ -181213,7 +181262,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "STX": {
@@ -183738,7 +183787,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "EME": {
@@ -185053,7 +185102,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "FIX": {
@@ -186204,7 +186253,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   },
   "BE": {
@@ -188103,7 +188152,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-05 16:48"
+      "updated": "2026-10-05 17:20"
     }
   }
 };
