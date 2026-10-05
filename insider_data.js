@@ -1751,12 +1751,12 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1791135186.2066405,
+    "_fetched_at": 1791209481.2732327,
     "_updated_label": "2026-10-05"
   },
   "ASML": {
     "transactions": [],
-    "_fetched_at": 1791136803.9856727,
+    "_fetched_at": 1791209481.2732327,
     "_updated_label": "2026-10-05"
   },
   "AMAT": {
@@ -1958,7 +1958,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791135186.2066405,
+    "_fetched_at": 1791209481.2732327,
     "_updated_label": "2026-10-05"
   },
   "MU": {
@@ -2622,7 +2622,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791135186.2066405,
+    "_fetched_at": 1791209481.2732327,
     "_updated_label": "2026-10-05"
   },
   "COHR": {
@@ -2866,7 +2866,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791135186.2066405,
+    "_fetched_at": 1791209481.2732327,
     "_updated_label": "2026-10-05"
   },
   "GEV": {
@@ -3297,7 +3297,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791136803.9856727,
+    "_fetched_at": 1791209481.2732327,
     "_updated_label": "2026-10-05"
   },
   "BE": {
