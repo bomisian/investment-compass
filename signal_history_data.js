@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791212429.6726253,
+  "generatedAt": 1791213407.7758257,
   "records": {
     "MSFT": [
       {
@@ -44183,6 +44183,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "VST": [
+      {
+        "changedAt": 1791213407.7758257,
+        "dataAsOf": 1791190192,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 3.5,
+            "after": 2.97
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 1.4,
+            "after": 0.87
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "분석가들이 Toshiba 생산 능력 확장에 대한 우려를 경시함에 따라 WDC, STX 주식은 시판 전 반등했습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=fea471596a434a6529956a6cea281f8f25a3bfaa554f1d8887fb1cd53a9f393b",
+        "eventId": "bb2b339ed8d047015cd6",
+        "fingerprint": "{\"changes\": [{\"after\": 2.97, \"before\": 3.5, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.87, \"before\": 1.4, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"bb2b339ed8d047015cd6\"}"
+      },
       {
         "changedAt": 1791209481.140676,
         "dataAsOf": 1791190192,

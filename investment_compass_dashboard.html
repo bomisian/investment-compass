@@ -564,6 +564,10 @@
 <script>document.write('<script src="drawdown_type_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 2026-09-29 신규(사용자 요청: 이쯤이면 나쁘지 않다/좀 높다 기준) -- 107_price_zone/build_107_price_zone.py가 매일 생성. -->
 <script>document.write('<script src="price_zone_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
+<!-- 2026-10-05 신규(사용자 요청: 가격 괴리의 원인 증거 -- 동종비교 위치/뉴스톤/EPS추세, 매수매도 신호 아님) -- relative_value_evidence_summary.py가 생성. ⚠️ 독립검토 전까지 DEPLOY_FILE_WHITELIST 미등록 -- 로컬에서만 로드되고 공개 GitHub Pages에는 파일 자체가 없어 onerror로 조용히 무시됨(의도된 동작, price_zone_data.js와 같은 처리). -->
+<script>document.write('<script src="relative_value_evidence_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
+<!-- 2026-10-05 신규(사용자 요청: 50/60일선 돌파가 좋은 확률 신호인지 조사 후 -- 확정 확률 신호 대신 "지금 장기추세 상태"를 보여주는 참고 지표로 설계) -- long_term_trend_regime.py가 생성. ⚠️ 독립검토 전까지 DEPLOY_FILE_WHITELIST 미등록(로컬 전용, 위와 동일 처리). -->
+<script>document.write('<script src="long_term_trend_regime_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 2026-09-29 신규: Smart Money(13F) -- 112_smart_money_view/build_112_smart_money_view.py가 매일 생성 -->
 <script>document.write('<script src="smart_money_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <script>document.write('<script src="smart_money_state.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>

@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791212429.6169333,
+  "generatedAt": 1791213407.7226374,
   "events": [
     {
       "id": "e6dfe852365b65e0e0c8",
@@ -1335,7 +1335,7 @@ const EVENT_DATA = {
       "schemaVersion": 1,
       "eventType": "earnings_result",
       "eventLabel": "실적 발표",
-      "primaryTicker": "VST",
+      "primaryTicker": "QQQ",
       "relatedTickers": [
         "QCOM",
         "QQQ",
@@ -1360,7 +1360,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=9a13f8742872fd1a2409dc41a364d59ce2b893949dca9c912bac8c56a3f1e6a9",
         "publishedAt": 1791189826,
-        "collectedAt": 1791208802.2121353
+        "collectedAt": 1791213388.8175483
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1370,11 +1370,11 @@ const EVENT_DATA = {
       ],
       "marketInterpretation": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $100, 5.25%, 4.79% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "VST의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "이번 기사에서 확인된 구체적 수치: 0.68%, 0.33%, 0.06% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
-        "VST에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+        "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
@@ -1386,12 +1386,12 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $100, 5.25%, 4.79% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "VST의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "이번 기사에서 확인된 구체적 수치: 0.68%, 0.33%, 0.06% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
-          "ticker": "VST",
+          "ticker": "QQQ",
           "direction": "확인 필요",
           "reason": "회사 실적과의 연결고리 확인",
           "basis": "analysis"
@@ -8989,7 +8989,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d04eae234e3a29ff64372c2c9007ab3075e1d99b0395ce2a635e928e33c28b0a",
         "publishedAt": 1790980139,
-        "collectedAt": 1791190304.3417792
+        "collectedAt": 1791213388.8175483
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15200,7 +15200,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bc8aa8f8dc7b1b729cc67078895996bac0600bf43adbaf273446fd9ed902bc59",
         "publishedAt": 1790921953,
-        "collectedAt": 1791190304.3417792
+        "collectedAt": 1791213388.8175483
       },
       "confirmedFacts": [],
       "reportedClaims": [
