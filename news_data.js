@@ -4185,7 +4185,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "SPY": {
@@ -9594,7 +9594,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 110,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "MSFT": {
@@ -17846,7 +17846,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "GOOGL": {
@@ -25847,7 +25847,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "AMZN": {
@@ -33771,7 +33771,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "META": {
@@ -41521,7 +41521,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "AAPL": {
@@ -49522,7 +49522,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "TSLA": {
@@ -57355,7 +57355,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "ORCL": {
@@ -65670,7 +65670,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "CRM": {
@@ -71171,7 +71171,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "PLTR": {
@@ -79547,7 +79547,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "NVDA": {
@@ -87173,11 +87173,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "AMD": {
-    "_last_attempt_at": 1791188397.1509974,
+    "_last_attempt_at": 1791211460.834829,
     "nextEarnings": {
       "date": "2026-11-02",
       "hour": "amc",
@@ -87187,33 +87187,31 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Stocktwits M&A Watch: Paramount-Warner Bros Combination, Skyworks-Qorvo Merger, AMD’s World Labs Acquisition In Focus",
+        "headline": "Nvidia and AMD just hit record highs, but tech stocks still look cheap",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=51eb55409c689d88e5bf97a1b9347d52f44cfa8e6dd45e6d8505406e0cf2a44a",
-        "datetime": 1791185489,
+        "url": "https://finnhub.io/api/news?id=6149b0bfa38034197020d39f5afd3f6b6e0f87c37b1df55880fdf557fc02dc4a",
+        "datetime": 1791208410,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Stocktwits M&A 보기: Paramount-Warner Bros 조합, Skyworks-Qorvo 합병, AMD의 World Labs 인수에 초점 AI 에이전트 동향 뉴스 수익 전체 DIA 0.09% SPY 0.10% QQQ 0.03% 동향 SDEV 19.11% CBRS 6.32% QCOM 2.96% AGEN 1.44% AM",
-            "Stocktwits M&A 보기: Paramount-Warner Bros 조합, Skyworks-Qorvo 합병, AMD의 World Labs 인수에 집중 초점을 맞춘 주요 거래 중에는 Paramount Skydance와 Warner Bros가 있습니다.",
-            "Discovery의 합병, Skyworks와 Qorvo의 합병, Advanced Micro Devices의 World Labs 인수."
+            "Nvidia and AMD just hit record highs, but tech stocks still look cheap",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.09%, 0.10%, 0.03% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -87223,38 +87221,26 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "AMD에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'Nvidia and AMD just hit record highs, but tech stocks still look cheap' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.09%",
-            "0.10%",
-            "0.03%",
-            "19.11%",
-            "6.32%",
-            "2.96%",
-            "1.44%",
-            "0.19%"
-          ],
-          "sourceExcerpt": [
-            "Stocktwits M&A Watch: Paramount-Warner Bros Combination, Skyworks-Qorvo Merger, AMD’s World Labs Acquisition In Focus AI Agent Trending News Earnings All DIA 0.09% SPY 0.10% QQQ 0.03% Trending SDEV 19.11% CBRS 6.32% QCOM 2.96% AGEN 1.44% AM",
-            "Stocktwits M&A Watch: Paramount-Warner Bros Combination, Skyworks-Qorvo Merger, AMD’s World Labs Acquisition In Focus Among the major deals in focus are Paramount Skydance and Warner Bros.",
-            "Discovery’s merger, Skyworks and Qorvo’s combination, and Advanced Micro Devices’ acquisition of World Labs."
-          ],
-          "analysisUpdatedAt": 1791188406.3036973
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791211467.8086355
         },
-        "headlineKo": "Stocktwits M&A 보기: Paramount-Warner Bros 조합, Skyworks-Qorvo 합병, AMD의 World Labs 인수에 초점"
+        "headlineKo": "Nvidia와 AMD는 사상 최고치를 경신했지만 기술주는 여전히 저렴해 보입니다."
       },
       {
-        "headline": "AMD’s $8.2 Billion AI Bet Comes With a $1 Trillion Valuation Problem",
+        "headline": "Visual Computing Market Report 2026: Global Size, Share, Trends and Growth Forecast to 2030 | Capitalize on AI, Real-Time 3D and AR/VR with NVIDIA, Apple, Microsoft and AMD",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3095b2198571f5d5345e9484bceca72e67887a00e256c185125648fad63eab33",
-        "datetime": 1791140519,
+        "url": "https://finnhub.io/api/news?id=ee5cd25b7c93703fe137f69b98dcb799d0bdbc856fc121d8db2b24643fafac11",
+        "datetime": 1791207420,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
@@ -87308,39 +87294,39 @@ const NEWS_DATA = {
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
           ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD’s $8.2 Billion AI Bet Comes With a $1 Trillion Valuation Problem' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'Visual Computing Market Report 2026: Global Size, Share, Trends and Growth Forecast to 2030 | Capitalize on AI, Real-Time 3D and AR/VR with NVIDIA, Apple, Microsoft and AMD' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "현재 해석: AMD에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
           "relevance": 1,
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791188408.4024
+          "analysisUpdatedAt": 1791211469.9228036
         },
-        "headlineKo": "AMD의 82억 달러 AI 베팅에는 1조 달러 가치 평가 문제가 발생함"
+        "headlineKo": "비주얼 컴퓨팅 시장 보고서 2026: 2030년까지 글로벌 규모, 점유율, 추세 및 성장 예측 | NVIDIA, Apple, Microsoft 및 AMD를 통해 AI, 실시간 3D 및 AR/VR 활용"
       },
       {
-        "headline": "AMD Reaches a $1 Trillion Market Cap. Can It Finally Dethrone Nvidia?",
+        "headline": "Intel Drops 4% as Elon Musk Signals Taiwan Semiconductor Could Join Terafab; AMD Slips, NVIDIA Holds Steady",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=bae7a93eb6b04eb4b5fa2d54195e40991a4a3e68fd7843807c8afad69ffd94b1",
-        "datetime": 1791120840,
+        "url": "https://finnhub.io/api/news?id=49d0805dfcac39242942c0f980cec058d5f35d3223e05b6f8182c978fd94bd6b",
+        "datetime": 1791203662,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "medium",
-          "tone": "positive",
+          "tone": "risk",
           "certainty": "본문 기반 간이 분석",
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AMD는 시가총액 1조 달러에 도달했습니다.",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 합류하세요 AMD( AMD +2.95% )는 놀라운 한 해를 보냈습니다.",
-            "이 주식은 올해 현재까지 거의 200% 상승한 S&P 500( ^GSPC +0.73% ) 주식 중 9위를 기록하고 있습니다."
+            "Elon Musk가 대만 반도체가 Terafab에 합류할 수 있다는 신호를 보내면서 Intel은 4% 하락했습니다. AMD 전표, NVIDIA는 꾸준한 유지 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,753.90 +0.32% Dow Jones 51,067.60 −0.32% Nasdaq 100 30,982.80 +0.50% Russell 2000 2,834.54 −0.06% S&P 500 7,753.90 +0.32% 다우존스 51,067.60 −0.32% 나스닥 100 30,982.80 +0.50% 러셀 2000 2,834.54 −0.",
+            "작성자 David Moadel 2026년 10월 5일 오전 8시 34분(ET) 게시 · 3분 읽기 Market Movers 데스크."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $1 Trillion, $1 trillion, 1.34% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 4%, $114.52,, $628.89, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -87364,43 +87350,43 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "$1 Trillion",
-            "$1 trillion",
-            "1.34%",
-            "$5.5 trillion",
-            "2.95 %",
-            "$ 18.18",
-            "$ 633.91",
-            "$1.0"
+            "4%",
+            "$114.52,",
+            "$628.89,",
+            "0.8%",
+            "0.5%",
+            "0.7%",
+            "0.2%",
+            "$293 million"
           ],
           "sourceExcerpt": [
-            "AMD Reaches a $1 Trillion Market Cap.",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool AMD ( AMD +2.95% ) has had an incredible year.",
-            "It's the ninth-best-performing S&P 500 ( ^GSPC +0.73% ) stock, rising nearly 200% so far this year."
+            "Intel Drops 4% as Elon Musk Signals Taiwan Semiconductor Could Join Terafab; AMD Slips, NVIDIA Holds Steady - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,753.90 +0.32% Dow Jones 51,067.60 −0.32% Nasdaq 100 30,982.80 +0.50% Russell 2000 2,834.54 −0.06% S&P 500 7,753.90 +0.32% Dow Jones 51,067.60 −0.32% Nasdaq 100 30,982.80 +0.50% Russell 2000 2,834.54 −0.",
+            "By David Moadel Published October 5, 2026, 8:34am ET · 3 min read Market Movers desk."
           ],
-          "analysisUpdatedAt": 1791188411.4068003
+          "analysisUpdatedAt": 1791211478.071563
         },
-        "headlineKo": "AMD는 시가총액 1조 달러에 도달했습니다. 마침내 엔비디아를 무너뜨릴 수 있을까?"
+        "headlineKo": "Elon Musk가 대만 반도체가 Terafab에 합류할 수 있다는 신호를 보내면서 Intel은 4% 하락했습니다. AMD 전표, NVIDIA는 꾸준함 유지"
       },
       {
-        "headline": "Is Advanced Micro Devices (AMD) Still a Buy After Its 180% Plus Rally?",
+        "headline": "Zacks Investment Ideas feature highlights: Arm Holdings, Advanced Micro Devices, Marvell, Applied Optoelectronics and Nebius",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=98a65a4946a43ee3628e62e6219d8198d4fd6e4ab71fab2a544fd96439eaf1a4",
-        "datetime": 1791074570,
+        "url": "https://finnhub.io/api/news?id=be79c6548e2e6ca178d7ec8b86255da7a8c548ebd10ff7826947ca5c18473794",
+        "datetime": 1791201660,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Zacks 투자 아이디어 주요 특징: Arm Holdings, Advanced Micro Devices, Marvell, Applied Optoelectronics 및 Nebius"
+      },
+      {
+        "headline": "Meet the Low-Cost Vanguard ETF With 32.4% Invested in Nvidia, Broadcom, Micron, AMD, Intel, and Lam Research, While VOO Has Just 14.8%.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b0cf215ea487392e67e586be62096cb6b8d47e93ddaf02471c8e9a3ec0ce5353",
+        "datetime": 1791197400,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "AMD(Advanced Micro Devices)는 180% 플러스 상승 이후에도 여전히 매수세를 보이고 있습니까?"
-      },
-      {
-        "headline": "Can AMD’s CPU Business Fund Its AI Chip Ambitions?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a7bfaeadebd575188d152c345c9fbabf0175dc885806bf3cd3c62091296909a6",
-        "datetime": 1791040956,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "AMD의 CPU 사업이 AI 칩 야망에 자금을 지원할 수 있습니까?"
+        "headlineKo": "Nvidia, Broadcom, Micron, AMD, Intel 및 Lam Research에 32.4%를 투자한 반면 VOO는 14.8%에 불과한 저비용 Vanguard ETF를 만나보세요."
       },
       {
         "headline": "AMD: The AI Momentum Train Looks Unstoppable, But I'm Pausing Accumulation (Downgrade)",
@@ -87416,6 +87402,203 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Nvidia and AMD just hit record highs, but tech stocks still look cheap",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6149b0bfa38034197020d39f5afd3f6b6e0f87c37b1df55880fdf557fc02dc4a",
+        "datetime": 1791208410,
+        "headlineKo": "Nvidia와 AMD는 사상 최고치를 경신했지만 기술주는 여전히 저렴해 보입니다.",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nvidia and AMD just hit record highs, but tech stocks still look cheap",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'Nvidia and AMD just hit record highs, but tech stocks still look cheap' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791211467.8086355
+        }
+      },
+      {
+        "headline": "Visual Computing Market Report 2026: Global Size, Share, Trends and Growth Forecast to 2030 | Capitalize on AI, Real-Time 3D and AR/VR with NVIDIA, Apple, Microsoft and AMD",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ee5cd25b7c93703fe137f69b98dcb799d0bdbc856fc121d8db2b24643fafac11",
+        "datetime": 1791207420,
+        "headlineKo": "비주얼 컴퓨팅 시장 보고서 2026: 2030년까지 글로벌 규모, 점유율, 추세 및 성장 예측 | NVIDIA, Apple, Microsoft 및 AMD를 통해 AI, 실시간 3D 및 AR/VR 활용",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'Visual Computing Market Report 2026: Global Size, Share, Trends and Growth Forecast to 2030 | Capitalize on AI, Real-Time 3D and AR/VR with NVIDIA, Apple, Microsoft and AMD' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMD에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791211469.9228036
+        }
+      },
+      {
+        "headline": "Intel Drops 4% as Elon Musk Signals Taiwan Semiconductor Could Join Terafab; AMD Slips, NVIDIA Holds Steady",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=49d0805dfcac39242942c0f980cec058d5f35d3223e05b6f8182c978fd94bd6b",
+        "datetime": 1791203662,
+        "headlineKo": "Elon Musk가 대만 반도체가 Terafab에 합류할 수 있다는 신호를 보내면서 Intel은 4% 하락했습니다. AMD 전표, NVIDIA는 꾸준함 유지",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Elon Musk가 대만 반도체가 Terafab에 합류할 수 있다는 신호를 보내면서 Intel은 4% 하락했습니다. AMD 전표, NVIDIA는 꾸준한 유지 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,753.90 +0.32% Dow Jones 51,067.60 −0.32% Nasdaq 100 30,982.80 +0.50% Russell 2000 2,834.54 −0.06% S&P 500 7,753.90 +0.32% 다우존스 51,067.60 −0.32% 나스닥 100 30,982.80 +0.50% 러셀 2000 2,834.54 −0.",
+            "작성자 David Moadel 2026년 10월 5일 오전 8시 34분(ET) 게시 · 3분 읽기 Market Movers 데스크."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 4%, $114.52,, $628.89, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "AMD에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "4%",
+            "$114.52,",
+            "$628.89,",
+            "0.8%",
+            "0.5%",
+            "0.7%",
+            "0.2%",
+            "$293 million"
+          ],
+          "sourceExcerpt": [
+            "Intel Drops 4% as Elon Musk Signals Taiwan Semiconductor Could Join Terafab; AMD Slips, NVIDIA Holds Steady - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,753.90 +0.32% Dow Jones 51,067.60 −0.32% Nasdaq 100 30,982.80 +0.50% Russell 2000 2,834.54 −0.06% S&P 500 7,753.90 +0.32% Dow Jones 51,067.60 −0.32% Nasdaq 100 30,982.80 +0.50% Russell 2000 2,834.54 −0.",
+            "By David Moadel Published October 5, 2026, 8:34am ET · 3 min read Market Movers desk."
+          ],
+          "analysisUpdatedAt": 1791211478.071563
+        }
+      },
+      {
+        "headline": "Zacks Investment Ideas feature highlights: Arm Holdings, Advanced Micro Devices, Marvell, Applied Optoelectronics and Nebius",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=be79c6548e2e6ca178d7ec8b86255da7a8c548ebd10ff7826947ca5c18473794",
+        "datetime": 1791201660,
+        "headlineKo": "Zacks 투자 아이디어 주요 특징: Arm Holdings, Advanced Micro Devices, Marvell, Applied Optoelectronics 및 Nebius",
+        "relevance": 0.4,
+        "keywordFlag": false
+      },
+      {
+        "headline": "Meet the Low-Cost Vanguard ETF With 32.4% Invested in Nvidia, Broadcom, Micron, AMD, Intel, and Lam Research, While VOO Has Just 14.8%.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b0cf215ea487392e67e586be62096cb6b8d47e93ddaf02471c8e9a3ec0ce5353",
+        "datetime": 1791197400,
+        "headlineKo": "Nvidia, Broadcom, Micron, AMD, Intel 및 Lam Research에 32.4%를 투자한 반면 VOO는 14.8%에 불과한 저비용 Vanguard ETF를 만나보세요.",
+        "relevance": 1,
+        "keywordFlag": false
+      },
       {
         "headline": "Stocktwits M&A Watch: Paramount-Warner Bros Combination, Skyworks-Qorvo Merger, AMD’s World Labs Acquisition In Focus",
         "source": "Yahoo",
@@ -94950,267 +95133,17 @@ const NEWS_DATA = {
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789725396.7479792
         }
-      },
-      {
-        "headline": "INTC, AMD, MU, NVDA: Chip Stocks Rally As Investors Look Past AI Concerns",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4378b14402c47dbc455970d39bb38bbfedfbccf4e3f2090f555da41e4070bf03",
-        "datetime": 1789697824,
-        "headlineKo": "INTC, AMD, MU, NVDA: 투자자들이 AI에 대한 우려를 지나치면서 칩 주가 상승",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "mixed",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.09%, 0.20%, 0.38%, 2.64%, 0.95%, 23.94%, 1.18%, 0.02%.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'INTC, AMD, MU, NVDA: Chip Stocks Rally As Investors Look Past AI Concerns' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: AMD에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
-          "relevance": 1,
-          "quality": "high",
-          "verifiedNumbers": [
-            "0.09%",
-            "0.20%",
-            "0.38%",
-            "2.64%",
-            "0.95%",
-            "23.94%",
-            "1.18%",
-            "0.02%"
-          ],
-          "sourceExcerpt": [
-            "INTC, AMD, MU, NVDA: Chip Stocks Rally As Investors Look Past AI Concerns New Connect your Agent Trending News Earnings All DIA 0.09% SPY 0.20% QQQ 0.38% Trending NFLX 2.64% RARE 0.95% NEAR 23.94% GNRC 1.18% USDE 0.02% RYCEY 1.62% AMD 0.87%",
-            "INTC, AMD, MU, NVDA: Chip Stocks Rally As Investors Look Past AI Concerns Investors move past worries that AI firms’ calls for a slowdown in development risk the AI infrastructure trade.",
-            "The Intel logo is displayed on a smartphone screen with the Nvidia logo in the background."
-          ],
-          "analysisUpdatedAt": 1789725397.849778
-        }
-      },
-      {
-        "headline": "Dow Jones Futures Fall After S&P 500, Nasdaq Rebound Above Key Level; Moderna, AMD, SpaceX Flash Buy Signals",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=bed0ef3889913874d68a6e92a2b05cc58de8c0d87d9dfc9067a9693b32aad3e1",
-        "datetime": 1789692170,
-        "headlineKo": "다우존스 선물은 S&P 500 이후 하락하고 나스닥은 주요 수준 위로 반등했습니다. Moderna, AMD, SpaceX Flash 구매 신호",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Dow Jones Futures Fall After S&P 500, Nasdaq Rebound Above Key Level; Moderna, AMD, SpaceX Flash Buy Signals",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'Dow Jones Futures Fall After S&P 500, Nasdaq Rebound Above Key Level; Moderna, AMD, SpaceX Flash Buy Signals' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789725399.8287923
-        }
-      },
-      {
-        "headline": "Why AMD Stock Jumped Today",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6ca728467ad9a8e86ec84b2fa20d5f713983b1a5046d05c9cb80ec65d6a8b5d4",
-        "datetime": 1789688149,
-        "headlineKo": "오늘 AMD 주식이 급등한 이유",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "오늘 AMD 주식이 급등한 이유 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices( AMD +6.36% ) 9월 9일 목요일 주가는 6.3% 상승했습니다.",
-            "2026년 11월 17일, 네오클라우드 운영자가 스택 전반에 걸쳐 칩 사용에 대한 가격 인상이 다가오고 있다고 말한 후 AMD CPU가 상당한 상승을 보였습니다.",
-            "목요일 S&P 500 지수와 나스닥 종합지수는 각각 1.1%, 1.7% 상승했습니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 6.36 %, $ 32.59, $ 545.09 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "AMD에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "6.36 %",
-            "$ 32.59",
-            "$ 545.09",
-            "$837",
-            "$ 527.60",
-            "$ 551.42",
-            "$ 149.85",
-            "$ 584.73"
-          ],
-          "sourceExcerpt": [
-            "Why AMD Stock Jumped Today | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices ( AMD +6.36% ) stock rose 6.3% on Thursday, Sept.",
-            "17, 2026, after a neocloud operator said a price hike was coming for the use of chips across its stack, with AMD CPUs seeing a substantial bump.",
-            "The S&P 500 and the Nasdaq Composite rose 1.1% and 1.7%, respectively, on Thursday."
-          ],
-          "analysisUpdatedAt": 1789703202.4287708
-        }
-      },
-      {
-        "headline": "Vishay Intertechnology, Allegro MicroSystems, Himax, Bandwidth, and AMD Stocks Trade Up, What You Need To Know",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=40541b5362e89066be6b9be8f65d52b48d2f63f1445ec8d1deb61511cf8baf07",
-        "datetime": 1789680137,
-        "headlineKo": "Vishay Intertechnology, Allegro MicroSystems, Himax, Bandwidth 및 AMD 주식 거래, 알아야 할 사항",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Vishay Intertechnology, Allegro MicroSystems, Himax, Bandwidth, and AMD Stocks Trade Up, What You Need To Know",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'Vishay Intertechnology, Allegro MicroSystems, Himax, Bandwidth, and AMD Stocks Trade Up, What You Need To Know' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789703204.4517741
-        }
-      },
-      {
-        "headline": "AMD Leads Chip Stocks Higher Amid Sector Rebound",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f7e5f475b95851d773471f5cbf6e362b22313656ba53e056ed65a9cbaf9ffda2",
-        "datetime": 1789676519,
-        "headlineKo": "AMD, 부문 반등 속에 칩 주식 상승 주도",
-        "relevance": 1,
-        "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791188397.1509974,
-    "_updated_label": "2026-10-05 17:20",
-    "_last_success_at": 1791188397.1509974,
+    "_fetched_at": 1791211460.834829,
+    "_updated_label": "2026-10-05 23:44",
+    "_last_success_at": 1791211460.834829,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "AVGO": {
@@ -102120,7 +102053,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 139,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "QCOM": {
@@ -107465,7 +107398,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 118,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "ARM": {
@@ -111597,7 +111530,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "MRVL": {
@@ -117119,7 +117052,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 115,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "INTC": {
@@ -124868,7 +124801,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 178,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "TSM": {
@@ -129744,7 +129677,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "ASML": {
@@ -132815,7 +132748,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "AMAT": {
@@ -136295,11 +136228,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "LRCX": {
-    "_last_attempt_at": 1791188397.1509974,
+    "_last_attempt_at": 1791211460.834829,
     "nextEarnings": {
       "date": "2026-10-21",
       "hour": "",
@@ -136308,6 +136241,120 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "AI Drives Storage Demand: Will It Boost Lam Research's NAND Growth?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=43012b03433056784800db6371d0c4db085892c979a4a7286470686a1ac003f7",
+        "datetime": 1791204300,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AI Drives Storage Demand: Will It Boost Lam Research's NAND Growth?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "LRCX",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 LRCX의 사업과 관련된 'AI Drives Storage Demand: Will It Boost Lam Research's NAND Growth?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "LRCX 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791211485.2157006
+        },
+        "headlineKo": "AI가 스토리지 수요 촉진: Lam Research의 NAND 성장을 촉진할 것인가?"
+      },
+      {
+        "headline": "Meet the Low-Cost Vanguard ETF With 32.4% Invested in Nvidia, Broadcom, Micron, AMD, Intel, and Lam Research, While VOO Has Just 14.8%.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b0cf215ea487392e67e586be62096cb6b8d47e93ddaf02471c8e9a3ec0ce5353",
+        "datetime": 1791197400,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nvidia, Broadcom, Micron, AMD, Intel 및 Lam Research에 32.4%를 투자한 반면 VOO는 14.8%에 불과한 저비용 Vanguard ETF를 만나보세요.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool OpenAI가 2022년 11월 ChatGPT를 대중에게 공개하기 전에도 기술은 S&P 500에서 단연 가장 가치 있는 부문이었습니다(",
+            "인공지능(AI) 붐은 S&P 500의 집중된 기술 부문 노출을 완전히 새로운 수준으로 끌어올렸습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 32.4%, 14.8%, 90% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "LRCX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "LRCX",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "LRCX에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "32.4%",
+            "14.8%",
+            "90%",
+            "8.9%",
+            "0.65%",
+            "42%",
+            "1.25%",
+            "1.25 %"
+          ],
+          "sourceExcerpt": [
+            "Meet the Low-Cost Vanguard ETF With 32.4% Invested in Nvidia, Broadcom, Micron, AMD, Intel, and Lam Research, While VOO Has Just 14.8%.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Even before OpenAI released ChatGPT to the public in November 2022, technology was by far the most valuable sector in the S&P 500 (",
+            "The artificial intelligence (AI) boom has taken the S&P 500's concentrated technology sector exposure to a whole new level."
+          ],
+          "analysisUpdatedAt": 1791211487.6077838
+        },
+        "headlineKo": "Nvidia, Broadcom, Micron, AMD, Intel 및 Lam Research에 32.4%를 투자한 반면 VOO는 14.8%에 불과한 저비용 Vanguard ETF를 만나보세요."
+      },
       {
         "headline": "What is Lam Research’s (LRCX) Economic Moat, and is it Widening or Narrowing?",
         "source": "Yahoo",
@@ -136354,7 +136401,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791188417.0655868
+          "analysisUpdatedAt": 1791211497.691895
         },
         "headlineKo": "Lam Research(LRCX)의 경제적 해자는 무엇이며, 확대되거나 축소되고 있습니까?"
       },
@@ -136366,46 +136413,6 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "positive",
-          "certainty": "본문 확인 필요",
-          "label": "실적·수요 개선 가능성",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Lam Research: AI Manufacturing Complexity And Installed-Base Growth Support A Cautious Buy",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "LRCX",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 LRCX의 사업과 관련된 'Lam Research: AI Manufacturing Complexity And Installed-Base Growth Support A Cautious Buy' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "LRCX 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791188418.4198852
-        },
         "headlineKo": "Lam Research: AI 제조 복잡성 및 설치 기반 성장으로 인해 신중한 구매 지원"
       },
       {
@@ -136416,15 +136423,27 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "Analog Devices, AMD, KLA Corporation, Lam Research 및 Marvell Technology 주식 거래, 알아야 할 사항"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "AI Drives Storage Demand: Will It Boost Lam Research's NAND Growth?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=43012b03433056784800db6371d0c4db085892c979a4a7286470686a1ac003f7",
+        "datetime": 1791204300,
+        "headlineKo": "AI가 스토리지 수요 촉진: Lam Research의 NAND 성장을 촉진할 것인가?",
+        "relevance": 0.67,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "low",
-          "tone": "neutral",
+          "tone": "positive",
           "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "label": "실적·수요 개선 가능성",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Analog Devices, AMD, KLA Corporation, Lam Research, and Marvell Technology Stocks Trade Up, What You Need To Know",
+            "AI Drives Storage Demand: Will It Boost Lam Research's NAND Growth?",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -136448,38 +136467,78 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 LRCX의 사업과 관련된 'Analog Devices, AMD, KLA Corporation, Lam Research, and Marvell Technology Stocks Trade Up, What You Need To Know' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 LRCX의 사업과 관련된 'AI Drives Storage Demand: Will It Boost Lam Research's NAND Growth?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "LRCX 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.67,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791188420.7274559
-        },
-        "headlineKo": "Analog Devices, AMD, KLA Corporation, Lam Research 및 Marvell Technology 주식 거래, 알아야 할 사항"
+          "analysisUpdatedAt": 1791211485.2157006
+        }
       },
       {
-        "headline": "Lam Research (LRCX) Outpaces Stock Market Gains: What You Should Know",
+        "headline": "Meet the Low-Cost Vanguard ETF With 32.4% Invested in Nvidia, Broadcom, Micron, AMD, Intel, and Lam Research, While VOO Has Just 14.8%.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1f7a4827465a5a882ec3e1d889725df641123d4f9d2d1e4db6df5dd9733480b3",
-        "datetime": 1790974205,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Lam Research(LRCX)가 주식 시장 이익을 능가합니다: 알아야 할 사항"
-      },
-      {
-        "headline": "Lam Research: This Rally Has Legs (Earnings Preview)",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=671cd27a3c56758f631b5b37cc4bbdcde20aad7e6e997e3035b4405771f0b4b7",
-        "datetime": 1790954576,
+        "url": "https://finnhub.io/api/news?id=b0cf215ea487392e67e586be62096cb6b8d47e93ddaf02471c8e9a3ec0ce5353",
+        "datetime": 1791197400,
+        "headlineKo": "Nvidia, Broadcom, Micron, AMD, Intel 및 Lam Research에 32.4%를 투자한 반면 VOO는 14.8%에 불과한 저비용 Vanguard ETF를 만나보세요.",
         "relevance": 0.67,
         "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Lam Research: 이번 랠리는 유효합니다(수익 미리보기)"
-      }
-    ],
-    "newsHistory": [
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nvidia, Broadcom, Micron, AMD, Intel 및 Lam Research에 32.4%를 투자한 반면 VOO는 14.8%에 불과한 저비용 Vanguard ETF를 만나보세요.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool OpenAI가 2022년 11월 ChatGPT를 대중에게 공개하기 전에도 기술은 S&P 500에서 단연 가장 가치 있는 부문이었습니다(",
+            "인공지능(AI) 붐은 S&P 500의 집중된 기술 부문 노출을 완전히 새로운 수준으로 끌어올렸습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 32.4%, 14.8%, 90% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "LRCX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "LRCX",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "LRCX에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "32.4%",
+            "14.8%",
+            "90%",
+            "8.9%",
+            "0.65%",
+            "42%",
+            "1.25%",
+            "1.25 %"
+          ],
+          "sourceExcerpt": [
+            "Meet the Low-Cost Vanguard ETF With 32.4% Invested in Nvidia, Broadcom, Micron, AMD, Intel, and Lam Research, While VOO Has Just 14.8%.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Even before OpenAI released ChatGPT to the public in November 2022, technology was by far the most valuable sector in the S&P 500 (",
+            "The artificial intelligence (AI) boom has taken the S&P 500's concentrated technology sector exposure to a whole new level."
+          ],
+          "analysisUpdatedAt": 1791211487.6077838
+        }
+      },
       {
         "headline": "What is Lam Research’s (LRCX) Economic Moat, and is it Widening or Narrowing?",
         "source": "Yahoo",
@@ -136526,7 +136585,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791188417.0655868
+          "analysisUpdatedAt": 1791211497.691895
         }
       },
       {
@@ -138081,15 +138140,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791188397.1509974,
-    "_updated_label": "2026-10-05 17:20",
-    "_last_success_at": 1791188397.1509974,
+    "_fetched_at": 1791211460.834829,
+    "_updated_label": "2026-10-05 23:44",
+    "_last_success_at": 1791211460.834829,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 39,
+      "checked": 41,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "KLAC": {
@@ -139693,7 +139752,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "MU": {
@@ -147122,7 +147181,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "SNDK": {
@@ -153048,7 +153107,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 127,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "WDC": {
@@ -156357,7 +156416,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "ANET": {
@@ -158929,7 +158988,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "COHR": {
@@ -161727,7 +161786,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "LITE": {
@@ -164229,7 +164288,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "GEV": {
@@ -168079,7 +168138,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "CEG": {
@@ -170943,7 +171002,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "VST": {
@@ -173283,7 +173342,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "ETN": {
@@ -175795,7 +175854,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "PWR": {
@@ -178025,7 +178084,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "HUBB": {
@@ -178756,7 +178815,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "VRT": {
@@ -181742,7 +181801,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "MOD": {
@@ -182806,7 +182865,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "STX": {
@@ -185520,7 +185579,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "EME": {
@@ -186835,7 +186894,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "FIX": {
@@ -187986,7 +188045,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   },
   "BE": {
@@ -189885,7 +189944,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-05 23:13"
+      "updated": "2026-10-05 23:44"
     }
   }
 };

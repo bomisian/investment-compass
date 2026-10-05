@@ -1,8 +1,118 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791209611.088206,
+  "generatedAt": 1791211501.542114,
   "events": [
+    {
+      "id": "e6dfe852365b65e0e0c8",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "AMD",
+      "relatedTickers": [
+        "AAPL",
+        "AMD",
+        "MSFT",
+        "MU",
+        "NVDA",
+        "ORCL"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Apple",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        },
+        {
+          "name": "Microsoft",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        },
+        {
+          "name": "NVIDIA",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "중기 투자 사이클",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Visual Computing Market Report 2026: Global Size, Share, Trends and Growth Forecast to 2030 | Capitalize on AI, Real-Time 3D and AR/VR with NVIDIA, Apple, Microsoft and AMD",
+      "headlineKo": "비주얼 컴퓨팅 시장 보고서 2026: 2030년까지 글로벌 규모, 점유율, 추세 및 성장 예측 | NVIDIA, Apple, Microsoft 및 AMD를 통해 AI, 실시간 3D 및 AR/VR 활용",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ee5cd25b7c93703fe137f69b98dcb799d0bdbc856fc121d8db2b24643fafac11",
+        "publishedAt": 1791207420,
+        "collectedAt": 1791211460.834829
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+        "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+        "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+      ],
+      "marketInterpretation": [
+        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+      ],
+      "aiInference": [
+        "이 기사는 AMD의 사업과 관련된 'Visual Computing Market Report 2026: Global Size, Share, Trends and Growth Forecast to 2030 | Capitalize on AI, Real-Time 3D and AR/VR with NVIDIA, Apple, Microsoft and AMD' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+        "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+        "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+      ],
+      "whyItMatters": [
+        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "긍정",
+          "reason": "AI 컴퓨팅 수요 확대 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "AMD",
+          "direction": "긍정",
+          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "MU",
+          "direction": "긍정",
+          "reason": "AI 서버 메모리 수요와 가격 강세",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "ORCL",
+          "direction": "혼합",
+          "reason": "클라우드 수요와 자본 부담 동시 확대",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 수주·가동 데이터센터",
+        "관련 기업 매출·수주잔고",
+        "CAPEX 대비 영업현금흐름",
+        "금리와 프로젝트 부채 비용"
+      ]
+    },
     {
       "id": "35f5dedfde55acd84070",
       "schemaVersion": 1,
@@ -75,6 +185,91 @@ const EVENT_DATA = {
         "매출·영업이익 성장",
         "정상화이익과 특이항목",
         "가이던스·OCF·FCF"
+      ]
+    },
+    {
+      "id": "bcd59098a90f7c99b244",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "AMD",
+      "relatedTickers": [
+        "AMD",
+        "INTC",
+        "NVDA",
+        "QQQ",
+        "SPY",
+        "TSM"
+      ],
+      "relatedEntities": [
+        {
+          "name": "NVIDIA",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        },
+        {
+          "name": "Intel",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Intel Drops 4% as Elon Musk Signals Taiwan Semiconductor Could Join Terafab; AMD Slips, NVIDIA Holds Steady",
+      "headlineKo": "Elon Musk가 대만 반도체가 Terafab에 합류할 수 있다는 신호를 보내면서 Intel은 4% 하락했습니다. AMD 전표, NVIDIA는 꾸준함 유지",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=49d0805dfcac39242942c0f980cec058d5f35d3223e05b6f8182c978fd94bd6b",
+        "publishedAt": 1791203662,
+        "collectedAt": 1791211460.834829
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Elon Musk가 대만 반도체가 Terafab에 합류할 수 있다는 신호를 보내면서 Intel은 4% 하락했습니다. AMD 전표, NVIDIA는 꾸준한 유지 - 24/7 Wall St.",
+        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,753.90 +0.32% Dow Jones 51,067.60 −0.32% Nasdaq 100 30,982.80 +0.50% Russell 2000 2,834.54 −0.06% S&P 500 7,753.90 +0.32% 다우존스 51,067.60 −0.32% 나스닥 100 30,982.80 +0.50% 러셀 2000 2,834.54 −0.",
+        "작성자 David Moadel 2026년 10월 5일 오전 8시 34분(ET) 게시 · 3분 읽기 Market Movers 데스크."
+      ],
+      "marketInterpretation": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 4%, $114.52,, $628.89, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "AMD에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 4%, $114.52,, $628.89, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AMD",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 CAPEX 집행",
+        "공급업체 수주·매출",
+        "투자 기업 OCF·FCF·부채"
       ]
     },
     {
@@ -1527,7 +1722,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=51eb55409c689d88e5bf97a1b9347d52f44cfa8e6dd45e6d8505406e0cf2a44a",
         "publishedAt": 1791185489,
-        "collectedAt": 1791188397.1509974
+        "collectedAt": 1791211460.834829
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2999,7 +3194,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3095b2198571f5d5345e9484bceca72e67887a00e256c185125648fad63eab33",
         "publishedAt": 1791140519,
-        "collectedAt": 1791188397.1509974
+        "collectedAt": 1791211460.834829
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6651,7 +6846,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a7bfaeadebd575188d152c345c9fbabf0175dc885806bf3cd3c62091296909a6",
         "publishedAt": 1791040956,
-        "collectedAt": 1791188397.1509974
+        "collectedAt": 1791211460.834829
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8483,7 +8678,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a3ec4a78d686a99c53adbedae0b4aa1d97e7cf22db5a37eeee6689151025dbc3",
         "publishedAt": 1790988602,
-        "collectedAt": 1791188397.1509974
+        "collectedAt": 1791211460.834829
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9629,7 +9824,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=77a81e189fc5320c28347b74d6b0f6ca9197b2b4b4f2b7443888b790916d2c5a",
         "publishedAt": 1790967777,
-        "collectedAt": 1791188397.1509974
+        "collectedAt": 1791211460.834829
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10687,7 +10882,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ec2cfaeaf725b9907870fd3d232e71b92c36bcdff69e4ca75c3ba31173954db1",
         "publishedAt": 1790958620,
-        "collectedAt": 1791188397.1509974
+        "collectedAt": 1791211460.834829
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11403,8 +11598,8 @@ const EVENT_DATA = {
         "kind": "reported",
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
+      "direction": "neutral",
+      "expectedHorizon": "다음 실적까지 확인",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Lam Research: This Rally Has Legs (Earnings Preview)",
@@ -11413,34 +11608,45 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=671cd27a3c56758f631b5b37cc4bbdcde20aad7e6e997e3035b4405771f0b4b7",
         "publishedAt": 1790954576,
-        "collectedAt": 1791188397.1509974
+        "collectedAt": 1791211460.834829
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Lam Research: 이번 랠리는 유효합니다(수익 미리보기)"
+        "Lam Research: This Rally Has Legs (Earnings Preview)",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
       ],
-      "marketInterpretation": [],
+      "marketInterpretation": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "LRCX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
       "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+        "LRCX에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
       ],
       "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+        "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
       ],
       "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "LRCX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
           "ticker": "LRCX",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
         }
       ],
-      "watch": []
+      "watch": [
+        "매출·영업이익 성장",
+        "정상화이익과 특이항목",
+        "가이던스·OCF·FCF"
+      ]
     },
     {
       "id": "fb9eaffaf3048fc83767",
@@ -16828,7 +17034,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bfab893cbdad513869c723262909369260c2ca0e76dd1c8da9690133180b48c4",
         "publishedAt": 1790882881,
-        "collectedAt": 1791188397.1509974
+        "collectedAt": 1791211460.834829
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18053,7 +18259,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7739c22b8c40ddd95f74bfadc661a431e3c5ff5af5a845d48fbc911e5e4a2827",
         "publishedAt": 1790874650,
-        "collectedAt": 1791188397.1509974
+        "collectedAt": 1791211460.834829
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18156,153 +18362,235 @@ const EVENT_DATA = {
         "공급업체 수주·매출",
         "투자 기업 OCF·FCF·부채"
       ]
-    },
-    {
-      "id": "4f6c165dce77f4b06fe7",
-      "schemaVersion": 1,
-      "eventType": "supply_chain",
-      "eventLabel": "공급망 문제",
-      "primaryTicker": "MU",
-      "relatedTickers": [
-        "MU"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Micron CFO: No 'line of sight' for when memory shortage will end",
-      "headlineKo": "Micron CFO: 메모리 부족이 언제 끝날지에 대한 '가시선'이 없습니다",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2e113e39a9afd6883b4a9eca2b37c2f8a65a8b9db59159963c3ba95967ec789a",
-        "publishedAt": 1790873974,
-        "collectedAt": 1791208802.2121353
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Micron CFO: No 'line of sight' for when memory shortage will end",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
-        "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "MU에 대한 공급망 · 생산 차질 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "주문은 있어도 부품이나 생산 문제로 제때 팔지 못할 수 있다는 뉴스입니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
-        "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "MU",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "출하 지연 기간",
-        "재고와 리드타임",
-        "매출총이익률·대체 공급처"
-      ]
-    },
-    {
-      "id": "124f14e1e9844f84fb7c",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "META",
-      "relatedTickers": [
-        "META",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Meta",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Unity Software Rallies 5% as Meta VR Support Extends Into a Second Session; Roblox Inches Higher, Take-Two Slides 3%",
-      "headlineKo": "Unity 소프트웨어는 Meta VR 지원이 두 번째 세션으로 확장됨에 따라 5% 상승합니다. Roblox 인치 더 높음, Take-Two 슬라이드 3%",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d1eaf333c300c061aae4aca462836918aa469bd7d222a1ddfb3460c2ff9e9b47",
-        "publishedAt": 1790873699,
-        "collectedAt": 1791208802.2121353
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Unity 소프트웨어는 Meta VR 지원이 두 번째 세션으로 확장됨에 따라 5% 상승합니다. Roblox 인치 더 높음, 테이크 투 슬라이드 3% - 24/7 Wall St.",
-        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,679.00 +0.08% Dow Jones 50,997.80 −0.06% Nasdaq 100 30,551.80 +0.21% Russell 2000 2,814.41 +0.41% S&P 500 7,679.00 +0.08% 다우존스 50,997.80 −0.06% 나스닥 100 30,551.80 +0.21% 러셀 2000 2,814.41 +0.",
-        "작성자 David Moadel 2026년 10월 1일 오후 12시 54분(ET) 게시 · 3분 읽기 Market Movers 데스크."
-      ],
-      "marketInterpretation": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 5%, 3%, $43.02 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "META의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "META에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 5%, 3%, $43.02 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "META의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "META",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "실제 CAPEX 집행",
-        "공급업체 수주·매출",
-        "투자 기업 OCF·FCF·부채"
-      ]
     }
   ],
   "byTicker": {
+    "AAPL": [
+      "e6dfe852365b65e0e0c8",
+      "f4d0af125ad0ee0050a5",
+      "4990442c7432b3dc27aa",
+      "4e81941edf7b225e966e",
+      "00ec534d42ff7c45f02c",
+      "9fac4fcf84309c051f01",
+      "403f904bbe24f8384648",
+      "413e80e265c154b77a86",
+      "d001966a9e7705adab2c",
+      "79ec7f6c493e8e437885",
+      "cafc5d15193d5f54da75"
+    ],
+    "AMD": [
+      "e6dfe852365b65e0e0c8",
+      "bcd59098a90f7c99b244",
+      "909109d9969e2b2797f4",
+      "d468bf82570fe19a818c",
+      "4117315ca448f848b1f5",
+      "d157c39847dcfdcad073",
+      "aa7f29426aad91ff1893",
+      "0db869b430e28449552b",
+      "972c222ab160254950f8",
+      "0cda55208627da3510b6",
+      "146f1f5ee9d511065185",
+      "3d3a763b1642202ccf23",
+      "9985033893564655dc88",
+      "40a2cdebd2112245cc7f",
+      "64ce38616e214be24090",
+      "3b18a18261aec7f5f62e",
+      "50af947b65caaccf87eb",
+      "9a340900913b551491c0",
+      "7205e54cceff4d0d3916",
+      "863f772ed7470d36226a",
+      "624cc80bd030f9d04875",
+      "34858be24329eeffd4cf",
+      "ba12dce2b7d1ed6066c8",
+      "819e7fdbe55b9ccff2c5",
+      "a01ca827b3b071bd4fde",
+      "feadef8f231c6dad4640",
+      "50e5c9b1ce0d69a3aed7",
+      "cc77912a54736ff36679",
+      "b24df1aed85dab4abfe3",
+      "af6425171f6659bcec20",
+      "565a01e3f7f0155b5eba",
+      "c7e22b5ee1cb0478530b",
+      "430a9bae8e9a1aecd4f3",
+      "7db500f9d5fcc874e200",
+      "e0eeae9ec683bcaedb54",
+      "5919e96d87d5217351eb",
+      "0e01c69790881ae304cf",
+      "0db9edf1f3485e2c1c6b",
+      "42500eb53b7898478cc7",
+      "98385b7b1b6b52c9aaa3"
+    ],
+    "MSFT": [
+      "e6dfe852365b65e0e0c8",
+      "d157c39847dcfdcad073",
+      "bb2b339ed8d047015cd6",
+      "369eb409646a648a8b54",
+      "52fab82ac55ba630a223",
+      "972c222ab160254950f8",
+      "e67314eb9b3b888a7423",
+      "652356e3b14cd49047b6",
+      "ec32450ff839d6bee8cc",
+      "cbc3abe0a34b96d222e9",
+      "ef718706fb0776b90812",
+      "9b7ed718455bd86b6b00",
+      "462ef1e215835729320b",
+      "5c5535c60fdbeef6746d",
+      "b2daf91469f52571ca5f",
+      "0cbaeff12ca645c4060c",
+      "cafc5d15193d5f54da75",
+      "03dbc4528ecea6e6966b",
+      "ea6a1b85f299d64ee6f3",
+      "553055248cdd2b7dc45a"
+    ],
+    "MU": [
+      "e6dfe852365b65e0e0c8",
+      "909109d9969e2b2797f4",
+      "d468bf82570fe19a818c",
+      "d157c39847dcfdcad073",
+      "aa7f29426aad91ff1893",
+      "1d2d87ef1a03ad6a8ab7",
+      "972c222ab160254950f8",
+      "4b978de00ba525100d92",
+      "005cc2aae21963f43a8b",
+      "0cda55208627da3510b6",
+      "146f1f5ee9d511065185",
+      "3d3a763b1642202ccf23",
+      "ca152e49c1e758c3bba3",
+      "9985033893564655dc88",
+      "8dec3edc1faed1191902",
+      "40a2cdebd2112245cc7f",
+      "fe8e675769e87a11fa11",
+      "64ce38616e214be24090",
+      "3b18a18261aec7f5f62e",
+      "50af947b65caaccf87eb",
+      "51c03b9c56b66d362ba3",
+      "98c3f6a1aafc4215f1be",
+      "cf499e4f16a7324eecd2",
+      "550077de5c6d757d52d7",
+      "7205e54cceff4d0d3916",
+      "863f772ed7470d36226a",
+      "624cc80bd030f9d04875",
+      "34858be24329eeffd4cf",
+      "65b128156345a15fb0b7",
+      "ba12dce2b7d1ed6066c8",
+      "f88123407db6ac1a34da",
+      "f2fb25dbe2e563abdb82",
+      "feadef8f231c6dad4640",
+      "cc77912a54736ff36679",
+      "9fac4fcf84309c051f01",
+      "565a01e3f7f0155b5eba",
+      "c7e22b5ee1cb0478530b",
+      "403f904bbe24f8384648",
+      "413e80e265c154b77a86",
+      "430a9bae8e9a1aecd4f3",
+      "b00f9a16bc5fd769b058",
+      "cdb0583be6deaed84a1d",
+      "7db500f9d5fcc874e200",
+      "79ec7f6c493e8e437885",
+      "d846f9dbf1f2e5bdfa00",
+      "e0eeae9ec683bcaedb54",
+      "5919e96d87d5217351eb",
+      "ccec3c3d5322269c8824",
+      "0e01c69790881ae304cf",
+      "3a72b6df53e77404ce30",
+      "374db392c7e83c40ed3e",
+      "7baac916e0254fc4d56b",
+      "499170549b66ab2405e5",
+      "ad26742d95a90576b8fb",
+      "42500eb53b7898478cc7"
+    ],
+    "NVDA": [
+      "e6dfe852365b65e0e0c8",
+      "bcd59098a90f7c99b244",
+      "909109d9969e2b2797f4",
+      "d468bf82570fe19a818c",
+      "d157c39847dcfdcad073",
+      "aa7f29426aad91ff1893",
+      "1e9624d2aff9cd413857",
+      "893d68e7df7279147b9c",
+      "972c222ab160254950f8",
+      "228aa4af13f683625460",
+      "0cda55208627da3510b6",
+      "146f1f5ee9d511065185",
+      "3d3a763b1642202ccf23",
+      "9985033893564655dc88",
+      "40a2cdebd2112245cc7f",
+      "64ce38616e214be24090",
+      "3b18a18261aec7f5f62e",
+      "50af947b65caaccf87eb",
+      "9a340900913b551491c0",
+      "c0e17df1e10f6df850cc",
+      "7fc591a10f7733c4c8e6",
+      "205b0ac8fe33da5d32c3",
+      "7205e54cceff4d0d3916",
+      "863f772ed7470d36226a",
+      "ae8d37a2cba9b3d9627e",
+      "624cc80bd030f9d04875",
+      "34858be24329eeffd4cf",
+      "ba12dce2b7d1ed6066c8",
+      "819e7fdbe55b9ccff2c5",
+      "cbc3abe0a34b96d222e9",
+      "52d700670141c8311feb",
+      "130a6564f18c190d37ff",
+      "64909fadbb7a557cc35f",
+      "40106bbcf3bc4bc2ed6c",
+      "feadef8f231c6dad4640",
+      "ef718706fb0776b90812",
+      "cc77912a54736ff36679",
+      "016d310e5fb389cc2172",
+      "af6425171f6659bcec20",
+      "565a01e3f7f0155b5eba",
+      "c7e22b5ee1cb0478530b",
+      "430a9bae8e9a1aecd4f3",
+      "7db500f9d5fcc874e200",
+      "e0eeae9ec683bcaedb54",
+      "4ca621a1ddee5bfc88d5",
+      "5919e96d87d5217351eb",
+      "ccec3c3d5322269c8824",
+      "0e01c69790881ae304cf",
+      "cafc5d15193d5f54da75",
+      "71daaa187a5892fb5f69",
+      "374db392c7e83c40ed3e",
+      "42500eb53b7898478cc7"
+    ],
+    "ORCL": [
+      "e6dfe852365b65e0e0c8",
+      "909109d9969e2b2797f4",
+      "d157c39847dcfdcad073",
+      "aa7f29426aad91ff1893",
+      "26a5d0d5044b04ba7534",
+      "972c222ab160254950f8",
+      "0cda55208627da3510b6",
+      "146f1f5ee9d511065185",
+      "bf008eee1dcc66db7ecf",
+      "3d3a763b1642202ccf23",
+      "9985033893564655dc88",
+      "40a2cdebd2112245cc7f",
+      "64ce38616e214be24090",
+      "3b18a18261aec7f5f62e",
+      "50af947b65caaccf87eb",
+      "48a55d670b9436aabf6c",
+      "7205e54cceff4d0d3916",
+      "863f772ed7470d36226a",
+      "624cc80bd030f9d04875",
+      "34858be24329eeffd4cf",
+      "ba12dce2b7d1ed6066c8",
+      "feadef8f231c6dad4640",
+      "36aeb716f793ce705a0a",
+      "cc77912a54736ff36679",
+      "016d310e5fb389cc2172",
+      "565a01e3f7f0155b5eba",
+      "c7e22b5ee1cb0478530b",
+      "430a9bae8e9a1aecd4f3",
+      "7db500f9d5fcc874e200",
+      "346b62693c53d7f34360",
+      "e0eeae9ec683bcaedb54",
+      "71b530eb37edc2815c5a",
+      "5919e96d87d5217351eb",
+      "0e01c69790881ae304cf",
+      "4eed8934dc823ec1c391",
+      "42500eb53b7898478cc7"
+    ],
     "AMAT": [
       "35f5dedfde55acd84070",
       "0db9edf1f3485e2c1c6b",
@@ -18331,39 +18619,100 @@ const EVENT_DATA = {
       "1687ebb13284d0b26d93",
       "0ec7f967303bb5b42416"
     ],
-    "AMZN": [
-      "b1982cfd43b556a7864e",
-      "d157c39847dcfdcad073",
-      "66fa7c7abbaac8ad57af",
+    "INTC": [
+      "bcd59098a90f7c99b244",
+      "d468bf82570fe19a818c",
+      "c895b69475d91820b1bc",
+      "205b0ac8fe33da5d32c3",
+      "4e81941edf7b225e966e",
+      "7fbe9830c4c0ba1274e5",
+      "c34991785b320b1ff673",
+      "3e452793134c934da295",
+      "8b45b89516618ef25ada",
+      "5e7c9c3e2d714d306aa4",
+      "a01ca827b3b071bd4fde",
+      "06d55b15401e5a5d3f8d",
+      "6e2eff2a7544f22ea905",
+      "8b663cf8c07b0af83f86",
+      "0e01c69790881ae304cf",
+      "dbd6070b0f467abae622",
+      "6ce4b782c82187856beb",
+      "b3a6dde48d569609fa3a"
+    ],
+    "QQQ": [
+      "bcd59098a90f7c99b244",
+      "893d68e7df7279147b9c",
+      "bb2b339ed8d047015cd6",
+      "68073dce831af6aa242b",
+      "369eb409646a648a8b54",
+      "52fab82ac55ba630a223",
+      "0db869b430e28449552b",
+      "f4d0af125ad0ee0050a5",
+      "228aa4af13f683625460",
       "4b978de00ba525100d92",
-      "cbd525410d0e6f498016",
-      "bda4e52dd92d056ee082",
+      "dbeefffdd869261476ce",
+      "ca152e49c1e758c3bba3",
+      "fe8e675769e87a11fa11",
       "aa90a21eb5a34200d5f0",
-      "64ce38616e214be24090",
-      "d04b5b4bd0caee5a6000",
-      "c561fe9314213d1571d6",
-      "5675a3b96013a60d4115",
+      "31b09e86904c97c4ae13",
+      "e634319e661e6bd3fc70",
+      "4990442c7432b3dc27aa",
+      "550077de5c6d757d52d7",
+      "2599f2c12accd74f29e6",
+      "543387a7a41975cc2ab8",
+      "e4eebcd964ceb6b02c1a",
+      "f8be6e4b0b5cc26c3f57",
+      "afe451d60be9ad51ad4b",
+      "f88123407db6ac1a34da",
+      "2f6103fe88952b53f557",
       "cbc3abe0a34b96d222e9",
-      "cc77912a54736ff36679",
-      "016d310e5fb389cc2172",
-      "889147b867ea0f1410ca",
-      "565a01e3f7f0155b5eba",
-      "a03ad9c455a26e496a51",
-      "d60804ab03c2e89b7099",
-      "383f3e94372ab8a930b4",
-      "d001966a9e7705adab2c",
-      "19021e6a58681772e813",
-      "7814bc12b5d564e43e8a",
-      "4ca621a1ddee5bfc88d5",
-      "5919e96d87d5217351eb",
+      "52d700670141c8311feb",
+      "0f1776e9ff6c99aa7ba9",
+      "00ec534d42ff7c45f02c",
+      "130a6564f18c190d37ff",
+      "64909fadbb7a557cc35f",
+      "1cde97e0c777a2860f13",
+      "fbb636cc3926e7178202",
+      "36aeb716f793ce705a0a",
+      "164705d71cebe6abf557",
+      "ef718706fb0776b90812",
+      "be073e69c886b8afc328",
+      "8b6949239f8d8bf45840",
+      "b24df1aed85dab4abfe3",
+      "af6425171f6659bcec20",
+      "a83f149bbc0e9c66b299",
+      "5c5535c60fdbeef6746d",
+      "b00f9a16bc5fd769b058",
+      "cdb0583be6deaed84a1d",
+      "b6d37edd07f93a2607bd",
+      "40b67c8308f5886f650b",
+      "336e627f67bd847501a6",
+      "3874a818fd58f416f12b",
+      "b2daf91469f52571ca5f",
+      "f56198645364c0475539",
+      "346b62693c53d7f34360",
+      "5fa2b21136024248e5e2",
+      "1687ebb13284d0b26d93",
+      "0cbaeff12ca645c4060c",
+      "6e2eff2a7544f22ea905",
+      "0eba8a3688bb864aaa44",
       "2b704432c27532f8733f",
-      "cafc5d15193d5f54da75",
-      "6832cb655a90a3dafd84",
-      "29fe8dd9dff4fa8a9084",
+      "ccec3c3d5322269c8824",
+      "0269855baa404240fe02",
+      "9300b1599e56fea8d471",
+      "81078e2ef4f310088426",
+      "fc9adc00e2cd5ce31fd0",
+      "c44538476f9e611ecb80",
+      "95a85be980d087563fd9",
+      "374db392c7e83c40ed3e",
+      "ebed3cffacda7c7172e0",
+      "34f90c178fc001c0cef5",
+      "03dbc4528ecea6e6966b",
       "ea6a1b85f299d64ee6f3",
-      "553055248cdd2b7dc45a"
+      "1e10efb63ff5d1b0902d"
     ],
     "SPY": [
+      "bcd59098a90f7c99b244",
       "b1982cfd43b556a7864e",
       "0f2b92ec8123f9394491",
       "ff3b3edcaab09e540e48",
@@ -18489,194 +18838,52 @@ const EVENT_DATA = {
       "2d9697aaae777b5ac5e9",
       "177d16eccbb51963aa41",
       "553055248cdd2b7dc45a",
-      "1e10efb63ff5d1b0902d",
-      "124f14e1e9844f84fb7c"
+      "1e10efb63ff5d1b0902d"
     ],
-    "AMD": [
-      "909109d9969e2b2797f4",
-      "d468bf82570fe19a818c",
-      "4117315ca448f848b1f5",
-      "d157c39847dcfdcad073",
-      "aa7f29426aad91ff1893",
-      "0db869b430e28449552b",
-      "972c222ab160254950f8",
-      "0cda55208627da3510b6",
-      "146f1f5ee9d511065185",
-      "3d3a763b1642202ccf23",
-      "9985033893564655dc88",
-      "40a2cdebd2112245cc7f",
-      "64ce38616e214be24090",
-      "3b18a18261aec7f5f62e",
-      "50af947b65caaccf87eb",
-      "9a340900913b551491c0",
-      "7205e54cceff4d0d3916",
-      "863f772ed7470d36226a",
-      "624cc80bd030f9d04875",
-      "34858be24329eeffd4cf",
-      "ba12dce2b7d1ed6066c8",
-      "819e7fdbe55b9ccff2c5",
-      "a01ca827b3b071bd4fde",
-      "feadef8f231c6dad4640",
-      "50e5c9b1ce0d69a3aed7",
-      "cc77912a54736ff36679",
-      "b24df1aed85dab4abfe3",
-      "af6425171f6659bcec20",
-      "565a01e3f7f0155b5eba",
-      "c7e22b5ee1cb0478530b",
-      "430a9bae8e9a1aecd4f3",
-      "7db500f9d5fcc874e200",
-      "e0eeae9ec683bcaedb54",
-      "5919e96d87d5217351eb",
-      "0e01c69790881ae304cf",
-      "0db9edf1f3485e2c1c6b",
-      "42500eb53b7898478cc7",
-      "98385b7b1b6b52c9aaa3"
-    ],
-    "MU": [
-      "909109d9969e2b2797f4",
-      "d468bf82570fe19a818c",
-      "d157c39847dcfdcad073",
-      "aa7f29426aad91ff1893",
-      "1d2d87ef1a03ad6a8ab7",
-      "972c222ab160254950f8",
-      "4b978de00ba525100d92",
-      "005cc2aae21963f43a8b",
-      "0cda55208627da3510b6",
-      "146f1f5ee9d511065185",
-      "3d3a763b1642202ccf23",
-      "ca152e49c1e758c3bba3",
-      "9985033893564655dc88",
-      "8dec3edc1faed1191902",
-      "40a2cdebd2112245cc7f",
-      "fe8e675769e87a11fa11",
-      "64ce38616e214be24090",
-      "3b18a18261aec7f5f62e",
-      "50af947b65caaccf87eb",
-      "51c03b9c56b66d362ba3",
-      "98c3f6a1aafc4215f1be",
-      "cf499e4f16a7324eecd2",
-      "550077de5c6d757d52d7",
-      "7205e54cceff4d0d3916",
-      "863f772ed7470d36226a",
-      "624cc80bd030f9d04875",
-      "34858be24329eeffd4cf",
-      "65b128156345a15fb0b7",
-      "ba12dce2b7d1ed6066c8",
-      "f88123407db6ac1a34da",
-      "f2fb25dbe2e563abdb82",
-      "feadef8f231c6dad4640",
-      "cc77912a54736ff36679",
-      "9fac4fcf84309c051f01",
-      "565a01e3f7f0155b5eba",
-      "c7e22b5ee1cb0478530b",
-      "403f904bbe24f8384648",
-      "413e80e265c154b77a86",
-      "430a9bae8e9a1aecd4f3",
-      "b00f9a16bc5fd769b058",
-      "cdb0583be6deaed84a1d",
-      "7db500f9d5fcc874e200",
-      "79ec7f6c493e8e437885",
-      "d846f9dbf1f2e5bdfa00",
-      "e0eeae9ec683bcaedb54",
-      "5919e96d87d5217351eb",
-      "ccec3c3d5322269c8824",
-      "0e01c69790881ae304cf",
-      "3a72b6df53e77404ce30",
-      "374db392c7e83c40ed3e",
-      "7baac916e0254fc4d56b",
-      "499170549b66ab2405e5",
-      "ad26742d95a90576b8fb",
-      "42500eb53b7898478cc7",
-      "4f6c165dce77f4b06fe7"
-    ],
-    "NVDA": [
-      "909109d9969e2b2797f4",
-      "d468bf82570fe19a818c",
-      "d157c39847dcfdcad073",
-      "aa7f29426aad91ff1893",
-      "1e9624d2aff9cd413857",
-      "893d68e7df7279147b9c",
-      "972c222ab160254950f8",
-      "228aa4af13f683625460",
-      "0cda55208627da3510b6",
-      "146f1f5ee9d511065185",
-      "3d3a763b1642202ccf23",
-      "9985033893564655dc88",
-      "40a2cdebd2112245cc7f",
-      "64ce38616e214be24090",
-      "3b18a18261aec7f5f62e",
-      "50af947b65caaccf87eb",
-      "9a340900913b551491c0",
-      "c0e17df1e10f6df850cc",
-      "7fc591a10f7733c4c8e6",
-      "205b0ac8fe33da5d32c3",
-      "7205e54cceff4d0d3916",
-      "863f772ed7470d36226a",
-      "ae8d37a2cba9b3d9627e",
-      "624cc80bd030f9d04875",
-      "34858be24329eeffd4cf",
-      "ba12dce2b7d1ed6066c8",
-      "819e7fdbe55b9ccff2c5",
-      "cbc3abe0a34b96d222e9",
-      "52d700670141c8311feb",
+    "TSM": [
+      "bcd59098a90f7c99b244",
+      "a8aef1550697f5bb7293",
+      "af2137c7f6b1d9768ffe",
+      "c727f18a7b52c5f7cbeb",
+      "8b45b89516618ef25ada",
       "130a6564f18c190d37ff",
-      "64909fadbb7a557cc35f",
-      "40106bbcf3bc4bc2ed6c",
-      "feadef8f231c6dad4640",
-      "ef718706fb0776b90812",
+      "ee0213893f6c9dad1e3e",
+      "430a9bae8e9a1aecd4f3",
+      "e0eeae9ec683bcaedb54",
+      "f1d465f4e21862b12b70",
+      "6ce4b782c82187856beb"
+    ],
+    "AMZN": [
+      "b1982cfd43b556a7864e",
+      "d157c39847dcfdcad073",
+      "66fa7c7abbaac8ad57af",
+      "4b978de00ba525100d92",
+      "cbd525410d0e6f498016",
+      "bda4e52dd92d056ee082",
+      "aa90a21eb5a34200d5f0",
+      "64ce38616e214be24090",
+      "d04b5b4bd0caee5a6000",
+      "c561fe9314213d1571d6",
+      "5675a3b96013a60d4115",
+      "cbc3abe0a34b96d222e9",
       "cc77912a54736ff36679",
       "016d310e5fb389cc2172",
-      "af6425171f6659bcec20",
+      "889147b867ea0f1410ca",
       "565a01e3f7f0155b5eba",
-      "c7e22b5ee1cb0478530b",
-      "430a9bae8e9a1aecd4f3",
-      "7db500f9d5fcc874e200",
-      "e0eeae9ec683bcaedb54",
+      "a03ad9c455a26e496a51",
+      "d60804ab03c2e89b7099",
+      "383f3e94372ab8a930b4",
+      "d001966a9e7705adab2c",
+      "19021e6a58681772e813",
+      "7814bc12b5d564e43e8a",
       "4ca621a1ddee5bfc88d5",
       "5919e96d87d5217351eb",
-      "ccec3c3d5322269c8824",
-      "0e01c69790881ae304cf",
+      "2b704432c27532f8733f",
       "cafc5d15193d5f54da75",
-      "71daaa187a5892fb5f69",
-      "374db392c7e83c40ed3e",
-      "42500eb53b7898478cc7"
-    ],
-    "ORCL": [
-      "909109d9969e2b2797f4",
-      "d157c39847dcfdcad073",
-      "aa7f29426aad91ff1893",
-      "26a5d0d5044b04ba7534",
-      "972c222ab160254950f8",
-      "0cda55208627da3510b6",
-      "146f1f5ee9d511065185",
-      "bf008eee1dcc66db7ecf",
-      "3d3a763b1642202ccf23",
-      "9985033893564655dc88",
-      "40a2cdebd2112245cc7f",
-      "64ce38616e214be24090",
-      "3b18a18261aec7f5f62e",
-      "50af947b65caaccf87eb",
-      "48a55d670b9436aabf6c",
-      "7205e54cceff4d0d3916",
-      "863f772ed7470d36226a",
-      "624cc80bd030f9d04875",
-      "34858be24329eeffd4cf",
-      "ba12dce2b7d1ed6066c8",
-      "feadef8f231c6dad4640",
-      "36aeb716f793ce705a0a",
-      "cc77912a54736ff36679",
-      "016d310e5fb389cc2172",
-      "565a01e3f7f0155b5eba",
-      "c7e22b5ee1cb0478530b",
-      "430a9bae8e9a1aecd4f3",
-      "7db500f9d5fcc874e200",
-      "346b62693c53d7f34360",
-      "e0eeae9ec683bcaedb54",
-      "71b530eb37edc2815c5a",
-      "5919e96d87d5217351eb",
-      "0e01c69790881ae304cf",
-      "4eed8934dc823ec1c391",
-      "42500eb53b7898478cc7"
+      "6832cb655a90a3dafd84",
+      "29fe8dd9dff4fa8a9084",
+      "ea6a1b85f299d64ee6f3",
+      "553055248cdd2b7dc45a"
     ],
     "META": [
       "0f2b92ec8123f9394491",
@@ -18694,8 +18901,7 @@ const EVENT_DATA = {
       "00ec534d42ff7c45f02c",
       "164705d71cebe6abf557",
       "9300b1599e56fea8d471",
-      "cafc5d15193d5f54da75",
-      "124f14e1e9844f84fb7c"
+      "cafc5d15193d5f54da75"
     ],
     "PLTR": [
       "ff3b3edcaab09e540e48",
@@ -18709,25 +18915,6 @@ const EVENT_DATA = {
       "40b67c8308f5886f650b",
       "5fa2b21136024248e5e2",
       "0e01c69790881ae304cf"
-    ],
-    "INTC": [
-      "d468bf82570fe19a818c",
-      "c895b69475d91820b1bc",
-      "205b0ac8fe33da5d32c3",
-      "4e81941edf7b225e966e",
-      "7fbe9830c4c0ba1274e5",
-      "c34991785b320b1ff673",
-      "3e452793134c934da295",
-      "8b45b89516618ef25ada",
-      "5e7c9c3e2d714d306aa4",
-      "a01ca827b3b071bd4fde",
-      "06d55b15401e5a5d3f8d",
-      "6e2eff2a7544f22ea905",
-      "8b663cf8c07b0af83f86",
-      "0e01c69790881ae304cf",
-      "dbd6070b0f467abae622",
-      "6ce4b782c82187856beb",
-      "b3a6dde48d569609fa3a"
     ],
     "LRCX": [
       "d468bf82570fe19a818c",
@@ -18754,27 +18941,6 @@ const EVENT_DATA = {
       "42500eb53b7898478cc7",
       "ea6a1b85f299d64ee6f3",
       "2569d5cd2c24cea6cbe8",
-      "553055248cdd2b7dc45a"
-    ],
-    "MSFT": [
-      "d157c39847dcfdcad073",
-      "bb2b339ed8d047015cd6",
-      "369eb409646a648a8b54",
-      "52fab82ac55ba630a223",
-      "972c222ab160254950f8",
-      "e67314eb9b3b888a7423",
-      "652356e3b14cd49047b6",
-      "ec32450ff839d6bee8cc",
-      "cbc3abe0a34b96d222e9",
-      "ef718706fb0776b90812",
-      "9b7ed718455bd86b6b00",
-      "462ef1e215835729320b",
-      "5c5535c60fdbeef6746d",
-      "b2daf91469f52571ca5f",
-      "0cbaeff12ca645c4060c",
-      "cafc5d15193d5f54da75",
-      "03dbc4528ecea6e6966b",
-      "ea6a1b85f299d64ee6f3",
       "553055248cdd2b7dc45a"
     ],
     "SNDK": [
@@ -18807,78 +18973,6 @@ const EVENT_DATA = {
       "ebed3cffacda7c7172e0",
       "2d9697aaae777b5ac5e9",
       "183200917d7eb5209675"
-    ],
-    "QQQ": [
-      "893d68e7df7279147b9c",
-      "bb2b339ed8d047015cd6",
-      "68073dce831af6aa242b",
-      "369eb409646a648a8b54",
-      "52fab82ac55ba630a223",
-      "0db869b430e28449552b",
-      "f4d0af125ad0ee0050a5",
-      "228aa4af13f683625460",
-      "4b978de00ba525100d92",
-      "dbeefffdd869261476ce",
-      "ca152e49c1e758c3bba3",
-      "fe8e675769e87a11fa11",
-      "aa90a21eb5a34200d5f0",
-      "31b09e86904c97c4ae13",
-      "e634319e661e6bd3fc70",
-      "4990442c7432b3dc27aa",
-      "550077de5c6d757d52d7",
-      "2599f2c12accd74f29e6",
-      "543387a7a41975cc2ab8",
-      "e4eebcd964ceb6b02c1a",
-      "f8be6e4b0b5cc26c3f57",
-      "afe451d60be9ad51ad4b",
-      "f88123407db6ac1a34da",
-      "2f6103fe88952b53f557",
-      "cbc3abe0a34b96d222e9",
-      "52d700670141c8311feb",
-      "0f1776e9ff6c99aa7ba9",
-      "00ec534d42ff7c45f02c",
-      "130a6564f18c190d37ff",
-      "64909fadbb7a557cc35f",
-      "1cde97e0c777a2860f13",
-      "fbb636cc3926e7178202",
-      "36aeb716f793ce705a0a",
-      "164705d71cebe6abf557",
-      "ef718706fb0776b90812",
-      "be073e69c886b8afc328",
-      "8b6949239f8d8bf45840",
-      "b24df1aed85dab4abfe3",
-      "af6425171f6659bcec20",
-      "a83f149bbc0e9c66b299",
-      "5c5535c60fdbeef6746d",
-      "b00f9a16bc5fd769b058",
-      "cdb0583be6deaed84a1d",
-      "b6d37edd07f93a2607bd",
-      "40b67c8308f5886f650b",
-      "336e627f67bd847501a6",
-      "3874a818fd58f416f12b",
-      "b2daf91469f52571ca5f",
-      "f56198645364c0475539",
-      "346b62693c53d7f34360",
-      "5fa2b21136024248e5e2",
-      "1687ebb13284d0b26d93",
-      "0cbaeff12ca645c4060c",
-      "6e2eff2a7544f22ea905",
-      "0eba8a3688bb864aaa44",
-      "2b704432c27532f8733f",
-      "ccec3c3d5322269c8824",
-      "0269855baa404240fe02",
-      "9300b1599e56fea8d471",
-      "81078e2ef4f310088426",
-      "fc9adc00e2cd5ce31fd0",
-      "c44538476f9e611ecb80",
-      "95a85be980d087563fd9",
-      "374db392c7e83c40ed3e",
-      "ebed3cffacda7c7172e0",
-      "34f90c178fc001c0cef5",
-      "03dbc4528ecea6e6966b",
-      "ea6a1b85f299d64ee6f3",
-      "1e10efb63ff5d1b0902d",
-      "124f14e1e9844f84fb7c"
     ],
     "ASML": [
       "101f65a76e1051a8bb74",
@@ -18946,18 +19040,6 @@ const EVENT_DATA = {
       "b3e08c8c61e4e22cbacf",
       "177d16eccbb51963aa41"
     ],
-    "AAPL": [
-      "f4d0af125ad0ee0050a5",
-      "4990442c7432b3dc27aa",
-      "4e81941edf7b225e966e",
-      "00ec534d42ff7c45f02c",
-      "9fac4fcf84309c051f01",
-      "403f904bbe24f8384648",
-      "413e80e265c154b77a86",
-      "d001966a9e7705adab2c",
-      "79ec7f6c493e8e437885",
-      "cafc5d15193d5f54da75"
-    ],
     "CRM": [
       "0cda55208627da3510b6",
       "f6f47e11392f30299f2e",
@@ -18995,18 +19077,6 @@ const EVENT_DATA = {
     ],
     "FIX": [
       "9d9108c97a5869b68911"
-    ],
-    "TSM": [
-      "a8aef1550697f5bb7293",
-      "af2137c7f6b1d9768ffe",
-      "c727f18a7b52c5f7cbeb",
-      "8b45b89516618ef25ada",
-      "130a6564f18c190d37ff",
-      "ee0213893f6c9dad1e3e",
-      "430a9bae8e9a1aecd4f3",
-      "e0eeae9ec683bcaedb54",
-      "f1d465f4e21862b12b70",
-      "6ce4b782c82187856beb"
     ],
     "GEV": [
       "3fe4615910f279403ff9",
