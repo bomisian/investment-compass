@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791163748.2711825,
+  "generatedAt": 1791165602.3792799,
   "events": [
     {
       "id": "c895b69475d91820b1bc",
@@ -757,6 +757,98 @@ const EVENT_DATA = {
         "공식 규제 적용일·대상 제품",
         "회사의 매출 영향 추정",
         "대체 제품·지역 판매"
+      ]
+    },
+    {
+      "id": "9985033893564655dc88",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "AMD",
+      "relatedTickers": [
+        "AMD",
+        "MU",
+        "NVDA",
+        "ORCL"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "중기 투자 사이클",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "AMD’s $8.2 Billion AI Bet Comes With a $1 Trillion Valuation Problem",
+      "headlineKo": "AMD의 82억 달러 AI 베팅에는 1조 달러 가치 평가 문제가 발생함",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3095b2198571f5d5345e9484bceca72e67887a00e256c185125648fad63eab33",
+        "publishedAt": 1791140519,
+        "collectedAt": 1791165584.0493925
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+        "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+        "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+      ],
+      "marketInterpretation": [
+        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+      ],
+      "aiInference": [
+        "이 기사는 AMD의 사업과 관련된 'AMD’s $8.2 Billion AI Bet Comes With a $1 Trillion Valuation Problem' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+        "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+        "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+      ],
+      "whyItMatters": [
+        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "긍정",
+          "reason": "AI 컴퓨팅 수요 확대 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "AMD",
+          "direction": "긍정",
+          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "MU",
+          "direction": "긍정",
+          "reason": "AI 서버 메모리 수요와 가격 강세",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "ORCL",
+          "direction": "혼합",
+          "reason": "클라우드 수요와 자본 부담 동시 확대",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 수주·가동 데이터센터",
+        "관련 기업 매출·수주잔고",
+        "CAPEX 대비 영업현금흐름",
+        "금리와 프로젝트 부채 비용"
       ]
     },
     {
@@ -4269,7 +4361,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a7bfaeadebd575188d152c345c9fbabf0175dc885806bf3cd3c62091296909a6",
         "publishedAt": 1791040956,
-        "collectedAt": 1791140402.203485
+        "collectedAt": 1791165584.0493925
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6064,7 +6156,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a3ec4a78d686a99c53adbedae0b4aa1d97e7cf22db5a37eeee6689151025dbc3",
         "publishedAt": 1790988602,
-        "collectedAt": 1791140402.203485
+        "collectedAt": 1791165584.0493925
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7136,7 +7228,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=77a81e189fc5320c28347b74d6b0f6ca9197b2b4b4f2b7443888b790916d2c5a",
         "publishedAt": 1790967777,
-        "collectedAt": 1791140402.203485
+        "collectedAt": 1791165584.0493925
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8194,7 +8286,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ec2cfaeaf725b9907870fd3d232e71b92c36bcdff69e4ca75c3ba31173954db1",
         "publishedAt": 1790958620,
-        "collectedAt": 1791140402.203485
+        "collectedAt": 1791165584.0493925
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14234,7 +14326,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bfab893cbdad513869c723262909369260c2ca0e76dd1c8da9690133180b48c4",
         "publishedAt": 1790882881,
-        "collectedAt": 1791140402.203485
+        "collectedAt": 1791165584.0493925
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15459,7 +15551,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7739c22b8c40ddd95f74bfadc661a431e3c5ff5af5a845d48fbc911e5e4a2827",
         "publishedAt": 1790874650,
-        "collectedAt": 1791140402.203485
+        "collectedAt": 1791165584.0493925
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18176,83 +18268,6 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
-    },
-    {
-      "id": "deb00edb4c158ebbc8ca",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "AAPL",
-      "relatedTickers": [
-        "AAPL",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Apple",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "How Long Would It Take $1,000 Invested in Apple to Become $10,000?",
-      "headlineKo": "Apple에 1,000달러를 투자하여 10,000달러가 되려면 얼마나 걸릴까요?",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=06df6ea40a530c907d86a5c38e1d5f488deaa5a605ffa55c52835cf36db544d0",
-        "publishedAt": 1790857856,
-        "collectedAt": 1791163273.369934
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Apple에 1,000달러를 투자하여 10,000달러가 되려면 얼마나 걸릴까요?",
-        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,644.10 −0.37% Dow Jones 50,711.60 −0.62% Nasdaq 100 30,408.00 −0.27% Russell 2000 2,785.51 −0.62% S&P 500 7,644.10 −0.37% 다우존스 50,711.60 −0.62% 나스닥 100 30,408.00 −0.27% 러셀 2000 2,785.51 −0.",
-        "애플은 이미 한 번 1,000달러를 12,000달러 이상으로 바꿨지만, 지금의 가격으로 다시 하는 것은 매우 다른 도전이다."
-      ],
-      "marketInterpretation": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: $1,000, $10,000, $12,000 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "AAPL에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: $1,000, $10,000, $12,000 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AAPL",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "목표주가 산식의 EPS",
-        "적용 PER 변화",
-        "회사 공식 가이던스"
-      ]
     }
   ],
   "byTicker": {
@@ -18261,6 +18276,7 @@ const EVENT_DATA = {
       "0cda55208627da3510b6",
       "146f1f5ee9d511065185",
       "3d3a763b1642202ccf23",
+      "9985033893564655dc88",
       "64ce38616e214be24090",
       "3b18a18261aec7f5f62e",
       "50af947b65caaccf87eb",
@@ -18340,6 +18356,7 @@ const EVENT_DATA = {
       "146f1f5ee9d511065185",
       "3d3a763b1642202ccf23",
       "ca152e49c1e758c3bba3",
+      "9985033893564655dc88",
       "8dec3edc1faed1191902",
       "40a2cdebd2112245cc7f",
       "fe8e675769e87a11fa11",
@@ -18396,6 +18413,7 @@ const EVENT_DATA = {
       "0cda55208627da3510b6",
       "146f1f5ee9d511065185",
       "3d3a763b1642202ccf23",
+      "9985033893564655dc88",
       "64ce38616e214be24090",
       "3b18a18261aec7f5f62e",
       "50af947b65caaccf87eb",
@@ -18445,6 +18463,7 @@ const EVENT_DATA = {
       "146f1f5ee9d511065185",
       "bf008eee1dcc66db7ecf",
       "3d3a763b1642202ccf23",
+      "9985033893564655dc88",
       "64ce38616e214be24090",
       "3b18a18261aec7f5f62e",
       "50af947b65caaccf87eb",
@@ -18612,8 +18631,7 @@ const EVENT_DATA = {
       "0edde89fa5be7992a109",
       "48fd1bd45ec9cb3fb636",
       "d120c47a1245458d62c9",
-      "18b65fc56af4f3139b49",
-      "deb00edb4c158ebbc8ca"
+      "18b65fc56af4f3139b49"
     ],
     "SPY": [
       "dbeefffdd869261476ce",
@@ -18728,8 +18746,7 @@ const EVENT_DATA = {
       "48fd1bd45ec9cb3fb636",
       "55bff1c06e0bc2949f2e",
       "d120c47a1245458d62c9",
-      "18b65fc56af4f3139b49",
-      "deb00edb4c158ebbc8ca"
+      "18b65fc56af4f3139b49"
     ],
     "CEG": [
       "bda4e52dd92d056ee082",
@@ -18872,8 +18889,7 @@ const EVENT_DATA = {
       "d001966a9e7705adab2c",
       "79ec7f6c493e8e437885",
       "cafc5d15193d5f54da75",
-      "8263d2be765e18fde8c7",
-      "deb00edb4c158ebbc8ca"
+      "8263d2be765e18fde8c7"
     ],
     "QCOM": [
       "cf499e4f16a7324eecd2",

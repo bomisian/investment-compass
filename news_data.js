@@ -4150,7 +4150,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "SPY": {
@@ -9335,7 +9335,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "MSFT": {
@@ -17517,7 +17517,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "GOOGL": {
@@ -25688,7 +25688,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "AMZN": {
@@ -33534,7 +33534,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "META": {
@@ -41161,7 +41161,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "AAPL": {
@@ -49108,7 +49108,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "TSLA": {
@@ -56941,7 +56941,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "ORCL": {
@@ -65221,7 +65221,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "CRM": {
@@ -70722,7 +70722,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "PLTR": {
@@ -78878,7 +78878,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 184,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "NVDA": {
@@ -86440,11 +86440,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "AMD": {
-    "_last_attempt_at": 1791163273.369934,
+    "_last_attempt_at": 1791165584.0493925,
     "nextEarnings": {
       "date": "2026-11-02",
       "hour": "amc",
@@ -86453,6 +86453,74 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "AMD’s $8.2 Billion AI Bet Comes With a $1 Trillion Valuation Problem",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3095b2198571f5d5345e9484bceca72e67887a00e256c185125648fad63eab33",
+        "datetime": 1791140519,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD’s $8.2 Billion AI Bet Comes With a $1 Trillion Valuation Problem' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMD에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791165588.8406518
+        },
+        "headlineKo": "AMD의 82억 달러 AI 베팅에는 1조 달러 가치 평가 문제가 발생함"
+      },
       {
         "headline": "AMD Reaches a $1 Trillion Market Cap. Can It Finally Dethrone Nvidia?",
         "source": "Yahoo",
@@ -86513,7 +86581,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool AMD ( AMD +2.95% ) has had an incredible year.",
             "It's the ninth-best-performing S&P 500 ( ^GSPC +0.73% ) stock, rising nearly 200% so far this year."
           ],
-          "analysisUpdatedAt": 1791140472.957227
+          "analysisUpdatedAt": 1791165591.2699504
         },
         "headlineKo": "AMD는 시가총액 1조 달러에 도달했습니다. 마침내 엔비디아를 무너뜨릴 수 있을까?"
       },
@@ -86563,7 +86631,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791140475.0595956
+          "analysisUpdatedAt": 1791165592.8366175
         },
         "headlineKo": "AMD(Advanced Micro Devices)는 180% 플러스 상승 이후에도 여전히 매수세를 보이고 있습니까?"
       },
@@ -86575,6 +86643,40 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "AMD의 CPU 사업이 AI 칩 야망에 자금을 지원할 수 있습니까?"
+      },
+      {
+        "headline": "Prediction: This AI Chip Stock Will Be the Biggest Winner of 2027 (Hint: It’s Not Nvidia, AMD, or Broadcom)",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3cbc6c6c0489fd7871ef6ef60d42c8e47422fbe7010e81af63fcff7e378e40de",
+        "datetime": 1791020401,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "예측: 이 AI 칩 주식은 2027년의 가장 큰 승자가 될 것입니다(힌트: Nvidia, AMD 또는 Broadcom이 아닙니다)"
+      },
+      {
+        "headline": "AMD: The AI Momentum Train Looks Unstoppable, But I'm Pausing Accumulation (Downgrade)",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=fa60dc991ccebbe8b01665afa1786a3583d26267d739bcd26b4592410ddb4e5b",
+        "datetime": 1790587841,
+        "headlineKo": "AMD: AI Momentum Train은 멈출 수 없을 것 같지만 축적을 일시 중지하고 있습니다(다운그레이드)",
+        "relevance": 1,
+        "keywordFlag": true,
+        "flagTerms": [
+          "downgrade"
+        ]
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "AMD’s $8.2 Billion AI Bet Comes With a $1 Trillion Valuation Problem",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3095b2198571f5d5345e9484bceca72e67887a00e256c185125648fad63eab33",
+        "datetime": 1791140519,
+        "headlineKo": "AMD의 82억 달러 AI 베팅에는 1조 달러 가치 평가 문제가 발생함",
+        "relevance": 1,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "medium",
@@ -86625,50 +86727,15 @@ const NEWS_DATA = {
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
           ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'Can AMD’s CPU Business Fund Its AI Chip Ambitions?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD’s $8.2 Billion AI Bet Comes With a $1 Trillion Valuation Problem' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "현재 해석: AMD에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
           "relevance": 1,
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791140476.9189844
-        },
-        "headlineKo": "AMD의 CPU 사업이 AI 칩 야망에 자금을 지원할 수 있습니까?"
+          "analysisUpdatedAt": 1791165588.8406518
+        }
       },
-      {
-        "headline": "Prediction: This AI Chip Stock Will Be the Biggest Winner of 2027 (Hint: It’s Not Nvidia, AMD, or Broadcom)",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3cbc6c6c0489fd7871ef6ef60d42c8e47422fbe7010e81af63fcff7e378e40de",
-        "datetime": 1791020401,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "예측: 이 AI 칩 주식은 2027년의 가장 큰 승자가 될 것입니다(힌트: Nvidia, AMD 또는 Broadcom이 아닙니다)"
-      },
-      {
-        "headline": "Intel Was Worth About 28 Times as Much as AMD 10 Years Ago. Now AMD Is Worth About 60% More.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a816f75853bc3bf992a77481d9c15a118ffff20d25f14404dd94d96f084a779b",
-        "datetime": 1791019921,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "인텔의 가치는 10년 전 AMD의 약 28배였습니다. 이제 AMD의 가치는 약 60% 더 높습니다."
-      },
-      {
-        "headline": "AMD: The AI Momentum Train Looks Unstoppable, But I'm Pausing Accumulation (Downgrade)",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=fa60dc991ccebbe8b01665afa1786a3583d26267d739bcd26b4592410ddb4e5b",
-        "datetime": 1790587841,
-        "headlineKo": "AMD: AI Momentum Train은 멈출 수 없을 것 같지만 축적을 일시 중지하고 있습니다(다운그레이드)",
-        "relevance": 1,
-        "keywordFlag": true,
-        "flagTerms": [
-          "downgrade"
-        ]
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "AMD Reaches a $1 Trillion Market Cap. Can It Finally Dethrone Nvidia?",
         "source": "Yahoo",
@@ -86729,7 +86796,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool AMD ( AMD +2.95% ) has had an incredible year.",
             "It's the ninth-best-performing S&P 500 ( ^GSPC +0.73% ) stock, rising nearly 200% so far this year."
           ],
-          "analysisUpdatedAt": 1791140472.957227
+          "analysisUpdatedAt": 1791165591.2699504
         }
       },
       {
@@ -86778,7 +86845,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791140475.0595956
+          "analysisUpdatedAt": 1791165592.8366175
         }
       },
       {
@@ -94332,68 +94399,18 @@ const NEWS_DATA = {
         "headlineKo": "반도체 반등이 세 번째 세션에 도달함에 따라 AMD는 7% 상승합니다. Broadcom 상승 3%, NVIDIA Edge 상승",
         "relevance": 1,
         "keywordFlag": false
-      },
-      {
-        "headline": "AMD: The Biggest Winner Of Intel's Price Hike",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=411d70f93b6a2bffe9e6512c7caada364c49534091a9f9ff74a1fdb32298068c",
-        "datetime": 1789650026,
-        "headlineKo": "AMD: 인텔 가격 인상의 가장 큰 승자",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "AMD: The Biggest Winner Of Intel's Price Hike",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD: The Biggest Winner Of Intel's Price Hike' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789681368.8409445
-        }
       }
     ],
-    "_fetched_at": 1791140402.203485,
-    "_updated_label": "2026-10-05 04:01",
-    "_last_success_at": 1791140402.203485,
-    "_collection_status": "error",
+    "_fetched_at": 1791165584.0493925,
+    "_updated_label": "2026-10-05 10:59",
+    "_last_success_at": 1791165584.0493925,
+    "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
-    },
-    "_last_error": "The read operation timed out"
+      "updated": "2026-10-05 10:59"
+    }
   },
   "AVGO": {
     "_last_attempt_at": 1791163273.369934,
@@ -101151,7 +101168,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "QCOM": {
@@ -106303,7 +106320,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 113,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "ARM": {
@@ -110435,7 +110452,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "MRVL": {
@@ -115908,7 +115925,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "INTC": {
@@ -123509,7 +123526,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 173,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "TSM": {
@@ -128271,7 +128288,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "ASML": {
@@ -131296,7 +131313,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "AMAT": {
@@ -134743,7 +134760,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "LRCX": {
@@ -136555,7 +136572,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "KLAC": {
@@ -138159,7 +138176,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "MU": {
@@ -145583,7 +145600,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "SNDK": {
@@ -151432,7 +151449,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 126,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "WDC": {
@@ -154566,7 +154583,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "ANET": {
@@ -157089,7 +157106,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "COHR": {
@@ -159831,7 +159848,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "LITE": {
@@ -162297,7 +162314,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "GEV": {
@@ -166147,7 +166164,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "CEG": {
@@ -168901,7 +168918,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "VST": {
@@ -171062,7 +171079,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "ETN": {
@@ -173574,7 +173591,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "PWR": {
@@ -175812,7 +175829,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "HUBB": {
@@ -176543,7 +176560,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "VRT": {
@@ -179473,7 +179490,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "MOD": {
@@ -180502,7 +180519,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "STX": {
@@ -182978,7 +182995,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "EME": {
@@ -184293,7 +184310,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "FIX": {
@@ -185444,7 +185461,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   },
   "BE": {
@@ -187343,7 +187360,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-05 10:28"
+      "updated": "2026-10-05 10:59"
     }
   }
 };
