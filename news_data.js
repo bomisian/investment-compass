@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1791213388.8175483,
+    "_last_attempt_at": 1791235924.639209,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -16,24 +16,22 @@ const NEWS_DATA = {
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Nasdaq, S&P 500, Dow 선물은 이번 주 Fed 회의록보다 꾸준히 앞서 있습니다: TSLA, SPCX, CBRS, QCOM, PTC, IBRX 주식에 초점 AI 에이전트 동향 뉴스 수익 전체 DIA 0.22% SPY 0.39% QQQ 0.52% 추세 SPCX 5.06% WULF 4.97% CBRS 10.59% CMG 4.28% GME",
-            "Nasdaq, S&P 500, Dow 선물은 이번 주 Fed 회의록보다 꾸준히 앞서 있습니다. TSLA, SPCX, CBRS, QCOM, PTC, IBRX 주식은 Stocktwits에 초점을 맞추고 있으며 SPY 및 QQQ에 대한 소매 감정은 지난주부터 '강세'를 유지했습니다.",
-            "나스닥 로고 표지판이 2026년 8월 7일 미국 뉴욕에서 보입니다."
+            "Nasdaq, S&P 500, Dow Futures Steady Ahead Of Fed Minutes This Week: TSLA, SPCX, CBRS, QCOM, PTC, IBRX Stocks In Focus",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.22%, 0.39%, 0.52% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -43,30 +41,18 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Nasdaq, S&P 500, Dow Futures Steady Ahead Of Fed Minutes This Week: TSLA, SPCX, CBRS, QCOM, PTC, IBRX Stocks In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.22%",
-            "0.39%",
-            "0.52%",
-            "5.06%",
-            "4.97%",
-            "10.59%",
-            "4.28%",
-            "3.93%"
-          ],
-          "sourceExcerpt": [
-            "Nasdaq, S&P 500, Dow Futures Steady Ahead Of Fed Minutes This Week: TSLA, SPCX, CBRS, QCOM, PTC, IBRX Stocks In Focus AI Agent Trending News Earnings All DIA 0.22% SPY 0.39% QQQ 0.52% Trending SPCX 5.06% WULF 4.97% CBRS 10.59% CMG 4.28% GME",
-            "Nasdaq, S&P 500, Dow Futures Steady Ahead Of Fed Minutes This Week: TSLA, SPCX, CBRS, QCOM, PTC, IBRX Stocks In Focus On Stocktwits, retail sentiment toward SPY and QQQ remained ‘bullish’ since last week.",
-            "Nasdaq logo sign is seen in New York City, United States, on August 7, 2026."
-          ],
-          "analysisUpdatedAt": 1791213399.5352614
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791235927.5459118
         },
         "headlineKo": "Nasdaq, S&P 500, Dow 선물은 이번 주 연준 회의록보다 꾸준히 앞서 있습니다: TSLA, SPCX, CBRS, QCOM, PTC, IBRX 주식에 집중"
       },
@@ -130,7 +116,7 @@ const NEWS_DATA = {
             "stock futures were mixed on Monday, as the Dow Jones index rose, while the S&P 500 and Nasdaq 100 indices fell, following Friday’s higher close.",
             "Geopolitical uncertainty continues to weigh on markets after Iranian officials declared that the Strait of Hormuz will not fully reopen until Washington meets seven conditions, maintaining a firm stance despite mediated proposals and recove"
           ],
-          "analysisUpdatedAt": 1791213401.9587822
+          "analysisUpdatedAt": 1791235930.8974254
         },
         "headlineKo": "오늘의 주식 시장: 이란이 호르무즈 해협을 재개하기 위한 조건을 유지함에 따라 다우 선물 상승, S&P 500, 나스닥 100 하락 - SPCX, QCOM, VST 초점(업데이트됨)"
       },
@@ -180,7 +166,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791213403.2946637
+          "analysisUpdatedAt": 1791235931.9524972
         },
         "headlineKo": "SPY와 QQQ는 폭이 안정되면서 확고한 지위를 유지하지만 참여는 여전히 좁습니다."
       },
@@ -333,24 +319,22 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Nasdaq, S&P 500, Dow 선물은 이번 주 Fed 회의록보다 꾸준히 앞서 있습니다: TSLA, SPCX, CBRS, QCOM, PTC, IBRX 주식에 초점 AI 에이전트 동향 뉴스 수익 전체 DIA 0.22% SPY 0.39% QQQ 0.52% 추세 SPCX 5.06% WULF 4.97% CBRS 10.59% CMG 4.28% GME",
-            "Nasdaq, S&P 500, Dow 선물은 이번 주 Fed 회의록보다 꾸준히 앞서 있습니다. TSLA, SPCX, CBRS, QCOM, PTC, IBRX 주식은 Stocktwits에 초점을 맞추고 있으며 SPY 및 QQQ에 대한 소매 감정은 지난주부터 '강세'를 유지했습니다.",
-            "나스닥 로고 표지판이 2026년 8월 7일 미국 뉴욕에서 보입니다."
+            "Nasdaq, S&P 500, Dow Futures Steady Ahead Of Fed Minutes This Week: TSLA, SPCX, CBRS, QCOM, PTC, IBRX Stocks In Focus",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.22%, 0.39%, 0.52% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -360,30 +344,18 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Nasdaq, S&P 500, Dow Futures Steady Ahead Of Fed Minutes This Week: TSLA, SPCX, CBRS, QCOM, PTC, IBRX Stocks In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.22%",
-            "0.39%",
-            "0.52%",
-            "5.06%",
-            "4.97%",
-            "10.59%",
-            "4.28%",
-            "3.93%"
-          ],
-          "sourceExcerpt": [
-            "Nasdaq, S&P 500, Dow Futures Steady Ahead Of Fed Minutes This Week: TSLA, SPCX, CBRS, QCOM, PTC, IBRX Stocks In Focus AI Agent Trending News Earnings All DIA 0.22% SPY 0.39% QQQ 0.52% Trending SPCX 5.06% WULF 4.97% CBRS 10.59% CMG 4.28% GME",
-            "Nasdaq, S&P 500, Dow Futures Steady Ahead Of Fed Minutes This Week: TSLA, SPCX, CBRS, QCOM, PTC, IBRX Stocks In Focus On Stocktwits, retail sentiment toward SPY and QQQ remained ‘bullish’ since last week.",
-            "Nasdaq logo sign is seen in New York City, United States, on August 7, 2026."
-          ],
-          "analysisUpdatedAt": 1791213399.5352614
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791235927.5459118
         }
       },
       {
@@ -446,7 +418,7 @@ const NEWS_DATA = {
             "stock futures were mixed on Monday, as the Dow Jones index rose, while the S&P 500 and Nasdaq 100 indices fell, following Friday’s higher close.",
             "Geopolitical uncertainty continues to weigh on markets after Iranian officials declared that the Strait of Hormuz will not fully reopen until Washington meets seven conditions, maintaining a firm stance despite mediated proposals and recove"
           ],
-          "analysisUpdatedAt": 1791213401.9587822
+          "analysisUpdatedAt": 1791235930.8974254
         }
       },
       {
@@ -495,7 +467,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791213403.2946637
+          "analysisUpdatedAt": 1791235931.9524972
         }
       },
       {
@@ -4312,15 +4284,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791213388.8175483,
-    "_updated_label": "2026-10-06 00:16",
-    "_last_success_at": 1791213388.8175483,
+    "_fetched_at": 1791235924.639209,
+    "_updated_label": "2026-10-06 06:32",
+    "_last_success_at": 1791235924.639209,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "SPY": {
@@ -9827,7 +9799,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 112,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "MSFT": {
@@ -18042,7 +18014,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "GOOGL": {
@@ -26082,7 +26054,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "AMZN": {
@@ -33958,7 +33930,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "META": {
@@ -41750,7 +41722,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "AAPL": {
@@ -49766,7 +49738,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "TSLA": {
@@ -57508,7 +57480,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "ORCL": {
@@ -65806,7 +65778,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "CRM": {
@@ -71419,7 +71391,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "PLTR": {
@@ -79839,7 +79811,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "NVDA": {
@@ -87503,7 +87475,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "AMD": {
@@ -95439,7 +95411,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "AVGO": {
@@ -102581,7 +102553,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "QCOM": {
@@ -108115,7 +108087,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "ARM": {
@@ -112401,7 +112373,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "MRVL": {
@@ -118084,7 +118056,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 118,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "INTC": {
@@ -126040,7 +126012,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 183,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "TSM": {
@@ -131037,7 +131009,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 109,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "ASML": {
@@ -134108,7 +134080,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "AMAT": {
@@ -137588,7 +137560,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "LRCX": {
@@ -139508,7 +139480,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "KLAC": {
@@ -141236,7 +141208,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "MU": {
@@ -148676,7 +148648,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "SNDK": {
@@ -154761,7 +154733,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "WDC": {
@@ -158235,7 +158207,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "ANET": {
@@ -160885,7 +160857,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "COHR": {
@@ -163683,7 +163655,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "LITE": {
@@ -166317,7 +166289,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "GEV": {
@@ -170297,7 +170269,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "CEG": {
@@ -173333,7 +173305,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "VST": {
@@ -175843,7 +175815,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "ETN": {
@@ -178403,7 +178375,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "PWR": {
@@ -180682,7 +180654,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "HUBB": {
@@ -181403,7 +181375,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "VRT": {
@@ -184531,7 +184503,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "MOD": {
@@ -185595,7 +185567,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "STX": {
@@ -188465,7 +188437,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "EME": {
@@ -189829,7 +189801,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "FIX": {
@@ -191027,7 +190999,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   },
   "BE": {
@@ -192926,7 +192898,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-06 06:00"
+      "updated": "2026-10-06 06:32"
     }
   }
 };
