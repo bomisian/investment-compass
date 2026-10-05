@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791188430.347505,
+  "generatedAt": 1791190327.1386116,
   "events": [
     {
       "id": "0db869b430e28449552b",
@@ -6990,9 +6990,10 @@ const EVENT_DATA = {
       "primaryTicker": "QQQ",
       "relatedTickers": [
         "NVDA",
+        "QCOM",
         "QQQ",
         "SPY",
-        "VST"
+        "TSM"
       ],
       "relatedEntities": [],
       "importance": "medium",
@@ -7012,17 +7013,17 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d04eae234e3a29ff64372c2c9007ab3075e1d99b0395ce2a635e928e33c28b0a",
         "publishedAt": 1790980139,
-        "collectedAt": 1791167472.160292
+        "collectedAt": 1791190304.3417792
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "S&P 500, Nasdaq, Dow End Week Higher As Weak Jobs Report Cools Rate Hike Bets — NVDA, BA, SPCX, RIVN, APLD In Focus AI Agent Trending News Earnings All DIA 0.03% SPY 0.11% QQQ 0.35% Trending BTC 2.03% SDEV 29.55% QQQ 0.35% IBRX 1.22% VST 6.",
-        "S&P 500, 나스닥, 다우 엔드 위크가 약한 일자리로 더 높을수록 금리 인상 베팅이 냉각된다고 보고 — NVDA, BA, SPCX, RIVN, APLD In Focus 미국",
-        "경제는 지난달 29,000개의 일자리를 추가했으며, 실업률은 4.2% 로 경제학자들이 예상했던 것보다 낮습니다."
+        "S&P 500, Nasdaq, Dow는 취약한 일자리 보고서가 금리 인상 베팅을 식혀 주말 상승 — NVDA, BA, SPCX, RIVN, APLD 초점 AI 에이전트 동향 뉴스 수입 전체 DIA 0.03% SPY 0.03% QQQ 0.00% 추세 SDEV 13.96% CBRS 6.35% XRPN 0.52% QCOM 3.75% TSM",
+        "S&P 500, Nasdaq, Dow는 취약한 일자리 보고서가 금리 인상 베팅을 냉각함에 따라 주간 상승세 — NVDA, BA, SPCX, RIVN, APLD In Focus",
+        "경제는 지난 달 29,000개의 일자리를 추가했으며 실업률은 경제학자들의 예상보다 낮은 4.2%로 상승했습니다."
       ],
       "marketInterpretation": [
         "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.03%, 0.11%, 0.35% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.03%, 0.00%, 13.96% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -7037,7 +7038,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.03%, 0.11%, 0.35% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.03%, 0.00%, 13.96% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -13149,7 +13150,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bc8aa8f8dc7b1b729cc67078895996bac0600bf43adbaf273446fd9ed902bc59",
         "publishedAt": 1790921953,
-        "collectedAt": 1791167472.160292
+        "collectedAt": 1791190304.3417792
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18292,6 +18293,7 @@ const EVENT_DATA = {
       "0db869b430e28449552b",
       "cf499e4f16a7324eecd2",
       "c727f18a7b52c5f7cbeb",
+      "130a6564f18c190d37ff",
       "9fac4fcf84309c051f01",
       "403f904bbe24f8384648",
       "413e80e265c154b77a86",
@@ -18882,6 +18884,7 @@ const EVENT_DATA = {
       "af2137c7f6b1d9768ffe",
       "c727f18a7b52c5f7cbeb",
       "8b45b89516618ef25ada",
+      "130a6564f18c190d37ff",
       "ee0213893f6c9dad1e3e",
       "430a9bae8e9a1aecd4f3",
       "e0eeae9ec683bcaedb54",
@@ -18918,7 +18921,6 @@ const EVENT_DATA = {
       "2d0e78f2f89b04be7bd4"
     ],
     "VST": [
-      "130a6564f18c190d37ff",
       "1cde97e0c777a2860f13",
       "be073e69c886b8afc328"
     ],
