@@ -3021,6 +3021,25 @@ const BUSINESS_NOTES = {
     newsLog: [
       {
         date: "2026-10-05",
+        headline: "테슬라·스페이스X의 테라팹(Terafab) 프로젝트에 TSMC 참여 논의 확인 - 인텔 파운드리 독점 구도 흔들리며 주가 -2~4%",
+        tone: "negative",
+        importance: "high",
+        horizon: "단기(테라팹 파트너십 구체화 여부)~중기(인텔 파운드리 외부고객 확보 전략 전반)",
+        facts: ["2026-10-03 일론 머스크가 X(트위터)에서 TSMC와 테라팹(Terafab) 관련 초기 논의가 있다고 확인 - 'Just discussions, but something may come of it'(Culpium/Fool.com 보도)", "테라팹은 테슬라·스페이스X·xAI가 텍사스 그라임스 카운티에 짓는 반도체 생산 프로젝트로, 1단계 투자액 168억달러 이상, 전체 단계 합산 최대 1,190억달러 규모, 연간 약 1테라와트 컴퓨팅 파워 목표(Fool.com/Tikr)", "인텔은 2026년 4월 테라팹에 합류한 첫 번째이자 유일하게 공개된 칩 생산 파트너로, 자사 14A 공정을 테라팹의 유일한 명시된 공정 기술로 제공 중이었음(Tikr)", "보도에 따르면 TSMC가 신규 공장을 소유·운영하며 스페이스X/테라팹이 투자 및 구매 약정을 맡는 구조, 또는 스페이스X가 지분 대부분을 보유하고 TSMC가 기술·운영을 지원하는 구조 등 두 가지 시나리오가 거론됨 - 어느 쪽이든 인텔의 14A 공정을 TSMC 기술로 대체할 가능성(Culpium/Fool.com)", "이 소식에 인텔 주가는 월요일(10/5) 장중 약 -2~4% 하락한 반면, TSMC의 대만 상장 주식은 +3% 상승 마감(Tikr)", "인텔 외부 파운드리 고객 매출은 2026년 2분기 기준 2.93억달러로, 전체 파운드리 수주잔고 58억달러에 비해 미미한 수준(Tikr) - 테라팹은 인텔에 실제 매출 기여보다 '명성·레퍼런스' 역할이 더 컸다는 평가"],
+        why: ["인텔은 10월 2일 기준 주가가 선행 PER 약 71배에 거래되며, 이러한 고밸류에이션은 테라팹 같은 대형 고객을 '독점적으로' 확보했다는 전제를 반영한 것인데, TSMC와 역할을 공유하게 되면 그 경쟁우위 논리가 흔들림(Tikr)", "테라팹 자체가 아직 매출에 기여하지 않는 '레퍼런스 고객' 단계였기 때문에, 이번 소식의 재무적 영향은 당장 크지 않지만 인텔 파운드리 사업의 '턴어라운드 스토리'에 대한 신뢰도를 흔드는 신호로 해석됨", "이미 인텔의 리스크 요인으로 '인텔과 TSMC·테슬라와의 파운드리 계약이 테라팹 관련으로 흔들릴 가능성'이 지속 거론돼 왔는데, 이번 소식으로 그 우려가 실제 뉴스로 구체화된 사례"],
+        beginner: ["일론 머스크가 짓고 있는 '테라팹'이라는 반도체 공장 프로젝트에 인텔이 유일한 생산 파트너였는데, 이번에 대만의 TSMC(세계 최대 파운드리 회사)도 참여할 수 있다는 얘기가 나왔어요.", "그래서 인텔이 '독점으로 확보한 큰 고객'이라는 타이틀이 흔들릴 수 있다는 우려로 인텔 주가가 하루 동안 2~4% 정도 떨어졌어요.", "반대로 TSMC 주가는 이 소식에 대만 증시에서 3% 올랐어요 - TSMC에게는 새로운 사업 기회로 해석된 거예요.", "다만 아직은 '논의 중'이라는 단계고, 테라팹 계약 자체가 인텔 매출에 크게 기여하던 것도 아니었어서, 당장 인텔의 실적에 큰 충격은 아니에요."],
+        watch: ["테라팹-TSMC 파트너십의 구체적 계약 구조(소유권·공정 기술 제공 방식) 공식 발표 여부", "인텔 14A 공정의 실제 수율·양산 진행 상황", "인텔 파운드리 외부 고객 매출의 향후 분기 추이(현재 2.93억달러 수준)", "일론 머스크·TSMC 측의 추가 공식 확인 또는 번복 여부"],
+        interpretation: "이번 소식은 아직 '논의' 단계에 불과하지만, 인텔 파운드리 사업의 고밸류에이션을 지지하던 핵심 서사(대형 고객 독점 확보)에 균열을 낸 사건이다. 테라팹 자체의 매출 기여는 미미했으나, 외부 고객 확보가 절실한 인텔 파운드리에 상징적 타격이 될 수 있다. 반면 TSMC는 추가 수주 기회로 긍정적이다.",
+        decision: "인텔 포지션 보유자는 테라팹 파트너십의 실제 계약 구조(독점/공유 여부)가 확정될 때까지 보수적 접근 권장. 이미 고평가(선행 PER 71배) 상태에서 나온 부정적 뉴스이므로 단기 변동성 확대 가능성 유의. TSM은 추가 수주 측면에서 긍정적이나 아직 '논의' 단계라 즉각적 비중 확대 근거로 삼기엔 이른 시점.",
+        confidence: "일론 머스크의 X 발언, Culpium 뉴스레터 보도, 인텔·TSMC 주가 반응(각각 -2~4%, +3%)은 Fool.com, Tikr, Investing.com 등 복수 매체에서 교차 확인됨. 다만 테라팹-TSMC 파트너십의 정확한 계약 구조는 아직 공식 확정되지 않아 세부 내용은 추정 단계.",
+        sources: [
+          { title: "Elon Musk Confirmed Terafab Talks With TSMC. Intel Has Been Its Only Named Chip Partner. (The Motley Fool)", url: "https://www.fool.com/investing/2026/10/05/elon-musk-confirmed-terafab-talks-with-tsmc-intel-has-been-its-only-named-chip-partner/" },
+          { title: "Intel Drops as Musk Signals TSMC Could Join Terafab, a 'Setback' for Its Foundry Comeback (TIKR)", url: "https://www.tikr.com/blog/intel-drops-as-musk-signals-tsmc-could-join-terafab-a-setback-for-its-foundry-comeback" },
+          { title: "Intel stock slides as TSMC explores Terafab tie-up, analyst flags share losses (Investing.com)", url: "https://www.investing.com/news/stock-market-news/intel-stock-slides-as-tsmc-explores-terafab-tieup-analyst-flags-share-losses-4931558" },
+        ],
+      },
+      {
+        date: "2026-10-05",
         headline: "인텔, 15,000명 대규모 감원 발표 - 데이터센터 사업부 집중 구조조정, 이스라엘 인원 감원은 유대인 명절 회피해 10월 말로 연기",
         tone: "negative",
         importance: "high",
@@ -7084,6 +7103,25 @@ const BUSINESS_NOTES = {
       {title:"Vistra Receives Approval to Operate Comanche Peak Nuclear Plant Through 2053", url:"https://investor.vistracorp.com/2024-07-30-Vistra-Receives-Approval-to-Operate-Comanche-Peak-Nuclear-Plant-Through-2053"},
     ],
     newsLog: [
+      {
+        date: "2026-10-05",
+        headline: "비스트라, 美 DOE로부터 42억달러 원전 업그레이드 대출 확보 공식화 - 페리·데이비스베스·비버밸리 3개 원전 대상, 주가 +4~6%",
+        tone: "positive",
+        importance: "high",
+        horizon: "단기(대출 확정 발표 효과)~중기(원전 출력 증강 완료 시점까지)",
+        facts: ["2026-10-05 미국 에너지부(DOE)가 비스트라(VST)에 약 42억달러 규모 대출을 제공해 보유 원자력발전소 4곳 중 3곳 이상의 출력 증강(uprate)을 지원한다고 발표 - 에너지장관 크리스 라이트가 오하이오주 페리(Perry) 원전 현장을 방문해 직접 발표(Benzinga)", "대상 원전은 오하이오주 페리(Perry), 오하이오주 데이비스-베스(Davis-Besse), 펜실베이니아주 비버밸리(Beaver Valley) 3곳(Benzinga)", "라이트 장관 발언: '이미 보유한 원자력발전소에서 더 많은 전력을 뽑아냄으로써, 미국 가정과 기업에 더 저렴하고 안정적인 24시간 전력을 공급할 수 있다'(Benzinga)", "이번 대출로 증강되는 출력 중 433MW는 2026년 1월 메타(META)가 비스트라와 체결한 20년 전력구매계약(PPA, PJM 지역 AI 데이터센터向 총 2.6GW 이상)의 일부로 공급될 예정(Benzinga)", "비스트라 주가는 10/5 장중 +4~6% 상승(프리마켓 +6.06% → 오전 중 +4.1%, 약 $145~148선 거래), 다만 52주 최고가($217.10) 대비는 여전히 약 33% 낮은 수준(Benzinga)", "모건스탠리는 지난 8월 21일 비중확대(Overweight) 의견과 함께 목표주가 $227 제시, 애널리스트 평균 목표가는 $222(11개 기관, $169~$298 범위)(Benzinga)"],
+        why: ["AI 데이터센터 전력 수요 급증 속에서 정부 대출을 통한 기존 원전 출력 증강은 신규 발전소 건설보다 빠르고 저비용으로 전력 공급을 늘릴 수 있는 방법 - 비스트라의 기존 메타向 PPA 이행 능력을 뒷받침하는 재료", "정부(DOE) 차원의 공식 대출 확정은 민간 계약(메타 PPA)보다 더 확실성이 높은 신호로, 시장이 '전력 공급 리스크 해소'로 받아들여 주가가 즉각 반응", "다만 이미 알려진 이슈(10/2 블룸버그 최초 보도)의 공식 확정 단계로, 주가에 이미 상당 부분 선반영됐을 가능성도 있어 추가 상승 여력은 제한적일 수 있음"],
+        beginner: ["비스트라는 발전소(전기를 만드는 회사)인데, 미국 정부(에너지부)가 이 회사에 약 42억달러를 빌려줘서 기존 원자력발전소 3곳의 발전량을 늘리는 공사를 돕기로 했어요.", "이렇게 늘어나는 전기 중 일부는 이미 메타(페이스북 모회사)가 AI 데이터센터에 쓰기로 20년 계약을 맺어둔 전기예요 - 그래서 이번 대출은 그 계약을 실제로 지킬 수 있게 돕는 역할을 해요.", "이 소식에 비스트라 주가가 하루 동안 4~6% 정도 올랐어요. 다만 1년 전 최고가보다는 아직 33% 정도 낮은 상태예요."],
+        watch: ["페리·데이비스베스·비버밸리 3개 원전 출력 증강 공사의 구체적 완공 일정", "메타向 433MW 공급 개시 시점 및 PPA 이행 현황", "비스트라 3분기(11월 초 예상) 실적에서 전력판매량·가이던스 변화", "경쟁사(컨스텔레이션 에너지 등)의 유사 DOE 대출·원전 증강 계약 공시 여부"],
+        interpretation: "AI 데이터센터발 전력 수요 급증 국면에서 정부 대출이라는 확실성 높은 재원이 확보되며 비스트라의 메타向 공급 이행력이 한층 강화됐다. 다만 이번 사안은 10월 2일 최초 보도 이후 공식화 단계로, 서프라이즈 강도는 크지 않을 수 있다.",
+        decision: "기존 보유자는 긍정적 뉴스로 홀드 유지 적절. 신규 진입 고려 시에는 이미 상당 부분 반영된 점을 감안해 다음 실적 발표(3분기, 11월 초 예상)에서 원전 증강 진행 상황과 가이던스 변화를 확인한 뒤 판단 권장.",
+        confidence: "DOE 대출 금액(42억달러), 대상 원전 3곳, 에너지장관 현장 발표, 메타 PPA 연계, 주가 반응은 Benzinga 등 복수 매체로 교차 확인됨. 다만 대출의 세부 조건(금리·상환기간 등)은 공개되지 않아 확인되지 않음.",
+        sources: [
+          { title: "Vistra Gets $4.2B Federal Loan to Add Nuclear Power Meta Already Bought (Benzinga)", url: "https://www.benzinga.com/markets/tech/26/10/62169350/vistra-gets-4-2b-federal-loan-to-add-nuclear-power-meta-already-bought" },
+          { title: "Why Is Vistra Stock Soaring Monday? (Benzinga)", url: "https://www.benzinga.com/trading-ideas/movers/26/10/62155488/why-is-vistra-stock-soaring-monday" },
+          { title: "Trump Administration to Back $4B Loans for Vistra's Nuclear Facility Upgrades (GuruFocus)", url: "https://www.gurufocus.com/news/9108044/trump-administration-to-back-4b-loans-for-vistras-nuclear-facility-upgrades-vst" },
+        ],
+      },
       {
         date: "2026-09-21",
         headline: "비스트라, 텍사스 AI 데이터센터에 20년 장기 전력공급 계약 체결 — 200~207 MW 공급",
