@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791253012.6423547,
+  "generatedAt": 1791254919.5002232,
   "events": [
     {
       "id": "5be73c17f26ed7fe7b49",
@@ -9315,7 +9315,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126038468/ef20083016_8k.htm",
         "publishedAt": 1791126000.0,
-        "collectedAt": 1791232175.8027217
+        "collectedAt": 1791254902.3178566
       },
       "confirmedFacts": [
         "VST가 2026-10-05에 SEC Form 8-K을 제출했습니다.",
@@ -9380,7 +9380,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126038523/ef20083229_8k.htm",
         "publishedAt": 1791126000.0,
-        "collectedAt": 1791232175.8027217
+        "collectedAt": 1791254902.3178566
       },
       "confirmedFacts": [
         "ETN가 2026-10-05에 SEC Form 8-K을 제출했습니다.",
