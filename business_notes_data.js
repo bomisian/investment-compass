@@ -3011,6 +3011,25 @@ const BUSINESS_NOTES = {
     ],
     newsLog: [
       {
+        date: "2026-10-06",
+        headline: "인베스터 데이에서 FY2028 매출 목표 $200억(기존 $180억에서 상향)·FY2031 $700~900억 제시 - 주가 +5.8% 급등",
+        importance: "high",
+        tone: "positive",
+        horizon: "중장기(FY2028~FY2031 가이던스 실현 여부)",
+        facts: ["Marvell이 2026-10-06 인베스터 데이에서 FY2028(2028회계연도) 매출 목표를 기존 8월 제시했던 $180억에서 $200억으로 상향했다.", "장기적으로는 FY2031까지 매출 $700~900억, 주당순이익(EPS) $30 이상을 목표로 제시했다 - FY2026 희석 EPS $3.07 대비 약 10배 수준이다.", "회사는 AI 데이터센터向 커스텀칩·네트워킹 장비 수요를 성장 동력으로 꼽았고, 앞서 2026년 중 엔비디아가 마벨에 $20억을 투자하며 AI 협업을 발표한 바 있다.", "이날 주가는 $287.01로 전일 대비 +5.81%($15.76) 상승 마감했고, 거래량은 5,110만주로 3개월 평균 대비 122% 많았다.", "브로드컴(+3.67%)·아리스타네트웍스(+4.12%) 등도 동반 상승하며 AI 인프라 업종 전반에 긍정적 분위기가 확인됐다."],
+        why: ["불과 8/27 실적 발표 때는 '구글 TPU 파트너십 매출 기여가 FY2029로 지연된다'는 소식에 주가가 -7%대 하락했었는데, 이번 인베스터 데이에서 오히려 장기 목표치를 더 끌어올리며 그 우려를 정면으로 되돌린 셈이다. 경영진이 공개적으로 더 높은 숫자를 제시했다는 것은 커스텀 실리콘·AI 데이터센터 수주 파이프라인에 대한 자신감을 시사한다."],
+        beginner: ["한 달 반쯤 전 실적 발표 때는 '구글과의 큰 거래가 생각보다 늦게(2029년) 돈이 된다'는 소식에 주가가 떨어졌었는데, 오늘은 회사가 스스로 '우리 2028년 매출 목표를 더 올리고, 2031년까지는 지금보다 훨씬 커질 것'이라고 발표하면서 주가가 하루에 6% 가까이 올랐어요. 숫자로 자신감을 보여준 셈이에요."],
+        interpretation: "8월 실적 발표 후 제기됐던 '구글 파트너십 매출 지연' 우려를 장기 가이던스 상향으로 상쇄한 모습이다. 다만 이번 목표는 투자자 대상 프레젠테이션에서 제시한 '목표(target)'일 뿐 확정된 수주 계약이 아니므로, 실제 매출로 이어지는지는 분기별 실적으로 계속 확인해야 한다.",
+        decision: "장기 목표 상향 자체는 긍정적 신호이나 아직 '약속' 단계이므로, 다음 분기(3분기 FY27) 실적에서 데이터센터·커스텀 실리콘 매출이 실제로 가속하는지를 확인한 뒤 비중 조절을 판단할 것.",
+        watch: ["다음 분기 실적에서 데이터센터 매출 성장률이 가속되는지", "구글 등 하이퍼스케일러 커스텀칩 신규 수주·타임라인 구체화 여부", "FY2028/FY2031 목표에 대한 애널리스트들의 달성 가능성 평가"],
+        confidence: "매출 목표·주가·거래량 수치는 The Motley Fool·MarketScreener·Investing.com 등 복수 매체가 교차 확인 - 신뢰도 높음. 다만 FY2031 목표는 회사측 장기 전망(forward-looking) 수치임에 유의.",
+        sources: [
+        {title:"Stock Market Today, Oct. 6: Marvell Stock Is Up as the Company Raises FY2028 Revenue Outlook to $20 Billion (The Motley Fool)", url:"https://www.fool.com/coverage/stock-market-today/2026/10/06/stock-market-today-oct-6-marvell-stock-is-up-as-the-company-raises-fy2028-revenue-outlook-to-usd20-billion/"},
+        {title:"Marvell raises 2028 revenue forecast on strong AI data center demand (MarketScreener)", url:"https://www.marketscreener.com/news/marvell-raises-2028-revenue-forecast-on-strong-ai-data-center-demand-ce785dd9db88f626"},
+        {title:"Marvell Technology stock rallies following ambitious investor day targets (Investing.com)", url:"https://in.investing.com/news/stock-market-news/marvell-technology-stock-rallies-following-ambitious-investor-day-targets-5620776"},
+        ],
+      },
+      {
         date: "2026-08-27",
         headline: "Q2(FY27) 실적 서프라이즈(매출 27.4억·EPS $0.94, 사상 최대)에도 시간외 -7% 하락 - 구글 파트너십 매출 기여가 FY2029로 지연된다는 소식이 실망 매물 촉발",
         importance: "high",
@@ -7164,6 +7183,25 @@ const BUSINESS_NOTES = {
       {title:"CEG: The Nuclear Scarcity Play Powering the AI Demand Boom", url:"https://simplywall.st/community/narratives/us/utilities/nasdaq-ceg/constellation-energy/ehd5fv4c-constellation-energy-dollarceg-the-nuclear-scarcity-play-powering-the-ai-demand-boom"},
     ],
     newsLog: [
+      {
+        date: "2026-10-06",
+        headline: "구글과 20년 원자력 전력계약 체결 - 890MW 신규 원전용량·$43억+ 투자, 주가 급등",
+        importance: "high",
+        tone: "positive",
+        horizon: "중장기(2028년 첫 가동~계약기간 20년)",
+        facts: ["구글과 Constellation Energy가 2026-10-06 20년 전력구매계약(PPA)을 체결해 PJM 전력망에 890MW 규모의 신규 원자력 발전용량을 공급하기로 했다.", "Constellation은 이 프로그램에 $43억 이상을 신규 투자하며, 일리노이·펜실베이니아·뉴저지 3개 주에 위치한 11개 원자로의 출력증강(uprate)에 투입된다.", "첫 출력증강은 2028년 완료가 목표이며, 이후 계약 기간에 걸쳐 순차적으로 진행된다.", "구글은 추가로 Constellation의 기존 PJM 발전설비에서 15년간 2,700MW를 공급받는 별도 계약과, 구글 클라우드·Gemini Enterprise 기반 5년 기술 협력(전력망 운영 최적화용 'AI for energy')도 함께 체결했다.", "발표 직후 Constellation(CEG) 주가는 프리마켓에서 약 +3.9%~+8.4% 올랐고, 정규장에서도 두 자릿수대(+12~15%) 급등하며 마감했다 - 다만 올해 들어서는(YTD) 여전히 -17.9% 하락한 상태다.", "구글(알파벳) 주가도 소폭(+1%대) 동반 상승했다.", "이번 계약은 약 4,400개의 기존 일자리를 유지하고, 건설 기간 중 약 7,200개의 신규 일자리를 창출할 것으로 전망된다."],
+        why: ["AI 데이터센터의 전력 수요가 빅테크의 원자력 투자로 직결되는 흐름을 보여주는 대형 계약으로, 최근 빅테크들의 원전·전력 계약 러시 속에 Constellation이 핵심 수혜자로 다시 한번 부각됐다. 올해 들어 주가가 많이 빠져있던 상황에서 나온 대형 호재라 반등폭이 컸다."],
+        beginner: ["구글이 AI 서비스를 돌리는 데 필요한 전기를 20년 동안 안정적으로 확보하기 위해, 원자력 발전회사인 Constellation과 대형 계약을 맺었어요. Constellation은 이 돈(4조원 넘는 금액)을 자기 원전들을 더 강하게(출력 증강) 만드는 데 써요. 전기를 팔 곳이 확실히 생긴 거라 주가가 하루 사이 두 자릿수로 뛰었어요."],
+        interpretation: "AI 데이터센터向 전력 수요가 실제 장기 계약(20년)으로 구체화된 사례로, CEG·VST·GEV 등 전력/원자력 관련주 전반에 긍정적 참고가 된다. 다만 올해 YTD 기준으로는 여전히 마이너스 구간이라, 이번 반등이 추세 전환인지 단기 급등인지는 추후 가격 흐름으로 확인이 필요하다.",
+        decision: "계약 자체는 장기 매출 가시성을 높이는 호재이므로 보유 포지션을 유지할 근거가 되나, 급등 이후 단기 과열 가능성도 있어 추격 매수보다는 추후 조정 시 진입 여부를 검토할 것.",
+        watch: ["11개 원자로 출력증강 관련 규제당국(NRC) 승인 진행 상황", "2028년 첫 출력증강 일정 준수 여부", "다른 빅테크(아마존·마이크로소프트·메타)의 추가 원자력 계약 발표 여부 - 업종 전반 밸류에이션 재평가 가능성"],
+        confidence: "계약 조건(MW·투자액·기간)은 구글 공식 보도자료 및 Yahoo Finance·Benzinga 등 복수 매체가 교차 확인 - 신뢰도 높음. 주가 반응폭은 소스별로 프리마켓(+3.9~8.4%)과 정규장 마감(+12~15%) 수치가 다소 달라 범위로 표기함.",
+        sources: [
+        {title:"Google and Constellation Announce Landmark Agreement to Bring 890 MW of New Nuclear Capacity to PJM Grid (Google Cloud 공식 발표)", url:"https://www.googlecloudpresscorner.com/2026-10-06-Google-and-Constellation-Announce-Landmark-Agreement-to-Bring-890-MW-of-New-Nuclear-Capacity-to-PJM-Grid-as-Part-of-Long-Term-Power-Deal"},
+        {title:"Google signs 20-year nuclear deal with Constellation Energy to power AI build-out (Yahoo Finance)", url:"https://finance.yahoo.com/technology/article/google-signs-20-year-nuclear-deal-with-constellation-energy-to-power-ai-build-out-131104702.html"},
+        {title:"Google Bets 20 Years On Constellation Reactors: Nuclear Stocks Rally (Benzinga)", url:"https://www.benzinga.com/markets/tech/26/10/62190391/google-constellation-energy-nuclear-deal-stocks-rally"},
+        ],
+      },
       {
         date: "2026-08-26",
         headline: "[방향성 체크] 원자력 계약 기반 성장으로 EPS 가이던스 상향 - 낙폭과다는 실적 부진이 아니라 밸류에이션·시장 전반 조정 성격",
