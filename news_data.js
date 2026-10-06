@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1791305118.0243714,
+    "_last_attempt_at": 1791327602.04408,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -52,7 +52,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791305121.5739586
+          "analysisUpdatedAt": 1791327605.7458732
         },
         "headlineKo": "향후 20년 동안 QQQ 대신 VOO를 선택하는 이유"
       },
@@ -102,7 +102,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791305122.5503006
+          "analysisUpdatedAt": 1791327606.6930244
         },
         "headlineKo": "나스닥이 사상 최고치를 기록하다: 이것은 점점 더 터무니없어지고 있다"
       },
@@ -122,13 +122,13 @@ const NEWS_DATA = {
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "나스닥, 다우 선물이 프리마켓 상승하는 이유는 무엇입니까?",
-            "SPCX, NVDA, CEG, AMD, ORCL, NOK 초점 AI 에이전트 동향 뉴스 수익 전체 DIA 0.58% SPY 0.72% QQQ 0.66% 동향 MRVL 5.18% NVAX 10.99% NLST 15.22% SKHY 4.06% VST 11.15% CEG 14.38% FCEL 10.79% NBIS 8.57% APLD 2.33% TEM 10.93% 홈뉴스M",
-            "SPCX, NVDA, CEG, AMD, ORCL, NOK 집중 광고 | 광고를 제거하세요."
+            "Nasdaq, Dow Futures가 프리마켓에서 상승하는 이유는 무엇입니까?",
+            "SPCX, NVDA, CEG, AMD, ORCL, NOK In Focus AI 에이전트 동향 뉴스 수입 모든 DIA 0.53% 스파이 0.66% QQQ 0.51% 동향 SPCX 0.37% AMZN 2.23% APLD 3.00% NLST 17.88% PENG 11.51% ZETA 2.62% WDC 6.65% STZ 2.48% INTC 2.88% NVDA 0.58% 홈 뉴스 마크",
+            "SPCX, NVDA, CEG, AMD, ORCL, NOK In Focus 광고 | 광고 제거."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.58%, 0.72%, 0.66% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.53%, 0.66%, 0.51% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -152,21 +152,21 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.58%",
-            "0.72%",
+            "0.53%",
             "0.66%",
-            "5.18%",
-            "10.99%",
-            "15.22%",
-            "4.06%",
-            "11.15%"
+            "0.51%",
+            "0.37%",
+            "2.23%",
+            "3.00%",
+            "17.88%",
+            "11.51%"
           ],
           "sourceExcerpt": [
             "Why Are Nasdaq, Dow Futures Rising Premarket?",
-            "SPCX, NVDA, CEG, AMD, ORCL, NOK In Focus AI Agent Trending News Earnings All DIA 0.58% SPY 0.72% QQQ 0.66% Trending MRVL 5.18% NVAX 10.99% NLST 15.22% SKHY 4.06% VST 11.15% CEG 14.38% FCEL 10.79% NBIS 8.57% APLD 2.33% TEM 10.93% Home News M",
+            "SPCX, NVDA, CEG, AMD, ORCL, NOK In Focus AI Agent Trending News Earnings All DIA 0.53% SPY 0.66% QQQ 0.51% Trending SPCX 0.37% AMZN 2.23% APLD 3.00% NLST 17.88% PENG 11.51% ZETA 2.62% WDC 6.65% STZ 2.48% INTC 2.88% NVDA 0.58% Home News Mark",
             "SPCX, NVDA, CEG, AMD, ORCL, NOK In Focus Advertisement | Remove ads."
           ],
-          "analysisUpdatedAt": 1791305127.2678347
+          "analysisUpdatedAt": 1791327613.9830244
         },
         "headlineKo": "나스닥, 다우 선물이 프리마켓 상승하는 이유는 무엇입니까? SPCX, NVDA, CEG, AMD, ORCL, NOK 초점"
       },
@@ -355,7 +355,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791305121.5739586
+          "analysisUpdatedAt": 1791327605.7458732
         }
       },
       {
@@ -404,7 +404,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791305122.5503006
+          "analysisUpdatedAt": 1791327606.6930244
         }
       },
       {
@@ -423,13 +423,13 @@ const NEWS_DATA = {
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "나스닥, 다우 선물이 프리마켓 상승하는 이유는 무엇입니까?",
-            "SPCX, NVDA, CEG, AMD, ORCL, NOK 초점 AI 에이전트 동향 뉴스 수익 전체 DIA 0.58% SPY 0.72% QQQ 0.66% 동향 MRVL 5.18% NVAX 10.99% NLST 15.22% SKHY 4.06% VST 11.15% CEG 14.38% FCEL 10.79% NBIS 8.57% APLD 2.33% TEM 10.93% 홈뉴스M",
-            "SPCX, NVDA, CEG, AMD, ORCL, NOK 집중 광고 | 광고를 제거하세요."
+            "Nasdaq, Dow Futures가 프리마켓에서 상승하는 이유는 무엇입니까?",
+            "SPCX, NVDA, CEG, AMD, ORCL, NOK In Focus AI 에이전트 동향 뉴스 수입 모든 DIA 0.53% 스파이 0.66% QQQ 0.51% 동향 SPCX 0.37% AMZN 2.23% APLD 3.00% NLST 17.88% PENG 11.51% ZETA 2.62% WDC 6.65% STZ 2.48% INTC 2.88% NVDA 0.58% 홈 뉴스 마크",
+            "SPCX, NVDA, CEG, AMD, ORCL, NOK In Focus 광고 | 광고 제거."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.58%, 0.72%, 0.66% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.53%, 0.66%, 0.51% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -453,21 +453,21 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.58%",
-            "0.72%",
+            "0.53%",
             "0.66%",
-            "5.18%",
-            "10.99%",
-            "15.22%",
-            "4.06%",
-            "11.15%"
+            "0.51%",
+            "0.37%",
+            "2.23%",
+            "3.00%",
+            "17.88%",
+            "11.51%"
           ],
           "sourceExcerpt": [
             "Why Are Nasdaq, Dow Futures Rising Premarket?",
-            "SPCX, NVDA, CEG, AMD, ORCL, NOK In Focus AI Agent Trending News Earnings All DIA 0.58% SPY 0.72% QQQ 0.66% Trending MRVL 5.18% NVAX 10.99% NLST 15.22% SKHY 4.06% VST 11.15% CEG 14.38% FCEL 10.79% NBIS 8.57% APLD 2.33% TEM 10.93% Home News M",
+            "SPCX, NVDA, CEG, AMD, ORCL, NOK In Focus AI Agent Trending News Earnings All DIA 0.53% SPY 0.66% QQQ 0.51% Trending SPCX 0.37% AMZN 2.23% APLD 3.00% NLST 17.88% PENG 11.51% ZETA 2.62% WDC 6.65% STZ 2.48% INTC 2.88% NVDA 0.58% Home News Mark",
             "SPCX, NVDA, CEG, AMD, ORCL, NOK In Focus Advertisement | Remove ads."
           ],
-          "analysisUpdatedAt": 1791305127.2678347
+          "analysisUpdatedAt": 1791327613.9830244
         }
       },
       {
@@ -4540,15 +4540,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791305118.0243714,
-    "_updated_label": "2026-10-07 01:45",
-    "_last_success_at": 1791305118.0243714,
+    "_fetched_at": 1791327602.04408,
+    "_updated_label": "2026-10-07 08:00",
+    "_last_success_at": 1791327602.04408,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "SPY": {
@@ -10384,7 +10384,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "MSFT": {
@@ -18484,7 +18484,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "GOOGL": {
@@ -26429,7 +26429,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "AMZN": {
@@ -34386,7 +34386,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "META": {
@@ -42119,7 +42119,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "AAPL": {
@@ -50124,7 +50124,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "TSLA": {
@@ -57881,7 +57881,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "ORCL": {
@@ -66296,7 +66296,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "CRM": {
@@ -72017,7 +72017,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "PLTR": {
@@ -80519,7 +80519,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "NVDA": {
@@ -88279,7 +88279,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "AMD": {
@@ -96257,7 +96257,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "AVGO": {
@@ -103944,7 +103944,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 156,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "QCOM": {
@@ -109826,7 +109826,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "ARM": {
@@ -114184,7 +114184,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "MRVL": {
@@ -120316,7 +120316,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 127,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "INTC": {
@@ -128511,7 +128511,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "TSM": {
@@ -133909,7 +133909,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 118,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "ASML": {
@@ -137222,7 +137222,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "AMAT": {
@@ -141071,7 +141071,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 80,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "LRCX": {
@@ -143038,7 +143038,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "KLAC": {
@@ -144850,7 +144850,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "MU": {
@@ -152440,7 +152440,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "SNDK": {
@@ -159013,7 +159013,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 138,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "WDC": {
@@ -162872,7 +162872,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "ANET": {
@@ -165733,7 +165733,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "COHR": {
@@ -168531,7 +168531,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "LITE": {
@@ -171243,7 +171243,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "GEV": {
@@ -175256,7 +175256,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "CEG": {
@@ -178792,7 +178792,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "VST": {
@@ -181726,7 +181726,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "ETN": {
@@ -184435,7 +184435,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "PWR": {
@@ -186810,7 +186810,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "HUBB": {
@@ -187481,7 +187481,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "VRT": {
@@ -190837,7 +190837,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "MOD": {
@@ -192035,7 +192035,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "STX": {
@@ -195333,7 +195333,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "EME": {
@@ -196697,7 +196697,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "FIX": {
@@ -197986,7 +197986,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   },
   "BE": {
@@ -199904,7 +199904,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-07 07:00"
+      "updated": "2026-10-07 08:00"
     }
   }
 };

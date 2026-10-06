@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791326238.6175776,
+  "generatedAt": 1791327617.1322484,
   "events": [
     {
       "id": "c6aff69e09eaa91eb95d",
@@ -5757,13 +5757,13 @@ const EVENT_DATA = {
       "primaryTicker": "QQQ",
       "relatedTickers": [
         "AMD",
+        "AMZN",
         "CEG",
-        "MRVL",
+        "INTC",
         "NVDA",
         "ORCL",
         "QQQ",
-        "SPY",
-        "VST"
+        "WDC"
       ],
       "relatedEntities": [],
       "importance": "medium",
@@ -5783,17 +5783,17 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9b2690aaa98e03f5a2f2511a4b46b97fd79dfffb05f92ff936c81ada02f72b1d",
         "publishedAt": 1791275977,
-        "collectedAt": 1791305118.0243714
+        "collectedAt": 1791327602.04408
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "나스닥, 다우 선물이 프리마켓 상승하는 이유는 무엇입니까?",
-        "SPCX, NVDA, CEG, AMD, ORCL, NOK 초점 AI 에이전트 동향 뉴스 수익 전체 DIA 0.58% SPY 0.72% QQQ 0.66% 동향 MRVL 5.18% NVAX 10.99% NLST 15.22% SKHY 4.06% VST 11.15% CEG 14.38% FCEL 10.79% NBIS 8.57% APLD 2.33% TEM 10.93% 홈뉴스M",
-        "SPCX, NVDA, CEG, AMD, ORCL, NOK 집중 광고 | 광고를 제거하세요."
+        "Nasdaq, Dow Futures가 프리마켓에서 상승하는 이유는 무엇입니까?",
+        "SPCX, NVDA, CEG, AMD, ORCL, NOK In Focus AI 에이전트 동향 뉴스 수입 모든 DIA 0.53% 스파이 0.66% QQQ 0.51% 동향 SPCX 0.37% AMZN 2.23% APLD 3.00% NLST 17.88% PENG 11.51% ZETA 2.62% WDC 6.65% STZ 2.48% INTC 2.88% NVDA 0.58% 홈 뉴스 마크",
+        "SPCX, NVDA, CEG, AMD, ORCL, NOK In Focus 광고 | 광고 제거."
       ],
       "marketInterpretation": [
         "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.58%, 0.72%, 0.66% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.53%, 0.66%, 0.51% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -5808,7 +5808,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.58%, 0.72%, 0.66% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.53%, 0.66%, 0.51% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -7441,7 +7441,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8b05235329873b3a6aefc1263a0519dcf558fad2478525d7f31f7e0d1584bf58",
         "publishedAt": 1791238172,
-        "collectedAt": 1791305118.0243714
+        "collectedAt": 1791327602.04408
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13344,7 +13344,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=9a13f8742872fd1a2409dc41a364d59ce2b893949dca9c912bac8c56a3f1e6a9",
         "publishedAt": 1791189826,
-        "collectedAt": 1791305118.0243714
+        "collectedAt": 1791327602.04408
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18058,7 +18058,6 @@ const EVENT_DATA = {
       "8b08b759d63369328e58",
       "0d24c4e654d71dbbb7d1",
       "ef18a9c38901a02cf117",
-      "9fcdbe782dff7b321167",
       "7bb117aa0f6a547d052e",
       "51055ef8bed01e64776c",
       "6340b9b09fe6b53173fc",
@@ -18348,7 +18347,6 @@ const EVENT_DATA = {
       "2e5be7266bcfdfcdf3cc",
       "10a0d86c02b8fb759279",
       "ef18a9c38901a02cf117",
-      "9fcdbe782dff7b321167",
       "d795d01943ae8b4c9bcd",
       "3f1c2827c47d2df489ee",
       "d19e1768b087bf230508",
@@ -18460,6 +18458,7 @@ const EVENT_DATA = {
       "ef18a9c38901a02cf117",
       "32676b5139be9522ea2a",
       "3c9a1f14ac30af183f35",
+      "9fcdbe782dff7b321167",
       "07ca49a0c2939af401dc",
       "d514c369fc1cc1ff1206",
       "0f2ce2093088bf00e4d0",
@@ -18477,6 +18476,7 @@ const EVENT_DATA = {
       "d0976232a00aabc38935",
       "69ccb1e83bf22dbafc86",
       "cb6a4f017bd7ce10abbc",
+      "9fcdbe782dff7b321167",
       "51055ef8bed01e64776c",
       "bb2b339ed8d047015cd6",
       "228aa4af13f683625460",
@@ -18539,7 +18539,6 @@ const EVENT_DATA = {
       "a6ef8db602d8cafb2ac6",
       "84f077d00c8cbeb4d823",
       "8df3775db4eb51fe8b84",
-      "9fcdbe782dff7b321167",
       "51055ef8bed01e64776c",
       "6340b9b09fe6b53173fc",
       "9822db0049065331c31c",
@@ -18573,6 +18572,7 @@ const EVENT_DATA = {
       "bf5d5804141eade971e7",
       "52fe7cd1829d98664e55",
       "20ff61b2ab6fb59faa44",
+      "9fcdbe782dff7b321167",
       "59b510ed0801badcf86b",
       "20a9e2763c70f665e8b5",
       "47b8d59c57e83aff2e79",
