@@ -2,37 +2,137 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1791282156.456225,
+    "_last_attempt_at": 1791305118.0243714,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Nasdaq 100 Hits Record Highs As Investors Shrug Off Pressure From Soaring Yields — NVDA, SPCX, CRML, TSLA, QCOM In Focus",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8b05235329873b3a6aefc1263a0519dcf558fad2478525d7f31f7e0d1584bf58",
-        "datetime": 1791238172,
+        "headline": "Why I'd Choose VOO Over QQQ For The Next 20 Years",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=674f0efbebe6e8f3fdbdf79ca3d8fae0dfd9bba6d8522a4c756a6ba63f457a1e",
+        "datetime": 1791279000,
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Why I'd Choose VOO Over QQQ For The Next 20 Years",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Why I'd Choose VOO Over QQQ For The Next 20 Years' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791305121.5739586
+        },
+        "headlineKo": "향후 20년 동안 QQQ 대신 VOO를 선택하는 이유"
+      },
+      {
+        "headline": "Nasdaq At All-Time Highs: This Is Getting Ridiculous",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=3d4731b37fa69c7b0665923ee8512b350e4491ddaac8bc9c0965347dadd071f5",
+        "datetime": 1791277388,
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Nasdaq 100은 투자자들이 치솟는 수익률에 대한 압력을 무시하면서 사상 최고치를 기록했습니다 — NVDA, SPCX, CRML, TSLA, QCOM In Focus AI 에이전트 동향 뉴스 수익 전체 DIA 0.38% SPY 0.18% QQQ 0.31% 추세 SPCX 1.31% APLD 2.39% NVAX 0.95% SNOW 2.35%",
-            "나스닥 100 지수는 투자자들이 치솟는 수익률에 대한 압박을 이겨내면서 사상 최고치를 경신했습니다. - NVDA, SPCX, CRML, TSLA, QCOM In Focus ISM 보고서에 따르면 9월 서비스 구매 관리자 지수(Purchasing Managers' Index)는 54.9%를 기록했습니다.",
-            "2026년 3월 24일 뉴욕 증권거래소(NYSE) 개장 벨에서 거래자가 일하고 있다."
+            "Nasdaq At All-Time Highs: This Is Getting Ridiculous",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.38%, 0.18%, 0.31% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Nasdaq At All-Time Highs: This Is Getting Ridiculous' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791305122.5503006
+        },
+        "headlineKo": "나스닥이 사상 최고치를 기록하다: 이것은 점점 더 터무니없어지고 있다"
+      },
+      {
+        "headline": "Why Are Nasdaq, Dow Futures Rising Premarket? SPCX, NVDA, CEG, AMD, ORCL, NOK In Focus",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9b2690aaa98e03f5a2f2511a4b46b97fd79dfffb05f92ff936c81ada02f72b1d",
+        "datetime": 1791275977,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "나스닥, 다우 선물이 프리마켓 상승하는 이유는 무엇입니까?",
+            "SPCX, NVDA, CEG, AMD, ORCL, NOK 초점 AI 에이전트 동향 뉴스 수익 전체 DIA 0.58% SPY 0.72% QQQ 0.66% 동향 MRVL 5.18% NVAX 10.99% NLST 15.22% SKHY 4.06% VST 11.15% CEG 14.38% FCEL 10.79% NBIS 8.57% APLD 2.33% TEM 10.93% 홈뉴스M",
+            "SPCX, NVDA, CEG, AMD, ORCL, NOK 집중 광고 | 광고를 제거하세요."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.58%, 0.72%, 0.66% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -43,180 +143,52 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
           ],
-          "interpretation": "QQQ에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "QQQ에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.38%",
-            "0.18%",
-            "0.31%",
-            "1.31%",
-            "2.39%",
-            "0.95%",
-            "2.35%",
-            "12.02%"
+            "0.58%",
+            "0.72%",
+            "0.66%",
+            "5.18%",
+            "10.99%",
+            "15.22%",
+            "4.06%",
+            "11.15%"
           ],
           "sourceExcerpt": [
-            "Nasdaq 100 Hits Record Highs As Investors Shrug Off Pressure From Soaring Yields — NVDA, SPCX, CRML, TSLA, QCOM In Focus AI Agent Trending News Earnings All DIA 0.38% SPY 0.18% QQQ 0.31% Trending SPCX 1.31% APLD 2.39% NVAX 0.95% SNOW 2.35% ",
-            "Nasdaq 100 Hits Record Highs As Investors Shrug Off Pressure From Soaring Yields — NVDA, SPCX, CRML, TSLA, QCOM In Focus The ISM report showed that the Purchasing Managers' Index for services came in at 54.9% in September, roughly in line w",
-            "A trader works on the floor of the New York Stock Exchange (NYSE) at the opening bell in New York on March 24, 2026."
+            "Why Are Nasdaq, Dow Futures Rising Premarket?",
+            "SPCX, NVDA, CEG, AMD, ORCL, NOK In Focus AI Agent Trending News Earnings All DIA 0.58% SPY 0.72% QQQ 0.66% Trending MRVL 5.18% NVAX 10.99% NLST 15.22% SKHY 4.06% VST 11.15% CEG 14.38% FCEL 10.79% NBIS 8.57% APLD 2.33% TEM 10.93% Home News M",
+            "SPCX, NVDA, CEG, AMD, ORCL, NOK In Focus Advertisement | Remove ads."
           ],
-          "analysisUpdatedAt": 1791282163.2757976
+          "analysisUpdatedAt": 1791305127.2678347
         },
-        "headlineKo": "Nasdaq 100은 투자자들이 치솟는 수익률에 대한 압박을 이겨내면서 사상 최고치를 경신했습니다 — NVDA, SPCX, CRML, TSLA, QCOM In Focus"
+        "headlineKo": "나스닥, 다우 선물이 프리마켓 상승하는 이유는 무엇입니까? SPCX, NVDA, CEG, AMD, ORCL, NOK 초점"
       },
       {
-        "headline": "Nasdaq, S&P 500, Dow Futures Steady Ahead Of Fed Minutes This Week: TSLA, SPCX, CBRS, QCOM, PTC, IBRX Stocks In Focus",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e670ad8ab6c131188420750c923d4ce4b0446adbcf3c89b84d5a372cf22a8337",
-        "datetime": 1791190360,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Nasdaq, S&P 500, Dow 선물은 이번 주 연준 회의록보다 꾸준히 앞서 있습니다. TSLA, SPCX, CBRS, QCOM, PTC, IBRX 주식에 초점이 맞춰져 있습니다. AI 에이전트 동향 뉴스 수익 전체 DIA 0.39% SPY 0.18% QQQ 0.31% 추세 SPCX 1.33% APLD 2.61% NVAX 0.95% SNOW 2.35% IND",
-            "Nasdaq, S&P 500, Dow 선물은 이번 주 Fed 회의록보다 꾸준히 앞서 있습니다. TSLA, SPCX, CBRS, QCOM, PTC, IBRX 주식은 Stocktwits에 초점을 맞추고 있으며 SPY 및 QQQ에 대한 소매 감정은 지난주부터 '강세'를 유지했습니다.",
-            "나스닥 로고 표지판이 2026년 8월 7일 미국 뉴욕에서 보입니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.39%, 0.18%, 0.31% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.39%",
-            "0.18%",
-            "0.31%",
-            "1.33%",
-            "2.61%",
-            "0.95%",
-            "2.35%",
-            "11.61%"
-          ],
-          "sourceExcerpt": [
-            "Nasdaq, S&P 500, Dow Futures Steady Ahead Of Fed Minutes This Week: TSLA, SPCX, CBRS, QCOM, PTC, IBRX Stocks In Focus AI Agent Trending News Earnings All DIA 0.39% SPY 0.18% QQQ 0.31% Trending SPCX 1.33% APLD 2.61% NVAX 0.95% SNOW 2.35% IND",
-            "Nasdaq, S&P 500, Dow Futures Steady Ahead Of Fed Minutes This Week: TSLA, SPCX, CBRS, QCOM, PTC, IBRX Stocks In Focus On Stocktwits, retail sentiment toward SPY and QQQ remained ‘bullish’ since last week.",
-            "Nasdaq logo sign is seen in New York City, United States, on August 7, 2026."
-          ],
-          "analysisUpdatedAt": 1791282167.0867672
-        },
-        "headlineKo": "Nasdaq, S&P 500, Dow 선물은 이번 주 연준 회의록보다 꾸준히 앞서 있습니다: TSLA, SPCX, CBRS, QCOM, PTC, IBRX 주식에 집중"
-      },
-      {
-        "headline": "Stock Market Today: Dow Futures Gain, S&P 500, Nasdaq 100 Slip as Iran Keeps Conditions To Reopen Hormuz Strait— SPCX, QCOM, VST in Focus (UPDATED)",
+        "headline": "Stock Market Today: S&P 500, Dow Jones, Nasdaq 100 Futures Gain as Scott Bessent Doubles Down on Iran Pressure— OPCH, PCVX, STZ in Focus (UPDATED)",
         "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=9a13f8742872fd1a2409dc41a364d59ce2b893949dca9c912bac8c56a3f1e6a9",
-        "datetime": 1791189826,
+        "url": "https://finnhub.io/api/news?id=660c79eeb4ca5d4ae0b1a72fc5c84dcb35b520893d43ae463a5ca43ee6176e34",
+        "datetime": 1791275292,
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "오늘의 주식 시장: 이란이 호르무즈 재개 조건을 유지함에 따라 다우 선물 상승, S&P 500, 나스닥 100 하락 - Benzinga SPY 769.41 QQQ 747.85 BTC/USD 85,923.38 −0.68% DIA 511.32 GLD 381.40 +0.33% TLT 77.53 +0.06% US 로그인 내 계정 등록",
-            "월요일 주식 선물은 다우존스 지수가 상승하면서 혼조세를 보였으며 S&P 500과 나스닥 100 지수는 금요일 종가 이후 하락했습니다.",
-            "이란 관리들이 미국이 중재 제안에도 불구하고 확고한 입장을 유지하고 7가지 조건을 충족할 때까지 호르무즈 해협이 완전히 재개방되지 않을 것이라고 선언한 이후 지정학적 불확실성이 시장을 계속 짓누르고 있습니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.68%, 0.33%, 0.06% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.68%",
-            "0.33%",
-            "0.06%",
-            "$100",
-            "5.25%",
-            "4.79%",
-            "20.5%",
-            "0.15%"
-          ],
-          "sourceExcerpt": [
-            "Stock Market Today: Dow Futures Gain, S&P 500, Nasdaq 100 Slip as Iran Keeps Conditions To Reopen Hormuz - Benzinga SPY 769.41 QQQ 747.85 BTC/USD 85,923.38 −0.68% DIA 511.32 GLD 381.40 +0.33% TLT 77.53 +0.06% US Sign in Register My Account ",
-            "stock futures were mixed on Monday, as the Dow Jones index rose, while the S&P 500 and Nasdaq 100 indices fell, following Friday’s higher close.",
-            "Geopolitical uncertainty continues to weigh on markets after Iranian officials declared that the Strait of Hormuz will not fully reopen until Washington meets seven conditions, maintaining a firm stance despite mediated proposals and recove"
-          ],
-          "analysisUpdatedAt": 1791282169.5552874
-        },
-        "headlineKo": "오늘의 주식 시장: 이란이 호르무즈 해협을 재개하기 위한 조건을 유지함에 따라 다우 선물 상승, S&P 500, 나스닥 100 하락 - SPCX, QCOM, VST 초점(업데이트됨)"
+        "headlineKo": "오늘의 주식 시장: Scott Bessent가 이란 압력으로 두 배로 하락함에 따라 S&P 500, Dow Jones, Nasdaq 100 선물 상승 - OPCH, PCVX, STZ 초점(업데이트됨)"
       },
       {
-        "headline": "SPY and QQQ Hold Firm as Breadth Stabilizes, but Participation Remains Narrow",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=41280a9a2c0c1aa943424da7fb84b63c54e96609d2dcf0545d8f743de4fbd60b",
-        "datetime": 1791188676,
+        "headline": "Cathie Wood Claps Back After Being Confronted as ARKK Fell Nearly 15% While QQQ Soared 112% in Five Years — Calls It an ‘Incorrect Comparison’",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=3ef1208dc23792129bb70dc851038f5bdf32bb6fd45801ebf346ed642b9ef852",
+        "datetime": 1791259694,
         "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "SPY와 QQQ는 폭이 안정되면서 확고한 지위를 유지하지만 참여는 여전히 좁습니다."
-      },
-      {
-        "headline": "International Markets Are Pulling Ahead Of US Stocks In 2026: These 4 ETFs Have Left SPY, QQQ, DIA In The Dust",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=784faf471b789b5964e0a14458c5e914241eb4655c5f427a2aae86f6b1e078b6",
-        "datetime": 1791176194,
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "2026년 국제 시장은 미국 주식을 앞서고 있습니다: 이 4개의 ETF는 SPY, QQQ, DIA를 먼지 속에 남겨 두었습니다."
+        "headlineKo": "Cathie Wood는 ARKK가 거의 15% 하락한 반면 QQQ는 5년 만에 112% 급등하자 박수를 쳤습니다. 이를 '잘못된 비교'라고 부릅니다."
       },
       {
         "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Gains as Trump Dismisses Iran Sanction Relief as 'Hoax'— Nvidia, AAR, Vail Resorts in Focus (UPDATED)",
@@ -337,6 +309,185 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Why I'd Choose VOO Over QQQ For The Next 20 Years",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=674f0efbebe6e8f3fdbdf79ca3d8fae0dfd9bba6d8522a4c756a6ba63f457a1e",
+        "datetime": 1791279000,
+        "headlineKo": "향후 20년 동안 QQQ 대신 VOO를 선택하는 이유",
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Why I'd Choose VOO Over QQQ For The Next 20 Years",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Why I'd Choose VOO Over QQQ For The Next 20 Years' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791305121.5739586
+        }
+      },
+      {
+        "headline": "Nasdaq At All-Time Highs: This Is Getting Ridiculous",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=3d4731b37fa69c7b0665923ee8512b350e4491ddaac8bc9c0965347dadd071f5",
+        "datetime": 1791277388,
+        "headlineKo": "나스닥이 사상 최고치를 기록하다: 이것은 점점 더 터무니없어지고 있다",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nasdaq At All-Time Highs: This Is Getting Ridiculous",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Nasdaq At All-Time Highs: This Is Getting Ridiculous' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791305122.5503006
+        }
+      },
+      {
+        "headline": "Why Are Nasdaq, Dow Futures Rising Premarket? SPCX, NVDA, CEG, AMD, ORCL, NOK In Focus",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9b2690aaa98e03f5a2f2511a4b46b97fd79dfffb05f92ff936c81ada02f72b1d",
+        "datetime": 1791275977,
+        "headlineKo": "나스닥, 다우 선물이 프리마켓 상승하는 이유는 무엇입니까? SPCX, NVDA, CEG, AMD, ORCL, NOK 초점",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "나스닥, 다우 선물이 프리마켓 상승하는 이유는 무엇입니까?",
+            "SPCX, NVDA, CEG, AMD, ORCL, NOK 초점 AI 에이전트 동향 뉴스 수익 전체 DIA 0.58% SPY 0.72% QQQ 0.66% 동향 MRVL 5.18% NVAX 10.99% NLST 15.22% SKHY 4.06% VST 11.15% CEG 14.38% FCEL 10.79% NBIS 8.57% APLD 2.33% TEM 10.93% 홈뉴스M",
+            "SPCX, NVDA, CEG, AMD, ORCL, NOK 집중 광고 | 광고를 제거하세요."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.58%, 0.72%, 0.66% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "QQQ에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.58%",
+            "0.72%",
+            "0.66%",
+            "5.18%",
+            "10.99%",
+            "15.22%",
+            "4.06%",
+            "11.15%"
+          ],
+          "sourceExcerpt": [
+            "Why Are Nasdaq, Dow Futures Rising Premarket?",
+            "SPCX, NVDA, CEG, AMD, ORCL, NOK In Focus AI Agent Trending News Earnings All DIA 0.58% SPY 0.72% QQQ 0.66% Trending MRVL 5.18% NVAX 10.99% NLST 15.22% SKHY 4.06% VST 11.15% CEG 14.38% FCEL 10.79% NBIS 8.57% APLD 2.33% TEM 10.93% Home News M",
+            "SPCX, NVDA, CEG, AMD, ORCL, NOK In Focus Advertisement | Remove ads."
+          ],
+          "analysisUpdatedAt": 1791305127.2678347
+        }
+      },
+      {
+        "headline": "Stock Market Today: S&P 500, Dow Jones, Nasdaq 100 Futures Gain as Scott Bessent Doubles Down on Iran Pressure— OPCH, PCVX, STZ in Focus (UPDATED)",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=660c79eeb4ca5d4ae0b1a72fc5c84dcb35b520893d43ae463a5ca43ee6176e34",
+        "datetime": 1791275292,
+        "headlineKo": "오늘의 주식 시장: Scott Bessent가 이란 압력으로 두 배로 하락함에 따라 S&P 500, Dow Jones, Nasdaq 100 선물 상승 - OPCH, PCVX, STZ 초점(업데이트됨)",
+        "relevance": 0.67,
+        "keywordFlag": false
+      },
+      {
+        "headline": "Cathie Wood Claps Back After Being Confronted as ARKK Fell Nearly 15% While QQQ Soared 112% in Five Years — Calls It an ‘Incorrect Comparison’",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=3ef1208dc23792129bb70dc851038f5bdf32bb6fd45801ebf346ed642b9ef852",
+        "datetime": 1791259694,
+        "headlineKo": "Cathie Wood는 ARKK가 거의 15% 하락한 반면 QQQ는 5년 만에 112% 급등하자 박수를 쳤습니다. 이를 '잘못된 비교'라고 부릅니다.",
+        "relevance": 1.0,
+        "keywordFlag": false
+      },
       {
         "headline": "Nasdaq 100 Hits Record Highs As Investors Shrug Off Pressure From Soaring Yields — NVDA, SPCX, CRML, TSLA, QCOM In Focus",
         "source": "Yahoo",
@@ -4389,15 +4540,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791282156.456225,
-    "_updated_label": "2026-10-06 19:22",
-    "_last_success_at": 1791282156.456225,
+    "_fetched_at": 1791305118.0243714,
+    "_updated_label": "2026-10-07 01:45",
+    "_last_success_at": 1791305118.0243714,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 86,
+      "checked": 91,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "SPY": {
@@ -10233,7 +10384,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "MSFT": {
@@ -18361,7 +18512,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "GOOGL": {
@@ -26235,7 +26386,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "AMZN": {
@@ -34189,7 +34340,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "META": {
@@ -41938,7 +42089,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "AAPL": {
@@ -49982,7 +50133,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "TSLA": {
@@ -57741,7 +57892,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "ORCL": {
@@ -66096,7 +66247,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "CRM": {
@@ -71817,7 +71968,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "PLTR": {
@@ -80261,7 +80412,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "NVDA": {
@@ -87979,7 +88130,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "AMD": {
@@ -96023,7 +96174,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "AVGO": {
@@ -103481,7 +103632,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 151,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "QCOM": {
@@ -109153,7 +109304,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 125,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "ARM": {
@@ -113511,7 +113662,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "MRVL": {
@@ -119404,7 +119555,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 122,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "INTC": {
@@ -127563,7 +127714,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "TSM": {
@@ -132928,7 +133079,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "ASML": {
@@ -136115,7 +136266,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "AMAT": {
@@ -139743,7 +139894,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "LRCX": {
@@ -141710,7 +141861,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "KLAC": {
@@ -143487,7 +143638,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "MU": {
@@ -150951,7 +151102,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "SNDK": {
@@ -157305,7 +157456,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "WDC": {
@@ -160961,7 +161112,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "ANET": {
@@ -163745,7 +163896,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "COHR": {
@@ -166543,7 +166694,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "LITE": {
@@ -169177,7 +169328,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "GEV": {
@@ -173159,7 +173310,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "CEG": {
@@ -176481,7 +176632,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "VST": {
@@ -179210,7 +179361,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "ETN": {
@@ -181919,7 +182070,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "PWR": {
@@ -184294,7 +184445,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "HUBB": {
@@ -184965,7 +185116,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "VRT": {
@@ -188271,7 +188422,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "MOD": {
@@ -189469,7 +189620,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "STX": {
@@ -192602,7 +192753,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "EME": {
@@ -193966,7 +194117,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "FIX": {
@@ -195246,7 +195397,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   },
   "BE": {
@@ -197117,7 +197268,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-07 01:00"
+      "updated": "2026-10-07 01:45"
     }
   }
 };

@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791303226.0044084,
+  "generatedAt": 1791305135.229343,
   "events": [
     {
       "id": "1551ec9dde8018ffb40b",
@@ -2355,6 +2355,82 @@ const EVENT_DATA = {
       "watch": []
     },
     {
+      "id": "9fcdbe782dff7b321167",
+      "schemaVersion": 1,
+      "eventType": "analyst_target_change",
+      "eventLabel": "애널리스트 목표주가 변경",
+      "primaryTicker": "QQQ",
+      "relatedTickers": [
+        "AMD",
+        "CEG",
+        "MRVL",
+        "NVDA",
+        "ORCL",
+        "QQQ",
+        "SPY",
+        "VST"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Why Are Nasdaq, Dow Futures Rising Premarket? SPCX, NVDA, CEG, AMD, ORCL, NOK In Focus",
+      "headlineKo": "나스닥, 다우 선물이 프리마켓 상승하는 이유는 무엇입니까? SPCX, NVDA, CEG, AMD, ORCL, NOK 초점",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9b2690aaa98e03f5a2f2511a4b46b97fd79dfffb05f92ff936c81ada02f72b1d",
+        "publishedAt": 1791275977,
+        "collectedAt": 1791305118.0243714
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "나스닥, 다우 선물이 프리마켓 상승하는 이유는 무엇입니까?",
+        "SPCX, NVDA, CEG, AMD, ORCL, NOK 초점 AI 에이전트 동향 뉴스 수익 전체 DIA 0.58% SPY 0.72% QQQ 0.66% 동향 MRVL 5.18% NVAX 10.99% NLST 15.22% SKHY 4.06% VST 11.15% CEG 14.38% FCEL 10.79% NBIS 8.57% APLD 2.33% TEM 10.93% 홈뉴스M",
+        "SPCX, NVDA, CEG, AMD, ORCL, NOK 집중 광고 | 광고를 제거하세요."
+      ],
+      "marketInterpretation": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.58%, 0.72%, 0.66% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "QQQ에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.58%, 0.72%, 0.66% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "QQQ",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "목표주가 산식의 EPS",
+        "적용 PER 변화",
+        "회사 공식 가이던스"
+      ]
+    },
+    {
       "id": "d795d01943ae8b4c9bcd",
       "schemaVersion": 1,
       "eventType": "regulatory_legal_export",
@@ -3981,7 +4057,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8b05235329873b3a6aefc1263a0519dcf558fad2478525d7f31f7e0d1584bf58",
         "publishedAt": 1791238172,
-        "collectedAt": 1791282156.456225
+        "collectedAt": 1791305118.0243714
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9859,7 +9935,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=9a13f8742872fd1a2409dc41a364d59ce2b893949dca9c912bac8c56a3f1e6a9",
         "publishedAt": 1791189826,
-        "collectedAt": 1791282156.456225
+        "collectedAt": 1791305118.0243714
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17779,7 +17855,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d04eae234e3a29ff64372c2c9007ab3075e1d99b0395ce2a635e928e33c28b0a",
         "publishedAt": 1790980139,
-        "collectedAt": 1791282156.456225
+        "collectedAt": 1791305118.0243714
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17953,76 +18029,6 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
-    },
-    {
-      "id": "f2fb25dbe2e563abdb82",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "MU",
-      "relatedTickers": [
-        "MU",
-        "SPY"
-      ],
-      "relatedEntities": [],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Micron's Last 5 Post-Earnings Dips Turned Into Gains. This Time, the Stock Rose Instead.",
-      "headlineKo": "마이크론의 최근 5번의 실적 하락이 이익으로 전환되었습니다. 이번에는 주식이 대신 상승했습니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=eef4d5def078b35894a2b8baffd91473d30452794967b020127647b8d7969cbb",
-        "publishedAt": 1790977021,
-        "collectedAt": 1791299016.3026571
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "마이크론의 최근 5번의 실적 하락이 이익으로 전환되었습니다.",
-        "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Micron Technology( MU -2.05% )가 사상 최대 분기를 기록했습니다.",
-        "2026년 회계 4분기(14주 기간은 9월에 종료됨)"
-      ],
-      "marketInterpretation": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $54.2 billion, 379%, $33.42. — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "MU에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $54.2 billion, 379%, $33.42. — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "MU",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "공식 매출·EPS 가이던스",
-        "컨센서스 추정치 변경",
-        "마진·FCF 전망"
-      ]
     }
   ],
   "byTicker": {
@@ -18032,6 +18038,7 @@ const EVENT_DATA = {
       "9d85e9c8ff77086405cf",
       "cec7206d8bfed1fdf107",
       "7f92dd0c31321614cc4f",
+      "9fcdbe782dff7b321167",
       "8a92ddf6e00a1c97a798",
       "87c1338c0b4ca4e42eb8",
       "369eb409646a648a8b54",
@@ -18068,6 +18075,7 @@ const EVENT_DATA = {
       "7d61e7445dadfe38ea3d",
       "ddf0b9406c2e6de8a759",
       "ef18a9c38901a02cf117",
+      "9fcdbe782dff7b321167",
       "d514c369fc1cc1ff1206",
       "47b8d59c57e83aff2e79",
       "b4e9044206c6f1b2e2cc",
@@ -18112,6 +18120,7 @@ const EVENT_DATA = {
       "ba6c01aec3c2cb8106cb",
       "2e5be7266bcfdfcdf3cc",
       "ef18a9c38901a02cf117",
+      "9fcdbe782dff7b321167",
       "d795d01943ae8b4c9bcd",
       "d19e1768b087bf230508",
       "5e54f6f30b63f613e123",
@@ -18185,6 +18194,7 @@ const EVENT_DATA = {
       "2e5be7266bcfdfcdf3cc",
       "10a0d86c02b8fb759279",
       "ef18a9c38901a02cf117",
+      "9fcdbe782dff7b321167",
       "d795d01943ae8b4c9bcd",
       "3f1c2827c47d2df489ee",
       "d19e1768b087bf230508",
@@ -18286,8 +18296,7 @@ const EVENT_DATA = {
       "0f1776e9ff6c99aa7ba9",
       "00ec534d42ff7c45f02c",
       "130a6564f18c190d37ff",
-      "64909fadbb7a557cc35f",
-      "f2fb25dbe2e563abdb82"
+      "64909fadbb7a557cc35f"
     ],
     "AVGO": [
       "cef165066a1e76e639b6",
@@ -18316,6 +18325,7 @@ const EVENT_DATA = {
       "a5d12609aed8c8aa6781",
       "0f10e9ff6cf8912fa79e",
       "10a0d86c02b8fb759279",
+      "9fcdbe782dff7b321167",
       "3f1c2827c47d2df489ee",
       "59b510ed0801badcf86b",
       "51055ef8bed01e64776c",
@@ -18499,8 +18509,7 @@ const EVENT_DATA = {
       "34858be24329eeffd4cf",
       "65b128156345a15fb0b7",
       "ba12dce2b7d1ed6066c8",
-      "f88123407db6ac1a34da",
-      "f2fb25dbe2e563abdb82"
+      "f88123407db6ac1a34da"
     ],
     "TSLA": [
       "f409b749b05d132890c1",
@@ -18571,6 +18580,7 @@ const EVENT_DATA = {
     ],
     "MRVL": [
       "ef18a9c38901a02cf117",
+      "9fcdbe782dff7b321167",
       "7bb117aa0f6a547d052e",
       "51055ef8bed01e64776c",
       "6340b9b09fe6b53173fc",
@@ -18591,18 +18601,8 @@ const EVENT_DATA = {
       "98f91c9a8b193a483d73",
       "f08dbf53047d503d9bee"
     ],
-    "VRT": [
-      "96fee52d7265bf6f8012",
-      "3f1c2827c47d2df489ee",
-      "71e50214ac3b3c8a7386",
-      "04dba21cece1bee0e7da",
-      "e2ca27517d780c299928"
-    ],
-    "MOD": [
-      "56da942bcc6e3d805c5e",
-      "789d0e1c2acb7a6bc75a"
-    ],
     "ORCL": [
+      "9fcdbe782dff7b321167",
       "59b510ed0801badcf86b",
       "47b8d59c57e83aff2e79",
       "70e9627a8362006ab19e",
@@ -18631,6 +18631,28 @@ const EVENT_DATA = {
       "34858be24329eeffd4cf",
       "ba12dce2b7d1ed6066c8"
     ],
+    "VST": [
+      "9fcdbe782dff7b321167",
+      "51055ef8bed01e64776c",
+      "6340b9b09fe6b53173fc",
+      "9822db0049065331c31c",
+      "bb2b339ed8d047015cd6",
+      "68073dce831af6aa242b",
+      "369eb409646a648a8b54",
+      "52fab82ac55ba630a223",
+      "e80c3c0e246225d79c89"
+    ],
+    "VRT": [
+      "96fee52d7265bf6f8012",
+      "3f1c2827c47d2df489ee",
+      "71e50214ac3b3c8a7386",
+      "04dba21cece1bee0e7da",
+      "e2ca27517d780c299928"
+    ],
+    "MOD": [
+      "56da942bcc6e3d805c5e",
+      "789d0e1c2acb7a6bc75a"
+    ],
     "TSM": [
       "51055ef8bed01e64776c",
       "5696afeb82bff02403db",
@@ -18642,16 +18664,6 @@ const EVENT_DATA = {
       "c727f18a7b52c5f7cbeb",
       "8b45b89516618ef25ada",
       "130a6564f18c190d37ff"
-    ],
-    "VST": [
-      "51055ef8bed01e64776c",
-      "6340b9b09fe6b53173fc",
-      "9822db0049065331c31c",
-      "bb2b339ed8d047015cd6",
-      "68073dce831af6aa242b",
-      "369eb409646a648a8b54",
-      "52fab82ac55ba630a223",
-      "e80c3c0e246225d79c89"
     ],
     "MSFT": [
       "8608ee11a93fd6507210",
