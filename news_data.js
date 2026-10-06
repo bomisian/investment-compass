@@ -4292,7 +4292,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "SPY": {
@@ -9911,7 +9911,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "MSFT": {
@@ -18079,7 +18079,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "GOOGL": {
@@ -26056,7 +26056,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "AMZN": {
@@ -33990,7 +33990,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "META": {
@@ -41715,7 +41715,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "AAPL": {
@@ -49753,7 +49753,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "TSLA": {
@@ -57510,7 +57510,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "ORCL": {
@@ -65909,7 +65909,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "CRM": {
@@ -71522,7 +71522,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "PLTR": {
@@ -79964,7 +79964,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "NVDA": {
@@ -87685,19 +87685,83 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "AMD": {
-    "_last_attempt_at": 1791234002.297302,
+    "_last_attempt_at": 1791256760.5724897,
     "nextEarnings": {
-      "date": "2026-11-02",
+      "date": "2026-11-03",
       "hour": "amc",
       "epsEstimate": 1.9601,
       "revenueEstimate": 13195937213
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Advanced Micro Devices vs. Intel: Which Semiconductor Stock Is a Better Buy in 2026?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=33b8d9bb9c2dc48e016820ab0d3f668e5c726eb9bbd9b6e80ba979c8aca90b38",
+        "datetime": 1791232789,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "규제·법무 · 비선형 위험",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "인텔: 2026년에는 어느 반도체 주식이 더 나은 매수인가?",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Semiconductor 거대 기업은 AI 수요가 컴퓨팅 환경을 재편하면서 빠르게 진화하고 있습니다.",
+            "Advanced Micro Devices( AMD -0.34% )와 Intel( INTC -2.63% ) 중에서 선택하려면 복잡한 턴어라운드에 비해 높은 성장 모멘텀을 저울질해야 합니다."
+          ],
+          "why": [
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.34%, 2.63%, $631.75 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
+          ],
+          "interpretation": "AMD에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.34%",
+            "2.63%",
+            "$631.75",
+            "0.34 %",
+            "$2.16",
+            "$116.19",
+            "2.63 %",
+            "$3.14"
+          ],
+          "sourceExcerpt": [
+            "Intel: Which Semiconductor Stock Is a Better Buy in 2026?",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Semiconductor giants are evolving rapidly as AI demand reshapes the computing landscape.",
+            "Choosing between Advanced Micro Devices ( AMD -0.34% ) and Intel ( INTC -2.63% ) requires weighing high-growth momentum against a complex turnaround."
+          ],
+          "analysisUpdatedAt": 1791256765.52846
+        },
+        "headlineKo": "Advanced Micro Devices vs. Intel: 2026년에는 어떤 반도체 주식을 구매하는 것이 더 나은가요?"
+      },
       {
         "headline": "Chip Stocks Pause After Two-Day Pop. AMD Stock Gets Price-Target Hikes.",
         "source": "Yahoo",
@@ -87744,7 +87808,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791234007.727629
+          "analysisUpdatedAt": 1791256767.667228
         },
         "headlineKo": "이틀만에 칩주 급락. AMD 주식은 목표 가격 인상을 얻습니다."
       },
@@ -87794,7 +87858,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791234009.7608786
+          "analysisUpdatedAt": 1791256769.4057276
         },
         "headlineKo": "Sozzi는 Zscaler CEO와 AI 사이버 보안에 대해 이야기하고 Nvidia 및 AMD 주식은 상승합니다."
       },
@@ -87806,45 +87870,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "본문 확인 필요",
-          "label": "실적 발표 · 본업과 특이항목 분리",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Why Advanced Micro (AMD) Could Beat Earnings Estimates Again",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "매출·영업이익 성장",
-            "정상화이익과 특이항목",
-            "가이던스·OCF·FCF"
-          ],
-          "interpretation": "AMD에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791234011.6218207
-        },
         "headlineKo": "Advanced Micro(AMD)가 수익 추정치를 다시 이길 수 있는 이유"
       },
       {
@@ -87856,16 +87881,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "엔비디아와 AMD 주가 상승을 멈출 수 없는 3가지 이유"
-      },
-      {
-        "headline": "AMD Stock: The $8 Billion Bet That Could Redefine Its AI Strategy",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=d95d6bce7b72cb14b2d79a463776ec31619d35f212a0654a25699d7292da709c",
-        "datetime": 1791209469,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "AMD 주식: AI 전략을 재정의할 수 있는 80억 달러 투자"
       },
       {
         "headline": "AMD: The AI Momentum Train Looks Unstoppable, But I'm Pausing Accumulation (Downgrade)",
@@ -87881,6 +87896,69 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Advanced Micro Devices vs. Intel: Which Semiconductor Stock Is a Better Buy in 2026?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=33b8d9bb9c2dc48e016820ab0d3f668e5c726eb9bbd9b6e80ba979c8aca90b38",
+        "datetime": 1791232789,
+        "headlineKo": "Advanced Micro Devices vs. Intel: 2026년에는 어떤 반도체 주식을 구매하는 것이 더 나은가요?",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "규제·법무 · 비선형 위험",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "인텔: 2026년에는 어느 반도체 주식이 더 나은 매수인가?",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Semiconductor 거대 기업은 AI 수요가 컴퓨팅 환경을 재편하면서 빠르게 진화하고 있습니다.",
+            "Advanced Micro Devices( AMD -0.34% )와 Intel( INTC -2.63% ) 중에서 선택하려면 복잡한 턴어라운드에 비해 높은 성장 모멘텀을 저울질해야 합니다."
+          ],
+          "why": [
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.34%, 2.63%, $631.75 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
+          ],
+          "interpretation": "AMD에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.34%",
+            "2.63%",
+            "$631.75",
+            "0.34 %",
+            "$2.16",
+            "$116.19",
+            "2.63 %",
+            "$3.14"
+          ],
+          "sourceExcerpt": [
+            "Intel: Which Semiconductor Stock Is a Better Buy in 2026?",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Semiconductor giants are evolving rapidly as AI demand reshapes the computing landscape.",
+            "Choosing between Advanced Micro Devices ( AMD -0.34% ) and Intel ( INTC -2.63% ) requires weighing high-growth momentum against a complex turnaround."
+          ],
+          "analysisUpdatedAt": 1791256765.52846
+        }
+      },
       {
         "headline": "Chip Stocks Pause After Two-Day Pop. AMD Stock Gets Price-Target Hikes.",
         "source": "Yahoo",
@@ -87927,7 +88005,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791234007.727629
+          "analysisUpdatedAt": 1791256767.667228
         }
       },
       {
@@ -87976,7 +88054,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791234009.7608786
+          "analysisUpdatedAt": 1791256769.4057276
         }
       },
       {
@@ -95562,66 +95640,17 @@ const NEWS_DATA = {
         "headlineKo": "AMD 주가는 2027년 GPU 우위를 제공할 수 있다는 소문으로 상승",
         "relevance": 1,
         "keywordFlag": false
-      },
-      {
-        "headline": "Dow Jones Futures: After S&P 500, Nasdaq Rebound, What's Next? Moderna, AMD, SpaceX Flash Buy Signals.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8a29ce95b8561e45cc4eae2eca551ccca3c17ca7c92fdd223266bfff202193b6",
-        "datetime": 1789731968,
-        "headlineKo": "다우존스 선물: S&P 500, 나스닥 반등 이후 다음은 무엇일까? Moderna, AMD, SpaceX Flash 구매 신호.",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Dow Jones Futures: After S&P 500, Nasdaq Rebound, What's Next? Moderna, AMD, SpaceX Flash Buy Signals.",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'Dow Jones Futures: After S&P 500, Nasdaq Rebound, What's Next? Moderna, AMD, SpaceX Flash Buy Signals.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789747543.020389
-        }
       }
     ],
-    "_fetched_at": 1791234002.297302,
-    "_updated_label": "2026-10-06 06:00",
-    "_last_success_at": 1791234002.297302,
+    "_fetched_at": 1791256760.5724897,
+    "_updated_label": "2026-10-06 12:19",
+    "_last_success_at": 1791256760.5724897,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "AVGO": {
@@ -102896,7 +102925,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "QCOM": {
@@ -108540,7 +108569,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 125,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "ARM": {
@@ -112820,7 +112849,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "MRVL": {
@@ -118601,7 +118630,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "INTC": {
@@ -126732,7 +126761,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "TSM": {
@@ -131922,7 +131951,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "ASML": {
@@ -134993,7 +135022,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "AMAT": {
@@ -138473,11 +138502,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "LRCX": {
-    "_last_attempt_at": 1791234002.297302,
+    "_last_attempt_at": 1791256760.5724897,
     "nextEarnings": {
       "date": "2026-10-21",
       "hour": "",
@@ -138532,7 +138561,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791234019.9640508
+          "analysisUpdatedAt": 1791256775.317337
         },
         "headlineKo": "AI가 스토리지 수요 촉진: Lam Research의 NAND 성장을 촉진할 것인가?"
       },
@@ -138596,7 +138625,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Even before OpenAI released ChatGPT to the public in November 2022, technology was by far the most valuable sector in the S&P 500 (",
             "The artificial intelligence (AI) boom has taken the S&P 500's concentrated technology sector exposure to a whole new level."
           ],
-          "analysisUpdatedAt": 1791234022.3575513
+          "analysisUpdatedAt": 1791256777.7366998
         },
         "headlineKo": "Nvidia, Broadcom, Micron, AMD, Intel 및 Lam Research에 32.4%를 투자한 반면 VOO는 14.8%에 불과한 저비용 Vanguard ETF를 만나보세요."
       },
@@ -138646,7 +138675,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791234024.2394142
+          "analysisUpdatedAt": 1791256780.6252916
         },
         "headlineKo": "Lam Research(LRCX)의 경제적 해자는 무엇이며, 확대되거나 축소되고 있습니까?"
       },
@@ -138718,7 +138747,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791234019.9640508
+          "analysisUpdatedAt": 1791256775.317337
         }
       },
       {
@@ -138781,7 +138810,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Even before OpenAI released ChatGPT to the public in November 2022, technology was by far the most valuable sector in the S&P 500 (",
             "The artificial intelligence (AI) boom has taken the S&P 500's concentrated technology sector exposure to a whole new level."
           ],
-          "analysisUpdatedAt": 1791234022.3575513
+          "analysisUpdatedAt": 1791256777.7366998
         }
       },
       {
@@ -138830,7 +138859,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791234024.2394142
+          "analysisUpdatedAt": 1791256780.6252916
         }
       },
       {
@@ -140385,15 +140414,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791234002.297302,
-    "_updated_label": "2026-10-06 06:00",
-    "_last_success_at": 1791234002.297302,
+    "_fetched_at": 1791256760.5724897,
+    "_updated_label": "2026-10-06 12:19",
+    "_last_success_at": 1791256760.5724897,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "KLAC": {
@@ -142121,7 +142150,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "MU": {
@@ -149511,7 +149540,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "SNDK": {
@@ -155734,7 +155763,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 132,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "WDC": {
@@ -159243,7 +159272,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "ANET": {
@@ -161893,7 +161922,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "COHR": {
@@ -164691,7 +164720,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "LITE": {
@@ -167325,7 +167354,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "GEV": {
@@ -171303,7 +171332,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "CEG": {
@@ -174402,7 +174431,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "VST": {
@@ -176989,7 +177018,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "ETN": {
@@ -179549,7 +179578,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "PWR": {
@@ -181828,7 +181857,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "HUBB": {
@@ -182549,7 +182578,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "VRT": {
@@ -185712,7 +185741,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "MOD": {
@@ -186862,7 +186891,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "STX": {
@@ -189844,7 +189873,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "EME": {
@@ -191208,7 +191237,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "FIX": {
@@ -192453,7 +192482,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   },
   "BE": {
@@ -194352,7 +194381,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-06 11:48"
+      "updated": "2026-10-06 12:19"
     }
   }
 };
