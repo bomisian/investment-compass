@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791322507.5846272,
+  "generatedAt": 1791324060.0691254,
   "records": {
     "MSFT": [
       {
@@ -5225,6 +5225,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "META": [
       {
+        "changedAt": 1791324060.0691254,
+        "dataAsOf": 1791311402,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -3.15,
+            "after": -3.5
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "메타의 AI 전략이 성공할 수 없을 것 같은 이유",
+        "newsUrl": "https://finnhub.io/api/news?id=d70da75a84d3a9662c8fd8bbf96c20b7103279ae9e813f5cf1a64985cb1ebde1",
+        "eventId": "30ddba40f6208c41816d",
+        "fingerprint": "{\"changes\": [{\"after\": -3.5, \"before\": -3.15, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"30ddba40f6208c41816d\"}"
+      },
+      {
         "changedAt": 1791322507.5846272,
         "dataAsOf": 1791311402,
         "changes": [
@@ -7036,35 +7053,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=b0374f10ca9f063a9a6df6382dc7e3e9140ab2ed7fdc8ba6facd5defbda90542",
         "eventId": "89af8395409dec432300",
         "fingerprint": "{\"changes\": [{\"after\": -1.57, \"before\": -0.52, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"주의 강화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"89af8395409dec432300\"}"
-      },
-      {
-        "changedAt": 1790218004.7168682,
-        "dataAsOf": 1790207784,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 2.28,
-            "after": 2.62
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -0.87,
-            "after": -0.52
-          },
-          {
-            "key": "signal",
-            "label": "종합 시그널",
-            "before": "주의 강화",
-            "after": "중립·확인 대기"
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "억만장자 팀 드레이퍼(Tim Draper), 애플과 메타의 비트코인 ​​없는 대차대조표 겨냥",
-        "newsUrl": "https://finnhub.io/api/news?id=5a57c263d0897aa2d88d4977470b00b8c419f2a39311162da2a36851e3249e8c",
-        "eventId": "9b66c5277889d778f29e",
-        "fingerprint": "{\"changes\": [{\"after\": 2.62, \"before\": 2.28, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.52, \"before\": -0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"9b66c5277889d778f29e\"}"
       }
     ],
     "AAPL": [
@@ -32936,6 +32924,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "MU": [
       {
+        "changedAt": 1791324060.0691254,
+        "dataAsOf": 1791316497,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 2.98,
+            "after": 2.45
+          }
+        ],
+        "cause": "AI 서버 메모리 수요와 가격 강세",
+        "newsHeadline": "Marvell, 투자자 데이에서 2031 회계연도 매출 목표 상향",
+        "newsUrl": "https://finnhub.io/api/news?id=b3bb6e969e746963ce54baac0849b1c470c4ae77a71a436cc245c61ea1f5db5e",
+        "eventId": "c6aff69e09eaa91eb95d",
+        "fingerprint": "{\"changes\": [{\"after\": 2.45, \"before\": 2.98, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"c6aff69e09eaa91eb95d\"}"
+      },
+      {
         "changedAt": 1791322507.5846272,
         "dataAsOf": 1791316497,
         "changes": [
@@ -34141,23 +34146,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=20db64b37d2146f17e5335faaa889908ab94052b82281d9837496c871c2c1c7a",
         "eventId": "306a714a306ffc8716a5",
         "fingerprint": "{\"changes\": [{\"after\": 5, \"before\": 4.72, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"306a714a306ffc8716a5\"}"
-      },
-      {
-        "changedAt": 1790350660.7806306,
-        "dataAsOf": 1790342167,
-        "changes": [
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 4.03,
-            "after": 4.72
-          }
-        ],
-        "cause": "AI 서버 메모리 수요와 가격 강세",
-        "newsHeadline": "오라클의 붕괴 - 데이터 센터 폐쇄로 2000억 달러 손실",
-        "newsUrl": "https://finnhub.io/api/news?id=20db64b37d2146f17e5335faaa889908ab94052b82281d9837496c871c2c1c7a",
-        "eventId": "306a714a306ffc8716a5",
-        "fingerprint": "{\"changes\": [{\"after\": 4.72, \"before\": 4.03, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"306a714a306ffc8716a5\"}"
       }
     ],
     "SNDK": [
@@ -36126,6 +36114,41 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "WDC": [
       {
+        "changedAt": 1791324060.0691254,
+        "dataAsOf": 1791313674,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -0.35,
+            "after": 0.0
+          },
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -0.7,
+            "after": -0.35
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -3.5,
+            "after": -3.15
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.58,
+            "after": -1.23
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Nvidia가 지원하는 클라우드 컴퓨팅 회사 Lambda는 IPO를 앞두고 최종 라운드에서 40억 달러를 모금할 것으로 보입니다: 보고서",
+        "newsUrl": "https://finnhub.io/api/news?id=7a950b12175464e362e017872d96e02cf8657a0edfaafc0ae8f32b5f8be53e41",
+        "eventId": "d9952b85779fd4bbca42",
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.35, \"before\": -0.7, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -3.15, \"before\": -3.5, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.23, \"before\": -1.58, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"d9952b85779fd4bbca42\"}"
+      },
+      {
         "changedAt": 1791322507.5846272,
         "dataAsOf": 1791313674,
         "changes": [
@@ -37817,35 +37840,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=db732d605a24a75a773506774ccc7adc0510edccf1cae68f084a011a6594952a",
         "eventId": "d55edb3320abbea3b46b",
         "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -2.0, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.05, \"before\": -2.05, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.52, \"before\": -2.52, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"d55edb3320abbea3b46b\"}"
-      },
-      {
-        "changedAt": 1789569936.2596838,
-        "dataAsOf": 1789555800,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 0.0,
-            "after": -0.52
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -1.0,
-            "after": -2.05
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -2.0,
-            "after": -2.52
-          }
-        ],
-        "cause": "메모리·스토리지 가격 강세 수혜 가능성",
-        "newsHeadline": "Apple에서 Tim Cook의 가장 결정적인 움직임은 AI와 관련이 없습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=db732d605a24a75a773506774ccc7adc0510edccf1cae68f084a011a6594952a",
-        "eventId": "d55edb3320abbea3b46b",
-        "fingerprint": "{\"changes\": [{\"after\": -0.52, \"before\": 0.0, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.05, \"before\": -1.0, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -2.52, \"before\": -2.0, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"d55edb3320abbea3b46b\"}"
       }
     ],
     "ANET": [
