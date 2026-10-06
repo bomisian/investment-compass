@@ -4548,7 +4548,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "SPY": {
@@ -10384,7 +10384,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "MSFT": {
@@ -18512,7 +18512,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "GOOGL": {
@@ -26386,7 +26386,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "AMZN": {
@@ -34340,7 +34340,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "META": {
@@ -42089,7 +42089,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "AAPL": {
@@ -50133,7 +50133,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "TSLA": {
@@ -57892,7 +57892,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "ORCL": {
@@ -58204,72 +58204,6 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1790239821.251494
-        }
-      },
-      {
-        "headline": "Oracle cloud layoffs hit developers, engineers hardest",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7b6c2bde4bdf8697c943d3e4169836f7d835ec406820879b51abff7bd2af0835",
-        "datetime": 1790097408,
-        "headlineKo": "오라클 클라우드 해고로 인해 개발자와 엔지니어가 가장 큰 타격을 입었습니다.",
-        "relevance": 1.0,
-        "keywordFlag": true,
-        "flagTerms": [
-          "layoffs"
-        ],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "오라클 클라우드 정리해고는 개발자, 엔지니어에게 가장 큰 타격",
-            "문서에 따르면 Oracle America Cloud Infrastructure 조직의 직원 546명이 해고되었으며, 이는 해당 문서에 포함된 직원 7,185명 중 약 7.6%에 해당합니다.",
-            "오라클은 해당 정보가 연방 연령차별법을 준수하기 위해 공개됐다고 밝혔다."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 17%, 7.6%, 13% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "ORCL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "ORCL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "ORCL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1.0,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "17%",
-            "7.6%",
-            "13%",
-            "121%",
-            "$90 billion",
-            "$95 billion",
-            "$2.8 billion",
-            "$2.1 billion"
-          ],
-          "sourceExcerpt": [
-            "Oracle cloud layoffs hit developers, engineers hardest Business News Oracle layoffs hit software developers, engineers hardest, document shows A leaked document covering 546 employees in Oracle's cloud infrastructure division shows software",
-            "According to the document, 546 workers in Oracle 's America Cloud Infrastructure organization were among those cut, a figure that amounts to roughly 7.6% of the 7,185 employees it covers.",
-            "Oracle said the information was disclosed to comply with federal age discrimination laws."
-          ],
-          "analysisUpdatedAt": 1790129565.3719573
         }
       }
     ],
@@ -66245,9 +66179,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 189,
+      "checked": 188,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "CRM": {
@@ -71968,7 +71902,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "PLTR": {
@@ -80412,7 +80346,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "NVDA": {
@@ -88130,7 +88064,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "AMD": {
@@ -96174,7 +96108,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "AVGO": {
@@ -103632,7 +103566,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 151,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "QCOM": {
@@ -109304,7 +109238,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 125,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "ARM": {
@@ -113662,7 +113596,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "MRVL": {
@@ -119555,7 +119489,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 122,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "INTC": {
@@ -127714,7 +127648,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "TSM": {
@@ -133079,7 +133013,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "ASML": {
@@ -136266,7 +136200,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "AMAT": {
@@ -139894,7 +139828,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "LRCX": {
@@ -141861,7 +141795,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "KLAC": {
@@ -143638,7 +143572,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "MU": {
@@ -151102,7 +151036,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "SNDK": {
@@ -157456,7 +157390,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "WDC": {
@@ -161112,7 +161046,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "ANET": {
@@ -163896,7 +163830,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "COHR": {
@@ -166694,7 +166628,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "LITE": {
@@ -169328,7 +169262,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "GEV": {
@@ -173310,7 +173244,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "CEG": {
@@ -176632,7 +176566,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "VST": {
@@ -179361,7 +179295,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "ETN": {
@@ -182070,7 +182004,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "PWR": {
@@ -184445,7 +184379,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "HUBB": {
@@ -185116,7 +185050,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "VRT": {
@@ -188422,7 +188356,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "MOD": {
@@ -189620,7 +189554,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "STX": {
@@ -192753,7 +192687,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "EME": {
@@ -194117,7 +194051,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "FIX": {
@@ -195397,7 +195331,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   },
   "BE": {
@@ -197268,7 +197202,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-07 01:45"
+      "updated": "2026-10-07 02:17"
     }
   }
 };
