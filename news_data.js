@@ -2,10 +2,74 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1791235924.639209,
+    "_last_attempt_at": 1791258665.1351702,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Nasdaq 100 Hits Record Highs As Investors Shrug Off Pressure From Soaring Yields — NVDA, SPCX, CRML, TSLA, QCOM In Focus",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8b05235329873b3a6aefc1263a0519dcf558fad2478525d7f31f7e0d1584bf58",
+        "datetime": 1791238172,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "규제·법무 · 비선형 위험",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nasdaq 100은 투자자들이 치솟는 수익률에 대한 압력을 무시하면서 사상 최고치를 기록했습니다 — NVDA, SPCX, CRML, TSLA, QCOM In Focus AI 에이전트 동향 뉴스 수익 전체 DIA 0.33% SPY 0.74% QQQ 0.93% 추세 XRPN 41.40% SPCX 8.07% NVAX 19.60% PBR 11.04",
+            "나스닥 100 지수는 투자자들이 치솟는 수익률에 대한 압박을 이겨내면서 사상 최고치를 경신했습니다. - NVDA, SPCX, CRML, TSLA, QCOM In Focus ISM 보고서에 따르면 9월 서비스 구매 관리자 지수(Purchasing Managers' Index)는 54.9%를 기록했습니다.",
+            "2026년 3월 24일 뉴욕 증권거래소(NYSE) 개장 벨에서 거래자가 일하고 있다."
+          ],
+          "why": [
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.33%, 0.74%, 0.93% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
+          ],
+          "interpretation": "QQQ에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.33%",
+            "0.74%",
+            "0.93%",
+            "41.40%",
+            "8.07%",
+            "19.60%",
+            "11.04%",
+            "0.57%"
+          ],
+          "sourceExcerpt": [
+            "Nasdaq 100 Hits Record Highs As Investors Shrug Off Pressure From Soaring Yields — NVDA, SPCX, CRML, TSLA, QCOM In Focus AI Agent Trending News Earnings All DIA 0.33% SPY 0.74% QQQ 0.93% Trending XRPN 41.40% SPCX 8.07% NVAX 19.60% PBR 11.04",
+            "Nasdaq 100 Hits Record Highs As Investors Shrug Off Pressure From Soaring Yields — NVDA, SPCX, CRML, TSLA, QCOM In Focus The ISM report showed that the Purchasing Managers' Index for services came in at 54.9% in September, roughly in line w",
+            "A trader works on the floor of the New York Stock Exchange (NYSE) at the opening bell in New York on March 24, 2026."
+          ],
+          "analysisUpdatedAt": 1791258671.3678114
+        },
+        "headlineKo": "Nasdaq 100은 투자자들이 치솟는 수익률에 대한 압박을 이겨내면서 사상 최고치를 경신했습니다 — NVDA, SPCX, CRML, TSLA, QCOM In Focus"
+      },
       {
         "headline": "Nasdaq, S&P 500, Dow Futures Steady Ahead Of Fed Minutes This Week: TSLA, SPCX, CBRS, QCOM, PTC, IBRX Stocks In Focus",
         "source": "Yahoo",
@@ -16,22 +80,24 @@ const NEWS_DATA = {
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Nasdaq, S&P 500, Dow Futures Steady Ahead Of Fed Minutes This Week: TSLA, SPCX, CBRS, QCOM, PTC, IBRX Stocks In Focus",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "Nasdaq, S&P 500, Dow 선물은 이번 주 연준 회의록보다 꾸준히 앞서 있습니다: TSLA, SPCX, CBRS, QCOM, PTC, IBRX 주식에 초점 AI 에이전트 동향 뉴스 수익 전체 DIA 0.33% SPY 0.74% QQQ 0.93% 추세 XRPN 41.40% SPCX 8.07% NVAX 19.60% PBR 11.04%티",
+            "Nasdaq, S&P 500, Dow 선물은 이번 주 Fed 회의록보다 꾸준히 앞서 있습니다. TSLA, SPCX, CBRS, QCOM, PTC, IBRX 주식은 Stocktwits에 초점을 맞추고 있으며 SPY 및 QQQ에 대한 소매 감정은 지난주부터 '강세'를 유지했습니다.",
+            "나스닥 로고 표지판이 2026년 8월 7일 미국 뉴욕에서 보입니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.33%, 0.74%, 0.93% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -41,18 +107,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
           ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Nasdaq, S&P 500, Dow Futures Steady Ahead Of Fed Minutes This Week: TSLA, SPCX, CBRS, QCOM, PTC, IBRX Stocks In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791235927.5459118
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.33%",
+            "0.74%",
+            "0.93%",
+            "41.40%",
+            "8.07%",
+            "19.60%",
+            "11.04%",
+            "0.57%"
+          ],
+          "sourceExcerpt": [
+            "Nasdaq, S&P 500, Dow Futures Steady Ahead Of Fed Minutes This Week: TSLA, SPCX, CBRS, QCOM, PTC, IBRX Stocks In Focus AI Agent Trending News Earnings All DIA 0.33% SPY 0.74% QQQ 0.93% Trending XRPN 41.40% SPCX 8.07% NVAX 19.60% PBR 11.04% T",
+            "Nasdaq, S&P 500, Dow Futures Steady Ahead Of Fed Minutes This Week: TSLA, SPCX, CBRS, QCOM, PTC, IBRX Stocks In Focus On Stocktwits, retail sentiment toward SPY and QQQ remained ‘bullish’ since last week.",
+            "Nasdaq logo sign is seen in New York City, United States, on August 7, 2026."
+          ],
+          "analysisUpdatedAt": 1791258675.034061
         },
         "headlineKo": "Nasdaq, S&P 500, Dow 선물은 이번 주 연준 회의록보다 꾸준히 앞서 있습니다: TSLA, SPCX, CBRS, QCOM, PTC, IBRX 주식에 집중"
       },
@@ -116,7 +194,7 @@ const NEWS_DATA = {
             "stock futures were mixed on Monday, as the Dow Jones index rose, while the S&P 500 and Nasdaq 100 indices fell, following Friday’s higher close.",
             "Geopolitical uncertainty continues to weigh on markets after Iranian officials declared that the Strait of Hormuz will not fully reopen until Washington meets seven conditions, maintaining a firm stance despite mediated proposals and recove"
           ],
-          "analysisUpdatedAt": 1791235930.8974254
+          "analysisUpdatedAt": 1791258677.5398302
         },
         "headlineKo": "오늘의 주식 시장: 이란이 호르무즈 해협을 재개하기 위한 조건을 유지함에 따라 다우 선물 상승, S&P 500, 나스닥 100 하락 - SPCX, QCOM, VST 초점(업데이트됨)"
       },
@@ -128,46 +206,6 @@ const NEWS_DATA = {
         "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "SPY and QQQ Hold Firm as Breadth Stabilizes, but Participation Remains Narrow",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'SPY and QQQ Hold Firm as Breadth Stabilizes, but Participation Remains Narrow' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1.0,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791235931.9524972
-        },
         "headlineKo": "SPY와 QQQ는 폭이 안정되면서 확고한 지위를 유지하지만 참여는 여전히 좁습니다."
       },
       {
@@ -179,16 +217,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "2026년 국제 시장은 미국 주식을 앞서고 있습니다: 이 4개의 ETF는 SPY, QQQ, DIA를 먼지 속에 남겨 두었습니다."
-      },
-      {
-        "headline": "S&P 500, Nasdaq, Dow End Week Higher As Weak Jobs Report Cools Rate Hike Bets — NVDA, BA, SPCX, RIVN, APLD In Focus",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d04eae234e3a29ff64372c2c9007ab3075e1d99b0395ce2a635e928e33c28b0a",
-        "datetime": 1790980139,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "S&P 500, Nasdaq, Dow는 취약한 일자리 보고서가 금리 인상 베팅을 냉각함에 따라 주간 상승 — NVDA, BA, SPCX, RIVN, APLD 집중"
       },
       {
         "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Gains as Trump Dismisses Iran Sanction Relief as 'Hoax'— Nvidia, AAR, Vail Resorts in Focus (UPDATED)",
@@ -310,31 +338,33 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
-        "headline": "Nasdaq, S&P 500, Dow Futures Steady Ahead Of Fed Minutes This Week: TSLA, SPCX, CBRS, QCOM, PTC, IBRX Stocks In Focus",
+        "headline": "Nasdaq 100 Hits Record Highs As Investors Shrug Off Pressure From Soaring Yields — NVDA, SPCX, CRML, TSLA, QCOM In Focus",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e670ad8ab6c131188420750c923d4ce4b0446adbcf3c89b84d5a372cf22a8337",
-        "datetime": 1791190360,
-        "headlineKo": "Nasdaq, S&P 500, Dow 선물은 이번 주 연준 회의록보다 꾸준히 앞서 있습니다: TSLA, SPCX, CBRS, QCOM, PTC, IBRX 주식에 집중",
+        "url": "https://finnhub.io/api/news?id=8b05235329873b3a6aefc1263a0519dcf558fad2478525d7f31f7e0d1584bf58",
+        "datetime": 1791238172,
+        "headlineKo": "Nasdaq 100은 투자자들이 치솟는 수익률에 대한 압박을 이겨내면서 사상 최고치를 경신했습니다 — NVDA, SPCX, CRML, TSLA, QCOM In Focus",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "규제·법무 · 비선형 위험",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Nasdaq, S&P 500, Dow Futures Steady Ahead Of Fed Minutes This Week: TSLA, SPCX, CBRS, QCOM, PTC, IBRX Stocks In Focus",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "Nasdaq 100은 투자자들이 치솟는 수익률에 대한 압력을 무시하면서 사상 최고치를 기록했습니다 — NVDA, SPCX, CRML, TSLA, QCOM In Focus AI 에이전트 동향 뉴스 수익 전체 DIA 0.33% SPY 0.74% QQQ 0.93% 추세 XRPN 41.40% SPCX 8.07% NVAX 19.60% PBR 11.04",
+            "나스닥 100 지수는 투자자들이 치솟는 수익률에 대한 압박을 이겨내면서 사상 최고치를 경신했습니다. - NVDA, SPCX, CRML, TSLA, QCOM In Focus ISM 보고서에 따르면 9월 서비스 구매 관리자 지수(Purchasing Managers' Index)는 54.9%를 기록했습니다.",
+            "2026년 3월 24일 뉴욕 증권거래소(NYSE) 개장 벨에서 거래자가 일하고 있다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.33%, 0.74%, 0.93% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -344,18 +374,93 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
           ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Nasdaq, S&P 500, Dow Futures Steady Ahead Of Fed Minutes This Week: TSLA, SPCX, CBRS, QCOM, PTC, IBRX Stocks In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "QQQ에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791235927.5459118
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.33%",
+            "0.74%",
+            "0.93%",
+            "41.40%",
+            "8.07%",
+            "19.60%",
+            "11.04%",
+            "0.57%"
+          ],
+          "sourceExcerpt": [
+            "Nasdaq 100 Hits Record Highs As Investors Shrug Off Pressure From Soaring Yields — NVDA, SPCX, CRML, TSLA, QCOM In Focus AI Agent Trending News Earnings All DIA 0.33% SPY 0.74% QQQ 0.93% Trending XRPN 41.40% SPCX 8.07% NVAX 19.60% PBR 11.04",
+            "Nasdaq 100 Hits Record Highs As Investors Shrug Off Pressure From Soaring Yields — NVDA, SPCX, CRML, TSLA, QCOM In Focus The ISM report showed that the Purchasing Managers' Index for services came in at 54.9% in September, roughly in line w",
+            "A trader works on the floor of the New York Stock Exchange (NYSE) at the opening bell in New York on March 24, 2026."
+          ],
+          "analysisUpdatedAt": 1791258671.3678114
+        }
+      },
+      {
+        "headline": "Nasdaq, S&P 500, Dow Futures Steady Ahead Of Fed Minutes This Week: TSLA, SPCX, CBRS, QCOM, PTC, IBRX Stocks In Focus",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e670ad8ab6c131188420750c923d4ce4b0446adbcf3c89b84d5a372cf22a8337",
+        "datetime": 1791190360,
+        "headlineKo": "Nasdaq, S&P 500, Dow 선물은 이번 주 연준 회의록보다 꾸준히 앞서 있습니다: TSLA, SPCX, CBRS, QCOM, PTC, IBRX 주식에 집중",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nasdaq, S&P 500, Dow 선물은 이번 주 연준 회의록보다 꾸준히 앞서 있습니다: TSLA, SPCX, CBRS, QCOM, PTC, IBRX 주식에 초점 AI 에이전트 동향 뉴스 수익 전체 DIA 0.33% SPY 0.74% QQQ 0.93% 추세 XRPN 41.40% SPCX 8.07% NVAX 19.60% PBR 11.04%티",
+            "Nasdaq, S&P 500, Dow 선물은 이번 주 Fed 회의록보다 꾸준히 앞서 있습니다. TSLA, SPCX, CBRS, QCOM, PTC, IBRX 주식은 Stocktwits에 초점을 맞추고 있으며 SPY 및 QQQ에 대한 소매 감정은 지난주부터 '강세'를 유지했습니다.",
+            "나스닥 로고 표지판이 2026년 8월 7일 미국 뉴욕에서 보입니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.33%, 0.74%, 0.93% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.33%",
+            "0.74%",
+            "0.93%",
+            "41.40%",
+            "8.07%",
+            "19.60%",
+            "11.04%",
+            "0.57%"
+          ],
+          "sourceExcerpt": [
+            "Nasdaq, S&P 500, Dow Futures Steady Ahead Of Fed Minutes This Week: TSLA, SPCX, CBRS, QCOM, PTC, IBRX Stocks In Focus AI Agent Trending News Earnings All DIA 0.33% SPY 0.74% QQQ 0.93% Trending XRPN 41.40% SPCX 8.07% NVAX 19.60% PBR 11.04% T",
+            "Nasdaq, S&P 500, Dow Futures Steady Ahead Of Fed Minutes This Week: TSLA, SPCX, CBRS, QCOM, PTC, IBRX Stocks In Focus On Stocktwits, retail sentiment toward SPY and QQQ remained ‘bullish’ since last week.",
+            "Nasdaq logo sign is seen in New York City, United States, on August 7, 2026."
+          ],
+          "analysisUpdatedAt": 1791258675.034061
         }
       },
       {
@@ -418,7 +523,7 @@ const NEWS_DATA = {
             "stock futures were mixed on Monday, as the Dow Jones index rose, while the S&P 500 and Nasdaq 100 indices fell, following Friday’s higher close.",
             "Geopolitical uncertainty continues to weigh on markets after Iranian officials declared that the Strait of Hormuz will not fully reopen until Washington meets seven conditions, maintaining a firm stance despite mediated proposals and recove"
           ],
-          "analysisUpdatedAt": 1791235930.8974254
+          "analysisUpdatedAt": 1791258677.5398302
         }
       },
       {
@@ -4284,15 +4389,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791235924.639209,
-    "_updated_label": "2026-10-06 06:32",
-    "_last_success_at": 1791235924.639209,
+    "_fetched_at": 1791258665.1351702,
+    "_updated_label": "2026-10-06 12:51",
+    "_last_success_at": 1791258665.1351702,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 85,
+      "checked": 86,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "SPY": {
@@ -9911,7 +10016,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "MSFT": {
@@ -18079,7 +18184,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "GOOGL": {
@@ -26056,7 +26161,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "AMZN": {
@@ -33990,7 +34095,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "META": {
@@ -41715,7 +41820,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "AAPL": {
@@ -49753,7 +49858,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "TSLA": {
@@ -57510,7 +57615,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "ORCL": {
@@ -65909,7 +66014,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "CRM": {
@@ -71522,7 +71627,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "PLTR": {
@@ -79964,7 +80069,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "NVDA": {
@@ -87685,7 +87790,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "AMD": {
@@ -95650,7 +95755,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "AVGO": {
@@ -102925,7 +103030,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "QCOM": {
@@ -108569,7 +108674,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 125,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "ARM": {
@@ -112849,7 +112954,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "MRVL": {
@@ -118630,7 +118735,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "INTC": {
@@ -126761,7 +126866,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "TSM": {
@@ -131951,7 +132056,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "ASML": {
@@ -135022,7 +135127,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "AMAT": {
@@ -138502,7 +138607,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "LRCX": {
@@ -140422,7 +140527,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "KLAC": {
@@ -142150,7 +142255,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "MU": {
@@ -149540,7 +149645,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "SNDK": {
@@ -155763,7 +155868,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 132,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "WDC": {
@@ -159272,7 +159377,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "ANET": {
@@ -161922,7 +162027,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "COHR": {
@@ -164720,7 +164825,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "LITE": {
@@ -167354,7 +167459,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "GEV": {
@@ -171332,7 +171437,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "CEG": {
@@ -174431,7 +174536,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "VST": {
@@ -177018,7 +177123,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "ETN": {
@@ -179578,7 +179683,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "PWR": {
@@ -181857,7 +181962,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "HUBB": {
@@ -182578,7 +182683,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "VRT": {
@@ -185741,7 +185846,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "MOD": {
@@ -186891,7 +186996,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "STX": {
@@ -189873,7 +189978,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "EME": {
@@ -191237,7 +191342,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "FIX": {
@@ -192482,7 +192587,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   },
   "BE": {
@@ -194381,7 +194486,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-06 12:19"
+      "updated": "2026-10-06 12:51"
     }
   }
 };
