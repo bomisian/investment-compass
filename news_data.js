@@ -4292,7 +4292,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "SPY": {
@@ -9799,7 +9799,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 112,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "MSFT": {
@@ -18014,7 +18014,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "GOOGL": {
@@ -18432,70 +18432,6 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,709.40 −0.12% Dow Jones 51,464.40 −0.18% Nasdaq 100 30,481.20 −0.12% Russell 2000 2,837.65 −0.19% S&P 500 7,709.40 −0.12% Dow Jones 51,464.40 −0.18% Nasdaq 100 30,481.20 −0.12% Russell 2000 2,837.65 −0."
           ],
           "analysisUpdatedAt": 1790217689.8814971
-        }
-      },
-      {
-        "headline": "Google Fined By Irish Privacy Regulator For Location Data",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c344c5d596a41c7a2e975c666f6d1c421f2734fde0a3db057c66b24df8b3e8e9",
-        "datetime": 1790036807,
-        "headlineKo": "Google은 위치 데이터에 대해 아일랜드 개인 정보 보호 규제 기관으로부터 벌금을 부과 받았습니다.",
-        "relevance": 1.0,
-        "keywordFlag": true,
-        "flagTerms": [
-          "fined"
-        ],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "neutral",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Google은 2026년 9월 22일 위치 데이터 관련 아일랜드 개인 정보 보호 규제 기관으로부터 벌금을 부과받았지만 다른 MediaPost 뉴스레터와 기사는 모두에게 무료로 제공됩니다.",
-            "새로운 Research Intelligencer 서비스는 유료 가입자에게만 제공됩니다...",
-            "지금 구독하시면 우리가 발행하는 모든 Research Intelligencer 기사는 물론 독점 일일 뉴스레터, The MediaPost Cases에 대한 전체 액세스, 최초 조사 연구 및 편집장인 Joe Mandese의 일일 통찰력을 얻으실 수 있습니다."
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: €403, $462.7 million, €4 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "GOOGL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "GOOGL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "GOOGL에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1.0,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "€403",
-            "$462.7 million",
-            "€4 billion",
-            "€1.2 billion",
-            "€530 million",
-            "€405 million"
-          ],
-          "sourceExcerpt": [
-            "Google Fined By Irish Privacy Regulator For Location Data 09/22/2026 While other MediaPost newsletters and articles remain free to all ...",
-            "our new Research Intelligencer service is reserved for paid subscribers ...",
-            "Subscribe today to gain access to every Research Intelligencer article we publish as well as the exclusive daily newsletter, full access to The MediaPost Cases , first-look research and daily insights from Joe Mandese, Editor in Chief."
-          ],
-          "analysisUpdatedAt": 1790063186.2647061
         }
       }
     ],
@@ -26052,9 +25988,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 190,
+      "checked": 189,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "AMZN": {
@@ -33930,7 +33866,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "META": {
@@ -41722,7 +41658,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "AAPL": {
@@ -49738,7 +49674,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "TSLA": {
@@ -57480,7 +57416,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "ORCL": {
@@ -65778,7 +65714,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "CRM": {
@@ -71391,7 +71327,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "PLTR": {
@@ -79811,7 +79747,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "NVDA": {
@@ -87475,7 +87411,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "AMD": {
@@ -95411,7 +95347,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "AVGO": {
@@ -102553,7 +102489,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "QCOM": {
@@ -108087,7 +108023,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "ARM": {
@@ -112373,7 +112309,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "MRVL": {
@@ -118056,7 +117992,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 118,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "INTC": {
@@ -126012,7 +125948,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 183,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "TSM": {
@@ -131009,7 +130945,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 109,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "ASML": {
@@ -134080,7 +134016,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "AMAT": {
@@ -137560,7 +137496,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "LRCX": {
@@ -139480,7 +139416,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "KLAC": {
@@ -141208,7 +141144,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "MU": {
@@ -148648,7 +148584,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "SNDK": {
@@ -154733,7 +154669,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "WDC": {
@@ -158207,7 +158143,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "ANET": {
@@ -160857,7 +160793,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "COHR": {
@@ -163655,7 +163591,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "LITE": {
@@ -166289,7 +166225,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "GEV": {
@@ -170269,7 +170205,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "CEG": {
@@ -173305,7 +173241,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "VST": {
@@ -175815,7 +175751,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "ETN": {
@@ -178375,7 +178311,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "PWR": {
@@ -180654,7 +180590,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "HUBB": {
@@ -181375,7 +181311,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "VRT": {
@@ -184503,7 +184439,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "MOD": {
@@ -185567,7 +185503,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "STX": {
@@ -188437,7 +188373,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "EME": {
@@ -189801,7 +189737,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "FIX": {
@@ -190999,7 +190935,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   },
   "BE": {
@@ -192898,7 +192834,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-06 06:32"
+      "updated": "2026-10-06 09:36"
     }
   }
 };
