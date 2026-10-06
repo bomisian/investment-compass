@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 89.81999969482422,
+      "current": 89.91999816894531,
       "prevClose": 89.43000030517578,
-      "changeAbs": 0.3899993896484375,
-      "changePct": 0.43609458606461193,
-      "pctRank": 81.38424821002387,
+      "changeAbs": 0.48999786376953125,
+      "changePct": 0.5479121794671095,
+      "pctRank": 81.46380270485282,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -20.478085771013323,
-      "ma20": 95.78100090026855,
-      "ma60": 87.92666702270508,
-      "chg1m": -1.660003662109375,
-      "chg3m": 16.300003051757812,
-      "chg1mPct": -1.8146082216814408,
-      "chg3mPct": 22.17084303049278,
+      "drawdown1y": -20.389552369665008,
+      "ma20": 95.7860008239746,
+      "ma60": 87.92833366394044,
+      "chg1m": -1.5600051879882812,
+      "chg3m": 16.400001525878906,
+      "chg1mPct": -1.7052963825345584,
+      "chg3mPct": 22.306858371470796,
       "lastDate": "2026-10-06",
       "bars": 1257,
       "symbol": "CL=F",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4194.60009765625,
+      "current": 4197.2001953125,
       "prevClose": 4156.7998046875,
-      "changeAbs": 37.80029296875,
-      "changePct": 0.909360439396762,
+      "changeAbs": 40.400390625,
+      "changePct": 0.9719109055827436,
       "pctRank": 85.53259141494436,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -21.130411878058585,
-      "ma20": 4306.119970703125,
-      "ma60": 4318.196659342448,
-      "chg1m": -282.0,
-      "chg3m": 112.2001953125,
-      "chg1mPct": -6.299423532328535,
-      "chg3mPct": 2.748388153940643,
+      "drawdown1y": -21.081523157691695,
+      "ma20": 4306.249975585937,
+      "ma60": 4318.239994303385,
+      "chg1m": -279.39990234375,
+      "chg3m": 114.80029296875,
+      "chg1mPct": -6.2413415594131685,
+      "chg3mPct": 2.812078574243594,
       "lastDate": "2026-10-06",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,13 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Oil prices stable as market weighs supply risks, rising Middle East exports - Reuters",
-      "summary": "Oil prices stable as market weighs supply risks, rising Middle East exports Reuters",
+      "headline": "'I'm getting fed up': early US midterm voters line up before dawn in Ohio - Reuters",
+      "summary": "'I'm getting fed up': early US midterm voters line up before dawn in Ohio Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNR2pUdllqZ01ILVZhYUF3SUxMbElJVnBReFhYeE8tUXVUYlVmMVE3WkVTWjJnVTBVMEg5M2Npd0lOM1BHTGVmaVFEbEtGZ2JmVUd4WWhFUzAwdU1zOTNGVFZNaWhORU1KTlN1M0llbXlTemtiVDd2a1pEeVQ0aDRYSW5rX0xYam10ek5xVTctY1dwZW1qUlRNOHZDeUFjWl91cXR5NVRQQ0ZXT1BBcnNjV0pXYWtIbVlHbmRTanpNaUszT1Rx?oc=5",
-      "datetime": 1791324038,
-      "headlineKo": "시장이 공급 위험을 부담하고 중동 수출이 증가함에 따라 유가는 안정적입니다 - Reuters",
-      "summaryKo": "시장이 공급 위험을 부담하고 중동 수출이 증가함에 따라 유가는 안정됨 Reuters"
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR3NBVWtIOEhDaDlKenA1S0x2NUh3dDFfa1c5REw3OThWbjVzQnpwWVhQd09nYnBJU2dwMFJfZWxhcU1nb1JTR1JETm85R1lRV0RVZEViRmR0UGZJdmpSQUdNLXZhTWRleFRaMndmX283c29UY3FvZE9KSVBsRVM0ZW5rMXZYam9FeklWUTZoU3FKQ2pDcFBzc21LVFF6QndO?oc=5",
+      "datetime": 1791328389,
+      "headlineKo": "'질렸다': 미국 중간선거 초반 유권자들이 오하이오에서 새벽에 줄을 서고 있다. - 로이터",
+      "summaryKo": "'질렸다': 미국 오하이오주 중기 유권자들이 새벽에 줄을 서고 있다. 로이터"
     },
     {
       "headline": "Yemeni government fighters shown driving vehicles over Houthi opponents - Reuters",
@@ -255,6 +255,15 @@ const MARKET_DATA = {
       "summaryKo": "예멘 정부군, 후티 반군 위로 차량 운전하는 모습 Reuters"
     },
     {
+      "headline": "US Senator Murphy says Pentagon denied him access to US base in Qatar - Reuters",
+      "summary": "US Senator Murphy says Pentagon denied him access to US base in Qatar Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMkNYTFZmdFZrdzNHWDNNVHZNMmJCWWtHVHc5OHFzbWhLNHNKY19HdXlZUUhwZTRUQ2E3TlVKSjBMV1p5RVRyOTc1OWZ1M2RMMmRrN09GcUgtNUlQQjA1UGV0dUl4UXNSeTdxLTN4eUw0d3lwQ2VqVWg3T0ZSbVVSZUVxR0Z2UVBvU1I1Nm9BTkIxRWlpNzNYQnlfRDBKZ0RTak02YmxZWlVoekFO?oc=5",
+      "datetime": 1791316564,
+      "headlineKo": "머피 미 상원 의원은 국방부가 카타르에 있는 미군 기지에 대한 접근을 거부했다고 말했습니다. - 로이터",
+      "summaryKo": "머피 미 상원의원은 국방부가 카타르 로이터에 있는 미군 기지에 대한 접근을 거부했다고 말했습니다."
+    },
+    {
       "headline": "Former German spy chief arrested for attempted treason, obtaining state secrets - Reuters",
       "summary": "Former German spy chief arrested for attempted treason, obtaining state secrets Reuters",
       "source": "Reuters",
@@ -262,15 +271,6 @@ const MARKET_DATA = {
       "datetime": 1791313063,
       "headlineKo": "전 독일 정보국장, 국가기밀 빼내 반역미수 혐의로 체포 - 로이터 통신",
       "summaryKo": "전 독일 스파이 국장이 반역 미수 혐의로 체포되어 국가 기밀을 취득했습니다."
-    },
-    {
-      "headline": "'I'm getting fed up': voters line up before dawn as early voting begins in Ohio - Reuters",
-      "summary": "'I'm getting fed up': voters line up before dawn as early voting begins in Ohio Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR3NBVWtIOEhDaDlKenA1S0x2NUh3dDFfa1c5REw3OThWbjVzQnpwWVhQd09nYnBJU2dwMFJfZWxhcU1nb1JTR1JETm85R1lRV0RVZEViRmR0UGZJdmpSQUdNLXZhTWRleFRaMndmX283c29UY3FvZE9KSVBsRVM0ZW5rMXZYam9FeklWUTZoU3FKQ2pDcFBzc21LVFF6QndO?oc=5",
-      "datetime": 1791312779,
-      "headlineKo": "'지겹다': 오하이오에서 조기 투표가 시작되자 유권자들이 새벽이 되기 전에 줄을 섰다 - 로이터",
-      "summaryKo": "'지쳐가고 있어요': 오하이오에서 조기 투표가 시작되자 유권자들이 새벽이 되기 전에 줄을 섰습니다."
     },
     {
       "headline": "What Marvell's rosy long-term guidance means for our AI chip stocks",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791326248.7802076,
+  "_news_last_success_at": 1791329982.7665465,
   "fgi": {
     "score": 47.3714285714286,
     "rating": "neutral"
   },
-  "_fetched_at": 1791326238.9960535,
-  "_updated_label": "2026-10-07 07:37",
-  "_last_attempt_at": 1791326238.9960535,
-  "_last_success_at": 1791326238.9960535,
+  "_fetched_at": 1791329967.3664548,
+  "_updated_label": "2026-10-07 08:40",
+  "_last_attempt_at": 1791329967.3664548,
+  "_last_success_at": 1791329967.3664548,
   "_collection_status": "ok",
   "_collection_errors": []
 };
