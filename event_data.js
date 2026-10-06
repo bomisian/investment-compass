@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791299474.711119,
+  "generatedAt": 1791301372.943262,
   "events": [
     {
       "id": "1551ec9dde8018ffb40b",
@@ -913,15 +913,15 @@ const EVENT_DATA = {
           "verification": "headline_or_analysis"
         }
       ],
-      "importance": "high",
+      "importance": "medium",
       "sourceReliability": {
         "level": "medium",
         "score": 65,
         "kind": "reported",
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
-      "direction": "positive",
-      "expectedHorizon": "중기·장기",
+      "direction": "neutral",
+      "expectedHorizon": "다음 실적까지 확인",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Power Out? Jackery Offers Up to 65% Off 4.5-Star+ Rated Portable Power Stations and Solar Generators for Amazon's Prime Big Deal Days",
@@ -934,30 +934,41 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "전원이 꺼졌나요? Jackery는 Amazon Prime Big Deal Days를 맞아 4.5성급 이상 등급 휴대용 발전소 및 태양광 발전기 최대 65% 할인을 제공합니다."
+        "전원이 꺼졌나요? Jackery는 Amazon Prime Big Deal Days를 맞아 4.5성급 이상 등급 휴대용 발전소 및 태양광 발전기 최대 65% 할인을 제공합니다.",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
       ],
-      "marketInterpretation": [],
+      "marketInterpretation": [
+        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
       "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+        "AMZN에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
       ],
       "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+        "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
       ],
       "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
           "ticker": "AMZN",
-          "direction": "positive",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
         }
       ],
-      "watch": []
+      "watch": [
+        "계약 금액·기간·취소 조건",
+        "수주잔고와 매출 인식 시점",
+        "관련 사업부 매출총이익률"
+      ]
     },
     {
       "id": "81a0d52e5cebfa2fab89",
@@ -7152,7 +7163,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9b4eddced9423510910075ecf94903587196f895bc8050fe99b04164c722f919",
         "publishedAt": 1791212628,
-        "collectedAt": 1791275882.8882751
+        "collectedAt": 1791301328.6217926
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12797,7 +12808,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126038468/ef20083016_8k.htm",
         "publishedAt": 1791126000.0,
-        "collectedAt": 1791278298.0070152
+        "collectedAt": 1791301356.0932305
       },
       "confirmedFacts": [
         "VST가 2026-10-05에 SEC Form 8-K을 제출했습니다.",
@@ -12862,7 +12873,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126038523/ef20083229_8k.htm",
         "publishedAt": 1791126000.0,
-        "collectedAt": 1791278298.0070152
+        "collectedAt": 1791301356.0932305
       },
       "confirmedFacts": [
         "ETN가 2026-10-05에 SEC Form 8-K을 제출했습니다.",

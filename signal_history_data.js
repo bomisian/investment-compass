@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791299474.7737296,
+  "generatedAt": 1791301373.0001304,
   "records": {
     "MSFT": [
       {
@@ -3597,6 +3597,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AMZN": [
       {
+        "changedAt": 1791301373.0001304,
+        "dataAsOf": 1791291600,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 3.33,
+            "after": 3.15
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 4.03,
+            "after": 3.85
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "전원이 꺼졌나요? Jackery는 Amazon Prime Big Deal Days를 맞아 4.5성급 이상 등급 휴대용 발전소 및 태양광 발전기 최대 65% 할인을 제공합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=fe0d53f3695209748f9d52182b581264be55031501f3793667a99eefd60ab178",
+        "eventId": "20ff61b2ab6fb59faa44",
+        "fingerprint": "{\"changes\": [{\"after\": 3.15, \"before\": 3.33, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 3.85, \"before\": 4.03, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"20ff61b2ab6fb59faa44\"}"
+      },
+      {
         "changedAt": 1791299343.720136,
         "dataAsOf": 1791291600,
         "changes": [
@@ -5180,23 +5203,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=93ff118813bb2000efdc96542bb717d9ce10646d4a2f0a430fa118b95c525027",
         "eventId": "84abc55a74766853e1d9",
         "fingerprint": "{\"changes\": [{\"after\": 2.8, \"before\": 2.27, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 5, \"before\": 4.55, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.27, \"before\": -3.32, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 2.28, \"before\": 1.23, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"84abc55a74766853e1d9\"}"
-      },
-      {
-        "changedAt": 1790196011.6391113,
-        "dataAsOf": 1790188387,
-        "changes": [
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 1.22,
-            "after": 1.23
-          }
-        ],
-        "cause": "클라우드 CAPEX 경쟁과 가격·마진 압력 비교 필요",
-        "newsHeadline": "AI 부채가 37베이시스 포인트 프리미엄을 가지면서 Oracle 하락",
-        "newsUrl": "https://finnhub.io/api/news?id=1dace2efd2ad7c41ada08a08bc1bf55839e1545dfb0a1720e8f305d075796b58",
-        "eventId": "92d41c324ca48ba375d0",
-        "fingerprint": "{\"changes\": [{\"after\": 1.23, \"before\": 1.22, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"92d41c324ca48ba375d0\"}"
       }
     ],
     "META": [

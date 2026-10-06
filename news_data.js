@@ -4397,7 +4397,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "SPY": {
@@ -10233,7 +10233,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "MSFT": {
@@ -10354,7 +10354,61 @@ const NEWS_DATA = {
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Microsoft는 Enterprise AI에서 승리할 수 있지만 주식은 언제 따라잡을 수 있습니까?"
+        "headlineKo": "Microsoft는 Enterprise AI에서 승리할 수 있지만 주식은 언제 따라잡을 수 있습니까?",
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Microsoft는 Enterprise AI에서 승리할 수 있지만 주식은 언제 따라잡을 수 있습니까?",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,850.10 +0.81% Dow Jones 51,712.40 +0.68% Nasdaq 100 31,381.90 +0.80% Russell 2000 2,851.72 −0.07% S&P 500 7,850.10 +0.81% 다우존스 51,712.40 +0.68% 나스닥 100 31,381.90 +0.80% 러셀 2000 2,851.72 −0.",
+            "마이크로소프트의 주가는 1년 전과 거의 비슷하면서도 6분기 연속 수익 추정치를 상회했으며, 짐 크레이머(Jim Cramer)는 시장이 마침내 따라잡기 시작한 이유를 정확히 알고 있다고 생각합니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $528.25, 3.5%, 6.3% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "MSFT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$528.25",
+            "3.5%",
+            "6.3%",
+            "$517.85",
+            "$451.01",
+            "$395.50",
+            "$90.0 billion",
+            "17.8%"
+          ],
+          "sourceExcerpt": [
+            "Microsoft May Be Winning Enterprise AI, but When Does the Stock Catch Up?",
+            "Skip to content ❚❚ At close S&P 500 7,850.10 +0.81% Dow Jones 51,712.40 +0.68% Nasdaq 100 31,381.90 +0.80% Russell 2000 2,851.72 −0.07% S&P 500 7,850.10 +0.81% Dow Jones 51,712.40 +0.68% Nasdaq 100 31,381.90 +0.80% Russell 2000 2,851.72 −0.",
+            "Microsoft has beaten earnings estimates six quarters running while its stock sits roughly where it did a year ago, and Jim Cramer thinks he knows exactly why the market is finally starting to catch on."
+          ],
+          "analysisUpdatedAt": 1791301332.5253098
+        }
       },
       {
         "headline": "Microsoft or Alphabet: If I Could Only Own 1 AI Giant Until Retirement, This Is It",
@@ -10539,7 +10593,61 @@ const NEWS_DATA = {
         "datetime": 1791288333,
         "headlineKo": "Microsoft는 Enterprise AI에서 승리할 수 있지만 주식은 언제 따라잡을 수 있습니까?",
         "relevance": 0.4,
-        "keywordFlag": false
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Microsoft는 Enterprise AI에서 승리할 수 있지만 주식은 언제 따라잡을 수 있습니까?",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,850.10 +0.81% Dow Jones 51,712.40 +0.68% Nasdaq 100 31,381.90 +0.80% Russell 2000 2,851.72 −0.07% S&P 500 7,850.10 +0.81% 다우존스 51,712.40 +0.68% 나스닥 100 31,381.90 +0.80% 러셀 2000 2,851.72 −0.",
+            "마이크로소프트의 주가는 1년 전과 거의 비슷하면서도 6분기 연속 수익 추정치를 상회했으며, 짐 크레이머(Jim Cramer)는 시장이 마침내 따라잡기 시작한 이유를 정확히 알고 있다고 생각합니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $528.25, 3.5%, 6.3% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "MSFT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$528.25",
+            "3.5%",
+            "6.3%",
+            "$517.85",
+            "$451.01",
+            "$395.50",
+            "$90.0 billion",
+            "17.8%"
+          ],
+          "sourceExcerpt": [
+            "Microsoft May Be Winning Enterprise AI, but When Does the Stock Catch Up?",
+            "Skip to content ❚❚ At close S&P 500 7,850.10 +0.81% Dow Jones 51,712.40 +0.68% Nasdaq 100 31,381.90 +0.80% Russell 2000 2,851.72 −0.07% S&P 500 7,850.10 +0.81% Dow Jones 51,712.40 +0.68% Nasdaq 100 31,381.90 +0.80% Russell 2000 2,851.72 −0.",
+            "Microsoft has beaten earnings estimates six quarters running while its stock sits roughly where it did a year ago, and Jim Cramer thinks he knows exactly why the market is finally starting to catch on."
+          ],
+          "analysisUpdatedAt": 1791301332.5253098
+        }
       },
       {
         "headline": "Microsoft or Alphabet: If I Could Only Own 1 AI Giant Until Retirement, This Is It",
@@ -18251,9 +18359,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 186,
-      "removed": 1,
-      "updated": "2026-10-07 00:11"
+      "checked": 185,
+      "removed": 0,
+      "updated": "2026-10-07 00:42"
     }
   },
   "GOOGL": {
@@ -26127,7 +26235,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "AMZN": {
@@ -26262,7 +26370,46 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "전원이 꺼졌나요? Jackery는 Amazon Prime Big Deal Days를 맞아 4.5성급 이상 등급 휴대용 발전소 및 태양광 발전기 최대 65% 할인을 제공합니다."
+        "headlineKo": "전원이 꺼졌나요? Jackery는 Amazon Prime Big Deal Days를 맞아 4.5성급 이상 등급 휴대용 발전소 및 태양광 발전기 최대 65% 할인을 제공합니다.",
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "고객 계약 · 매출 연결 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "전원이 꺼졌나요? Jackery는 Amazon Prime Big Deal Days를 맞아 4.5성급 이상 등급 휴대용 발전소 및 태양광 발전기 최대 65% 할인을 제공합니다.",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 금액·기간·취소 조건",
+            "수주잔고와 매출 인식 시점",
+            "관련 사업부 매출총이익률"
+          ],
+          "interpretation": "AMZN에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791301335.005262
+        }
       },
       {
         "headline": "CrowdStrike Launches Fourth Cybersecurity Startup Accelerator With AWS and Nvidia",
@@ -26413,6 +26560,18 @@ const NEWS_DATA = {
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1790869839.0627534
         }
+      },
+      {
+        "headline": "Update: Apple, Amazon Face Renewed UK Consumer Lawsuit",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=146616e3062191bb2ccd8d35492086b76dbba65773d551d433ce8477bc0bde25",
+        "datetime": 1790597984,
+        "headlineKo": "업데이트: Apple, Amazon, 영국 소비자 소송 갱신",
+        "relevance": 0.5,
+        "keywordFlag": true,
+        "flagTerms": [
+          "lawsuit"
+        ]
       }
     ],
     "newsHistory": [
@@ -26535,7 +26694,46 @@ const NEWS_DATA = {
         "datetime": 1791291600,
         "headlineKo": "전원이 꺼졌나요? Jackery는 Amazon Prime Big Deal Days를 맞아 4.5성급 이상 등급 휴대용 발전소 및 태양광 발전기 최대 65% 할인을 제공합니다.",
         "relevance": 0.5,
-        "keywordFlag": false
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "고객 계약 · 매출 연결 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "전원이 꺼졌나요? Jackery는 Amazon Prime Big Deal Days를 맞아 4.5성급 이상 등급 휴대용 발전소 및 태양광 발전기 최대 65% 할인을 제공합니다.",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 금액·기간·취소 조건",
+            "수주잔고와 매출 인식 시점",
+            "관련 사업부 매출총이익률"
+          ],
+          "interpretation": "AMZN에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791301335.005262
+        }
       },
       {
         "headline": "CrowdStrike Launches Fourth Cybersecurity Startup Accelerator With AWS and Nvidia",
@@ -33990,8 +34188,8 @@ const NEWS_DATA = {
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 190,
-      "removed": 1,
-      "updated": "2026-10-07 00:11"
+      "removed": 0,
+      "updated": "2026-10-07 00:42"
     }
   },
   "META": {
@@ -41740,7 +41938,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "AAPL": {
@@ -49784,7 +49982,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "TSLA": {
@@ -57543,7 +57741,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "ORCL": {
@@ -65898,7 +66096,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "CRM": {
@@ -71619,7 +71817,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "PLTR": {
@@ -80063,7 +80261,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "NVDA": {
@@ -87781,7 +87979,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "AMD": {
@@ -95786,7 +95984,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "AVGO": {
@@ -103244,7 +103442,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 151,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "QCOM": {
@@ -108916,7 +109114,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 125,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "ARM": {
@@ -113274,7 +113472,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "MRVL": {
@@ -119167,7 +119365,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 122,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "INTC": {
@@ -127326,7 +127524,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "TSM": {
@@ -132691,7 +132889,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "ASML": {
@@ -135878,7 +136076,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "AMAT": {
@@ -139506,7 +139704,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "LRCX": {
@@ -141426,11 +141624,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1791299016.3026571,
+    "_last_attempt_at": 1791301328.6217926,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -141485,7 +141683,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791276135.9474964
+          "analysisUpdatedAt": 1791301339.352435
         },
         "headlineKo": "KLA(KLAC): 반도체 해자가 프리미엄을 정당화하는가?"
       },
@@ -141534,7 +141732,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791276138.3596814
+          "analysisUpdatedAt": 1791301341.3967762
         },
         "headlineKo": "KLA의 공급 제약이 완화될 것으로 예상되며 주요 로직 혼합이 순풍이 될 것이라고 Morgan Stanley가 밝혔습니다."
       },
@@ -141598,7 +141796,7 @@ const NEWS_DATA = {
             "| Trefis Management Guided Higher For KLA Stock; Does The Chart Agree?",
             "October 5th, 2026 · by Trefis Team KLAC YTD +70.9% SPY YTD +14.2% QQQ YTD +23.4% Analyze KLAC → KLA (KLAC) guided to higher revenue for its September 2026 quarter when it reported results on July 28, 2026."
           ],
-          "analysisUpdatedAt": 1791276142.6355796
+          "analysisUpdatedAt": 1791301346.3569572
         },
         "headlineKo": "KLA 주식에 대한 경영진의 높은 지도; 차트가 동의합니까?"
       },
@@ -141670,7 +141868,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791276135.9474964
+          "analysisUpdatedAt": 1791301339.352435
         }
       },
       {
@@ -141718,7 +141916,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791276138.3596814
+          "analysisUpdatedAt": 1791301341.3967762
         }
       },
       {
@@ -141781,7 +141979,7 @@ const NEWS_DATA = {
             "| Trefis Management Guided Higher For KLA Stock; Does The Chart Agree?",
             "October 5th, 2026 · by Trefis Team KLAC YTD +70.9% SPY YTD +14.2% QQQ YTD +23.4% Analyze KLAC → KLA (KLAC) guided to higher revenue for its September 2026 quarter when it reported results on July 28, 2026."
           ],
-          "analysisUpdatedAt": 1791276142.6355796
+          "analysisUpdatedAt": 1791301346.3569572
         }
       },
       {
@@ -143195,17 +143393,16 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791275882.8882751,
-    "_updated_label": "2026-10-06 17:42",
-    "_last_success_at": 1791275882.8882751,
-    "_collection_status": "error",
+    "_fetched_at": 1791301328.6217926,
+    "_updated_label": "2026-10-07 00:42",
+    "_last_success_at": 1791301328.6217926,
+    "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
-    },
-    "_last_error": "The read operation timed out"
+      "updated": "2026-10-07 00:42"
+    }
   },
   "MU": {
     "_last_attempt_at": 1791299016.3026571,
@@ -150668,7 +150865,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "SNDK": {
@@ -157022,7 +157219,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "WDC": {
@@ -160678,7 +160875,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "ANET": {
@@ -163462,7 +163659,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "COHR": {
@@ -166260,7 +166457,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "LITE": {
@@ -168894,7 +169091,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "GEV": {
@@ -172876,7 +173073,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "CEG": {
@@ -176198,7 +176395,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "VST": {
@@ -178927,7 +179124,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "ETN": {
@@ -181636,7 +181833,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "PWR": {
@@ -184011,7 +184208,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "HUBB": {
@@ -184682,7 +184879,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "VRT": {
@@ -187988,7 +188185,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "MOD": {
@@ -189186,7 +189383,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "STX": {
@@ -192319,7 +192516,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "EME": {
@@ -193683,7 +193880,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "FIX": {
@@ -194963,11 +195160,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   },
   "BE": {
-    "_last_attempt_at": 1791278281.9889328,
+    "_last_attempt_at": 1791301328.6217926,
     "nextEarnings": {
       "date": "2026-10-29",
       "hour": "amc",
@@ -195022,7 +195219,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791278290.0944932
+          "analysisUpdatedAt": 1791301351.7867239
         },
         "headlineKo": "Bloom Energy (NYSE:BE) 주식은 높은 성장과 펀더멘털 개선으로 좋은 모습을 보이고 있습니다"
       },
@@ -195072,7 +195269,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791278292.5027494
+          "analysisUpdatedAt": 1791301353.6604757
         },
         "headlineKo": "Bloom Energy(BE) 주식은 24배 실행 후에도 여전히 저평가된 것으로 보입니다."
       },
@@ -195086,24 +195283,22 @@ const NEWS_DATA = {
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "BE 주식은 월요일 슬라이드 이후 회복합니다. 애널리스트 지원: Peers FCEL, PLUG Edge 더 높은 AI 에이전트 동향 뉴스 수익 모든 DIA 0.52% SPY 0.20% QQQ 0.19% 추세 SPCX 1.06% NVAX 1.59% NVDA 0.73% TEM 0.37% ANTHZZX 0.71% OPEAZZX 2.13%비 0.15%",
-            "BE 주식은 분석가 지원에 대한 월요일 슬라이드 이후 회복됩니다: Peers FCEL, PLUG Edge Higher Jefferies는 보류 등급을 유지하면서 BE의 목표 가격을 $229에서 $264로 높였습니다.",
-            "이번 포토 일러스트에는 블룸에너지(Be) 로고가 스마트폰 화면에 표시된 모습이 담겨 있다."
+            "BE Stock Recovers After Monday Slide On Analyst Support: Peers FCEL, PLUG Edge Higher",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.52%, 0.20%, 0.19% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "BE의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -195113,30 +195308,18 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "BE에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 BE의 사업과 관련된 'BE Stock Recovers After Monday Slide On Analyst Support: Peers FCEL, PLUG Edge Higher' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "BE 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.52%",
-            "0.20%",
-            "0.19%",
-            "1.06%",
-            "1.59%",
-            "0.73%",
-            "0.37%",
-            "0.71%"
-          ],
-          "sourceExcerpt": [
-            "BE Stock Recovers After Monday Slide On Analyst Support: Peers FCEL, PLUG Edge Higher AI Agent Trending News Earnings All DIA 0.52% SPY 0.20% QQQ 0.19% Trending SPCX 1.06% NVAX 1.59% NVDA 0.73% TEM 0.37% ANTHZZX 0.71% OPEAZZX 2.13% B 0.15% ",
-            "BE Stock Recovers After Monday Slide On Analyst Support: Peers FCEL, PLUG Edge Higher Jefferies lifted its price target on BE to $264 from $229 while keeping a Hold rating.",
-            "In this photo illustration, the Bloom Energy (Be) logo is seen displayed on a smartphone screen."
-          ],
-          "analysisUpdatedAt": 1791278296.2447793
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791301354.438796
         },
         "headlineKo": "BE 주식은 분석가 지원에 대한 월요일 슬라이드 이후 회복됩니다: 동료 FCEL, PLUG Edge 더 높음"
       },
@@ -195208,7 +195391,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791278290.0944932
+          "analysisUpdatedAt": 1791301351.7867239
         }
       },
       {
@@ -195257,7 +195440,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791278292.5027494
+          "analysisUpdatedAt": 1791301353.6604757
         }
       },
       {
@@ -195270,24 +195453,22 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "BE 주식은 월요일 슬라이드 이후 회복합니다. 애널리스트 지원: Peers FCEL, PLUG Edge 더 높은 AI 에이전트 동향 뉴스 수익 모든 DIA 0.52% SPY 0.20% QQQ 0.19% 추세 SPCX 1.06% NVAX 1.59% NVDA 0.73% TEM 0.37% ANTHZZX 0.71% OPEAZZX 2.13%비 0.15%",
-            "BE 주식은 분석가 지원에 대한 월요일 슬라이드 이후 회복됩니다: Peers FCEL, PLUG Edge Higher Jefferies는 보류 등급을 유지하면서 BE의 목표 가격을 $229에서 $264로 높였습니다.",
-            "이번 포토 일러스트에는 블룸에너지(Be) 로고가 스마트폰 화면에 표시된 모습이 담겨 있다."
+            "BE Stock Recovers After Monday Slide On Analyst Support: Peers FCEL, PLUG Edge Higher",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.52%, 0.20%, 0.19% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "BE의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -195297,30 +195478,18 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "BE에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 BE의 사업과 관련된 'BE Stock Recovers After Monday Slide On Analyst Support: Peers FCEL, PLUG Edge Higher' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "BE 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.52%",
-            "0.20%",
-            "0.19%",
-            "1.06%",
-            "1.59%",
-            "0.73%",
-            "0.37%",
-            "0.71%"
-          ],
-          "sourceExcerpt": [
-            "BE Stock Recovers After Monday Slide On Analyst Support: Peers FCEL, PLUG Edge Higher AI Agent Trending News Earnings All DIA 0.52% SPY 0.20% QQQ 0.19% Trending SPCX 1.06% NVAX 1.59% NVDA 0.73% TEM 0.37% ANTHZZX 0.71% OPEAZZX 2.13% B 0.15% ",
-            "BE Stock Recovers After Monday Slide On Analyst Support: Peers FCEL, PLUG Edge Higher Jefferies lifted its price target on BE to $264 from $229 while keeping a Hold rating.",
-            "In this photo illustration, the Bloom Energy (Be) logo is seen displayed on a smartphone screen."
-          ],
-          "analysisUpdatedAt": 1791278296.2447793
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791301354.438796
         }
       },
       {
@@ -196854,15 +197023,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791278281.9889328,
-    "_updated_label": "2026-10-06 18:18",
-    "_last_success_at": 1791278281.9889328,
+    "_fetched_at": 1791301328.6217926,
+    "_updated_label": "2026-10-07 00:42",
+    "_last_success_at": 1791301328.6217926,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-07 00:11"
+      "updated": "2026-10-07 00:42"
     }
   }
 };
