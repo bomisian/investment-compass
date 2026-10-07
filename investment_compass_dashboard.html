@@ -4966,23 +4966,30 @@ function renderMarketExpectationSectorCard(r){
   if(m){
     const statusLabel = m.expectation_status === '증거 부족' ? '증거 부족 — 근거 구축 중' : esc(m.expectation_status);
     // 표시규칙 1·2: composite 숫자는 기본 화면에 절대 표시하지 않음(증거부족 종목은 상태 문구만)
+    const consensusKnown = m.consensus_snapshot_age_days != null;
     const warnBadges = [
       m.coverage_limited ? smallBadge('COVERAGE_LIMITED', '최소 관측축 요건 근처 — 관측축이 적어 신뢰도가 제한됩니다') : '',
       m.source_concentration_warning ? smallBadge('SOURCE_CONCENTRATION_WARNING', '목표가가 단일 제공자 집계 기준 — 2차 교차확인 없음(신뢰도 상한 B)') : '',
-      (m.consensus_snapshot_age_days == null) ? smallBadge('PRICE_AS_OF_MISMATCH', '목표가 스냅샷 경과일을 확인하지 못했습니다') :
-        (m.consensus_snapshot_age_days >= 30 ? smallBadge('PRICE_AS_OF_MISMATCH', `목표가 스냅샷이 ${m.consensus_snapshot_age_days}일 전 자료로 오래되었습니다`) : ''),
       m.currency_mismatch_warning ? smallBadge('CURRENCY_MISMATCH', '재무제표(현지통화)와 가격·목표가(ADR/USD 등 상장 통화) 사이에 통화 불일치가 있습니다 — 환산 미수행') : '',
+      m.price_as_of_mismatch ? smallBadge('PRICE_AS_OF_MISMATCH', `가격 기준일(${m.current_price_as_of || '?'})이 섹터 ETF 기준일(${m.sector_environment_as_of || '?'})과 다릅니다`) : '',
+      !consensusKnown ? smallBadge('CONSENSUS_DATE_UNAVAILABLE', '컨센서스 목표가의 수집(갱신) 날짜를 확인하지 못했습니다 — 경과일·stale 판정 불가') :
+        (m.stale_consensus_warning ? smallBadge('STALE_CONSENSUS_WARNING', `목표가 스냅샷이 ${m.consensus_snapshot_age_days}일 전 자료로, 고정 기준(14일)을 초과했습니다`) : ''),
     ].filter(Boolean).join('');
     const posPct = m.consensus_position_pct;
     const posLine = num(posPct)
       ? `현재가가 시장 컨센서스 중심보다 <b>${pctAbs(posPct)} ${posPct < 0 ? '낮음' : (posPct > 0 ? '높음' : '동일')}</b>`
       : '시장 컨센서스 위치: 자료 없음';
-    const ageLine = (m.consensus_snapshot_age_days != null) ? `목표가 스냅샷 경과일 ${m.consensus_snapshot_age_days}일` : '목표가 스냅샷 경과일 미확인';
+    // 사용자 지시 P1: 가격/기대/섹터ETF/컨센서스 4개 기준일을 항상 함께 표시. 컨센서스 기준일 미기록 시
+    // 경과일·STALE 판정 대신 "미기록" 문구 + CONSENSUS_DATE_UNAVAILABLE 배지만 표시(임의 숫자 금지).
+    const asOfBlock = consensusKnown
+      ? `가격 기준: ${esc(m.current_price_as_of || '?')} 마감<br>시장 기대 기준: ${esc(m.expectation_as_of || '?')}<br>섹터 ETF 기준: ${esc(m.sector_environment_as_of || '?')}<br>컨센서스 기준: ${esc(m.consensus_snapshot_as_of || '?')} / 경과 ${m.consensus_snapshot_age_days}일`
+      : `가격 기준: ${esc(m.current_price_as_of || '?')} 마감<br>시장 기대 기준: ${esc(m.expectation_as_of || '?')}<br>섹터 ETF 기준: ${esc(m.sector_environment_as_of || '?')}<br>컨센서스 기준일 미기록 — 경과일 및 stale 판정 불가`;
     expBlock = `
       <div class="fund-row"><span>시장 기대</span><span class="v"><b>${statusLabel}</b></span></div>
       <div class="fund-row"><span>신뢰도</span><span class="v">${esc(m.confidence)}</span></div>
       <div class="fund-row"><span>관측 범위</span><span class="v">관측 축 ${m.observed_axes ?? '?'}/9 · A/B급 축 ${m.ab_grade_axes ?? '?'}개 · 출처 집중 경고 ${m.source_concentration_warning ? '있음' : '없음'}</span></div>
-      <div class="fund-row"><span>시장 컨센서스 위치</span><span class="v">${posLine}<div class="sub" style="font-size:10.5px;">${esc(ageLine)} · 가격·목표가 원천: ${esc(m.source_file || 'Daily Market Brief')}</div></span></div>
+      <div class="fund-row"><span>시장 컨센서스 위치</span><span class="v">${posLine}<div class="sub" style="font-size:10.5px;">가격·목표가 원천: ${esc(m.source_file || 'Daily Market Brief')}</div></span></div>
+      <div class="sub" style="font-size:10.5px;margin-top:4px;line-height:1.6;">${asOfBlock}</div>
       ${warnBadges ? `<div style="margin-top:4px;">${warnBadges}</div>` : ''}
       <div class="sub" style="font-size:10.5px;margin-top:4px;color:#876000;">현재가가 컨센서스 중심보다 낮다/높다는 사실은 저평가·고평가 판단과 연결하지 않습니다.</div>
     `;
