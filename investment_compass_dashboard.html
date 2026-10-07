@@ -573,6 +573,9 @@
 <script>document.write('<script src="smart_money_state.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 2026-09-30 신규(사용자 요청: 13F 말고 펠로시 같은 투자자) -- 127_house_ptr_view/build_127_house_ptr_view.py가 생성(113 하원 PTR 자료, 수동 갱신) -->
 <script>document.write('<script src="house_ptr_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
+<!-- 2026-10-07 신규: 시장 기대·섹터 환경 카드(읽기 전용) -- 142 기대충족 판정 엔진 + ETF 섹터 환경 필터 스냅샷. 매수/매도 신호 아님, 자동주문/알림/텔레그램과 미연결. build_dashboard_data.py가 생성. -->
+<script src="market_expectation_41_data.js" onerror="void 0"></script>
+<script src="sector_environment_41_data.js" onerror="void 0"></script>
 <script>
 // ============ 워치리스트 (지수ETF 제외 - 개별 종목 판단용) ============
 const ETF_THEME = "지수ETF";
@@ -4934,6 +4937,89 @@ function summaryCardHtml(r){
     <div class="sub" style="margin-top:6px;color:#876000;">이 항목들을 점수로 합치거나 "좋은 매수 구간"으로 묶어도 2016~2025 S&P500에서 이후 성적 차이가 없었어요(106번 검증). 매수·매도 신호가 아니에요.</div>
   </div>`;
 }
+
+// ===== 시장 기대·섹터 환경 카드 (2026-10-07 신규, 읽기 전용 연결) =====
+// 소스: market_expectation_41.json / sector_environment_41.json (각각 _data.js로 래핑되어 로드됨)
+// 142 기대충족 판정 엔진·ETF 환경 필터의 '연구 파일' 단계 산출물을 01 판단 탭 최상단에 읽기 전용으로 표시.
+// 매수/매도 신호 아님. 자동 주문/알림/텔레그램과 연결되지 않음. 기존 RSI·눌림목·반등·13F 등 화면은 그대로 유지.
+function marketExpectationRow(ticker){
+  const m = (typeof MARKET_EXPECTATION_41 !== 'undefined' && MARKET_EXPECTATION_41.tickers) ? MARKET_EXPECTATION_41.tickers[ticker] : null;
+  return m || null;
+}
+function sectorEnvironmentRow(ticker){
+  const s = (typeof SECTOR_ENVIRONMENT_41 !== 'undefined' && SECTOR_ENVIRONMENT_41.tickers) ? SECTOR_ENVIRONMENT_41.tickers[ticker] : null;
+  return s || null;
+}
+function renderMarketExpectationSectorCard(r){
+  if(!r || !r.ticker) return '';
+  const m = marketExpectationRow(r.ticker);
+  const s = sectorEnvironmentRow(r.ticker);
+  if(!m && !s) return ''; // 데이터 없는 종목(워치리스트 밖 등)은 표시 안 함 -- 기존 화면에 영향 없음
+  const num = v => typeof v === 'number' && isFinite(v);
+  const pp = (v, dg = 1) => num(v) ? (v >= 0 ? '+' : '') + v.toFixed(dg) + '%p' : '—';
+  const pctAbs = (v, dg = 0) => num(v) ? Math.abs(v).toFixed(dg) + '%' : '—';
+
+  const smallBadge = (label, title) => `<span class="badge" style="background:#fff3cd;color:#876000;border:1px solid #87600033;padding:2px 7px;font-size:10.5px;font-weight:700;margin-right:4px;" title="${esc(title||'')}">${esc(label)}</span>`;
+
+  // ---- 시장 기대 ----
+  let expBlock = '<div class="sub">142 기대충족 자료 없음</div>';
+  if(m){
+    const statusLabel = m.expectation_status === '증거 부족' ? '증거 부족 — 근거 구축 중' : esc(m.expectation_status);
+    // 표시규칙 1·2: composite 숫자는 기본 화면에 절대 표시하지 않음(증거부족 종목은 상태 문구만)
+    const warnBadges = [
+      m.coverage_limited ? smallBadge('COVERAGE_LIMITED', '최소 관측축 요건 근처 — 관측축이 적어 신뢰도가 제한됩니다') : '',
+      m.source_concentration_warning ? smallBadge('SOURCE_CONCENTRATION_WARNING', '목표가가 단일 제공자 집계 기준 — 2차 교차확인 없음(신뢰도 상한 B)') : '',
+      (m.consensus_snapshot_age_days == null) ? smallBadge('PRICE_AS_OF_MISMATCH', '목표가 스냅샷 경과일을 확인하지 못했습니다') :
+        (m.consensus_snapshot_age_days >= 30 ? smallBadge('PRICE_AS_OF_MISMATCH', `목표가 스냅샷이 ${m.consensus_snapshot_age_days}일 전 자료로 오래되었습니다`) : ''),
+      m.currency_mismatch_warning ? smallBadge('CURRENCY_MISMATCH', '재무제표(현지통화)와 가격·목표가(ADR/USD 등 상장 통화) 사이에 통화 불일치가 있습니다 — 환산 미수행') : '',
+    ].filter(Boolean).join('');
+    const posPct = m.consensus_position_pct;
+    const posLine = num(posPct)
+      ? `현재가가 시장 컨센서스 중심보다 <b>${pctAbs(posPct)} ${posPct < 0 ? '낮음' : (posPct > 0 ? '높음' : '동일')}</b>`
+      : '시장 컨센서스 위치: 자료 없음';
+    const ageLine = (m.consensus_snapshot_age_days != null) ? `목표가 스냅샷 경과일 ${m.consensus_snapshot_age_days}일` : '목표가 스냅샷 경과일 미확인';
+    expBlock = `
+      <div class="fund-row"><span>시장 기대</span><span class="v"><b>${statusLabel}</b></span></div>
+      <div class="fund-row"><span>신뢰도</span><span class="v">${esc(m.confidence)}</span></div>
+      <div class="fund-row"><span>관측 범위</span><span class="v">관측 축 ${m.observed_axes ?? '?'}/9 · A/B급 축 ${m.ab_grade_axes ?? '?'}개 · 출처 집중 경고 ${m.source_concentration_warning ? '있음' : '없음'}</span></div>
+      <div class="fund-row"><span>시장 컨센서스 위치</span><span class="v">${posLine}<div class="sub" style="font-size:10.5px;">${esc(ageLine)} · 가격·목표가 원천: ${esc(m.source_file || 'Daily Market Brief')}</div></span></div>
+      ${warnBadges ? `<div style="margin-top:4px;">${warnBadges}</div>` : ''}
+      <div class="sub" style="font-size:10.5px;margin-top:4px;color:#876000;">현재가가 컨센서스 중심보다 낮다/높다는 사실은 저평가·고평가 판단과 연결하지 않습니다.</div>
+    `;
+  }
+
+  // ---- 섹터 환경 ----
+  let sectorBlock = '<div class="sub">ETF 섹터 환경 자료 없음</div>';
+  let interpretationLine = '원신호 미연결 — 섹터 환경 참고용';
+  if(s){
+    const strengthNote = s.sector_leader ? '섹터 리더' : (num(s.stock_vs_primary_etf_relative_strength_pct) ? '확인 중' : '확인 중');
+    sectorBlock = `
+      <div class="fund-row"><span>섹터 환경</span><span class="v"><b>${esc(s.primary_etf || '?')} ${esc(s.etf_environment || '?')}</b></span></div>
+      <div class="fund-row"><span>QQQ 대비 상대강도(ETF)</span><span class="v">${pp(s.etf_relative_strength_21d_pct)}</span></div>
+      <div class="fund-row"><span>ETF 대비 강도(종목)</span><span class="v">${esc(strengthNote)}${s.sector_leader ? smallBadge('SECTOR_LEADER', '종목 21일 수익률 > ETF, 종목·ETF 모두 MA20/50 위, 최근 EPS하향/VETO/주요 악재 없음(4조건 모두 충족)') : ''}</span></div>
+      <div class="fund-row"><span>진입 환경</span><span class="v">${esc(s.sector_filter_interpretation_detail || '')}</span></div>
+    `;
+    // 표시규칙 7·8: 기존 원신호(RSI·눌림목·반등) 연결 전까지는 반드시 이 문구를 그대로 사용
+    interpretationLine = s.original_signal_connected ? (s.sector_filter_interpretation || '원신호 미연결 — 섹터 환경 참고용') : '원신호 미연결 — 섹터 환경 참고용';
+  }
+
+  return `<div class="comment-box" style="background:var(--panel-2);margin-bottom:12px;border:1px solid var(--line);">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;">
+      <div style="font-size:16px;font-weight:800;">시장 기대 · 섹터 환경${hintIcon('marketExpectationSectorCard')}</div>
+      <div class="sub">읽기 전용 · 매수/매도 신호 아님 · 142 기대충족 + ETF 섹터 필터</div>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:4px 24px;margin-top:6px;">
+      <div style="flex:1 1 280px;min-width:260px;">${expBlock}</div>
+      <div style="flex:1 1 280px;min-width:260px;">${sectorBlock}</div>
+    </div>
+    <div class="fund-row" style="margin-top:6px;border-top:1px solid var(--line);padding-top:6px;"><span>최종 진입 상태</span><span class="v"><b>${esc(interpretationLine)}</b></span></div>
+    <div class="sub" style="margin-top:4px;color:#876000;">기업 142 기대충족 근거와 산업 ETF 환경이 다를 수 있습니다(예: 기업 근거는 강화됐지만 산업 ETF는 약세). 이 카드는 기존 RSI·눌림목·반등 신호를 읽을 때 섹터 환경을 함께 보여주는 설명이며, 그 자체로 매수·매도를 지시하지 않습니다.</div>
+  </div>`;
+}
+if(typeof HINTS !== 'undefined' && !HINTS.marketExpectationSectorCard){
+  HINTS.marketExpectationSectorCard = '142 기대충족 판정 엔진(9축 증거모델) 스냅샷 + ETF 섹터 환경 필터를 결합한 읽기 전용 참고 카드입니다. 매수·매도 신호가 아니며, 기존 RSI·눌림목·반등 신호가 연결되기 전까지는 "원신호 미연결 — 섹터 환경 참고용"으로만 표시됩니다.';
+}
+
 function tabJudgement(r){
   const b = r.breakdown;
   const pct = Math.max(0, Math.min(100, r.score / 5 * 100)); // 새 점수 범위 0~5 -> 0~100%
@@ -4996,6 +5082,7 @@ function tabJudgement(r){
   const ivHtmlFolded = renderIndependentValuationSection(r);
 
   return `
+    ${renderMarketExpectationSectorCard(r)}
     ${summaryCardHtml(r)}
     ${rsiBoundaryHtml(r)}
     ${renderJudgementConclusionCard(r)}
