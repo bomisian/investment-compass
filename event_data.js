@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791349168.1562655,
+  "generatedAt": 1791351263.0507863,
   "events": [
     {
       "id": "a8a25aca777cb7dbe191",
@@ -311,7 +311,7 @@ const EVENT_DATA = {
       "schemaVersion": 1,
       "eventType": "analyst_target_change",
       "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "SPY",
+      "primaryTicker": "QQQ",
       "relatedTickers": [
         "CEG",
         "GOOGL",
@@ -343,21 +343,21 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=682fd04d3d7589318662fd1cea2c31cda184b5f97c1ee5bc306840484d4455e9",
         "publishedAt": 1791326129,
-        "collectedAt": 1791344871.5883675
+        "collectedAt": 1791351246.6200762
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "S&P 500 및 Nasdaq 100은 분기별 수익 증가에 대한 기대가 높아지는 가운데 최고치를 기록했습니다. CEG, LCID, SPCX, MRVL In Focus AI 에이전트 동향 뉴스 수익 전체 DIA 0.40% SPY 0.64% QQQ 0.42% 추세 BTC 1.54% SPCX 0.84% MSTR 1.66% ETH 3.15%",
+        "S&P 500 및 Nasdaq 100은 분기별 수익 증가에 대한 기대가 높아지는 가운데 최고치를 기록했습니다. CEG, LCID, SPCX, MRVL In Focus AI 에이전트 동향 뉴스 수익 전체 DIA 0.08% SPY 0.09% QQQ 0.01% 추세 HPE 0.10% SPCX 1.50% SOL 1.22% NLST 17.88%",
         "S&P 500과 Nasdaq 100은 분기별 수익이 증가하는 가운데 최고치를 기록했습니다. CEG, LCID, SPCX, MRVL In Focus Constellation Energy는 Google과의 다년간의 원자력 계약에서 Nasdaq 100 지수 중 최고 상승률을 기록했습니다.",
         "트레이더들이 뉴욕 증권 거래소(NYSE) 폐장 시간 전에 일하고 있습니다. (사진 출처는 JOHANNES EISELE/AFP via Getty Images) Shashank Nayar · Stocktwits 게시일: 2026년 10월 6일 | 오후 6시 35분 EDT 공유 · S&P 500에 우리 추가 종료"
       ],
       "marketInterpretation": [
         "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.40%, 0.64%, 0.42% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "이번 기사에서 확인된 구체적 수치: 0.08%, 0.09%, 0.01% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
-        "SPY에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+        "QQQ에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
@@ -368,12 +368,12 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.40%, 0.64%, 0.42% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "이번 기사에서 확인된 구체적 수치: 0.08%, 0.09%, 0.01% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
-          "ticker": "SPY",
+          "ticker": "QQQ",
           "direction": "확인 필요",
           "reason": "회사 실적과의 연결고리 확인",
           "basis": "analysis"
@@ -910,6 +910,79 @@ const EVENT_DATA = {
         "관련 기업 매출·수주잔고",
         "CAPEX 대비 영업현금흐름",
         "금리와 프로젝트 부채 비용"
+      ]
+    },
+    {
+      "id": "f71aa75d6c49b19825ea",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "QQQ",
+      "relatedTickers": [
+        "MRVL",
+        "MSFT",
+        "QQQ",
+        "SPY",
+        "STX"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Is A Tech Bubble Brewing? BofA Analysts Think So; Advises To Buy QQQ Options As A Hedge",
+      "headlineKo": "기술 거품이 양조되고 있습니까? BofA 분석가들은 그렇게 생각합니다. 헤지로 QQQ 옵션을 구매하라고 조언합니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c890c150130f859eeba04edfc57ece7141841c006af05b154ba90daf8f2ec625",
+        "publishedAt": 1791321690,
+        "collectedAt": 1791351246.6200762
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "BofA 분석가들은 그렇게 생각합니다. 헤지 AI 에이전트로서 QQQ 옵션을 구매하라고 조언합니다. 동향 뉴스 수익 전체 DIA 0.08% SPY 0.09% QQQ 0.01% 동향 HPE 0.10% SPCX 1.50% SOL 1.22% NLST 17.88% STX 0.54% RIVN 0.21% AAOI 2.43% CTVA 1.08% MRVL 0.59% MSFT 0",
+        "BofA 분석가들은 그렇게 생각합니다. 는 헤지 광고로 QQQ 옵션을 구매하라고 조언합니다 | 광고를 제거하세요.",
+        "BofA 분석가들은 그렇게 생각합니다. 미국 헤지 은행 시장 전략가들은 기술 주식 거품의 팽창을 걱정하는 투자자들이 주식을 구매하는 대신 옵션 계약을 사용하여 위험을 관리할 수 있다고 제안함에 따라 QQQ 옵션을 구매하라고 조언합니다."
+      ],
+      "marketInterpretation": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.08%, 0.09%, 0.01% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.08%, 0.09%, 0.01% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "QQQ",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 CAPEX 집행",
+        "공급업체 수주·매출",
+        "투자 기업 OCF·FCF·부채"
       ]
     },
     {
@@ -6946,7 +7019,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9b2690aaa98e03f5a2f2511a4b46b97fd79dfffb05f92ff936c81ada02f72b1d",
         "publishedAt": 1791275977,
-        "collectedAt": 1791327602.04408
+        "collectedAt": 1791351246.6200762
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8604,7 +8677,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8b05235329873b3a6aefc1263a0519dcf558fad2478525d7f31f7e0d1584bf58",
         "publishedAt": 1791238172,
-        "collectedAt": 1791327602.04408
+        "collectedAt": 1791351246.6200762
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14475,7 +14548,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=9a13f8742872fd1a2409dc41a364d59ce2b893949dca9c912bac8c56a3f1e6a9",
         "publishedAt": 1791189826,
-        "collectedAt": 1791327602.04408
+        "collectedAt": 1791351246.6200762
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17867,83 +17940,6 @@ const EVENT_DATA = {
         "재고와 리드타임",
         "매출총이익률·대체 공급처"
       ]
-    },
-    {
-      "id": "9a340900913b551491c0",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "NVDA",
-      "relatedTickers": [
-        "AMD",
-        "NVDA",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "NVIDIA",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "AMD Reaches a $1 Trillion Market Cap. Can It Finally Dethrone Nvidia?",
-      "headlineKo": "AMD는 시가총액 1조 달러에 도달했습니다. 마침내 엔비디아를 무너뜨릴 수 있을까?",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=bae7a93eb6b04eb4b5fa2d54195e40991a4a3e68fd7843807c8afad69ffd94b1",
-        "publishedAt": 1791120840,
-        "collectedAt": 1791344871.5883675
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "AMD는 시가총액 1조 달러에 도달했습니다.",
-        "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 합류하세요 AMD( AMD +2.95% )는 놀라운 한 해를 보냈습니다.",
-        "이 주식은 올해 현재까지 거의 200% 상승한 S&P 500( ^GSPC +0.73% ) 주식 중 9위를 기록하고 있습니다."
-      ],
-      "marketInterpretation": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $1 Trillion, $1 trillion, 1.34% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "NVDA에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $1 Trillion, $1 trillion, 1.34% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "실제 CAPEX 집행",
-        "공급업체 수주·매출",
-        "투자 기업 OCF·FCF·부채"
-      ]
     }
   ],
   "byTicker": {
@@ -18014,6 +18010,7 @@ const EVENT_DATA = {
       "b25f2f4e68704354c888",
       "04ebd9792158d2491905",
       "987949f01e80381d4dc6",
+      "f71aa75d6c49b19825ea",
       "61e38ebadfb68a8f2a8a",
       "d9952b85779fd4bbca42",
       "d64f901b51bbd68599d1",
@@ -18086,6 +18083,7 @@ const EVENT_DATA = {
       "b25f2f4e68704354c888",
       "04ebd9792158d2491905",
       "987949f01e80381d4dc6",
+      "f71aa75d6c49b19825ea",
       "61e38ebadfb68a8f2a8a",
       "6cd7e1aad302a0a582cc",
       "d9952b85779fd4bbca42",
@@ -18186,12 +18184,12 @@ const EVENT_DATA = {
       "8dc96eb8841102bddfed",
       "fe8e675769e87a11fa11",
       "aa90a21eb5a34200d5f0",
-      "51c03b9c56b66d362ba3",
-      "9a340900913b551491c0"
+      "51c03b9c56b66d362ba3"
     ],
     "STX": [
       "a8a25aca777cb7dbe191",
       "c72bd1d72ee5ae5f3a0e",
+      "f71aa75d6c49b19825ea",
       "69ccb1e83bf22dbafc86",
       "45a597627af7fda86b21",
       "98f503f0aaa51b7e09c0",
@@ -18298,8 +18296,7 @@ const EVENT_DATA = {
       "40a2cdebd2112245cc7f",
       "64ce38616e214be24090",
       "3b18a18261aec7f5f62e",
-      "50af947b65caaccf87eb",
-      "9a340900913b551491c0"
+      "50af947b65caaccf87eb"
     ],
     "AAPL": [
       "c72bd1d72ee5ae5f3a0e",
@@ -18318,6 +18315,7 @@ const EVENT_DATA = {
       "19abe792ce249c71ec7f",
       "b25f2f4e68704354c888",
       "4879be352c36261bcbf0",
+      "f71aa75d6c49b19825ea",
       "c6aff69e09eaa91eb95d",
       "4df2d39f0f042f89e8a2",
       "6cd7e1aad302a0a582cc",
@@ -18455,8 +18453,7 @@ const EVENT_DATA = {
       "40a2cdebd2112245cc7f",
       "64ce38616e214be24090",
       "3b18a18261aec7f5f62e",
-      "50af947b65caaccf87eb",
-      "9a340900913b551491c0"
+      "50af947b65caaccf87eb"
     ],
     "ORCL": [
       "8f03e34f623fa40ab914",
@@ -18486,6 +18483,24 @@ const EVENT_DATA = {
       "64ce38616e214be24090",
       "3b18a18261aec7f5f62e",
       "50af947b65caaccf87eb"
+    ],
+    "MSFT": [
+      "f71aa75d6c49b19825ea",
+      "d64f901b51bbd68599d1",
+      "33cd0a79517b2ca97805",
+      "2706572251bf12a9b4c8",
+      "8608ee11a93fd6507210",
+      "33316210dd5d3bf8f4b5",
+      "e581f772ddaef7f6d85c",
+      "50c5ac710cdb002869ab",
+      "e6dfe852365b65e0e0c8",
+      "6027a438cf60fd018c80",
+      "d157c39847dcfdcad073",
+      "bb2b339ed8d047015cd6",
+      "369eb409646a648a8b54",
+      "52fab82ac55ba630a223",
+      "972c222ab160254950f8",
+      "e67314eb9b3b888a7423"
     ],
     "AVGO": [
       "6cd7e1aad302a0a582cc",
@@ -18539,23 +18554,6 @@ const EVENT_DATA = {
       "52fab82ac55ba630a223",
       "0db869b430e28449552b",
       "0bf08ec08094105d0ae4"
-    ],
-    "MSFT": [
-      "d64f901b51bbd68599d1",
-      "33cd0a79517b2ca97805",
-      "2706572251bf12a9b4c8",
-      "8608ee11a93fd6507210",
-      "33316210dd5d3bf8f4b5",
-      "e581f772ddaef7f6d85c",
-      "50c5ac710cdb002869ab",
-      "e6dfe852365b65e0e0c8",
-      "6027a438cf60fd018c80",
-      "d157c39847dcfdcad073",
-      "bb2b339ed8d047015cd6",
-      "369eb409646a648a8b54",
-      "52fab82ac55ba630a223",
-      "972c222ab160254950f8",
-      "e67314eb9b3b888a7423"
     ],
     "VST": [
       "c0995dc72dd6012acae6",
