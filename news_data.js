@@ -4716,7 +4716,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 95,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "SPY": {
@@ -10794,7 +10794,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "MSFT": {
@@ -18776,7 +18776,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "GOOGL": {
@@ -26714,7 +26714,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "AMZN": {
@@ -34688,7 +34688,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "META": {
@@ -42549,7 +42549,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "AAPL": {
@@ -50589,7 +50589,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "TSLA": {
@@ -58407,7 +58407,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "ORCL": {
@@ -58746,71 +58746,6 @@ const NEWS_DATA = {
         "flagTerms": [
           "downgrade"
         ]
-      },
-      {
-        "headline": "Oracle layoffs top 2,500 workers as AI spending surges",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=93ff118813bb2000efdc96542bb717d9ce10646d4a2f0a430fa118b95c525027",
-        "datetime": 1790201220,
-        "headlineKo": "오라클, AI 지출 급증으로 직원 2,500명 정리해고",
-        "relevance": 0.5,
-        "keywordFlag": true,
-        "flagTerms": [
-          "layoffs"
-        ],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "mixed",
-          "certainty": "확인 보도와 시장 해석 혼합",
-          "label": "AI 투자 유지 · 현금흐름·신용 부담 동시 확인",
-          "horizon": "단기 비용 절감 / 중기 FCF·부채 확인",
-          "facts": [
-            "오라클이 AI 데이터센터 투자를 유지하면서 인건비·조직 비용을 줄이려는 내용입니다.",
-            "AI 인프라 확장에 CAPEX·장기 계약·부채 부담이 함께 커질 수 있습니다.",
-            "감원이 실제 비용 절감으로 이어지는지, 아니면 현금창출력 압박의 신호인지는 공시와 실적 확인이 필요합니다."
-          ],
-          "why": [
-            "오라클의 핵심 질문은 AI 매출 증가 속도가 CAPEX·부채 증가 속도를 앞서는지입니다.",
-            "비용 절감은 영업마진과 FCF를 방어할 수 있지만, 반복 감원과 신용스프레드 상승은 재무 부담을 시사할 수 있습니다.",
-            "AI 수요가 강해도 자금조달 비용이 커지면 적정 PER과 주가 변동성이 달라집니다."
-          ],
-          "beginner": [
-            "오라클이 AI 투자를 포기하는 것이 아니라 다른 비용을 줄여 계속 투자하려는 모습입니다.",
-            "사람 비용을 줄이면 단기 이익에는 도움이 되지만, 부채·CAPEX가 너무 빠르게 늘고 있다는 뜻일 수도 있습니다.",
-            "다음 실적에서 매출보다 FCF와 부채를 반드시 같이 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "ORCL",
-              "stance": "혼합·위험",
-              "reason": "AI 매출 기회와 FCF·부채·신용 부담이 동시에 존재"
-            },
-            {
-              "ticker": "NVDA",
-              "stance": "간접 긍정",
-              "reason": "데이터센터 투자 지속 시 AI 컴퓨팅 수요 유지 가능성"
-            },
-            {
-              "ticker": "AMZN",
-              "stance": "간접 확인",
-              "reason": "클라우드 CAPEX 경쟁과 가격·마진 압력 비교 필요"
-            }
-          ],
-          "watch": [
-            "ORCL 클라우드 매출 성장률",
-            "영업현금흐름·FCF와 CAPEX",
-            "총부채·리스·이자비용",
-            "신용등급·CDS 스프레드"
-          ],
-          "interpretation": "이 기사는 ORCL의 사업과 관련된 'Oracle layoffs top 2,500 workers as AI spending surges' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 비용·CAPEX·영업현금흐름·FCF·부채 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: ORCL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 비용·CAPEX·영업현금흐름·FCF·부채 중 실제 숫자로 확인되는 부분을 우선 보세요.",
-          "relevance": 0.5,
-          "quality": "high",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790239821.251494
-        }
       }
     ],
     "newsHistory": [
@@ -66829,9 +66764,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 189,
+      "checked": 188,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "CRM": {
@@ -72719,7 +72654,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 127,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "PLTR": {
@@ -81235,7 +81170,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "NVDA": {
@@ -88939,7 +88874,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "AMD": {
@@ -96863,7 +96798,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "AVGO": {
@@ -104853,7 +104788,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 163,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "QCOM": {
@@ -110968,7 +110903,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "ARM": {
@@ -115326,7 +115261,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "MRVL": {
@@ -121970,7 +121905,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 141,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "INTC": {
@@ -130214,7 +130149,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "TSM": {
@@ -135694,7 +135629,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "ASML": {
@@ -139250,7 +139185,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "AMAT": {
@@ -143246,7 +143181,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "LRCX": {
@@ -145396,7 +145331,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "KLAC": {
@@ -147453,7 +147388,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "MU": {
@@ -155001,7 +154936,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "SNDK": {
@@ -161821,7 +161756,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 143,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "WDC": {
@@ -165864,7 +165799,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "ANET": {
@@ -169003,7 +168938,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "COHR": {
@@ -171801,7 +171736,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "LITE": {
@@ -174513,7 +174448,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "GEV": {
@@ -179023,7 +178958,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "CEG": {
@@ -182930,7 +182865,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "VST": {
@@ -186012,7 +185947,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "ETN": {
@@ -188770,7 +188705,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "PWR": {
@@ -191340,7 +191275,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "HUBB": {
@@ -192011,7 +191946,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "VRT": {
@@ -195515,7 +195450,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "MOD": {
@@ -196762,7 +196697,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "STX": {
@@ -200284,7 +200219,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "EME": {
@@ -201697,7 +201632,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "FIX": {
@@ -203086,7 +203021,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   },
   "BE": {
@@ -205053,7 +204988,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-10-08 06:31"
+      "updated": "2026-10-08 07:33"
     }
   }
 };
