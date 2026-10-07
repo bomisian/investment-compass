@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791345260.0621305,
+  "generatedAt": 1791347187.9703693,
   "events": [
     {
       "id": "a8a25aca777cb7dbe191",
@@ -548,6 +548,73 @@ const EVENT_DATA = {
         "실제 CAPEX 집행",
         "공급업체 수주·매출",
         "투자 기업 OCF·FCF·부채"
+      ]
+    },
+    {
+      "id": "c171f9bc00127e05ecdc",
+      "schemaVersion": 1,
+      "eventType": "supply_chain",
+      "eventLabel": "공급망 문제",
+      "primaryTicker": "KLAC",
+      "relatedTickers": [
+        "KLAC"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Jim Cramer Says the Chip Shortage “Can’t Be Solved” Without KLAC",
+      "headlineKo": "Jim Cramer는 KLAC 없이는 칩 부족이 \"해결될 수 없다\"고 말합니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=da91be182cb3afc867657f5908d2a8761c57187e1cbf5c9d1e563dc9773ce7af",
+        "publishedAt": 1791324049,
+        "collectedAt": 1791347132.504279
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Jim Cramer Says the Chip Shortage “Can’t Be Solved” Without KLAC",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
+        "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "KLAC에 대한 공급망 · 생산 차질 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "주문은 있어도 부품이나 생산 문제로 제때 팔지 못할 수 있다는 뉴스입니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
+        "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "KLAC",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "출하 지연 기간",
+        "재고와 리드타임",
+        "매출총이익률·대체 공급처"
       ]
     },
     {
@@ -1279,7 +1346,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ac6bfc335dfc3d4897ae8bd77e8ebfe7355b99e732688e3608ac1b0de4e44f64",
         "publishedAt": 1791314401,
-        "collectedAt": 1791324002.0409577
+        "collectedAt": 1791347132.504279
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2296,7 +2363,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fdc46853d7f33636cb3d81111b423d488d471df07d083d1b397ed96b78ab6715",
         "publishedAt": 1791308674,
-        "collectedAt": 1791324002.0409577
+        "collectedAt": 1791347132.504279
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2370,7 +2437,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=92238007211c759df503210961c555ef4e85cf201f903701385be653ac2488e7",
         "publishedAt": 1791307965,
-        "collectedAt": 1791324002.0409577
+        "collectedAt": 1791347132.504279
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4618,7 +4685,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cac0f65dbfc159b0714adc0c403527d74a4d55a70d487f42c12b66ea4217e584",
         "publishedAt": 1791293981,
-        "collectedAt": 1791324002.0409577
+        "collectedAt": 1791347132.504279
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5214,7 +5281,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a92035033a69cef9fcdc1ab00704e5c4225413d100a0ca1e45f1eee626ba166d",
         "publishedAt": 1791292080,
-        "collectedAt": 1791324002.0409577
+        "collectedAt": 1791347132.504279
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5791,7 +5858,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=85817650821b346de0a4929e22bf090b0962647c7e2b11dc366e04d796683a68",
         "publishedAt": 1791290760,
-        "collectedAt": 1791324002.0409577
+        "collectedAt": 1791347132.504279
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9127,7 +9194,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=33b8d9bb9c2dc48e016820ab0d3f668e5c726eb9bbd9b6e80ba979c8aca90b38",
         "publishedAt": 1791232789,
-        "collectedAt": 1791324002.0409577
+        "collectedAt": 1791347132.504279
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11878,7 +11945,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=08fb72ac71e38f733470be935666481d7400b695a98adfbf7c5a4d96c6d2c296",
         "publishedAt": 1791213002,
-        "collectedAt": 1791324002.0409577
+        "collectedAt": 1791347132.504279
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11928,15 +11995,15 @@ const EVENT_DATA = {
         "KLAC"
       ],
       "relatedEntities": [],
-      "importance": "medium",
+      "importance": "high",
       "sourceReliability": {
         "level": "medium",
         "score": 65,
         "kind": "reported",
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
+      "direction": "positive",
+      "expectedHorizon": "중기·장기",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "KLA's Supply Constraints Expected to Ease, Leading Logic Mix to Become Tailwind, Morgan Stanley Says",
@@ -11945,45 +12012,34 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9b4eddced9423510910075ecf94903587196f895bc8050fe99b04164c722f919",
         "publishedAt": 1791212628,
-        "collectedAt": 1791324002.0409577
+        "collectedAt": 1791347132.504279
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "KLA's Supply Constraints Expected to Ease, Leading Logic Mix to Become Tailwind, Morgan Stanley Says",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+        "KLA의 공급 제약이 완화될 것으로 예상되며 주요 로직 혼합이 순풍이 될 것이라고 Morgan Stanley가 밝혔습니다."
       ],
-      "marketInterpretation": [
-        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
-        "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
+      "marketInterpretation": [],
       "aiInference": [
-        "KLAC에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
       ],
       "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
       ],
       "beginnerExplanation": [
-        "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
       ],
       "whyItMatters": [
-        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
-        "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
       ],
       "impacts": [
         {
           "ticker": "KLAC",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
+          "direction": "positive",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
         }
       ],
-      "watch": [
-        "계약 금액·기간·취소 조건",
-        "수주잔고와 매출 인식 시점",
-        "관련 사업부 매출총이익률"
-      ]
+      "watch": []
     },
     {
       "id": "57b211f459d8496795b2",
@@ -12091,7 +12147,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=d95d6bce7b72cb14b2d79a463776ec31619d35f212a0654a25699d7292da709c",
         "publishedAt": 1791209469,
-        "collectedAt": 1791324002.0409577
+        "collectedAt": 1791347132.504279
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13018,7 +13074,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=49d0805dfcac39242942c0f980cec058d5f35d3223e05b6f8182c978fd94bd6b",
         "publishedAt": 1791203662,
-        "collectedAt": 1791324002.0409577
+        "collectedAt": 1791347132.504279
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13380,7 +13436,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=a8bff54239e88925995a26e0c6b4982447ac3d82dfcda32716cec721c3907e02",
         "publishedAt": 1791199836,
-        "collectedAt": 1791324002.0409577
+        "collectedAt": 1791347132.504279
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14853,7 +14909,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=51eb55409c689d88e5bf97a1b9347d52f44cfa8e6dd45e6d8505406e0cf2a44a",
         "publishedAt": 1791185489,
-        "collectedAt": 1791324002.0409577
+        "collectedAt": 1791347132.504279
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16439,7 +16495,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3095b2198571f5d5345e9484bceca72e67887a00e256c185125648fad63eab33",
         "publishedAt": 1791140519,
-        "collectedAt": 1791324002.0409577
+        "collectedAt": 1791347132.504279
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17640,7 +17696,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126038468/ef20083016_8k.htm",
         "publishedAt": 1791126000.0,
-        "collectedAt": 1791324044.4347568
+        "collectedAt": 1791347170.5798454
       },
       "confirmedFacts": [
         "VST가 2026-10-05에 SEC Form 8-K을 제출했습니다.",
@@ -17705,7 +17761,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126038523/ef20083229_8k.htm",
         "publishedAt": 1791126000.0,
-        "collectedAt": 1791324044.4347568
+        "collectedAt": 1791347170.5798454
       },
       "confirmedFacts": [
         "ETN가 2026-10-05에 SEC Form 8-K을 제출했습니다.",
@@ -17887,77 +17943,6 @@ const EVENT_DATA = {
         "실제 CAPEX 집행",
         "공급업체 수주·매출",
         "투자 기업 OCF·FCF·부채"
-      ]
-    },
-    {
-      "id": "98c3f6a1aafc4215f1be",
-      "schemaVersion": 1,
-      "eventType": "long_term_supply",
-      "eventLabel": "장기 공급계약",
-      "primaryTicker": "SNDK",
-      "relatedTickers": [
-        "MU",
-        "SNDK",
-        "SPY"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Micron or Sandisk: If I Could Only Own One for the Next 5 Years, It Would Be This One",
-      "headlineKo": "Micron 또는 Sandisk: 향후 5년 동안 하나만 소유할 수 있다면 이 제품을 선택하겠습니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9ffa793f246d5afc224e95d4773f444e165d05586bf43c748e2a111e80466efb",
-        "publishedAt": 1791119760,
-        "collectedAt": 1791344871.5883675
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Micron 또는 Sandisk: 향후 5년 동안 하나만 소유할 수 있다면 이 제품을 선택하겠습니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% The Motley Fool Micron( MU -1.02% ) 및 Sandisk( SNDK +0.53)에 합류",
-        "S&P 500( ^GSPC +0.15% )에서 Sandisk는 올해 현재까지 650% 이상 상승하여 가장 좋은 성과를 내는 주식입니다.",
-        "Micron은 거의 300% 상승해 4위를 차지하기에 충분했기 때문에 나쁜 한 해를 보냈습니다."
-      ],
-      "marketInterpretation": [
-        "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 300%, 1.02 %, $ 1,063.90 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "SNDK의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "SNDK에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 300%, 1.02 %, $ 1,063.90 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "SNDK의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "SNDK",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "계약 기간·최소구매 조건",
-        "연도별 매출 인식",
-        "수주잔고·취소 조건"
       ]
     }
   ],
@@ -18202,8 +18187,7 @@ const EVENT_DATA = {
       "fe8e675769e87a11fa11",
       "aa90a21eb5a34200d5f0",
       "51c03b9c56b66d362ba3",
-      "9a340900913b551491c0",
-      "98c3f6a1aafc4215f1be"
+      "9a340900913b551491c0"
     ],
     "STX": [
       "a8a25aca777cb7dbe191",
@@ -18387,6 +18371,10 @@ const EVENT_DATA = {
       "4b978de00ba525100d92",
       "aa90a21eb5a34200d5f0"
     ],
+    "KLAC": [
+      "c171f9bc00127e05ecdc",
+      "4bfab5815be5875a4a0b"
+    ],
     "MU": [
       "987949f01e80381d4dc6",
       "8f03e34f623fa40ab914",
@@ -18429,8 +18417,7 @@ const EVENT_DATA = {
       "64ce38616e214be24090",
       "3b18a18261aec7f5f62e",
       "50af947b65caaccf87eb",
-      "51c03b9c56b66d362ba3",
-      "98c3f6a1aafc4215f1be"
+      "51c03b9c56b66d362ba3"
     ],
     "AMD": [
       "8f03e34f623fa40ab914",
@@ -18607,8 +18594,7 @@ const EVENT_DATA = {
       "77b9f16834cb0d9c2db9",
       "d177312e9c03b832d748",
       "d9c3a3f24141f0166a4f",
-      "25eebbdbd0a780349d38",
-      "98c3f6a1aafc4215f1be"
+      "25eebbdbd0a780349d38"
     ],
     "ANET": [
       "94ede47ff04d2635d995",
@@ -18655,9 +18641,6 @@ const EVENT_DATA = {
     "ETN": [
       "644c6de08237783ef184",
       "ab49fcffb344e4cf65b9"
-    ],
-    "KLAC": [
-      "4bfab5815be5875a4a0b"
     ],
     "ARM": [
       "57b211f459d8496795b2",
