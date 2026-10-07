@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791395490.4956565,
+  "generatedAt": 1791396019.6807156,
   "events": [
     {
       "id": "062490ec287877913a16",
@@ -5551,17 +5551,89 @@ const EVENT_DATA = {
       "watch": []
     },
     {
+      "id": "b25f2f4e68704354c888",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "실적 발표",
+      "primaryTicker": "QQQ",
+      "relatedTickers": [
+        "CEG",
+        "MRVL",
+        "QQQ",
+        "SPY"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "S&P 500 And Nasdaq 100 Soar To Record Highs Amid Rising Bets Of Strong Quarterly Earnings — CEG, LCID, SPCX, MRVL In Focus",
+      "headlineKo": "S&P 500과 Nasdaq 100은 강력한 분기별 수익에 대한 기대가 높아지는 가운데 최고치를 기록했습니다. — CEG, LCID, SPCX, MRVL 집중",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=682fd04d3d7589318662fd1cea2c31cda184b5f97c1ee5bc306840484d4455e9",
+        "publishedAt": 1791326129,
+        "collectedAt": 1791396002.0620944
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "S&P 500 And Nasdaq 100 Soar To Record Highs Amid Rising Bets Of Strong Quarterly Earnings — CEG, LCID, SPCX, MRVL In Focus",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "QQQ에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "QQQ",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "매출·영업이익 성장",
+        "정상화이익과 특이항목",
+        "가이던스·OCF·FCF"
+      ]
+    },
+    {
       "id": "19abe792ce249c71ec7f",
       "schemaVersion": 1,
       "eventType": "analyst_target_change",
       "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "QQQ",
+      "primaryTicker": "SPY",
       "relatedTickers": [
         "CEG",
         "GOOGL",
         "MRVL",
+        "MU",
         "QQQ",
-        "SPY"
+        "SPY",
+        "WDC"
       ],
       "relatedEntities": [
         {
@@ -5587,21 +5659,21 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=682fd04d3d7589318662fd1cea2c31cda184b5f97c1ee5bc306840484d4455e9",
         "publishedAt": 1791326129,
-        "collectedAt": 1791374295.9746838
+        "collectedAt": 1791391194.4294116
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "S&P 500과 Nasdaq 100은 강력한 분기 실적에 대한 기대가 높아지는 가운데 최고치를 기록했습니다. CEG, LCID, SPCX, MRVL In Focus AI 에이전트 동향 뉴스 수익 전체 DIA 0.74% SPY 0.37% QQQ 0.69% Trending BULL 19.78% QQQ 0.69% IWM 0.80% SPY 0.37%",
+        "S&P 500과 Nasdaq 100은 강력한 분기 실적에 대한 기대감이 높아지는 가운데 최고치를 기록했습니다. CEG, LCID, SPCX, MRVL In Focus AI 에이전트 동향 뉴스 수익 전체 DIA 0.29% SPY 0.10% QQQ 0.40% 추세 SPCX 2.12% MU 2.18% WDC 1.23% IWM 0.51% ST",
         "S&P 500과 Nasdaq 100은 분기별 수익이 증가하는 가운데 최고치를 기록했습니다. CEG, LCID, SPCX, MRVL In Focus Constellation Energy는 Google과의 다년간의 원자력 계약에서 Nasdaq 100 지수 중 최고 상승률을 기록했습니다.",
         "트레이더들이 뉴욕 증권 거래소(NYSE) 폐장 시간 전에 일하고 있습니다. (사진 출처는 JOHANNES EISELE/AFP via Getty Images) Shashank Nayar · Stocktwits 게시일: 2026년 10월 6일 | 오후 6시 35분 EDT 공유 · S&P 500에 우리 추가 종료"
       ],
       "marketInterpretation": [
         "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.74%, 0.37%, 0.69% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "이번 기사에서 확인된 구체적 수치: 0.29%, 0.10%, 0.40% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
-        "QQQ에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+        "SPY에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
@@ -5612,12 +5684,12 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.74%, 0.37%, 0.69% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "이번 기사에서 확인된 구체적 수치: 0.29%, 0.10%, 0.40% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
-          "ticker": "QQQ",
+          "ticker": "SPY",
           "direction": "확인 필요",
           "reason": "회사 실적과의 연결고리 확인",
           "basis": "analysis"
@@ -5628,65 +5700,6 @@ const EVENT_DATA = {
         "적용 PER 변화",
         "회사 공식 가이던스"
       ]
-    },
-    {
-      "id": "b25f2f4e68704354c888",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "CEG",
-      "relatedTickers": [
-        "CEG",
-        "MRVL",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "S&P 500 And Nasdaq 100 Soar To Record Highs Amid Rising Bets Of Strong Quarterly Earnings — CEG, LCID, SPCX, MRVL In Focus",
-      "headlineKo": "S&P 500과 Nasdaq 100은 강력한 분기별 수익에 대한 기대가 높아지는 가운데 최고치를 기록했습니다. — CEG, LCID, SPCX, MRVL 집중",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=682fd04d3d7589318662fd1cea2c31cda184b5f97c1ee5bc306840484d4455e9",
-        "publishedAt": 1791326129,
-        "collectedAt": 1791391194.4294116
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "S&P 500과 Nasdaq 100은 강력한 분기별 수익에 대한 기대가 높아지는 가운데 최고치를 기록했습니다. — CEG, LCID, SPCX, MRVL 집중"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "CEG",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
     },
     {
       "id": "04ebd9792158d2491905",
@@ -10538,6 +10551,71 @@ const EVENT_DATA = {
       ]
     },
     {
+      "id": "2366b50b9e8b728e384e",
+      "schemaVersion": 1,
+      "eventType": "major_customer_contract",
+      "eventLabel": "주요 고객 계약",
+      "primaryTicker": "QQQ",
+      "relatedTickers": [
+        "GOOGL",
+        "QQQ",
+        "SPY"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Google",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "low",
+        "score": 42,
+        "kind": "reported",
+        "reason": "속보·의견 성격이 강해 원문 재확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "중기·장기",
+      "impactProbability": "낮음·확인 필요",
+      "verificationStatus": "needs_confirmation",
+      "headline": "S&P 500, Nasdaq Hit Records, Power Stocks Rally on Google's Nuclear Deal: Stock Market Today",
+      "headlineKo": "S&P 500, 나스닥 히트 기록, Google의 핵 거래에 대한 전력주 랠리: 오늘의 주식 시장",
+      "source": {
+        "name": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=d854387ea2b54afa3aae5bc2f3ae53045ac16ed0dc767504142c274ece5c100a",
+        "publishedAt": 1791292272,
+        "collectedAt": 1791396002.0620944
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "S&P 500, 나스닥 히트 기록, Google의 핵 거래에 대한 전력주 랠리: 오늘의 주식 시장"
+      ],
+      "marketInterpretation": [],
+      "aiInference": [
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "QQQ",
+          "direction": "positive",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
+        }
+      ],
+      "watch": []
+    },
+    {
       "id": "cec7206d8bfed1fdf107",
       "schemaVersion": 1,
       "eventType": "major_customer_contract",
@@ -12312,7 +12390,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9b2690aaa98e03f5a2f2511a4b46b97fd79dfffb05f92ff936c81ada02f72b1d",
         "publishedAt": 1791275977,
-        "collectedAt": 1791374295.9746838
+        "collectedAt": 1791396002.0620944
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13911,7 +13989,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8b05235329873b3a6aefc1263a0519dcf558fad2478525d7f31f7e0d1584bf58",
         "publishedAt": 1791238172,
-        "collectedAt": 1791374295.9746838
+        "collectedAt": 1791396002.0620944
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17752,86 +17830,6 @@ const EVENT_DATA = {
         "CAPEX 대비 영업현금흐름",
         "금리와 프로젝트 부채 비용"
       ]
-    },
-    {
-      "id": "e7354037494021c09545",
-      "schemaVersion": 1,
-      "eventType": "regulatory_legal_export",
-      "eventLabel": "규제·소송·수출 제한",
-      "primaryTicker": "ARM",
-      "relatedTickers": [
-        "ARM",
-        "META",
-        "QCOM"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Meta",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        },
-        {
-          "name": "Qualcomm",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Qualcomm vs. Arm Holdings Q4 2026 trial: royalties and contract breach",
-      "headlineKo": "Qualcomm 대 Arm Holdings 2026년 4분기 재판: 로열티 및 계약 위반",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a6fed13b6be411df50bba108d5a6501a2cbba8588dc161584ad89321b32d2815",
-        "publishedAt": 1791207282,
-        "collectedAt": 1791391194.4294116
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Arm Holdings 2026년 4분기 재판: 로열티 및 계약 위반 Emerging Technologies Qualcomm은 수십억 달러의 로열티를 걸고 Arm을 다시 재판에 회부합니다. Qualcomm은 Arm이 칩 테스트 도구를 보류하고 종료 위협을 유출했다고 주장합니다.",
-        "소송에서 Qualcomm은 잠재적으로 수십억 달러에 달하는 구제책인 Arm에 대한 로열티 지불을 최대 5년 동안 중단하려고 합니다. 하지만 Maryellen Noreika 판사는 피해를 제한할 수 있는 기간을 파기할지 여부를 고려하고 있습니다.",
-        "Arm의 최대 고객 중 하나인 Qualcomm은 Arm이 언론인에게 2024년 종료 위협을 공개함으로써 Meta $META 플랫폼과 진행 중인 칩 거래 협상이 훼손되었다고 주장했습니다."
-      ],
-      "marketInterpretation": [
-        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-        "ARM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "ARM에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-        "ARM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "ARM",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "공식 규제 적용일·대상 제품",
-        "회사의 매출 영향 추정",
-        "대체 제품·지역 판매"
-      ]
     }
   ],
   "byTicker": {
@@ -17857,6 +17855,7 @@ const EVENT_DATA = {
       "b9e97a1b5bca48bc2238",
       "250b56577648e8b7282e",
       "981a005e7362ba4fbad5",
+      "19abe792ce249c71ec7f",
       "987949f01e80381d4dc6",
       "8f03e34f623fa40ab914",
       "c6aff69e09eaa91eb95d",
@@ -17900,8 +17899,8 @@ const EVENT_DATA = {
       "250b56577648e8b7282e",
       "a8a25aca777cb7dbe191",
       "46b70cbaa3dec7315439",
-      "19abe792ce249c71ec7f",
       "b25f2f4e68704354c888",
+      "19abe792ce249c71ec7f",
       "04ebd9792158d2491905",
       "987949f01e80381d4dc6",
       "61e38ebadfb68a8f2a8a",
@@ -17920,6 +17919,7 @@ const EVENT_DATA = {
       "cef165066a1e76e639b6",
       "9eeaf6bf308c26930ce3",
       "7ccdd259d5d0b36b4a09",
+      "2366b50b9e8b728e384e",
       "2f237982e39caa2034d1",
       "ac6807a52b486ec6f750",
       "b27541bc900ad334d8b7",
@@ -17996,8 +17996,8 @@ const EVENT_DATA = {
       "a8a25aca777cb7dbe191",
       "d18c919449d6b4d7440a",
       "46b70cbaa3dec7315439",
-      "19abe792ce249c71ec7f",
       "b25f2f4e68704354c888",
+      "19abe792ce249c71ec7f",
       "04ebd9792158d2491905",
       "987949f01e80381d4dc6",
       "61e38ebadfb68a8f2a8a",
@@ -18027,6 +18027,7 @@ const EVENT_DATA = {
       "cef165066a1e76e639b6",
       "9eeaf6bf308c26930ce3",
       "7ccdd259d5d0b36b4a09",
+      "2366b50b9e8b728e384e",
       "7d61e7445dadfe38ea3d",
       "2f237982e39caa2034d1",
       "a5d12609aed8c8aa6781",
@@ -18075,6 +18076,7 @@ const EVENT_DATA = {
       "9c3d98db1ed7f9d5e70c",
       "b8f26b776fec0b319cb5",
       "250b56577648e8b7282e",
+      "19abe792ce249c71ec7f",
       "d9952b85779fd4bbca42",
       "c0995dc72dd6012acae6",
       "802591f84846fdd33845",
@@ -18108,8 +18110,8 @@ const EVENT_DATA = {
       "90c0ff4399f57d39b182",
       "9c3d98db1ed7f9d5e70c",
       "c7000db9579c83ee080e",
-      "19abe792ce249c71ec7f",
       "b25f2f4e68704354c888",
+      "19abe792ce249c71ec7f",
       "4879be352c36261bcbf0",
       "c6aff69e09eaa91eb95d",
       "4df2d39f0f042f89e8a2",
@@ -18260,6 +18262,7 @@ const EVENT_DATA = {
       "1551ec9dde8018ffb40b",
       "1e07bec85e986b5a870c",
       "9d85e9c8ff77086405cf",
+      "2366b50b9e8b728e384e",
       "cec7206d8bfed1fdf107",
       "7f92dd0c31321614cc4f",
       "10a0d86c02b8fb759279",
@@ -18291,8 +18294,7 @@ const EVENT_DATA = {
       "6f754d6d38f9de1a59e0",
       "8c04d156d33202894018",
       "ff9e1f3ca6b418f34ec1",
-      "0484aa779bf49542fc38",
-      "e7354037494021c09545"
+      "0484aa779bf49542fc38"
     ],
     "AAPL": [
       "9b50587b7bb9954aed32",
@@ -18358,8 +18360,7 @@ const EVENT_DATA = {
       "2d21e878da086d0d36cd",
       "154776bc1709cfac5e88",
       "290b082475b442d447fb",
-      "57b211f459d8496795b2",
-      "e7354037494021c09545"
+      "57b211f459d8496795b2"
     ],
     "TSM": [
       "9bc9eb6465db4a291b39",
@@ -18400,8 +18401,8 @@ const EVENT_DATA = {
       "6dcca3becab40c23c328",
       "a8a25aca777cb7dbe191",
       "703a452876932cddb88a",
-      "19abe792ce249c71ec7f",
       "b25f2f4e68704354c888",
+      "19abe792ce249c71ec7f",
       "d54cacb18217b8c8c054",
       "3ac8a268a4416ea705fc",
       "225c8dcfc22df7d05083",
@@ -18519,8 +18520,7 @@ const EVENT_DATA = {
       "644c6de08237783ef184"
     ],
     "ARM": [
-      "57b211f459d8496795b2",
-      "e7354037494021c09545"
+      "57b211f459d8496795b2"
     ],
     "FIX": [
       "a91015b46f0ece30cacf"
