@@ -4660,7 +4660,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "SPY": {
@@ -10738,7 +10738,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "MSFT": {
@@ -18720,7 +18720,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "GOOGL": {
@@ -18890,7 +18890,47 @@ const NEWS_DATA = {
         "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Google과 Unity의 새로운 게임 플랫폼은 Roblox에 위협이 됩니다. 크리에이터를 유인할 수 있는 이유"
+        "headlineKo": "Google과 Unity의 새로운 게임 플랫폼은 Roblox에 위협이 됩니다. 크리에이터를 유인할 수 있는 이유",
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Google과 Unity의 새로운 게임 플랫폼은 Roblox에 위협이 됩니다. 크리에이터를 유인할 수 있는 이유",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "GOOGL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Google과 Unity의 새로운 게임 플랫폼은 Roblox에 위협이 됩니다. 크리에이터를 유인할 수 있는 이유' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "GOOGL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791392457.0519218
+        }
       },
       {
         "headline": "Google, Meta, U.S. government join Biohub's $1.8B AI biology effort",
@@ -19265,7 +19305,47 @@ const NEWS_DATA = {
         "datetime": 1791382380,
         "headlineKo": "Google과 Unity의 새로운 게임 플랫폼은 Roblox에 위협이 됩니다. 크리에이터를 유인할 수 있는 이유",
         "relevance": 1.0,
-        "keywordFlag": false
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Google과 Unity의 새로운 게임 플랫폼은 Roblox에 위협이 됩니다. 크리에이터를 유인할 수 있는 이유",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "GOOGL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Google과 Unity의 새로운 게임 플랫폼은 Roblox에 위협이 됩니다. 크리에이터를 유인할 수 있는 이유' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "GOOGL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791392457.0519218
+        }
       },
       {
         "headline": "Google, Meta, U.S. government join Biohub's $1.8B AI biology effort",
@@ -26642,9 +26722,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 190,
-      "removed": 1,
-      "updated": "2026-10-08 01:47"
+      "checked": 189,
+      "removed": 0,
+      "updated": "2026-10-08 02:01"
     }
   },
   "AMZN": {
@@ -34618,7 +34698,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "META": {
@@ -42479,7 +42559,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "AAPL": {
@@ -50519,7 +50599,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "TSLA": {
@@ -58337,7 +58417,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "ORCL": {
@@ -66761,7 +66841,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "CRM": {
@@ -72649,7 +72729,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 127,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "PLTR": {
@@ -81165,7 +81245,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "NVDA": {
@@ -88869,11 +88949,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "AMD": {
-    "_last_attempt_at": 1791370481.596142,
+    "_last_attempt_at": 1791392455.0358646,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -96746,13 +96826,14 @@ const NEWS_DATA = {
     "_fetched_at": 1791370481.596142,
     "_updated_label": "2026-10-07 19:54",
     "_last_success_at": 1791370481.596142,
-    "_collection_status": "ok",
+    "_collection_status": "error",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
-    }
+      "updated": "2026-10-08 02:01"
+    },
+    "_last_error": "The read operation timed out"
   },
   "AVGO": {
     "_last_attempt_at": 1791391194.4294116,
@@ -104741,7 +104822,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 163,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "QCOM": {
@@ -110856,7 +110937,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "ARM": {
@@ -115214,7 +115295,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "MRVL": {
@@ -121858,7 +121939,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 141,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "INTC": {
@@ -130102,7 +130183,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "TSM": {
@@ -135582,7 +135663,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "ASML": {
@@ -139138,7 +139219,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "AMAT": {
@@ -143134,11 +143215,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "LRCX": {
-    "_last_attempt_at": 1791370481.596142,
+    "_last_attempt_at": 1791392455.0358646,
     "nextEarnings": {
       "date": "2026-10-21",
       "hour": "",
@@ -143147,6 +143228,106 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Applied Materials (AMAT) vs. LRCX and KLAC: Can AI-Driven Chip Complexity Unlock Further Upside?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b7fb440b11fd32f6d6a366acd4b2662687454b5b132712a5016591c54aff9696",
+        "datetime": 1791381860,
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Applied Materials (AMAT) vs. LRCX and KLAC: Can AI-Driven Chip Complexity Unlock Further Upside?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "LRCX",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 LRCX의 사업과 관련된 'Applied Materials (AMAT) vs. LRCX and KLAC: Can AI-Driven Chip Complexity Unlock Further Upside?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "LRCX 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791392485.0896223
+        },
+        "headlineKo": "Applied Materials(AMAT) 대 LRCX 및 KLAC: AI 기반 칩 복잡성으로 인해 추가 상승 가능성이 나타날 수 있습니까?"
+      },
+      {
+        "headline": "Should You Invest in Lam Research Stock Despite Its Premium Valuation?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f37d203d34fd6ed23e46406ac59e1d84779c61624c82f7bcb4538b451bf1a65f",
+        "datetime": 1791381660,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Should You Invest in Lam Research Stock Despite Its Premium Valuation?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "LRCX",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 LRCX의 사업과 관련된 'Should You Invest in Lam Research Stock Despite Its Premium Valuation?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "LRCX 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791392487.4584603
+        },
+        "headlineKo": "프리미엄 가치에도 불구하고 Lam Research 주식에 투자해야 할까요?"
+      },
       {
         "headline": "Zacks Industry Outlook Applied Materials, Lam Research and FormFactor",
         "source": "Yahoo",
@@ -143193,7 +143374,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791370508.693156
+          "analysisUpdatedAt": 1791392489.7375104
         },
         "headlineKo": "Zacks 산업 전망 Applied Materials, Lam Research 및 FormFactor"
       },
@@ -143205,46 +143386,6 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "positive",
-          "certainty": "본문 확인 필요",
-          "label": "실적·수요 개선 가능성",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Lam Research vs. KLA: Is Faster Growth Worth Paying More for Cash Flow?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "LRCX",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 LRCX의 사업과 관련된 'Lam Research vs. KLA: Is Faster Growth Worth Paying More for Cash Flow?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 비용·CAPEX·영업현금흐름·FCF·부채 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "LRCX 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791370511.4971128
-        },
         "headlineKo": "Lam Research 대 KLA: 빠른 성장이 현금 흐름에 더 많은 비용을 지불할 가치가 있습니까?"
       },
       {
@@ -143255,15 +143396,27 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "AI가 스토리지 수요 촉진: Lam Research의 NAND 성장을 촉진할 것인가?"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Applied Materials (AMAT) vs. LRCX and KLAC: Can AI-Driven Chip Complexity Unlock Further Upside?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b7fb440b11fd32f6d6a366acd4b2662687454b5b132712a5016591c54aff9696",
+        "datetime": 1791381860,
+        "headlineKo": "Applied Materials(AMAT) 대 LRCX 및 KLAC: AI 기반 칩 복잡성으로 인해 추가 상승 가능성이 나타날 수 있습니까?",
+        "relevance": 1.0,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "low",
-          "tone": "positive",
+          "tone": "neutral",
           "certainty": "본문 확인 필요",
-          "label": "실적·수요 개선 가능성",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AI Drives Storage Demand: Will It Boost Lam Research's NAND Growth?",
+            "Applied Materials (AMAT) vs. LRCX and KLAC: Can AI-Driven Chip Complexity Unlock Further Upside?",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -143287,38 +143440,64 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 LRCX의 사업과 관련된 'AI Drives Storage Demand: Will It Boost Lam Research's NAND Growth?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 LRCX의 사업과 관련된 'Applied Materials (AMAT) vs. LRCX and KLAC: Can AI-Driven Chip Complexity Unlock Further Upside?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "LRCX 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791392485.0896223
+        }
+      },
+      {
+        "headline": "Should You Invest in Lam Research Stock Despite Its Premium Valuation?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f37d203d34fd6ed23e46406ac59e1d84779c61624c82f7bcb4538b451bf1a65f",
+        "datetime": 1791381660,
+        "headlineKo": "프리미엄 가치에도 불구하고 Lam Research 주식에 투자해야 할까요?",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Should You Invest in Lam Research Stock Despite Its Premium Valuation?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "LRCX",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 LRCX의 사업과 관련된 'Should You Invest in Lam Research Stock Despite Its Premium Valuation?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "LRCX 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.67,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791370513.7120776
-        },
-        "headlineKo": "AI가 스토리지 수요 촉진: Lam Research의 NAND 성장을 촉진할 것인가?"
+          "analysisUpdatedAt": 1791392487.4584603
+        }
       },
-      {
-        "headline": "Morgan Stanley Maintains Overweight on Lam Research, Raises Price Target to $385",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=a8bff54239e88925995a26e0c6b4982447ac3d82dfcda32716cec721c3907e02",
-        "datetime": 1791199836,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Morgan Stanley, Lam Research에 대해 비중확대 유지, 목표 주가를 385달러로 상향 조정"
-      },
-      {
-        "headline": "Meet the Low-Cost Vanguard ETF With 32.4% Invested in Nvidia, Broadcom, Micron, AMD, Intel, and Lam Research, While VOO Has Just 14.8%.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b0cf215ea487392e67e586be62096cb6b8d47e93ddaf02471c8e9a3ec0ce5353",
-        "datetime": 1791197400,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Nvidia, Broadcom, Micron, AMD, Intel 및 Lam Research에 32.4%를 투자한 반면 VOO는 14.8%에 불과한 저비용 Vanguard ETF를 만나보세요."
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Zacks Industry Outlook Applied Materials, Lam Research and FormFactor",
         "source": "Yahoo",
@@ -143365,7 +143544,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791370508.693156
+          "analysisUpdatedAt": 1791392489.7375104
         }
       },
       {
@@ -145178,19 +145357,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791370481.596142,
-    "_updated_label": "2026-10-07 19:55",
-    "_last_success_at": 1791370481.596142,
+    "_fetched_at": 1791392455.0358646,
+    "_updated_label": "2026-10-08 02:01",
+    "_last_success_at": 1791392455.0358646,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 44,
+      "checked": 46,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1791370481.596142,
+    "_last_attempt_at": 1791392455.0358646,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -145199,6 +145378,56 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Applied Materials (AMAT) vs. LRCX and KLAC: Can AI-Driven Chip Complexity Unlock Further Upside?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b7fb440b11fd32f6d6a366acd4b2662687454b5b132712a5016591c54aff9696",
+        "datetime": 1791381860,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Applied Materials (AMAT) vs. LRCX and KLAC: Can AI-Driven Chip Complexity Unlock Further Upside?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "KLAC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'Applied Materials (AMAT) vs. LRCX and KLAC: Can AI-Driven Chip Complexity Unlock Further Upside?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "KLAC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791392497.181707
+        },
+        "headlineKo": "Applied Materials(AMAT) 대 LRCX 및 KLAC: AI 기반 칩 복잡성으로 인해 추가 상승 가능성이 나타날 수 있습니까?"
+      },
       {
         "headline": "The Zacks Analyst Blog Highlights Space Exploration, Dell, KLA, AXIL Brands and Optex",
         "source": "Yahoo",
@@ -145245,7 +145474,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791370521.4843223
+          "analysisUpdatedAt": 1791392499.4720213
         },
         "headlineKo": "Zacks Analyst 블로그에서는 우주 탐사, Dell, KLA, AXIL 브랜드 및 Optex를 강조합니다."
       },
@@ -145295,7 +145524,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791370523.933671
+          "analysisUpdatedAt": 1791392501.335371
         },
         "headlineKo": "Lam Research 대 KLA: 빠른 성장이 현금 흐름에 더 많은 비용을 지불할 가치가 있습니까?"
       },
@@ -145307,45 +145536,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "공급망 · 생산 차질 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Jim Cramer Says the Chip Shortage “Can’t Be Solved” Without KLAC",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
-            "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "주문은 있어도 부품이나 생산 문제로 제때 팔지 못할 수 있다는 뉴스입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "KLAC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "출하 지연 기간",
-            "재고와 리드타임",
-            "매출총이익률·대체 공급처"
-          ],
-          "interpretation": "KLAC에 대한 공급망 · 생산 차질 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791370526.386469
-        },
         "headlineKo": "Jim Cramer는 KLAC 없이는 칩 부족이 \"해결될 수 없다\"고 말합니다."
       },
       {
@@ -145357,19 +145547,58 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "SpaceX, Dell, KLA Corp.에 대한 주요 연구 보고서"
-      },
-      {
-        "headline": "All You Need to Know About KLA (KLAC) Rating Upgrade to Buy",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7a2a56df49281388714df5dcf598aed50406b2519fcd962237d9558ffacfff2a",
-        "datetime": 1791298807,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "구매를 위해 KLA(KLAC) 등급 업그레이드에 대해 알아야 할 모든 것"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Applied Materials (AMAT) vs. LRCX and KLAC: Can AI-Driven Chip Complexity Unlock Further Upside?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b7fb440b11fd32f6d6a366acd4b2662687454b5b132712a5016591c54aff9696",
+        "datetime": 1791381860,
+        "headlineKo": "Applied Materials(AMAT) 대 LRCX 및 KLAC: AI 기반 칩 복잡성으로 인해 추가 상승 가능성이 나타날 수 있습니까?",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Applied Materials (AMAT) vs. LRCX and KLAC: Can AI-Driven Chip Complexity Unlock Further Upside?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "KLAC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'Applied Materials (AMAT) vs. LRCX and KLAC: Can AI-Driven Chip Complexity Unlock Further Upside?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "KLAC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791392497.181707
+        }
+      },
       {
         "headline": "The Zacks Analyst Blog Highlights Space Exploration, Dell, KLA, AXIL Brands and Optex",
         "source": "Yahoo",
@@ -145416,7 +145645,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791370521.4843223
+          "analysisUpdatedAt": 1791392499.4720213
         }
       },
       {
@@ -145465,7 +145694,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791370523.933671
+          "analysisUpdatedAt": 1791392501.335371
         }
       },
       {
@@ -147185,15 +147414,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791370481.596142,
-    "_updated_label": "2026-10-07 19:55",
-    "_last_success_at": 1791370481.596142,
+    "_fetched_at": 1791392455.0358646,
+    "_updated_label": "2026-10-08 02:01",
+    "_last_success_at": 1791392455.0358646,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 43,
+      "checked": 44,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "MU": {
@@ -154741,7 +154970,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "SNDK": {
@@ -161561,7 +161790,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 143,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "WDC": {
@@ -165604,7 +165833,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "ANET": {
@@ -168743,7 +168972,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "COHR": {
@@ -171541,7 +171770,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "LITE": {
@@ -174253,7 +174482,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "GEV": {
@@ -178763,7 +178992,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "CEG": {
@@ -182670,7 +182899,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "VST": {
@@ -185752,7 +185981,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "ETN": {
@@ -188510,7 +188739,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "PWR": {
@@ -191080,7 +191309,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "HUBB": {
@@ -191751,7 +191980,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "VRT": {
@@ -195255,7 +195484,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "MOD": {
@@ -196502,7 +196731,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "STX": {
@@ -200024,7 +200253,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "EME": {
@@ -201437,7 +201666,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "FIX": {
@@ -202826,11 +203055,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   },
   "BE": {
-    "_last_attempt_at": 1791370481.596142,
+    "_last_attempt_at": 1791392455.0358646,
     "nextEarnings": {
       "date": "2026-10-29",
       "hour": "amc",
@@ -202885,7 +203114,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791370533.6666598
+          "analysisUpdatedAt": 1791392508.6674392
         },
         "headlineKo": "Bloom Energy(BE)의 움직임, 주목받는 이유는 무엇입니까?"
       },
@@ -202934,7 +203163,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791370535.3346498
+          "analysisUpdatedAt": 1791392510.4464521
         },
         "headlineKo": "Bloom Energy (NYSE:BE) 2분기 실적: 재생 에너지 팩 선두"
       },
@@ -202984,7 +203213,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791370536.8479002
+          "analysisUpdatedAt": 1791392511.464851
         },
         "headlineKo": "Bloom Energy (NYSE:BE) 주식은 높은 성장과 펀더멘털 개선으로 좋은 모습을 보이고 있습니다"
       },
@@ -203056,7 +203285,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791370533.6666598
+          "analysisUpdatedAt": 1791392508.6674392
         }
       },
       {
@@ -203104,7 +203333,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791370535.3346498
+          "analysisUpdatedAt": 1791392510.4464521
         }
       },
       {
@@ -203153,7 +203382,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791370536.8479002
+          "analysisUpdatedAt": 1791392511.464851
         }
       },
       {
@@ -204785,15 +205014,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791370481.596142,
-    "_updated_label": "2026-10-07 19:55",
-    "_last_success_at": 1791370481.596142,
+    "_fetched_at": 1791392455.0358646,
+    "_updated_label": "2026-10-08 02:01",
+    "_last_success_at": 1791392455.0358646,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-10-08 01:47"
+      "updated": "2026-10-08 02:01"
     }
   }
 };
