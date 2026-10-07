@@ -1815,13 +1815,13 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1791282172.8754067,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791355057.2155397,
+    "_updated_label": "2026-10-07"
   },
   "ASML": {
     "transactions": [],
-    "_fetched_at": 1791282172.8754067,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791355057.2155397,
+    "_updated_label": "2026-10-07"
   },
   "AMAT": {
     "transactions": [
@@ -2030,8 +2030,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791282172.8754067,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791355057.2155397,
+    "_updated_label": "2026-10-07"
   },
   "MU": {
     "transactions": [
@@ -2534,6 +2534,46 @@ const INSIDER_DATA = {
   "ANET": {
     "transactions": [
       {
+        "name": "TEMPLETON MARK B",
+        "share": 200,
+        "transactionPrice": 206.03,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-05",
+        "code": "S"
+      },
+      {
+        "name": "TEMPLETON MARK B",
+        "share": 1800,
+        "transactionPrice": 205.5758,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-05",
+        "code": "S"
+      },
+      {
+        "name": "TEMPLETON MARK B",
+        "share": 1800,
+        "transactionPrice": 204.445,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-05",
+        "code": "S"
+      },
+      {
+        "name": "TEMPLETON MARK B",
+        "share": 500,
+        "transactionPrice": 202.898,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-05",
+        "code": "S"
+      },
+      {
+        "name": "TEMPLETON MARK B",
+        "share": 700,
+        "transactionPrice": 201.6243,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-05",
+        "code": "S"
+      },
+      {
         "name": "Ullal Jayshree",
         "share": 44726,
         "transactionPrice": 211.3957,
@@ -2652,50 +2692,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-09-21",
         "filingDate": "2026-09-23",
         "code": "S"
-      },
-      {
-        "name": "Duda Kenneth",
-        "share": 2700,
-        "transactionPrice": 203.4866,
-        "transactionDate": "2026-09-21",
-        "filingDate": "2026-09-23",
-        "code": "S"
-      },
-      {
-        "name": "Duda Kenneth",
-        "share": 7420,
-        "transactionPrice": 202.6575,
-        "transactionDate": "2026-09-21",
-        "filingDate": "2026-09-23",
-        "code": "S"
-      },
-      {
-        "name": "Duda Kenneth",
-        "share": 1480,
-        "transactionPrice": 201.7,
-        "transactionDate": "2026-09-21",
-        "filingDate": "2026-09-23",
-        "code": "S"
-      },
-      {
-        "name": "BECHTOLSHEIM ANDREAS",
-        "share": 11926,
-        "transactionPrice": 204.3062,
-        "transactionDate": "2026-09-17",
-        "filingDate": "2026-09-21",
-        "code": "S"
-      },
-      {
-        "name": "BECHTOLSHEIM ANDREAS",
-        "share": 25096,
-        "transactionPrice": 203.5602,
-        "transactionDate": "2026-09-17",
-        "filingDate": "2026-09-21",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1791282172.8754067,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791355057.2155397,
+    "_updated_label": "2026-10-07"
   },
   "COHR": {
     "transactions": [
@@ -2938,8 +2938,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791282172.8754067,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791355057.2155397,
+    "_updated_label": "2026-10-07"
   },
   "GEV": {
     "transactions": [],
@@ -3331,8 +3331,8 @@ const INSIDER_DATA = {
   },
   "EME": {
     "transactions": [],
-    "_fetched_at": 1791282172.8754067,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791355057.2155397,
+    "_updated_label": "2026-10-07"
   },
   "FIX": {
     "transactions": [
@@ -3369,8 +3369,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791282172.8754067,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791355057.2155397,
+    "_updated_label": "2026-10-07"
   },
   "BE": {
     "transactions": [
