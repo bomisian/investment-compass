@@ -4716,7 +4716,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 95,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "SPY": {
@@ -10829,7 +10829,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 124,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "MSFT": {
@@ -18766,7 +18766,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "GOOGL": {
@@ -26676,7 +26676,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "AMZN": {
@@ -34649,7 +34649,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "META": {
@@ -42496,7 +42496,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "AAPL": {
@@ -50567,7 +50567,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "TSLA": {
@@ -58395,7 +58395,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "ORCL": {
@@ -66706,7 +66706,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "CRM": {
@@ -72692,7 +72692,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "PLTR": {
@@ -81248,7 +81248,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "NVDA": {
@@ -88977,11 +88977,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "AMD": {
-    "_last_attempt_at": 1791393599.6223378,
+    "_last_attempt_at": 1791416509.1952345,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -88990,6 +88990,56 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "HPE Stock Rises as AMD Servers Open More AI Doors",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=598ba65b99cbbf91dfa02ed4ba873c84156205be9f70230b5dd010ebe85376e2",
+        "datetime": 1791395100,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "HPE Stock Rises as AMD Servers Open More AI Doors",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'HPE Stock Rises as AMD Servers Open More AI Doors' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791416513.525066
+        },
+        "headlineKo": "AMD 서버가 더 많은 AI 문을 열면서 HPE 주가 상승"
+      },
       {
         "headline": "Advanced Micro Devices (AMD) Stock Sees Modest Fair Value Lift As AI Analysts Rework Targets",
         "source": "Yahoo",
@@ -89036,7 +89086,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791393603.8327303
+          "analysisUpdatedAt": 1791416515.6783438
         },
         "headlineKo": "AMD(Advanced Micro Devices) 주식은 AI 분석가의 재작업 목표에 따라 적당한 공정 가치 상승을 보입니다."
       },
@@ -89050,24 +89100,22 @@ const NEWS_DATA = {
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "HPE 주가는 회사가 엔터프라이즈 AI AI 에이전트를 위한 4개의 AMD 기반 서버를 추가한 후 사상 최고치를 기록했습니다. 동향 뉴스 수익 전체 DIA 0.59% SPY 0.24% QQQ 0.36% 추세 MU 3.95% BULL 18.75% APLD 5.45% IREN 6.32% QXO 7.60% ONDS 3.91% DRAM 1.07% 고양이",
-            "기업이 엔터프라이즈 AI를 위해 4개의 AMD 기반 서버를 추가한 후 HPE 주식이 사상 최고치를 기록했습니다. 새로운 시스템은 클라우드 및 AI 비즈니스가 계속 확장됨에 따라 추론 및 기타 컴퓨팅 집약적인 워크로드를 위한 HPE의 서버 라인업을 확장합니다.",
-            "이 사진 그림에는 휴렛패커드엔터프라이즈(HPE) 로고가 스마트폰 화면에 표시된 모습이 담겨 있다."
+            "HPE Stock Hits Record High After Company Adds 4 AMD-Powered Servers For Enterprise AI",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.59%, 0.24%, 0.36% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -89077,30 +89125,18 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "AMD에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'HPE Stock Hits Record High After Company Adds 4 AMD-Powered Servers For Enterprise AI' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.59%",
-            "0.24%",
-            "0.36%",
-            "3.95%",
-            "18.75%",
-            "5.45%",
-            "6.32%",
-            "7.60%"
-          ],
-          "sourceExcerpt": [
-            "HPE Stock Hits Record High After Company Adds 4 AMD-Powered Servers For Enterprise AI AI Agent Trending News Earnings All DIA 0.59% SPY 0.24% QQQ 0.36% Trending MU 3.95% BULL 18.75% APLD 5.45% IREN 6.32% QXO 7.60% ONDS 3.91% DRAM 1.07% CAT ",
-            "HPE Stock Hits Record High After Company Adds 4 AMD-Powered Servers For Enterprise AI The new systems broaden HPE’s server lineup for inference and other compute-heavy workloads as its Cloud and AI business continues to expand.",
-            "In this photo illustration, the Hewlett Packard Enterprise (HPE) logo is seen displayed on a smartphone screen."
-          ],
-          "analysisUpdatedAt": 1791393608.4258955
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791416516.339378
         },
         "headlineKo": "HPE 주가는 기업 AI용 AMD 기반 서버 4대를 추가한 후 사상 최고치를 기록했습니다."
       },
@@ -89112,60 +89148,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "AMD는 10년 동안 100배 이상 성장했습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,807.00 −0.37% Dow Jones 51,253.00 −0.68% Nasdaq 100 31,150.50 −0.44% Russell 2000 2,803.25 −1.10% S&P 500 7,807.00 −0.37% 다우존스 51,253.00 −0.68% 나스닥 100 31,150.50 −0.44% 러셀 2000 2,803.25 −1.",
-            "AMD는 지난 10년 동안 수천 달러를 인생을 변화시키는 부로 변모시켰지만, 1조 달러 시가총액에서 동일한 성과를 거두면 오늘날 살아있는 모든 칩 거대 기업이 작아질 것입니다."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $626.97, $605.04, 3.5% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "AMD에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$626.97",
-            "$605.04",
-            "3.5%",
-            "90%",
-            "8895.27%",
-            "$6.97",
-            "$1.025 trillion",
-            "192%"
-          ],
-          "sourceExcerpt": [
-            "AMD Is Up More Than 100X in 10 Years.",
-            "Skip to content ❚❚ At close S&P 500 7,807.00 −0.37% Dow Jones 51,253.00 −0.68% Nasdaq 100 31,150.50 −0.44% Russell 2000 2,803.25 −1.10% S&P 500 7,807.00 −0.37% Dow Jones 51,253.00 −0.68% Nasdaq 100 31,150.50 −0.44% Russell 2000 2,803.25 −1.",
-            "AMD has turned a few thousand dollars into life-changing wealth over the past decade, but the same run from a trillion-dollar market cap would dwarf every chip giant alive today."
-          ],
-          "analysisUpdatedAt": 1791393612.2237005
-        },
         "headlineKo": "AMD는 10년 동안 100배 이상 성장했습니다. 그 실행을 반복할 수 있나요?"
       },
       {
@@ -89177,16 +89159,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Advanced Micro Devices vs. Broadcom: 2026년에는 어느 반도체 주식이 더 나은 매수인가?"
-      },
-      {
-        "headline": "Citi Raises AMD Price Target to $800 on Meta AI Demand",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d6f8c3b725ed0185796d592a7f037e6142143747262264fb1b8ad7e7796ebbca",
-        "datetime": 1791379647,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Citi, Meta AI 수요에 대해 AMD 가격 목표를 800달러로 인상"
       },
       {
         "headline": "AMD: The AI Momentum Train Looks Unstoppable, But I'm Pausing Accumulation (Downgrade)",
@@ -89202,6 +89174,55 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "HPE Stock Rises as AMD Servers Open More AI Doors",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=598ba65b99cbbf91dfa02ed4ba873c84156205be9f70230b5dd010ebe85376e2",
+        "datetime": 1791395100,
+        "headlineKo": "AMD 서버가 더 많은 AI 문을 열면서 HPE 주가 상승",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "HPE Stock Rises as AMD Servers Open More AI Doors",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'HPE Stock Rises as AMD Servers Open More AI Doors' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791416513.525066
+        }
+      },
       {
         "headline": "Advanced Micro Devices (AMD) Stock Sees Modest Fair Value Lift As AI Analysts Rework Targets",
         "source": "Yahoo",
@@ -89248,7 +89269,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791393603.8327303
+          "analysisUpdatedAt": 1791416515.6783438
         }
       },
       {
@@ -89261,24 +89282,22 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "HPE 주가는 회사가 엔터프라이즈 AI AI 에이전트를 위한 4개의 AMD 기반 서버를 추가한 후 사상 최고치를 기록했습니다. 동향 뉴스 수익 전체 DIA 0.59% SPY 0.24% QQQ 0.36% 추세 MU 3.95% BULL 18.75% APLD 5.45% IREN 6.32% QXO 7.60% ONDS 3.91% DRAM 1.07% 고양이",
-            "기업이 엔터프라이즈 AI를 위해 4개의 AMD 기반 서버를 추가한 후 HPE 주식이 사상 최고치를 기록했습니다. 새로운 시스템은 클라우드 및 AI 비즈니스가 계속 확장됨에 따라 추론 및 기타 컴퓨팅 집약적인 워크로드를 위한 HPE의 서버 라인업을 확장합니다.",
-            "이 사진 그림에는 휴렛패커드엔터프라이즈(HPE) 로고가 스마트폰 화면에 표시된 모습이 담겨 있다."
+            "HPE Stock Hits Record High After Company Adds 4 AMD-Powered Servers For Enterprise AI",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.59%, 0.24%, 0.36% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -89288,30 +89307,18 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "AMD에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'HPE Stock Hits Record High After Company Adds 4 AMD-Powered Servers For Enterprise AI' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.59%",
-            "0.24%",
-            "0.36%",
-            "3.95%",
-            "18.75%",
-            "5.45%",
-            "6.32%",
-            "7.60%"
-          ],
-          "sourceExcerpt": [
-            "HPE Stock Hits Record High After Company Adds 4 AMD-Powered Servers For Enterprise AI AI Agent Trending News Earnings All DIA 0.59% SPY 0.24% QQQ 0.36% Trending MU 3.95% BULL 18.75% APLD 5.45% IREN 6.32% QXO 7.60% ONDS 3.91% DRAM 1.07% CAT ",
-            "HPE Stock Hits Record High After Company Adds 4 AMD-Powered Servers For Enterprise AI The new systems broaden HPE’s server lineup for inference and other compute-heavy workloads as its Cloud and AI business continues to expand.",
-            "In this photo illustration, the Hewlett Packard Enterprise (HPE) logo is seen displayed on a smartphone screen."
-          ],
-          "analysisUpdatedAt": 1791393608.4258955
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791416516.339378
         }
       },
       {
@@ -96828,80 +96835,17 @@ const NEWS_DATA = {
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1790041306.3638463
         }
-      },
-      {
-        "headline": "Nasdaq Ends Nearly 3% Higher As AI Stocks Pop, AMD Enters $1 Trillion Club —  AMD, ARM, META, AMZN, PSKY In Focus",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f590f157a45e9ede0b45e363e2fe2fa232850b082542c852b4d171af05ca41ea",
-        "datetime": 1790028294,
-        "headlineKo": "나스닥은 AI 주식이 터지면서 거의 3% 더 높게 마감하고 AMD는 1조 달러 클럽에 진입합니다 — AMD, ARM, META, AMZN, PSKY 집중",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "AI 주식이 터지면서 Nasdaq은 거의 3% 상승 마감, AMD는 1조 달러 클럽 진입 신규 에이전트 연결 Trending News Earnings All DIA 0.65% SPY 1.60% QQQ 3.24% Trending AMD 10.79% GME 3.67% BB 6.76% XRP 6.59% RKLB 9.96% HOOD 1.70% QQQ 3.24% INTC",
-            "나스닥은 AI 주식이 급등하면서 거의 3% 상승 마감, AMD는 1조 달러 클럽 진입 — AMD, ARM, META, AMZN, PSKY In Focus Advanced Micro Devices는 약 10% 상승하여 시가총액 1조 달러를 기록했습니다.",
-            "트레이더들이 2026년 7월 23일 뉴욕시 뉴욕증권거래소(NYSE) 1층에서 일하고 있다."
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 3%, $1 Trillion, 0.65% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "AMD에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "3%",
-            "$1 Trillion",
-            "0.65%",
-            "1.60%",
-            "3.24%",
-            "10.79%",
-            "3.67%",
-            "6.76%"
-          ],
-          "sourceExcerpt": [
-            "Nasdaq Ends Nearly 3% Higher As AI Stocks Pop, AMD Enters $1 Trillion Club New Connect your Agent Trending News Earnings All DIA 0.65% SPY 1.60% QQQ 3.24% Trending AMD 10.79% GME 3.67% BB 6.76% XRP 6.59% RKLB 9.96% HOOD 1.70% QQQ 3.24% INTC",
-            "Nasdaq Ends Nearly 3% Higher As AI Stocks Pop, AMD Enters $1 Trillion Club — AMD, ARM, META, AMZN, PSKY In Focus Advanced Micro Devices added about 10% and hit $1 trillion in market cap.",
-            "Traders work on the floor of the New York Stock Exchange (NYSE) on July 23, 2026 in New York City."
-          ],
-          "analysisUpdatedAt": 1790041310.2291138
-        }
       }
     ],
-    "_fetched_at": 1791393599.6223378,
-    "_updated_label": "2026-10-08 02:20",
-    "_last_success_at": 1791393599.6223378,
+    "_fetched_at": 1791416509.1952345,
+    "_updated_label": "2026-10-08 08:41",
+    "_last_success_at": 1791416509.1952345,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "AVGO": {
@@ -105057,7 +105001,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 168,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "QCOM": {
@@ -111297,7 +111241,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 138,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "ARM": {
@@ -115762,7 +115706,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "MRVL": {
@@ -122613,7 +122557,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 146,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "INTC": {
@@ -130877,7 +130821,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "TSM": {
@@ -136357,7 +136301,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "ASML": {
@@ -139990,7 +139934,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "AMAT": {
@@ -143986,7 +143930,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "LRCX": {
@@ -146136,7 +146080,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "KLAC": {
@@ -148242,7 +148186,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "MU": {
@@ -155764,7 +155708,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "SNDK": {
@@ -162682,7 +162626,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 145,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "WDC": {
@@ -166802,7 +166746,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "ANET": {
@@ -169990,7 +169934,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "COHR": {
@@ -172823,7 +172767,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "LITE": {
@@ -175631,7 +175575,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "GEV": {
@@ -180312,7 +180256,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "CEG": {
@@ -184382,7 +184326,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "VST": {
@@ -187464,7 +187408,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "ETN": {
@@ -190222,7 +190166,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "PWR": {
@@ -192792,7 +192736,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "HUBB": {
@@ -193560,7 +193504,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "VRT": {
@@ -197190,7 +197134,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "MOD": {
@@ -198437,7 +198381,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "STX": {
@@ -202166,7 +202110,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "EME": {
@@ -203675,7 +203619,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "FIX": {
@@ -205162,7 +205106,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   },
   "BE": {
@@ -207129,7 +207073,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-10-08 08:10"
+      "updated": "2026-10-08 08:41"
     }
   }
 };

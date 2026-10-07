@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791414667.1986752,
+  "generatedAt": 1791416520.2691119,
   "records": {
     "MSFT": [
       {
@@ -33198,6 +33198,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "MU": [
       {
+        "changedAt": 1791416520.2691119,
+        "dataAsOf": 1791407880,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 4.72,
+            "after": 5
+          }
+        ],
+        "cause": "AI 서버 메모리 수요와 가격 강세",
+        "newsHeadline": "비주얼 컴퓨팅 - 글로벌 전략 비즈니스 보고서: 2030년까지 시장이 784억 달러로 급증함에 따라 CAGR 19.2%를 활용합니다. 벤치마크 Intel, Arm, Clarifai, Imagination Technologies 및 Leela AI",
+        "newsUrl": "https://finnhub.io/api/news?id=36c3585ccd8fe6e010a7be06b57192429eb8ba892d7e8dc01c37cc9550e9dde6",
+        "eventId": "50700b81247a8b9181cd",
+        "fingerprint": "{\"changes\": [{\"after\": 5, \"before\": 4.72, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"50700b81247a8b9181cd\"}"
+      },
+      {
         "changedAt": 1791414466.5125222,
         "dataAsOf": 1791407880,
         "changes": [
@@ -34403,29 +34420,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=a784045f174387c69128bf330aa2d021a4ada7f854b57af5e895a66fcecffcac",
         "eventId": "6ea036e04af0403091de",
         "fingerprint": "{\"changes\": [{\"after\": 4.2, \"before\": 5, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 2.27, \"before\": 3.68, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"우호적 변화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"6ea036e04af0403091de\"}"
-      },
-      {
-        "changedAt": 1790527559.965881,
-        "dataAsOf": 1790523044,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 1.22,
-            "after": 0.7
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 3.15,
-            "after": 3.68
-          }
-        ],
-        "cause": "AI 서버 메모리 수요와 가격 강세",
-        "newsHeadline": "Microsoft의 AI 투자는 수년간 성과를 낼 수 있습니다. 내 목표 가격은 다음과 같습니다",
-        "newsUrl": "https://finnhub.io/api/news?id=bdbf48f623093393ca21dbd7f7d4c32194dec430bd2269d4698f8b2381165af8",
-        "eventId": "cc96fd8d6f5d087ff192",
-        "fingerprint": "{\"changes\": [{\"after\": 0.7, \"before\": 1.22, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 3.68, \"before\": 3.15, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"cc96fd8d6f5d087ff192\"}"
       }
     ],
     "SNDK": [

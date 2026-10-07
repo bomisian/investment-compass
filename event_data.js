@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791414667.1425054,
+  "generatedAt": 1791416520.203741,
   "events": [
     {
       "id": "50700b81247a8b9181cd",
@@ -2945,78 +2945,6 @@ const EVENT_DATA = {
       ]
     },
     {
-      "id": "2b769338b093462aad33",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "AMD",
-      "relatedTickers": [
-        "AMD",
-        "MU",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "HPE Stock Hits Record High After Company Adds 4 AMD-Powered Servers For Enterprise AI",
-      "headlineKo": "HPE 주가는 기업 AI용 AMD 기반 서버 4대를 추가한 후 사상 최고치를 기록했습니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=892a3cc04a45b49f723a3af655b85260916407ce3135b5eb30abd40ab71cd97c",
-        "publishedAt": 1791384331,
-        "collectedAt": 1791393599.6223378
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "HPE 주가는 회사가 엔터프라이즈 AI AI 에이전트를 위한 4개의 AMD 기반 서버를 추가한 후 사상 최고치를 기록했습니다. 동향 뉴스 수익 전체 DIA 0.59% SPY 0.24% QQQ 0.36% 추세 MU 3.95% BULL 18.75% APLD 5.45% IREN 6.32% QXO 7.60% ONDS 3.91% DRAM 1.07% 고양이",
-        "기업이 엔터프라이즈 AI를 위해 4개의 AMD 기반 서버를 추가한 후 HPE 주식이 사상 최고치를 기록했습니다. 새로운 시스템은 클라우드 및 AI 비즈니스가 계속 확장됨에 따라 추론 및 기타 컴퓨팅 집약적인 워크로드를 위한 HPE의 서버 라인업을 확장합니다.",
-        "이 사진 그림에는 휴렛패커드엔터프라이즈(HPE) 로고가 스마트폰 화면에 표시된 모습이 담겨 있다."
-      ],
-      "marketInterpretation": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.59%, 0.24%, 0.36% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "AMD에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.59%, 0.24%, 0.36% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AMD",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "목표주가 산식의 EPS",
-        "적용 PER 변화",
-        "회사 공식 가이던스"
-      ]
-    },
-    {
       "id": "9b50587b7bb9954aed32",
       "schemaVersion": 1,
       "eventType": "analyst_target_change",
@@ -3654,7 +3582,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=570f9c0033629f0d6ee642e8cd9d05897f6527311e497630dc19859d8823340f",
         "publishedAt": 1791381623,
-        "collectedAt": 1791393599.6223378
+        "collectedAt": 1791416509.1952345
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4084,7 +4012,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d6f8c3b725ed0185796d592a7f037e6142143747262264fb1b8ad7e7796ebbca",
         "publishedAt": 1791379647,
-        "collectedAt": 1791393599.6223378
+        "collectedAt": 1791416509.1952345
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5887,7 +5815,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bcedf644d9117099b6ae3cfbb3f912ded832567c52fa08c5136b47731b81ace9",
         "publishedAt": 1791363952,
-        "collectedAt": 1791393599.6223378
+        "collectedAt": 1791416509.1952345
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8724,7 +8652,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ac6bfc335dfc3d4897ae8bd77e8ebfe7355b99e732688e3608ac1b0de4e44f64",
         "publishedAt": 1791314401,
-        "collectedAt": 1791393599.6223378
+        "collectedAt": 1791416509.1952345
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9879,7 +9807,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=92238007211c759df503210961c555ef4e85cf201f903701385be653ac2488e7",
         "publishedAt": 1791307965,
-        "collectedAt": 1791393599.6223378
+        "collectedAt": 1791416509.1952345
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12070,7 +11998,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cac0f65dbfc159b0714adc0c403527d74a4d55a70d487f42c12b66ea4217e584",
         "publishedAt": 1791293981,
-        "collectedAt": 1791393599.6223378
+        "collectedAt": 1791416509.1952345
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12731,7 +12659,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a92035033a69cef9fcdc1ab00704e5c4225413d100a0ca1e45f1eee626ba166d",
         "publishedAt": 1791292080,
-        "collectedAt": 1791393599.6223378
+        "collectedAt": 1791416509.1952345
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13320,7 +13248,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=85817650821b346de0a4929e22bf090b0962647c7e2b11dc366e04d796683a68",
         "publishedAt": 1791290760,
-        "collectedAt": 1791393599.6223378
+        "collectedAt": 1791416509.1952345
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16597,7 +16525,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=33b8d9bb9c2dc48e016820ab0d3f668e5c726eb9bbd9b6e80ba979c8aca90b38",
         "publishedAt": 1791232789,
-        "collectedAt": 1791393599.6223378
+        "collectedAt": 1791416509.1952345
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17839,6 +17767,82 @@ const EVENT_DATA = {
         "적용 PER 변화",
         "회사 공식 가이던스"
       ]
+    },
+    {
+      "id": "8b89763319694d2deb11",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "MU",
+      "relatedTickers": [
+        "MU",
+        "SPY"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Samsung",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Samsung May Report Its First 100 Trillion Won Quarter. Micron Stock Has More to Lose Than to Gain.",
+      "headlineKo": "삼성, 첫 분기 100조 보고. 마이크론 주식은 얻는 것보다 잃는 것이 더 많습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3bed71cd02e2b6bcaf36b312da184066ceb4d55452357506a357b6ea25b1b981",
+        "publishedAt": 1791218221,
+        "collectedAt": 1791414227.2007656
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "삼성, 첫 분기 100조 보고.",
+        "마이크론 주식은 얻는 것보다 잃는 것이 더 많습니다.",
+        "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 삼성전자( SSNLF +0.00% )는 아마도 이번 주에 3분기 잠정 실적을 발표할 예정이며, 투자자 수는 다음과 같습니다."
+      ],
+      "marketInterpretation": [
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 19%, 1.15%, $1,075 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "MU에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 19%, 1.15%, $1,075 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "MU",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "공식 매출·EPS 가이던스",
+        "컨센서스 추정치 변경",
+        "마진·FCF 전망"
+      ]
     }
   ],
   "byTicker": {
@@ -17848,7 +17852,6 @@ const EVENT_DATA = {
       "68482752d8041194abbf",
       "eb3a146d2a222187a9f6",
       "104305e14954724e067c",
-      "2b769338b093462aad33",
       "49bf6acfe31f13d50a8c",
       "6b3f535e1934d1d5b59d",
       "8089493de9c41e1f3722",
@@ -17913,7 +17916,6 @@ const EVENT_DATA = {
       "f93badab55c24dbdb065",
       "104305e14954724e067c",
       "d00950a5e4c56b9cf167",
-      "2b769338b093462aad33",
       "49bf6acfe31f13d50a8c",
       "e091569aff3b99e54a91",
       "3502ee280e457e368476",
@@ -17942,7 +17944,8 @@ const EVENT_DATA = {
       "ef18a9c38901a02cf117",
       "2a8a893795fa9fb0dec9",
       "548fe8655ad2382c3e36",
-      "47b8d59c57e83aff2e79"
+      "47b8d59c57e83aff2e79",
+      "8b89763319694d2deb11"
     ],
     "NVDA": [
       "50700b81247a8b9181cd",
@@ -18047,7 +18050,6 @@ const EVENT_DATA = {
       "e906d3049f1df6f801ea",
       "6c6709889363fd6d3071",
       "d00950a5e4c56b9cf167",
-      "2b769338b093462aad33",
       "9b50587b7bb9954aed32",
       "7c5d907f386214316344",
       "9bc9eb6465db4a291b39",
@@ -18138,7 +18140,8 @@ const EVENT_DATA = {
       "45a597627af7fda86b21",
       "d177312e9c03b832d748",
       "9e94bdd57d499e942193",
-      "8c04d156d33202894018"
+      "8c04d156d33202894018",
+      "8b89763319694d2deb11"
     ],
     "EME": [
       "132b19a6235bf7dde011"
@@ -18283,7 +18286,6 @@ const EVENT_DATA = {
       "b6559c29865c21d298fd",
       "f49070de3cb5c22ba851",
       "d00950a5e4c56b9cf167",
-      "2b769338b093462aad33",
       "9b50587b7bb9954aed32",
       "7c5d907f386214316344",
       "660ca20eecf428431cf0",
