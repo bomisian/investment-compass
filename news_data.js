@@ -4688,7 +4688,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "SPY": {
@@ -10587,7 +10587,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 118,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "MSFT": {
@@ -18625,7 +18625,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "GOOGL": {
@@ -26543,7 +26543,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "AMZN": {
@@ -34510,7 +34510,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "META": {
@@ -42335,7 +42335,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "AAPL": {
@@ -50333,7 +50333,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "TSLA": {
@@ -58148,7 +58148,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "ORCL": {
@@ -66549,7 +66549,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "CRM": {
@@ -72338,7 +72338,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 125,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "PLTR": {
@@ -80824,7 +80824,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "NVDA": {
@@ -88509,11 +88509,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "AMD": {
-    "_last_attempt_at": 1791347132.504279,
+    "_last_attempt_at": 1791370481.596142,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -88523,10 +88523,74 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "AMD (AMD) Could Issue 320 Million Shares at a Penny. Here is What Has to Happen First",
+        "headline": "AMD Plans a Big 2027 Supply Ramp. Wall Street Already Expects $38 Billion of New Revenue.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9e2ba45c837a248616bbcf80fc987ebb6e7fa5aa8b2300658742942d8dab3981",
-        "datetime": 1791331692,
+        "url": "https://finnhub.io/api/news?id=bcedf644d9117099b6ae3cfbb3f912ded832567c52fa08c5136b47731b81ace9",
+        "datetime": 1791363952,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "월스트리트는 이미 380억 달러의 신규 수익을 기대하고 있습니다.",
+            "| TIKR.com 일반 AMD 투자는 2027년 대규모 공급 확대를 계획합니다.",
+            "월스트리트는 이미 380억 달러의 신규 수익을 기대하고 있습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $38 Billion, 200%, $1 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "AMD에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$38 Billion",
+            "200%",
+            "$1 trillion",
+            "$2.10 billion",
+            "31%",
+            "$1.04 billion",
+            "$51 billion",
+            "$89 billion"
+          ],
+          "sourceExcerpt": [
+            "Wall Street Already Expects $38 Billion of New Revenue.",
+            "| TIKR.com General Investing AMD Plans a Big 2027 Supply Ramp.",
+            "Wall Street Already Expects $38 Billion of New Revenue."
+          ],
+          "analysisUpdatedAt": 1791370488.0507743
+        },
+        "headlineKo": "AMD는 2027년 대규모 공급 확대를 계획하고 있습니다. 월스트리트는 이미 380억 달러의 신규 수익을 기대하고 있습니다."
+      },
+      {
+        "headline": "What Jim Cramer Says About Advanced Micro Devices’ (AMD) AI Opportunity",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=89588b2ba20767eeeee52b29237e7325312a576152be32b250d7da30f5e0455c",
+        "datetime": 1791363039,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
@@ -88538,7 +88602,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AMD (AMD) Could Issue 320 Million Shares at a Penny. Here is What Has to Happen First",
+            "What Jim Cramer Says About Advanced Micro Devices’ (AMD) AI Opportunity",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -88562,21 +88626,21 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD (AMD) Could Issue 320 Million Shares at a Penny. Here is What Has to Happen First' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'What Jim Cramer Says About Advanced Micro Devices’ (AMD) AI Opportunity' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791347137.1201398
+          "analysisUpdatedAt": 1791370491.2883909
         },
-        "headlineKo": "AMD(AMD)는 단돈 3억 2천만 주를 발행할 수 있습니다. 먼저 일어나야 할 일은 다음과 같습니다"
+        "headlineKo": "AMD(Advanced Micro Devices)의 AI 기회에 대해 Jim Cramer가 말하는 것"
       },
       {
-        "headline": "AMD (AMD) Stock Is Up, What You Need To Know",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7d1e0c7cb2bb95b08ab6acde5b7a78c7c4f97df345b7ea805661297d4de8ee40",
-        "datetime": 1791330754,
+        "headline": "AMD: The Hidden Economics Of Winning AI Market Share",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=bd40c6a14bf8fdaa3813dc537b5abefcf67bf1af4210f162b1dbb4d349f2f1c7",
+        "datetime": 1791351582,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
@@ -88588,7 +88652,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AMD (AMD) Stock Is Up, What You Need To Know",
+            "AMD: The Hidden Economics Of Winning AI Market Share",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -88612,85 +88676,35 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD (AMD) Stock Is Up, What You Need To Know' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD: The Hidden Economics Of Winning AI Market Share' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791347139.3477814
+          "analysisUpdatedAt": 1791370492.1483326
         },
-        "headlineKo": "AMD(AMD) 주가 상승, 알아야 할 사항"
+        "headlineKo": "AMD: AI 시장 점유율 획득의 숨겨진 경제학"
       },
       {
-        "headline": "Why Advanced Micro Devices (AMD) Outpaced the Stock Market Today",
+        "headline": "AMD Crossed $600, So Does Meta Get 160 Million AMD Shares For Free Now?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=631b4cc92b37b9c5deb83e34f7c30380ec7793055f31c869e92ba21496ff66c8",
-        "datetime": 1791319503,
+        "url": "https://finnhub.io/api/news?id=34b452c616e21544eafa243b900c3c91380a353fe5c26c3f443eaca4971ff934",
+        "datetime": 1791351410,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Why Advanced Micro Devices (AMD) Outpaced the Stock Market Today",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'Why Advanced Micro Devices (AMD) Outpaced the Stock Market Today' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791347140.894659
-        },
-        "headlineKo": "AMD(Advanced Micro Devices)가 오늘날 주식 시장을 앞지른 이유"
+        "headlineKo": "AMD가 600달러를 넘었으니 Meta가 이제 1억 6천만 AMD 주식을 무료로 얻을 수 있을까요?"
       },
       {
-        "headline": "AMD to Report Fiscal Third Quarter 2026 Financial Results",
+        "headline": "Why NVDA, AMD, CRWD Stocks Surged To 52-Week Highs Today",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7a3e3ccedcf3a735b85df767c286f0eb04747e305328f02172dbc58f45624207",
-        "datetime": 1791317700,
+        "url": "https://finnhub.io/api/news?id=f71cd315ce713cf74bac46d40855221cc5f4cc2fde04ea68f32696169df0d1a5",
+        "datetime": 1791346763,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "AMD, 2026 회계연도 3분기 재무 결과 보고"
-      },
-      {
-        "headline": "AMD vs. Marvell Technology: Which AI Chip Stock Is a Better Buy in 2026?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ac6bfc335dfc3d4897ae8bd77e8ebfe7355b99e732688e3608ac1b0de4e44f64",
-        "datetime": 1791314401,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "AMD vs. Marvell 기술: 2026년에는 어느 AI 칩 주식이 더 나은 매수인가요?"
+        "headlineKo": "오늘 NVDA, AMD, CRWD 주식이 52주 최고가로 급등한 이유"
       },
       {
         "headline": "AMD: The AI Momentum Train Looks Unstoppable, But I'm Pausing Accumulation (Downgrade)",
@@ -88706,6 +88720,185 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "AMD Plans a Big 2027 Supply Ramp. Wall Street Already Expects $38 Billion of New Revenue.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=bcedf644d9117099b6ae3cfbb3f912ded832567c52fa08c5136b47731b81ace9",
+        "datetime": 1791363952,
+        "headlineKo": "AMD는 2027년 대규모 공급 확대를 계획하고 있습니다. 월스트리트는 이미 380억 달러의 신규 수익을 기대하고 있습니다.",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "월스트리트는 이미 380억 달러의 신규 수익을 기대하고 있습니다.",
+            "| TIKR.com 일반 AMD 투자는 2027년 대규모 공급 확대를 계획합니다.",
+            "월스트리트는 이미 380억 달러의 신규 수익을 기대하고 있습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $38 Billion, 200%, $1 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "AMD에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$38 Billion",
+            "200%",
+            "$1 trillion",
+            "$2.10 billion",
+            "31%",
+            "$1.04 billion",
+            "$51 billion",
+            "$89 billion"
+          ],
+          "sourceExcerpt": [
+            "Wall Street Already Expects $38 Billion of New Revenue.",
+            "| TIKR.com General Investing AMD Plans a Big 2027 Supply Ramp.",
+            "Wall Street Already Expects $38 Billion of New Revenue."
+          ],
+          "analysisUpdatedAt": 1791370488.0507743
+        }
+      },
+      {
+        "headline": "What Jim Cramer Says About Advanced Micro Devices’ (AMD) AI Opportunity",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=89588b2ba20767eeeee52b29237e7325312a576152be32b250d7da30f5e0455c",
+        "datetime": 1791363039,
+        "headlineKo": "AMD(Advanced Micro Devices)의 AI 기회에 대해 Jim Cramer가 말하는 것",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "What Jim Cramer Says About Advanced Micro Devices’ (AMD) AI Opportunity",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'What Jim Cramer Says About Advanced Micro Devices’ (AMD) AI Opportunity' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791370491.2883909
+        }
+      },
+      {
+        "headline": "AMD: The Hidden Economics Of Winning AI Market Share",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=bd40c6a14bf8fdaa3813dc537b5abefcf67bf1af4210f162b1dbb4d349f2f1c7",
+        "datetime": 1791351582,
+        "headlineKo": "AMD: AI 시장 점유율 획득의 숨겨진 경제학",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AMD: The Hidden Economics Of Winning AI Market Share",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD: The Hidden Economics Of Winning AI Market Share' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791370492.1483326
+        }
+      },
+      {
+        "headline": "AMD Crossed $600, So Does Meta Get 160 Million AMD Shares For Free Now?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=34b452c616e21544eafa243b900c3c91380a353fe5c26c3f443eaca4971ff934",
+        "datetime": 1791351410,
+        "headlineKo": "AMD가 600달러를 넘었으니 Meta가 이제 1억 6천만 AMD 주식을 무료로 얻을 수 있을까요?",
+        "relevance": 1,
+        "keywordFlag": false
+      },
+      {
+        "headline": "Why NVDA, AMD, CRWD Stocks Surged To 52-Week Highs Today",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f71cd315ce713cf74bac46d40855221cc5f4cc2fde04ea68f32696169df0d1a5",
+        "datetime": 1791346763,
+        "headlineKo": "오늘 NVDA, AMD, CRWD 주식이 52주 최고가로 급등한 이유",
+        "relevance": 1,
+        "keywordFlag": false
+      },
       {
         "headline": "AMD (AMD) Could Issue 320 Million Shares at a Penny. Here is What Has to Happen First",
         "source": "Yahoo",
@@ -96188,210 +96381,17 @@ const NEWS_DATA = {
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1790019176.73343
         }
-      },
-      {
-        "headline": "AMD stock crosses $1 trillion market cap for first time",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=45c9a2e9bd5dc9a4e747f8335b60db1a900dbf998a2b49ff12ced80cae7af9d1",
-        "datetime": 1790010081,
-        "headlineKo": "AMD 주식이 처음으로 시가총액 1조 달러를 넘었습니다.",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "AMD 주식이 처음으로 1조 달러 시가총액을 넘었습니다. AMD 주식이 5일간의 AI 칩 랠리에서 처음으로 1조 달러 시가총액을 돌파했습니다. AMD 주식은 월요일에 10%나 상승하여 5회 연속 연승 행진을 이어갔습니다.",
-            "AMD $AMD 주가는 이날 최대 10% 상승했으며, 이는 칩 제조업체가 Micron $MU Technology, Broadcom $AVGO, Taiwan Semiconductor Manufacturing Company 및 Nvidia $NVDA와 함께 반도체 회사 독점 클럽에 포함되는 움직임입니다.",
-            "Bloomberg에 따르면 전 세계적으로 이 수준의 가치를 지닌 상장 기업이 15개 더 있습니다."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $1 trillion, 10%, $613.92 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "AMD에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$1 trillion",
-            "10%",
-            "$613.92",
-            "24%",
-            "180%",
-            "$5.4 trillion",
-            "12%",
-            "14%"
-          ],
-          "sourceExcerpt": [
-            "AMD stock crosses $1 trillion market cap for first time Markets AMD stock hits $1 trillion market cap for the first time on a five-day AI chip rally AMD stock gained as much as 10% on Monday, extending a five-session winning streak driven b",
-            "AMD $AMD stock climbed as much as 10% on the day, a move that places the chipmaker alongside Micron $MU Technology, Broadcom $AVGO , Taiwan Semiconductor Manufacturing Company, and Nvidia $NVDA in the exclusive club of semiconductor compani",
-            "There are 15 other publicly traded companies worldwide valued at that level, according to Bloomberg ."
-          ],
-          "analysisUpdatedAt": 1790019181.4756038
-        }
-      },
-      {
-        "headline": "Meta's Muse Era: Why Arm and AMD Will Soar",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2d72e6a14d738041e14f0578b49410675821f32ca5c6a2f1ecc2145ea8c6e608",
-        "datetime": 1790008320,
-        "headlineKo": "메타의 뮤즈 시대: Arm과 AMD가 급상승하는 이유",
-        "relevance": 1,
-        "keywordFlag": false
-      },
-      {
-        "headline": "AI Leader AMD Breaks Out Past New Buy Point With This Bullish Signal",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=fc66b36266526833a78a8493e90f2b14fe94eef684b160c6374194ef1ce40805",
-        "datetime": 1790008006,
-        "headlineKo": "AI 리더 AMD, 이 강세 신호로 과거의 새로운 구매 포인트를 깨뜨림",
-        "relevance": 1,
-        "keywordFlag": false
-      },
-      {
-        "headline": "Intel, AMD, Strategy, Meta, Warner Bros, and More Stocks That Explain Today’s Market",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b3b59ff9b83f681c5e62ceb4f8930350c30a4bb14d81b480bc0ff32769fb5535",
-        "datetime": 1789984920,
-        "headlineKo": "Intel, AMD, Strategy, Meta, Warner Bros 및 오늘날의 시장을 설명하는 기타 주식",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Intel, AMD, Strategy, Meta, Warner Bros, and More Stocks That Explain Today’s Market",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'Intel, AMD, Strategy, Meta, Warner Bros, and More Stocks That Explain Today’s Market' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789997049.4373267
-        }
-      },
-      {
-        "headline": "AMD Stock Jumped 8% Last Week. It Could Bring 325% More, Here’s How.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2197af758c06801cb32619bf5b7914c15c1ac8453ecfbec19cff45b914d8f83f",
-        "datetime": 1789967169,
-        "headlineKo": "AMD 주가는 지난 주 8% 상승했습니다. 325% 더 많은 것을 가져올 수 있습니다. 방법은 다음과 같습니다.",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "325% 더 많은 것을 가져올 수 있습니다. 방법은 다음과 같습니다.",
-            "| TIKR.com 일반 투자 AMD 주식은 지난 주 8% 상승했습니다.",
-            "325% 더 많은 것을 가져올 수 있습니다. 방법은 다음과 같습니다."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 8%, 325%, 5.6% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "AMD에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "8%",
-            "325%",
-            "5.6%",
-            "$560,",
-            "$617",
-            "10%",
-            "$2,379",
-            "40%"
-          ],
-          "sourceExcerpt": [
-            "It Could Bring 325% More, Here&#8217;s How.",
-            "| TIKR.com General Investing AMD Stock Jumped 8% Last Week.",
-            "It Could Bring 325% More, Here’s How."
-          ],
-          "analysisUpdatedAt": 1789997051.6887798
-        }
       }
     ],
-    "_fetched_at": 1791347132.504279,
-    "_updated_label": "2026-10-07 13:25",
-    "_last_success_at": 1791347132.504279,
+    "_fetched_at": 1791370481.596142,
+    "_updated_label": "2026-10-07 19:54",
+    "_last_success_at": 1791370481.596142,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "AVGO": {
@@ -104204,7 +104204,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 158,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "QCOM": {
@@ -110183,7 +110183,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 131,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "ARM": {
@@ -114541,7 +114541,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "MRVL": {
@@ -121020,7 +121020,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "INTC": {
@@ -129187,7 +129187,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "TSM": {
@@ -134667,7 +134667,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "ASML": {
@@ -138102,7 +138102,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "AMAT": {
@@ -142063,11 +142063,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "LRCX": {
-    "_last_attempt_at": 1791347132.504279,
+    "_last_attempt_at": 1791370481.596142,
     "nextEarnings": {
       "date": "2026-10-21",
       "hour": "",
@@ -142076,6 +142076,56 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Zacks Industry Outlook Applied Materials, Lam Research and FormFactor",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=43bfe041635a8c55986097ab67d1ade5a9df19af994ec1122a20a3988d7f5075",
+        "datetime": 1791356460,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Zacks Industry Outlook Applied Materials, Lam Research and FormFactor",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "LRCX",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 LRCX의 사업과 관련된 'Zacks Industry Outlook Applied Materials, Lam Research and FormFactor' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "LRCX 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791370508.693156
+        },
+        "headlineKo": "Zacks 산업 전망 Applied Materials, Lam Research 및 FormFactor"
+      },
       {
         "headline": "Lam Research vs. KLA: Is Faster Growth Worth Paying More for Cash Flow?",
         "source": "Yahoo",
@@ -142122,7 +142172,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791347147.801681
+          "analysisUpdatedAt": 1791370511.4971128
         },
         "headlineKo": "Lam Research 대 KLA: 빠른 성장이 현금 흐름에 더 많은 비용을 지불할 가치가 있습니까?"
       },
@@ -142172,7 +142222,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791347149.6622412
+          "analysisUpdatedAt": 1791370513.7120776
         },
         "headlineKo": "AI가 스토리지 수요 촉진: Lam Research의 NAND 성장을 촉진할 것인가?"
       },
@@ -142184,45 +142234,6 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "본문 확인 필요",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Morgan Stanley Maintains Overweight on Lam Research, Raises Price Target to $385",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "LRCX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "LRCX",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "LRCX에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791347150.6636329
-        },
         "headlineKo": "Morgan Stanley, Lam Research에 대해 비중확대 유지, 목표 주가를 385달러로 상향 조정"
       },
       {
@@ -142234,19 +142245,58 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Nvidia, Broadcom, Micron, AMD, Intel 및 Lam Research에 32.4%를 투자한 반면 VOO는 14.8%에 불과한 저비용 Vanguard ETF를 만나보세요."
-      },
-      {
-        "headline": "What is Lam Research’s (LRCX) Economic Moat, and is it Widening or Narrowing?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b02bafc2fff403b4d7a07f4b1f948e44aa817abd5be6dddf9a7001969e069803",
-        "datetime": 1791146867,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Lam Research(LRCX)의 경제적 해자는 무엇이며, 확대되거나 축소되고 있습니까?"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Zacks Industry Outlook Applied Materials, Lam Research and FormFactor",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=43bfe041635a8c55986097ab67d1ade5a9df19af994ec1122a20a3988d7f5075",
+        "datetime": 1791356460,
+        "headlineKo": "Zacks 산업 전망 Applied Materials, Lam Research 및 FormFactor",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Zacks Industry Outlook Applied Materials, Lam Research and FormFactor",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "LRCX",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 LRCX의 사업과 관련된 'Zacks Industry Outlook Applied Materials, Lam Research and FormFactor' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "LRCX 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791370508.693156
+        }
+      },
       {
         "headline": "Lam Research vs. KLA: Is Faster Growth Worth Paying More for Cash Flow?",
         "source": "Yahoo",
@@ -142293,7 +142343,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791347147.801681
+          "analysisUpdatedAt": 1791370511.4971128
         }
       },
       {
@@ -142342,7 +142392,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791347149.6622412
+          "analysisUpdatedAt": 1791370513.7120776
         }
       },
       {
@@ -144057,19 +144107,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791347132.504279,
-    "_updated_label": "2026-10-07 13:25",
-    "_last_success_at": 1791347132.504279,
+    "_fetched_at": 1791370481.596142,
+    "_updated_label": "2026-10-07 19:55",
+    "_last_success_at": 1791370481.596142,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 43,
+      "checked": 44,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1791347132.504279,
+    "_last_attempt_at": 1791370481.596142,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -144078,6 +144128,106 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "The Zacks Analyst Blog Highlights Space Exploration, Dell, KLA, AXIL Brands and Optex",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=45887e26798ba4c63989918b18d54f7d8f881ebdd409154eda305946ee8dca09",
+        "datetime": 1791358320,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "The Zacks Analyst Blog Highlights Space Exploration, Dell, KLA, AXIL Brands and Optex",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "KLAC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'The Zacks Analyst Blog Highlights Space Exploration, Dell, KLA, AXIL Brands and Optex' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "KLAC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791370521.4843223
+        },
+        "headlineKo": "Zacks Analyst 블로그에서는 우주 탐사, Dell, KLA, AXIL 브랜드 및 Optex를 강조합니다."
+      },
+      {
+        "headline": "Lam Research vs. KLA: Is Faster Growth Worth Paying More for Cash Flow?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=23b08900b8f9ad55fdda3f3e67098aebbe7d7c93bf74576b9c5ce3c9e849eff2",
+        "datetime": 1791341305,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Lam Research vs. KLA: Is Faster Growth Worth Paying More for Cash Flow?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "KLAC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'Lam Research vs. KLA: Is Faster Growth Worth Paying More for Cash Flow?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 비용·CAPEX·영업현금흐름·FCF·부채 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "KLAC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791370523.933671
+        },
+        "headlineKo": "Lam Research 대 KLA: 빠른 성장이 현금 흐름에 더 많은 비용을 지불할 가치가 있습니까?"
+      },
       {
         "headline": "Jim Cramer Says the Chip Shortage “Can’t Be Solved” Without KLAC",
         "source": "Yahoo",
@@ -144123,7 +144273,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791347155.9261036
+          "analysisUpdatedAt": 1791370526.386469
         },
         "headlineKo": "Jim Cramer는 KLAC 없이는 칩 부족이 \"해결될 수 없다\"고 말합니다."
       },
@@ -144135,46 +144285,6 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Top Research Reports for SpaceX, Dell & KLA Corp.",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "KLAC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 KLAC의 사업과 관련된 'Top Research Reports for SpaceX, Dell & KLA Corp.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "KLAC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791347157.9715967
-        },
         "headlineKo": "SpaceX, Dell, KLA Corp.에 대한 주요 연구 보고서"
       },
       {
@@ -144185,6 +144295,18 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "구매를 위해 KLA(KLAC) 등급 업그레이드에 대해 알아야 할 모든 것"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "The Zacks Analyst Blog Highlights Space Exploration, Dell, KLA, AXIL Brands and Optex",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=45887e26798ba4c63989918b18d54f7d8f881ebdd409154eda305946ee8dca09",
+        "datetime": 1791358320,
+        "headlineKo": "Zacks Analyst 블로그에서는 우주 탐사, Dell, KLA, AXIL 브랜드 및 Optex를 강조합니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "low",
@@ -144193,7 +144315,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "All You Need to Know About KLA (KLAC) Rating Upgrade to Buy",
+            "The Zacks Analyst Blog Highlights Space Exploration, Dell, KLA, AXIL Brands and Optex",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -144217,38 +144339,64 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 KLAC의 사업과 관련된 'All You Need to Know About KLA (KLAC) Rating Upgrade to Buy' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'The Zacks Analyst Blog Highlights Space Exploration, Dell, KLA, AXIL Brands and Optex' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "KLAC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
+          "relevance": 0.5,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791347159.7645738
-        },
-        "headlineKo": "구매를 위해 KLA(KLAC) 등급 업그레이드에 대해 알아야 할 모든 것"
+          "analysisUpdatedAt": 1791370521.4843223
+        }
       },
       {
-        "headline": "KLA (KLAC): Does Its Semiconductor Moat Justify the Premium?",
+        "headline": "Lam Research vs. KLA: Is Faster Growth Worth Paying More for Cash Flow?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e923e2afb384e3504536b1a843ed7cb3ff16cdbc3200abc3364eb430437068e4",
-        "datetime": 1791257345,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "KLA(KLAC): 반도체 해자가 프리미엄을 정당화하는가?"
-      },
-      {
-        "headline": "KLA's Supply Constraints Expected to Ease, Leading Logic Mix to Become Tailwind, Morgan Stanley Says",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9b4eddced9423510910075ecf94903587196f895bc8050fe99b04164c722f919",
-        "datetime": 1791212628,
+        "url": "https://finnhub.io/api/news?id=23b08900b8f9ad55fdda3f3e67098aebbe7d7c93bf74576b9c5ce3c9e849eff2",
+        "datetime": 1791341305,
+        "headlineKo": "Lam Research 대 KLA: 빠른 성장이 현금 흐름에 더 많은 비용을 지불할 가치가 있습니까?",
         "relevance": 0.5,
         "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "KLA의 공급 제약이 완화될 것으로 예상되며 주요 로직 혼합이 순풍이 될 것이라고 Morgan Stanley가 밝혔습니다."
-      }
-    ],
-    "newsHistory": [
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Lam Research vs. KLA: Is Faster Growth Worth Paying More for Cash Flow?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "KLAC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'Lam Research vs. KLA: Is Faster Growth Worth Paying More for Cash Flow?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 비용·CAPEX·영업현금흐름·FCF·부채 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "KLAC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791370523.933671
+        }
+      },
       {
         "headline": "Jim Cramer Says the Chip Shortage “Can’t Be Solved” Without KLAC",
         "source": "Yahoo",
@@ -144294,7 +144442,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791347155.9261036
+          "analysisUpdatedAt": 1791370526.386469
         }
       },
       {
@@ -145966,15 +146114,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791347132.504279,
-    "_updated_label": "2026-10-07 13:26",
-    "_last_success_at": 1791347132.504279,
+    "_fetched_at": 1791370481.596142,
+    "_updated_label": "2026-10-07 19:55",
+    "_last_success_at": 1791370481.596142,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 41,
+      "checked": 43,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "MU": {
@@ -153560,7 +153708,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "SNDK": {
@@ -160294,7 +160442,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 141,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "WDC": {
@@ -164153,7 +164301,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "ANET": {
@@ -167196,7 +167344,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "COHR": {
@@ -169994,7 +170142,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "LITE": {
@@ -172706,7 +172854,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "GEV": {
@@ -177005,7 +177153,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "CEG": {
@@ -180799,7 +180947,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "VST": {
@@ -183818,7 +183966,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "ETN": {
@@ -186576,7 +186724,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "PWR": {
@@ -189097,7 +189245,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "HUBB": {
@@ -189768,7 +189916,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "VRT": {
@@ -193174,7 +193322,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "MOD": {
@@ -194421,7 +194569,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "STX": {
@@ -197817,7 +197965,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "EME": {
@@ -199230,7 +199378,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "FIX": {
@@ -200619,11 +200767,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   },
   "BE": {
-    "_last_attempt_at": 1791347132.504279,
+    "_last_attempt_at": 1791370481.596142,
     "nextEarnings": {
       "date": "2026-10-29",
       "hour": "amc",
@@ -200632,6 +200780,56 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Bloom Energy (BE) Moved, So What Is Behind The Attention?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=bed8a070fb36df3887ba70fd0600f502e80563e280460939db85b8f60ca774f5",
+        "datetime": 1791357394,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Bloom Energy (BE) Moved, So What Is Behind The Attention?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "BE",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 BE의 사업과 관련된 'Bloom Energy (BE) Moved, So What Is Behind The Attention?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "BE 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791370533.6666598
+        },
+        "headlineKo": "Bloom Energy(BE)의 움직임, 주목받는 이유는 무엇입니까?"
+      },
       {
         "headline": "Bloom Energy (NYSE:BE) Q2 Earnings: Leading The Renewable Energy Pack",
         "source": "Yahoo",
@@ -200677,7 +200875,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791347165.957898
+          "analysisUpdatedAt": 1791370535.3346498
         },
         "headlineKo": "Bloom Energy (NYSE:BE) 2분기 실적: 재생 에너지 팩 선두"
       },
@@ -200727,7 +200925,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791347167.0911865
+          "analysisUpdatedAt": 1791370536.8479002
         },
         "headlineKo": "Bloom Energy (NYSE:BE) 주식은 높은 성장과 펀더멘털 개선으로 좋은 모습을 보이고 있습니다"
       },
@@ -200739,6 +200937,28 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "Bloom Energy(BE) 주식은 24배 실행 후에도 여전히 저평가된 것으로 보입니다."
+      },
+      {
+        "headline": "BE Stock Recovers After Monday Slide On Analyst Support: Peers FCEL, PLUG Edge Higher",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5dea249fcdb71dbcde67c40998e918fb6f69e6873f8dc1f5c914a9807e671261",
+        "datetime": 1790714447,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "BE 주식은 분석가 지원에 대한 월요일 슬라이드 이후 회복됩니다: 동료 FCEL, PLUG Edge 더 높음"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Bloom Energy (BE) Moved, So What Is Behind The Attention?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=bed8a070fb36df3887ba70fd0600f502e80563e280460939db85b8f60ca774f5",
+        "datetime": 1791357394,
+        "headlineKo": "Bloom Energy(BE)의 움직임, 주목받는 이유는 무엇입니까?",
+        "relevance": 1,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "low",
@@ -200747,7 +200967,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Bloom Energy (BE) Stock Still Looks Undervalued After a 24x Run",
+            "Bloom Energy (BE) Moved, So What Is Behind The Attention?",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -200771,38 +200991,15 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 BE의 사업과 관련된 'Bloom Energy (BE) Stock Still Looks Undervalued After a 24x Run' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 BE의 사업과 관련된 'Bloom Energy (BE) Moved, So What Is Behind The Attention?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "BE 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791347168.8088589
-        },
-        "headlineKo": "Bloom Energy(BE) 주식은 24배 실행 후에도 여전히 저평가된 것으로 보입니다."
+          "analysisUpdatedAt": 1791370533.6666598
+        }
       },
-      {
-        "headline": "BE Stock Recovers After Monday Slide On Analyst Support: Peers FCEL, PLUG Edge Higher",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5dea249fcdb71dbcde67c40998e918fb6f69e6873f8dc1f5c914a9807e671261",
-        "datetime": 1790714447,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "BE 주식은 분석가 지원에 대한 월요일 슬라이드 이후 회복됩니다: 동료 FCEL, PLUG Edge 더 높음"
-      },
-      {
-        "headline": "Bloom Energy Is Up More Than 200% So Far This Year. What Comes Next for BE Stock.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ae8bbb108ec595ccaa028cecb0759b5152fe6431b3695c34536e791283208193",
-        "datetime": 1790713123,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Bloom Energy는 올해 현재까지 200% 이상 상승했습니다. BE 주식의 다음 단계는 무엇입니까?"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Bloom Energy (NYSE:BE) Q2 Earnings: Leading The Renewable Energy Pack",
         "source": "Yahoo",
@@ -200848,7 +201045,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791347165.957898
+          "analysisUpdatedAt": 1791370535.3346498
         }
       },
       {
@@ -200897,7 +201094,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791347167.0911865
+          "analysisUpdatedAt": 1791370536.8479002
         }
       },
       {
@@ -202529,15 +202726,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791347132.504279,
-    "_updated_label": "2026-10-07 13:26",
-    "_last_success_at": 1791347132.504279,
+    "_fetched_at": 1791370481.596142,
+    "_updated_label": "2026-10-07 19:55",
+    "_last_success_at": 1791370481.596142,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 39,
+      "checked": 40,
       "removed": 0,
-      "updated": "2026-10-07 19:23"
+      "updated": "2026-10-07 19:55"
     }
   }
 };

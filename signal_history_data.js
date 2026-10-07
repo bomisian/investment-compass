@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791368587.318846,
+  "generatedAt": 1791370559.3165207,
   "records": {
     "MSFT": [
       {
@@ -17191,6 +17191,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AMD": [
       {
+        "changedAt": 1791370559.3165207,
+        "dataAsOf": 1791364045,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.05,
+            "after": 1.57
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 3.68,
+            "after": 4.2
+          }
+        ],
+        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
+        "newsHeadline": "Jim Cramer는 Microsoft(MSFT)의 AI 투자가 마침내 성과를 거두었다고 말합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=5d498f9ea2b813b6c71d2b717266b6a90cca62d865c717ac5b34a33a5e308a39",
+        "eventId": "ee739e49c20dcbacd7b2",
+        "fingerprint": "{\"changes\": [{\"after\": 1.57, \"before\": 1.05, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 4.2, \"before\": 3.68, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"ee739e49c20dcbacd7b2\"}"
+      },
+      {
         "changedAt": 1791368587.318846,
         "dataAsOf": 1791364045,
         "changes": [
@@ -18432,23 +18455,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=9ff12295daf3d56a9b20d74bc91682c95dcc4b21cd95d3d1ae6f51786a655aaa",
         "eventId": "352a85b0f9c4120535bc",
         "fingerprint": "{\"changes\": [{\"after\": 3.85, \"before\": 4.03, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"352a85b0f9c4120535bc\"}"
-      },
-      {
-        "changedAt": 1790240137.6500137,
-        "dataAsOf": 1790224117,
-        "changes": [
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 3.15,
-            "after": 4.03
-          }
-        ],
-        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
-        "newsHeadline": "Alphabet(GOOGL)이 개인 금융을 Gemini에 도입함으로써 무엇을 얻을 수 있을까요?",
-        "newsUrl": "https://finnhub.io/api/news?id=08922e79cd85f6ad85ebe695f592fdc9dc91f54a0f4f5130ac1f5655c54907d4",
-        "eventId": "cb7243559f8f736cae88",
-        "fingerprint": "{\"changes\": [{\"after\": 4.03, \"before\": 3.15, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"cb7243559f8f736cae88\"}"
       }
     ],
     "AVGO": [
@@ -32531,6 +32537,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "KLAC": [
+      {
+        "changedAt": 1791370559.3165207,
+        "dataAsOf": 1791324049,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.52,
+            "after": 0.35
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.7,
+            "after": 0.35
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.17,
+            "after": 0.0
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Jim Cramer는 KLAC 없이는 칩 부족이 \"해결될 수 없다\"고 말합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=da91be182cb3afc867657f5908d2a8761c57187e1cbf5c9d1e563dc9773ce7af",
+        "eventId": "c171f9bc00127e05ecdc",
+        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.52, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.35, \"before\": 0.7, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.0, \"before\": 0.17, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"c171f9bc00127e05ecdc\"}"
+      },
       {
         "changedAt": 1791347188.0276043,
         "dataAsOf": 1791324049,

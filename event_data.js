@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791368587.2548218,
+  "generatedAt": 1791370559.256358,
   "events": [
     {
       "id": "ec282b65cbdad99c5cde",
@@ -470,6 +470,75 @@ const EVENT_DATA = {
         "관련 기업 매출·수주잔고",
         "CAPEX 대비 영업현금흐름",
         "금리와 프로젝트 부채 비용"
+      ]
+    },
+    {
+      "id": "13ac1c186ea3d1ad4540",
+      "schemaVersion": 1,
+      "eventType": "major_customer_contract",
+      "eventLabel": "주요 고객 계약",
+      "primaryTicker": "AMD",
+      "relatedTickers": [
+        "AMD"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "AMD Plans a Big 2027 Supply Ramp. Wall Street Already Expects $38 Billion of New Revenue.",
+      "headlineKo": "AMD는 2027년 대규모 공급 확대를 계획하고 있습니다. 월스트리트는 이미 380억 달러의 신규 수익을 기대하고 있습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=bcedf644d9117099b6ae3cfbb3f912ded832567c52fa08c5136b47731b81ace9",
+        "publishedAt": 1791363952,
+        "collectedAt": 1791370481.596142
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "월스트리트는 이미 380억 달러의 신규 수익을 기대하고 있습니다.",
+        "| TIKR.com 일반 AMD 투자는 2027년 대규모 공급 확대를 계획합니다.",
+        "월스트리트는 이미 380억 달러의 신규 수익을 기대하고 있습니다."
+      ],
+      "marketInterpretation": [
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $38 Billion, 200%, $1 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "AMD에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $38 Billion, 200%, $1 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AMD",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "공식 매출·EPS 가이던스",
+        "컨센서스 추정치 변경",
+        "마진·FCF 전망"
       ]
     },
     {
@@ -2367,7 +2436,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=da91be182cb3afc867657f5908d2a8761c57187e1cbf5c9d1e563dc9773ce7af",
         "publishedAt": 1791324049,
-        "collectedAt": 1791347132.504279
+        "collectedAt": 1791370481.596142
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3198,7 +3267,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ac6bfc335dfc3d4897ae8bd77e8ebfe7355b99e732688e3608ac1b0de4e44f64",
         "publishedAt": 1791314401,
-        "collectedAt": 1791347132.504279
+        "collectedAt": 1791370481.596142
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4297,7 +4366,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fdc46853d7f33636cb3d81111b423d488d471df07d083d1b397ed96b78ab6715",
         "publishedAt": 1791308674,
-        "collectedAt": 1791347132.504279
+        "collectedAt": 1791370481.596142
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4371,7 +4440,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=92238007211c759df503210961c555ef4e85cf201f903701385be653ac2488e7",
         "publishedAt": 1791307965,
-        "collectedAt": 1791347132.504279
+        "collectedAt": 1791370481.596142
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6619,7 +6688,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cac0f65dbfc159b0714adc0c403527d74a4d55a70d487f42c12b66ea4217e584",
         "publishedAt": 1791293981,
-        "collectedAt": 1791347132.504279
+        "collectedAt": 1791370481.596142
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7215,7 +7284,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a92035033a69cef9fcdc1ab00704e5c4225413d100a0ca1e45f1eee626ba166d",
         "publishedAt": 1791292080,
-        "collectedAt": 1791347132.504279
+        "collectedAt": 1791370481.596142
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7804,7 +7873,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=85817650821b346de0a4929e22bf090b0962647c7e2b11dc366e04d796683a68",
         "publishedAt": 1791290760,
-        "collectedAt": 1791347132.504279
+        "collectedAt": 1791370481.596142
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11060,7 +11129,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=33b8d9bb9c2dc48e016820ab0d3f668e5c726eb9bbd9b6e80ba979c8aca90b38",
         "publishedAt": 1791232789,
-        "collectedAt": 1791347132.504279
+        "collectedAt": 1791370481.596142
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13811,7 +13880,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=08fb72ac71e38f733470be935666481d7400b695a98adfbf7c5a4d96c6d2c296",
         "publishedAt": 1791213002,
-        "collectedAt": 1791347132.504279
+        "collectedAt": 1791370481.596142
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13861,15 +13930,15 @@ const EVENT_DATA = {
         "KLAC"
       ],
       "relatedEntities": [],
-      "importance": "high",
+      "importance": "medium",
       "sourceReliability": {
         "level": "medium",
         "score": 65,
         "kind": "reported",
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
-      "direction": "positive",
-      "expectedHorizon": "중기·장기",
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "KLA's Supply Constraints Expected to Ease, Leading Logic Mix to Become Tailwind, Morgan Stanley Says",
@@ -13878,34 +13947,45 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9b4eddced9423510910075ecf94903587196f895bc8050fe99b04164c722f919",
         "publishedAt": 1791212628,
-        "collectedAt": 1791347132.504279
+        "collectedAt": 1791370481.596142
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "KLA의 공급 제약이 완화될 것으로 예상되며 주요 로직 혼합이 순풍이 될 것이라고 Morgan Stanley가 밝혔습니다."
+        "KLA's Supply Constraints Expected to Ease, Leading Logic Mix to Become Tailwind, Morgan Stanley Says",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
       ],
-      "marketInterpretation": [],
+      "marketInterpretation": [
+        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+        "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
       "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+        "KLAC에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
       ],
       "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+        "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
       ],
       "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+        "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
           "ticker": "KLAC",
-          "direction": "positive",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
         }
       ],
-      "watch": []
+      "watch": [
+        "계약 금액·기간·취소 조건",
+        "수주잔고와 매출 인식 시점",
+        "관련 사업부 매출총이익률"
+      ]
     },
     {
       "id": "57b211f459d8496795b2",
@@ -14013,7 +14093,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=d95d6bce7b72cb14b2d79a463776ec31619d35f212a0654a25699d7292da709c",
         "publishedAt": 1791209469,
-        "collectedAt": 1791347132.504279
+        "collectedAt": 1791370481.596142
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14939,7 +15019,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=49d0805dfcac39242942c0f980cec058d5f35d3223e05b6f8182c978fd94bd6b",
         "publishedAt": 1791203662,
-        "collectedAt": 1791347132.504279
+        "collectedAt": 1791370481.596142
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15291,8 +15371,8 @@ const EVENT_DATA = {
         "kind": "reported",
         "reason": "속보·의견 성격이 강해 원문 재확인 필요"
       },
-      "direction": "positive",
-      "expectedHorizon": "다음 실적까지 확인",
+      "direction": "mixed",
+      "expectedHorizon": "단기",
       "impactProbability": "낮음·확인 필요",
       "verificationStatus": "needs_confirmation",
       "headline": "Morgan Stanley Maintains Overweight on Lam Research, Raises Price Target to $385",
@@ -15301,45 +15381,35 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=a8bff54239e88925995a26e0c6b4982447ac3d82dfcda32716cec721c3907e02",
         "publishedAt": 1791199836,
-        "collectedAt": 1791347132.504279
+        "collectedAt": 1791370481.596142
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Morgan Stanley Maintains Overweight on Lam Research, Raises Price Target to $385",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+        "Morgan Stanley, Lam Research에 대해 비중확대 유지, 목표 주가를 385달러로 상향 조정"
       ],
-      "marketInterpretation": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "LRCX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
+      "marketInterpretation": [],
       "aiInference": [
-        "LRCX에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
         "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
       ],
       "beginnerExplanation": [
-        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
       ],
       "whyItMatters": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "LRCX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
       ],
       "impacts": [
         {
           "ticker": "LRCX",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
+          "direction": "mixed",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
         }
       ],
-      "watch": [
-        "목표주가 산식의 EPS",
-        "적용 PER 변화",
-        "회사 공식 가이던스"
-      ]
+      "watch": []
     },
     {
       "id": "0f2b92ec8123f9394491",
@@ -16774,7 +16844,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=51eb55409c689d88e5bf97a1b9347d52f44cfa8e6dd45e6d8505406e0cf2a44a",
         "publishedAt": 1791185489,
-        "collectedAt": 1791347132.504279
+        "collectedAt": 1791370481.596142
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17808,85 +17878,6 @@ const EVENT_DATA = {
         "CAPEX 대비 영업현금흐름",
         "금리와 프로젝트 부채 비용"
       ]
-    },
-    {
-      "id": "cbd525410d0e6f498016",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "GOOGL",
-      "relatedTickers": [
-        "AMZN",
-        "GOOGL"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Alphabet",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        },
-        {
-          "name": "Amazon",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "neutral",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Amazon vs. Alphabet: Which AI Cloud Stock Makes the Better Case After the Spending Bill?",
-      "headlineKo": "Amazon vs. Alphabet: 지출 비용 이후 어느 AI 클라우드 주식이 더 나은 사례를 만드는가?",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6b2a60755384475fe6fde01a90afc81b6f772fe04aaf60e7d2155a12585a8360",
-        "publishedAt": 1791156255,
-        "collectedAt": 1791368132.6513336
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Amazon vs. Alphabet: Which AI Cloud Stock Makes the Better Case After the Spending Bill?",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "GOOGL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "GOOGL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "GOOGL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "GOOGL",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "실제 CAPEX 집행",
-        "공급업체 수주·매출",
-        "투자 기업 OCF·FCF·부채"
-      ]
     }
   ],
   "byTicker": {
@@ -17971,8 +17962,7 @@ const EVENT_DATA = {
       "45533bbe045cb6cc4485",
       "94e5ca88ef6436057c9c",
       "6027a438cf60fd018c80",
-      "d157c39847dcfdcad073",
-      "cbd525410d0e6f498016"
+      "d157c39847dcfdcad073"
     ],
     "SPY": [
       "5d479c4839fddbef2578",
@@ -18162,6 +18152,7 @@ const EVENT_DATA = {
     ],
     "AMD": [
       "ee739e49c20dcbacd7b2",
+      "13ac1c186ea3d1ad4540",
       "b9e97a1b5bca48bc2238",
       "981a005e7362ba4fbad5",
       "8f03e34f623fa40ab914",
@@ -18437,8 +18428,7 @@ const EVENT_DATA = {
       "b1982cfd43b556a7864e",
       "d157c39847dcfdcad073",
       "66fa7c7abbaac8ad57af",
-      "4b978de00ba525100d92",
-      "cbd525410d0e6f498016"
+      "4b978de00ba525100d92"
     ],
     "CEG": [
       "6dcca3becab40c23c328",
