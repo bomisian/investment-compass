@@ -4,13 +4,13 @@
 const INSIDER_DATA = {
   "QQQ": {
     "transactions": [],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "SPY": {
     "transactions": [],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "MSFT": {
     "transactions": [
@@ -143,8 +143,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "GOOGL": {
     "transactions": [
@@ -181,11 +181,19 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "AMZN": {
     "transactions": [
+      {
+        "name": "Herrington Douglas J",
+        "share": 1000,
+        "transactionPrice": 251.5,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-05",
+        "code": "S"
+      },
       {
         "name": "Herrington Douglas J",
         "share": 1000,
@@ -337,18 +345,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-08-21",
         "filingDate": "2026-08-25",
         "code": "S"
-      },
-      {
-        "name": "Jassy Andrew R",
-        "share": 7478,
-        "transactionPrice": 258.6654,
-        "transactionDate": "2026-08-21",
-        "filingDate": "2026-08-25",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "META": {
     "transactions": [
@@ -513,11 +513,91 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "AAPL": {
     "transactions": [
+      {
+        "name": "Ternus John",
+        "share": 3754,
+        "transactionPrice": 334.05,
+        "transactionDate": "2026-10-02",
+        "filingDate": "2026-10-05",
+        "code": "S"
+      },
+      {
+        "name": "Ternus John",
+        "share": 12746,
+        "transactionPrice": 333.34,
+        "transactionDate": "2026-10-02",
+        "filingDate": "2026-10-05",
+        "code": "S"
+      },
+      {
+        "name": "Ternus John",
+        "share": 5348,
+        "transactionPrice": 332.26,
+        "transactionDate": "2026-10-02",
+        "filingDate": "2026-10-05",
+        "code": "S"
+      },
+      {
+        "name": "Ternus John",
+        "share": 3564,
+        "transactionPrice": 331.38,
+        "transactionDate": "2026-10-02",
+        "filingDate": "2026-10-05",
+        "code": "S"
+      },
+      {
+        "name": "O'BRIEN DEIRDRE",
+        "share": 5625,
+        "transactionPrice": 333.91,
+        "transactionDate": "2026-10-02",
+        "filingDate": "2026-10-05",
+        "code": "S"
+      },
+      {
+        "name": "O'BRIEN DEIRDRE",
+        "share": 40764,
+        "transactionPrice": 333.35,
+        "transactionDate": "2026-10-02",
+        "filingDate": "2026-10-05",
+        "code": "S"
+      },
+      {
+        "name": "COOK TIMOTHY D",
+        "share": 40879,
+        "transactionPrice": 333.94,
+        "transactionDate": "2026-10-02",
+        "filingDate": "2026-10-05",
+        "code": "S"
+      },
+      {
+        "name": "COOK TIMOTHY D",
+        "share": 88239,
+        "transactionPrice": 333.26,
+        "transactionDate": "2026-10-02",
+        "filingDate": "2026-10-05",
+        "code": "S"
+      },
+      {
+        "name": "COOK TIMOTHY D",
+        "share": 39492,
+        "transactionPrice": 332.16,
+        "transactionDate": "2026-10-02",
+        "filingDate": "2026-10-05",
+        "code": "S"
+      },
+      {
+        "name": "COOK TIMOTHY D",
+        "share": 23143,
+        "transactionPrice": 331.44,
+        "transactionDate": "2026-10-02",
+        "filingDate": "2026-10-05",
+        "code": "S"
+      },
       {
         "name": "Newstead Jennifer",
         "share": 2399,
@@ -583,8 +663,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "TSLA": {
     "transactions": [
@@ -597,8 +677,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "ORCL": {
     "transactions": [
@@ -635,8 +715,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "CRM": {
     "transactions": [
@@ -665,11 +745,19 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "PLTR": {
     "transactions": [
+      {
+        "name": "Stat Lauren Elaina Friedman",
+        "share": 1337,
+        "transactionPrice": 189.95,
+        "transactionDate": "2026-10-01",
+        "filingDate": "2026-10-05",
+        "code": "S"
+      },
       {
         "name": "Moore Alexander D.",
         "share": 510,
@@ -821,18 +909,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-08-20",
         "filingDate": "2026-08-24",
         "code": "S"
-      },
-      {
-        "name": "Buckley Jeffrey",
-        "share": 7,
-        "transactionPrice": 176.3133,
-        "transactionDate": "2026-08-20",
-        "filingDate": "2026-08-24",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "NVDA": {
     "transactions": [
@@ -997,8 +1077,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "AMD": {
     "transactions": [
@@ -1163,8 +1243,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "AVGO": {
     "transactions": [
@@ -1303,26 +1383,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-07-10",
         "filingDate": "2026-07-14",
         "code": "S"
-      },
-      {
-        "name": "Brazeal Mark David",
-        "share": 25000,
-        "transactionPrice": 379.188,
-        "transactionDate": "2026-07-08",
-        "filingDate": "2026-07-10",
-        "code": "S"
-      },
-      {
-        "name": "DELLY GAYLA J",
-        "share": 1890,
-        "transactionPrice": 385.38,
-        "transactionDate": "2026-07-08",
-        "filingDate": "2026-07-10",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "QCOM": {
     "transactions": [
@@ -1487,8 +1551,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "ARM": {
     "transactions": [
@@ -1509,8 +1573,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "MRVL": {
     "transactions": [
@@ -1571,8 +1635,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "INTC": {
     "transactions": [
@@ -1585,8 +1649,8 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "TSM": {
     "transactions": [
@@ -1762,6 +1826,14 @@ const INSIDER_DATA = {
   "AMAT": {
     "transactions": [
       {
+        "name": "Sanders Adam",
+        "share": 725,
+        "transactionPrice": 544.562,
+        "transactionDate": "2026-10-02",
+        "filingDate": "2026-10-05",
+        "code": "S"
+      },
+      {
         "name": "BRUNER JUDY",
         "share": 1000,
         "transactionPrice": 465,
@@ -1778,8 +1850,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "LRCX": {
     "transactions": [
@@ -1848,8 +1920,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "KLAC": {
     "transactions": [
@@ -2124,8 +2196,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "SNDK": {
     "transactions": [
@@ -2290,8 +2362,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "WDC": {
     "transactions": [
@@ -2456,8 +2528,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "ANET": {
     "transactions": [
@@ -2700,8 +2772,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "LITE": {
     "transactions": [
@@ -2871,8 +2943,8 @@ const INSIDER_DATA = {
   },
   "GEV": {
     "transactions": [],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "CEG": {
     "transactions": [
@@ -2885,8 +2957,8 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "VST": {
     "transactions": [
@@ -2947,8 +3019,8 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "ETN": {
     "transactions": [
@@ -2985,13 +3057,13 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "PWR": {
     "transactions": [],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "HUBB": {
     "transactions": [
@@ -3004,8 +3076,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "VRT": {
     "transactions": [
@@ -3074,8 +3146,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "MOD": {
     "transactions": [
@@ -3088,8 +3160,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "STX": {
     "transactions": [
@@ -3254,8 +3326,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   },
   "EME": {
     "transactions": [],
@@ -3391,7 +3463,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791280190.4165401,
-    "_updated_label": "2026-10-06"
+    "_fetched_at": 1791353108.970178,
+    "_updated_label": "2026-10-07"
   }
 };

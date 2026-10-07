@@ -1,11 +1,11 @@
 // 자동 생성 파일 - 내부자 거래 정밀 분석
 const INSIDER_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791351263.2516546,
+  "generatedAt": 1791353166.3317435,
   "records": {
     "QQQ": {
       "ticker": "QQQ",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -23,7 +23,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "SPY": {
       "ticker": "SPY",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -41,7 +41,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "주의",
       "saleCount": 16,
       "exerciseCount": 0,
@@ -271,7 +271,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "관찰",
       "saleCount": 4,
       "exerciseCount": 0,
@@ -344,11 +344,11 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
-      "totalSaleValue": 16243888.58,
+      "totalSaleValue": 14561088.72,
       "peopleCount": 6,
       "repeatedSellers": [
         "Herrington Douglas J",
@@ -359,6 +359,19 @@ const INSIDER_ANALYSIS_DATA = {
       ],
       "simultaneous": true,
       "transactions": [
+        {
+          "name": "Herrington Douglas J",
+          "share": 1000,
+          "transactionPrice": 251.5,
+          "transactionDate": "2026-10-01",
+          "filingDate": "2026-10-05",
+          "code": "S",
+          "estimatedValue": 251500.0,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
         {
           "name": "Herrington Douglas J",
           "share": 1000,
@@ -605,19 +618,6 @@ const INSIDER_ANALYSIS_DATA = {
           "title": "직책 데이터 없음",
           "ownershipRatio": null,
           "nearEarnings": "실적일 연결 데이터 확인 필요"
-        },
-        {
-          "name": "Jassy Andrew R",
-          "share": 7478,
-          "transactionPrice": 258.6654,
-          "transactionDate": "2026-08-21",
-          "filingDate": "2026-08-25",
-          "code": "S",
-          "estimatedValue": 1934299.86,
-          "transactionKind": "실제 매도",
-          "title": "직책 데이터 없음",
-          "ownershipRatio": null,
-          "nearEarnings": "실적일 연결 데이터 확인 필요"
         }
       ],
       "interpretation": "내부자 매도만으로 기업 전망 악화라고 판단할 수는 없습니다. 다만 주가가 크게 상승했고 여러 임원의 매도가 반복된다면 차익실현 가능성을 보여주는 보조 리스크로 해석할 수 있습니다.",
@@ -629,7 +629,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -912,17 +912,150 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1791351263.2516546,
-      "level": "관찰",
-      "saleCount": 8,
+      "updatedAt": 1791353166.3317435,
+      "level": "주의",
+      "saleCount": 18,
       "exerciseCount": 0,
-      "totalSaleValue": 4342254.52,
-      "peopleCount": 1,
+      "totalSaleValue": 92115758.85,
+      "peopleCount": 4,
       "repeatedSellers": [
+        "Ternus John",
+        "O'BRIEN DEIRDRE",
+        "COOK TIMOTHY D",
         "Newstead Jennifer"
       ],
-      "simultaneous": false,
+      "simultaneous": true,
       "transactions": [
+        {
+          "name": "Ternus John",
+          "share": 3754,
+          "transactionPrice": 334.05,
+          "transactionDate": "2026-10-02",
+          "filingDate": "2026-10-05",
+          "code": "S",
+          "estimatedValue": 1254023.7,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
+        {
+          "name": "Ternus John",
+          "share": 12746,
+          "transactionPrice": 333.34,
+          "transactionDate": "2026-10-02",
+          "filingDate": "2026-10-05",
+          "code": "S",
+          "estimatedValue": 4248751.64,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
+        {
+          "name": "Ternus John",
+          "share": 5348,
+          "transactionPrice": 332.26,
+          "transactionDate": "2026-10-02",
+          "filingDate": "2026-10-05",
+          "code": "S",
+          "estimatedValue": 1776926.48,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
+        {
+          "name": "Ternus John",
+          "share": 3564,
+          "transactionPrice": 331.38,
+          "transactionDate": "2026-10-02",
+          "filingDate": "2026-10-05",
+          "code": "S",
+          "estimatedValue": 1181038.32,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
+        {
+          "name": "O'BRIEN DEIRDRE",
+          "share": 5625,
+          "transactionPrice": 333.91,
+          "transactionDate": "2026-10-02",
+          "filingDate": "2026-10-05",
+          "code": "S",
+          "estimatedValue": 1878243.75,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
+        {
+          "name": "O'BRIEN DEIRDRE",
+          "share": 40764,
+          "transactionPrice": 333.35,
+          "transactionDate": "2026-10-02",
+          "filingDate": "2026-10-05",
+          "code": "S",
+          "estimatedValue": 13588679.4,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
+        {
+          "name": "COOK TIMOTHY D",
+          "share": 40879,
+          "transactionPrice": 333.94,
+          "transactionDate": "2026-10-02",
+          "filingDate": "2026-10-05",
+          "code": "S",
+          "estimatedValue": 13651133.26,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
+        {
+          "name": "COOK TIMOTHY D",
+          "share": 88239,
+          "transactionPrice": 333.26,
+          "transactionDate": "2026-10-02",
+          "filingDate": "2026-10-05",
+          "code": "S",
+          "estimatedValue": 29406529.14,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
+        {
+          "name": "COOK TIMOTHY D",
+          "share": 39492,
+          "transactionPrice": 332.16,
+          "transactionDate": "2026-10-02",
+          "filingDate": "2026-10-05",
+          "code": "S",
+          "estimatedValue": 13117662.72,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
+        {
+          "name": "COOK TIMOTHY D",
+          "share": 23143,
+          "transactionPrice": 331.44,
+          "transactionDate": "2026-10-02",
+          "filingDate": "2026-10-05",
+          "code": "S",
+          "estimatedValue": 7670515.92,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
         {
           "name": "Newstead Jennifer",
           "share": 2399,
@@ -1037,7 +1170,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "관찰",
       "saleCount": 1,
       "exerciseCount": 0,
@@ -1069,7 +1202,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "관찰",
       "saleCount": 3,
       "exerciseCount": 0,
@@ -1142,7 +1275,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "관찰",
       "saleCount": 2,
       "exerciseCount": 0,
@@ -1202,19 +1335,32 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
-      "totalSaleValue": 89283776.73,
+      "totalSaleValue": 89536505.69,
       "peopleCount": 4,
       "repeatedSellers": [
+        "Stat Lauren Elaina Friedman",
         "Moore Alexander D.",
-        "Buckley Jeffrey",
         "Karp Alexander C."
       ],
       "simultaneous": true,
       "transactions": [
+        {
+          "name": "Stat Lauren Elaina Friedman",
+          "share": 1337,
+          "transactionPrice": 189.95,
+          "transactionDate": "2026-10-01",
+          "filingDate": "2026-10-05",
+          "code": "S",
+          "estimatedValue": 253963.15,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
         {
           "name": "Moore Alexander D.",
           "share": 510,
@@ -1461,19 +1607,6 @@ const INSIDER_ANALYSIS_DATA = {
           "title": "직책 데이터 없음",
           "ownershipRatio": null,
           "nearEarnings": "실적일 연결 데이터 확인 필요"
-        },
-        {
-          "name": "Buckley Jeffrey",
-          "share": 7,
-          "transactionPrice": 176.3133,
-          "transactionDate": "2026-08-20",
-          "filingDate": "2026-08-24",
-          "code": "S",
-          "estimatedValue": 1234.19,
-          "transactionKind": "실제 매도",
-          "title": "직책 데이터 없음",
-          "ownershipRatio": null,
-          "nearEarnings": "실적일 연결 데이터 확인 필요"
         }
       ],
       "interpretation": "내부자 매도만으로 기업 전망 악화라고 판단할 수는 없습니다. 다만 주가가 크게 상승했고 여러 임원의 매도가 반복된다면 차익실현 가능성을 보여주는 보조 리스크로 해석할 수 있습니다.",
@@ -1485,7 +1618,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -1768,7 +1901,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -2050,15 +2183,14 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1791351263.2516546,
-      "level": "주의",
-      "saleCount": 19,
+      "updatedAt": 1791353166.3317435,
+      "level": "관찰",
+      "saleCount": 17,
       "exerciseCount": 0,
-      "totalSaleValue": 270247476.82,
-      "peopleCount": 3,
+      "totalSaleValue": 260039408.62,
+      "peopleCount": 2,
       "repeatedSellers": [
-        "SAMUELI HENRY",
-        "Brazeal Mark David"
+        "SAMUELI HENRY"
       ],
       "simultaneous": true,
       "transactions": [
@@ -2282,32 +2414,6 @@ const INSIDER_ANALYSIS_DATA = {
           "title": "직책 데이터 없음",
           "ownershipRatio": null,
           "nearEarnings": "실적일 연결 데이터 확인 필요"
-        },
-        {
-          "name": "Brazeal Mark David",
-          "share": 25000,
-          "transactionPrice": 379.188,
-          "transactionDate": "2026-07-08",
-          "filingDate": "2026-07-10",
-          "code": "S",
-          "estimatedValue": 9479700.0,
-          "transactionKind": "실제 매도",
-          "title": "직책 데이터 없음",
-          "ownershipRatio": null,
-          "nearEarnings": "실적일 연결 데이터 확인 필요"
-        },
-        {
-          "name": "DELLY GAYLA J",
-          "share": 1890,
-          "transactionPrice": 385.38,
-          "transactionDate": "2026-07-08",
-          "filingDate": "2026-07-10",
-          "code": "S",
-          "estimatedValue": 728368.2,
-          "transactionKind": "실제 매도",
-          "title": "직책 데이터 없음",
-          "ownershipRatio": null,
-          "nearEarnings": "실적일 연결 데이터 확인 필요"
         }
       ],
       "interpretation": "내부자 매도만으로 기업 전망 악화라고 판단할 수는 없습니다. 다만 주가가 크게 상승했고 여러 임원의 매도가 반복된다면 차익실현 가능성을 보여주는 보조 리스크로 해석할 수 있습니다.",
@@ -2319,7 +2425,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -2602,7 +2708,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "관찰",
       "saleCount": 2,
       "exerciseCount": 0,
@@ -2649,7 +2755,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "주의",
       "saleCount": 7,
       "exerciseCount": 0,
@@ -2762,7 +2868,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -2794,7 +2900,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -3073,7 +3179,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -3091,15 +3197,28 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "관찰",
-      "saleCount": 2,
+      "saleCount": 3,
       "exerciseCount": 0,
-      "totalSaleValue": 4059375.75,
-      "peopleCount": 2,
+      "totalSaleValue": 4454183.2,
+      "peopleCount": 3,
       "repeatedSellers": [],
       "simultaneous": true,
       "transactions": [
+        {
+          "name": "Sanders Adam",
+          "share": 725,
+          "transactionPrice": 544.562,
+          "transactionDate": "2026-10-02",
+          "filingDate": "2026-10-05",
+          "code": "S",
+          "estimatedValue": 394807.45,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
         {
           "name": "BRUNER JUDY",
           "share": 1000,
@@ -3136,7 +3255,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "주의",
       "saleCount": 8,
       "exerciseCount": 0,
@@ -3262,7 +3381,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "주의",
       "saleCount": 13,
       "exerciseCount": 0,
@@ -3454,7 +3573,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "관찰",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -3735,7 +3854,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -4016,7 +4135,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -4300,7 +4419,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -4583,7 +4702,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "주의",
       "saleCount": 9,
       "exerciseCount": 0,
@@ -4723,7 +4842,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "관찰",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -5004,7 +5123,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -5022,7 +5141,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -5054,7 +5173,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "관찰",
       "saleCount": 4,
       "exerciseCount": 0,
@@ -5166,7 +5285,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "관찰",
       "saleCount": 2,
       "exerciseCount": 0,
@@ -5237,7 +5356,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -5255,7 +5374,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "관찰",
       "saleCount": 1,
       "exerciseCount": 0,
@@ -5287,7 +5406,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "관찰",
       "saleCount": 8,
       "exerciseCount": 0,
@@ -5412,7 +5531,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "관찰",
       "saleCount": 1,
       "exerciseCount": 0,
@@ -5444,7 +5563,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "관찰",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -5725,7 +5844,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -5743,7 +5862,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "관찰",
       "saleCount": 4,
       "exerciseCount": 0,
@@ -5816,7 +5935,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1791351263.2516546,
+      "updatedAt": 1791353166.3317435,
       "level": "주의",
       "saleCount": 11,
       "exerciseCount": 0,
