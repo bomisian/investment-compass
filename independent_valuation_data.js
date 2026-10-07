@@ -186,7 +186,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -229,7 +229,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -245,7 +245,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:50.132373+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:34.855715+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -262,7 +262,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-10-06",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:50.132373+09:00",
+      "generatedAt": "2026-10-07T21:30:34.855715+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -367,7 +367,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-10-07T20:58:45.374757+09:00",
+      "generatedAt": "2026-10-07T21:30:29.166286+09:00",
       "asOfDate": "2026-10-07",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -1849,7 +1849,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-10-07T20:58:45.721100+09:00",
+      "generatedAt": "2026-10-07T21:30:29.519523+09:00",
       "asOfDate": "2026-10-07",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -2307,7 +2307,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       ],
       "changeReasonVsPrevious": "입력값 완전 동일(변경 없음) -- 밴드(EPS·peer 배수) 근거 불변, 현재가만 바뀌었어도 밴드 자체는 재계산하지 않음",
-      "generatedAt": "2026-10-07T20:58:46.034477+09:00",
+      "generatedAt": "2026-10-07T21:30:29.829398+09:00",
       "asOfDate": "2026-10-07",
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
@@ -2751,7 +2751,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "대상종목 비교가격 자료상태 문제: 통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
-      "withheldCheckedAt": "2026-10-07T20:58:46.342964+09:00",
+      "withheldCheckedAt": "2026-10-07T21:30:30.208057+09:00",
       "neverSucceeded": true
     },
     "longTermScenario": {
@@ -3085,7 +3085,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK_WITHHELD",
       "lastCheckNote": "가격 자료상태 문제: 통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": false,
       "reason": "가격 자료상태 문제: 통화 불일치: financial_currency='EUR', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
       "diagnosticKind": null,
@@ -3101,7 +3101,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "estimatesFetchedAt": null,
       "multiples": null,
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "missing",
@@ -3124,7 +3124,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(726.4062968207006)<=band_low(726.4062968207006) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-10-07T20:58:46.514164+09:00",
+      "withheldCheckedAt": "2026-10-07T21:30:30.398561+09:00",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -3141,7 +3141,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:50.132373+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:34.855715+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -3158,7 +3158,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-10-06",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:50.132373+09:00",
+      "generatedAt": "2026-10-07T21:30:34.855715+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3231,7 +3231,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(455.8690715380923)<=band_low(455.8690715380923) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-10-07T20:58:46.604764+09:00",
+      "withheldCheckedAt": "2026-10-07T21:30:30.488087+09:00",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -3248,7 +3248,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:50.132373+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:34.855715+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -3265,7 +3265,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-10-06",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:50.132373+09:00",
+      "generatedAt": "2026-10-07T21:30:34.855715+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3338,7 +3338,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "선정 기준을 통과한 동종업계 배수가 하나도 없음 -- 밴드 산출 보류(0으로 채우지 않음)",
-      "withheldCheckedAt": "2026-10-07T20:58:46.694309+09:00",
+      "withheldCheckedAt": "2026-10-07T21:30:30.577508+09:00",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -3355,7 +3355,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -3398,7 +3398,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3419,7 +3419,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "선정 기준을 통과한 동종업계 배수가 하나도 없음 -- 밴드 산출 보류(0으로 채우지 않음)",
-      "withheldCheckedAt": "2026-10-07T20:58:46.740358+09:00",
+      "withheldCheckedAt": "2026-10-07T21:30:30.623785+09:00",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -3436,7 +3436,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -3479,7 +3479,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3495,7 +3495,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:50.132373+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:34.855715+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -3504,27 +3504,23 @@ const INDEPENDENT_VALUATION_DATA = {
       "peerTicker": "MTZ",
       "targetEps1": 19.06800219178082,
       "targetEps1Basis": "NTM 컨센서스 EPS(blend_ntm_eps_from_annual_estimates, peer와 동일 함수로 산출)",
-      "peerForwardPe": 18.788718465874457,
-      "peerPrice": 219.39999389648438,
-      "peerPriceAsOf": "2026-10-05",
-      "appliedPrice": 358.2633248880469,
-      "targetCurrentPrice": 683.4199829101562,
-      "targetCurrentPriceAsOf": "2026-10-05",
+      "peerForwardPe": 19.550886975510032,
+      "peerPrice": 228.3000030517578,
+      "peerPriceAsOf": "2026-10-06",
+      "appliedPrice": 372.7963557002844,
+      "targetCurrentPrice": 719.5599975585938,
+      "targetCurrentPriceAsOf": "2026-10-06",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:50.132373+09:00",
+      "generatedAt": "2026-10-07T21:30:34.855715+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
-      "isStaleReference": true,
-      "staleReasons": [
-        "대상(2026-10-06)과 비교기업(2026-10-05)이 각자 개별적으로 확보 가능했던 최신 확정 종가의 관측일은 서로 다름(둘 다 개별적으로 노후 기준은 통과) -- 계산에 실제로 적용된 날짜는 아래 공통일자 정렬 결과를 참고",
-        "target(PWR)·peer(MTZ) 공통 확정 거래일(2026-10-05)로 가격을 맞췄습니다 -- target 자체 최신 확정 종가(2026-10-06)나 peer 자체 최신 확정 종가(2026-10-05)보다 과거일 수 있습니다(그중 더 오래된 쪽에 맞춰짐). EPS는 그대로 현재(2026-10-07) 기준입니다 -- 가격만 과거 공통일자를 씁니다.",
-        "비교기업(MTZ) 가격이 실제 실행시각 기준으로 2026-10-06에 아직 반영되지 않았을 수 있음(평일 기준 후보 -- 휴장일 여부는 거래소 일정으로 확인되지 않음)"
-      ],
+      "isStaleReference": false,
+      "staleReasons": [],
       "disclaimer": "이 값은 비교기업이 정확히 1개일 때 그 기업의 forward P/E를 대상종목 자신의 NTM EPS에 그대로 곱한 '단일 비교기업 참고가격'일 뿐이다 -- 검증된 매수가·매도가·성공확률·신뢰구간이 아니며, low/high 범위 개념 자체가 없다(peer 1개라 범위를 구성하지 않음, 산술 실패 아님). 여러 peer로 만드는 상대가치 밴드(relativeValueBand)와는 다른 개념이며 서로 바꿔 쓰면 안 된다. EPS 정의(GAAP/조정 등)의 기업 간 비교가능성은 미확인이므로(eps_definition_confirmation_level 참고) 이 적용가격도 잠정으로 취급해야 한다.",
-      "priceAsOfDatesMatch": false,
-      "priceAsOfDatesNote": "대상(2026-10-06)과 비교기업(2026-10-05)이 각자 개별적으로 확보 가능했던 최신 확정 종가의 관측일은 서로 다름(둘 다 개별적으로 노후 기준은 통과) -- 계산에 실제로 적용된 날짜는 아래 공통일자 정렬 결과를 참고",
+      "priceAsOfDatesMatch": true,
+      "priceAsOfDatesNote": null,
       "targetEpsPeriodDetail": {
         "0y_end": "2026-12-31",
         "0y_eps": 16.74256,
@@ -3567,18 +3563,18 @@ const INDEPENDENT_VALUATION_DATA = {
       "peerFinancialCurrency": "USD",
       "peerQuoteCurrency": "USD",
       "priceDateAlignmentApplied": true,
-      "priceDateAlignmentCommonDate": "2026-10-05",
-      "priceDateAlignmentIsPastReference": true,
-      "priceDateAlignmentNote": "target(PWR)·peer(MTZ) 공통 확정 거래일(2026-10-05)로 가격을 맞췄습니다 -- target 자체 최신 확정 종가(2026-10-06)나 peer 자체 최신 확정 종가(2026-10-05)보다 과거일 수 있습니다(그중 더 오래된 쪽에 맞춰짐). EPS는 그대로 현재(2026-10-07) 기준입니다 -- 가격만 과거 공통일자를 씁니다.",
-      "peerPriceUsedInCalculation": 219.39999389648438,
-      "peerPriceUsedInCalculationAsOf": "2026-10-05",
+      "priceDateAlignmentCommonDate": "2026-10-06",
+      "priceDateAlignmentIsPastReference": false,
+      "priceDateAlignmentNote": "target·peer 공통 확정 거래일(2026-10-06)이 각자의 최신 확정 종가일과 일치합니다.",
+      "peerPriceUsedInCalculation": 228.3000030517578,
+      "peerPriceUsedInCalculationAsOf": "2026-10-06",
       "peerLastCollectionStatus": {
-        "checkedAt": "2026-10-07T20:58:47.281392+09:00",
+        "checkedAt": "2026-10-07T21:30:31.121480+09:00",
         "pricesLastAttempt": {
-          "outcome": "cache_fresh",
+          "outcome": "ok",
           "errorDetail": null,
-          "lastPriceSessionDate": "2026-10-05",
-          "hasMissingSessionsAsOfNow": true,
+          "lastPriceSessionDate": "2026-10-06",
+          "hasMissingSessionsAsOfNow": false,
           "latestExpectedCompletedSessionAsOfNow": null,
           "calendarSourceAsOfNow": "weekday_approximation_no_holiday_calendar_et_boundary",
           "recencyCheckNote": null
@@ -3592,10 +3588,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetHasMissingSessionsAsOfNow": false,
       "targetMissingSessionsAsOfNow": [],
       "targetCalendarSourceAsOfNow": "weekday_approximation_no_holiday_calendar_et_boundary",
-      "peerHasMissingSessionsAsOfNow": true,
-      "peerMissingSessionsAsOfNow": [
-        "2026-10-06"
-      ],
+      "peerHasMissingSessionsAsOfNow": false,
+      "peerMissingSessionsAsOfNow": [],
       "peerCalendarSourceAsOfNow": "weekday_approximation_no_holiday_calendar_et_boundary"
     }
   },
@@ -3606,7 +3600,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(1131.6649634442695)<=band_low(1131.6649634442695) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-10-07T20:58:46.787412+09:00",
+      "withheldCheckedAt": "2026-10-07T21:30:30.671451+09:00",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -3623,7 +3617,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:50.132373+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:34.855715+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -3640,7 +3634,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-10-06",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:50.132373+09:00",
+      "generatedAt": "2026-10-07T21:30:34.855715+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3713,7 +3707,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "available": false,
       "withheldStatus": "JUDGMENT_WITHHELD",
       "withheldReason": "band_high(1324.5478396159924)<=band_low(1324.5478396159924) -- 밴드 폭이 0 이하",
-      "withheldCheckedAt": "2026-10-07T20:58:46.902546+09:00",
+      "withheldCheckedAt": "2026-10-07T21:30:30.759995+09:00",
       "neverSucceeded": false,
       "priorLocalSnapshotFound": true,
       "priorLocalSnapshotNote": "로컬에 이전 산출물(스냅샷)이 있었고, peer 적합성/입력 정의 재검토 결과 무효화되어 지금은 보류 상태임. 이 필드는 로컬 산출 이력만 나타내며, 그 값이 실제로 공개 URL에 노출된 적이 있었는지는 이 함수가 확인할 수 없다 -- 공개 이력은 별도로 확보한 증거(공개 URL 캡처 등)로만 판단해야 한다. 아래 prior* 필드는 로컬 역사적 기록일 뿐 현재 유효한 참고범위가 아니다.",
@@ -3730,7 +3724,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:50.132373+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:34.855715+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -3747,7 +3741,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-10-06",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:50.132373+09:00",
+      "generatedAt": "2026-10-07T21:30:34.855715+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3817,7 +3811,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:50.132373+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:34.855715+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -3834,7 +3828,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-10-06",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:50.132373+09:00",
+      "generatedAt": "2026-10-07T21:30:34.855715+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3904,7 +3898,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:50.132373+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:34.855715+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -3921,7 +3915,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-10-06",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:50.132373+09:00",
+      "generatedAt": "2026-10-07T21:30:34.855715+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -3991,7 +3985,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4028,7 +4022,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4046,7 +4040,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4089,7 +4083,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4107,7 +4101,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4150,7 +4144,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4168,7 +4162,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4211,7 +4205,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4229,7 +4223,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4272,7 +4266,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4290,7 +4284,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4333,7 +4327,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4351,7 +4345,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4394,7 +4388,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4412,7 +4406,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4455,7 +4449,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4471,7 +4465,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "singleComparisonReference": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:50.132373+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:34.855715+09:00",
       "ok": true,
       "reason": null,
       "referenceKind": "single_comparison",
@@ -4488,7 +4482,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "targetCurrentPriceAsOf": "2026-10-06",
       "targetCurrentPriceType": "confirmed_close",
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:50.132373+09:00",
+      "generatedAt": "2026-10-07T21:30:34.855715+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4558,7 +4552,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4601,7 +4595,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4619,7 +4613,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4662,7 +4656,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4680,7 +4674,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4723,7 +4717,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4741,7 +4735,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4784,7 +4778,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4802,7 +4796,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4845,7 +4839,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4863,7 +4857,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4906,7 +4900,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4924,7 +4918,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -4967,7 +4961,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -4985,7 +4979,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -5028,7 +5022,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -5046,7 +5040,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -5089,7 +5083,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -5107,7 +5101,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -5150,7 +5144,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -5168,7 +5162,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -5205,7 +5199,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -5223,7 +5217,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -5266,7 +5260,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -5284,7 +5278,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -5327,7 +5321,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -5345,7 +5339,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -5388,7 +5382,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -5406,7 +5400,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -5443,7 +5437,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -5461,7 +5455,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -5504,7 +5498,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
@@ -5522,7 +5516,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK_WITHHELD",
       "lastCheckNote": "가격 자료상태 문제: 통화 불일치: financial_currency='TWD', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": false,
       "reason": "가격 자료상태 문제: 통화 불일치: financial_currency='TWD', quote_currency='USD' (둘 다 'USD'이어야 함, 환전 미적용)",
       "diagnosticKind": null,
@@ -5538,7 +5532,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "estimatesFetchedAt": null,
       "multiples": null,
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "missing",
@@ -5558,7 +5552,7 @@ const INDEPENDENT_VALUATION_DATA = {
     "priceMultipleDiagnosticOnly": {
       "lastCheckStatus": "OK",
       "lastCheckNote": null,
-      "lastCheckCheckedAt": "2026-10-07T20:58:51.715556+09:00",
+      "lastCheckCheckedAt": "2026-10-07T21:30:36.689899+09:00",
       "ok": true,
       "reason": null,
       "diagnosticKind": "price_multiple_only_no_peer",
@@ -5601,7 +5595,7 @@ const INDEPENDENT_VALUATION_DATA = {
         }
       },
       "asOfDate": "2026-10-07",
-      "generatedAt": "2026-10-07T20:58:51.715556+09:00",
+      "generatedAt": "2026-10-07T21:30:36.689899+09:00",
       "generatedAtClass": "ok",
       "generatedAtAgeDays": 0,
       "priceDateClass": "ok",
