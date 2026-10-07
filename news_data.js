@@ -4660,7 +4660,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "SPY": {
@@ -10738,7 +10738,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "MSFT": {
@@ -18720,7 +18720,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "GOOGL": {
@@ -26724,7 +26724,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "AMZN": {
@@ -34698,7 +34698,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "META": {
@@ -42559,7 +42559,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "AAPL": {
@@ -50599,7 +50599,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "TSLA": {
@@ -58417,7 +58417,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "ORCL": {
@@ -66841,7 +66841,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "CRM": {
@@ -72729,7 +72729,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 127,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "PLTR": {
@@ -81245,7 +81245,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "NVDA": {
@@ -88949,11 +88949,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "AMD": {
-    "_last_attempt_at": 1791392455.0358646,
+    "_last_attempt_at": 1791393599.6223378,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -88963,32 +88963,82 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "AMD Plans a Big 2027 Supply Ramp. Wall Street Already Expects $38 Billion of New Revenue.",
+        "headline": "Advanced Micro Devices (AMD) Stock Sees Modest Fair Value Lift As AI Analysts Rework Targets",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=bcedf644d9117099b6ae3cfbb3f912ded832567c52fa08c5136b47731b81ace9",
-        "datetime": 1791363952,
+        "url": "https://finnhub.io/api/news?id=1b62e2d37443dcb1c1978cb9014583d2f2d85b2adb85b158f0fb1888a6784a63",
+        "datetime": 1791385940,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "월스트리트는 이미 380억 달러의 신규 수익을 기대하고 있습니다.",
-            "| TIKR.com 일반 AMD 투자는 2027년 대규모 공급 확대를 계획합니다.",
-            "월스트리트는 이미 380억 달러의 신규 수익을 기대하고 있습니다."
+            "Advanced Micro Devices (AMD) Stock Sees Modest Fair Value Lift As AI Analysts Rework Targets",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $38 Billion, 200%, $1 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'Advanced Micro Devices (AMD) Stock Sees Modest Fair Value Lift As AI Analysts Rework Targets' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791393603.8327303
+        },
+        "headlineKo": "AMD(Advanced Micro Devices) 주식은 AI 분석가의 재작업 목표에 따라 적당한 공정 가치 상승을 보입니다."
+      },
+      {
+        "headline": "HPE Stock Hits Record High After Company Adds 4 AMD-Powered Servers For Enterprise AI",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=892a3cc04a45b49f723a3af655b85260916407ce3135b5eb30abd40ab71cd97c",
+        "datetime": 1791384331,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "HPE 주가는 회사가 엔터프라이즈 AI AI 에이전트를 위한 4개의 AMD 기반 서버를 추가한 후 사상 최고치를 기록했습니다. 동향 뉴스 수익 전체 DIA 0.59% SPY 0.24% QQQ 0.36% 추세 MU 3.95% BULL 18.75% APLD 5.45% IREN 6.32% QXO 7.60% ONDS 3.91% DRAM 1.07% 고양이",
+            "기업이 엔터프라이즈 AI를 위해 4개의 AMD 기반 서버를 추가한 후 HPE 주식이 사상 최고치를 기록했습니다. 새로운 시스템은 클라우드 및 AI 비즈니스가 계속 확장됨에 따라 추론 및 기타 컴퓨팅 집약적인 워크로드를 위한 HPE의 서버 라인업을 확장합니다.",
+            "이 사진 그림에는 휴렛패커드엔터프라이즈(HPE) 로고가 스마트폰 화면에 표시된 모습이 담겨 있다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.59%, 0.24%, 0.36% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -88999,59 +89049,61 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
           ],
-          "interpretation": "AMD에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "AMD에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "$38 Billion",
-            "200%",
-            "$1 trillion",
-            "$2.10 billion",
-            "31%",
-            "$1.04 billion",
-            "$51 billion",
-            "$89 billion"
+            "0.59%",
+            "0.24%",
+            "0.36%",
+            "3.95%",
+            "18.75%",
+            "5.45%",
+            "6.32%",
+            "7.60%"
           ],
           "sourceExcerpt": [
-            "Wall Street Already Expects $38 Billion of New Revenue.",
-            "| TIKR.com General Investing AMD Plans a Big 2027 Supply Ramp.",
-            "Wall Street Already Expects $38 Billion of New Revenue."
+            "HPE Stock Hits Record High After Company Adds 4 AMD-Powered Servers For Enterprise AI AI Agent Trending News Earnings All DIA 0.59% SPY 0.24% QQQ 0.36% Trending MU 3.95% BULL 18.75% APLD 5.45% IREN 6.32% QXO 7.60% ONDS 3.91% DRAM 1.07% CAT ",
+            "HPE Stock Hits Record High After Company Adds 4 AMD-Powered Servers For Enterprise AI The new systems broaden HPE’s server lineup for inference and other compute-heavy workloads as its Cloud and AI business continues to expand.",
+            "In this photo illustration, the Hewlett Packard Enterprise (HPE) logo is seen displayed on a smartphone screen."
           ],
-          "analysisUpdatedAt": 1791370488.0507743
+          "analysisUpdatedAt": 1791393608.4258955
         },
-        "headlineKo": "AMD는 2027년 대규모 공급 확대를 계획하고 있습니다. 월스트리트는 이미 380억 달러의 신규 수익을 기대하고 있습니다."
+        "headlineKo": "HPE 주가는 기업 AI용 AMD 기반 서버 4대를 추가한 후 사상 최고치를 기록했습니다."
       },
       {
-        "headline": "What Jim Cramer Says About Advanced Micro Devices’ (AMD) AI Opportunity",
+        "headline": "AMD Is Up More Than 100X in 10 Years. Can It Repeat That Run?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=89588b2ba20767eeeee52b29237e7325312a576152be32b250d7da30f5e0455c",
-        "datetime": 1791363039,
+        "url": "https://finnhub.io/api/news?id=570f9c0033629f0d6ee642e8cd9d05897f6527311e497630dc19859d8823340f",
+        "datetime": 1791381623,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "What Jim Cramer Says About Advanced Micro Devices’ (AMD) AI Opportunity",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "AMD는 10년 동안 100배 이상 성장했습니다.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,807.00 −0.37% Dow Jones 51,253.00 −0.68% Nasdaq 100 31,150.50 −0.44% Russell 2000 2,803.25 −1.10% S&P 500 7,807.00 −0.37% 다우존스 51,253.00 −0.68% 나스닥 100 31,150.50 −0.44% 러셀 2000 2,803.25 −1.",
+            "AMD는 지난 10년 동안 수천 달러를 인생을 변화시키는 부로 변모시켰지만, 1조 달러 시가총액에서 동일한 성과를 거두면 오늘날 살아있는 모든 칩 거대 기업이 작아질 것입니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $626.97, $605.04, 3.5% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -89061,90 +89113,52 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
           ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'What Jim Cramer Says About Advanced Micro Devices’ (AMD) AI Opportunity' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "AMD에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791370491.2883909
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$626.97",
+            "$605.04",
+            "3.5%",
+            "90%",
+            "8895.27%",
+            "$6.97",
+            "$1.025 trillion",
+            "192%"
+          ],
+          "sourceExcerpt": [
+            "AMD Is Up More Than 100X in 10 Years.",
+            "Skip to content ❚❚ At close S&P 500 7,807.00 −0.37% Dow Jones 51,253.00 −0.68% Nasdaq 100 31,150.50 −0.44% Russell 2000 2,803.25 −1.10% S&P 500 7,807.00 −0.37% Dow Jones 51,253.00 −0.68% Nasdaq 100 31,150.50 −0.44% Russell 2000 2,803.25 −1.",
+            "AMD has turned a few thousand dollars into life-changing wealth over the past decade, but the same run from a trillion-dollar market cap would dwarf every chip giant alive today."
+          ],
+          "analysisUpdatedAt": 1791393612.2237005
         },
-        "headlineKo": "AMD(Advanced Micro Devices)의 AI 기회에 대해 Jim Cramer가 말하는 것"
+        "headlineKo": "AMD는 10년 동안 100배 이상 성장했습니다. 그 실행을 반복할 수 있나요?"
       },
       {
-        "headline": "AMD: The Hidden Economics Of Winning AI Market Share",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=bd40c6a14bf8fdaa3813dc537b5abefcf67bf1af4210f162b1dbb4d349f2f1c7",
-        "datetime": 1791351582,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "AMD: The Hidden Economics Of Winning AI Market Share",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD: The Hidden Economics Of Winning AI Market Share' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791370492.1483326
-        },
-        "headlineKo": "AMD: AI 시장 점유율 획득의 숨겨진 경제학"
-      },
-      {
-        "headline": "AMD Crossed $600, So Does Meta Get 160 Million AMD Shares For Free Now?",
+        "headline": "Advanced Micro Devices vs. Broadcom: Which Semiconductor Stock Is a Better Buy in 2026?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=34b452c616e21544eafa243b900c3c91380a353fe5c26c3f443eaca4971ff934",
-        "datetime": 1791351410,
-        "relevance": 1,
+        "url": "https://finnhub.io/api/news?id=9e0cdd6496c1eb1c37c25dd43b822e27b973719e83c6335e7f92b9b6b93c7317",
+        "datetime": 1791381602,
+        "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "AMD가 600달러를 넘었으니 Meta가 이제 1억 6천만 AMD 주식을 무료로 얻을 수 있을까요?"
+        "headlineKo": "Advanced Micro Devices vs. Broadcom: 2026년에는 어느 반도체 주식이 더 나은 매수인가?"
       },
       {
-        "headline": "Why NVDA, AMD, CRWD Stocks Surged To 52-Week Highs Today",
+        "headline": "Citi Raises AMD Price Target to $800 on Meta AI Demand",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f71cd315ce713cf74bac46d40855221cc5f4cc2fde04ea68f32696169df0d1a5",
-        "datetime": 1791346763,
+        "url": "https://finnhub.io/api/news?id=d6f8c3b725ed0185796d592a7f037e6142143747262264fb1b8ad7e7796ebbca",
+        "datetime": 1791379647,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "오늘 NVDA, AMD, CRWD 주식이 52주 최고가로 급등한 이유"
+        "headlineKo": "Citi, Meta AI 수요에 대해 AMD 가격 목표를 800달러로 인상"
       },
       {
         "headline": "AMD: The AI Momentum Train Looks Unstoppable, But I'm Pausing Accumulation (Downgrade)",
@@ -89160,6 +89174,199 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Advanced Micro Devices (AMD) Stock Sees Modest Fair Value Lift As AI Analysts Rework Targets",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1b62e2d37443dcb1c1978cb9014583d2f2d85b2adb85b158f0fb1888a6784a63",
+        "datetime": 1791385940,
+        "headlineKo": "AMD(Advanced Micro Devices) 주식은 AI 분석가의 재작업 목표에 따라 적당한 공정 가치 상승을 보입니다.",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Advanced Micro Devices (AMD) Stock Sees Modest Fair Value Lift As AI Analysts Rework Targets",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'Advanced Micro Devices (AMD) Stock Sees Modest Fair Value Lift As AI Analysts Rework Targets' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791393603.8327303
+        }
+      },
+      {
+        "headline": "HPE Stock Hits Record High After Company Adds 4 AMD-Powered Servers For Enterprise AI",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=892a3cc04a45b49f723a3af655b85260916407ce3135b5eb30abd40ab71cd97c",
+        "datetime": 1791384331,
+        "headlineKo": "HPE 주가는 기업 AI용 AMD 기반 서버 4대를 추가한 후 사상 최고치를 기록했습니다.",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "HPE 주가는 회사가 엔터프라이즈 AI AI 에이전트를 위한 4개의 AMD 기반 서버를 추가한 후 사상 최고치를 기록했습니다. 동향 뉴스 수익 전체 DIA 0.59% SPY 0.24% QQQ 0.36% 추세 MU 3.95% BULL 18.75% APLD 5.45% IREN 6.32% QXO 7.60% ONDS 3.91% DRAM 1.07% 고양이",
+            "기업이 엔터프라이즈 AI를 위해 4개의 AMD 기반 서버를 추가한 후 HPE 주식이 사상 최고치를 기록했습니다. 새로운 시스템은 클라우드 및 AI 비즈니스가 계속 확장됨에 따라 추론 및 기타 컴퓨팅 집약적인 워크로드를 위한 HPE의 서버 라인업을 확장합니다.",
+            "이 사진 그림에는 휴렛패커드엔터프라이즈(HPE) 로고가 스마트폰 화면에 표시된 모습이 담겨 있다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.59%, 0.24%, 0.36% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "AMD에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.59%",
+            "0.24%",
+            "0.36%",
+            "3.95%",
+            "18.75%",
+            "5.45%",
+            "6.32%",
+            "7.60%"
+          ],
+          "sourceExcerpt": [
+            "HPE Stock Hits Record High After Company Adds 4 AMD-Powered Servers For Enterprise AI AI Agent Trending News Earnings All DIA 0.59% SPY 0.24% QQQ 0.36% Trending MU 3.95% BULL 18.75% APLD 5.45% IREN 6.32% QXO 7.60% ONDS 3.91% DRAM 1.07% CAT ",
+            "HPE Stock Hits Record High After Company Adds 4 AMD-Powered Servers For Enterprise AI The new systems broaden HPE’s server lineup for inference and other compute-heavy workloads as its Cloud and AI business continues to expand.",
+            "In this photo illustration, the Hewlett Packard Enterprise (HPE) logo is seen displayed on a smartphone screen."
+          ],
+          "analysisUpdatedAt": 1791393608.4258955
+        }
+      },
+      {
+        "headline": "AMD Is Up More Than 100X in 10 Years. Can It Repeat That Run?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=570f9c0033629f0d6ee642e8cd9d05897f6527311e497630dc19859d8823340f",
+        "datetime": 1791381623,
+        "headlineKo": "AMD는 10년 동안 100배 이상 성장했습니다. 그 실행을 반복할 수 있나요?",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AMD는 10년 동안 100배 이상 성장했습니다.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,807.00 −0.37% Dow Jones 51,253.00 −0.68% Nasdaq 100 31,150.50 −0.44% Russell 2000 2,803.25 −1.10% S&P 500 7,807.00 −0.37% 다우존스 51,253.00 −0.68% 나스닥 100 31,150.50 −0.44% 러셀 2000 2,803.25 −1.",
+            "AMD는 지난 10년 동안 수천 달러를 인생을 변화시키는 부로 변모시켰지만, 1조 달러 시가총액에서 동일한 성과를 거두면 오늘날 살아있는 모든 칩 거대 기업이 작아질 것입니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $626.97, $605.04, 3.5% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "AMD에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$626.97",
+            "$605.04",
+            "3.5%",
+            "90%",
+            "8895.27%",
+            "$6.97",
+            "$1.025 trillion",
+            "192%"
+          ],
+          "sourceExcerpt": [
+            "AMD Is Up More Than 100X in 10 Years.",
+            "Skip to content ❚❚ At close S&P 500 7,807.00 −0.37% Dow Jones 51,253.00 −0.68% Nasdaq 100 31,150.50 −0.44% Russell 2000 2,803.25 −1.10% S&P 500 7,807.00 −0.37% Dow Jones 51,253.00 −0.68% Nasdaq 100 31,150.50 −0.44% Russell 2000 2,803.25 −1.",
+            "AMD has turned a few thousand dollars into life-changing wealth over the past decade, but the same run from a trillion-dollar market cap would dwarf every chip giant alive today."
+          ],
+          "analysisUpdatedAt": 1791393612.2237005
+        }
+      },
+      {
+        "headline": "Advanced Micro Devices vs. Broadcom: Which Semiconductor Stock Is a Better Buy in 2026?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9e0cdd6496c1eb1c37c25dd43b822e27b973719e83c6335e7f92b9b6b93c7317",
+        "datetime": 1791381602,
+        "headlineKo": "Advanced Micro Devices vs. Broadcom: 2026년에는 어느 반도체 주식이 더 나은 매수인가?",
+        "relevance": 0.4,
+        "keywordFlag": false
+      },
+      {
+        "headline": "Citi Raises AMD Price Target to $800 on Meta AI Demand",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d6f8c3b725ed0185796d592a7f037e6142143747262264fb1b8ad7e7796ebbca",
+        "datetime": 1791379647,
+        "headlineKo": "Citi, Meta AI 수요에 대해 AMD 가격 목표를 800달러로 인상",
+        "relevance": 1,
+        "keywordFlag": false
+      },
       {
         "headline": "AMD Plans a Big 2027 Supply Ramp. Wall Street Already Expects $38 Billion of New Revenue.",
         "source": "Yahoo",
@@ -96656,184 +96863,18 @@ const NEWS_DATA = {
           ],
           "analysisUpdatedAt": 1790041310.2291138
         }
-      },
-      {
-        "headline": "Dow Jones Futures: Falling Oil Prices, Yields Spark Market Rally; AMD, Intel, Micron, Nvidia, Sandisk Are Key Movers",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2a965795bdbd096ed40eab32fa4f9c1b24ff1d694581a8ad0ef479a1e6ec4985",
-        "datetime": 1790025205,
-        "headlineKo": "다우존스 선물: 유가 하락, 시장 랠리 확산; AMD, Intel, Micron, Nvidia, Sandisk가 핵심 이동자입니다.",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Dow Jones Futures: Falling Oil Prices, Yields Spark Market Rally; AMD, Intel, Micron, Nvidia, Sandisk Are Key Movers",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'Dow Jones Futures: Falling Oil Prices, Yields Spark Market Rally; AMD, Intel, Micron, Nvidia, Sandisk Are Key Movers' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790041312.4557736
-        }
-      },
-      {
-        "headline": "Meta’s Muse AI Agent Triggers Intel, Chip Stock Rally. AMD Hits $1T Market Cap.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5b4e970cb47f994900a34f398272a08e66a4fad243837548ff09fcc191d531f4",
-        "datetime": 1790023140,
-        "headlineKo": "Meta의 Muse AI 에이전트가 Intel, 칩 재고 랠리를 촉발했습니다. AMD는 시가총액 1조 달러를 달성했습니다.",
-        "relevance": 1,
-        "keywordFlag": false
-      },
-      {
-        "headline": "AMD Joins the $1 Trillion Market Cap Club",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c76b6cc7791416783613b6af01332f551364ab823f25a900cfc526959b4145d2",
-        "datetime": 1790021235,
-        "headlineKo": "AMD, 1조 달러 시가총액 클럽에 합류",
-        "relevance": 1,
-        "keywordFlag": false
-      },
-      {
-        "headline": "AMD joins $1 trillion market cap club on AI computing bets",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c453dc09131b23962e72871440cbca8345ef882c774fb9d94c03a9cb388c956a",
-        "datetime": 1790011421,
-        "headlineKo": "AMD, AI 컴퓨팅 베팅으로 1조 달러 시가총액 클럽에 합류",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "AMD joins $1 trillion market cap club on AI computing bets",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD joins $1 trillion market cap club on AI computing bets' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790019174.894047
-        }
-      },
-      {
-        "headline": "Chip Stocks Rise As Four New Names Join SOX Index. AMD Breaks Out.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=27c4efa61c5ddb88cc42f8654b48f3b5d15e38a2934a89f92e2b1bbc1a01043b",
-        "datetime": 1790011196,
-        "headlineKo": "4개의 새로운 이름이 SOX 지수에 합류하면서 칩 주식이 상승합니다. AMD가 무너졌습니다.",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Chip Stocks Rise As Four New Names Join SOX Index. AMD Breaks Out.",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'Chip Stocks Rise As Four New Names Join SOX Index. AMD Breaks Out.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790019176.73343
-        }
       }
     ],
-    "_fetched_at": 1791370481.596142,
-    "_updated_label": "2026-10-07 19:54",
-    "_last_success_at": 1791370481.596142,
-    "_collection_status": "error",
+    "_fetched_at": 1791393599.6223378,
+    "_updated_label": "2026-10-08 02:20",
+    "_last_success_at": 1791393599.6223378,
+    "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
-    },
-    "_last_error": "The read operation timed out"
+      "updated": "2026-10-08 02:20"
+    }
   },
   "AVGO": {
     "_last_attempt_at": 1791391194.4294116,
@@ -104822,7 +104863,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 163,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "QCOM": {
@@ -110937,7 +110978,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "ARM": {
@@ -115295,7 +115336,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "MRVL": {
@@ -121939,7 +121980,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 141,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "INTC": {
@@ -130183,7 +130224,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "TSM": {
@@ -135663,7 +135704,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "ASML": {
@@ -139219,7 +139260,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "AMAT": {
@@ -143215,7 +143256,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "LRCX": {
@@ -145365,7 +145406,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "KLAC": {
@@ -147422,7 +147463,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "MU": {
@@ -154970,7 +155011,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "SNDK": {
@@ -161790,7 +161831,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 143,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "WDC": {
@@ -165833,7 +165874,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "ANET": {
@@ -168972,7 +169013,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "COHR": {
@@ -171770,7 +171811,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "LITE": {
@@ -174482,7 +174523,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "GEV": {
@@ -178992,7 +179033,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "CEG": {
@@ -182899,7 +182940,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "VST": {
@@ -185981,7 +186022,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "ETN": {
@@ -188739,7 +188780,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "PWR": {
@@ -191309,7 +191350,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "HUBB": {
@@ -191980,7 +192021,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "VRT": {
@@ -195484,7 +195525,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "MOD": {
@@ -196731,7 +196772,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "STX": {
@@ -200253,7 +200294,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "EME": {
@@ -201666,7 +201707,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "FIX": {
@@ -203055,7 +203096,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   },
   "BE": {
@@ -205022,7 +205063,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-10-08 02:01"
+      "updated": "2026-10-08 02:20"
     }
   }
 };
