@@ -4885,7 +4885,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "SPY": {
@@ -11173,7 +11173,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 127,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "MSFT": {
@@ -19079,7 +19079,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "GOOGL": {
@@ -26859,7 +26859,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "AMZN": {
@@ -34782,7 +34782,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "META": {
@@ -42667,7 +42667,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "AAPL": {
@@ -50739,7 +50739,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "TSLA": {
@@ -58660,7 +58660,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "ORCL": {
@@ -58808,7 +58808,47 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "오라클과 이 6개 주식은 Mizuho Top Picks 목록에 최근 추가되었습니다."
+        "headlineKo": "오라클과 이 6개 주식은 Mizuho Top Picks 목록에 최근 추가되었습니다.",
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "오라클과 이 6개 주식은 Mizuho Top Picks 목록에 최근 추가되었습니다.",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ORCL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ORCL의 사업과 관련된 '오라클과 이 6개 주식은 Mizuho Top Picks 목록에 최근 추가되었습니다.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ORCL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791483086.5012422
+        }
       },
       {
         "headline": "Oracle Courts Apollo and Goldman for AI Chip Financing as Debt Tops $169 Billion",
@@ -59149,7 +59189,47 @@ const NEWS_DATA = {
         "datetime": 1791457320,
         "headlineKo": "오라클과 이 6개 주식은 Mizuho Top Picks 목록에 최근 추가되었습니다.",
         "relevance": 0.5,
-        "keywordFlag": false
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "오라클과 이 6개 주식은 Mizuho Top Picks 목록에 최근 추가되었습니다.",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ORCL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ORCL의 사업과 관련된 '오라클과 이 6개 주식은 Mizuho Top Picks 목록에 최근 추가되었습니다.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ORCL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791483086.5012422
+        }
       },
       {
         "headline": "Oracle Courts Apollo and Goldman for AI Chip Financing as Debt Tops $169 Billion",
@@ -67139,9 +67219,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 189,
-      "removed": 1,
-      "updated": "2026-10-09 03:08"
+      "checked": 188,
+      "removed": 0,
+      "updated": "2026-10-09 03:11"
     }
   },
   "CRM": {
@@ -73330,7 +73410,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 132,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "PLTR": {
@@ -81930,7 +82010,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "NVDA": {
@@ -89499,7 +89579,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "AMD": {
@@ -97382,7 +97462,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "AVGO": {
@@ -106080,7 +106160,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 179,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "QCOM": {
@@ -112404,7 +112484,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 140,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "ARM": {
@@ -117128,7 +117208,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "MRVL": {
@@ -124384,7 +124464,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 156,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "INTC": {
@@ -132756,7 +132836,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "TSM": {
@@ -138623,7 +138703,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "ASML": {
@@ -142572,7 +142652,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 80,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "AMAT": {
@@ -146761,7 +146841,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "LRCX": {
@@ -149045,7 +149125,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "KLAC": {
@@ -151277,7 +151357,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "MU": {
@@ -158834,7 +158914,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "SNDK": {
@@ -166017,7 +166097,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 151,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "WDC": {
@@ -170207,7 +170287,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "ANET": {
@@ -173522,7 +173602,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "COHR": {
@@ -176418,7 +176498,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "LITE": {
@@ -179339,7 +179419,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "GEV": {
@@ -184104,7 +184184,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "CEG": {
@@ -188174,7 +188254,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "VST": {
@@ -191256,7 +191336,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "ETN": {
@@ -194063,7 +194143,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "PWR": {
@@ -196633,7 +196713,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "HUBB": {
@@ -197401,7 +197481,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "VRT": {
@@ -201080,7 +201160,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "MOD": {
@@ -202358,7 +202438,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "STX": {
@@ -206234,7 +206314,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "EME": {
@@ -207840,7 +207920,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "FIX": {
@@ -209385,7 +209465,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   },
   "BE": {
@@ -211451,7 +211531,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-09 03:08"
+      "updated": "2026-10-09 03:11"
     }
   }
 };
