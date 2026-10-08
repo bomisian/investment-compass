@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.920000076293945,
+      "current": 15.770000457763672,
       "prevClose": 15.079999923706055,
-      "changeAbs": 0.8400001525878906,
-      "changePct": 5.57029281722604,
-      "pctRank": 31.18536197295147,
+      "changeAbs": 0.6900005340576172,
+      "changePct": 4.575600381621507,
+      "pctRank": 29.116945107398568,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -48.727856787538315,
-      "ma20": 15.729000091552734,
-      "ma60": 15.985333331425984,
-      "chg1m": -0.5399990081787109,
-      "chg3m": -1.239999771118164,
-      "chg1mPct": -3.280674594253851,
-      "chg3mPct": -7.22610595655202,
+      "drawdown1y": -49.210947358282155,
+      "ma20": 15.72150011062622,
+      "ma60": 15.982833337783813,
+      "chg1m": -0.6899986267089844,
+      "chg3m": -1.3899993896484375,
+      "chg1mPct": -4.191972448892092,
+      "chg3mPct": -8.100229615433607,
       "lastDate": "2026-10-08",
       "bars": 1257,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 92.62999725341797,
+      "current": 92.27999877929688,
       "prevClose": 88.27999877929688,
-      "changeAbs": 4.349998474121094,
-      "changePct": 4.927501737960196,
-      "pctRank": 85.60063643595863,
+      "changeAbs": 4.0,
+      "changePct": 4.531037670265653,
+      "pctRank": 85.04375497215592,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -17.99026139339834,
-      "ma20": 94.88100051879883,
-      "ma60": 88.28650042215983,
-      "chg1m": -3.4200057983398438,
-      "chg3m": 21.219993591308594,
-      "chg1mPct": -3.5606514207989446,
-      "chg3mPct": 29.71571559037472,
+      "drawdown1y": -18.300131675450203,
+      "ma20": 94.86350059509277,
+      "ma60": 88.28066711425781,
+      "chg1m": -3.7700042724609375,
+      "chg3m": 20.8699951171875,
+      "chg1mPct": -3.9250433656201142,
+      "chg3mPct": 29.225590319163164,
       "lastDate": "2026-10-08",
       "bars": 1257,
       "symbol": "CL=F",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4136.5,
+      "current": 4147.2001953125,
       "prevClose": 4140.7001953125,
-      "changeAbs": -4.2001953125,
-      "changePct": -0.10143683711404297,
-      "pctRank": 84.02225755166933,
+      "changeAbs": 6.5,
+      "changePct": 0.15697828129064637,
+      "pctRank": 84.41971383147853,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -22.222847548994995,
-      "ma20": 4276.20498046875,
-      "ma60": 4320.666662597656,
-      "chg1m": -324.2001953125,
-      "chg3m": 22.7998046875,
-      "chg1mPct": -7.267921651699072,
-      "chg3mPct": 0.5542407955125178,
+      "drawdown1y": -22.021655545592157,
+      "ma20": 4276.739990234375,
+      "ma60": 4320.844999186198,
+      "chg1m": -313.5,
+      "chg3m": 33.5,
+      "chg1mPct": -7.0280446179601945,
+      "chg3mPct": 0.8143520045085626,
       "lastDate": "2026-10-08",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,6 +237,24 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Russia, China hypersonic missile threats fuel need for space defense, satellite CEO says",
+      "summary": "Space-based systems could detect and track incoming missile threats and intercept them either from land or space.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/08/space-missile-defense-interceptors-russia-china.html",
+      "datetime": 1791457479,
+      "headlineKo": "러시아와 중국의 극초음속 미사일 위협으로 우주 방어 필요성이 커진다고 위성 CEO가 밝혔습니다.",
+      "summaryKo": "우주 기반 시스템은 들어오는 미사일 위협을 탐지 및 추적하고 지상이나 우주에서 이를 요격할 수 있습니다."
+    },
+    {
+      "headline": "Iran’s wartime hunt for protesters at home and abroad ushers in a new era of repression - Reuters",
+      "summary": "Iran’s wartime hunt for protesters at home and abroad ushers in a new era of repression Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSFg5SnpPNHdMZFV1S01HeXZOZDVZQk84Xy05N2UxcHZZV3h5aXctVWVrc0FQRUgzdFlFTENpczRzMDBFZWNnOXZLT0Y2YldoOVhTejN2dHJPN3NYdV9BWkxMWTR3Tkhyem5ONTN5cG8tRHI5cm1rTC1kdk5xTHVGRw?oc=5",
+      "datetime": 1791456045,
+      "headlineKo": "이란의 국내외 시위대 진압은 새로운 탄압 시대를 열었다 - 로이터 통신",
+      "summaryKo": "이란의 전시 국내외 시위대 사냥은 새로운 탄압 시대를 열다 - 최신"
+    },
+    {
       "headline": "NFL tells Supreme Court prediction markets are gambling and should be regulated by the states",
       "summary": "In an amicus brief supporting New Jersey regulators in their battle against Kalshi, the NFL argues sports prediction contracts are effectively gambling",
       "source": "CNBC",
@@ -264,13 +282,13 @@ const MARKET_DATA = {
       "summaryKo": "논평: 중동 석유 시장 점유율을 위한 전투는 이미 시작되었습니다."
     },
     {
-      "headline": "Britain removes East Jerusalem consulate signage as Israeli shutdown order expires - Reuters",
-      "summary": "Britain removes East Jerusalem consulate signage as Israeli shutdown order expires Reuters",
+      "headline": "British diplomats to remain at scaled-down mission in Jerusalem - Reuters",
+      "summary": "British diplomats to remain at scaled-down mission in Jerusalem Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVUg1YkxrX0dOY19KSDkyWmR0VWJWSFhkWVhvZ3FYdE1kNG5iZG9GMEdQOXpwNHkyc2FlQW1TTnRpRDhnOVhST3VJM1FZUTlJd3pUNURSNHJjMFljaWl0ak1hR0JNdzNQdDBJQk16X2VlVjVYMDlfM0JRR1doVEhUdEpreVNxSkN5WlYtbmI0NUUxMlExMmRiOEx0RjR5R1JLSDI0ZXhxeXRZOEZPdmZ0VjhJTEJjQmVDTlVlRkxuV2tPTmtBazV0ZGdoeWdfUQ?oc=5",
       "datetime": 1791432780,
-      "headlineKo": "영국, 이스라엘 폐쇄 명령 만료로 동예루살렘 영사관 간판 제거 - 로이터 통신",
-      "summaryKo": "영국, 이스라엘 폐쇄 명령 만료로 동예루살렘 영사관 간판 제거 - 최신"
+      "headlineKo": "영국 외교관, 예루살렘에서 축소된 임무 유지 - 로이터",
+      "summaryKo": "영국 외교관, 예루살렘에서 축소된 임무 유지 - 최신"
     },
     {
       "headline": "Hormuz transits at lowest in over two months after attacks, data shows - Reuters",
@@ -291,13 +309,13 @@ const MARKET_DATA = {
       "summaryKo": "예멘 후티 반군이 탄도미사일로 리야드 공항을 공격했다고 밝혔습니다."
     },
     {
-      "headline": "Oil rises as Middle East supply concerns persist amid shipping attacks - Reuters",
-      "summary": "Oil rises as Middle East supply concerns persist amid shipping attacks Reuters",
+      "headline": "Oil jumps as Middle East supply concerns persist amid shipping attacks - Reuters",
+      "summary": "Oil jumps as Middle East supply concerns persist amid shipping attacks Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZlloTmR5SkZfME9kcjlVcENtQzFrdmc2cnJfTWthWWJYcFIwZFFGNUs5Y2Y2TkR0MjE2STZ3WXktSXJRRmRiXzZYTnQ4clNNZlNQempZRzFPTERYUXpFM1d0SUJoUzFyN3FLRTg0d3UtckZWbWpWM01DNVJIUEdBTTkyd0dFaDgwX0llWXBtMXV1dVROdXUwVUF6VG9Ca3BReDdJTzNhT0d3RjcwUVF5TS12N1ZWNzJXdlRz?oc=5",
       "datetime": 1791422700,
-      "headlineKo": "해운 공격으로 중동 공급 우려가 지속되면서 유가 상승 - 로이터",
-      "summaryKo": "해운 공격으로 중동 공급 우려가 지속되면서 유가 상승 - 최신"
+      "headlineKo": "해운 공격으로 중동 공급 우려가 지속되면서 유가 급등 - Reuters",
+      "summaryKo": "해운 공격으로 중동 공급 우려가 지속되면서 유가 급등 - 로이터"
     },
     {
       "headline": "Oil price volatility tops list of earnings risks for Japan firms: Reuters poll - Reuters",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1791412245,
       "headlineKo": "Hegseth는 기록적인 항공모함 배치 후 선원들의 회복력을 칭찬했습니다. - Reuters",
       "summaryKo": "Hegseth는 기록적인 항공모함 배치 이후 선원들의 회복력을 칭찬했습니다. Reuters"
-    },
-    {
-      "headline": "Trump says he deserves Nobel Peace Prize but has doubts he will get it - Reuters",
-      "summary": "Trump says he deserves Nobel Peace Prize but has doubts he will get it Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVEkzVEpocHRSSC0xV0JGVnotWHZGZDB4TzBoU0lIem5rMllUWHE5Q1g2NFZRZDd5eW9Vd2R4VTBiQlZWaHJGbjl0YTBPUFlJU1V6QnhJWll0SjZlVEY5bUlnTTJhZEM3dTNaVVpBV1oyRUxlZ3BmRHBvRk9NM3FTUy12X1Y2dU5ReTk3SUdCbk1pemlJSEJyYzhiMFExR1FXUmY4N0hBQ3VZb3RjbDFhU2dHNlV6dw?oc=5",
-      "datetime": 1791405943,
-      "headlineKo": "트럼프 “노벨평화상 받을 자격 있지만 받을 수 있을지 의문” - 로이터",
-      "summaryKo": "트럼프는 자신이 노벨 평화상을 받을 자격이 있지만 자신이 받을 수 있을지 의문이라고 말했습니다."
-    },
-    {
-      "headline": "SpaceX’s plans to buy more Nvidia GPUs is keeping Jim Cramer bullish on the chip stock",
-      "summary": "SpaceX shows that companies are making a return on their AI compute investments, according to Jim Cramer.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/10/07/spacexs-plans-to-buy-more-nvidia-gpus-is-keeping-jim-cramer-bullish-on-the-chip-stock-.html",
-      "datetime": 1791404688,
-      "headlineKo": "더 많은 Nvidia GPU를 구매하려는 SpaceX의 계획으로 인해 Jim Cramer는 칩 주식에 대한 강세를 유지하고 있습니다.",
-      "summaryKo": "Jim Cramer에 따르면 SpaceX는 기업들이 AI 컴퓨팅 투자에 대한 수익을 창출하고 있음을 보여줍니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791456451.5457802,
+  "_news_last_success_at": 1791460752.5888638,
   "fgi": {
     "score": 44.6571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1791456440.664294,
-  "_updated_label": "2026-10-08 19:48",
-  "_last_attempt_at": 1791456440.664294,
-  "_last_success_at": 1791456440.664294,
+  "_fetched_at": 1791460731.3651474,
+  "_updated_label": "2026-10-08 20:59",
+  "_last_attempt_at": 1791460731.3651474,
+  "_last_success_at": 1791460731.3651474,
   "_collection_status": "ok",
   "_collection_errors": []
 };
