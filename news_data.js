@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1791439604.5377052,
+    "_last_attempt_at": 1791462635.819139,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -22,13 +22,13 @@ const NEWS_DATA = {
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500 및 Nasdaq 100은 국채 수익률 급등으로 인한 압력으로 사상 최고치에서 하락 — SPCX, AMD, NVDA, MRVL In Focus AI 에이전트 동향 뉴스 수익 전체 DIA 0.22% SPY 0.08% QQQ 0.18% Trending HOOD 0.82% BULL APLD 4.75% USO 1.58% 바바 0",
+            "S&P 500 및 Nasdaq 100은 치솟는 국채 수익률로 인한 압력으로 사상 최고치에서 하락했습니다. SPCX, AMD, NVDA, MRVL In Focus AI 에이전트 동향 뉴스 수익 전체 DIA 0.68% SPY 0.35% QQQ 0.57% 추세 APLD 1.81% PLTR 2.22% PEP 1.59% WOLF 14.73%",
             "S&P 500과 Nasdaq 100은 국채 수익률 급등으로 인한 압력으로 사상 최고치에서 하락했습니다. SPCX, AMD, NVDA, MRVL 집중 30년 만기 채권 수익률은 5.732%로 2002년 5월 이후 최고치를 기록했습니다.",
             "트레이더들이 2026년 7월 23일 뉴욕시 뉴욕증권거래소(NYSE) 1층에서 일하고 있다."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.22%, 0.08%, 0.18% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.68%, 0.35%, 0.57% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -52,21 +52,21 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.22%",
-            "0.08%",
-            "0.18%",
-            "0.82%",
-            "4.75%",
-            "1.58%",
-            "0.49%",
-            "1.37%"
+            "0.68%",
+            "0.35%",
+            "0.57%",
+            "1.81%",
+            "2.22%",
+            "1.59%",
+            "14.73%",
+            "0.90%"
           ],
           "sourceExcerpt": [
-            "S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields — SPCX, AMD, NVDA, MRVL In Focus AI Agent Trending News Earnings All DIA 0.22% SPY 0.08% QQQ 0.18% Trending HOOD 0.82% BULL APLD 4.75% USO 1.58% BABA 0",
+            "S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields — SPCX, AMD, NVDA, MRVL In Focus AI Agent Trending News Earnings All DIA 0.68% SPY 0.35% QQQ 0.57% Trending APLD 1.81% PLTR 2.22% PEP 1.59% WOLF 14.73%",
             "S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields — SPCX, AMD, NVDA, MRVL In Focus The 30-year bond yield hit its highest level since May 2002 at 5.732%.",
             "Traders work on the floor of the New York Stock Exchange (NYSE) on July 23, 2026 in New York City."
           ],
-          "analysisUpdatedAt": 1791439610.0701027
+          "analysisUpdatedAt": 1791462643.4649012
         },
         "headlineKo": "S&P 500과 Nasdaq 100은 국채 수익률 급증으로 인한 압력으로 사상 최고치에서 하락 — SPCX, AMD, NVDA, MRVL 집중"
       },
@@ -88,11 +88,11 @@ const NEWS_DATA = {
           "facts": [
             "JEPQ는 1년 동안 $300,000에 $17,970로 Nasdaq-100을 추격했습니다.",
             "Covered Call이 필요한 이유 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,806.00 −0.01% Dow Jones 51,149.80 −0.09% Nasdaq 100 31,199.80 +0.03% Russell 2000 2,793.44 −0.18% S&P 500 7,806.00 −0.01% 다우존스 51,149.80 −0.09% 나스닥 100 31,199.80 +0.03% 러셀 2000 2,793.44 −0."
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,777.60 −0.38% Dow Jones 50,853.80 −0.66% Nasdaq 100 30,970.80 −0.70% Russell 2000 2,775.14 −0.83% S&P 500 7,777.60 −0.38% 다우존스 50,853.80 −0.66% 나스닥 100 30,970.80 −0.70% 러셀 2000 2,775.14 −0."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $17,970, $300,000, 0.01% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: $17,970, $300,000, 0.38% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -118,19 +118,19 @@ const NEWS_DATA = {
           "verifiedNumbers": [
             "$17,970",
             "$300,000",
-            "0.01%",
-            "0.09%",
-            "0.03%",
-            "0.18%",
+            "0.38%",
+            "0.66%",
+            "0.70%",
+            "0.83%",
             "$359,160.",
             "$377,130."
           ],
           "sourceExcerpt": [
             "JEPQ Trailed the Nasdaq-100 by $17,970 on $300,000 Over One Year.",
             "The Covered Calls Are Why - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,806.00 −0.01% Dow Jones 51,149.80 −0.09% Nasdaq 100 31,199.80 +0.03% Russell 2000 2,793.44 −0.18% S&P 500 7,806.00 −0.01% Dow Jones 51,149.80 −0.09% Nasdaq 100 31,199.80 +0.03% Russell 2000 2,793.44 −0."
+            "Skip to content ❚❚ At close S&P 500 7,777.60 −0.38% Dow Jones 50,853.80 −0.66% Nasdaq 100 30,970.80 −0.70% Russell 2000 2,775.14 −0.83% S&P 500 7,777.60 −0.38% Dow Jones 50,853.80 −0.66% Nasdaq 100 30,970.80 −0.70% Russell 2000 2,775.14 −0."
           ],
-          "analysisUpdatedAt": 1791439613.1847668
+          "analysisUpdatedAt": 1791462647.3607366
         },
         "headlineKo": "JEPQ는 1년 동안 $300,000에 $17,970로 Nasdaq-100을 추격했습니다. 커버드콜이 필요한 이유"
       },
@@ -150,13 +150,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "오늘의 주식 시장: 이란이 미국 경제를 조롱함에 따라 다우 존스, 나스닥 100 선물 하락, 트럼프가 Bipartis를 촉발함 - Benzinga SPY 778.74 QQQ 757.01 −0.35% BTC/USD 83,838.00 −2.00% DIA 513.84 GLD 377.80 −1.17% TLT 76.77 −0.66% US 로그인 회원가입 내",
+            "오늘의 주식 시장: 30년 만기 국채 수익률이 2002년 최고치를 기록하면서 S&P 500, 다우, 나스닥 선물 하락; Iran Mock - Benzinga SPY 774.28 QQQ 753.88 BTC/USD 83,101.69 −0.21% DIA 506.96 GLD 377.81 +0.51% TLT 76.64 −0.65% US 로그인 내 계정 등록",
             "주식은 화요일 종가에 이어 다우존스, S&P 500, 나스닥 100 지수 선물이 하락하면서 수요일 하락세로 개장할 것으로 보입니다.",
-            "도널드 트럼프 대통령이 이란에 대한 발언으로 초당적 반발을 촉발한 이후 정치적 낙진과 중동 긴장 고조가 헤드라인을 장식했습니다."
+            "시장의 역풍에 미국이 더해졌습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.35%, 2.00%, 1.17% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.21%, 0.51%, 0.65% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -180,21 +180,21 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.35%",
-            "2.00%",
-            "1.17%",
-            "0.66%",
-            "$101",
-            "5.30%",
-            "4.80%",
-            "19.4%"
+            "0.21%",
+            "0.51%",
+            "0.65%",
+            "5.71%",
+            "5.33%",
+            "4.81%",
+            "21.6%",
+            "$101"
           ],
           "sourceExcerpt": [
-            "Stock Market Today: Dow Jones, Nasdaq 100 Futures Decline as Iran Mocks US Economy, Trump Sparks Bipartis - Benzinga SPY 778.74 QQQ 757.01 −0.35% BTC/USD 83,838.00 −2.00% DIA 513.84 GLD 377.80 −1.17% TLT 76.77 −0.66% US Sign in Register My ",
+            "Stock Market Today: S&P 500, Dow, Nasdaq Futures Fall as 30-Year Treasury Yield Hits 2002 High; Iran Mock - Benzinga SPY 774.28 QQQ 753.88 BTC/USD 83,101.69 −0.21% DIA 506.96 GLD 377.81 +0.51% TLT 76.64 −0.65% US Sign in Register My Account",
             "stocks look set to open on a negative note on Wednesday, with futures of the Dow Jones, S&P 500 and Nasdaq 100 indices falling, following Tuesday’s higher close.",
-            "Political fallout and rising Middle East tensions dominated headlines after President Donald Trump sparked bipartisan backlash over his remarks on Iran."
+            "Adding to the market’s headwinds, U.S."
           ],
-          "analysisUpdatedAt": 1791439615.6645973
+          "analysisUpdatedAt": 1791462652.915478
         },
         "headlineKo": "오늘의 주식 시장: 30년 만기 국채 수익률이 2002년 최고치를 기록하면서 S&P 500, 다우, 나스닥 선물 하락; 이란은 미국 경제를 조롱합니다 — STZ, PENG, LEVI 초점 (업데이트됨)"
       },
@@ -353,13 +353,13 @@ const NEWS_DATA = {
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500 및 Nasdaq 100은 국채 수익률 급등으로 인한 압력으로 사상 최고치에서 하락 — SPCX, AMD, NVDA, MRVL In Focus AI 에이전트 동향 뉴스 수익 전체 DIA 0.22% SPY 0.08% QQQ 0.18% Trending HOOD 0.82% BULL APLD 4.75% USO 1.58% 바바 0",
+            "S&P 500 및 Nasdaq 100은 치솟는 국채 수익률로 인한 압력으로 사상 최고치에서 하락했습니다. SPCX, AMD, NVDA, MRVL In Focus AI 에이전트 동향 뉴스 수익 전체 DIA 0.68% SPY 0.35% QQQ 0.57% 추세 APLD 1.81% PLTR 2.22% PEP 1.59% WOLF 14.73%",
             "S&P 500과 Nasdaq 100은 국채 수익률 급등으로 인한 압력으로 사상 최고치에서 하락했습니다. SPCX, AMD, NVDA, MRVL 집중 30년 만기 채권 수익률은 5.732%로 2002년 5월 이후 최고치를 기록했습니다.",
             "트레이더들이 2026년 7월 23일 뉴욕시 뉴욕증권거래소(NYSE) 1층에서 일하고 있다."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.22%, 0.08%, 0.18% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.68%, 0.35%, 0.57% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -383,21 +383,21 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.22%",
-            "0.08%",
-            "0.18%",
-            "0.82%",
-            "4.75%",
-            "1.58%",
-            "0.49%",
-            "1.37%"
+            "0.68%",
+            "0.35%",
+            "0.57%",
+            "1.81%",
+            "2.22%",
+            "1.59%",
+            "14.73%",
+            "0.90%"
           ],
           "sourceExcerpt": [
-            "S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields — SPCX, AMD, NVDA, MRVL In Focus AI Agent Trending News Earnings All DIA 0.22% SPY 0.08% QQQ 0.18% Trending HOOD 0.82% BULL APLD 4.75% USO 1.58% BABA 0",
+            "S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields — SPCX, AMD, NVDA, MRVL In Focus AI Agent Trending News Earnings All DIA 0.68% SPY 0.35% QQQ 0.57% Trending APLD 1.81% PLTR 2.22% PEP 1.59% WOLF 14.73%",
             "S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields — SPCX, AMD, NVDA, MRVL In Focus The 30-year bond yield hit its highest level since May 2002 at 5.732%.",
             "Traders work on the floor of the New York Stock Exchange (NYSE) on July 23, 2026 in New York City."
           ],
-          "analysisUpdatedAt": 1791439610.0701027
+          "analysisUpdatedAt": 1791462643.4649012
         }
       },
       {
@@ -418,11 +418,11 @@ const NEWS_DATA = {
           "facts": [
             "JEPQ는 1년 동안 $300,000에 $17,970로 Nasdaq-100을 추격했습니다.",
             "Covered Call이 필요한 이유 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,806.00 −0.01% Dow Jones 51,149.80 −0.09% Nasdaq 100 31,199.80 +0.03% Russell 2000 2,793.44 −0.18% S&P 500 7,806.00 −0.01% 다우존스 51,149.80 −0.09% 나스닥 100 31,199.80 +0.03% 러셀 2000 2,793.44 −0."
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,777.60 −0.38% Dow Jones 50,853.80 −0.66% Nasdaq 100 30,970.80 −0.70% Russell 2000 2,775.14 −0.83% S&P 500 7,777.60 −0.38% 다우존스 50,853.80 −0.66% 나스닥 100 30,970.80 −0.70% 러셀 2000 2,775.14 −0."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $17,970, $300,000, 0.01% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: $17,970, $300,000, 0.38% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -448,19 +448,19 @@ const NEWS_DATA = {
           "verifiedNumbers": [
             "$17,970",
             "$300,000",
-            "0.01%",
-            "0.09%",
-            "0.03%",
-            "0.18%",
+            "0.38%",
+            "0.66%",
+            "0.70%",
+            "0.83%",
             "$359,160.",
             "$377,130."
           ],
           "sourceExcerpt": [
             "JEPQ Trailed the Nasdaq-100 by $17,970 on $300,000 Over One Year.",
             "The Covered Calls Are Why - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,806.00 −0.01% Dow Jones 51,149.80 −0.09% Nasdaq 100 31,199.80 +0.03% Russell 2000 2,793.44 −0.18% S&P 500 7,806.00 −0.01% Dow Jones 51,149.80 −0.09% Nasdaq 100 31,199.80 +0.03% Russell 2000 2,793.44 −0."
+            "Skip to content ❚❚ At close S&P 500 7,777.60 −0.38% Dow Jones 50,853.80 −0.66% Nasdaq 100 30,970.80 −0.70% Russell 2000 2,775.14 −0.83% S&P 500 7,777.60 −0.38% Dow Jones 50,853.80 −0.66% Nasdaq 100 30,970.80 −0.70% Russell 2000 2,775.14 −0."
           ],
-          "analysisUpdatedAt": 1791439613.1847668
+          "analysisUpdatedAt": 1791462647.3607366
         }
       },
       {
@@ -479,13 +479,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "오늘의 주식 시장: 이란이 미국 경제를 조롱함에 따라 다우 존스, 나스닥 100 선물 하락, 트럼프가 Bipartis를 촉발함 - Benzinga SPY 778.74 QQQ 757.01 −0.35% BTC/USD 83,838.00 −2.00% DIA 513.84 GLD 377.80 −1.17% TLT 76.77 −0.66% US 로그인 회원가입 내",
+            "오늘의 주식 시장: 30년 만기 국채 수익률이 2002년 최고치를 기록하면서 S&P 500, 다우, 나스닥 선물 하락; Iran Mock - Benzinga SPY 774.28 QQQ 753.88 BTC/USD 83,101.69 −0.21% DIA 506.96 GLD 377.81 +0.51% TLT 76.64 −0.65% US 로그인 내 계정 등록",
             "주식은 화요일 종가에 이어 다우존스, S&P 500, 나스닥 100 지수 선물이 하락하면서 수요일 하락세로 개장할 것으로 보입니다.",
-            "도널드 트럼프 대통령이 이란에 대한 발언으로 초당적 반발을 촉발한 이후 정치적 낙진과 중동 긴장 고조가 헤드라인을 장식했습니다."
+            "시장의 역풍에 미국이 더해졌습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.35%, 2.00%, 1.17% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.21%, 0.51%, 0.65% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -509,21 +509,21 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.35%",
-            "2.00%",
-            "1.17%",
-            "0.66%",
-            "$101",
-            "5.30%",
-            "4.80%",
-            "19.4%"
+            "0.21%",
+            "0.51%",
+            "0.65%",
+            "5.71%",
+            "5.33%",
+            "4.81%",
+            "21.6%",
+            "$101"
           ],
           "sourceExcerpt": [
-            "Stock Market Today: Dow Jones, Nasdaq 100 Futures Decline as Iran Mocks US Economy, Trump Sparks Bipartis - Benzinga SPY 778.74 QQQ 757.01 −0.35% BTC/USD 83,838.00 −2.00% DIA 513.84 GLD 377.80 −1.17% TLT 76.77 −0.66% US Sign in Register My ",
+            "Stock Market Today: S&P 500, Dow, Nasdaq Futures Fall as 30-Year Treasury Yield Hits 2002 High; Iran Mock - Benzinga SPY 774.28 QQQ 753.88 BTC/USD 83,101.69 −0.21% DIA 506.96 GLD 377.81 +0.51% TLT 76.64 −0.65% US Sign in Register My Account",
             "stocks look set to open on a negative note on Wednesday, with futures of the Dow Jones, S&P 500 and Nasdaq 100 indices falling, following Tuesday’s higher close.",
-            "Political fallout and rising Middle East tensions dominated headlines after President Donald Trump sparked bipartisan backlash over his remarks on Iran."
+            "Adding to the market’s headwinds, U.S."
           ],
-          "analysisUpdatedAt": 1791439615.6645973
+          "analysisUpdatedAt": 1791462652.915478
         }
       },
       {
@@ -4877,15 +4877,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791439604.5377052,
-    "_updated_label": "2026-10-08 15:06",
-    "_last_success_at": 1791439604.5377052,
+    "_fetched_at": 1791462635.819139,
+    "_updated_label": "2026-10-08 21:30",
+    "_last_success_at": 1791462635.819139,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "SPY": {
@@ -11047,7 +11047,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 125,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "MSFT": {
@@ -19008,7 +19008,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "GOOGL": {
@@ -26846,7 +26846,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "AMZN": {
@@ -34824,7 +34824,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "META": {
@@ -42723,7 +42723,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "AAPL": {
@@ -50795,7 +50795,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "TSLA": {
@@ -58728,7 +58728,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "ORCL": {
@@ -67276,7 +67276,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "CRM": {
@@ -73388,7 +73388,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 131,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "PLTR": {
@@ -81958,7 +81958,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "NVDA": {
@@ -89513,11 +89513,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "AMD": {
-    "_last_attempt_at": 1791439604.5377052,
+    "_last_attempt_at": 1791462635.819139,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -89527,10 +89527,10 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "AMD (AMD) Stock May Be Fully Valued On Citi's $800 Target",
+        "headline": "TSMC Sales Are a Big Win for the AI Trade. Why AMD and Other Chip Stocks Are Falling Anyway.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c62e889f0b7d0186b19fdc4c7cbd7f4d61b5cc94c50eae4ae56a61af27d5ad99",
-        "datetime": 1791429421,
+        "url": "https://finnhub.io/api/news?id=f24dbd3892c738debee100a4b5498210da3db59d0310b2a039c5fae099f96e1e",
+        "datetime": 1791453780,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
@@ -89542,7 +89542,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AMD (AMD) Stock May Be Fully Valued On Citi's $800 Target",
+            "TSMC Sales Are a Big Win for the AI Trade. Why AMD and Other Chip Stocks Are Falling Anyway.",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -89566,43 +89566,91 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD (AMD) Stock May Be Fully Valued On Citi's $800 Target' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'TSMC Sales Are a Big Win for the AI Trade. Why AMD and Other Chip Stocks Are Falling Anyway.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791439621.6110368
+          "analysisUpdatedAt": 1791462660.1651614
         },
-        "headlineKo": "AMD(AMD) 주식은 Citi의 목표 $800에 완전히 도달할 수 있습니다."
+        "headlineKo": "TSMC 판매는 AI 거래에 있어 큰 승리입니다. 어쨌든 AMD와 기타 칩 주식이 하락하는 이유."
       },
       {
-        "headline": "S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields — SPCX, AMD, NVDA, MRVL In Focus",
+        "headline": "The Zacks Analyst Blog Highlights Advanced Micro Devices, Palo Alto, CnocoPhillips and Iveda",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=50352b28347a16ef361adee73323be4f5be5b71231708705135708bc7bebdb49",
-        "datetime": 1791413451,
+        "url": "https://finnhub.io/api/news?id=988c26b28c8f5ef6c605525e51a4f197f12df18ccdb2cff4ed5d986a1cdaab0d",
+        "datetime": 1791442560,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "The Zacks Analyst Blog Highlights Advanced Micro Devices, Palo Alto, CnocoPhillips and Iveda",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'The Zacks Analyst Blog Highlights Advanced Micro Devices, Palo Alto, CnocoPhillips and Iveda' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791462662.2341695
+        },
+        "headlineKo": "Zacks 분석가 블로그에서는 Advanced Micro Devices, Palo Alto, CnocoPhillips 및 Iveda를 강조합니다."
+      },
+      {
+        "headline": "Lisa Su Says AI Demand Will Stay ‘Very, Very High’ for Years as AMD Races to Add Supply",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1d86566fd281d53c6db541f9ea76ce51adb70239ecc27f47d047fccaa27b55bd",
+        "datetime": 1791430205,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "고객 계약 · 매출 연결 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500 및 Nasdaq 100은 치솟는 국채 수익률로 인한 압력으로 사상 최고치에서 하락 — SPCX, AMD, NVDA, MRVL In Focus AI 에이전트 동향 뉴스 수익 전체 DIA 0.22% SPY 0.08% QQQ 0.14% Trending HOOD 0.64% BULL APLD 4.62% USO 1.58% 바바 0",
-            "S&P 500과 Nasdaq 100은 국채 수익률 급등으로 인한 압력으로 사상 최고치에서 하락했습니다. SPCX, AMD, NVDA, MRVL 집중 30년 만기 채권 수익률은 5.732%로 2002년 5월 이후 최고치를 기록했습니다.",
-            "트레이더들이 2026년 7월 23일 뉴욕시 뉴욕증권거래소(NYSE) 1층에서 일하고 있다."
+            "Lisa Su Says AI Demand Will Stay ‘Very, Very High’ for Years as AMD Races to Add Supply",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $40 billion, 1%, 0.2% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
             "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -89613,120 +89661,39 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
+            "계약 금액·기간·취소 조건",
+            "수주잔고와 매출 인식 시점",
+            "관련 사업부 매출총이익률"
           ],
-          "interpretation": "AMD에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "AMD에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$40 billion",
-            "1%",
-            "0.2%",
-            "5.732%",
-            "$39 billion",
-            "$4 trillion",
-            "$3,000",
-            "43%"
-          ],
-          "sourceExcerpt": [
-            "S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields — SPCX, AMD, NVDA, MRVL In Focus AI Agent Trending News Earnings All DIA 0.22% SPY 0.08% QQQ 0.14% Trending HOOD 0.64% BULL APLD 4.62% USO 1.58% BABA 0",
-            "S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields — SPCX, AMD, NVDA, MRVL In Focus The 30-year bond yield hit its highest level since May 2002 at 5.732%.",
-            "Traders work on the floor of the New York Stock Exchange (NYSE) on July 23, 2026 in New York City."
-          ],
-          "analysisUpdatedAt": 1791439625.3403678
-        },
-        "headlineKo": "S&P 500과 Nasdaq 100은 국채 수익률 급증으로 인한 압력으로 사상 최고치에서 하락 — SPCX, AMD, NVDA, MRVL 집중"
-      },
-      {
-        "headline": "Is Advanced Micro Devices Inc. (AMD) Right to Bet $8.2 Billion on the Future of Physical AI?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9c1ffe6e8023cd5ecf0789d2b0a858778871893fbf6e9d0e1018ced125fb17d4",
-        "datetime": 1791403237,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'Is Advanced Micro Devices Inc. (AMD) Right to Bet $8.2 Billion on the Future of Physical AI?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: AMD에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
-          "relevance": 1,
-          "quality": "high",
+          "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791439627.676009
+          "analysisUpdatedAt": 1791462663.337436
         },
-        "headlineKo": "AMD(Advanced Micro Devices Inc.)가 물리적 AI의 미래에 82억 달러를 투자할 권리가 있습니까?"
+        "headlineKo": "Lisa Su는 AMD가 공급을 추가하기 위해 경쟁함에 따라 AI 수요가 수년 동안 '매우, 매우 높은' 상태를 유지할 것이라고 말했습니다."
       },
       {
-        "headline": "AMD’s Lisa Su Visits South Korea, Reportedly Discusses AI Collaboration With Samsung, SK Hynix",
+        "headline": "AMD (AMD) Stock May Be Fully Valued On Citi's $800 Target",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5f1f7b17e6468653000e0153a270548613e016b32fddf17a59db5cd211bfe6d8",
-        "datetime": 1791402894,
+        "url": "https://finnhub.io/api/news?id=c62e889f0b7d0186b19fdc4c7cbd7f4d61b5cc94c50eae4ae56a61af27d5ad99",
+        "datetime": 1791429421,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "AMD의 리사 수(Lisa Su) 한국 방문, 삼성·SK하이닉스와 AI 협력 논의"
+        "headlineKo": "AMD(AMD) 주식은 Citi의 목표 $800에 완전히 도달할 수 있습니다."
       },
       {
-        "headline": "Top Stock Reports for AMD, Palo Alto & ConocoPhillips",
+        "headline": "S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields — SPCX, AMD, NVDA, MRVL In Focus",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c5a5e19c1f7ba20b8b7c3ff83cc8cf4e2317fe49fcfe3d88d38a8e5c3dc6c1e6",
-        "datetime": 1791399900,
+        "url": "https://finnhub.io/api/news?id=50352b28347a16ef361adee73323be4f5be5b71231708705135708bc7bebdb49",
+        "datetime": 1791413451,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "AMD, Palo Alto 및 ConocoPhillips의 상위 주식 보고서"
+        "headlineKo": "S&P 500과 Nasdaq 100은 국채 수익률 급증으로 인한 압력으로 사상 최고치에서 하락 — SPCX, AMD, NVDA, MRVL 집중"
       },
       {
         "headline": "AMD: The AI Momentum Train Looks Unstoppable, But I'm Pausing Accumulation (Downgrade)",
@@ -89742,6 +89709,152 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "TSMC Sales Are a Big Win for the AI Trade. Why AMD and Other Chip Stocks Are Falling Anyway.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f24dbd3892c738debee100a4b5498210da3db59d0310b2a039c5fae099f96e1e",
+        "datetime": 1791453780,
+        "headlineKo": "TSMC 판매는 AI 거래에 있어 큰 승리입니다. 어쨌든 AMD와 기타 칩 주식이 하락하는 이유.",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "TSMC Sales Are a Big Win for the AI Trade. Why AMD and Other Chip Stocks Are Falling Anyway.",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'TSMC Sales Are a Big Win for the AI Trade. Why AMD and Other Chip Stocks Are Falling Anyway.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791462660.1651614
+        }
+      },
+      {
+        "headline": "The Zacks Analyst Blog Highlights Advanced Micro Devices, Palo Alto, CnocoPhillips and Iveda",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=988c26b28c8f5ef6c605525e51a4f197f12df18ccdb2cff4ed5d986a1cdaab0d",
+        "datetime": 1791442560,
+        "headlineKo": "Zacks 분석가 블로그에서는 Advanced Micro Devices, Palo Alto, CnocoPhillips 및 Iveda를 강조합니다.",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "The Zacks Analyst Blog Highlights Advanced Micro Devices, Palo Alto, CnocoPhillips and Iveda",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'The Zacks Analyst Blog Highlights Advanced Micro Devices, Palo Alto, CnocoPhillips and Iveda' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791462662.2341695
+        }
+      },
+      {
+        "headline": "Lisa Su Says AI Demand Will Stay ‘Very, Very High’ for Years as AMD Races to Add Supply",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1d86566fd281d53c6db541f9ea76ce51adb70239ecc27f47d047fccaa27b55bd",
+        "datetime": 1791430205,
+        "headlineKo": "Lisa Su는 AMD가 공급을 추가하기 위해 경쟁함에 따라 AI 수요가 수년 동안 '매우, 매우 높은' 상태를 유지할 것이라고 말했습니다.",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "고객 계약 · 매출 연결 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Lisa Su Says AI Demand Will Stay ‘Very, Very High’ for Years as AMD Races to Add Supply",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 금액·기간·취소 조건",
+            "수주잔고와 매출 인식 시점",
+            "관련 사업부 매출총이익률"
+          ],
+          "interpretation": "AMD에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791462663.337436
+        }
+      },
       {
         "headline": "AMD (AMD) Stock May Be Fully Valued On Citi's $800 Target",
         "source": "Yahoo",
@@ -90742,69 +90855,6 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1791302408.7471344
-        }
-      },
-      {
-        "headline": "Lisa Su Says AI Demand Will Stay ‘Very, Very High’ for Years as AMD Races to Add Supply",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=cac0f65dbfc159b0714adc0c403527d74a4d55a70d487f42c12b66ea4217e584",
-        "datetime": 1791293981,
-        "headlineKo": "Lisa Su는 AMD가 공급을 추가하기 위해 경쟁함에 따라 AI 수요가 수년 동안 '매우, 매우 높은' 상태를 유지할 것이라고 말했습니다.",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "AMD CEO Lisa Su는 AI 수요가 수년간 '매우, 매우 높음'을 유지할 것이라고 말했습니다 - Advanced Micro Devices (NASDAQ:AMD - Benzinga SPY 778.17 QQQ 760.77 BTC/USD 86,331.01 +0.68% DIA 514.30 GLD 381.51 TLT 77.18 US 로그인 등록 내 계정 Benzinga Prem",
-            "(NASDAQ: AMD ) CEO Lisa Su는 AI 및 컴퓨팅 용량에 대한 수요가 수년 동안 계속 높아질 것이며 칩 제조업체는 올해 용량을 확장한 후에도 2027년에 다시 공급을 크게 늘려야 한다고 말했습니다.",
-            "Su는 화요일 대만을 하루 동안 방문하여 여러 AMD 공급업체를 만났고 회사에는 더 발전된 웨이퍼 용량이 필요하다고 말했습니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.68%, $10 billion, 2% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "AMD에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.68%",
-            "$10 billion",
-            "2%",
-            "75%",
-            "6%",
-            "500%",
-            "$115 billion",
-            "$647.40"
-          ],
-          "sourceExcerpt": [
-            "AMD CEO Lisa Su Says AI Demand Will Stay ‘Very, Very High’ for Years - Advanced Micro Devices (NASDAQ:AMD - Benzinga SPY 778.17 QQQ 760.77 BTC/USD 86,331.01 +0.68% DIA 514.30 GLD 381.51 TLT 77.18 US Sign in Register My Account Benzinga Prem",
-            "(NASDAQ: AMD ) CEO Lisa Su says demand for AI and computing capacity will stay elevated for years, forcing the chipmaker to substantially increase supply again in 2027 even after expanding capacity this year.",
-            "Speaking during a one-day visit to Taiwan Tuesday, where she met several AMD suppliers, Su said the company needs more advanced wafer capacity."
-          ],
-          "analysisUpdatedAt": 1791302413.678998
         }
       },
       {
@@ -97336,89 +97386,17 @@ const NEWS_DATA = {
         "headlineKo": "SOFI를 구매하는 것은 바닥에서 'AMD 또는 Nvidia'를 구매하는 것과 같습니다: 전략가들은 SoFi Technologies에 대한 대담한 강세 사례를 강조합니다.",
         "relevance": 1,
         "keywordFlag": false
-      },
-      {
-        "headline": "Nasdaq, S&P 500 Futures Pause After Record AI-Driven Rally: AMD, META, BABA, GME, HOOD, GRAB, VKTX Stocks In Focus",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=437dc95f29447b323c9d24d29bad316ba1e3cbbf109052f17785814758da6eab",
-        "datetime": 1790065938,
-        "headlineKo": "Nasdaq, S&P 500 선물, 기록적인 AI 주도 랠리 후 일시 중지: AMD, META, BABA, GME, HOOD, GRAB, VKTX 주식에 초점",
-        "relevance": 1,
-        "keywordFlag": false
-      },
-      {
-        "headline": "AMD joins trillion-dollar chipmaker club as AI demand surges",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=deec3e8265e020ac397b315e60894f76863921742558db862dd60119604f4ae2",
-        "datetime": 1790053248,
-        "headlineKo": "AI 수요 급증으로 AMD, 1조 달러 규모의 칩 제조사 클럽에 합류",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "경쟁사 수주 · 고객 점유 변화",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "AI 수요 급증으로 AMD, 1조 달러 규모의 칩 제조업체 클럽에 합류 | Euronews 광고: Angela Barnes 게시일: 22/09/2026 - 7:00 GMT+2 댓글 공유 Google에 Euronews 추가 공유 Facebook Twitter Flipboard Reddit 보내기 Linkedin 메시지 보내기",
-            "인공지능(AI)에 대한 대규모 투자 붐으로 투자자들이 주식에 몰리면서 미국 칩 제조업체인 AMD가 1조 달러(8,500억 유로) 가치 평가 클럽에 가장 최근 합류한 회사가 되었습니다.",
-            "광고 광고 오후 5시 10분쯤."
-          ],
-          "why": [
-            "경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다.",
-            "이번 기사에서 확인된 구체적 수치: $1 trillion, €850, 9.4% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "경쟁사가 같은 고객에게 납품할 기회를 얻었다는 뜻입니다. 기존 회사 물량을 빼앗은 것인지, 고객이 공급처를 하나 더 늘린 것인지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "신규 공급사의 실제 물량",
-            "기존 공급사 매출 비중",
-            "고객의 이중 공급 전략"
-          ],
-          "interpretation": "AMD에 대한 경쟁사 수주 · 고객 점유 변화 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$1 trillion",
-            "€850",
-            "9.4%",
-            "$612",
-            "€520",
-            "$200 billion",
-            "€170",
-            "$2 trillion"
-          ],
-          "sourceExcerpt": [
-            "AMD joins trillion-dollar chipmaker club as AI demand surges | Euronews Advertisement By Angela Barnes Published on 22/09/2026 - 7:00 GMT+2 Share Comments Add Euronews on Google Share Facebook Twitter Flipboard Send Reddit Linkedin Messenge",
-            "US chipmaker AMD has become the latest company to join the $1 trillion (€850bn) valuation club, as investors pile into stocks benefiting from the massive investment boom in artificial intelligence.",
-            "ADVERTISEMENT ADVERTISEMENT At around 5:10 p.m."
-          ],
-          "analysisUpdatedAt": 1790063294.17107
-        }
       }
     ],
-    "_fetched_at": 1791439604.5377052,
-    "_updated_label": "2026-10-08 15:07",
-    "_last_success_at": 1791439604.5377052,
+    "_fetched_at": 1791462635.819139,
+    "_updated_label": "2026-10-08 21:31",
+    "_last_success_at": 1791462635.819139,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "AVGO": {
@@ -105882,7 +105860,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 174,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "QCOM": {
@@ -112206,7 +112184,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 140,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "ARM": {
@@ -116706,7 +116684,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "MRVL": {
@@ -123867,7 +123845,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 153,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "INTC": {
@@ -132181,7 +132159,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "TSM": {
@@ -137891,7 +137869,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 126,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "ASML": {
@@ -141742,7 +141720,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "AMAT": {
@@ -145882,7 +145860,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "LRCX": {
@@ -148032,7 +148010,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "KLAC": {
@@ -150138,7 +150116,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "MU": {
@@ -157776,7 +157754,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "SNDK": {
@@ -164811,7 +164789,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 148,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "WDC": {
@@ -169001,7 +168979,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "ANET": {
@@ -172267,7 +172245,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "COHR": {
@@ -175100,7 +175078,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "LITE": {
@@ -177943,7 +177921,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "GEV": {
@@ -182659,7 +182637,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 95,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "CEG": {
@@ -186729,7 +186707,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "VST": {
@@ -189811,7 +189789,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "ETN": {
@@ -192618,7 +192596,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "PWR": {
@@ -195188,7 +195166,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "HUBB": {
@@ -195956,7 +195934,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "VRT": {
@@ -199635,7 +199613,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "MOD": {
@@ -200913,7 +200891,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "STX": {
@@ -204726,7 +204704,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "EME": {
@@ -206284,7 +206262,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "FIX": {
@@ -207820,7 +207798,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   },
   "BE": {
@@ -209914,7 +209892,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-08 21:02"
+      "updated": "2026-10-08 21:31"
     }
   }
 };

@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791460972.7799397,
+  "generatedAt": 1791462667.9430397,
   "events": [
     {
       "id": "4aa0c8243a67c802662d",
@@ -1635,6 +1635,73 @@ const EVENT_DATA = {
       ]
     },
     {
+      "id": "799fa46ca16b40baaa16",
+      "schemaVersion": 1,
+      "eventType": "major_customer_contract",
+      "eventLabel": "주요 고객 계약",
+      "primaryTicker": "AMD",
+      "relatedTickers": [
+        "AMD"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "neutral",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Lisa Su Says AI Demand Will Stay ‘Very, Very High’ for Years as AMD Races to Add Supply",
+      "headlineKo": "Lisa Su는 AMD가 공급을 추가하기 위해 경쟁함에 따라 AI 수요가 수년 동안 '매우, 매우 높은' 상태를 유지할 것이라고 말했습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1d86566fd281d53c6db541f9ea76ce51adb70239ecc27f47d047fccaa27b55bd",
+        "publishedAt": 1791430205,
+        "collectedAt": 1791462635.819139
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Lisa Su Says AI Demand Will Stay ‘Very, Very High’ for Years as AMD Races to Add Supply",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "AMD에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AMD",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "계약 금액·기간·취소 조건",
+        "수주잔고와 매출 인식 시점",
+        "관련 사업부 매출총이익률"
+      ]
+    },
+    {
       "id": "7ca87bb4126792c8e111",
       "schemaVersion": 1,
       "eventType": "ai_investment_change",
@@ -2161,6 +2228,7 @@ const EVENT_DATA = {
         "AMD",
         "MRVL",
         "NVDA",
+        "PLTR",
         "QQQ",
         "SPY"
       ],
@@ -2182,17 +2250,17 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=50352b28347a16ef361adee73323be4f5be5b71231708705135708bc7bebdb49",
         "publishedAt": 1791413451,
-        "collectedAt": 1791439604.5377052
+        "collectedAt": 1791462635.819139
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "S&P 500 및 Nasdaq 100은 국채 수익률 급등으로 인한 압력으로 사상 최고치에서 하락 — SPCX, AMD, NVDA, MRVL In Focus AI 에이전트 동향 뉴스 수익 전체 DIA 0.22% SPY 0.08% QQQ 0.18% Trending HOOD 0.82% BULL APLD 4.75% USO 1.58% 바바 0",
+        "S&P 500 및 Nasdaq 100은 치솟는 국채 수익률로 인한 압력으로 사상 최고치에서 하락했습니다. SPCX, AMD, NVDA, MRVL In Focus AI 에이전트 동향 뉴스 수익 전체 DIA 0.68% SPY 0.35% QQQ 0.57% 추세 APLD 1.81% PLTR 2.22% PEP 1.59% WOLF 14.73%",
         "S&P 500과 Nasdaq 100은 국채 수익률 급등으로 인한 압력으로 사상 최고치에서 하락했습니다. SPCX, AMD, NVDA, MRVL 집중 30년 만기 채권 수익률은 5.732%로 2002년 5월 이후 최고치를 기록했습니다.",
         "트레이더들이 2026년 7월 23일 뉴욕시 뉴욕증권거래소(NYSE) 1층에서 일하고 있다."
       ],
       "marketInterpretation": [
         "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.22%, 0.08%, 0.18% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.68%, 0.35%, 0.57% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -2207,7 +2275,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.22%, 0.08%, 0.18% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.68%, 0.35%, 0.57% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -2252,17 +2320,17 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0a588b8ba93eac54b44d232e71309b7be67a822e0a57556ac651ca0f23be280e",
         "publishedAt": 1791412396,
-        "collectedAt": 1791439604.5377052
+        "collectedAt": 1791462635.819139
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "JEPQ는 1년 동안 $300,000에 $17,970로 Nasdaq-100을 추격했습니다.",
         "Covered Call이 필요한 이유 - 24/7 Wall St.",
-        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,806.00 −0.01% Dow Jones 51,149.80 −0.09% Nasdaq 100 31,199.80 +0.03% Russell 2000 2,793.44 −0.18% S&P 500 7,806.00 −0.01% 다우존스 51,149.80 −0.09% 나스닥 100 31,199.80 +0.03% 러셀 2000 2,793.44 −0."
+        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,777.60 −0.38% Dow Jones 50,853.80 −0.66% Nasdaq 100 30,970.80 −0.70% Russell 2000 2,775.14 −0.83% S&P 500 7,777.60 −0.38% 다우존스 50,853.80 −0.66% 나스닥 100 30,970.80 −0.70% 러셀 2000 2,775.14 −0."
       ],
       "marketInterpretation": [
         "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $17,970, $300,000, 0.01% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: $17,970, $300,000, 0.38% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -2277,7 +2345,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $17,970, $300,000, 0.01% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: $17,970, $300,000, 0.38% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -3185,7 +3253,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9c1ffe6e8023cd5ecf0789d2b0a858778871893fbf6e9d0e1018ced125fb17d4",
         "publishedAt": 1791403237,
-        "collectedAt": 1791439604.5377052
+        "collectedAt": 1791462635.819139
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3280,7 +3348,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5f1f7b17e6468653000e0153a270548613e016b32fddf17a59db5cd211bfe6d8",
         "publishedAt": 1791402894,
-        "collectedAt": 1791439604.5377052
+        "collectedAt": 1791462635.819139
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6726,7 +6794,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=570f9c0033629f0d6ee642e8cd9d05897f6527311e497630dc19859d8823340f",
         "publishedAt": 1791381623,
-        "collectedAt": 1791439604.5377052
+        "collectedAt": 1791462635.819139
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7145,7 +7213,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d6f8c3b725ed0185796d592a7f037e6142143747262264fb1b8ad7e7796ebbca",
         "publishedAt": 1791379647,
-        "collectedAt": 1791439604.5377052
+        "collectedAt": 1791462635.819139
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8985,7 +9053,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bcedf644d9117099b6ae3cfbb3f912ded832567c52fa08c5136b47731b81ace9",
         "publishedAt": 1791363952,
-        "collectedAt": 1791439604.5377052
+        "collectedAt": 1791462635.819139
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10769,7 +10837,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=682fd04d3d7589318662fd1cea2c31cda184b5f97c1ee5bc306840484d4455e9",
         "publishedAt": 1791326129,
-        "collectedAt": 1791439604.5377052
+        "collectedAt": 1791462635.819139
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11417,7 +11485,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c890c150130f859eeba04edfc57ece7141841c006af05b154ba90daf8f2ec625",
         "publishedAt": 1791321690,
-        "collectedAt": 1791439604.5377052
+        "collectedAt": 1791462635.819139
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11893,7 +11961,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ac6bfc335dfc3d4897ae8bd77e8ebfe7355b99e732688e3608ac1b0de4e44f64",
         "publishedAt": 1791314401,
-        "collectedAt": 1791439604.5377052
+        "collectedAt": 1791462635.819139
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13037,7 +13105,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=92238007211c759df503210961c555ef4e85cf201f903701385be653ac2488e7",
         "publishedAt": 1791307965,
-        "collectedAt": 1791439604.5377052
+        "collectedAt": 1791462635.819139
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15200,77 +15268,6 @@ const EVENT_DATA = {
       ]
     },
     {
-      "id": "4b1eaf5596e064a5666a",
-      "schemaVersion": 1,
-      "eventType": "major_customer_contract",
-      "eventLabel": "주요 고객 계약",
-      "primaryTicker": "AMD",
-      "relatedTickers": [
-        "AMD",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Lisa Su Says AI Demand Will Stay ‘Very, Very High’ for Years as AMD Races to Add Supply",
-      "headlineKo": "Lisa Su는 AMD가 공급을 추가하기 위해 경쟁함에 따라 AI 수요가 수년 동안 '매우, 매우 높은' 상태를 유지할 것이라고 말했습니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=cac0f65dbfc159b0714adc0c403527d74a4d55a70d487f42c12b66ea4217e584",
-        "publishedAt": 1791293981,
-        "collectedAt": 1791439604.5377052
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "AMD CEO Lisa Su는 AI 수요가 수년간 '매우, 매우 높음'을 유지할 것이라고 말했습니다 - Advanced Micro Devices (NASDAQ:AMD - Benzinga SPY 778.17 QQQ 760.77 BTC/USD 86,331.01 +0.68% DIA 514.30 GLD 381.51 TLT 77.18 US 로그인 등록 내 계정 Benzinga Prem",
-        "(NASDAQ: AMD ) CEO Lisa Su는 AI 및 컴퓨팅 용량에 대한 수요가 수년 동안 계속 높아질 것이며 칩 제조업체는 올해 용량을 확장한 후에도 2027년에 다시 공급을 크게 늘려야 한다고 말했습니다.",
-        "Su는 화요일 대만을 하루 동안 방문하여 여러 AMD 공급업체를 만났고 회사에는 더 발전된 웨이퍼 용량이 필요하다고 말했습니다."
-      ],
-      "marketInterpretation": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.68%, $10 billion, 2% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "AMD에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.68%, $10 billion, 2% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AMD",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "공식 매출·EPS 가이던스",
-        "컨센서스 추정치 변경",
-        "마진·FCF 전망"
-      ]
-    },
-    {
       "id": "9d85e9c8ff77086405cf",
       "schemaVersion": 1,
       "eventType": "major_customer_contract",
@@ -15761,7 +15758,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=d854387ea2b54afa3aae5bc2f3ae53045ac16ed0dc767504142c274ece5c100a",
         "publishedAt": 1791292272,
-        "collectedAt": 1791439604.5377052
+        "collectedAt": 1791462635.819139
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15889,7 +15886,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a92035033a69cef9fcdc1ab00704e5c4225413d100a0ca1e45f1eee626ba166d",
         "publishedAt": 1791292080,
-        "collectedAt": 1791439604.5377052
+        "collectedAt": 1791462635.819139
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16478,7 +16475,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=85817650821b346de0a4929e22bf090b0962647c7e2b11dc366e04d796683a68",
         "publishedAt": 1791290760,
-        "collectedAt": 1791439604.5377052
+        "collectedAt": 1791462635.819139
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17566,7 +17563,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9b2690aaa98e03f5a2f2511a4b46b97fd79dfffb05f92ff936c81ada02f72b1d",
         "publishedAt": 1791275977,
-        "collectedAt": 1791439604.5377052
+        "collectedAt": 1791462635.819139
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18047,7 +18044,6 @@ const EVENT_DATA = {
       "69ccb1e83bf22dbafc86",
       "7b7a8f9ae488f236c7a9",
       "0081a110c95bc9f14506",
-      "4b1eaf5596e064a5666a",
       "cef165066a1e76e639b6",
       "9eeaf6bf308c26930ce3",
       "7ccdd259d5d0b36b4a09",
@@ -18149,7 +18145,6 @@ const EVENT_DATA = {
       "a6ef8db602d8cafb2ac6",
       "84f077d00c8cbeb4d823",
       "0081a110c95bc9f14506",
-      "4b1eaf5596e064a5666a",
       "9d85e9c8ff77086405cf",
       "cef165066a1e76e639b6",
       "9eeaf6bf308c26930ce3",
@@ -18277,6 +18272,7 @@ const EVENT_DATA = {
       "a0cb060389eca7f5bab8",
       "dcefc390a109fda1eb13",
       "7ca87bb4126792c8e111",
+      "71e017deb052339fbb62",
       "8c682677fccf26451302",
       "c693ff8a3dfce736e11e",
       "af72cff01c60eb86a91e",
@@ -18435,6 +18431,7 @@ const EVENT_DATA = {
     "AMD": [
       "d2d5284ef39685817bf8",
       "f196b81da9a0aeeb80f5",
+      "799fa46ca16b40baaa16",
       "b2059085a732eb6e4d02",
       "71e017deb052339fbb62",
       "4055867266143e5f7d3a",
@@ -18461,7 +18458,6 @@ const EVENT_DATA = {
       "0c0a73112d58c12cd52e",
       "bf5d5804141eade971e7",
       "89f6dd8bf1f02e775524",
-      "4b1eaf5596e064a5666a",
       "7d61e7445dadfe38ea3d",
       "ddf0b9406c2e6de8a759",
       "ef18a9c38901a02cf117",
