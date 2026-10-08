@@ -5252,12 +5252,13 @@ function renderDownturnCauseSummary(scored){
   el.innerHTML = badge + gridHtml + zeroBanner + groupsHtml + footNote;
 }
 
-// ===== 시장 기대 대비 가격 위치 카드 (2026-10-08 신규, 읽기 전용) =====
-// 근거: MARKET_POSITION_CARD_DECLARATION_v1_1_20261008.md
+// ===== 시장 기대 대비 가격 위치 카드 (2026-10-08 신규, v2: 39종목 전수 반영) =====
+// 근거: MARKET_POSITION_CARD_DECLARATION_v1_1_20261008.md, MARKET_POSITION_CARD_FULL_ROLLOUT_v2_20261008.md
 // 범위 제한 예외 승인(2026-10-08): 컨센서스 위치 단독으로 고/저평가·매수/매도 결론 금지 ·
 // 142 기대충족 상태·관측범위·자료 기준일과 함께만 해석 · 자동매매·알림·매수/매도 신호 미연결.
 // 102/103/104/142 계산, 하락 원인 진단, 텔레그램, 자동매매는 전혀 수정하지 않음.
 const MARKET_POSITION_STALE_DAYS = 14; // 기존 프로젝트 STALE 규칙 재사용 -- 신규 임계값 아님
+const MARKET_POSITION_NON_EQUITY = ['SPY', 'QQQ']; // 기업 컨센서스 대상이 아닌 지수 ETF -- 시장 문맥으로만 고정 표시
 
 function renderMarketPositionCard(r){
   if(!r || !r.ticker) return '';
@@ -5270,10 +5271,15 @@ function renderMarketPositionCard(r){
       <div class="sub">읽기 전용 · 매수/매도/비중조절 신호 아님 · 자동 연결 없음</div>
     </div>`;
 
+  if(MARKET_POSITION_NON_EQUITY.includes(r.ticker)){
+    return `${headHtml}
+      <div style="background:${NEU_BG};border:1px solid ${NEU_LINE};border-radius:12px;padding:12px 14px;color:${NEU_DIM};font-size:12px;margin-bottom:12px;">시장 문맥 — 기업 컨센서스 대상 아님</div>`;
+  }
+
   const tc = (typeof MARKET_TARGET_CONSENSUS !== 'undefined' && MARKET_TARGET_CONSENSUS && MARKET_TARGET_CONSENSUS.tickers) ? MARKET_TARGET_CONSENSUS.tickers[r.ticker] : null;
   if(!tc){
     return `${headHtml}
-      <div style="background:${NEU_BG};border:1px solid ${NEU_LINE};border-radius:12px;padding:12px 14px;color:${NEU_DIM};font-size:12px;margin-bottom:12px;">컨센서스 기준일 미확보</div>`;
+      <div style="background:${NEU_BG};border:1px solid ${NEU_LINE};border-radius:12px;padding:12px 14px;color:${NEU_DIM};font-size:12px;margin-bottom:12px;">컨센서스 데이터 미확보</div>`;
   }
 
   const m = (typeof MARKET_EXPECTATION_41 !== 'undefined' && MARKET_EXPECTATION_41.tickers) ? MARKET_EXPECTATION_41.tickers[r.ticker] : null;
@@ -5289,6 +5295,7 @@ function renderMarketPositionCard(r){
   rowsHtml += rowHtml('컨센서스 중앙값', `$${tc.target_median.toFixed(2)}`);
   rowsHtml += rowHtml('목표가 분산 (최저/최고)', `$${tc.target_low.toFixed(2)} / $${tc.target_high.toFixed(2)}`);
   rowsHtml += rowHtml('분석가 수', `${tc.num_analysts}명`);
+  rowsHtml += rowHtml('출처', `${esc(tc.source || 'Yahoo Finance quoteSummary(financialData)')} · 수집일 ${esc(tc.fetched_at || '—')}`);
 
   // 컨센서스 신선도 -- 기존 14일 STALE 규칙 재사용(신규 임계값 없음)
   let consensusAsOf = '—', ageDays = null, staleBadge = '';
@@ -5306,7 +5313,7 @@ function renderMarketPositionCard(r){
   const axes = (m && num(m.observed_axes)) ? m.observed_axes : null;
   rowsHtml += rowHtml('142 기대충족 상태', `${esc(status || '—')} · 신뢰도 ${esc(confidence || '—')} · 관측 ${num(axes) ? axes : '—'}축`);
 
-  // ---- 종합 문장 판정 (MARKET_POSITION_CARD_DECLARATION_v1_1 §4) ----
+  // ---- 종합 문장 판정 (MARKET_POSITION_CARD_DECLARATION_v1_1 §4, 39종목 전수 동일 규칙) ----
   let gateBlocked = false, lowConfidence = false;
   if(!m || status === '증거 부족' || confidence === '매우낮음' || (num(axes) && axes < 3)){
     gateBlocked = true;
@@ -5328,11 +5335,16 @@ function renderMarketPositionCard(r){
   const gapLine = num(gapPct) ? `<div style="margin-top:9px;font-size:13px;font-weight:800;color:${NEU_TEXT};">현재가는 중앙값 대비 ${gapPct>=0?'+':''}${gapPct.toFixed(1)}% ${gapPct<0?'낮음':'높음'}</div>` : '';
   const lowConfBadge = lowConfidence ? `<span style="display:inline-block;margin-left:6px;font-size:10.5px;font-weight:800;color:${NEU_DIM};background:#fff;border:1px dashed ${NEU_LINE};border-radius:6px;padding:2px 8px;">근거신뢰도 낮음</span>` : '';
 
+  const covTotal = (typeof MARKET_TARGET_CONSENSUS !== 'undefined' && MARKET_TARGET_CONSENSUS && num(MARKET_TARGET_CONSENSUS.coverage_total)) ? MARKET_TARGET_CONSENSUS.coverage_total : null;
+  const covConfirmed = (typeof MARKET_TARGET_CONSENSUS !== 'undefined' && MARKET_TARGET_CONSENSUS && num(MARKET_TARGET_CONSENSUS.coverage_confirmed)) ? MARKET_TARGET_CONSENSUS.coverage_confirmed : null;
+  const covBadge = (num(covTotal) && num(covConfirmed)) ? `<div style="margin-top:8px;font-size:10.5px;color:${NEU_DIM};">컨센서스 데이터 커버리지 ${covConfirmed}/${covTotal}</div>` : '';
+
   const bodyCard = `
     <div style="background:${NEU_BG};border:1px solid ${NEU_LINE};border-radius:12px;padding:12px 14px;">
       ${rowsHtml}
       ${gapLine}
       <div style="margin-top:9px;font-size:13.5px;font-weight:800;color:${NEU_TEXT};background:#fff;border:1px solid ${NEU_LINE};border-radius:8px;padding:9px 12px;">종합: ${esc(summary)}${lowConfBadge}</div>
+      ${covBadge}
     </div>`;
 
   const footNote = `<div style="margin-top:8px;margin-bottom:12px;font-size:10.5px;color:var(--sub);">컨센서스 위치 단독으로 고평가·저평가·매수·매도를 판단하지 않으며, 142 기대충족 상태·관측범위·자료 기준일과 함께만 해석합니다. ±15%는 적정가·매수매도 경계가 아니라 중앙값과의 거리를 읽기 위한 고정 화면 구간입니다. 자동매매·알림·매수/매도 신호와 연결되지 않습니다.</div>`;
@@ -5342,7 +5354,7 @@ function renderMarketPositionCard(r){
     ${footNote}`;
 }
 if(typeof HINTS !== 'undefined' && !HINTS.marketPositionCard){
-  HINTS.marketPositionCard = '월가 애널리스트 목표가 컨센서스(중앙값·분산·분석가 수)와 현재가의 거리를, 142 기대충족 판정 결과와 함께 보여주는 읽기 전용 참고 카드입니다. 컨센서스 위치만으로 고평가·저평가·매수·매도를 판단하지 않으며, 142 증거가 부족한 종목은 "가격 타당성 근거 구축 중"으로만 표시합니다. 매수·매도·비중조절 신호가 아니고 자동주문/알림과 연결되지 않습니다. 목표가 데이터가 없는 종목은 "컨센서스 기준일 미확보"로 표시합니다.';
+  HINTS.marketPositionCard = '월가 애널리스트 목표가 컨센서스(중앙값·분산·분석가 수)와 현재가의 거리를, 142 기대충족 판정 결과와 함께 보여주는 읽기 전용 참고 카드입니다. 39개 기업 전수에 동일 소스·동일 정의로 구축했습니다(SPY·QQQ는 기업 컨센서스 대상이 아니라 시장 문맥으로만 표시). 컨센서스 위치만으로 고평가·저평가·매수·매도를 판단하지 않으며, 142 증거가 부족한 종목은 "가격 타당성 근거 구축 중"으로만 표시합니다. 매수·매도·비중조절 신호가 아니고 자동주문/알림과 연결되지 않습니다.';
 }
 
 function tabJudgement(r){
