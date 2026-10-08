@@ -576,6 +576,8 @@
 <!-- 2026-10-07 신규: 시장 기대·섹터 환경 카드(읽기 전용) -- 142 기대충족 판정 엔진 + ETF 섹터 환경 필터 스냅샷. 매수/매도 신호 아님, 자동주문/알림/텔레그램과 미연결. build_dashboard_data.py가 생성. -->
 <script src="market_expectation_41_data.js" onerror="void 0"></script>
 <script src="sector_environment_41_data.js" onerror="void 0"></script>
+<!-- 2026-10-08 신규: 사건 영향 의견 카드(읽기 전용) -- 장기 전제 훼손 vs 단기 악재 의견. 102/103/104/142 계산·화면 미변경, 자동매매/텔레그램/매수매도/비중조절 신호 미연결. 데이터 없는 종목은 "최근 구조화 사건 없음"만 표시. -->
+<script src="setback_cards_41_data.js" onerror="void 0"></script>
 <script>
 // ============ 워치리스트 (지수ETF 제외 - 개별 종목 판단용) ============
 const ETF_THEME = "지수ETF";
@@ -5043,6 +5045,52 @@ if(typeof HINTS !== 'undefined' && !HINTS.marketExpectationSectorCard){
   HINTS.marketExpectationSectorCard = '142 기대충족 판정 엔진(9축 증거모델) 스냅샷 + ETF 섹터 환경 필터를 결합한 읽기 전용 참고 카드입니다. 매수·매도 신호가 아니며, 기존 RSI·눌림목·반등 신호가 연결되기 전까지는 "원신호 미연결 — 섹터 환경 참고용"으로만 표시됩니다.';
 }
 
+function renderSetbackCard(r){
+  if(!r || !r.ticker) return '';
+  const NEU_BG='#eef0f3', NEU_TEXT='#3c4552', NEU_LINE='#d7dbe1', NEU_DIM='#5b6472';
+  const sc = (typeof SETBACK_CARDS_41 !== 'undefined' && SETBACK_CARDS_41 && SETBACK_CARDS_41.tickers) ? SETBACK_CARDS_41.tickers[r.ticker] : null;
+
+  const headHtml = `
+    <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;margin-top:12px;margin-bottom:8px;">
+      <div style="font-size:14.5px;font-weight:800;color:var(--text);">사건 영향 의견 <span style="color:var(--sub);font-size:11px;">(신규)</span>${hintIcon('setbackCard')}</div>
+      <div class="sub">읽기 전용 · 매수/매도/비중조절 신호 아님 · 자동 연결 없음</div>
+    </div>`;
+
+  if(!sc){
+    return `${headHtml}
+      <div style="background:${NEU_BG};border:1px solid ${NEU_LINE};border-radius:12px;padding:12px 14px;color:${NEU_DIM};font-size:12px;margin-bottom:12px;">최근 구조화 사건 없음</div>`;
+  }
+
+  const stateChip = `<span style="display:inline-block;background:#fff;color:${NEU_TEXT};border:1px ${sc.source_correction_case ? 'dashed' : 'solid'} ${NEU_LINE};border-radius:999px;padding:3px 11px;font-size:11.5px;font-weight:800;margin-left:8px;">${esc(sc.state)}</span>`;
+  const confChip = (label, val) => `<span style="font-size:11px;color:${NEU_DIM};background:#fff;border:1px solid ${NEU_LINE};border-radius:7px;padding:3px 8px;margin-right:6px;display:inline-block;margin-top:4px;">${esc(label)}: ${esc(val)}</span>`;
+  const factsHtml = (sc.facts || []).map(f => `<li style="margin-bottom:3px;">${esc(f)}</li>`).join('');
+  const bodyCard = `
+    <div style="background:${sc.source_correction_case ? '#fbfbfa' : NEU_BG};border:1px ${sc.source_correction_case ? 'dashed' : 'solid'} ${NEU_LINE};border-radius:12px;padding:12px 14px;">
+      <div><span style="font-weight:800;font-size:13px;margin-right:2px;">${esc(r.ticker)}</span>${stateChip}</div>
+      <div style="margin-top:7px;">${confChip('사건 근거 신뢰도', sc.evidence_confidence)}${confChip('시장 가격 문맥 신뢰도', sc.price_context_confidence)}</div>
+      <ul style="margin:8px 0 0 18px;padding:0;font-size:11.5px;color:${NEU_TEXT};">${factsHtml}</ul>
+      <div style="margin-top:8px;font-size:11.5px;color:${NEU_DIM};background:#fff;border-left:3px solid ${NEU_LINE};padding:6px 9px;border-radius:4px;">다음 확인 조건: ${esc(sc.next_check)}</div>
+    </div>`;
+
+  const footNote = `<div style="margin-top:8px;margin-bottom:12px;font-size:10.5px;color:var(--sub);">이 카드는 "이 사건이 장기 전제를 흔드는가, 단기 압박인가"에만 답합니다. 매수·매도·비중조절 신호가 아니며 자동 주문·알림과 연결되지 않습니다.</div>`;
+
+  if(sc.source_correction_case){
+    return `${headHtml}
+      <div style="margin-top:4px;border-top:1px dashed ${NEU_LINE};padding-top:12px;">
+        <div style="display:inline-block;font-size:10.5px;font-weight:800;color:${NEU_DIM};background:#fff;border:1px dashed ${NEU_LINE};border-radius:6px;padding:2px 8px;margin-bottom:8px;">SOURCE_CORRECTION_CASE — 일반 사건 카드와 분리, 통계·집계 제외</div>
+        ${bodyCard}
+      </div>
+      ${footNote}`;
+  }
+
+  return `${headHtml}
+    ${bodyCard}
+    ${footNote}`;
+}
+if(typeof HINTS !== 'undefined' && !HINTS.setbackCard){
+  HINTS.setbackCard = '장기 투자 전제를 흔드는 사건과 단기 가격 압박을 구분해 보여주는 읽기 전용 참고 카드입니다. 사실·해석·반대근거·불확실성을 분리해 기록하며, 매수·매도·비중조절 신호가 아니고 자동주문/알림과 연결되지 않습니다. 데이터가 없는 종목은 "최근 구조화 사건 없음"으로만 표시합니다.';
+}
+
 function tabJudgement(r){
   const b = r.breakdown;
   const pct = Math.max(0, Math.min(100, r.score / 5 * 100)); // 새 점수 범위 0~5 -> 0~100%
@@ -5108,6 +5156,7 @@ function tabJudgement(r){
 
   return `
     ${renderMarketExpectationSectorCard(r)}
+    ${renderSetbackCard(r)}
     ${summaryCardHtml(r)}
     ${rsiBoundaryHtml(r)}
     ${renderJudgementConclusionCard(r)}
