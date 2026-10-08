@@ -5296,6 +5296,18 @@ function computePriceValidity(r){
   const perBandHighVal = (fund && typeof fund.avgPe3Y==='number' && typeof fund.perBandHigh==='number') ? fund.avgPe3Y*fund.perBandHigh : null;
   const bandEligible = ntmSourceOk && !distorted && perBandLowVal!=null && perBandHighVal!=null;
 
+  // --- 2-1) 가격대 차단 사유 분리 (세 가지를 하나로 합치지 않음) ---
+  //  - 과거 PER 왜곡: NTM은 있으나 평균÷현재NTM PER>3.0배
+  //  - NTM EPS/PER 입력 미확보: 독립 밸류에이션 자체에 재현 가능한 NTM 값이 없음(필드 없음/산출 보류)
+  //  - 과거 PER 밴드 또는 재무 입력 미확보: NTM은 있고 왜곡도 아니지만 avgPe3Y·perBandLow·perBandHigh 등
+  //    과거 PER 밴드/재무 입력 자체가 fundamentals_data.js에 없음(예: 상장 이력 짧음)
+  let blockReason = null;
+  if(!bandEligible){
+    if(distorted) blockReason = '과거 PER 왜곡';
+    else if(!ntmSourceOk) blockReason = 'NTM EPS/PER 입력 미확보';
+    else blockReason = '과거 PER 밴드 또는 재무 입력 미확보';
+  }
+
   // --- 3) 현금흐름·부채·희석 거부권 (2/3 이상 성립 시 발동) ---
   let fcfWorsen2y=false, debtHigh=false, dilution=false, cfDetail=[];
   if(fin && fin.annual && fin.annual.length>=3){
@@ -5387,7 +5399,7 @@ function computePriceValidity(r){
 
   return {
     ticker: t, price, business, cashflow, chart,
-    ntmPer, ntmSourceOk, ntmNote, distortionRatio, distorted, bandEligible,
+    ntmPer, ntmSourceOk, ntmNote, distortionRatio, distorted, bandEligible, blockReason,
     perBandLowVal, perBandHighVal, avgPe3Y: fund ? fund.avgPe3Y : null, perBandYears: fund ? fund.perBandYears : null,
     cfVeto, cfVetoCount, cfDetail, fcfWorsen2y, debtHigh, dilution,
     epsDamaged, epsDirection: eps ? eps.direction : null,
@@ -5457,7 +5469,8 @@ function renderPriceValidityCard(r){
     let rows = '';
     rows += rowHtml('현재가', `$${num(r.price)?r.price.toFixed(2):'—'}`);
     rows += rowHtml('현재가 요구 NTM PER(independent_valuation_data.js)', d.ntmSourceOk ? `${d.ntmPer.toFixed(1)}배` : `<span style="color:#7a3b2e;">${esc(d.ntmNote)}</span>`);
-    if(num(d.avgPe3Y)) rows += rowHtml(`종목 자신의 과거 PER 밴드(${d.perBandYears||'?'}년)`, `${num(d.perBandLowVal)?d.perBandLowVal.toFixed(1):'—'}배 ~ ${num(d.perBandHighVal)?d.perBandHighVal.toFixed(1):'—'}배 (평균 ${d.avgPe3Y.toFixed(1)}배)`);
+    if(num(d.perBandLowVal) && num(d.perBandHighVal)) rows += rowHtml(`종목 자신의 과거 PER 밴드(${d.perBandYears||'?'}년)`, `${d.perBandLowVal.toFixed(1)}배 ~ ${d.perBandHighVal.toFixed(1)}배 (평균 ${num(d.avgPe3Y)?d.avgPe3Y.toFixed(1):'—'}배)`);
+    else if(d.blockReason === '과거 PER 밴드 또는 재무 입력 미확보') rows += rowHtml('종목 자신의 과거 PER 밴드', `<span style="color:#7a3b2e;">저/고밴드 입력 미확보${num(d.avgPe3Y)?'(평균 '+d.avgPe3Y.toFixed(1)+'배만 확보)':''}</span>`);
     if(d.distortionRatio!=null){
       rows += rowHtml('왜곡비율(평균÷현재NTM PER)', `${d.distortionRatio.toFixed(2)}배`, d.distorted ? `<span style="display:inline-block;margin-left:6px;font-size:10px;font-weight:700;padding:1px 6px;border-radius:5px;color:#7a3b2e;background:#f8ece9;border:1px solid #e3c7bd;">3.0배 초과 — 가격대 차단</span>` : `<span style="display:inline-block;margin-left:6px;font-size:10px;font-weight:700;padding:1px 6px;border-radius:5px;color:#7a5c00;background:#fff8ea;border:1px solid #e9dcb8;">3.0배 미만 — 산출 허용</span>`);
     }
@@ -5506,13 +5519,21 @@ function renderPriceValidityCard(r){
         <div style="margin-top:6px;font-size:10.3px;color:${NEU_DIM};font-style:italic;">이 가격대는 애널리스트 EPS 저위·평균·고위 추정치와 해당 종목의 과거 PER 범위를 결합한 조건부 모델 기준 시나리오입니다. 실제 적정가나 목표가를 보장하지 않으며, 현재 가격에 맞춰 배수나 성장률을 조정하지 않았습니다.</div>
       </div>`;
   } else {
+    // 차단 사유 세 가지를 하나로 합치지 않고 종목별로 해당하는 사유 하나만 정확히 표시
     let reason;
-    if(d.distorted) reason = `과거 3년 평균 PER(${num(d.avgPe3Y)?d.avgPe3Y.toFixed(1):'—'}배)이 현재 NTM PER(${num(d.ntmPer)?d.ntmPer.toFixed(1):'—'}배)의 ${d.distortionRatio.toFixed(2)}배로, 왜곡 허용선(3.0배)을 넘습니다. 과거 EPS 급락기 비율이 평균을 왜곡시킨 것으로 판단해 숫자를 만들지 않습니다.`;
-    else reason = `${esc(d.ntmNote)} — 재현 가능한 원본 NTM 입력이 없어 세션에서 대신 계산하지 않고 그대로 차단합니다.`;
+    if(d.blockReason === '과거 PER 왜곡'){
+      reason = `과거 3년 평균 PER(${num(d.avgPe3Y)?d.avgPe3Y.toFixed(1):'—'}배)이 현재 NTM PER(${num(d.ntmPer)?d.ntmPer.toFixed(1):'—'}배)의 ${d.distortionRatio.toFixed(2)}배로, 왜곡 허용선(3.0배)을 넘습니다. 과거 EPS 급락기 비율이 평균을 왜곡시킨 것으로 판단해 숫자를 만들지 않습니다.`;
+    } else if(d.blockReason === 'NTM EPS/PER 입력 미확보'){
+      reason = `${esc(d.ntmNote)} — 재현 가능한 원본 NTM 입력이 없어 세션에서 대신 계산하지 않고 그대로 차단합니다.`;
+    } else {
+      // ntm은 있고 왜곡도 아니지만 과거 PER 밴드·재무 입력(avgPe3Y/perBandLow/perBandHigh 등) 자체가 없는 경우
+      reason = `현재가 요구 NTM PER(${num(d.ntmPer)?d.ntmPer.toFixed(1):'—'}배)은 확보됐지만, 과거 PER 밴드 또는 재무 입력(fundamentals_data.js의 avgPe3Y·perBandLow·perBandHigh 등)이 아직 없어 가격대를 만들 기준이 없습니다. 상장 이력이 짧거나 재무 데이터 수집이 아직 부족한 종목일 수 있습니다.`;
+    }
+    const reasonBadge = `<span style="display:inline-block;margin-bottom:5px;font-size:10px;font-weight:700;padding:1px 7px;border-radius:5px;color:#7a3b2e;background:#f8ece9;border:1px solid #e3c7bd;">${esc(d.blockReason)} — 가격대 산출 제한</span>`;
     bandHtml = `
       <div style="margin-top:10px;">
         <div style="font-size:11.5px;font-weight:800;color:${NEU_DIM};margin-bottom:4px;">EPS·현금흐름 전제의 모델 기준 가격대</div>
-        <div style="font-size:11.5px;color:#7a3b2e;background:#f8ece9;border:1px solid #e3c7bd;border-radius:8px;padding:9px 11px;line-height:1.6;"><b>숫자 가격대만 차단.</b> ${reason} 숫자 밴드만 없는 것이며, 사업·현금흐름·차트 평가는 그대로 유지됩니다.</div>
+        <div style="font-size:11.5px;color:#7a3b2e;background:#f8ece9;border:1px solid #e3c7bd;border-radius:8px;padding:9px 11px;line-height:1.6;">${reasonBadge}<br><b>숫자 가격대만 차단.</b> ${reason} 숫자 밴드만 없는 것이며, 사업·현금흐름·차트 평가는 그대로 유지됩니다.</div>
       </div>`;
   }
 
