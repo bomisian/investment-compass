@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791416520.203741,
+  "generatedAt": 1791417617.4827952,
   "events": [
     {
       "id": "50700b81247a8b9181cd",
@@ -7588,7 +7588,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=682fd04d3d7589318662fd1cea2c31cda184b5f97c1ee5bc306840484d4455e9",
         "publishedAt": 1791326129,
-        "collectedAt": 1791396002.0620944
+        "collectedAt": 1791417602.116512
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8216,6 +8216,77 @@ const EVENT_DATA = {
         "관련 기업 매출·수주잔고",
         "CAPEX 대비 영업현금흐름",
         "금리와 프로젝트 부채 비용"
+      ]
+    },
+    {
+      "id": "f71aa75d6c49b19825ea",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "QQQ",
+      "relatedTickers": [
+        "QQQ",
+        "SNDK",
+        "SPY"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Is A Tech Bubble Brewing? BofA Analysts Think So; Advises To Buy QQQ Options As A Hedge",
+      "headlineKo": "기술 거품이 양조되고 있습니까? BofA 분석가들은 그렇게 생각합니다. 헤지로 QQQ 옵션을 구매하라고 조언합니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c890c150130f859eeba04edfc57ece7141841c006af05b154ba90daf8f2ec625",
+        "publishedAt": 1791321690,
+        "collectedAt": 1791417602.116512
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "BofA 분석가들은 그렇게 생각합니다. 헤지 AI 에이전트로서 QQQ 옵션을 구매하라고 조언합니다. 동향 뉴스 수익 전체 DIA 0.64% SPY 0.23% QQQ 0.13% Trending APLD 1.97% BULL 18.96% SKHY 1.34% WOLF 17.50% DJT 4.68% PEP 1.61% SNDK 2.56% FLO 3.14% 우버 0.90% BMNR",
+        "BofA 분석가들은 그렇게 생각합니다. 는 헤지 광고로 QQQ 옵션을 구매하라고 조언합니다 | 광고를 제거하세요.",
+        "BofA 분석가들은 그렇게 생각합니다. 미국 헤지 은행 시장 전략가들은 기술 주식 거품의 팽창을 걱정하는 투자자들이 주식을 구매하는 대신 옵션 계약을 사용하여 위험을 관리할 수 있다고 제안함에 따라 QQQ 옵션을 구매하라고 조언합니다."
+      ],
+      "marketInterpretation": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.64%, 0.23%, 0.13% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.64%, 0.23%, 0.13% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "QQQ",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 CAPEX 집행",
+        "공급업체 수주·매출",
+        "투자 기업 OCF·FCF·부채"
       ]
     },
     {
@@ -12531,7 +12602,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=d854387ea2b54afa3aae5bc2f3ae53045ac16ed0dc767504142c274ece5c100a",
         "publishedAt": 1791292272,
-        "collectedAt": 1791396002.0620944
+        "collectedAt": 1791417602.116512
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14336,7 +14407,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9b2690aaa98e03f5a2f2511a4b46b97fd79dfffb05f92ff936c81ada02f72b1d",
         "publishedAt": 1791275977,
-        "collectedAt": 1791396002.0620944
+        "collectedAt": 1791417602.116512
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15935,7 +16006,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8b05235329873b3a6aefc1263a0519dcf558fad2478525d7f31f7e0d1584bf58",
         "publishedAt": 1791238172,
-        "collectedAt": 1791396002.0620944
+        "collectedAt": 1791417602.116512
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17767,82 +17838,6 @@ const EVENT_DATA = {
         "적용 PER 변화",
         "회사 공식 가이던스"
       ]
-    },
-    {
-      "id": "8b89763319694d2deb11",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "MU",
-      "relatedTickers": [
-        "MU",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Samsung",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Samsung May Report Its First 100 Trillion Won Quarter. Micron Stock Has More to Lose Than to Gain.",
-      "headlineKo": "삼성, 첫 분기 100조 보고. 마이크론 주식은 얻는 것보다 잃는 것이 더 많습니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3bed71cd02e2b6bcaf36b312da184066ceb4d55452357506a357b6ea25b1b981",
-        "publishedAt": 1791218221,
-        "collectedAt": 1791414227.2007656
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "삼성, 첫 분기 100조 보고.",
-        "마이크론 주식은 얻는 것보다 잃는 것이 더 많습니다.",
-        "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 삼성전자( SSNLF +0.00% )는 아마도 이번 주에 3분기 잠정 실적을 발표할 예정이며, 투자자 수는 다음과 같습니다."
-      ],
-      "marketInterpretation": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 19%, 1.15%, $1,075 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "MU에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 19%, 1.15%, $1,075 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "MU",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "공식 매출·EPS 가이던스",
-        "컨센서스 추정치 변경",
-        "마진·FCF 전망"
-      ]
     }
   ],
   "byTicker": {
@@ -17944,8 +17939,7 @@ const EVENT_DATA = {
       "ef18a9c38901a02cf117",
       "2a8a893795fa9fb0dec9",
       "548fe8655ad2382c3e36",
-      "47b8d59c57e83aff2e79",
-      "8b89763319694d2deb11"
+      "47b8d59c57e83aff2e79"
     ],
     "NVDA": [
       "50700b81247a8b9181cd",
@@ -18080,6 +18074,7 @@ const EVENT_DATA = {
       "19abe792ce249c71ec7f",
       "04ebd9792158d2491905",
       "987949f01e80381d4dc6",
+      "f71aa75d6c49b19825ea",
       "61e38ebadfb68a8f2a8a",
       "6cd7e1aad302a0a582cc",
       "d9952b85779fd4bbca42",
@@ -18140,8 +18135,7 @@ const EVENT_DATA = {
       "45a597627af7fda86b21",
       "d177312e9c03b832d748",
       "9e94bdd57d499e942193",
-      "8c04d156d33202894018",
-      "8b89763319694d2deb11"
+      "8c04d156d33202894018"
     ],
     "EME": [
       "132b19a6235bf7dde011"
@@ -18305,6 +18299,7 @@ const EVENT_DATA = {
       "19abe792ce249c71ec7f",
       "04ebd9792158d2491905",
       "987949f01e80381d4dc6",
+      "f71aa75d6c49b19825ea",
       "61e38ebadfb68a8f2a8a",
       "d9952b85779fd4bbca42",
       "d64f901b51bbd68599d1",
@@ -18439,6 +18434,7 @@ const EVENT_DATA = {
     "SNDK": [
       "062490ec287877913a16",
       "edf247c771607f027085",
+      "f71aa75d6c49b19825ea",
       "e3007994e6041ecde782",
       "ef18a9c38901a02cf117",
       "5901ecfacc1e875983ce",

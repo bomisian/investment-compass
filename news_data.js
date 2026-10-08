@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1791396002.0620944,
+    "_last_attempt_at": 1791417602.116512,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -66,7 +66,7 @@ const NEWS_DATA = {
             "stocks look set to open on a negative note on Wednesday, with futures of the Dow Jones, S&P 500 and Nasdaq 100 indices falling, following Tuesday’s higher close.",
             "Political fallout and rising Middle East tensions dominated headlines after President Donald Trump sparked bipartisan backlash over his remarks on Iran."
           ],
-          "analysisUpdatedAt": 1791396014.1785955
+          "analysisUpdatedAt": 1791417609.1651921
         },
         "headlineKo": "오늘의 주식 시장: 30년 만기 국채 수익률이 2002년 최고치를 기록하면서 S&P 500, 다우, 나스닥 선물 하락; 이란은 미국 경제를 조롱합니다 — STZ, PENG, LEVI 초점 (업데이트됨)"
       },
@@ -115,7 +115,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791396014.8478565
+          "analysisUpdatedAt": 1791417609.8400507
         },
         "headlineKo": "S&P 500과 Nasdaq 100은 강력한 분기별 수익에 대한 기대가 높아지는 가운데 최고치를 기록했습니다. — CEG, LCID, SPCX, MRVL 집중"
       },
@@ -129,22 +129,24 @@ const NEWS_DATA = {
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Is A Tech Bubble Brewing? BofA Analysts Think So; Advises To Buy QQQ Options As A Hedge",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "BofA 분석가들은 그렇게 생각합니다. 헤지 AI 에이전트로서 QQQ 옵션을 구매하라고 조언합니다. 동향 뉴스 수익 전체 DIA 0.64% SPY 0.23% QQQ 0.13% Trending APLD 1.97% BULL 18.96% SKHY 1.34% WOLF 17.50% DJT 4.68% PEP 1.61% SNDK 2.56% FLO 3.14% 우버 0.90% BMNR",
+            "BofA 분석가들은 그렇게 생각합니다. 는 헤지 광고로 QQQ 옵션을 구매하라고 조언합니다 | 광고를 제거하세요.",
+            "BofA 분석가들은 그렇게 생각합니다. 미국 헤지 은행 시장 전략가들은 기술 주식 거품의 팽창을 걱정하는 투자자들이 주식을 구매하는 대신 옵션 계약을 사용하여 위험을 관리할 수 있다고 제안함에 따라 QQQ 옵션을 구매하라고 조언합니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.64%, 0.23%, 0.13% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -154,18 +156,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
           ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Is A Tech Bubble Brewing? BofA Analysts Think So; Advises To Buy QQQ Options As A Hedge' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 1.0,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791396015.508058
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.64%",
+            "0.23%",
+            "0.13%",
+            "1.97%",
+            "18.96%",
+            "1.34%",
+            "17.50%",
+            "4.68%"
+          ],
+          "sourceExcerpt": [
+            "BofA Analysts Think So; Advises To Buy QQQ Options As A Hedge AI Agent Trending News Earnings All DIA 0.64% SPY 0.23% QQQ 0.13% Trending APLD 1.97% BULL 18.96% SKHY 1.34% WOLF 17.50% DJT 4.68% PEP 1.61% SNDK 2.56% FLO 3.14% UBER 0.90% BMNR ",
+            "BofA Analysts Think So; Advises To Buy QQQ Options As A Hedge Advertisement | Remove ads.",
+            "BofA Analysts Think So; Advises To Buy QQQ Options As A Hedge Bank of America market strategists suggest that investors worried about a swelling technology stock bubble can manage risk by using options contracts instead of buying stocks dir"
+          ],
+          "analysisUpdatedAt": 1791417614.1707246
         },
         "headlineKo": "기술 거품이 양조되고 있습니까? BofA 분석가들은 그렇게 생각합니다. 헤지로 QQQ 옵션을 구매하라고 조언합니다."
       },
@@ -368,7 +382,7 @@ const NEWS_DATA = {
             "stocks look set to open on a negative note on Wednesday, with futures of the Dow Jones, S&P 500 and Nasdaq 100 indices falling, following Tuesday’s higher close.",
             "Political fallout and rising Middle East tensions dominated headlines after President Donald Trump sparked bipartisan backlash over his remarks on Iran."
           ],
-          "analysisUpdatedAt": 1791396014.1785955
+          "analysisUpdatedAt": 1791417609.1651921
         }
       },
       {
@@ -416,7 +430,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791396014.8478565
+          "analysisUpdatedAt": 1791417609.8400507
         }
       },
       {
@@ -429,22 +443,24 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Is A Tech Bubble Brewing? BofA Analysts Think So; Advises To Buy QQQ Options As A Hedge",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "BofA 분석가들은 그렇게 생각합니다. 헤지 AI 에이전트로서 QQQ 옵션을 구매하라고 조언합니다. 동향 뉴스 수익 전체 DIA 0.64% SPY 0.23% QQQ 0.13% Trending APLD 1.97% BULL 18.96% SKHY 1.34% WOLF 17.50% DJT 4.68% PEP 1.61% SNDK 2.56% FLO 3.14% 우버 0.90% BMNR",
+            "BofA 분석가들은 그렇게 생각합니다. 는 헤지 광고로 QQQ 옵션을 구매하라고 조언합니다 | 광고를 제거하세요.",
+            "BofA 분석가들은 그렇게 생각합니다. 미국 헤지 은행 시장 전략가들은 기술 주식 거품의 팽창을 걱정하는 투자자들이 주식을 구매하는 대신 옵션 계약을 사용하여 위험을 관리할 수 있다고 제안함에 따라 QQQ 옵션을 구매하라고 조언합니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.64%, 0.23%, 0.13% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -454,18 +470,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
           ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Is A Tech Bubble Brewing? BofA Analysts Think So; Advises To Buy QQQ Options As A Hedge' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 1.0,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791396015.508058
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.64%",
+            "0.23%",
+            "0.13%",
+            "1.97%",
+            "18.96%",
+            "1.34%",
+            "17.50%",
+            "4.68%"
+          ],
+          "sourceExcerpt": [
+            "BofA Analysts Think So; Advises To Buy QQQ Options As A Hedge AI Agent Trending News Earnings All DIA 0.64% SPY 0.23% QQQ 0.13% Trending APLD 1.97% BULL 18.96% SKHY 1.34% WOLF 17.50% DJT 4.68% PEP 1.61% SNDK 2.56% FLO 3.14% UBER 0.90% BMNR ",
+            "BofA Analysts Think So; Advises To Buy QQQ Options As A Hedge Advertisement | Remove ads.",
+            "BofA Analysts Think So; Advises To Buy QQQ Options As A Hedge Bank of America market strategists suggest that investors worried about a swelling technology stock bubble can manage risk by using options contracts instead of buying stocks dir"
+          ],
+          "analysisUpdatedAt": 1791417614.1707246
         }
       },
       {
@@ -4708,15 +4736,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791396002.0620944,
-    "_updated_label": "2026-10-08 03:00",
-    "_last_success_at": 1791396002.0620944,
+    "_fetched_at": 1791417602.116512,
+    "_updated_label": "2026-10-08 09:00",
+    "_last_success_at": 1791417602.116512,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 95,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "SPY": {
@@ -10829,7 +10857,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 124,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "MSFT": {
@@ -18766,7 +18794,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "GOOGL": {
@@ -26676,7 +26704,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "AMZN": {
@@ -34649,7 +34677,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "META": {
@@ -42496,7 +42524,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "AAPL": {
@@ -50567,7 +50595,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "TSLA": {
@@ -58395,7 +58423,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "ORCL": {
@@ -66706,7 +66734,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "CRM": {
@@ -72692,7 +72720,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "PLTR": {
@@ -81248,7 +81276,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "NVDA": {
@@ -88977,7 +89005,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "AMD": {
@@ -96845,7 +96873,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "AVGO": {
@@ -105001,7 +105029,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 168,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "QCOM": {
@@ -111241,7 +111269,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 138,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "ARM": {
@@ -115706,7 +115734,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "MRVL": {
@@ -122557,7 +122585,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 146,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "INTC": {
@@ -130821,7 +130849,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "TSM": {
@@ -136301,7 +136329,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "ASML": {
@@ -139934,7 +139962,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "AMAT": {
@@ -143930,7 +143958,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "LRCX": {
@@ -146080,7 +146108,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "KLAC": {
@@ -148186,7 +148214,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "MU": {
@@ -155708,7 +155736,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "SNDK": {
@@ -162626,7 +162654,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 145,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "WDC": {
@@ -166746,7 +166774,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "ANET": {
@@ -169934,7 +169962,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "COHR": {
@@ -172767,7 +172795,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "LITE": {
@@ -175575,7 +175603,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "GEV": {
@@ -180256,7 +180284,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "CEG": {
@@ -184326,7 +184354,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "VST": {
@@ -187408,7 +187436,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "ETN": {
@@ -190166,7 +190194,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "PWR": {
@@ -192736,7 +192764,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "HUBB": {
@@ -193504,7 +193532,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "VRT": {
@@ -197134,7 +197162,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "MOD": {
@@ -198381,7 +198409,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "STX": {
@@ -202110,7 +202138,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "EME": {
@@ -203619,7 +203647,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "FIX": {
@@ -205106,7 +205134,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   },
   "BE": {
@@ -207073,7 +207101,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-10-08 08:41"
+      "updated": "2026-10-08 09:00"
     }
   }
 };
