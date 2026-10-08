@@ -1249,8 +1249,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 8.9,
     "name": "Quanta Services Inc",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1791425980.5373545,
-    "_updated_label": "2026-10-08 11:19"
+    "_fetched_at": 1791498154.6227314,
+    "_updated_label": "2026-10-09 07:22"
   },
   "HUBB": {
     "forwardPE": 20.73801,
