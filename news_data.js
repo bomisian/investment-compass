@@ -4885,7 +4885,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "SPY": {
@@ -11075,7 +11075,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 125,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "MSFT": {
@@ -19036,7 +19036,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "GOOGL": {
@@ -26874,7 +26874,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "AMZN": {
@@ -34852,7 +34852,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "META": {
@@ -42751,7 +42751,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "AAPL": {
@@ -50823,7 +50823,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "TSLA": {
@@ -58756,7 +58756,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "ORCL": {
@@ -67304,7 +67304,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "CRM": {
@@ -73416,7 +73416,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 131,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "PLTR": {
@@ -81986,7 +81986,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "NVDA": {
@@ -89541,7 +89541,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "AMD": {
@@ -97446,7 +97446,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "AVGO": {
@@ -105910,7 +105910,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 174,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "QCOM": {
@@ -112234,7 +112234,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 140,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "ARM": {
@@ -116734,7 +116734,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "MRVL": {
@@ -123895,7 +123895,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 153,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "INTC": {
@@ -132209,7 +132209,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "TSM": {
@@ -137919,7 +137919,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 126,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "ASML": {
@@ -141770,11 +141770,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "AMAT": {
-    "_last_attempt_at": 1791460176.67129,
+    "_last_attempt_at": 1791460801.6157498,
     "nextEarnings": {
       "date": "2026-11-12",
       "hour": "amc",
@@ -141783,6 +141783,87 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Applied Materials vs. Marvell Technology: What Revenue Trends Tell Investors About These Artificial Intelligence Companies",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=74856f8d6095362e656f75a6aaf95b174d43a396f6a3a64aa41a8e95de8049db",
+        "datetime": 1791431947,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.81%, $7.0 billion, $1.5 billion, $7.2 billion, $1.8 billion, $7.1 billion, $1.9 billion, $7.3 billion.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Applied Materials vs. Marvell Technology: What Revenue Trends Tell Investors About These Artificial Intelligence Companies' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMAT에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 0.67,
+          "quality": "high",
+          "verifiedNumbers": [
+            "0.81%",
+            "$7.0 billion",
+            "$1.5 billion",
+            "$7.2 billion",
+            "$1.8 billion",
+            "$7.1 billion",
+            "$1.9 billion",
+            "$7.3 billion"
+          ],
+          "sourceExcerpt": [
+            "Marvell Technology: What Revenue Trends Tell Investors About These Artificial Intelligence Companies | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Applied Materials: Recent Acce",
+            "For the quarter ended July 2026, it expanded its specialized equipment research and development ecosystem to include eleven active partner engagements across the manufacturing landscape, and it also appointed an experienced new operational ",
+            "Marvell Technology: Generating Steady and Consistent Revenue Marvell Technology ( MRVL -0.81% ) primarily earns revenue by developing data infrastructure integrated circuits for various enterprise and networking applications."
+          ],
+          "analysisUpdatedAt": 1791460810.1194732
+        },
+        "headlineKo": "Applied Materials vs. Marvell Technology: 수익 추세가 투자자에게 인공 지능 회사에 대해 알려주는 것"
+      },
       {
         "headline": "Jim Cramer Sees More to Applied Materials (AMAT) Than Its Earnings Multiple",
         "source": "Yahoo",
@@ -141828,7 +141909,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791437452.5248864
+          "analysisUpdatedAt": 1791460812.4263444
         },
         "headlineKo": "Jim Cramer는 수익 배수보다 Applied Materials(AMAT)에 더 많은 것을 보고 있습니다."
       },
@@ -141878,7 +141959,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791437454.8413951
+          "analysisUpdatedAt": 1791460815.4096289
         },
         "headlineKo": "Applied Materials(AMAT) 대 LRCX 및 KLAC: AI 기반 칩 복잡성으로 인해 추가 상승 가능성이 나타날 수 있습니까?"
       },
@@ -141890,46 +141971,6 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Zacks Industry Outlook Applied Materials, Lam Research and FormFactor",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMAT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Zacks Industry Outlook Applied Materials, Lam Research and FormFactor' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791437456.5179346
-        },
         "headlineKo": "Zacks 산업 전망 Applied Materials, Lam Research 및 FormFactor"
       },
       {
@@ -141941,19 +141982,89 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Applied Materials와 Nvidia: 인공지능 기업의 수익 추세가 보여주는 것"
-      },
-      {
-        "headline": "What Would You Have Needed To Notice In Applied Materials Stock?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0d0969f97237333b4b8b4a024ab9306f5ab9d187ea5a9c7d42646936de49b3cc",
-        "datetime": 1791311159,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "어플라이드 머티어리얼즈 주식에서 주목해야 할 사항은 무엇입니까?"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Applied Materials vs. Marvell Technology: What Revenue Trends Tell Investors About These Artificial Intelligence Companies",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=74856f8d6095362e656f75a6aaf95b174d43a396f6a3a64aa41a8e95de8049db",
+        "datetime": 1791431947,
+        "headlineKo": "Applied Materials vs. Marvell Technology: 수익 추세가 투자자에게 인공 지능 회사에 대해 알려주는 것",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.81%, $7.0 billion, $1.5 billion, $7.2 billion, $1.8 billion, $7.1 billion, $1.9 billion, $7.3 billion.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Applied Materials vs. Marvell Technology: What Revenue Trends Tell Investors About These Artificial Intelligence Companies' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMAT에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 0.67,
+          "quality": "high",
+          "verifiedNumbers": [
+            "0.81%",
+            "$7.0 billion",
+            "$1.5 billion",
+            "$7.2 billion",
+            "$1.8 billion",
+            "$7.1 billion",
+            "$1.9 billion",
+            "$7.3 billion"
+          ],
+          "sourceExcerpt": [
+            "Marvell Technology: What Revenue Trends Tell Investors About These Artificial Intelligence Companies | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Applied Materials: Recent Acce",
+            "For the quarter ended July 2026, it expanded its specialized equipment research and development ecosystem to include eleven active partner engagements across the manufacturing landscape, and it also appointed an experienced new operational ",
+            "Marvell Technology: Generating Steady and Consistent Revenue Marvell Technology ( MRVL -0.81% ) primarily earns revenue by developing data infrastructure integrated circuits for various enterprise and networking applications."
+          ],
+          "analysisUpdatedAt": 1791460810.1194732
+        }
+      },
       {
         "headline": "Jim Cramer Sees More to Applied Materials (AMAT) Than Its Earnings Multiple",
         "source": "Yahoo",
@@ -141999,7 +142110,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791437452.5248864
+          "analysisUpdatedAt": 1791460812.4263444
         }
       },
       {
@@ -142048,7 +142159,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791437454.8413951
+          "analysisUpdatedAt": 1791460815.4096289
         }
       },
       {
@@ -145791,17 +145902,16 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791437217.4175987,
-    "_updated_label": "2026-10-08 14:30",
-    "_last_success_at": 1791437217.4175987,
-    "_collection_status": "error",
+    "_fetched_at": 1791460801.6157498,
+    "_updated_label": "2026-10-08 21:00",
+    "_last_success_at": 1791460801.6157498,
+    "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 84,
+      "checked": 85,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
-    },
-    "_last_error": "The read operation timed out"
+      "updated": "2026-10-08 21:00"
+    }
   },
   "LRCX": {
     "_last_attempt_at": 1791460176.67129,
@@ -147950,7 +148060,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "KLAC": {
@@ -150056,7 +150166,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "MU": {
@@ -157694,7 +157804,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "SNDK": {
@@ -164729,7 +164839,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 148,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "WDC": {
@@ -168919,7 +169029,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "ANET": {
@@ -172185,7 +172295,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "COHR": {
@@ -175018,7 +175128,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "LITE": {
@@ -177861,7 +177971,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "GEV": {
@@ -182577,7 +182687,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 95,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "CEG": {
@@ -186647,7 +186757,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "VST": {
@@ -189729,7 +189839,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "ETN": {
@@ -192536,7 +192646,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "PWR": {
@@ -195106,7 +195216,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "HUBB": {
@@ -195874,7 +195984,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "VRT": {
@@ -199553,7 +199663,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "MOD": {
@@ -200831,7 +200941,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "STX": {
@@ -204644,7 +204754,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "EME": {
@@ -206202,7 +206312,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "FIX": {
@@ -207738,7 +207848,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   },
   "BE": {
@@ -209832,7 +209942,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-08 20:58"
+      "updated": "2026-10-08 21:00"
     }
   }
 };
