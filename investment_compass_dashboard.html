@@ -4824,6 +4824,21 @@ function summaryLivePriceOk(r){
   return !!(h && !h.invalid && h.dataQualityRisk === false && !h.cacheFallbackUsed && h.staleSessions === 0 && h.trueMissingCount === 0
     && typeof r.price === 'number' && isFinite(r.price) && r.price > 0);
 }
+// 2026-10-08: 104(가격vs실적 분해) 데이터가 자동 배치 중단으로 날짜가 밀릴 수 있어, 기준일이
+// 오늘로부터 3일(주말 1회分 포함 가능한 최소 여유) 넘게 벌어지면 "최신 데이터 아님" 경고를 표시.
+// 104 로직 자체는 건드리지 않음 -- 배치 재가동은 별도 유지보수 작업.
+function ddtStaleWarning(priceDateStr){
+  if(!priceDateStr) return '';
+  const pd = new Date(priceDateStr + 'T00:00:00');
+  if(isNaN(pd.getTime())) return '';
+  const now = new Date();
+  const diffDays = Math.floor((now - pd) / (1000*60*60*24));
+  if(!isFinite(diffDays) || diffDays <= 3) return '';
+  return `<div class="sub" style="margin-top:4px;padding:5px 7px;background:#fff3cd;color:#876000;border:1px solid #87600033;border-radius:5px;">
+    <b>⚠️ 자료 기준일: ${esc(priceDateStr)} · 데이터 갱신 상태: 최신 데이터 아님</b><br>
+    <span>이 결과는 현재 판단이나 매수·매도 신호가 아니라, 가격과 실적의 과거 분해 참고자료입니다.</span>
+  </div>`;
+}
 function summaryCardHtml(r){
   if(!r || !r.ticker) return '';
   const tk = r.ticker;
@@ -4922,6 +4937,7 @@ function summaryCardHtml(r){
   const ddBody = (ddt && !ddt.skip && (ddt.label_forward || ddt.label_trailing))
     ? (ddt.label_forward ? row('최근 90일', esc(ddt.label_forward)) : '') + (ddt.label_trailing ? row('고점 이후 공시 실적', esc(ddt.label_trailing)) : '')
       + `<div class="sub" style="font-size:10.5px;">가격 ${esc(ddt.price_date || '')} · 추정치 ${esc((window.DRAWDOWN_TYPE && window.DRAWDOWN_TYPE.consensus_as_of) || '')} 기준</div>`
+      + ddtStaleWarning(ddt && ddt.price_date)
     : '<div class="sub">자료 없음</div>';
 
   return `<div class="comment-box" style="background:var(--panel-2);margin-bottom:12px;">
@@ -5067,7 +5083,9 @@ function tabJudgement(r){
   if(ddt && !ddt.skip && (r.score >= 2 || (typeof ddt.dd52 === 'number' && ddt.dd52 <= -8))){
     bannerText += `<div style="margin-top:6px;padding:6px 8px;background:var(--panel-2);border-radius:6px;color:#4b5157;font-weight:400;">
       <b>왜 빠졌나 (가격 vs 이익)</b><br>· 전망 기준: ${esc(ddt.line_forward || '—')}<br>· 공시 실적 기준: ${esc(ddt.line_trailing || '—')}
-      <div class="sub" style="margin-top:3px;">설명용이에요. 2016~2025 S&P500 검증에서 '가격만 조정'과 '이익도 같이 빠짐'의 1년 성적(SPY 초과 승률 둘 다 51%)은 차이가 없었고, 이익이 크게 줄었던 때는 오히려 이익 바닥 근처인 경우가 많았어요. 적자 구간은 이후 낙폭이 가장 컸어요. (가격 ${esc(ddt.price_date || '')} · 추정치 ${esc(window.DRAWDOWN_TYPE.consensus_as_of || '')} 기준)</div></div>`;
+      <div class="sub" style="margin-top:3px;">설명용이에요. 2016~2025 S&P500 검증에서 '가격만 조정'과 '이익도 같이 빠짐'의 1년 성적(SPY 초과 승률 둘 다 51%)은 차이가 없었고, 이익이 크게 줄었던 때는 오히려 이익 바닥 근처인 경우가 많았어요. 적자 구간은 이후 낙폭이 가장 컸어요. (가격 ${esc(ddt.price_date || '')} · 추정치 ${esc(window.DRAWDOWN_TYPE.consensus_as_of || '')} 기준)</div>
+      ${ddtStaleWarning(ddt.price_date)}
+      </div>`;
   }
   bannerText += accumulationCardHtml(r);
   if(hasAnyRiskBadge(r)){
