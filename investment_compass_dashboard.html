@@ -5718,23 +5718,34 @@ function renderMarketPositionCard(r){
   const axes = (m && num(m.observed_axes)) ? m.observed_axes : null;
   rowsHtml += rowHtml('142 기대충족 상태', `${esc(status || '—')} · 신뢰도 ${esc(confidence || '—')} · 관측 ${num(axes) ? axes : '—'}축`);
 
-  // ---- 종합 문장 판정 (MARKET_POSITION_CARD_DECLARATION_v1_1 §4, 39종목 전수 동일 규칙) ----
-  let gateBlocked = false, lowConfidence = false;
-  if(!m || status === '증거 부족' || confidence === '매우낮음' || (num(axes) && axes < 3)){
-    gateBlocked = true;
-  } else if(confidence === '낮음'){
-    lowConfidence = true;
+  // ---- 요약 문구 (51733 정정) ----
+  // 51732에서 쓰던 하단/선반영 표현(목표가 중앙값과 현재가 괴리로 저평가·고평가를 암시)이
+  // 가격 타당성 카드의 판단과 충돌한다는 지적을 반영해 전면 교체한다. 목표가 자료는 더 이상
+  // 가격 판단의 보조 결론(하단/상단/선반영)으로 쓰지 않고, 컨센서스 원자료(목표가 수정 방향·
+  // 분산·분석가 수·기준일·경고)만 사실 그대로 요약한다. 가격이 매력적/적정/경계인지의 결론은
+  // 여전히 EPS·현금흐름 기반 가격 타당성 카드만 담당하며 이 함수는 건드리지 않는다.
+  let lowConfidence = (confidence === '낮음');
+
+  // 목표가 수정 방향: 연결된 데이터(MARKET_TARGET_CONSENSUS·MARKET_EXPECTATION_41)에는 목표가
+  // 시계열(이전 스냅샷 대비 상향/하향 이력)이 없다 -- 없는 값을 추정하지 않고 '확인 불가'로 고정한다.
+  const revisionDir = '확인 불가';
+
+  let spreadLabel = '분산 확인 불가';
+  if(num(tc.target_low) && num(tc.target_high) && num(tc.target_median) && tc.target_median > 0){
+    const spreadPct = (tc.target_high - tc.target_low) / tc.target_median * 100;
+    spreadLabel = '분산 ' + (spreadPct < 50 ? '작음' : (spreadPct <= 100 ? '보통' : '큼'));
   }
 
+  const analystsLabel = num(tc.num_analysts) ? `${tc.num_analysts}명` : '분석가 수 미확보';
+  const asOfElapsedLabel = num(ageDays) ? `기준일 ${ageDays}일 경과` : (consensusAsOf !== '—' ? `기준일 ${esc(consensusAsOf)}` : '기준일 미기록');
+  const sourceConcLabel = (m && m.source_concentration_warning) ? '출처 집중 경고' : '';
+  const staleLabel = (num(ageDays) && ageDays > MARKET_POSITION_STALE_DAYS) ? `최신성 경고(${MARKET_POSITION_STALE_DAYS}일 초과)` : '';
+
   let summary;
-  if(gateBlocked || !num(gapPct)){
-    summary = '가격 타당성 근거 구축 중';
-  } else if(gapPct <= -15){
-    summary = '시장 기대 대비 하단 — 사업 근거 확인 필요';
-  } else if(gapPct >= 15){
-    summary = '기대 선반영 가능 — 사업 근거 확인 필요';
+  if(!m || consensusAsOf === '—'){
+    summary = '컨센서스 수정 방향 미확보 — 참고용';
   } else {
-    summary = lowConfidence ? '시장 기대 수준 — 사업 근거 확인 필요' : '시장 기대 수준';
+    summary = [`목표가 수정 방향 ${revisionDir}`, spreadLabel, analystsLabel, asOfElapsedLabel, sourceConcLabel, staleLabel].filter(Boolean).join(' · ');
   }
 
   const gapLine = num(gapPct) ? `<div style="margin-top:9px;font-size:13px;font-weight:800;color:${NEU_TEXT};">현재가는 중앙값 대비 ${gapPct>=0?'+':''}${gapPct.toFixed(1)}% ${gapPct<0?'낮음':'높음'}</div>` : '';
