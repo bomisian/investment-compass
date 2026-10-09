@@ -5564,9 +5564,19 @@ function pvIntegratedAction(d){
       tier: 'downturn_watch',
     };
   }
-  // P3: 가격대 산출 제한 -- 기존 사업·현금흐름·차트 조합 문장 재사용
+  // P3: 가격대 산출 제한 -- 가격을 확인할 수 없으므로 "분할 축적 검토"(가격 매력 확정 전제)는
+  //     절대 쓰지 않는다. 종합 행동 헤드라인은 항상 5개 표준 어휘 중 하나로만 표시하고(51736
+  //     원칙), 사업·현금흐름·차트 조합에 따른 세부 설명은 기존 pvActionSentence 문장에 그대로
+  //     남긴다(이유 줄에서 확인 가능, 헤드라인 어휘만 표준화). ---
   if(d.price === '가격대 산출 제한'){
-    return { label: pvActionShort(d), reason: pvActionSentence(d), recheck: pvChangeConditions(d), tier: 'price_restricted' };
+    let label;
+    if(d.business==='약화' && d.cashflow==='경계') label = '신규 접근 중지';
+    else if(d.cashflow==='경계' && d.chart==='하락 추세 경계') label = '신규 접근 중지';
+    else if(d.cashflow==='경계') label = '관찰';
+    else if(d.chart==='하락 추세 경계') label = '추세 반전 대기';
+    else if(d.chart==='추격 금지' || d.chart==='반등 확인 대기') label = '눌림 대기';
+    else label = '관찰'; // 눌림 진입 가능이어도 가격 자체가 미확인이라 분할 검토로 올리지 않음
+    return { label, reason: pvActionSentence(d), recheck: pvChangeConditions(d), tier: 'price_restricted' };
   }
   // P4: 현금흐름 거부권 또는 접근 회피 -- 가격 라벨과 무관하게 신규 접근 중지
   if(d.cashflow === '경계' || d.price === '접근 회피'){
@@ -5584,7 +5594,7 @@ function pvIntegratedAction(d){
     return { label: '눌림 대기', reason: pvActionSentence(d), recheck: pvChangeConditions(d), tier: 'chart_wait' };
   }
   if(d.chart === '데이터 부족'){
-    return { label: '확인 대기', reason: pvActionSentence(d), recheck: pvChangeConditions(d), tier: 'chart_nodata' };
+    return { label: '관찰', reason: pvActionSentence(d), recheck: pvChangeConditions(d), tier: 'chart_nodata' };
   }
   // P7: 가격 매력적/적정 + 사업 비(非)약화 + 현금흐름 건전 + 눌림 진입 가능 -- 분할 축적 검토
   return { label: '분할 축적 검토', reason: pvActionSentence(d), recheck: pvChangeConditions(d), tier: 'accumulate' };
