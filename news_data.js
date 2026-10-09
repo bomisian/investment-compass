@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1791484946.5819569,
+    "_last_attempt_at": 1791507529.6894133,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -66,7 +66,7 @@ const NEWS_DATA = {
             "stocks look set to open in the red on Thursday, with futures of the Dow Jones, S&P 500, and Nasdaq 100 indices falling, following Wednesday’s lower close.",
             "On the economic data front, weekly initial jobless claims fell by 2,000 to a seasonally adjusted 197,000 for the week ending Oct."
           ],
-          "analysisUpdatedAt": 1791484951.233949
+          "analysisUpdatedAt": 1791507534.1787932
         },
         "headlineKo": "오늘의 주식 시장: 미 국방부가 이란에 대한 잠재적인 군사 공격을 준비함에 따라 S&P 500, 다우 존스, 나스닥 100 선물 하락 — APLD, LEVI, MU 초점(업데이트됨)"
       },
@@ -147,7 +147,7 @@ const NEWS_DATA = {
             "Market Reaction and Data Center Spending CNBC’s host Cramer addressed the market pullback on Thursday, pinpointing the drop in technology stocks as an overreaction to external macroeconomic factors rather than internal sector weakness.",
             "On X, Cramer stated that “oil/rates convenient excuses to say that data center spend is peaking so sell the semis.” He further noted that the “big gain in oil and concern about higher rates and data center spend combine for a session that s"
           ],
-          "analysisUpdatedAt": 1791484952.1727102
+          "analysisUpdatedAt": 1791507535.1815069
         },
         "headlineKo": "Jim Cramer는 석유 급등, 높은 금리는 QQQ, SOXX 하락으로 세미 제품을 판매하는 '편리한 변명'이며 투자자들은 데이터 센터 지출에 의문을 제기한다고 말했습니다."
       },
@@ -161,24 +161,22 @@ const NEWS_DATA = {
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500 및 Nasdaq 100은 치솟는 국채 수익률로 인한 압력으로 사상 최고치에서 하락 — SPCX, AMD, NVDA, MRVL In Focus AI 에이전트 동향 뉴스 수익 전체 DIA 0.01% SPY 0.56% QQQ 1.46% 추세 APLD 2.14% QQQ 1.46% BTC 2.21% CIFR 8.41%C",
-            "S&P 500과 Nasdaq 100은 국채 수익률 급등으로 인한 압력으로 사상 최고치에서 하락했습니다. SPCX, AMD, NVDA, MRVL 집중 30년 만기 채권 수익률은 5.732%로 2002년 5월 이후 최고치를 기록했습니다.",
-            "트레이더들이 2026년 7월 23일 뉴욕시 뉴욕증권거래소(NYSE) 1층에서 일하고 있다."
+            "S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields — SPCX, AMD, NVDA, MRVL In Focus",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.01%, 0.56%, 1.46% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -188,30 +186,18 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "QQQ에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields — SPCX, AMD, NVDA, MRVL In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.01%",
-            "0.56%",
-            "1.46%",
-            "2.14%",
-            "2.21%",
-            "8.41%",
-            "7.30%",
-            "5.98%"
-          ],
-          "sourceExcerpt": [
-            "S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields — SPCX, AMD, NVDA, MRVL In Focus AI Agent Trending News Earnings All DIA 0.01% SPY 0.56% QQQ 1.46% Trending APLD 2.14% QQQ 1.46% BTC 2.21% CIFR 8.41% C",
-            "S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields — SPCX, AMD, NVDA, MRVL In Focus The 30-year bond yield hit its highest level since May 2002 at 5.732%.",
-            "Traders work on the floor of the New York Stock Exchange (NYSE) on July 23, 2026 in New York City."
-          ],
-          "analysisUpdatedAt": 1791484956.520704
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791507535.9088085
         },
         "headlineKo": "S&P 500과 Nasdaq 100은 국채 수익률 급증으로 인한 압력으로 사상 최고치에서 하락 — SPCX, AMD, NVDA, MRVL 집중"
       },
@@ -414,7 +400,7 @@ const NEWS_DATA = {
             "stocks look set to open in the red on Thursday, with futures of the Dow Jones, S&P 500, and Nasdaq 100 indices falling, following Wednesday’s lower close.",
             "On the economic data front, weekly initial jobless claims fell by 2,000 to a seasonally adjusted 197,000 for the week ending Oct."
           ],
-          "analysisUpdatedAt": 1791484951.233949
+          "analysisUpdatedAt": 1791507534.1787932
         }
       },
       {
@@ -494,7 +480,7 @@ const NEWS_DATA = {
             "Market Reaction and Data Center Spending CNBC’s host Cramer addressed the market pullback on Thursday, pinpointing the drop in technology stocks as an overreaction to external macroeconomic factors rather than internal sector weakness.",
             "On X, Cramer stated that “oil/rates convenient excuses to say that data center spend is peaking so sell the semis.” He further noted that the “big gain in oil and concern about higher rates and data center spend combine for a session that s"
           ],
-          "analysisUpdatedAt": 1791484952.1727102
+          "analysisUpdatedAt": 1791507535.1815069
         }
       },
       {
@@ -507,24 +493,22 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500 및 Nasdaq 100은 치솟는 국채 수익률로 인한 압력으로 사상 최고치에서 하락 — SPCX, AMD, NVDA, MRVL In Focus AI 에이전트 동향 뉴스 수익 전체 DIA 0.01% SPY 0.56% QQQ 1.46% 추세 APLD 2.14% QQQ 1.46% BTC 2.21% CIFR 8.41%C",
-            "S&P 500과 Nasdaq 100은 국채 수익률 급등으로 인한 압력으로 사상 최고치에서 하락했습니다. SPCX, AMD, NVDA, MRVL 집중 30년 만기 채권 수익률은 5.732%로 2002년 5월 이후 최고치를 기록했습니다.",
-            "트레이더들이 2026년 7월 23일 뉴욕시 뉴욕증권거래소(NYSE) 1층에서 일하고 있다."
+            "S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields — SPCX, AMD, NVDA, MRVL In Focus",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.01%, 0.56%, 1.46% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -534,30 +518,18 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "QQQ에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields — SPCX, AMD, NVDA, MRVL In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.01%",
-            "0.56%",
-            "1.46%",
-            "2.14%",
-            "2.21%",
-            "8.41%",
-            "7.30%",
-            "5.98%"
-          ],
-          "sourceExcerpt": [
-            "S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields — SPCX, AMD, NVDA, MRVL In Focus AI Agent Trending News Earnings All DIA 0.01% SPY 0.56% QQQ 1.46% Trending APLD 2.14% QQQ 1.46% BTC 2.21% CIFR 8.41% C",
-            "S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields — SPCX, AMD, NVDA, MRVL In Focus The 30-year bond yield hit its highest level since May 2002 at 5.732%.",
-            "Traders work on the floor of the New York Stock Exchange (NYSE) on July 23, 2026 in New York City."
-          ],
-          "analysisUpdatedAt": 1791484956.520704
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791507535.9088085
         }
       },
       {
@@ -5037,15 +5009,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791484946.5819569,
-    "_updated_label": "2026-10-09 03:42",
-    "_last_success_at": 1791484946.5819569,
+    "_fetched_at": 1791507529.6894133,
+    "_updated_label": "2026-10-09 09:58",
+    "_last_success_at": 1791507529.6894133,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "SPY": {
@@ -11545,7 +11517,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 131,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "MSFT": {
@@ -19465,7 +19437,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "GOOGL": {
@@ -27294,7 +27266,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "AMZN": {
@@ -35171,7 +35143,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "META": {
@@ -43160,7 +43132,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "AAPL": {
@@ -51147,7 +51119,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "TSLA": {
@@ -59040,7 +59012,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "ORCL": {
@@ -67509,7 +67481,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "CRM": {
@@ -73782,7 +73754,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "PLTR": {
@@ -82314,7 +82286,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "NVDA": {
@@ -89724,11 +89696,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "AMD": {
-    "_last_attempt_at": 1791484946.5819569,
+    "_last_attempt_at": 1791507529.6894133,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -89737,6 +89709,70 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Advanced Micro Devices vs. ASML: Which Semiconductor Stock Is a Better Buy in 2026?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8d42f25c2ed44fae3597e64c63defe9bc77ce60ad76e26198e7ef0825841354b",
+        "datetime": 1791502971,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "규제·법무 · 비선형 위험",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "ASML: 2026년에는 어느 반도체 주식이 더 나은 매수인가?",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 합류하세요. 인공 지능이 더 강력한 하드웨어를 요구함에 따라 반도체 환경이 변화하고 있습니다.",
+            "Advanced Micro Devices( AMD -3.90% )와 ASML( ASML -1.95% ) 중에서 선택한다는 것은 전체 산업을 주도하는 칩 설계자와 장비 제조업체 중에서 선택한다는 의미입니다."
+          ],
+          "why": [
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 3.90%, 1.95%, $620.68 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
+          ],
+          "interpretation": "AMD에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "3.90%",
+            "1.95%",
+            "$620.68",
+            "3.90 %",
+            "$25.18",
+            "$1,769.79",
+            "1.95 %",
+            "$35.17"
+          ],
+          "sourceExcerpt": [
+            "ASML: Which Semiconductor Stock Is a Better Buy in 2026?",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The semiconductor landscape is shifting as artificial intelligence requires more powerful hardware.",
+            "Choosing between Advanced Micro Devices ( AMD -3.90% ) and ASML ( ASML -1.95% ) means deciding between a chip designer and the equipment maker powering the entire industry."
+          ],
+          "analysisUpdatedAt": 1791507542.8838966
+        },
+        "headlineKo": "Advanced Micro Devices vs. ASML: 2026년에는 어느 반도체 주식이 더 나은 매수인가요?"
+      },
       {
         "headline": "AMD vs. Intel: Which Chip Stock Has More Upside From Here?",
         "source": "Yahoo",
@@ -89754,12 +89790,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "인텔: 어느 칩 주식이 여기에서 더 많은 상승 여력을 가지고 있습니까?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices( AMD -3.88% )와 Intel( INTC -5.57% )은 진행 중인 인공 지능(AI) 혁명을 촉진하는 데 도움을 주었습니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices( AMD -3.90% ) 및 Intel( INTC -5.34% )은 진행 중인 인공 지능(AI) 혁명을 촉진하는 데 도움을 주었습니다.",
             "두 회사 모두 그들의 노력에 대해 상당한 보상을 받았습니다."
           ],
           "why": [
             "경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다.",
-            "이번 기사에서 확인된 구체적 수치: 299%, 211%, 3.88 % — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 299%, 211%, 3.90 % — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -89785,19 +89821,19 @@ const NEWS_DATA = {
           "verifiedNumbers": [
             "299%",
             "211%",
-            "3.88 %",
-            "$ 620.82",
+            "3.90 %",
+            "$ 620.68",
             "$1.1",
-            "$ 613.62",
+            "$ 613.34",
             "$ 643.85",
             "$ 188.22"
           ],
           "sourceExcerpt": [
             "Intel: Which Chip Stock Has More Upside From Here?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices ( AMD -3.88% ) and Intel ( INTC -5.57% ) have helped fuel the ongoing artificial intelligence (AI) revolutio",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices ( AMD -3.90% ) and Intel ( INTC -5.34% ) have helped fuel the ongoing artificial intelligence (AI) revolutio",
             "Both companies have been handsomely rewarded for their work."
           ],
-          "analysisUpdatedAt": 1791484964.9887235
+          "analysisUpdatedAt": 1791507545.4982538
         },
         "headlineKo": "AMD 대 Intel: 어느 칩 주식이 여기서 더 많은 상승 여력을 가지고 있습니까?"
       },
@@ -89847,7 +89883,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791484965.7147489
+          "analysisUpdatedAt": 1791507546.2150042
         },
         "headlineKo": "Meta Muse는 AMD와 Intel 투자자에게 환호할 이유를 제공합니다."
       },
@@ -89859,60 +89895,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "AMD 주식은 귀하에게 스윙에 대한 충분한 비용을 지불하고 있습니까?",
-            "| Trefis는 AMD 주식이 귀하에게 스윙에 대해 충분한 비용을 지불하고 있습니까?",
-            "2026년 10월 8일 · Trefis 팀 AMD YTD +201.6% SPY YTD +14.6% QQQ YTD +23.6% AMD 분석 → AMD(Advanced Micro Devices)는 9월 시장 가치가 1조 달러를 넘어섰으며, 이를 단순히 더 넓은 범위를 추적하는 펀드와 함께 보유할 수 있습니다."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 201.6%, 14.6%, 23.6% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "AMD에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "201.6%",
-            "14.6%",
-            "23.6%",
-            "$1 trillion",
-            "57.5%",
-            "17.0%",
-            "$230",
-            "$10,000"
-          ],
-          "sourceExcerpt": [
-            "Is AMD Stock Paying You Enough For The Swings?",
-            "| Trefis Is AMD Stock Paying You Enough For The Swings?",
-            "October 8th, 2026 · by Trefis Team AMD YTD +201.6% SPY YTD +14.6% QQQ YTD +23.6% Analyze AMD → Advanced Micro Devices (AMD) eclipsed $1 trillion in market value in September, and you may hold it alongside funds that simply track the broader"
-          ],
-          "analysisUpdatedAt": 1791484970.5825832
-        },
         "headlineKo": "AMD 주식은 귀하에게 스윙에 대한 충분한 비용을 지불하고 있습니까?"
       },
       {
@@ -89924,16 +89906,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "인텔은 칩 재고가 수율과 석유 증가로 인해 매도되면서 3% 하락했습니다. NVIDIA와 AMD 슬립"
-      },
-      {
-        "headline": "Jim Cramer Sees More AI Upside Ahead for Meta, Microsoft and AMD Despite Bubble Fears: ‘They Were Going to Figure Something Out’",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=330cc9a3dd7519899d393f61fba70b57e0f8dfe1bb044155e22b235dba6a2c2e",
-        "datetime": 1791466209,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Jim Cramer는 거품에 대한 두려움에도 불구하고 Meta, Microsoft 및 AMD에 대한 더 많은 AI 상승 가능성을 보고 있습니다: '그들은 뭔가를 알아낼 것입니다'"
       },
       {
         "headline": "AMD: The AI Momentum Train Looks Unstoppable, But I'm Pausing Accumulation (Downgrade)",
@@ -89949,6 +89921,69 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Advanced Micro Devices vs. ASML: Which Semiconductor Stock Is a Better Buy in 2026?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8d42f25c2ed44fae3597e64c63defe9bc77ce60ad76e26198e7ef0825841354b",
+        "datetime": 1791502971,
+        "headlineKo": "Advanced Micro Devices vs. ASML: 2026년에는 어느 반도체 주식이 더 나은 매수인가요?",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "규제·법무 · 비선형 위험",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "ASML: 2026년에는 어느 반도체 주식이 더 나은 매수인가?",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 합류하세요. 인공 지능이 더 강력한 하드웨어를 요구함에 따라 반도체 환경이 변화하고 있습니다.",
+            "Advanced Micro Devices( AMD -3.90% )와 ASML( ASML -1.95% ) 중에서 선택한다는 것은 전체 산업을 주도하는 칩 설계자와 장비 제조업체 중에서 선택한다는 의미입니다."
+          ],
+          "why": [
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 3.90%, 1.95%, $620.68 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
+          ],
+          "interpretation": "AMD에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "3.90%",
+            "1.95%",
+            "$620.68",
+            "3.90 %",
+            "$25.18",
+            "$1,769.79",
+            "1.95 %",
+            "$35.17"
+          ],
+          "sourceExcerpt": [
+            "ASML: Which Semiconductor Stock Is a Better Buy in 2026?",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The semiconductor landscape is shifting as artificial intelligence requires more powerful hardware.",
+            "Choosing between Advanced Micro Devices ( AMD -3.90% ) and ASML ( ASML -1.95% ) means deciding between a chip designer and the equipment maker powering the entire industry."
+          ],
+          "analysisUpdatedAt": 1791507542.8838966
+        }
+      },
       {
         "headline": "AMD vs. Intel: Which Chip Stock Has More Upside From Here?",
         "source": "Yahoo",
@@ -89966,12 +90001,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "인텔: 어느 칩 주식이 여기에서 더 많은 상승 여력을 가지고 있습니까?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices( AMD -3.88% )와 Intel( INTC -5.57% )은 진행 중인 인공 지능(AI) 혁명을 촉진하는 데 도움을 주었습니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices( AMD -3.90% ) 및 Intel( INTC -5.34% )은 진행 중인 인공 지능(AI) 혁명을 촉진하는 데 도움을 주었습니다.",
             "두 회사 모두 그들의 노력에 대해 상당한 보상을 받았습니다."
           ],
           "why": [
             "경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다.",
-            "이번 기사에서 확인된 구체적 수치: 299%, 211%, 3.88 % — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 299%, 211%, 3.90 % — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -89997,19 +90032,19 @@ const NEWS_DATA = {
           "verifiedNumbers": [
             "299%",
             "211%",
-            "3.88 %",
-            "$ 620.82",
+            "3.90 %",
+            "$ 620.68",
             "$1.1",
-            "$ 613.62",
+            "$ 613.34",
             "$ 643.85",
             "$ 188.22"
           ],
           "sourceExcerpt": [
             "Intel: Which Chip Stock Has More Upside From Here?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices ( AMD -3.88% ) and Intel ( INTC -5.57% ) have helped fuel the ongoing artificial intelligence (AI) revolutio",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices ( AMD -3.90% ) and Intel ( INTC -5.34% ) have helped fuel the ongoing artificial intelligence (AI) revolutio",
             "Both companies have been handsomely rewarded for their work."
           ],
-          "analysisUpdatedAt": 1791484964.9887235
+          "analysisUpdatedAt": 1791507545.4982538
         }
       },
       {
@@ -90058,7 +90093,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791484965.7147489
+          "analysisUpdatedAt": 1791507546.2150042
         }
       },
       {
@@ -97631,26 +97666,17 @@ const NEWS_DATA = {
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1790107325.2449675
         }
-      },
-      {
-        "headline": "AMD Stock Beat Nvidia By 160 Points In 2026: A Historic AI Boom First",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2b59cf02a99cb7cf6419b3308c0556fbcf4eb4c3eba2a7775b20a16c93e199c0",
-        "datetime": 1790091926,
-        "headlineKo": "2026년 AMD 주식이 Nvidia를 160포인트 앞섰습니다: 역사적인 AI 붐 최초",
-        "relevance": 1,
-        "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791484946.5819569,
-    "_updated_label": "2026-10-09 03:42",
-    "_last_success_at": 1791484946.5819569,
+    "_fetched_at": 1791507529.6894133,
+    "_updated_label": "2026-10-09 09:59",
+    "_last_success_at": 1791507529.6894133,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "AVGO": {
@@ -106457,7 +106483,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 181,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "QCOM": {
@@ -112878,7 +112904,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 141,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "ARM": {
@@ -117637,7 +117663,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "MRVL": {
@@ -125169,7 +125195,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 162,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "INTC": {
@@ -133515,7 +133541,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "TSM": {
@@ -139402,7 +139428,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "ASML": {
@@ -143351,7 +143377,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 80,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "AMAT": {
@@ -147728,7 +147754,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "LRCX": {
@@ -150061,7 +150087,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "KLAC": {
@@ -152293,7 +152319,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "MU": {
@@ -159835,7 +159861,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "SNDK": {
@@ -167206,7 +167232,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 153,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "WDC": {
@@ -171506,7 +171532,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "ANET": {
@@ -174914,7 +174940,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "COHR": {
@@ -177810,7 +177836,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "LITE": {
@@ -180859,7 +180885,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "GEV": {
@@ -185624,7 +185650,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "CEG": {
@@ -189777,7 +189803,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "VST": {
@@ -192908,7 +192934,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "ETN": {
@@ -195715,7 +195741,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "PWR": {
@@ -198333,7 +198359,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "HUBB": {
@@ -199101,7 +199127,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "VRT": {
@@ -202780,7 +202806,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "MOD": {
@@ -204058,7 +204084,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "STX": {
@@ -207934,7 +207960,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "EME": {
@@ -209638,7 +209664,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "FIX": {
@@ -211183,7 +211209,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   },
   "BE": {
@@ -213277,7 +213303,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-09 09:07"
+      "updated": "2026-10-09 09:59"
     }
   }
 };
