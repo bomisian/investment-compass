@@ -5212,7 +5212,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "SPY": {
@@ -11745,7 +11745,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 132,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "MSFT": {
@@ -19693,7 +19693,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "GOOGL": {
@@ -27465,7 +27465,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "AMZN": {
@@ -35463,7 +35463,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "META": {
@@ -43393,7 +43393,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "AAPL": {
@@ -51430,7 +51430,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "TSLA": {
@@ -59308,7 +59308,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "ORCL": {
@@ -67699,7 +67699,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "CRM": {
@@ -73972,7 +73972,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "PLTR": {
@@ -82617,7 +82617,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "NVDA": {
@@ -90059,7 +90059,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "AMD": {
@@ -97995,7 +97995,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "AVGO": {
@@ -107082,7 +107082,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "QCOM": {
@@ -113617,7 +113617,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "ARM": {
@@ -118376,7 +118376,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "MRVL": {
@@ -126030,7 +126030,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 166,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "INTC": {
@@ -134347,7 +134347,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "TSM": {
@@ -140384,7 +140384,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "ASML": {
@@ -144411,7 +144411,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "AMAT": {
@@ -148788,7 +148788,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "LRCX": {
@@ -151198,7 +151198,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "KLAC": {
@@ -153493,7 +153493,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "MU": {
@@ -161027,7 +161027,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "SNDK": {
@@ -168475,7 +168475,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 154,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "WDC": {
@@ -172887,7 +172887,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "ANET": {
@@ -176344,7 +176344,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "COHR": {
@@ -179445,7 +179445,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "LITE": {
@@ -182854,7 +182854,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "GEV": {
@@ -187654,7 +187654,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "CEG": {
@@ -191856,7 +191856,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "VST": {
@@ -195064,7 +195064,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "ETN": {
@@ -197948,7 +197948,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "PWR": {
@@ -200566,7 +200566,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "HUBB": {
@@ -201334,7 +201334,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "VRT": {
@@ -201530,58 +201530,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Vertiv(VRT) 주식은 5년 연속으로 상당한 가치를 유지하고 있습니다."
-      },
-      {
-        "headline": "Vertiv Holdings Co (VRT) Shares Drop Into Securities Probe After Q2 Miss",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4602276d9632be28e8f784576ab98ba39aa43c13511810df51063bc1d1eb0691",
-        "datetime": 1790345561,
-        "headlineKo": "Vertiv Holdings Co(VRT) 주식이 2분기 부진 이후 증권 조사에 진입했습니다.",
-        "relevance": 1,
-        "keywordFlag": true,
-        "flagTerms": [
-          "probe"
-        ],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "실적·재무 부담 확인 필요",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Vertiv Holdings Co (VRT) Shares Drop Into Securities Probe After Q2 Miss",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "VRT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 VRT의 사업과 관련된 'Vertiv Holdings Co (VRT) Shares Drop Into Securities Probe After Q2 Miss' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "VRT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790373652.355018
-        }
       }
     ],
     "newsHistory": [
@@ -205060,9 +205008,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 74,
+      "checked": 73,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "MOD": {
@@ -206390,7 +206338,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "STX": {
@@ -210315,7 +210263,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "EME": {
@@ -212019,7 +211967,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "FIX": {
@@ -213564,7 +213512,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   },
   "BE": {
@@ -215658,7 +215606,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-09 23:00"
+      "updated": "2026-10-09 23:43"
     }
   }
 };
