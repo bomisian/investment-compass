@@ -5685,11 +5685,20 @@ function renderPriceValidityCard(r){
     ? `모델 기준 ${esc(d.price)}이나 현금흐름 경계`
     : `모델 기준 ${esc(d.price)}`;
 
+  // --- 가격 위치를 "오늘의 판단" 바로 아래, "오늘의 행동"과 한 화면에서 같이 읽도록 배치(51735 P1).
+  //     가격이 분할 검토 구간이어도 차트·현금흐름이 나쁘면 "그래도 기다려야 한다"가 스크롤 없이
+  //     바로 보여야 한다는 지적 반영 -- 기존 pvPositionSegment 그대로 재사용, 새 임계값 없음. ---
+  const posSeg = pvPositionSegment(d, r, num);
+  const priceLocLine = (d.bandEligible && posSeg)
+    ? `<div style="margin-top:7px;font-size:11.5px;color:${NEU_TEXT};">가격 위치: <b>${esc(posSeg.actionBand)}</b>(${esc(posSeg.posLabel)}) · 기준값 대비 <b>${posSeg.pct>=0?'+':''}${posSeg.pct.toFixed(1)}%</b></div>`
+    : '';
+
   const conclusionBox = `
     <div style="margin-top:4px;padding:13px 15px;border-radius:10px;border:1.5px solid #3c4552;background:#fff;">
       <div style="font-size:11px;color:${NEU_DIM};font-weight:700;">오늘의 판단</div>
       <div style="font-size:15.5px;font-weight:800;color:${judgeColor};margin-top:1px;">${judgeHeadline}</div>
       <div style="margin-top:3px;font-size:10.5px;color:${NEU_DIM};">${metaBadge}</div>
+      ${priceLocLine}
 
       <div style="margin-top:9px;font-size:11px;color:${NEU_DIM};font-weight:700;">오늘의 행동</div>
       <div style="margin-top:3px;font-size:13.5px;font-weight:800;color:#1b1f27;background:${NEU_BG};border-radius:7px;padding:7px 10px;">${esc(actionShort)}</div>
@@ -5700,7 +5709,8 @@ function renderPriceValidityCard(r){
       <div style="margin-top:9px;font-size:11px;color:${NEU_DIM};line-height:1.55;"><b style="color:${NEU_TEXT};">바뀌는 조건</b> — ${esc(changeCond)}</div>
     </div>`;
 
-  // --- 모델 가격대 vs 현재가 위치(가격대 가능 종목만, 결론 바로 아래에서 한 줄로) ---
+  // --- 모델 가격대 vs 현재가 위치(가격대 가능 종목만, 결론 바로 아래에서 한 줄로 — 위 요약 라인의
+  //     풀 문장 버전, "판단 근거 보기" 펼치지 않고도 전제가 되는 기준값·EPS 보간 방식까지 확인 가능) ---
   const posLine = pvPositionLine(d, r, num);
   const positionBox = d.bandEligible
     ? (posLine ? `<div style="margin-top:8px;font-size:12px;color:${NEU_TEXT};background:${NEU_BG};border-radius:8px;padding:8px 10px;line-height:1.5;">${posLine}</div>` : '')
