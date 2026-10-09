@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1791530331.3303413,
+    "_last_attempt_at": 1791553221.1625595,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -23,12 +23,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "매수 후 보유 투자자들이 QQQ에서 수수료가 낮은 대안으로 전환하는 이유 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,793.40 +0.19% Dow Jones 51,364.10 +0.17% Nasdaq 100 30,873.60 +0.21% Russell 2000 2,804.84 +0.28% S&P 500 7,793.40 +0.19% 다우존스 51,364.10 +0.17% 나스닥 100 30,873.60 +0.21% 러셀 2000 2,804.84 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,795.20 +0.21% Dow Jones 51,267.60 −0.01% Nasdaq 100 30,975.20 +0.53% Russell 2000 2,798.64 +0.06% S&P 500 7,795.20 +0.21% 다우존스 51,267.60 −0.01% 나스닥 100 30,975.20 +0.53% 러셀 2000 2,798.64 +0.",
             "다음 기여가 QQQ에 도착하기 전에 구조적… 작성자 Ryne Mauck 2026년 10월 8일 오후 7시 3분(ET) 게시 · 3분 읽기 ETF 심사관 데스크."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.19%, 0.17%, 0.21% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.21%, 0.01%, 0.53% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -52,10 +52,10 @@ const NEWS_DATA = {
           "relevance": 1.0,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.19%",
-            "0.17%",
             "0.21%",
-            "0.28%",
+            "0.01%",
+            "0.53%",
+            "0.06%",
             "$100,000",
             "$180",
             "$150.",
@@ -63,10 +63,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Why Buy-and-Hold Investors Are Switching From QQQ to This Lower-Fee Alternative - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,793.40 +0.19% Dow Jones 51,364.10 +0.17% Nasdaq 100 30,873.60 +0.21% Russell 2000 2,804.84 +0.28% S&P 500 7,793.40 +0.19% Dow Jones 51,364.10 +0.17% Nasdaq 100 30,873.60 +0.21% Russell 2000 2,804.84 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,795.20 +0.21% Dow Jones 51,267.60 −0.01% Nasdaq 100 30,975.20 +0.53% Russell 2000 2,798.64 +0.06% S&P 500 7,795.20 +0.21% Dow Jones 51,267.60 −0.01% Nasdaq 100 30,975.20 +0.53% Russell 2000 2,798.64 +0.",
             "Before your next contribution lands in QQQ, there is a structural… By Ryne Mauck Published October 8, 2026, 7:03pm ET · 3 min read The ETF Examiner desk."
           ],
-          "analysisUpdatedAt": 1791530336.6427083
+          "analysisUpdatedAt": 1791553228.5906565
         },
         "headlineKo": "매수 후 보유 투자자들이 QQQ에서 수수료가 낮은 대안으로 전환하는 이유"
       },
@@ -82,19 +82,21 @@ const NEWS_DATA = {
           "version": 9,
           "importance": "medium",
           "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "실적 발표 · 본업과 특이항목 분리",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Nasdaq 100 Ends Lower As Report Of Weaker-Than-Expected OpenAI Revenue Drags Chipmakers — NVDA, DIS, ORCL, SBUX In Focus",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "Nasdaq 100은 예상보다 약한 OpenAI 수익이 칩 제조사를 견인한다는 보고로 하락 마감",
+            "Nasdaq 100은 예상보다 약한 OpenAI 매출이 칩 제조업체를 끌고 있다는 보고로 하락 마감",
+            "한 거래자가 뉴욕 증권거래소 현장에서 일하고 있습니다."
           ],
           "why": [
-            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.33%, 0.32%, 0.43% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -105,17 +107,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "매출·영업이익 성장",
-            "정상화이익과 특이항목",
-            "가이던스·OCF·FCF"
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
           ],
-          "interpretation": "QQQ에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "QQQ에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791530337.7937891
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.33%",
+            "0.32%",
+            "0.43%",
+            "2.26%",
+            "10.70%",
+            "1.93%",
+            "6.45%",
+            "2.76%"
+          ],
+          "sourceExcerpt": [
+            "Nasdaq 100 Ends Lower As Report Of Weaker-Than-Expected OpenAI Revenue Drags Chipmakers — NVDA, DIS, ORCL, SBUX In Focus AI Agent Trending News Earnings All DIA 0.33% SPY 0.32% QQQ 0.43% Trending AAPL 2.26% CLOV 10.70% GRRR 1.93% LITE 6.45%",
+            "Nasdaq 100 Ends Lower As Report Of Weaker-Than-Expected OpenAI Revenue Drags Chipmakers — NVDA, DIS, ORCL, SBUX In Focus OpenAI’s annualized revenue was revealed to be short of the amount previously signaled, FT reported.",
+            "A trader works on the floor of the New York Stock Exchange."
+          ],
+          "analysisUpdatedAt": 1791553233.876137
         },
         "headlineKo": "Nasdaq 100은 예상보다 약한 OpenAI 수익이 칩 제조업체를 끌고 있다는 보고로 하락 마감 - NVDA, DIS, ORCL, SBUX 집중"
       },
@@ -132,20 +147,20 @@ const NEWS_DATA = {
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "경쟁사 수주 · 고객 점유 변화",
+          "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "MSFT, ORCL, NVDA, QQQ 초점: OpenAI의 연간 수익은 200억 달러로 사전 기대치를 추월하는 것으로 보고됨 AI 에이전트 동향 뉴스 수익 전체 DIA 0.11% SPY 0.33% QQQ 0.85% 추세 ASTS 2.69% SPCX 3.69% AAPL 0.83% VZ 4.19% ADA 5.40% STRK 43.",
+            "MSFT, ORCL, NVDA, QQQ 초점: OpenAI의 연간 수익은 200억 달러 규모의 AI 에이전트로 사전 기대치를 추월하는 것으로 보고됨 동향 뉴스 수익 전체 DIA 0.31% SPY 0.32% QQQ 0.44% 추세 AAPL 2.30% CLOV 10.92% GRRR 1.93% LITE 6.36% DAL 2.86% T 7.4",
             "MSFT, ORCL, NVDA, QQQ 초점: OpenAI의 연간 수익은 200억 달러로 이전 기대치를 추월한 것으로 보고됨 OpenAI의 최신 투자자 공개에 따르면 9월에 연간 수익이 거의 500억 달러에 달해 상당히 부족했습니다.",
             "Open AI CEO인 Sam Altman이 2026년 9월 29일 캘리포니아주 샌프란시스코에서 열린 OpenAI 개발자 컨퍼런스에서 기조연설을 하기 전 인터뷰를 하고 있습니다."
           ],
           "why": [
-            "경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다.",
-            "이번 기사에서 확인된 구체적 수치: $20, 0.11%, 0.33% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $20, 0.31%, 0.32% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "경쟁사가 같은 고객에게 납품할 기회를 얻었다는 뜻입니다. 기존 회사 물량을 빼앗은 것인지, 고객이 공급처를 하나 더 늘린 것인지 확인해야 합니다.",
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -156,30 +171,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "신규 공급사의 실제 물량",
-            "기존 공급사 매출 비중",
-            "고객의 이중 공급 전략"
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
           ],
-          "interpretation": "QQQ에 대한 경쟁사 수주 · 고객 점유 변화 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "QQQ에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 1.0,
           "quality": "medium",
           "verifiedNumbers": [
             "$20",
-            "0.11%",
-            "0.33%",
-            "0.85%",
-            "2.69%",
-            "3.69%",
-            "0.83%",
-            "4.19%"
+            "0.31%",
+            "0.32%",
+            "0.44%",
+            "2.30%",
+            "10.92%",
+            "1.93%",
+            "6.36%"
           ],
           "sourceExcerpt": [
-            "MSFT, ORCL, NVDA, QQQ In Focus: OpenAI’s Annualized Revenue Reportedly Trails Prior Expectations By $20B AI Agent Trending News Earnings All DIA 0.11% SPY 0.33% QQQ 0.85% Trending ASTS 2.69% SPCX 3.69% AAPL 0.83% VZ 4.19% ADA 5.40% STRK 43.",
+            "MSFT, ORCL, NVDA, QQQ In Focus: OpenAI’s Annualized Revenue Reportedly Trails Prior Expectations By $20B AI Agent Trending News Earnings All DIA 0.31% SPY 0.32% QQQ 0.44% Trending AAPL 2.30% CLOV 10.92% GRRR 1.93% LITE 6.36% DAL 2.86% T 7.4",
             "MSFT, ORCL, NVDA, QQQ In Focus: OpenAI’s Annualized Revenue Reportedly Trails Prior Expectations By $20B OpenAI's latest investor disclosures reveal its annualized revenue reached nearly $50 billion in September, falling substantially short",
             "Open AI CEO Sam Altman does an interview before delivering the keynote address at the OpenAI developers conference on September 29, 2026 in San Francisco, California."
           ],
-          "analysisUpdatedAt": 1791530341.3245888
+          "analysisUpdatedAt": 1791553237.2707956
         },
         "headlineKo": "MSFT, ORCL, NVDA, QQQ 초점: OpenAI의 연간 수익이 이전 기대치를 200억 달러 앞선 것으로 보고됨"
       },
@@ -339,12 +354,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "매수 후 보유 투자자들이 QQQ에서 수수료가 낮은 대안으로 전환하는 이유 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,793.40 +0.19% Dow Jones 51,364.10 +0.17% Nasdaq 100 30,873.60 +0.21% Russell 2000 2,804.84 +0.28% S&P 500 7,793.40 +0.19% 다우존스 51,364.10 +0.17% 나스닥 100 30,873.60 +0.21% 러셀 2000 2,804.84 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,795.20 +0.21% Dow Jones 51,267.60 −0.01% Nasdaq 100 30,975.20 +0.53% Russell 2000 2,798.64 +0.06% S&P 500 7,795.20 +0.21% 다우존스 51,267.60 −0.01% 나스닥 100 30,975.20 +0.53% 러셀 2000 2,798.64 +0.",
             "다음 기여가 QQQ에 도착하기 전에 구조적… 작성자 Ryne Mauck 2026년 10월 8일 오후 7시 3분(ET) 게시 · 3분 읽기 ETF 심사관 데스크."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.19%, 0.17%, 0.21% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.21%, 0.01%, 0.53% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -368,10 +383,10 @@ const NEWS_DATA = {
           "relevance": 1.0,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.19%",
-            "0.17%",
             "0.21%",
-            "0.28%",
+            "0.01%",
+            "0.53%",
+            "0.06%",
             "$100,000",
             "$180",
             "$150.",
@@ -379,10 +394,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Why Buy-and-Hold Investors Are Switching From QQQ to This Lower-Fee Alternative - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,793.40 +0.19% Dow Jones 51,364.10 +0.17% Nasdaq 100 30,873.60 +0.21% Russell 2000 2,804.84 +0.28% S&P 500 7,793.40 +0.19% Dow Jones 51,364.10 +0.17% Nasdaq 100 30,873.60 +0.21% Russell 2000 2,804.84 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,795.20 +0.21% Dow Jones 51,267.60 −0.01% Nasdaq 100 30,975.20 +0.53% Russell 2000 2,798.64 +0.06% S&P 500 7,795.20 +0.21% Dow Jones 51,267.60 −0.01% Nasdaq 100 30,975.20 +0.53% Russell 2000 2,798.64 +0.",
             "Before your next contribution lands in QQQ, there is a structural… By Ryne Mauck Published October 8, 2026, 7:03pm ET · 3 min read The ETF Examiner desk."
           ],
-          "analysisUpdatedAt": 1791530336.6427083
+          "analysisUpdatedAt": 1791553228.5906565
         }
       },
       {
@@ -397,19 +412,21 @@ const NEWS_DATA = {
           "version": 9,
           "importance": "medium",
           "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "실적 발표 · 본업과 특이항목 분리",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Nasdaq 100 Ends Lower As Report Of Weaker-Than-Expected OpenAI Revenue Drags Chipmakers — NVDA, DIS, ORCL, SBUX In Focus",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "Nasdaq 100은 예상보다 약한 OpenAI 수익이 칩 제조사를 견인한다는 보고로 하락 마감",
+            "Nasdaq 100은 예상보다 약한 OpenAI 매출이 칩 제조업체를 끌고 있다는 보고로 하락 마감",
+            "한 거래자가 뉴욕 증권거래소 현장에서 일하고 있습니다."
           ],
           "why": [
-            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.33%, 0.32%, 0.43% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -420,17 +437,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "매출·영업이익 성장",
-            "정상화이익과 특이항목",
-            "가이던스·OCF·FCF"
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
           ],
-          "interpretation": "QQQ에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "QQQ에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791530337.7937891
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.33%",
+            "0.32%",
+            "0.43%",
+            "2.26%",
+            "10.70%",
+            "1.93%",
+            "6.45%",
+            "2.76%"
+          ],
+          "sourceExcerpt": [
+            "Nasdaq 100 Ends Lower As Report Of Weaker-Than-Expected OpenAI Revenue Drags Chipmakers — NVDA, DIS, ORCL, SBUX In Focus AI Agent Trending News Earnings All DIA 0.33% SPY 0.32% QQQ 0.43% Trending AAPL 2.26% CLOV 10.70% GRRR 1.93% LITE 6.45%",
+            "Nasdaq 100 Ends Lower As Report Of Weaker-Than-Expected OpenAI Revenue Drags Chipmakers — NVDA, DIS, ORCL, SBUX In Focus OpenAI’s annualized revenue was revealed to be short of the amount previously signaled, FT reported.",
+            "A trader works on the floor of the New York Stock Exchange."
+          ],
+          "analysisUpdatedAt": 1791553233.876137
         }
       },
       {
@@ -446,20 +476,20 @@ const NEWS_DATA = {
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "경쟁사 수주 · 고객 점유 변화",
+          "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "MSFT, ORCL, NVDA, QQQ 초점: OpenAI의 연간 수익은 200억 달러로 사전 기대치를 추월하는 것으로 보고됨 AI 에이전트 동향 뉴스 수익 전체 DIA 0.11% SPY 0.33% QQQ 0.85% 추세 ASTS 2.69% SPCX 3.69% AAPL 0.83% VZ 4.19% ADA 5.40% STRK 43.",
+            "MSFT, ORCL, NVDA, QQQ 초점: OpenAI의 연간 수익은 200억 달러 규모의 AI 에이전트로 사전 기대치를 추월하는 것으로 보고됨 동향 뉴스 수익 전체 DIA 0.31% SPY 0.32% QQQ 0.44% 추세 AAPL 2.30% CLOV 10.92% GRRR 1.93% LITE 6.36% DAL 2.86% T 7.4",
             "MSFT, ORCL, NVDA, QQQ 초점: OpenAI의 연간 수익은 200억 달러로 이전 기대치를 추월한 것으로 보고됨 OpenAI의 최신 투자자 공개에 따르면 9월에 연간 수익이 거의 500억 달러에 달해 상당히 부족했습니다.",
             "Open AI CEO인 Sam Altman이 2026년 9월 29일 캘리포니아주 샌프란시스코에서 열린 OpenAI 개발자 컨퍼런스에서 기조연설을 하기 전 인터뷰를 하고 있습니다."
           ],
           "why": [
-            "경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다.",
-            "이번 기사에서 확인된 구체적 수치: $20, 0.11%, 0.33% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $20, 0.31%, 0.32% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "경쟁사가 같은 고객에게 납품할 기회를 얻었다는 뜻입니다. 기존 회사 물량을 빼앗은 것인지, 고객이 공급처를 하나 더 늘린 것인지 확인해야 합니다.",
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -470,30 +500,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "신규 공급사의 실제 물량",
-            "기존 공급사 매출 비중",
-            "고객의 이중 공급 전략"
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
           ],
-          "interpretation": "QQQ에 대한 경쟁사 수주 · 고객 점유 변화 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "QQQ에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 1.0,
           "quality": "medium",
           "verifiedNumbers": [
             "$20",
-            "0.11%",
-            "0.33%",
-            "0.85%",
-            "2.69%",
-            "3.69%",
-            "0.83%",
-            "4.19%"
+            "0.31%",
+            "0.32%",
+            "0.44%",
+            "2.30%",
+            "10.92%",
+            "1.93%",
+            "6.36%"
           ],
           "sourceExcerpt": [
-            "MSFT, ORCL, NVDA, QQQ In Focus: OpenAI’s Annualized Revenue Reportedly Trails Prior Expectations By $20B AI Agent Trending News Earnings All DIA 0.11% SPY 0.33% QQQ 0.85% Trending ASTS 2.69% SPCX 3.69% AAPL 0.83% VZ 4.19% ADA 5.40% STRK 43.",
+            "MSFT, ORCL, NVDA, QQQ In Focus: OpenAI’s Annualized Revenue Reportedly Trails Prior Expectations By $20B AI Agent Trending News Earnings All DIA 0.31% SPY 0.32% QQQ 0.44% Trending AAPL 2.30% CLOV 10.92% GRRR 1.93% LITE 6.36% DAL 2.86% T 7.4",
             "MSFT, ORCL, NVDA, QQQ In Focus: OpenAI’s Annualized Revenue Reportedly Trails Prior Expectations By $20B OpenAI's latest investor disclosures reveal its annualized revenue reached nearly $50 billion in September, falling substantially short",
             "Open AI CEO Sam Altman does an interview before delivering the keynote address at the OpenAI developers conference on September 29, 2026 in San Francisco, California."
           ],
-          "analysisUpdatedAt": 1791530341.3245888
+          "analysisUpdatedAt": 1791553237.2707956
         }
       },
       {
@@ -5174,15 +5204,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791530331.3303413,
-    "_updated_label": "2026-10-09 16:19",
-    "_last_success_at": 1791530331.3303413,
+    "_fetched_at": 1791553221.1625595,
+    "_updated_label": "2026-10-09 22:40",
+    "_last_success_at": 1791553221.1625595,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "SPY": {
@@ -11715,7 +11745,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 132,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "MSFT": {
@@ -19663,7 +19693,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "GOOGL": {
@@ -27435,7 +27465,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "AMZN": {
@@ -35433,7 +35463,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "META": {
@@ -43363,7 +43393,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "AAPL": {
@@ -51400,7 +51430,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "TSLA": {
@@ -59278,7 +59308,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "ORCL": {
@@ -67669,7 +67699,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "CRM": {
@@ -73942,7 +73972,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "PLTR": {
@@ -82587,7 +82617,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "NVDA": {
@@ -90029,11 +90059,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "AMD": {
-    "_last_attempt_at": 1791530331.3303413,
+    "_last_attempt_at": 1791553221.1625595,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -98004,13 +98034,14 @@ const NEWS_DATA = {
     "_fetched_at": 1791530331.3303413,
     "_updated_label": "2026-10-09 16:19",
     "_last_success_at": 1791530331.3303413,
-    "_collection_status": "ok",
+    "_collection_status": "error",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
-    }
+      "updated": "2026-10-09 22:41"
+    },
+    "_last_error": "The read operation timed out"
   },
   "AVGO": {
     "_last_attempt_at": 1791548975.1925468,
@@ -107096,7 +107127,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "QCOM": {
@@ -113631,7 +113662,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "ARM": {
@@ -118390,7 +118421,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "MRVL": {
@@ -126044,7 +126075,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 166,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "INTC": {
@@ -134361,7 +134392,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "TSM": {
@@ -140398,7 +140429,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "ASML": {
@@ -144425,7 +144456,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "AMAT": {
@@ -148802,7 +148833,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "LRCX": {
@@ -151212,7 +151243,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "KLAC": {
@@ -153507,7 +153538,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "MU": {
@@ -161041,7 +161072,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "SNDK": {
@@ -168489,7 +168520,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 154,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "WDC": {
@@ -172901,7 +172932,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "ANET": {
@@ -176358,7 +176389,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "COHR": {
@@ -179459,7 +179490,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "LITE": {
@@ -182868,7 +182899,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "GEV": {
@@ -187668,7 +187699,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "CEG": {
@@ -191870,7 +191901,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "VST": {
@@ -195078,7 +195109,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "ETN": {
@@ -197962,7 +197993,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "PWR": {
@@ -200580,7 +200611,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "HUBB": {
@@ -201348,7 +201379,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "VRT": {
@@ -205076,7 +205107,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "MOD": {
@@ -206404,7 +206435,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "STX": {
@@ -210329,7 +210360,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "EME": {
@@ -212033,7 +212064,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "FIX": {
@@ -213578,7 +213609,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   },
   "BE": {
@@ -215672,7 +215703,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-09 21:38"
+      "updated": "2026-10-09 22:41"
     }
   }
 };
