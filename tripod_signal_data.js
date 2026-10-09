@@ -1,6 +1,6 @@
 // 자동 생성 파일 - tripod_signal_telegram.py 실행 시마다 갱신됨. 직접 수정하지 마세요.
 const TRIPOD_SIGNAL_DATA = {
-  "updated_at": "2026-10-08T23:56:50.769961+00:00",
+  "updated_at": "2026-10-09T00:28:27.210864+00:00",
   "current": {
     "date": "2026-10-08",
     "ndx": 30725.80859375,
