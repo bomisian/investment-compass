@@ -3625,18 +3625,6 @@ const FINANCIALS_DATA = {
   "MU": {
     "annual": [
       {
-        "period": "2018",
-        "revenue": 30391000000,
-        "netIncome": 14135000000,
-        "opIncome": 14994000000,
-        "eps": 11.51,
-        "ocf": 17400000000,
-        "capex": -8879000000,
-        "fcf": 8521000000,
-        "endDate": "2018-08-30",
-        "_fcfIsProxy": true
-      },
-      {
         "period": "2019",
         "revenue": 23406000000,
         "netIncome": 6313000000,
@@ -3763,16 +3751,21 @@ const FINANCIALS_DATA = {
         "impairment": 0.0,
         "restructuring": 30000000.0,
         "stockComp": 972000000.0
+      },
+      {
+        "period": "2026",
+        "revenue": 133188000000,
+        "netIncome": 84969000000,
+        "opIncome": 99340000000,
+        "eps": 74.33,
+        "ocf": 89675000000,
+        "capex": -30712000000,
+        "fcf": 58963000000,
+        "_fcfIsProxy": true,
+        "endDate": "2026-09-03"
       }
     ],
     "quarterly": [
-      {
-        "period": "Q3'23",
-        "revenue": 4010000000.0,
-        "netIncome": -1430000000.0,
-        "opIncome": -1472000000.0,
-        "endDate": "2023-08-31"
-      },
       {
         "period": "Q4'23",
         "revenue": 4726000000.0,
@@ -3928,6 +3921,13 @@ const FINANCIALS_DATA = {
         "unusualTaxEffect": 0.0,
         "otherNonOperating": -321000000.0,
         "stockComp": 355000000.0
+      },
+      {
+        "period": "Q3'26",
+        "revenue": 54229000000,
+        "netIncome": 37701000000,
+        "opIncome": 43751000000,
+        "endDate": "2026-09-03"
       }
     ],
     "_currency": "USD",
@@ -3935,10 +3935,6 @@ const FINANCIALS_DATA = {
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
     "sharesOutstanding": [
-      {
-        "date": "2020-10-09",
-        "shares": 1113221799.0
-      },
       {
         "date": "2021-01-04",
         "shares": 1118671492.0
@@ -4030,11 +4026,15 @@ const FINANCIALS_DATA = {
       {
         "date": "2026-06-17",
         "shares": 1129393151.0
+      },
+      {
+        "date": "2026-10-02",
+        "shares": 1131423212.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1791271705.2024734,
-    "_updated_label": "2026-10-09 16:50",
+    "_fetched_at": 1791551368.1817653,
+    "_updated_label": "2026-10-09 22:09",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -4061,7 +4061,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1791532210.3027132,
+    "_yahoo_verified_at": 1791551372.929291,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "AMD": {
@@ -5405,16 +5405,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1791550801.9093943,
-    "_updated_label": "2026-10-09 22:00"
+    "_fetched_at": 1791551368.1817653,
+    "_updated_label": "2026-10-09 22:09"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1791550801.9093943,
-    "_updated_label": "2026-10-09 22:00"
+    "_fetched_at": 1791551368.1817653,
+    "_updated_label": "2026-10-09 22:09"
   },
   "ORCL": {
     "annual": [
