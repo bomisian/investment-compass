@@ -5212,7 +5212,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "SPY": {
@@ -11745,7 +11745,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 132,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "MSFT": {
@@ -19693,7 +19693,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "GOOGL": {
@@ -27465,7 +27465,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "AMZN": {
@@ -35463,7 +35463,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "META": {
@@ -43393,7 +43393,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "AAPL": {
@@ -51430,7 +51430,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "TSLA": {
@@ -59308,7 +59308,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "ORCL": {
@@ -67699,7 +67699,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "CRM": {
@@ -73972,7 +73972,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "PLTR": {
@@ -82617,7 +82617,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "NVDA": {
@@ -90059,11 +90059,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "AMD": {
-    "_last_attempt_at": 1791553221.1625595,
+    "_last_attempt_at": 1791554402.1141853,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -90072,6 +90072,105 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "AMD: The Market Is Not Ready For The Huge Margin Upside",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=c667c0b8b03a04867b217f1ed76f3fb383a64d4ed19e65ef947f692ed2ef8fdf",
+        "datetime": 1791534669,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AMD: The Market Is Not Ready For The Huge Margin Upside",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD: The Market Is Not Ready For The Huge Margin Upside' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791554411.1306846
+        },
+        "headlineKo": "AMD: 시장은 엄청난 마진 상승을 받아들일 준비가 되어 있지 않습니다"
+      },
+      {
+        "headline": "How to Play AMD Stock as It Continues to Explore a Foundry Partnership With a Korean Tech Giant",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d6dd45883baf9c46b1bb2d37644c2b0019643efd7740f6b5d130175f663ba15c",
+        "datetime": 1791515463,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "고객 계약 · 매출 연결 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "How to Play AMD Stock as It Continues to Explore a Foundry Partnership With a Korean Tech Giant",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 금액·기간·취소 조건",
+            "수주잔고와 매출 인식 시점",
+            "관련 사업부 매출총이익률"
+          ],
+          "interpretation": "AMD에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791554412.366857
+        },
+        "headlineKo": "한국 거대 기술 기업과 파운드리 파트너십을 계속 모색하면서 AMD 주식을 활용하는 방법"
+      },
       {
         "headline": "AMD CEO delivers stark warning on chip market’s future",
         "source": "Yahoo",
@@ -90118,7 +90217,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791530348.1646414
+          "analysisUpdatedAt": 1791554413.072361
         },
         "headlineKo": "AMD CEO, 칩 시장의 미래에 대해 엄중히 경고하다"
       },
@@ -90130,60 +90229,6 @@ const NEWS_DATA = {
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "ASML: 2026년에는 어느 반도체 주식이 더 나은 매수인가?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 합류하세요. 인공 지능이 더 강력한 하드웨어를 요구함에 따라 반도체 환경이 변화하고 있습니다.",
-            "Advanced Micro Devices( AMD -3.90% )와 ASML( ASML -1.95% ) 중에서 선택한다는 것은 전체 산업을 주도하는 칩 설계자와 장비 제조업체 중에서 선택한다는 의미입니다."
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 3.90%, 1.95%, $620.68 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "AMD에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "3.90%",
-            "1.95%",
-            "$620.68",
-            "3.90 %",
-            "$25.18",
-            "$1,769.79",
-            "1.95 %",
-            "$35.17"
-          ],
-          "sourceExcerpt": [
-            "ASML: Which Semiconductor Stock Is a Better Buy in 2026?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The semiconductor landscape is shifting as artificial intelligence requires more powerful hardware.",
-            "Choosing between Advanced Micro Devices ( AMD -3.90% ) and ASML ( ASML -1.95% ) means deciding between a chip designer and the equipment maker powering the entire industry."
-          ],
-          "analysisUpdatedAt": 1791530350.658727
-        },
         "headlineKo": "Advanced Micro Devices vs. ASML: 2026년에는 어느 반도체 주식이 더 나은 매수인가요?"
       },
       {
@@ -90194,81 +90239,7 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "경쟁사 수주 · 고객 점유 변화",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "인텔: 어느 칩 주식이 여기에서 더 많은 상승 여력을 가지고 있습니까?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices( AMD -3.90% ) 및 Intel( INTC -5.34% )은 진행 중인 인공 지능(AI) 혁명을 촉진하는 데 도움을 주었습니다.",
-            "두 회사 모두 그들의 노력에 대해 상당한 보상을 받았습니다."
-          ],
-          "why": [
-            "경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다.",
-            "이번 기사에서 확인된 구체적 수치: 299%, 211%, 3.90 % — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "경쟁사가 같은 고객에게 납품할 기회를 얻었다는 뜻입니다. 기존 회사 물량을 빼앗은 것인지, 고객이 공급처를 하나 더 늘린 것인지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "신규 공급사의 실제 물량",
-            "기존 공급사 매출 비중",
-            "고객의 이중 공급 전략"
-          ],
-          "interpretation": "AMD에 대한 경쟁사 수주 · 고객 점유 변화 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "299%",
-            "211%",
-            "3.90 %",
-            "$ 620.68",
-            "$1.0",
-            "$ 613.34",
-            "$ 643.85",
-            "$ 188.22"
-          ],
-          "sourceExcerpt": [
-            "Intel: Which Chip Stock Has More Upside From Here?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices ( AMD -3.90% ) and Intel ( INTC -5.34% ) have helped fuel the ongoing artificial intelligence (AI) revolutio",
-            "Both companies have been handsomely rewarded for their work."
-          ],
-          "analysisUpdatedAt": 1791530353.2836587
-        },
         "headlineKo": "AMD 대 Intel: 어느 칩 주식이 여기서 더 많은 상승 여력을 가지고 있습니까?"
-      },
-      {
-        "headline": "Meta Muse gives AMD and Intel investors a reason to cheer",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5ef1fe61dbb9087e761b798c2bb6d9b295b8745f6e19ca4c69f2effe97d7464d",
-        "datetime": 1791477180,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Meta Muse는 AMD와 Intel 투자자에게 환호할 이유를 제공합니다."
-      },
-      {
-        "headline": "Is AMD Stock Paying You Enough For The Swings?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=db73bbe8f441454d905612856364abd366656fb69903e553f28df6ae7fbc39d9",
-        "datetime": 1791469969,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "AMD 주식은 귀하에게 스윙에 대한 충분한 비용을 지불하고 있습니까?"
       },
       {
         "headline": "AMD: The AI Momentum Train Looks Unstoppable, But I'm Pausing Accumulation (Downgrade)",
@@ -90284,6 +90255,103 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "AMD: The Market Is Not Ready For The Huge Margin Upside",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=c667c0b8b03a04867b217f1ed76f3fb383a64d4ed19e65ef947f692ed2ef8fdf",
+        "datetime": 1791534669,
+        "headlineKo": "AMD: 시장은 엄청난 마진 상승을 받아들일 준비가 되어 있지 않습니다",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AMD: The Market Is Not Ready For The Huge Margin Upside",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD: The Market Is Not Ready For The Huge Margin Upside' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791554411.1306846
+        }
+      },
+      {
+        "headline": "How to Play AMD Stock as It Continues to Explore a Foundry Partnership With a Korean Tech Giant",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d6dd45883baf9c46b1bb2d37644c2b0019643efd7740f6b5d130175f663ba15c",
+        "datetime": 1791515463,
+        "headlineKo": "한국 거대 기술 기업과 파운드리 파트너십을 계속 모색하면서 AMD 주식을 활용하는 방법",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "고객 계약 · 매출 연결 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "How to Play AMD Stock as It Continues to Explore a Foundry Partnership With a Korean Tech Giant",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 금액·기간·취소 조건",
+            "수주잔고와 매출 인식 시점",
+            "관련 사업부 매출총이익률"
+          ],
+          "interpretation": "AMD에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791554412.366857
+        }
+      },
       {
         "headline": "AMD CEO delivers stark warning on chip market’s future",
         "source": "Yahoo",
@@ -90330,7 +90398,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791530348.1646414
+          "analysisUpdatedAt": 1791554413.072361
         }
       },
       {
@@ -97917,131 +97985,18 @@ const NEWS_DATA = {
         "headlineKo": "AMD 주식이 희귀 영역에 진입했습니다.",
         "relevance": 1,
         "keywordFlag": false
-      },
-      {
-        "headline": "Advanced Micro Devices (AMD) Reaches $1 Trillion Market Value",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d2fe88a4abfe323ab24cbf2d65a85643f3cbd6a8d0cfb48adcf834cedc7c7e47",
-        "datetime": 1790093730,
-        "headlineKo": "AMD(Advanced Micro Devices)의 시장 가치가 1조 달러에 도달했습니다.",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Advanced Micro Devices (AMD) Reaches $1 Trillion Market Value",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'Advanced Micro Devices (AMD) Reaches $1 Trillion Market Value' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790107319.4752307
-        }
-      },
-      {
-        "headline": "Price Prediction: Marvell, AMD & Broadcom- Our Bold Price Predictions for 2027",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8fa27144427a71dcee3f5d423079abba35fbbcf5d4381cd4bf5f4c6ab4a6467a",
-        "datetime": 1790092809,
-        "headlineKo": "가격 예측: Marvell, AMD 및 Broadcom - 2027년의 대담한 가격 예측",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "주식 희석 · 주당가치 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "가격 예측: Marvell, AMD 및 Broadcom - 2027년 - 24/7 Wall St.에 대한 대담한 가격 예측",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,786.30 +0.15% Dow Jones 52,005.40 −0.24% Nasdaq 100 30,765.00 +0.80% Russell 2000 2,898.61 +0.64% S&P 500 7,786.30 +0.15% 다우존스 52,005.40 −0.24% 나스닥 100 30,765.00 +0.80% 러셀 2000 2,898.61 +0.",
-            "Vandita Jadeja 작성 2026년 9월 22일 오후 12시(ET) 게시 · 3분 읽기 가격 목표 데스크."
-          ],
-          "why": [
-            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $325, $254.90,, 200.39% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "신규 주식 수·행사가격",
-            "조달 자금 사용처",
-            "완전희석 주식수와 EPS"
-          ],
-          "interpretation": "AMD에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$325",
-            "$254.90,",
-            "200.39%",
-            "$289.04,",
-            "27%",
-            "$6.76,",
-            "50%",
-            "$120 billion"
-          ],
-          "sourceExcerpt": [
-            "Price Prediction: Marvell, AMD & Broadcom- Our Bold Price Predictions for 2027 - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,786.30 +0.15% Dow Jones 52,005.40 −0.24% Nasdaq 100 30,765.00 +0.80% Russell 2000 2,898.61 +0.64% S&P 500 7,786.30 +0.15% Dow Jones 52,005.40 −0.24% Nasdaq 100 30,765.00 +0.80% Russell 2000 2,898.61 +0.",
-            "By Vandita Jadeja Published September 22, 2026, 12:00pm ET · 3 min read Price Targets desk."
-          ],
-          "analysisUpdatedAt": 1790107323.1310332
-        }
       }
     ],
-    "_fetched_at": 1791530331.3303413,
-    "_updated_label": "2026-10-09 16:19",
-    "_last_success_at": 1791530331.3303413,
-    "_collection_status": "error",
+    "_fetched_at": 1791554402.1141853,
+    "_updated_label": "2026-10-09 23:00",
+    "_last_success_at": 1791554402.1141853,
+    "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
-    },
-    "_last_error": "The read operation timed out"
+      "updated": "2026-10-09 23:00"
+    }
   },
   "AVGO": {
     "_last_attempt_at": 1791548975.1925468,
@@ -107127,7 +107082,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "QCOM": {
@@ -113662,7 +113617,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "ARM": {
@@ -118421,7 +118376,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "MRVL": {
@@ -126075,7 +126030,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 166,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "INTC": {
@@ -134392,7 +134347,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "TSM": {
@@ -140429,7 +140384,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "ASML": {
@@ -144456,7 +144411,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "AMAT": {
@@ -148833,7 +148788,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "LRCX": {
@@ -151243,7 +151198,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "KLAC": {
@@ -153538,7 +153493,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "MU": {
@@ -161072,7 +161027,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "SNDK": {
@@ -168520,7 +168475,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 154,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "WDC": {
@@ -172932,7 +172887,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "ANET": {
@@ -176389,7 +176344,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "COHR": {
@@ -179490,7 +179445,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "LITE": {
@@ -182899,7 +182854,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "GEV": {
@@ -187699,7 +187654,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "CEG": {
@@ -191901,7 +191856,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "VST": {
@@ -195109,7 +195064,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "ETN": {
@@ -197993,7 +197948,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "PWR": {
@@ -200611,7 +200566,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "HUBB": {
@@ -201379,7 +201334,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "VRT": {
@@ -205107,7 +205062,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "MOD": {
@@ -206435,7 +206390,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "STX": {
@@ -210360,7 +210315,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "EME": {
@@ -212064,7 +212019,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "FIX": {
@@ -213609,7 +213564,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   },
   "BE": {
@@ -215703,7 +215658,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-09 22:41"
+      "updated": "2026-10-09 23:00"
     }
   }
 };

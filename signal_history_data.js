@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791553262.2675862,
+  "generatedAt": 1791554418.1787188,
   "records": {
     "MSFT": [
       {
@@ -17251,6 +17251,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AMD": [
       {
+        "changedAt": 1791554418.1787188,
+        "dataAsOf": 1791544534,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 2.1,
+            "after": 2.45
+          }
+        ],
+        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
+        "newsHeadline": "OpenAI의 수익은 생각보다 200억 달러 낮은 것으로 알려졌습니다. 엔비디아는 1,700억 달러의 손실을 입었습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=02d1180e33cad0a44d1e137920f4df3ccf8373dc16eae441792ce9b7f44d8401",
+        "eventId": "d939363822cc9ee243bc",
+        "fingerprint": "{\"changes\": [{\"after\": 2.45, \"before\": 2.1, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"d939363822cc9ee243bc\"}"
+      },
+      {
         "changedAt": 1791549532.5436523,
         "dataAsOf": 1791544534,
         "changes": [
@@ -18486,23 +18503,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=464c155eaf42e2f6a75fb5446883d2f0913dbf22cc42b3a8780439cfbc23cfc4",
         "eventId": "fb5c9833f67e5a4488b5",
         "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.7, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -4.72, \"before\": -4.02, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 4.03, \"before\": 5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"fb5c9833f67e5a4488b5\"}"
-      },
-      {
-        "changedAt": 1790307985.5079496,
-        "dataAsOf": 1790293021,
-        "changes": [
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 4.72,
-            "after": 5
-          }
-        ],
-        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
-        "newsHeadline": "오라클은 AI 데이터 센터가 지연될 경우 보호를 원합니다. 투자자를 위한 변화는 다음과 같습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=592e01d5b9cda1a437e7350f1a043d723d33a5e49e9ba27710b533cf074a8708",
-        "eventId": "c63bb00f47a911fb0df1",
-        "fingerprint": "{\"changes\": [{\"after\": 5, \"before\": 4.72, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"c63bb00f47a911fb0df1\"}"
       }
     ],
     "AVGO": [
@@ -50163,6 +50163,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "STX": [
+      {
+        "changedAt": 1791554418.1787188,
+        "dataAsOf": 1791362765,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -0.18,
+            "after": 0.17
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -2.1,
+            "after": -1.4
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.35,
+            "after": 0.0
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Marvell은 장기 목표를 높이기 위한 최신 AI 인프라 플레이입니다. Dell, HPE, CoreWeave 및 Broadcom을 비교하는 방법은 다음과 같습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=af6fbc5888392e83d3d6f54015c51f3f80684903010c01b7637c24f966eb344c",
+        "eventId": "9c3d98db1ed7f9d5e70c",
+        "fingerprint": "{\"changes\": [{\"after\": 0.17, \"before\": -0.18, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.4, \"before\": -2.1, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.0, \"before\": -0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"9c3d98db1ed7f9d5e70c\"}"
+      },
       {
         "changedAt": 1791530368.9994035,
         "dataAsOf": 1791362765,

@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791553262.2109232,
+  "generatedAt": 1791554418.1165662,
   "events": [
     {
       "id": "9cfc3e8881fe50460893",
@@ -1284,6 +1284,73 @@ const EVENT_DATA = {
       ]
     },
     {
+      "id": "65ce9209ca77f6f75774",
+      "schemaVersion": 1,
+      "eventType": "major_customer_contract",
+      "eventLabel": "주요 고객 계약",
+      "primaryTicker": "AMD",
+      "relatedTickers": [
+        "AMD"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "neutral",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "How to Play AMD Stock as It Continues to Explore a Foundry Partnership With a Korean Tech Giant",
+      "headlineKo": "한국 거대 기술 기업과 파운드리 파트너십을 계속 모색하면서 AMD 주식을 활용하는 방법",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d6dd45883baf9c46b1bb2d37644c2b0019643efd7740f6b5d130175f663ba15c",
+        "publishedAt": 1791515463,
+        "collectedAt": 1791554402.1141853
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "How to Play AMD Stock as It Continues to Explore a Foundry Partnership With a Korean Tech Giant",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "AMD에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AMD",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "계약 금액·기간·취소 조건",
+        "수주잔고와 매출 인식 시점",
+        "관련 사업부 매출총이익률"
+      ]
+    },
+    {
       "id": "bbb8de7d189798d158a1",
       "schemaVersion": 1,
       "eventType": "analyst_target_change",
@@ -1883,7 +1950,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8d42f25c2ed44fae3597e64c63defe9bc77ce60ad76e26198e7ef0825841354b",
         "publishedAt": 1791502971,
-        "collectedAt": 1791530331.3303413
+        "collectedAt": 1791554402.1141853
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5817,7 +5884,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=db73bbe8f441454d905612856364abd366656fb69903e553f28df6ae7fbc39d9",
         "publishedAt": 1791469969,
-        "collectedAt": 1791530331.3303413
+        "collectedAt": 1791554402.1141853
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8943,7 +9010,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1d86566fd281d53c6db541f9ea76ce51adb70239ecc27f47d047fccaa27b55bd",
         "publishedAt": 1791430205,
-        "collectedAt": 1791530331.3303413
+        "collectedAt": 1791554402.1141853
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9480,7 +9547,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=50352b28347a16ef361adee73323be4f5be5b71231708705135708bc7bebdb49",
         "publishedAt": 1791413451,
-        "collectedAt": 1791530331.3303413
+        "collectedAt": 1791554402.1141853
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10483,7 +10550,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9c1ffe6e8023cd5ecf0789d2b0a858778871893fbf6e9d0e1018ced125fb17d4",
         "publishedAt": 1791403237,
-        "collectedAt": 1791530331.3303413
+        "collectedAt": 1791554402.1141853
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10578,7 +10645,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5f1f7b17e6468653000e0153a270548613e016b32fddf17a59db5cd211bfe6d8",
         "publishedAt": 1791402894,
-        "collectedAt": 1791530331.3303413
+        "collectedAt": 1791554402.1141853
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13976,7 +14043,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=570f9c0033629f0d6ee642e8cd9d05897f6527311e497630dc19859d8823340f",
         "publishedAt": 1791381623,
-        "collectedAt": 1791530331.3303413
+        "collectedAt": 1791554402.1141853
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14406,7 +14473,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d6f8c3b725ed0185796d592a7f037e6142143747262264fb1b8ad7e7796ebbca",
         "publishedAt": 1791379647,
-        "collectedAt": 1791530331.3303413
+        "collectedAt": 1791554402.1141853
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16246,7 +16313,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bcedf644d9117099b6ae3cfbb3f912ded832567c52fa08c5136b47731b81ace9",
         "publishedAt": 1791363952,
-        "collectedAt": 1791530331.3303413
+        "collectedAt": 1791554402.1141853
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17854,78 +17921,6 @@ const EVENT_DATA = {
         "컨센서스 추정치 변경",
         "마진·FCF 전망"
       ]
-    },
-    {
-      "id": "46b70cbaa3dec7315439",
-      "schemaVersion": 1,
-      "eventType": "supply_chain",
-      "eventLabel": "공급망 문제",
-      "primaryTicker": "STX",
-      "relatedTickers": [
-        "QQQ",
-        "SPY",
-        "STX"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "low",
-        "score": 42,
-        "kind": "reported",
-        "reason": "속보·의견 성격이 강해 원문 재확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "낮음·확인 필요",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Seagate Technology Holdings (STX) Stock Is Trending After Hours: Here's Why",
-      "headlineKo": "Seagate Technology Holdings(STX) 주식은 영업시간 이후 추세를 보이고 있습니다. 그 이유는 다음과 같습니다.",
-      "source": {
-        "name": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=2afa5789f4380fedd695fdd1b0bea8a0e264a8fcf3e7faa4dba14c0a12866ed2",
-        "publishedAt": 1791331108,
-        "collectedAt": 1791548975.1925468
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Seagate Technology 주식 0.30% 영업 시간 외 - Morgan Stanley(NYSE:MS), Seagate Technology Hldgs(NASDAQ: - Benzinga SPY 779.87 +0.10% QQQ 759.84 +0.02% BTC/USD 84,166.12 −1.62% DIA 514.66 +0.02% GLD 381.90 −0.10% TLT 77.20 −0.10% 미국 기호",
-        "다국적 데이터 스토리지 회사의 주가는 화요일 종소리 이후 0.30% 상승한 808.08달러를 기록했습니다.",
-        "Benzinga Pro 데이터에 따르면 정규 세션에서 Seagate 주가는 9.18% 하락한 $805.63에 마감되었습니다."
-      ],
-      "marketInterpretation": [
-        "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.30%, 0.10%, 0.02% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "STX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "STX에 대한 공급망 · 생산 차질 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "주문은 있어도 부품이나 생산 문제로 제때 팔지 못할 수 있다는 뉴스입니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.30%, 0.10%, 0.02% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "STX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "STX",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "출하 지연 기간",
-        "재고와 리드타임",
-        "매출총이익률·대체 공급처"
-      ]
     }
   ],
   "byTicker": {
@@ -18045,8 +18040,7 @@ const EVENT_DATA = {
       "def6aab1576b6e4c4482",
       "250b56577648e8b7282e",
       "a8a25aca777cb7dbe191",
-      "d18c919449d6b4d7440a",
-      "46b70cbaa3dec7315439"
+      "d18c919449d6b4d7440a"
     ],
     "LRCX": [
       "1e398ce86c136da73221",
@@ -18115,8 +18109,7 @@ const EVENT_DATA = {
       "9c3d98db1ed7f9d5e70c",
       "b8f26b776fec0b319cb5",
       "250b56577648e8b7282e",
-      "a8a25aca777cb7dbe191",
-      "46b70cbaa3dec7315439"
+      "a8a25aca777cb7dbe191"
     ],
     "LITE": [
       "6c161e37a9906fc7e834",
@@ -18187,6 +18180,7 @@ const EVENT_DATA = {
     ],
     "AMD": [
       "d939363822cc9ee243bc",
+      "65ce9209ca77f6f75774",
       "4ebb3190921288b0d623",
       "e6a36c5250494a6d0e1b",
       "f6cc4e590fb5daf76b79",
@@ -18607,8 +18601,7 @@ const EVENT_DATA = {
       "9c3d98db1ed7f9d5e70c",
       "b8f26b776fec0b319cb5",
       "250b56577648e8b7282e",
-      "a8a25aca777cb7dbe191",
-      "46b70cbaa3dec7315439"
+      "a8a25aca777cb7dbe191"
     ]
   }
 };

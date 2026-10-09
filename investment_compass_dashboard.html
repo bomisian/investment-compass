@@ -5531,6 +5531,12 @@ function computePriceValidity(r){
     };
   }
 
+  // --- 51738 -- 독립 건전성 교차검증(사용자 외부 검산 요청, 2026-10-09). 과거 PER 밴드 하나에만
+  //     의존하는 가격 라벨이 기대가 선반영된 성장주를 과도하게 "매력적"으로, 현금흐름이 괜찮은
+  //     기업을 과도하게 "접근 회피"로 보이게 할 위험을 상식적으로 검산한다. 새 가격대·목표가·DCF가
+  //     아니며, 기존 가격 라벨/종합 행동을 바꾸지 않는다 -- 참고 배지만 추가. ---
+  const crossCheck = pvCrossCheck(t, r.price, price, fin, fund);
+
   return {
     ticker: t, price, business, cashflow, chart,
     ntmPer, ntmEps, ntmSourceOk, ntmNote, ntmMethod, distortionRatio, distorted, bandEligible, blockReason, bandBasis,
@@ -5539,7 +5545,80 @@ function computePriceValidity(r){
     epsDamaged, epsDirection: eps ? eps.direction : null,
     bandTable, eps, fund, tc, me,
     downturnState, downturnNextCheck, downturnSummary,
+    crossCheck,
   };
+}
+
+// --- 51738 -- 독립 건전성 교차검증 계산기. 과거 PER 밴드와는 다른 두 개의 단순 산식만 쓴다:
+//     (1) 공식 EPS 가이던스(또는 없으면 최근 보고 분기 실제 GAAP EPS) 단순 연환산 배수,
+//     (2) 최근 4개 분기 실제 FCF 합 ÷ 시가총액(현금흐름 수익률, 가이던스 아님 -- 실적 기준).
+//     이 값들은 가격대·종합 행동을 자동으로 바꾸지 않고, 기존 PER 밴드 판정과 방향이 다를 때만
+//     "모델 간 불일치" 참고 배지를 띄운다. ---
+function pvCrossCheck(t, price, perLabel, fin, fund){
+  const num = v => typeof v === 'number' && isFinite(v);
+  const out = { epsMultiple:null, epsTier:null, epsBasis:null, fcfYield:null, fcfNote:null, mismatch:null };
+  if(!num(price)) return out;
+
+  // 1) 다음 분기(또는 최신) 공식 EPS 가이던스 연환산 배수 -- SEC 8-K 공시 원문 파싱(guidance_history_data.js)
+  const gh = (typeof GUIDANCE_HISTORY_DATA!=='undefined') ? GUIDANCE_HISTORY_DATA[t] : null;
+  let epsGuideRec = null;
+  if(Array.isArray(gh)){
+    for(let i=gh.length-1;i>=0;i--){
+      const rec = gh[i];
+      if(!rec || rec.quarantined) continue;
+      if(!rec.guidance || rec.guidance.status!=='available' || !Array.isArray(rec.guidance.metrics)) continue;
+      const epsM = rec.guidance.metrics.find(m=>m && m.metric==='eps' && typeof m.low==='number' && typeof m.high==='number');
+      if(epsM){ epsGuideRec = {rec, epsM}; break; }
+    }
+  }
+  if(epsGuideRec){
+    const mid = (epsGuideRec.epsM.low + epsGuideRec.epsM.high)/2;
+    const annualized = mid*4;
+    if(annualized>0){
+      out.epsMultiple = price/annualized;
+      out.epsBasis = `공식 가이던스(${epsGuideRec.rec.guidance.targetPeriod||'—'}, ${epsGuideRec.epsM.basis==='non_gaap'?'비GAAP':'GAAP'} EPS 중간값 $${mid.toFixed(2)} ×4)`;
+    } else {
+      out.epsBasis = '공식 EPS 가이던스 중간값이 0 이하(적자 가이던스)라 연환산 불가';
+    }
+  } else {
+    // 공식 EPS 가이던스 없음 -- 최근 보고 분기 실제(GAAP) EPS로 대체(가이던스와 다른 기준임을 명시)
+    const q = fin && Array.isArray(fin.quarterly) && fin.quarterly.length ? fin.quarterly[fin.quarterly.length-1] : null;
+    if(q && typeof q.eps==='number' && q.eps>0){
+      out.epsMultiple = price/(q.eps*4);
+      out.epsBasis = `공식 EPS 가이던스 없음 — 최근 보고 분기(${q.period||q.endDate||'—'}) 실제 GAAP EPS $${q.eps.toFixed(2)} ×4로 대체(가이던스와 다른 기준, 참고용)`;
+    } else if(q && typeof q.eps==='number'){
+      out.epsBasis = `공식 EPS 가이던스 없음, 최근 보고 분기 EPS도 $${q.eps.toFixed(2)}(적자)라 연환산 불가`;
+    } else {
+      out.epsBasis = '공식 EPS 가이던스·분기 실적 모두 확보되지 않음';
+    }
+  }
+  if(num(out.epsMultiple)){
+    if(out.epsMultiple>=60) out.epsTier = '높은 이익 가속 필요';
+    else if(out.epsMultiple>=40) out.epsTier = '성장 프리미엄 반영';
+    else out.epsTier = '이익 기준 추가 확인';
+  }
+
+  // 2) 현금흐름 수익률 -- 최근 4개 분기 실제 FCF 합 ÷ 시가총액(실적 기준, 가이던스 아님)
+  if(fin && Array.isArray(fin.quarterly) && fin.quarterly.length>=4 && fund && num(fund.marketCapitalization)){
+    const last4 = fin.quarterly.slice(-4);
+    if(last4.every(q=>q && typeof q.fcf==='number')){
+      const sumFcf = last4.reduce((s,q)=>s+q.fcf,0);
+      const mktCapUsd = fund.marketCapitalization*1e6;
+      if(mktCapUsd>0){
+        out.fcfYield = sumFcf/mktCapUsd*100;
+        out.fcfNote = `최근 4개 분기(${last4[0].period||last4[0].endDate}~${last4[3].period||last4[3].endDate}) 실적 기준, 공식 가이던스 아님`;
+      }
+    }
+  }
+  if(out.fcfYield==null && !out.fcfNote) out.fcfNote = '분기별 FCF 실적 데이터 부족';
+
+  // 3) 모델 간 불일치 참고 배지 -- 가격대·종합 행동을 바꾸지 않고 경고만 표시
+  if(perLabel==='매력적' && out.epsTier==='높은 이익 가속 필요'){
+    out.mismatch = '과거 PER은 매력적, 연환산 EPS 배수는 매우 높음 — 모델 간 불일치 · 기대 선반영 확인 필요';
+  } else if((perLabel==='경계' || perLabel==='접근 회피' || perLabel==='가격대 산출 제한') && num(out.fcfYield) && out.fcfYield>=5){
+    out.mismatch = 'PER 기반 가격 판단과 현금흐름 교차검증이 다릅니다 — 구조 위험 근거를 확인하십시오.';
+  }
+  return out;
 }
 
 // --- 51736 -- 가격 위치와 종합 행동을 분리하고, 하락 원인 진단(신규 접근 중지/관찰)이 있으면
@@ -5785,6 +5864,31 @@ function renderPriceValidityCard(r){
     ? (posLine ? `<div style="margin-top:8px;font-size:12px;color:${NEU_TEXT};background:${NEU_BG};border-radius:8px;padding:8px 10px;line-height:1.5;">${posLine}</div>` : '')
     : `<div style="margin-top:8px;font-size:11.5px;color:#7a3b2e;background:#f8ece9;border:1px solid #e3c7bd;border-radius:8px;padding:8px 10px;line-height:1.5;"><b>${esc(d.blockReason)}</b>로 숫자 가격대는 제시하지 않습니다. 사업·현금흐름·차트는 아래 "판단 근거 보기"에서 계속 확인할 수 있습니다.</div>`;
 
+  // --- 51738 -- 독립 건전성 교차검증(참고용 배지). 과거 PER 밴드와 다른 두 산식(EPS 연환산 배수,
+  //     FCF 수익률)으로 가격 라벨을 상식적으로 검산한다. 가격대·종합 행동을 바꾸지 않으며,
+  //     기존 판정과 방향이 다를 때만 모델 간 불일치 경고를 보여준다. ---
+  const cc = d.crossCheck;
+  let crossCheckBox = '';
+  if(cc){
+    const CC_TIER_COLOR = {'높은 이익 가속 필요':'#7a3b2e','성장 프리미엄 반영':'#7a5c00','이익 기준 추가 확인':'#2f5b3c'};
+    const epsLine = num(cc.epsMultiple)
+      ? `다음 분기 EPS 연환산 배수 <b style="color:${CC_TIER_COLOR[cc.epsTier]||NEU_TEXT};">${cc.epsMultiple.toFixed(1)}배</b>(${esc(cc.epsTier||'')}) — ${esc(cc.epsBasis||'')}`
+      : `EPS 연환산 배수 산출 불가 — ${esc(cc.epsBasis||'데이터 없음')}`;
+    const fcfLine = num(cc.fcfYield)
+      ? `현금흐름 수익률 <b>${cc.fcfYield>=0?'+':''}${cc.fcfYield.toFixed(1)}%</b> — ${esc(cc.fcfNote||'')}`
+      : `현금흐름 수익률 산출 불가 — ${esc(cc.fcfNote||'데이터 없음')}`;
+    const mismatchLine = cc.mismatch
+      ? `<div style="margin-top:6px;font-size:11px;font-weight:700;color:#7a3b2e;">⚠ ${esc(cc.mismatch)}</div>`
+      : `<div style="margin-top:6px;font-size:11px;color:${NEU_DIM};">두 교차검증 모두 기존 가격 판단과 같은 방향입니다.</div>`;
+    crossCheckBox = `
+      <div style="margin-top:8px;font-size:11.5px;color:${NEU_TEXT};background:#fff;border:1px solid ${NEU_LINE};border-radius:8px;padding:9px 11px;line-height:1.55;">
+        <div style="font-weight:800;color:${NEU_DIM};font-size:10.5px;margin-bottom:3px;">독립 건전성 교차검증(참고용 — 과거 PER 밴드와 다른 방식, 가격대·행동을 자동으로 바꾸지 않음)</div>
+        <div>${epsLine}</div>
+        <div style="margin-top:3px;">${fcfLine}</div>
+        ${mismatchLine}
+      </div>`;
+  }
+
   // =========================================================================
   // 판단 근거(접힘) -- EPS·PER 원자료, 밸류에이션, 현금흐름, 103 신호, 가격대 표를 모두 여기로.
   // =========================================================================
@@ -5882,7 +5986,7 @@ function renderPriceValidityCard(r){
 
   const footNote = `<div style="margin-top:8px;margin-bottom:16px;font-size:10.5px;color:var(--sub);">가격 타당성(모델 기준)과 기술적 진입 상태(103)는 서로 다른 축이며, 한쪽이 다른 쪽을 덮어 낮추지 않습니다. 애널리스트 목표가는 가격 기준이 아니라 시장 기대 참고로만 사용합니다. 현재 가격에 맞춰 배수·EPS·가격대를 조정하지 않습니다. 자동매매·알림·매수/매도 신호와 연결되지 않습니다.</div>`;
 
-  return `${headHtml}${conclusionBox}${positionBox}${evidenceDetails}${targetRef}${footNote}`;
+  return `${headHtml}${conclusionBox}${positionBox}${crossCheckBox}${evidenceDetails}${targetRef}${footNote}`;
 }
 if(typeof HINTS !== 'undefined'){
   HINTS.priceValidityCard = 'EPS 성장·수정 방향, 현재가가 요구하는 밸류에이션, 현금흐름·부채·희석, 103 기술적 진입 상태를 결합해 "가격이 사업 펀더멘털 대비 타당한가"를 보여주는 읽기 전용 카드입니다. 맨 위에는 오늘의 판단·오늘의 행동·가격/사업/현금흐름/차트 4축·판단이 바뀌는 조건이 먼저 나오고, EPS·PER·현금흐름 원자료와 가격대 표는 "판단 근거 보기"를 펼쳐야 보입니다. NTM PER은 독립 밸류에이션 모듈의 값을 우선 쓰고, 없으면 eps_data.js의 애널리스트 컨센서스로 같은 방식(일수 가중 선형보간)을 재현한 공통 계산기로 보완합니다. 과거 PER 밴드는 종목 자신의 중앙값 기반 백분위(5년 이상 흑자 이력)를 우선 쓰고, 상장 이력이 짧은 종목은 기존 전체 통계 폴백(0.64~1.55배)을 적용합니다. 과거 PER 유효 관측치가 전혀 없는 극소수 종목만 숫자 가격대를 차단하고, 그 외엔 사업·현금흐름·차트 평가를 그대로 보여줍니다. 애널리스트 목표가는 가격 기준으로 쓰지 않고 시장 기대 참고로만 보조 사용합니다. 가격 타당성과 기술적 진입 타이밍은 분리된 축으로 표시되며 한쪽이 다른 쪽을 깎지 않습니다. 매수·매도 신호가 아니고 자동매매·알림과 연결되지 않습니다.';
