@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791504447.427619,
+  "generatedAt": 1791505655.543754,
   "events": [
     {
       "id": "ab382d5acb7fcaf495f3",
@@ -10600,7 +10600,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000680/tsm-revenue20261008.htm",
         "publishedAt": 1791385200.0,
-        "collectedAt": 1791482909.7281091
+        "collectedAt": 1791505633.8002393
       },
       "confirmedFacts": [
         "TSM가 2026-10-08에 SEC Form 6-K을 제출했습니다."
