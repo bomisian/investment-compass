@@ -543,6 +543,7 @@
      순환 갱신 파이프라인에 연결함. 없어도 대시보드는 정상 동작함 -->
 <script src="eps_data.js" onerror="void 0"></script>
 <script src="guidance_history_data.js" onerror="void 0"></script>
+<script src="review_baseline_data.js" onerror="void 0"></script>
 <!-- 공매도(FINRA, 무료·비상업 이용) - 2026-09-04 추가. 격주 갱신이라 파일이 아직 없을 수 있어
      onerror로 없어도 대시보드가 정상 동작하게 함(참고용 지표, 매수·매도 신호 아님) -->
 <script src="short_interest_data.js" onerror="void 0"></script>
@@ -6100,39 +6101,82 @@ function pvDataRegistryRow(t, r, d){
   return rows;
 }
 
-// 사람이 오늘 봐야 하는 예외인지 판정 -- 사용자가 지정한 5개 기준만 사용(새 기준 추가 없음)
+// ===== 51741 -- 재검토 큐와 "상시 데이터 제한"을 분리 + 배포 데이터 파일 기반 서명 비교 (2026-10-09) =====
+// [배경] 51740은 "GAAP/비GAAP 비교 기준 제한"(비GAAP 가이던스가 없는 24종목에서 항상 참인
+// 구조적 데이터 공백)을 재검토 큐에 그대로 올려 33개가 뜨는 문제가 있었다. 사용자 지적 3가지:
+// (1) 상시 데이터 제한(바뀌지 않는 메타정보)과 "오늘 바뀐 것"을 같은 목록에 섞지 말 것.
+// (2) 사람이 "확인함"을 24번 눌러야 9개로 줄어드는 건 자동화가 아님 -- 개별 확인 버튼 제거.
+// (3) 판단 기록을 브라우저 localStorage(기기·브라우저 바뀌면 사라짐)가 아니라 배포 데이터
+//     파일(review_baseline_data.js -- 다른 *_data.js와 같은 자리, 같은 로딩 방식)에 저장할 것.
+// 가격 공식·종합 행동·102/103/104/142/자동매매/텔레그램은 이번에도 전혀 건드리지 않는다.
+
+// [51741] "GAAP/비GAAP 비교 기준 제한"은 재검토 큐 사유에서 완전히 제외한다 -- 비GAAP 가이던스가
+// 없는 종목에서는 매 스캔마다 항상 참인 메타정보(데이터 출처의 성격)이지 "오늘 생긴 사건"이
+// 아니기 때문. 대신 상시 집계 전용 함수로 분리해 접이식 요약에서만 보여준다.
+function pvBasisLimitedTickers(){
+  const out = [];
+  if(typeof results === 'undefined') return out;
+  for(const t of Object.keys(results)){
+    const r = results[t];
+    if(!r || r.error) continue;
+    let d;
+    try{ d = computePriceValidity(r); } catch(e){ continue; }
+    const cc = d.crossCheck || {};
+    if(cc.eps && cc.eps.badge === '비교 기준 제한'){
+      out.push({ ticker:t, multiple: cc.eps.multiple, basisLabel: cc.eps.basisLabel });
+    }
+  }
+  return out;
+}
+
+// [51741] 예외 서명 -- ticker + exception_type + value + source_date + basis. 같은 서명이
+// review_baseline_data.js(배포 데이터 파일, 아래 pvExportReviewBaseline 참고)에 이미 있으면
+// "이미 알고 있는 상태"로 보고 재검토 큐에서 뺀다. 값·출처일·기준 중 하나라도 바뀌면 서명이
+// 달라져 자동으로 다시 뜬다 -- 사람이 24개를 일일이 끄는 방식이 아니라, 데이터 자체의 변화로만
+// 판정한다.
+function pvReviewSignature(ticker, code, value, sourceDate, basis){
+  const v = (value==null) ? '—' : (typeof value==='number' ? value.toFixed(2) : String(value));
+  return [ticker, code, v, sourceDate||'—', basis||'—'].join('|');
+}
+
+// 사람이 오늘 봐야 하는 예외인지 판정 -- "GAAP/비GAAP 비교 기준 제한"은 제외(위 함수로 분리),
+// 나머지는 전부 ticker|code|value|source_date|basis 서명을 함께 반환한다(큐 포함 여부는
+// pvExceptionQueueData가 배포 데이터 파일과 비교해 따로 판단).
 function pvExceptionReasons(t, r, d){
   const reasons = [];
   const cc = d.crossCheck || {};
   const num = v => typeof v === 'number' && isFinite(v);
+  const priceAsOf = (r.dataHealth && r.dataHealth.lastDate) || null;
 
-  // 1) 기준일 초과
+  // 1) 기준일 초과(컨센서스·EPS 추정치)
   if(d.me && d.me.stale_consensus_warning){
-    reasons.push({code:'stale', label:`컨센서스 기준일 ${d.me.consensus_snapshot_age_days}일 경과`});
+    const ageDays = d.me.consensus_snapshot_age_days;
+    reasons.push({ code:'stale', label:`컨센서스 기준일 ${ageDays}일 경과`,
+      signature: pvReviewSignature(t,'stale', ageDays, d.me.consensus_snapshot_as_of||priceAsOf, 'consensus_age') });
   }
   if(d.eps && d.eps.updatedAt){
     const ageDays = (Date.now() - new Date(d.eps.updatedAt).getTime())/86400000;
     if(isFinite(ageDays) && ageDays > PV_CONSENSUS_STALE_DAYS && !(d.me && d.me.stale_consensus_warning)){
-      reasons.push({code:'stale', label:`EPS 추정치 기준일 ${Math.round(ageDays)}일 경과`});
+      const rounded = Math.round(ageDays);
+      reasons.push({ code:'stale', label:`EPS 추정치 기준일 ${rounded}일 경과`,
+        signature: pvReviewSignature(t,'stale', rounded, d.eps.updatedAt, 'eps_age') });
     }
   }
 
-  // 2) GAAP/비GAAP 비교 기준 제한
-  if(cc.eps && cc.eps.badge === '비교 기준 제한'){
-    reasons.push({code:'basis_limited', label:'EPS 교차검증 — GAAP 대체, 비GAAP 가이던스 종목과 직접 비교 제한'});
-  }
-
-  // 3) 실제 FCF와 조정 FCF 가이던스 정의 차이
+  // 2) 실제 FCF와 조정 FCF 가이던스 정의 차이
   if(cc.fcf && cc.fcf.badge === '현금흐름 정의 차이'){
-    reasons.push({code:'fcf_def_diff', label:`현금흐름 정의 차이 — 실제 TTM ${num(cc.fcf.ttmYield)?cc.fcf.ttmYield.toFixed(1)+'%':'—'} vs 가이던스 ${num(cc.fcf.guideYield)?cc.fcf.guideYield.toFixed(1)+'%':'—'}`});
+    const val = `${num(cc.fcf.ttmYield)?cc.fcf.ttmYield.toFixed(1):'—'}/${num(cc.fcf.guideYield)?cc.fcf.guideYield.toFixed(1):'—'}`;
+    reasons.push({ code:'fcf_def_diff', label:`현금흐름 정의 차이 — 실제 TTM ${num(cc.fcf.ttmYield)?cc.fcf.ttmYield.toFixed(1)+'%':'—'} vs 가이던스 ${num(cc.fcf.guideYield)?cc.fcf.guideYield.toFixed(1)+'%':'—'}`,
+      signature: pvReviewSignature(t,'fcf_def_diff', val, priceAsOf, 'fcf_ttm_vs_guidance') });
   }
 
-  // 4) 과거 PER 모델과 EPS·현금흐름 교차검증 불일치
+  // 3) 과거 PER 모델과 EPS·현금흐름 교차검증 불일치
   if(cc.eps && cc.eps.badge === '기대 선반영 확인 필요'){
-    reasons.push({code:'expectation_priced_in', label:`EPS 연환산 배수 ${num(cc.eps.multiple)?cc.eps.multiple.toFixed(1)+'배':'—'} — 과거 PER 라벨(${d.price})과 교차검증 불일치`});
+    reasons.push({ code:'expectation_priced_in', label:`EPS 연환산 배수 ${num(cc.eps.multiple)?cc.eps.multiple.toFixed(1)+'배':'—'} — 과거 PER 라벨(${d.price})과 교차검증 불일치`,
+      signature: pvReviewSignature(t,'expectation_priced_in', cc.eps.multiple, priceAsOf, 'eps_multiple_vs_per_label') });
   }
 
-  // 5) 새 실적·가이던스·부채·희석·규제 사건 발생
+  // 4) 새 실적·가이던스·규제 공시
   const gh = (typeof GUIDANCE_HISTORY_DATA!=='undefined') ? GUIDANCE_HISTORY_DATA[t] : null;
   if(Array.isArray(gh) && gh.length){
     const latest = gh.filter(rec=>rec && !rec.quarantined && rec.filingDate)
@@ -6140,60 +6184,52 @@ function pvExceptionReasons(t, r, d){
     if(latest){
       const ageDays = (Date.now() - new Date(latest.filingDate).getTime())/86400000;
       if(isFinite(ageDays) && ageDays <= PV_NEW_FILING_WINDOW_DAYS){
-        reasons.push({code:'new_filing', label:`새 공식 공시(${latest.filingDate}) — 가이던스 갱신 확인 필요`});
+        reasons.push({ code:'new_filing', label:`새 공식 공시(${latest.filingDate}) — 가이던스 갱신 확인 필요`,
+          signature: pvReviewSignature(t,'new_filing', latest.accessionNumber||latest.filingDate, latest.filingDate, 'sec_filing') });
       }
     }
   }
+
+  // 5) 가격대·종합 행동·현금흐름 거부권 상태 -- 거부권은 그 자체가 오늘의 행동에 영향을 주는
+  //    활성 위험 게이트이므로(발동 중엔 "신규 접근 중지"를 강제) 매번 현재 상태를 보고하고,
+  //    배포 데이터 파일과 값이 같으면(= 전날과 동일한 근거로 이미 확인됨) 큐에서 빠진다.
   if(d.cfVeto){
-    reasons.push({code:'cf_veto', label:`현금흐름 거부권 발동(${d.cfVetoCount}/3) — ${esc(d.cfDetail.join(' · ')||'')}`});
+    const val = `${d.cfVetoCount}|${d.cfDetail.join(';')}`;
+    reasons.push({ code:'cf_veto', label:`현금흐름 거부권 발동(${d.cfVetoCount}/3) — ${esc(d.cfDetail.join(' · ')||'')}`,
+      signature: pvReviewSignature(t,'cf_veto', val, priceAsOf, 'cf_veto_gate') });
+  }
+  // 가격대·종합 행동 라벨 자체가 바뀐 경우(예: 적정→매력적, 관찰→분할 축적 검토)도 재검토
+  // 대상 -- 단, "바뀌었는지"는 배포 데이터 파일에 남아 있는 지난 라벨과 비교해야만 판단할 수
+  // 있으므로, 지난 기록이 없으면(최초 1회) 이 사유는 생성하지 않는다(= 비교 대상이 없을 때
+  // "항상 새로 바뀜"으로 오판하지 않음 -- 39종목이 전부 뜨는 51740의 실패를 반복하지 않기 위함).
+  const baseline = (typeof REVIEW_BASELINE_DATA!=='undefined' && REVIEW_BASELINE_DATA[t]) ? REVIEW_BASELINE_DATA[t] : null;
+  const prevState = baseline && baseline._state;
+  const actLabel = pvIntegratedAction(d).label;
+  if(prevState && (prevState.price !== d.price || prevState.action !== actLabel)){
+    reasons.push({ code:'state_change', label:`판단 전환 — 가격 "${prevState.price}"→"${d.price}", 종합 행동 "${prevState.action}"→"${actLabel}"`,
+      signature: pvReviewSignature(t,'state_change', `${d.price}|${actLabel}`, priceAsOf, 'price_action_transition') });
   }
 
   return reasons;
 }
 
-// [51740 추가 보정] "GAAP/비GAAP 비교 기준 제한"(사유코드 basis_limited)은 실측 결과 39종목 중
-// 비GAAP 가이던스가 아예 없는 종목(약 24개)에서는 매 스캔마다 항상 참인 "구조적" 데이터 공백이지,
-// "오늘 새로 생긴" 사건이 아니다. 이걸 그대로 매일 예외 목록에 올리면 3~10개가 아니라 20개 이상이
-// 뜨게 되어 "오늘 판단이 바뀔 만한 종목만 본다"는 사용자 목표를 바로 깨버린다. 그래서 사람이 한 번
-// 확인한 구조적 사유는, 그 사유 문구(label — 숫자가 바뀌면 문구도 바뀜)가 그대로인 한 다시 안
-// 띄우고, 숫자/상태가 실제로 바뀌면(label 변경) 자동으로 다시 뜨게 한다. 서버/DB 없이 이 브라우저
-// localStorage만 쓰며(기존 SCAN_CACHE_KEY/HOLDINGS_KEY와 동일 패턴), 가격·행동 산식에는 전혀
-// 영향을 주지 않는 "확인했음" 표시일 뿐이다.
-const PV_EXC_ACK_KEY = 'pv_exception_ack_v1';
-function pvExcAckLoad(){
-  try{ return JSON.parse((typeof localStorage!=='undefined' ? localStorage.getItem(PV_EXC_ACK_KEY) : null) || '{}'); }
-  catch(e){ return {}; }
-}
-function pvExcAckSave(obj){
-  try{ if(typeof localStorage!=='undefined') localStorage.setItem(PV_EXC_ACK_KEY, JSON.stringify(obj)); }catch(e){}
-}
-function pvExcAckKey(ticker, code){ return ticker+'|'+code; }
-if(typeof window !== 'undefined'){
-  window.pvAckException = function(ticker, code, label){
-    const ack = pvExcAckLoad();
-    ack[pvExcAckKey(ticker, code)] = { label, ackedAt: new Date().toISOString() };
-    pvExcAckSave(ack);
-    if(typeof renderPriceValidityExceptionQueue === 'function') renderPriceValidityExceptionQueue();
-  };
-  window.pvUnackAllExceptions = function(){
-    pvExcAckSave({});
-    if(typeof renderPriceValidityExceptionQueue === 'function') renderPriceValidityExceptionQueue();
-  };
-}
-
+// [51741] 재검토 큐 -- basis_limited는 애초에 pvExceptionReasons에 없으므로 자동으로 빠진다.
+// 나머지 사유도 서명이 review_baseline_data.js에 이미 기록돼 있으면(= 이전 배치에서 이미 같은
+// 근거로 확인된 상태) 큐에서 제외한다. 배포 데이터 파일이 없거나(최초 설치) 비어 있으면 모든
+// 현재 사유가 "새로 확인 필요"로 간주돼 그대로 뜬다 -- 그래서 최초 상태에서도 39개가 아니라
+// 실제로 사유가 있는 종목(약 3~10개 수준)만 뜬다.
 function pvExceptionQueueData(){
   const out = [];
   if(typeof results === 'undefined') return out;
-  const ack = pvExcAckLoad();
+  const baselineData = (typeof REVIEW_BASELINE_DATA!=='undefined') ? REVIEW_BASELINE_DATA : {};
   for(const t of Object.keys(results)){
     const r = results[t];
     if(!r || r.error) continue;
     let d;
     try{ d = computePriceValidity(r); } catch(e){ continue; }
-    const reasons = pvExceptionReasons(t, r, d).filter(rr=>{
-      const a = ack[pvExcAckKey(t, rr.code)];
-      return !(a && a.label === rr.label); // 같은 문구로 이미 확인했으면 재노출 안 함
-    });
+    const allReasons = pvExceptionReasons(t, r, d);
+    const known = (baselineData[t] && Array.isArray(baselineData[t].signatures)) ? new Set(baselineData[t].signatures) : new Set();
+    const reasons = allReasons.filter(rr => !known.has(rr.signature));
     if(reasons.length){
       out.push({ ticker:t, reasons, priceDate: (r.dataHealth && r.dataHealth.lastDate) || null });
     }
@@ -6201,7 +6237,9 @@ function pvExceptionQueueData(){
   return out;
 }
 
-// 전체 레지스트리 스냅샷(디버깅·내보내기용) -- window.PV_DATA_REGISTRY로 노출
+// 전체 레지스트리 스냅샷(디버깅·내보내기용) -- window.PV_DATA_REGISTRY로 노출. 스키마는 51740과
+// 동일(ticker/metric/value/basis/source/source_date/collected_at/freshness_status/
+// next_review_trigger/comparison_status).
 function pvBuildDataRegistry(){
   const out = [];
   if(typeof results === 'undefined') return out;
@@ -6213,33 +6251,91 @@ function pvBuildDataRegistry(){
   return out;
 }
 
+// [51741] "오늘 기준으로 저장" -- review_baseline_data.js를 새로 내려받는다. 모든 서명(큐에
+// 아직 남아 있는 것 포함, basis_limited는 성격상 애초에 서명을 안 만듦)과 가격/종합 행동
+// 상태(state_change 판정용)를 기록한다. localStorage가 아니라 실제 파일로 저장되므로 다른
+// 브라우저·디바이스에서도 같은 입력값이면 같은 재검토 큐가 나온다 -- 내려받은 파일을 데이터
+// 폴더의 review_baseline_data.js에 덮어써야 다음 스캔부터 반영된다(다른 *_data.js와 동일한
+// 방식 -- 이 카드가 자동으로 디스크에 쓰지는 않음, 브라우저 보안상 불가능).
+function pvExportReviewBaseline(){
+  const out = {};
+  if(typeof results === 'undefined') return out;
+  for(const t of Object.keys(results)){
+    const r = results[t];
+    if(!r || r.error) continue;
+    let d;
+    try{ d = computePriceValidity(r); } catch(e){ continue; }
+    const reasons = pvExceptionReasons(t, r, d);
+    const sigs = reasons.map(rr=>rr.signature);
+    out[t] = { signatures: sigs, _state: { price: d.price, action: pvIntegratedAction(d).label }, _savedAt: new Date().toISOString() };
+  }
+  return out;
+}
+if(typeof window !== 'undefined'){
+  window.pvExportReviewBaseline = pvExportReviewBaseline;
+  window.pvDownloadReviewBaseline = function(){
+    const data = pvExportReviewBaseline();
+    const body = '// review_baseline_data.js -- 51741 재검토 큐 서명 배포 데이터 파일\n'
+      + '// 이 파일을 data 폴더의 review_baseline_data.js에 덮어쓰면, 다음 스캔부터 여기\n'
+      + '// 기록된 서명과 같은 사유는 "이미 확인됨"으로 보고 재검토 큐에서 빠집니다.\n'
+      + '// 생성: ' + new Date().toISOString() + '\n'
+      + 'const REVIEW_BASELINE_DATA = ' + JSON.stringify(data, null, 1) + ';\n';
+    try {
+      const blob = new Blob([body], {type:'text/javascript'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url; a.download = 'review_baseline_data.js';
+      document.body.appendChild(a); a.click(); document.body.removeChild(a);
+      setTimeout(()=>URL.revokeObjectURL(url), 2000);
+    } catch(e){ alert('다운로드 실패: ' + e.message); }
+  };
+}
+
 function renderPriceValidityExceptionQueue(){
   const card = document.getElementById('pvExceptionCard');
   const box = document.getElementById('pvExceptionBox');
   if(!card || !box) return;
   const list = pvExceptionQueueData();
+  const basisLimited = pvBasisLimitedTickers();
   if(typeof window !== 'undefined'){ window.PV_DATA_REGISTRY = pvBuildDataRegistry(); }
-  if(!list.length){ card.style.display='none'; box.innerHTML=''; return; }
+
+  if(!list.length && !basisLimited.length){ card.style.display='none'; box.innerHTML=''; return; }
   card.style.display = 'block';
+
   const rowHtml = (item) => {
-    const reasonsHtml = item.reasons.map(rr=>{
-      const labelEsc = esc(rr.label).replace(/'/g, "&#39;");
-      return `<div style="margin-top:2px;display:flex;justify-content:space-between;align-items:flex-start;gap:8px;">
-        <span>· ${esc(rr.label)}</span>
-        <button type="button" onclick="event.stopPropagation(); window.pvAckException('${esc(item.ticker)}','${esc(rr.code)}','${labelEsc}')" style="flex:none;font-size:10.5px;padding:1px 6px;border-radius:5px;border:1px solid var(--line);background:#fff;color:var(--sub);cursor:pointer;">확인함</button>
-      </div>`;
-    }).join('');
+    const reasonsHtml = item.reasons.map(rr=>`<div style="margin-top:2px;">· ${esc(rr.label)}</div>`).join('');
     return `<div class="fund-row" style="align-items:flex-start;flex-direction:column;cursor:pointer;" onclick="openDetail('${esc(item.ticker)}')">
       <div style="display:flex;justify-content:space-between;width:100%;gap:10px;">
         <b>${esc(item.ticker)}</b>
         <span class="sub">기준일 ${esc(item.priceDate||'—')}</span>
       </div>
-      <div style="font-size:11.5px;color:var(--sub);width:100%;">${reasonsHtml}</div>
+      <div style="font-size:11.5px;color:var(--sub);">${reasonsHtml}</div>
     </div>`;
   };
-  box.innerHTML = `
-    <div class="sub" style="margin-bottom:4px;">이 목록에 없는 종목은 기존 최신 판단을 그대로 유지합니다 — 매번 39종목을 다시 열어보는 대신, 아래 ${list.length}개만 확인하세요. 사유를 확인했으면 "확인함"을 눌러 주세요 — 같은 내용(숫자 변화 없음)은 다시 뜨지 않고, 실제로 바뀌면 자동으로 다시 올라옵니다.</div>
-    ${list.map(rowHtml).join('')}`;
+
+  const queueHtml = list.length
+    ? `<div class="sub" style="margin-bottom:4px;">이 목록에 없는 종목은 기존 최신 판단을 그대로 유지합니다 — 매번 39종목을 다시 열어보는 대신, 아래 ${list.length}개만 확인하세요.</div>
+       ${list.map(rowHtml).join('')}`
+    : `<div class="sub">오늘 새로 확인이 필요한 종목이 없습니다 — 모든 종목이 지난 확인 시점과 같은 상태입니다.</div>`;
+
+  const basisHtml = basisLimited.length
+    ? `<details style="margin-top:10px;">
+         <summary style="cursor:pointer;font-size:12px;color:var(--sub);">상시 비교 기준 제한: ${basisLimited.length}종목 — 가격 판단에는 반영하지 않으며, EPS 교차검증 해석에만 제한이 있습니다. 상세 보기</summary>
+         <div style="margin-top:6px;font-size:11.5px;color:var(--sub);">
+           ${basisLimited.map(b=>`<div style="margin-top:2px;cursor:pointer;" onclick="openDetail('${esc(b.ticker)}')"><b>${esc(b.ticker)}</b> — EPS 연환산 배수 참고값 ${(typeof b.multiple==='number'&&isFinite(b.multiple))?b.multiple.toFixed(1)+'배':'—'}(GAAP 대체, 비GAAP 가이던스 종목과 직접 비교 불가)</div>`).join('')}
+         </div>
+       </details>`
+    : '';
+
+  const exportHtml = `<div style="margin-top:10px;padding-top:8px;border-top:1px solid var(--line);">
+      <button type="button" onclick="event.stopPropagation(); window.pvDownloadReviewBaseline()" style="font-size:11px;padding:4px 10px;border-radius:6px;border:1px solid var(--line);background:#fff;color:var(--sub);cursor:pointer;">오늘 기준으로 저장(review_baseline_data.js 다운로드)</button>
+      <div class="sub" style="margin-top:4px;">오늘 본 재검토 사유를 파일로 저장해 두면, 값이 바뀌지 않는 한 다음 스캔부터 같은 사유로 다시 뜨지 않습니다(브라우저 저장이 아니라 파일 저장 — 다른 기기에서도 이 파일을 쓰면 동일하게 적용됩니다). 다운로드한 파일을 데이터 폴더의 review_baseline_data.js로 덮어써 주세요.</div>
+    </div>`;
+
+  box.innerHTML = queueHtml + basisHtml + exportHtml;
+}
+if(typeof HINTS !== 'undefined'){
+  HINTS.priceValidityExceptionQueue = '39종목을 매번 다시 확인하지 않도록, 오늘 판단이 바뀔 수 있는 종목만 모아 보여주는 카드입니다. 새 공시·컨센서스/EPS 기준일 초과·현금흐름 거부권·모델 교차검증 불일치·가격 판단 전환, 5가지 기준만 사용합니다. 비GAAP 가이던스가 없어 GAAP 실제 EPS로 대체한 종목(EPS 교차검증 "비교 기준 제한")은 종목 수가 많고 매번 참인 데이터 출처 특성이라 이 재검토 큐에는 넣지 않고, 아래 "상시 비교 기준 제한" 접이식 목록에서만 보여줍니다. "오늘 기준으로 저장" 버튼은 오늘 본 사유를 review_baseline_data.js 파일로 내보내며, 이 파일을 데이터 폴더에 반영하면 다음 스캔부터 같은(바뀌지 않은) 사유는 다시 뜨지 않습니다 — 브라우저 localStorage는 쓰지 않습니다. 가격·행동 산식에는 전혀 관여하지 않는 읽기 전용 조회 레이어입니다.';
 }
 
 // ===== 시장 기대 대비 가격 위치 카드 (2026-10-08 신규, v2: 39종목 전수 반영) =====
