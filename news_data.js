@@ -5310,7 +5310,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 105,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "SPY": {
@@ -11998,7 +11998,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "MSFT": {
@@ -19916,7 +19916,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "GOOGL": {
@@ -27702,7 +27702,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "AMZN": {
@@ -35589,7 +35589,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "META": {
@@ -43544,7 +43544,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "AAPL": {
@@ -51518,7 +51518,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "TSLA": {
@@ -59398,7 +59398,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "ORCL": {
@@ -67802,7 +67802,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "CRM": {
@@ -74159,7 +74159,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "PLTR": {
@@ -82844,7 +82844,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "NVDA": {
@@ -90233,11 +90233,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "AMD": {
-    "_last_attempt_at": 1791554402.1141853,
+    "_last_attempt_at": 1791576283.9417253,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -90247,10 +90247,74 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "AMD: The Market Is Not Ready For The Huge Margin Upside",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=c667c0b8b03a04867b217f1ed76f3fb383a64d4ed19e65ef947f692ed2ef8fdf",
-        "datetime": 1791534669,
+        "headline": "Prediction: This Will Be AMD's Stock Price in 1 Year",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6006383a7adb0d5cd91b8b0488fe970ff648d00d7541539edb13a37027e75b63",
+        "datetime": 1791564720,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "예측: 이는 1년 후 AMD의 주가가 될 것입니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool AMD( AMD -2.21% )는 놀라운 2026년을 보냈으며 1월부터 주식 ha",
+            "투자자들은 주식이 좋은 성적을 거두는 것을 보고 싶어하지만 과거의 수익률은 지금은 아무 의미가 없습니다. 중요한 것은 미래에 무슨 일이 일어날 것인가이다.",
+            "그렇다면 1년 후 AMD의 주가는 어떻게 될까요?"
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 50%, 107%, $5.8 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "AMD에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "50%",
+            "107%",
+            "$5.8 billion",
+            "30 times",
+            "0.37%",
+            "0.40%",
+            "32 times",
+            "41 times"
+          ],
+          "sourceExcerpt": [
+            "Prediction: This Will Be AMD's Stock Price in 1 Year | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool AMD ( AMD -2.21% ) has had an incredible 2026, and since January, the stock ha",
+            "Investors love to see a stock do that well, but past returns mean nothing now; all that matters is what's coming in the future.",
+            "So, where will AMD's stock price be a year from now?"
+          ],
+          "analysisUpdatedAt": 1791576290.0051286
+        },
+        "headlineKo": "예측: 이는 1년 후 AMD의 주가가 될 것입니다."
+      },
+      {
+        "headline": "AMD vs. Broadcom: How Much Faster Must AMD’s Cash Flow Grow to Earn Its Premium?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3d77e465ee3cd4a0ba756059f8224cad979ccdaca040777ddc51eb4ddbbedc4b",
+        "datetime": 1791561921,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
@@ -90262,7 +90326,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AMD: The Market Is Not Ready For The Huge Margin Upside",
+            "AMD vs. Broadcom: How Much Faster Must AMD’s Cash Flow Grow to Earn Its Premium?",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -90286,41 +90350,43 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD: The Market Is Not Ready For The Huge Margin Upside' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD vs. Broadcom: How Much Faster Must AMD’s Cash Flow Grow to Earn Its Premium?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 비용·CAPEX·영업현금흐름·FCF·부채 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791554411.1306846
+          "analysisUpdatedAt": 1791576292.3535645
         },
-        "headlineKo": "AMD: 시장은 엄청난 마진 상승을 받아들일 준비가 되어 있지 않습니다"
+        "headlineKo": "AMD 대 Broadcom: 프리미엄을 얻으려면 AMD의 현금 흐름이 얼마나 빨리 증가해야 합니까?"
       },
       {
-        "headline": "How to Play AMD Stock as It Continues to Explore a Foundry Partnership With a Korean Tech Giant",
+        "headline": "Nvidia and AMD Lead the AI Market. 1 Chip Stock Has Far Greater Upside.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d6dd45883baf9c46b1bb2d37644c2b0019643efd7740f6b5d130175f663ba15c",
-        "datetime": 1791515463,
+        "url": "https://finnhub.io/api/news?id=fbe43a1bea22e440611340550499913c019922f20fe293e57cdaf03152924c9a",
+        "datetime": 1791560220,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "medium",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "고객 계약 · 매출 연결 확인",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "경쟁사 수주 · 고객 점유 변화",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "How to Play AMD Stock as It Continues to Explore a Foundry Partnership With a Korean Tech Giant",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "1 칩 주식은 훨씬 더 큰 상승 여력을 가지고 있습니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia(NVDA -0.37%)와 Advanced Micro Devices(AMD -2.21%)는 AI 컴퓨팅 분야에서 가장 큰 두 회사입니다.",
+            "Nvidia는 더 큰 시장 점유율을 차지하고 AI 컴퓨팅 공간을 최초로 장악한 반면, AMD는 최근 몇 달 동안 실행 가능한 경쟁자로 떠올랐습니다."
           ],
           "why": [
-            "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+            "경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다.",
+            "이번 기사에서 확인된 구체적 수치: 200%, 30%, 10% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
+            "경쟁사가 같은 고객에게 납품할 기회를 얻었다는 뜻입니다. 기존 회사 물량을 빼앗은 것인지, 고객이 공급처를 하나 더 늘린 것인지 확인해야 합니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -90331,89 +90397,52 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "계약 금액·기간·취소 조건",
-            "수주잔고와 매출 인식 시점",
-            "관련 사업부 매출총이익률"
+            "신규 공급사의 실제 물량",
+            "기존 공급사 매출 비중",
+            "고객의 이중 공급 전략"
           ],
-          "interpretation": "AMD에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "AMD에 대한 경쟁사 수주 · 고객 점유 변화 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791554412.366857
+          "quality": "medium",
+          "verifiedNumbers": [
+            "200%",
+            "30%",
+            "10%",
+            "117%",
+            "$89 billion",
+            "106%",
+            "$96 billion",
+            "50%"
+          ],
+          "sourceExcerpt": [
+            "1 Chip Stock Has Far Greater Upside.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia ( NVDA -0.37% ) and Advanced Micro Devices ( AMD -2.21% ) are two of the biggest names in AI computing.",
+            "While Nvidia holds a larger market share and was the first to dominate the AI computing space, AMD has emerged as a viable competitor in recent months."
+          ],
+          "analysisUpdatedAt": 1791576295.594831
         },
-        "headlineKo": "한국 거대 기술 기업과 파운드리 파트너십을 계속 모색하면서 AMD 주식을 활용하는 방법"
+        "headlineKo": "Nvidia와 AMD가 AI 시장을 선도합니다. 1 칩 주식은 훨씬 더 큰 상승 여력을 가지고 있습니다."
       },
       {
-        "headline": "AMD CEO delivers stark warning on chip market’s future",
+        "headline": "Advanced Micro Devices’ (AMD) Premium Valuation Puts Execution Under the Microscope",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=dd4e4eee517fc2d9be85a0f25db35c688051272177d74e18221311d5363a8be8",
-        "datetime": 1791507780,
+        "url": "https://finnhub.io/api/news?id=ae753a8785edef4fdea5f2db2d7a7324f62f9a77a3cd044d006633ab4e6a3bb8",
+        "datetime": 1791559487,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "실적·재무 부담 확인 필요",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "AMD CEO delivers stark warning on chip market’s future",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD CEO delivers stark warning on chip market’s future' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791554413.072361
-        },
-        "headlineKo": "AMD CEO, 칩 시장의 미래에 대해 엄중히 경고하다"
+        "headlineKo": "AMD(Advanced Micro Devices)의 프리미엄 가치 평가를 통해 실행을 현미경으로 살펴봅니다."
       },
       {
-        "headline": "Advanced Micro Devices vs. ASML: Which Semiconductor Stock Is a Better Buy in 2026?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8d42f25c2ed44fae3597e64c63defe9bc77ce60ad76e26198e7ef0825841354b",
-        "datetime": 1791502971,
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Advanced Micro Devices vs. ASML: 2026년에는 어느 반도체 주식이 더 나은 매수인가요?"
-      },
-      {
-        "headline": "AMD vs. Intel: Which Chip Stock Has More Upside From Here?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=98020f9bfdb050361c5c8f0c2941350ed505cd932925f96ab5709590d338163e",
-        "datetime": 1791478200,
+        "headline": "AMD: Too Expensive To Be Worth It Despite Unique Position As CPU Leader",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=e31bfeb940d548a39e7f3f346592997bcbd512922d49fce6409a66358e49a43a",
+        "datetime": 1791557156,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "AMD 대 Intel: 어느 칩 주식이 여기서 더 많은 상승 여력을 가지고 있습니까?"
+        "headlineKo": "AMD: CPU 리더라는 독특한 위치에도 불구하고 너무 비싸서 가치가 없습니다"
       },
       {
         "headline": "AMD: The AI Momentum Train Looks Unstoppable, But I'm Pausing Accumulation (Downgrade)",
@@ -90429,6 +90458,199 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Prediction: This Will Be AMD's Stock Price in 1 Year",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6006383a7adb0d5cd91b8b0488fe970ff648d00d7541539edb13a37027e75b63",
+        "datetime": 1791564720,
+        "headlineKo": "예측: 이는 1년 후 AMD의 주가가 될 것입니다.",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "예측: 이는 1년 후 AMD의 주가가 될 것입니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool AMD( AMD -2.21% )는 놀라운 2026년을 보냈으며 1월부터 주식 ha",
+            "투자자들은 주식이 좋은 성적을 거두는 것을 보고 싶어하지만 과거의 수익률은 지금은 아무 의미가 없습니다. 중요한 것은 미래에 무슨 일이 일어날 것인가이다.",
+            "그렇다면 1년 후 AMD의 주가는 어떻게 될까요?"
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 50%, 107%, $5.8 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "AMD에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "50%",
+            "107%",
+            "$5.8 billion",
+            "30 times",
+            "0.37%",
+            "0.40%",
+            "32 times",
+            "41 times"
+          ],
+          "sourceExcerpt": [
+            "Prediction: This Will Be AMD's Stock Price in 1 Year | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool AMD ( AMD -2.21% ) has had an incredible 2026, and since January, the stock ha",
+            "Investors love to see a stock do that well, but past returns mean nothing now; all that matters is what's coming in the future.",
+            "So, where will AMD's stock price be a year from now?"
+          ],
+          "analysisUpdatedAt": 1791576290.0051286
+        }
+      },
+      {
+        "headline": "AMD vs. Broadcom: How Much Faster Must AMD’s Cash Flow Grow to Earn Its Premium?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3d77e465ee3cd4a0ba756059f8224cad979ccdaca040777ddc51eb4ddbbedc4b",
+        "datetime": 1791561921,
+        "headlineKo": "AMD 대 Broadcom: 프리미엄을 얻으려면 AMD의 현금 흐름이 얼마나 빨리 증가해야 합니까?",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AMD vs. Broadcom: How Much Faster Must AMD’s Cash Flow Grow to Earn Its Premium?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD vs. Broadcom: How Much Faster Must AMD’s Cash Flow Grow to Earn Its Premium?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 비용·CAPEX·영업현금흐름·FCF·부채 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791576292.3535645
+        }
+      },
+      {
+        "headline": "Nvidia and AMD Lead the AI Market. 1 Chip Stock Has Far Greater Upside.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=fbe43a1bea22e440611340550499913c019922f20fe293e57cdaf03152924c9a",
+        "datetime": 1791560220,
+        "headlineKo": "Nvidia와 AMD가 AI 시장을 선도합니다. 1 칩 주식은 훨씬 더 큰 상승 여력을 가지고 있습니다.",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "경쟁사 수주 · 고객 점유 변화",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "1 칩 주식은 훨씬 더 큰 상승 여력을 가지고 있습니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia(NVDA -0.37%)와 Advanced Micro Devices(AMD -2.21%)는 AI 컴퓨팅 분야에서 가장 큰 두 회사입니다.",
+            "Nvidia는 더 큰 시장 점유율을 차지하고 AI 컴퓨팅 공간을 최초로 장악한 반면, AMD는 최근 몇 달 동안 실행 가능한 경쟁자로 떠올랐습니다."
+          ],
+          "why": [
+            "경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다.",
+            "이번 기사에서 확인된 구체적 수치: 200%, 30%, 10% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "경쟁사가 같은 고객에게 납품할 기회를 얻었다는 뜻입니다. 기존 회사 물량을 빼앗은 것인지, 고객이 공급처를 하나 더 늘린 것인지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "신규 공급사의 실제 물량",
+            "기존 공급사 매출 비중",
+            "고객의 이중 공급 전략"
+          ],
+          "interpretation": "AMD에 대한 경쟁사 수주 · 고객 점유 변화 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "200%",
+            "30%",
+            "10%",
+            "117%",
+            "$89 billion",
+            "106%",
+            "$96 billion",
+            "50%"
+          ],
+          "sourceExcerpt": [
+            "1 Chip Stock Has Far Greater Upside.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia ( NVDA -0.37% ) and Advanced Micro Devices ( AMD -2.21% ) are two of the biggest names in AI computing.",
+            "While Nvidia holds a larger market share and was the first to dominate the AI computing space, AMD has emerged as a viable competitor in recent months."
+          ],
+          "analysisUpdatedAt": 1791576295.594831
+        }
+      },
+      {
+        "headline": "Advanced Micro Devices’ (AMD) Premium Valuation Puts Execution Under the Microscope",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ae753a8785edef4fdea5f2db2d7a7324f62f9a77a3cd044d006633ab4e6a3bb8",
+        "datetime": 1791559487,
+        "headlineKo": "AMD(Advanced Micro Devices)의 프리미엄 가치 평가를 통해 실행을 현미경으로 살펴봅니다.",
+        "relevance": 1,
+        "keywordFlag": false
+      },
+      {
+        "headline": "AMD: Too Expensive To Be Worth It Despite Unique Position As CPU Leader",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=e31bfeb940d548a39e7f3f346592997bcbd512922d49fce6409a66358e49a43a",
+        "datetime": 1791557156,
+        "headlineKo": "AMD: CPU 리더라는 독특한 위치에도 불구하고 너무 비싸서 가치가 없습니다",
+        "relevance": 1,
+        "keywordFlag": false
+      },
       {
         "headline": "AMD: The Market Is Not Ready For The Huge Margin Upside",
         "source": "SeekingAlpha",
@@ -97980,196 +98202,17 @@ const NEWS_DATA = {
         "headlineKo": "오늘 AAPL, OKTA, AMD 주식이 52주 최고가로 뛰어올랐던 이유는 무엇입니까?",
         "relevance": 1,
         "keywordFlag": false
-      },
-      {
-        "headline": "Advanced Micro Devices (AMD) Stock Moves 1.34%: What You Should Know",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a10bee44bee376c39189d98862160104aa44a02f751796a4c71b220c5d44596d",
-        "datetime": 1790113502,
-        "headlineKo": "AMD(Advanced Micro Devices) 주가 1.34% 변동: 알아야 할 사항",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Advanced Micro Devices (AMD) Stock Moves 1.34%: What You Should Know",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'Advanced Micro Devices (AMD) Stock Moves 1.34%: What You Should Know' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790129585.5021074
-        }
-      },
-      {
-        "headline": "AMD Stock Has Blown Past Nvidia This Year. Is It Still the Better Buy?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5aad699f45e8041b8eff7ec629b21aa21274b5e4adcf4f31b1c78733bd973371",
-        "datetime": 1790108401,
-        "headlineKo": "AMD 주식은 올해 Nvidia를 제치고 상승했습니다. 여전히 구매하는 것이 더 나은가요?",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "주식 희석 · 주당가치 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "AMD 주식은 올해 Nvidia를 제치고 상승했습니다.",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool Advanced Micro Devices( AMD +1.34% )가 올해 주가가 절대 하락세를 보이면서 최근 1조 달러 클럽에 합류했습니다.",
-            "이에 비해 시가총액이 약 5조 5천억 달러에 달하는 오랜 라이벌 엔비디아(NVDA +0.66%)는 23%라는 완만하게 상승했습니다."
-          ],
-          "why": [
-            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.66%, $5.5 trillion, 23% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "신규 주식 수·행사가격",
-            "조달 자금 사용처",
-            "완전희석 주식수와 EPS"
-          ],
-          "interpretation": "AMD에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.66%",
-            "$5.5 trillion",
-            "23%",
-            "170%",
-            "18%",
-            "$11.5 billion",
-            "50%",
-            "41%"
-          ],
-          "sourceExcerpt": [
-            "AMD Stock Has Blown Past Nvidia This Year.",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices ( AMD +1.34% ) recently joined the trillion-dollar club, as the stock has been on an absolute tear this year",
-            "By comparison, longtime rival Nvidia ( NVDA +0.66% ) , which has a market cap of around $5.5 trillion, has risen at a more modest rate of 23%."
-          ],
-          "analysisUpdatedAt": 1790129589.401233
-        }
-      },
-      {
-        "headline": "AMD Stock Just Sent a Huge AI Signal",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0a8e4d9f85eb3886d87d720ed8c87f443770bada2ce1f8dd2ccd85b5c0af282b",
-        "datetime": 1790104075,
-        "headlineKo": "AMD 주식이 거대한 AI 신호를 보냈습니다.",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "AMD Stock Just Sent a Huge AI Signal",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD Stock Just Sent a Huge AI Signal' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790129593.8952324
-        }
-      },
-      {
-        "headline": "Here's How AMD Joined the Rule Breakers $1 Trillion Club",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=782a340c6e3f64d02de5f90d54ec04a8abd13f32cb26aa7458965d6ead032e2e",
-        "datetime": 1790102161,
-        "headlineKo": "AMD가 규칙 위반자 $1 조 클럽에 합류한 방법은 다음과 같습니다.",
-        "relevance": 1,
-        "keywordFlag": false
-      },
-      {
-        "headline": "AMD Stock Just Entered Rarefied Territory",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=70c546de870271bf888ccf8c1b8739d461f06a925a9ede3bf59e52fe4069ed05",
-        "datetime": 1790100256,
-        "headlineKo": "AMD 주식이 희귀 영역에 진입했습니다.",
-        "relevance": 1,
-        "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791554402.1141853,
-    "_updated_label": "2026-10-09 23:00",
-    "_last_success_at": 1791554402.1141853,
+    "_fetched_at": 1791576283.9417253,
+    "_updated_label": "2026-10-10 05:04",
+    "_last_success_at": 1791576283.9417253,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "AVGO": {
@@ -107277,7 +107320,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "QCOM": {
@@ -113973,7 +114016,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 146,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "ARM": {
@@ -118845,7 +118888,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "MRVL": {
@@ -126637,7 +126680,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 170,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "INTC": {
@@ -135046,7 +135089,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "TSM": {
@@ -141083,7 +141126,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "ASML": {
@@ -145276,7 +145319,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "AMAT": {
@@ -149720,7 +149763,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "LRCX": {
@@ -152210,7 +152253,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "KLAC": {
@@ -154505,7 +154548,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "MU": {
@@ -162014,7 +162057,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "SNDK": {
@@ -169615,7 +169658,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 158,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "WDC": {
@@ -174027,7 +174070,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "ANET": {
@@ -177604,7 +177647,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "COHR": {
@@ -180768,7 +180811,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "LITE": {
@@ -184350,7 +184393,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "GEV": {
@@ -189197,7 +189240,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "CEG": {
@@ -193524,7 +193567,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 95,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "VST": {
@@ -196829,7 +196872,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "ETN": {
@@ -199797,7 +199840,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "PWR": {
@@ -202561,7 +202604,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "HUBB": {
@@ -203329,7 +203372,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "VRT": {
@@ -207068,7 +207111,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "MOD": {
@@ -208396,7 +208439,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "STX": {
@@ -212405,7 +212448,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "EME": {
@@ -214168,7 +214211,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "FIX": {
@@ -215762,7 +215805,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   },
   "BE": {
@@ -217905,7 +217948,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-10-10 05:00"
+      "updated": "2026-10-10 05:04"
     }
   }
 };
