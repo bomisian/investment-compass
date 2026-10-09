@@ -5212,7 +5212,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "SPY": {
@@ -11900,7 +11900,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "MSFT": {
@@ -19818,7 +19818,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "GOOGL": {
@@ -27604,7 +27604,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "AMZN": {
@@ -35491,7 +35491,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "META": {
@@ -43446,7 +43446,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "AAPL": {
@@ -43706,58 +43706,6 @@ const NEWS_DATA = {
         "flagTerms": [
           "antitrust"
         ]
-      },
-      {
-        "headline": "Apple (AAPL) Reaches $250 Million Siri Settlement Over Recent iPhone Claims",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a13dd373fa4673a4e560041969465d19d6374a4056217423151d21bd4a1b0658",
-        "datetime": 1790363307,
-        "headlineKo": "Apple(AAPL)은 최근 iPhone 청구에 대해 2억 5천만 달러의 Siri 합의에 도달했습니다.",
-        "relevance": 1.0,
-        "keywordFlag": true,
-        "flagTerms": [
-          "settlement"
-        ],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Apple (AAPL) Reaches $250 Million Siri Settlement Over Recent iPhone Claims",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AAPL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple (AAPL) Reaches $250 Million Siri Settlement Over Recent iPhone Claims' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1.0,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790372463.9994748
-        }
       }
     ],
     "newsHistory": [
@@ -51470,9 +51418,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 190,
+      "checked": 189,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "TSLA": {
@@ -59352,7 +59300,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "ORCL": {
@@ -67756,7 +67704,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "CRM": {
@@ -74113,7 +74061,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "PLTR": {
@@ -82798,7 +82746,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "NVDA": {
@@ -90187,7 +90135,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "AMD": {
@@ -98123,7 +98071,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "AVGO": {
@@ -107231,7 +107179,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "QCOM": {
@@ -113927,7 +113875,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 146,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "ARM": {
@@ -118799,7 +118747,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "MRVL": {
@@ -126591,7 +126539,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 170,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "INTC": {
@@ -135000,7 +134948,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "TSM": {
@@ -141037,7 +140985,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "ASML": {
@@ -145230,7 +145178,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "AMAT": {
@@ -149674,7 +149622,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "LRCX": {
@@ -152164,7 +152112,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "KLAC": {
@@ -154459,7 +154407,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "MU": {
@@ -161968,7 +161916,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "SNDK": {
@@ -169569,7 +169517,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 158,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "WDC": {
@@ -173981,7 +173929,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "ANET": {
@@ -177558,7 +177506,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "COHR": {
@@ -180722,7 +180670,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "LITE": {
@@ -184304,7 +184252,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "GEV": {
@@ -189151,7 +189099,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "CEG": {
@@ -193478,7 +193426,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 95,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "VST": {
@@ -196783,7 +196731,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "ETN": {
@@ -199751,7 +199699,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "PWR": {
@@ -202515,7 +202463,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "HUBB": {
@@ -203283,7 +203231,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "VRT": {
@@ -207022,7 +206970,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "MOD": {
@@ -208350,7 +208298,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "STX": {
@@ -212359,7 +212307,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "EME": {
@@ -214122,7 +214070,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "FIX": {
@@ -215716,7 +215664,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   },
   "BE": {
@@ -217859,7 +217807,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-10-10 04:07"
+      "updated": "2026-10-10 04:33"
     }
   }
 };
