@@ -5365,6 +5365,13 @@ function computePriceValidity(r){
   const eps = (typeof EPS_DATA!=='undefined') ? EPS_DATA[t] : null;
   const me = (typeof MARKET_EXPECTATION_41!=='undefined' && MARKET_EXPECTATION_41.tickers) ? MARKET_EXPECTATION_41.tickers[t] : null;
   const tc = (typeof MARKET_TARGET_CONSENSUS!=='undefined' && MARKET_TARGET_CONSENSUS.tickers) ? MARKET_TARGET_CONSENSUS.tickers[t] : null;
+  // 51736 -- 하락 원인 진단(DOWNTURN_CAUSE_CARDS_V31)의 state는 "신규 접근 중지"/"관찰" 판정을
+  // 이미 내리고 있으므로, 가격 위치가 매력적/적정이어도 이 판정이 최종 행동을 덮어쓴다(아래
+  // pvDowntrendOverride). 새 산식이 아니라 기존 하락 원인 진단 카드의 결과를 재사용하는 것.
+  const dcRaw = (typeof DOWNTURN_CAUSE_CARDS_V31!=='undefined' && DOWNTURN_CAUSE_CARDS_V31 && DOWNTURN_CAUSE_CARDS_V31.tickers) ? DOWNTURN_CAUSE_CARDS_V31.tickers[t] : null;
+  const downturnState = dcRaw ? dcRaw.state : null;
+  const downturnNextCheck = dcRaw ? dcRaw.next_check : null;
+  const downturnSummary = dcRaw ? (dcRaw.summary || (dcRaw.business_premise && dcRaw.business_premise.status) || null) : null;
 
   const today = new Date();
 
@@ -5531,7 +5538,56 @@ function computePriceValidity(r){
     cfVeto, cfVetoCount, cfDetail, fcfWorsen2y, debtHigh, dilution,
     epsDamaged, epsDirection: eps ? eps.direction : null,
     bandTable, eps, fund, tc, me,
+    downturnState, downturnNextCheck, downturnSummary,
   };
+}
+
+// --- 51736 -- 가격 위치와 종합 행동을 분리하고, 하락 원인 진단(신규 접근 중지/관찰)이 있으면
+//     모든 차트 행동보다 우선한다. 가격 공식·103/142 계산은 전혀 건드리지 않고, 이미 계산된
+//     하락 원인 진단 state와 기존 가격/현금흐름/차트 게이트의 "우선순위"만 고정한다. ---
+function pvIntegratedAction(d){
+  // P1: 하락 원인 진단 = 신규 접근 중지 -- 가격이 매력적/적정이어도 최우선
+  if(d.downturnState === '신규 접근 중지'){
+    return {
+      label: '신규 접근 중지',
+      reason: `구조 훼손 우려가 해소되기 전에는 가격이 ${d.price==='가격대 산출 제한'?'제한 구간이어도':'적정/매력적 구간이어도'} 신규 진입·추가 매수를 하지 않습니다${d.downturnSummary?` — ${d.downturnSummary}`:''}.`,
+      recheck: d.downturnNextCheck || '하락 원인 진단의 사업 전제·현금흐름 지표 재확인 시 재평가',
+      tier: 'downturn_stop',
+    };
+  }
+  // P2: 하락 원인 진단 = 관찰 -- 가격이 매력적이어도 분할 검토로 올리지 않음
+  if(typeof d.downturnState === 'string' && d.downturnState.indexOf('관찰')===0){
+    return {
+      label: '관찰',
+      reason: `하락 원인이 아직 확인되지 않아, 가격이 매력적이어도 분할 검토로 올리지 않고 관찰합니다${d.downturnSummary?` — ${d.downturnSummary}`:''}.`,
+      recheck: d.downturnNextCheck || '하락 원인 진단에서 외부·일시 원인 확인 또는 사업 전제 재확인 시 재평가',
+      tier: 'downturn_watch',
+    };
+  }
+  // P3: 가격대 산출 제한 -- 기존 사업·현금흐름·차트 조합 문장 재사용
+  if(d.price === '가격대 산출 제한'){
+    return { label: pvActionShort(d), reason: pvActionSentence(d), recheck: pvChangeConditions(d), tier: 'price_restricted' };
+  }
+  // P4: 현금흐름 거부권 또는 접근 회피 -- 가격 라벨과 무관하게 신규 접근 중지
+  if(d.cashflow === '경계' || d.price === '접근 회피'){
+    return { label: '신규 접근 중지', reason: pvActionSentence(d), recheck: pvChangeConditions(d), tier: 'cf_veto' };
+  }
+  // P5: 가격이 과거 고밴드를 넘어선 경계 구간
+  if(d.price === '경계'){
+    return { label: '신규 접근 중지', reason: pvActionSentence(d), recheck: pvChangeConditions(d), tier: 'price_caution' };
+  }
+  // P6: 차트 기반(기존 로직 그대로) -- 하락 추세/추격 구간/눌림 진입 가능 등
+  if(d.chart === '하락 추세 경계'){
+    return { label: '추세 반전 대기', reason: pvActionSentence(d), recheck: pvChangeConditions(d), tier: 'chart_downtrend' };
+  }
+  if(d.chart === '추격 금지' || d.chart === '반등 확인 대기'){
+    return { label: '눌림 대기', reason: pvActionSentence(d), recheck: pvChangeConditions(d), tier: 'chart_wait' };
+  }
+  if(d.chart === '데이터 부족'){
+    return { label: '확인 대기', reason: pvActionSentence(d), recheck: pvChangeConditions(d), tier: 'chart_nodata' };
+  }
+  // P7: 가격 매력적/적정 + 사업 비(非)약화 + 현금흐름 건전 + 눌림 진입 가능 -- 분할 축적 검토
+  return { label: '분할 축적 검토', reason: pvActionSentence(d), recheck: pvChangeConditions(d), tier: 'accumulate' };
 }
 
 function pvActionSentence(d){
@@ -5669,9 +5725,15 @@ function renderPriceValidityCard(r){
   const seg = (label, val) => `<span style="white-space:nowrap;">${label}: <span style="color:${PV_COLOR[val]||NEU_TEXT};">${esc(val)}</span></span>`;
   const axisLine = `${seg('가격', d.price)}<span style="color:#aab0b9;margin:0 5px;font-weight:400;">·</span>${seg('사업', d.business)}<span style="color:#aab0b9;margin:0 5px;font-weight:400;">·</span>${seg('현금흐름', d.cashflow)}<span style="color:#aab0b9;margin:0 5px;font-weight:400;">·</span>${seg('차트', d.chart)}`;
 
-  const actionShort = pvActionShort(d);
-  const actionLong = pvActionSentence(d);
-  const changeCond = pvChangeConditions(d);
+  // --- 51736 -- 카드 최상단의 가장 큰 문구는 "가격 위치"가 아니라 "종합 행동"으로 고정한다.
+  //     가격이 적정/매력적이어도 하락 원인 진단의 신규 접근 중지·관찰이 있으면 그것이 우선
+  //     행동이다(pvIntegratedAction). 가격 라벨은 보조 사실로 그 아래에 작게 둔다. ---
+  const act = pvIntegratedAction(d);
+  const ACTION_COLOR = {
+    '신규 접근 중지':'#7a3b2e', '관찰':'#7a5c00', '추세 반전 대기':'#7a5c00',
+    '눌림 대기':'#7a5c00', '분할 축적 검토':'#2f5b3c', '확인 대기':'#5b6472',
+  };
+  const actionColor = ACTION_COLOR[act.label] || NEU_TEXT;
   const confidence = pvConfidence(d);
   const priceDate = (r.dataHealth && r.dataHealth.lastDate) ? r.dataHealth.lastDate : null;
   const epsDate = (d.eps && d.eps.updatedAt) ? String(d.eps.updatedAt).slice(0,10) : null;
@@ -5680,33 +5742,30 @@ function renderPriceValidityCard(r){
     ? `신뢰도 ${esc(confidence||'보통')} · 가격 기준일 ${esc(priceDate||'—')}${epsDate?` · EPS 기준일 ${esc(epsDate)}`:''}`
     : `제한 사유: ${esc(d.blockReason||'—')}`;
 
-  const judgeColor = PV_COLOR[d.price] || NEU_TEXT;
-  const judgeHeadline = (d.cashflow === '경계' && (d.price === '매력적' || d.price === '적정'))
+  const priceColor = PV_COLOR[d.price] || NEU_TEXT;
+  const priceHeadline = (d.cashflow === '경계' && (d.price === '매력적' || d.price === '적정'))
     ? `모델 기준 ${esc(d.price)}이나 현금흐름 경계`
     : `모델 기준 ${esc(d.price)}`;
 
-  // --- 가격 위치를 "오늘의 판단" 바로 아래, "오늘의 행동"과 한 화면에서 같이 읽도록 배치(51735 P1).
-  //     가격이 분할 검토 구간이어도 차트·현금흐름이 나쁘면 "그래도 기다려야 한다"가 스크롤 없이
-  //     바로 보여야 한다는 지적 반영 -- 기존 pvPositionSegment 그대로 재사용, 새 임계값 없음. ---
+  // --- 가격 위치 요약(51735 P1 그대로 재사용) -- 이제 "종합 행동" 아래, "가격 위치" 옆에 보조로. ---
   const posSeg = pvPositionSegment(d, r, num);
   const priceLocLine = (d.bandEligible && posSeg)
-    ? `<div style="margin-top:7px;font-size:11.5px;color:${NEU_TEXT};">가격 위치: <b>${esc(posSeg.actionBand)}</b>(${esc(posSeg.posLabel)}) · 기준값 대비 <b>${posSeg.pct>=0?'+':''}${posSeg.pct.toFixed(1)}%</b></div>`
+    ? ` · 기준값 대비 <b>${posSeg.pct>=0?'+':''}${posSeg.pct.toFixed(1)}%</b>(${esc(posSeg.actionBand)})`
     : '';
 
   const conclusionBox = `
     <div style="margin-top:4px;padding:13px 15px;border-radius:10px;border:1.5px solid #3c4552;background:#fff;">
-      <div style="font-size:11px;color:${NEU_DIM};font-weight:700;">오늘의 판단</div>
-      <div style="font-size:15.5px;font-weight:800;color:${judgeColor};margin-top:1px;">${judgeHeadline}</div>
-      <div style="margin-top:3px;font-size:10.5px;color:${NEU_DIM};">${metaBadge}</div>
-      ${priceLocLine}
+      <div style="font-size:11px;color:${NEU_DIM};font-weight:700;">종합 행동</div>
+      <div style="font-size:15.5px;font-weight:800;color:${actionColor};margin-top:1px;">${esc(act.label)}</div>
+      <div style="margin-top:5px;font-size:11.5px;color:${NEU_TEXT};line-height:1.5;">${esc(act.reason)}</div>
 
-      <div style="margin-top:9px;font-size:11px;color:${NEU_DIM};font-weight:700;">오늘의 행동</div>
-      <div style="margin-top:3px;font-size:13.5px;font-weight:800;color:#1b1f27;background:${NEU_BG};border-radius:7px;padding:7px 10px;">${esc(actionShort)}</div>
-      <div style="margin-top:5px;font-size:11.5px;color:${NEU_TEXT};line-height:1.5;">${esc(actionLong)}</div>
+      <div style="margin-top:10px;font-size:11px;color:${NEU_DIM};font-weight:700;">가격 위치</div>
+      <div style="margin-top:2px;font-size:13px;font-weight:800;color:${priceColor};">${priceHeadline}${priceLocLine}</div>
+      <div style="margin-top:3px;font-size:10.5px;color:${NEU_DIM};">${metaBadge}</div>
 
       <div style="margin-top:10px;font-size:12.5px;font-weight:700;color:#1b1f27;">${axisLine}</div>
 
-      <div style="margin-top:9px;font-size:11px;color:${NEU_DIM};line-height:1.55;"><b style="color:${NEU_TEXT};">바뀌는 조건</b> — ${esc(changeCond)}</div>
+      <div style="margin-top:9px;font-size:11px;color:${NEU_DIM};line-height:1.55;"><b style="color:${NEU_TEXT};">재검토 조건</b> — ${esc(act.recheck)}</div>
     </div>`;
 
   // --- 모델 가격대 vs 현재가 위치(가격대 가능 종목만, 결론 바로 아래에서 한 줄로 — 위 요약 라인의
