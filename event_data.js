@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791549532.4853706,
+  "generatedAt": 1791550827.6972206,
   "events": [
     {
       "id": "9cfc3e8881fe50460893",
@@ -5271,6 +5271,69 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
+    },
+    {
+      "id": "b9167543365e3311f297",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "정기 실적 공시",
+      "primaryTicker": "MU",
+      "relatedTickers": [
+        "MU"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "MU SEC Form 10-K filed",
+      "headlineKo": "MU SEC Form 10-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
+        "publishedAt": 1791471600.0,
+        "collectedAt": 1791550802.5517962
+      },
+      "confirmedFacts": [
+        "MU가 2026-10-09에 SEC Form 10-K을 제출했습니다."
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 SEC에 공식 정기보고서를 냈다는 뜻입니다. 기사 숫자보다 이 원문에 적힌 매출·이익·현금흐름을 우선 확인합니다."
+      ],
+      "whyItMatters": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "MU",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "매출·영업이익·OCF·FCF",
+        "가이던스와 위험요인 변화",
+        "일회성 손익·회계정책 변화"
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "6e295b24144d778e5301",
@@ -13072,7 +13135,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000680/tsm-revenue20261008.htm",
         "publishedAt": 1791385200.0,
-        "collectedAt": 1791528438.5113559
+        "collectedAt": 1791550802.5517962
       },
       "confirmedFacts": [
         "TSM가 2026-10-08에 SEC Form 6-K을 제출했습니다."
@@ -17861,87 +17924,6 @@ const EVENT_DATA = {
         "정상화이익과 특이항목",
         "가이던스·OCF·FCF"
       ]
-    },
-    {
-      "id": "19abe792ce249c71ec7f",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "SPY",
-      "relatedTickers": [
-        "CEG",
-        "GOOGL",
-        "MRVL",
-        "MU",
-        "QQQ",
-        "SPY",
-        "WDC"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Google",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "S&P 500 And Nasdaq 100 Soar To Record Highs Amid Rising Bets Of Strong Quarterly Earnings — CEG, LCID, SPCX, MRVL In Focus",
-      "headlineKo": "S&P 500과 Nasdaq 100은 강력한 분기별 수익에 대한 기대가 높아지는 가운데 최고치를 기록했습니다. — CEG, LCID, SPCX, MRVL 집중",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=682fd04d3d7589318662fd1cea2c31cda184b5f97c1ee5bc306840484d4455e9",
-        "publishedAt": 1791326129,
-        "collectedAt": 1791548975.1925468
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "S&P 500과 Nasdaq 100은 강력한 분기 실적에 대한 기대감이 높아지는 가운데 최고치를 기록했습니다. CEG, LCID, SPCX, MRVL In Focus AI 에이전트 동향 뉴스 수익 전체 DIA 0.29% SPY 0.10% QQQ 0.40% 추세 SPCX 2.12% MU 2.18% WDC 1.23% IWM 0.51% ST",
-        "S&P 500과 Nasdaq 100은 분기별 수익이 증가하는 가운데 최고치를 기록했습니다. CEG, LCID, SPCX, MRVL In Focus Constellation Energy는 Google과의 다년간의 원자력 계약에서 Nasdaq 100 지수 중 최고 상승률을 기록했습니다.",
-        "트레이더들이 뉴욕 증권 거래소(NYSE) 폐장 시간 전에 일하고 있습니다. (사진 출처는 JOHANNES EISELE/AFP via Getty Images) Shashank Nayar · Stocktwits 게시일: 2026년 10월 6일 | 오후 6시 35분 EDT 공유 · S&P 500에 우리 추가 종료"
-      ],
-      "marketInterpretation": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.29%, 0.10%, 0.40% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "SPY에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.29%, 0.10%, 0.40% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "SPY",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "목표주가 산식의 EPS",
-        "적용 PER 변화",
-        "회사 공식 가이던스"
-      ]
     }
   ],
   "byTicker": {
@@ -18062,8 +18044,7 @@ const EVENT_DATA = {
       "a8a25aca777cb7dbe191",
       "d18c919449d6b4d7440a",
       "46b70cbaa3dec7315439",
-      "b25f2f4e68704354c888",
-      "19abe792ce249c71ec7f"
+      "b25f2f4e68704354c888"
     ],
     "LRCX": [
       "1e398ce86c136da73221",
@@ -18132,8 +18113,7 @@ const EVENT_DATA = {
       "250b56577648e8b7282e",
       "a8a25aca777cb7dbe191",
       "46b70cbaa3dec7315439",
-      "b25f2f4e68704354c888",
-      "19abe792ce249c71ec7f"
+      "b25f2f4e68704354c888"
     ],
     "LITE": [
       "6c161e37a9906fc7e834",
@@ -18162,6 +18142,7 @@ const EVENT_DATA = {
       "c3654cb40f390a214421",
       "fcb4c776005573035d55",
       "935452b74a90fccc1f3d",
+      "b9167543365e3311f297",
       "8971d58a6ec42312e22f",
       "9afa81f2fd8a198fa09d",
       "9dc00afb916273cc3a7c",
@@ -18198,8 +18179,7 @@ const EVENT_DATA = {
       "b8f26b776fec0b319cb5",
       "b9e97a1b5bca48bc2238",
       "250b56577648e8b7282e",
-      "981a005e7362ba4fbad5",
-      "19abe792ce249c71ec7f"
+      "981a005e7362ba4fbad5"
     ],
     "AMD": [
       "d939363822cc9ee243bc",
@@ -18369,8 +18349,7 @@ const EVENT_DATA = {
       "90c0ff4399f57d39b182",
       "9c3d98db1ed7f9d5e70c",
       "c7000db9579c83ee080e",
-      "b25f2f4e68704354c888",
-      "19abe792ce249c71ec7f"
+      "b25f2f4e68704354c888"
     ],
     "PLTR": [
       "5b2181f5801ef9f34035",
@@ -18408,8 +18387,7 @@ const EVENT_DATA = {
       "062490ec287877913a16",
       "9c3d98db1ed7f9d5e70c",
       "b8f26b776fec0b319cb5",
-      "250b56577648e8b7282e",
-      "19abe792ce249c71ec7f"
+      "250b56577648e8b7282e"
     ],
     "AVGO": [
       "cfb97f702f3eedc267ad",
@@ -18453,8 +18431,7 @@ const EVENT_DATA = {
       "5d479c4839fddbef2578",
       "6dcca3becab40c23c328",
       "a8a25aca777cb7dbe191",
-      "703a452876932cddb88a",
-      "19abe792ce249c71ec7f"
+      "703a452876932cddb88a"
     ],
     "MSFT": [
       "04eee22a6c37cbdff3fb",
@@ -18563,8 +18540,7 @@ const EVENT_DATA = {
       "6dcca3becab40c23c328",
       "a8a25aca777cb7dbe191",
       "703a452876932cddb88a",
-      "b25f2f4e68704354c888",
-      "19abe792ce249c71ec7f"
+      "b25f2f4e68704354c888"
     ],
     "PWR": [
       "626b58bedf592fb47801",
