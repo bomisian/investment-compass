@@ -2,37 +2,37 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1791507529.6894133,
+    "_last_attempt_at": 1791530331.3303413,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Stock Market Today: S&P 500, Dow Jones, Nasdaq 100 Futures Decline as Pentagon Prepares for Potential Military Strikes on Iran — APLD, LEVI, MU in Focus (UPDATED)",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=719d8b75f278d3fadad8cfe7c88a2474191d3dffe3615c331ed5942f875bef00",
-        "datetime": 1791448595,
-        "relevance": 0.67,
+        "headline": "Why Buy-and-Hold Investors Are Switching From QQQ to This Lower-Fee Alternative",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c5b01c1a236768a41c8c725c60dce675c04463a93ee2d5a52465d93ff168fdec",
+        "datetime": 1791500586,
+        "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "high",
+          "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "오늘의 주식 시장: 미 국방부가 잠재적인 Mil을 준비함에 따라 S&P 500, Dow Jones, Nasdaq 100 선물 하락 내 계정 등록 Benzin",
-            "다우존스, S&P 500, 나스닥 100 지수의 선물은 수요일 하락 마감에 이어 하락세를 보이며 목요일에는 주식이 적자로 개장할 것으로 보입니다.",
-            "경제 데이터 측면에서 주간 신규 실업수당 청구 건수는 계절 조정을 기준으로 2,000건 감소한 197,000건으로 10월 1일로 끝나는 주에 기록되었습니다."
+            "매수 후 보유 투자자들이 QQQ에서 수수료가 낮은 대안으로 전환하는 이유 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,793.40 +0.19% Dow Jones 51,364.10 +0.17% Nasdaq 100 30,873.60 +0.21% Russell 2000 2,804.84 +0.28% S&P 500 7,793.40 +0.19% 다우존스 51,364.10 +0.17% 나스닥 100 30,873.60 +0.21% 러셀 2000 2,804.84 +0.",
+            "다음 기여가 QQQ에 도착하기 전에 구조적… 작성자 Ryne Mauck 2026년 10월 8일 오후 7시 3분(ET) 게시 · 3분 읽기 ETF 심사관 데스크."
           ],
           "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 1.16%, 0.40%, $104 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.19%, 0.17%, 0.21% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -43,140 +43,59 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
           ],
-          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
+          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1.0,
           "quality": "medium",
           "verifiedNumbers": [
-            "1.16%",
-            "0.40%",
-            "$104",
-            "80%",
-            "5.32%",
-            "4.79%",
-            "21.6%",
-            "0.70%"
+            "0.19%",
+            "0.17%",
+            "0.21%",
+            "0.28%",
+            "$100,000",
+            "$180",
+            "$150.",
+            "$30"
           ],
           "sourceExcerpt": [
-            "Stock Market Today: S&P 500, Dow Jones, Nasdaq 100 Futures Decline as Pentagon Prepares for Potential Mil - Benzinga SPY 774.26 QQQ 753.10 BTC/USD 82,311.50 −1.16% DIA 507.45 GLD 377.87 TLT 76.84 −0.40% US Sign in Register My Account Benzin",
-            "stocks look set to open in the red on Thursday, with futures of the Dow Jones, S&P 500, and Nasdaq 100 indices falling, following Wednesday’s lower close.",
-            "On the economic data front, weekly initial jobless claims fell by 2,000 to a seasonally adjusted 197,000 for the week ending Oct."
+            "Why Buy-and-Hold Investors Are Switching From QQQ to This Lower-Fee Alternative - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,793.40 +0.19% Dow Jones 51,364.10 +0.17% Nasdaq 100 30,873.60 +0.21% Russell 2000 2,804.84 +0.28% S&P 500 7,793.40 +0.19% Dow Jones 51,364.10 +0.17% Nasdaq 100 30,873.60 +0.21% Russell 2000 2,804.84 +0.",
+            "Before your next contribution lands in QQQ, there is a structural… By Ryne Mauck Published October 8, 2026, 7:03pm ET · 3 min read The ETF Examiner desk."
           ],
-          "analysisUpdatedAt": 1791507534.1787932
+          "analysisUpdatedAt": 1791530336.6427083
         },
-        "headlineKo": "오늘의 주식 시장: 미 국방부가 이란에 대한 잠재적인 군사 공격을 준비함에 따라 S&P 500, 다우 존스, 나스닥 100 선물 하락 — APLD, LEVI, MU 초점(업데이트됨)"
+        "headlineKo": "매수 후 보유 투자자들이 QQQ에서 수수료가 낮은 대안으로 전환하는 이유"
       },
       {
-        "headline": "Jim Cramer Says Oil Surge, Higher Rates Are ‘Convenient Excuses’ To Sell Semis as QQQ, SOXX Drop and Investors Question Data Center Spending",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=695b435703903066939f00c3cb5f5de1d7dee3c89828cd3d026d370de5c2f5e9",
-        "datetime": 1791445352,
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "mixed",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.84%, 0.47%, 0.73%, 5%, $105.21, $92.75,, 5.06%, 4.23%.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Jim Cramer Says Oil Surge, Higher Rates Are ‘Convenient Excuses’ To Sell Semis as QQQ, SOXX Drop and Investors Question Data Center Spending' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: QQQ에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
-          "relevance": 1.0,
-          "quality": "high",
-          "verifiedNumbers": [
-            "0.84%",
-            "0.47%",
-            "0.73%",
-            "5%",
-            "$105.21",
-            "$92.75,",
-            "5.06%",
-            "4.23%"
-          ],
-          "sourceExcerpt": [
-            "Jim Cramer Says Oil Surge, Higher Rates Are ‘Convenient Excuses’ To Sell Semis as QQQ, SOXX Drop and Inve - Benzinga SPY 773.57 QQQ 752.33 BTC/USD 82,577.30 −0.84% DIA 506.64 GLD 377.65 +0.47% TLT 76.58 −0.73% US Sign in Register My Account",
-            "Market Reaction and Data Center Spending CNBC’s host Cramer addressed the market pullback on Thursday, pinpointing the drop in technology stocks as an overreaction to external macroeconomic factors rather than internal sector weakness.",
-            "On X, Cramer stated that “oil/rates convenient excuses to say that data center spend is peaking so sell the semis.” He further noted that the “big gain in oil and concern about higher rates and data center spend combine for a session that s"
-          ],
-          "analysisUpdatedAt": 1791507535.1815069
-        },
-        "headlineKo": "Jim Cramer는 석유 급등, 높은 금리는 QQQ, SOXX 하락으로 세미 제품을 판매하는 '편리한 변명'이며 투자자들은 데이터 센터 지출에 의문을 제기한다고 말했습니다."
-      },
-      {
-        "headline": "S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields — SPCX, AMD, NVDA, MRVL In Focus",
+        "headline": "Nasdaq 100 Ends Lower As Report Of Weaker-Than-Expected OpenAI Revenue Drags Chipmakers — NVDA, DIS, ORCL, SBUX In Focus",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=50352b28347a16ef361adee73323be4f5be5b71231708705135708bc7bebdb49",
-        "datetime": 1791413451,
+        "url": "https://finnhub.io/api/news?id=dc1918cd0feb30add5eacf5d2b3e01797f856a03f979aebef0e228fc128111a6",
+        "datetime": 1791500119,
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "positive",
+          "importance": "medium",
+          "tone": "risk",
           "certainty": "본문 확인 필요",
-          "label": "실적·수요 개선 가능성",
+          "label": "실적 발표 · 본업과 특이항목 분리",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields — SPCX, AMD, NVDA, MRVL In Focus",
+            "Nasdaq 100 Ends Lower As Report Of Weaker-Than-Expected OpenAI Revenue Drags Chipmakers — NVDA, DIS, ORCL, SBUX In Focus",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -186,40 +105,103 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "매출·영업이익 성장",
+            "정상화이익과 특이항목",
+            "가이던스·OCF·FCF"
           ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields — SPCX, AMD, NVDA, MRVL In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "QQQ에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.67,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791507535.9088085
+          "analysisUpdatedAt": 1791530337.7937891
         },
-        "headlineKo": "S&P 500과 Nasdaq 100은 국채 수익률 급증으로 인한 압력으로 사상 최고치에서 하락 — SPCX, AMD, NVDA, MRVL 집중"
+        "headlineKo": "Nasdaq 100은 예상보다 약한 OpenAI 수익이 칩 제조업체를 끌고 있다는 보고로 하락 마감 - NVDA, DIS, ORCL, SBUX 집중"
       },
       {
-        "headline": "JEPQ Trailed the Nasdaq-100 by $17,970 on $300,000 Over One Year. The Covered Calls Are Why",
+        "headline": "MSFT, ORCL, NVDA, QQQ In Focus: OpenAI’s Annualized Revenue Reportedly Trails Prior Expectations By $20B",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0a588b8ba93eac54b44d232e71309b7be67a822e0a57556ac651ca0f23be280e",
-        "datetime": 1791412396,
-        "relevance": 0.67,
+        "url": "https://finnhub.io/api/news?id=d335cd5884c9a8b6781e302123b1ea8b4f338c3bfc5cd122bfd5a9cb870a7bc7",
+        "datetime": 1791486101,
+        "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "JEPQ는 1년 동안 $300,000에 $17,970로 Nasdaq-100을 추격했습니다. 커버드콜이 필요한 이유"
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "경쟁사 수주 · 고객 점유 변화",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "MSFT, ORCL, NVDA, QQQ 초점: OpenAI의 연간 수익은 200억 달러로 사전 기대치를 추월하는 것으로 보고됨 AI 에이전트 동향 뉴스 수익 전체 DIA 0.11% SPY 0.33% QQQ 0.85% 추세 ASTS 2.69% SPCX 3.69% AAPL 0.83% VZ 4.19% ADA 5.40% STRK 43.",
+            "MSFT, ORCL, NVDA, QQQ 초점: OpenAI의 연간 수익은 200억 달러로 이전 기대치를 추월한 것으로 보고됨 OpenAI의 최신 투자자 공개에 따르면 9월에 연간 수익이 거의 500억 달러에 달해 상당히 부족했습니다.",
+            "Open AI CEO인 Sam Altman이 2026년 9월 29일 캘리포니아주 샌프란시스코에서 열린 OpenAI 개발자 컨퍼런스에서 기조연설을 하기 전 인터뷰를 하고 있습니다."
+          ],
+          "why": [
+            "경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다.",
+            "이번 기사에서 확인된 구체적 수치: $20, 0.11%, 0.33% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "경쟁사가 같은 고객에게 납품할 기회를 얻었다는 뜻입니다. 기존 회사 물량을 빼앗은 것인지, 고객이 공급처를 하나 더 늘린 것인지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "신규 공급사의 실제 물량",
+            "기존 공급사 매출 비중",
+            "고객의 이중 공급 전략"
+          ],
+          "interpretation": "QQQ에 대한 경쟁사 수주 · 고객 점유 변화 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1.0,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$20",
+            "0.11%",
+            "0.33%",
+            "0.85%",
+            "2.69%",
+            "3.69%",
+            "0.83%",
+            "4.19%"
+          ],
+          "sourceExcerpt": [
+            "MSFT, ORCL, NVDA, QQQ In Focus: OpenAI’s Annualized Revenue Reportedly Trails Prior Expectations By $20B AI Agent Trending News Earnings All DIA 0.11% SPY 0.33% QQQ 0.85% Trending ASTS 2.69% SPCX 3.69% AAPL 0.83% VZ 4.19% ADA 5.40% STRK 43.",
+            "MSFT, ORCL, NVDA, QQQ In Focus: OpenAI’s Annualized Revenue Reportedly Trails Prior Expectations By $20B OpenAI's latest investor disclosures reveal its annualized revenue reached nearly $50 billion in September, falling substantially short",
+            "Open AI CEO Sam Altman does an interview before delivering the keynote address at the OpenAI developers conference on September 29, 2026 in San Francisco, California."
+          ],
+          "analysisUpdatedAt": 1791530341.3245888
+        },
+        "headlineKo": "MSFT, ORCL, NVDA, QQQ 초점: OpenAI의 연간 수익이 이전 기대치를 200억 달러 앞선 것으로 보고됨"
       },
       {
-        "headline": "Stock Market Today: S&P 500, Dow, Nasdaq Futures Fall as 30-Year Treasury Yield Hits 2002 High; Iran Mocks US Economy — STZ, PENG, LEVI in Focus (UPDATED)",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=f7e5334fb9b7ea65ef0602af6196b0a1b9a6dc2d0a8dc4a1aafe331338fa0785",
-        "datetime": 1791362205,
+        "headline": "ETFs to Benefit as Nasdaq's Breakthrough Still Matters",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=95c0b2896065beaa3b25886268460639ae55f1d23a56e299f8970b0dc94daf2a",
+        "datetime": 1791464640,
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "오늘의 주식 시장: 30년 만기 국채 수익률이 2002년 최고치를 기록하면서 S&P 500, 다우, 나스닥 선물 하락; 이란은 미국 경제를 조롱합니다 — STZ, PENG, LEVI 초점 (업데이트됨)"
+        "headlineKo": "나스닥의 돌파구가 여전히 중요하기 때문에 ETF가 혜택을 받을 수 있습니다."
+      },
+      {
+        "headline": "Stock Market Today: S&P 500, Dow Jones, Nasdaq 100 Futures Decline as Pentagon Prepares for Potential Military Strikes on Iran — APLD, LEVI, MU in Focus (UPDATED)",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=719d8b75f278d3fadad8cfe7c88a2474191d3dffe3615c331ed5942f875bef00",
+        "datetime": 1791448595,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "오늘의 주식 시장: 미 국방부가 이란에 대한 잠재적인 군사 공격을 준비함에 따라 S&P 500, 다우 존스, 나스닥 100 선물 하락 — APLD, LEVI, MU 초점(업데이트됨)"
       },
       {
         "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Gains as Trump Dismisses Iran Sanction Relief as 'Hoax'— Nvidia, AAR, Vail Resorts in Focus (UPDATED)",
@@ -340,6 +322,189 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Why Buy-and-Hold Investors Are Switching From QQQ to This Lower-Fee Alternative",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c5b01c1a236768a41c8c725c60dce675c04463a93ee2d5a52465d93ff168fdec",
+        "datetime": 1791500586,
+        "headlineKo": "매수 후 보유 투자자들이 QQQ에서 수수료가 낮은 대안으로 전환하는 이유",
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "매수 후 보유 투자자들이 QQQ에서 수수료가 낮은 대안으로 전환하는 이유 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,793.40 +0.19% Dow Jones 51,364.10 +0.17% Nasdaq 100 30,873.60 +0.21% Russell 2000 2,804.84 +0.28% S&P 500 7,793.40 +0.19% 다우존스 51,364.10 +0.17% 나스닥 100 30,873.60 +0.21% 러셀 2000 2,804.84 +0.",
+            "다음 기여가 QQQ에 도착하기 전에 구조적… 작성자 Ryne Mauck 2026년 10월 8일 오후 7시 3분(ET) 게시 · 3분 읽기 ETF 심사관 데스크."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.19%, 0.17%, 0.21% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1.0,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.19%",
+            "0.17%",
+            "0.21%",
+            "0.28%",
+            "$100,000",
+            "$180",
+            "$150.",
+            "$30"
+          ],
+          "sourceExcerpt": [
+            "Why Buy-and-Hold Investors Are Switching From QQQ to This Lower-Fee Alternative - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,793.40 +0.19% Dow Jones 51,364.10 +0.17% Nasdaq 100 30,873.60 +0.21% Russell 2000 2,804.84 +0.28% S&P 500 7,793.40 +0.19% Dow Jones 51,364.10 +0.17% Nasdaq 100 30,873.60 +0.21% Russell 2000 2,804.84 +0.",
+            "Before your next contribution lands in QQQ, there is a structural… By Ryne Mauck Published October 8, 2026, 7:03pm ET · 3 min read The ETF Examiner desk."
+          ],
+          "analysisUpdatedAt": 1791530336.6427083
+        }
+      },
+      {
+        "headline": "Nasdaq 100 Ends Lower As Report Of Weaker-Than-Expected OpenAI Revenue Drags Chipmakers — NVDA, DIS, ORCL, SBUX In Focus",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=dc1918cd0feb30add5eacf5d2b3e01797f856a03f979aebef0e228fc128111a6",
+        "datetime": 1791500119,
+        "headlineKo": "Nasdaq 100은 예상보다 약한 OpenAI 수익이 칩 제조업체를 끌고 있다는 보고로 하락 마감 - NVDA, DIS, ORCL, SBUX 집중",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "실적 발표 · 본업과 특이항목 분리",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nasdaq 100 Ends Lower As Report Of Weaker-Than-Expected OpenAI Revenue Drags Chipmakers — NVDA, DIS, ORCL, SBUX In Focus",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "매출·영업이익 성장",
+            "정상화이익과 특이항목",
+            "가이던스·OCF·FCF"
+          ],
+          "interpretation": "QQQ에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791530337.7937891
+        }
+      },
+      {
+        "headline": "MSFT, ORCL, NVDA, QQQ In Focus: OpenAI’s Annualized Revenue Reportedly Trails Prior Expectations By $20B",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d335cd5884c9a8b6781e302123b1ea8b4f338c3bfc5cd122bfd5a9cb870a7bc7",
+        "datetime": 1791486101,
+        "headlineKo": "MSFT, ORCL, NVDA, QQQ 초점: OpenAI의 연간 수익이 이전 기대치를 200억 달러 앞선 것으로 보고됨",
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "경쟁사 수주 · 고객 점유 변화",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "MSFT, ORCL, NVDA, QQQ 초점: OpenAI의 연간 수익은 200억 달러로 사전 기대치를 추월하는 것으로 보고됨 AI 에이전트 동향 뉴스 수익 전체 DIA 0.11% SPY 0.33% QQQ 0.85% 추세 ASTS 2.69% SPCX 3.69% AAPL 0.83% VZ 4.19% ADA 5.40% STRK 43.",
+            "MSFT, ORCL, NVDA, QQQ 초점: OpenAI의 연간 수익은 200억 달러로 이전 기대치를 추월한 것으로 보고됨 OpenAI의 최신 투자자 공개에 따르면 9월에 연간 수익이 거의 500억 달러에 달해 상당히 부족했습니다.",
+            "Open AI CEO인 Sam Altman이 2026년 9월 29일 캘리포니아주 샌프란시스코에서 열린 OpenAI 개발자 컨퍼런스에서 기조연설을 하기 전 인터뷰를 하고 있습니다."
+          ],
+          "why": [
+            "경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다.",
+            "이번 기사에서 확인된 구체적 수치: $20, 0.11%, 0.33% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "경쟁사가 같은 고객에게 납품할 기회를 얻었다는 뜻입니다. 기존 회사 물량을 빼앗은 것인지, 고객이 공급처를 하나 더 늘린 것인지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "신규 공급사의 실제 물량",
+            "기존 공급사 매출 비중",
+            "고객의 이중 공급 전략"
+          ],
+          "interpretation": "QQQ에 대한 경쟁사 수주 · 고객 점유 변화 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1.0,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$20",
+            "0.11%",
+            "0.33%",
+            "0.85%",
+            "2.69%",
+            "3.69%",
+            "0.83%",
+            "4.19%"
+          ],
+          "sourceExcerpt": [
+            "MSFT, ORCL, NVDA, QQQ In Focus: OpenAI’s Annualized Revenue Reportedly Trails Prior Expectations By $20B AI Agent Trending News Earnings All DIA 0.11% SPY 0.33% QQQ 0.85% Trending ASTS 2.69% SPCX 3.69% AAPL 0.83% VZ 4.19% ADA 5.40% STRK 43.",
+            "MSFT, ORCL, NVDA, QQQ In Focus: OpenAI’s Annualized Revenue Reportedly Trails Prior Expectations By $20B OpenAI's latest investor disclosures reveal its annualized revenue reached nearly $50 billion in September, falling substantially short",
+            "Open AI CEO Sam Altman does an interview before delivering the keynote address at the OpenAI developers conference on September 29, 2026 in San Francisco, California."
+          ],
+          "analysisUpdatedAt": 1791530341.3245888
+        }
+      },
+      {
+        "headline": "ETFs to Benefit as Nasdaq's Breakthrough Still Matters",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=95c0b2896065beaa3b25886268460639ae55f1d23a56e299f8970b0dc94daf2a",
+        "datetime": 1791464640,
+        "headlineKo": "나스닥의 돌파구가 여전히 중요하기 때문에 ETF가 혜택을 받을 수 있습니다.",
+        "relevance": 0.67,
+        "keywordFlag": false
+      },
       {
         "headline": "Stock Market Today: S&P 500, Dow Jones, Nasdaq 100 Futures Decline as Pentagon Prepares for Potential Military Strikes on Iran — APLD, LEVI, MU in Focus (UPDATED)",
         "source": "Benzinga",
@@ -5009,15 +5174,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791507529.6894133,
-    "_updated_label": "2026-10-09 09:58",
-    "_last_success_at": 1791507529.6894133,
+    "_fetched_at": 1791530331.3303413,
+    "_updated_label": "2026-10-09 16:19",
+    "_last_success_at": 1791530331.3303413,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 99,
+      "checked": 103,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "SPY": {
@@ -11517,7 +11682,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 131,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "MSFT": {
@@ -19483,7 +19648,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "GOOGL": {
@@ -27312,7 +27477,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "AMZN": {
@@ -35303,7 +35468,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "META": {
@@ -43264,7 +43429,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "AAPL": {
@@ -51325,7 +51490,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "TSLA": {
@@ -59216,7 +59381,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "ORCL": {
@@ -67605,7 +67770,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "CRM": {
@@ -73878,7 +74043,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "PLTR": {
@@ -82422,7 +82587,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "NVDA": {
@@ -89802,11 +89967,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "AMD": {
-    "_last_attempt_at": 1791507529.6894133,
+    "_last_attempt_at": 1791530331.3303413,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -89815,6 +89980,56 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "AMD CEO delivers stark warning on chip market’s future",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=dd4e4eee517fc2d9be85a0f25db35c688051272177d74e18221311d5363a8be8",
+        "datetime": 1791507780,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AMD CEO delivers stark warning on chip market’s future",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD CEO delivers stark warning on chip market’s future' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791530348.1646414
+        },
+        "headlineKo": "AMD CEO, 칩 시장의 미래에 대해 엄중히 경고하다"
+      },
       {
         "headline": "Advanced Micro Devices vs. ASML: Which Semiconductor Stock Is a Better Buy in 2026?",
         "source": "Yahoo",
@@ -89875,7 +90090,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The semiconductor landscape is shifting as artificial intelligence requires more powerful hardware.",
             "Choosing between Advanced Micro Devices ( AMD -3.90% ) and ASML ( ASML -1.95% ) means deciding between a chip designer and the equipment maker powering the entire industry."
           ],
-          "analysisUpdatedAt": 1791507542.8838966
+          "analysisUpdatedAt": 1791530350.658727
         },
         "headlineKo": "Advanced Micro Devices vs. ASML: 2026년에는 어느 반도체 주식이 더 나은 매수인가요?"
       },
@@ -89929,7 +90144,7 @@ const NEWS_DATA = {
             "211%",
             "3.90 %",
             "$ 620.68",
-            "$1.1",
+            "$1.0",
             "$ 613.34",
             "$ 643.85",
             "$ 188.22"
@@ -89939,7 +90154,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices ( AMD -3.90% ) and Intel ( INTC -5.34% ) have helped fuel the ongoing artificial intelligence (AI) revolutio",
             "Both companies have been handsomely rewarded for their work."
           ],
-          "analysisUpdatedAt": 1791507545.4982538
+          "analysisUpdatedAt": 1791530353.2836587
         },
         "headlineKo": "AMD 대 Intel: 어느 칩 주식이 여기서 더 많은 상승 여력을 가지고 있습니까?"
       },
@@ -89951,15 +90166,49 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "Meta Muse는 AMD와 Intel 투자자에게 환호할 이유를 제공합니다."
+      },
+      {
+        "headline": "Is AMD Stock Paying You Enough For The Swings?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=db73bbe8f441454d905612856364abd366656fb69903e553f28df6ae7fbc39d9",
+        "datetime": 1791469969,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "AMD 주식은 귀하에게 스윙에 대한 충분한 비용을 지불하고 있습니까?"
+      },
+      {
+        "headline": "AMD: The AI Momentum Train Looks Unstoppable, But I'm Pausing Accumulation (Downgrade)",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=fa60dc991ccebbe8b01665afa1786a3583d26267d739bcd26b4592410ddb4e5b",
+        "datetime": 1790587841,
+        "headlineKo": "AMD: AI Momentum Train은 멈출 수 없을 것 같지만 축적을 일시 중지하고 있습니다(다운그레이드)",
+        "relevance": 1,
+        "keywordFlag": true,
+        "flagTerms": [
+          "downgrade"
+        ]
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "AMD CEO delivers stark warning on chip market’s future",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=dd4e4eee517fc2d9be85a0f25db35c688051272177d74e18221311d5363a8be8",
+        "datetime": 1791507780,
+        "headlineKo": "AMD CEO, 칩 시장의 미래에 대해 엄중히 경고하다",
+        "relevance": 1,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "low",
-          "tone": "neutral",
+          "tone": "risk",
           "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Meta Muse gives AMD and Intel investors a reason to cheer",
+            "AMD CEO delivers stark warning on chip market’s future",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -89983,50 +90232,15 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'Meta Muse gives AMD and Intel investors a reason to cheer' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD CEO delivers stark warning on chip market’s future' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791507546.2150042
-        },
-        "headlineKo": "Meta Muse는 AMD와 Intel 투자자에게 환호할 이유를 제공합니다."
+          "analysisUpdatedAt": 1791530348.1646414
+        }
       },
-      {
-        "headline": "Is AMD Stock Paying You Enough For The Swings?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=db73bbe8f441454d905612856364abd366656fb69903e553f28df6ae7fbc39d9",
-        "datetime": 1791469969,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "AMD 주식은 귀하에게 스윙에 대한 충분한 비용을 지불하고 있습니까?"
-      },
-      {
-        "headline": "Intel Slides 3% as Chip Stocks Sell Off With Yields and Oil Higher; NVIDIA and AMD Slip",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=852272da0a4e7b4b5cfacf539a6f04047fa8a06faa2a88a24f0156ef38d4f717",
-        "datetime": 1791468343,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "인텔은 칩 재고가 수율과 석유 증가로 인해 매도되면서 3% 하락했습니다. NVIDIA와 AMD 슬립"
-      },
-      {
-        "headline": "AMD: The AI Momentum Train Looks Unstoppable, But I'm Pausing Accumulation (Downgrade)",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=fa60dc991ccebbe8b01665afa1786a3583d26267d739bcd26b4592410ddb4e5b",
-        "datetime": 1790587841,
-        "headlineKo": "AMD: AI Momentum Train은 멈출 수 없을 것 같지만 축적을 일시 중지하고 있습니다(다운그레이드)",
-        "relevance": 1,
-        "keywordFlag": true,
-        "flagTerms": [
-          "downgrade"
-        ]
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Advanced Micro Devices vs. ASML: Which Semiconductor Stock Is a Better Buy in 2026?",
         "source": "Yahoo",
@@ -90087,7 +90301,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The semiconductor landscape is shifting as artificial intelligence requires more powerful hardware.",
             "Choosing between Advanced Micro Devices ( AMD -3.90% ) and ASML ( ASML -1.95% ) means deciding between a chip designer and the equipment maker powering the entire industry."
           ],
-          "analysisUpdatedAt": 1791507542.8838966
+          "analysisUpdatedAt": 1791530350.658727
         }
       },
       {
@@ -90140,7 +90354,7 @@ const NEWS_DATA = {
             "211%",
             "3.90 %",
             "$ 620.68",
-            "$1.1",
+            "$1.0",
             "$ 613.34",
             "$ 643.85",
             "$ 188.22"
@@ -90150,7 +90364,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices ( AMD -3.90% ) and Intel ( INTC -5.34% ) have helped fuel the ongoing artificial intelligence (AI) revolutio",
             "Both companies have been handsomely rewarded for their work."
           ],
-          "analysisUpdatedAt": 1791507545.4982538
+          "analysisUpdatedAt": 1791530353.2836587
         }
       },
       {
@@ -97723,66 +97937,17 @@ const NEWS_DATA = {
           ],
           "analysisUpdatedAt": 1790107323.1310332
         }
-      },
-      {
-        "headline": "AMD Holds Flat After Joining the $1 Trillion Club",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=aca6c48f552a9639261e81be80a0412603bfc4bf03ae4c09439c566d0035c8ce",
-        "datetime": 1790092560,
-        "headlineKo": "AMD는 1조 달러 클럽에 가입한 후 동결 상태를 유지합니다.",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "AMD Holds Flat After Joining the $1 Trillion Club",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD Holds Flat After Joining the $1 Trillion Club' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790107325.2449675
-        }
       }
     ],
-    "_fetched_at": 1791507529.6894133,
-    "_updated_label": "2026-10-09 09:59",
-    "_last_success_at": 1791507529.6894133,
+    "_fetched_at": 1791530331.3303413,
+    "_updated_label": "2026-10-09 16:19",
+    "_last_success_at": 1791530331.3303413,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "AVGO": {
@@ -106750,7 +106915,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 184,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "QCOM": {
@@ -113267,7 +113432,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 143,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "ARM": {
@@ -118026,7 +118191,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "MRVL": {
@@ -125612,7 +125777,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 165,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "INTC": {
@@ -133959,7 +134124,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "TSM": {
@@ -139996,7 +140161,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "ASML": {
@@ -144023,7 +144188,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "AMAT": {
@@ -148400,7 +148565,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "LRCX": {
@@ -150733,7 +150898,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "KLAC": {
@@ -153028,7 +153193,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "MU": {
@@ -160539,7 +160704,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "SNDK": {
@@ -167987,7 +168152,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 154,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "WDC": {
@@ -172399,7 +172564,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "ANET": {
@@ -175807,7 +175972,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "COHR": {
@@ -178780,7 +178945,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "LITE": {
@@ -182010,7 +182175,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "GEV": {
@@ -186810,7 +186975,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "CEG": {
@@ -191012,7 +191177,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "VST": {
@@ -194220,7 +194385,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "ETN": {
@@ -197104,7 +197269,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "PWR": {
@@ -199722,7 +199887,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "HUBB": {
@@ -200490,7 +200655,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "VRT": {
@@ -204218,7 +204383,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "MOD": {
@@ -205546,7 +205711,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "STX": {
@@ -209471,7 +209636,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "EME": {
@@ -211175,7 +211340,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "FIX": {
@@ -212720,7 +212885,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   },
   "BE": {
@@ -214814,7 +214979,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-09 15:16"
+      "updated": "2026-10-09 16:19"
     }
   }
 };
