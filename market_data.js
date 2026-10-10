@@ -241,7 +241,7 @@ const MARKET_DATA = {
       "summary": "Wall Street posts weekly gains with earnings, inflation data on tap Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0hWbFNBUlE5SFJjLVpMMnIwZzFpN2hVNEd2YkxlalYyVDRKTDZxcGJ0REJLUERXb0tlVVVreVZLMHFodlAtZlY0eDhuN2xiOHcybjM1c3gxMlBNTmZMWWdrdkhQOG9Pc2JRdTEwYXM5N181QmttRVEyRkdXTy1LT2J0ZVA4d2FXdjZZeGZwaGRaSUtDUXJUZXFjSU94cnprbTVUSXRpXzFtQzV2TWtpR1dNSjdaWVplUlE?oc=5",
-      "datetime": 1791579796,
+      "datetime": 1791588780,
       "headlineKo": "월스트리트는 수입, 인플레이션 데이터와 함께 주간 이익을 게시합니다 - Reuters",
       "summaryKo": "월스트리트는 수입, 인플레이션 데이터를 통해 주간 이익을 게시합니다. Reuters"
     },
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791590411.7754915,
+  "_news_last_success_at": 1791595224.88468,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791590404.332001,
-  "_updated_label": "2026-10-10 09:00",
-  "_last_attempt_at": 1791590404.332001,
-  "_last_success_at": 1791590404.332001,
+  "_fetched_at": 1791595211.9436877,
+  "_updated_label": "2026-10-10 10:20",
+  "_last_attempt_at": 1791595211.9436877,
+  "_last_success_at": 1791595211.9436877,
   "_collection_status": "ok",
   "_collection_errors": []
 };

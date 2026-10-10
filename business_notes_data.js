@@ -4663,6 +4663,44 @@ const BUSINESS_NOTES = {
         ],
       },
 
+      {
+        date: "2026-10-08",
+        headline: "아마존, 스토어·고객서비스 부문 등에서 화이트칼라 1,000명 미만 감원 - 미국·인도·영국 동시 통지",
+        importance: "medium",
+        tone: "mixed",
+        horizon: "단기: 개별 규모는 작아 3분기 실적에 미치는 재무적 영향은 제한적 / 중기: 2025년 이후 누적 약 3만명 감원 흐름이 꺾이지 않고 있다는 신호로 AI 투자 확대와 맞물려 지속 관찰 필요",
+        facts: [
+          "로이터·Business Insider 보도에 따르면 아마존이 미국·인도·영국에서 화이트칼라 직원 1,000명 미만을 감원했고, 직원들은 10월 6일(화) 이메일로 통지받았다.",
+          "감원은 아마존 온라인쇼핑몰을 운영하는 '스토어(Stores)' 부문이 가장 크게 영향을 받았고, 고객서비스·셀링파트너서비스(판매자 지원)·마켓플레이스 지원·일부 엔지니어링 조직도 포함됐다(내부 슬랙 메시지 기준).",
+          "아마존 대변인은 로이터에 '스토어 사업 조직 일부를 조정했다'며 새 구조가 우선순위 달성에 도움이 될 것이라고 밝혔고, 공식적으로는 '소수의 역할(a small number of roles)'을 없앴다고 표현했다.",
+          "통지 시점이 인도의 '그레이트 인디언 페스티벌'(10/8 시작)과 글로벌 '프라임 빅딜 데이즈'(10/6 시작) 등 핵심 쇼핑 성수기 전후와 겹쳤다.",
+          "이번 감원은 2025년부터 이어진 누적 약 3만명 규모 감원(8/13 항목)의 연장선으로, 아마존은 같은 기간 AI 인프라에 최대 2,200억 달러를 투자할 계획도 밝힌 상태다.",
+          "약 3만7천명이 속한 사내 슬랙 채널에서는 퇴직금·통지 기간·AWS·AI 조직 내 재배치 가능성에 대한 질문이 이어졌고, 일부는 감원이 멕시코·유럽으로 확대될지 문의했다.",
+          "제프 베저스는 최근 이 감원 흐름을 팬데믹 시기 급격한 채용 확대에 대한 조정이라고 설명했고, AI가 추가 대량 실업을 야기할 것이란 전망에는 동의하지 않는다는 입장을 밝혔다."
+        ],
+        why: [
+          "숫자 자체(1,000명 미만)는 아마존 전체 인력(150만명+) 대비 작지만, 올해 누적 3만명 감원에 또 한 차례를 더하는 '패턴의 연속'이라는 점이 중요하다 - 비용관리 기조가 꺾이지 않았다는 신호.",
+          "스토어·고객서비스 등 핵심 소매 운영 조직까지 감원 대상에 포함된 것은 AI 투자 확대(최대 $220B)와 소매 인력 축소가 동시에 진행되는 '자원 재배치' 흐름을 재확인시켜준다.",
+          "감원 발표 타이밍이 핵심 쇼핑 성수기(프라임 빅딜 데이즈)와 겹쳐, 매출 호조에도 비용 절감을 멈추지 않는다는 경영진의 메시지로 해석될 수 있다."
+        ],
+        beginner: [
+          "아마존이 미국·인도·영국에서 1,000명도 안 되는 화이트칼라(사무직) 직원을 감원했어요. 쇼핑몰을 운영하는 '스토어' 부서와 고객센터 쪽이 많이 영향을 받았어요.",
+          "이번 감원은 작년부터 이어진 약 3만명 규모 감원의 연속편이에요. 동시에 아마존은 AI에 쓸 돈은 계속 늘리고 있어서, 사람은 줄이고 AI에는 돈을 더 쓰는 흐름이 계속되고 있다고 볼 수 있어요.",
+          "숫자만 보면 작아 보이지만, 큰 세일 기간(프라임 빅딜 데이즈) 바로 앞뒤로 또 감원 소식이 나왔다는 게 투자자들에게는 비용관리를 계속한다는 신호로 읽혀요."
+        ],
+        interpretation: "이번 감원은 규모만 보면 아마존 전체에 미치는 재무적 영향이 크지 않지만, 2025년부터 이어진 약 3만명 누적 감원 흐름이 2026년 10월에도 계속되고 있다는 점에서 의미가 있다. 동시에 아마존이 AI 인프라에 최대 2,200억 달러를 투자하겠다고 밝힌 상태라, '전통 소매 인력은 줄이고 AI·클라우드에는 계속 투자한다'는 자원 재배치 기조가 재확인된다. 다만 핵심 쇼핑 성수기와 겹친 타이밍은 공교로운 것일 수도 있어 과도한 해석은 경계할 필요가 있다.",
+        decision: "개별 사건으로는 임팩트가 작아 당장 포지션을 바꿀 사안은 아니며, 10월 말~11월 예정된 3분기 실적에서 스토어 부문 인건비·마진 추이를 함께 확인하는 선에서 관망.",
+        watch: [
+          "10월 말~11월 예정 AMZN 3분기 실적 발표에서 스토어 부문 영업마진·인건비 변화",
+          "추가 감원이 멕시코·유럽 등 다른 지역으로 확대되는지 여부",
+          "2026년 연간 감원 총 규모가 기존 누적 3만명 수준을 넘어서는지"
+        ],
+        confidence: "로이터·Business Insider의 단독보도를 Fox Business 등 복수 매체가 인용 교차검증했고 아마존 대변인의 공식 코멘트도 확보돼 사실관계 신뢰도는 높음. 다만 정확한 인원수는 아마존이 '1,000명 미만'이라고만 확인했고 국가별 세부 인원은 공개되지 않아 추정 범위로 남아있음.",
+        sources: [
+          { title: "Amazon to cut nearly 1,000 white-collar jobs across stores division and other units: report", url: "https://www.foxbusiness.com/economy/amazon-cut-nearly-1000-white-collar-jobs-across-stores-division-other-units-report" },
+          { title: "Amazon cuts fewer than 1,000 jobs across retail operations in India, US and UK", url: "https://thefederal.com/category/business/amazon-cuts-fewer-than-1000-jobs-aaross-retail-operations-in-india-us-and-uk-258923" },
+        ],
+      },
     ],
     viewLog: [
       {
@@ -5780,6 +5818,44 @@ const BUSINESS_NOTES = {
           {title:"Tesla goes to trial over racism claims against Black workers at 'plantation' (Electrek)", url:"https://electrek.co/2026/09/21/tesla-racism-trial-california-fremont-black-workers/"},
           {title:"Tesla faces major trial for alleged bias against Black workers, after years of lawsuits (U.S. News/Yahoo Finance)", url:"https://www.usnews.com/news/top-news/articles/2026-09-21/tesla-faces-major-trial-for-alleged-bias-against-black-workers-after-years-of-lawsuits"},
           {title:"Tesla racial discrimination trial begins in California (JURIST)", url:"https://www.jurist.org/news/2026/09/tesla/"},
+        ],
+      },
+      {
+        date: "2026-10-07",
+        headline: "테슬라, 유럽서 'FSD' 명칭을 'Tesla Assisted Driving'으로 변경 제안 - EU 전역 승인투표는 12월로 재연기",
+        importance: "medium",
+        tone: "mixed",
+        horizon: "단기: 아직 제안·협의 단계라 10월 매출에는 영향 없음 / 중기: 12월 EU 기술위원회(TCMV) 투표 결과가 유럽 FSD 상용화 시점과 구독매출 확대 속도를 좌우",
+        facts: [
+          "테슬라가 독일 정부와의 협의 과정에서 유럽 내 'Full Self-Driving(FSD)' 명칭을 'Tesla Assisted Driving(TAD)'으로 바꾸는 방안을 제안했다 - 9월 중 논의가 시작됐고 10월 7일 보도됐다.",
+          "명칭 변경 제안의 배경은 'Full Self-Driving'이라는 이름이 완전 자율주행을 암시한다는 우려 때문이며, 실제로는 운전자 감독이 필요한 레벨2(Level 2) 운전보조 시스템이라는 규제당국의 문제 제기가 있었다.",
+          "EU 차원의 FSD(Supervised) 승인 여부를 결정하는 기술위원회(TCMV) 투표는 원래 10월 6일 예정이었으나 12월로 재차 연기됐다(9월 28일 Electrive 등 보도).",
+          "독일 연방교통부(BMDV)는 '기술개방적·안전중심적' 입장이라고 밝혔을 뿐 아직 공식 승인 여부를 결정하지 않았고, 독일 KBA(연방자동차교통청)가 네덜란드 RDW와 함께 테슬라의 기술 데이터를 검토 중이다(9월 29일 보도).",
+          "독일 측이 제기한 구체적 우려는 ①FSD가 일부 상황에서 제한속도를 최대 50%까지 초과할 수 있다는 점, ②차량 밀집 도심 주행 적합성, ③레벨2 특성상 사고 책임이 운전자에게 있다는 점 등이다.",
+          "'Tesla Assisted Driving' 명칭은 아직 확정이 아니라 제안 단계이며, 테슬라는 이를 통해 EU 전역 승인을 앞당기려는 전략으로 해석된다."
+        ],
+        why: [
+          "유럽은 테슬라가 FSD 구독매출을 확장하려는 핵심 신규 시장인데, 승인 지연(10월→12월)과 명칭 변경 요구는 유럽 내 FSD 상용화 일정이 당초보다 늦어질 가능성을 보여준다.",
+          "'완전자율주행'을 뜻하는 브랜드명을 스스로 '보조주행'으로 낮추는 것은 마케팅상 후퇴로 보일 수 있으나, 규제 승인을 받기 위한 실용적 타협으로 해석할 여지도 있다.",
+          "속도초과·도심주행 안전성 등 독일이 제기한 기술적 우려는 미국 내 NHTSA의 Cybercab 특별명령 조사(9/16 항목)와 함께 테슬라 자율주행 기술 전반에 대한 규제 압박이 지역을 가리지 않고 쌓이고 있음을 보여준다."
+        ],
+        beginner: [
+          "테슬라가 유럽에서 'FSD(완전자율주행)'라는 이름을 '테슬라 보조주행(Assisted Driving)'으로 바꾸겠다고 제안했어요. 유럽 규제당국이 완전자율주행이라는 이름이 오해를 줄 수 있다고 문제를 제기했기 때문이에요.",
+          "사실 이 기능은 지금도 운전자가 계속 지켜보고 있어야 하는 운전보조 기능이에요(레벨2). 이름만 완전자율주행처럼 들렸던 거죠.",
+          "유럽 전체에서 이 기능을 쓸 수 있게 하는 결정은 원래 10월에 날 예정이었는데 다시 12월로 미뤄졌어요. 유럽 시장에서 테슬라의 자율주행 사업이 생각보다 천천히 진행되고 있다는 뜻이에요."
+        ],
+        interpretation: "테슬라가 유럽에서 FSD의 브랜드명을 낮추면서까지 규제 승인을 받으려는 모습은, 미국에서처럼 완전자율주행을 앞세운 마케팅이 유럽에서는 그대로 통하지 않는다는 현실을 보여준다. 12월 EU 투표가 다가오는 가운데 독일의 속도초과·도심주행 안전성 지적이 해소되지 않으면 승인은 추가로 지연될 수 있고, 이는 테슬라가 기대하는 유럽 FSD 구독매출 확대 시점을 늦추는 요인이 된다. 동시에 미국에서는 Cybercab에 대한 NHTSA 특별명령 조사가 진행 중이어서, 테슬라 자율주행 사업 전반에 대한 규제 리스크가 지역을 가리지 않고 쌓이는 모습이다.",
+        decision: "유럽 FSD 승인은 아직 제안·협의 단계이고 실질적 매출 영향은 제한적이므로 당장 밸류에이션을 바꿀 사안은 아니나, 12월 TCMV 투표 결과와 독일의 최종 입장은 테슬라 자율주행 스토리의 해외 확장 속도를 가늠하는 지표로 계속 추적할 필요가 있다.",
+        watch: [
+          "12월 예정 EU 기술위원회(TCMV)의 FSD(Supervised) 승인투표 결과",
+          "독일 KBA·네덜란드 RDW의 기술데이터 검토 결론 및 독일의 최종 찬반 입장",
+          "'Tesla Assisted Driving' 명칭 변경이 실제로 확정·시행되는지, 다른 EU 회원국도 이 명칭을 요구하는지",
+          "미국 NHTSA의 Cybercab 특별명령 조사 결과와의 연계 여부"
+        ],
+        confidence: "독일 정부(BMDV·KBA)의 입장과 EU TCMV 투표 연기 일정은 Electrive·driveteslacanada 등 자동차 전문매체가 정부 발표를 인용 보도한 내용으로 사실관계 신뢰도가 높다. 다만 'Tesla Assisted Driving' 명칭이 공식 확정된 것인지, 독일 외 다른 회원국도 동의했는지는 아직 제안 단계라 추가 확인이 필요하다.",
+        sources: [
+          { title: "Germany Backs Tesla FSD for EU Approval With 'Tesla Assisted Driving' Name", url: "https://driveteslacanada.ca/news/tesla-fsd-germany-eu-approval-assisted-driving/" },
+          { title: "Germany Says It Is Open to Tesla FSD Approval, Confirms EU-Wide Vote in December", url: "https://www.notateslaapp.com/news/4749/germany-says-it-is-open-to-tesla-fsd-approval-confirms-eu-wide-vote-in-december" },
         ],
       },
     ],
