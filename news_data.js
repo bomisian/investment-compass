@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1791644412.3877685,
+    "_last_attempt_at": 1791666476.8559942,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -16,74 +16,42 @@ const NEWS_DATA = {
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "mixed",
-          "certainty": "전망·추정 포함",
-          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
-          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "실적 발표 · 본업과 특이항목 분리",
+          "horizon": "다음 실적까지 확인",
           "facts": [
-            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
-            "기사 본문에서 언급된 수치: 0.87%, 0.60%, 0.49%, 16.87%, 3.85%, 1.18%, 0.16%, 13.27%.",
-            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
+            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
-            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
-            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
+            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
-            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
-            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
+            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
-              "ticker": "AAPL",
-              "stance": "혼합",
-              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "메모리 ASP와 이익률 개선 가능성"
-            },
-            {
-              "ticker": "WDC",
-              "stance": "긍정",
-              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
-            },
-            {
-              "ticker": "QCOM",
-              "stance": "중립·확인",
-              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
             }
           ],
           "watch": [
-            "iPhone 18 실제 출고가·사전예약",
-            "애플 아이폰 출하량과 제품 믹스",
-            "메모리 현물·계약 가격",
-            "AAPL 매출총이익률과 MU/WDC 가이던스"
+            "매출·영업이익 성장",
+            "정상화이익과 특이항목",
+            "가이던스·OCF·FCF"
           ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: QQQ에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "interpretation": "QQQ에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.67,
-          "quality": "high",
-          "verifiedNumbers": [
-            "0.87%",
-            "0.60%",
-            "0.49%",
-            "16.87%",
-            "3.85%",
-            "1.18%",
-            "0.16%",
-            "13.27%"
-          ],
-          "sourceExcerpt": [
-            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending STRK 16.87% PENGU 3.85% HRL 1.18% OPEAZZX 0.16% TMUS 1",
-            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus Wall Street’s biggest banks, including JPMorgan, Morgan Stanley, and Wells Fargo, will report earnings next week.",
-            "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
-          ],
-          "analysisUpdatedAt": 1791644418.6849546
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791666479.62445
         },
         "headlineKo": "S&P 500, Nasdaq 100, Dow End Week High, 트레이더들이 수익 시즌을 주목하고 있음 — ​​MSFT, NFLX, SPCX, ASTS In Focus"
       },
@@ -147,7 +115,7 @@ const NEWS_DATA = {
             "QQQ Turned the Same Money Into $26,100 - 24/7 Wall St.",
             "Skip to content ❚❚ At close S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0.43% S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0."
           ],
-          "analysisUpdatedAt": 1791644421.2118418
+          "analysisUpdatedAt": 1791666482.0551672
         },
         "headlineKo": "ChatGPT가 출시된 날 VGT의 $10,000는 이제 $30,500입니다. QQQ는 같은 돈을 $26,100로 바꾸었습니다."
       },
@@ -167,13 +135,13 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "오늘 주식 시장: Nasdaq 100 반등, T-Mobile 싱크 12% - Invesco QQQ Trust, 시리즈 1(NASDAQ:QQQ), S - Benzinga SPY 778.00 +0.53% QQQ 750.30 +0.36% BTC/USD 82,569.60 +1.07% DIA 515.69 +0.79% GLD 384.11 +1.45% TLT 77.88 +0.01% US Sign i",
+            "오늘 주식 시장: Nasdaq 100 반등, T-Mobile 싱크 12% - Invesco QQQ Trust, 시리즈 1(NASDAQ:QQQ), S - Benzinga SPY 778.57 +0.60% QQQ 751.38 +0.51% BTC/USD 82,982.07 +0.51% DIA 516.21 +0.89% GLD 384.50 +1.55% TLT 77.97 +0.12% US Sign i",
             "OpenAI의 예상보다 약한 수익에 대한 우려로 촉발된 목요일의 좌절에서 나스닥이 반등하면서 금요일 정오까지 주가가 상승했고, 무선 통신업체는 Space Exploration Technologies Corp에 의해 타격을 입었습니다.",
             "SpaceX는 목요일 FCC 승인이 필요한 거래인 Grain Management로부터 전국적인 800MHz 스펙트럼 포트폴리오를 인수했다고 밝혔습니다."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 12%, 0.53%, 0.36% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 12%, 0.60%, 0.51% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -198,20 +166,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "12%",
-            "0.53%",
-            "0.36%",
-            "1.07%",
-            "0.79%",
-            "1.45%",
-            "0.01%",
-            "$8 billion"
+            "0.60%",
+            "0.51%",
+            "0.89%",
+            "1.55%",
+            "0.12%",
+            "$8 billion",
+            "12.2%"
           ],
           "sourceExcerpt": [
-            "Stock Market Today: Nasdaq 100 Rebounds, T-Mobile Sinks 12% - Invesco QQQ Trust, Series 1 (NASDAQ:QQQ), S - Benzinga SPY 778.00 +0.53% QQQ 750.30 +0.36% BTC/USD 82,569.60 +1.07% DIA 515.69 +0.79% GLD 384.11 +1.45% TLT 77.88 +0.01% US Sign i",
+            "Stock Market Today: Nasdaq 100 Rebounds, T-Mobile Sinks 12% - Invesco QQQ Trust, Series 1 (NASDAQ:QQQ), S - Benzinga SPY 778.57 +0.60% QQQ 751.38 +0.51% BTC/USD 82,982.07 +0.51% DIA 516.21 +0.89% GLD 384.50 +1.55% TLT 77.97 +0.12% US Sign i",
             "stocks edged higher by midday Friday, with the Nasdaq rebounding from Thursday’s setback sparked by concerns over OpenAI’s weaker-than-expected revenue, while the wireless carriers were hammered by a Space Exploration Technologies Corp.",
             "SpaceX said Thursday it acquired a nationwide 800 MHz spectrum portfolio from Grain Management, a deal that still needs FCC approval."
           ],
-          "analysisUpdatedAt": 1791644427.806395
+          "analysisUpdatedAt": 1791666485.89361
         },
         "headlineKo": "오늘의 주식 시장: OpenAI 공포에서 Nasdaq 100이 반등했고, T-Mobile은 12% 하락했습니다."
       },
@@ -364,74 +332,42 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "mixed",
-          "certainty": "전망·추정 포함",
-          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
-          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "실적 발표 · 본업과 특이항목 분리",
+          "horizon": "다음 실적까지 확인",
           "facts": [
-            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
-            "기사 본문에서 언급된 수치: 0.87%, 0.60%, 0.49%, 16.87%, 3.85%, 1.18%, 0.16%, 13.27%.",
-            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
+            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
-            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
-            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
+            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
-            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
-            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
+            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
-              "ticker": "AAPL",
-              "stance": "혼합",
-              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "메모리 ASP와 이익률 개선 가능성"
-            },
-            {
-              "ticker": "WDC",
-              "stance": "긍정",
-              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
-            },
-            {
-              "ticker": "QCOM",
-              "stance": "중립·확인",
-              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
             }
           ],
           "watch": [
-            "iPhone 18 실제 출고가·사전예약",
-            "애플 아이폰 출하량과 제품 믹스",
-            "메모리 현물·계약 가격",
-            "AAPL 매출총이익률과 MU/WDC 가이던스"
+            "매출·영업이익 성장",
+            "정상화이익과 특이항목",
+            "가이던스·OCF·FCF"
           ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: QQQ에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "interpretation": "QQQ에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.67,
-          "quality": "high",
-          "verifiedNumbers": [
-            "0.87%",
-            "0.60%",
-            "0.49%",
-            "16.87%",
-            "3.85%",
-            "1.18%",
-            "0.16%",
-            "13.27%"
-          ],
-          "sourceExcerpt": [
-            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending STRK 16.87% PENGU 3.85% HRL 1.18% OPEAZZX 0.16% TMUS 1",
-            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus Wall Street’s biggest banks, including JPMorgan, Morgan Stanley, and Wells Fargo, will report earnings next week.",
-            "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
-          ],
-          "analysisUpdatedAt": 1791644418.6849546
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791666479.62445
         }
       },
       {
@@ -494,7 +430,7 @@ const NEWS_DATA = {
             "QQQ Turned the Same Money Into $26,100 - 24/7 Wall St.",
             "Skip to content ❚❚ At close S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0.43% S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0."
           ],
-          "analysisUpdatedAt": 1791644421.2118418
+          "analysisUpdatedAt": 1791666482.0551672
         }
       },
       {
@@ -513,13 +449,13 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "오늘 주식 시장: Nasdaq 100 반등, T-Mobile 싱크 12% - Invesco QQQ Trust, 시리즈 1(NASDAQ:QQQ), S - Benzinga SPY 778.00 +0.53% QQQ 750.30 +0.36% BTC/USD 82,569.60 +1.07% DIA 515.69 +0.79% GLD 384.11 +1.45% TLT 77.88 +0.01% US Sign i",
+            "오늘 주식 시장: Nasdaq 100 반등, T-Mobile 싱크 12% - Invesco QQQ Trust, 시리즈 1(NASDAQ:QQQ), S - Benzinga SPY 778.57 +0.60% QQQ 751.38 +0.51% BTC/USD 82,982.07 +0.51% DIA 516.21 +0.89% GLD 384.50 +1.55% TLT 77.97 +0.12% US Sign i",
             "OpenAI의 예상보다 약한 수익에 대한 우려로 촉발된 목요일의 좌절에서 나스닥이 반등하면서 금요일 정오까지 주가가 상승했고, 무선 통신업체는 Space Exploration Technologies Corp에 의해 타격을 입었습니다.",
             "SpaceX는 목요일 FCC 승인이 필요한 거래인 Grain Management로부터 전국적인 800MHz 스펙트럼 포트폴리오를 인수했다고 밝혔습니다."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 12%, 0.53%, 0.36% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 12%, 0.60%, 0.51% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -544,20 +480,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "12%",
-            "0.53%",
-            "0.36%",
-            "1.07%",
-            "0.79%",
-            "1.45%",
-            "0.01%",
-            "$8 billion"
+            "0.60%",
+            "0.51%",
+            "0.89%",
+            "1.55%",
+            "0.12%",
+            "$8 billion",
+            "12.2%"
           ],
           "sourceExcerpt": [
-            "Stock Market Today: Nasdaq 100 Rebounds, T-Mobile Sinks 12% - Invesco QQQ Trust, Series 1 (NASDAQ:QQQ), S - Benzinga SPY 778.00 +0.53% QQQ 750.30 +0.36% BTC/USD 82,569.60 +1.07% DIA 515.69 +0.79% GLD 384.11 +1.45% TLT 77.88 +0.01% US Sign i",
+            "Stock Market Today: Nasdaq 100 Rebounds, T-Mobile Sinks 12% - Invesco QQQ Trust, Series 1 (NASDAQ:QQQ), S - Benzinga SPY 778.57 +0.60% QQQ 751.38 +0.51% BTC/USD 82,982.07 +0.51% DIA 516.21 +0.89% GLD 384.50 +1.55% TLT 77.97 +0.12% US Sign i",
             "stocks edged higher by midday Friday, with the Nasdaq rebounding from Thursday’s setback sparked by concerns over OpenAI’s weaker-than-expected revenue, while the wireless carriers were hammered by a Space Exploration Technologies Corp.",
             "SpaceX said Thursday it acquired a nationwide 800 MHz spectrum portfolio from Grain Management, a deal that still needs FCC approval."
           ],
-          "analysisUpdatedAt": 1791644427.806395
+          "analysisUpdatedAt": 1791666485.89361
         }
       },
       {
@@ -5539,15 +5475,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791644412.3877685,
-    "_updated_label": "2026-10-11 00:00",
-    "_last_success_at": 1791644412.3877685,
+    "_fetched_at": 1791666476.8559942,
+    "_updated_label": "2026-10-11 06:08",
+    "_last_success_at": 1791666476.8559942,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 108,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "SPY": {
@@ -12395,7 +12331,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 139,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "MSFT": {
@@ -20313,7 +20249,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "GOOGL": {
@@ -28263,7 +28199,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "AMZN": {
@@ -36311,7 +36247,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "META": {
@@ -44335,7 +44271,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "AAPL": {
@@ -52225,7 +52161,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "TSLA": {
@@ -60227,7 +60163,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "ORCL": {
@@ -68571,7 +68507,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "CRM": {
@@ -74928,7 +74864,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "PLTR": {
@@ -83640,7 +83576,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "NVDA": {
@@ -91123,11 +91059,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "AMD": {
-    "_last_attempt_at": 1791644412.3877685,
+    "_last_attempt_at": 1791666476.8559942,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -91136,6 +91072,134 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Advanced Micro Devices vs. Qualcomm: Which Technology Stock Is a Better Buy in 2026?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=69387e00bf52429c8086050e82ee46db0171cd604077c4444f00839259e64b9e",
+        "datetime": 1791651781,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "규제·법무 · 비선형 위험",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Qualcomm: 2026년에는 어느 기술주를 매수하는 것이 더 나은가요?",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% The Motley Fool Advanced Micro Devices( AMD -2.03% ) 및 Qualcomm Inc.에 합류",
+            "( QCOM -0.29% )는 차세대 인공 지능을 강화하기 위해 경쟁하고 있습니다."
+          ],
+          "why": [
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.29%, $608.10, 2.03 % — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
+          ],
+          "interpretation": "AMD에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.29%",
+            "$608.10",
+            "2.03 %",
+            "$12.58",
+            "$175.50",
+            "0.29 %",
+            "$0.51",
+            "$993"
+          ],
+          "sourceExcerpt": [
+            "Qualcomm: Which Technology Stock Is a Better Buy in 2026?",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices ( AMD -2.03% ) and Qualcomm Inc.",
+            "( QCOM -0.29% ) are racing to power the next generation of artificial intelligence."
+          ],
+          "analysisUpdatedAt": 1791666491.0961509
+        },
+        "headlineKo": "Advanced Micro Devices vs. Qualcomm: 2026년에는 어떤 기술 주식을 구매하는 것이 더 낫습니까?"
+      },
+      {
+        "headline": "The Next Wave of AI Demand Could Send Broadcom, Marvell, and AMD Soaring",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f8f561ef84e3f719593cfc42dcd9d54da13246e2a9d11165b0479a57a97e02e6",
+        "datetime": 1791642657,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "주식 희석 · 주당가치 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "차세대 AI 수요로 인해 Broadcom, Marvell 및 AMD가 급증할 수 있습니다. - 연중무휴 월스트리트",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0.43% S&P 500 7,823.60 +0.58% 다우존스 51,740.80 +0.91% 나스닥 100 30,928.20 +0.38% 러셀 2000 2,809.13 +0.",
+            "이제 문제는 2027년에 대한 세 가지 대담한 가격 목표가 야심찬 것인지 아니면 시작에 불과한 것인지입니다."
+          ],
+          "why": [
+            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 227.31%, 195.73%, 8.25% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "신규 주식 수·행사가격",
+            "조달 자금 사용처",
+            "완전희석 주식수와 EPS"
+          ],
+          "interpretation": "AMD에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "227.31%",
+            "195.73%",
+            "8.25%",
+            "$531.31,",
+            "43%",
+            "$330.16",
+            "19%",
+            "$636.21,"
+          ],
+          "sourceExcerpt": [
+            "The Next Wave of AI Demand Could Send Broadcom, Marvell, and AMD Soaring - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0.43% S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0.",
+            "The question now is whether three bold price targets for 2027 are ambitious or just the beginning."
+          ],
+          "analysisUpdatedAt": 1791666493.5928342
+        },
+        "headlineKo": "차세대 AI 수요로 인해 Broadcom, Marvell 및 AMD가 급증할 수 있음"
+      },
       {
         "headline": "SpaceX, Micron, AMD and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week",
         "source": "Benzinga",
@@ -91196,7 +91260,7 @@ const NEWS_DATA = {
             "9) on X and Reddit’s r/WallStreetBets, driven by retail hype, earnings, AI infrastructure momentum, and corporate news flow.",
             "Space Exploration Technologies Corp."
           ],
-          "analysisUpdatedAt": 1791644435.5957527
+          "analysisUpdatedAt": 1791666496.1053789
         },
         "headlineKo": "SpaceX, Micron, AMD 등: 이번 주 투자자들의 관심이 끊이지 않는 5개 주식"
       },
@@ -91208,77 +91272,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "mixed",
-          "certainty": "전망·추정 포함",
-          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
-          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
-          "facts": [
-            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
-            "기사 본문에서 언급된 수치: 0.87%, 0.60%, 0.49%, 18.20%, 3.92%, 1.18%, 0.16%, 13.27%.",
-            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
-          ],
-          "why": [
-            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
-            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
-            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
-          ],
-          "beginner": [
-            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
-            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
-            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AAPL",
-              "stance": "혼합",
-              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "메모리 ASP와 이익률 개선 가능성"
-            },
-            {
-              "ticker": "WDC",
-              "stance": "긍정",
-              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
-            },
-            {
-              "ticker": "QCOM",
-              "stance": "중립·확인",
-              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
-            }
-          ],
-          "watch": [
-            "iPhone 18 실제 출고가·사전예약",
-            "애플 아이폰 출하량과 제품 믹스",
-            "메모리 현물·계약 가격",
-            "AAPL 매출총이익률과 MU/WDC 가이던스"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'Cathie Wood-Led Ark Invest Sells AMD, SPCX, GOOG Stocks — But Loads Up On CMPS, NTLA, CRSP And Other Healthcare Firms' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: AMD에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
-          "relevance": 1,
-          "quality": "high",
-          "verifiedNumbers": [
-            "0.87%",
-            "0.60%",
-            "0.49%",
-            "18.20%",
-            "3.92%",
-            "1.18%",
-            "0.16%",
-            "13.27%"
-          ],
-          "sourceExcerpt": [
-            "Cathie Wood-Led Ark Invest Sells AMD, SPCX, GOOG Stocks — But Loads Up On CMPS, NTLA, CRSP And Other Healthcare Firms AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending STRK 18.20% PENGU 3.92% HRL 1.18% OPEAZZX 0.16%",
-            "Cathie Wood-Led Ark Invest Sells AMD, SPCX, GOOG Stocks — But Loads Up On CMPS, NTLA, CRSP And Other Healthcare Firms The trades put some of Ark's better-known holdings on the sell side, including AMD, Alphabet, and SpaceX, while its genomi",
-            "Cathie Wood, CEO & Chief Investment Officer of ARK Invest, speaks onstage during Day 2 of 2023 Invest Fest at Georgia World Congress Center on August 27, 2023 in Atlanta, Georgia."
-          ],
-          "analysisUpdatedAt": 1791644436.5409005
-        },
         "headlineKo": "Cathie Wood가 주도하는 Ark Invest는 AMD, SPCX, GOOG 주식을 판매하지만 CMPS, NTLA, CRSP 및 기타 의료 회사에 로드됩니다."
       },
       {
@@ -91289,81 +91282,7 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "공급망 · 생산 차질 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "AMD의 공급 위기가 자사 주식에 좋은 소식이 될 수 있는 이유 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices( AMD -2.03% )는 대부분의 회사에 일종의 문제가 있습니다.",
-            "고객이 구매하고 싶어하는 만큼 빠르게 일부 칩을 구축할 수는 없습니다.",
-            "CEO Lisa Su는 10월 타이베이에서 이와 같은 말을 했습니다."
-          ],
-          "why": [
-            "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $649.42, $1 trillion, $30 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "주문은 있어도 부품이나 생산 문제로 제때 팔지 못할 수 있다는 뉴스입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "출하 지연 기간",
-            "재고와 리드타임",
-            "매출총이익률·대체 공급처"
-          ],
-          "interpretation": "AMD에 대한 공급망 · 생산 차질 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$649.42",
-            "$1 trillion",
-            "$30 billion",
-            "$12.2 billion",
-            "$25.7 billion",
-            "$30.3 billion",
-            "150%",
-            "$34.6 billion"
-          ],
-          "sourceExcerpt": [
-            "Why AMD's Supply Crunch Could Be Good News for Its Stock | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices ( AMD -2.03% ) has the sort of problem most compani",
-            "It can't build some of its chips as fast as customers want to buy them.",
-            "CEO Lisa Su said as much in Taipei on Oct."
-          ],
-          "analysisUpdatedAt": 1791644440.337235
-        },
         "headlineKo": "AMD의 공급 위기가 자사 주식에 좋은 소식이 될 수 있는 이유"
-      },
-      {
-        "headline": "AMD CEO Su shares important supply news with stock market investors",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=628f953a8308e1b00c69cd4e9eac34a5f31ee334145f3e0ba2cd182f1f8f96a4",
-        "datetime": 1791573180,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "AMD CEO Su는 주식 시장 투자자들과 중요한 공급 소식을 공유합니다."
-      },
-      {
-        "headline": "Prediction: This Will Be AMD's Stock Price in 1 Year",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6006383a7adb0d5cd91b8b0488fe970ff648d00d7541539edb13a37027e75b63",
-        "datetime": 1791564720,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "예측: 이는 1년 후 AMD의 주가가 될 것입니다."
       },
       {
         "headline": "AMD: The AI Momentum Train Looks Unstoppable, But I'm Pausing Accumulation (Downgrade)",
@@ -91379,6 +91298,132 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Advanced Micro Devices vs. Qualcomm: Which Technology Stock Is a Better Buy in 2026?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=69387e00bf52429c8086050e82ee46db0171cd604077c4444f00839259e64b9e",
+        "datetime": 1791651781,
+        "headlineKo": "Advanced Micro Devices vs. Qualcomm: 2026년에는 어떤 기술 주식을 구매하는 것이 더 낫습니까?",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "규제·법무 · 비선형 위험",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Qualcomm: 2026년에는 어느 기술주를 매수하는 것이 더 나은가요?",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% The Motley Fool Advanced Micro Devices( AMD -2.03% ) 및 Qualcomm Inc.에 합류",
+            "( QCOM -0.29% )는 차세대 인공 지능을 강화하기 위해 경쟁하고 있습니다."
+          ],
+          "why": [
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.29%, $608.10, 2.03 % — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
+          ],
+          "interpretation": "AMD에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.29%",
+            "$608.10",
+            "2.03 %",
+            "$12.58",
+            "$175.50",
+            "0.29 %",
+            "$0.51",
+            "$993"
+          ],
+          "sourceExcerpt": [
+            "Qualcomm: Which Technology Stock Is a Better Buy in 2026?",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices ( AMD -2.03% ) and Qualcomm Inc.",
+            "( QCOM -0.29% ) are racing to power the next generation of artificial intelligence."
+          ],
+          "analysisUpdatedAt": 1791666491.0961509
+        }
+      },
+      {
+        "headline": "The Next Wave of AI Demand Could Send Broadcom, Marvell, and AMD Soaring",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f8f561ef84e3f719593cfc42dcd9d54da13246e2a9d11165b0479a57a97e02e6",
+        "datetime": 1791642657,
+        "headlineKo": "차세대 AI 수요로 인해 Broadcom, Marvell 및 AMD가 급증할 수 있음",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "주식 희석 · 주당가치 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "차세대 AI 수요로 인해 Broadcom, Marvell 및 AMD가 급증할 수 있습니다. - 연중무휴 월스트리트",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0.43% S&P 500 7,823.60 +0.58% 다우존스 51,740.80 +0.91% 나스닥 100 30,928.20 +0.38% 러셀 2000 2,809.13 +0.",
+            "이제 문제는 2027년에 대한 세 가지 대담한 가격 목표가 야심찬 것인지 아니면 시작에 불과한 것인지입니다."
+          ],
+          "why": [
+            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 227.31%, 195.73%, 8.25% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "신규 주식 수·행사가격",
+            "조달 자금 사용처",
+            "완전희석 주식수와 EPS"
+          ],
+          "interpretation": "AMD에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "227.31%",
+            "195.73%",
+            "8.25%",
+            "$531.31,",
+            "43%",
+            "$330.16",
+            "19%",
+            "$636.21,"
+          ],
+          "sourceExcerpt": [
+            "The Next Wave of AI Demand Could Send Broadcom, Marvell, and AMD Soaring - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0.43% S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0.",
+            "The question now is whether three bold price targets for 2027 are ambitious or just the beginning."
+          ],
+          "analysisUpdatedAt": 1791666493.5928342
+        }
+      },
       {
         "headline": "SpaceX, Micron, AMD and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week",
         "source": "Benzinga",
@@ -91439,7 +91484,7 @@ const NEWS_DATA = {
             "9) on X and Reddit’s r/WallStreetBets, driven by retail hype, earnings, AI infrastructure momentum, and corporate news flow.",
             "Space Exploration Technologies Corp."
           ],
-          "analysisUpdatedAt": 1791644435.5957527
+          "analysisUpdatedAt": 1791666496.1053789
         }
       },
       {
@@ -99109,129 +99154,17 @@ const NEWS_DATA = {
           ],
           "analysisUpdatedAt": 1790173602.2221925
         }
-      },
-      {
-        "headline": "Pay Attention, Wall Street Is Actively Re-Rating AMD as It Crosses $1 Trillion",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=49da13652283221b473151c20c926dae55c21f48ef76a23cc57a3f8ca485a84a",
-        "datetime": 1790167028,
-        "headlineKo": "주목하세요. 월스트리트는 AMD가 1조 달러를 넘으면서 적극적으로 재평가하고 있습니다.",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "주목하세요. 월 스트리트는 1조 달러를 돌파하면서 AMD를 적극적으로 재평가하고 있습니다. - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,737.20 −0.48% Dow Jones 51,889.80 −0.10% Nasdaq 100 30,470.70 −0.91% Russell 2000 2,862.43 −1.15% S&P 500 7,737.20 −0.48% 다우존스 51,889.80 −0.10% 나스닥 100 30,470.70 −0.91% 러셀 2000 2,862.43 −1.",
-            "칩 제조업체는 방금 1조 1800억 달러의 시가총액을 돌파했고, 판매 측에서는 6개월 전에 만들어진 어떤 모델보다 빠르게 움직인 펀더멘털 스토리를 따라잡기 위해 안간힘을 쓰고 있습니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $1 Trillion, $1.018 trillion, $222.50 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "AMD에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$1 Trillion",
-            "$1.018 trillion",
-            "$222.50",
-            "$600",
-            "$641",
-            "$620,",
-            "$2 trillion",
-            "45%"
-          ],
-          "sourceExcerpt": [
-            "Pay Attention, Wall Street Is Actively Re-Rating AMD as It Crosses $1 Trillion - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,737.20 −0.48% Dow Jones 51,889.80 −0.10% Nasdaq 100 30,470.70 −0.91% Russell 2000 2,862.43 −1.15% S&P 500 7,737.20 −0.48% Dow Jones 51,889.80 −0.10% Nasdaq 100 30,470.70 −0.91% Russell 2000 2,862.43 −1.",
-            "The chipmaker just punched through a $1.018 trillion market cap, and the sell-side is scrambling to catch up with a fundamentals story that has moved faster than any model built six months ago."
-          ],
-          "analysisUpdatedAt": 1790173606.2277539
-        }
-      },
-      {
-        "headline": "AMD: This Uptrend Is Far From Over",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=137ba7cf31c7b76142559ca5e7f62f0c191fd0c0efec4531a1482b61ad609dcb",
-        "datetime": 1790151899,
-        "headlineKo": "AMD: 이 상승 추세는 아직 끝나지 않았습니다",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "AMD: This Uptrend Is Far From Over",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD: This Uptrend Is Far From Over' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790173607.1849504
-        }
       }
     ],
-    "_fetched_at": 1791644412.3877685,
-    "_updated_label": "2026-10-11 00:00",
-    "_last_success_at": 1791644412.3877685,
+    "_fetched_at": 1791666476.8559942,
+    "_updated_label": "2026-10-11 06:08",
+    "_last_success_at": 1791666476.8559942,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "AVGO": {
@@ -108401,7 +108334,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "QCOM": {
@@ -115393,7 +115326,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 151,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "ARM": {
@@ -120428,7 +120361,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "MRVL": {
@@ -128492,7 +128425,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 174,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "INTC": {
@@ -136941,7 +136874,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "TSM": {
@@ -143230,7 +143163,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 140,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "ASML": {
@@ -147565,7 +147498,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "AMAT": {
@@ -152135,7 +152068,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "LRCX": {
@@ -154625,7 +154558,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "KLAC": {
@@ -156969,7 +156902,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "MU": {
@@ -164530,7 +164463,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "SNDK": {
@@ -172131,7 +172064,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 158,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "WDC": {
@@ -176677,7 +176610,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 95,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "ANET": {
@@ -180408,7 +180341,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "COHR": {
@@ -183544,7 +183477,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "LITE": {
@@ -187292,7 +187225,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 80,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "GEV": {
@@ -192462,7 +192395,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "CEG": {
@@ -196882,7 +196815,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "VST": {
@@ -200264,7 +200197,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "ETN": {
@@ -203428,7 +203361,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "PWR": {
@@ -206368,7 +206301,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "HUBB": {
@@ -207086,7 +207019,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "VRT": {
@@ -210956,7 +210889,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "MOD": {
@@ -212284,7 +212217,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "STX": {
@@ -216342,7 +216275,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "EME": {
@@ -218105,7 +218038,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "FIX": {
@@ -219699,7 +219632,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   },
   "BE": {
@@ -222088,7 +222021,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-11 06:00"
+      "updated": "2026-10-11 06:08"
     }
   }
 };
