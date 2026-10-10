@@ -237,6 +237,33 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Pokémon card values are soaring. What collectors should know before buying or selling",
+      "summary": "Pokémon card values are surging. Learn how grading, scarcity, recent sales and counterfeits can affect what collectors pay.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/10/pokemon-card-values-grading-guide.html",
+      "datetime": 1791639002,
+      "headlineKo": "포켓몬 카드 가치가 치솟고 있습니다. 수집가가 구매 또는 판매하기 전에 알아야 할 사항",
+      "summaryKo": "포켓몬카드 가치가 급등하고 있습니다. 등급, 희소성, 최근 판매 및 위조품이 수집가의 지불 금액에 어떤 영향을 미칠 수 있는지 알아보세요."
+    },
+    {
+      "headline": "I work hard to stay close to my friends. A researcher says it’s good for my well-being—and these 3 habits can help",
+      "summary": "Keeping in touch with friends can be hard, but often worth the effort, research shows. A friendship expert recommends these three practices for connection.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/make-it/2026/10/10/how-to-maintain-close-friendships.html",
+      "datetime": 1791637501,
+      "headlineKo": "나는 친구들과 가깝게 지내기 위해 열심히 노력합니다. 한 연구원은 이것이 내 웰빙에 좋다고 말합니다. 다음 3가지 습관이 도움이 될 수 있습니다",
+      "summaryKo": "친구들과 연락을 유지하는 것은 어려울 수 있지만 노력할 가치가 있는 경우가 많다는 연구 결과가 나왔습니다. 우정 전문가는 연결을 위해 다음 세 가지 관행을 권장합니다."
+    },
+    {
+      "headline": "How Supreme Court justices are leaning in major 401(k) case over private funds and underperformance",
+      "summary": "The Supreme Court is weighing an Intel 401(k) case as employers await new Labor Department rules on private investments in retirement plans.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/10/supreme-court-case-401k-private-funds-intel.html",
+      "datetime": 1791637201,
+      "headlineKo": "대법원 판사가 주요 401(k) 사건에서 민간 자금과 실적 부진에 대해 어떻게 생각하고 있습니까?",
+      "summaryKo": "고용주들이 퇴직 계획에 대한 민간 투자에 대한 새로운 노동부의 규칙을 기다리고 있는 가운데 대법원은 Intel 401(k) 사건을 검토하고 있습니다."
+    },
+    {
       "headline": "Wall Street posts weekly gains with earnings, inflation data on tap - Reuters",
       "summary": "Wall Street posts weekly gains with earnings, inflation data on tap Reuters",
       "source": "Reuters",
@@ -316,45 +343,18 @@ const MARKET_DATA = {
       "datetime": 1791563720,
       "headlineKo": "금채 수익률이 하락함에 따라 런던 주식은 주간 상승세를 기록했습니다. 통신주 하락 - 로이터",
       "summaryKo": "금채 수익률이 하락함에 따라 런던 주식은 주간 상승세를 기록했습니다. 통신주 하락 로이터"
-    },
-    {
-      "headline": "Verizon stock heads for worst day since 2002 as SpaceX U.S. network plans whack telcos",
-      "summary": "SpaceX announced the spectrum deal Thursday, as the company aims to push deeper into the telecom market through its Starlink service.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/09/verizon-att-tmobile-stocks-spacex-network.html",
-      "datetime": 1791563204,
-      "headlineKo": "SpaceX 미국 네트워크가 통신사를 공격할 계획으로 Verizon 주식은 2002년 이후 최악의 날로 향합니다.",
-      "summaryKo": "SpaceX는 Starlink 서비스를 통해 통신 시장에 더 깊이 진출하는 것을 목표로 목요일 스펙트럼 계약을 발표했습니다."
-    },
-    {
-      "headline": "EU aviation body widens Saudi airspace warning after Houthi strikes - Reuters",
-      "summary": "EU aviation body widens Saudi airspace warning after Houthi strikes Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObUF1S2Y0LTFHM0JDbXRLY05aMmVvUDJqOU1ZNjEtLVlDdFVMelgyTlN0d3BvY0lrLVJkZEc4VGI0eEMtWTVnbDBGQnNVSGx1bklCQkxiNEs3RzFlWklGSWtoMFpyLV9zb2N6Y1VlVjQ2b2pqMy1ld0IyZ2RQMGt3YmFRaWQyUFBrYnVua2VyWGdyQW4wU0xGWm91d2prUlRLSHZrZXNwZjl0MVBuQV9ZeFZmZi15Nmh1VGFvV25xeVJfYkNGWkE?oc=5",
-      "datetime": 1791563101,
-      "headlineKo": "EU 항공기구, 후티 반군 공습 이후 사우디 영공 경고 확대 - 로이터 통신",
-      "summaryKo": "EU 항공 기구, 후티 반군 공격 후 사우디 영공 경고 확대 - 최신"
-    },
-    {
-      "headline": "US diesel prices remain high despite Trump's moves to boost supplies - Reuters",
-      "summary": "US diesel prices remain high despite Trump's moves to boost supplies Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSC1DZmo5R2daREU0YTBRSFBZTE04NW92WFQ3eXhLeGhiRlFyTEZBbHdWT2xuczBRYmtWcmlqMVJKTUo0Vk9KTEk1OU1jYUo1NlQ3Zi1KTzhmc1pmZkhQS01OajhXWHR1aWpQVEpuRTllX0RSd3ZmR3ZKMG51MlJRNGQtX3BkdUpfOHFGejVtbnhMUGlGNVdDa2lISkd5dFdmNWc3dFpRZnJuNGJ6M3duQ1pJcXo?oc=5",
-      "datetime": 1791562731,
-      "headlineKo": "트럼프의 공급 확대 움직임에도 불구하고 미국 디젤 가격은 여전히 ​​​​높습니다 - Reuters",
-      "summaryKo": "트럼프의 공급 확대 움직임에도 불구하고 미국 디젤 가격은 여전히 ​​​​높습니다 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791636852.827858,
+  "_news_last_success_at": 1791641473.3345218,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791636845.0087106,
-  "_updated_label": "2026-10-10 21:54",
-  "_last_attempt_at": 1791636845.0087106,
-  "_last_success_at": 1791636845.0087106,
+  "_fetched_at": 1791641457.88874,
+  "_updated_label": "2026-10-10 23:11",
+  "_last_attempt_at": 1791641457.88874,
+  "_last_success_at": 1791641457.88874,
   "_collection_status": "ok",
   "_collection_errors": []
 };
