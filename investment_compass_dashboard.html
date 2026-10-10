@@ -6157,6 +6157,42 @@ function pvRefreshExceptionsForTicker(t){
   return reasons;
 }
 
+// [51745] 사용자 요청: 핵심 5개 원자료(PV_REFRESH_POLICY) 밖의 보조 소스(예: 시그마/옵션 IV,
+// 뉴스, 사업 분석, 이벤트, 숏 인터레스트, 세그먼트 매출)가 특정 종목에 문제를 연결하는 경우 --
+// 기존 헤더의 "데이터 상태" 경고(예: "확인 필요: MOD")가 그 예다 -- 재검토 큐에 새 제약으로
+// 올리지는 않되(범람 방지 경계는 그대로 유지), 나중에 "그 종목의 보조 분석이 왜 비어 있었는지"
+// 추적할 수 있도록 스냅샷에만 `non_core_source_issue`로 남긴다. 가격 타당성·행동 결과
+// (data_quality/decision)는 전혀 낮추지 않는다 -- 이 카드의 핵심 판단에 쓰는 소스가 아니므로.
+const PV_CORE_REFRESH_SOURCE_KEYS = Object.keys(PV_REFRESH_POLICY);
+// 기존 헤더(renderDataStatusLine/sourceHealthLevel, 2026-08-28 추가)가 이미 쓰는 것과 같은
+// warningAfterHours/criticalAfterHours 임계값을 그대로 재사용한다(새 판정 기준을 만들지 않음).
+// 그 함수를 직접 호출하지 않고 로직만 그대로 복제해 독립적으로 계산한다 -- 스크립트 로딩
+// 순서나 단독 테스트 환경에 의존하지 않기 위함(이 카드 파일의 기존 설계 원칙과 동일).
+function pvNonCoreSourceStatusBad(src){
+  const now = Date.now()/1000;
+  const dataLast = src.lastSuccessAt || src.lastFetchedAt;
+  const hoursSince = dataLast ? (now-dataLast)/3600 : Infinity;
+  if(src.status === 'error' || hoursSince > (src.criticalAfterHours ?? Infinity)) return true;
+  if(src.status === 'partial' || hoursSince > (src.warningAfterHours ?? Infinity)) return true;
+  return false;
+}
+function pvNonCoreSourceIssuesForTicker(t){
+  const out = [];
+  if(typeof DATA_STATUS === 'undefined' || !DATA_STATUS || !DATA_STATUS.sources) return out;
+  for(const key of Object.keys(DATA_STATUS.sources)){
+    if(PV_CORE_REFRESH_SOURCE_KEYS.includes(key)) continue; // 핵심 5개는 pvRefreshExceptionsForTicker가 이미 담당(중복 기록 방지)
+    const src = DATA_STATUS.sources[key];
+    if(!src || !pvNonCoreSourceStatusBad(src)) continue;
+    const affected = Array.from(new Set([...(src.staleItems||[]), ...(src.emptyItems||[])]));
+    if(!affected.includes(t)) continue;
+    out.push({
+      source: key, label: src.label || key, status: src.status || null,
+      last_error: src.lastError || null, detected_at: new Date().toISOString(),
+    });
+  }
+  return out;
+}
+
 // 종목·항목(metric)별 데이터 상태 레지스트리 행. 요청된 스키마(ticker/metric/value/basis/
 // source/source_date/collected_at/freshness_status/next_review_trigger/comparison_status)를
 // 그대로 따른다 -- 이미 계산돼 있는 d·r·cc 필드를 재배열할 뿐, 새 계산은 하지 않는다.
@@ -6550,6 +6586,8 @@ function pvBuildSnapshotTickerEntry(t, r, d){
     cross_check: d.crossCheck,
     sector_benchmark_symbol: sectorInfo ? sectorInfo.primary_etf : null,
     data_quality: dq,
+    // [51745] 보조 지표 장애 기록 전용(핵심 판단에 영향 없음) -- data_quality는 건드리지 않음.
+    non_core_source_issues: pvNonCoreSourceIssuesForTicker(t),
   };
 }
 
