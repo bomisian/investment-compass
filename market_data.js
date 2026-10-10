@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 5.637793791087997,
-        "ret3m": 18.32244149129543,
-        "ret6m": 28.07401682380042,
-        "ret1y": 6.713617935033045,
+        "ret1m": 2.9052639398185143,
+        "ret3m": 15.78030773422201,
+        "ret6m": 25.260925019028903,
+        "ret1y": 5.455426228768356,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 4.778195262987928,
-        "ret3m": 0.38464519985088597,
-        "ret6m": 57.18281814808552,
-        "ret1y": 161.11411947808466,
+        "ret1m": 2.059332678733683,
+        "ret3m": -4.288197984587871,
+        "ret6m": 60.84299480753623,
+        "ret1y": 170.8948598946349,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": 13.487726637332553,
-        "ret3m": 22.83865496592108,
-        "ret6m": 27.86714208319554,
-        "ret1y": 222.72958110734947,
+        "ret1m": 5.403070863740611,
+        "ret3m": 13.387394322428591,
+        "ret6m": 27.087288578180413,
+        "ret1y": 226.32902511107918,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": 5.174620543871655,
-        "ret3m": 1.75429204740154,
-        "ret6m": 6.828538228452219,
-        "ret1y": 42.92184771372456,
+        "ret1m": 1.1010026677859885,
+        "ret3m": -2.0434454362473264,
+        "ret6m": 6.616264535934069,
+        "ret1y": 45.0120893373156,
         "winRate": null,
         "count": 12
       }
@@ -229,10 +229,10 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.18715741103526012,
-    "corrPctRank": 5.2719665271966525,
+    "corr60": 0.21009549360903743,
+    "corrPctRank": 5.778894472361809,
     "corrMin5y": 0.036257837878636255,
-    "corrMedian5y": 0.7015647058406709,
+    "corrMedian5y": 0.702189803128697,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
@@ -241,7 +241,7 @@ const MARKET_DATA = {
       "summary": "Wall Street posts weekly gains with earnings, inflation data on tap Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0hWbFNBUlE5SFJjLVpMMnIwZzFpN2hVNEd2YkxlalYyVDRKTDZxcGJ0REJLUERXb0tlVVVreVZLMHFodlAtZlY0eDhuN2xiOHcybjM1c3gxMlBNTmZMWWdrdkhQOG9Pc2JRdTEwYXM5N181QmttRVEyRkdXTy1LT2J0ZVA4d2FXdjZZeGZwaGRaSUtDUXJUZXFjSU94cnprbTVUSXRpXzFtQzV2TWtpR1dNSjdaWVplUlE?oc=5",
-      "datetime": 1791577004,
+      "datetime": 1791579796,
       "headlineKo": "월스트리트는 수입, 인플레이션 데이터와 함께 주간 이익을 게시합니다 - Reuters",
       "summaryKo": "월스트리트는 수입, 인플레이션 데이터를 통해 주간 이익을 게시합니다. Reuters"
     },
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791586811.8039534,
+  "_news_last_success_at": 1791590411.7754915,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791586804.3423429,
-  "_updated_label": "2026-10-10 08:00",
-  "_last_attempt_at": 1791586804.3423429,
-  "_last_success_at": 1791586804.3423429,
+  "_fetched_at": 1791590404.332001,
+  "_updated_label": "2026-10-10 09:00",
+  "_last_attempt_at": 1791590404.332001,
+  "_last_success_at": 1791590404.332001,
   "_collection_status": "ok",
   "_collection_errors": []
 };
