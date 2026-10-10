@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1791598953.9831622,
+    "_last_attempt_at": 1791621904.2750657,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -22,7 +22,7 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500, Nasdaq 100, Dow는 트레이더들이 수익 시즌을 주목하면서 주간 상승 — MSFT, NFLX, SPCX, ASTS에 집중 AI 에이전트 동향 뉴스 수익 전체 DIA 0.87% SPY 0.60% QQQ 0.49% 추세 PLTR 5.17% TMUS 13.27% ADA 9.50% VZ 8.75% 도트 12.85%S",
+            "S&P 500, Nasdaq 100, Dow는 트레이더들이 수익 시즌을 주목하면서 주간 상승 — MSFT, NFLX, SPCX, ASTS에 집중 AI 에이전트 동향 뉴스 수익 전체 DIA 0.87% SPY 0.60% QQQ 0.49% Trending NIGHT 10.82% FLY 3.24% FSLY 15.86% RIG 0.54% JPM 0.47%",
             "S&P 500, Nasdaq 100, 다우 종가 상승 및 트레이더들이 수익 시즌을 주목하고 있음 — ​​MSFT, NFLX, SPCX, ASTS In Focus JPMorgan, Morgan Stanley 및 Wells Fargo를 포함한 월스트리트 최대 은행들이 다음 주에 수익을 보고할 예정입니다.",
             "거래자들이 2026년 8월 5일 오전 거래 중에 뉴욕 증권 거래소 바닥에서 일하고 있습니다."
           ],
@@ -55,18 +55,18 @@ const NEWS_DATA = {
             "0.87%",
             "0.60%",
             "0.49%",
-            "5.17%",
-            "13.27%",
-            "9.50%",
-            "8.75%",
-            "12.85%"
+            "10.82%",
+            "3.24%",
+            "15.86%",
+            "0.54%",
+            "0.47%"
           ],
           "sourceExcerpt": [
-            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending PLTR 5.17% TMUS 13.27% ADA 9.50% VZ 8.75% DOT 12.85% S",
+            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending NIGHT 10.82% FLY 3.24% FSLY 15.86% RIG 0.54% JPM 0.47%",
             "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus Wall Street’s biggest banks, including JPMorgan, Morgan Stanley, and Wells Fargo, will report earnings next week.",
             "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
           ],
-          "analysisUpdatedAt": 1791598960.8915794
+          "analysisUpdatedAt": 1791621911.5024137
         },
         "headlineKo": "S&P 500, Nasdaq 100, Dow End Week High, 트레이더들이 수익 시즌을 주목하고 있음 — ​​MSFT, NFLX, SPCX, ASTS In Focus"
       },
@@ -130,7 +130,7 @@ const NEWS_DATA = {
             "QQQ Turned the Same Money Into $26,100 - 24/7 Wall St.",
             "Skip to content ❚❚ At close S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0.43% S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0."
           ],
-          "analysisUpdatedAt": 1791598963.7556386
+          "analysisUpdatedAt": 1791621914.3904142
         },
         "headlineKo": "ChatGPT가 출시된 날 VGT의 $10,000는 이제 $30,500입니다. QQQ는 같은 돈을 $26,100로 바꾸었습니다."
       },
@@ -180,7 +180,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791598965.0068326
+          "analysisUpdatedAt": 1791621915.2807777
         },
         "headlineKo": "AI '슈퍼 붐' - 나스닥이 74,000을 기록할 수 있었던 이유"
       },
@@ -339,7 +339,7 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500, Nasdaq 100, Dow는 트레이더들이 수익 시즌을 주목하면서 주간 상승 — MSFT, NFLX, SPCX, ASTS에 집중 AI 에이전트 동향 뉴스 수익 전체 DIA 0.87% SPY 0.60% QQQ 0.49% 추세 PLTR 5.17% TMUS 13.27% ADA 9.50% VZ 8.75% 도트 12.85%S",
+            "S&P 500, Nasdaq 100, Dow는 트레이더들이 수익 시즌을 주목하면서 주간 상승 — MSFT, NFLX, SPCX, ASTS에 집중 AI 에이전트 동향 뉴스 수익 전체 DIA 0.87% SPY 0.60% QQQ 0.49% Trending NIGHT 10.82% FLY 3.24% FSLY 15.86% RIG 0.54% JPM 0.47%",
             "S&P 500, Nasdaq 100, 다우 종가 상승 및 트레이더들이 수익 시즌을 주목하고 있음 — ​​MSFT, NFLX, SPCX, ASTS In Focus JPMorgan, Morgan Stanley 및 Wells Fargo를 포함한 월스트리트 최대 은행들이 다음 주에 수익을 보고할 예정입니다.",
             "거래자들이 2026년 8월 5일 오전 거래 중에 뉴욕 증권 거래소 바닥에서 일하고 있습니다."
           ],
@@ -372,18 +372,18 @@ const NEWS_DATA = {
             "0.87%",
             "0.60%",
             "0.49%",
-            "5.17%",
-            "13.27%",
-            "9.50%",
-            "8.75%",
-            "12.85%"
+            "10.82%",
+            "3.24%",
+            "15.86%",
+            "0.54%",
+            "0.47%"
           ],
           "sourceExcerpt": [
-            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending PLTR 5.17% TMUS 13.27% ADA 9.50% VZ 8.75% DOT 12.85% S",
+            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending NIGHT 10.82% FLY 3.24% FSLY 15.86% RIG 0.54% JPM 0.47%",
             "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus Wall Street’s biggest banks, including JPMorgan, Morgan Stanley, and Wells Fargo, will report earnings next week.",
             "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
           ],
-          "analysisUpdatedAt": 1791598960.8915794
+          "analysisUpdatedAt": 1791621911.5024137
         }
       },
       {
@@ -446,7 +446,7 @@ const NEWS_DATA = {
             "QQQ Turned the Same Money Into $26,100 - 24/7 Wall St.",
             "Skip to content ❚❚ At close S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0.43% S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0."
           ],
-          "analysisUpdatedAt": 1791598963.7556386
+          "analysisUpdatedAt": 1791621914.3904142
         }
       },
       {
@@ -495,7 +495,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791598965.0068326
+          "analysisUpdatedAt": 1791621915.2807777
         }
       },
       {
@@ -5428,15 +5428,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791598953.9831622,
-    "_updated_label": "2026-10-10 11:22",
-    "_last_success_at": 1791598953.9831622,
+    "_fetched_at": 1791621904.2750657,
+    "_updated_label": "2026-10-10 17:45",
+    "_last_success_at": 1791621904.2750657,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 107,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "SPY": {
@@ -12201,7 +12201,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 137,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "MSFT": {
@@ -20096,7 +20096,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "GOOGL": {
@@ -28046,7 +28046,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "AMZN": {
@@ -35933,7 +35933,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "META": {
@@ -43860,7 +43860,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "AAPL": {
@@ -51761,7 +51761,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "TSLA": {
@@ -59695,7 +59695,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "ORCL": {
@@ -68053,7 +68053,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "CRM": {
@@ -74410,7 +74410,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "PLTR": {
@@ -83054,7 +83054,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "NVDA": {
@@ -90511,11 +90511,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "AMD": {
-    "_last_attempt_at": 1791598953.9831622,
+    "_last_attempt_at": 1791621904.2750657,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -90524,6 +90524,134 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Cathie Wood-Led Ark Invest Sells AMD, SPCX, GOOG Stocks — But Loads Up On CMPS, NTLA, CRSP And Other Healthcare Firms",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=35c31d32c5cef3edbb11bcd2a91ba841cc85bdbde509b3d2f9df13d64db91ae9",
+        "datetime": 1791612152,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Cathie Wood가 주도하는 Ark Invest는 AMD, SPCX, GOOG 주식을 판매하지만 CMPS, NTLA, CRSP 및 기타 의료 회사에 대한 로드가 증가합니다 AI 에이전트 동향 뉴스 수익 모든 DIA 0.87% SPY 0.60% QQQ 0.49% Trending NIGHT 10.82% FLY 3.24% FSLY 15.86% RIG 0.54% JP",
+            "Cathie Wood가 이끄는 Ark Invest는 AMD, SPCX, GOOG 주식을 매도하지만 CMPS, NTLA, CRSP 및 기타 의료 회사에 부담을 줍니다.",
+            "ARK Invest의 CEO 겸 최고 투자 책임자인 Cathie Wood가 2023년 8월 27일 조지아주 애틀랜타 조지아 월드 콩그레스 센터에서 열린 2023 Invest Fest 2일차 무대에서 연설하고 있습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.87%, 0.60%, 0.49% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "AMD에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.87%",
+            "0.60%",
+            "0.49%",
+            "10.82%",
+            "3.24%",
+            "15.86%",
+            "0.54%",
+            "0.47%"
+          ],
+          "sourceExcerpt": [
+            "Cathie Wood-Led Ark Invest Sells AMD, SPCX, GOOG Stocks — But Loads Up On CMPS, NTLA, CRSP And Other Healthcare Firms AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending NIGHT 10.82% FLY 3.24% FSLY 15.86% RIG 0.54% JP",
+            "Cathie Wood-Led Ark Invest Sells AMD, SPCX, GOOG Stocks — But Loads Up On CMPS, NTLA, CRSP And Other Healthcare Firms The trades put some of Ark's better-known holdings on the sell side, including AMD, Alphabet, and SpaceX, while its genomi",
+            "Cathie Wood, CEO & Chief Investment Officer of ARK Invest, speaks onstage during Day 2 of 2023 Invest Fest at Georgia World Congress Center on August 27, 2023 in Atlanta, Georgia."
+          ],
+          "analysisUpdatedAt": 1791621924.4913044
+        },
+        "headlineKo": "Cathie Wood가 주도하는 Ark Invest는 AMD, SPCX, GOOG 주식을 판매하지만 CMPS, NTLA, CRSP 및 기타 의료 회사에 로드됩니다."
+      },
+      {
+        "headline": "Why AMD's Supply Crunch Could Be Good News for Its Stock",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1492045f33134b0d3cec770bb4f14f16ff591843f715aab9f07ff15d45d4e81f",
+        "datetime": 1791603242,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "공급망 · 생산 차질 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AMD의 공급 위기가 자사 주식에 좋은 소식이 될 수 있는 이유 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices( AMD -2.03% )는 대부분의 회사에 일종의 문제가 있습니다.",
+            "고객이 구매하고 싶어하는 만큼 빠르게 일부 칩을 구축할 수는 없습니다.",
+            "CEO Lisa Su는 10월 타이베이에서 이와 같은 말을 했습니다."
+          ],
+          "why": [
+            "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $649.42, $1 trillion, $30 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "주문은 있어도 부품이나 생산 문제로 제때 팔지 못할 수 있다는 뉴스입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "출하 지연 기간",
+            "재고와 리드타임",
+            "매출총이익률·대체 공급처"
+          ],
+          "interpretation": "AMD에 대한 공급망 · 생산 차질 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$649.42",
+            "$1 trillion",
+            "$30 billion",
+            "$12.2 billion",
+            "$25.7 billion",
+            "$30.3 billion",
+            "150%",
+            "$34.6 billion"
+          ],
+          "sourceExcerpt": [
+            "Why AMD's Supply Crunch Could Be Good News for Its Stock | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices ( AMD -2.03% ) has the sort of problem most compani",
+            "It can't build some of its chips as fast as customers want to buy them.",
+            "CEO Lisa Su said as much in Taipei on Oct."
+          ],
+          "analysisUpdatedAt": 1791621930.3548138
+        },
+        "headlineKo": "AMD의 공급 위기가 자사 주식에 좋은 소식이 될 수 있는 이유"
+      },
       {
         "headline": "AMD CEO Su shares important supply news with stock market investors",
         "source": "Yahoo",
@@ -90569,7 +90697,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791598970.8384364
+          "analysisUpdatedAt": 1791621931.4323163
         },
         "headlineKo": "AMD CEO Su는 주식 시장 투자자들과 중요한 공급 소식을 공유합니다."
       },
@@ -90581,60 +90709,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "예측: 이는 1년 후 AMD의 주가가 될 것입니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool AMD( AMD -2.03% )는 놀라운 2026년을 보냈으며 1월부터 주식 ha",
-            "투자자들은 주식이 좋은 성적을 거두는 것을 보고 싶어하지만 과거의 수익률은 지금은 아무 의미가 없습니다. 중요한 것은 미래에 무슨 일이 일어날 것인가이다.",
-            "그렇다면 1년 후 AMD의 주가는 어떻게 될까요?"
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 50%, 107%, $5.8 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "AMD에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "50%",
-            "107%",
-            "$5.8 billion",
-            "30 times",
-            "0.52%",
-            "0.39%",
-            "32 times",
-            "41 times"
-          ],
-          "sourceExcerpt": [
-            "Prediction: This Will Be AMD's Stock Price in 1 Year | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool AMD ( AMD -2.03% ) has had an incredible 2026, and since January, the stock ha",
-            "Investors love to see a stock do that well, but past returns mean nothing now; all that matters is what's coming in the future.",
-            "So, where will AMD's stock price be a year from now?"
-          ],
-          "analysisUpdatedAt": 1791598974.1604536
-        },
         "headlineKo": "예측: 이는 1년 후 AMD의 주가가 될 것입니다."
       },
       {
@@ -90645,67 +90719,7 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "AMD vs. Broadcom: How Much Faster Must AMD’s Cash Flow Grow to Earn Its Premium?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD vs. Broadcom: How Much Faster Must AMD’s Cash Flow Grow to Earn Its Premium?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 비용·CAPEX·영업현금흐름·FCF·부채 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791598976.007781
-        },
         "headlineKo": "AMD 대 Broadcom: 프리미엄을 얻으려면 AMD의 현금 흐름이 얼마나 빨리 증가해야 합니까?"
-      },
-      {
-        "headline": "Nvidia and AMD Lead the AI Market. 1 Chip Stock Has Far Greater Upside.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=fbe43a1bea22e440611340550499913c019922f20fe293e57cdaf03152924c9a",
-        "datetime": 1791560220,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Nvidia와 AMD가 AI 시장을 선도합니다. 1 칩 주식은 훨씬 더 큰 상승 여력을 가지고 있습니다."
-      },
-      {
-        "headline": "Advanced Micro Devices’ (AMD) Premium Valuation Puts Execution Under the Microscope",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ae753a8785edef4fdea5f2db2d7a7324f62f9a77a3cd044d006633ab4e6a3bb8",
-        "datetime": 1791559487,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "AMD(Advanced Micro Devices)의 프리미엄 가치 평가를 통해 실행을 현미경으로 살펴봅니다."
       },
       {
         "headline": "AMD: The AI Momentum Train Looks Unstoppable, But I'm Pausing Accumulation (Downgrade)",
@@ -90721,6 +90735,132 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Cathie Wood-Led Ark Invest Sells AMD, SPCX, GOOG Stocks — But Loads Up On CMPS, NTLA, CRSP And Other Healthcare Firms",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=35c31d32c5cef3edbb11bcd2a91ba841cc85bdbde509b3d2f9df13d64db91ae9",
+        "datetime": 1791612152,
+        "headlineKo": "Cathie Wood가 주도하는 Ark Invest는 AMD, SPCX, GOOG 주식을 판매하지만 CMPS, NTLA, CRSP 및 기타 의료 회사에 로드됩니다.",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Cathie Wood가 주도하는 Ark Invest는 AMD, SPCX, GOOG 주식을 판매하지만 CMPS, NTLA, CRSP 및 기타 의료 회사에 대한 로드가 증가합니다 AI 에이전트 동향 뉴스 수익 모든 DIA 0.87% SPY 0.60% QQQ 0.49% Trending NIGHT 10.82% FLY 3.24% FSLY 15.86% RIG 0.54% JP",
+            "Cathie Wood가 이끄는 Ark Invest는 AMD, SPCX, GOOG 주식을 매도하지만 CMPS, NTLA, CRSP 및 기타 의료 회사에 부담을 줍니다.",
+            "ARK Invest의 CEO 겸 최고 투자 책임자인 Cathie Wood가 2023년 8월 27일 조지아주 애틀랜타 조지아 월드 콩그레스 센터에서 열린 2023 Invest Fest 2일차 무대에서 연설하고 있습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.87%, 0.60%, 0.49% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "AMD에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.87%",
+            "0.60%",
+            "0.49%",
+            "10.82%",
+            "3.24%",
+            "15.86%",
+            "0.54%",
+            "0.47%"
+          ],
+          "sourceExcerpt": [
+            "Cathie Wood-Led Ark Invest Sells AMD, SPCX, GOOG Stocks — But Loads Up On CMPS, NTLA, CRSP And Other Healthcare Firms AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending NIGHT 10.82% FLY 3.24% FSLY 15.86% RIG 0.54% JP",
+            "Cathie Wood-Led Ark Invest Sells AMD, SPCX, GOOG Stocks — But Loads Up On CMPS, NTLA, CRSP And Other Healthcare Firms The trades put some of Ark's better-known holdings on the sell side, including AMD, Alphabet, and SpaceX, while its genomi",
+            "Cathie Wood, CEO & Chief Investment Officer of ARK Invest, speaks onstage during Day 2 of 2023 Invest Fest at Georgia World Congress Center on August 27, 2023 in Atlanta, Georgia."
+          ],
+          "analysisUpdatedAt": 1791621924.4913044
+        }
+      },
+      {
+        "headline": "Why AMD's Supply Crunch Could Be Good News for Its Stock",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1492045f33134b0d3cec770bb4f14f16ff591843f715aab9f07ff15d45d4e81f",
+        "datetime": 1791603242,
+        "headlineKo": "AMD의 공급 위기가 자사 주식에 좋은 소식이 될 수 있는 이유",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "공급망 · 생산 차질 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AMD의 공급 위기가 자사 주식에 좋은 소식이 될 수 있는 이유 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices( AMD -2.03% )는 대부분의 회사에 일종의 문제가 있습니다.",
+            "고객이 구매하고 싶어하는 만큼 빠르게 일부 칩을 구축할 수는 없습니다.",
+            "CEO Lisa Su는 10월 타이베이에서 이와 같은 말을 했습니다."
+          ],
+          "why": [
+            "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $649.42, $1 trillion, $30 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "주문은 있어도 부품이나 생산 문제로 제때 팔지 못할 수 있다는 뉴스입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "출하 지연 기간",
+            "재고와 리드타임",
+            "매출총이익률·대체 공급처"
+          ],
+          "interpretation": "AMD에 대한 공급망 · 생산 차질 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$649.42",
+            "$1 trillion",
+            "$30 billion",
+            "$12.2 billion",
+            "$25.7 billion",
+            "$30.3 billion",
+            "150%",
+            "$34.6 billion"
+          ],
+          "sourceExcerpt": [
+            "Why AMD's Supply Crunch Could Be Good News for Its Stock | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices ( AMD -2.03% ) has the sort of problem most compani",
+            "It can't build some of its chips as fast as customers want to buy them.",
+            "CEO Lisa Su said as much in Taipei on Oct."
+          ],
+          "analysisUpdatedAt": 1791621930.3548138
+        }
+      },
       {
         "headline": "AMD CEO Su shares important supply news with stock market investors",
         "source": "Yahoo",
@@ -90766,7 +90906,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791598970.8384364
+          "analysisUpdatedAt": 1791621931.4323163
         }
       },
       {
@@ -98406,115 +98546,17 @@ const NEWS_DATA = {
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1790151575.0443537
         }
-      },
-      {
-        "headline": "Intel (INTC) Could Get a Fresh Valuation for Altera. AMD (AMD) Is the Rival to Watch",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=250b1c3e78518eca33e3e0459463a9fe45c5ed50766de5acc02ebde4744118b4",
-        "datetime": 1790137030,
-        "headlineKo": "Intel(INTC)은 Altera에 대한 새로운 평가를 받을 수 있습니다. AMD(AMD)가 주목할만한 라이벌이다",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Intel (INTC) Could Get a Fresh Valuation for Altera. AMD (AMD) Is the Rival to Watch",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'Intel (INTC) Could Get a Fresh Valuation for Altera. AMD (AMD) Is the Rival to Watch' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790151577.0828683
-        }
-      },
-      {
-        "headline": "AMD just hit a milestone that reshuffles the AI chip race",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d290b555637b0efbb052a7b54494de771a890816428891127e28594c500bfd6f",
-        "datetime": 1790137020,
-        "headlineKo": "AMD는 AI 칩 경쟁을 재편하는 이정표를 달성했습니다.",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "AMD just hit a milestone that reshuffles the AI chip race",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD just hit a milestone that reshuffles the AI chip race' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790151577.7635276
-        }
       }
     ],
-    "_fetched_at": 1791598953.9831622,
-    "_updated_label": "2026-10-10 11:22",
-    "_last_success_at": 1791598953.9831622,
+    "_fetched_at": 1791621904.2750657,
+    "_updated_label": "2026-10-10 17:45",
+    "_last_success_at": 1791621904.2750657,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "AVGO": {
@@ -107623,7 +107665,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "QCOM": {
@@ -114489,7 +114531,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 149,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "ARM": {
@@ -119438,7 +119480,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "MRVL": {
@@ -127230,7 +127272,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 170,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "INTC": {
@@ -135625,7 +135667,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "TSM": {
@@ -141881,7 +141923,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 139,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "ASML": {
@@ -146216,7 +146258,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "AMAT": {
@@ -150709,7 +150751,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "LRCX": {
@@ -153199,7 +153241,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "KLAC": {
@@ -155543,7 +155585,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "MU": {
@@ -162996,7 +163038,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "SNDK": {
@@ -170597,7 +170639,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 158,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "WDC": {
@@ -175094,7 +175136,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "ANET": {
@@ -178752,7 +178794,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "COHR": {
@@ -181916,7 +181958,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "LITE": {
@@ -185460,7 +185502,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "GEV": {
@@ -190384,7 +190426,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "CEG": {
@@ -194804,7 +194846,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "VST": {
@@ -198186,7 +198228,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "ETN": {
@@ -201301,7 +201343,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "PWR": {
@@ -204241,7 +204283,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "HUBB": {
@@ -205009,7 +205051,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "VRT": {
@@ -208832,7 +208874,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "MOD": {
@@ -210160,7 +210202,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "STX": {
@@ -214218,7 +214260,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "EME": {
@@ -215981,7 +216023,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "FIX": {
@@ -217575,7 +217617,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   },
   "BE": {
@@ -219852,7 +219894,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-10-10 16:41"
+      "updated": "2026-10-10 17:45"
     }
   }
 };

@@ -246,6 +246,15 @@ const MARKET_DATA = {
       "summaryKo": "월스트리트는 수입, 인플레이션 데이터를 통해 주간 이익을 게시합니다. Reuters"
     },
     {
+      "headline": "Kremlin says Putin in phone call with Trump downplays immediate Ukraine talks resumption - Reuters",
+      "summary": "Kremlin says Putin in phone call with Trump downplays immediate Ukraine talks resumption Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQa1VpS1UxU2RzcFdfQkpkUXdBQkd5cTZPdTRrU3hTSzFhOHpaN25PcHJjblJGdGQxSlBSNjZ2S0tnSlhUYmRLZmtubDJ4NU5WYXJxRHBSdy1kSHBpdGktVFpZcGVTNTJPZHlvREE1QnVuXzE5SXR1Y19KLWdmdTlKMWIwRjBGQzFFbGVUTmw3TUNaY0FjWHRCSjdWSk1kT3NHVlJGSlY3MVR6d0REZlVjdmhpX3JPOFgwZVF0UlYtb3c?oc=5",
+      "datetime": 1791583482,
+      "headlineKo": "크렘린궁은 푸틴 대통령이 트럼프 대통령과 통화에서 즉각적인 우크라이나 회담 재개를 무시했다고 밝혔습니다.",
+      "summaryKo": "크렘린궁 \"푸틴 대통령, 트럼프 대통령과 통화에서 우크라이나 회담 재개 즉각 경시\" - 로이터"
+    },
+    {
       "headline": "What's behind the recovery rally in tech stocks — plus, Elon Musk's very good week",
       "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
       "source": "CNBC",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1791562731,
       "headlineKo": "트럼프의 공급 확대 움직임에도 불구하고 미국 디젤 가격은 여전히 ​​​​높습니다 - Reuters",
       "summaryKo": "트럼프의 공급 확대 움직임에도 불구하고 미국 디젤 가격은 여전히 ​​​​높습니다 - 최신"
-    },
-    {
-      "headline": "Four signs it is about to get uglier in the bond market as yields rise - Reuters",
-      "summary": "Four signs it is about to get uglier in the bond market as yields rise Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZnpPbXRYRlc0T3dINmZIZnM3VEgxWWJzS2tLRVBadmJMVnQ2ekdHaTQ1NG1SZlhfTV84VjNsM3JNR0RRSTZyVWJ1ODJFZmxpa1pxckluaktPY0d6T0d3bUVUUnRGQjlCVmwxWUNGWEs2cEo1VGV4R3MxN19PakJaZ3FUZnZfMWxqUHAzNk1nOTVFT0hr?oc=5",
-      "datetime": 1791562715,
-      "headlineKo": "수익률이 상승함에 따라 채권시장이 더욱 악화될 것이라는 4가지 징후 - Reuters",
-      "summaryKo": "수익률이 상승함에 따라 채권 시장이 더욱 악화될 것이라는 4가지 징후 Reuters"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791618143.7939107,
+  "_news_last_success_at": 1791621944.5848916,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791618135.4521844,
-  "_updated_label": "2026-10-10 16:42",
-  "_last_attempt_at": 1791618135.4521844,
-  "_last_success_at": 1791618135.4521844,
+  "_fetched_at": 1791621936.016306,
+  "_updated_label": "2026-10-10 17:46",
+  "_last_attempt_at": 1791621936.016306,
+  "_last_success_at": 1791621936.016306,
   "_collection_status": "ok",
   "_collection_errors": []
 };
