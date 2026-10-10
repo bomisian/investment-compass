@@ -5366,6 +5366,27 @@ function pvCommonNtmEpsPer(eps, price, asOfDate){
   };
 }
 
+// --- 51747 -- 가격 판단(아래 "7) 가격 판단 4분류")에 GAAP/비GAAP 기준 불일치 여부가 필요해져
+//     독립 헬퍼로 추가했다. pvCrossCheck의 EPS 우선순위 로직(① 공식 비GAAP 가이던스 → ②
+//     없으면 최근 분기 GAAP 실제 EPS 대체)과 정확히 같은 조건이지만, pvCrossCheck 자체가 price
+//     를 인자로 받아 price 계산보다 먼저 부를 수 없으므로 판정 로직만 독립적으로 복제했다.
+function pvEpsBasisIsGaapSubstitute(t, fin){
+  const gh = (typeof GUIDANCE_HISTORY_DATA!=='undefined') ? GUIDANCE_HISTORY_DATA[t] : null;
+  let hasNonGaapGuide = false;
+  if(Array.isArray(gh)){
+    for(let i=gh.length-1;i>=0;i--){
+      const rec = gh[i];
+      if(!rec || rec.quarantined) continue;
+      if(!rec.guidance || rec.guidance.status!=='available' || !Array.isArray(rec.guidance.metrics)) continue;
+      const epsM = rec.guidance.metrics.find(m=>m && m.metric==='eps' && typeof m.low==='number' && typeof m.high==='number' && m.basis==='non_gaap');
+      if(epsM){ hasNonGaapGuide = true; break; }
+    }
+  }
+  if(hasNonGaapGuide) return false;
+  const q = fin && Array.isArray(fin.quarterly) && fin.quarterly.length ? fin.quarterly[fin.quarterly.length-1] : null;
+  return !!(q && typeof q.eps==='number' && q.eps>0);
+}
+
 function computePriceValidity(r){
   const t = r.ticker;
   const fund = (typeof FUNDAMENTALS_DATA!=='undefined') ? FUNDAMENTALS_DATA[t] : null;
@@ -5475,19 +5496,43 @@ function computePriceValidity(r){
   else if(techScore===0 && uptrend) chart = '추격 금지';
   else chart = '하락 추세 경계';
 
-  // --- 7) 가격 타당성 5분류 (103과 분리 -- 기술적 진입 상태가 가격 라벨을 낮추지 않음) ---
-  let price;
+  // --- 7) 가격 판단 4분류 (51747 재정의, 사용자 요청 2026-10-10) -- 기존 5분류(매력적/적정/
+  //     경계/접근 회피/가격대 산출 제한)를 4분류로 단순화한다. "접근 회피"는 가격 판단이 아니라
+  //     위험 판단이었으므로 가격 축에서 완전히 제거하고(아래 highRiskCombo로 분리, 종합 행동
+  //     로직에서 동일하게 재사용), 아래 세 가지 중 하나라도 성립하면 저평가/고평가 분류 자체를
+  //     금지하고 "가격 판단 보류"로만 표시한다 -- 숫자를 보여주되 경고만 붙이는 방식(51746)을
+  //     버리고, 분류값 자체를 바꾼다:
+  //     (1) 유효한 과거 PER 밴드 부재(!bandEligible, 기존과 동일)
+  //     (2) 과거 PER 비교 가능성 훼손(distorted -- 평균÷현재NTM PER 비율 3배 초과. 사업 구조·
+  //         이익 사이클 변화의 대리 지표로 기존부터 쓰이던 값 -- AVGO 실측: 왜곡 상태로 계산한
+  //         가격대가 $793~$1465로 나와 현재가 $360대와 2배 이상 벌어졌던 사례가 이 조건으로
+  //         "가격 판단 보류"가 된다)
+  //     (3) GAAP/비GAAP 기준 불일치(공식 비GAAP 가이던스가 없어 GAAP 실적으로 대체한 경우 --
+  //         ARM·VST 등. pvEpsBasisIsGaapSubstitute, 51739에서 이미 "비교 기준 제한" 배지로
+  //         쓰던 것과 같은 판정)
+  //     세 조건 모두 이미 계산되던 값을 재사용할 뿐 새 임계값을 만들지 않는다. ---
+  const gaapBasisOnly = pvEpsBasisIsGaapSubstitute(t, fin);
+  let price, priceHoldReason = null;
   if(!bandEligible){
-    price = '가격대 산출 제한';
-  } else if(epsDamaged && cfVeto){
-    price = '접근 회피';
+    price = '가격 판단 보류';
+    priceHoldReason = blockReason || '유효한 과거 PER 밴드 없음';
+  } else if(distorted){
+    price = '가격 판단 보류';
+    priceHoldReason = '과거 PER 비교 가능성 제한(평균÷현재NTM PER ' + distortionRatio.toFixed(1) + '배 차이) — 사업 구조·이익 사이클 변화 가능성';
+  } else if(gaapBasisOnly){
+    price = '가격 판단 보류';
+    priceHoldReason = 'GAAP/비GAAP 기준 불일치 — 공식 비GAAP 가이던스가 없어 GAAP 실적으로 대체, 비GAAP 가이던스 종목과 직접 비교 제한';
   } else if(ntmPer < perBandLowVal){
-    price = '매력적';
+    price = '저평가';
   } else if(ntmPer > perBandHighVal){
-    price = '경계';
+    price = '고평가';
   } else {
     price = '적정';
   }
+  // "접근 회피"는 더 이상 가격 라벨이 아니라 위험 신호다 -- EPS 수정 방향 하향 + 현금흐름
+  // 거부권이 동시에 성립하면 가격 판단과 무관하게 종합 행동에서 신규 접근 중지로 이어진다
+  // (아래 pvIntegratedAction P4, 과거 '접근 회피' 분기와 조건·효과가 동일함).
+  const highRiskCombo = !!(epsDamaged && cfVeto);
 
   // --- 8) 사업 축 (142 기대충족 상태 재사용, 신규 계산 없음) ---
   let business = '평가 보류';
@@ -5547,7 +5592,7 @@ function computePriceValidity(r){
   const crossCheck = pvCrossCheck(t, r.price, price, fin, fund, iv);
 
   return {
-    ticker: t, price, business, cashflow, chart,
+    ticker: t, price, priceHoldReason, highRiskCombo, gaapBasisOnly, business, cashflow, chart,
     ntmPer, ntmEps, ntmSourceOk, ntmNote, ntmMethod, distortionRatio, distorted, bandEligible, blockReason, bandBasis,
     perBandLowVal, perBandHighVal, avgPe3Y: fund ? fund.avgPe3Y : null, perBandYears: fund ? fund.perBandYears : null,
     cfVeto, cfVetoCount, cfDetail, fcfWorsen2y, debtHigh, dilution,
@@ -5596,7 +5641,8 @@ function pvCrossCheck(t, price, perLabel, fin, fund, iv){
       eps.basisKind = 'guidance_nongaap';
       eps.basisLabel = `공식 비GAAP 가이던스(${epsGuideRec.rec.guidance.targetPeriod||'—'} EPS 중간값 $${mid.toFixed(2)} ×4)`;
       eps.tier = eps.multiple>=60 ? '높은 이익 가속 필요' : (eps.multiple>=40 ? '성장 프리미엄 반영' : '이익 기준 추가 확인');
-      eps.badge = (perLabel==='매력적' && eps.tier==='높은 이익 가속 필요') ? '기대 선반영 확인 필요' : '일치';
+      // 51747 -- price 라벨이 '매력적'에서 '저평가'로 바뀜(가격 판단 4분류 재정의).
+      eps.badge = (perLabel==='저평가' && eps.tier==='높은 이익 가속 필요') ? '기대 선반영 확인 필요' : '일치';
     } else {
       eps.basisLabel = '공식 비GAAP 가이던스 중간값이 0 이하(적자 가이던스)라 연환산 불가';
     }
@@ -5675,7 +5721,7 @@ function pvIntegratedAction(d){
   if(d.downturnState === '신규 접근 중지'){
     return {
       label: '신규 접근 중지',
-      reason: `구조 훼손 우려가 해소되기 전에는 가격이 ${d.price==='가격대 산출 제한'?'제한 구간이어도':'적정/매력적 구간이어도'} 신규 진입·추가 매수를 하지 않습니다${d.downturnSummary?` — ${d.downturnSummary}`:''}.`,
+      reason: `구조 훼손 우려가 해소되기 전에는 가격이 ${d.price==='가격 판단 보류'?'판단 보류 구간이어도':'적정/저평가 구간이어도'} 신규 진입·추가 매수를 하지 않습니다${d.downturnSummary?` — ${d.downturnSummary}`:''}.`,
       recheck: d.downturnNextCheck || '하락 원인 진단의 사업 전제·현금흐름 지표 재확인 시 재평가',
       tier: 'downturn_stop',
     };
@@ -5693,7 +5739,7 @@ function pvIntegratedAction(d){
   //     절대 쓰지 않는다. 종합 행동 헤드라인은 항상 5개 표준 어휘 중 하나로만 표시하고(51736
   //     원칙), 사업·현금흐름·차트 조합에 따른 세부 설명은 기존 pvActionSentence 문장에 그대로
   //     남긴다(이유 줄에서 확인 가능, 헤드라인 어휘만 표준화). ---
-  if(d.price === '가격대 산출 제한'){
+  if(d.price === '가격 판단 보류'){
     let label;
     if(d.business==='약화' && d.cashflow==='경계') label = '신규 접근 중지';
     else if(d.cashflow==='경계' && d.chart==='하락 추세 경계') label = '신규 접근 중지';
@@ -5703,12 +5749,13 @@ function pvIntegratedAction(d){
     else label = '관찰'; // 눌림 진입 가능이어도 가격 자체가 미확인이라 분할 검토로 올리지 않음
     return { label, reason: pvActionSentence(d), recheck: pvChangeConditions(d), tier: 'price_restricted' };
   }
-  // P4: 현금흐름 거부권 또는 접근 회피 -- 가격 라벨과 무관하게 신규 접근 중지
-  if(d.cashflow === '경계' || d.price === '접근 회피'){
+  // P4: 현금흐름 거부권 또는 고위험 조합(EPS 하향 + 현금흐름 거부권, 51747에서 '접근 회피'
+  //     가격 라벨을 대체) -- 가격 라벨과 무관하게 신규 접근 중지
+  if(d.cashflow === '경계' || d.highRiskCombo){
     return { label: '신규 접근 중지', reason: pvActionSentence(d), recheck: pvChangeConditions(d), tier: 'cf_veto' };
   }
-  // P5: 가격이 과거 고밴드를 넘어선 경계 구간
-  if(d.price === '경계'){
+  // P5: 가격이 고평가 구간(과거 고밴드를 넘어섬)
+  if(d.price === '고평가'){
     return { label: '신규 접근 중지', reason: pvActionSentence(d), recheck: pvChangeConditions(d), tier: 'price_caution' };
   }
   // P6: 차트 기반(기존 로직 그대로) -- 하락 추세/추격 구간/눌림 진입 가능 등
@@ -5730,16 +5777,16 @@ function pvActionSentence(d){
   const T2 = '가격은 매력적일 수 있으나 현재는 추격 구간 — 눌림 또는 반등 확인 대기';
   const T3 = '사업·현금흐름 경계 요인이 있어 가격이 낮아 보여도 신규 접근 중지';
 
-  if(d.price === '가격대 산출 제한') return pvRestrictedActionSentence(d);
+  if(d.price === '가격 판단 보류') return pvRestrictedActionSentence(d);
   if(d.cashflow === '경계') return T3;
-  if(d.price === '접근 회피') return '사업·현금흐름 근거가 동시에 훼손되어(EPS 하향 + 현금흐름 거부권) 신규 접근을 피합니다.';
-  if(d.price === '경계') return '현재가가 요구하는 밸류에이션이 과거 고밴드를 넘어서 있어 시장 기대가 이미 크게 반영된 구간으로 보입니다 — 추가 상승 여력보다 되돌림 위험을 함께 고려하십시오.';
-  // 이 지점부터는 가격이 매력적 또는 적정이고 현금흐름도 건전함
+  if(d.highRiskCombo) return '사업·현금흐름 근거가 동시에 훼손되어(EPS 하향 + 현금흐름 거부권) 신규 접근을 피합니다.';
+  if(d.price === '고평가') return '현재가가 요구하는 밸류에이션이 과거 고밴드를 넘어서 있어 시장 기대가 이미 크게 반영된 구간으로 보입니다 — 추가 상승 여력보다 되돌림 위험을 함께 고려하십시오.';
+  // 이 지점부터는 가격이 저평가 또는 적정이고 현금흐름도 건전함
   if(d.chart === '추격 금지'){
-    return d.price==='매력적' ? T2 : '가격은 적정 구간일 수 있으나 현재는 추격 구간 — 눌림 또는 반등 확인 대기';
+    return d.price==='저평가' ? T2 : '가격은 적정 구간일 수 있으나 현재는 추격 구간 — 눌림 또는 반등 확인 대기';
   }
   if(d.chart === '하락 추세 경계'){
-    return `가격은 ${d.price==='매력적'?'매력적':'적정'} 구간이나 차트는 하락 추세 경계 — 추세 반전 확인 전 신규 진입 보류`;
+    return `가격은 ${d.price==='저평가'?'저평가':'적정'} 구간이나 차트는 하락 추세 경계 — 추세 반전 확인 전 신규 진입 보류`;
   }
   if(d.chart === '데이터 부족'){
     return '차트 데이터가 부족해 기술적 진입 상태를 판단할 수 없습니다 — 사업·현금흐름 근거만 참고하십시오.';
@@ -5792,13 +5839,15 @@ function pvActionShort(d){
 // --- 판단이 바뀌는 다음 확인 조건(1~2개). 이미 계산된 게이트(NTM/거부권/EPS방향/차트상태)를
 //     "무엇이 바뀌면 결론이 달라지는지"로 되풀이해 설명할 뿐, 새 임계값이나 새 데이터를 쓰지 않음. ---
 function pvChangeConditions(d){
-  if(d.price === '가격대 산출 제한'){
+  if(d.price === '가격 판단 보류'){
     if(d.blockReason === 'NTM EPS/PER 입력 미확보') return 'EPS 컨센서스(현재·다음 회계연도) 확보 시 가격대 재계산';
+    if(d.distorted) return '과거 PER 비교 가능성이 회복되거나(평균÷현재NTM PER 비율 3배 이내) 다른 밸류에이션 방법으로 확인될 때';
+    if(d.gaapBasisOnly) return '공식 비GAAP 가이던스 공시 시 재계산';
     return '과거 PER 유효 관측치(흑자 연도) 확보 시 가격대 재계산';
   }
-  if(d.price === '접근 회피') return 'EPS 수정 방향 회복과 현금흐름 거부권 해제';
+  if(d.highRiskCombo) return 'EPS 수정 방향 회복과 현금흐름 거부권 해제';
   if(d.cashflow === '경계') return 'FCF·부채조달 부담 완화와 추세 반전 확인';
-  if(d.price === '경계') return 'PER이 과거 밴드 안으로 복귀하거나 EPS 상향으로 밴드 자체가 올라올 때';
+  if(d.price === '고평가') return 'PER이 과거 밴드 안으로 복귀하거나 EPS 상향으로 밴드 자체가 올라올 때';
   if(d.chart === '하락 추세 경계') return '추세 반전 확인(200일선 회복) 또는 EPS·현금흐름 추가 악화 시 재검토';
   if(d.chart === '추격 금지' || d.chart === '반등 확인 대기') return 'EPS 상향 흐름 훼손 또는 현금전환 악화';
   if(d.chart === '눌림 진입 가능') return 'EPS 하향 전환 또는 현금흐름 거부권 발동 시 진입 보류로 전환';
@@ -5899,11 +5948,66 @@ function pvExecutionVerdict(d, r, act, num){
 }
 
 
+// --- 51747 -- 차트는 가격 판단과 분리된 축으로 유지하되, 사용자 요청대로 표시는 "진입 가능/
+//     눌림 대기/반등 확인/관찰" 4개 단순 라벨만 쓴다. 내부 5상태(d.chart)는 pvIntegratedAction
+//     등 기존 로직이 그대로 참조하므로 값 자체를 바꾸지 않고 표시용 매핑만 추가한다. ---
+function pvChartSimple(d){
+  switch(d.chart){
+    case '눌림 진입 가능': return '진입 가능';
+    case '반등 확인 대기': return '반등 확인';
+    case '추격 금지': return '눌림 대기';
+    case '하락 추세 경계': return '관찰';
+    case '데이터 부족': return '관찰';
+    default: return '관찰';
+  }
+}
+
+// --- 51747 -- 가격 판단 근거를 최대 세 개의 숫자·문장으로 요약(사용자 요청: 과거 PER 비교
+//     유효성 / FY1·FY2 EPS 방향 / FCF·부채·희석). 모두 이미 계산된 필드를 재사용할 뿐 새
+//     데이터 소스를 추가하지 않는다. ---
+function pvPriceRationale(d, num){
+  const lines = [];
+  if(d.price === '가격 판단 보류'){
+    lines.push(d.priceHoldReason || '가격 판단 보류');
+  } else if(num(d.distortionRatio)){
+    lines.push(`과거 PER 비교 유효(평균÷현재NTM PER ${d.distortionRatio.toFixed(1)}배 차이, 왜곡 기준 3배 미만)`);
+  }
+  if(d.eps && d.eps.direction){
+    lines.push(`EPS 수정 방향 ${d.eps.direction}${num(d.eps.change90dPct) ? `(90일 ${d.eps.change90dPct>=0?'+':''}${d.eps.change90dPct.toFixed(1)}%)` : ''}`);
+  }
+  if(d.cfDetail && d.cfDetail.length){
+    lines.push(`현금흐름·부채·희석: ${d.cfDetail.join(', ')}`);
+  } else {
+    lines.push('현금흐름·부채·희석: 악화 신호 없음');
+  }
+  return lines.slice(0,3);
+}
+
+// --- 51747 -- 위험은 가격 판단과 분리해 한 문장으로 같이 보여준다(사용자 요청: "저평가
+//     가능성이나 FCF 악화 위험", "적정이나 EPS 상향 확인 필요" 형태). 이미 계산된
+//     highRiskCombo/cfVeto/epsDamaged/priceHoldReason을 조합할 뿐 새 판정을 만들지 않는다. ---
+function pvPriceRiskLine(d){
+  if(d.price === '가격 판단 보류') return `가격 판단 보류 — ${d.priceHoldReason||'근거 불충분'}`;
+  if(d.price === '저평가'){
+    if(d.highRiskCombo) return '저평가 가능성이나 EPS 하향·현금흐름 악화가 동시에 확인되어 위험';
+    if(d.cfVeto) return '저평가 가능성이나 FCF·부채·희석 악화 위험 확인 필요';
+    if(d.epsDamaged) return '저평가 가능성이나 EPS 하향 방향 확인 필요';
+    return '저평가 가능성 — 추가 확인 필요';
+  }
+  if(d.price === '적정'){
+    if(d.epsDamaged) return '적정이나 EPS 하향 방향 확인 필요';
+    return '적정이나 EPS 상향 확인 필요';
+  }
+  if(d.price === '고평가') return '고평가 — 시장 기대가 이미 반영되어 되돌림 위험';
+  return null;
+}
+
 const PV_COLOR = {
-  '매력적':'#2f5b3c', '적정':'#3c4552', '경계':'#7a5c00', '접근 회피':'#7a3b2e', '가격대 산출 제한':'#7a5c00',
+  '저평가':'#2f5b3c', '적정':'#3c4552', '고평가':'#7a3b2e', '가격 판단 보류':'#7a5c00',
   '강화':'#2f5b3c', '유지':'#3c4552', '약화':'#7a3b2e', '평가 보류':'#5b6472',
   '건전':'#2f5b3c',
   '눌림 진입 가능':'#2f5b3c', '반등 확인 대기':'#7a5c00', '추격 금지':'#7a3b2e', '하락 추세 경계':'#7a3b2e', '데이터 부족':'#5b6472',
+  '진입 가능':'#2f5b3c', '눌림 대기':'#7a5c00', '반등 확인':'#7a5c00', '관찰':'#5b6472',
 };
 
 function renderPriceValidityCard(r){
@@ -5922,7 +6026,7 @@ function renderPriceValidityCard(r){
   // 결론 영역(최상단 고정) -- 오늘의 판단 → 오늘의 행동 → 4축 요약 → 바뀌는 조건
   // =========================================================================
   const seg = (label, val) => `<span style="white-space:nowrap;">${label}: <span style="color:${PV_COLOR[val]||NEU_TEXT};">${esc(val)}</span></span>`;
-  const axisLine = `${seg('가격', d.price)}<span style="color:#aab0b9;margin:0 5px;font-weight:400;">·</span>${seg('사업', d.business)}<span style="color:#aab0b9;margin:0 5px;font-weight:400;">·</span>${seg('현금흐름', d.cashflow)}<span style="color:#aab0b9;margin:0 5px;font-weight:400;">·</span>${seg('차트', d.chart)}`;
+  const axisLine = `${seg('가격', d.price)}<span style="color:#aab0b9;margin:0 5px;font-weight:400;">·</span>${seg('사업', d.business)}<span style="color:#aab0b9;margin:0 5px;font-weight:400;">·</span>${seg('현금흐름', d.cashflow)}<span style="color:#aab0b9;margin:0 5px;font-weight:400;">·</span>${seg('차트', pvChartSimple(d))}`;
 
   // --- 51736 -- 카드 최상단의 가장 큰 문구는 "가격 위치"가 아니라 "종합 행동"으로 고정한다.
   //     가격이 적정/매력적이어도 하락 원인 진단의 신규 접근 중지·관찰이 있으면 그것이 우선
@@ -5937,36 +6041,51 @@ function renderPriceValidityCard(r){
   const priceDate = (r.dataHealth && r.dataHealth.lastDate) ? r.dataHealth.lastDate : null;
   const epsDate = (d.eps && d.eps.updatedAt) ? String(d.eps.updatedAt).slice(0,10) : null;
 
-  const metaBadge = d.bandEligible
+  // --- 51747 -- 가격이 '가격 판단 보류'가 되는 세 조건(!bandEligible/distorted/gaapBasisOnly)
+  //     중 bandEligible이 true이면서도 보류가 되는 경우(distorted, gaapBasisOnly)가 있어, 메타
+  //     배지·가격대 숫자 노출 모두 d.bandEligible 단독이 아니라 d.price!=='가격 판단 보류'도
+  //     함께 확인해야 한다(사용자 요청: 화면에서 숫자만 숨기는 게 아니라 내부 분류 자체를 바꿈). ---
+  const priceResolved = d.bandEligible && d.price !== '가격 판단 보류';
+  const metaBadge = priceResolved
     ? `신뢰도 ${esc(confidence||'보통')} · 가격 기준일 ${esc(priceDate||'—')}${epsDate?` · EPS 기준일 ${esc(epsDate)}`:''}`
-    : `제한 사유: ${esc(d.blockReason||'—')}`;
+    : `제한 사유: ${esc(d.priceHoldReason || d.blockReason || '—')}`;
 
   const priceColor = PV_COLOR[d.price] || NEU_TEXT;
-  // --- 51740 -- 교차검증이 "비교 기준 제한"인 종목은 "모델 기준 매력적"만 단독으로 강조하지
-  //     않는다(ARM 사례: GAAP 대체 EPS로 산출된 "매력적"이 확정 결론처럼 보이면 안 됨). 가격
-  //     공식 자체는 바꾸지 않고, 헤드라인에 교차검증 제한을 항상 함께 고정 표시만 한다. ---
-  const ccEpsBadge = d.crossCheck && d.crossCheck.eps && d.crossCheck.eps.badge;
-  // 51746 -- 과거 PER 왜곡(d.distorted)도 crossCheck 배지와 같은 자리에서 즉시 보이게 한다.
-  const basisCaveat = (ccEpsBadge === '비교 기준 제한' || d.distorted) ? ' · 비교 기준 제한(과거 PER)' : '';
-  const priceHeadline = (d.cashflow === '경계' && (d.price === '매력적' || d.price === '적정'))
-    ? `모델 기준 ${esc(d.price)}이나 현금흐름 경계${basisCaveat}`
-    : `모델 기준 ${esc(d.price)}${basisCaveat}`;
+  // --- 51747 -- 가격 자체가 이제 '가격 판단 보류'로 분류되므로(51746까지는 숨기는 문구였던
+  //     basisCaveat/ccEpsBadge 분기를 헤드라인에서 제거) 헤드라인은 d.price를 그대로 보여주면
+  //     이미 보류 사유를 전달한다. ---
+  const priceHeadline = (d.cashflow === '경계' && (d.price === '저평가' || d.price === '적정'))
+    ? `모델 기준 ${esc(d.price)}이나 현금흐름 경계`
+    : `모델 기준 ${esc(d.price)}`;
 
-  // --- 가격 위치 요약(51735 P1 그대로 재사용) -- 이제 "종합 행동" 아래, "가격 위치" 옆에 보조로. ---
+  // --- 가격 위치 요약(51735 P1 그대로 재사용) -- 이제 "종합 행동" 아래, "가격 판단" 옆에 보조로. ---
   const posSeg = pvPositionSegment(d, r, num);
-  const priceLocLine = (d.bandEligible && posSeg)
+  const priceLocLine = (priceResolved && posSeg)
     ? ` · 기준값 대비 <b>${posSeg.pct>=0?'+':''}${posSeg.pct.toFixed(1)}%</b>(${esc(posSeg.actionBand)})`
     : '';
 
+  // --- 51747 -- 가격 판단 근거(최대 3줄)·위험(1줄)을 "가격 판단" 아래에 바로 보여준다(사용자
+  //     요청: 5초 안에 "지금 가격은 비싼가/적당한가/싼가/판단 불가" + "가장 중요한 근거" +
+  //     "사면 안 되는 위험"에 답할 수 있어야 함). ---
+  const rationaleLines = pvPriceRationale(d, num);
+  const riskLine = pvPriceRiskLine(d);
+  const rationaleHtml = rationaleLines.length
+    ? `<div style="margin-top:7px;font-size:11px;color:${NEU_TEXT};line-height:1.55;"><b style="color:${NEU_DIM};">판단 근거</b> — ${rationaleLines.map(esc).join(' · ')}</div>`
+    : '';
+  const riskHtml = riskLine
+    ? `<div style="margin-top:5px;font-size:11px;color:#7a3b2e;line-height:1.5;"><b>위험</b> — ${esc(riskLine)}</div>`
+    : '';
   const conclusionBox = `
     <div style="margin-top:4px;padding:13px 15px;border-radius:10px;border:1.5px solid #3c4552;background:#fff;">
       <div style="font-size:11px;color:${NEU_DIM};font-weight:700;">종합 행동</div>
       <div style="font-size:15.5px;font-weight:800;color:${actionColor};margin-top:1px;">${esc(act.label)}</div>
       <div style="margin-top:5px;font-size:11.5px;color:${NEU_TEXT};line-height:1.5;">${esc(act.reason)}</div>
 
-      <div style="margin-top:10px;font-size:11px;color:${NEU_DIM};font-weight:700;">가격 위치</div>
+      <div style="margin-top:10px;font-size:11px;color:${NEU_DIM};font-weight:700;">가격 판단</div>
       <div style="margin-top:2px;font-size:13px;font-weight:800;color:${priceColor};">${priceHeadline}${priceLocLine}</div>
       <div style="margin-top:3px;font-size:10.5px;color:${NEU_DIM};">${metaBadge}</div>
+      ${rationaleHtml}
+      ${riskHtml}
 
       <div style="margin-top:10px;font-size:12.5px;font-weight:700;color:#1b1f27;">${axisLine}</div>
 
@@ -5976,9 +6095,9 @@ function renderPriceValidityCard(r){
   // --- 모델 가격대 vs 현재가 위치(가격대 가능 종목만, 결론 바로 아래에서 한 줄로 — 위 요약 라인의
   //     풀 문장 버전, "판단 근거 보기" 펼치지 않고도 전제가 되는 기준값·EPS 보간 방식까지 확인 가능) ---
   const posLine = pvPositionLine(d, r, num);
-  const positionBox = d.bandEligible
+  const positionBox = priceResolved
     ? (posLine ? `<div style="margin-top:8px;font-size:12px;color:${NEU_TEXT};background:${NEU_BG};border-radius:8px;padding:8px 10px;line-height:1.5;">${posLine}</div>` : '')
-    : `<div style="margin-top:8px;font-size:11.5px;color:#7a3b2e;background:#f8ece9;border:1px solid #e3c7bd;border-radius:8px;padding:8px 10px;line-height:1.5;"><b>${esc(d.blockReason)}</b>로 숫자 가격대는 제시하지 않습니다. 사업·현금흐름·차트는 아래 "판단 근거 보기"에서 계속 확인할 수 있습니다.</div>`;
+    : `<div style="margin-top:8px;font-size:11.5px;color:#7a3b2e;background:#f8ece9;border:1px solid #e3c7bd;border-radius:8px;padding:8px 10px;line-height:1.5;"><b>${esc(d.priceHoldReason || d.blockReason)}</b>로 숫자 가격대는 제시하지 않습니다. 사업·현금흐름·차트는 아래 "판단 근거 보기"에서 계속 확인할 수 있습니다.</div>`;
 
   // --- 51738/51739 -- 독립 건전성 교차검증(참고용 배지). 과거 PER 밴드와 다른 두 산식(EPS
   //     연환산 배수, FCF 수익률)으로 가격 라벨을 상식적으로 검산한다. 가격대·종합 행동을 바꾸지
@@ -6073,8 +6192,15 @@ function renderPriceValidityCard(r){
   let bandHtml = '';
   if(d.bandEligible && d.bandTable){
     const bt = d.bandTable;
+    // 51747 -- bandEligible이 true여도 price가 '가격 판단 보류'면(distorted/gaapBasisOnly) 이
+    // 숫자 밴드가 검증된 매수 구간이 아니라는 점을 분명히 한다(사용자 요청: bandTable을 실행
+    // 판정의 매수 가격으로 재사용하지 않음 -- 참고용 과거 PER 표로만 남긴다).
+    const holdCaveat = (d.price === '가격 판단 보류')
+      ? `<div style="margin-bottom:6px;font-size:11px;color:#7a3b2e;background:#f8ece9;border:1px solid #e3c7bd;border-radius:7px;padding:7px 9px;line-height:1.5;"><b>${esc(d.priceHoldReason||'가격 판단 보류')}</b> — 아래 표는 참고용 과거 PER 기반 수치일 뿐 검증된 매수 구간이 아닙니다.</div>`
+      : '';
     bandHtml = `
       <div style="margin-top:10px;">
+        ${holdCaveat}
         ${posLine ? `<div style="margin-bottom:6px;font-size:11.5px;color:${NEU_TEXT};line-height:1.5;">${posLine}</div>` : ''}
         <div style="font-size:11.5px;font-weight:800;color:${NEU_DIM};margin-bottom:4px;">EPS·현금흐름 전제의 모델 기준 가격대 (기준일 ${esc(bt.asOf)})</div>
         <table style="width:100%;border-collapse:collapse;font-size:11.5px;">
@@ -6114,23 +6240,12 @@ function renderPriceValidityCard(r){
 
   const footNote = `<div style="margin-top:8px;margin-bottom:16px;font-size:10.5px;color:var(--sub);">가격 타당성(모델 기준)과 기술적 진입 상태(103)는 서로 다른 축이며, 한쪽이 다른 쪽을 덮어 낮추지 않습니다. 애널리스트 목표가는 가격 기준이 아니라 시장 기대 참고로만 사용합니다. 현재 가격에 맞춰 배수·EPS·가격대를 조정하지 않습니다. 자동매매·알림·매수/매도 신호와 연결되지 않습니다.</div>`;
 
-    // --- 51746 -- 실행 판정(오늘 무엇을 할지) 네 줄. act.label(이미 표준 5개 어휘)은 그대로 두고,
-  //     매수 구간·확인 조건·무효화 조건·다음 확인일만 새로 계산해 보여준다. ---
-  const ev = pvExecutionVerdict(d, r, act, num);
-  const execRows = [];
-  execRows.push(`<div><b style="color:${NEU_DIM};">매수 구간</b> — ${ev.buyZone.ok ? esc(ev.buyZone.text) : `<span style="color:#7a3b2e;">${esc(ev.buyZone.text)}</span>`}</div>`);
-  if(ev.confirmCond) execRows.push(`<div><b style="color:${NEU_DIM};">확인 조건</b> — ${esc(ev.confirmCond)}</div>`);
-  execRows.push(`<div><b style="color:${NEU_DIM};">무효화 조건</b> — ${esc(ev.invalidateCond)}</div>`);
-  execRows.push(`<div><b style="color:${NEU_DIM};">다음 확인일</b> — ${esc(ev.nextCheck)}</div>`);
-  const execBox = `
-    <div style="margin-top:8px;padding:11px 13px;border-radius:10px;border:1px solid ${NEU_LINE};background:${NEU_BG};">
-      <div style="font-size:11px;color:${NEU_DIM};font-weight:700;margin-bottom:6px;">실행 판정(오늘 무엇을 할지) <span class="sub" style="font-weight:400;">· 종합 행동(위) 기준으로 계산, 매수·매도 신호 아님</span></div>
-      <div style="display:flex;flex-direction:column;gap:5px;font-size:12px;color:${NEU_TEXT};line-height:1.5;">
-        ${execRows.join('\n        ')}
-      </div>
-    </div>`;
-
-  return `${headHtml}${conclusionBox}${execBox}${positionBox}${crossCheckBox}${evidenceDetails}${targetRef}${footNote}`;
+    // --- 51747 -- 실행 판정 박스는 더 확장하지 않고 제거한다(사용자 요청: "실행 판정 박스를
+  //     더 확장하지 말고, 가격 판단을 단순화·정정하세요"). pvExecutionVerdict 함수 자체는
+  //     남겨두되(다른 곳에서 참조하지 않음, 삭제 리스크를 줄이기 위해 죽은 코드로 보존) 카드에서는
+  //     더 이상 호출·렌더링하지 않는다. 매수 구간·무효화 조건·포지션 크기·다음 실적일은 가격
+  //     판단이 정상화된 뒤에 별도로 다룬다(사용자 명시).
+  return `${headHtml}${conclusionBox}${positionBox}${crossCheckBox}${evidenceDetails}${targetRef}${footNote}`;
 }
 if(typeof HINTS !== 'undefined'){
   HINTS.priceValidityCard = 'EPS 성장·수정 방향, 현재가가 요구하는 밸류에이션, 현금흐름·부채·희석, 103 기술적 진입 상태를 결합해 "가격이 사업 펀더멘털 대비 타당한가"를 보여주는 읽기 전용 카드입니다. 맨 위에는 오늘의 판단·오늘의 행동·가격/사업/현금흐름/차트 4축·판단이 바뀌는 조건이 먼저 나오고, EPS·PER·현금흐름 원자료와 가격대 표는 "판단 근거 보기"를 펼쳐야 보입니다. NTM PER은 독립 밸류에이션 모듈의 값을 우선 쓰고, 없으면 eps_data.js의 애널리스트 컨센서스로 같은 방식(일수 가중 선형보간)을 재현한 공통 계산기로 보완합니다. 과거 PER 밴드는 종목 자신의 중앙값 기반 백분위(5년 이상 흑자 이력)를 우선 쓰고, 상장 이력이 짧은 종목은 기존 전체 통계 폴백(0.64~1.55배)을 적용합니다. 과거 PER 유효 관측치가 전혀 없는 극소수 종목만 숫자 가격대를 차단하고, 그 외엔 사업·현금흐름·차트 평가를 그대로 보여줍니다. 애널리스트 목표가는 가격 기준으로 쓰지 않고 시장 기대 참고로만 보조 사용합니다. 가격 타당성과 기술적 진입 타이밍은 분리된 축으로 표시되며 한쪽이 다른 쪽을 깎지 않습니다. 매수·매도 신호가 아니고 자동매매·알림과 연결되지 않습니다.';
@@ -6575,7 +6690,7 @@ if(typeof window !== 'undefined'){
 //     계산된 결과를 읽기만 하는 기록 레이어이며, 1·3·6개월 "비교" 조회 UI는 이번 라운드의
 //     범위가 아니다(스냅샷을 쌓는 기반까지만 구현).
 
-const PV_MODEL_VERSION = 'price-validity-v1'; // computePriceValidity의 가격대/배수 공식 자체가
+const PV_MODEL_VERSION = 'price-validity-v2'; // 51747 -- 가격 판단 4분류 재정의로 버전업. computePriceValidity의 가격대/배수 공식 자체가
 // 구조적으로 바뀔 때만 올릴 것 -- 51734~51742의 라벨·큐 UI 변경은 이 공식을 바꾸지 않았으므로
 // v1을 유지한다.
 
