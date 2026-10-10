@@ -2,10 +2,138 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1791576002.079442,
+    "_last_attempt_at": 1791598953.9831622,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5c4e446abd334f8092f8ee0a0068885b5977f2f5175ab4b843013a4fece9ea30",
+        "datetime": 1791586391,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "S&P 500, Nasdaq 100, Dow는 트레이더들이 수익 시즌을 주목하면서 주간 상승 — MSFT, NFLX, SPCX, ASTS에 집중 AI 에이전트 동향 뉴스 수익 전체 DIA 0.87% SPY 0.60% QQQ 0.49% 추세 PLTR 5.17% TMUS 13.27% ADA 9.50% VZ 8.75% 도트 12.85%S",
+            "S&P 500, Nasdaq 100, 다우 종가 상승 및 트레이더들이 수익 시즌을 주목하고 있음 — ​​MSFT, NFLX, SPCX, ASTS In Focus JPMorgan, Morgan Stanley 및 Wells Fargo를 포함한 월스트리트 최대 은행들이 다음 주에 수익을 보고할 예정입니다.",
+            "거래자들이 2026년 8월 5일 오전 거래 중에 뉴욕 증권 거래소 바닥에서 일하고 있습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.87%, 0.60%, 0.49% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.87%",
+            "0.60%",
+            "0.49%",
+            "5.17%",
+            "13.27%",
+            "9.50%",
+            "8.75%",
+            "12.85%"
+          ],
+          "sourceExcerpt": [
+            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending PLTR 5.17% TMUS 13.27% ADA 9.50% VZ 8.75% DOT 12.85% S",
+            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus Wall Street’s biggest banks, including JPMorgan, Morgan Stanley, and Wells Fargo, will report earnings next week.",
+            "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
+          ],
+          "analysisUpdatedAt": 1791598960.8915794
+        },
+        "headlineKo": "S&P 500, Nasdaq 100, Dow End Week High, 트레이더들이 수익 시즌을 주목하고 있음 — ​​MSFT, NFLX, SPCX, ASTS In Focus"
+      },
+      {
+        "headline": "$10,000 in VGT the Day ChatGPT Launched Is Now $30,500. QQQ Turned the Same Money Into $26,100",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4fd47c21df1eabb62e8ee735367878731f61ab0a0544474e50d607aef8d5446c",
+        "datetime": 1791563072,
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "ChatGPT가 출시된 날 VGT의 $10,000는 이제 $30,500입니다.",
+            "QQQ는 같은 돈을 $26,100로 바꾸었습니다. - 연중무휴 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0.43% S&P 500 7,823.60 +0.58% 다우존스 51,740.80 +0.91% 나스닥 100 30,928.20 +0.38% 러셀 2000 2,809.13 +0."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $10,000, $30,500., $26,100 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "QQQ에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 비용·CAPEX·영업현금흐름·FCF·부채에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1.0,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$10,000",
+            "$30,500.",
+            "$26,100",
+            "0.58%",
+            "0.91%",
+            "0.38%",
+            "0.43%",
+            "$30,482"
+          ],
+          "sourceExcerpt": [
+            "$10,000 in VGT the Day ChatGPT Launched Is Now $30,500.",
+            "QQQ Turned the Same Money Into $26,100 - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0.43% S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0."
+          ],
+          "analysisUpdatedAt": 1791598963.7556386
+        },
+        "headlineKo": "ChatGPT가 출시된 날 VGT의 $10,000는 이제 $30,500입니다. QQQ는 같은 돈을 $26,100로 바꾸었습니다."
+      },
       {
         "headline": "AI 'Super Boom' - Why The Nasdaq Could Hit 74,000",
         "source": "SeekingAlpha",
@@ -52,7 +180,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791576007.359894
+          "analysisUpdatedAt": 1791598965.0068326
         },
         "headlineKo": "AI '슈퍼 붐' - 나스닥이 74,000을 기록할 수 있었던 이유"
       },
@@ -64,60 +192,6 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "오늘의 주식 시장: Scott Bessent가 미국이 이란을 굶주리고 있다고 말함에 따라 S&P 500, Dow Jones, Nasdaq 100 선물 이익 상승 - Benzinga SPY 776.52 QQQ 753.17 +0.75% BTC/USD 83,018.88 +1.62% DIA 512.03 GLD 382.88 TLT 77.79 −0.10% US 로그인 내 계정 등록",
-            "목요일 혼성 장 이후 다우존스, S&P 500, 나스닥 100 지수가 상승하면서 금요일 주식 선물은 상승했습니다.",
-            "재무부는 테헤란의 석유 수익을 차단하기 위해 이란의 비밀 함대를 표적으로 삼는 선박 17척을 제재했습니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.75%, 1.62%, 0.10% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.75%",
-            "1.62%",
-            "0.10%",
-            "5.24%",
-            "4.78%",
-            "19.4%",
-            "0.20%",
-            "0.43%"
-          ],
-          "sourceExcerpt": [
-            "Stock Market Today: S&P 500, Dow Jones, Nasdaq 100 Futures Gain as Scott Bessent Says US Is Starving Iran - Benzinga SPY 776.52 QQQ 753.17 +0.75% BTC/USD 83,018.88 +1.62% DIA 512.03 GLD 382.88 TLT 77.79 −0.10% US Sign in Register My Account",
-            "stock futures were higher on Friday, as the Dow Jones, S&P 500 and Nasdaq 100 indices rose, following Thursday’s mixed close.",
-            "Treasury Department sanctioned 17 vessels targeting Iran’s shadow fleet to choke off Tehran’s oil revenue."
-          ],
-          "analysisUpdatedAt": 1791576010.623789
-        },
         "headlineKo": "오늘의 주식 시장: Scott Bessent가 미국이 이란의 '폭군 정권'을 굶주리고 있다고 말하면서 S&P 500, Dow Jones, Nasdaq 100 선물 상승 - PKE, HUM, RENX 초점(업데이트됨)"
       },
       {
@@ -128,81 +202,7 @@ const NEWS_DATA = {
         "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "매수 후 보유 투자자들이 QQQ에서 수수료가 낮은 대안으로 전환하는 이유 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,820.00 +0.53% Dow Jones 51,760.80 +0.95% Nasdaq 100 30,894.90 +0.27% Russell 2000 2,810.33 +0.48% S&P 500 7,820.00 +0.53% 다우존스 51,760.80 +0.95% 나스닥 100 30,894.90 +0.27% 러셀 2000 2,810.33 +0.",
-            "다음 기여가 QQQ에 도착하기 전에 구조적… 작성자 Ryne Mauck 2026년 10월 8일 오후 7시 3분(ET) 게시 · 3분 읽기 ETF 심사관 데스크."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.53%, 0.95%, 0.27% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1.0,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.53%",
-            "0.95%",
-            "0.27%",
-            "0.48%",
-            "$100,000",
-            "$180",
-            "$150.",
-            "$30"
-          ],
-          "sourceExcerpt": [
-            "Why Buy-and-Hold Investors Are Switching From QQQ to This Lower-Fee Alternative - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,820.00 +0.53% Dow Jones 51,760.80 +0.95% Nasdaq 100 30,894.90 +0.27% Russell 2000 2,810.33 +0.48% S&P 500 7,820.00 +0.53% Dow Jones 51,760.80 +0.95% Nasdaq 100 30,894.90 +0.27% Russell 2000 2,810.33 +0.",
-            "Before your next contribution lands in QQQ, there is a structural… By Ryne Mauck Published October 8, 2026, 7:03pm ET · 3 min read The ETF Examiner desk."
-          ],
-          "analysisUpdatedAt": 1791576014.1726007
-        },
         "headlineKo": "매수 후 보유 투자자들이 QQQ에서 수수료가 낮은 대안으로 전환하는 이유"
-      },
-      {
-        "headline": "Nasdaq 100 Ends Lower As Report Of Weaker-Than-Expected OpenAI Revenue Drags Chipmakers — NVDA, DIS, ORCL, SBUX In Focus",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=dc1918cd0feb30add5eacf5d2b3e01797f856a03f979aebef0e228fc128111a6",
-        "datetime": 1791500119,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Nasdaq 100은 예상보다 약한 OpenAI 수익이 칩 제조업체를 끌고 있다는 보고로 하락 마감 - NVDA, DIS, ORCL, SBUX 집중"
-      },
-      {
-        "headline": "MSFT, ORCL, NVDA, QQQ In Focus: OpenAI’s Annualized Revenue Reportedly Trails Prior Expectations By $20B",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d335cd5884c9a8b6781e302123b1ea8b4f338c3bfc5cd122bfd5a9cb870a7bc7",
-        "datetime": 1791486101,
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "MSFT, ORCL, NVDA, QQQ 초점: OpenAI의 연간 수익이 이전 기대치를 200억 달러 앞선 것으로 보고됨"
       },
       {
         "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Gains as Trump Dismisses Iran Sanction Relief as 'Hoax'— Nvidia, AAR, Vail Resorts in Focus (UPDATED)",
@@ -324,6 +324,132 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5c4e446abd334f8092f8ee0a0068885b5977f2f5175ab4b843013a4fece9ea30",
+        "datetime": 1791586391,
+        "headlineKo": "S&P 500, Nasdaq 100, Dow End Week High, 트레이더들이 수익 시즌을 주목하고 있음 — ​​MSFT, NFLX, SPCX, ASTS In Focus",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "S&P 500, Nasdaq 100, Dow는 트레이더들이 수익 시즌을 주목하면서 주간 상승 — MSFT, NFLX, SPCX, ASTS에 집중 AI 에이전트 동향 뉴스 수익 전체 DIA 0.87% SPY 0.60% QQQ 0.49% 추세 PLTR 5.17% TMUS 13.27% ADA 9.50% VZ 8.75% 도트 12.85%S",
+            "S&P 500, Nasdaq 100, 다우 종가 상승 및 트레이더들이 수익 시즌을 주목하고 있음 — ​​MSFT, NFLX, SPCX, ASTS In Focus JPMorgan, Morgan Stanley 및 Wells Fargo를 포함한 월스트리트 최대 은행들이 다음 주에 수익을 보고할 예정입니다.",
+            "거래자들이 2026년 8월 5일 오전 거래 중에 뉴욕 증권 거래소 바닥에서 일하고 있습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.87%, 0.60%, 0.49% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.87%",
+            "0.60%",
+            "0.49%",
+            "5.17%",
+            "13.27%",
+            "9.50%",
+            "8.75%",
+            "12.85%"
+          ],
+          "sourceExcerpt": [
+            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending PLTR 5.17% TMUS 13.27% ADA 9.50% VZ 8.75% DOT 12.85% S",
+            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus Wall Street’s biggest banks, including JPMorgan, Morgan Stanley, and Wells Fargo, will report earnings next week.",
+            "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
+          ],
+          "analysisUpdatedAt": 1791598960.8915794
+        }
+      },
+      {
+        "headline": "$10,000 in VGT the Day ChatGPT Launched Is Now $30,500. QQQ Turned the Same Money Into $26,100",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4fd47c21df1eabb62e8ee735367878731f61ab0a0544474e50d607aef8d5446c",
+        "datetime": 1791563072,
+        "headlineKo": "ChatGPT가 출시된 날 VGT의 $10,000는 이제 $30,500입니다. QQQ는 같은 돈을 $26,100로 바꾸었습니다.",
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "ChatGPT가 출시된 날 VGT의 $10,000는 이제 $30,500입니다.",
+            "QQQ는 같은 돈을 $26,100로 바꾸었습니다. - 연중무휴 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0.43% S&P 500 7,823.60 +0.58% 다우존스 51,740.80 +0.91% 나스닥 100 30,928.20 +0.38% 러셀 2000 2,809.13 +0."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $10,000, $30,500., $26,100 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "QQQ에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 비용·CAPEX·영업현금흐름·FCF·부채에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1.0,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$10,000",
+            "$30,500.",
+            "$26,100",
+            "0.58%",
+            "0.91%",
+            "0.38%",
+            "0.43%",
+            "$30,482"
+          ],
+          "sourceExcerpt": [
+            "$10,000 in VGT the Day ChatGPT Launched Is Now $30,500.",
+            "QQQ Turned the Same Money Into $26,100 - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0.43% S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0."
+          ],
+          "analysisUpdatedAt": 1791598963.7556386
+        }
+      },
+      {
         "headline": "AI 'Super Boom' - Why The Nasdaq Could Hit 74,000",
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=c179348951ee140dff1395e0ca9514273bf2fcbf9f068b6a2fb7d4970b5e67b9",
@@ -369,7 +495,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791576007.359894
+          "analysisUpdatedAt": 1791598965.0068326
         }
       },
       {
@@ -5302,15 +5428,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791576002.079442,
-    "_updated_label": "2026-10-10 05:00",
-    "_last_success_at": 1791576002.079442,
+    "_fetched_at": 1791598953.9831622,
+    "_updated_label": "2026-10-10 11:22",
+    "_last_success_at": 1791598953.9831622,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 105,
+      "checked": 107,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "SPY": {
@@ -12075,7 +12201,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 137,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "MSFT": {
@@ -20014,7 +20140,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "GOOGL": {
@@ -27936,7 +28062,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "AMZN": {
@@ -35823,7 +35949,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "META": {
@@ -43762,7 +43888,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "AAPL": {
@@ -51703,7 +51829,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "TSLA": {
@@ -59637,7 +59763,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "ORCL": {
@@ -67955,7 +68081,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "CRM": {
@@ -74312,7 +74438,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "PLTR": {
@@ -82945,7 +83071,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "NVDA": {
@@ -90318,11 +90444,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "AMD": {
-    "_last_attempt_at": 1791576283.9417253,
+    "_last_attempt_at": 1791598953.9831622,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -90331,6 +90457,55 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "AMD CEO Su shares important supply news with stock market investors",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=628f953a8308e1b00c69cd4e9eac34a5f31ee334145f3e0ba2cd182f1f8f96a4",
+        "datetime": 1791573180,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "고객 계약 · 매출 연결 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AMD CEO Su shares important supply news with stock market investors",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 금액·기간·취소 조건",
+            "수주잔고와 매출 인식 시점",
+            "관련 사업부 매출총이익률"
+          ],
+          "interpretation": "AMD에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791598970.8384364
+        },
+        "headlineKo": "AMD CEO Su는 주식 시장 투자자들과 중요한 공급 소식을 공유합니다."
+      },
       {
         "headline": "Prediction: This Will Be AMD's Stock Price in 1 Year",
         "source": "Yahoo",
@@ -90347,7 +90522,7 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "예측: 이는 1년 후 AMD의 주가가 될 것입니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool AMD( AMD -2.21% )는 놀라운 2026년을 보냈으며 1월부터 주식 ha",
+            "예측: 이는 1년 후 AMD의 주가가 될 것입니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool AMD( AMD -2.03% )는 놀라운 2026년을 보냈으며 1월부터 주식 ha",
             "투자자들은 주식이 좋은 성적을 거두는 것을 보고 싶어하지만 과거의 수익률은 지금은 아무 의미가 없습니다. 중요한 것은 미래에 무슨 일이 일어날 것인가이다.",
             "그렇다면 1년 후 AMD의 주가는 어떻게 될까요?"
           ],
@@ -90381,17 +90556,17 @@ const NEWS_DATA = {
             "107%",
             "$5.8 billion",
             "30 times",
-            "0.37%",
-            "0.40%",
+            "0.52%",
+            "0.39%",
             "32 times",
             "41 times"
           ],
           "sourceExcerpt": [
-            "Prediction: This Will Be AMD's Stock Price in 1 Year | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool AMD ( AMD -2.21% ) has had an incredible 2026, and since January, the stock ha",
+            "Prediction: This Will Be AMD's Stock Price in 1 Year | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool AMD ( AMD -2.03% ) has had an incredible 2026, and since January, the stock ha",
             "Investors love to see a stock do that well, but past returns mean nothing now; all that matters is what's coming in the future.",
             "So, where will AMD's stock price be a year from now?"
           ],
-          "analysisUpdatedAt": 1791576290.0051286
+          "analysisUpdatedAt": 1791598974.1604536
         },
         "headlineKo": "예측: 이는 1년 후 AMD의 주가가 될 것입니다."
       },
@@ -90441,7 +90616,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791576292.3535645
+          "analysisUpdatedAt": 1791598976.007781
         },
         "headlineKo": "AMD 대 Broadcom: 프리미엄을 얻으려면 AMD의 현금 흐름이 얼마나 빨리 증가해야 합니까?"
       },
@@ -90453,60 +90628,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "경쟁사 수주 · 고객 점유 변화",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "1 칩 주식은 훨씬 더 큰 상승 여력을 가지고 있습니다.",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia(NVDA -0.37%)와 Advanced Micro Devices(AMD -2.21%)는 AI 컴퓨팅 분야에서 가장 큰 두 회사입니다.",
-            "Nvidia는 더 큰 시장 점유율을 차지하고 AI 컴퓨팅 공간을 최초로 장악한 반면, AMD는 최근 몇 달 동안 실행 가능한 경쟁자로 떠올랐습니다."
-          ],
-          "why": [
-            "경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다.",
-            "이번 기사에서 확인된 구체적 수치: 200%, 30%, 10% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "경쟁사가 같은 고객에게 납품할 기회를 얻었다는 뜻입니다. 기존 회사 물량을 빼앗은 것인지, 고객이 공급처를 하나 더 늘린 것인지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "신규 공급사의 실제 물량",
-            "기존 공급사 매출 비중",
-            "고객의 이중 공급 전략"
-          ],
-          "interpretation": "AMD에 대한 경쟁사 수주 · 고객 점유 변화 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "200%",
-            "30%",
-            "10%",
-            "117%",
-            "$89 billion",
-            "106%",
-            "$96 billion",
-            "50%"
-          ],
-          "sourceExcerpt": [
-            "1 Chip Stock Has Far Greater Upside.",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia ( NVDA -0.37% ) and Advanced Micro Devices ( AMD -2.21% ) are two of the biggest names in AI computing.",
-            "While Nvidia holds a larger market share and was the first to dominate the AI computing space, AMD has emerged as a viable competitor in recent months."
-          ],
-          "analysisUpdatedAt": 1791576295.594831
-        },
         "headlineKo": "Nvidia와 AMD가 AI 시장을 선도합니다. 1 칩 주식은 훨씬 더 큰 상승 여력을 가지고 있습니다."
       },
       {
@@ -90518,16 +90639,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "AMD(Advanced Micro Devices)의 프리미엄 가치 평가를 통해 실행을 현미경으로 살펴봅니다."
-      },
-      {
-        "headline": "AMD: Too Expensive To Be Worth It Despite Unique Position As CPU Leader",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=e31bfeb940d548a39e7f3f346592997bcbd512922d49fce6409a66358e49a43a",
-        "datetime": 1791557156,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "AMD: CPU 리더라는 독특한 위치에도 불구하고 너무 비싸서 가치가 없습니다"
       },
       {
         "headline": "AMD: The AI Momentum Train Looks Unstoppable, But I'm Pausing Accumulation (Downgrade)",
@@ -90544,6 +90655,54 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "AMD CEO Su shares important supply news with stock market investors",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=628f953a8308e1b00c69cd4e9eac34a5f31ee334145f3e0ba2cd182f1f8f96a4",
+        "datetime": 1791573180,
+        "headlineKo": "AMD CEO Su는 주식 시장 투자자들과 중요한 공급 소식을 공유합니다.",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "고객 계약 · 매출 연결 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AMD CEO Su shares important supply news with stock market investors",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 금액·기간·취소 조건",
+            "수주잔고와 매출 인식 시점",
+            "관련 사업부 매출총이익률"
+          ],
+          "interpretation": "AMD에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791598970.8384364
+        }
+      },
+      {
         "headline": "Prediction: This Will Be AMD's Stock Price in 1 Year",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6006383a7adb0d5cd91b8b0488fe970ff648d00d7541539edb13a37027e75b63",
@@ -90559,7 +90718,7 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "예측: 이는 1년 후 AMD의 주가가 될 것입니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool AMD( AMD -2.21% )는 놀라운 2026년을 보냈으며 1월부터 주식 ha",
+            "예측: 이는 1년 후 AMD의 주가가 될 것입니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool AMD( AMD -2.03% )는 놀라운 2026년을 보냈으며 1월부터 주식 ha",
             "투자자들은 주식이 좋은 성적을 거두는 것을 보고 싶어하지만 과거의 수익률은 지금은 아무 의미가 없습니다. 중요한 것은 미래에 무슨 일이 일어날 것인가이다.",
             "그렇다면 1년 후 AMD의 주가는 어떻게 될까요?"
           ],
@@ -90593,17 +90752,17 @@ const NEWS_DATA = {
             "107%",
             "$5.8 billion",
             "30 times",
-            "0.37%",
-            "0.40%",
+            "0.52%",
+            "0.39%",
             "32 times",
             "41 times"
           ],
           "sourceExcerpt": [
-            "Prediction: This Will Be AMD's Stock Price in 1 Year | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool AMD ( AMD -2.21% ) has had an incredible 2026, and since January, the stock ha",
+            "Prediction: This Will Be AMD's Stock Price in 1 Year | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool AMD ( AMD -2.03% ) has had an incredible 2026, and since January, the stock ha",
             "Investors love to see a stock do that well, but past returns mean nothing now; all that matters is what's coming in the future.",
             "So, where will AMD's stock price be a year from now?"
           ],
-          "analysisUpdatedAt": 1791576290.0051286
+          "analysisUpdatedAt": 1791598974.1604536
         }
       },
       {
@@ -90652,7 +90811,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791576292.3535645
+          "analysisUpdatedAt": 1791598976.007781
         }
       },
       {
@@ -98278,26 +98437,17 @@ const NEWS_DATA = {
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1790151577.7635276
         }
-      },
-      {
-        "headline": "Why Did AAPL, OKTA, AMD Stocks Jump To 52-Week Highs Today?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=de890e77e1c862a1d3fffaa4584accf286cc2c2d84ad200122b315ef8458ff13",
-        "datetime": 1790132737,
-        "headlineKo": "오늘 AAPL, OKTA, AMD 주식이 52주 최고가로 뛰어올랐던 이유는 무엇입니까?",
-        "relevance": 1,
-        "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791576283.9417253,
-    "_updated_label": "2026-10-10 05:04",
-    "_last_success_at": 1791576283.9417253,
+    "_fetched_at": 1791598953.9831622,
+    "_updated_label": "2026-10-10 11:22",
+    "_last_success_at": 1791598953.9831622,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "AVGO": {
@@ -107406,7 +107556,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "QCOM": {
@@ -114225,7 +114375,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 148,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "ARM": {
@@ -119174,7 +119324,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "MRVL": {
@@ -126966,7 +127116,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 170,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "INTC": {
@@ -135361,7 +135511,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "TSM": {
@@ -141398,7 +141548,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "ASML": {
@@ -145733,7 +145883,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "AMAT": {
@@ -150226,7 +150376,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "LRCX": {
@@ -152716,7 +152866,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "KLAC": {
@@ -155060,7 +155210,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "MU": {
@@ -162513,7 +162663,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "SNDK": {
@@ -170114,7 +170264,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 158,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "WDC": {
@@ -174611,7 +174761,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "ANET": {
@@ -178269,7 +178419,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "COHR": {
@@ -181433,7 +181583,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "LITE": {
@@ -184999,7 +185149,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "GEV": {
@@ -189923,7 +190073,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "CEG": {
@@ -194343,7 +194493,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "VST": {
@@ -197725,7 +197875,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "ETN": {
@@ -200840,7 +200990,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "PWR": {
@@ -203681,7 +203831,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "HUBB": {
@@ -204449,7 +204599,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "VRT": {
@@ -208272,7 +208422,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "MOD": {
@@ -209600,7 +209750,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "STX": {
@@ -213658,7 +213808,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "EME": {
@@ -215421,7 +215571,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "FIX": {
@@ -217015,7 +217165,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   },
   "BE": {
@@ -219292,7 +219442,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-10-10 10:19"
+      "updated": "2026-10-10 11:22"
     }
   }
 };

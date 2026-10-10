@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791597102.9362235,
+  "generatedAt": 1791598979.7979689,
   "events": [
     {
       "id": "16259424b8e02047cfd8",
@@ -171,7 +171,7 @@ const EVENT_DATA = {
       "schemaVersion": 1,
       "eventType": "earnings_result",
       "eventLabel": "실적 발표",
-      "primaryTicker": "SPY",
+      "primaryTicker": "QQQ",
       "relatedTickers": [
         "MSFT",
         "PLTR",
@@ -196,21 +196,21 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5c4e446abd334f8092f8ee0a0068885b5977f2f5175ab4b843013a4fece9ea30",
         "publishedAt": 1791586391,
-        "collectedAt": 1791594702.5579545
+        "collectedAt": 1791598953.9831622
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "S&P 500, Nasdaq 100, Dow 최종 주 상승 및 거래자들의 수익 시즌 주목 — MSFT, NFLX, SPCX, ASTS 초점 AI 에이전트 동향 뉴스 수익 전체 DIA 0.87% SPY 0.60% QQQ 0.49% 추세 NDAQ 1.39% SNOW 7.42% PLTR 5.17% TMUS 13.27% USDE 3.83",
+        "S&P 500, Nasdaq 100, Dow는 트레이더들이 수익 시즌을 주목하면서 주간 상승 — MSFT, NFLX, SPCX, ASTS에 집중 AI 에이전트 동향 뉴스 수익 전체 DIA 0.87% SPY 0.60% QQQ 0.49% 추세 PLTR 5.17% TMUS 13.27% ADA 9.50% VZ 8.75% 도트 12.85%S",
         "S&P 500, Nasdaq 100, 다우 종가 상승 및 트레이더들이 수익 시즌을 주목하고 있음 — ​​MSFT, NFLX, SPCX, ASTS In Focus JPMorgan, Morgan Stanley 및 Wells Fargo를 포함한 월스트리트 최대 은행들이 다음 주에 수익을 보고할 예정입니다.",
         "거래자들이 2026년 8월 5일 오전 거래 중에 뉴욕 증권 거래소 바닥에서 일하고 있습니다."
       ],
       "marketInterpretation": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
         "이번 기사에서 확인된 구체적 수치: 0.87%, 0.60%, 0.49% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
-        "SPY에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+        "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
@@ -222,11 +222,11 @@ const EVENT_DATA = {
       "whyItMatters": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
         "이번 기사에서 확인된 구체적 수치: 0.87%, 0.60%, 0.49% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
-          "ticker": "SPY",
+          "ticker": "QQQ",
           "direction": "확인 필요",
           "reason": "회사 실적과의 연결고리 확인",
           "basis": "analysis"
@@ -873,6 +873,73 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
+    },
+    {
+      "id": "acdef67772c1affca259",
+      "schemaVersion": 1,
+      "eventType": "major_customer_contract",
+      "eventLabel": "주요 고객 계약",
+      "primaryTicker": "AMD",
+      "relatedTickers": [
+        "AMD"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "neutral",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "AMD CEO Su shares important supply news with stock market investors",
+      "headlineKo": "AMD CEO Su는 주식 시장 투자자들과 중요한 공급 소식을 공유합니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=628f953a8308e1b00c69cd4e9eac34a5f31ee334145f3e0ba2cd182f1f8f96a4",
+        "publishedAt": 1791573180,
+        "collectedAt": 1791598953.9831622
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "AMD CEO Su shares important supply news with stock market investors",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "AMD에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AMD",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "계약 금액·기간·취소 조건",
+        "수주잔고와 매출 인식 시점",
+        "관련 사업부 매출총이익률"
+      ]
     },
     {
       "id": "9ace31432ccb32dc91c0",
@@ -1886,6 +1953,76 @@ const EVENT_DATA = {
         "애플 아이폰 출하량과 제품 믹스",
         "메모리 현물·계약 가격",
         "AAPL 매출총이익률과 MU/WDC 가이던스"
+      ]
+    },
+    {
+      "id": "ec2c6f1422efcd43c7ec",
+      "schemaVersion": 1,
+      "eventType": "analyst_target_change",
+      "eventLabel": "애널리스트 목표주가 변경",
+      "primaryTicker": "QQQ",
+      "relatedTickers": [
+        "QQQ",
+        "SPY"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "$10,000 in VGT the Day ChatGPT Launched Is Now $30,500. QQQ Turned the Same Money Into $26,100",
+      "headlineKo": "ChatGPT가 출시된 날 VGT의 $10,000는 이제 $30,500입니다. QQQ는 같은 돈을 $26,100로 바꾸었습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4fd47c21df1eabb62e8ee735367878731f61ab0a0544474e50d607aef8d5446c",
+        "publishedAt": 1791563072,
+        "collectedAt": 1791598953.9831622
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "ChatGPT가 출시된 날 VGT의 $10,000는 이제 $30,500입니다.",
+        "QQQ는 같은 돈을 $26,100로 바꾸었습니다. - 연중무휴 Wall St.",
+        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0.43% S&P 500 7,823.60 +0.58% 다우존스 51,740.80 +0.91% 나스닥 100 30,928.20 +0.38% 러셀 2000 2,809.13 +0."
+      ],
+      "marketInterpretation": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: $10,000, $30,500., $26,100 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "QQQ에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 비용·CAPEX·영업현금흐름·FCF·부채에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: $10,000, $30,500., $26,100 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "QQQ",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "목표주가 산식의 EPS",
+        "적용 PER 변화",
+        "회사 공식 가이던스"
       ]
     },
     {
@@ -4812,7 +4949,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=456464d1145ca9b8194cd0a4c28b62e3afa7a2f7d4836eed58c833c24d595c4b",
         "publishedAt": 1791537701,
-        "collectedAt": 1791576002.079442
+        "collectedAt": 1791598953.9831622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5569,7 +5706,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d6dd45883baf9c46b1bb2d37644c2b0019643efd7740f6b5d130175f663ba15c",
         "publishedAt": 1791515463,
-        "collectedAt": 1791576283.9417253
+        "collectedAt": 1791598953.9831622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6137,7 +6274,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8d42f25c2ed44fae3597e64c63defe9bc77ce60ad76e26198e7ef0825841354b",
         "publishedAt": 1791502971,
-        "collectedAt": 1791576283.9417253
+        "collectedAt": 1791598953.9831622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6280,7 +6417,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c5b01c1a236768a41c8c725c60dce675c04463a93ee2d5a52465d93ff168fdec",
         "publishedAt": 1791500586,
-        "collectedAt": 1791576002.079442
+        "collectedAt": 1791598953.9831622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6323,64 +6460,6 @@ const EVENT_DATA = {
       ]
     },
     {
-      "id": "9815bc1e30a6a1b343b5",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "QQQ",
-      "relatedTickers": [
-        "NVDA",
-        "ORCL",
-        "QQQ"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Nasdaq 100 Ends Lower As Report Of Weaker-Than-Expected OpenAI Revenue Drags Chipmakers — NVDA, DIS, ORCL, SBUX In Focus",
-      "headlineKo": "Nasdaq 100은 예상보다 약한 OpenAI 수익이 칩 제조업체를 끌고 있다는 보고로 하락 마감 - NVDA, DIS, ORCL, SBUX 집중",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=dc1918cd0feb30add5eacf5d2b3e01797f856a03f979aebef0e228fc128111a6",
-        "publishedAt": 1791500119,
-        "collectedAt": 1791576002.079442
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Nasdaq 100은 예상보다 약한 OpenAI 수익이 칩 제조업체를 끌고 있다는 보고로 하락 마감 - NVDA, DIS, ORCL, SBUX 집중"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "QQQ",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
-    },
-    {
       "id": "0da77ecf3775d7a10e26",
       "schemaVersion": 1,
       "eventType": "analyst_target_change",
@@ -6409,7 +6488,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=dc1918cd0feb30add5eacf5d2b3e01797f856a03f979aebef0e228fc128111a6",
         "publishedAt": 1791500119,
-        "collectedAt": 1791576002.079442
+        "collectedAt": 1791598953.9831622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6449,6 +6528,75 @@ const EVENT_DATA = {
         "목표주가 산식의 EPS",
         "적용 PER 변화",
         "회사 공식 가이던스"
+      ]
+    },
+    {
+      "id": "9815bc1e30a6a1b343b5",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "실적 발표",
+      "primaryTicker": "ORCL",
+      "relatedTickers": [
+        "NVDA",
+        "ORCL",
+        "QQQ"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Nasdaq 100 Ends Lower As Report Of Weaker-Than-Expected OpenAI Revenue Drags Chipmakers — NVDA, DIS, ORCL, SBUX In Focus",
+      "headlineKo": "Nasdaq 100은 예상보다 약한 OpenAI 수익이 칩 제조업체를 끌고 있다는 보고로 하락 마감 - NVDA, DIS, ORCL, SBUX 집중",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=dc1918cd0feb30add5eacf5d2b3e01797f856a03f979aebef0e228fc128111a6",
+        "publishedAt": 1791500119,
+        "collectedAt": 1791594702.5579545
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Nasdaq 100 Ends Lower As Report Of Weaker-Than-Expected OpenAI Revenue Drags Chipmakers — NVDA, DIS, ORCL, SBUX In Focus",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "ORCL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "ORCL에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "ORCL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "ORCL",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "매출·영업이익 성장",
+        "정상화이익과 특이항목",
+        "가이던스·OCF·FCF"
       ]
     },
     {
@@ -7602,65 +7750,6 @@ const EVENT_DATA = {
       "watch": []
     },
     {
-      "id": "c2b5f4f29d2de4bbc59b",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "QQQ",
-      "relatedTickers": [
-        "MSFT",
-        "NVDA",
-        "ORCL",
-        "QQQ"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "MSFT, ORCL, NVDA, QQQ In Focus: OpenAI’s Annualized Revenue Reportedly Trails Prior Expectations By $20B",
-      "headlineKo": "MSFT, ORCL, NVDA, QQQ 초점: OpenAI의 연간 수익이 이전 기대치를 200억 달러 앞선 것으로 보고됨",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d335cd5884c9a8b6781e302123b1ea8b4f338c3bfc5cd122bfd5a9cb870a7bc7",
-        "publishedAt": 1791486101,
-        "collectedAt": 1791576002.079442
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "MSFT, ORCL, NVDA, QQQ 초점: OpenAI의 연간 수익이 이전 기대치를 200억 달러 앞선 것으로 보고됨"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "QQQ",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
-    },
-    {
       "id": "a9aaf9c6fcdfbb92db9b",
       "schemaVersion": 1,
       "eventType": "analyst_target_change",
@@ -7693,7 +7782,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d335cd5884c9a8b6781e302123b1ea8b4f338c3bfc5cd122bfd5a9cb870a7bc7",
         "publishedAt": 1791486101,
-        "collectedAt": 1791576002.079442
+        "collectedAt": 1791598953.9831622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7806,6 +7895,76 @@ const EVENT_DATA = {
         "성능·가격 비교",
         "실제 고객 수주",
         "기존 회사 점유율·마진"
+      ]
+    },
+    {
+      "id": "c2b5f4f29d2de4bbc59b",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "실적 발표",
+      "primaryTicker": "ORCL",
+      "relatedTickers": [
+        "MSFT",
+        "NVDA",
+        "ORCL",
+        "QQQ"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "neutral",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "MSFT, ORCL, NVDA, QQQ In Focus: OpenAI’s Annualized Revenue Reportedly Trails Prior Expectations By $20B",
+      "headlineKo": "MSFT, ORCL, NVDA, QQQ 초점: OpenAI의 연간 수익이 이전 기대치를 200억 달러 앞선 것으로 보고됨",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d335cd5884c9a8b6781e302123b1ea8b4f338c3bfc5cd122bfd5a9cb870a7bc7",
+        "publishedAt": 1791486101,
+        "collectedAt": 1791594702.5579545
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "MSFT, ORCL, NVDA, QQQ In Focus: OpenAI’s Annualized Revenue Reportedly Trails Prior Expectations By $20B",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "ORCL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "ORCL에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "ORCL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "ORCL",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "매출·영업이익 성장",
+        "정상화이익과 특이항목",
+        "가이던스·OCF·FCF"
       ]
     },
     {
@@ -10287,7 +10446,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=db73bbe8f441454d905612856364abd366656fb69903e553f28df6ae7fbc39d9",
         "publishedAt": 1791469969,
-        "collectedAt": 1791576283.9417253
+        "collectedAt": 1791598953.9831622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12285,7 +12444,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=695b435703903066939f00c3cb5f5de1d7dee3c89828cd3d026d370de5c2f5e9",
         "publishedAt": 1791445352,
-        "collectedAt": 1791576002.079442
+        "collectedAt": 1791598953.9831622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13396,7 +13555,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1d86566fd281d53c6db541f9ea76ce51adb70239ecc27f47d047fccaa27b55bd",
         "publishedAt": 1791430205,
-        "collectedAt": 1791576283.9417253
+        "collectedAt": 1791598953.9831622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13933,7 +14092,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=50352b28347a16ef361adee73323be4f5be5b71231708705135708bc7bebdb49",
         "publishedAt": 1791413451,
-        "collectedAt": 1791576283.9417253
+        "collectedAt": 1791598953.9831622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14003,7 +14162,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0a588b8ba93eac54b44d232e71309b7be67a822e0a57556ac651ca0f23be280e",
         "publishedAt": 1791412396,
-        "collectedAt": 1791576002.079442
+        "collectedAt": 1791598953.9831622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14936,7 +15095,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9c1ffe6e8023cd5ecf0789d2b0a858778871893fbf6e9d0e1018ced125fb17d4",
         "publishedAt": 1791403237,
-        "collectedAt": 1791576283.9417253
+        "collectedAt": 1791598953.9831622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15031,7 +15190,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5f1f7b17e6468653000e0153a270548613e016b32fddf17a59db5cd211bfe6d8",
         "publishedAt": 1791402894,
-        "collectedAt": 1791576283.9417253
+        "collectedAt": 1791598953.9831622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17757,160 +17916,6 @@ const EVENT_DATA = {
         "다음 실적과 현금흐름 영향"
       ],
       "earningsEvidence": null
-    },
-    {
-      "id": "9b50587b7bb9954aed32",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "AAPL",
-      "relatedTickers": [
-        "AAPL",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Apple",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Apple Is Setting The Stage For a Massive Windfall That Few Understand",
-      "headlineKo": "Apple은 거의 이해하지 못하는 엄청난 횡재의 무대를 마련하고 있습니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9976f44c6eb7502dfc642bd39aa2dbd332883d9676165b4dd6fd5cbaf896dba7",
-        "publishedAt": 1791384322,
-        "collectedAt": 1791594702.5579545
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Apple은 소수만이 이해하는 엄청난 횡재를 위한 무대를 마련하고 있습니다 - 24/7 Wall St.",
-        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,802.50 −0.43% Dow Jones 51,197.00 −0.79% Nasdaq 100 31,136.00 −0.49% Russell 2000 2,797.95 −1.29% S&P 500 7,802.50 −0.43% 다우존스 51,197.00 −0.79% 나스닥 100 31,136.00 −0.49% 러셀 2000 2,797.95 −1.",
-        "작성자: Alex Sirois 2026년 10월 7일 오전 10시 45분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 많은 사람들이 분주한 Apple Store를 가득 채웠습니다. 이는 브랜드 제품에 대한 소비자의 강한 관심을 반영하며 상당한 시장 횡재 가능성을 암시합니다."
-      ],
-      "marketInterpretation": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: $30.74, $27.42, $54.25 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "AAPL에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: $30.74, $27.42, $54.25 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AAPL",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "목표주가 산식의 EPS",
-        "적용 PER 변화",
-        "회사 공식 가이던스"
-      ]
-    },
-    {
-      "id": "7c5d907f386214316344",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "INTC",
-      "relatedTickers": [
-        "INTC",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Intel",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Why Jim Cramer Is All-In on Intel’s CPU Comeback",
-      "headlineKo": "Jim Cramer가 Intel의 CPU 복귀에 올인하는 이유",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e962e8765f80fd4f5595444f3473f23ad7b90302b53c8830f652d23242afa2b9",
-        "publishedAt": 1791384319,
-        "collectedAt": 1791594702.5579545
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Jim Cramer가 Intel의 CPU 복귀에 올인하는 이유 - 24/7 Wall St.",
-        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,802.20 −0.43% Dow Jones 51,208.00 −0.77% Nasdaq 100 31,117.50 −0.54% Russell 2000 2,798.75 −1.26% S&P 500 7,802.20 −0.43% 다우존스 51,208.00 −0.77% 나스닥 100 31,117.50 −0.54% 러셀 2000 2,798.75 −1.",
-        "작성자: Alex Sirois 2026년 10월 7일 오전 10시 45분(ET) 게시 · 3분 읽기 𝕏 f ⧉ Intel CPU는 막대 그래프와 조각이 깨지는 역동적인 장면 속에 자리잡고 있으며 이는 회사의 강력한 복귀와 인상적인 시장 부활을 상징합니다."
-      ],
-      "marketInterpretation": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: $112.50., 204.88%, 70% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "INTC에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: $112.50., 204.88%, 70% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "INTC",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "목표주가 산식의 EPS",
-        "적용 PER 변화",
-        "회사 공식 가이던스"
-      ]
     }
   ],
   "byTicker": {
@@ -17932,6 +17937,7 @@ const EVENT_DATA = {
       "0d7ec53349885db300d5",
       "9af8b864e797e29277d2",
       "4716369314861be8b8c3",
+      "ec2c6f1422efcd43c7ec",
       "4daae5c229c9b8322db4",
       "100a747569618c0e2720",
       "01626ade4d283fed3664",
@@ -18016,13 +18022,12 @@ const EVENT_DATA = {
       "f49070de3cb5c22ba851",
       "e906d3049f1df6f801ea",
       "6c6709889363fd6d3071",
-      "d00950a5e4c56b9cf167",
-      "9b50587b7bb9954aed32",
-      "7c5d907f386214316344"
+      "d00950a5e4c56b9cf167"
     ],
     "AMD": [
       "fe65181b954db2be20ad",
       "b9f99afea91287ea5daa",
+      "acdef67772c1affca259",
       "9ace31432ccb32dc91c0",
       "d939363822cc9ee243bc",
       "65ce9209ca77f6f75774",
@@ -18113,17 +18118,17 @@ const EVENT_DATA = {
       "de3ba4655c04b0eb9212",
       "d939363822cc9ee243bc",
       "d45910c7a64317b2e30c",
-      "9815bc1e30a6a1b343b5",
       "0da77ecf3775d7a10e26",
+      "9815bc1e30a6a1b343b5",
       "e6a36c5250494a6d0e1b",
       "a25642e3d7b8341bf995",
       "9e9e8d420e54b8ea1f19",
       "f6cc4e590fb5daf76b79",
       "2a1986aac8260a8063fe",
       "b8fc28a499fe2cb0ad32",
-      "c2b5f4f29d2de4bbc59b",
       "a9aaf9c6fcdfbb92db9b",
       "f00999ec62bc5ed0819e",
+      "c2b5f4f29d2de4bbc59b",
       "c3654cb40f390a214421",
       "6c0eba732d6c81b43135",
       "fcb4c776005573035d55",
@@ -18168,13 +18173,13 @@ const EVENT_DATA = {
       "d939363822cc9ee243bc",
       "db71ae11850099abe2fb",
       "e1c8ce1020d418cc5c4b",
-      "9815bc1e30a6a1b343b5",
       "0da77ecf3775d7a10e26",
+      "9815bc1e30a6a1b343b5",
       "e6a36c5250494a6d0e1b",
       "f6cc4e590fb5daf76b79",
-      "c2b5f4f29d2de4bbc59b",
       "a9aaf9c6fcdfbb92db9b",
       "f00999ec62bc5ed0819e",
+      "c2b5f4f29d2de4bbc59b",
       "c3654cb40f390a214421",
       "8c88f22666b40c382ef3",
       "6c0eba732d6c81b43135",
@@ -18212,9 +18217,9 @@ const EVENT_DATA = {
       "a557518e03491982b99d",
       "a25642e3d7b8341bf995",
       "9f18a2e121475bcdbbfa",
-      "c2b5f4f29d2de4bbc59b",
       "a9aaf9c6fcdfbb92db9b",
       "f00999ec62bc5ed0819e",
+      "c2b5f4f29d2de4bbc59b",
       "0c35a050cde43b5ec282",
       "8531f2c0a5605fe1c700",
       "3634b71fcdf6347f3804",
@@ -18250,6 +18255,7 @@ const EVENT_DATA = {
       "0d7ec53349885db300d5",
       "9af8b864e797e29277d2",
       "4716369314861be8b8c3",
+      "ec2c6f1422efcd43c7ec",
       "4daae5c229c9b8322db4",
       "100a747569618c0e2720",
       "114d6e3a2412bf824f8e",
@@ -18272,14 +18278,14 @@ const EVENT_DATA = {
       "1885ddda919e213c8fad",
       "6ff645f8439d87b1a104",
       "49cf0cf44d1bb2a099ba",
-      "9815bc1e30a6a1b343b5",
       "0da77ecf3775d7a10e26",
+      "9815bc1e30a6a1b343b5",
       "ab382d5acb7fcaf495f3",
       "a25642e3d7b8341bf995",
       "9eee50d82bad53b6786a",
-      "c2b5f4f29d2de4bbc59b",
       "a9aaf9c6fcdfbb92db9b",
       "f00999ec62bc5ed0819e",
+      "c2b5f4f29d2de4bbc59b",
       "7b524f29aa2bafefc24c",
       "829da28e8d7ea2ffe25c",
       "90b332e9296dd062477d",
@@ -18307,9 +18313,7 @@ const EVENT_DATA = {
       "062490ec287877913a16",
       "b6559c29865c21d298fd",
       "f49070de3cb5c22ba851",
-      "d00950a5e4c56b9cf167",
-      "9b50587b7bb9954aed32",
-      "7c5d907f386214316344"
+      "d00950a5e4c56b9cf167"
     ],
     "GOOGL": [
       "b9f99afea91287ea5daa",
@@ -18392,8 +18396,7 @@ const EVENT_DATA = {
       "7ca87bb4126792c8e111",
       "d2ce1ffb2ee07ec13f60",
       "8c682677fccf26451302",
-      "6ef5fc43dfa729b5a1ab",
-      "9b50587b7bb9954aed32"
+      "6ef5fc43dfa729b5a1ab"
     ],
     "INTC": [
       "cc12c597ababca7117bc",
@@ -18415,8 +18418,7 @@ const EVENT_DATA = {
       "50700b81247a8b9181cd",
       "d1cf85a9755277b4866d",
       "6d1f7a11661a39e4ceda",
-      "62e2c378c1edd19a3d5f",
-      "7c5d907f386214316344"
+      "62e2c378c1edd19a3d5f"
     ],
     "QCOM": [
       "cc12c597ababca7117bc",
