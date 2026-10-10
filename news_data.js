@@ -5547,7 +5547,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 108,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "SPY": {
@@ -12395,11 +12395,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 139,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "MSFT": {
-    "_last_attempt_at": 1791643414.4937038,
+    "_last_attempt_at": 1791666002.0908265,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -12408,6 +12408,124 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Microsoft Stock Has Grown Roughly 15-Fold Since Satya Nadella Became CEO in 2014, a 27% Annual Growth Rate That Ended 14 Years of Near-Zero Growth. Can That Pace Continue Under Heavy AI Spending?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f2844e0e786b008920f0834d70180231cc0469bf4e4f740cc84cb4a2292c00f1",
+        "datetime": 1791641700,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Microsoft 주식은 2014년 Satya Nadella가 CEO가 된 이후 약 15배 성장했으며, 이는 14년 동안 거의 0에 가까운 성장을 마감한 27%의 연간 성장률입니다.",
+            "막대한 AI 지출에도 이러한 속도가 계속될 수 있을까?",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Satya Nadella가 Microsoft의 CEO로서 거둔 성공에 대해 이의를 제기할 수 있는 사람은 거의 없습니다(MSFT +2.38%)."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 27%, 1,360%, 1,670% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "MSFT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "27%",
+            "1,360%",
+            "1,670%",
+            "$116 billion",
+            "$65 billion",
+            "$44 billion",
+            "$220 billion",
+            "$200 billion"
+          ],
+          "sourceExcerpt": [
+            "Microsoft Stock Has Grown Roughly 15-Fold Since Satya Nadella Became CEO in 2014, a 27% Annual Growth Rate That Ended 14 Years of Near-Zero Growth.",
+            "Can That Pace Continue Under Heavy AI Spending?",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Few can dispute the success that Satya Nadella has had as CEO of Microsoft ( MSFT +2.38% ) ."
+          ],
+          "analysisUpdatedAt": 1791666008.9114327
+        },
+        "headlineKo": "Microsoft 주식은 2014년 Satya Nadella가 CEO가 된 이후 약 15배 성장했으며, 이는 14년 동안 거의 0에 가까운 성장을 마감한 27%의 연간 성장률입니다. 막대한 AI 지출에도 이러한 속도가 계속될 수 있을까?"
+      },
+      {
+        "headline": "Vance says Microsoft replaced laid-off workers with foreign hires. Here’s what the visa data shows",
+        "source": "CNBC",
+        "url": "https://finnhub.io/api/news?id=8d7fd62f33c7c1b1792e470205a68c6ffd8eed6ee31dd90d8fa708cc08357d2a",
+        "datetime": 1791627743,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Vance는 Microsoft가 해고된 근로자를 외국인 고용인으로 교체했다고 말했습니다.",
+            "데이터 보기 탐색 건너뛰기 시장 비즈니스 투자 기술 정치 및 정책 비디오 관심 목록 Investing Club PRO 라이브스트림 메뉴 요점 Trump 행정부는 Microsoft, Adobe 및 6개 IT 서비스 회사를 노동당 PERM에서 정지시켰습니다.",
+            "JD Vance 부사장은 Microsoft가 해고된 미국인 근로자를 외국인 고용인으로 대체하고 있다고 비난했습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "MSFT에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [
+            "Vance says Microsoft replaced laid-off workers with foreign hires.",
+            "See the data Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestream Menu Key Points The Trump administration suspended Microsoft, Adobe and six IT services firms from PERM, the Labor ",
+            "Vice President JD Vance accused Microsoft of replacing laid-off American workers with foreign hires."
+          ],
+          "analysisUpdatedAt": 1791666011.9947762
+        },
+        "headlineKo": "Vance는 Microsoft가 해고된 근로자를 외국인 고용인으로 교체했다고 말했습니다. 비자 데이터는 다음과 같습니다"
+      },
       {
         "headline": "Microsoft Plus 2 Elite Defensive Stocks",
         "source": "Yahoo",
@@ -12454,7 +12572,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791643424.7279074
+          "analysisUpdatedAt": 1791666013.7684433
         },
         "headlineKo": "Microsoft Plus 2 엘리트 방어 주식"
       },
@@ -12466,46 +12584,6 @@ const NEWS_DATA = {
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Microsoft's AI Economics Are Quietly Starting To Change",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft's AI Economics Are Quietly Starting To Change' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.4,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791643425.65184
-        },
         "headlineKo": "마이크로소프트의 AI 경제학은 조용히 변화하기 시작하고 있다"
       },
       {
@@ -12516,25 +12594,37 @@ const NEWS_DATA = {
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "MAG 7의 목소리: 이번 주에 Nvidia, Microsoft, Alphabet, Meta가 AI를 어떻게 변화시켰는가"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Microsoft Stock Has Grown Roughly 15-Fold Since Satya Nadella Became CEO in 2014, a 27% Annual Growth Rate That Ended 14 Years of Near-Zero Growth. Can That Pace Continue Under Heavy AI Spending?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f2844e0e786b008920f0834d70180231cc0469bf4e4f740cc84cb4a2292c00f1",
+        "datetime": 1791641700,
+        "headlineKo": "Microsoft 주식은 2014년 Satya Nadella가 CEO가 된 이후 약 15배 성장했으며, 이는 14년 동안 거의 0에 가까운 성장을 마감한 27%의 연간 성장률입니다. 막대한 AI 지출에도 이러한 속도가 계속될 수 있을까?",
+        "relevance": 0.4,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "medium",
+          "importance": "high",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
+          "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Nvidia, Microsoft, Google이 AI 추진을 확대하지만 OpenAI 수익 격차로 이번 주 의문 제기 AI 에이전트 동향 뉴스 수익 전체 DIA 0.87% SPY 0.60% QQQ 0.49% 추세 STRK 9.15% TOSHI 3.28% AI 1.68% AERO 11.50% NEAR 13.96% HRL 1.18% OPEAZZX",
-            "MAG 7의 목소리: 이번 주 Nvidia, Microsoft, Alphabet, Meta가 AI를 재구성한 방법 Magnificent Seven은 데스크톱 에이전트 및 클라우드 기반 비서부터 웨어러블 장치 및 맞춤형 칩에 이르기까지 다양한 AI 전략을 추구하고 있습니다.",
-            "엔비디아 CEO 젠슨 황이 2026년 7월 16일 일본 도쿄에서 열린 기자회견에서 연설하고 있습니다."
+            "Microsoft 주식은 2014년 Satya Nadella가 CEO가 된 이후 약 15배 성장했으며, 이는 14년 동안 거의 0에 가까운 성장을 마감한 27%의 연간 성장률입니다.",
+            "막대한 AI 지출에도 이러한 속도가 계속될 수 있을까?",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Satya Nadella가 Microsoft의 CEO로서 거둔 성공에 대해 이의를 제기할 수 있는 사람은 거의 없습니다(MSFT +2.38%)."
           ],
           "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.87%, 0.60%, 0.49% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 27%, 1,360%, 1,670% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -12545,55 +12635,85 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
           ],
-          "interpretation": "MSFT에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "MSFT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.4,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.87%",
-            "0.60%",
-            "0.49%",
-            "9.15%",
-            "3.28%",
-            "1.68%",
-            "11.50%",
-            "13.96%"
+            "27%",
+            "1,360%",
+            "1,670%",
+            "$116 billion",
+            "$65 billion",
+            "$44 billion",
+            "$220 billion",
+            "$200 billion"
           ],
           "sourceExcerpt": [
-            "Nvidia, Microsoft, Google Expand AI Push, But OpenAI Revenue Gap Raises Questions This Week AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending STRK 9.15% TOSHI 3.28% AI 1.68% AERO 11.50% NEAR 13.96% HRL 1.18% OPEAZZX",
-            "MAG 7 Voices: How Nvidia, Microsoft, Alphabet, Meta Reshaped AI This Week The Magnificent Seven are pursuing different AI strategies, from desktop agents and cloud-based assistants to wearable devices and custom chips.",
-            "Nvidia CEO Jensen Huang speaks during a press conference in Tokyo, Japan on July 16, 2026."
+            "Microsoft Stock Has Grown Roughly 15-Fold Since Satya Nadella Became CEO in 2014, a 27% Annual Growth Rate That Ended 14 Years of Near-Zero Growth.",
+            "Can That Pace Continue Under Heavy AI Spending?",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Few can dispute the success that Satya Nadella has had as CEO of Microsoft ( MSFT +2.38% ) ."
           ],
-          "analysisUpdatedAt": 1791643429.41861
-        },
-        "headlineKo": "MAG 7의 목소리: 이번 주에 Nvidia, Microsoft, Alphabet, Meta가 AI를 어떻게 변화시켰는가"
+          "analysisUpdatedAt": 1791666008.9114327
+        }
       },
       {
-        "headline": "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5c4e446abd334f8092f8ee0a0068885b5977f2f5175ab4b843013a4fece9ea30",
-        "datetime": 1791586391,
-        "relevance": 0.6,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "S&P 500, Nasdaq 100, Dow End Week High, 트레이더들이 수익 시즌을 주목하고 있음 — ​​MSFT, NFLX, SPCX, ASTS In Focus"
-      },
-      {
-        "headline": "JD Vance slams Microsoft, says it swapped 6,000 laid-off Americans for ‘foreign indentured servants.’ Microsoft responds",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5784478142de3f23c4ed8c7938cd3f2a8ce9affb083b861f37759b537222d41b",
-        "datetime": 1791582300,
+        "headline": "Vance says Microsoft replaced laid-off workers with foreign hires. Here’s what the visa data shows",
+        "source": "CNBC",
+        "url": "https://finnhub.io/api/news?id=8d7fd62f33c7c1b1792e470205a68c6ffd8eed6ee31dd90d8fa708cc08357d2a",
+        "datetime": 1791627743,
+        "headlineKo": "Vance는 Microsoft가 해고된 근로자를 외국인 고용인으로 교체했다고 말했습니다. 비자 데이터는 다음과 같습니다",
         "relevance": 0.4,
         "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "JD Vance는 Microsoft가 해고된 미국인 6,000명을 '외국 계약 하인'으로 교환했다고 말하면서 Microsoft를 비난했습니다. Microsoft는 이에 응합니다."
-      }
-    ],
-    "newsHistory": [
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Vance는 Microsoft가 해고된 근로자를 외국인 고용인으로 교체했다고 말했습니다.",
+            "데이터 보기 탐색 건너뛰기 시장 비즈니스 투자 기술 정치 및 정책 비디오 관심 목록 Investing Club PRO 라이브스트림 메뉴 요점 Trump 행정부는 Microsoft, Adobe 및 6개 IT 서비스 회사를 노동당 PERM에서 정지시켰습니다.",
+            "JD Vance 부사장은 Microsoft가 해고된 미국인 근로자를 외국인 고용인으로 대체하고 있다고 비난했습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "MSFT에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [
+            "Vance says Microsoft replaced laid-off workers with foreign hires.",
+            "See the data Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestream Menu Key Points The Trump administration suspended Microsoft, Adobe and six IT services firms from PERM, the Labor ",
+            "Vice President JD Vance accused Microsoft of replacing laid-off American workers with foreign hires."
+          ],
+          "analysisUpdatedAt": 1791666011.9947762
+        }
+      },
       {
         "headline": "Microsoft Plus 2 Elite Defensive Stocks",
         "source": "Yahoo",
@@ -12640,7 +12760,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791643424.7279074
+          "analysisUpdatedAt": 1791666013.7684433
         }
       },
       {
@@ -20183,119 +20303,21 @@ const NEWS_DATA = {
           ],
           "analysisUpdatedAt": 1790239752.194945
         }
-      },
-      {
-        "headline": "Microsoft: Buy This Early Recovery",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=4ec8fb1fe447ebf86776cc6b80785bb9390a70ede1f4a999e0c4bb8f7a6ecadd",
-        "datetime": 1790197780,
-        "headlineKo": "Microsoft: 조기 복구 구매",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Microsoft: Buy This Early Recovery",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft: Buy This Early Recovery' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.4,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790239753.0512807
-        }
-      },
-      {
-        "headline": "Microsoft President Brad Smith: AI Systems Need an ‘Emergency Brake’",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=59f196d475e6f655e9368f46bdddbb869b3cd86a61f8b3799294aa9d295fad78",
-        "datetime": 1790196960,
-        "headlineKo": "브래드 스미스 마이크로소프트 사장: AI 시스템에는 '비상 브레이크'가 필요하다",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Microsoft President Brad Smith: AI Systems Need an ‘Emergency Brake’",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft President Brad Smith: AI Systems Need an ‘Emergency Brake’' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.4,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790239755.6823857
-        }
       }
     ],
-    "_fetched_at": 1791643414.4937038,
-    "_updated_label": "2026-10-10 23:43",
-    "_last_success_at": 1791643414.4937038,
+    "_fetched_at": 1791666002.0908265,
+    "_updated_label": "2026-10-11 06:00",
+    "_last_success_at": 1791666002.0908265,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "GOOGL": {
-    "_last_attempt_at": 1791643414.4937038,
+    "_last_attempt_at": 1791666002.0908265,
     "nextEarnings": {
       "date": "2026-10-27",
       "hour": "amc",
@@ -20305,23 +20327,23 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Sundar Pichai Reported Alphabet's Cloud Revenue Grew 82% to $24.8 Billion Last Quarter, With the Gemini App Reaching 950 Million Monthly Users. Is Google Cloud Becoming a Bigger Growth Driver Than Sea",
+        "headline": "Alphabet (GOOGL) Has A $5 Billion Waymo Loan And A $50 Billion AI Bet",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6bea1f0ad582883844af27c929239d63c4e89a68d209c266ac30b10264e83fe7",
-        "datetime": 1791625740,
-        "relevance": 1,
+        "url": "https://finnhub.io/api/news?id=15d4e383c6f8cfe12e94b3325cd165a34cb68ad14194efdb76c2fb917500a520",
+        "datetime": 1791648622,
+        "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "high",
+          "importance": "medium",
           "tone": "positive",
           "certainty": "전망·추정 포함",
           "label": "AI 인프라 자금 유입 확대",
           "horizon": "중기 투자 사이클",
           "facts": [
             "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 82%, $24.8 Billion, 17%, $63.3 billion, $514 billion, 90%, $2 trillion, 43%.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
             "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
@@ -20362,35 +20384,22 @@ const NEWS_DATA = {
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
           ],
-          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Sundar Pichai Reported Alphabet's Cloud Revenue Grew 82% to $24.8 Billion Last Quarter, With the Gemini App Reaching 950 Million Monthly Users. Is Google Cloud Becoming a Bigger Growth Driver Than Sea' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: GOOGL에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
-          "relevance": 1,
+          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Alphabet (GOOGL) Has A $5 Billion Waymo Loan And A $50 Billion AI Bet' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: GOOGL에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1.0,
           "quality": "high",
-          "verifiedNumbers": [
-            "82%",
-            "$24.8 Billion",
-            "17%",
-            "$63.3 billion",
-            "$514 billion",
-            "90%",
-            "$2 trillion",
-            "43%"
-          ],
-          "sourceExcerpt": [
-            "Sundar Pichai Reported Alphabet's Cloud Revenue Grew 82% to $24.8 Billion Last Quarter, With the Gemini App Reaching 950 Million Monthly Users.",
-            "Is Google Cloud Becoming a Bigger Growth Driver Than Search?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Alphabet ( GOOGL +0.97% ) ( GOOG +0.87% ) CEO Sundar Pichai recently revealed some notable artificial intelligence metrics for his "
-          ],
-          "analysisUpdatedAt": 1791643438.8705466
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791666019.9397197
         },
-        "headlineKo": "Sundar Pichai는 Gemini 앱의 월간 사용자 수가 9억 5천만 명에 달하면서 Alphabet의 클라우드 수익이 지난 분기에 82% 증가한 248억 달러를 기록했다고 보고했습니다. Google Cloud가 Sea보다 더 큰 성장 동력이 되고 있습니까?"
+        "headlineKo": "Alphabet(GOOGL)은 50억 달러의 Waymo 대출과 500억 달러의 AI 베팅을 보유하고 있습니다."
       },
       {
-        "headline": "Alphabet Is A Fortress Stock, Built To Survive",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=ddca681bcde24b3beeb08dcf687f12345778a83488c073c4618fa9b0ed0bb66f",
-        "datetime": 1791616056,
-        "relevance": 0.4,
+        "headline": "Google’s Orbital TPU Test: Why SpaceX Wins No Matter Which Hyperscaler Gets There First",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8d42adb3d2f01c4146fbb3ab26516aa7e6d2e4165eeb8b4e88d5d38f6022fce1",
+        "datetime": 1791641905,
+        "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
@@ -20401,7 +20410,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Alphabet Is A Fortress Stock, Built To Survive",
+            "Google’s Orbital TPU Test: Why SpaceX Wins No Matter Which Hyperscaler Gets There First",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -20425,99 +20434,103 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Alphabet Is A Fortress Stock, Built To Survive' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Google’s Orbital TPU Test: Why SpaceX Wins No Matter Which Hyperscaler Gets There First' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "GOOGL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.4,
+          "relevance": 1.0,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791643439.7272887
+          "analysisUpdatedAt": 1791666022.238534
         },
-        "headlineKo": "알파벳은 생존을 위해 만들어진 요새입니다."
+        "headlineKo": "Google의 궤도 TPU 테스트: 어떤 하이퍼스케일러가 먼저 도착하더라도 SpaceX가 승리하는 이유"
       },
       {
-        "headline": "MAG 7 Voices: How Nvidia, Microsoft, Alphabet, Meta Reshaped AI This Week",
+        "headline": "Unity Shares Surged After a New AI Gaming Deal With Google. How Investors Should View U Stock Now.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5ed97e542b4f63c0d4753236fb6f6abbb87923357a06e16b4a65ec207a3f3edd",
-        "datetime": 1791602797,
-        "relevance": 0.4,
+        "url": "https://finnhub.io/api/news?id=1e1fa0ac4e4fc6b880b56bef2eb24054c5b6f817d19e037d904dbc799910221f",
+        "datetime": 1791638734,
+        "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
           "facts": [
-            "Nvidia, Microsoft, Google이 AI 추진을 확대하지만 OpenAI 수익 격차로 이번 주 의문 제기 AI 에이전트 동향 뉴스 수익 전체 DIA 0.87% SPY 0.60% QQQ 0.49% 추세 STRK 9.66% TOSHI 3.29% AI 1.68% AERO 10.95% NEAR 13.79% HRL 1.18% OPEAZZX",
-            "MAG 7의 목소리: 이번 주 Nvidia, Microsoft, Alphabet, Meta가 AI를 재구성한 방법 Magnificent Seven은 데스크톱 에이전트 및 클라우드 기반 비서부터 웨어러블 장치 및 맞춤형 칩에 이르기까지 다양한 AI 전략을 추구하고 있습니다.",
-            "엔비디아 CEO 젠슨 황이 2026년 7월 16일 일본 도쿄에서 열린 기자회견에서 연설하고 있습니다."
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.87%, 0.60%, 0.49% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "GOOGL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
           ],
           "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
           ],
           "impacts": [
             {
-              "ticker": "GOOGL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
             }
           ],
           "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
           ],
-          "interpretation": "GOOGL에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.87%",
-            "0.60%",
-            "0.49%",
-            "9.66%",
-            "3.29%",
-            "1.68%",
-            "10.95%",
-            "13.79%"
-          ],
-          "sourceExcerpt": [
-            "Nvidia, Microsoft, Google Expand AI Push, But OpenAI Revenue Gap Raises Questions This Week AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending STRK 9.66% TOSHI 3.29% AI 1.68% AERO 10.95% NEAR 13.79% HRL 1.18% OPEAZZX",
-            "MAG 7 Voices: How Nvidia, Microsoft, Alphabet, Meta Reshaped AI This Week The Magnificent Seven are pursuing different AI strategies, from desktop agents and cloud-based assistants to wearable devices and custom chips.",
-            "Nvidia CEO Jensen Huang speaks during a press conference in Tokyo, Japan on July 16, 2026."
-          ],
-          "analysisUpdatedAt": 1791643444.0405693
+          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Unity Shares Surged After a New AI Gaming Deal With Google. How Investors Should View U Stock Now.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: GOOGL에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1.0,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791666023.2932007
         },
-        "headlineKo": "MAG 7의 목소리: 이번 주에 Nvidia, Microsoft, Alphabet, Meta가 AI를 어떻게 변화시켰는가"
+        "headlineKo": "Google과의 새로운 AI 게임 거래 이후 Unity 주가가 급등했습니다. 투자자가 지금 U 주식을 어떻게 보아야 할까요?"
       },
       {
-        "headline": "5 big analyst AI moves: Google reaffirmed as top pick after Gemini agent launch",
+        "headline": "Sundar Pichai Reported Alphabet's Cloud Revenue Grew 82% to $24.8 Billion Last Quarter, With the Gemini App Reaching 950 Million Monthly Users. Is Google Cloud Becoming a Bigger Growth Driver Than Sea",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=92484ceff0d79f9d1da630bcada6f6902ecab14124a74ebdda161fd0ec9fd992",
-        "datetime": 1791583042,
+        "url": "https://finnhub.io/api/news?id=6bea1f0ad582883844af27c929239d63c4e89a68d209c266ac30b10264e83fe7",
+        "datetime": 1791625740,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "5가지 대형 분석가 AI 움직임: Google은 Gemini 에이전트 출시 후 최고의 선택으로 재확인되었습니다."
+        "headlineKo": "Sundar Pichai는 Gemini 앱의 월간 사용자 수가 9억 5천만 명에 달하면서 Alphabet의 클라우드 수익이 지난 분기에 82% 증가한 248억 달러를 기록했다고 보고했습니다. Google Cloud가 Sea보다 더 큰 성장 동력이 되고 있습니까?"
       },
       {
-        "headline": "Microsoft vs. Alphabet: Which AI Cloud Stock Is Cheaper After the Capital Spending?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3e46aa14aebfbe2956ee8255726d8af6a69e90a7b7afe9d82fde9e9856f2a09d",
-        "datetime": 1791580827,
+        "headline": "Alphabet Is A Fortress Stock, Built To Survive",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=ddca681bcde24b3beeb08dcf687f12345778a83488c073c4618fa9b0ed0bb66f",
+        "datetime": 1791616056,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Microsoft vs. Alphabet: 자본 지출 후 어느 AI 클라우드 주식이 더 저렴합니까?"
+        "headlineKo": "알파벳은 생존을 위해 만들어진 요새입니다."
       },
       {
         "headline": "Google, Constellation Energy Strike Deal for Nuclear Power",
@@ -20662,6 +20675,189 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Alphabet (GOOGL) Has A $5 Billion Waymo Loan And A $50 Billion AI Bet",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=15d4e383c6f8cfe12e94b3325cd165a34cb68ad14194efdb76c2fb917500a520",
+        "datetime": 1791648622,
+        "headlineKo": "Alphabet(GOOGL)은 50억 달러의 Waymo 대출과 500억 달러의 AI 베팅을 보유하고 있습니다.",
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Alphabet (GOOGL) Has A $5 Billion Waymo Loan And A $50 Billion AI Bet' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: GOOGL에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1.0,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791666019.9397197
+        }
+      },
+      {
+        "headline": "Google’s Orbital TPU Test: Why SpaceX Wins No Matter Which Hyperscaler Gets There First",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8d42adb3d2f01c4146fbb3ab26516aa7e6d2e4165eeb8b4e88d5d38f6022fce1",
+        "datetime": 1791641905,
+        "headlineKo": "Google의 궤도 TPU 테스트: 어떤 하이퍼스케일러가 먼저 도착하더라도 SpaceX가 승리하는 이유",
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Google’s Orbital TPU Test: Why SpaceX Wins No Matter Which Hyperscaler Gets There First",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "GOOGL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Google’s Orbital TPU Test: Why SpaceX Wins No Matter Which Hyperscaler Gets There First' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "GOOGL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791666022.238534
+        }
+      },
+      {
+        "headline": "Unity Shares Surged After a New AI Gaming Deal With Google. How Investors Should View U Stock Now.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1e1fa0ac4e4fc6b880b56bef2eb24054c5b6f817d19e037d904dbc799910221f",
+        "datetime": 1791638734,
+        "headlineKo": "Google과의 새로운 AI 게임 거래 이후 Unity 주가가 급등했습니다. 투자자가 지금 U 주식을 어떻게 보아야 할까요?",
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Unity Shares Surged After a New AI Gaming Deal With Google. How Investors Should View U Stock Now.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: GOOGL에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1.0,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791666023.2932007
+        }
+      },
       {
         "headline": "Sundar Pichai Reported Alphabet's Cloud Revenue Grew 82% to $24.8 Billion Last Quarter, With the Gemini App Reaching 950 Million Monthly Users. Is Google Cloud Becoming a Bigger Growth Driver Than Sea",
         "source": "Yahoo",
@@ -28057,164 +28253,17 @@ const NEWS_DATA = {
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1790460953.3741722
         }
-      },
-      {
-        "headline": "Google Moves Up its Space Data Center Timeline — Project Suncatcher Launches Oct. 1",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=fed793e9005a8f9d66881cd6ee77376ab773066366cbd1e03008e1562188f609",
-        "datetime": 1790389807,
-        "headlineKo": "Google, 우주 데이터 센터 타임라인 상향 조정 - 프로젝트 Suncatcher가 10월 1일 출시",
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Google Moves Up its Space Data Center Timeline — Project Suncatcher Launches Oct. 1",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "GOOGL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Google Moves Up its Space Data Center Timeline — Project Suncatcher Launches Oct. 1' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "GOOGL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1.0,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790460955.008046
-        }
-      },
-      {
-        "headline": "Alphabet (GOOGL) Faces Gemini Security Questions. Could AI Agents Raise its Risks?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=cb96e42dd86d3d32be42e17c99507491b4c67de1c95396c84009feceabe6df4c",
-        "datetime": 1790386052,
-        "headlineKo": "Alphabet(GOOGL)이 Gemini 보안 문제에 직면했습니다. AI 에이전트가 위험을 높일 수 있습니까?",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "실적·재무 부담 확인 필요",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Alphabet (GOOGL) Faces Gemini Security Questions. Could AI Agents Raise its Risks?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "GOOGL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Alphabet (GOOGL) Faces Gemini Security Questions. Could AI Agents Raise its Risks?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "GOOGL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790438900.4882572
-        }
-      },
-      {
-        "headline": "Alphabet (GOOGL) Plans Waymo’s Singapore Launch for 2028. Can Robotaxis Scale Abroad?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a8a4beb36ad038d23cfe43c0ab71f7401896dc78b78b652d63e714088c10fe39",
-        "datetime": 1790383999,
-        "headlineKo": "Alphabet(GOOGL)은 2028년에 Waymo의 싱가포르 출시를 계획하고 있습니다. Robotaxis가 해외로 확장할 수 있을까요?",
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Alphabet (GOOGL) Plans Waymo’s Singapore Launch for 2028. Can Robotaxis Scale Abroad?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "GOOGL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Alphabet (GOOGL) Plans Waymo’s Singapore Launch for 2028. Can Robotaxis Scale Abroad?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "GOOGL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1.0,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790438903.5166733
-        }
       }
     ],
-    "_fetched_at": 1791643414.4937038,
-    "_updated_label": "2026-10-10 23:44",
-    "_last_success_at": 1791643414.4937038,
+    "_fetched_at": 1791666002.0908265,
+    "_updated_label": "2026-10-11 06:00",
+    "_last_success_at": 1791666002.0908265,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "AMZN": {
@@ -36262,7 +36311,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "META": {
@@ -44286,7 +44335,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "AAPL": {
@@ -52176,7 +52225,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "TSLA": {
@@ -60178,7 +60227,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "ORCL": {
@@ -68522,7 +68571,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "CRM": {
@@ -74879,7 +74928,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "PLTR": {
@@ -83591,7 +83640,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "NVDA": {
@@ -91074,7 +91123,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "AMD": {
@@ -99182,7 +99231,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "AVGO": {
@@ -108352,7 +108401,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "QCOM": {
@@ -115344,7 +115393,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 151,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "ARM": {
@@ -120379,7 +120428,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "MRVL": {
@@ -128443,7 +128492,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 174,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "INTC": {
@@ -136892,7 +136941,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "TSM": {
@@ -143181,11 +143230,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 140,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "ASML": {
-    "_last_attempt_at": 1791643414.4937038,
+    "_last_attempt_at": 1791666002.0908265,
     "nextEarnings": {
       "date": "2026-10-14",
       "hour": "bmo",
@@ -143240,7 +143289,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791643454.3411465
+          "analysisUpdatedAt": 1791666029.9236934
         },
         "headlineKo": "ASML Holding (ENXTAM:ASML), AI 하락 직면, 주식이 너무 비싼가요?"
       },
@@ -143289,7 +143338,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791643458.7259007
+          "analysisUpdatedAt": 1791666031.9531085
         },
         "headlineKo": "다우존스 선물: S&P 500, 나스닥 근고점; ASML, Nvidia의 칩 제조사 Taiwan Semi, AI 수익 개시"
       },
@@ -143339,7 +143388,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791643460.7906163
+          "analysisUpdatedAt": 1791666034.3542037
         },
         "headlineKo": "JPMorgan, ASML 및 Chevron의 주요 연구 보고서"
       },
@@ -143515,7 +143564,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791643454.3411465
+          "analysisUpdatedAt": 1791666029.9236934
         }
       },
       {
@@ -143563,7 +143612,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791643458.7259007
+          "analysisUpdatedAt": 1791666031.9531085
         }
       },
       {
@@ -143612,7 +143661,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791643460.7906163
+          "analysisUpdatedAt": 1791666034.3542037
         }
       },
       {
@@ -147508,15 +147557,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791643414.4937038,
-    "_updated_label": "2026-10-10 23:44",
-    "_last_success_at": 1791643414.4937038,
+    "_fetched_at": 1791666002.0908265,
+    "_updated_label": "2026-10-11 06:00",
+    "_last_success_at": 1791666002.0908265,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "AMAT": {
@@ -152086,7 +152135,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "LRCX": {
@@ -154576,7 +154625,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "KLAC": {
@@ -156920,7 +156969,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "MU": {
@@ -164481,7 +164530,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "SNDK": {
@@ -172082,7 +172131,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 158,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "WDC": {
@@ -176628,11 +176677,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 95,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "ANET": {
-    "_last_attempt_at": 1791643414.4937038,
+    "_last_attempt_at": 1791666002.0908265,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -176701,7 +176750,7 @@ const NEWS_DATA = {
             "| Trefis What Could Send Arista Networks Stock Higher?",
             "October 9th, 2026 · by Trefis Team ANET YTD +65.4% SPY YTD +14.8% QQQ YTD +22.6% Analyze ANET → Arista Networks (ANET) stock trades at 65.7 times earnings , compared with 21.5 for the S&P 500."
           ],
-          "analysisUpdatedAt": 1791643477.3035607
+          "analysisUpdatedAt": 1791666040.502777
         },
         "headlineKo": "Arista Networks의 주식을 더 높게 보낼 수 있는 방법은 무엇입니까?"
       },
@@ -176751,36 +176800,37 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791643479.1149817
+          "analysisUpdatedAt": 1791666042.4795775
         },
         "headlineKo": "강세 추세에 있는 Arista Networks 주식은 빠른 수익으로 스프레드 거래를 제공합니다."
       },
       {
-        "headline": "Final Trades: Hewlett Packard, Wells Fargo, Arista Networks and UnitedHealth",
-        "source": "CNBC",
-        "url": "https://finnhub.io/api/news?id=332c12d6feea9c49edce0058b29892c6e74f564c522db44463ca304da4ff2455",
-        "datetime": 1791551461,
+        "headline": "Arista Networks Plugs Into All-Time Highs",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1f786614fdf34dea0459b2e0759df2de39d385e8e48b11880d076dc411316701",
+        "datetime": 1791557400,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "high",
+          "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
+          "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "최종 거래: Hewlett Packard, Wells Fargo, Arista Networks 및 UnitedHealth 시장 탐색 건너뛰기 비즈니스 투자 기술 정치 및 정책 비디오 관심 목록 Investing Club PRO 라이브 스트림 메뉴 지금 보기 이 비디오에서 HPE WFC ANET UNH 공유",
-            "01:03 2026년 10월 9일 금요일 오후 1:11 EDT 지금 보기 지금 보기 비디오 00:31 WSJ에 따르면 Kalshi는 트럼프가 백악관 대변인으로 선택한 것에 대한 베팅에 대한 조사를 시작합니다. 지금 보기 지금 보기 비디오 04:24 도박에 대한 Trump Admin과 Kalshi의 입장",
-            "SEC 의장 지금 시청하기 비디오 02:32 트럼프 대통령, 러시아와 디젤 공급 계약 발표 지금 보기 비디오 02:03 백악관, 케이티 자카리아를 새 언론 비서로 지명 지금 보기 비디오 00:57 FCC Bre 회장"
+            "ANET 주식, 오픈 이더넷 AI 푸시로 사상 최고치 기록",
+            "(Paradigm Press에서) (광고) Arista Networks가 사상 최고치를 기록했습니다. 작성자: Jeffrey Neal Johnson | Clare Titus 검토 2026년 10월 9일 기본 소스로 추가 공유 공유 이 기사 공유 링크가 클립보드에 복사되었습니다.",
+            "닫기 주요 사항 Arista Networks 주가는 AMD, Broadcom, Meta 및 Microsoft로 구축된 개방형 이더넷 랙 규모 포트폴리오를 출시한 후 $217에 가까운 사상 최고치를 기록했습니다."
           ],
           "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $217, 50%, $3.04 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "ANET의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -176791,22 +176841,41 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
           ],
-          "interpretation": "ANET에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "ANET에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 1,
           "quality": "medium",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [
-            "Final Trades: Hewlett Packard, Wells Fargo, Arista Networks and UnitedHealth Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestream Menu watch now In this video HPE WFC ANET UNH Share",
-            "01:03 Fri, Oct 9 2026 1:11 PM EDT watch now watch now VIDEO 00:31 Kalshi launches probe into bets on Trump's pick for White House Press Secretary, according to WSJ watch now watch now VIDEO 04:24 Trump Admin's and Kalshi's position on gambl",
-            "SEC Chair watch now watch now VIDEO 02:32 President Trump announces diesel supply agreement with Russia watch now watch now VIDEO 02:03 White House picks Katie Zacharia as new press secretary watch now watch now VIDEO 00:57 FCC Chairman Bre"
+          "verifiedNumbers": [
+            "$217",
+            "50%",
+            "$3.04 billion",
+            "37.7%",
+            "$13.3 billion",
+            "$216.64",
+            "2.69%",
+            "$114.52"
           ],
-          "analysisUpdatedAt": 1791643483.3718178
+          "sourceExcerpt": [
+            "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → What’s Elon building now?",
+            "(From Paradigm Press) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewed by Clare Titus October 9, 2026 Add As Preferred Source Share Share Share This Article Link copied to clipboard.",
+            "Close Key Points Arista Networks shares hit an all-time high near $217 after launching an open Ethernet rack-scale portfolio built with AMD, Broadcom, Meta, and Microsoft."
+          ],
+          "analysisUpdatedAt": 1791666048.137596
         },
+        "headlineKo": "Arista Networks, 사상 최고 기록 달성"
+      },
+      {
+        "headline": "Final Trades: Hewlett Packard, Wells Fargo, Arista Networks and UnitedHealth",
+        "source": "CNBC",
+        "url": "https://finnhub.io/api/news?id=332c12d6feea9c49edce0058b29892c6e74f564c522db44463ca304da4ff2455",
+        "datetime": 1791551461,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
         "headlineKo": "최종 거래: Hewlett Packard, Wells Fargo, Arista Networks 및 UnitedHealth"
       },
       {
@@ -176818,16 +176887,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Arista Networks 주식은 비싸지만 아직 계산하지 마십시오"
-      },
-      {
-        "headline": "Here’s How Much You Would Have Made Owning Arista Networks Stock In The Last 10 Years",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=8c0696a1d210d89431633e8374d3eda9a4c7625fe19df999084b27b02c19cb09",
-        "datetime": 1791486020,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "지난 10년 동안 Arista Networks 주식을 소유했을 때 벌어들인 수익은 다음과 같습니다."
       }
     ],
     "newsHistory": [
@@ -176891,7 +176950,7 @@ const NEWS_DATA = {
             "| Trefis What Could Send Arista Networks Stock Higher?",
             "October 9th, 2026 · by Trefis Team ANET YTD +65.4% SPY YTD +14.8% QQQ YTD +22.6% Analyze ANET → Arista Networks (ANET) stock trades at 65.7 times earnings , compared with 21.5 for the S&P 500."
           ],
-          "analysisUpdatedAt": 1791643477.3035607
+          "analysisUpdatedAt": 1791666040.502777
         }
       },
       {
@@ -176940,7 +176999,70 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791643479.1149817
+          "analysisUpdatedAt": 1791666042.4795775
+        }
+      },
+      {
+        "headline": "Arista Networks Plugs Into All-Time Highs",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1f786614fdf34dea0459b2e0759df2de39d385e8e48b11880d076dc411316701",
+        "datetime": 1791557400,
+        "headlineKo": "Arista Networks, 사상 최고 기록 달성",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "ANET 주식, 오픈 이더넷 AI 푸시로 사상 최고치 기록",
+            "(Paradigm Press에서) (광고) Arista Networks가 사상 최고치를 기록했습니다. 작성자: Jeffrey Neal Johnson | Clare Titus 검토 2026년 10월 9일 기본 소스로 추가 공유 공유 이 기사 공유 링크가 클립보드에 복사되었습니다.",
+            "닫기 주요 사항 Arista Networks 주가는 AMD, Broadcom, Meta 및 Microsoft로 구축된 개방형 이더넷 랙 규모 포트폴리오를 출시한 후 $217에 가까운 사상 최고치를 기록했습니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $217, 50%, $3.04 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "ANET의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "ANET",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "ANET에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$217",
+            "50%",
+            "$3.04 billion",
+            "37.7%",
+            "$13.3 billion",
+            "$216.64",
+            "2.69%",
+            "$114.52"
+          ],
+          "sourceExcerpt": [
+            "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → What’s Elon building now?",
+            "(From Paradigm Press) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewed by Clare Titus October 9, 2026 Add As Preferred Source Share Share Share This Article Link copied to clipboard.",
+            "Close Key Points Arista Networks shares hit an all-time high near $217 after launching an open Ethernet rack-scale portfolio built with AMD, Broadcom, Meta, and Microsoft."
+          ],
+          "analysisUpdatedAt": 1791666048.137596
         }
       },
       {
@@ -180278,15 +180400,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791643414.4937038,
-    "_updated_label": "2026-10-10 23:44",
-    "_last_success_at": 1791643414.4937038,
+    "_fetched_at": 1791666002.0908265,
+    "_updated_label": "2026-10-11 06:00",
+    "_last_success_at": 1791666002.0908265,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 74,
+      "checked": 75,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "COHR": {
@@ -183422,7 +183544,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "LITE": {
@@ -187170,7 +187292,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 80,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "GEV": {
@@ -192340,7 +192462,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "CEG": {
@@ -196760,7 +196882,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "VST": {
@@ -200142,7 +200264,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "ETN": {
@@ -203306,7 +203428,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "PWR": {
@@ -206246,7 +206368,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "HUBB": {
@@ -206964,7 +207086,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "VRT": {
@@ -210834,7 +210956,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "MOD": {
@@ -212162,7 +212284,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "STX": {
@@ -216220,7 +216342,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "EME": {
@@ -217983,7 +218105,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "FIX": {
@@ -219577,7 +219699,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   },
   "BE": {
@@ -221966,7 +222088,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-11 05:36"
+      "updated": "2026-10-11 06:00"
     }
   }
 };
