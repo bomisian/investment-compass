@@ -318,6 +318,15 @@ const MARKET_DATA = {
       "summaryKo": "UAE는 오만 플라이두바이 부조종사가 텔아비브 항공기에 대한 자살 공격을 계획했다고 밝혔습니다."
     },
     {
+      "headline": "Oil prices settle higher as more production shut ahead of hurricane - Reuters",
+      "summary": "Oil prices settle higher as more production shut ahead of hurricane Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONW0wejJNQmpGTE9heFBmZG8wTWE5a010VFNMSDBqcThNXzBFTjZkbWF3NnpxSWxoVkRJSEhMcDk4VDh5OVp3bzlZNzdiS0pNTnd6aGkwQVZsU0JiOU9wb0k1ckN1V2ZUVl9sTFRuZnVhLXFlaDUwZGIxT2VxNW1RZUwyNlJ3c2ZxRkdONll5RVdtTnlfcDllN0pnLWE4VU1FblRvbHdkTkIwbHNk?oc=5",
+      "datetime": 1791577191,
+      "headlineKo": "유가는 허리케인을 앞두고 더 많은 생산이 중단됨에 따라 더 높은 정착 - 로이터",
+      "summaryKo": "유가는 허리케인 로이터를 앞두고 더 많은 생산이 중단됨에 따라 더 높은 수준으로 정착합니다."
+    },
+    {
       "headline": "What's behind the recovery rally in tech stocks — plus, Elon Musk's very good week",
       "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
       "source": "CNBC",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1791571821,
       "headlineKo": "Micron과 Nvidia에서 두 번의 대규모 거래가 발생했습니다. 칩에 대한 의미",
       "summaryKo": "Bears는 금요일에도 반도체 그룹을 상대로 계속해서 포지션을 구축했습니다."
-    },
-    {
-      "headline": "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?",
-      "summary": "Trump’s bid to fire the Fed's Lisa Cook follows a Supreme Court ruling and could affect Jerome Powell, central bank independence and interest rates.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/09/trump-lisa-cook-fed-firing-committee-explained.html",
-      "datetime": 1791570057,
-      "headlineKo": "트럼프는 연준의 리사 쿡을 조사하기 위해 위원회를 만들었다. 그것은 무엇이며 다음은 무엇입니까?",
-      "summaryKo": "트럼프 대통령이 연준의 리사 쿡을 해고하려는 시도는 대법원 판결에 따른 것으로 제롬 파월, 중앙은행 독립성, 금리에 영향을 미칠 수 있다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791664590.7320874,
+  "_news_last_success_at": 1791668363.1122253,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791664581.8756802,
-  "_updated_label": "2026-10-11 05:36",
-  "_last_attempt_at": 1791664581.8756802,
-  "_last_success_at": 1791664581.8756802,
+  "_fetched_at": 1791668351.6560566,
+  "_updated_label": "2026-10-11 06:39",
+  "_last_attempt_at": 1791668351.6560566,
+  "_last_success_at": 1791668351.6560566,
   "_collection_status": "ok",
   "_collection_errors": []
 };
