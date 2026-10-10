@@ -5581,6 +5581,7 @@ function computePriceValidity(r){
   const allPositive = epsPositive && !cfVeto && business !== '약화';
   const usedFallbackModel = !bandEligible || distorted;
   let price;
+  let fallbackAxes = null, fallbackDecisiveReason = null;
   if(!usedFallbackModel){
     if(ntmPer > perBandHighVal){
       price = hasAnyNegative ? '고평가' : '적정';
@@ -5592,9 +5593,67 @@ function computePriceValidity(r){
       price = '적정';
     }
   } else {
-    if(hasAnyNegative) price = '고평가';
-    else if(allPositive) price = '저평가';
-    else price = '적정';
+    // --- 51749 -- 대체 모델(과거 PER 비교 불가) 종목의 결론 과정을 축별로 투명하게
+    //     분해한다(사용자 요청, 2026-10-10 — AVGO·CRM 화면만으로는 왜 저평가/고평가인지
+    //     보이지 않는다는 지적). 기존 hasAnyNegative/allPositive 단일 판정 대신, 핵심
+    //     3축(성장 전망/EPS 수정 방향/현금흐름·부채)을 각각 긍정/중립/부정으로 분류하고,
+    //     저평가·고평가는 핵심 축 중 2개 이상이 같은 방향일 때만 허용한다. 신호가 엇갈리면
+    //     적정. 단, 구조적 위험(현금흐름 거부권 발동·활성 하락 원인 진단)이나 EPS 하향
+    //     전환처럼 명확한 거부권 신호는 단독으로 고평가 결론을 허용한다(사용자 명시: "명확한
+    //     구조 위험이나 급격한 EPS 하향 같은 거부권은 단독으로 고평가·신규 접근 중지를
+    //     허용"). 목표가 방향·뉴스/규제 위험은 참고 축으로만 표시하고 2축 판정에는 포함하지
+    //     않는다(사용자 명시: "목표가 수준 자체는 단독 근거가 될 수 없음"). 뉴스·규제 위험
+    //     축은 새 분류기를 만들지 않고 이미 계산된 하락 원인 진단 카드(dcRaw/downturnState/
+    //     downturnSummary, DOWNTURN_CAUSE_CARDS_V31)만 재사용해 출처·기준일·영향 경로를
+    //     함께 표시한다(지어내지 않음 — 하락 원인 진단이 없는 종목은 "활성 진단 없음"으로
+    //     표시). ---
+    const growthAxis = growthStrong ? '긍정' : (growthWeak ? '부정' : '중립');
+    const epsAxis = epsDir0==='상향' ? '긍정' : (epsDir0==='하향' ? '부정' : '중립');
+    const cfAxis = cfVeto ? '부정' : (cfVetoCount>=1 ? '중립' : '긍정');
+    const coreAxes = [growthAxis, epsAxis, cfAxis];
+    const posCount = coreAxes.filter(x=>x==='긍정').length;
+    const negCount = coreAxes.filter(x=>x==='부정').length;
+
+    const marketRefAxis = (targetDir && targetDir.dir==='상향') ? '긍정' : ((targetDir && targetDir.dir==='하향') ? '부정' : '중립');
+    const newsRiskActive = !!(downturnState && (downturnState === '신규 접근 중지' || downturnState.indexOf('관찰')===0));
+    const newsRiskAxis = newsRiskActive ? '부정' : '중립';
+
+    const structuralVeto = cfVeto || newsRiskActive;
+    const sharpEpsDowngradeVeto = epsDir0 === '하향';
+    let vetoReason = null;
+    if(cfVeto) vetoReason = `현금흐름 거부권 발동(${cfDetail.join(', ')||'FCF·부채·희석 2개 이상 악화'})`;
+    else if(newsRiskActive) vetoReason = `하락 원인 진단 활성(${downturnState}${downturnSummary?` — ${downturnSummary}`:''})`;
+    else if(sharpEpsDowngradeVeto) vetoReason = 'EPS 수정 방향 하향 전환';
+
+    if(structuralVeto || sharpEpsDowngradeVeto){
+      price = '고평가';
+    } else if(posCount>=2 && negCount===0){
+      price = '저평가';
+    } else if(negCount>=2){
+      price = '고평가';
+    } else {
+      price = '적정';
+    }
+
+    const axisLabel = (nm, v) => `${nm} ${v}`;
+    if(vetoReason){
+      fallbackDecisiveReason = `거부권: ${vetoReason}`;
+    } else {
+      const aligned = [];
+      if(growthAxis!=='중립') aligned.push(axisLabel('성장 전망', growthAxis));
+      if(epsAxis!=='중립') aligned.push(axisLabel('EPS 수정 방향', epsAxis));
+      if(cfAxis!=='중립') aligned.push(axisLabel('현금흐름·부채', cfAxis));
+      fallbackDecisiveReason = aligned.length ? aligned.slice(0,2).join(' · ') : '핵심 축 신호가 뚜렷하지 않아 적정으로 유지';
+    }
+
+    const dcMeta = (typeof DOWNTURN_CAUSE_CARDS_V31!=='undefined' && DOWNTURN_CAUSE_CARDS_V31) ? DOWNTURN_CAUSE_CARDS_V31 : null;
+    fallbackAxes = {
+      growth: { label: growthAxis, detail: (typeof growthSig.g2==='number') ? `다음 회계연도 컨센서스 EPS 성장률 ${(growthSig.g2*100>=0?'+':'')}${(growthSig.g2*100).toFixed(1)}%` : '성장률 데이터 없음' },
+      epsDir: { label: epsAxis, detail: epsDir0 ? `EPS 수정 방향 ${epsDir0}` : 'EPS 수정 방향 데이터 없음' },
+      cashflow: { label: cfAxis, detail: cfDetail.length ? cfDetail.join(', ') : 'FCF·부채·희석 악화 신호 없음' },
+      marketRef: { label: marketRefAxis, detail: targetDir ? `목표가 평균 58일 추이 ${targetDir.dir}(${targetDir.pct>=0?'+':''}${targetDir.pct.toFixed(1)}%) — 참고용, 단독 근거 아님` : '목표가 추이 데이터 없음(참고용, 단독 근거 아님)' },
+      newsRisk: { label: newsRiskAxis, detail: newsRiskActive ? `${downturnState}${downturnSummary?` — ${downturnSummary}`:''} (출처: ${dcMeta&&dcMeta.source?dcMeta.source:'하락 원인 진단'} · 기준일 ${dcMeta&&dcMeta.generated?String(dcMeta.generated).slice(0,10):'—'})` : '활성 하락 원인 진단 없음(참고용)' },
+    };
   }
   const priceHoldReason = null; // 51748 -- 가격 판단 보류 폐지. 대체 모델 사용 여부는 usedFallbackModel로 노출.
   // "접근 회피"는 가격 라벨이 아니라 위험 신호다 -- EPS 수정 방향 하향 + 현금흐름 거부권이
@@ -5669,6 +5728,7 @@ function computePriceValidity(r){
     usedFallbackModel, priceConfidence, growthG1: growthSig.g1, growthG2: growthSig.g2,
     estAnalystCount: growthSig.analystCount, targetDir,
     epsPositive, epsNegative, growthStrong, growthWeak, hasAnyNegative, allPositive,
+    fallbackAxes, fallbackDecisiveReason,
   };
 }
 
@@ -6166,6 +6226,26 @@ function renderPriceValidityCard(r){
       <div style="margin-top:8px;font-size:10.5px;color:${NEU_DIM};">가격 기준일 ${esc(priceDate||'—')}${epsDate?` · EPS 기준일 ${esc(epsDate)}`:''}</div>
     </div>`;
 
+  // --- 51749 -- 대체 모델 종목(usedFallbackModel)의 축별 판단 근거를 그대로 보여준다
+  //     (사용자 요청: "대체 모델의 결론 과정이 충분히 보이지 않는다"). 정상 밴드 종목(AMAT
+  //     등)에는 표시하지 않는다 -- 사용자 지적이 대체 모델 종목(AVGO·CRM)에 한정됐고, 정상
+  //     밴드 분류는 기존 판단 근거 3줄로 이미 충분하다고 확인됐기 때문. ---
+  const fallbackAxesBox = (d.usedFallbackModel && d.fallbackAxes) ? (() => {
+    const AXIS_COLOR = {'긍정':'#2f5b3c','중립':'#5b6472','부정':'#7a3b2e'};
+    const row = (name, ax) => `<div style="display:flex;justify-content:space-between;align-items:baseline;padding:4px 0;border-bottom:1px solid #e3e6ea;font-size:11.5px;gap:10px;"><span style="color:${NEU_DIM};white-space:nowrap;">${esc(name)}</span><span style="text-align:right;"><b style="color:${AXIS_COLOR[ax.label]||NEU_TEXT};">${esc(ax.label)}</b><br><span style="font-size:10.3px;color:${NEU_DIM};">${esc(ax.detail)}</span></span></div>`;
+    return `
+    <div style="margin-top:8px;padding:11px 13px;border-radius:10px;border:1px solid ${NEU_LINE};background:#fff;">
+      <div style="font-size:11px;color:${NEU_DIM};font-weight:700;margin-bottom:4px;">대체 모델 판단 근거(과거 PER 비교 불가 — 성장·EPS 수정·현금흐름 교차검증)</div>
+      ${row('성장 전망', d.fallbackAxes.growth)}
+      ${row('EPS 수정 방향', d.fallbackAxes.epsDir)}
+      ${row('현금흐름·부채', d.fallbackAxes.cashflow)}
+      ${row('시장 기대 참고(목표가 방향)', d.fallbackAxes.marketRef)}
+      ${row('규제·뉴스 위험', d.fallbackAxes.newsRisk)}
+      <div style="margin-top:7px;font-size:11px;color:${NEU_TEXT};line-height:1.5;"><b style="color:${NEU_DIM};">결정적 이유</b> — ${esc(d.fallbackDecisiveReason||'—')}</div>
+      <div style="margin-top:4px;font-size:10px;color:${NEU_DIM};font-style:italic;">저평가·고평가는 성장·EPS 수정·현금흐름 중 2개 이상이 같은 방향일 때만 표시됩니다. 현금흐름 거부권·활성 하락 원인 진단·EPS 하향 전환은 단독으로 고평가 판정을 허용합니다(거부권). 목표가·뉴스 위험은 참고만 하며 단독 근거로 쓰지 않습니다.</div>
+    </div>`;
+  })() : '';
+
   // --- 종합 행동(51736 P1~P7 우선순위 그대로, 이번 요청 범위 밖) -- 가격 판단 형식과
   //     분리해 별도 박스로 유지한다. ---
   const conclusionBox = `
@@ -6334,7 +6414,7 @@ function renderPriceValidityCard(r){
   //     남겨두되(다른 곳에서 참조하지 않음, 삭제 리스크를 줄이기 위해 죽은 코드로 보존) 카드에서는
   //     더 이상 호출·렌더링하지 않는다. 매수 구간·무효화 조건·포지션 크기·다음 실적일은 가격
   //     판단이 정상화된 뒤에 별도로 다룬다(사용자 명시).
-  return `${headHtml}${fixedFormatBox}${conclusionBox}${positionBox}${crossCheckBox}${evidenceDetails}${targetRef}${footNote}`;
+  return `${headHtml}${fixedFormatBox}${fallbackAxesBox}${conclusionBox}${positionBox}${crossCheckBox}${evidenceDetails}${targetRef}${footNote}`;
 }
 if(typeof HINTS !== 'undefined'){
   HINTS.priceValidityCard = 'EPS 성장·수정 방향, 현재가가 요구하는 밸류에이션, 현금흐름·부채·희석, 103 기술적 진입 상태를 결합해 "가격이 사업 펀더멘털 대비 타당한가"를 보여주는 읽기 전용 카드입니다. 맨 위에는 오늘의 판단·오늘의 행동·가격/사업/현금흐름/차트 4축·판단이 바뀌는 조건이 먼저 나오고, EPS·PER·현금흐름 원자료와 가격대 표는 "판단 근거 보기"를 펼쳐야 보입니다. NTM PER은 독립 밸류에이션 모듈의 값을 우선 쓰고, 없으면 eps_data.js의 애널리스트 컨센서스로 같은 방식(일수 가중 선형보간)을 재현한 공통 계산기로 보완합니다. 과거 PER 밴드는 종목 자신의 중앙값 기반 백분위(5년 이상 흑자 이력)를 우선 쓰고, 상장 이력이 짧은 종목은 기존 전체 통계 폴백(0.64~1.55배)을 적용합니다. 과거 PER 유효 관측치가 전혀 없는 극소수 종목만 숫자 가격대를 차단하고, 그 외엔 사업·현금흐름·차트 평가를 그대로 보여줍니다. 애널리스트 목표가는 가격 기준으로 쓰지 않고 시장 기대 참고로만 보조 사용합니다. 가격 타당성과 기술적 진입 타이밍은 분리된 축으로 표시되며 한쪽이 다른 쪽을 깎지 않습니다. 매수·매도 신호가 아니고 자동매매·알림과 연결되지 않습니다.';

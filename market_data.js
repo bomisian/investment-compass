@@ -237,13 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Multiple people wounded in blast at Riyadh airport, say eyewitnesses - Reuters",
-      "summary": "Multiple people wounded in blast at Riyadh airport, say eyewitnesses Reuters",
+      "headline": "Several wounded in Riyadh airport attack, operations suspended, Saudi aviation authority says - Reuters",
+      "summary": "Several wounded in Riyadh airport attack, operations suspended, Saudi aviation authority says Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbV9hVGtMSXpTVDJ3c05vRW9SQ2lRLTg3cUlOeWxDc2w4amF5V2N2Ul9YazdxcHJGNDRwd3hlQi15a2ZGWWZoZnc1dlA5UkY3cU9PclVCNkh6SVkzQ25waEVRRlN2TVdES3lKV1VuVXN6QnJycWxtdkNOdUIwMTdTRE9fbko3Umt5d0huNVY1dW9ZcFpLSF9yczRGRHJfSWZhM1AtTkVzbVR4TlRUdzhIb19JN3o?oc=5",
-      "datetime": 1791646221,
-      "headlineKo": "목격자들은 리야드 공항에서 폭발로 여러 명이 부상했다고 말했습니다 - 로이터 통신",
-      "summaryKo": "목격자들은 리야드 공항에서 폭발로 여러 명이 부상했다고 말했습니다."
+      "datetime": 1791652976,
+      "headlineKo": "사우디 항공 당국은 리야드 공항 공격으로 여러 명이 부상을 입었고 운항이 중단됐다고 밝혔습니다.",
+      "summaryKo": "리야드 공항 공격으로 여러 명이 부상을 입었고 운항이 중단됐다고 사우디 항공 당국이 밝혔습니다."
     },
     {
       "headline": "Stocks saw new highs and big declines: How the volatile AI trade moved last week's market",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791653021.2687178,
+  "_news_last_success_at": 1791656744.705252,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791653011.3136296,
-  "_updated_label": "2026-10-11 02:24",
-  "_last_attempt_at": 1791653011.3136296,
-  "_last_success_at": 1791653011.3136296,
+  "_fetched_at": 1791656735.3492692,
+  "_updated_label": "2026-10-11 03:26",
+  "_last_attempt_at": 1791656735.3492692,
+  "_last_success_at": 1791656735.3492692,
   "_collection_status": "ok",
   "_collection_errors": []
 };
