@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Loud blast at Riyadh airport as travellers evacuated and airlines cancel flights - Reuters",
+      "summary": "Loud blast at Riyadh airport as travellers evacuated and airlines cancel flights Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbV9hVGtMSXpTVDJ3c05vRW9SQ2lRLTg3cUlOeWxDc2w4amF5V2N2Ul9YazdxcHJGNDRwd3hlQi15a2ZGWWZoZnc1dlA5UkY3cU9PclVCNkh6SVkzQ25waEVRRlN2TVdES3lKV1VuVXN6QnJycWxtdkNOdUIwMTdTRE9fbko3Umt5d0huNVY1dW9ZcFpLSF9yczRGRHJfSWZhM1AtTkVzbVR4TlRUdzhIb19JN3o?oc=5",
+      "datetime": 1791642579,
+      "headlineKo": "여행자 대피와 항공사 항공편 취소로 리야드 공항에서 큰 폭발 - 로이터 통신",
+      "summaryKo": "여행자들이 대피하고 항공사들이 항공편을 취소함에 따라 리야드 공항에서 큰 폭발 - 최신"
+    },
+    {
       "headline": "Pokémon card values are soaring. What collectors should know before buying or selling",
       "summary": "Pokémon card values are surging. Learn how grading, scarcity, recent sales and counterfeits can affect what collectors pay.",
       "source": "CNBC",
@@ -262,6 +271,15 @@ const MARKET_DATA = {
       "datetime": 1791637201,
       "headlineKo": "대법원 판사가 주요 401(k) 사건에서 민간 자금과 실적 부진에 대해 어떻게 생각하고 있습니까?",
       "summaryKo": "고용주들이 퇴직 계획에 대한 민간 투자에 대한 새로운 노동부의 규칙을 기다리고 있는 가운데 대법원은 Intel 401(k) 사건을 검토하고 있습니다."
+    },
+    {
+      "headline": "Major Saudi conferences to proceed, organisers say, despite deadly airport attack - Reuters",
+      "summary": "Major Saudi conferences to proceed, organisers say, despite deadly airport attack Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNS3lBZTEwaWVLUXNScDVCZjV1eDRkb3RoWnM2M0ZkOE9DM0ZVMDNPaXA1ZDJXQ0xYZ2JqZm85dm9HbHBOSXNaQmVzUWJQN0xnMXpNR2dENDFoMXItWEQxYlB2WmZGUVVxYU1RX0E0RHNKSWd0RDNkbmk1Ty1MZnlJZFUxR3pjanFwSWZzS3hiZlktMEtTM2psOS12Y2xaMlk1MEc1Nm81NU50WjFKN0ZkY082T0pFVGU3dmd6T3JIckNPcFR0VlM0?oc=5",
+      "datetime": 1791632023,
+      "headlineKo": "치명적인 공항 공격에도 불구하고 주요 사우디 회의는 계속될 것이라고 주최측은 밝혔습니다 - 로이터 통신",
+      "summaryKo": "치명적인 공항 공격에도 불구하고 주요 사우디 회의는 계속될 것이라고 주최측은 말했습니다 - 최신"
     },
     {
       "headline": "Wall Street posts weekly gains with earnings, inflation data on tap - Reuters",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1791565952,
       "headlineKo": "Tesla는 규제 당국의 반발로 유럽에서 '완전 자율 주행' 브랜드 이름을 삭제했습니다.",
       "summaryKo": "독일 규제 당국은 Tesla의 '완전 자율 주행' 브랜드 이름이 '다소 오해의 소지가 있다'고 말했습니다."
-    },
-    {
-      "headline": "Cramer: Investors selling Apple on latest iPhone 18 report are 'stupid as plywood'",
-      "summary": "Cramer says investors who don't own the stock should use Friday's weakness to build a position.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/10/09/cramer-investors-selling-apple-on-iphone-report-are-stupid-as-plywood.html",
-      "datetime": 1791564180,
-      "headlineKo": "크레이머: 최신 아이폰 18 보고서에서 애플을 파는 투자자들은 '합판처럼 멍청하다'",
-      "summaryKo": "크레이머는 주식을 보유하지 않은 투자자들은 금요일의 약점을 이용해 포지션을 구축해야 한다고 말했습니다."
-    },
-    {
-      "headline": "London stocks post weekly gains as gilt yields retreat; telecom stocks fall - Reuters",
-      "summary": "London stocks post weekly gains as gilt yields retreat; telecom stocks fall Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNVpWYUFMM2hlY2dnS0N0Q1VkcTFqLUJ1cGJzcVdJTWUzYjRvUWZXeDgyMmZsYXhsYl9wbEd1X1lRbU50dXA5c3lXLTZvd0N5clhnS1gxZHlpYUp1M01ha1BBQkp4Y0VacnRZWEFEWms0WG5UWEYtTE96ZzRuNDlsUzB6eXRUWEdKUGMzd3VGbkdsUTR1Z0VRbGtKUFZOeDVu?oc=5",
-      "datetime": 1791563720,
-      "headlineKo": "금채 수익률이 하락함에 따라 런던 주식은 주간 상승세를 기록했습니다. 통신주 하락 - 로이터",
-      "summaryKo": "금채 수익률이 하락함에 따라 런던 주식은 주간 상승세를 기록했습니다. 통신주 하락 로이터"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791641473.3345218,
+  "_news_last_success_at": 1791645447.9689114,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791641457.88874,
-  "_updated_label": "2026-10-10 23:11",
-  "_last_attempt_at": 1791641457.88874,
-  "_last_success_at": 1791641457.88874,
+  "_fetched_at": 1791645437.6271784,
+  "_updated_label": "2026-10-11 00:17",
+  "_last_attempt_at": 1791645437.6271784,
+  "_last_success_at": 1791645437.6271784,
   "_collection_status": "ok",
   "_collection_errors": []
 };
