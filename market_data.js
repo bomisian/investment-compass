@@ -237,13 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Attack on Saudi airport leaves 12 dead, dozens wounded, sources say - Reuters",
-      "summary": "Attack on Saudi airport leaves 12 dead, dozens wounded, sources say Reuters",
+      "headline": "Houthi attack on Saudi airport kills 12, over 300 wounded, authorities say - Reuters",
+      "summary": "Houthi attack on Saudi airport kills 12, over 300 wounded, authorities say Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbV9hVGtMSXpTVDJ3c05vRW9SQ2lRLTg3cUlOeWxDc2w4amF5V2N2Ul9YazdxcHJGNDRwd3hlQi15a2ZGWWZoZnc1dlA5UkY3cU9PclVCNkh6SVkzQ25waEVRRlN2TVdES3lKV1VuVXN6QnJycWxtdkNOdUIwMTdTRE9fbko3Umt5d0huNVY1dW9ZcFpLSF9yczRGRHJfSWZhM1AtTkVzbVR4TlRUdzhIb19JN3o?oc=5",
-      "datetime": 1791667611,
-      "headlineKo": "사우디 공항에 대한 공격으로 12명이 사망하고 수십 명이 부상을 입었다고 소식통은 전합니다. - Reuters",
-      "summaryKo": "사우디 공항에 대한 공격으로 12명이 사망하고 수십 명이 부상을 입었다고 로이터 통신은 전했다."
+      "datetime": 1791672063,
+      "headlineKo": "사우디 공항에 대한 후티의 공격으로 12명이 사망하고 300명이 넘는 부상자가 발생했다고 당국이 밝혔습니다. - 로이터 통신",
+      "summaryKo": "사우디 공항에 대한 후티의 공격으로 12명이 사망하고 300명이 넘는 부상자가 발생했다고 당국이 밝혔다고 로이터 통신이 보도했다."
     },
     {
       "headline": "Stocks saw new highs and big declines: How the volatile AI trade moved last week's market",
@@ -336,25 +336,25 @@ const MARKET_DATA = {
       "summaryKo": "유가는 허리케인 로이터를 앞두고 더 많은 생산이 중단됨에 따라 더 높은 수준으로 정착합니다."
     },
     {
-      "headline": "What's behind the recovery rally in tech stocks — plus, Elon Musk's very good week",
-      "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/10/09/whats-behind-the-recovery-rally-in-tech-stocks-plus-musks-good-week.html",
-      "datetime": 1791572549,
-      "headlineKo": "기술주 회복 반등의 배경은 무엇입니까? 게다가 Elon Musk의 매우 좋은 한 주입니다.",
-      "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
+      "headline": "Trump says US will not attack Iran before midterm elections in November - Reuters",
+      "summary": "Trump says US will not attack Iran before midterm elections in November Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMmV2ZUhoRklKSzBPaFkzWHVFdkwxVDlVVU8tdDV2NXc4NEkxTjZSTVhoaklIeTlJX3BCUTFkRUREY1VDVGpTY1lhZEQ4OHgyRG81S0RLa0JJVEZHTWpiUFJVRy0xZmVSWEpVbDZsVFBSRzZ4bmw2RnhtMXlBelJ1Vi1GUnVuZ3htemdTdExuTktpQ2dKdzhFRmRMd0MwMlYtd3JPb1J0NVlKcVNtWUlNNHRoNVFWaFBWUHNTdg?oc=5",
+      "datetime": 1791573546,
+      "headlineKo": "트럼프 대통령은 11월 중간선거 전에 미국이 이란을 공격하지 않을 것이라고 말했다. - 로이터",
+      "summaryKo": "트럼프 대통령은 11월 중간선거 전에 미국이 이란을 공격하지 않을 것이라고 말했다. 로이터 통신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791672107.7536778,
+  "_news_last_success_at": 1791675851.3748844,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791672092.1824474,
-  "_updated_label": "2026-10-11 07:42",
-  "_last_attempt_at": 1791672092.1824474,
-  "_last_success_at": 1791672092.1824474,
+  "_fetched_at": 1791675835.4323077,
+  "_updated_label": "2026-10-11 08:44",
+  "_last_attempt_at": 1791675835.4323077,
+  "_last_success_at": 1791675835.4323077,
   "_collection_status": "ok",
   "_collection_errors": []
 };
