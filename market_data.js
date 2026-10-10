@@ -309,6 +309,15 @@ const MARKET_DATA = {
       "summaryKo": "크렘린궁 \"푸틴 대통령, 트럼프 대통령과 통화에서 우크라이나 회담 재개 즉각 경시\" - 로이터"
     },
     {
+      "headline": "UAE says Omani flydubai co-pilot planned suicide attack on Tel Aviv flight - Reuters",
+      "summary": "UAE says Omani flydubai co-pilot planned suicide attack on Tel Aviv flight Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZTJVb2U2eWdVMjdYVEVwMWt0NzJaQTA0aDNCMVB3YVc3N1VIMUszdjl0OUFFNVhCRHNSUEk3MzVsY1pnX2pIU1hfME5sRm5QUThjSEdJd3VHeGtuQzMzTGc4X0VESC1McU1vUXo3QTJGV2MwWGpFMXpacXF3dndjcWNORXU3bWNXaUtwWjRLbHJDNjBBQ3BIQldySU5LWXNjU0hxQkd4aWp2ZjAtYzNyQ0J0MHpLZjFKM19VSjM4QlJkZ2c?oc=5",
+      "datetime": 1791579990,
+      "headlineKo": "UAE는 오만 플라이두바이 부조종사가 텔아비브 항공기에 대한 자살 공격을 계획했다고 밝혔습니다.",
+      "summaryKo": "UAE는 오만 플라이두바이 부조종사가 텔아비브 항공기에 대한 자살 공격을 계획했다고 밝혔습니다."
+    },
+    {
       "headline": "What's behind the recovery rally in tech stocks — plus, Elon Musk's very good week",
       "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
       "source": "CNBC",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1791570057,
       "headlineKo": "트럼프는 연준의 리사 쿡을 조사하기 위해 위원회를 만들었다. 그것은 무엇이며 다음은 무엇입니까?",
       "summaryKo": "트럼프 대통령이 연준의 리사 쿡을 해고하려는 시도는 대법원 판결에 따른 것으로 제롬 파월, 중앙은행 독립성, 금리에 영향을 미칠 수 있다."
-    },
-    {
-      "headline": "The used car market is stagnant. Here's how to profit anyway",
-      "summary": "Michael Khouw breaks down this short strangle options trade.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/09/the-used-car-market-is-stagnant-heres-how-to-profit-anyway.html",
-      "datetime": 1791567451,
-      "headlineKo": "중고차 시장이 정체돼 있다. 어쨌든 이익을 얻는 방법은 다음과 같습니다.",
-      "summaryKo": "Michael Khouw는 이 짧은 스트랭글 옵션 거래를 분석합니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791660481.1384697,
+  "_news_last_success_at": 1791664590.7320874,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791660473.5954607,
-  "_updated_label": "2026-10-11 04:28",
-  "_last_attempt_at": 1791660473.5954607,
-  "_last_success_at": 1791660473.5954607,
+  "_fetched_at": 1791664581.8756802,
+  "_updated_label": "2026-10-11 05:36",
+  "_last_attempt_at": 1791664581.8756802,
+  "_last_success_at": 1791664581.8756802,
   "_collection_status": "ok",
   "_collection_errors": []
 };
