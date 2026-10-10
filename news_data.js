@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1791621904.2750657,
+    "_last_attempt_at": 1791644412.3877685,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -17,56 +17,73 @@ const NEWS_DATA = {
         "analysis": {
           "version": 9,
           "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
+          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
           "facts": [
-            "S&P 500, Nasdaq 100, Dow는 트레이더들이 수익 시즌을 주목하면서 주간 상승 — MSFT, NFLX, SPCX, ASTS에 집중 AI 에이전트 동향 뉴스 수익 전체 DIA 0.87% SPY 0.60% QQQ 0.49% Trending NIGHT 10.82% FLY 3.24% FSLY 15.86% RIG 0.54% JPM 0.47%",
-            "S&P 500, Nasdaq 100, 다우 종가 상승 및 트레이더들이 수익 시즌을 주목하고 있음 — ​​MSFT, NFLX, SPCX, ASTS In Focus JPMorgan, Morgan Stanley 및 Wells Fargo를 포함한 월스트리트 최대 은행들이 다음 주에 수익을 보고할 예정입니다.",
-            "거래자들이 2026년 8월 5일 오전 거래 중에 뉴욕 증권 거래소 바닥에서 일하고 있습니다."
+            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
+            "기사 본문에서 언급된 수치: 0.87%, 0.60%, 0.49%, 16.87%, 3.85%, 1.18%, 0.16%, 13.27%.",
+            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
           ],
           "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.87%, 0.60%, 0.49% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
+            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
+            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
           ],
           "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
+            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
+            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
           ],
           "impacts": [
             {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
+              "ticker": "AAPL",
+              "stance": "혼합",
+              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "메모리 ASP와 이익률 개선 가능성"
+            },
+            {
+              "ticker": "WDC",
+              "stance": "긍정",
+              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
+            },
+            {
+              "ticker": "QCOM",
+              "stance": "중립·확인",
+              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
             }
           ],
           "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
+            "iPhone 18 실제 출고가·사전예약",
+            "애플 아이폰 출하량과 제품 믹스",
+            "메모리 현물·계약 가격",
+            "AAPL 매출총이익률과 MU/WDC 가이던스"
           ],
-          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: QQQ에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
           "relevance": 0.67,
-          "quality": "medium",
+          "quality": "high",
           "verifiedNumbers": [
             "0.87%",
             "0.60%",
             "0.49%",
-            "10.82%",
-            "3.24%",
-            "15.86%",
-            "0.54%",
-            "0.47%"
+            "16.87%",
+            "3.85%",
+            "1.18%",
+            "0.16%",
+            "13.27%"
           ],
           "sourceExcerpt": [
-            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending NIGHT 10.82% FLY 3.24% FSLY 15.86% RIG 0.54% JPM 0.47%",
+            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending STRK 16.87% PENGU 3.85% HRL 1.18% OPEAZZX 0.16% TMUS 1",
             "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus Wall Street’s biggest banks, including JPMorgan, Morgan Stanley, and Wells Fargo, will report earnings next week.",
             "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
           ],
-          "analysisUpdatedAt": 1791621911.5024137
+          "analysisUpdatedAt": 1791644418.6849546
         },
         "headlineKo": "S&P 500, Nasdaq 100, Dow End Week High, 트레이더들이 수익 시즌을 주목하고 있음 — ​​MSFT, NFLX, SPCX, ASTS In Focus"
       },
@@ -130,36 +147,38 @@ const NEWS_DATA = {
             "QQQ Turned the Same Money Into $26,100 - 24/7 Wall St.",
             "Skip to content ❚❚ At close S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0.43% S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0."
           ],
-          "analysisUpdatedAt": 1791621914.3904142
+          "analysisUpdatedAt": 1791644421.2118418
         },
         "headlineKo": "ChatGPT가 출시된 날 VGT의 $10,000는 이제 $30,500입니다. QQQ는 같은 돈을 $26,100로 바꾸었습니다."
       },
       {
-        "headline": "AI 'Super Boom' - Why The Nasdaq Could Hit 74,000",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=c179348951ee140dff1395e0ca9514273bf2fcbf9f068b6a2fb7d4970b5e67b9",
-        "datetime": 1791541200,
+        "headline": "Stock Market Today: Nasdaq 100 Rebounds From OpenAI Scare, T-Mobile Tumbles 12%",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=6d6a7f613588e29781ea47aa1622e652afe48f306894f204f475dfe565f02ff3",
+        "datetime": 1791552427,
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AI 'Super Boom' - Why The Nasdaq Could Hit 74,000",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "오늘 주식 시장: Nasdaq 100 반등, T-Mobile 싱크 12% - Invesco QQQ Trust, 시리즈 1(NASDAQ:QQQ), S - Benzinga SPY 778.00 +0.53% QQQ 750.30 +0.36% BTC/USD 82,569.60 +1.07% DIA 515.69 +0.79% GLD 384.11 +1.45% TLT 77.88 +0.01% US Sign i",
+            "OpenAI의 예상보다 약한 수익에 대한 우려로 촉발된 목요일의 좌절에서 나스닥이 반등하면서 금요일 정오까지 주가가 상승했고, 무선 통신업체는 Space Exploration Technologies Corp에 의해 타격을 입었습니다.",
+            "SpaceX는 목요일 FCC 승인이 필요한 거래인 Grain Management로부터 전국적인 800MHz 스펙트럼 포트폴리오를 인수했다고 밝혔습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 12%, 0.53%, 0.36% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -169,19 +188,41 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
           ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'AI 'Super Boom' - Why The Nasdaq Could Hit 74,000' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791621915.2807777
+          "quality": "medium",
+          "verifiedNumbers": [
+            "12%",
+            "0.53%",
+            "0.36%",
+            "1.07%",
+            "0.79%",
+            "1.45%",
+            "0.01%",
+            "$8 billion"
+          ],
+          "sourceExcerpt": [
+            "Stock Market Today: Nasdaq 100 Rebounds, T-Mobile Sinks 12% - Invesco QQQ Trust, Series 1 (NASDAQ:QQQ), S - Benzinga SPY 778.00 +0.53% QQQ 750.30 +0.36% BTC/USD 82,569.60 +1.07% DIA 515.69 +0.79% GLD 384.11 +1.45% TLT 77.88 +0.01% US Sign i",
+            "stocks edged higher by midday Friday, with the Nasdaq rebounding from Thursday’s setback sparked by concerns over OpenAI’s weaker-than-expected revenue, while the wireless carriers were hammered by a Space Exploration Technologies Corp.",
+            "SpaceX said Thursday it acquired a nationwide 800 MHz spectrum portfolio from Grain Management, a deal that still needs FCC approval."
+          ],
+          "analysisUpdatedAt": 1791644427.806395
         },
+        "headlineKo": "오늘의 주식 시장: OpenAI 공포에서 Nasdaq 100이 반등했고, T-Mobile은 12% 하락했습니다."
+      },
+      {
+        "headline": "AI 'Super Boom' - Why The Nasdaq Could Hit 74,000",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=c179348951ee140dff1395e0ca9514273bf2fcbf9f068b6a2fb7d4970b5e67b9",
+        "datetime": 1791541200,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
         "headlineKo": "AI '슈퍼 붐' - 나스닥이 74,000을 기록할 수 있었던 이유"
       },
       {
@@ -193,16 +234,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "오늘의 주식 시장: Scott Bessent가 미국이 이란의 '폭군 정권'을 굶주리고 있다고 말하면서 S&P 500, Dow Jones, Nasdaq 100 선물 상승 - PKE, HUM, RENX 초점(업데이트됨)"
-      },
-      {
-        "headline": "Why Buy-and-Hold Investors Are Switching From QQQ to This Lower-Fee Alternative",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c5b01c1a236768a41c8c725c60dce675c04463a93ee2d5a52465d93ff168fdec",
-        "datetime": 1791500586,
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "매수 후 보유 투자자들이 QQQ에서 수수료가 낮은 대안으로 전환하는 이유"
       },
       {
         "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Gains as Trump Dismisses Iran Sanction Relief as 'Hoax'— Nvidia, AAR, Vail Resorts in Focus (UPDATED)",
@@ -334,56 +365,73 @@ const NEWS_DATA = {
         "analysis": {
           "version": 9,
           "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
+          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
           "facts": [
-            "S&P 500, Nasdaq 100, Dow는 트레이더들이 수익 시즌을 주목하면서 주간 상승 — MSFT, NFLX, SPCX, ASTS에 집중 AI 에이전트 동향 뉴스 수익 전체 DIA 0.87% SPY 0.60% QQQ 0.49% Trending NIGHT 10.82% FLY 3.24% FSLY 15.86% RIG 0.54% JPM 0.47%",
-            "S&P 500, Nasdaq 100, 다우 종가 상승 및 트레이더들이 수익 시즌을 주목하고 있음 — ​​MSFT, NFLX, SPCX, ASTS In Focus JPMorgan, Morgan Stanley 및 Wells Fargo를 포함한 월스트리트 최대 은행들이 다음 주에 수익을 보고할 예정입니다.",
-            "거래자들이 2026년 8월 5일 오전 거래 중에 뉴욕 증권 거래소 바닥에서 일하고 있습니다."
+            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
+            "기사 본문에서 언급된 수치: 0.87%, 0.60%, 0.49%, 16.87%, 3.85%, 1.18%, 0.16%, 13.27%.",
+            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
           ],
           "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.87%, 0.60%, 0.49% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
+            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
+            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
           ],
           "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
+            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
+            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
           ],
           "impacts": [
             {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
+              "ticker": "AAPL",
+              "stance": "혼합",
+              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "메모리 ASP와 이익률 개선 가능성"
+            },
+            {
+              "ticker": "WDC",
+              "stance": "긍정",
+              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
+            },
+            {
+              "ticker": "QCOM",
+              "stance": "중립·확인",
+              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
             }
           ],
           "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
+            "iPhone 18 실제 출고가·사전예약",
+            "애플 아이폰 출하량과 제품 믹스",
+            "메모리 현물·계약 가격",
+            "AAPL 매출총이익률과 MU/WDC 가이던스"
           ],
-          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: QQQ에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
           "relevance": 0.67,
-          "quality": "medium",
+          "quality": "high",
           "verifiedNumbers": [
             "0.87%",
             "0.60%",
             "0.49%",
-            "10.82%",
-            "3.24%",
-            "15.86%",
-            "0.54%",
-            "0.47%"
+            "16.87%",
+            "3.85%",
+            "1.18%",
+            "0.16%",
+            "13.27%"
           ],
           "sourceExcerpt": [
-            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending NIGHT 10.82% FLY 3.24% FSLY 15.86% RIG 0.54% JPM 0.47%",
+            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending STRK 16.87% PENGU 3.85% HRL 1.18% OPEAZZX 0.16% TMUS 1",
             "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus Wall Street’s biggest banks, including JPMorgan, Morgan Stanley, and Wells Fargo, will report earnings next week.",
             "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
           ],
-          "analysisUpdatedAt": 1791621911.5024137
+          "analysisUpdatedAt": 1791644418.6849546
         }
       },
       {
@@ -446,7 +494,70 @@ const NEWS_DATA = {
             "QQQ Turned the Same Money Into $26,100 - 24/7 Wall St.",
             "Skip to content ❚❚ At close S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0.43% S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0."
           ],
-          "analysisUpdatedAt": 1791621914.3904142
+          "analysisUpdatedAt": 1791644421.2118418
+        }
+      },
+      {
+        "headline": "Stock Market Today: Nasdaq 100 Rebounds From OpenAI Scare, T-Mobile Tumbles 12%",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=6d6a7f613588e29781ea47aa1622e652afe48f306894f204f475dfe565f02ff3",
+        "datetime": 1791552427,
+        "headlineKo": "오늘의 주식 시장: OpenAI 공포에서 Nasdaq 100이 반등했고, T-Mobile은 12% 하락했습니다.",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "오늘 주식 시장: Nasdaq 100 반등, T-Mobile 싱크 12% - Invesco QQQ Trust, 시리즈 1(NASDAQ:QQQ), S - Benzinga SPY 778.00 +0.53% QQQ 750.30 +0.36% BTC/USD 82,569.60 +1.07% DIA 515.69 +0.79% GLD 384.11 +1.45% TLT 77.88 +0.01% US Sign i",
+            "OpenAI의 예상보다 약한 수익에 대한 우려로 촉발된 목요일의 좌절에서 나스닥이 반등하면서 금요일 정오까지 주가가 상승했고, 무선 통신업체는 Space Exploration Technologies Corp에 의해 타격을 입었습니다.",
+            "SpaceX는 목요일 FCC 승인이 필요한 거래인 Grain Management로부터 전국적인 800MHz 스펙트럼 포트폴리오를 인수했다고 밝혔습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 12%, 0.53%, 0.36% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "12%",
+            "0.53%",
+            "0.36%",
+            "1.07%",
+            "0.79%",
+            "1.45%",
+            "0.01%",
+            "$8 billion"
+          ],
+          "sourceExcerpt": [
+            "Stock Market Today: Nasdaq 100 Rebounds, T-Mobile Sinks 12% - Invesco QQQ Trust, Series 1 (NASDAQ:QQQ), S - Benzinga SPY 778.00 +0.53% QQQ 750.30 +0.36% BTC/USD 82,569.60 +1.07% DIA 515.69 +0.79% GLD 384.11 +1.45% TLT 77.88 +0.01% US Sign i",
+            "stocks edged higher by midday Friday, with the Nasdaq rebounding from Thursday’s setback sparked by concerns over OpenAI’s weaker-than-expected revenue, while the wireless carriers were hammered by a Space Exploration Technologies Corp.",
+            "SpaceX said Thursday it acquired a nationwide 800 MHz spectrum portfolio from Grain Management, a deal that still needs FCC approval."
+          ],
+          "analysisUpdatedAt": 1791644427.806395
         }
       },
       {
@@ -5428,15 +5539,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791621904.2750657,
-    "_updated_label": "2026-10-10 17:45",
-    "_last_success_at": 1791621904.2750657,
+    "_fetched_at": 1791644412.3877685,
+    "_updated_label": "2026-10-11 00:00",
+    "_last_success_at": 1791644412.3877685,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 107,
+      "checked": 108,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "SPY": {
@@ -12285,7 +12396,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 138,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "MSFT": {
@@ -20181,7 +20292,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "GOOGL": {
@@ -28104,7 +28215,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "AMZN": {
@@ -36119,7 +36230,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "META": {
@@ -44114,7 +44225,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "AAPL": {
@@ -52072,7 +52183,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "TSLA": {
@@ -60048,7 +60159,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "ORCL": {
@@ -68406,7 +68517,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "CRM": {
@@ -74763,7 +74874,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "PLTR": {
@@ -83435,7 +83546,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "NVDA": {
@@ -90892,11 +91003,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "AMD": {
-    "_last_attempt_at": 1791621904.2750657,
+    "_last_attempt_at": 1791644412.3877685,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -90906,32 +91017,32 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Cathie Wood-Led Ark Invest Sells AMD, SPCX, GOOG Stocks — But Loads Up On CMPS, NTLA, CRSP And Other Healthcare Firms",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=35c31d32c5cef3edbb11bcd2a91ba841cc85bdbde509b3d2f9df13d64db91ae9",
-        "datetime": 1791612152,
+        "headline": "SpaceX, Micron, AMD and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=7e99434658a86958a1acd15f437ab3c2a7b7b5f6e69f115e3cbaf9de5bc631eb",
+        "datetime": 1791622704,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "medium",
-          "tone": "positive",
+          "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Cathie Wood가 주도하는 Ark Invest는 AMD, SPCX, GOOG 주식을 판매하지만 CMPS, NTLA, CRSP 및 기타 의료 회사에 대한 로드가 증가합니다 AI 에이전트 동향 뉴스 수익 모든 DIA 0.87% SPY 0.60% QQQ 0.49% Trending NIGHT 10.82% FLY 3.24% FSLY 15.86% RIG 0.54% JP",
-            "Cathie Wood가 이끄는 Ark Invest는 AMD, SPCX, GOOG 주식을 매도하지만 CMPS, NTLA, CRSP 및 기타 의료 회사에 부담을 줍니다.",
-            "ARK Invest의 CEO 겸 최고 투자 책임자인 Cathie Wood가 2023년 8월 27일 조지아주 애틀랜타 조지아 월드 콩그레스 센터에서 열린 2023 Invest Fest 2일차 무대에서 연설하고 있습니다."
+            "SpaceX, Micron, AMD 및 기타: 이번 주에 투자자들이 떠들썩한 5개 주식 - SpaceX (NASDAQ:S - Benzinga SPY 778.57 +0.60% QQQ 751.38 +0.51% BTC/USD 82,734.80 +0.21% DIA 516.21 +0.89% GLD 384.50 +1.55% TLT 77.97 +0.12% 미국 서명",
+            "9) X와 Reddit의 r/WallStreetBets는 소매업에 대한 과대 광고, 수익, AI 인프라 모멘텀 및 기업 뉴스 흐름에 힘입어 이루어졌습니다.",
+            "우주 탐사 기술 공사"
           ],
           "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.87%, 0.60%, 0.49% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.60%, 0.51%, 0.21% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -90942,30 +91053,111 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
           ],
-          "interpretation": "AMD에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "AMD에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 1,
           "quality": "medium",
+          "verifiedNumbers": [
+            "0.60%",
+            "0.51%",
+            "0.21%",
+            "0.89%",
+            "1.55%",
+            "0.12%",
+            "$173",
+            "$104.83"
+          ],
+          "sourceExcerpt": [
+            "SpaceX, Micron, AMD and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week - SpaceX (NASDAQ:S - Benzinga SPY 778.57 +0.60% QQQ 751.38 +0.51% BTC/USD 82,734.80 +0.21% DIA 516.21 +0.89% GLD 384.50 +1.55% TLT 77.97 +0.12% US Sign i",
+            "9) on X and Reddit’s r/WallStreetBets, driven by retail hype, earnings, AI infrastructure momentum, and corporate news flow.",
+            "Space Exploration Technologies Corp."
+          ],
+          "analysisUpdatedAt": 1791644435.5957527
+        },
+        "headlineKo": "SpaceX, Micron, AMD 등: 이번 주 투자자들의 관심이 끊이지 않는 5개 주식"
+      },
+      {
+        "headline": "Cathie Wood-Led Ark Invest Sells AMD, SPCX, GOOG Stocks — But Loads Up On CMPS, NTLA, CRSP And Other Healthcare Firms",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=35c31d32c5cef3edbb11bcd2a91ba841cc85bdbde509b3d2f9df13d64db91ae9",
+        "datetime": 1791612152,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
+          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
+          "facts": [
+            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
+            "기사 본문에서 언급된 수치: 0.87%, 0.60%, 0.49%, 18.20%, 3.92%, 1.18%, 0.16%, 13.27%.",
+            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
+          ],
+          "why": [
+            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
+            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
+            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
+          ],
+          "beginner": [
+            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
+            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
+            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "혼합",
+              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "메모리 ASP와 이익률 개선 가능성"
+            },
+            {
+              "ticker": "WDC",
+              "stance": "긍정",
+              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
+            },
+            {
+              "ticker": "QCOM",
+              "stance": "중립·확인",
+              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
+            }
+          ],
+          "watch": [
+            "iPhone 18 실제 출고가·사전예약",
+            "애플 아이폰 출하량과 제품 믹스",
+            "메모리 현물·계약 가격",
+            "AAPL 매출총이익률과 MU/WDC 가이던스"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'Cathie Wood-Led Ark Invest Sells AMD, SPCX, GOOG Stocks — But Loads Up On CMPS, NTLA, CRSP And Other Healthcare Firms' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMD에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1,
+          "quality": "high",
           "verifiedNumbers": [
             "0.87%",
             "0.60%",
             "0.49%",
-            "10.82%",
-            "3.24%",
-            "15.86%",
-            "0.54%",
-            "0.47%"
+            "18.20%",
+            "3.92%",
+            "1.18%",
+            "0.16%",
+            "13.27%"
           ],
           "sourceExcerpt": [
-            "Cathie Wood-Led Ark Invest Sells AMD, SPCX, GOOG Stocks — But Loads Up On CMPS, NTLA, CRSP And Other Healthcare Firms AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending NIGHT 10.82% FLY 3.24% FSLY 15.86% RIG 0.54% JP",
+            "Cathie Wood-Led Ark Invest Sells AMD, SPCX, GOOG Stocks — But Loads Up On CMPS, NTLA, CRSP And Other Healthcare Firms AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending STRK 18.20% PENGU 3.92% HRL 1.18% OPEAZZX 0.16%",
             "Cathie Wood-Led Ark Invest Sells AMD, SPCX, GOOG Stocks — But Loads Up On CMPS, NTLA, CRSP And Other Healthcare Firms The trades put some of Ark's better-known holdings on the sell side, including AMD, Alphabet, and SpaceX, while its genomi",
             "Cathie Wood, CEO & Chief Investment Officer of ARK Invest, speaks onstage during Day 2 of 2023 Invest Fest at Georgia World Congress Center on August 27, 2023 in Atlanta, Georgia."
           ],
-          "analysisUpdatedAt": 1791621924.4913044
+          "analysisUpdatedAt": 1791644436.5409005
         },
         "headlineKo": "Cathie Wood가 주도하는 Ark Invest는 AMD, SPCX, GOOG 주식을 판매하지만 CMPS, NTLA, CRSP 및 기타 의료 회사에 로드됩니다."
       },
@@ -91029,7 +91221,7 @@ const NEWS_DATA = {
             "It can't build some of its chips as fast as customers want to buy them.",
             "CEO Lisa Su said as much in Taipei on Oct."
           ],
-          "analysisUpdatedAt": 1791621930.3548138
+          "analysisUpdatedAt": 1791644440.337235
         },
         "headlineKo": "AMD의 공급 위기가 자사 주식에 좋은 소식이 될 수 있는 이유"
       },
@@ -91041,45 +91233,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "고객 계약 · 매출 연결 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "AMD CEO Su shares important supply news with stock market investors",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "계약 금액·기간·취소 조건",
-            "수주잔고와 매출 인식 시점",
-            "관련 사업부 매출총이익률"
-          ],
-          "interpretation": "AMD에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791621931.4323163
-        },
         "headlineKo": "AMD CEO Su는 주식 시장 투자자들과 중요한 공급 소식을 공유합니다."
       },
       {
@@ -91091,16 +91244,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "예측: 이는 1년 후 AMD의 주가가 될 것입니다."
-      },
-      {
-        "headline": "AMD vs. Broadcom: How Much Faster Must AMD’s Cash Flow Grow to Earn Its Premium?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3d77e465ee3cd4a0ba756059f8224cad979ccdaca040777ddc51eb4ddbbedc4b",
-        "datetime": 1791561921,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "AMD 대 Broadcom: 프리미엄을 얻으려면 AMD의 현금 흐름이 얼마나 빨리 증가해야 합니까?"
       },
       {
         "headline": "AMD: The AI Momentum Train Looks Unstoppable, But I'm Pausing Accumulation (Downgrade)",
@@ -91117,32 +91260,32 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
-        "headline": "Cathie Wood-Led Ark Invest Sells AMD, SPCX, GOOG Stocks — But Loads Up On CMPS, NTLA, CRSP And Other Healthcare Firms",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=35c31d32c5cef3edbb11bcd2a91ba841cc85bdbde509b3d2f9df13d64db91ae9",
-        "datetime": 1791612152,
-        "headlineKo": "Cathie Wood가 주도하는 Ark Invest는 AMD, SPCX, GOOG 주식을 판매하지만 CMPS, NTLA, CRSP 및 기타 의료 회사에 로드됩니다.",
+        "headline": "SpaceX, Micron, AMD and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=7e99434658a86958a1acd15f437ab3c2a7b7b5f6e69f115e3cbaf9de5bc631eb",
+        "datetime": 1791622704,
+        "headlineKo": "SpaceX, Micron, AMD 등: 이번 주 투자자들의 관심이 끊이지 않는 5개 주식",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "medium",
-          "tone": "positive",
+          "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Cathie Wood가 주도하는 Ark Invest는 AMD, SPCX, GOOG 주식을 판매하지만 CMPS, NTLA, CRSP 및 기타 의료 회사에 대한 로드가 증가합니다 AI 에이전트 동향 뉴스 수익 모든 DIA 0.87% SPY 0.60% QQQ 0.49% Trending NIGHT 10.82% FLY 3.24% FSLY 15.86% RIG 0.54% JP",
-            "Cathie Wood가 이끄는 Ark Invest는 AMD, SPCX, GOOG 주식을 매도하지만 CMPS, NTLA, CRSP 및 기타 의료 회사에 부담을 줍니다.",
-            "ARK Invest의 CEO 겸 최고 투자 책임자인 Cathie Wood가 2023년 8월 27일 조지아주 애틀랜타 조지아 월드 콩그레스 센터에서 열린 2023 Invest Fest 2일차 무대에서 연설하고 있습니다."
+            "SpaceX, Micron, AMD 및 기타: 이번 주에 투자자들이 떠들썩한 5개 주식 - SpaceX (NASDAQ:S - Benzinga SPY 778.57 +0.60% QQQ 751.38 +0.51% BTC/USD 82,734.80 +0.21% DIA 516.21 +0.89% GLD 384.50 +1.55% TLT 77.97 +0.12% 미국 서명",
+            "9) X와 Reddit의 r/WallStreetBets는 소매업에 대한 과대 광고, 수익, AI 인프라 모멘텀 및 기업 뉴스 흐름에 힘입어 이루어졌습니다.",
+            "우주 탐사 기술 공사"
           ],
           "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.87%, 0.60%, 0.49% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.60%, 0.51%, 0.21% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -91153,30 +91296,110 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
           ],
-          "interpretation": "AMD에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "AMD에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 1,
           "quality": "medium",
+          "verifiedNumbers": [
+            "0.60%",
+            "0.51%",
+            "0.21%",
+            "0.89%",
+            "1.55%",
+            "0.12%",
+            "$173",
+            "$104.83"
+          ],
+          "sourceExcerpt": [
+            "SpaceX, Micron, AMD and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week - SpaceX (NASDAQ:S - Benzinga SPY 778.57 +0.60% QQQ 751.38 +0.51% BTC/USD 82,734.80 +0.21% DIA 516.21 +0.89% GLD 384.50 +1.55% TLT 77.97 +0.12% US Sign i",
+            "9) on X and Reddit’s r/WallStreetBets, driven by retail hype, earnings, AI infrastructure momentum, and corporate news flow.",
+            "Space Exploration Technologies Corp."
+          ],
+          "analysisUpdatedAt": 1791644435.5957527
+        }
+      },
+      {
+        "headline": "Cathie Wood-Led Ark Invest Sells AMD, SPCX, GOOG Stocks — But Loads Up On CMPS, NTLA, CRSP And Other Healthcare Firms",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=35c31d32c5cef3edbb11bcd2a91ba841cc85bdbde509b3d2f9df13d64db91ae9",
+        "datetime": 1791612152,
+        "headlineKo": "Cathie Wood가 주도하는 Ark Invest는 AMD, SPCX, GOOG 주식을 판매하지만 CMPS, NTLA, CRSP 및 기타 의료 회사에 로드됩니다.",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
+          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
+          "facts": [
+            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
+            "기사 본문에서 언급된 수치: 0.87%, 0.60%, 0.49%, 18.20%, 3.92%, 1.18%, 0.16%, 13.27%.",
+            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
+          ],
+          "why": [
+            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
+            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
+            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
+          ],
+          "beginner": [
+            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
+            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
+            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "혼합",
+              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "메모리 ASP와 이익률 개선 가능성"
+            },
+            {
+              "ticker": "WDC",
+              "stance": "긍정",
+              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
+            },
+            {
+              "ticker": "QCOM",
+              "stance": "중립·확인",
+              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
+            }
+          ],
+          "watch": [
+            "iPhone 18 실제 출고가·사전예약",
+            "애플 아이폰 출하량과 제품 믹스",
+            "메모리 현물·계약 가격",
+            "AAPL 매출총이익률과 MU/WDC 가이던스"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'Cathie Wood-Led Ark Invest Sells AMD, SPCX, GOOG Stocks — But Loads Up On CMPS, NTLA, CRSP And Other Healthcare Firms' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMD에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1,
+          "quality": "high",
           "verifiedNumbers": [
             "0.87%",
             "0.60%",
             "0.49%",
-            "10.82%",
-            "3.24%",
-            "15.86%",
-            "0.54%",
-            "0.47%"
+            "18.20%",
+            "3.92%",
+            "1.18%",
+            "0.16%",
+            "13.27%"
           ],
           "sourceExcerpt": [
-            "Cathie Wood-Led Ark Invest Sells AMD, SPCX, GOOG Stocks — But Loads Up On CMPS, NTLA, CRSP And Other Healthcare Firms AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending NIGHT 10.82% FLY 3.24% FSLY 15.86% RIG 0.54% JP",
+            "Cathie Wood-Led Ark Invest Sells AMD, SPCX, GOOG Stocks — But Loads Up On CMPS, NTLA, CRSP And Other Healthcare Firms AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending STRK 18.20% PENGU 3.92% HRL 1.18% OPEAZZX 0.16%",
             "Cathie Wood-Led Ark Invest Sells AMD, SPCX, GOOG Stocks — But Loads Up On CMPS, NTLA, CRSP And Other Healthcare Firms The trades put some of Ark's better-known holdings on the sell side, including AMD, Alphabet, and SpaceX, while its genomi",
             "Cathie Wood, CEO & Chief Investment Officer of ARK Invest, speaks onstage during Day 2 of 2023 Invest Fest at Georgia World Congress Center on August 27, 2023 in Atlanta, Georgia."
           ],
-          "analysisUpdatedAt": 1791621924.4913044
+          "analysisUpdatedAt": 1791644436.5409005
         }
       },
       {
@@ -91239,7 +91462,7 @@ const NEWS_DATA = {
             "It can't build some of its chips as fast as customers want to buy them.",
             "CEO Lisa Su said as much in Taipei on Oct."
           ],
-          "analysisUpdatedAt": 1791621930.3548138
+          "analysisUpdatedAt": 1791644440.337235
         }
       },
       {
@@ -98878,66 +99101,17 @@ const NEWS_DATA = {
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1790173607.1849504
         }
-      },
-      {
-        "headline": "Pat Gelsinger Just Backed a $100 Million Challenge to Nvidia’s AI Networking Moat. AMD Could Benefit",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=71ab3b639e4e85698bd9a015a96b4385053a43d05e75363a56c73e1f1e45bb09",
-        "datetime": 1790137473,
-        "headlineKo": "Pat Gelsinger는 Nvidia의 AI 네트워킹 해자에 대한 1억 달러 규모의 도전을 지지했습니다. AMD는 이점을 누릴 수 있습니다",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Pat Gelsinger Just Backed a $100 Million Challenge to Nvidia’s AI Networking Moat. AMD Could Benefit",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'Pat Gelsinger Just Backed a $100 Million Challenge to Nvidia’s AI Networking Moat. AMD Could Benefit' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790151575.0443537
-        }
       }
     ],
-    "_fetched_at": 1791621904.2750657,
-    "_updated_label": "2026-10-10 17:45",
-    "_last_success_at": 1791621904.2750657,
+    "_fetched_at": 1791644412.3877685,
+    "_updated_label": "2026-10-11 00:00",
+    "_last_success_at": 1791644412.3877685,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "AVGO": {
@@ -108032,7 +108206,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "QCOM": {
@@ -114961,7 +115135,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 150,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "ARM": {
@@ -119968,7 +120142,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "MRVL": {
@@ -128002,7 +128176,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 173,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "INTC": {
@@ -136397,7 +136571,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "TSM": {
@@ -142686,7 +142860,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 140,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "ASML": {
@@ -147021,7 +147195,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "AMAT": {
@@ -151514,7 +151688,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "LRCX": {
@@ -154004,7 +154178,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "KLAC": {
@@ -156348,7 +156522,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "MU": {
@@ -163880,7 +164054,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "SNDK": {
@@ -171481,7 +171655,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 158,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "WDC": {
@@ -176027,7 +176201,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 95,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "ANET": {
@@ -179685,7 +179859,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "COHR": {
@@ -182849,7 +183023,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "LITE": {
@@ -186549,7 +186723,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "GEV": {
@@ -191520,7 +191694,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "CEG": {
@@ -195940,7 +196114,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "VST": {
@@ -199322,7 +199496,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "ETN": {
@@ -202486,7 +202660,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "PWR": {
@@ -205426,7 +205600,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "HUBB": {
@@ -206194,7 +206368,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "VRT": {
@@ -210017,7 +210191,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "MOD": {
@@ -211345,7 +211519,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "STX": {
@@ -215403,7 +215577,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "EME": {
@@ -217166,7 +217340,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "FIX": {
@@ -218760,7 +218934,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   },
   "BE": {
@@ -221072,7 +221246,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-10-10 23:44"
+      "updated": "2026-10-11 00:00"
     }
   }
 };
