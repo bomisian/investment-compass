@@ -345,16 +345,18 @@ const MARKET_DATA = {
       "summaryKo": "독일 규제 당국은 Tesla의 '완전 자율 주행' 브랜드 이름이 '다소 오해의 소지가 있다'고 말했습니다."
     }
   ],
-  "_news_collection_status": "ok",
+  "_news_collection_status": "error",
   "_news_last_success_at": 1791645447.9689114,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791645437.6271784,
-  "_updated_label": "2026-10-11 00:17",
-  "_last_attempt_at": 1791645437.6271784,
+  "_fetched_at": 1791649173.8535948,
+  "_updated_label": "2026-10-11 01:20",
+  "_last_attempt_at": 1791649173.8535948,
   "_last_success_at": 1791645437.6271784,
-  "_collection_status": "ok",
-  "_collection_errors": []
+  "_collection_status": "partial",
+  "_collection_errors": [
+    "시장 헤드라인"
+  ]
 };

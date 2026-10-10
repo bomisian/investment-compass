@@ -5507,10 +5507,17 @@ function computePriceValidity(r){
   //         이익 사이클 변화의 대리 지표로 기존부터 쓰이던 값 -- AVGO 실측: 왜곡 상태로 계산한
   //         가격대가 $793~$1465로 나와 현재가 $360대와 2배 이상 벌어졌던 사례가 이 조건으로
   //         "가격 판단 보류"가 된다)
-  //     (3) GAAP/비GAAP 기준 불일치(공식 비GAAP 가이던스가 없어 GAAP 실적으로 대체한 경우 --
-  //         ARM·VST 등. pvEpsBasisIsGaapSubstitute, 51739에서 이미 "비교 기준 제한" 배지로
-  //         쓰던 것과 같은 판정)
-  //     세 조건 모두 이미 계산되던 값을 재사용할 뿐 새 임계값을 만들지 않는다. ---
+  //     (3) 명시적으로 확인된 구조적 비교 불가(인수·분사·사업구성 변화로 과거 EPS 자체가
+  //         단절된 경우) -- 51747b 수정(사용자 피드백, 2026-10-10): 공식 비GAAP 가이던스가
+  //         없다는 것만으로는 이 조건을 만들지 않는다. 애플·구글처럼 숫자 EPS 가이던스를 원래
+  //         내지 않는 대형주 다수가 "GAAP 대체"로 잡혀 39종목 중 30종목이 가격 판단 보류가
+  //         되는 것으로 실측 확인됐다(모델이 보수적인 게 아니라 입력 형태를 잘못 해석한 것).
+  //         현재 파이프라인에 종목별 "분사·인수 후 EPS 단절" 명시 플래그가 없어(검색 확인,
+  //         independent_valuation_data.js의 epsDefinitionConfirmationLevel은 전종목 공통
+  //         boilerplate이지 종목별 신호가 아님) 이 조건은 지어내지 않고 distorted로만 대체
+  //         감지한다(평균÷현재NTM PER 왜곡이 사업 구조·이익 사이클 변화의 기존 대리 지표).
+  //     세 조건 중 GAAP 가이던스 유무(gaapBasisOnly)는 더 이상 분류를 막지 않고, 교차검증
+  //     제한/신뢰도 캐비엇으로만 표시한다(아래 metaBadge, pvPriceRationale). ---
   const gaapBasisOnly = pvEpsBasisIsGaapSubstitute(t, fin);
   let price, priceHoldReason = null;
   if(!bandEligible){
@@ -5519,9 +5526,6 @@ function computePriceValidity(r){
   } else if(distorted){
     price = '가격 판단 보류';
     priceHoldReason = '과거 PER 비교 가능성 제한(평균÷현재NTM PER ' + distortionRatio.toFixed(1) + '배 차이) — 사업 구조·이익 사이클 변화 가능성';
-  } else if(gaapBasisOnly){
-    price = '가격 판단 보류';
-    priceHoldReason = 'GAAP/비GAAP 기준 불일치 — 공식 비GAAP 가이던스가 없어 GAAP 실적으로 대체, 비GAAP 가이던스 종목과 직접 비교 제한';
   } else if(ntmPer < perBandLowVal){
     price = '저평가';
   } else if(ntmPer > perBandHighVal){
@@ -5842,7 +5846,6 @@ function pvChangeConditions(d){
   if(d.price === '가격 판단 보류'){
     if(d.blockReason === 'NTM EPS/PER 입력 미확보') return 'EPS 컨센서스(현재·다음 회계연도) 확보 시 가격대 재계산';
     if(d.distorted) return '과거 PER 비교 가능성이 회복되거나(평균÷현재NTM PER 비율 3배 이내) 다른 밸류에이션 방법으로 확인될 때';
-    if(d.gaapBasisOnly) return '공식 비GAAP 가이던스 공시 시 재계산';
     return '과거 PER 유효 관측치(흑자 연도) 확보 시 가격대 재계산';
   }
   if(d.highRiskCombo) return 'EPS 수정 방향 회복과 현금흐름 거부권 해제';
@@ -5970,7 +5973,7 @@ function pvPriceRationale(d, num){
   if(d.price === '가격 판단 보류'){
     lines.push(d.priceHoldReason || '가격 판단 보류');
   } else if(num(d.distortionRatio)){
-    lines.push(`과거 PER 비교 유효(평균÷현재NTM PER ${d.distortionRatio.toFixed(1)}배 차이, 왜곡 기준 3배 미만)`);
+    lines.push(`과거 PER 비교 유효(평균÷현재NTM PER ${d.distortionRatio.toFixed(1)}배 차이, 왜곡 기준 3배 미만)${d.gaapBasisOnly ? ' · 공식 EPS 가이던스 없어 교차검증은 GAAP 대체 참고치' : ''}`);
   }
   if(d.eps && d.eps.direction){
     lines.push(`EPS 수정 방향 ${d.eps.direction}${num(d.eps.change90dPct) ? `(90일 ${d.eps.change90dPct>=0?'+':''}${d.eps.change90dPct.toFixed(1)}%)` : ''}`);
@@ -6046,8 +6049,11 @@ function renderPriceValidityCard(r){
   //     배지·가격대 숫자 노출 모두 d.bandEligible 단독이 아니라 d.price!=='가격 판단 보류'도
   //     함께 확인해야 한다(사용자 요청: 화면에서 숫자만 숨기는 게 아니라 내부 분류 자체를 바꿈). ---
   const priceResolved = d.bandEligible && d.price !== '가격 판단 보류';
+  // 51747b -- gaapBasisOnly(공식 비GAAP EPS 가이던스 없음)는 더 이상 보류 사유가 아니지만,
+  // 교차검증 신뢰도가 한 단계 낮다는 점은 계속 알려준다(사용자 요청: 결론은 유지, 신뢰도만 캐비엇).
+  const confidenceCaveat = (priceResolved && d.gaapBasisOnly) ? ' · 공식 EPS 가이던스 없음(GAAP 대체 참고치 — 교차검증 제한)' : '';
   const metaBadge = priceResolved
-    ? `신뢰도 ${esc(confidence||'보통')} · 가격 기준일 ${esc(priceDate||'—')}${epsDate?` · EPS 기준일 ${esc(epsDate)}`:''}`
+    ? `신뢰도 ${esc(confidence||'보통')}${confidenceCaveat} · 가격 기준일 ${esc(priceDate||'—')}${epsDate?` · EPS 기준일 ${esc(epsDate)}`:''}`
     : `제한 사유: ${esc(d.priceHoldReason || d.blockReason || '—')}`;
 
   const priceColor = PV_COLOR[d.price] || NEU_TEXT;
@@ -6201,7 +6207,7 @@ function renderPriceValidityCard(r){
     bandHtml = `
       <div style="margin-top:10px;">
         ${holdCaveat}
-        ${posLine ? `<div style="margin-bottom:6px;font-size:11.5px;color:${NEU_TEXT};line-height:1.5;">${posLine}</div>` : ''}
+        ${(posLine && d.price !== '가격 판단 보류') ? `<div style="margin-bottom:6px;font-size:11.5px;color:${NEU_TEXT};line-height:1.5;">${posLine}</div>` : ''}
         <div style="font-size:11.5px;font-weight:800;color:${NEU_DIM};margin-bottom:4px;">EPS·현금흐름 전제의 모델 기준 가격대 (기준일 ${esc(bt.asOf)})</div>
         <table style="width:100%;border-collapse:collapse;font-size:11.5px;">
           <tr><th style="text-align:center;color:${NEU_DIM};font-weight:700;padding:5px 4px;border-bottom:1px solid ${NEU_LINE};">구간</th><th style="text-align:center;color:${NEU_DIM};font-weight:700;padding:5px 4px;border-bottom:1px solid ${NEU_LINE};">전제 EPS(NTM 보간)</th><th style="text-align:center;color:${NEU_DIM};font-weight:700;padding:5px 4px;border-bottom:1px solid ${NEU_LINE};">전제 PER</th><th style="text-align:center;color:${NEU_DIM};font-weight:700;padding:5px 4px;border-bottom:1px solid ${NEU_LINE};">가격대</th></tr>
