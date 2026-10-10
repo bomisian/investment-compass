@@ -2528,8 +2528,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791572461.0565321,
-    "_updated_label": "2026-10-10"
+    "_fetched_at": 1791647324.8602967,
+    "_updated_label": "2026-10-11"
   },
   "ANET": {
     "transactions": [
