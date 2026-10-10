@@ -246,15 +246,6 @@ const MARKET_DATA = {
       "summaryKo": "월스트리트는 수입, 인플레이션 데이터를 통해 주간 이익을 게시합니다. Reuters"
     },
     {
-      "headline": "How the US plan to livestream an execution compares with global practice - Reuters",
-      "summary": "How the US plan to livestream an execution compares with global practice Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY1NBZFVBVHJYejdwU3ZJTW5DdFYxMk9Yb0lwc2w5Y3VTY2IxYll1Q1E5QkpHeWhLYS13dThUQkNrNFdhTmVGVlhrM0xuQTVESDZ2OUEtYWJBWFU1QUxxMVBKSVJQMUFkVzRsSWE4QWFDYVdpc21kakFoSGEwUEhzQklFcUhlVnY1alpuUkQtcGkyYXlvYkxPSmJzQ0QxLWU0cmZlcjEzem94bDByc2cyWWdPbm02TGtyWUl5LUtjdEU2UFRDTFE?oc=5",
-      "datetime": 1791574834,
-      "headlineKo": "미국의 사형집행 실시간 스트리밍 계획과 글로벌 관행 비교 - Reuters",
-      "summaryKo": "미국의 사형 집행 계획을 글로벌 관행과 비교하는 방법 Reuters"
-    },
-    {
       "headline": "What's behind the recovery rally in tech stocks — plus, Elon Musk's very good week",
       "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
       "source": "CNBC",
@@ -343,18 +334,27 @@ const MARKET_DATA = {
       "datetime": 1791562731,
       "headlineKo": "트럼프의 공급 확대 움직임에도 불구하고 미국 디젤 가격은 여전히 ​​​​높습니다 - Reuters",
       "summaryKo": "트럼프의 공급 확대 움직임에도 불구하고 미국 디젤 가격은 여전히 ​​​​높습니다 - 최신"
+    },
+    {
+      "headline": "Four signs it is about to get uglier in the bond market as yields rise - Reuters",
+      "summary": "Four signs it is about to get uglier in the bond market as yields rise Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZnpPbXRYRlc0T3dINmZIZnM3VEgxWWJzS2tLRVBadmJMVnQ2ekdHaTQ1NG1SZlhfTV84VjNsM3JNR0RRSTZyVWJ1ODJFZmxpa1pxckluaktPY0d6T0d3bUVUUnRGQjlCVmwxWUNGWEs2cEo1VGV4R3MxN19PakJaZ3FUZnZfMWxqUHAzNk1nOTVFT0hr?oc=5",
+      "datetime": 1791562715,
+      "headlineKo": "수익률이 상승함에 따라 채권시장이 더욱 악화될 것이라는 4가지 징후 - Reuters",
+      "summaryKo": "수익률이 상승함에 따라 채권 시장이 더욱 악화될 것이라는 4가지 징후 Reuters"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791613877.5763066,
+  "_news_last_success_at": 1791618143.7939107,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791613869.5703592,
-  "_updated_label": "2026-10-10 15:31",
-  "_last_attempt_at": 1791613869.5703592,
-  "_last_success_at": 1791613869.5703592,
+  "_fetched_at": 1791618135.4521844,
+  "_updated_label": "2026-10-10 16:42",
+  "_last_attempt_at": 1791618135.4521844,
+  "_last_success_at": 1791618135.4521844,
   "_collection_status": "ok",
   "_collection_errors": []
 };

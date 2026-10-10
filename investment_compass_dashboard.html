@@ -6070,6 +6070,93 @@ if(typeof HINTS !== 'undefined'){
 const PV_CONSENSUS_STALE_DAYS = 14;
 const PV_NEW_FILING_WINDOW_DAYS = 10;
 
+// === 51744 -- 데이터 갱신 운영(사용자 요청, 2026-10-10). 화면 수정은 하지 않는다 -- 이미
+//     존재하는 "해결 전 핵심 제약" 섹션에 새 사유 코드 하나를 더 흘려보낼 뿐이다. 수집
+//     스크립트(buy_signal_telegram.py)의 실제 수집 로직·주기는 건드리지 않는다(이번에도
+//     GitHub Pages 배포 화이트리스트만 수정 — 아래 참고). 대신 그 스크립트가 이미 매 주기
+//     계속 써 온 data_status_data.js(DATA_STATUS)를 읽기만 해서, "이 카드가 바라는 목표
+//     주기"(거래일 가격·기술지표·컨센서스는 일 1회, 공시·가이던스는 새 공시 감지 시 해당
+//     종목만, 재무제표·부채·희석은 주 1회 새 공시 확인) 대비 실제 마지막 성공 시각이 얼마나
+//     벗어났는지를 판정하는 "정책 레이어"다. DATA_STATUS 자체의 기존 warningAfterHours/
+//     criticalAfterHours(6h/24h, 대시보드 상단 헤더가 이미 쓰는 값)는 "자동화가 멈췄는가"를
+//     보는 범용 값이라 건드리지 않고, 이 카드는 카테고리별 목표 주기를 별도로 둔다.
+const PV_REFRESH_POLICY = {
+  // 거래일 가격·기술지표 + 컨센서스: 일 1회(사용자 지정). 주말·휴장일에 "하루 지남"으로
+  // 오판하지 않도록 48시간 버퍼를 둔다(금요일 종가가 월요일 아침에 지연으로 뜨지 않게).
+  prices:     { category: 'price_technical', cadenceLabel: '거래일 기준 일 1회(가격·기술지표)', overdueAfterHours: 48, useAttemptNotSuccess: false },
+  market:     { category: 'price_technical', cadenceLabel: '거래일 기준 일 1회(시장환경)',       overdueAfterHours: 48, useAttemptNotSuccess: false },
+  estimates:  { category: 'consensus',       cadenceLabel: '거래일 기준 일 1회(컨센서스)',        overdueAfterHours: 48, useAttemptNotSuccess: false },
+  // 공시·가이던스: 고정 주기가 없다(새 공시가 있을 때만 그 종목을 갱신하는 게 정상 동작).
+  // 여기서 보는 건 "공시가 떴다"가 아니라 "공시를 확인하는 자동 점검 자체가 멈추지 않았는가"
+  // 뿐이라, 마지막 '시도'(성공 여부와 무관) 기준으로 판정한다.
+  secFilings: { category: 'filing_event',    cadenceLabel: '새 공시 감지 시 해당 종목만 갱신(점검은 상시)', overdueAfterHours: 24, useAttemptNotSuccess: true },
+  // 재무제표·부채·희석: 주 1회 새 공시 확인(사용자 지정) = 7일 + 1일 버퍼.
+  financials: { category: 'financials_weekly', cadenceLabel: '주 1회 새 공시 확인(재무제표·부채·희석)', overdueAfterHours: 24*8, useAttemptNotSuccess: false },
+};
+
+// 1·3·6개월 결과 비교를 집계할 때 지킬 규칙(이번 라운드는 규칙 고정 + 기록까지만 — 집계
+// 코드 자체는 아직 없음, 51743의 PV_OUTCOME_MEASUREMENT_RULE과 같은 성격). 스냅샷의
+// benchmarks.index.SPY/QQQ 또는 sector_etfs의 어떤 항목이든 price가 null이면(실시간 3경로+
+// PC 캐시 폴백이 전부 실패) 그 스냅샷은 해당 벤치마크 기준 상대성과 집계에서 제외한다 --
+// 벤치마크 없이 절대수익률만으로 "판단이 맞았다"고 집계하지 않기 위함.
+const PV_BENCHMARK_NULL_EXCLUSION_RULE = 'benchmark_price_null_excludes_that_benchmark_from_relative_performance_aggregation';
+
+let _pvOpsCache = null, _pvOpsCacheAt = 0;
+// 각 원자료(소스)의 마지막 성공 갱신 시각·원자료 기준일·다음 점검 시각·실패 사유를 DATA_STATUS
+// (buy_signal_telegram.py가 이미 매 주기 쓰고 있는 data_status_data.js)에서 읽어 정리한다 --
+// 새 수집 로직이 아니라 기존에 기록돼 있는 값을 정책 기준으로 재해석할 뿐이다.
+function pvDataOperationsStatus(){
+  if(_pvOpsCache && (Date.now() - _pvOpsCacheAt) < 5000) return _pvOpsCache;
+  const out = [];
+  if(typeof DATA_STATUS !== 'undefined' && DATA_STATUS && DATA_STATUS.sources){
+    const nowMs = Date.now();
+    for(const key of Object.keys(PV_REFRESH_POLICY)){
+      const src = DATA_STATUS.sources[key];
+      const policy = PV_REFRESH_POLICY[key];
+      if(!src) continue;
+      const anchorAt = policy.useAttemptNotSuccess ? src.lastAttemptAt : (src.lastSuccessAt || src.lastAttemptAt);
+      const ageHours = anchorAt ? (nowMs - anchorAt*1000)/3600000 : null;
+      const overdue = (ageHours == null) || ageHours > policy.overdueAfterHours;
+      const failed = !!(src.status && src.status !== 'ok');
+      const nextCheckAt = anchorAt ? new Date(anchorAt*1000 + policy.overdueAfterHours*3600000).toISOString() : null;
+      const affectedTickers = Array.from(new Set([...(src.staleItems||[]), ...(src.emptyItems||[])]));
+      out.push({
+        source: key, label: src.label || key, category: policy.category, cadence_label: policy.cadenceLabel,
+        last_success_at: src.lastSuccessAt ? new Date(src.lastSuccessAt*1000).toISOString() : null,
+        last_attempt_at: src.lastAttemptAt ? new Date(src.lastAttemptAt*1000).toISOString() : null,
+        source_as_of: src.dataAsOfLabel || null,
+        next_check_at: nextCheckAt,
+        status: failed ? 'failed' : (overdue ? 'overdue' : 'ok'),
+        failure_reason: src.lastError || null,
+        affected_tickers: affectedTickers,
+        useAttemptNotSuccess: !!policy.useAttemptNotSuccess,
+      });
+    }
+  }
+  _pvOpsCache = out; _pvOpsCacheAt = Date.now();
+  return out;
+}
+
+// 특정 종목이 갱신 실패·지연 상태인 소스의 staleItems/emptyItems에 걸려 있으면 open_constraint
+// 사유를 만든다. 소스 전체가 지연·실패인데 영향받은 종목을 특정할 수 없는 경우(= staleItems·
+// emptyItems가 둘 다 비어 있는 전면 실패)는 39종목 전부에 억지로 붙이지 않는다 -- 기존 재검토
+// 큐를 "3~10개"로 유지한다는 설계 원칙을 깨지 않기 위함이며, 이 경우는 기존 대시보드 상단의
+// "데이터 상태" 요약 줄(이 카드가 만든 게 아님, 기존 화면)에서 이미 드러난다.
+function pvRefreshExceptionsForTicker(t){
+  const ops = pvDataOperationsStatus();
+  const reasons = [];
+  for(const op of ops){
+    if(op.status === 'ok') continue;
+    if(!op.affected_tickers.includes(t)) continue;
+    const label = op.status === 'failed'
+      ? `${op.label} 갱신 실패 — ${op.failure_reason || '사유 미상'}`
+      : `${op.label} 점검 지연(${op.cadence_label} 기준 초과, 마지막 ${op.useAttemptNotSuccess?'시도':'성공'} ${op.last_success_at || op.last_attempt_at || '—'})`;
+    reasons.push({ code:'refresh_issue', type:'open_constraint', label,
+      signature: pvReviewSignature(t, 'refresh_issue', op.status, op.last_success_at||op.last_attempt_at, op.source) });
+  }
+  return reasons;
+}
+
 // 종목·항목(metric)별 데이터 상태 레지스트리 행. 요청된 스키마(ticker/metric/value/basis/
 // source/source_date/collected_at/freshness_status/next_review_trigger/comparison_status)를
 // 그대로 따른다 -- 이미 계산돼 있는 d·r·cc 필드를 재배열할 뿐, 새 계산은 하지 않는다.
@@ -6228,6 +6315,15 @@ function pvExceptionReasons(t, r, d){
     reasons.push({ code:'state_change', type:'delta', label:`판단 전환 — 가격 "${prevState.price}"→"${d.price}", 종합 행동 "${prevState.action}"→"${actLabel}"`,
       signature: pvReviewSignature(t,'state_change', `${d.price}|${actLabel}`, priceAsOf, 'price_action_transition') });
   }
+
+  // 7) [51744] 데이터 갱신 실패·지연 -- open_constraint: 이 종목이 영향받는 원자료 소스가
+  //    목표 주기(가격/컨센서스 일 1회, 공시 이벤트 기반, 재무제표 주 1회) 안에 갱신되지
+  //    못했거나 시도 자체가 실패한 상태. 해당 소스가 다음 성공 갱신으로 실제 해소될
+  //    때까지 계속 표시 -- buy_signal_telegram.py의 수집 로직은 변경하지 않고, 이미 기록된
+  //    DATA_STATUS를 읽기만 하는 해석 계층이다.
+  try{
+    reasons.push(...pvRefreshExceptionsForTicker(t));
+  }catch(e){ /* DATA_STATUS 미로딩 등 방어 -- 큐 전체를 막지 않음 */ }
 
   return reasons;
 }
@@ -6522,6 +6618,11 @@ async function pvBuildSnapshotBatch(force){
   const sameDayCount = log.filter(e => e.snapshot_id && e.snapshot_id.indexOf(dateStr) === 0).length;
   const snapshotId = dateStr + '-' + (sameDayCount + 1);
   const degradedCount = Object.values(tickerEntries).filter(e => e.data_quality.quality === 'degraded').length;
+  // [51744] 저장 시점의 원자료 갱신 운영 상태(마지막 성공 갱신 시각, 기준일, 다음 점검 시각,
+  // 실패 사유)를 스냅샷에 함께 남긴다 -- "각 원자료의 갱신 상태를 기록"하라는 요구사항을
+  // 충족. DATA_STATUS를 읽기만 하는 해석 결과이며 수집 로직을 바꾸지 않는다.
+  let dataOperations = null;
+  try{ dataOperations = pvDataOperationsStatus(); } catch(e){ dataOperations = { error: (e && e.message) || String(e) }; }
   const entry = {
     snapshot_id: snapshotId,
     computed_at: new Date().toISOString(),
@@ -6529,6 +6630,7 @@ async function pvBuildSnapshotBatch(force){
     input_signature_hash: signature,
     degraded_ticker_count: degradedCount,
     benchmarks,
+    data_operations: dataOperations,
     tickers: tickerEntries,
   };
   return { created: true, entry, log: log.concat([entry]) };
@@ -6580,6 +6682,10 @@ function renderPriceValidityExceptionQueue(){
   const { changes, constraints } = pvExceptionQueueData();
   const basisLimited = pvBasisLimitedTickers();
   if(typeof window !== 'undefined'){ window.PV_DATA_REGISTRY = pvBuildDataRegistry(); }
+  // [51744] 데이터 갱신 운영 상태를 진단용으로 전역에 노출(화면 UI는 추가하지 않음 -- 콘솔/
+  // Playwright 검증용). 실제 재검토 큐 반영은 pvExceptionReasons -> pvRefreshExceptionsForTicker
+  // 경로를 통해 기존 constraints 배열로 이뤄진다.
+  if(typeof window !== 'undefined'){ try{ window.PV_DATA_OPERATIONS = pvDataOperationsStatus(); } catch(e){} }
 
   if(!changes.length && !constraints.length && !basisLimited.length){ card.style.display='none'; box.innerHTML=''; return; }
   card.style.display = 'block';
@@ -6631,7 +6737,6 @@ function renderPriceValidityExceptionQueue(){
 if(typeof HINTS !== 'undefined'){
   HINTS.priceValidityExceptionQueue = '39종목을 매번 다시 확인하지 않도록, 오늘 판단이 바뀔 수 있는 종목만 모아 보여주는 카드입니다. "오늘 바뀐 것"(새 공시, 가격·행동 전환)은 확인 후 저장하면 같은 내용으로는 다시 뜨지 않는 사건이고, "해결 전 핵심 제약"(현금흐름 거부권, 컨센서스/EPS 기준일 초과, 모델 교차검증 불일치, 현금흐름 정의 차이)은 저장 여부와 무관하게 원인이 실제로 해소될 때까지 계속 표시되는 열린 위험입니다. 비GAAP 가이던스가 없어 GAAP 실제 EPS로 대체한 종목(EPS 교차검증 "비교 기준 제한")은 종목 수가 많고 매번 참인 데이터 출처 특성이라 이 재검토 큐에는 넣지 않고, 아래 "상시 비교 기준 제한" 접이식 목록에서만 보여줍니다. "오늘 기준으로 저장" 버튼은 review_baseline_data.js(재검토 큐 서명)와 valuation_snapshot_log_2026.js(1·3·6개월 결과 추적용 판단 스냅샷 — 오늘 판단이 바뀌었을 때만 새로 쌓임)를 함께 내려받으며, 두 파일을 데이터 폴더에 반영하면 다음 스캔부터 같은 로직이 적용됩니다 — 브라우저 localStorage는 쓰지 않습니다. 가격·행동 산식에는 전혀 관여하지 않는 읽기 전용 조회·기록 레이어입니다.';
 }
-
 // ===== 시장 기대 대비 가격 위치 카드 (2026-10-08 신규, v2: 39종목 전수 반영) =====
 // 근거: MARKET_POSITION_CARD_DECLARATION_v1_1_20261008.md, MARKET_POSITION_CARD_FULL_ROLLOUT_v2_20261008.md
 // 범위 제한 예외 승인(2026-10-08): 컨센서스 위치 단독으로 고/저평가·매수/매도 결론 금지 ·
