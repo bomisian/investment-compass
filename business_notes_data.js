@@ -9,6 +9,78 @@ const BUSINESS_NOTES = {
   MARKET: {
     newsLog: [
       {
+        date: "2026-10-09",
+        headline: "뉴욕증시 5거래일 연속 상승(다우 +423p) - OpenAI 매출 논란 완화·소프트웨어 주도 반등, 반도체는 부분 회복에 그쳐",
+        tone: "positive",
+        importance: "high",
+        horizon: "단기(다음주 초 반도체·은행주 안정 여부 확인 필요)",
+        facts: [
+          "10/9(금) 다우존스가 423.31p(+0.83%) 올라 51,654.95로 마감, 5거래일 연속 상승. S&P500 +0.59%(7,811.54), 나스닥종합 +0.64%(27,366.17). 주간 기준 S&P500 +1.2%, 다우 +0.9%, 나스닥 +0.6%(Washington Post/World Today News).",
+          "장 마감 전 트럼프 대통령이 '러시아(푸틴)가 미국·국제시장에 디젤을 공급하기로 합의했다'고 밝히면서 유가 우려가 완화돼 지수가 장중 고점을 찍음 - 다만 WTI는 소폭 상승(+0.39%, $91.85), 브렌트유는 $104 위에서 마감해 유가 자체는 여전히 높은 수준(World Today News/투자 데일리 아웃룩).",
+          "VIX는 14.84로 -3.70% 하락. 다만 반도체 ETF(SMH)는 목요일(10/8) -2.84% 급락 후 금요일 -0.65% 추가 하락 - 소프트웨어(IGV +2.81%)·보안(CIBR +3.58%)·데이터센터(DTCR +3.02%) 등 AI 관련주 중에서도 '반도체 생산 업체'만 회복이 지연됨(Market Scholars 데일리 아웃룩).",
+          "10년물 美 국채금리는 5.244%(+1.3bp)로 24년來 고점권 지속. 10/12(월)은 미국 채권시장 휴장일.",
+          "종목별: 팔로알토네트웍스 +5%, 팔란티어 +5%, 크라우드스트라이크 +4%, 아마존 +3%, 마이크로소프트 +2% - AI 소프트웨어·빅테크 중심 반등. 반면 스페이스X의 전국 스펙트럼 인수 소식에 AT&T·버라이즌·T모바일은 경쟁 우려로 하락.",
+        ],
+        why: [
+          "10/8 OpenAI 매출 하향 정정 보도로 급락했던 증시가 금요일 소프트웨어·빅테크 중심으로 반등했지만, 이 워치리스트의 핵심 축인 반도체(SMH)는 이틀째 하락세를 벗어나지 못했다는 점이 중요 - '시장 전체'는 안정됐지만 'AI 반도체 공급망'에 대한 불신은 아직 완전히 해소되지 않았다는 신호로 읽힌다.",
+          "유가·국채금리는 둘 다 높은 수준을 유지하고 있어, 이번 반등이 '위험이 사라졌다'는 뜻이 아니라 '단기적으로 가장 나쁜 시나리오가 피해졌다'는 수준의 안도 랠리에 가깝다.",
+        ],
+        beginner: [
+          "목요일에 OpenAI 매출 뉴스로 많이 빠졌던 미국 증시가 금요일에는 다시 올랐어요(다우 423포인트 상승). 트럼프 대통령이 '러시아가 기름을 더 공급하기로 했다'고 말하면서 기름값 걱정이 줄어든 게 도움이 됐어요.",
+          "그런데 자세히 보면, 전체 지수는 올랐지만 반도체 회사들(엔비디아·브로드컴 같은 AI 칩 만드는 회사들)은 여전히 약세였어요. 소프트웨어 회사들(팔란티어, 크라우드스트라이크 등)만 많이 오른 거라서, 'AI 반도체'에 대한 걱정은 아직 완전히 풀리지 않은 상태라고 보면 돼요.",
+        ],
+        interpretation: "금요일 반등은 전방위적인 위험 해소보다는 유가발 안도감과 소프트웨어주 중심의 선별적 반등 성격이 강하다. 이 워치리스트의 핵심 종목군인 반도체(AVGO·NVDA·AMD·TSM·AMAT·LRCX·KLAC·MU 등)는 목·금 이틀간 SMH가 누적 약 -3.5% 빠진 뒤 금요일에도 추가 하락해, 'OpenAI 매출 신뢰도' 이슈의 여진이 반도체 쪽에서 더 오래 남아있음을 보여준다.",
+        decision: "지수 반등만 보고 반도체 종목의 리스크가 해소됐다고 판단하지 말 것. 다음주 초 SMH·은행주(KBE/KRE)가 안정되는지, 10/13 은행 실적과 10/14 CPI 발표가 어떻게 나오는지를 확인한 뒤 판단.",
+        watch: [
+          "다음주 반도체 ETF(SMH) 및 개별 반도체 종목의 반등 지속 여부",
+          "10/13(화) 웰스파고·씨티그룹 등 은행 실적, 10/14(수) CPI 발표",
+          "유가(WTI·브렌트) 추이와 러시아 디젤 공급 합의의 실제 이행 여부",
+        ],
+        confidence: "지수 등락률·국채금리·유가 수치는 Washington Post·World Today News 등 복수 매체가 교차 확인해 신뢰도가 높음. 개별 종목 등락(팔로알토·팔란티어 등)은 인용 매체 단일 출처라 참고 수준.",
+        sources: [
+          { title: "How major US stock indexes fared Friday 10/9/2026 (The Washington Post)", url: "https://www.washingtonpost.com/business/2026/10/09/wall-street-stocks-dow-nasdaq/63e004dc-c41e-11f1-8170-681419af1cc9_story.html" },
+          { title: "Stock Market Outlook: OpenAI Relief Meets a Split Rally (Market Scholars)", url: "https://www.marketscholars.com/market-outlook-october-9-2026/" },
+          { title: "The Dow Jones Industrial Average rose 423.31 points on Friday, October 9, 2026 (World Today News)", url: "https://world-today-news.com/the-dow-jones-industrial-average-rose-423-31-points-on-friday-october-9-2026-closing-at" },
+        ],
+      },
+      {
+        date: "2026-10-09",
+        headline: "브로드컴(AVGO), OpenAI 커스텀칩용 $500억+ 사모대출 조달 추진 - 10/8 매출 신뢰도 이슈 여진 속 레버리지 테마 재부각",
+        tone: "mixed",
+        importance: "high",
+        horizon: "중기(자금조달 실제 체결·조건 확정까지 수주~수개월)",
+        facts: [
+          "블룸버그·WSJ(10/7 최초 보도, 10/8~9 후속)에 따르면 브로드컴이 OpenAI의 커스텀 AI 추론칩(공동개발) 구매 자금으로 $500억 이상 규모의 사모대출(private credit) 조달을 추진 중이다(Bloomberg/digitimes/Seeking Alpha).",
+          "이와 별도로 브로드컴은 Anthropic 등 다른 고객사의 AI칩 수요를 위해 약 $600억 규모(선순위담보 $420억+후순위 $180억, 블랙스톤 주도)의 추가 대출 구조화도 진행 중(StocksToTrade 10/9 보도).",
+          "브로드컴 3분기(2026) 매출은 전년 대비 +86%인 $296억, AI칩 매출은 +221%인 $167억. 4분기 가이던스는 매출 $348억(AI칩 $217억 포함). 경영진은 2027회계연도 AI 매출이 약 $1,150억까지 늘어날 것으로 전망(StocksToTrade).",
+          "Anthropic·xAI는 2029년까지 브로드컴 장비 리스에 약 $1,612억을 약정한 상태.",
+          "주가는 10/8 OpenAI 매출 하향 정정 보도 영향으로 $350 선까지 밀렸다가(FX Leaders), 10/9 장중 '우호적 AI 칩 수요 뉴스'에 +2% 내외로 반등하며 $366~368 구간에서 거래(StocksToTrade).",
+          "부수적 리스크: Netlist가 마이크론(MU)을 상대로 제기한 HBM(고대역폭메모리) 특허 ITC 소송에 브로드컴·구글이 다운스트림 고객으로 거론되고 있으나, 현재는 트레이더들이 '배경 리스크' 수준으로 취급 중(StocksToTrade).",
+        ],
+        why: [
+          "같은 주(10/8) '비상장 AI 기업 매출 수치의 불투명성' 논란이 나온 지 하루 만에, 브로드컴이 OpenAI 칩 구매를 위해 $500억 넘는 빚을 또 끌어오고 있다는 소식이 겹쳐 - 'AI 투자가 점점 부채(레버리지)로 쌓이고 있다'는 우려(8/25·9/11·10/1·10/8 항목에서 반복된 테마)가 다시 수면 위로 올라옴.",
+          "다만 브로드컴 자체의 매출·가이던스(+86%, 2027년 AI매출 2배 전망)와 Anthropic·xAI의 대규모 선약정($1,612억)은 여전히 견조해, '수요가 실재하는 레버리지'와 '수요 없이 쌓이는 레버리지'를 구분해 볼 필요가 있다.",
+        ],
+        beginner: [
+          "브로드컴이 OpenAI가 쓸 AI 칩을 만들 돈을 마련하려고 500억 달러(약 70조원) 넘는 돈을 빌리려 하고 있어요. 이것과 별도로 Anthropic 같은 다른 회사 몫까지 합치면 빌리려는 돈이 더 많아요.",
+          "브로드컴 자체 매출은 1년 전보다 86%나 늘었고, 앞으로도 더 늘어날 거라고 회사가 말하고 있어서 사업 자체는 잘 되고 있어요. 다만 'AI 붐이 점점 빚으로 돌아가고 있다'는 걱정은 계속 나오고 있는 상황이라, 이 부분은 계속 지켜볼 필요가 있어요.",
+        ],
+        interpretation: "브로드컴의 실적·수주(Anthropic·xAI 선약정)는 AI 반도체 수요가 실제로 존재함을 보여주는 근거이지만, 그 수요를 뒷받침하는 자금조달이 갈수록 대규모 부채에 의존하는 구조로 가고 있다는 점은 10/8 OpenAI 매출 논란과 같은 맥락의 리스크다. 10/9 주가가 '우호적 수요 뉴스'에 반등했다는 점은 시장이 아직은 이 레버리지를 긍정적으로(수요 증거로) 해석하고 있다는 뜻이지만, 신용시장 여건이 바뀌면 같은 뉴스가 반대로 해석될 수 있다.",
+        decision: "브로드컴의 실적·수주 자체는 견조하므로 이 소식만으로 비중을 줄일 사안은 아니나, $500억+ 사모대출의 실제 체결 조건(이자율·담보구조)과 Netlist-마이크론 ITC 소송의 진행 상황을 계속 추적할 것.",
+        watch: [
+          "브로드컴 $500억+(OpenAI) 및 $600억(Anthropic 등) 대출의 실제 체결 여부·조건",
+          "Netlist vs 마이크론 HBM 특허 ITC 소송 진행 상황 및 브로드컴·구글 연관성 확대 여부",
+          "2027회계연도 AI매출 가이던스(~$1,150억)에 대한 후속 실적 발표 시 검증",
+        ],
+        confidence: "브로드컴의 3분기 실적·가이던스 수치는 회사 발표 기준으로 신뢰도가 높음. $500억+ 사모대출은 블룸버그·WSJ가 보도했으나 '협의 중'인 단계로 최종 조건은 미확정. Netlist 소송 리스크는 단일 매체(StocksToTrade) 언급으로 참고 수준.",
+        sources: [
+          { title: "Broadcom Plans $50 Billion Financing for OpenAI Chips, WSJ Says (Bloomberg)", url: "https://www.bloomberg.com/news/articles/2026-10-07/broadcom-plans-50-billion-financing-for-openai-chips-wsj-says" },
+          { title: "Broadcom reportedly in early talks to finance OpenAI's custom chip purchases (digitimes)", url: "https://digitimes.com/news/a20261008VL204/broadcom-openai-financing-chips-anthropic.html" },
+          { title: "Broadcom AVGO Extends AI Lead With Massive Financing Wave (StocksToTrade)", url: "https://stockstotrade.com/news/broadcom-inc-avgo-news-2026_10_09/" },
+          { title: "AVGO Stock Dips Toward $350 as OpenAI Revenue Update Hits Broadcom and Chip Stocks (FX Leaders)", url: "https://www.fxleaders.com/news/2026/10/08/avgo-stock-dips-toward-350-as-openai-revenue-update-hits-broadcom-and-chip-stocks/" },
+        ],
+      },
+      {
         date: "2026-10-08",
         headline: "OpenAI 연환산 매출 $700억→$500억대로 하향 정정(FT 보도) - 나스닥100 30분 만에 300p 급락, AI 밸류에이션 신뢰도 흔들",
         tone: "risk",
