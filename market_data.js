@@ -237,13 +237,22 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Loud blast at Riyadh airport as travellers evacuated and airlines cancel flights - Reuters",
-      "summary": "Loud blast at Riyadh airport as travellers evacuated and airlines cancel flights Reuters",
+      "headline": "Multiple people wounded in blast at Riyadh airport, say eyewitnesses - Reuters",
+      "summary": "Multiple people wounded in blast at Riyadh airport, say eyewitnesses Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbV9hVGtMSXpTVDJ3c05vRW9SQ2lRLTg3cUlOeWxDc2w4amF5V2N2Ul9YazdxcHJGNDRwd3hlQi15a2ZGWWZoZnc1dlA5UkY3cU9PclVCNkh6SVkzQ25waEVRRlN2TVdES3lKV1VuVXN6QnJycWxtdkNOdUIwMTdTRE9fbko3Umt5d0huNVY1dW9ZcFpLSF9yczRGRHJfSWZhM1AtTkVzbVR4TlRUdzhIb19JN3o?oc=5",
-      "datetime": 1791642579,
-      "headlineKo": "여행자 대피와 항공사 항공편 취소로 리야드 공항에서 큰 폭발 - 로이터 통신",
-      "summaryKo": "여행자들이 대피하고 항공사들이 항공편을 취소함에 따라 리야드 공항에서 큰 폭발 - 최신"
+      "datetime": 1791646221,
+      "headlineKo": "목격자들은 리야드 공항에서 폭발로 여러 명이 부상했다고 말했습니다 - 로이터 통신",
+      "summaryKo": "목격자들은 리야드 공항에서 폭발로 여러 명이 부상했다고 말했습니다."
+    },
+    {
+      "headline": "Stocks saw new highs and big declines: How the volatile AI trade moved last week's market",
+      "summary": "Looking to balance out our AI exposure, we put more of our sizable cash pile to work.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/investingclub/2026/10/10/stocks-saw-new-highs-and-big-declines-how-the-volatile-ai-trade-moved-last-weeks-market.html",
+      "datetime": 1791646096,
+      "headlineKo": "주식은 새로운 최고점과 큰 하락세를 보였습니다. 변동성이 큰 AI 거래가 지난주 시장을 어떻게 움직였습니까?",
+      "summaryKo": "AI 노출의 균형을 맞추기 위해 우리는 상당한 규모의 현금 더미를 더 많이 투입했습니다."
     },
     {
       "headline": "Pokémon card values are soaring. What collectors should know before buying or selling",
@@ -334,29 +343,18 @@ const MARKET_DATA = {
       "datetime": 1791567451,
       "headlineKo": "중고차 시장이 정체돼 있다. 어쨌든 이익을 얻는 방법은 다음과 같습니다.",
       "summaryKo": "Michael Khouw는 이 짧은 스트랭글 옵션 거래를 분석합니다."
-    },
-    {
-      "headline": "Tesla drops 'Full Self-Driving' brand name in Europe after regulator pushback",
-      "summary": "German regulators called Tesla's \"Full Self-Driving\" brand name \"somewhat misleading.\"",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/09/tesla-full-self-driving-europe-regulator.html",
-      "datetime": 1791565952,
-      "headlineKo": "Tesla는 규제 당국의 반발로 유럽에서 '완전 자율 주행' 브랜드 이름을 삭제했습니다.",
-      "summaryKo": "독일 규제 당국은 Tesla의 '완전 자율 주행' 브랜드 이름이 '다소 오해의 소지가 있다'고 말했습니다."
     }
   ],
-  "_news_collection_status": "error",
-  "_news_last_success_at": 1791645447.9689114,
+  "_news_collection_status": "ok",
+  "_news_last_success_at": 1791653021.2687178,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791649173.8535948,
-  "_updated_label": "2026-10-11 01:20",
-  "_last_attempt_at": 1791649173.8535948,
-  "_last_success_at": 1791645437.6271784,
-  "_collection_status": "partial",
-  "_collection_errors": [
-    "시장 헤드라인"
-  ]
+  "_fetched_at": 1791653011.3136296,
+  "_updated_label": "2026-10-11 02:24",
+  "_last_attempt_at": 1791653011.3136296,
+  "_last_success_at": 1791653011.3136296,
+  "_collection_status": "ok",
+  "_collection_errors": []
 };
