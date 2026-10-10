@@ -5832,8 +5832,72 @@ function pvPositionLine(d, r, num){
   const seg = pvPositionSegment(d, r, num);
   if(!seg) return null;
   const price = r.price;
-  return `현재가 $${price.toFixed(2)}는 모델 기준 가격대의 <b>${seg.posLabel}</b>(<b>${seg.actionBand}</b>)에 있으며, 기준값(3년 평균 PER 적용) 대비 <b>${seg.pct>=0?'+':''}${seg.pct.toFixed(1)}%</b>입니다.`;
+  return `현재가 ${price.toFixed(2)}는 모델 기준 가격대의 <b>${seg.posLabel}</b>(<b>${seg.actionBand}</b>)에 있으며, 기준값(3년 평균 PER 적용) 대비 <b>${seg.pct>=0?'+':''}${seg.pct.toFixed(1)}%</b>입니다.`;
 }
+
+// --- 51746 -- 카드 최상단을 "오늘 무엇을 할지 결정할 수 있는 실행 판정"으로 재구성(사용자 요청,
+//     2026-10-10). 가격 공식·103/142 계산·act(pvIntegratedAction) 라벨 자체는 전혀 바꾸지 않는다.
+//     이미 계산돼 있는 d.bandTable/d.cfDetail/d.distorted/act.tier만 가지고 매수 구간·확인
+//     조건·무효화 조건·다음 확인일 네 줄을 만든다(새 가격대·새 판정 기준 아님).
+function pvExecutionVerdict(d, r, act, num){
+  const out = { buyZone: null, confirmCond: null, invalidateCond: null, nextCheck: null, perCaveat: null };
+
+  // 1) 매수 구간 -- bandTable(이미 계산됨)의 보수~기준 구간을 분할 매수 검토 구간으로 쓴다.
+  //    가격대 산출 제한이면 숫자 구간 대신 제한 사유를 그대로 보여준다(지어내지 않음).
+  //    51746 수정 -- distorted(과거 PER 비교 가능성 훼손, 평균÷현재NTM PER 3배 초과)면 숫자
+  //    구간 자체를 보여주지 않는다. AVGO 실측: 왜곡 상태로 계산하면 $793~$1465 구간이 나오는데
+  //    현재가는 $360대라 "매력적 할인"으로 오인될 수 있음 -- 비교 기준 제한으로 처리(사용자 요청).
+  if(!d.bandEligible || !d.bandTable){
+    out.buyZone = { ok:false, text: `가격대 산출 제한 — ${d.blockReason||'—'}` };
+  } else if(d.distorted){
+    out.buyZone = { ok:false, text: `비교 기준 제한 — 과거 PER(평균÷현재NTM ${d.distortionRatio.toFixed(1)}배 차이)이 사업 구조·이익 사이클 변화로 왜곡됐을 수 있어 숫자 매수 구간을 제시하지 않음` };
+  } else {
+    const bt = d.bandTable;
+    out.buyZone = {
+      ok: true,
+      text: `$${bt.conservative.price.toFixed(2)} ~ $${bt.base.price.toFixed(2)} (상단 경계 $${bt.upside.price.toFixed(2)} 초과 시 기대 선반영 경계로 전환)`,
+    };
+  }
+
+  // 3) 확인 조건(숫자) -- 차트 대기 상태에서만 표시. 200일선 복귀 여부는 이미 계산된 ma200Pct로
+  //    판단 가능(=확인 가능한 유일한 숫자 신호 -- 20일선 연속일수 데이터는 현재 파이프라인에
+  //    없어 지어내지 않는다).
+  const ma200Pct = num(r.ma200Pct) ? r.ma200Pct : null;
+  if(act.tier === 'chart_downtrend'){
+    out.confirmCond = ma200Pct!=null
+      ? `200일선 복귀(현재 200일선 대비 ${ma200Pct>=0?'+':''}${ma200Pct.toFixed(1)}% → 0% 이상 전환) 또는 EPS 상향 전환`
+      : '200일선 복귀 또는 EPS 상향 전환(현재 200일선 데이터 불가)';
+  } else if(act.tier === 'chart_wait'){
+    out.confirmCond = 'EPS 상향 흐름 유지(훼손되지 않을 것) 확인 또는 추가 하락 시 매수 구간 재평가';
+  } else if(act.tier === 'chart_nodata'){
+    out.confirmCond = '차트 원자료 미확보 — 숫자 확인 조건 제시 불가(데이터 복구 전까지 관찰만 유지)';
+  }
+
+  // 4) 무효화 조건(숫자) -- 이미 계산된 cfDetail(구체적 숫자 포함)·epsDamaged를 그대로 재사용.
+  const invalidParts = [];
+  if(d.cfVeto){
+    invalidParts.push(`이미 발동: ${d.cfDetail.join(', ')}`);
+  } else if(d.cfDetail.length){
+    invalidParts.push(`아래 중 1개 더 성립하면 신규 접근 중지로 전환: ${d.cfDetail.join(', ')}`);
+  } else {
+    invalidParts.push('현재 FCF 2년 연속 악화·부채/자본 1.0 초과·발행주식수 2%+ 증가 중 2개 이상 성립 시 신규 접근 중지로 전환');
+  }
+  if(d.epsDamaged) invalidParts.push('EPS 수정 방향 이미 하향');
+  out.invalidateCond = invalidParts.join(' · ');
+
+  // 5) 다음 확인일 -- 실적 캘린더 데이터가 현재 파이프라인에 없다(51746 점검으로 확인된 데이터
+  //    공백). 날짜를 지어내지 않고, 보유 데이터로 확인 가능한 가장 가까운 참고 시점만 보여준다.
+  const gh = (typeof GUIDANCE_HISTORY_DATA!=='undefined') ? GUIDANCE_HISTORY_DATA[r.ticker] : null;
+  const lastGh = Array.isArray(gh) && gh.length ? gh[gh.length-1] : null;
+  if(lastGh && lastGh.guidance && lastGh.guidance.targetPeriod){
+    out.nextCheck = `실적 캘린더 데이터 없음(데이터 공백) — 참고: 가장 최근 공식 가이던스 대상기간 ${lastGh.guidance.targetPeriod}(공시일 ${lastGh.filingDate||'—'})`;
+  } else {
+    out.nextCheck = '실적 캘린더 데이터 없음(데이터 공백) — 재확인 시점은 위 확인·무효화 조건 충족 여부로 판단';
+  }
+
+  return out;
+}
+
 
 const PV_COLOR = {
   '매력적':'#2f5b3c', '적정':'#3c4552', '경계':'#7a5c00', '접근 회피':'#7a3b2e', '가격대 산출 제한':'#7a5c00',
@@ -5882,7 +5946,8 @@ function renderPriceValidityCard(r){
   //     않는다(ARM 사례: GAAP 대체 EPS로 산출된 "매력적"이 확정 결론처럼 보이면 안 됨). 가격
   //     공식 자체는 바꾸지 않고, 헤드라인에 교차검증 제한을 항상 함께 고정 표시만 한다. ---
   const ccEpsBadge = d.crossCheck && d.crossCheck.eps && d.crossCheck.eps.badge;
-  const basisCaveat = (ccEpsBadge === '비교 기준 제한') ? ' · 비교 기준 제한' : '';
+  // 51746 -- 과거 PER 왜곡(d.distorted)도 crossCheck 배지와 같은 자리에서 즉시 보이게 한다.
+  const basisCaveat = (ccEpsBadge === '비교 기준 제한' || d.distorted) ? ' · 비교 기준 제한(과거 PER)' : '';
   const priceHeadline = (d.cashflow === '경계' && (d.price === '매력적' || d.price === '적정'))
     ? `모델 기준 ${esc(d.price)}이나 현금흐름 경계${basisCaveat}`
     : `모델 기준 ${esc(d.price)}${basisCaveat}`;
@@ -6049,7 +6114,23 @@ function renderPriceValidityCard(r){
 
   const footNote = `<div style="margin-top:8px;margin-bottom:16px;font-size:10.5px;color:var(--sub);">가격 타당성(모델 기준)과 기술적 진입 상태(103)는 서로 다른 축이며, 한쪽이 다른 쪽을 덮어 낮추지 않습니다. 애널리스트 목표가는 가격 기준이 아니라 시장 기대 참고로만 사용합니다. 현재 가격에 맞춰 배수·EPS·가격대를 조정하지 않습니다. 자동매매·알림·매수/매도 신호와 연결되지 않습니다.</div>`;
 
-  return `${headHtml}${conclusionBox}${positionBox}${crossCheckBox}${evidenceDetails}${targetRef}${footNote}`;
+    // --- 51746 -- 실행 판정(오늘 무엇을 할지) 네 줄. act.label(이미 표준 5개 어휘)은 그대로 두고,
+  //     매수 구간·확인 조건·무효화 조건·다음 확인일만 새로 계산해 보여준다. ---
+  const ev = pvExecutionVerdict(d, r, act, num);
+  const execRows = [];
+  execRows.push(`<div><b style="color:${NEU_DIM};">매수 구간</b> — ${ev.buyZone.ok ? esc(ev.buyZone.text) : `<span style="color:#7a3b2e;">${esc(ev.buyZone.text)}</span>`}</div>`);
+  if(ev.confirmCond) execRows.push(`<div><b style="color:${NEU_DIM};">확인 조건</b> — ${esc(ev.confirmCond)}</div>`);
+  execRows.push(`<div><b style="color:${NEU_DIM};">무효화 조건</b> — ${esc(ev.invalidateCond)}</div>`);
+  execRows.push(`<div><b style="color:${NEU_DIM};">다음 확인일</b> — ${esc(ev.nextCheck)}</div>`);
+  const execBox = `
+    <div style="margin-top:8px;padding:11px 13px;border-radius:10px;border:1px solid ${NEU_LINE};background:${NEU_BG};">
+      <div style="font-size:11px;color:${NEU_DIM};font-weight:700;margin-bottom:6px;">실행 판정(오늘 무엇을 할지) <span class="sub" style="font-weight:400;">· 종합 행동(위) 기준으로 계산, 매수·매도 신호 아님</span></div>
+      <div style="display:flex;flex-direction:column;gap:5px;font-size:12px;color:${NEU_TEXT};line-height:1.5;">
+        ${execRows.join('\n        ')}
+      </div>
+    </div>`;
+
+  return `${headHtml}${conclusionBox}${execBox}${positionBox}${crossCheckBox}${evidenceDetails}${targetRef}${footNote}`;
 }
 if(typeof HINTS !== 'undefined'){
   HINTS.priceValidityCard = 'EPS 성장·수정 방향, 현재가가 요구하는 밸류에이션, 현금흐름·부채·희석, 103 기술적 진입 상태를 결합해 "가격이 사업 펀더멘털 대비 타당한가"를 보여주는 읽기 전용 카드입니다. 맨 위에는 오늘의 판단·오늘의 행동·가격/사업/현금흐름/차트 4축·판단이 바뀌는 조건이 먼저 나오고, EPS·PER·현금흐름 원자료와 가격대 표는 "판단 근거 보기"를 펼쳐야 보입니다. NTM PER은 독립 밸류에이션 모듈의 값을 우선 쓰고, 없으면 eps_data.js의 애널리스트 컨센서스로 같은 방식(일수 가중 선형보간)을 재현한 공통 계산기로 보완합니다. 과거 PER 밴드는 종목 자신의 중앙값 기반 백분위(5년 이상 흑자 이력)를 우선 쓰고, 상장 이력이 짧은 종목은 기존 전체 통계 폴백(0.64~1.55배)을 적용합니다. 과거 PER 유효 관측치가 전혀 없는 극소수 종목만 숫자 가격대를 차단하고, 그 외엔 사업·현금흐름·차트 평가를 그대로 보여줍니다. 애널리스트 목표가는 가격 기준으로 쓰지 않고 시장 기대 참고로만 보조 사용합니다. 가격 타당성과 기술적 진입 타이밍은 분리된 축으로 표시되며 한쪽이 다른 쪽을 깎지 않습니다. 매수·매도 신호가 아니고 자동매매·알림과 연결되지 않습니다.';
