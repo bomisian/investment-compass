@@ -237,13 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Several wounded in Riyadh airport attack, operations suspended, Saudi aviation authority says - Reuters",
-      "summary": "Several wounded in Riyadh airport attack, operations suspended, Saudi aviation authority says Reuters",
+      "headline": "Attack on Saudi airport leaves 12 dead, dozens wounded, sources say - Reuters",
+      "summary": "Attack on Saudi airport leaves 12 dead, dozens wounded, sources say Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbV9hVGtMSXpTVDJ3c05vRW9SQ2lRLTg3cUlOeWxDc2w4amF5V2N2Ul9YazdxcHJGNDRwd3hlQi15a2ZGWWZoZnc1dlA5UkY3cU9PclVCNkh6SVkzQ25waEVRRlN2TVdES3lKV1VuVXN6QnJycWxtdkNOdUIwMTdTRE9fbko3Umt5d0huNVY1dW9ZcFpLSF9yczRGRHJfSWZhM1AtTkVzbVR4TlRUdzhIb19JN3o?oc=5",
-      "datetime": 1791652976,
-      "headlineKo": "사우디 항공 당국은 리야드 공항 공격으로 여러 명이 부상을 입었고 운항이 중단됐다고 밝혔습니다.",
-      "summaryKo": "리야드 공항 공격으로 여러 명이 부상을 입었고 운항이 중단됐다고 사우디 항공 당국이 밝혔습니다."
+      "datetime": 1791667611,
+      "headlineKo": "사우디 공항에 대한 공격으로 12명이 사망하고 수십 명이 부상을 입었다고 소식통은 전합니다. - Reuters",
+      "summaryKo": "사우디 공항에 대한 공격으로 12명이 사망하고 수십 명이 부상을 입었다고 로이터 통신은 전했다."
     },
     {
       "headline": "Stocks saw new highs and big declines: How the volatile AI trade moved last week's market",
@@ -253,6 +253,15 @@ const MARKET_DATA = {
       "datetime": 1791646096,
       "headlineKo": "주식은 새로운 최고점과 큰 하락세를 보였습니다. 변동성이 큰 AI 거래가 지난주 시장을 어떻게 움직였습니까?",
       "summaryKo": "AI 노출의 균형을 맞추기 위해 우리는 상당한 규모의 현금 더미를 더 많이 투입했습니다."
+    },
+    {
+      "headline": "Israeli strikes kill five people in Gaza, medics say - Reuters",
+      "summary": "Israeli strikes kill five people in Gaza, medics say Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcUhRYkpDR0ViRnlSNjNpcl94N3RPOGdvUHBlaVU0MXU3V2EtX1QwV2NFbGZTX3FtUnlYLTdmNmFIMlgwaHM0a1Z2MjB2UUV2cUNadGRHa1ZwTDJPakJ3d3VONVVwZS1WNnNmLVlkOW0yMXc5VDYxY1F3czY0QlFGSnpremd5UG1IcUlXMEhwNFBSLU9rQ3daalo5b1RvVW5ZajV6Wg?oc=5",
+      "datetime": 1791645852,
+      "headlineKo": "이스라엘의 파업으로 가자지구에서 5명이 사망했다고 의료진이 밝혔습니다. - Reuters",
+      "summaryKo": "의료진은 이스라엘의 파업으로 가자지구에서 5명이 사망했다고 로이터 통신이 보도했다."
     },
     {
       "headline": "Pokémon card values are soaring. What collectors should know before buying or selling",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1791572549,
       "headlineKo": "기술주 회복 반등의 배경은 무엇입니까? 게다가 Elon Musk의 매우 좋은 한 주입니다.",
       "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
-    },
-    {
-      "headline": "Two massive trades just happened in Micron and Nvidia. What they could mean for chips",
-      "summary": "Bears continued to build up positions against the semiconductor group on Friday.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/09/two-massive-trades-just-happened-in-micron-and-nvidia-what-they-could-mean-for-chips.html",
-      "datetime": 1791571821,
-      "headlineKo": "Micron과 Nvidia에서 두 번의 대규모 거래가 발생했습니다. 칩에 대한 의미",
-      "summaryKo": "Bears는 금요일에도 반도체 그룹을 상대로 계속해서 포지션을 구축했습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791668363.1122253,
+  "_news_last_success_at": 1791672107.7536778,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791668351.6560566,
-  "_updated_label": "2026-10-11 06:39",
-  "_last_attempt_at": 1791668351.6560566,
-  "_last_success_at": 1791668351.6560566,
+  "_fetched_at": 1791672092.1824474,
+  "_updated_label": "2026-10-11 07:42",
+  "_last_attempt_at": 1791672092.1824474,
+  "_last_success_at": 1791672092.1824474,
   "_collection_status": "ok",
   "_collection_errors": []
 };
