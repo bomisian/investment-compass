@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Most Gulf stocks in red after attack on Riyadh airport - Reuters",
+      "summary": "Most Gulf stocks in red after attack on Riyadh airport Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOEliNzFKYlR3T0NNakk4TWxXWGJ0UlJfQ0JLdFVIRnlESENoRW4zdjNSWW02UjFJOFozRmlZdVZ2ZlFaOTFSdEc5RGd6QWVVaFFMNi1QRTdMSVg2dFQxaHROcjhjbnI4ekhnZUZVbXlmYVBQaDZ3TG1pcFQ5RnFaVXpfYUxWRG1acC1mYnR6d3ZtdXpxbTBBUFJkcU9ock1wbXc?oc=5",
+      "datetime": 1791724753
+    },
+    {
       "headline": "I’m a psychologist who studies couples: The No. 1 way to end a fight before it escalates—it works ‘almost immediately’",
       "summary": "\"In my experience, nothing de-escalates a conflict faster,\" says psychologist Mark Travers. Why a \"partial yield\" works, and how to use it.",
       "source": "CNBC",
@@ -256,13 +263,6 @@ const MARKET_DATA = {
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSEo0VkFTZkY2VzMzeFV0OVRVbWN4aHFzaXFjV0FBN05uaEFONHhQVTN2a3JJM09NdFBzY1R3MnRrUFZOeFZfUDItOUd1NkxiT3dfOWduTHJKTlBzSGsyN3VCYTNkWG1ZTWlZMUpzbDdrc1dOZUs3VDRwa0lHN21tNnFNdFhQYUxoNmdfN1Zyb3FMRm04RzRVei0zY3FKN0FoY2JYTGFodjYtemdITVpKVXk3NlR2QXFIMU9YMnUtX004QW1GZ0UzZA?oc=5",
       "datetime": 1791715718
-    },
-    {
-      "headline": "Saudi stocks slide after attack on Riyadh airport - Reuters",
-      "summary": "Saudi stocks slide after attack on Riyadh airport Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOEliNzFKYlR3T0NNakk4TWxXWGJ0UlJfQ0JLdFVIRnlESENoRW4zdjNSWW02UjFJOFozRmlZdVZ2ZlFaOTFSdEc5RGd6QWVVaFFMNi1QRTdMSVg2dFQxaHROcjhjbnI4ekhnZUZVbXlmYVBQaDZ3TG1pcFQ5RnFaVXpfYUxWRG1acC1mYnR6d3ZtdXpxbTBBUFJkcU9ock1wbXc?oc=5",
-      "datetime": 1791705103
     },
     {
       "headline": "Yemen's Houthis renew warning to airlines, travellers against using Saudi airports - Reuters",
@@ -304,6 +304,13 @@ const MARKET_DATA = {
       "datetime": 1791641580
     },
     {
+      "headline": "Wall Street’s rate shock spreads beneath AI-fueled market rally",
+      "summary": "Bonds surge as rates spike and oil stays high, testing AI-driven stock resilience amid widening market risks.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-09/wall-street-s-rate-shock-spreads-beneath-ai-fueled-market-rally",
+      "datetime": 1791640989
+    },
+    {
       "headline": "Pokémon card values are soaring. What collectors should know before buying or selling",
       "summary": "Pokémon card values are surging. Learn how grading, scarcity, recent sales and counterfeits can affect what collectors pay.",
       "source": "CNBC",
@@ -320,27 +327,18 @@ const MARKET_DATA = {
       "datetime": 1791637501,
       "headlineKo": "나는 친구들과 가깝게 지내기 위해 열심히 노력합니다. 한 연구원은 이것이 내 웰빙에 좋다고 말합니다. 다음 3가지 습관이 도움이 될 수 있습니다",
       "summaryKo": "친구들과 연락을 유지하는 것은 어려울 수 있지만 노력할 가치가 있는 경우가 많다는 연구 결과가 나왔습니다. 우정 전문가는 연결을 위해 다음 세 가지 관행을 권장합니다."
-    },
-    {
-      "headline": "How Supreme Court justices are leaning in major 401(k) case over private funds and underperformance",
-      "summary": "The Supreme Court is weighing an Intel 401(k) case as employers await new Labor Department rules on private investments in retirement plans.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/10/supreme-court-case-401k-private-funds-intel.html",
-      "datetime": 1791637201,
-      "headlineKo": "대법원 판사가 주요 401(k) 사건에서 민간 자금과 실적 부진에 대해 어떻게 생각하고 있습니까?",
-      "summaryKo": "고용주들이 퇴직 계획에 대한 민간 투자에 대한 새로운 노동부의 규칙을 기다리고 있는 가운데 대법원은 Intel 401(k) 사건을 검토하고 있습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791726254.3955986,
+  "_news_last_success_at": 1791730005.75869,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791726226.3387308,
-  "_updated_label": "2026-10-11 22:44",
-  "_last_attempt_at": 1791726226.3387308,
-  "_last_success_at": 1791726226.3387308,
+  "_fetched_at": 1791729975.1639552,
+  "_updated_label": "2026-10-11 23:47",
+  "_last_attempt_at": 1791729975.1639552,
+  "_last_success_at": 1791729975.1639552,
   "_collection_status": "ok",
   "_collection_errors": []
 };
