@@ -5395,13 +5395,16 @@ function pvGrowthSignals(t){
   const ed = (typeof ESTIMATES_DATA!=='undefined') ? ESTIMATES_DATA[t] : null;
   const trend = ed && Array.isArray(ed.trend) ? ed.trend : null;
   let g1 = null, g2 = null, analystCount = (ed && typeof ed.analystCount==='number') ? ed.analystCount : null;
+  let epsAvg0 = null, epsAvg1 = null; // 51752 -- 실제 EPS 금액(달러), 기저효과 CAGR 재계산용
   if(trend){
     const t0 = trend.find(x=>x && x.period==='0y');
     const t1 = trend.find(x=>x && x.period==='+1y');
     if(t0 && typeof t0.epsGrowth==='number') g1 = t0.epsGrowth;
     if(t1 && typeof t1.epsGrowth==='number') g2 = t1.epsGrowth;
+    if(t0 && typeof t0.epsAvg==='number') epsAvg0 = t0.epsAvg;
+    if(t1 && typeof t1.epsAvg==='number') epsAvg1 = t1.epsAvg;
   }
-  return { g1, g2, analystCount };
+  return { g1, g2, analystCount, epsAvg0, epsAvg1 };
 }
 
 // --- 목표가 수정 방향(보조 교차검증용). _history(일별 스냅샷)의 처음과 마지막 targetMean을
@@ -5605,19 +5608,36 @@ function computePriceValidity(r){
     //     동일 입력)만 재사용한다(사용자 지정 구성 그대로: "NTM PER ÷ 다음 회계연도 EPS
     //     성장률" + "TTM FCF 수익률", "현재가-목표가 거리"는 보조 참고로만).
     const growthPct = (typeof growthSig.g2==='number') ? growthSig.g2*100 : null;
-    // --- 51751 -- 기저효과 안전장치(사용자 지적, 2026-10-11): +1y EPS 성장률이 50%를
-    //     초과하면 전년도 실적이 비정상적으로 낮았던 기저효과일 위험이 있어 PEG가 지나치게
-    //     낮게 나올 수 있다. g1(0y 성장률)·g2(+1y 성장률) 둘 다 이미 계산돼 있으므로 새
-    //     데이터 없이 기하평균으로 2개년 근사 CAGR을 구해, PEG 계산에는 g2와 이 근사
-    //     2개년 CAGR 중 더 낮은(보수적인) 값을 쓴다. 둘의 차이가 15%p 이상이면 "기저효과
-    //     가능성"을 명시하고(가격 판단을 보류하지 않음), 신뢰도만 한 단계 낮춘다(아래
-    //     confidencePenalty). ---
+    // --- 51751/51752 -- 기저효과 안전장치(사용자 지적, 2026-10-11, 2차 보정으로 계산식을
+    //     퍼센트 기하평균에서 실제 EPS 금액 비율로 교체): +1y EPS 성장률이 50%를 초과하면
+    //     전년도 실적이 비정상적으로 낮았던 기저효과일 위험이 있어 PEG가 지나치게 낮게 나올
+    //     수 있다. 기준연도 EPS(달러) = epsAvg0/(1+g1)로 재구성(새 데이터 없이 기존
+    //     epsAvg0·g1만 사용), 다음 회계연도 EPS(달러) = epsAvg1 그대로. 이 둘의 실제 금액
+    //     비율로 2개년 CAGR을 구해, PEG 계산에는 다음 1년 성장률과 이 CAGR 중 더 낮은
+    //     (보수적인) 값을 쓴다. 기준연도 EPS가 0 이하이거나 적자→흑자 전환이라 금액 비율
+    //     계산 자체가 불가능하면(사용자 지시) CAGR을 계산하지 않고 다음 1년 성장률을 그대로
+    //     쓰되, 그 사실 자체를 무조건 "기저효과 가능성"으로 표시하고 신뢰도를 한 단계
+    //     낮춘다. 계산이 가능한 경우는 기존처럼 둘의 차이가 15%p 이상일 때만 "기저효과
+    //     가능성"을 표시한다(가격 판단을 보류하지 않음, 신뢰도만 한 단계 낮춤 --
+    //     confidencePenalty는 아래). ---
     let growthPctForPeg = growthPct;
     let cagr2yPct = null;
-    if(growthPct!=null && growthPct>50 && typeof growthSig.g1==='number'){
-      cagr2yPct = (Math.sqrt((1+growthSig.g1)*(1+growthSig.g2)) - 1) * 100;
-      growthPctForPeg = Math.min(growthPct, cagr2yPct);
-      if(Math.abs(growthPct - cagr2yPct) >= 15) baseEffectFlag = true;
+    let cagrUncomputable = false;
+    if(growthPct!=null && growthPct>50){
+      const g1v = growthSig.g1, epsAvg0 = growthSig.epsAvg0, epsAvg1 = growthSig.epsAvg1;
+      let epsBase = null, cagrValid = false;
+      if(typeof g1v==='number' && typeof epsAvg0==='number' && typeof epsAvg1==='number' && (1+g1v)!==0){
+        epsBase = epsAvg0/(1+g1v);
+        cagrValid = epsBase>0 && epsAvg1>0;
+      }
+      if(cagrValid){
+        cagr2yPct = (Math.sqrt(epsAvg1/epsBase) - 1) * 100;
+        growthPctForPeg = Math.min(growthPct, cagr2yPct);
+        if(Math.abs(growthPct - cagr2yPct) >= 15) baseEffectFlag = true;
+      } else {
+        cagrUncomputable = true;
+        baseEffectFlag = true;
+      }
     }
     const peg = (ntmSourceOk && typeof ntmPer==='number' && growthPctForPeg!=null && growthPctForPeg>0) ? ntmPer/growthPctForPeg : null;
     const fcfYieldTtm = pvTtmFcfYield(fin, fund);
@@ -5638,9 +5658,10 @@ function computePriceValidity(r){
     if(burdenScore!=null) burdenScore = Math.max(0, Math.min(2, burdenScore));
     const burdenLevel = burdenScore===0 ? '낮음' : (burdenScore===1 ? '보통' : (burdenScore===2 ? '높음' : null));
     const burdenParts = [];
-    burdenParts.push(peg!=null ? `NTM PER÷성장률 ${peg.toFixed(2)}(PER ${ntmSourceOk&&typeof ntmPer==='number'?ntmPer.toFixed(1):'—'}배 ÷ 성장률 ${growthPctForPeg!=null?growthPctForPeg.toFixed(1):'—'}%${cagr2yPct!=null?`, 다음 회계연도 성장률 ${growthPct.toFixed(1)}% 대신 근사 2개년 CAGR ${cagr2yPct.toFixed(1)}% 사용(기저효과 안전장치)`:''})`
+    burdenParts.push(peg!=null ? `NTM PER÷성장률 ${peg.toFixed(2)}(PER ${ntmSourceOk&&typeof ntmPer==='number'?ntmPer.toFixed(1):'—'}배 ÷ 성장률 ${growthPctForPeg!=null?growthPctForPeg.toFixed(1):'—'}%${cagr2yPct!=null?`, 다음 회계연도 성장률 ${growthPct.toFixed(1)}% 대신 EPS 금액 기준 2개년 CAGR ${cagr2yPct.toFixed(1)}% 사용(기저효과 안전장치)`:''})`
       : (growthPct!=null && growthPct<=0 ? `성장률 ${growthPct.toFixed(1)}%로 0 이하 — PEG 계산 불가(가격 부담 가산 요인 — FCF 등 다른 요인으로 조정될 수 있음)` : 'NTM PER·성장률 데이터 부족'));
-    if(baseEffectFlag) burdenParts.push('기저효과 가능성(다음 회계연도 성장률과 근사 2개년 CAGR 차이 15%p 이상 — 신뢰도 한 단계 감점)');
+    if(cagrUncomputable) burdenParts.push(`기저효과 가능성(다음 회계연도 성장률 ${growthPct!=null?growthPct.toFixed(1):'—'}%이 급등 구간이나, 기준연도 EPS 추정이 0 이하이거나 적자→흑자 전환이라 실제 EPS 금액 기준 2개년 CAGR 계산 불가 — 다음 1년 성장률 그대로 사용, 신뢰도 한 단계 감점)`);
+    else if(baseEffectFlag) burdenParts.push('기저효과 가능성(다음 회계연도 성장률과 EPS 금액 기준 2개년 CAGR 차이 15%p 이상 — 신뢰도 한 단계 감점)');
     burdenParts.push(fcfYieldTtm!=null ? `TTM FCF 수익률 ${fcfYieldTtm>=0?'+':''}${fcfYieldTtm.toFixed(1)}%` : 'TTM FCF 수익률 데이터 부족');
     const edForTarget = (typeof ESTIMATES_DATA!=='undefined') ? ESTIMATES_DATA[t] : null;
     if(edForTarget && typeof edForTarget.targetMean==='number' && r.price>0){
