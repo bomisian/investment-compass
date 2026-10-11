@@ -237,6 +237,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "NBA commissioner Adam Silver says league could introduce ‘smart ball’ technology as soon as next year",
+      "summary": "Commissioner Adam Silver says the NBA could begin using a new \"smart ball\" in games as soon as next year, potentially transforming how officials make calls.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/11/commissioner-adam-silver-nba-could-launch-smart-ball-tech-next-year.html",
+      "datetime": 1791720001
+    },
+    {
+      "headline": "Yemen's Houthis renew warning over Saudi airports after deadly Riyadh attack - Reuters",
+      "summary": "Yemen's Houthis renew warning over Saudi airports after deadly Riyadh attack Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSEo0VkFTZkY2VzMzeFV0OVRVbWN4aHFzaXFjV0FBN05uaEFONHhQVTN2a3JJM09NdFBzY1R3MnRrUFZOeFZfUDItOUd1NkxiT3dfOWduTHJKTlBzSGsyN3VCYTNkWG1ZTWlZMUpzbDdrc1dOZUs3VDRwa0lHN21tNnFNdFhQYUxoNmdfN1Zyb3FMRm04RzRVei0zY3FKN0FoY2JYTGFodjYtemdITVpKVXk3NlR2QXFIMU9YMnUtX004QW1GZ0UzZA?oc=5",
+      "datetime": 1791715718
+    },
+    {
       "headline": "Saudi stocks slide after attack on Riyadh airport - Reuters",
       "summary": "Saudi stocks slide after attack on Riyadh airport Reuters",
       "source": "Reuters",
@@ -314,39 +328,21 @@ const MARKET_DATA = {
       "summary": "Major Saudi conferences to proceed, organisers say, despite deadly airport attack Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNS3lBZTEwaWVLUXNScDVCZjV1eDRkb3RoWnM2M0ZkOE9DM0ZVMDNPaXA1ZDJXQ0xYZ2JqZm85dm9HbHBOSXNaQmVzUWJQN0xnMXpNR2dENDFoMXItWEQxYlB2WmZGUVVxYU1RX0E0RHNKSWd0RDNkbmk1Ty1MZnlJZFUxR3pjanFwSWZzS3hiZlktMEtTM2psOS12Y2xaMlk1MEc1Nm81NU50WjFKN0ZkY082T0pFVGU3dmd6T3JIckNPcFR0VlM0?oc=5",
-      "datetime": 1791632023,
+      "datetime": 1791631920,
       "headlineKo": "치명적인 공항 공격에도 불구하고 주요 사우디 회의는 계속될 것이라고 주최측은 밝혔습니다 - 로이터 통신",
       "summaryKo": "치명적인 공항 공격에도 불구하고 주요 사우디 회의는 계속될 것이라고 주최측은 말했습니다 - 최신"
-    },
-    {
-      "headline": "Wall Street posts weekly gains with earnings, inflation data on tap - Reuters",
-      "summary": "Wall Street posts weekly gains with earnings, inflation data on tap Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0hWbFNBUlE5SFJjLVpMMnIwZzFpN2hVNEd2YkxlalYyVDRKTDZxcGJ0REJLUERXb0tlVVVreVZLMHFodlAtZlY0eDhuN2xiOHcybjM1c3gxMlBNTmZMWWdrdkhQOG9Pc2JRdTEwYXM5N181QmttRVEyRkdXTy1LT2J0ZVA4d2FXdjZZeGZwaGRaSUtDUXJUZXFjSU94cnprbTVUSXRpXzFtQzV2TWtpR1dNSjdaWVplUlE?oc=5",
-      "datetime": 1791588780,
-      "headlineKo": "월스트리트는 수입, 인플레이션 데이터와 함께 주간 이익을 게시합니다 - Reuters",
-      "summaryKo": "월스트리트는 수입, 인플레이션 데이터를 통해 주간 이익을 게시합니다. Reuters"
-    },
-    {
-      "headline": "Kremlin says Putin in phone call with Trump downplays immediate Ukraine talks resumption - Reuters",
-      "summary": "Kremlin says Putin in phone call with Trump downplays immediate Ukraine talks resumption Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQa1VpS1UxU2RzcFdfQkpkUXdBQkd5cTZPdTRrU3hTSzFhOHpaN25PcHJjblJGdGQxSlBSNjZ2S0tnSlhUYmRLZmtubDJ4NU5WYXJxRHBSdy1kSHBpdGktVFpZcGVTNTJPZHlvREE1QnVuXzE5SXR1Y19KLWdmdTlKMWIwRjBGQzFFbGVUTmw3TUNaY0FjWHRCSjdWSk1kT3NHVlJGSlY3MVR6d0REZlVjdmhpX3JPOFgwZVF0UlYtb3c?oc=5",
-      "datetime": 1791583482,
-      "headlineKo": "크렘린궁은 푸틴 대통령이 트럼프 대통령과 통화에서 즉각적인 우크라이나 회담 재개를 무시했다고 밝혔습니다.",
-      "summaryKo": "크렘린궁 \"푸틴 대통령, 트럼프 대통령과 통화에서 우크라이나 회담 재개 즉각 경시\" - 로이터"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791718783.4019303,
+  "_news_last_success_at": 1791722515.3951054,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791718764.6621816,
-  "_updated_label": "2026-10-11 20:40",
-  "_last_attempt_at": 1791718764.6621816,
-  "_last_success_at": 1791718764.6621816,
+  "_fetched_at": 1791722489.8997793,
+  "_updated_label": "2026-10-11 21:42",
+  "_last_attempt_at": 1791722489.8997793,
+  "_last_success_at": 1791722489.8997793,
   "_collection_status": "ok",
   "_collection_errors": []
 };
