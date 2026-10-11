@@ -2,11 +2,11 @@
 const FUNDAMENTAL_WINDOW_SCORES_DATA = {
   "schemaVersion": 1,
   "scoringVersion": "fundamental-window-v1",
-  "generatedAt": 1791689625.9776082,
+  "generatedAt": 1791691524.1362116,
   "records": {
     "MSFT": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -74,7 +74,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "GOOGL": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -142,7 +142,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AMZN": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -240,7 +240,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "META": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -338,7 +338,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AAPL": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -436,7 +436,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "TSLA": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -534,7 +534,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "ORCL": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -653,7 +653,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "CRM": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -751,7 +751,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "PLTR": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -849,7 +849,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "NVDA": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -947,7 +947,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AMD": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1045,7 +1045,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AVGO": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1143,7 +1143,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "QCOM": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1213,7 +1213,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "ARM": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1311,7 +1311,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "MRVL": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1409,7 +1409,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "INTC": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1507,7 +1507,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "TSM": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1605,7 +1605,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "ASML": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1703,7 +1703,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AMAT": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1801,7 +1801,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "LRCX": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1899,7 +1899,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "KLAC": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1967,7 +1967,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "MU": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2095,7 +2095,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "SNDK": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2193,7 +2193,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "WDC": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2291,7 +2291,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "ANET": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2359,7 +2359,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "COHR": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2457,7 +2457,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "LITE": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2555,7 +2555,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "GEV": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2623,7 +2623,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "CEG": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2721,7 +2721,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "VST": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2789,7 +2789,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "ETN": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2857,7 +2857,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "PWR": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2925,7 +2925,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "HUBB": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -3023,7 +3023,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "VRT": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -3121,7 +3121,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "MOD": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -3219,7 +3219,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "STX": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -3317,7 +3317,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "EME": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -3385,7 +3385,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "FIX": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -3483,7 +3483,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "BE": {
       "asOfDate": "2026-10-11",
-      "calculatedAt": 1791689625.9776082,
+      "calculatedAt": 1791691524.1362116,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
