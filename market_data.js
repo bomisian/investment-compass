@@ -241,7 +241,7 @@ const MARKET_DATA = {
       "summary": "Houthi attack on Saudi airport kills 12, over 300 wounded, authorities say Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbV9hVGtMSXpTVDJ3c05vRW9SQ2lRLTg3cUlOeWxDc2w4amF5V2N2Ul9YazdxcHJGNDRwd3hlQi15a2ZGWWZoZnc1dlA5UkY3cU9PclVCNkh6SVkzQ25waEVRRlN2TVdES3lKV1VuVXN6QnJycWxtdkNOdUIwMTdTRE9fbko3Umt5d0huNVY1dW9ZcFpLSF9yczRGRHJfSWZhM1AtTkVzbVR4TlRUdzhIb19JN3o?oc=5",
-      "datetime": 1791672063,
+      "datetime": 1791675128,
       "headlineKo": "사우디 공항에 대한 후티의 공격으로 12명이 사망하고 300명이 넘는 부상자가 발생했다고 당국이 밝혔습니다. - 로이터 통신",
       "summaryKo": "사우디 공항에 대한 후티의 공격으로 12명이 사망하고 300명이 넘는 부상자가 발생했다고 당국이 밝혔다고 로이터 통신이 보도했다."
     },
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791675851.3748844,
+  "_news_last_success_at": 1791679595.1679518,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791675835.4323077,
-  "_updated_label": "2026-10-11 08:44",
-  "_last_attempt_at": 1791675835.4323077,
-  "_last_success_at": 1791675835.4323077,
+  "_fetched_at": 1791679587.6729019,
+  "_updated_label": "2026-10-11 09:47",
+  "_last_attempt_at": 1791679587.6729019,
+  "_last_success_at": 1791679587.6729019,
   "_collection_status": "ok",
   "_collection_errors": []
 };
