@@ -237,11 +237,11 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Saudi-led coalition says new attack at Riyadh airport causes fire, day after strike kills 12 - Reuters",
-      "summary": "Saudi-led coalition says new attack at Riyadh airport causes fire, day after strike kills 12 Reuters",
+      "headline": "Saudi Arabia reports injuries in new attack at Riyadh airport, day after strike kills 13 - Reuters",
+      "summary": "Saudi Arabia reports injuries in new attack at Riyadh airport, day after strike kills 13 Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSEo0VkFTZkY2VzMzeFV0OVRVbWN4aHFzaXFjV0FBN05uaEFONHhQVTN2a3JJM09NdFBzY1R3MnRrUFZOeFZfUDItOUd1NkxiT3dfOWduTHJKTlBzSGsyN3VCYTNkWG1ZTWlZMUpzbDdrc1dOZUs3VDRwa0lHN21tNnFNdFhQYUxoNmdfN1Zyb3FMRm04RzRVei0zY3FKN0FoY2JYTGFodjYtemdITVpKVXk3NlR2QXFIMU9YMnUtX004QW1GZ0UzZA?oc=5",
-      "datetime": 1791732736
+      "datetime": 1791742691
     },
     {
       "headline": "Strike reported on Yemeni Sanaa airport, Houthi-run TV says - Reuters",
@@ -328,15 +328,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791741694.8147147,
+  "_news_last_success_at": 1791745293.9150424,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791741660.7886674,
-  "_updated_label": "2026-10-12 03:02",
-  "_last_attempt_at": 1791741660.7886674,
-  "_last_success_at": 1791741660.7886674,
+  "_fetched_at": 1791745259.8957798,
+  "_updated_label": "2026-10-12 04:02",
+  "_last_attempt_at": 1791745259.8957798,
+  "_last_success_at": 1791745259.8957798,
   "_collection_status": "ok",
   "_collection_errors": []
 };
