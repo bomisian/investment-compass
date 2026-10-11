@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Strike reported on Yemeni Sanaa airport, Houthi-run TV says - Reuters",
+      "summary": "Strike reported on Yemeni Sanaa airport, Houthi-run TV says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOb2hZZTRZLXk2amlHSS1zWkYtUmkzdy1EUWRFZ3lRUzRLX2hOMkxkLXBSR1hnVmd1UkNrN0NpNXNneXgwcGJ2ZzgwRFRRUVo5QS1xSWlENjhWN1M0MGR5eFpPOVZQT0dMUGRWcTQ1YTN3aHhpTjZVVGVqSldfcDN3SFZTQTJSMTUyX1psaXpyb2VKTVU0OGIzeFViOXZGVnRGb0lvTDNVdERoX0tHaHc?oc=5",
+      "datetime": 1791726195
+    },
+    {
       "headline": "Most Gulf stocks in red after attack on Riyadh airport - Reuters",
       "summary": "Most Gulf stocks in red after attack on Riyadh airport Reuters",
       "source": "Reuters",
@@ -318,27 +325,18 @@ const MARKET_DATA = {
       "datetime": 1791639002,
       "headlineKo": "포켓몬 카드 가치가 치솟고 있습니다. 수집가가 구매 또는 판매하기 전에 알아야 할 사항",
       "summaryKo": "포켓몬카드 가치가 급등하고 있습니다. 등급, 희소성, 최근 판매 및 위조품이 수집가의 지불 금액에 어떤 영향을 미칠 수 있는지 알아보세요."
-    },
-    {
-      "headline": "I work hard to stay close to my friends. A researcher says it’s good for my well-being—and these 3 habits can help",
-      "summary": "Keeping in touch with friends can be hard, but often worth the effort, research shows. A friendship expert recommends these three practices for connection.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/make-it/2026/10/10/how-to-maintain-close-friendships.html",
-      "datetime": 1791637501,
-      "headlineKo": "나는 친구들과 가깝게 지내기 위해 열심히 노력합니다. 한 연구원은 이것이 내 웰빙에 좋다고 말합니다. 다음 3가지 습관이 도움이 될 수 있습니다",
-      "summaryKo": "친구들과 연락을 유지하는 것은 어려울 수 있지만 노력할 가치가 있는 경우가 많다는 연구 결과가 나왔습니다. 우정 전문가는 연결을 위해 다음 세 가지 관행을 권장합니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791734620.7903242,
+  "_news_last_success_at": 1791734676.7341516,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791734589.9514954,
-  "_updated_label": "2026-10-12 01:04",
-  "_last_attempt_at": 1791734589.9514954,
-  "_last_success_at": 1791734589.9514954,
+  "_fetched_at": 1791734642.898576,
+  "_updated_label": "2026-10-12 01:05",
+  "_last_attempt_at": 1791734642.898576,
+  "_last_success_at": 1791734642.898576,
   "_collection_status": "ok",
   "_collection_errors": []
 };
