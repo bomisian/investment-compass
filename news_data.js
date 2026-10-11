@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1791712767.4624932,
+    "_last_attempt_at": 1791714891.731056,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -66,7 +66,7 @@ const NEWS_DATA = {
             "This Streak Rests on Far Stronger Earnings Than 1999's.",
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Nasdaq-100 has pulled off something it's done just twice before."
           ],
-          "analysisUpdatedAt": 1791689531.3736498
+          "analysisUpdatedAt": 1791714899.3412178
         },
         "headlineKo": "Nasdaq-100은 3년 연속으로 20% 이상의 수익을 올렸습니다. 이 연승은 1999년대보다 훨씬 더 강력한 수입에 달려 있습니다."
       },
@@ -86,7 +86,7 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending WFF 499.51% XCN 7.56% JOBY 5.39% DIS 0.96% CAT 0.54% S",
+            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending BMY 0.77% ARB 7.59% OCUL 0.40% AERO 13.83% CADL 3.73% ",
             "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus Wall Street’s biggest banks, including JPMorgan, Morgan Stanley, and Wells Fargo, will report earnings next week.",
             "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
           ],
@@ -119,18 +119,18 @@ const NEWS_DATA = {
             "0.87%",
             "0.60%",
             "0.49%",
-            "499.51%",
-            "7.56%",
-            "5.39%",
-            "0.96%",
-            "0.54%"
+            "0.77%",
+            "7.59%",
+            "0.40%",
+            "13.83%",
+            "3.73%"
           ],
           "sourceExcerpt": [
-            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending WFF 499.51% XCN 7.56% JOBY 5.39% DIS 0.96% CAT 0.54% S",
+            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending BMY 0.77% ARB 7.59% OCUL 0.40% AERO 13.83% CADL 3.73% ",
             "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus Wall Street’s biggest banks, including JPMorgan, Morgan Stanley, and Wells Fargo, will report earnings next week.",
             "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
           ],
-          "analysisUpdatedAt": 1791689536.3626437
+          "analysisUpdatedAt": 1791714904.4404278
         },
         "headlineKo": "S&P 500, Nasdaq 100, Dow End Week High, 트레이더들이 수익 시즌을 주목하고 있음 — ​​MSFT, NFLX, SPCX, ASTS In Focus"
       },
@@ -194,7 +194,7 @@ const NEWS_DATA = {
             "QQQ Turned the Same Money Into $26,100 - 24/7 Wall St.",
             "Skip to content ❚❚ At close S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0.43% S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0."
           ],
-          "analysisUpdatedAt": 1791689541.891374
+          "analysisUpdatedAt": 1791714909.9457877
         },
         "headlineKo": "ChatGPT가 출시된 날 VGT의 $10,000는 이제 $30,500입니다. QQQ는 같은 돈을 $26,100로 바꾸었습니다."
       },
@@ -397,7 +397,7 @@ const NEWS_DATA = {
             "This Streak Rests on Far Stronger Earnings Than 1999's.",
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Nasdaq-100 has pulled off something it's done just twice before."
           ],
-          "analysisUpdatedAt": 1791689531.3736498
+          "analysisUpdatedAt": 1791714899.3412178
         }
       },
       {
@@ -416,7 +416,7 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending WFF 499.51% XCN 7.56% JOBY 5.39% DIS 0.96% CAT 0.54% S",
+            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending BMY 0.77% ARB 7.59% OCUL 0.40% AERO 13.83% CADL 3.73% ",
             "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus Wall Street’s biggest banks, including JPMorgan, Morgan Stanley, and Wells Fargo, will report earnings next week.",
             "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
           ],
@@ -449,18 +449,18 @@ const NEWS_DATA = {
             "0.87%",
             "0.60%",
             "0.49%",
-            "499.51%",
-            "7.56%",
-            "5.39%",
-            "0.96%",
-            "0.54%"
+            "0.77%",
+            "7.59%",
+            "0.40%",
+            "13.83%",
+            "3.73%"
           ],
           "sourceExcerpt": [
-            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending WFF 499.51% XCN 7.56% JOBY 5.39% DIS 0.96% CAT 0.54% S",
+            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending BMY 0.77% ARB 7.59% OCUL 0.40% AERO 13.83% CADL 3.73% ",
             "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus Wall Street’s biggest banks, including JPMorgan, Morgan Stanley, and Wells Fargo, will report earnings next week.",
             "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
           ],
-          "analysisUpdatedAt": 1791689536.3626437
+          "analysisUpdatedAt": 1791714904.4404278
         }
       },
       {
@@ -523,7 +523,7 @@ const NEWS_DATA = {
             "QQQ Turned the Same Money Into $26,100 - 24/7 Wall St.",
             "Skip to content ❚❚ At close S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0.43% S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0."
           ],
-          "analysisUpdatedAt": 1791689541.891374
+          "analysisUpdatedAt": 1791714909.9457877
         }
       },
       {
@@ -5568,17 +5568,16 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791689522.1907794,
-    "_updated_label": "2026-10-11 12:32",
-    "_last_success_at": 1791689522.1907794,
-    "_collection_status": "error",
+    "_fetched_at": 1791714891.731056,
+    "_updated_label": "2026-10-11 19:35",
+    "_last_success_at": 1791714891.731056,
+    "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 109,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
-    },
-    "_last_error": "The read operation timed out"
+      "updated": "2026-10-11 19:35"
+    }
   },
   "SPY": {
     "_last_attempt_at": 1791710287.5576222,
@@ -12459,7 +12458,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 139,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "MSFT": {
@@ -20377,7 +20376,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "GOOGL": {
@@ -28335,7 +28334,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "AMZN": {
@@ -36459,7 +36458,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "META": {
@@ -44469,7 +44468,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "AAPL": {
@@ -52407,7 +52406,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "TSLA": {
@@ -60409,7 +60408,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "ORCL": {
@@ -68753,7 +68752,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "CRM": {
@@ -75110,7 +75109,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "PLTR": {
@@ -83792,7 +83791,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "NVDA": {
@@ -91419,7 +91418,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "AMD": {
@@ -99496,7 +99495,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "AVGO": {
@@ -108666,7 +108665,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "QCOM": {
@@ -115658,7 +115657,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 151,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "ARM": {
@@ -120756,7 +120755,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "MRVL": {
@@ -128913,7 +128912,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 175,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "INTC": {
@@ -137362,7 +137361,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "TSM": {
@@ -143814,7 +143813,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 143,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "ASML": {
@@ -148276,7 +148275,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "AMAT": {
@@ -152846,7 +152845,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "LRCX": {
@@ -155383,7 +155382,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "KLAC": {
@@ -157727,7 +157726,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "MU": {
@@ -165339,7 +165338,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "SNDK": {
@@ -172940,7 +172939,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 158,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "WDC": {
@@ -177486,7 +177485,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 95,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "ANET": {
@@ -181217,7 +181216,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "COHR": {
@@ -184381,7 +184380,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "LITE": {
@@ -188111,7 +188110,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 80,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "GEV": {
@@ -193281,7 +193280,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "CEG": {
@@ -197701,7 +197700,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "VST": {
@@ -201083,7 +201082,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "ETN": {
@@ -204247,7 +204246,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "PWR": {
@@ -207187,7 +207186,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "HUBB": {
@@ -207905,7 +207904,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "VRT": {
@@ -211775,7 +211774,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "MOD": {
@@ -213103,7 +213102,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "STX": {
@@ -217161,7 +217160,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "EME": {
@@ -218924,7 +218923,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "FIX": {
@@ -220518,7 +220517,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   },
   "BE": {
@@ -222907,7 +222906,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-11 19:01"
+      "updated": "2026-10-11 19:35"
     }
   }
 };

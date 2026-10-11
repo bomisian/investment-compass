@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Saudi stocks slide after attack on Riyadh airport - Reuters",
+      "summary": "Saudi stocks slide after attack on Riyadh airport Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOEliNzFKYlR3T0NNakk4TWxXWGJ0UlJfQ0JLdFVIRnlESENoRW4zdjNSWW02UjFJOFozRmlZdVZ2ZlFaOTFSdEc5RGd6QWVVaFFMNi1QRTdMSVg2dFQxaHROcjhjbnI4ekhnZUZVbXlmYVBQaDZ3TG1pcFQ5RnFaVXpfYUxWRG1acC1mYnR6d3ZtdXpxbTBBUFJkcU9ock1wbXc?oc=5",
+      "datetime": 1791705103
+    },
+    {
       "headline": "Yemen's Houthis renew warning to airlines, travellers against using Saudi airports - Reuters",
       "summary": "Yemen's Houthis renew warning to airlines, travellers against using Saudi airports Reuters",
       "source": "Reuters",
@@ -328,27 +335,18 @@ const MARKET_DATA = {
       "datetime": 1791583482,
       "headlineKo": "크렘린궁은 푸틴 대통령이 트럼프 대통령과 통화에서 즉각적인 우크라이나 회담 재개를 무시했다고 밝혔습니다.",
       "summaryKo": "크렘린궁 \"푸틴 대통령, 트럼프 대통령과 통화에서 우크라이나 회담 재개 즉각 경시\" - 로이터"
-    },
-    {
-      "headline": "UAE says Omani flydubai co-pilot planned suicide attack on Tel Aviv flight - Reuters",
-      "summary": "UAE says Omani flydubai co-pilot planned suicide attack on Tel Aviv flight Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZTJVb2U2eWdVMjdYVEVwMWt0NzJaQTA0aDNCMVB3YVc3N1VIMUszdjl0OUFFNVhCRHNSUEk3MzVsY1pnX2pIU1hfME5sRm5QUThjSEdJd3VHeGtuQzMzTGc4X0VESC1McU1vUXo3QTJGV2MwWGpFMXpacXF3dndjcWNORXU3bWNXaUtwWjRLbHJDNjBBQ3BIQldySU5LWXNjU0hxQkd4aWp2ZjAtYzNyQ0J0MHpLZjFKM19VSjM4QlJkZ2c?oc=5",
-      "datetime": 1791579990,
-      "headlineKo": "UAE는 오만 플라이두바이 부조종사가 텔아비브 항공기에 대한 자살 공격을 계획했다고 밝혔습니다.",
-      "summaryKo": "UAE는 오만 플라이두바이 부조종사가 텔아비브 항공기에 대한 자살 공격을 계획했다고 밝혔습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791710896.0963967,
+  "_news_last_success_at": 1791714935.7755554,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791710880.3256326,
-  "_updated_label": "2026-10-11 18:28",
-  "_last_attempt_at": 1791710880.3256326,
-  "_last_success_at": 1791710880.3256326,
+  "_fetched_at": 1791714915.146683,
+  "_updated_label": "2026-10-11 19:36",
+  "_last_attempt_at": 1791714915.146683,
+  "_last_success_at": 1791714915.146683,
   "_collection_status": "ok",
   "_collection_errors": []
 };

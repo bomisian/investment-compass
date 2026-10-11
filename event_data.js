@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791712875.4453416,
+  "generatedAt": 1791714914.7557364,
   "events": [
     {
       "id": "c1829bc24249a78726ba",
@@ -837,7 +837,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=041e7a3a85d95a14fd5a1d5e47d35090350345888c75a66f3159ca2b6752536d",
         "publishedAt": 1791656281,
-        "collectedAt": 1791689522.1907794
+        "collectedAt": 1791714891.731056
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4366,11 +4366,11 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5c4e446abd334f8092f8ee0a0068885b5977f2f5175ab4b843013a4fece9ea30",
         "publishedAt": 1791586391,
-        "collectedAt": 1791689522.1907794
+        "collectedAt": 1791714891.731056
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending WFF 499.51% XCN 7.56% JOBY 5.39% DIS 0.96% CAT 0.54% S",
+        "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending BMY 0.77% ARB 7.59% OCUL 0.40% AERO 13.83% CADL 3.73% ",
         "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus Wall Street’s biggest banks, including JPMorgan, Morgan Stanley, and Wells Fargo, will report earnings next week.",
         "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
       ],
@@ -6440,7 +6440,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4fd47c21df1eabb62e8ee735367878731f61ab0a0544474e50d607aef8d5446c",
         "publishedAt": 1791563072,
-        "collectedAt": 1791689522.1907794
+        "collectedAt": 1791714891.731056
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8461,7 +8461,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=6d6a7f613588e29781ea47aa1622e652afe48f306894f204f475dfe565f02ff3",
         "publishedAt": 1791552427,
-        "collectedAt": 1791689522.1907794
+        "collectedAt": 1791714891.731056
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9843,7 +9843,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=456464d1145ca9b8194cd0a4c28b62e3afa7a2f7d4836eed58c833c24d595c4b",
         "publishedAt": 1791537701,
-        "collectedAt": 1791689522.1907794
+        "collectedAt": 1791714891.731056
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11309,7 +11309,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c5b01c1a236768a41c8c725c60dce675c04463a93ee2d5a52465d93ff168fdec",
         "publishedAt": 1791500586,
-        "collectedAt": 1791689522.1907794
+        "collectedAt": 1791714891.731056
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11380,7 +11380,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=dc1918cd0feb30add5eacf5d2b3e01797f856a03f979aebef0e228fc128111a6",
         "publishedAt": 1791500119,
-        "collectedAt": 1791689522.1907794
+        "collectedAt": 1791714891.731056
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12685,7 +12685,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d335cd5884c9a8b6781e302123b1ea8b4f338c3bfc5cd122bfd5a9cb870a7bc7",
         "publishedAt": 1791486101,
-        "collectedAt": 1791689522.1907794
+        "collectedAt": 1791714891.731056
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17302,7 +17302,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=695b435703903066939f00c3cb5f5de1d7dee3c89828cd3d026d370de5c2f5e9",
         "publishedAt": 1791445352,
-        "collectedAt": 1791689522.1907794
+        "collectedAt": 1791714891.731056
       },
       "confirmedFacts": [],
       "reportedClaims": [
