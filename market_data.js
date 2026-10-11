@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Here are the 6 big things we're watching in the stock market this week",
+      "summary": "Earnings season ramps up this week, with four Club holdings set to report. Two main inflation reports are also out.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/investingclub/2026/10/11/here-are-the-6-big-things-were-watching-in-the-stock-market-this-week.html",
+      "datetime": 1791747965
+    },
+    {
       "headline": "Saudi Arabia reports injuries in new attack at Riyadh airport, day after strike kills 13 - Reuters",
       "summary": "Saudi Arabia reports injuries in new attack at Riyadh airport, day after strike kills 13 Reuters",
       "source": "Reuters",
@@ -316,25 +323,18 @@ const MARKET_DATA = {
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbV9hVGtMSXpTVDJ3c05vRW9SQ2lRLTg3cUlOeWxDc2w4amF5V2N2Ul9YazdxcHJGNDRwd3hlQi15a2ZGWWZoZnc1dlA5UkY3cU9PclVCNkh6SVkzQ25waEVRRlN2TVdES3lKV1VuVXN6QnJycWxtdkNOdUIwMTdTRE9fbko3Umt5d0huNVY1dW9ZcFpLSF9yczRGRHJfSWZhM1AtTkVzbVR4TlRUdzhIb19JN3o?oc=5",
       "datetime": 1791641580
-    },
-    {
-      "headline": "Wall Street’s rate shock spreads beneath AI-fueled market rally",
-      "summary": "Bonds surge as rates spike and oil stays high, testing AI-driven stock resilience amid widening market risks.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-09/wall-street-s-rate-shock-spreads-beneath-ai-fueled-market-rally",
-      "datetime": 1791640989
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791748897.2088213,
+  "_news_last_success_at": 1791752497.0877721,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791748860.5625033,
-  "_updated_label": "2026-10-12 05:02",
-  "_last_attempt_at": 1791748860.5625033,
-  "_last_success_at": 1791748860.5625033,
+  "_fetched_at": 1791752460.255207,
+  "_updated_label": "2026-10-12 06:02",
+  "_last_attempt_at": 1791752460.255207,
+  "_last_success_at": 1791752460.255207,
   "_collection_status": "ok",
   "_collection_errors": []
 };
