@@ -279,6 +279,13 @@ const MARKET_DATA = {
       "datetime": 1791704062
     },
     {
+      "headline": "Middle East war, high debt levels to dominate IMF-World Bank meetings in Bangkok - Reuters",
+      "summary": "Middle East war, high debt levels to dominate IMF-World Bank meetings in Bangkok Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWlZqTVZkYlUxR2xKODRtSHFhLUI5ZVk4MWlwUURPZTRJSy1UYjdKak1ZbzdGMG80dmNOTVlVbUtvbW1zUU9hWE5QeU9xc19wWE50TnR4M05sQ0c0aFI0ZmYtTGN6Q0hwanJUajNzSlRfaVBQNXdPMUlfQlpfb1JHTGlQWkg5aVdOTE5SZ29NRXZLSW85enZHa2dCOVFSWmFpUEptcWMxa1JxVW15ZGhLLTRRcDEyeXBEWkw0RnJR?oc=5",
+      "datetime": 1791691380
+    },
+    {
       "headline": "US military says it disabled cargo vessel trying to run Iran blockade - Reuters",
       "summary": "US military says it disabled cargo vessel trying to run Iran blockade Reuters",
       "source": "Reuters",
@@ -316,27 +323,18 @@ const MARKET_DATA = {
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-10-09/wall-street-s-rate-shock-spreads-beneath-ai-fueled-market-rally",
       "datetime": 1791640989
-    },
-    {
-      "headline": "Pokémon card values are soaring. What collectors should know before buying or selling",
-      "summary": "Pokémon card values are surging. Learn how grading, scarcity, recent sales and counterfeits can affect what collectors pay.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/10/pokemon-card-values-grading-guide.html",
-      "datetime": 1791639002,
-      "headlineKo": "포켓몬 카드 가치가 치솟고 있습니다. 수집가가 구매 또는 판매하기 전에 알아야 할 사항",
-      "summaryKo": "포켓몬카드 가치가 급등하고 있습니다. 등급, 희소성, 최근 판매 및 위조품이 수집가의 지불 금액에 어떤 영향을 미칠 수 있는지 알아보세요."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791745293.9150424,
+  "_news_last_success_at": 1791748897.2088213,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791745259.8957798,
-  "_updated_label": "2026-10-12 04:02",
-  "_last_attempt_at": 1791745259.8957798,
-  "_last_success_at": 1791745259.8957798,
+  "_fetched_at": 1791748860.5625033,
+  "_updated_label": "2026-10-12 05:02",
+  "_last_attempt_at": 1791748860.5625033,
+  "_last_success_at": 1791748860.5625033,
   "_collection_status": "ok",
   "_collection_errors": []
 };
