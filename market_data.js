@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Yemen's Houthis renew warning to airlines, travellers against using Saudi airports - Reuters",
+      "summary": "Yemen's Houthis renew warning to airlines, travellers against using Saudi airports Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMUlyV0IybXFzanN6N1FSS3JuaEljNFhGMWtwXzJwR3g0S0NTVkNvUW1CSW4tSWxzY2txeTAxZGxvR2Y2RW53cklmbF8tNGVpaEFTRXlMeW15RkpkVGQ3clNwejJoOXBmQnhYd1ZXWGFJMVVBZ1hpUGFPWDdXeWV4LU1ORFVoekJleFlnOHFRenp4d29OVmV4U0c4eUJJY051RGFna01qMUJ2WFp3cGdHUm5kV0lSZ1hMMFJpdExQN21wMkJHcm1GU01yWQ?oc=5",
+      "datetime": 1791704062
+    },
+    {
       "headline": "US military says it disabled cargo vessel trying to run Iran blockade - Reuters",
       "summary": "US military says it disabled cargo vessel trying to run Iran blockade Reuters",
       "source": "Reuters",
@@ -330,25 +337,18 @@ const MARKET_DATA = {
       "datetime": 1791579990,
       "headlineKo": "UAE는 오만 플라이두바이 부조종사가 텔아비브 항공기에 대한 자살 공격을 계획했다고 밝혔습니다.",
       "summaryKo": "UAE는 오만 플라이두바이 부조종사가 텔아비브 항공기에 대한 자살 공격을 계획했다고 밝혔습니다."
-    },
-    {
-      "headline": "Oil prices settle higher as more production shut ahead of hurricane - Reuters",
-      "summary": "Oil prices settle higher as more production shut ahead of hurricane Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONW0wejJNQmpGTE9heFBmZG8wTWE5a010VFNMSDBqcThNXzBFTjZkbWF3NnpxSWxoVkRJSEhMcDk4VDh5OVp3bzlZNzdiS0pNTnd6aGkwQVZsU0JiOU9wb0k1ckN1V2ZUVl9sTFRuZnVhLXFlaDUwZGIxT2VxNW1RZUwyNlJ3c2ZxRkdONll5RVdtTnlfcDllN0pnLWE4VU1FblRvbHdkTkIwbHNk?oc=5",
-      "datetime": 1791577191
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791706548.542652,
+  "_news_last_success_at": 1791710896.0963967,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791706532.1213288,
-  "_updated_label": "2026-10-11 17:16",
-  "_last_attempt_at": 1791706532.1213288,
-  "_last_success_at": 1791706532.1213288,
+  "_fetched_at": 1791710880.3256326,
+  "_updated_label": "2026-10-11 18:28",
+  "_last_attempt_at": 1791710880.3256326,
+  "_last_success_at": 1791710880.3256326,
   "_collection_status": "ok",
   "_collection_errors": []
 };
