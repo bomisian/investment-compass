@@ -237,18 +237,18 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Saudi Arabia reports injuries in new attack at Riyadh airport, day after strike kills 13 - Reuters",
+      "summary": "Saudi Arabia reports injuries in new attack at Riyadh airport, day after strike kills 13 Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSEo0VkFTZkY2VzMzeFV0OVRVbWN4aHFzaXFjV0FBN05uaEFONHhQVTN2a3JJM09NdFBzY1R3MnRrUFZOeFZfUDItOUd1NkxiT3dfOWduTHJKTlBzSGsyN3VCYTNkWG1ZTWlZMUpzbDdrc1dOZUs3VDRwa0lHN21tNnFNdFhQYUxoNmdfN1Zyb3FMRm04RzRVei0zY3FKN0FoY2JYTGFodjYtemdITVpKVXk3NlR2QXFIMU9YMnUtX004QW1GZ0UzZA?oc=5",
+      "datetime": 1791749168
+    },
+    {
       "headline": "Here are the 6 big things we're watching in the stock market this week",
       "summary": "Earnings season ramps up this week, with four Club holdings set to report. Two main inflation reports are also out.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/investingclub/2026/10/11/here-are-the-6-big-things-were-watching-in-the-stock-market-this-week.html",
       "datetime": 1791747965
-    },
-    {
-      "headline": "Saudi Arabia reports injuries in new attack at Riyadh airport, day after strike kills 13 - Reuters",
-      "summary": "Saudi Arabia reports injuries in new attack at Riyadh airport, day after strike kills 13 Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSEo0VkFTZkY2VzMzeFV0OVRVbWN4aHFzaXFjV0FBN05uaEFONHhQVTN2a3JJM09NdFBzY1R3MnRrUFZOeFZfUDItOUd1NkxiT3dfOWduTHJKTlBzSGsyN3VCYTNkWG1ZTWlZMUpzbDdrc1dOZUs3VDRwa0lHN21tNnFNdFhQYUxoNmdfN1Zyb3FMRm04RzRVei0zY3FKN0FoY2JYTGFodjYtemdITVpKVXk3NlR2QXFIMU9YMnUtX004QW1GZ0UzZA?oc=5",
-      "datetime": 1791742691
     },
     {
       "headline": "Strike reported on Yemeni Sanaa airport, Houthi-run TV says - Reuters",
@@ -326,15 +326,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791752497.0877721,
+  "_news_last_success_at": 1791756118.0690415,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791752460.255207,
-  "_updated_label": "2026-10-12 06:02",
-  "_last_attempt_at": 1791752460.255207,
-  "_last_success_at": 1791752460.255207,
+  "_fetched_at": 1791756081.352764,
+  "_updated_label": "2026-10-12 07:02",
+  "_last_attempt_at": 1791756081.352764,
+  "_last_success_at": 1791756081.352764,
   "_collection_status": "ok",
   "_collection_errors": []
 };
