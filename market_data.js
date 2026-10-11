@@ -262,13 +262,11 @@ const MARKET_DATA = {
       "summaryKo": "의료진은 이스라엘의 파업으로 가자지구에서 5명이 사망했다고 로이터 통신이 보도했다."
     },
     {
-      "headline": "Houthi attack on Saudi airport kills 12, over 300 wounded, authorities say - Reuters",
-      "summary": "Houthi attack on Saudi airport kills 12, over 300 wounded, authorities say Reuters",
+      "headline": "Houthi strike on Saudi airport kills 12, worst attack on kingdom in a decade - Reuters",
+      "summary": "Houthi strike on Saudi airport kills 12, worst attack on kingdom in a decade Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbV9hVGtMSXpTVDJ3c05vRW9SQ2lRLTg3cUlOeWxDc2w4amF5V2N2Ul9YazdxcHJGNDRwd3hlQi15a2ZGWWZoZnc1dlA5UkY3cU9PclVCNkh6SVkzQ25waEVRRlN2TVdES3lKV1VuVXN6QnJycWxtdkNOdUIwMTdTRE9fbko3Umt5d0huNVY1dW9ZcFpLSF9yczRGRHJfSWZhM1AtTkVzbVR4TlRUdzhIb19JN3o?oc=5",
-      "datetime": 1791641580,
-      "headlineKo": "사우디 공항에 대한 후티의 공격으로 12명이 사망하고 300명이 넘는 부상자가 발생했다고 당국이 밝혔습니다. - 로이터 통신",
-      "summaryKo": "사우디 공항에 대한 후티의 공격으로 12명이 사망하고 300명이 넘는 부상자가 발생했다고 당국이 밝혔다고 로이터 통신이 보도했다."
+      "datetime": 1791641580
     },
     {
       "headline": "Pokémon card values are soaring. What collectors should know before buying or selling",
@@ -342,15 +340,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791695246.2742774,
+  "_news_last_success_at": 1791699016.2139046,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791695232.817663,
-  "_updated_label": "2026-10-11 14:07",
-  "_last_attempt_at": 1791695232.817663,
-  "_last_success_at": 1791695232.817663,
+  "_fetched_at": 1791698998.0636895,
+  "_updated_label": "2026-10-11 15:10",
+  "_last_attempt_at": 1791698998.0636895,
+  "_last_success_at": 1791698998.0636895,
   "_collection_status": "ok",
   "_collection_errors": []
 };
