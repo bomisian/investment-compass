@@ -27231,10 +27231,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-10T16:51:21Z",
+    "lastBarRetrievedAt": "2026-10-11T13:13:03Z",
     "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791651075.2801285,
-    "_updated_label": "2026-10-11 01:51"
+    "_fetched_at": 1791724383.5174613,
+    "_updated_label": "2026-10-11 22:13"
   },
   "CRM": {
     "dates": [
