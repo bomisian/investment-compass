@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "I’m a psychologist who studies couples: The No. 1 way to end a fight before it escalates—it works ‘almost immediately’",
+      "summary": "\"In my experience, nothing de-escalates a conflict faster,\" says psychologist Mark Travers. Why a \"partial yield\" works, and how to use it.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/make-it/2026/10/11/psychologist-couples-end-fight-before-escalates-partial-yield.html",
+      "datetime": 1791722881
+    },
+    {
       "headline": "NBA commissioner Adam Silver says league could introduce ‘smart ball’ technology as soon as next year",
       "summary": "Commissioner Adam Silver says the NBA could begin using a new \"smart ball\" in games as soon as next year, potentially transforming how officials make calls.",
       "source": "CNBC",
@@ -322,27 +329,18 @@ const MARKET_DATA = {
       "datetime": 1791637201,
       "headlineKo": "대법원 판사가 주요 401(k) 사건에서 민간 자금과 실적 부진에 대해 어떻게 생각하고 있습니까?",
       "summaryKo": "고용주들이 퇴직 계획에 대한 민간 투자에 대한 새로운 노동부의 규칙을 기다리고 있는 가운데 대법원은 Intel 401(k) 사건을 검토하고 있습니다."
-    },
-    {
-      "headline": "Major Saudi conferences to proceed, organisers say, despite deadly airport attack - Reuters",
-      "summary": "Major Saudi conferences to proceed, organisers say, despite deadly airport attack Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNS3lBZTEwaWVLUXNScDVCZjV1eDRkb3RoWnM2M0ZkOE9DM0ZVMDNPaXA1ZDJXQ0xYZ2JqZm85dm9HbHBOSXNaQmVzUWJQN0xnMXpNR2dENDFoMXItWEQxYlB2WmZGUVVxYU1RX0E0RHNKSWd0RDNkbmk1Ty1MZnlJZFUxR3pjanFwSWZzS3hiZlktMEtTM2psOS12Y2xaMlk1MEc1Nm81NU50WjFKN0ZkY082T0pFVGU3dmd6T3JIckNPcFR0VlM0?oc=5",
-      "datetime": 1791631920,
-      "headlineKo": "치명적인 공항 공격에도 불구하고 주요 사우디 회의는 계속될 것이라고 주최측은 밝혔습니다 - 로이터 통신",
-      "summaryKo": "치명적인 공항 공격에도 불구하고 주요 사우디 회의는 계속될 것이라고 주최측은 말했습니다 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791722515.3951054,
+  "_news_last_success_at": 1791726254.3955986,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791722489.8997793,
-  "_updated_label": "2026-10-11 21:42",
-  "_last_attempt_at": 1791722489.8997793,
-  "_last_success_at": 1791722489.8997793,
+  "_fetched_at": 1791726226.3387308,
+  "_updated_label": "2026-10-11 22:44",
+  "_last_attempt_at": 1791726226.3387308,
+  "_last_success_at": 1791726226.3387308,
   "_collection_status": "ok",
   "_collection_errors": []
 };
