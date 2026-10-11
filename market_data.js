@@ -237,15 +237,6 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Houthi attack on Saudi airport kills 12, over 300 wounded, authorities say - Reuters",
-      "summary": "Houthi attack on Saudi airport kills 12, over 300 wounded, authorities say Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbV9hVGtMSXpTVDJ3c05vRW9SQ2lRLTg3cUlOeWxDc2w4amF5V2N2Ul9YazdxcHJGNDRwd3hlQi15a2ZGWWZoZnc1dlA5UkY3cU9PclVCNkh6SVkzQ25waEVRRlN2TVdES3lKV1VuVXN6QnJycWxtdkNOdUIwMTdTRE9fbko3Umt5d0huNVY1dW9ZcFpLSF9yczRGRHJfSWZhM1AtTkVzbVR4TlRUdzhIb19JN3o?oc=5",
-      "datetime": 1791675128,
-      "headlineKo": "사우디 공항에 대한 후티의 공격으로 12명이 사망하고 300명이 넘는 부상자가 발생했다고 당국이 밝혔습니다. - 로이터 통신",
-      "summaryKo": "사우디 공항에 대한 후티의 공격으로 12명이 사망하고 300명이 넘는 부상자가 발생했다고 당국이 밝혔다고 로이터 통신이 보도했다."
-    },
-    {
       "headline": "Stocks saw new highs and big declines: How the volatile AI trade moved last week's market",
       "summary": "Looking to balance out our AI exposure, we put more of our sizable cash pile to work.",
       "source": "CNBC",
@@ -262,6 +253,15 @@ const MARKET_DATA = {
       "datetime": 1791645852,
       "headlineKo": "이스라엘의 파업으로 가자지구에서 5명이 사망했다고 의료진이 밝혔습니다. - Reuters",
       "summaryKo": "의료진은 이스라엘의 파업으로 가자지구에서 5명이 사망했다고 로이터 통신이 보도했다."
+    },
+    {
+      "headline": "Houthi attack on Saudi airport kills 12, over 300 wounded, authorities say - Reuters",
+      "summary": "Houthi attack on Saudi airport kills 12, over 300 wounded, authorities say Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbV9hVGtMSXpTVDJ3c05vRW9SQ2lRLTg3cUlOeWxDc2w4amF5V2N2Ul9YazdxcHJGNDRwd3hlQi15a2ZGWWZoZnc1dlA5UkY3cU9PclVCNkh6SVkzQ25waEVRRlN2TVdES3lKV1VuVXN6QnJycWxtdkNOdUIwMTdTRE9fbko3Umt5d0huNVY1dW9ZcFpLSF9yczRGRHJfSWZhM1AtTkVzbVR4TlRUdzhIb19JN3o?oc=5",
+      "datetime": 1791641580,
+      "headlineKo": "사우디 공항에 대한 후티의 공격으로 12명이 사망하고 300명이 넘는 부상자가 발생했다고 당국이 밝혔습니다. - 로이터 통신",
+      "summaryKo": "사우디 공항에 대한 후티의 공격으로 12명이 사망하고 300명이 넘는 부상자가 발생했다고 당국이 밝혔다고 로이터 통신이 보도했다."
     },
     {
       "headline": "Pokémon card values are soaring. What collectors should know before buying or selling",
@@ -327,15 +327,6 @@ const MARKET_DATA = {
       "summaryKo": "UAE는 오만 플라이두바이 부조종사가 텔아비브 항공기에 대한 자살 공격을 계획했다고 밝혔습니다."
     },
     {
-      "headline": "Oil prices settle higher as more production shut ahead of hurricane - Reuters",
-      "summary": "Oil prices settle higher as more production shut ahead of hurricane Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONW0wejJNQmpGTE9heFBmZG8wTWE5a010VFNMSDBqcThNXzBFTjZkbWF3NnpxSWxoVkRJSEhMcDk4VDh5OVp3bzlZNzdiS0pNTnd6aGkwQVZsU0JiOU9wb0k1ckN1V2ZUVl9sTFRuZnVhLXFlaDUwZGIxT2VxNW1RZUwyNlJ3c2ZxRkdONll5RVdtTnlfcDllN0pnLWE4VU1FblRvbHdkTkIwbHNk?oc=5",
-      "datetime": 1791577191,
-      "headlineKo": "유가는 허리케인을 앞두고 더 많은 생산이 중단됨에 따라 더 높은 정착 - 로이터",
-      "summaryKo": "유가는 허리케인 로이터를 앞두고 더 많은 생산이 중단됨에 따라 더 높은 수준으로 정착합니다."
-    },
-    {
       "headline": "Trump says US will not attack Iran before midterm elections in November - Reuters",
       "summary": "Trump says US will not attack Iran before midterm elections in November Reuters",
       "source": "Reuters",
@@ -343,18 +334,27 @@ const MARKET_DATA = {
       "datetime": 1791573546,
       "headlineKo": "트럼프 대통령은 11월 중간선거 전에 미국이 이란을 공격하지 않을 것이라고 말했다. - 로이터",
       "summaryKo": "트럼프 대통령은 11월 중간선거 전에 미국이 이란을 공격하지 않을 것이라고 말했다. 로이터 통신"
+    },
+    {
+      "headline": "What's behind the recovery rally in tech stocks — plus, Elon Musk's very good week",
+      "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/investingclub/2026/10/09/whats-behind-the-recovery-rally-in-tech-stocks-plus-musks-good-week.html",
+      "datetime": 1791572549,
+      "headlineKo": "기술주 회복 랠리의 배경 — 게다가 일론 머스크의 매우 좋은 한 주",
+      "summaryKo": "Investing Club은 평일마다 홈스트레치를 출시합니다. 홈스트레치는 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791679595.1679518,
+  "_news_last_success_at": 1791683338.8760383,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791679587.6729019,
-  "_updated_label": "2026-10-11 09:47",
-  "_last_attempt_at": 1791679587.6729019,
-  "_last_success_at": 1791679587.6729019,
+  "_fetched_at": 1791683325.639718,
+  "_updated_label": "2026-10-11 10:49",
+  "_last_attempt_at": 1791683325.639718,
+  "_last_success_at": 1791683325.639718,
   "_collection_status": "ok",
   "_collection_errors": []
 };
