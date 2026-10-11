@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1791689522.1907794,
+    "_last_attempt_at": 1791712767.4624932,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -342,6 +342,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=041e7a3a85d95a14fd5a1d5e47d35090350345888c75a66f3159ca2b6752536d",
         "datetime": 1791656281,
+        "headlineKo": "Nasdaq-100은 3년 연속으로 20% 이상의 수익을 올렸습니다. 이 연승은 1999년대보다 훨씬 더 강력한 수입에 달려 있습니다.",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -5570,13 +5571,14 @@ const NEWS_DATA = {
     "_fetched_at": 1791689522.1907794,
     "_updated_label": "2026-10-11 12:32",
     "_last_success_at": 1791689522.1907794,
-    "_collection_status": "ok",
+    "_collection_status": "error",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 109,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
-    }
+      "updated": "2026-10-11 19:01"
+    },
+    "_last_error": "The read operation timed out"
   },
   "SPY": {
     "_last_attempt_at": 1791710287.5576222,
@@ -12457,11 +12459,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 139,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "MSFT": {
-    "_last_attempt_at": 1791689522.1907794,
+    "_last_attempt_at": 1791712767.4624932,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -12530,7 +12532,7 @@ const NEWS_DATA = {
             "Can That Pace Continue Under Heavy AI Spending?",
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Few can dispute the success that Satya Nadella has had as CEO of Microsoft ( MSFT +2.38% ) ."
           ],
-          "analysisUpdatedAt": 1791689552.4289846
+          "analysisUpdatedAt": 1791712795.00847
         },
         "headlineKo": "Microsoft 주식은 2014년 Satya Nadella가 CEO가 된 이후 약 15배 성장했으며, 이는 14년 동안 거의 0에 가까운 성장을 마감한 27%의 연간 성장률입니다. 막대한 AI 지출에도 이러한 속도가 계속될 수 있을까?"
       },
@@ -12584,7 +12586,7 @@ const NEWS_DATA = {
             "See the data Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestream Menu Key Points The Trump administration suspended Microsoft, Adobe and six IT services firms from PERM, the Labor ",
             "Vice President JD Vance accused Microsoft of replacing laid-off American workers with foreign hires."
           ],
-          "analysisUpdatedAt": 1791689557.3723164
+          "analysisUpdatedAt": 1791712800.3291686
         },
         "headlineKo": "Vance는 Microsoft가 해고된 근로자를 외국인 고용인으로 교체했다고 말했습니다. 비자 데이터는 다음과 같습니다"
       },
@@ -12634,7 +12636,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791689559.354071
+          "analysisUpdatedAt": 1791712802.7665484
         },
         "headlineKo": "Microsoft Plus 2 엘리트 방어 주식"
       },
@@ -12720,7 +12722,7 @@ const NEWS_DATA = {
             "Can That Pace Continue Under Heavy AI Spending?",
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Few can dispute the success that Satya Nadella has had as CEO of Microsoft ( MSFT +2.38% ) ."
           ],
-          "analysisUpdatedAt": 1791689552.4289846
+          "analysisUpdatedAt": 1791712795.00847
         }
       },
       {
@@ -12773,7 +12775,7 @@ const NEWS_DATA = {
             "See the data Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestream Menu Key Points The Trump administration suspended Microsoft, Adobe and six IT services firms from PERM, the Labor ",
             "Vice President JD Vance accused Microsoft of replacing laid-off American workers with foreign hires."
           ],
-          "analysisUpdatedAt": 1791689557.3723164
+          "analysisUpdatedAt": 1791712800.3291686
         }
       },
       {
@@ -12822,7 +12824,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791689559.354071
+          "analysisUpdatedAt": 1791712802.7665484
         }
       },
       {
@@ -20367,19 +20369,19 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1791689522.1907794,
-    "_updated_label": "2026-10-11 12:32",
-    "_last_success_at": 1791689522.1907794,
+    "_fetched_at": 1791712767.4624932,
+    "_updated_label": "2026-10-11 19:00",
+    "_last_success_at": 1791712767.4624932,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "GOOGL": {
-    "_last_attempt_at": 1791689522.1907794,
+    "_last_attempt_at": 1791712767.4624932,
     "nextEarnings": {
       "date": "2026-10-27",
       "hour": "amc",
@@ -20388,6 +20390,69 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Alphabet Is the Robotaxi Stock to Buy as Waymo Chases 1 Million Rides a Week",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c0bfbfcb6652f9cb984b9f1f1feadce00a6b83361ab5597488cfd273637a7758",
+        "datetime": 1791711422,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Alphabet Is the Robotaxi Stock to Buy as Waymo Chases 1 Million Rides a Week | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Since last December, Waymo has said it's on a path to ",
+            "With under three months left in the year, the latest weekly count the company has shared is around half that.",
+            "This doesn't change my take on the stock."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.97%, 0.87%, $4.2 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "GOOGL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "GOOGL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "GOOGL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.97%",
+            "0.87%",
+            "$4.2 trillion",
+            "2.05%",
+            "1.81%",
+            "$16 billion",
+            "3%",
+            "$126 billion"
+          ],
+          "sourceExcerpt": [
+            "Alphabet Is the Robotaxi Stock to Buy as Waymo Chases 1 Million Rides a Week | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Since last December, Waymo has said it's on a path to ",
+            "With under three months left in the year, the latest weekly count the company has shared is around half that.",
+            "This doesn't change my take on the stock."
+          ],
+          "analysisUpdatedAt": 1791712812.68142
+        }
+      },
       {
         "headline": "Alphabet (GOOGL) Has A $5 Billion Waymo Loan And A $50 Billion AI Bet",
         "source": "Yahoo",
@@ -20452,7 +20517,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791689566.6326153
+          "analysisUpdatedAt": 1791712814.516242
         },
         "headlineKo": "Alphabet(GOOGL)은 50억 달러의 Waymo 대출과 500억 달러의 AI 베팅을 보유하고 있습니다."
       },
@@ -20502,7 +20567,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791689568.9366589
+          "analysisUpdatedAt": 1791712817.4149675
         },
         "headlineKo": "Google의 궤도 TPU 테스트: 어떤 하이퍼스케일러가 먼저 도착하더라도 SpaceX가 승리하는 이유"
       },
@@ -20514,64 +20579,6 @@ const NEWS_DATA = {
         "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Unity Shares Surged After a New AI Gaming Deal With Google. How Investors Should View U Stock Now.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: GOOGL에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
-          "relevance": 1.0,
-          "quality": "high",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791689569.9662926
-        },
         "headlineKo": "Google과의 새로운 AI 게임 거래 이후 Unity 주가가 급등했습니다. 투자자가 지금 U 주식을 어떻게 보아야 할까요?"
       },
       {
@@ -20583,16 +20590,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Sundar Pichai는 Gemini 앱의 월간 사용자 수가 9억 5천만 명에 달하면서 Alphabet의 클라우드 수익이 지난 분기에 82% 증가한 248억 달러를 기록했다고 보고했습니다. Google Cloud가 Sea보다 더 큰 성장 동력이 되고 있습니까?"
-      },
-      {
-        "headline": "Alphabet Is A Fortress Stock, Built To Survive",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=ddca681bcde24b3beeb08dcf687f12345778a83488c073c4618fa9b0ed0bb66f",
-        "datetime": 1791616056,
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "알파벳은 생존을 위해 만들어진 요새입니다."
       },
       {
         "headline": "Google, Constellation Energy Strike Deal for Nuclear Power",
@@ -20738,6 +20735,68 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "Alphabet Is the Robotaxi Stock to Buy as Waymo Chases 1 Million Rides a Week",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c0bfbfcb6652f9cb984b9f1f1feadce00a6b83361ab5597488cfd273637a7758",
+        "datetime": 1791711422,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Alphabet Is the Robotaxi Stock to Buy as Waymo Chases 1 Million Rides a Week | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Since last December, Waymo has said it's on a path to ",
+            "With under three months left in the year, the latest weekly count the company has shared is around half that.",
+            "This doesn't change my take on the stock."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.97%, 0.87%, $4.2 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "GOOGL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "GOOGL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "GOOGL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.97%",
+            "0.87%",
+            "$4.2 trillion",
+            "2.05%",
+            "1.81%",
+            "$16 billion",
+            "3%",
+            "$126 billion"
+          ],
+          "sourceExcerpt": [
+            "Alphabet Is the Robotaxi Stock to Buy as Waymo Chases 1 Million Rides a Week | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Since last December, Waymo has said it's on a path to ",
+            "With under three months left in the year, the latest weekly count the company has shared is around half that.",
+            "This doesn't change my take on the stock."
+          ],
+          "analysisUpdatedAt": 1791712812.68142
+        }
+      },
+      {
         "headline": "Alphabet (GOOGL) Has A $5 Billion Waymo Loan And A $50 Billion AI Bet",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=15d4e383c6f8cfe12e94b3325cd165a34cb68ad14194efdb76c2fb917500a520",
@@ -20801,7 +20860,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791689566.6326153
+          "analysisUpdatedAt": 1791712814.516242
         }
       },
       {
@@ -20850,7 +20909,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791689568.9366589
+          "analysisUpdatedAt": 1791712817.4149675
         }
       },
       {
@@ -28266,66 +28325,17 @@ const NEWS_DATA = {
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1790460951.332726
         }
-      },
-      {
-        "headline": "Oracle vs. Alphabet: Which AI Cloud Stock Is the Better Buy?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5a57a3bc2c551776dae9722b0f99ab22449d47d81959ad3fd6da51d5db600716",
-        "datetime": 1790431552,
-        "headlineKo": "Oracle vs. Alphabet: 어느 AI 클라우드 주식을 구매하는 것이 더 나은가요?",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Oracle vs. Alphabet: Which AI Cloud Stock Is the Better Buy?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "GOOGL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Oracle vs. Alphabet: Which AI Cloud Stock Is the Better Buy?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "GOOGL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.4,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790460953.3741722
-        }
       }
     ],
-    "_fetched_at": 1791689522.1907794,
-    "_updated_label": "2026-10-11 12:32",
-    "_last_success_at": 1791689522.1907794,
+    "_fetched_at": 1791712767.4624932,
+    "_updated_label": "2026-10-11 19:00",
+    "_last_success_at": 1791712767.4624932,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "AMZN": {
@@ -36449,7 +36459,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "META": {
@@ -44459,7 +44469,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "AAPL": {
@@ -52397,7 +52407,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "TSLA": {
@@ -60399,7 +60409,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "ORCL": {
@@ -68743,7 +68753,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "CRM": {
@@ -75100,7 +75110,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "PLTR": {
@@ -83782,7 +83792,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "NVDA": {
@@ -91409,11 +91419,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "AMD": {
-    "_last_attempt_at": 1791689522.1907794,
+    "_last_attempt_at": 1791712767.4624932,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -91482,7 +91492,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices ( AMD -2.03% ) and Qualcomm Inc.",
             "( QCOM -0.29% ) are racing to power the next generation of artificial intelligence."
           ],
-          "analysisUpdatedAt": 1791689580.4037585
+          "analysisUpdatedAt": 1791712826.701097
         },
         "headlineKo": "Advanced Micro Devices vs. Qualcomm: 2026년에는 어떤 기술 주식을 구매하는 것이 더 낫습니까?"
       },
@@ -91532,7 +91542,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791689581.503308
+          "analysisUpdatedAt": 1791712827.79248
         },
         "headlineKo": "AMD 주식은 물리적 및 에이전트 AI 모두로부터 이익을 얻도록 설정되어 있습니다."
       },
@@ -91596,7 +91606,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0.43% S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0.",
             "The question now is whether three bold price targets for 2027 are ambitious or just the beginning."
           ],
-          "analysisUpdatedAt": 1791689586.2760828
+          "analysisUpdatedAt": 1791712833.448189
         },
         "headlineKo": "차세대 AI 수요로 인해 Broadcom, Marvell 및 AMD가 급증할 수 있음"
       },
@@ -91694,7 +91704,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices ( AMD -2.03% ) and Qualcomm Inc.",
             "( QCOM -0.29% ) are racing to power the next generation of artificial intelligence."
           ],
-          "analysisUpdatedAt": 1791689580.4037585
+          "analysisUpdatedAt": 1791712826.701097
         }
       },
       {
@@ -91702,6 +91712,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4f119ecfb2fba158d8af146ab0ecc80b520583c6e5ecbe2499366b64141f200a",
         "datetime": 1791646202,
+        "headlineKo": "AMD 주식은 물리적 및 에이전트 AI 모두로부터 이익을 얻도록 설정되어 있습니다.",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -91742,7 +91753,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791689581.503308
+          "analysisUpdatedAt": 1791712827.79248
         }
       },
       {
@@ -91805,7 +91816,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0.43% S&P 500 7,823.60 +0.58% Dow Jones 51,740.80 +0.91% Nasdaq 100 30,928.20 +0.38% Russell 2000 2,809.13 +0.",
             "The question now is whether three bold price targets for 2027 are ambitious or just the beginning."
           ],
-          "analysisUpdatedAt": 1791689586.2760828
+          "analysisUpdatedAt": 1791712833.448189
         }
       },
       {
@@ -99477,15 +99488,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791689522.1907794,
-    "_updated_label": "2026-10-11 12:33",
-    "_last_success_at": 1791689522.1907794,
+    "_fetched_at": 1791712767.4624932,
+    "_updated_label": "2026-10-11 19:00",
+    "_last_success_at": 1791712767.4624932,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "AVGO": {
@@ -108655,7 +108666,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "QCOM": {
@@ -115647,7 +115658,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 151,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "ARM": {
@@ -120745,7 +120756,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "MRVL": {
@@ -128902,7 +128913,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 175,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "INTC": {
@@ -137351,7 +137362,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "TSM": {
@@ -143803,11 +143814,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 143,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "ASML": {
-    "_last_attempt_at": 1791689522.1907794,
+    "_last_attempt_at": 1791712767.4624932,
     "nextEarnings": {
       "date": "2026-10-14",
       "hour": "bmo",
@@ -143876,7 +143887,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Vanguard S&P 500 ETF ( VOO +0.61% ) is the largest exchange-traded fund (ETF) in the world -- having surpassed $1 trillion in n",
             "With just a 0.03% expense ratio, or $3 for every $10,000 invested, it provides a low-cost way to invest in the S&P 500 ( ^GSPC +0.59% ) ."
           ],
-          "analysisUpdatedAt": 1791689595.7292974
+          "analysisUpdatedAt": 1791712842.4719105
         },
         "headlineKo": "VOO는 SpaceX, 대만 반도체, 삼성전자, SK 하이닉스 또는 ASML을 보유하지 않습니다. Vanguard ETF를 만나보세요."
       },
@@ -143926,7 +143937,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791689596.8313096
+          "analysisUpdatedAt": 1791712843.5362
         },
         "headlineKo": "ASML 주식 팬 여러분, 10월 14일 달력에 표시하세요"
       },
@@ -143976,7 +143987,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791689599.0851655
+          "analysisUpdatedAt": 1791712845.0458634
         },
         "headlineKo": "ASML Holding (ENXTAM:ASML), AI 하락 직면, 주식이 너무 비싼가요?"
       },
@@ -144111,6 +144122,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f1b67d7cfed671be3de632bd1afffede8f4a8531c32c9b799f2a0ae4c427eb9c",
         "datetime": 1791665493,
+        "headlineKo": "VOO는 SpaceX, 대만 반도체, 삼성전자, SK 하이닉스 또는 ASML을 보유하지 않습니다. Vanguard ETF를 만나보세요.",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -144165,7 +144177,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Vanguard S&P 500 ETF ( VOO +0.61% ) is the largest exchange-traded fund (ETF) in the world -- having surpassed $1 trillion in n",
             "With just a 0.03% expense ratio, or $3 for every $10,000 invested, it provides a low-cost way to invest in the S&P 500 ( ^GSPC +0.59% ) ."
           ],
-          "analysisUpdatedAt": 1791689595.7292974
+          "analysisUpdatedAt": 1791712842.4719105
         }
       },
       {
@@ -144173,6 +144185,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ec74b3c4cdf666b9d58930514ad5a3a75f418a9dafe700460ebcb53257611cfc",
         "datetime": 1791657002,
+        "headlineKo": "ASML 주식 팬 여러분, 10월 14일 달력에 표시하세요",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -144213,7 +144226,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791689596.8313096
+          "analysisUpdatedAt": 1791712843.5362
         }
       },
       {
@@ -144262,7 +144275,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791689599.0851655
+          "analysisUpdatedAt": 1791712845.0458634
         }
       },
       {
@@ -148255,15 +148268,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791689522.1907794,
-    "_updated_label": "2026-10-11 12:33",
-    "_last_success_at": 1791689522.1907794,
+    "_fetched_at": 1791712767.4624932,
+    "_updated_label": "2026-10-11 19:00",
+    "_last_success_at": 1791712767.4624932,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "AMAT": {
@@ -152833,7 +152846,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "LRCX": {
@@ -155370,7 +155383,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "KLAC": {
@@ -157714,7 +157727,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "MU": {
@@ -165326,7 +165339,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "SNDK": {
@@ -172927,7 +172940,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 158,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "WDC": {
@@ -177473,11 +177486,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 95,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "ANET": {
-    "_last_attempt_at": 1791689522.1907794,
+    "_last_attempt_at": 1791712767.4624932,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -177546,7 +177559,7 @@ const NEWS_DATA = {
             "| Trefis What Could Send Arista Networks Stock Higher?",
             "October 9th, 2026 · by Trefis Team ANET YTD +65.4% SPY YTD +14.8% QQQ YTD +22.6% Analyze ANET → Arista Networks (ANET) stock trades at 65.7 times earnings , compared with 21.5 for the S&P 500."
           ],
-          "analysisUpdatedAt": 1791689610.0959675
+          "analysisUpdatedAt": 1791712853.2763832
         },
         "headlineKo": "Arista Networks의 주식을 더 높게 보낼 수 있는 방법은 무엇입니까?"
       },
@@ -177596,7 +177609,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791689613.272426
+          "analysisUpdatedAt": 1791712855.2768831
         },
         "headlineKo": "강세 추세에 있는 Arista Networks 주식은 빠른 수익으로 스프레드 거래를 제공합니다."
       },
@@ -177616,9 +177629,9 @@ const NEWS_DATA = {
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → No.",
-            "1 stock to cash in on the death of iPhone (From Stansberry Research) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewed by Clare Titus October 9, 2026 Add As Preferred Source Share Share Share This Art",
-            "Close Key Points Arista Networks shares hit an all-time high near $217 after launching an open Ethernet rack-scale portfolio built with AMD, Broadcom, Meta, and Microsoft."
+            "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → Do NOT Buy SpaceX – Do This Instead (From Stansberry Research) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewed by Clare ",
+            "Close Key Points Arista Networks shares hit an all-time high near $217 after launching an open Ethernet rack-scale portfolio built with AMD, Broadcom, Meta, and Microsoft.",
+            "The new Etherlink SU-144 architecture offers a vendor-agnostic alternative to proprietary systems like NVIDIA's InfiniBand, reducing data center footprint by about 50%."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
@@ -177656,11 +177669,11 @@ const NEWS_DATA = {
             "$114.52"
           ],
           "sourceExcerpt": [
-            "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → No.",
-            "1 stock to cash in on the death of iPhone (From Stansberry Research) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewed by Clare Titus October 9, 2026 Add As Preferred Source Share Share Share This Art",
-            "Close Key Points Arista Networks shares hit an all-time high near $217 after launching an open Ethernet rack-scale portfolio built with AMD, Broadcom, Meta, and Microsoft."
+            "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → Do NOT Buy SpaceX – Do This Instead (From Stansberry Research) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewed by Clare ",
+            "Close Key Points Arista Networks shares hit an all-time high near $217 after launching an open Ethernet rack-scale portfolio built with AMD, Broadcom, Meta, and Microsoft.",
+            "The new Etherlink SU-144 architecture offers a vendor-agnostic alternative to proprietary systems like NVIDIA's InfiniBand, reducing data center footprint by about 50%."
           ],
-          "analysisUpdatedAt": 1791689618.2521324
+          "analysisUpdatedAt": 1791712868.2802665
         },
         "headlineKo": "Arista Networks, 사상 최고 기록 달성"
       },
@@ -177746,7 +177759,7 @@ const NEWS_DATA = {
             "| Trefis What Could Send Arista Networks Stock Higher?",
             "October 9th, 2026 · by Trefis Team ANET YTD +65.4% SPY YTD +14.8% QQQ YTD +22.6% Analyze ANET → Arista Networks (ANET) stock trades at 65.7 times earnings , compared with 21.5 for the S&P 500."
           ],
-          "analysisUpdatedAt": 1791689610.0959675
+          "analysisUpdatedAt": 1791712853.2763832
         }
       },
       {
@@ -177795,7 +177808,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791689613.272426
+          "analysisUpdatedAt": 1791712855.2768831
         }
       },
       {
@@ -177814,9 +177827,9 @@ const NEWS_DATA = {
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → No.",
-            "1 stock to cash in on the death of iPhone (From Stansberry Research) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewed by Clare Titus October 9, 2026 Add As Preferred Source Share Share Share This Art",
-            "Close Key Points Arista Networks shares hit an all-time high near $217 after launching an open Ethernet rack-scale portfolio built with AMD, Broadcom, Meta, and Microsoft."
+            "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → Do NOT Buy SpaceX – Do This Instead (From Stansberry Research) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewed by Clare ",
+            "Close Key Points Arista Networks shares hit an all-time high near $217 after launching an open Ethernet rack-scale portfolio built with AMD, Broadcom, Meta, and Microsoft.",
+            "The new Etherlink SU-144 architecture offers a vendor-agnostic alternative to proprietary systems like NVIDIA's InfiniBand, reducing data center footprint by about 50%."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
@@ -177854,11 +177867,11 @@ const NEWS_DATA = {
             "$114.52"
           ],
           "sourceExcerpt": [
-            "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → No.",
-            "1 stock to cash in on the death of iPhone (From Stansberry Research) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewed by Clare Titus October 9, 2026 Add As Preferred Source Share Share Share This Art",
-            "Close Key Points Arista Networks shares hit an all-time high near $217 after launching an open Ethernet rack-scale portfolio built with AMD, Broadcom, Meta, and Microsoft."
+            "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → Do NOT Buy SpaceX – Do This Instead (From Stansberry Research) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewed by Clare ",
+            "Close Key Points Arista Networks shares hit an all-time high near $217 after launching an open Ethernet rack-scale portfolio built with AMD, Broadcom, Meta, and Microsoft.",
+            "The new Etherlink SU-144 architecture offers a vendor-agnostic alternative to proprietary systems like NVIDIA's InfiniBand, reducing data center footprint by about 50%."
           ],
-          "analysisUpdatedAt": 1791689618.2521324
+          "analysisUpdatedAt": 1791712868.2802665
         }
       },
       {
@@ -181196,15 +181209,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791689522.1907794,
-    "_updated_label": "2026-10-11 12:33",
-    "_last_success_at": 1791689522.1907794,
+    "_fetched_at": 1791712767.4624932,
+    "_updated_label": "2026-10-11 19:01",
+    "_last_success_at": 1791712767.4624932,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "COHR": {
@@ -184368,7 +184381,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "LITE": {
@@ -188098,7 +188111,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 80,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "GEV": {
@@ -193268,7 +193281,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "CEG": {
@@ -197688,7 +197701,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "VST": {
@@ -201070,7 +201083,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "ETN": {
@@ -204234,7 +204247,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "PWR": {
@@ -207174,7 +207187,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "HUBB": {
@@ -207892,7 +207905,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "VRT": {
@@ -211762,7 +211775,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "MOD": {
@@ -213090,7 +213103,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "STX": {
@@ -217148,7 +217161,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "EME": {
@@ -218911,7 +218924,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "FIX": {
@@ -220505,7 +220518,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   },
   "BE": {
@@ -222894,7 +222907,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-11 18:27"
+      "updated": "2026-10-11 19:01"
     }
   }
 };
