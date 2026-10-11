@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Saudi-led coalition says new attack at Riyadh airport causes fire, day after strike kills 12 - Reuters",
+      "summary": "Saudi-led coalition says new attack at Riyadh airport causes fire, day after strike kills 12 Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSEo0VkFTZkY2VzMzeFV0OVRVbWN4aHFzaXFjV0FBN05uaEFONHhQVTN2a3JJM09NdFBzY1R3MnRrUFZOeFZfUDItOUd1NkxiT3dfOWduTHJKTlBzSGsyN3VCYTNkWG1ZTWlZMUpzbDdrc1dOZUs3VDRwa0lHN21tNnFNdFhQYUxoNmdfN1Zyb3FMRm04RzRVei0zY3FKN0FoY2JYTGFodjYtemdITVpKVXk3NlR2QXFIMU9YMnUtX004QW1GZ0UzZA?oc=5",
+      "datetime": 1791732736
+    },
+    {
       "headline": "Strike reported on Yemeni Sanaa airport, Houthi-run TV says - Reuters",
       "summary": "Strike reported on Yemeni Sanaa airport, Houthi-run TV says Reuters",
       "source": "Reuters",
@@ -263,13 +270,6 @@ const MARKET_DATA = {
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/11/commissioner-adam-silver-nba-could-launch-smart-ball-tech-next-year.html",
       "datetime": 1791720001
-    },
-    {
-      "headline": "Yemen's Houthis renew warning over Saudi airports after deadly Riyadh attack - Reuters",
-      "summary": "Yemen's Houthis renew warning over Saudi airports after deadly Riyadh attack Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSEo0VkFTZkY2VzMzeFV0OVRVbWN4aHFzaXFjV0FBN05uaEFONHhQVTN2a3JJM09NdFBzY1R3MnRrUFZOeFZfUDItOUd1NkxiT3dfOWduTHJKTlBzSGsyN3VCYTNkWG1ZTWlZMUpzbDdrc1dOZUs3VDRwa0lHN21tNnFNdFhQYUxoNmdfN1Zyb3FMRm04RzRVei0zY3FKN0FoY2JYTGFodjYtemdITVpKVXk3NlR2QXFIMU9YMnUtX004QW1GZ0UzZA?oc=5",
-      "datetime": 1791715718
     },
     {
       "headline": "Yemen's Houthis renew warning to airlines, travellers against using Saudi airports - Reuters",
@@ -328,15 +328,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791738096.1061184,
+  "_news_last_success_at": 1791741694.8147147,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791738060.5030346,
-  "_updated_label": "2026-10-12 02:02",
-  "_last_attempt_at": 1791738060.5030346,
-  "_last_success_at": 1791738060.5030346,
+  "_fetched_at": 1791741660.7886674,
+  "_updated_label": "2026-10-12 03:02",
+  "_last_attempt_at": 1791741660.7886674,
+  "_last_success_at": 1791741660.7886674,
   "_collection_status": "ok",
   "_collection_errors": []
 };
