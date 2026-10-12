@@ -5597,29 +5597,16 @@ function computePriceValidity(r){
       price = '적정';
     }
   } else {
-    // --- 51750 -- 51749의 3축(성장 전망/EPS 수정/현금흐름)은 전부 "기업의 질"이고 가격
-    //     자체에 대한 신호가 없었다(사용자 지적, 2026-10-11 — "좋은 기업도 이미 그 성장을
-    //     주가가 과도하게 반영했으면 고평가일 수 있다. 지금 대체 모델은 '좋은 기업'을 '싼
-    //     주식'으로 읽을 위험이 있다"). 사용자가 요청한 교체: 3축 중 하나를 "현재 가격
-    //     부담" 축으로 바꿔 4축 구조로 만든다 -- 성장·EPS 수정·현금흐름 3축은 여전히 "사업
-    //     신호"로 남기고, 그 앞에 "가격이 실제로 비싼가"를 보는 축을 추가한다. 새 데이터
-    //     소스는 추가하지 않는다 -- 가격 부담은 이미 계산돼 있는 ntmPer(과거 PER 밴드용
-    //     NTM PER)·growthSig.g2(+1y EPS 성장률)·pvTtmFcfYield(위 PATCH A, pvCrossCheck와
-    //     동일 입력)만 재사용한다(사용자 지정 구성 그대로: "NTM PER ÷ 다음 회계연도 EPS
-    //     성장률" + "TTM FCF 수익률", "현재가-목표가 거리"는 보조 참고로만).
+    // --- 2026-10-12 단순 재설계(사용자 요청: "판단 로직이 너무 복잡해졌다·실제 투자
+    //     결정에 도움이 안 된다·데이터 공백이 많다") -- 51749~51752에서 쌓인 4축
+    //     (성장/EPS 수정/현금흐름/가격 부담) + 2축 정렬 규칙 + 별도 목표가·뉴스위험
+    //     참고축을 "가격 부담(PEG) 하나 + 사업 경고 하나"의 2신호 교차표로 되돌린다.
+    //     PEG·기저효과 보정 계산 자체(51751/51752, 실제 EPS 금액 기준)는 그대로
+    //     재사용하고, 설명·축 개수만 줄인다. 거부권 3종(현금흐름 거부권·활성 하락
+    //     원인 진단·EPS 하향 전환)은 51749~51750과 동일하게 가격 부담과 무관하게
+    //     단독으로 고평가를 결정한다(이 부분은 바뀌지 않음 — 구조적 위험이 싸 보이는
+    //     가격을 덮어쓰는 동작은 여러 라운드에 걸쳐 사용자가 직접 확정한 규칙). ---
     const growthPct = (typeof growthSig.g2==='number') ? growthSig.g2*100 : null;
-    // --- 51751/51752 -- 기저효과 안전장치(사용자 지적, 2026-10-11, 2차 보정으로 계산식을
-    //     퍼센트 기하평균에서 실제 EPS 금액 비율로 교체): +1y EPS 성장률이 50%를 초과하면
-    //     전년도 실적이 비정상적으로 낮았던 기저효과일 위험이 있어 PEG가 지나치게 낮게 나올
-    //     수 있다. 기준연도 EPS(달러) = epsAvg0/(1+g1)로 재구성(새 데이터 없이 기존
-    //     epsAvg0·g1만 사용), 다음 회계연도 EPS(달러) = epsAvg1 그대로. 이 둘의 실제 금액
-    //     비율로 2개년 CAGR을 구해, PEG 계산에는 다음 1년 성장률과 이 CAGR 중 더 낮은
-    //     (보수적인) 값을 쓴다. 기준연도 EPS가 0 이하이거나 적자→흑자 전환이라 금액 비율
-    //     계산 자체가 불가능하면(사용자 지시) CAGR을 계산하지 않고 다음 1년 성장률을 그대로
-    //     쓰되, 그 사실 자체를 무조건 "기저효과 가능성"으로 표시하고 신뢰도를 한 단계
-    //     낮춘다. 계산이 가능한 경우는 기존처럼 둘의 차이가 15%p 이상일 때만 "기저효과
-    //     가능성"을 표시한다(가격 판단을 보류하지 않음, 신뢰도만 한 단계 낮춤 --
-    //     confidencePenalty는 아래). ---
     let growthPctForPeg = growthPct;
     let cagr2yPct = null;
     let cagrUncomputable = false;
@@ -5640,51 +5627,18 @@ function computePriceValidity(r){
       }
     }
     const peg = (ntmSourceOk && typeof ntmPer==='number' && growthPctForPeg!=null && growthPctForPeg>0) ? ntmPer/growthPctForPeg : null;
-    const fcfYieldTtm = pvTtmFcfYield(fin, fund);
-    let burdenScore = null;
-    if(peg!=null){
-      burdenScore = 1;
-      if(peg<1) burdenScore -= 1; else if(peg>=2) burdenScore += 1;
-    } else if(growthPct!=null && growthPct<=0){
-      // 성장률이 0 이하면 PEG 자체를 계산할 수 없다 -- 성장이 없는데 밴드 PER이 붙어 있는
-      // 상태를 "가격 부담 높음"으로 명시적으로 처리한다(지어낸 수치가 아니라 PEG 미계산
-      // 상태를 보수적으로 해석하는 것).
-      burdenScore = 2;
-    }
-    if(fcfYieldTtm!=null){
-      burdenScore = (burdenScore==null) ? 1 : burdenScore;
-      if(fcfYieldTtm>=4) burdenScore -= 1; else if(fcfYieldTtm<0) burdenScore += 1;
-    }
-    if(burdenScore!=null) burdenScore = Math.max(0, Math.min(2, burdenScore));
-    const burdenLevel = burdenScore===0 ? '낮음' : (burdenScore===1 ? '보통' : (burdenScore===2 ? '높음' : null));
-    const burdenParts = [];
-    burdenParts.push(peg!=null ? `NTM PER÷성장률 ${peg.toFixed(2)}(PER ${ntmSourceOk&&typeof ntmPer==='number'?ntmPer.toFixed(1):'—'}배 ÷ 성장률 ${growthPctForPeg!=null?growthPctForPeg.toFixed(1):'—'}%${cagr2yPct!=null?`, 다음 회계연도 성장률 ${growthPct.toFixed(1)}% 대신 EPS 금액 기준 2개년 CAGR ${cagr2yPct.toFixed(1)}% 사용(기저효과 안전장치)`:''})`
-      : (growthPct!=null && growthPct<=0 ? `성장률 ${growthPct.toFixed(1)}%로 0 이하 — PEG 계산 불가(가격 부담 가산 요인 — FCF 등 다른 요인으로 조정될 수 있음)` : 'NTM PER·성장률 데이터 부족'));
-    if(cagrUncomputable) burdenParts.push(`기저효과 가능성(다음 회계연도 성장률 ${growthPct!=null?growthPct.toFixed(1):'—'}%이 급등 구간이나, 기준연도 EPS 추정이 0 이하이거나 적자→흑자 전환이라 실제 EPS 금액 기준 2개년 CAGR 계산 불가 — 다음 1년 성장률 그대로 사용, 신뢰도 한 단계 감점)`);
-    else if(baseEffectFlag) burdenParts.push('기저효과 가능성(다음 회계연도 성장률과 EPS 금액 기준 2개년 CAGR 차이 15%p 이상 — 신뢰도 한 단계 감점)');
-    burdenParts.push(fcfYieldTtm!=null ? `TTM FCF 수익률 ${fcfYieldTtm>=0?'+':''}${fcfYieldTtm.toFixed(1)}%` : 'TTM FCF 수익률 데이터 부족');
-    const edForTarget = (typeof ESTIMATES_DATA!=='undefined') ? ESTIMATES_DATA[t] : null;
-    if(edForTarget && typeof edForTarget.targetMean==='number' && r.price>0){
-      const dist = (edForTarget.targetMean/r.price - 1)*100;
-      burdenParts.push(`현재가-목표가 거리 ${dist>=0?'+':''}${dist.toFixed(1)}%(보조 참고, 단독 근거 아님)`);
-    }
-    const burdenDetail = (burdenLevel ? `가격 부담 ${burdenLevel} — ` : '가격 부담 데이터 부족 — ') + burdenParts.join(', ');
 
-    const growthAxis = growthStrong ? '긍정' : (growthWeak ? '부정' : '중립');
-    const epsAxis = epsDir0==='상향' ? '긍정' : (epsDir0==='하향' ? '부정' : '중립');
-    const cfAxis = cfVeto ? '부정' : (cfVetoCount>=1 ? '중립' : '긍정');
-    const businessAxes = [growthAxis, epsAxis, cfAxis];
-    const posCount = businessAxes.filter(x=>x==='긍정').length;
-    const negCount = businessAxes.filter(x=>x==='부정').length;
+    // 가격 부담(싸다/보통/비싸다/확인 불가) -- PEG 하나로 판정. 성장률이 0% 이하라
+    // PEG 자체를 계산할 수 없으면(성장이 없는데 밸류에이션이 붙어 있는 상태) 보수적으로
+    // "비싸다"로 처리한다(지어낸 수치 아님 — PEG 미계산 상태의 명시적 해석).
+    let priceBurden;
+    if(peg!=null) priceBurden = peg<1.2 ? '싸다' : (peg>=2.5 ? '비싸다' : '보통');
+    else if(growthPct!=null && growthPct<=0) priceBurden = '비싸다';
+    else priceBurden = '확인 불가';
 
-    const marketRefAxis = (targetDir && targetDir.dir==='상향') ? '긍정' : ((targetDir && targetDir.dir==='하향') ? '부정' : '중립');
-    // --- 51750 -- "활성 하락 원인 진단 없음"은 뉴스·규제 위험이 중립(=위험 없음 확인됨)이란
-    //     뜻이 아니라 데이터가 없다는 뜻이다(사용자 지적). dcRaw(DOWNTURN_CAUSE_CARDS_V31의
-    //     해당 종목 항목) 자체가 없으면 '확인 불가'로 명시하고, 실제로 하락 원인 진단 카드가
-    //     있는 종목(활성 위험이든 '조정 대상 아님'이든)만 중립/부정을 부여한다. ---
+    // 사업 경고(거부권 3종, 51749/51750과 동일한 조건) -- 하나라도 성립하면 가격 부담과
+    // 무관하게 즉시 고평가.
     const newsRiskActive = !!(downturnState && (downturnState === '신규 접근 중지' || downturnState.indexOf('관찰')===0));
-    const newsRiskAxis = !dcRaw ? '확인 불가' : (newsRiskActive ? '부정' : '중립');
-
     const structuralVeto = cfVeto || newsRiskActive;
     const sharpEpsDowngradeVeto = epsDir0 === '하향';
     let vetoReason = null;
@@ -5692,51 +5646,28 @@ function computePriceValidity(r){
     else if(newsRiskActive) vetoReason = `하락 원인 진단 활성(${downturnState}${downturnSummary?` — ${downturnSummary}`:''})`;
     else if(sharpEpsDowngradeVeto) vetoReason = 'EPS 수정 방향 하향 전환';
 
-    // --- 51750 핵심 교체: 가격 부담 축이 먼저 "비싼가/싼가"를 판정하고, 나머지 3개 사업
-    //     신호가 그 판정을 뒷받침하는지만 본다(사용자 확정 규칙 그대로) --
-    //     저평가 = 가격 부담 낮음|보통 AND 사업 신호 2개 이상 긍정
-    //     고평가 = 가격 부담 높음 AND 사업 신호 1개 이상 부정
-    //     적정   = 가격 부담과 사업 신호가 엇갈림(또는 가격 부담 데이터 부족)
-    //     거부권(현금흐름 거부권·활성 하락 원인 진단·EPS 하향 전환)은 그대로 단독 고평가. ---
     if(structuralVeto || sharpEpsDowngradeVeto){
       price = '고평가';
-    } else if(burdenLevel==='높음' && negCount>=1){
+    } else if(priceBurden==='비싸다' || priceBurden==='확인 불가'){
       price = '고평가';
-    } else if((burdenLevel==='낮음' || burdenLevel==='보통') && posCount>=2){
+    } else if(priceBurden==='싸다'){
       price = '저평가';
     } else {
       price = '적정';
     }
 
-    const axisLabel = (nm, v) => `${nm} ${v}`;
-    if(vetoReason){
-      fallbackDecisiveReason = `거부권: ${vetoReason}`;
-    } else if(price === '고평가'){
-      const negList = [];
-      if(growthAxis==='부정') negList.push(axisLabel('성장 전망', growthAxis));
-      if(epsAxis==='부정') negList.push(axisLabel('EPS 수정 방향', epsAxis));
-      if(cfAxis==='부정') negList.push(axisLabel('현금흐름·부채', cfAxis));
-      fallbackDecisiveReason = `가격 부담 높음 · ${negList.slice(0,2).join(' · ')||'사업 신호 부정'}`;
-    } else if(price === '저평가'){
-      const posList = [];
-      if(growthAxis==='긍정') posList.push(axisLabel('성장 전망', growthAxis));
-      if(epsAxis==='긍정') posList.push(axisLabel('EPS 수정 방향', epsAxis));
-      if(cfAxis==='긍정') posList.push(axisLabel('현금흐름·부채', cfAxis));
-      fallbackDecisiveReason = `가격 부담 ${burdenLevel} · ${posList.slice(0,2).join(' · ')||'사업 신호 긍정'}`;
-    } else if(burdenLevel==null){
-      fallbackDecisiveReason = '가격 부담 데이터 부족 — 사업 신호만으로 결론 내리지 않고 적정 유지(신뢰도 낮음)';
-    } else {
-      fallbackDecisiveReason = `가격 부담(${burdenLevel})과 사업 신호(성장 ${growthAxis}·EPS ${epsAxis}·현금흐름 ${cfAxis})가 엇갈려 적정 유지`;
-    }
+    const pegText = peg!=null
+      ? `PEG(NTM PER÷성장률) ${peg.toFixed(2)}배${cagr2yPct!=null?` — 성장률 급등 구간(다음 회계연도 +${growthPct.toFixed(1)}%)이라 EPS 금액 기준 2개년 CAGR(+${cagr2yPct.toFixed(1)}%)과 비교해 더 낮은(보수적인) 쪽 사용`:''}`
+      : (cagrUncomputable ? '기준연도 EPS 추정이 0 이하이거나 적자→흑자 전환이라 PEG 계산 불가(기저효과 가능성 — 신뢰도 한 단계 감점)'
+         : (growthPct!=null && growthPct<=0 ? `다음 회계연도 성장률 ${growthPct.toFixed(1)}%로 0 이하 — PEG 계산 불가(가격 부담 가산 요인)` : 'NTM PER 또는 성장률 데이터 부족 — PEG 계산 불가'));
 
-    const dcMeta = (typeof DOWNTURN_CAUSE_CARDS_V31!=='undefined' && DOWNTURN_CAUSE_CARDS_V31) ? DOWNTURN_CAUSE_CARDS_V31 : null;
+    fallbackDecisiveReason = vetoReason
+      ? `거부권: ${vetoReason}`
+      : `가격 부담 ${priceBurden}(${pegText})`;
+
     fallbackAxes = {
-      priceBurden: { label: burdenLevel || '확인 불가', detail: burdenDetail },
-      growth: { label: growthAxis, detail: (typeof growthSig.g2==='number') ? `다음 회계연도 컨센서스 EPS 성장률 ${(growthSig.g2*100>=0?'+':'')}${(growthSig.g2*100).toFixed(1)}%` : '성장률 데이터 없음' },
-      epsDir: { label: epsAxis, detail: epsDir0 ? `EPS 수정 방향 ${epsDir0}` : 'EPS 수정 방향 데이터 없음' },
-      cashflow: { label: cfAxis, detail: cfDetail.length ? cfDetail.join(', ') : 'FCF·부채·희석 악화 신호 없음' },
-      marketRef: { label: marketRefAxis, detail: targetDir ? `목표가 평균 58일 추이 ${targetDir.dir}(${targetDir.pct>=0?'+':''}${targetDir.pct.toFixed(1)}%) — 참고용, 단독 근거 아님` : '목표가 추이 데이터 없음(참고용, 단독 근거 아님)' },
-      newsRisk: { label: newsRiskAxis, detail: !dcRaw ? '하락 원인 진단 데이터 없음 — 확인되지 않음(중립으로 간주하지 않음)' : (newsRiskActive ? `${downturnState}${downturnSummary?` — ${downturnSummary}`:''} (출처: ${dcMeta&&dcMeta.source?dcMeta.source:'하락 원인 진단'} · 기준일 ${dcMeta&&dcMeta.generated?String(dcMeta.generated).slice(0,10):'—'})` : `${downturnState}${downturnSummary?` — ${downturnSummary}`:''}(진단 결과 활성 위험 없음, 출처: ${dcMeta&&dcMeta.source?dcMeta.source:'하락 원인 진단'} · 기준일 ${dcMeta&&dcMeta.generated?String(dcMeta.generated).slice(0,10):'—'})`) },
+      priceBurden: { label: priceBurden, detail: pegText },
+      bizWarning: { label: vetoReason ? '경고' : '양호', detail: vetoReason || 'EPS 하향 전환·현금흐름 거부권·활성 하락 원인 진단 없음' },
     };
   }
   const priceHoldReason = null; // 51748 -- 가격 판단 보류 폐지. 대체 모델 사용 여부는 usedFallbackModel로 노출.
@@ -5744,21 +5675,17 @@ function computePriceValidity(r){
   // 동시에 성립하면 가격 판단과 무관하게 종합 행동에서 신규 접근 중지로 이어진다(변경 없음).
   const highRiskCombo = !!(epsDamaged && cfVeto);
 
-  // --- 신뢰도 (51748 신규) -- 데이터가 약해도 가격 결론은 그대로 내고, 신뢰도만 낮춘다
-  //     (사용자 명시: "신뢰도 낮음은 결론을 숨기는 라벨이 아니라 다음 실적·가이던스·규제
-  //     뉴스를 더 확인해야 한다는 뜻"). 감점 요인 4개(대체 모델 사용/공식 비GAAP EPS
-  //     가이던스 없음/애널리스트 수 10명 미만/다음 회계연도 성장률 데이터 없음) 중
-  //     0개=높음, 1개=보통, 2개 이상=낮음. ---
+  // --- 신뢰도 (51748 신규, 2026-10-12 단순화) -- 데이터가 약해도 가격 결론은 그대로
+  //     내고, 신뢰도만 낮춘다. 감점 요인을 6개에서 3개로 줄였다(사용자 지적 "복잡하다" 반영,
+  //     세부 사유는 wasSoft 로직을 없앤 게 아니라 비슷한 요인을 합친 것): ① 대체 모델 사용,
+  //     ② 애널리스트 수 10명 미만 또는 다음 회계연도 성장률 데이터 없음(둘 다 "컨센서스
+  //     근거가 약하다"는 같은 뜻이라 하나로 합침), ③ 공식 비GAAP EPS 가이던스 없음 또는
+  //     PEG 기저효과 보정 발동(둘 다 "교차검증 수치에 추가 유보가 붙었다"는 같은 뜻). 0개=
+  //     높음, 1개=보통, 2개 이상=낮음. ---
   let confidencePenalty = 0;
   if(usedFallbackModel) confidencePenalty++;
-  if(gaapBasisOnly) confidencePenalty++;
-  if(typeof growthSig.analystCount==='number' && growthSig.analystCount < 10) confidencePenalty++;
-  if(typeof growthSig.g2 !== 'number') confidencePenalty++;
-  // 51750 -- 대체 모델 종목인데 하락 원인 진단 데이터 자체가 없는 경우("규제·뉴스 위험:
-  // 확인 불가") 추가 감점. 대체 모델 종목에 한정(그 축 자체가 대체 모델 카드에만 표시되므로
-  // 정상 밴드 종목까지 감점 범위를 넓히지 않는다 -- 사용자가 요청한 "제한된 보완" 범위를 지킴).
-  if(usedFallbackModel && !dcRaw) confidencePenalty++;
-  if(usedFallbackModel && baseEffectFlag) confidencePenalty++; // 51751 -- PEG 기저효과 가능성 신뢰도 1단계 감점
+  if((typeof growthSig.analystCount==='number' && growthSig.analystCount < 10) || typeof growthSig.g2 !== 'number') confidencePenalty++;
+  if(gaapBasisOnly || baseEffectFlag) confidencePenalty++;
   const priceConfidence = confidencePenalty>=2 ? '낮음' : (confidencePenalty===1 ? '보통' : '높음');
 
   // --- 10) EPS·현금흐름 전제의 모델 기준 가격대 (band 가능 시에만). 회계연도 추정치가 2개
@@ -6256,6 +6183,52 @@ const PV_COLOR = {
   '진입 가능':'#2f5b3c', '눌림 대기':'#7a5c00', '반등 확인':'#7a5c00', '관찰':'#5b6472',
 };
 
+// --- 2026-10-12 신규 -- "판단은 나오는데 오늘 뭘 해야 하는지 모르겠다"는 사용자 지적
+//     (51746에서 한 번 시도했다가 51747에서 "가격 판단을 먼저 단순화한 뒤에"라며 보류됐던
+//     문제). 가격 판단이 이번에 단순해졌으니 매수 구간·확인 조건·무효화 조건·다음 확인일
+//     네 줄을 다시 붙인다. 새 데이터·새 임계값은 전혀 추가하지 않는다 -- bandTable·
+//     cfDetail·ma200Pct는 이미 계산된 값 재사용. 다음 확인일만 51746 당시와 달리 실제
+//     데이터가 있다는 게 51748 조사로 확인된 NEWS_DATA[t].nextEarnings를 그대로 쓴다
+//     (데이터 공백이 아니라 안 쓰고 있었을 뿐 -- 사용자가 지적한 "데이터 공백이 많다"를
+//     코드 수정 없이 기존 데이터 연결만으로 줄이는 사례). ---
+function pvDecisionInfo(d, r, act, num){
+  const out = { buyZone: null, confirmCond: null, invalidateCond: null, nextCheck: null };
+
+  const bandDisplayEligible = d.bandEligible && !d.distorted;
+  if(bandDisplayEligible && d.bandTable){
+    const bt = d.bandTable;
+    out.buyZone = `$${bt.conservative.price.toFixed(2)} ~ $${bt.base.price.toFixed(2)}(상단 $${bt.upside.price.toFixed(2)} 초과 시 기대 선반영 경계)`;
+  } else if(d.usedFallbackModel){
+    const ed = (typeof ESTIMATES_DATA!=='undefined') ? ESTIMATES_DATA[r.ticker] : null;
+    if(ed && typeof ed.targetMean==='number' && num(r.price) && r.price>0){
+      const dist = (ed.targetMean/r.price - 1)*100;
+      out.buyZone = `숫자 매수 구간 없음(대체 모델 — PEG 기준 판단) · 참고: 목표가 평균과 거리 ${dist>=0?'+':''}${dist.toFixed(1)}%(단독 근거 아님)`;
+    } else {
+      out.buyZone = '숫자 매수 구간 없음(대체 모델 — PEG 기준 판단)';
+    }
+  } else {
+    out.buyZone = `숫자 매수 구간 없음 — ${d.blockReason||'과거 PER 비교 불가'}`;
+  }
+
+  const ma200Pct = num(r.ma200Pct) ? r.ma200Pct : null;
+  if(act.tier === 'chart_downtrend'){
+    out.confirmCond = ma200Pct!=null ? `200일선 복귀(현재 ${ma200Pct>=0?'+':''}${ma200Pct.toFixed(1)}% → 0% 이상) 또는 EPS 상향 전환` : '200일선 복귀 또는 EPS 상향 전환';
+  } else if(act.tier === 'chart_wait'){
+    out.confirmCond = 'EPS 상향 흐름 유지 확인 또는 추가 하락 시 매수 구간 재평가';
+  }
+
+  const invalidParts = [];
+  if(d.cfVeto) invalidParts.push(`이미 발동: ${d.cfDetail.join(', ')}`);
+  else if(d.cfDetail.length) invalidParts.push(`1개 더 성립 시 신규 접근 중지: ${d.cfDetail.join(', ')}`);
+  if(d.epsDamaged) invalidParts.push('EPS 수정 방향 이미 하향');
+  out.invalidateCond = invalidParts.length ? invalidParts.join(' · ') : '현재 무효화 신호 없음(현금흐름·EPS 추가 악화 시 재평가)';
+
+  const ne = (typeof NEWS_DATA!=='undefined' && NEWS_DATA && NEWS_DATA[r.ticker]) ? NEWS_DATA[r.ticker].nextEarnings : null;
+  out.nextCheck = (ne && ne.date) ? `다음 실적 발표 ${esc(ne.date)}${ne.estimate!=null?` (컨센서스 EPS $${Number(ne.estimate).toFixed(2)})`:''}` : '실적 캘린더 데이터 없음(데이터 공백)';
+
+  return out;
+}
+
 function renderPriceValidityCard(r){
   if(!r || !r.ticker) return '';
   const NEU_BG='#eef0f3', NEU_TEXT='#3c4552', NEU_LINE='#d7dbe1', NEU_DIM='#5b6472';
@@ -6313,6 +6286,7 @@ function renderPriceValidityCard(r){
   const rationaleLines = pvPriceRationale(d, num);
   const riskLines = pvPriceRiskLine(d);
   const chartSimpleLabel = pvChartSimple(d);
+  const decisionInfo = pvDecisionInfo(d, r, act, num);
   const fixedFormatBox = `
     <div style="margin-top:4px;padding:13px 15px;border-radius:10px;border:1.5px solid #3c4552;background:#fff;">
       <div style="font-size:11px;color:${NEU_DIM};font-weight:700;">현재 가격 판단</div>
@@ -6338,21 +6312,16 @@ function renderPriceValidityCard(r){
   //     등)에는 표시하지 않는다 -- 사용자 지적이 대체 모델 종목(AVGO·CRM)에 한정됐고, 정상
   //     밴드 분류는 기존 판단 근거 3줄로 이미 충분하다고 확인됐기 때문. ---
   const fallbackAxesBox = (d.usedFallbackModel && d.fallbackAxes) ? (() => {
-    const AXIS_COLOR = {'긍정':'#2f5b3c','중립':'#5b6472','부정':'#7a3b2e'};
-    const BURDEN_COLOR = {'낮음':'#2f5b3c','보통':'#5b6472','높음':'#7a3b2e','확인 불가':'#8a6d1f'};
-    const row = (name, ax) => `<div style="display:flex;justify-content:space-between;align-items:baseline;padding:4px 0;border-bottom:1px solid #e3e6ea;font-size:11.5px;gap:10px;"><span style="color:${NEU_DIM};white-space:nowrap;">${esc(name)}</span><span style="text-align:right;"><b style="color:${AXIS_COLOR[ax.label]||NEU_TEXT};">${esc(ax.label)}</b><br><span style="font-size:10.3px;color:${NEU_DIM};">${esc(ax.detail)}</span></span></div>`;
-    const burdenRow = (ax) => `<div style="display:flex;justify-content:space-between;align-items:baseline;padding:4px 0;border-bottom:1px solid #e3e6ea;font-size:11.5px;gap:10px;"><span style="color:${NEU_DIM};white-space:nowrap;">현재 가격 부담</span><span style="text-align:right;"><b style="color:${BURDEN_COLOR[ax.label]||NEU_TEXT};">${esc(ax.label)}</b><br><span style="font-size:10.3px;color:${NEU_DIM};">${esc(ax.detail)}</span></span></div>`;
+    const BURDEN_COLOR = {'싸다':'#2f5b3c','보통':'#5b6472','비싸다':'#7a3b2e','확인 불가':'#8a6d1f'};
+    const WARN_COLOR = {'양호':'#2f5b3c','경고':'#7a3b2e'};
+    const row = (name, label, detail, colorMap) => `<div style="display:flex;justify-content:space-between;align-items:baseline;padding:4px 0;border-bottom:1px solid #e3e6ea;font-size:11.5px;gap:10px;"><span style="color:${NEU_DIM};white-space:nowrap;">${esc(name)}</span><span style="text-align:right;"><b style="color:${colorMap[label]||NEU_TEXT};">${esc(label)}</b><br><span style="font-size:10.3px;color:${NEU_DIM};">${esc(detail)}</span></span></div>`;
     return `
     <div style="margin-top:8px;padding:11px 13px;border-radius:10px;border:1px solid ${NEU_LINE};background:#fff;">
-      <div style="font-size:11px;color:${NEU_DIM};font-weight:700;margin-bottom:4px;">대체 모델 판단 근거(과거 PER 비교 불가 — 가격 부담·성장·EPS 수정·현금흐름 교차검증)</div>
-      ${burdenRow(d.fallbackAxes.priceBurden)}
-      ${row('성장 전망', d.fallbackAxes.growth)}
-      ${row('EPS 수정 방향', d.fallbackAxes.epsDir)}
-      ${row('현금흐름·부채', d.fallbackAxes.cashflow)}
-      ${row('시장 기대 참고(목표가 방향)', d.fallbackAxes.marketRef)}
-      ${row('규제·뉴스 위험', d.fallbackAxes.newsRisk)}
+      <div style="font-size:11px;color:${NEU_DIM};font-weight:700;margin-bottom:4px;">대체 모델 판단 근거(과거 PER 비교 불가 — 가격 부담 + 사업 경고 2신호만 교차)</div>
+      ${row('가격 부담(PEG 기준)', d.fallbackAxes.priceBurden.label, d.fallbackAxes.priceBurden.detail, BURDEN_COLOR)}
+      ${row('사업 경고(현금흐름·하락원인진단·EPS 하향)', d.fallbackAxes.bizWarning.label, d.fallbackAxes.bizWarning.detail, WARN_COLOR)}
       <div style="margin-top:7px;font-size:11px;color:${NEU_TEXT};line-height:1.5;"><b style="color:${NEU_DIM};">결정적 이유</b> — ${esc(d.fallbackDecisiveReason||'—')}</div>
-      <div style="margin-top:4px;font-size:10px;color:${NEU_DIM};font-style:italic;">저평가는 가격 부담이 낮음·보통이고 성장·EPS 수정·현금흐름 중 2개 이상이 긍정일 때만, 고평가는 가격 부담이 높고 셋 중 1개 이상이 부정일 때만 표시됩니다. 둘이 엇갈리면 적정입니다. 현금흐름 거부권·활성 하락 원인 진단·EPS 하향 전환은 단독으로 고평가 판정을 허용합니다(거부권). 목표가·뉴스 위험은 참고만 하며 단독 근거로 쓰지 않고, 뉴스 위험 데이터가 없으면 중립이 아니라 "확인 불가"로 표시됩니다.</div>
+      <div style="margin-top:4px;font-size:10px;color:${NEU_DIM};font-style:italic;">사업 경고(현금흐름 거부권·활성 하락 원인 진단·EPS 하향 전환) 중 하나라도 있으면 가격 부담과 무관하게 고평가입니다. 경고가 없으면 가격 부담이 '싸다'일 때만 저평가, 그 외는 적정입니다.</div>
     </div>`;
   })() : '';
 
