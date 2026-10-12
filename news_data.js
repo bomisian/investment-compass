@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1791783020.1860301,
+    "_last_attempt_at": 1791805853.6943445,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -5571,13 +5571,14 @@ const NEWS_DATA = {
     "_fetched_at": 1791783020.1860301,
     "_updated_label": "2026-10-12 14:30",
     "_last_success_at": 1791783020.1860301,
-    "_collection_status": "ok",
+    "_collection_status": "error",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 109,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
-    }
+      "updated": "2026-10-12 20:52"
+    },
+    "_last_error": "The read operation timed out"
   },
   "SPY": {
     "_last_attempt_at": 1791798773.7665346,
@@ -12695,7 +12696,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 143,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "MSFT": {
@@ -20652,7 +20653,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "GOOGL": {
@@ -28755,7 +28756,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "AMZN": {
@@ -36847,7 +36848,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "META": {
@@ -44952,7 +44953,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "AAPL": {
@@ -52912,7 +52913,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "TSLA": {
@@ -61108,7 +61109,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "ORCL": {
@@ -69423,7 +69424,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "CRM": {
@@ -75780,7 +75781,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "PLTR": {
@@ -84479,7 +84480,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "NVDA": {
@@ -92217,7 +92218,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "AMD": {
@@ -100387,7 +100388,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "AVGO": {
@@ -109472,7 +109473,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "QCOM": {
@@ -116577,7 +116578,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 153,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "ARM": {
@@ -121710,7 +121711,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "MRVL": {
@@ -129971,7 +129972,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 177,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "INTC": {
@@ -138428,7 +138429,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "TSM": {
@@ -145328,7 +145329,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 151,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "ASML": {
@@ -150069,7 +150070,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "AMAT": {
@@ -154749,7 +154750,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "LRCX": {
@@ -157319,7 +157320,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "KLAC": {
@@ -159775,7 +159776,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "MU": {
@@ -167539,7 +167540,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "SNDK": {
@@ -175285,7 +175286,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 161,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "WDC": {
@@ -179880,11 +179881,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "ANET": {
-    "_last_attempt_at": 1791783020.1860301,
+    "_last_attempt_at": 1791805853.6943445,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -183606,13 +183607,14 @@ const NEWS_DATA = {
     "_fetched_at": 1791783020.1860301,
     "_updated_label": "2026-10-12 14:31",
     "_last_success_at": 1791783020.1860301,
-    "_collection_status": "ok",
+    "_collection_status": "error",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
-    }
+      "updated": "2026-10-12 20:52"
+    },
+    "_last_error": "The read operation timed out"
   },
   "COHR": {
     "_last_attempt_at": 1791798773.7665346,
@@ -186775,7 +186777,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "LITE": {
@@ -190592,7 +190594,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "GEV": {
@@ -195762,7 +195764,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "CEG": {
@@ -200232,7 +200234,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "VST": {
@@ -203614,7 +203616,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "ETN": {
@@ -206778,7 +206780,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "PWR": {
@@ -209718,7 +209720,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "HUBB": {
@@ -210436,7 +210438,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "VRT": {
@@ -214356,7 +214358,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "MOD": {
@@ -215684,7 +215686,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "STX": {
@@ -219742,7 +219744,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "EME": {
@@ -221505,7 +221507,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "FIX": {
@@ -223168,7 +223170,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   },
   "BE": {
@@ -225557,7 +225559,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-12 20:18"
+      "updated": "2026-10-12 20:52"
     }
   }
 };
