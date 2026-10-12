@@ -4,9 +4,9 @@ const DATA_STATUS = {
     "fundamentals": {
       "label": "가치·퀄리티",
       "status": "ok",
-      "lastAttemptAt": 1791798773.530404,
-      "lastSuccessAt": 1791798773.530404,
-      "lastPartialSuccessAt": 1791798773.530404,
+      "lastAttemptAt": 1791801678.2570245,
+      "lastSuccessAt": 1791801678.2570245,
+      "lastPartialSuccessAt": 1791801678.2570245,
       "lastFetchedAt": 1791789138.4937034,
       "oldestFetchedAt": 1791787071.6839883,
       "warningAfterHours": 6,
@@ -21,10 +21,10 @@ const DATA_STATUS = {
     "financials": {
       "label": "재무제표",
       "status": "ok",
-      "lastAttemptAt": 1791798773.543325,
-      "lastSuccessAt": 1791798773.543325,
-      "lastPartialSuccessAt": 1791798773.543325,
-      "lastFetchedAt": 1791798773.5487003,
+      "lastAttemptAt": 1791801678.2712965,
+      "lastSuccessAt": 1791801678.2712965,
+      "lastPartialSuccessAt": 1791801678.2712965,
+      "lastFetchedAt": 1791801678.2763548,
       "oldestFetchedAt": 1791271705.2024734,
       "warningAfterHours": 6,
       "criticalAfterHours": 24,
@@ -38,9 +38,9 @@ const DATA_STATUS = {
     "estimates": {
       "label": "실적전망",
       "status": "ok",
-      "lastAttemptAt": 1791798773.6067467,
-      "lastSuccessAt": 1791798773.6067467,
-      "lastPartialSuccessAt": 1791798773.6067467,
+      "lastAttemptAt": 1791801678.3351927,
+      "lastSuccessAt": 1791801678.3351927,
+      "lastPartialSuccessAt": 1791801678.3351927,
       "lastFetchedAt": 1791740388.6366162,
       "oldestFetchedAt": 1791740388.6366162,
       "warningAfterHours": 6,
@@ -55,30 +55,29 @@ const DATA_STATUS = {
     "news": {
       "label": "종목뉴스",
       "status": "partial",
-      "lastAttemptAt": 1791798773.6293876,
+      "lastAttemptAt": 1791801678.3573298,
       "lastSuccessAt": 1791796886.2000637,
-      "lastPartialSuccessAt": 1791798773.6293876,
-      "lastFetchedAt": 1791798773.7665346,
-      "oldestFetchedAt": 1791776937.1286948,
+      "lastPartialSuccessAt": 1791801678.3573298,
+      "lastFetchedAt": 1791801678.4936604,
+      "oldestFetchedAt": 1791779198.192273,
       "warningAfterHours": 6,
       "criticalAfterHours": 24,
-      "lastError": "확인 필요: AMZN, CRM, GEV",
+      "lastError": "확인 필요: MSFT, KLAC",
       "expectedItems": 41,
       "availableItems": 41,
       "emptyItems": [],
       "staleItems": [
-        "AMZN",
-        "CRM",
-        "GEV"
+        "MSFT",
+        "KLAC"
       ],
       "dataAsOfLabel": "2026-10-12"
     },
     "market": {
       "label": "시장환경",
       "status": "ok",
-      "lastAttemptAt": 1791799769.4968328,
-      "lastSuccessAt": 1791799769.4968328,
-      "lastPartialSuccessAt": 1791799769.4968328,
+      "lastAttemptAt": 1791802002.4034889,
+      "lastSuccessAt": 1791802002.4034889,
+      "lastPartialSuccessAt": 1791802002.4034889,
       "lastFetchedAt": 1791799769.4972053,
       "oldestFetchedAt": 1791799769.4972053,
       "warningAfterHours": 6,
@@ -93,9 +92,9 @@ const DATA_STATUS = {
     "prices": {
       "label": "가격·차트",
       "status": "ok",
-      "lastAttemptAt": 1791799836.1087825,
-      "lastSuccessAt": 1791799836.1087825,
-      "lastPartialSuccessAt": 1791799836.1087825,
+      "lastAttemptAt": 1791802002.412362,
+      "lastSuccessAt": 1791802002.412362,
+      "lastPartialSuccessAt": 1791802002.412362,
       "lastFetchedAt": 1791796889.3668091,
       "oldestFetchedAt": 1791796889.3668091,
       "warningAfterHours": 6,
@@ -110,8 +109,8 @@ const DATA_STATUS = {
     "businessAnalysis": {
       "label": "기업분석",
       "status": "ok",
-      "lastAttemptAt": 1791799836.3453493,
-      "lastSuccessAt": 1791799836.3453493,
+      "lastAttemptAt": 1791802002.6503453,
+      "lastSuccessAt": 1791802002.6503453,
       "lastFetchedAt": 1791781007.5609717,
       "oldestFetchedAt": 1791781007.5609717,
       "dataAsOfLabel": "2026-10-12 13:56",
@@ -126,10 +125,10 @@ const DATA_STATUS = {
     "events": {
       "label": "중요 이벤트",
       "status": "ok",
-      "lastAttemptAt": 1791799769.1134043,
-      "lastSuccessAt": 1791799769.1134043,
-      "lastFetchedAt": 1791799769.1134043,
-      "oldestFetchedAt": 1791799769.1134043,
+      "lastAttemptAt": 1791802001.9921503,
+      "lastSuccessAt": 1791802001.9921503,
+      "lastFetchedAt": 1791802001.9921503,
+      "oldestFetchedAt": 1791802001.9921503,
       "dataAsOfLabel": "2026-10-12",
       "expectedItems": 1,
       "availableItems": 1,
@@ -142,10 +141,10 @@ const DATA_STATUS = {
     "eventAnalysis": {
       "label": "뉴스 반영 기업분석",
       "status": "ok",
-      "lastAttemptAt": 1791799769.1717637,
-      "lastSuccessAt": 1791799769.1717637,
-      "lastFetchedAt": 1791799769.1717637,
-      "oldestFetchedAt": 1791799769.1717637,
+      "lastAttemptAt": 1791802002.0565028,
+      "lastSuccessAt": 1791802002.0565028,
+      "lastFetchedAt": 1791802002.0565028,
+      "oldestFetchedAt": 1791802002.0565028,
       "dataAsOfLabel": "2026-10-12",
       "expectedItems": 39,
       "availableItems": 39,
@@ -158,9 +157,9 @@ const DATA_STATUS = {
     "sigma": {
       "label": "시그마(옵션 IV)",
       "status": "partial",
-      "lastAttemptAt": 1791799836.1983874,
+      "lastAttemptAt": 1791802002.500721,
       "lastSuccessAt": 1789747816.5239253,
-      "lastPartialSuccessAt": 1791799836.1983874,
+      "lastPartialSuccessAt": 1791802002.500721,
       "lastFetchedAt": 1791796920.5563571,
       "oldestFetchedAt": 1791565330.3460414,
       "warningAfterHours": 6,
@@ -176,10 +175,10 @@ const DATA_STATUS = {
     },
     "secFilings": {
       "label": "SEC 공식 공시",
-      "status": "partial",
-      "lastAttemptAt": 1791799720.8525093,
-      "lastSuccessAt": null,
-      "lastPartialSuccessAt": 1791799720.8525093,
+      "status": "ok",
+      "lastAttemptAt": 1791801994.7795792,
+      "lastSuccessAt": 1791801994.7795792,
+      "lastPartialSuccessAt": 1791801994.7795792,
       "lastFetchedAt": 1791799720.8525093,
       "oldestFetchedAt": 1791799720.8525093,
       "dataAsOfLabel": "2026-10-09",
@@ -189,7 +188,7 @@ const DATA_STATUS = {
       "staleItems": [],
       "warningAfterHours": 6,
       "criticalAfterHours": 24,
-      "lastError": "TSLA consensus: The read operation timed out"
+      "lastError": null
     },
     "shortInterest": {
       "label": "공매도(FINRA)",
@@ -223,10 +222,10 @@ const DATA_STATUS = {
       "lastError": null
     }
   },
-  "generatedAt": 1791799836.3453493,
+  "generatedAt": 1791802002.6503453,
   "timezoneGuide": {
     "collector": "Asia/Seoul",
     "market": "America/New_York"
   },
-  "buildGeneratedAt": "2026-10-12 19:10:36"
+  "buildGeneratedAt": "2026-10-12 19:46:42"
 };
