@@ -1,15 +1,15 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791777354.4398623,
+  "generatedAt": 1791779282.5056734,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1791777354.4398623,
-      "dataAsOf": 1791586391,
-      "signal": "주의 강화",
-      "netScore": -3.01,
-      "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
+      "updatedAt": 1791779282.5056734,
+      "dataAsOf": 1791749640,
+      "signal": "중립·확인 대기",
+      "netScore": -1.05,
+      "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
@@ -18,8 +18,8 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": 0.7,
-          "level": "중립"
+          "score": 1.4,
+          "level": "우호적"
         },
         "valuationBurden": {
           "label": "밸류에이션 부담",
@@ -38,12 +38,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -2.27,
+          "score": -1.57,
           "level": "주의"
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -1.92,
+          "score": -1.22,
           "level": "주의"
         },
         "insiderSignal": {
@@ -53,6 +53,19 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "72fb61884b35ae93706e",
+          "headline": "알파벳이 아닙니다. 아마존이 아닙니다. Microsoft는 Big Tech의 가장 저렴한 가치로 거래됩니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1791749640,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=4e52232f63d589a8b81f66bf8d77a2f620fbd46fb151b456cacac026497cef4f",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
         {
           "eventId": "8f00fb7ee01d74ac2bad",
           "headline": "S&P 500, Nasdaq 100, Dow End Week High, 트레이더들이 수익 시즌을 주목하고 있음 — ​​MSFT, NFLX, SPCX, ASTS In Focus",
@@ -158,20 +171,6 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -2
           },
           "reason": "회사 실적과의 연결고리 확인"
-        },
-        {
-          "eventId": "3634b71fcdf6347f3804",
-          "headline": "Resilinc는 Microsoft Copilot에 공급망 위험 및 규정 준수 인텔리전스를 제공합니다.",
-          "eventLabel": "공급망 문제",
-          "publishedAt": 1791471600,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=60014afd26ef702d1e8ed917404ce1bfcd1ce309bd55a136407c4c036f0c7467",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
         }
       ],
       "confirmedEvidenceCount": 0,
@@ -180,7 +179,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791727457,
       "signal": "우호적 변화",
       "netScore": 7.69,
@@ -397,20 +396,20 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1791777354.4398623,
-      "dataAsOf": 1791705049,
+      "updatedAt": 1791779282.5056734,
+      "dataAsOf": 1791749640,
       "signal": "중립·확인 대기",
-      "netScore": 0.9,
+      "netScore": 0.2,
       "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 0.87,
+          "score": 0.52,
           "level": "중립"
         },
         "growth": {
           "label": "성장성",
-          "score": 1.57,
+          "score": 1.22,
           "level": "우호적"
         },
         "valuationBurden": {
@@ -445,6 +444,19 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "72fb61884b35ae93706e",
+          "headline": "알파벳이 아닙니다. 아마존이 아닙니다. Microsoft는 Big Tech의 가장 저렴한 가치로 거래됩니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1791749640,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=4e52232f63d589a8b81f66bf8d77a2f620fbd46fb151b456cacac026497cef4f",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
         {
           "eventId": "fac76d2f66fc653c477a",
           "headline": "아마존: 경제적 도전이 더 커짐(등급 하향)",
@@ -539,20 +551,6 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "사업·실적 연결 경로 확인 필요"
-        },
-        {
-          "eventId": "f0a9d886c71edf1dafc9",
-          "headline": "Amazon 공급업체는 낙관적인 분석가의 전화로부터 힘을 얻습니다. 주가가 오르고 있다",
-          "eventLabel": "주요 고객 계약",
-          "publishedAt": 1791473228,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=805c2a6d9d87f0d0240868fda436bf18c46b2cd452cb6c6ab541eea13c70d645",
-          "factorChanges": {
-            "growth": 2,
-            "longTermCompetitiveness": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "회사 실적과의 연결고리 확인"
         }
       ],
       "confirmedEvidenceCount": 0,
@@ -561,7 +559,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791720243,
       "signal": "주의 강화",
       "netScore": -3.84,
@@ -668,8 +666,8 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1791777354.4398623,
-      "dataAsOf": 1791739581,
+      "updatedAt": 1791779282.5056734,
+      "dataAsOf": 1791749640,
       "signal": "주의 강화",
       "netScore": -10,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
@@ -681,7 +679,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": -3.15,
+          "score": -2.8,
           "level": "주의"
         },
         "valuationBurden": {
@@ -716,6 +714,19 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "72fb61884b35ae93706e",
+          "headline": "알파벳이 아닙니다. 아마존이 아닙니다. Microsoft는 Big Tech의 가장 저렴한 가치로 거래됩니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1791749640,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=4e52232f63d589a8b81f66bf8d77a2f620fbd46fb151b456cacac026497cef4f",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
         {
           "eventId": "6fd72b72910a98868248",
           "headline": "Apple은 지속적으로 스마트 홈 경쟁에서 패했습니다. LG와의 새로운 파트너십이 이를 바꿀 수 있다.",
@@ -867,27 +878,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -1
           },
           "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
-        },
-        {
-          "eventId": "04eee22a6c37cbdff3fb",
-          "headline": "Stocktwits AI 요약: OpenAI 매출 문제로 인해 칩 주식이 하락하고 SoftBank가 1000억 달러를 사냥하고 Microsoft가 AI 우선으로 전환",
-          "eventLabel": "애널리스트 목표주가 변경",
-          "publishedAt": 1791528210,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=904739f60c9136de943044b8335811943bdc533a33ad1ab2080f92ba1e57cb39",
-          "factorChanges": {
-            "shortTermMomentum": -1
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 16,
+      "unverifiedEvidenceCount": 17,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791752400,
       "signal": "주의 강화",
       "netScore": -4.13,
@@ -982,7 +981,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791500119,
       "signal": "중립·확인 대기",
       "netScore": -1.96,
@@ -1076,7 +1075,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -1130,7 +1129,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791708300,
       "signal": "중립·확인 대기",
       "netScore": -0.77,
@@ -1241,15 +1240,15 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791762600,
       "signal": "우호적 변화",
-      "netScore": 8.88,
+      "netScore": 8.53,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 1.4,
+          "score": 1.05,
           "level": "우호적"
         },
         "growth": {
@@ -1302,6 +1301,19 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "회사 실적과의 연결고리 확인"
+        },
+        {
+          "eventId": "72fb61884b35ae93706e",
+          "headline": "알파벳이 아닙니다. 아마존이 아닙니다. Microsoft는 Big Tech의 가장 저렴한 가치로 거래됩니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1791749640,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=4e52232f63d589a8b81f66bf8d77a2f620fbd46fb151b456cacac026497cef4f",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
         },
         {
           "eventId": "3c15aa0599a6dbd5d3d0",
@@ -1433,18 +1445,6 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "AI 컴퓨팅 수요 확대 가능성"
-        },
-        {
-          "eventId": "998a1aadf4f6cebfc9a8",
-          "headline": "Benzinga 황소와 곰: Nvidia, Lumentum, Planet Labs",
-          "eventLabel": "애널리스트 목표주가 변경",
-          "publishedAt": 1791619211,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=fac35fbefcdcb63fbb568e22b371f3c4e10a546d16b71dde0c5a14ed2868bb8b",
-          "factorChanges": {
-            "shortTermMomentum": -1
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
         }
       ],
       "confirmedEvidenceCount": 0,
@@ -1453,7 +1453,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791742680,
       "signal": "우호적 변화",
       "netScore": 5.45,
@@ -1667,7 +1667,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791762600,
       "signal": "주의 강화",
       "netScore": -7.14,
@@ -1833,7 +1833,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791727457,
       "signal": "주의 강화",
       "netScore": -10,
@@ -2056,7 +2056,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791675110,
       "signal": "주의 강화",
       "netScore": -3.77,
@@ -2140,7 +2140,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791675110,
       "signal": "주의 강화",
       "netScore": -4.54,
@@ -2235,10 +2235,10 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791722100,
       "signal": "주의 강화",
-      "netScore": -8.06,
+      "netScore": -7.28,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -2248,7 +2248,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": -1.4,
+          "score": -1.05,
           "level": "주의"
         },
         "valuationBurden": {
@@ -2268,12 +2268,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -5,
+          "score": -4.9,
           "level": "주의"
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -2.45,
+          "score": -2.1,
           "level": "주의"
         },
         "insiderSignal": {
@@ -2394,29 +2394,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -1
           },
           "reason": "사업·실적 연결 경로 확인 필요"
-        },
-        {
-          "eventId": "3634b71fcdf6347f3804",
-          "headline": "Resilinc는 Microsoft Copilot에 공급망 위험 및 규정 준수 인텔리전스를 제공합니다.",
-          "eventLabel": "공급망 문제",
-          "publishedAt": 1791471600,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=60014afd26ef702d1e8ed917404ce1bfcd1ce309bd55a136407c4c036f0c7467",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 9,
+      "unverifiedEvidenceCount": 8,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791714300,
       "signal": "중립·확인 대기",
       "netScore": 0.83,
@@ -2512,7 +2498,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791665493,
       "signal": "주의 강화",
       "netScore": -4.75,
@@ -2622,7 +2608,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791720969,
       "signal": "중립·확인 대기",
       "netScore": 1.4,
@@ -2691,7 +2677,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2745,7 +2731,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791727216,
       "signal": "중립·확인 대기",
       "netScore": -0.35,
@@ -2812,7 +2798,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791742680,
       "signal": "우호적 변화",
       "netScore": 6.21,
@@ -3027,7 +3013,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791711451,
       "signal": "중립·확인 대기",
       "netScore": 1.96,
@@ -3137,7 +3123,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791727457,
       "signal": "주의 강화",
       "netScore": -9.6,
@@ -3332,7 +3318,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791551461,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -3401,7 +3387,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791515304,
       "signal": "중립·확인 대기",
       "netScore": 1.4,
@@ -3470,7 +3456,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791633337,
       "signal": "주의 강화",
       "netScore": -9.17,
@@ -3669,7 +3655,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791645252,
       "signal": "중립·확인 대기",
       "netScore": 0.7,
@@ -3737,7 +3723,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791552718,
       "signal": "우호적 변화",
       "netScore": 2.8,
@@ -3820,7 +3806,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791563077,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -3889,7 +3875,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3943,7 +3929,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791589815,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -4012,7 +3998,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4066,7 +4052,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4120,7 +4106,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4174,7 +4160,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4228,7 +4214,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4282,7 +4268,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791756415,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -4351,7 +4337,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1791777354.4398623,
+      "updatedAt": 1791779282.5056734,
       "dataAsOf": 1791587509,
       "signal": "중립·확인 대기",
       "netScore": 0.7,
