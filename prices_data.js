@@ -3023,10 +3023,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:00:06Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:00"
+    "lastBarRetrievedAt": "2026-10-12T09:21:29Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "SPY": {
     "dates": [
@@ -6049,10 +6049,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:00:06Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:00"
+    "lastBarRetrievedAt": "2026-10-12T09:21:30Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "MSFT": {
     "dates": [
@@ -9075,10 +9075,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:00:07Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:00"
+    "lastBarRetrievedAt": "2026-10-12T09:21:31Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "GOOGL": {
     "dates": [
@@ -12101,10 +12101,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:00:08Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:00"
+    "lastBarRetrievedAt": "2026-10-12T09:21:32Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "AMZN": {
     "dates": [
@@ -15127,10 +15127,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:00:09Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:00"
+    "lastBarRetrievedAt": "2026-10-12T09:21:32Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "META": {
     "dates": [
@@ -18153,10 +18153,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:00:09Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:00"
+    "lastBarRetrievedAt": "2026-10-12T09:21:33Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "AAPL": {
     "dates": [
@@ -21179,10 +21179,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:00:10Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:00"
+    "lastBarRetrievedAt": "2026-10-12T09:21:34Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "TSLA": {
     "dates": [
@@ -24205,10 +24205,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:00:18Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:00"
+    "lastBarRetrievedAt": "2026-10-12T09:21:34Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "ORCL": {
     "dates": [
@@ -27231,10 +27231,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:13:03Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791724383.5174613,
-    "_updated_label": "2026-10-11 22:13"
+    "lastBarRetrievedAt": "2026-10-12T09:21:35Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "CRM": {
     "dates": [
@@ -30257,10 +30257,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:00:39Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:00"
+    "lastBarRetrievedAt": "2026-10-12T09:21:36Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "PLTR": {
     "dates": [
@@ -33283,10 +33283,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:00:49Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:00"
+    "lastBarRetrievedAt": "2026-10-12T09:21:36Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "NVDA": {
     "dates": [
@@ -36309,10 +36309,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:00:49Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:00"
+    "lastBarRetrievedAt": "2026-10-12T09:21:37Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "AMD": {
     "dates": [
@@ -39335,10 +39335,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:00:50Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:00"
+    "lastBarRetrievedAt": "2026-10-12T09:21:38Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "AVGO": {
     "dates": [
@@ -42361,10 +42361,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:00:51Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:00"
+    "lastBarRetrievedAt": "2026-10-12T09:21:39Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "QCOM": {
     "dates": [
@@ -45387,10 +45387,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:00:51Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:00"
+    "lastBarRetrievedAt": "2026-10-12T09:21:39Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "ARM": {
     "dates": [
@@ -48413,10 +48413,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:00Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:40Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "MRVL": {
     "dates": [
@@ -51439,10 +51439,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:00Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:41Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "INTC": {
     "dates": [
@@ -54465,10 +54465,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:01Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:41Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "TSM": {
     "dates": [
@@ -57491,10 +57491,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:02Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:42Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "ASML": {
     "dates": [
@@ -60517,10 +60517,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:03Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:43Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "AMAT": {
     "dates": [
@@ -63543,10 +63543,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:03Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:43Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "LRCX": {
     "dates": [
@@ -66569,10 +66569,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:04Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:44Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "KLAC": {
     "dates": [
@@ -69595,10 +69595,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:05Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:45Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "MU": {
     "dates": [
@@ -72621,10 +72621,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:05Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:46Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "SNDK": {
     "dates": [
@@ -75137,10 +75137,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:06Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:46Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "WDC": {
     "dates": [
@@ -78163,16 +78163,13 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:07Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:47Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "^VIX": {
     "dates": [
-      "2024-10-09",
-      "2024-10-10",
-      "2024-10-11",
       "2024-10-14",
       "2024-10-15",
       "2024-10-16",
@@ -78673,12 +78670,10 @@ const PRICES_DATA = {
       "2026-10-06",
       "2026-10-07",
       "2026-10-08",
-      "2026-10-09"
+      "2026-10-09",
+      "2026-10-12"
     ],
     "opens": [
-      21.979999542236328,
-      20.90999984741211,
-      20.8700008392334,
       20.860000610351562,
       19.610000610351562,
       20.770000457763672,
@@ -79179,12 +79174,10 @@ const PRICES_DATA = {
       15.5,
       15.210000038146973,
       15.680000305175781,
-      15.34000015258789
+      15.34000015258789,
+      15.390000343322754
     ],
     "highs": [
-      22.010000228881836,
-      21.389999389648438,
-      21.15999984741211,
       20.860000610351562,
       20.889999389648438,
       21.010000228881836,
@@ -79685,12 +79678,10 @@ const PRICES_DATA = {
       15.539999961853027,
       16.010000228881836,
       16.459999084472656,
-      15.34000015258789
+      15.34000015258789,
+      15.529999732971191
     ],
     "lows": [
-      20.709999084472656,
-      20.639999389648438,
-      20.139999389648438,
       19.690000534057617,
       19.440000534057617,
       19.450000762939453,
@@ -80191,12 +80182,10 @@ const PRICES_DATA = {
       14.960000038146973,
       14.970000267028809,
       15.149999618530273,
-      14.770000457763672
+      14.770000457763672,
+      15.359999656677246
     ],
     "closes": [
-      20.860000610351562,
-      20.93000030517578,
-      20.459999084472656,
       19.700000762939453,
       20.639999389648438,
       19.579999923706055,
@@ -80697,7 +80686,8 @@ const PRICES_DATA = {
       15.010000228881836,
       15.079999923706055,
       15.40999984741211,
-      14.84000015258789
+      14.84000015258789,
+      15.489999771118164
     ],
     "volumes": [
       0,
@@ -81201,16 +81191,14 @@ const PRICES_DATA = {
       0,
       0,
       0,
-      0,
-      0,
       0
     ],
-    "lastBarSessionDate": "2026-10-09",
-    "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:18Z",
-    "regularSessionEndTs": 1791576900,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarSessionDate": "2026-10-12",
+    "lastBarComplete": false,
+    "lastBarRetrievedAt": "2026-10-12T09:21:58Z",
+    "regularSessionEndTs": 1791836100,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "DIA": {
     "dates": [
@@ -84233,10 +84221,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:19Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:59Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "ANET": {
     "dates": [
@@ -87259,10 +87247,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:08Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:48Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "COHR": {
     "dates": [
@@ -90285,10 +90273,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:08Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:48Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "LITE": {
     "dates": [
@@ -93311,10 +93299,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:09Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:49Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "GEV": {
     "dates": [
@@ -96337,10 +96325,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:10Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:50Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "CEG": {
     "dates": [
@@ -99363,10 +99351,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:10Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:50Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "VST": {
     "dates": [
@@ -102389,10 +102377,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:11Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:51Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "ETN": {
     "dates": [
@@ -105415,10 +105403,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:12Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:52Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "PWR": {
     "dates": [
@@ -108441,10 +108429,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:13Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:52Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "HUBB": {
     "dates": [
@@ -111467,10 +111455,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:13Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:53Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "VRT": {
     "dates": [
@@ -114493,10 +114481,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:14Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:54Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "MOD": {
     "dates": [
@@ -117519,10 +117507,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:15Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:55Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "STX": {
     "dates": [
@@ -120545,10 +120533,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:15Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:55Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "EME": {
     "dates": [
@@ -123571,10 +123559,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:16Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:56Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "FIX": {
     "dates": [
@@ -126597,10 +126585,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:17Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:57Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "SOXX": {
     "dates": [
@@ -129623,10 +129611,10 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:20Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:59Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   },
   "BE": {
     "dates": [
@@ -132649,9 +132637,9 @@ const PRICES_DATA = {
     ],
     "lastBarSessionDate": "2026-10-09",
     "lastBarComplete": true,
-    "lastBarRetrievedAt": "2026-10-11T13:01:18Z",
-    "regularSessionEndTs": 1791576000,
-    "_fetched_at": 1791723605.8805287,
-    "_updated_label": "2026-10-11 22:01"
+    "lastBarRetrievedAt": "2026-10-12T09:21:57Z",
+    "regularSessionEndTs": 1791835200,
+    "_fetched_at": 1791796889.3668091,
+    "_updated_label": "2026-10-12 18:21"
   }
 };
