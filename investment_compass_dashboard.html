@@ -5423,6 +5423,18 @@ function pvTargetRevisionDirection(t){
   return {dir:'보합', pct};
 }
 
+// --- 51755 -- analystLog의 oneTime(일회성 항목) 판단을 가격 판단 엔진에 연결(사용자 요청,
+//     "oneTime 연결"). analystLog 최신 항목에 epsOneTimeDistortion 필드가 있으면(현재 10종목만
+//     backfill, 그 외는 필드 없음=false 취급) 신뢰도 감점 요인 중 하나로만 반영한다. 가격
+//     분류(저평가/적정/고평가)나 거부권 로직은 전혀 바꾸지 않는다 -- 51752/51753 가격 판단
+//     모델 동결 범위를 지키기 위해 순수 참고 신호로만 추가. ---
+function pvEpsOneTimeFlag(t){
+  if(typeof BUSINESS_NOTES==='undefined' || !BUSINESS_NOTES[t]) return false;
+  const log = BUSINESS_NOTES[t].analystLog;
+  if(!Array.isArray(log) || !log.length) return false;
+  return log[0].epsOneTimeDistortion === true;
+}
+
 function computePriceValidity(r){
   const t = r.ticker;
   const fund = (typeof FUNDAMENTALS_DATA!=='undefined') ? FUNDAMENTALS_DATA[t] : null;
@@ -5573,6 +5585,7 @@ function computePriceValidity(r){
   //     "가격 판단 보류"·priceHoldReason은 반환값에서 완전히 제거한다(필드는 항상 null로
   //     남겨 하위 호출부의 구조 분해를 깨지 않는다). ---
   const gaapBasisOnly = pvEpsBasisIsGaapSubstitute(t, fin);
+  const epsOneTimeFlag = pvEpsOneTimeFlag(t); // 51755
   const growthSig = pvGrowthSignals(t);
   const targetDir = pvTargetRevisionDirection(t);
   const epsDir0 = eps ? eps.direction : null;
@@ -5685,7 +5698,7 @@ function computePriceValidity(r){
   let confidencePenalty = 0;
   if(usedFallbackModel) confidencePenalty++;
   if((typeof growthSig.analystCount==='number' && growthSig.analystCount < 10) || typeof growthSig.g2 !== 'number') confidencePenalty++;
-  if(gaapBasisOnly || baseEffectFlag) confidencePenalty++;
+  if(gaapBasisOnly || baseEffectFlag || epsOneTimeFlag) confidencePenalty++; // 51755: epsOneTimeFlag 추가
   const priceConfidence = confidencePenalty>=2 ? '낮음' : (confidencePenalty===1 ? '보통' : '높음');
 
   // --- 10) EPS·현금흐름 전제의 모델 기준 가격대 (band 가능 시에만). 회계연도 추정치가 2개
@@ -5733,7 +5746,7 @@ function computePriceValidity(r){
   const crossCheck = pvCrossCheck(t, r.price, price, fin, fund, iv);
 
   return {
-    ticker: t, price, priceHoldReason, highRiskCombo, gaapBasisOnly, business, cashflow, chart,
+    ticker: t, price, priceHoldReason, highRiskCombo, gaapBasisOnly, epsOneTimeFlag, business, cashflow, chart,
     ntmPer, ntmEps, ntmSourceOk, ntmNote, ntmMethod, distortionRatio, distorted, bandEligible, blockReason, bandBasis,
     perBandLowVal, perBandHighVal, avgPe3Y: fund ? fund.avgPe3Y : null, perBandYears: fund ? fund.perBandYears : null,
     cfVeto, cfVetoCount, cfDetail, fcfWorsen2y, debtHigh, dilution,
@@ -6269,7 +6282,8 @@ function renderPriceValidityCard(r){
   // 공식 비GAAP EPS 가이던스 없음(gaapBasisOnly)은 분류를 막지 않지만 신뢰도를 낮추는
   // 요인이고(computePriceValidity의 priceConfidence 감점에 이미 반영됨), 화면에도 캐비엇으로
   // 남긴다.
-  const confidenceCaveat = d.gaapBasisOnly ? ' · 공식 EPS 가이던스 없음(GAAP 대체 참고치 — 교차검증 제한)' : '';
+  const confidenceCaveat = (d.gaapBasisOnly ? ' · 공식 EPS 가이던스 없음(GAAP 대체 참고치 — 교차검증 제한)' : '')
+    + (d.epsOneTimeFlag ? ' · 최근 분기 실적에 일회성 항목 반영(analystLog 참고 — 회계상 수치가 실제 영업 상황과 다를 수 있음)' : ''); // 51755
 
   const priceColor = PV_COLOR[d.price] || NEU_TEXT;
 
