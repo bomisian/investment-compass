@@ -1,11 +1,11 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791762017.275483,
+  "generatedAt": 1791763237.8726583,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791586391,
       "signal": "주의 강화",
       "netScore": -3.01,
@@ -180,7 +180,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791727457,
       "signal": "우호적 변화",
       "netScore": 7.69,
@@ -230,7 +230,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "c344671637d00c598d64",
-          "headline": "Alphabet Stock Is Up 46% Since Last October. Is It Still a Buy?",
+          "headline": "알파벳 주식은 지난 10월 이후 46% 상승했습니다. 아직도 매수인가요?",
           "eventLabel": "공급망 문제",
           "publishedAt": 1791727457,
           "verificationStatus": "needs_confirmation",
@@ -397,7 +397,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791705049,
       "signal": "우호적 변화",
       "netScore": 3.0,
@@ -447,7 +447,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "fac76d2f66fc653c477a",
-          "headline": "Amazon: The Economic Challenge Gets Bigger (Rating Downgrade)",
+          "headline": "아마존: 경제적 도전이 더 커짐(등급 하향)",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1791705049,
           "verificationStatus": "needs_confirmation",
@@ -575,7 +575,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791720243,
       "signal": "주의 강화",
       "netScore": -3.84,
@@ -625,7 +625,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "9e22a53304f9fe8463b0",
-          "headline": "“Just Do the Math”: Meta’s Muse Needs $2.8 Billion Compute to Serve 100 Million Users. Facebook Has 3 Billion",
+          "headline": "“그냥 계산해 보세요”: Meta의 Muse는 1억 명의 사용자에게 서비스를 제공하려면 28억 달러의 컴퓨팅이 필요합니다. 페이스북은 30억 달러를 가지고 있다",
           "eventLabel": "공급망 문제",
           "publishedAt": 1791720243,
           "verificationStatus": "needs_confirmation",
@@ -682,7 +682,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791727457,
       "signal": "주의 강화",
       "netScore": -10,
@@ -732,7 +732,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "c344671637d00c598d64",
-          "headline": "Alphabet Stock Is Up 46% Since Last October. Is It Still a Buy?",
+          "headline": "알파벳 주식은 지난 10월 이후 46% 상승했습니다. 아직도 매수인가요?",
           "eventLabel": "공급망 문제",
           "publishedAt": 1791727457,
           "verificationStatus": "needs_confirmation",
@@ -899,7 +899,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791619211,
       "signal": "주의 강화",
       "netScore": -2.23,
@@ -980,7 +980,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791500119,
       "signal": "중립·확인 대기",
       "netScore": 0.14,
@@ -1088,7 +1088,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -1142,7 +1142,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791708300,
       "signal": "중립·확인 대기",
       "netScore": -0.77,
@@ -1192,7 +1192,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "e6e6866e7075ec7ae8f5",
-          "headline": "Palantir: Staying Bullish At Record Highs As Q3 Approaches",
+          "headline": "Palantir: 3분기가 다가옴에 따라 기록적인 최고치를 유지하며 강세 유지",
           "eventLabel": "워런트·신주·희석 가능성",
           "publishedAt": 1791708300,
           "verificationStatus": "needs_confirmation",
@@ -1253,7 +1253,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791742680,
       "signal": "우호적 변화",
       "netScore": 8.56,
@@ -1303,7 +1303,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "3c15aa0599a6dbd5d3d0",
-          "headline": "Amazon and Alphabet Just Committed $420 Billion to Data Centers. 1 Stock Is the Better Buy.",
+          "headline": "Amazon과 Alphabet은 데이터 센터에 4,200억 달러를 투자했습니다. 1 주식이 더 나은 구매입니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1791742680,
           "verificationStatus": "needs_confirmation",
@@ -1316,7 +1316,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "1ecb82976efab5e4a3fc",
-          "headline": "AMD Stock Fell 6% in Three Sessions After Its Record Close. Here’s What OpenAI’s $20 Billion Revenue Gap Means for the Stock",
+          "headline": "AMD 주식은 기록적인 마감 후 3회 만에 6% 하락했습니다. OpenAI의 200억 달러 수익 격차가 주식에 의미하는 바는 다음과 같습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1791731264,
           "verificationStatus": "needs_confirmation",
@@ -1463,7 +1463,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791742680,
       "signal": "우호적 변화",
       "netScore": 5.8,
@@ -1513,7 +1513,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "3c15aa0599a6dbd5d3d0",
-          "headline": "Amazon and Alphabet Just Committed $420 Billion to Data Centers. 1 Stock Is the Better Buy.",
+          "headline": "Amazon과 Alphabet은 데이터 센터에 4,200억 달러를 투자했습니다. 1 주식이 더 나은 구매입니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1791742680,
           "verificationStatus": "needs_confirmation",
@@ -1526,7 +1526,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "1ecb82976efab5e4a3fc",
-          "headline": "AMD Stock Fell 6% in Three Sessions After Its Record Close. Here’s What OpenAI’s $20 Billion Revenue Gap Means for the Stock",
+          "headline": "AMD 주식은 기록적인 마감 후 3회 만에 6% 하락했습니다. OpenAI의 200억 달러 수익 격차가 주식에 의미하는 바는 다음과 같습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1791731264,
           "verificationStatus": "needs_confirmation",
@@ -1539,7 +1539,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "80ec4d0d5f8660375744",
-          "headline": "Not Anthropic. Not AMD. Here's My Top AI Stock for 2027.",
+          "headline": "인류애적이지 않습니다. AMD가 아닙니다. 2027년 나의 최고 AI 주식은 다음과 같습니다.",
           "eventLabel": "경쟁사 기술·시장 진입",
           "publishedAt": 1791722100,
           "verificationStatus": "needs_confirmation",
@@ -1678,7 +1678,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791646502,
       "signal": "주의 강화",
       "netScore": -6.44,
@@ -1844,7 +1844,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791727457,
       "signal": "주의 강화",
       "netScore": -10,
@@ -1894,7 +1894,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "c344671637d00c598d64",
-          "headline": "Alphabet Stock Is Up 46% Since Last October. Is It Still a Buy?",
+          "headline": "알파벳 주식은 지난 10월 이후 46% 상승했습니다. 아직도 매수인가요?",
           "eventLabel": "공급망 문제",
           "publishedAt": 1791727457,
           "verificationStatus": "needs_confirmation",
@@ -2067,7 +2067,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791675110,
       "signal": "주의 강화",
       "netScore": -6.09,
@@ -2165,7 +2165,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791675110,
       "signal": "주의 강화",
       "netScore": -4.54,
@@ -2260,7 +2260,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791722100,
       "signal": "주의 강화",
       "netScore": -7.01,
@@ -2310,7 +2310,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "80ec4d0d5f8660375744",
-          "headline": "Not Anthropic. Not AMD. Here's My Top AI Stock for 2027.",
+          "headline": "인류애적이지 않습니다. AMD가 아닙니다. 2027년 나의 최고 AI 주식은 다음과 같습니다.",
           "eventLabel": "경쟁사 기술·시장 진입",
           "publishedAt": 1791722100,
           "verificationStatus": "needs_confirmation",
@@ -2324,7 +2324,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "77c04350b6969cc15e1c",
-          "headline": "Intel and Applied Materials Just Deepened Their AI Partnership. Which Stock Looks Better Positioned?",
+          "headline": "인텔과 어플라이드 머티어리얼즈, AI 파트너십을 더욱 강화했습니다. 어떤 주식이 더 나은 위치에 있는 것 같나요?",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1791720969,
           "verificationStatus": "needs_confirmation",
@@ -2338,7 +2338,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "3e66415c4b32a8162dc3",
-          "headline": "SpaceX vs. Micron: Which Is the Better Artificial Intelligence (AI) Stock to Own for the Next 5 Years?",
+          "headline": "SpaceX vs. Micron: 향후 5년간 보유하기에 더 나은 인공지능(AI) 주식은 무엇입니까?",
           "eventLabel": "장기 공급계약",
           "publishedAt": 1791720300,
           "verificationStatus": "needs_confirmation",
@@ -2467,7 +2467,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791714300,
       "signal": "중립·확인 대기",
       "netScore": 0.83,
@@ -2517,7 +2517,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "fa9a163d1f8ab93f3faf",
-          "headline": "3 Things to Watch When Taiwan Semiconductor (TSMC) Reports Earnings on Oct. 15",
+          "headline": "대만반도체(TSMC) 10월 15일 실적 발표 시 주목해야 할 3가지",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1791714300,
           "verificationStatus": "needs_confirmation",
@@ -2563,7 +2563,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791665493,
       "signal": "주의 강화",
       "netScore": -4.75,
@@ -2673,7 +2673,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791720969,
       "signal": "중립·확인 대기",
       "netScore": 1.4,
@@ -2723,7 +2723,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "77c04350b6969cc15e1c",
-          "headline": "Intel and Applied Materials Just Deepened Their AI Partnership. Which Stock Looks Better Positioned?",
+          "headline": "인텔과 어플라이드 머티어리얼즈, AI 파트너십을 더욱 강화했습니다. 어떤 주식이 더 나은 위치에 있는 것 같나요?",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1791720969,
           "verificationStatus": "needs_confirmation",
@@ -2742,7 +2742,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2796,7 +2796,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791727216,
       "signal": "중립·확인 대기",
       "netScore": -0.35,
@@ -2846,7 +2846,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "8245703010c4b31d740d",
-          "headline": "KLA Turned $1,000 Into $31,595 in a Decade, Crushing the S&P 500 by 8.7x",
+          "headline": "KLA는 10년 만에 $1,000를 $31,595로 전환하여 S&P 500을 8.7배나 압도했습니다.",
           "eventLabel": "애널리스트 목표주가 변경",
           "publishedAt": 1791727216,
           "verificationStatus": "needs_confirmation",
@@ -2863,7 +2863,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791742680,
       "signal": "우호적 변화",
       "netScore": 7.05,
@@ -2913,7 +2913,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "3c15aa0599a6dbd5d3d0",
-          "headline": "Amazon and Alphabet Just Committed $420 Billion to Data Centers. 1 Stock Is the Better Buy.",
+          "headline": "Amazon과 Alphabet은 데이터 센터에 4,200억 달러를 투자했습니다. 1 주식이 더 나은 구매입니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1791742680,
           "verificationStatus": "needs_confirmation",
@@ -2926,7 +2926,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "1ecb82976efab5e4a3fc",
-          "headline": "AMD Stock Fell 6% in Three Sessions After Its Record Close. Here’s What OpenAI’s $20 Billion Revenue Gap Means for the Stock",
+          "headline": "AMD 주식은 기록적인 마감 후 3회 만에 6% 하락했습니다. OpenAI의 200억 달러 수익 격차가 주식에 의미하는 바는 다음과 같습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1791731264,
           "verificationStatus": "needs_confirmation",
@@ -2939,7 +2939,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "c344671637d00c598d64",
-          "headline": "Alphabet Stock Is Up 46% Since Last October. Is It Still a Buy?",
+          "headline": "알파벳 주식은 지난 10월 이후 46% 상승했습니다. 아직도 매수인가요?",
           "eventLabel": "공급망 문제",
           "publishedAt": 1791727457,
           "verificationStatus": "needs_confirmation",
@@ -2953,7 +2953,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "3e66415c4b32a8162dc3",
-          "headline": "SpaceX vs. Micron: Which Is the Better Artificial Intelligence (AI) Stock to Own for the Next 5 Years?",
+          "headline": "SpaceX vs. Micron: 향후 5년간 보유하기에 더 나은 인공지능(AI) 주식은 무엇입니까?",
           "eventLabel": "장기 공급계약",
           "publishedAt": 1791720300,
           "verificationStatus": "needs_confirmation",
@@ -3079,7 +3079,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791711451,
       "signal": "중립·확인 대기",
       "netScore": 1.96,
@@ -3129,7 +3129,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "862939d0fe438fc8254b",
-          "headline": "Sandisk: 12% Cash Return, With Earnings Up Next",
+          "headline": "Sandisk: 12% 현금 수익률, 다음 수익 증가",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1791711451,
           "verificationStatus": "needs_confirmation",
@@ -3189,7 +3189,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791727457,
       "signal": "주의 강화",
       "netScore": -9.6,
@@ -3239,7 +3239,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "c344671637d00c598d64",
-          "headline": "Alphabet Stock Is Up 46% Since Last October. Is It Still a Buy?",
+          "headline": "알파벳 주식은 지난 10월 이후 46% 상승했습니다. 아직도 매수인가요?",
           "eventLabel": "공급망 문제",
           "publishedAt": 1791727457,
           "verificationStatus": "needs_confirmation",
@@ -3384,7 +3384,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791551461,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -3453,7 +3453,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791515304,
       "signal": "중립·확인 대기",
       "netScore": 1.4,
@@ -3522,7 +3522,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791545341,
       "signal": "주의 강화",
       "netScore": -7.26,
@@ -3708,7 +3708,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791645252,
       "signal": "중립·확인 대기",
       "netScore": 0.7,
@@ -3776,7 +3776,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791552718,
       "signal": "우호적 변화",
       "netScore": 2.8,
@@ -3859,7 +3859,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791563077,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -3928,7 +3928,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3982,7 +3982,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791589815,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -4051,7 +4051,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4105,7 +4105,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4159,7 +4159,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4213,7 +4213,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4267,7 +4267,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4321,7 +4321,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4375,7 +4375,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1791762017.275483,
+      "updatedAt": 1791763237.8726583,
       "dataAsOf": 1791587509,
       "signal": "중립·확인 대기",
       "netScore": 0.7,

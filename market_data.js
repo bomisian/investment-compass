@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 92.41000366210938,
+      "current": 90.94999694824219,
       "prevClose": 91.8499984741211,
-      "changeAbs": 0.5600051879882812,
-      "changePct": 0.6096953699417467,
-      "pctRank": 85.29411764705883,
+      "changeAbs": -0.9000015258789062,
+      "changePct": -0.9798601424391784,
+      "pctRank": 82.9093799682035,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -18.185032174498406,
-      "ma20": 93.96500053405762,
-      "ma60": 88.647833887736,
-      "chg1m": -7.6399993896484375,
-      "chg3m": 13.07000732421875,
-      "chg1mPct": -7.636181066077646,
-      "chg3mPct": 16.47341558796729,
+      "drawdown1y": -19.477645501912853,
+      "ma20": 93.89200019836426,
+      "ma60": 88.62350044250488,
+      "chg1m": -9.100006103515625,
+      "chg3m": 11.610000610351562,
+      "chg1mPct": -9.095458096895824,
+      "chg3mPct": 14.633225543529477,
       "lastDate": "2026-10-11",
       "bars": 1258,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 102.28099822998047,
+      "current": 102.2020034790039,
       "prevClose": 102.20999908447266,
-      "changeAbs": 0.0709991455078125,
-      "changePct": 0.06946399192229169,
-      "pctRank": 49.92050874403816,
+      "changeAbs": -0.00799560546875,
+      "changePct": -0.007822723354240457,
+      "pctRank": 49.44356120826709,
       "min5y": 93.3499984741211,
       "max5y": 114.11000061035156,
-      "high1y": 102.28099822998047,
-      "drawdown1y": 0.0,
-      "ma20": 101.28554954528809,
-      "ma60": 100.29451649983724,
-      "chg1m": 3.1609954833984375,
-      "chg3m": 1.3409957885742188,
-      "chg1mPct": 3.1890591160293713,
-      "chg3mPct": 1.3285077829799354,
+      "high1y": 102.23999786376953,
+      "drawdown1y": -0.03716195770685493,
+      "ma20": 101.28159980773925,
+      "ma60": 100.2931999206543,
+      "chg1m": 3.082000732421875,
+      "chg3m": 1.2620010375976562,
+      "chg1mPct": 3.1093630417884066,
+      "chg3mPct": 1.2502486695799555,
       "lastDate": "2026-10-11",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4209.60009765625,
+      "current": 4216.2998046875,
       "prevClose": 4216.2998046875,
-      "changeAbs": -6.69970703125,
-      "changePct": -0.1589001575220423,
-      "pctRank": 85.70293884034949,
+      "changeAbs": 0.0,
+      "changePct": 0.0,
+      "pctRank": 85.86179507545671,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -20.848372161688445,
-      "ma20": 4260.4849853515625,
-      "ma60": 4327.924991861979,
-      "chg1m": -199.2998046875,
-      "chg3m": 139.900146484375,
-      "chg1mPct": -4.520397584475737,
-      "chg3mPct": 3.4376034637170387,
+      "drawdown1y": -20.722399930297996,
+      "ma20": 4260.819970703125,
+      "ma60": 4328.036653645833,
+      "chg1m": -192.60009765625,
+      "chg3m": 146.599853515625,
+      "chg1mPct": -4.368438883220386,
+      "chg3mPct": 3.602227566516578,
       "lastDate": "2026-10-11",
       "bars": 1259,
       "symbol": "GC=F",
@@ -237,100 +237,120 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Trump announces Ukraine energy ceasefire with Russia, surprising Zelenskiy - Reuters",
-      "summary": "Trump announces Ukraine energy ceasefire with Russia, surprising Zelenskiy Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTEo5WEZxUk5OcWNWU1Z1Z0g4SGlFQmxKckFxbS05WFd6UUxDNE0xa0NZRzZoR004Tms3azQ3aTVfUVIwNXlTU1ljcW9HLTREUGZBVVFiWlpVWXI3V1c3Zmt2UEJ2ME43azRMb0Vlei1iQUNPbzk4bV94bkRGTzBmREMydnBCRzVSclBoVkhrWkx4TFJ2YWdsRS1COGVOWU9pRDJqSUFNRk1pUnpQM2dlQ3o0eGpYSHYzbWdDX3dtQWtYT2Zz?oc=5",
-      "datetime": 1791753020
-    },
-    {
       "headline": "Saudi Arabia reports injuries in new attack at Riyadh airport, day after strike kills 13 - Reuters",
       "summary": "Saudi Arabia reports injuries in new attack at Riyadh airport, day after strike kills 13 Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSEo0VkFTZkY2VzMzeFV0OVRVbWN4aHFzaXFjV0FBN05uaEFONHhQVTN2a3JJM09NdFBzY1R3MnRrUFZOeFZfUDItOUd1NkxiT3dfOWduTHJKTlBzSGsyN3VCYTNkWG1ZTWlZMUpzbDdrc1dOZUs3VDRwa0lHN21tNnFNdFhQYUxoNmdfN1Zyb3FMRm04RzRVei0zY3FKN0FoY2JYTGFodjYtemdITVpKVXk3NlR2QXFIMU9YMnUtX004QW1GZ0UzZA?oc=5",
-      "datetime": 1791749168
+      "datetime": 1791758741,
+      "headlineKo": "사우디 아라비아, 리야드 공항에서 새로운 공격으로 부상자 보고, 공격 다음날 13명 사망 - 로이터",
+      "summaryKo": "사우디 아라비아, 리야드 공항에서 새로운 공격으로 부상자 보고 - 공습으로 13명 사망 - 최신"
+    },
+    {
+      "headline": "Saudi, Iranian foreign ministers discuss regional tensions, state news agency says - Reuters",
+      "summary": "Saudi, Iranian foreign ministers discuss regional tensions, state news agency says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVW9SNC1teWppNnU5SXVIWGFNR1NyOEZQUzVXcVB5ZjlPU0pUcjBMUXl4dHVsMWd6c1BRbXBvQ3Z2bjllbVhuUWxLR2ZJUGwwUmpqcHB1S3otYklkalI3bHhqMmhLOTZVTFhQam51WHlmZFF5Y1YzSy1ZQUlPTmpiRjZ3TVZ4Y0lBWEpxejRNLUZ0dDBVNURTbENWVWNXZ3pPVzZ4MVFIZldMUUFZQW8zNHllMmR6UnlVZnQweEsybUVDTFUzYzVIYUUtVjJGczA?oc=5",
+      "datetime": 1791753357,
+      "headlineKo": "사우디와 이란 외무장관들이 지역 긴장을 논의했다고 국영 통신사가 밝혔습니다. - 로이터",
+      "summaryKo": "사우디와 이란 외무장관들이 지역적 긴장 문제를 논의했다고 국영 통신사가 로이터 통신을 통해 밝혔습니다."
+    },
+    {
+      "headline": "Trump announces Ukraine energy ceasefire with Russia, surprising Zelenskiy - Reuters",
+      "summary": "Trump announces Ukraine energy ceasefire with Russia, surprising Zelenskiy Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTEo5WEZxUk5OcWNWU1Z1Z0g4SGlFQmxKckFxbS05WFd6UUxDNE0xa0NZRzZoR004Tms3azQ3aTVfUVIwNXlTU1ljcW9HLTREUGZBVVFiWlpVWXI3V1c3Zmt2UEJ2ME43azRMb0Vlei1iQUNPbzk4bV94bkRGTzBmREMydnBCRzVSclBoVkhrWkx4TFJ2YWdsRS1COGVOWU9pRDJqSUFNRk1pUnpQM2dlQ3o0eGpYSHYzbWdDX3dtQWtYT2Zz?oc=5",
+      "datetime": 1791753020,
+      "headlineKo": "트럼프, 러시아와 우크라이나 에너지 휴전 발표해 젤렌스키도 놀라게 - 로이터 통신",
+      "summaryKo": "트럼프, 러시아와 우크라이나 에너지 휴전 발표해 젤렌스키 로이터 통신"
     },
     {
       "headline": "Here are the 6 big things we're watching in the stock market this week",
       "summary": "Earnings season ramps up this week, with four Club holdings set to report. Two main inflation reports are also out.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/investingclub/2026/10/11/here-are-the-6-big-things-were-watching-in-the-stock-market-this-week.html",
-      "datetime": 1791747965
+      "datetime": 1791747965,
+      "headlineKo": "이번 주 주식 시장에서 주목해야 할 6가지 주요 소식은 다음과 같습니다.",
+      "summaryKo": "이번 주에는 수입 시즌이 본격화되며 4개의 클럽 보유량이 보고될 예정입니다. 두 가지 주요 인플레이션 보고서도 나왔습니다."
     },
     {
       "headline": "Indian national injured in Riyadh airport attack dies, embassy says - Reuters",
       "summary": "Indian national injured in Riyadh airport attack dies, embassy says Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdUdmYkdkbzVhY0FyLUxyT0k2Z2pOMHJVLTZsd3B5TEpEb1NVUmZ5U1drLTk1MnpoWk5VR1hpUFhpdTd5ZnE0bE1oQmVGQU4wWGlBakZvNGlfQWpjSUlxTE5MVGhodC1tYTQ2UV9ZREdxVnZnOTJQaFVfaHBDdHEyc0VXWG1GTE9JM2RJLS1fYm1NTXQ1NU5tRFZLY2YtOWFpZjhObGNTUTBTUnVUU2JNZw?oc=5",
-      "datetime": 1791738734
+      "datetime": 1791738734,
+      "headlineKo": "리야드 공항 테러로 부상당한 인도 국민 사망, 대사관 발표 - 로이터",
+      "summaryKo": "리야드 공항 테러로 부상당한 인도 국민 사망, 대사관 발표 로이터"
     },
     {
       "headline": "Iran says US response to its proposal to reopen Hormuz was 'insufficient' - Reuters",
       "summary": "Iran says US response to its proposal to reopen Hormuz was 'insufficient' Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaDM4RVFjdmpFdUszUHFFbm5tWGM1R21NMEI2aFNqN2NOUGZPZzVPQ3d6QnUwY3VkWm96Q0tXQVFfTFF6c21hYzgzQWwyQVhJam0zZW45cGNuc282RkYzVEIyOEJlTkljM0l5MkdTRHRzRE1rdExZV2o4aFBiTURQMXd0UlFsTVlLdVlwVDZJcGpBNWZkb0RhalloX21XclFXTWJnN3pTSzZPNy1tS1o0SDNjLVlmZ2ZkVldj?oc=5",
-      "datetime": 1791738672
+      "datetime": 1791738672,
+      "headlineKo": "이란은 호르무즈 재개 제안에 대한 미국의 대응이 '불충분했다'고 말했다 - 로이터",
+      "summaryKo": "이란은 호르무즈 재개 제안에 대한 미국의 대응이 '불충분했다'고 밝혔습니다."
     },
     {
       "headline": "Strike reported on Yemeni Sanaa airport, Houthi-run TV says - Reuters",
       "summary": "Strike reported on Yemeni Sanaa airport, Houthi-run TV says Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOb2hZZTRZLXk2amlHSS1zWkYtUmkzdy1EUWRFZ3lRUzRLX2hOMkxkLXBSR1hnVmd1UkNrN0NpNXNneXgwcGJ2ZzgwRFRRUVo5QS1xSWlENjhWN1M0MGR5eFpPOVZQT0dMUGRWcTQ1YTN3aHhpTjZVVGVqSldfcDN3SFZTQTJSMTUyX1psaXpyb2VKTVU0OGIzeFViOXZGVnRGb0lvTDNVdERoX0tHaHc?oc=5",
-      "datetime": 1791726195
+      "datetime": 1791726195,
+      "headlineKo": "예멘 사나 공항에서 파업이 보고됐다고 Houthi가 운영하는 TV가 보도했습니다 - Reuters",
+      "summaryKo": "예멘 사나 공항에서 파업 보도, 후티가 운영하는 TV, 로이터 통신"
     },
     {
       "headline": "Most Gulf stocks in red after attack on Riyadh airport - Reuters",
       "summary": "Most Gulf stocks in red after attack on Riyadh airport Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOEliNzFKYlR3T0NNakk4TWxXWGJ0UlJfQ0JLdFVIRnlESENoRW4zdjNSWW02UjFJOFozRmlZdVZ2ZlFaOTFSdEc5RGd6QWVVaFFMNi1QRTdMSVg2dFQxaHROcjhjbnI4ekhnZUZVbXlmYVBQaDZ3TG1pcFQ5RnFaVXpfYUxWRG1acC1mYnR6d3ZtdXpxbTBBUFJkcU9ock1wbXc?oc=5",
-      "datetime": 1791724753
+      "datetime": 1791724753,
+      "headlineKo": "리야드 공항 공격 후 대부분의 걸프 주식이 빨간색으로 표시됨 - Reuters",
+      "summaryKo": "리야드 공항 공격 후 대부분의 걸프 주식은 빨간색으로 표시됨 Reuters"
     },
     {
       "headline": "I’m a psychologist who studies couples: The No. 1 way to end a fight before it escalates—it works ‘almost immediately’",
       "summary": "\"In my experience, nothing de-escalates a conflict faster,\" says psychologist Mark Travers. Why a \"partial yield\" works, and how to use it.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/make-it/2026/10/11/psychologist-couples-end-fight-before-escalates-partial-yield.html",
-      "datetime": 1791722881
+      "datetime": 1791722881,
+      "headlineKo": "나는 커플을 연구하는 심리학자입니다. 싸움이 커지기 전에 싸움을 끝내는 최고의 방법은 '거의 즉시' 효과가 있습니다"
     },
     {
       "headline": "NBA commissioner Adam Silver says league could introduce ‘smart ball’ technology as soon as next year",
       "summary": "Commissioner Adam Silver says the NBA could begin using a new \"smart ball\" in games as soon as next year, potentially transforming how officials make calls.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/11/commissioner-adam-silver-nba-could-launch-smart-ball-tech-next-year.html",
-      "datetime": 1791720001
+      "datetime": 1791720001,
+      "headlineKo": "NBA 커미셔너 아담 실버는 리그가 이르면 내년에 '스마트볼' 기술을 도입할 수 있다고 말했다."
     },
     {
       "headline": "Yemen's Houthis renew warning to airlines, travellers against using Saudi airports - Reuters",
       "summary": "Yemen's Houthis renew warning to airlines, travellers against using Saudi airports Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMUlyV0IybXFzanN6N1FSS3JuaEljNFhGMWtwXzJwR3g0S0NTVkNvUW1CSW4tSWxzY2txeTAxZGxvR2Y2RW53cklmbF8tNGVpaEFTRXlMeW15RkpkVGQ3clNwejJoOXBmQnhYd1ZXWGFJMVVBZ1hpUGFPWDdXeWV4LU1ORFVoekJleFlnOHFRenp4d29OVmV4U0c4eUJJY051RGFna01qMUJ2WFp3cGdHUm5kV0lSZ1hMMFJpdExQN21wMkJHcm1GU01yWQ?oc=5",
-      "datetime": 1791704062
+      "datetime": 1791704062,
+      "headlineKo": "예멘 후티 반군, 항공사와 여행자에게 사우디 공항 이용 반대 경고 재차 경고 - 로이터 통신"
     },
     {
       "headline": "Middle East war, high debt levels to dominate IMF-World Bank meetings in Bangkok - Reuters",
       "summary": "Middle East war, high debt levels to dominate IMF-World Bank meetings in Bangkok Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWlZqTVZkYlUxR2xKODRtSHFhLUI5ZVk4MWlwUURPZTRJSy1UYjdKak1ZbzdGMG80dmNOTVlVbUtvbW1zUU9hWE5QeU9xc19wWE50TnR4M05sQ0c0aFI0ZmYtTGN6Q0hwanJUajNzSlRfaVBQNXdPMUlfQlpfb1JHTGlQWkg5aVdOTE5SZ29NRXZLSW85enZHa2dCOVFSWmFpUEptcWMxa1JxVW15ZGhLLTRRcDEyeXBEWkw0RnJR?oc=5",
-      "datetime": 1791691380
-    },
-    {
-      "headline": "US military says it disabled cargo vessel trying to run Iran blockade - Reuters",
-      "summary": "US military says it disabled cargo vessel trying to run Iran blockade Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPV2Nqd2RXZnpaY3lzeHVxN2Y0VC1ZZEpTSlFVeFpYbW1nQUZqRE5kSGt1NXo0TTFQQmtLSnFFX045Qk1pc2lpMWxXaGxfVkxxazIwNVdVYl82TWJZa2VURkhNWllYX1I1Vk00OFZoNzNNRmRQLURKVFpKbVVaVzZ4SjloWnB0SE1WTi1MWEp3TWttQ1h3MkpDcktydGU4MzdvVDlJS0V3Zk8xRkpp?oc=5",
-      "datetime": 1791682500
+      "datetime": 1791691380,
+      "headlineKo": "중동 전쟁, 방콕에서 열리는 IMF-세계은행 회의를 장악할 높은 부채 수준 - 로이터"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791759766.5346396,
+  "_news_last_success_at": 1791763257.056287,
   "fgi": {
     "score": 45,
     "rating": "fear"
   },
-  "_fetched_at": 1791759723.853894,
-  "_updated_label": "2026-10-12 08:03",
-  "_last_attempt_at": 1791759723.853894,
-  "_last_success_at": 1791759723.853894,
+  "_fetched_at": 1791763238.2045877,
+  "_updated_label": "2026-10-12 09:01",
+  "_last_attempt_at": 1791763238.2045877,
+  "_last_success_at": 1791763238.2045877,
   "_collection_status": "ok",
   "_collection_errors": []
 };

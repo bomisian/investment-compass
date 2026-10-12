@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791762017.2165086,
+  "generatedAt": 1791763237.8093486,
   "events": [
     {
       "id": "5e844c7750c48f786638",
@@ -26,7 +26,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "History Says This Will Happen to Palantir Stock by 2028",
-      "headlineKo": "",
+      "headlineKo": "역사에 따르면 2028년까지 Palantir 주식에 이런 일이 일어날 것이라고 합니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a49e2696a4583055214d9d061a13cf0a85d1a660fdd258cbdb0bfa24873bc6cc",
@@ -111,7 +111,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Amazon and Alphabet Just Committed $420 Billion to Data Centers. 1 Stock Is the Better Buy.",
-      "headlineKo": "",
+      "headlineKo": "Amazon과 Alphabet은 데이터 센터에 4,200억 달러를 투자했습니다. 1 주식이 더 나은 구매입니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=01a786a0f135b8e34ae002f5c662d8c407607d5e071fa680ed969b0df4cb99ef",
@@ -207,7 +207,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "If I Had a Choice to Invest $10,000 in SpaceX or Nvidia, Here's What I Would Do",
-      "headlineKo": "",
+      "headlineKo": "SpaceX나 Nvidia에 10,000달러를 투자할 수 있는 선택권이 있다면 다음과 같이 하시겠습니까?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0e1e97a23a36bea708f28f517799143f24b162ed49d93a28c336414be492d21d",
@@ -278,7 +278,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Applied Materials Faces Market Share Test as Global Chip Equipment Spending Surges 23%",
-      "headlineKo": "",
+      "headlineKo": "글로벌 칩 장비 지출이 23% 급증하면서 어플라이드 머티어리얼즈, 시장 점유율 시험 직면",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0c3833e85c421241d7b5414c58085d5e0454aefde9861bdfdb528328d8569416",
@@ -347,7 +347,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "S&P 500: A Hard Road Ahead",
-      "headlineKo": "",
+      "headlineKo": "S&P 500: 앞으로 험난한 길",
       "source": {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=633ba534d6274b280447de5df3688c132d7ded955cd7c0522010599e6887824d",
@@ -422,7 +422,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Dow Jones Futures: Trump Claims Russia-Ukraine 'Energy Ceasefire'; ASML, Nvidia Chipmaker Taiwan Semi Earnings Loom",
-      "headlineKo": "",
+      "headlineKo": "다우존스 선물: 트럼프, 러시아-우크라이나 '에너지 휴전' 주장; ASML, Nvidia Chipmaker Taiwan 준결승 직기",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1615ad8b4df6bf9cdd43a5cd983dd35b044c35f215602863c9c2aae659cabd91",
@@ -501,7 +501,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Alphabet's Google Cloud Is Surging at 82%, and the Heavy Spending Is Starting to Make Sense",
-      "headlineKo": "",
+      "headlineKo": "Alphabet의 Google Cloud가 82%로 급증하고 있으며 막대한 지출이 이해되기 시작했습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d85cf4b26e48f195c7bdf24e2258b64243f8a7dbf74a0573f1473a152cd9333b",
@@ -573,7 +573,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "AMD Stock Fell 6% in Three Sessions After Its Record Close. Here’s What OpenAI’s $20 Billion Revenue Gap Means for the Stock",
-      "headlineKo": "",
+      "headlineKo": "AMD 주식은 기록적인 마감 후 3회 만에 6% 하락했습니다. OpenAI의 200억 달러 수익 격차가 주식에 의미하는 바는 다음과 같습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7a414154675b2576e865ecd91245f684364cc37f2e9826ffc703b577a05663a0",
@@ -668,7 +668,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Intel (INTC) Reaches 500 Million AI Tool Downloads As Edge Integrations Expand",
-      "headlineKo": "",
+      "headlineKo": "인텔(INTC), 엣지 통합 확장으로 AI 도구 다운로드 5억 건 달성",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e639412bffa79f9817318a92846764217e4c9bba8a716b37944cc524d4affce9",
@@ -745,7 +745,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Alphabet Stock Is Up 46% Since Last October. Is It Still a Buy?",
-      "headlineKo": "",
+      "headlineKo": "알파벳 주식은 지난 10월 이후 46% 상승했습니다. 아직도 매수인가요?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8015f76a88e8b90c92e30dc0a91cdb5a1269afb2c755d56f00a3d54ddbce786a",
@@ -836,7 +836,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "KLA Turned $1,000 Into $31,595 in a Decade, Crushing the S&P 500 by 8.7x",
-      "headlineKo": "",
+      "headlineKo": "KLA는 10년 만에 $1,000를 $31,595로 전환하여 S&P 500을 8.7배나 압도했습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=31e91335b5d3345ef66746347569706cc2d48db4fc2d8f35f542678aeab6ca64",
@@ -912,7 +912,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Prediction: Meta Platforms Stock Will Drop After Earnings, and That Could Be an Incredible Buying Opportunity",
-      "headlineKo": "",
+      "headlineKo": "예측: 메타 플랫폼 주식은 수익 이후 하락할 것이며 이는 엄청난 구매 기회가 될 수 있습니다",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=36eb742f0305a3c0c39bae1c5b7a53e7c60a1c02d0a43a29d469af8fde1c5ea0",
@@ -981,7 +981,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Lam Research’s Support Revenue Jumped 43%. How Much Protection Does It Offer?",
-      "headlineKo": "",
+      "headlineKo": "Lam Research의 지원 수익은 43% 증가했습니다. 얼마나 많은 보호를 제공합니까?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=eae576b80b3b4189123c3911ee2124da286d323cdda0dea3716cd44d2a79b6ad",
@@ -1056,7 +1056,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Not Anthropic. Not AMD. Here's My Top AI Stock for 2027.",
-      "headlineKo": "",
+      "headlineKo": "인류애적이지 않습니다. AMD가 아닙니다. 2027년 나의 최고 AI 주식은 다음과 같습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2a5cabfc85b30d885e004254203592417f511f29f6aeedf50324259fa3385ba0",
@@ -1132,7 +1132,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Intel and Applied Materials Just Deepened Their AI Partnership. Which Stock Looks Better Positioned?",
-      "headlineKo": "",
+      "headlineKo": "인텔과 어플라이드 머티어리얼즈, AI 파트너십을 더욱 강화했습니다. 어떤 주식이 더 나은 위치에 있는 것 같나요?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=860a5fa8f9682ba9f80e461021c7bd9682efdc6e1222887688c4aff6831ed60d",
@@ -1207,7 +1207,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "SpaceX vs. Micron: Which Is the Better Artificial Intelligence (AI) Stock to Own for the Next 5 Years?",
-      "headlineKo": "",
+      "headlineKo": "SpaceX vs. Micron: 향후 5년간 보유하기에 더 나은 인공지능(AI) 주식은 무엇입니까?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c888810c51a4a2f60eb31510579ce114ec9ee85424219b99f1b73748f122af67",
@@ -1282,7 +1282,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "“Just Do the Math”: Meta’s Muse Needs $2.8 Billion Compute to Serve 100 Million Users. Facebook Has 3 Billion",
-      "headlineKo": "",
+      "headlineKo": "“그냥 계산해 보세요”: Meta의 Muse는 1억 명의 사용자에게 서비스를 제공하려면 28억 달러의 컴퓨팅이 필요합니다. 페이스북은 30억 달러를 가지고 있다",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7e9c2441c745483784a287f9391663e5bca9d5ccda4f151f6a369062ede5a5d5",
@@ -1359,7 +1359,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Dow Jones Futures Loom; ASML, Nvidia Chipmaker Taiwan Semi To Kick Off AI Earnings",
-      "headlineKo": "",
+      "headlineKo": "다우존스 선물 직기; ASML, Nvidia Chipmaker Taiwan Semi, AI 수익 개시",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=76138a8289e5b88d1550f8a97dd7b0848e3fa561e822d860ab4dbbabfa6fa8b4",
@@ -1434,7 +1434,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Dow Jones Futures Loom; ASML, Nvidia Chipmaker Taiwan Semi To Kick Off AI Earnings",
-      "headlineKo": "",
+      "headlineKo": "다우존스 선물 직기; ASML, Nvidia Chipmaker Taiwan Semi, AI 수익 개시",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=76138a8289e5b88d1550f8a97dd7b0848e3fa561e822d860ab4dbbabfa6fa8b4",
@@ -1443,7 +1443,7 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Dow Jones Futures Loom; ASML, Nvidia Chipmaker Taiwan Semi To Kick Off AI Earnings"
+        "다우존스 선물 직기; ASML, Nvidia Chipmaker Taiwan Semi, AI 수익 개시"
       ],
       "marketInterpretation": [],
       "aiInference": [
@@ -1573,7 +1573,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Marvell's Outlook Says Revenue and Earnings Could 10x in 5 Years. Here's Why the Stock's a Bargain Even If It Falls Short.",
-      "headlineKo": "",
+      "headlineKo": "Marvell의 전망에 따르면 수익과 수익은 5년 안에 10배가 될 수 있습니다. 주식이 부족하더라도 할인이 가능한 이유는 다음과 같습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6c6776af63eafe861ae84ddeef4432012a57c593fb2fb616ac90787c8356a69f",
@@ -1649,7 +1649,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "3 Things to Watch When Taiwan Semiconductor (TSMC) Reports Earnings on Oct. 15",
-      "headlineKo": "",
+      "headlineKo": "대만반도체(TSMC) 10월 15일 실적 발표 시 주목해야 할 3가지",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=906eea096587a718b0a529e9f01533b0cbb1f635f28589cc539c41a5fe2538cf",
@@ -1719,7 +1719,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Sandisk: 12% Cash Return, With Earnings Up Next",
-      "headlineKo": "",
+      "headlineKo": "Sandisk: 12% 현금 수익률, 다음 수익 증가",
       "source": {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=021e6e7336fe0d11e935ddcb036d891d65ed76a1fb96f2587c6159247f4ac1f1",
@@ -1865,7 +1865,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Prediction: This Is How Much Micron Stock Will Be Worth By the End of 2027",
-      "headlineKo": "",
+      "headlineKo": "예측: 2027년 말까지 마이크론 주식의 가치는 얼마나 될까요?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=637866ba07cb256376b68f8d874ce037808504a02506b411a3c6234a2ee8587e",
@@ -1935,7 +1935,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Palantir: Staying Bullish At Record Highs As Q3 Approaches",
-      "headlineKo": "",
+      "headlineKo": "Palantir: 3분기가 다가옴에 따라 기록적인 최고치를 유지하며 강세 유지",
       "source": {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=dfa8548a9ee0ae30887f60a8689fb9e593bdf0bc0fdf6505b7972e58dc3c4305",
@@ -2093,7 +2093,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Amazon: The Economic Challenge Gets Bigger (Rating Downgrade)",
-      "headlineKo": "",
+      "headlineKo": "아마존: 경제적 도전이 더 커짐(등급 하향)",
       "source": {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=fe7c7652392e179a25432fdc6f0e20526d665bc5fcfa8b38092e485acb2d9005",
@@ -3208,7 +3208,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Microsoft's Nadella says AI needs an ‘emergency brake’ that humans control",
-      "headlineKo": "",
+      "headlineKo": "마이크로소프트 나델라 \"AI에는 인간이 제어하는 ​​'비상 브레이크' 필요\"",
       "source": {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=b4b6aeef9b18d21b8c1b56043a87da0b7ebb485e5d0e9c7883c8233cfa3c0c8f",
@@ -3919,7 +3919,7 @@ const EVENT_DATA = {
       "impactProbability": "낮음·확인 필요",
       "verificationStatus": "needs_confirmation",
       "headline": "S&P 500 Earnings Preview: Will Strong Profits Fuel the Next Rally?",
-      "headlineKo": "",
+      "headlineKo": "S&P 500 수익 미리보기: 강한 이익이 다음 랠리를 촉진할 것인가?",
       "source": {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=431d15adf7e606537dbd8d423c86b98d8b4f3a6aa7c0e2b4075a7d4b1f53b4ad",
@@ -3928,7 +3928,7 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "S&P 500 Earnings Preview: Will Strong Profits Fuel the Next Rally?"
+        "S&P 500 수익 미리보기: 강한 이익이 다음 랠리를 촉진할 것인가?"
       ],
       "marketInterpretation": [],
       "aiInference": [
@@ -4184,7 +4184,7 @@ const EVENT_DATA = {
       "impactProbability": "낮음·확인 필요",
       "verificationStatus": "needs_confirmation",
       "headline": "Why Micron Stock is Struggling Despite Revenue Growth and a Low Valuation",
-      "headlineKo": "",
+      "headlineKo": "Micron 주식이 수익 성장과 낮은 가치 평가에도 불구하고 어려움을 겪고 있는 이유",
       "source": {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=ddb4c50b6fa9c937dcbd836f6352a04e833b5b7b1c7897ed08afa5bb5a42d3b1",
@@ -4193,7 +4193,7 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Why Micron Stock is Struggling Despite Revenue Growth and a Low Valuation"
+        "Micron 주식이 수익 성장과 낮은 가치 평가에도 불구하고 어려움을 겪고 있는 이유"
       ],
       "marketInterpretation": [],
       "aiInference": [
