@@ -1,8 +1,75 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791823685.4919145,
+  "generatedAt": 1791824436.2767673,
   "events": [
+    {
+      "id": "42572b588d8b4df80c35",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "CRM",
+      "relatedTickers": [
+        "CRM"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Salesforce's AI Strategy Reduces Disintermediation Risk, BofA Says in Upgrade",
+      "headlineKo": "Salesforce의 AI 전략으로 중개 중단 위험이 감소한다고 BofA는 업그레이드를 통해 밝혔습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=21f059636b3a531c8fb419c122e5aa4f869568302e29909b3c2be09bef67462e",
+        "publishedAt": 1791817940,
+        "collectedAt": 1791824402.1666722
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Salesforce's AI Strategy Reduces Disintermediation Risk, BofA Says in Upgrade",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "CRM에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "CRM",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 CAPEX 집행",
+        "공급업체 수주·매출",
+        "투자 기업 OCF·FCF·부채"
+      ]
+    },
     {
       "id": "8a3f7895d1450acfa026",
       "schemaVersion": 1,
@@ -88,6 +155,75 @@ const EVENT_DATA = {
         "영업현금흐름과 CAPEX",
         "회사 공식 가이던스",
         "주가 반응이 하루 이상 지속되는지"
+      ]
+    },
+    {
+      "id": "686d26014ad62be9b2f4",
+      "schemaVersion": 1,
+      "eventType": "analyst_target_change",
+      "eventLabel": "애널리스트 목표주가 변경",
+      "primaryTicker": "CRM",
+      "relatedTickers": [
+        "CRM"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Salesforce Stock Surges After Bank of America Double Upgrade to Buy on AI Strength",
+      "headlineKo": "AI 강점으로 구매하기 위해 Bank of America의 이중 업그레이드 후 Salesforce 주식 급등",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c179619d9d7c4d0b7ed602519353ecaf2da4ea853822ebe808343c9905581341",
+        "publishedAt": 1791816707,
+        "collectedAt": 1791824402.1666722
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "AI 강점 구매를 위해 Bank of America 이중 업그레이드 후 Salesforce 주가 급등 | TIKR.com 일반 투자 Salesforce 주식은 Bank of America가 AI 강점 Aditya Raghunath를 구매하기 위해 두 번 업그레이드한 후 급등했습니다. • 3분 읽기 검토자:",
+        "9: $229 52주 최고가: $269 $CRM 주가 목표: $283 현재 진행 중: TIKR의 새로운 가치 평가 모델을 사용하여 좋아하는 주식이 얼마나 상승할 수 있는지 알아보세요(무료) >>> 무슨 일이 일어났나요?",
+        "BofA 증권은 월요일 Salesforce(CRM)를 Underperform에서 Buy로 업그레이드하고 목표 가격을 160달러에서 285달러로 높였습니다."
+      ],
+      "marketInterpretation": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 33%, $229, $269 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "CRM에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 33%, $229, $269 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "CRM",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "목표주가 산식의 EPS",
+        "적용 PER 변화",
+        "회사 공식 가이던스"
       ]
     },
     {
@@ -491,6 +627,75 @@ const EVENT_DATA = {
         "관련 기업 매출·수주잔고",
         "CAPEX 대비 영업현금흐름",
         "금리와 프로젝트 부채 비용"
+      ]
+    },
+    {
+      "id": "533335e5e85f6ca9da95",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "CRM",
+      "relatedTickers": [
+        "CRM"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Salesforce to buy AI analytics platform Loops for Tableau",
+      "headlineKo": "Salesforce, Tableau용 AI 분석 플랫폼 Loops 인수",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=bce177cb6cd6dd2c21a1f9cc6fe6751e819f28fc7cd9d08cc76fdabcad2bb410",
+        "publishedAt": 1791814560,
+        "collectedAt": 1791824402.1666722
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Salesforce, Tableau용 AI 분석 플랫폼 Loops 인수 | NYSE:CRM, XETRA:FOO 무엇을 찾고 계십니까?",
+        "회사 뉴스 일치하는 모든 회사 보기 일치하는 모든 뉴스 보기 기술 소프트웨어 및 서비스 작성자: Ian Lyall 편집자: Angela Harmantas 고지 사항 투자 조언 없음 이 콘텐츠 정보 편집 표준 및 정책 기사 공유 정보",
+        "Ian은 3개 대륙의 6개 사무실에서 Proactive의 편집 및 방송 운영을 감독하면서 품질 관리, 편집 정책 및 콘텐츠 제작을 담당하고 있습니다."
+      ],
+      "marketInterpretation": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 2% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "CRM에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 2% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "CRM",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 CAPEX 집행",
+        "공급업체 수주·매출",
+        "투자 기업 OCF·FCF·부채"
       ]
     },
     {
@@ -18158,226 +18363,15 @@ const EVENT_DATA = {
         "공급업체 수주·매출",
         "투자 기업 OCF·FCF·부채"
       ]
-    },
-    {
-      "id": "6ff645f8439d87b1a104",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "PLTR",
-      "relatedTickers": [
-        "AAPL",
-        "LITE",
-        "PLTR",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "BA, SPCX, RKLB, RTX, PLTR Stock In Focus: Why Barclays Is Overweight On Aerospace And Defense Stocks?",
-      "headlineKo": "BA, SPCX, RKLB, RTX, PLTR 주식에 초점을 맞췄습니다: Barclays가 항공우주 및 국방 주식에 비중을 두는 이유는 무엇입니까?",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=cb92fd5bc719d64e8c00e22304e91e0dda90aa2585072381a2030d6768615576",
-        "publishedAt": 1791504951,
-        "collectedAt": 1791821176.2682998
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "BA, SPCX, RKLB, RTX, PLTR 주식에 초점을 맞췄습니다: Barclays가 항공우주 및 국방 주식에 비중을 두는 이유는 무엇입니까?",
-        "AI 에이전트 동향 뉴스 수입 전체 DIA 0.19% SPY 0.40% QQQ 0.80% 추세 SPCX 3.73% GRRR 3.85% ASTS 3.71% AAPL 2.20% DAL 2.53% LITE 6.24% VZ 5.44% TMUS 7.30% T 6.48% AAOI 6.93% 홈 뉴스 시장 주식 BA, SPCX, RKLB, RTX, PLTR 주식 F",
-        "BA, SPCX, RKLB, RTX, PLTR 주식에 초점을 맞췄습니다: Barclays가 항공우주 및 국방 주식에 비중을 두는 이유는 무엇입니까?"
-      ],
-      "marketInterpretation": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.19%, 0.40%, 0.80% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "PLTR에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.19%, 0.40%, 0.80% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "PLTR",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "목표주가 산식의 EPS",
-        "적용 PER 변화",
-        "회사 공식 가이던스"
-      ]
-    },
-    {
-      "id": "4ebb3190921288b0d623",
-      "schemaVersion": 1,
-      "eventType": "regulatory_legal_export",
-      "eventLabel": "규제·소송·수출 제한",
-      "primaryTicker": "AMD",
-      "relatedTickers": [
-        "AMD",
-        "ASML",
-        "SPY"
-      ],
-      "relatedEntities": [],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Advanced Micro Devices vs. ASML: Which Semiconductor Stock Is a Better Buy in 2026?",
-      "headlineKo": "Advanced Micro Devices vs. ASML: 2026년에는 어느 반도체 주식이 더 나은 매수인가요?",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8d42f25c2ed44fae3597e64c63defe9bc77ce60ad76e26198e7ef0825841354b",
-        "publishedAt": 1791502971,
-        "collectedAt": 1791823497.5895765
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "ASML: 2026년에는 어느 반도체 주식이 더 나은 매수인가?",
-        "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 합류하세요. 인공 지능이 더 강력한 하드웨어를 요구함에 따라 반도체 환경이 변화하고 있습니다.",
-        "Advanced Micro Devices( AMD -3.90% )와 ASML( ASML -1.95% ) 중에서 선택한다는 것은 전체 산업을 주도하는 칩 설계자와 장비 제조업체 중에서 선택한다는 의미입니다."
-      ],
-      "marketInterpretation": [
-        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 3.90%, 1.95%, $620.68 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "AMD에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 3.90%, 1.95%, $620.68 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AMD",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "공식 규제 적용일·대상 제품",
-        "회사의 매출 영향 추정",
-        "대체 제품·지역 판매"
-      ]
-    },
-    {
-      "id": "7eaa69bf985b663faf5d",
-      "schemaVersion": 1,
-      "eventType": "long_term_supply",
-      "eventLabel": "장기 공급계약",
-      "primaryTicker": "QCOM",
-      "relatedTickers": [
-        "QCOM"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Qualcomm",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "neutral",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Qualcomm (QCOM) Signs Broad Multi Year Patent Deal",
-      "headlineKo": "Qualcomm(QCOM), 광범위한 다년 특허 계약 체결",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9a0072d39afdd5205bc0fe551cae3eef0e7cb8713ee3df600ac1803b173f6b37",
-        "publishedAt": 1791501357,
-        "collectedAt": 1791821176.2682998
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Qualcomm (QCOM) Signs Broad Multi Year Patent Deal",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
-        "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "QCOM에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
-        "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "QCOM",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "계약 금액·기간·취소 조건",
-        "수주잔고와 매출 인식 시점",
-        "관련 사업부 매출총이익률"
-      ]
     }
   ],
   "byTicker": {
+    "CRM": [
+      "42572b588d8b4df80c35",
+      "686d26014ad62be9b2f4",
+      "533335e5e85f6ca9da95",
+      "f936f6c34499d7ea1519"
+    ],
     "AMD": [
       "8a3f7895d1450acfa026",
       "c57822503eee3f3815ef",
@@ -18413,8 +18407,7 @@ const EVENT_DATA = {
       "e76994627a4248cadc13",
       "dbf5fbe9a36fcec2d43d",
       "d939363822cc9ee243bc",
-      "65ce9209ca77f6f75774",
-      "4ebb3190921288b0d623"
+      "65ce9209ca77f6f75774"
     ],
     "GOOGL": [
       "8a3f7895d1450acfa026",
@@ -18573,8 +18566,7 @@ const EVENT_DATA = {
       "228f218c4f4e52defa8e",
       "56c59cdea62069b4c0c7",
       "c3eb1be892956e0d3f85",
-      "1885ddda919e213c8fad",
-      "6ff645f8439d87b1a104"
+      "1885ddda919e213c8fad"
     ],
     "SPY": [
       "c57822503eee3f3815ef",
@@ -18683,9 +18675,7 @@ const EVENT_DATA = {
       "56c59cdea62069b4c0c7",
       "98c14827b100d12183cb",
       "c3eb1be892956e0d3f85",
-      "1885ddda919e213c8fad",
-      "6ff645f8439d87b1a104",
-      "4ebb3190921288b0d623"
+      "1885ddda919e213c8fad"
     ],
     "AMZN": [
       "59b043c1240a0be22318",
@@ -18730,8 +18720,7 @@ const EVENT_DATA = {
       "671f338353c7174cd049",
       "1a87ad946015e0f9ceeb",
       "39620d981a5234077c37",
-      "d45910c7a64317b2e30c",
-      "7eaa69bf985b663faf5d"
+      "d45910c7a64317b2e30c"
     ],
     "ASML": [
       "7155bdd9a603387ecc02",
@@ -18751,8 +18740,7 @@ const EVENT_DATA = {
       "9af8b864e797e29277d2",
       "368a99434e567869738c",
       "0178165a190939896a5e",
-      "baea45c55082c7d95f37",
-      "4ebb3190921288b0d623"
+      "baea45c55082c7d95f37"
     ],
     "AVGO": [
       "1b1104676c6b079cf424",
@@ -18862,8 +18850,7 @@ const EVENT_DATA = {
       "04b582cda4d0cbfb6228",
       "0244cf8cb5571c2928d5",
       "6725561feccd3bb579ac",
-      "5b2181f5801ef9f34035",
-      "6ff645f8439d87b1a104"
+      "5b2181f5801ef9f34035"
     ],
     "ARM": [
       "91f3850d3085d09b45da",
@@ -18872,9 +18859,6 @@ const EVENT_DATA = {
       "a3e5e64deceded595a4e",
       "bfaa2e5130e0f2b25d9d",
       "fb41d928ec51e714671b"
-    ],
-    "CRM": [
-      "f936f6c34499d7ea1519"
     ],
     "TSLA": [
       "b8e5be28d94ecc72f569",
@@ -18915,8 +18899,7 @@ const EVENT_DATA = {
       "5b2181f5801ef9f34035",
       "d45910c7a64317b2e30c",
       "04eee22a6c37cbdff3fb",
-      "228f218c4f4e52defa8e",
-      "6ff645f8439d87b1a104"
+      "228f218c4f4e52defa8e"
     ],
     "MRVL": [
       "8f5bed285e89f2334872",
@@ -19026,8 +19009,7 @@ const EVENT_DATA = {
       "228f218c4f4e52defa8e",
       "bbb8de7d189798d158a1",
       "56c59cdea62069b4c0c7",
-      "1885ddda919e213c8fad",
-      "6ff645f8439d87b1a104"
+      "1885ddda919e213c8fad"
     ],
     "AMAT": [
       "a23944a3ac3901cfeefb",

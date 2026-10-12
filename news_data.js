@@ -5576,7 +5576,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 109,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "SPY": {
@@ -12912,7 +12912,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 148,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "MSFT": {
@@ -20875,7 +20875,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "GOOGL": {
@@ -28781,7 +28781,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "AMZN": {
@@ -36830,7 +36830,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "META": {
@@ -44790,7 +44790,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "AAPL": {
@@ -52786,7 +52786,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "TSLA": {
@@ -60971,7 +60971,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "ORCL": {
@@ -69327,11 +69327,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "CRM": {
-    "_last_attempt_at": 1791823497.5895765,
+    "_last_attempt_at": 1791824402.1666722,
     "nextEarnings": {
       "date": "2026-12-01",
       "hour": "amc",
@@ -69341,177 +69341,387 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Brokers Suggest Investing in Salesforce (CRM): Read This Before Placing a Bet",
+        "headline": "Salesforce's AI Strategy Reduces Disintermediation Risk, BofA Says in Upgrade",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=44ceddeb3ae27c06690e8c0b4f4f0e5453ef47964c999b4fa7f7b67311315551",
-        "datetime": 1791549002,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Brokers Suggest Investing in Salesforce (CRM): Read This Before Placing a Bet",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "CRM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'Brokers Suggest Investing in Salesforce (CRM): Read This Before Placing a Bet' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791801792.5020435
-        },
-        "headlineKo": "중개인은 Salesforce(CRM)에 투자할 것을 제안합니다: 베팅하기 전에 이것을 읽으십시오"
-      },
-      {
-        "headline": "How Salesforce’s New Missionforce CMO Hire (CRM) Shapes Its Public-Sector AI Ambitions",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=875aa519caabb73555ebe9a47b6d977f2431dd00cc2722174ebe1fb575cec4bb",
-        "datetime": 1791547863,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "How Salesforce’s New Missionforce CMO Hire (CRM) Shapes Its Public-Sector AI Ambitions",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "CRM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'How Salesforce’s New Missionforce CMO Hire (CRM) Shapes Its Public-Sector AI Ambitions' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791801796.7015197
-        },
-        "headlineKo": "Salesforce의 새로운 Missionforce CMO 채용(CRM)이 공공 부문 AI 야망을 형성하는 방법"
-      },
-      {
-        "headline": "Salesforce (CRM) Advances While Market Declines: Some Information for Investors",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c758fe67b347fbc9eec4a0605af380b9c4ddd6aff77ce622c468cf4b0e6fc881",
-        "datetime": 1791492304,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "실적·재무 부담 확인 필요",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Salesforce (CRM) Advances While Market Declines: Some Information for Investors",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "CRM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce (CRM) Advances While Market Declines: Some Information for Investors' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791801800.5429177
-        },
-        "headlineKo": "시장이 하락하는 동안 Salesforce(CRM)의 발전: 투자자를 위한 몇 가지 정보"
-      },
-      {
-        "headline": "Work4Flow Launches 90-Day Program to Accelerate Salesforce-to-ServiceNow CRM Migration",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c5301a70e40f0f6cdf469fdf90924d4393487d3fa42bbdc488dbb6fe86385d08",
-        "datetime": 1791479520,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Work4Flow, Salesforce에서 ServiceNow로의 CRM 마이그레이션을 가속화하기 위한 90일 프로그램 출시"
-      },
-      {
-        "headline": "Palantir Advances 3% as Goldman Sachs Upgrades to Buy With $230 Target; Salesforce and ServiceNow Hold Steady",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=bae5dac33524acfd76938a35b6896f8de23f2cc85d2aebf802816883e9eb4a97",
-        "datetime": 1791466124,
+        "url": "https://finnhub.io/api/news?id=21f059636b3a531c8fb419c122e5aa4f869568302e29909b3c2be09bef67462e",
+        "datetime": 1791817940,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Palantir는 Goldman Sachs가 $230 목표 매수로 업그레이드함에 따라 3% 상승합니다. Salesforce와 ServiceNow가 안정적으로 유지됩니다."
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Salesforce's AI Strategy Reduces Disintermediation Risk, BofA Says in Upgrade",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "CRM에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791824417.7297785
+        },
+        "headlineKo": "Salesforce의 AI 전략으로 중개 중단 위험이 감소한다고 BofA는 업그레이드를 통해 밝혔습니다."
+      },
+      {
+        "headline": "Salesforce Stock Surges After Bank of America Double Upgrade to Buy on AI Strength",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c179619d9d7c4d0b7ed602519353ecaf2da4ea853822ebe808343c9905581341",
+        "datetime": 1791816707,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AI 강점 구매를 위해 Bank of America 이중 업그레이드 후 Salesforce 주가 급등 | TIKR.com 일반 투자 Salesforce 주식은 Bank of America가 AI 강점 Aditya Raghunath를 구매하기 위해 두 번 업그레이드한 후 급등했습니다. • 3분 읽기 검토자:",
+            "9: $229 52주 최고가: $269 $CRM 주가 목표: $283 현재 진행 중: TIKR의 새로운 가치 평가 모델을 사용하여 좋아하는 주식이 얼마나 상승할 수 있는지 알아보세요(무료) >>> 무슨 일이 일어났나요?",
+            "BofA 증권은 월요일 Salesforce(CRM)를 Underperform에서 Buy로 업그레이드하고 목표 가격을 160달러에서 285달러로 높였습니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 33%, $229, $269 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "CRM에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "33%",
+            "$229",
+            "$269",
+            "$283",
+            "$285",
+            "$160.",
+            "$15 billion",
+            "8%"
+          ],
+          "sourceExcerpt": [
+            "Salesforce Stock Surges After Bank of America Double Upgrade to Buy on AI Strength | TIKR.com General Investing Salesforce Stock Surges After Bank of America Double Upgrade to Buy on AI Strength Aditya Raghunath • 3 minute read Reviewed by:",
+            "9: $229 52-Week High: $269 $CRM Stock Price Target: $283 Now Live: Discover how much upside your favorite stocks could have using TIKR’s new Valuation Model (It’s free) >>> What Happened?",
+            "BofA Securities upgraded Salesforce ( CRM ) to Buy from Underperform on Monday and raised its price target to $285 from $160."
+          ],
+          "analysisUpdatedAt": 1791824421.9994614
+        },
+        "headlineKo": "AI 강점으로 구매하기 위해 Bank of America의 이중 업그레이드 후 Salesforce 주식 급등"
+      },
+      {
+        "headline": "Salesforce to buy AI analytics platform Loops for Tableau",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=bce177cb6cd6dd2c21a1f9cc6fe6751e819f28fc7cd9d08cc76fdabcad2bb410",
+        "datetime": 1791814560,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Salesforce, Tableau용 AI 분석 플랫폼 Loops 인수 | NYSE:CRM, XETRA:FOO 무엇을 찾고 계십니까?",
+            "회사 뉴스 일치하는 모든 회사 보기 일치하는 모든 뉴스 보기 기술 소프트웨어 및 서비스 작성자: Ian Lyall 편집자: Angela Harmantas 고지 사항 투자 조언 없음 이 콘텐츠 정보 편집 표준 및 정책 기사 공유 정보",
+            "Ian은 3개 대륙의 6개 사무실에서 Proactive의 편집 및 방송 운영을 감독하면서 품질 관리, 편집 정책 및 콘텐츠 제작을 담당하고 있습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 2% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "CRM에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "2%"
+          ],
+          "sourceExcerpt": [
+            "Salesforce to buy AI analytics platform Loops for Tableau | NYSE:CRM, XETRA:FOO What are you searching for?",
+            "Companies News See all companies matching See all news matching Tech Software & Services Written by: Ian Lyall Edited by: Angela Harmantas Disclaimer No investment advice About this content Editorial Standards & Policies Share article About",
+            "Overseeing Proactive's editorial and broadcast operations across six offices on three continents, Ian is responsible for quality control, editorial policy, and content production."
+          ],
+          "analysisUpdatedAt": 1791824428.358573
+        },
+        "headlineKo": "Salesforce, Tableau용 AI 분석 플랫폼 Loops 인수"
+      },
+      {
+        "headline": "'AI 3.0 is the interface': Salesforce stock pops on BoA upgrade",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0b9aa5807d82f2702abe72b95126f81c275085eb13a10f8cfb2b54c7a78c75e2",
+        "datetime": 1791814308,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "'AI 3.0은 인터페이스': 보아 업그레이드로 세일즈포스 주가 급등"
+      },
+      {
+        "headline": "Salesforce wins upgrade as Adobe faces downgrade",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5747630e4779e7a6a9925de7e6e83192404da3f388bb1db0cc8392935c3c3236",
+        "datetime": 1791813360,
+        "relevance": 0.5,
+        "keywordFlag": true,
+        "flagTerms": [
+          "downgrade"
+        ],
+        "headlineKo": "Adobe가 다운그레이드를 직면함에 따라 Salesforce가 업그레이드를 획득했습니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Salesforce's AI Strategy Reduces Disintermediation Risk, BofA Says in Upgrade",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=21f059636b3a531c8fb419c122e5aa4f869568302e29909b3c2be09bef67462e",
+        "datetime": 1791817940,
+        "headlineKo": "Salesforce의 AI 전략으로 중개 중단 위험이 감소한다고 BofA는 업그레이드를 통해 밝혔습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Salesforce's AI Strategy Reduces Disintermediation Risk, BofA Says in Upgrade",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "CRM에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791824417.7297785
+        }
+      },
+      {
+        "headline": "Salesforce Stock Surges After Bank of America Double Upgrade to Buy on AI Strength",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c179619d9d7c4d0b7ed602519353ecaf2da4ea853822ebe808343c9905581341",
+        "datetime": 1791816707,
+        "headlineKo": "AI 강점으로 구매하기 위해 Bank of America의 이중 업그레이드 후 Salesforce 주식 급등",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AI 강점 구매를 위해 Bank of America 이중 업그레이드 후 Salesforce 주가 급등 | TIKR.com 일반 투자 Salesforce 주식은 Bank of America가 AI 강점 Aditya Raghunath를 구매하기 위해 두 번 업그레이드한 후 급등했습니다. • 3분 읽기 검토자:",
+            "9: $229 52주 최고가: $269 $CRM 주가 목표: $283 현재 진행 중: TIKR의 새로운 가치 평가 모델을 사용하여 좋아하는 주식이 얼마나 상승할 수 있는지 알아보세요(무료) >>> 무슨 일이 일어났나요?",
+            "BofA 증권은 월요일 Salesforce(CRM)를 Underperform에서 Buy로 업그레이드하고 목표 가격을 160달러에서 285달러로 높였습니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 33%, $229, $269 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "CRM에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "33%",
+            "$229",
+            "$269",
+            "$283",
+            "$285",
+            "$160.",
+            "$15 billion",
+            "8%"
+          ],
+          "sourceExcerpt": [
+            "Salesforce Stock Surges After Bank of America Double Upgrade to Buy on AI Strength | TIKR.com General Investing Salesforce Stock Surges After Bank of America Double Upgrade to Buy on AI Strength Aditya Raghunath • 3 minute read Reviewed by:",
+            "9: $229 52-Week High: $269 $CRM Stock Price Target: $283 Now Live: Discover how much upside your favorite stocks could have using TIKR’s new Valuation Model (It’s free) >>> What Happened?",
+            "BofA Securities upgraded Salesforce ( CRM ) to Buy from Underperform on Monday and raised its price target to $285 from $160."
+          ],
+          "analysisUpdatedAt": 1791824421.9994614
+        }
+      },
+      {
+        "headline": "Salesforce to buy AI analytics platform Loops for Tableau",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=bce177cb6cd6dd2c21a1f9cc6fe6751e819f28fc7cd9d08cc76fdabcad2bb410",
+        "datetime": 1791814560,
+        "headlineKo": "Salesforce, Tableau용 AI 분석 플랫폼 Loops 인수",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Salesforce, Tableau용 AI 분석 플랫폼 Loops 인수 | NYSE:CRM, XETRA:FOO 무엇을 찾고 계십니까?",
+            "회사 뉴스 일치하는 모든 회사 보기 일치하는 모든 뉴스 보기 기술 소프트웨어 및 서비스 작성자: Ian Lyall 편집자: Angela Harmantas 고지 사항 투자 조언 없음 이 콘텐츠 정보 편집 표준 및 정책 기사 공유 정보",
+            "Ian은 3개 대륙의 6개 사무실에서 Proactive의 편집 및 방송 운영을 감독하면서 품질 관리, 편집 정책 및 콘텐츠 제작을 담당하고 있습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 2% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "CRM에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "2%"
+          ],
+          "sourceExcerpt": [
+            "Salesforce to buy AI analytics platform Loops for Tableau | NYSE:CRM, XETRA:FOO What are you searching for?",
+            "Companies News See all companies matching See all news matching Tech Software & Services Written by: Ian Lyall Edited by: Angela Harmantas Disclaimer No investment advice About this content Editorial Standards & Policies Share article About",
+            "Overseeing Proactive's editorial and broadcast operations across six offices on three continents, Ian is responsible for quality control, editorial policy, and content production."
+          ],
+          "analysisUpdatedAt": 1791824428.358573
+        }
+      },
+      {
+        "headline": "'AI 3.0 is the interface': Salesforce stock pops on BoA upgrade",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0b9aa5807d82f2702abe72b95126f81c275085eb13a10f8cfb2b54c7a78c75e2",
+        "datetime": 1791814308,
+        "headlineKo": "'AI 3.0은 인터페이스': 보아 업그레이드로 세일즈포스 주가 급등",
+        "relevance": 0.5,
+        "keywordFlag": false
+      },
+      {
+        "headline": "Salesforce wins upgrade as Adobe faces downgrade",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5747630e4779e7a6a9925de7e6e83192404da3f388bb1db0cc8392935c3c3236",
+        "datetime": 1791813360,
+        "headlineKo": "Adobe가 다운그레이드를 직면함에 따라 Salesforce가 업그레이드를 획득했습니다.",
+        "relevance": 0.5,
+        "keywordFlag": true,
+        "flagTerms": [
+          "downgrade"
+        ]
+      },
       {
         "headline": "Brokers Suggest Investing in Salesforce (CRM): Read This Before Placing a Bet",
         "source": "Yahoo",
@@ -75676,17 +75886,16 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791801678.4936604,
-    "_updated_label": "2026-10-12 19:43",
-    "_last_success_at": 1791801678.4936604,
-    "_collection_status": "error",
+    "_fetched_at": 1791824402.1666722,
+    "_updated_label": "2026-10-13 02:00",
+    "_last_success_at": 1791824402.1666722,
+    "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 136,
+      "checked": 141,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
-    },
-    "_last_error": "The read operation timed out"
+      "updated": "2026-10-13 02:00"
+    }
   },
   "PLTR": {
     "_last_attempt_at": 1791821176.2682998,
@@ -84474,7 +84683,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "NVDA": {
@@ -92262,7 +92471,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "AMD": {
@@ -100437,7 +100646,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "AVGO": {
@@ -109525,7 +109734,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "QCOM": {
@@ -116800,7 +117009,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 158,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "ARM": {
@@ -122034,7 +122243,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "MRVL": {
@@ -130412,7 +130621,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 180,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "INTC": {
@@ -138843,7 +139052,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "TSM": {
@@ -145873,7 +146082,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 153,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "ASML": {
@@ -150846,7 +151055,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "AMAT": {
@@ -155526,7 +155735,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "LRCX": {
@@ -158145,7 +158354,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "KLAC": {
@@ -160601,7 +160810,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "MU": {
@@ -168338,7 +168547,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "SNDK": {
@@ -176218,7 +176427,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 164,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "WDC": {
@@ -180813,7 +181022,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "ANET": {
@@ -184544,7 +184753,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "COHR": {
@@ -187708,7 +187917,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "LITE": {
@@ -191554,7 +191763,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "GEV": {
@@ -196724,7 +196933,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "CEG": {
@@ -201320,7 +201529,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "VST": {
@@ -204765,7 +204974,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "ETN": {
@@ -207929,7 +208138,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "PWR": {
@@ -210904,7 +211113,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "HUBB": {
@@ -211572,7 +211781,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "VRT": {
@@ -215618,7 +215827,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 80,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "MOD": {
@@ -216946,7 +217155,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "STX": {
@@ -221004,7 +221213,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "EME": {
@@ -222767,7 +222976,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "FIX": {
@@ -224410,7 +224619,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   },
   "BE": {
@@ -226830,7 +227039,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-10-13 01:47"
+      "updated": "2026-10-13 02:00"
     }
   }
 };

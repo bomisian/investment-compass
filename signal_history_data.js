@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791823685.5615497,
+  "generatedAt": 1791824436.3367386,
   "records": {
     "MSFT": [
       {
@@ -16969,6 +16969,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AMD": [
       {
+        "changedAt": 1791824436.3367386,
+        "dataAsOf": 1791817200,
+        "changes": [
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -4.37,
+            "after": -3.32
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Nvidia, AMD, Google, Meta가 데이터 센터 설계를 위한 글로벌 청사진을 위해 협력합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=500ae337a06221b2f3b8f19f12621a9da5d7312198c5a0ba2740463b4dc7496b",
+        "eventId": "8a3f7895d1450acfa026",
+        "fingerprint": "{\"changes\": [{\"after\": -3.32, \"before\": -4.37, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"8a3f7895d1450acfa026\"}"
+      },
+      {
         "changedAt": 1791823685.5615497,
         "dataAsOf": 1791817200,
         "changes": [
@@ -18168,23 +18185,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=82f55fe4dc42afaa576a19b8c2404583433c8188d87f1ac55b69d1d64ac3da85",
         "eventId": "682851951321b0dacbc4",
         "fingerprint": "{\"changes\": [{\"after\": 4.02, \"before\": 2.98, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"682851951321b0dacbc4\"}"
-      },
-      {
-        "changedAt": 1790549676.3811343,
-        "dataAsOf": 1790545620,
-        "changes": [
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 3.85,
-            "after": 2.98
-          }
-        ],
-        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
-        "newsHeadline": "Michael Burry는 Big Tech의 AI 계산에 날짜를 넣었고 Oracle의 6,640억 달러는 십자선에 표시되었습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=a784045f174387c69128bf330aa2d021a4ada7f854b57af5e895a66fcecffcac",
-        "eventId": "6ea036e04af0403091de",
-        "fingerprint": "{\"changes\": [{\"after\": 2.98, \"before\": 3.85, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"6ea036e04af0403091de\"}"
       }
     ],
     "AVGO": [
@@ -20075,6 +20075,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "QCOM": [
       {
+        "changedAt": 1791824436.3367386,
+        "dataAsOf": 1791815935,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.7,
+            "after": 0.35
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -4.9,
+            "after": -5
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Amazon 분석가는 3분기를 앞두고 가격 목표를 인하했습니다. Wells Fargo는 4분기에도 AWS 가속화가 계속될 것으로 보고 있습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=96c8d5485d0852edd2bda6231d52eb125ba5b795a7f2e93592dd82f71497b485",
+        "eventId": "59b043c1240a0be22318",
+        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.7, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -5, \"before\": -4.9, \"key\": \"growth\", \"label\": \"성장성\"}], \"eventId\": \"59b043c1240a0be22318\"}"
+      },
+      {
         "changedAt": 1791821247.6110778,
         "dataAsOf": 1791806760,
         "changes": [
@@ -21634,41 +21657,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=bdd2775ac19e93f3c3e0fff7a86ac508490bf102e5c2d048f8148e1716943a18",
         "eventId": "b0e8f32ba0ca96234d30",
         "fingerprint": "{\"changes\": [{\"after\": -1.4, \"before\": -2.45, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.45, \"before\": -3.5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"b0e8f32ba0ca96234d30\"}"
-      },
-      {
-        "changedAt": 1790572037.6256223,
-        "dataAsOf": 1790528441,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 2.45,
-            "after": 1.4
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 2.1,
-            "after": 0.7
-          },
-          {
-            "key": "competitiveRisk",
-            "label": "경쟁 심화 리스크",
-            "before": 0.0,
-            "after": -0.7
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -2.45,
-            "after": -3.5
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "Qualcomm 주식에는 기회가 있습니다. 투자자는 과소평가할 수 있습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=bdd2775ac19e93f3c3e0fff7a86ac508490bf102e5c2d048f8148e1716943a18",
-        "eventId": "b0e8f32ba0ca96234d30",
-        "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 2.45, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.7, \"before\": 2.1, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.7, \"before\": 0.0, \"key\": \"competitiveRisk\", \"label\": \"경쟁 심화 리스크\"}, {\"after\": -3.5, \"before\": -2.45, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"b0e8f32ba0ca96234d30\"}"
       }
     ],
     "ARM": [
@@ -28916,6 +28904,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "ASML": [
+      {
+        "changedAt": 1791824436.3367386,
+        "dataAsOf": 1791797640,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -1.57,
+            "after": -1.05
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -4.38,
+            "after": -3.32
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -2.62,
+            "after": -2.1
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "내 말을 기억하세요: ASML 주식은 AI 인프라 붐을 주도하는 가장 간과되는 방법입니다",
+        "newsUrl": "https://finnhub.io/api/news?id=0e4dde4ea4d91dd16f301c59579b8e8b9c82daed9afc704b31209993123262de",
+        "eventId": "132d8996a95363662e5a",
+        "fingerprint": "{\"changes\": [{\"after\": -1.05, \"before\": -1.57, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.32, \"before\": -4.38, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -2.1, \"before\": -2.62, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"132d8996a95363662e5a\"}"
+      },
       {
         "changedAt": 1791802002.0565028,
         "dataAsOf": 1791797640,
@@ -40067,6 +40084,23 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "LITE": [
+      {
+        "changedAt": 1791824436.3367386,
+        "dataAsOf": 1791621413,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -2.8,
+            "after": -2.45
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Lumentum: 2029년까지 매진되었지만 더 큰 제품이 출시됩니다",
+        "newsUrl": "https://finnhub.io/api/news?id=0895293bdfa3ff52ae5dd7279ad90630668a307cb9862ef4a09c4188ca4021d1",
+        "eventId": "0deec02eb785d45adad8",
+        "fingerprint": "{\"changes\": [{\"after\": -2.45, \"before\": -2.8, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"0deec02eb785d45adad8\"}"
+      },
       {
         "changedAt": 1791821635.9236057,
         "dataAsOf": 1791621413,
