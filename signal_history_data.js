@@ -1,9 +1,26 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791805927.3164837,
+  "generatedAt": 1791806500.2016418,
   "records": {
     "MSFT": [
+      {
+        "changedAt": 1791806500.2016418,
+        "dataAsOf": 1791749640,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.17,
+            "after": -0.52
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "알파벳이 아닙니다. 아마존이 아닙니다. Microsoft는 Big Tech의 가장 저렴한 가치로 거래됩니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=4e52232f63d589a8b81f66bf8d77a2f620fbd46fb151b456cacac026497cef4f",
+        "eventId": "72fb61884b35ae93706e",
+        "fingerprint": "{\"changes\": [{\"after\": -0.52, \"before\": -0.17, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"72fb61884b35ae93706e\"}"
+      },
       {
         "changedAt": 1791799769.1717637,
         "dataAsOf": 1791749640,
@@ -1756,35 +1773,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=8314c9804c87cb0470fcec22f2e709930d6d7ebbc6e9de67a8289bebc0a31e18",
         "eventId": "ffad0ca509ec8611302f",
         "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -1.05, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.75, \"before\": -2.27, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.7, \"before\": -2.1, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"ffad0ca509ec8611302f\"}"
-      },
-      {
-        "changedAt": 1790352069.608965,
-        "dataAsOf": 1790340257,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 0.7,
-            "after": 0.35
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 1.05,
-            "after": 0.35
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -1.75,
-            "after": -2.1
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "AMD 주식은 Agentic AI에서 CPU 사례를 강화하는 Anthropic-Akamai 거래를 통해 목표 가격 인상을 달성했다고 BofA는 말합니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=8314c9804c87cb0470fcec22f2e709930d6d7ebbc6e9de67a8289bebc0a31e18",
-        "eventId": "ffad0ca509ec8611302f",
-        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.7, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.35, \"before\": 1.05, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.1, \"before\": -1.75, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"ffad0ca509ec8611302f\"}"
       }
     ],
     "GOOGL": [

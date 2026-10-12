@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791805927.256001,
+  "generatedAt": 1791806500.140165,
   "events": [
     {
       "id": "132d8996a95363662e5a",
@@ -5078,7 +5078,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=041e7a3a85d95a14fd5a1d5e47d35090350345888c75a66f3159ca2b6752536d",
         "publishedAt": 1791656281,
-        "collectedAt": 1791783020.1860301
+        "collectedAt": 1791806401.6481376
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8835,11 +8835,82 @@ const EVENT_DATA = {
       ]
     },
     {
+      "id": "11058e5ade47cefe74fd",
+      "schemaVersion": 1,
+      "eventType": "analyst_target_change",
+      "eventLabel": "애널리스트 목표주가 변경",
+      "primaryTicker": "QQQ",
+      "relatedTickers": [
+        "MSFT",
+        "QQQ",
+        "SPY"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus",
+      "headlineKo": "S&P 500, Nasdaq 100, Dow End Week High, 트레이더들이 수익 시즌을 주목하고 있음 — ​​MSFT, NFLX, SPCX, ASTS In Focus",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5c4e446abd334f8092f8ee0a0068885b5977f2f5175ab4b843013a4fece9ea30",
+        "publishedAt": 1791586391,
+        "collectedAt": 1791806401.6481376
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.13% SPY 0.05% QQQ 0.18% Trending IREN 4.04% RCAT WFF 20.83% ASTS 3.74% BMY 3.23% FLO 2.",
+        "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus Wall Street’s biggest banks, including JPMorgan, Morgan Stanley, and Wells Fargo, will report earnings next week.",
+        "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
+      ],
+      "marketInterpretation": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.13%, 0.05%, 0.18% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "QQQ에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.13%, 0.05%, 0.18% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "QQQ",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "목표주가 산식의 EPS",
+        "적용 PER 변화",
+        "회사 공식 가이던스"
+      ]
+    },
+    {
       "id": "8f00fb7ee01d74ac2bad",
       "schemaVersion": 1,
       "eventType": "earnings_result",
       "eventLabel": "실적 발표",
-      "primaryTicker": "QQQ",
+      "primaryTicker": "SPY",
       "relatedTickers": [
         "MSFT",
         "QQQ",
@@ -8863,21 +8934,21 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5c4e446abd334f8092f8ee0a0068885b5977f2f5175ab4b843013a4fece9ea30",
         "publishedAt": 1791586391,
-        "collectedAt": 1791783020.1860301
+        "collectedAt": 1791798773.7665346
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.34% SPY 0.30% QQQ 0.41% Trending IREN 8.78% WFF 11.72% ETH 2.15% KHC 0.04% AKAM 0.05% C",
-        "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus Wall Street’s biggest banks, including JPMorgan, Morgan Stanley, and Wells Fargo, will report earnings next week.",
-        "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
+        "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending WEN 0.16% DJT 1.10% TRX 0.21% STRK 54.35% ADBE 0.51% U",
+        "S&P 500, Nasdaq 100, Dow End Week High Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus JPMorgan, Morgan Stanley, Wells Fargo를 포함한 월스트리트의 가장 큰 은행들이 다음 주에 수익을 보고할 예정입니다.",
+        "거래자들은 2026년 8월 5일 오전 거래 중 뉴욕 증권거래소 바닥에서 일합니다."
       ],
       "marketInterpretation": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.34%, 0.30%, 0.41% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "이번 기사에서 확인된 구체적 수치: 0.87%, 0.60%, 0.49% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
-        "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+        "SPY에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
@@ -8888,12 +8959,12 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.34%, 0.30%, 0.41% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "이번 기사에서 확인된 구체적 수치: 0.87%, 0.60%, 0.49% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
-          "ticker": "QQQ",
+          "ticker": "SPY",
           "direction": "확인 필요",
           "reason": "회사 실적과의 연결고리 확인",
           "basis": "analysis"
@@ -9958,7 +10029,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1646a614b71b74a3d34794f072597d862d55d7fadb46404f0d717b0e4091731e",
         "publishedAt": 1791568905,
-        "collectedAt": 1791783020.1860301
+        "collectedAt": 1791806401.6481376
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10937,13 +11008,13 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4fd47c21df1eabb62e8ee735367878731f61ab0a0544474e50d607aef8d5446c",
         "publishedAt": 1791563072,
-        "collectedAt": 1791783020.1860301
+        "collectedAt": 1791806401.6481376
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "$10,000 in VGT the Day ChatGPT Launched Is Now $30,500.",
         "QQQ Turned the Same Money Into $26,100 - 24/7 Wall St.",
-        "Skip to content ❚❚ At close S&P 500 7,843.60 +0.26% Dow Jones 51,879.30 +0.27% Nasdaq 100 31,056.20 +0.41% Russell 2000 2,816.93 +0.28% S&P 500 7,843.60 +0.26% Dow Jones 51,879.30 +0.27% Nasdaq 100 31,056.20 +0.41% Russell 2000 2,816.93 +0."
+        "Skip to content ❚❚ At close S&P 500 7,821.80 −0.02% Dow Jones 51,710.30 −0.06% Nasdaq 100 30,861.60 −0.22% Russell 2000 2,807.63 −0.05% S&P 500 7,821.80 −0.02% Dow Jones 51,710.30 −0.06% Nasdaq 100 30,861.60 −0.22% Russell 2000 2,807.63 −0."
       ],
       "marketInterpretation": [
         "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
@@ -12134,11 +12205,11 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1f786614fdf34dea0459b2e0759df2de39d385e8e48b11880d076dc411316701",
         "publishedAt": 1791557400,
-        "collectedAt": 1791783020.1860301
+        "collectedAt": 1791806401.6481376
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → New Chip takes minutes, not days (From Eagle Publishing) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewed by Clare Titus ",
+        "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → Why This Overlooked Mineral Could Define AI's Future (From Weiss Ratings) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewe",
         "Close Key Points Arista Networks shares hit an all-time high near $217 after launching an open Ethernet rack-scale portfolio built with AMD, Broadcom, Meta, and Microsoft.",
         "The new Etherlink SU-144 architecture offers a vendor-agnostic alternative to proprietary systems like NVIDIA's InfiniBand, reducing data center footprint by about 50%."
       ],
@@ -12947,7 +13018,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=6d6a7f613588e29781ea47aa1622e652afe48f306894f204f475dfe565f02ff3",
         "publishedAt": 1791552427,
-        "collectedAt": 1791783020.1860301
+        "collectedAt": 1791806401.6481376
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13290,7 +13361,7 @@ const EVENT_DATA = {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=332c12d6feea9c49edce0058b29892c6e74f564c522db44463ca304da4ff2455",
         "publishedAt": 1791551461,
-        "collectedAt": 1791783020.1860301
+        "collectedAt": 1791806401.6481376
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14360,7 +14431,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=456464d1145ca9b8194cd0a4c28b62e3afa7a2f7d4836eed58c833c24d595c4b",
         "publishedAt": 1791537701,
-        "collectedAt": 1791783020.1860301
+        "collectedAt": 1791806401.6481376
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15899,7 +15970,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c5b01c1a236768a41c8c725c60dce675c04463a93ee2d5a52465d93ff168fdec",
         "publishedAt": 1791500586,
-        "collectedAt": 1791783020.1860301
+        "collectedAt": 1791806401.6481376
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15970,7 +16041,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=dc1918cd0feb30add5eacf5d2b3e01797f856a03f979aebef0e228fc128111a6",
         "publishedAt": 1791500119,
-        "collectedAt": 1791783020.1860301
+        "collectedAt": 1791806401.6481376
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17275,7 +17346,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d335cd5884c9a8b6781e302123b1ea8b4f338c3bfc5cd122bfd5a9cb870a7bc7",
         "publishedAt": 1791486101,
-        "collectedAt": 1791783020.1860301
+        "collectedAt": 1791806401.6481376
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18094,63 +18165,6 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
-    },
-    {
-      "id": "3e1245103777bea69c17",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "ORCL",
-      "relatedTickers": [
-        "NVDA",
-        "ORCL"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "OpenAI Revenue $20B Below Previous Reports, ORCL, NVDA Tumble",
-      "headlineKo": "OpenAI 수익은 이전 보고서보다 200억 달러 낮음, ORCL, NVDA Tumble",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7b5450d95ef0117ef0aa64abacf0e304c1404c4aa4daa5ba92a35691c67d913f",
-        "publishedAt": 1791483519,
-        "collectedAt": 1791798773.7665346
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "OpenAI 수익은 이전 보고서보다 200억 달러 낮음, ORCL, NVDA Tumble"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "ORCL",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
     }
   ],
   "byTicker": {
@@ -18243,6 +18257,7 @@ const EVENT_DATA = {
       "c45a469bebeba7534619",
       "b3fcc76993d2e6a75cb3",
       "16259424b8e02047cfd8",
+      "11058e5ade47cefe74fd",
       "8f00fb7ee01d74ac2bad",
       "7326420051886b854f94",
       "54eaf5f701e3f14f2e2a",
@@ -18461,8 +18476,7 @@ const EVENT_DATA = {
       "c2b5f4f29d2de4bbc59b",
       "c3654cb40f390a214421",
       "6c0eba732d6c81b43135",
-      "fcb4c776005573035d55",
-      "3e1245103777bea69c17"
+      "fcb4c776005573035d55"
     ],
     "QQQ": [
       "4a97ee5a91b4938218ee",
@@ -18485,6 +18499,7 @@ const EVENT_DATA = {
       "998a1aadf4f6cebfc9a8",
       "509f40a9cff3493d3ec0",
       "c45a469bebeba7534619",
+      "11058e5ade47cefe74fd",
       "8f00fb7ee01d74ac2bad",
       "7326420051886b854f94",
       "bfaa2e5130e0f2b25d9d",
@@ -18556,6 +18571,7 @@ const EVENT_DATA = {
       "33ffca1b08f35a46b3a8",
       "e131b6820c1079daabc6",
       "c45a469bebeba7534619",
+      "11058e5ade47cefe74fd",
       "8f00fb7ee01d74ac2bad",
       "693e71438c51e7534a96",
       "b9f99afea91287ea5daa",
@@ -18742,8 +18758,7 @@ const EVENT_DATA = {
       "c3654cb40f390a214421",
       "8c88f22666b40c382ef3",
       "6c0eba732d6c81b43135",
-      "fcb4c776005573035d55",
-      "3e1245103777bea69c17"
+      "fcb4c776005573035d55"
     ],
     "AMAT": [
       "a23944a3ac3901cfeefb",

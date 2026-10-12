@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1791805853.6943445,
+    "_last_attempt_at": 1791806401.6481376,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -66,7 +66,7 @@ const NEWS_DATA = {
             "This Streak Rests on Far Stronger Earnings Than 1999's.",
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Nasdaq-100 has pulled off something it's done just twice before."
           ],
-          "analysisUpdatedAt": 1791783030.7208774
+          "analysisUpdatedAt": 1791806426.2942157
         },
         "headlineKo": "Nasdaq-100은 3년 연속으로 20% 이상의 수익을 올렸습니다. 이 연승은 1999년대보다 훨씬 더 강력한 수입에 달려 있습니다."
       },
@@ -80,23 +80,23 @@ const NEWS_DATA = {
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "high",
+          "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
+          "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.34% SPY 0.30% QQQ 0.41% Trending IREN 8.78% WFF 11.72% ETH 2.15% KHC 0.04% AKAM 0.05% C",
+            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.13% SPY 0.05% QQQ 0.18% Trending IREN 4.04% RCAT WFF 20.83% ASTS 3.74% BMY 3.23% FLO 2.",
             "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus Wall Street’s biggest banks, including JPMorgan, Morgan Stanley, and Wells Fargo, will report earnings next week.",
             "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
           ],
           "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.34%, 0.30%, 0.41% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.13%, 0.05%, 0.18% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -107,30 +107,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
           ],
-          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "QQQ에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.34%",
-            "0.30%",
-            "0.41%",
-            "8.78%",
-            "11.72%",
-            "2.15%",
-            "0.04%",
-            "0.05%"
+            "0.13%",
+            "0.05%",
+            "0.18%",
+            "4.04%",
+            "20.83%",
+            "3.74%",
+            "3.23%",
+            "2.30%"
           ],
           "sourceExcerpt": [
-            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.34% SPY 0.30% QQQ 0.41% Trending IREN 8.78% WFF 11.72% ETH 2.15% KHC 0.04% AKAM 0.05% C",
+            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.13% SPY 0.05% QQQ 0.18% Trending IREN 4.04% RCAT WFF 20.83% ASTS 3.74% BMY 3.23% FLO 2.",
             "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus Wall Street’s biggest banks, including JPMorgan, Morgan Stanley, and Wells Fargo, will report earnings next week.",
             "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
           ],
-          "analysisUpdatedAt": 1791783036.6549897
+          "analysisUpdatedAt": 1791806436.9735174
         },
         "headlineKo": "S&P 500, Nasdaq 100, Dow End Week High, 트레이더들이 수익 시즌을 주목하고 있음 — ​​MSFT, NFLX, SPCX, ASTS In Focus"
       },
@@ -152,7 +152,7 @@ const NEWS_DATA = {
           "facts": [
             "$10,000 in VGT the Day ChatGPT Launched Is Now $30,500.",
             "QQQ Turned the Same Money Into $26,100 - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,843.60 +0.26% Dow Jones 51,879.30 +0.27% Nasdaq 100 31,056.20 +0.41% Russell 2000 2,816.93 +0.28% S&P 500 7,843.60 +0.26% Dow Jones 51,879.30 +0.27% Nasdaq 100 31,056.20 +0.41% Russell 2000 2,816.93 +0."
+            "Skip to content ❚❚ At close S&P 500 7,821.80 −0.02% Dow Jones 51,710.30 −0.06% Nasdaq 100 30,861.60 −0.22% Russell 2000 2,807.63 −0.05% S&P 500 7,821.80 −0.02% Dow Jones 51,710.30 −0.06% Nasdaq 100 30,861.60 −0.22% Russell 2000 2,807.63 −0."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
@@ -183,18 +183,18 @@ const NEWS_DATA = {
             "$10,000",
             "$30,500.",
             "$26,100",
-            "0.26%",
-            "0.27%",
-            "0.41%",
-            "0.28%",
+            "0.02%",
+            "0.06%",
+            "0.22%",
+            "0.05%",
             "$30,482"
           ],
           "sourceExcerpt": [
             "$10,000 in VGT the Day ChatGPT Launched Is Now $30,500.",
             "QQQ Turned the Same Money Into $26,100 - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,843.60 +0.26% Dow Jones 51,879.30 +0.27% Nasdaq 100 31,056.20 +0.41% Russell 2000 2,816.93 +0.28% S&P 500 7,843.60 +0.26% Dow Jones 51,879.30 +0.27% Nasdaq 100 31,056.20 +0.41% Russell 2000 2,816.93 +0."
+            "Skip to content ❚❚ At close S&P 500 7,821.80 −0.02% Dow Jones 51,710.30 −0.06% Nasdaq 100 30,861.60 −0.22% Russell 2000 2,807.63 −0.05% S&P 500 7,821.80 −0.02% Dow Jones 51,710.30 −0.06% Nasdaq 100 30,861.60 −0.22% Russell 2000 2,807.63 −0."
           ],
-          "analysisUpdatedAt": 1791783042.8473644
+          "analysisUpdatedAt": 1791806444.4884782
         },
         "headlineKo": "ChatGPT가 출시된 날 VGT의 $10,000는 이제 $30,500입니다. QQQ는 같은 돈을 $26,100로 바꾸었습니다."
       },
@@ -397,7 +397,7 @@ const NEWS_DATA = {
             "This Streak Rests on Far Stronger Earnings Than 1999's.",
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Nasdaq-100 has pulled off something it's done just twice before."
           ],
-          "analysisUpdatedAt": 1791783030.7208774
+          "analysisUpdatedAt": 1791806426.2942157
         }
       },
       {
@@ -410,23 +410,23 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "high",
+          "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
+          "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.34% SPY 0.30% QQQ 0.41% Trending IREN 8.78% WFF 11.72% ETH 2.15% KHC 0.04% AKAM 0.05% C",
+            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.13% SPY 0.05% QQQ 0.18% Trending IREN 4.04% RCAT WFF 20.83% ASTS 3.74% BMY 3.23% FLO 2.",
             "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus Wall Street’s biggest banks, including JPMorgan, Morgan Stanley, and Wells Fargo, will report earnings next week.",
             "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
           ],
           "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.34%, 0.30%, 0.41% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.13%, 0.05%, 0.18% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -437,30 +437,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
           ],
-          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "QQQ에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.34%",
-            "0.30%",
-            "0.41%",
-            "8.78%",
-            "11.72%",
-            "2.15%",
-            "0.04%",
-            "0.05%"
+            "0.13%",
+            "0.05%",
+            "0.18%",
+            "4.04%",
+            "20.83%",
+            "3.74%",
+            "3.23%",
+            "2.30%"
           ],
           "sourceExcerpt": [
-            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.34% SPY 0.30% QQQ 0.41% Trending IREN 8.78% WFF 11.72% ETH 2.15% KHC 0.04% AKAM 0.05% C",
+            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.13% SPY 0.05% QQQ 0.18% Trending IREN 4.04% RCAT WFF 20.83% ASTS 3.74% BMY 3.23% FLO 2.",
             "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus Wall Street’s biggest banks, including JPMorgan, Morgan Stanley, and Wells Fargo, will report earnings next week.",
             "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
           ],
-          "analysisUpdatedAt": 1791783036.6549897
+          "analysisUpdatedAt": 1791806436.9735174
         }
       },
       {
@@ -481,7 +481,7 @@ const NEWS_DATA = {
           "facts": [
             "$10,000 in VGT the Day ChatGPT Launched Is Now $30,500.",
             "QQQ Turned the Same Money Into $26,100 - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,843.60 +0.26% Dow Jones 51,879.30 +0.27% Nasdaq 100 31,056.20 +0.41% Russell 2000 2,816.93 +0.28% S&P 500 7,843.60 +0.26% Dow Jones 51,879.30 +0.27% Nasdaq 100 31,056.20 +0.41% Russell 2000 2,816.93 +0."
+            "Skip to content ❚❚ At close S&P 500 7,821.80 −0.02% Dow Jones 51,710.30 −0.06% Nasdaq 100 30,861.60 −0.22% Russell 2000 2,807.63 −0.05% S&P 500 7,821.80 −0.02% Dow Jones 51,710.30 −0.06% Nasdaq 100 30,861.60 −0.22% Russell 2000 2,807.63 −0."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
@@ -512,18 +512,18 @@ const NEWS_DATA = {
             "$10,000",
             "$30,500.",
             "$26,100",
-            "0.26%",
-            "0.27%",
-            "0.41%",
-            "0.28%",
+            "0.02%",
+            "0.06%",
+            "0.22%",
+            "0.05%",
             "$30,482"
           ],
           "sourceExcerpt": [
             "$10,000 in VGT the Day ChatGPT Launched Is Now $30,500.",
             "QQQ Turned the Same Money Into $26,100 - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,843.60 +0.26% Dow Jones 51,879.30 +0.27% Nasdaq 100 31,056.20 +0.41% Russell 2000 2,816.93 +0.28% S&P 500 7,843.60 +0.26% Dow Jones 51,879.30 +0.27% Nasdaq 100 31,056.20 +0.41% Russell 2000 2,816.93 +0."
+            "Skip to content ❚❚ At close S&P 500 7,821.80 −0.02% Dow Jones 51,710.30 −0.06% Nasdaq 100 30,861.60 −0.22% Russell 2000 2,807.63 −0.05% S&P 500 7,821.80 −0.02% Dow Jones 51,710.30 −0.06% Nasdaq 100 30,861.60 −0.22% Russell 2000 2,807.63 −0."
           ],
-          "analysisUpdatedAt": 1791783042.8473644
+          "analysisUpdatedAt": 1791806444.4884782
         }
       },
       {
@@ -5568,17 +5568,16 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791783020.1860301,
-    "_updated_label": "2026-10-12 14:30",
-    "_last_success_at": 1791783020.1860301,
-    "_collection_status": "error",
+    "_fetched_at": 1791806401.6481376,
+    "_updated_label": "2026-10-12 21:00",
+    "_last_success_at": 1791806401.6481376,
+    "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 109,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
-    },
-    "_last_error": "The read operation timed out"
+      "updated": "2026-10-12 21:01"
+    }
   },
   "SPY": {
     "_last_attempt_at": 1791798773.7665346,
@@ -12696,7 +12695,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 143,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "MSFT": {
@@ -20653,7 +20652,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "GOOGL": {
@@ -28756,7 +28755,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "AMZN": {
@@ -36848,7 +36847,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "META": {
@@ -44953,7 +44952,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "AAPL": {
@@ -52913,7 +52912,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "TSLA": {
@@ -61109,7 +61108,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "ORCL": {
@@ -69424,7 +69423,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "CRM": {
@@ -75781,7 +75780,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "PLTR": {
@@ -84480,7 +84479,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "NVDA": {
@@ -92218,7 +92217,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "AMD": {
@@ -100388,7 +100387,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "AVGO": {
@@ -109473,7 +109472,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "QCOM": {
@@ -116578,7 +116577,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 153,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "ARM": {
@@ -121711,7 +121710,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "MRVL": {
@@ -129972,7 +129971,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 177,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "INTC": {
@@ -138429,7 +138428,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "TSM": {
@@ -145329,7 +145328,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 151,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "ASML": {
@@ -150070,7 +150069,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "AMAT": {
@@ -154750,7 +154749,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "LRCX": {
@@ -157320,7 +157319,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "KLAC": {
@@ -159776,7 +159775,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "MU": {
@@ -167540,7 +167539,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "SNDK": {
@@ -175286,7 +175285,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 161,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "WDC": {
@@ -179881,11 +179880,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "ANET": {
-    "_last_attempt_at": 1791805853.6943445,
+    "_last_attempt_at": 1791806401.6481376,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -179954,7 +179953,7 @@ const NEWS_DATA = {
             "| Trefis What Could Send Arista Networks Stock Higher?",
             "October 9th, 2026 · by Trefis Team ANET YTD +65.4% SPY YTD +14.8% QQQ YTD +22.6% Analyze ANET → Arista Networks (ANET) stock trades at 65.7 times earnings , compared with 21.5 for the S&P 500."
           ],
-          "analysisUpdatedAt": 1791783055.2644587
+          "analysisUpdatedAt": 1791806482.544869
         },
         "headlineKo": "Arista Networks의 주식을 더 높게 보낼 수 있는 방법은 무엇입니까?"
       },
@@ -180004,7 +180003,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791783057.2473419
+          "analysisUpdatedAt": 1791806487.01637
         },
         "headlineKo": "강세 추세에 있는 Arista Networks 주식은 빠른 수익으로 스프레드 거래를 제공합니다."
       },
@@ -180024,7 +180023,7 @@ const NEWS_DATA = {
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → New Chip takes minutes, not days (From Eagle Publishing) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewed by Clare Titus ",
+            "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → Why This Overlooked Mineral Could Define AI's Future (From Weiss Ratings) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewe",
             "Close Key Points Arista Networks shares hit an all-time high near $217 after launching an open Ethernet rack-scale portfolio built with AMD, Broadcom, Meta, and Microsoft.",
             "The new Etherlink SU-144 architecture offers a vendor-agnostic alternative to proprietary systems like NVIDIA's InfiniBand, reducing data center footprint by about 50%."
           ],
@@ -180064,11 +180063,11 @@ const NEWS_DATA = {
             "$114.52"
           ],
           "sourceExcerpt": [
-            "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → New Chip takes minutes, not days (From Eagle Publishing) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewed by Clare Titus ",
+            "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → Why This Overlooked Mineral Could Define AI's Future (From Weiss Ratings) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewe",
             "Close Key Points Arista Networks shares hit an all-time high near $217 after launching an open Ethernet rack-scale portfolio built with AMD, Broadcom, Meta, and Microsoft.",
             "The new Etherlink SU-144 architecture offers a vendor-agnostic alternative to proprietary systems like NVIDIA's InfiniBand, reducing data center footprint by about 50%."
           ],
-          "analysisUpdatedAt": 1791783062.2540538
+          "analysisUpdatedAt": 1791806495.4232547
         },
         "headlineKo": "Arista Networks, 사상 최고 기록 달성"
       },
@@ -180154,7 +180153,7 @@ const NEWS_DATA = {
             "| Trefis What Could Send Arista Networks Stock Higher?",
             "October 9th, 2026 · by Trefis Team ANET YTD +65.4% SPY YTD +14.8% QQQ YTD +22.6% Analyze ANET → Arista Networks (ANET) stock trades at 65.7 times earnings , compared with 21.5 for the S&P 500."
           ],
-          "analysisUpdatedAt": 1791783055.2644587
+          "analysisUpdatedAt": 1791806482.544869
         }
       },
       {
@@ -180203,7 +180202,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791783057.2473419
+          "analysisUpdatedAt": 1791806487.01637
         }
       },
       {
@@ -180222,7 +180221,7 @@ const NEWS_DATA = {
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → New Chip takes minutes, not days (From Eagle Publishing) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewed by Clare Titus ",
+            "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → Why This Overlooked Mineral Could Define AI's Future (From Weiss Ratings) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewe",
             "Close Key Points Arista Networks shares hit an all-time high near $217 after launching an open Ethernet rack-scale portfolio built with AMD, Broadcom, Meta, and Microsoft.",
             "The new Etherlink SU-144 architecture offers a vendor-agnostic alternative to proprietary systems like NVIDIA's InfiniBand, reducing data center footprint by about 50%."
           ],
@@ -180262,11 +180261,11 @@ const NEWS_DATA = {
             "$114.52"
           ],
           "sourceExcerpt": [
-            "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → New Chip takes minutes, not days (From Eagle Publishing) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewed by Clare Titus ",
+            "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → Why This Overlooked Mineral Could Define AI's Future (From Weiss Ratings) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewe",
             "Close Key Points Arista Networks shares hit an all-time high near $217 after launching an open Ethernet rack-scale portfolio built with AMD, Broadcom, Meta, and Microsoft.",
             "The new Etherlink SU-144 architecture offers a vendor-agnostic alternative to proprietary systems like NVIDIA's InfiniBand, reducing data center footprint by about 50%."
           ],
-          "analysisUpdatedAt": 1791783062.2540538
+          "analysisUpdatedAt": 1791806495.4232547
         }
       },
       {
@@ -183604,17 +183603,16 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791783020.1860301,
-    "_updated_label": "2026-10-12 14:31",
-    "_last_success_at": 1791783020.1860301,
-    "_collection_status": "error",
+    "_fetched_at": 1791806401.6481376,
+    "_updated_label": "2026-10-12 21:01",
+    "_last_success_at": 1791806401.6481376,
+    "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
-    },
-    "_last_error": "The read operation timed out"
+      "updated": "2026-10-12 21:01"
+    }
   },
   "COHR": {
     "_last_attempt_at": 1791798773.7665346,
@@ -186777,7 +186775,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "LITE": {
@@ -190594,7 +190592,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "GEV": {
@@ -195764,7 +195762,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "CEG": {
@@ -200234,7 +200232,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "VST": {
@@ -203616,7 +203614,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "ETN": {
@@ -206780,7 +206778,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "PWR": {
@@ -209720,7 +209718,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "HUBB": {
@@ -210438,7 +210436,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "VRT": {
@@ -214358,7 +214356,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "MOD": {
@@ -215686,7 +215684,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "STX": {
@@ -219744,7 +219742,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "EME": {
@@ -221507,7 +221505,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "FIX": {
@@ -223170,7 +223168,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   },
   "BE": {
@@ -225559,7 +225557,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-12 20:52"
+      "updated": "2026-10-12 21:01"
     }
   }
 };
