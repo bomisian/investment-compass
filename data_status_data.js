@@ -72,9 +72,9 @@ const DATA_STATUS = {
     "market": {
       "label": "시장환경",
       "status": "ok",
-      "lastAttemptAt": 1791817285.3278532,
-      "lastSuccessAt": 1791817285.3278532,
-      "lastPartialSuccessAt": 1791817285.3278532,
+      "lastAttemptAt": 1791817338.7270858,
+      "lastSuccessAt": 1791817338.7270858,
+      "lastPartialSuccessAt": 1791817338.7270858,
       "lastFetchedAt": 1791815333.8659759,
       "oldestFetchedAt": 1791815333.8659759,
       "warningAfterHours": 6,
@@ -89,9 +89,9 @@ const DATA_STATUS = {
     "prices": {
       "label": "가격·차트",
       "status": "ok",
-      "lastAttemptAt": 1791817285.337085,
-      "lastSuccessAt": 1791817285.337085,
-      "lastPartialSuccessAt": 1791817285.337085,
+      "lastAttemptAt": 1791817338.7368207,
+      "lastSuccessAt": 1791817338.7368207,
+      "lastPartialSuccessAt": 1791817338.7368207,
       "lastFetchedAt": 1791796889.3668091,
       "oldestFetchedAt": 1791796889.3668091,
       "warningAfterHours": 6,
@@ -106,8 +106,8 @@ const DATA_STATUS = {
     "businessAnalysis": {
       "label": "기업분석",
       "status": "delayed",
-      "lastAttemptAt": 1791817285.6680338,
-      "lastSuccessAt": 1791817285.6680338,
+      "lastAttemptAt": 1791817338.9830608,
+      "lastSuccessAt": 1791817338.9830608,
       "lastFetchedAt": 1791781007.5609717,
       "oldestFetchedAt": 1791781007.5609717,
       "dataAsOfLabel": "2026-10-12 13:56",
@@ -156,9 +156,9 @@ const DATA_STATUS = {
     "sigma": {
       "label": "시그마(옵션 IV)",
       "status": "partial",
-      "lastAttemptAt": 1791817285.4313374,
+      "lastAttemptAt": 1791817338.8261702,
       "lastSuccessAt": 1789747816.5239253,
-      "lastPartialSuccessAt": 1791817285.4313374,
+      "lastPartialSuccessAt": 1791817338.8261702,
       "lastFetchedAt": 1791811615.6167989,
       "oldestFetchedAt": 1791565330.3460414,
       "warningAfterHours": 6,
@@ -221,10 +221,10 @@ const DATA_STATUS = {
       "lastError": null
     }
   },
-  "generatedAt": 1791817285.6680338,
+  "generatedAt": 1791817338.9830608,
   "timezoneGuide": {
     "collector": "Asia/Seoul",
     "market": "America/New_York"
   },
-  "buildGeneratedAt": "2026-10-13 00:01:25"
+  "buildGeneratedAt": "2026-10-13 00:02:18"
 };
