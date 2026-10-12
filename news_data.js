@@ -2,10 +2,138 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1791806401.6481376,
+    "_last_attempt_at": 1791828002.1464703,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Stock Market Today: S&P 500, Dow Futures Gain, Nasdaq 100  Falls as Iran Flags ‘Inadequate’ US Response to Peace Terms — SMP, QMCO, SVRN in Focus (UPDATED)",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=b06233d42070a8443736697fca2a055031bd6d4fc59d6af8081f7f7a4fba9137",
+        "datetime": 1791793792,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "오늘의 주식 시장: S&P 500, 다우 선물 상승, 이란이 미국의 대응이 '부적절'하다고 표시함에 따라 Nasdaq 100 하락 - Benzinga SPY 779.00 +0.06% QQQ 749.59 −0.22% BTC/USD 83,063.92 −0.74% DIA 516.91 +0.15% GLD 381.55 −0.79% TLT 77.90 −0.10% 미국",
+            "월요일 주식 선물은 다우존스와 S&P 500 지수가 상승하고 나스닥 100 지수가 하락하면서 혼조세를 보였습니다.",
+            "이란이 미국의 부적절함을 이유로 호르무즈 해협 인근 선박에 대한 공격을 강화하고 지역 디지털 인프라를 위협하면서 지난 주말 지정학적 긴장이 고조됐다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.06%, 0.22%, 0.74% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.06%",
+            "0.22%",
+            "0.74%",
+            "0.15%",
+            "0.79%",
+            "0.10%",
+            "5.24%",
+            "4.79%"
+          ],
+          "sourceExcerpt": [
+            "Stock Market Today: S&P 500, Dow Futures Gain, Nasdaq 100 Falls as Iran Flags ‘Inadequate’ US Response t - Benzinga SPY 779.00 +0.06% QQQ 749.59 −0.22% BTC/USD 83,063.92 −0.74% DIA 516.91 +0.15% GLD 381.55 −0.79% TLT 77.90 −0.10% US Sign in",
+            "stock futures were mixed on Monday, as the Dow Jones and S&P 500 indices rose, while the Nasdaq 100 index fell, following Friday’s higher close.",
+            "Geopolitical tensions flared over the weekend as Iran stepped up attacks on shipping near the Strait of Hormuz and threatened regional digital infrastructure, citing an “inadequate” U.S."
+          ],
+          "analysisUpdatedAt": 1791828016.5319998
+        },
+        "headlineKo": "오늘의 주식 시장: 이란이 평화 조건에 대한 미국의 대응이 '부적절'하다고 표시함에 따라 S&P 500, 다우 선물 상승, 나스닥 100 하락 — SMP, QMCO, SVRN 초점(업데이트됨)"
+      },
+      {
+        "headline": "Dow Jones, S&P 500, Nasdaq 100 Outlook: Top Stock Market News This Week",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=1db7a301daa9afed3d1c121857f30bae5be6acc88a09155227d409f348d4ff93",
+        "datetime": 1791729906,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Dow Jones, S&P 500, Nasdaq 100 전망: 이번 주 주요 주식 시장 뉴스 - State Street SPDR S&P 500 ETF T - Benzinga SPY 778.57 +0.60% QQQ 751.38 +0.51% BTC/USD 83,705.27 +0.94% DIA 516.21 +0.89% GLD 384.50 +1.55% TLT 77.97 +0.12% US Sign i",
+            "미국의 주요 기업들이 수익을 보고하고 주요 경제 데이터가 공개되면서 앞으로 몇 주 안에 이들의 회복력이 테스트될 것입니다.",
+            "다우존스, S&P 500, 나스닥 100이 실적 시즌에 반응할 것 이번 주 미국 주식 시장의 주요 촉매제는 화요일에 시작되는 다가오는 실적 시즌이 될 것입니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.60%, 0.51%, 0.94% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.60%",
+            "0.51%",
+            "0.94%",
+            "0.89%",
+            "1.55%",
+            "0.12%",
+            "29.5%",
+            "7%"
+          ],
+          "sourceExcerpt": [
+            "Dow Jones, S&P 500, Nasdaq 100 Outlook: Top Stock Market News This Week - State Street SPDR S&P 500 ETF T - Benzinga SPY 778.57 +0.60% QQQ 751.38 +0.51% BTC/USD 83,705.27 +0.94% DIA 516.21 +0.89% GLD 384.50 +1.55% TLT 77.97 +0.12% US Sign i",
+            "Their resilience will be tested in the coming weeks as major US companies report earnings and key economic data is released.",
+            "Dow Jones, S&P 500, and Nasdaq 100 to React to Earnings Season The main catalyst for the US stock market this week will be the upcoming earnings season , which will kick off on Tuesday."
+          ],
+          "analysisUpdatedAt": 1791828021.2833421
+        },
+        "headlineKo": "다우존스, S&P 500, 나스닥 100 전망: 이번 주 주요 주식 시장 뉴스"
+      },
       {
         "headline": "The Nasdaq-100 Has Gained 20% or More 3 Years Running. This Streak Rests on Far Stronger Earnings Than 1999's.",
         "source": "Yahoo",
@@ -22,9 +150,9 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "The Nasdaq-100 Has Gained 20% or More 3 Years Running.",
-            "This Streak Rests on Far Stronger Earnings Than 1999's.",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Nasdaq-100 has pulled off something it's done just twice before."
+            "나스닥-100 지수는 3년 연속 20% 이상 상승했습니다.",
+            "이번 연속 행진은 1999년보다 훨씬 더 강한 수익에 달려 있습니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 합류하세요. Nasdaq-100은 이전에 두 번이나 했던 일을 해냈습니다."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
@@ -56,7 +184,7 @@ const NEWS_DATA = {
             "54%",
             "25%",
             "22%",
-            "0.49%",
+            "0.73%",
             "30%",
             "43%",
             "21%"
@@ -66,7 +194,7 @@ const NEWS_DATA = {
             "This Streak Rests on Far Stronger Earnings Than 1999's.",
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Nasdaq-100 has pulled off something it's done just twice before."
           ],
-          "analysisUpdatedAt": 1791806426.2942157
+          "analysisUpdatedAt": 1791828026.8811946
         },
         "headlineKo": "Nasdaq-100은 3년 연속으로 20% 이상의 수익을 올렸습니다. 이 연승은 1999년대보다 훨씬 더 강력한 수입에 달려 있습니다."
       },
@@ -78,60 +206,6 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.13% SPY 0.05% QQQ 0.18% Trending IREN 4.04% RCAT WFF 20.83% ASTS 3.74% BMY 3.23% FLO 2.",
-            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus Wall Street’s biggest banks, including JPMorgan, Morgan Stanley, and Wells Fargo, will report earnings next week.",
-            "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.13%, 0.05%, 0.18% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "QQQ에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.13%",
-            "0.05%",
-            "0.18%",
-            "4.04%",
-            "20.83%",
-            "3.74%",
-            "3.23%",
-            "2.30%"
-          ],
-          "sourceExcerpt": [
-            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.13% SPY 0.05% QQQ 0.18% Trending IREN 4.04% RCAT WFF 20.83% ASTS 3.74% BMY 3.23% FLO 2.",
-            "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus Wall Street’s biggest banks, including JPMorgan, Morgan Stanley, and Wells Fargo, will report earnings next week.",
-            "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
-          ],
-          "analysisUpdatedAt": 1791806436.9735174
-        },
         "headlineKo": "S&P 500, Nasdaq 100, Dow End Week High, 트레이더들이 수익 시즌을 주목하고 있음 — ​​MSFT, NFLX, SPCX, ASTS In Focus"
       },
       {
@@ -142,81 +216,7 @@ const NEWS_DATA = {
         "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "$10,000 in VGT the Day ChatGPT Launched Is Now $30,500.",
-            "QQQ Turned the Same Money Into $26,100 - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,821.80 −0.02% Dow Jones 51,710.30 −0.06% Nasdaq 100 30,861.60 −0.22% Russell 2000 2,807.63 −0.05% S&P 500 7,821.80 −0.02% Dow Jones 51,710.30 −0.06% Nasdaq 100 30,861.60 −0.22% Russell 2000 2,807.63 −0."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $10,000, $30,500., $26,100 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "QQQ에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 비용·CAPEX·영업현금흐름·FCF·부채에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1.0,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$10,000",
-            "$30,500.",
-            "$26,100",
-            "0.02%",
-            "0.06%",
-            "0.22%",
-            "0.05%",
-            "$30,482"
-          ],
-          "sourceExcerpt": [
-            "$10,000 in VGT the Day ChatGPT Launched Is Now $30,500.",
-            "QQQ Turned the Same Money Into $26,100 - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,821.80 −0.02% Dow Jones 51,710.30 −0.06% Nasdaq 100 30,861.60 −0.22% Russell 2000 2,807.63 −0.05% S&P 500 7,821.80 −0.02% Dow Jones 51,710.30 −0.06% Nasdaq 100 30,861.60 −0.22% Russell 2000 2,807.63 −0."
-          ],
-          "analysisUpdatedAt": 1791806444.4884782
-        },
         "headlineKo": "ChatGPT가 출시된 날 VGT의 $10,000는 이제 $30,500입니다. QQQ는 같은 돈을 $26,100로 바꾸었습니다."
-      },
-      {
-        "headline": "Stock Market Today: Nasdaq 100 Rebounds From OpenAI Scare, T-Mobile Tumbles 12%",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=6d6a7f613588e29781ea47aa1622e652afe48f306894f204f475dfe565f02ff3",
-        "datetime": 1791552427,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "오늘의 주식 시장: OpenAI 공포에서 Nasdaq 100이 반등했고, T-Mobile은 12% 하락했습니다."
-      },
-      {
-        "headline": "AI 'Super Boom' - Why The Nasdaq Could Hit 74,000",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=c179348951ee140dff1395e0ca9514273bf2fcbf9f068b6a2fb7d4970b5e67b9",
-        "datetime": 1791541200,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "AI '슈퍼 붐' - 나스닥이 74,000을 기록할 수 있었던 이유"
       },
       {
         "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Gains as Trump Dismisses Iran Sanction Relief as 'Hoax'— Nvidia, AAR, Vail Resorts in Focus (UPDATED)",
@@ -338,6 +338,132 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "Stock Market Today: S&P 500, Dow Futures Gain, Nasdaq 100  Falls as Iran Flags ‘Inadequate’ US Response to Peace Terms — SMP, QMCO, SVRN in Focus (UPDATED)",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=b06233d42070a8443736697fca2a055031bd6d4fc59d6af8081f7f7a4fba9137",
+        "datetime": 1791793792,
+        "headlineKo": "오늘의 주식 시장: 이란이 평화 조건에 대한 미국의 대응이 '부적절'하다고 표시함에 따라 S&P 500, 다우 선물 상승, 나스닥 100 하락 — SMP, QMCO, SVRN 초점(업데이트됨)",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "오늘의 주식 시장: S&P 500, 다우 선물 상승, 이란이 미국의 대응이 '부적절'하다고 표시함에 따라 Nasdaq 100 하락 - Benzinga SPY 779.00 +0.06% QQQ 749.59 −0.22% BTC/USD 83,063.92 −0.74% DIA 516.91 +0.15% GLD 381.55 −0.79% TLT 77.90 −0.10% 미국",
+            "월요일 주식 선물은 다우존스와 S&P 500 지수가 상승하고 나스닥 100 지수가 하락하면서 혼조세를 보였습니다.",
+            "이란이 미국의 부적절함을 이유로 호르무즈 해협 인근 선박에 대한 공격을 강화하고 지역 디지털 인프라를 위협하면서 지난 주말 지정학적 긴장이 고조됐다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.06%, 0.22%, 0.74% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.06%",
+            "0.22%",
+            "0.74%",
+            "0.15%",
+            "0.79%",
+            "0.10%",
+            "5.24%",
+            "4.79%"
+          ],
+          "sourceExcerpt": [
+            "Stock Market Today: S&P 500, Dow Futures Gain, Nasdaq 100 Falls as Iran Flags ‘Inadequate’ US Response t - Benzinga SPY 779.00 +0.06% QQQ 749.59 −0.22% BTC/USD 83,063.92 −0.74% DIA 516.91 +0.15% GLD 381.55 −0.79% TLT 77.90 −0.10% US Sign in",
+            "stock futures were mixed on Monday, as the Dow Jones and S&P 500 indices rose, while the Nasdaq 100 index fell, following Friday’s higher close.",
+            "Geopolitical tensions flared over the weekend as Iran stepped up attacks on shipping near the Strait of Hormuz and threatened regional digital infrastructure, citing an “inadequate” U.S."
+          ],
+          "analysisUpdatedAt": 1791828016.5319998
+        }
+      },
+      {
+        "headline": "Dow Jones, S&P 500, Nasdaq 100 Outlook: Top Stock Market News This Week",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=1db7a301daa9afed3d1c121857f30bae5be6acc88a09155227d409f348d4ff93",
+        "datetime": 1791729906,
+        "headlineKo": "다우존스, S&P 500, 나스닥 100 전망: 이번 주 주요 주식 시장 뉴스",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Dow Jones, S&P 500, Nasdaq 100 전망: 이번 주 주요 주식 시장 뉴스 - State Street SPDR S&P 500 ETF T - Benzinga SPY 778.57 +0.60% QQQ 751.38 +0.51% BTC/USD 83,705.27 +0.94% DIA 516.21 +0.89% GLD 384.50 +1.55% TLT 77.97 +0.12% US Sign i",
+            "미국의 주요 기업들이 수익을 보고하고 주요 경제 데이터가 공개되면서 앞으로 몇 주 안에 이들의 회복력이 테스트될 것입니다.",
+            "다우존스, S&P 500, 나스닥 100이 실적 시즌에 반응할 것 이번 주 미국 주식 시장의 주요 촉매제는 화요일에 시작되는 다가오는 실적 시즌이 될 것입니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.60%, 0.51%, 0.94% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.60%",
+            "0.51%",
+            "0.94%",
+            "0.89%",
+            "1.55%",
+            "0.12%",
+            "29.5%",
+            "7%"
+          ],
+          "sourceExcerpt": [
+            "Dow Jones, S&P 500, Nasdaq 100 Outlook: Top Stock Market News This Week - State Street SPDR S&P 500 ETF T - Benzinga SPY 778.57 +0.60% QQQ 751.38 +0.51% BTC/USD 83,705.27 +0.94% DIA 516.21 +0.89% GLD 384.50 +1.55% TLT 77.97 +0.12% US Sign i",
+            "Their resilience will be tested in the coming weeks as major US companies report earnings and key economic data is released.",
+            "Dow Jones, S&P 500, and Nasdaq 100 to React to Earnings Season The main catalyst for the US stock market this week will be the upcoming earnings season , which will kick off on Tuesday."
+          ],
+          "analysisUpdatedAt": 1791828021.2833421
+        }
+      },
+      {
         "headline": "The Nasdaq-100 Has Gained 20% or More 3 Years Running. This Streak Rests on Far Stronger Earnings Than 1999's.",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=041e7a3a85d95a14fd5a1d5e47d35090350345888c75a66f3159ca2b6752536d",
@@ -353,9 +479,9 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "The Nasdaq-100 Has Gained 20% or More 3 Years Running.",
-            "This Streak Rests on Far Stronger Earnings Than 1999's.",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Nasdaq-100 has pulled off something it's done just twice before."
+            "나스닥-100 지수는 3년 연속 20% 이상 상승했습니다.",
+            "이번 연속 행진은 1999년보다 훨씬 더 강한 수익에 달려 있습니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 합류하세요. Nasdaq-100은 이전에 두 번이나 했던 일을 해냈습니다."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
@@ -387,7 +513,7 @@ const NEWS_DATA = {
             "54%",
             "25%",
             "22%",
-            "0.49%",
+            "0.73%",
             "30%",
             "43%",
             "21%"
@@ -397,7 +523,7 @@ const NEWS_DATA = {
             "This Streak Rests on Far Stronger Earnings Than 1999's.",
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Nasdaq-100 has pulled off something it's done just twice before."
           ],
-          "analysisUpdatedAt": 1791806426.2942157
+          "analysisUpdatedAt": 1791828026.8811946
         }
       },
       {
@@ -5568,15 +5694,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791806401.6481376,
-    "_updated_label": "2026-10-12 21:00",
-    "_last_success_at": 1791806401.6481376,
+    "_fetched_at": 1791828002.1464703,
+    "_updated_label": "2026-10-13 03:00",
+    "_last_success_at": 1791828002.1464703,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 109,
+      "checked": 111,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "SPY": {
@@ -12912,7 +13038,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 148,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "MSFT": {
@@ -20874,7 +21000,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "GOOGL": {
@@ -28780,7 +28906,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "AMZN": {
@@ -36829,7 +36955,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "META": {
@@ -44789,7 +44915,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "AAPL": {
@@ -52785,7 +52911,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "TSLA": {
@@ -60970,7 +61096,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "ORCL": {
@@ -69326,7 +69452,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "CRM": {
@@ -75893,7 +76019,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 141,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "PLTR": {
@@ -84682,7 +84808,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "NVDA": {
@@ -92470,7 +92596,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "AMD": {
@@ -100645,7 +100771,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "AVGO": {
@@ -109733,7 +109859,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "QCOM": {
@@ -117008,7 +117134,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 158,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "ARM": {
@@ -122242,7 +122368,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "MRVL": {
@@ -130620,7 +130746,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 180,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "INTC": {
@@ -139051,7 +139177,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "TSM": {
@@ -146081,7 +146207,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 153,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "ASML": {
@@ -151054,7 +151180,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "AMAT": {
@@ -155734,7 +155860,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "LRCX": {
@@ -158353,7 +158479,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "KLAC": {
@@ -160863,7 +160989,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "MU": {
@@ -168600,7 +168726,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "SNDK": {
@@ -176480,7 +176606,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 164,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "WDC": {
@@ -181075,11 +181201,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "ANET": {
-    "_last_attempt_at": 1791806401.6481376,
+    "_last_attempt_at": 1791828002.1464703,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -181089,74 +181215,10 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "What Could Send Arista Networks Stock Higher?",
+        "headline": "Is Arista Networks (ANET) Outperforming Other Computer and Technology Stocks This Year?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1646a614b71b74a3d34794f072597d862d55d7fadb46404f0d717b0e4091731e",
-        "datetime": 1791568905,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "What Could Send Arista Networks Stock Higher?",
-            "| Trefis What Could Send Arista Networks Stock Higher?",
-            "October 9th, 2026 · by Trefis Team ANET YTD +65.4% SPY YTD +14.8% QQQ YTD +22.6% Analyze ANET → Arista Networks (ANET) stock trades at 65.7 times earnings , compared with 21.5 for the S&P 500."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $3.6 billion, 37.7%, 29% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "ANET의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "ANET",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "ANET에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$3.6 billion",
-            "37.7%",
-            "29%",
-            "$12.6 billion",
-            "30%",
-            "$15 billion",
-            "$20 billion",
-            "2.3%"
-          ],
-          "sourceExcerpt": [
-            "What Could Send Arista Networks Stock Higher?",
-            "| Trefis What Could Send Arista Networks Stock Higher?",
-            "October 9th, 2026 · by Trefis Team ANET YTD +65.4% SPY YTD +14.8% QQQ YTD +22.6% Analyze ANET → Arista Networks (ANET) stock trades at 65.7 times earnings , compared with 21.5 for the S&P 500."
-          ],
-          "analysisUpdatedAt": 1791806482.544869
-        },
-        "headlineKo": "Arista Networks의 주식을 더 높게 보낼 수 있는 방법은 무엇입니까?"
-      },
-      {
-        "headline": "Arista Networks Stock In A Bull Trend Offers Spread Trade With A Fast Return",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=954bed4a76023e49b8ec9d7cdeb3c5dd8ef1f84ae17d30d735096e6a3ab5834f",
-        "datetime": 1791566159,
+        "url": "https://finnhub.io/api/news?id=e2aff0e8c2ba54495beaa755d9b112d582d671b78192ee76b6cf7e46f583ad0e",
+        "datetime": 1791808804,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
@@ -181168,7 +181230,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Arista Networks Stock In A Bull Trend Offers Spread Trade With A Fast Return",
+            "Is Arista Networks (ANET) Outperforming Other Computer and Technology Stocks This Year?",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -181192,39 +181254,39 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 ANET의 사업과 관련된 'Arista Networks Stock In A Bull Trend Offers Spread Trade With A Fast Return' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 ANET의 사업과 관련된 'Is Arista Networks (ANET) Outperforming Other Computer and Technology Stocks This Year?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "ANET 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791806487.01637
+          "analysisUpdatedAt": 1791828035.5373325
         },
-        "headlineKo": "강세 추세에 있는 Arista Networks 주식은 빠른 수익으로 스프레드 거래를 제공합니다."
+        "headlineKo": "Arista Networks(ANET)가 올해 다른 컴퓨터 및 기술 주식을 능가합니까?"
       },
       {
-        "headline": "Arista Networks Plugs Into All-Time Highs",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1f786614fdf34dea0459b2e0759df2de39d385e8e48b11880d076dc411316701",
-        "datetime": 1791557400,
+        "headline": "Wells Fargo, Arista Networks, Hewlett Packard Enterprise And A Health Care Stock On CNBC’s ‘Final Trades’",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=9cf2eb83c6803de72e62a70b7f4fcd5d1d8485852ad9643a726dfe9938f07cf2",
+        "datetime": 1791790467,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "medium",
-          "tone": "risk",
+          "tone": "positive",
           "certainty": "본문 기반 간이 분석",
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → Why This Overlooked Mineral Could Define AI's Future (From Weiss Ratings) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewe",
-            "Close Key Points Arista Networks shares hit an all-time high near $217 after launching an open Ethernet rack-scale portfolio built with AMD, Broadcom, Meta, and Microsoft.",
-            "The new Etherlink SU-144 architecture offers a vendor-agnostic alternative to proprietary systems like NVIDIA's InfiniBand, reducing data center footprint by about 50%."
+            "Wells Fargo, Arista Networks, Hewlett Packard Enterprise 및 CNBC의 '최종 거래'에 대한 의료 주식 - Benzinga SPY 778.64 +0.01% QQQ 750.09 −0.16% BTC/USD 83,316.45 −0.43% DIA 516.49 +0.07% GLD 382.29 −0.60% TLT 77.82 −0.21% US 기호",
+            "Wells Fargo는 10월 화요일 개장 전에 3분기 실적을 발표할 예정입니다.",
+            "분석가들은 분기별 순이익이 1년 전 주당 1.66달러에서 증가한 1.86달러로 예상하고 있습니다."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $217, 50%, $3.04 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.01%, 0.16%, 0.43% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "ANET의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -181248,54 +181310,32 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "$217",
-            "50%",
-            "$3.04 billion",
-            "37.7%",
-            "$13.3 billion",
-            "$216.64",
-            "0.05%",
-            "$114.52"
+            "0.01%",
+            "0.16%",
+            "0.43%",
+            "0.07%",
+            "0.60%",
+            "0.21%",
+            "$1.86",
+            "$1.66"
           ],
           "sourceExcerpt": [
-            "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → Why This Overlooked Mineral Could Define AI's Future (From Weiss Ratings) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewe",
-            "Close Key Points Arista Networks shares hit an all-time high near $217 after launching an open Ethernet rack-scale portfolio built with AMD, Broadcom, Meta, and Microsoft.",
-            "The new Etherlink SU-144 architecture offers a vendor-agnostic alternative to proprietary systems like NVIDIA's InfiniBand, reducing data center footprint by about 50%."
+            "Wells Fargo, Arista Networks, Hewlett Packard Enterprise And A Health Care Stock On CNBC’s ‘Final Trades’ - Benzinga SPY 778.64 +0.01% QQQ 750.09 −0.16% BTC/USD 83,316.45 −0.43% DIA 516.49 +0.07% GLD 382.29 −0.60% TLT 77.82 −0.21% US Sign i",
+            "Wells Fargo is scheduled to announce third-quarter earnings before the opening bell on Tuesday, Oct.",
+            "Analysts expect quarterly earnings of $1.86 per share, up from $1.66 per share a year ago."
           ],
-          "analysisUpdatedAt": 1791806495.4232547
+          "analysisUpdatedAt": 1791828041.5336401
         },
-        "headlineKo": "Arista Networks, 사상 최고 기록 달성"
+        "headlineKo": "Wells Fargo, Arista Networks, Hewlett Packard Enterprise 및 CNBC의 '최종 거래'에 대한 의료 주식"
       },
-      {
-        "headline": "Final Trades: Hewlett Packard, Wells Fargo, Arista Networks and UnitedHealth",
-        "source": "CNBC",
-        "url": "https://finnhub.io/api/news?id=332c12d6feea9c49edce0058b29892c6e74f564c522db44463ca304da4ff2455",
-        "datetime": 1791551461,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "최종 거래: Hewlett Packard, Wells Fargo, Arista Networks 및 UnitedHealth"
-      },
-      {
-        "headline": "Arista Networks Stock Is Expensive, But Don’t Count It Out Just Yet",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2b72d236ffa922274ee9f80d0822bf9095ff5bdd8091e52b69cb2012f010c667",
-        "datetime": 1791522003,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Arista Networks 주식은 비싸지만 아직 계산하지 마십시오"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "What Could Send Arista Networks Stock Higher?",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1646a614b71b74a3d34794f072597d862d55d7fadb46404f0d717b0e4091731e",
         "datetime": 1791568905,
-        "headlineKo": "Arista Networks의 주식을 더 높게 보낼 수 있는 방법은 무엇입니까?",
         "relevance": 1,
         "keywordFlag": false,
+        "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "high",
@@ -181304,9 +181344,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "What Could Send Arista Networks Stock Higher?",
-            "| Trefis What Could Send Arista Networks Stock Higher?",
-            "October 9th, 2026 · by Trefis Team ANET YTD +65.4% SPY YTD +14.8% QQQ YTD +22.6% Analyze ANET → Arista Networks (ANET) stock trades at 65.7 times earnings , compared with 21.5 for the S&P 500."
+            "Arista Networks의 주식을 더 높게 보낼 수 있는 방법은 무엇입니까?",
+            "| Trefis Arista Networks의 주식을 더 높게 보낼 수 있는 방법은 무엇입니까?",
+            "2026년 10월 9일 · Trefis Team ANET YTD +65.4% SPY YTD +14.8% QQQ YTD +22.6% ANET 분석 → Arista Networks(ANET) 주식은 S&P 500의 21.5배에 비해 65.7배의 수익으로 거래됩니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -181348,7 +181388,205 @@ const NEWS_DATA = {
             "| Trefis What Could Send Arista Networks Stock Higher?",
             "October 9th, 2026 · by Trefis Team ANET YTD +65.4% SPY YTD +14.8% QQQ YTD +22.6% Analyze ANET → Arista Networks (ANET) stock trades at 65.7 times earnings , compared with 21.5 for the S&P 500."
           ],
-          "analysisUpdatedAt": 1791806482.544869
+          "analysisUpdatedAt": 1791828046.3012116
+        },
+        "headlineKo": "Arista Networks의 주식을 더 높게 보낼 수 있는 방법은 무엇입니까?"
+      },
+      {
+        "headline": "Arista Networks Stock In A Bull Trend Offers Spread Trade With A Fast Return",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=954bed4a76023e49b8ec9d7cdeb3c5dd8ef1f84ae17d30d735096e6a3ab5834f",
+        "datetime": 1791566159,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "강세 추세에 있는 Arista Networks 주식은 빠른 수익으로 스프레드 거래를 제공합니다."
+      },
+      {
+        "headline": "Arista Networks Plugs Into All-Time Highs",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1f786614fdf34dea0459b2e0759df2de39d385e8e48b11880d076dc411316701",
+        "datetime": 1791557400,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Arista Networks, 사상 최고 기록 달성"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Is Arista Networks (ANET) Outperforming Other Computer and Technology Stocks This Year?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e2aff0e8c2ba54495beaa755d9b112d582d671b78192ee76b6cf7e46f583ad0e",
+        "datetime": 1791808804,
+        "headlineKo": "Arista Networks(ANET)가 올해 다른 컴퓨터 및 기술 주식을 능가합니까?",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Is Arista Networks (ANET) Outperforming Other Computer and Technology Stocks This Year?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ANET",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ANET의 사업과 관련된 'Is Arista Networks (ANET) Outperforming Other Computer and Technology Stocks This Year?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ANET 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791828035.5373325
+        }
+      },
+      {
+        "headline": "Wells Fargo, Arista Networks, Hewlett Packard Enterprise And A Health Care Stock On CNBC’s ‘Final Trades’",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=9cf2eb83c6803de72e62a70b7f4fcd5d1d8485852ad9643a726dfe9938f07cf2",
+        "datetime": 1791790467,
+        "headlineKo": "Wells Fargo, Arista Networks, Hewlett Packard Enterprise 및 CNBC의 '최종 거래'에 대한 의료 주식",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Wells Fargo, Arista Networks, Hewlett Packard Enterprise 및 CNBC의 '최종 거래'에 대한 의료 주식 - Benzinga SPY 778.64 +0.01% QQQ 750.09 −0.16% BTC/USD 83,316.45 −0.43% DIA 516.49 +0.07% GLD 382.29 −0.60% TLT 77.82 −0.21% US 기호",
+            "Wells Fargo는 10월 화요일 개장 전에 3분기 실적을 발표할 예정입니다.",
+            "분석가들은 분기별 순이익이 1년 전 주당 1.66달러에서 증가한 1.86달러로 예상하고 있습니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.01%, 0.16%, 0.43% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "ANET의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "ANET",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "ANET에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.01%",
+            "0.16%",
+            "0.43%",
+            "0.07%",
+            "0.60%",
+            "0.21%",
+            "$1.86",
+            "$1.66"
+          ],
+          "sourceExcerpt": [
+            "Wells Fargo, Arista Networks, Hewlett Packard Enterprise And A Health Care Stock On CNBC’s ‘Final Trades’ - Benzinga SPY 778.64 +0.01% QQQ 750.09 −0.16% BTC/USD 83,316.45 −0.43% DIA 516.49 +0.07% GLD 382.29 −0.60% TLT 77.82 −0.21% US Sign i",
+            "Wells Fargo is scheduled to announce third-quarter earnings before the opening bell on Tuesday, Oct.",
+            "Analysts expect quarterly earnings of $1.86 per share, up from $1.66 per share a year ago."
+          ],
+          "analysisUpdatedAt": 1791828041.5336401
+        }
+      },
+      {
+        "headline": "What Could Send Arista Networks Stock Higher?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1646a614b71b74a3d34794f072597d862d55d7fadb46404f0d717b0e4091731e",
+        "datetime": 1791568905,
+        "headlineKo": "Arista Networks의 주식을 더 높게 보낼 수 있는 방법은 무엇입니까?",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Arista Networks의 주식을 더 높게 보낼 수 있는 방법은 무엇입니까?",
+            "| Trefis Arista Networks의 주식을 더 높게 보낼 수 있는 방법은 무엇입니까?",
+            "2026년 10월 9일 · Trefis Team ANET YTD +65.4% SPY YTD +14.8% QQQ YTD +22.6% ANET 분석 → Arista Networks(ANET) 주식은 S&P 500의 21.5배에 비해 65.7배의 수익으로 거래됩니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $3.6 billion, 37.7%, 29% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "ANET의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "ANET",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "ANET에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$3.6 billion",
+            "37.7%",
+            "29%",
+            "$12.6 billion",
+            "30%",
+            "$15 billion",
+            "$20 billion",
+            "2.3%"
+          ],
+          "sourceExcerpt": [
+            "What Could Send Arista Networks Stock Higher?",
+            "| Trefis What Could Send Arista Networks Stock Higher?",
+            "October 9th, 2026 · by Trefis Team ANET YTD +65.4% SPY YTD +14.8% QQQ YTD +22.6% Analyze ANET → Arista Networks (ANET) stock trades at 65.7 times earnings , compared with 21.5 for the S&P 500."
+          ],
+          "analysisUpdatedAt": 1791828046.3012116
         }
       },
       {
@@ -184798,15 +185036,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791806401.6481376,
-    "_updated_label": "2026-10-12 21:01",
-    "_last_success_at": 1791806401.6481376,
+    "_fetched_at": 1791828002.1464703,
+    "_updated_label": "2026-10-13 03:00",
+    "_last_success_at": 1791828002.1464703,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 75,
+      "checked": 77,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "COHR": {
@@ -187970,7 +188208,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "LITE": {
@@ -191816,7 +192054,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "GEV": {
@@ -196986,7 +197224,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "CEG": {
@@ -201582,7 +201820,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "VST": {
@@ -205027,7 +205265,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "ETN": {
@@ -208191,7 +208429,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "PWR": {
@@ -211166,7 +211404,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "HUBB": {
@@ -211834,7 +212072,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "VRT": {
@@ -215880,7 +216118,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 80,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "MOD": {
@@ -217208,7 +217446,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "STX": {
@@ -221266,7 +221504,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "EME": {
@@ -223029,7 +223267,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "FIX": {
@@ -224672,7 +224910,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   },
   "BE": {
@@ -227092,7 +227330,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-10-13 02:20"
+      "updated": "2026-10-13 03:00"
     }
   }
 };
