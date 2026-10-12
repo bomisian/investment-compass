@@ -6304,7 +6304,16 @@ function renderPriceValidityCard(r){
       <div style="margin-top:8px;font-size:11px;color:${NEU_DIM};font-weight:700;">차트</div>
       <div style="margin-top:2px;font-size:12.5px;font-weight:800;color:${PV_COLOR[chartSimpleLabel]||NEU_TEXT};">${esc(chartSimpleLabel)}</div>
 
-      <div style="margin-top:8px;font-size:10.5px;color:${NEU_DIM};">가격 기준일 ${esc(priceDate||'—')}${epsDate?` · EPS 기준일 ${esc(epsDate)}`:''}</div>
+      <div style="margin-top:8px;font-size:11px;color:${NEU_DIM};font-weight:700;">매수 구간</div>
+      <div style="margin-top:2px;font-size:12px;color:${NEU_TEXT};line-height:1.5;">${esc(decisionInfo.buyZone)}</div>
+      ${decisionInfo.confirmCond ? `
+      <div style="margin-top:8px;font-size:11px;color:${NEU_DIM};font-weight:700;">더 좋아지는 조건</div>
+      <div style="margin-top:2px;font-size:12px;color:${NEU_TEXT};line-height:1.5;">${esc(decisionInfo.confirmCond)}</div>` : ''}
+
+      <div style="margin-top:8px;font-size:11px;color:${NEU_DIM};font-weight:700;">이 판단이 바뀌는 조건</div>
+      <div style="margin-top:2px;font-size:12px;color:${NEU_TEXT};line-height:1.5;">${esc(decisionInfo.invalidateCond)}</div>
+
+      <div style="margin-top:8px;font-size:10.5px;color:${NEU_DIM};">가격 기준일 ${esc(priceDate||'—')}${epsDate?` · EPS 기준일 ${esc(epsDate)}`:''} · ${esc(decisionInfo.nextCheck)}</div>
     </div>`;
 
   // --- 51749 -- 대체 모델 종목(usedFallbackModel)의 축별 판단 근거를 그대로 보여준다
@@ -6938,7 +6947,7 @@ if(typeof window !== 'undefined'){
 //     계산된 결과를 읽기만 하는 기록 레이어이며, 1·3·6개월 "비교" 조회 UI는 이번 라운드의
 //     범위가 아니다(스냅샷을 쌓는 기반까지만 구현).
 
-const PV_MODEL_VERSION = 'price-validity-v2'; // 51747 -- 가격 판단 4분류 재정의로 버전업. computePriceValidity의 가격대/배수 공식 자체가
+const PV_MODEL_VERSION = 'price-validity-v3'; // 20261012 -- 대체 모델(usedFallbackModel) 분류를 4축+정렬카운팅에서 2신호(가격부담 PEG + 사업경고)로 단순화.
 // 구조적으로 바뀔 때만 올릴 것 -- 51734~51742의 라벨·큐 UI 변경은 이 공식을 바꾸지 않았으므로
 // v1을 유지한다.
 
