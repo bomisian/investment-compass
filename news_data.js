@@ -5576,7 +5576,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 109,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "SPY": {
@@ -12688,7 +12688,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 143,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "MSFT": {
@@ -20637,7 +20637,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "GOOGL": {
@@ -28740,7 +28740,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "AMZN": {
@@ -36814,7 +36814,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "META": {
@@ -44893,7 +44893,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "AAPL": {
@@ -52807,7 +52807,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "TSLA": {
@@ -60849,7 +60849,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "ORCL": {
@@ -61214,18 +61214,6 @@ const NEWS_DATA = {
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1791275988.6619353
         }
-      },
-      {
-        "headline": "Oracle: Here's How Badly The AI Trade Could Go (Rating Downgrade)",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=b2b306be7bf51b935f8d5acfb706e29ba84d02376f11b8a3e28565e36e7fb1d8",
-        "datetime": 1790576453,
-        "headlineKo": "오라클: AI 거래가 얼마나 심각해질 수 있는지 알아보겠습니다(등급 다운그레이드).",
-        "relevance": 0.5,
-        "keywordFlag": true,
-        "flagTerms": [
-          "downgrade"
-        ]
       }
     ],
     "newsHistory": [
@@ -69174,9 +69162,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 189,
+      "checked": 188,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "CRM": {
@@ -75533,7 +75521,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "PLTR": {
@@ -84229,7 +84217,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "NVDA": {
@@ -91899,7 +91887,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "AMD": {
@@ -100130,7 +100118,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "AVGO": {
@@ -109215,7 +109203,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "QCOM": {
@@ -116320,7 +116308,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 153,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "ARM": {
@@ -121453,7 +121441,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "MRVL": {
@@ -129714,7 +129702,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 177,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "INTC": {
@@ -138171,7 +138159,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "TSM": {
@@ -144843,7 +144831,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "ASML": {
@@ -149432,7 +149420,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "AMAT": {
@@ -154112,7 +154100,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "LRCX": {
@@ -156682,7 +156670,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "KLAC": {
@@ -159138,7 +159126,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "MU": {
@@ -166916,7 +166904,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "SNDK": {
@@ -174572,7 +174560,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 159,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "WDC": {
@@ -179167,7 +179155,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "ANET": {
@@ -182898,7 +182886,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "COHR": {
@@ -186062,7 +186050,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "LITE": {
@@ -189818,7 +189806,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 80,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "GEV": {
@@ -194988,7 +194976,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "CEG": {
@@ -199458,7 +199446,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "VST": {
@@ -202840,7 +202828,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "ETN": {
@@ -206004,7 +205992,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "PWR": {
@@ -208944,7 +208932,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "HUBB": {
@@ -209662,7 +209650,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "VRT": {
@@ -213582,7 +213570,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "MOD": {
@@ -214910,7 +214898,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "STX": {
@@ -218968,7 +218956,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "EME": {
@@ -220731,7 +220719,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "FIX": {
@@ -222394,7 +222382,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   },
   "BE": {
@@ -224783,7 +224771,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-12 14:31"
+      "updated": "2026-10-12 15:40"
     }
   }
 };
