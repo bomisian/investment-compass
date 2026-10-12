@@ -4,8 +4,8 @@
 const INSIDER_DATA = {
   "QQQ": {
     "transactions": [],
-    "_fetched_at": 1791718672.4315648,
-    "_updated_label": "2026-10-11"
+    "_fetched_at": 1791793116.4636245,
+    "_updated_label": "2026-10-12"
   },
   "SPY": {
     "transactions": [],
@@ -347,8 +347,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791720004.9899316,
-    "_updated_label": "2026-10-11"
+    "_fetched_at": 1791793116.4636245,
+    "_updated_label": "2026-10-12"
   },
   "META": {
     "transactions": [
@@ -2528,8 +2528,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791720004.9899316,
-    "_updated_label": "2026-10-11"
+    "_fetched_at": 1791793116.4636245,
+    "_updated_label": "2026-10-12"
   },
   "ANET": {
     "transactions": [
@@ -3073,8 +3073,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1791718672.4315648,
-    "_updated_label": "2026-10-11"
+    "_fetched_at": 1791793116.4636245,
+    "_updated_label": "2026-10-12"
   },
   "PWR": {
     "transactions": [],
