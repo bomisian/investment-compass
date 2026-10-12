@@ -5576,7 +5576,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 109,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "SPY": {
@@ -12695,7 +12695,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 143,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "MSFT": {
@@ -12899,6 +12899,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=245f661769e7d0b91e0a2331c834739ab1b621c638d3a04533b4d4af803a76d3",
         "datetime": 1791798900,
+        "headlineKo": "Protiviti, 2026-2027년 Microsoft AI 비즈니스 솔루션 Inner Circle Award 수상",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -12947,6 +12948,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=207293375ea7a9e1b65ce2851353a7304c5341b9847e5fd4b3ab4e5c7c6f0006",
         "datetime": 1791793620,
+        "headlineKo": "IBM, Google Quantum AI, IonQ, Microsoft 및 350개의 기타 주요 업체를 프로파일링하는 글로벌 양자 기술 시장 2026-2036 보고서가 출시되었습니다.",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -12995,6 +12997,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4ebd763cceffc938495604531de86356fbcb93bd31386e5afb8124efef259eb3",
         "datetime": 1791786000,
+        "headlineKo": "마이크로소프트는 4% 하락했다. 내가 더 많이 구매하는 이유는 다음과 같습니다.",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -20655,7 +20658,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "GOOGL": {
@@ -28758,7 +28761,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "AMZN": {
@@ -29163,6 +29166,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0c29e0195c0946a25206d6f77d82a277d0a379d1c9e12e370526a741f636673a",
         "datetime": 1791796975,
+        "headlineKo": "Amazon, 잠재적인 70억 달러 거래로 Decart 인수 협상 중",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -29210,6 +29214,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b95eb2d2f47c3f58897ce6ab1a497520fca17d3ebd725496674a740df04420ee",
         "datetime": 1791773662,
+        "headlineKo": "AMZN 주가 밤새 상승: Amazon은 Anthropic이 떠난 후 Decart AI에 대한 70억 달러 거래에 가까워졌다고 보고됨",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -29272,6 +29277,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=68ac22fff068edbd38e4f50bb1f20b289b4fc9740a4311a69f4b58ae2e1ed3c6",
         "datetime": 1791771230,
+        "headlineKo": "SPCX, TSM, APLD, AMZN, TSLA: 지난 주 소매 거래자들이 이 주식에서 눈을 뗄 수 없었던 이유",
         "relevance": 0.75,
         "keywordFlag": false,
         "analysis": {
@@ -29334,6 +29340,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a367def9e13c86552b7d822a9a6e18d4c280eb5418fa1095bfa801cf0010cef9",
         "datetime": 1791768776,
+        "headlineKo": "Amazon, Decart를 70억 달러에 인수하기로 협상 중인 것으로 알려짐 — 시장 ​​전략가는 '소프트웨어 전문 지식을 효과적으로 구매하는 것'이라고 말합니다.",
         "relevance": 0.5,
         "keywordFlag": false
       },
@@ -36854,7 +36861,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "META": {
@@ -44959,7 +44966,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "AAPL": {
@@ -52919,7 +52926,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "TSLA": {
@@ -61115,7 +61122,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "ORCL": {
@@ -69430,7 +69437,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "CRM": {
@@ -75787,7 +75794,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "PLTR": {
@@ -76059,6 +76066,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b0ada8694ee1e6ed978a0a250b6a4d68705ad646afae531f5214a365daf810f3",
         "datetime": 1791784985,
+        "headlineKo": "기록적인 최고치의 PLTR 주식 :이란 학교 파업에서 Maven 역할에 대한 CTO의 비난, 소매 황소는 월스트리트 업그레이드를 수용",
         "relevance": 1.0,
         "keywordFlag": true,
         "flagTerms": [
@@ -84487,7 +84495,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "NVDA": {
@@ -92225,7 +92233,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "AMD": {
@@ -92428,6 +92436,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f162837042780ff68cc2553a3fbba919f404df2acd023205126071f503566037",
         "datetime": 1791795335,
+        "headlineKo": "INTC, AMD, NVDA, MU: 칩 주식은 한 달 만에 최악의 주를 보낸 후 혼합 사전 시장을 열었습니다.",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -92490,6 +92499,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cf73c06ee25de8a132b3c90942cd5c97ca9fa69cc0221746c578fa414e1d56f5",
         "datetime": 1791785357,
+        "headlineKo": "AMD 주식과 두 개의 AI 인프라 이름이 큰 마진 테스트에 직면",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -100397,7 +100407,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "AVGO": {
@@ -109482,7 +109492,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "QCOM": {
@@ -116587,7 +116597,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 153,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "ARM": {
@@ -121720,7 +121730,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "MRVL": {
@@ -129981,7 +129991,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 177,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "INTC": {
@@ -138438,7 +138448,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "TSM": {
@@ -145338,7 +145348,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 151,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "ASML": {
@@ -145659,6 +145669,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0e4dde4ea4d91dd16f301c59579b8e8b9c82daed9afc704b31209993123262de",
         "datetime": 1791797640,
+        "headlineKo": "내 말을 기억하세요: ASML 주식은 AI 인프라 붐을 주도하는 가장 간과되는 방법입니다",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -145721,6 +145732,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=afee46c57656b64ce0cb815ca12f5ac0791b06c7b707bab2aaf82d49736fc3da",
         "datetime": 1791781422,
+        "headlineKo": "Stocktwits Tech Watch: ASML, TSMC 이번 주 수익 및 Apple의 다음 홈 플레이",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -150081,7 +150093,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "AMAT": {
@@ -154761,7 +154773,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "LRCX": {
@@ -157331,7 +157343,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "KLAC": {
@@ -159787,7 +159799,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "MU": {
@@ -167551,7 +167563,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "SNDK": {
@@ -175297,7 +175309,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 161,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "WDC": {
@@ -179892,7 +179904,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "ANET": {
@@ -183623,7 +183635,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "COHR": {
@@ -186787,7 +186799,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "LITE": {
@@ -187004,6 +187016,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=aa4e6af2649f3f9eeb6605ff7b67664cda878a49a5317f2d94fbdf632020f8e4",
         "datetime": 1791774188,
+        "headlineKo": "지난주 MRNA, HUM, LITE 주식이 52주 최고가로 급등한 이유는 무엇입니까?",
         "relevance": 1.0,
         "keywordFlag": false,
         "analysis": {
@@ -190605,7 +190618,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "GEV": {
@@ -195775,7 +195788,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "CEG": {
@@ -200245,7 +200258,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "VST": {
@@ -203627,7 +203640,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "ETN": {
@@ -206791,7 +206804,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "PWR": {
@@ -209731,7 +209744,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "HUBB": {
@@ -210449,7 +210462,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "VRT": {
@@ -214369,7 +214382,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "MOD": {
@@ -215697,7 +215710,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "STX": {
@@ -219755,7 +219768,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "EME": {
@@ -221518,7 +221531,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "FIX": {
@@ -223181,7 +223194,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   },
   "BE": {
@@ -225570,7 +225583,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-12 21:55"
+      "updated": "2026-10-12 22:00"
     }
   }
 };
