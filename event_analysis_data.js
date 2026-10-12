@@ -1,11 +1,11 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791807789.1636732,
+  "generatedAt": 1791809715.1527233,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791749640,
       "signal": "중립·확인 대기",
       "netScore": 0.91,
@@ -177,7 +177,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791727457,
       "signal": "우호적 변화",
       "netScore": 4.19,
@@ -366,7 +366,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791796975,
       "signal": "우호적 변화",
       "netScore": 3.7,
@@ -416,7 +416,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "aaf0a908fd6248cb1bf0",
-          "headline": "Amazon in talks to acquire Decart in potential $7bn deal",
+          "headline": "Amazon, 잠재적인 70억 달러 거래로 Decart 인수 협상 중",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1791796975,
           "verificationStatus": "needs_confirmation",
@@ -430,7 +430,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "7bd6eb8e9e886ba7f814",
-          "headline": "AMZN Stock Inches Up Overnight: Amazon Reportedly Nears $7B Deal For Decart AI After Anthropic Walks Away",
+          "headline": "AMZN 주가 밤새 상승: Amazon은 Anthropic이 떠난 후 Decart AI에 대한 70억 달러 거래에 가까워졌다고 보고됨",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1791773662,
           "verificationStatus": "needs_confirmation",
@@ -557,7 +557,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791720243,
       "signal": "주의 강화",
       "netScore": -3.84,
@@ -664,7 +664,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791785772,
       "signal": "주의 강화",
       "netScore": -10,
@@ -886,7 +886,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791771230,
       "signal": "주의 강화",
       "netScore": -4.48,
@@ -936,7 +936,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "81aecbc0f3142d9bb97d",
-          "headline": "SPCX, TSM,  APLD, AMZN, TSLA: Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week",
+          "headline": "SPCX, TSM, APLD, AMZN, TSLA: 지난 주 소매 거래자들이 이 주식에서 눈을 뗄 수 없었던 이유",
           "eventLabel": "애널리스트 목표주가 변경",
           "publishedAt": 1791771230,
           "verificationStatus": "needs_confirmation",
@@ -993,7 +993,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791500119,
       "signal": "중립·확인 대기",
       "netScore": -1.96,
@@ -1087,7 +1087,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -1141,7 +1141,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791708300,
       "signal": "주의 강화",
       "netScore": -2.17,
@@ -1238,7 +1238,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791795335,
       "signal": "우호적 변화",
       "netScore": 7.7,
@@ -1288,7 +1288,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "4a97ee5a91b4938218ee",
-          "headline": "INTC, AMD, NVDA, MU: Chip Stocks Open Mixed Premarket After Worst Week In A Month",
+          "headline": "INTC, AMD, NVDA, MU: 칩 주식은 한 달 만에 최악의 주를 보낸 후 혼합 사전 시장을 열었습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1791795335,
           "verificationStatus": "needs_confirmation",
@@ -1453,7 +1453,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791742680,
       "signal": "우호적 변화",
       "netScore": 5.45,
@@ -1667,7 +1667,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791762600,
       "signal": "주의 강화",
       "netScore": -7.14,
@@ -1833,7 +1833,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791785772,
       "signal": "주의 강화",
       "netScore": -10,
@@ -2056,7 +2056,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791675110,
       "signal": "주의 강화",
       "netScore": -3.77,
@@ -2140,7 +2140,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791675110,
       "signal": "주의 강화",
       "netScore": -4.54,
@@ -2235,7 +2235,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791797640,
       "signal": "주의 강화",
       "netScore": -8.12,
@@ -2285,7 +2285,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "132d8996a95363662e5a",
-          "headline": "Mark My Words: ASML Stock Is the Most Overlooked Way to Play the AI Infrastructure Boom",
+          "headline": "내 말을 기억하세요: ASML 주식은 AI 인프라 붐을 주도하는 가장 간과되는 방법입니다",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1791797640,
           "verificationStatus": "needs_confirmation",
@@ -2299,7 +2299,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "4a97ee5a91b4938218ee",
-          "headline": "INTC, AMD, NVDA, MU: Chip Stocks Open Mixed Premarket After Worst Week In A Month",
+          "headline": "INTC, AMD, NVDA, MU: 칩 주식은 한 달 만에 최악의 주를 보낸 후 혼합 사전 시장을 열었습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1791795335,
           "verificationStatus": "needs_confirmation",
@@ -2314,7 +2314,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "61e21385878a5d04cb93",
-          "headline": "Microsoft Is Down 4%. Here's Why I'm Buying More.",
+          "headline": "마이크로소프트는 4% 하락했다. 내가 더 많이 구매하는 이유는 다음과 같습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1791786000,
           "verificationStatus": "needs_confirmation",
@@ -2430,7 +2430,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791788752,
       "signal": "주의 강화",
       "netScore": -3.71,
@@ -2508,7 +2508,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "81aecbc0f3142d9bb97d",
-          "headline": "SPCX, TSM,  APLD, AMZN, TSLA: Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week",
+          "headline": "SPCX, TSM, APLD, AMZN, TSLA: 지난 주 소매 거래자들이 이 주식에서 눈을 뗄 수 없었던 이유",
           "eventLabel": "애널리스트 목표주가 변경",
           "publishedAt": 1791771230,
           "verificationStatus": "needs_confirmation",
@@ -2566,7 +2566,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791797640,
       "signal": "주의 강화",
       "netScore": -8.53,
@@ -2616,7 +2616,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "132d8996a95363662e5a",
-          "headline": "Mark My Words: ASML Stock Is the Most Overlooked Way to Play the AI Infrastructure Boom",
+          "headline": "내 말을 기억하세요: ASML 주식은 AI 인프라 붐을 주도하는 가장 간과되는 방법입니다",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1791797640,
           "verificationStatus": "needs_confirmation",
@@ -2704,7 +2704,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791720969,
       "signal": "중립·확인 대기",
       "netScore": 1.4,
@@ -2773,7 +2773,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2827,7 +2827,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791727216,
       "signal": "중립·확인 대기",
       "netScore": -0.35,
@@ -2894,7 +2894,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791795335,
       "signal": "우호적 변화",
       "netScore": 6.22,
@@ -2944,7 +2944,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "4a97ee5a91b4938218ee",
-          "headline": "INTC, AMD, NVDA, MU: Chip Stocks Open Mixed Premarket After Worst Week In A Month",
+          "headline": "INTC, AMD, NVDA, MU: 칩 주식은 한 달 만에 최악의 주를 보낸 후 혼합 사전 시장을 열었습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1791795335,
           "verificationStatus": "needs_confirmation",
@@ -2973,7 +2973,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "3ed2c84c692b41b39300",
-          "headline": "PLTR Stock At Record High: CTO Slams Report Of Maven Role In Iran School Strike, Retail Bulls Embrace Wall Street Upgrades",
+          "headline": "기록적인 최고치의 PLTR 주식 :이란 학교 파업에서 Maven 역할에 대한 CTO의 비난, 소매 황소는 월스트리트 업그레이드를 수용",
           "eventLabel": "애널리스트 목표주가 변경",
           "publishedAt": 1791784985,
           "verificationStatus": "needs_confirmation",
@@ -2999,7 +2999,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "a54d2f5f5157c9e27724",
-          "headline": "Why Did MRNA, HUM, LITE Stocks Surge To 52-Week Highs Last Week?",
+          "headline": "지난주 MRNA, HUM, LITE 주식이 52주 최고가로 급등한 이유는 무엇입니까?",
           "eventLabel": "애널리스트 목표주가 변경",
           "publishedAt": 1791774188,
           "verificationStatus": "needs_confirmation",
@@ -3011,7 +3011,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "7bd6eb8e9e886ba7f814",
-          "headline": "AMZN Stock Inches Up Overnight: Amazon Reportedly Nears $7B Deal For Decart AI After Anthropic Walks Away",
+          "headline": "AMZN 주가 밤새 상승: Amazon은 Anthropic이 떠난 후 Decart AI에 대한 70억 달러 거래에 가까워졌다고 보고됨",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1791773662,
           "verificationStatus": "needs_confirmation",
@@ -3025,7 +3025,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "81aecbc0f3142d9bb97d",
-          "headline": "SPCX, TSM,  APLD, AMZN, TSLA: Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week",
+          "headline": "SPCX, TSM, APLD, AMZN, TSLA: 지난 주 소매 거래자들이 이 주식에서 눈을 뗄 수 없었던 이유",
           "eventLabel": "애널리스트 목표주가 변경",
           "publishedAt": 1791771230,
           "verificationStatus": "needs_confirmation",
@@ -3110,7 +3110,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791561600,
       "signal": "우호적 변화",
       "netScore": 3.84,
@@ -3206,7 +3206,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791785772,
       "signal": "주의 강화",
       "netScore": -10,
@@ -3401,7 +3401,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791551461,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -3470,7 +3470,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791515304,
       "signal": "우호적 변화",
       "netScore": 3.49,
@@ -3553,7 +3553,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791633337,
       "signal": "주의 강화",
       "netScore": -5.19,
@@ -3752,7 +3752,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791645252,
       "signal": "중립·확인 대기",
       "netScore": 0.7,
@@ -3820,7 +3820,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791552718,
       "signal": "우호적 변화",
       "netScore": 2.8,
@@ -3903,7 +3903,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791563077,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -3972,7 +3972,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4026,7 +4026,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791589815,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -4095,7 +4095,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4149,7 +4149,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4203,7 +4203,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4257,7 +4257,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4311,7 +4311,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4365,7 +4365,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791756415,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -4434,7 +4434,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1791807789.1636732,
+      "updatedAt": 1791809715.1527233,
       "dataAsOf": 1791587509,
       "signal": "중립·확인 대기",
       "netScore": 0.7,

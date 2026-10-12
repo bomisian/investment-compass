@@ -5576,7 +5576,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 109,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "SPY": {
@@ -12695,7 +12695,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 143,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "MSFT": {
@@ -12755,7 +12755,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1791803868.773249
-        }
+        },
+        "headlineKo": "Protiviti, 2026-2027년 Microsoft AI 비즈니스 솔루션 Inner Circle Award 수상"
       },
       {
         "headline": "The Global Quantum Technologies Market 2026-2036 Report Now Available, Profiling IBM, Google Quantum AI, IonQ, Microsoft & 350 Other Key Players",
@@ -12804,7 +12805,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1791803872.9235685
-        }
+        },
+        "headlineKo": "IBM, Google Quantum AI, IonQ, Microsoft 및 350개의 기타 주요 업체를 프로파일링하는 글로벌 양자 기술 시장 2026-2036 보고서가 출시되었습니다."
       },
       {
         "headline": "Microsoft Is Down 4%. Here's Why I'm Buying More.",
@@ -12867,7 +12869,8 @@ const NEWS_DATA = {
             "Azure is becoming a huge beneficiary of the AI boom With AI reshaping the tech industry, Microsoft has several advantages that the market may be underestimating."
           ],
           "analysisUpdatedAt": 1791803885.0394888
-        }
+        },
+        "headlineKo": "마이크로소프트는 4% 하락했다. 내가 더 많이 구매하는 이유는 다음과 같습니다."
       },
       {
         "headline": "Microsoft Needs Azure to Keep Growing Faster Than 40% When It Reports on Oct. 28",
@@ -20652,7 +20655,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "GOOGL": {
@@ -28755,7 +28758,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "AMZN": {
@@ -28814,7 +28817,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1791801760.089767
-        }
+        },
+        "headlineKo": "Amazon, 잠재적인 70억 달러 거래로 Decart 인수 협상 중"
       },
       {
         "headline": "AMZN Stock Inches Up Overnight: Amazon Reportedly Nears $7B Deal For Decart AI After Anthropic Walks Away",
@@ -28877,7 +28881,8 @@ const NEWS_DATA = {
             "Amazon logo displayed on a phone screen is seen in this illustration photo."
           ],
           "analysisUpdatedAt": 1791801768.4082894
-        }
+        },
+        "headlineKo": "AMZN 주가 밤새 상승: Amazon은 Anthropic이 떠난 후 Decart AI에 대한 70억 달러 거래에 가까워졌다고 보고됨"
       },
       {
         "headline": "SPCX, TSM,  APLD, AMZN, TSLA: Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week",
@@ -28940,7 +28945,8 @@ const NEWS_DATA = {
             "A person holds a smartphone displaying the SpaceX logo, with SpaceX branding visible in the background."
           ],
           "analysisUpdatedAt": 1791801776.3416436
-        }
+        },
+        "headlineKo": "SPCX, TSM, APLD, AMZN, TSLA: 지난 주 소매 거래자들이 이 주식에서 눈을 뗄 수 없었던 이유"
       },
       {
         "headline": "Amazon Reportedly in Talks to Buy Decart for $7 Billion — Market Strategist Says It Is 'Effectively Buying Software Expertise'",
@@ -28949,7 +28955,8 @@ const NEWS_DATA = {
         "datetime": 1791768776,
         "relevance": 0.5,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "Amazon, Decart를 70억 달러에 인수하기로 협상 중인 것으로 알려짐 — 시장 ​​전략가는 '소프트웨어 전문 지식을 효과적으로 구매하는 것'이라고 말합니다."
       },
       {
         "headline": "$15 doorbell camera became Amazon's second-largest acquisition.",
@@ -36847,7 +36854,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "META": {
@@ -44952,7 +44959,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "AAPL": {
@@ -52912,7 +52919,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "TSLA": {
@@ -61108,7 +61115,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "ORCL": {
@@ -69423,7 +69430,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "CRM": {
@@ -75780,7 +75787,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "PLTR": {
@@ -75856,7 +75863,8 @@ const NEWS_DATA = {
             "Shyam Sankar, CTO, Palantir Technologies speaks on stage during The Hill & Valley Forum 2025 on April 30, 2025 in Washington, DC."
           ],
           "analysisUpdatedAt": 1791799010.9768171
-        }
+        },
+        "headlineKo": "기록적인 최고치의 PLTR 주식 :이란 학교 파업에서 Maven 역할에 대한 CTO의 비난, 소매 황소는 월스트리트 업그레이드를 수용"
       },
       {
         "headline": "Palantir hits record as its next AI market gets awkward",
@@ -84479,7 +84487,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "NVDA": {
@@ -92217,7 +92225,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "AMD": {
@@ -92291,7 +92299,8 @@ const NEWS_DATA = {
             "A robotic machine manufactures a semiconductor chip at a stall to show investors during The Advantage Assam 2.0 Investment Summit in Guwahati, India, on February 25, 2025."
           ],
           "analysisUpdatedAt": 1791801833.5509531
-        }
+        },
+        "headlineKo": "INTC, AMD, NVDA, MU: 칩 주식은 한 달 만에 최악의 주를 보낸 후 혼합 사전 시장을 열었습니다."
       },
       {
         "headline": "AMD Stock And Two AI Infrastructure Names Facing A Big Margin Test",
@@ -92340,7 +92349,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1791801839.1852915
-        }
+        },
+        "headlineKo": "AMD 주식과 두 개의 AI 인프라 이름이 큰 마진 테스트에 직면"
       },
       {
         "headline": "Advanced Micro Devices (AMD) Stock Falls After AI Revenue Reset Shakes Demand Outlook",
@@ -100387,7 +100397,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "AVGO": {
@@ -109472,7 +109482,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "QCOM": {
@@ -116577,7 +116587,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 153,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "ARM": {
@@ -121710,7 +121720,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "MRVL": {
@@ -129971,7 +129981,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 177,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "INTC": {
@@ -138428,7 +138438,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "TSM": {
@@ -145328,7 +145338,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 151,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "ASML": {
@@ -145402,7 +145412,8 @@ const NEWS_DATA = {
             "One in particular tends to fly under the radar."
           ],
           "analysisUpdatedAt": 1791801866.12041
-        }
+        },
+        "headlineKo": "내 말을 기억하세요: ASML 주식은 AI 인프라 붐을 주도하는 가장 간과되는 방법입니다"
       },
       {
         "headline": "Stocktwits Tech Watch: ASML, TSMC Earnings This Week And Apple’s Next Home Play",
@@ -145465,7 +145476,8 @@ const NEWS_DATA = {
             "Consumers shop in an APPLE smart home store in Shanghai, China, on May 13, 2025."
           ],
           "analysisUpdatedAt": 1791801873.996776
-        }
+        },
+        "headlineKo": "Stocktwits Tech Watch: ASML, TSMC 이번 주 수익 및 Apple의 다음 홈 플레이"
       },
       {
         "headline": "Dow Jones Futures Rise As Trump Claims Russia-Ukraine 'Energy Ceasefire'; ASML, Nvidia Chipmaker Taiwan Semi Earnings Loom",
@@ -150069,7 +150081,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "AMAT": {
@@ -154749,7 +154761,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "LRCX": {
@@ -157319,7 +157331,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "KLAC": {
@@ -159775,7 +159787,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "MU": {
@@ -167539,7 +167551,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "SNDK": {
@@ -175285,7 +175297,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 161,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "WDC": {
@@ -179880,7 +179892,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "ANET": {
@@ -183611,7 +183623,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "COHR": {
@@ -186775,7 +186787,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "LITE": {
@@ -186849,7 +186861,8 @@ const NEWS_DATA = {
             "Why Did MRNA, HUM, LITE Stocks Surge To 52-Week Highs Last Week?"
           ],
           "analysisUpdatedAt": 1791799482.4527612
-        }
+        },
+        "headlineKo": "지난주 MRNA, HUM, LITE 주식이 52주 최고가로 급등한 이유는 무엇입니까?"
       },
       {
         "headline": "Lumentum: The CPO Winner Investors Are Overlooking",
@@ -190592,7 +190605,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "GEV": {
@@ -195762,7 +195775,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "CEG": {
@@ -200232,7 +200245,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "VST": {
@@ -203614,7 +203627,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "ETN": {
@@ -206778,7 +206791,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "PWR": {
@@ -209718,7 +209731,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "HUBB": {
@@ -210436,7 +210449,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "VRT": {
@@ -214356,7 +214369,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "MOD": {
@@ -215684,7 +215697,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "STX": {
@@ -219742,7 +219755,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "EME": {
@@ -221505,7 +221518,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "FIX": {
@@ -223168,7 +223181,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   },
   "BE": {
@@ -225557,7 +225570,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-12 21:01"
+      "updated": "2026-10-12 21:55"
     }
   }
 };
