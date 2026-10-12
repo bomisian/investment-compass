@@ -283,57 +283,6 @@ const NEWS_DATA = {
           ],
           "analysisUpdatedAt": 1790712014.1357725
         }
-      },
-      {
-        "headline": "S&P 500, Dow, Nasdaq Drop Under Pressure From Elevated Yields As Investors Shrug Off Trump’s Iran Sanction Relief — NVDA, BA, AMD, NVTS, CBRS In Focus",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b057d340744e7590865880f8a83751b466d402f8a17a19fb34b5a008d6e818fb",
-        "datetime": 1790636878,
-        "headlineKo": "투자자들이 트럼프의 이란 제재 완화를 외면하면서 S&P 500, 다우, 나스닥은 수익률 상승으로 인한 압력 하락 — NVDA, BA, AMD, NVTS, CBRS 집중",
-        "relevance": 0.67,
-        "keywordFlag": true,
-        "flagTerms": [
-          "sanction"
-        ],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "S&P 500, Dow, Nasdaq Drop Under Pressure From Elevated Yields As Investors Shrug Off Trump’s Iran Sanction Relief — NVDA, BA, AMD, NVTS, CBRS In Focus",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "QQQ에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790712020.2176976
-        }
       }
     ],
     "newsHistory": [
@@ -5700,9 +5649,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 111,
+      "checked": 110,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "SPY": {
@@ -5986,57 +5935,6 @@ const NEWS_DATA = {
             "Oil prices rose amid ongoing indirect negotiations between Washington and Tehran."
           ],
           "analysisUpdatedAt": 1790708426.926261
-        }
-      },
-      {
-        "headline": "S&P 500, Dow, Nasdaq Drop Under Pressure From Elevated Yields As Investors Shrug Off Trump’s Iran Sanction Relief — NVDA, BA, AMD, NVTS, CBRS In Focus",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b057d340744e7590865880f8a83751b466d402f8a17a19fb34b5a008d6e818fb",
-        "datetime": 1790636878,
-        "headlineKo": "투자자들이 트럼프의 이란 제재 완화를 외면하면서 S&P 500, 다우, 나스닥은 수익률 상승으로 인한 압력 하락 — NVDA, BA, AMD, NVTS, CBRS 집중",
-        "relevance": 0.5,
-        "keywordFlag": true,
-        "flagTerms": [
-          "sanction"
-        ],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "S&P 500, Dow, Nasdaq Drop Under Pressure From Elevated Yields As Investors Shrug Off Trump’s Iran Sanction Relief — NVDA, BA, AMD, NVTS, CBRS In Focus",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "SPY",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "SPY에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790686069.4567394
         }
       }
     ],
@@ -13036,9 +12934,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 148,
+      "checked": 147,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "MSFT": {
@@ -21000,7 +20898,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "GOOGL": {
@@ -28935,7 +28833,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "AMZN": {
@@ -37051,7 +36949,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "META": {
@@ -44993,7 +44891,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "AAPL": {
@@ -52933,7 +52831,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "TSLA": {
@@ -61032,7 +60930,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "ORCL": {
@@ -69430,7 +69328,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "CRM": {
@@ -76178,7 +76076,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "PLTR": {
@@ -84970,7 +84868,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "NVDA": {
@@ -92659,7 +92557,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "AMD": {
@@ -100770,7 +100668,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "AVGO": {
@@ -109844,7 +109742,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "QCOM": {
@@ -117252,7 +117150,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 161,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "ARM": {
@@ -122535,7 +122433,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "MRVL": {
@@ -130990,7 +130888,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 181,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "INTC": {
@@ -139335,7 +139233,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "TSM": {
@@ -146400,7 +146298,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 154,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "ASML": {
@@ -151505,7 +151403,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 105,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "AMAT": {
@@ -156411,7 +156309,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "LRCX": {
@@ -159030,7 +158928,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "KLAC": {
@@ -161540,7 +161438,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "MU": {
@@ -169261,7 +169159,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "SNDK": {
@@ -177362,7 +177260,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 169,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "WDC": {
@@ -182139,7 +182037,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "ANET": {
@@ -185982,7 +185880,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "COHR": {
@@ -189181,7 +189079,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "LITE": {
@@ -193139,7 +193037,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "GEV": {
@@ -198338,7 +198236,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "CEG": {
@@ -203044,7 +202942,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "VST": {
@@ -206489,7 +206387,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "ETN": {
@@ -209653,7 +209551,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "PWR": {
@@ -212677,7 +212575,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "HUBB": {
@@ -213345,7 +213243,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "VRT": {
@@ -217471,7 +217369,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "MOD": {
@@ -218799,7 +218697,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "STX": {
@@ -223011,7 +222909,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "EME": {
@@ -224774,7 +224672,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "FIX": {
@@ -226464,7 +226362,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   },
   "BE": {
@@ -228884,7 +228782,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-10-13 08:01"
+      "updated": "2026-10-13 08:10"
     }
   }
 };
