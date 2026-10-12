@@ -1469,7 +1469,30 @@ const BUSINESS_NOTES = {
         ],
       },
 ],
-    analystLog: [{
+    analystLog: [
+      {
+  "date": "2026-10-12",
+  "period": "2026-07-26 마감 분기 (FY2027 Q2, 2026-08-27 발표)",
+  "headline": "매출 $96.2B (컨센서스 $92.2B 상회, YoY +106%, QoQ +18%); non-GAAP EPS $2.22 (컨센서스 $2.10 상회), GAAP EPS $2.46. 발표 직후 주가는 중국向 매출 제로 공시에 -2~4% 하락했다가 약 1시간 후 +4% 이상으로 반등 마감.",
+  "oneTime": "GAAP 순이익 $59,688M vs non-GAAP 순이익 $53,954M, 갭 약 $5.73B. 주원인은 non-GAAP에서 제외된 觀분증권(equity securities) 평가이익 $7,771M(비영업성 투자자산 가치 변동). 그 외 인수 관련 비용 $222M(매출원가 $46M+영업비용 $176M)도 non-GAAP 조정 대상. H20/중국向 관련 손상차손은 '미미(insignificant)'하다고만 공시되고 구체적 금액은 미제공 — 과거 분기 대비 중국 관련 일회성 항목 비중은 크게 축소됨. 즉 이번 분기 실적 왜곡은 중국 이슈가 아니라 투자자산 평가이익이라는 비영업적 요인이 핵심.",
+  "coreRead": "데이터센터 매출 $89.0B(전체의 93%, YoY +117%, QoQ +18%)로 핵심 사업 자체가 폭발적으로 성장 중이며, 하이퍼스케일러向 매출은 QoQ +29%로 소수 고객 집중 우려를 완화. 중요한 점은 회사가 3분기 가이던스($108.0B)에 중국 데이터센터向 매출을 '0'으로 가정했다는 것 — 즉 현재의 106% YoY 성장은 순수 비중국 수요만으로 달성된 수치이며 중국 라이선스 규제가 풀리면 추가 업사이드. CFO Colette Kress는 FY2028 매출 성장률을 약 70%로 가이드했는데 이는 시장 컨센서스(약 44%)를 크게 상회하며, 이를 '공급 제약적(supply-constrained)' 전망이라 명시 — 수요가 아니라 공급이 성장의 제약 요인이라는 메시지. CEO Jensen Huang은 Vera Rubin 플랫폼이 풀 프로덕션에 진입했다고 언급. 다만 4분기(FY2027 Q4) 매출총이익률은 HBM/메모리 비용 상승으로 71~72%까지 하락할 것으로 가이드 — 이는 구조적 비용 압박으로 일회성이 아님. 주가가 발표 초반 하락 후 급반등한 것은, 중국 매출 제로/마진 압박이라는 단기 부정적 신호와 비중국 성장 모멘텀·FY28 가이드 상향이라는 장기 긍정적 신호가 충돌했다가 결국 시장이 후자에 더 무게를 둔 결과로 해석됨.",
+  "forecast": "[본인 추정, 비확정] 3분기(FY2027 Q3, 분기말 약 2026-10-26, 발표는 11월 중순~하순 예상) 매출은 회사 가이던스($108.0B ±2%)를 소폭 상회하는 $108~112B 수준에서 또 한 번의 beat가 나올 가능성이 높다고 봄 — Blackwell/Vera Rubin 램프와 하이퍼스케일러 capex 사이클이 지속되고 있기 때문. 매출총이익률은 가이던스(~74%) 부근을 유지하되, 메모리/HBM 원가 상승이 예상보다 빠르게 반영되면 72~73%대로 하향할 리스크 있음. non-GAAP EPS는 $2.40~2.50 범위로 추정. 핵심 변수는 중국 수출 규제 완화 여부 — 현재 가이던스에 전혀 반영되지 않은 순수 업사이드 요인이므로, 완화 시그널이 나오면 추정치 상향 조정 필요.",
+  "confidence": "1차 소스(SEC 8-K 프레스릴리즈) 기준 확정 수치: 매출 $96.2B, 데이터센터 매출 $89.0B, GAAP 순이익 $59,688M, non-GAAP 순이익 $53,954M, GAAP EPS $2.46, non-GAAP EPS $2.22, 매출총이익률 75.0%(GAAP·non-GAAP 동일), 3분기 가이던스 매출 $108.0B±2%·매출총이익률 ~74%, 중국 데이터센터 매출 0 가정, 지분증권 평가이익 $7,771M, 인수 관련 비용 $222M — 모두 원문 공시 확인됨. 컨센서스 수치($92.2B 매출, $2.10 EPS, 3분기 컨센서스 ~$104B)와 발표 직후 주가 변동률(-2~4%→+4%대 반등)은 2차 금융 미디어(xtb.com, sentisense.ai) 집계치로, 1차 소스로 재확인되지 않음. '3분기 전망' 항목은 회사 가이던스에 본인의 추세 추정을 더한 것으로 전적으로 비확정 추정치임을 명시.",
+  "sources": [
+    {
+      "title": "NVIDIA CORP - Form 8-K (Q2 FY2027 Press Release)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000073/q2fy27pr.htm"
+    },
+    {
+      "title": "Nvidia shares react to solid earnings report and stronger guidance - XTB",
+      "url": "https://www.xtb.com/cy/market-analysis/news-and-research/nvidia-shares-react-to-solid-earnings-report-and-stonger-guidance-what-s-next-for-the-ai-giant"
+    },
+    {
+      "title": "NVIDIA beats across the board and guides to $108 billion with zero China revenue assumed - Sentisense",
+      "url": "https://app.sentisense.ai/stories/nvidia-beats-across-the-board-guides-108-billion-with-zero-china-revenue-assume-08262026"
+    }
+  ]
+},{
       date: "2026-08-11",
       period: "5개 분기 연속 마진 상승 (2025-07 마감 42.6% → 2026-07 마감 71.5%로 추정)",
       headline: "순이익률이 5개 분기 연속 계속 올라감: 42.6%→56.5%→56.0%→63.1%→71.5%. 매출도 같은 기간 $44.1B→$81.6B로 거의 2배.",
@@ -2290,7 +2313,38 @@ const BUSINESS_NOTES = {
       },
 
     ],
-    analystLog: [{
+    analystLog: [
+      {
+  "date": "2026-10-12",
+  "period": "2026-06-30 마감 분기 (2026년 2분기, 2026-07-29 발표)",
+  "headline": "매출 608.0억 달러(YoY +28%)로 컨센서스 601.7억 달러 상회. 광고 매출 593.6억 달러(+27%), 광고 노출 +14%·광고 단가 +12%. 반면 GAAP 희석 EPS는 6.18달러(YoY -13%)로 컨센서스 약 7.22달러를 큰 폭 하회. 실적 발표 후 시간외 거래에서 주가 약 7~10% 급락(541달러대).",
+  "oneTime": "GAAP 순이익 158.5억 달러로 YoY -14%. 하락분의 핵심은 일회성 비용: 소송 관련 비용 24억 달러 + 5월 구조조정 관련 퇴직금 11.8억 달러, 합산 약 35.8억 달러. 실효세율도 11%→16%로 상승(세율 가이던스도 13~16%→15~17%로 상향). 경영진은 이 일회성 항목 제외 시 영업이익이 오히려 YoY +9% 증가했을 것이라고 언급. 즉 순이익 감소의 대부분은 일회성 요인이며 핵심 사업 수익성 훼손은 아님.",
+  "coreRead": "광고 본업은 매우 견조: 광고 매출 +27%, 노출수 +14%, 단가 +12%, Advantage+ 자동화 광고 제품 연환산 매출 750억 달러 도달. DAP(일간활성사용자) 36억명으로 YoY +3%. 문제는 AI 인프라 투자: 2분기 Capex 311억 달러로 영업현금흐름(318.6억 달러)의 약 98%를 소진, 자유현금흐름은 7.84억 달러(YoY -91%)까지 급감. 배당(13.5억 달러)이 FCF를 초과해 바이백은 전혀 없었고, 부채(약 837억 달러)가 현금(약 903억 달러)에 근접할 정도로 레버리지 확대. 2026년 연간 capex 가이던스 하단을 1,250억→1,300억 달러로 상향(상단 1,450억 유지). 3분기 매출 가이던스 610~640억 달러(중간값 625억 달러)로 컨센서스(약 631.5억 달러)보다 다소 낮음. 즉 주가 급락의 실제 원인은 '광고 사업 둔화'가 아니라 'AI 투자 규모·현금소진 속도에 대한 우려 + 소폭 보수적인 3분기 가이던스'. Reality Labs는 매출 4.31억 달러에 영업손실 46.2억 달러로 적자 지속(전년 45.3억 달러 손실에서 소폭 확대).",
+  "forecast": "[Claude 추정, 확정 자료 아님] 2026년 3분기(2026-09-30 마감, 발표는 통상 10월 말~11월 초 예상이며 아직 미발표)는 가이던스 범위(610~640억 달러) 내 중상단에서 마감될 가능성이 높음. 광고 단가·노출 기반 성장세가 이어지며 매출 YoY 성장률은 20%대 중후반 유지 전망. 다만 Capex는 계속 300억 달러대 수준으로 유지되거나 더 늘어날 가능성이 높아 FCF 압박이 지속될 것으로 예상. 2분기와 같은 대규모 일회성 소송/구조조정 비용이 재발하지 않는다면 GAAP EPS는 YoY 기준 플러스 전환 가능성이 있으나, AI 관련 감가상각비 증가가 새로운 상시적 비용 압박으로 작용할 수 있어 EPS 서프라이즈 강도는 2분기보다 약할 것으로 추정.",
+  "confidence": "확정(1차/2차 금융매체 보도 기준): 매출 608.0억 달러, 광고 매출 593.6억 달러, GAAP 순이익 158.5억 달러, GAAP EPS 6.18달러, 영업이익익 187.8억 달러, Capex 311억 달러, FCF 7.84억 달러, 소송비용 24억 달러·구조조정비용 11.8억 달러, 실효세율 16%, 2026년 연간 capex 가이던스(1,300~1,450억 달러), 3분기 매출 가이던스(610~640억 달러), 시간외 주가 하락(~7~10%). 추정/판단: 3분기 실제 실적 전망, 주가 급락의 '핵심 원인'에 대한 해석, 향후 EPS 방향성 — 이 부분은 Claude의 자체 추론이며 아직 발표되지 않은 수치임.",
+  "sources": [
+    {
+      "title": "Meta shares drop as Q2 profit declines due to legal expenses and severance costs (AP wire)",
+      "url": "https://abcnews.com/Business/wireStory/meta-shares-drop-q2-profit-declines-due-legal-135206558"
+    },
+    {
+      "title": "Meta Platforms report Q2 2026: Meta advertising, DAP, capital expenditures (TradingKey)",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262062391-meta-platforms-report-q2-2026-meta-advertising-dap-capital-expenditures-tradingkey"
+    },
+    {
+      "title": "Meta Q2 2026: Ad Machine Strong, Capex Spooks the Street (Digital Applied)",
+      "url": "https://www.digitalapplied.com/blog/meta-q2-2026-earnings-ad-strength-capex-selloff"
+    },
+    {
+      "title": "Meta Q2 2026 Earnings Call event page (Meta Investor Relations)",
+      "url": "https://investor.atmeta.com/investor-events/event-details/2026/Q2-2026-Earnings-Call/default.aspx"
+    },
+    {
+      "title": "Meta Platforms, Inc. - Form 10-Q - FY2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001326801/000162828026050705/meta-20260630.htm"
+    }
+  ]
+},{
       date: "2026-08-11",
       period: "2025-09-30 마감 분기(3분기) - 이후 분기는 정상화됨",
       headline: "2025년 3분기 순이익이 $2.71B(마진 5.3%)로 급락 - 직전(38.6%)·직후(38.0%) 분기와 비교하면 딱 한 분기만 뚝 떨어진 모양.",
@@ -2355,7 +2409,22 @@ const BUSINESS_NOTES = {
       {title:"Palantir: 3 Reasons That Could Pressure The Stock Down To $100 (Seeking Alpha)", url:"https://seekingalpha.com/article/4890388-palantir-3-reasons-that-could-pressure-the-stock"},
       {title:"Palantir Q1 FY 2026 Revenue Beats Estimates, US Demand Drives Outlook Raise (Futurum Group)", url:"https://futurumgroup.com/insights/palantir-q1-fy-2026-revenue-beats-estimates-us-demand-drives-outlook-raise/"},
     ],
-    analystLog: [{
+    analystLog: [
+      {
+  "date": "2026-10-12",
+  "period": "2026-06-30 마감 분기 (FY2026 Q2, 2026-08-03 발표)",
+  "headline": "매출 $1,935M (YoY +93%), 미국 상업(Commercial) 매출 $764M(+149% YoY, QoQ +28%), 미국 정부 매출 $809M(+90% YoY). GAAP 순이익 $1,062M, 조정 순이익 $1,047M(조정치가 GAAP보다 소폭 낮은 이례적 구조). GAAP·조정 희석 EPS 모두 $0.41. GAAP 순마진 54.9%로 6개 분기 연속 상승세 이어감. FY2026 연간 가이던스를 $8.150~8.158B로 상향(회사 역대 최대 폭 상향), 3분기 가이던스는 매출 $2.160~2.164B. 발표 후 애프터마켓에서 약 +12% 반응.",
+  "oneTime": "GAAP 순이익($1,062M)이 조정 순이익($1,047M)보다 오히려 높은 이례적 구조이며, 발표문에 명시적으로 라벨링된 일회성 항목은 없음. TCV(총계약가치) $2,132M(+153% YoY), 순매출유지율(NRR) 157%.",
+  "coreRead": "핵심은 미국 상업(Commercial) 부문의 가속 성장(+149% YoY, +28% QoQ)으로 정부 의존도가 낮아지는 구조 전환이 뚜렷해짐. 6개 분기 연속 마진 상승세도 이어지고 있어 영업레버리지가 계속 작동 중. FY2026 가이던스를 '역대 최대폭'으로 상향한 점이 시장에 강한 신호로 읽혔고, 이것이 애프터마켓 급등(+12%)의 주된 동력으로 추정됨.",
+  "forecast": "[Claude 추정] 3분기(2026-09-30 마감, 발표는 통상 11월 초 예상) 가이던스(매출 $2.160~2.164B)는 상업 부문 모멘텀이 이어진다면 상단 또는 소폭 상회 가능성이 높다고 판단. 다만 밸류에이션이 이미 매우 높은 수준이라(별도 risks 항목 참고) '컨센서스 부합' 정도로는 추가 재평가가 어렵고, 가이던스 상향 폭이 둔화되면 주가 변동성이 커질 수 있음.",
+  "confidence": "매출, 세그먼트별 매출, GAAP/조정 순이익·EPS, TCV, NRR, 연간·3분기 가이던스는 SEC 8-K 공식 보도자료(Palantir IR) 기준 확인됨. 컨센서스 대비 비트 여부, 애프터마켓 +12% 반응, GAAP/조정 순이익 역전 현상의 구체적 원인은 2차 소스 기반이거나 미설명 상태로 다음 분기 확인이 필요함. 3분기 전망은 전적으로 제 추정.",
+  "sources": [
+    {
+      "title": "Palantir Technologies Inc. - Form 8-K Exhibit 99.1 (Q2 FY2026 Press Release)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000039/a2026q2ex991pressrelease.htm"
+    }
+  ]
+},{
       date: "2026-09-04",
       period: "5개 분기 연속 마진 상승 (2025-03 마감 24.2% → 2026-03 마감 53.3%)",
       headline: "순이익률이 5개 분기 연속 상승: 24.2%→32.6%→40.3%→43.3%→53.3%. 매출도 같은 기간 $884M→$1.633B로 거의 2배, 성장률이 오히려 가속(YoY +85%).",
@@ -3079,7 +3148,30 @@ const BUSINESS_NOTES = {
         ],
       },
 ],
-    analystLog: [{
+    analystLog: [
+      {
+  "date": "2026-10-12",
+  "period": "2026-09-03 마감 분기 (FY2026 Q4, 2026-09-30 발표)",
+  "headline": "매출 542.3억 달러(컨센서스 510.7~514.9억 달러 상회), non-GAAP EPS 33.42달러(컨센서스 31.61~31.83달러 상회) — 전분기(414.6억 달러) 대비 +31%, 전년동기(113.2억 달러) 대비 약 4.8배. 발표 직후 일부 매체는 장외 +15% 급등을 보도했으나 야후파이낸스/CNBC 등 더 신뢰도 높은 觑계로는 초반 소폭 하락 후 +2% 안팎 반등으로 마감.",
+  "oneTime": "GAAP 순이익 377.0억 달러(EPS 32.87) vs non-GAAP 384.0억 달러(EPS 33.42) — 갭은 6.97억 달러(주당 0.55달러)로 매출 규모(542억 달러) 대비 매우 작음. 구성: 주식보상비용 3.64억 달러, 특허 라이선스 관련 비용 5.00억 달러, 채무 조기상환 손실 0.09억 달러, 기타 0.22억 달러, 세금효과 -1.98억 달러. 즉 이번 분기는 대부분이 실제 영업 실적이며 일회성 조정폭은 제한적.",
+  "coreRead": "핵심 동력은 AI 데이터센터용 메모리(HBM) 및 고성능 SSD 수요가 생산capa를 초과하는 구조적 공급부족. Core Data Center 매출 180.0억 달러(매출 비중 최대, GM 90%), 그중 Cloud Memory 162.8억 달러(GM 83%)로 데이터센터 메모리가 실적의 중심축. Mobile&Client 131.1억 달러, Automotive&Embedded 68.2억 달러(컨센서스 47.3억 달러 상회) — 전통 사업부도 예상을 웃돎. 경영진(CEO Sanjay Mehrotra)은 '2026년 기록적 실적, 2027년은 더 강할 것'으로 언급했고, Strategic Customer Agreements(장기 공급계약)가 실적 지속성에 대한 확신을 높였다고 설명. 가이던스 자체가 컨센서스를 상회(매출 615억±15억 달러 vs 컨센서스 563~568억 달러, non-GAAP EPS 38.15±1.00 vs 컨센서스 36.02~36.05)한 것은 이번 서프라이즈가 한 분기성 반등이 아니라 2025-11~2026-09까지 이어진 4개 분기 연속 매출·마진 폭증 흐름이 가속되고 있음을 시사. 2026-08-18 로그가 포착한 '3개 분기 연속 폭증으로 연장되었고, 공급부족은 캘린더 2027년까지 지속될 것으로 업계는 전망.",
+  "forecast": "(본인 추정, 비공식) 가이던스 중앙값(매출 615억 달러, non-GAAP EPS 38.15달러) 자체가 상당히 공격적이나, 최근 분기들의 컨센서스 상회 패턴과 HBM 공급부족이 '캘린더 2027까지 지속' 전망을 감안하면 FY2027 Q1(2026-12 마감 추정)도 가이던스 중앙값 근접 또는 소폭 상회 가능성이 높다고 판단. 다만 이 정도 기록적 증가율(YoY +4.8배)이 영원히 지속되긴 어려워 증가율 둔화(기저효과) 가능성에 유의할 필요. 메모리 현물가 추가 상승이나 신규 HBM4 공급계약 발표가 있다면 상회 폭이 더 커질 수 있음.",
+  "confidence": "확인된 사실(1차 소스, SEC 8-K/Micron IR 보도자료 기준): 매출 542.3억 달러, GAAP 순이익 377.0억 달러(EPS 32.87), non-GAAP 순이익 384.0억 달러(EPS 33.42), 세그먼트별 매출(Core Data Center 180.0억/Cloud Memory 162.8억/Mobile&Client 131.1억/Automotive&Embedded 68.2억), GAAP-non-GAAP 갭 구성요소, FY2027 Q1 가이던스 수치 — 모두 1차 소스 확인됨. 컨센서스 수치(매출 510.7~514.9억, EPS 31.61~31.83 등)와 주가 반응(+2% 추정)은 2차 소스(XTB market analysis) 인용이며 매체 간 편차가 있어 참고용. 'forecast' 항목은 전적으로 본인 추정이며 공식 발표가 아님.",
+  "sources": [
+    {
+      "title": "Micron Technology Inc - Form 8-K Exhibit 99.1 Press Release (FY2026 Q4)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000018/a2026q4ex991-pressrelease.htm"
+    },
+    {
+      "title": "Micron Reports Record Fiscal Q4 Revenue Of $54.23 Billion And FY2026 Revenue Of $133.19 Billion",
+      "url": "https://pulse2.com/micron-reports-record-fiscal-q4-revenue-of-54-23-billion-and-fy2026-revenue-of-133-19-billion/"
+    },
+    {
+      "title": "Record after record: Micron smashes Q4 results, server overload crashes website, stock surges post-market",
+      "url": "https://www.xtb.com/en/market-analysis/record-after-record-micron-smashes-q4-results-server-overload-crashes-website-stock-surges-post-market"
+    }
+  ]
+},{
       date: "2026-08-10",
       period: "최근 3개 분기 연속 매출·마진 폭증 (2025-11 마감→2026-02 마감→2026-05 마감 추정)",
       headline: "매출이 2분기 만에 거의 3배: $13.6B → $23.9B → $41.5B. 순이익률도 38% → 58% → 68%로 계속 올라감.",
@@ -3210,7 +3302,34 @@ const BUSINESS_NOTES = {
         ],
       },
     ],
-    analystLog: [{
+    analystLog: [
+      {
+  "date": "2026-10-12",
+  "period": "2026-07-03 마감 분기 (FY2026 4분기/연간, 2026-08-05 발표)",
+  "headline": "SNDK 2026 회계연도 4분기(2026-07-03 마감) GAAP 매출 $8,965M (QoQ +51%, YoY +372%). Non-GAAP 희석EPS $39.25로 컨센서스 $34.52 상회(+$4.73, 약 +14%). GAAP EPS $43.97, Non-GAAP 순이익 $6,162M. 컨센서스 상회에도 발표 직후 장외 8%대 급락, 정규장도 5%대 하락 마감 — 직전 1주 약 40% 급등한 뒤라 차익실현 및 8/7 옵션만기 수급 영향 가능성이 거론되나 명확한 원인은 불확실.",
+  "oneTime": "GAAP 순이익 $6,903M vs Non-GAAP 순이익 $6,162M, 차이 $741M. 주된 요인은 '지분증권 평가이익(Gain on equity securities, net)' $804M으로 이는 GAAP에는 포함되지만 Non-GAAP에서는 제외됨 — 즉 GAAP 순이익의 상당 부분이 영업외 평가이익에 의한 일시적 효과. 그 외 주식보상비용 +$67M, 세금조정 -$4M 반영. 핵심 영업실적만 보면 Non-GAAP $6,162M이 더 적절한 비교 기준.",
+  "coreRead": "매출 성장은 물량 효과 1/3, 가격 효과 2/3 — 전방산업 전반의 메모리(NAND) 공급 부족이 가격결정력으로 이어진 구조. 세그먼트별(QoQ) Datacenter +103%, Edge +48%, Consumer -32% — AI 데이터센터向 수요가 성장을 견인하고 소비자向은 축소. 매출총이익률도 78.4%→84.6%(QoQ)로 급등. 장기공급계약 5건 신규 체결(3건은 신규 거래사) — 수급 타이트함을 활용한 가격/계약 구조 개선으로 해석됨. 주가 하락은 실적 미스가 아니라 가이던스가 '예상보다 공격적이지 않다'는 인식, 단기 과열 후 차익실현 등 수급 요인이 더 크게 작용한 것으로 보임(2차 자료 기준, 확정된 단일 원인은 없음).",
+  "forecast": "[제 추정] 회사가 제시한 FY2027 1분기(2026-09월 마감 추정, 2026-10-29 발표 예정) 가이던스는 매출 $10.30B~$10.80B, Non-GAAP EPS $44.00~$46.00, 매출총이익률 83.0~85.0%. NAND 공급부족과 AI 데이터센터 수요가 이어지는 한 가이던스 상단 또는 소폭 상회 달성 가능성이 높다고 판단하나, 전분기처럼 '숫자는 좋아도 주가는 하락'하는 기대치-갭 리스크가 재현될 수 있음. 10/29 실제 발표 확인 필요.",
+  "confidence": "SEC 8-K 원문(1차 자료) 기준 확정: GAAP/Non-GAAP 매출·순이익·EPS 수치, GAAP-Non-GAAP 조정 항목($804M 지분증권 평가이익 등), 세그먼트별 QoQ 변동률, 익분기 가이던스 범위. 2차 자료(fxstreet 등) 기준이라 교차검증 필요: 컨센서스 수치($34.52 EPS, 매출 컨센서스는 기사 내 자체 모순 있어 신뢰도 낮음), 세그먼트 YoY 수치(Datacenter +437%는 SEC 원문에 없음, 미확인), 주가 하락 원인 설명. 다음 분기 전망은 전적으로 제 추정이며 공식 발표 아님.",
+  "sources": [
+    {
+      "title": "Sandisk Corp - Form 8-K Exhibit 99.1 Press Release (FY2026 Q4)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0002023554/000162828026053346/sndkq4-26ex991xpressrelease.htm"
+    },
+    {
+      "title": "Sandisk to Report First Quarter Fiscal Year 2027 Results on October 29, 2026",
+      "url": "https://investor.sandisk.com/news-releases/news-release-details/sandisk-report-first-quarter-fiscal-year-2027-results-october-29"
+    },
+    {
+      "title": "Sandisk destroys consensus in Q4 but market acts unimpressed",
+      "url": "https://www.fxstreet.com/news/sandisk-destroys-consensus-in-q4-but-market-acts-unimpressed-202608052037"
+    },
+    {
+      "title": "Sandisk (SNDK) Q4 FY26 earnings results beat revenue & EPS expectations",
+      "url": "https://www.shacknews.com/article/150268/sandisk-sndk-q4-fy26-earnings-results"
+    }
+  ]
+},{
       date: "2026-08-10",
       period: "최근 2개 분기 매출 급증 (2026-01 마감→2026-04 마감 추정, SNDK는 2025년 WDC에서 분사)",
       headline: "매출 $3.0B → $5.95B(+97%), 순이익률 26.5% → 60.8%로 급등. 1년 전(2025년 초)엔 대규모 적자(마진 -114%)였음.",
@@ -3465,7 +3584,42 @@ const BUSINESS_NOTES = {
         ],
       },
     ],
-    analystLog: [{
+    analystLog: [
+      {
+  "date": "2026-10-12",
+  "period": "2026-08-01 마감 분기 (FY2027 2분기, 2026-08-27 발표)",
+  "headline": "매출 27.39억달러(YoY +37%, QoQ +13%)로 컨센서스 27.2억달러를 소폭 상회, Non-GAAP EPS 0.94달러(컨센서스 0.93달러)도 근소 상회. 데이터센터 매출 21.72억달러(YoY +46%, QoQ +18%, 전체의 79%)가 성장 견인. 그러나 주가는 발표 당일 정규장 -1.49%(종가 241.45달러) 마감 후 실적 발표 직후 애프터마켓에서 추가로 약 -7.8% 급락. 2026년 연중 +170% 급등과 8월 Google TPU 워런트 딜로 기대치가 과도하게 높아진 상태에서 '컨센서스 소폭 상회'가 실망으로 해석된 전형적 사례.",
+  "oneTime": "GAAP 순이익 3.08억달러(EPS 0.33달러) vs Non-GAAP 순이익 8.659억달러(EPS 0.94달러), 격차 약 5.579억달러. 세전 조정항목 합계 5.946억달러 중 주식보상비용(SBC) 3.262억달러가 최대 비중, 인수 무형자산 상각 2.149억달러, 우발대가(contingent consideration) 공정가치 변동(선도주식매입계약 상쇄 후) 5,200만달러, 기타 450만달러, 구조조정 이익 -300만달러로 소폭 상쇄. 비GAAP 세율 11.0% 적용 시 세금효과 -3,670만달러. 즉 이번 분기 GAAP-비GAAP 갭은 일회성 비용이 아니라 SBC·인수 상각 등 '반복적 비현금성 조정항목' 성격이 커서, 핵심 영업실적 자체의 질적 저하는 아님.",
+  "coreRead": "진짜 스토리는 실적 그 자체가 아니라 기대치 관리 실패. (1) 데이터센터가 전체의 79%까지 확대되며 커스텀 실리콘·AI 가속기 중심 체질전환이 가속 — Murphy CEO는 'AI 관련 수주가 매우 견고'하며 '2026년 하반기(FY2027 2H)부터 커스텀 사업에서 의미 있는 가속'을 언급. (2) FY2027·FY2028 매출 전망을 각각 약 120억달러·180억달러 수준으로 상향. (3) 8/18~8/19 공개된 Google TPU 워런트 딜(최대 5,897만주, 행사가 206.58달러, 2033년까지 240개 트랜치로 벤딩, 최대 구매약정 1,200억달러 상당)은 주가를 하루 만에 +12~13% 끌어올렸으나, 이번 실적에서 회사는 이 딜의 매출 기여분이 '기존 고객 매출 목표치에 이미 반영돼 있던 것'이라고 설명 — 즉 신규 상승 모멘텀이 아니라 기존 전망의 '확인'에 불과해 기대와 실제 사이 괴리가 발생. (4) Q3 비GAAP 매출총이익률 가이던스가 57.5~58.5%로 2분기 58.9%에서 하락 — 커스텀/AI 매출 비중 확대에 따른 마진 믹스 희석 신호. (5) CEO가 FY2029 전망 업데이트를 10/6 투자자의 날로 유보한 점도 단기 불확실성을 키움. 종합하면, 사업의 질과 성장 궤적 자체는 견고(데이터센터·커스텀 가속)하나 밸류에이션이 이미 고점을 선반영한 상태에서 '서프라이즈 부재'가 매도 트리거가 된 구조.",
+  "forecast": "[클로드 추정] 회사 가이던스는 Q3(FY2027 3분기, 2026-11-01 마감 예상) 매출 31.5억달러(±5%, 즉 29.9~33.1억달러 범위), 비GAAP EPS 1.10달러(±0.05). 데이터센터/커스텀 부문의 '2H 가속' 코멘트와 AI 수주 모멘텀을 고려하면 매출은 가이던스 상단(32~33억달러대) 근처로 도달할 가능성이 높다고 본다. 단, 이번 분기처럼 '가이던스 상단 근접' 정도의 결과로는 주가가 추가로 재평가되기보다는, Google 딜 외에 신규 고객·물량 확대 등 '추가 서프라이즈'가 없으면 단기 주가는 변동성(실적 발표 후 급락 재현 가능성)에 노출될 것으로 예상. 매출총이익률은 57.5~58.5% 가이던스 하단 쪽으로 수렴할 가능성에 유의(커스텀 실리콘 비중 확대로 인한 구조적 마진 희석).",
+  "confidence": "확인된 수치(SEC 8-K 첨부 보도자료 원문 기준): 매출 27.393억달러, GAAP 순이익 3.08억달러/EPS 0.33달러, 비GAAP 순이익 8.659억달러/EPS 0.94달러, 데이터센터 매출 21.715억달러, GAAP-비GAAP 조정항목 세부내역(SBC 3.262억달러, 무형자산상각 2.149억달러 등), Q3 가이던스(매출 31.5억±5%, 비GAAP EPS 1.10±0.05, GAAP/비GAAP 매출총이익률 범위). Google 워런트 딜 조건(5,897만주, 행사가 206.58달러, 240트랜치, 트랜치당 5억달러 구매조건, 2033-08-18 만기)은 2차 소스(IndMoney, SEC 8-K 인용) 기준으로 확인됨. 주가 변동폭(정규장 -1.49%, 애프터마켓 -7.8%, 8/19 프리마켓 +12~13%)은 금융 미디어 보도 기준. 'coreRead'의 해석(기대치 과열·마진 희석 우려 등)과 'forecast' 전체는 제 분석적 추론이며 회사의 공식 전망이 아님.",
+  "sources": [
+    {
+      "title": "Marvell Technology, Inc. - Form 8-K Exhibit 99.1 (Q2 FY2027 결과 보도자료)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001835632/000183563226000022/q227_8kx812026ex-991.htm"
+    },
+    {
+      "title": "Marvell Technology, Inc. Reports Second Quarter of Fiscal Year 2027 Financial Results",
+      "url": "https://investor.marvell.com/news-events/press-releases/detail/1031/marvell-technology-inc-reports-second-quarter-of-fiscal-year-2027-financial-results"
+    },
+    {
+      "title": "Marvell Q2 Earnings Analysis: Why MRVL Stock Falling",
+      "url": "https://www.indmoney.com/blog/us-stocks/marvell-q2-earnings-analysis-why-mrvl-stock-falling"
+    },
+    {
+      "title": "Why Is Marvell Stock Rising Today? Google's $12.2 Billion AI Chip Deal Explained",
+      "url": "https://www.indmoney.com/blog/us-stocks/why-is-marvell-stock-rising-google-ai-chip-deal"
+    },
+    {
+      "title": "Marvell Technology, Inc. - Form 8-K (Google 워런트 계약 공시)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001835632/000119312526356217/d412696d8k.htm"
+    },
+    {
+      "title": "MRVL Stock Slips After-Hours Despite Raised Multi-Year Outlook",
+      "url": "https://stocktwits.com/news-articles/markets/equity/mrvl-stock-slips-after-hours-despite-raised-multi-year-outlook-investors-weigh-thin-q2-beat-lower-q3-margin-outlook/cZYoXteRJqV"
+    }
+  ]
+},{
       date: "2026-08-10",
       period: "2026-06-01 마감 분기(회사 발표 기준 FY2027 1분기)",
       headline: "매출은 견조($2.418B, 가이던스 중간값 상회)한데 GAAP 순이익은 단 $34.5M(마진 1.4%) - 직전 4분기 평균 마진(32%대)에서 크게 추락.",
@@ -3718,7 +3872,38 @@ const BUSINESS_NOTES = {
       },
     
     ],
-    analystLog: [{
+    analystLog: [
+      {
+  "date": "2026-10-12",
+  "period": "2026-06-27 마감 분기 (2026 회계연도 2분기, 2026-07-23 발표)",
+  "headline": "매출 $16.1B(YoY +25%)로 컨센서스 ~$14.4B 상회, Non-GAAP EPS $0.42로 컨센서스 ~$0.21~0.22 상회. GAAP EPS는 -$2.16으로 대규모 적자. 실적 발표 후 주가는 장중 한때 +12~13%(주당 $112 상회)까지 급등했으나 저녁 7시경 +4% 미만으로 반납, 다음날 오전에는 상승분 절반 이상 소멸.",
+  "oneTime": "GAAP 순손실 $11.0B vs Non-GAAP 순이익 $2.2B로 약 $13.2B 격차. 주된 원인은 CHIPS Act 미국 상무부 에스크로 주식(Escrowed Shares)의 시가평가(mark-to-market) 비현금 손실 $12.53B('Interest and other, net' 항목에 -$12,576M로 반영, 인텔 주가 상승 시 손실 확대 구조) — Non-GAAP에서 제외. 그 외 구조조정비 $170M(전년동기 $1,890M, 주로 2025 구조조정 계획), 지분투자 손실 $39M, Altera 매각 관련 조정 $1M도 Non-GAAP에서 제외.",
+  "coreRead": "에스크로 주식 평가손실을 걷어내면 본업은 뚜렷한 개선세. DCAI(데이터센터·AI)는 매출 $6.3B(+59% YoY), 영업이익 $2.47B(마진 40%, 전년 $633M)로 Xeon 6 수요가 견인. CCPG(클라이언트)는 $8.9B(+13%). 파운드리는 매출 $5.8B(+31%), 영업손실이 -$2.09B로 전년 -$3.17B 대비 축소됐지만, 외부고객 매출은 $293M(1분기 $174M에서 소폭 증가)에 불과해 여전히 대형 선단공정 외부고객 미확보 상태. 경영진은 메모리·서브스트레이트 공급 부족으로 '공급 제약' 상태라며 2026년 capex 가이던스를 기존 ~$18B에서 $20B+로 상향(2027년은 추가 覝가 전망), 전 SK하이닉스 CEO 이석희를 영입해 메모리 병목 대응. 애널리스트들은 FCF -$8.4B(음수)를 지적하며 영업 서프라이즈를 가린 요인으로 지목 — 주가가 장중 급등 후 되돌림을 보인 배경으로 해석됨.",
+  "forecast": "[Claude 추정] 회사는 3분기(2026-09 마감) 가이던스로 매출 $15.8~16.8B, GAAP EPS $0.31, Non-GAAP EPS $0.38, 매출총이익률 GAAP 41.0%/Non-GAAP 42.0%를 제시(2026-10-29 발표 예정, 아직 미발표). DCAI 모멘텀이 유지된다면 가이던스 상단 또는 소폭 상회 가능성이 있으나, 에스크로 주식 시가평가 손실은 인텔 주가 경로에 따라 GAAP EPS를 다시 큰 폭으로 왜곡시킬 수 있음. 파운드리 외부매출은 $300~400M대로 완만히 증가하되 세그먼트 적자는 지속될 것으로 예상. capex 확대로 FCF 압박도 계속될 전망.",
+  "confidence": "매출, EPS(GAAP/Non-GAAP), 세그먼트별 매출·영업이익, 3분기 가이던스, 에스크로 주식 평가손실·구조조정비 등은 인텔 공식 2분기 실적 발표(intc.com, SEC 8-K)에서 확인된 수치. 주가 반응 세부 수치(장중 +12~13%→저녁 +4% 미만), 컨센서스 비교치, FCF -$8.4B는 2차 소스(indmoney, kavout) 기반으로 1차 자료로 교차검증하지 못함. 3분기 전망 중 회사 가이던스를 넘어서는 부분은 Claude의 추정.",
+  "sources": [
+    {
+      "title": "Intel Reports Second-Quarter 2026 Financial Results (Official IR)",
+      "url": "https://www.intc.com/news-events/press-releases/detail/1776/intel-reports-second-quarter-2026-financial-results"
+    },
+    {
+      "title": "Intel Corp 8-K Q2 2026 Earnings Release (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000155/q226earningsrelease.htm"
+    },
+    {
+      "title": "Intel to Report Third-Quarter 2026 Financial Results (Oct 29, 2026)",
+      "url": "https://www.intc.com/news-events/press-releases/detail/1782/intel-to-report-third-quarter-2026-financial-results"
+    },
+    {
+      "title": "Intel Q2 2026 earnings results & stock reaction",
+      "url": "https://www.indmoney.com/blog/us-stocks/intel-q2-earnings-results-intc-stock-reaction"
+    },
+    {
+      "title": "Intel's Q2 beat can't mask the GAAP loss and foundry's high cost",
+      "url": "https://www.kavout.com/market-lens/intel-s-q2-beat-can-t-mask-the-gaap-loss-and-foundry-s-high-cost"
+    }
+  ]
+},{
       date: "2026-08-10",
       period: "2026년 여러 분기 연속 대규모 GAAP 순손실 (2026-03 마감 분기 -$3.7B 등)",
       headline: "매출은 AI 수요 덕에 회복세($13.6B, 이후 분기엔 $16.1B로 +25% YoY)인데, GAAP 순손실이 분기마다 수십억달러 규모로 반복됨(-$3.7B, 이후 분기 -$11.0B 등).",
@@ -4042,6 +4227,49 @@ const BUSINESS_NOTES = {
       },
     ],
     analystLog: [
+      {
+  "date": "2026-10-12",
+  "period": "2026-08-31 마감 분기 (FY27 1분기, 9월 10일 발표)",
+  "headline": "매출 $19.35B (YoY +30%, 컨센서스 $19.14B 상회), Non-GAAP EPS $1.92 (YoY +30%, 컨센서스 $1.74 상회), GAAP EPS $1.56 (YoY +55%). RPO(수주잔고) $664B로 전년 대비 +$209B 급증, 컨센서스($639.89B) 상회. 어닝 발표 후 애프터마켓에서 주가 약 +7% 반응.",
+  "oneTime": "GAAP 순이익 $4.76B vs Non-GAAP 순이익 $5.84B, 갭 약 $1.08B. 가이던스 코멘터리에서 Q2 FY27 Non-GAAP EPS가 'FY26 Q2의 일회성 이득(one-time gain)을 포함하면 전년 대비 -14~-18%(USD) 감소, 제외하면 +21~25% 증가'라고 명시함 — 즉 전년 동기(FY26 2분기)에 있었던 일회성 이익이 다음 분기 YoY 비교를 왜곡시킬 것으로 회사가 직접 경고. 이번 분기(FY27 1분기) 자체의 GAAP-비GAAP 갭은 스톡옵션 보상 등 통상적 조정 항목으로 보이며, 이번 분기 실적에 큰 일회성 항목은 확인되지 않음.",
+  "coreRead": "헤드라인 서프라이즈의 핵심은 클라우드 인프라(OCI/IaaS) 매출로, $7.4B, YoY +121%(상수환율 +120%) 급성장. 전체 클라우드 매출(SaaS+IaaS)도 $11.61B, +62% YoY. 분기 중 신규 AI 클라우드 계약이 $30B 이상 체결되었고 데이터센터 용량 850MW 추가. RPO $664B 중 상당 부분이 AI/하이퍼스케일 컴퓨팅 수요(OpenAI 등 생성형 AI 고객向 장기 용량 계약)에서 기인한 것으로 시장은 해석하며, 분석가들은 'OpenAI 생태계와의 관계에 대한 재부각된 기대감'이 9월 발표 전 한 달간 주가를 약 15% 끌어올린 배경이라고 평가(다만 이번 분기 자체에 새로운 OpenAI 계약 조건 변경이 확인되지는 않음 — 기존 2025년 7월 체결된 $300B 규모 OpenAI-Oracle 클라우드 계약의 연장선). 회사는 FY27 연간 매출 가이던스를 최소 $90B, 조정 EPS $8.10(기존 $8.05에서 상향)으로 올렸고 Q2 매출 가이던스도 +30~34%로 제시. 즉 이번 분기는 '일회성 반등'이 아니라 OCI 중심의 구조적 고성장이 지속·가속되고 있다는 코어 비즈니스 스토리이며, 주가가 오른 진짜 이유도 헤드라인 EPS 서프라이즈보다 RPO/AI 백로그 규모와 자본지출 확장(850MW)에 더 크게 반응한 것으로 보임.",
+  "forecast": "[본인 추정] Q2 FY27(2026-11-30 마감)은 가이던스상 매출 +30~34% 성장, Non-GAAP EPS는 전년 동기 일회성 이득 제외 기준 +21~25%(약 $1.85~$1.93) 예상. OCI 매출은 공급 제약(전력/데이터센터 용량)이 완화되며 두 자릿수 중후반대 QoQ 성장을 이어갈 가능성이 높으나, AI 인프라 투자를 위한 대규모 자본지출(KeyBanc 등은 OpenAI 관련 자금 조달로 최대 $100B 추가 차입 필요성 언급)로 인한 부채/현금흐름 부담이 다음 실적에서 쟁점이 될 가능성 있음. RPO는 추가 대형 계약 체결 시 $700B 이상으로 확대될 여지가 있으나, 이는 실제 매출로 전환되는 속도(계약 → 인식 매출)가 핵심 관전 포인트.",
+  "confidence": "매출($19.35B), GAAP/Non-GAAP EPS($1.56/$1.92), OCI 매출(+121%), RPO($664B), 신규 AI 계약(+$30B), 데이터센터 용량(+850MW), FY27 가이던스(매출 ≥$90B, EPS $8.10), Q2 가이던스(매출 +30~34%, EPS $1.85~1.93)는 모두 Oracle 공식 보도자료(SEC 8-K, Q1 FY27 Earnings Release) 및 후속 보도로 확인된 수치. 애프터마켓 +7% 반응 및 '발표 전 한달간 +15%' 주가 흐름은 2차 소스(금융 매체) 기준. OpenAI와 RPO 증가분의 직접적 연관성, 그리고 Q2 이후 전망 부분은 본인의 추론이며 회사가 RPO 중 OpenAI 비중을 공식적으로 분해 공시하지 않음.",
+  "sources": [
+    {
+      "title": "Oracle Q1 FY27 Earnings Release (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001341439/000119312526387905/orcl-ex99_1.htm"
+    },
+    {
+      "title": "Oracle Investor Relations - Q1 FY27 Press Release",
+      "url": "https://www.oracle.com/news/announcement/q1fy27-earnings-release-2026-09-10/"
+    },
+    {
+      "title": "Oracle Announces Q1 Results Driven by Triple Digit Growth in Cloud Infrastructure Revenues (Seeking Alpha PR)",
+      "url": "https://seekingalpha.com/pr/20647809"
+    },
+    {
+      "title": "Oracle Sets the Date for its First Quarter Fiscal Year 2027 Earnings Announcement",
+      "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Sets-the-Date-for-its-First-Quarter-Fiscal-Year-2027-Earnings-Announcement/default.aspx"
+    },
+    {
+      "title": "Oracle shares climb after strong quarterly results, analysts weigh in",
+      "url": "https://cryptobriefing.com/oracle-shares-climb-strong-quarterly-results/"
+    },
+    {
+      "title": "Oracle rose nearly 15% over the past month on its $638 billion backlog, with Q1 results due September 10",
+      "url": "https://app.sentisense.ai/stories/oracle-shares-surge-15-percent-on-cloud-backlog-optimism-and-revived-openai-part-09092026"
+    },
+    {
+      "title": "OpenAI bets $300 billion on Oracle contract to power artificial intelligence expansion despite ongoing losses",
+      "url": "https://www.techradar.com/pro/openai-bets-usd300-billion-on-oracle-contract-to-power-artificial-intelligence-expansion-despite-ongoing-losses"
+    },
+    {
+      "title": "Oracle may need to borrow $100bn for OpenAI efforts, says KeyBanc Capital Markets",
+      "url": "https://www.datacenterdynamics.com/en/news/oracle-may-need-to-borrow-100bn-for-openai-efforts-says-keybanc-capital-markets/"
+    }
+  ]
+},
       {
         date: "2026-08-27",
         period: "2026-05-31 마감 분기 (FY26 4분기, 6월 10일 발표)",
@@ -6179,6 +6407,21 @@ const BUSINESS_NOTES = {
     ],
     analystLog: [
       {
+  "date": "2026-10-12",
+  "period": "2026-07-31 마감 분기 (FY27 Q2, 2026-08-26 발표)",
+  "headline": "매출 $11.35B(+11% YoY, 컨센서스 $11.32B 소폭 상회); GAAP EPS $4.29(컨센서스 $3.27 대비 큰 폭 상회, YoY +119%), Non-GAAP EPS $5.90(+103% YoY). 발표 후 주가 +19.6~23%(소스별 차이) 급등.",
+  "oneTime": "GAAP 영업이익은 사실상 YoY 평평(약 $2.33B) — EPS가 두 배 가까이 늘어난 건 대부분 비영업적 요인. $2.61B 규모의 전략적 투자 지분 평가이익(mark-to-market, 전년동기 $6M)이 GAAP EPS 중 $2.43, Non-GAAP EPS 중 $2.53을 차지. 가속 자사주 매입을 위한 차입 증가로 이자비용도 $67M→$473M으로 급증. 즉 이번 분기 EPS 서프라이즈의 핵심은 영업외 평가이익이며 본업 수익성 자체는 크게 개선되지 않음.",
+  "coreRead": "진짜 핵심 신호는 cRPO $33.5B(+14% 환율제외), RPO $66.3B(+11%), Agentforce+Data 360 ARR 약 $3.9B(+210% YoY), Agentforce 단독 ARR $1.5B+(+240%). CFO는 신규순추가주문가치(NNAOV) 성장이 4년 만에 가장 강했다고 언급해 하반기 유기적 성장 재가속을 시사. FY27 가이던스가 상향됐으나 일부는 Informatica 등 인수 효과(비유기적)가 반영된 것으로 보임. 9/15~16 Dreamforce 투자자의 날이 있었으나 새로운 재무 목표가 공개됐는지는 확인되지 않음(추가 확인 필요).",
+  "forecast": "[Claude 추정, 비확정] 2차 소스에서만 언급된 Anthropic과의 'Claudeforce'(Agentforce-Claude 연동, 9월 GA 목표) 관련 내용은 공식 발표로 교차검증되지 않음. 핵심 변수는 Agentforce/Data Cloud ARR의 성장 지속 여부로, 현재 추세(+210% YoY)가 이어진다면 다음 분기도 EPS 서프라이즈가 재현될 가능성이 있으나, 이번처럼 비영업적 투자이익에 의존한 구조라면 GAAP EPS의 질적 수준에 대한 의문은 계속될 것.",
+  "confidence": "매출, GAAP/Non-GAAP EPS, cRPO, RPO, Agentforce ARR, 전략적 투자 평가이익($2.61B) 등은 SEC 10-Q 및 공식 보도자료 기준이나 투자 평가이익 수치는 2개의 독립적 2차 소스(Motley Fool, S&P Global 등) 보도를 통해서도 확인됨. 주가 변동률(+19.6%~+23%)은 소스 간 차이가 있어 범위로 제시. Dreamforce 투자자의 날 신규 재무 목표 발표 여부와 Anthropic 'Claudeforce' 통합 세부 조건은 미확인(낮은 신뢰도 2차 소스에서만 언급) — 이번 턴 WebSearch 예산 소진으로 추가 확인 못함.",
+  "sources": [
+    {
+      "title": "Salesforce Inc - Form 8-K (Q2 FY27 Press Release)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001108524&type=8-K"
+    }
+  ]
+},
+      {
         date: "2026-08-27",
         period: "2026-04-30 마감 분기 (FY27 1분기, 2026-05-27 발표)",
         headline: "1분기 매출 111억 달러로 전년 대비 13%(환율 제외 12%) 늘며 시장 예상을 웃돌았고 비GAAP EPS도 3.88달러로 컨센서스 3.12달러를 크게 상회했지만, 2분기(113.5억 달러) 및 FY27 연간(462억 달러) 매출 가이던스 상단이 컨센서스(각각 113.6억, 461.2억 달러)에 못 미쳐 발표 후 시간외 주가 반응은 미온적이었어요.",
@@ -6620,6 +6863,37 @@ const BUSINESS_NOTES = {
       },
     ],
     analystLog: [
+      {
+  "date": "2026-10-12",
+  "period": "2026-08-02 마감 분기 (FY2026 3분기, 9/2 발표)",
+  "headline": "매출 $29,591M(전년 대비 +86%)로 컨센서스($29.4B) 소폭 상회, Non-GAAP EPS $3.32(전년 대비 +96%)로 컨센서스($3.24) 상회. 그러나 발표 후 주가는 4분기 가이던스가 일부 기대치에 못 미친다는 이유로 3~6%대 하락(자료별 차이), 발표 후 한 달간 누적으로는 15% 가까이 하락해 전고점($480.77, 2026-6-2)보다 25% 이상 낮은 $358 부근까지 밀림.",
+  "oneTime": "GAAP 순이익 $13,088M vs Non-GAAP 순이익 $16,372M, 갭 약 $3,284M. 주요 조정 항목: 주식보상비 $2,019M, 인수 관련 무형자산 상각 $2,006M, 구조조정 등 기타비용 $115M(매출원가 $12M+영업비 $103M), Non-GAAP 세무 조정 $931M. 인수 관련 소멸세액공제(excise tax) $315M 혜택은 연중 누계(YTD) 수치에만 반영되어 3분기 단독 실적에는 포함되지 않음 — 숫자만 제시.",
+  "coreRead": "핵심은 AI 반도체 사업의 가속: AI 반도체 매출 $16.7B로 전년 대비 +221%, 전분기 대비 +54%. 반도체솔루션 부문 $20,839M(+127% YoY, 매출의 70%)로 성장을 견인했고, 인프라소프트웨어 부문은 $8,752M(+29% YoY, 매출의 30%)로 상대적으로 완만. 구글 TPU v7(Ironwood)가 해당 분기 대량 출하되며 매출 기여. 경영진은 FY2026 AI 매출 $58B, FY2027 \"line of sight\" $115B, FY2028 $230B 로드맵을 재확인. 주가 하락의 실질 원인은 실적 자체의 실망이 아니라 (1) 4분기 가이던스가 '숫자는 나쁘지 않지만' 일부 월가 기대보다 낮았다는 점, (2) 커스텀 AI 칩 고객이 구글·메타·Anthropic·OpenAI 등 소수에 집중된 구조적 리스크, (3) 선행 PER 약 34배로 이미 로드맵을 상당 부분 선반영했다는 밸류에이션 논쟁. 즉 '실적은 좋은데 기대가 너무 높았던' 전형적 고밸류 성장주 패턴.",
+  "forecast": "[Claude 추정] 4분기(2026-11-01 마감 추정) 가이던스 기준 매출 약 $34.8B(+93% YoY), Non-GAAP 영업이익률 약 66% 수준 예상. AI 반도체 매출은 $21.7B(+236% YoY) 가이던스. 구글/메타 등 소수 고객 의존도가 높아 단일 고객의 주문 변동이 분기 실적을 크게 흔들 수 있는 구조이므로, 가이던스 상회 여부보다 신규 고객(예: Anthropic, OpenAI 커스텀칩) 수주 공식화 여부가 다음 분기 주가 방향에 더 중요할 것으로 판단. 밸류에이션이 이미 높아 '컨센서스 소폭 상회'로는 주가 방어가 어렵고, 가이던스가 시장 기대를 확실히 뛰어넘어야 반등 가능성.",
+  "confidence": "매출, GAAP/Non-GAAP 순이익, EPS, 세그먼트별 매출, 가이던스 수치는 Broadcom 공식 8-K/보도자료(SEC EDGAR, investors.broadcom.com) 기준 확인됨. 컨센서스 수치($29.4B 매출/$3.24 EPS)는 2차 소스(tickerleague.com) 기준이라 정확도는 공식 발표 대비 낮음. 주가 하락폭(3~6%, 월간 15%)은 매체별로 수치가 다소 다르게 보도되어 범위로 제시. '4분기 가이던스가 기대치 이하'라는 해석과 커스텀칩 고객 리스크 프레이밍은 2차 매체(sentisense.ai)의 분석이며 공식 발표문에는 없는 해설임. 다음 분기(4분기) 전망 섹션은 전적으로 제 추정.",
+  "sources": [
+    {
+      "title": "Broadcom Inc. Announces Third Quarter Fiscal Year 2026 Financial Results and Quarterly Dividend (8-K Exhibit 99)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000076/avgo-08022026x8kxex99.htm"
+    },
+    {
+      "title": "Broadcom Inc. Announces Third Quarter Fiscal Year 2026 Financial Results and Quarterly Dividend",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial"
+    },
+    {
+      "title": "Broadcom AI Chip Revenue Soars, Yet Stock Slides After Q3 Beat",
+      "url": "https://app.sentisense.ai/stories/broadcom-ai-chip-revenue-soars-yet-stock-slides-after-q3-beat-09052026"
+    },
+    {
+      "title": "Broadcom drops 30%: evaluating AVGO after the pullback",
+      "url": "https://www.tradingpedia.com/2026/09/17/broadcom-drops-30-evaluating-avgo-after-the-pullback/"
+    },
+    {
+      "title": "AVGO Consensus EPS/Revenue Estimates Q3 2026",
+      "url": "https://tickerleague.com/companies/AVGO/estimates"
+    }
+  ]
+},
       {
         date: "2026-08-27",
         period: "2026-05-03 마감 분기 (FY2026 2분기, 6/3 발표) — 3분기(8/2 마감 추정)는 9/2 발표 예정",
