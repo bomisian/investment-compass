@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791781177.4748769,
+  "generatedAt": 1791783065.7169638,
   "events": [
     {
       "id": "f0debce18eacd86c111b",
@@ -3886,7 +3886,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=041e7a3a85d95a14fd5a1d5e47d35090350345888c75a66f3159ca2b6752536d",
         "publishedAt": 1791656281,
-        "collectedAt": 1791759602.1072576
+        "collectedAt": 1791783020.1860301
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7727,17 +7727,17 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5c4e446abd334f8092f8ee0a0068885b5977f2f5175ab4b843013a4fece9ea30",
         "publishedAt": 1791586391,
-        "collectedAt": 1791759602.1072576
+        "collectedAt": 1791783020.1860301
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.87% SPY 0.60% QQQ 0.49% Trending SLS 3.46% MLTX 2.27% JNJ 1.93% ICP 11.65% VOO 0.61% NE",
+        "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus AI Agent Trending News Earnings All DIA 0.34% SPY 0.30% QQQ 0.41% Trending IREN 8.78% WFF 11.72% ETH 2.15% KHC 0.04% AKAM 0.05% C",
         "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus Wall Street’s biggest banks, including JPMorgan, Morgan Stanley, and Wells Fargo, will report earnings next week.",
         "Traders work on the floor of the New York Stock Exchange during morning trading on August 05, 2026."
       ],
       "marketInterpretation": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.87%, 0.60%, 0.49% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.34%, 0.30%, 0.41% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -7752,7 +7752,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.87%, 0.60%, 0.49% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.34%, 0.30%, 0.41% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -8822,7 +8822,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1646a614b71b74a3d34794f072597d862d55d7fadb46404f0d717b0e4091731e",
         "publishedAt": 1791568905,
-        "collectedAt": 1791759602.1072576
+        "collectedAt": 1791783020.1860301
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9801,13 +9801,13 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4fd47c21df1eabb62e8ee735367878731f61ab0a0544474e50d607aef8d5446c",
         "publishedAt": 1791563072,
-        "collectedAt": 1791759602.1072576
+        "collectedAt": 1791783020.1860301
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "$10,000 in VGT the Day ChatGPT Launched Is Now $30,500.",
         "QQQ Turned the Same Money Into $26,100 - 24/7 Wall St.",
-        "Skip to content ❚❚ At close S&P 500 7,828.80 +0.07% Dow Jones 51,742.80 +0.00% Nasdaq 100 30,996.40 +0.22% Russell 2000 2,809.68 +0.02% S&P 500 7,828.80 +0.07% Dow Jones 51,742.80 +0.00% Nasdaq 100 30,996.40 +0.22% Russell 2000 2,809.68 +0."
+        "Skip to content ❚❚ At close S&P 500 7,843.60 +0.26% Dow Jones 51,879.30 +0.27% Nasdaq 100 31,056.20 +0.41% Russell 2000 2,816.93 +0.28% S&P 500 7,843.60 +0.26% Dow Jones 51,879.30 +0.27% Nasdaq 100 31,056.20 +0.41% Russell 2000 2,816.93 +0."
       ],
       "marketInterpretation": [
         "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
@@ -10956,7 +10956,8 @@ const EVENT_DATA = {
         "ANET",
         "AVGO",
         "META",
-        "MSFT"
+        "MSFT",
+        "NVDA"
       ],
       "relatedEntities": [
         {
@@ -10966,6 +10967,11 @@ const EVENT_DATA = {
         },
         {
           "name": "Meta",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        },
+        {
+          "name": "NVIDIA",
           "role": "기사에 직접 언급",
           "verification": "headline_or_analysis"
         },
@@ -10992,13 +10998,13 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1f786614fdf34dea0459b2e0759df2de39d385e8e48b11880d076dc411316701",
         "publishedAt": 1791557400,
-        "collectedAt": 1791759602.1072576
+        "collectedAt": 1791783020.1860301
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → ALERT: Drop these 5 stocks before the market opens tomorrow!",
-        "(From Weiss Ratings) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewed by Clare Titus October 9, 2026 Add As Preferred Source Share Share Share This Article Link copied to clipboard.",
-        "Close Key Points Arista Networks shares hit an all-time high near $217 after launching an open Ethernet rack-scale portfolio built with AMD, Broadcom, Meta, and Microsoft."
+        "ANET Stock Hits All-Time High on Open Ethernet AI Push Skip to main content → New Chip takes minutes, not days (From Eagle Publishing) (Ad) Arista Networks Plugs Into All-Time Highs Written by Jeffrey Neal Johnson | Reviewed by Clare Titus ",
+        "Close Key Points Arista Networks shares hit an all-time high near $217 after launching an open Ethernet rack-scale portfolio built with AMD, Broadcom, Meta, and Microsoft.",
+        "The new Etherlink SU-144 architecture offers a vendor-agnostic alternative to proprietary systems like NVIDIA's InfiniBand, reducing data center footprint by about 50%."
       ],
       "marketInterpretation": [
         "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
@@ -11805,7 +11811,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=6d6a7f613588e29781ea47aa1622e652afe48f306894f204f475dfe565f02ff3",
         "publishedAt": 1791552427,
-        "collectedAt": 1791759602.1072576
+        "collectedAt": 1791783020.1860301
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12148,7 +12154,7 @@ const EVENT_DATA = {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=332c12d6feea9c49edce0058b29892c6e74f564c522db44463ca304da4ff2455",
         "publishedAt": 1791551461,
-        "collectedAt": 1791759602.1072576
+        "collectedAt": 1791783020.1860301
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13218,7 +13224,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=456464d1145ca9b8194cd0a4c28b62e3afa7a2f7d4836eed58c833c24d595c4b",
         "publishedAt": 1791537701,
-        "collectedAt": 1791759602.1072576
+        "collectedAt": 1791783020.1860301
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14685,7 +14691,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c5b01c1a236768a41c8c725c60dce675c04463a93ee2d5a52465d93ff168fdec",
         "publishedAt": 1791500586,
-        "collectedAt": 1791759602.1072576
+        "collectedAt": 1791783020.1860301
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14756,7 +14762,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=dc1918cd0feb30add5eacf5d2b3e01797f856a03f979aebef0e228fc128111a6",
         "publishedAt": 1791500119,
-        "collectedAt": 1791759602.1072576
+        "collectedAt": 1791783020.1860301
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16061,7 +16067,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d335cd5884c9a8b6781e302123b1ea8b4f338c3bfc5cd122bfd5a9cb870a7bc7",
         "publishedAt": 1791486101,
-        "collectedAt": 1791759602.1072576
+        "collectedAt": 1791783020.1860301
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17441,7 +17447,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=89ed66ceb987275347d6146cff138aa913641efdabc355d5dced7f62e5735bc2",
         "publishedAt": 1791479990,
-        "collectedAt": 1791759602.1072576
+        "collectedAt": 1791783020.1860301
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18088,6 +18094,7 @@ const EVENT_DATA = {
       "05fa483ed87f7c0732b4",
       "4716369314861be8b8c3",
       "de3ba4655c04b0eb9212",
+      "e76994627a4248cadc13",
       "dbf5fbe9a36fcec2d43d",
       "d939363822cc9ee243bc",
       "d45910c7a64317b2e30c",
