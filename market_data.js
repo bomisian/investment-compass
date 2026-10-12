@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.430000305175781,
+      "current": 15.350000381469727,
       "prevClose": 14.84000015258789,
-      "changeAbs": 0.5900001525878906,
-      "changePct": 3.9757422272330825,
-      "pctRank": 26.57120127287192,
+      "changeAbs": 0.5100002288818359,
+      "changePct": 3.436659188934705,
+      "pctRank": 25.37788385043755,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -50.30595592814413,
-      "ma20": 15.570000076293946,
-      "ma60": 15.85766666730245,
-      "chg1m": -0.4099998474121094,
-      "chg3m": -0.23999977111816406,
-      "chg1mPct": -2.5883828501423647,
-      "chg3mPct": -1.5315875555179037,
+      "drawdown1y": -50.563604642062835,
+      "ma20": 15.566000080108642,
+      "ma60": 15.856333335240683,
+      "chg1m": -0.48999977111816406,
+      "chg3m": -0.31999969482421875,
+      "chg1mPct": -3.0934328686739905,
+      "chg3mPct": -2.0421167406905383,
       "lastDate": "2026-10-12",
       "bars": 1257,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 93.68000030517578,
+      "current": 93.80000305175781,
       "prevClose": 91.8499984741211,
-      "changeAbs": 1.8300018310546875,
-      "changePct": 1.9923809052324524,
-      "pctRank": 86.39618138424821,
+      "changeAbs": 1.9500045776367188,
+      "changePct": 2.1230316930120976,
+      "pctRank": 86.63484486873509,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -17.06064379257719,
-      "ma20": 94.02850036621093,
-      "ma60": 88.66900049845377,
-      "chg1m": -6.370002746582031,
-      "chg3m": 14.340003967285156,
-      "chg1mPct": -6.366819142710775,
-      "chg3mPct": 18.07411725381787,
+      "drawdown1y": -16.95439965815989,
+      "ma20": 94.03450050354004,
+      "ma60": 88.67100054423014,
+      "chg1m": -6.25,
+      "chg3m": 14.460006713867188,
+      "chg1mPct": -6.246876371174874,
+      "chg3mPct": 18.225368516889485,
       "lastDate": "2026-10-12",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 102.41999816894531,
+      "current": 102.47100067138672,
       "prevClose": 102.20999908447266,
-      "changeAbs": 0.20999908447265625,
-      "changePct": 0.2054584545090349,
-      "pctRank": 50.91487669053302,
+      "changeAbs": 0.2610015869140625,
+      "changePct": 0.2553581736150439,
+      "pctRank": 51.39220365950676,
       "min5y": 93.3499984741211,
       "max5y": 114.11000061035156,
-      "high1y": 102.41999816894531,
+      "high1y": 102.47100067138672,
       "drawdown1y": 0.0,
-      "ma20": 101.29249954223633,
-      "ma60": 100.29683316548666,
-      "chg1m": 3.2999954223632812,
-      "chg3m": 1.4799957275390625,
-      "chg1mPct": 3.329293110292085,
-      "chg3mPct": 1.4662132868464828,
+      "ma20": 101.2950496673584,
+      "ma60": 100.29768320719401,
+      "chg1m": 3.3509979248046875,
+      "chg3m": 1.5309982299804688,
+      "chg1mPct": 3.380748418028308,
+      "chg3mPct": 1.5167408291565914,
       "lastDate": "2026-10-12",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4195.10009765625,
+      "current": 4187.2998046875,
       "prevClose": 4216.2998046875,
-      "changeAbs": -21.19970703125,
-      "changePct": -0.5028035958847396,
-      "pctRank": 85.45310015898251,
+      "changeAbs": -29.0,
+      "changePct": -0.6878068767253944,
+      "pctRank": 85.37360890302067,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -21.121010554179588,
-      "ma20": 4259.759985351562,
-      "ma60": 4327.683325195312,
-      "chg1m": -213.7998046875,
-      "chg3m": 125.400146484375,
-      "chg1mPct": -4.8492778113162665,
-      "chg3mPct": 3.081311840895442,
+      "drawdown1y": -21.26767671528026,
+      "ma20": 4259.369970703125,
+      "ma60": 4327.5533203125,
+      "chg1m": -221.60009765625,
+      "chg3m": 117.599853515625,
+      "chg1mPct": -5.026199336901445,
+      "chg3mPct": 2.889644320873385,
       "lastDate": "2026-10-12",
       "bars": 1258,
       "symbol": "GC=F",
@@ -164,22 +164,22 @@ const MARKET_DATA = {
       "digits": 2
     },
     "dow": {
-      "current": 51654.94921875,
-      "prevClose": 51231.640625,
-      "changeAbs": 423.30859375,
-      "changePct": 0.8262639817617592,
-      "pctRank": 94.66135458167331,
+      "current": 51866.4296875,
+      "prevClose": 51654.94921875,
+      "changeAbs": 211.48046875,
+      "changePct": 0.40940988607774226,
+      "pctRank": 95.45816733067728,
       "min5y": 28725.509765625,
       "max5y": 54349.12109375,
       "high1y": 54349.12109375,
-      "drawdown1y": -4.957158130216433,
-      "ma20": 51536.812109375,
-      "ma60": 52542.069010416664,
-      "chg1m": -409.15234375,
-      "chg3m": -843.69140625,
-      "chg1mPct": -0.7858626797945141,
-      "chg3mPct": -1.6070728617080265,
-      "lastDate": "2026-10-09",
+      "drawdown1y": -4.568043339592299,
+      "ma20": 51509.0736328125,
+      "ma60": 52537.40247395833,
+      "chg1m": -706.859375,
+      "chg3m": -641.83984375,
+      "chg1mPct": -1.3445218809872705,
+      "chg3mPct": -1.2223595435153556,
+      "lastDate": "2026-10-12",
       "bars": 1255,
       "symbol": "^DJI",
       "label": "다우존스 지수",
@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 5.637793791087997,
-        "ret3m": 18.32244149129543,
-        "ret6m": 28.07401682380042,
-        "ret1y": 6.713617935033045,
+        "ret1m": 5.205951478395154,
+        "ret3m": 19.086105585336366,
+        "ret6m": 24.882252481973243,
+        "ret1y": 6.624936366678824,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 4.778195262987928,
-        "ret3m": 0.38464519985088597,
-        "ret6m": 57.18281814808552,
-        "ret1y": 161.11411947808466,
+        "ret1m": 1.1658790971363464,
+        "ret3m": -4.449445153542186,
+        "ret6m": 49.12609111770967,
+        "ret1y": 155.1125721676173,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": 13.487726637332553,
-        "ret3m": 22.83865496592108,
-        "ret6m": 27.86714208319554,
-        "ret1y": 222.72958110734947,
+        "ret1m": 5.2237314254562905,
+        "ret3m": 14.221820355891325,
+        "ret6m": 21.889139117411418,
+        "ret1y": 204.61827154208643,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": 5.168711733363351,
-        "ret3m": 1.748575394210805,
-        "ret6m": 6.822536499270715,
-        "ret1y": 42.913818227986724,
+        "ret1m": 0.7904399907455506,
+        "ret3m": -0.3875636699730789,
+        "ret6m": 3.8137861312579346,
+        "ret1y": 42.344801463747885,
         "winRate": null,
         "count": 12
       }
@@ -229,112 +229,128 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.18715741103526012,
-    "corrPctRank": 5.2719665271966525,
+    "corr60": 0.17940591648031265,
+    "corrPctRank": 4.2677824267782425,
     "corrMin5y": 0.036257837878636255,
-    "corrMedian5y": 0.7015647058406709,
+    "corrMedian5y": 0.7009143150939594,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
     {
-      "headline": "Closure of Riyadh airport extended after deadly Houthi strikes - Reuters",
-      "summary": "Closure of Riyadh airport extended after deadly Houthi strikes Reuters",
+      "headline": "Jim Cramer's top 10 things to watch in the stock market Monday",
+      "summary": "Salesforce landed a double-upgrade, and stock futures are muted to start a busy week of earnings and inflation data.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/investingclub/2026/10/12/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+      "datetime": 1791810364,
+      "headlineKo": "짐 크레이머가 월요일 주식 시장에서 주목해야 할 10가지 항목",
+      "summaryKo": "Salesforce는 이중 업그레이드를 시작했으며 주식 선물은 음소거되어 바쁜 한 주 수입 및 인플레이션 데이터를 시작합니다."
+    },
+    {
+      "headline": "Skies over Saudi capital empty after deadly Houthi airport strikes - Reuters",
+      "summary": "Skies over Saudi capital empty after deadly Houthi airport strikes Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObGszbTdESk0xU0twcE1ZOHg4VFpzN2lzeWQ0ZDJseVpKczh6cE44eTNOb3ZDS3dnVnZJN3RCNE1wVDI0djVodU41LTN3WkVIemI0NWlucWpKY0tvU3JMeEM2YVN1OTBsdW5mZDVXeWhFcXdyQ1pGRjBVNTR6SmpBSXhzSXRObWtSTjlYcEJzOUxsX2Ezb28yZ1FrU083bzNpNmd2VlpjUkxnaE5PdEliNWpxeU5QNkp1V1JmcXlFdUJ1S01zcHc?oc=5",
-      "datetime": 1791805492
+      "datetime": 1791809663,
+      "headlineKo": "치명적인 후티 공항 공격으로 사우디 수도 상공이 텅 비어 있다 - 로이터 통신",
+      "summaryKo": "치명적인 후티 공항이 공습한 후 사우디 수도 상공은 텅 비어 있습니다."
+    },
+    {
+      "headline": "FAA warns U.S. airlines of safety risks over Saudi Arabia after attacks",
+      "summary": "The FAA warned U.S. airlines about flight risks over Saudi Arabia as Riyadh airport attacks disrupt travel and Delta weighs an Oct. 23 launch.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/12/faa-saudi-arabia-flight-risks.html",
+      "datetime": 1791808265,
+      "headlineKo": "FAA, 사우디아라비아 공격 후 미국 항공사에 안전 위험 경고",
+      "summaryKo": "FAA는 리야드 공항 공격으로 여행이 중단되고 델타항공이 10월 23일 발사를 검토함에 따라 사우디아라비아 상공의 비행 위험에 대해 미국 항공사들에게 경고했습니다."
+    },
+    {
+      "headline": "India Sept inflation nears RBI tolerance ceiling, boosting case for further rate hikes - Reuters",
+      "summary": "India Sept inflation nears RBI tolerance ceiling, boosting case for further rate hikes Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOM2hyc2tfZ1c4OFc2WGEwN3J5Ri1jaWVLOWtWbmpYTzlMcnNyVVhrN0pEdGg1ZXlKdEJMRjNiNXpRRC1KVDNXaWdDQ0ptQ245VEJaY19RZVNMUGJDYTJjUGNwV2NrLTU0LTRVbEcwWGZmSzhoX3hEdkVGcHAzTGZLb285UTBwYXhxZTVSWmxRNkt3X2xISDZwZg?oc=5",
+      "datetime": 1791807718,
+      "headlineKo": "인도 9월 인플레이션이 RBI 허용 한도에 근접해 추가 금리 인상 가능성이 높아졌습니다 - Reuters",
+      "summaryKo": "인도 9월 인플레이션이 RBI 허용 한도에 가까워져 추가 금리 인상 가능성이 높아졌습니다."
     },
     {
       "headline": "Iran says it will reply to US response on Hormuz proposal once review over - Reuters",
       "summary": "Iran says it will reply to US response on Hormuz proposal once review over Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZ2U1d1RUamtzYmRiN0tHUHhlclVaNVNLYTN4V05LTF90R0xjRTVhNS14WW1qRlhSYlZ5RzJOM3RSSGtxMGpLUDNZc0MyWmNaU0l6SVdpZm1WT295MTFYRWRDSXFRbE0yZlpBQTRpUDlJbHVoTHJOQmRBSVBNakdKTmw1QnV1RHc5b0xzZ212SHQwZmhSZ3JUQmlvZ21IY19yMFVURk8xMUtQcUxfRTNpLUZjMkp2dmRDWVVxa1VyTQ?oc=5",
-      "datetime": 1791802029
+      "datetime": 1791802029,
+      "headlineKo": "이란 \"호르무즈 제안 검토 후 미국 반응에 답할 것\" - 로이터",
+      "summaryKo": "이란은 로이터 통신을 검토한 후 호르무즈 제안에 대한 미국의 반응에 응답할 것이라고 밝혔습니다."
     },
     {
       "headline": "AI FOMO driving some family offices into tech investments, survey suggests",
       "summary": "Investment firms of ultra-wealthy families aren't immune to FOMO.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/12/ai-fomo-driving-some-family-offices-to-ai-investments-survey-suggests.html",
-      "datetime": 1791799394
+      "datetime": 1791799394,
+      "headlineKo": "AI FOMO가 일부 가족 사무실을 기술 투자로 유도하고 있다는 조사 결과가 나왔습니다.",
+      "summaryKo": "초부유층 가문의 투자회사도 FOMO의 영향을 받지 않습니다."
     },
     {
       "headline": "Top oil executives dropped from event schedule after Riyadh attacks - Reuters",
       "summary": "Top oil executives dropped from event schedule after Riyadh attacks Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObWQtMDRPN05hVWltQzRWWGdZLUVfT3lnZXNrVDBteWp6NWJfZEFBaEgzZEVVaGRUaXJuTVhSTXNBV29fcUFvZVcxV19yRnU1Sk9zM3p5MWcwYkNsaDI0bV9DeW9tc3NQamVDb3ZZeFpGb0hPRGk1N1gyMW9QU3VidVlZMVhZZlF0RWdMZy1KcFJIbDlDXzN6c0xHajFhWHVmckI0SVZuU3lFZTVKc3hWNEZ6eTZrYkk?oc=5",
-      "datetime": 1791796740
+      "datetime": 1791796740,
+      "headlineKo": "리야드 공격 이후 석유 최고 경영진이 행사 일정에서 제외 - 로이터",
+      "summaryKo": "리야드 공격 이후 최고 석유 경영진이 행사 일정에서 제외됨 Reuters"
     },
     {
       "headline": "Emerging Asia's power-driven LNG demand at risk as renewables gain ground - Reuters",
       "summary": "Emerging Asia's power-driven LNG demand at risk as renewables gain ground Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxON0E4WHdXREdOVHRTbTRxSTUyVWNKXzZfSUZOcFRxMWlzWWdncUp2cmJEcks5WG8wT0ZqckNrVk10MjUxbjNLVUpKM1drQzNURTd0d1JNcGRiRzN2MFpQQlRkTE9TYk9ZNUxnMHhNT0Vnd0pKRTdZcGNRbFozMmU2WC0wQ2hvemRhUDJ1OFF5endMeThzd3JfT2V3ckh5SHRhUXhWcW9oN3JucEpDYmpWZmgwdm5mTDJSQlE?oc=5",
-      "datetime": 1791792704
+      "datetime": 1791792704,
+      "headlineKo": "재생 에너지가 기반을 확보함에 따라 신흥 아시아의 발전 기반 LNG 수요가 위험에 처해 있습니다 - Reuters",
+      "summaryKo": "재생 에너지가 기반을 확보함에 따라 신흥 아시아의 전력 구동 LNG 수요가 위험에 처해 있습니다."
     },
     {
       "headline": "Israeli strike kills two people in Gaza, medics say - Reuters",
       "summary": "Israeli strike kills two people in Gaza, medics say Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWnk3NWdrNmROSHBOblhraGQ2MHhaREtiN0x1N2J6b0VxR0F2S2ZjNUlTTGRyejdJU1JPSkZTa0t4X0dHODltMVZiT182ajR0TmkxTmVqUUlsX1ZKbF9ZQVBEWS1vSGlNM213bnlBT3RvM3RqUkxiay1KNGFEbmhzSk5ySmI1alFrbVMzUHVOTVJzb2s0bDZSSE1DR0RGRGxa?oc=5",
-      "datetime": 1791787380
+      "datetime": 1791787380,
+      "headlineKo": "이스라엘의 공습으로 가자지구에서 2명이 사망했다고 의료진이 밝혔습니다."
     },
     {
       "headline": "COMMENTARY: Middle East LNG industry remains hostage of Iran war: Bousso - Reuters",
       "summary": "COMMENTARY: Middle East LNG industry remains hostage of Iran war: Bousso Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQLXNhN1pHTVFkMDM2M21lOXNtYnpXRzRvOEtkVU9pdG1YSXo2Q0M4eVNreElGaFI3RlZZV3FQZXBDZmYtTDYwNVJrbFZOY2VOZWFOR3l2TFpORElhZDhrUWxCRXM1RXpKbGowTVdsS3N0VUIwRFhJOF9wcFhlT1JvRE95dF9BNWluc25GZG1fMm9Gem9NVHN5SlJfNHFXdnprMkxwcktuTjFqOHBYb29lUXpLTE56MjRmbnp6OGU2MzNDNk0?oc=5",
-      "datetime": 1791784800
+      "datetime": 1791784800,
+      "headlineKo": "해설: 중동 LNG 산업은 이란 전쟁의 인질로 남아 있습니다: Bousso - Reuters"
     },
     {
       "headline": "COMMENTARY: The oil market's center of gravity is moving east - Reuters",
       "summary": "COMMENTARY: The oil market's center of gravity is moving east Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbjYxNmhnSlJibVVZcGVOSld5YWc3c1NMeXVEcTNwN3pWclpSR0xKUHhObVdLempqUV9NSkM0VkhyZEY3Z2cyNFVNSEl0bkU4UmRVeXJVZ2x2MlRqMTltZ0N3a1hIejZmOVZlaXA5czc1X2k0OThSWnY2bjZsMXpLQmNfTk9uNnNoNDE3R3ZSb3dNV1lwd3hfQmhnYV9ZNVZDVGRVRnRPV052SEpyZ2xr?oc=5",
-      "datetime": 1791784800
+      "datetime": 1791784800,
+      "headlineKo": "논평: 석유 시장의 중심이 동쪽으로 이동하고 있습니다 - Reuters"
     },
     {
       "headline": "Turkey, Pakistan, Egypt, Saudi Arabia condemn Houthi attacks on Riyadh airport - Reuters",
       "summary": "Turkey, Pakistan, Egypt, Saudi Arabia condemn Houthi attacks on Riyadh airport Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMF95Nm5HV1pQeTVrX1hkaU52bkVfQUNCcjlMMVVUazlFalZpd3dnTVdvOTAxMWdZMk1wU1hfNHkyYXBVY2ZnbnVUa0N2Nm9uOTVTYVQzeGphOExkTWtoRElvUzBqMS1PWkpOQ1VpZy1VN0tUQ2hmYzV5WG1uRVFBb00yb3RjZDZ6andza0lBak9HVXl2QVFZeWk4NXVpc0d4OTVnX2FSY203allXNVlLa1lENGI1bnFLWG1IQVZlS0NyYjZWTUE?oc=5",
-      "datetime": 1791781860
-    },
-    {
-      "headline": "Dollar firm near 18-month highs, as Gulf unrest, US inflation keep investors on edge - Reuters",
-      "summary": "Dollar firm near 18-month highs, as Gulf unrest, US inflation keep investors on edge Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZnNEOHo2NzVEYW5MOEcybTVjN2xsbXBOSkdScUFqckU4R0VES0JjaGNnSE1RbkJWWEI5SnpuOWxBNTNUVHhqUEtGdjRPdmtHZ0hYOWl1VkZYQXJoWDI5WFJ6MER1OWlvVVVVWFdXb3JFZklJQUNQNjJ5NUpObkVSMkh3ZTZ1NWpRXzcwbFBwb1lFSkYzYktRd3FtTjIwRW9wZElFU0lRNkZvTnZlWk5fb2VuNGFlaXFxd0dxSkN1OTE0Zw?oc=5",
-      "datetime": 1791769860
-    },
-    {
-      "headline": "UK finance minister to call for big economies to get borrowing under control at IMF - Reuters",
-      "summary": "UK finance minister to call for big economies to get borrowing under control at IMF Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONG1DajNQSWZPY2NlRmE3amk1V3dVT1JkRXYwMm5oVTZ1cnU1V3BQY09pNjlaVk1vMDVobDBzTVY0NDZqR0x2ai1QWUtGMGswZlE3NGstVW1GMWtFTWt0M3o5cGlOTG4ydVVseUQ0ZE4yQ3RjSEFKM0pWZ2R5T3hLX1UxcS12VU9sekxheVIyZUNIbGlrdVdLbkhOYldfSlNKZm1FaUlWV1h6NlRDN3llZFBuVmlvZw?oc=5",
-      "datetime": 1791760260
-    },
-    {
-      "headline": "UK's Healey can't risk a 'steady as you go' budget, think tank warns - Reuters",
-      "summary": "UK's Healey can't risk a 'steady as you go' budget, think tank warns Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLW9TSG82WkRMWVJZdG1sV3BydWhLX3czSDlYNHk4WURTYXRiOEwwZUw3eVVTTUh3VlplanRkcEJaTTNtZEw5eGd2YXg1enZ4UFdNQnc1NXlUQTk1NWNsTjFWRjV0SUZuSnZnZ0RTMXNQTFIxSmhCUlI1WENTQU4zRHllcWQzSXNhZjhIZnlocjFXSVlTdG84VWVFMGkzdlg0cUVKMWlBOFZERm1rYlhON1ZpNjQ?oc=5",
-      "datetime": 1791760063,
-      "headlineKo": "영국의 Healey는 '안정적인' 예산을 위험에 빠뜨릴 수 없다고 싱크탱크는 경고했습니다. - Reuters",
-      "summaryKo": "영국의 힐리(Healey)는 '안정적인' 예산을 위험에 빠뜨릴 수 없다고 싱크탱크는 로이터에 경고했습니다."
+      "datetime": 1791781860,
+      "headlineKo": "터키, 파키스탄, 이집트, 사우디아라비아, 리야드 공항에 대한 후티 공격 비난 - 로이터"
     }
   ],
-  "_news_collection_status": "error",
-  "_news_last_success_at": 1791807836.3770273,
+  "_news_collection_status": "ok",
+  "_news_last_success_at": 1791815359.709634,
   "fgi": {
-    "score": 45,
-    "rating": "fear"
+    "score": 45.8571428571429,
+    "rating": "neutral"
   },
-  "_fetched_at": 1791811561.104736,
-  "_updated_label": "2026-10-12 22:26",
-  "_last_attempt_at": 1791811561.104736,
-  "_last_success_at": 1791807789.5047793,
-  "_collection_status": "partial",
-  "_collection_errors": [
-    "시장 헤드라인"
-  ]
+  "_fetched_at": 1791815333.8659759,
+  "_updated_label": "2026-10-12 23:29",
+  "_last_attempt_at": 1791815333.8659759,
+  "_last_success_at": 1791815333.8659759,
+  "_collection_status": "ok",
+  "_collection_errors": []
 };
