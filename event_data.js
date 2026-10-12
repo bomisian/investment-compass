@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791763237.8093486,
+  "generatedAt": 1791763860.7564216,
   "events": [
     {
       "id": "5e844c7750c48f786638",
@@ -1497,7 +1497,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "This Nvidia Partner Was My Top Pick for 2026, and It's Up 43%: Here's Why It's Still a Great Value Now",
-      "headlineKo": "",
+      "headlineKo": "이 Nvidia 파트너는 2026년 나의 최고 선택이었으며 43% 상승했습니다. 지금도 여전히 가치가 높은 이유는 다음과 같습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c70a453892a0b534cf411568d93f09276533ac32a66ae99c36337cb7275c6308",
@@ -1795,7 +1795,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Alphabet Is the Robotaxi Stock to Buy as Waymo Chases 1 Million Rides a Week",
-      "headlineKo": "",
+      "headlineKo": "알파벳은 Waymo가 일주일에 100만 대의 탑승을 추적함에 따라 매수할 Robotaxi 주식입니다",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c0bfbfcb6652f9cb984b9f1f1feadce00a6b83361ab5597488cfd273637a7758",
@@ -2270,7 +2270,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Amazon Reshuffles Alexa Leadership Right After Introducing New Tablet Lineup",
-      "headlineKo": "",
+      "headlineKo": "Amazon, 새로운 태블릿 라인업 출시 직후 Alexa 리더십 개편",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b96e59e1b1a7e9c441eb647ebedd9356a07dff9928ebbbd5e59f625b6a3f1fda",
