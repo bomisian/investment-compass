@@ -275,8 +275,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 25.34,
     "name": "Broadcom Inc",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1791716801.1391332,
-    "_updated_label": "2026-10-11 20:06"
+    "_fetched_at": 1791789138.4937034,
+    "_updated_label": "2026-10-12 16:12"
   },
   "META": {
     "forwardPE": 22.28369,
@@ -876,8 +876,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 41.85,
     "name": "KLA Corp",
     "theme": "반도체 장비",
-    "_fetched_at": 1791716801.1391332,
-    "_updated_label": "2026-10-11 20:06"
+    "_fetched_at": 1791789138.4937034,
+    "_updated_label": "2026-10-12 16:12"
   },
   "SNDK": {
     "forwardPE": 8.43042,
@@ -907,8 +907,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 89.56,
     "name": "Sandisk Corp",
     "theme": "메모리·스토리지",
-    "_fetched_at": 1791716801.1391332,
-    "_updated_label": "2026-10-11 20:06"
+    "_fetched_at": 1791789138.4937034,
+    "_updated_label": "2026-10-12 16:12"
   },
   "WDC": {
     "forwardPE": 19.8764,
@@ -1208,8 +1208,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 10.9,
     "name": "Eaton Corporation PLC",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1791716801.1391332,
-    "_updated_label": "2026-10-11 20:06"
+    "_fetched_at": 1791789138.4937034,
+    "_updated_label": "2026-10-12 16:12"
   },
   "PWR": {
     "forwardPE": 34.1722,
@@ -1249,8 +1249,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 8.9,
     "name": "Quanta Services Inc",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1791716801.1391332,
-    "_updated_label": "2026-10-11 20:07"
+    "_fetched_at": 1791789138.4937034,
+    "_updated_label": "2026-10-12 16:12"
   },
   "HUBB": {
     "forwardPE": 20.73801,
@@ -1444,8 +1444,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 38.43,
     "name": "EMCOR Group Inc",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1791716801.1391332,
-    "_updated_label": "2026-10-11 20:07"
+    "_fetched_at": 1791789138.4937034,
+    "_updated_label": "2026-10-12 16:12"
   },
   "FIX": {
     "forwardPE": 28.51361,
@@ -1484,8 +1484,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 51.739999999999995,
     "name": "Comfort Systems USA Inc",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1791716801.1391332,
-    "_updated_label": "2026-10-11 20:07"
+    "_fetched_at": 1791789138.4937034,
+    "_updated_label": "2026-10-12 16:12"
   },
   "BE": {
     "forwardPE": 103.90747678195766,
