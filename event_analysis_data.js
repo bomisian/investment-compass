@@ -1,14 +1,14 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791846656.0332983,
+  "generatedAt": 1791848526.1245494,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1791846656.0332983,
-      "dataAsOf": 1791749640,
+      "updatedAt": 1791848526.1245494,
+      "dataAsOf": 1791833401,
       "signal": "우호적 변화",
-      "netScore": 4.19,
+      "netScore": 4.89,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -18,7 +18,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": 2.45,
+          "score": 2.8,
           "level": "우호적"
         },
         "valuationBurden": {
@@ -43,8 +43,8 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 0.87,
-          "level": "중립"
+          "score": 1.22,
+          "level": "우호적"
         },
         "insiderSignal": {
           "label": "내부자 거래 신호",
@@ -53,6 +53,19 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "3d789f71e0425f274850",
+          "headline": "Maia 300: Microsoft는 금융에 도움이 되는 컴퓨팅 임대주 모델로부터의 출구를 구축합니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1791833401,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=f5da460903b120e03641777b69800bb4b912d7c703c7891759803f237b9626e0",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
         {
           "eventId": "72fb61884b35ae93706e",
           "headline": "알파벳이 아닙니다. 아마존이 아닙니다. Microsoft는 Big Tech의 가장 저렴한 가치로 거래됩니다.",
@@ -133,12 +146,12 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 6,
+      "unverifiedEvidenceCount": 7,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791841800,
       "signal": "우호적 변화",
       "netScore": 5.45,
@@ -355,7 +368,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791811796,
       "signal": "우호적 변화",
       "netScore": 8.19,
@@ -573,7 +586,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791817200,
       "signal": "중립·확인 대기",
       "netScore": -1.75,
@@ -694,7 +707,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791837000,
       "signal": "주의 강화",
       "netScore": -8.54,
@@ -915,7 +928,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791811867,
       "signal": "주의 강화",
       "netScore": -5.66,
@@ -1049,7 +1062,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791809133,
       "signal": "우호적 변화",
       "netScore": 2.09,
@@ -1118,7 +1131,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791812015,
       "signal": "중립·확인 대기",
       "netScore": -0.35,
@@ -1185,7 +1198,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791708300,
       "signal": "주의 강화",
       "netScore": -2.17,
@@ -1282,7 +1295,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791841800,
       "signal": "우호적 변화",
       "netScore": 9.31,
@@ -1413,6 +1426,19 @@ const EVENT_ANALYSIS_DATA = {
           "reason": "AI 컴퓨팅 수요 확대 가능성"
         },
         {
+          "eventId": "3d789f71e0425f274850",
+          "headline": "Maia 300: Microsoft는 금융에 도움이 되는 컴퓨팅 임대주 모델로부터의 출구를 구축합니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1791833401,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=f5da460903b120e03641777b69800bb4b912d7c703c7891759803f237b9626e0",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 컴퓨팅 수요 확대 가능성"
+        },
+        {
           "eventId": "8b7e64e3aca7c44a30e7",
           "headline": "Amazon, 70억 달러 규모의 Decart 거래: AI 지출 옆에 있는 \"작은 변화\"",
           "eventLabel": "AI·데이터센터 투자 변화",
@@ -1478,27 +1504,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "데이터센터 투자 지속 시 AI 컴퓨팅 수요 유지 가능성"
-        },
-        {
-          "eventId": "859cdb011af244d92703",
-          "headline": "Intel CEO는 DeepSeek, Kimi, GLM이 '충분하다'고 말하며 효율성 향상을 위해 오픈 소스를 지원하는 것으로 알려짐",
-          "eventLabel": "애널리스트 목표주가 변경",
-          "publishedAt": 1791807512,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=d3a66dfc7820b692c8d0045bdd26ff18e1f9469a493d8dcb16771e5e2c1da409",
-          "factorChanges": {
-            "shortTermMomentum": -1
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 36,
+      "unverifiedEvidenceCount": 37,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791837008,
       "signal": "우호적 변화",
       "netScore": 6.46,
@@ -1579,6 +1593,19 @@ const EVENT_ANALYSIS_DATA = {
           "publishedAt": 1791833718,
           "verificationStatus": "needs_confirmation",
           "sourceUrl": "https://finnhub.io/api/news?id=e53128b24f96d0c45924090f12eca71e0af1b636b936cdaf76128a8c6ed181f5",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+        },
+        {
+          "eventId": "3d789f71e0425f274850",
+          "headline": "Maia 300: Microsoft는 금융에 도움이 되는 컴퓨팅 임대주 모델로부터의 출구를 구축합니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1791833401,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=f5da460903b120e03641777b69800bb4b912d7c703c7891759803f237b9626e0",
           "factorChanges": {
             "growth": 1,
             "shortTermMomentum": 1
@@ -1690,28 +1717,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -1
           },
           "reason": "회사 실적과의 연결고리 확인"
-        },
-        {
-          "eventId": "1c0c40694ed9f0ed7ee8",
-          "headline": "엔비디아, 구매 반영 AI 무게, $ 250억 오픈 웨이트 모델 스타트업 이미 뒷받침",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1791701872,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=92b8f6ca733ca3a46d6502d90db02ee5d5a26cf8bb676d684aa1265538a188bc",
-          "factorChanges": {
-            "growth": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 30,
+      "unverifiedEvidenceCount": 31,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791837008,
       "signal": "중립·확인 대기",
       "netScore": 0.84,
@@ -1901,7 +1915,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791806760,
       "signal": "주의 강화",
       "netScore": -10,
@@ -2123,7 +2137,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791812467,
       "signal": "주의 강화",
       "netScore": -5.38,
@@ -2233,7 +2247,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791675110,
       "signal": "주의 강화",
       "netScore": -4.19,
@@ -2316,7 +2330,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791834281,
       "signal": "주의 강화",
       "netScore": -9.46,
@@ -2538,7 +2552,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791834281,
       "signal": "주의 강화",
       "netScore": -5.95,
@@ -2714,7 +2728,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791837008,
       "signal": "주의 강화",
       "netScore": -5.95,
@@ -2851,7 +2865,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791837000,
       "signal": "중립·확인 대기",
       "netScore": 0.22,
@@ -2947,7 +2961,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3001,7 +3015,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791727216,
       "signal": "중립·확인 대기",
       "netScore": -0.35,
@@ -3068,10 +3082,10 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791837008,
       "signal": "우호적 변화",
-      "netScore": 4.11,
+      "netScore": 4.46,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -3106,7 +3120,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 3.15,
+          "score": 3.5,
           "level": "우호적"
         },
         "insiderSignal": {
@@ -3149,6 +3163,19 @@ const EVENT_ANALYSIS_DATA = {
           "publishedAt": 1791833718,
           "verificationStatus": "needs_confirmation",
           "sourceUrl": "https://finnhub.io/api/news?id=e53128b24f96d0c45924090f12eca71e0af1b636b936cdaf76128a8c6ed181f5",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 서버 메모리 수요와 가격 강세"
+        },
+        {
+          "eventId": "3d789f71e0425f274850",
+          "headline": "Maia 300: Microsoft는 금융에 도움이 되는 컴퓨팅 임대주 모델로부터의 출구를 구축합니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1791833401,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=f5da460903b120e03641777b69800bb4b912d7c703c7891759803f237b9626e0",
           "factorChanges": {
             "growth": 1,
             "shortTermMomentum": 1
@@ -3263,27 +3290,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -1
           },
           "reason": "메모리 ASP와 이익률 개선 가능성"
-        },
-        {
-          "eventId": "3ed2c84c692b41b39300",
-          "headline": "기록적인 최고치의 PLTR 주식 :이란 학교 파업에서 Maven 역할에 대한 CTO의 비난, 소매 황소는 월스트리트 업그레이드를 수용",
-          "eventLabel": "애널리스트 목표주가 변경",
-          "publishedAt": 1791784985,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=b0ada8694ee1e6ed978a0a250b6a4d68705ad646afae531f5214a365daf810f3",
-          "factorChanges": {
-            "shortTermMomentum": 1
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 43,
+      "unverifiedEvidenceCount": 44,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791561600,
       "signal": "중립·확인 대기",
       "netScore": 1.4,
@@ -3352,7 +3367,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791803756,
       "signal": "주의 강화",
       "netScore": -10,
@@ -3547,7 +3562,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791551461,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -3616,7 +3631,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3670,7 +3685,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791621413,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -3739,7 +3754,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791645252,
       "signal": "중립·확인 대기",
       "netScore": 0.7,
@@ -3807,7 +3822,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791816480,
       "signal": "우호적 변화",
       "netScore": 7.0,
@@ -3918,7 +3933,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791801348,
       "signal": "중립·확인 대기",
       "netScore": -0.15,
@@ -4013,7 +4028,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4067,7 +4082,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791589815,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -4136,7 +4151,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4190,7 +4205,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4244,7 +4259,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4298,7 +4313,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791820845,
       "signal": "주의 강화",
       "netScore": -2.31,
@@ -4367,7 +4382,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4421,7 +4436,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791818700,
       "signal": "중립·확인 대기",
       "netScore": -1.54,
@@ -4490,7 +4505,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1791846656.0332983,
+      "updatedAt": 1791848526.1245494,
       "dataAsOf": 1791587509,
       "signal": "우호적 변화",
       "netScore": 2.79,

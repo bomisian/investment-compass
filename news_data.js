@@ -5651,7 +5651,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 110,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "SPY": {
@@ -12936,11 +12936,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "MSFT": {
-    "_last_attempt_at": 1791825597.8539035,
+    "_last_attempt_at": 1791848496.2564406,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -12950,124 +12950,11 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "If You Invest $500 a Month in Microsoft Starting Now, This is What You’d Have in 2030",
+        "headline": "Why the Market Dipped But Microsoft (MSFT) Gained Today",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=52547976a4a84d023099f8c74ffd84f7728c1857c3fd320cd035a149d4f90c20",
-        "datetime": 1791819043,
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "지금부터 Microsoft에 월 500달러를 투자하면 2030년에 얻을 수 있는 금액입니다. - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,812.40 −0.14% Dow Jones 51,893.60 +0.30% Nasdaq 100 30,702.30 −0.73% Russell 2000 2,800.20 −0.32% S&P 500 7,812.40 −0.14% 다우존스 51,893.60 +0.30% 나스닥 100 30,702.30 −0.73% 러셀 2000 2,800.20 −0.",
-            "꾸준한 월간 약정이 현실적으로 바뀔 수 있는 것은 다음과 같습니다... 작성자 Vandita Jadeja 2026년 10월 12일 오전 11시 30분(ET) 게시 · 3분 읽기 가격 목표 데스크."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $500, $24,000, $527.58 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "MSFT에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$500",
-            "$24,000",
-            "$527.58",
-            "$529.30.",
-            "$31,630.37",
-            "31.8%",
-            "$889.35",
-            "$1,108.28"
-          ],
-          "sourceExcerpt": [
-            "If You Invest $500 a Month in Microsoft Starting Now, This is What You’d Have in 2030 - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,812.40 −0.14% Dow Jones 51,893.60 +0.30% Nasdaq 100 30,702.30 −0.73% Russell 2000 2,800.20 −0.32% S&P 500 7,812.40 −0.14% Dow Jones 51,893.60 +0.30% Nasdaq 100 30,702.30 −0.73% Russell 2000 2,800.20 −0.",
-            "Here is what a steady monthly commitment could realistically turn into… By Vandita Jadeja Published October 12, 2026, 11:30am ET · 3 min read Price Targets desk."
-          ],
-          "analysisUpdatedAt": 1791825609.3881574
-        },
-        "headlineKo": "지금부터 Microsoft에 월 500달러를 투자하면 2030년에 얻게 될 금액입니다."
-      },
-      {
-        "headline": "Microsoft to scale custom AI chips in multi-gigawatt push to cut costs",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d488489c67f32153ffc5fab75bdf4c63de88b52c13e13e67a0add4a742cd9d86",
-        "datetime": 1791815600,
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Microsoft to scale custom AI chips in multi-gigawatt push to cut costs",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "MSFT에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791825611.6728988
-        },
-        "headlineKo": "Microsoft, 비용 절감을 위해 수 기가와트 규모로 맞춤형 AI 칩 확장"
-      },
-      {
-        "headline": "Microsoft reclaims $4 trillion market cap",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=49c5c8e26bbfd91d460813ee9b290d6096cc6af56689439073e74e100e8ca8a6",
-        "datetime": 1791814963,
-        "relevance": 0.4,
+        "url": "https://finnhub.io/api/news?id=70ed299066a2a3e18009c35bc5308dd6fc27ab7dd0ff9a2addb145b2d35bb2a5",
+        "datetime": 1791837904,
+        "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
@@ -13078,7 +12965,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Microsoft reclaims $4 trillion market cap",
+            "Why the Market Dipped But Microsoft (MSFT) Gained Today",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -13102,38 +12989,339 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft reclaims $4 trillion market cap' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Why the Market Dipped But Microsoft (MSFT) Gained Today' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791848502.3031986
+        },
+        "headlineKo": "시장이 하락했지만 오늘 Microsoft(MSFT)가 승리한 이유"
+      },
+      {
+        "headline": "Microsoft just reclaimed its $4T market cap, thanks to its Maia 300 AI chip",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=64c51f3f54e043b957468f170adb603ea220a9fee2556ac022c6f50494cea199",
+        "datetime": 1791834428,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Microsoft just reclaimed its $4T market cap, thanks to its Maia 300 AI chip",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft just reclaimed its $4T market cap, thanks to its Maia 300 AI chip' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.4,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791825614.5414917
+          "analysisUpdatedAt": 1791848504.0481565
         },
-        "headlineKo": "마이크로소프트, 시가총액 4조 달러 회복"
+        "headlineKo": "Microsoft는 Maia 300 AI 칩 덕분에 시가총액 4조 달러를 되찾았습니다."
       },
       {
-        "headline": "Microsoft CEO’s AI Warning Draws Little Reaction From Cybersecurity Stocks",
+        "headline": "Maia 300: Microsoft Builds the Exit From a Compute Landlord Model It Helped Finance",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=08aac8d3566a0b3c7f9a2b7ee44946f663a624b7b71ab710f150c97619d5740e",
-        "datetime": 1791814680,
+        "url": "https://finnhub.io/api/news?id=f5da460903b120e03641777b69800bb4b912d7c703c7891759803f237b9626e0",
+        "datetime": 1791833401,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Microsoft CEO의 AI 경고는 사이버 보안 주식에서 거의 반응을 얻지 못합니다."
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Maia 300: Microsoft Builds the Exit From a Compute Landlord Model It Helped Finance' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MSFT에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.4,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791848506.636653
+        },
+        "headlineKo": "Maia 300: Microsoft는 금융에 도움이 되는 컴퓨팅 임대주 모델로부터의 출구를 구축합니다."
       },
       {
-        "headline": "How Microsoft (MSFT) Featured in the Third-Quarter Tech Recovery",
+        "headline": "Microsoft Ramps Up Homegrown AI Chip Push",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=93cacd14a4f4bbc1dd81efc92f0288e0c527568f9c122d918d4498792021423c",
-        "datetime": 1791814567,
-        "relevance": 1.0,
+        "url": "https://finnhub.io/api/news?id=cee7b65bdfee757f89635b04fee815b8695c403bc387d763605ad6b62f28080b",
+        "datetime": 1791828333,
+        "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "3분기 기술 회복에 Microsoft(MSFT)가 등장한 방법"
+        "headlineKo": "마이크로소프트, 자체 개발 AI 칩 추진 강화"
+      },
+      {
+        "headline": "Microsoft Goes All-In On Its Own AI Chips",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0d6fe6591f4a90bfe493e7bdad63ff600ace2071f6adcf6ddf5d2dcb452bcc76",
+        "datetime": 1791827116,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "마이크로소프트, 자체 AI 칩에 올인"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Why the Market Dipped But Microsoft (MSFT) Gained Today",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=70ed299066a2a3e18009c35bc5308dd6fc27ab7dd0ff9a2addb145b2d35bb2a5",
+        "datetime": 1791837904,
+        "headlineKo": "시장이 하락했지만 오늘 Microsoft(MSFT)가 승리한 이유",
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Why the Market Dipped But Microsoft (MSFT) Gained Today",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Why the Market Dipped But Microsoft (MSFT) Gained Today' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791848502.3031986
+        }
+      },
+      {
+        "headline": "Microsoft just reclaimed its $4T market cap, thanks to its Maia 300 AI chip",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=64c51f3f54e043b957468f170adb603ea220a9fee2556ac022c6f50494cea199",
+        "datetime": 1791834428,
+        "headlineKo": "Microsoft는 Maia 300 AI 칩 덕분에 시가총액 4조 달러를 되찾았습니다.",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Microsoft just reclaimed its $4T market cap, thanks to its Maia 300 AI chip",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft just reclaimed its $4T market cap, thanks to its Maia 300 AI chip' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791848504.0481565
+        }
+      },
+      {
+        "headline": "Maia 300: Microsoft Builds the Exit From a Compute Landlord Model It Helped Finance",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f5da460903b120e03641777b69800bb4b912d7c703c7891759803f237b9626e0",
+        "datetime": 1791833401,
+        "headlineKo": "Maia 300: Microsoft는 금융에 도움이 되는 컴퓨팅 임대주 모델로부터의 출구를 구축합니다.",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Maia 300: Microsoft Builds the Exit From a Compute Landlord Model It Helped Finance' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MSFT에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.4,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791848506.636653
+        }
+      },
+      {
+        "headline": "Microsoft Ramps Up Homegrown AI Chip Push",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=cee7b65bdfee757f89635b04fee815b8695c403bc387d763605ad6b62f28080b",
+        "datetime": 1791828333,
+        "headlineKo": "마이크로소프트, 자체 개발 AI 칩 추진 강화",
+        "relevance": 0.4,
+        "keywordFlag": false
+      },
+      {
+        "headline": "Microsoft Goes All-In On Its Own AI Chips",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0d6fe6591f4a90bfe493e7bdad63ff600ace2071f6adcf6ddf5d2dcb452bcc76",
+        "datetime": 1791827116,
+        "headlineKo": "마이크로소프트, 자체 AI 칩에 올인",
+        "relevance": 0.4,
+        "keywordFlag": false
+      },
       {
         "headline": "If You Invest $500 a Month in Microsoft Starting Now, This is What You’d Have in 2030",
         "source": "Yahoo",
@@ -20717,188 +20905,17 @@ const NEWS_DATA = {
           ],
           "analysisUpdatedAt": 1790372424.2100787
         }
-      },
-      {
-        "headline": "Top Bank Tweaks Microsoft Stock Price Target for 2027",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c74167311002198b554d0ecb064704c1c4a5a4a9cc34f92c4450bae5f08642e9",
-        "datetime": 1790361467,
-        "headlineKo": "Top Bank, 2027년 Microsoft 주가 목표 조정",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Top Bank Tweaks Microsoft Stock Price Target for 2027",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "MSFT에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790372426.257418
-        }
-      },
-      {
-        "headline": "Microsoft Revamps Copilot as AI Spending Scrutiny Grows",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=041667d14b5a372d99afe9c685d6f78d8a7cc0ab89a20a0ddac9c4ded42abac0",
-        "datetime": 1790360228,
-        "headlineKo": "AI 지출 조사가 증가함에 따라 Microsoft는 Copilot을 개편했습니다.",
-        "relevance": 0.8,
-        "keywordFlag": false
-      },
-      {
-        "headline": "The Dow Leads Market Indexes Higher as Microsoft Adds 120 Points",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=847e883a62a998fdaf7803df77f52c1a7a268f6376a3e52a672192f52f58685c",
-        "datetime": 1790359786,
-        "headlineKo": "Microsoft가 120포인트를 추가함에 따라 Dow는 시장 지수를 더 높게 이끌었습니다.",
-        "relevance": 0.4,
-        "keywordFlag": false
-      },
-      {
-        "headline": "Microsoft unveils unified Copilot, cedes consumer AI market to focus on enterprise",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b028b19b9e3a9fc80c6d5adf497e39ff63bac5bb23fa05805857ed36a4c5dfd4",
-        "datetime": 1790341456,
-        "headlineKo": "Microsoft, 통합 Copilot 공개, 소비자 AI 시장에서 기업에 집중",
-        "relevance": 0.8,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Microsoft unveils unified Copilot, cedes consumer AI market to focus on enterprise",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft unveils unified Copilot, cedes consumer AI market to focus on enterprise' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.8,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790350266.3566437
-        }
-      },
-      {
-        "headline": "Microsoft relaunches Copilot app with coding and AI agents",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9a74317995e9160183c14de644f3cc9a696048949672a33f33687dd460b6398b",
-        "datetime": 1790340813,
-        "headlineKo": "Microsoft, 코딩 및 AI 에이전트를 갖춘 Copilot 앱 다시 출시",
-        "relevance": 0.8,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Microsoft는 코딩 및 AI 에이전트 A.I를 갖춘 Copilot 앱을 다시 출시했습니다.",
-            "Microsoft는 코딩과 자율 AI 에이전트를 결합한 통합 앱으로 Copilot을 다시 출시합니다. 업데이트된 앱은 채팅, 문서 편집, 코딩 도구 및 영구 AI 에이전트를 한곳에 결합하며 가격은 부분적으로 사용량 기반 BI로 이동합니다.",
-            "새 앱은 세 가지 섹션으로 구성됩니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 7% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "MSFT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.8,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "7%"
-          ],
-          "sourceExcerpt": [
-            "Microsoft relaunches Copilot app with coding and AI agents A.I.",
-            "Microsoft is relaunching Copilot as a unified app combining coding and autonomous AI agents The updated app combines chat, document editing, coding tools, and persistent AI agents in one place, with pricing shifting partly to usage-based bi",
-            "The new app is organized around three sections."
-          ],
-          "analysisUpdatedAt": 1790350272.1427696
-        }
       }
     ],
-    "_fetched_at": 1791825597.8539035,
-    "_updated_label": "2026-10-13 02:20",
-    "_last_success_at": 1791825597.8539035,
+    "_fetched_at": 1791848496.2564406,
+    "_updated_label": "2026-10-13 08:41",
+    "_last_success_at": 1791848496.2564406,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "GOOGL": {
@@ -28833,7 +28850,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "AMZN": {
@@ -36949,7 +36966,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "META": {
@@ -44891,7 +44908,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "AAPL": {
@@ -52831,7 +52848,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "TSLA": {
@@ -60930,7 +60947,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "ORCL": {
@@ -69328,7 +69345,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "CRM": {
@@ -76076,7 +76093,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "PLTR": {
@@ -84868,7 +84885,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "NVDA": {
@@ -92557,7 +92574,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "AMD": {
@@ -100668,7 +100685,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "AVGO": {
@@ -109742,7 +109759,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "QCOM": {
@@ -117150,7 +117167,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 161,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "ARM": {
@@ -122433,7 +122450,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "MRVL": {
@@ -130888,7 +130905,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 181,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "INTC": {
@@ -139233,7 +139250,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "TSM": {
@@ -146298,7 +146315,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 154,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "ASML": {
@@ -151403,7 +151420,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 105,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "AMAT": {
@@ -156309,7 +156326,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "LRCX": {
@@ -158928,11 +158945,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1791825597.8539035,
+    "_last_attempt_at": 1791848496.2564406,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -158941,6 +158958,105 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "AI Infrastructure Stocks With Real Earnings Leverage From Ciena, Micron And KLA",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=304ee06038449cf3b42fb405b451cec4dc4fbf750cf251cc804c80d417a71b14",
+        "datetime": 1791828548,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "실적 발표 · 본업과 특이항목 분리",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AI Infrastructure Stocks With Real Earnings Leverage From Ciena, Micron And KLA",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+            "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "KLAC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "매출·영업이익 성장",
+            "정상화이익과 특이항목",
+            "가이던스·OCF·FCF"
+          ],
+          "interpretation": "KLAC에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791848515.71852
+        },
+        "headlineKo": "Ciena, Micron 및 KLA의 실제 수익을 활용하는 AI 인프라 주식"
+      },
+      {
+        "headline": "Teradyne Boosts Test Portfolio With Titan HP: Can It Beat KLAC & COHU?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=14fa67455c5e09ae7082343fcf044768d8d719411081585dc867c9aeb0584e4f",
+        "datetime": 1791817860,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Teradyne Boosts Test Portfolio With Titan HP: Can It Beat KLAC & COHU?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "KLAC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'Teradyne Boosts Test Portfolio With Titan HP: Can It Beat KLAC & COHU?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "KLAC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791848518.2885015
+        },
+        "headlineKo": "Teradyne, Titan HP로 테스트 포트폴리오 강화: KLAC & COHU를 이길 수 있을까요?"
+      },
       {
         "headline": "KLA Corporation’s (KLAC) Critical Role in Zero-Tolerance Defect Environments",
         "source": "Yahoo",
@@ -158989,7 +159105,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791825625.330023
+          "analysisUpdatedAt": 1791848520.8363364
         },
         "headlineKo": "무관용 결함 환경에서 KLA Corporation(KLAC)의 중요한 역할"
       },
@@ -159001,60 +159117,6 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "KLA는 10년 만에 $1,000를 $31,595로 전환하여 S&P 500을 8.7배(연중무휴) 압도했습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,812.40 −0.14% Dow Jones 51,893.60 +0.30% Nasdaq 100 30,702.30 −0.73% Russell 2000 2,800.20 −0.32% S&P 500 7,812.40 −0.14% 다우존스 51,893.60 +0.30% 나스닥 100 30,702.30 −0.73% 러셀 2000 2,800.20 −0.",
-            "작성자: Chris Lange 2026년 10월 11일 게시, 오전 10시(ET) · 2분 읽기 𝕏 f ⧉ 컴퓨터 칩 소켓에 금융 시장 데이터를 역동적으로 오버레이하는 것은 기술 간의 강력한 연결을 보여줍니다."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $13.58 billion, 11.7%, $1,000 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "KLAC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "KLAC에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$13.58 billion",
-            "11.7%",
-            "$1,000",
-            "$31,595",
-            "$195.57",
-            "$30,595",
-            "$2.29 billion",
-            "61.55%"
-          ],
-          "sourceExcerpt": [
-            "KLA Turned $1,000 Into $31,595 in a Decade, Crushing the S&P 500 by 8.7x - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,812.40 −0.14% Dow Jones 51,893.60 +0.30% Nasdaq 100 30,702.30 −0.73% Russell 2000 2,800.20 −0.32% S&P 500 7,812.40 −0.14% Dow Jones 51,893.60 +0.30% Nasdaq 100 30,702.30 −0.73% Russell 2000 2,800.20 −0.",
-            "Here is what powered the run and whether the… By Chris Lange Published October 11, 2026, 10:00am ET · 2 min read 𝕏 f ⧉ A dynamic overlay of financial market data on a computer chip socket illustrates the strong connection between technology"
-          ],
-          "analysisUpdatedAt": 1791825628.386998
-        },
         "headlineKo": "KLA는 10년 만에 $1,000를 $31,595로 전환하여 S&P 500을 8.7배나 압도했습니다."
       },
       {
@@ -159065,15 +159127,75 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "KLA는 지난 분기에 창출한 것보다 더 많은 현금을 반환했습니다. 그게 문제인가요?"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "AI Infrastructure Stocks With Real Earnings Leverage From Ciena, Micron And KLA",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=304ee06038449cf3b42fb405b451cec4dc4fbf750cf251cc804c80d417a71b14",
+        "datetime": 1791828548,
+        "headlineKo": "Ciena, Micron 및 KLA의 실제 수익을 활용하는 AI 인프라 주식",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "실적 발표 · 본업과 특이항목 분리",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AI Infrastructure Stocks With Real Earnings Leverage From Ciena, Micron And KLA",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+            "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "KLAC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "매출·영업이익 성장",
+            "정상화이익과 특이항목",
+            "가이던스·OCF·FCF"
+          ],
+          "interpretation": "KLAC에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791848515.71852
+        }
+      },
+      {
+        "headline": "Teradyne Boosts Test Portfolio With Titan HP: Can It Beat KLAC & COHU?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=14fa67455c5e09ae7082343fcf044768d8d719411081585dc867c9aeb0584e4f",
+        "datetime": 1791817860,
+        "headlineKo": "Teradyne, Titan HP로 테스트 포트폴리오 강화: KLAC & COHU를 이길 수 있을까요?",
+        "relevance": 1,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "low",
-          "tone": "neutral",
+          "tone": "positive",
           "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "label": "실적·수요 개선 가능성",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "KLA Returned More Cash Than It Generated Last Quarter. Is That a Problem?",
+            "Teradyne Boosts Test Portfolio With Titan HP: Can It Beat KLAC & COHU?",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -159097,38 +159219,15 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 KLAC의 사업과 관련된 'KLA Returned More Cash Than It Generated Last Quarter. Is That a Problem?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'Teradyne Boosts Test Portfolio With Titan HP: Can It Beat KLAC & COHU?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "KLAC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
+          "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791825631.1808112
-        },
-        "headlineKo": "KLA는 지난 분기에 창출한 것보다 더 많은 현금을 반환했습니다. 그게 문제인가요?"
+          "analysisUpdatedAt": 1791848518.2885015
+        }
       },
-      {
-        "headline": "Applied Materials vs. KLA: Does Faster Growth Beat the Cheaper Cash-Flow Price?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1ea3ae99045bbe5f311d2ec9ed97a35a8e569388732c9bfc5c78474d5daea720",
-        "datetime": 1791580800,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "어플라이드 머티어리얼즈 vs. KLA: 빠른 성장이 더 저렴한 현금흐름 가격을 능가하는가?"
-      },
-      {
-        "headline": "What Was KLA Telling You Before Its Stock Ran?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c79aa88c547d970343ef8a7a271439a7c7930760d11d6c432b323ee313195bcc",
-        "datetime": 1791502732,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "KLA는 주식이 폭락하기 전에 무엇을 말했습니까?"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "KLA Corporation’s (KLAC) Critical Role in Zero-Tolerance Defect Environments",
         "source": "Yahoo",
@@ -159178,7 +159277,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791825625.330023
+          "analysisUpdatedAt": 1791848520.8363364
         }
       },
       {
@@ -161430,15 +161529,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791825597.8539035,
-    "_updated_label": "2026-10-13 02:20",
-    "_last_success_at": 1791825597.8539035,
+    "_fetched_at": 1791848496.2564406,
+    "_updated_label": "2026-10-13 08:42",
+    "_last_success_at": 1791848496.2564406,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 52,
+      "checked": 54,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "MU": {
@@ -169159,7 +169258,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "SNDK": {
@@ -177260,7 +177359,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 169,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "WDC": {
@@ -182037,7 +182136,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "ANET": {
@@ -185880,7 +185979,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "COHR": {
@@ -189079,7 +189178,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "LITE": {
@@ -193037,7 +193136,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "GEV": {
@@ -198236,7 +198335,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "CEG": {
@@ -202942,7 +203041,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "VST": {
@@ -206387,7 +206486,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "ETN": {
@@ -209551,7 +209650,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "PWR": {
@@ -212575,7 +212674,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "HUBB": {
@@ -213243,7 +213342,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "VRT": {
@@ -217369,7 +217468,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "MOD": {
@@ -218697,7 +218796,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "STX": {
@@ -222909,7 +223008,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "EME": {
@@ -224672,7 +224771,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "FIX": {
@@ -226362,7 +226461,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   },
   "BE": {
@@ -228782,7 +228881,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-10-13 08:10"
+      "updated": "2026-10-13 08:42"
     }
   }
 };
