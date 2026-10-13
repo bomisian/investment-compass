@@ -22,6 +22,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 74451155.0,
       "avgDailyVolume": 18052501.0,
       "daysToCover": 3.73
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 61133927.0,
+      "prevShortShares": 67346414.0,
+      "avgDailyVolume": 23981233.0,
+      "daysToCover": 2.55
     }
   ],
   "GOOGL": [
@@ -45,6 +52,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 77698668.0,
       "avgDailyVolume": 24952578.0,
       "daysToCover": 3.5
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 80391960.0,
+      "prevShortShares": 87393404.0,
+      "avgDailyVolume": 27456069.0,
+      "daysToCover": 2.93
     }
   ],
   "AMZN": [
@@ -68,6 +82,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 92067423.0,
       "avgDailyVolume": 29391336.0,
       "daysToCover": 2.77
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 86657682.0,
+      "prevShortShares": 81440414.0,
+      "avgDailyVolume": 37732132.0,
+      "daysToCover": 2.3
     }
   ],
   "META": [
@@ -91,6 +112,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 28807174.0,
       "avgDailyVolume": 19680893.0,
       "daysToCover": 1.57
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 33572792.0,
+      "prevShortShares": 30990107.0,
+      "avgDailyVolume": 26851312.0,
+      "daysToCover": 1.25
     }
   ],
   "AAPL": [
@@ -114,6 +142,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 139749097.0,
       "avgDailyVolume": 45135477.0,
       "daysToCover": 2.85
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 120763539.0,
+      "prevShortShares": 128753092.0,
+      "avgDailyVolume": 39858260.0,
+      "daysToCover": 3.03
     }
   ],
   "TSLA": [
@@ -137,6 +172,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 74230933.0,
       "avgDailyVolume": 40108176.0,
       "daysToCover": 1.72
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 70931312.0,
+      "prevShortShares": 68862357.0,
+      "avgDailyVolume": 36582381.0,
+      "daysToCover": 1.94
     }
   ],
   "ORCL": [
@@ -160,6 +202,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 44597874.0,
       "avgDailyVolume": 37506615.0,
       "daysToCover": 1.36
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 48486262.0,
+      "prevShortShares": 50840436.0,
+      "avgDailyVolume": 32926003.0,
+      "daysToCover": 1.47
     }
   ],
   "CRM": [
@@ -183,6 +232,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 29211825.0,
       "avgDailyVolume": 13111473.0,
       "daysToCover": 2.47
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 32888398.0,
+      "prevShortShares": 32348247.0,
+      "avgDailyVolume": 12679263.0,
+      "daysToCover": 2.59
     }
   ],
   "PLTR": [
@@ -206,6 +262,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 65131893.0,
       "avgDailyVolume": 26895890.0,
       "daysToCover": 2.24
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 55587983.0,
+      "prevShortShares": 60184903.0,
+      "avgDailyVolume": 22911439.0,
+      "daysToCover": 2.43
     }
   ],
   "NVDA": [
@@ -229,6 +292,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 298301619.0,
       "avgDailyVolume": 115324892.0,
       "daysToCover": 2.55
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 311389688.0,
+      "prevShortShares": 294225803.0,
+      "avgDailyVolume": 110290688.0,
+      "daysToCover": 2.82
     }
   ],
   "AMD": [
@@ -252,6 +322,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 41712630.0,
       "avgDailyVolume": 18735987.0,
       "daysToCover": 2.13
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 39281942.0,
+      "prevShortShares": 39975696.0,
+      "avgDailyVolume": 24170241.0,
+      "daysToCover": 1.63
     }
   ],
   "AVGO": [
@@ -275,6 +352,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 50451889.0,
       "avgDailyVolume": 30566178.0,
       "daysToCover": 1.7
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 54197605.0,
+      "prevShortShares": 51922175.0,
+      "avgDailyVolume": 23378908.0,
+      "daysToCover": 2.32
     }
   ],
   "QCOM": [
@@ -298,6 +382,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 33718025.0,
       "avgDailyVolume": 12517227.0,
       "daysToCover": 3.06
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 35328275.0,
+      "prevShortShares": 38316643.0,
+      "avgDailyVolume": 15903468.0,
+      "daysToCover": 2.22
     }
   ],
   "ARM": [
@@ -321,6 +412,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 16740615.0,
       "avgDailyVolume": 3942824.0,
       "daysToCover": 3.94
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 16189965.0,
+      "prevShortShares": 15521694.0,
+      "avgDailyVolume": 7051648.0,
+      "daysToCover": 2.3
     }
   ],
   "MRVL": [
@@ -344,6 +442,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 38175634.0,
       "avgDailyVolume": 18388631.0,
       "daysToCover": 1.7
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 24051742.0,
+      "prevShortShares": 31342713.0,
+      "avgDailyVolume": 16865037.0,
+      "daysToCover": 1.43
     }
   ],
   "INTC": [
@@ -367,6 +472,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 152248752.0,
       "avgDailyVolume": 90284162.0,
       "daysToCover": 1.76
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 167199908.0,
+      "prevShortShares": 158808750.0,
+      "avgDailyVolume": 120610361.0,
+      "daysToCover": 1.39
     }
   ],
   "TSM": [
@@ -390,6 +502,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 29835409.0,
       "avgDailyVolume": 9770373.0,
       "daysToCover": 2.84
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 30492512.0,
+      "prevShortShares": 27789695.0,
+      "avgDailyVolume": 9954640.0,
+      "daysToCover": 3.06
     }
   ],
   "ASML": [
@@ -413,6 +532,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 1524269.0,
       "avgDailyVolume": 1236034.0,
       "daysToCover": 1.2
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 1450298.0,
+      "prevShortShares": 1477623.0,
+      "avgDailyVolume": 1378510.0,
+      "daysToCover": 1.05
     }
   ],
   "AMAT": [
@@ -436,6 +562,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 15615253.0,
       "avgDailyVolume": 5784106.0,
       "daysToCover": 2.44
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 13530729.0,
+      "prevShortShares": 14108387.0,
+      "avgDailyVolume": 6753107.0,
+      "daysToCover": 2.0
     }
   ],
   "LRCX": [
@@ -459,6 +592,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 27751158.0,
       "avgDailyVolume": 8455032.0,
       "daysToCover": 3.08
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 25810795.0,
+      "prevShortShares": 26081081.0,
+      "avgDailyVolume": 9844598.0,
+      "daysToCover": 2.62
     }
   ],
   "KLAC": [
@@ -482,6 +622,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 29401138.0,
       "avgDailyVolume": 9415932.0,
       "daysToCover": 2.5
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 24261297.0,
+      "prevShortShares": 23554039.0,
+      "avgDailyVolume": 9194438.0,
+      "daysToCover": 2.64
     }
   ],
   "MU": [
@@ -505,6 +652,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 29705339.0,
       "avgDailyVolume": 25064802.0,
       "daysToCover": 1.1
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 26023190.0,
+      "prevShortShares": 27633780.0,
+      "avgDailyVolume": 24483420.0,
+      "daysToCover": 1.06
     }
   ],
   "SNDK": [
@@ -527,6 +681,13 @@ const SHORT_INTEREST_DATA = {
       "shortShares": 5618213.0,
       "prevShortShares": 5996105.0,
       "avgDailyVolume": 9998178.0,
+      "daysToCover": 1.0
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 4819278.0,
+      "prevShortShares": 5618213.0,
+      "avgDailyVolume": 8938814.0,
       "daysToCover": 1.0
     }
   ],
@@ -551,6 +712,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 19887791.0,
       "avgDailyVolume": 5513875.0,
       "daysToCover": 3.13
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 18293625.0,
+      "prevShortShares": 17280387.0,
+      "avgDailyVolume": 7454522.0,
+      "daysToCover": 2.45
     }
   ],
   "ANET": [
@@ -574,6 +742,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 14510842.0,
       "avgDailyVolume": 4353595.0,
       "daysToCover": 3.04
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 11934591.0,
+      "prevShortShares": 13245323.0,
+      "avgDailyVolume": 5162420.0,
+      "daysToCover": 2.31
     }
   ],
   "COHR": [
@@ -597,6 +772,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 10764076.0,
       "avgDailyVolume": 5993518.0,
       "daysToCover": 1.7
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 11041145.0,
+      "prevShortShares": 10178444.0,
+      "avgDailyVolume": 6604484.0,
+      "daysToCover": 1.67
     }
   ],
   "LITE": [
@@ -620,6 +802,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 7122028.0,
       "avgDailyVolume": 3999348.0,
       "daysToCover": 1.63
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 7446554.0,
+      "prevShortShares": 6513349.0,
+      "avgDailyVolume": 4952668.0,
+      "daysToCover": 1.5
     }
   ],
   "GEV": [
@@ -643,6 +832,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 8763426.0,
       "avgDailyVolume": 1916784.0,
       "daysToCover": 4.57
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 7376507.0,
+      "prevShortShares": 8757218.0,
+      "avgDailyVolume": 2300016.0,
+      "daysToCover": 3.21
     }
   ],
   "CEG": [
@@ -666,6 +862,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 11572494.0,
       "avgDailyVolume": 2779480.0,
       "daysToCover": 4.22
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 11837140.0,
+      "prevShortShares": 11740256.0,
+      "avgDailyVolume": 3022342.0,
+      "daysToCover": 3.92
     }
   ],
   "VST": [
@@ -689,6 +892,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 10778003.0,
       "avgDailyVolume": 4746115.0,
       "daysToCover": 2.04
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 10482914.0,
+      "prevShortShares": 9701865.0,
+      "avgDailyVolume": 4788550.0,
+      "daysToCover": 2.19
     }
   ],
   "ETN": [
@@ -712,6 +922,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 7208626.0,
       "avgDailyVolume": 1987288.0,
       "daysToCover": 3.9
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 7987517.0,
+      "prevShortShares": 7755755.0,
+      "avgDailyVolume": 2168611.0,
+      "daysToCover": 3.68
     }
   ],
   "PWR": [
@@ -735,6 +952,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 3125973.0,
       "avgDailyVolume": 808635.0,
       "daysToCover": 3.89
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 3197336.0,
+      "prevShortShares": 3143949.0,
+      "avgDailyVolume": 846646.0,
+      "daysToCover": 3.78
     }
   ],
   "HUBB": [
@@ -758,6 +982,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 3040421.0,
       "avgDailyVolume": 483587.0,
       "daysToCover": 5.89
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 2553948.0,
+      "prevShortShares": 2848108.0,
+      "avgDailyVolume": 488880.0,
+      "daysToCover": 5.22
     }
   ],
   "VRT": [
@@ -781,6 +1012,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 13764719.0,
       "avgDailyVolume": 6089282.0,
       "daysToCover": 2.32
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 14384504.0,
+      "prevShortShares": 14150447.0,
+      "avgDailyVolume": 4571874.0,
+      "daysToCover": 3.15
     }
   ],
   "MOD": [
@@ -804,6 +1042,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 3302879.0,
       "avgDailyVolume": 1160253.0,
       "daysToCover": 2.9
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 3111079.0,
+      "prevShortShares": 3363511.0,
+      "avgDailyVolume": 1481912.0,
+      "daysToCover": 2.1
     }
   ],
   "STX": [
@@ -827,6 +1072,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 8482797.0,
       "avgDailyVolume": 3417882.0,
       "daysToCover": 2.67
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 6972672.0,
+      "prevShortShares": 9129029.0,
+      "avgDailyVolume": 3901648.0,
+      "daysToCover": 1.79
     }
   ],
   "EME": [
@@ -850,6 +1102,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 912626.0,
       "avgDailyVolume": 304323.0,
       "daysToCover": 3.1
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 763942.0,
+      "prevShortShares": 942104.0,
+      "avgDailyVolume": 399691.0,
+      "daysToCover": 1.91
     }
   ],
   "FIX": [
@@ -873,6 +1132,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 910248.0,
       "avgDailyVolume": 304182.0,
       "daysToCover": 2.82
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 849979.0,
+      "prevShortShares": 857812.0,
+      "avgDailyVolume": 325655.0,
+      "daysToCover": 2.61
     }
   ],
   "SBGSY": [
@@ -905,6 +1171,13 @@ const SHORT_INTEREST_DATA = {
       "prevShortShares": 19210585.0,
       "avgDailyVolume": 14246300.0,
       "daysToCover": 1.33
+    },
+    {
+      "settlementDate": "2026-09-30",
+      "shortShares": 20982242.0,
+      "prevShortShares": 18994065.0,
+      "avgDailyVolume": 20410825.0,
+      "daysToCover": 1.03
     }
   ]
 };

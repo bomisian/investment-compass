@@ -5795,7 +5795,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 113,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "SPY": {
@@ -13049,7 +13049,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "MSFT": {
@@ -21020,7 +21020,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "GOOGL": {
@@ -29009,7 +29009,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "AMZN": {
@@ -37136,7 +37136,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "META": {
@@ -45103,7 +45103,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "AAPL": {
@@ -53185,7 +53185,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "TSLA": {
@@ -61312,7 +61312,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "ORCL": {
@@ -69710,7 +69710,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "CRM": {
@@ -76657,7 +76657,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 151,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "PLTR": {
@@ -85529,7 +85529,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "NVDA": {
@@ -93328,7 +93328,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "AMD": {
@@ -101468,7 +101468,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "AVGO": {
@@ -110526,7 +110526,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "QCOM": {
@@ -118285,7 +118285,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 167,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "ARM": {
@@ -123653,7 +123653,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "MRVL": {
@@ -132193,7 +132193,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 182,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "INTC": {
@@ -132417,72 +132417,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Entegris, Intel, KLA Corporation, Lam Research 및 Microchip Technology 주가 하락, 알아야 할 사항"
-      },
-      {
-        "headline": "AMD at 4 Milestones: Total Return From the Intel Settlement to the $1 Trillion Club",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=02dce43ec9539fb69ee339908e2077c295d212c60d148ed07440081c8f24b1ad",
-        "datetime": 1790691046,
-        "headlineKo": "4개 이정표의 AMD: 인텔 합의에서 1조 달러 클럽으로의 총 수익",
-        "relevance": 0.5,
-        "keywordFlag": true,
-        "flagTerms": [
-          "settlement"
-        ],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "4개 이정표의 AMD: Intel 합의에서 $1 조 클럽으로의 총 수익 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,687.60 −0.14% Dow Jones 51,436.00 −0.25% Nasdaq 100 30,408.90 +0.26% Russell 2000 2,811.26 −0.45% S&P 500 7,687.60 −0.14% 다우존스 51,436.00 −0.25% 나스닥 100 30,408.90 +0.26% 러셀 2000 2,811.26 −0.",
-            "각 진입점은 매우 다른 결과를 가져왔고, 그 격차는 대부분의 이정표 헤드라인이 묻혀 있는 무언가를 드러냅니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $1 Trillion, $1 trillion, $6.48 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "INTC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "INTC에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$1 Trillion",
-            "$1 trillion",
-            "$6.48",
-            "$607.87",
-            "9,280.71%",
-            "$3.28",
-            "18,432.62%",
-            "$114.27"
-          ],
-          "sourceExcerpt": [
-            "AMD at 4 Milestones: Total Return From the Intel Settlement to the $1 Trillion Club - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,687.60 −0.14% Dow Jones 51,436.00 −0.25% Nasdaq 100 30,408.90 +0.26% Russell 2000 2,811.26 −0.45% S&P 500 7,687.60 −0.14% Dow Jones 51,436.00 −0.25% Nasdaq 100 30,408.90 +0.26% Russell 2000 2,811.26 −0.",
-            "Each entry point produced a wildly different outcome, and the gaps reveal something most milestone headlines bury."
-          ],
-          "analysisUpdatedAt": 1790711183.4809384
-        }
       }
     ],
     "newsHistory": [
@@ -140703,9 +140637,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 186,
+      "checked": 185,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "TSM": {
@@ -148101,7 +148035,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 161,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "ASML": {
@@ -153206,7 +153140,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 105,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "AMAT": {
@@ -158175,7 +158109,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "LRCX": {
@@ -160894,7 +160828,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "KLAC": {
@@ -163584,7 +163518,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "MU": {
@@ -171373,7 +171307,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "SNDK": {
@@ -179778,7 +179712,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 176,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "WDC": {
@@ -184590,7 +184524,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "ANET": {
@@ -188504,7 +188438,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "COHR": {
@@ -191806,7 +191740,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "LITE": {
@@ -195924,7 +195858,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "GEV": {
@@ -201123,7 +201057,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "CEG": {
@@ -205829,7 +205763,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "VST": {
@@ -209274,7 +209208,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "ETN": {
@@ -212438,7 +212372,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "PWR": {
@@ -215511,7 +215445,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "HUBB": {
@@ -216179,7 +216113,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "VRT": {
@@ -220305,7 +220239,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "MOD": {
@@ -221633,7 +221567,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "STX": {
@@ -225894,7 +225828,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "EME": {
@@ -227657,7 +227591,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "FIX": {
@@ -229347,7 +229281,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   },
   "BE": {
@@ -231767,7 +231701,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-10-13 21:38"
+      "updated": "2026-10-13 23:11"
     }
   }
 };
