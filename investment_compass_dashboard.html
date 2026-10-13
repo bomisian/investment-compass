@@ -6430,6 +6430,25 @@ function renderPriceValidityCard(r){
     ? (posLine ? `<div style="margin-top:8px;font-size:12px;color:${NEU_TEXT};background:${NEU_BG};border-radius:8px;padding:8px 10px;line-height:1.5;">${posLine}</div>` : '')
     : `<div style="margin-top:8px;font-size:11.5px;color:${NEU_DIM};background:${NEU_BG};border:1px solid ${NEU_LINE};border-radius:8px;padding:8px 10px;line-height:1.5;">숫자 가격대 대신 <b>대체 모델상 ${esc(d.price)} 판단</b> — ${esc(d.distorted ? ('과거 PER 비교 가능성 제한(평균÷현재NTM PER ' + (num(d.distortionRatio)?d.distortionRatio.toFixed(1):'—') + '배 차이)') : (d.blockReason||'유효한 과거 PER 밴드 없음'))}. 사업·현금흐름·차트는 아래 "판단 근거 보기"에서 계속 확인할 수 있습니다.</div>`;
 
+  // --- 51757 -- "가격: X" 헤드라인(PER 밴드 비교)과 바로 아래 position 문장(3년 평균 PER
+  //     기준 EPS 시나리오 비교)이 서로 다른 잣대를 쓰다 보니, 같은 카드 안에서 "적정"인데
+  //     바로 밑에는 "+19% 기대 선반영 경계"처럼 모순돼 보이는 문구가 동시에 뜨는 문제가
+  //     실측(WDC)으로 확인됨(사용자 제공 외부 검토 문서). 가격 분류(d.price)도, 시나리오
+  //     표 숫자도 전혀 바꾸지 않고, 두 표현이 왜 다른 기준인지 설명하는 문장만 조건부로
+  //     추가한다. ---
+  let positionMismatchNote = '';
+  if(posSeg && bandDisplayEligible && typeof posSeg.pct === 'number'){
+    // 기준(base, 3년 평균 PER) 대비 괴리율이 눈에 띄게 크면(±15%p) "가격: 적정/저평가/고평가"
+    // 헤드라인과 다르게 보일 수 있음 — posLabel(보수/기준~상방/상방 이상) 구간 경계가 아니라
+    // pct 자체로 판단해야 실제로 눈에 띄는 괴리(WDC: 기준~상방 구간인데도 +19%)를 놓치지 않는다.
+    const highMismatch = (posSeg.pct >= 15) && (d.price !== '고평가');
+    const lowMismatch = (posSeg.pct <= -15) && (d.price !== '저평가');
+    if(highMismatch || lowMismatch){
+      const perTxt = `현재 NTM PER ${num(d.ntmPer)?d.ntmPer.toFixed(1):'—'}배, 밴드 ${num(d.perBandLowVal)?d.perBandLowVal.toFixed(1):'—'}~${num(d.perBandHighVal)?d.perBandHighVal.toFixed(1):'—'}배`;
+      positionMismatchNote = `<div style="margin-top:4px;font-size:11px;color:${NEU_DIM};background:#fff8ea;border:1px solid #e9dcb8;border-radius:8px;padding:7px 9px;line-height:1.5;">※ 위 "가격: ${esc(d.price)}" 판정과 바로 위 문장이 다르게 느껴질 수 있어요 — 서로 다른 기준입니다. "가격" 판정은 <b>PER 밴드</b>(${perTxt}) 안에 있는지로 결정되고, 바로 위 문장은 <b>3년 평균 PER</b>을 기준값으로 쓴 EPS 시나리오 비교예요. 둘 다 맞는 계산이고 모순이 아니지만, 서로 다른 질문에 대한 답이라 다르게 보일 수 있습니다.</div>`;
+    }
+  }
+
   // --- 51738/51739 -- 독립 건전성 교차검증(참고용 배지). 과거 PER 밴드와 다른 두 산식(EPS
   //     연환산 배수, FCF 수익률)으로 가격 라벨을 상식적으로 검산한다. 가격대·종합 행동을 바꾸지
   //     않으며, 배지는 "일치/기대 선반영 확인 필요/현금흐름 정의 차이/비교 기준 제한" 4개
@@ -6575,7 +6594,7 @@ function renderPriceValidityCard(r){
   //     남겨두되(다른 곳에서 참조하지 않음, 삭제 리스크를 줄이기 위해 죽은 코드로 보존) 카드에서는
   //     더 이상 호출·렌더링하지 않는다. 매수 구간·무효화 조건·포지션 크기·다음 실적일은 가격
   //     판단이 정상화된 뒤에 별도로 다룬다(사용자 명시).
-  return `${headHtml}${fixedFormatBox}${fallbackAxesBox}${conclusionBox}${positionBox}${crossCheckBox}${evidenceDetails}${targetRef}${footNote}`;
+  return `${headHtml}${fixedFormatBox}${fallbackAxesBox}${conclusionBox}${positionBox}${positionMismatchNote}${crossCheckBox}${evidenceDetails}${targetRef}${footNote}`;
 }
 if(typeof HINTS !== 'undefined'){
   HINTS.priceValidityCard = 'EPS 성장·수정 방향, 현재가가 요구하는 밸류에이션, 현금흐름·부채·희석, 103 기술적 진입 상태를 결합해 "가격이 사업 펀더멘털 대비 타당한가"를 보여주는 읽기 전용 카드입니다. 맨 위에는 오늘의 판단·오늘의 행동·가격/사업/현금흐름/차트 4축·판단이 바뀌는 조건이 먼저 나오고, EPS·PER·현금흐름 원자료와 가격대 표는 "판단 근거 보기"를 펼쳐야 보입니다. NTM PER은 독립 밸류에이션 모듈의 값을 우선 쓰고, 없으면 eps_data.js의 애널리스트 컨센서스로 같은 방식(일수 가중 선형보간)을 재현한 공통 계산기로 보완합니다. 과거 PER 밴드는 종목 자신의 중앙값 기반 백분위(5년 이상 흑자 이력)를 우선 쓰고, 상장 이력이 짧은 종목은 기존 전체 통계 폴백(0.64~1.55배)을 적용합니다. 과거 PER 유효 관측치가 전혀 없는 극소수 종목만 숫자 가격대를 차단하고, 그 외엔 사업·현금흐름·차트 평가를 그대로 보여줍니다. 애널리스트 목표가는 가격 기준으로 쓰지 않고 시장 기대 참고로만 보조 사용합니다. 가격 타당성과 기술적 진입 타이밍은 분리된 축으로 표시되며 한쪽이 다른 쪽을 깎지 않습니다. 매수·매도 신호가 아니고 자동매매·알림과 연결되지 않습니다.';
