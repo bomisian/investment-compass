@@ -203,72 +203,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "다우존스, S&P 500, 나스닥 100 전망: 이번 주 주요 주식 시장 뉴스"
-      },
-      {
-        "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Gains as Trump Dismisses Iran Sanction Relief as 'Hoax'— Nvidia, AAR, Vail Resorts in Focus (UPDATED)",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=24275e242ce9a626427b55f60ddd117b7b87a1cb43f69dd1243c9b04200510dc",
-        "datetime": 1790670669,
-        "headlineKo": "오늘의 주식 시장: 트럼프가 이란 제재 완화를 '사기'로 일축하면서 Dow Jones, S&P 500, Nasdaq 100 상승— Nvidia, AAR, Vail Resorts in Focus(업데이트됨)",
-        "relevance": 0.67,
-        "keywordFlag": true,
-        "flagTerms": [
-          "sanction"
-        ],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "오늘의 주식 시장: 트럼프가 이란 제재 조치를 해제하면서 다우 존스, S&P 500 선물 전표, 나스닥 100 상승 - Benzinga SPY 765.39 QQQ 737.64 +0.15% BTC/USD 83,767.55 +0.37% DIA 513.53 −0.10% GLD 379.53 +0.43% TLT 78.63 +0.01% US 로그인 Regis",
-            "화요일에는 다우존스와 S&P 500 선물이 하락세를 보이고, 나스닥 100 지수 선물은 월요일 하락세에 이어 상승하는 혼조세를 보일 것으로 예상됩니다.",
-            "미국과 테헤란 간 간접 협상이 진행되면서 유가가 상승했다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.15%, 0.37%, 0.10% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.15%",
-            "0.37%",
-            "0.10%",
-            "0.43%",
-            "0.01%",
-            "5.24%",
-            "4.94%",
-            "72.5%"
-          ],
-          "sourceExcerpt": [
-            "Stock Market Today: Dow Jones, S&P 500 Futures Slip, Nasdaq 100 Gains as Trump Dismisses Iran Sanction Re - Benzinga SPY 765.39 QQQ 737.64 +0.15% BTC/USD 83,767.55 +0.37% DIA 513.53 −0.10% GLD 379.53 +0.43% TLT 78.63 +0.01% US Sign in Regis",
-            "stocks look set for a mixed opening on Tuesday, with the Dow Jones and S&P 500 futures edging lower, while futures of the Nasdaq 100 index rose, following Monday’s lower close.",
-            "Oil prices rose amid ongoing indirect negotiations between Washington and Tehran."
-          ],
-          "analysisUpdatedAt": 1790712014.1357725
-        }
       }
     ],
     "newsHistory": [
@@ -5810,9 +5744,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 113,
+      "checked": 112,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "SPY": {
@@ -6031,72 +5965,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "오늘의 주식 시장: 이란이 평화 조건에 대한 미국의 대응이 '부적절'하다고 표시함에 따라 S&P 500, 다우 선물 상승, 나스닥 100 하락 — SMP, QMCO, SVRN 초점(업데이트됨)"
-      },
-      {
-        "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Gains as Trump Dismisses Iran Sanction Relief as 'Hoax'— Nvidia, AAR, Vail Resorts in Focus (UPDATED)",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=24275e242ce9a626427b55f60ddd117b7b87a1cb43f69dd1243c9b04200510dc",
-        "datetime": 1790670669,
-        "headlineKo": "오늘의 주식 시장: 트럼프가 이란 제재 완화를 '사기'로 일축하면서 Dow Jones, S&P 500, Nasdaq 100 상승— Nvidia, AAR, Vail Resorts in Focus(업데이트됨)",
-        "relevance": 0.5,
-        "keywordFlag": true,
-        "flagTerms": [
-          "sanction"
-        ],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "오늘의 주식 시장: 트럼프가 이란 제재 조치를 해제하면서 다우 존스, S&P 500 선물 전표, 나스닥 100 상승 - Benzinga SPY 765.39 QQQ 737.64 +0.15% BTC/USD 83,767.55 +0.37% DIA 513.53 −0.10% GLD 379.53 +0.43% TLT 78.63 +0.01% US 로그인 Regis",
-            "화요일에는 다우존스와 S&P 500 선물이 하락세를 보이고, 나스닥 100 지수 선물은 월요일 하락세에 이어 상승하는 혼조세를 보일 것으로 예상됩니다.",
-            "미국과 테헤란 간 간접 협상이 진행되면서 유가가 상승했다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.15%, 0.37%, 0.10% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "SPY",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "SPY에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.15%",
-            "0.37%",
-            "0.10%",
-            "0.43%",
-            "0.01%",
-            "5.24%",
-            "4.94%",
-            "72.5%"
-          ],
-          "sourceExcerpt": [
-            "Stock Market Today: Dow Jones, S&P 500 Futures Slip, Nasdaq 100 Gains as Trump Dismisses Iran Sanction Re - Benzinga SPY 765.39 QQQ 737.64 +0.15% BTC/USD 83,767.55 +0.37% DIA 513.53 −0.10% GLD 379.53 +0.43% TLT 78.63 +0.01% US Sign in Regis",
-            "stocks look set for a mixed opening on Tuesday, with the Dow Jones and S&P 500 futures edging lower, while futures of the Nasdaq 100 index rose, following Monday’s lower close.",
-            "Oil prices rose amid ongoing indirect negotiations between Washington and Tehran."
-          ],
-          "analysisUpdatedAt": 1790708426.926261
-        }
       }
     ],
     "newsHistory": [
@@ -13158,9 +13026,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 148,
+      "checked": 147,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "MSFT": {
@@ -21206,7 +21074,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "GOOGL": {
@@ -29155,7 +29023,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "AMZN": {
@@ -37285,7 +37153,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "META": {
@@ -45248,7 +45116,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "AAPL": {
@@ -53188,7 +53056,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "TSLA": {
@@ -61287,7 +61155,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "ORCL": {
@@ -69685,7 +69553,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "CRM": {
@@ -76569,7 +76437,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 150,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "PLTR": {
@@ -85347,7 +85215,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "NVDA": {
@@ -93115,7 +92983,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "AMD": {
@@ -101232,7 +101100,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "AVGO": {
@@ -110324,7 +110192,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "QCOM": {
@@ -117999,7 +117867,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 165,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "ARM": {
@@ -123367,7 +123235,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "MRVL": {
@@ -131822,7 +131690,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 181,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "INTC": {
@@ -140269,7 +140137,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "TSM": {
@@ -147525,7 +147393,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 159,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "ASML": {
@@ -152630,7 +152498,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 105,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "AMAT": {
@@ -157599,7 +157467,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "LRCX": {
@@ -160268,7 +160136,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "KLAC": {
@@ -162958,7 +162826,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "MU": {
@@ -170783,7 +170651,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "SNDK": {
@@ -179065,7 +178933,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 172,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "WDC": {
@@ -183877,7 +183745,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "ANET": {
@@ -187791,7 +187659,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "COHR": {
@@ -191093,7 +190961,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "LITE": {
@@ -195162,7 +195030,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "GEV": {
@@ -200361,7 +200229,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "CEG": {
@@ -205067,7 +204935,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "VST": {
@@ -208512,7 +208380,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "ETN": {
@@ -211676,7 +211544,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "PWR": {
@@ -214700,7 +214568,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "HUBB": {
@@ -215368,7 +215236,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "VRT": {
@@ -219494,7 +219362,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "MOD": {
@@ -220822,7 +220690,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "STX": {
@@ -225083,7 +224951,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "EME": {
@@ -226846,7 +226714,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "FIX": {
@@ -228536,7 +228404,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   },
   "BE": {
@@ -230956,7 +230824,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-10-13 15:13"
+      "updated": "2026-10-13 17:53"
     }
   }
 };
