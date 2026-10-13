@@ -72,22 +72,22 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 93.16999816894531,
+      "current": 92.91000366210938,
       "prevClose": 91.8499984741211,
-      "changeAbs": 1.3199996948242188,
-      "changePct": 1.4371254401230404,
-      "pctRank": 86.2370723945903,
+      "changeAbs": 1.0600051879882812,
+      "changePct": 1.1540611928120388,
+      "pctRank": 85.8392999204455,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -17.512172920518797,
-      "ma20": 94.00300025939941,
-      "ma60": 88.66050046284994,
-      "chg1m": -6.8800048828125,
-      "chg3m": 13.830001831054688,
-      "chg1mPct": -6.876566389761467,
-      "chg3mPct": 17.431311405858807,
-      "lastDate": "2026-10-12",
+      "drawdown1y": -17.742358413091296,
+      "ma20": 93.99000053405761,
+      "ma60": 88.65616722106934,
+      "chg1m": -7.1399993896484375,
+      "chg3m": 13.57000732421875,
+      "chg1mPct": -7.1364309563836565,
+      "chg3mPct": 17.103614759984662,
+      "lastDate": "2026-10-13",
       "bars": 1257,
       "symbol": "CL=F",
       "label": "WTI 유가",
@@ -95,45 +95,45 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 102.53600311279297,
-      "prevClose": 102.20999908447266,
-      "changeAbs": 0.3260040283203125,
-      "changePct": 0.3189551230216553,
-      "pctRank": 52.02863961813843,
+      "current": 102.48200225830078,
+      "prevClose": 102.58000183105469,
+      "changeAbs": -0.09799957275390625,
+      "changePct": -0.09553477383955186,
+      "pctRank": 51.35135135135135,
       "min5y": 93.3499984741211,
       "max5y": 114.11000061035156,
-      "high1y": 102.53600311279297,
-      "drawdown1y": 0.0,
-      "ma20": 101.29829978942871,
-      "ma60": 100.29876658121745,
-      "chg1m": 3.4160003662109375,
-      "chg3m": 1.5960006713867188,
-      "chg1mPct": 3.44632795758143,
-      "chg3mPct": 1.5811379361845832,
-      "lastDate": "2026-10-12",
-      "bars": 1257,
+      "high1y": 102.58000183105469,
+      "drawdown1y": -0.09553477383955622,
+      "ma20": 101.4420997619629,
+      "ma60": 100.32436663309733,
+      "chg1m": 3.022003173828125,
+      "chg3m": 1.9820022583007812,
+      "chg1mPct": 3.038410618988141,
+      "chg3mPct": 1.972141550548041,
+      "lastDate": "2026-10-13",
+      "bars": 1258,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
       "unit": "",
       "digits": 1
     },
     "gold": {
-      "current": 4198.0,
+      "current": 4186.60009765625,
       "prevClose": 4216.2998046875,
-      "changeAbs": -18.2998046875,
-      "changePct": -0.4340252243722106,
-      "pctRank": 85.45310015898251,
+      "changeAbs": -29.69970703125,
+      "changePct": -0.7044021632008035,
+      "pctRank": 85.21462639109699,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -21.066484711877422,
-      "ma20": 4259.90498046875,
-      "ma60": 4327.731656901042,
-      "chg1m": -210.89990234375,
-      "chg3m": 128.300048828125,
-      "chg1mPct": -4.783503980928137,
-      "chg3mPct": 3.1525677658663964,
-      "lastDate": "2026-10-12",
+      "drawdown1y": -21.28083306012266,
+      "ma20": 4259.334985351563,
+      "ma60": 4327.541658528646,
+      "chg1m": -222.2998046875,
+      "chg3m": 116.900146484375,
+      "chg1mPct": -5.04206966842968,
+      "chg3mPct": 2.8724512344138162,
+      "lastDate": "2026-10-13",
       "bars": 1258,
       "symbol": "GC=F",
       "label": "금",
@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 5.637793791087997,
-        "ret3m": 18.32244149129543,
-        "ret6m": 28.07401682380042,
-        "ret1y": 6.713617935033045,
+        "ret1m": 4.629713678349856,
+        "ret3m": 18.43384290880379,
+        "ret6m": 24.19824294236377,
+        "ret1y": 6.040926451854545,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 4.778195262987928,
-        "ret3m": 0.38464519985088597,
-        "ret6m": 57.18281814808552,
-        "ret1y": 161.11411947808466,
+        "ret1m": 1.5536231515128174,
+        "ret3m": -4.083223262676039,
+        "ret6m": 49.69765492656839,
+        "ret1y": 156.0903562183021,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": 13.487726637332553,
-        "ret3m": 22.83865496592108,
-        "ret6m": 27.86714208319554,
-        "ret1y": 222.72958110734947,
+        "ret1m": 1.5634507414642895,
+        "ret3m": 10.248534890005168,
+        "ret6m": 17.649140635548612,
+        "ret1y": 194.02191309507182,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": 5.168711733363351,
-        "ret3m": 1.748575394210805,
-        "ret6m": 6.822536499270715,
-        "ret1y": 42.913818227986724,
+        "ret1m": -0.9329441286736739,
+        "ret3m": -2.0908054742909243,
+        "ret6m": 2.038706764486431,
+        "ret1y": 39.910892351464724,
         "winRate": null,
         "count": 12
       }
@@ -229,8 +229,8 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.18715741103526012,
-    "corrPctRank": 5.2808046940486175,
+    "corr60": 0.1846961762811603,
+    "corrPctRank": 5.108877721943048,
     "corrMin5y": 0.036257837878636255,
     "corrMedian5y": 0.7009143150939594,
     "corrMax5y": 0.9306761077384692
@@ -246,6 +246,15 @@ const MARKET_DATA = {
       "summaryKo": "양당 국회의원들이 불만을 토로하자 트럼프는 러시아 디젤 거래를 옹호했습니다."
     },
     {
+      "headline": "US hopes diesel deal can 'soften' Moscow on peace talks, sources say - Reuters",
+      "summary": "US hopes diesel deal can 'soften' Moscow on peace talks, sources say Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQY1h5ek9QWEw0bXVmSUpuTlA1MDlVNXg1SzlnSkpwT1BXLVZHVnNMT1k0V3pfaU8tVFhUcWw1TWl1SE9Kcm04T0RYNjlhbGdyaUFQZEtOU2x6NmtJOGVfYXFWaHY3b1R0TDA5SzVsSDg0UTU2M2NGZk50WEZRTHBTSnJVWTBGbUJ6RjlnWFp0WTl1bkdWYmNYcl9ISXFSNS10OTBUZmVwQXpKSkI5REN1YTdkbnE?oc=5",
+      "datetime": 1791845895,
+      "headlineKo": "미국은 디젤 거래가 모스크바의 평화 회담을 '완화'시킬 수 있기를 바라고 있다고 소식통은 전했습니다.",
+      "summaryKo": "미국은 디젤 거래가 모스크바의 평화 회담을 '완화'시킬 수 있기를 희망한다고 소식통은 로이터 통신을 통해 밝혔습니다."
+    },
+    {
       "headline": "Here's a calculator to explain why Cramer always stays invested. Plug in your own numbers, too",
       "summary": "Small, consistent gains over time, compounded through regular contributions, can supercharge your wealth",
       "source": "CNBC",
@@ -253,15 +262,6 @@ const MARKET_DATA = {
       "datetime": 1791838929,
       "headlineKo": "Cramer가 항상 투자를 유지하는 이유를 설명하는 계산기가 있습니다. 자신의 전화번호도 입력하세요.",
       "summaryKo": "정기적인 기부를 통해 시간이 지남에 따라 작고 지속적인 이익을 얻으면 부를 극대화할 수 있습니다."
-    },
-    {
-      "headline": "US hopes diesel deal can 'soften' Moscow on peace talks, sources say - Reuters",
-      "summary": "US hopes diesel deal can 'soften' Moscow on peace talks, sources say Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQY1h5ek9QWEw0bXVmSUpuTlA1MDlVNXg1SzlnSkpwT1BXLVZHVnNMT1k0V3pfaU8tVFhUcWw1TWl1SE9Kcm04T0RYNjlhbGdyaUFQZEtOU2x6NmtJOGVfYXFWaHY3b1R0TDA5SzVsSDg0UTU2M2NGZk50WEZRTHBTSnJVWTBGbUJ6RjlnWFp0WTl1bkdWYmNYcl9ISXFSNS10OTBUZmVwQXpKSkI5REN1YTdkbnE?oc=5",
-      "datetime": 1791837190,
-      "headlineKo": "미국은 디젤 거래가 모스크바의 평화 회담을 '완화'시킬 수 있기를 바라고 있다고 소식통은 전했습니다.",
-      "summaryKo": "미국은 디젤 거래가 모스크바의 평화 회담을 '완화'시킬 수 있기를 희망한다고 소식통은 로이터 통신을 통해 밝혔습니다."
     },
     {
       "headline": "Bear to bull: A double upgrade of Salesforce illustrates the folly of the 'SaaSpocalypse'",
@@ -291,13 +291,22 @@ const MARKET_DATA = {
       "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
     },
     {
-      "headline": "UK PM Burnham says Iran's IRGC likely behind RAF Fairford incident - Reuters",
-      "summary": "UK PM Burnham says Iran's IRGC likely behind RAF Fairford incident Reuters",
+      "headline": "Saudi-led coalition says it destroyed Houthi ballistic missile fired towards Riyadh - Reuters",
+      "summary": "Saudi-led coalition says it destroyed Houthi ballistic missile fired towards Riyadh Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWWJ0NVNWU296YXNLZ1BDNC11S1V3MW5uY1ViQ2M3VmZ4eVZVLWtTT2x4MG4zOGJncUVrOFFyZkcwekpYZXpWRWhvc0lxWkhveHU3MmV0VW03dEo1RmN4dzVhSVFWajBzMXlZVDFQWXRkQ3V3eFdVTDdadFpJNjFCVzVlQ05WMkYxZEpmelV6RDdBaWhSN19YVDJROXcySFo0anBOWTNQYk81TENDaUY4?oc=5",
-      "datetime": 1791825145,
-      "headlineKo": "번햄 영국 총리는 이란의 IRGC가 RAF 페어포드 사건의 배후일 가능성이 있다고 말했습니다-로이터",
-      "summaryKo": "번햄 영국 총리는 이란의 IRGC가 RAF 페어포드 사건의 배후일 가능성이 있다고 말했습니다 - 최신"
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdFZXdXoyS25SWEFjcG8tR1NrRmhxcUEtMjZHV3BESHFtb0FPSE1ldjVGdERDRjZScHhJbzIteGhOVUtDcUdZMDdKVUI0c0lpSF9nUmlKVC1WMDdqWGlaMWZfU1JJeHhsOVRaWkpmMFJLNXBPZFBnLXJ6MGxmOWRRcWp4QksyMzdSSjRXdl9lMGZROUFFdUZNRUYydFhZbWU2MkIwNFNoX05qY2o1WWtBTkpvbExXRHozaFVmR1FOMGpSWllyb1p3RW1B?oc=5",
+      "datetime": 1791829553,
+      "headlineKo": "사우디 주도 연합군, 리야드를 향해 발사된 후티 탄도미사일을 파괴했다고 발표 - 로이터",
+      "summaryKo": "사우디 주도 연합군, 리야드를 향해 발사된 후티 탄도미사일 파괴했다고 발표 - 로이터"
+    },
+    {
+      "headline": "Likely unexploded ordnance kills teenager in northern Israel - Reuters",
+      "summary": "Likely unexploded ordnance kills teenager in northern Israel Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeWQ1cjJsQXBjdk5ST0Y5QmROZllXaUR4RDFxb2Q1TTZEMll6ZmsxOXp2alM4dTd3ZndjVmtjSUxaeV9NOU9oX090N3Q5RHd4R01IS2VoUFVmTEJlT240bUxmZmt2eVcta1cxenFpQzhJTUo2Um9hM1lHQ281b2xMLXRhYU9DTENhZDJtOXJnZDkxNWVIVmRJanlkQXRibHU5SUs5UFBFbUhsMHYyOF81VQ?oc=5",
+      "datetime": 1791825463,
+      "headlineKo": "이스라엘 북부에서 불발탄으로 10대 사망 - 로이터 통신",
+      "summaryKo": "이스라엘 북부에서 불발탄으로 10대 사망 - 로이터통신"
     },
     {
       "headline": "What's in the diesel deal between Putin and Trump? - Reuters",
@@ -307,6 +316,15 @@ const MARKET_DATA = {
       "datetime": 1791820803,
       "headlineKo": "푸틴과 트럼프의 디젤 거래에는 어떤 내용이 있나요? - 로이터",
       "summaryKo": "푸틴과 트럼프의 디젤 거래에는 어떤 내용이 있나요? 로이터"
+    },
+    {
+      "headline": "Powerful waves from Tropical Storm Rachel slam California coast - Reuters",
+      "summary": "Powerful waves from Tropical Storm Rachel slam California coast Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMEZKdW40OFFLMlJic0E5R2U3R0dfV3F3d1dUUkNoUHRmT0FYQUxnTDJSeVdxSk1oVE1XVGlKOFBPRy1VV3o3ME5rMV8yV0hXUUZxeG9ZVEdxZkxWOFAzRGVXT2NrZE1HSVdQUkcwUElBdnBMUThzTkM1UzZvWW41d2VWUGlBMDAxczhuWkVmd1o0ZzkxWVFkWTBMeXBtZV9vUzctXzRn?oc=5",
+      "datetime": 1791819120,
+      "headlineKo": "열대성 폭풍 레이첼의 강력한 파도가 캘리포니아 해안을 강타했습니다 - 로이터 통신",
+      "summaryKo": "열대 폭풍 레이첼의 강력한 파도가 캘리포니아 해안을 강타했습니다."
     },
     {
       "headline": "Parenting in the digital age can be ‘a very anxiety provoking experience,’ says Emily Oster: How parents can lower that anxiety",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1791817002,
       "headlineKo": "맥도날드는 성장을 위해 치킨과 음료에 주력하고 있습니다. 새로운 데이터에 따르면 이는 어려운 작업이 될 수 있습니다.",
       "summaryKo": "McDonald's는 닭고기와 음료 분야의 성장을 목표로 삼고 있지만 Consumer Edge 데이터에 따르면 Chick-fil-A와 커피 체인이 고객 지출에서 증가하고 있는 것으로 나타났습니다."
-    },
-    {
-      "headline": "Delta pushes back Atlanta-Riyadh service after Riyadh airport attacks - Reuters",
-      "summary": "Delta pushes back Atlanta-Riyadh service after Riyadh airport attacks Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV2IxbVRMM1FQaTJjRjkzYldNOEtYS1FPLUhINTlNYUFiR1d6LVlLNkZsejYyOVFOTENmNmZVVVl6STRkZjREMzA4NGZ5aWZNcDRfOEJQYmZETTVFVU1EWXdKQWVPMjl0UkpZRkZFNFpZRXA5cXQ0T0ZuZ1ItSWFFY0o5bE41UEtLNGgwenpnMGF0OXRPWDNFRm9ubmRreXZSWUJMczFWYmNuSEhKZmNkTDd0cHcwME1VdFBKamhaS3I?oc=5",
-      "datetime": 1791816702,
-      "headlineKo": "델타, 리야드 공항 테러 이후 애틀랜타-리야드 노선 취소 - 로이터",
-      "summaryKo": "델타항공, 리야드 공항 공격 이후 애틀랜타-리야드 노선 취소 - 최신"
-    },
-    {
-      "headline": "Airlines cancel flights to Saudi Arabia after Riyadh airport attacks - Reuters",
-      "summary": "Airlines cancel flights to Saudi Arabia after Riyadh airport attacks Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX0c4YlJSYUNrT1pqLTA2TmFjdDZUdmh2Z3pXbG9vWF9mdS0tZFZ6M2tYTVUzRjZVTzhodnh4WU0waXV1bjZENURjUVhmRVZPN251V2laQmNMZ3JoNmIzZE5hWU82YkxIWTdvd2xNczBkNnEta0xGdzlmaGlFNkZ5M1lxcGZUNW5pRnMxV1pPT0NxMXZmOWpEUmpBNXRUcksyZWQ5Sm9pM1QweFFWdmZYVkdid0s1dUJSanNN?oc=5",
-      "datetime": 1791816485,
-      "headlineKo": "리야드 공항 테러 이후 항공사들이 사우디아라비아행 항공편을 취소하다 - 로이터",
-      "summaryKo": "리야드 공항 공격 후 항공사들이 사우디아라비아행 항공편을 취소했습니다 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1791849646.6703262,
+  "_news_last_success_at": 1791854128.4538774,
   "fgi": {
     "score": 45.7428571428571,
     "rating": "neutral"
   },
-  "_fetched_at": 1791849638.4640908,
-  "_updated_label": "2026-10-13 09:01",
-  "_last_attempt_at": 1791849638.4640908,
-  "_last_success_at": 1791849638.4640908,
+  "_fetched_at": 1791854115.572848,
+  "_updated_label": "2026-10-13 10:15",
+  "_last_attempt_at": 1791854115.572848,
+  "_last_success_at": 1791854115.572848,
   "_collection_status": "ok",
   "_collection_errors": []
 };
