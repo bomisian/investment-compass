@@ -5858,7 +5858,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "SPY": {
@@ -13249,7 +13249,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 152,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "MSFT": {
@@ -21079,7 +21079,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "GOOGL": {
@@ -29042,7 +29042,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "AMZN": {
@@ -37341,7 +37341,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "META": {
@@ -45309,7 +45309,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "AAPL": {
@@ -45522,30 +45522,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Apple의 HomeView: 마침내 스마트 홈 시장에 진출할 수 있을까요?"
-      },
-      {
-        "headline": "New Apple CEO John Ternus is reportedly planning layoffs as memory chip costs rise",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3a3c53f4d1935a882ea9318c808bf456252017decb3265b930b297a89f89735b",
-        "datetime": 1790711254,
-        "headlineKo": "애플 신임 CEO 존 터너스가 메모리 칩 가격 상승으로 해고를 계획하고 있는 것으로 알려졌다.",
-        "relevance": 0.29,
-        "keywordFlag": true,
-        "flagTerms": [
-          "layoffs"
-        ]
-      },
-      {
-        "headline": "New Apple CEO John Ternus is reportedly planning layoffs as costs rise",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=daf366ca1789623436e32dbebedb36d24272dca7b9e4a25bf31d5d33397d6656",
-        "datetime": 1790711254,
-        "headlineKo": "애플 신임 CEO 존 터너스가 비용 상승으로 해고를 계획하고 있는 것으로 알려졌다.",
-        "relevance": 0.29,
-        "keywordFlag": true,
-        "flagTerms": [
-          "layoffs"
-        ]
       }
     ],
     "newsHistory": [
@@ -53391,9 +53367,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 187,
+      "checked": 185,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "TSLA": {
@@ -61500,7 +61476,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "ORCL": {
@@ -69941,7 +69917,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "CRM": {
@@ -77023,7 +76999,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 156,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "PLTR": {
@@ -85841,7 +85817,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "NVDA": {
@@ -93739,7 +93715,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "AMD": {
@@ -101901,7 +101877,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "AVGO": {
@@ -110939,7 +110915,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "QCOM": {
@@ -118733,7 +118709,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 168,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "ARM": {
@@ -124101,7 +124077,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "MRVL": {
@@ -132775,7 +132751,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "INTC": {
@@ -141233,7 +141209,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "TSM": {
@@ -148700,7 +148676,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 163,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "ASML": {
@@ -153909,7 +153885,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 109,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "AMAT": {
@@ -159023,7 +158999,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 105,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "LRCX": {
@@ -161800,7 +161776,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "KLAC": {
@@ -164667,7 +164643,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "MU": {
@@ -172468,7 +172444,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "SNDK": {
@@ -181067,7 +181043,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 181,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "WDC": {
@@ -186043,7 +186019,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "ANET": {
@@ -190020,7 +189996,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "COHR": {
@@ -193434,7 +193410,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "LITE": {
@@ -197710,7 +197686,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "GEV": {
@@ -202991,7 +202967,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "CEG": {
@@ -207774,7 +207750,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "VST": {
@@ -211391,7 +211367,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "ETN": {
@@ -214604,7 +214580,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "PWR": {
@@ -217773,7 +217749,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "HUBB": {
@@ -218441,7 +218417,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "VRT": {
@@ -222614,7 +222590,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "MOD": {
@@ -223942,7 +223918,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "STX": {
@@ -228406,7 +228382,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "EME": {
@@ -230169,7 +230145,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "FIX": {
@@ -231859,7 +231835,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   },
   "BE": {
@@ -234279,7 +234255,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-10-14 04:00"
+      "updated": "2026-10-14 05:00"
     }
   }
 };
