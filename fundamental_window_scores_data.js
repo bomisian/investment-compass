@@ -2,11 +2,11 @@
 const FUNDAMENTAL_WINDOW_SCORES_DATA = {
   "schemaVersion": 1,
   "scoringVersion": "fundamental-window-v1",
-  "generatedAt": 1791875766.5194921,
+  "generatedAt": 1791877901.9726737,
   "records": {
     "MSFT": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -64,7 +64,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-30 기준(10-K, 2026-07-29 공시) 매출이 전년 동기 대비 +17.8% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 331839000000,
+            "current": 331839000000.0,
             "previous": 281724000000.0,
             "changePct": 17.788686799846666,
             "periodKind": "annual"
@@ -74,7 +74,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "GOOGL": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -132,7 +132,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-30 기준(10-Q, 2026-07-23 공시) 매출이 전년 동기 대비 +24.2% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 119796000000,
+            "current": 119796000000.0,
             "previous": 96428000000.0,
             "changePct": 24.23362508814868,
             "periodKind": "quarter"
@@ -142,7 +142,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AMZN": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -207,7 +207,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-30 기준(10-Q, 2026-07-31 공시) 매출이 전년 동기 대비 +19.6% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 200606000000,
+            "current": 200606000000.0,
             "previous": 167702000000.0,
             "changePct": 19.620517346245126,
             "periodKind": "quarter"
@@ -228,8 +228,8 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-30 기준(10-Q, 2026-07-31 공시) 영업이익률이 전년 동기 대비 +2.3%p 변했어요(매출총이익 데이터가 없어 영업이익률로 대체).",
           "evidence": {
             "metric": "operating_margin",
-            "currentOpIncome": 27461000000,
-            "currentRevenue": 200606000000,
+            "currentOpIncome": 27461000000.0,
+            "currentRevenue": 200606000000.0,
             "previousOpIncome": 19171000000.0,
             "previousRevenue": 167702000000.0,
             "changePercentagePoints": 2.2574352808746228,
@@ -240,7 +240,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "META": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -326,7 +326,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-30 기준(10-Q, 2026-07-30 공시) 영업이익률이 전년 동기 대비 -12.1%p 변했어요(매출총이익 데이터가 없어 영업이익률로 대체).",
           "evidence": {
             "metric": "operating_margin",
-            "currentOpIncome": 18775000000,
+            "currentOpIncome": 18775000000.0,
             "currentRevenue": 60801000000,
             "previousOpIncome": 20441000000,
             "previousRevenue": 47516000000.0,
@@ -338,7 +338,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AAPL": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -403,7 +403,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-27 기준(10-Q, 2026-07-31 공시) 매출이 전년 동기 대비 +16.4% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 109417000000,
+            "current": 109417000000.0,
             "previous": 94036000000.0,
             "changePct": 16.356501765281383,
             "periodKind": "quarter"
@@ -424,8 +424,8 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-27 기준(10-Q, 2026-07-31 공시) 영업이익률이 전년 동기 대비 +2.6%p 변했어요(매출총이익 데이터가 없어 영업이익률로 대체).",
           "evidence": {
             "metric": "operating_margin",
-            "currentOpIncome": 35695000000,
-            "currentRevenue": 109417000000,
+            "currentOpIncome": 35695000000.0,
+            "currentRevenue": 109417000000.0,
             "previousOpIncome": 28202000000.0,
             "previousRevenue": 94036000000.0,
             "changePercentagePoints": 2.6322594954671983,
@@ -436,7 +436,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "TSLA": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -501,7 +501,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-30 기준(10-Q, 2026-07-23 공시) 매출이 전년 동기 대비 +25.5% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 28236000000,
+            "current": 28236000000.0,
             "previous": 22496000000.0,
             "changePct": 25.51564722617354,
             "periodKind": "quarter"
@@ -523,7 +523,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "evidence": {
             "metric": "operating_margin",
             "currentOpIncome": 398000000,
-            "currentRevenue": 28236000000,
+            "currentRevenue": 28236000000.0,
             "previousOpIncome": 923000000,
             "previousRevenue": 22496000000.0,
             "changePercentagePoints": -2.693403541215405,
@@ -534,7 +534,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "ORCL": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -653,7 +653,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "CRM": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -718,7 +718,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-07-31 기준(10-Q, 2026-08-27 공시) 매출이 전년 동기 대비 +10.8% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 11345000000,
+            "current": 11345000000.0,
             "previous": 10236000000.0,
             "changePct": 10.834310277452118,
             "periodKind": "quarter"
@@ -740,7 +740,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "evidence": {
             "metric": "operating_margin",
             "currentOpIncome": 2331000000,
-            "currentRevenue": 11345000000,
+            "currentRevenue": 11345000000.0,
             "previousOpIncome": 2332000000,
             "previousRevenue": 10236000000.0,
             "changePercentagePoints": -2.2358405964758354,
@@ -751,7 +751,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "PLTR": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -849,7 +849,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "NVDA": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -947,7 +947,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AMD": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1012,7 +1012,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-27 기준(10-Q, 2026-08-05 공시) 매출이 전년 동기 대비 +50.1% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 11536000000,
+            "current": 11536000000.0,
             "previous": 7685000000.0,
             "changePct": 50.11060507482108,
             "periodKind": "quarter"
@@ -1033,8 +1033,8 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-27 기준(10-Q, 2026-08-05 공시) 영업이익률이 전년 동기 대비 +19.0%p 변했어요(매출총이익 데이터가 없어 영업이익률로 대체).",
           "evidence": {
             "metric": "operating_margin",
-            "currentOpIncome": 1990000000,
-            "currentRevenue": 11536000000,
+            "currentOpIncome": 1990000000.0,
+            "currentRevenue": 11536000000.0,
             "previousOpIncome": -134000000.0,
             "previousRevenue": 7685000000.0,
             "changePercentagePoints": 18.99400321428797,
@@ -1045,7 +1045,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AVGO": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1110,7 +1110,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-08-02 기준(10-Q, 2026-09-10 공시) 매출이 전년 동기 대비 +85.5% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 29591000000,
+            "current": 29591000000.0,
             "previous": 15952000000.0,
             "changePct": 85.50025075225678,
             "periodKind": "quarter"
@@ -1131,8 +1131,8 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-08-02 기준(10-Q, 2026-09-10 공시) 영업이익률이 전년 동기 대비 +17.0%p 변했어요(매출총이익 데이터가 없어 영업이익률로 대체).",
           "evidence": {
             "metric": "operating_margin",
-            "currentOpIncome": 15955000000,
-            "currentRevenue": 29591000000,
+            "currentOpIncome": 15955000000.0,
+            "currentRevenue": 29591000000.0,
             "previousOpIncome": 5887000000.0,
             "previousRevenue": 15952000000.0,
             "changePercentagePoints": 17.013957751392798,
@@ -1143,7 +1143,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "QCOM": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1202,7 +1202,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "evidence": {
             "metric": "operating_margin",
             "currentOpIncome": 1626000000,
-            "currentRevenue": 9947000000,
+            "currentRevenue": 9947000000.0,
             "previousOpIncome": 2762000000,
             "previousRevenue": 10365000000,
             "changePercentagePoints": -10.300733782923105,
@@ -1213,7 +1213,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "ARM": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1311,7 +1311,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "MRVL": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1376,7 +1376,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-08-01 기준(10-Q, 2026-08-28 공시) 매출이 전년 동기 대비 +36.5% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 2739300000,
+            "current": 2739300000.0,
             "previous": 2006100000.0,
             "changePct": 36.54852699267235,
             "periodKind": "quarter"
@@ -1398,7 +1398,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "evidence": {
             "metric": "operating_margin",
             "currentOpIncome": 459700000,
-            "currentRevenue": 2739300000,
+            "currentRevenue": 2739300000.0,
             "previousOpIncome": 290100000,
             "previousRevenue": 2006100000.0,
             "changePercentagePoints": 2.3207652755907553,
@@ -1409,7 +1409,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "INTC": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1474,7 +1474,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-27 기준(10-Q, 2026-07-24 공시) 매출이 전년 동기 대비 +25.4% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 16128000000,
+            "current": 16128000000.0,
             "previous": 12859000000.0,
             "changePct": 25.421883505715837,
             "periodKind": "quarter"
@@ -1495,8 +1495,8 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-27 기준(10-Q, 2026-07-24 공시) 영업이익률이 전년 동기 대비 +35.8%p 변했어요(매출총이익 데이터가 없어 영업이익률로 대체).",
           "evidence": {
             "metric": "operating_margin",
-            "currentOpIncome": 1796000000,
-            "currentRevenue": 16128000000,
+            "currentOpIncome": 1796000000.0,
+            "currentRevenue": 16128000000.0,
             "previousOpIncome": -3176000000.0,
             "previousRevenue": 12859000000.0,
             "changePercentagePoints": 35.8345673371871,
@@ -1507,7 +1507,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "TSM": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1605,7 +1605,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "ASML": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -1688,7 +1688,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AMAT": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1753,7 +1753,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-07-26 기준(10-Q, 2026-08-20 공시) 매출이 전년 동기 대비 +24.8% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 9115000000,
+            "current": 9115000000.0,
             "previous": 7302000000.0,
             "changePct": 24.82881402355519,
             "periodKind": "quarter"
@@ -1774,8 +1774,8 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-07-26 기준(10-Q, 2026-08-20 공시) 영업이익률이 전년 동기 대비 +3.2%p 변했어요(매출총이익 데이터가 없어 영업이익률로 대체).",
           "evidence": {
             "metric": "operating_margin",
-            "currentOpIncome": 3075000000,
-            "currentRevenue": 9115000000,
+            "currentOpIncome": 3075000000.0,
+            "currentRevenue": 9115000000.0,
             "previousOpIncome": 2233000000.0,
             "previousRevenue": 7302000000.0,
             "changePercentagePoints": 3.1549378261548244,
@@ -1786,7 +1786,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "LRCX": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1851,7 +1851,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-28 기준(10-K, 2026-08-07 공시) 매출이 전년 동기 대비 +26.0% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 23232690000,
+            "current": 23232690000.0,
             "previous": 18435591000.0,
             "changePct": 26.020858240997,
             "periodKind": "annual"
@@ -1873,7 +1873,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "evidence": {
             "metric": "operating_margin",
             "currentOpIncome": 8199795000,
-            "currentRevenue": 23232690000,
+            "currentRevenue": 23232690000.0,
             "previousOpIncome": 5900968000,
             "previousRevenue": 18435591000.0,
             "changePercentagePoints": 3.28564829072055,
@@ -1884,7 +1884,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "KLAC": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1942,7 +1942,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-30 기준(10-K, 2026-08-06 공시) 매출이 전년 동기 대비 +11.7% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 13579476000,
+            "current": 13579476000.0,
             "previous": 12156162000.0,
             "changePct": 11.70858038910636,
             "periodKind": "annual"
@@ -1952,7 +1952,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "MU": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2080,7 +2080,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "SNDK": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2145,7 +2145,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-07-03 기준(10-K, 2026-08-17 공시) 매출이 전년 동기 대비 +175.3% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 20248000000,
+            "current": 20248000000.0,
             "previous": 7355000000.0,
             "changePct": 175.29571719918425,
             "periodKind": "annual"
@@ -2167,7 +2167,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "evidence": {
             "metric": "operating_margin",
             "currentOpIncome": 12389000000,
-            "currentRevenue": 20248000000,
+            "currentRevenue": 20248000000.0,
             "previousOpIncome": -1377000000,
             "previousRevenue": 7355000000.0,
             "changePercentagePoints": 79.9082478557525,
@@ -2178,7 +2178,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "WDC": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2243,7 +2243,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-07-03 기준(10-K, 2026-08-14 공시) 매출이 전년 동기 대비 +35.7% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 12919000000,
+            "current": 12919000000.0,
             "previous": 9520000000.0,
             "changePct": 35.70378151260505,
             "periodKind": "annual"
@@ -2265,7 +2265,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "evidence": {
             "metric": "operating_margin",
             "currentOpIncome": 4453000000,
-            "currentRevenue": 12919000000,
+            "currentRevenue": 12919000000.0,
             "previousOpIncome": 2334000000,
             "previousRevenue": 9520000000.0,
             "changePercentagePoints": 9.951805398992173,
@@ -2276,7 +2276,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "ANET": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2334,7 +2334,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-30 기준(10-Q, 2026-08-05 공시) 매출이 전년 동기 대비 +37.7% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 3035700000,
+            "current": 3035700000.0,
             "previous": 2204800000.0,
             "changePct": 37.68595791001452,
             "periodKind": "quarter"
@@ -2344,7 +2344,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "COHR": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2409,7 +2409,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-30 기준(10-K, 2026-08-14 공시) 매출이 전년 동기 대비 +22.5% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 7118181000,
+            "current": 7118181000.0,
             "previous": 5810115000.0,
             "changePct": 22.513599128416573,
             "periodKind": "annual"
@@ -2431,7 +2431,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "evidence": {
             "metric": "operating_margin",
             "currentOpIncome": 901522000.0,
-            "currentRevenue": 7118181000,
+            "currentRevenue": 7118181000.0,
             "previousOpIncome": 534947000.0,
             "previousRevenue": 5810115000.0,
             "changePercentagePoints": 3.4578943253973096,
@@ -2442,7 +2442,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "LITE": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2507,7 +2507,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-27 기준(10-K, 2026-08-17 공시) 매출이 전년 동기 대비 +83.2% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 3014000000,
+            "current": 3014000000.0,
             "previous": 1645000000,
             "changePct": 83.22188449848025,
             "periodKind": "annual"
@@ -2529,7 +2529,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "evidence": {
             "metric": "operating_margin",
             "currentOpIncome": 524800000,
-            "currentRevenue": 3014000000,
+            "currentRevenue": 3014000000.0,
             "previousOpIncome": -180100000,
             "previousRevenue": 1645000000,
             "changePercentagePoints": 28.360405241597974,
@@ -2540,7 +2540,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "GEV": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2608,7 +2608,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "CEG": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2673,7 +2673,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-30 기준(10-Q, 2026-08-06 공시) 매출이 전년 동기 대비 +23.0% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 7504000000,
+            "current": 7504000000.0,
             "previous": 6101000000.0,
             "changePct": 22.996230126208815,
             "periodKind": "quarter"
@@ -2695,7 +2695,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "evidence": {
             "metric": "operating_margin",
             "currentOpIncome": 580000000,
-            "currentRevenue": 7504000000,
+            "currentRevenue": 7504000000.0,
             "previousOpIncome": 951000000,
             "previousRevenue": 6101000000.0,
             "changePercentagePoints": -7.858397501335898,
@@ -2706,7 +2706,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "VST": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2764,7 +2764,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-30 기준(10-Q, 2026-08-10 공시) 매출이 전년 동기 대비 -5.5% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 4017000000,
+            "current": 4017000000.0,
             "previous": 4250000000.0,
             "changePct": -5.4823529411764715,
             "periodKind": "quarter"
@@ -2774,7 +2774,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "ETN": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2842,7 +2842,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "PWR": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2900,7 +2900,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-30 기준(10-Q, 2026-07-30 공시) 매출이 전년 동기 대비 +41.1% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 9556997000,
+            "current": 9556997000.0,
             "previous": 6773007000.0,
             "changePct": 41.10419493143886,
             "periodKind": "quarter"
@@ -2910,7 +2910,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "HUBB": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -3008,7 +3008,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "VRT": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -3073,7 +3073,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-30 기준(10-Q, 2026-07-29 공시) 매출이 전년 동기 대비 +24.1% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 3274300000,
+            "current": 3274300000.0,
             "previous": 2638100000.0,
             "changePct": 24.11584094613548,
             "periodKind": "quarter"
@@ -3094,8 +3094,8 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-30 기준(10-Q, 2026-07-29 공시) 영업이익률이 전년 동기 대비 +2.7%p 변했어요(매출총이익 데이터가 없어 영업이익률로 대체).",
           "evidence": {
             "metric": "operating_margin",
-            "currentOpIncome": 637900000,
-            "currentRevenue": 3274300000,
+            "currentOpIncome": 637900000.0,
+            "currentRevenue": 3274300000.0,
             "previousOpIncome": 442400000.0,
             "previousRevenue": 2638100000.0,
             "changePercentagePoints": 2.7123818725925117,
@@ -3106,7 +3106,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "MOD": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -3171,7 +3171,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-30 기준(10-Q, 2026-07-30 공시) 매출이 전년 동기 대비 +28.0% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 874100000,
+            "current": 874100000.0,
             "previous": 682800000.0,
             "changePct": 28.01698886936146,
             "periodKind": "quarter"
@@ -3192,8 +3192,8 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-30 기준(10-Q, 2026-07-30 공시) 영업이익률이 전년 동기 대비 -2.5%p 변했어요(매출총이익 데이터가 없어 영업이익률로 대체).",
           "evidence": {
             "metric": "operating_margin",
-            "currentOpIncome": 74800000,
-            "currentRevenue": 874100000,
+            "currentOpIncome": 74800000.0,
+            "currentRevenue": 874100000.0,
             "previousOpIncome": 75700000.0,
             "previousRevenue": 682800000.0,
             "changePercentagePoints": -2.529328517801925,
@@ -3204,7 +3204,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "STX": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -3269,7 +3269,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-07-03 기준(10-K, 2026-08-04 공시) 매출이 전년 동기 대비 +34.1% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 12195000000,
+            "current": 12195000000.0,
             "previous": 9097000000.0,
             "changePct": 34.05518302737167,
             "periodKind": "annual"
@@ -3291,7 +3291,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "evidence": {
             "metric": "operating_margin",
             "currentOpIncome": 4094000000,
-            "currentRevenue": 12195000000,
+            "currentRevenue": 12195000000.0,
             "previousOpIncome": 1890000000,
             "previousRevenue": 9097000000.0,
             "changePercentagePoints": 12.795055684974791,
@@ -3302,7 +3302,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "EME": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -3360,7 +3360,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-30 기준(10-Q, 2026-07-30 공시) 매출이 전년 동기 대비 +19.8% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 5154892000,
+            "current": 5154892000.0,
             "previous": 4304400000.0,
             "changePct": 19.758665551528676,
             "periodKind": "quarter"
@@ -3370,7 +3370,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "FIX": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -3435,7 +3435,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-30 기준(10-Q, 2026-07-23 공시) 매출이 전년 동기 대비 +50.3% 변했어요.",
           "evidence": {
             "metric": "revenue",
-            "current": 3265656000,
+            "current": 3265656000.0,
             "previous": 2173319000.0,
             "changePct": 50.2612363854547,
             "periodKind": "quarter"
@@ -3456,8 +3456,8 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-30 기준(10-Q, 2026-07-23 공시) 영업이익률이 전년 동기 대비 +3.3%p 변했어요(매출총이익 데이터가 없어 영업이익률로 대체).",
           "evidence": {
             "metric": "operating_margin",
-            "currentOpIncome": 557966000,
-            "currentRevenue": 3265656000,
+            "currentOpIncome": 557966000.0,
+            "currentRevenue": 3265656000.0,
             "previousOpIncome": 299873000.0,
             "previousRevenue": 2173319000.0,
             "changePercentagePoints": 3.2879495762519224,
@@ -3468,7 +3468,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "BE": {
       "asOfDate": "2026-10-13",
-      "calculatedAt": 1791875766.5194921,
+      "calculatedAt": 1791877901.9726737,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -3554,11 +3554,11 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "summary": "2026-06-30 기준(10-Q, 2026-07-28 공시) 영업이익률이 전년 동기 대비 +18.0%p 변했어요(매출총이익 데이터가 없어 영업이익률로 대체).",
           "evidence": {
             "metric": "operating_margin",
-            "currentOpIncome": 182237000.0,
+            "currentOpIncome": 182200000.0,
             "currentRevenue": 1065365000.0,
             "previousOpIncome": -3503000,
             "previousRevenue": 401242000.0,
-            "changePercentagePoints": 17.978632132101676,
+            "changePercentagePoints": 17.97515914397085,
             "periodKind": "quarter"
           }
         }
