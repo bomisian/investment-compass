@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791848526.064406,
+  "generatedAt": 1791849638.0274093,
   "events": [
     {
       "id": "6308ff1eab1849601f1c",
@@ -878,6 +878,99 @@ const EVENT_DATA = {
       ],
       "aiInference": [
         "이 기사는 MSFT의 사업과 관련된 'Maia 300: Microsoft Builds the Exit From a Compute Landlord Model It Helped Finance' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+        "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+        "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+      ],
+      "whyItMatters": [
+        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "긍정",
+          "reason": "AI 컴퓨팅 수요 확대 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "AMD",
+          "direction": "긍정",
+          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "MU",
+          "direction": "긍정",
+          "reason": "AI 서버 메모리 수요와 가격 강세",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "ORCL",
+          "direction": "혼합",
+          "reason": "클라우드 수요와 자본 부담 동시 확대",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 수주·가동 데이터센터",
+        "관련 기업 매출·수주잔고",
+        "CAPEX 대비 영업현금흐름",
+        "금리와 프로젝트 부채 비용"
+      ]
+    },
+    {
+      "id": "36eb53fc36995cb38e46",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "ANET",
+      "relatedTickers": [
+        "AMD",
+        "ANET",
+        "MU",
+        "NVDA",
+        "ORCL"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "중기 투자 사이클",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Arista Has $6.9 Billion in Deferred Revenue. How Much Does It Explain the Cash Flow?",
+      "headlineKo": "Arista의 이연 수익은 69억 달러입니다. 현금흐름을 얼마나 설명하는가?",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=dc28dfa8701adecd7656721b0e6168dd7f6c3539f14ae91a325705c72f04cdd4",
+        "publishedAt": 1791830648,
+        "collectedAt": 1791849602.2022622
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+        "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+        "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+      ],
+      "marketInterpretation": [
+        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+      ],
+      "aiInference": [
+        "이 기사는 ANET의 사업과 관련된 'Arista Has $6.9 Billion in Deferred Revenue. How Much Does It Explain the Cash Flow?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
@@ -5109,7 +5202,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=b06233d42070a8443736697fca2a055031bd6d4fc59d6af8081f7f7a4fba9137",
         "publishedAt": 1791793792,
-        "collectedAt": 1791828002.1464703
+        "collectedAt": 1791849602.2022622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5181,7 +5274,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=9cf2eb83c6803de72e62a70b7f4fcd5d1d8485852ad9643a726dfe9938f07cf2",
         "publishedAt": 1791790467,
-        "collectedAt": 1791828002.1464703
+        "collectedAt": 1791849602.2022622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9972,7 +10065,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=041e7a3a85d95a14fd5a1d5e47d35090350345888c75a66f3159ca2b6752536d",
         "publishedAt": 1791656281,
-        "collectedAt": 1791828002.1464703
+        "collectedAt": 1791849602.2022622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13779,7 +13872,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5c4e446abd334f8092f8ee0a0068885b5977f2f5175ab4b843013a4fece9ea30",
         "publishedAt": 1791586391,
-        "collectedAt": 1791828002.1464703
+        "collectedAt": 1791849602.2022622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13837,7 +13930,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5c4e446abd334f8092f8ee0a0068885b5977f2f5175ab4b843013a4fece9ea30",
         "publishedAt": 1791586391,
-        "collectedAt": 1791828002.1464703
+        "collectedAt": 1791849602.2022622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15784,7 +15877,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4fd47c21df1eabb62e8ee735367878731f61ab0a0544474e50d607aef8d5446c",
         "publishedAt": 1791563072,
-        "collectedAt": 1791828002.1464703
+        "collectedAt": 1791849602.2022622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16991,7 +17084,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1f786614fdf34dea0459b2e0759df2de39d385e8e48b11880d076dc411316701",
         "publishedAt": 1791557400,
-        "collectedAt": 1791828002.1464703
+        "collectedAt": 1791849602.2022622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17815,7 +17908,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=6d6a7f613588e29781ea47aa1622e652afe48f306894f204f475dfe565f02ff3",
         "publishedAt": 1791552427,
-        "collectedAt": 1791828002.1464703
+        "collectedAt": 1791849602.2022622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18169,7 +18262,7 @@ const EVENT_DATA = {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=332c12d6feea9c49edce0058b29892c6e74f564c522db44463ca304da4ff2455",
         "publishedAt": 1791551461,
-        "collectedAt": 1791828002.1464703
+        "collectedAt": 1791849602.2022622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18277,83 +18370,6 @@ const EVENT_DATA = {
         "연도별 매출 인식",
         "수주잔고·취소 조건"
       ]
-    },
-    {
-      "id": "a50bb5be2dea7523233f",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "INTC",
-      "relatedTickers": [
-        "INTC",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Intel",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Intel Is Worth More Than Coca-Cola and PepsiCo Put Together",
-      "headlineKo": "인텔은 코카콜라와 펩시코를 합친 것보다 더 가치가 있습니다",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7c0df84702b3bed557b6d543c172e55edc3f04cd7f00cd03ec6ce03166ba8302",
-        "publishedAt": 1791549930,
-        "collectedAt": 1791844405.773651
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "인텔은 코카콜라와 펩시코를 합친 것보다 더 가치가 있습니다 - 24/7 Wall St.",
-        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,821.00 +0.54% Dow Jones 51,763.40 +0.95% Nasdaq 100 30,912.20 +0.33% Russell 2000 2,812.73 +0.56% S&P 500 7,821.00 +0.54% 다우존스 51,763.40 +0.95% 나스닥 100 30,912.20 +0.33% 러셀 2000 2,812.73 +0.",
-        "작성자: Omor Ibne Ehsan 2026년 10월 9일 오전 8시 45분(ET) 게시 · 읽은 시간 2분 𝕏 f ⧉ 여기에 캡처된 상징적인 음료 브랜드인 Coca-Cola와 PepsiCo는 이제 결합 가치가 기술 가치에 뒤처지는 시장의 중요한 부분을 대표합니다."
-      ],
-      "marketInterpretation": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $562.65 billion, $552.80 billion, 1.8% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "INTC에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $562.65 billion, $552.80 billion, 1.8% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "INTC",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "공식 매출·EPS 가이던스",
-        "컨센서스 추정치 변경",
-        "마진·FCF 전망"
-      ]
     }
   ],
   "byTicker": {
@@ -18388,6 +18404,7 @@ const EVENT_DATA = {
       "5f39e8a0b0bc53a899ce",
       "548f6c301934c4861a59",
       "3d789f71e0425f274850",
+      "36eb53fc36995cb38e46",
       "8b7e64e3aca7c44a30e7",
       "8a3f7895d1450acfa026",
       "59d42d87efc8208b42b0",
@@ -18539,8 +18556,7 @@ const EVENT_DATA = {
       "5aae16ff296a6b7f0b8e",
       "05ee77d31ac64d9ba2d9",
       "22cbb37f00d0af998a5f",
-      "e326c03b1cf7640ff013",
-      "a50bb5be2dea7523233f"
+      "e326c03b1cf7640ff013"
     ],
     "CRM": [
       "8cf38d7eac6be48920ab",
@@ -18607,8 +18623,7 @@ const EVENT_DATA = {
       "36a8a2e960f9a005b82a",
       "e68afb580eda65abc3bb",
       "5aae16ff296a6b7f0b8e",
-      "05ee77d31ac64d9ba2d9",
-      "a50bb5be2dea7523233f"
+      "05ee77d31ac64d9ba2d9"
     ],
     "AMD": [
       "3c9eac1fbf6538885fa8",
@@ -18616,6 +18631,7 @@ const EVENT_DATA = {
       "5f39e8a0b0bc53a899ce",
       "548f6c301934c4861a59",
       "3d789f71e0425f274850",
+      "36eb53fc36995cb38e46",
       "8b7e64e3aca7c44a30e7",
       "8a3f7895d1450acfa026",
       "c57822503eee3f3815ef",
@@ -18691,6 +18707,7 @@ const EVENT_DATA = {
       "7fae641e536ca6435396",
       "548f6c301934c4861a59",
       "3d789f71e0425f274850",
+      "36eb53fc36995cb38e46",
       "737a7e51fca21fc9e3c6",
       "710ad13fbc1f1b8da4b6",
       "8b7e64e3aca7c44a30e7",
@@ -18744,6 +18761,7 @@ const EVENT_DATA = {
       "7fae641e536ca6435396",
       "548f6c301934c4861a59",
       "3d789f71e0425f274850",
+      "36eb53fc36995cb38e46",
       "8b7e64e3aca7c44a30e7",
       "32f20db4bbf65e68dc08",
       "9344a1d214fd095b634b",
@@ -18819,8 +18837,7 @@ const EVENT_DATA = {
       "bf99929d8e810ef75796",
       "793e2f90faff4eb1658b",
       "cc12c597ababca7117bc",
-      "0d7ec53349885db300d5",
-      "a50bb5be2dea7523233f"
+      "0d7ec53349885db300d5"
     ],
     "TSM": [
       "7ce4fdf3cd24de30fb25",
@@ -18865,6 +18882,12 @@ const EVENT_DATA = {
       "e76994627a4248cadc13",
       "486c9039af32ba4309c9",
       "fe6465d0e267a6d589bb"
+    ],
+    "ANET": [
+      "36eb53fc36995cb38e46",
+      "88a06be9926c43beb863",
+      "e76994627a4248cadc13",
+      "8da8d2625dba678eb6ce"
     ],
     "KLAC": [
       "737a7e51fca21fc9e3c6",
@@ -19028,11 +19051,6 @@ const EVENT_DATA = {
       "44a5c2e5b6bc6e6bdeff",
       "16259424b8e02047cfd8",
       "55dea22346e305f09f43"
-    ],
-    "ANET": [
-      "88a06be9926c43beb863",
-      "e76994627a4248cadc13",
-      "8da8d2625dba678eb6ce"
     ],
     "LRCX": [
       "a014da2c7ce85af71a0b",

@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1791828002.1464703,
+    "_last_attempt_at": 1791849602.2022622,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -66,7 +66,7 @@ const NEWS_DATA = {
             "stock futures were mixed on Monday, as the Dow Jones and S&P 500 indices rose, while the Nasdaq 100 index fell, following Friday’s higher close.",
             "Geopolitical tensions flared over the weekend as Iran stepped up attacks on shipping near the Strait of Hormuz and threatened regional digital infrastructure, citing an “inadequate” U.S."
           ],
-          "analysisUpdatedAt": 1791828016.5319998
+          "analysisUpdatedAt": 1791849612.3505473
         },
         "headlineKo": "오늘의 주식 시장: 이란이 평화 조건에 대한 미국의 대응이 '부적절'하다고 표시함에 따라 S&P 500, 다우 선물 상승, 나스닥 100 하락 — SMP, QMCO, SVRN 초점(업데이트됨)"
       },
@@ -86,13 +86,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Dow Jones, S&P 500, Nasdaq 100 전망: 이번 주 주요 주식 시장 뉴스 - State Street SPDR S&P 500 ETF T - Benzinga SPY 778.57 +0.60% QQQ 751.38 +0.51% BTC/USD 83,705.27 +0.94% DIA 516.21 +0.89% GLD 384.50 +1.55% TLT 77.97 +0.12% US Sign i",
+            "Dow Jones, S&P 500, Nasdaq 100 전망: 이번 주 주요 주식 시장 뉴스 - State Street SPDR S&P 500 ETF T - Benzinga SPY 777.59 −0.13% QQQ 745.71 −0.74% BTC/USD 82,353.60 −1.58% DIA 517.70 +0.31% GLD 382.20 −0.62% TLT 77.97 −0.02% US Sign i",
             "미국의 주요 기업들이 수익을 보고하고 주요 경제 데이터가 공개되면서 앞으로 몇 주 안에 이들의 회복력이 테스트될 것입니다.",
             "다우존스, S&P 500, 나스닥 100이 실적 시즌에 반응할 것 이번 주 미국 주식 시장의 주요 촉매제는 화요일에 시작되는 다가오는 실적 시즌이 될 것입니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.60%, 0.51%, 0.94% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.13%, 0.74%, 1.58% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -116,21 +116,21 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.60%",
-            "0.51%",
-            "0.94%",
-            "0.89%",
-            "1.55%",
-            "0.12%",
+            "0.13%",
+            "0.74%",
+            "1.58%",
+            "0.31%",
+            "0.62%",
+            "0.02%",
             "29.5%",
             "7%"
           ],
           "sourceExcerpt": [
-            "Dow Jones, S&P 500, Nasdaq 100 Outlook: Top Stock Market News This Week - State Street SPDR S&P 500 ETF T - Benzinga SPY 778.57 +0.60% QQQ 751.38 +0.51% BTC/USD 83,705.27 +0.94% DIA 516.21 +0.89% GLD 384.50 +1.55% TLT 77.97 +0.12% US Sign i",
+            "Dow Jones, S&P 500, Nasdaq 100 Outlook: Top Stock Market News This Week - State Street SPDR S&P 500 ETF T - Benzinga SPY 777.59 −0.13% QQQ 745.71 −0.74% BTC/USD 82,353.60 −1.58% DIA 517.70 +0.31% GLD 382.20 −0.62% TLT 77.97 −0.02% US Sign i",
             "Their resilience will be tested in the coming weeks as major US companies report earnings and key economic data is released.",
             "Dow Jones, S&P 500, and Nasdaq 100 to React to Earnings Season The main catalyst for the US stock market this week will be the upcoming earnings season , which will kick off on Tuesday."
           ],
-          "analysisUpdatedAt": 1791828021.2833421
+          "analysisUpdatedAt": 1791849616.3822167
         },
         "headlineKo": "다우존스, S&P 500, 나스닥 100 전망: 이번 주 주요 주식 시장 뉴스"
       },
@@ -184,7 +184,7 @@ const NEWS_DATA = {
             "54%",
             "25%",
             "22%",
-            "0.73%",
+            "0.70%",
             "30%",
             "43%",
             "21%"
@@ -194,7 +194,7 @@ const NEWS_DATA = {
             "This Streak Rests on Far Stronger Earnings Than 1999's.",
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Nasdaq-100 has pulled off something it's done just twice before."
           ],
-          "analysisUpdatedAt": 1791828026.8811946
+          "analysisUpdatedAt": 1791849620.5262356
         },
         "headlineKo": "Nasdaq-100은 3년 연속으로 20% 이상의 수익을 올렸습니다. 이 연승은 1999년대보다 훨씬 더 강력한 수입에 달려 있습니다."
       },
@@ -346,7 +346,7 @@ const NEWS_DATA = {
             "stock futures were mixed on Monday, as the Dow Jones and S&P 500 indices rose, while the Nasdaq 100 index fell, following Friday’s higher close.",
             "Geopolitical tensions flared over the weekend as Iran stepped up attacks on shipping near the Strait of Hormuz and threatened regional digital infrastructure, citing an “inadequate” U.S."
           ],
-          "analysisUpdatedAt": 1791828016.5319998
+          "analysisUpdatedAt": 1791849612.3505473
         }
       },
       {
@@ -365,13 +365,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Dow Jones, S&P 500, Nasdaq 100 전망: 이번 주 주요 주식 시장 뉴스 - State Street SPDR S&P 500 ETF T - Benzinga SPY 778.57 +0.60% QQQ 751.38 +0.51% BTC/USD 83,705.27 +0.94% DIA 516.21 +0.89% GLD 384.50 +1.55% TLT 77.97 +0.12% US Sign i",
+            "Dow Jones, S&P 500, Nasdaq 100 전망: 이번 주 주요 주식 시장 뉴스 - State Street SPDR S&P 500 ETF T - Benzinga SPY 777.59 −0.13% QQQ 745.71 −0.74% BTC/USD 82,353.60 −1.58% DIA 517.70 +0.31% GLD 382.20 −0.62% TLT 77.97 −0.02% US Sign i",
             "미국의 주요 기업들이 수익을 보고하고 주요 경제 데이터가 공개되면서 앞으로 몇 주 안에 이들의 회복력이 테스트될 것입니다.",
             "다우존스, S&P 500, 나스닥 100이 실적 시즌에 반응할 것 이번 주 미국 주식 시장의 주요 촉매제는 화요일에 시작되는 다가오는 실적 시즌이 될 것입니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.60%, 0.51%, 0.94% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.13%, 0.74%, 1.58% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -395,21 +395,21 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.60%",
-            "0.51%",
-            "0.94%",
-            "0.89%",
-            "1.55%",
-            "0.12%",
+            "0.13%",
+            "0.74%",
+            "1.58%",
+            "0.31%",
+            "0.62%",
+            "0.02%",
             "29.5%",
             "7%"
           ],
           "sourceExcerpt": [
-            "Dow Jones, S&P 500, Nasdaq 100 Outlook: Top Stock Market News This Week - State Street SPDR S&P 500 ETF T - Benzinga SPY 778.57 +0.60% QQQ 751.38 +0.51% BTC/USD 83,705.27 +0.94% DIA 516.21 +0.89% GLD 384.50 +1.55% TLT 77.97 +0.12% US Sign i",
+            "Dow Jones, S&P 500, Nasdaq 100 Outlook: Top Stock Market News This Week - State Street SPDR S&P 500 ETF T - Benzinga SPY 777.59 −0.13% QQQ 745.71 −0.74% BTC/USD 82,353.60 −1.58% DIA 517.70 +0.31% GLD 382.20 −0.62% TLT 77.97 −0.02% US Sign i",
             "Their resilience will be tested in the coming weeks as major US companies report earnings and key economic data is released.",
             "Dow Jones, S&P 500, and Nasdaq 100 to React to Earnings Season The main catalyst for the US stock market this week will be the upcoming earnings season , which will kick off on Tuesday."
           ],
-          "analysisUpdatedAt": 1791828021.2833421
+          "analysisUpdatedAt": 1791849616.3822167
         }
       },
       {
@@ -462,7 +462,7 @@ const NEWS_DATA = {
             "54%",
             "25%",
             "22%",
-            "0.73%",
+            "0.70%",
             "30%",
             "43%",
             "21%"
@@ -472,7 +472,7 @@ const NEWS_DATA = {
             "This Streak Rests on Far Stronger Earnings Than 1999's.",
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The Nasdaq-100 has pulled off something it's done just twice before."
           ],
-          "analysisUpdatedAt": 1791828026.8811946
+          "analysisUpdatedAt": 1791849620.5262356
         }
       },
       {
@@ -5643,15 +5643,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791828002.1464703,
-    "_updated_label": "2026-10-13 03:00",
-    "_last_success_at": 1791828002.1464703,
+    "_fetched_at": 1791849602.2022622,
+    "_updated_label": "2026-10-13 09:00",
+    "_last_success_at": 1791849602.2022622,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 110,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "SPY": {
@@ -12936,7 +12936,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "MSFT": {
@@ -20915,7 +20915,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "GOOGL": {
@@ -28850,7 +28850,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "AMZN": {
@@ -36966,7 +36966,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "META": {
@@ -44908,7 +44908,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "AAPL": {
@@ -52848,7 +52848,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "TSLA": {
@@ -60947,7 +60947,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "ORCL": {
@@ -69345,7 +69345,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "CRM": {
@@ -76093,7 +76093,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "PLTR": {
@@ -84885,7 +84885,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "NVDA": {
@@ -92574,7 +92574,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "AMD": {
@@ -100685,7 +100685,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "AVGO": {
@@ -109759,7 +109759,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "QCOM": {
@@ -117167,7 +117167,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 161,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "ARM": {
@@ -122450,7 +122450,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "MRVL": {
@@ -130905,7 +130905,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 181,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "INTC": {
@@ -139250,7 +139250,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "TSM": {
@@ -146315,7 +146315,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 154,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "ASML": {
@@ -151420,7 +151420,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 105,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "AMAT": {
@@ -156326,7 +156326,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "LRCX": {
@@ -158945,7 +158945,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "KLAC": {
@@ -161537,7 +161537,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "MU": {
@@ -169258,7 +169258,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "SNDK": {
@@ -177359,7 +177359,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 169,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "WDC": {
@@ -182136,11 +182136,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "ANET": {
-    "_last_attempt_at": 1791828002.1464703,
+    "_last_attempt_at": 1791849602.2022622,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -182149,6 +182149,74 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Arista Has $6.9 Billion in Deferred Revenue. How Much Does It Explain the Cash Flow?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=dc28dfa8701adecd7656721b0e6168dd7f6c3539f14ae91a325705c72f04cdd4",
+        "datetime": 1791830648,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 ANET의 사업과 관련된 'Arista Has $6.9 Billion in Deferred Revenue. How Much Does It Explain the Cash Flow?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ANET에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.67,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791849627.127715
+        },
+        "headlineKo": "Arista의 이연 수익은 69억 달러입니다. 현금흐름을 얼마나 설명하는가?"
+      },
       {
         "headline": "Is Arista Networks (ANET) Outperforming Other Computer and Technology Stocks This Year?",
         "source": "Yahoo",
@@ -182195,7 +182263,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791828035.5373325
+          "analysisUpdatedAt": 1791849629.7875216
         },
         "headlineKo": "Arista Networks(ANET)가 올해 다른 컴퓨터 및 기술 주식을 능가합니까?"
       },
@@ -182259,7 +182327,7 @@ const NEWS_DATA = {
             "Wells Fargo is scheduled to announce third-quarter earnings before the opening bell on Tuesday, Oct.",
             "Analysts expect quarterly earnings of $1.86 per share, up from $1.66 per share a year ago."
           ],
-          "analysisUpdatedAt": 1791828041.5336401
+          "analysisUpdatedAt": 1791849633.6897142
         },
         "headlineKo": "Wells Fargo, Arista Networks, Hewlett Packard Enterprise 및 CNBC의 '최종 거래'에 대한 의료 주식"
       },
@@ -182271,60 +182339,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Arista Networks의 주식을 더 높게 보낼 수 있는 방법은 무엇입니까?",
-            "| Trefis Arista Networks의 주식을 더 높게 보낼 수 있는 방법은 무엇입니까?",
-            "2026년 10월 9일 · Trefis Team ANET YTD +65.4% SPY YTD +14.8% QQQ YTD +22.6% ANET 분석 → Arista Networks(ANET) 주식은 S&P 500의 21.5배에 비해 65.7배의 수익으로 거래됩니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $3.6 billion, 37.7%, 29% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "ANET의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "ANET",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "ANET에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$3.6 billion",
-            "37.7%",
-            "29%",
-            "$12.6 billion",
-            "30%",
-            "$15 billion",
-            "$20 billion",
-            "2.3%"
-          ],
-          "sourceExcerpt": [
-            "What Could Send Arista Networks Stock Higher?",
-            "| Trefis What Could Send Arista Networks Stock Higher?",
-            "October 9th, 2026 · by Trefis Team ANET YTD +65.4% SPY YTD +14.8% QQQ YTD +22.6% Analyze ANET → Arista Networks (ANET) stock trades at 65.7 times earnings , compared with 21.5 for the S&P 500."
-          ],
-          "analysisUpdatedAt": 1791828046.3012116
-        },
         "headlineKo": "Arista Networks의 주식을 더 높게 보낼 수 있는 방법은 무엇입니까?"
       },
       {
@@ -182336,19 +182350,76 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "강세 추세에 있는 Arista Networks 주식은 빠른 수익으로 스프레드 거래를 제공합니다."
-      },
-      {
-        "headline": "Arista Networks Plugs Into All-Time Highs",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1f786614fdf34dea0459b2e0759df2de39d385e8e48b11880d076dc411316701",
-        "datetime": 1791557400,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Arista Networks, 사상 최고 기록 달성"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Arista Has $6.9 Billion in Deferred Revenue. How Much Does It Explain the Cash Flow?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=dc28dfa8701adecd7656721b0e6168dd7f6c3539f14ae91a325705c72f04cdd4",
+        "datetime": 1791830648,
+        "headlineKo": "Arista의 이연 수익은 69억 달러입니다. 현금흐름을 얼마나 설명하는가?",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 ANET의 사업과 관련된 'Arista Has $6.9 Billion in Deferred Revenue. How Much Does It Explain the Cash Flow?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ANET에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.67,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791849627.127715
+        }
+      },
       {
         "headline": "Is Arista Networks (ANET) Outperforming Other Computer and Technology Stocks This Year?",
         "source": "Yahoo",
@@ -182395,7 +182466,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791828035.5373325
+          "analysisUpdatedAt": 1791849629.7875216
         }
       },
       {
@@ -182458,7 +182529,7 @@ const NEWS_DATA = {
             "Wells Fargo is scheduled to announce third-quarter earnings before the opening bell on Tuesday, Oct.",
             "Analysts expect quarterly earnings of $1.86 per share, up from $1.66 per share a year ago."
           ],
-          "analysisUpdatedAt": 1791828041.5336401
+          "analysisUpdatedAt": 1791849633.6897142
         }
       },
       {
@@ -185971,15 +186042,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791828002.1464703,
-    "_updated_label": "2026-10-13 03:00",
-    "_last_success_at": 1791828002.1464703,
+    "_fetched_at": 1791849602.2022622,
+    "_updated_label": "2026-10-13 09:00",
+    "_last_success_at": 1791849602.2022622,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 77,
+      "checked": 78,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "COHR": {
@@ -189178,7 +189249,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "LITE": {
@@ -193136,7 +193207,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "GEV": {
@@ -198335,7 +198406,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "CEG": {
@@ -203041,7 +203112,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "VST": {
@@ -206486,7 +206557,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "ETN": {
@@ -209650,7 +209721,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "PWR": {
@@ -212674,7 +212745,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "HUBB": {
@@ -213342,7 +213413,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "VRT": {
@@ -217468,7 +217539,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "MOD": {
@@ -218796,7 +218867,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "STX": {
@@ -223008,7 +223079,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "EME": {
@@ -224771,7 +224842,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "FIX": {
@@ -226461,7 +226532,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   },
   "BE": {
@@ -228881,7 +228952,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-10-13 08:42"
+      "updated": "2026-10-13 09:00"
     }
   }
 };
