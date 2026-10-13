@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791914376.6522834,
+  "generatedAt": 1791914464.2754064,
   "events": [
     {
       "id": "bc8035a2596b748ffe8d",
@@ -1861,6 +1861,89 @@ const EVENT_DATA = {
         "매출·영업이익 성장",
         "정상화이익과 특이항목",
         "가이던스·OCF·FCF"
+      ]
+    },
+    {
+      "id": "18ab5e95e298993b0493",
+      "schemaVersion": 1,
+      "eventType": "dilution_warrant",
+      "eventLabel": "워런트·신주·희석 가능성",
+      "primaryTicker": "AMZN",
+      "relatedTickers": [
+        "AMZN",
+        "GOOGL",
+        "QQQ",
+        "SPY"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Alphabet",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        },
+        {
+          "name": "Amazon",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Between Amazon and Alphabet One’s Gotten Much More Bang for Their 200 Billion Bucks",
+      "headlineKo": "Amazon과 Alphabet One은 2000억 달러로 훨씬 더 많은 수익을 얻었습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a8a37691c8268ffb7f9e5afa7d6206f055319f5c8e949cc992dc31d76287b4b2",
+        "publishedAt": 1791895530,
+        "collectedAt": 1791913856.2154827
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Amazon과 Alphabet One 사이에서 2000억 달러로 훨씬 더 많은 이익을 얻었습니다 - 24/7 Wall St.",
+        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,808.90 −0.10% Dow Jones 51,674.80 −0.46% Nasdaq 100 30,554.40 −0.44% Russell 2000 2,783.07 −0.56% S&P 500 7,808.90 −0.10% 다우존스 51,674.80 −0.46% 나스닥 100 30,554.40 −0.44% 러셀 2000 2,783.07 −0.",
+        "작성자: Alex Sirois 2026년 10월 13일 오전 8시 45분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 푸른 빛으로 가득 차고 눈에 띄는 'AI' 칩 그래픽이 특징인 미래형 데이터 센터 통로는 인공 지능을 구동하는 강력한 인프라를 상징합니다."
+      ],
+      "marketInterpretation": [
+        "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $175 billion, $185 billion, $200 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "AMZN에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $175 billion, $185 billion, $200 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AMZN",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "신규 주식 수·행사가격",
+        "조달 자금 사용처",
+        "완전희석 주식수와 EPS"
       ]
     },
     {
@@ -18256,82 +18339,6 @@ const EVENT_DATA = {
         "메모리 현물·계약 가격",
         "AAPL 매출총이익률과 MU/WDC 가이던스"
       ]
-    },
-    {
-      "id": "44825dd3da759d2bd0df",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "TSLA",
-      "relatedTickers": [
-        "SPY",
-        "TSLA"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Tesla",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Tesla Shares Surge: What's Driving the Latest Rally",
-      "headlineKo": "Tesla 주가 급등: 최근 상승세를 주도하는 요인",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c75fa2cdef7f20172f424d64ce72aa7514130d8c1a84d3f261cc188eb2ad1815",
-        "publishedAt": 1791630480,
-        "collectedAt": 1791913856.2154827
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Tesla 주가 급등: 최근 상승세를 주도하는 요인 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Tesla ( TSLA +2.05% ) 주가는 지난 한 달 동안 7.5% 급등하여 S&P를 앞질렀습니다.",
-        "Tesla의 주가는 예상보다 나은 3분기(9월 1일 마감) 동안 486,532대에 달하는 회사의 전기 자동차(EV) 납품에 힘입어 상승했습니다.",
-        "30) 이는 월스트리트의 컨센서스 추정치인 461,100과 비교됩니다."
-      ],
-      "marketInterpretation": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: $420,, $370,, 2% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "TSLA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "TSLA에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: $420,, $370,, 2% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "TSLA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "TSLA",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "목표주가 산식의 EPS",
-        "적용 PER 변화",
-        "회사 공식 가이던스"
-      ]
     }
   ],
   "byTicker": {
@@ -18359,6 +18366,7 @@ const EVENT_DATA = {
       "9b66ec5013dd2125de0c",
       "3cef354b5b08ecefb8f9",
       "6e4ebe1f1a57139afe88",
+      "18ab5e95e298993b0493",
       "3b77740e7d3379758b00",
       "a51d26b9752c43cda2ea",
       "1fdb3bc7ea28ebd35b82",
@@ -18451,8 +18459,7 @@ const EVENT_DATA = {
       "8e9c05027c7194c91d86",
       "33ffca1b08f35a46b3a8",
       "0b1b23c271878a239669",
-      "c9a739127a5110addfab",
-      "44825dd3da759d2bd0df"
+      "c9a739127a5110addfab"
     ],
     "MU": [
       "140a6d67905d0124d57f",
@@ -18653,6 +18660,7 @@ const EVENT_DATA = {
     "AMZN": [
       "eba0ba44eafcae435048",
       "6e4ebe1f1a57139afe88",
+      "18ab5e95e298993b0493",
       "ee712c336bd7590d8acc",
       "4fca8fb6daccf1614ef3",
       "8b7e64e3aca7c44a30e7",
@@ -18683,6 +18691,7 @@ const EVENT_DATA = {
       "9b66ec5013dd2125de0c",
       "6e4ebe1f1a57139afe88",
       "35e104c0ede1763c4e9d",
+      "18ab5e95e298993b0493",
       "3b77740e7d3379758b00",
       "1fdb3bc7ea28ebd35b82",
       "b3d0938beca1ba1888e2",
@@ -18731,6 +18740,7 @@ const EVENT_DATA = {
     ],
     "GOOGL": [
       "4765c947fbb6de07d813",
+      "18ab5e95e298993b0493",
       "ae783093dfb57412b8d5",
       "c00eb544c7e2e062d49b",
       "6a374a32dbefea31955a",
@@ -18915,8 +18925,7 @@ const EVENT_DATA = {
       "81aecbc0f3142d9bb97d",
       "899ab6b976820eebeb17",
       "9f344f16f3cd1dceffad",
-      "f2b42498ff5f1d208180",
-      "44825dd3da759d2bd0df"
+      "f2b42498ff5f1d208180"
     ],
     "TSM": [
       "133328a05e344d78b285",

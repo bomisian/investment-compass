@@ -5795,7 +5795,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 113,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "SPY": {
@@ -13186,7 +13186,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 152,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "MSFT": {
@@ -21157,7 +21157,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "GOOGL": {
@@ -29118,9 +29118,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 189,
-      "removed": 1,
-      "updated": "2026-10-14 02:59"
+      "checked": 188,
+      "removed": 0,
+      "updated": "2026-10-14 03:00"
     }
   },
   "AMZN": {
@@ -29286,7 +29286,61 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Amazon과 Alphabet One은 2000억 달러로 훨씬 더 많은 수익을 얻었습니다."
+        "headlineKo": "Amazon과 Alphabet One은 2000억 달러로 훨씬 더 많은 수익을 얻었습니다.",
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "주식 희석 · 주당가치 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Amazon과 Alphabet One 사이에서 2000억 달러로 훨씬 더 많은 이익을 얻었습니다 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,808.90 −0.10% Dow Jones 51,674.80 −0.46% Nasdaq 100 30,554.40 −0.44% Russell 2000 2,783.07 −0.56% S&P 500 7,808.90 −0.10% 다우존스 51,674.80 −0.46% 나스닥 100 30,554.40 −0.44% 러셀 2000 2,783.07 −0.",
+            "작성자: Alex Sirois 2026년 10월 13일 오전 8시 45분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 푸른 빛으로 가득 차고 눈에 띄는 'AI' 칩 그래픽이 특징인 미래형 데이터 센터 통로는 인공 지능을 구동하는 강력한 인프라를 상징합니다."
+          ],
+          "why": [
+            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $175 billion, $185 billion, $200 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "신규 주식 수·행사가격",
+            "조달 자금 사용처",
+            "완전희석 주식수와 EPS"
+          ],
+          "interpretation": "AMZN에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$175 billion",
+            "$185 billion",
+            "$200 billion",
+            "82%",
+            "$24.77 billion",
+            "63%",
+            "90%",
+            "17%"
+          ],
+          "sourceExcerpt": [
+            "Between Amazon and Alphabet One's Gotten Much More Bang for Their 200 Billion Bucks - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,808.90 −0.10% Dow Jones 51,674.80 −0.46% Nasdaq 100 30,554.40 −0.44% Russell 2000 2,783.07 −0.56% S&P 500 7,808.90 −0.10% Dow Jones 51,674.80 −0.46% Nasdaq 100 30,554.40 −0.44% Russell 2000 2,783.07 −0.",
+            "By Alex Sirois Published October 13, 2026, 8:45am ET · 3 min read 𝕏 f ⧉ A futuristic data center aisle, bathed in blue light and featuring a prominent 'AI' chip graphic, symbolizes the powerful infrastructure driving artificial intelligence"
+          ],
+          "analysisUpdatedAt": 1791914458.586494
+        }
       },
       {
         "headline": "Two Reasons Keep Me Buying Amazon Without Fear",
@@ -29485,6 +29539,58 @@ const NEWS_DATA = {
         "flagTerms": [
           "layoffs"
         ]
+      },
+      {
+        "headline": "Amazon Prime settlement payments are going out. Are you eligible?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6cb8c173abbcd23ec81b5566e0bb033d4f997ec26365e0899bd1a141cd3c51e3",
+        "datetime": 1791384207,
+        "headlineKo": "아마존 프라임 결제 결제가 나갑니다. 당신은 자격이 있습니까?",
+        "relevance": 1.0,
+        "keywordFlag": true,
+        "flagTerms": [
+          "settlement"
+        ],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Amazon Prime settlement payments are going out. Are you eligible?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon Prime settlement payments are going out. Are you eligible?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791391246.3148668
+        }
       }
     ],
     "newsHistory": [
@@ -29638,7 +29744,61 @@ const NEWS_DATA = {
         "datetime": 1791895530,
         "headlineKo": "Amazon과 Alphabet One은 2000억 달러로 훨씬 더 많은 수익을 얻었습니다.",
         "relevance": 0.5,
-        "keywordFlag": false
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "주식 희석 · 주당가치 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Amazon과 Alphabet One 사이에서 2000억 달러로 훨씬 더 많은 이익을 얻었습니다 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,808.90 −0.10% Dow Jones 51,674.80 −0.46% Nasdaq 100 30,554.40 −0.44% Russell 2000 2,783.07 −0.56% S&P 500 7,808.90 −0.10% 다우존스 51,674.80 −0.46% 나스닥 100 30,554.40 −0.44% 러셀 2000 2,783.07 −0.",
+            "작성자: Alex Sirois 2026년 10월 13일 오전 8시 45분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 푸른 빛으로 가득 차고 눈에 띄는 'AI' 칩 그래픽이 특징인 미래형 데이터 센터 통로는 인공 지능을 구동하는 강력한 인프라를 상징합니다."
+          ],
+          "why": [
+            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $175 billion, $185 billion, $200 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "신규 주식 수·행사가격",
+            "조달 자금 사용처",
+            "완전희석 주식수와 EPS"
+          ],
+          "interpretation": "AMZN에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$175 billion",
+            "$185 billion",
+            "$200 billion",
+            "82%",
+            "$24.77 billion",
+            "63%",
+            "90%",
+            "17%"
+          ],
+          "sourceExcerpt": [
+            "Between Amazon and Alphabet One's Gotten Much More Bang for Their 200 Billion Bucks - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,808.90 −0.10% Dow Jones 51,674.80 −0.46% Nasdaq 100 30,554.40 −0.44% Russell 2000 2,783.07 −0.56% S&P 500 7,808.90 −0.10% Dow Jones 51,674.80 −0.46% Nasdaq 100 30,554.40 −0.44% Russell 2000 2,783.07 −0.",
+            "By Alex Sirois Published October 13, 2026, 8:45am ET · 3 min read 𝕏 f ⧉ A futuristic data center aisle, bathed in blue light and featuring a prominent 'AI' chip graphic, symbolizes the powerful infrastructure driving artificial intelligence"
+          ],
+          "analysisUpdatedAt": 1791914458.586494
+        }
       },
       {
         "headline": "Two Reasons Keep Me Buying Amazon Without Fear",
@@ -37258,8 +37418,8 @@ const NEWS_DATA = {
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 190,
-      "removed": 1,
-      "updated": "2026-10-14 02:59"
+      "removed": 0,
+      "updated": "2026-10-14 03:00"
     }
   },
   "META": {
@@ -45227,7 +45387,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "AAPL": {
@@ -53311,7 +53471,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "TSLA": {
@@ -61418,7 +61578,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "ORCL": {
@@ -69859,7 +70019,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "CRM": {
@@ -76941,7 +77101,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 156,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "PLTR": {
@@ -85759,7 +85919,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "NVDA": {
@@ -93655,9 +93815,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 187,
-      "removed": 1,
-      "updated": "2026-10-14 02:59"
+      "checked": 186,
+      "removed": 0,
+      "updated": "2026-10-14 03:00"
     }
   },
   "AMD": {
@@ -101819,7 +101979,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "AVGO": {
@@ -110857,7 +111017,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "QCOM": {
@@ -118651,7 +118811,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 168,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "ARM": {
@@ -124019,7 +124179,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "MRVL": {
@@ -132693,7 +132853,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "INTC": {
@@ -141151,7 +141311,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "TSM": {
@@ -148618,7 +148778,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 163,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "ASML": {
@@ -153827,7 +153987,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 109,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "AMAT": {
@@ -158941,7 +159101,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 105,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "LRCX": {
@@ -161718,7 +161878,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "KLAC": {
@@ -164408,7 +164568,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "MU": {
@@ -172209,7 +172369,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "SNDK": {
@@ -180808,7 +180968,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 181,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "WDC": {
@@ -185784,7 +185944,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "ANET": {
@@ -189698,7 +189858,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "COHR": {
@@ -193112,7 +193272,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "LITE": {
@@ -197388,7 +197548,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "GEV": {
@@ -202669,7 +202829,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "CEG": {
@@ -207452,7 +207612,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "VST": {
@@ -211069,7 +211229,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "ETN": {
@@ -214282,7 +214442,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "PWR": {
@@ -217451,7 +217611,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "HUBB": {
@@ -218119,7 +218279,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "VRT": {
@@ -222292,7 +222452,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "MOD": {
@@ -223620,7 +223780,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "STX": {
@@ -228084,7 +228244,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "EME": {
@@ -229847,7 +230007,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "FIX": {
@@ -231537,7 +231697,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   },
   "BE": {
@@ -233957,7 +234117,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-10-14 02:59"
+      "updated": "2026-10-14 03:00"
     }
   }
 };
