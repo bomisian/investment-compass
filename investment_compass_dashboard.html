@@ -544,6 +544,7 @@
 <script src="eps_data.js" onerror="void 0"></script>
 <script src="guidance_history_data.js" onerror="void 0"></script>
 <script src="review_baseline_data.js" onerror="void 0"></script>
+<script src="compass_feed.js" onerror="void 0"></script>
 <script src="valuation_snapshot_log_2026.js" onerror="void 0"></script>
 <!-- 공매도(FINRA, 무료·비상업 이용) - 2026-09-04 추가. 격주 갱신이라 파일이 아직 없을 수 있어
      onerror로 없어도 대시보드가 정상 동작하게 함(참고용 지표, 매수·매도 신호 아님) -->
@@ -6242,6 +6243,64 @@ function pvDecisionInfo(d, r, act, num){
   return out;
 }
 
+// --- 51756 -- 신규 "투자 나침반" 시스템(D:\claude\compass, compass_feed.js) 연결(사용자
+//     요청: compass_method_for_old_dashboard.md 8번). 계산은 전부 그 시스템에서 이미 끝난
+//     결과를 읽기만 한다 -- 이 대시보드에서 새로 계산하지 않는다(두 곳에서 계산하면 숫자가
+//     갈라진다는 문서 8번 원칙). 기존 "EPS·현금흐름 기반 가격 타당성" 카드는 한 글자도
+//     건드리지 않고, 그 위에 새 카드를 추가하는 형태로만 연결한다(문서 8-3: "지우지 말고
+//     따로 추가"). COMPASS_FEED가 없거나 해당 종목이 없으면(예: ADR·복수주식 제외 종목)
+//     카드 자체를 렌더링하지 않는다 -- 지어내지 않음. ---
+const COMPASS_DEC_COLOR = { BUY:'#2f5b3c', ACC:'#7a5c00', WAIT:'#5b6472', SELL:'#7a3b2e' };
+const COMPASS_DEC_LABEL = { BUY:'분할 매수 구간', ACC:'모아가기', WAIT:'조정 대기', SELL:'추세 이탈 점검' };
+function pvCompassData(t){
+  if(typeof COMPASS_FEED === 'undefined' || !COMPASS_FEED || !COMPASS_FEED.items) return null;
+  return COMPASS_FEED.items[t] || null;
+}
+function renderCompassCard(r){
+  if(!r || !r.ticker) return '';
+  const c = pvCompassData(r.ticker);
+  if(!c) return '';
+  const NEU_BG='#eef0f3', NEU_TEXT='#3c4552', NEU_LINE='#d7dbe1', NEU_DIM='#5b6472';
+  const decColor = COMPASS_DEC_COLOR[c.dec] || NEU_TEXT;
+  const decLabel = c.decTxt || COMPASS_DEC_LABEL[c.dec] || c.dec || '—';
+
+  // 기존 EPS·PER 기반 가격 판단과 결론 방향이 뚜렷이 엇갈릴 때만 "기준이 다름" 안내를
+  // 붙인다(문서 4번). 둘 다 계산해야 비교 가능하므로 여기서도 computePriceValidity를
+  // 한 번 더 호출한다 -- 기존 카드와 동일한 함수를 읽기만 할 뿐 새 판정을 만들지 않는다.
+  let diffNote = '';
+  try {
+    const d = computePriceValidity(r);
+    const conflict = (d.price === '고평가' && (c.dec === 'BUY' || c.dec === 'ACC'))
+      || (d.price === '저평가' && c.dec === 'SELL');
+    if(conflict){
+      diffNote = `<div style="margin-top:8px;font-size:11.5px;color:${NEU_DIM};background:#fff8ea;border:1px solid #e9dcb8;border-radius:8px;padding:6px 9px;">⚠ 두 판단의 기준이 다릅니다 — 나침반: 추세 유지+조정폭 기준 진입 타이밍(확률 기반) · 아래 "가격 타당성": EPS·PER 기반 밸류에이션. 서로 다른 질문에 대한 답이라 결론이 엇갈릴 수 있습니다.</div>`;
+    }
+  } catch(e) { /* 기존 카드 로직에 영향 주지 않도록 조용히 무시 */ }
+
+  const statLine = c.dec === 'BUY'
+    ? `<div style="margin-top:6px;font-size:11px;color:${NEU_DIM};">참고(검증 통계): 분할 매수 구간 진입 후 60거래일 시장 대비 초과수익 평균 +4.6%p(95% 구간 +1.9~+7.5%p) — 다만 하위 10% 손실도 약 -17~-19%로 변동폭이 큽니다. 확정이 아니라 과거 통계입니다.</div>`
+    : '';
+
+  const causeTxt = { '시장':'시장 전체 조정 동반', '업종':'동종 업종 동반 조정', '개별':'개별 종목 사유로 추정', '혼재':'여러 원인 혼재' };
+  const causeLine = c.cause ? `<div style="margin-top:4px;font-size:11.5px;color:${NEU_TEXT};">하락 원인(참고): ${esc(causeTxt[c.cause] || c.cause)}</div>` : '';
+  const qualLine = c.qualNote ? `<div style="margin-top:4px;font-size:11.5px;color:${NEU_TEXT};">품질 체크(미검증): ${esc(c.qualNote)}</div>` : '';
+
+  return `
+    <div style="margin-bottom:12px;background:${NEU_BG};border:1px solid ${NEU_LINE};border-radius:12px;padding:12px 14px;">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;margin-bottom:8px;">
+        <div style="font-size:15px;font-weight:800;color:var(--text);">투자 나침반 — 진입 타이밍(신규, 백테스트 기반)</div>
+        <div class="sub">읽기 전용 · 매수/매도 신호 아님 · 기준일 ${esc(c.date || (typeof COMPASS_FEED!=='undefined'?COMPASS_FEED.date:'') || '—')}</div>
+      </div>
+      <div style="font-size:16px;font-weight:800;color:${decColor};">${esc(decLabel)}</div>
+      ${c.wait ? `<div style="margin-top:6px;font-size:12.5px;color:${NEU_TEXT};line-height:1.5;">${esc(c.wait)}</div>` : ''}
+      ${statLine}
+      ${causeLine}
+      ${qualLine}
+      ${diffNote}
+      <div style="margin-top:8px;font-size:10.5px;color:${NEU_DIM};">※ "싸다/비싸다"가 아니라 "추세를 유지한 채 역사적으로 유리했던 조정 구간인가"를 판정합니다. 가격 자체의 밸류에이션 판단은 아래 "가격 타당성" 카드를 참고하세요.</div>
+    </div>`;
+}
+
 function renderPriceValidityCard(r){
   if(!r || !r.ticker) return '';
   const NEU_BG='#eef0f3', NEU_TEXT='#3c4552', NEU_LINE='#d7dbe1', NEU_DIM='#5b6472';
@@ -7427,6 +7486,7 @@ function tabJudgement(r){
   const ivHtmlFolded = renderIndependentValuationSection(r);
 
   return `
+    ${renderCompassCard(r)}
     ${renderPriceValidityCard(r)}
     ${renderMarketExpectationSectorCard(r)}
     ${renderDownturnCauseCard(r)}
