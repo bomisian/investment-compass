@@ -3686,12 +3686,14 @@ const BUSINESS_NOTES = {
       date: "2026-08-10",
       period: "최근 3개 분기 연속 마진 급등 (2025-12 마감→2026-03 마감→2026-06 마감 추정)",
       headline: "매출은 완만히 증가($2.8B→$3.0B→$3.3B)하는데 순이익률이 42%→61%→96%로 가파르게 치솟음. 96%는 하드웨어 회사로선 극단적으로 높은 수치.",
-      oneTime: "MU·SNDK와 같은 메모리(스토리지) 업계 가격 상승 사이클이 배경일 가능성이 높으나, 매출 증가폭에 비해 순이익률 상승폭이 유독 커서(96%는 다른 두 종목보다도 높음) 이 회사 특유의 요인(지분법 이익, 세금 효과, 자산 매각 등)이 섞여 있을 수 있음 - 이 부분은 이번 조사에서 정확한 항목까지는 확인하지 못함.",
+      oneTime: "MU·SNDK와 같은 메모리(스토리지) 업계 가격 상승 사이클이 배경일 가능성이 높으나, 매출 증가폭에 비해 순이익률 상승폭이 유독 커서(96%는 다른 두 종목보다도 높음) 이 회사 특유의 요인(지분법 이익, 세금 효과, 자산 매각 등)이 섞여 있을 수 있음 - 이 부분은 이번 조사에서 정확한 항목까지는 확인하지 못함. [2026-10-13 갱신] WD 공식 FY2026 실적발표(westerndigital.com, 2026-08-05)로 직접 확인함: FY2026 전체 GAAP 희석 EPS $24.28 vs Non-GAAP 희석 EPS $10.22 (Q4만 GAAP $8.21 vs Non-GAAP $3.56) - GAAP과 Non-GAAP 괴리가 실제로 매우 크다는 게 공식 수치로 확인됨(정확히 어느 항목인지는 여전히 미확인이지만 괴리 자체는 더 이상 추정이 아님).",
+      epsOneTimeDistortion: true, // 51758: 위 2026-10-13 갱신으로 GAAP/Non-GAAP 괴리가 공식 수치로 확인되어 backfill
       coreRead: "방향성(메모리 업사이클 수혜)은 MU·SNDK와 같다고 보되, 96%라는 마진 자체는 그대로 믿기보다 다음 분기 실적 발표에서 세부 항목(영업이익 vs 순이익 괴리, 일회성 항목 공시 여부)을 확인해서 갱신이 필요함.",
       forecast: "메모리 사이클 공통 리스크(가격 상승 둔화 시 마진 정상화)에 더해, 이 종목은 마진의 '질'부터 다음 분기에 재확인이 필요함. 지금 이 96%를 그대로 미래에 투영하는 건 위험 - 확인 안 된 부분을 확인 안 됐다고 그대로 남겨둠(추측으로 채우지 않음).",
-      confidence: "매출·순이익 숫자 자체는 캐시 데이터 기준(신뢰도 높음) · 96% 마진의 구체적 원인은 미확인(신뢰도 낮음 - 다음 갱신 때 우선 확인할 것)",
+      confidence: "매출·순이익 숫자 자체는 캐시 데이터 기준(신뢰도 높음) · GAAP/Non-GAAP 괴리는 공식 실적발표로 확인(신뢰도 높음) · 괴리의 정확한 항목 구성은 여전히 미확인(신뢰도 낮음)",
       sources: [
         {title:"SanDisk, Western Digital, and Seagate benefiting from explosive AI infrastructure growth", url:"https://www.ig.com/en/news-and-trade-ideas/memory-chip-stocks-rally-2026-260708"},
+        {title:"WD Reports Fiscal Fourth Quarter and Fiscal Year 2026 Financial Results", url:"https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-08-05-wd-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results"},
       ],
     }],
     viewLog: [
