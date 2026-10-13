@@ -6375,6 +6375,53 @@ function renderPriceValidityCard(r){
   const riskLines = pvPriceRiskLine(d);
   const chartSimpleLabel = pvChartSimple(d);
   const decisionInfo = pvDecisionInfo(d, r, act, num);
+  // =========================================================================
+  // 51763 -- "3초 판단" 요약 박스. 사용자가 다른(더 단순한) 대시보드 UI를 참고 이미지로
+  // 보내며 "간단명료하게, 쉽게 볼 수 있게" 요청(2026-10-13). 새 판단 로직은 전혀 추가하지
+  // 않음 -- act(pvIntegratedAction)·d.price·decisionInfo(이미 계산됨)를 그대로 읽어
+  // "질문 → 즉답" 형식으로 압축 재배치만 한다. 아래 기존 카드들(핵심 근거·위험 근거·판단
+  // 근거 보기 등)은 그대로 남겨 "더 자세히 보고 싶으면 내려서 보기" 구조로 유지한다.
+  // =========================================================================
+  const QUICK_Q1_BY_TIER = {
+    accumulate: '네, 지금이 분할 매수를 검토할 구간이에요.',
+    chart_wait: '가격은 매력적일 수 있지만 지금은 추격 금지 구간이에요 — 눌림이나 반등 확인 후 들어가세요.',
+    chart_downtrend: '가격은 괜찮아 보여도 차트가 아직 하락 추세라 신규 진입은 보류하는 게 안전해요.',
+    chart_nodata: '차트 데이터가 부족해 타이밍은 판단할 수 없어요 — 사업·현금흐름 근거만 참고하세요.',
+    downturn_watch: '아직 하락 원인이 명확히 확인되지 않아 신규 매수는 보류하는 게 안전해요.',
+    downturn_stop: '사업 구조에 대한 우려가 해소되지 않아 신규 진입을 피하는 게 안전해요.',
+    cf_veto: '현금흐름에 경고 신호가 있어 신규 진입을 피하는 게 안전해요.',
+    price_caution: '지금 가격은 과거 고밴드를 넘어서 있어 신규 매수보다는 신중한 관찰이 필요해요.',
+  };
+  const quickQ1 = QUICK_Q1_BY_TIER[act.tier] || act.reason;
+  const quickQ2 = decisionInfo.buyZone || '매수 구간 정보 없음';
+  const quickQ3 = `이 카드는 매도 신호를 직접 주지 않아요. 다만 이 판단이 바뀌는 조건은 — ${esc(decisionInfo.invalidateCond || act.recheck || '—')} — 이 조건이 되면 보유 여부를 다시 점검하세요.`;
+
+  const quickVerdictBox = `
+    <div style="margin-top:4px;padding:15px 16px;border-radius:12px;border:2px solid ${actionColor};background:#fff;">
+      <div style="font-size:11px;color:${NEU_DIM};font-weight:700;">3초 판단</div>
+      <div style="margin-top:2px;font-size:21px;font-weight:900;color:${actionColor};">${esc(act.label)}</div>
+      <div style="margin-top:4px;font-size:12.5px;color:${NEU_TEXT};line-height:1.5;">${esc(act.reason)}</div>
+
+      <div style="margin-top:10px;background:${NEU_BG};border-radius:8px;padding:8px 10px;display:inline-block;">
+        <span style="font-size:10.5px;color:${NEU_DIM};font-weight:700;">가격 판단</span>
+        <span style="margin-left:7px;font-size:14px;font-weight:800;color:${priceColor};">${esc(d.price)}${priceLocLine}</span>
+      </div>
+
+      <div style="margin-top:12px;font-size:11px;color:${NEU_DIM};font-weight:700;">한눈에 답</div>
+      <div style="margin-top:4px;background:${NEU_BG};border-radius:8px;padding:9px 11px;">
+        <div style="font-size:11.5px;font-weight:700;color:${NEU_DIM};">지금 사도 되나요?</div>
+        <div style="margin-top:2px;font-size:12.5px;color:${NEU_TEXT};line-height:1.5;">${esc(quickQ1)}</div>
+      </div>
+      <div style="margin-top:6px;background:${NEU_BG};border-radius:8px;padding:9px 11px;">
+        <div style="font-size:11.5px;font-weight:700;color:${NEU_DIM};">조정이 오면 어디까지 기다리면 되나요?</div>
+        <div style="margin-top:2px;font-size:12.5px;color:${NEU_TEXT};line-height:1.5;">${esc(quickQ2)}</div>
+      </div>
+      <div style="margin-top:6px;background:${NEU_BG};border-radius:8px;padding:9px 11px;">
+        <div style="font-size:11.5px;font-weight:700;color:${NEU_DIM};">들고 있으면 팔아야 하나요?</div>
+        <div style="margin-top:2px;font-size:12.5px;color:${NEU_TEXT};line-height:1.5;">${quickQ3}</div>
+      </div>
+    </div>`;
+
   const fixedFormatBox = `
     <div style="margin-top:4px;padding:13px 15px;border-radius:10px;border:1.5px solid #3c4552;background:#fff;">
       <div style="font-size:11px;color:${NEU_DIM};font-weight:700;">현재 가격 판단</div>
@@ -6610,7 +6657,7 @@ function renderPriceValidityCard(r){
   //     남겨두되(다른 곳에서 참조하지 않음, 삭제 리스크를 줄이기 위해 죽은 코드로 보존) 카드에서는
   //     더 이상 호출·렌더링하지 않는다. 매수 구간·무효화 조건·포지션 크기·다음 실적일은 가격
   //     판단이 정상화된 뒤에 별도로 다룬다(사용자 명시).
-  return `${headHtml}${fixedFormatBox}${fallbackAxesBox}${conclusionBox}${positionBox}${positionMismatchNote}${crossCheckBox}${evidenceDetails}${targetRef}${footNote}`;
+  return `${headHtml}${quickVerdictBox}${fixedFormatBox}${fallbackAxesBox}${conclusionBox}${positionBox}${positionMismatchNote}${crossCheckBox}${evidenceDetails}${targetRef}${footNote}`;
 }
 if(typeof HINTS !== 'undefined'){
   HINTS.priceValidityCard = 'EPS 성장·수정 방향, 현재가가 요구하는 밸류에이션, 현금흐름·부채·희석, 103 기술적 진입 상태를 결합해 "가격이 사업 펀더멘털 대비 타당한가"를 보여주는 읽기 전용 카드입니다. 맨 위에는 오늘의 판단·오늘의 행동·가격/사업/현금흐름/차트 4축·판단이 바뀌는 조건이 먼저 나오고, EPS·PER·현금흐름 원자료와 가격대 표는 "판단 근거 보기"를 펼쳐야 보입니다. NTM PER은 독립 밸류에이션 모듈의 값을 우선 쓰고, 없으면 eps_data.js의 애널리스트 컨센서스로 같은 방식(일수 가중 선형보간)을 재현한 공통 계산기로 보완합니다. 과거 PER 밴드는 종목 자신의 중앙값 기반 백분위(5년 이상 흑자 이력)를 우선 쓰고, 상장 이력이 짧은 종목은 기존 전체 통계 폴백(0.64~1.55배)을 적용합니다. 과거 PER 유효 관측치가 전혀 없는 극소수 종목만 숫자 가격대를 차단하고, 그 외엔 사업·현금흐름·차트 평가를 그대로 보여줍니다. 애널리스트 목표가는 가격 기준으로 쓰지 않고 시장 기대 참고로만 보조 사용합니다. 가격 타당성과 기술적 진입 타이밍은 분리된 축으로 표시되며 한쪽이 다른 쪽을 깎지 않습니다. 매수·매도 신호가 아니고 자동매매·알림과 연결되지 않습니다.';
