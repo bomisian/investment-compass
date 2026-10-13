@@ -57,6 +57,9 @@
   /* 요약 섹션 */
   .summary-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:14px;}
   @media (max-width:860px){ .summary-grid{grid-template-columns:1fr;} }
+.dc-summary-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:14px;}
+@media (max-width:860px){ .dc-summary-grid{grid-template-columns:repeat(3,1fr);} }
+@media (max-width:520px){ .dc-summary-grid{grid-template-columns:repeat(2,1fr);} }
   .bucket-row{display:flex;gap:8px;flex-wrap:wrap;}
   .bucket{flex:1;min-width:100px;border-radius:12px;padding:12px 8px;text-align:center;border:1px solid transparent;cursor:pointer;transition:transform .15s ease,box-shadow .15s ease;}
   .bucket:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(0,0,0,.08);}
@@ -5028,6 +5031,7 @@ function renderMarketExpectationSectorCard(r){
       <div class="fund-row"><span>시장 컨센서스 위치</span><span class="v">${posLine}<div class="sub" style="font-size:10.5px;">가격·목표가 원천: ${esc(m.source_file || 'Daily Market Brief')}</div></span></div>
       <div class="sub" style="font-size:10.5px;margin-top:4px;line-height:1.6;">${asOfBlock}</div>
       ${warnBadges ? `<div style="margin-top:4px;">${warnBadges}</div>` : ''}
+      ${m.recheck_trigger_met ? `<div style="margin-top:4px;font-size:10.5px;color:#7a3b2e;background:#fff0ea;border:1px solid #e9c3b8;border-radius:8px;padding:6px 8px;line-height:1.5;">⚠ 재점검 필요: ${esc(m.recheck_note || '재평가 조건 충족 — 다음 리서치 패스에서 축 재점검 필요')}</div>` : ''}
       <div class="sub" style="font-size:10.5px;margin-top:4px;color:#876000;">현재가가 컨센서스 중심보다 낮다/높다는 사실은 저평가·고평가 판단과 연결하지 않습니다.</div>
     `;
   }
@@ -5221,7 +5225,7 @@ function renderDownturnCauseSummary(scored){
     ['조정 대상 아님','조정 대상<br>아님']
   ];
 
-  const gridHtml = `<div style="display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:14px;">${
+  const gridHtml = `<div class="dc-summary-grid">${
     order.map(([key,lbl])=>{
       const list = groups[key]||[];
       return `<div style="background:${NEU_BG};border:1px solid ${NEU_LINE};border-radius:10px;padding:12px 10px;text-align:center;">
@@ -6206,12 +6210,23 @@ const PV_COLOR = {
 //     (데이터 공백이 아니라 안 쓰고 있었을 뿐 -- 사용자가 지적한 "데이터 공백이 많다"를
 //     코드 수정 없이 기존 데이터 연결만으로 줄이는 사례). ---
 function pvDecisionInfo(d, r, act, num){
-  const out = { buyZone: null, confirmCond: null, invalidateCond: null, nextCheck: null };
+  const out = { buyZone: null, buyZoneWidthNote: null, confirmCond: null, invalidateCond: null, nextCheck: null };
 
   const bandDisplayEligible = d.bandEligible && !d.distorted;
   if(bandDisplayEligible && d.bandTable){
     const bt = d.bandTable;
     out.buyZone = `$${bt.conservative.price.toFixed(2)} ~ $${bt.base.price.toFixed(2)}(상단 $${bt.upside.price.toFixed(2)} 초과 시 기대 선반영 경계)`;
+    // 51761 -- 매수구간 폭이 넓어 보여 신뢰도가 의심된다는 사용자 피드백 반영. 새 구간·새
+    // 계산을 추가하지 않고, 이미 있는 숫자(conservative~base)로 폭(%)만 계산해 40% 이상이면
+    // 그 폭이 "계산 오류"가 아니라 과거 PER 20~80백분위 밴드(fundamentals_data.js의
+    // perBandLow/perBandHigh, 이미 강건 통계 기반)와 애널리스트 EPS 추정 범위(저~평균)가
+    // 곱해져서 생기는 구조적 결과임을 설명하는 안내문만 추가한다.
+    if(bt.conservative.price > 0){
+      const widthPct = (bt.base.price - bt.conservative.price) / bt.conservative.price * 100;
+      if(widthPct >= 40){
+        out.buyZoneWidthNote = `※ 구간이 넓어 보일 수 있어요 — 계산 오류가 아니라, 과거 3년 PER의 20~80백분위 밴드(변동성이 큰 종목일수록 넓음)와 애널리스트 EPS 추정치의 저~평균 범위를 함께 반영하다 보니 두 불확실성이 곱해져 폭이 커진 구조적 결과예요(현재 폭 약 +${widthPct.toFixed(0)}%). 보수적으로 보려면 구간 하단에 가까울수록, 공격적으로 보려면 상단에 가까울수록 신뢰도가 낮아진다고 이해하시면 됩니다.`;
+      }
+    }
   } else if(d.usedFallbackModel){
     const ed = (typeof ESTIMATES_DATA!=='undefined') ? ESTIMATES_DATA[r.ticker] : null;
     if(ed && typeof ed.targetMean==='number' && num(r.price) && r.price>0){
@@ -6379,6 +6394,7 @@ function renderPriceValidityCard(r){
 
       <div style="margin-top:8px;font-size:11px;color:${NEU_DIM};font-weight:700;">매수 구간</div>
       <div style="margin-top:2px;font-size:12px;color:${NEU_TEXT};line-height:1.5;">${esc(decisionInfo.buyZone)}</div>
+      ${decisionInfo.buyZoneWidthNote ? `<div style="margin-top:4px;font-size:11px;color:${NEU_DIM};background:#fff8ea;border:1px solid #e9dcb8;border-radius:8px;padding:7px 9px;line-height:1.5;">${esc(decisionInfo.buyZoneWidthNote)}</div>` : ''}
       ${decisionInfo.confirmCond ? `
       <div style="margin-top:8px;font-size:11px;color:${NEU_DIM};font-weight:700;">더 좋아지는 조건</div>
       <div style="margin-top:2px;font-size:12px;color:${NEU_TEXT};line-height:1.5;">${esc(decisionInfo.confirmCond)}</div>` : ''}

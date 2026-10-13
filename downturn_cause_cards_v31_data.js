@@ -390,7 +390,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
       "unverified": "SoftBank 지분 매각 관련 2026년 최신 동향 미확인. China 수출규제가 이번 하락과 직접 관련 있는지도 확인되지 않음. 9월 말 급락의 'OpenAI 트레이닝 중단설'은 원 소스 미확인으로 신뢰도 낮음"
     },
     "ASML": {
-      "state": "관찰 — 하락 원인 확인 필요",
+      "state": "건강한 조정 후보 — 진입 신호 대기",
       "gate": {
         "pass": true,
         "dd60": -5.5,
@@ -420,9 +420,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
         "not_core_cause": true,
         "note": "사업 실적 추정치는 오히려 개선되는 중이며 하락은 섹터 동반 매도 성격"
       },
-      "entry_status": "신호 없음(관찰)",
-      "entry_note": "실적 발표(10/14) 전까지는 추가 확인 필요",
-      "next_check": "2026-10-14 Q3 실적 발표 확인",
+      "entry_status": "하락 원인 확인됨 — 눌림목·반등(103) 신호 미확인",
+      "entry_note": "[2026-10-13 갱신] 외부 하락 원인(섹터 동반 매도) 확인 + 사업 전제 견조로 '관찰'에서 상향. 단, 2026-10-14 Q3 실적 발표 전이라 그 결과로 사업 전제가 다시 바뀔 수 있음 — 실적 확인 후 재점검 권장. 103 눌림목·반등 신호 미확인 상태라 '분할 축적 검토'는 아님.",
+      "next_check": "2026-10-14 Q3 실적 발표 확인 및 103 눌림목·반등 신호 확인 시 '분할 축적 검토'로 재평가",
       "tag": null,
       "sources": [
         "ASML IR",
@@ -553,7 +553,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
       "unverified": null
     },
     "MU": {
-      "state": "관찰 — 하락 원인 확인 필요",
+      "state": "건강한 조정 후보 — 진입 신호 대기",
       "gate": {
         "pass": true,
         "dd60": -6.2,
@@ -583,9 +583,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
         "not_core_cause": true,
         "note": "기존 대시보드의 EPS 상향(+25.7%) 신호와 상충하지 않음"
       },
-      "entry_status": "신호 없음(관찰)",
-      "entry_note": "",
-      "next_check": "다음 분기 실적까지 추세 확인",
+      "entry_status": "하락 원인 확인됨 — 눌림목·반등(103) 신호 미확인",
+      "entry_note": "[2026-10-13 갱신] 외부 하락 원인(섹터 동반 매도, '뉴스에 팔아라' 패턴) 확인 + 사업 전제 견조로 '관찰'에서 상향. 103 눌림목·반등 신호 미확인 상태라 '분할 축적 검토'는 아님.",
+      "next_check": "103 눌림목·반등 신호 확인 시 '분할 축적 검토'로 재평가(다음 분기 실적까지 추세 확인 병행)",
       "tag": null,
       "sources": [
         "MU IR",
@@ -594,7 +594,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
       "unverified": null
     },
     "SNDK": {
-      "state": "관찰 — 하락 원인 확인 필요",
+      "state": "건강한 조정 후보 — 진입 신호 대기",
       "gate": {
         "pass": true,
         "dd60": -16.2,
@@ -622,9 +622,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
         "not_core_cause": true,
         "note": ""
       },
-      "entry_status": "신호 없음(관찰)",
-      "entry_note": "",
-      "next_check": "",
+      "entry_status": "하락 원인 확인됨 — 눌림목·반등(103) 신호 미확인",
+      "entry_note": "[2026-10-13 갱신] 외부 하락 원인(메모리 섹터 동반 매도 2회) 확인 + 사업 전제 견조로 '관찰'에서 상향. 103 눌림목·반등 신호 미확인 상태라 '분할 축적 검토'는 아님.",
+      "next_check": "103 눌림목·반등 신호 확인 시 '분할 축적 검토'로 재평가",
       "tag": null,
       "sources": [
         "SNDK IR",
@@ -633,7 +633,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
       "unverified": "주가 순환성(cyclicality) 우려를 제기하는 Seeking Alpha 기사 제목을 확인했으나 본문 내용은 검증하지 못함"
     },
     "WDC": {
-      "state": "관찰 — 하락 원인 확인 필요",
+      "state": "건강한 조정 후보 — 진입 신호 대기",
       "gate": {
         "pass": true,
         "dd60": -28.8,
@@ -663,9 +663,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
         "not_core_cause": true,
         "note": ""
       },
-      "entry_status": "신호 없음(관찰)",
-      "entry_note": "",
-      "next_check": "",
+      "entry_status": "하락 원인 확인됨 — 눌림목·반등(103) 신호 미확인",
+      "entry_note": "[2026-10-13 갱신] 외부 하락 원인(Toshiba HDD 증설) 확인 + 사업 전제 견조로 '관찰'에서 상향. 103 눌림목·반등 신호 미확인 상태라 '분할 축적 검토'는 아님.",
+      "next_check": "103 눌림목·반등 신호 확인 시 '분할 축적 검토'로 재평가",
       "tag": null,
       "sources": [
         "WDC IR",

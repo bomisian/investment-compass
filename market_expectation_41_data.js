@@ -1743,7 +1743,9 @@ const MARKET_EXPECTATION_41 = {
       "stock_vs_primary_etf_relative_strength_pct": -23.62,
       "sector_leader": false,
       "original_signal_connected": false,
-      "sector_filter_interpretation": "원신호 미연결 — 섹터 환경 참고용"
+      "sector_filter_interpretation": "원신호 미연결 — 섹터 환경 참고용",
+      "recheck_trigger_met": true,
+      "recheck_note": "[2026-10-13 점검] 이 항목의 next_change_condition 중 '10-06 급락의 원인(업종 전반 vs 종목 고유 이슈)이 확인되는 경우'가 DOWNTURN_CAUSE_CARDS_V31에서 충족됨(2026-10-02 Toshiba HDD 생산능력 증설 발표 — 업종 전반 요인, WDC 고유 이슈 아님, external_confirmed:true). 다만 정식 라벨(강화/유지/약화) 승격에는 관측축 3개 이상·A/B급 2개 이상 조건이 별도로 필요하며(현재 observed_axes:2, ab_grade_axes:2로 미충족), 이번 라운드에서는 9축 재점검 없이 라벨을 기계적으로 바꾸지 않음 — 다음 정식 리서치 패스(DAILY_MARKET_BRIEF 갱신)에서 전체 축 재평가 필요. as_of(2026-10-07) 자체도 6일 경과한 값."
     }
   }
 };
