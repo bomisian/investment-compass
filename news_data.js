@@ -2,10 +2,74 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1791964669.39397,
+    "_last_attempt_at": 1791986403.4714622,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Dow Futures Rise, Nasdaq Subdued Premarket Ahead Of Inflation Data: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c32ec331bb98924ca74dbf7a10624a2ccef1f4344c7ace6b556ae3b536c357b7",
+        "datetime": 1791967900,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "인플레이션을 앞두고 다우 선물 상승, 나스닥 제압 프리마켓 데이터: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus AI Agent Trending News Earnings All DIA 0.06% SPY 0.58% QQQ 0.99% Trending DJT 3.23% CRWV 13.64% NBIS 9.70% SPY 0",
+            "Dow Futures Rise, Nasdaq Subdued Premarket Ahead of Inflation Data: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus On Stocktwits, SPY 및 QQQ에 대한 소매 감정은 CPI 인쇄를 앞두고 ‘낙관적’ 으로 남아 있습니다.",
+            "2026년 8월 7일 미국 뉴욕에서 나스닥 로고 사인이 보입니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.06%, 0.58%, 0.99% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "QQQ에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.06%",
+            "0.58%",
+            "0.99%",
+            "3.23%",
+            "13.64%",
+            "9.70%",
+            "12.08%",
+            "4.77%"
+          ],
+          "sourceExcerpt": [
+            "Dow Futures Rise, Nasdaq Subdued Premarket Ahead Of Inflation Data: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus AI Agent Trending News Earnings All DIA 0.06% SPY 0.58% QQQ 0.99% Trending DJT 3.23% CRWV 13.64% NBIS 9.70% SPY 0",
+            "Dow Futures Rise, Nasdaq Subdued Premarket Ahead Of Inflation Data: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus On Stocktwits, retail sentiment toward SPY and QQQ has remained ‘bullish’ ahead of the CPI print.",
+            "Nasdaq logo sign is seen in New York City, United States, on August 7, 2026."
+          ],
+          "analysisUpdatedAt": 1791986420.6367588
+        },
+        "headlineKo": "다우 선물 상승, 인플레이션을 앞둔 나스닥 제압 프리마켓 데이터: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus"
+      },
       {
         "headline": "Bank of America Clients to Enjoy Premium Dining and Lifestyle Experiences at the 19th Food Network New York City Wine & Food Festival presented by Invesco QQQ",
         "source": "Yahoo",
@@ -52,7 +116,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791964673.5964725
+          "analysisUpdatedAt": 1791986424.1843333
         },
         "headlineKo": "Bank of America 고객들은 Invesco QQQ가 주최하는 제19회 푸드 네트워크 뉴욕시 와인 및 음식 축제에서 프리미엄 식사 및 라이프스타일 경험을 즐길 수 있습니다"
       },
@@ -66,23 +130,23 @@ const NEWS_DATA = {
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "medium",
+          "importance": "high",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "오늘의 주식 시장: Dow Jones, S&P 500 선물 상승, Scott Bessent의 이란 E 발표로 Nasdaq 100 하락 - Benzinga SPY 778.51 +0.05% QQQ 742.43 −0.48% BTC/USD 83,519.68 +2.18% DIA 521.16 +0.63% GLD 383.80 +0.43% TLT 78.47 +0.54% US Sign i",
-            "다우 존스와 S&P 500 지수가 상승하고 나스닥 100 지수가 월요일 혼성 장 이후 하락하면서 주식 선물은 화요일 이익과 손실 사이를 오가고 있었습니다.",
-            "이란에서 진행 중인 전쟁은 미국에 상당한 경제적, 전략적 압박을 가중시키고 있습니다."
+            "오늘의 주식 시장: 다우 존스 선물 이득, 나스닥, S&P 500은 스콧 베센트가 이란의 경제가 - 벤징가 스파이 779.77 +0.23% QQQ 743.76 +0.03% BTC/USD 83,335.00 +0.28% DIA 518.62 +0.47% GLD 379.73 − 0.51% TLT 78.59 +0.28% US Sign i",
+            "화요일 다우존스 지수가 상승하면서 주식 선물은 손익 사이에서 흔들리고 있었고, S&P 500 지수와 나스닥 100 지수는 월요일 혼조 마감 이후 하락했다.",
+            "NFIB 중소기업 낙관 지수가 9월에 0.8포인트 하락한 97.9로 52년 평균인 98.0을 밑돌면서 중소기업 심리가 시장 역풍에 더해졌습니다."
           ],
           "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.05%, 0.48%, 2.18% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.23%, 0.03%, 0.28% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -93,30 +157,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
           ],
-          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.05%",
-            "0.48%",
-            "2.18%",
-            "0.63%",
-            "0.43%",
-            "0.54%",
-            "$105",
-            "$2,000"
+            "0.23%",
+            "0.03%",
+            "0.28%",
+            "0.47%",
+            "0.51%",
+            "31%",
+            "20%",
+            "$105"
           ],
           "sourceExcerpt": [
-            "Stock Market Today: Dow Jones, S&P 500 Futures Gain While Nasdaq 100 Falls as Scott Bessent Says Iran's E - Benzinga SPY 778.51 +0.05% QQQ 742.43 −0.48% BTC/USD 83,519.68 +2.18% DIA 521.16 +0.63% GLD 383.80 +0.43% TLT 78.47 +0.54% US Sign i",
-            "stock futures were swinging between gains and losses on Tuesday, as the Dow Jones and S&P 500 indices rose, while the Nasdaq 100 index fell, following Monday’s mixed close.",
-            "The ongoing war in Iran is mounting significant economic and strategic pressure on the U.S."
+            "Stock Market Today: Dow Jones Futures Gain, Nasdaq, S&P 500 Falls as Scott Bessent Says Iran's Economy Is - Benzinga SPY 779.77 +0.23% QQQ 743.76 +0.03% BTC/USD 83,335.00 +0.28% DIA 518.62 +0.47% GLD 379.73 −0.51% TLT 78.59 +0.28% US Sign i",
+            "stock futures were swinging between gains and losses on Tuesday, as the Dow Jones index rose, while the S&P 500 and Nasdaq 100 indices fell, following Monday’s mixed close.",
+            "Small business sentiment added to broader market headwinds as the NFIB Small Business Optimism Index fell 0.8 points in September to 97.9, dipping below its 52-year average of 98.0."
           ],
-          "analysisUpdatedAt": 1791964676.0147045
+          "analysisUpdatedAt": 1791986432.78761
         },
         "headlineKo": "오늘의 주식 시장: Scott Bessent가 이란 경제가 '붕괴'하고 있다고 말하면서 Dow Jones Futures Gain, Nasdaq, S&P 500 하락— SXTC, AMAT, CMG in Focus(업데이트됨)"
       },
@@ -128,46 +192,6 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "QQQI: A Near-Term Nasdaq Pullback Does Not End The Bull Case",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'QQQI: A Near-Term Nasdaq Pullback Does Not End The Bull Case' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791964676.9082408
-        },
         "headlineKo": "QQQI: 단기적인 나스닥 하락세는 강세장을 끝내지 않습니다"
       },
       {
@@ -179,19 +203,72 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "S&P 500, Nasdaq 100은 칩 제조업체 약세로 인해 하락했고 Salesforce는 Dow에 도움을 얻었습니다 — META, MSFT, BMBL, CRM, SNAP 초점"
-      },
-      {
-        "headline": "JEPQ Pays 11.27%. This Lesser-Known Nasdaq ETF Is Paying 13.58% Monthly",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8f9161b42b8dd05eac8db4a8a72ae0a132cb483bb6999c447ca95c3a5d05168e",
-        "datetime": 1791842617,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "JEPQ는 11.27%를 지불합니다. 덜 알려진 이 나스닥 ETF는 월 13.58%의 수익률을 올리고 있습니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Dow Futures Rise, Nasdaq Subdued Premarket Ahead Of Inflation Data: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c32ec331bb98924ca74dbf7a10624a2ccef1f4344c7ace6b556ae3b536c357b7",
+        "datetime": 1791967900,
+        "headlineKo": "다우 선물 상승, 인플레이션을 앞둔 나스닥 제압 프리마켓 데이터: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "인플레이션을 앞두고 다우 선물 상승, 나스닥 제압 프리마켓 데이터: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus AI Agent Trending News Earnings All DIA 0.06% SPY 0.58% QQQ 0.99% Trending DJT 3.23% CRWV 13.64% NBIS 9.70% SPY 0",
+            "Dow Futures Rise, Nasdaq Subdued Premarket Ahead of Inflation Data: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus On Stocktwits, SPY 및 QQQ에 대한 소매 감정은 CPI 인쇄를 앞두고 ‘낙관적’ 으로 남아 있습니다.",
+            "2026년 8월 7일 미국 뉴욕에서 나스닥 로고 사인이 보입니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.06%, 0.58%, 0.99% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "QQQ에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.06%",
+            "0.58%",
+            "0.99%",
+            "3.23%",
+            "13.64%",
+            "9.70%",
+            "12.08%",
+            "4.77%"
+          ],
+          "sourceExcerpt": [
+            "Dow Futures Rise, Nasdaq Subdued Premarket Ahead Of Inflation Data: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus AI Agent Trending News Earnings All DIA 0.06% SPY 0.58% QQQ 0.99% Trending DJT 3.23% CRWV 13.64% NBIS 9.70% SPY 0",
+            "Dow Futures Rise, Nasdaq Subdued Premarket Ahead Of Inflation Data: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus On Stocktwits, retail sentiment toward SPY and QQQ has remained ‘bullish’ ahead of the CPI print.",
+            "Nasdaq logo sign is seen in New York City, United States, on August 7, 2026."
+          ],
+          "analysisUpdatedAt": 1791986420.6367588
+        }
+      },
       {
         "headline": "Bank of America Clients to Enjoy Premium Dining and Lifestyle Experiences at the 19th Food Network New York City Wine & Food Festival presented by Invesco QQQ",
         "source": "Yahoo",
@@ -238,7 +315,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791964673.5964725
+          "analysisUpdatedAt": 1791986424.1843333
         }
       },
       {
@@ -251,23 +328,23 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "medium",
+          "importance": "high",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "오늘의 주식 시장: Dow Jones, S&P 500 선물 상승, Scott Bessent의 이란 E 발표로 Nasdaq 100 하락 - Benzinga SPY 778.51 +0.05% QQQ 742.43 −0.48% BTC/USD 83,519.68 +2.18% DIA 521.16 +0.63% GLD 383.80 +0.43% TLT 78.47 +0.54% US Sign i",
-            "다우 존스와 S&P 500 지수가 상승하고 나스닥 100 지수가 월요일 혼성 장 이후 하락하면서 주식 선물은 화요일 이익과 손실 사이를 오가고 있었습니다.",
-            "이란에서 진행 중인 전쟁은 미국에 상당한 경제적, 전략적 압박을 가중시키고 있습니다."
+            "오늘의 주식 시장: 다우 존스 선물 이득, 나스닥, S&P 500은 스콧 베센트가 이란의 경제가 - 벤징가 스파이 779.77 +0.23% QQQ 743.76 +0.03% BTC/USD 83,335.00 +0.28% DIA 518.62 +0.47% GLD 379.73 − 0.51% TLT 78.59 +0.28% US Sign i",
+            "화요일 다우존스 지수가 상승하면서 주식 선물은 손익 사이에서 흔들리고 있었고, S&P 500 지수와 나스닥 100 지수는 월요일 혼조 마감 이후 하락했다.",
+            "NFIB 중소기업 낙관 지수가 9월에 0.8포인트 하락한 97.9로 52년 평균인 98.0을 밑돌면서 중소기업 심리가 시장 역풍에 더해졌습니다."
           ],
           "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.05%, 0.48%, 2.18% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.23%, 0.03%, 0.28% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -278,30 +355,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
           ],
-          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.05%",
-            "0.48%",
-            "2.18%",
-            "0.63%",
-            "0.43%",
-            "0.54%",
-            "$105",
-            "$2,000"
+            "0.23%",
+            "0.03%",
+            "0.28%",
+            "0.47%",
+            "0.51%",
+            "31%",
+            "20%",
+            "$105"
           ],
           "sourceExcerpt": [
-            "Stock Market Today: Dow Jones, S&P 500 Futures Gain While Nasdaq 100 Falls as Scott Bessent Says Iran's E - Benzinga SPY 778.51 +0.05% QQQ 742.43 −0.48% BTC/USD 83,519.68 +2.18% DIA 521.16 +0.63% GLD 383.80 +0.43% TLT 78.47 +0.54% US Sign i",
-            "stock futures were swinging between gains and losses on Tuesday, as the Dow Jones and S&P 500 indices rose, while the Nasdaq 100 index fell, following Monday’s mixed close.",
-            "The ongoing war in Iran is mounting significant economic and strategic pressure on the U.S."
+            "Stock Market Today: Dow Jones Futures Gain, Nasdaq, S&P 500 Falls as Scott Bessent Says Iran's Economy Is - Benzinga SPY 779.77 +0.23% QQQ 743.76 +0.03% BTC/USD 83,335.00 +0.28% DIA 518.62 +0.47% GLD 379.73 −0.51% TLT 78.59 +0.28% US Sign i",
+            "stock futures were swinging between gains and losses on Tuesday, as the Dow Jones index rose, while the S&P 500 and Nasdaq 100 indices fell, following Monday’s mixed close.",
+            "Small business sentiment added to broader market headwinds as the NFIB Small Business Optimism Index fell 0.8 points in September to 97.9, dipping below its 52-year average of 98.0."
           ],
-          "analysisUpdatedAt": 1791964676.0147045
+          "analysisUpdatedAt": 1791986432.78761
         }
       },
       {
@@ -5885,15 +5962,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791964669.39397,
-    "_updated_label": "2026-10-14 16:57",
-    "_last_success_at": 1791964669.39397,
+    "_fetched_at": 1791986403.4714622,
+    "_updated_label": "2026-10-14 23:00",
+    "_last_success_at": 1791986403.4714622,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 115,
+      "checked": 116,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "SPY": {
@@ -13452,11 +13529,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 154,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "MSFT": {
-    "_last_attempt_at": 1791964669.39397,
+    "_last_attempt_at": 1791986403.4714622,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -13465,6 +13542,123 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Life Science Analytics Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on 15.6% CAGR as Oracle, SAS, IBM, IQVIA, and Microsoft Accelerate AI Adoption",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=cec419f962eb402361684ccae78a2335aaf1c62b3396e0445add85b7c3673535",
+        "datetime": 1791965280,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Life Science Analytics Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on 15.6% CAGR as Oracle, SAS, IBM, IQVIA, and Microsoft Accelerate AI Adoption' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MSFT에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.4,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791986445.9952972
+        },
+        "headlineKo": "라이프사이언스 애널리틱스 시장 보고서 2026: 2030년까지의 규모, 점유율, 추세 및 예측 | Oracle, SAS, IBM, IQVIA 및 Microsoft로 15.6% CAGR을 활용하여 AI 채택 가속화"
+      },
+      {
+        "headline": "Microsoft: Bears Are Making Noise About AI Spending, You Should Ignore It - Buy",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=43b99c970e11b854215e453fec060f474a569d91666dcc38d5dc5e1cfedc32dd",
+        "datetime": 1791964873,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Microsoft: Bears Are Making Noise About AI Spending, You Should Ignore It - Buy",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "MSFT에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791986447.3042285
+        },
+        "headlineKo": "Microsoft: 곰이 AI 지출에 대해 소음을 내고 있습니다. 무시해야 합니다 - 구매"
+      },
       {
         "headline": "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report",
         "source": "Yahoo",
@@ -13524,20 +13718,20 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [
             "20%",
-            "0.24%",
-            "0.15%",
-            "0.11%",
-            "1.18%",
-            "18.02%",
-            "0.49%",
-            "0.83%"
+            "0.06%",
+            "0.57%",
+            "0.96%",
+            "3.10%",
+            "13.56%",
+            "9.69%",
+            "10.34%"
           ],
           "sourceExcerpt": [
-            "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report AI Agent Trending News Earnings All DIA 0.24% SPY 0.15% QQQ 0.11% Trending ASML 1.18% SKYD 18.02% SMCI 0.49% MU 0.83% AAPL 0.38% LUNR 0.08% TTWO 0",
+            "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report AI Agent Trending News Earnings All DIA 0.06% SPY 0.57% QQQ 0.96% Trending DJT 3.10% CRWV 13.56% NBIS 9.69% SPY 0.57% VSTM 10.34% SLV 4.79% LQDA 2",
             "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report Microsoft Azure is exploring potential cost reductions of at least 20% in its software development unit to offset heavy infrastructure investments",
             "Microsoft CEO Satya Nadella at the Ronald V."
           ],
-          "analysisUpdatedAt": 1791964681.7725103
+          "analysisUpdatedAt": 1791986448.657634
         },
         "headlineKo": "Microsoft는 AI 데이터 센터 지출이 급증하는 가운데 Azure 분야에서 20%의 비용 절감에 무게를 두고 있습니다: 보고서"
       },
@@ -13549,46 +13743,6 @@ const NEWS_DATA = {
         "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "How much MSFT stock does Microsoft founder Bill Gates actually own?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 MSFT의 사업과 관련된 'How much MSFT stock does Microsoft founder Bill Gates actually own?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1.0,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791964682.4556527
-        },
         "headlineKo": "Microsoft 창립자 Bill Gates가 실제로 얼마나 많은 MSFT 주식을 소유하고 있습니까?"
       },
       {
@@ -13599,85 +13753,7 @@ const NEWS_DATA = {
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft Reports $130 Billion in Data Center Leases' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: MSFT에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
-          "relevance": 0.4,
-          "quality": "high",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791964684.408211
-        },
         "headlineKo": "Microsoft, 데이터 센터 임대로 1,300억 달러 보고"
-      },
-      {
-        "headline": "Microsoft Stock Reaches a Record High. How It Suddenly Became an AI Winner.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=681ced9367f092d9446beb09e43be1cf7b4cebb3080d4866f3d4b1a17c5ed9aa",
-        "datetime": 1791924960,
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "마이크로소프트 주식이 사상 최고치를 경신했습니다. 갑자기 AI 승자가 된 방법."
-      },
-      {
-        "headline": "Marvell Stock Is on a Bad Run, but Microsoft’s New AI Chips Can Revive It",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f6bfc430a417008aa966e198c5f5dd4813021f07fba2be0dd694a8a063e5202b",
-        "datetime": 1791917760,
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Marvell 주식은 부진한 상태이지만 Microsoft의 새로운 AI 칩이 이를 되살릴 수 있습니다."
       },
       {
         "headline": "Microsoft Sues JLL For Protection Against Lawsuit At NYC Office Project",
@@ -13747,6 +13823,121 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "Life Science Analytics Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on 15.6% CAGR as Oracle, SAS, IBM, IQVIA, and Microsoft Accelerate AI Adoption",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=cec419f962eb402361684ccae78a2335aaf1c62b3396e0445add85b7c3673535",
+        "datetime": 1791965280,
+        "headlineKo": "라이프사이언스 애널리틱스 시장 보고서 2026: 2030년까지의 규모, 점유율, 추세 및 예측 | Oracle, SAS, IBM, IQVIA 및 Microsoft로 15.6% CAGR을 활용하여 AI 채택 가속화",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Life Science Analytics Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on 15.6% CAGR as Oracle, SAS, IBM, IQVIA, and Microsoft Accelerate AI Adoption' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MSFT에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.4,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791986445.9952972
+        }
+      },
+      {
+        "headline": "Microsoft: Bears Are Making Noise About AI Spending, You Should Ignore It - Buy",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=43b99c970e11b854215e453fec060f474a569d91666dcc38d5dc5e1cfedc32dd",
+        "datetime": 1791964873,
+        "headlineKo": "Microsoft: 곰이 AI 지출에 대해 소음을 내고 있습니다. 무시해야 합니다 - 구매",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Microsoft: Bears Are Making Noise About AI Spending, You Should Ignore It - Buy",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "MSFT에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1791986447.3042285
+        }
+      },
+      {
         "headline": "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=06259daa8c151882c5e4e07bc8de9c5407fcee4a3ddae08331510c2640ac4466",
@@ -13805,20 +13996,20 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [
             "20%",
-            "0.24%",
-            "0.15%",
-            "0.11%",
-            "1.18%",
-            "18.02%",
-            "0.49%",
-            "0.83%"
+            "0.06%",
+            "0.57%",
+            "0.96%",
+            "3.10%",
+            "13.56%",
+            "9.69%",
+            "10.34%"
           ],
           "sourceExcerpt": [
-            "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report AI Agent Trending News Earnings All DIA 0.24% SPY 0.15% QQQ 0.11% Trending ASML 1.18% SKYD 18.02% SMCI 0.49% MU 0.83% AAPL 0.38% LUNR 0.08% TTWO 0",
+            "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report AI Agent Trending News Earnings All DIA 0.06% SPY 0.57% QQQ 0.96% Trending DJT 3.10% CRWV 13.56% NBIS 9.69% SPY 0.57% VSTM 10.34% SLV 4.79% LQDA 2",
             "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report Microsoft Azure is exploring potential cost reductions of at least 20% in its software development unit to offset heavy infrastructure investments",
             "Microsoft CEO Satya Nadella at the Ronald V."
           ],
-          "analysisUpdatedAt": 1791964681.7725103
+          "analysisUpdatedAt": 1791986448.657634
         }
       },
       {
@@ -21213,151 +21404,17 @@ const NEWS_DATA = {
         "headlineKo": "Microsoft, 주식이 메가캡 피어보다 뒤처짐에 따라 새로워진 Copilot 앱 출시",
         "relevance": 0.8,
         "keywordFlag": false
-      },
-      {
-        "headline": "Computer Vision Global Market Report 2026: Secure Your Share of a $37.1 Billion Market Growing 15.9% Annually by 2030—Benchmark Microsoft, Sony, Intel, Texas Instruments and MediaTek as AI, Edge Visio",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=466e72eda9d3ce0ac7473abf0a66463f4e2fd5eac2e75107f4d5905d61948025",
-        "datetime": 1790587680,
-        "headlineKo": "2026년 컴퓨터 비전 글로벌 시장 보고서: 2030년까지 매년 15.9% 성장하는 371억 달러 시장 점유율 확보—Microsoft, Sony, Intel, Texas Instruments 및 MediaTek을 AI, Edge Visio로 벤치마킹",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Computer Vision Global Market Report 2026: Secure Your Share of a $37.1 Billion Market Growing 15.9% Annually by 2030—Benchmark Microsoft, Sony, Intel, Texas Instruments and MediaTek as AI, Edge Visio' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: MSFT에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
-          "relevance": 0.4,
-          "quality": "high",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790594606.7927942
-        }
-      },
-      {
-        "headline": "Virtual Desktop Infrastructure Market Report 2026: Capitalize on the $24.14 Billion Revenue Surge to $50.03 Billion by 2030—Benchmark AWS, Microsoft, VMware, Citrix and Nutanix to Capture Share in a 1",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ac8434089321a778049a233a51f940c4489191f45db0bcb5f55ac8b702383da0",
-        "datetime": 1790587560,
-        "headlineKo": "2026년 가상 데스크톱 인프라 시장 보고서: 241억 4천만 달러의 매출 급증을 활용하여 2030년까지 500억 3천만 달러로 급증—AWS, Microsoft, VMware, Citrix 및 Nutanix를 벤치마킹하여 1년 안에 점유율을 확보",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Virtual Desktop Infrastructure Market Report 2026: Capitalize on the $24.14 Billion Revenue Surge to $50.03 Billion by 2030—Benchmark AWS, Microsoft, VMware, Citrix and Nutanix to Capture Share in a 1' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: MSFT에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
-          "relevance": 0.4,
-          "quality": "high",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790594608.8790336
-        }
       }
     ],
-    "_fetched_at": 1791964669.39397,
-    "_updated_label": "2026-10-14 16:58",
-    "_last_success_at": 1791964669.39397,
+    "_fetched_at": 1791986403.4714622,
+    "_updated_label": "2026-10-14 23:00",
+    "_last_success_at": 1791986403.4714622,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "GOOGL": {
@@ -29434,7 +29491,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "AMZN": {
@@ -37636,7 +37693,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "META": {
@@ -45679,7 +45736,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "AAPL": {
@@ -53627,7 +53684,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "TSLA": {
@@ -61749,7 +61806,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "ORCL": {
@@ -70196,7 +70253,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "CRM": {
@@ -77450,7 +77507,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 159,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "PLTR": {
@@ -86443,7 +86500,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "NVDA": {
@@ -94342,7 +94399,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "AMD": {
@@ -102518,7 +102575,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "AVGO": {
@@ -111514,7 +111571,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "QCOM": {
@@ -119618,7 +119675,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 175,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "ARM": {
@@ -125200,7 +125257,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 110,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "MRVL": {
@@ -134045,7 +134102,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "INTC": {
@@ -142626,7 +142683,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "TSM": {
@@ -150495,7 +150552,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 171,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "ASML": {
@@ -156106,7 +156163,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "AMAT": {
@@ -161571,7 +161628,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 113,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "LRCX": {
@@ -164425,11 +164482,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1791964669.39397,
+    "_last_attempt_at": 1791986403.4714622,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -164454,8 +164511,8 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "KLA 주식이 가격보다 좋아 보이는 한 가지 이유 | Trefis KLA 주식이 가격보다 좋아 보이는 한 가지 이유 2026년 10월 13일 · Trefis Team KLAC YTD +52.0% SPY YTD +14.7% QQQ YTD +21.3% KLAC 분석 → 대부분의 투자자는 여전히 KLA(KLAC)를 봅니다.",
-            "그러나 첨단 포장용 검사 도구를 판매하는 사업이 눈에 띄기 시작했고 경영진은 이러한 수요를 AI의 확장과 연결합니다.",
+            "한 가지 이유 KLA 주가가 가격보다 더 좋아 보이는 이유 | Trefis 한 가지 이유 KLA 주가가 가격보다 더 좋아 보이는 이유 2026년 10월 13일 · by Trefis Team KLAC YTD +52.0% SPY YTD +14.7% QQQ YTD +21.3% KLAC 분석 → 대부분의 투자자는 여전히 KLA (KLAC) 를 보고 있습니다",
+            "그러나 첨단 포장을 위한 검사 도구를 판매하는 비즈니스가 두드러지기 시작했고, 경영진은 이러한 수요를 AI의 확장과 연관 짓고 있습니다.",
             "포장은 구매자가 현재 지불하는 비용의 일부일 수 있습니다."
           ],
           "why": [
@@ -164498,7 +164555,7 @@ const NEWS_DATA = {
             "However, the business selling inspection tools for advanced packaging is beginning to stand out, and management ties this demand to the expansion of AI.",
             "Packaging may be part of what buyers are currently paying for."
           ],
-          "analysisUpdatedAt": 1791964691.020618
+          "analysisUpdatedAt": 1791986469.962805
         },
         "headlineKo": "KLA 주식이 가격보다 좋아 보이는 한 가지 이유"
       },
@@ -164518,9 +164575,9 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "엄청난 해에 투자자들이 이익을 얻으면서 반도체 장비 주가 하락: Applied Materials는 7% 하락, Lam Research 및 KLA는 4% 하락 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,826.40 +0.13% Dow Jones 51,821.70 +0.21% Nasdaq 100 30,590.80 −0.00% Russell 2000 2,794.45 +0.24% S&P 500 7,826.40 +0.13% 다우존스 51,821.70 +0.21% 나스닥 100 30,590.80 −0.00% 러셀 2000 2,794.45 +0.",
-            "작성자: David Moadel 2026년 10월 13일 오후 12시 53분(ET) 게시 · 3분 읽기 Market Movers 데스크."
+            "반도체 장비 재고는 투자자가 막대한 이익을 챙기면서 미끄러집니다. 응용 재료는 7%, 램 리서치 및 KLA 하락 4% - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,766.80 − 0.63% Dow Jones 51,719.20 +0.01% Nasdaq 100 30,292.20 − 0.98% Russell 2000 2,749.65 − 1.37% S&P 500 7,766.80 − 0.63% Dow Jones 51,719.20 +0.01% Nasdaq 100 30,292.20 − 0.98% Russell 2000 2,749.65 − 1.",
+            "By 데이비드 모아델 Published October 13, 2026, 12:53 pm ET · 3 min read Market Movers desk."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
@@ -164559,10 +164616,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Semiconductor Equipment Stocks Slide as Investors Take Profits on a Huge Year: Applied Materials Sinks 7%, Lam Research and KLA Drop 4% - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,826.40 +0.13% Dow Jones 51,821.70 +0.21% Nasdaq 100 30,590.80 −0.00% Russell 2000 2,794.45 +0.24% S&P 500 7,826.40 +0.13% Dow Jones 51,821.70 +0.21% Nasdaq 100 30,590.80 −0.00% Russell 2000 2,794.45 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,766.80 −0.63% Dow Jones 51,719.20 +0.01% Nasdaq 100 30,292.20 −0.98% Russell 2000 2,749.65 −1.37% S&P 500 7,766.80 −0.63% Dow Jones 51,719.20 +0.01% Nasdaq 100 30,292.20 −0.98% Russell 2000 2,749.65 −1.",
             "By David Moadel Published October 13, 2026, 12:53pm ET · 3 min read Market Movers desk."
           ],
-          "analysisUpdatedAt": 1791964694.2996485
+          "analysisUpdatedAt": 1791986478.8313293
         },
         "headlineKo": "엄청난 해에 투자자들이 이익을 얻으면서 반도체 장비 주가 하락: Applied Materials는 7% 하락, Lam Research 및 KLA는 4% 하락"
       },
@@ -164612,7 +164669,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791964696.3475392
+          "analysisUpdatedAt": 1791986481.049126
         },
         "headlineKo": "MG 대 KLAC: 어떤 주식이 더 나은 가치 옵션입니까?"
       },
@@ -164706,8 +164763,8 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "KLA 주식이 가격보다 좋아 보이는 한 가지 이유 | Trefis KLA 주식이 가격보다 좋아 보이는 한 가지 이유 2026년 10월 13일 · Trefis Team KLAC YTD +52.0% SPY YTD +14.7% QQQ YTD +21.3% KLAC 분석 → 대부분의 투자자는 여전히 KLA(KLAC)를 봅니다.",
-            "그러나 첨단 포장용 검사 도구를 판매하는 사업이 눈에 띄기 시작했고 경영진은 이러한 수요를 AI의 확장과 연결합니다.",
+            "한 가지 이유 KLA 주가가 가격보다 더 좋아 보이는 이유 | Trefis 한 가지 이유 KLA 주가가 가격보다 더 좋아 보이는 이유 2026년 10월 13일 · by Trefis Team KLAC YTD +52.0% SPY YTD +14.7% QQQ YTD +21.3% KLAC 분석 → 대부분의 투자자는 여전히 KLA (KLAC) 를 보고 있습니다",
+            "그러나 첨단 포장을 위한 검사 도구를 판매하는 비즈니스가 두드러지기 시작했고, 경영진은 이러한 수요를 AI의 확장과 연관 짓고 있습니다.",
             "포장은 구매자가 현재 지불하는 비용의 일부일 수 있습니다."
           ],
           "why": [
@@ -164750,7 +164807,7 @@ const NEWS_DATA = {
             "However, the business selling inspection tools for advanced packaging is beginning to stand out, and management ties this demand to the expansion of AI.",
             "Packaging may be part of what buyers are currently paying for."
           ],
-          "analysisUpdatedAt": 1791964691.020618
+          "analysisUpdatedAt": 1791986469.962805
         }
       },
       {
@@ -164769,9 +164826,9 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "엄청난 해에 투자자들이 이익을 얻으면서 반도체 장비 주가 하락: Applied Materials는 7% 하락, Lam Research 및 KLA는 4% 하락 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,826.40 +0.13% Dow Jones 51,821.70 +0.21% Nasdaq 100 30,590.80 −0.00% Russell 2000 2,794.45 +0.24% S&P 500 7,826.40 +0.13% 다우존스 51,821.70 +0.21% 나스닥 100 30,590.80 −0.00% 러셀 2000 2,794.45 +0.",
-            "작성자: David Moadel 2026년 10월 13일 오후 12시 53분(ET) 게시 · 3분 읽기 Market Movers 데스크."
+            "반도체 장비 재고는 투자자가 막대한 이익을 챙기면서 미끄러집니다. 응용 재료는 7%, 램 리서치 및 KLA 하락 4% - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,766.80 − 0.63% Dow Jones 51,719.20 +0.01% Nasdaq 100 30,292.20 − 0.98% Russell 2000 2,749.65 − 1.37% S&P 500 7,766.80 − 0.63% Dow Jones 51,719.20 +0.01% Nasdaq 100 30,292.20 − 0.98% Russell 2000 2,749.65 − 1.",
+            "By 데이비드 모아델 Published October 13, 2026, 12:53 pm ET · 3 min read Market Movers desk."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
@@ -164810,10 +164867,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Semiconductor Equipment Stocks Slide as Investors Take Profits on a Huge Year: Applied Materials Sinks 7%, Lam Research and KLA Drop 4% - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,826.40 +0.13% Dow Jones 51,821.70 +0.21% Nasdaq 100 30,590.80 −0.00% Russell 2000 2,794.45 +0.24% S&P 500 7,826.40 +0.13% Dow Jones 51,821.70 +0.21% Nasdaq 100 30,590.80 −0.00% Russell 2000 2,794.45 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,766.80 −0.63% Dow Jones 51,719.20 +0.01% Nasdaq 100 30,292.20 −0.98% Russell 2000 2,749.65 −1.37% S&P 500 7,766.80 −0.63% Dow Jones 51,719.20 +0.01% Nasdaq 100 30,292.20 −0.98% Russell 2000 2,749.65 −1.",
             "By David Moadel Published October 13, 2026, 12:53pm ET · 3 min read Market Movers desk."
           ],
-          "analysisUpdatedAt": 1791964694.2996485
+          "analysisUpdatedAt": 1791986478.8313293
         }
       },
       {
@@ -164862,7 +164919,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791964696.3475392
+          "analysisUpdatedAt": 1791986481.049126
         }
       },
       {
@@ -167361,15 +167418,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791964669.39397,
-    "_updated_label": "2026-10-14 16:58",
-    "_last_success_at": 1791964669.39397,
+    "_fetched_at": 1791986403.4714622,
+    "_updated_label": "2026-10-14 23:01",
+    "_last_success_at": 1791986403.4714622,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "MU": {
@@ -175243,7 +175300,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "SNDK": {
@@ -184080,7 +184137,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "WDC": {
@@ -189149,11 +189206,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 107,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "ANET": {
-    "_last_attempt_at": 1791964669.39397,
+    "_last_attempt_at": 1791986403.4714622,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -189208,7 +189265,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791964701.183591
+          "analysisUpdatedAt": 1791986491.063963
         },
         "headlineKo": "Arista Networks(ANET)는 시장보다 더 큰 하락세를 기록했습니다: 주목해야 할 중요한 사실"
       },
@@ -189258,7 +189315,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791964703.228783
+          "analysisUpdatedAt": 1791986494.4632466
         },
         "headlineKo": "Arista Networks(ANET) 주식 하락, 새로운 관심의 배경은 무엇입니까?"
       },
@@ -189278,13 +189335,13 @@ const NEWS_DATA = {
           "label": "공급망 · 생산 차질 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "국제 비즈니스 기계: 2026년에는 어떤 기술 주식을 구매하는 것이 더 나은가요?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 2026년에 Arista Networks(ANET -3.02%)와 International Business Machines(IBM +1.66%) 중에서 선택하려면 높은 균형이 필요합니다.",
-            "Arista Networks는 대규모 데이터 센터를 위한 고속 스위치를 전문으로 하고 있으며 International Business Machines는 하이브리드 클라우드 및 AI 플랫폼에 중점을 두고 있습니다."
+            "국제 비즈니스 기계: 2026년에는 어떤 기술 재고가 더 나은 구매입니까?",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + --- % | ▲ Stock Advisor + --- % 2026년 Arista Networks (ANET -1.90%) 와 International Business Machines (IBM +0.75%) 중 하나를 선택하려면 Motley Fool에 가입해야 합니다.",
+            "Arista Networks는 대규모 데이터 센터를 위한 고속 스위치를 전문으로 하는 반면, International Business Machines는 하이브리드 클라우드 및 AI 플랫폼에 중점을 둡니다."
           ],
           "why": [
             "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $204.52, 3.02 %, $6.36 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: $200.64, 1.90 %, $3.88 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "ANET의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -189308,21 +189365,21 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "$204.52",
-            "3.02 %",
-            "$6.36",
-            "$230.78",
-            "1.66 %",
-            "$3.76",
+            "$200.64",
+            "1.90 %",
+            "$3.88",
+            "$232.52",
+            "0.75 %",
+            "$1.74",
             "$258",
             "$114.52"
           ],
           "sourceExcerpt": [
             "International Business Machines: Which Technology Stock Is a Better Buy in 2026?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Choosing between Arista Networks ( ANET -3.02% ) and International Business Machines ( IBM +1.66% ) in 2026 requires balancing high",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Choosing between Arista Networks ( ANET -1.90% ) and International Business Machines ( IBM +0.75% ) in 2026 requires balancing high",
             "Arista Networks specializes in high-speed switches for massive data centers, while International Business Machines focuses on hybrid cloud and AI platforms."
           ],
-          "analysisUpdatedAt": 1791964706.8288019
+          "analysisUpdatedAt": 1791986501.9322107
         },
         "headlineKo": "Arista Networks 대 국제 비즈니스 머신: 2026년에는 어떤 기술 주식을 구매하는 것이 더 낫습니까?"
       },
@@ -189394,7 +189451,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791964701.183591
+          "analysisUpdatedAt": 1791986491.063963
         }
       },
       {
@@ -189443,7 +189500,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791964703.228783
+          "analysisUpdatedAt": 1791986494.4632466
         }
       },
       {
@@ -189462,13 +189519,13 @@ const NEWS_DATA = {
           "label": "공급망 · 생산 차질 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "국제 비즈니스 기계: 2026년에는 어떤 기술 주식을 구매하는 것이 더 나은가요?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 2026년에 Arista Networks(ANET -3.02%)와 International Business Machines(IBM +1.66%) 중에서 선택하려면 높은 균형이 필요합니다.",
-            "Arista Networks는 대규모 데이터 센터를 위한 고속 스위치를 전문으로 하고 있으며 International Business Machines는 하이브리드 클라우드 및 AI 플랫폼에 중점을 두고 있습니다."
+            "국제 비즈니스 기계: 2026년에는 어떤 기술 재고가 더 나은 구매입니까?",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + --- % | ▲ Stock Advisor + --- % 2026년 Arista Networks (ANET -1.90%) 와 International Business Machines (IBM +0.75%) 중 하나를 선택하려면 Motley Fool에 가입해야 합니다.",
+            "Arista Networks는 대규모 데이터 센터를 위한 고속 스위치를 전문으로 하는 반면, International Business Machines는 하이브리드 클라우드 및 AI 플랫폼에 중점을 둡니다."
           ],
           "why": [
             "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $204.52, 3.02 %, $6.36 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: $200.64, 1.90 %, $3.88 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "ANET의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -189492,21 +189549,21 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "$204.52",
-            "3.02 %",
-            "$6.36",
-            "$230.78",
-            "1.66 %",
-            "$3.76",
+            "$200.64",
+            "1.90 %",
+            "$3.88",
+            "$232.52",
+            "0.75 %",
+            "$1.74",
             "$258",
             "$114.52"
           ],
           "sourceExcerpt": [
             "International Business Machines: Which Technology Stock Is a Better Buy in 2026?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Choosing between Arista Networks ( ANET -3.02% ) and International Business Machines ( IBM +1.66% ) in 2026 requires balancing high",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Choosing between Arista Networks ( ANET -1.90% ) and International Business Machines ( IBM +0.75% ) in 2026 requires balancing high",
             "Arista Networks specializes in high-speed switches for massive data centers, while International Business Machines focuses on hybrid cloud and AI platforms."
           ],
-          "analysisUpdatedAt": 1791964706.8288019
+          "analysisUpdatedAt": 1791986501.9322107
         }
       },
       {
@@ -193149,15 +193206,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791964669.39397,
-    "_updated_label": "2026-10-14 16:58",
-    "_last_success_at": 1791964669.39397,
+    "_fetched_at": 1791986403.4714622,
+    "_updated_label": "2026-10-14 23:01",
+    "_last_success_at": 1791986403.4714622,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 80,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "COHR": {
@@ -196729,7 +196786,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "LITE": {
@@ -201217,7 +201274,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "GEV": {
@@ -206576,7 +206633,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 107,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "CEG": {
@@ -211470,7 +211527,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "VST": {
@@ -215087,7 +215144,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "ETN": {
@@ -218426,7 +218483,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "PWR": {
@@ -221595,7 +221652,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "HUBB": {
@@ -222362,7 +222419,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "VRT": {
@@ -226535,7 +226592,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "MOD": {
@@ -227863,7 +227920,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "STX": {
@@ -232478,7 +232535,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "EME": {
@@ -234288,7 +234345,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "FIX": {
@@ -235978,7 +236035,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   },
   "BE": {
@@ -238585,7 +238642,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-10-14 22:01"
+      "updated": "2026-10-14 23:01"
     }
   }
 };

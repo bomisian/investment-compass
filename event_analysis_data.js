@@ -1,11 +1,11 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791985964.4392636,
+  "generatedAt": 1791986505.6902087,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791965280,
       "signal": "중립·확인 대기",
       "netScore": 1.53,
@@ -55,7 +55,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "286687d9921d0126f014",
-          "headline": "생명 과학 분석 시장 보고서 2026: 규모, 점유율, 추세 및 2030년 예측 | Oracle, SAS, IBM, IQVIA 및 Microsoft의 AI 채택 가속화로 CAGR 15.6% 활용",
+          "headline": "라이프사이언스 애널리틱스 시장 보고서 2026: 2030년까지의 규모, 점유율, 추세 및 예측 | Oracle, SAS, IBM, IQVIA 및 Microsoft로 15.6% CAGR을 활용하여 AI 채택 가속화",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1791965280,
           "verificationStatus": "needs_confirmation",
@@ -181,7 +181,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791972540,
       "signal": "주의 강화",
       "netScore": -6.59,
@@ -402,20 +402,20 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791934848,
-      "signal": "우호적 변화",
-      "netScore": 2.8,
-      "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
+      "signal": "중립·확인 대기",
+      "netScore": 0.7,
+      "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 2.45,
+          "score": 1.92,
           "level": "우호적"
         },
         "growth": {
           "label": "성장성",
-          "score": 4.55,
+          "score": 3.5,
           "level": "우호적"
         },
         "valuationBurden": {
@@ -440,7 +440,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 0.0,
+          "score": -0.52,
           "level": "중립"
         },
         "insiderSignal": {
@@ -587,29 +587,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "회사 실적과의 연결고리 확인"
-        },
-        {
-          "eventId": "7bd6eb8e9e886ba7f814",
-          "headline": "AMZN 주가 밤새 상승: Amazon은 Anthropic이 떠난 후 Decart AI에 대한 70억 달러 거래에 가까워졌다고 보고됨",
-          "eventLabel": "주요 고객 계약",
-          "publishedAt": 1791773662,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=b95eb2d2f47c3f58897ce6ab1a497520fca17d3ebd725496674a740df04420ee",
-          "factorChanges": {
-            "growth": 2,
-            "longTermCompetitiveness": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "회사 실적과의 연결고리 확인"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 11,
+      "unverifiedEvidenceCount": 10,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791905608,
       "signal": "주의 강화",
       "netScore": -3.14,
@@ -718,7 +704,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791972000,
       "signal": "주의 강화",
       "netScore": -10,
@@ -939,10 +925,10 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1791985964.4392636,
-      "dataAsOf": 1791888600,
+      "updatedAt": 1791986505.6902087,
+      "dataAsOf": 1791967900,
       "signal": "주의 강화",
-      "netScore": -4.34,
+      "netScore": -4.69,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -977,7 +963,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -1.05,
+          "score": -1.4,
           "level": "주의"
         },
         "insiderSignal": {
@@ -987,6 +973,18 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "3b7bcb93a6b3fe4cdb19",
+          "headline": "다우 선물 상승, 인플레이션을 앞둔 나스닥 제압 프리마켓 데이터: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus",
+          "eventLabel": "애널리스트 목표주가 변경",
+          "publishedAt": 1791967900,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=c32ec331bb98924ca74dbf7a10624a2ccef1f4344c7ace6b556ae3b536c357b7",
+          "factorChanges": {
+            "shortTermMomentum": -1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
         {
           "eventId": "a0d53c4e2c53385ed764",
           "headline": "테슬라가 아닙니다. 엔비디아가 아닙니다. Elon Musk의 칩 야망은 이 인공 지능(AI) 주식을 강화할 수 있습니다.",
@@ -1045,12 +1043,12 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 4,
+      "unverifiedEvidenceCount": 5,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791976500,
       "signal": "우호적 변화",
       "netScore": 5.46,
@@ -1218,7 +1216,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791975861,
       "signal": "우호적 변화",
       "netScore": 3.14,
@@ -1313,7 +1311,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791968882,
       "signal": "중립·확인 대기",
       "netScore": 0.14,
@@ -1409,7 +1407,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791975000,
       "signal": "우호적 변화",
       "netScore": 5.02,
@@ -1499,7 +1497,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "286687d9921d0126f014",
-          "headline": "생명 과학 분석 시장 보고서 2026: 규모, 점유율, 추세 및 2030년 예측 | Oracle, SAS, IBM, IQVIA 및 Microsoft의 AI 채택 가속화로 CAGR 15.6% 활용",
+          "headline": "라이프사이언스 애널리틱스 시장 보고서 2026: 2030년까지의 규모, 점유율, 추세 및 예측 | Oracle, SAS, IBM, IQVIA 및 Microsoft로 15.6% CAGR을 활용하여 AI 채택 가속화",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1791965280,
           "verificationStatus": "needs_confirmation",
@@ -1623,7 +1621,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791972000,
       "signal": "우호적 변화",
       "netScore": 8.91,
@@ -1699,7 +1697,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "286687d9921d0126f014",
-          "headline": "생명 과학 분석 시장 보고서 2026: 규모, 점유율, 추세 및 2030년 예측 | Oracle, SAS, IBM, IQVIA 및 Microsoft의 AI 채택 가속화로 CAGR 15.6% 활용",
+          "headline": "라이프사이언스 애널리틱스 시장 보고서 2026: 2030년까지의 규모, 점유율, 추세 및 예측 | Oracle, SAS, IBM, IQVIA 및 Microsoft로 15.6% CAGR을 활용하여 AI 채택 가속화",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1791965280,
           "verificationStatus": "needs_confirmation",
@@ -1836,7 +1834,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791975000,
       "signal": "주의 강화",
       "netScore": -6.58,
@@ -2056,7 +2054,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791966900,
       "signal": "주의 강화",
       "netScore": -10,
@@ -2275,7 +2273,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791934635,
       "signal": "주의 강화",
       "netScore": -3.84,
@@ -2382,7 +2380,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791977101,
       "signal": "우호적 변화",
       "netScore": 3.28,
@@ -2504,7 +2502,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791977101,
       "signal": "주의 강화",
       "netScore": -7.97,
@@ -2723,7 +2721,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791892487,
       "signal": "주의 강화",
       "netScore": -6.23,
@@ -2874,10 +2872,10 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791975435,
       "signal": "주의 강화",
-      "netScore": -2.15,
+      "netScore": -2.5,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -2912,7 +2910,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -0.52,
+          "score": -0.87,
           "level": "중립"
         },
         "insiderSignal": {
@@ -2933,6 +2931,18 @@ const EVENT_ANALYSIS_DATA = {
             "growth": -1,
             "valuationBurden": -1,
             "businessRisk": -1,
+            "shortTermMomentum": -1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
+        {
+          "eventId": "3b7bcb93a6b3fe4cdb19",
+          "headline": "다우 선물 상승, 인플레이션을 앞둔 나스닥 제압 프리마켓 데이터: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus",
+          "eventLabel": "애널리스트 목표주가 변경",
+          "publishedAt": 1791967900,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=c32ec331bb98924ca74dbf7a10624a2ccef1f4344c7ace6b556ae3b536c357b7",
+          "factorChanges": {
             "shortTermMomentum": -1
           },
           "reason": "사업·실적 연결 경로 확인 필요"
@@ -3070,32 +3080,18 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -1
           },
           "reason": "회사 실적과의 연결고리 확인"
-        },
-        {
-          "eventId": "e2540d877ed8ba628d2b",
-          "headline": "Stocktwits Tech Watch: ASML, 이번 주 TSMC 실적 및 Apple의 다음 홈 플레이",
-          "eventLabel": "공급망 문제",
-          "publishedAt": 1791781422,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=afee46c57656b64ce0cb815ca12f5ac0791b06c7b707bab2aaf82d49736fc3da",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
         }
       ],
       "confirmedEvidenceCount": 1,
-      "unverifiedEvidenceCount": 11,
+      "unverifiedEvidenceCount": 12,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791922436,
       "signal": "주의 강화",
-      "netScore": -3.5,
+      "netScore": -2.24,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -3105,12 +3101,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": -0.35,
+          "score": 0.0,
           "level": "중립"
         },
         "valuationBurden": {
           "label": "밸류에이션 부담",
-          "score": -0.7,
+          "score": -0.35,
           "level": "중립"
         },
         "customerConcentration": {
@@ -3125,12 +3121,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -2.8,
+          "score": -2.45,
           "level": "주의"
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -0.87,
+          "score": -0.52,
           "level": "중립"
         },
         "insiderSignal": {
@@ -3184,21 +3180,6 @@ const EVENT_ANALYSIS_DATA = {
           "reason": "회사 실적과의 연결고리 확인"
         },
         {
-          "eventId": "693d1fc23106cae6bf38",
-          "headline": "오늘의 주식 시장: Scott Bessent가 이란 경제가 '붕괴'하고 있다고 말하면서 Dow Jones Futures Gain, Nasdaq, S&P 500 하락— SXTC, AMAT, CMG in Focus(업데이트됨)",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1791880425,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=b6a040806ef4f481cf9c07775a603e3a14d4805a326bbd091bca502a2392b39c",
-          "factorChanges": {
-            "growth": -1,
-            "valuationBurden": -1,
-            "businessRisk": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
-        },
-        {
           "eventId": "7fae641e536ca6435396",
           "headline": "어플라이드 머티어리얼즈, AI 시대 반도체 혁신 가속화 위해 실리콘 밸리에 50억 달러 규모 EPIC 센터 공개",
           "eventLabel": "AI·데이터센터 투자 변화",
@@ -3227,12 +3208,12 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 6,
+      "unverifiedEvidenceCount": 5,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3286,7 +3267,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791910426,
       "signal": "중립·확인 대기",
       "netScore": -1.26,
@@ -3356,15 +3337,15 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791976502,
       "signal": "우호적 변화",
-      "netScore": 6.74,
+      "netScore": 5.33,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 2.1,
+          "score": 1.57,
           "level": "우호적"
         },
         "growth": {
@@ -3394,7 +3375,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 4.9,
+          "score": 4.02,
           "level": "우호적"
         },
         "insiderSignal": {
@@ -3445,6 +3426,18 @@ const EVENT_ANALYSIS_DATA = {
           "reason": "AI 서버 메모리 수요와 가격 강세"
         },
         {
+          "eventId": "3b7bcb93a6b3fe4cdb19",
+          "headline": "다우 선물 상승, 인플레이션을 앞둔 나스닥 제압 프리마켓 데이터: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus",
+          "eventLabel": "애널리스트 목표주가 변경",
+          "publishedAt": 1791967900,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=c32ec331bb98924ca74dbf7a10624a2ccef1f4344c7ace6b556ae3b536c357b7",
+          "factorChanges": {
+            "shortTermMomentum": -1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
+        {
           "eventId": "90029b1210e0290c7d66",
           "headline": "연휴 기간 동안 Apple 주식을 매수할 수 있나요?",
           "eventLabel": "공급망 문제",
@@ -3460,7 +3453,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "286687d9921d0126f014",
-          "headline": "생명 과학 분석 시장 보고서 2026: 규모, 점유율, 추세 및 2030년 예측 | Oracle, SAS, IBM, IQVIA 및 Microsoft의 AI 채택 가속화로 CAGR 15.6% 활용",
+          "headline": "라이프사이언스 애널리틱스 시장 보고서 2026: 2030년까지의 규모, 점유율, 추세 및 예측 | Oracle, SAS, IBM, IQVIA 및 Microsoft로 15.6% CAGR을 활용하여 AI 채택 가속화",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1791965280,
           "verificationStatus": "needs_confirmation",
@@ -3549,19 +3542,6 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "AI 서버 메모리 수요와 가격 강세"
-        },
-        {
-          "eventId": "2aea580d56ef499dd92e",
-          "headline": "Microsoft, 데이터 센터 임대로 1,300억 달러 보고",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1791925257,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=5d5e9ea24379bf4bd18c73f90458e93adf7ba5f60b937dfaa4c94379a9604126",
-          "factorChanges": {
-            "growth": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "AI 서버 메모리 수요와 가격 강세"
         }
       ],
       "confirmedEvidenceCount": 0,
@@ -3570,7 +3550,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791958305,
       "signal": "주의 강화",
       "netScore": -2.03,
@@ -3717,7 +3697,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791966900,
       "signal": "주의 강화",
       "netScore": -10,
@@ -3912,7 +3892,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791909301,
       "signal": "중립·확인 대기",
       "netScore": -0.56,
@@ -3994,7 +3974,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791910434,
       "signal": "중립·확인 대기",
       "netScore": -0.91,
@@ -4077,7 +4057,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791918647,
       "signal": "주의 강화",
       "netScore": -2.17,
@@ -4174,7 +4154,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4228,7 +4208,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791972540,
       "signal": "우호적 변화",
       "netScore": 2.52,
@@ -4367,7 +4347,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791889500,
       "signal": "중립·확인 대기",
       "netScore": -0.15,
@@ -4462,7 +4442,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791928723,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -4531,7 +4511,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4585,7 +4565,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4639,7 +4619,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4693,7 +4673,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4747,7 +4727,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791975000,
       "signal": "주의 강화",
       "netScore": -3.43,
@@ -4859,7 +4839,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4913,7 +4893,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791818700,
       "signal": "중립·확인 대기",
       "netScore": -1.54,
@@ -4982,7 +4962,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1791985964.4392636,
+      "updatedAt": 1791986505.6902087,
       "dataAsOf": 1791952386,
       "signal": "중립·확인 대기",
       "netScore": 1.4,

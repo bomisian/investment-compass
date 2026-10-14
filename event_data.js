@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791985964.375856,
+  "generatedAt": 1791986505.6223817,
   "events": [
     {
       "id": "77363278f256220b183a",
@@ -1448,6 +1448,79 @@ const EVENT_DATA = {
       ]
     },
     {
+      "id": "3b7bcb93a6b3fe4cdb19",
+      "schemaVersion": 1,
+      "eventType": "analyst_target_change",
+      "eventLabel": "애널리스트 목표주가 변경",
+      "primaryTicker": "QQQ",
+      "relatedTickers": [
+        "ASML",
+        "MU",
+        "QQQ",
+        "SPY",
+        "TSLA"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Dow Futures Rise, Nasdaq Subdued Premarket Ahead Of Inflation Data: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus",
+      "headlineKo": "다우 선물 상승, 인플레이션을 앞둔 나스닥 제압 프리마켓 데이터: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c32ec331bb98924ca74dbf7a10624a2ccef1f4344c7ace6b556ae3b536c357b7",
+        "publishedAt": 1791967900,
+        "collectedAt": 1791986403.4714622
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "인플레이션을 앞두고 다우 선물 상승, 나스닥 제압 프리마켓 데이터: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus AI Agent Trending News Earnings All DIA 0.06% SPY 0.58% QQQ 0.99% Trending DJT 3.23% CRWV 13.64% NBIS 9.70% SPY 0",
+        "Dow Futures Rise, Nasdaq Subdued Premarket Ahead of Inflation Data: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus On Stocktwits, SPY 및 QQQ에 대한 소매 감정은 CPI 인쇄를 앞두고 ‘낙관적’ 으로 남아 있습니다.",
+        "2026년 8월 7일 미국 뉴욕에서 나스닥 로고 사인이 보입니다."
+      ],
+      "marketInterpretation": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.06%, 0.58%, 0.99% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "QQQ에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.06%, 0.58%, 0.99% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "QQQ",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "목표주가 산식의 EPS",
+        "적용 PER 변화",
+        "회사 공식 가이던스"
+      ]
+    },
+    {
       "id": "756e34fd55bb38112114",
       "schemaVersion": 1,
       "eventType": "ai_investment_change",
@@ -1708,7 +1781,7 @@ const EVENT_DATA = {
       "schemaVersion": 1,
       "eventType": "ai_investment_change",
       "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "ORCL",
+      "primaryTicker": "MSFT",
       "relatedTickers": [
         "AMD",
         "MSFT",
@@ -1740,12 +1813,12 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Life Science Analytics Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on 15.6% CAGR as Oracle, SAS, IBM, IQVIA, and Microsoft Accelerate AI Adoption",
-      "headlineKo": "생명 과학 분석 시장 보고서 2026: 규모, 점유율, 추세 및 2030년 예측 | Oracle, SAS, IBM, IQVIA 및 Microsoft의 AI 채택 가속화로 CAGR 15.6% 활용",
+      "headlineKo": "라이프사이언스 애널리틱스 시장 보고서 2026: 2030년까지의 규모, 점유율, 추세 및 예측 | Oracle, SAS, IBM, IQVIA 및 Microsoft로 15.6% CAGR을 활용하여 AI 채택 가속화",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cec419f962eb402361684ccae78a2335aaf1c62b3396e0445add85b7c3673535",
         "publishedAt": 1791965280,
-        "collectedAt": 1791982802.1793907
+        "collectedAt": 1791986403.4714622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1759,7 +1832,7 @@ const EVENT_DATA = {
         "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
       ],
       "aiInference": [
-        "이 기사는 ORCL의 사업과 관련된 'Life Science Analytics Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on 15.6% CAGR as Oracle, SAS, IBM, IQVIA, and Microsoft Accelerate AI Adoption' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다."
+        "이 기사는 MSFT의 사업과 관련된 'Life Science Analytics Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on 15.6% CAGR as Oracle, SAS, IBM, IQVIA, and Microsoft Accelerate AI Adoption' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
@@ -1805,6 +1878,79 @@ const EVENT_DATA = {
         "관련 기업 매출·수주잔고",
         "CAPEX 대비 영업현금흐름",
         "금리와 프로젝트 부채 비용"
+      ]
+    },
+    {
+      "id": "e6daa50011c303030acb",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "MSFT",
+      "relatedTickers": [
+        "MSFT"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Microsoft",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "neutral",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Microsoft: Bears Are Making Noise About AI Spending, You Should Ignore It - Buy",
+      "headlineKo": "Microsoft: 곰이 AI 지출에 대해 소음을 내고 있습니다. 무시해야 합니다 - 구매",
+      "source": {
+        "name": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=43b99c970e11b854215e453fec060f474a569d91666dcc38d5dc5e1cfedc32dd",
+        "publishedAt": 1791964873,
+        "collectedAt": 1791986403.4714622
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Microsoft: Bears Are Making Noise About AI Spending, You Should Ignore It - Buy",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "MSFT에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "MSFT",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 CAPEX 집행",
+        "공급업체 수주·매출",
+        "투자 기업 OCF·FCF·부채"
       ]
     },
     {
@@ -2787,7 +2933,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=06259daa8c151882c5e4e07bc8de9c5407fcee4a3ddae08331510c2640ac4466",
         "publishedAt": 1791934848,
-        "collectedAt": 1791964669.39397
+        "collectedAt": 1791986403.4714622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3465,7 +3611,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5d5e9ea24379bf4bd18c73f90458e93adf7ba5f60b937dfaa4c94379a9604126",
         "publishedAt": 1791925257,
-        "collectedAt": 1791964669.39397
+        "collectedAt": 1791986403.4714622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3782,12 +3928,12 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c87ce52c30d6bda4211b396d57f7d856bf3bbd4da7ea7d3ac4c7576212361517",
         "publishedAt": 1791922968,
-        "collectedAt": 1791964669.39397
+        "collectedAt": 1791986403.4714622
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "KLA 주식이 가격보다 좋아 보이는 한 가지 이유 | Trefis KLA 주식이 가격보다 좋아 보이는 한 가지 이유 2026년 10월 13일 · Trefis Team KLAC YTD +52.0% SPY YTD +14.7% QQQ YTD +21.3% KLAC 분석 → 대부분의 투자자는 여전히 KLA(KLAC)를 봅니다.",
-        "그러나 첨단 포장용 검사 도구를 판매하는 사업이 눈에 띄기 시작했고 경영진은 이러한 수요를 AI의 확장과 연결합니다.",
+        "한 가지 이유 KLA 주가가 가격보다 더 좋아 보이는 이유 | Trefis 한 가지 이유 KLA 주가가 가격보다 더 좋아 보이는 이유 2026년 10월 13일 · by Trefis Team KLAC YTD +52.0% SPY YTD +14.7% QQQ YTD +21.3% KLAC 분석 → 대부분의 투자자는 여전히 KLA (KLAC) 를 보고 있습니다",
+        "그러나 첨단 포장을 위한 검사 도구를 판매하는 비즈니스가 두드러지기 시작했고, 경영진은 이러한 수요를 AI의 확장과 연관 짓고 있습니다.",
         "포장은 구매자가 현재 지불하는 비용의 일부일 수 있습니다."
       ],
       "marketInterpretation": [
@@ -5202,17 +5348,17 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=da95330d769a20958512d5d0d3434071d289dfd7cc0f5f87bc18249397c22811",
         "publishedAt": 1791909301,
-        "collectedAt": 1791964669.39397
+        "collectedAt": 1791986403.4714622
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "국제 비즈니스 기계: 2026년에는 어떤 기술 주식을 구매하는 것이 더 나은가요?",
-        "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 2026년에 Arista Networks(ANET -3.02%)와 International Business Machines(IBM +1.66%) 중에서 선택하려면 높은 균형이 필요합니다.",
-        "Arista Networks는 대규모 데이터 센터를 위한 고속 스위치를 전문으로 하고 있으며 International Business Machines는 하이브리드 클라우드 및 AI 플랫폼에 중점을 두고 있습니다."
+        "국제 비즈니스 기계: 2026년에는 어떤 기술 재고가 더 나은 구매입니까?",
+        "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + --- % | ▲ Stock Advisor + --- % 2026년 Arista Networks (ANET -1.90%) 와 International Business Machines (IBM +0.75%) 중 하나를 선택하려면 Motley Fool에 가입해야 합니다.",
+        "Arista Networks는 대규모 데이터 센터를 위한 고속 스위치를 전문으로 하는 반면, International Business Machines는 하이브리드 클라우드 및 AI 플랫폼에 중점을 둡니다."
       ],
       "marketInterpretation": [
         "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $204.52, 3.02 %, $6.36 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: $200.64, 1.90 %, $3.88 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "ANET의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -5227,7 +5373,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $204.52, 3.02 %, $6.36 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: $200.64, 1.90 %, $3.88 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "ANET의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -6512,7 +6658,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5357d59ba462092ba0951daa04ba4d5930935328d09cdc7640e88a4da1b71474",
         "publishedAt": 1791901380,
-        "collectedAt": 1791964669.39397
+        "collectedAt": 1791986403.4714622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8190,7 +8336,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ea626f314a57fab5059aee5e249e5c1cd242b21c8704667dc21e83ca41c88e2a",
         "publishedAt": 1791890101,
-        "collectedAt": 1791964669.39397
+        "collectedAt": 1791986403.4714622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9255,7 +9401,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5be4aa395811f5da736309458a900a3b9659766bd8a95219e0ea9e7572357345",
         "publishedAt": 1791882007,
-        "collectedAt": 1791964669.39397
+        "collectedAt": 1791986403.4714622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9647,78 +9793,6 @@ const EVENT_DATA = {
         "목표주가 산식의 EPS",
         "적용 PER 변화",
         "회사 공식 가이던스"
-      ]
-    },
-    {
-      "id": "693d1fc23106cae6bf38",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "QQQ",
-      "relatedTickers": [
-        "AMAT",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "low",
-        "score": 42,
-        "kind": "reported",
-        "reason": "속보·의견 성격이 강해 원문 재확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "낮음·확인 필요",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Stock Market Today: Dow Jones Futures Gain, Nasdaq, S&P 500 Falls as Scott Bessent Says Iran's Economy Is 'Collapsing'— SXTC, AMAT, CMG in Focus (UPDATED)",
-      "headlineKo": "오늘의 주식 시장: Scott Bessent가 이란 경제가 '붕괴'하고 있다고 말하면서 Dow Jones Futures Gain, Nasdaq, S&P 500 하락— SXTC, AMAT, CMG in Focus(업데이트됨)",
-      "source": {
-        "name": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=b6a040806ef4f481cf9c07775a603e3a14d4805a326bbd091bca502a2392b39c",
-        "publishedAt": 1791880425,
-        "collectedAt": 1791964669.39397
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "오늘의 주식 시장: Dow Jones, S&P 500 선물 상승, Scott Bessent의 이란 E 발표로 Nasdaq 100 하락 - Benzinga SPY 778.51 +0.05% QQQ 742.43 −0.48% BTC/USD 83,519.68 +2.18% DIA 521.16 +0.63% GLD 383.80 +0.43% TLT 78.47 +0.54% US Sign i",
-        "다우 존스와 S&P 500 지수가 상승하고 나스닥 100 지수가 월요일 혼성 장 이후 하락하면서 주식 선물은 화요일 이익과 손실 사이를 오가고 있었습니다.",
-        "이란에서 진행 중인 전쟁은 미국에 상당한 경제적, 전략적 압박을 가중시키고 있습니다."
-      ],
-      "marketInterpretation": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.05%, 0.48%, 2.18% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.05%, 0.48%, 2.18% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "QQQ",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "실제 CAPEX 집행",
-        "공급업체 수주·매출",
-        "투자 기업 OCF·FCF·부채"
       ]
     },
     {
@@ -10826,7 +10900,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=12d9c39609013491a55c660a7dea13850d841b6989c605024e3d3230f84ce9ae",
         "publishedAt": 1791856982,
-        "collectedAt": 1791964669.39397
+        "collectedAt": 1791986403.4714622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11074,7 +11148,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=91a57711c5faf181a3e65655320b41340b2ce1a50d38144d05eaa2acc11d638d",
         "publishedAt": 1791852227,
-        "collectedAt": 1791964669.39397
+        "collectedAt": 1791986403.4714622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11599,7 +11673,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8f9161b42b8dd05eac8db4a8a72ae0a132cb483bb6999c447ca95c3a5d05168e",
         "publishedAt": 1791842617,
-        "collectedAt": 1791964669.39397
+        "collectedAt": 1791986403.4714622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11680,7 +11754,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2e694d9f84f8b8ca1b5bab1a4a47e16f6c9f9aff8d66f78c383149c0c3de070c",
         "publishedAt": 1791842611,
-        "collectedAt": 1791964669.39397
+        "collectedAt": 1791986403.4714622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12569,7 +12643,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f5da460903b120e03641777b69800bb4b912d7c703c7891759803f237b9626e0",
         "publishedAt": 1791833401,
-        "collectedAt": 1791964669.39397
+        "collectedAt": 1791986403.4714622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12735,7 +12809,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=dc28dfa8701adecd7656721b0e6168dd7f6c3539f14ae91a325705c72f04cdd4",
         "publishedAt": 1791830648,
-        "collectedAt": 1791964669.39397
+        "collectedAt": 1791986403.4714622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12795,7 +12869,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=dc28dfa8701adecd7656721b0e6168dd7f6c3539f14ae91a325705c72f04cdd4",
         "publishedAt": 1791830648,
-        "collectedAt": 1791964669.39397
+        "collectedAt": 1791986403.4714622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12885,7 +12959,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=304ee06038449cf3b42fb405b451cec4dc4fbf750cf251cc804c80d417a71b14",
         "publishedAt": 1791828548,
-        "collectedAt": 1791964669.39397
+        "collectedAt": 1791986403.4714622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13649,7 +13723,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=52547976a4a84d023099f8c74ffd84f7728c1857c3fd320cd035a149d4f90c20",
         "publishedAt": 1791819043,
-        "collectedAt": 1791964669.39397
+        "collectedAt": 1791986403.4714622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14317,7 +14391,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d488489c67f32153ffc5fab75bdf4c63de88b52c13e13e67a0add4a742cd9d86",
         "publishedAt": 1791815600,
-        "collectedAt": 1791964669.39397
+        "collectedAt": 1791986403.4714622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17243,7 +17317,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=b06233d42070a8443736697fca2a055031bd6d4fc59d6af8081f7f7a4fba9137",
         "publishedAt": 1791793792,
-        "collectedAt": 1791964669.39397
+        "collectedAt": 1791986403.4714622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17315,7 +17389,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=9cf2eb83c6803de72e62a70b7f4fcd5d1d8485852ad9643a726dfe9938f07cf2",
         "publishedAt": 1791790467,
-        "collectedAt": 1791964669.39397
+        "collectedAt": 1791986403.4714622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17549,7 +17623,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4ebd763cceffc938495604531de86356fbcb93bd31386e5afb8124efef259eb3",
         "publishedAt": 1791786000,
-        "collectedAt": 1791964669.39397
+        "collectedAt": 1791986403.4714622
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18069,84 +18143,6 @@ const EVENT_DATA = {
         "적용 PER 변화",
         "회사 공식 가이던스"
       ]
-    },
-    {
-      "id": "7bd6eb8e9e886ba7f814",
-      "schemaVersion": 1,
-      "eventType": "major_customer_contract",
-      "eventLabel": "주요 고객 계약",
-      "primaryTicker": "AMZN",
-      "relatedTickers": [
-        "AMZN",
-        "MU",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Amazon",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "AMZN Stock Inches Up Overnight: Amazon Reportedly Nears $7B Deal For Decart AI After Anthropic Walks Away",
-      "headlineKo": "AMZN 주가 밤새 상승: Amazon은 Anthropic이 떠난 후 Decart AI에 대한 70억 달러 거래에 가까워졌다고 보고됨",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b95eb2d2f47c3f58897ce6ab1a497520fca17d3ebd725496674a740df04420ee",
-        "publishedAt": 1791773662,
-        "collectedAt": 1791981613.471378
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "AMZN Stock Inches Up Overnight: Amazon Reportedly Nears $7B Deal For Decart AI After Anthropic Walks Away AI Agent Trending News Earnings All DIA 0.11% SPY 0.07% QQQ 0.14% Trending ASTS 2.78% SKHY 1.65% WFF 15.38% MU 1.98% CBRS 1.05% RCAT 0",
-        "AMZN Stock Inches Up Overnight: Amazon Reportedly Nears $7B Deal For Decart AI After Anthropic Walks Away The potential acquisition of the AI startup could bolster Amazon’s custom chip and cloud services businesses.",
-        "Amazon logo displayed on a phone screen is seen in this illustration photo."
-      ],
-      "marketInterpretation": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $7, 0.11%, 0.07% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "AMZN에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $7, 0.11%, 0.07% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AMZN",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "공식 매출·EPS 가이던스",
-        "컨센서스 추정치 변경",
-        "마진·FCF 전망"
-      ]
     }
   ],
   "byTicker": {
@@ -18210,6 +18206,7 @@ const EVENT_DATA = {
       "dc376e3decc05b92d797",
       "de387acee9d00d8313f9",
       "e17871c9efc46711a52a",
+      "3b7bcb93a6b3fe4cdb19",
       "dcaf9a95ef41fcbfe34a",
       "aedd1d6ee9e5471cfb81",
       "4a367817a96e1fef145e",
@@ -18258,6 +18255,7 @@ const EVENT_DATA = {
       "de387acee9d00d8313f9",
       "ba4b747c8e607492315f",
       "dc30e69126edf1b36675",
+      "3b7bcb93a6b3fe4cdb19",
       "756e34fd55bb38112114",
       "aedd1d6ee9e5471cfb81",
       "229ade461976ca0c85ae",
@@ -18300,7 +18298,6 @@ const EVENT_DATA = {
       "3f69533fdd12f56af4a8",
       "a45a177feed2545266a9",
       "05eb3229fe2307fc4cb4",
-      "693d1fc23106cae6bf38",
       "48050f2084e231e2fb10",
       "4331220411174c58f396",
       "3c75ba46e33fccd6c5e1",
@@ -18345,8 +18342,7 @@ const EVENT_DATA = {
       "da9893521102279c3f53",
       "61e21385878a5d04cb93",
       "3ed2c84c692b41b39300",
-      "a54d2f5f5157c9e27724",
-      "7bd6eb8e9e886ba7f814"
+      "a54d2f5f5157c9e27724"
     ],
     "INTC": [
       "cbd8366b55e135d28e4f",
@@ -18385,7 +18381,6 @@ const EVENT_DATA = {
       "d8d713d4eedd78bfdfe3",
       "b2260c1387d839907dde",
       "a51d26b9752c43cda2ea",
-      "693d1fc23106cae6bf38",
       "863d377018cd56beb2f8",
       "7fae641e536ca6435396",
       "34c531948d2dcfc99033"
@@ -18394,6 +18389,7 @@ const EVENT_DATA = {
       "bacc8987a10adc5fe085",
       "efcfd7bbd0e5f1ea0f85",
       "de387acee9d00d8313f9",
+      "3b7bcb93a6b3fe4cdb19",
       "756e34fd55bb38112114",
       "aedd1d6ee9e5471cfb81",
       "4a367817a96e1fef145e",
@@ -18423,7 +18419,6 @@ const EVENT_DATA = {
       "11b3b48d7c46adb25eef",
       "fc6337c836d0431fabaa",
       "bfe9f9706a97cc08bba0",
-      "693d1fc23106cae6bf38",
       "4331220411174c58f396",
       "d1a24bd1731021e0b14a",
       "6a374a32dbefea31955a",
@@ -18450,14 +18445,14 @@ const EVENT_DATA = {
       "88a06be9926c43beb863",
       "3ed2c84c692b41b39300",
       "e2540d877ed8ba628d2b",
-      "a54d2f5f5157c9e27724",
-      "7bd6eb8e9e886ba7f814"
+      "a54d2f5f5157c9e27724"
     ],
     "MU": [
       "efcfd7bbd0e5f1ea0f85",
       "b51d8c32babce391ef77",
       "7f595412dea94023d8a3",
       "fa2b0bcc936da4678334",
+      "3b7bcb93a6b3fe4cdb19",
       "90029b1210e0290c7d66",
       "286687d9921d0126f014",
       "dcaf9a95ef41fcbfe34a",
@@ -18508,8 +18503,7 @@ const EVENT_DATA = {
       "4a97ee5a91b4938218ee",
       "ff356ceb5cc350e0556b",
       "3ed2c84c692b41b39300",
-      "e2540d877ed8ba628d2b",
-      "7bd6eb8e9e886ba7f814"
+      "e2540d877ed8ba628d2b"
     ],
     "ORCL": [
       "74fab210bc5bf713fb18",
@@ -18601,6 +18595,7 @@ const EVENT_DATA = {
     ],
     "TSLA": [
       "dc30e69126edf1b36675",
+      "3b7bcb93a6b3fe4cdb19",
       "5fed32e879483288710e",
       "a0d53c4e2c53385ed764",
       "11b3b48d7c46adb25eef",
@@ -18731,6 +18726,7 @@ const EVENT_DATA = {
     ],
     "MSFT": [
       "286687d9921d0126f014",
+      "e6daa50011c303030acb",
       "18ecd1a266ab79be0d7e",
       "2aea580d56ef499dd92e",
       "9c4a87773d69935c15e0",
@@ -18797,8 +18793,7 @@ const EVENT_DATA = {
       "176430891b509a8b2992",
       "9419c6f4f577dfc086e5",
       "9be7c56de5f277140326",
-      "aaf0a908fd6248cb1bf0",
-      "7bd6eb8e9e886ba7f814"
+      "aaf0a908fd6248cb1bf0"
     ],
     "ARM": [
       "f746d56d305719b07624",
