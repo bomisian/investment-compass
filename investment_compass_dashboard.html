@@ -4392,6 +4392,34 @@ function smartDetailHtml(x){
   const top3 = a => byW(a).slice(0, 3).map(d => `${esc(d.manager || smMgrName(d.key))} <span class="sub">(포트 ${wtxt(d)}${d.value_usd ? ' · ' + smMoney(d.value_usd) : ''})</span>`).join(' · ') || '<span class="sub">없음</span>';
   const allPub = rB.concat(rS, rR).map(lastPub).filter(Boolean).sort();
   const hN = (x.investors || []).filter(i => i.action !== '전량매도' && !DIV.has(i.key) && wOK(i.key)).length;   // 검증 133: 목록 겹침과 같은 필터
+  // WO-16(수정지시서#01): 직전 분기 대비 신규/증액/감액/전량매도 요약 + 순매수·순매도 우위,
+  // 보유 주식 총량 변화 %, 다음 13F 공시 예정일, 보고일 기준 경과일(숫자)을 추가한다.
+  const c16 = x.counts || {};
+  const up16 = (c16['신규'] || 0) + (c16['추가'] || 0), dn16 = (c16['일부매도'] || 0) + (c16['전량매도'] || 0);
+  const tilt16 = up16 > dn16 ? '순매수 우위' : (dn16 > up16 ? '순매도 우위' : '균형');
+  const tiltColor16 = up16 > dn16 ? '#1e7b34' : (dn16 > up16 ? '#b3261e' : '#626b76');
+  // 보유 주식 총량 변화 %: buyers_by_value(현재 보유자, shares/prev_shares)에 전량매도(현재 보유자 목록엔
+  // 없고 sellers에만 있음) prev_shares를 더해 분모를 맞춘다. 중복 합산 방지(일부매도는 두 목록에 겹쳐 나오므로
+  // buyers_by_value 쪽만 센다).
+  let shareNowSum = 0, sharePrevSum = 0, shareDataOk = true;
+  (x.buyers_by_value || []).forEach(d => {
+    if(typeof d.shares === 'number') shareNowSum += d.shares; else shareDataOk = false;
+    if(typeof d.prev_shares === 'number') sharePrevSum += d.prev_shares; else shareDataOk = false;
+  });
+  (x.sellers || []).filter(d => d.action === '전량매도').forEach(d => {
+    if(typeof d.prev_shares === 'number') sharePrevSum += d.prev_shares; else shareDataOk = false;
+  });
+  const shareChangePct16 = (shareDataOk && sharePrevSum > 0) ? (shareNowSum / sharePrevSum - 1) * 100 : null;
+  // 다음 공시 예정일: SEC 13F 마감은 분기말 + 45일(고정 규칙). latest_report_date(분기말)에서 다음 분기말을 구해 +45일.
+  const nextFilingDate16 = (() => {
+    if(!x.latest_report_date) return null;
+    const d = new Date(x.latest_report_date + 'T00:00:00Z');
+    if(isNaN(d.getTime())) return null;
+    d.setUTCMonth(d.getUTCMonth() + 3);
+    d.setUTCDate(d.getUTCDate() + 45);
+    return d.toISOString().slice(0, 10);
+  })();
+  const reportAgeDays16 = (typeof daysAgoFromDateStr === 'function') ? daysAgoFromDateStr(x.latest_report_date) : null;
   const summary = `<div class="comment-box" style="background:var(--panel);margin:4px 0 8px;">
       <div style="font-weight:700;">한눈 요약 <span class="sub" style="font-weight:400;">— 최근 3개월 공개분 · 실제 거래가 아니라 분기말 보유 공개</span></div>
         ${flags.length ? `<div style="color:#876000;font-size:12px;">⚠️ ${flags.map(esc).join(' · ')} — 따라 사기 전 가격 부담 확인</div>` : ''}
@@ -4399,6 +4427,8 @@ function smartDetailHtml(x){
       <div style="font-size:12.5px;margin-top:4px;">최근 변동 공개 최신일 <b>${esc(allPub[allPub.length - 1] || '—')}</b> · 현재 보유 투자자 <b>${hN}명</b></div>
       <div style="font-size:12.5px;"><span style="color:#1e7b34;font-weight:700;">신규/증가 ${rB.length}명</span>: ${top3(rB)}${rB.length > 3 ? ` 외 ${rB.length - 3}명` : ''}</div>
       <div style="font-size:12.5px;"><span style="color:#b3261e;font-weight:700;">감소/이탈 ${rS.length + rR.length}명</span>: ${top3(rR.concat(rS))}${rS.length + rR.length > 3 ? ` 외 ${rS.length + rR.length - 3}명` : ''}</div>
+      <div style="font-size:12.5px;margin-top:4px;padding-top:4px;border-top:1px solid #e3e6ea;">직전 분기 대비 🆕신규 ${c16['신규'] || 0} · ⬆증액 ${c16['추가'] || 0} · ⬇감액 ${c16['일부매도'] || 0} · ❌전량 매도 ${c16['전량매도'] || 0} → <b style="color:${tiltColor16};">${tilt16}</b>${(typeof shareChangePct16 === 'number' && isFinite(shareChangePct16)) ? ` · 추적 투자자 보유 주식 총량 ${pc(shareChangePct16 / 100, 1)}` : ''}</div>
+      <div class="sub" style="font-size:11px;margin-top:2px;">보고기준일 ${esc(x.latest_report_date || '—')}${typeof reportAgeDays16 === 'number' ? ` (보고일 기준 ${reportAgeDays16}일 지난 정보)` : ''}${nextFilingDate16 ? ` · 다음 13F 공시 예정(마감) ${esc(nextFilingDate16)}` : ''}</div>
       <div class="sub" style="font-size:11px;margin-top:4px;">읽는 순서: 공개일이 충분히 최근인가 → 신규·증가가 있는가 → 비중·규모 큰 운용자인가 → 여러 운용자 방향이 같은가 → 실적·밸류에이션과 모순 없는가. 매수 판단이 아니라 추가 조사 우선순위용.</div>
     </div>`;
   const recRow = (d, act, col) => `<tr><td>${esc(d.manager || smMgrName(d.key))}</td><td style="color:${col};">${act}</td><td style="text-align:right;">${d.value_usd ? smMoney(d.value_usd) : '—'}</td><td style="text-align:right;">${wtxt(d)}</td><td>${esc(lastPub(d) || '—')}</td></tr>`;
@@ -4947,6 +4977,7 @@ function summaryCardHtml(r){
   //     캐시 데이터로도 돌리게 조건만 완화. 캐시조차 부족할 때만(50봉 미만) 완전히 숨긴다. ---
   const hasCache = cl.length >= 50;
   let chartBody;
+  let chartSlope = null; // WO-15: 200일선 기울기를 아래 이익vs가격 종합 문장에서도 재사용
   if(!priceOk && !hasCache){
     chartBody = '<div class="sub">가격 자료부족(캐시·지연·조회 실패·빈 봉·누락) — 차트 상태 표시 안 함</div>';
   } else {
@@ -4954,6 +4985,7 @@ function summaryCardHtml(r){
     const ma200now = cl.length >= 200 ? avg(cl.slice(-200)) : null;
     const ma200prev = cl.length >= 220 ? avg(cl.slice(-220, -20)) : null;
     const slope = (ma200now && ma200prev) ? ma200now / ma200prev - 1 : null;
+    chartSlope = slope;
     const last = cl.length ? cl[cl.length - 1] : null;
     const cacheNote = !priceOk ? ' · <b style="color:#876000;">캐시 기준(실시간 조회 실패/지연 — 최신이 아닐 수 있음)</b>' : '';
     chartBody = row('200일선 대비', num(r.ma200Pct) ? `${pp(r.ma200Pct)} ${r.ma200Pct >= 0 ? '(위)' : '(아래)'}` : '—')
@@ -4964,11 +4996,27 @@ function summaryCardHtml(r){
   }
 
   // 하락 성격: 점수·행동 문구 없이 사실만(Codex #09 P2)
+  // WO-15(수정지시서#01): "최근 90일 하락 없음"(90일 창 기준)과 "52주 고점 대비 -N%"(그보다 이전
+  // 고점 기준)가 서로 다른 기간을 가리키는데 나란히 보이면 모순처럼 읽힌다. 두 숫자가 실제로
+  // 충돌하는 경우(90일 창은 하락 없음인데 52주 고점대비는 유의미하게 낮음)에만 한 문장으로 이어
+  // 붙여 "가격만 이전에 빠졌고 최근 90일은 추가 하락이 없다"는 뜻을 명확히 한다.
+  const ddHasNoRecentDrop = !!(ddt && ddt.label_forward && /하락 없음/.test(ddt.label_forward));
+  const ddBridgeNote = (ddHasNoRecentDrop && num(r.drawdownPct) && r.drawdownPct <= -5)
+    ? `<div class="sub" style="margin-top:2px;">→ 52주 고점 대비로는 ${esc(pp(r.drawdownPct))} 낮은 상태지만, 그 하락은 최근 90일보다 더 이전에 있었고 최근 90일 동안은 추가로 빠지지 않았다는 뜻입니다.</div>`
+    : '';
+  // WO-15 예시 문장: "이익 전망은 90일간 +20% 올랐는데 주가는 고점 대비 -14% → 가격만 빠진 조정.
+  // 추세(200일선)는 유지." -- 이익 전망(em.ntm_change_90d)은 올랐는데 가격은 고점 대비 유의미하게
+  // 낮을 때, 200일선 추세 상태까지 묶어 한 문장으로 설명한다(이익 전망 상향 + 가격 조정만 =
+  // 밸류에이션만 싸진 것, 추세 유지 여부로 성격을 덧붙임).
+  const earnPriceSyncNote = (em && num(em.ntm_change_90d) && em.ntm_change_90d >= 0.05 && num(r.drawdownPct) && r.drawdownPct <= -5)
+    ? `<div class="sub" style="margin-top:2px;">→ 이익 전망은 최근 90일간 ${esc(pc(em.ntm_change_90d))} 올랐는데 주가는 고점 대비 ${esc(pp(r.drawdownPct))} — 가격만 빠진 조정으로 보입니다${num(chartSlope) ? (chartSlope >= 0 ? '. 추세(200일선)는 유지되고 있습니다.' : '. 다만 200일선 추세는 하락 중입니다.') : ''}</div>`
+    : '';
   const ddBody = (ddt && !ddt.skip && (ddt.label_forward || ddt.label_trailing))
     ? (ddt.label_forward ? row('최근 90일', esc(ddt.label_forward)) : '') + (ddt.label_trailing ? row('고점 이후 공시 실적', esc(ddt.label_trailing)) : '')
+      + ddBridgeNote + earnPriceSyncNote
       + `<div class="sub" style="font-size:10.5px;">가격 ${esc(ddt.price_date || '')} · 추정치 ${esc((window.DRAWDOWN_TYPE && window.DRAWDOWN_TYPE.consensus_as_of) || '')} 기준</div>`
       + ddtStaleWarning(ddt && ddt.price_date)
-    : '<div class="sub">자료 없음</div>';
+    : (earnPriceSyncNote || '<div class="sub">자료 없음</div>');
 
   return `<div class="comment-box" style="background:var(--panel-2);margin-bottom:12px;">
     <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;">
@@ -4980,7 +5028,7 @@ function summaryCardHtml(r){
       ${PEER_VALUE_HIDDEN ? '' : sec((bpe && bpe.ok) ? '가치 위치(시장 기준가)' : '가치 위치(적정가 두 방법)', valueBody)}${sec('이익 전망', earnBody)}${PEER_VALUE_HIDDEN ? '' : sec('시장 기대', expBody)}
       ${PEER_VALUE_HIDDEN ? '' : sec('밸류에이션', valBody)}${sec('차트 상태', chartBody)}${sec('하락 성격(가격 vs 이익)', ddBody)}${sec('🐋 유명 투자자(13F)', smartSummaryHtml(tk))}
     </div>
-    <div class="sub" style="margin-top:6px;color:#876000;">이 항목들을 점수로 합치거나 "좋은 매수 구간"으로 묶어도 2016~2025 S&P500에서 이후 성적 차이가 없었어요(106번 검증). 매수·매도 신호가 아니에요.</div>
+    <div class="sub" style="margin-top:6px;color:#876000;">이 항목들을 점수로 합치거나 "좋은 매수 구간"으로 묶어도 2016~2025 S&P500 백테스트에서 이후 성적 차이가 없었어요. 매수·매도 신호가 아니에요.</div>
   </div>`;
 }
 
@@ -4996,6 +5044,14 @@ function sectorEnvironmentRow(ticker){
   const s = (typeof SECTOR_ENVIRONMENT_41 !== 'undefined' && SECTOR_ENVIRONMENT_41.tickers) ? SECTOR_ENVIRONMENT_41.tickers[ticker] : null;
   return s || null;
 }
+function woDateFreshnessColor(dateStr){
+  // WO-17(수정지시서#01): 기준일 신선도 색상 - 1일 이내 초록 / 3일 이내 노랑 / 그 이상 빨강
+  const days = daysAgoFromDateStr(dateStr);
+  if(days == null) return '#626b76';
+  if(days <= 1) return '#1b6b3a';
+  if(days <= 3) return '#876000';
+  return '#b3261e';
+}
 function renderMarketExpectationSectorCard(r){
   if(!r || !r.ticker) return '';
   const m = marketExpectationRow(r.ticker);
@@ -5008,19 +5064,19 @@ function renderMarketExpectationSectorCard(r){
   const smallBadge = (label, title) => `<span class="badge" style="background:#fff3cd;color:#876000;border:1px solid #87600033;padding:2px 7px;font-size:10.5px;font-weight:700;margin-right:4px;" title="${esc(title||'')}">${esc(label)}</span>`;
 
   // ---- 시장 기대 ----
-  let expBlock = '<div class="sub">142 기대충족 자료 없음</div>';
-  let statusLabel = '142 기대충족 자료 없음';
+  let expBlock = '<div class="sub">기업 기대충족 평가 자료 없음</div>';
+  let statusLabel = '기업 기대충족 평가 자료 없음';
   if(m){
     statusLabel = m.expectation_status === '증거 부족' ? '증거 부족 — 근거 구축 중' : esc(m.expectation_status);
     // 표시규칙 1·2: composite 숫자는 기본 화면에 절대 표시하지 않음(증거부족 종목은 상태 문구만)
     const consensusKnown = m.consensus_snapshot_age_days != null;
     const warnBadges = [
-      m.coverage_limited ? smallBadge('COVERAGE_LIMITED', '최소 관측축 요건 근처 — 관측축이 적어 신뢰도가 제한됩니다') : '',
-      m.source_concentration_warning ? smallBadge('SOURCE_CONCENTRATION_WARNING', '목표가가 단일 제공자 집계 기준 — 2차 교차확인 없음(신뢰도 상한 B)') : '',
-      m.currency_mismatch_warning ? smallBadge('CURRENCY_MISMATCH', '재무제표(현지통화)와 가격·목표가(ADR/USD 등 상장 통화) 사이에 통화 불일치가 있습니다 — 환산 미수행') : '',
-      m.price_as_of_mismatch ? smallBadge('PRICE_AS_OF_MISMATCH', `가격 기준일(${m.current_price_as_of || '?'})이 섹터 ETF 기준일(${m.sector_environment_as_of || '?'})과 다릅니다`) : '',
-      !consensusKnown ? smallBadge('CONSENSUS_DATE_UNAVAILABLE', '컨센서스 목표가의 수집(갱신) 날짜를 확인하지 못했습니다 — 경과일·stale 판정 불가') :
-        (m.stale_consensus_warning ? smallBadge('STALE_CONSENSUS_WARNING', `목표가 스냅샷이 ${m.consensus_snapshot_age_days}일 전 자료로, 고정 기준(14일)을 초과했습니다`) : ''),
+      m.coverage_limited ? smallBadge('관측축 부족', '최소 관측축 요건 근처 — 관측축이 적어 신뢰도가 제한됩니다') : '',
+      m.source_concentration_warning ? smallBadge('단일 제공자 집계', '목표가가 단일 제공자 집계 기준 — 2차 교차확인 없음(신뢰도 상한 B)') : '',
+      m.currency_mismatch_warning ? smallBadge('통화 불일치', '재무제표(현지통화)와 가격·목표가(ADR/USD 등 상장 통화) 사이에 통화 불일치가 있습니다 — 환산 미수행') : '',
+      m.price_as_of_mismatch ? smallBadge('기준일 불일치', `가격 기준일(${m.current_price_as_of || '?'})이 섹터 ETF 기준일(${m.sector_environment_as_of || '?'})과 다릅니다`) : '',
+      !consensusKnown ? smallBadge('컨센서스 날짜 미확인', '컨센서스 목표가의 수집(갱신) 날짜를 확인하지 못했습니다 — 경과일·stale 판정 불가') :
+        (m.stale_consensus_warning ? smallBadge('컨센서스 자료 오래됨', `목표가 스냅샷이 ${m.consensus_snapshot_age_days}일 전 자료로, 고정 기준(14일)을 초과했습니다`) : ''),
     ].filter(Boolean).join('');
     const posPct = m.consensus_position_pct;
     const posLine = num(posPct)
@@ -5028,9 +5084,11 @@ function renderMarketExpectationSectorCard(r){
       : '시장 컨센서스 위치: 자료 없음';
     // 사용자 지시 P1: 가격/기대/섹터ETF/컨센서스 4개 기준일을 항상 함께 표시. 컨센서스 기준일 미기록 시
     // 경과일·STALE 판정 대신 "미기록" 문구 + CONSENSUS_DATE_UNAVAILABLE 배지만 표시(임의 숫자 금지).
+    // WO-17: 기준일마다 신선도 색상(1일 이내 초록 / 3일 이내 노랑 / 그 이상 빨강) 적용
+    const dchip = (dateStr) => `<span style="color:${woDateFreshnessColor(dateStr)};font-weight:700;">${esc(dateStr || '?')}</span>`;
     const asOfBlock = consensusKnown
-      ? `가격 기준: ${esc(m.current_price_as_of || '?')} 마감<br>시장 기대 기준: ${esc(m.expectation_as_of || '?')}<br>섹터 ETF 기준: ${esc(m.sector_environment_as_of || '?')}<br>컨센서스 기준: ${esc(m.consensus_snapshot_as_of || '?')} / 경과 ${m.consensus_snapshot_age_days}일`
-      : `가격 기준: ${esc(m.current_price_as_of || '?')} 마감<br>시장 기대 기준: ${esc(m.expectation_as_of || '?')}<br>섹터 ETF 기준: ${esc(m.sector_environment_as_of || '?')}<br>컨센서스 기준일 미기록 — 경과일 및 stale 판정 불가`;
+      ? `가격 기준: ${dchip(m.current_price_as_of)} 마감<br>시장 기대 기준: ${dchip(m.expectation_as_of)}<br>섹터 ETF 기준: ${dchip(m.sector_environment_as_of)}<br>컨센서스 기준: ${dchip(m.consensus_snapshot_as_of)} / 경과 ${m.consensus_snapshot_age_days}일`
+      : `가격 기준: ${dchip(m.current_price_as_of)} 마감<br>시장 기대 기준: ${dchip(m.expectation_as_of)}<br>섹터 ETF 기준: ${dchip(m.sector_environment_as_of)}<br>컨센서스 기준일 미기록 — 경과일 및 stale 판정 불가`;
     expBlock = `
       <div class="fund-row"><span>시장 기대</span><span class="v"><b>${statusLabel}</b></span></div>
       <div class="fund-row"><span>신뢰도</span><span class="v">${esc(m.confidence)}</span></div>
@@ -5063,7 +5121,7 @@ function renderMarketExpectationSectorCard(r){
   return `<div class="comment-box" style="background:var(--panel-2);margin-bottom:12px;border:1px solid var(--line);">
     <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;">
       <div style="font-size:16px;font-weight:800;">시장 기대 · 섹터 환경${hintIcon('marketExpectationSectorCard')}</div>
-      <div class="sub">읽기 전용 · 매수/매도 신호 아님 · 142 기대충족 + ETF 섹터 필터</div>
+      <div class="sub">읽기 전용 · 매수/매도 신호 아님 · 기업 기대충족 평가 + ETF 섹터 필터</div>
     </div>
     ${summaryLine}
     <details style="margin-top:6px;"><summary style="cursor:pointer;font-weight:600;font-size:11.5px;color:var(--sub);">상세 보기 (시장 기대·섹터 환경 원자료)</summary>
@@ -5071,12 +5129,12 @@ function renderMarketExpectationSectorCard(r){
       <div style="flex:1 1 280px;min-width:260px;">${expBlock}</div>
       <div style="flex:1 1 280px;min-width:260px;">${sectorBlock}</div>
     </div>
-    <div class="sub" style="margin-top:4px;color:#876000;">기업 142 기대충족 근거와 산업 ETF 환경이 다를 수 있습니다(예: 기업 근거는 강화됐지만 산업 ETF는 약세). 이 카드는 기존 RSI·눌림목·반등 신호를 읽을 때 섹터 환경을 함께 보여주는 설명이며, 그 자체로 매수·매도를 지시하지 않습니다.</div>
+    <div class="sub" style="margin-top:4px;color:#876000;">기업 기대충족 근거와 산업 ETF 환경이 다를 수 있습니다(예: 기업 근거는 강화됐지만 산업 ETF는 약세). 이 카드는 기존 RSI·눌림목·반등 신호를 읽을 때 섹터 환경을 함께 보여주는 설명이며, 그 자체로 매수·매도를 지시하지 않습니다.</div>
     </details>
   </div>`;
 }
 if(typeof HINTS !== 'undefined' && !HINTS.marketExpectationSectorCard){
-  HINTS.marketExpectationSectorCard = '142 기대충족 판정 엔진(9축 증거모델) 스냅샷 + ETF 섹터 환경 필터를 결합한 읽기 전용 참고 카드입니다. 매수·매도 신호가 아니며, 기존 RSI·눌림목·반등 신호가 연결되기 전까지는 "원신호 미연결 — 섹터 환경 참고용"으로만 표시됩니다.';
+  HINTS.marketExpectationSectorCard = '기업 기대충족 판정 엔진(9축 증거모델) 스냅샷 + ETF 섹터 환경 필터를 결합한 읽기 전용 참고 카드입니다. 매수·매도 신호가 아니며, 기존 RSI·눌림목·반등 신호가 연결되기 전까지는 "기술적 신호와 아직 연결되지 않음 — 섹터 환경 참고용"으로만 표시됩니다.';
 }
 
 function renderSetbackCard(r){
@@ -5858,7 +5916,7 @@ function computePriceValidity(r){
 //     가이던스 수익률은 서로 다른 정의라 하나로 뭉개면 안 됨. 두 교차검증 모두 배지를 아래 4개
 //     표준 어휘로만 표시하고(일치/기대 선반영 확인 필요/현금흐름 정의 차이/비교 기준 제한),
 //     기준이 다른 값은 40/60배 자동 경고에서 제외한다. 가격대·종합 행동 산식은 그대로. ---
-const PV_CC_BADGES = ['일치', '기대 선반영 확인 필요', '현금흐름 정의 차이', '비교 기준 제한', '통화 다름']; // WO-02 추가
+const PV_CC_BADGES = ['일치', '기대 선반영 확인 필요', '현금흐름 정의 차이', '계산 불가(데이터 없음)', '통화 다름', '회계 기준 다름']; // WO-02/WO-13 추가
 
 // --- 51750 -- 가격 부담 축(아래 PATCH B)이 필요로 하는 TTM FCF 수익률만 따로 뽑아내는
 //     헬퍼. pvCrossCheck의 FCF 계산부와 완전히 같은 입력(financials_data.js 분기 FCF,
@@ -5904,7 +5962,7 @@ function pvCrossCheck(t, price, perLabel, fin, fund, iv, ntmPerForCheck){
       if(epsM){ epsGuideRec = {rec, epsM}; break; }
     }
   }
-  const eps = { multiple:null, tier:null, basisKind:null, basisLabel:null, badge:'비교 기준 제한' };
+  const eps = { multiple:null, tier:null, basisKind:null, basisLabel:null, badge:'계산 불가(데이터 없음)' }; // WO-13
   if(epsGuideRec){
     const mid = (epsGuideRec.epsM.low + epsGuideRec.epsM.high)/2;
     const tp = epsGuideRec.rec.guidance.targetPeriod || '';
@@ -5952,7 +6010,13 @@ function pvCrossCheck(t, price, perLabel, fin, fund, iv, ntmPerForCheck){
       eps.basisKind = 'gaap_actual_substitute';
       eps.basisLabel = `GAAP 대체 참고값 — 비GAAP 가이던스·실적 데이터소스 없음, 최근 보고 분기(${q.period||q.endDate||'—'}) 실제 GAAP EPS $${q.eps.toFixed(2)} ×4(비GAAP 가이던스 종목과 직접 비교 제한 — 스톡옵션 비용 등 처리 방식이 달라 배수가 부풀려질 수 있음)`;
       eps.tier = null; // GAAP 대체값은 40/60배 자동 분류·경고 대상에서 제외
-      eps.badge = '비교 기준 제한';
+      // WO-13(수정지시서#01) -- "비교 기준 제한"은 서로 다른 세 상황(데이터 없음·통화
+      // 다름·회계 기준 다름)에 똑같이 쓰여 뭘 의미하는지 알 수 없었다. 이 분기는 구체적으로
+      // "GAAP과 비GAAP의 회계 처리 방식이 달라 직접 비교할 수 없다"는 뜻이므로 그렇게 이름
+      // 붙인다. 다만 그 배수 자체가 100배를 넘으면(TSLA·ARM·MRVL·PLTR·GEV·AMD 실측 — 회계
+      // 기준과 무관하게 숫자 자체가 극단적) "회계 기준 다름"으로 숨기지 않고 "기대 선반영
+      // 확인 필요"로 바꿔 경고한다.
+      eps.badge = (eps.multiple!=null && eps.multiple > 100) ? '기대 선반영 확인 필요' : '회계 기준 다름';
     } else if(q && typeof q.eps==='number'){
       eps.basisLabel = `공식 EPS 가이던스 없음, 최근 보고 분기 GAAP EPS도 $${q.eps.toFixed(2)}(적자)라 연환산 불가`;
     } else {
@@ -5965,7 +6029,7 @@ function pvCrossCheck(t, price, perLabel, fin, fund, iv, ntmPerForCheck){
   // "실제 TTM FCF 수익률"(분기 실적 그대로)과 "회사 조정 FCF/FCFbG 가이던스 수익률"(회사가
   // 발표한 조정 현금흐름 가이던스, 독립 밸류에이션 모듈에 구조화돼 있을 때만)을 분리해서 보여주고,
   // 섞어서 하나로 단정하지 않는다.
-  const fcf = { ttmYield:null, ttmNote:null, guideYield:null, guideNote:null, badge:'비교 기준 제한', status:'unavailable' };
+  const fcf = { ttmYield:null, ttmNote:null, guideYield:null, guideNote:null, badge:'계산 불가(데이터 없음)', status:'unavailable' }; // WO-13
   if(fin && Array.isArray(fin.quarterly) && fin.quarterly.length>=4 && fund && num(fund.marketCapitalization)){
     const last4 = fin.quarterly.slice(-4);
     if(last4.every(q=>q && typeof q.fcf==='number')){
@@ -6000,7 +6064,7 @@ function pvCrossCheck(t, price, perLabel, fin, fund, iv, ntmPerForCheck){
     fcf.badge = '일치'; // 비교 대상(회사 가이던스)이 없어 단일 값만 참고 — 정의 차이를 판단할 수 없으므로 경고하지 않음
     fcf.status = 'single_source';
   } else {
-    fcf.badge = '비교 기준 제한';
+    fcf.badge = '계산 불가(데이터 없음)'; // WO-13
     fcf.status = 'unavailable';
   }
   out.fcf = fcf;
@@ -6696,7 +6760,7 @@ function renderPriceValidityCard(r){
   const cc = d.crossCheck;
   let crossCheckBox = '';
   if(cc && (cc.eps || cc.fcf)){
-    const CC_BADGE_COLOR = {'일치':'#2f5b3c','기대 선반영 확인 필요':'#7a3b2e','현금흐름 정의 차이':'#7a5c00','비교 기준 제한':'#5b6472'};
+    const CC_BADGE_COLOR = {'일치':'#2f5b3c','기대 선반영 확인 필요':'#7a3b2e','현금흐름 정의 차이':'#7a5c00','계산 불가(데이터 없음)':'#5b6472','통화 다름':'#5b6472','회계 기준 다름':'#5b6472'}; // WO-13
     const badgeHtml = (b) => `<span style="display:inline-block;margin-left:6px;font-size:10px;font-weight:700;padding:1px 7px;border-radius:5px;color:#fff;background:${CC_BADGE_COLOR[b]||NEU_DIM};">${esc(b)}</span>`;
 
     let epsLine = '';
@@ -6838,7 +6902,7 @@ function renderPriceValidityCard(r){
     let rows = '';
     rows += rowHtml('RSI(14)', num(r.rsi) ? r.rsi.toFixed(1) : '—');
     rows += rowHtml('200일선 대비', num(r.ma200Pct) ? (r.ma200Pct>=0 ? `위 (+${r.ma200Pct.toFixed(1)}%)` : `아래 (${r.ma200Pct.toFixed(1)}%)`) : '—');
-    rows += rowHtml('103 신호 분류', esc(d.chart));
+    rows += rowHtml('기술적 진입 상태', esc(d.chart));
     chartCard = `<div style="margin-top:9px;background:${NEU_BG};border:1px solid ${NEU_LINE};border-radius:12px;padding:10px 12px;">${rows}</div>`;
   }
 
@@ -7094,7 +7158,7 @@ function pvBasisLimitedTickers(){
     let d;
     try{ d = computePriceValidity(r); } catch(e){ continue; }
     const cc = d.crossCheck || {};
-    if(cc.eps && cc.eps.badge === '비교 기준 제한'){
+    if(cc.eps && (cc.eps.badge === '회계 기준 다름' || cc.eps.badge === '계산 불가(데이터 없음)')){ // WO-13 배지 분리에 맞춰 갱신
       out.push({ ticker:t, multiple: cc.eps.multiple, basisLabel: cc.eps.basisLabel });
     }
   }
@@ -7603,7 +7667,7 @@ function renderPriceValidityExceptionQueue(){
 
   const basisHtml = basisLimited.length
     ? `<details style="margin-top:10px;">
-         <summary style="cursor:pointer;font-size:12px;color:var(--sub);">상시 비교 기준 제한: ${basisLimited.length}종목 — 가격 판단에는 반영하지 않으며, EPS 교차검증 해석에만 제한이 있습니다. 상세 보기</summary>
+         <summary style="cursor:pointer;font-size:12px;color:var(--sub);">상시 회계 기준 다름/데이터 없음: ${basisLimited.length}종목 — 가격 판단에는 반영하지 않으며, EPS 교차검증 해석에만 제한이 있습니다. 상세 보기</summary>
          <div style="margin-top:6px;font-size:11.5px;color:var(--sub);">
            ${basisLimited.map(b=>`<div style="margin-top:2px;cursor:pointer;" onclick="openDetail('${esc(b.ticker)}')"><b>${esc(b.ticker)}</b> — EPS 연환산 배수 참고값 ${(typeof b.multiple==='number'&&isFinite(b.multiple))?b.multiple.toFixed(1)+'배':'—'}(GAAP 대체, 비GAAP 가이던스 종목과 직접 비교 불가)</div>`).join('')}
          </div>
@@ -7621,7 +7685,7 @@ function renderPriceValidityExceptionQueue(){
     + changesHtml + constraintsHtml + basisHtml + exportHtml;
 }
 if(typeof HINTS !== 'undefined'){
-  HINTS.priceValidityExceptionQueue = '39종목을 매번 다시 확인하지 않도록, 오늘 판단이 바뀔 수 있는 종목만 모아 보여주는 카드입니다. "오늘 바뀐 것"(새 공시, 가격·행동 전환)은 확인 후 저장하면 같은 내용으로는 다시 뜨지 않는 사건이고, "해결 전 핵심 제약"(현금흐름 거부권, 컨센서스/EPS 기준일 초과, 모델 교차검증 불일치, 현금흐름 정의 차이)은 저장 여부와 무관하게 원인이 실제로 해소될 때까지 계속 표시되는 열린 위험입니다. 비GAAP 가이던스가 없어 GAAP 실제 EPS로 대체한 종목(EPS 교차검증 "비교 기준 제한")은 종목 수가 많고 매번 참인 데이터 출처 특성이라 이 재검토 큐에는 넣지 않고, 아래 "상시 비교 기준 제한" 접이식 목록에서만 보여줍니다. "오늘 기준으로 저장" 버튼은 review_baseline_data.js(재검토 큐 서명)와 valuation_snapshot_log_2026.js(1·3·6개월 결과 추적용 판단 스냅샷 — 오늘 판단이 바뀌었을 때만 새로 쌓임)를 함께 내려받으며, 두 파일을 데이터 폴더에 반영하면 다음 스캔부터 같은 로직이 적용됩니다 — 브라우저 localStorage는 쓰지 않습니다. 가격·행동 산식에는 전혀 관여하지 않는 읽기 전용 조회·기록 레이어입니다.';
+  HINTS.priceValidityExceptionQueue = '39종목을 매번 다시 확인하지 않도록, 오늘 판단이 바뀔 수 있는 종목만 모아 보여주는 카드입니다. "오늘 바뀐 것"(새 공시, 가격·행동 전환)은 확인 후 저장하면 같은 내용으로는 다시 뜨지 않는 사건이고, "해결 전 핵심 제약"(현금흐름 거부권, 컨센서스/EPS 기준일 초과, 모델 교차검증 불일치, 현금흐름 정의 차이)은 저장 여부와 무관하게 원인이 실제로 해소될 때까지 계속 표시되는 열린 위험입니다. 비GAAP 가이던스가 없어 GAAP 실제 EPS로 대체한 종목(EPS 교차검증 "회계 기준 다름"/"계산 불가(데이터 없음)")은 종목 수가 많고 매번 참인 데이터 출처 특성이라 이 재검토 큐에는 넣지 않고, 아래 "상시 회계 기준 다름/데이터 없음" 접이식 목록에서만 보여줍니다. "오늘 기준으로 저장" 버튼은 review_baseline_data.js(재검토 큐 서명)와 valuation_snapshot_log_2026.js(1·3·6개월 결과 추적용 판단 스냅샷 — 오늘 판단이 바뀌었을 때만 새로 쌓임)를 함께 내려받으며, 두 파일을 데이터 폴더에 반영하면 다음 스캔부터 같은 로직이 적용됩니다 — 브라우저 localStorage는 쓰지 않습니다. 가격·행동 산식에는 전혀 관여하지 않는 읽기 전용 조회·기록 레이어입니다.';
 }
 // ===== 시장 기대 대비 가격 위치 카드 (2026-10-08 신규, v2: 39종목 전수 반영) =====
 // 근거: MARKET_POSITION_CARD_DECLARATION_v1_1_20261008.md, MARKET_POSITION_CARD_FULL_ROLLOUT_v2_20261008.md
@@ -7674,15 +7738,15 @@ function renderMarketPositionCard(r){
     consensusAsOf = m.consensus_snapshot_as_of;
     ageDays = num(m.consensus_snapshot_age_days) ? m.consensus_snapshot_age_days : null;
     if(num(ageDays) && ageDays > MARKET_POSITION_STALE_DAYS){
-      staleBadge = `<span style="display:inline-block;margin-left:6px;font-size:10.5px;font-weight:700;color:#7a5c00;background:#fff8ea;border:1px solid #e9dcb8;border-radius:5px;padding:1px 6px;">STALE_CONSENSUS_WARNING — 기준일 ${MARKET_POSITION_STALE_DAYS}일 초과</span>`;
+      staleBadge = `<span style="display:inline-block;margin-left:6px;font-size:10.5px;font-weight:700;color:#7a5c00;background:#fff8ea;border:1px solid #e9dcb8;border-radius:5px;padding:1px 6px;">컨센서스 자료 오래됨 — 기준일 ${MARKET_POSITION_STALE_DAYS}일 초과</span>`;
     }
   }
-  rowsHtml += rowHtml('컨센서스 기준일', `${esc(consensusAsOf)}${num(ageDays) ? ` (${ageDays}일 경과)` : ''}`, staleBadge);
+  rowsHtml += rowHtml('컨센서스 기준일', `<span style="color:${woDateFreshnessColor(consensusAsOf !== '—' ? consensusAsOf : null)};font-weight:700;">${esc(consensusAsOf)}</span>${num(ageDays) ? ` (${ageDays}일 경과)` : ''}`, staleBadge);
 
   const status = m ? m.expectation_status : null;
   const confidence = m ? m.confidence : null;
   const axes = (m && num(m.observed_axes)) ? m.observed_axes : null;
-  rowsHtml += rowHtml('142 기대충족 상태', `${esc(status || '—')} · 신뢰도 ${esc(confidence || '—')} · 관측 ${num(axes) ? axes : '—'}축`);
+  rowsHtml += rowHtml('기업 기대충족 상태', `${esc(status || '—')} · 신뢰도 ${esc(confidence || '—')} · 관측 ${num(axes) ? axes : '—'}축`);
 
   // ---- 요약 문구 (51733 정정) ----
   // 51732에서 쓰던 하단/선반영 표현(목표가 중앙값과 현재가 괴리로 저평가·고평가를 암시)이
@@ -7731,7 +7795,7 @@ function renderMarketPositionCard(r){
       ${covBadge}
     </div>`;
 
-  const footNote = `<div style="margin-top:8px;margin-bottom:12px;font-size:10.5px;color:var(--sub);">컨센서스 위치 단독으로 고평가·저평가·매수·매도를 판단하지 않으며, 142 기대충족 상태·관측범위·자료 기준일과 함께만 해석합니다. ±15%는 적정가·매수매도 경계가 아니라 중앙값과의 거리를 읽기 위한 고정 화면 구간입니다. 자동매매·알림·매수/매도 신호와 연결되지 않습니다.</div>`;
+  const footNote = `<div style="margin-top:8px;margin-bottom:12px;font-size:10.5px;color:var(--sub);">컨센서스 위치 단독으로 고평가·저평가·매수·매도를 판단하지 않으며, 기업 기대충족 상태·관측범위·자료 기준일과 함께만 해석합니다. ±15%는 적정가·매수매도 경계가 아니라 중앙값과의 거리를 읽기 위한 고정 화면 구간입니다. 자동매매·알림·매수/매도 신호와 연결되지 않습니다.</div>`;
 
   return `${headHtml}
     ${summaryLine}
@@ -7741,7 +7805,7 @@ function renderMarketPositionCard(r){
     </details>`;
 }
 if(typeof HINTS !== 'undefined' && !HINTS.marketPositionCard){
-  HINTS.marketPositionCard = '월가 애널리스트 목표가 컨센서스(중앙값·분산·분석가 수)와 현재가의 거리를, 142 기대충족 판정 결과와 함께 보여주는 읽기 전용 참고 카드입니다. 39개 기업 전수에 동일 소스·동일 정의로 구축했습니다(SPY·QQQ는 기업 컨센서스 대상이 아니라 시장 문맥으로만 표시). 컨센서스 위치만으로 고평가·저평가·매수·매도를 판단하지 않으며, 142 증거가 부족한 종목은 "가격 타당성 근거 구축 중"으로만 표시합니다. 매수·매도·비중조절 신호가 아니고 자동주문/알림과 연결되지 않습니다.';
+  HINTS.marketPositionCard = '월가 애널리스트 목표가 컨센서스(중앙값·분산·분석가 수)와 현재가의 거리를, 기업 기대충족 판정 결과와 함께 보여주는 읽기 전용 참고 카드입니다. 39개 기업 전수에 동일 소스·동일 정의로 구축했습니다(SPY·QQQ는 기업 컨센서스 대상이 아니라 시장 문맥으로만 표시). 컨센서스 위치만으로 고평가·저평가·매수·매도를 판단하지 않으며, 증거가 부족한 종목은 "가격 타당성 근거 구축 중"으로만 표시합니다. 매수·매도·비중조절 신호가 아니고 자동주문/알림과 연결되지 않습니다.';
 }
 
 function tabJudgement(r){
@@ -12537,13 +12601,19 @@ function basePriceCellHtml(ticker){
 function priceRefCoverageHtml(ticker){
   const C = (typeof window !== 'undefined') ? window.PRICE_REF_COVERAGE : null;
   if(!C || !C.rows) return '';
+  // WO-12(수정지시서#01) -- 데이터 파일 자체의 label 필드가 일부 상태("NOT_READY")에서
+  // 번역 없이 코드값 그대로 저장돼 있고, class 필드(X_FOREIGN·P_PREPROFIT·C_CYCLE·
+  // O_OPERATING)는 애초에 번역이 없어 화면에 코드가 그대로 노출됐다. 데이터 파일은
+  // 건드리지 않고(자동 생성 파일), 화면 표시 시점에만 번역 맵을 적용한다.
+  const STATE_LABEL_KO = {SOURCE_BACKED_RANGE:'출처 기반 범위 준비됨', RESEARCH_SCENARIO_ONLY:'연구 시나리오만 있음', NOT_READY:'준비 안 됨', NOT_APPLICABLE:'대상 아님'};
+  const CLASS_LABEL_KO = {ETF:'ETF', X_FOREIGN:'해외 발행사(IFRS·비USD)', P_PREPROFIT:'적자·초기 수익화 단계', C_CYCLE:'사이클·자본집약 업종', O_OPERATING:'일반 영업기업'};
   const col = {SOURCE_BACKED_RANGE:'#1b6b3a', RESEARCH_SCENARIO_ONLY:'#876000', NOT_READY:'#626b76', NOT_APPLICABLE:'#8a8f96'};
-  const chip = x => `<b style="color:${col[x.state] || '#626b76'};">${esc(x.label)}</b>`;
+  const chip = x => `<b style="color:${col[x.state] || '#626b76'};">${esc(STATE_LABEL_KO[x.state] || x.label)}</b>`;
   const x = C.rows[ticker];
-  const one = x ? `<div class="comment-box" style="background:var(--panel-2);">${chip(x)} · 분류 ${esc(x.class)}
+  const one = x ? `<div class="comment-box" style="background:var(--panel-2);">${chip(x)} · 분류 ${esc(CLASS_LABEL_KO[x.class] || x.class)}
       <div class="sub" style="margin-top:4px;">사유: ${(x.reasons || []).map(esc).join('; ')}</div>
       <div class="sub" style="margin-top:4px;">다음에 필요한 원자료: ${(x.next || []).map(esc).join('; ')}</div></div>` : '<div class="sub">이 종목은 커버리지 표에 없습니다.</div>';
-  const sum = Object.entries(C.summary || {}).map(([k, v]) => `${esc((({SOURCE_BACKED_RANGE:'출처 기반 범위 준비됨', RESEARCH_SCENARIO_ONLY:'연구 시나리오만 있음', NOT_READY:'NOT_READY', NOT_APPLICABLE:'대상 아님'})[k]) || k)} ${v}`).join(' · ');
+  const sum = Object.entries(C.summary || {}).map(([k, v]) => `${esc(STATE_LABEL_KO[k] || k)} ${v}`).join(' · ');
   const all = Object.entries(C.rows).map(([t, r]) => `<tr><td style="padding:2px 8px 2px 0;">${esc(t)}</td><td style="padding:2px 8px 2px 0;">${chip(r)}</td><td class="sub" style="padding:2px 0;">${esc((r.reasons || [])[0] || '')}</td></tr>`).join('');
   return `<details style="margin-top:10px;"><summary style="cursor:pointer;font-weight:600;padding:6px 0;">▸ 연구용 가격참조 커버리지 (가격 아님)</summary>
     <div style="margin-top:8px;">${one}
@@ -14432,9 +14502,13 @@ function renderViewLog(ticker){
       return safe ? `<li><a href="${esc(safe)}" target="_blank" rel="noopener noreferrer nofollow">${esc(s.title)}</a></li>` : '';
     }).join('');
     const li = arr => (arr||[]).map(x=>`<li>${pvMaskNote(x)}</li>`).join('');
-    return `
-      <div class="fund-col" style="margin-top:10px;${idx===0?'border-left:3px solid var(--accent);padding-left:10px;':''}">
-        <div class="sub" style="margin-bottom:4px;"><b>${esc(e.date)} 작성</b>${idx===0?' · <span style="color:var(--accent);font-weight:700;">최신</span>':''}${staleBadgeHtml(e.date, idx===0)}</div>
+    // --- WO-14(수정지시서#01) -- 작성 후 30일이 지나면 idx===0(가장 최근 글)이라도
+    //     "최신" 배지를 붙이지 않는다(48~61일 지난 글에 "최신"이라고 쓰는 건 오해를 줌).
+    //     해당 글은 접힌 <details>로 감싸 기본 상태에서 숨겨지게 한다 -- 내용 삭제가
+    //     아니라 접기만 함, 클릭하면 그대로 다 보임. ---
+    const daysAgo = daysAgoFromDateStr(e.date);
+    const isStale = daysAgo != null && daysAgo >= 30;
+    const bodyHtml = `
         <div style="font-size:14px;font-weight:700;margin-bottom:6px;">${pvMaskNote(e.headline)}</div>
         <div style="font-size:12.5px;line-height:1.75;margin-bottom:8px;">${pvMaskNote(e.view)}</div>
         <div class="fund-grid">
@@ -14443,7 +14517,19 @@ function renderViewLog(ticker){
         </div>
         ${e.watchNext?.length ? `<div style="margin-top:8px;font-size:12.5px;"><b>다음에 확인할 것</b><ul style="margin:2px 0 0;padding-left:18px;line-height:1.7;">${li(e.watchNext)}</ul></div>` : ''}
         <div class="sub" style="margin-top:6px;">신뢰도: ${esc(e.confidence||'-')}</div>
-        ${srcLinks ? `<details style="margin-top:6px;"><summary style="cursor:pointer;font-size:12px;">참고한 출처 보기</summary><ul style="margin:4px 0 0;padding-left:18px;font-size:12px;">${srcLinks}</ul></details>` : ''}
+        ${srcLinks ? `<details style="margin-top:6px;"><summary style="cursor:pointer;font-size:12px;">참고한 출처 보기</summary><ul style="margin:4px 0 0;padding-left:18px;font-size:12px;">${srcLinks}</ul></details>` : ''}`;
+    const headerHtml = `<b>${esc(e.date)} 작성</b>${(idx===0 && !isStale)?' · <span style="color:var(--accent);font-weight:700;">최신</span>':''}${staleBadgeHtml(e.date, idx===0 && !isStale)}`;
+    if(isStale){
+      return `
+      <details class="fund-col" style="margin-top:10px;">
+        <summary class="sub" style="margin-bottom:4px;cursor:pointer;">${headerHtml} · <span class="sub">(오래된 기록 - 접힘, 클릭해서 펼치기)</span></summary>
+        ${bodyHtml}
+      </details>`;
+    }
+    return `
+      <div class="fund-col" style="margin-top:10px;${idx===0?'border-left:3px solid var(--accent);padding-left:10px;':''}">
+        <div class="sub" style="margin-bottom:4px;">${headerHtml}</div>
+        ${bodyHtml}
       </div>`;
   }).join('');
   return `
