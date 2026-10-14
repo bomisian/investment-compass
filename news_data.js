@@ -5970,7 +5970,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "SPY": {
@@ -13655,7 +13655,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 156,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "MSFT": {
@@ -21540,7 +21540,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "GOOGL": {
@@ -29611,7 +29611,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "AMZN": {
@@ -37717,7 +37717,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "META": {
@@ -45759,7 +45759,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "AAPL": {
@@ -53628,7 +53628,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "TSLA": {
@@ -61683,11 +61683,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "ORCL": {
-    "_last_attempt_at": 1791982802.1793907,
+    "_last_attempt_at": 1792004503.98344,
     "nextEarnings": {
       "date": "2026-12-08",
       "hour": "",
@@ -61697,59 +61697,10 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Market Chatter: Oracle Urges Regulators to Speed Up Pipeline Approval for New Mexico Data Center",
+        "headline": "Why Did Oracle Stock Drop Today?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0524a7069707454fb0e8135a70027831ed068132f5f923258c16681fd831d862",
-        "datetime": 1791969297,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Market Chatter: Oracle Urges Regulators to Speed Up Pipeline Approval for New Mexico Data Center",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "ORCL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "ORCL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "ORCL에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791982809.3030603
-        },
-        "headlineKo": "시장의 대화: 오라클, 규제 기관에 뉴멕시코 데이터 센터에 대한 파이프라인 승인 속도를 높일 것을 촉구"
-      },
-      {
-        "headline": "Stocktwits Midweek Energy Check: Oil Rallies, Trump’s Greenland Deal Makes Waves, Oracle Reaffirms Bloom Energy’s Jupiter Ties",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8046ec3fbbfcb13d6c05e9002c164ef95df8acc51fa383f1718a5d2440bcb1a7",
-        "datetime": 1791966994,
+        "url": "https://finnhub.io/api/news?id=315655de51559b89f169e732b84480f539f338be94daa60936e58b2a1d3e0b68",
+        "datetime": 1791989467,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
@@ -61761,13 +61712,13 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "USO, BP, BE의 초점 주중: 석유 랠리, 트럼프의 그린란드 거래가 큰 파도를 일으키고 블룸 에너지가 목성의 게임에 머물다 AI 에이전트 동향 뉴스 수익 전체 DIA 0.27% SPY 0.31% QQQ 0.62% 추세 SPY 0.31% DJT 0.77% QQQ 0.62% BAC 6.69% SKYD 18.0",
-            "Stocktwits 주중 에너지 점검: 석유 랠리, 트럼프의 그린란드 거래가 파동을 일으키고 오라클은 Bloom Energy의 Jupiter Ties를 재확인합니다. 예멘의 이란 동맹국인 후티 반군이 화요일 사우디 아라비아를 공격한 후 유가가 급등했습니다.",
-            "지난 1년 동안 BATL은 253%, EONR은 111%, USO는 105% 상승했습니다."
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Oracle( ORCL -9.32% ) 주가는 오전 10시 10분까지 불행하게도 7% 하락했습니다.",
+            "오늘 아침(ET) -- 이상한 점은 다음과 같습니다. Mizuho 분석가 Siti Panigrahi가 주식에 대한 \"우수한 성과\" 평가를 반복하고 여전히 오라클 주식의 가치가 320달러라고 생각한다고 확인한 직후에 이런 일이 발생했습니다.",
+            "하지만 오늘 주식 가격은 133달러에 불과합니다!"
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.27%, 0.31%, 0.62% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: $320., $133, $165 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "ORCL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -61791,111 +61742,157 @@ const NEWS_DATA = {
           "relevance": 0.5,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.27%",
-            "0.31%",
-            "0.62%",
-            "0.77%",
-            "6.69%",
-            "18.02%",
-            "3.01%",
-            "7.38%"
+            "$320.",
+            "$133",
+            "$165 billion",
+            "9.32 %",
+            "$ 129.85",
+            "$433",
+            "$ 129.83",
+            "$ 141.05"
           ],
           "sourceExcerpt": [
-            "USO, BP, BE In Focus Midweek: Oil Rallies, Trump’s Greenland Deal Makes Waves, Bloom Energy Stays In Jupiter’s Game AI Agent Trending News Earnings All DIA 0.27% SPY 0.31% QQQ 0.62% Trending SPY 0.31% DJT 0.77% QQQ 0.62% BAC 6.69% SKYD 18.0",
-            "Stocktwits Midweek Energy Check: Oil Rallies, Trump’s Greenland Deal Makes Waves, Oracle Reaffirms Bloom Energy’s Jupiter Ties Oil prices surged after Yemen's Iran-allied Houthis attacked Saudi Arabia on Tuesday.",
-            "Over the past year, BATL surged 253%, EONR climbed 111%, and USO advanced 105%."
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Oracle ( ORCL -9.32% ) stock tumbled an unlucky 7% through 10:10 a.m.",
+            "ET this morning -- and here's the weird thing: It did this right after Mizuho analyst Siti Panigrahi reiterated his \"outperform\" rating on the stock and confirmed he still thinks Oracle shares are worth $320.",
+            "But the stock only costs $133 today!"
           ],
-          "analysisUpdatedAt": 1791982814.7349377
+          "analysisUpdatedAt": 1792004511.1002753
         },
-        "headlineKo": "Stocktwits 주중 에너지 확인: 석유 랠리, 트럼프의 그린란드 거래가 파동을 일으키고 오라클은 Bloom Energy의 목성 관계를 재확인합니다."
+        "headlineKo": "오늘 Oracle 주식이 하락한 이유는 무엇입니까?"
       },
       {
-        "headline": "Life Science Analytics Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on 15.6% CAGR as Oracle, SAS, IBM, IQVIA, and Microsoft Accelerate AI Adoption",
+        "headline": "CoreWeave Falls 10% as Bond Yield Touches 15% and Elon Musk Says ‘Yikes’; Nebius Drops 6%, Oracle Slips",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=cec419f962eb402361684ccae78a2335aaf1c62b3396e0445add85b7c3673535",
-        "datetime": 1791965280,
+        "url": "https://finnhub.io/api/news?id=0662c412d01a130a511c64c1d4d47419d86e5d62afced52a0af376d36c795860",
+        "datetime": 1791984820,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "medium",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
           "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+            "채권수익률이 15%에 도달하고 Elon Musk가 '예'라고 말하면서 CoreWeave는 10% 하락합니다. Nebius 하락 6%, Oracle 전표 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,716.10 −1.28% Dow Jones 51,493.00 −0.43% Nasdaq 100 29,967.50 −2.04% Russell 2000 2,725.10 −2.25% S&P 500 7,716.10 −1.28% 다우존스 51,493.00 −0.43% 나스닥 100 29,967.50 −2.04% 러셀 2000 2,725.10 −2.",
+            "작성자 David Moadel 2026년 10월 14일 오전 9시 33분(ET) 게시 · 3분 읽기 Market Movers 데스크."
           ],
           "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 10%, 15%, 6% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "ORCL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
               "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
             }
           ],
           "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
           ],
-          "interpretation": "이 기사는 ORCL의 사업과 관련된 'Life Science Analytics Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on 15.6% CAGR as Oracle, SAS, IBM, IQVIA, and Microsoft Accelerate AI Adoption' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: ORCL에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "interpretation": "ORCL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 비용·CAPEX·영업현금흐름·FCF·부채에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.5,
-          "quality": "high",
+          "quality": "medium",
+          "verifiedNumbers": [
+            "10%",
+            "15%",
+            "6%",
+            "$70.37",
+            "$194.79,",
+            "$139.69,",
+            "2%",
+            "0.7%"
+          ],
+          "sourceExcerpt": [
+            "CoreWeave Falls 10% as Bond Yield Touches 15% and Elon Musk Says 'Yikes'; Nebius Drops 6%, Oracle Slips - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,716.10 −1.28% Dow Jones 51,493.00 −0.43% Nasdaq 100 29,967.50 −2.04% Russell 2000 2,725.10 −2.25% S&P 500 7,716.10 −1.28% Dow Jones 51,493.00 −0.43% Nasdaq 100 29,967.50 −2.04% Russell 2000 2,725.10 −2.",
+            "By David Moadel Published October 14, 2026, 9:33am ET · 3 min read Market Movers desk."
+          ],
+          "analysisUpdatedAt": 1792004515.8788445
+        },
+        "headlineKo": "채권수익률이 15%에 도달하고 Elon Musk가 '좋아요'라고 말하면서 CoreWeave는 10% 하락합니다. Nebius 하락 6%, Oracle 전표"
+      },
+      {
+        "headline": "Will Rising Capex Weigh on Oracle's Free Cash Flow Outlook?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=55971594ebeb06ab61b7837997042cf22b47d76fb6e77534dc2f8a82c5ff1325",
+        "datetime": 1791982920,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Will Rising Capex Weigh on Oracle's Free Cash Flow Outlook?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ORCL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ORCL의 사업과 관련된 'Will Rising Capex Weigh on Oracle's Free Cash Flow Outlook?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 비용·CAPEX·영업현금흐름·FCF·부채 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ORCL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791982825.425404
+          "analysisUpdatedAt": 1792004517.7900722
         },
-        "headlineKo": "생명 과학 분석 시장 보고서 2026: 규모, 점유율, 추세 및 2030년 예측 | Oracle, SAS, IBM, IQVIA 및 Microsoft의 AI 채택 가속화로 CAGR 15.6% 활용"
+        "headlineKo": "Capex 증가가 Oracle의 무료 현금 흐름 전망에 영향을 미칠까요?"
       },
       {
-        "headline": "Global Life Sciences IT Market Opportunities and Strategies to 2035 | Capitalize on AI, Cloud and Bioinformatics as IQVIA, Oracle, Accenture, Veeva Systems and SAP Target $82.24B",
+        "headline": "Oracle NetSuite Announces Launch of AI-first QuickStart: NYSE Content Update",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9d79011d64ae75f8d74792303af5b82ab690e3d932fa4b6aa1212583b69575d5",
-        "datetime": 1791964860,
+        "url": "https://finnhub.io/api/news?id=e5a00e7955925b846376508c2540cfda1c0f5316ebf6c2e14667a9f4ddfc09ef",
+        "datetime": 1791982500,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "2035년까지 글로벌 생명과학 IT 시장 기회 및 전략 | IQVIA, Oracle, Accenture, Veeva Systems 및 SAP 목표로 AI, 클라우드 및 생물정보학 활용 $822.4B"
+        "headlineKo": "Oracle NetSuite, AI 우선 QuickStart 출시 발표: NYSE 콘텐츠 업데이트"
       },
       {
-        "headline": "BE Stock Rises Overnight After Oracle Reaffirms Project Jupiter Role: Analyst Hikes Price Target On Gaining Market Acceptance Ahead Of Q3 Results",
+        "headline": "Is Trending Stock Oracle Corporation (ORCL) a Buy Now?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ae43e75283eba241a931ca465dd2b570812beb8494c86ab988c10c69199a8104",
-        "datetime": 1791943131,
-        "relevance": 0.5,
+        "url": "https://finnhub.io/api/news?id=d6949ff595b81f29d53a74441c1df261ae32fa03fd5ac6c8e025b9e270d39aec",
+        "datetime": 1791979206,
+        "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "오라클이 프로젝트 주피터 역할을 재확인한 후 밤새 주가가 상승: 애널리스트가 3분기 실적을 앞두고 시장 수용도를 높이기 위해 가격 목표치를 높임"
+        "headlineKo": "추세 주식 Oracle Corporation(ORCL)은 지금 구매할 수 있습니까?"
       },
       {
         "headline": "Oracle (ORCL) Health Data Breach Exposes Nearly 20 Million People",
@@ -62082,6 +62079,199 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Why Did Oracle Stock Drop Today?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=315655de51559b89f169e732b84480f539f338be94daa60936e58b2a1d3e0b68",
+        "datetime": 1791989467,
+        "headlineKo": "오늘 Oracle 주식이 하락한 이유는 무엇입니까?",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Oracle( ORCL -9.32% ) 주가는 오전 10시 10분까지 불행하게도 7% 하락했습니다.",
+            "오늘 아침(ET) -- 이상한 점은 다음과 같습니다. Mizuho 분석가 Siti Panigrahi가 주식에 대한 \"우수한 성과\" 평가를 반복하고 여전히 오라클 주식의 가치가 320달러라고 생각한다고 확인한 직후에 이런 일이 발생했습니다.",
+            "하지만 오늘 주식 가격은 133달러에 불과합니다!"
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $320., $133, $165 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "ORCL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "ORCL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "ORCL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$320.",
+            "$133",
+            "$165 billion",
+            "9.32 %",
+            "$ 129.85",
+            "$433",
+            "$ 129.83",
+            "$ 141.05"
+          ],
+          "sourceExcerpt": [
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Oracle ( ORCL -9.32% ) stock tumbled an unlucky 7% through 10:10 a.m.",
+            "ET this morning -- and here's the weird thing: It did this right after Mizuho analyst Siti Panigrahi reiterated his \"outperform\" rating on the stock and confirmed he still thinks Oracle shares are worth $320.",
+            "But the stock only costs $133 today!"
+          ],
+          "analysisUpdatedAt": 1792004511.1002753
+        }
+      },
+      {
+        "headline": "CoreWeave Falls 10% as Bond Yield Touches 15% and Elon Musk Says ‘Yikes’; Nebius Drops 6%, Oracle Slips",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0662c412d01a130a511c64c1d4d47419d86e5d62afced52a0af376d36c795860",
+        "datetime": 1791984820,
+        "headlineKo": "채권수익률이 15%에 도달하고 Elon Musk가 '좋아요'라고 말하면서 CoreWeave는 10% 하락합니다. Nebius 하락 6%, Oracle 전표",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "채권수익률이 15%에 도달하고 Elon Musk가 '예'라고 말하면서 CoreWeave는 10% 하락합니다. Nebius 하락 6%, Oracle 전표 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,716.10 −1.28% Dow Jones 51,493.00 −0.43% Nasdaq 100 29,967.50 −2.04% Russell 2000 2,725.10 −2.25% S&P 500 7,716.10 −1.28% 다우존스 51,493.00 −0.43% 나스닥 100 29,967.50 −2.04% 러셀 2000 2,725.10 −2.",
+            "작성자 David Moadel 2026년 10월 14일 오전 9시 33분(ET) 게시 · 3분 읽기 Market Movers 데스크."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 10%, 15%, 6% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "ORCL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "ORCL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "ORCL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 비용·CAPEX·영업현금흐름·FCF·부채에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "10%",
+            "15%",
+            "6%",
+            "$70.37",
+            "$194.79,",
+            "$139.69,",
+            "2%",
+            "0.7%"
+          ],
+          "sourceExcerpt": [
+            "CoreWeave Falls 10% as Bond Yield Touches 15% and Elon Musk Says 'Yikes'; Nebius Drops 6%, Oracle Slips - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,716.10 −1.28% Dow Jones 51,493.00 −0.43% Nasdaq 100 29,967.50 −2.04% Russell 2000 2,725.10 −2.25% S&P 500 7,716.10 −1.28% Dow Jones 51,493.00 −0.43% Nasdaq 100 29,967.50 −2.04% Russell 2000 2,725.10 −2.",
+            "By David Moadel Published October 14, 2026, 9:33am ET · 3 min read Market Movers desk."
+          ],
+          "analysisUpdatedAt": 1792004515.8788445
+        }
+      },
+      {
+        "headline": "Will Rising Capex Weigh on Oracle's Free Cash Flow Outlook?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=55971594ebeb06ab61b7837997042cf22b47d76fb6e77534dc2f8a82c5ff1325",
+        "datetime": 1791982920,
+        "headlineKo": "Capex 증가가 Oracle의 무료 현금 흐름 전망에 영향을 미칠까요?",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Will Rising Capex Weigh on Oracle's Free Cash Flow Outlook?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ORCL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ORCL의 사업과 관련된 'Will Rising Capex Weigh on Oracle's Free Cash Flow Outlook?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 비용·CAPEX·영업현금흐름·FCF·부채 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ORCL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792004517.7900722
+        }
+      },
+      {
+        "headline": "Oracle NetSuite Announces Launch of AI-first QuickStart: NYSE Content Update",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e5a00e7955925b846376508c2540cfda1c0f5316ebf6c2e14667a9f4ddfc09ef",
+        "datetime": 1791982500,
+        "headlineKo": "Oracle NetSuite, AI 우선 QuickStart 출시 발표: NYSE 콘텐츠 업데이트",
+        "relevance": 0.5,
+        "keywordFlag": false
+      },
+      {
+        "headline": "Is Trending Stock Oracle Corporation (ORCL) a Buy Now?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d6949ff595b81f29d53a74441c1df261ae32fa03fd5ac6c8e025b9e270d39aec",
+        "datetime": 1791979206,
+        "headlineKo": "추세 주식 Oracle Corporation(ORCL)은 지금 구매할 수 있습니까?",
+        "relevance": 1,
+        "keywordFlag": false
+      },
       {
         "headline": "Market Chatter: Oracle Urges Regulators to Speed Up Pipeline Approval for New Mexico Data Center",
         "source": "Yahoo",
@@ -69955,182 +70145,17 @@ const NEWS_DATA = {
         "headlineKo": "Oracle, Qualcomm, Meta, Everpure, BlackBerry, MGM, Nebius 및 오늘날 시장을 설명하는 기타 주식",
         "relevance": 0.5,
         "keywordFlag": false
-      },
-      {
-        "headline": "Why Oracle's force majeure notice is freaking out AI bulls",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=426e226c6c77bc312ef0a7cd58b7481ea0cfb4f46e5c703c13943168c22a25fe",
-        "datetime": 1790269384,
-        "headlineKo": "오라클의 불가항력 통지가 AI 황소를 놀라게하는 이유",
-        "relevance": 0.5,
-        "keywordFlag": false
-      },
-      {
-        "headline": "Oracle just declared a very unusual force majeure at its AI data center",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d6c72855588646c7122de4aaef42c1665ecf7edab004813a7e90da070edec17c",
-        "datetime": 1790258157,
-        "headlineKo": "오라클은 방금 AI 데이터 센터에서 매우 특이한 불가항력을 선언했습니다.",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Oracle just declared a very unusual force majeure at its AI data center",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "ORCL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 ORCL의 사업과 관련된 'Oracle just declared a very unusual force majeure at its AI data center' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "ORCL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790262092.0682745
-        }
-      },
-      {
-        "headline": "Market Chatter: Oracle Cites Force Majeure as New Mexico Data Center Faces Delays",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d9a4aebfbeac89a48d6808bd67dba870505a37dc0c43c6b14c83b48b0ce01d93",
-        "datetime": 1790257308,
-        "headlineKo": "시장의 대화: 오라클은 뉴멕시코 데이터 센터의 지연으로 인해 불가항력을 언급했습니다.",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Market Chatter: Oracle Cites Force Majeure as New Mexico Data Center Faces Delays",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "ORCL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 ORCL의 사업과 관련된 'Market Chatter: Oracle Cites Force Majeure as New Mexico Data Center Faces Delays' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "ORCL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790262094.207867
-        }
-      },
-      {
-        "headline": "Oracle stock drops as the company moves to shield itself from controversial data center costs",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=cda8a4d1b4cfe60ee9de30196937c1aa8b117c3f9cd05dd8a5bf807b89fd8e67",
-        "datetime": 1790256831,
-        "headlineKo": "논란의 여지가 있는 데이터 센터 비용으로부터 회사를 보호하기 위해 노력하면서 Oracle 주식은 하락합니다.",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "실적·재무 부담 확인 필요",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Oracle stock drops as the company moves to shield itself from controversial data center costs",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "ORCL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 ORCL의 사업과 관련된 'Oracle stock drops as the company moves to shield itself from controversial data center costs' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "ORCL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790262096.3879192
-        }
-      },
-      {
-        "headline": "Oracle Drops 6% as Selloff Runs Ahead of the Cloud Group; Snowflake Slips, CoreWeave Barely Budges",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=bd1541ab58c9d707c22400b2a6c002692e03cb8734f7f10eb254cbabd641252e",
-        "datetime": 1790256807,
-        "headlineKo": "오라클은 Selloff가 클라우드 그룹보다 앞서면서 6% 하락했습니다. 눈송이 미끄러짐, CoreWeave 거의 움직이지 않음",
-        "relevance": 0.5,
-        "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791982802.1793907,
-    "_updated_label": "2026-10-14 22:00",
-    "_last_success_at": 1791982802.1793907,
+    "_fetched_at": 1792004503.98344,
+    "_updated_label": "2026-10-15 04:02",
+    "_last_success_at": 1792004503.98344,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "CRM": {
@@ -77584,7 +77609,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 163,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "PLTR": {
@@ -86638,7 +86663,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "NVDA": {
@@ -94566,7 +94591,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "AMD": {
@@ -102752,7 +102777,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "AVGO": {
@@ -111730,11 +111755,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "QCOM": {
-    "_last_attempt_at": 1791982802.1793907,
+    "_last_attempt_at": 1792004503.98344,
     "nextEarnings": {
       "date": "2026-11-04",
       "hour": "amc",
@@ -111744,6 +111769,170 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
+        "headline": "How Qualcomm’s Legal Win Over Arm Could Reshape the Long-Term Thesis for QCOM Investors",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8c5726d2abcd5f675441efc052e0c9c078000edbf7bbe311e6bb0ca40e3fe037",
+        "datetime": 1791998059,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "How Qualcomm’s Legal Win Over Arm Could Reshape the Long-Term Thesis for QCOM Investors",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QCOM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QCOM의 사업과 관련된 'How Qualcomm’s Legal Win Over Arm Could Reshape the Long-Term Thesis for QCOM Investors' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QCOM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792004524.896478
+        },
+        "headlineKo": "Qualcomm의 Arm에 대한 법적 승리가 QCOM 투자자를 위한 장기 논제를 재구성할 수 있는 방법"
+      },
+      {
+        "headline": "Qualcomm Vs. Intel: The Market is Refuting Both AI Rebrand Attempts",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4d2b4c06379e3ead5f76623ada846e19b84e347076c89ef1ce3dc79a77342f8b",
+        "datetime": 1791989152,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "장기 공급계약 · 매출 가시성 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "인텔: 시장은 두 가지 AI 브랜드 변경 시도를 모두 반박하고 있습니다 - 연중무휴 월스트리트",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,716.10 −1.28% Dow Jones 51,493.00 −0.43% Nasdaq 100 29,967.50 −2.04% Russell 2000 2,725.10 −2.25% S&P 500 7,716.10 −1.28% 다우존스 51,493.00 −0.43% 나스닥 100 29,967.50 −2.04% 러셀 2000 2,725.10 −2.",
+            "인텔: 시장은 두 가지 AI 브랜드 변경 시도를 모두 반박하고 있습니다. 인텔과 Qualcomm은 모두 새로운 AI 아이덴티티로 수익을 창출했지만 그 이후로 투자자들은 적극적으로 투표해 왔습니다."
+          ],
+          "why": [
+            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $102.81,, $103.79, 8.61% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QCOM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 기간·최소구매 조건",
+            "연도별 매출 인식",
+            "수주잔고·취소 조건"
+          ],
+          "interpretation": "QCOM에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$102.81,",
+            "$103.79",
+            "8.61%",
+            "178.62%",
+            "5.03%",
+            "25.4%",
+            "$16.13 billion",
+            "59%"
+          ],
+          "sourceExcerpt": [
+            "Intel: The Market is Refuting Both AI Rebrand Attempts - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,716.10 −1.28% Dow Jones 51,493.00 −0.43% Nasdaq 100 29,967.50 −2.04% Russell 2000 2,725.10 −2.25% S&P 500 7,716.10 −1.28% Dow Jones 51,493.00 −0.43% Nasdaq 100 29,967.50 −2.04% Russell 2000 2,725.10 −2.",
+            "Intel: The Market is Refuting Both AI Rebrand Attempts Intel and Qualcomm both showed up to earnings with a fresh AI identity, but investors have been voting with their feet ever since."
+          ],
+          "analysisUpdatedAt": 1792004528.4152827
+        },
+        "headlineKo": "퀄컴 대. 인텔: 시장은 두 가지 AI 브랜드 변경 시도를 모두 반박하고 있습니다."
+      },
+      {
+        "headline": "Qualcomm: Navigating The Shift From Handsets To AI",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=8d0fc29882168b85d8a4bb956d7fcd5d76a1a6062a4b5f068a3c8ce234cc1634",
+        "datetime": 1791978300,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Qualcomm: Navigating The Shift From Handsets To AI",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QCOM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QCOM의 사업과 관련된 'Qualcomm: Navigating The Shift From Handsets To AI' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QCOM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792004529.2792282
+        },
+        "headlineKo": "Qualcomm: 휴대폰에서 AI로의 전환 탐색"
+      },
+      {
         "headline": "Qualcomm at $175: The Narrative Shift Sending Capital Out The Door",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=08714d8106490160a7244c7a21ec26acc30f2912cc96dde1e0a366424123e8fa",
@@ -111751,6 +111940,29 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "175달러의 Qualcomm: 자본을 밖으로 내보내는 내러티브 변화"
+      },
+      {
+        "headline": "Qualcomm Bets Big on AI Smartphones With Dual Flagship Chips",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=cbeb8c3707702c6dc030fd63af0903ae1657e5cae3b77d9bf92adbc32f40d6e7",
+        "datetime": 1791962456,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Qualcomm, 듀얼 플래그십 칩을 탑재한 AI 스마트폰에 큰 투자"
+      },
+      {
+        "headline": "ARM-QCOM Lawsuit: Delaware Jury Delivers Verdict In High-Stakes Qualcomm-ARM Licensing Battle",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b765a60ac669b13f5b766ada78eda0df8a5d3502679dae7bd2d2063b6550d33d",
+        "datetime": 1791921589,
+        "headlineKo": "ARM-QCOM 소송: 델라웨어 배심원단, Qualcomm-ARM 라이센스 싸움에서 큰 위험에 대한 판결을 내림",
+        "relevance": 1,
+        "keywordFlag": true,
+        "flagTerms": [
+          "lawsuit"
+        ],
         "analysis": {
           "version": 9,
           "importance": "high",
@@ -111759,13 +111971,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "175달러의 Qualcomm: 자본을 문 밖으로 내보내는 내러티브 변화 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,785.60 −0.39% Dow Jones 51,588.20 −0.25% Nasdaq 100 30,394.00 −0.65% Russell 2000 2,755.70 −1.15% S&P 500 7,785.60 −0.39% 다우존스 51,588.20 −0.25% 나스닥 100 30,394.00 −0.65% 러셀 2000 2,755.70 −1.",
-            "작성자: Alex Sirois 2026년 10월 14일 오전 7시 15분(ET) 게시 · 읽은 시간 3분 𝕏 f ⧉ 이 비주얼은 모바일 기술, AI 처리 및 방대한 데이터 인프라의 상호 연결된 세계를 나타내며 스마트폰에서 Qualcomm의 전략적 진화를 반영합니다."
+            "ARM-QCOM 소송: 델라웨어 배심원단, 높은 지분에 대한 판결 발표 퀄컴-ARM 라이선싱 배틀 AI 에이전트 동향 뉴스 수입 모든 DIA 0.14% 스파이 0.14% QQQ 0.00% 동향 ASML 2.00% MU 0.80% SKHY 3.03% SKYD 18.12% SNDK 2.19% XLV 0.16% BLK 1.6",
+            "ARM-QCOM 소송: Delaware Jury Delaware Delaware Jury Delaware Jury Delaware Jury Delaware Qualcomm-ARM Licensing Battle 델라웨어 연방 배심원은 Arm Holdings가 Qualcomm과의 라이선스 계약을 위반했다고 판결한 반면, Arm은 SEP에 대해 명목상의 손해만 배상합니다.",
+            "ARM의 복제본은 2025년 3월 5일 말레이시아 쿠알라룸푸르에서 말레이시아와 ARM 홀딩스 간의 파트너십을 시작하는 협력 행사 중 전자 칩 보드입니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $175, $176.86., 20% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.14%, 0.00%, 2.00% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -111786,148 +111998,25 @@ const NEWS_DATA = {
           ],
           "interpretation": "QCOM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
           "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
+          "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "$175",
-            "$176.86.",
-            "20%",
-            "$5.09",
-            "61%",
-            "$1.59",
-            "$2.21",
-            "$2.22"
+            "0.14%",
+            "0.00%",
+            "2.00%",
+            "0.80%",
+            "3.03%",
+            "18.12%",
+            "2.19%",
+            "0.16%"
           ],
           "sourceExcerpt": [
-            "Qualcomm at $175: The Narrative Shift Sending Capital Out The Door - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,785.60 −0.39% Dow Jones 51,588.20 −0.25% Nasdaq 100 30,394.00 −0.65% Russell 2000 2,755.70 −1.15% S&P 500 7,785.60 −0.39% Dow Jones 51,588.20 −0.25% Nasdaq 100 30,394.00 −0.65% Russell 2000 2,755.70 −1.",
-            "By Alex Sirois Published October 14, 2026, 7:15am ET · 3 min read 𝕏 f ⧉ This visual represents the interconnected world of mobile technology, AI processing, and vast data infrastructure, mirroring Qualcomm's strategic evolution from smartph"
+            "ARM-QCOM Lawsuit: Delaware Jury Delivers Verdict In High-Stakes Qualcomm-ARM Licensing Battle AI Agent Trending News Earnings All DIA 0.14% SPY 0.14% QQQ 0.00% Trending ASML 2.00% MU 0.80% SKHY 3.03% SKYD 18.12% SNDK 2.19% XLV 0.16% BLK 1.6",
+            "ARM-QCOM Lawsuit: Delaware Jury Delivers Verdict In High-Stakes Qualcomm-ARM Licensing Battle A Delaware federal jury has ruled that Arm Holdings breached its licensing agreement with Qualcomm, while awarding Arm only nominal damages on sep",
+            "The replica of the ARM is an electronic chip board during a collaborative ceremony launching a partnership between Malaysia and ARM Holdings in Kuala Lumpur, Malaysia, on March 5, 2025."
           ],
-          "analysisUpdatedAt": 1791982841.1075523
-        },
-        "headlineKo": "175달러의 Qualcomm: 자본을 밖으로 내보내는 내러티브 변화"
-      },
-      {
-        "headline": "S&P 500 Ends Flat, While Nasdaq Drops As Memory Chipmakers Sell Off — BAC, GME, SPCX, ARM, QCOM In Focus",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5d6edb6ecf8f4760b464c9e61f730e98cd31de36863aae06204b9f51238a86ae",
-        "datetime": 1791934635,
-        "relevance": 0.75,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "실적·재무 부담 확인 필요",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "S&P 500 Ends Flat, While Nasdaq Drops As Memory Chipmakers Sell Off — BAC, GME, SPCX, ARM, QCOM In Focus",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "QCOM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 QCOM의 사업과 관련된 'S&P 500 Ends Flat, While Nasdaq Drops As Memory Chipmakers Sell Off — BAC, GME, SPCX, ARM, QCOM In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "QCOM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.75,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791982842.2071269
-        },
-        "headlineKo": "S&P 500 엔드 플랫, 나스닥 메모리 칩 제조사가 매각됨에 따라 하락 — BAC, GME, SPCX, ARM, QCOM In Focus"
-      },
-      {
-        "headline": "Qualcomm (QCOM) Rises As Market Takes a Dip: Key Facts",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9225412c4ff44eb6c132ef3c1a36c90807213fcf0056dec64647305c40fe6df3",
-        "datetime": 1791924304,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Qualcomm (QCOM) Rises As Market Takes a Dip: Key Facts",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "QCOM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 QCOM의 사업과 관련된 'Qualcomm (QCOM) Rises As Market Takes a Dip: Key Facts' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "QCOM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791982847.4028883
-        },
-        "headlineKo": "시장이 하락함에 따라 Qualcomm(QCOM)의 상승: 주요 사실"
-      },
-      {
-        "headline": "ARM-QCOM Lawsuit: Delaware Jury Delivers Verdict In High-Stakes Qualcomm-ARM Licensing Battle",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b765a60ac669b13f5b766ada78eda0df8a5d3502679dae7bd2d2063b6550d33d",
-        "datetime": 1791921589,
-        "relevance": 1,
-        "keywordFlag": true,
-        "flagTerms": [
-          "lawsuit"
-        ],
-        "headlineKo": "ARM-QCOM 소송: 델라웨어 배심원단, Qualcomm-ARM 라이센스 싸움에서 큰 위험에 대한 판결을 내림"
-      },
-      {
-        "headline": "Is Qualcomm (QCOM) a Good or Bad Investment at Today’s Price?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9207e77e1a8a7f1e459471e50a45a6897ef82f4915b2ff1c0cb47a26b66e60cd",
-        "datetime": 1791915587,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Qualcomm(QCOM)은 현재 가격으로 좋은 투자인가요 아니면 나쁜 투자인가요?"
+          "analysisUpdatedAt": 1791958674.7127163
+        }
       },
       {
         "headline": "Qualcomm and Arm Trial Ends in Hung Jury Over Licensing Breach Allegations",
@@ -111998,6 +112087,167 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "How Qualcomm’s Legal Win Over Arm Could Reshape the Long-Term Thesis for QCOM Investors",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8c5726d2abcd5f675441efc052e0c9c078000edbf7bbe311e6bb0ca40e3fe037",
+        "datetime": 1791998059,
+        "headlineKo": "Qualcomm의 Arm에 대한 법적 승리가 QCOM 투자자를 위한 장기 논제를 재구성할 수 있는 방법",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "How Qualcomm’s Legal Win Over Arm Could Reshape the Long-Term Thesis for QCOM Investors",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QCOM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QCOM의 사업과 관련된 'How Qualcomm’s Legal Win Over Arm Could Reshape the Long-Term Thesis for QCOM Investors' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QCOM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792004524.896478
+        }
+      },
+      {
+        "headline": "Qualcomm Vs. Intel: The Market is Refuting Both AI Rebrand Attempts",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4d2b4c06379e3ead5f76623ada846e19b84e347076c89ef1ce3dc79a77342f8b",
+        "datetime": 1791989152,
+        "headlineKo": "퀄컴 대. 인텔: 시장은 두 가지 AI 브랜드 변경 시도를 모두 반박하고 있습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "장기 공급계약 · 매출 가시성 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "인텔: 시장은 두 가지 AI 브랜드 변경 시도를 모두 반박하고 있습니다 - 연중무휴 월스트리트",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,716.10 −1.28% Dow Jones 51,493.00 −0.43% Nasdaq 100 29,967.50 −2.04% Russell 2000 2,725.10 −2.25% S&P 500 7,716.10 −1.28% 다우존스 51,493.00 −0.43% 나스닥 100 29,967.50 −2.04% 러셀 2000 2,725.10 −2.",
+            "인텔: 시장은 두 가지 AI 브랜드 변경 시도를 모두 반박하고 있습니다. 인텔과 Qualcomm은 모두 새로운 AI 아이덴티티로 수익을 창출했지만 그 이후로 투자자들은 적극적으로 투표해 왔습니다."
+          ],
+          "why": [
+            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $102.81,, $103.79, 8.61% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QCOM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 기간·최소구매 조건",
+            "연도별 매출 인식",
+            "수주잔고·취소 조건"
+          ],
+          "interpretation": "QCOM에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$102.81,",
+            "$103.79",
+            "8.61%",
+            "178.62%",
+            "5.03%",
+            "25.4%",
+            "$16.13 billion",
+            "59%"
+          ],
+          "sourceExcerpt": [
+            "Intel: The Market is Refuting Both AI Rebrand Attempts - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,716.10 −1.28% Dow Jones 51,493.00 −0.43% Nasdaq 100 29,967.50 −2.04% Russell 2000 2,725.10 −2.25% S&P 500 7,716.10 −1.28% Dow Jones 51,493.00 −0.43% Nasdaq 100 29,967.50 −2.04% Russell 2000 2,725.10 −2.",
+            "Intel: The Market is Refuting Both AI Rebrand Attempts Intel and Qualcomm both showed up to earnings with a fresh AI identity, but investors have been voting with their feet ever since."
+          ],
+          "analysisUpdatedAt": 1792004528.4152827
+        }
+      },
+      {
+        "headline": "Qualcomm: Navigating The Shift From Handsets To AI",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=8d0fc29882168b85d8a4bb956d7fcd5d76a1a6062a4b5f068a3c8ce234cc1634",
+        "datetime": 1791978300,
+        "headlineKo": "Qualcomm: 휴대폰에서 AI로의 전환 탐색",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Qualcomm: Navigating The Shift From Handsets To AI",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QCOM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QCOM의 사업과 관련된 'Qualcomm: Navigating The Shift From Handsets To AI' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QCOM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792004529.2792282
+        }
+      },
+      {
         "headline": "Qualcomm at $175: The Narrative Shift Sending Capital Out The Door",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=08714d8106490160a7244c7a21ec26acc30f2912cc96dde1e0a366424123e8fa",
@@ -112059,6 +112309,15 @@ const NEWS_DATA = {
           ],
           "analysisUpdatedAt": 1791982841.1075523
         }
+      },
+      {
+        "headline": "Qualcomm Bets Big on AI Smartphones With Dual Flagship Chips",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=cbeb8c3707702c6dc030fd63af0903ae1657e5cae3b77d9bf92adbc32f40d6e7",
+        "datetime": 1791962456,
+        "headlineKo": "Qualcomm, 듀얼 플래그십 칩을 탑재한 AI 스마트폰에 큰 투자",
+        "relevance": 0.5,
+        "keywordFlag": false
       },
       {
         "headline": "S&P 500 Ends Flat, While Nasdaq Drops As Memory Chipmakers Sell Off — BAC, GME, SPCX, ARM, QCOM In Focus",
@@ -119826,15 +120085,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791982802.1793907,
-    "_updated_label": "2026-10-14 22:00",
-    "_last_success_at": 1791982802.1793907,
+    "_fetched_at": 1792004503.98344,
+    "_updated_label": "2026-10-15 04:02",
+    "_last_success_at": 1792004503.98344,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 175,
+      "checked": 180,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "ARM": {
@@ -125572,7 +125831,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 112,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "MRVL": {
@@ -134306,7 +134565,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "INTC": {
@@ -142862,7 +143121,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "TSM": {
@@ -150731,7 +150990,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 171,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "ASML": {
@@ -156563,11 +156822,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 125,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "AMAT": {
-    "_last_attempt_at": 1791982802.1793907,
+    "_last_attempt_at": 1792004503.98344,
     "nextEarnings": {
       "date": "2026-11-12",
       "hour": "amc",
@@ -156577,32 +156836,32 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Applied Materials Cratered in The last 3 Months: One Wall Street Sell Side Firm Predicts it Will Nearly Double Within 12 Months",
+        "headline": "Applied Materials vs. Intel: Which Technology Stock Is a Better Buy in 2026?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a73a9266ad082820e5e03a53d10f4455dd0a3abaaf58f07f34434d76a6857f54",
-        "datetime": 1791976534,
+        "url": "https://finnhub.io/api/news?id=4c0738323fb95688ba56994d007f3ae9fd571c686367e26a31fa56511a91fe29",
+        "datetime": 1791996241,
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "medium",
+          "importance": "high",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
+          "label": "주식 희석 · 주당가치 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "지난 3개월 동안 붕괴된 Applied Materials: 한 월스트리트 판매측 회사는 12개월 내에 거의 두 배로 늘어날 것이라고 예측합니다. - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,785.60 −0.39% Dow Jones 51,588.20 −0.25% Nasdaq 100 30,394.00 −0.65% Russell 2000 2,755.70 −1.15% S&P 500 7,785.60 −0.39% 다우존스 51,588.20 −0.25% 나스닥 100 30,394.00 −0.65% 러셀 2000 2,755.70 −1.",
-            "Applied Materials(NASDAQ:AMAT | AMAT Price Prediction)는 현재 $464.24에 거래되고 있으며 월스트리트의 평균 목표 가격은 $635.33입니다."
+            "인텔: 2026년에는 어느 기술주를 매수하는 것이 더 나은가요?",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 기술 주식을 선택할 때 칩 제조에 필요한 장비 공급업체와 칩 제조업체를 비교 평가할 수 있습니다.",
+            "Applied Materials( AMAT -3.67% )와 Intel( INTC -4.39% ) 중 어느 것을 구매하는 것이 더 낫습니까?"
           ],
           "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $464.24,, $635.33., 36.9% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 3.67%, 4.39%, $447.20 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -156613,107 +156872,39 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
+            "신규 주식 수·행사가격",
+            "조달 자금 사용처",
+            "완전희석 주식수와 EPS"
           ],
-          "interpretation": "AMAT에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "AMAT에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "$464.24,",
-            "$635.33.",
-            "36.9%",
-            "$9.115 billion",
-            "24.8%",
-            "$3.50",
-            "$3.39",
-            "22%"
+            "3.67%",
+            "4.39%",
+            "$447.20",
+            "3.67 %",
+            "$17.04",
+            "$98.30",
+            "4.39 %",
+            "$4.51"
           ],
           "sourceExcerpt": [
-            "Applied Materials Cratered in The last 3 Months: One Wall Street Sell Side Firm Predicts it Will Nearly Double Within 12 Months - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,785.60 −0.39% Dow Jones 51,588.20 −0.25% Nasdaq 100 30,394.00 −0.65% Russell 2000 2,755.70 −1.15% S&P 500 7,785.60 −0.39% Dow Jones 51,588.20 −0.25% Nasdaq 100 30,394.00 −0.65% Russell 2000 2,755.70 −1.",
-            "Applied Materials ( NASDAQ:AMAT | AMAT Price Prediction ) currently trades at $464.24, while Wall Street’s average price target stands at $635.33."
+            "Intel: Which Technology Stock Is a Better Buy in 2026?",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool When choosing a technology stock, you can weigh a chipmaker against a supplier of the equipment chipmaking requires.",
+            "Which is the better buy, Applied Materials ( AMAT -3.67% ) or Intel ( INTC -4.39% ) ?"
           ],
-          "analysisUpdatedAt": 1791982860.226842
+          "analysisUpdatedAt": 1792004537.3090916
         },
-        "headlineKo": "지난 3개월 동안 붕괴된 Applied Materials: 한 월스트리트 판매측 회사는 12개월 내에 거의 두 배로 증가할 것으로 예측합니다."
+        "headlineKo": "어플라이드 머티어리얼즈 vs. 인텔: 2026년에는 어느 기술주를 매수하는 것이 더 나을까요?"
       },
       {
-        "headline": "Applied Materials’ $5 billion AI lab aims to cut chip development time in half—and restore Silicon Valley’s edge",
+        "headline": "Applied Materials' 'Conservative' 2030 Margin Targets Driven by Strong Demand, RBC Says",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6f07fb07fd469f49a83472d538a93b319ed2f6eac5d65bb90dfae21dcf5de2c8",
-        "datetime": 1791933326,
+        "url": "https://finnhub.io/api/news?id=716aa303f534e5e9f59629e2ddfe16a93ea86a42d491ed516accf385c13a13c4",
+        "datetime": 1791991690,
         "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "mixed",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Applied Materials’ $5 billion AI lab aims to cut chip development time in half—and restore Silicon Valley’s edge' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: AMAT에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 다음 실적의 매출·이익·현금흐름 중 실제 숫자로 확인되는 부분을 우선 보세요.",
-          "relevance": 0.67,
-          "quality": "high",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791982862.6743326
-        },
-        "headlineKo": "어플라이드 머티리얼즈의 50억 달러 ($) 규모의 AI 연구소는 칩 개발 시간을 절반으로 단축하고 실리콘 밸리의 에지를 복원하는 것을 목표로 하고 있습니다."
-      },
-      {
-        "headline": "Applied Materials (AMAT) Backs AI Physics Modeling Push For Faster Chip R And D",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=cec5d18ded0279c8197545cb8d2011edd283d482773135f4f44f78f3dab80e19",
-        "datetime": 1791929753,
-        "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
@@ -156724,7 +156915,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Applied Materials (AMAT) Backs AI Physics Modeling Push For Faster Chip R And D",
+            "Applied Materials' 'Conservative' 2030 Margin Targets Driven by Strong Demand, RBC Says",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -156748,38 +156939,258 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Applied Materials (AMAT) Backs AI Physics Modeling Push For Faster Chip R And D' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Applied Materials' 'Conservative' 2030 Margin Targets Driven by Strong Demand, RBC Says' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792004538.977226
+        },
+        "headlineKo": "RBC, 어플라이드 머티어리얼즈의 '보수적인' 2030년 마진 목표는 강력한 수요에 힘입어 밝혔다"
+      },
+      {
+        "headline": "Wall Street Analysts Think Applied Materials (AMAT) Could Surge 39.39%: Read This Before Placing a Bet",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=27d6a786b871da5d10fdbe1333da40c8c5f929cf07b873e7286499592440e155",
+        "datetime": 1791982502,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Wall Street Analysts Think Applied Materials (AMAT) Could Surge 39.39%: Read This Before Placing a Bet",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMAT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Wall Street Analysts Think Applied Materials (AMAT) Could Surge 39.39%: Read This Before Placing a Bet' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791982869.8792768
+          "analysisUpdatedAt": 1792004540.9568114
         },
-        "headlineKo": "Applied Materials(AMAT), 더 빠른 칩 R 및 D를 위해 AI 물리학 모델링 추진 지원"
+        "headlineKo": "월스트리트 분석가들은 AMAT(Applied Materials)가 39.39% 급등할 수 있다고 생각합니다: 베팅하기 전에 이 글을 읽어보세요"
       },
       {
-        "headline": "Applied Materials Targets AI-Led Market Share Gains and Higher Margins by 2030",
+        "headline": "If You Invested $1000 in Applied Materials a Decade Ago, This is How Much It'd Be Worth Now",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c1246bf3a7873188fd4302bf2da7b41333aa81ce4877cf18cd312065be4e63ec",
-        "datetime": 1791928930,
+        "url": "https://finnhub.io/api/news?id=bcfbcafbca977f6ccfbac6ea5b397f8e69d62ccd3733dd1fbdb6b56af4b0b443",
+        "datetime": 1791977402,
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "어플라이드 머티어리얼즈, 2030년까지 AI 주도 시장 점유율 확대 및 마진 증대 목표"
+        "headlineKo": "10년 전에 Applied Materials에 1000달러를 투자했다면 지금의 가치는 이 정도일 것입니다."
       },
       {
-        "headline": "Applied Materials, Inc. (AMAT) Presents at SEMICON West 2026 Transcript",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=974d0eaa8454bd2687b71e47aa39fc8f5f580a5b524f1550aa1842c25dd7ca02",
-        "datetime": 1791925963,
-        "relevance": 1,
+        "headline": "Applied Materials Cratered in The last 3 Months: One Wall Street Sell Side Firm Predicts it Will Nearly Double Within 12 Months",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a73a9266ad082820e5e03a53d10f4455dd0a3abaaf58f07f34434d76a6857f54",
+        "datetime": 1791976534,
+        "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "APPLIED MATERIALS, INC. (AMAT), SEMICON WEST 2026 성적 증명서 발표"
+        "headlineKo": "지난 3개월 동안 붕괴된 Applied Materials: 한 월스트리트 판매측 회사는 12개월 내에 거의 두 배로 증가할 것으로 예측합니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Applied Materials vs. Intel: Which Technology Stock Is a Better Buy in 2026?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4c0738323fb95688ba56994d007f3ae9fd571c686367e26a31fa56511a91fe29",
+        "datetime": 1791996241,
+        "headlineKo": "어플라이드 머티어리얼즈 vs. 인텔: 2026년에는 어느 기술주를 매수하는 것이 더 나을까요?",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "주식 희석 · 주당가치 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "인텔: 2026년에는 어느 기술주를 매수하는 것이 더 나은가요?",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 기술 주식을 선택할 때 칩 제조에 필요한 장비 공급업체와 칩 제조업체를 비교 평가할 수 있습니다.",
+            "Applied Materials( AMAT -3.67% )와 Intel( INTC -4.39% ) 중 어느 것을 구매하는 것이 더 낫습니까?"
+          ],
+          "why": [
+            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 3.67%, 4.39%, $447.20 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMAT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "신규 주식 수·행사가격",
+            "조달 자금 사용처",
+            "완전희석 주식수와 EPS"
+          ],
+          "interpretation": "AMAT에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "3.67%",
+            "4.39%",
+            "$447.20",
+            "3.67 %",
+            "$17.04",
+            "$98.30",
+            "4.39 %",
+            "$4.51"
+          ],
+          "sourceExcerpt": [
+            "Intel: Which Technology Stock Is a Better Buy in 2026?",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool When choosing a technology stock, you can weigh a chipmaker against a supplier of the equipment chipmaking requires.",
+            "Which is the better buy, Applied Materials ( AMAT -3.67% ) or Intel ( INTC -4.39% ) ?"
+          ],
+          "analysisUpdatedAt": 1792004537.3090916
+        }
+      },
+      {
+        "headline": "Applied Materials' 'Conservative' 2030 Margin Targets Driven by Strong Demand, RBC Says",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=716aa303f534e5e9f59629e2ddfe16a93ea86a42d491ed516accf385c13a13c4",
+        "datetime": 1791991690,
+        "headlineKo": "RBC, 어플라이드 머티어리얼즈의 '보수적인' 2030년 마진 목표는 강력한 수요에 힘입어 밝혔다",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Applied Materials' 'Conservative' 2030 Margin Targets Driven by Strong Demand, RBC Says",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMAT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Applied Materials' 'Conservative' 2030 Margin Targets Driven by Strong Demand, RBC Says' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792004538.977226
+        }
+      },
+      {
+        "headline": "Wall Street Analysts Think Applied Materials (AMAT) Could Surge 39.39%: Read This Before Placing a Bet",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=27d6a786b871da5d10fdbe1333da40c8c5f929cf07b873e7286499592440e155",
+        "datetime": 1791982502,
+        "headlineKo": "월스트리트 분석가들은 AMAT(Applied Materials)가 39.39% 급등할 수 있다고 생각합니다: 베팅하기 전에 이 글을 읽어보세요",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Wall Street Analysts Think Applied Materials (AMAT) Could Surge 39.39%: Read This Before Placing a Bet",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMAT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Wall Street Analysts Think Applied Materials (AMAT) Could Surge 39.39%: Read This Before Placing a Bet' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792004540.9568114
+        }
+      },
+      {
+        "headline": "If You Invested $1000 in Applied Materials a Decade Ago, This is How Much It'd Be Worth Now",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=bcfbcafbca977f6ccfbac6ea5b397f8e69d62ccd3733dd1fbdb6b56af4b0b443",
+        "datetime": 1791977402,
+        "headlineKo": "10년 전에 Applied Materials에 1000달러를 투자했다면 지금의 가치는 이 정도일 것입니다.",
+        "relevance": 0.67,
+        "keywordFlag": false
+      },
       {
         "headline": "Applied Materials Cratered in The last 3 Months: One Wall Street Sell Side Firm Predicts it Will Nearly Double Within 12 Months",
         "source": "Yahoo",
@@ -162020,15 +162431,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791982802.1793907,
-    "_updated_label": "2026-10-14 22:01",
-    "_last_success_at": 1791982802.1793907,
+    "_fetched_at": 1792004503.98344,
+    "_updated_label": "2026-10-15 04:02",
+    "_last_success_at": 1792004503.98344,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 113,
+      "checked": 117,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "LRCX": {
@@ -164931,7 +165342,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "KLAC": {
@@ -167875,7 +168286,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "MU": {
@@ -175738,7 +176149,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "SNDK": {
@@ -184549,7 +184960,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "WDC": {
@@ -189730,7 +190141,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 109,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "ANET": {
@@ -193738,7 +194149,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 80,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "COHR": {
@@ -197491,7 +197902,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "LITE": {
@@ -202146,7 +202557,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "GEV": {
@@ -207553,7 +207964,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 108,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "CEG": {
@@ -212530,7 +212941,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 108,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "VST": {
@@ -216180,7 +216591,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "ETN": {
@@ -219604,7 +220015,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "PWR": {
@@ -222820,7 +223231,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "HUBB": {
@@ -223587,7 +223998,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "VRT": {
@@ -227917,7 +228328,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "MOD": {
@@ -229245,7 +229656,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "STX": {
@@ -233860,7 +234271,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "EME": {
@@ -235670,7 +236081,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "FIX": {
@@ -237360,11 +237771,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   },
   "BE": {
-    "_last_attempt_at": 1791982802.1793907,
+    "_last_attempt_at": 1792004503.98344,
     "nextEarnings": {
       "date": "2026-10-22",
       "hour": "amc",
@@ -237418,7 +237829,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791982877.426104
+          "analysisUpdatedAt": 1792004547.899271
         },
         "headlineKo": "Bloom Energy(BE) 주식은 저지 패치 거래 이후 34% 저평가될 수 있습니다."
       },
@@ -237438,13 +237849,13 @@ const NEWS_DATA = {
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "오라클이 프로젝트 Jupiter 역할을 재확인한 후 밤새 BE 주가 상승: 분석가는 3분기 결과에 앞서 시장 수용을 확보하기 위해 목표 가격을 인상합니다. AI 에이전트 동향 뉴스 수익 전체 DIA 0.35% SPY 0.39% QQQ 0.72% 추세 SPY 0.39% DJT 0.77%",
+            "오라클이 프로젝트 Jupiter 역할을 재확인한 후 밤새 BE 주가 상승: 분석가는 3분기 결과에 앞서 시장 수용을 확보하기 위해 목표 가격을 인상합니다. AI 에이전트 동향 뉴스 수익 전체 DIA 0.46% SPY 1.35% QQQ 2.18% 추세 CRWV 15.69% IBRX 0.",
             "오라클이 프로젝트 Jupiter 역할을 재확인한 후 밤새 BE 주가 상승: 분석가는 3분기 결과에 앞서 시장 수용성을 확보하기 위해 목표 가격을 인상합니다. Roth Capital은 Bloom Energy의 목표 가격을 225달러에서 260달러로 인상하여 하락세를 암시했습니다.",
             "스마트폰에 Bloom Energy Corporation 로고가 표시되어 있습니다."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.35%, 0.39%, 0.72% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.46%, 1.35%, 2.18% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "BE의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -237468,21 +237879,21 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.35%",
-            "0.39%",
-            "0.72%",
-            "0.77%",
-            "6.78%",
-            "18.02%",
-            "3.01%",
-            "7.38%"
+            "0.46%",
+            "1.35%",
+            "2.18%",
+            "15.69%",
+            "0.36%",
+            "7.38%",
+            "7.55%",
+            "9.49%"
           ],
           "sourceExcerpt": [
-            "BE Stock Rises Overnight After Oracle Reaffirms Project Jupiter Role: Analyst Hikes Price Target On Gaining Market Acceptance Ahead Of Q3 Results AI Agent Trending News Earnings All DIA 0.35% SPY 0.39% QQQ 0.72% Trending SPY 0.39% DJT 0.77%",
+            "BE Stock Rises Overnight After Oracle Reaffirms Project Jupiter Role: Analyst Hikes Price Target On Gaining Market Acceptance Ahead Of Q3 Results AI Agent Trending News Earnings All DIA 0.46% SPY 1.35% QQQ 2.18% Trending CRWV 15.69% IBRX 0.",
             "BE Stock Rises Overnight After Oracle Reaffirms Project Jupiter Role: Analyst Hikes Price Target On Gaining Market Acceptance Ahead Of Q3 Results Roth Capital hiked the price target on Bloom Energy to $260 from $225, implying a downside pot",
             "A smartphone displays the logo of Bloom Energy Corporation."
           ],
-          "analysisUpdatedAt": 1791982882.7735584
+          "analysisUpdatedAt": 1792004552.1470811
         },
         "headlineKo": "BE 주식은 오라클이 프로젝트 Jupiter 역할을 재확인한 후 밤새 상승: 분석가는 3분기 결과에 앞서 시장 수용을 얻기 위해 가격 목표를 인상합니다."
       },
@@ -237546,7 +237957,7 @@ const NEWS_DATA = {
             "| Trefis What Needs To Be True To Buy Plug Power Stock?",
             "October 13th, 2026 · by Trefis Team PLUG YTD -20.8% SPY YTD +14.7% XLI YTD +9.3% Analyze PLUG → Shares of Plug Power (PLUG) have lost 57% over the past twelve months ."
           ],
-          "analysisUpdatedAt": 1791982886.799526
+          "analysisUpdatedAt": 1792004555.291913
         },
         "headlineKo": "플러그 전원 주식을 구매하려면 무엇이 진실이어야 합니까?"
       },
@@ -237617,7 +238028,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791982877.426104
+          "analysisUpdatedAt": 1792004547.899271
         }
       },
       {
@@ -237636,13 +238047,13 @@ const NEWS_DATA = {
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "오라클이 프로젝트 Jupiter 역할을 재확인한 후 밤새 BE 주가 상승: 분석가는 3분기 결과에 앞서 시장 수용을 확보하기 위해 목표 가격을 인상합니다. AI 에이전트 동향 뉴스 수익 전체 DIA 0.35% SPY 0.39% QQQ 0.72% 추세 SPY 0.39% DJT 0.77%",
+            "오라클이 프로젝트 Jupiter 역할을 재확인한 후 밤새 BE 주가 상승: 분석가는 3분기 결과에 앞서 시장 수용을 확보하기 위해 목표 가격을 인상합니다. AI 에이전트 동향 뉴스 수익 전체 DIA 0.46% SPY 1.35% QQQ 2.18% 추세 CRWV 15.69% IBRX 0.",
             "오라클이 프로젝트 Jupiter 역할을 재확인한 후 밤새 BE 주가 상승: 분석가는 3분기 결과에 앞서 시장 수용성을 확보하기 위해 목표 가격을 인상합니다. Roth Capital은 Bloom Energy의 목표 가격을 225달러에서 260달러로 인상하여 하락세를 암시했습니다.",
             "스마트폰에 Bloom Energy Corporation 로고가 표시되어 있습니다."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.35%, 0.39%, 0.72% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.46%, 1.35%, 2.18% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "BE의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -237666,21 +238077,21 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.35%",
-            "0.39%",
-            "0.72%",
-            "0.77%",
-            "6.78%",
-            "18.02%",
-            "3.01%",
-            "7.38%"
+            "0.46%",
+            "1.35%",
+            "2.18%",
+            "15.69%",
+            "0.36%",
+            "7.38%",
+            "7.55%",
+            "9.49%"
           ],
           "sourceExcerpt": [
-            "BE Stock Rises Overnight After Oracle Reaffirms Project Jupiter Role: Analyst Hikes Price Target On Gaining Market Acceptance Ahead Of Q3 Results AI Agent Trending News Earnings All DIA 0.35% SPY 0.39% QQQ 0.72% Trending SPY 0.39% DJT 0.77%",
+            "BE Stock Rises Overnight After Oracle Reaffirms Project Jupiter Role: Analyst Hikes Price Target On Gaining Market Acceptance Ahead Of Q3 Results AI Agent Trending News Earnings All DIA 0.46% SPY 1.35% QQQ 2.18% Trending CRWV 15.69% IBRX 0.",
             "BE Stock Rises Overnight After Oracle Reaffirms Project Jupiter Role: Analyst Hikes Price Target On Gaining Market Acceptance Ahead Of Q3 Results Roth Capital hiked the price target on Bloom Energy to $260 from $225, implying a downside pot",
             "A smartphone displays the logo of Bloom Energy Corporation."
           ],
-          "analysisUpdatedAt": 1791982882.7735584
+          "analysisUpdatedAt": 1792004552.1470811
         }
       },
       {
@@ -237743,7 +238154,7 @@ const NEWS_DATA = {
             "| Trefis What Needs To Be True To Buy Plug Power Stock?",
             "October 13th, 2026 · by Trefis Team PLUG YTD -20.8% SPY YTD +14.7% XLI YTD +9.3% Analyze PLUG → Shares of Plug Power (PLUG) have lost 57% over the past twelve months ."
           ],
-          "analysisUpdatedAt": 1791982886.799526
+          "analysisUpdatedAt": 1792004555.291913
         }
       },
       {
@@ -239959,15 +240370,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791982802.1793907,
-    "_updated_label": "2026-10-14 22:01",
-    "_last_success_at": 1791982802.1793907,
+    "_fetched_at": 1792004503.98344,
+    "_updated_label": "2026-10-15 04:02",
+    "_last_success_at": 1792004503.98344,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-10-15 03:52"
+      "updated": "2026-10-15 04:02"
     }
   }
 };
