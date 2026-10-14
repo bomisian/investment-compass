@@ -1,6 +1,6 @@
 // build_104_drawdown_type.py 자동 생성 -- 설명용, 예측 신호 아님
 window.DRAWDOWN_TYPE = {
-  "generated": "2026-10-14T21:50:33",
+  "generated": "2026-10-14T22:22:16",
   "consensus_as_of": "2026-10-14",
   "method": "104 -- 현재 워치리스트 '하락 유형' 분류(설명용 표시, 예측 신호 아님). [2026-10-11 재구성판 -- 원본 스크립트 소실 확인 후 method 설명+ORCL 샘플 1건 근거로 재구성, 코드 상단 docstring 참고] forward_90d: 최근 90일 가격 변화 vs NTM EPS 추정치 변화(선행 PER 변화). trailing_since_high: 52주 종가 고점 -> 지금, SEC EDGAR 분기 희석 EPS 합산 TTM 변화. 범주(허용오차 5%p): A 가격만 조정(이익 유지) / B 이익↓·가격 더↓(배수 하락) / C 이익이 가격만큼·더↓(배수 안 낮아짐) / D 적자 / X 자료부족 / N 가격 하락 없음. 네트워크: SEC EDGAR만 사용.",
   "rows": {
