@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1791960902.3318462,
+  "generatedAt": 1791962790.4897206,
   "events": [
     {
       "id": "430b5612b722b3a65358",
@@ -339,7 +339,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Bloom Energy (BE) Stock May Be 34% Undervalued After Jersey Patch Deal",
-      "headlineKo": "",
+      "headlineKo": "Bloom Energy(BE) 주식은 저지 패치 거래 이후 34% 저평가될 수 있습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ef44e9e2b51193b28cda88b7d1660447f30291e0826d1b379397a9525db3ae8b",
@@ -632,7 +632,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Seagate's Improving Earnings Support A Cautious Upside",
-      "headlineKo": "",
+      "headlineKo": "Seagate의 수익 개선은 조심스러운 상승을 뒷받침합니다",
       "source": {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=c7fd830f72c1bf4c8f6bdb556ff32d50bd452b19c817163a9f4ff7462929e099",

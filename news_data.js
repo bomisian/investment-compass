@@ -5893,7 +5893,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 115,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "SPY": {
@@ -13438,7 +13438,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 154,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "MSFT": {
@@ -21343,7 +21343,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "GOOGL": {
@@ -29369,7 +29369,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "AMZN": {
@@ -37571,7 +37571,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "META": {
@@ -45639,7 +45639,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "AAPL": {
@@ -53568,7 +53568,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "TSLA": {
@@ -61676,7 +61676,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "ORCL": {
@@ -70118,7 +70118,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "CRM": {
@@ -77324,7 +77324,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 158,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "PLTR": {
@@ -86156,7 +86156,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "NVDA": {
@@ -94029,7 +94029,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "AMD": {
@@ -102167,7 +102167,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "AVGO": {
@@ -111163,7 +111163,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "QCOM": {
@@ -119232,7 +119232,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 174,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "ARM": {
@@ -124844,7 +124844,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 110,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "MRVL": {
@@ -133675,7 +133675,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "INTC": {
@@ -142221,7 +142221,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "TSM": {
@@ -149868,7 +149868,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 168,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "ASML": {
@@ -155384,7 +155384,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "AMAT": {
@@ -160786,7 +160786,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 112,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "LRCX": {
@@ -163640,7 +163640,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "KLAC": {
@@ -166584,7 +166584,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "MU": {
@@ -174440,7 +174440,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "SNDK": {
@@ -183174,7 +183174,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 184,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "WDC": {
@@ -188243,7 +188243,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 107,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "ANET": {
@@ -192251,7 +192251,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 80,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "COHR": {
@@ -192325,7 +192325,8 @@ const NEWS_DATA = {
             "October 13th, 2026 · by Trefis Team COHR YTD +57.1% SPY YTD +14.7% QQQ YTD +21.3% Analyze COHR → Coherent (COHR) stock returned 135.4% in the twelve months to October 12, 2026, against 17.3% for the S&P 500."
           ],
           "analysisUpdatedAt": 1791958858.725989
-        }
+        },
+        "headlineKo": "Coherent Stock이 실행될 것이라는 징후가 있었습니까?"
       },
       {
         "headline": "Coherent (COHR) Stock Looks About Right Following Sold Out Capacity News",
@@ -195821,7 +195822,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "LITE": {
@@ -200309,7 +200310,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "GEV": {
@@ -205668,7 +205669,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 107,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "CEG": {
@@ -210451,7 +210452,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "VST": {
@@ -214068,7 +214069,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "ETN": {
@@ -217358,7 +217359,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "PWR": {
@@ -220527,7 +220528,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "HUBB": {
@@ -221294,7 +221295,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "VRT": {
@@ -225467,7 +225468,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "MOD": {
@@ -226795,7 +226796,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "STX": {
@@ -226865,7 +226866,8 @@ const NEWS_DATA = {
             "The company delivered strong financials: FY2026 sales up 34% to $12.2B, adjusted operating margins at 36.5%, and free cash flow 3.8x prior year, supporting a Buy rating."
           ],
           "analysisUpdatedAt": 1791958979.5838313
-        }
+        },
+        "headlineKo": "Seagate의 수익 개선은 조심스러운 상승을 뒷받침합니다"
       },
       {
         "headline": "Seagate Technology to Report Fiscal First Quarter 2027 Financial Results on October 27, 2026",
@@ -231430,7 +231432,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "EME": {
@@ -233240,7 +233242,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "FIX": {
@@ -234930,7 +234932,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   },
   "BE": {
@@ -234989,7 +234991,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1791959006.7423184
-        }
+        },
+        "headlineKo": "Bloom Energy(BE) 주식은 저지 패치 거래 이후 34% 저평가될 수 있습니다."
       },
       {
         "headline": "BE Stock Rises Overnight After Oracle Reaffirms Project Jupiter Role: Analyst Hikes Price Target On Gaining Market Acceptance Ahead Of Q3 Results",
@@ -235052,7 +235055,8 @@ const NEWS_DATA = {
             "A smartphone displays the logo of Bloom Energy Corporation."
           ],
           "analysisUpdatedAt": 1791959011.70582
-        }
+        },
+        "headlineKo": "BE 주식은 오라클이 프로젝트 Jupiter 역할을 재확인한 후 밤새 상승: 분석가는 3분기 결과에 앞서 시장 수용을 얻기 위해 가격 목표를 인상합니다."
       },
       {
         "headline": "What Needs To Be True To Buy Plug Power Stock?",
@@ -237533,7 +237537,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-10-14 15:23"
+      "updated": "2026-10-14 16:26"
     }
   }
 };
