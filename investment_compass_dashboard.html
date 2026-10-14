@@ -6483,14 +6483,107 @@ const PV_COLOR = {
 //     데이터가 있다는 게 51748 조사로 확인된 NEWS_DATA[t].nextEarnings를 그대로 쓴다
 //     (데이터 공백이 아니라 안 쓰고 있었을 뿐 -- 사용자가 지적한 "데이터 공백이 많다"를
 //     코드 수정 없이 기존 데이터 연결만으로 줄이는 사례). ---
+// WO2-05(수정지시서#02, WO-07 재개) -- "합의 구간"(consensus zone): 서로 다른 소스로 구한
+// 가격 구간(과거 PER 밴드 보수~기준, 200일선~52주 고점x0.85 나침반 구간, 동종업계
+// 시장기준가 밴드, 옵션 IV 주간 ±1시그마)의 교집합만 "여러 방법이 동시에 가리키는 구간"으로
+// 보여준다. 근거가 2개 미만이면 계산하지 않고(지어내지 않음), 교집합이 비면 그 사실을
+// 그대로 보여준다(허위로 좁은 숫자를 만들지 않음). 숫자를 지우지 않고 기존 단일 소스
+// 구간(bandTable) 위에 추가로 쌓는 형태 -- 문서 8-3 원칙과 동일.
+function pvConsensusZone(d, r, num){
+  const segs = [];
+
+  if(d.bandEligible && !d.distorted && !d.priceAlert && d.bandTable){
+    const bt = d.bandTable;
+    if(num(bt.conservative.price) && num(bt.base.price) && bt.conservative.price > 0 && bt.base.price > 0){
+      segs.push({name: '밸류 구간(보수~기준)', low: Math.min(bt.conservative.price, bt.base.price), high: Math.max(bt.conservative.price, bt.base.price)});
+    }
+  }
+
+  if(num(r.ma200Pct) && num(r.drawdownPct) && num(r.price) && r.price > 0){
+    const ma200 = r.price / (1 + r.ma200Pct / 100);
+    const high52 = r.price / (1 + r.drawdownPct / 100);
+    if(ma200 > 0 && high52 > 0){
+      const a = ma200, b = high52 * 0.85;
+      segs.push({name: '나침반 구간(200일선~52주 고점x0.85)', low: Math.min(a, b), high: Math.max(a, b)});
+    }
+  }
+
+  const bpr = (typeof basePriceRow === 'function') ? basePriceRow(r.ticker) : null;
+  if(bpr && bpr.status === 'ok' && typeof marketFairBandOk === 'function' && marketFairBandOk(bpr.band)){
+    segs.push({name: '동종업계 시장기준가 밴드', low: bpr.band[0], high: bpr.band[2]});
+  }
+
+  const sg = (typeof SIGMA_DATA !== 'undefined') ? SIGMA_DATA[r.ticker] : null;
+  if(sg && num(sg.lower1Sigma) && num(sg.upper1Sigma) && sg.lower1Sigma > 0 && sg.upper1Sigma > sg.lower1Sigma){
+    segs.push({name: '옵션 IV 주간 ±1시그마', low: sg.lower1Sigma, high: sg.upper1Sigma});
+  }
+
+  if(segs.length < 2){
+    return {ok: false, segs, reason: `근거 부족(확인된 소스 ${segs.length}개 — 2개 이상 필요) → 합의 구간 계산 안 함`};
+  }
+
+  const lo = Math.max(...segs.map(s => s.low));
+  const hi = Math.min(...segs.map(s => s.high));
+  if(!(hi > lo)){
+    const detail = segs.map(s => `${s.name} $${s.low.toFixed(2)}~$${s.high.toFixed(2)}`).join(' · ');
+    return {ok: false, segs, reason: `근거 불일치 — 서로 겹치는 구간 없음(${detail}) → 진입 보류`};
+  }
+
+  const mid = (lo + hi) / 2;
+  let fLo = lo, fHi = hi;
+  const widthPct = mid > 0 ? (hi - lo) / mid * 100 : 0;
+  if(widthPct < 3){ fLo = mid * 0.985; fHi = mid * 1.015; }
+  else if(widthPct > 15){ fLo = mid * 0.925; fHi = mid * 1.075; }
+
+  const tier1 = fHi, tier2 = (fLo + fHi) / 2, tier3 = fLo;
+
+  let stopLine = null, stopTriggered = false;
+  if(r.series && Array.isArray(r.series.closes) && r.series.techSeries && Array.isArray(r.series.techSeries.ma200)){
+    const closes = r.series.closes, ma200arr = r.series.techSeries.ma200;
+    const n = closes.length;
+    if(n >= 2 && num(ma200arr[n-1]) && num(ma200arr[n-2]) && num(closes[n-1]) && num(closes[n-2])){
+      stopLine = ma200arr[n-1];
+      stopTriggered = (closes[n-1] < ma200arr[n-1]) && (closes[n-2] < ma200arr[n-2]);
+    }
+  }
+
+  const invalidParts = [];
+  const em = (typeof estMomentum === 'function') ? estMomentum(r.ticker) : null;
+  if(em && num(em.ntm_change_30d) && em.ntm_change_30d <= -0.05){
+    invalidParts.push(`NTM EPS 30일 ${(em.ntm_change_30d*100).toFixed(1)}% 하향`);
+  }
+  const gh = (typeof GUIDANCE_HISTORY_DATA !== 'undefined') ? GUIDANCE_HISTORY_DATA[r.ticker] : null;
+  if(Array.isArray(gh) && gh.length){
+    const latest = gh.slice().sort((a,b) => (a.filingDate||'') < (b.filingDate||'') ? 1 : -1)[0];
+    if(latest && latest.comparison && latest.comparison.status === 'available' && latest.comparison.overall === 'lowered'){
+      invalidParts.push(`최근 공시(${latest.filingDate}) 가이던스 하향`);
+    }
+  }
+  if(stopTriggered){
+    invalidParts.push(`200일선(${num(stopLine) ? '$'+stopLine.toFixed(2) : '—'}) 아래 종가 2일 연속`);
+  }
+
+  return {
+    ok: true, segs, low: fLo, high: fHi, tier1, tier2, tier3,
+    stopLine, stopTriggered, invalidParts,
+    note: `${segs.length}개 소스 교집합(${segs.map(s => s.name).join(' · ')})`
+  };
+}
+
 function pvDecisionInfo(d, r, act, num){
-  const out = { buyZone: null, buyZoneWidthNote: null, buyZoneStressFloor: null, perBandYearsActual: null, confirmCond: null, invalidateCond: null, nextCheck: null };
+  const out = { buyZone: null, buyZoneWidthNote: null, buyZoneStressFloor: null, perBandYearsActual: null, confirmCond: null, invalidateCond: null, nextCheck: null, consensusZone: null };
 
   // WO2-03(수정지시서#02) -- 모델 불신 경보(d.priceAlert)가 뜬 종목은 숫자 매수 구간을
   // "조정이 오면 어디까지" 자리에도 그대로 보여주지 않는다(경보 사유를 바로 보여줌).
   const bandDisplayEligible = d.bandEligible && !d.distorted && !d.priceAlert;
+  // WO2-05(수정지시서#02, WO-07 재개) -- 합의 구간을 먼저 계산해 두고, 경보가 없을 때만 이를
+  // 우선 사용한다(2개 미만 소스·교집합 없음이면 ok:false → 기존 단일 소스 구간으로 폴백).
+  const cz = (!d.priceAlert) ? pvConsensusZone(d, r, num) : null;
+  out.consensusZone = cz;
   if(d.priceAlert){
     out.buyZone = `모델 불신 경보 — ${d.priceAlertNote || '현재가가 모델 밴드를 크게 벗어나 있습니다.'}`;
+  } else if(cz && cz.ok){
+    out.buyZone = `합의 구간 $${cz.low.toFixed(2)} ~ $${cz.high.toFixed(2)} (1차 매수 $${cz.tier1.toFixed(2)}·30% → 2차 $${cz.tier2.toFixed(2)}·30% → 3차 $${cz.tier3.toFixed(2)}·40%) — ${cz.note}`;
   } else if(bandDisplayEligible && d.bandTable){
     const bt = d.bandTable;
     // WO-06(수정지시서#01) -- 비관 가정을 하나만 반영한 완화된 보수가를 메인 구간으로
@@ -6499,6 +6592,8 @@ function pvDecisionInfo(d, r, act, num){
     out.buyZone = `$${bt.conservative.price.toFixed(2)} ~ $${bt.base.price.toFixed(2)}(상단 $${bt.upside.price.toFixed(2)} 초과 시 기대 선반영 경계)`;
     out.buyZoneStressFloor = `스트레스 바닥(참고, 이중 비관 가정): $${bt.stressFloor.price.toFixed(2)}`;
     out.perBandYearsActual = (d.perBandYears!=null) ? d.perBandYears : null;
+    // WO2-05 -- 합의 구간을 못 구했을 때도(소스 부족·교집합 없음) 그 사실을 숨기지 않고 함께 보여준다.
+    if(cz && !cz.ok) out.buyZoneWidthNote = (out.buyZoneWidthNote ? out.buyZoneWidthNote + ' ' : '') + `※ 합의 구간: ${cz.reason}`;
     if(bt.conservative.price > 0){
       const widthPct = (bt.base.price - bt.conservative.price) / bt.conservative.price * 100;
       // WO-06 item4 -- 폭을 "EPS 차이 몇 % · PER 차이 몇 %"로 실제 계산해 보여준다(로그
@@ -6547,7 +6642,11 @@ function pvDecisionInfo(d, r, act, num){
   if(d.cfVeto) invalidParts.push(`이미 발동: ${d.cfDetail.join(', ')}`);
   else if(d.cfDetail.length) invalidParts.push(`1개 더 성립 시 신규 접근 중지: ${d.cfDetail.join(', ')}`);
   if(d.epsDamaged) invalidParts.push('EPS 수정 방향 이미 하향');
-  out.invalidateCond = invalidParts.length ? invalidParts.join(' · ') : '현재 무효화 신호 없음(현금흐름·EPS 추가 악화 시 재평가)';
+  // WO2-05(수정지시서#02, WO-07 재개) -- 합의 구간이 계산됐으면 그 무효 조건(NTM EPS 30일
+  // -5%+ 하향 · 최근 공시 가이던스 하향 · 200일선 아래 종가 2일 연속)도 함께 보여준다
+  // (기존 현금흐름·EPS veto 문구는 지우지 않고 그대로 유지 -- 지우지 말고 따로 추가 원칙).
+  if(cz && cz.ok && cz.invalidParts.length) invalidParts.push(...cz.invalidParts);
+  out.invalidateCond = invalidParts.length ? invalidParts.join(' · ') : '현재 확인 가능한 무효화 조건 없음(합의 구간 근거 부족 또는 현금흐름·EPS 추가 악화 시 재평가)';
 
   const ne = (typeof NEWS_DATA!=='undefined' && NEWS_DATA && NEWS_DATA[r.ticker]) ? NEWS_DATA[r.ticker].nextEarnings : null;
   out.nextCheck = (ne && ne.date) ? `다음 실적 발표 ${esc(ne.date)}${ne.estimate!=null?` (컨센서스 EPS $${Number(ne.estimate).toFixed(2)})`:''}` : '실적 캘린더 데이터 없음(데이터 공백)';
