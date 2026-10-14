@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1791986403.4714622,
+    "_last_attempt_at": 1792008065.4514022,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -22,13 +22,13 @@ const NEWS_DATA = {
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "인플레이션을 앞두고 다우 선물 상승, 나스닥 제압 프리마켓 데이터: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus AI Agent Trending News Earnings All DIA 0.06% SPY 0.58% QQQ 0.99% Trending DJT 3.23% CRWV 13.64% NBIS 9.70% SPY 0",
-            "Dow Futures Rise, Nasdaq Subdued Premarket Ahead of Inflation Data: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus On Stocktwits, SPY 및 QQQ에 대한 소매 감정은 CPI 인쇄를 앞두고 ‘낙관적’ 으로 남아 있습니다.",
-            "2026년 8월 7일 미국 뉴욕에서 나스닥 로고 사인이 보입니다."
+            "다우 선물 상승, 나스닥은 인플레이션 데이터에 앞서 시장 전 진정: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN 주식에 초점 AI 에이전트 동향 뉴스 수익 전체 DIA 0.11% SPY 1.10% QQQ 1.95% 추세 CRWV 15.55% IBRX 1.12% ONDS 8.35% RKLB",
+            "다우 선물 상승, 나스닥은 인플레이션 데이터에 앞서 시장 전 진정: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN 주식 Stocktwits에 초점을 맞추고 SPY 및 QQQ에 대한 소매 정서는 CPI 인쇄에 앞서 '강세'를 유지했습니다.",
+            "나스닥 로고 표지판이 2026년 8월 7일 미국 뉴욕에서 보입니다."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.06%, 0.58%, 0.99% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.11%, 1.10%, 1.95% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -52,23 +52,87 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.06%",
-            "0.58%",
-            "0.99%",
-            "3.23%",
-            "13.64%",
-            "9.70%",
-            "12.08%",
-            "4.77%"
+            "0.11%",
+            "1.10%",
+            "1.95%",
+            "15.55%",
+            "1.12%",
+            "8.35%",
+            "7.83%",
+            "9.02%"
           ],
           "sourceExcerpt": [
-            "Dow Futures Rise, Nasdaq Subdued Premarket Ahead Of Inflation Data: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus AI Agent Trending News Earnings All DIA 0.06% SPY 0.58% QQQ 0.99% Trending DJT 3.23% CRWV 13.64% NBIS 9.70% SPY 0",
+            "Dow Futures Rise, Nasdaq Subdued Premarket Ahead Of Inflation Data: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus AI Agent Trending News Earnings All DIA 0.11% SPY 1.10% QQQ 1.95% Trending CRWV 15.55% IBRX 1.12% ONDS 8.35% RKLB",
             "Dow Futures Rise, Nasdaq Subdued Premarket Ahead Of Inflation Data: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus On Stocktwits, retail sentiment toward SPY and QQQ has remained ‘bullish’ ahead of the CPI print.",
             "Nasdaq logo sign is seen in New York City, United States, on August 7, 2026."
           ],
-          "analysisUpdatedAt": 1791986420.6367588
+          "analysisUpdatedAt": 1792008071.3734899
         },
         "headlineKo": "다우 선물 상승, 인플레이션을 앞둔 나스닥 제압 프리마켓 데이터: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus"
+      },
+      {
+        "headline": "Stock Market Today: S&P 500, Dow, Nasdaq Futures Gain Even as September Inflation Report Comes In Hotter Than Expected— ASML, AZZ, GME in Focus (UPDATED)",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=2d87b8b56780e9b8aafc7e183cf72afc98e884fc059881bf13cbcc52ace5ed2a",
+        "datetime": 1791967182,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "장기 공급계약 · 매출 가시성 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "오늘 주식 시장: 투자자들이 9월 인플레이션 보고서를 기다리는 동안 S&P 500, 다우 존스 선물 상승 - ASML, - Benzinga SPY 779.77 +0.23% QQQ 743.82 +0.03% BTC/USD 83,197.00 +0.11% DIA 518.62 +0.47% GLD 379.73 −0.51% TLT 78.59 +0.28% 미국",
+            "화요일 종가가 하락한 뒤 다우존스, S&P 500, 나스닥 100 지수가 상승하면서 수요일 주식 선물은 상승했습니다.",
+            "투자자들은 개장을 앞두고 인플레이션 데이터를 기다리고 있습니다."
+          ],
+          "why": [
+            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.23%, 0.03%, 0.11% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 기간·최소구매 조건",
+            "연도별 매출 인식",
+            "수주잔고·취소 조건"
+          ],
+          "interpretation": "QQQ에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.23%",
+            "0.03%",
+            "0.11%",
+            "0.47%",
+            "0.51%",
+            "0.28%",
+            "0.5%",
+            "3.6%"
+          ],
+          "sourceExcerpt": [
+            "Stock Market Today: S&P 500, Dow Jones Futures Gain as Investors Await September Inflation Report— ASML, - Benzinga SPY 779.77 +0.23% QQQ 743.82 +0.03% BTC/USD 83,197.00 +0.11% DIA 518.62 +0.47% GLD 379.73 −0.51% TLT 78.59 +0.28% US Sign in",
+            "stock futures were higher on Wednesday, as the Dow Jones, S&P 500 and Nasdaq 100 indices rose, following Tuesday’s lower close.",
+            "Investors await the inflation data ahead of the opening bell."
+          ],
+          "analysisUpdatedAt": 1792008073.521888
+        },
+        "headlineKo": "오늘의 주식 시장: 9월 인플레이션 보고서가 예상보다 뜨거워졌음에도 불구하고 S&P 500, Dow, Nasdaq 선물 상승 - ASML, AZZ, GME 초점(업데이트됨)"
       },
       {
         "headline": "Bank of America Clients to Enjoy Premium Dining and Lifestyle Experiences at the 19th Food Network New York City Wine & Food Festival presented by Invesco QQQ",
@@ -116,7 +180,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791986424.1843333
+          "analysisUpdatedAt": 1792008075.8760772
         },
         "headlineKo": "Bank of America 고객들은 Invesco QQQ가 주최하는 제19회 푸드 네트워크 뉴욕시 와인 및 음식 축제에서 프리미엄 식사 및 라이프스타일 경험을 즐길 수 있습니다"
       },
@@ -128,60 +192,6 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "오늘의 주식 시장: 다우 존스 선물 이득, 나스닥, S&P 500은 스콧 베센트가 이란의 경제가 - 벤징가 스파이 779.77 +0.23% QQQ 743.76 +0.03% BTC/USD 83,335.00 +0.28% DIA 518.62 +0.47% GLD 379.73 − 0.51% TLT 78.59 +0.28% US Sign i",
-            "화요일 다우존스 지수가 상승하면서 주식 선물은 손익 사이에서 흔들리고 있었고, S&P 500 지수와 나스닥 100 지수는 월요일 혼조 마감 이후 하락했다.",
-            "NFIB 중소기업 낙관 지수가 9월에 0.8포인트 하락한 97.9로 52년 평균인 98.0을 밑돌면서 중소기업 심리가 시장 역풍에 더해졌습니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.23%, 0.03%, 0.28% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.23%",
-            "0.03%",
-            "0.28%",
-            "0.47%",
-            "0.51%",
-            "31%",
-            "20%",
-            "$105"
-          ],
-          "sourceExcerpt": [
-            "Stock Market Today: Dow Jones Futures Gain, Nasdaq, S&P 500 Falls as Scott Bessent Says Iran's Economy Is - Benzinga SPY 779.77 +0.23% QQQ 743.76 +0.03% BTC/USD 83,335.00 +0.28% DIA 518.62 +0.47% GLD 379.73 −0.51% TLT 78.59 +0.28% US Sign i",
-            "stock futures were swinging between gains and losses on Tuesday, as the Dow Jones index rose, while the S&P 500 and Nasdaq 100 indices fell, following Monday’s mixed close.",
-            "Small business sentiment added to broader market headwinds as the NFIB Small Business Optimism Index fell 0.8 points in September to 97.9, dipping below its 52-year average of 98.0."
-          ],
-          "analysisUpdatedAt": 1791986432.78761
-        },
         "headlineKo": "오늘의 주식 시장: Scott Bessent가 이란 경제가 '붕괴'하고 있다고 말하면서 Dow Jones Futures Gain, Nasdaq, S&P 500 하락— SXTC, AMAT, CMG in Focus(업데이트됨)"
       },
       {
@@ -193,16 +203,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "QQQI: 단기적인 나스닥 하락세는 강세장을 끝내지 않습니다"
-      },
-      {
-        "headline": "S&P 500, Nasdaq 100 End Lower On Chipmaker Weakness, While Salesforce Gains Aid Dow — META, MSFT, BMBL, CRM, SNAP In Focus",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e6357c13960c505bb16627b06cf8522405c0157e57a8d67035aa5d3bb2dc3c19",
-        "datetime": 1791846618,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "S&P 500, Nasdaq 100은 칩 제조업체 약세로 인해 하락했고 Salesforce는 Dow에 도움을 얻었습니다 — META, MSFT, BMBL, CRM, SNAP 초점"
       }
     ],
     "newsHistory": [
@@ -222,13 +222,13 @@ const NEWS_DATA = {
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "인플레이션을 앞두고 다우 선물 상승, 나스닥 제압 프리마켓 데이터: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus AI Agent Trending News Earnings All DIA 0.06% SPY 0.58% QQQ 0.99% Trending DJT 3.23% CRWV 13.64% NBIS 9.70% SPY 0",
-            "Dow Futures Rise, Nasdaq Subdued Premarket Ahead of Inflation Data: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus On Stocktwits, SPY 및 QQQ에 대한 소매 감정은 CPI 인쇄를 앞두고 ‘낙관적’ 으로 남아 있습니다.",
-            "2026년 8월 7일 미국 뉴욕에서 나스닥 로고 사인이 보입니다."
+            "다우 선물 상승, 나스닥은 인플레이션 데이터에 앞서 시장 전 진정: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN 주식에 초점 AI 에이전트 동향 뉴스 수익 전체 DIA 0.11% SPY 1.10% QQQ 1.95% 추세 CRWV 15.55% IBRX 1.12% ONDS 8.35% RKLB",
+            "다우 선물 상승, 나스닥은 인플레이션 데이터에 앞서 시장 전 진정: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN 주식 Stocktwits에 초점을 맞추고 SPY 및 QQQ에 대한 소매 정서는 CPI 인쇄에 앞서 '강세'를 유지했습니다.",
+            "나스닥 로고 표지판이 2026년 8월 7일 미국 뉴욕에서 보입니다."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.06%, 0.58%, 0.99% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.11%, 1.10%, 1.95% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -252,21 +252,84 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.06%",
-            "0.58%",
-            "0.99%",
-            "3.23%",
-            "13.64%",
-            "9.70%",
-            "12.08%",
-            "4.77%"
+            "0.11%",
+            "1.10%",
+            "1.95%",
+            "15.55%",
+            "1.12%",
+            "8.35%",
+            "7.83%",
+            "9.02%"
           ],
           "sourceExcerpt": [
-            "Dow Futures Rise, Nasdaq Subdued Premarket Ahead Of Inflation Data: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus AI Agent Trending News Earnings All DIA 0.06% SPY 0.58% QQQ 0.99% Trending DJT 3.23% CRWV 13.64% NBIS 9.70% SPY 0",
+            "Dow Futures Rise, Nasdaq Subdued Premarket Ahead Of Inflation Data: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus AI Agent Trending News Earnings All DIA 0.11% SPY 1.10% QQQ 1.95% Trending CRWV 15.55% IBRX 1.12% ONDS 8.35% RKLB",
             "Dow Futures Rise, Nasdaq Subdued Premarket Ahead Of Inflation Data: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus On Stocktwits, retail sentiment toward SPY and QQQ has remained ‘bullish’ ahead of the CPI print.",
             "Nasdaq logo sign is seen in New York City, United States, on August 7, 2026."
           ],
-          "analysisUpdatedAt": 1791986420.6367588
+          "analysisUpdatedAt": 1792008071.3734899
+        }
+      },
+      {
+        "headline": "Stock Market Today: S&P 500, Dow, Nasdaq Futures Gain Even as September Inflation Report Comes In Hotter Than Expected— ASML, AZZ, GME in Focus (UPDATED)",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=2d87b8b56780e9b8aafc7e183cf72afc98e884fc059881bf13cbcc52ace5ed2a",
+        "datetime": 1791967182,
+        "headlineKo": "오늘의 주식 시장: 9월 인플레이션 보고서가 예상보다 뜨거워졌음에도 불구하고 S&P 500, Dow, Nasdaq 선물 상승 - ASML, AZZ, GME 초점(업데이트됨)",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "장기 공급계약 · 매출 가시성 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "오늘 주식 시장: 투자자들이 9월 인플레이션 보고서를 기다리는 동안 S&P 500, 다우 존스 선물 상승 - ASML, - Benzinga SPY 779.77 +0.23% QQQ 743.82 +0.03% BTC/USD 83,197.00 +0.11% DIA 518.62 +0.47% GLD 379.73 −0.51% TLT 78.59 +0.28% 미국",
+            "화요일 종가가 하락한 뒤 다우존스, S&P 500, 나스닥 100 지수가 상승하면서 수요일 주식 선물은 상승했습니다.",
+            "투자자들은 개장을 앞두고 인플레이션 데이터를 기다리고 있습니다."
+          ],
+          "why": [
+            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.23%, 0.03%, 0.11% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 기간·최소구매 조건",
+            "연도별 매출 인식",
+            "수주잔고·취소 조건"
+          ],
+          "interpretation": "QQQ에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.23%",
+            "0.03%",
+            "0.11%",
+            "0.47%",
+            "0.51%",
+            "0.28%",
+            "0.5%",
+            "3.6%"
+          ],
+          "sourceExcerpt": [
+            "Stock Market Today: S&P 500, Dow Jones Futures Gain as Investors Await September Inflation Report— ASML, - Benzinga SPY 779.77 +0.23% QQQ 743.82 +0.03% BTC/USD 83,197.00 +0.11% DIA 518.62 +0.47% GLD 379.73 −0.51% TLT 78.59 +0.28% US Sign in",
+            "stock futures were higher on Wednesday, as the Dow Jones, S&P 500 and Nasdaq 100 indices rose, following Tuesday’s lower close.",
+            "Investors await the inflation data ahead of the opening bell."
+          ],
+          "analysisUpdatedAt": 1792008073.521888
         }
       },
       {
@@ -315,7 +378,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791986424.1843333
+          "analysisUpdatedAt": 1792008075.8760772
         }
       },
       {
@@ -5962,15 +6025,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791986403.4714622,
-    "_updated_label": "2026-10-14 23:00",
-    "_last_success_at": 1791986403.4714622,
+    "_fetched_at": 1792008065.4514022,
+    "_updated_label": "2026-10-15 05:01",
+    "_last_success_at": 1792008065.4514022,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 116,
+      "checked": 117,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "SPY": {
@@ -13655,11 +13718,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 156,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "MSFT": {
-    "_last_attempt_at": 1791986403.4714622,
+    "_last_attempt_at": 1792008065.4514022,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -13669,78 +13732,124 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Life Science Analytics Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on 15.6% CAGR as Oracle, SAS, IBM, IQVIA, and Microsoft Accelerate AI Adoption",
+        "headline": "What Could Microsoft (MSFT) Gain From Its Maia 300 AI Chip Rollout?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=cec419f962eb402361684ccae78a2335aaf1c62b3396e0445add85b7c3673535",
-        "datetime": 1791965280,
+        "url": "https://finnhub.io/api/news?id=10dda3df1699ea7f66ef7cb196fb638228aacc9857542a407464328fa6ab8ac0",
+        "datetime": 1791997787,
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "What Could Microsoft (MSFT) Gain From Its Maia 300 AI Chip Rollout?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'What Could Microsoft (MSFT) Gain From Its Maia 300 AI Chip Rollout?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792008081.7747295
+        },
+        "headlineKo": "Microsoft(MSFT)가 Maia 300 AI 칩 출시를 통해 무엇을 얻을 수 있습니까?"
+      },
+      {
+        "headline": "Not Microsoft. Not Alphabet. Here's the Cloud Giant I'm Most Bullish About.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=925af316340840495a8eb45fd24a81b58061cf5584a484c271e9548c763df585",
+        "datetime": 1791992580,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "medium",
+          "importance": "high",
           "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
           "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+            "제가 가장 낙관하는 클라우드 거인은 다음과 같습니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 합류하세요. 클라우드 컴퓨팅 부문은 현재 주식 시장에서 가장 흥미로운 부분 중 하나입니다.",
+            "올해 새로운 데이터 센터를 구축하고 장비를 갖추기 위해 각각 1000억 달러 이상을 지출하는 여러 기업이 있으며, 이들 기업의 자본 지출은 2027년에 다시 한 번 증가할 것으로 예상됩니다."
           ],
           "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $100 billion, 2.20%, 1.84% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
             }
           ],
           "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
           ],
-          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Life Science Analytics Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on 15.6% CAGR as Oracle, SAS, IBM, IQVIA, and Microsoft Accelerate AI Adoption' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: MSFT에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "interpretation": "MSFT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.4,
-          "quality": "high",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791986445.9952972
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$100 billion",
+            "2.20%",
+            "1.84%",
+            "1.70%",
+            "1.77%",
+            "28%",
+            "$220 billion",
+            "2.20 %"
+          ],
+          "sourceExcerpt": [
+            "Here's the Cloud Giant I'm Most Bullish About.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The cloud computing sector is one of the most interesting parts of the stock market right now.",
+            "There are several companies spending more than $100 billion each to build and equip new data centers this year, and their capital expenditures are projected to rise once again in 2027."
+          ],
+          "analysisUpdatedAt": 1792008083.9010694
         },
-        "headlineKo": "라이프사이언스 애널리틱스 시장 보고서 2026: 2030년까지의 규모, 점유율, 추세 및 예측 | Oracle, SAS, IBM, IQVIA 및 Microsoft로 15.6% CAGR을 활용하여 AI 채택 가속화"
+        "headlineKo": "마이크로소프트가 아닙니다. 알파벳이 아닙니다. 제가 가장 낙관하는 클라우드 거인은 다음과 같습니다."
       },
       {
-        "headline": "Microsoft: Bears Are Making Noise About AI Spending, You Should Ignore It - Buy",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=43b99c970e11b854215e453fec060f474a569d91666dcc38d5dc5e1cfedc32dd",
-        "datetime": 1791964873,
+        "headline": "Michael Burry Questions Microsoft’s AI Spending. Is Its Valuation Misleading?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6611a34617e832086d10b37c0c489589fce6c9e1baa6b826997a88f1a2747555",
+        "datetime": 1791985767,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
@@ -13752,7 +13861,7 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Microsoft: Bears Are Making Noise About AI Spending, You Should Ignore It - Buy",
+            "Michael Burry Questions Microsoft’s AI Spending. Is Its Valuation Misleading?",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -13781,105 +13890,29 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791986447.3042285
+          "analysisUpdatedAt": 1792008086.0217733
         },
-        "headlineKo": "Microsoft: 곰이 AI 지출에 대해 소음을 내고 있습니다. 무시해야 합니다 - 구매"
+        "headlineKo": "Michael Burry는 Microsoft의 AI 지출에 대해 질문합니다. 그 가치 평가는 오해의 소지가 있습니까?"
       },
       {
-        "headline": "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report",
+        "headline": "PRG Partners with Devsinc to Build the Digital Foundation for Scalable Growth with Microsoft Dynamics 365",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=06259daa8c151882c5e4e07bc8de9c5407fcee4a3ddae08331510c2640ac4466",
-        "datetime": 1791934848,
-        "relevance": 0.8,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "mixed",
-          "certainty": "확인 보도와 시장 해석 혼합",
-          "label": "AI 투자 유지 · 현금흐름·신용 부담 동시 확인",
-          "horizon": "단기 비용 절감 / 중기 FCF·부채 확인",
-          "facts": [
-            "오라클이 AI 데이터센터 투자를 유지하면서 인건비·조직 비용을 줄이려는 내용입니다.",
-            "AI 인프라 확장에 CAPEX·장기 계약·부채 부담이 함께 커질 수 있습니다.",
-            "감원이 실제 비용 절감으로 이어지는지, 아니면 현금창출력 압박의 신호인지는 공시와 실적 확인이 필요합니다."
-          ],
-          "why": [
-            "오라클의 핵심 질문은 AI 매출 증가 속도가 CAPEX·부채 증가 속도를 앞서는지입니다.",
-            "비용 절감은 영업마진과 FCF를 방어할 수 있지만, 반복 감원과 신용스프레드 상승은 재무 부담을 시사할 수 있습니다.",
-            "AI 수요가 강해도 자금조달 비용이 커지면 적정 PER과 주가 변동성이 달라집니다."
-          ],
-          "beginner": [
-            "오라클이 AI 투자를 포기하는 것이 아니라 다른 비용을 줄여 계속 투자하려는 모습입니다.",
-            "사람 비용을 줄이면 단기 이익에는 도움이 되지만, 부채·CAPEX가 너무 빠르게 늘고 있다는 뜻일 수도 있습니다.",
-            "다음 실적에서 매출보다 FCF와 부채를 반드시 같이 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "ORCL",
-              "stance": "혼합·위험",
-              "reason": "AI 매출 기회와 FCF·부채·신용 부담이 동시에 존재"
-            },
-            {
-              "ticker": "NVDA",
-              "stance": "간접 긍정",
-              "reason": "데이터센터 투자 지속 시 AI 컴퓨팅 수요 유지 가능성"
-            },
-            {
-              "ticker": "AMZN",
-              "stance": "간접 확인",
-              "reason": "클라우드 CAPEX 경쟁과 가격·마진 압력 비교 필요"
-            }
-          ],
-          "watch": [
-            "ORCL 클라우드 매출 성장률",
-            "영업현금흐름·FCF와 CAPEX",
-            "총부채·리스·이자비용",
-            "신용등급·CDS 스프레드"
-          ],
-          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: MSFT에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
-          "relevance": 0.8,
-          "quality": "high",
-          "verifiedNumbers": [
-            "20%",
-            "0.06%",
-            "0.57%",
-            "0.96%",
-            "3.10%",
-            "13.56%",
-            "9.69%",
-            "10.34%"
-          ],
-          "sourceExcerpt": [
-            "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report AI Agent Trending News Earnings All DIA 0.06% SPY 0.57% QQQ 0.96% Trending DJT 3.10% CRWV 13.56% NBIS 9.69% SPY 0.57% VSTM 10.34% SLV 4.79% LQDA 2",
-            "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report Microsoft Azure is exploring potential cost reductions of at least 20% in its software development unit to offset heavy infrastructure investments",
-            "Microsoft CEO Satya Nadella at the Ronald V."
-          ],
-          "analysisUpdatedAt": 1791986448.657634
-        },
-        "headlineKo": "Microsoft는 AI 데이터 센터 지출이 급증하는 가운데 Azure 분야에서 20%의 비용 절감에 무게를 두고 있습니다: 보고서"
-      },
-      {
-        "headline": "How much MSFT stock does Microsoft founder Bill Gates actually own?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f60355464b85e4e7a7619f723903dcd60344cf118ae798f590536360261e114d",
-        "datetime": 1791933897,
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Microsoft 창립자 Bill Gates가 실제로 얼마나 많은 MSFT 주식을 소유하고 있습니까?"
-      },
-      {
-        "headline": "Microsoft Reports $130 Billion in Data Center Leases",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5d5e9ea24379bf4bd18c73f90458e93adf7ba5f60b937dfaa4c94379a9604126",
-        "datetime": 1791925257,
+        "url": "https://finnhub.io/api/news?id=6378d4e4e6b0212b487b4e267ae7d8138dc7e83393e23dc0f4e17386e3d7915b",
+        "datetime": 1791979200,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Microsoft, 데이터 센터 임대로 1,300억 달러 보고"
+        "headlineKo": "PRG, Devsinc와 협력하여 Microsoft Dynamics 365를 통해 확장 가능한 성장을 위한 디지털 기반 구축"
+      },
+      {
+        "headline": "KnowBe4 Defend Ranks First in Microsoft's Real-World Email Security Benchmark",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=32a451f1e3f0cb75f67230192eee4753a5e206b4a429f66f2131c2ccd050ef77",
+        "datetime": 1791979200,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "KnowBe4 Defend는 Microsoft의 실제 이메일 보안 벤치마크에서 1위를 차지했습니다."
       },
       {
         "headline": "Microsoft Sues JLL For Protection Against Lawsuit At NYC Office Project",
@@ -13948,6 +13981,184 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "What Could Microsoft (MSFT) Gain From Its Maia 300 AI Chip Rollout?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=10dda3df1699ea7f66ef7cb196fb638228aacc9857542a407464328fa6ab8ac0",
+        "datetime": 1791997787,
+        "headlineKo": "Microsoft(MSFT)가 Maia 300 AI 칩 출시를 통해 무엇을 얻을 수 있습니까?",
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "What Could Microsoft (MSFT) Gain From Its Maia 300 AI Chip Rollout?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'What Could Microsoft (MSFT) Gain From Its Maia 300 AI Chip Rollout?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792008081.7747295
+        }
+      },
+      {
+        "headline": "Not Microsoft. Not Alphabet. Here's the Cloud Giant I'm Most Bullish About.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=925af316340840495a8eb45fd24a81b58061cf5584a484c271e9548c763df585",
+        "datetime": 1791992580,
+        "headlineKo": "마이크로소프트가 아닙니다. 알파벳이 아닙니다. 제가 가장 낙관하는 클라우드 거인은 다음과 같습니다.",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "제가 가장 낙관하는 클라우드 거인은 다음과 같습니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 합류하세요. 클라우드 컴퓨팅 부문은 현재 주식 시장에서 가장 흥미로운 부분 중 하나입니다.",
+            "올해 새로운 데이터 센터를 구축하고 장비를 갖추기 위해 각각 1000억 달러 이상을 지출하는 여러 기업이 있으며, 이들 기업의 자본 지출은 2027년에 다시 한 번 증가할 것으로 예상됩니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $100 billion, 2.20%, 1.84% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "MSFT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$100 billion",
+            "2.20%",
+            "1.84%",
+            "1.70%",
+            "1.77%",
+            "28%",
+            "$220 billion",
+            "2.20 %"
+          ],
+          "sourceExcerpt": [
+            "Here's the Cloud Giant I'm Most Bullish About.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The cloud computing sector is one of the most interesting parts of the stock market right now.",
+            "There are several companies spending more than $100 billion each to build and equip new data centers this year, and their capital expenditures are projected to rise once again in 2027."
+          ],
+          "analysisUpdatedAt": 1792008083.9010694
+        }
+      },
+      {
+        "headline": "Michael Burry Questions Microsoft’s AI Spending. Is Its Valuation Misleading?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6611a34617e832086d10b37c0c489589fce6c9e1baa6b826997a88f1a2747555",
+        "datetime": 1791985767,
+        "headlineKo": "Michael Burry는 Microsoft의 AI 지출에 대해 질문합니다. 그 가치 평가는 오해의 소지가 있습니까?",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Michael Burry Questions Microsoft’s AI Spending. Is Its Valuation Misleading?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "MSFT에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792008086.0217733
+        }
+      },
+      {
+        "headline": "PRG Partners with Devsinc to Build the Digital Foundation for Scalable Growth with Microsoft Dynamics 365",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6378d4e4e6b0212b487b4e267ae7d8138dc7e83393e23dc0f4e17386e3d7915b",
+        "datetime": 1791979200,
+        "headlineKo": "PRG, Devsinc와 협력하여 Microsoft Dynamics 365를 통해 확장 가능한 성장을 위한 디지털 기반 구축",
+        "relevance": 0.4,
+        "keywordFlag": false
+      },
+      {
+        "headline": "KnowBe4 Defend Ranks First in Microsoft's Real-World Email Security Benchmark",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=32a451f1e3f0cb75f67230192eee4753a5e206b4a429f66f2131c2ccd050ef77",
+        "datetime": 1791979200,
+        "headlineKo": "KnowBe4 Defend는 Microsoft의 실제 이메일 보안 벤치마크에서 1위를 차지했습니다.",
+        "relevance": 0.4,
+        "keywordFlag": false
+      },
       {
         "headline": "Life Science Analytics Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on 15.6% CAGR as Oracle, SAS, IBM, IQVIA, and Microsoft Accelerate AI Adoption",
         "source": "Yahoo",
@@ -21344,203 +21555,17 @@ const NEWS_DATA = {
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1790642548.4060483
         }
-      },
-      {
-        "headline": "Microsoft Stock Drops 2.2% as AI Adoption Gap Reaches 12.6 Points",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b526d67bd72f43a206fd30cc8c6dafd2481c3e6e2ac9e02fecfce48f01e2a181",
-        "datetime": 1790623422,
-        "headlineKo": "AI 채택 격차가 12.6포인트에 도달하면서 Microsoft 주가 2.2% 하락",
-        "relevance": 0.4,
-        "keywordFlag": false
-      },
-      {
-        "headline": "Microsoft's New Copilot Push Gets a $550 Vote From Wall Street",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6b15cb5271004d2ec526cb8325e6d08eea481115297cb9f4110ce08ba655434f",
-        "datetime": 1790607270,
-        "headlineKo": "Microsoft의 새로운 Copilot Push가 월스트리트에서 550달러 표를 얻었습니다.",
-        "relevance": 0.8,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Microsoft's New Copilot Push Gets a $550 Vote From Wall Street",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft's New Copilot Push Gets a $550 Vote From Wall Street' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.8,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790617375.088007
-        }
-      },
-      {
-        "headline": "I’m Buying Microsoft Exec’s Tactical Assertion That He Supports an AI Killswitch",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b874ab533cda9d15435386ec4bfbe8b044a91f4911c6a9bc0e19f900886d896a",
-        "datetime": 1790602193,
-        "headlineKo": "나는 AI 킬스위치를 지지한다는 Microsoft Exec의 전술적 주장을 믿고 있습니다.",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "장기 공급계약 · 매출 가시성 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "나는 AI 킬스위치를 지원한다는 Microsoft Exec의 전술적 주장을 믿고 있습니다. - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,712.00 −0.54% Dow Jones 51,662.00 −0.41% Nasdaq 100 30,382.70 −0.94% Russell 2000 2,828.49 −0.52% S&P 500 7,712.00 −0.54% 다우존스 51,662.00 −0.41% 나스닥 100 30,382.70 −0.94% 러셀 2000 2,828.49 −0.",
-            "그 성명 뒤에 있는 재정은 AI 안전 규칙을 작성함으로써 누가 가장 많은 이익을 얻을 수 있는지에 대해 매우 다른 이야기를 말해줍니다."
-          ],
-          "why": [
-            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 360%, $678 billion, 84% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "계약 기간·최소구매 조건",
-            "연도별 매출 인식",
-            "수주잔고·취소 조건"
-          ],
-          "interpretation": "MSFT에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "360%",
-            "$678 billion",
-            "84%",
-            "$100 billion",
-            "43%",
-            "$331.84 billion",
-            "17.79%",
-            "46.78%"
-          ],
-          "sourceExcerpt": [
-            "I'm Buying Microsoft Exec's Tactical Assertion That He Supports an AI Killswitch - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,712.00 −0.54% Dow Jones 51,662.00 −0.41% Nasdaq 100 30,382.70 −0.94% Russell 2000 2,828.49 −0.52% S&P 500 7,712.00 −0.54% Dow Jones 51,662.00 −0.41% Nasdaq 100 30,382.70 −0.94% Russell 2000 2,828.49 −0.",
-            "The financials behind that statement tell a very different story about who benefits most from writing the rules of AI safety."
-          ],
-          "analysisUpdatedAt": 1790617379.5111995
-        }
-      },
-      {
-        "headline": "ChronoScale: 50MW Microsoft Win Is A Start, But More Capacity May Be Needed",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=162e4f9143aaf53907bbb1956c4845b53024d52d3cb18f2a40db970df3680d79",
-        "datetime": 1790599973,
-        "headlineKo": "ChronoScale: 50MW Microsoft Win이 시작되었으나 더 많은 용량이 필요할 수 있음",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "주식 희석 · 주당가치 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "ChronoScale: 50MW Microsoft Win이 시작되었지만 더 많은 용량이 필요할 수 있음(CHRN) | 알파 추구 Michael Del Monte 7.72K 팔로워 팔로우 요약 ChronoScale Holdings Corporation은 다음을 활용하는 신흥 네오클라우드 제공업체로 자리매김하고 있습니다.",
-            "CHRN의 성장은 컴퓨팅 용량 확장에 달려 있으며, 회사의 고객 기반 개발 능력은 더 높은 금융 비용과 치열한 경쟁에 직면할 수 있습니다.",
-            "나는 초기 단계의 위험, 높은 가치 평가 및 향후 자본 조달에 대한 의존도를 반영하여 보류 등급과 $19.68의 목표 가격을 가진 CHRN 주식을 추천합니다."
-          ],
-          "why": [
-            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $19.68 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "신규 주식 수·행사가격",
-            "조달 자금 사용처",
-            "완전희석 주식수와 EPS"
-          ],
-          "interpretation": "MSFT에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$19.68"
-          ],
-          "sourceExcerpt": [
-            "ChronoScale: 50MW Microsoft Win Is A Start, But More Capacity May Be Needed (CHRN) | Seeking Alpha Michael Del Monte 7.72K Followers Follow Summary ChronoScale Holdings Corporation is positioned as an emerging neocloud provider, leveraging ",
-            "CHRN's growth hinges on scaling compute capacity, and the company's ability to develop its customer base may face higher financing costs and heightened competition.",
-            "I recommend CHRN shares with a Hold rating and a $19.68 price target, reflecting early-stage risks, high valuation, and dependency on future capital raises."
-          ],
-          "analysisUpdatedAt": 1790618408.847223
-        }
-      },
-      {
-        "headline": "Microsoft Rolls Out Refreshed Copilot App as Stock Lags Megacap Peers",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=741df2e24696998b4e7aab42ae3065f479280d7e0905314ba319476aa4aa34e7",
-        "datetime": 1790599021,
-        "headlineKo": "Microsoft, 주식이 메가캡 피어보다 뒤처짐에 따라 새로워진 Copilot 앱 출시",
-        "relevance": 0.8,
-        "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791986403.4714622,
-    "_updated_label": "2026-10-14 23:00",
-    "_last_success_at": 1791986403.4714622,
+    "_fetched_at": 1792008065.4514022,
+    "_updated_label": "2026-10-15 05:01",
+    "_last_success_at": 1792008065.4514022,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "GOOGL": {
@@ -29611,7 +29636,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "AMZN": {
@@ -37717,7 +37742,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "META": {
@@ -45759,7 +45784,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "AAPL": {
@@ -53628,7 +53653,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "TSLA": {
@@ -61683,7 +61708,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "ORCL": {
@@ -70155,7 +70180,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "CRM": {
@@ -77609,7 +77634,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 163,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "PLTR": {
@@ -86663,7 +86688,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "NVDA": {
@@ -94591,7 +94616,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "AMD": {
@@ -102777,7 +102802,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "AVGO": {
@@ -111755,7 +111780,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "QCOM": {
@@ -120093,7 +120118,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 180,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "ARM": {
@@ -125831,7 +125856,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 112,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "MRVL": {
@@ -134565,7 +134590,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "INTC": {
@@ -143121,7 +143146,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "TSM": {
@@ -150990,7 +151015,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 171,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "ASML": {
@@ -156822,7 +156847,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 125,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "AMAT": {
@@ -162439,7 +162464,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "LRCX": {
@@ -165342,11 +165367,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1791986403.4714622,
+    "_last_attempt_at": 1792008065.4514022,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -165356,138 +165381,10 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "One Reason KLA Stock Looks Better Than Its Price",
+        "headline": "KLA (KLAC) Pulls Back Following Sector Pressure, Is The Stock Still Cheap?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c87ce52c30d6bda4211b396d57f7d856bf3bbd4da7ea7d3ac4c7576212361517",
-        "datetime": 1791922968,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "한 가지 이유 KLA 주가가 가격보다 더 좋아 보이는 이유 | Trefis 한 가지 이유 KLA 주가가 가격보다 더 좋아 보이는 이유 2026년 10월 13일 · by Trefis Team KLAC YTD +52.0% SPY YTD +14.7% QQQ YTD +21.3% KLAC 분석 → 대부분의 투자자는 여전히 KLA (KLAC) 를 보고 있습니다",
-            "그러나 첨단 포장을 위한 검사 도구를 판매하는 비즈니스가 두드러지기 시작했고, 경영진은 이러한 수요를 AI의 확장과 연관 짓고 있습니다.",
-            "포장은 구매자가 현재 지불하는 비용의 일부일 수 있습니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 52.0%, 14.7%, 21.3% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "KLAC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "KLAC에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "52.0%",
-            "14.7%",
-            "21.3%",
-            "$1.1 Billion",
-            "$1.1 billion",
-            "70%",
-            "50%",
-            "$13.6 billion"
-          ],
-          "sourceExcerpt": [
-            "One Reason KLA Stock Looks Better Than Its Price | Trefis One Reason KLA Stock Looks Better Than Its Price October 13th, 2026 · by Trefis Team KLAC YTD +52.0% SPY YTD +14.7% QQQ YTD +21.3% Analyze KLAC → Most investors still view KLA (KLAC)",
-            "However, the business selling inspection tools for advanced packaging is beginning to stand out, and management ties this demand to the expansion of AI.",
-            "Packaging may be part of what buyers are currently paying for."
-          ],
-          "analysisUpdatedAt": 1791986469.962805
-        },
-        "headlineKo": "KLA 주식이 가격보다 좋아 보이는 한 가지 이유"
-      },
-      {
-        "headline": "Semiconductor Equipment Stocks Slide as Investors Take Profits on a Huge Year: Applied Materials Sinks 7%, Lam Research and KLA Drop 4%",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=276a62b4145219492a2a13dd4a3fc36f5b246e926ccd7fff3733dd5f3d47a40d",
-        "datetime": 1791910426,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "반도체 장비 재고는 투자자가 막대한 이익을 챙기면서 미끄러집니다. 응용 재료는 7%, 램 리서치 및 KLA 하락 4% - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,766.80 − 0.63% Dow Jones 51,719.20 +0.01% Nasdaq 100 30,292.20 − 0.98% Russell 2000 2,749.65 − 1.37% S&P 500 7,766.80 − 0.63% Dow Jones 51,719.20 +0.01% Nasdaq 100 30,292.20 − 0.98% Russell 2000 2,749.65 − 1.",
-            "By 데이비드 모아델 Published October 13, 2026, 12:53 pm ET · 3 min read Market Movers desk."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 7%, 4%, $461.91, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "KLAC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "KLAC에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "7%",
-            "4%",
-            "$461.91,",
-            "80%",
-            "$297.04,",
-            "$182.44,",
-            "1%",
-            "0.5%"
-          ],
-          "sourceExcerpt": [
-            "Semiconductor Equipment Stocks Slide as Investors Take Profits on a Huge Year: Applied Materials Sinks 7%, Lam Research and KLA Drop 4% - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,766.80 −0.63% Dow Jones 51,719.20 +0.01% Nasdaq 100 30,292.20 −0.98% Russell 2000 2,749.65 −1.37% S&P 500 7,766.80 −0.63% Dow Jones 51,719.20 +0.01% Nasdaq 100 30,292.20 −0.98% Russell 2000 2,749.65 −1.",
-            "By David Moadel Published October 13, 2026, 12:53pm ET · 3 min read Market Movers desk."
-          ],
-          "analysisUpdatedAt": 1791986478.8313293
-        },
-        "headlineKo": "엄청난 해에 투자자들이 이익을 얻으면서 반도체 장비 주가 하락: Applied Materials는 7% 하락, Lam Research 및 KLA는 4% 하락"
-      },
-      {
-        "headline": "MG vs. KLAC: Which Stock Is the Better Value Option?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e486d8e91c8a1864a7bbeee865afa19a5cfa3363ac879f1f98f567ce66d4d70b",
-        "datetime": 1791902403,
+        "url": "https://finnhub.io/api/news?id=64b4b8a2b3f65227040cfaeb54b77ad22700f0a2b3ad8d33cb7e967645208f5b",
+        "datetime": 1791987038,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
@@ -165499,7 +165396,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "MG vs. KLAC: Which Stock Is the Better Value Option?",
+            "KLA (KLAC) Pulls Back Following Sector Pressure, Is The Stock Still Cheap?",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -165523,35 +165420,135 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 KLAC의 사업과 관련된 'MG vs. KLAC: Which Stock Is the Better Value Option?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'KLA (KLAC) Pulls Back Following Sector Pressure, Is The Stock Still Cheap?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "KLAC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791986481.049126
+          "analysisUpdatedAt": 1792008093.4055583
         },
-        "headlineKo": "MG 대 KLAC: 어떤 주식이 더 나은 가치 옵션입니까?"
+        "headlineKo": "KLA (KLAC)가 부문 압력에 따라 철수했는데 주식은 여전히 ​​​​저렴합니까?"
       },
       {
-        "headline": "Entegris, Intel, KLA Corporation, Lam Research, and Microchip Technology Shares Are Falling, What You Need To Know",
+        "headline": "KLA (KLAC) Stock Looks Fully Valued After Its 5 Year Run",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=bdee110d585b385d2f845c881ee95975ac306c38bf349e9eb4208961879d8492",
-        "datetime": 1791851943,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Entegris, Intel, KLA Corporation, Lam Research 및 Microchip Technology 주가 하락, 알아야 할 사항"
-      },
-      {
-        "headline": "KLA (KLAC) Declines More Than Market: Some Information for Investors",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ff0b912f50cccefeeec7e96f3be5614b3d12632905e91f111e330da982c1b92f",
-        "datetime": 1791839704,
+        "url": "https://finnhub.io/api/news?id=df0c3e07e010e7245b22dd6a21db2c8ded1aafb150fa4b92092818c9725345be",
+        "datetime": 1791983586,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "KLA(KLAC)는 시장보다 더 많이 하락합니다: 투자자를 위한 일부 정보"
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "KLA (KLAC) Stock Looks Fully Valued After Its 5 Year Run",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "KLAC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'KLA (KLAC) Stock Looks Fully Valued After Its 5 Year Run' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "KLAC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792008095.5282786
+        },
+        "headlineKo": "KLA (KLAC) 주식은 5년 동안의 실행 후 완전히 가치를 지닌 것으로 보입니다."
+      },
+      {
+        "headline": "Wall Street Analysts See a 27.86% Upside in KLA (KLAC): Can the Stock Really Move This High?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6dcb88a4ca8df9440b8a0eb9b6ce11fbdab24e5939fbde72e0eb2b7c3291856d",
+        "datetime": 1791982502,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Wall Street Analysts See a 27.86% Upside in KLA (KLAC): Can the Stock Really Move This High?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "KLAC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'Wall Street Analysts See a 27.86% Upside in KLA (KLAC): Can the Stock Really Move This High?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "KLAC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792008097.5317266
+        },
+        "headlineKo": "월스트리트 분석가들은 KLA(KLAC)에서 27.86%의 상승 여력을 확인했습니다. 주식이 정말 이렇게 높게 움직일 수 있을까요?"
+      },
+      {
+        "headline": "One Reason KLA Stock Looks Better Than Its Price",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c87ce52c30d6bda4211b396d57f7d856bf3bbd4da7ea7d3ac4c7576212361517",
+        "datetime": 1791922968,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "KLA 주식이 가격보다 좋아 보이는 한 가지 이유"
+      },
+      {
+        "headline": "Semiconductor Equipment Stocks Slide as Investors Take Profits on a Huge Year: Applied Materials Sinks 7%, Lam Research and KLA Drop 4%",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=276a62b4145219492a2a13dd4a3fc36f5b246e926ccd7fff3733dd5f3d47a40d",
+        "datetime": 1791910426,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "엄청난 해에 투자자들이 이익을 얻으면서 반도체 장비 주가 하락: Applied Materials는 7% 하락, Lam Research 및 KLA는 4% 하락"
       },
       {
         "headline": "KLA Corporation’s (KLAC) Critical Role in Zero-Tolerance Defect Environments",
@@ -165607,6 +165604,153 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "KLA (KLAC) Pulls Back Following Sector Pressure, Is The Stock Still Cheap?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=64b4b8a2b3f65227040cfaeb54b77ad22700f0a2b3ad8d33cb7e967645208f5b",
+        "datetime": 1791987038,
+        "headlineKo": "KLA (KLAC)가 부문 압력에 따라 철수했는데 주식은 여전히 ​​​​저렴합니까?",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "KLA (KLAC) Pulls Back Following Sector Pressure, Is The Stock Still Cheap?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "KLAC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'KLA (KLAC) Pulls Back Following Sector Pressure, Is The Stock Still Cheap?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "KLAC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792008093.4055583
+        }
+      },
+      {
+        "headline": "KLA (KLAC) Stock Looks Fully Valued After Its 5 Year Run",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=df0c3e07e010e7245b22dd6a21db2c8ded1aafb150fa4b92092818c9725345be",
+        "datetime": 1791983586,
+        "headlineKo": "KLA (KLAC) 주식은 5년 동안의 실행 후 완전히 가치를 지닌 것으로 보입니다.",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "KLA (KLAC) Stock Looks Fully Valued After Its 5 Year Run",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "KLAC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'KLA (KLAC) Stock Looks Fully Valued After Its 5 Year Run' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "KLAC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792008095.5282786
+        }
+      },
+      {
+        "headline": "Wall Street Analysts See a 27.86% Upside in KLA (KLAC): Can the Stock Really Move This High?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6dcb88a4ca8df9440b8a0eb9b6ce11fbdab24e5939fbde72e0eb2b7c3291856d",
+        "datetime": 1791982502,
+        "headlineKo": "월스트리트 분석가들은 KLA(KLAC)에서 27.86%의 상승 여력을 확인했습니다. 주식이 정말 이렇게 높게 움직일 수 있을까요?",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Wall Street Analysts See a 27.86% Upside in KLA (KLAC): Can the Stock Really Move This High?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "KLAC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'Wall Street Analysts See a 27.86% Upside in KLA (KLAC): Can the Stock Really Move This High?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "KLAC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792008097.5317266
+        }
+      },
       {
         "headline": "One Reason KLA Stock Looks Better Than Its Price",
         "source": "Yahoo",
@@ -168278,15 +168422,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791986403.4714622,
-    "_updated_label": "2026-10-14 23:01",
-    "_last_success_at": 1791986403.4714622,
+    "_fetched_at": 1792008065.4514022,
+    "_updated_label": "2026-10-15 05:01",
+    "_last_success_at": 1792008065.4514022,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 60,
+      "checked": 63,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "MU": {
@@ -176149,7 +176293,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "SNDK": {
@@ -184960,7 +185104,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "WDC": {
@@ -190141,11 +190285,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 109,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "ANET": {
-    "_last_attempt_at": 1791986403.4714622,
+    "_last_attempt_at": 1792008065.4514022,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -190154,6 +190298,56 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "If You Invested $1000 in Arista Networks 10 Years Ago, This Is How Much You'd Have Now",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a57d0edc997366e9b58723028ce0f2ae1274753449a933c527444df4b892282e",
+        "datetime": 1791977403,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "If You Invested $1000 in Arista Networks 10 Years Ago, This Is How Much You'd Have Now",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ANET",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ANET의 사업과 관련된 'If You Invested $1000 in Arista Networks 10 Years Ago, This Is How Much You'd Have Now' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ANET 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792008104.1492426
+        },
+        "headlineKo": "10년 전에 Arista Networks에 $1000를 투자했다면 지금은 이 금액을 갖게 될 것입니다."
+      },
       {
         "headline": "Arista Networks (ANET) Registers a Bigger Fall Than the Market: Important Facts to Note",
         "source": "Yahoo",
@@ -190200,7 +190394,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791986491.063963
+          "analysisUpdatedAt": 1792008105.8316736
         },
         "headlineKo": "Arista Networks(ANET)는 시장보다 더 큰 하락세를 기록했습니다: 주목해야 할 중요한 사실"
       },
@@ -190250,7 +190444,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791986494.4632466
+          "analysisUpdatedAt": 1792008107.8477747
         },
         "headlineKo": "Arista Networks(ANET) 주식 하락, 새로운 관심의 배경은 무엇입니까?"
       },
@@ -190262,60 +190456,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "공급망 · 생산 차질 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "국제 비즈니스 기계: 2026년에는 어떤 기술 재고가 더 나은 구매입니까?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + --- % | ▲ Stock Advisor + --- % 2026년 Arista Networks (ANET -1.90%) 와 International Business Machines (IBM +0.75%) 중 하나를 선택하려면 Motley Fool에 가입해야 합니다.",
-            "Arista Networks는 대규모 데이터 센터를 위한 고속 스위치를 전문으로 하는 반면, International Business Machines는 하이브리드 클라우드 및 AI 플랫폼에 중점을 둡니다."
-          ],
-          "why": [
-            "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $200.64, 1.90 %, $3.88 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "ANET의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "주문은 있어도 부품이나 생산 문제로 제때 팔지 못할 수 있다는 뉴스입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "ANET",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "출하 지연 기간",
-            "재고와 리드타임",
-            "매출총이익률·대체 공급처"
-          ],
-          "interpretation": "ANET에 대한 공급망 · 생산 차질 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$200.64",
-            "1.90 %",
-            "$3.88",
-            "$232.52",
-            "0.75 %",
-            "$1.74",
-            "$258",
-            "$114.52"
-          ],
-          "sourceExcerpt": [
-            "International Business Machines: Which Technology Stock Is a Better Buy in 2026?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Choosing between Arista Networks ( ANET -1.90% ) and International Business Machines ( IBM +0.75% ) in 2026 requires balancing high",
-            "Arista Networks specializes in high-speed switches for massive data centers, while International Business Machines focuses on hybrid cloud and AI platforms."
-          ],
-          "analysisUpdatedAt": 1791986501.9322107
-        },
         "headlineKo": "Arista Networks 대 국제 비즈니스 머신: 2026년에는 어떤 기술 주식을 구매하는 것이 더 낫습니까?"
       },
       {
@@ -190327,19 +190467,58 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Arista의 이연 수익은 69억 달러입니다. 현금흐름을 얼마나 설명하는가?"
-      },
-      {
-        "headline": "Is Arista Networks (ANET) Outperforming Other Computer and Technology Stocks This Year?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e2aff0e8c2ba54495beaa755d9b112d582d671b78192ee76b6cf7e46f583ad0e",
-        "datetime": 1791808804,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Arista Networks(ANET)가 올해 다른 컴퓨터 및 기술 주식을 능가합니까?"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "If You Invested $1000 in Arista Networks 10 Years Ago, This Is How Much You'd Have Now",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a57d0edc997366e9b58723028ce0f2ae1274753449a933c527444df4b892282e",
+        "datetime": 1791977403,
+        "headlineKo": "10년 전에 Arista Networks에 $1000를 투자했다면 지금은 이 금액을 갖게 될 것입니다.",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "If You Invested $1000 in Arista Networks 10 Years Ago, This Is How Much You'd Have Now",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ANET",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ANET의 사업과 관련된 'If You Invested $1000 in Arista Networks 10 Years Ago, This Is How Much You'd Have Now' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ANET 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792008104.1492426
+        }
+      },
       {
         "headline": "Arista Networks (ANET) Registers a Bigger Fall Than the Market: Important Facts to Note",
         "source": "Yahoo",
@@ -190386,7 +190565,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791986491.063963
+          "analysisUpdatedAt": 1792008105.8316736
         }
       },
       {
@@ -190435,7 +190614,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791986494.4632466
+          "analysisUpdatedAt": 1792008107.8477747
         }
       },
       {
@@ -194141,15 +194320,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791986403.4714622,
-    "_updated_label": "2026-10-14 23:01",
-    "_last_success_at": 1791986403.4714622,
+    "_fetched_at": 1792008065.4514022,
+    "_updated_label": "2026-10-15 05:01",
+    "_last_success_at": 1792008065.4514022,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 80,
+      "checked": 81,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "COHR": {
@@ -197902,7 +198081,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "LITE": {
@@ -202557,7 +202736,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "GEV": {
@@ -207964,7 +208143,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 108,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "CEG": {
@@ -212941,7 +213120,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 108,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "VST": {
@@ -216591,7 +216770,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "ETN": {
@@ -220015,7 +220194,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "PWR": {
@@ -223231,7 +223410,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "HUBB": {
@@ -223998,7 +224177,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "VRT": {
@@ -228328,7 +228507,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "MOD": {
@@ -229656,7 +229835,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "STX": {
@@ -234271,7 +234450,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "EME": {
@@ -236081,7 +236260,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "FIX": {
@@ -237771,7 +237950,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   },
   "BE": {
@@ -240378,7 +240557,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-10-15 04:02"
+      "updated": "2026-10-15 05:01"
     }
   }
 };
