@@ -4940,8 +4940,14 @@ function summaryCardHtml(r){
   const cl = r.series && Array.isArray(r.series.closes) ? r.series.closes.filter(v => num(v) && v > 0) : [];
   const avg = arr => arr.reduce((t, v) => t + v, 0) / arr.length;
   const priceOk = summaryLivePriceOk(r);
+  // --- WO-11(수정지시서#01) -- 실시간 조회가 실패/지연되면(priceOk=false) 캐시
+  //     종가(cl = r.series.closes, prices_data.js 기반)가 충분히 있어도 차트 상태 전체를
+  //     숨겼음. 가격 판단 카드가 이미 캐시를 쓰는 것과 똑같이, 여기서도 캐시로 계산하고
+  //     "캐시 기준(날짜)"을 명시해 숨기지 않는다 -- 새 계산 로직 추가가 아니라 기존 계산을
+  //     캐시 데이터로도 돌리게 조건만 완화. 캐시조차 부족할 때만(50봉 미만) 완전히 숨긴다. ---
+  const hasCache = cl.length >= 50;
   let chartBody;
-  if(!priceOk){
+  if(!priceOk && !hasCache){
     chartBody = '<div class="sub">가격 자료부족(캐시·지연·조회 실패·빈 봉·누락) — 차트 상태 표시 안 함</div>';
   } else {
     const ma50 = cl.length >= 50 ? avg(cl.slice(-50)) : null;
@@ -4949,11 +4955,12 @@ function summaryCardHtml(r){
     const ma200prev = cl.length >= 220 ? avg(cl.slice(-220, -20)) : null;
     const slope = (ma200now && ma200prev) ? ma200now / ma200prev - 1 : null;
     const last = cl.length ? cl[cl.length - 1] : null;
+    const cacheNote = !priceOk ? ' · <b style="color:#876000;">캐시 기준(실시간 조회 실패/지연 — 최신이 아닐 수 있음)</b>' : '';
     chartBody = row('200일선 대비', num(r.ma200Pct) ? `${pp(r.ma200Pct)} ${r.ma200Pct >= 0 ? '(위)' : '(아래)'}` : '—')
       + row('200일선 기울기(20거래일)', num(slope) ? `${pc(slope)} ${slope >= 0 ? '상승' : '하락'}` : '—')
       + row('50일선 대비', (ma50 && last) ? pc(last / ma50 - 1) : '—')
       + row('52주 종가 고점대비', pp(r.drawdownPct)) + row('RSI(14)', num(r.rsi) ? r.rsi.toFixed(0) : '—')
-      + `<div class="sub" style="font-size:10.5px;">${esc((r.dataHealth && r.dataHealth.lastDate) || '')} 종가 기준</div>`;
+      + `<div class="sub" style="font-size:10.5px;">${esc((r.dataHealth && r.dataHealth.lastDate) || '')} 종가 기준${cacheNote}</div>`;
   }
 
   // 하락 성격: 점수·행동 문구 없이 사실만(Codex #09 P2)
@@ -5542,11 +5549,28 @@ function computePriceValidity(r){
   // --- 6) 103 기술적 진입 상태 (기존 계산 결과 재사용, 새로 계산하지 않음) ---
   const uptrend = typeof r.ma200Pct==='number' ? r.ma200Pct > 0 : null;
   const techScore = r.techScore;
+  // --- WO-08(수정지시서#01) -- "추격 금지"가 이격도·RSI와 무관하게 "상승 추세인데 진입
+  //     신호가 0점"이기만 하면 전부 걸려(39종목 중 19종목이 눌림 대기, 매수 가능 0건 —
+  //     ETN(200일선 +9%, RSI 51)과 AMD(+56%)가 같은 라벨을 받는 문제). 이격도·RSI로
+  //     3단계(정상/과열/극과열)를 나누고 "추격 금지"는 극과열에만 쓴다. 극과열이 아닌
+  //     경우는 아래 chart 분기에서 걸러지지 않아 pvIntegratedAction의 P7(분할 축적 검토)로
+  //     자연히 흘러간다 -- 합의 구간(WO-07, 옵션 데이터 미확보로 보류) 없이도 "매수 가능"
+  //     결론이 나올 수 있게 되는 효과. ---
+  const rsiVal = typeof r.rsi==='number' ? r.rsi : null;
+  let overheatTier = null;
+  if(uptrend && typeof r.ma200Pct==='number'){
+    const ma = r.ma200Pct;
+    if(ma>=30 || (rsiVal!=null && rsiVal>=75)) overheatTier = 'extreme';
+    else if(ma>=15 || (rsiVal!=null && rsiVal>=65)) overheatTier = 'hot';
+    else overheatTier = 'normal';
+  }
   let chart;
   if(techScore==null || uptrend==null) chart = '데이터 부족';
   else if(techScore>=1) chart = '눌림 진입 가능';
   else if(techScore===0.5) chart = '반등 확인 대기';
-  else if(techScore===0 && uptrend) chart = '추격 금지';
+  else if(techScore===0 && uptrend){
+    chart = (overheatTier==='extreme') ? '추격 금지' : (overheatTier==='hot' ? '과열 구간(비중 축소 고려)' : '정상 추세 대기');
+  }
   else chart = '하락 추세 경계';
 
   // --- 8) 사업 축 (142 기대충족 상태 재사용, 신규 계산 없음) -- 51748: 가격 분류가 사업
@@ -5764,12 +5788,22 @@ function computePriceValidity(r){
       epsHighNTM = (typeof fy0.epsHigh==='number') ? fy0.epsHigh : ntmEps;
     }
     const baseAnchorPe = (bandBasis==='ticker') ? fund.avgPe3Y : fund.avgPe3Y; // 기준 시나리오는 두 경우 모두 avgPe3Y 사용(기존과 동일)
+    // --- WO-06 item1(수정지시서#01) -- 기존 "보수가"(EPS 최저 × PER 하단)는 비관 가정을
+    //     동시에 두 번(EPS도 낮게, PER도 낮게) 적용해 폭이 과도하게 넓어짐(ASML +125%,
+    //     ETN 폭의 대부분이 PER 밴드에서 나옴 — 실측 EPS 비율 0.932, PER 비율 0.658).
+    //     새 "매수 구간(완화)"은 평균 EPS × (평균 PER − 0.5×(평균 PER − PER 하단))으로
+    //     비관 가정을 하나만 반영한다. 기존 공식은 지우지 않고 "스트레스 바닥(참고)"으로
+    //     이름을 바꿔 접어서 함께 보존한다(두 숫자 다 화면에 남김 — 어느 쪽도 지어낸
+    //     숫자가 아니라 기존에 쓰던 두 입력의 재조합). ---
+    const balancedConservativePe = baseAnchorPe - 0.5*(baseAnchorPe - perBandLowVal);
     bandTable = {
       asOf: asOfStr,
       bandBasis,
-      conservative: {eps: epsLowNTM, per: perBandLowVal, price: epsLowNTM*perBandLowVal},
+      stressFloor: {eps: epsLowNTM, per: perBandLowVal, price: epsLowNTM*perBandLowVal}, // 기존 "보수가" 공식 — 이름만 변경, 계산 동일
+      conservative: {eps: epsAvgNTM, per: balancedConservativePe, price: epsAvgNTM*balancedConservativePe}, // WO-06 신규
       base: {eps: epsAvgNTM, per: baseAnchorPe, price: epsAvgNTM*baseAnchorPe},
       upside: {eps: epsHighNTM, per: perBandHighVal, price: epsHighNTM*perBandHighVal},
+      epsLowNTM, epsHighNTM, // WO-06 item4 폭 분해용
     };
   }
 
@@ -5779,10 +5813,14 @@ function computePriceValidity(r){
   //     바꾸지 않는다(위 pvBandVetoLabel과 별도 -- 이건 "얼마나 벗어났는가"의 강한 경보,
   //     그건 "거부권으로 가려졌다"는 사유 표시). ---
   let priceAlert = null, priceAlertNote = null;
-  if(bandTable && typeof r.price==='number' && bandTable.conservative.price>0 && bandTable.upside.price>0){
-    if(r.price < bandTable.conservative.price*0.8){
+  // WO-06 적용 후 bandTable.conservative는 "완화된" 보수가(평균 EPS 기준)로 바뀌었으므로,
+  // WO-04의 "모델 불신 경보"(얼마나 벗어났는가)는 더 엄격한 기존 공식인 stressFloor(EPS
+  // 최저×PER 하단)를 기준으로 유지한다 — WO-04 진단 당시 실측(ORCL $251, STX $1,093)이
+  // 이 stressFloor 값이었으므로 기준을 바꾸면 안 됨.
+  if(bandTable && typeof r.price==='number' && bandTable.stressFloor.price>0 && bandTable.upside.price>0){
+    if(r.price < bandTable.stressFloor.price*0.8){
       priceAlert = '모델 불신 경보';
-      priceAlertNote = `현재가가 보수적 모델가($${bandTable.conservative.price.toFixed(2)})의 80% 밑입니다 — 시장이 이 EPS 추정을 믿지 않는다는 뜻일 수 있어, 가격 라벨과 무관하게 신용·가이던스·회계를 직접 점검하는 것을 권합니다.`;
+      priceAlertNote = `현재가가 보수적 모델가(스트레스 바닥 $${bandTable.stressFloor.price.toFixed(2)})의 80% 밑입니다 — 시장이 이 EPS 추정을 믿지 않는다는 뜻일 수 있어, 가격 라벨과 무관하게 신용·가이던스·회계를 직접 점검하는 것을 권합니다.`;
     } else if(r.price > bandTable.upside.price*1.2){
       priceAlert = '모델 불신 경보';
       priceAlertNote = `현재가가 상방 모델가($${bandTable.upside.price.toFixed(2)})의 120% 위입니다 — 시장이 이 EPS 추정보다 훨씬 낙관적인 기대를 반영하고 있다는 뜻일 수 있습니다.`;
@@ -5809,6 +5847,7 @@ function computePriceValidity(r){
     epsPositive, epsNegative, growthStrong, growthWeak, hasAnyNegative, allPositive,
     fallbackAxes, fallbackDecisiveReason,
     pvBandVetoLabel, priceHold, priceAlert, priceAlertNote,
+    ma200Pct: (typeof r.ma200Pct==='number' ? r.ma200Pct : null), overheatTier, // WO-08
   };
 }
 
@@ -6030,7 +6069,11 @@ function pvActionSentence(d){
   if(d.price === '고평가') return '현재가가 요구하는 밸류에이션이 과거 고밴드를 넘어서 있어 시장 기대가 이미 크게 반영된 구간으로 보입니다 — 추가 상승 여력보다 되돌림 위험을 함께 고려하십시오.';
   // 이 지점부터는 가격이 저평가 또는 적정이고 현금흐름도 건전함
   if(d.chart === '추격 금지'){
-    return d.price==='저평가' ? T2 : '가격은 적정 구간일 수 있으나 현재는 추격 구간 — 눌림 또는 반등 확인 대기';
+    // WO-08 item3 -- 고정 문구 대신 실제 숫자(200일선 대비 이격도, 모델 보수가)로 설명한다.
+    const numSuffix = (typeof d.ma200Pct==='number' && d.bandTable && d.bandTable.conservative.price>0)
+      ? ` — 200일선보다 +${d.ma200Pct.toFixed(0)}% 높은 극과열 구간입니다. $${d.bandTable.conservative.price.toFixed(2)} 이하로 눌리면 1차 진입을 검토하십시오.`
+      : '';
+    return (d.price==='저평가' ? T2 : '가격은 적정 구간일 수 있으나 현재는 추격 구간 — 눌림 또는 반등 확인 대기') + numSuffix;
   }
   if(d.chart === '하락 추세 경계'){
     return `가격은 ${d.price==='저평가'?'저평가':'적정'} 구간이나 차트는 하락 추세 경계 — 추세 반전 확인 전 신규 진입 보류`;
@@ -6207,6 +6250,8 @@ function pvChartSimple(d){
     case '눌림 진입 가능': return '진입 가능';
     case '반등 확인 대기': return '반등 확인';
     case '추격 금지': return '눌림 대기';
+    case '과열 구간(비중 축소 고려)': return '비중 축소 고려'; // WO-08
+    case '정상 추세 대기': return '진입 가능'; // WO-08 -- 극과열 아닌 정상 추세는 더 이상 대기로 뭉뚱그리지 않음
     case '하락 추세 경계': return '관찰';
     case '데이터 부족': return '관찰';
     default: return '관찰';
@@ -6288,21 +6333,36 @@ const PV_COLOR = {
 //     (데이터 공백이 아니라 안 쓰고 있었을 뿐 -- 사용자가 지적한 "데이터 공백이 많다"를
 //     코드 수정 없이 기존 데이터 연결만으로 줄이는 사례). ---
 function pvDecisionInfo(d, r, act, num){
-  const out = { buyZone: null, buyZoneWidthNote: null, confirmCond: null, invalidateCond: null, nextCheck: null };
+  const out = { buyZone: null, buyZoneWidthNote: null, buyZoneStressFloor: null, perBandYearsActual: null, confirmCond: null, invalidateCond: null, nextCheck: null };
 
   const bandDisplayEligible = d.bandEligible && !d.distorted;
   if(bandDisplayEligible && d.bandTable){
     const bt = d.bandTable;
+    // WO-06(수정지시서#01) -- 비관 가정을 하나만 반영한 완화된 보수가를 메인 구간으로
+    // 표시하고, 기존(이중 비관) 공식은 "스트레스 바닥(참고)"로 접어서 같이 보여준다
+    // (숫자를 지우지 않음 — 둘 다 기존에 쓰던 입력의 재조합).
     out.buyZone = `$${bt.conservative.price.toFixed(2)} ~ $${bt.base.price.toFixed(2)}(상단 $${bt.upside.price.toFixed(2)} 초과 시 기대 선반영 경계)`;
-    // 51761 -- 매수구간 폭이 넓어 보여 신뢰도가 의심된다는 사용자 피드백 반영. 새 구간·새
-    // 계산을 추가하지 않고, 이미 있는 숫자(conservative~base)로 폭(%)만 계산해 40% 이상이면
-    // 그 폭이 "계산 오류"가 아니라 과거 PER 20~80백분위 밴드(fundamentals_data.js의
-    // perBandLow/perBandHigh, 이미 강건 통계 기반)와 애널리스트 EPS 추정 범위(저~평균)가
-    // 곱해져서 생기는 구조적 결과임을 설명하는 안내문만 추가한다.
+    out.buyZoneStressFloor = `스트레스 바닥(참고, 이중 비관 가정): $${bt.stressFloor.price.toFixed(2)}`;
+    out.perBandYearsActual = (d.perBandYears!=null) ? d.perBandYears : null;
     if(bt.conservative.price > 0){
       const widthPct = (bt.base.price - bt.conservative.price) / bt.conservative.price * 100;
+      // WO-06 item4 -- 폭을 "EPS 차이 몇 % · PER 차이 몇 %"로 실제 계산해 보여준다(로그
+      // 분해 -- 상방/보수 배수를 EPS 배수 × PER 배수의 곱으로 보고 각 기여도를 %로 환산).
+      let epsShare = null, perShare = null;
+      if(bt.conservative.price>0 && bt.upside.price>0 && bt.epsLowNTM>0 && bt.epsHighNTM>0 && bt.conservative.per>0 && bt.upside.per>0){
+        const totalLog = Math.log(bt.upside.price/bt.conservative.price);
+        if(totalLog > 0){
+          const epsLog = Math.log(bt.epsHighNTM/bt.epsLowNTM);
+          const perLog = Math.log(bt.upside.per/bt.conservative.per);
+          epsShare = epsLog/totalLog*100;
+          perShare = perLog/totalLog*100;
+        }
+      }
+      const yearsNote = (d.perBandYears!=null) ? `PER 밴드 산출 기간 실제 ${d.perBandYears}년(문구상 "3년"과 다름 — 통일 작업 전까지는 종목마다 다른 실제 기간을 그대로 표시)` : '';
       if(widthPct >= 40){
-        out.buyZoneWidthNote = `※ 구간이 넓어 보일 수 있어요 — 계산 오류가 아니라, 과거 3년 PER의 20~80백분위 밴드(변동성이 큰 종목일수록 넓음)와 애널리스트 EPS 추정치의 저~평균 범위를 함께 반영하다 보니 두 불확실성이 곱해져 폭이 커진 구조적 결과예요(현재 폭 약 +${widthPct.toFixed(0)}%). 보수적으로 보려면 구간 하단에 가까울수록, 공격적으로 보려면 상단에 가까울수록 신뢰도가 낮아진다고 이해하시면 됩니다.`;
+        out.buyZoneWidthNote = `※ 구간이 넓어 보일 수 있어요 — 계산 오류가 아니라, 과거 PER 20~80백분위 밴드(변동성이 큰 종목일수록 넓음)와 애널리스트 EPS 추정치의 저~평균 범위를 함께 반영하다 보니 생기는 구조적 결과예요(현재 폭 약 +${widthPct.toFixed(0)}%${(epsShare!=null&&perShare!=null)?` · 폭 중 EPS 차이 기여 ${epsShare.toFixed(0)}% · PER 차이 기여 ${perShare.toFixed(0)}%`:''}). ${yearsNote}`;
+      } else if(yearsNote){
+        out.buyZoneWidthNote = `※ ${yearsNote}`;
       }
     }
   } else if(d.usedFallbackModel){
@@ -6354,8 +6414,22 @@ function renderCompassCard(r){
   const c = pvCompassData(r.ticker);
   if(!c) return '';
   const NEU_BG='#eef0f3', NEU_TEXT='#3c4552', NEU_LINE='#d7dbe1', NEU_DIM='#5b6472';
-  const decColor = COMPASS_DEC_COLOR[c.dec] || NEU_TEXT;
-  const decLabel = c.decTxt || COMPASS_DEC_LABEL[c.dec] || c.dec || '—';
+  let decColor = COMPASS_DEC_COLOR[c.dec] || NEU_TEXT;
+  let decLabel = c.decTxt || COMPASS_DEC_LABEL[c.dec] || c.dec || '—';
+
+  // --- WO-03 item2(수정지시서#01) -- 화면에 표시하는 시점에 현재가·200일선으로 다시
+  //     검사한다. 나침반 피드가 ACC/BUY(200일선 위 눌림)라고 판정했어도, 지금 시점
+  //     r.ma200Pct(이미 계산돼 있는 값, 새 계산 없음)가 음수면(현재가가 200일선 아래로
+  //     내려옴) 피드 데이터를 지어내 고치지 않고 화면에서만 "추세 이탈 점검"으로 바꿔
+  //     보여준다 -- 자기 규칙 위반(ORCL·WDC·COHR·VRT·MOD·EME 실측) 노출. ---
+  let compassOverrideNote = '';
+  const feedSaysUptrend = (c.dec === 'BUY' || c.dec === 'ACC');
+  const liveBelowMa200 = typeof r.ma200Pct === 'number' && r.ma200Pct < 0;
+  if(feedSaysUptrend && liveBelowMa200){
+    decColor = COMPASS_DEC_COLOR.SELL;
+    decLabel = '추세 이탈 점검';
+    compassOverrideNote = `<div style="margin-top:6px;font-size:11px;color:#7a3b2e;background:#fff0ea;border:1px solid #e9c3b8;border-radius:8px;padding:6px 9px;line-height:1.5;">⚠ 피드 판정은 "${esc(COMPASS_DEC_LABEL[c.dec]||c.dec)}"(기준일 ${esc(c.date||(typeof COMPASS_FEED!=='undefined'?COMPASS_FEED.date:'')||'—')} 기준 200일선 위)였지만, 지금 현재가는 200일선 아래(${r.ma200Pct.toFixed(1)}%)로 내려와 있어 화면에서 "추세 이탈 점검"으로 바꿔 표시합니다 — 나침반 자신의 전제(200일선 위 유지)가 깨진 상태입니다.</div>`;
+  }
 
   // 기존 EPS·PER 기반 가격 판단과 결론 방향이 뚜렷이 엇갈릴 때만 "기준이 다름" 안내를
   // 붙인다(문서 4번). 둘 다 계산해야 비교 가능하므로 여기서도 computePriceValidity를
@@ -6363,10 +6437,18 @@ function renderCompassCard(r){
   let diffNote = '';
   try {
     const d = computePriceValidity(r);
-    const conflict = (d.price === '고평가' && (c.dec === 'BUY' || c.dec === 'ACC'))
-      || (d.price === '저평가' && c.dec === 'SELL');
+    // --- WO-09(수정지시서#01) -- 기존엔 "고평가+BUY/ACC"·"저평가+SELL" 2가지 조합만
+    //     잡아서 INTC류("관찰"+BUY처럼 가격 라벨이 아니라 종합행동 쪽에서 막힌 경우)는
+    //     그냥 지나갔다. d.price(가격 라벨)가 아니라 pvIntegratedAction의 최종 단일
+    //     판정(act.tier, 이미 우선순위 적용된 결과)로 비교 범위를 넓혀 "진입 보류" 계열
+    //     전체와 "진입 가능" 계열 전체의 충돌을 잡는다 -- 새 판정을 만들지 않고 이미
+    //     계산된 두 결론을 비교만 함. ---
+    const act = pvIntegratedAction(d);
+    const NO_ENTRY_TIERS = ['downturn_stop','downturn_watch','cf_veto','price_caution','chart_downtrend'];
+    const conflict = (NO_ENTRY_TIERS.includes(act.tier) && (c.dec === 'BUY' || c.dec === 'ACC'))
+      || (act.tier === 'accumulate' && c.dec === 'SELL');
     if(conflict){
-      diffNote = `<div style="margin-top:8px;font-size:11.5px;color:${NEU_DIM};background:#fff8ea;border:1px solid #e9dcb8;border-radius:8px;padding:6px 9px;">⚠ 두 판단의 기준이 다릅니다 — 나침반: 추세 유지+조정폭 기준 진입 타이밍(확률 기반) · 아래 "가격 타당성": EPS·PER 기반 밸류에이션. 서로 다른 질문에 대한 답이라 결론이 엇갈릴 수 있습니다.</div>`;
+      diffNote = `<div style="margin-top:8px;font-size:11.5px;color:${NEU_DIM};background:#fff8ea;border:1px solid #e9dcb8;border-radius:8px;padding:6px 9px;">⚠ 두 판단의 결론이 다릅니다 — 종합행동(아래 "가격 타당성" 카드): <b>${esc(act.label)}</b> · 나침반: <b>${esc(decLabel)}</b>. 서로 다른 질문(밸류에이션·거부권 종합 vs 추세 유지+조정폭 타이밍)에 대한 답이라 결론이 엇갈릴 수 있습니다 — 둘 중 하나만 보고 판단하지 마세요.</div>`;
     }
   } catch(e) { /* 기존 카드 로직에 영향 주지 않도록 조용히 무시 */ }
 
@@ -6378,17 +6460,32 @@ function renderCompassCard(r){
   const causeLine = c.cause ? `<div style="margin-top:4px;font-size:11.5px;color:${NEU_TEXT};">하락 원인(참고): ${esc(causeTxt[c.cause] || c.cause)}</div>` : '';
   const qualLine = c.qualNote ? `<div style="margin-top:4px;font-size:11.5px;color:${NEU_TEXT};">품질 체크(미검증): ${esc(c.qualNote)}</div>` : '';
 
+  // --- WO-03 item3 -- 피드 기준일이 영업일 2일 넘게 지나면 카드를 흐리게 하고 경과일을
+  //     표시한다(피드 생성 파이프라인 연결은 별도 작업 -- 여기서는 화면 표시만 처리). ---
+  const feedDateStr = c.date || (typeof COMPASS_FEED!=='undefined'?COMPASS_FEED.date:'') || null;
+  let staleDays = null;
+  if(feedDateStr){
+    const fd = new Date(feedDateStr+'T00:00:00Z');
+    const nowD = new Date();
+    staleDays = Math.round((nowD - fd) / 86400000);
+  }
+  const isStale = staleDays != null && staleDays > 3; // 주말 포함 대략 영업일 2일 초과
+  const staleStyle = isStale ? 'opacity:0.6;filter:grayscale(35%);' : '';
+  const staleNote = isStale ? `<div style="margin-top:6px;font-size:10.5px;color:#7a3b2e;">⚠ 기준일 ${staleDays}일 지남 — 최신 상태가 아닐 수 있습니다.</div>` : '';
+
   return `
-    <div style="margin-bottom:12px;background:${NEU_BG};border:1px solid ${NEU_LINE};border-radius:12px;padding:12px 14px;">
+    <div style="margin-bottom:12px;background:${NEU_BG};border:1px solid ${NEU_LINE};border-radius:12px;padding:12px 14px;${staleStyle}">
       <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;margin-bottom:8px;">
         <div style="font-size:15px;font-weight:800;color:var(--text);">투자 나침반 — 진입 타이밍(신규, 백테스트 기반)</div>
         <div class="sub">읽기 전용 · 매수/매도 신호 아님 · 기준일 ${esc(c.date || (typeof COMPASS_FEED!=='undefined'?COMPASS_FEED.date:'') || '—')}</div>
       </div>
+      ${staleNote}
       <div style="font-size:16px;font-weight:800;color:${decColor};">${esc(decLabel)}</div>
       ${c.wait ? `<div style="margin-top:6px;font-size:12.5px;color:${NEU_TEXT};line-height:1.5;">${esc(c.wait)}</div>` : ''}
       ${statLine}
       ${causeLine}
       ${qualLine}
+      ${compassOverrideNote}
       ${diffNote}
       <div style="margin-top:8px;font-size:10.5px;color:${NEU_DIM};">※ "싸다/비싸다"가 아니라 "추세를 유지한 채 역사적으로 유리했던 조정 구간인가"를 판정합니다. 가격 자체의 밸류에이션 판단은 아래 "가격 타당성" 카드를 참고하세요.</div>
     </div>`;
@@ -6520,6 +6617,7 @@ function renderPriceValidityCard(r){
       <div style="margin-top:8px;font-size:11px;color:${NEU_DIM};font-weight:700;">매수 구간</div>
       <div style="margin-top:2px;font-size:12px;color:${NEU_TEXT};line-height:1.5;">${esc(decisionInfo.buyZone)}</div>
       ${decisionInfo.buyZoneWidthNote ? `<div style="margin-top:4px;font-size:11px;color:${NEU_DIM};background:#fff8ea;border:1px solid #e9dcb8;border-radius:8px;padding:7px 9px;line-height:1.5;">${esc(decisionInfo.buyZoneWidthNote)}</div>` : ''}
+      ${decisionInfo.buyZoneStressFloor ? `<details style="margin-top:4px;"><summary style="font-size:10.5px;color:${NEU_DIM};cursor:pointer;">${esc(decisionInfo.buyZoneStressFloor)}</summary></details>` : ''}
       ${decisionInfo.confirmCond ? `
       <div style="margin-top:8px;font-size:11px;color:${NEU_DIM};font-weight:700;">더 좋아지는 조건</div>
       <div style="margin-top:2px;font-size:12px;color:${NEU_TEXT};line-height:1.5;">${esc(decisionInfo.confirmCond)}</div>` : ''}

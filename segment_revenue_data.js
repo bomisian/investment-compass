@@ -4,137 +4,47 @@
 const SEGMENT_REVENUE_DATA = {
   "AMD": [
     {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ClientAndGaming;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Client And Gaming",
-      "value": 9649000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ClientAndGaming;ProductOrService=Client;",
-      "segmentLabel": "Client And Gaming · Client",
-      "value": 7054000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=Datacenter;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Datacenter",
-      "value": 12579000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=Embedded;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Embedded",
-      "value": 3557000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=Gaming;ProductOrService=Gaming;",
-      "segmentLabel": "Gaming · Gaming",
-      "value": 2595000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=CN;",
-      "segmentLabel": "CN",
-      "value": 6231000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=OtherCountries;",
-      "segmentLabel": "Other Countries",
-      "value": 3946000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=SG;",
-      "segmentLabel": "SG",
-      "value": 3614000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=TW;",
-      "segmentLabel": "TW",
-      "value": 3301000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=US;",
-      "segmentLabel": "US",
-      "value": 8693000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ClientAndGaming;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Client And Gaming",
-      "value": 2941000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ClientAndGaming;ProductOrService=Client;",
-      "segmentLabel": "Client And Gaming · Client",
-      "value": 2294000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
+      "endDate": "2025-06-30",
+      "qtrs": "2",
       "segmentRaw": "BusinessSegments=ClientAndGaming;ProductOrService=Gaming;",
       "segmentLabel": "Client And Gaming · Gaming",
-      "value": 647000000.0,
+      "value": 1769000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2025-03-31",
+      "endDate": "2025-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=DataCenter;ConsolidationItems=OperatingSegments;",
       "segmentLabel": "Data Center",
-      "value": 3674000000.0,
+      "value": 3240000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2025-03-31",
+      "endDate": "2025-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=DataCenter;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Data Center",
+      "value": 6914000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2025-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=Embedded;ConsolidationItems=OperatingSegments;",
       "segmentLabel": "Embedded",
-      "value": 823000000.0,
+      "value": 824000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2025-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=Embedded;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Embedded",
+      "value": 1647000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
@@ -362,134 +272,99 @@ const SEGMENT_REVENUE_DATA = {
       "value": 873000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ClientAndGaming;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Client And Gaming",
+      "value": 3841000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ClientAndGaming;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Client And Gaming",
+      "value": 7446000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ClientAndGaming;ProductOrService=Client;",
+      "segmentLabel": "Client And Gaming · Client",
+      "value": 3062000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ClientAndGaming;ProductOrService=Client;",
+      "segmentLabel": "Client And Gaming · Client",
+      "value": 5947000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ClientAndGaming;ProductOrService=Gaming;",
+      "segmentLabel": "Client And Gaming · Gaming",
+      "value": 779000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ClientAndGaming;ProductOrService=Gaming;",
+      "segmentLabel": "Client And Gaming · Gaming",
+      "value": 1499000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=DataCenter;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Data Center",
+      "value": 6718000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=DataCenter;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Data Center",
+      "value": 12493000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=Embedded;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Embedded",
+      "value": 977000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=Embedded;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Embedded",
+      "value": 1850000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
     }
   ],
   "INTC": [
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ClientComputingGroup;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Client Computing Group",
-      "value": 7629000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ClientComputingGroupDatacenterAndAIAndNetworkAndEdge;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Client Computing Group Datacenter And AI And Network And Edge",
-      "value": 11755000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=DatacenterAndAI;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Datacenter And AI",
-      "value": 4126000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=IntelFoundry;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Intel Foundry",
-      "value": 4667000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=IntelFoundry;ProductOrService=AssemblyAndTest;",
-      "segmentLabel": "Intel Foundry · Assembly And Test",
-      "value": 31000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ConsolidationItems=IntersegmentElimination;",
-      "segmentLabel": "Intersegment Elimination;",
-      "value": -4698000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=AllOtherSegments;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "All Other Segments",
-      "value": 993000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "BusinessSegments=AllOtherSegments;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "All Other Segments",
-      "value": 2989000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ClientComputingGroup;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Client Computing Group",
-      "value": 8535000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "BusinessSegments=ClientComputingGroup;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Client Computing Group",
-      "value": 24035000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ClientComputingGroupDatacenterAndAIAndNetworkAndEdge;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Client Computing Group Datacenter And AI And Network And Edge",
-      "value": 12652000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "BusinessSegments=ClientComputingGroupDatacenterAndAIAndNetworkAndEdge;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Client Computing Group Datacenter And AI And Network And Edge",
-      "value": 36217000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=DatacenterAndAI;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Datacenter And AI",
-      "value": 4117000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "BusinessSegments=DatacenterAndAI;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Datacenter And AI",
-      "value": 12182000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2025-09-30",
       "qtrs": "1",
@@ -719,540 +594,497 @@ const SEGMENT_REVENUE_DATA = {
       "value": 139000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=AllOtherSegments;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "All Other Segments",
+      "value": 701000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=AllOtherSegments;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "All Other Segments",
+      "value": 1329000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ClientComputingAndPhysicalAIGroup;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Client Computing And Physical AI Group",
+      "value": 8877000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ClientComputingAndPhysicalAIGroup;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Client Computing And Physical AI Group",
+      "value": 16604000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ClientComputingGroupDatacenterAndAIAndNetworkAndEdge;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Client Computing Group Datacenter And AI And Network And Edge",
+      "value": 15139000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ClientComputingGroupDatacenterAndAIAndNetworkAndEdge;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Client Computing Group Datacenter And AI And Network And Edge",
+      "value": 27918000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=DatacenterAndAI;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Datacenter And AI",
+      "value": 6262000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=DatacenterAndAI;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Datacenter And AI",
+      "value": 11314000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=IntelFoundry;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Intel Foundry",
+      "value": 5765000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=IntelFoundry;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Intel Foundry",
+      "value": 11186000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=IntelFoundry;ProductOrService=AssemblyAndTest;",
+      "segmentLabel": "Intel Foundry · Assembly And Test",
+      "value": 293000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=IntelFoundry;ProductOrService=AssemblyAndTest;",
+      "segmentLabel": "Intel Foundry · Assembly And Test",
+      "value": 467000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "RelatedPartyTransactionsByRelatedParty=EquityMethodInvestee;",
+      "segmentLabel": "Equity Method Investee",
+      "value": 181000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "RelatedPartyTransactionsByRelatedParty=EquityMethodInvestee;",
+      "segmentLabel": "Equity Method Investee",
+      "value": 320000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
     }
   ],
   "EME": [
     {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=US;",
-      "segmentLabel": "US",
-      "value": 16515074000.0,
-      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=UnitedKingdomBuildingServicesMember;Geographical=GB;",
-      "segmentLabel": "United Kingdom Building Services · GB",
-      "value": 0.0,
-      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=UnitedKingdomBuildingServicesMember;Geographical=GB;ProductOrService=ProjectWork;",
-      "segmentLabel": "United Kingdom Building Services · GB · Project Work",
-      "value": 0.0,
-      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=UnitedKingdomBuildingServicesMember;Geographical=GB;ProductOrService=ServiceWork;",
-      "segmentLabel": "United Kingdom Building Services · GB · Service Work",
-      "value": 0.0,
-      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=UnitedStatesBuildingServices;Geographical=US;",
-      "segmentLabel": "United States Building Services · US",
-      "value": 772649000.0,
-      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=UnitedStatesBuildingServices;Geographical=US;ProductOrService=CommercialSiteBasedServices;",
-      "segmentLabel": "United States Building Services · US · Commercial Site Based Services",
-      "value": 141598000.0,
-      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=UnitedStatesBuildingServices;Geographical=US;ProductOrService=GovernmentSiteBasedServices;",
-      "segmentLabel": "United States Building Services · US · Government Site Based Services",
-      "value": 38283000.0,
-      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=UnitedStatesBuildingServices;Geographical=US;ProductOrService=MechanicalServices;",
-      "segmentLabel": "United States Building Services · US · Mechanical Services",
-      "value": 592768000.0,
-      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=UnitedStatesElectricalConstructionAndFacilitiesServices;ConsolidationItems=IntersegmentElimination;Geographical=US;",
-      "segmentLabel": "United States Electrical Construction And Facilities Services · US",
-      "value": -436000.0,
-      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=UnitedStatesElectricalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;",
-      "segmentLabel": "United States Electrical Construction And Facilities Services · US",
-      "value": 1447850000.0,
-      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=UnitedStatesElectricalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=CommercialMarketSector;",
-      "segmentLabel": "United States Electrical Construction And Facilities Services · US · Commercial Market Sector",
-      "value": 106951000.0,
-      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=UnitedStatesElectricalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=HealthcareMarketSector;",
-      "segmentLabel": "United States Electrical Construction And Facilities Services · US · Healthcare Market Sector",
-      "value": 113645000.0,
-      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=UnitedStatesElectricalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=HighTechManufacturingMarketSector;",
-      "segmentLabel": "United States Electrical Construction And Facilities Services · US · High Tech Manufacturing Market Sector",
-      "value": 25095000.0,
-      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=UnitedStatesElectricalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=HospitalityandEntertainmentMarketSector;",
-      "segmentLabel": "United States Electrical Construction And Facilities Services · US · Hospitalityand Entertainment Market Sector",
-      "value": 58721000.0,
-      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=UnitedStatesElectricalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=InstitutionalMarketSector;",
-      "segmentLabel": "United States Electrical Construction And Facilities Services · US · Institutional Market Sector",
-      "value": 82576000.0,
-      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=UnitedStatesElectricalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=ManufacturingandIndustrialMarketSector;",
-      "segmentLabel": "United States Electrical Construction And Facilities Services · US · Manufacturingand Industrial Market Sector",
-      "value": 112845000.0,
-      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=UnitedStatesElectricalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=NetworkandCommunicationsMarketSector;",
-      "segmentLabel": "United States Electrical Construction And Facilities Services · US · Networkand Communications Market Sector",
-      "value": 757371000.0,
-      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=UnitedStatesElectricalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=ServiceWork;",
-      "segmentLabel": "United States Electrical Construction And Facilities Services · US · Service Work",
-      "value": 26999000.0,
-      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=UnitedStatesElectricalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=ShortDurationProjects;",
-      "segmentLabel": "United States Electrical Construction And Facilities Services · US · Short Duration Projects",
-      "value": 99203000.0,
-      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=UnitedStatesElectricalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=TransportationMarketSector;",
-      "segmentLabel": "United States Electrical Construction And Facilities Services · US · Transportation Market Sector",
-      "value": 56803000.0,
-      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=UnitedStatesElectricalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=WaterandWastewaterMarketSector;",
       "segmentLabel": "United States Electrical Construction And Facilities Services · US · Waterand Wastewater Market Sector",
-      "value": 7641000.0,
+      "value": 6460000.0,
       "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UnitedStatesElectricalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=WaterandWastewaterMarketSector;",
+      "segmentLabel": "United States Electrical Construction And Facilities Services · US · Waterand Wastewater Market Sector",
+      "value": 14101000.0,
+      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=UnitedStatesElectricalConstructionAndFacilitiesServices;Geographical=US;",
       "segmentLabel": "United States Electrical Construction And Facilities Services · US",
-      "value": 1447414000.0,
+      "value": 1662501000.0,
       "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UnitedStatesElectricalConstructionAndFacilitiesServices;Geographical=US;",
+      "segmentLabel": "United States Electrical Construction And Facilities Services · US",
+      "value": 3109915000.0,
+      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=UnitedStatesIndustrialServices;Geographical=US;",
       "segmentLabel": "United States Industrial Services · US",
-      "value": 381829000.0,
+      "value": 353812000.0,
       "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UnitedStatesIndustrialServices;Geographical=US;",
+      "segmentLabel": "United States Industrial Services · US",
+      "value": 735641000.0,
+      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=UnitedStatesIndustrialServices;Geographical=US;ProductOrService=FieldServices;",
       "segmentLabel": "United States Industrial Services · US · Field Services",
-      "value": 349050000.0,
+      "value": 320138000.0,
       "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UnitedStatesIndustrialServices;Geographical=US;ProductOrService=FieldServices;",
+      "segmentLabel": "United States Industrial Services · US · Field Services",
+      "value": 669188000.0,
+      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=UnitedStatesIndustrialServices;Geographical=US;ProductOrService=ShopServices;",
       "segmentLabel": "United States Industrial Services · US · Shop Services",
-      "value": 32779000.0,
+      "value": 33674000.0,
       "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UnitedStatesIndustrialServices;Geographical=US;ProductOrService=ShopServices;",
+      "segmentLabel": "United States Industrial Services · US · Shop Services",
+      "value": 66453000.0,
+      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=IntersegmentElimination;Geographical=US;",
       "segmentLabel": "United States Mechanical Construction And Facilities Services · US",
-      "value": -5176000.0,
+      "value": -7926000.0,
       "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=IntersegmentElimination;Geographical=US;",
+      "segmentLabel": "United States Mechanical Construction And Facilities Services · US",
+      "value": -13102000.0,
+      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;",
       "segmentLabel": "United States Mechanical Construction And Facilities Services · US",
-      "value": 2031517000.0,
+      "value": 2308799000.0,
       "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;",
+      "segmentLabel": "United States Mechanical Construction And Facilities Services · US",
+      "value": 4340316000.0,
+      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=CommercialMarketSector;",
       "segmentLabel": "United States Mechanical Construction And Facilities Services · US · Commercial Market Sector",
-      "value": 238408000.0,
+      "value": 274235000.0,
       "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=CommercialMarketSector;",
+      "segmentLabel": "United States Mechanical Construction And Facilities Services · US · Commercial Market Sector",
+      "value": 512643000.0,
+      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=HealthcareMarketSector;",
       "segmentLabel": "United States Mechanical Construction And Facilities Services · US · Healthcare Market Sector",
-      "value": 151615000.0,
+      "value": 168143000.0,
       "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=HealthcareMarketSector;",
+      "segmentLabel": "United States Mechanical Construction And Facilities Services · US · Healthcare Market Sector",
+      "value": 319758000.0,
+      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=HighTechManufacturingMarketSector;",
       "segmentLabel": "United States Mechanical Construction And Facilities Services · US · High Tech Manufacturing Market Sector",
-      "value": 205480000.0,
+      "value": 227646000.0,
       "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=HighTechManufacturingMarketSector;",
+      "segmentLabel": "United States Mechanical Construction And Facilities Services · US · High Tech Manufacturing Market Sector",
+      "value": 433126000.0,
+      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=HospitalityandEntertainmentMarketSector;",
       "segmentLabel": "United States Mechanical Construction And Facilities Services · US · Hospitalityand Entertainment Market Sector",
-      "value": 27688000.0,
+      "value": 36035000.0,
       "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=HospitalityandEntertainmentMarketSector;",
+      "segmentLabel": "United States Mechanical Construction And Facilities Services · US · Hospitalityand Entertainment Market Sector",
+      "value": 63723000.0,
+      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=InstitutionalMarketSector;",
       "segmentLabel": "United States Mechanical Construction And Facilities Services · US · Institutional Market Sector",
-      "value": 170334000.0,
+      "value": 200027000.0,
       "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=InstitutionalMarketSector;",
+      "segmentLabel": "United States Mechanical Construction And Facilities Services · US · Institutional Market Sector",
+      "value": 370361000.0,
+      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=ManufacturingandIndustrialMarketSector;",
       "segmentLabel": "United States Mechanical Construction And Facilities Services · US · Manufacturingand Industrial Market Sector",
-      "value": 238865000.0,
+      "value": 271186000.0,
       "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=ManufacturingandIndustrialMarketSector;",
+      "segmentLabel": "United States Mechanical Construction And Facilities Services · US · Manufacturingand Industrial Market Sector",
+      "value": 510051000.0,
+      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=NetworkandCommunicationsMarketSector;",
       "segmentLabel": "United States Mechanical Construction And Facilities Services · US · Networkand Communications Market Sector",
-      "value": 613824000.0,
+      "value": 799293000.0,
       "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=NetworkandCommunicationsMarketSector;",
+      "segmentLabel": "United States Mechanical Construction And Facilities Services · US · Networkand Communications Market Sector",
+      "value": 1413117000.0,
+      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=ServiceWork;",
       "segmentLabel": "United States Mechanical Construction And Facilities Services · US · Service Work",
-      "value": 180940000.0,
+      "value": 181857000.0,
       "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=ServiceWork;",
+      "segmentLabel": "United States Mechanical Construction And Facilities Services · US · Service Work",
+      "value": 362797000.0,
+      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=ShortDurationProjects;",
       "segmentLabel": "United States Mechanical Construction And Facilities Services · US · Short Duration Projects",
-      "value": 108218000.0,
+      "value": 53844000.0,
       "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=ShortDurationProjects;",
+      "segmentLabel": "United States Mechanical Construction And Facilities Services · US · Short Duration Projects",
+      "value": 162062000.0,
+      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=TransportationMarketSector;",
       "segmentLabel": "United States Mechanical Construction And Facilities Services · US · Transportation Market Sector",
-      "value": 8595000.0,
+      "value": 10359000.0,
       "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=TransportationMarketSector;",
+      "segmentLabel": "United States Mechanical Construction And Facilities Services · US · Transportation Market Sector",
+      "value": 18954000.0,
+      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=WaterandWastewaterMarketSector;",
       "segmentLabel": "United States Mechanical Construction And Facilities Services · US · Waterand Wastewater Market Sector",
-      "value": 87550000.0,
+      "value": 86174000.0,
       "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;ConsolidationItems=OperatingSegments;Geographical=US;ProductOrService=WaterandWastewaterMarketSector;",
+      "segmentLabel": "United States Mechanical Construction And Facilities Services · US · Waterand Wastewater Market Sector",
+      "value": 173724000.0,
+      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;Geographical=US;",
       "segmentLabel": "United States Mechanical Construction And Facilities Services · US",
-      "value": 2026341000.0,
+      "value": 2300873000.0,
       "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UnitedStatesMechanicalConstructionAndFacilitiesServices;Geographical=US;",
+      "segmentLabel": "United States Mechanical Construction And Facilities Services · US",
+      "value": 4327214000.0,
+      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "Geographical=US;",
       "segmentLabel": "US",
-      "value": 4628233000.0,
+      "value": 5154892000.0,
+      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=US;",
+      "segmentLabel": "US",
+      "value": 9783125000.0,
       "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
       "isHedgeAdjustment": false
     }
   ],
   "KLAC": [
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=PCBAndComponentInspection;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "PCB And Component Inspection",
-      "value": 167642000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "3",
-      "segmentRaw": "BusinessSegments=PCBAndComponentInspection;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "PCB And Component Inspection",
-      "value": 509305000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=SemiconductorProcessControl;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Semiconductor Process Control",
-      "value": 3083912000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "3",
-      "segmentRaw": "BusinessSegments=SemiconductorProcessControl;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Semiconductor Process Control",
-      "value": 8987952000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=SpecialtySemiconductorProcess;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Specialty Semiconductor Process",
-      "value": 164028000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "3",
-      "segmentRaw": "BusinessSegments=SpecialtySemiconductorProcess;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Specialty Semiconductor Process",
-      "value": 424360000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ConsolidationItems=CorporateNonSegment;",
-      "segmentLabel": "Corporate Non Segment",
-      "value": -504000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "3",
-      "segmentRaw": "ConsolidationItems=CorporateNonSegment;",
-      "segmentLabel": "Corporate Non Segment",
-      "value": 303000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Operating Segments;",
-      "value": 3415582000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "3",
-      "segmentRaw": "ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Operating Segments;",
-      "value": 9921617000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "EquityComponents=AccumulatedGainLossNetCashFlowHedgeParent;ReclassificationOutOfAccumulatedOtherComprehensiveIncome=ReclassificationOutOfAccumulatedOtherComprehensiveIncome;",
-      "segmentLabel": "Accumulated Gain Loss Net Cash Flow Hedge Parent · Reclassification Out Of Accumulated Other Comprehensive Income",
-      "value": 2071000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": true
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "3",
-      "segmentRaw": "EquityComponents=AccumulatedGainLossNetCashFlowHedgeParent;ReclassificationOutOfAccumulatedOtherComprehensiveIncome=ReclassificationOutOfAccumulatedOtherComprehensiveIncome;",
-      "segmentLabel": "Accumulated Gain Loss Net Cash Flow Hedge Parent · Reclassification Out Of Accumulated Other Comprehensive Income",
-      "value": 4474000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": true
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=CN;",
-      "segmentLabel": "CN",
-      "value": 829583000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "3",
-      "segmentRaw": "Geographical=CN;",
-      "segmentLabel": "CN",
-      "value": 3091630000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=EuropeAndIsrael;",
-      "segmentLabel": "Europe And Israel",
-      "value": 247323000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "3",
-      "segmentRaw": "Geographical=EuropeAndIsrael;",
-      "segmentLabel": "Europe And Israel",
-      "value": 559469000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=JP;",
-      "segmentLabel": "JP",
-      "value": 180374000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "3",
-      "segmentRaw": "Geographical=JP;",
-      "segmentLabel": "JP",
-      "value": 704633000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=KR;",
-      "segmentLabel": "KR",
-      "value": 681060000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2026-03-31",
       "qtrs": "3",
@@ -1441,207 +1273,180 @@ const SEGMENT_REVENUE_DATA = {
       "value": 4849697000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "BusinessSegments=PCBAndComponentInspection;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "PCB And Component Inspection",
+      "value": 750415000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "BusinessSegments=SemiconductorProcessControl;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Semiconductor Process Control",
+      "value": 12244733000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "BusinessSegments=SpecialtySemiconductorProcess;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Specialty Semiconductor Process",
+      "value": 584064000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ConsolidationItems=CorporateAndReconcilingItems;",
+      "segmentLabel": "Corporate And Reconciling Items",
+      "value": 264000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "EquityComponents=AccumulatedGainLossNetCashFlowHedgeParent;ReclassificationOutOfAccumulatedOtherComprehensiveIncome=ReclassificationOutOfAccumulatedOtherComprehensiveIncome;",
+      "segmentLabel": "Accumulated Gain Loss Net Cash Flow Hedge Parent · Reclassification Out Of Accumulated Other Comprehensive Income",
+      "value": 6826000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": true
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=CN;",
+      "segmentLabel": "CN",
+      "value": 4048358000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=EuropeAndIsrael;",
+      "segmentLabel": "Europe And Israel",
+      "value": 726693000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=JP;",
+      "segmentLabel": "JP",
+      "value": 915111000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=KR;",
+      "segmentLabel": "KR",
+      "value": 1833836000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=NorthAmerica;",
+      "segmentLabel": "North America",
+      "value": 1757337000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=RestOfAsia;",
+      "segmentLabel": "Rest Of Asia",
+      "value": 654399000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=TW;",
+      "segmentLabel": "TW",
+      "value": 3643742000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=OtherRevenue;",
+      "segmentLabel": "Other Revenue",
+      "value": 153122000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=PCBAndComponentInspection;",
+      "segmentLabel": "PCB And Component Inspection",
+      "value": 460320000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=Patterning;",
+      "segmentLabel": "Patterning",
+      "value": 2706763000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=Product;",
+      "segmentLabel": "Product",
+      "value": 10453537000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=Service;",
+      "segmentLabel": "Service",
+      "value": 3125939000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=SpecialtySemiconductorProcess;",
+      "segmentLabel": "Specialty Semiconductor Process",
+      "value": 502519000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=WaferInspection;",
+      "segmentLabel": "Wafer Inspection",
+      "value": 6630813000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
     }
   ],
   "AAPL": [
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=US;",
-      "segmentLabel": "US",
-      "value": 151790000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=IPad;",
-      "segmentLabel": "iPad",
-      "value": 28023000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=IPhone;",
-      "segmentLabel": "iPhone",
-      "value": 209586000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=Mac;",
-      "segmentLabel": "Mac",
-      "value": 33708000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=Product;",
-      "segmentLabel": "Product",
-      "value": 307003000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=Service;",
-      "segmentLabel": "Service",
-      "value": 109158000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=WearablesHomeandAccessories;",
-      "segmentLabel": "Wearables Homeand Accessories",
-      "value": 35686000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=AmericasSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Americas Segment",
-      "value": 58529000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=EuropeSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Europe Segment",
-      "value": 38146000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=GreaterChinaSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Greater China Segment",
-      "value": 25526000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=JapanSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Japan Segment",
-      "value": 9413000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=RestOfAsiaPacificSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Rest Of Asia Pacific Segment",
-      "value": 12142000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=IPad;",
-      "segmentLabel": "iPad",
-      "value": 8595000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=IPhone;",
-      "segmentLabel": "iPhone",
-      "value": 85269000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Mac;",
-      "segmentLabel": "Mac",
-      "value": 8386000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Product;",
-      "segmentLabel": "Product",
-      "value": 113743000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Service;",
-      "segmentLabel": "Service",
-      "value": 30013000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=WearablesHomeandAccessories;",
-      "segmentLabel": "Wearables Homeand Accessories",
-      "value": 11493000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=AmericasSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Americas Segment",
-      "value": 45093000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "2",
-      "segmentRaw": "BusinessSegments=AmericasSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Americas Segment",
-      "value": 103622000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=EuropeSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Europe Segment",
-      "value": 28055000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "2",
-      "segmentRaw": "BusinessSegments=EuropeSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Europe Segment",
-      "value": 66201000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2026-03-31",
       "qtrs": "1",
@@ -1803,99 +1608,207 @@ const SEGMENT_REVENUE_DATA = {
       "value": 19394000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=AmericasSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Americas Segment",
+      "value": 45781000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "3",
+      "segmentRaw": "BusinessSegments=AmericasSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Americas Segment",
+      "value": 149403000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=EuropeSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Europe Segment",
+      "value": 29395000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "3",
+      "segmentRaw": "BusinessSegments=EuropeSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Europe Segment",
+      "value": 95596000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=GreaterChinaSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Greater China Segment",
+      "value": 18816000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "3",
+      "segmentRaw": "BusinessSegments=GreaterChinaSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Greater China Segment",
+      "value": 64839000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=JapanSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Japan Segment",
+      "value": 6554000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "3",
+      "segmentRaw": "BusinessSegments=JapanSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Japan Segment",
+      "value": 24368000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=RestOfAsiaPacificSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Rest Of Asia Pacific Segment",
+      "value": 8871000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "3",
+      "segmentRaw": "BusinessSegments=RestOfAsiaPacificSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Rest Of Asia Pacific Segment",
+      "value": 30151000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=IPad;",
+      "segmentLabel": "iPad",
+      "value": 6191000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "3",
+      "segmentRaw": "ProductOrService=IPad;",
+      "segmentLabel": "iPad",
+      "value": 21700000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=IPhone;",
+      "segmentLabel": "iPhone",
+      "value": 54252000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "3",
+      "segmentRaw": "ProductOrService=IPhone;",
+      "segmentLabel": "iPhone",
+      "value": 196515000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=Mac;",
+      "segmentLabel": "Mac",
+      "value": 10352000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "3",
+      "segmentRaw": "ProductOrService=Mac;",
+      "segmentLabel": "Mac",
+      "value": 27137000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=Product;",
+      "segmentLabel": "Product",
+      "value": 78678000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "3",
+      "segmentRaw": "ProductOrService=Product;",
+      "segmentLabel": "Product",
+      "value": 272629000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=Service;",
+      "segmentLabel": "Service",
+      "value": 30739000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "3",
+      "segmentRaw": "ProductOrService=Service;",
+      "segmentLabel": "Service",
+      "value": 91728000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=WearablesHomeandAccessories;",
+      "segmentLabel": "Wearables Homeand Accessories",
+      "value": 7883000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "3",
+      "segmentRaw": "ProductOrService=WearablesHomeandAccessories;",
+      "segmentLabel": "Wearables Homeand Accessories",
+      "value": 27277000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
     }
   ],
   "LRCX": [
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ReportableSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Reportable Segment",
-      "value": 5344791000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "2",
-      "segmentRaw": "BusinessSegments=ReportableSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Reportable Segment",
-      "value": 10668964000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=CN;",
-      "segmentLabel": "CN",
-      "value": 1858547000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "2",
-      "segmentRaw": "Geographical=CN;",
-      "segmentLabel": "CN",
-      "value": 4141120000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=Europe;",
-      "segmentLabel": "Europe",
-      "value": 139830000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "2",
-      "segmentRaw": "Geographical=Europe;",
-      "segmentLabel": "Europe",
-      "value": 241648000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "2",
-      "segmentRaw": "Geographical=JP;",
-      "segmentLabel": "JP",
-      "value": 1077608000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=JP;",
-      "segmentLabel": "JP",
-      "value": 548311000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=KR;",
-      "segmentLabel": "KR",
-      "value": 1060486000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "2",
-      "segmentRaw": "Geographical=KR;",
-      "segmentLabel": "KR",
-      "value": 1836787000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2025-12-31",
       "qtrs": "1",
@@ -2163,6 +2076,96 @@ const SEGMENT_REVENUE_DATA = {
       "segmentRaw": "ProductOrService=System;",
       "segmentLabel": "System",
       "value": 10635640000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "BusinessSegments=ReportableSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Reportable Segment",
+      "value": 23232690000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=CN;",
+      "segmentLabel": "CN",
+      "value": 7859811000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=Europe;",
+      "segmentLabel": "Europe",
+      "value": 698706000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=JP;",
+      "segmentLabel": "JP",
+      "value": 2171088000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=KR;",
+      "segmentLabel": "KR",
+      "value": 4505327000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=SouthEastAsia;",
+      "segmentLabel": "South East Asia",
+      "value": 1245931000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=TW;",
+      "segmentLabel": "TW",
+      "value": 5222915000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=US;",
+      "segmentLabel": "US",
+      "value": 1528912000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=CustomerSupportandOther;",
+      "segmentLabel": "Customer Supportand Other",
+      "value": 8347202000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=System;",
+      "segmentLabel": "System",
+      "value": 14885488000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     }
@@ -2531,112 +2534,6 @@ const SEGMENT_REVENUE_DATA = {
   ],
   "QCOM": [
     {
-      "endDate": "2025-03-31",
-      "qtrs": "2",
-      "segmentRaw": "BusinessSegments=Qct;ProductOrService=Automotive;",
-      "segmentLabel": "Qct · Automotive",
-      "value": 1920000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=Qct;ProductOrService=Handsets;",
-      "segmentLabel": "Qct · Handsets",
-      "value": 6929000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "2",
-      "segmentRaw": "BusinessSegments=Qct;ProductOrService=Handsets;",
-      "segmentLabel": "Qct · Handsets",
-      "value": 14503000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=Qct;ProductOrService=IoT;",
-      "segmentLabel": "Qct · Io T",
-      "value": 1581000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "2",
-      "segmentRaw": "BusinessSegments=Qct;ProductOrService=IoT;",
-      "segmentLabel": "Qct · Io T",
-      "value": 3130000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ConsolidationItems=MaterialReconcilingItems;LitigationCase=LicensingAgreements;",
-      "segmentLabel": "Licensing Agreements",
-      "value": 143000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "2",
-      "segmentRaw": "ConsolidationItems=MaterialReconcilingItems;LitigationCase=LicensingAgreements;",
-      "segmentLabel": "Licensing Agreements",
-      "value": 143000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Operating Segments;",
-      "value": 10788000000.0,
-      "tag": "Revenues"
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "2",
-      "segmentRaw": "ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Operating Segments;",
-      "value": 22407000000.0,
-      "tag": "Revenues"
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=AllOtherSegments;ConsolidationItems=MaterialReconcilingItems;",
-      "segmentLabel": "All Other Segments",
-      "value": 192000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=Qct;",
-      "segmentLabel": "Qct",
-      "value": 38367000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=Qct;ProductOrService=Automotive;",
-      "segmentLabel": "Qct · Automotive",
-      "value": 3957000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
       "endDate": "2025-09-30",
       "qtrs": "4",
       "segmentRaw": "BusinessSegments=Qct;ProductOrService=IoT;",
@@ -2883,104 +2780,117 @@ const SEGMENT_REVENUE_DATA = {
       "segmentLabel": "Operating Segments;",
       "value": 22663000000.0,
       "tag": "Revenues"
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=AllOtherSegments;ConsolidationItems=MaterialReconcilingItems;",
+      "segmentLabel": "All Other Segments",
+      "value": 165000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "3",
+      "segmentRaw": "BusinessSegments=AllOtherSegments;ConsolidationItems=MaterialReconcilingItems;",
+      "segmentLabel": "All Other Segments",
+      "value": 353000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=Qct;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Qct",
+      "value": 8504000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "3",
+      "segmentRaw": "BusinessSegments=Qct;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Qct",
+      "value": 28193000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=Qct;ProductOrService=Automotive;",
+      "segmentLabel": "Qct · Automotive",
+      "value": 1588000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "3",
+      "segmentRaw": "BusinessSegments=Qct;ProductOrService=Automotive;",
+      "segmentLabel": "Qct · Automotive",
+      "value": 4015000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=Qct;ProductOrService=Handsets;",
+      "segmentLabel": "Qct · Handsets",
+      "value": 5086000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "3",
+      "segmentRaw": "BusinessSegments=Qct;ProductOrService=Handsets;",
+      "segmentLabel": "Qct · Handsets",
+      "value": 18934000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=Qct;ProductOrService=IoT;",
+      "segmentLabel": "Qct · Io T",
+      "value": 1830000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "3",
+      "segmentRaw": "BusinessSegments=Qct;ProductOrService=IoT;",
+      "segmentLabel": "Qct · Io T",
+      "value": 5244000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ConsolidationItems=MaterialReconcilingItems;LitigationCase=LicensingAgreements;",
+      "segmentLabel": "Licensing Agreements",
+      "value": 0.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "3",
+      "segmentRaw": "ConsolidationItems=MaterialReconcilingItems;LitigationCase=LicensingAgreements;",
+      "segmentLabel": "Licensing Agreements",
+      "value": 0.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
     }
   ],
   "COHR": [
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "2",
-      "segmentRaw": "ConsolidationItems=IntersegmentElimination;",
-      "segmentLabel": "Intersegment Elimination;",
-      "value": -76082000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "ConsolidationItems=IntersegmentElimination;",
-      "segmentLabel": "Intersegment Elimination;",
-      "value": -46062000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Operating Segments;",
-      "value": 1685629000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "2",
-      "segmentRaw": "ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Operating Segments;",
-      "value": 3267007000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=CN;",
-      "segmentLabel": "CN",
-      "value": 187985000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "2",
-      "segmentRaw": "Geographical=CN;",
-      "segmentLabel": "CN",
-      "value": 365654000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=Europe;",
-      "segmentLabel": "Europe",
-      "value": 192596000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "2",
-      "segmentRaw": "Geographical=Europe;",
-      "segmentLabel": "Europe",
-      "value": 384295000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=JP;",
-      "segmentLabel": "JP",
-      "value": 102007000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "2",
-      "segmentRaw": "Geographical=JP;",
-      "segmentLabel": "JP",
-      "value": 218331000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=NorthAmerica;",
-      "segmentLabel": "North America",
-      "value": 1076078000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2025-12-31",
       "qtrs": "2",
@@ -3237,225 +3147,108 @@ const SEGMENT_REVENUE_DATA = {
       "value": 357357000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
-    }
-  ],
-  "AMZN": [
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=OtherServices;",
-      "segmentLabel": "Other Services",
-      "value": 4226000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
     },
     {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=PhysicalStores;",
-      "segmentLabel": "Physical Stores",
-      "value": 5578000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=PhysicalStores;",
-      "segmentLabel": "Physical Stores",
-      "value": 16706000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Product;",
-      "segmentLabel": "Product",
-      "value": 74058000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=Product;",
-      "segmentLabel": "Product",
-      "value": 206274000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Service;",
-      "segmentLabel": "Service",
-      "value": 106111000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=Service;",
-      "segmentLabel": "Service",
-      "value": 297264000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=SubscriptionServices;",
-      "segmentLabel": "Subscription Services",
-      "value": 12574000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=SubscriptionServices;",
-      "segmentLabel": "Subscription Services",
-      "value": 36497000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=ThirdPartySellerServices;",
-      "segmentLabel": "Third Party Seller Services",
-      "value": 42486000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=ThirdPartySellerServices;",
-      "segmentLabel": "Third Party Seller Services",
-      "value": 119346000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
+      "endDate": "2026-06-30",
       "qtrs": "4",
-      "segmentRaw": "BusinessSegments=AmazonWebServicesSegment;",
-      "segmentLabel": "Amazon Web Services Segment",
-      "value": 128725000000.0,
+      "segmentRaw": "BusinessSegments=DatacenterAndCommunicationsSegment;",
+      "segmentLabel": "Datacenter And Communications Segment",
+      "value": 5274629000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2025-12-31",
+      "endDate": "2026-06-30",
       "qtrs": "4",
-      "segmentRaw": "BusinessSegments=InternationalSegment;",
-      "segmentLabel": "International Segment",
-      "value": 161894000000.0,
+      "segmentRaw": "BusinessSegments=DatacenterAndCommunicationsSegment;ConsolidationItems=IntersegmentElimination;",
+      "segmentLabel": "Datacenter And Communications Segment",
+      "value": -40735000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2025-12-31",
+      "endDate": "2026-06-30",
       "qtrs": "4",
-      "segmentRaw": "BusinessSegments=NorthAmericaSegment;",
-      "segmentLabel": "North America Segment",
-      "value": 426305000000.0,
+      "segmentRaw": "BusinessSegments=DatacenterAndCommunicationsSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Datacenter And Communications Segment",
+      "value": 5274629000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2025-12-31",
+      "endDate": "2026-06-30",
       "qtrs": "4",
-      "segmentRaw": "Geographical=DE;",
-      "segmentLabel": "DE",
-      "value": 45900000000.0,
+      "segmentRaw": "BusinessSegments=IndustrialSegment;",
+      "segmentLabel": "Industrial Segment",
+      "value": 1843552000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2025-12-31",
+      "endDate": "2026-06-30",
       "qtrs": "4",
-      "segmentRaw": "Geographical=GB;",
-      "segmentLabel": "GB",
-      "value": 43212000000.0,
+      "segmentRaw": "BusinessSegments=IndustrialSegment;ConsolidationItems=IntersegmentElimination;",
+      "segmentLabel": "Industrial Segment",
+      "value": -99643000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2025-12-31",
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "BusinessSegments=IndustrialSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Industrial Segment",
+      "value": 1843552000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=CN;",
+      "segmentLabel": "CN",
+      "value": 813377000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=Europe;",
+      "segmentLabel": "Europe",
+      "value": 814176000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "4",
       "segmentRaw": "Geographical=JP;",
       "segmentLabel": "JP",
-      "value": 30688000000.0,
+      "value": 390373000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2025-12-31",
+      "endDate": "2026-06-30",
       "qtrs": "4",
-      "segmentRaw": "Geographical=NonUs;",
-      "segmentLabel": "Non Us",
-      "value": 107467000000.0,
+      "segmentRaw": "Geographical=NorthAmerica;",
+      "segmentLabel": "North America",
+      "value": 4633696000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2025-12-31",
+      "endDate": "2026-06-30",
       "qtrs": "4",
-      "segmentRaw": "Geographical=US;",
-      "segmentLabel": "US",
-      "value": 489657000000.0,
+      "segmentRaw": "Geographical=OtherCountries;",
+      "segmentLabel": "Other Countries",
+      "value": 466559000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=Advertising;",
-      "segmentLabel": "Advertising",
-      "value": 68635000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=AmazonWebServices;",
-      "segmentLabel": "Amazon Web Services",
-      "value": 128725000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=OnlineStores;",
-      "segmentLabel": "Online Stores",
-      "value": 269287000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=OtherServices;",
-      "segmentLabel": "Other Services",
-      "value": 5935000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=PhysicalStores;",
-      "segmentLabel": "Physical Stores",
-      "value": 22561000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
+    }
+  ],
+  "AMZN": [
     {
       "endDate": "2025-12-31",
       "qtrs": "4",
@@ -3599,188 +3392,225 @@ const SEGMENT_REVENUE_DATA = {
       "value": 41578000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=AmazonWebServicesSegment;",
+      "segmentLabel": "Amazon Web Services Segment",
+      "value": 42232000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=AmazonWebServicesSegment;",
+      "segmentLabel": "Amazon Web Services Segment",
+      "value": 79819000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=InternationalSegment;",
+      "segmentLabel": "International Segment",
+      "value": 42197000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=InternationalSegment;",
+      "segmentLabel": "International Segment",
+      "value": 81986000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=NorthAmericaSegment;",
+      "segmentLabel": "North America Segment",
+      "value": 116177000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=NorthAmericaSegment;",
+      "segmentLabel": "North America Segment",
+      "value": 220320000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=AdvertisingServices;",
+      "segmentLabel": "Advertising Services",
+      "value": 19809000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=AdvertisingServices;",
+      "segmentLabel": "Advertising Services",
+      "value": 37052000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=AmazonWebServices;",
+      "segmentLabel": "Amazon Web Services",
+      "value": 42232000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=AmazonWebServices;",
+      "segmentLabel": "Amazon Web Services",
+      "value": 79819000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=OnlineStores;",
+      "segmentLabel": "Online Stores",
+      "value": 70432000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=OnlineStores;",
+      "segmentLabel": "Online Stores",
+      "value": 134686000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=OtherServices;",
+      "segmentLabel": "Other Services",
+      "value": 1829000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=OtherServices;",
+      "segmentLabel": "Other Services",
+      "value": 3474000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=PhysicalStores;",
+      "segmentLabel": "Physical Stores",
+      "value": 5794000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=PhysicalStores;",
+      "segmentLabel": "Physical Stores",
+      "value": 11579000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=Product;",
+      "segmentLabel": "Product",
+      "value": 77602000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=Product;",
+      "segmentLabel": "Product",
+      "value": 148906000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=Service;",
+      "segmentLabel": "Service",
+      "value": 123004000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=Service;",
+      "segmentLabel": "Service",
+      "value": 233219000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=SubscriptionServices;",
+      "segmentLabel": "Subscription Services",
+      "value": 13730000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=SubscriptionServices;",
+      "segmentLabel": "Subscription Services",
+      "value": 27157000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=ThirdPartySellerServices;",
+      "segmentLabel": "Third Party Seller Services",
+      "value": 46780000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=ThirdPartySellerServices;",
+      "segmentLabel": "Third Party Seller Services",
+      "value": 88358000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
     }
   ],
   "NVDA": [
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "Geographical=US;",
-      "segmentLabel": "US",
-      "value": 97759000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Automotive;",
-      "segmentLabel": "Automotive",
-      "value": 592000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=Automotive;",
-      "segmentLabel": "Automotive",
-      "value": 1745000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Compute;",
-      "segmentLabel": "Compute",
-      "value": 43028000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=Compute;",
-      "segmentLabel": "Compute",
-      "value": 111027000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=DataCenter;",
-      "segmentLabel": "Data Center",
-      "value": 51215000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=DataCenter;",
-      "segmentLabel": "Data Center",
-      "value": 131423000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Gaming;",
-      "segmentLabel": "Gaming",
-      "value": 4265000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=Gaming;",
-      "segmentLabel": "Gaming",
-      "value": 12315000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Networking;",
-      "segmentLabel": "Networking",
-      "value": 8187000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=Networking;",
-      "segmentLabel": "Networking",
-      "value": 20396000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=OEMAndOther;",
-      "segmentLabel": "OEM And Other",
-      "value": 174000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=OEMAndOther;",
-      "segmentLabel": "OEM And Other",
-      "value": 458000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=ProfessionalVisualization;",
-      "segmentLabel": "Professional Visualization",
-      "value": 760000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=ProfessionalVisualization;",
-      "segmentLabel": "Professional Visualization",
-      "value": 1870000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-01-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ComputeAndNetworkingSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Compute And Networking Segment",
-      "value": 193479000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-01-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=GraphicsSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Graphics Segment",
-      "value": 22459000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-01-31",
-      "qtrs": "4",
-      "segmentRaw": "ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Operating Segments;",
-      "value": 215938000000.0,
-      "tag": "Revenues"
-    },
-    {
-      "endDate": "2026-01-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=ChinaIncludingHongKong;",
-      "segmentLabel": "China Including Hong Kong",
-      "value": 19677000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-01-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=OtherCountries;",
-      "segmentLabel": "Other Countries",
-      "value": 4299000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2026-01-31",
       "qtrs": "4",
@@ -3959,189 +3789,189 @@ const SEGMENT_REVENUE_DATA = {
       "value": 37869000000.0,
       "tag": "Revenues",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ComputeAndNetworkingSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Compute And Networking Segment",
+      "value": 88299000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ComputeAndNetworkingSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Compute And Networking Segment",
+      "value": 162850000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=GraphicsSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Graphics Segment",
+      "value": 7922000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=GraphicsSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Graphics Segment",
+      "value": 14987000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=ChinaIncludingHongKong;",
+      "segmentLabel": "China Including Hong Kong",
+      "value": 7880000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=ChinaIncludingHongKong;",
+      "segmentLabel": "China Including Hong Kong",
+      "value": 12430000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=OtherCountries;",
+      "segmentLabel": "Other Countries",
+      "value": 1282000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=OtherCountries;",
+      "segmentLabel": "Other Countries",
+      "value": 2573000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=TW;",
+      "segmentLabel": "TW",
+      "value": 26985000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=TW;",
+      "segmentLabel": "TW",
+      "value": 38991000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=US;",
+      "segmentLabel": "US",
+      "value": 60074000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=US;",
+      "segmentLabel": "US",
+      "value": 123843000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=AICloudsIndustrialEnterprise;",
+      "segmentLabel": "AI Clouds Industrial Enterprise",
+      "value": 40313000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=AICloudsIndustrialEnterprise;",
+      "segmentLabel": "AI Clouds Industrial Enterprise",
+      "value": 72508000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=DataCenter;",
+      "segmentLabel": "Data Center",
+      "value": 89023000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=DataCenter;",
+      "segmentLabel": "Data Center",
+      "value": 164269000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=EdgeComputing;",
+      "segmentLabel": "Edge Computing",
+      "value": 7198000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=EdgeComputing;",
+      "segmentLabel": "Edge Computing",
+      "value": 13568000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=Hyperscale;",
+      "segmentLabel": "Hyperscale",
+      "value": 48710000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=Hyperscale;",
+      "segmentLabel": "Hyperscale",
+      "value": 91761000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
     }
   ],
   "PWR": [
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=Electric;",
-      "segmentLabel": "Electric",
-      "value": 6172019000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "BusinessSegments=Electric;",
-      "segmentLabel": "Electric",
-      "value": 16574484000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=UndergroundAndInfrastructure;",
-      "segmentLabel": "Underground And Infrastructure",
-      "value": 1459389000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "BusinessSegments=UndergroundAndInfrastructure;",
-      "segmentLabel": "Underground And Infrastructure",
-      "value": 4063265000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ContractWithCustomerBasisOfPricing=CostPlusContractMember;",
-      "segmentLabel": "Cost Plus Contract",
-      "value": 1124748000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "ContractWithCustomerBasisOfPricing=CostPlusContractMember;",
-      "segmentLabel": "Cost Plus Contract",
-      "value": 3237679000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ContractWithCustomerBasisOfPricing=FixedPriceContract;",
-      "segmentLabel": "Fixed Price Contract",
-      "value": 4813711000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "ContractWithCustomerBasisOfPricing=FixedPriceContract;",
-      "segmentLabel": "Fixed Price Contract",
-      "value": 12517491000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ContractWithCustomerBasisOfPricing=UnitPriceContracts;",
-      "segmentLabel": "Unit Price Contracts",
-      "value": 1692949000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "ContractWithCustomerBasisOfPricing=UnitPriceContracts;",
-      "segmentLabel": "Unit Price Contracts",
-      "value": 4882579000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=AU;",
-      "segmentLabel": "AU",
-      "value": 202031000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "Geographical=AU;",
-      "segmentLabel": "AU",
-      "value": 571222000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=CA;",
-      "segmentLabel": "CA",
-      "value": 275644000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "Geographical=CA;",
-      "segmentLabel": "CA",
-      "value": 724296000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=OtherCountries;",
-      "segmentLabel": "Other Countries",
-      "value": 40773000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "Geographical=OtherCountries;",
-      "segmentLabel": "Other Countries",
-      "value": 162208000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=US;",
-      "segmentLabel": "US",
-      "value": 7112960000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "Geographical=US;",
-      "segmentLabel": "US",
-      "value": 19180023000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "RelatedPartyTransactionsByRelatedParty=RelatedParty;ScheduleOfEquityMethodInvestmentEquityMethodInvesteeName=IntegralAffiliates;",
-      "segmentLabel": "Related Party · Integral Affiliates",
-      "value": 36900000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "RelatedPartyTransactionsByRelatedParty=RelatedParty;ScheduleOfEquityMethodInvestmentEquityMethodInvesteeName=IntegralAffiliates;",
-      "segmentLabel": "Related Party · Integral Affiliates",
-      "value": 133800000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2025-12-31",
       "qtrs": "4",
@@ -4321,315 +4151,189 @@ const SEGMENT_REVENUE_DATA = {
       "value": 27300000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=Electric;",
+      "segmentLabel": "Electric",
+      "value": 7837805000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=Electric;",
+      "segmentLabel": "Electric",
+      "value": 14306462000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=UndergroundAndInfrastructure;",
+      "segmentLabel": "Underground And Infrastructure",
+      "value": 1719192000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UndergroundAndInfrastructure;",
+      "segmentLabel": "Underground And Infrastructure",
+      "value": 3125322000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ContractWithCustomerBasisOfPricing=CostPlusContractMember;",
+      "segmentLabel": "Cost Plus Contract",
+      "value": 1702941000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ContractWithCustomerBasisOfPricing=CostPlusContractMember;",
+      "segmentLabel": "Cost Plus Contract",
+      "value": 3081718000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ContractWithCustomerBasisOfPricing=FixedPriceContract;",
+      "segmentLabel": "Fixed Price Contract",
+      "value": 6083463000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ContractWithCustomerBasisOfPricing=FixedPriceContract;",
+      "segmentLabel": "Fixed Price Contract",
+      "value": 10857267000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ContractWithCustomerBasisOfPricing=UnitPriceContracts;",
+      "segmentLabel": "Unit Price Contracts",
+      "value": 1770593000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ContractWithCustomerBasisOfPricing=UnitPriceContracts;",
+      "segmentLabel": "Unit Price Contracts",
+      "value": 3492799000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=AU;",
+      "segmentLabel": "AU",
+      "value": 206610000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=AU;",
+      "segmentLabel": "AU",
+      "value": 407854000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=CA;",
+      "segmentLabel": "CA",
+      "value": 215750000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=CA;",
+      "segmentLabel": "CA",
+      "value": 491774000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=OtherCountries;",
+      "segmentLabel": "Other Countries",
+      "value": 31174000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=OtherCountries;",
+      "segmentLabel": "Other Countries",
+      "value": 67083000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=US;",
+      "segmentLabel": "US",
+      "value": 9103463000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=US;",
+      "segmentLabel": "US",
+      "value": 16465073000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "RelatedPartyTransactionsByRelatedParty=RelatedParty;ScheduleOfEquityMethodInvestmentEquityMethodInvesteeName=UnconsolidatedAffiliateMembers;",
+      "segmentLabel": "Related Party · Unconsolidated Affiliate Members",
+      "value": 26000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "RelatedPartyTransactionsByRelatedParty=RelatedParty;ScheduleOfEquityMethodInvestmentEquityMethodInvesteeName=UnconsolidatedAffiliateMembers;",
+      "segmentLabel": "Related Party · Unconsolidated Affiliate Members",
+      "value": 53300000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
     }
   ],
   "FIX": [
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "MajorCustomers=Technology;",
-      "segmentLabel": "Technology",
-      "value": 1122528000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "MajorCustomers=Technology;",
-      "segmentLabel": "Technology",
-      "value": 2734280000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=ElectricalSegment;",
-      "segmentLabel": "Electrical Segment",
-      "value": 640507000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=ElectricalSegment;",
-      "segmentLabel": "Electrical Segment",
-      "value": 1604225000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=MechanicalSegment;",
-      "segmentLabel": "Mechanical Segment",
-      "value": 1810462000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=MechanicalSegment;",
-      "segmentLabel": "Mechanical Segment",
-      "value": 4851349000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ElectricalSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Electrical Segment",
-      "value": 2427896000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ExistingBuildingConstruction;",
-      "segmentLabel": "Existing Building Construction",
-      "value": 2118363000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=MechanicalSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Mechanical Segment",
-      "value": 6673745000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=NewConstruction;",
-      "segmentLabel": "New Construction",
-      "value": 5752786000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ServiceCallsMaintenanceAndMonitoring;",
-      "segmentLabel": "Service Calls Maintenance And Monitoring",
-      "value": 661647000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ServiceProjects;",
-      "segmentLabel": "Service Projects",
-      "value": 568845000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "MajorCustomers=Education;",
-      "segmentLabel": "Education",
-      "value": 665266000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "MajorCustomers=GovernmentCustomer;",
-      "segmentLabel": "Government Customer",
-      "value": 457329000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "MajorCustomers=HealthcareSectorCustomer;",
-      "segmentLabel": "Healthcare Sector Customer",
-      "value": 810646000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "MajorCustomers=ManufacturingCustomer;",
-      "segmentLabel": "Manufacturing Customer",
-      "value": 2011607000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "MajorCustomers=MultiFamilyAndResidential;",
-      "segmentLabel": "Multi Family And Residential",
-      "value": 130578000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "MajorCustomers=OfficeBuildingCustomer;",
-      "segmentLabel": "Office Building Customer",
-      "value": 446659000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "MajorCustomers=OtherCustomer;",
-      "segmentLabel": "Other Customer",
-      "value": 143112000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "MajorCustomers=RetailRestaurantsAndEntertainment;",
-      "segmentLabel": "Retail Restaurants And Entertainment",
-      "value": 337590000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "MajorCustomers=Technology;",
-      "segmentLabel": "Technology",
-      "value": 4098854000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=ElectricalSegment;",
-      "segmentLabel": "Electrical Segment",
-      "value": 2427896000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=MechanicalSegment;",
-      "segmentLabel": "Mechanical Segment",
-      "value": 6673745000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ElectricalSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Electrical Segment",
-      "value": 804710000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ExistingBuildingConstruction;",
-      "segmentLabel": "Existing Building Construction",
-      "value": 436601000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=MechanicalSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Mechanical Segment",
-      "value": 2060622000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=NewConstruction;",
-      "segmentLabel": "New Construction",
-      "value": 2133494000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ServiceCallsMaintenanceAndMonitoring;",
-      "segmentLabel": "Service Calls Maintenance And Monitoring",
-      "value": 157149000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ServiceProjects;",
-      "segmentLabel": "Service Projects",
-      "value": 138088000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "MajorCustomers=Education;",
-      "segmentLabel": "Education",
-      "value": 130313000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "MajorCustomers=GovernmentCustomer;",
-      "segmentLabel": "Government Customer",
-      "value": 133417000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "MajorCustomers=HealthcareSectorCustomer;",
-      "segmentLabel": "Healthcare Sector Customer",
-      "value": 220534000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "MajorCustomers=ManufacturingCustomer;",
-      "segmentLabel": "Manufacturing Customer",
-      "value": 536442000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "MajorCustomers=MultiFamilyAndResidential;",
-      "segmentLabel": "Multi Family And Residential",
-      "value": 35035000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2026-03-31",
       "qtrs": "1",
@@ -4683,277 +4387,315 @@ const SEGMENT_REVENUE_DATA = {
       "value": 2060622000.0,
       "tag": "Revenues",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ElectricalSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Electrical Segment",
+      "value": 968989000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ElectricalSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Electrical Segment",
+      "value": 1773699000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ExistingBuildingConstruction;",
+      "segmentLabel": "Existing Building Construction",
+      "value": 483469000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ExistingBuildingConstruction;",
+      "segmentLabel": "Existing Building Construction",
+      "value": 920070000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=MechanicalSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Mechanical Segment",
+      "value": 2296667000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=MechanicalSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Mechanical Segment",
+      "value": 4357289000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=NewConstruction;",
+      "segmentLabel": "New Construction",
+      "value": 2454064000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=NewConstruction;",
+      "segmentLabel": "New Construction",
+      "value": 4587558000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ServiceCallsMaintenanceAndMonitoring;",
+      "segmentLabel": "Service Calls Maintenance And Monitoring",
+      "value": 183381000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ServiceCallsMaintenanceAndMonitoring;",
+      "segmentLabel": "Service Calls Maintenance And Monitoring",
+      "value": 340530000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ServiceProjects;",
+      "segmentLabel": "Service Projects",
+      "value": 144742000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ServiceProjects;",
+      "segmentLabel": "Service Projects",
+      "value": 282830000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "MajorCustomers=Education;",
+      "segmentLabel": "Education",
+      "value": 168252000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "MajorCustomers=Education;",
+      "segmentLabel": "Education",
+      "value": 301669000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "MajorCustomers=GovernmentCustomer;",
+      "segmentLabel": "Government Customer",
+      "value": 145507000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "MajorCustomers=GovernmentCustomer;",
+      "segmentLabel": "Government Customer",
+      "value": 275820000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "MajorCustomers=HealthcareSectorCustomer;",
+      "segmentLabel": "Healthcare Sector Customer",
+      "value": 230783000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "MajorCustomers=HealthcareSectorCustomer;",
+      "segmentLabel": "Healthcare Sector Customer",
+      "value": 451317000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "MajorCustomers=ManufacturingCustomer;",
+      "segmentLabel": "Manufacturing Customer",
+      "value": 535357000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "MajorCustomers=ManufacturingCustomer;",
+      "segmentLabel": "Manufacturing Customer",
+      "value": 1071799000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "MajorCustomers=MultiFamilyAndResidential;",
+      "segmentLabel": "Multi Family And Residential",
+      "value": 44678000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "MajorCustomers=MultiFamilyAndResidential;",
+      "segmentLabel": "Multi Family And Residential",
+      "value": 79713000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "MajorCustomers=OfficeBuildingCustomer;",
+      "segmentLabel": "Office Building Customer",
+      "value": 92468000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "MajorCustomers=OfficeBuildingCustomer;",
+      "segmentLabel": "Office Building Customer",
+      "value": 172808000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "MajorCustomers=OtherCustomer;",
+      "segmentLabel": "Other Customer",
+      "value": 41364000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "MajorCustomers=OtherCustomer;",
+      "segmentLabel": "Other Customer",
+      "value": 72814000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "MajorCustomers=RetailRestaurantsAndEntertainment;",
+      "segmentLabel": "Retail Restaurants And Entertainment",
+      "value": 89893000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "MajorCustomers=RetailRestaurantsAndEntertainment;",
+      "segmentLabel": "Retail Restaurants And Entertainment",
+      "value": 171179000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "MajorCustomers=Technology;",
+      "segmentLabel": "Technology",
+      "value": 1917354000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "MajorCustomers=Technology;",
+      "segmentLabel": "Technology",
+      "value": 3533869000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=ElectricalSegment;",
+      "segmentLabel": "Electrical Segment",
+      "value": 968989000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=ElectricalSegment;",
+      "segmentLabel": "Electrical Segment",
+      "value": 1773699000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=MechanicalSegment;",
+      "segmentLabel": "Mechanical Segment",
+      "value": 2296667000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=MechanicalSegment;",
+      "segmentLabel": "Mechanical Segment",
+      "value": 4357289000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
     }
   ],
   "MOD": [
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=LiquidCooled;",
-      "segmentLabel": "Liquid Cooled",
-      "value": 532400000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ClimateSolutions;",
-      "segmentLabel": "Climate Solutions",
-      "value": 2055400000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ClimateSolutions;ConsolidationItems=IntersegmentElimination;",
-      "segmentLabel": "Climate Solutions",
-      "value": 6900000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ClimateSolutions;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Climate Solutions",
-      "value": 2062300000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ClimateSolutions;Geographical=Americas;",
-      "segmentLabel": "Climate Solutions · Americas",
-      "value": 1535500000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ClimateSolutions;Geographical=Asia;",
-      "segmentLabel": "Climate Solutions · Asia",
-      "value": 25400000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ClimateSolutions;Geographical=Europe;",
-      "segmentLabel": "Climate Solutions · Europe",
-      "value": 501400000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ClimateSolutions;ProductOrService=DataCenters;",
-      "segmentLabel": "Climate Solutions · Data Centers",
-      "value": 1112100000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ClimateSolutions;ProductOrService=HeatTransferSolutions;",
-      "segmentLabel": "Climate Solutions · Heat Transfer Solutions",
-      "value": 584100000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ClimateSolutions;ProductOrService=HeavyDutyEquipment;",
-      "segmentLabel": "Climate Solutions · Heavy Duty Equipment",
-      "value": 0.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ClimateSolutions;ProductOrService=HvacTechnologies;",
-      "segmentLabel": "Climate Solutions · Hvac Technologies",
-      "value": 359200000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ClimateSolutions;ProductOrService=OnHighwayApplications;",
-      "segmentLabel": "Climate Solutions · On Highway Applications",
-      "value": 0.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=PerformanceTechnologies;",
-      "segmentLabel": "Performance Technologies",
-      "value": 1125700000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=PerformanceTechnologies;ConsolidationItems=IntersegmentElimination;",
-      "segmentLabel": "Performance Technologies",
-      "value": 6100000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=PerformanceTechnologies;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Performance Technologies",
-      "value": 1131800000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=PerformanceTechnologies;Geographical=Americas;",
-      "segmentLabel": "Performance Technologies · Americas",
-      "value": 593800000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=PerformanceTechnologies;Geographical=Asia;",
-      "segmentLabel": "Performance Technologies · Asia",
-      "value": 201200000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=PerformanceTechnologies;Geographical=Europe;",
-      "segmentLabel": "Performance Technologies · Europe",
-      "value": 336800000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=PerformanceTechnologies;ProductOrService=DataCenters;",
-      "segmentLabel": "Performance Technologies · Data Centers",
-      "value": 0.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=PerformanceTechnologies;ProductOrService=HeatTransferSolutions;",
-      "segmentLabel": "Performance Technologies · Heat Transfer Solutions",
-      "value": 0.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=PerformanceTechnologies;ProductOrService=HeavyDutyEquipment;",
-      "segmentLabel": "Performance Technologies · Heavy Duty Equipment",
-      "value": 409300000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=PerformanceTechnologies;ProductOrService=HvacTechnologies;",
-      "segmentLabel": "Performance Technologies · Hvac Technologies",
-      "value": 0.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=PerformanceTechnologies;ProductOrService=OnHighwayApplications;",
-      "segmentLabel": "Performance Technologies · On Highway Applications",
-      "value": 716400000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "ConsolidationItems=CorporateAndEliminations;",
-      "segmentLabel": "Corporate And Eliminations",
-      "value": -13000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "ConsolidationItems=IntersegmentElimination;",
-      "segmentLabel": "Intersegment Elimination;",
-      "value": 13000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Operating Segments;",
-      "value": 3194100000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "ConsolidationItems=ReportableGeographicalComponents;Geographical=CA;",
-      "segmentLabel": "CA",
-      "value": 332600000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "ConsolidationItems=ReportableGeographicalComponents;Geographical=GB;",
-      "segmentLabel": "GB",
-      "value": 192700000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "ConsolidationItems=ReportableGeographicalComponents;Geographical=HU;",
-      "segmentLabel": "HU",
-      "value": 213400000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "ConsolidationItems=ReportableGeographicalComponents;Geographical=IT;",
-      "segmentLabel": "IT",
-      "value": 226800000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2026-03-31",
       "qtrs": "4",
@@ -5043,135 +4785,279 @@ const SEGMENT_REVENUE_DATA = {
       "value": 716400000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=CommercialHeatingVentilationAndAirConditioning;",
+      "segmentLabel": "Commercial Heating Ventilation And Air Conditioning",
+      "value": 247900000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=CommercialHeatingVentilationAndAirConditioning;ConsolidationItems=IntersegmentElimination;",
+      "segmentLabel": "Commercial Heating Ventilation And Air Conditioning",
+      "value": 13700000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=CommercialHeatingVentilationAndAirConditioning;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Commercial Heating Ventilation And Air Conditioning",
+      "value": 261600000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=CommercialHeatingVentilationAndAirConditioning;Geographical=Americas;",
+      "segmentLabel": "Commercial Heating Ventilation And Air Conditioning · Americas",
+      "value": 178000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=CommercialHeatingVentilationAndAirConditioning;Geographical=Asia;",
+      "segmentLabel": "Commercial Heating Ventilation And Air Conditioning · Asia",
+      "value": 6300000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=CommercialHeatingVentilationAndAirConditioning;Geographical=Europe;",
+      "segmentLabel": "Commercial Heating Ventilation And Air Conditioning · Europe",
+      "value": 77300000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=CommercialHeatingVentilationAndAirConditioning;ProductOrService=HeatTransferSolutions;",
+      "segmentLabel": "Commercial Heating Ventilation And Air Conditioning · Heat Transfer Solutions",
+      "value": 172500000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=CommercialHeatingVentilationAndAirConditioning;ProductOrService=HvacTechnologies;",
+      "segmentLabel": "Commercial Heating Ventilation And Air Conditioning · Hvac Technologies",
+      "value": 75400000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=DataCenter;",
+      "segmentLabel": "Data Center",
+      "value": 348400000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=DataCenter;ConsolidationItems=IntersegmentElimination;",
+      "segmentLabel": "Data Center",
+      "value": 200000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=DataCenter;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Data Center",
+      "value": 348600000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=DataCenter;Geographical=Americas;",
+      "segmentLabel": "Data Center · Americas",
+      "value": 297800000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=DataCenter;Geographical=Europe;",
+      "segmentLabel": "Data Center · Europe",
+      "value": 50800000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=DataCenter;ProductOrService=DataCenterCoolingSolutions;",
+      "segmentLabel": "Data Center · Data Center Cooling Solutions",
+      "value": 348400000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=PerformanceTechnologies;",
+      "segmentLabel": "Performance Technologies",
+      "value": 277800000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=PerformanceTechnologies;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Performance Technologies",
+      "value": 277800000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=PerformanceTechnologies;Geographical=Americas;",
+      "segmentLabel": "Performance Technologies · Americas",
+      "value": 138300000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=PerformanceTechnologies;Geographical=Asia;",
+      "segmentLabel": "Performance Technologies · Asia",
+      "value": 53900000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=PerformanceTechnologies;Geographical=Europe;",
+      "segmentLabel": "Performance Technologies · Europe",
+      "value": 85600000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=PerformanceTechnologies;ProductOrService=AirCooled;",
+      "segmentLabel": "Performance Technologies · Air Cooled",
+      "value": 107600000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=PerformanceTechnologies;ProductOrService=LiquidCooled;",
+      "segmentLabel": "Performance Technologies · Liquid Cooled",
+      "value": 170200000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ConsolidationItems=CorporateAndEliminations;",
+      "segmentLabel": "Corporate And Eliminations",
+      "value": -13900000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=Americas;",
+      "segmentLabel": "Americas",
+      "value": 614100000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=Asia;",
+      "segmentLabel": "Asia",
+      "value": 60200000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=Europe;",
+      "segmentLabel": "Europe",
+      "value": 213700000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=AirCooled;",
+      "segmentLabel": "Air Cooled",
+      "value": 107600000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=DataCenterCoolingSolutions;",
+      "segmentLabel": "Data Center Cooling Solutions",
+      "value": 348400000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=HeatTransferSolutions;",
+      "segmentLabel": "Heat Transfer Solutions",
+      "value": 172500000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=HvacTechnologies;",
+      "segmentLabel": "Hvac Technologies",
+      "value": 75400000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=LiquidCooled;",
+      "segmentLabel": "Liquid Cooled",
+      "value": 170200000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
     }
   ],
   "CRM": [
-    {
-      "endDate": "2025-04-30",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=ProfessionalServicesandOther;",
-      "segmentLabel": "Professional Servicesand Other",
-      "value": 532000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-04-30",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=SubscriptionandSupport;",
-      "segmentLabel": "Subscriptionand Support",
-      "value": 9297000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=Americas;",
-      "segmentLabel": "Americas",
-      "value": 6703000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "Geographical=Americas;",
-      "segmentLabel": "Americas",
-      "value": 19908000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=AsiaPacific;",
-      "segmentLabel": "Asia Pacific",
-      "value": 1086000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "Geographical=AsiaPacific;",
-      "segmentLabel": "Asia Pacific",
-      "value": 3180000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=Europe;",
-      "segmentLabel": "Europe",
-      "value": 2470000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "Geographical=Europe;",
-      "segmentLabel": "Europe",
-      "value": 7236000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Agentforce360PlatformSlackAndOther;",
-      "segmentLabel": "Agentforce360 Platform Slack And Other",
-      "value": 2180000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=Agentforce360PlatformSlackAndOther;",
-      "segmentLabel": "Agentforce360 Platform Slack And Other",
-      "value": 6227000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=AgentforceIntegrationAndAgentforceAnalytics;",
-      "segmentLabel": "Agentforce Integration And Agentforce Analytics",
-      "value": 1393000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=AgentforceIntegrationAndAgentforceAnalytics;",
-      "segmentLabel": "Agentforce Integration And Agentforce Analytics",
-      "value": 4453000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=AgentforceMarketingAndAgentforceCommerce;",
-      "segmentLabel": "Agentforce Marketing And Agentforce Commerce",
-      "value": 1361000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=AgentforceMarketingAndAgentforceCommerce;",
-      "segmentLabel": "Agentforce Marketing And Agentforce Commerce",
-      "value": 4051000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2025-10-31",
       "qtrs": "1",
@@ -5405,45 +5291,135 @@ const SEGMENT_REVENUE_DATA = {
       "value": 10593000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=Americas;",
+      "segmentLabel": "Americas",
+      "value": 7404000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=Americas;",
+      "segmentLabel": "Americas",
+      "value": 14637000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=AsiaPacific;",
+      "segmentLabel": "Asia Pacific",
+      "value": 1168000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=AsiaPacific;",
+      "segmentLabel": "Asia Pacific",
+      "value": 2311000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=Europe;",
+      "segmentLabel": "Europe",
+      "value": 2764000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=Europe;",
+      "segmentLabel": "Europe",
+      "value": 5518000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=AgentforceApps;",
+      "segmentLabel": "Agentforce Apps",
+      "value": 7193000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=AgentforceApps;",
+      "segmentLabel": "Agentforce Apps",
+      "value": 14102000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=Data360PlatformAndOther;",
+      "segmentLabel": "Data360 Platform And Other",
+      "value": 3618000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=Data360PlatformAndOther;",
+      "segmentLabel": "Data360 Platform And Other",
+      "value": 7299000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=ProfessionalServicesandOther;",
+      "segmentLabel": "Professional Servicesand Other",
+      "value": 525000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=ProfessionalServicesandOther;",
+      "segmentLabel": "Professional Servicesand Other",
+      "value": 1065000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=SubscriptionandSupport;",
+      "segmentLabel": "Subscriptionand Support",
+      "value": 10820000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=SubscriptionandSupport;",
+      "segmentLabel": "Subscriptionand Support",
+      "value": 21413000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
     }
   ],
   "STX": [
-    {
-      "endDate": "2024-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ContractWithCustomerSalesChannel=Distributors;",
-      "segmentLabel": "Distributors",
-      "value": 248000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ContractWithCustomerSalesChannel=OEMs;",
-      "segmentLabel": "OE Ms",
-      "value": 1749000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ContractWithCustomerSalesChannel=Retail;",
-      "segmentLabel": "Retail",
-      "value": 171000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "1",
-      "segmentRaw": "ContractWithCustomerSalesChannel=Distributors;",
-      "segmentLabel": "Distributors",
-      "value": 278000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2024-12-31",
       "qtrs": "2",
@@ -5540,6 +5516,69 @@ const SEGMENT_REVENUE_DATA = {
       "segmentRaw": "ContractWithCustomerSalesChannel=Retail;",
       "segmentLabel": "Retail",
       "value": 561000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2025-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ContractWithCustomerSalesChannel=Distributors;",
+      "segmentLabel": "Distributors",
+      "value": 1060000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2025-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ContractWithCustomerSalesChannel=OEMs;",
+      "segmentLabel": "OE Ms",
+      "value": 7282000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2025-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ContractWithCustomerSalesChannel=Retail;",
+      "segmentLabel": "Retail",
+      "value": 755000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2025-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=NL;",
+      "segmentLabel": "NL",
+      "value": 924000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2025-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=OtherCountries;",
+      "segmentLabel": "Other Countries",
+      "value": 4000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2025-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=SG;",
+      "segmentLabel": "SG",
+      "value": 3759000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2025-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=US;",
+      "segmentLabel": "US",
+      "value": 4410000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
@@ -5677,180 +5716,72 @@ const SEGMENT_REVENUE_DATA = {
       "value": 547000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ContractWithCustomerSalesChannel=Distributors;",
+      "segmentLabel": "Distributors",
+      "value": 1638000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ContractWithCustomerSalesChannel=OEMs;",
+      "segmentLabel": "OE Ms",
+      "value": 9819000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ContractWithCustomerSalesChannel=Retail;",
+      "segmentLabel": "Retail",
+      "value": 738000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=NL;",
+      "segmentLabel": "NL",
+      "value": 1165000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=OtherCountries;",
+      "segmentLabel": "Other Countries",
+      "value": 4000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=SG;",
+      "segmentLabel": "SG",
+      "value": 4880000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=US;",
+      "segmentLabel": "US",
+      "value": 6146000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
     }
   ],
   "MSFT": [
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "2",
-      "segmentRaw": "ProductOrService=WindowsAndDevices;",
-      "segmentLabel": "Windows And Devices",
-      "value": 9030000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=WindowsAndDevices;",
-      "segmentLabel": "Windows And Devices",
-      "value": 4479000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductsOrServicesSecondaryCategorization=MicrosoftCloud;",
-      "segmentLabel": "Microsoft Cloud",
-      "value": 51500000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "2",
-      "segmentRaw": "ProductsOrServicesSecondaryCategorization=MicrosoftCloud;",
-      "segmentLabel": "Microsoft Cloud",
-      "value": 100600000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=IntelligentCloud;",
-      "segmentLabel": "Intelligent Cloud",
-      "value": 34681000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "3",
-      "segmentRaw": "BusinessSegments=IntelligentCloud;",
-      "segmentLabel": "Intelligent Cloud",
-      "value": 98485000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=MorePersonalComputing;",
-      "segmentLabel": "More Personal Computing",
-      "value": 13192000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "3",
-      "segmentRaw": "BusinessSegments=MorePersonalComputing;",
-      "segmentLabel": "More Personal Computing",
-      "value": 41198000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ProductivityAndBusinessProcesses;",
-      "segmentLabel": "Productivity And Business Processes",
-      "value": 35013000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "3",
-      "segmentRaw": "BusinessSegments=ProductivityAndBusinessProcesses;",
-      "segmentLabel": "Productivity And Business Processes",
-      "value": 102149000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=NonUs;",
-      "segmentLabel": "Non Us",
-      "value": 40550000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "3",
-      "segmentRaw": "Geographical=NonUs;",
-      "segmentLabel": "Non Us",
-      "value": 118009000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=US;",
-      "segmentLabel": "US",
-      "value": 42336000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "3",
-      "segmentRaw": "Geographical=US;",
-      "segmentLabel": "US",
-      "value": 123823000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=DynamicsProductsAndCloudServices;",
-      "segmentLabel": "Dynamics Products And Cloud Services",
-      "value": 2292000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=DynamicsProductsAndCloudServices;",
-      "segmentLabel": "Dynamics Products And Cloud Services",
-      "value": 6632000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=EnterpriseAndPartnerServices;",
-      "segmentLabel": "Enterprise And Partner Services",
-      "value": 2087000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=EnterpriseAndPartnerServices;",
-      "segmentLabel": "Enterprise And Partner Services",
-      "value": 6147000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Gaming;",
-      "segmentLabel": "Gaming",
-      "value": 5341000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2026-03-31",
       "qtrs": "3",
@@ -6039,115 +5970,180 @@ const SEGMENT_REVENUE_DATA = {
       "value": 155100000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "BusinessSegments=IntelligentCloud;",
+      "segmentLabel": "Intelligent Cloud",
+      "value": 137791000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "BusinessSegments=MorePersonalComputing;",
+      "segmentLabel": "More Personal Computing",
+      "value": 54052000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "BusinessSegments=ProductivityAndBusinessProcesses;",
+      "segmentLabel": "Productivity And Business Processes",
+      "value": 139996000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=NonUs;",
+      "segmentLabel": "Non Us",
+      "value": 161045000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=US;",
+      "segmentLabel": "US",
+      "value": 170794000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=DynamicsProductsAndCloudServices;",
+      "segmentLabel": "Dynamics Products And Cloud Services",
+      "value": 9006000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=EnterpriseAndPartnerServices;",
+      "segmentLabel": "Enterprise And Partner Services",
+      "value": 8260000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=LinkedInCorporation;",
+      "segmentLabel": "Linked In Corporation",
+      "value": 19817000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=MicrosoftThreeSixFiveCommercialProductsAndCloudServices;",
+      "segmentLabel": "Microsoft Three Six Five Commercial Products And Cloud Services",
+      "value": 101997000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=MicrosoftThreeSixFiveConsumerProductsAndCloudServices;",
+      "segmentLabel": "Microsoft Three Six Five Consumer Products And Cloud Services",
+      "value": 9175000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=OtherProductsAndServices;",
+      "segmentLabel": "Other Products And Services",
+      "value": 109000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=Product;",
+      "segmentLabel": "Product",
+      "value": 64696000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=SearchAdvertising;",
+      "segmentLabel": "Search Advertising",
+      "value": 15176000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=ServerProductsAndCloudServices;",
+      "segmentLabel": "Server Products And Cloud Services",
+      "value": 129425000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=ServiceOther;",
+      "segmentLabel": "Service Other",
+      "value": 267143000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=WindowsAndDevices;",
+      "segmentLabel": "Windows And Devices",
+      "value": 17084000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=XBOX;",
+      "segmentLabel": "XBOX",
+      "value": 21790000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductsOrServicesSecondaryCategorization=MicrosoftCloud;",
+      "segmentLabel": "Microsoft Cloud",
+      "value": 214400000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ScheduleOfEquityMethodInvestmentEquityMethodInvesteeName=OpenAIGlobalLlc;",
+      "segmentLabel": "Open AI Global Llc",
+      "value": 24100000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
     }
   ],
   "ORCL": [
-    {
-      "endDate": "2025-11-30",
-      "qtrs": "2",
-      "segmentRaw": "ProductOrService=SoftwareSupport;",
-      "segmentLabel": "Software Support",
-      "value": 9893000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-02-28",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=CloudAndSoftwareBusiness;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Cloud And Software Business",
-      "value": 15033000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-02-28",
-      "qtrs": "3",
-      "segmentRaw": "BusinessSegments=CloudAndSoftwareBusiness;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Cloud And Software Business",
-      "value": 41793000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-02-28",
-      "qtrs": "3",
-      "segmentRaw": "BusinessSegments=HardwareBusiness;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Hardware Business",
-      "value": 2160000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-02-28",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=HardwareBusiness;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Hardware Business",
-      "value": 714000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-02-28",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ServicesBusiness;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Services Business",
-      "value": 1443000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-02-28",
-      "qtrs": "3",
-      "segmentRaw": "BusinessSegments=ServicesBusiness;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Services Business",
-      "value": 4220000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-02-28",
-      "qtrs": "1",
-      "segmentRaw": "ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Operating Segments;",
-      "value": 17190000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
-    },
-    {
-      "endDate": "2026-02-28",
-      "qtrs": "3",
-      "segmentRaw": "ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Operating Segments;",
-      "value": 48173000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
-    },
-    {
-      "endDate": "2026-02-28",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=Americas;",
-      "segmentLabel": "Americas",
-      "value": 11361000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-02-28",
-      "qtrs": "3",
-      "segmentRaw": "Geographical=Americas;",
-      "segmentLabel": "Americas",
-      "value": 31490000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-02-28",
-      "qtrs": "3",
-      "segmentRaw": "Geographical=AsiaPacific;",
-      "segmentLabel": "Asia Pacific",
-      "value": 5479000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2026-02-28",
       "qtrs": "1",
@@ -6398,123 +6394,141 @@ const SEGMENT_REVENUE_DATA = {
       "value": 19804000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-08-31",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=CloudAndSoftwareBusiness;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Cloud And Software Business",
+      "value": 17157000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-08-31",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=HardwareBusiness;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Hardware Business",
+      "value": 774000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-08-31",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ServicesBusiness;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Services Business",
+      "value": 1414000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-08-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=Americas;",
+      "segmentLabel": "Americas",
+      "value": 13711000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-08-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=AsiaPacific;",
+      "segmentLabel": "Asia Pacific",
+      "value": 1908000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-08-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=EMEA;",
+      "segmentLabel": "EMEA",
+      "value": 3726000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-08-31",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=CloudApplications;",
+      "segmentLabel": "Cloud Applications",
+      "value": 4219000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-08-31",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=CloudInfrastructure;",
+      "segmentLabel": "Cloud Infrastructure",
+      "value": 7388000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-08-31",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=CloudRevenues;",
+      "segmentLabel": "Cloud Revenues",
+      "value": 11607000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-08-31",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=SoftwareLicense;",
+      "segmentLabel": "Software License",
+      "value": 655000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-08-31",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=SoftwareRevenues;",
+      "segmentLabel": "Software Revenues",
+      "value": 5550000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-08-31",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=SoftwareSupport;",
+      "segmentLabel": "Software Support",
+      "value": 4895000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
     }
   ],
   "PLTR": [
     {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=Commercial;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Commercial",
-      "value": 1295902000.0,
+      "endDate": "2025-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ConcentrationRiskByType=GeographicConcentrationRisk;Geographical=NonUs;",
+      "segmentLabel": "Geographic Concentration Risk · Non Us",
+      "value": 526466000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=GovernmentOperatingSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Government Operating Segment",
-      "value": 1569605000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ConcentrationRiskByType=GeographicConcentrationRisk;",
-      "segmentLabel": "Geographic Concentration Risk",
-      "value": 2865507000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ConcentrationRiskByType=GeographicConcentrationRisk;Geographical=GB;",
-      "segmentLabel": "Geographic Concentration Risk · GB",
-      "value": 304575000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ConcentrationRiskByType=GeographicConcentrationRisk;Geographical=RestOfWorld;",
-      "segmentLabel": "Geographic Concentration Risk · Rest Of World",
-      "value": 660685000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ConcentrationRiskByType=GeographicConcentrationRisk;Geographical=US;",
-      "segmentLabel": "Geographic Concentration Risk · US",
-      "value": 1900247000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "TypeOfArrangement=InvestmentAgreement;TypeOfContract=CommercialContract;",
-      "segmentLabel": "Investment Agreement · Commercial Contract",
-      "value": 52300000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=CommercialOperatingSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Commercial Operating Segment",
-      "value": 396892000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=GovernmentOperatingSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Government Operating Segment",
-      "value": 486963000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ConcentrationRiskByType=GeographicConcentrationRisk;",
-      "segmentLabel": "Geographic Concentration Risk",
-      "value": 883855000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ConcentrationRiskByType=GeographicConcentrationRisk;Geographical=GB;",
-      "segmentLabel": "Geographic Concentration Risk · GB",
-      "value": 89654000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ConcentrationRiskByType=GeographicConcentrationRisk;Geographical=RestOfWorld;",
-      "segmentLabel": "Geographic Concentration Risk · Rest Of World",
-      "value": 165707000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
+      "endDate": "2025-06-30",
       "qtrs": "1",
       "segmentRaw": "ConcentrationRiskByType=GeographicConcentrationRisk;Geographical=US;",
       "segmentLabel": "Geographic Concentration Risk · US",
-      "value": 628494000.0,
+      "value": 732592000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2025-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ConcentrationRiskByType=GeographicConcentrationRisk;Geographical=US;",
+      "segmentLabel": "Geographic Concentration Risk · US",
+      "value": 1361086000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
@@ -6760,314 +6774,99 @@ const SEGMENT_REVENUE_DATA = {
       "value": 1282066000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=CommercialOperatingSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Commercial Operating Segment",
+      "value": 945432000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=CommercialOperatingSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Commercial Operating Segment",
+      "value": 1719605000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=GovernmentOperatingSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Government Operating Segment",
+      "value": 990032000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=GovernmentOperatingSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Government Operating Segment",
+      "value": 1848442000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ConcentrationRiskByType=GeographicConcentrationRisk;",
+      "segmentLabel": "Geographic Concentration Risk",
+      "value": 1935464000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ConcentrationRiskByType=GeographicConcentrationRisk;",
+      "segmentLabel": "Geographic Concentration Risk",
+      "value": 3568047000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ConcentrationRiskByType=GeographicConcentrationRisk;Geographical=NonUs;",
+      "segmentLabel": "Geographic Concentration Risk · Non Us",
+      "value": 362417000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ConcentrationRiskByType=GeographicConcentrationRisk;Geographical=NonUs;",
+      "segmentLabel": "Geographic Concentration Risk · Non Us",
+      "value": 712934000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ConcentrationRiskByType=GeographicConcentrationRisk;Geographical=US;",
+      "segmentLabel": "Geographic Concentration Risk · US",
+      "value": 1573047000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ConcentrationRiskByType=GeographicConcentrationRisk;Geographical=US;",
+      "segmentLabel": "Geographic Concentration Risk · US",
+      "value": 2855113000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
     }
   ],
   "ETN": [
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=AerospaceSegment;MajorCustomers=IndustrialandOther;",
-      "segmentLabel": "Aerospace Segment · Industrialand Other",
-      "value": 1055000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=AerospaceSegment;MajorCustomers=OriginalEquipmentManufacturers;",
-      "segmentLabel": "Aerospace Segment · Original Equipment Manufacturers",
-      "value": 1640000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=EMobilitySegment;",
-      "segmentLabel": "E Mobility Segment",
-      "value": 604000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=EMobilitySegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "E Mobility Segment",
-      "value": 604000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ElectricalAmericasSegment;",
-      "segmentLabel": "Electrical Americas Segment",
-      "value": 13276000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ElectricalAmericasSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Electrical Americas Segment",
-      "value": 13276000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ElectricalAmericasSegment;ProductOrService=Product;",
-      "segmentLabel": "Electrical Americas Segment · Product",
-      "value": 3205000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ElectricalAmericasSegment;ProductOrService=Systems;",
-      "segmentLabel": "Electrical Americas Segment · Systems",
-      "value": 10070000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ElectricalGlobalSegment;",
-      "segmentLabel": "Electrical Global Segment",
-      "value": 6815000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ElectricalGlobalSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Electrical Global Segment",
-      "value": 6815000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ElectricalGlobalSegment;ProductOrService=Product;",
-      "segmentLabel": "Electrical Global Segment · Product",
-      "value": 3885000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ElectricalGlobalSegment;ProductOrService=Systems;",
-      "segmentLabel": "Electrical Global Segment · Systems",
-      "value": 2930000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=VehicleSegment;",
-      "segmentLabel": "Vehicle Segment",
-      "value": 2505000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=VehicleSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Vehicle Segment",
-      "value": 2505000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=VehicleSegment;ProductOrService=Commercial;",
-      "segmentLabel": "Vehicle Segment · Commercial",
-      "value": 1448000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=VehicleSegment;ProductOrService=PassengerAndLightDuty;",
-      "segmentLabel": "Vehicle Segment · Passenger And Light Duty",
-      "value": 1056000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Operating Segments;",
-      "value": 27448000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=AsiaPacific;",
-      "segmentLabel": "Asia Pacific",
-      "value": 2704000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=CA;",
-      "segmentLabel": "CA",
-      "value": 1083000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=Europe;",
-      "segmentLabel": "Europe",
-      "value": 5078000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=LatinAmerica;",
-      "segmentLabel": "Latin America",
-      "value": 1461000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=US;",
-      "segmentLabel": "US",
-      "value": 17122000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=AerospaceSegment;",
-      "segmentLabel": "Aerospace Segment",
-      "value": 1139000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=AerospaceSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Aerospace Segment",
-      "value": 1139000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=AerospaceSegment;MajorCustomers=AftermarketDistributionAndEndUser;",
-      "segmentLabel": "Aerospace Segment · Aftermarket Distribution And End User",
-      "value": 446000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=AerospaceSegment;MajorCustomers=IndustrialandOther;",
-      "segmentLabel": "Aerospace Segment · Industrialand Other",
-      "value": 285000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=AerospaceSegment;MajorCustomers=OriginalEquipmentManufacturers;",
-      "segmentLabel": "Aerospace Segment · Original Equipment Manufacturers",
-      "value": 408000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ElectricalAmericasSegment;",
-      "segmentLabel": "Electrical Americas Segment",
-      "value": 3600000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ElectricalAmericasSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Electrical Americas Segment",
-      "value": 3600000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ElectricalAmericasSegment;ProductOrService=Product;",
-      "segmentLabel": "Electrical Americas Segment · Product",
-      "value": 1020000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ElectricalAmericasSegment;ProductOrService=Systems;",
-      "segmentLabel": "Electrical Americas Segment · Systems",
-      "value": 2580000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ElectricalGlobalSegment;",
-      "segmentLabel": "Electrical Global Segment",
-      "value": 1945000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ElectricalGlobalSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Electrical Global Segment",
-      "value": 1945000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ElectricalGlobalSegment;ProductOrService=Product;",
-      "segmentLabel": "Electrical Global Segment · Product",
-      "value": 1056000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2026-03-31",
       "qtrs": "1",
@@ -7120,150 +6919,348 @@ const SEGMENT_REVENUE_DATA = {
       "segmentLabel": "Operating Segments;",
       "value": 7451000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=AerospaceSegment;",
+      "segmentLabel": "Aerospace Segment",
+      "value": 1222000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=AerospaceSegment;",
+      "segmentLabel": "Aerospace Segment",
+      "value": 2362000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=AerospaceSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Aerospace Segment",
+      "value": 1222000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=AerospaceSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Aerospace Segment",
+      "value": 2362000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=AerospaceSegment;MajorCustomers=AftermarketDistributionAndEndUser;",
+      "segmentLabel": "Aerospace Segment · Aftermarket Distribution And End User",
+      "value": 474000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=AerospaceSegment;MajorCustomers=AftermarketDistributionAndEndUser;",
+      "segmentLabel": "Aerospace Segment · Aftermarket Distribution And End User",
+      "value": 920000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=AerospaceSegment;MajorCustomers=IndustrialandOther;",
+      "segmentLabel": "Aerospace Segment · Industrialand Other",
+      "value": 292000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=AerospaceSegment;MajorCustomers=IndustrialandOther;",
+      "segmentLabel": "Aerospace Segment · Industrialand Other",
+      "value": 578000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=AerospaceSegment;MajorCustomers=OriginalEquipmentManufacturers;",
+      "segmentLabel": "Aerospace Segment · Original Equipment Manufacturers",
+      "value": 456000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=AerospaceSegment;MajorCustomers=OriginalEquipmentManufacturers;",
+      "segmentLabel": "Aerospace Segment · Original Equipment Manufacturers",
+      "value": 864000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ElectricalAmericasSegment;",
+      "segmentLabel": "Electrical Americas Segment",
+      "value": 3951000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ElectricalAmericasSegment;",
+      "segmentLabel": "Electrical Americas Segment",
+      "value": 7551000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ElectricalAmericasSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Electrical Americas Segment",
+      "value": 3951000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ElectricalAmericasSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Electrical Americas Segment",
+      "value": 7551000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ElectricalAmericasSegment;ProductOrService=Product;",
+      "segmentLabel": "Electrical Americas Segment · Product",
+      "value": 1144000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ElectricalAmericasSegment;ProductOrService=Product;",
+      "segmentLabel": "Electrical Americas Segment · Product",
+      "value": 2164000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ElectricalAmericasSegment;ProductOrService=Systems;",
+      "segmentLabel": "Electrical Americas Segment · Systems",
+      "value": 2806000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ElectricalAmericasSegment;ProductOrService=Systems;",
+      "segmentLabel": "Electrical Americas Segment · Systems",
+      "value": 5387000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ElectricalGlobalSegment;",
+      "segmentLabel": "Electrical Global Segment",
+      "value": 2517000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ElectricalGlobalSegment;",
+      "segmentLabel": "Electrical Global Segment",
+      "value": 4463000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ElectricalGlobalSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Electrical Global Segment",
+      "value": 2517000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ElectricalGlobalSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Electrical Global Segment",
+      "value": 4463000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ElectricalGlobalSegment;ProductOrService=Product;",
+      "segmentLabel": "Electrical Global Segment · Product",
+      "value": 1627000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ElectricalGlobalSegment;ProductOrService=Product;",
+      "segmentLabel": "Electrical Global Segment · Product",
+      "value": 2776000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ElectricalGlobalSegment;ProductOrService=Systems;",
+      "segmentLabel": "Electrical Global Segment · Systems",
+      "value": 890000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ElectricalGlobalSegment;ProductOrService=Systems;",
+      "segmentLabel": "Electrical Global Segment · Systems",
+      "value": 1687000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=MobilitySegment;",
+      "segmentLabel": "Mobility Segment",
+      "value": 841000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=MobilitySegment;",
+      "segmentLabel": "Mobility Segment",
+      "value": 1607000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=MobilitySegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Mobility Segment",
+      "value": 841000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=MobilitySegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Mobility Segment",
+      "value": 1607000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=MobilitySegment;ProductOrService=EMobility;",
+      "segmentLabel": "Mobility Segment · E Mobility",
+      "value": 157000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=MobilitySegment;ProductOrService=EMobility;",
+      "segmentLabel": "Mobility Segment · E Mobility",
+      "value": 309000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=MobilitySegment;ProductOrService=Vehicle;",
+      "segmentLabel": "Mobility Segment · Vehicle",
+      "value": 684000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=MobilitySegment;ProductOrService=Vehicle;",
+      "segmentLabel": "Mobility Segment · Vehicle",
+      "value": 1298000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
     }
   ],
   "ANET": [
     {
-      "endDate": "2024-09-30",
+      "endDate": "2025-06-30",
       "qtrs": "1",
       "segmentRaw": "ProductOrService=Product;",
       "segmentLabel": "Product",
-      "value": 1523800000.0,
+      "value": 1877000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2024-09-30",
-      "qtrs": "3",
+      "endDate": "2025-06-30",
+      "qtrs": "2",
       "segmentRaw": "ProductOrService=Product;",
       "segmentLabel": "Product",
-      "value": 4275900000.0,
+      "value": 3569500000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2024-09-30",
+      "endDate": "2025-06-30",
       "qtrs": "1",
       "segmentRaw": "ProductOrService=Service;",
       "segmentLabel": "Service",
-      "value": 287100000.0,
+      "value": 327800000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2024-09-30",
-      "qtrs": "3",
+      "endDate": "2025-06-30",
+      "qtrs": "2",
       "segmentRaw": "ProductOrService=Service;",
       "segmentLabel": "Service",
-      "value": 796800000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=Americas;",
-      "segmentLabel": "Americas",
-      "value": 5729000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=AsiaPacific;",
-      "segmentLabel": "Asia Pacific",
-      "value": 560900000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=EMEA;",
-      "segmentLabel": "EMEA",
-      "value": 713200000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=US;",
-      "segmentLabel": "US",
-      "value": 5663000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=Product;",
-      "segmentLabel": "Product",
-      "value": 5884000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=Service;",
-      "segmentLabel": "Service",
-      "value": 1119100000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=Americas;",
-      "segmentLabel": "Americas",
-      "value": 1598500000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=AsiaPacific;",
-      "segmentLabel": "Asia Pacific",
-      "value": 231700000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=EMEA;",
-      "segmentLabel": "EMEA",
-      "value": 174600000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=US;",
-      "segmentLabel": "US",
-      "value": 1581500000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Product;",
-      "segmentLabel": "Product",
-      "value": 1692500000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Service;",
-      "segmentLabel": "Service",
-      "value": 312300000.0,
+      "value": 640100000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
@@ -7482,549 +7479,479 @@ const SEGMENT_REVENUE_DATA = {
       "value": 397700000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=Americas;",
+      "segmentLabel": "Americas",
+      "value": 2337900000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=Americas;",
+      "segmentLabel": "Americas",
+      "value": 4628000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=AsiaPacific;",
+      "segmentLabel": "Asia Pacific",
+      "value": 259600000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=AsiaPacific;",
+      "segmentLabel": "Asia Pacific",
+      "value": 443500000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=EMEA;",
+      "segmentLabel": "EMEA",
+      "value": 438200000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=EMEA;",
+      "segmentLabel": "EMEA",
+      "value": 673200000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=US;",
+      "segmentLabel": "US",
+      "value": 2319600000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=US;",
+      "segmentLabel": "US",
+      "value": 4591700000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=Product;",
+      "segmentLabel": "Product",
+      "value": 2605200000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=Product;",
+      "segmentLabel": "Product",
+      "value": 4916500000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=Service;",
+      "segmentLabel": "Service",
+      "value": 430500000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=Service;",
+      "segmentLabel": "Service",
+      "value": 828200000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
     }
   ],
   "VRT": [
     {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=Asia;",
-      "segmentLabel": "Asia",
-      "value": 2020300000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=Europe;",
-      "segmentLabel": "Europe",
-      "value": 1474600000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=LatinAmericaAndCanada;",
-      "segmentLabel": "Latin America And Canada",
-      "value": 436900000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=MiddleEastAndAfrica;",
-      "segmentLabel": "Middle East And Africa",
-      "value": 284500000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=US;",
-      "segmentLabel": "US",
-      "value": 6013600000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=Product;",
-      "segmentLabel": "Product",
-      "value": 8390600000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=ProductExcludingSpares;",
-      "segmentLabel": "Product Excluding Spares",
-      "value": 8207000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=Service;",
-      "segmentLabel": "Service",
-      "value": 1839300000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=ServicesAndSpares;",
-      "segmentLabel": "Services And Spares",
-      "value": 2022900000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "TimingOfTransferOfGoodOrService=TransferredAtPointInTime;",
-      "segmentLabel": "Transferred At Point In Time",
-      "value": 8041800000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "TimingOfTransferOfGoodOrService=TransferredOverTime;",
-      "segmentLabel": "Transferred Over Time",
-      "value": 2188100000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=AmericasSegment;",
-      "segmentLabel": "Americas Segment",
-      "value": 1814400000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=AmericasSegment;ConsolidationItems=IntersegmentElimination;",
-      "segmentLabel": "Americas Segment",
-      "value": 8000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=AmericasSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Americas Segment",
-      "value": 1822400000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=AmericasSegment;ProductOrService=ProductExcludingSpares;",
-      "segmentLabel": "Americas Segment · Product Excluding Spares",
-      "value": 1475900000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=AmericasSegment;ProductOrService=ServicesAndSpares;",
-      "segmentLabel": "Americas Segment · Services And Spares",
-      "value": 338500000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=AmericasSegment;TimingOfTransferOfGoodOrService=TransferredAtPointInTime;",
-      "segmentLabel": "Americas Segment · Transferred At Point In Time",
-      "value": 1511900000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=AmericasSegment;TimingOfTransferOfGoodOrService=TransferredOverTime;",
-      "segmentLabel": "Americas Segment · Transferred Over Time",
-      "value": 302500000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=AsiaPacificSegment;",
       "segmentLabel": "Asia Pacific Segment",
-      "value": 513700000.0,
+      "value": 719900000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=AsiaPacificSegment;",
+      "segmentLabel": "Asia Pacific Segment",
+      "value": 1233600000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=AsiaPacificSegment;ConsolidationItems=IntersegmentElimination;",
       "segmentLabel": "Asia Pacific Segment",
-      "value": 117000000.0,
+      "value": 215500000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=AsiaPacificSegment;ConsolidationItems=IntersegmentElimination;",
+      "segmentLabel": "Asia Pacific Segment",
+      "value": 332500000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=AsiaPacificSegment;ConsolidationItems=OperatingSegments;",
       "segmentLabel": "Asia Pacific Segment",
-      "value": 630700000.0,
+      "value": 935400000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=AsiaPacificSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Asia Pacific Segment",
+      "value": 1566100000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=AsiaPacificSegment;ProductOrService=ProductExcludingSpares;",
       "segmentLabel": "Asia Pacific Segment · Product Excluding Spares",
-      "value": 381100000.0,
+      "value": 562400000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=AsiaPacificSegment;ProductOrService=ProductExcludingSpares;",
+      "segmentLabel": "Asia Pacific Segment · Product Excluding Spares",
+      "value": 943500000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=AsiaPacificSegment;ProductOrService=ServicesAndSpares;",
       "segmentLabel": "Asia Pacific Segment · Services And Spares",
-      "value": 132600000.0,
+      "value": 157500000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=AsiaPacificSegment;ProductOrService=ServicesAndSpares;",
+      "segmentLabel": "Asia Pacific Segment · Services And Spares",
+      "value": 290100000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=AsiaPacificSegment;TimingOfTransferOfGoodOrService=TransferredAtPointInTime;",
       "segmentLabel": "Asia Pacific Segment · Transferred At Point In Time",
-      "value": 382400000.0,
+      "value": 564500000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=AsiaPacificSegment;TimingOfTransferOfGoodOrService=TransferredAtPointInTime;",
+      "segmentLabel": "Asia Pacific Segment · Transferred At Point In Time",
+      "value": 946900000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=AsiaPacificSegment;TimingOfTransferOfGoodOrService=TransferredOverTime;",
       "segmentLabel": "Asia Pacific Segment · Transferred Over Time",
-      "value": 131300000.0,
+      "value": 155400000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=AsiaPacificSegment;TimingOfTransferOfGoodOrService=TransferredOverTime;",
+      "segmentLabel": "Asia Pacific Segment · Transferred Over Time",
+      "value": 286700000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=EMEASegment;",
       "segmentLabel": "EMEA Segment",
-      "value": 321400000.0,
+      "value": 483600000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=EMEASegment;",
+      "segmentLabel": "EMEA Segment",
+      "value": 805000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=EMEASegment;ConsolidationItems=IntersegmentElimination;",
       "segmentLabel": "EMEA Segment",
-      "value": 173500000.0,
+      "value": 226900000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=EMEASegment;ConsolidationItems=IntersegmentElimination;",
+      "segmentLabel": "EMEA Segment",
+      "value": 400400000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=EMEASegment;ConsolidationItems=OperatingSegments;",
       "segmentLabel": "EMEA Segment",
-      "value": 494900000.0,
+      "value": 710500000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=EMEASegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "EMEA Segment",
+      "value": 1205400000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=EMEASegment;ProductOrService=ProductExcludingSpares;",
       "segmentLabel": "EMEA Segment · Product Excluding Spares",
-      "value": 234200000.0,
+      "value": 377900000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=EMEASegment;ProductOrService=ProductExcludingSpares;",
+      "segmentLabel": "EMEA Segment · Product Excluding Spares",
+      "value": 612100000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=EMEASegment;ProductOrService=ServicesAndSpares;",
       "segmentLabel": "EMEA Segment · Services And Spares",
-      "value": 87200000.0,
+      "value": 105700000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=EMEASegment;ProductOrService=ServicesAndSpares;",
+      "segmentLabel": "EMEA Segment · Services And Spares",
+      "value": 192900000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=EMEASegment;TimingOfTransferOfGoodOrService=TransferredAtPointInTime;",
       "segmentLabel": "EMEA Segment · Transferred At Point In Time",
-      "value": 196900000.0,
+      "value": 260600000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=EMEASegment;TimingOfTransferOfGoodOrService=TransferredAtPointInTime;",
+      "segmentLabel": "EMEA Segment · Transferred At Point In Time",
+      "value": 457500000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=EMEASegment;TimingOfTransferOfGoodOrService=TransferredOverTime;",
       "segmentLabel": "EMEA Segment · Transferred Over Time",
-      "value": 124500000.0,
+      "value": 223000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ConsolidationItems=IntersegmentElimination;",
-      "segmentLabel": "Intersegment Elimination;",
-      "value": 298500000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=EMEASegment;TimingOfTransferOfGoodOrService=TransferredOverTime;",
+      "segmentLabel": "EMEA Segment · Transferred Over Time",
+      "value": 347500000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Operating Segments;",
-      "value": 2948000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
-    },
-    {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ProductOrService=Product;",
       "segmentLabel": "Product",
-      "value": 2135800000.0,
+      "value": 2646700000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=Product;",
+      "segmentLabel": "Product",
+      "value": 4782500000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ProductOrService=ProductExcludingSpares;",
       "segmentLabel": "Product Excluding Spares",
-      "value": 2091200000.0,
+      "value": 2606400000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=ProductExcludingSpares;",
+      "segmentLabel": "Product Excluding Spares",
+      "value": 4697600000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ProductOrService=Service;",
       "segmentLabel": "Service",
-      "value": 513700000.0,
+      "value": 627600000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=Service;",
+      "segmentLabel": "Service",
+      "value": 1141300000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ProductOrService=ServicesAndSpares;",
       "segmentLabel": "Services And Spares",
-      "value": 558300000.0,
+      "value": 667900000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=ServicesAndSpares;",
+      "segmentLabel": "Services And Spares",
+      "value": 1226200000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "TimingOfTransferOfGoodOrService=TransferredAtPointInTime;",
       "segmentLabel": "Transferred At Point In Time",
-      "value": 2091200000.0,
+      "value": 2522500000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "TimingOfTransferOfGoodOrService=TransferredAtPointInTime;",
+      "segmentLabel": "Transferred At Point In Time",
+      "value": 4613700000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "TimingOfTransferOfGoodOrService=TransferredOverTime;",
       "segmentLabel": "Transferred Over Time",
-      "value": 558300000.0,
+      "value": 751800000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "TimingOfTransferOfGoodOrService=TransferredOverTime;",
+      "segmentLabel": "Transferred Over Time",
+      "value": 1310100000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     }
   ],
   "TSLA": [
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=SalesAndServices;",
-      "segmentLabel": "Sales And Services",
-      "value": 18779000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=ServicesAndOther;",
-      "segmentLabel": "Services And Other",
-      "value": 2638000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=AutomotiveLeasing;",
-      "segmentLabel": "Automotive Leasing",
-      "value": 429000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=AutomotiveLeasing;",
-      "segmentLabel": "Automotive Leasing",
-      "value": 1311000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=AutomotiveRegulatoryCredits;",
-      "segmentLabel": "Automotive Regulatory Credits",
-      "value": 417000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=AutomotiveRegulatoryCredits;",
-      "segmentLabel": "Automotive Regulatory Credits",
-      "value": 1451000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=AutomotiveRevenues;",
-      "segmentLabel": "Automotive Revenues",
-      "value": 21205000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=AutomotiveRevenues;",
-      "segmentLabel": "Automotive Revenues",
-      "value": 51833000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=AutomotiveSales;",
-      "segmentLabel": "Automotive Sales",
-      "value": 20359000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=AutomotiveSales;",
-      "segmentLabel": "Automotive Sales",
-      "value": 49071000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=EnergyGenerationAndStorage;",
-      "segmentLabel": "Energy Generation And Storage",
-      "value": 3415000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=EnergyGenerationAndStorage;",
-      "segmentLabel": "Energy Generation And Storage",
-      "value": 8934000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=EnergyGenerationAndStorageLeasing;",
-      "segmentLabel": "Energy Generation And Storage Leasing",
-      "value": 134000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=EnergyGenerationAndStorageLeasing;",
-      "segmentLabel": "Energy Generation And Storage Leasing",
-      "value": 386000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=EnergyGenerationAndStorageSales;",
-      "segmentLabel": "Energy Generation And Storage Sales",
-      "value": 3281000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=EnergyGenerationAndStorageSales;",
-      "segmentLabel": "Energy Generation And Storage Sales",
-      "value": 8548000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=SalesAndServices;",
-      "segmentLabel": "Sales And Services",
-      "value": 27532000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=SalesAndServices;",
-      "segmentLabel": "Sales And Services",
-      "value": 68229000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=ServicesAndOther;",
-      "segmentLabel": "Services And Other",
-      "value": 3475000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=ServicesAndOther;",
-      "segmentLabel": "Services And Other",
-      "value": 9159000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2025-12-31",
       "qtrs": "4",
@@ -8204,132 +8131,204 @@ const SEGMENT_REVENUE_DATA = {
       "value": 87000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=AutomotiveLeasing;",
+      "segmentLabel": "Automotive Leasing",
+      "value": 364000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=AutomotiveLeasing;",
+      "segmentLabel": "Automotive Leasing",
+      "value": 745000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=AutomotiveRegulatoryCredits;",
+      "segmentLabel": "Automotive Regulatory Credits",
+      "value": 146000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=AutomotiveRegulatoryCredits;",
+      "segmentLabel": "Automotive Regulatory Credits",
+      "value": 526000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=AutomotiveRevenues;",
+      "segmentLabel": "Automotive Revenues",
+      "value": 20516000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=AutomotiveRevenues;",
+      "segmentLabel": "Automotive Revenues",
+      "value": 36750000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=AutomotiveSales;",
+      "segmentLabel": "Automotive Sales",
+      "value": 20006000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=AutomotiveSales;",
+      "segmentLabel": "Automotive Sales",
+      "value": 35479000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=EnergyGenerationAndStorage;",
+      "segmentLabel": "Energy Generation And Storage",
+      "value": 3139000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=EnergyGenerationAndStorage;",
+      "segmentLabel": "Energy Generation And Storage",
+      "value": 5547000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=EnergyGenerationAndStorageLeasing;",
+      "segmentLabel": "Energy Generation And Storage Leasing",
+      "value": 141000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=EnergyGenerationAndStorageLeasing;",
+      "segmentLabel": "Energy Generation And Storage Leasing",
+      "value": 244000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=EnergyGenerationAndStorageSales;",
+      "segmentLabel": "Energy Generation And Storage Sales",
+      "value": 2998000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=EnergyGenerationAndStorageSales;",
+      "segmentLabel": "Energy Generation And Storage Sales",
+      "value": 5303000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=SalesAndServices;",
+      "segmentLabel": "Sales And Services",
+      "value": 27731000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=SalesAndServices;",
+      "segmentLabel": "Sales And Services",
+      "value": 49634000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=ServicesAndOther;",
+      "segmentLabel": "Services And Other",
+      "value": 4581000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=ServicesAndOther;",
+      "segmentLabel": "Services And Other",
+      "value": 8326000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "RelatedPartyTransactionsByRelatedParty=RelatedParty;",
+      "segmentLabel": "Related Party",
+      "value": 318000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "RelatedPartyTransactionsByRelatedParty=RelatedParty;",
+      "segmentLabel": "Related Party",
+      "value": 405000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
     }
   ],
   "BE": [
     {
-      "endDate": "2024-09-30",
-      "qtrs": "3",
-      "segmentRaw": "RelatedPartyTransactionsByRelatedParty=RelatedParty;",
-      "segmentLabel": "Related Party",
-      "value": 335641000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "CapitalizedCostsOfUnprovedPropertiesExcludedFromAmortizationByPropertyOrProject=PPAVUpgrade;ConsolidatedEntities=VariableInterestEntityPrimaryBeneficiary;EquityMethodInvestmentNonconsolidatedInvestee=PowerPurchaseAgreementCompany5;ProductOrService=Product;",
-      "segmentLabel": "PPAV Upgrade · Variable Interest Entity Primary Beneficiary · Power Purchase Agreement Company5 · Product",
-      "value": -100000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ConsolidatedEntities=VariableInterestEntityPrimaryBeneficiary;EquityMethodInvestmentNonconsolidatedInvestee=PowerPurchaseAgreementCompany5;ProductOrService=Service;",
-      "segmentLabel": "Variable Interest Entity Primary Beneficiary · Power Purchase Agreement Company5 · Service",
-      "value": 10900000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "CounterpartyName=SKEcoplant;RelatedPartyTransactionsByRelatedParty=RelatedParty;",
-      "segmentLabel": "SK Ecoplant · Related Party",
-      "value": 40200000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=Electricity;",
-      "segmentLabel": "Electricity",
-      "value": 52843000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=Installation;",
-      "segmentLabel": "Installation",
-      "value": 122318000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=Product;",
-      "segmentLabel": "Product",
-      "value": 1085153000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=Service;",
-      "segmentLabel": "Service",
-      "value": 213542000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-12-31",
-      "qtrs": "4",
-      "segmentRaw": "RelatedPartyTransactionsByRelatedParty=RelatedParty;",
-      "segmentLabel": "Related Party",
-      "value": 338602000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Electricity;",
-      "segmentLabel": "Electricity",
-      "value": 26953000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Installation;",
-      "segmentLabel": "Installation",
-      "value": 33651000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Product;",
-      "segmentLabel": "Product",
-      "value": 211869000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Service;",
-      "segmentLabel": "Service",
-      "value": 53548000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
+      "endDate": "2025-06-30",
       "qtrs": "1",
       "segmentRaw": "RelatedPartyTransactionsByRelatedParty=RelatedParty;",
       "segmentLabel": "Related Party",
-      "value": 2783000.0,
+      "value": 27077000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2025-06-30",
+      "qtrs": "2",
+      "segmentRaw": "RelatedPartyTransactionsByRelatedParty=RelatedParty;",
+      "segmentLabel": "Related Party",
+      "value": 29860000.0,
       "tag": "Revenues",
       "isHedgeAdjustment": false
     },
@@ -8566,153 +8565,117 @@ const SEGMENT_REVENUE_DATA = {
       "value": 373263000.0,
       "tag": "Revenues",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=Electricity;",
+      "segmentLabel": "Electricity",
+      "value": 9951000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=Electricity;",
+      "segmentLabel": "Electricity",
+      "value": 19847000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=Installation;",
+      "segmentLabel": "Installation",
+      "value": 50978000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=Installation;",
+      "segmentLabel": "Installation",
+      "value": 76909000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=Product;",
+      "segmentLabel": "Product",
+      "value": 935413000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=Product;",
+      "segmentLabel": "Product",
+      "value": 1588761000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=Service;",
+      "segmentLabel": "Service",
+      "value": 69023000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=Service;",
+      "segmentLabel": "Service",
+      "value": 130902000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "RelatedPartyTransactionsByRelatedParty=EquityMethodInvestee;",
+      "segmentLabel": "Equity Method Investee",
+      "value": 0.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "RelatedPartyTransactionsByRelatedParty=EquityMethodInvestee;",
+      "segmentLabel": "Equity Method Investee",
+      "value": 0.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "RelatedPartyTransactionsByRelatedParty=RelatedParty;",
+      "segmentLabel": "Related Party",
+      "value": 2818000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "RelatedPartyTransactionsByRelatedParty=RelatedParty;",
+      "segmentLabel": "Related Party",
+      "value": 376081000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
     }
   ],
   "META": [
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=FamilyOfApps;ProductOrService=Advertising;",
-      "segmentLabel": "Family Of Apps · Advertising",
-      "value": 41392000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=FamilyOfApps;ProductOrService=ServiceOther;",
-      "segmentLabel": "Family Of Apps · Service Other",
-      "value": 510000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=RealityLabs;",
-      "segmentLabel": "Reality Labs",
-      "value": 412000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=AsiaPacific;",
-      "segmentLabel": "Asia Pacific",
-      "value": 11239000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=Europe;",
-      "segmentLabel": "Europe",
-      "value": 9621000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=RestOfWorld;",
-      "segmentLabel": "Rest Of World",
-      "value": 4585000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=USCanada;",
-      "segmentLabel": "US Canada",
-      "value": 16869000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=FamilyOfApps;",
-      "segmentLabel": "Family Of Apps",
-      "value": 50772000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "BusinessSegments=FamilyOfApps;",
-      "segmentLabel": "Family Of Apps",
-      "value": 139821000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=FamilyOfApps;ProductOrService=Advertising;",
-      "segmentLabel": "Family Of Apps · Advertising",
-      "value": 50082000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "BusinessSegments=FamilyOfApps;ProductOrService=Advertising;",
-      "segmentLabel": "Family Of Apps · Advertising",
-      "value": 138037000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=FamilyOfApps;ProductOrService=ServiceOther;",
-      "segmentLabel": "Family Of Apps · Service Other",
-      "value": 690000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "BusinessSegments=FamilyOfApps;ProductOrService=ServiceOther;",
-      "segmentLabel": "Family Of Apps · Service Other",
-      "value": 1784000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=RealityLabs;",
-      "segmentLabel": "Reality Labs",
-      "value": 470000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "BusinessSegments=RealityLabs;",
-      "segmentLabel": "Reality Labs",
-      "value": 1252000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=AsiaPacific;",
-      "segmentLabel": "Asia Pacific",
-      "value": 14304000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2025-09-30",
       "qtrs": "3",
@@ -8928,99 +8891,153 @@ const SEGMENT_REVENUE_DATA = {
       "value": 21267000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=FamilyOfApps;",
+      "segmentLabel": "Family Of Apps",
+      "value": 60370000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=FamilyOfApps;",
+      "segmentLabel": "Family Of Apps",
+      "value": 116278000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=FamilyOfApps;ProductOrService=Advertising;",
+      "segmentLabel": "Family Of Apps · Advertising",
+      "value": 59363000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=FamilyOfApps;ProductOrService=Advertising;",
+      "segmentLabel": "Family Of Apps · Advertising",
+      "value": 114387000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=FamilyOfApps;ProductOrService=ServiceOther;",
+      "segmentLabel": "Family Of Apps · Service Other",
+      "value": 1007000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=FamilyOfApps;ProductOrService=ServiceOther;",
+      "segmentLabel": "Family Of Apps · Service Other",
+      "value": 1891000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=RealityLabs;",
+      "segmentLabel": "Reality Labs",
+      "value": 431000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=RealityLabs;",
+      "segmentLabel": "Reality Labs",
+      "value": 833000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=AsiaPacific;",
+      "segmentLabel": "Asia Pacific",
+      "value": 16073000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=AsiaPacific;",
+      "segmentLabel": "Asia Pacific",
+      "value": 31518000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=Europe;",
+      "segmentLabel": "Europe",
+      "value": 14009000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=Europe;",
+      "segmentLabel": "Europe",
+      "value": 27249000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=RestOfWorld;",
+      "segmentLabel": "Rest Of World",
+      "value": 6856000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=RestOfWorld;",
+      "segmentLabel": "Rest Of World",
+      "value": 13215000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=USCanada;",
+      "segmentLabel": "US Canada",
+      "value": 23863000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=USCanada;",
+      "segmentLabel": "US Canada",
+      "value": 45129000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
     }
   ],
   "WDC": [
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=ClientDevices;",
-      "segmentLabel": "Client Devices",
-      "value": 416000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Cloud;",
-      "segmentLabel": "Cloud",
-      "value": 2007000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=Cloud;",
-      "segmentLabel": "Cloud",
-      "value": 6012000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Consumer;",
-      "segmentLabel": "Consumer",
-      "value": 150000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=Consumer;",
-      "segmentLabel": "Consumer",
-      "value": 487000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=HDD;",
-      "segmentLabel": "HDD",
-      "value": 2818000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=Americas;",
-      "segmentLabel": "Americas",
-      "value": 1100000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=Asia;",
-      "segmentLabel": "Asia",
-      "value": 1175000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=EuropeMiddleEastAndAfrica;",
-      "segmentLabel": "Europe Middle East And Africa",
-      "value": 543000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=ClientDevices;",
-      "segmentLabel": "Client Devices",
-      "value": 146000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2025-09-30",
       "qtrs": "1",
@@ -9290,243 +9307,99 @@ const SEGMENT_REVENUE_DATA = {
       "value": 516000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
-    }
-  ],
-  "HUBB": [
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=UtilitySolutionsSegment;ProductOrService=GridAutomation;",
-      "segmentLabel": "Utility Solutions Segment · Grid Automation",
-      "value": 229000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
     },
     {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "BusinessSegments=UtilitySolutionsSegment;ProductOrService=GridAutomation;",
-      "segmentLabel": "Utility Solutions Segment · Grid Automation",
-      "value": 705200000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=UtilitySolutionsSegment;ProductOrService=GridInfrastructure;",
-      "segmentLabel": "Utility Solutions Segment · Grid Infrastructure",
-      "value": 714800000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "BusinessSegments=UtilitySolutionsSegment;ProductOrService=GridInfrastructure;",
-      "segmentLabel": "Utility Solutions Segment · Grid Infrastructure",
-      "value": 2031200000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "EquityComponents=AccumulatedGainLossNetCashFlowHedgeParent;ReclassificationOutOfAccumulatedOtherComprehensiveIncome=ReclassificationOutOfAccumulatedOtherComprehensiveIncome;",
-      "segmentLabel": "Accumulated Gain Loss Net Cash Flow Hedge Parent · Reclassification Out Of Accumulated Other Comprehensive Income",
-      "value": 0.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": true
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "EquityComponents=AccumulatedGainLossNetCashFlowHedgeParent;ReclassificationOutOfAccumulatedOtherComprehensiveIncome=ReclassificationOutOfAccumulatedOtherComprehensiveIncome;",
-      "segmentLabel": "Accumulated Gain Loss Net Cash Flow Hedge Parent · Reclassification Out Of Accumulated Other Comprehensive Income",
-      "value": 0.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": true
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "Restatement=RevisionOfPriorPeriodChangeInAccountingPrincipleAdjustment;",
-      "segmentLabel": "Revision Of Prior Period Change In Accounting Principle Adjustment",
-      "value": 0.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "Restatement=RevisionOfPriorPeriodChangeInAccountingPrincipleAdjustment;",
-      "segmentLabel": "Revision Of Prior Period Change In Accounting Principle Adjustment",
-      "value": 0.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "Restatement=ScenarioPreviouslyReported;",
-      "segmentLabel": "Scenario Previously Reported",
-      "value": 1502400000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "Restatement=ScenarioPreviouslyReported;",
-      "segmentLabel": "Scenario Previously Reported",
-      "value": 4351900000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
+      "endDate": "2026-06-30",
       "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ElectricalSegment;",
-      "segmentLabel": "Electrical Segment",
-      "value": 2172300000.0,
+      "segmentRaw": "BusinessSegments=HDD;",
+      "segmentLabel": "HDD",
+      "value": 12919000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2025-12-31",
+      "endDate": "2026-06-30",
       "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ElectricalSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Electrical Segment",
-      "value": 2172300000.0,
+      "segmentRaw": "Geographical=CN;",
+      "segmentLabel": "CN",
+      "value": 2541000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2025-12-31",
+      "endDate": "2026-06-30",
       "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ElectricalSegment;Geographical=NonUs;",
-      "segmentLabel": "Electrical Segment · Non Us",
-      "value": 279900000.0,
+      "segmentRaw": "Geographical=EMEA;",
+      "segmentLabel": "EMEA",
+      "value": 2114000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2025-12-31",
+      "endDate": "2026-06-30",
       "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ElectricalSegment;Geographical=US;",
-      "segmentLabel": "Electrical Segment · US",
-      "value": 1892400000.0,
+      "segmentRaw": "Geographical=HK;",
+      "segmentLabel": "HK",
+      "value": 1487000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2025-12-31",
+      "endDate": "2026-06-30",
       "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ElectricalSegment;ProductOrService=ElectricalProducts;",
-      "segmentLabel": "Electrical Segment · Electrical Products",
-      "value": 885200000.0,
+      "segmentRaw": "Geographical=Other;",
+      "segmentLabel": "Other",
+      "value": 513000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2025-12-31",
+      "endDate": "2026-06-30",
       "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ElectricalSegment;ProductOrService=Industrial;",
-      "segmentLabel": "Electrical Segment · Industrial",
-      "value": 1287100000.0,
+      "segmentRaw": "Geographical=RestOfAsia;",
+      "segmentLabel": "Rest Of Asia",
+      "value": 1095000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ElectricalSegment;ProductOrService=RetailAndBuilder;",
-      "segmentLabel": "Electrical Segment · Retail And Builder",
-      "value": 0.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=UtilitySolutionsSegment;",
-      "segmentLabel": "Utility Solutions Segment",
-      "value": 3672300000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=UtilitySolutionsSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Utility Solutions Segment",
-      "value": 3672300000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=UtilitySolutionsSegment;Geographical=NonUs;",
-      "segmentLabel": "Utility Solutions Segment · Non Us",
-      "value": 153400000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=UtilitySolutionsSegment;Geographical=US;",
-      "segmentLabel": "Utility Solutions Segment · US",
-      "value": 3518900000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=UtilitySolutionsSegment;ProductOrService=GridAutomation;",
-      "segmentLabel": "Utility Solutions Segment · Grid Automation",
-      "value": 924100000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=UtilitySolutionsSegment;ProductOrService=GridInfrastructure;",
-      "segmentLabel": "Utility Solutions Segment · Grid Infrastructure",
-      "value": 2748200000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=NonUs;",
-      "segmentLabel": "Non Us",
-      "value": 433300000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
+      "endDate": "2026-06-30",
       "qtrs": "4",
       "segmentRaw": "Geographical=US;",
       "segmentLabel": "US",
-      "value": 5411300000.0,
+      "value": 5169000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2025-12-31",
+      "endDate": "2026-06-30",
       "qtrs": "4",
-      "segmentRaw": "Restatement=RevisionOfPriorPeriodChangeInAccountingPrincipleAdjustment;",
-      "segmentLabel": "Revision Of Prior Period Change In Accounting Principle Adjustment",
-      "value": 0.0,
+      "segmentRaw": "ProductOrService=ClientDevices;",
+      "segmentLabel": "Client Devices",
+      "value": 726000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=Cloud;",
+      "segmentLabel": "Cloud",
+      "value": 11490000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=Consumer;",
+      "segmentLabel": "Consumer",
+      "value": 703000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    }
+  ],
+  "HUBB": [
     {
       "endDate": "2025-12-31",
       "qtrs": "4",
@@ -9652,108 +9525,243 @@ const SEGMENT_REVENUE_DATA = {
       "value": 0.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": true
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ElectricalSegment;",
+      "segmentLabel": "Electrical Segment",
+      "value": 686000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ElectricalSegment;",
+      "segmentLabel": "Electrical Segment",
+      "value": 1253800000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ElectricalSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Electrical Segment",
+      "value": 686000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ElectricalSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Electrical Segment",
+      "value": 1253800000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ElectricalSegment;Geographical=NonUs;",
+      "segmentLabel": "Electrical Segment · Non Us",
+      "value": 77600000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ElectricalSegment;Geographical=NonUs;",
+      "segmentLabel": "Electrical Segment · Non Us",
+      "value": 149600000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ElectricalSegment;Geographical=US;",
+      "segmentLabel": "Electrical Segment · US",
+      "value": 608400000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ElectricalSegment;Geographical=US;",
+      "segmentLabel": "Electrical Segment · US",
+      "value": 1104200000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ElectricalSegment;ProductOrService=ElectricalProducts;",
+      "segmentLabel": "Electrical Segment · Electrical Products",
+      "value": 275600000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ElectricalSegment;ProductOrService=ElectricalProducts;",
+      "segmentLabel": "Electrical Segment · Electrical Products",
+      "value": 507800000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ElectricalSegment;ProductOrService=Industrial;",
+      "segmentLabel": "Electrical Segment · Industrial",
+      "value": 410400000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ElectricalSegment;ProductOrService=Industrial;",
+      "segmentLabel": "Electrical Segment · Industrial",
+      "value": 746000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=UtilitySolutionsSegment;",
+      "segmentLabel": "Utility Solutions Segment",
+      "value": 1025800000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UtilitySolutionsSegment;",
+      "segmentLabel": "Utility Solutions Segment",
+      "value": 1974700000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=UtilitySolutionsSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Utility Solutions Segment",
+      "value": 1025800000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UtilitySolutionsSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Utility Solutions Segment",
+      "value": 1974700000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=UtilitySolutionsSegment;Geographical=NonUs;",
+      "segmentLabel": "Utility Solutions Segment · Non Us",
+      "value": 36400000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UtilitySolutionsSegment;Geographical=NonUs;",
+      "segmentLabel": "Utility Solutions Segment · Non Us",
+      "value": 74500000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=UtilitySolutionsSegment;Geographical=US;",
+      "segmentLabel": "Utility Solutions Segment · US",
+      "value": 989400000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UtilitySolutionsSegment;Geographical=US;",
+      "segmentLabel": "Utility Solutions Segment · US",
+      "value": 1900200000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=UtilitySolutionsSegment;ProductOrService=GridAutomation;",
+      "segmentLabel": "Utility Solutions Segment · Grid Automation",
+      "value": 240300000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UtilitySolutionsSegment;ProductOrService=GridAutomation;",
+      "segmentLabel": "Utility Solutions Segment · Grid Automation",
+      "value": 462100000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=UtilitySolutionsSegment;ProductOrService=GridInfrastructure;",
+      "segmentLabel": "Utility Solutions Segment · Grid Infrastructure",
+      "value": 785500000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=UtilitySolutionsSegment;ProductOrService=GridInfrastructure;",
+      "segmentLabel": "Utility Solutions Segment · Grid Infrastructure",
+      "value": 1512600000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "EquityComponents=AccumulatedGainLossNetCashFlowHedgeParent;ReclassificationOutOfAccumulatedOtherComprehensiveIncome=ReclassificationOutOfAccumulatedOtherComprehensiveIncome;",
+      "segmentLabel": "Accumulated Gain Loss Net Cash Flow Hedge Parent · Reclassification Out Of Accumulated Other Comprehensive Income",
+      "value": 0.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": true
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "EquityComponents=AccumulatedGainLossNetCashFlowHedgeParent;ReclassificationOutOfAccumulatedOtherComprehensiveIncome=ReclassificationOutOfAccumulatedOtherComprehensiveIncome;",
+      "segmentLabel": "Accumulated Gain Loss Net Cash Flow Hedge Parent · Reclassification Out Of Accumulated Other Comprehensive Income",
+      "value": 0.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": true
     }
   ],
   "SNDK": [
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=Consumer;",
-      "segmentLabel": "Consumer",
-      "value": 1683000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Datacenter;",
-      "segmentLabel": "Datacenter",
-      "value": 197000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=Datacenter;",
-      "segmentLabel": "Datacenter",
-      "value": 747000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Edge;",
-      "segmentLabel": "Edge",
-      "value": 927000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=Edge;",
-      "segmentLabel": "Edge",
-      "value": 3024000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ReportableSegment;",
-      "segmentLabel": "Reportable Segment",
-      "value": 2308000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=Americas;",
-      "segmentLabel": "Americas",
-      "value": 406000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=Asia;",
-      "segmentLabel": "Asia",
-      "value": 1515000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=EMEA;",
-      "segmentLabel": "EMEA",
-      "value": 387000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Consumer;",
-      "segmentLabel": "Consumer",
-      "value": 652000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Datacenter;",
-      "segmentLabel": "Datacenter",
-      "value": 269000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2025-09-30",
       "qtrs": "1",
@@ -10014,27 +10022,108 @@ const SEGMENT_REVENUE_DATA = {
       "value": 6728000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "BusinessSegments=ReportableSegment;",
+      "segmentLabel": "Reportable Segment",
+      "value": 20248000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "EquityMethodInvestmentNonconsolidatedInvestee=EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvestees;",
+      "segmentLabel": "Equity Method Investment Nonconsolidated Investee Or Group Of Investees",
+      "value": 2775000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=CN;",
+      "segmentLabel": "CN",
+      "value": 4503000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=EMEA;",
+      "segmentLabel": "EMEA",
+      "value": 1732000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=HK;",
+      "segmentLabel": "HK",
+      "value": 5126000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=OtherGeographical;",
+      "segmentLabel": "Other Geographical",
+      "value": 561000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=RestOfAsia;",
+      "segmentLabel": "Rest Of Asia",
+      "value": 4612000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "Geographical=US;",
+      "segmentLabel": "US",
+      "value": 3714000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=Consumer;",
+      "segmentLabel": "Consumer",
+      "value": 2935000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=Datacenter;",
+      "segmentLabel": "Datacenter",
+      "value": 5153000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "ProductOrService=Edge;",
+      "segmentLabel": "Edge",
+      "value": 12160000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
     }
   ],
   "LITE": [
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "2",
-      "segmentRaw": "Geographical=CN;",
-      "segmentLabel": "CN",
-      "value": 103900000.0,
-      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "2",
-      "segmentRaw": "Geographical=EMEA;",
-      "segmentLabel": "EMEA",
-      "value": 76300000.0,
-      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2025-12-31",
       "qtrs": "1",
@@ -10376,207 +10465,27 @@ const SEGMENT_REVENUE_DATA = {
       "value": 424300000.0,
       "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "BusinessSegments=Components;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Components",
+      "value": 1008400000.0,
+      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "4",
+      "segmentRaw": "BusinessSegments=Systems;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Systems",
+      "value": 2005600000.0,
+      "tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+      "isHedgeAdjustment": false
     }
   ],
   "AMAT": [
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=Europe;",
-      "segmentLabel": "Europe",
-      "value": 962000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=JP;",
-      "segmentLabel": "JP",
-      "value": 2273000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=KR;",
-      "segmentLabel": "KR",
-      "value": 5608000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=OutsideNorthAmerica;",
-      "segmentLabel": "Outside North America",
-      "value": 25305000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=SoutheastAsia;",
-      "segmentLabel": "Southeast Asia",
-      "value": 1076000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=TW;",
-      "segmentLabel": "TW",
-      "value": 6857000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=US;",
-      "segmentLabel": "US",
-      "value": 3063000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-01-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=AppliedGlobalServicesSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Applied Global Services Segment",
-      "value": 1559000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-01-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=SemiconductorSystemsSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Semiconductor Systems Segment",
-      "value": 5141000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-01-31",
-      "qtrs": "1",
-      "segmentRaw": "ConsolidationItems=CorporateAndReconcilingItems;",
-      "segmentLabel": "Corporate And Reconciling Items",
-      "value": 312000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-01-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=AsiaPacific;",
-      "segmentLabel": "Asia Pacific",
-      "value": 6135000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-01-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=CN;",
-      "segmentLabel": "CN",
-      "value": 2095000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-01-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=Europe;",
-      "segmentLabel": "Europe",
-      "value": 221000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-01-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=JP;",
-      "segmentLabel": "JP",
-      "value": 525000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-01-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=KR;",
-      "segmentLabel": "KR",
-      "value": 1458000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-01-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=SoutheastAsia;",
-      "segmentLabel": "Southeast Asia",
-      "value": 335000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-01-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=TW;",
-      "segmentLabel": "TW",
-      "value": 1722000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-01-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=US;",
-      "segmentLabel": "US",
-      "value": 656000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-04-30",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=AppliedGlobalServicesSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Applied Global Services Segment",
-      "value": 1665000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-04-30",
-      "qtrs": "2",
-      "segmentRaw": "BusinessSegments=AppliedGlobalServicesSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Applied Global Services Segment",
-      "value": 3224000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-04-30",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=SemiconductorSystemsSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Semiconductor Systems Segment",
-      "value": 5965000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-04-30",
-      "qtrs": "2",
-      "segmentRaw": "BusinessSegments=SemiconductorSystemsSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Semiconductor Systems Segment",
-      "value": 11106000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2026-04-30",
       "qtrs": "1",
@@ -10738,6 +10647,204 @@ const SEGMENT_REVENUE_DATA = {
       "value": 1597000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=AppliedGlobalServicesSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Applied Global Services Segment",
+      "value": 1781000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "BusinessSegments=AppliedGlobalServicesSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Applied Global Services Segment",
+      "value": 5005000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=SemiconductorSystemsSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Semiconductor Systems Segment",
+      "value": 7040000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "BusinessSegments=SemiconductorSystemsSegment;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Semiconductor Systems Segment",
+      "value": 18146000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "ConsolidationItems=CorporateAndReconcilingItems;",
+      "segmentLabel": "Corporate And Reconciling Items",
+      "value": 294000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "ConsolidationItems=CorporateAndReconcilingItems;",
+      "segmentLabel": "Corporate And Reconciling Items",
+      "value": 886000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=AsiaPacific;",
+      "segmentLabel": "Asia Pacific",
+      "value": 7265000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "Geographical=AsiaPacific;",
+      "segmentLabel": "Asia Pacific",
+      "value": 20022000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=CN;",
+      "segmentLabel": "CN",
+      "value": 2506000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "Geographical=CN;",
+      "segmentLabel": "CN",
+      "value": 6688000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=Europe;",
+      "segmentLabel": "Europe",
+      "value": 483000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "Geographical=Europe;",
+      "segmentLabel": "Europe",
+      "value": 1051000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=JP;",
+      "segmentLabel": "JP",
+      "value": 839000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "Geographical=JP;",
+      "segmentLabel": "JP",
+      "value": 1987000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=KR;",
+      "segmentLabel": "KR",
+      "value": 1521000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "Geographical=KR;",
+      "segmentLabel": "KR",
+      "value": 4551000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=SoutheastAsia;",
+      "segmentLabel": "Southeast Asia",
+      "value": 374000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "Geographical=SoutheastAsia;",
+      "segmentLabel": "Southeast Asia",
+      "value": 894000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=TW;",
+      "segmentLabel": "TW",
+      "value": 2025000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "Geographical=TW;",
+      "segmentLabel": "TW",
+      "value": 5902000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=US;",
+      "segmentLabel": "US",
+      "value": 1367000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "Geographical=US;",
+      "segmentLabel": "US",
+      "value": 2964000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
     }
   ],
   "GOOGL": [
@@ -10787,6 +10894,24 @@ const SEGMENT_REVENUE_DATA = {
       "isHedgeAdjustment": true
     },
     {
+      "endDate": "2025-06-30",
+      "qtrs": "1",
+      "segmentRaw": "DerivativeInstrumentRisk=ForeignExchangeContract;EquityComponents=AccumulatedGainLossNetCashFlowHedgeParent;ReclassificationOutOfAccumulatedOtherComprehensiveIncome=ReclassificationOutOfAccumulatedOtherComprehensiveIncome;",
+      "segmentLabel": "Foreign Exchange Contract · Accumulated Gain Loss Net Cash Flow Hedge Parent · Reclassification Out Of Accumulated Other Comprehensive Income",
+      "value": -138000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": true
+    },
+    {
+      "endDate": "2025-06-30",
+      "qtrs": "2",
+      "segmentRaw": "DerivativeInstrumentRisk=ForeignExchangeContract;EquityComponents=AccumulatedGainLossNetCashFlowHedgeParent;ReclassificationOutOfAccumulatedOtherComprehensiveIncome=ReclassificationOutOfAccumulatedOtherComprehensiveIncome;",
+      "segmentLabel": "Foreign Exchange Contract · Accumulated Gain Loss Net Cash Flow Hedge Parent · Reclassification Out Of Accumulated Other Comprehensive Income",
+      "value": 104000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": true
+    },
+    {
       "endDate": "2025-09-30",
       "qtrs": "1",
       "segmentRaw": "DerivativeInstrumentRisk=ForeignExchangeContract;EquityComponents=AccumulatedGainLossNetCashFlowHedgeParent;ReclassificationOutOfAccumulatedOtherComprehensiveIncome=ReclassificationOutOfAccumulatedOtherComprehensiveIncome;",
@@ -10821,173 +10946,29 @@ const SEGMENT_REVENUE_DATA = {
       "value": -211000000.0,
       "tag": "Revenues",
       "isHedgeAdjustment": true
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "DerivativeInstrumentRisk=ForeignExchangeContract;EquityComponents=AccumulatedGainLossNetCashFlowHedgeParent;ReclassificationOutOfAccumulatedOtherComprehensiveIncome=ReclassificationOutOfAccumulatedOtherComprehensiveIncome;",
+      "segmentLabel": "Foreign Exchange Contract · Accumulated Gain Loss Net Cash Flow Hedge Parent · Reclassification Out Of Accumulated Other Comprehensive Income",
+      "value": 97000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": true
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "DerivativeInstrumentRisk=ForeignExchangeContract;EquityComponents=AccumulatedGainLossNetCashFlowHedgeParent;ReclassificationOutOfAccumulatedOtherComprehensiveIncome=ReclassificationOutOfAccumulatedOtherComprehensiveIncome;",
+      "segmentLabel": "Foreign Exchange Contract · Accumulated Gain Loss Net Cash Flow Hedge Parent · Reclassification Out Of Accumulated Other Comprehensive Income",
+      "value": -114000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": true
     }
   ],
   "VST": [
     {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=RetailSegment;ConsolidationItems=OperatingSegments;ProductOrService=IntersegmentSalesUnrealized;",
-      "segmentLabel": "Retail Segment · Intersegment Sales Unrealized",
-      "value": 0.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=RetailSegment;ConsolidationItems=OperatingSegments;ProductOrService=TotalOtherRevenues;",
-      "segmentLabel": "Retail Segment · Total Other Revenues",
-      "value": 536000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=RetailSegment;ConsolidationItems=OperatingSegments;ProductOrService=TransferableProductionTaxCreditRevenues;",
-      "segmentLabel": "Retail Segment · Transferable Production Tax Credit Revenues",
-      "value": 0.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=TexasSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Texas Segment",
-      "value": 2987000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=TexasSegment;ConsolidationItems=OperatingSegments;ProductOrService=BusinessInterruptionInsuranceProceeds;",
-      "segmentLabel": "Texas Segment · Business Interruption Insurance Proceeds",
-      "value": 0.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=TexasSegment;ConsolidationItems=OperatingSegments;ProductOrService=HedgingAndOtherRevenues;",
-      "segmentLabel": "Texas Segment · Hedging And Other Revenues",
-      "value": 510000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=TexasSegment;ConsolidationItems=OperatingSegments;ProductOrService=HedgingRevenueRealized;",
-      "segmentLabel": "Texas Segment · Hedging Revenue Realized",
-      "value": -33000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=TexasSegment;ConsolidationItems=OperatingSegments;ProductOrService=IntangibleAmortizationAndOtherRevenues;",
-      "segmentLabel": "Texas Segment · Intangible Amortization And Other Revenues",
-      "value": 0.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=TexasSegment;ConsolidationItems=OperatingSegments;ProductOrService=IntersegmentSales;",
-      "segmentLabel": "Texas Segment · Intersegment Sales",
-      "value": 980000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=TexasSegment;ConsolidationItems=OperatingSegments;ProductOrService=IntersegmentSalesUnrealized;",
-      "segmentLabel": "Texas Segment · Intersegment Sales Unrealized",
-      "value": 1187000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=TexasSegment;ConsolidationItems=OperatingSegments;ProductOrService=TotalOtherRevenues;",
-      "segmentLabel": "Texas Segment · Total Other Revenues",
-      "value": 2646000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=TexasSegment;ConsolidationItems=OperatingSegments;ProductOrService=TransferableProductionTaxCreditRevenues;",
-      "segmentLabel": "Texas Segment · Transferable Production Tax Credit Revenues",
-      "value": 2000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=WestSegment;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "West Segment",
-      "value": 89000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=WestSegment;ConsolidationItems=OperatingSegments;ProductOrService=BusinessInterruptionInsuranceProceeds;",
-      "segmentLabel": "West Segment · Business Interruption Insurance Proceeds",
-      "value": 0.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=WestSegment;ConsolidationItems=OperatingSegments;ProductOrService=HedgingAndOtherRevenues;",
-      "segmentLabel": "West Segment · Hedging And Other Revenues",
-      "value": -10000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=WestSegment;ConsolidationItems=OperatingSegments;ProductOrService=HedgingRevenueRealized;",
-      "segmentLabel": "West Segment · Hedging Revenue Realized",
-      "value": 27000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=WestSegment;ConsolidationItems=OperatingSegments;ProductOrService=IntangibleAmortizationAndOtherRevenues;",
-      "segmentLabel": "West Segment · Intangible Amortization And Other Revenues",
-      "value": 0.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=WestSegment;ConsolidationItems=OperatingSegments;ProductOrService=IntersegmentSales;",
-      "segmentLabel": "West Segment · Intersegment Sales",
-      "value": 1000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=WestSegment;ConsolidationItems=OperatingSegments;ProductOrService=IntersegmentSalesUnrealized;",
       "segmentLabel": "West Segment · Intersegment Sales Unrealized",
@@ -10996,16 +10977,34 @@ const SEGMENT_REVENUE_DATA = {
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=WestSegment;ConsolidationItems=OperatingSegments;ProductOrService=TotalOtherRevenues;",
-      "segmentLabel": "West Segment · Total Other Revenues",
-      "value": 18000000.0,
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=WestSegment;ConsolidationItems=OperatingSegments;ProductOrService=IntersegmentSalesUnrealized;",
+      "segmentLabel": "West Segment · Intersegment Sales Unrealized",
+      "value": 0.0,
       "tag": "Revenues",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=WestSegment;ConsolidationItems=OperatingSegments;ProductOrService=TotalOtherRevenues;",
+      "segmentLabel": "West Segment · Total Other Revenues",
+      "value": -8000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=WestSegment;ConsolidationItems=OperatingSegments;ProductOrService=TotalOtherRevenues;",
+      "segmentLabel": "West Segment · Total Other Revenues",
+      "value": 10000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=WestSegment;ConsolidationItems=OperatingSegments;ProductOrService=TransferableProductionTaxCreditRevenues;",
       "segmentLabel": "West Segment · Transferable Production Tax Credit Revenues",
@@ -11014,24 +11013,34 @@ const SEGMENT_REVENUE_DATA = {
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ConsolidationItems=CorporateNonSegment;",
-      "segmentLabel": "Corporate Non Segment",
-      "value": -3391000000.0,
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=WestSegment;ConsolidationItems=OperatingSegments;ProductOrService=TransferableProductionTaxCreditRevenues;",
+      "segmentLabel": "West Segment · Transferable Production Tax Credit Revenues",
+      "value": 0.0,
       "tag": "Revenues",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
       "qtrs": "1",
-      "segmentRaw": "ConsolidationItems=IntersegmentElimination;",
-      "segmentLabel": "Intersegment Elimination;",
-      "value": -3391000000.0,
-      "tag": "Revenues"
+      "segmentRaw": "ConsolidationItems=CorporateNonSegment;",
+      "segmentLabel": "Corporate Non Segment",
+      "value": -2036000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ConsolidationItems=CorporateNonSegment;",
+      "segmentLabel": "Corporate Non Segment",
+      "value": -5427000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ConsolidationItems=IntersegmentElimination;ProductOrService=BusinessInterruptionInsuranceProceeds;",
       "segmentLabel": "Business Interruption Insurance Proceeds",
@@ -11040,7 +11049,16 @@ const SEGMENT_REVENUE_DATA = {
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ConsolidationItems=IntersegmentElimination;ProductOrService=BusinessInterruptionInsuranceProceeds;",
+      "segmentLabel": "Business Interruption Insurance Proceeds",
+      "value": 0.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ConsolidationItems=IntersegmentElimination;ProductOrService=HedgingAndOtherRevenues;",
       "segmentLabel": "Hedging And Other Revenues",
@@ -11049,7 +11067,16 @@ const SEGMENT_REVENUE_DATA = {
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ConsolidationItems=IntersegmentElimination;ProductOrService=HedgingAndOtherRevenues;",
+      "segmentLabel": "Hedging And Other Revenues",
+      "value": 0.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ConsolidationItems=IntersegmentElimination;ProductOrService=HedgingRevenueRealized;",
       "segmentLabel": "Hedging Revenue Realized",
@@ -11058,7 +11085,16 @@ const SEGMENT_REVENUE_DATA = {
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ConsolidationItems=IntersegmentElimination;ProductOrService=HedgingRevenueRealized;",
+      "segmentLabel": "Hedging Revenue Realized",
+      "value": 0.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ConsolidationItems=IntersegmentElimination;ProductOrService=IntangibleAmortizationAndOtherRevenues;",
       "segmentLabel": "Intangible Amortization And Other Revenues",
@@ -11067,34 +11103,70 @@ const SEGMENT_REVENUE_DATA = {
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ConsolidationItems=IntersegmentElimination;ProductOrService=IntangibleAmortizationAndOtherRevenues;",
+      "segmentLabel": "Intangible Amortization And Other Revenues",
+      "value": 0.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ConsolidationItems=IntersegmentElimination;ProductOrService=IntersegmentSales;",
       "segmentLabel": "Intersegment Sales",
-      "value": -2321000000.0,
+      "value": -1718000000.0,
       "tag": "Revenues",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ConsolidationItems=IntersegmentElimination;ProductOrService=IntersegmentSales;",
+      "segmentLabel": "Intersegment Sales",
+      "value": -4039000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ConsolidationItems=IntersegmentElimination;ProductOrService=IntersegmentSalesUnrealized;",
       "segmentLabel": "Intersegment Sales Unrealized",
-      "value": -1071000000.0,
+      "value": -319000000.0,
       "tag": "Revenues",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ConsolidationItems=IntersegmentElimination;ProductOrService=IntersegmentSalesUnrealized;",
+      "segmentLabel": "Intersegment Sales Unrealized",
+      "value": -1390000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ConsolidationItems=IntersegmentElimination;ProductOrService=TotalOtherRevenues;",
       "segmentLabel": "Total Other Revenues",
-      "value": -3392000000.0,
+      "value": -2037000000.0,
       "tag": "Revenues",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ConsolidationItems=IntersegmentElimination;ProductOrService=TotalOtherRevenues;",
+      "segmentLabel": "Total Other Revenues",
+      "value": -5429000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ConsolidationItems=IntersegmentElimination;ProductOrService=TransferableProductionTaxCreditRevenues;",
       "segmentLabel": "Transferable Production Tax Credit Revenues",
@@ -11103,51 +11175,88 @@ const SEGMENT_REVENUE_DATA = {
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Operating Segments;",
-      "value": 9031000000.0,
-      "tag": "Revenues"
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ConsolidationItems=IntersegmentElimination;ProductOrService=TransferableProductionTaxCreditRevenues;",
+      "segmentLabel": "Transferable Production Tax Credit Revenues",
+      "value": 0.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ProductOrService=BusinessInterruptionInsuranceProceeds;",
       "segmentLabel": "Business Interruption Insurance Proceeds",
-      "value": 6000000.0,
+      "value": 22000000.0,
       "tag": "Revenues",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=BusinessInterruptionInsuranceProceeds;",
+      "segmentLabel": "Business Interruption Insurance Proceeds",
+      "value": 28000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ProductOrService=HedgingAndOtherRevenues;",
       "segmentLabel": "Hedging And Other Revenues",
-      "value": 636000000.0,
+      "value": -562000000.0,
       "tag": "Revenues",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=HedgingAndOtherRevenues;",
+      "segmentLabel": "Hedging And Other Revenues",
+      "value": 74000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ProductOrService=HedgingRevenueRealized;",
       "segmentLabel": "Hedging Revenue Realized",
+      "value": 154000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=HedgingRevenueRealized;",
+      "segmentLabel": "Hedging Revenue Realized",
+      "value": 151000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=IntangibleAmortizationAndOtherRevenues;",
+      "segmentLabel": "Intangible Amortization And Other Revenues",
+      "value": -1000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=IntangibleAmortizationAndOtherRevenues;",
+      "segmentLabel": "Intangible Amortization And Other Revenues",
       "value": -3000000.0,
       "tag": "Revenues",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=IntangibleAmortizationAndOtherRevenues;",
-      "segmentLabel": "Intangible Amortization And Other Revenues",
-      "value": -2000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ProductOrService=IntersegmentSales;",
       "segmentLabel": "Intersegment Sales",
@@ -11156,7 +11265,16 @@ const SEGMENT_REVENUE_DATA = {
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=IntersegmentSales;",
+      "segmentLabel": "Intersegment Sales",
+      "value": 0.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ProductOrService=IntersegmentSalesUnrealized;",
       "segmentLabel": "Intersegment Sales Unrealized",
@@ -11165,259 +11283,52 @@ const SEGMENT_REVENUE_DATA = {
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=TotalOtherRevenues;",
-      "segmentLabel": "Total Other Revenues",
-      "value": 639000000.0,
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=IntersegmentSalesUnrealized;",
+      "segmentLabel": "Intersegment Sales Unrealized",
+      "value": 0.0,
       "tag": "Revenues",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=TotalOtherRevenues;",
+      "segmentLabel": "Total Other Revenues",
+      "value": -384000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=TotalOtherRevenues;",
+      "segmentLabel": "Total Other Revenues",
+      "value": 255000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ProductOrService=TransferableProductionTaxCreditRevenues;",
       "segmentLabel": "Transferable Production Tax Credit Revenues",
-      "value": 2000000.0,
+      "value": 3000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=TransferableProductionTaxCreditRevenues;",
+      "segmentLabel": "Transferable Production Tax Credit Revenues",
+      "value": 5000000.0,
       "tag": "Revenues",
       "isHedgeAdjustment": false
     }
   ],
   "AVGO": [
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=Americas;ProductOrService=Product;",
-      "segmentLabel": "Americas · Product",
-      "value": 7908000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=Americas;ProductOrService=SubscriptionsandServices;",
-      "segmentLabel": "Americas · Subscriptionsand Services",
-      "value": 11031000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=AsiaPacific;",
-      "segmentLabel": "Asia Pacific",
-      "value": 35896000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=AsiaPacific;ProductOrService=Product;",
-      "segmentLabel": "Asia Pacific · Product",
-      "value": 33596000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=AsiaPacific;ProductOrService=SubscriptionsandServices;",
-      "segmentLabel": "Asia Pacific · Subscriptionsand Services",
-      "value": 2300000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=ChinaincludingHongKong;",
-      "segmentLabel": "Chinaincluding Hong Kong",
-      "value": 11155000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=EMEA;",
-      "segmentLabel": "EMEA",
-      "value": 9052000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=EMEA;ProductOrService=Product;",
-      "segmentLabel": "EMEA · Product",
-      "value": 3343000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=EMEA;ProductOrService=SubscriptionsandServices;",
-      "segmentLabel": "EMEA · Subscriptionsand Services",
-      "value": 5709000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=SG;",
-      "segmentLabel": "SG",
-      "value": 10796000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=TW;",
-      "segmentLabel": "TW",
-      "value": 6451000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=US;",
-      "segmentLabel": "US",
-      "value": 16506000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=Product;",
-      "segmentLabel": "Product",
-      "value": 44847000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=SubscriptionsandServices;",
-      "segmentLabel": "Subscriptionsand Services",
-      "value": 19040000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-04-30",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=InfrastructureSoftware;",
-      "segmentLabel": "Infrastructure Software",
-      "value": 7178000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-04-30",
-      "qtrs": "2",
-      "segmentRaw": "BusinessSegments=InfrastructureSoftware;",
-      "segmentLabel": "Infrastructure Software",
-      "value": 13974000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-04-30",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=SemiconductorSolutions;",
-      "segmentLabel": "Semiconductor Solutions",
-      "value": 15009000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-04-30",
-      "qtrs": "2",
-      "segmentRaw": "BusinessSegments=SemiconductorSolutions;",
-      "segmentLabel": "Semiconductor Solutions",
-      "value": 27524000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-04-30",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=Americas;",
-      "segmentLabel": "Americas",
-      "value": 5202000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-04-30",
-      "qtrs": "2",
-      "segmentRaw": "Geographical=Americas;",
-      "segmentLabel": "Americas",
-      "value": 10283000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-04-30",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=Americas;ProductOrService=Product;",
-      "segmentLabel": "Americas · Product",
-      "value": 2187000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-04-30",
-      "qtrs": "2",
-      "segmentRaw": "Geographical=Americas;ProductOrService=Product;",
-      "segmentLabel": "Americas · Product",
-      "value": 4351000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-04-30",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=Americas;ProductOrService=SubscriptionsandServices;",
-      "segmentLabel": "Americas · Subscriptionsand Services",
-      "value": 3015000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-04-30",
-      "qtrs": "2",
-      "segmentRaw": "Geographical=Americas;ProductOrService=SubscriptionsandServices;",
-      "segmentLabel": "Americas · Subscriptionsand Services",
-      "value": 5932000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-04-30",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=AsiaPacific;",
-      "segmentLabel": "Asia Pacific",
-      "value": 14535000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-04-30",
-      "qtrs": "2",
-      "segmentRaw": "Geographical=AsiaPacific;",
-      "segmentLabel": "Asia Pacific",
-      "value": 26150000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2026-04-30",
       "qtrs": "1",
@@ -11543,189 +11454,243 @@ const SEGMENT_REVENUE_DATA = {
       "value": 10476000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=InfrastructureSoftware;",
+      "segmentLabel": "Infrastructure Software",
+      "value": 8752000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "BusinessSegments=InfrastructureSoftware;",
+      "segmentLabel": "Infrastructure Software",
+      "value": 22726000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=SemiconductorSolutions;",
+      "segmentLabel": "Semiconductor Solutions",
+      "value": 20839000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "BusinessSegments=SemiconductorSolutions;",
+      "segmentLabel": "Semiconductor Solutions",
+      "value": 48363000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=Americas;",
+      "segmentLabel": "Americas",
+      "value": 5513000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "Geographical=Americas;",
+      "segmentLabel": "Americas",
+      "value": 15796000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=Americas;ProductOrService=Product;",
+      "segmentLabel": "Americas · Product",
+      "value": 2642000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "Geographical=Americas;ProductOrService=Product;",
+      "segmentLabel": "Americas · Product",
+      "value": 6993000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=Americas;ProductOrService=SubscriptionsandServices;",
+      "segmentLabel": "Americas · Subscriptionsand Services",
+      "value": 2871000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "Geographical=Americas;ProductOrService=SubscriptionsandServices;",
+      "segmentLabel": "Americas · Subscriptionsand Services",
+      "value": 8803000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=AsiaPacific;",
+      "segmentLabel": "Asia Pacific",
+      "value": 20944000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "Geographical=AsiaPacific;",
+      "segmentLabel": "Asia Pacific",
+      "value": 47094000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=AsiaPacific;ProductOrService=Product;",
+      "segmentLabel": "Asia Pacific · Product",
+      "value": 20199000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "Geographical=AsiaPacific;ProductOrService=Product;",
+      "segmentLabel": "Asia Pacific · Product",
+      "value": 45105000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=AsiaPacific;ProductOrService=SubscriptionsandServices;",
+      "segmentLabel": "Asia Pacific · Subscriptionsand Services",
+      "value": 745000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "Geographical=AsiaPacific;ProductOrService=SubscriptionsandServices;",
+      "segmentLabel": "Asia Pacific · Subscriptionsand Services",
+      "value": 1989000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=EMEA;",
+      "segmentLabel": "EMEA",
+      "value": 3134000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "Geographical=EMEA;",
+      "segmentLabel": "EMEA",
+      "value": 8199000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=EMEA;ProductOrService=Product;",
+      "segmentLabel": "EMEA · Product",
+      "value": 1438000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "Geographical=EMEA;ProductOrService=Product;",
+      "segmentLabel": "EMEA · Product",
+      "value": 3203000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=EMEA;ProductOrService=SubscriptionsandServices;",
+      "segmentLabel": "EMEA · Subscriptionsand Services",
+      "value": 1696000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "Geographical=EMEA;ProductOrService=SubscriptionsandServices;",
+      "segmentLabel": "EMEA · Subscriptionsand Services",
+      "value": 4996000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=Product;",
+      "segmentLabel": "Product",
+      "value": 24279000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "ProductOrService=Product;",
+      "segmentLabel": "Product",
+      "value": 55301000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=SubscriptionsandServices;",
+      "segmentLabel": "Subscriptionsand Services",
+      "value": 5312000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "3",
+      "segmentRaw": "ProductOrService=SubscriptionsandServices;",
+      "segmentLabel": "Subscriptionsand Services",
+      "value": 15788000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
     }
   ],
   "MRVL": [
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "1",
-      "segmentRaw": "ContractWithCustomerSalesChannel=SalesChannelDirectlyToConsumer;",
-      "segmentLabel": "Sales Channel Directly To Consumer",
-      "value": 1145700000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "ContractWithCustomerSalesChannel=SalesChannelDirectlyToConsumer;",
-      "segmentLabel": "Sales Channel Directly To Consumer",
-      "value": 3406400000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "1",
-      "segmentRaw": "ContractWithCustomerSalesChannel=SalesChannelThroughIntermediary;",
-      "segmentLabel": "Sales Channel Through Intermediary",
-      "value": 928800000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "ContractWithCustomerSalesChannel=SalesChannelThroughIntermediary;",
-      "segmentLabel": "Sales Channel Through Intermediary",
-      "value": 2569500000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=CN;",
-      "segmentLabel": "CN",
-      "value": 838700000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "Geographical=CN;",
-      "segmentLabel": "CN",
-      "value": 2131000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=OtherCountries;",
-      "segmentLabel": "Other Countries",
-      "value": 622600000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "Geographical=OtherCountries;",
-      "segmentLabel": "Other Countries",
-      "value": 1747200000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=TW;",
-      "segmentLabel": "TW",
-      "value": 318900000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "Geographical=TW;",
-      "segmentLabel": "TW",
-      "value": 1187400000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "1",
-      "segmentRaw": "Geographical=US;",
-      "segmentLabel": "US",
-      "value": 294300000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "Geographical=US;",
-      "segmentLabel": "US",
-      "value": 910300000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=AutomotiveAndIndustrial;",
-      "segmentLabel": "Automotive And Industrial",
-      "value": 35000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=AutomotiveAndIndustrial;",
-      "segmentLabel": "Automotive And Industrial",
-      "value": 186700000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=CarrierInfrastructure;",
-      "segmentLabel": "Carrier Infrastructure",
-      "value": 167800000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=CarrierInfrastructure;",
-      "segmentLabel": "Carrier Infrastructure",
-      "value": 436300000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Consumer;",
-      "segmentLabel": "Consumer",
-      "value": 116600000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=Consumer;",
-      "segmentLabel": "Consumer",
-      "value": 295600000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=DataCenter;",
-      "segmentLabel": "Data Center",
-      "value": 1517900000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-10-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=DataCenter;",
-      "segmentLabel": "Data Center",
-      "value": 4449000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2025-10-31",
       "qtrs": "1",
@@ -11905,165 +11870,189 @@ const SEGMENT_REVENUE_DATA = {
       "value": 1832700000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ReportableSegment;",
+      "segmentLabel": "Reportable Segment",
+      "value": 2739300000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ReportableSegment;",
+      "segmentLabel": "Reportable Segment",
+      "value": 5157100000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "ContractWithCustomerSalesChannel=SalesChannelDirectlyToConsumer;",
+      "segmentLabel": "Sales Channel Directly To Consumer",
+      "value": 1364900000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "ContractWithCustomerSalesChannel=SalesChannelDirectlyToConsumer;",
+      "segmentLabel": "Sales Channel Directly To Consumer",
+      "value": 2553800000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "ContractWithCustomerSalesChannel=SalesChannelThroughIntermediary;",
+      "segmentLabel": "Sales Channel Through Intermediary",
+      "value": 1374400000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "ContractWithCustomerSalesChannel=SalesChannelThroughIntermediary;",
+      "segmentLabel": "Sales Channel Through Intermediary",
+      "value": 2603300000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=CN;",
+      "segmentLabel": "CN",
+      "value": 1161500000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=CN;",
+      "segmentLabel": "CN",
+      "value": 2219400000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=OtherCountries;",
+      "segmentLabel": "Other Countries",
+      "value": 592900000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=OtherCountries;",
+      "segmentLabel": "Other Countries",
+      "value": 1102600000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=SG;",
+      "segmentLabel": "SG",
+      "value": 337300000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=SG;",
+      "segmentLabel": "SG",
+      "value": 497300000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=TW;",
+      "segmentLabel": "TW",
+      "value": 456800000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=TW;",
+      "segmentLabel": "TW",
+      "value": 976500000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=US;",
+      "segmentLabel": "US",
+      "value": 190800000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "Geographical=US;",
+      "segmentLabel": "US",
+      "value": 361300000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=CommunicationsAndOther;",
+      "segmentLabel": "Communications And Other",
+      "value": 567800000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=CommunicationsAndOther;",
+      "segmentLabel": "Communications And Other",
+      "value": 1152900000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=DataCenter;",
+      "segmentLabel": "Data Center",
+      "value": 2171500000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-07-31",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=DataCenter;",
+      "segmentLabel": "Data Center",
+      "value": 4004200000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
     }
   ],
   "CEG": [
-    {
-      "endDate": "2024-09-30",
-      "qtrs": "3",
-      "segmentRaw": "BusinessSegments=ConstellationOtherRegions;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Constellation Other Regions",
-      "value": 4252000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2024-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ConsolidationItems=MaterialReconcilingItems;",
-      "segmentLabel": "Material Reconciling Items;",
-      "value": 1199000000.0,
-      "tag": "Revenues"
-    },
-    {
-      "endDate": "2024-09-30",
-      "qtrs": "3",
-      "segmentRaw": "ConsolidationItems=MaterialReconcilingItems;",
-      "segmentLabel": "Material Reconciling Items;",
-      "value": 3514000000.0,
-      "tag": "Revenues"
-    },
-    {
-      "endDate": "2024-09-30",
-      "qtrs": "1",
-      "segmentRaw": "ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Operating Segments;",
-      "value": 5351000000.0,
-      "tag": "Revenues"
-    },
-    {
-      "endDate": "2024-09-30",
-      "qtrs": "3",
-      "segmentRaw": "ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Operating Segments;",
-      "value": 14672000000.0,
-      "tag": "Revenues"
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ConstellationERCOT;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Constellation ERCOT",
-      "value": 398000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ConstellationMidAtlantic;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Constellation Mid Atlantic",
-      "value": 1665000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ConstellationMidwest;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Constellation Midwest",
-      "value": 1404000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ConstellationNewYork;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Constellation New York",
-      "value": 562000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ConstellationOtherRegions;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Constellation Other Regions",
-      "value": 1556000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ConsolidationItems=MaterialReconcilingItems;",
-      "segmentLabel": "Material Reconciling Items;",
-      "value": 1203000000.0,
-      "tag": "Revenues"
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Operating Segments;",
-      "value": 5585000000.0,
-      "tag": "Revenues"
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "RevenueType=CapacityRevenues;",
-      "segmentLabel": "Capacity Revenues",
-      "value": 12000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "RevenueType=OtherRevenueType;",
-      "segmentLabel": "Other Revenue Type",
-      "value": 1550000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-03-31",
-      "qtrs": "1",
-      "segmentRaw": "RevenueType=PowerAndPowerRelatedRevenues;",
-      "segmentLabel": "Power And Power Related Revenues",
-      "value": 5226000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ConstellationERCOT;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Constellation ERCOT",
-      "value": 628000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "3",
-      "segmentRaw": "BusinessSegments=ConstellationERCOT;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Constellation ERCOT",
-      "value": 1489000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-09-30",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ConstellationMidAtlantic;ConsolidationItems=OperatingSegments;",
-      "segmentLabel": "Constellation Mid Atlantic",
-      "value": 1763000000.0,
-      "tag": "Revenues",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2025-09-30",
       "qtrs": "3",
@@ -12255,207 +12244,171 @@ const SEGMENT_REVENUE_DATA = {
       "value": 6037000000.0,
       "tag": "Revenues",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ConstellationCalpine;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Constellation Calpine",
+      "value": 2147000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ConstellationCalpine;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Constellation Calpine",
+      "value": 4541000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ConstellationERCOT;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Constellation ERCOT",
+      "value": 446000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ConstellationERCOT;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Constellation ERCOT",
+      "value": 816000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ConstellationMidAtlantic;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Constellation Mid Atlantic",
+      "value": 1555000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ConstellationMidAtlantic;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Constellation Mid Atlantic",
+      "value": 3402000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ConstellationMidwest;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Constellation Midwest",
+      "value": 1568000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ConstellationMidwest;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Constellation Midwest",
+      "value": 3300000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ConstellationNewYork;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Constellation New York",
+      "value": 564000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ConstellationNewYork;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Constellation New York",
+      "value": 1133000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ConstellationOtherRegions;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Constellation Other Regions",
+      "value": 964000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ConstellationOtherRegions;ConsolidationItems=OperatingSegments;",
+      "segmentLabel": "Constellation Other Regions",
+      "value": 2450000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "RevenueType=CapacityRevenues;",
+      "segmentLabel": "Capacity Revenues",
+      "value": 396000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "RevenueType=CapacityRevenues;",
+      "segmentLabel": "Capacity Revenues",
+      "value": 812000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "RevenueType=OtherRevenueType;",
+      "segmentLabel": "Other Revenue Type",
+      "value": 2149000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "RevenueType=OtherRevenueType;",
+      "segmentLabel": "Other Revenue Type",
+      "value": 6818000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "RevenueType=PowerAndPowerRelatedRevenues;",
+      "segmentLabel": "Power And Power Related Revenues",
+      "value": 4959000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "RevenueType=PowerAndPowerRelatedRevenues;",
+      "segmentLabel": "Power And Power Related Revenues",
+      "value": 10996000000.0,
+      "tag": "Revenues",
+      "isHedgeAdjustment": false
     }
   ],
   "ARM": [
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Royalty;",
-      "segmentLabel": "Royalty",
-      "value": 737000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=Royalty;RelatedPartyTransactionsByRelatedParty=NonrelatedParty;",
-      "segmentLabel": "Royalty · Nonrelated Party",
-      "value": 1577000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Royalty;RelatedPartyTransactionsByRelatedParty=NonrelatedParty;",
-      "segmentLabel": "Royalty · Nonrelated Party",
-      "value": 616000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "ProductOrService=Royalty;RelatedPartyTransactionsByRelatedParty=RelatedParty;",
-      "segmentLabel": "Royalty · Related Party",
-      "value": 121000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "3",
-      "segmentRaw": "ProductOrService=Royalty;RelatedPartyTransactionsByRelatedParty=RelatedParty;",
-      "segmentLabel": "Royalty · Related Party",
-      "value": 365000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "3",
-      "segmentRaw": "RelatedPartyTransaction=CommonControlInSoftBank;RelatedPartyTransactionsByRelatedParty=RelatedParty;",
-      "segmentLabel": "Common Control In Soft Bank · Related Party",
-      "value": 504200000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "RelatedPartyTransaction=CommonControlInSoftBank;RelatedPartyTransactionsByRelatedParty=RelatedParty;",
-      "segmentLabel": "Common Control In Soft Bank · Related Party",
-      "value": 200200000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "RelatedPartyTransaction=ServiceShareArrangement;RelatedPartyTransactionsByRelatedParty=RelatedParty;",
-      "segmentLabel": "Service Share Arrangement · Related Party",
-      "value": 136800000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "3",
-      "segmentRaw": "RelatedPartyTransaction=ServiceShareArrangement;RelatedPartyTransactionsByRelatedParty=RelatedParty;",
-      "segmentLabel": "Service Share Arrangement · Related Party",
-      "value": 580900000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "RelatedPartyTransactionsByRelatedParty=NonrelatedParty;",
-      "segmentLabel": "Nonrelated Party",
-      "value": 904000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "3",
-      "segmentRaw": "RelatedPartyTransactionsByRelatedParty=NonrelatedParty;",
-      "segmentLabel": "Nonrelated Party",
-      "value": 2342000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "RelatedPartyTransactionsByRelatedParty=RelatedParty;",
-      "segmentLabel": "Related Party",
-      "value": 338000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "3",
-      "segmentRaw": "RelatedPartyTransactionsByRelatedParty=RelatedParty;",
-      "segmentLabel": "Related Party",
-      "value": 1088000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "3",
-      "segmentRaw": "TimingOfTransferOfGoodOrService=TransferredAtPointInTime;",
-      "segmentLabel": "Transferred At Point In Time",
-      "value": 700000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "TimingOfTransferOfGoodOrService=TransferredAtPointInTime;",
-      "segmentLabel": "Transferred At Point In Time",
-      "value": 211000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "1",
-      "segmentRaw": "TimingOfTransferOfGoodOrService=TransferredOverTime;",
-      "segmentLabel": "Transferred Over Time",
-      "value": 294000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "3",
-      "segmentRaw": "TimingOfTransferOfGoodOrService=TransferredOverTime;",
-      "segmentLabel": "Transferred Over Time",
-      "value": 788000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ReportableSegment;",
-      "segmentLabel": "Reportable Segment",
-      "value": 4920000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ReportableSegment;ProductOrService=LicenseAndOtherRevenue;",
-      "segmentLabel": "Reportable Segment · License And Other Revenue",
-      "value": 2307000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "BusinessSegments=ReportableSegment;ProductOrService=Royalty;",
-      "segmentLabel": "Reportable Segment · Royalty",
-      "value": 2613000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "CounterpartyName=AmpereComputingHoldingsLLC;RelatedPartyTransaction=CommonControlInSoftBank;RelatedPartyTransactionsByRelatedParty=RelatedParty;",
-      "segmentLabel": "Ampere Computing Holdings LLC · Common Control In Soft Bank · Related Party",
-      "value": 3600000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=CN;",
-      "segmentLabel": "CN",
-      "value": 874000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
     {
       "endDate": "2026-03-31",
       "qtrs": "4",
@@ -12617,364 +12570,564 @@ const SEGMENT_REVENUE_DATA = {
       "value": 1080000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ReportableSegment;",
+      "segmentLabel": "Reportable Segment",
+      "value": 1289000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ReportableSegment;ProductOrService=LicenseAndOtherRevenue;",
+      "segmentLabel": "Reportable Segment · License And Other Revenue",
+      "value": 574000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=ReportableSegment;ProductOrService=Royalty;",
+      "segmentLabel": "Reportable Segment · Royalty",
+      "value": 715000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "CounterpartyName=AmpereComputingHoldingsLLC;RelatedPartyTransaction=CommonControlInSoftBank;RelatedPartyTransactionsByRelatedParty=RelatedParty;",
+      "segmentLabel": "Ampere Computing Holdings LLC · Common Control In Soft Bank · Related Party",
+      "value": 5400000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=CN;",
+      "segmentLabel": "CN",
+      "value": 200000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=JP;",
+      "segmentLabel": "JP",
+      "value": 276000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=KR;",
+      "segmentLabel": "KR",
+      "value": 117000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=OtherCountries;",
+      "segmentLabel": "Other Countries",
+      "value": 132000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=TW;",
+      "segmentLabel": "TW",
+      "value": 176000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "Geographical=US;",
+      "segmentLabel": "US",
+      "value": 388000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=LicenseAndOtherRevenue;",
+      "segmentLabel": "License And Other Revenue",
+      "value": 574000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=LicenseAndOtherRevenue;RelatedPartyTransactionsByRelatedParty=NonrelatedParty;",
+      "segmentLabel": "License And Other Revenue · Nonrelated Party",
+      "value": 310000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=LicenseAndOtherRevenue;RelatedPartyTransactionsByRelatedParty=RelatedParty;",
+      "segmentLabel": "License And Other Revenue · Related Party",
+      "value": 264000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=Royalty;",
+      "segmentLabel": "Royalty",
+      "value": 715000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=Royalty;RelatedPartyTransactionsByRelatedParty=NonrelatedParty;",
+      "segmentLabel": "Royalty · Nonrelated Party",
+      "value": 591000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "ProductOrService=Royalty;RelatedPartyTransactionsByRelatedParty=RelatedParty;",
+      "segmentLabel": "Royalty · Related Party",
+      "value": 124000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "RelatedPartyTransaction=CommonControlInSoftBank;RelatedPartyTransactionsByRelatedParty=RelatedParty;",
+      "segmentLabel": "Common Control In Soft Bank · Related Party",
+      "value": 192900000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "RelatedPartyTransaction=IPLicensingRevenue;RelatedPartyTransactionsByRelatedParty=RelatedParty;",
+      "segmentLabel": "IP Licensing Revenue · Related Party",
+      "value": 189400000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "RelatedPartyTransactionsByRelatedParty=NonrelatedParty;",
+      "segmentLabel": "Nonrelated Party",
+      "value": 901000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "RelatedPartyTransactionsByRelatedParty=RelatedParty;",
+      "segmentLabel": "Related Party",
+      "value": 388000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "TimingOfTransferOfGoodOrService=TransferredAtPointInTime;",
+      "segmentLabel": "Transferred At Point In Time",
+      "value": 286000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "TimingOfTransferOfGoodOrService=TransferredOverTime;",
+      "segmentLabel": "Transferred Over Time",
+      "value": 288000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
     }
   ],
   "GEV": [
     {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ConsolidationItems=IntersegmentElimination;",
-      "segmentLabel": "Intersegment Elimination;",
-      "value": 487000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ConsolidationItems=OperatingSegments;ProductOrService=Product;",
-      "segmentLabel": "Product",
-      "value": 20934000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ConsolidationItems=OperatingSegments;ProductOrService=Service;",
-      "segmentLabel": "Service",
-      "value": 17098000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ConsolidationItems=OperatingSegmentsExcludingIntersegmentElimination;",
-      "segmentLabel": "Operating Segments Excluding Intersegment Elimination",
-      "value": 38519000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=AmericasExcludingU.S.;",
-      "segmentLabel": "Americas Excluding U.S.",
-      "value": 3116000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=Asia;",
-      "segmentLabel": "Asia",
-      "value": 4629000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=Europe;",
-      "segmentLabel": "Europe",
-      "value": 7594000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=MiddleEastAndAfrica;",
-      "segmentLabel": "Middle East And Africa",
-      "value": 5389000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=NonUs;",
-      "segmentLabel": "Non Us",
-      "value": 20728000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "Geographical=US;",
-      "segmentLabel": "US",
-      "value": 17341000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=Product;",
-      "segmentLabel": "Product",
-      "value": 20934000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2025-12-31",
-      "qtrs": "4",
-      "segmentRaw": "ProductOrService=Service;",
-      "segmentLabel": "Service",
-      "value": 17134000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ElectrificationSegment;ConsolidationItems=IntersegmentElimination;",
-      "segmentLabel": "Electrification Segment",
-      "value": 21000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ElectrificationSegment;ConsolidationItems=OperatingSegments;ProductOrService=Product;",
-      "segmentLabel": "Electrification Segment · Product",
-      "value": 2488000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ElectrificationSegment;ConsolidationItems=OperatingSegments;ProductOrService=Service;",
-      "segmentLabel": "Electrification Segment · Service",
-      "value": 451000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ElectrificationSegment;ConsolidationItems=OperatingSegmentsExcludingIntersegmentElimination;",
-      "segmentLabel": "Electrification Segment",
-      "value": 2959000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ElectrificationSegment;ConsolidationItems=OperatingSegmentsExcludingIntersegmentElimination;Subsegments=GridAutomationAndSoftware;",
-      "segmentLabel": "Electrification Segment · Grid Automation And Software",
-      "value": 411000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ElectrificationSegment;ConsolidationItems=OperatingSegmentsExcludingIntersegmentElimination;Subsegments=GridSystemsIntegration;",
-      "segmentLabel": "Electrification Segment · Grid Systems Integration",
-      "value": 691000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=ElectrificationSegment;ConsolidationItems=OperatingSegmentsExcludingIntersegmentElimination;Subsegments=PowerConversionAndStorage;",
-      "segmentLabel": "Electrification Segment · Power Conversion And Storage",
-      "value": 477000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=ElectrificationSegment;ConsolidationItems=OperatingSegmentsExcludingIntersegmentElimination;Subsegments=PowerTransmission;",
       "segmentLabel": "Electrification Segment · Power Transmission",
-      "value": 1380000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=PowerSegment;ConsolidationItems=IntersegmentElimination;",
-      "segmentLabel": "Power Segment",
-      "value": 11000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-      "isHedgeAdjustment": false
-    },
-    {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "BusinessSegments=PowerSegment;ConsolidationItems=OperatingSegments;ProductOrService=Product;",
-      "segmentLabel": "Power Segment · Product",
       "value": 1877000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=ElectrificationSegment;ConsolidationItems=OperatingSegmentsExcludingIntersegmentElimination;Subsegments=PowerTransmission;",
+      "segmentLabel": "Electrification Segment · Power Transmission",
+      "value": 3256000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=PowerSegment;ConsolidationItems=IntersegmentElimination;",
+      "segmentLabel": "Power Segment",
+      "value": 12000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=PowerSegment;ConsolidationItems=IntersegmentElimination;",
+      "segmentLabel": "Power Segment",
+      "value": 22000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "1",
+      "segmentRaw": "BusinessSegments=PowerSegment;ConsolidationItems=OperatingSegments;ProductOrService=Product;",
+      "segmentLabel": "Power Segment · Product",
+      "value": 1957000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=PowerSegment;ConsolidationItems=OperatingSegments;ProductOrService=Product;",
+      "segmentLabel": "Power Segment · Product",
+      "value": 3834000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=PowerSegment;ConsolidationItems=OperatingSegments;ProductOrService=Service;",
       "segmentLabel": "Power Segment · Service",
-      "value": 3084000000.0,
+      "value": 3509000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=PowerSegment;ConsolidationItems=OperatingSegments;ProductOrService=Service;",
+      "segmentLabel": "Power Segment · Service",
+      "value": 6593000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=PowerSegment;ConsolidationItems=OperatingSegmentsExcludingIntersegmentElimination;",
       "segmentLabel": "Power Segment",
-      "value": 4971000000.0,
+      "value": 5477000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=PowerSegment;ConsolidationItems=OperatingSegmentsExcludingIntersegmentElimination;",
+      "segmentLabel": "Power Segment",
+      "value": 10449000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=PowerSegment;ConsolidationItems=OperatingSegmentsExcludingIntersegmentElimination;Subsegments=GasPower;",
       "segmentLabel": "Power Segment · Gas Power",
-      "value": 4066000000.0,
+      "value": 4427000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=PowerSegment;ConsolidationItems=OperatingSegmentsExcludingIntersegmentElimination;Subsegments=GasPower;",
+      "segmentLabel": "Power Segment · Gas Power",
+      "value": 8493000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=PowerSegment;ConsolidationItems=OperatingSegmentsExcludingIntersegmentElimination;Subsegments=HydroPower;",
       "segmentLabel": "Power Segment · Hydro Power",
-      "value": 148000000.0,
+      "value": 233000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=PowerSegment;ConsolidationItems=OperatingSegmentsExcludingIntersegmentElimination;Subsegments=HydroPower;",
+      "segmentLabel": "Power Segment · Hydro Power",
+      "value": 382000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=PowerSegment;ConsolidationItems=OperatingSegmentsExcludingIntersegmentElimination;Subsegments=NuclearPower;",
       "segmentLabel": "Power Segment · Nuclear Power",
-      "value": 757000000.0,
+      "value": 817000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=PowerSegment;ConsolidationItems=OperatingSegmentsExcludingIntersegmentElimination;Subsegments=NuclearPower;",
+      "segmentLabel": "Power Segment · Nuclear Power",
+      "value": 1575000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=WindSegment;ConsolidationItems=IntersegmentElimination;",
       "segmentLabel": "Wind Segment",
-      "value": 0.0,
+      "value": 1000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=WindSegment;ConsolidationItems=IntersegmentElimination;",
+      "segmentLabel": "Wind Segment",
+      "value": 1000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=WindSegment;ConsolidationItems=OperatingSegments;ProductOrService=Product;",
       "segmentLabel": "Wind Segment · Product",
-      "value": 889000000.0,
+      "value": 1394000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=WindSegment;ConsolidationItems=OperatingSegments;ProductOrService=Product;",
+      "segmentLabel": "Wind Segment · Product",
+      "value": 2283000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=WindSegment;ConsolidationItems=OperatingSegments;ProductOrService=Service;",
       "segmentLabel": "Wind Segment · Service",
-      "value": 543000000.0,
+      "value": 631000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=WindSegment;ConsolidationItems=OperatingSegments;ProductOrService=Service;",
+      "segmentLabel": "Wind Segment · Service",
+      "value": 1174000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=WindSegment;ConsolidationItems=OperatingSegmentsExcludingIntersegmentElimination;",
       "segmentLabel": "Wind Segment",
-      "value": 1432000000.0,
+      "value": 2026000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=WindSegment;ConsolidationItems=OperatingSegmentsExcludingIntersegmentElimination;",
+      "segmentLabel": "Wind Segment",
+      "value": 3459000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=WindSegment;ConsolidationItems=OperatingSegmentsExcludingIntersegmentElimination;Subsegments=OffshoreWind;",
       "segmentLabel": "Wind Segment · Offshore Wind",
-      "value": 246000000.0,
+      "value": 305000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=WindSegment;ConsolidationItems=OperatingSegmentsExcludingIntersegmentElimination;Subsegments=OffshoreWind;",
+      "segmentLabel": "Wind Segment · Offshore Wind",
+      "value": 551000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "BusinessSegments=WindSegment;ConsolidationItems=OperatingSegmentsExcludingIntersegmentElimination;Subsegments=OnshoreWind;",
       "segmentLabel": "Wind Segment · Onshore Wind",
-      "value": 1186000000.0,
+      "value": 1721000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "BusinessSegments=WindSegment;ConsolidationItems=OperatingSegmentsExcludingIntersegmentElimination;Subsegments=OnshoreWind;",
+      "segmentLabel": "Wind Segment · Onshore Wind",
+      "value": 2908000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ConsolidationItems=CorporateAndEliminations;",
       "segmentLabel": "Corporate And Eliminations",
-      "value": -25000000.0,
+      "value": -37000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
-      "qtrs": "1",
-      "segmentRaw": "ConsolidationItems=IntersegmentElimination;",
-      "segmentLabel": "Intersegment Elimination;",
-      "value": 32000000.0,
-      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ConsolidationItems=CorporateAndEliminations;",
+      "segmentLabel": "Corporate And Eliminations",
+      "value": -62000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ConsolidationItems=OperatingSegments;ProductOrService=Product;",
       "segmentLabel": "Product",
-      "value": 5254000000.0,
+      "value": 6460000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ConsolidationItems=OperatingSegments;ProductOrService=Product;",
+      "segmentLabel": "Product",
+      "value": 11714000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ConsolidationItems=OperatingSegments;ProductOrService=Service;",
       "segmentLabel": "Service",
-      "value": 4077000000.0,
+      "value": 4637000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ConsolidationItems=OperatingSegments;ProductOrService=Service;",
+      "segmentLabel": "Service",
+      "value": 8715000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ConsolidationItems=OperatingSegmentsExcludingIntersegmentElimination;",
       "segmentLabel": "Operating Segments Excluding Intersegment Elimination",
-      "value": 9363000000.0,
+      "value": 11141000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ConsolidationItems=OperatingSegmentsExcludingIntersegmentElimination;",
+      "segmentLabel": "Operating Segments Excluding Intersegment Elimination",
+      "value": 20504000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ProductOrService=Product;",
       "segmentLabel": "Product",
-      "value": 5254000000.0,
+      "value": 6459000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     },
     {
-      "endDate": "2026-03-31",
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=Product;",
+      "segmentLabel": "Product",
+      "value": 11713000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
       "qtrs": "1",
       "segmentRaw": "ProductOrService=Service;",
       "segmentLabel": "Service",
-      "value": 4084000000.0,
+      "value": 4645000000.0,
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "isHedgeAdjustment": false
+    },
+    {
+      "endDate": "2026-06-30",
+      "qtrs": "2",
+      "segmentRaw": "ProductOrService=Service;",
+      "segmentLabel": "Service",
+      "value": 8729000000.0,
       "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "isHedgeAdjustment": false
     }

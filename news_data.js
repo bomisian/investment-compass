@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1791941446.6218166,
+    "_last_attempt_at": 1791964669.39397,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -52,7 +52,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791941450.402736
+          "analysisUpdatedAt": 1791964673.5964725
         },
         "headlineKo": "Bank of America 고객들은 Invesco QQQ가 주최하는 제19회 푸드 네트워크 뉴욕시 와인 및 음식 축제에서 프리미엄 식사 및 라이프스타일 경험을 즐길 수 있습니다"
       },
@@ -116,7 +116,7 @@ const NEWS_DATA = {
             "stock futures were swinging between gains and losses on Tuesday, as the Dow Jones and S&P 500 indices rose, while the Nasdaq 100 index fell, following Monday’s mixed close.",
             "The ongoing war in Iran is mounting significant economic and strategic pressure on the U.S."
           ],
-          "analysisUpdatedAt": 1791941453.3537774
+          "analysisUpdatedAt": 1791964676.0147045
         },
         "headlineKo": "오늘의 주식 시장: Scott Bessent가 이란 경제가 '붕괴'하고 있다고 말하면서 Dow Jones Futures Gain, Nasdaq, S&P 500 하락— SXTC, AMAT, CMG in Focus(업데이트됨)"
       },
@@ -166,7 +166,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791941454.2234492
+          "analysisUpdatedAt": 1791964676.9082408
         },
         "headlineKo": "QQQI: 단기적인 나스닥 하락세는 강세장을 끝내지 않습니다"
       },
@@ -238,7 +238,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791941450.402736
+          "analysisUpdatedAt": 1791964673.5964725
         }
       },
       {
@@ -301,7 +301,7 @@ const NEWS_DATA = {
             "stock futures were swinging between gains and losses on Tuesday, as the Dow Jones and S&P 500 indices rose, while the Nasdaq 100 index fell, following Monday’s mixed close.",
             "The ongoing war in Iran is mounting significant economic and strategic pressure on the U.S."
           ],
-          "analysisUpdatedAt": 1791941453.3537774
+          "analysisUpdatedAt": 1791964676.0147045
         }
       },
       {
@@ -350,7 +350,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791941454.2234492
+          "analysisUpdatedAt": 1791964676.9082408
         }
       },
       {
@@ -5885,15 +5885,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791941446.6218166,
-    "_updated_label": "2026-10-14 10:30",
-    "_last_success_at": 1791941446.6218166,
+    "_fetched_at": 1791964669.39397,
+    "_updated_label": "2026-10-14 16:57",
+    "_last_success_at": 1791964669.39397,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 115,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "SPY": {
@@ -13438,11 +13438,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 154,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "MSFT": {
-    "_last_attempt_at": 1791941446.6218166,
+    "_last_attempt_at": 1791964669.39397,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -13510,20 +13510,20 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [
             "20%",
-            "0.36%",
-            "0.06%",
-            "0.20%",
-            "41.81%",
-            "0.28%",
-            "2.80%",
-            "12.85%"
+            "0.24%",
+            "0.15%",
+            "0.11%",
+            "1.18%",
+            "18.02%",
+            "0.49%",
+            "0.83%"
           ],
           "sourceExcerpt": [
-            "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report AI Agent Trending News Earnings All DIA 0.36% SPY 0.06% QQQ 0.20% Trending LQDA 41.81% MSFT 0.28% BAC 2.80% CIFR 12.85% MU 3.02% RIVN 0.74% GME 0.",
+            "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report AI Agent Trending News Earnings All DIA 0.24% SPY 0.15% QQQ 0.11% Trending ASML 1.18% SKYD 18.02% SMCI 0.49% MU 0.83% AAPL 0.38% LUNR 0.08% TTWO 0",
             "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report Microsoft Azure is exploring potential cost reductions of at least 20% in its software development unit to offset heavy infrastructure investments",
             "Microsoft CEO Satya Nadella at the Ronald V."
           ],
-          "analysisUpdatedAt": 1791941460.5327704
+          "analysisUpdatedAt": 1791964681.7725103
         },
         "headlineKo": "Microsoft는 AI 데이터 센터 지출이 급증하는 가운데 Azure 분야에서 20%의 비용 절감에 무게를 두고 있습니다: 보고서"
       },
@@ -13573,7 +13573,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791941461.2272513
+          "analysisUpdatedAt": 1791964682.4556527
         },
         "headlineKo": "Microsoft 창립자 Bill Gates가 실제로 얼마나 많은 MSFT 주식을 소유하고 있습니까?"
       },
@@ -13641,7 +13641,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791941464.2204218
+          "analysisUpdatedAt": 1791964684.408211
         },
         "headlineKo": "Microsoft, 데이터 센터 임대로 1,300억 달러 보고"
       },
@@ -13791,20 +13791,20 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [
             "20%",
-            "0.36%",
-            "0.06%",
-            "0.20%",
-            "41.81%",
-            "0.28%",
-            "2.80%",
-            "12.85%"
+            "0.24%",
+            "0.15%",
+            "0.11%",
+            "1.18%",
+            "18.02%",
+            "0.49%",
+            "0.83%"
           ],
           "sourceExcerpt": [
-            "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report AI Agent Trending News Earnings All DIA 0.36% SPY 0.06% QQQ 0.20% Trending LQDA 41.81% MSFT 0.28% BAC 2.80% CIFR 12.85% MU 3.02% RIVN 0.74% GME 0.",
+            "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report AI Agent Trending News Earnings All DIA 0.24% SPY 0.15% QQQ 0.11% Trending ASML 1.18% SKYD 18.02% SMCI 0.49% MU 0.83% AAPL 0.38% LUNR 0.08% TTWO 0",
             "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report Microsoft Azure is exploring potential cost reductions of at least 20% in its software development unit to offset heavy infrastructure investments",
             "Microsoft CEO Satya Nadella at the Ronald V."
           ],
-          "analysisUpdatedAt": 1791941460.5327704
+          "analysisUpdatedAt": 1791964681.7725103
         }
       },
       {
@@ -13853,7 +13853,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791941461.2272513
+          "analysisUpdatedAt": 1791964682.4556527
         }
       },
       {
@@ -13920,7 +13920,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791941464.2204218
+          "analysisUpdatedAt": 1791964684.408211
         }
       },
       {
@@ -21335,15 +21335,15 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1791941446.6218166,
-    "_updated_label": "2026-10-14 10:31",
-    "_last_success_at": 1791941446.6218166,
+    "_fetched_at": 1791964669.39397,
+    "_updated_label": "2026-10-14 16:58",
+    "_last_success_at": 1791964669.39397,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "GOOGL": {
@@ -29369,7 +29369,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "AMZN": {
@@ -37571,7 +37571,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "META": {
@@ -45639,7 +45639,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "AAPL": {
@@ -53568,7 +53568,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "TSLA": {
@@ -61676,7 +61676,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "ORCL": {
@@ -70118,7 +70118,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "CRM": {
@@ -77324,7 +77324,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 158,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "PLTR": {
@@ -86156,7 +86156,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "NVDA": {
@@ -94029,7 +94029,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "AMD": {
@@ -102167,7 +102167,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "AVGO": {
@@ -111163,7 +111163,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "QCOM": {
@@ -119232,7 +119232,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 174,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "ARM": {
@@ -124844,7 +124844,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 110,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "MRVL": {
@@ -133675,7 +133675,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "INTC": {
@@ -142221,7 +142221,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "TSM": {
@@ -149868,7 +149868,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 168,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "ASML": {
@@ -155384,7 +155384,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "AMAT": {
@@ -160786,7 +160786,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 112,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "LRCX": {
@@ -163640,11 +163640,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1791941446.6218166,
+    "_last_attempt_at": 1791964669.39397,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -163669,13 +163669,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "KLA 주식이 가격보다 좋아 보이는 한 가지 이유 | Trefis KLA 주식이 가격보다 좋아 보이는 한 가지 이유 2026년 10월 13일 · Trefis Team KLAC YTD +57.0% SPY YTD +14.7% QQQ YTD +21.7% KLAC 분석 → 대부분의 투자자는 여전히 KLA(KLAC)를 봅니다.",
+            "KLA 주식이 가격보다 좋아 보이는 한 가지 이유 | Trefis KLA 주식이 가격보다 좋아 보이는 한 가지 이유 2026년 10월 13일 · Trefis Team KLAC YTD +52.0% SPY YTD +14.7% QQQ YTD +21.3% KLAC 분석 → 대부분의 투자자는 여전히 KLA(KLAC)를 봅니다.",
             "그러나 첨단 포장용 검사 도구를 판매하는 사업이 눈에 띄기 시작했고 경영진은 이러한 수요를 AI의 확장과 연결합니다.",
             "포장은 구매자가 현재 지불하는 비용의 일부일 수 있습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 57.0%, 14.7%, 21.7% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 52.0%, 14.7%, 21.3% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -163699,9 +163699,9 @@ const NEWS_DATA = {
           "relevance": 0.5,
           "quality": "medium",
           "verifiedNumbers": [
-            "57.0%",
+            "52.0%",
             "14.7%",
-            "21.7%",
+            "21.3%",
             "$1.1 Billion",
             "$1.1 billion",
             "70%",
@@ -163709,11 +163709,11 @@ const NEWS_DATA = {
             "$13.6 billion"
           ],
           "sourceExcerpt": [
-            "One Reason KLA Stock Looks Better Than Its Price | Trefis One Reason KLA Stock Looks Better Than Its Price October 13th, 2026 · by Trefis Team KLAC YTD +57.0% SPY YTD +14.7% QQQ YTD +21.7% Analyze KLAC → Most investors still view KLA (KLAC)",
+            "One Reason KLA Stock Looks Better Than Its Price | Trefis One Reason KLA Stock Looks Better Than Its Price October 13th, 2026 · by Trefis Team KLAC YTD +52.0% SPY YTD +14.7% QQQ YTD +21.3% Analyze KLAC → Most investors still view KLA (KLAC)",
             "However, the business selling inspection tools for advanced packaging is beginning to stand out, and management ties this demand to the expansion of AI.",
             "Packaging may be part of what buyers are currently paying for."
           ],
-          "analysisUpdatedAt": 1791941476.1135774
+          "analysisUpdatedAt": 1791964691.020618
         },
         "headlineKo": "KLA 주식이 가격보다 좋아 보이는 한 가지 이유"
       },
@@ -163734,7 +163734,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "엄청난 해에 투자자들이 이익을 얻으면서 반도체 장비 주가 하락: Applied Materials는 7% 하락, Lam Research 및 KLA는 4% 하락 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,815.80 −0.01% Dow Jones 51,685.70 −0.06% Nasdaq 100 30,607.80 +0.05% Russell 2000 2,788.00 +0.01% S&P 500 7,815.80 −0.01% 다우존스 51,685.70 −0.06% 나스닥 100 30,607.80 +0.05% 러셀 2000 2,788.00 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,826.40 +0.13% Dow Jones 51,821.70 +0.21% Nasdaq 100 30,590.80 −0.00% Russell 2000 2,794.45 +0.24% S&P 500 7,826.40 +0.13% 다우존스 51,821.70 +0.21% 나스닥 100 30,590.80 −0.00% 러셀 2000 2,794.45 +0.",
             "작성자: David Moadel 2026년 10월 13일 오후 12시 53분(ET) 게시 · 3분 읽기 Market Movers 데스크."
           ],
           "why": [
@@ -163774,10 +163774,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Semiconductor Equipment Stocks Slide as Investors Take Profits on a Huge Year: Applied Materials Sinks 7%, Lam Research and KLA Drop 4% - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,815.80 −0.01% Dow Jones 51,685.70 −0.06% Nasdaq 100 30,607.80 +0.05% Russell 2000 2,788.00 +0.01% S&P 500 7,815.80 −0.01% Dow Jones 51,685.70 −0.06% Nasdaq 100 30,607.80 +0.05% Russell 2000 2,788.00 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,826.40 +0.13% Dow Jones 51,821.70 +0.21% Nasdaq 100 30,590.80 −0.00% Russell 2000 2,794.45 +0.24% S&P 500 7,826.40 +0.13% Dow Jones 51,821.70 +0.21% Nasdaq 100 30,590.80 −0.00% Russell 2000 2,794.45 +0.",
             "By David Moadel Published October 13, 2026, 12:53pm ET · 3 min read Market Movers desk."
           ],
-          "analysisUpdatedAt": 1791941480.0273457
+          "analysisUpdatedAt": 1791964694.2996485
         },
         "headlineKo": "엄청난 해에 투자자들이 이익을 얻으면서 반도체 장비 주가 하락: Applied Materials는 7% 하락, Lam Research 및 KLA는 4% 하락"
       },
@@ -163827,7 +163827,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791941482.3858335
+          "analysisUpdatedAt": 1791964696.3475392
         },
         "headlineKo": "MG 대 KLAC: 어떤 주식이 더 나은 가치 옵션입니까?"
       },
@@ -163921,13 +163921,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "KLA 주식이 가격보다 좋아 보이는 한 가지 이유 | Trefis KLA 주식이 가격보다 좋아 보이는 한 가지 이유 2026년 10월 13일 · Trefis Team KLAC YTD +57.0% SPY YTD +14.7% QQQ YTD +21.7% KLAC 분석 → 대부분의 투자자는 여전히 KLA(KLAC)를 봅니다.",
+            "KLA 주식이 가격보다 좋아 보이는 한 가지 이유 | Trefis KLA 주식이 가격보다 좋아 보이는 한 가지 이유 2026년 10월 13일 · Trefis Team KLAC YTD +52.0% SPY YTD +14.7% QQQ YTD +21.3% KLAC 분석 → 대부분의 투자자는 여전히 KLA(KLAC)를 봅니다.",
             "그러나 첨단 포장용 검사 도구를 판매하는 사업이 눈에 띄기 시작했고 경영진은 이러한 수요를 AI의 확장과 연결합니다.",
             "포장은 구매자가 현재 지불하는 비용의 일부일 수 있습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 57.0%, 14.7%, 21.7% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 52.0%, 14.7%, 21.3% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -163951,9 +163951,9 @@ const NEWS_DATA = {
           "relevance": 0.5,
           "quality": "medium",
           "verifiedNumbers": [
-            "57.0%",
+            "52.0%",
             "14.7%",
-            "21.7%",
+            "21.3%",
             "$1.1 Billion",
             "$1.1 billion",
             "70%",
@@ -163961,11 +163961,11 @@ const NEWS_DATA = {
             "$13.6 billion"
           ],
           "sourceExcerpt": [
-            "One Reason KLA Stock Looks Better Than Its Price | Trefis One Reason KLA Stock Looks Better Than Its Price October 13th, 2026 · by Trefis Team KLAC YTD +57.0% SPY YTD +14.7% QQQ YTD +21.7% Analyze KLAC → Most investors still view KLA (KLAC)",
+            "One Reason KLA Stock Looks Better Than Its Price | Trefis One Reason KLA Stock Looks Better Than Its Price October 13th, 2026 · by Trefis Team KLAC YTD +52.0% SPY YTD +14.7% QQQ YTD +21.3% Analyze KLAC → Most investors still view KLA (KLAC)",
             "However, the business selling inspection tools for advanced packaging is beginning to stand out, and management ties this demand to the expansion of AI.",
             "Packaging may be part of what buyers are currently paying for."
           ],
-          "analysisUpdatedAt": 1791941476.1135774
+          "analysisUpdatedAt": 1791964691.020618
         }
       },
       {
@@ -163985,7 +163985,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "엄청난 해에 투자자들이 이익을 얻으면서 반도체 장비 주가 하락: Applied Materials는 7% 하락, Lam Research 및 KLA는 4% 하락 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,815.80 −0.01% Dow Jones 51,685.70 −0.06% Nasdaq 100 30,607.80 +0.05% Russell 2000 2,788.00 +0.01% S&P 500 7,815.80 −0.01% 다우존스 51,685.70 −0.06% 나스닥 100 30,607.80 +0.05% 러셀 2000 2,788.00 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,826.40 +0.13% Dow Jones 51,821.70 +0.21% Nasdaq 100 30,590.80 −0.00% Russell 2000 2,794.45 +0.24% S&P 500 7,826.40 +0.13% 다우존스 51,821.70 +0.21% 나스닥 100 30,590.80 −0.00% 러셀 2000 2,794.45 +0.",
             "작성자: David Moadel 2026년 10월 13일 오후 12시 53분(ET) 게시 · 3분 읽기 Market Movers 데스크."
           ],
           "why": [
@@ -164025,10 +164025,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Semiconductor Equipment Stocks Slide as Investors Take Profits on a Huge Year: Applied Materials Sinks 7%, Lam Research and KLA Drop 4% - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,815.80 −0.01% Dow Jones 51,685.70 −0.06% Nasdaq 100 30,607.80 +0.05% Russell 2000 2,788.00 +0.01% S&P 500 7,815.80 −0.01% Dow Jones 51,685.70 −0.06% Nasdaq 100 30,607.80 +0.05% Russell 2000 2,788.00 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,826.40 +0.13% Dow Jones 51,821.70 +0.21% Nasdaq 100 30,590.80 −0.00% Russell 2000 2,794.45 +0.24% S&P 500 7,826.40 +0.13% Dow Jones 51,821.70 +0.21% Nasdaq 100 30,590.80 −0.00% Russell 2000 2,794.45 +0.",
             "By David Moadel Published October 13, 2026, 12:53pm ET · 3 min read Market Movers desk."
           ],
-          "analysisUpdatedAt": 1791941480.0273457
+          "analysisUpdatedAt": 1791964694.2996485
         }
       },
       {
@@ -164077,7 +164077,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791941482.3858335
+          "analysisUpdatedAt": 1791964696.3475392
         }
       },
       {
@@ -166576,15 +166576,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791941446.6218166,
-    "_updated_label": "2026-10-14 10:31",
-    "_last_success_at": 1791941446.6218166,
+    "_fetched_at": 1791964669.39397,
+    "_updated_label": "2026-10-14 16:58",
+    "_last_success_at": 1791964669.39397,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "MU": {
@@ -174440,7 +174440,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "SNDK": {
@@ -183174,7 +183174,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 184,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "WDC": {
@@ -188243,11 +188243,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 107,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "ANET": {
-    "_last_attempt_at": 1791941446.6218166,
+    "_last_attempt_at": 1791964669.39397,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -188302,7 +188302,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791941502.7479744
+          "analysisUpdatedAt": 1791964701.183591
         },
         "headlineKo": "Arista Networks(ANET)는 시장보다 더 큰 하락세를 기록했습니다: 주목해야 할 중요한 사실"
       },
@@ -188352,7 +188352,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791941508.1370015
+          "analysisUpdatedAt": 1791964703.228783
         },
         "headlineKo": "Arista Networks(ANET) 주식 하락, 새로운 관심의 배경은 무엇입니까?"
       },
@@ -188408,7 +188408,7 @@ const NEWS_DATA = {
             "$230.78",
             "1.66 %",
             "$3.76",
-            "$266",
+            "$258",
             "$114.52"
           ],
           "sourceExcerpt": [
@@ -188416,7 +188416,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Choosing between Arista Networks ( ANET -3.02% ) and International Business Machines ( IBM +1.66% ) in 2026 requires balancing high",
             "Arista Networks specializes in high-speed switches for massive data centers, while International Business Machines focuses on hybrid cloud and AI platforms."
           ],
-          "analysisUpdatedAt": 1791941512.2679927
+          "analysisUpdatedAt": 1791964706.8288019
         },
         "headlineKo": "Arista Networks 대 국제 비즈니스 머신: 2026년에는 어떤 기술 주식을 구매하는 것이 더 낫습니까?"
       },
@@ -188488,7 +188488,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791941502.7479744
+          "analysisUpdatedAt": 1791964701.183591
         }
       },
       {
@@ -188537,7 +188537,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791941508.1370015
+          "analysisUpdatedAt": 1791964703.228783
         }
       },
       {
@@ -188592,7 +188592,7 @@ const NEWS_DATA = {
             "$230.78",
             "1.66 %",
             "$3.76",
-            "$266",
+            "$258",
             "$114.52"
           ],
           "sourceExcerpt": [
@@ -188600,7 +188600,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Choosing between Arista Networks ( ANET -3.02% ) and International Business Machines ( IBM +1.66% ) in 2026 requires balancing high",
             "Arista Networks specializes in high-speed switches for massive data centers, while International Business Machines focuses on hybrid cloud and AI platforms."
           ],
-          "analysisUpdatedAt": 1791941512.2679927
+          "analysisUpdatedAt": 1791964706.8288019
         }
       },
       {
@@ -192243,15 +192243,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1791941446.6218166,
-    "_updated_label": "2026-10-14 10:31",
-    "_last_success_at": 1791941446.6218166,
+    "_fetched_at": 1791964669.39397,
+    "_updated_label": "2026-10-14 16:58",
+    "_last_success_at": 1791964669.39397,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 80,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "COHR": {
@@ -192469,6 +192469,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8257c512a2309d74c08c248bdaaa7d205c7292944c9876117703ac9625f2d4b1",
         "datetime": 1791937178,
+        "headlineKo": "Coherent Stock이 실행될 것이라는 징후가 있었습니까?",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -195822,7 +195823,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "LITE": {
@@ -200310,7 +200311,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "GEV": {
@@ -205669,7 +205670,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 107,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "CEG": {
@@ -210452,7 +210453,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "VST": {
@@ -214069,7 +214070,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "ETN": {
@@ -217359,7 +217360,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "PWR": {
@@ -220528,7 +220529,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "HUBB": {
@@ -221295,7 +221296,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "VRT": {
@@ -225468,7 +225469,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "MOD": {
@@ -226796,7 +226797,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "STX": {
@@ -226996,6 +226997,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=c7fd830f72c1bf4c8f6bdb556ff32d50bd452b19c817163a9f4ff7462929e099",
         "datetime": 1791942642,
+        "headlineKo": "Seagate의 수익 개선은 조심스러운 상승을 뒷받침합니다",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -231432,7 +231434,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "EME": {
@@ -233242,7 +233244,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "FIX": {
@@ -234932,7 +234934,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   },
   "BE": {
@@ -235149,6 +235151,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ef44e9e2b51193b28cda88b7d1660447f30291e0826d1b379397a9525db3ae8b",
         "datetime": 1791952386,
+        "headlineKo": "Bloom Energy(BE) 주식은 저지 패치 거래 이후 34% 저평가될 수 있습니다.",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -235196,6 +235199,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ae43e75283eba241a931ca465dd2b570812beb8494c86ab988c10c69199a8104",
         "datetime": 1791943131,
+        "headlineKo": "BE 주식은 오라클이 프로젝트 Jupiter 역할을 재확인한 후 밤새 상승: 분석가는 3분기 결과에 앞서 시장 수용을 얻기 위해 가격 목표를 인상합니다.",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -237537,7 +237541,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-10-14 16:26"
+      "updated": "2026-10-14 16:58"
     }
   }
 };
