@@ -5555,16 +5555,31 @@ function computePriceValidity(r){
   // --- 3) 과거 PER 밴드: ticker 고유 밴드(이미 중앙값 기반 강건 통계) 우선, 없으면 기존 전체
   //        통계 폴백 상수(PE_BAND_LOW/PE_BAND_HIGH, 다른 카드에서 이미 쓰이던 값)를 avgPe3Y에
   //        적용. avgPe3Y 자체가 없는 종목(과거 PER 유효 관측치 전무)만 밴드를 만들 수 없다. ---
+  // WO2-02(수정지시서#02) -- 종목 고유 밴드가 상장 전체 기간(종목마다 20~27년)을 모아
+  // 정규화해 고성장기(예: NVDA 2023~2026 AI 랠리) 배수가 "정상 범위"에 그대로 섞여 기준가가
+  // 비현실적으로 높아지는 문제가 있었다(실측: NVDA 기준가 $601, 현재가의 2.6배). 최근 5년
+  // 중앙값·25~75백분위(fetch_fundamentals가 이미 계산해 둔 perMedian5Y/perBand5YLow/High,
+  // perBand5YSource==='ticker'일 때만 유효)를 우선 쓰고, 유효 관측치 3개 미만(상장 5년 미만·
+  // 적자 기간 혼재)인 종목만 기존 전체 기간 밴드 → 동종업계 forward PER 폴백 순으로 내려간다.
+  const has5YBand = fund && fund.perBand5YSource==='ticker' && typeof fund.perMedian5Y==='number'
+    && typeof fund.perBand5YLow==='number' && typeof fund.perBand5YHigh==='number';
   const hasTickerBand = fund && fund.perBandSource==='ticker' && typeof fund.perBandLow==='number' && typeof fund.perBandHigh==='number';
   const hasAvgPe = fund && typeof fund.avgPe3Y==='number';
-  let perBandLowVal = null, perBandHighVal = null, bandBasis = null;
-  if(hasTickerBand){
+  let perBandLowVal = null, perBandHighVal = null, bandBasis = null, baseAnchorPeVal = null;
+  if(has5YBand){
+    perBandLowVal = fund.perMedian5Y*fund.perBand5YLow;
+    perBandHighVal = fund.perMedian5Y*fund.perBand5YHigh;
+    baseAnchorPeVal = fund.perMedian5Y;
+    bandBasis = 'ticker5y';
+  } else if(hasTickerBand){
     perBandLowVal = fund.avgPe3Y*fund.perBandLow;
     perBandHighVal = fund.avgPe3Y*fund.perBandHigh;
+    baseAnchorPeVal = fund.avgPe3Y;
     bandBasis = 'ticker';
   } else if(hasAvgPe){
     perBandLowVal = fund.avgPe3Y*PE_BAND_LOW;
     perBandHighVal = fund.avgPe3Y*PE_BAND_HIGH;
+    baseAnchorPeVal = fund.avgPe3Y;
     bandBasis = 'universal';
   }
   const bandEligible = ntmSourceOk && perBandLowVal!=null && perBandHighVal!=null;
@@ -5845,7 +5860,7 @@ function computePriceValidity(r){
       epsAvgNTM = ntmEps;
       epsHighNTM = (typeof fy0.epsHigh==='number') ? fy0.epsHigh : ntmEps;
     }
-    const baseAnchorPe = (bandBasis==='ticker') ? fund.avgPe3Y : fund.avgPe3Y; // 기준 시나리오는 두 경우 모두 avgPe3Y 사용(기존과 동일)
+    const baseAnchorPe = baseAnchorPeVal; // WO2-02 -- ticker5y면 perMedian5Y, 아니면 기존처럼 avgPe3Y
     // --- WO-06 item1(수정지시서#01) -- 기존 "보수가"(EPS 최저 × PER 하단)는 비관 가정을
     //     동시에 두 번(EPS도 낮게, PER도 낮게) 적용해 폭이 과도하게 넓어짐(ASML +125%,
     //     ETN 폭의 대부분이 PER 밴드에서 나옴 — 실측 EPS 비율 0.932, PER 비율 0.658).
@@ -5871,17 +5886,32 @@ function computePriceValidity(r){
   //     바꾸지 않는다(위 pvBandVetoLabel과 별도 -- 이건 "얼마나 벗어났는가"의 강한 경보,
   //     그건 "거부권으로 가려졌다"는 사유 표시). ---
   let priceAlert = null, priceAlertNote = null;
-  // WO-06 적용 후 bandTable.conservative는 "완화된" 보수가(평균 EPS 기준)로 바뀌었으므로,
-  // WO-04의 "모델 불신 경보"(얼마나 벗어났는가)는 더 엄격한 기존 공식인 stressFloor(EPS
-  // 최저×PER 하단)를 기준으로 유지한다 — WO-04 진단 당시 실측(ORCL $251, STX $1,093)이
-  // 이 stressFloor 값이었으므로 기준을 바꾸면 안 됨.
-  if(bandTable && typeof r.price==='number' && bandTable.stressFloor.price>0 && bandTable.upside.price>0){
-    if(r.price < bandTable.stressFloor.price*0.8){
+  // WO2-03(수정지시서#02) -- WO-06에서 "완화된" 보수가(conservative)가 매수 구간의 실제
+  // 하단이 됐는데도, 모델 불신 경보는 여전히 더 낮은 옛 stressFloor를 기준으로 판정하고
+  // 있어 NVDA·AMZN·LRCX·KLAC·LITE·VST·MOD처럼 새 보수가 기준으로는 이미 이탈했는데도
+  // 경보가 안 뜨는 공백이 있었다(실측으로 확인). 이제 화면에 실제로 노출되는 새 보수가·
+  // 상방가(conservative/upside) 기준으로 판정한다.
+  if(bandTable && typeof r.price==='number' && bandTable.conservative.price>0 && bandTable.upside.price>0){
+    if(r.price < bandTable.conservative.price*0.8){
       priceAlert = '모델 불신 경보';
-      priceAlertNote = `현재가가 보수적 모델가(스트레스 바닥 $${bandTable.stressFloor.price.toFixed(2)})의 80% 밑입니다 — 시장이 이 EPS 추정을 믿지 않는다는 뜻일 수 있어, 가격 라벨과 무관하게 신용·가이던스·회계를 직접 점검하는 것을 권합니다.`;
+      priceAlertNote = `현재가가 보수가 $${bandTable.conservative.price.toFixed(2)}의 80% 밑입니다 — 시장이 이 EPS 추정을 믿지 않는다는 뜻일 수 있어, 가격 라벨과 무관하게 신용·가이던스·회계를 직접 점검하는 것을 권합니다.`;
     } else if(r.price > bandTable.upside.price*1.2){
       priceAlert = '모델 불신 경보';
       priceAlertNote = `현재가가 상방 모델가($${bandTable.upside.price.toFixed(2)})의 120% 위입니다 — 시장이 이 EPS 추정보다 훨씬 낙관적인 기대를 반영하고 있다는 뜻일 수 있습니다.`;
+    }
+  }
+  // WO2-02 item3(수정지시서#02) 안전장치 -- 5년 중앙값으로 바꿔도 PER 밴드 자체가(예: 과거
+  // 5년이 전부 비정상적으로 높았던 종목) 비현실적인 기준가를 낼 수 있다. 기준가 ÷ 현재가가
+  // 1.8배를 넘거나 0.55배 미만이면 "기준가가 맞다"고 전제하는 매수 구간을 보여주는 대신
+  // 바로 경보로 돌린다(위 조건에서 이미 안 걸렸을 때만 추가로 체크).
+  if(!priceAlert && bandTable && typeof r.price==='number' && r.price>0 && bandTable.base.price>0){
+    const baseToPrice = bandTable.base.price / r.price;
+    if(baseToPrice > 1.8){
+      priceAlert = '모델 불신 경보';
+      priceAlertNote = `기준가 $${bandTable.base.price.toFixed(2)}가 현재가의 ${baseToPrice.toFixed(1)}배입니다 — 과거 PER 기준 자체가 지금 사업 상황과 안 맞을 가능성이 커 숫자 매수 구간 대신 경보로 전환합니다.`;
+    } else if(baseToPrice < 0.55){
+      priceAlert = '모델 불신 경보';
+      priceAlertNote = `기준가 $${bandTable.base.price.toFixed(2)}가 현재가의 ${(baseToPrice*100).toFixed(0)}%에 불과합니다 — 과거 PER 기준 자체가 지금 사업 상황과 안 맞을 가능성이 커 숫자 매수 구간 대신 경보로 전환합니다.`;
     }
   }
 
@@ -5892,9 +5922,10 @@ function computePriceValidity(r){
   const crossCheck = pvCrossCheck(t, r.price, price, fin, fund, iv, (ntmSourceOk?ntmPer:null));
 
   return {
-    ticker: t, price, priceHoldReason, highRiskCombo, gaapBasisOnly, epsOneTimeFlag, business, cashflow, chart,
+    ticker: t, price, currentPrice: (typeof r.price==='number' ? r.price : null), priceHoldReason, highRiskCombo, gaapBasisOnly, epsOneTimeFlag, business, cashflow, chart,
     ntmPer, ntmEps, ntmSourceOk, ntmNote, ntmMethod, distortionRatio, distorted, bandEligible, blockReason, bandBasis,
     perBandLowVal, perBandHighVal, avgPe3Y: fund ? fund.avgPe3Y : null, perBandYears: fund ? fund.perBandYears : null,
+    baseAnchorPe: baseAnchorPeVal, perBand5YYears: fund ? fund.perBand5YYears : null, // WO2-02 -- 실제 사용된 기준 PER·산출 기간 노출
     cfVeto, cfVetoCount, cfDetail, fcfWorsen2y, debtHigh, dilution,
     epsDamaged, epsDirection: eps ? eps.direction : null,
     bandTable, eps, fund, tc, me,
@@ -6076,6 +6107,19 @@ function pvCrossCheck(t, price, perLabel, fin, fund, iv, ntmPerForCheck){
 //     모든 차트 행동보다 우선한다. 가격 공식·103/142 계산은 전혀 건드리지 않고, 이미 계산된
 //     하락 원인 진단 state와 기존 가격/현금흐름/차트 게이트의 "우선순위"만 고정한다. ---
 function pvIntegratedAction(d){
+  // P0: 밴드 이탈 경보(WO2-03, 수정지시서#02) -- priceAlert는 계산만 되고 화면 어디에도
+  // 안 나오던 문제(#01 완료 보고와 다른 점으로 재검증에서 발견됨)를 고친다. WO-09가 적어둔
+  // 우선순위("데이터 오류 > 밴드 이탈 > 하락 원인 거부권 > 추세 > 가격 > 타이밍")대로 하락
+  // 원인 진단(P1·P2)보다 먼저 체크한다 -- 모델 EPS·배수 가정 자체를 시장이 안 믿는다는
+  // 경보라 사업 진단보다 상위 신호로 본다.
+  if(d.priceAlert){
+    return {
+      label: '신규 접근 중지',
+      reason: d.priceAlertNote || '모델 불신 경보 — 현재가가 모델 밴드를 크게 벗어나 있습니다. 신용·가이던스·회계를 직접 점검하십시오.',
+      recheck: '현재가가 보수가~상방가의 80~120% 범위로 돌아오거나, EPS·배수 가정이 갱신될 때 재평가',
+      tier: 'price_alert',
+    };
+  }
   // P1: 하락 원인 진단 = 신규 접근 중지 -- 가격이 매력적/적정이어도 최우선
   if(d.downturnState === '신규 접근 중지'){
     return {
@@ -6118,6 +6162,44 @@ function pvIntegratedAction(d){
   if(d.chart === '데이터 부족'){
     return { label: '관찰', reason: pvActionSentence(d), recheck: pvChangeConditions(d), tier: 'chart_nodata' };
   }
+  // WO2-01(수정지시서#02) -- 여기까지 왔다는 건 가격·사업·현금흐름·차트가 모두 "분할 축적
+  // 검토"를 가리킨다는 뜻이지만, 실제로는 (1)현재가가 보수가~기준가 구간 밖인데도(ASML·AAPL은
+  // 위, NVDA·AMZN·LITE·PWR·CEG·GOOGL은 아래) "네, 지금이 분할 매수를 검토할 구간이에요"가
+  // 나가거나 (2)대체(PEG) 모델 종목(숫자 밴드 자체가 없음)에도 같은 문구가 나가는 문제가
+  // 있었다(재검증 8종목 실측). '분할 축적 검토'는 다음을 모두 만족할 때만 낸다:
+  //  1) 대체(PEG) 모델 종목이 아닐 것(숫자 밴드로 위치 확인 불가하면 매수 구간 주장 금지)
+  //  2) 현재가가 보수가 이상·기준가 이하(구간 안)일 것
+  //  3) 밴드 이탈 경보(P0)가 없을 것 -- 이미 위에서 걸러짐
+  //  4) 차트가 극과열이 아닐 것 -- 이미 위에서 걸러짐(극과열은 chart_wait로 먼저 반환됨)
+  if(d.usedFallbackModel){
+    return {
+      label: '관찰',
+      reason: '대체 모델(PEG) 기준 종목이라 숫자 매수 구간을 확인할 수 없어 분할 매수를 권고하지 않습니다 — 사업·현금흐름 근거는 양호합니다.',
+      recheck: pvChangeConditions(d),
+      tier: 'fallback_watch',
+    };
+  }
+  if(d.bandTable && typeof d.currentPrice === 'number'){
+    const bt = d.bandTable;
+    if(d.currentPrice > bt.base.price){
+      const pct = (d.currentPrice / bt.base.price - 1) * 100;
+      return {
+        label: '관찰',
+        reason: `기준가 $${bt.base.price.toFixed(2)}보다 +${pct.toFixed(0)}% 위입니다 — 매수 구간 밖이라 신규 진입은 대기합니다.`,
+        recheck: pvChangeConditions(d),
+        tier: 'above_zone',
+      };
+    }
+    if(d.currentPrice < bt.conservative.price){
+      const pct = (1 - d.currentPrice / bt.conservative.price) * 100;
+      return {
+        label: '신규 접근 중지',
+        reason: `모델 불신 경보 — 현재가가 보수가 $${bt.conservative.price.toFixed(2)}보다 ${pct.toFixed(0)}% 낮아 매수 구간 밖입니다. 모델이 보는 정상 구간보다 더 싸게 거래되는 이유(일시적 수급·구조적 우려·EPS·배수 가정 불신)를 먼저 확인하십시오.`,
+        recheck: pvChangeConditions(d),
+        tier: 'below_zone',
+      };
+    }
+  }
   // P7: 가격 매력적/적정 + 사업 비(非)약화 + 현금흐름 건전 + 눌림 진입 가능 -- 분할 축적 검토
   return { label: '분할 축적 검토', reason: pvActionSentence(d), recheck: pvChangeConditions(d), tier: 'accumulate' };
 }
@@ -6134,9 +6216,13 @@ function pvActionSentence(d){
   // 이 지점부터는 가격이 저평가 또는 적정이고 현금흐름도 건전함
   if(d.chart === '추격 금지'){
     // WO-08 item3 -- 고정 문구 대신 실제 숫자(200일선 대비 이격도, 모델 보수가)로 설명한다.
-    const numSuffix = (typeof d.ma200Pct==='number' && d.bandTable && d.bandTable.conservative.price>0)
+    // WO2-04(수정지시서#02) -- 대체(PEG) 모델 종목(usedFallbackModel)은 PER 밴드 자체가
+    // 왜곡돼 대체 모델로 넘어간 상태인데, 이 문구가 그 왜곡된 밴드의 보수가를 "진입가"로
+    // 그대로 썼다(AMD 실측: 현재가 $605인데 "$1372.11 이하로 눌리면 1차 진입" — 진입가가
+    // 현재가의 2배 위). 대체 모델 종목에는 PER 밴드 가격을 절대 쓰지 않는다.
+    const numSuffix = (!d.usedFallbackModel && typeof d.ma200Pct==='number' && d.bandTable && d.bandTable.conservative.price>0)
       ? ` — 200일선보다 +${d.ma200Pct.toFixed(0)}% 높은 극과열 구간입니다. $${d.bandTable.conservative.price.toFixed(2)} 이하로 눌리면 1차 진입을 검토하십시오.`
-      : '';
+      : (d.usedFallbackModel && typeof d.ma200Pct==='number' ? ` — 200일선보다 +${d.ma200Pct.toFixed(0)}% 높은 극과열 구간입니다. 대체(PEG) 모델 종목이라 숫자 진입가는 제시하지 않습니다 — 눌림을 확인한 뒤 재검토하십시오.` : '');
     return (d.price==='저평가' ? T2 : '가격은 적정 구간일 수 있으나 현재는 추격 구간 — 눌림 또는 반등 확인 대기') + numSuffix;
   }
   if(d.chart === '하락 추세 경계'){
@@ -6239,7 +6325,8 @@ function pvPositionLine(d, r, num){
   const seg = pvPositionSegment(d, r, num);
   if(!seg) return null;
   const price = r.price;
-  return `현재가 ${price.toFixed(2)}는 모델 기준 가격대의 <b>${seg.posLabel}</b>(<b>${seg.actionBand}</b>)에 있으며, 기준값(3년 평균 PER 적용) 대비 <b>${seg.pct>=0?'+':''}${seg.pct.toFixed(1)}%</b>입니다.`;
+  const basisTxt = d.bandBasis==='ticker5y' ? '최근 5년 중앙값 PER' : '과거 평균 PER'; // WO2-02 -- "3년 평균"은 더 이상 실제와 안 맞음
+  return `현재가 ${price.toFixed(2)}는 모델 기준 가격대의 <b>${seg.posLabel}</b>(<b>${seg.actionBand}</b>)에 있으며, 기준값(${basisTxt} 적용) 대비 <b>${seg.pct>=0?'+':''}${seg.pct.toFixed(1)}%</b>입니다.`;
 }
 
 // --- 51746 -- 카드 최상단을 "오늘 무엇을 할지 결정할 수 있는 실행 판정"으로 재구성(사용자 요청,
@@ -6399,8 +6486,12 @@ const PV_COLOR = {
 function pvDecisionInfo(d, r, act, num){
   const out = { buyZone: null, buyZoneWidthNote: null, buyZoneStressFloor: null, perBandYearsActual: null, confirmCond: null, invalidateCond: null, nextCheck: null };
 
-  const bandDisplayEligible = d.bandEligible && !d.distorted;
-  if(bandDisplayEligible && d.bandTable){
+  // WO2-03(수정지시서#02) -- 모델 불신 경보(d.priceAlert)가 뜬 종목은 숫자 매수 구간을
+  // "조정이 오면 어디까지" 자리에도 그대로 보여주지 않는다(경보 사유를 바로 보여줌).
+  const bandDisplayEligible = d.bandEligible && !d.distorted && !d.priceAlert;
+  if(d.priceAlert){
+    out.buyZone = `모델 불신 경보 — ${d.priceAlertNote || '현재가가 모델 밴드를 크게 벗어나 있습니다.'}`;
+  } else if(bandDisplayEligible && d.bandTable){
     const bt = d.bandTable;
     // WO-06(수정지시서#01) -- 비관 가정을 하나만 반영한 완화된 보수가를 메인 구간으로
     // 표시하고, 기존(이중 비관) 공식은 "스트레스 바닥(참고)"로 접어서 같이 보여준다
@@ -6422,7 +6513,11 @@ function pvDecisionInfo(d, r, act, num){
           perShare = perLog/totalLog*100;
         }
       }
-      const yearsNote = (d.perBandYears!=null) ? `PER 밴드 산출 기간 실제 ${d.perBandYears}년(문구상 "3년"과 다름 — 통일 작업 전까지는 종목마다 다른 실제 기간을 그대로 표시)` : '';
+      // WO2-02(수정지시서#02) -- 밴드 기간을 5년으로 통일했으므로(ticker5y), 더 이상 "3년"과
+      // 다른 실제 기간을 매번 설명할 필요가 없다. 폴백(ticker/universal)일 때만 과거처럼
+      // 실제 기간을 안내한다.
+      const yearsNote = (d.bandBasis==='ticker5y') ? `PER 밴드 산출 기간: 최근 5년 중앙값·25~75백분위(실제 ${d.perBand5YYears||5}년 관측)`
+        : (d.perBandYears!=null) ? `PER 밴드 산출 기간 실제 ${d.perBandYears}년(상장 5년 미만이라 전체 기간 폴백 — 5년 통일 기준 미적용)` : '';
       if(widthPct >= 40){
         out.buyZoneWidthNote = `※ 구간이 넓어 보일 수 있어요 — 계산 오류가 아니라, 과거 PER 20~80백분위 밴드(변동성이 큰 종목일수록 넓음)와 애널리스트 EPS 추정치의 저~평균 범위를 함께 반영하다 보니 생기는 구조적 결과예요(현재 폭 약 +${widthPct.toFixed(0)}%${(epsShare!=null&&perShare!=null)?` · 폭 중 EPS 차이 기여 ${epsShare.toFixed(0)}% · PER 차이 기여 ${perShare.toFixed(0)}%`:''}). ${yearsNote}`;
       } else if(yearsNote){
@@ -6665,6 +6760,7 @@ function renderPriceValidityCard(r){
     <div style="margin-top:4px;padding:13px 15px;border-radius:10px;border:1.5px solid #3c4552;background:#fff;">
       <div style="font-size:11px;color:${NEU_DIM};font-weight:700;">현재 가격 판단</div>
       <div style="margin-top:2px;font-size:16px;font-weight:800;color:${priceColor};">${esc(d.price)}${priceLocLine}${d.usedFallbackModel ? ` <span style="font-size:10px;font-weight:700;color:${NEU_DIM};">(대체 모델 기준)</span>` : ''}</div>
+      ${d.priceAlert ? `<div style="margin-top:6px;font-size:11.5px;font-weight:700;color:#7a3b2e;background:#fdecea;border:1px solid #e9b3a8;border-radius:8px;padding:7px 9px;line-height:1.5;">⚠ ${esc(d.priceAlert)} — ${esc(d.priceAlertNote||'')}</div>` : ''}
 
       <div style="margin-top:8px;font-size:11px;color:${NEU_DIM};font-weight:700;">신뢰도</div>
       <div style="margin-top:2px;font-size:13px;font-weight:800;color:${NEU_TEXT};">${esc(confidence||'보통')}${confidenceCaveat}</div>
@@ -6877,7 +6973,9 @@ function renderPriceValidityCard(r){
     rows += rowHtml(`현재가 요구 NTM PER(${ntmSrcLabel})`, d.ntmSourceOk ? `${d.ntmPer.toFixed(1)}배` : `<span style="color:#7a3b2e;">${esc(d.ntmNote)}</span>`);
     if(d.ntmSourceOk && d.ntmMethod!=='iv_existing' && d.ntmNote) rows += rowHtml('계산 방식', `<span style="font-size:11px;">${esc(d.ntmNote)}</span>`);
     if(num(d.perBandLowVal) && num(d.perBandHighVal)){
-      const basisLabel = d.bandBasis==='ticker' ? `종목 자신의 과거 PER 밴드(${d.perBandYears||'?'}년)` : '전체 통계 폴백 밴드(상장 이력 5년 미만 — 13종목 13년치 20/80백분위 0.64~1.55배 적용)';
+      const basisLabel = d.bandBasis==='ticker5y' ? `종목 자신의 최근 5년 PER 중앙값·25~75백분위 밴드(실제 ${d.perBand5YYears||5}년)` // WO2-02
+        : d.bandBasis==='ticker' ? `종목 자신의 과거 PER 밴드(상장 5년 미만이라 전체 ${d.perBandYears||'?'}년 20/80백분위로 폴백)`
+        : '전체 통계 폴백 밴드(상장 이력 5년 미만 — 13종목 13년치 20/80백분위 0.64~1.55배 적용)';
       rows += rowHtml(basisLabel, `${d.perBandLowVal.toFixed(1)}배 ~ ${d.perBandHighVal.toFixed(1)}배 (평균 ${num(d.avgPe3Y)?d.avgPe3Y.toFixed(1):'—'}배)`);
     } else if(d.blockReason === '과거 PER 이력 없음(산출 가능한 과거 PER 기준 전무)') {
       rows += rowHtml('종목 자신의 과거 PER 밴드', `<span style="color:#7a3b2e;">과거 PER 유효 관측치 전무(상장 이후 손실 지속 또는 데이터 없음)</span>`);

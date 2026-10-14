@@ -39,7 +39,12 @@ const FUNDAMENTALS_DATA = {
     "name": "NVIDIA Corp",
     "theme": "반도체 설계·파운드리",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:00"
+    "_updated_label": "2026-10-14 08:00",
+    "perMedian5Y": 51.8443,
+    "perBand5YLow": 0.7675462876343205,
+    "perBand5YHigh": 1.2107734119276372,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "AAPL": {
     "forwardPE": 35.33932,
@@ -80,7 +85,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Apple Inc",
     "theme": "빅테크·AI SW",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:00"
+    "_updated_label": "2026-10-14 08:00",
+    "perMedian5Y": 27.8553,
+    "perBand5YLow": 0.9111407882880457,
+    "perBand5YHigh": 1.20470431120828,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "GOOGL": {
     "forwardPE": 21.39245,
@@ -118,7 +128,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Alphabet Inc",
     "theme": "빅테크·AI SW",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:00"
+    "_updated_label": "2026-10-14 08:00",
+    "perMedian5Y": 23.7883,
+    "perBand5YLow": 0.9756014511335404,
+    "perBand5YHigh": 1.06256016613209,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "MSFT": {
     "forwardPE": 24.19122,
@@ -159,7 +174,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Microsoft Corp",
     "theme": "빅테크·AI SW",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:00"
+    "_updated_label": "2026-10-14 08:00",
+    "perMedian5Y": 34.9759,
+    "perBand5YLow": 0.75350741510583,
+    "perBand5YHigh": 1.0380033108511861,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "AMZN": {
     "forwardPE": 22.74842,
@@ -196,7 +216,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Amazon.com Inc",
     "theme": "빅테크·AI SW",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:00"
+    "_updated_label": "2026-10-14 08:00",
+    "perMedian5Y": 50.6834,
+    "perBand5YLow": 0.7682219424900462,
+    "perBand5YHigh": 1.018228848104113,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "TSM": {
     "forwardPE": 18.88111,
@@ -235,7 +260,12 @@ const FUNDAMENTALS_DATA = {
     "theme": "반도체 설계·파운드리",
     "marketCapCurrencyNote": "TWD",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:01"
+    "_updated_label": "2026-10-14 08:01",
+    "perMedian5Y": 22.9454,
+    "perBand5YLow": 0.7992713136402068,
+    "perBand5YHigh": 1.0371795654030873,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "AVGO": {
     "forwardPE": 19.00524,
@@ -276,7 +306,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Broadcom Inc",
     "theme": "반도체 설계·파운드리",
     "_fetched_at": 1791934846.2291548,
-    "_updated_label": "2026-10-14 08:40"
+    "_updated_label": "2026-10-14 08:40",
+    "perMedian5Y": 32.2675,
+    "perBand5YLow": 0.7641310916556908,
+    "perBand5YHigh": 2.2943611993491904,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "META": {
     "forwardPE": 22.28369,
@@ -315,7 +350,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Meta Platforms Inc",
     "theme": "빅테크·AI SW",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:00"
+    "_updated_label": "2026-10-14 08:00",
+    "perMedian5Y": 23.7029,
+    "perBand5YLow": 0.9815381240270178,
+    "perBand5YHigh": 1.0026368081542765,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "TSLA": {
     "forwardPE": 174.42851,
@@ -352,7 +392,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Tesla Inc",
     "theme": "빅테크·AI SW",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:00"
+    "_updated_label": "2026-10-14 08:00",
+    "perMedian5Y": 181.8163,
+    "perBand5YLow": 0.2896516978950732,
+    "perBand5YHigh": 1.0566901867434328,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "MU": {
     "forwardPE": 6.52257,
@@ -392,7 +437,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Micron Technology Inc",
     "theme": "메모리·스토리지",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:01"
+    "_updated_label": "2026-10-14 08:01",
+    "perMedian5Y": 14.2117,
+    "perBand5YLow": 0.8961419112421455,
+    "perBand5YHigh": 1.125087076141489,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "AMD": {
     "forwardPE": 46.1861,
@@ -430,7 +480,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Advanced Micro Devices Inc",
     "theme": "반도체 설계·파운드리",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:00"
+    "_updated_label": "2026-10-14 08:00",
+    "perMedian5Y": 80.9739,
+    "perBand5YLow": 0.9770456900309853,
+    "perBand5YHigh": 1.49532874173036,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "INTC": {
     "forwardPE": 63.01586,
@@ -465,7 +520,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Intel Corp",
     "theme": "반도체 설계·파운드리",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:01"
+    "_updated_label": "2026-10-14 08:01",
+    "perMedian5Y": 12.3217,
+    "perBand5YLow": 0.8628841799427026,
+    "perBand5YHigh": 1.1046203040164913,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "AMAT": {
     "forwardPE": 26.12755,
@@ -506,7 +566,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Applied Materials Inc",
     "theme": "반도체 장비",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:01"
+    "_updated_label": "2026-10-14 08:01",
+    "perMedian5Y": 21.2895,
+    "perBand5YLow": 0.7509617417036567,
+    "perBand5YHigh": 1.0049085229808121,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "QQQ": {
     "52WeekHigh": 762.86,
@@ -517,7 +582,12 @@ const FUNDAMENTALS_DATA = {
     "name": null,
     "theme": "지수ETF",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:00"
+    "_updated_label": "2026-10-14 08:00",
+    "perMedian5Y": null,
+    "perBand5YLow": null,
+    "perBand5YHigh": null,
+    "perBand5YYears": 0,
+    "perBand5YSource": "universal"
   },
   "SPY": {
     "52WeekHigh": 781.62,
@@ -528,7 +598,12 @@ const FUNDAMENTALS_DATA = {
     "name": null,
     "theme": "지수ETF",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:00"
+    "_updated_label": "2026-10-14 08:00",
+    "perMedian5Y": null,
+    "perBand5YLow": null,
+    "perBand5YHigh": null,
+    "perBand5YYears": 0,
+    "perBand5YSource": "universal"
   },
   "ORCL": {
     "forwardPE": 16.54095,
@@ -569,7 +644,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Oracle Corp",
     "theme": "빅테크·AI SW",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:00"
+    "_updated_label": "2026-10-14 08:00",
+    "perMedian5Y": 33.6372,
+    "perBand5YLow": 0.9148413066485914,
+    "perBand5YHigh": 1.1160054939174484,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "CRM": {
     "forwardPE": 14.33785,
@@ -608,7 +688,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Salesforce Inc",
     "theme": "빅테크·AI SW",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:00"
+    "_updated_label": "2026-10-14 08:00",
+    "perMedian5Y": 65.787,
+    "perBand5YLow": 0.802112879444267,
+    "perBand5YHigh": 2.41210117500418,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "PLTR": {
     "forwardPE": 86.71009,
@@ -642,7 +727,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Palantir Technologies Inc",
     "theme": "빅테크·AI SW",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:00"
+    "_updated_label": "2026-10-14 08:00",
+    "perMedian5Y": 260.7062,
+    "perBand5YLow": 0.8414982075608481,
+    "perBand5YHigh": 1.2145921347478503,
+    "perBand5YYears": 3,
+    "perBand5YSource": "ticker"
   },
   "QCOM": {
     "forwardPE": 19.66442,
@@ -683,7 +773,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Qualcomm Inc",
     "theme": "반도체 설계·파운드리",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:00"
+    "_updated_label": "2026-10-14 08:00",
+    "perMedian5Y": 17.0409,
+    "perBand5YLow": 0.9770552024834368,
+    "perBand5YHigh": 1.0951064791178868,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "ARM": {
     "forwardPE": 127.1888,
@@ -718,7 +813,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Arm Holdings PLC",
     "theme": "반도체 설계·파운드리",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:01"
+    "_updated_label": "2026-10-14 08:01",
+    "perMedian5Y": 177.7205,
+    "perBand5YLow": 0.9007863471012068,
+    "perBand5YHigh": 1.6995872732746082,
+    "perBand5YYears": 3,
+    "perBand5YSource": "ticker"
   },
   "MRVL": {
     "forwardPE": 44.98982,
@@ -756,7 +856,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Marvell Technology Inc",
     "theme": "반도체 설계·파운드리",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:01"
+    "_updated_label": "2026-10-14 08:01",
+    "perMedian5Y": 20.3285,
+    "perBand5YLow": 0.8893769830533488,
+    "perBand5YHigh": 1.2646973460904642,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "ASML": {
     "forwardPE": 30.59394,
@@ -795,7 +900,12 @@ const FUNDAMENTALS_DATA = {
     "theme": "반도체 장비",
     "marketCapCurrencyNote": "EUR",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:01"
+    "_updated_label": "2026-10-14 08:01",
+    "perMedian5Y": 33.6142,
+    "perBand5YLow": 0.9692629900458737,
+    "perBand5YHigh": 1.0218836087129846,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "LRCX": {
     "forwardPE": 31.43094,
@@ -836,7 +946,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Lam Research Corp",
     "theme": "반도체 장비",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:01"
+    "_updated_label": "2026-10-14 08:01",
+    "perMedian5Y": 23.0486,
+    "perBand5YLow": 0.7953021007783553,
+    "perBand5YHigh": 1.5673793636055986,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "KLAC": {
     "forwardPE": 32.665,
@@ -877,7 +992,12 @@ const FUNDAMENTALS_DATA = {
     "name": "KLA Corp",
     "theme": "반도체 장비",
     "_fetched_at": 1791934846.2291548,
-    "_updated_label": "2026-10-14 08:40"
+    "_updated_label": "2026-10-14 08:40",
+    "perMedian5Y": 29.164,
+    "perBand5YLow": 0.6736147304896447,
+    "perBand5YHigh": 1.3836922232889863,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "SNDK": {
     "forwardPE": 8.43042,
@@ -908,7 +1028,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Sandisk Corp",
     "theme": "메모리·스토리지",
     "_fetched_at": 1791934846.2291548,
-    "_updated_label": "2026-10-14 08:40"
+    "_updated_label": "2026-10-14 08:40",
+    "perMedian5Y": null,
+    "perBand5YLow": null,
+    "perBand5YHigh": null,
+    "perBand5YYears": 1,
+    "perBand5YSource": "universal"
   },
   "WDC": {
     "forwardPE": 19.8764,
@@ -948,7 +1073,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Western Digital Corp",
     "theme": "메모리·스토리지",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:01"
+    "_updated_label": "2026-10-14 08:01",
+    "perMedian5Y": 21.1206,
+    "perBand5YLow": 0.5534407166463075,
+    "perBand5YHigh": 1.24083596109959,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "ANET": {
     "forwardPE": 51.28125316130638,
@@ -985,7 +1115,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Arista Networks Inc",
     "theme": "AI 네트워킹·광통신",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:01"
+    "_updated_label": "2026-10-14 08:01",
+    "perMedian5Y": 46.991,
+    "perBand5YLow": 0.7469749526505076,
+    "perBand5YHigh": 1.0389521397714456,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "COHR": {
     "forwardPE": 30.510182754956578,
@@ -1023,7 +1158,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Coherent Corp",
     "theme": "AI 네트워킹·광통신",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:01"
+    "_updated_label": "2026-10-14 08:01",
+    "perMedian5Y": 30.9597,
+    "perBand5YLow": 0.7461409509782071,
+    "perBand5YHigh": 3.0965545531771945,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "LITE": {
     "forwardPE": 39.13663,
@@ -1056,7 +1196,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Lumentum Holdings Inc",
     "theme": "AI 네트워킹·광통신",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:01"
+    "_updated_label": "2026-10-14 08:01",
+    "perMedian5Y": 26.9964,
+    "perBand5YLow": 0.5924419552236594,
+    "perBand5YHigh": 1.6097924167666797,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "GEV": {
     "forwardPE": 37.44093,
@@ -1091,7 +1236,12 @@ const FUNDAMENTALS_DATA = {
     "name": "GE Vernova Inc",
     "theme": "AI 전력·인프라",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:01"
+    "_updated_label": "2026-10-14 08:01",
+    "perMedian5Y": null,
+    "perBand5YLow": null,
+    "perBand5YHigh": null,
+    "perBand5YYears": 2,
+    "perBand5YSource": "universal"
   },
   "CEG": {
     "forwardPE": 20.24048,
@@ -1128,7 +1278,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Constellation Energy Corp",
     "theme": "AI 전력·인프라",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:01"
+    "_updated_label": "2026-10-14 08:01",
+    "perMedian5Y": 23.0022,
+    "perBand5YLow": 0.9056872820860613,
+    "perBand5YHigh": 1.5341054333933277,
+    "perBand5YYears": 3,
+    "perBand5YSource": "ticker"
   },
   "VST": {
     "forwardPE": 13.81744,
@@ -1168,7 +1323,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Vistra Corp",
     "theme": "AI 전력·인프라",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:01"
+    "_updated_label": "2026-10-14 08:01",
+    "perMedian5Y": 15.1254,
+    "perBand5YLow": 0.7987954037579171,
+    "perBand5YHigh": 1.1663030399196053,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "ETN": {
     "forwardPE": 28.83915,
@@ -1209,7 +1369,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Eaton Corporation PLC",
     "theme": "AI 전력·인프라",
     "_fetched_at": 1791934846.2291548,
-    "_updated_label": "2026-10-14 08:41"
+    "_updated_label": "2026-10-14 08:41",
+    "perMedian5Y": 30.2616,
+    "perBand5YLow": 0.987446136357628,
+    "perBand5YHigh": 1.0617316995796653,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "PWR": {
     "forwardPE": 34.1722,
@@ -1250,7 +1415,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Quanta Services Inc",
     "theme": "AI 전력·인프라",
     "_fetched_at": 1791934846.2291548,
-    "_updated_label": "2026-10-14 08:41"
+    "_updated_label": "2026-10-14 08:41",
+    "perMedian5Y": 42.1014,
+    "perBand5YLow": 0.984703596554984,
+    "perBand5YHigh": 1.2246599875538582,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "HUBB": {
     "forwardPE": 20.73801,
@@ -1290,7 +1460,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Hubbell Inc",
     "theme": "AI 전력·인프라",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:02"
+    "_updated_label": "2026-10-14 08:02",
+    "perMedian5Y": 26.6059,
+    "perBand5YLow": 0.882262956712609,
+    "perBand5YHigh": 1.0661544995658858,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "VRT": {
     "forwardPE": 28.30812,
@@ -1329,7 +1504,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Vertiv Holdings Co",
     "theme": "AI 전력·인프라",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:02"
+    "_updated_label": "2026-10-14 08:02",
+    "perMedian5Y": 67.2828,
+    "perBand5YLow": 0.690750087689573,
+    "perBand5YHigh": 1.1657199165314167,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "MOD": {
     "forwardPE": 22.9352735998647,
@@ -1365,7 +1545,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Modine Manufacturing Co",
     "theme": "AI 전력·인프라",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:02"
+    "_updated_label": "2026-10-14 08:02",
+    "perMedian5Y": 21.8571,
+    "perBand5YLow": 0.35887194550054674,
+    "perBand5YHigh": 1.3889354031413135,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "STX": {
     "forwardPE": 22.4542,
@@ -1405,7 +1590,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Seagate Technology Holdings PLC",
     "theme": "메모리·스토리지",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:02"
+    "_updated_label": "2026-10-14 08:02",
+    "perMedian5Y": 20.433,
+    "perBand5YLow": 0.7418832281113884,
+    "perBand5YHigh": 2.8267361620907354,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "EME": {
     "forwardPE": 21.04336,
@@ -1445,7 +1635,12 @@ const FUNDAMENTALS_DATA = {
     "name": "EMCOR Group Inc",
     "theme": "AI 전력·인프라",
     "_fetched_at": 1791934846.2291548,
-    "_updated_label": "2026-10-14 08:41"
+    "_updated_label": "2026-10-14 08:41",
+    "perMedian5Y": 17.7283,
+    "perBand5YLow": 0.9803308833898343,
+    "perBand5YHigh": 1.1694409503449286,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "FIX": {
     "forwardPE": 28.51361,
@@ -1485,7 +1680,12 @@ const FUNDAMENTALS_DATA = {
     "name": "Comfort Systems USA Inc",
     "theme": "AI 전력·인프라",
     "_fetched_at": 1791934846.2291548,
-    "_updated_label": "2026-10-14 08:41"
+    "_updated_label": "2026-10-14 08:41",
+    "perMedian5Y": 24.876,
+    "perBand5YLow": 0.9130648014150184,
+    "perBand5YHigh": 1.1613844669561022,
+    "perBand5YYears": 5,
+    "perBand5YSource": "ticker"
   },
   "BE": {
     "forwardPE": 96.90032027942523,
@@ -1517,6 +1717,11 @@ const FUNDAMENTALS_DATA = {
     "name": "Bloom Energy Corp",
     "theme": "AI 전력·인프라",
     "_fetched_at": 1791932401.878414,
-    "_updated_label": "2026-10-14 08:02"
+    "_updated_label": "2026-10-14 08:02",
+    "perMedian5Y": null,
+    "perBand5YLow": null,
+    "perBand5YHigh": null,
+    "perBand5YYears": 0,
+    "perBand5YSource": "universal"
   }
 };
