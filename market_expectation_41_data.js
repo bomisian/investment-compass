@@ -1,9 +1,9 @@
-// 읽기 전용 · 142 기대충족 판정 엔진 스냅샷 (01 판단 탭 카드용) · 매수/매도 신호 아님
+// 읽기 전용 · 기대충족 판정 엔진 스냅샷 (01 판단 탭 카드용) · 매수/매도 신호 아님
 // 생성: build_dashboard_data.py · 소스: DAILY_MARKET_BRIEF_<TICKER>_v*_20261007.md
 const MARKET_EXPECTATION_41 = {
   "_meta": {
     "generated_at": "2026-10-07",
-    "description": "읽기 전용 · 142 기대충족 판정 엔진 스냅샷 (대시보드 01 판단 탭 카드용). 매수/매도 신호 아님.",
+    "description": "읽기 전용 · 기대충족 판정 엔진 스냅샷 (대시보드 01 판단 탭 카드용). 매수/매도 신호 아님.",
     "engine_md5_142": "81fbb72f38326575636ab15f52bbaf23",
     "composite_display_rule": "기본 화면에 composite 숫자 비표시(내부참고용 composite_internal_ref만 보관)"
   },
@@ -83,7 +83,7 @@ const MARKET_EXPECTATION_41 = {
       ],
       "next_change_condition": [
         "중국 매출비중 하락의 원인이 공식 공시(A급)로 확인될 경우(수출통제 vs 다른 요인)",
-        "목표가 스냅샷 경과일이 14일을 넘기면 STALE_CONSENSUS_WARNING 적용 검토",
+        "목표가 스냅샷 경과일이 14일을 넘기면 컨센서스 최신성 경고 적용 검토",
         "다음 공시에서 매출 YoY 성장률이 둔화되는 경우 → 라벨 재검토",
         "EPS 수정추세·목표가 상향/하향 비율 확보 시 → 결론 보강"
       ],
@@ -1245,7 +1245,7 @@ const MARKET_EXPECTATION_41 = {
         "다음 10-Q/8-K에서 매출 YoY 성장률이 70% 이하로 확인 → 기대 라벨 하향 검토",
         "수출규제 강화가 A/B급 공식근거로 확인 → 구조위험 재평가",
         "EPS 컨센서스 수정 추세(상향/하향 비율)를 확보하면 → 가격위치-기대방향 관계를 설명하는 근거로 추가",
-        "2차 목표가 제공자 확보 시 → CONSENSUS_SOURCE_CONCENTRATION_WARNING 해제 검토"
+        "2차 목표가 제공자 확보 시 → 목표가 출처 집중 경고 해제 검토"
       ],
       "source_file": "DAILY_MARKET_BRIEF_NVDA_v4_20261007.md",
       "primary_etf": "SMH",
