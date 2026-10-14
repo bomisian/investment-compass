@@ -5505,6 +5505,61 @@ function pvEpsOneTimeFlag(t){
   return log[0].epsOneTimeDistortion === true;
 }
 
+// WO3-02(수정지시서#03) -- 기준 PER 후보 합의. 과거 PER(Finnhub 연간 "트레일링" PER)을
+// NTM(선행) EPS에 곱하면, 이익이 빠르게 늘거나 줄어든 종목은 트레일링 PER이 구조적으로
+// 선행 PER과 크게 달라 기준가가 비현실적으로 나온다(실측: NVDA 기준가/현재가 2.6배, MU 10배).
+// 그래서 서로 독립적인 기준 후보 3개 -- (1) 3년 평균 PER (2) 최근 5년 PER 중앙값
+// (3) 동종업계 선행 PER 중앙값 × 성장률 보정 -- 를 놓고, 후보끼리 2.5배 이내로 합의하면
+// 그 중앙값을 기준 PER로 쓰고, 합의하지 못하면(경기순환 정점·초고성장·턴어라운드 등)
+// PER 밴드 방식 자체를 쓰지 않고 기존 대체(PEG) 모델로 넘긴다. 가격을 기준으로 클램프하지 않는다.
+const PV_PEER_GROUP = { SMH:'semi', XLK:'tech', XLC:'tech', XLY:'tech', IGV:'tech', IDRV:'tech', XLI:'ind', XLU:'power', ICLN:'power' };
+const PV_ANCHOR_AGREE_MAX = 2.5;
+const _pvPeerAnchorCache = {};
+function pvPeerForwardAnchor(t){
+  if(_pvPeerAnchorCache[t] !== undefined) return _pvPeerAnchorCache[t];
+  const isNum = v => typeof v === 'number' && isFinite(v);
+  const FD = (typeof FUNDAMENTALS_DATA!=='undefined') ? FUNDAMENTALS_DATA : {};
+  const grp = PV_PEER_GROUP[(typeof SECTOR_ETF_BY_TICKER!=='undefined' ? SECTOR_ETF_BY_TICKER : {})[t]];
+  let res = null;
+  if(grp){
+    const pes = [], gs = [];
+    for(const k of Object.keys(SECTOR_ETF_BY_TICKER)){
+      if(k===t || PV_PEER_GROUP[SECTOR_ETF_BY_TICKER[k]]!==grp) continue;
+      const pe = FD[k] && FD[k].forwardPE;
+      if(isNum(pe) && pe>0 && pe<150) pes.push(pe);
+      const g = pvGrowthSignals(k).g1; if(isNum(g)) gs.push(g);
+    }
+    if(pes.length>=3){
+      const q = (arr,p)=>{ const a=[...arr].sort((x,y)=>x-y); const i=p*(a.length-1), lo=Math.floor(i), hi=Math.min(lo+1,a.length-1); return a[lo]+(a[hi]-a[lo])*(i-lo); };
+      const med = q(pes,0.5), gmed = gs.length ? q(gs,0.5) : 0;
+      const gSelf = pvGrowthSignals(t).g1;
+      const gi = isNum(gSelf) ? gSelf : gmed;
+      const adj = Math.max(0.7, Math.min(1.4, (1+gi)/(1+gmed)));
+      res = { anchor: med*adj, low: q(pes,0.25)*adj, high: q(pes,0.75)*adj, n: pes.length, adj, group: grp };
+    }
+  }
+  _pvPeerAnchorCache[t] = res;
+  return res;
+}
+function pvAnchorConsensus(fund, peer, ntmPer){
+  const isNum = v => typeof v === 'number' && isFinite(v) && v>0;
+  // 과거 PER은 "트레일링" 기준이라 NTM EPS에 곱하기 전에 선행 기준으로 환산한다:
+  // 지금의 (선행 PER ÷ 트레일링 PER) 비율 = 향후 1년 이익 성장분. 같은 비율을 과거 PER에도 적용.
+  let conv = 1;
+  // 재무 통화가 USD가 아니면(ASML EUR·TSM TWD) peTTM 자체가 통화 혼합으로 왜곡될 수 있어 환산하지 않는다(WO-02와 같은 원칙)
+  const fxOk = !(fund && fund.marketCapCurrencyNote && fund.marketCapCurrencyNote!=='USD');
+  if(fxOk && fund && isNum(fund.peTTM) && isNum(ntmPer)) conv = Math.max(0.4, Math.min(1.6, ntmPer/fund.peTTM));
+  const cands = [];
+  if(fund && isNum(fund.avgPe3Y)) cands.push({k:'3년 평균(선행 환산)', v:fund.avgPe3Y*conv, raw:fund.avgPe3Y});
+  if(fund && fund.perBand5YSource==='ticker' && isNum(fund.perMedian5Y)) cands.push({k:'5년 중앙값(선행 환산)', v:fund.perMedian5Y*conv, raw:fund.perMedian5Y});
+  if(peer && isNum(peer.anchor)) cands.push({k:'동종업계 선행', v:peer.anchor});
+  if(cands.length<2) return {ok:false, cands, ratio:null, anchor:null, reason:'기준 PER 후보 2개 미만'};
+  const vals = cands.map(c=>c.v).sort((a,b)=>a-b);
+  const ratio = vals[vals.length-1]/vals[0];
+  const anchor = vals.length%2 ? vals[(vals.length-1)/2] : (vals[vals.length/2-1]+vals[vals.length/2])/2;
+  const ok = ratio <= PV_ANCHOR_AGREE_MAX;
+  return {ok, cands, ratio, anchor, conv, reason: ok ? null : `기준 PER 후보 불일치(${cands.map(c=>c.k+' '+c.v.toFixed(1)+'배').join(' / ')}, 최대/최소 ${ratio.toFixed(1)}배)`};
+}
 function computePriceValidity(r){
   const t = r.ticker;
   const fund = (typeof FUNDAMENTALS_DATA!=='undefined') ? FUNDAMENTALS_DATA[t] : null;
@@ -5581,6 +5636,23 @@ function computePriceValidity(r){
     perBandHighVal = fund.avgPe3Y*PE_BAND_HIGH;
     baseAnchorPeVal = fund.avgPe3Y;
     bandBasis = 'universal';
+  }
+  // WO3-02 -- 기준 PER 후보 합의 적용(위 선택 결과의 "밴드 폭 비율"은 유지하고 중심만 교체)
+  let peerAnchor = null; try{ peerAnchor = pvPeerForwardAnchor(t); }catch(e){ peerAnchor = null; }
+  const anchorCons = pvAnchorConsensus(fund, peerAnchor, ntmSourceOk ? ntmPer : null);
+  let anchorConflict = false;
+  if(baseAnchorPeVal!=null && perBandLowVal!=null && perBandHighVal!=null){
+    if(anchorCons.ok){
+      // 밴드 폭은 실제 분산을 반영하는 전체 기간 20/80백분위 비율을 우선(5년 25~75는 너무 좁아 오경보 다발)
+      const lowR = hasTickerBand ? fund.perBandLow : perBandLowVal/baseAnchorPeVal;
+      const highR = hasTickerBand ? fund.perBandHigh : perBandHighVal/baseAnchorPeVal;
+      baseAnchorPeVal = anchorCons.anchor;
+      perBandLowVal = anchorCons.anchor*lowR;
+      perBandHighVal = anchorCons.anchor*highR;
+      bandBasis = bandBasis + '+consensus';
+    } else if(anchorCons.cands.length>=2){
+      anchorConflict = true;
+    }
   }
   const bandEligible = ntmSourceOk && perBandLowVal!=null && perBandHighVal!=null;
 
@@ -5697,7 +5769,7 @@ function computePriceValidity(r){
   const growthWeak = (typeof growthSig.g2==='number') && growthSig.g2 < 0.05;
   const hasAnyNegative = epsNegative || growthWeak || cfVeto;
   const allPositive = epsPositive && !cfVeto && business !== '약화';
-  const usedFallbackModel = !bandEligible || distorted;
+  const usedFallbackModel = !bandEligible || distorted || anchorConflict; // WO3-02: 기준 PER 후보 불일치도 대체 모델로
   let price;
   let pvBandVetoLabel = null; // WO-04
   let priceHold = null; // WO-05 -- 거부권 사유(가격 라벨과 분리)
@@ -5891,20 +5963,22 @@ function computePriceValidity(r){
   // 있어 NVDA·AMZN·LRCX·KLAC·LITE·VST·MOD처럼 새 보수가 기준으로는 이미 이탈했는데도
   // 경보가 안 뜨는 공백이 있었다(실측으로 확인). 이제 화면에 실제로 노출되는 새 보수가·
   // 상방가(conservative/upside) 기준으로 판정한다.
-  if(bandTable && typeof r.price==='number' && bandTable.conservative.price>0 && bandTable.upside.price>0){
-    if(r.price < bandTable.conservative.price*0.8){
+  // WO3-02: 대체(PEG) 모델 종목은 PER 밴드 표를 쓰지 않으므로 경보 판정에서도 제외. 밴드 끝 ±20% 규칙은
+  //   밴드가 좁을 때 오경보가 많아(실측 20종목) 끝값 규칙은 하단 0.7·상단 1.3배로 완화하고, 주 판정은 아래 기준가/현재가 규칙.
+  if(!usedFallbackModel && bandTable && typeof r.price==='number' && bandTable.conservative.price>0 && bandTable.upside.price>0){
+    if(r.price < bandTable.conservative.price*0.7){
       priceAlert = '모델 불신 경보';
-      priceAlertNote = `현재가가 보수가 $${bandTable.conservative.price.toFixed(2)}의 80% 밑입니다 — 시장이 이 EPS 추정을 믿지 않는다는 뜻일 수 있어, 가격 라벨과 무관하게 신용·가이던스·회계를 직접 점검하는 것을 권합니다.`;
-    } else if(r.price > bandTable.upside.price*1.2){
+      priceAlertNote = `현재가가 보수가 $${bandTable.conservative.price.toFixed(2)}의 70% 밑입니다 — 시장이 이 EPS 추정을 믿지 않는다는 뜻일 수 있어, 가격 라벨과 무관하게 신용·가이던스·회계를 직접 점검하는 것을 권합니다.`;
+    } else if(r.price > bandTable.upside.price*1.3){
       priceAlert = '모델 불신 경보';
-      priceAlertNote = `현재가가 상방 모델가($${bandTable.upside.price.toFixed(2)})의 120% 위입니다 — 시장이 이 EPS 추정보다 훨씬 낙관적인 기대를 반영하고 있다는 뜻일 수 있습니다.`;
+      priceAlertNote = `현재가가 상방 모델가($${bandTable.upside.price.toFixed(2)})의 130% 위입니다 — 시장이 이 EPS 추정보다 훨씬 낙관적인 기대를 반영하고 있다는 뜻일 수 있습니다.`;
     }
   }
   // WO2-02 item3(수정지시서#02) 안전장치 -- 5년 중앙값으로 바꿔도 PER 밴드 자체가(예: 과거
   // 5년이 전부 비정상적으로 높았던 종목) 비현실적인 기준가를 낼 수 있다. 기준가 ÷ 현재가가
   // 1.8배를 넘거나 0.55배 미만이면 "기준가가 맞다"고 전제하는 매수 구간을 보여주는 대신
   // 바로 경보로 돌린다(위 조건에서 이미 안 걸렸을 때만 추가로 체크).
-  if(!priceAlert && bandTable && typeof r.price==='number' && r.price>0 && bandTable.base.price>0){
+  if(!priceAlert && !usedFallbackModel && bandTable && typeof r.price==='number' && r.price>0 && bandTable.base.price>0){
     const baseToPrice = bandTable.base.price / r.price;
     if(baseToPrice > 1.8){
       priceAlert = '모델 불신 경보';
@@ -5925,6 +5999,7 @@ function computePriceValidity(r){
     ticker: t, price, currentPrice: (typeof r.price==='number' ? r.price : null), priceHoldReason, highRiskCombo, gaapBasisOnly, epsOneTimeFlag, business, cashflow, chart,
     ntmPer, ntmEps, ntmSourceOk, ntmNote, ntmMethod, distortionRatio, distorted, bandEligible, blockReason, bandBasis,
     perBandLowVal, perBandHighVal, avgPe3Y: fund ? fund.avgPe3Y : null, perBandYears: fund ? fund.perBandYears : null,
+    anchorCands: anchorCons.cands, anchorRatio: anchorCons.ratio, anchorConflict, anchorConflictReason: anchorCons.reason, peerAnchor,
     baseAnchorPe: baseAnchorPeVal, perBand5YYears: fund ? fund.perBand5YYears : null, // WO2-02 -- 실제 사용된 기준 PER·산출 기간 노출
     cfVeto, cfVetoCount, cfDetail, fcfWorsen2y, debtHigh, dilution,
     epsDamaged, epsDirection: eps ? eps.direction : null,
@@ -6325,7 +6400,7 @@ function pvPositionLine(d, r, num){
   const seg = pvPositionSegment(d, r, num);
   if(!seg) return null;
   const price = r.price;
-  const basisTxt = d.bandBasis==='ticker5y' ? '최근 5년 중앙값 PER' : '과거 평균 PER'; // WO2-02 -- "3년 평균"은 더 이상 실제와 안 맞음
+  const basisTxt = (d.bandBasis||'').indexOf('consensus')>0 ? '기준 PER(3개 후보 중앙값)' : (d.bandBasis==='ticker5y' ? '최근 5년 중앙값 PER' : '과거 평균 PER'); // WO2-02 -- "3년 평균"은 더 이상 실제와 안 맞음
   return `현재가 ${price.toFixed(2)}는 모델 기준 가격대의 <b>${seg.posLabel}</b>(<b>${seg.actionBand}</b>)에 있으며, 기준값(${basisTxt} 적용) 대비 <b>${seg.pct>=0?'+':''}${seg.pct.toFixed(1)}%</b>입니다.`;
 }
 
@@ -6611,15 +6686,17 @@ function pvDecisionInfo(d, r, act, num){
       // WO2-02(수정지시서#02) -- 밴드 기간을 5년으로 통일했으므로(ticker5y), 더 이상 "3년"과
       // 다른 실제 기간을 매번 설명할 필요가 없다. 폴백(ticker/universal)일 때만 과거처럼
       // 실제 기간을 안내한다.
-      const yearsNote = (d.bandBasis==='ticker5y') ? `PER 밴드 산출 기간: 최근 5년 중앙값·25~75백분위(실제 ${d.perBand5YYears||5}년 관측)`
+      const anchorNote = (d.anchorCands && d.anchorCands.length) ? `기준 PER: ${d.anchorCands.map(c=>c.k+' '+c.v.toFixed(1)+'배').join(' · ')} → ${d.anchorConflict ? '후보 불일치로 PER 밴드 미사용(성장 대비 PEG 판단)' : '중앙값 '+(d.baseAnchorPe!=null?d.baseAnchorPe.toFixed(1):'—')+'배 사용'}` : '';
+      const yearsNote = (d.bandBasis && d.bandBasis.indexOf('ticker5y')===0) ? `PER 밴드 산출 기간: 최근 5년 중앙값·25~75백분위(실제 ${d.perBand5YYears||5}년 관측)`
         : (d.perBandYears!=null) ? `PER 밴드 산출 기간 실제 ${d.perBandYears}년(상장 5년 미만이라 전체 기간 폴백 — 5년 통일 기준 미적용)` : '';
       if(widthPct >= 40){
         out.buyZoneWidthNote = `※ 구간이 넓어 보일 수 있어요 — 계산 오류가 아니라, 과거 PER 20~80백분위 밴드(변동성이 큰 종목일수록 넓음)와 애널리스트 EPS 추정치의 저~평균 범위를 함께 반영하다 보니 생기는 구조적 결과예요(현재 폭 약 +${widthPct.toFixed(0)}%${(epsShare!=null&&perShare!=null)?` · 폭 중 EPS 차이 기여 ${epsShare.toFixed(0)}% · PER 차이 기여 ${perShare.toFixed(0)}%`:''}). ${yearsNote}`;
       } else if(yearsNote){
-        out.buyZoneWidthNote = `※ ${yearsNote}`;
+        out.buyZoneWidthNote = `※ ${[anchorNote, yearsNote].filter(Boolean).join(' · ')}`;
       }
     }
   } else if(d.usedFallbackModel){
+    if(d.anchorConflict && d.anchorConflictReason) out.buyZoneWidthNote = `※ ${d.anchorConflictReason} — 과거 PER 밴드 대신 성장 대비(PEG) 기준으로 판단합니다.`;
     const ed = (typeof ESTIMATES_DATA!=='undefined') ? ESTIMATES_DATA[r.ticker] : null;
     if(ed && typeof ed.targetMean==='number' && num(r.price) && r.price>0){
       const dist = (ed.targetMean/r.price - 1)*100;
@@ -6677,6 +6754,8 @@ const SECTOR_ETF_BY_TICKER = {
   GEV:'ICLN', BE:'ICLN'
 };
 function pvCauseDecomposition(ticker, ddPct){
+  // WO3-01: 페이지 전역에 num 헬퍼가 없음(다른 함수들처럼 지역 정의)
+  const num = v => typeof v === 'number' && isFinite(v);
   if(!num(ddPct) || ddPct >= 0) return null;   // 하락 중일 때만 의미 있음(지어내지 않음)
   const etf = SECTOR_ETF_BY_TICKER[ticker];
   if(!etf) return null;
@@ -7144,7 +7223,7 @@ function renderPriceValidityCard(r){
     rows += rowHtml(`현재가 요구 NTM PER(${ntmSrcLabel})`, d.ntmSourceOk ? `${d.ntmPer.toFixed(1)}배` : `<span style="color:#7a3b2e;">${esc(d.ntmNote)}</span>`);
     if(d.ntmSourceOk && d.ntmMethod!=='iv_existing' && d.ntmNote) rows += rowHtml('계산 방식', `<span style="font-size:11px;">${esc(d.ntmNote)}</span>`);
     if(num(d.perBandLowVal) && num(d.perBandHighVal)){
-      const basisLabel = d.bandBasis==='ticker5y' ? `종목 자신의 최근 5년 PER 중앙값·25~75백분위 밴드(실제 ${d.perBand5YYears||5}년)` // WO2-02
+      const basisLabel = (d.bandBasis||'').indexOf('consensus')>0 ? `기준 PER 3개 후보(3년 평균·5년 중앙값·동종업계 선행) 중앙값 ${d.baseAnchorPe!=null?d.baseAnchorPe.toFixed(1):'—'}배 + 밴드 폭 비율` : (d.bandBasis||'').indexOf('ticker5y')===0 ? `종목 자신의 최근 5년 PER 중앙값·25~75백분위 밴드(실제 ${d.perBand5YYears||5}년)` // WO2-02
         : d.bandBasis==='ticker' ? `종목 자신의 과거 PER 밴드(상장 5년 미만이라 전체 ${d.perBandYears||'?'}년 20/80백분위로 폴백)`
         : '전체 통계 폴백 밴드(상장 이력 5년 미만 — 13종목 13년치 20/80백분위 0.64~1.55배 적용)';
       rows += rowHtml(basisLabel, `${d.perBandLowVal.toFixed(1)}배 ~ ${d.perBandHighVal.toFixed(1)}배 (평균 ${num(d.avgPe3Y)?d.avgPe3Y.toFixed(1):'—'}배)`);
@@ -8068,7 +8147,7 @@ function renderMarketPositionCard(r){
 
   return `${headHtml}
     ${summaryLine}
-    <details style="margin-top:4px;"><summary style="cursor:pointer;font-weight:600;font-size:11.5px;color:var(--sub);">상세 보기 (컨센서스 수치·142 연계·커버리지)</summary>
+    <details style="margin-top:4px;"><summary style="cursor:pointer;font-weight:600;font-size:11.5px;color:var(--sub);">상세 보기 (컨센서스 수치·기대 판정 연계·커버리지)</summary>
     ${bodyCard}
     ${footNote}
     </details>`;
@@ -11312,7 +11391,7 @@ function decisionStatusBadgeHtml(r){
 // ============ 모아가기 점검 (2026-09-30 신규, 사용자 요청: 장기 매수 판단은 악재 확인이 먼저) ============
 // 왜 만들었나: '큰 폭 조정' 점수는 가격만 봐서 EPS 하향·매출 하락 같은 악재로 빠진 종목(falling knife)도 똑같이 높게 나온다.
 // 원칙: 이 점검은 '사라는 신호'가 아니라 '악재가 있는지 먼저 확인하는 브레이크'다.
-//  - 2016~2025 S&P500 검증(102·104·106번)에서 낙폭 점수·이익 변화·가치 조합 어느 것도 12개월 성적을 안정적으로 가르지 못했고,
+//  - 2016~2025 S&P500 백테스트 검증에서 낙폭 점수·이익 변화·가치 조합 어느 것도 12개월 성적을 안정적으로 가르지 못했고,
 //    '4점일 때만 사기'는 매달 똑같이 적립하는 것보다 나은 증거가 없었다 -> 그래서 점수를 더 얹지 않고 항목별 상태만 보여준다.
 //  - 새 예측 모델이 아니라 이미 화면에 있는 값(이익 전망·실적 방향·현금흐름·시장 기준가)을 한곳에 모아 상태만 판정한다.
 const ACC_STYLE = {ok:{i:'✅', c:'#1a7f5a'}, mid:{i:'🟡', c:'#876000'}, bad:{i:'🔴', c:'#b3261e'}, na:{i:'⚪', c:'#8a8f96'}};
@@ -11370,7 +11449,7 @@ function accumulationCardHtml(r){
   return `<div style="margin-top:8px;padding:8px 10px;background:var(--panel-2);border-radius:8px;color:var(--text,#333);font-weight:400;">
     <div style="font-weight:700;margin-bottom:4px;">🧭 모아가기 점검 <span style="color:${st.c};">${st.i} ${esc(a.status)}</span> <span class="sub" style="font-weight:400;">(악재 확인용 · 매수 신호 아님)</span></div>
     ${rows}
-    <div class="sub" style="font-size:10.5px;margin-top:6px;">가격이 많이 빠진 종목 중에는 이익 전망 하향·매출 감소처럼 <b>빠질 이유가 있는 종목</b>이 섞여 있어서, 낙폭 점수 옆에서 악재부터 확인하도록 모았어요. 다만 2016~2025 S&P500 검증(102·104·106번)에서는 낙폭 점수·이익 변화·가치 조합 어느 것도 12개월 성적을 안정적으로 가르지 못했고, '점수 높을 때만 사기'가 매달 똑같이 적립하는 것보다 나았다는 증거도 없었어요. 그래서 <b>기본은 적립식 유지, 🔴가 있으면 추가 매수 전에 원인 확인</b>이라는 브레이크로만 써요.</div>
+    <div class="sub" style="font-size:10.5px;margin-top:6px;">가격이 많이 빠진 종목 중에는 이익 전망 하향·매출 감소처럼 <b>빠질 이유가 있는 종목</b>이 섞여 있어서, 낙폭 점수 옆에서 악재부터 확인하도록 모았어요. 다만 2016~2025 S&P500 백테스트 검증에서는 낙폭 점수·이익 변화·가치 조합 어느 것도 12개월 성적을 안정적으로 가르지 못했고, '점수 높을 때만 사기'가 매달 똑같이 적립하는 것보다 나았다는 증거도 없었어요. 그래서 <b>기본은 적립식 유지, 🔴가 있으면 추가 매수 전에 원인 확인</b>이라는 브레이크로만 써요.</div>
   </div>`;
 }
 function verdictCautionBadge(r){

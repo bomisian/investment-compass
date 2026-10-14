@@ -2,7 +2,7 @@
 // 하락 원인 진단 카드 데이터 (v3.1) — 읽기 전용, 자동매매/텔레그램/매수매도신호 연결 없음
 // 생성: 2026-10-08T00:00:00
 // 출처: DOWNTURN_CAUSE_CARD_DECLARATION_v3_1_20261008.md, DOWNTURN_CAUSE_CARD_PILOT_v3_1_20261008.md (수동 반영, 자동 생성 아님)
-// ORCL 정정: 2026-10-08 Oracle 공식 FY2026 실적발표 + Q1 FY2027 8-K(Exhibit 99.1)로 "$40B 전액 신규 부채" 표현을 NARROW_CLAIM_CORRECTION으로 정정.
+// ORCL 정정: 2026-10-08 Oracle 공식 FY2026 실적발표 + Q1 FY2027 8-K(Exhibit 99.1)로 "$40B 전액 신규 부채" 표현을 표현 정정으로 정정.
 //   재무 부담 우려 자체는 유효한 별도 사실로 유지. 기존 SOURCE_CORRECTION_CASE(일반 하락 원인을 무효화하는 태그) 용도로는 더 이상 쓰지 않음.
 // 주의: 이 데이터에 없는 종목은 '최근 구조화 사건 없음'으로 표시한다. 빈 값·추정값으로 채우지 않는다.
 const DOWNTURN_CAUSE_CARDS_V31 = {
@@ -58,7 +58,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
       "entry_status": "신호 없음(관찰)",
       "entry_note": "RSI 49.7(38 초과), 200일선 대비 -11.6% 하락추세 — 최근 10거래일 RSI 최저 42.7, 38 이하 미도달",
       "next_check": "다음 분기 FCF 추이(CAPEX 대비 OCF), 추가 신용등급 조정 여부, RSI 38 이하 진입 여부 확인되면 재평가",
-      "tag": "NARROW_CLAIM_CORRECTION",
+      "tag": "표현 정정",
       "tag_note": "\"FY2027 중 $40B 전액이 신규 부채\"라는 좁은 표현은 정정(실제는 부채·지분 조합 약 $40B 조달 계획, $20B ATM 지분발행 포함). 다만 이 표현 정정이 CAPEX·FCF·자금조달 부담 자체를 반증하는 것은 아님 — 성장 근거와 자본 부담을 동등하게 표시",
       "sources": [
         "Oracle FY2026 실적발표: https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/",
