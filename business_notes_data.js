@@ -9,6 +9,44 @@ const BUSINESS_NOTES = {
   MARKET: {
     newsLog: [
       {
+        date: "2026-10-14",
+        headline: "9월 CPI 예상보다 뜨겁게 나와(헤드라인 +3.7%·근원 +2.6%) 나스닥 -1.88%·러셀2000 -1.93% 급락 - 10월 Fed 금리인상 우려 재부상, 국채금리·유가 동반 상승",
+        importance: "high",
+        tone: "risk",
+        horizon: "단기(10/15 PPI, 10/27-28 FOMC 확인까지)",
+        facts: [
+          "10/14(수) 발표된 9월 소비자물가지수(CPI)는 전월比 +0.6%, 전년比 +3.7%(컨센서스 +3.6% 상회)로 집계 - 근원CPI(식품·에너지 제외)는 전월比 +0.3%, 전년比 +2.6%로 컨센서스(+2.4%)를 웃돌았다(Axios/CNN).",
+          "휘발유 가격이 전월比 +9.1%(8월 +3.9%)로 급등하며 헤드라인 상승분의 상당 부분을 차지, 항공료는 전월比 +1.2%(전년比 +22%)로 제트유 가격 상승이 반영됐다. 주거비는 전월比 +0.4%(8월 +0.3%)로 소폭 가속(Axios).",
+          "이날 S&P500은 -1.11%(7,718.94, -86.51p), 나스닥종합은 -1.88%(26,692.87, -511.51p), 러셀2000은 -1.93%(2,729.53, -53.84p)로 급락한 반면 다우존스는 -0.09%(51,621.48, -48.62p)로 상대적으로 선방 - 정보기술 섹터가 -3.00%로 낙폭을 주도(TheStreet/ABC News).",
+          "10년물 국채금리는 6bp 이상 상승한 5.278%, 30년물은 5.59%로 마감 - 뜨거운 CPI가 10월 FOMC(10/27-28) 금리인상 가능성을 높였다는 해석이 나오며 CME FedWatch 기준 10월 인상 확률이 22%에서 44%로 상승(Axios/TheStreet).",
+          "CBOE 변동성지수(VIX)는 10% 급등한 16.82를 기록, WTI 원유는 장중 $95대로 상승 - 이란·중동 정세 불안이 유가 상승과 CPI 가속에 동시에 영향을 준 것으로 평가됨(TheStreet).",
+          "AI 데이터센터 관련주가 낙폭 상위권에 다수 포진 - 금리 상승이 AI 인프라 구축 비용 부담을 키운다는 우려가 반영됐고, 뱅크오브아메리카(BAC)는 순이익 둔화와 규제 벌금(12억 달러 이상) 이슈로 프리마켓 -5.53%(ABC News/TheStreet).",
+        ],
+        why: [
+          "9월 CPI는 헤드라인·근원 모두 컨센서스를 상회해, 지난 9월 FOMC에서 25bp 인상을 단행한 Fed가 10월에도 추가 인상에 나설 수 있다는 우려를 다시 키웠다 - 이는 최근 수개월간 이어진 '금리 인하 기대'와 정반대 방향의 재료다.",
+          "금리 상승은 밸류에이션이 높아진 AI·반도체·메모리 관련 성장주에 특히 부담으로 작용한다 - 나스닥(-1.88%)·러셀2000(-1.93%)이 다우(-0.09%)보다 훨씬 크게 하락한 것은 고PER 성장주·중소형주가 금리 민감도가 더 높다는 점을 보여준다.",
+          "휘발유·유가발 인플레이션 가속은 중동 정세 불안과 맞물려 있어, 지정학 리스크가 해소되지 않는 한 물가 지표가 쉽게 안정되기 어려울 수 있다는 해석이 가능하다.",
+        ],
+        beginner: [
+          "오늘 미국 물가 지표(9월 소비자물가지수)가 예상보다 더 많이 올랐다고 나왔어요(1년 전보다 3.7% 상승, 예상은 3.6%였어요). 물가가 예상보다 더 오르면 중앙은행(Fed)이 금리를 더 올릴 수 있다는 걱정이 커져서, 오늘 나스닥(기술주 중심 지수)이 거의 2%나 떨어졌어요.",
+          "금리가 오르면 특히 미래 성장에 대한 기대로 비싸게 거래되는 AI·반도체 관련 주식들이 더 크게 흔들리는 경향이 있어요 - 오늘도 다우존스(전통 대기업 위주)는 조금만 떨어졌는데, 나스닥과 중소형주 지수(러셀2000)는 훨씬 많이 떨어진 이유예요.",
+          "휘발유 가격이 많이 오른 게 이번 물가 상승의 큰 원인 중 하나였어요 - 중동 지역의 긴장(전쟁 관련 불안)으로 기름값이 오른 영향이 물가에도 반영된 것으로 보여요.",
+        ],
+        interpretation: "이번 CPI는 최근 수개월간 시장이 기대했던 '금리 인하 모드'에 제동을 거는 재료다 - 헤드라인과 근원 모두 컨센서스를 웃돌면서 10월 FOMC에서의 추가 인상 가능성이 다시 테이블 위에 올라왔다. 지수 반응에서도 고PER·금리 민감 자산(나스닥·러셀2000·AI 인프라주)이 다우존스 대비 훨씬 크게 흔들린 것은, 밸류에이션 부담이 쌓인 구간에서 금리 재료 하나에도 변동성이 커질 수 있다는 점을 보여준다. 다만 하루치 데이터로 추세 전환을 단정하기보다, 10/15 PPI와 10/27-28 FOMC 회의까지 추가 확인이 필요하다.",
+        decision: "포지션을 당장 바꾸기보다 10/15 PPI와 10월 FOMC(10/27-28) 결과를 확인할 것. 이 워치리스트 내 고PER 성장주·AI 인프라 관련 종목(PLTR·ARM·VST·CEG 등)의 금리 민감도를 개별적으로 재점검하고, MU·ASML 등 이날 개별 재료가 있었던 종목은 해당 항목에서 별도 추적.",
+        watch: [
+          "10/15(목) 9월 생산자물가(PPI) 발표치 및 Fed 금리 경로 재평가",
+          "10/27-28 FOMC 회의 및 금리 결정, CME FedWatch 기준 인상 확률 추이",
+          "국채금리(10년물 5.278%)·VIX(16.82) 추가 상승 여부 - 금리 민감 성장주 밸류에이션 부담 지속 여부",
+        ],
+        confidence: "9월 CPI 수치(헤드라인 +3.7%·근원 +2.6%, 컨센서스 대비)는 Axios 기사(美 노동부 인용) 기준. 지수 종가(S&P500 -1.11%·나스닥 -1.88%·다우 -0.09%·러셀2000 -1.93%)와 국채금리·VIX 수치는 TheStreet·ABC News(AP 기준) 교차 확인(신뢰도 높음). CME FedWatch 10월 인상 확률(22%→44%)은 Axios 인용.",
+        sources: [
+          { title: "Inflation heats up as gas prices surge (Axios)", url: "https://www.axios.com/2026/10/14/cpi-september-inflation-trump" },
+          { title: "Stock Market Today (Oct. 14, 2026): Russell 2000, Nasdaq fall 2% on hot inflation data (TheStreet)", url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-14-2026" },
+          { title: "How major US stock indexes fared Wednesday (AP via ABC News)", url: "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-10142026-137270020" },
+        ],
+      },
+      {
         date: "2026-10-13",
         headline: "S&P500 거의 보합(‑0.03%), 반도체 장비·메모리 동반 약세 ‑ 3분기 은행 실적 시즌 개막(JPM·GS·C·WFC 혼조), 9월 CPI 10/14 발표 대기",
         importance: "high",
@@ -2956,6 +2994,44 @@ const BUSINESS_NOTES = {
       {title:"Micron Technology (MU): Sold-Out HBM Supply and AI Tailwinds Point to Strong 2026 Growth (Tickeron)", url:"https://tickeron.com/blogs/micron-technology-mu-sold-out-hbm-supply-and-ai-tailwinds-point-to-strong-2026-growth-12100/"},
     ],
     newsLog: [
+      {
+        date: "2026-10-14",
+        headline: "마이크론 -4.08%($914.13) 3거래일 연속 하락 - CXMT 경쟁 우려 지속, 넷리스트 ITC 특허소송 리스크 부각, CPI발 금리 충격까지 겹쳐",
+        importance: "medium",
+        tone: "risk",
+        horizon: "중기(CXMT 서버용 제품 실제 출시·넷리스트 ITC 소송 진행 상황 확인까지)",
+        facts: [
+          "10/14(수) 마이크론(MU) 주가는 -4.08%(종가 $914.13)로 전일(-3.62%, $953.19)에 이어 3거래일 연속 하락 - 9월 CPI 서프라이즈로 인한 금리 상승이 기술주 전반에 부담을 준 날과 겹쳤다(stockanalysis.com/TradingKey, 시장 전반 배경은 MARKET 항목 참고).",
+          "넷리스트(Netlist)가 미국 국제무역위원회(ITC)에 마이크론을 상대로 제기한 특허소송 리스크가 재부각 - 8/11 제기된 DDR5 RDIMM/MRDIMM 관련 소송(ITC 337-TA-1523, 9/23 조사개시, 수퍼마이크로·HPE·레노버 포함)에 이어, 9/29에는 HBM3E·HBM4·HBM4E를 대상으로 한 별도 HBM 특허소송을 제기하며 마이크론의 다운스트림 고객사인 엔비디아·브로드컴·구글까지 피신청인으로 명시(Webull/Newsquawk).",
+          "중국 창신메모리(CXMT)의 차세대 D램(4F²) 설계 및 5세대(G5) D램 양산, 연내 서버용 신제품 출시 계획이 계속 투자심리에 부담을 주는 재료로 지목됨 - 10/12~13 이틀간의 하락에 이어 경쟁 우려가 3일째 이어지는 모습(TradingKey/24·7 Wall St, 10/12·10/13 항목 참고).",
+          "TradingKey는 이날 하락의 배경으로 CXMT발 공급과잉 우려, 넷리스트 ITC 리스크(수입금지 가능성), 마진 우려(매출 성장이 출하량보다 가격 상승에 주로 의존), 기술섹터 전반의 차익실현(필라델피아 반도체 섹터 -2.40%), 풋옵션 등 약세 포지셔닝, 배당락(기계적 조정) 등을 복합적으로 거론(TradingKey, 자동생성 기사 분석으로 정성적 참고용).",
+          "마이크론 주가는 9월 말 고점($1,100 상회) 대비 10/14 현재 약 17% 조정된 상태(stockanalysis.com).",
+        ],
+        why: [
+          "3거래일 연속 하락은 단일 악재가 아니라 CXMT 경쟁 우려·특허소송 리스크·금리 상승이라는 세 가지 재료가 동시에 쌓이고 있다는 신호로, 어느 한 재료가 해소되더라도 나머지가 주가 반등을 제한할 수 있다.",
+          "넷리스트의 ITC 소송은 즉각적인 실적 영향보다는 '수입금지 명령' 가능성이라는 꼬리 위험(tail risk)에 가깝다 - 소송 결과가 나오기까지는 통상 수개월~1년 이상 소요되므로 단기 주가보다는 중장기 리스크 프리미엄으로 봐야 한다.",
+          "CPI발 금리 상승은 마이크론만의 문제가 아니라 이 워치리스트 전체(MARKET 항목 참고)에 영향을 준 공통 재료로, 마이크론 고유의 약세 폭(-4.08%)이 섹터 평균보다 더 큰 것은 CXMT·ITC 리스크가 추가로 얹어졌기 때문으로 해석할 수 있다.",
+        ],
+        beginner: [
+          "마이크론 주가가 오늘까지 3일 연속 떨어졌어요 - 어제까지는 중국 경쟁사(CXMT) 이슈가 주된 이유였는데, 오늘은 오늘 아침 발표된 미국 물가지표(CPI)가 예상보다 높게 나오면서 금리 걱정까지 겹쳤어요(자세한 내용은 오늘자 MARKET 항목 참고).",
+          "여기에 '넷리스트'라는 작은 회사가 마이크론의 메모리 기술이 자기네 특허를 침해했다며 미국 무역위원회(ITC)에 소송을 걸었다는 소식도 부담으로 작용했어요 - 이 소송에서 지면 마이크론 제품이 미국에 수입되지 못하게 될 수도 있다는 우려인데, 이런 소송은 결론 나기까지 보통 시간이 오래 걸려요.",
+          "9월 말 최고가(1,100달러 넘었었죠)와 비교하면 지금은 약 17% 정도 떨어진 상태예요 - 회사 자체의 실적이 나빠진 건 아니고, 경쟁·소송·금리라는 세 가지 걱정거리가 동시에 쌓인 결과로 보여요.",
+        ],
+        interpretation: "최근 3거래일의 하락은 CXMT 경쟁 우려라는 기존 재료에 넷리스트 ITC 특허소송 리스크, 그리고 오늘의 CPI발 금리 충격까지 더해지며 하락폭이 누적된 모습이다. 다만 넷리스트 소송은 결론까지 상당한 시간이 걸리는 꼬리 위험이고, CXMT의 서버용 제품도 아직 출시 전 단계라는 점에서 펀더멘털이 즉시 훼손된 것으로 보기는 이르다. 다만 3가지 악재가 동시에 작용하며 단기 변동성이 커진 구간인 만큼, 각 리스크의 실제 진행 상황을 개별적으로 확인하는 것이 중요하다.",
+        decision: "기존 추적 기조(CXMT 실제 출시·고객 인증 여부를 핵심 변수로 보는 관점) 유지하되, 넷리스트 ITC 소송 진행 상황(조사개시·예비판결 일정)을 새로운 추적 항목으로 추가. 3거래일 누적 하락폭(약 -17%, 9월 말 고점 대비)이 과도한 패닉인지 펀더멘털 재평가인지는 다음 분기 실적(12월 예정)까지 추가 확인 필요.",
+        watch: [
+          "넷리스트 ITC 특허소송(HBM 건·DDR5 RDIMM/MRDIMM 건) 조사 진행 상황 및 예비판결 일정",
+          "CXMT 서버용 메모리 제품의 실제 출시 시점과 고객사 반응(10/12·10/13 항목과 동일 추적)",
+          "9월 CPI발 금리 상승이 메모리·반도체 섹터 전반에 미치는 영향 지속 여부(MARKET 항목 참고)",
+        ],
+        confidence: "MU 10/13·10/14 종가 및 등락률은 stockanalysis.com 히스토리 데이터 기준(신뢰도 높음). 넷리스트의 ITC 제소 내용(날짜·특허번호·피신청인)은 Webull 보도자료 인용 및 Newsquawk 헤드라인 교차 확인. CXMT 관련 배경은 10/12·10/13 항목과 동일 출처(24/7 Wall St 등)를 유지. 하락 원인별 기여도(마진·포지셔닝·배당락 등)는 TradingKey의 자동생성 기사 분석으로, 정성적 참고용.",
+        sources: [
+          { title: "Micron Technology Inc Stock (MU) Moved Down by 3.31% on Oct 14 (TradingKey, 장중 기준)", url: "https://www.tradingkey.com/news/market-movers/262216688-market-movers-mu-20261014" },
+          { title: "Netlist Files New ITC Action Against Micron Technology, Inc. Involving HBM Patents for AI Computing (Webull)", url: "https://www.webull.com/news/15661550558446592" },
+          { title: "Netlist initiates ITC action against Micron (MU), Nvidia (NVDA), Broadcom (AVGO), Google (GOOGL) (Newsquawk)", url: "https://www.newsquawk.com/headlines/netlist-initiates-itc-action-against-micron-mu-nvidia-nvda-broadcom-avgo-google-googl" },
+          { title: "Micron (MU) Stock Price History (stockanalysis.com)", url: "https://stockanalysis.com/stocks/mu/history/" },
+        ],
+      },
       {
         date: "2026-10-13",
         headline: "메모리 섹터 2거래일째 매도 지속 ‑ 마이크론 ‑3.6%, CXMT ‘올해 말 서버용 신제품’ 상하이서 공식화",
@@ -7684,6 +7760,45 @@ const BUSINESS_NOTES = {
       {title:"ASML: The $360B EUV Lithography Equipment Giant (Data Gravity)", url:"https://www.datagravity.dev/p/asml-the-360b-euv-lithography-equipment"},
     ],
     newsLog: [
+      {
+        date: "2026-10-14",
+        headline: "ASML 3분기 실적 발표 - 매출·순이익 사상 최대(€116.6억·€49.6억) 기록에도 밸류에이션 부담으로 주가는 하락",
+        importance: "high",
+        tone: "mixed",
+        horizon: "중기(2027-28년 공급 확대 계획 구체화 확인까지)",
+        facts: [
+          "ASML은 10/14(수) 3분기(2026) 실적을 발표 - 총매출 €116.62억(사상 최대), 매출총이익률 57.5%(2분기 54.0%에서 개선), 순이익 €49.6억(기본 EPS €12.95)을 기록. 달러 환산 기준 매출 $132.1억·EPS $14.65로, 컨센서스($131.6억·$12.13)를 매출 0.4%·EPS 20.8% 상회(ASML 투자자 IR/Investing.com).",
+          "신규 리소그래피 장비 113대(2분기 86대)를 판매, 설치기반 관리(서비스) 매출은 €32.89억으로 전분기(€27.62억) 대비 증가(ASML IR).",
+          "4분기 가이던스로 매출 €142억~€152억, 매출총이익률 약 57%를 제시했고, 2026년 전체 매출 가이던스를 €440억~€450억(기존 €430억~€450억)으로, 매출총이익률 가이던스를 약 56%(기존 54~56%)로 각각 상향(ASML IR/TradingKey).",
+          "CEO 크리스토프 푸케는 고객들이 AI 투자 규모·기간에 대한 전망을 계속 상향하고 있으며, 일부 고객은 2029~2030년 주문까지 문의하고 있다고 언급 - 2027~2028년 공급이 수요를 완전히 충족하지 못할 수 있다고 보고 기존에 밝힌 30% 증설 계획을 넘어서는 추가 생산능력 확대를 검토 중이라고 밝혔다(ASML IR).",
+          "실적 발표에도 불구하고 주가는 정규장에서 -1.86%($1,717.76, 10/13 종가 기준), 이후 -3.94%(10/14 종가 $1,650.00)로 이틀에 걸쳐 하락 - 매출 서프라이즈 폭이 크지 않았던 점과, 52주 신고가권에 근접해 있던 주가 수준에서 나온 차익실현 성격이 크다는 해석이 나왔다(Investing.com/stockanalysis.com).",
+          "회사는 3분기 중 2026~2028년 자사주 매입 프로그램 하에 약 €41억 규모의 자사주를 매입했고, 2026년 중간배당 주당 €1.88(11/4 지급 예정)을 결의했다(ASML IR).",
+        ],
+        why: [
+          "매출·이익 모두 사상 최대치를 기록하고 가이던스까지 상향했음에도 주가가 하락한 것은, 시장이 이미 높은 기대를 주가에 선반영해 둔 상태였다는 신호로 해석할 수 있다 - 실적의 '질'보다 '얼마나 더 좋았는가'가 주가 반응을 좌우하는 전형적인 사례다.",
+          "2027~2028년 공급이 수요를 못 따라갈 수 있다는 코멘트는 역설적으로 긍정적 신호(수요 초과)이면서도, 당장의 증설 투자 부담·불확실성을 키우는 재료로 양면적으로 해석될 수 있다.",
+          "ASML의 실적은 AI 반도체 장비 투자 사이클이 여전히 강하다는 것을 보여주는 지표로, 이 워치리스트 내 AMAT·LRCX·KLAC 등 다른 반도체 장비주의 수요 환경을 가늠하는 참고 자료가 된다.",
+        ],
+        beginner: [
+          "ASML(반도체 만드는 데 꼭 필요한 노광장비를 만드는 네덜란드 회사)이 3분기 실적을 발표했는데, 매출과 이익이 역대 가장 많았어요. 그런데도 주가는 오히려 떨어졌어요 - 이미 투자자들이 '아주 좋을 것'이라고 예상하고 있었기 때문에, 실제로 아주 좋게 나와도 '기대한 만큼'이었지 '기대 이상'은 아니었던 거예요.",
+          "회사는 내년(2026년 4분기)과 올해 전체 매출 목표도 더 높여서 발표했어요 - 그만큼 반도체 회사들이 AI용 칩을 만들기 위해 ASML의 장비를 계속 많이 사고 있다는 뜻이에요.",
+          "다만 회사는 2027~2028년에는 주문이 너무 많아서 장비를 다 공급하지 못할 수도 있다고 말했는데, 이건 좋은 소식(수요가 많다)이면서도 '그만큼 더 투자해서 공장을 늘려야 하나' 하는 고민거리이기도 해요.",
+        ],
+        interpretation: "ASML의 실적은 AI 반도체 투자 사이클이 여전히 견조하다는 점을 확인시켜줬지만, 주가 하락은 '좋은 실적 = 주가 상승'이 아니라 '기대 대비 얼마나 더 좋았는가'가 중요하다는 점을 다시 보여준 사례다. 2027~2028년 공급 부족 가능성 언급은 중장기적으로는 긍정적 수요 신호지만, 단기적으로는 추가 설비투자 부담에 대한 불확실성으로 받아들여질 수 있다. 이 워치리스트 내 반도체 장비주(AMAT 등) 수요 환경에도 참고할 만한 재료다.",
+        decision: "ASML 자체 포지션은 보유 유지하되, 이번 하락이 펀더멘털 훼손이 아닌 밸류에이션 조정 성격이라는 점을 확인한 만큼 추가 매도 근거로 보지 않음. 2027~2028년 증설 계획 구체화 여부와 AMAT·LRCX·KLAC 등 다른 장비주의 수주 동향을 함께 추적할 것.",
+        watch: [
+          "ASML의 2027~2028년 생산능력 확대(기존 30% 증설 계획 초과 여부) 구체적 발표 시점",
+          "4분기 실적(2027년 1월 예정) 및 2026년 전체 가이던스(매출 €440억~450억) 달성 여부",
+          "AMAT·LRCX·KLAC 등 반도체 장비주의 수주·가이던스에 ASML 실적이 주는 시사점",
+        ],
+        confidence: "매출·순이익·EPS·가이던스 수치는 ASML 공식 IR 보도자료 기준(신뢰도 높음). 달러 환산 EPS·컨센서스 비교치는 Investing.com 기사 인용. 10/13·10/14 주가 종가 및 등락률은 stockanalysis.com 히스토리 데이터 기준 - 일부 매체(Investing.com)가 보도한 '정규장 -1.86%' 시점이 10/13 종가와 일치해 실적 발표 전후 반응이 이틀에 걸쳐 나타난 것으로 보이며, 두 수치 모두 참고용으로 병기함.",
+        sources: [
+          { title: "ASML reports €11.7 billion total net sales and €5.0 billion net income in Q3 2026 (ASML Investor Relations)", url: "https://investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026" },
+          { title: "ASML Third-Quarter Earnings Beat Expectations: AI Chip Demand Drives Revenue Surge, Full-Year Guidance Raised Again (TradingKey)", url: "https://www.tradingkey.com/analysis/stocks/us-stocks/262215608-asml-q3-earnings-beat-ai-chip-demand-revenue-surge-guidance-raised-tradingkey" },
+          { title: "Earnings call transcript: ASML tops Q3 2026 estimates but shares fall (Investing.com)", url: "https://www.investing.com/news/transcripts/earnings-call-transcript-asml-tops-q3-2026-estimates-but-shares-fall-93CH-4948118" },
+          { title: "ASML (ASML) Stock Price History (stockanalysis.com)", url: "https://stockanalysis.com/stocks/asml/history/" },
+        ],
+      },
       {
         date: "2026-09-01",
         headline: "UBS 목표 상향 2,350유로로 인상, High-NA EUV 고량생산 진입 신호 - ASML 반도체 장비 사이클 지속성 확인",
