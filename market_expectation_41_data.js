@@ -46,7 +46,7 @@ const MARKET_EXPECTATION_41 = {
         "수출규제 강화가 A/B급 공식근거로 확인 → 구조위험 재평가",
         "EPS 컨센서스 수정 추세(상향/하향 비율)를 확보하면 → 가격위치-기대방향 관계를 설명하는 근거로 추가"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-07-26 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -92,7 +92,7 @@ const MARKET_EXPECTATION_41 = {
         "Anthropic 2GW 계약의 구체적 물량·일정이 공식화되거나 축소되는 경우",
         "목표가 상향/하향 비율, EPS 수정 추세를 확보하면 → 가격위치-기대방향 관계 설명에 추가"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-06-27 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -189,7 +189,7 @@ const MARKET_EXPECTATION_41 = {
         "자동차+IoT 성장률이 가속/둔화되는 경우",
         "재고 증가가 추가 확대되는 경우(과잉비축 신호)"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-06-28 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -237,7 +237,7 @@ const MARKET_EXPECTATION_41 = {
         "AGI CPU 등 신규 실리콘 매출이 실제로 인식되기 시작하는 시점",
         "목표가 소스 간 불일치가 해소되며 컨센서스가 수렴하는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-06-30 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -285,7 +285,7 @@ const MARKET_EXPECTATION_41 = {
         "새 2분류 세그먼트 기준으로 1~2개 분기 추세가 축적되면 재평가",
         "중국向 출하 비중이 수출규제로 인해 급격히 변화하는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-08-01 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -416,8 +416,8 @@ const MARKET_EXPECTATION_41 = {
       "composite_internal_ref": 0.7711,
       "support_summary": [
         "2026년 연간 매출 가이던스를 올해 두 번째로 상향(€36~40B → €43~45B, 중간값 기준 약 +16%p); CFO: 2027년 Low-NA EUV 주문이 \"거의 완전히 확보\"된 상태; CEO: 리딩엣지 고객의 \"적극적 생산능력 확대\" 지속",
-        "[자동] Q2'26 매출 $9.33B, 전년 동기 대비 +21.3%",
-        "[자동] Q2'26 영업이익 $3.46B, 전년 동기 대비 +29.7%"
+        "Q3 2026 총매출 €11.66B(분기 사상 최대), 전년 동기 €7.5B 대비 약 +55%",
+        "Q3 2026 순이익 €4.96B(전년 동기 €2.1B), 매출총이익률 57.5%, 주당순이익 €12.95"
       ],
       "caution_summary": [
         "2026-06-19 미 상무장관이 ASML EUV 장비(또는 관련부품)가 수출통제를 위반해 중국에 반입됐을 가능성을 제기(공개 증거 없음); ASML CEO는 \"그런 장비는 중국에 존재한 적이 없다\"고 전면 반박 — 2026-10-07 현재까지 미해결·미확정 상태"
@@ -429,9 +429,9 @@ const MARKET_EXPECTATION_41 = {
         "2026-06 수출통제 의혹이 공식적으로 해소되거나 제재로 확정되는 경우",
         "중국 매출 비중의 정상화(2026년 약 20% 전망)가 실제 분기 수치로 확인되는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 2건(2026-06-30 분기)",
-      "evidence_auto_count": 2,
-      "evidence_manual_as_of": "2026-10-07",
+      "source_file": "수동 근거 2026-10-14 기준 + 자동 재무 근거 0건",
+      "evidence_auto_count": 0,
+      "evidence_manual_as_of": "2026-10-14",
       "stale_financial_axes": [],
       "primary_etf": "SMH",
       "etf_environment": "약세/실패",
@@ -477,7 +477,7 @@ const MARKET_EXPECTATION_41 = {
         "목표가 스냅샷 경과일이 14일을 넘기면 컨센서스 최신성 경고 적용 검토",
         "다음 공시에서 매출 YoY 성장률이 둔화되는 경우 → 라벨 재검토"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-07-26 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -526,7 +526,7 @@ const MARKET_EXPECTATION_41 = {
         "중국 매출 비중이 추가로 하락하거나 안정화되는 경우",
         "CAPEX/OCF 비율이 추가로 악화되는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-06-28 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -623,7 +623,7 @@ const MARKET_EXPECTATION_41 = {
         "HBM/DRAM/NAND 가격이 둔화·반전되는 경우",
         "분석가 목표가 분산이 좁아지며 컨센서스가 수렴하는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-09-03 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -671,7 +671,7 @@ const MARKET_EXPECTATION_41 = {
         "매출채권 증가 추세가 완화되는지 확인",
         "현재가 소스 간 불일치가 해소되며 데이터 신뢰도가 개선되는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-07-03 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -765,7 +765,7 @@ const MARKET_EXPECTATION_41 = {
         "BIS settlement agreement의 세부 조건이 공식 문서로 확인되는 경우",
         "Toshiba 생산능력 확대가 실제 양산·출하로 이어지는 시점(통상 1~2년 소요) 추적"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-07-03 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -813,7 +813,7 @@ const MARKET_EXPECTATION_41 = {
         "Azure/클라우드 성장률이 둔화되는 경우",
         "목표가 상향/하향 비율, EPS 수정추세 확보 시"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-06-30 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -861,7 +861,7 @@ const MARKET_EXPECTATION_41 = {
         "아이폰17·서비스 수요 호조가 공식 1차 소스(실적콜 원문)로 직접 확인되는 경우",
         "다음 공시에서 매출 성장률이 추가 가속/둔화되는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-06-27 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -909,7 +909,7 @@ const MARKET_EXPECTATION_41 = {
         "FCF가 마이너스에서 플러스로 전환되는 시점, CAPEX 피크 여부 확인",
         "OCF 중 금융구조성 선수금 비중이 다음 분기에도 유지되는지 확인"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-08-31 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -959,7 +959,7 @@ const MARKET_EXPECTATION_41 = {
         "유상증자·채무 조달 규모가 추가로 확대되는 경우 → 재무건전성 경계요인 강화",
         "클라우드 성장률(+82%)이 둔화되는 경우 → 지지근거 약화"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-06-30 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -1008,7 +1008,7 @@ const MARKET_EXPECTATION_41 = {
         "FCF가 회복세를 보이는 경우",
         "부채축 데이터 확보 시 → 관측축 추가"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-06-30 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -1057,7 +1057,7 @@ const MARKET_EXPECTATION_41 = {
         "AWS 성장률(+36.7%)이 지속/둔화되는 경우",
         "부채·정책 축이 공식근거로 관측 가능해지는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-06-30 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -1203,7 +1203,7 @@ const MARKET_EXPECTATION_41 = {
         "자동차 인도대수 YoY 감소가 다음 분기에도 지속되는지(구조적 수요둔화 vs 일시적) 확인",
         "CAPEX 증가가 로보틱스/AI 투자인지 자동차 생산능력인지 구체 분리공시되는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-06-30 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -1299,7 +1299,7 @@ const MARKET_EXPECTATION_41 = {
         "NVIDIA 투자·공급계약 소식이 1차 문서(10-K)로 확인되는 경우",
         "BIS/Huawei 조사의 손실 범위가 구체화되는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-06-30 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -1398,7 +1398,7 @@ const MARKET_EXPECTATION_41 = {
         "다음 분기 공시에서 FCF가 플러스로 전환되거나 CAPEX 집행 속도가 둔화되는지 확인",
         "원자력 가동률 하락이 다음 분기에도 지속되는지(구조적 vs 일시적) 확인"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-06-30 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -1447,7 +1447,7 @@ const MARKET_EXPECTATION_41 = {
         "연방 대출 지원설이 공식 확인되거나 철회되는지 확인",
         "2028년 헤지비율(현재 72%)이 실제 가격상승 수혜로 이어지는지 다음 분기 이후 확인"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-06-30 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -1496,7 +1496,7 @@ const MARKET_EXPECTATION_41 = {
         "다음 분기 운전자본(재고·매출채권) 세부 데이터 확보 시 관측축 확대",
         "GAAP 순이익 감소의 구체적 원인(일회성 비용 항목)이 10-Q/10-K에서 확인되는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-06-30 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -1544,7 +1544,7 @@ const MARKET_EXPECTATION_41 = {
         "매출채권 증가 추세가 완화되는지, 회수 지연 신호가 나타나는지 확인",
         "$2.0B 신규 선순위채 발행의 8-K 원문 직접 확인(현재 2차 집계 사용)"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-06-30 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -1593,7 +1593,7 @@ const MARKET_EXPECTATION_41 = {
         "정량화된 백로그/수주 $ 수치가 공시되어 CAPEX-수요 페어링이 가능해지는 경우",
         "다음 분기 마진이 회복되는지, 인수 통합비용이 해소되는지 확인"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-06-30 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -1641,7 +1641,7 @@ const MARKET_EXPECTATION_41 = {
         "운전자본 증가 추세가 완화되는지 확인",
         "마진 개선(+410bp)이 다음 분기에도 유지되는지(일시적 타이밍 효과였는지) 확인"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-06-30 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -1691,7 +1691,7 @@ const MARKET_EXPECTATION_41 = {
         "FCF가 플러스로 재전환하는지, 재고 수준이 정상화되는지 확인",
         "정확한 백로그 달러 수치가 공시되어 수요축 근거가 보강되는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-06-30 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -1739,7 +1739,7 @@ const MARKET_EXPECTATION_41 = {
         "OCF가 매출채권 회수 개선으로 반등하는지 확인",
         "RPO/데이터센터 수요 근거가 공식 문서(8-K/IR)로 교차확인되는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-06-30 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -1787,7 +1787,7 @@ const MARKET_EXPECTATION_41 = {
         "마진 개선(+약300bp)이 다음 분기에도 유지되는지(모듈러 믹스 효과의 지속성) 확인",
         "신규 모듈러 생산시설 투자의 가동률·수익성이 확인되는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-06-30 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
@@ -1884,7 +1884,7 @@ const MARKET_EXPECTATION_41 = {
         "추가 희석(전환사채 잔여물량 전환, 신규 ATM 증자 개시 여부) 확인",
         "부채 수준이 추가로 증가하는지, 신용조건이 변화하는지 확인"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건(2026-06-30 분기)",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],

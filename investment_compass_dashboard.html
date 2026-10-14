@@ -7302,7 +7302,7 @@ function renderPriceValidityCard(r){
     targetRef = `<div style="margin-top:9px;font-size:11px;color:${NEU_DIM};background:#fff;border:1px dashed ${NEU_LINE};border-radius:7px;padding:7px 10px;">시장 기대 참고(보조): 목표가 분산 최저 $${d.tc.target_low.toFixed(2)} / 중앙 $${d.tc.target_median.toFixed(2)} / 최고 $${d.tc.target_high.toFixed(2)} · 분석가 ${d.tc.num_analysts}명. 목표가 수준 자체로 가격 매력도나 행동 문장을 정하지 않습니다 — 자세한 내용은 아래 "시장 기대 참고" 카드를 보십시오.</div>`;
   }
 
-  const footNote = `<div style="margin-top:8px;margin-bottom:16px;font-size:10.5px;color:var(--sub);">가격 타당성(모델 기준)과 기술적 진입 상태(103)는 서로 다른 축이며, 한쪽이 다른 쪽을 덮어 낮추지 않습니다. 애널리스트 목표가는 가격 기준이 아니라 시장 기대 참고로만 사용합니다. 현재 가격에 맞춰 배수·EPS·가격대를 조정하지 않습니다. 자동매매·알림·매수/매도 신호와 연결되지 않습니다.</div>`;
+  const footNote = `<div style="margin-top:8px;margin-bottom:16px;font-size:10.5px;color:var(--sub);">가격 타당성(모델 기준)과 기술적 진입 상태는 서로 다른 축이며, 한쪽이 다른 쪽을 덮어 낮추지 않습니다. 애널리스트 목표가는 가격 기준이 아니라 시장 기대 참고로만 사용합니다. 현재 가격에 맞춰 배수·EPS·가격대를 조정하지 않습니다. 자동매매·알림·매수/매도 신호와 연결되지 않습니다.</div>`;
 
     // --- 51747 -- 실행 판정 박스는 더 확장하지 않고 제거한다(사용자 요청: "실행 판정 박스를
   //     더 확장하지 말고, 가격 판단을 단순화·정정하세요"). pvExecutionVerdict 함수 자체는
@@ -7481,7 +7481,7 @@ function pvDataRegistryRow(t, r, d){
   if(cc.fcf) push('FCF 교차검증', cc.fcf.ttmYield, 'actual_ttm', cc.fcf.ttmNote, null, cc.fcf.badge, 'SEC·IR 새 공시 감지 시 갱신');
   push('부채·희석', d.cfVeto, 'veto_gate', d.cfDetail.join(' · ')||'—', null, d.cfVeto?'거부권 발동':'정상', 'SEC·IR 새 공시 감지 시 갱신');
   if(d.tc) push('컨센서스 목표가', d.tc.target_median, 'analyst_consensus', '시장 기대 참고', null, (d.me&&d.me.stale_consensus_warning)?'기준일 초과':'정상', '매일/주1회 배치 갱신');
-  push('기술지표(103)', r.techScore, 'technical', 'computeTechnicalSeries', (r.dataHealth&&r.dataHealth.lastDate)||null, null, '매 거래일 자동 갱신');
+  push('기술지표', r.techScore, 'technical', 'computeTechnicalSeries', (r.dataHealth&&r.dataHealth.lastDate)||null, null, '매 거래일 자동 갱신');
   return rows;
 }
 
