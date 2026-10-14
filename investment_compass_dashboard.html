@@ -6550,6 +6550,70 @@ function renderPriceValidityCard(r){
   }
 
   // =========================================================================
+  // 51764 -- 정상화 밴드(시범, 2026-10-14). 사용자가 보낸 외부 검토 문서 검증 결과,
+  // MU·STX 등 과거 실적 변동이 큰(순환) 종목은 fundamentals_data.js의 avgPe3Y(과거 3년
+  // 평균 PER) 자체가 과거 실적 부진기 때문에 비정상적으로 부풀어(MU 55배·STX 47.6배·
+  // TSLA 209배·AMD 160배 등 15개+ 종목 확인됨 -- 코드 내 1746번째 줄 근처 주석에 이미
+  // 예전에 같은 문제로 다른 기능(07 적정가 탭 "시장기준가")을 비활성화한 전례가 있음),
+  // 그 결과로 PER 밴드(perBandLowVal~perBandHighVal)가 비현실적으로 넓거나 관대해져
+  // "저평가" 판정이 과도하게 나올 위험이 있다. 사용자 확인 후(AskUserQuestion) MU·SNDK·
+  // STX·ASML 4종목에 한해 시범 적용하기로 함 -- 자기 과거 PER 대신 "동종업계 forward PER"을
+  // 기준으로 쓰는 대안 밴드를 참고용으로만 추가한다. 기존 d.price 판정·가격 타당성 카드의
+  // "가격 판단"은 전혀 바꾸지 않음(순수 참고 박스). 순환주(MU/SNDK/STX)는 "정상화 EPS"
+  // (NTM EPS 60% + TTM 실제 EPS[peTTM 역산] 40%)를 쓰고, 비순환 성장주(ASML)는 NTM EPS를
+  // 그대로 쓴다 -- 구현 중 ASML에 순환주와 같은 블렌드를 적용하면 정상적인 성장을 "일시적
+  // 피크"로 오인해 밴드가 부당하게 낮아지는 것을 직접 확인해(실측) 구분함.
+  const PV_NORMALIZED_PILOT_PEERS = {
+    MU:   { peers: ['SNDK','WDC','STX'], cyclical: true },
+    SNDK: { peers: ['MU','WDC','STX'],   cyclical: true },
+    STX:  { peers: ['MU','SNDK','WDC'],  cyclical: true },
+    ASML: { peers: ['AMAT','LRCX','KLAC'], cyclical: false },
+  };
+  function pvNormalizedPilot(ticker, dd, rr, numFn){
+    const cfg = PV_NORMALIZED_PILOT_PEERS[ticker];
+    if(!cfg) return null;
+    if(typeof FUNDAMENTALS_DATA === 'undefined') return null;
+    const f = FUNDAMENTALS_DATA[ticker];
+    if(!f || !numFn(dd.ntmEps) || !numFn(rr.price)) return null;
+    let normEps, methodNote;
+    if(cfg.cyclical){
+      const ttmEps = (numFn(f.peTTM) && f.peTTM > 0) ? rr.price / f.peTTM : null;
+      normEps = (ttmEps != null) ? dd.ntmEps*0.6 + ttmEps*0.4 : dd.ntmEps;
+      methodNote = ttmEps != null
+        ? `정상화 EPS = NTM EPS($${dd.ntmEps.toFixed(2)}) 60% + TTM 실제 EPS($${ttmEps.toFixed(2)}, peTTM 역산) 40% — 순환 고점이 그대로 유지된다고 가정하지 않도록 완충`
+        : `TTM 실제 EPS 역산 불가(peTTM 데이터 없음) — NTM EPS를 그대로 사용`;
+    } else {
+      normEps = dd.ntmEps;
+      methodNote = `NTM EPS를 그대로 사용 — 순환(상품가격 연동) 업종이 아니라 실적 되돌림을 가정할 근거가 없음`;
+    }
+    const peerPEs = cfg.peers.map(p => FUNDAMENTALS_DATA[p] && FUNDAMENTALS_DATA[p].forwardPE).filter(v => typeof v === 'number');
+    if(peerPEs.length < 2) return null;
+    const peerLow = Math.min(...peerPEs), peerHigh = Math.max(...peerPEs);
+    return {
+      normEps, peerLow, peerHigh,
+      bandLow: normEps*peerLow, bandHigh: normEps*peerHigh,
+      peers: cfg.peers, methodNote, cyclical: cfg.cyclical,
+      ownAvgPe3Y: (typeof f.avgPe3Y === 'number') ? f.avgPe3Y : null,
+    };
+  }
+  const normPilot = pvNormalizedPilot(r.ticker, d, r, num);
+  let normPilotBox = '';
+  if(normPilot){
+    const posNote = r.price > normPilot.bandHigh ? '현재가가 이 범위 <b>위</b>(비싸 보임)'
+      : (r.price < normPilot.bandLow ? '현재가가 이 범위 <b>아래</b>(싸 보임)' : '현재가가 이 범위 <b>안</b>');
+    const ownBandNote = normPilot.ownAvgPe3Y != null
+      ? `(참고: 이 종목 자기 과거 3년 평균 PER은 ${normPilot.ownAvgPe3Y.toFixed(1)}배로, 과거 실적 변동 때문에 기준으로 쓰기엔 왜곡됐을 수 있어 이 대안 밴드는 자기 과거 PER 대신 동종업계 forward PER을 씁니다.)`
+      : '';
+    normPilotBox = `
+      <div style="margin-top:8px;padding:11px 13px;border-radius:10px;border:1.5px dashed #8a6d1f;background:#fffaf0;">
+        <div style="font-size:10.5px;font-weight:800;color:#8a6d1f;margin-bottom:4px;">정상화 밴드 (시범 — MU·SNDK·STX·ASML 4종목 한정, 공식 가격 판단 아님)</div>
+        <div style="font-size:12.5px;font-weight:700;color:${NEU_TEXT};">$${normPilot.bandLow.toFixed(0)} ~ $${normPilot.bandHigh.toFixed(0)}</div>
+        <div style="margin-top:3px;font-size:11px;color:${NEU_TEXT};line-height:1.6;">${posNote} · 정상화 EPS $${normPilot.normEps.toFixed(2)} × 동종업계(${normPilot.peers.join('·')}) forward PER ${normPilot.peerLow.toFixed(1)}~${normPilot.peerHigh.toFixed(1)}배</div>
+        <div style="margin-top:5px;font-size:10.3px;color:${NEU_DIM};font-style:italic;">${esc(normPilot.methodNote)} ${esc(ownBandNote)} 이 박스는 위 "가격 판단"을 바꾸지 않는 참고용 시범 기능이며, 동종업계 구성(3종목)과 블렌드 비율(60/40)은 검증이 더 필요합니다.</div>
+      </div>`;
+  }
+
+  // =========================================================================
   // 판단 근거(접힘) -- EPS·PER 원자료, 밸류에이션, 현금흐름, 103 신호, 가격대 표를 모두 여기로.
   // =========================================================================
   const rowHtml = (k, v, extra) => `<div style="display:flex;justify-content:space-between;align-items:baseline;font-size:12px;color:${NEU_TEXT};padding:3px 0;border-bottom:1px solid #e3e6ea;"><span style="color:${NEU_DIM};">${esc(k)}</span><span style="font-weight:700;text-align:right;">${v}${extra||''}</span></div>`;
@@ -6657,7 +6721,7 @@ function renderPriceValidityCard(r){
   //     남겨두되(다른 곳에서 참조하지 않음, 삭제 리스크를 줄이기 위해 죽은 코드로 보존) 카드에서는
   //     더 이상 호출·렌더링하지 않는다. 매수 구간·무효화 조건·포지션 크기·다음 실적일은 가격
   //     판단이 정상화된 뒤에 별도로 다룬다(사용자 명시).
-  return `${headHtml}${quickVerdictBox}${fixedFormatBox}${fallbackAxesBox}${conclusionBox}${positionBox}${positionMismatchNote}${crossCheckBox}${evidenceDetails}${targetRef}${footNote}`;
+  return `${headHtml}${quickVerdictBox}${fixedFormatBox}${fallbackAxesBox}${conclusionBox}${positionBox}${positionMismatchNote}${crossCheckBox}${normPilotBox}${evidenceDetails}${targetRef}${footNote}`;
 }
 if(typeof HINTS !== 'undefined'){
   HINTS.priceValidityCard = 'EPS 성장·수정 방향, 현재가가 요구하는 밸류에이션, 현금흐름·부채·희석, 103 기술적 진입 상태를 결합해 "가격이 사업 펀더멘털 대비 타당한가"를 보여주는 읽기 전용 카드입니다. 맨 위에는 오늘의 판단·오늘의 행동·가격/사업/현금흐름/차트 4축·판단이 바뀌는 조건이 먼저 나오고, EPS·PER·현금흐름 원자료와 가격대 표는 "판단 근거 보기"를 펼쳐야 보입니다. NTM PER은 독립 밸류에이션 모듈의 값을 우선 쓰고, 없으면 eps_data.js의 애널리스트 컨센서스로 같은 방식(일수 가중 선형보간)을 재현한 공통 계산기로 보완합니다. 과거 PER 밴드는 종목 자신의 중앙값 기반 백분위(5년 이상 흑자 이력)를 우선 쓰고, 상장 이력이 짧은 종목은 기존 전체 통계 폴백(0.64~1.55배)을 적용합니다. 과거 PER 유효 관측치가 전혀 없는 극소수 종목만 숫자 가격대를 차단하고, 그 외엔 사업·현금흐름·차트 평가를 그대로 보여줍니다. 애널리스트 목표가는 가격 기준으로 쓰지 않고 시장 기대 참고로만 보조 사용합니다. 가격 타당성과 기술적 진입 타이밍은 분리된 축으로 표시되며 한쪽이 다른 쪽을 깎지 않습니다. 매수·매도 신호가 아니고 자동매매·알림과 연결되지 않습니다.';
