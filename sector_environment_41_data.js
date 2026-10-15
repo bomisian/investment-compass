@@ -2,7 +2,7 @@
 // 생성: market_expectation_daily_142.py (매일) · 규칙: ETF_ENV_FILTER_DECLARATION_v1_20261007.md
 const SECTOR_ENVIRONMENT_41 = {
   "_meta": {
-    "generated_at": "2026-10-15",
+    "generated_at": "2026-10-16",
     "description": "읽기 전용 · ETF 섹터 환경 필터 스냅샷. 매수/매도 신호 아님 — 신규 진입 속도 조절용 참고정보.",
     "declaration": "ETF_ENV_FILTER_DECLARATION_v1_20261007.md"
   },
