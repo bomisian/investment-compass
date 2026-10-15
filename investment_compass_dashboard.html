@@ -259,6 +259,7 @@
     <div class="updated" id="updatedAt">아직 체크 안 함</div>
   </header>
   <div id="dataStatusLine" class="sub" style="margin:-8px 0 12px;"></div>
+  <div id="opsStatusLine" class="sub" style="margin:-8px 0 12px;"></div>  <!-- 2026-10-15 WO6-01: 운영 상태(파이프라인 정상/루프/배포 일치 등) 요약 한 줄. ops_status_report.py가 생성하는 ops_status_data.js를 읽기만 함(공개 가능 정보만). -->
 
   <div class="page-tabs" id="pageTabs">
     <div class="ptab active" onclick="switchPage('dashboard')">📊 대시보드</div>
@@ -515,6 +516,7 @@
 <!-- 데이터 상태 진단(각 소스 최신성·오류) - buy_signal_telegram.py가 매 실행마다 기록해왔는데
      화면에 연결이 안 돼 있었음. 2026-08-28 화면 연결함. 없어도 대시보드는 정상 동작함 -->
 <script src="data_status_data.js" onerror="void 0"></script>
+<script src="ops_status_data.js" onerror="void 0"></script>  <!-- 2026-10-15 WO6-01: 없어도 조용히 건너뜀(다른 선택적 데이터 파일과 동일 패턴) -->
 <!-- 자동 뉴스 기반 이벤트분석·변경이력 - Claude가 직접 조사하기 전 보조용(analystLog가
      있으면 이게 아니라 그걸 우선 보여줌). 2026-08-28 화면 연결함. 없어도 대시보드는 정상 동작함 -->
 <script src="event_data.js" onerror="void 0"></script>
@@ -12447,6 +12449,27 @@ function renderDataStatusLine(){
   const items = bad.map(s=>`${esc(s.label)}(${fmtAgo(s)}${s.lastError?' · '+esc(s.lastError):''})`).join(', ');
   el.innerHTML = `<span style="color:${color};">●</span> 데이터 상태: ${bad.length}개 소스 지연·부분실패 - ${items}${genLabel} ${hintIcon('dataStatus')}`;
 }
+
+// [2026-10-15 WO6-01] ops_status_data.js(ops_status_report.py가 매일 생성)를 읽어서
+// "마지막 정상 완료/공개 페이지 일치/루프 진행/데이터 감사" 등 운영 상태를 한 줄로 보여준다.
+// data_status_data.js(위 renderDataStatusLine)와 역할이 다름 - 저건 "가격·재무 데이터 소스"
+// 상태, 이건 "파이프라인/배포 자체"가 멈추거나 어긋났는지 상태. 파일이 없거나 비어있으면
+// 조용히 숨긴다(다른 선택적 카드들과 동일한 패턴).
+function renderOpsStatusLine(){
+  const el = document.getElementById('opsStatusLine');
+  if(!el) return;
+  if(typeof OPS_STATUS_DATA === 'undefined' || !OPS_STATUS_DATA || !Array.isArray(OPS_STATUS_DATA.items) || !OPS_STATUS_DATA.items.length){ el.innerHTML = ''; return; }
+  const items = OPS_STATUS_DATA.items;
+  const bad = items.filter(it => it.status === 'red' || it.status === 'yellow');
+  const colorOf = s => s === 'red' ? 'var(--down)' : (s === 'yellow' ? '#876000' : 'var(--sub)');
+  if(!bad.length){
+    el.innerHTML = `<span style="color:var(--up);">●</span> 운영 상태: 정상`;
+    return;
+  }
+  const worst = bad.some(it => it.status === 'red') ? 'red' : 'yellow';
+  const texts = bad.map(it => `${esc(it.label||it.key)}(${esc(it.detail||'')})`).join(', ');
+  el.innerHTML = `<span style="color:${colorOf(worst)};">●</span> 운영 상태: ${texts}`;
+}
 function renderMarketCard(){
   const card = document.getElementById('marketCard');
   const body = document.getElementById('marketBody');
@@ -16507,6 +16530,7 @@ renderHoldings();
 renderMarketCard();  // 시장 환경은 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
 renderTripodCard();  // 트라이팟 신호도 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
 renderDataStatusLine();  // 데이터 상태도 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
+renderOpsStatusLine();  // 2026-10-15 WO6-01: 운영 상태(파이프라인/배포 자체)도 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
 renderEarningsCalendar();  // 다가오는 실적 발표도 news_data.js만 읽으므로 스캔 전에도 바로 표시됨
 const savedFgi = localStorage.getItem('compass_fgi_manual');
 if(savedFgi) document.getElementById('fgiManualInput').value = savedFgi;
