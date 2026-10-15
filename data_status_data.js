@@ -72,11 +72,11 @@ const DATA_STATUS = {
     "market": {
       "label": "시장환경",
       "status": "ok",
-      "lastAttemptAt": 1792076711.3541205,
-      "lastSuccessAt": 1792076711.3541205,
-      "lastPartialSuccessAt": 1792076711.3541205,
-      "lastFetchedAt": 1792076711.3547606,
-      "oldestFetchedAt": 1792076711.3547606,
+      "lastAttemptAt": 1792076762.3908334,
+      "lastSuccessAt": 1792076762.3908334,
+      "lastPartialSuccessAt": 1792076762.3908334,
+      "lastFetchedAt": 1792076762.3911722,
+      "oldestFetchedAt": 1792076762.3911722,
       "warningAfterHours": 6,
       "criticalAfterHours": 24,
       "lastError": null,
@@ -89,9 +89,9 @@ const DATA_STATUS = {
     "prices": {
       "label": "가격·차트",
       "status": "ok",
-      "lastAttemptAt": 1792076776.6903536,
-      "lastSuccessAt": 1792076776.6903536,
-      "lastPartialSuccessAt": 1792076776.6903536,
+      "lastAttemptAt": 1792076827.7591121,
+      "lastSuccessAt": 1792076827.7591121,
+      "lastPartialSuccessAt": 1792076827.7591121,
       "lastFetchedAt": 1792010016.0571318,
       "oldestFetchedAt": 1792010016.0571318,
       "warningAfterHours": 6,
@@ -106,8 +106,8 @@ const DATA_STATUS = {
     "businessAnalysis": {
       "label": "기업분석",
       "status": "delayed",
-      "lastAttemptAt": 1792076776.987854,
-      "lastSuccessAt": 1792076776.987854,
+      "lastAttemptAt": 1792076828.08619,
+      "lastSuccessAt": 1792076828.08619,
       "lastFetchedAt": 1792016603.8395283,
       "oldestFetchedAt": 1792016603.8395283,
       "dataAsOfLabel": "2026-10-15 07:23",
@@ -156,9 +156,9 @@ const DATA_STATUS = {
     "sigma": {
       "label": "시그마(옵션 IV)",
       "status": "ok",
-      "lastAttemptAt": 1792076776.8145576,
-      "lastSuccessAt": 1792076776.8145576,
-      "lastPartialSuccessAt": 1792076776.8145576,
+      "lastAttemptAt": 1792076827.8842604,
+      "lastSuccessAt": 1792076827.8842604,
+      "lastPartialSuccessAt": 1792076827.8842604,
       "lastFetchedAt": 1791827592.9161053,
       "oldestFetchedAt": 1791565330.3460414,
       "warningAfterHours": 6,
@@ -219,10 +219,10 @@ const DATA_STATUS = {
       "lastError": null
     }
   },
-  "generatedAt": 1792076776.987854,
+  "generatedAt": 1792076828.08619,
   "timezoneGuide": {
     "collector": "Asia/Seoul",
     "market": "America/New_York"
   },
-  "buildGeneratedAt": "2026-10-16 00:06:16"
+  "buildGeneratedAt": "2026-10-16 00:07:08"
 };
