@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1792057690.5748973,
+  "generatedAt": 1792059617.6156688,
   "events": [
     {
       "id": "6c3758d3e0adc4996d67",
@@ -25,7 +25,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Taiwan Semiconductor Manufacturing Q3 Earnings Call Highlights",
-      "headlineKo": "",
+      "headlineKo": "대만 반도체 제조업 3분기 실적 발표 하이라이트",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=45cd6fc330cfc2a0c6d04e65de15d8773cf0411d3dc01fbc08e1c4907023d21a",
@@ -73,6 +73,136 @@ const EVENT_DATA = {
       ]
     },
     {
+      "id": "361af70c4d94bbd8b74a",
+      "schemaVersion": 1,
+      "eventType": "major_customer_contract",
+      "eventLabel": "주요 고객 계약",
+      "primaryTicker": "TSM",
+      "relatedTickers": [
+        "TSM"
+      ],
+      "relatedEntities": [
+        {
+          "name": "TSMC",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "neutral",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "TSMC Open to Working With Terafab But Must Control Plants",
+      "headlineKo": "TSMC는 Terafab과 협력할 수 있지만 식물을 통제해야 함",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=32da48e5f781f1d2d7bfa5433cdeeca23d678bccd6167870bf8fc494b9947af1",
+        "publishedAt": 1792049775,
+        "collectedAt": 1792056979.5172389
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "TSMC Open to Working With Terafab But Must Control Plants",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+      ],
+      "aiInference": [
+        "이 기사는 TSM의 사업과 관련된 'TSMC Open to Working With Terafab But Must Control Plants' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+        "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+      ],
+      "whyItMatters": [
+        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "TSM",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "다음 실적 매출·EPS",
+        "영업현금흐름과 CAPEX",
+        "회사 공식 가이던스",
+        "주가 반응이 하루 이상 지속되는지"
+      ]
+    },
+    {
+      "id": "527642346ea0175f84ee",
+      "schemaVersion": 1,
+      "eventType": "guidance_change",
+      "eventLabel": "실적 전망 변경",
+      "primaryTicker": "TSM",
+      "relatedTickers": [
+        "TSM"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "TSM Stock Still Caught In AI Chip Rout Despite Record Q3 Profit And Bright Outlook: Retail Stays Bullish",
+      "headlineKo": "기록적인 3분기 이익과 밝은 전망에도 불구하고 TSM 주식은 여전히 ​​AI 칩 대패에 휩싸였습니다. 소매업은 여전히 ​​강세를 유지하고 있습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2ffe1721c55c9677539566ebe93535ff1f99ed3b31b10d8be5a46b0d118a6938",
+        "publishedAt": 1792048662,
+        "collectedAt": 1792056979.5172389
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "기록적인 3분기 이익과 밝은 전망에도 불구하고 TSM 주식은 여전히 ​​AI 칩 대패에 휩싸였습니다. 소매업은 여전히 ​​강세를 유지하고 있습니다."
+      ],
+      "marketInterpretation": [],
+      "aiInference": [
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "TSM",
+          "direction": "mixed",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
+        }
+      ],
+      "watch": []
+    },
+    {
       "id": "09b3bb17c6226ac891cc",
       "schemaVersion": 1,
       "eventType": "analyst_target_change",
@@ -97,7 +227,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "GEV Stock Slips Overnight: This Analyst Sees Nearly 35% Upside Ahead Of Q3 Results",
-      "headlineKo": "",
+      "headlineKo": "GEV 주식이 밤새 하락했습니다: 이 분석가는 3분기 결과보다 약 35% 상승 여력이 있다고 봅니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1bc92daf99fec3f6cd1a177cc466030331dbd94dce8f875edf8f92df1af1a8e6",
@@ -411,7 +541,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "QCOM, AVGO, NVDA Stocks In Focus As ByteDance Reportedly Closes In On A MediaTek Pact For AI Data Center Chips",
-      "headlineKo": "",
+      "headlineKo": "ByteDance가 AI 데이터 센터 칩에 대한 MediaTek Pact를 마무리함에 따라 QCOM, AVGO, NVDA 주식에 초점이 맞춰졌습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=edf9b6f2ba5f33bfa6d54b85bd8d598ed150e1c76013218ed825b4086081f0cc",
@@ -17872,171 +18002,13 @@ const EVENT_DATA = {
         "공급업체 수주·매출",
         "투자 기업 OCF·FCF·부채"
       ]
-    },
-    {
-      "id": "5f39e8a0b0bc53a899ce",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "AMD",
-      "relatedTickers": [
-        "AMD",
-        "NVDA",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "NVIDIA",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Nvidia and AMD Reached a Historic Valuation Split. 1 Stock Is Far Safer.",
-      "headlineKo": "Nvidia와 AMD는 역사적인 가치 평가 분할에 도달했습니다. 1 주식이 훨씬 안전합니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=068095887c8426938a4fdf11badd0e8523f0e84de80265de53f9a29842441c92",
-        "publishedAt": 1791834600,
-        "collectedAt": 1792056979.5172389
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Nvidia와 AMD는 역사적인 가치 평가 분할에 도달했습니다.",
-        "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia( NVDA -1.29% )와 Advanced Micro Devices( AMD -2.28% )도 비슷한 회사입니다.",
-        "AMD의 소비자 사업은 규모가 더 크고 제품 라인업도 더 다양하지만, 이 두 회사는 틀림없이 세계에서 가장 중요한 기술 전쟁인 인공 지능 컴퓨팅용 GPU에서 정면으로 경쟁합니다."
-      ],
-      "marketInterpretation": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 23%, $1 trillion, 106% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "AMD에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 23%, $1 trillion, 106% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AMD",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "실제 CAPEX 집행",
-        "공급업체 수주·매출",
-        "투자 기업 OCF·FCF·부채"
-      ]
-    },
-    {
-      "id": "7ce4fdf3cd24de30fb25",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "ASML",
-      "relatedTickers": [
-        "ASML",
-        "INTC",
-        "SPY",
-        "TSM"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Samsung",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        },
-        {
-          "name": "Intel",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Is ASML Holding NV's Stock a Buy Ahead of Its Q3 Earnings Report Wednesday?",
-      "headlineKo": "ASML은 수요일 3분기 실적 보고서를 앞두고 NV 주식을 매수하고 있습니까?",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=fa73c65e185f744d28d2d9b85b923c92475b509ecac999e84c223e97d3ed59a3",
-        "publishedAt": 1791834281,
-        "collectedAt": 1792056979.5172389
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "ASML은 수요일 3분기 실적 보고서를 앞두고 NV 주식을 매수하고 있습니까?",
-        "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool ASML( ASML -1.69% )은 엔비디아처럼 칩주만큼 주목을 받지는 못하지만 유럽 반도체 자본장비",
-        "ASML은 Taiwan Semiconductor Manufacturing, Intel 및 Samsung과 같은 제조업체가 세계에서 가장 진보된 칩을 만드는 데 사용하는 극자외선(EUV) 리소그래피 장비를 생산하는 세계 유일의 제조업체입니다."
-      ],
-      "marketInterpretation": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 64%, 56%, $13.1 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "ASML의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "ASML에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 64%, 56%, $13.1 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "ASML의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "ASML",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "공식 매출·EPS 가이던스",
-        "컨센서스 추정치 변경",
-        "마진·FCF 전망"
-      ]
     }
   ],
   "byTicker": {
     "TSM": [
       "6c3758d3e0adc4996d67",
+      "361af70c4d94bbd8b74a",
+      "527642346ea0175f84ee",
       "09b3bb17c6226ac891cc",
       "22c2182ef45d23f9b088",
       "80346a18b902eb58e2b4",
@@ -18048,8 +18020,7 @@ const EVENT_DATA = {
       "6d9695f2d48bb6cd8647",
       "e59c586aa6743551cf85",
       "4fc30bd79f1df3a1e776",
-      "74634763dbdb1b2753b3",
-      "7ce4fdf3cd24de30fb25"
+      "74634763dbdb1b2753b3"
     ],
     "GEV": [
       "09b3bb17c6226ac891cc",
@@ -18232,9 +18203,7 @@ const EVENT_DATA = {
       "fc6bde35040718e0f78f",
       "6308ff1eab1849601f1c",
       "8cf38d7eac6be48920ab",
-      "d8373e17662570b167ea",
-      "5f39e8a0b0bc53a899ce",
-      "7ce4fdf3cd24de30fb25"
+      "d8373e17662570b167ea"
     ],
     "AMD": [
       "0aea3bf485b29ff8b304",
@@ -18270,8 +18239,7 @@ const EVENT_DATA = {
       "8c85fef84e7a6da899a8",
       "0a2fbca4b2baa1b643b6",
       "3c9eac1fbf6538885fa8",
-      "7fae641e536ca6435396",
-      "5f39e8a0b0bc53a899ce"
+      "7fae641e536ca6435396"
     ],
     "CRM": [
       "0aea3bf485b29ff8b304",
@@ -18387,8 +18355,7 @@ const EVENT_DATA = {
       "6308ff1eab1849601f1c",
       "aeebd33d613ba9201a9a",
       "3c9eac1fbf6538885fa8",
-      "7fae641e536ca6435396",
-      "5f39e8a0b0bc53a899ce"
+      "7fae641e536ca6435396"
     ],
     "ORCL": [
       "0aea3bf485b29ff8b304",
@@ -18503,8 +18470,7 @@ const EVENT_DATA = {
       "a0d53c4e2c53385ed764",
       "3c75ba46e33fccd6c5e1",
       "0c5a8c6ad668be72e1b2",
-      "0a2fbca4b2baa1b643b6",
-      "7ce4fdf3cd24de30fb25"
+      "0a2fbca4b2baa1b643b6"
     ],
     "TSLA": [
       "2c7e8ae404b66b293e3a",
@@ -18590,8 +18556,7 @@ const EVENT_DATA = {
       "4c92a034c418b8e3d4c5",
       "89352e20c5623da91467",
       "1f3d9c4ec10807e95d21",
-      "3c9eac1fbf6538885fa8",
-      "7ce4fdf3cd24de30fb25"
+      "3c9eac1fbf6538885fa8"
     ],
     "MSFT": [
       "d8d54e4e0fb2ff214a17",

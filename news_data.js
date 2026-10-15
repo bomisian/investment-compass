@@ -6178,7 +6178,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "SPY": {
@@ -13926,7 +13926,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 157,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "MSFT": {
@@ -21857,7 +21857,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "GOOGL": {
@@ -29893,7 +29893,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "AMZN": {
@@ -38000,7 +38000,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "META": {
@@ -46109,7 +46109,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "AAPL": {
@@ -54039,7 +54039,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "TSLA": {
@@ -62238,7 +62238,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "ORCL": {
@@ -70727,7 +70727,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "CRM": {
@@ -78325,7 +78325,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 165,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "PLTR": {
@@ -87377,7 +87377,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "NVDA": {
@@ -87515,7 +87515,8 @@ const NEWS_DATA = {
             "Qualcomm booth is seen during 2026 Mobile World Congress (MWC) on March 2, 2026 in Barcelona, Spain."
           ],
           "analysisUpdatedAt": 1792057235.9421458
-        }
+        },
+        "headlineKo": "ByteDance가 AI 데이터 센터 칩에 대한 MediaTek Pact를 마무리함에 따라 QCOM, AVGO, NVDA 주식에 초점이 맞춰졌습니다."
       },
       {
         "headline": "Dow, S&P 500, Nasdaq Decline Amid Hot Inflation Data, AI Selloff: CRWV, NBIS, NVDA, IBRX Stocks In Focus",
@@ -95277,7 +95278,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "AMD": {
@@ -103305,7 +103306,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "AVGO": {
@@ -103379,7 +103380,8 @@ const NEWS_DATA = {
             "Qualcomm booth is seen during 2026 Mobile World Congress (MWC) on March 2, 2026 in Barcelona, Spain."
           ],
           "analysisUpdatedAt": 1792057277.0392118
-        }
+        },
+        "headlineKo": "ByteDance가 AI 데이터 센터 칩에 대한 MediaTek Pact를 마무리함에 따라 QCOM, AVGO, NVDA 주식에 초점이 맞춰졌습니다."
       },
       {
         "headline": "Broadcom vs. SK Hynix: Here's What Revenue Trends Tell Investors About These Artificial Intelligence Companies",
@@ -112240,7 +112242,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "QCOM": {
@@ -112314,7 +112316,8 @@ const NEWS_DATA = {
             "Qualcomm booth is seen during 2026 Mobile World Congress (MWC) on March 2, 2026 in Barcelona, Spain."
           ],
           "analysisUpdatedAt": 1792057300.1434824
-        }
+        },
+        "headlineKo": "ByteDance가 AI 데이터 센터 칩에 대한 MediaTek Pact를 마무리함에 따라 QCOM, AVGO, NVDA 주식에 초점이 맞춰졌습니다."
       },
       {
         "headline": "How Qualcomm’s Legal Win Over Arm Could Reshape the Long-Term Thesis for QCOM Investors",
@@ -120702,7 +120705,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 182,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "ARM": {
@@ -126503,7 +126506,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 113,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "MRVL": {
@@ -135223,7 +135226,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "INTC": {
@@ -143817,7 +143820,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "TSM": {
@@ -143891,7 +143894,8 @@ const NEWS_DATA = {
             "Close Image from MarketBeat Media, LLC."
           ],
           "analysisUpdatedAt": 1792057379.0446625
-        }
+        },
+        "headlineKo": "대만 반도체 제조업 3분기 실적 발표 하이라이트"
       },
       {
         "headline": "Why Are Nasdaq Futures Sinking Premarket? CRWV, MU, TSM, SKHY, IBRX, RKLB, TSLA Stocks In Focus",
@@ -143940,7 +143944,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1792057380.049011
-        }
+        },
+        "headlineKo": "나스닥 선물이 시장 전 가격으로 하락하는 이유는 무엇입니까? CRWV, MU, TSM, SKHY, IBRX, RKLB, TSLA 주식에 집중"
       },
       {
         "headline": "TSMC Open to Working With Terafab But Must Control Plants",
@@ -143989,7 +143994,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1792057382.7305796
-        }
+        },
+        "headlineKo": "TSMC는 Terafab과 협력할 수 있지만 식물을 통제해야 함"
       },
       {
         "headline": "TSM Stock Still Caught In AI Chip Rout Despite Record Q3 Profit And Bright Outlook: Retail Stays Bullish",
@@ -143998,7 +144004,8 @@ const NEWS_DATA = {
         "datetime": 1792048662,
         "relevance": 0.75,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "기록적인 3분기 이익과 밝은 전망에도 불구하고 TSM 주식은 여전히 ​​AI 칩 대패에 휩싸였습니다. 소매업은 여전히 ​​강세를 유지하고 있습니다."
       },
       {
         "headline": "Taiwan chip giant TSMC says net profit hit record in third quarter",
@@ -144007,7 +144014,8 @@ const NEWS_DATA = {
         "datetime": 1792046596,
         "relevance": 0.5,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "대만 반도체 대기업 TSMC, 3분기 순이익 사상 최대 기록 달성"
       },
       {
         "headline": "TSMC Earnings Preview: High Growth Likely, But Mind The CapEx (Downgrade)",
@@ -151825,7 +151833,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 176,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "ASML": {
@@ -157833,7 +157841,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 128,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "AMAT": {
@@ -157893,7 +157901,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1792057412.315098
-        }
+        },
+        "headlineKo": "Applied Materials(NASDAQ:AMAT): 가속화되는 예측과 품질 기본을 통한 합리적인 성장"
       },
       {
         "headline": "Applied Materials (AMAT) Declines More Than Market: Some Information for Investors",
@@ -163546,7 +163555,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "LRCX": {
@@ -166498,7 +166507,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "KLAC": {
@@ -169638,7 +169647,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "MU": {
@@ -177584,7 +177593,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "SNDK": {
@@ -186475,7 +186484,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "WDC": {
@@ -186535,7 +186544,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1792057476.9262612
-        }
+        },
+        "headlineKo": "Seagate를 통한 Western Digital: Toshiba 매각은 거의 변화하지 않습니다."
       },
       {
         "headline": "SK Hynix Sinks 5% as China’s CXMT Aims at Server Memory; Western Digital Drops 4%, Micron Falls 3%",
@@ -191780,7 +191790,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "ANET": {
@@ -195900,7 +195910,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "COHR": {
@@ -199749,7 +199759,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "LITE": {
@@ -204453,7 +204463,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "GEV": {
@@ -204527,7 +204537,8 @@ const NEWS_DATA = {
             "In this photo illustration, the GE Vernova logo is seen displayed on a smartphone screen."
           ],
           "analysisUpdatedAt": 1792057514.3720853
-        }
+        },
+        "headlineKo": "GEV 주식이 밤새 하락했습니다: 이 분석가는 3분기 결과보다 약 35% 상승 여력이 있다고 봅니다."
       },
       {
         "headline": "Is GE Vernova Stock Still Telling You The Same Thing?",
@@ -204590,7 +204601,8 @@ const NEWS_DATA = {
             "October 14th, 2026 · by Trefis Team GEV YTD +44.4% SPY YTD +13.5% XLI YTD +8.3% Analyze GEV → Shares of GE Vernova (GEV) returned 66.5% in the twelve months to October 13, 2026, outpacing the 20.5% return for the S&P 500."
           ],
           "analysisUpdatedAt": 1792057520.1924725
-        }
+        },
+        "headlineKo": "GE Vernova 주식이 여전히 같은 말을 하고 있나요?"
       },
       {
         "headline": "GE Vernova (GEV) Registers a Bigger Fall Than the Market: Important Facts to Note",
@@ -210046,7 +210058,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "CEG": {
@@ -215136,7 +215148,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 110,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "VST": {
@@ -218786,7 +218798,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "ETN": {
@@ -222210,7 +222222,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "PWR": {
@@ -222270,7 +222282,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1792057575.120149
-        }
+        },
+        "headlineKo": "Quanta 서비스: 강력한 백로그와 더 큰 기회"
       },
       {
         "headline": "Why Quanta Services (PWR) Dipped More Than Broader Market Today",
@@ -225474,7 +225487,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "HUBB": {
@@ -226241,7 +226254,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "VRT": {
@@ -226315,7 +226328,8 @@ const NEWS_DATA = {
             "October 14th, 2026 · by Trefis Team VRT YTD +37.6% SPY YTD +13.5% XLI YTD +8.3% Analyze VRT → During its second-quarter call, Vertiv (VRT) forecast third-quarter 2026 sales of $3.75 billion at the midpoint."
           ],
           "analysisUpdatedAt": 1792057600.0537393
-        }
+        },
+        "headlineKo": "Vertiv 주주들이 이 숫자를 주목해야 하는 이유는 무엇입니까?"
       },
       {
         "headline": "Vertiv Holdings Co (VRT) Unveils AI Deployment Guide As Enterprise Adoption Ramps Up",
@@ -230745,7 +230759,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "MOD": {
@@ -230805,7 +230819,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1792057610.3360417
-        }
+        },
+        "headlineKo": "모딘(MOD)은 시장보다 더 많이 하락: 투자자를 위한 일부 정보"
       },
       {
         "headline": "Modine Manufacturing Company (MOD) Is a Trending Stock: Facts to Know Before Betting on It",
@@ -230854,7 +230869,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1792057612.4915612
-        }
+        },
+        "headlineKo": "Modine Manufacturing Company(MOD)는 인기 주식입니다: 베팅하기 전에 알아야 할 사실"
       },
       {
         "headline": "Modine (MOD) Falls More Steeply Than Broader Market: What Investors Need to Know",
@@ -232167,7 +232183,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "STX": {
@@ -232227,7 +232243,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1792057622.2030222
-        }
+        },
+        "headlineKo": "Seagate를 통한 Western Digital: Toshiba 매각은 거의 변화하지 않습니다."
       },
       {
         "headline": "Seagate's Improving Earnings Support A Cautious Upside",
@@ -236829,7 +236846,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "EME": {
@@ -236889,7 +236906,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1792057631.7413235
-        }
+        },
+        "headlineKo": "EMCOR: 2021년 이후 배수가 연말 수준을 초과하는 동안 보유"
       },
       {
         "headline": "Emcor Group (EME) Dips More Than Broader Market: What You Should Know",
@@ -238735,7 +238753,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "FIX": {
@@ -240474,7 +240492,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   },
   "BE": {
@@ -240548,7 +240566,8 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Bloom Energy ( BE -9.15% ) stock has surged as artificial intelligence (AI) data centers have turned to the company's fuel cells fo"
           ],
           "analysisUpdatedAt": 1792057657.5870833
-        }
+        },
+        "headlineKo": "Bloom Energy 주식은 기록보다 31% 낮습니다. 2030년에는 여기가 될 것이라고 생각합니다."
       },
       {
         "headline": "BE Stock Slips Overnight Amid AI Selloff: AEP To Spend $4B On Fuel Cells To Power Google",
@@ -240611,7 +240630,8 @@ const NEWS_DATA = {
             "In this photo illustration, the Bloom Energy logo is seen displayed on a smartphone screen."
           ],
           "analysisUpdatedAt": 1792057663.4840772
-        }
+        },
+        "headlineKo": "AI 매각으로 인해 BE 주식이 밤새 하락: AEP, Google에 전력을 공급하기 위해 연료 전지에 40억 달러 지출"
       },
       {
         "headline": "Bloom Energy (BE) Stock May Be 34% Undervalued After Jersey Patch Deal",
@@ -243203,7 +243223,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-10-15 18:47"
+      "updated": "2026-10-15 19:20"
     }
   }
 };
