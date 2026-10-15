@@ -6178,7 +6178,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "SPY": {
@@ -13926,7 +13926,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 157,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "MSFT": {
@@ -21857,7 +21857,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "GOOGL": {
@@ -29893,7 +29893,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "AMZN": {
@@ -38000,7 +38000,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "META": {
@@ -46109,7 +46109,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "AAPL": {
@@ -54039,7 +54039,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "TSLA": {
@@ -62238,7 +62238,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "ORCL": {
@@ -70727,7 +70727,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "CRM": {
@@ -78325,7 +78325,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 165,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "PLTR": {
@@ -87377,7 +87377,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "NVDA": {
@@ -87735,6 +87735,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=edf9b6f2ba5f33bfa6d54b85bd8d598ed150e1c76013218ed825b4086081f0cc",
         "datetime": 1792044966,
+        "headlineKo": "ByteDance가 AI 데이터 센터 칩에 대한 MediaTek Pact를 마무리함에 따라 QCOM, AVGO, NVDA 주식에 초점이 맞춰졌습니다.",
         "relevance": 0.6,
         "keywordFlag": false,
         "analysis": {
@@ -95278,7 +95279,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "AMD": {
@@ -103306,7 +103307,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "AVGO": {
@@ -103541,6 +103542,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=edf9b6f2ba5f33bfa6d54b85bd8d598ed150e1c76013218ed825b4086081f0cc",
         "datetime": 1792044966,
+        "headlineKo": "ByteDance가 AI 데이터 센터 칩에 대한 MediaTek Pact를 마무리함에 따라 QCOM, AVGO, NVDA 주식에 초점이 맞춰졌습니다.",
         "relevance": 0.75,
         "keywordFlag": false,
         "analysis": {
@@ -112242,7 +112244,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "QCOM": {
@@ -112592,6 +112594,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=edf9b6f2ba5f33bfa6d54b85bd8d598ed150e1c76013218ed825b4086081f0cc",
         "datetime": 1792044966,
+        "headlineKo": "ByteDance가 AI 데이터 센터 칩에 대한 MediaTek Pact를 마무리함에 따라 QCOM, AVGO, NVDA 주식에 초점이 맞춰졌습니다.",
         "relevance": 0.75,
         "keywordFlag": false,
         "analysis": {
@@ -120705,7 +120708,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 182,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "ARM": {
@@ -126506,7 +126509,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 113,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "MRVL": {
@@ -135226,7 +135229,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "INTC": {
@@ -143820,7 +143823,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "TSM": {
@@ -144075,6 +144078,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=45cd6fc330cfc2a0c6d04e65de15d8773cf0411d3dc01fbc08e1c4907023d21a",
         "datetime": 1792054924,
+        "headlineKo": "대만 반도체 제조업 3분기 실적 발표 하이라이트",
         "relevance": 1.0,
         "keywordFlag": false,
         "analysis": {
@@ -144137,6 +144141,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f119653fe2b3bdb32b238ff642089c10f0b3987690bfe24728542d897532b7ec",
         "datetime": 1792054703,
+        "headlineKo": "나스닥 선물이 시장 전 가격으로 하락하는 이유는 무엇입니까? CRWV, MU, TSM, SKHY, IBRX, RKLB, TSLA 주식에 집중",
         "relevance": 0.75,
         "keywordFlag": false,
         "analysis": {
@@ -144185,6 +144190,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=32da48e5f781f1d2d7bfa5433cdeeca23d678bccd6167870bf8fc494b9947af1",
         "datetime": 1792049775,
+        "headlineKo": "TSMC는 Terafab과 협력할 수 있지만 식물을 통제해야 함",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -144233,6 +144239,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2ffe1721c55c9677539566ebe93535ff1f99ed3b31b10d8be5a46b0d118a6938",
         "datetime": 1792048662,
+        "headlineKo": "기록적인 3분기 이익과 밝은 전망에도 불구하고 TSM 주식은 여전히 ​​AI 칩 대패에 휩싸였습니다. 소매업은 여전히 ​​강세를 유지하고 있습니다.",
         "relevance": 0.75,
         "keywordFlag": false
       },
@@ -144241,6 +144248,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2926ac6d912af2859a8b51430220884807e242576fa325029aca8e623bc3d107",
         "datetime": 1792046596,
+        "headlineKo": "대만 반도체 대기업 TSMC, 3분기 순이익 사상 최대 기록 달성",
         "relevance": 0.5,
         "keywordFlag": false
       },
@@ -151833,7 +151841,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 176,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "ASML": {
@@ -157841,7 +157849,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 128,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "AMAT": {
@@ -158045,6 +158053,7 @@ const NEWS_DATA = {
         "source": "ChartMill",
         "url": "https://finnhub.io/api/news?id=b5004b2ea9112cf0114a317cf3b9f3171f3f4cc450fc397cdb1b9568e81dfd81",
         "datetime": 1792054860,
+        "headlineKo": "Applied Materials(NASDAQ:AMAT): 가속화되는 예측과 품질 기본을 통한 합리적인 성장",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -163555,7 +163564,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "LRCX": {
@@ -166507,7 +166516,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "KLAC": {
@@ -169647,7 +169656,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "MU": {
@@ -177593,7 +177602,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "SNDK": {
@@ -186484,7 +186493,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "WDC": {
@@ -186702,6 +186711,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=d0a8ee18d2fd3832c6a6c3786126db02c73d116a75b64106e46f8a6175fb9a53",
         "datetime": 1792033881,
+        "headlineKo": "Seagate를 통한 Western Digital: Toshiba 매각은 거의 변화하지 않습니다.",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -191790,7 +191800,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "ANET": {
@@ -195910,7 +195920,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "COHR": {
@@ -199759,7 +199769,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "LITE": {
@@ -204463,7 +204473,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "GEV": {
@@ -204681,6 +204691,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1bc92daf99fec3f6cd1a177cc466030331dbd94dce8f875edf8f92df1af1a8e6",
         "datetime": 1792046084,
+        "headlineKo": "GEV 주식이 밤새 하락했습니다: 이 분석가는 3분기 결과보다 약 35% 상승 여력이 있다고 봅니다.",
         "relevance": 1.0,
         "keywordFlag": false,
         "analysis": {
@@ -204743,6 +204754,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6558f2aa9e08d4b412cbf7f52ca5ffbdd66101ec4c68891d1fbb52afbc46c055",
         "datetime": 1792024808,
+        "headlineKo": "GE Vernova 주식이 여전히 같은 말을 하고 있나요?",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -210058,7 +210070,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "CEG": {
@@ -215148,7 +215160,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 110,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "VST": {
@@ -218798,7 +218810,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "ETN": {
@@ -222222,7 +222234,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "PWR": {
@@ -222411,6 +222423,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=db2c96f413ad44e63e4bc03b2238896f04a01e5b66a10ad5d456fd68a8d359a7",
         "datetime": 1792036580,
+        "headlineKo": "Quanta 서비스: 강력한 백로그와 더 큰 기회",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -225487,7 +225500,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "HUBB": {
@@ -226254,7 +226267,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "VRT": {
@@ -226458,6 +226471,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f05de01da2300c6d15fc5b3e4b9a9e9047f750e0af55a6c928ba90b225a088a2",
         "datetime": 1792025214,
+        "headlineKo": "Vertiv 주주들이 이 숫자를 주목해야 하는 이유는 무엇입니까?",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -230759,7 +230773,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "MOD": {
@@ -230949,6 +230963,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e3281bf22f4920840f8ce79714629047254c10b52ef814fd5571abdf49856a12",
         "datetime": 1792011002,
+        "headlineKo": "모딘(MOD)은 시장보다 더 많이 하락: 투자자를 위한 일부 정보",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -230997,6 +231012,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=14e47c4e419d81ff79454b96dbed8e68f6470f3238d76b43292289595359e073",
         "datetime": 1791979203,
+        "headlineKo": "Modine Manufacturing Company(MOD)는 인기 주식입니다: 베팅하기 전에 알아야 할 사실",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -232183,7 +232199,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "STX": {
@@ -232372,6 +232388,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=d0a8ee18d2fd3832c6a6c3786126db02c73d116a75b64106e46f8a6175fb9a53",
         "datetime": 1792033881,
+        "headlineKo": "Seagate를 통한 Western Digital: Toshiba 매각은 거의 변화하지 않습니다.",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -236846,7 +236863,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "EME": {
@@ -237035,6 +237052,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=7cb7a5fe03c0d6c285b9b3ff4384ffb22917e97bef7fa39459fd9c66fcd0bf0e",
         "datetime": 1792038776,
+        "headlineKo": "EMCOR: 2021년 이후 배수가 연말 수준을 초과하는 동안 보유",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -238753,7 +238771,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "FIX": {
@@ -240492,7 +240510,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   },
   "BE": {
@@ -240709,6 +240727,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4195896d964a6895f414e45e29ed3f610f21f1776fb68e9819131d8216099c71",
         "datetime": 1792049461,
+        "headlineKo": "Bloom Energy 주식은 기록보다 31% 낮습니다. 2030년에는 여기가 될 것이라고 생각합니다.",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -240771,6 +240790,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=43282b6cd7aeee48c0fddf85bed061cc532a9eca165efa9981dbf562db683bcc",
         "datetime": 1792043570,
+        "headlineKo": "AI 매각으로 인해 BE 주식이 밤새 하락: AEP, Google에 전력을 공급하기 위해 연료 전지에 40억 달러 지출",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -243223,7 +243243,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-10-15 19:20"
+      "updated": "2026-10-15 19:51"
     }
   }
 };
