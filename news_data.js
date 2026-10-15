@@ -2,10 +2,74 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1792043822.9744728,
+    "_last_attempt_at": 1792065601.7215774,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "The Nikkei Crashed Nearly 5% Overnight. Will The NASDAQ Follow It Today?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2c00c4b4f9ac251afe4ef2d559383d0864d7ee9cdb83abc3710cd4966952d8c0",
+        "datetime": 1792059579,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "닛케이는 밤새 거의 5% 하락했습니다.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,714.60 −0.14% Dow Jones 51,819.00 +0.36% Nasdaq 100 29,685.20 −0.89% Russell 2000 2,739.21 +0.29% S&P 500 7,714.60 −0.14% 다우존스 51,819.00 +0.36% 나스닥 100 29,685.20 −0.89% 러셀 2000 2,739.21 +0.",
+            "일본 니케이 지수는 거의 5% 하락했고 한국 코스피는 더욱 큰 폭으로 하락했지만 미국 시장 전 선물은 거의 움츠러들지 않고 있습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 5%, 0.14%, 0.36% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "5%",
+            "0.14%",
+            "0.36%",
+            "0.89%",
+            "0.29%",
+            "0.25%",
+            "$767.64",
+            "1.09%"
+          ],
+          "sourceExcerpt": [
+            "The Nikkei Crashed Nearly 5% Overnight.",
+            "Skip to content ❚❚ At close S&P 500 7,714.60 −0.14% Dow Jones 51,819.00 +0.36% Nasdaq 100 29,685.20 −0.89% Russell 2000 2,739.21 +0.29% S&P 500 7,714.60 −0.14% Dow Jones 51,819.00 +0.36% Nasdaq 100 29,685.20 −0.89% Russell 2000 2,739.21 +0.",
+            "Japan's Nikkei just cratered nearly 5% and South Korea's KOSPI fell even harder, but US premarket futures are barely flinching."
+          ],
+          "analysisUpdatedAt": 1792065613.8656297
+        },
+        "headlineKo": "닛케이는 밤새 거의 5% 하락했습니다. 나스닥이 오늘 따라갈 것인가?"
+      },
       {
         "headline": "Invesco QQQ Doesn't Own a Single Bank, and That's Not the Only Thing the Nasdaq-100 Leaves Out",
         "source": "Yahoo",
@@ -66,7 +130,7 @@ const NEWS_DATA = {
             "JPMorgan's net income grew 6% year over year to $15.3 billion, and Wells Fargo's climbed around 6% to almost $6 billion.",
             "Investors in the Invesco QQQ Trust ( QQQ -1.97% ) didn't own a slice of either one."
           ],
-          "analysisUpdatedAt": 1792043828.904075
+          "analysisUpdatedAt": 1792065618.1918967
         },
         "headlineKo": "Invesco QQQ는 단일 은행을 소유하지 않으며 Nasdaq-100이 남기는 유일한 것은 아닙니다."
       },
@@ -115,7 +179,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792043831.0206902
+          "analysisUpdatedAt": 1792065620.9115014
         },
         "headlineKo": "Southern Glazer의 Wine & Spirits는 Invesco QQQ가 주최하는 Food Network 뉴욕시 와인 및 음식 축제를 위한 독점 와인 및 증류주 공급업체로서 오랜 파트너십을 이어가고 있습니다"
       },
@@ -127,46 +191,6 @@ const NEWS_DATA = {
         "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Want To Own A Tech Stock ETF? There's More Than The QQQ",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Want To Own A Tech Stock ETF? There's More Than The QQQ' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1.0,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792043832.7289472
-        },
         "headlineKo": "기술주 ETF를 소유하고 싶으신가요? QQQ보다 더 많은 것이 있습니다"
       },
       {
@@ -178,19 +202,72 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "다우 선물 상승, 인플레이션을 앞둔 나스닥 제압 프리마켓 데이터: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus"
-      },
-      {
-        "headline": "Stock Market Today: S&P 500, Dow, Nasdaq Futures Gain Even as September Inflation Report Comes In Hotter Than Expected— ASML, AZZ, GME in Focus (UPDATED)",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=2d87b8b56780e9b8aafc7e183cf72afc98e884fc059881bf13cbcc52ace5ed2a",
-        "datetime": 1791967182,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "오늘의 주식 시장: 9월 인플레이션 보고서가 예상보다 뜨거워졌음에도 불구하고 S&P 500, Dow, Nasdaq 선물 상승 - ASML, AZZ, GME 초점(업데이트됨)"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "The Nikkei Crashed Nearly 5% Overnight. Will The NASDAQ Follow It Today?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2c00c4b4f9ac251afe4ef2d559383d0864d7ee9cdb83abc3710cd4966952d8c0",
+        "datetime": 1792059579,
+        "headlineKo": "닛케이는 밤새 거의 5% 하락했습니다. 나스닥이 오늘 따라갈 것인가?",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "닛케이는 밤새 거의 5% 하락했습니다.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,714.60 −0.14% Dow Jones 51,819.00 +0.36% Nasdaq 100 29,685.20 −0.89% Russell 2000 2,739.21 +0.29% S&P 500 7,714.60 −0.14% 다우존스 51,819.00 +0.36% 나스닥 100 29,685.20 −0.89% 러셀 2000 2,739.21 +0.",
+            "일본 니케이 지수는 거의 5% 하락했고 한국 코스피는 더욱 큰 폭으로 하락했지만 미국 시장 전 선물은 거의 움츠러들지 않고 있습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 5%, 0.14%, 0.36% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "5%",
+            "0.14%",
+            "0.36%",
+            "0.89%",
+            "0.29%",
+            "0.25%",
+            "$767.64",
+            "1.09%"
+          ],
+          "sourceExcerpt": [
+            "The Nikkei Crashed Nearly 5% Overnight.",
+            "Skip to content ❚❚ At close S&P 500 7,714.60 −0.14% Dow Jones 51,819.00 +0.36% Nasdaq 100 29,685.20 −0.89% Russell 2000 2,739.21 +0.29% S&P 500 7,714.60 −0.14% Dow Jones 51,819.00 +0.36% Nasdaq 100 29,685.20 −0.89% Russell 2000 2,739.21 +0.",
+            "Japan's Nikkei just cratered nearly 5% and South Korea's KOSPI fell even harder, but US premarket futures are barely flinching."
+          ],
+          "analysisUpdatedAt": 1792065613.8656297
+        }
+      },
       {
         "headline": "Invesco QQQ Doesn't Own a Single Bank, and That's Not the Only Thing the Nasdaq-100 Leaves Out",
         "source": "Yahoo",
@@ -251,7 +328,7 @@ const NEWS_DATA = {
             "JPMorgan's net income grew 6% year over year to $15.3 billion, and Wells Fargo's climbed around 6% to almost $6 billion.",
             "Investors in the Invesco QQQ Trust ( QQQ -1.97% ) didn't own a slice of either one."
           ],
-          "analysisUpdatedAt": 1792043828.904075
+          "analysisUpdatedAt": 1792065618.1918967
         }
       },
       {
@@ -299,7 +376,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792043831.0206902
+          "analysisUpdatedAt": 1792065620.9115014
         }
       },
       {
@@ -6170,15 +6247,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792043822.9744728,
-    "_updated_label": "2026-10-15 14:57",
-    "_last_success_at": 1792043822.9744728,
+    "_fetched_at": 1792065601.7215774,
+    "_updated_label": "2026-10-15 21:00",
+    "_last_success_at": 1792065601.7215774,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 120,
+      "checked": 121,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "SPY": {
@@ -13926,11 +14003,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 157,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "MSFT": {
-    "_last_attempt_at": 1792043822.9744728,
+    "_last_attempt_at": 1792065601.7215774,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -13939,6 +14016,120 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Microsoft Had Its Best Quarter in 28 Years. Is it Too Late to Buy the Stock?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9245253fa9f2576955d83bdce769232bfcbfa67e27b046955d86bb06481e60dd",
+        "datetime": 1792053302,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "마이크로소프트는 28년 만에 최고의 분기를 보냈다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Microsoft( MSFT -1.80% )는 많은 투자자들이 인공지능(AI)이 사라질 것이라고 생각하면서 지난 12개월 동안 어려움을 겪었습니다.",
+            "그러나 이 거대 기술 기업은 지난 3개월 동안 다시 활기를 되찾았습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 38%, 18%, $90 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "MSFT에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "38%",
+            "18%",
+            "$90 billion",
+            "$40.6 billion",
+            "$4.74,",
+            "23%",
+            "43%",
+            "$100 billion"
+          ],
+          "sourceExcerpt": [
+            "Microsoft Had Its Best Quarter in 28 Years.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Microsoft ( MSFT -1.80% ) has had a challenging past 12 months, as many investors think that artificial intelligence (AI) will disp",
+            "However, the tech giant has roared back over the past three months."
+          ],
+          "analysisUpdatedAt": 1792065632.3054998
+        },
+        "headlineKo": "마이크로소프트는 28년 만에 최고의 분기를 보냈다. 주식을 사기에는 너무 늦은 걸까요?"
+      },
+      {
+        "headline": "Hornetsecurity by Proofpoint introduces new capabilities to support secure AI adoption for organisations using Microsoft 365",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=fc9753d8af736d90fde48f307220d7d860e478a2d46eaea31a1dc1ba0c236fb3",
+        "datetime": 1792051200,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Hornetsecurity by Proofpoint introduces new capabilities to support secure AI adoption for organisations using Microsoft 365",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Hornetsecurity by Proofpoint introduces new capabilities to support secure AI adoption for organisations using Microsoft 365' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792065634.4718108
+        },
+        "headlineKo": "Proofpoint의 Hornetsecurity는 Microsoft 365를 사용하는 조직의 보안 AI 채택을 지원하는 새로운 기능을 도입합니다."
+      },
       {
         "headline": "Microsoft Just Unveiled a Brand-New AI Chip. Could It Be the \"Nvidia Killer\" Everyone's Been Looking For?",
         "source": "Yahoo",
@@ -13999,7 +14190,7 @@ const NEWS_DATA = {
             "Could It Be the \"Nvidia Killer\" Everyone's Been Looking For?",
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool On Monday, Microsoft ( MSFT -1.80% ) unveiled its latest AI chip architecture, the Maia 300."
           ],
-          "analysisUpdatedAt": 1792043840.4163432
+          "analysisUpdatedAt": 1792065638.1103926
         },
         "headlineKo": "마이크로소프트가 새로운 AI 칩을 공개했습니다. 모두가 찾고 있던 \"Nvidia Killer\"가 될 수 있을까요?"
       },
@@ -14011,46 +14202,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Microsoft (MSFT) Built a $100B Azure. Can It Outrun Its Own Spending?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft (MSFT) Built a $100B Azure. Can It Outrun Its Own Spending?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792043842.3948677
-        },
         "headlineKo": "Microsoft(MSFT)는 1000억 달러 규모의 Azure를 구축했습니다. 자체 지출을 초과할 수 있습니까?"
       },
       {
@@ -14061,81 +14212,7 @@ const NEWS_DATA = {
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Microsoft 주식의 새로운 최고가로 인해 구매가 중단되어야 합니까?",
-            "| Trefis Microsoft 주식의 새로운 최고가로 인해 구매가 중단되어야 합니까?",
-            "2026년 10월 14일 · Trefis Team MSFT YTD +11.1% SPY YTD +13.5% QQQ YTD +18.9% MSFT 분석 → 대부분의 투자자는 Microsoft(MSFT)와 같은 주식에 한 가지 규칙을 적용합니다."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 11.1%, 13.5%, 18.9% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "MSFT에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "11.1%",
-            "13.5%",
-            "18.9%",
-            "6.4%",
-            "31.3%",
-            "43%",
-            "31.1%",
-            "30.2%"
-          ],
-          "sourceExcerpt": [
-            "Should Microsoft Stock’s New High Stop You From Buying?",
-            "| Trefis Should Microsoft Stock’s New High Stop You From Buying?",
-            "October 14th, 2026 · by Trefis Team MSFT YTD +11.1% SPY YTD +13.5% QQQ YTD +18.9% Analyze MSFT → Most investors apply one rule to a stock like Microsoft (MSFT) : buy low and never at the top."
-          ],
-          "analysisUpdatedAt": 1792043846.5423486
-        },
         "headlineKo": "Microsoft 주식의 신고가로 인해 구매가 중단되어야 합니까?"
-      },
-      {
-        "headline": "What Could Microsoft (MSFT) Gain From Its Maia 300 AI Chip Rollout?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=10dda3df1699ea7f66ef7cb196fb638228aacc9857542a407464328fa6ab8ac0",
-        "datetime": 1791997787,
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Microsoft(MSFT)가 Maia 300 AI 칩 출시를 통해 무엇을 얻을 수 있습니까?"
-      },
-      {
-        "headline": "Not Microsoft. Not Alphabet. Here's the Cloud Giant I'm Most Bullish About.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=925af316340840495a8eb45fd24a81b58061cf5584a484c271e9548c763df585",
-        "datetime": 1791992580,
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "마이크로소프트가 아닙니다. 알파벳이 아닙니다. 제가 가장 낙관하는 클라우드 거인은 다음과 같습니다."
       },
       {
         "headline": "Microsoft Sues JLL For Protection Against Lawsuit At NYC Office Project",
@@ -14205,6 +14282,118 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "Microsoft Had Its Best Quarter in 28 Years. Is it Too Late to Buy the Stock?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9245253fa9f2576955d83bdce769232bfcbfa67e27b046955d86bb06481e60dd",
+        "datetime": 1792053302,
+        "headlineKo": "마이크로소프트는 28년 만에 최고의 분기를 보냈다. 주식을 사기에는 너무 늦은 걸까요?",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "마이크로소프트는 28년 만에 최고의 분기를 보냈다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Microsoft( MSFT -1.80% )는 많은 투자자들이 인공지능(AI)이 사라질 것이라고 생각하면서 지난 12개월 동안 어려움을 겪었습니다.",
+            "그러나 이 거대 기술 기업은 지난 3개월 동안 다시 활기를 되찾았습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 38%, 18%, $90 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "MSFT에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "38%",
+            "18%",
+            "$90 billion",
+            "$40.6 billion",
+            "$4.74,",
+            "23%",
+            "43%",
+            "$100 billion"
+          ],
+          "sourceExcerpt": [
+            "Microsoft Had Its Best Quarter in 28 Years.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Microsoft ( MSFT -1.80% ) has had a challenging past 12 months, as many investors think that artificial intelligence (AI) will disp",
+            "However, the tech giant has roared back over the past three months."
+          ],
+          "analysisUpdatedAt": 1792065632.3054998
+        }
+      },
+      {
+        "headline": "Hornetsecurity by Proofpoint introduces new capabilities to support secure AI adoption for organisations using Microsoft 365",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=fc9753d8af736d90fde48f307220d7d860e478a2d46eaea31a1dc1ba0c236fb3",
+        "datetime": 1792051200,
+        "headlineKo": "Proofpoint의 Hornetsecurity는 Microsoft 365를 사용하는 조직의 보안 AI 채택을 지원하는 새로운 기능을 도입합니다.",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Hornetsecurity by Proofpoint introduces new capabilities to support secure AI adoption for organisations using Microsoft 365",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Hornetsecurity by Proofpoint introduces new capabilities to support secure AI adoption for organisations using Microsoft 365' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792065634.4718108
+        }
+      },
+      {
         "headline": "Microsoft Just Unveiled a Brand-New AI Chip. Could It Be the \"Nvidia Killer\" Everyone's Been Looking For?",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3b21b8ed43d6146ab7b78d71ad16ec2e608f7d35e23693f96d04aea5cfd49889",
@@ -14264,7 +14453,7 @@ const NEWS_DATA = {
             "Could It Be the \"Nvidia Killer\" Everyone's Been Looking For?",
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool On Monday, Microsoft ( MSFT -1.80% ) unveiled its latest AI chip architecture, the Maia 300."
           ],
-          "analysisUpdatedAt": 1792043840.4163432
+          "analysisUpdatedAt": 1792065638.1103926
         }
       },
       {
@@ -21732,132 +21921,17 @@ const NEWS_DATA = {
         "headlineKo": "Daivio, Microsoft Fabric용 AI 기반 데이터 분석 워크로드 출시",
         "relevance": 0.4,
         "keywordFlag": false
-      },
-      {
-        "headline": "Should Microsoft (MSFT) Investors Worry About A $3 Trillion Hidden AI Risk?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5bffcba2b42a6cc186c47ba28b6d1534d27ce20b2f7a5efd314da9694fe300b7",
-        "datetime": 1790640504,
-        "headlineKo": "Microsoft(MSFT) 투자자는 3조 달러에 달하는 숨겨진 AI 위험을 걱정해야 합니까?",
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "mixed",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Should Microsoft (MSFT) Investors Worry About A $3 Trillion Hidden AI Risk?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: MSFT에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 다음 실적의 매출·이익·현금흐름 중 실제 숫자로 확인되는 부분을 우선 보세요.",
-          "relevance": 1.0,
-          "quality": "high",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790663027.7987945
-        }
-      },
-      {
-        "headline": "Nokia (NOK) and Microsoft (MSFT) are Expanding Their AI Reach. Can the Opportunity Translate into Returns?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=823d2cb633c72b4aa7ab46a742fed029861318ac48ba81ea2cc883c18ca8b290",
-        "datetime": 1790631687,
-        "headlineKo": "Nokia(NOK)와 Microsoft(MSFT)가 AI 범위를 확장하고 있습니다. 기회가 수익으로 전환될 수 있습니까?",
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "본문 확인 필요",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Nokia (NOK) and Microsoft (MSFT) are Expanding Their AI Reach. Can the Opportunity Translate into Returns?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "MSFT에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1.0,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790663029.5143096
-        }
       }
     ],
-    "_fetched_at": 1792043822.9744728,
-    "_updated_label": "2026-10-15 14:57",
-    "_last_success_at": 1792043822.9744728,
+    "_fetched_at": 1792065601.7215774,
+    "_updated_label": "2026-10-15 21:00",
+    "_last_success_at": 1792065601.7215774,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "GOOGL": {
@@ -29893,7 +29967,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "AMZN": {
@@ -38000,7 +38074,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "META": {
@@ -46109,7 +46183,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "AAPL": {
@@ -54039,7 +54113,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "TSLA": {
@@ -62238,7 +62312,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "ORCL": {
@@ -70727,7 +70801,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "CRM": {
@@ -78325,7 +78399,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 165,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "PLTR": {
@@ -87377,7 +87451,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "NVDA": {
@@ -95279,7 +95353,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "AMD": {
@@ -103307,7 +103381,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "AVGO": {
@@ -112244,7 +112318,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "QCOM": {
@@ -120708,7 +120782,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 182,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "ARM": {
@@ -126509,7 +126583,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 113,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "MRVL": {
@@ -135229,7 +135303,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "INTC": {
@@ -143823,7 +143897,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "TSM": {
@@ -151841,7 +151915,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 176,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "ASML": {
@@ -157849,7 +157923,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 128,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "AMAT": {
@@ -163564,7 +163638,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "LRCX": {
@@ -166516,11 +166590,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1792043822.9744728,
+    "_last_attempt_at": 1792065601.7215774,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -166589,7 +166663,7 @@ const NEWS_DATA = {
             "| Trefis What Is The True Hidden Price Of KLA Stock?",
             "October 14th, 2026 · by Trefis Team KLAC YTD +47.7% SPY YTD +13.5% QQQ YTD +18.9% Analyze KLAC → Investors are currently paying 47.7 times trailing twelve-month earnings for shares of KLA (KLAC) ."
           ],
-          "analysisUpdatedAt": 1792043856.0939813
+          "analysisUpdatedAt": 1792065648.5626674
         },
         "headlineKo": "KLA 주식의 진정한 숨겨진 가격은 무엇입니까?"
       },
@@ -166639,7 +166713,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792043858.466359
+          "analysisUpdatedAt": 1792065651.041557
         },
         "headlineKo": "KLA (KLAC)가 부문 압력에 따라 철수했는데 주식은 여전히 ​​​​저렴합니까?"
       },
@@ -166689,7 +166763,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792043860.455435
+          "analysisUpdatedAt": 1792065653.839039
         },
         "headlineKo": "KLA (KLAC) 주식은 5년 동안의 실행 후 완전히 가치를 지닌 것으로 보입니다."
       },
@@ -166827,7 +166901,7 @@ const NEWS_DATA = {
             "| Trefis What Is The True Hidden Price Of KLA Stock?",
             "October 14th, 2026 · by Trefis Team KLAC YTD +47.7% SPY YTD +13.5% QQQ YTD +18.9% Analyze KLAC → Investors are currently paying 47.7 times trailing twelve-month earnings for shares of KLA (KLAC) ."
           ],
-          "analysisUpdatedAt": 1792043856.0939813
+          "analysisUpdatedAt": 1792065648.5626674
         }
       },
       {
@@ -166876,7 +166950,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792043858.466359
+          "analysisUpdatedAt": 1792065651.041557
         }
       },
       {
@@ -166925,7 +166999,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792043860.455435
+          "analysisUpdatedAt": 1792065653.839039
         }
       },
       {
@@ -169648,15 +169722,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792043822.9744728,
-    "_updated_label": "2026-10-15 14:57",
-    "_last_success_at": 1792043822.9744728,
+    "_fetched_at": 1792065601.7215774,
+    "_updated_label": "2026-10-15 21:00",
+    "_last_success_at": 1792065601.7215774,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "MU": {
@@ -177602,7 +177676,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "SNDK": {
@@ -186493,7 +186567,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "WDC": {
@@ -191800,11 +191874,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "ANET": {
-    "_last_attempt_at": 1792043822.9744728,
+    "_last_attempt_at": 1792065601.7215774,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -191813,6 +191887,56 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Arista Networks (NYSE:ANET): A Quality Stock With Strong Fundamentals and a Rich Valuation",
+        "source": "ChartMill",
+        "url": "https://finnhub.io/api/news?id=89b9ba0c163ed4bf4acea67eba7e7ff8631665f8fae0169e6ee6b2711494fc50",
+        "datetime": 1792051874,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Arista Networks (NYSE:ANET): A Quality Stock With Strong Fundamentals and a Rich Valuation",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ANET",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ANET의 사업과 관련된 'Arista Networks (NYSE:ANET): A Quality Stock With Strong Fundamentals and a Rich Valuation' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ANET 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792065659.5569615
+        },
+        "headlineKo": "Arista Networks(NYSE:ANET): 강력한 펀더멘털과 풍부한 가치 평가를 갖춘 고품질 주식"
+      },
       {
         "headline": "Does Beating The Market Prove Arista Is A Great Company?",
         "source": "Yahoo",
@@ -191873,7 +191997,7 @@ const NEWS_DATA = {
             "| Trefis Does Beating The Market Prove Arista Is A Great Company?",
             "October 14th, 2026 · by Trefis Team ANET YTD +49.1% SPY YTD +13.5% QQQ YTD +18.9% Analyze ANET → Arista Networks (ANET) sells the network switches that link computers together."
           ],
-          "analysisUpdatedAt": 1792043868.8520374
+          "analysisUpdatedAt": 1792065663.4958367
         },
         "headlineKo": "시장을 이기면 Arista가 훌륭한 회사라는 것이 입증됩니까?"
       },
@@ -191923,7 +192047,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792043870.7531397
+          "analysisUpdatedAt": 1792065665.639947
         },
         "headlineKo": "10년 전에 Arista Networks에 $1000를 투자했다면 지금은 이 금액을 갖게 될 것입니다."
       },
@@ -191935,6 +192059,28 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "Arista Networks(ANET)는 시장보다 더 큰 하락세를 기록했습니다: 주목해야 할 중요한 사실"
+      },
+      {
+        "headline": "Arista Networks (ANET) Stock Dropped, What Is Behind The Fresh Attention?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8c62c904a3f5dfaffa656d52424644aee3408d0d9eaa6676ca41c090da106a21",
+        "datetime": 1791922752,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Arista Networks(ANET) 주식 하락, 새로운 관심의 배경은 무엇입니까?"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Arista Networks (NYSE:ANET): A Quality Stock With Strong Fundamentals and a Rich Valuation",
+        "source": "ChartMill",
+        "url": "https://finnhub.io/api/news?id=89b9ba0c163ed4bf4acea67eba7e7ff8631665f8fae0169e6ee6b2711494fc50",
+        "datetime": 1792051874,
+        "headlineKo": "Arista Networks(NYSE:ANET): 강력한 펀더멘털과 풍부한 가치 평가를 갖춘 고품질 주식",
+        "relevance": 1,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "low",
@@ -191943,7 +192089,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Arista Networks (ANET) Registers a Bigger Fall Than the Market: Important Facts to Note",
+            "Arista Networks (NYSE:ANET): A Quality Stock With Strong Fundamentals and a Rich Valuation",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -191967,38 +192113,15 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 ANET의 사업과 관련된 'Arista Networks (ANET) Registers a Bigger Fall Than the Market: Important Facts to Note' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 ANET의 사업과 관련된 'Arista Networks (NYSE:ANET): A Quality Stock With Strong Fundamentals and a Rich Valuation' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "ANET 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792043872.4953284
-        },
-        "headlineKo": "Arista Networks(ANET)는 시장보다 더 큰 하락세를 기록했습니다: 주목해야 할 중요한 사실"
+          "analysisUpdatedAt": 1792065659.5569615
+        }
       },
-      {
-        "headline": "Arista Networks (ANET) Stock Dropped, What Is Behind The Fresh Attention?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8c62c904a3f5dfaffa656d52424644aee3408d0d9eaa6676ca41c090da106a21",
-        "datetime": 1791922752,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Arista Networks(ANET) 주식 하락, 새로운 관심의 배경은 무엇입니까?"
-      },
-      {
-        "headline": "Arista Networks vs. International Business Machines: Which Technology Stock Is a Better Buy in 2026?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=da95330d769a20958512d5d0d3434071d289dfd7cc0f5f87bc18249397c22811",
-        "datetime": 1791909301,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Arista Networks 대 국제 비즈니스 머신: 2026년에는 어떤 기술 주식을 구매하는 것이 더 낫습니까?"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Does Beating The Market Prove Arista Is A Great Company?",
         "source": "Yahoo",
@@ -192059,7 +192182,7 @@ const NEWS_DATA = {
             "| Trefis Does Beating The Market Prove Arista Is A Great Company?",
             "October 14th, 2026 · by Trefis Team ANET YTD +49.1% SPY YTD +13.5% QQQ YTD +18.9% Analyze ANET → Arista Networks (ANET) sells the network switches that link computers together."
           ],
-          "analysisUpdatedAt": 1792043868.8520374
+          "analysisUpdatedAt": 1792065663.4958367
         }
       },
       {
@@ -192108,7 +192231,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792043870.7531397
+          "analysisUpdatedAt": 1792065665.639947
         }
       },
       {
@@ -195912,15 +196035,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792043822.9744728,
-    "_updated_label": "2026-10-15 14:57",
-    "_last_success_at": 1792043822.9744728,
+    "_fetched_at": 1792065601.7215774,
+    "_updated_label": "2026-10-15 21:01",
+    "_last_success_at": 1792065601.7215774,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 82,
+      "checked": 83,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "COHR": {
@@ -199769,7 +199892,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "LITE": {
@@ -204473,7 +204596,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "GEV": {
@@ -210070,7 +210193,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "CEG": {
@@ -215160,7 +215283,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 110,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "VST": {
@@ -218810,7 +218933,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "ETN": {
@@ -222234,7 +222357,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "PWR": {
@@ -225500,7 +225623,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "HUBB": {
@@ -226267,7 +226390,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "VRT": {
@@ -230773,7 +230896,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "MOD": {
@@ -232199,7 +232322,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "STX": {
@@ -236863,7 +236986,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "EME": {
@@ -238771,7 +238894,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "FIX": {
@@ -240510,7 +240633,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   },
   "BE": {
@@ -243243,7 +243366,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-10-15 19:51"
+      "updated": "2026-10-15 21:01"
     }
   }
 };
