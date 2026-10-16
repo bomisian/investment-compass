@@ -5990,15 +5990,25 @@ function pvReverseDcfModelB(t, r, fin, fund, est){
     consensus10yGrowthPct = (Math.pow(compound, 1/YEARS) - 1) * 100;
   }
   let verdict = null;
+  // WO8-B 4차 추가 수정(2026-10-16 사용자 지시) -- verdict를 못 낼 때(비교 기준이 0 이하)
+  // 왜 못 내는지 두 경우를 구분해 보여준다: ①애초에 1~2년차 컨센서스 자체가 없음(데이터
+  // 부족) vs ②컨센서스는 있지만 1년차·2년차 추정 방향이 크게 엇갈려(예: GEV 1년차 +72%
+  // → 2년차 약 -19.5%) 선형 감소시킨 10년 CAGR이 음수로 나옴(데이터 부족이 아니라 추정치
+  // 자체의 변동성 문제). 화면·JSON에 쓰는 비교불가 문구를 이 사유로 분기한다.
+  let verdictBlockedReason = null;
   if(consensus10yGrowthPct != null && consensus10yGrowthPct > 0){
     const ratio = impliedGrowthPct/consensus10yGrowthPct;
     verdict = ratio > 1.5 ? '기대 선반영 큼' : (ratio >= 0.7 ? '기대와 부합' : '기대 대비 낮음');
+  } else if(g0 == null && g1 == null){
+    verdictBlockedReason = '컨센서스 성장률 데이터 부족';
+  } else {
+    verdictBlockedReason = '컨센서스 1·2년차 방향 엇갈림';
   }
   return {
     ok: true, impliedGrowthPct: Number(impliedGrowthPct.toFixed(1)),
     consensusGrowthPct: consensusGrowthPct != null ? Number(consensusGrowthPct.toFixed(1)) : null,
     consensus10yGrowthPct: consensus10yGrowthPct != null ? Number(consensus10yGrowthPct.toFixed(1)) : null,
-    verdict, fcfBasis: Number(fcf0.toFixed(0)), fcfSource, fcfIsEpsProxy, boundHit,
+    verdict, verdictBlockedReason, fcfBasis: Number(fcf0.toFixed(0)), fcfSource, fcfIsEpsProxy, boundHit,
     assumptions: {discountRatePct: 9, terminalGrowthPct: 3, years: 10,
       evNote: 'EV≈시가총액(price×발행주식수)으로 역산 - 절대 순부채($) 데이터가 파이프라인에 없어 순부채를 더하지 않음(지어내지 않음)',
       consensusNote: '비교 기준 10년 CAGR: 1~2년차는 컨센서스, 3~10년차는 2년차→영구성장률(3%)까지 선형 감소(WO8-B 4차 지시)'},
@@ -6071,7 +6081,7 @@ function pvFallbackModelV2(t, r, fin, fund, est, baseAnchorPeVal, perBandLowVal,
       // 않는 모델인데 PEG 기반 방향성 라벨(저평가/적정/고평가)을 그대로 쓰면 숫자
       // 기준가 없이 라벨만 나가 모순으로 보인다(ARM 실측: "고평가" + 옛 bandTable
       // $477이 공존). 라벨을 역DCF 자신의 판정(기대 선반영 큼/부합/낮음)으로 바꾼다.
-      priceOverride = result.verdict || '비교 불가(컨센서스 성장률 데이터 부족)';
+      priceOverride = result.verdict || `비교 불가(${result.verdictBlockedReason || '컨센서스 성장률 데이터 부족'})`;
     }
   } else {
     model = 'fallback_peg';
@@ -7686,7 +7696,7 @@ function renderPriceValidityCard(r){
       // WO8-B 4차(2번째 반려) 수정(2026-10-16) -- 내재 성장률·컨센서스 10년 환산치·원래
       // 1~2년차 컨센서스 세 숫자를 모두 표시(지시서 그대로, 비교 기준은 10년 환산치).
       modelBody = `역DCF(할인율 9%·영구성장률 3%·10년, ${esc(rr.assumptions.evNote)}) 기준 시장 내재 성장률 연 ${rr.impliedGrowthPct.toFixed(1)}%
-        vs 컨센서스 10년 환산 CAGR 연 ${rr.consensus10yGrowthPct!=null?rr.consensus10yGrowthPct.toFixed(1):'—'}% → <b>${esc(rr.verdict||'비교 불가')}</b>
+        vs 컨센서스 10년 환산 CAGR 연 ${rr.consensus10yGrowthPct!=null?rr.consensus10yGrowthPct.toFixed(1):'—'}% → <b>${esc(rr.verdict || `비교 불가(${rr.verdictBlockedReason||'컨센서스 성장률 데이터 부족'})`)}</b>
         (원래 1~2년차 평균 컨센서스는 연 ${rr.consensusGrowthPct!=null?rr.consensusGrowthPct.toFixed(1):'—'}% — 1~2년차는 그대로 쓰고 3~10년차는 2년차→영구성장률(3%)까지 선형 감소시켜 10년 CAGR로 환산한 값과 비교합니다)
         (기준 현금흐름: $${(rr.fcfBasis/1e9).toFixed(2)}B, ${esc(rr.fcfSource)}${rr.fcfIsEpsProxy?' · FCF 대체값':''}${rr.boundHit?' · 탐색 범위(-30%~60%) 경계에 닿음 - 추정 신뢰도 낮음':''})
         이 모델은 기준가를 내지 않습니다(지시서 명시) — 매수 구간은 나침반 구간·옵션 구간을 그대로 씁니다.`;
