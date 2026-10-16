@@ -4420,7 +4420,7 @@ function smartChip(ticker){
   const c = x.counts || {};
   const up = (c['신규'] || 0) + (c['추가'] || 0), dn = (c['일부매도'] || 0) + (c['전량매도'] || 0);
   const nb = ((x.new_buys || []).length && smartFresh()) ? ' <span style="background:#b3261e;color:#fff;border-radius:6px;padding:0 5px;font-size:10px;font-weight:700;">NEW</span>' : '';
-  return `<span style="font-size:10px;color:#626b76;" title="유명 투자자 13F(최근 공개분 기준, 과거 포지션): 보유 ${x.holders}명 · 신규/추가 ${up} · 감소/전량매도 ${dn}. 매수 신호 아님 — 🐋 Smart Money 탭 참고">🐋${x.holders}명 ↑${up} ↓${dn}</span>${nb}`;
+  return `<span style="font-size:10px;color:#626b76;" title="유명 투자자 13F(최근 공개분 기준, 과거 포지션 - 분기말 보유를 최대 45일 지연 공개): 보유 ${x.holders}명 · 신규/추가 ${up} · 감소/전량매도 ${dn}. 판정에 쓰이지 않음, 매수 신호 아님 — 🐋 Smart Money 탭 참고">🐋${x.holders}명 ↑${up} ↓${dn}</span>${nb}`;
 }
 function smartDetailHtml(x){
   const S = window.SMART_MONEY || {};
@@ -4577,7 +4577,7 @@ function smartSummaryHtml(ticker){
   const age = (x.investors || []).map(i => i.days_since_filing).filter(v => typeof v === 'number');
   return `<div class="fund-row"><span>보유 투자자(13F)</span><span class="v">${x.holders ?? 0}명 · 🆕${c['신규'] || 0} ⬆${c['추가'] || 0} ⬇${c['일부매도'] || 0} ❌${c['전량매도'] || 0}</span></div>`
     + (inv ? `<div class="sub" style="font-size:10.5px;">${inv}</div>` : '')
-    + `<div class="sub" style="font-size:10.5px;">최근 공개 공시 기준(보고기준일 ${esc(x.latest_report_date || '?')}${age.length ? ` · 공개 후 ${Math.min(...age)}~${Math.max(...age)}일` : ''}) — 지금도 보유 중인지는 알 수 없어요</div>`;
+    + `<div class="sub" style="font-size:10.5px;">최근 공개 공시 기준(보고기준일 ${esc(x.latest_report_date || '?')}${age.length ? ` · 공개 후 ${Math.min(...age)}~${Math.max(...age)}일` : ''}) — 분기말 보유를 최대 45일 지연 공개(13F), 지금도 보유 중인지는 알 수 없어요</div>`;
 }
 function setSmartFilter(f){ smartFilter = f; renderSmartMoneyPage(); }
 function smartAddWatch(ticker){
