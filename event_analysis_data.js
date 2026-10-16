@@ -1,11 +1,11 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1792140799.6985805,
+  "generatedAt": 1792142809.7566314,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792088681,
       "signal": "우호적 변화",
       "netScore": 4.34,
@@ -129,7 +129,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792088681,
       "signal": "주의 강화",
       "netScore": -3.09,
@@ -208,7 +208,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "3aaa2de595c76d97675e",
-          "headline": "Alphabet Might Use Waymo to Destroy Tesla’s First-Mover “Robotaxi Monopoly” Premium",
+          "headline": "Alphabet은 Waymo를 사용하여 Tesla의 First Mover \"Robotaxi Monopoly\" 프리미엄을 파괴할 수 있습니다.",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1792068309,
           "verificationStatus": "needs_confirmation",
@@ -334,7 +334,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792101600,
       "signal": "주의 강화",
       "netScore": -2.32,
@@ -384,7 +384,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "3c2a725c814a55716ce0",
-          "headline": "Elon Musk wants to start an Amazon competitor after Grok bot users say the company blocked them from placing orders",
+          "headline": "Elon Musk는 Grok 봇 사용자가 회사에서 주문을 차단했다고 말한 후 Amazon 경쟁자를 시작하려고 합니다.",
           "eventLabel": "경쟁사 기술·시장 진입",
           "publishedAt": 1792101600,
           "verificationStatus": "needs_confirmation",
@@ -445,7 +445,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1791999015,
       "signal": "중립·확인 대기",
       "netScore": 1.74,
@@ -526,7 +526,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792108905,
       "signal": "주의 강화",
       "netScore": -7.84,
@@ -576,7 +576,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "70c9f5f249d0c81c08f5",
-          "headline": "Jim Cramer Says Starbucks Can Rise On Its Own, Apple’s Audience Is Worth Paying For, And Intel Investors Need Patience",
+          "headline": "짐 크레이머(Jim Cramer)는 스타벅스가 스스로 성장할 수 있고, 애플의 청중은 그만한 대가를 지불할 가치가 있으며, 인텔 투자자들에게는 인내심이 필요하다고 말합니다.",
           "eventLabel": "장기 공급계약",
           "publishedAt": 1792108905,
           "verificationStatus": "needs_confirmation",
@@ -590,7 +590,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "e129d79a1aad39f248d2",
-          "headline": "iPhone Duo Preorders Begin Friday. Is Apple’s First Foldable Phone Reason Alone to Buy the Stock?",
+          "headline": "iPhone Duo 사전 주문이 금요일부터 시작됩니다. 애플의 첫 폴더블폰이 주식을 사는 이유일까요?",
           "eventLabel": "공급망 문제",
           "publishedAt": 1792105021,
           "verificationStatus": "needs_confirmation",
@@ -719,7 +719,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792108905,
       "signal": "주의 강화",
       "netScore": -4.2,
@@ -769,7 +769,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "70c9f5f249d0c81c08f5",
-          "headline": "Jim Cramer Says Starbucks Can Rise On Its Own, Apple’s Audience Is Worth Paying For, And Intel Investors Need Patience",
+          "headline": "짐 크레이머(Jim Cramer)는 스타벅스가 스스로 성장할 수 있고, 애플의 청중은 그만한 대가를 지불할 가치가 있으며, 인텔 투자자들에게는 인내심이 필요하다고 말합니다.",
           "eventLabel": "장기 공급계약",
           "publishedAt": 1792108905,
           "verificationStatus": "needs_confirmation",
@@ -839,7 +839,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "3aaa2de595c76d97675e",
-          "headline": "Alphabet Might Use Waymo to Destroy Tesla’s First-Mover “Robotaxi Monopoly” Premium",
+          "headline": "Alphabet은 Waymo를 사용하여 Tesla의 First Mover \"Robotaxi Monopoly\" 프리미엄을 파괴할 수 있습니다.",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1792068309,
           "verificationStatus": "needs_confirmation",
@@ -896,7 +896,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792005349,
       "signal": "중립·확인 대기",
       "netScore": 0.35,
@@ -1032,7 +1032,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792045433,
       "signal": "중립·확인 대기",
       "netScore": -0.98,
@@ -1143,7 +1143,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792046050,
       "signal": "중립·확인 대기",
       "netScore": -1.32,
@@ -1253,7 +1253,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792120022,
       "signal": "우호적 변화",
       "netScore": 5.97,
@@ -1303,7 +1303,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "4b3501492ba2f66fca03",
-          "headline": "Taiwan plans $4 bln Texas park to support Nvidia’s AI supply chain - Bloomberg",
+          "headline": "대만, 엔비디아 AI 공급망 지원 위해 40억 달러 규모 텍사스 공원 계획 - Bloomberg",
           "eventLabel": "공급망 문제",
           "publishedAt": 1792120022,
           "verificationStatus": "needs_confirmation",
@@ -1317,7 +1317,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "88e9af04d742d1781c05",
-          "headline": "How Investors Are Reacting To NVIDIA (NVDA) AI Partnership Wave",
+          "headline": "투자자들이 NVIDIA(NVDA) AI 파트너십 웨이브에 반응하는 방법",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792117063,
           "verificationStatus": "needs_confirmation",
@@ -1330,7 +1330,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "55a050357e9612a45fb2",
-          "headline": "Dow Sees Best Day In Over A Month As Investors Rotate Out Of AI Trade On Overspending Concerns — CRWV, META, SPCX, PEP In Focus",
+          "headline": "다우(Dow)는 과도한 지출에 대한 우려로 투자자들이 AI 거래에서 벗어나면서 한 달여 만에 최고의 날을 맞이했습니다 — CRWV, META, SPCX, PEP에 초점",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792108383,
           "verificationStatus": "needs_confirmation",
@@ -1371,7 +1371,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "046cbe4d383d09fe6feb",
-          "headline": "Guinness Sustainable Energy Fund Highlights Hubbell Incorporated (HUBB) Amid Utility Growth Concerns",
+          "headline": "기네스 지속 가능 에너지 펀드, 유틸리티 성장 우려 속에서 Hubbell Incorporated(HUBB) 강조",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792080629,
           "verificationStatus": "needs_confirmation",
@@ -1384,7 +1384,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "ab32a3e4d162af7b5cbf",
-          "headline": "Guinness Sustainable Energy Fund Highlights Eaton Corporation plc (ETN) Amid Grid Modernization",
+          "headline": "기네스 지속 가능 에너지 기금, 전력망 현대화 속에서 Eaton Corporation plc(ETN) 강조",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792080533,
           "verificationStatus": "needs_confirmation",
@@ -1397,7 +1397,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "4c48a98cec1c623f8385",
-          "headline": "AMD, NVDA, Other Chip Stocks Extend Rout Amid AI Debt Concerns — Saxo Says Financing Squeeze Could Hit Supply Chain",
+          "headline": "AMD, NVDA, 기타 칩 주식은 AI 부채 문제로 인해 대패를 연장합니다 — Saxo는 자금 조달 압박이 공급망에 타격을 줄 수 있다고 말합니다",
           "eventLabel": "공급망 문제",
           "publishedAt": 1792078106,
           "verificationStatus": "needs_confirmation",
@@ -1468,7 +1468,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792117063,
       "signal": "우호적 변화",
       "netScore": 6.43,
@@ -1518,7 +1518,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "88e9af04d742d1781c05",
-          "headline": "How Investors Are Reacting To NVIDIA (NVDA) AI Partnership Wave",
+          "headline": "투자자들이 NVIDIA(NVDA) AI 파트너십 웨이브에 반응하는 방법",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792117063,
           "verificationStatus": "needs_confirmation",
@@ -1531,7 +1531,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "55a050357e9612a45fb2",
-          "headline": "Dow Sees Best Day In Over A Month As Investors Rotate Out Of AI Trade On Overspending Concerns — CRWV, META, SPCX, PEP In Focus",
+          "headline": "다우(Dow)는 과도한 지출에 대한 우려로 투자자들이 AI 거래에서 벗어나면서 한 달여 만에 최고의 날을 맞이했습니다 — CRWV, META, SPCX, PEP에 초점",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792108383,
           "verificationStatus": "needs_confirmation",
@@ -1544,7 +1544,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "046cbe4d383d09fe6feb",
-          "headline": "Guinness Sustainable Energy Fund Highlights Hubbell Incorporated (HUBB) Amid Utility Growth Concerns",
+          "headline": "기네스 지속 가능 에너지 펀드, 유틸리티 성장 우려 속에서 Hubbell Incorporated(HUBB) 강조",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792080629,
           "verificationStatus": "needs_confirmation",
@@ -1557,7 +1557,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "ab32a3e4d162af7b5cbf",
-          "headline": "Guinness Sustainable Energy Fund Highlights Eaton Corporation plc (ETN) Amid Grid Modernization",
+          "headline": "기네스 지속 가능 에너지 기금, 전력망 현대화 속에서 Eaton Corporation plc(ETN) 강조",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792080533,
           "verificationStatus": "needs_confirmation",
@@ -1570,7 +1570,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "4c48a98cec1c623f8385",
-          "headline": "AMD, NVDA, Other Chip Stocks Extend Rout Amid AI Debt Concerns — Saxo Says Financing Squeeze Could Hit Supply Chain",
+          "headline": "AMD, NVDA, 기타 칩 주식은 AI 부채 문제로 인해 대패를 연장합니다 — Saxo는 자금 조달 압박이 공급망에 타격을 줄 수 있다고 말합니다",
           "eventLabel": "공급망 문제",
           "publishedAt": 1792078106,
           "verificationStatus": "needs_confirmation",
@@ -1682,7 +1682,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792082709,
       "signal": "주의 강화",
       "netScore": -9.11,
@@ -1876,7 +1876,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792105021,
       "signal": "주의 강화",
       "netScore": -10,
@@ -1926,7 +1926,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "e129d79a1aad39f248d2",
-          "headline": "iPhone Duo Preorders Begin Friday. Is Apple’s First Foldable Phone Reason Alone to Buy the Stock?",
+          "headline": "iPhone Duo 사전 주문이 금요일부터 시작됩니다. 애플의 첫 폴더블폰이 주식을 사는 이유일까요?",
           "eventLabel": "공급망 문제",
           "publishedAt": 1792105021,
           "verificationStatus": "needs_confirmation",
@@ -2067,7 +2067,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792099819,
       "signal": "주의 강화",
       "netScore": -2.59,
@@ -2117,7 +2117,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "c5470fc86d931b2c18c3",
-          "headline": "Arm vs. Credo Technology Group: Which Semiconductor Stock Is a Better Buy in 2026?",
+          "headline": "Arm 대 Credo Technology Group: 2026년에는 어느 반도체 주식을 매수하는 것이 더 나은가요?",
           "eventLabel": "공급망 문제",
           "publishedAt": 1792099819,
           "verificationStatus": "needs_confirmation",
@@ -2131,7 +2131,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "cbd6d2c762095d98d96e",
-          "headline": "Can ARM's 13% Contract Value Growth Sustain Momentum in Q2?",
+          "headline": "ARM의 13% 계약 가치 성장이 2분기에 모멘텀을 유지할 수 있습니까?",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1792086660,
           "verificationStatus": "needs_confirmation",
@@ -2204,7 +2204,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792079882,
       "signal": "주의 강화",
       "netScore": -6.86,
@@ -2254,7 +2254,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "df8a5c35fa85050ea360",
-          "headline": "Fantastic News for Marvell Stock Investors",
+          "headline": "Marvell 주식 투자자를 위한 환상적인 소식",
           "eventLabel": "공급망 문제",
           "publishedAt": 1792079882,
           "verificationStatus": "needs_confirmation",
@@ -2355,7 +2355,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792108905,
       "signal": "주의 강화",
       "netScore": -9.68,
@@ -2405,7 +2405,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "70c9f5f249d0c81c08f5",
-          "headline": "Jim Cramer Says Starbucks Can Rise On Its Own, Apple’s Audience Is Worth Paying For, And Intel Investors Need Patience",
+          "headline": "짐 크레이머(Jim Cramer)는 스타벅스가 스스로 성장할 수 있고, 애플의 청중은 그만한 대가를 지불할 가치가 있으며, 인텔 투자자들에게는 인내심이 필요하다고 말합니다.",
           "eventLabel": "장기 공급계약",
           "publishedAt": 1792108905,
           "verificationStatus": "needs_confirmation",
@@ -2419,7 +2419,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "c5470fc86d931b2c18c3",
-          "headline": "Arm vs. Credo Technology Group: Which Semiconductor Stock Is a Better Buy in 2026?",
+          "headline": "Arm 대 Credo Technology Group: 2026년에는 어느 반도체 주식을 매수하는 것이 더 나은가요?",
           "eventLabel": "공급망 문제",
           "publishedAt": 1792099819,
           "verificationStatus": "needs_confirmation",
@@ -2433,7 +2433,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "df8a5c35fa85050ea360",
-          "headline": "Fantastic News for Marvell Stock Investors",
+          "headline": "Marvell 주식 투자자를 위한 환상적인 소식",
           "eventLabel": "공급망 문제",
           "publishedAt": 1792079882,
           "verificationStatus": "needs_confirmation",
@@ -2578,7 +2578,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792077551,
       "signal": "주의 강화",
       "netScore": -4.48,
@@ -2752,7 +2752,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792060500,
       "signal": "주의 강화",
       "netScore": -3.63,
@@ -2971,7 +2971,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792070701,
       "signal": "주의 강화",
       "netScore": -4.63,
@@ -3097,7 +3097,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3151,7 +3151,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1791910426,
       "signal": "중립·확인 대기",
       "netScore": -1.26,
@@ -3221,7 +3221,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792117063,
       "signal": "우호적 변화",
       "netScore": 3.52,
@@ -3271,7 +3271,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "88e9af04d742d1781c05",
-          "headline": "How Investors Are Reacting To NVIDIA (NVDA) AI Partnership Wave",
+          "headline": "투자자들이 NVIDIA(NVDA) AI 파트너십 웨이브에 반응하는 방법",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792117063,
           "verificationStatus": "needs_confirmation",
@@ -3284,7 +3284,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "55a050357e9612a45fb2",
-          "headline": "Dow Sees Best Day In Over A Month As Investors Rotate Out Of AI Trade On Overspending Concerns — CRWV, META, SPCX, PEP In Focus",
+          "headline": "다우(Dow)는 과도한 지출에 대한 우려로 투자자들이 AI 거래에서 벗어나면서 한 달여 만에 최고의 날을 맞이했습니다 — CRWV, META, SPCX, PEP에 초점",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792108383,
           "verificationStatus": "needs_confirmation",
@@ -3297,7 +3297,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "e129d79a1aad39f248d2",
-          "headline": "iPhone Duo Preorders Begin Friday. Is Apple’s First Foldable Phone Reason Alone to Buy the Stock?",
+          "headline": "iPhone Duo 사전 주문이 금요일부터 시작됩니다. 애플의 첫 폴더블폰이 주식을 사는 이유일까요?",
           "eventLabel": "공급망 문제",
           "publishedAt": 1792105021,
           "verificationStatus": "needs_confirmation",
@@ -3311,7 +3311,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "007da6d0ca6dfa3cbcd9",
-          "headline": "Prediction: This Is What $2,000 Invested in Micron Stock Today Could Be Worth by 2029",
+          "headline": "예측: 현재 Micron 주식에 투자한 2,000달러는 2029년까지 가치가 있을 수 있습니다",
           "eventLabel": "공급망 문제",
           "publishedAt": 1792096200,
           "verificationStatus": "needs_confirmation",
@@ -3325,7 +3325,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "c3ce97df915e79a3eeed",
-          "headline": "I Just Bought Micron Stock. Here's Why",
+          "headline": "방금 마이크론 주식을 샀습니다. 이유는 다음과 같습니다",
           "eventLabel": "장기 공급계약",
           "publishedAt": 1792094700,
           "verificationStatus": "needs_confirmation",
@@ -3339,7 +3339,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "720b6aef17c7c65b5658",
-          "headline": "ASML Just Delivered Excellent News for Micron Stock Investors",
+          "headline": "ASML은 Micron 주식 투자자들에게 훌륭한 소식을 전달했습니다.",
           "eventLabel": "실적 발표",
           "publishedAt": 1792089602,
           "verificationStatus": "needs_confirmation",
@@ -3366,7 +3366,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "046cbe4d383d09fe6feb",
-          "headline": "Guinness Sustainable Energy Fund Highlights Hubbell Incorporated (HUBB) Amid Utility Growth Concerns",
+          "headline": "기네스 지속 가능 에너지 펀드, 유틸리티 성장 우려 속에서 Hubbell Incorporated(HUBB) 강조",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792080629,
           "verificationStatus": "needs_confirmation",
@@ -3379,7 +3379,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "ab32a3e4d162af7b5cbf",
-          "headline": "Guinness Sustainable Energy Fund Highlights Eaton Corporation plc (ETN) Amid Grid Modernization",
+          "headline": "기네스 지속 가능 에너지 기금, 전력망 현대화 속에서 Eaton Corporation plc(ETN) 강조",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792080533,
           "verificationStatus": "needs_confirmation",
@@ -3435,7 +3435,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1791983941,
       "signal": "중립·확인 대기",
       "netScore": -0.14,
@@ -3544,7 +3544,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792105021,
       "signal": "주의 강화",
       "netScore": -8.12,
@@ -3594,7 +3594,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "e129d79a1aad39f248d2",
-          "headline": "iPhone Duo Preorders Begin Friday. Is Apple’s First Foldable Phone Reason Alone to Buy the Stock?",
+          "headline": "iPhone Duo 사전 주문이 금요일부터 시작됩니다. 애플의 첫 폴더블폰이 주식을 사는 이유일까요?",
           "eventLabel": "공급망 문제",
           "publishedAt": 1792105021,
           "verificationStatus": "needs_confirmation",
@@ -3683,7 +3683,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3737,7 +3737,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1791910434,
       "signal": "주의 강화",
       "netScore": -2.31,
@@ -3806,7 +3806,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1791918647,
       "signal": "주의 강화",
       "netScore": -3.57,
@@ -3889,7 +3889,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792079785,
       "signal": "우호적 변화",
       "netScore": 3.7,
@@ -3939,7 +3939,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "4aa8490b80513584cb30",
-          "headline": "GE Vernova and Venture Global Sign a Power Deal Worth Up to $17.2 Billion. Here’s What’s Firm",
+          "headline": "GE Vernova와 Venture Global은 최대 172억 달러 규모의 전력 거래를 체결했습니다. 여기에 확고한 것이 있습니다",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1792079785,
           "verificationStatus": "needs_confirmation",
@@ -4000,7 +4000,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1791972540,
       "signal": "중립·확인 대기",
       "netScore": -0.48,
@@ -4083,7 +4083,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792057440,
       "signal": "중립·확인 대기",
       "netScore": -1.18,
@@ -4165,7 +4165,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792080533,
       "signal": "중립·확인 대기",
       "netScore": -1.18,
@@ -4215,7 +4215,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "ab32a3e4d162af7b5cbf",
-          "headline": "Guinness Sustainable Energy Fund Highlights Eaton Corporation plc (ETN) Amid Grid Modernization",
+          "headline": "기네스 지속 가능 에너지 기금, 전력망 현대화 속에서 Eaton Corporation plc(ETN) 강조",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792080533,
           "verificationStatus": "needs_confirmation",
@@ -4247,7 +4247,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4301,7 +4301,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792080629,
       "signal": "중립·확인 대기",
       "netScore": 0.7,
@@ -4351,7 +4351,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "046cbe4d383d09fe6feb",
-          "headline": "Guinness Sustainable Energy Fund Highlights Hubbell Incorporated (HUBB) Amid Utility Growth Concerns",
+          "headline": "기네스 지속 가능 에너지 펀드, 유틸리티 성장 우려 속에서 Hubbell Incorporated(HUBB) 강조",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792080629,
           "verificationStatus": "needs_confirmation",
@@ -4369,7 +4369,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4423,7 +4423,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4477,7 +4477,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792068310,
       "signal": "주의 강화",
       "netScore": -2.17,
@@ -4574,7 +4574,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792096269,
       "signal": "중립·확인 대기",
       "netScore": 1.4,
@@ -4643,7 +4643,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4697,7 +4697,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1792140799.6985805,
+      "updatedAt": 1792142809.7566314,
       "dataAsOf": 1792043570,
       "signal": "우호적 변화",
       "netScore": 4.2,
