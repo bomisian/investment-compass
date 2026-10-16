@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 16.040000915527344,
+      "current": 16.059999465942383,
       "prevClose": 16.459999084472656,
-      "changeAbs": -0.4199981689453125,
-      "changePct": -2.5516293578747082,
-      "pctRank": 32.85600636435959,
+      "changeAbs": -0.39999961853027344,
+      "changePct": -2.4301314749622818,
+      "pctRank": 33.17422434367542,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -48.341380645245316,
-      "ma20": 15.533000135421753,
-      "ma60": 15.748500029246012,
-      "chg1m": 0.600001335144043,
-      "chg3m": -1.0099983215332031,
-      "chg1mPct": 3.886019115611581,
-      "chg3mPct": -5.923744086379964,
+      "drawdown1y": -48.276973073888044,
+      "ma20": 15.534000062942505,
+      "ma60": 15.748833338419596,
+      "chg1m": 0.619999885559082,
+      "chg3m": -0.9899997711181641,
+      "chg1mPct": 4.015543409384539,
+      "chg3mPct": -5.806450530310064,
       "lastDate": "2026-10-16",
       "bars": 1257,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 95.37000274658203,
+      "current": 95.62000274658203,
       "prevClose": 97.97000122070312,
-      "changeAbs": -2.5999984741210938,
-      "changePct": -2.65387204422292,
-      "pctRank": 87.98727128082736,
+      "changeAbs": -2.3499984741210938,
+      "changePct": -2.39869189021148,
+      "pctRank": 88.14638027048528,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -15.56440431752818,
-      "ma20": 92.63649978637696,
-      "ma60": 89.26016693115234,
-      "chg1m": -6.540000915527344,
-      "chg3m": 12.139999389648438,
-      "chg1mPct": -6.417427809355429,
-      "chg3mPct": 14.586085425932039,
+      "drawdown1y": -15.343067436824631,
+      "ma20": 92.64899978637695,
+      "ma60": 89.264333597819,
+      "chg1m": -6.290000915527344,
+      "chg3m": 12.389999389648438,
+      "chg1mPct": -6.172113324990485,
+      "chg3mPct": 14.886457875669748,
       "lastDate": "2026-10-16",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 101.78600311279297,
+      "current": 101.73200225830078,
       "prevClose": 102.0,
-      "changeAbs": -0.21399688720703125,
-      "changePct": -0.20980086981081497,
-      "pctRank": 45.425616547334926,
+      "changeAbs": -0.26799774169921875,
+      "changePct": -0.2627428840188419,
+      "pctRank": 44.94828957836118,
       "min5y": 93.3499984741211,
       "max5y": 114.11000061035156,
       "high1y": 102.58000183105469,
-      "drawdown1y": -0.7740287620284891,
-      "ma20": 101.70629997253418,
-      "ma60": 100.36243336995443,
-      "chg1m": 1.5660018920898438,
-      "chg3m": 0.7960052490234375,
-      "chg1mPct": 1.5625642317058204,
-      "chg3mPct": 0.788202065413655,
+      "drawdown1y": -0.8266714346043091,
+      "ma20": 101.70359992980957,
+      "ma60": 100.3615333557129,
+      "chg1m": 1.5120010375976562,
+      "chg3m": 0.74200439453125,
+      "chg1mPct": 1.5086819189594183,
+      "chg3mPct": 0.7347305775094449,
       "lastDate": "2026-10-16",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4206.7001953125,
+      "current": 4203.39990234375,
       "prevClose": 4170.10009765625,
-      "changeAbs": 36.60009765625,
-      "changePct": 0.8776791155881511,
+      "changeAbs": 33.2998046875,
+      "changePct": 0.7985372990498649,
       "pctRank": 85.69157392686805,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -20.9028980039906,
-      "ma20": 4215.389990234375,
-      "ma60": 4333.734997558594,
-      "chg1m": -193.0,
-      "chg3m": 190.80029296875,
-      "chg1mPct": -4.386662532270376,
-      "chg3mPct": 4.751121731330893,
+      "drawdown1y": -20.964952250180247,
+      "ma20": 4215.2249755859375,
+      "ma60": 4333.679992675781,
+      "chg1m": -196.30029296875,
+      "chg3m": 187.5,
+      "chg1mPct": -4.461674301760174,
+      "chg3mPct": 4.668941073221763,
       "lastDate": "2026-10-16",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,100 +237,120 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Asian Tour postpone Saudi International after Riyadh attacks - Reuters",
+      "summary": "Asian Tour postpone Saudi International after Riyadh attacks Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYXVTNUVpMVVuX0R4S3dEYm15QjZ6MXBkdU5FN2xNTWFuVTNiZlB6QmljejgxWi1qaDRocVJjV3NRQUY3MDQ4OVpUbmxZYWtmSE1JTnhkWWZ1eG9MQVl4Qk5wMWZIa2F3c3ZmNUc5WVdZMFJaVnVYT1JPbDhMQ1ZUdDllX0NMWERiWmh6MWdacG1jdFNackp6QUF3OS1zQlBpMzZNM0VHS1NOLWM3?oc=5",
+      "datetime": 1792129560,
+      "headlineKo": "아시안 투어, 리야드 테러 이후 사우디 인터내셔널 연기 - 로이터",
+      "summaryKo": "아시안 투어, 리야드 공격 이후 사우디 인터내셔널 연기 - 최신"
+    },
+    {
       "headline": "Fed's Warsh says AI path will be 'very bumpy' but ultimately 'very good' for wealth",
       "summary": "Warsh said he's optimistic that AI will make economies that use it well more productive and wealthier, warning the road there will be \"very bumpy.\"",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html",
-      "datetime": 1792123707
+      "datetime": 1792123707,
+      "headlineKo": "Fed의 Warsh는 AI 경로가 '매우 울퉁불퉁'하지만 궁극적으로 부를 위해 '매우 좋을 것'이라고 말합니다.",
+      "summaryKo": "Warsh는 AI가 이를 잘 활용하는 경제를 더욱 생산적이고 부유하게 만들 것이라고 낙관하며, 그곳의 길이 \"매우 험난할 것\"이라고 경고했습니다."
     },
     {
       "headline": "Mideast war alters global bunker buying patterns, industry execs say - Reuters",
       "summary": "Mideast war alters global bunker buying patterns, industry execs say Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYVpkb09PNk1QUW1DQ3BsSGh1WC0wMktpR19NNDJFSF9ZY0JlXy1uZElBakltTzR2MDZRMUFLMnpxVndDRk9MR1kwai1SWHk4RnNfOVZvX0NwMk1LTk5yUm5YU3JrOXhiZ21SVEQ0VUpoLUdVb05YbmwyRUlPYk1sandmYzdVNjBIeHZyR0FfMVhpUVBkMFhUT1RsM3BaRWNGZ0tqVzhMMVQ0cGFqV2t6VXl5ZjVhWjNIY1RISm9rMA?oc=5",
-      "datetime": 1792120740
+      "datetime": 1792120740,
+      "headlineKo": "중동 전쟁으로 인해 글로벌 벙커 구매 패턴이 바뀌었다고 업계 간부들이 밝혔습니다. - 로이터 통신",
+      "summaryKo": "중동 전쟁으로 인해 글로벌 벙커 구매 패턴이 바뀌었다고 업계 관계자가 밝혔습니다."
     },
     {
       "headline": "Bank of England's Bailey sees 'quite subdued' second-round price pressures so far - Reuters",
       "summary": "Bank of England's Bailey sees 'quite subdued' second-round price pressures so far Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTG5XUks5NHU3SnZ2Wk1EVklSZm9Od1ljNWFieUZmZTlibEZHOGJiSlBWWlVsMGttUi1pZjlkc2hfZjA4TEZaTGltSEJfMjdDUDJZZ2dLQ1hqX05TcklZd2J4dTFXQVA3V0p0ZG1uSWV2aFpGVnFrRUEza0hTUm9hdXVyMk1icGxLQk9LMUFrc3VTcF9RR1N3VHVxZjE4eld5dnM3TUxySGRfSXYzQV82R1haZUx6VDIwMi15YWJickk?oc=5",
-      "datetime": 1792117140
+      "datetime": 1792117140,
+      "headlineKo": "영란은행 베일리 은행장은 지금까지 2차 가격 압력이 '매우 완화된' 것으로 보고 있다 - 로이터",
+      "summaryKo": "영란은행 베일리 은행장은 지금까지 2차 가격 압력이 '매우 완화된' 것으로 보고 있습니다."
     },
     {
-      "headline": "Oil eases, but set for weekly gain on Mideast supply risks - Reuters",
-      "summary": "Oil eases, but set for weekly gain on Mideast supply risks Reuters",
+      "headline": "Oil eases but heads for weekly gain as investors focus on Middle East supply - Reuters",
+      "summary": "Oil eases but heads for weekly gain as investors focus on Middle East supply Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOY0FIVXBWc1k5eW1ObWUyOGNQS1NGZDA5anNoLVJmVDRoMGR0ZUM5aWdDYTFDX3lKN2dYbVlhZzhuTFUwcVo3N0xmTkpBNXJKV2JLVW9qUmdmNWdxaWFJVlFZLWVPVHJjZ0RTNUdYdGxoMk9RZms0aHpzQWlTVDd4LUNnQ1RKUlZmVkhFSS1FQlk5bWl1dkU2QTQ0bDA2dVdHVzMzcTlRZi00ZkM1THVWRFgzTnYtUm9id3pBM1BWeEI4ZVFqU1ltSDB2SQ?oc=5",
-      "datetime": 1792112220
+      "datetime": 1792112220,
+      "headlineKo": "유가는 하락했지만 투자자들이 중동 공급에 집중함에 따라 주간 상승세로 향함 - Reuters",
+      "summaryKo": "유가는 하락세를 보였지만 투자자들이 중동 공급에 집중함에 따라 주간 상승세로 향했습니다 Reuters"
     },
     {
       "headline": "Rubio urges Lebanon to not return confiscated explosives to Hezbollah, US official says - Reuters",
       "summary": "Rubio urges Lebanon to not return confiscated explosives to Hezbollah, US official says Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSlpQMDZaUUhySG1lc3RRT0R1SWZYemxuYVBWTHMyeXRnYzJwWm1JWnlLa19QQ0dqd01CcERwQkc5dGNxc0kwODZHek5YcnlNRzZCRHVxb3VQYlE1Ukd6WXJMY1JQSmRNQkYyaUtRZU1WMmo4cU10RDAzVE5xb1NhWFNDMEZfOURHMGZHQzlZMUxZNDlmUVZ3dkZ0YURzRFk1Y0xWSnVRS0hHVjBGbEdLNXc4blhCMDluZm05ZVpvcGNtb2VjbzNaOHhzVWxILU0?oc=5",
-      "datetime": 1792106322
+      "datetime": 1792106322,
+      "headlineKo": "루비오, 레바논에 압수된 폭발물을 헤즈볼라에 반환하지 말라고 미국 관리가 밝혔습니다 - 로이터 통신",
+      "summaryKo": "루비오는 레바논에게 압수한 폭발물을 헤즈볼라에 반환하지 말 것을 촉구했다고 미국 관리가 로이터 통신을 통해 밝혔습니다."
     },
     {
       "headline": "India raises windfall tax on petrol, cuts duty on diesel - Reuters",
       "summary": "India raises windfall tax on petrol, cuts duty on diesel Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOS3ZFXzhIZDFZNFRJUnBMSktQd0xFd3pPb3NlekhlNTFBdFdfVnZtMkRZaDhBRTlienVxbW5jMGRuTGFJRkxkODBBSmVYQUFrWkNfa1dVU2t2c2hhblJlaUdBVnpyNlhXSGNZbjF3RnJUTDdoRFNESklnUXNtWUdkVmh6R3p3dkFXLW9iVG5KemtHZW52QXJoaVloRHZhWHpZenVJdkdB?oc=5",
-      "datetime": 1792100806
+      "datetime": 1792100806,
+      "headlineKo": "인도, 휘발유에 대한 횡재세 인상 및 경유 관세 인하 - Reuters",
+      "summaryKo": "인도, 휘발유에 대한 횡재세 인상, 디젤에 대한 관세 인하 - 최신"
     },
     {
       "headline": "Iraq parliament approves remaining cabinet posts, PM deputies - Reuters",
       "summary": "Iraq parliament approves remaining cabinet posts, PM deputies Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYzM1MFlvcHllbHZBY0xabi1MZFBhS0FvdVFadU5oeGswa3hBN25KMmVSVWZ3M1pWaTB3RXNibWpsUGtxM3Y3M25zbkRZbWdNUjhtUG1wWVYwWTZGWFNpZ19INlZkMVBhVEUxMm1fNVlqckRtMWp4R1gyN2NUMzUwNGpHdUIwNDQ2M2VUNEZIWEpwNk10bzZYcWtKdkRUUDVrYVdkSmhpdDBjM09kYURfRUVaNnQ?oc=5",
-      "datetime": 1792094689
+      "datetime": 1792094689,
+      "headlineKo": "이라크 의회, 남은 내각 직책과 총리 부관 승인 - Reuters",
+      "summaryKo": "이라크 의회, 잔여 내각 직위 승인, 총리 대리인 Reuters"
     },
     {
       "headline": "KFC to switch to Coca-Cola beverages in U.S. restaurants for the first time in decades",
       "summary": "KFC is switching from PepsiCo to Coca-Cola as its beverage supplier for U.S. restaurants.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/15/kfc-coca-cola-pepsi-switch.html",
-      "datetime": 1792094021
+      "datetime": 1792094021,
+      "headlineKo": "KFC, 수십년 만에 처음으로 미국 레스토랑에서 코카콜라 음료로 전환"
     },
     {
       "headline": "Nvidia and Cisco confirm multimillion-dollar donations to Trump's White House ballroom",
       "summary": "Big Tech gave millions to Trump's White House ballroom, documents show",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/15/trump-ballroom-nvidia-cisco-donations.html",
-      "datetime": 1792093420
+      "datetime": 1792093420,
+      "headlineKo": "엔비디아와 시스코, 트럼프 백악관 연회장에 수백만 달러 기부 확인"
     },
     {
       "headline": "Some 'classic' money advice is actually pretty new—and not all of it is worthwhile, says historian",
       "summary": "A historian explains why housing, investing and budgeting advice has changed over time — and what that can teach you about money today.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/make-it/2026/10/15/money-advice-history-joseph-moore.html",
-      "datetime": 1792092653
+      "datetime": 1792092653,
+      "headlineKo": "일부 '고전적인' 금전 관련 조언은 사실 꽤 새롭지만 그 모든 것이 가치 있는 것은 아니라고 역사가는 말합니다."
     },
     {
       "headline": "US plan to ease shadow fleet sanctions unlikely to free up many tankers, analysts say - Reuters",
       "summary": "US plan to ease shadow fleet sanctions unlikely to free up many tankers, analysts say Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQb2ZEWmpzTWpPVmpkN0hxSkJ1cmlCc3lSRjZHdmRMRG94Vjk4ZXhNdzJweDFCY1FER1l1eE9STG1EZjR2Ql9qTXRyVHF2ZTl0Y2tGUjRUOG54MDJPdV9iSGRXaVRGbUcxMGhBMHRtMmFGUFNpc0hYQ0c3VW1UT0ZDSDlTZEV1RExiT1JocDVTQU5SSFVMSmJfYmtvZzlkWF8xal81dkVRUENPVDFEdG9QY1M3RFhGSjRSQ1VtNmM1S09xWjJQSHpkZGl3?oc=5",
-      "datetime": 1792088728
-    },
-    {
-      "headline": "Hezbollah says it owned confiscated explosives, meant to attack Israel - Reuters",
-      "summary": "Hezbollah says it owned confiscated explosives, meant to attack Israel Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQUNqWTJxemdBVVByYW9Cc0N3NlU2UW9zczJReDZOeWdKMENNbUZjQmF1bE9IQ1VEOXNrcXpQU192ZUhHTVZ0cDN1N3IzS2lxY0ZTOXdGY3RvWlVObFZ2RjAyVF93ZUNCWVJKSlBpNDVINmxBNGRORXRYZUt1blF2RzFLV2VjZWJZMUg4X2tGMjd5VlpOVExvbFIxN1ExS1lMMnJXUXJPOWhfcnVXZEl2aUpDeHNqcnFSeUJ3NQ?oc=5",
-      "datetime": 1792086334
+      "datetime": 1792088728,
+      "headlineKo": "미국이 그림자 함대 제재를 완화할 계획으로 많은 유조선을 구출할 가능성은 낮다고 분석가들은 말합니다 - 로이터 통신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792140843.2028506,
+  "_news_last_success_at": 1792144723.156206,
   "fgi": {
     "score": 32.0857142857143,
     "rating": "fear"
   },
-  "_fetched_at": 1792140800.1022444,
-  "_updated_label": "2026-10-16 17:54",
-  "_last_attempt_at": 1792140800.1022444,
-  "_last_success_at": 1792140800.1022444,
+  "_fetched_at": 1792144703.3506324,
+  "_updated_label": "2026-10-16 18:59",
+  "_last_attempt_at": 1792144703.3506324,
+  "_last_success_at": 1792144703.3506324,
   "_collection_status": "ok",
   "_collection_errors": []
 };

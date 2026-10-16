@@ -197,6 +197,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0867e672a631ae6f738653b854e91feab7c1ea73987ee2169be3acaa7b0a39dd",
         "datetime": 1792087357,
+        "headlineKo": "QQQ가 곧 10% 하락할 수 있는 3가지 이유와 2027년에 반등할 수 있는 1가지 이유",
         "relevance": 1.0,
         "keywordFlag": false,
         "analysis": {
@@ -6388,7 +6389,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 124,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "SPY": {
@@ -14178,7 +14179,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 159,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "MSFT": {
@@ -14446,6 +14447,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e8e694dabb2fa9321529cc2c2df0f8de9cd2f7112911c0709419e0f9b929fe27",
         "datetime": 1792124945,
+        "headlineKo": "Earnings Beat가 Microsoft (MSFT) 주식에 미치는 영향",
         "relevance": 1.0,
         "keywordFlag": false,
         "analysis": {
@@ -14493,6 +14495,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7b29f2fdacf6314f687bb87a12826cf03770fab766bf590253c756eb4676db18",
         "datetime": 1792089600,
+        "headlineKo": "Tucuvi는 Microsoft Pegasus 프로그램에 참여하여 의료 시스템 전반에 걸쳐 임상적으로 관리되는 AI 케어 관리를 확장합니다.",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -14541,6 +14544,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7d3a1d454782b1179f785ed9a6d7c679ccfcb279fd9b4a3d172471c131c2e3c1",
         "datetime": 1792085100,
+        "headlineKo": "UBS는 AI 수요가 Azure 성장을 주도함에 따라 Microsoft가 더 높은 가치 평가를 정당화할 수 있다고 말합니다.",
         "relevance": 0.8,
         "keywordFlag": false,
         "analysis": {
@@ -14603,6 +14607,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1d45ff40a2b1bda5291eb70d62b7ce925371c6ae251acd0cc2e50cbde859f27b",
         "datetime": 1792084020,
+        "headlineKo": "Morgan Stanley는 Microsoft의 AI 스토리에서 새로운 반전을 발견했습니다.",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -14651,6 +14656,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f8aa2f1d8d92a6a75516de577c4dfd15076522f99bbcc851366a01b2fb7b4edd",
         "datetime": 1792083377,
+        "headlineKo": "Microsoft AI, 2조 8천억 개의 매개변수 모델 공개, 효율성 향상 주장",
         "relevance": 0.4,
         "keywordFlag": false
       },
@@ -22121,7 +22127,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "GOOGL": {
@@ -22439,6 +22445,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=57c315422a725ad9e30d6b2e129b5cef5f0c7fdc788f3bb9749682ae08a4d062",
         "datetime": 1792094820,
+        "headlineKo": "Google의 180달러 Fitbit Edge는 스마트워치 피로도에 베팅합니다.",
         "relevance": 1.0,
         "keywordFlag": false,
         "analysis": {
@@ -22487,6 +22494,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f13afcb72c54f6474aff823a69949ff9553cc7ab9a8396003d5dcf5b0e168fde",
         "datetime": 1792086480,
+        "headlineKo": "알파벳 주식은 22% 상승할 수 있다고 J.P. Morgan이 밝혔습니다. Google이 AI에 대한 두려움을 극복할 수 있는 이유",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -22535,6 +22543,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=db735faaaad3271f47a4463925e0128074d4e4fcbdc8a4a41f3e51f416779228",
         "datetime": 1792078380,
+        "headlineKo": "XPENG, Google과의 협력을 확대하여 Google Play를 AI 기반 조종석으로 도입",
         "relevance": 1.0,
         "keywordFlag": false,
         "analysis": {
@@ -22582,6 +22591,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4f143854c2785446409ce8a06780abf4a86dd97b280736b8a8313ebb9cfd8df7",
         "datetime": 1792075502,
+        "headlineKo": "검색 파괴부터 효율성까지, 나는 Alphabet의 능력을 믿습니다",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -22644,6 +22654,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6422088aa3e8f5ab68c8a26dc62ed46e77f2c341034f214739e9ee353400769b",
         "datetime": 1792073592,
+        "headlineKo": "Unity Spark Gaming AI 푸시 이후 Alphabet(GOOGL)의 가치가 완전히 높아졌습니까?",
         "relevance": 1.0,
         "keywordFlag": false
       },
@@ -22660,6 +22671,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d5712ff407b98f8701e42e53341a2b07d726d0aee429204cd8ed334a956628a7",
         "datetime": 1792068309,
+        "headlineKo": "Alphabet은 Waymo를 사용하여 Tesla의 First Mover \"Robotaxi Monopoly\" 프리미엄을 파괴할 수 있습니다.",
         "relevance": 0.4,
         "keywordFlag": true,
         "flagTerms": [
@@ -30155,7 +30167,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "AMZN": {
@@ -30573,6 +30585,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a243bcfadf83fa682fc09384959797d0e3979141872efd754d61c39e5d420741",
         "datetime": 1792101600,
+        "headlineKo": "Elon Musk는 Grok 봇 사용자가 회사에서 주문을 차단했다고 말한 후 Amazon 경쟁자를 시작하려고 합니다.",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -30620,6 +30633,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2ce3ca58dc9755b2c060e1121e980a6b79df9fb86b395f707b9c7ff63582a6ff",
         "datetime": 1792099635,
+        "headlineKo": "최근 Amazon 정리 해고 중에 AMZN 주식을 플레이하는 방법",
         "relevance": 1,
         "keywordFlag": true,
         "flagTerms": [
@@ -30671,6 +30685,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=87e0cde553774838e1918f4f9448ffd2f0e09029c51358e25fd4de571e9c96eb",
         "datetime": 1792096916,
+        "headlineKo": "Elon Musk는 Amazon이 AI를 차단한 후 쇼핑 조언을 제공합니다.",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -30719,6 +30734,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=052474783cdb442cd2189363ff454d33ccadf1e6cd524479ee5c35f37e4365b3",
         "datetime": 1792095420,
+        "headlineKo": "Amazon의 재투자 모델은 Dave Ellison의 시장 플레이북입니다.",
         "relevance": 0.5,
         "keywordFlag": false
       },
@@ -30727,6 +30743,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6f20c1bff68155561ba030183cda07ea5ce12ba5884349deb96fa08e99d1a712",
         "datetime": 1792093920,
+        "headlineKo": "Amazon의 새로운 장치는 개인 AI의 중단을 피하기 위해 노력하고 있습니다.",
         "relevance": 0.5,
         "keywordFlag": false
       },
@@ -38330,7 +38347,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "META": {
@@ -38673,6 +38690,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fe53d404751ff87063d198f644e97dfcba92a40df8b1ba376ae84499751c82b9",
         "datetime": 1792116180,
+        "headlineKo": "삼성 AI 안경, 메타에 과감한 승부",
         "relevance": 0.6,
         "keywordFlag": false,
         "analysis": {
@@ -38721,6 +38739,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d6c6b903fe0eda3749e591b2e495d2395c52b212a3cf0e044cd6bc577fb18337",
         "datetime": 1792108383,
+        "headlineKo": "다우(Dow)는 과도한 지출에 대한 우려로 투자자들이 AI 거래에서 벗어나면서 한 달여 만에 최고의 날을 맞이했습니다 — CRWV, META, SPCX, PEP에 초점",
         "relevance": 0.6,
         "keywordFlag": false,
         "analysis": {
@@ -38800,6 +38819,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=260c65bd6c51171baeac93a1d342f2c06de494ad2d71a25b54dd9bbad168afa1",
         "datetime": 1792092870,
+        "headlineKo": "Meta는 향상된 광고 캠페인 노출을 제공합니다",
         "relevance": 0.6,
         "keywordFlag": false,
         "analysis": {
@@ -38848,6 +38868,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4d9fc7eb33c7e11cd314a69ef513851b1211e929d58e0082ae3859eedc5ad36e",
         "datetime": 1792089180,
+        "headlineKo": "Meta의 새로운 청소년 제한에는 부모가 무시할 수 없는 허점이 있습니다.",
         "relevance": 0.6,
         "keywordFlag": false,
         "analysis": {
@@ -38896,6 +38917,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ec9a00a67fe37f48f259730138042cae52bbc94fd98fedc68bc962fa31dfa96d",
         "datetime": 1792088681,
+        "headlineKo": "메타는 한 달 만에 12% 상승했습니다. 이익을 얻을 것인가, 아니면 계속해서 나아갈 것인가?",
         "relevance": 0.6,
         "keywordFlag": false,
         "analysis": {
@@ -46395,7 +46417,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "AAPL": {
@@ -46644,6 +46666,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=dbf0730b0cccd12c0dce89b47e6b4178533487134de432083d760f2a6b127e89",
         "datetime": 1792108905,
+        "headlineKo": "짐 크레이머(Jim Cramer)는 스타벅스가 스스로 성장할 수 있고, 애플의 청중은 그만한 대가를 지불할 가치가 있으며, 인텔 투자자들에게는 인내심이 필요하다고 말합니다.",
         "relevance": 0.29,
         "keywordFlag": false,
         "analysis": {
@@ -46706,6 +46729,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=757b7de173c450fe5b7f191f5c4708afa5356cc2036e1e75d1a65accb860328a",
         "datetime": 1792105021,
+        "headlineKo": "iPhone Duo 사전 주문이 금요일부터 시작됩니다. 애플의 첫 폴더블폰이 주식을 사는 이유일까요?",
         "relevance": 0.57,
         "keywordFlag": false,
         "analysis": {
@@ -46785,6 +46809,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f71f28e99aeb9d57c0ae9a2b30f40d2f9f45124040fd7bf690c5a79a75ac46bf",
         "datetime": 1792100580,
+        "headlineKo": "애플은 지금 당장 매수할 수 있는 최고의 주식인가?",
         "relevance": 0.29,
         "keywordFlag": false,
         "analysis": {
@@ -46847,6 +46872,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9a7bffe1df0db070ca672a60650a4814da9c3d964384f2969f410cf6aba808dd",
         "datetime": 1792098000,
+        "headlineKo": "iPhone Duo가 비싸다고 생각하시나요? Apple의 보험 계획을 건너뛰면 단 한 번의 사고로 실제 비용이 급등할 수 있습니다.",
         "relevance": 0.57,
         "keywordFlag": false
       },
@@ -46855,6 +46881,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0c7c136c9b0ae4cb461f39617f3ae1de4d35f65c16f876174f8afec41d1080da",
         "datetime": 1792090391,
+        "headlineKo": "Apple의 손자수 제품 출시가 AI 슬롭 시대의 광고에 대해 보여주는 것",
         "relevance": 0.29,
         "keywordFlag": false
       },
@@ -54302,7 +54329,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "TSLA": {
@@ -54702,6 +54729,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a0a6bb0767d88cd66b9a35939cf167c42877776558c0eb4d8898ce9d81a72869",
         "datetime": 1792122775,
+        "headlineKo": "TSLA 주식은 '플라잉' 로드스터 공개로 인해 약간의 추진력을 얻었습니다. Munster는 Tesla-SpaceX 단서를 통해 이를 '엔지니어링 플렉스'라고 부릅니다.",
         "relevance": 1.0,
         "keywordFlag": false,
         "analysis": {
@@ -54764,6 +54792,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5a3901a5c8c9cd38d1ff5b442fae2be315fcddadd1c4983cea8191af9b03307c",
         "datetime": 1792120317,
+        "headlineKo": "다우존스 선물 상승; 인류 가치 평가 보고서, 플라잉 테슬라 로드스터에 초점",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -54812,6 +54841,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4f081080224ac93b7346b68697464db88bd1f7fb42afda96b5fdcdbbf06eddcf",
         "datetime": 1792117969,
+        "headlineKo": "Tesla, 공중 트릭을 갖춘 오랫동안 기다려온 로드스터 선보여",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -54860,6 +54890,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c47011d7a5bc8cdc514e209c881d69a2df550047f8d95285e72547e1498905f4",
         "datetime": 1792116835,
+        "headlineKo": "로드스터 공개는 Tesla 주식의 큰 순간이 될 수 있습니다",
         "relevance": 0.4,
         "keywordFlag": false
       },
@@ -54868,6 +54899,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c58870d6423efd66a3e12dac33df72690c3eb02e58502f1b9ab68b8c94a3c04d",
         "datetime": 1792113900,
+        "headlineKo": "Elon Musk는 2020년까지 \"백만 대의 로보택시\"를 약속했습니다. 실현된 것은 없으며, 전용 로보택시 함대는 적어도 2027년까지는 예상되지 않습니다. 그 실적이 Tesla의 가치 평가에 의미하는 바는 다음과 같습니다.",
         "relevance": 0.4,
         "keywordFlag": false
       },
@@ -55097,6 +55129,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d5712ff407b98f8701e42e53341a2b07d726d0aee429204cd8ed334a956628a7",
         "datetime": 1792068309,
+        "headlineKo": "Alphabet은 Waymo를 사용하여 Tesla의 First Mover \"Robotaxi Monopoly\" 프리미엄을 파괴할 수 있습니다.",
         "relevance": 0.4,
         "keywordFlag": true,
         "flagTerms": [
@@ -62443,7 +62476,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "ORCL": {
@@ -62844,6 +62877,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bc629b477d002cfda898bf225d9dcc6969b476f0e3ed118c418bc68551d0aad2",
         "datetime": 1792076899,
+        "headlineKo": "CoreWeave의 채권 공포가 확산되면서 Oracle은 거의 9% 하락했습니다.",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -62906,6 +62940,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2343190f97e3b23d737da25c8fdfea9165d383398d0f53c0f6d867e700d446c2",
         "datetime": 1792073470,
+        "headlineKo": "Oracle(ORCL)이 AI 시작 도구를 출시하면서 프로젝트 Jupiter를 재작업하는 이유는 무엇입니까?",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -70992,7 +71027,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "CRM": {
@@ -71208,6 +71243,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4102a0515c79206bd032c8e8ea3932c5d4f124d14fa08a496c3bdc104e3ddb12",
         "datetime": 1792108677,
+        "headlineKo": "다우존스 선물 하락: Wild Session 이후 Disney, Salesforce 리드 12개 매수; Tesla Roadster On Tap",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -71256,6 +71292,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8c4466a106586c69fcf398599a49c953e5f2d539166ea1ab32b7c897076e25d3",
         "datetime": 1792100880,
+        "headlineKo": "다우 존스 선물: Disney, Salesforce가 와일드 세션 이후 신규 구매 주도; Tesla Roadster On Tap",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -71304,6 +71341,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=24a08430a1903e9c68e61d678fa56845d62e2c080e5e8c8927cd09f54fbcaf4e",
         "datetime": 1792083480,
+        "headlineKo": "ServiceNow는 Decagon 인수 관심을 거부한 후 5% 상승했습니다. Salesforce 상승 4%, Palantir 하락",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -71366,6 +71404,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=577bcb621142aa77232bcebc9dd4ec16f644a63cab46d8c41c5f058bc02f9ec7",
         "datetime": 1792073604,
+        "headlineKo": "Salesforce(CRM): AI 통합으로 핵심 엔터프라이즈 소프트웨어 플랫폼 가치 향상",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -78913,7 +78952,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 172,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "PLTR": {
@@ -79315,6 +79354,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f1263c422bef3246ded843a0a6f6d546360855a85c61a6e65d3d3285b10e3de5",
         "datetime": 1792102524,
+        "headlineKo": "Palantir Technologies(PLTR), 상업 은행에 AI 온보딩 도입",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -79363,6 +79403,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=24a08430a1903e9c68e61d678fa56845d62e2c080e5e8c8927cd09f54fbcaf4e",
         "datetime": 1792083480,
+        "headlineKo": "ServiceNow는 Decagon 인수 관심을 거부한 후 5% 상승했습니다. Salesforce 상승 4%, Palantir 하락",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -79425,6 +79466,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e80a223d168efc1ffb28b70a36be77cb47829d83a4dbe5da4b17ec7c06f6e54f",
         "datetime": 1792082741,
+        "headlineKo": "간단히 말해서, Palantir는 여전히 가치 평가의 함정입니다",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -79487,6 +79529,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9420d5e1b3f41d4bb1e37d9475eb2e5af89fa3ac0834818b094b7b475a183d31",
         "datetime": 1792078181,
+        "headlineKo": "ServiceNow 대 Palantir Technologies: 2026년에는 어떤 기술 주식을 매수하는 것이 더 낫습니까?",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -88049,7 +88092,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "NVDA": {
@@ -88319,6 +88362,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=26f51639e6130d9b2e95ccccbf3ca3ead113e45d7e56748d2cd1abb7b4df3ecb",
         "datetime": 1792120022,
+        "headlineKo": "대만, 엔비디아 AI 공급망 지원 위해 40억 달러 규모 텍사스 공원 계획 - Bloomberg",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -88366,6 +88410,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0ef45365979a2b3a9436023f782b3eaf12e7bc8862ee4afb77b7f8efe903a499",
         "datetime": 1792117063,
+        "headlineKo": "투자자들이 NVIDIA(NVDA) AI 파트너십 웨이브에 반응하는 방법",
         "relevance": 1.0,
         "keywordFlag": false,
         "analysis": {
@@ -88432,6 +88477,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=22f1712fe6c48e9437947ec59051c1c09d90c6f9dd2a2ff549444c27145e5737",
         "datetime": 1792116960,
+        "headlineKo": "LITEON은 OCP의 NVIDIA MGX 생태계에서 차세대 AI 인프라를 발전시키는 800VDC 전력 기술을 선보입니다.",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -88480,6 +88526,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a92d93fd6a4c182ac52b31baedcc63a3647190f9123d8874e2d3b82df87d8b9b",
         "datetime": 1792107300,
+        "headlineKo": "엔비디아가 아닙니다. 시스코가 아닙니다. 모든 데이터 센터를 조용히 연결하는 AI 네트워킹 스톡입니다.",
         "relevance": 0.4,
         "keywordFlag": false
       },
@@ -88488,6 +88535,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ffe97b69c31acfcd1489a8310030437c29cc98159b20d3be57b1a9e9d19bf0c8",
         "datetime": 1792104180,
+        "headlineKo": "IonQ는 Nvidia의 플레이북을 따르고 있습니다. 주식이 60% 하락한 후 매수가 될 수 있는 이유",
         "relevance": 0.4,
         "keywordFlag": false
       },
@@ -95756,7 +95804,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "AMD": {
@@ -95959,6 +96007,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1cfb8800ca2fcfceaf03289bb5573fb5072a9aa5ffe33e0ced652c55bbb0601e",
         "datetime": 1792087812,
+        "headlineKo": "AMD(Advanced Micro Devices), AI 인프라 냉각 확장, 주가는 제대로 책정됐나?",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -96006,6 +96055,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6cc178efc4c11fa0f16b6115ba0fcae460e042ec5b5ad7607f5abb0cfee00528",
         "datetime": 1792085787,
+        "headlineKo": "FormFactor, Teradyne, Applied Materials, AMD 및 Intel 주가 급락, 알아야 할 사항",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -96054,6 +96104,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2bc79d7392b75c577716d8fabce0cb52de56c6f534efd2787c189ff04d371ae0",
         "datetime": 1792081834,
+        "headlineKo": "진짜 AMD Catalyst 투자자들이 잠자고 있는 것은 당신이 생각하는 것과 다릅니다",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -96116,6 +96167,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=05e054f1736c6802273c6bfe1802c5547f07ffe852b61efe5e07020c241a9196",
         "datetime": 1792078106,
+        "headlineKo": "AMD, NVDA, 기타 칩 주식은 AI 부채 문제로 인해 대패를 연장합니다 — Saxo는 자금 조달 압박이 공급망에 타격을 줄 수 있다고 말합니다",
         "relevance": 1,
         "keywordFlag": false
       },
@@ -103786,7 +103838,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "AVGO": {
@@ -104003,6 +104055,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5d0f70cab4ad374e6405d2657683aa814e0e094b9fa46ef1070c17520940112d",
         "datetime": 1792120410,
+        "headlineKo": "AI 지출 경고로 인해 Broadcom(AVGO) 내러티브가 변경될까요?",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -104050,6 +104103,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f1fa5d153a583acbb6df403e0217eb79973ba043bf2b62d11dface4d5e46d04c",
         "datetime": 1792085820,
+        "headlineKo": "Broadcom CEO Hock Tan은 \"카지노\"와 같은 투자에 대해 경고하면서 Warren Buffett의 말을 인용합니다.",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -104112,6 +104166,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6b5d46efdd45590235047b53bf13d486ddd2dd584a57984c8f96b5242d25b51e",
         "datetime": 1792082734,
+        "headlineKo": "나는 Broadcom의 다중 세그먼트 드래그에 대해 걱정하지 않습니다.",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -104174,6 +104229,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9dd560991e3b2ecebac8d4a311f99c223e7f6c6c705b8445e00b1c2d8b448c94",
         "datetime": 1792082709,
+        "headlineKo": "Nvidia와 Broadcom의 내러티브로 AI 칩 환경 정의",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -104236,6 +104292,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b7431833aa7ee005889cba091d8d8e5ce82998bd888c4a9133fb40842b3564d0",
         "datetime": 1792078209,
+        "headlineKo": "'그들은 카지노에 있다': Broadcom은 AI 붐으로 수십억 달러를 벌고 있지만 CEO Hock Tan은 많은 AI 투자자들이 자신이 무엇에 투자하고 있는지 '단서'가 없다고 말했습니다.",
         "relevance": 0.5,
         "keywordFlag": false
       },
@@ -112597,7 +112654,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "QCOM": {
@@ -112947,6 +113004,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f64f380f0e6e8d12cdbb3146bcefd927c4d0157378be0e278730324884aa4149",
         "datetime": 1792095793,
+        "headlineKo": "Qualcomm(QCOM), 가정용 광대역을 위한 최초의 AI 네이티브 Wi Fi 8 게이트웨이 공개",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -121172,7 +121230,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 184,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "ARM": {
@@ -121640,6 +121698,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fd51e2d196cc64bfe897e9e1cdb8632736f08a1b0cc1c780d38d8565c41dc0ab",
         "datetime": 1792086660,
+        "headlineKo": "ARM의 13% 계약 가치 성장이 2분기에 모멘텀을 유지할 수 있습니까?",
         "relevance": 0.75,
         "keywordFlag": false,
         "analysis": {
@@ -127200,7 +127259,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "MRVL": {
@@ -127555,6 +127614,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=121fe0ea789dabfe633f27f0de0fc0621092e721e5e29a2410d6160bc74e6dca",
         "datetime": 1792113185,
+        "headlineKo": "Marvell Technology(MRVL), 지금 주목받는 것은 무엇인가?",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -127603,6 +127663,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cd357f699bba8f3af8a7829fa988e11aa1a5a242af45f948d6d975e9d0ad31df",
         "datetime": 1792087861,
+        "headlineKo": "하락장에서 Marvell 주식을 매수해야 할까요?",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -127665,6 +127726,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2d8737997032a4c768acf2b83b092db2729074c13a57515847fc93cb5d15769b",
         "datetime": 1792079882,
+        "headlineKo": "Marvell 주식 투자자를 위한 환상적인 소식",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -127727,6 +127789,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a8e8d0dc85b97121e2e697fad159e13dd62f025c1e70c204539a92d1680da11f",
         "datetime": 1792079733,
+        "headlineKo": "2026년 더 나은 인공지능 주식: Astera Labs vs. Marvell Technology",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -127789,6 +127852,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=f83b5df66c8f85fb896bb612f470b634c5441e2591669016162007c89923fc17",
         "datetime": 1792066553,
+        "headlineKo": "Marvell 주식: 잔인한 매도, 더 큰 기회",
         "relevance": 0.67,
         "keywordFlag": false
       },
@@ -135972,7 +136036,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "INTC": {
@@ -136176,6 +136240,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=dbf0730b0cccd12c0dce89b47e6b4178533487134de432083d760f2a6b127e89",
         "datetime": 1792108905,
+        "headlineKo": "짐 크레이머(Jim Cramer)는 스타벅스가 스스로 성장할 수 있고, 애플의 청중은 그만한 대가를 지불할 가치가 있으며, 인텔 투자자들에게는 인내심이 필요하다고 말합니다.",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -136238,6 +136303,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b67b284f3d78dd72f7147c8d2695a0eeebffebc8d33991423a6fafd54f182d1a",
         "datetime": 1792091888,
+        "headlineKo": "인텔(INTC) 주가 하락, 지금 주목받는 것은 무엇입니까?",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -136286,6 +136352,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6cc178efc4c11fa0f16b6115ba0fcae460e042ec5b5ad7607f5abb0cfee00528",
         "datetime": 1792085787,
+        "headlineKo": "FormFactor, Teradyne, Applied Materials, AMD 및 Intel 주가 급락, 알아야 할 사항",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -136334,6 +136401,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d8769948bf75b9817a259e0dd09c5e1abdb2520858ec8c6492318b769b1b7595",
         "datetime": 1792077551,
+        "headlineKo": "TSMC CEO, 인텔의 고급 패키징 램프업이 부족할 경우 회사가 고객을 지원할 수 있다고 힌트",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -144724,7 +144792,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "TSM": {
@@ -144978,6 +145046,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4dbc6d57ae0842e47158433764a7c9f638acdf11d7821bb1eaa554de706643dc",
         "datetime": 1792098789,
+        "headlineKo": "TSMC 실적 이후 주목해야 할 대만 AI 반도체 주식 3개",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -145025,6 +145094,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=010de4eb3a54db10cda6f8a002844349d6a8c49d46426cd57de9ccd4bd93423a",
         "datetime": 1792084260,
+        "headlineKo": "대만 반도체, 삼성전자, SK하이닉스, ASML이 4대 보유 종목으로 구성된 저가형 Vanguard ETF를 만나보세요",
         "relevance": 1.0,
         "keywordFlag": false,
         "analysis": {
@@ -145087,6 +145157,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=ab32755f23b2279e608ce6d92105b81116c40397e07c274547bc7bfddd4ac8fa",
         "datetime": 1792082820,
+        "headlineKo": "TSMC Q3: AI 붐이 완전히 반영되지 않았습니다",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -145135,6 +145206,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=aa19860cf0fc2066fa66d560967975bca7457b7b81698b22314307ee3c6d30d6",
         "datetime": 1792079922,
+        "headlineKo": "TSMC (TSM) 2026년 3분기 실적 통화 녹취록",
         "relevance": 1,
         "keywordFlag": false
       },
@@ -153069,7 +153141,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "ASML": {
@@ -153339,6 +153411,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1e60e3b4f841bf1f341f11c341daf24178dc4c15bed8c321d26eb1157808eda0",
         "datetime": 1792120533,
+        "headlineKo": "ASML (ENXTAM:ASML) 3분기 결과, 기록적인 이익과 프리미엄 평가 강조",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -153387,6 +153460,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=daa7f39853a2b94abcd5d819cf69bf31fbaf5295aee07aec4ab8a4f42bdb8078",
         "datetime": 1792089602,
+        "headlineKo": "ASML은 Micron 주식 투자자들에게 훌륭한 소식을 전달했습니다.",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -153449,6 +153523,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=010de4eb3a54db10cda6f8a002844349d6a8c49d46426cd57de9ccd4bd93423a",
         "datetime": 1792084260,
+        "headlineKo": "대만 반도체, 삼성전자, SK하이닉스, ASML이 4대 보유 종목으로 구성된 저가형 Vanguard ETF를 만나보세요",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -153511,6 +153586,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f1db5d315283eaa03ca39f72b57e97789e71eff669a1426e69dd6a5f903da764",
         "datetime": 1792078022,
+        "headlineKo": "ASML Holding N.V.(ASML)는 AI 성장 속에서도 첨단 반도체 제조에 여전히 중요한 역할을 하고 있습니다.",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -153559,6 +153635,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7d5bf6abc873fcefb540fe6aa090ef3237dcdd3a4009343f59dea7eea8128064",
         "datetime": 1792076400,
+        "headlineKo": "ASML Q3 수익 통화에서 용량 확장 계획 강조",
         "relevance": 1,
         "keywordFlag": false
       },
@@ -159485,7 +159562,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 137,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "AMAT": {
@@ -159689,6 +159766,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8368cca5065a6223df81cd4558c2db85928aef7f65e51d5c9f9321f13dc14ab9",
         "datetime": 1792105246,
+        "headlineKo": "어플라이드 머티어리얼즈 주식 매수가 성과를 거두었나요?",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -159751,6 +159829,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6cc178efc4c11fa0f16b6115ba0fcae460e042ec5b5ad7607f5abb0cfee00528",
         "datetime": 1792085787,
+        "headlineKo": "FormFactor, Teradyne, Applied Materials, AMD 및 Intel 주가 급락, 알아야 할 사항",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -159799,6 +159878,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ddad1c2cdb08b9cecc4160302b68f940b31ce6bb91b04622c9b8ccd4836fb1f4",
         "datetime": 1792075540,
+        "headlineKo": "어플라이드 머티어리얼즈, 50억 달러 규모의 반도체 혁신 센터 개관",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -165532,7 +165612,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 125,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "LRCX": {
@@ -165722,6 +165802,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=881aa9d86af773cd0ba0a0c11b217ca8c0622adf74d531d75218a3e8813aef6c",
         "datetime": 1792086267,
+        "headlineKo": "Lam Research, Lattice Semiconductor, Amkor, Entegris 및 MACOM 주식 거래 하락, 알아야 할 사항",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -165770,6 +165851,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9c00f69e07666cf3961273bf3ebfa4a078a0a0ff9a698d536fe9b46501880b7e",
         "datetime": 1792073556,
+        "headlineKo": "Lam Research(LRCX), AI Fab 추진을 통해 SEMulator3D 모델링 속도 향상",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -168566,7 +168648,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "KLAC": {
@@ -168822,6 +168904,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c2c1b16a1aca30f326e023167d4e0db0cdda6240a33f3b0e7b70836fe167b6eb",
         "datetime": 1792081560,
+        "headlineKo": "KLAC는 1년 만에 64.5% 급등: 주식을 사야 할까요, 팔아야 할까요, 아니면 보유해야 할까요?",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -171803,7 +171886,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "MU": {
@@ -172160,6 +172243,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=689f4151569fee84cd8a2b065f207e5214c517993e187980471d45269b9bb49c",
         "datetime": 1792096200,
+        "headlineKo": "예측: 현재 Micron 주식에 투자한 2,000달러는 2029년까지 가치가 있을 수 있습니다",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -172222,6 +172306,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=57f3b110710f39fb6d79ed301db9a4b4f902386ef3f6f1132100de1877fc860c",
         "datetime": 1792094700,
+        "headlineKo": "방금 마이크론 주식을 샀습니다. 이유는 다음과 같습니다",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -172284,6 +172369,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=786441238329c3ec7be067df172d17933d9888b4fcda8d0a16b442f5e15089fd",
         "datetime": 1792087980,
+        "headlineKo": "Micron & SanDisk 주식이 과매도된 것으로 보임: 딥 매수 시점?",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -172332,6 +172418,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ec84a3e00c6bf608f80d4a0249d481ba60b844eecf97aafb960ba2cb3fb8b0d9",
         "datetime": 1792087200,
+        "headlineKo": "Micron 대 NVIDIA: 수익을 낸 후 매수하는 것이 더 나은 AI 주식은 무엇입니까?",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -172379,6 +172466,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e8a2d90d99539c393b67009e84c46b58a7f372bc05d6851257a24dd799ce28f1",
         "datetime": 1792084669,
+        "headlineKo": "마이크론의 새로운 대만 공장은 2027년에 매진되었습니다. 직원들은 이익의 15%를 원합니다",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -179751,7 +179839,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "SNDK": {
@@ -179955,6 +180043,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=786441238329c3ec7be067df172d17933d9888b4fcda8d0a16b442f5e15089fd",
         "datetime": 1792087980,
+        "headlineKo": "Micron & SanDisk 주식이 과매도된 것으로 보임: 딥 매수 시점?",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -180003,6 +180092,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c9903e1c3ce1b167e1223f96da6e3a7eecc9e04234f919af04f9ada555af22c9",
         "datetime": 1792074498,
+        "headlineKo": "SandiskStock이 계속 하락하는 이유는 무엇입니까?",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -188609,7 +188699,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "WDC": {
@@ -188807,6 +188897,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=dd524ff6d447cf6c2e1828ffc213ea83c024f6b0454d8a19cacd331d9b5a8ebb",
         "datetime": 1792098007,
+        "headlineKo": "시장이 개선되는 동안 웨스턴 디지털(WDC) 주가는 하락: 투자자를 위한 일부 정보",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -188855,6 +188946,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=fa835357d7235ba520987dc271330f5906db93005eaa6edccb64aaeeb6228962",
         "datetime": 1792077188,
+        "headlineKo": "Western Digital: 사이클 탑의 기본",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -194108,7 +194200,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "ANET": {
@@ -194312,6 +194404,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=db5d5332de641af2650da4e788bec40948bc6e8fbf0c9ee34c685083f0c7bb20",
         "datetime": 1792095707,
+        "headlineKo": "Arista Networks(ANET) 주식은 7배 상승에서 상당히 가치 있는 것으로 보입니다.",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -198325,7 +198418,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "COHR": {
@@ -198529,6 +198622,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a6066166fdd98af78a09bdc2d422c8da0c603e1a8ce9955c41630cd8bfc06828",
         "datetime": 1792095444,
+        "headlineKo": "Coherent(COHR)는 AI 역량 강화와 TSX CDR 상장을 통해 엣지를 재정의하고 있나요?",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -198577,6 +198671,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a7028115ca7ae6e92cefbeec501b9fa0059c1c45ee98d3f114776badc9ef0fc9",
         "datetime": 1792073640,
+        "headlineKo": "CRDO 대 COHR: 어떤 AI 연결성 주식이 더 나은 구매인가요?",
         "relevance": 1.0,
         "keywordFlag": false,
         "analysis": {
@@ -202365,7 +202460,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "LITE": {
@@ -202600,6 +202695,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=eabec2a4a6f336efb1dc2db7eb0a6a04ad8f6feb59b3b2ebfa3315087c9a79b9",
         "datetime": 1792105616,
+        "headlineKo": "Lumentum 주식은 얼마나 위험합니까?",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -207145,7 +207241,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "GEV": {
@@ -207362,6 +207458,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ae0c76c5a14e658018d128b506eff741a9b2b680b138167dd813fc50aa823af3",
         "datetime": 1792079785,
+        "headlineKo": "GE Vernova와 Venture Global은 최대 172억 달러 규모의 전력 거래를 체결했습니다. 여기에 확고한 것이 있습니다",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -212970,7 +213067,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "CEG": {
@@ -213171,6 +213268,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6f53fe30417060bf06fa4f61f66f0eefb0775509bf2aa617b0c85a0870b94f55",
         "datetime": 1792102478,
+        "headlineKo": "Constellation Energy(CEG)가 Brazos Valley를 매각하는 것이 미래에 중요한 이유는 무엇입니까?",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -213219,6 +213317,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=beb8d2850532538241f4ebeb3ec985ce318fe855ef5d2048647f108216b149c5",
         "datetime": 1792093260,
+        "headlineKo": "CoreWeave의 Freakout Hurt Constellation 및 NRG 주식. 그것은 있어서는 안됩니다.",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -213315,6 +213414,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=b4b0ce01ac94a9d4391a16ddc3f09a82c7cc0336f0dd6e3fe1f48759b3b36fb0",
         "datetime": 1792066588,
+        "headlineKo": "별자리 에너지가 비스트라보다 단기적으로 우위에 있는 이유",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -218237,7 +218337,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "VST": {
@@ -218441,6 +218541,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b9e0fa5faf9809fc44a9361d958d9085cf4ae51546b933390676606ce475230f",
         "datetime": 1792097551,
+        "headlineKo": "시장이 Vistra 주식을 올바르게 읽었습니까?",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -218503,6 +218604,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fb250716978be568e2bc978d3da1b85acd065688395c92356aab3952cd3a3035",
         "datetime": 1792097104,
+        "headlineKo": "Vistra Corp.(VST)이 시장 수익률을 능가합니다: 알아야 할 몇 가지 사실",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -218551,6 +218653,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e4f19774be573fec4d69654831d5b0839bfea297ea0881dc4cc5272a93bbeb69",
         "datetime": 1792095000,
+        "headlineKo": "Vistra, 모든 뛰어난 시리즈 A 우선주 상환 발표",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -218599,6 +218702,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=b4b0ce01ac94a9d4391a16ddc3f09a82c7cc0336f0dd6e3fe1f48759b3b36fb0",
         "datetime": 1792066588,
+        "headlineKo": "별자리 에너지가 비스트라보다 단기적으로 우위에 있는 이유",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -222143,7 +222247,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "ETN": {
@@ -222351,6 +222455,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8cb1b98be2c869f70c676016e14729f135d25248d58bf49aae3fab640e6d639d",
         "datetime": 1792097105,
+        "headlineKo": "시장 상승으로 Eaton(ETN) 주가 하락: 이유는 다음과 같습니다.",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -222399,6 +222504,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=39478c7ec102889abb4ccf7a2a55e37b2b29743dc61227c7c042cdd6f7785997",
         "datetime": 1792087020,
+        "headlineKo": "Eaton은 3개월 만에 3% 상승, 업계에 뒤쳐짐: 주식은 여전히 ​​매수세입니까?",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -222447,6 +222553,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e99619c526a73dc9375762739b7e8f6d1ee73c3a2792fcadd3f1eaae1e27c966",
         "datetime": 1792080533,
+        "headlineKo": "기네스 지속 가능 에너지 기금, 전력망 현대화 속에서 Eaton Corporation plc(ETN) 강조",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -225715,7 +225822,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "PWR": {
@@ -228981,7 +229088,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "HUBB": {
@@ -229178,6 +229285,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f1b01596e4d03981ced968c5b67f0f77882839b56526c7b6908ed221eee62cbd",
         "datetime": 1792080629,
+        "headlineKo": "기네스 지속 가능 에너지 펀드, 유틸리티 성장 우려 속에서 Hubbell Incorporated(HUBB) 강조",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -229940,7 +230048,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "VRT": {
@@ -234446,7 +234554,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "MOD": {
@@ -234636,6 +234744,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1506927cf0d3d8eb7641596c58e279083f41a35036095c4c85595d770753197c",
         "datetime": 1792097103,
+        "headlineKo": "시장 상승에도 불구하고 모딘(MOD) 주식 하락: 주목해야 할 중요한 사실",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -235920,7 +236029,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "STX": {
@@ -236124,6 +236233,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=43a696c16986b4ba1ec97403a1c20a7f2ebd51e83ea88161b72e4790278ebaff",
         "datetime": 1792075740,
+        "headlineKo": "Seagate의 44TB Mozaic 4 드라이브로 총 이익을 더 높일 수 있습니까?",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -240759,7 +240869,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "EME": {
@@ -240947,6 +241057,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=08df72c3f7dc525a641d59055ea604cf2f52fb2f51b9831c2960e9c9c9f7a4b1",
         "datetime": 1792097403,
+        "headlineKo": "시장이 개선되는 동안 Emcor Group(EME) 주가 하락: 투자자를 위한 일부 정보",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -240995,6 +241106,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ff75ca9692e1307cb7aafc326760e712f81b3dfbb56d0088a2d44d8890be88b8",
         "datetime": 1792096269,
+        "headlineKo": "EMCOR 그룹(EME): Claude가 AI 포트폴리오의 14.5%를 데이터 센터 계약업체에 투자한 이유",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -242809,7 +242921,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "FIX": {
@@ -244595,7 +244707,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   },
   "BE": {
@@ -244798,6 +244910,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a01f75f2c9ea3aaa92a0eed47c56fc870ec2bd092949e8d42858b47728dce968",
         "datetime": 1792098903,
+        "headlineKo": "Bloom Energy(BE) 주가는 시장 상승 중 하락: 주요 사실",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -244846,6 +244959,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=71bc35ddef44a7c4bc36e3053fd4c50373673539eb8e3098415884a791263b5e",
         "datetime": 1792069210,
+        "headlineKo": "Bloom Energy (BE)는 다음 주에 보고서를 발표합니다: 월스트리트는 수익 성장을 기대합니다",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -247409,7 +247523,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-16 18:26"
+      "updated": "2026-10-16 18:58"
     }
   }
 };
