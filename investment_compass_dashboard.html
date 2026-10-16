@@ -5968,18 +5968,40 @@ function pvReverseDcfModelB(t, r, fin, fund, est){
   const g0 = (trend[0] && typeof trend[0].epsGrowth === 'number') ? trend[0].epsGrowth*100 : null;
   const g1 = (trend[1] && typeof trend[1].epsGrowth === 'number') ? trend[1].epsGrowth*100 : null;
   const gList = [g0, g1].filter(v => typeof v === 'number');
+  // 원래(1~2년차 평균) 컨센서스 성장률 - 화면 참고용으로 그대로 유지(비교 기준으로는 더 안 씀).
   const consensusGrowthPct = gList.length ? gList.reduce((a,b)=>a+b, 0)/gList.length : null;
+  // WO8-B 4차(2번째 반려) 수정(2026-10-16 사용자 지시) -- 역DCF는 10년 내재 성장률인데
+  // 이걸 1~2년치 컨센서스(보통 훨씬 높음)와 직접 비교하면 고성장주가 구조적으로 항상
+  // "기대 대비 낮음"으로 나온다(기간이 안 맞는 비교). 1~2년차는 실제 컨센서스를 쓰고,
+  // 3~10년차는 2년차 값에서 영구성장률(3%)까지 선형으로 줄여 10년 CAGR을 만들어서
+  // 같은 10년 기준으로 비교한다(지시서 그대로, 새 데이터 없이 기존 g0/g1 + TERMINAL_G 재사용).
+  let consensus10yGrowthPct = null;
+  if(g0 != null || g1 != null){
+    const y1 = (g0 != null) ? g0 : g1;
+    const y2 = (g1 != null) ? g1 : y1;
+    const TERMINAL_PCT = TERMINAL_G * 100; // 3
+    const yearsGrowthPct = [y1, y2];
+    const step = (y2 - TERMINAL_PCT) / (YEARS - 2); // 2년차 -> 10년차까지 8구간 선형 감소
+    for(let k = 3; k <= YEARS; k++){
+      yearsGrowthPct.push(y2 - step * (k - 2)); // k=10일 때 정확히 TERMINAL_PCT
+    }
+    let compound = 1;
+    for(const gy of yearsGrowthPct){ compound *= (1 + gy/100); }
+    consensus10yGrowthPct = (Math.pow(compound, 1/YEARS) - 1) * 100;
+  }
   let verdict = null;
-  if(consensusGrowthPct != null && consensusGrowthPct > 0){
-    const ratio = impliedGrowthPct/consensusGrowthPct;
+  if(consensus10yGrowthPct != null && consensus10yGrowthPct > 0){
+    const ratio = impliedGrowthPct/consensus10yGrowthPct;
     verdict = ratio > 1.5 ? '기대 선반영 큼' : (ratio >= 0.7 ? '기대와 부합' : '기대 대비 낮음');
   }
   return {
     ok: true, impliedGrowthPct: Number(impliedGrowthPct.toFixed(1)),
     consensusGrowthPct: consensusGrowthPct != null ? Number(consensusGrowthPct.toFixed(1)) : null,
+    consensus10yGrowthPct: consensus10yGrowthPct != null ? Number(consensus10yGrowthPct.toFixed(1)) : null,
     verdict, fcfBasis: Number(fcf0.toFixed(0)), fcfSource, fcfIsEpsProxy, boundHit,
     assumptions: {discountRatePct: 9, terminalGrowthPct: 3, years: 10,
-      evNote: 'EV≈시가총액(price×발행주식수)으로 역산 - 절대 순부채($) 데이터가 파이프라인에 없어 순부채를 더하지 않음(지어내지 않음)'},
+      evNote: 'EV≈시가총액(price×발행주식수)으로 역산 - 절대 순부채($) 데이터가 파이프라인에 없어 순부채를 더하지 않음(지어내지 않음)',
+      consensusNote: '비교 기준 10년 CAGR: 1~2년차는 컨센서스, 3~10년차는 2년차→영구성장률(3%)까지 선형 감소(WO8-B 4차 지시)'},
   };
 }
 
@@ -6021,7 +6043,18 @@ function pvFallbackModelV2(t, r, fin, fund, est, baseAnchorPeVal, perBandLowVal,
       } else if(priceRatio == null || priceRatio > 1.8 || priceRatio < 0.55){
         priceOverride = '판단 유보(모델 불신)';
       } else {
-        priceOverride = '판단 유보(모델 검증 중)';
+        // WO8-B 4차(1번째 반려) 수정(2026-10-16 사용자 지시) -- 게이트를 통과하면 "판단
+        // 유보"로 덮지 않고, 기존 PER-밴드 분기(!usedFallbackModel)가 쓰는 것과 똑같은
+        // 3단 판정 로직(상단 초과/하단 미달/밴드 내 + hasAnyNegative/allPositive 안전장치)을
+        // 정상화 기준가 밴드(lowPrice/highPrice)에 그대로 적용해 저평가/적정/고평가를 낸다
+        // (이 함수 맨 위 주석이 원래 의도했던 그대로, 새 판정 로직을 만들지 않음).
+        if(r.price > result.highPrice){
+          priceOverride = hasAnyNegative ? '고평가' : '적정';
+        } else if(r.price < result.lowPrice){
+          priceOverride = (epsNegative || cfVeto) ? '적정' : (allPositive ? '저평가' : '적정');
+        } else {
+          priceOverride = '적정';
+        }
       }
     }
   } else if(stockType.type === '이익훼손형'){
@@ -6048,8 +6081,11 @@ function pvFallbackModelV2(t, r, fin, fund, est, baseAnchorPeVal, perBandLowVal,
   // 미만이면(SNDK 실측: 4개년, 상장 분할 이후 짧은 이력) 분류 결과·모델 성공 여부와
   // 무관하게 "판단 유보 - 이익 정점 가능, 이력 부족"으로 고정한다. 기존엔 SNDK 티커명을
   // 직접 검사했는데, 같은 상황(이력 짧음)이 다른 종목에도 생길 수 있어 조건을 일반화한다.
+  // WO8-B 4차(2번째 반려) 수정(2026-10-16 사용자 지시) -- 이력<5년 고정 라벨은 "정상화
+  // 모델·PEG를 쓰는 종목"에만 적용한다. 역DCF(고성장형)는 연간 EPS 이력 길이와 무관하게
+  // 계산 가능한 모델이라 제외(ARM·GEV는 역DCF 라벨로 복귀, SNDK는 fallback_peg라 그대로 유지).
   const epsHistoryYears = (stockType.evidence && typeof stockType.evidence.n === 'number') ? stockType.evidence.n : null;
-  if(epsHistoryYears != null && epsHistoryYears < 5){
+  if(epsHistoryYears != null && epsHistoryYears < 5 && model !== 'reverse_dcf'){
     priceOverride = '판단 유보 - 이익 정점 가능, 이력 부족';
   }
   return {model, stockType, result, priceOverride};
@@ -7647,8 +7683,11 @@ function renderPriceValidityCard(r){
         (밴드 $${rr.lowPrice.toFixed(2)} ~ $${rr.highPrice.toFixed(2)}, 폭 ${rr.widthPct!=null?rr.widthPct.toFixed(0):'—'}%${rr.negativeLowFloor?' · 마진 하위 20%가 적자라 밴드 하단은 0으로 표시':''}${rr.sharesIsMarketCapProxy?' · 주식수는 시가총액÷현재가로 환산':''})`;
     } else if(fv.model === 'reverse_dcf' && fv.result.ok){
       const rr = fv.result;
+      // WO8-B 4차(2번째 반려) 수정(2026-10-16) -- 내재 성장률·컨센서스 10년 환산치·원래
+      // 1~2년차 컨센서스 세 숫자를 모두 표시(지시서 그대로, 비교 기준은 10년 환산치).
       modelBody = `역DCF(할인율 9%·영구성장률 3%·10년, ${esc(rr.assumptions.evNote)}) 기준 시장 내재 성장률 연 ${rr.impliedGrowthPct.toFixed(1)}%
-        vs 컨센서스(다음 2개 회계연도 평균) 연 ${rr.consensusGrowthPct!=null?rr.consensusGrowthPct.toFixed(1):'—'}% → <b>${esc(rr.verdict||'비교 불가')}</b>
+        vs 컨센서스 10년 환산 CAGR 연 ${rr.consensus10yGrowthPct!=null?rr.consensus10yGrowthPct.toFixed(1):'—'}% → <b>${esc(rr.verdict||'비교 불가')}</b>
+        (원래 1~2년차 평균 컨센서스는 연 ${rr.consensusGrowthPct!=null?rr.consensusGrowthPct.toFixed(1):'—'}% — 1~2년차는 그대로 쓰고 3~10년차는 2년차→영구성장률(3%)까지 선형 감소시켜 10년 CAGR로 환산한 값과 비교합니다)
         (기준 현금흐름: $${(rr.fcfBasis/1e9).toFixed(2)}B, ${esc(rr.fcfSource)}${rr.fcfIsEpsProxy?' · FCF 대체값':''}${rr.boundHit?' · 탐색 범위(-30%~60%) 경계에 닿음 - 추정 신뢰도 낮음':''})
         이 모델은 기준가를 내지 않습니다(지시서 명시) — 매수 구간은 나침반 구간·옵션 구간을 그대로 씁니다.`;
     } else {
@@ -7658,14 +7697,17 @@ function renderPriceValidityCard(r){
       <div style="font-size:12.5px;font-weight:800;color:${typeColor};">${esc(st.type)}</div>
       <div style="margin-top:2px;font-size:10.5px;color:${NEU_DIM};">${esc(evidenceLine)}</div>
       <div style="margin-top:7px;font-size:11.5px;color:${NEU_TEXT};line-height:1.6;">${modelBody}</div>`;
-    // WO8-B 반려 수정(즉시 조치, 2026-10-16 사용자 지시) -- 경기순환형은 분류·모델 숫자를
-    // "판단 유보" 배너 아래 접힌 참고(검증 중) 섹션으로만 보여준다(방향성 라벨을 화면
-    // 어디에도 그냥 노출하지 않음).
-    if(st.type === '경기순환형'){
+    // WO8-B 4차(1번째 반려) 수정(2026-10-16 사용자 지시) -- 경기순환형이라도 결정#2
+    // 게이트(밴드 폭<=60% & 기준가/현재가 0.55~1.8배)를 통과해 실제 가격 라벨(저평가/
+    // 적정/고평가)이 나온 경우엔(d.price가 "판단 유보"로 시작하지 않음) 다른 유형과
+    // 똑같이 라벨을 그대로 노출한다. 게이트를 통과하지 못해 "판단 유보"가 붙은 경우에만
+    // 분류·모델 숫자를 접힌 참고 섹션으로 숨긴다(기존 동작 유지).
+    const cyclicalHeldBack = (st.type === '경기순환형') && (typeof d.price === 'string') && (d.price.indexOf('판단 유보') === 0);
+    if(cyclicalHeldBack){
       return `
       <div style="margin-top:8px;padding:11px 13px;border-radius:10px;border:1px solid #d8c178;background:#fdf8e8;">
-        <div style="font-size:11px;color:#8a6d1f;font-weight:700;">판단 유보(모델 검증 중) — WO8-B 재검증</div>
-        <div style="margin-top:3px;font-size:11.5px;color:${NEU_TEXT};line-height:1.5;">경기순환형으로 분류되어 가격 라벨을 확정하지 않습니다. 분류·모델 산출 결과는 검증 중인 참고 수치입니다.</div>
+        <div style="font-size:11px;color:#8a6d1f;font-weight:700;">${esc(d.price)} — WO8-B 재검증</div>
+        <div style="margin-top:3px;font-size:11.5px;color:${NEU_TEXT};line-height:1.5;">경기순환형으로 분류됐지만 밴드 폭·기준가 대비 신뢰 조건을 벗어나 가격 라벨을 확정하지 않습니다. 분류·모델 산출 결과는 검증 중인 참고 수치입니다.</div>
         <details style="margin-top:7px;">
           <summary style="font-size:11px;color:${NEU_DIM};cursor:pointer;">참고(검증 중) — 분류·모델 숫자 보기</summary>
           <div style="margin-top:6px;">${refBody}</div>
