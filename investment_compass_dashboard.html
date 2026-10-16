@@ -66,6 +66,27 @@
 @media (max-width:480px){
   #glanceSummary .glance-line{ font-size:11.5px; margin:2px 0; line-height:1.4; }
 }
+/* [2026-10-17 WO11-2] 종목 목록 - 좁은 화면(700px 이하)에서는 가로 스크롤 테이블 대신
+   카드 목록을 보여준다. 1단(항상 보임)과 2단(탭하면 펼침) 사이, "3초 판단" 줄과 D-day
+   배지 사이에 항상 별도 줄바꿈 블록으로 간격을 줘서 "관찰D-6"처럼 글자가 붙어 보이는
+   문제가 다시 생기지 않게 했다. */
+#resultCards{ display:none; }
+@media (max-width:700px){
+  #resultTableWrap{ display:none !important; }
+  #resultCards{ display:block; }
+}
+.rc-card{ border:1px solid var(--line); border-radius:10px; padding:10px 12px; margin-bottom:8px; background:#fff; max-width:100%; overflow-wrap:break-word; }
+.rc-row1{ display:flex; justify-content:space-between; align-items:baseline; gap:8px; flex-wrap:wrap; }
+.rc-ticker{ font-weight:800; font-size:14px; }
+.rc-price{ font-family:var(--mono); font-weight:700; font-size:13px; white-space:nowrap; }
+.rc-verdict{ font-size:15px; font-weight:800; margin-top:6px; line-height:1.4; }
+.rc-pricelabel{ margin-top:3px; font-size:12px; }
+.rc-badges{ margin-top:6px; display:flex; flex-wrap:wrap; gap:5px; }
+.rc-badge{ font-size:10.5px; font-weight:700; padding:2px 7px; border-radius:6px; white-space:nowrap; }
+.rc-tier2-toggle{ margin-top:8px; font-size:11.5px; color:var(--accent); cursor:pointer; font-weight:700; }
+.rc-tier2{ margin-top:6px; padding-top:6px; border-top:1px dashed var(--line); font-size:11.5px; line-height:1.65; display:none; }
+.rc-tier2.open{ display:block; }
+.rc-detail-btn{ margin-top:8px; font-size:11.5px; background:var(--panel-2); border:1px solid var(--line); border-radius:8px; padding:5px 10px; display:inline-block; cursor:pointer; font-weight:700; }
   .bucket-row{display:flex;gap:8px;flex-wrap:wrap;}
   .bucket{flex:1;min-width:100px;border-radius:12px;padding:12px 8px;text-align:center;border:1px solid transparent;cursor:pointer;transition:transform .15s ease,box-shadow .15s ease;}
   .bucket:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(0,0,0,.08);}
@@ -398,7 +419,7 @@
     <div class="sub" style="margin-bottom:4px;font-size:11.5px;">📌 <b>시장 기준가·적정가 칸은 숨겼어요</b>(2026-10-01): 이전 계산은 독립 검증을 받지 않아 금액·판정을 표시하지 않아요. 새 '동종 PER 참고 범위'는 검증을 통과한 뒤 따로 결정해 보여드려요. · <b>단기신호</b>(단기판단 칸): 과거 가격·거래량 규칙의 관측 결과이며 수익을 보장하지 않습니다.</div>
     <div id="fairRuleBanner"></div>
     <div id="marketSigmaSummary" class="sub" style="margin-bottom:8px;"></div>
-    <div style="overflow-x:auto;">
+    <div id="resultTableWrap" style="overflow-x:auto;">
     <table id="resultTable" style="display:none;min-width:1420px;">
       <thead>
         <tr>
@@ -425,6 +446,11 @@
       <tbody id="resultBody"></tbody>
     </table>
     </div>
+    <!-- [2026-10-17 WO11-2] 375px 모바일에서 가로 스크롤 테이블 대신 보여줄 카드 목록.
+         renderTable()이 만든 같은 rows 배열을 그대로 다시 읽어서(재계산 없음) 1단(항상
+         보임)·2단(탭하면)·3단(상세보기=기존 openDetail)으로만 재배치한다. 넓은 화면에서는
+         CSS로 숨기고 테이블을 그대로 보여준다(계산·판정 로직 변경 없음, 배치만 추가). -->
+    <div id="resultCards" class="result-cards"></div>
   </div>
 
   <div class="card">
@@ -3292,8 +3318,93 @@ function renderTable(){
       </td>
     </tr>`).join('');
   }
+  // [2026-10-17 WO11-2] 위에서 만든 같은 rows(필터·정렬 끝난 상태)·errRows를 그대로 넘겨서
+  // 모바일 카드도 다시 계산하지 않고 똑같이 그린다(표와 카드가 항상 같은 데이터).
+  renderResultCards(rows, errRows);
 }
 
+// ============ [2026-10-17 WO11-2] 모바일(≤700px) 카드 목록 ============
+// renderTable()이 이미 필터·정렬까지 끝낸 rows·errRows를 그대로 받아서(새 계산 없음)
+// 종목당 1단(항상 보임: 종목명·3초 판단·가격 라벨·현재가·D-day)·2단(탭하면: 기준가·매수
+// 구간·하락 원인 한 줄·근거 미반영)·3단(상세보기 = 기존 openDetail, 나머지 전부)으로
+// 재배치한다. 3초 판단(act.label)·가격 라벨(d.price)·기준가(bt.base.price)는 export_verdicts.js
+// 가 final_tier/price_label/base_price로 내보내는 것과 완전히 같은 함수 호출
+// (computePriceValidity → pvIntegratedAction → pvDecisionInfo)로만 구한다 - 판정을 새로
+// 만들지 않음. 배지는 우선순위(실적 D-day > 가격 라벨 보류 사유 > 근거 미반영 > 기타) 상위
+// 2개만 보이고 나머지는 "+N"으로 접는다. "3초 판단" 줄과 D-day 배지는 항상 서로 다른
+// div 블록(.rc-verdict / .rc-badges, 사이 margin-top)에 있어서 "관찰D-6"처럼 글자가
+// 붙어 보이는 문제가 생기지 않는다.
+const ACTION_COLOR_RC = {
+  '신규 접근 중지':'#7a3b2e', '관찰':'#7a5c00', '추세 반전 대기':'#7a5c00',
+  '눌림 대기':'#7a5c00', '분할 축적 검토':'#2f5b3c', '확인 대기':'#5b6472',
+};
+function toggleRcTier2(ticker){
+  const el = document.getElementById('rc-tier2-'+ticker);
+  if(el) el.classList.toggle('open');
+}
+function buildResultCardHtml(r){
+  const numFn = v => typeof v === 'number' && isFinite(v);
+  let d, act, decisionInfo;
+  try{
+    d = computePriceValidity(r);
+    act = pvIntegratedAction(d);
+    decisionInfo = pvDecisionInfo(d, r, act, numFn);
+  }catch(e){
+    return `<div class="rc-card"><div class="rc-row1"><span class="rc-ticker">${esc(r.ticker)}</span><span class="rc-price">$${r.price.toFixed(2)}</span></div><div class="sub" style="margin-top:6px;">판단 계산 실패(참고 - 상세보기에서 다시 확인하세요)</div><div class="rc-detail-btn" onclick="openDetail('${r.ticker}')">상세보기 →</div></div>`;
+  }
+  const actionColor = ACTION_COLOR_RC[act.label] || '#3c4552';
+  const priceColor = PV_COLOR[d.price] || '#3c4552';
+
+  // 배지 우선순위: 실적 D-day > 가격 라벨 보류 사유(모델 불신 경보) > 근거 미반영 > 기타(NEW)
+  const badges = [];
+  const ddayInfo = earningsDdayInfo(r.ticker);
+  if(ddayInfo){
+    const mmdd = ddayInfo.date.slice(5).replace('-','/');
+    const txt = ddayInfo.phase === 'upcoming' ? `D-${ddayInfo.daysUntil} 실적(${mmdd})` : '실적 발표 직후';
+    badges.push({pri:1, html:`<span class="rc-badge" style="background:#e8f0fe;color:#1a56b0;">${esc(txt)}</span>`});
+  }
+  if(d.priceAlert){
+    badges.push({pri:2, html:`<span class="rc-badge" style="background:#fdecea;color:#b3261e;" title="${esc(d.priceAlertNote||'')}">판단 유보(모델 불신)</span>`});
+  }
+  if(d.downturnCauseStale || d.downturnNeedsRequalify){
+    badges.push({pri:3, html:`<span class="rc-badge" style="background:#fff8ea;color:#876000;">근거 미반영</span>`});
+  }
+  if(typeof hasFreshNews === 'function' && hasFreshNews(r.ticker)){
+    badges.push({pri:4, html:`<span class="rc-badge" style="background:#eef0f3;color:#3c4552;">NEW</span>`});
+  }
+  badges.sort((a,b)=>a.pri-b.pri);
+  const shownBadges = badges.slice(0,2);
+  const restBadges = badges.length - shownBadges.length;
+  const badgesHtml = shownBadges.map(b=>b.html).join('') + (restBadges>0 ? `<span class="rc-badge" style="background:var(--panel-2);color:var(--sub);">+${restBadges}</span>` : '');
+
+  const basePrice = (d.bandTable && numFn(d.bandTable.base && d.bandTable.base.price)) ? d.bandTable.base.price : null;
+  const buyZoneTxt = (decisionInfo && decisionInfo.buyZone) ? decisionInfo.buyZone : '매수 구간 정보 없음';
+  const downturnTxt = d.downturnSummary || null;
+
+  return `<div class="rc-card" id="rc-${r.ticker}">
+    <div class="rc-row1">
+      <span class="rc-ticker">${esc(r.ticker)}</span>
+      <span class="rc-price">$${r.price.toFixed(2)}</span>
+    </div>
+    <div class="rc-verdict" style="color:${actionColor};">${esc(act.label)}</div>
+    <div class="rc-pricelabel">가격 라벨: <b style="color:${priceColor};">${esc(d.price)}</b></div>
+    ${badgesHtml ? `<div class="rc-badges">${badgesHtml}</div>` : ''}
+    <div class="rc-tier2-toggle" onclick="toggleRcTier2('${r.ticker}')">더보기 ▾</div>
+    <div class="rc-tier2" id="rc-tier2-${r.ticker}">
+      <div>기준가: <b>${basePrice!=null ? ('$'+basePrice.toFixed(2)) : '정보 없음'}</b></div>
+      <div style="margin-top:4px;">매수 구간: ${esc(buyZoneTxt)}</div>
+      ${downturnTxt ? `<div style="margin-top:4px;">하락 원인: ${esc(downturnTxt)}</div>` : ''}
+    </div>
+    <div class="rc-detail-btn" onclick="openDetail('${r.ticker}')">상세보기 →</div>
+  </div>`;
+}
+function renderResultCards(rows, errRows){
+  const el = document.getElementById('resultCards');
+  if(!el) return;
+  const cardsHtml = rows.map(r => { try{ return buildResultCardHtml(r); }catch(e){ return ''; } }).join('');
+  const errHtml = (errRows||[]).map(r => `<div class="rc-card"><div class="rc-row1"><span class="rc-ticker">${esc(r.ticker)}</span></div><div class="sub" style="margin-top:6px;">조회 실패: ${esc(r.msg)}</div><div class="rc-detail-btn" onclick="retryTicker('${r.ticker}')">↻ 재조회</div></div>`).join('');
+  el.innerHTML = cardsHtml + errHtml;
+}
 async function retryTicker(ticker){
   const status = document.getElementById('scanStatus');
   status.innerHTML = `<div class="loading">${ticker} 재조회 중...</div>`;

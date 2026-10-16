@@ -1,12 +1,12 @@
 // ops_status_report.py가 자동 생성합니다. 직접 수정하지 마세요.
 const OPS_STATUS_DATA = {
-  "generatedAt": "2026-10-16T21:02:56+09:00",
+  "generatedAt": "2026-10-17T02:09:28+09:00",
   "items": [
     {
       "key": "last_success",
       "status": "green",
       "label": "마지막 정상 완료",
-      "detail": "2026-10-16 20:45"
+      "detail": "2026-10-17 01:42"
     },
     {
       "key": "public_verify",
@@ -18,7 +18,7 @@ const OPS_STATUS_DATA = {
       "key": "loop_progress",
       "status": "green",
       "label": "루프 진행",
-      "detail": "대기 중(다음 주기, 17분 전부터)"
+      "detail": "대기 중(다음 주기, 27분 전부터)"
     },
     {
       "key": "loop_count",
@@ -42,19 +42,19 @@ const OPS_STATUS_DATA = {
       "key": "market_expectation_asof",
       "status": "green",
       "label": "시장 기대 기준일",
-      "detail": "2026-10-16"
+      "detail": "2026-10-17"
     },
     {
       "key": "eps",
       "status": "green",
       "label": "EPS 수집",
-      "detail": "가장 오래된 종목 CRM 3일 전"
+      "detail": "가장 오래된 종목 CRM 4일 전"
     },
     {
       "key": "data_audit",
-      "status": "red",
+      "status": "green",
       "label": "데이터 감사",
-      "detail": "A급 2건"
+      "detail": "A급 0건"
     },
     {
       "key": "git_lock_recovery",
@@ -67,6 +67,12 @@ const OPS_STATUS_DATA = {
       "status": "unknown",
       "label": "13F 신규 분기 반영",
       "detail": "아직 확인 시점 전(2026-11-15부터 확인)"
+    },
+    {
+      "key": "smart_money_quarter_auto",
+      "status": "unknown",
+      "label": "13F 자동 수집 실행",
+      "detail": "아직 실행 기록 없음(수집 창 전이거나 최초 실행 전)"
     }
   ]
 };
