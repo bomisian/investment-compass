@@ -60,6 +60,12 @@
 .dc-summary-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:14px;}
 @media (max-width:860px){ .dc-summary-grid{grid-template-columns:repeat(3,1fr);} }
 @media (max-width:520px){ .dc-summary-grid{grid-template-columns:repeat(2,1fr);} }
+/* [2026-10-17 WO11-2] "한눈에 보기" 맨 위 3줄 요약 - 375px에서도 스크롤 없이 한 화면에
+   보이도록 줄간격·글자크기를 압축. 내용(계산)은 그대로, 배치만 바꿈. */
+#glanceSummary .glance-line{ margin:3px 0; line-height:1.45; word-break:break-word; }
+@media (max-width:480px){
+  #glanceSummary .glance-line{ font-size:11.5px; margin:2px 0; line-height:1.4; }
+}
   .bucket-row{display:flex;gap:8px;flex-wrap:wrap;}
   .bucket{flex:1;min-width:100px;border-radius:12px;padding:12px 8px;text-align:center;border:1px solid transparent;cursor:pointer;transition:transform .15s ease,box-shadow .15s ease;}
   .bucket:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(0,0,0,.08);}
@@ -259,8 +265,17 @@
     <div class="updated" id="updatedAt">아직 체크 안 함</div>
   </header>
   <div id="dataStatusLine" class="sub" style="margin:-8px 0 12px;"></div>
-  <div id="opsStatusLine" class="sub" style="margin:-8px 0 12px;"></div>  <!-- 2026-10-15 WO6-01: 운영 상태(파이프라인 정상/루프/배포 일치 등) 요약 한 줄. ops_status_report.py가 생성하는 ops_status_data.js를 읽기만 함(공개 가능 정보만). -->
-  <div id="earningsDdayLine" class="sub" style="margin:-8px 0 12px;"></div>  <!-- 2026-10-15 WO6-04: 다음 7일 안에 실적 발표하는 종목 한눈에 보기. NEWS_DATA[ticker].nextEarnings만 읽음(기존 데이터, 새 수집 없음). -->
+  <!-- [2026-10-17 WO11-2] "한눈에 보기" 맨 위 요약 3줄 - 스크롤 없이 보이도록 한 컨테이너로
+       묶었다(①②③ 모두 계산 로직 변경 없이 기존/신규 데이터 파일을 읽기만 함):
+       ① verdictChangeLine(오늘 판정이 바뀐 종목 - verdict_change_today.py가 새로 생성하는
+          verdict_change_today_data.js만 읽음, verdict_log.csv의 기존 값 그대로)
+       ② earningsDdayLine(7일 안 실적 발표 - 기존 WO6-04 그대로, 최대 5개+"+N"으로 변경)
+       ③ opsStatusLine(운영 상태 한 줄 - 기존 WO6-01 그대로, 마지막 갱신 시각 표시만 추가) -->
+  <div id="glanceSummary" style="margin:-8px 0 12px;">
+    <div id="verdictChangeLine" class="sub glance-line"></div>
+    <div id="earningsDdayLine" class="sub glance-line"></div>  <!-- 2026-10-15 WO6-04: 다음 7일 안에 실적 발표하는 종목 한눈에 보기. NEWS_DATA[ticker].nextEarnings만 읽음(기존 데이터, 새 수집 없음). -->
+    <div id="opsStatusLine" class="sub glance-line"></div>  <!-- 2026-10-15 WO6-01: 운영 상태(파이프라인 정상/루프/배포 일치 등) 요약 한 줄. ops_status_report.py가 생성하는 ops_status_data.js를 읽기만 함(공개 가능 정보만). -->
+  </div>
 
   <div class="page-tabs" id="pageTabs">
     <div class="ptab active" onclick="switchPage('dashboard')">📊 대시보드</div>
@@ -525,6 +540,7 @@
      화면에 연결이 안 돼 있었음. 2026-08-28 화면 연결함. 없어도 대시보드는 정상 동작함 -->
 <script src="data_status_data.js" onerror="void 0"></script>
 <script src="ops_status_data.js" onerror="void 0"></script>  <!-- 2026-10-15 WO6-01: 없어도 조용히 건너뜀(다른 선택적 데이터 파일과 동일 패턴) -->
+<script src="verdict_change_today_data.js" onerror="void 0"></script>  <!-- 2026-10-17 WO11-2 ①: 없어도 조용히 건너뜀(다른 선택적 데이터 파일과 동일 패턴) -->
 <script src="evidence_review_queue_status.js" onerror="void 0"></script>  <!-- 2026-10-15 WO6-03: 없어도 조용히 건너뜀 -->
 <!-- 자동 뉴스 기반 이벤트분석·변경이력 - Claude가 직접 조사하기 전 보조용(analystLog가
      있으면 이게 아니라 그걸 우선 보여줌). 2026-08-28 화면 연결함. 없어도 대시보드는 정상 동작함 -->
@@ -13332,13 +13348,25 @@ function renderOpsStatusLine(){
   const items = OPS_STATUS_DATA.items;
   const bad = items.filter(it => it.status === 'red' || it.status === 'yellow');
   const colorOf = s => s === 'red' ? 'var(--down)' : (s === 'yellow' ? '#876000' : 'var(--sub)');
+  // [2026-10-17 WO11-2 ③] "한눈에 보기" 맨 위 요약 한 줄 규격(정상이면 ✅ · 마지막 갱신
+  // 시각, 비정상이면 🔴 + 항목명)에 맞춰 이모지·마지막 갱신 시각을 추가했다 - 상태 판정
+  // 자체(items/status)는 그대로, 표시 문구만 바꿈. OPS_STATUS_DATA.generatedAt(이미 있던
+  // 필드, ops_status_report.py가 매번 기록)에서 시:분만 뽑아 보여준다.
+  let genTimeLabel = '';
+  try{
+    if(OPS_STATUS_DATA.generatedAt){
+      const m = String(OPS_STATUS_DATA.generatedAt).match(/T(\d{2}):(\d{2})/);
+      if(m) genTimeLabel = ` · 마지막 갱신 ${m[1]}:${m[2]}`;
+    }
+  }catch(e){}
   if(!bad.length){
-    el.innerHTML = `<span style="color:var(--up);">●</span> 운영 상태: 정상`;
+    el.innerHTML = `<span style="color:var(--up);">✅</span> 운영 상태: 정상${genTimeLabel}`;
     return;
   }
   const worst = bad.some(it => it.status === 'red') ? 'red' : 'yellow';
+  const emoji = worst === 'red' ? '🔴' : '🟡';
   const texts = bad.map(it => `${esc(it.label||it.key)}(${esc(it.detail||'')})`).join(', ');
-  el.innerHTML = `<span style="color:${colorOf(worst)};">●</span> 운영 상태: ${texts}`;
+  el.innerHTML = `<span>${emoji}</span> 운영 상태: ${texts}${genTimeLabel}`;
 }
 
 // [2026-10-15 WO6-04 추가] 실적 발표 D-day. 새 수집 없음 - 이미 있는 NEWS_DATA[ticker].
@@ -13369,6 +13397,27 @@ function earningsDdayBadgeHtml(ticker){
   }
   return `<span class="badge" style="background:#fdecea;color:#b3261e;border:1px solid #b3261e33;padding:2px 7px;font-size:10.5px;font-weight:700;margin-left:12px;vertical-align:2px;white-space:nowrap;">실적 발표 직후 — 가격 변동 큼</span>`;
 }
+// [2026-10-17 WO11-2 ①] "한눈에 보기" 맨 위 요약 "오늘 판정이 바뀐 종목" 줄.
+// verdict_change_today_data.js(verdict_change_today.py가 생성 - WO10-2
+// verdict_change_briefing.py와 같은 verdict_log.csv 비교를 읽기 전용으로 재사용)만
+// 읽는다 - 새 판정 로직 없음. 파일이 없거나 비교 가능한 날짜가 아직 2일치가 안 모였으면
+// (dataStatusLine 등 다른 선택적 카드와 동일하게) 조용히 숨긴다.
+function renderVerdictChangeLine(){
+  const el = document.getElementById('verdictChangeLine');
+  if(!el) return;
+  if(typeof VERDICT_CHANGE_TODAY_DATA === 'undefined' || !VERDICT_CHANGE_TODAY_DATA){ el.innerHTML = ''; return; }
+  const data = VERDICT_CHANGE_TODAY_DATA;
+  if(!data.curDate || !Array.isArray(data.changed)){ el.innerHTML = ''; return; }
+  if(!data.changed.length){
+    el.innerHTML = `<span style="color:var(--sub);">●</span> 오늘 판정이 바뀐 종목: 없음`;
+    return;
+  }
+  const shown = data.changed.slice(0, 5);
+  const restCount = data.changed.length - shown.length;
+  const parts = shown.map(c => `${esc(c.ticker)}(${esc(c.oldTier||'-')}→${esc(c.newTier||'-')})`);
+  const moreTxt = restCount > 0 ? ` 외 +${restCount}` : '';
+  el.innerHTML = `<span style="color:var(--accent);">●</span> 오늘 판정이 바뀐 종목: ${parts.join(' · ')}${moreTxt}`;
+}
 function renderEarningsDdayLine(){
   const el = document.getElementById('earningsDdayLine');
   if(!el) return;
@@ -13377,8 +13426,14 @@ function renderEarningsDdayLine(){
     .filter(x => x.info && x.info.phase === 'upcoming')
     .sort((a,b) => a.info.daysUntil - b.info.daysUntil);
   if(!rows.length){ el.innerHTML = ''; return; }
-  const parts = rows.map(x => `${esc(x.t)} D-${x.info.daysUntil}(${esc(x.info.date.slice(5).replace('-','/'))}${x.info.hourLabel?' '+esc(x.info.hourLabel):''})`);
-  el.innerHTML = `📅 다음 7일 실적 발표: ${parts.join(' · ')}`;
+  // [2026-10-17 WO11-2 ②] 375px 화면에서 줄이 너무 길어지는 것을 막기 위해 날짜 순으로
+  // 최대 5개까지만 보여주고 나머지는 "+N"으로 접는다 - 정렬·대상 필터링(7일 이내 upcoming)
+  // 로직은 그대로, 표시 개수만 제한.
+  const shown = rows.slice(0, 5);
+  const restCount = rows.length - shown.length;
+  const parts = shown.map(x => `${esc(x.t)} D-${x.info.daysUntil}(${esc(x.info.date.slice(5).replace('-','/'))}${x.info.hourLabel?' '+esc(x.info.hourLabel):''})`);
+  const moreTxt = restCount > 0 ? ` 외 +${restCount}` : '';
+  el.innerHTML = `📅 다음 7일 실적 발표: ${parts.join(' · ')}${moreTxt}`;
 }
 function renderMarketCard(){
   const card = document.getElementById('marketCard');
@@ -17440,6 +17495,7 @@ renderHoldings();
 renderMarketCard();  // 시장 환경은 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
 renderTripodCard();  // 트라이팟 신호도 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
 renderDataStatusLine();  // 데이터 상태도 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
+renderVerdictChangeLine();  // 2026-10-17 WO11-2 ①: 오늘 판정이 바뀐 종목도 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
 renderOpsStatusLine();  // 2026-10-15 WO6-01: 운영 상태(파이프라인/배포 자체)도 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
 renderEarningsDdayLine();  // 2026-10-15 WO6-04: 다음 7일 실적 발표 한눈에 보기 - 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
 renderEarningsCalendar();  // 다가오는 실적 발표도 news_data.js만 읽으므로 스캔 전에도 바로 표시됨
