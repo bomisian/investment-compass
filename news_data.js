@@ -6340,7 +6340,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "SPY": {
@@ -14130,7 +14130,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 159,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "MSFT": {
@@ -22031,7 +22031,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "GOOGL": {
@@ -30034,7 +30034,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "AMZN": {
@@ -38268,7 +38268,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "META": {
@@ -38645,58 +38645,6 @@ const NEWS_DATA = {
             "CEO of Meta, Mark Zuckerberg testify before a Senate Judiciary Committee hearing on online child sexual exploitation on January 31, 2024."
           ],
           "analysisUpdatedAt": 1790934560.6152687
-        }
-      },
-      {
-        "headline": "Meta Faces Up To $40 Billion Penalty In New Mexico Privacy Case After Jury Finds Company Misled Facebook Users 43 Million Times",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c8887121af2e3e41f4edffe785b5150c0209ead857b3e360acab8facad826825",
-        "datetime": 1790910056,
-        "headlineKo": "배심원단이 회사가 페이스북 사용자를 4,300만 번 오해했다는 사실을 밝혀낸 후 Meta는 뉴멕시코 개인 정보 보호 사건에서 최대 400억 달러의 벌금에 처해졌습니다.",
-        "relevance": 1.0,
-        "keywordFlag": true,
-        "flagTerms": [
-          "penalty"
-        ],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Meta Faces Up To $40 Billion Penalty In New Mexico Privacy Case After Jury Finds Company Misled Facebook Users 43 Million Times",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "META",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 META의 사업과 관련된 'Meta Faces Up To $40 Billion Penalty In New Mexico Privacy Case After Jury Finds Company Misled Facebook Users 43 Million Times' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "META 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1.0,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790934562.6092238
         }
       }
     ],
@@ -46318,9 +46266,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 189,
+      "checked": 188,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "AAPL": {
@@ -54150,7 +54098,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "TSLA": {
@@ -62332,7 +62280,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "ORCL": {
@@ -70879,7 +70827,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "CRM": {
@@ -78702,7 +78650,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 170,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "PLTR": {
@@ -87808,7 +87756,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "NVDA": {
@@ -95512,7 +95460,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "AMD": {
@@ -103538,7 +103486,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "AVGO": {
@@ -112361,7 +112309,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "QCOM": {
@@ -120888,7 +120836,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 183,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "ARM": {
@@ -126861,7 +126809,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "MRVL": {
@@ -135644,7 +135592,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "INTC": {
@@ -144340,7 +144288,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "TSM": {
@@ -152553,7 +152501,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 182,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "ASML": {
@@ -158916,7 +158864,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "AMAT": {
@@ -164899,7 +164847,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 124,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "LRCX": {
@@ -167931,7 +167879,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "KLAC": {
@@ -171167,7 +171115,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "MU": {
@@ -179083,7 +179031,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "SNDK": {
@@ -187939,7 +187887,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "WDC": {
@@ -193389,7 +193337,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 113,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "ANET": {
@@ -197605,7 +197553,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "COHR": {
@@ -201643,7 +201591,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "LITE": {
@@ -206347,7 +206295,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "GEV": {
@@ -212171,7 +212119,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "CEG": {
@@ -217388,7 +217336,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 113,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "VST": {
@@ -221134,7 +221082,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "ETN": {
@@ -224703,7 +224651,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "PWR": {
@@ -227969,7 +227917,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "HUBB": {
@@ -228927,7 +228875,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "VRT": {
@@ -233433,7 +233381,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "MOD": {
@@ -234859,7 +234807,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "STX": {
@@ -239697,7 +239645,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "EME": {
@@ -241745,7 +241693,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "FIX": {
@@ -243531,7 +243479,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   },
   "BE": {
@@ -246310,7 +246258,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-10-16 09:44"
+      "updated": "2026-10-16 12:35"
     }
   }
 };
