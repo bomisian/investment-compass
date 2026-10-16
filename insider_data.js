@@ -747,7 +747,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792085945.9474978,
+    "_fetched_at": 1792158819.3626852,
     "_updated_label": "2026-10-16"
   },
   "CRM": {
