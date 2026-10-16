@@ -5080,6 +5080,17 @@ function renderMarketExpectationSectorCard(r){
     if (eq.level === 'warn') {
       return `<span class="badge" style="background:#fff3cd;color:#876000;border:1px solid #87600033;padding:2px 7px;font-size:10.5px;font-weight:700;margin-right:4px;" title="${esc(eq.form||'')} 공시 ${esc(eq.filingDate||'')} - 아직 시장 기대 근거에 반영 안 됨">실적 발표 후 근거 미반영 ${eq.pendingDays}일</span>`;
     }
+    // [2026-10-15 저녁 오탐 수정 추가] numbers_reflected: 시장 기대 생성기가 이미 자동
+    // 재무 근거로 숫자를 반영해 둔 종목 - 숫자는 됐고 정성 근거만 사람이 확인하면 됨(노랑,
+    // 날짜 경과와 무관하게 이 문구로 고정).
+    if (eq.level === 'numbers_reflected') {
+      return `<span class="badge" style="background:#fff3cd;color:#876000;border:1px solid #87600033;padding:2px 7px;font-size:10.5px;font-weight:700;margin-right:4px;" title="${esc(eq.form||'')} 공시 ${esc(eq.filingDate||'')} - 숫자는 자동 반영됨, 정성 근거만 확인 필요">근거 숫자 반영됨 · 정성 확인 필요</span>`;
+    }
+    // uncertain: 공시 제목만으로 실적 여부 판단이 안 되는 경우(예: 일부 6-K) - 절대 빨강/노랑
+    // 으로 올리지 않고 항상 회색 '확인 필요'로만 표시.
+    if (eq.level === 'uncertain') {
+      return `<span class="badge" style="background:#eef0f2;color:#5a6472;border:1px solid #5a647233;padding:2px 7px;font-size:10.5px;font-weight:700;margin-right:4px;" title="${esc(eq.form||'')} 공시 ${esc(eq.filingDate||'')} - 공시 제목만으로 실적 여부 판단 불가, 사람 확인 필요">실적 공시 확인 필요</span>`;
+    }
     return '';
   })();
 
@@ -12516,10 +12527,12 @@ function earningsDdayBadgeHtml(ticker){
   const info = earningsDdayInfo(ticker);
   if(!info) return '';
   const mmdd = info.date.slice(5).replace('-', '/');
+  // [2026-10-15 저녁 지시 - 간격 수정] 21px 굵은 판정 라벨 바로 옆에 10.5px 배지가 붙어
+  // 보인다는 지적 - margin-left를 늘리고(6px→12px) vertical-align으로 베이스라인도 맞춤.
   if(info.phase === 'upcoming'){
-    return `<span class="badge" style="background:#e8f0fe;color:#1a56b0;border:1px solid #1a56b033;padding:2px 7px;font-size:10.5px;font-weight:700;margin-left:6px;white-space:nowrap;">D-${info.daysUntil} 실적 발표(${esc(mmdd)}${info.hourLabel?', '+esc(info.hourLabel):''})</span>`;
+    return `<span class="badge" style="background:#e8f0fe;color:#1a56b0;border:1px solid #1a56b033;padding:2px 7px;font-size:10.5px;font-weight:700;margin-left:12px;vertical-align:2px;white-space:nowrap;">D-${info.daysUntil} 실적 발표(${esc(mmdd)}${info.hourLabel?', '+esc(info.hourLabel):''})</span>`;
   }
-  return `<span class="badge" style="background:#fdecea;color:#b3261e;border:1px solid #b3261e33;padding:2px 7px;font-size:10.5px;font-weight:700;margin-left:6px;white-space:nowrap;">실적 발표 직후 — 가격 변동 큼</span>`;
+  return `<span class="badge" style="background:#fdecea;color:#b3261e;border:1px solid #b3261e33;padding:2px 7px;font-size:10.5px;font-weight:700;margin-left:12px;vertical-align:2px;white-space:nowrap;">실적 발표 직후 — 가격 변동 큼</span>`;
 }
 function renderEarningsDdayLine(){
   const el = document.getElementById('earningsDdayLine');
