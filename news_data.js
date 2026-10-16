@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1792134347.187431,
+    "_last_attempt_at": 1792156763.5797057,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -52,7 +52,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792134350.3579009
+          "analysisUpdatedAt": 1792156767.106882
         },
         "headlineKo": "QQQ가 곧 10% 하락할 수 있는 3가지 이유와 2027년에 반등할 수 있는 1가지 이유"
       },
@@ -102,7 +102,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792134352.29143
+          "analysisUpdatedAt": 1792156769.071987
         },
         "headlineKo": "오늘의 주식 시장: AI 우려로 인해 주요 기업이 타격을 입으면서 다우 상승, 나스닥 하락(생방송)"
       },
@@ -122,13 +122,13 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "The Nikkei Crashed Nearly 5% Overnight.",
-            "Skip to content ❚❚ At close S&P 500 7,759.80 +0.15% Dow Jones 52,307.00 +0.14% Nasdaq 100 29,981.00 +0.25% Russell 2000 2,773.09 +0.12% S&P 500 7,759.80 +0.15% Dow Jones 52,307.00 +0.14% Nasdaq 100 29,981.00 +0.25% Russell 2000 2,773.09 +0.",
-            "Japan's Nikkei just cratered nearly 5% and South Korea's KOSPI fell even harder, but US premarket futures are barely flinching."
+            "닛케이는 하룻밤 사이에 5% 가까이 추락했습니다.",
+            "Skip to content ❚❚ At close S&P 500 7,765.60 +0.22% Dow Jones 52,292.50 +0.12% Nasdaq 100 29,887.80 − 0.06% Russell 2000 2,774.44 +0.16% S&P 500 7,765.60 +0.22% Dow Jones 52,292.50 +0.12% Nasdaq 100 29,887.80 − 0.06% Russell 2000 2,774.44 +0.",
+            "일본의 닛케이는 거의 5%, 한국의 코스피는 더욱 강하게 하락했지만, 미국의 프리마켓 선물은 거의 움찔하지 않고 있다."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 5%, 0.15%, 0.14% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 5%, 0.22%, 0.12% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -153,20 +153,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "5%",
-            "0.15%",
-            "0.14%",
-            "0.25%",
+            "0.22%",
             "0.12%",
+            "0.06%",
+            "0.16%",
+            "0.25%",
             "$767.64",
-            "1.09%",
-            "$720.99."
+            "1.09%"
           ],
           "sourceExcerpt": [
             "The Nikkei Crashed Nearly 5% Overnight.",
-            "Skip to content ❚❚ At close S&P 500 7,759.80 +0.15% Dow Jones 52,307.00 +0.14% Nasdaq 100 29,981.00 +0.25% Russell 2000 2,773.09 +0.12% S&P 500 7,759.80 +0.15% Dow Jones 52,307.00 +0.14% Nasdaq 100 29,981.00 +0.25% Russell 2000 2,773.09 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,765.60 +0.22% Dow Jones 52,292.50 +0.12% Nasdaq 100 29,887.80 −0.06% Russell 2000 2,774.44 +0.16% S&P 500 7,765.60 +0.22% Dow Jones 52,292.50 +0.12% Nasdaq 100 29,887.80 −0.06% Russell 2000 2,774.44 +0.",
             "Japan's Nikkei just cratered nearly 5% and South Korea's KOSPI fell even harder, but US premarket futures are barely flinching."
           ],
-          "analysisUpdatedAt": 1792134357.1747515
+          "analysisUpdatedAt": 1792156776.9433453
         },
         "headlineKo": "닛케이는 밤새 거의 5% 하락했습니다. 나스닥이 오늘 따라갈 것인가?"
       },
@@ -238,7 +238,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792134350.3579009
+          "analysisUpdatedAt": 1792156767.106882
         }
       },
       {
@@ -287,7 +287,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792134352.29143
+          "analysisUpdatedAt": 1792156769.071987
         }
       },
       {
@@ -306,13 +306,13 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "The Nikkei Crashed Nearly 5% Overnight.",
-            "Skip to content ❚❚ At close S&P 500 7,759.80 +0.15% Dow Jones 52,307.00 +0.14% Nasdaq 100 29,981.00 +0.25% Russell 2000 2,773.09 +0.12% S&P 500 7,759.80 +0.15% Dow Jones 52,307.00 +0.14% Nasdaq 100 29,981.00 +0.25% Russell 2000 2,773.09 +0.",
-            "Japan's Nikkei just cratered nearly 5% and South Korea's KOSPI fell even harder, but US premarket futures are barely flinching."
+            "닛케이는 하룻밤 사이에 5% 가까이 추락했습니다.",
+            "Skip to content ❚❚ At close S&P 500 7,765.60 +0.22% Dow Jones 52,292.50 +0.12% Nasdaq 100 29,887.80 − 0.06% Russell 2000 2,774.44 +0.16% S&P 500 7,765.60 +0.22% Dow Jones 52,292.50 +0.12% Nasdaq 100 29,887.80 − 0.06% Russell 2000 2,774.44 +0.",
+            "일본의 닛케이는 거의 5%, 한국의 코스피는 더욱 강하게 하락했지만, 미국의 프리마켓 선물은 거의 움찔하지 않고 있다."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 5%, 0.15%, 0.14% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 5%, 0.22%, 0.12% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -337,20 +337,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "5%",
-            "0.15%",
-            "0.14%",
-            "0.25%",
+            "0.22%",
             "0.12%",
+            "0.06%",
+            "0.16%",
+            "0.25%",
             "$767.64",
-            "1.09%",
-            "$720.99."
+            "1.09%"
           ],
           "sourceExcerpt": [
             "The Nikkei Crashed Nearly 5% Overnight.",
-            "Skip to content ❚❚ At close S&P 500 7,759.80 +0.15% Dow Jones 52,307.00 +0.14% Nasdaq 100 29,981.00 +0.25% Russell 2000 2,773.09 +0.12% S&P 500 7,759.80 +0.15% Dow Jones 52,307.00 +0.14% Nasdaq 100 29,981.00 +0.25% Russell 2000 2,773.09 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,765.60 +0.22% Dow Jones 52,292.50 +0.12% Nasdaq 100 29,887.80 −0.06% Russell 2000 2,774.44 +0.16% S&P 500 7,765.60 +0.22% Dow Jones 52,292.50 +0.12% Nasdaq 100 29,887.80 −0.06% Russell 2000 2,774.44 +0.",
             "Japan's Nikkei just cratered nearly 5% and South Korea's KOSPI fell even harder, but US premarket futures are barely flinching."
           ],
-          "analysisUpdatedAt": 1792134357.1747515
+          "analysisUpdatedAt": 1792156776.9433453
         }
       },
       {
@@ -6381,15 +6381,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792134347.187431,
-    "_updated_label": "2026-10-16 16:05",
-    "_last_success_at": 1792134347.187431,
+    "_fetched_at": 1792156763.5797057,
+    "_updated_label": "2026-10-16 22:19",
+    "_last_success_at": 1792156763.5797057,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 124,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "SPY": {
@@ -14256,11 +14256,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 160,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "MSFT": {
-    "_last_attempt_at": 1792134347.187431,
+    "_last_attempt_at": 1792156763.5797057,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -14270,11 +14270,11 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "How Earnings Beat Will Impact Microsoft (MSFT) Stock",
+        "headline": "NiSource announces long-term agreement with Microsoft expected to increase customer savings and support Indiana’s economic growth",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e8e694dabb2fa9321529cc2c2df0f8de9cd2f7112911c0709419e0f9b929fe27",
-        "datetime": 1792124945,
-        "relevance": 1.0,
+        "url": "https://finnhub.io/api/news?id=3f3df1ada20529070a880201afe44837fb7b9a24096341e19f31506e6fe85905",
+        "datetime": 1792149300,
+        "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
@@ -14282,18 +14282,18 @@ const NEWS_DATA = {
           "importance": "medium",
           "tone": "positive",
           "certainty": "본문 확인 필요",
-          "label": "실적 발표 · 본업과 특이항목 분리",
+          "label": "장기 공급계약 · 매출 가시성 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "How Earnings Beat Will Impact Microsoft (MSFT) Stock",
+            "NiSource announces long-term agreement with Microsoft expected to increase customer savings and support Indiana’s economic growth",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
             "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -14304,25 +14304,25 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "매출·영업이익 성장",
-            "정상화이익과 특이항목",
-            "가이던스·OCF·FCF"
+            "계약 기간·최소구매 조건",
+            "연도별 매출 인식",
+            "수주잔고·취소 조건"
           ],
-          "interpretation": "MSFT에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1.0,
+          "interpretation": "MSFT에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792134363.686744
+          "analysisUpdatedAt": 1792156784.0771132
         },
-        "headlineKo": "Earnings Beat가 Microsoft (MSFT) 주식에 미치는 영향"
+        "headlineKo": "NiSource, Microsoft와 장기 계약을 체결하여 고객 저축을 늘리고 인디애나의 경제 성장을 지원할 것으로 예상"
       },
       {
-        "headline": "Tucuvi joins the Microsoft Pegasus Program to scale clinically governed AI Care Management across health systems",
+        "headline": "Palantir, Apple and Microsoft Brace for Democrats to Go on Offensive",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7b29f2fdacf6314f687bb87a12826cf03770fab766bf590253c756eb4676db18",
-        "datetime": 1792089600,
+        "url": "https://finnhub.io/api/news?id=069472e281214a2063e98df48514ca6211c4cc4c5e395f766fb235bea3881af8",
+        "datetime": 1792148400,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
@@ -14334,7 +14334,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Tucuvi joins the Microsoft Pegasus Program to scale clinically governed AI Care Management across health systems",
+            "Palantir, Apple and Microsoft Brace for Democrats to Go on Offensive",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -14358,43 +14358,41 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Tucuvi joins the Microsoft Pegasus Program to scale clinically governed AI Care Management across health systems' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Palantir, Apple and Microsoft Brace for Democrats to Go on Offensive' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.4,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792134365.631282
+          "analysisUpdatedAt": 1792156786.1503503
         },
-        "headlineKo": "Tucuvi는 Microsoft Pegasus 프로그램에 참여하여 의료 시스템 전반에 걸쳐 임상적으로 관리되는 AI 케어 관리를 확장합니다."
+        "headlineKo": "민주당이 공세에 나설 수 있도록 팔란티르, 애플, 마이크로소프트의 지원책 마련"
       },
       {
-        "headline": "Microsoft can justify higher valuation as AI demand drives Azure growth, UBS says",
+        "headline": "Microsoft's Business Software Proposed to Receive Increased UK Regulatory Scrutiny",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7d3a1d454782b1179f785ed9a6d7c679ccfcb279fd9b4a3d172471c131c2e3c1",
-        "datetime": 1792085100,
-        "relevance": 0.8,
+        "url": "https://finnhub.io/api/news?id=fe93b67afb889000a6f8650c7d962049c1ae2f63742459b4f22d8afb3ae8834a",
+        "datetime": 1792145511,
+        "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "규제·법무 · 비선형 위험",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Microsoft can justify higher valuation as AI demand drives Azure growth, UBS says | NASDAQ:MSFT What are you searching for?",
-            "Companies News See all companies matching See all news matching Tech Software & Services Written by: Ian Lyall Edited by: Angela Harmantas Disclaimer No investment advice About this content Editorial Standards & Policies Share article About",
-            "Overseeing Proactive's editorial and broadcast operations across six offices on three continents, Ian is responsible for quality control, editorial policy, and content production."
+            "Microsoft's Business Software Proposed to Receive Increased UK Regulatory Scrutiny",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $675, $525,, 23 times — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
             "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -14405,52 +14403,39 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
           ],
-          "interpretation": "MSFT에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.8,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$675",
-            "$525,",
-            "23 times",
-            "39%",
-            "47%",
-            "25 times",
-            "19 times",
-            "$8 billion"
-          ],
-          "sourceExcerpt": [
-            "Microsoft can justify higher valuation as AI demand drives Azure growth, UBS says | NASDAQ:MSFT What are you searching for?",
-            "Companies News See all companies matching See all news matching Tech Software & Services Written by: Ian Lyall Edited by: Angela Harmantas Disclaimer No investment advice About this content Editorial Standards & Policies Share article About",
-            "Overseeing Proactive's editorial and broadcast operations across six offices on three continents, Ian is responsible for quality control, editorial policy, and content production."
-          ],
-          "analysisUpdatedAt": 1792134371.1756997
+          "interpretation": "MSFT에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792156788.413015
         },
-        "headlineKo": "UBS는 AI 수요가 Azure 성장을 주도함에 따라 Microsoft가 더 높은 가치 평가를 정당화할 수 있다고 말합니다."
+        "headlineKo": "증가된 영국 규제 검사를 받기 위해 제안된 Microsoft의 비즈니스 소프트웨어"
       },
       {
-        "headline": "Morgan Stanley finds a new twist in Microsoft's AI story",
+        "headline": "Microsoft CEO Satya Nadella Just Shared Bad News for Nvidia and Great News for This Rival Chipmaker",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1d45ff40a2b1bda5291eb70d62b7ce925371c6ae251acd0cc2e50cbde859f27b",
-        "datetime": 1792084020,
+        "url": "https://finnhub.io/api/news?id=7399cc8c05659fecf84115092872ba20ca6f32a32ba607f0e5775200d26951fd",
+        "datetime": 1792141980,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Morgan Stanley는 Microsoft의 AI 스토리에서 새로운 반전을 발견했습니다."
+        "headlineKo": "마이크로소프트 CEO 사티아 나델라 (Satya Nadella) 가 엔비디아에 대한 나쁜 소식과 이 라이벌 칩메이커에 대한 좋은 소식을 공유했습니다."
       },
       {
-        "headline": "Microsoft AI unveils 2.8 trillion-parameter model, claims efficiency gains",
+        "headline": "How Earnings Beat Will Impact Microsoft (MSFT) Stock",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f8aa2f1d8d92a6a75516de577c4dfd15076522f99bbcc851366a01b2fb7b4edd",
-        "datetime": 1792083377,
-        "relevance": 0.4,
+        "url": "https://finnhub.io/api/news?id=e8e694dabb2fa9321529cc2c2df0f8de9cd2f7112911c0709419e0f9b929fe27",
+        "datetime": 1792124945,
+        "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Microsoft AI, 2조 8천억 개의 매개변수 모델 공개, 효율성 향상 주장"
+        "headlineKo": "Earnings Beat가 Microsoft (MSFT) 주식에 미치는 영향"
       },
       {
         "headline": "Microsoft Sues JLL For Protection Against Lawsuit At NYC Office Project",
@@ -14519,6 +14504,160 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "NiSource announces long-term agreement with Microsoft expected to increase customer savings and support Indiana’s economic growth",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3f3df1ada20529070a880201afe44837fb7b9a24096341e19f31506e6fe85905",
+        "datetime": 1792149300,
+        "headlineKo": "NiSource, Microsoft와 장기 계약을 체결하여 고객 저축을 늘리고 인디애나의 경제 성장을 지원할 것으로 예상",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "장기 공급계약 · 매출 가시성 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "NiSource announces long-term agreement with Microsoft expected to increase customer savings and support Indiana’s economic growth",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 기간·최소구매 조건",
+            "연도별 매출 인식",
+            "수주잔고·취소 조건"
+          ],
+          "interpretation": "MSFT에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792156784.0771132
+        }
+      },
+      {
+        "headline": "Palantir, Apple and Microsoft Brace for Democrats to Go on Offensive",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=069472e281214a2063e98df48514ca6211c4cc4c5e395f766fb235bea3881af8",
+        "datetime": 1792148400,
+        "headlineKo": "민주당이 공세에 나설 수 있도록 팔란티르, 애플, 마이크로소프트의 지원책 마련",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Palantir, Apple and Microsoft Brace for Democrats to Go on Offensive",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Palantir, Apple and Microsoft Brace for Democrats to Go on Offensive' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792156786.1503503
+        }
+      },
+      {
+        "headline": "Microsoft's Business Software Proposed to Receive Increased UK Regulatory Scrutiny",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=fe93b67afb889000a6f8650c7d962049c1ae2f63742459b4f22d8afb3ae8834a",
+        "datetime": 1792145511,
+        "headlineKo": "증가된 영국 규제 검사를 받기 위해 제안된 Microsoft의 비즈니스 소프트웨어",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "규제·법무 · 비선형 위험",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Microsoft's Business Software Proposed to Receive Increased UK Regulatory Scrutiny",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
+          ],
+          "interpretation": "MSFT에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792156788.413015
+        }
+      },
+      {
+        "headline": "Microsoft CEO Satya Nadella Just Shared Bad News for Nvidia and Great News for This Rival Chipmaker",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=7399cc8c05659fecf84115092872ba20ca6f32a32ba607f0e5775200d26951fd",
+        "datetime": 1792141980,
+        "headlineKo": "마이크로소프트 CEO 사티아 나델라 (Satya Nadella) 가 엔비디아에 대한 나쁜 소식과 이 라이벌 칩메이커에 대한 좋은 소식을 공유했습니다.",
+        "relevance": 0.4,
+        "keywordFlag": false
+      },
       {
         "headline": "How Earnings Beat Will Impact Microsoft (MSFT) Stock",
         "source": "Yahoo",
@@ -21996,215 +22135,17 @@ const NEWS_DATA = {
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1790754748.5898652
         }
-      },
-      {
-        "headline": "Microsoft Brings OpenAI’s Autonomous ‘Dots’ AI Workers Into the Enterprise",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=be22bc4ada212c1fde4e955af25c04b14d375b33d24136a79dacfc4974271139",
-        "datetime": 1790713974,
-        "headlineKo": "Microsoft, OpenAI의 자율적인 'Dots' AI 작업자를 기업에 도입",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Microsoft, 기업에 OpenAI 도트 도입 - Microsoft(NASDAQ:MSFT) - Benzinga SPY 764.74 +0.07% QQQ 738.41 +0.07% BTC/USD 83,578.29 +0.15% DIA 513.00 +0.02% GLD 382.58 −0.08% TLT 78.29 +0.08% US 로그인 내 계정 등록",
-            "(NASDAQ: MSFT)는 OpenAI와 협력하여 연구소의 새로운 자율 \"Dots\" 에이전트를 Microsoft의 엔터프라이즈 보안 및 거버넌스 스택에 통합하여 기업이 별도의 작업 없이 기업 시스템 전반에서 작동할 수 있는 AI 작업자를 관리할 수 있는 방법을 제공합니다.",
-            "OpenAI는 DevDay에서 화요일에 Dots를 공개했습니다."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.07%, 0.15%, 0.02% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "MSFT에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.07%",
-            "0.15%",
-            "0.02%",
-            "0.08%",
-            "$15",
-            "$47,000",
-            "83%",
-            "11%"
-          ],
-          "sourceExcerpt": [
-            "Microsoft Brings OpenAI Dots Into The Enterprise - Microsoft (NASDAQ:MSFT) - Benzinga SPY 764.74 +0.07% QQQ 738.41 +0.07% BTC/USD 83,578.29 +0.15% DIA 513.00 +0.02% GLD 382.58 −0.08% TLT 78.29 +0.08% US Sign in Register My Account Benzinga ",
-            "(NASDAQ: MSFT ) is working with OpenAI to bring the Lab’s new autonomous \"Dots\" agents under Microsoft’s enterprise security and governance stack, giving companies a way to manage AI workers that can operate across corporate systems without",
-            "OpenAI unveiled Dots Tuesday at DevDay."
-          ],
-          "analysisUpdatedAt": 1790754751.671968
-        }
-      },
-      {
-        "headline": "Has MSFT Stock Run Out Of Steam?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5269c26441c3abf13e705ed88d84cca3c0a1b94315f7cd480a5b50aa8846f2a8",
-        "datetime": 1790713937,
-        "headlineKo": "MSFT 주식이 고갈되었나요?",
-        "relevance": 0.6,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "주식 희석 · 주당가치 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "| Trefis의 MSFT 주식이 고갈되었나요?",
-            "2026년 9월 29일 · Trefis 팀 MSFT YTD +5.9% SPY YTD +12.7% QQQ YTD +20.4% MSFT 분석 → 실제로 Microsoft 주식을 주도한 것이 무엇인지 확인하십시오.",
-            "3년에 걸쳐 수익 성장과 더 넓은 마진으로 인해 P/E 배수는 줄어들었지만 지난 3개월의 랠리는 비즈니스 자체보다는 더 풍부한 배수에 더 의존했습니다."
-          ],
-          "why": [
-            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 5.9%, 12.7%, 20.4% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "신규 주식 수·행사가격",
-            "조달 자금 사용처",
-            "완전희석 주식수와 EPS"
-          ],
-          "interpretation": "MSFT에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.6,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "5.9%",
-            "12.7%",
-            "20.4%",
-            "28%",
-            "$1 billion",
-            "5%",
-            "$3.78 Trillion",
-            "43%"
-          ],
-          "sourceExcerpt": [
-            "| Trefis Has MSFT Stock Run Out Of Steam?",
-            "September 29th, 2026 · by Trefis Team MSFT YTD +5.9% SPY YTD +12.7% QQQ YTD +20.4% Analyze MSFT → Just see what has actually been driving Microsoft stock.",
-            "Over three years, revenue growth and wider margins did the heavy lifting while the P/E multiple shrank, yet the rally of the past three months leaned more on a richer multiple than on the business itself."
-          ],
-          "analysisUpdatedAt": 1790754755.8247797
-        }
-      },
-      {
-        "headline": "SpaceX Briefly Passed Amazon and Microsoft in Market Cap After Its IPO. Could It Get There Again?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=81753abf08510cb607b0440483dfb9e964feb80c5a8c24c4ad358cf2e2f03532",
-        "datetime": 1790709540,
-        "headlineKo": "SpaceX는 IPO 후 시가총액에서 Amazon과 Microsoft를 잠시 추월했습니다. 다시 거기까지 갈 수 있을까?",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "SpaceX는 IPO 후 시가총액에서 Amazon과 Microsoft를 잠시 추월했습니다.",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool IPO 이후 초기에 Space Exploration Technologies( SPCX +2.59% )는 일중 거래에서 잠시 2.9조 달러를 넘어섰습니다.",
-            "그러나 그 이후로 이들 주식의 궤적은 크게 달라졌습니다."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $147, $150, $1.95 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "MSFT에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$147",
-            "$150",
-            "$1.95 trillion",
-            "$7.8 billion",
-            "92%",
-            "20%",
-            "18%",
-            "$201 billion"
-          ],
-          "sourceExcerpt": [
-            "SpaceX Briefly Passed Amazon and Microsoft in Market Cap After Its IPO.",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool In the early days following its IPO, Space Exploration Technologies ( SPCX +2.59% ) briefly topped $2.9 trillion in intraday tradin",
-            "However, the trajectories of those stocks have diverged significantly since then."
-          ],
-          "analysisUpdatedAt": 1790731811.2603467
-        }
-      },
-      {
-        "headline": "Dow Jones Software Leader Microsoft, Palantir, Micron, Palo Alto In Or Near Buy Zones",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=26ef2ae04b5bef6d0001e41dd011eb044a16d1e00842877449d82fe6bd25262b",
-        "datetime": 1790705222,
-        "headlineKo": "Dow Jones 소프트웨어 리더 Microsoft, Palantir, Micron, Palo Alto가 구매 구역 내 또는 근처에 있음",
-        "relevance": 0.4,
-        "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792134347.187431,
-    "_updated_label": "2026-10-16 16:06",
-    "_last_success_at": 1792134347.187431,
+    "_fetched_at": 1792156763.5797057,
+    "_updated_label": "2026-10-16 22:19",
+    "_last_success_at": 1792156763.5797057,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "GOOGL": {
@@ -30285,7 +30226,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "AMZN": {
@@ -38465,7 +38406,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "META": {
@@ -46518,7 +46459,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "AAPL": {
@@ -54394,7 +54335,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "TSLA": {
@@ -62528,7 +62469,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "ORCL": {
@@ -71141,7 +71082,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "CRM": {
@@ -79159,7 +79100,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 175,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "PLTR": {
@@ -88252,7 +88193,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "NVDA": {
@@ -95993,7 +95934,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "AMD": {
@@ -104081,7 +104022,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "AVGO": {
@@ -112911,7 +112852,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "QCOM": {
@@ -121487,7 +121428,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 184,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "ARM": {
@@ -127516,7 +127457,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "MRVL": {
@@ -136293,7 +136234,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "INTC": {
@@ -145117,7 +145058,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "TSM": {
@@ -153543,7 +153484,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "ASML": {
@@ -159964,7 +159905,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 137,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "AMAT": {
@@ -166014,7 +165955,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 125,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "LRCX": {
@@ -169050,11 +168991,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1792134347.187431,
+    "_last_attempt_at": 1792156763.5797057,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -169109,7 +169050,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792134484.4404874
+          "analysisUpdatedAt": 1792156804.9517772
         },
         "headlineKo": "KLAC는 1년 만에 64.5% 급등: 주식을 사야 할까요, 팔아야 할까요, 아니면 보유해야 할까요?"
       },
@@ -169159,7 +169100,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792134485.5403802
+          "analysisUpdatedAt": 1792156806.17248
         },
         "headlineKo": "KLA CORP (NASDAQ:KLAC): 소득 투자자를 위한 배당 품질 플레이"
       },
@@ -169179,9 +169120,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "What Is The True Hidden Price Of KLA Stock?",
-            "| Trefis What Is The True Hidden Price Of KLA Stock?",
-            "October 14th, 2026 · by Trefis Team KLAC YTD +44.1% SPY YTD +13.8% QQQ YTD +18.8% Analyze KLAC → Investors are currently paying 47.7 times trailing twelve-month earnings for shares of KLA (KLAC) ."
+            "KLA 주식의 진정한 숨겨진 가격은 무엇입니까?",
+            "| Trefis KLA 주식의 진정한 숨겨진 가격은 무엇입니까?",
+            "2026년 10월 14일 · 작성자: Trefis Team KLAC YTD +44.1% SPY YTD +13.8% QQQ YTD +18.8% 분석 KLAC → 투자자는 현재 KLA (KLAC) 의 주식에 대해 12개월간의 수익을 47.7배 지급하고 있습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -169223,7 +169164,7 @@ const NEWS_DATA = {
             "| Trefis What Is The True Hidden Price Of KLA Stock?",
             "October 14th, 2026 · by Trefis Team KLAC YTD +44.1% SPY YTD +13.8% QQQ YTD +18.8% Analyze KLAC → Investors are currently paying 47.7 times trailing twelve-month earnings for shares of KLA (KLAC) ."
           ],
-          "analysisUpdatedAt": 1792134491.600172
+          "analysisUpdatedAt": 1792156814.36578
         },
         "headlineKo": "KLA 주식의 진정한 숨겨진 가격은 무엇입니까?"
       },
@@ -169347,7 +169288,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792134484.4404874
+          "analysisUpdatedAt": 1792156804.9517772
         }
       },
       {
@@ -169396,7 +169337,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792134485.5403802
+          "analysisUpdatedAt": 1792156806.17248
         }
       },
       {
@@ -169415,9 +169356,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "What Is The True Hidden Price Of KLA Stock?",
-            "| Trefis What Is The True Hidden Price Of KLA Stock?",
-            "October 14th, 2026 · by Trefis Team KLAC YTD +44.1% SPY YTD +13.8% QQQ YTD +18.8% Analyze KLAC → Investors are currently paying 47.7 times trailing twelve-month earnings for shares of KLA (KLAC) ."
+            "KLA 주식의 진정한 숨겨진 가격은 무엇입니까?",
+            "| Trefis KLA 주식의 진정한 숨겨진 가격은 무엇입니까?",
+            "2026년 10월 14일 · 작성자: Trefis Team KLAC YTD +44.1% SPY YTD +13.8% QQQ YTD +18.8% 분석 KLAC → 투자자는 현재 KLA (KLAC) 의 주식에 대해 12개월간의 수익을 47.7배 지급하고 있습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -169459,7 +169400,7 @@ const NEWS_DATA = {
             "| Trefis What Is The True Hidden Price Of KLA Stock?",
             "October 14th, 2026 · by Trefis Team KLAC YTD +44.1% SPY YTD +13.8% QQQ YTD +18.8% Analyze KLAC → Investors are currently paying 47.7 times trailing twelve-month earnings for shares of KLA (KLAC) ."
           ],
-          "analysisUpdatedAt": 1792134491.600172
+          "analysisUpdatedAt": 1792156814.36578
         }
       },
       {
@@ -172280,15 +172221,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792134347.187431,
-    "_updated_label": "2026-10-16 16:08",
-    "_last_success_at": 1792134347.187431,
+    "_fetched_at": 1792156763.5797057,
+    "_updated_label": "2026-10-16 22:20",
+    "_last_success_at": 1792156763.5797057,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "MU": {
@@ -180303,7 +180244,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "SNDK": {
@@ -189160,7 +189101,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "WDC": {
@@ -194661,11 +194602,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "ANET": {
-    "_last_attempt_at": 1792134347.187431,
+    "_last_attempt_at": 1792156763.5797057,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -194720,7 +194661,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792134509.6805632
+          "analysisUpdatedAt": 1792156819.6101232
         },
         "headlineKo": "Arista Networks(ANET) 주식은 7배 상승에서 상당히 가치 있는 것으로 보입니다."
       },
@@ -194770,7 +194711,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792134510.7442007
+          "analysisUpdatedAt": 1792156820.938263
         },
         "headlineKo": "Arista Networks(NYSE:ANET): 강력한 펀더멘털과 풍부한 가치 평가를 갖춘 고품질 주식"
       },
@@ -194790,9 +194731,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Does Beating The Market Prove Arista Is A Great Company?",
-            "| Trefis Does Beating The Market Prove Arista Is A Great Company?",
-            "October 14th, 2026 · by Trefis Team ANET YTD +41.6% SPY YTD +13.8% QQQ YTD +18.8% Analyze ANET → Arista Networks (ANET) sells the network switches that link computers together."
+            "시장을 이기는 것이 아리스타가 훌륭한 회사라는 것을 증명합니까?",
+            "| Trefis는 시장을 이기는 것이 아리스타가 훌륭한 회사라는 것을 증명합니까?",
+            "2026년 10월 14일 · 작성자: Trefis Team ANET YTD +41.6% SPY YTD +13.8% QQQ YTD +18.8% Analyze ANET → Arista Networks (ANET) 는 컴퓨터를 서로 연결하는 네트워크 스위치를 판매합니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -194834,7 +194775,7 @@ const NEWS_DATA = {
             "| Trefis Does Beating The Market Prove Arista Is A Great Company?",
             "October 14th, 2026 · by Trefis Team ANET YTD +41.6% SPY YTD +13.8% QQQ YTD +18.8% Analyze ANET → Arista Networks (ANET) sells the network switches that link computers together."
           ],
-          "analysisUpdatedAt": 1792134516.3844023
+          "analysisUpdatedAt": 1792156829.10671
         },
         "headlineKo": "시장을 이기면 Arista가 훌륭한 회사라는 것이 입증됩니까?"
       },
@@ -194906,7 +194847,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792134509.6805632
+          "analysisUpdatedAt": 1792156819.6101232
         }
       },
       {
@@ -194955,7 +194896,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792134510.7442007
+          "analysisUpdatedAt": 1792156820.938263
         }
       },
       {
@@ -194974,9 +194915,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Does Beating The Market Prove Arista Is A Great Company?",
-            "| Trefis Does Beating The Market Prove Arista Is A Great Company?",
-            "October 14th, 2026 · by Trefis Team ANET YTD +41.6% SPY YTD +13.8% QQQ YTD +18.8% Analyze ANET → Arista Networks (ANET) sells the network switches that link computers together."
+            "시장을 이기는 것이 아리스타가 훌륭한 회사라는 것을 증명합니까?",
+            "| Trefis는 시장을 이기는 것이 아리스타가 훌륭한 회사라는 것을 증명합니까?",
+            "2026년 10월 14일 · 작성자: Trefis Team ANET YTD +41.6% SPY YTD +13.8% QQQ YTD +18.8% Analyze ANET → Arista Networks (ANET) 는 컴퓨터를 서로 연결하는 네트워크 스위치를 판매합니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -195018,7 +194959,7 @@ const NEWS_DATA = {
             "| Trefis Does Beating The Market Prove Arista Is A Great Company?",
             "October 14th, 2026 · by Trefis Team ANET YTD +41.6% SPY YTD +13.8% QQQ YTD +18.8% Analyze ANET → Arista Networks (ANET) sells the network switches that link computers together."
           ],
-          "analysisUpdatedAt": 1792134516.3844023
+          "analysisUpdatedAt": 1792156829.10671
         }
       },
       {
@@ -198871,15 +198812,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792134347.187431,
-    "_updated_label": "2026-10-16 16:08",
-    "_last_success_at": 1792134347.187431,
+    "_fetched_at": 1792156763.5797057,
+    "_updated_label": "2026-10-16 22:20",
+    "_last_success_at": 1792156763.5797057,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "COHR": {
@@ -202921,7 +202862,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "LITE": {
@@ -207702,7 +207643,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "GEV": {
@@ -213563,7 +213504,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "CEG": {
@@ -218833,7 +218774,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "VST": {
@@ -222743,7 +222684,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "ETN": {
@@ -226318,7 +226259,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "PWR": {
@@ -229584,7 +229525,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "HUBB": {
@@ -230544,7 +230485,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "VRT": {
@@ -235050,7 +234991,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "MOD": {
@@ -236525,7 +236466,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "STX": {
@@ -241365,7 +241306,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "EME": {
@@ -243417,7 +243358,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "FIX": {
@@ -245203,7 +245144,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   },
   "BE": {
@@ -248019,7 +247960,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-16 20:44"
+      "updated": "2026-10-16 22:20"
     }
   }
 };
