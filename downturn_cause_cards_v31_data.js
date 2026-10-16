@@ -23,7 +23,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    "note2": "사업 전제상 우려(영업이익률, 규제크레딧 매출 급감 등)는 이 카드가 아니라 시장 기대충족 판정에서 별도로 다룹니다",
    "tag": null,
    "auto": {
-    "generated_at": "2026-10-16T18:57:01+09:00",
+    "generated_at": "2026-10-17T00:15:40+09:00",
     "dd60": -5.3,
     "dd60_days_ago": 4,
     "dd60_note": "최근 60거래일 고점 대비 -5.3% (4거래일 전 고점)",
@@ -42,11 +42,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
     "eps_direction": "하향",
     "eps_note": "전망치가 내려가는 중",
     "eps_updated_at": "2026-10-15T14:42:16",
-    "cf_veto": false,
-    "cf_veto_count": 1,
-    "cf_detail": [
-     "발행주식수 +5.3%(3개분기)"
-    ],
+    "cf_veto": null,
+    "cf_veto_count": null,
+    "cf_detail": null,
     "latest_earnings_filing_date": "2026-10-02",
     "latest_earnings_filing_form": "8-K",
     "latest_earnings_filing_level": "confirmed"
@@ -97,7 +95,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "S&P 신용등급 하향(2026-07-09, BBB→BBB-) 및 복수 애널리스트 목표가 동시 하향은 원문·1차 출처 확보 전까지 보조 설명으로만 표시(미확인 정보)",
    "auto": {
-    "generated_at": "2026-10-16T18:57:01+09:00",
+    "generated_at": "2026-10-17T00:15:40+09:00",
     "dd60": -17.3,
     "dd60_days_ago": 27,
     "dd60_note": "최근 60거래일 고점 대비 -17.3% (27거래일 전 고점)",
@@ -116,13 +114,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
     "eps_direction": "보합",
     "eps_note": "거의 변화 없음",
     "eps_updated_at": "2026-10-15T14:42:30",
-    "cf_veto": true,
-    "cf_veto_count": 3,
-    "cf_detail": [
-     "FCF 2년 연속 악화(11.8B→-0.4B→-23.7B)",
-     "부채/자본 2.01",
-     "발행주식수 +5.1%(3개분기)"
-    ],
+    "cf_veto": null,
+    "cf_veto_count": null,
+    "cf_detail": null,
     "latest_earnings_filing_date": "2026-09-11",
     "latest_earnings_filing_form": "10-Q",
     "latest_earnings_filing_level": "confirmed"
@@ -165,7 +159,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    "next_check": "하락 시점과 연결되는 공식 공시(실적 외 사건) 또는 섹터 동반 하락 여부 확인, 다음 분기 조정영업마진 회복 여부 확인되면 재평가",
    "tag": null,
    "auto": {
-    "generated_at": "2026-10-16T18:57:01+09:00",
+    "generated_at": "2026-10-17T00:15:40+09:00",
     "dd60": -10.6,
     "dd60_days_ago": 46,
     "dd60_note": "최근 60거래일 고점 대비 -10.6% (46거래일 전 고점)",
@@ -184,11 +178,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
     "eps_direction": "혼조",
     "eps_note": "숫자 변화와 상·하향 횟수의 방향이 엇갈림",
     "eps_updated_at": "2026-10-15T04:27:41",
-    "cf_veto": false,
-    "cf_veto_count": 1,
-    "cf_detail": [
-     "부채/자본 1.37"
-    ],
+    "cf_veto": null,
+    "cf_veto_count": null,
+    "cf_detail": null,
     "latest_earnings_filing_date": "2026-07-29",
     "latest_earnings_filing_form": "10-Q",
     "latest_earnings_filing_level": "confirmed"
@@ -230,7 +222,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    "next_check": "가격 하락의 구체적 촉발 요인 확인(헤드라인 순손실 반응인지, Foundry 외부고객·보조금 관련 다른 요인인지), RSI 38 이하 진입 시 재평가",
    "tag": null,
    "auto": {
-    "generated_at": "2026-10-16T18:57:01+09:00",
+    "generated_at": "2026-10-17T00:15:40+09:00",
     "dd60": -25.1,
     "dd60_days_ago": 15,
     "dd60_note": "최근 60거래일 고점 대비 -25.1% (15거래일 전 고점)",
@@ -249,9 +241,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
     "eps_direction": "상향",
     "eps_note": "전망치가 오르는 중",
     "eps_updated_at": "2026-10-13T11:54:54",
-    "cf_veto": false,
-    "cf_veto_count": 0,
-    "cf_detail": [],
+    "cf_veto": null,
+    "cf_veto_count": null,
+    "cf_detail": null,
     "latest_earnings_filing_date": "2026-07-24",
     "latest_earnings_filing_form": "10-Q",
     "latest_earnings_filing_level": "confirmed"
@@ -297,7 +289,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "최근 3거래일 하락의 직접 촉발 요인 미확인 — 조사 예산 소진으로 중단, 추가 조사 가능",
    "auto": {
-    "generated_at": "2026-10-16T18:57:01+09:00",
+    "generated_at": "2026-10-17T00:15:40+09:00",
     "dd60": -20.1,
     "dd60_days_ago": 7,
     "dd60_note": "최근 60거래일 고점 대비 -20.1% (7거래일 전 고점)",
@@ -316,12 +308,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
     "eps_direction": "상향",
     "eps_note": "전망치가 오르는 중",
     "eps_updated_at": "2026-10-15T04:29:02",
-    "cf_veto": true,
-    "cf_veto_count": 2,
-    "cf_detail": [
-     "부채/자본 1.67",
-     "발행주식수 +20.3%(3개분기)"
-    ],
+    "cf_veto": null,
+    "cf_veto_count": null,
+    "cf_detail": null,
     "latest_earnings_filing_date": "2026-07-28",
     "latest_earnings_filing_form": "10-Q",
     "latest_earnings_filing_level": "confirmed"
@@ -358,7 +347,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    "next_check": "다음 1~2개 분기 연속 Data Centers 마진 회복, FCF 플러스 재전환, 재고 정상화 중 2개 이상 확인되면 '일시 부담 가능'으로 재분류 후 재평가",
    "tag": null,
    "auto": {
-    "generated_at": "2026-10-16T18:57:01+09:00",
+    "generated_at": "2026-10-17T00:15:40+09:00",
     "dd60": -38.3,
     "dd60_days_ago": 60,
     "dd60_note": "최근 60거래일 고점 대비 -38.3% (60거래일 전 고점)",
@@ -377,9 +366,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
     "eps_direction": "혼조",
     "eps_note": "숫자 변화와 상·하향 횟수의 방향이 엇갈림",
     "eps_updated_at": "2026-10-15T04:28:08",
-    "cf_veto": false,
-    "cf_veto_count": 0,
-    "cf_detail": [],
+    "cf_veto": null,
+    "cf_veto_count": null,
+    "cf_detail": null,
     "latest_earnings_filing_date": "2026-07-30",
     "latest_earnings_filing_form": "10-Q",
     "latest_earnings_filing_level": "confirmed"
@@ -434,7 +423,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "price_expectation_gap 판단은 실시간 컨센서스 EPS 수정치가 아닌 애널리스트 목표가 변화를 대리지표로 사용함. Investor Day 투자자 프레젠테이션 원문 전체 수치는 직접 확인하지 못함",
    "auto": {
-    "generated_at": "2026-10-16T18:57:01+09:00",
+    "generated_at": "2026-10-17T00:15:40+09:00",
     "dd60": -6.7,
     "dd60_days_ago": 29,
     "dd60_note": "최근 60거래일 고점 대비 -6.7% (29거래일 전 고점)",
@@ -453,11 +442,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
     "eps_direction": "상향",
     "eps_note": "전망치가 오르는 중",
     "eps_updated_at": "2026-10-13T11:53:04",
-    "cf_veto": false,
-    "cf_veto_count": 1,
-    "cf_detail": [
-     "부채/자본 1.02"
-    ],
+    "cf_veto": null,
+    "cf_veto_count": null,
+    "cf_detail": null,
     "latest_earnings_filing_date": "2026-08-27",
     "latest_earnings_filing_form": "10-Q",
     "latest_earnings_filing_level": "confirmed"
@@ -512,7 +499,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "Macquarie 하향의 정확한 날짜는 2차 소스로만 확인(원 리포트 미확인). Non-GAAP 매출총이익률은 8-K 공시 수치에서 직접 역산한 값",
    "auto": {
-    "generated_at": "2026-10-16T18:57:01+09:00",
+    "generated_at": "2026-10-17T00:15:40+09:00",
     "dd60": -19.5,
     "dd60_days_ago": 48,
     "dd60_note": "최근 60거래일 고점 대비 -19.5% (48거래일 전 고점)",
@@ -531,9 +518,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
     "eps_direction": "보합",
     "eps_note": "거의 변화 없음",
     "eps_updated_at": "2026-10-13T11:53:59",
-    "cf_veto": false,
-    "cf_veto_count": 0,
-    "cf_detail": [],
+    "cf_veto": null,
+    "cf_veto_count": null,
+    "cf_detail": null,
     "latest_earnings_filing_date": "2026-09-10",
     "latest_earnings_filing_form": "10-Q",
     "latest_earnings_filing_level": "confirmed"
@@ -588,7 +575,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "BofA의 Underperform 등급 부여 정확한 발표일 미확정. 중국向 수출통제의 QCOM 직접 영향 규모는 1차 소스로 확인되지 않음",
    "auto": {
-    "generated_at": "2026-10-16T18:57:01+09:00",
+    "generated_at": "2026-10-17T00:15:40+09:00",
     "dd60": -11.7,
     "dd60_days_ago": 14,
     "dd60_note": "최근 60거래일 고점 대비 -11.7% (14거래일 전 고점)",
@@ -607,9 +594,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
     "eps_direction": "하향",
     "eps_note": "전망치가 내려가는 중",
     "eps_updated_at": "2026-10-13T11:54:12",
-    "cf_veto": false,
-    "cf_veto_count": 0,
-    "cf_detail": [],
+    "cf_veto": null,
+    "cf_veto_count": null,
+    "cf_detail": null,
     "latest_earnings_filing_date": "2026-07-29",
     "latest_earnings_filing_form": "10-Q",
     "latest_earnings_filing_level": "confirmed"
@@ -663,7 +650,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "SoftBank 지분 매각 관련 2026년 최신 동향 미확인. China 수출규제가 이번 하락과 직접 관련 있는지도 확인되지 않음. 9월 말 급락의 'OpenAI 트레이닝 중단설'은 원 소스 미확인으로 신뢰도 낮음",
    "auto": {
-    "generated_at": "2026-10-16T18:57:01+09:00",
+    "generated_at": "2026-10-17T00:15:40+09:00",
     "dd60": -26.5,
     "dd60_days_ago": 17,
     "dd60_note": "최근 60거래일 고점 대비 -26.5% (17거래일 전 고점)",
@@ -682,9 +669,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
     "eps_direction": "보합",
     "eps_note": "거의 변화 없음",
     "eps_updated_at": "2026-10-13T11:54:26",
-    "cf_veto": false,
-    "cf_veto_count": 0,
-    "cf_detail": [],
+    "cf_veto": null,
+    "cf_veto_count": null,
+    "cf_detail": null,
     "latest_earnings_filing_date": "2026-09-18",
     "latest_earnings_filing_form": "6-K",
     "latest_earnings_filing_level": "uncertain"
@@ -735,7 +722,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "Q3 신규 수주 수치 미공개",
    "auto": {
-    "generated_at": "2026-10-16T18:57:01+09:00",
+    "generated_at": "2026-10-17T00:15:40+09:00",
     "dd60": -12.0,
     "dd60_days_ago": 42,
     "dd60_note": "최근 60거래일 고점 대비 -12.0% (42거래일 전 고점)",
@@ -754,9 +741,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
     "eps_direction": "상향",
     "eps_note": "전망치가 오르는 중",
     "eps_updated_at": "2026-10-13T11:55:21",
-    "cf_veto": false,
-    "cf_veto_count": 0,
-    "cf_detail": [],
+    "cf_veto": null,
+    "cf_veto_count": null,
+    "cf_detail": null,
     "latest_earnings_filing_date": "2026-10-14",
     "latest_earnings_filing_form": "6-K",
     "latest_earnings_filing_level": "confirmed"
@@ -806,7 +793,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "6월 정확한 가격 레벨에 대해 2차 소스 간 다소 불일치 있음",
    "auto": {
-    "generated_at": "2026-10-16T18:57:01+09:00",
+    "generated_at": "2026-10-17T00:15:40+09:00",
     "dd60": -23.6,
     "dd60_days_ago": 59,
     "dd60_note": "최근 60거래일 고점 대비 -23.6% (59거래일 전 고점)",
@@ -825,11 +812,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
     "eps_direction": "상향",
     "eps_note": "전망치가 오르는 중",
     "eps_updated_at": "2026-10-13T11:55:35",
-    "cf_veto": false,
-    "cf_veto_count": 1,
-    "cf_detail": [
-     "FCF 2년 연속 악화(7.6B→7.5B→5.7B)"
-    ],
+    "cf_veto": null,
+    "cf_veto_count": null,
+    "cf_detail": null,
     "latest_earnings_filing_date": "2026-08-20",
     "latest_earnings_filing_form": "10-Q",
     "latest_earnings_filing_level": "confirmed"
@@ -877,7 +862,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "이번 하락 구간을 설명하는 단일 확정 1차 소스 촉발 요인을 찾지 못함",
    "auto": {
-    "generated_at": "2026-10-16T18:57:01+09:00",
+    "generated_at": "2026-10-17T00:15:40+09:00",
     "dd60": -20.2,
     "dd60_days_ago": 9,
     "dd60_note": "최근 60거래일 고점 대비 -20.2% (9거래일 전 고점)",
@@ -896,9 +881,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
     "eps_direction": "상향",
     "eps_note": "전망치가 오르는 중",
     "eps_updated_at": "2026-10-13T11:55:48",
-    "cf_veto": false,
-    "cf_veto_count": 0,
-    "cf_detail": [],
+    "cf_veto": null,
+    "cf_veto_count": null,
+    "cf_detail": null,
     "latest_earnings_filing_date": "2026-08-07",
     "latest_earnings_filing_form": "10-K",
     "latest_earnings_filing_level": "confirmed"
@@ -946,7 +931,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": null,
    "auto": {
-    "generated_at": "2026-10-16T18:57:01+09:00",
+    "generated_at": "2026-10-17T00:15:40+09:00",
     "dd60": -20.2,
     "dd60_days_ago": 59,
     "dd60_note": "최근 60거래일 고점 대비 -20.2% (59거래일 전 고점)",
@@ -965,9 +950,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
     "eps_direction": "상향",
     "eps_note": "전망치가 오르는 중",
     "eps_updated_at": "2026-10-14T08:03:21",
-    "cf_veto": false,
-    "cf_veto_count": 0,
-    "cf_detail": [],
+    "cf_veto": null,
+    "cf_veto_count": null,
+    "cf_detail": null,
     "latest_earnings_filing_date": "2026-08-06",
     "latest_earnings_filing_form": "10-K",
     "latest_earnings_filing_level": "confirmed"
@@ -1016,7 +1001,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": null,
    "auto": {
-    "generated_at": "2026-10-16T18:57:01+09:00",
+    "generated_at": "2026-10-17T00:15:40+09:00",
     "dd60": -15.1,
     "dd60_days_ago": 10,
     "dd60_note": "최근 60거래일 고점 대비 -15.1% (10거래일 전 고점)",
@@ -1035,9 +1020,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
     "eps_direction": "상향",
     "eps_note": "전망치가 오르는 중",
     "eps_updated_at": "2026-10-15T04:25:11",
-    "cf_veto": false,
-    "cf_veto_count": 0,
-    "cf_detail": [],
+    "cf_veto": null,
+    "cf_veto_count": null,
+    "cf_detail": null,
     "latest_earnings_filing_date": "2026-10-09",
     "latest_earnings_filing_form": "10-K",
     "latest_earnings_filing_level": "confirmed"
@@ -1084,7 +1069,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "주가 순환성(cyclicality) 우려를 제기하는 Seeking Alpha 기사 제목을 확인했으나 본문 내용은 검증하지 못함",
    "auto": {
-    "generated_at": "2026-10-16T18:57:01+09:00",
+    "generated_at": "2026-10-17T00:15:40+09:00",
     "dd60": -26.1,
     "dd60_days_ago": 17,
     "dd60_note": "최근 60거래일 고점 대비 -26.1% (17거래일 전 고점)",
@@ -1103,9 +1088,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
     "eps_direction": "상향",
     "eps_note": "전망치가 오르는 중",
     "eps_updated_at": "2026-10-15T04:25:24",
-    "cf_veto": false,
-    "cf_veto_count": 0,
-    "cf_detail": [],
+    "cf_veto": null,
+    "cf_veto_count": null,
+    "cf_detail": null,
     "latest_earnings_filing_date": "2026-08-17",
     "latest_earnings_filing_form": "10-K",
     "latest_earnings_filing_level": "confirmed"
@@ -1154,7 +1139,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "Toshiba 증설 구체 수치는 2차 소스만 확인됨",
    "auto": {
-    "generated_at": "2026-10-16T18:57:01+09:00",
+    "generated_at": "2026-10-17T00:15:40+09:00",
     "dd60": -36.2,
     "dd60_days_ago": 59,
     "dd60_note": "최근 60거래일 고점 대비 -36.2% (59거래일 전 고점)",
@@ -1173,11 +1158,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
     "eps_direction": "상향",
     "eps_note": "전망치가 오르는 중",
     "eps_updated_at": "2026-10-15T04:25:38",
-    "cf_veto": false,
-    "cf_veto_count": 1,
-    "cf_detail": [
-     "발행주식수 +6.3%(3개분기)"
-    ],
+    "cf_veto": null,
+    "cf_veto_count": null,
+    "cf_detail": null,
     "latest_earnings_filing_date": "2026-08-14",
     "latest_earnings_filing_form": "10-K",
     "latest_earnings_filing_level": "confirmed"
@@ -1226,7 +1209,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "FY2027 EPS 컨센서스 +16% 상향은 2차 소스만 확인됨",
    "auto": {
-    "generated_at": "2026-10-16T18:57:01+09:00",
+    "generated_at": "2026-10-17T00:15:40+09:00",
     "dd60": -33.9,
     "dd60_days_ago": 48,
     "dd60_note": "최근 60거래일 고점 대비 -33.9% (48거래일 전 고점)",
@@ -1245,12 +1228,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
     "eps_direction": "상향",
     "eps_note": "전망치가 오르는 중",
     "eps_updated_at": "2026-10-15T04:26:05",
-    "cf_veto": true,
-    "cf_veto_count": 2,
-    "cf_detail": [
-     "FCF 2년 연속 악화(0.2B→0.2B→-1.0B)",
-     "발행주식수 +4.5%(3개분기)"
-    ],
+    "cf_veto": null,
+    "cf_veto_count": null,
+    "cf_detail": null,
     "latest_earnings_filing_date": "2026-08-14",
     "latest_earnings_filing_form": "10-K",
     "latest_earnings_filing_level": "confirmed"
@@ -1302,7 +1282,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": null,
    "auto": {
-    "generated_at": "2026-10-16T18:57:01+09:00",
+    "generated_at": "2026-10-17T00:15:40+09:00",
     "dd60": -14.1,
     "dd60_days_ago": 42,
     "dd60_note": "최근 60거래일 고점 대비 -14.1% (42거래일 전 고점)",
@@ -1321,9 +1301,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
     "eps_direction": "상향",
     "eps_note": "전망치가 오르는 중",
     "eps_updated_at": "2026-10-15T04:26:32",
-    "cf_veto": false,
-    "cf_veto_count": 0,
-    "cf_detail": [],
+    "cf_veto": null,
+    "cf_veto_count": null,
+    "cf_detail": null,
     "latest_earnings_filing_date": "2026-07-22",
     "latest_earnings_filing_form": "10-Q",
     "latest_earnings_filing_level": "confirmed"
@@ -1374,7 +1354,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "실적 발표 당일 하락률이 2차 소스 간 -11%~-17%로 불일치",
    "auto": {
-    "generated_at": "2026-10-16T18:57:01+09:00",
+    "generated_at": "2026-10-17T00:15:40+09:00",
     "dd60": -29.4,
     "dd60_days_ago": 59,
     "dd60_note": "최근 60거래일 고점 대비 -29.4% (59거래일 전 고점)",
@@ -1393,9 +1373,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
     "eps_direction": "상향",
     "eps_note": "전망치가 오르는 중",
     "eps_updated_at": "2026-10-15T04:27:54",
-    "cf_veto": false,
-    "cf_veto_count": 0,
-    "cf_detail": [],
+    "cf_veto": null,
+    "cf_veto_count": null,
+    "cf_detail": null,
     "latest_earnings_filing_date": "2026-07-29",
     "latest_earnings_filing_form": "10-Q",
     "latest_earnings_filing_level": "confirmed"
@@ -1440,7 +1420,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "다수 항목이 조사 예산 소진으로 미검증 상태 — 추가 확인 필요",
    "auto": {
-    "generated_at": "2026-10-16T18:57:01+09:00",
+    "generated_at": "2026-10-17T00:15:40+09:00",
     "dd60": -30.6,
     "dd60_days_ago": 42,
     "dd60_note": "최근 60거래일 고점 대비 -30.6% (42거래일 전 고점)",
@@ -1459,12 +1439,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
     "eps_direction": "상향",
     "eps_note": "전망치가 오르는 중",
     "eps_updated_at": "2026-10-15T04:28:21",
-    "cf_veto": true,
-    "cf_veto_count": 2,
-    "cf_detail": [
-     "부채/자본 1.65",
-     "발행주식수 +3.9%(3개분기)"
-    ],
+    "cf_veto": null,
+    "cf_veto_count": null,
+    "cf_detail": null,
     "latest_earnings_filing_date": "2026-08-04",
     "latest_earnings_filing_form": "10-K",
     "latest_earnings_filing_level": "confirmed"
@@ -1512,7 +1489,7 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
    ],
    "unverified": "Q3 2026 실적 발표일/결과는 조사 예산 소진으로 확인하지 못함",
    "auto": {
-    "generated_at": "2026-10-16T18:57:01+09:00",
+    "generated_at": "2026-10-17T00:15:40+09:00",
     "dd60": -21.3,
     "dd60_days_ago": 42,
     "dd60_note": "최근 60거래일 고점 대비 -21.3% (42거래일 전 고점)",
@@ -1531,9 +1508,9 @@ const DOWNTURN_CAUSE_CARDS_V31 = {
     "eps_direction": "상향",
     "eps_note": "전망치가 오르는 중",
     "eps_updated_at": "2026-10-15T04:28:49",
-    "cf_veto": false,
-    "cf_veto_count": 0,
-    "cf_detail": [],
+    "cf_veto": null,
+    "cf_veto_count": null,
+    "cf_detail": null,
     "latest_earnings_filing_date": "2026-07-23",
     "latest_earnings_filing_form": "10-Q",
     "latest_earnings_filing_level": "confirmed"
