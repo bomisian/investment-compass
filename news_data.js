@@ -6340,7 +6340,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "SPY": {
@@ -14130,7 +14130,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 159,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "MSFT": {
@@ -22031,7 +22031,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "GOOGL": {
@@ -30059,7 +30059,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "AMZN": {
@@ -38229,7 +38229,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "META": {
@@ -38558,72 +38558,6 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1791344927.399683
-        }
-      },
-      {
-        "headline": "META Stock Holds Up Overnight: New Mexico Seeks Up To $40B Privacy Penalty In Cambridge Analytica Case",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=fb75a95de2de0a771fcb1753603431da915512ab5318be66343c4c712eb74469",
-        "datetime": 1790919842,
-        "headlineKo": "META 주식이 밤새 유지됨: 뉴멕시코주, Cambridge Analytica 사건에서 최대 400억 달러의 개인 정보 보호 벌금 청구",
-        "relevance": 0.6,
-        "keywordFlag": true,
-        "flagTerms": [
-          "penalty"
-        ],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "META 주식은 밤새 상승: 뉴멕시코, Cambridge Analytica 사례에서 최대 400억 달러의 개인 정보 보호 벌금 추구 AI 에이전트 동향 뉴스 수익 전체 DIA 0.49% SPY 0.50% QQQ 0.82% Trending NKE 10.24% ASTS 0.24% CTVA 0.56% IWM 0.53% MARA 2.77% DIS 0.04",
-            "META 주식이 밤새 유지됨: 뉴멕시코, Cambridge Analytica 사건에서 최대 400억 달러의 개인 정보 보호 벌금을 요구합니다. 개인 정보 보호 벌금은 Meta 주식이 회사의 AI 추진에 추진력을 얻음에도 불구하고 새로운 위험을 추가합니다.",
-            "Meta의 CEO인 Mark Zuckerberg가 2024년 1월 31일 온라인 아동 성착취에 관한 상원 사법위원회 청문회에서 증언합니다."
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $40, 0.49%, 0.50% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "META의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "META",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "META에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.6,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$40",
-            "0.49%",
-            "0.50%",
-            "0.82%",
-            "10.24%",
-            "0.24%",
-            "0.56%",
-            "0.53%"
-          ],
-          "sourceExcerpt": [
-            "META Stock Holds Up Overnight: New Mexico Seeks Up To $40B Privacy Penalty In Cambridge Analytica Case AI Agent Trending News Earnings All DIA 0.49% SPY 0.50% QQQ 0.82% Trending NKE 10.24% ASTS 0.24% CTVA 0.56% IWM 0.53% MARA 2.77% DIS 0.04",
-            "META Stock Holds Up Overnight: New Mexico Seeks Up To $40B Privacy Penalty In Cambridge Analytica Case The privacy penalty adds a fresh risk even as Meta shares gain momentum on the company’s AI push.",
-            "CEO of Meta, Mark Zuckerberg testify before a Senate Judiciary Committee hearing on online child sexual exploitation on January 31, 2024."
-          ],
-          "analysisUpdatedAt": 1790934560.6152687
         }
       }
     ],
@@ -46353,9 +46287,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 188,
+      "checked": 187,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "AAPL": {
@@ -54257,7 +54191,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "TSLA": {
@@ -62392,7 +62326,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "ORCL": {
@@ -70939,7 +70873,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "CRM": {
@@ -78856,7 +78790,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 172,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "PLTR": {
@@ -87987,7 +87921,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "NVDA": {
@@ -95689,7 +95623,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "AMD": {
@@ -103715,7 +103649,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "AVGO": {
@@ -112521,7 +112455,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "QCOM": {
@@ -121095,7 +121029,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 184,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "ARM": {
@@ -127121,7 +127055,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "MRVL": {
@@ -135888,7 +135822,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "INTC": {
@@ -144636,7 +144570,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "TSM": {
@@ -152977,7 +152911,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "ASML": {
@@ -159388,7 +159322,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 137,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "AMAT": {
@@ -165432,7 +165366,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 125,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "LRCX": {
@@ -168464,7 +168398,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "KLAC": {
@@ -171700,7 +171634,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "MU": {
@@ -179643,7 +179577,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "SNDK": {
@@ -188499,7 +188433,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "WDC": {
@@ -193996,7 +193930,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "ANET": {
@@ -198212,7 +198146,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "COHR": {
@@ -202250,7 +202184,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "LITE": {
@@ -207029,7 +206963,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "GEV": {
@@ -212853,7 +212787,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "CEG": {
@@ -218117,7 +218051,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "VST": {
@@ -222019,7 +221953,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "ETN": {
@@ -225588,7 +225522,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "PWR": {
@@ -228854,7 +228788,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "HUBB": {
@@ -229812,7 +229746,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "VRT": {
@@ -234318,7 +234252,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "MOD": {
@@ -235791,7 +235725,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "STX": {
@@ -240629,7 +240563,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "EME": {
@@ -242677,7 +242611,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "FIX": {
@@ -244463,7 +244397,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   },
   "BE": {
@@ -247275,7 +247209,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-16 14:24"
+      "updated": "2026-10-16 14:58"
     }
   }
 };
