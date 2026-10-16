@@ -325,6 +325,11 @@
     <div id="anomalyBox"></div>
   </div>
 
+  <div class="card" id="verdictScorecardCard" style="display:none;">
+    <h2>📊 판정 성적표 <span style="font-weight:400;font-size:12px;color:var(--sub);">(가격 판단(01 탭) 종합 판정이 실제로 얼마나 맞았는지 - 2026-10-16부터 기록 시작, 표본 20개 미만은 "표본 부족"으로 표시)</span></h2>
+    <div id="verdictScorecardBox"></div>
+  </div>
+
   <div class="card" id="summaryCard" style="display:none;">
     <div id="comboPickBox"></div>
     <h2>① 건강한 조정 · 분할 축적 점검 <span style="font-weight:400;font-size:12px;color:var(--sub);">(6~12개월 · 사업 전제 유지·하락 원인·진입 신호 기준 — 하락 폭 자체는 참고용)</span></h2>
@@ -600,6 +605,7 @@
 <script src="setback_cards_41_data.js" onerror="void 0"></script>
 <script src="downturn_cause_cards_v31_data.js" onerror="void 0"></script>
 <script src="market_position_card_data.js" onerror="void 0"></script>
+<script src="verdict_scorecard_data.js" onerror="void 0"></script>  <!-- 2026-10-16 WO8-A: 없어도 조용히 건너뜀 -->
 <script>
 // ============ 워치리스트 (지수ETF 제외 - 개별 종목 판단용) ============
 const ETF_THEME = "지수ETF";
@@ -2851,6 +2857,51 @@ function refreshAllSignalLogBoxes(){
     if(el) el.outerHTML = buildRecentSignalLogHtml(scored, id);
   });
 }
+// ============ 판정 성적표 (WO8-A 4번, 2026-10-16 추가) ============
+// verdict_scorecard_data.js(verdict_scoring.py가 매일 생성하는 집계 숫자만 있는 파일)를
+// 그대로 표로 보여준다 - 점수를 다시 계산하지 않음(이미 채점된 결과를 보여주기만 함).
+function renderVerdictScorecard(){
+  const card = document.getElementById('verdictScorecardCard');
+  const box = document.getElementById('verdictScorecardBox');
+  if(!card || !box) return;
+  if(typeof VERDICT_SCORECARD_DATA === 'undefined' || !VERDICT_SCORECARD_DATA){
+    card.style.display = 'none';
+    return;
+  }
+  card.style.display = 'block';
+  const d = VERDICT_SCORECARD_DATA;
+  const minN = d.sampleMinForDisplay || 20;
+  const horizons = d.horizons || [5,20,60];
+  const groupOrder = ['buy','avoid','neutral'];
+  const cell = (entry) => {
+    if(!entry || !entry.n) return '<span class="sub">표본 부족(0개)</span>';
+    if(entry.n < minN) return `<span class="sub">표본 부족(${entry.n}개)</span>`;
+    const parts = [];
+    if(typeof entry.hitRate === 'number') parts.push(`적중률 ${(entry.hitRate*100).toFixed(0)}%`);
+    if(typeof entry.avgExcessVsSectorPct === 'number') parts.push(`평균초과 ${entry.avgExcessVsSectorPct>=0?'+':''}${entry.avgExcessVsSectorPct.toFixed(1)}%p`);
+    if(typeof entry.avgMddPct === 'number') parts.push(`평균MDD ${entry.avgMddPct.toFixed(1)}%`);
+    return `<b>${entry.n}개</b> - ${parts.join(' · ') || '집계 중'}`;
+  };
+  const buildTable = (agg, title) => {
+    const rows = groupOrder.map(g => {
+      const grp = agg[g] || {label:g, byHorizon:{}};
+      const cells = horizons.map(h => `<td>${cell(grp.byHorizon[String(h)])}</td>`).join('');
+      return `<tr><td style="white-space:nowrap;">${grp.label}</td>${cells}</tr>`;
+    }).join('');
+    return `<div class="sub" style="margin:10px 0 4px;font-weight:700;">${title}</div>
+      <table style="width:100%;border-collapse:collapse;font-size:12.5px;">
+        <thead><tr><th style="text-align:left;">판정 묶음</th>${horizons.map(h=>`<th>${h}거래일 뒤</th>`).join('')}</tr></thead>
+        <tbody>${rows}</tbody>
+      </table>`;
+  };
+  box.innerHTML = `
+    <div class="sub">섹터ETF 대비 초과수익 기준 · 적중률은 매수/회피 계열만(중립은 분포만) · 총 ${d.totalRowsScored||0}행 채점(판정변경일만 ${d.totalChangeDaysScored||0}행)</div>
+    ${buildTable(d.all || {}, '전체 기록 기준')}
+    ${buildTable(d.changeDaysOnly || {}, '판정이 처음 바뀐 날만(표본 부풀림 방지)')}
+    <div class="sub" style="margin-top:6px;font-size:11px;">기록 시작일: 2026-10-16(그 이전은 재구성 가능한 과거 스냅샷이 없어 기록 없음) · 갱신: ${d.generatedAt||'-'}</div>
+  `;
+}
+
 function renderSummary(){
   const card = document.getElementById('summaryCard');
   card.style.display = 'block';
@@ -8193,6 +8244,31 @@ if(typeof HINTS !== 'undefined' && !HINTS.marketPositionCard){
   HINTS.marketPositionCard = '월가 애널리스트 목표가 컨센서스(중앙값·분산·분석가 수)와 현재가의 거리를, 기업 기대충족 판정 결과와 함께 보여주는 읽기 전용 참고 카드입니다. 39개 기업 전수에 동일 소스·동일 정의로 구축했습니다(SPY·QQQ는 기업 컨센서스 대상이 아니라 시장 문맥으로만 표시). 컨센서스 위치만으로 고평가·저평가·매수·매도를 판단하지 않으며, 증거가 부족한 종목은 "가격 타당성 근거 구축 중"으로만 표시합니다. 매수·매도·비중조절 신호가 아니고 자동주문/알림과 연결되지 않습니다.';
 }
 
+// ============ 종목별 최근 판정 이력 (WO8-A 4번, 2026-10-16 추가) ============
+// verdict_scorecard_data.js의 perTickerHistory(verdict_scoring.py가 이미 계산해 둔 날짜별
+// 판정 + 20거래일 뒤 섹터ETF대비 초과수익)를 그대로 표로 보여준다 - 여기서 다시 계산 안 함.
+function renderVerdictHistorySection(ticker){
+  if(typeof VERDICT_SCORECARD_DATA === 'undefined' || !VERDICT_SCORECARD_DATA || !VERDICT_SCORECARD_DATA.perTickerHistory){
+    return '';
+  }
+  const hist = VERDICT_SCORECARD_DATA.perTickerHistory[ticker];
+  if(!hist || !hist.length) return '';
+  const rows = hist.slice().reverse().map(h => {
+    const excessTxt = (typeof h.excess_vs_sector_20d_pct === 'number')
+      ? `${h.excess_vs_sector_20d_pct>=0?'+':''}${h.excess_vs_sector_20d_pct.toFixed(1)}%p`
+      : '<span class="sub">20일 대기 중</span>';
+    return `<tr><td>${esc(h.date)}</td><td>${esc(h.final_tier||'-')}</td><td>${esc(h.price_label||'-')}</td><td>${excessTxt}</td></tr>`;
+  }).join('');
+  return `<details style="margin-top:10px;"><summary style="cursor:pointer;font-weight:600;padding:6px 0;">▸ 이 종목의 최근 판정 이력</summary>
+    <div style="margin-top:8px;overflow-x:auto;">
+      <table style="width:100%;border-collapse:collapse;font-size:12px;">
+        <thead><tr><th style="text-align:left;">날짜</th><th style="text-align:left;">종합 판정</th><th style="text-align:left;">가격 라벨</th><th style="text-align:left;">20거래일 뒤(섹터ETF 대비)</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+  </details>`;
+}
+
 function tabJudgement(r){
   const b = r.breakdown;
   const pct = Math.max(0, Math.min(100, r.score / 5 * 100)); // 새 점수 범위 0~5 -> 0~100%
@@ -8338,6 +8414,7 @@ function tabJudgement(r){
     </details>
 
     ${priceRefCoverageHtml(r.ticker)}
+    ${renderVerdictHistorySection(r.ticker)}
     <details style="margin-top:10px;"><summary style="cursor:pointer;font-weight:600;padding:6px 0;">▸ 데이터 상태·출처</summary>
       <div style="margin-top:8px;">
         ${earningsBadge(r.ticker)}
@@ -16608,6 +16685,7 @@ renderDataStatusLine();  // 데이터 상태도 캐시 파일만 읽으므로 �
 renderOpsStatusLine();  // 2026-10-15 WO6-01: 운영 상태(파이프라인/배포 자체)도 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
 renderEarningsDdayLine();  // 2026-10-15 WO6-04: 다음 7일 실적 발표 한눈에 보기 - 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
 renderEarningsCalendar();  // 다가오는 실적 발표도 news_data.js만 읽으므로 스캔 전에도 바로 표시됨
+renderVerdictScorecard();  // 2026-10-16 WO8-A: verdict_scorecard_data.js만 읽으므로 스캔 전에도 바로 표시됨
 const savedFgi = localStorage.getItem('compass_fgi_manual');
 if(savedFgi) document.getElementById('fgiManualInput').value = savedFgi;
 // 2026-08-18 추가(사용자 요청): "GPT 대시보드는 버튼 안 눌러도 바로 조회되던데 우리도 그렇게
