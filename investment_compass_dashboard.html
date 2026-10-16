@@ -4468,15 +4468,46 @@ function smartDetailHtml(x){
   });
   const shareChangePct16 = (shareDataOk && sharePrevSum > 0) ? (shareNowSum / sharePrevSum - 1) * 100 : null;
   // 다음 공시 예정일: SEC 13F 마감은 분기말 + 45일(고정 규칙). latest_report_date(분기말)에서 다음 분기말을 구해 +45일.
+  // [2026-10-16 WO10-1 수정] 분기말은 3/31·6/30·9/30·12/31로 월마다 마지막 날이 다른데(12월=31일,
+  // 9월=30일), 예전 코드는 그냥 setUTCMonth(+3)만 해서 "9/30 + 3개월 = 12/30"처럼 분기말이 아닌
+  // 날짜가 나올 수 있었다(실제 분기말은 12/31). 분기말 목록에서 "현재보다 뒤인 가장 빠른 분기말"을
+  // 직접 찾도록 바꿔서 네 분기 전환 모두 정확한 분기말을 쓰게 한다.
   const nextFilingDate16 = (() => {
     if(!x.latest_report_date) return null;
     const d = new Date(x.latest_report_date + 'T00:00:00Z');
     if(isNaN(d.getTime())) return null;
-    d.setUTCMonth(d.getUTCMonth() + 3);
-    d.setUTCDate(d.getUTCDate() + 45);
-    return d.toISOString().slice(0, 10);
+    const qEnds = [[2, 31], [5, 30], [8, 30], [11, 31]]; // [UTC월(0-based), 그 분기말의 날짜]
+    const y = d.getUTCFullYear();
+    let next = null;
+    for(const [m, day] of qEnds){
+      const cand = new Date(Date.UTC(y, m, day));
+      if(cand.getTime() > d.getTime()){ next = cand; break; }
+    }
+    if(!next) next = new Date(Date.UTC(y + 1, qEnds[0][0], qEnds[0][1]));
+    next.setUTCDate(next.getUTCDate() + 45);
+    return next.toISOString().slice(0, 10);
   })();
   const reportAgeDays16 = (typeof daysAgoFromDateStr === 'function') ? daysAgoFromDateStr(x.latest_report_date) : null;
+  // [2026-10-16 WO10-1 추가] 2분기 연속 증액/감액 기관 수: quarter_history(상세 샤드 파일에 있음)의
+  // 최근 2개 분기만 비교한다. 투자자 고유 key가 이 이력에는 없어서 manager 이름으로 맞춘다(같은
+  // 투자자가 두 분기 모두 등장해야 셈 - 한쪽에만 있으면 "이번에 처음/이번에만" 이라 연속이 아님).
+  // 직전 2개 분기 데이터가 모두 없으면 "이력 부족"이라고만 쓴다(추정하지 않음).
+  const qh16 = Array.isArray(x.quarter_history) ? x.quarter_history : [];
+  let streak16 = null;
+  if(qh16.length >= 2){
+    const last2 = qh16.slice(-2);
+    const [q0, q1] = last2;
+    const actOf = q => Object.fromEntries((q.entries || []).map(e => [e.manager, e.action]));
+    const a0 = actOf(q0), a1 = actOf(q1);
+    const UP = new Set(['신규', '추가']), DN = new Set(['일부매도', '전량매도']);
+    let upStreak = 0, dnStreak = 0;
+    for(const name of Object.keys(a1)){
+      if(!(name in a0)) continue; // 직전 분기에 없던 투자자는 "연속"을 말할 수 없음
+      if(UP.has(a0[name]) && UP.has(a1[name])) upStreak++;
+      else if(DN.has(a0[name]) && DN.has(a1[name])) dnStreak++;
+    }
+    streak16 = {upStreak, dnStreak, from: q0.report_date, to: q1.report_date};
+  }
   const summary = `<div class="comment-box" style="background:var(--panel);margin:4px 0 8px;">
       <div style="font-weight:700;">한눈 요약 <span class="sub" style="font-weight:400;">— 최근 3개월 공개분 · 실제 거래가 아니라 분기말 보유 공개</span></div>
         ${flags.length ? `<div style="color:#876000;font-size:12px;">⚠️ ${flags.map(esc).join(' · ')} — 따라 사기 전 가격 부담 확인</div>` : ''}
@@ -4485,7 +4516,8 @@ function smartDetailHtml(x){
       <div style="font-size:12.5px;"><span style="color:#1e7b34;font-weight:700;">신규/증가 ${rB.length}명</span>: ${top3(rB)}${rB.length > 3 ? ` 외 ${rB.length - 3}명` : ''}</div>
       <div style="font-size:12.5px;"><span style="color:#b3261e;font-weight:700;">감소/이탈 ${rS.length + rR.length}명</span>: ${top3(rR.concat(rS))}${rS.length + rR.length > 3 ? ` 외 ${rS.length + rR.length - 3}명` : ''}</div>
       <div style="font-size:12.5px;margin-top:4px;padding-top:4px;border-top:1px solid #e3e6ea;">직전 분기 대비 🆕신규 ${c16['신규'] || 0} · ⬆증액 ${c16['추가'] || 0} · ⬇감액 ${c16['일부매도'] || 0} · ❌전량 매도 ${c16['전량매도'] || 0} → <b style="color:${tiltColor16};">${tilt16}</b>${(typeof shareChangePct16 === 'number' && isFinite(shareChangePct16)) ? ` · 추적 투자자 보유 주식 총량 ${pc(shareChangePct16 / 100, 1)}` : ''}</div>
-      <div class="sub" style="font-size:11px;margin-top:2px;">보고기준일 ${esc(x.latest_report_date || '—')}${typeof reportAgeDays16 === 'number' ? ` (보고일 기준 ${reportAgeDays16}일 지난 정보)` : ''}${nextFilingDate16 ? ` · 다음 13F 공시 예정(마감) ${esc(nextFilingDate16)}` : ''}</div>
+      <div class="sub" style="font-size:11px;margin-top:2px;">보고기준일 ${esc(x.latest_report_date || '—')}${typeof reportAgeDays16 === 'number' ? ` (보고일 기준 ${reportAgeDays16}일 지난 정보)` : ''}${nextFilingDate16 ? ` · 다음 13F 공시 예정(마감) ${esc(nextFilingDate16)}` : ''} · <b>45일 지연 정보</b>(분기말 보유를 최대 45일 뒤 공개 - 지금도 같은 포지션인지 알 수 없음)</div>
+      <div class="sub" style="font-size:11px;margin-top:2px;">2분기 연속 ${streak16 ? `⬆증액 ${streak16.upStreak}곳 · ⬇감액 ${streak16.dnStreak}곳 (${esc(streak16.from)}→${esc(streak16.to)})` : '이력 부족'}</div>
       <div class="sub" style="font-size:11px;margin-top:4px;">읽는 순서: 공개일이 충분히 최근인가 → 신규·증가가 있는가 → 비중·규모 큰 운용자인가 → 여러 운용자 방향이 같은가 → 실적·밸류에이션과 모순 없는가. 매수 판단이 아니라 추가 조사 우선순위용.</div>
     </div>`;
   const recRow = (d, act, col) => `<tr><td>${esc(d.manager || smMgrName(d.key))}</td><td style="color:${col};">${act}</td><td style="text-align:right;">${d.value_usd ? smMoney(d.value_usd) : '—'}</td><td style="text-align:right;">${wtxt(d)}</td><td>${esc(lastPub(d) || '—')}</td></tr>`;
