@@ -5690,21 +5690,37 @@ function pvStockTypeV2(t, fin, fund, est){
   if(n < 3){
     return {type: '기타', reasons: [`연간 EPS 관측치 ${n}개(3개 미만) - 분류 불가(데이터 부족), PEG 유지`], evidence: {n}};
   }
-  const lossYears = epsArr.filter(v => v <= 0).length;
-  // WO8-B 반려 수정(결함#3, 2026-10-16 사용자 지시) -- 변동계수(CV)·고점대비낙폭 기준은
-  // 꾸준한 고성장 종목도 EPS 절대값이 매년 크게 늘면 쉽게 걸려 "경기순환형"으로 오분류한다
-  // (사용자 실측: AVGO·VST·MOD). 두 기준을 삭제하고 "전년 대비 EPS 30%+ 감소 2회 이상
-  // 또는 적자 연도 2회 이상"으로 교체(지시서 원문 그대로).
+  // WO8-B 2차 반려 수정(결정#1, 2026-10-16 사용자 지시) -- 1차 수정(CV 삭제)에서도
+  // AVGO/VST/MOD가 여전히 걸려서, 두 기준에 조건을 하나씩 더 건다:
+  // (a) EPS 30%+ 감소는 "같은 해 매출도 10% 넘게 감소"한 경우만 카운트(매출이 늘었는데
+  //     EPS만 준 건 투자 확대·일회성 비용 등 다른 이유일 수 있어 사이클과 분리).
+  // (b) 적자 연도는 "3년 이상 연속 흑자 뒤 적자로 전환"한 경우만 카운트(성장 과정의
+  //     초기 적자 PLTR·BE·GEV는 전환 조건을 만족할 과거 흑자 구간이 없어 제외됨).
   let yoyDeclineCount = 0;
   const yoyDeclineYears = [];
   for(let i=1; i<epsArr.length; i++){
-    const prev = epsArr[i-1], cur = epsArr[i];
-    if(prev > 0){
-      const declinePct = (prev - cur) / prev * 100;
-      if(declinePct >= 30){
-        yoyDeclineCount++;
-        yoyDeclineYears.push(`${series[i-1].period}→${series[i].period} -${declinePct.toFixed(0)}%`);
+    const prevEps = epsArr[i-1], curEps = epsArr[i];
+    if(prevEps > 0){
+      const epsDeclinePct = (prevEps - curEps) / prevEps * 100;
+      if(epsDeclinePct >= 30){
+        const prevRev = series[i-1].revenue, curRev = series[i].revenue;
+        if(typeof prevRev === 'number' && typeof curRev === 'number' && prevRev > 0){
+          const revDeclinePct = (prevRev - curRev) / prevRev * 100;
+          if(revDeclinePct >= 10){
+            yoyDeclineCount++;
+            yoyDeclineYears.push(`${series[i-1].period}→${series[i].period} EPS -${epsDeclinePct.toFixed(0)}%·매출 -${revDeclinePct.toFixed(0)}%`);
+          }
+        }
       }
+    }
+  }
+  let lossTransitionCount = 0;
+  const lossTransitionYears = [];
+  const rawLossYears = epsArr.filter(v => v <= 0).length;
+  for(let i=3; i<epsArr.length; i++){
+    if(epsArr[i] <= 0 && epsArr[i-1] > 0 && epsArr[i-2] > 0 && epsArr[i-3] > 0){
+      lossTransitionCount++;
+      lossTransitionYears.push(`${series[i-1].period}(흑자)→${series[i].period}(적자, 직전 3년 연속 흑자)`);
     }
   }
   const ttmEps = pvTtmEps(fin);
@@ -5719,8 +5735,8 @@ function pvStockTypeV2(t, fin, fund, est){
     }
   }
   const cyclicalReasons = [];
-  if(yoyDeclineCount >= 2) cyclicalReasons.push(`전년 대비 EPS 30%+ 감소 ${yoyDeclineCount}회(${yoyDeclineYears.join(', ')}, 기준 2회 이상)`);
-  if(lossYears >= 2) cyclicalReasons.push(`적자 연도 ${lossYears}회(최근 ${n}년 중, 기준 2회 이상)`);
+  if(yoyDeclineCount >= 2) cyclicalReasons.push(`EPS 30%+·매출 10%+ 동반 감소 ${yoyDeclineCount}회(${yoyDeclineYears.join(', ')}, 기준 2회 이상)`);
+  if(lossTransitionCount >= 2) cyclicalReasons.push(`3년 연속 흑자 뒤 적자 전환 ${lossTransitionCount}회(${lossTransitionYears.join(', ')}, 기준 2회 이상)`);
   const cyclical = cyclicalReasons.length > 0;
 
   const ntmPerForType = (fund && typeof fund.forwardPE === 'number') ? fund.forwardPE : null;
@@ -5740,7 +5756,7 @@ function pvStockTypeV2(t, fin, fund, est){
     type, reasons,
     evidence: {
       n, epsArr: epsArr.map(v => Number(v.toFixed(2))),
-      lossYears, yoyDeclineCount, yoyDeclineYears, ttmEps: ttmEps != null ? Number(ttmEps.toFixed(2)) : null,
+      rawLossYears, lossTransitionCount, lossTransitionYears, yoyDeclineCount, yoyDeclineYears, ttmEps: ttmEps != null ? Number(ttmEps.toFixed(2)) : null,
       ntmPer: ntmPerForType != null ? Number(ntmPerForType.toFixed(1)) : null,
       nextFyGrowthPct: nextFyGrowthPct != null ? Number(nextFyGrowthPct.toFixed(1)) : null,
     }
@@ -5796,15 +5812,22 @@ function pvNormalizedModelA_v2(t, fin, fund, est, r){
   };
   const marginLow = pct(0.20), marginMid = pct(0.50), marginHigh = pct(0.80);
   const basePrice = marginMid * revPerShare * anchorPe;
-  const lowPriceRaw = marginLow * revPerShare * anchorPe;
-  const highPriceRaw = marginHigh * revPerShare * anchorPe;
+  if(!(basePrice > 0)){
+    return {ok: false, blockReason: `사이클 중앙 순이익률(${(marginMid*100).toFixed(1)}%)이 0 이하 - 정상화 모델 산출 제한`};
+  }
+  // WO8-B 2차 반려 수정(결정#2 선택지③, 2026-10-16 사용자 지시) -- 밴드를 이익률
+  // 20/80백분위로 직접 만들면(1차 수정) 적자~고마진을 오가는 사업에서 폭이 과도하게
+  // 넓어진다(16종목 중 13개가 60% 초과, 실측 확인). 기준가(basePrice)는 그대로 정상화
+  // 이익률 방식을 쓰고, 밴드만 다른 23종목과 똑같은 PER 25/75(ticker5y) 비율
+  // (perBand5YLow/High, anchorPe와 같은 조건에서만 존재 -- 추가 데이터 요구 없음)로
+  // 기준가에 곱해서 만든다.
+  const lowRatio = fund.perBand5YLow, highRatio = fund.perBand5YHigh;
+  const lowPriceRaw = basePrice * lowRatio;
+  const highPriceRaw = basePrice * highRatio;
   const lowPrice = Math.min(lowPriceRaw, highPriceRaw);
   const highPrice = Math.max(lowPriceRaw, highPriceRaw);
   const negativeLowFloor = lowPrice < 0;
   const lowPriceDisplay = negativeLowFloor ? 0 : lowPrice;
-  if(!(basePrice > 0)){
-    return {ok: false, blockReason: `사이클 중앙 순이익률(${(marginMid*100).toFixed(1)}%)이 0 이하 - 정상화 모델 산출 제한`};
-  }
   return {
     ok: true,
     basisYears: margins.length,
@@ -5815,6 +5838,7 @@ function pvNormalizedModelA_v2(t, fin, fund, est, r){
     shares: Number(shares.toFixed(0)), sharesIsMarketCapProxy,
     revPerShare: Number(revPerShare.toFixed(2)),
     anchorPe: Number(anchorPe.toFixed(2)), anchorPeSource: 'perMedian5Y',
+    bandSource: 'perBand5Y_ratio', bandLowRatio: Number(lowRatio.toFixed(3)), bandHighRatio: Number(highRatio.toFixed(3)),
     lowPrice: Number(lowPriceDisplay.toFixed(2)),
     basePrice: Number(basePrice.toFixed(2)),
     highPrice: Number(highPrice.toFixed(2)),
@@ -5927,7 +5951,15 @@ function pvFallbackModelV2(t, r, fin, fund, est, baseAnchorPeVal, perBandLowVal,
   } else if(stockType.type === '고성장형'){
     model = 'reverse_dcf';
     result = pvReverseDcfModelB(t, r, fin, fund, est);
-    if(!result.ok) model = 'fallback_peg';
+    if(!result.ok){
+      model = 'fallback_peg';
+    } else {
+      // WO8-B 2차 반려 수정(필수#2, 2026-10-16 사용자 지시) -- 역DCF는 기준가를 내지
+      // 않는 모델인데 PEG 기반 방향성 라벨(저평가/적정/고평가)을 그대로 쓰면 숫자
+      // 기준가 없이 라벨만 나가 모순으로 보인다(ARM 실측: "고평가" + 옛 bandTable
+      // $477이 공존). 라벨을 역DCF 자신의 판정(기대 선반영 큼/부합/낮음)으로 바꾼다.
+      priceOverride = result.verdict || '비교 불가(컨센서스 성장률 데이터 부족)';
+    }
   } else {
     model = 'fallback_peg';
     result = {ok: false, blockReason: 'PER 후보 불일치 등(기존 PEG 유지) - 새 유형 조건 미해당'};
@@ -6384,29 +6416,39 @@ function computePriceValidity(r){
   //     자동으로 같은 숫자를 쓰게 한다. usedFallbackModel 종목은 그동안 0.55~1.8배 경보에서
   //     제외돼 있었는데(대체 PEG 모델은 숫자 기준가가 없어서), v2는 숫자 기준가가 있으므로
   //     같은 경보 규칙을 여기서 별도로 적용한다(결함#4, 지시서 명시 임계값 그대로). ---
-  if(fallbackModelV2 && fallbackModelV2.stockType && fallbackModelV2.stockType.type === '경기순환형' && fallbackModelV2.result && fallbackModelV2.result.ok){
-    const mres = fallbackModelV2.result;
-    const epsLowEquiv = mres.marginLowPct/100*mres.revPerShare;
-    const epsMidEquiv = mres.marginMidPct/100*mres.revPerShare;
-    const epsHighEquiv = mres.marginHighPct/100*mres.revPerShare;
-    bandTable = {
-      asOf: today.toISOString().slice(0,10),
-      bandBasis: 'normalized_v2',
-      stressFloor: {eps: epsLowEquiv, per: mres.anchorPe, price: mres.lowPrice},
-      conservative: {eps: epsLowEquiv, per: mres.anchorPe, price: mres.lowPrice},
-      base: {eps: epsMidEquiv, per: mres.anchorPe, price: mres.basePrice},
-      upside: {eps: epsHighEquiv, per: mres.anchorPe, price: mres.highPrice},
-      epsLowNTM: epsLowEquiv, epsHighNTM: epsHighEquiv,
-    };
-    if(!priceAlert && typeof r.price === 'number' && r.price > 0 && mres.basePrice > 0){
-      const baseToPriceV2 = mres.basePrice / r.price;
-      if(baseToPriceV2 > 1.8){
-        priceAlert = '모델 불신 경보';
-        priceAlertNote = `정상화 기준가 $${mres.basePrice.toFixed(2)}가 현재가의 ${baseToPriceV2.toFixed(1)}배입니다 — 사이클 중앙 마진·배수 가정 자체가 지금 사업 상황과 안 맞을 가능성이 커 경보로 전환합니다.`;
-      } else if(baseToPriceV2 < 0.55){
-        priceAlert = '모델 불신 경보';
-        priceAlertNote = `정상화 기준가 $${mres.basePrice.toFixed(2)}가 현재가의 ${(baseToPriceV2*100).toFixed(0)}%에 불과합니다 — 사이클 중앙 마진·배수 가정 자체가 지금 사업 상황과 안 맞을 가능성이 커 경보로 전환합니다.`;
+  if(fallbackModelV2 && fallbackModelV2.stockType){
+    if(fallbackModelV2.stockType.type === '경기순환형' && fallbackModelV2.result && fallbackModelV2.result.ok){
+      const mres = fallbackModelV2.result;
+      const epsLowEquiv = mres.marginLowPct/100*mres.revPerShare;
+      const epsMidEquiv = mres.marginMidPct/100*mres.revPerShare;
+      const epsHighEquiv = mres.marginHighPct/100*mres.revPerShare;
+      bandTable = {
+        asOf: today.toISOString().slice(0,10),
+        bandBasis: 'normalized_v2',
+        stressFloor: {eps: epsLowEquiv, per: mres.anchorPe, price: mres.lowPrice},
+        conservative: {eps: epsLowEquiv, per: mres.anchorPe, price: mres.lowPrice},
+        base: {eps: epsMidEquiv, per: mres.anchorPe, price: mres.basePrice},
+        upside: {eps: epsHighEquiv, per: mres.anchorPe, price: mres.highPrice},
+        epsLowNTM: epsLowEquiv, epsHighNTM: epsHighEquiv,
+      };
+      if(!priceAlert && typeof r.price === 'number' && r.price > 0 && mres.basePrice > 0){
+        const baseToPriceV2 = mres.basePrice / r.price;
+        if(baseToPriceV2 > 1.8){
+          priceAlert = '모델 불신 경보';
+          priceAlertNote = `정상화 기준가 $${mres.basePrice.toFixed(2)}가 현재가의 ${baseToPriceV2.toFixed(1)}배입니다 — 사이클 중앙 마진·배수 가정 자체가 지금 사업 상황과 안 맞을 가능성이 커 경보로 전환합니다.`;
+        } else if(baseToPriceV2 < 0.55){
+          priceAlert = '모델 불신 경보';
+          priceAlertNote = `정상화 기준가 $${mres.basePrice.toFixed(2)}가 현재가의 ${(baseToPriceV2*100).toFixed(0)}%에 불과합니다 — 사이클 중앙 마진·배수 가정 자체가 지금 사업 상황과 안 맞을 가능성이 커 경보로 전환합니다.`;
+        }
       }
+    } else {
+      // WO8-B 2차 반려 수정(필수#2, 2026-10-16 사용자 지시) -- 대체 모델이 숫자 기준가를
+      // 내지 않거나(역DCF·EV매출·산출 제한·기타) 산출에 실패했으면, 옛 NTM-PER 기반
+      // bandTable을 화면에 남겨두지 않는다 -- ARM(역DCF는 기준가 없는 모델인데
+      // bandTable $477이 남아 라벨과 모순) · LITE(PEG 라벨인데 bandTable 기준가가
+      // 라벨과 모순) 실측으로 확인된 결함. 이 종목들은 애초에 usedFallbackModel(즉
+      // bandEligible 실패/왜곡/앵커 불일치)이라 옛 밴드 자체가 신뢰할 입력이 아니었음.
+      bandTable = null;
     }
   }
 

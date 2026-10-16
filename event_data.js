@@ -1,8 +1,81 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1792132371.647396,
+  "generatedAt": 1792134549.7752526,
   "events": [
+    {
+      "id": "01568793f1bb42df911f",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "실적 발표",
+      "primaryTicker": "MSFT",
+      "relatedTickers": [
+        "MSFT"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Microsoft",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "How Earnings Beat Will Impact Microsoft (MSFT) Stock",
+      "headlineKo": "",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e8e694dabb2fa9321529cc2c2df0f8de9cd2f7112911c0709419e0f9b929fe27",
+        "publishedAt": 1792124945,
+        "collectedAt": 1792134347.187431
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "How Earnings Beat Will Impact Microsoft (MSFT) Stock",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "MSFT에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "MSFT",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "매출·영업이익 성장",
+        "정상화이익과 특이항목",
+        "가이던스·OCF·FCF"
+      ]
+    },
     {
       "id": "93fe81b3c838373d8f4b",
       "schemaVersion": 1,
@@ -1953,7 +2026,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7d3a1d454782b1179f785ed9a6d7c679ccfcb279fd9b4a3d172471c131c2e3c1",
         "publishedAt": 1792085100,
-        "collectedAt": 1792111274.7158866
+        "collectedAt": 1792134347.187431
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2184,7 +2257,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cba088b7c156b5db48f1c190f3b97553ce334dbcb2fad39d4d3bb2783951e431",
         "publishedAt": 1792083095,
-        "collectedAt": 1792111274.7158866
+        "collectedAt": 1792134347.187431
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3147,7 +3220,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a76c7a7b86e1fc9f28ef86af5e68986817a272e7ba268c19e6581ac9d1e4f156",
         "publishedAt": 1792077731,
-        "collectedAt": 1792111274.7158866
+        "collectedAt": 1792134347.187431
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3300,7 +3373,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e17a563438cf7b5f0b7dcbfe4771738f303dd95b20d7ffb90a0d969c62fbb8fa",
         "publishedAt": 1792077212,
-        "collectedAt": 1792111274.7158866
+        "collectedAt": 1792134347.187431
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5652,17 +5725,17 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2c00c4b4f9ac251afe4ef2d559383d0864d7ee9cdb83abc3710cd4966952d8c0",
         "publishedAt": 1792059579,
-        "collectedAt": 1792111274.7158866
+        "collectedAt": 1792134347.187431
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "The Nikkei Crashed Nearly 5% Overnight.",
-        "Skip to content ❚❚ At close S&P 500 7,743.80 −0.06% Dow Jones 52,286.50 +0.11% Nasdaq 100 29,812.40 −0.32% Russell 2000 2,769.29 −0.02% S&P 500 7,743.80 −0.06% Dow Jones 52,286.50 +0.11% Nasdaq 100 29,812.40 −0.32% Russell 2000 2,769.29 −0.",
+        "Skip to content ❚❚ At close S&P 500 7,759.80 +0.15% Dow Jones 52,307.00 +0.14% Nasdaq 100 29,981.00 +0.25% Russell 2000 2,773.09 +0.12% S&P 500 7,759.80 +0.15% Dow Jones 52,307.00 +0.14% Nasdaq 100 29,981.00 +0.25% Russell 2000 2,773.09 +0.",
         "Japan's Nikkei just cratered nearly 5% and South Korea's KOSPI fell even harder, but US premarket futures are barely flinching."
       ],
       "marketInterpretation": [
         "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 5%, 0.06%, 0.11% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 5%, 0.15%, 0.14% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -5677,7 +5750,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 5%, 0.06%, 0.11% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 5%, 0.15%, 0.14% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -6125,7 +6198,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9245253fa9f2576955d83bdce769232bfcbfa67e27b046955d86bb06481e60dd",
         "publishedAt": 1792053302,
-        "collectedAt": 1792111274.7158866
+        "collectedAt": 1792134347.187431
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7893,7 +7966,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ffe50336a46df416810e32f49003e626d354c25f95e34a3177e6c2c9d4cb5310",
         "publishedAt": 1792021381,
-        "collectedAt": 1792111274.7158866
+        "collectedAt": 1792134347.187431
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8286,7 +8359,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3b21b8ed43d6146ab7b78d71ad16ec2e608f7d35e23693f96d04aea5cfd49889",
         "publishedAt": 1792012626,
-        "collectedAt": 1792111274.7158866
+        "collectedAt": 1792134347.187431
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8554,17 +8627,17 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=26fe8aadfb58aa42c4d07ede57a07ff252437f3591ad35c257c1a861e5303b13",
         "publishedAt": 1792006986,
-        "collectedAt": 1792111274.7158866
+        "collectedAt": 1792134347.187431
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "What Is The True Hidden Price Of KLA Stock?",
         "| Trefis What Is The True Hidden Price Of KLA Stock?",
-        "October 14th, 2026 · by Trefis Team KLAC YTD +47.7% SPY YTD +13.5% QQQ YTD +18.9% Analyze KLAC → Investors are currently paying 47.7 times trailing twelve-month earnings for shares of KLA (KLAC) ."
+        "October 14th, 2026 · by Trefis Team KLAC YTD +44.1% SPY YTD +13.8% QQQ YTD +18.8% Analyze KLAC → Investors are currently paying 47.7 times trailing twelve-month earnings for shares of KLA (KLAC) ."
       ],
       "marketInterpretation": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 47.7%, 13.5%, 18.9% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 44.1%, 13.8%, 18.8% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -8579,7 +8652,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 47.7%, 13.5%, 18.9% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 44.1%, 13.8%, 18.8% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -8992,7 +9065,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=227448a3752798293dc05cb3f6cdf9ed618f58d5c26e768bb50c9f97bcb8672e",
         "publishedAt": 1792001973,
-        "collectedAt": 1792111274.7158866
+        "collectedAt": 1792134347.187431
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11288,7 +11361,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6611a34617e832086d10b37c0c489589fce6c9e1baa6b826997a88f1a2747555",
         "publishedAt": 1791985767,
-        "collectedAt": 1792111274.7158866
+        "collectedAt": 1792134347.187431
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11666,15 +11739,15 @@ const EVENT_DATA = {
         "QQQ"
       ],
       "relatedEntities": [],
-      "importance": "high",
+      "importance": "medium",
       "sourceReliability": {
         "level": "medium",
         "score": 65,
         "kind": "reported",
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
-      "direction": "positive",
-      "expectedHorizon": "중기·장기",
+      "direction": "neutral",
+      "expectedHorizon": "다음 실적까지 확인",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Southern Glazer’s Wine & Spirits Continues Longstanding Partnership as Exclusive Provider of Wine and Spirits for Food Network New York City Wine & Food Festival presented by Invesco QQQ",
@@ -11683,34 +11756,45 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1d5d19c72774cef525e5936d38a23c3be05032af6b6b2a47a2f0c846683f1931",
         "publishedAt": 1791982800,
-        "collectedAt": 1792111274.7158866
+        "collectedAt": 1792134347.187431
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Southern Glazer의 Wine & Spirits는 Invesco QQQ가 주최하는 Food Network 뉴욕시 와인 및 음식 축제를 위한 독점 와인 및 증류주 공급업체로서 오랜 파트너십을 이어가고 있습니다"
+        "Southern Glazer’s Wine & Spirits Continues Longstanding Partnership as Exclusive Provider of Wine and Spirits for Food Network New York City Wine & Food Festival presented by Invesco QQQ",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
       ],
-      "marketInterpretation": [],
+      "marketInterpretation": [
+        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
       "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+        "QQQ에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
       ],
       "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+        "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
       ],
       "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+        "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
           "ticker": "QQQ",
-          "direction": "positive",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
         }
       ],
-      "watch": []
+      "watch": [
+        "계약 금액·기간·취소 조건",
+        "수주잔고와 매출 인식 시점",
+        "관련 사업부 매출총이익률"
+      ]
     },
     {
       "id": "be8f7f1994ce3ca9694a",
@@ -11889,7 +11973,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6378d4e4e6b0212b487b4e267ae7d8138dc7e83393e23dc0f4e17386e3d7915b",
         "publishedAt": 1791979200,
-        "collectedAt": 1792111274.7158866
+        "collectedAt": 1792134347.187431
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13639,7 +13723,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c32ec331bb98924ca74dbf7a10624a2ccef1f4344c7ace6b556ae3b536c357b7",
         "publishedAt": 1791967900,
-        "collectedAt": 1792111274.7158866
+        "collectedAt": 1792134347.187431
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13710,7 +13794,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=2d87b8b56780e9b8aafc7e183cf72afc98e884fc059881bf13cbcc52ace5ed2a",
         "publishedAt": 1791967182,
-        "collectedAt": 1792111274.7158866
+        "collectedAt": 1792134347.187431
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14051,7 +14135,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cec419f962eb402361684ccae78a2335aaf1c62b3396e0445add85b7c3673535",
         "publishedAt": 1791965280,
-        "collectedAt": 1792111274.7158866
+        "collectedAt": 1792134347.187431
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14213,7 +14297,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=43b99c970e11b854215e453fec060f474a569d91666dcc38d5dc5e1cfedc32dd",
         "publishedAt": 1791964873,
-        "collectedAt": 1792111274.7158866
+        "collectedAt": 1792134347.187431
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15327,7 +15411,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=06259daa8c151882c5e4e07bc8de9c5407fcee4a3ddae08331510c2640ac4466",
         "publishedAt": 1791934848,
-        "collectedAt": 1792111274.7158866
+        "collectedAt": 1792134347.187431
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16005,7 +16089,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5d5e9ea24379bf4bd18c73f90458e93adf7ba5f60b937dfaa4c94379a9604126",
         "publishedAt": 1791925257,
-        "collectedAt": 1792111274.7158866
+        "collectedAt": 1792134347.187431
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16322,7 +16406,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c87ce52c30d6bda4211b396d57f7d856bf3bbd4da7ea7d3ac4c7576212361517",
         "publishedAt": 1791922968,
-        "collectedAt": 1792111274.7158866
+        "collectedAt": 1792134347.187431
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17679,79 +17763,26 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
-    },
-    {
-      "id": "31f375ac200b53348d57",
-      "schemaVersion": 1,
-      "eventType": "supply_chain",
-      "eventLabel": "공급망 문제",
-      "primaryTicker": "ANET",
-      "relatedTickers": [
-        "ANET",
-        "SPY"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Arista Networks vs. International Business Machines: Which Technology Stock Is a Better Buy in 2026?",
-      "headlineKo": "Arista Networks 대 국제 비즈니스 머신: 2026년에는 어떤 기술 주식을 구매하는 것이 더 낫습니까?",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=da95330d769a20958512d5d0d3434071d289dfd7cc0f5f87bc18249397c22811",
-        "publishedAt": 1791909301,
-        "collectedAt": 1792111274.7158866
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "국제 비즈니스 기계: 2026년에는 어떤 기술 재고가 더 나은 구매입니까?",
-        "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + --- % | ▲ Stock Advisor + --- % 2026년 Arista Networks (ANET -1.90%) 와 International Business Machines (IBM +0.75%) 중 하나를 선택하려면 Motley Fool에 가입해야 합니다.",
-        "Arista Networks는 대규모 데이터 센터를 위한 고속 스위치를 전문으로 하는 반면, International Business Machines는 하이브리드 클라우드 및 AI 플랫폼에 중점을 둡니다."
-      ],
-      "marketInterpretation": [
-        "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $200.64, 1.90 %, $3.88 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "ANET의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "ANET에 대한 공급망 · 생산 차질 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "주문은 있어도 부품이나 생산 문제로 제때 팔지 못할 수 있다는 뉴스입니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $200.64, 1.90 %, $3.88 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "ANET의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "ANET",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "출하 지연 기간",
-        "재고와 리드타임",
-        "매출총이익률·대체 공급처"
-      ]
     }
   ],
   "byTicker": {
+    "MSFT": [
+      "01568793f1bb42df911f",
+      "2a32384d075b71d7f096",
+      "b85b0647a6e056d69084",
+      "10761c33d252e8be5eca",
+      "02f07adcf43d9c9c0ea9",
+      "6f6435aafcb9c207f926",
+      "b714a0515281a06ec793",
+      "d8d54e4e0fb2ff214a17",
+      "1077b194387650fbabaf",
+      "202cd22b8b0d08db8bd8",
+      "771bb5c3a5bdac770383",
+      "286687d9921d0126f014",
+      "e6daa50011c303030acb",
+      "18ecd1a266ab79be0d7e",
+      "2aea580d56ef499dd92e"
+    ],
     "QQQ": [
       "93fe81b3c838373d8f4b",
       "70c9f5f249d0c81c08f5",
@@ -17927,8 +17958,7 @@ const EVENT_DATA = {
       "6330851529724d3af396",
       "00dfe484aa9c874a4e39",
       "e793699596df9eb06c9f",
-      "d8d713d4eedd78bfdfe3",
-      "31f375ac200b53348d57"
+      "d8d713d4eedd78bfdfe3"
     ],
     "TSLA": [
       "93fe81b3c838373d8f4b",
@@ -18307,22 +18337,6 @@ const EVENT_DATA = {
       "229ade461976ca0c85ae",
       "3754cacb2bc92e6dd969"
     ],
-    "MSFT": [
-      "2a32384d075b71d7f096",
-      "b85b0647a6e056d69084",
-      "10761c33d252e8be5eca",
-      "02f07adcf43d9c9c0ea9",
-      "6f6435aafcb9c207f926",
-      "b714a0515281a06ec793",
-      "d8d54e4e0fb2ff214a17",
-      "1077b194387650fbabaf",
-      "202cd22b8b0d08db8bd8",
-      "771bb5c3a5bdac770383",
-      "286687d9921d0126f014",
-      "e6daa50011c303030acb",
-      "18ecd1a266ab79be0d7e",
-      "2aea580d56ef499dd92e"
-    ],
     "PLTR": [
       "1f28ea8618a93b158b33",
       "cb38ef912c5f38981538",
@@ -18432,9 +18446,6 @@ const EVENT_DATA = {
     ],
     "LRCX": [
       "d8d713d4eedd78bfdfe3"
-    ],
-    "ANET": [
-      "31f375ac200b53348d57"
     ]
   }
 };
