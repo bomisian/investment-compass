@@ -237,6 +237,24 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Israeli settlers attack Palestinians during West Bank olive harvest - Reuters",
+      "summary": "Israeli settlers attack Palestinians during West Bank olive harvest Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPczd6aXNWNkdjZTNxV0V1MXhjQm5YTUtZT2JEUXY4dm81UFNlMVprd01ZdDI0VDI2ZEducHJha09yTkRIaWZMLVpmanQ0dVRBWm56cVBxLWFCOEZkekdCU0ZISkhWeEFxTWRDaGtmR3NPRjc1MVkyQnVhdjZRSzZxWm9OODE2RmxSY19CclZ1WThuWTZrOG15SUtmSlZJd0tfZkwtcmVsQlltc0VNZnMtMWdB?oc=5",
+      "datetime": 1792186875,
+      "headlineKo": "이스라엘 정착민, 서안지구 올리브 수확 중 팔레스타인 공격 - 로이터",
+      "summaryKo": "이스라엘 정착민, 서안지구 올리브 수확 중 팔레스타인 공격 - 최신"
+    },
+    {
+      "headline": "US solicits exchange of up to 17 million barrels of oil from strategic reserve - Reuters",
+      "summary": "US solicits exchange of up to 17 million barrels of oil from strategic reserve Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeFNXdnRkamV3Q2plZzU5UHl3LUlPa2hxTVY1VTA5dXU2UXUxWG5DekxOY0ZrWlNobFBDNTRQR2xrTHRZbEJMZUd1dzRQSUd0ZmQ1TDRtTE9YcmRoRVEzUkhrQjhUX01DVk8zdU5saFJEc1NDUWFXcFhsbmFZRlQ0b1FGdm9nTnFGSDAwWUxVMDVJeHZXalROYmNNdlVJLWxxaEloOWtLWUsxOWlzbTFmSWhHMHVaRGM?oc=5",
+      "datetime": 1792186581,
+      "headlineKo": "미국, 전략적 비축유로부터 최대 1700만 배럴의 석유 교환 요청 - 로이터",
+      "summaryKo": "미국, 전략적 비축유로부터 최대 1700만 배럴의 석유 교환 요청 - 최신"
+    },
+    {
       "headline": "Why did CoreWeave stock get crushed this week? Look to this corner of the debt market for clues",
       "summary": "CoreWeave’s bond yields and credit default swaps have surged as its stock sells off. Here’s what those credit signals mean for stock investors.",
       "source": "CNBC",
@@ -244,24 +262,6 @@ const MARKET_DATA = {
       "datetime": 1792182835,
       "headlineKo": "이번 주에 CoreWeave 주식이 폭락한 이유는 무엇입니까? 단서를 찾으려면 부채 시장의 이 구석을 살펴보세요.",
       "summaryKo": "CoreWeave의 채권 수익률과 신용디폴트스왑은 주식이 매도되면서 급등했습니다. 이러한 신용 신호가 주식 투자자에게 의미하는 바는 다음과 같습니다."
-    },
-    {
-      "headline": "US solicits exchange of up to 17 million barrels of oil from strategic reserve - Reuters",
-      "summary": "US solicits exchange of up to 17 million barrels of oil from strategic reserve Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeFNXdnRkamV3Q2plZzU5UHl3LUlPa2hxTVY1VTA5dXU2UXUxWG5DekxOY0ZrWlNobFBDNTRQR2xrTHRZbEJMZUd1dzRQSUd0ZmQ1TDRtTE9YcmRoRVEzUkhrQjhUX01DVk8zdU5saFJEc1NDUWFXcFhsbmFZRlQ0b1FGdm9nTnFGSDAwWUxVMDVJeHZXalROYmNNdlVJLWxxaEloOWtLWUsxOWlzbTFmSWhHMHVaRGM?oc=5",
-      "datetime": 1792182325,
-      "headlineKo": "미국, 전략적 비축유로부터 최대 1700만 배럴의 석유 교환 요청 - 로이터",
-      "summaryKo": "미국, 전략적 비축유로부터 최대 1700만 배럴의 석유 교환 요청 - 최신"
-    },
-    {
-      "headline": "Israeli settlers attack Palestinians during West Bank olive harvest - Reuters",
-      "summary": "Israeli settlers attack Palestinians during West Bank olive harvest Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPczd6aXNWNkdjZTNxV0V1MXhjQm5YTUtZT2JEUXY4dm81UFNlMVprd01ZdDI0VDI2ZEducHJha09yTkRIaWZMLVpmanQ0dVRBWm56cVBxLWFCOEZkekdCU0ZISkhWeEFxTWRDaGtmR3NPRjc1MVkyQnVhdjZRSzZxWm9OODE2RmxSY19CclZ1WThuWTZrOG15SUtmSlZJd0tfZkwtcmVsQlltc0VNZnMtMWdB?oc=5",
-      "datetime": 1792181612,
-      "headlineKo": "이스라엘 정착민, 서안지구 올리브 수확 중 팔레스타인 공격 - 로이터",
-      "summaryKo": "이스라엘 정착민, 서안지구 올리브 수확 중 팔레스타인 공격 - 최신"
     },
     {
       "headline": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock - Reuters",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792188013.7258887,
+  "_news_last_success_at": 1792191613.0139306,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792188005.1726937,
-  "_updated_label": "2026-10-17 07:00",
-  "_last_attempt_at": 1792188005.1726937,
-  "_last_success_at": 1792188005.1726937,
+  "_fetched_at": 1792191605.251895,
+  "_updated_label": "2026-10-17 08:00",
+  "_last_attempt_at": 1792191605.251895,
+  "_last_success_at": 1792191605.251895,
   "_collection_status": "ok",
   "_collection_errors": []
 };

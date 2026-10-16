@@ -1,12 +1,12 @@
 // ops_status_report.py가 자동 생성합니다. 직접 수정하지 마세요.
 const OPS_STATUS_DATA = {
-  "generatedAt": "2026-10-17T02:09:28+09:00",
+  "generatedAt": "2026-10-17T07:35:42+09:00",
   "items": [
     {
       "key": "last_success",
       "status": "green",
       "label": "마지막 정상 완료",
-      "detail": "2026-10-17 01:42"
+      "detail": "2026-10-17 07:10"
     },
     {
       "key": "public_verify",
@@ -18,13 +18,13 @@ const OPS_STATUS_DATA = {
       "key": "loop_progress",
       "status": "green",
       "label": "루프 진행",
-      "detail": "대기 중(다음 주기, 27분 전부터)"
+      "detail": "대기 중(다음 주기, 25분 전부터)"
     },
     {
       "key": "loop_count",
-      "status": "unknown",
+      "status": "red",
       "label": "루프 개수",
-      "detail": "확인불가(잠금 상태 조회 실패)"
+      "detail": "꺼져 있음 - watchdog 루프가 돌고 있지 않음"
     },
     {
       "key": "scheduler",
@@ -36,7 +36,7 @@ const OPS_STATUS_DATA = {
       "key": "compass_asof",
       "status": "green",
       "label": "나침반 피드 기준일",
-      "detail": "2026-10-15"
+      "detail": "2026-10-16"
     },
     {
       "key": "market_expectation_asof",
