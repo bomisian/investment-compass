@@ -608,6 +608,7 @@
 <script src="downturn_cause_cards_v31_data.js" onerror="void 0"></script>
 <script src="market_position_card_data.js" onerror="void 0"></script>
 <script src="verdict_scorecard_data.js" onerror="void 0"></script>  <!-- 2026-10-16 WO8-A: 없어도 조용히 건너뜀 -->
+<script src="ev_sales_history_data.js" onerror="void 0"></script>  <!-- WO10-3: EV/Sales 5년 이력(이익훼손형 모델 입력). 없어도 조용히 건너뜀 -->
 <script>
 // ============ 워치리스트 (지수ETF 제외 - 개별 종목 판단용) ============
 const ETF_THEME = "지수ETF";
@@ -6061,15 +6062,64 @@ function pvReverseDcfModelB(t, r, fin, fund, est){
   };
 }
 
-// WO8-B 2-C) 이익훼손형 -- EV/매출 밴드. 지시서는 "최근 5년 EV/Sales 20/50/80백분위"를
-// 요구하지만, 이 파이프라인이 보유한 가격 이력은 prices_data.js(로컬 2년 캐시) +
-// fundamentals_history_data.js(2026-09-02부터 하루 1건 누적, 현재 약 6주치)뿐이라 5년치
-// 과거 EV/Sales 분포를 낼 데이터가 실제로 없다. 데이터가 모자라 계산할 수 없으면
-// "산출 제한"으로 두고(지시서 명시) PEG로 몰래 넘어가지 않는다 - 그 사실과 사유를 그대로 보여준다.
+// WO8-B 2-C / WO10-3 구현 -- 이익훼손형: EV/매출 밴드. 지시서가 요구하는 "최근 5년
+// EV/Sales 20/50/80백분위"를 WO10-3(ev_sales_history_collector.py, SEC companyfacts
+// + Yahoo Finance 분기말 종가로 산출, 보간 없이 빠진 분기는 비움)로 신규 수집한
+// ev_sales_history_data.js(EV_SALES_HISTORY)로 계산한다. 빠진 분기가 있는 종목도 있지만
+// (예: LITE 20개 중 16개만 ev_sales 있음) 보간하지 않고 있는 값만으로 백분위를 낸다.
+// "현재" 기준값(TTM매출·순부채·발행주식수)은 같은 시계열의 가장 최근 유효 분기 값을
+// 그대로 쓴다 - 이 파이프라인에 순부채·과거 EV를 낼 다른 소스가 없어서(pvReverseDcfModelB
+// 주석 참고) 새 데이터를 지어내지 않고 WO10-3이 이미 계산해 둔 값을 재사용하는 것.
 function pvEvSalesModelC(t, r, fin, fund){
+  const hist = (typeof EV_SALES_HISTORY !== 'undefined') ? EV_SALES_HISTORY[t] : null;
+  if(!Array.isArray(hist) || !hist.length){
+    return {ok: false, blockReason: 'EV/매출 과거 이력(ev_sales_history_data.js) 미확보 - 산출 제한',
+      currentPsTTM: (fund && typeof fund.psTTM === 'number') ? fund.psTTM : null};
+  }
+  const valid = hist.filter(row => row && typeof row.ev_sales === 'number' && row.ev_sales > 0);
+  const MIN_QUARTERS = 12; // 최소 3년치(5년 목표, 종목별 상장·공시 이력에 따라 못 미치면 산출 제한)
+  if(valid.length < MIN_QUARTERS){
+    return {ok: false,
+      blockReason: `EV/매출 분기 관측치 ${valid.length}개(${MIN_QUARTERS}개 미만, 5년 목표) - 백분위 밴드 신뢰 불가로 산출 제한`,
+      currentPsTTM: (fund && typeof fund.psTTM === 'number') ? fund.psTTM : null};
+  }
+  const latest = valid[valid.length - 1];
+  const ttmRevenue = latest.ttm_revenue, netDebt = latest.net_debt, shares = latest.shares_outstanding;
+  if(!(typeof ttmRevenue === 'number' && ttmRevenue > 0 && typeof shares === 'number' && shares > 0 && typeof netDebt === 'number')){
+    return {ok: false, blockReason: '최근 분기 TTM매출/순부채/발행주식수 중 일부 미확보 - 산출 제한',
+      currentPsTTM: (fund && typeof fund.psTTM === 'number') ? fund.psTTM : null};
+  }
+  const vals = valid.map(row => row.ev_sales).slice().sort((a,b) => a-b);
+  const pct = p => {
+    const idx = p * (vals.length - 1);
+    const lo = Math.floor(idx), hi = Math.min(lo + 1, vals.length - 1);
+    return vals[lo] + (vals[hi] - vals[lo]) * (idx - lo);
+  };
+  const p20 = pct(0.20), p50 = pct(0.50), p80 = pct(0.80);
+  const priceFromEvSales = evSales => ((evSales * ttmRevenue) - netDebt) / shares;
+  const lowPriceRaw = priceFromEvSales(p20);
+  const highPriceRaw = priceFromEvSales(p80);
+  const basePrice = priceFromEvSales(p50);
+  const lowPrice = Math.min(lowPriceRaw, highPriceRaw);
+  const highPrice = Math.max(lowPriceRaw, highPriceRaw);
+  if(!(basePrice > 0)){
+    return {ok: false, blockReason: `EV/매출 중앙값 밴드 기준가가 0 이하(순부채가 매출 대비 과도) - 산출 제한`,
+      currentPsTTM: (fund && typeof fund.psTTM === 'number') ? fund.psTTM : null};
+  }
+  const negativeLowFloor = lowPrice < 0;
+  const lowPriceDisplay = negativeLowFloor ? 0 : lowPrice;
   return {
-    ok: false,
-    blockReason: '5년치 과거 EV/Sales 분포를 낼 가격 이력 없음(로컬 가격 캐시 2년 + 펀더멘털 일별 누적 약 6주뿐) - 산출 제한',
+    ok: true,
+    basisQuarters: valid.length,
+    basisPeriodStart: valid[0].end, basisPeriodEnd: latest.end,
+    evSalesP20: Number(p20.toFixed(2)), evSalesP50: Number(p50.toFixed(2)), evSalesP80: Number(p80.toFixed(2)),
+    anchorTtmRevenue: ttmRevenue, anchorNetDebt: netDebt, anchorShares: Number(shares.toFixed(0)),
+    anchorDate: latest.end,
+    lowPrice: Number(lowPriceDisplay.toFixed(2)),
+    basePrice: Number(basePrice.toFixed(2)),
+    highPrice: Number(highPrice.toFixed(2)),
+    negativeLowFloor,
+    widthPct: basePrice > 0 ? Number(((highPrice - lowPriceDisplay) / basePrice * 100).toFixed(1)) : null,
     currentPsTTM: (fund && typeof fund.psTTM === 'number') ? fund.psTTM : null,
   };
 }
@@ -6116,7 +6166,26 @@ function pvFallbackModelV2(t, r, fin, fund, est, baseAnchorPeVal, perBandLowVal,
   } else if(stockType.type === '이익훼손형'){
     model = 'ev_sales';
     result = pvEvSalesModelC(t, r, fin, fund);
-    if(!result.ok) model = 'fallback_peg';
+    if(!result.ok){
+      model = 'ev_sales_blocked';
+      priceOverride = '판단 유보(모델 검증 중)';
+    } else {
+      // 경기순환형(정상화 모델 A)과 동일한 게이트(지시서 공통 규칙: 밴드 폭 <= 60%,
+      // 기준가/현재가 0.55~1.8배) + 3단 판정 로직을 그대로 재사용 - 새 판정 로직을
+      // 만들지 않고 기존 걸 그대로 적용한다(일관성, 회귀 위험 최소화).
+      const priceRatio = (typeof r.price === 'number' && r.price > 0 && result.basePrice > 0) ? result.basePrice / r.price : null;
+      if(!(typeof result.widthPct === 'number' && result.widthPct <= 60)){
+        priceOverride = '판단 유보(밴드 넓음)';
+      } else if(priceRatio == null || priceRatio > 1.8 || priceRatio < 0.55){
+        priceOverride = '판단 유보(모델 불신)';
+      } else if(r.price > result.highPrice){
+        priceOverride = hasAnyNegative ? '고평가' : '적정';
+      } else if(r.price < result.lowPrice){
+        priceOverride = (epsNegative || cfVeto) ? '적정' : (allPositive ? '저평가' : '적정');
+      } else {
+        priceOverride = '적정';
+      }
+    }
   } else if(stockType.type === '고성장형'){
     model = 'reverse_dcf';
     result = pvReverseDcfModelB(t, r, fin, fund, est);
@@ -7766,8 +7835,13 @@ function renderPriceValidityCard(r){
         (원래 1~2년차 평균 컨센서스는 연 ${rr.consensusGrowthPct!=null?rr.consensusGrowthPct.toFixed(1):'—'}% — 1~2년차는 그대로 쓰고 3~10년차는 2년차→영구성장률(3%)까지 선형 감소시켜 10년 CAGR로 환산한 값과 비교합니다)
         (기준 현금흐름: $${(rr.fcfBasis/1e9).toFixed(2)}B, ${esc(rr.fcfSource)}${rr.fcfIsEpsProxy?' · FCF 대체값':''}${rr.boundHit?' · 탐색 범위(-30%~60%) 경계에 닿음 - 추정 신뢰도 낮음':''})
         이 모델은 기준가를 내지 않습니다(지시서 명시) — 매수 구간은 나침반 구간·옵션 구간을 그대로 씁니다.`;
+    } else if(fv.model === 'ev_sales' && fv.result.ok){
+      const rr = fv.result;
+      modelBody = `EV/매출 과거 ${rr.basisQuarters}개 분기(${esc(rr.basisPeriodStart)} ~ ${esc(rr.basisPeriodEnd)}) 백분위: 20%=${rr.evSalesP20.toFixed(2)}배 · 50%=${rr.evSalesP50.toFixed(2)}배 · 80%=${rr.evSalesP80.toFixed(2)}배
+        × 최근 분기(${esc(rr.anchorDate)}) TTM매출 $${(rr.anchorTtmRevenue/1e9).toFixed(2)}B, 순부채 $${(rr.anchorNetDebt/1e9).toFixed(2)}B, 발행주식수 ${(rr.anchorShares/1e6).toFixed(1)}M주 = 기준가 $${rr.basePrice.toFixed(2)}
+        (밴드 $${rr.lowPrice.toFixed(2)} ~ $${rr.highPrice.toFixed(2)}, 폭 ${rr.widthPct!=null?rr.widthPct.toFixed(0):'—'}%${rr.negativeLowFloor?' · 20%분위 밴드 하단이 순부채 부담으로 음수라 0으로 표시':''})`;
     } else {
-      modelBody = `산출 제한 — ${esc(fv.result.blockReason||'데이터 부족')}.${st.type==='경기순환형' ? ' 숫자 기준가 없이 판단 유보로 표시합니다.' : ' 다른 모델로 넘어가지 않고 아래 PEG(보조 확인)를 참고하세요.'}`;
+      modelBody = `산출 제한 — ${esc(fv.result.blockReason||'데이터 부족')}.${(st.type==='경기순환형'||st.type==='이익훼손형') ? ' 숫자 기준가 없이 판단 유보로 표시합니다.' : ' 다른 모델로 넘어가지 않고 아래 PEG(보조 확인)를 참고하세요.'}`;
     }
     const refBody = `
       <div style="font-size:12.5px;font-weight:800;color:${typeColor};">${esc(st.type)}</div>
@@ -7778,12 +7852,13 @@ function renderPriceValidityCard(r){
     // 적정/고평가)이 나온 경우엔(d.price가 "판단 유보"로 시작하지 않음) 다른 유형과
     // 똑같이 라벨을 그대로 노출한다. 게이트를 통과하지 못해 "판단 유보"가 붙은 경우에만
     // 분류·모델 숫자를 접힌 참고 섹션으로 숨긴다(기존 동작 유지).
-    const cyclicalHeldBack = (st.type === '경기순환형') && (typeof d.price === 'string') && (d.price.indexOf('판단 유보') === 0);
+    const cyclicalHeldBack = (st.type === '경기순환형' || st.type === '이익훼손형') && (typeof d.price === 'string') && (d.price.indexOf('판단 유보') === 0);
     if(cyclicalHeldBack){
+      const heldBackDesc = st.type === '이익훼손형' ? 'EV/매출형으로 분류됐지만 밴드 폭·기준가 대비 신뢰 조건을 벗어나 가격 라벨을 확정하지 않습니다. 분류·모델 산출 결과는 검증 중인 참고 수치입니다.' : '경기순환형으로 분류됐지만 밴드 폭·기준가 대비 신뢰 조건을 벗어나 가격 라벨을 확정하지 않습니다. 분류·모델 산출 결과는 검증 중인 참고 수치입니다.';
       return `
       <div style="margin-top:8px;padding:11px 13px;border-radius:10px;border:1px solid #d8c178;background:#fdf8e8;">
         <div style="font-size:11px;color:#8a6d1f;font-weight:700;">${esc(d.price)} — WO8-B 재검증</div>
-        <div style="margin-top:3px;font-size:11.5px;color:${NEU_TEXT};line-height:1.5;">경기순환형으로 분류됐지만 밴드 폭·기준가 대비 신뢰 조건을 벗어나 가격 라벨을 확정하지 않습니다. 분류·모델 산출 결과는 검증 중인 참고 수치입니다.</div>
+        <div style="margin-top:3px;font-size:11.5px;color:${NEU_TEXT};line-height:1.5;">${esc(heldBackDesc)}</div>
         <details style="margin-top:7px;">
           <summary style="font-size:11px;color:${NEU_DIM};cursor:pointer;">참고(검증 중) — 분류·모델 숫자 보기</summary>
           <div style="margin-top:6px;">${refBody}</div>
