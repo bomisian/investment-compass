@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1792149134.3101032,
+  "generatedAt": 1792151070.8704634,
   "events": [
     {
       "id": "ea968a061b60d2540741",
@@ -7518,6 +7518,10 @@ const EVENT_DATA = {
       "eventLabel": "AI·데이터센터 투자 변화",
       "primaryTicker": "WDC",
       "relatedTickers": [
+        "AMD",
+        "MU",
+        "NVDA",
+        "ORCL",
         "WDC"
       ],
       "relatedEntities": [],
@@ -7528,8 +7532,8 @@ const EVENT_DATA = {
         "kind": "reported",
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
-      "direction": "mixed",
-      "expectedHorizon": "중기·장기",
+      "direction": "positive",
+      "expectedHorizon": "중기 투자 사이클",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Western Digital: The AI Winner Investors Refuse To Pay Up For",
@@ -7542,30 +7546,63 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Western Digital: AI 승자 투자자들이 지불을 거부하는 이유"
+        "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+        "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+        "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
       ],
-      "marketInterpretation": [],
+      "marketInterpretation": [
+        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+      ],
       "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+        "이 기사는 WDC의 사업과 관련된 'Western Digital: AI 승자 투자자들이 지불을 거부하는 이유' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
       ],
       "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+        "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+        "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+        "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
       ],
       "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
       ],
       "impacts": [
         {
-          "ticker": "WDC",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
+          "ticker": "NVDA",
+          "direction": "긍정",
+          "reason": "AI 컴퓨팅 수요 확대 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "AMD",
+          "direction": "긍정",
+          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "MU",
+          "direction": "긍정",
+          "reason": "AI 서버 메모리 수요와 가격 강세",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "ORCL",
+          "direction": "혼합",
+          "reason": "클라우드 수요와 자본 부담 동시 확대",
+          "basis": "analysis"
         }
       ],
-      "watch": []
+      "watch": [
+        "실제 수주·가동 데이터센터",
+        "관련 기업 매출·수주잔고",
+        "CAPEX 대비 영업현금흐름",
+        "금리와 프로젝트 부채 비용"
+      ]
     },
     {
       "id": "cadd8f8f9a3587aa4a6e",
@@ -17771,6 +17808,7 @@ const EVENT_DATA = {
       "4c48a98cec1c623f8385",
       "bbb89edcbbc298cdb382",
       "df66a9397d1c241007fe",
+      "6e236056e0e53a8e7f6a",
       "0aea3bf485b29ff8b304",
       "0bc0c1caeab5d6f1265a",
       "fd642581870f0cb06f33",
@@ -17814,6 +17852,7 @@ const EVENT_DATA = {
       "86b74288505a1a92f9f2",
       "ca80eff8e3bb3e563258",
       "22596a1d135a8e27e537",
+      "6e236056e0e53a8e7f6a",
       "0aea3bf485b29ff8b304",
       "fd642581870f0cb06f33",
       "b75e8f8fd02f19173921",
@@ -17851,6 +17890,7 @@ const EVENT_DATA = {
       "552f9ee5297ba1e4313d",
       "3202c0207a9514dd22d3",
       "8d58cb88fa1a03361a5c",
+      "6e236056e0e53a8e7f6a",
       "0aea3bf485b29ff8b304",
       "fd642581870f0cb06f33",
       "aeebb7a38b55e040cc13",
@@ -17890,6 +17930,7 @@ const EVENT_DATA = {
       "bbb89edcbbc298cdb382",
       "df66a9397d1c241007fe",
       "ccd98385875cba2067fc",
+      "6e236056e0e53a8e7f6a",
       "0aea3bf485b29ff8b304",
       "fd642581870f0cb06f33",
       "6c95b925094c51a1de8a",

@@ -6389,7 +6389,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 124,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "SPY": {
@@ -14256,7 +14256,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 160,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "MSFT": {
@@ -22204,7 +22204,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "GOOGL": {
@@ -30285,7 +30285,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "AMZN": {
@@ -38465,7 +38465,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "META": {
@@ -46518,7 +46518,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "AAPL": {
@@ -54394,7 +54394,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "TSLA": {
@@ -54541,7 +54541,47 @@ const NEWS_DATA = {
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Warsh는 요금 안내를 피합니다. Tesla의 로드스터가 공중에서 회전합니다. 시장을 움직이는 요인"
+        "headlineKo": "Warsh는 요금 안내를 피합니다. Tesla의 로드스터가 공중에서 회전합니다. 시장을 움직이는 요인",
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Warsh는 요금 안내를 피합니다. Tesla의 로드스터가 공중에서 회전합니다. 시장을 움직이는 요인",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "TSLA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Warsh는 요금 안내를 피합니다. Tesla의 로드스터가 공중에서 회전합니다. 시장을 움직이는 요인' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "TSLA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792151065.330558
+        }
       },
       {
         "headline": "Tesla’s $250,000 Roadster Deposit: Is It a Rounding Error at 186x Earnings?",
@@ -54882,7 +54922,47 @@ const NEWS_DATA = {
         "datetime": 1792139308,
         "headlineKo": "Warsh는 요금 안내를 피합니다. Tesla의 로드스터가 공중에서 회전합니다. 시장을 움직이는 요인",
         "relevance": 0.4,
-        "keywordFlag": false
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Warsh는 요금 안내를 피합니다. Tesla의 로드스터가 공중에서 회전합니다. 시장을 움직이는 요인",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "TSLA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Warsh는 요금 안내를 피합니다. Tesla의 로드스터가 공중에서 회전합니다. 시장을 움직이는 요인' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "TSLA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792151065.330558
+        }
       },
       {
         "headline": "Tesla’s $250,000 Roadster Deposit: Is It a Rounding Error at 186x Earnings?",
@@ -62446,9 +62526,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 189,
-      "removed": 1,
-      "updated": "2026-10-16 20:11"
+      "checked": 188,
+      "removed": 0,
+      "updated": "2026-10-16 20:44"
     }
   },
   "ORCL": {
@@ -71061,7 +71141,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "CRM": {
@@ -79079,7 +79159,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 175,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "PLTR": {
@@ -88172,7 +88252,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "NVDA": {
@@ -95913,7 +95993,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "AMD": {
@@ -104001,7 +104081,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "AVGO": {
@@ -112831,7 +112911,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "QCOM": {
@@ -121407,7 +121487,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 184,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "ARM": {
@@ -127436,7 +127516,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "MRVL": {
@@ -136213,7 +136293,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "INTC": {
@@ -145037,7 +145117,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "TSM": {
@@ -153463,7 +153543,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "ASML": {
@@ -159884,7 +159964,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 137,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "AMAT": {
@@ -165934,7 +166014,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 125,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "LRCX": {
@@ -168970,7 +169050,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "KLAC": {
@@ -172208,7 +172288,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "MU": {
@@ -180223,7 +180303,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "SNDK": {
@@ -189080,7 +189160,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "WDC": {
@@ -189201,7 +189281,65 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Western Digital: AI 승자 투자자들이 지불을 거부하는 이유"
+        "headlineKo": "Western Digital: AI 승자 투자자들이 지불을 거부하는 이유",
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 WDC의 사업과 관련된 'Western Digital: AI 승자 투자자들이 지불을 거부하는 이유' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: WDC에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.67,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792151066.2500641
+        }
       },
       {
         "headline": "Seagate Is the Better Trade, Analyst Says — but What's Holding Western Digital Back?",
@@ -189377,7 +189515,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792128212.169759
+          "analysisUpdatedAt": 1792151066.2500641
         }
       },
       {
@@ -194521,9 +194659,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 115,
-      "removed": 1,
-      "updated": "2026-10-16 20:11"
+      "checked": 114,
+      "removed": 0,
+      "updated": "2026-10-16 20:44"
     }
   },
   "ANET": {
@@ -198741,7 +198879,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "COHR": {
@@ -202783,7 +202921,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "LITE": {
@@ -207564,7 +207702,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "GEV": {
@@ -213425,7 +213563,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "CEG": {
@@ -218695,7 +218833,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "VST": {
@@ -222605,7 +222743,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "ETN": {
@@ -226180,7 +226318,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "PWR": {
@@ -229446,7 +229584,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "HUBB": {
@@ -230406,7 +230544,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "VRT": {
@@ -234912,7 +235050,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "MOD": {
@@ -236387,7 +236525,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "STX": {
@@ -241227,7 +241365,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "EME": {
@@ -243279,7 +243417,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "FIX": {
@@ -245065,7 +245203,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   },
   "BE": {
@@ -247881,7 +248019,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-16 20:11"
+      "updated": "2026-10-16 20:44"
     }
   }
 };
