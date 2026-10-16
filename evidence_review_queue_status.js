@@ -6,5 +6,12 @@ const EVIDENCE_REVIEW_QUEUE_STATUS = {
     "filingDate": "2026-10-09",
     "level": "danger",
     "confidenceLevel": "confirmed"
+  },
+  "TSM": {
+    "pendingDays": 1,
+    "form": "6-K",
+    "filingDate": "2026-10-15",
+    "level": "uncertain",
+    "confidenceLevel": "uncertain"
   }
 };

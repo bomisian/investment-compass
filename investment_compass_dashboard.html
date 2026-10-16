@@ -7769,15 +7769,28 @@ function renderPriceValidityCard(r){
     const BURDEN_COLOR = {'싸다':'#2f5b3c','보통':'#5b6472','비싸다':'#7a3b2e','확인 불가':'#8a6d1f'};
     const WARN_COLOR = {'양호':'#2f5b3c','경고':'#7a3b2e'};
     const row = (name, label, detail, colorMap) => `<div style="display:flex;justify-content:space-between;align-items:baseline;padding:4px 0;border-bottom:1px solid #e3e6ea;font-size:11.5px;gap:10px;"><span style="color:${NEU_DIM};white-space:nowrap;">${esc(name)}</span><span style="text-align:right;"><b style="color:${colorMap[label]||NEU_TEXT};">${esc(label)}</b><br><span style="font-size:10.3px;color:${NEU_DIM};">${esc(detail)}</span></span></div>`;
+    // WO9-4(2026-10-16, 봄이 지시) -- 경기순환형(stock_type)은 실제 라벨 결정에 PEG를
+    // 전혀 쓰지 않는다(pvFallbackModelV2 경기순환형 분기는 정상화 밴드 위치 + hasAnyNegative/
+    // allPositive만으로 라벨을 정함, 이 코드는 이전부터 그랬음 - 바뀐 게 없음). 다만 이
+    // 보조 카드가 PEG 숫자를 "가격 부담"이라는 이름으로 계속 보여주고 있어, MU처럼 PEG가
+    // 낮게(싸다) 나온 경기순환형 종목에서 "PEG가 낮아서 적정이 됐다"로 오해할 수 있었다.
+    // 새 판정 로직을 추가하지 않고, 경기순환형일 때만 이 카드의 문구를 "참고용(미사용)"으로
+    // 명확히 표시한다 - 숫자 자체(PEG 값)는 지우지 않음(지어내기 금지와 동일한 이유로
+    // 숫자를 숨기지도 않음).
+    const isCyclicalBandDecided = !!(d.fallbackModelV2 && d.fallbackModelV2.stockType && d.fallbackModelV2.stockType.type === '경기순환형');
+    const burdenRowName = isCyclicalBandDecided ? '가격 부담(PEG 기준, 참고용 — 판정에 미사용)' : '가격 부담(PEG 기준)';
+    const footerNote = isCyclicalBandDecided
+      ? '경기순환형은 이 PEG 수치를 가격 판정에 쓰지 않습니다. 실제 라벨은 정상화 기준가 밴드 위치만으로 결정됩니다(밴드 상단 초과 → 음(-) 신호 있으면 고평가·없으면 적정 / 밴드 하단 미달 → 양(+) 신호만 있으면 저평가·없으면 적정 / 밴드 내 → 적정). 위 PEG·사업 경고 숫자는 참고 정보일 뿐 이번 판정의 근거가 아닙니다.'
+      : '사업 경고(현금흐름 거부권·활성 하락 원인 진단·EPS 하향 전환) 중 하나라도 있으면 가격 부담과 무관하게 고평가입니다. 경고가 없으면 가격 부담이 \'싸다\'일 때만 저평가, 그 외는 적정입니다.';
     return `
     <details style="margin-top:8px;">
       <summary style="font-size:11px;color:${NEU_DIM};cursor:pointer;">보조 확인(기존 PEG 교차검증 — WO8-B 이전 방식, 숫자는 그대로 둠)</summary>
       <div style="margin-top:6px;padding:11px 13px;border-radius:10px;border:1px solid ${NEU_LINE};background:#fff;">
         <div style="font-size:11px;color:${NEU_DIM};font-weight:700;margin-bottom:4px;">대체 모델 판단 근거(과거 PER 비교 불가 — 가격 부담 + 사업 경고 2신호만 교차)</div>
-        ${row('가격 부담(PEG 기준)', d.fallbackAxes.priceBurden.label, d.fallbackAxes.priceBurden.detail, BURDEN_COLOR)}
+        ${row(burdenRowName, d.fallbackAxes.priceBurden.label, d.fallbackAxes.priceBurden.detail, BURDEN_COLOR)}
         ${row('사업 경고(현금흐름·하락원인진단·EPS 하향)', d.fallbackAxes.bizWarning.label, d.fallbackAxes.bizWarning.detail, WARN_COLOR)}
         <div style="margin-top:7px;font-size:11px;color:${NEU_TEXT};line-height:1.5;"><b style="color:${NEU_DIM};">결정적 이유</b> — ${esc(d.fallbackDecisiveReason||'—')}</div>
-        <div style="margin-top:4px;font-size:10px;color:${NEU_DIM};font-style:italic;">사업 경고(현금흐름 거부권·활성 하락 원인 진단·EPS 하향 전환) 중 하나라도 있으면 가격 부담과 무관하게 고평가입니다. 경고가 없으면 가격 부담이 '싸다'일 때만 저평가, 그 외는 적정입니다.</div>
+        <div style="margin-top:4px;font-size:10px;color:${NEU_DIM};font-style:italic;">${footerNote}</div>
       </div>
     </details>`;
   })() : '';
