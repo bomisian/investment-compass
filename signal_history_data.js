@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1792238404.4577093,
+  "generatedAt": 1792240332.7062783,
   "records": {
     "MSFT": [
       {
@@ -8739,6 +8739,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "TSLA": [
       {
+        "changedAt": 1792240332.7062783,
+        "dataAsOf": 1792219800,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -2.45,
+            "after": -2.8
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -4.72,
+            "after": -5
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "BYD 또는 테슬라: 더 나은 주식은 무엇입니까?",
+        "newsUrl": "https://finnhub.io/api/news?id=4fdcce53d89becebe52da3110c8c28dfd30b00b2eea26405468404de767167d1",
+        "eventId": "83e96f47ef7dbf8e46aa",
+        "fingerprint": "{\"changes\": [{\"after\": -2.8, \"before\": -2.45, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -5, \"before\": -4.72, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"83e96f47ef7dbf8e46aa\"}"
+      },
+      {
         "changedAt": 1792217400.9797807,
         "dataAsOf": 1792200301,
         "changes": [
@@ -10448,35 +10471,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=88a9a2463ad560bf98a70bdf368f50d37851890301dd6f8fb9d20ea242b18aa1",
         "eventId": "59daeb17ee701d11a433",
         "fingerprint": "{\"changes\": [{\"after\": 1.05, \"before\": 0.52, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.8, \"before\": -3.85, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.17, \"before\": -0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"59daeb17ee701d11a433\"}"
-      },
-      {
-        "changedAt": 1790373666.8174605,
-        "dataAsOf": 1790343660,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 0.87,
-            "after": 0.52
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -0.35,
-            "after": -0.7
-          },
-          {
-            "key": "signal",
-            "label": "종합 시그널",
-            "before": "중립·확인 대기",
-            "after": "주의 강화"
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "Tesla 대 Nvidia: 2030년까지 어떤 물리적 AI 주식이 로봇 공학에 더 큰 이익을 가져다 줄까요?",
-        "newsUrl": "https://finnhub.io/api/news?id=88a9a2463ad560bf98a70bdf368f50d37851890301dd6f8fb9d20ea242b18aa1",
-        "eventId": "59daeb17ee701d11a433",
-        "fingerprint": "{\"changes\": [{\"after\": 0.52, \"before\": 0.87, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.7, \"before\": -0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"주의 강화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"59daeb17ee701d11a433\"}"
       }
     ],
     "ORCL": [
@@ -14157,6 +14151,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "PLTR": [
       {
+        "changedAt": 1792240332.7062783,
+        "dataAsOf": 1792210547,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.35,
+            "after": 0.7
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -0.87,
+            "after": -0.17
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -2.27,
+            "after": -1.92
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Stocktwits Defense Watch: RTX Continues Deal Momentum, Ondas-Palantir, AeroVironment Strike Four International Deals로 AI 회사 런칭",
+        "newsUrl": "https://finnhub.io/api/news?id=8ead569efd6a103b273cbe81d64cfaef7ed7045d1d2a900173c6b4a13ff05779",
+        "eventId": "06e756d17d9affbad4d8",
+        "fingerprint": "{\"changes\": [{\"after\": 0.7, \"before\": 0.35, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -0.17, \"before\": -0.87, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.92, \"before\": -2.27, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"06e756d17d9affbad4d8\"}"
+      },
+      {
         "changedAt": 1792171269.6715999,
         "dataAsOf": 1792159202,
         "changes": [
@@ -15986,44 +16009,38 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=5287b6c214906caf05e49bb7eb42b6ee9c77764999a1f05f298b26c35865d71f",
         "eventId": "d9b735d1d9663a390a28",
         "fingerprint": "{\"changes\": [{\"after\": -1.22, \"before\": -0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": -0.7, \"before\": 0.0, \"key\": \"insiderSignal\", \"label\": \"내부자 거래 신호\"}, {\"after\": \"주의 강화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"d9b735d1d9663a390a28\"}"
-      },
+      }
+    ],
+    "NVDA": [
       {
-        "changedAt": 1790549676.3811343,
-        "dataAsOf": 1790497320,
+        "changedAt": 1792240332.7062783,
+        "dataAsOf": 1792207021,
         "changes": [
           {
             "key": "growth",
             "label": "성장성",
-            "before": 0.35,
-            "after": 0.88
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -2.62,
-            "after": -1.57
+            "before": 5,
+            "after": 4.2
           },
           {
             "key": "shortTermMomentum",
             "label": "단기 뉴스 모멘텀",
-            "before": -2.1,
-            "after": -0.87
+            "before": 2.8,
+            "after": 1.75
           },
           {
             "key": "signal",
             "label": "종합 시그널",
-            "before": "주의 강화",
+            "before": "우호적 변화",
             "after": "중립·확인 대기"
           }
         ],
         "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "Palantir는 반등 후 백만장자 주식이 됩니까?",
-        "newsUrl": "https://finnhub.io/api/news?id=6821de4b6e5c26b05ca1d9d43412b79d2eb43d1a3965b0767d3f7255c26d497c",
-        "eventId": "d403b94716e40b821477",
-        "fingerprint": "{\"changes\": [{\"after\": 0.88, \"before\": 0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.57, \"before\": -2.62, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.87, \"before\": -2.1, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"d403b94716e40b821477\"}"
-      }
-    ],
-    "NVDA": [
+        "newsHeadline": "TSMC는 AI 칩 수요가 여전히 공급할 수 있는 것보다 훨씬 높다고 말합니다. 그것이 바로 내가 Nvidia 주식을 구매하는 이유입니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=52ffab929266c3934842b1d4f87a7e7db87c12c528772c8b8bffd6e21d542aa9",
+        "eventId": "8d35a6721745a79a7523",
+        "fingerprint": "{\"changes\": [{\"after\": 4.2, \"before\": 5, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 1.75, \"before\": 2.8, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"우호적 변화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"8d35a6721745a79a7523\"}"
+      },
       {
         "changedAt": 1792217400.9797807,
         "dataAsOf": 1792207021,
@@ -17320,26 +17337,32 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=fc8b7cc40778760cd801d893c78a61d0c7b3c7168227bee09f2e07d9c25f25e2",
         "eventId": "2f9e930923a6072accd3",
         "fingerprint": "{\"changes\": [{\"after\": 0.87, \"before\": 0.52, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"2f9e930923a6072accd3\"}"
-      },
-      {
-        "changedAt": 1791230873.34193,
-        "dataAsOf": 1791221440,
-        "changes": [
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -3.5,
-            "after": -2.8
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "업데이트: 시장 잡담: Nvidia-Groq 200억 달러 규모의 라이선스 거래가 소송에 직면",
-        "newsUrl": "https://finnhub.io/api/news?id=fc8b7cc40778760cd801d893c78a61d0c7b3c7168227bee09f2e07d9c25f25e2",
-        "eventId": "2f9e930923a6072accd3",
-        "fingerprint": "{\"changes\": [{\"after\": -2.8, \"before\": -3.5, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}], \"eventId\": \"2f9e930923a6072accd3\"}"
       }
     ],
     "AMD": [
+      {
+        "changedAt": 1792240332.7062783,
+        "dataAsOf": 1792185900,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 5,
+            "after": 4.72
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 4.72,
+            "after": 3.68
+          }
+        ],
+        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
+        "newsHeadline": "예측: 현재 Taiwan Semi(TSMC)에 투자된 1,000달러는 2030년까지 이만큼 가치가 있을 것입니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=45cf95aa85b6bf142a5da067c064ed5cf2ee71ff367ca6787f927b9e9fe1301d",
+        "eventId": "62db2aec4e9bee8f5c75",
+        "fingerprint": "{\"changes\": [{\"after\": 4.72, \"before\": 5, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 3.68, \"before\": 4.72, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"62db2aec4e9bee8f5c75\"}"
+      },
       {
         "changedAt": 1792217400.9797807,
         "dataAsOf": 1792185900,
@@ -18546,35 +18569,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=ff7223554078df0ced7983593f33c82ca9484f684de84a872f948b0a1901ab86",
         "eventId": "70582716eb750e5389b3",
         "fingerprint": "{\"changes\": [{\"after\": 1.75, \"before\": 1.22, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -1.05, \"before\": -1.4, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -4.72, \"before\": -4.02, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"70582716eb750e5389b3\"}"
-      },
-      {
-        "changedAt": 1790799031.803749,
-        "dataAsOf": 1790786373,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 0.87,
-            "after": 1.22
-          },
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -0.35,
-            "after": -1.4
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -3.5,
-            "after": -4.02
-          }
-        ],
-        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
-        "newsHeadline": "9월 30일 정오 주식 시장: 인플레이션 데이터 둔화로 시장 상승, 투자자들은 마이크론 수익 기대",
-        "newsUrl": "https://finnhub.io/api/news?id=9a7b4bca9b1a4309d6a925cc89baefdfbbb69cd7ecf668d5abdfc06493049831",
-        "eventId": "702be6bdc6d216849274",
-        "fingerprint": "{\"changes\": [{\"after\": 1.22, \"before\": 0.87, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -1.4, \"before\": -0.35, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -4.02, \"before\": -3.5, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"702be6bdc6d216849274\"}"
       }
     ],
     "AVGO": [
@@ -34346,6 +34340,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "MU": [
       {
+        "changedAt": 1792240332.7062783,
+        "dataAsOf": 1792236900,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.4,
+            "after": 1.75
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 4.2,
+            "after": 3.5
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "마이크론을 구매하기에는 너무 늦었다고 생각하시나요? 아직 시간이 있는 이유 1가지를 소개합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=c77059a62107009c030b8fd9350df753ef81f84132c03ae9a3a05d59fc980e61",
+        "eventId": "49066cac6b39f57325f0",
+        "fingerprint": "{\"changes\": [{\"after\": 1.75, \"before\": 1.4, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 3.5, \"before\": 4.2, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"49066cac6b39f57325f0\"}"
+      },
+      {
         "changedAt": 1792217400.9797807,
         "dataAsOf": 1792189500,
         "changes": [
@@ -35545,23 +35562,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=ee5cd25b7c93703fe137f69b98dcb799d0bdbc856fc121d8db2b24643fafac11",
         "eventId": "e6dfe852365b65e0e0c8",
         "fingerprint": "{\"changes\": [{\"after\": 1.57, \"before\": 3.15, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -0.35, \"before\": -0.7, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}], \"eventId\": \"e6dfe852365b65e0e0c8\"}"
-      },
-      {
-        "changedAt": 1791209481.140676,
-        "dataAsOf": 1791199860,
-        "changes": [
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -0.35,
-            "after": -0.7
-          }
-        ],
-        "cause": "AI 서버 메모리 수요와 가격 강세",
-        "newsHeadline": "마이크론 주식은 지금 당장 할 수 있는 최고의 AI 투자처럼 보입니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=d470c8401514dd96efb119df26eba6e74a67f77cbd8c399ca62c84a97d4f029a",
-        "eventId": "909109d9969e2b2797f4",
-        "fingerprint": "{\"changes\": [{\"after\": -0.7, \"before\": -0.35, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}], \"eventId\": \"909109d9969e2b2797f4\"}"
       }
     ],
     "SNDK": [
@@ -46871,6 +46871,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "VST": [
       {
+        "changedAt": 1792240332.7062783,
+        "dataAsOf": 1792057440,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -0.17,
+            "after": -0.52
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.17,
+            "after": -0.52
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Vistra 주식은 42억 달러의 연방 대출로 인해 급등했습니다. 지난 1년 동안 주가가 23% 하락했는데, 이제 매수 시점인가?",
+        "newsUrl": "https://finnhub.io/api/news?id=3243a5a9bdd65fbf8abf7cb9f0ef782b66544c7d94e29bc79209a9a539521f50",
+        "eventId": "00920a15e6aa89184b21",
+        "fingerprint": "{\"changes\": [{\"after\": -0.52, \"before\": -0.17, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.52, \"before\": -0.17, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"00920a15e6aa89184b21\"}"
+      },
+      {
         "changedAt": 1792102124.2679076,
         "dataAsOf": 1792057440,
         "changes": [
@@ -48628,41 +48651,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=015c44626516606263cbeb64c221764703dd9bd23854aea4818052e234b9dfac",
         "eventId": "05eb17f74980c3eefcb1",
         "fingerprint": "{\"changes\": [{\"after\": 2.45, \"before\": 1.05, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 4.9, \"before\": 2.1, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 2.45, \"before\": 1.05, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"05eb17f74980c3eefcb1\"}"
-      },
-      {
-        "changedAt": 1790019523.1055727,
-        "dataAsOf": 1790000824,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 0.0,
-            "after": 1.05
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 0.0,
-            "after": 2.1
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 0.0,
-            "after": 1.05
-          },
-          {
-            "key": "signal",
-            "label": "종합 시그널",
-            "before": "중립·확인 대기",
-            "after": "우호적 변화"
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "New Era는 207MW Vistra PPA 계약 후 30% 증가",
-        "newsUrl": "https://finnhub.io/api/news?id=26f263ab7d53bcde4ffdbd96fdc3426749c85085f43e9880290ad13cf30233b9",
-        "eventId": "d0ca4006dc014110df85",
-        "fingerprint": "{\"changes\": [{\"after\": 1.05, \"before\": 0.0, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 2.1, \"before\": 0.0, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 1.05, \"before\": 0.0, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"우호적 변화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"d0ca4006dc014110df85\"}"
       }
     ],
     "ETN": [
