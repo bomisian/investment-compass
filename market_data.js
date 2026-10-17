@@ -164,21 +164,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "dow": {
-      "current": 52002.41015625,
+      "current": 52002.3984375,
       "prevClose": 52177.69140625,
-      "changeAbs": -175.28125,
-      "changePct": -0.3359314014782269,
+      "changeAbs": -175.29296875,
+      "changePct": -0.3359538607892546,
       "pctRank": 95.69721115537848,
       "min5y": 28725.509765625,
       "max5y": 54349.12109375,
       "high1y": 54349.12109375,
-      "drawdown1y": -4.317845238843921,
-      "ma20": 51531.0794921875,
-      "ma60": 52528.430403645834,
-      "chg1m": 224.37109375,
-      "chg3m": 163.1484375,
-      "chg1mPct": 0.4333325437048073,
-      "chg3mPct": 0.3147198322097053,
+      "drawdown1y": -4.317866800830139,
+      "ma20": 51531.07890625,
+      "ma60": 52528.43020833333,
+      "chg1m": 224.359375,
+      "chg3m": 163.13671875,
+      "chg1mPct": 0.43330991104004785,
+      "chg3mPct": 0.31469722627433616,
       "lastDate": "2026-10-16",
       "bars": 1255,
       "symbol": "^DJI",
@@ -215,10 +215,10 @@ const MARKET_DATA = {
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": -5.675437312620346,
-        "ret3m": -7.335117455158224,
-        "ret6m": -9.129484412830802,
-        "ret1y": 21.631425370971,
+        "ret1m": -5.674036278817063,
+        "ret3m": -7.3337410731308506,
+        "ret6m": -9.128134683126977,
+        "ret1y": 21.63323200260152,
         "winRate": null,
         "count": 12
       }
@@ -246,13 +246,13 @@ const MARKET_DATA = {
       "summaryKo": "이스라엘 정착민, 서안지구 올리브 수확 중 팔레스타인 공격 - 최신"
     },
     {
-      "headline": "Trump waives many Russia-related sanctions, tariffs before they were to take effect under new law - Reuters",
-      "summary": "Trump waives many Russia-related sanctions, tariffs before they were to take effect under new law Reuters",
+      "headline": "Trump waives key Russia-related sanctions, tariffs before they take effect under new law - Reuters",
+      "summary": "Trump waives key Russia-related sanctions, tariffs before they take effect under new law Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUWRsWXNvbUVMb01QdTFTbEhpSGhZLVZYVXZramJkQjg2RXUzbXRaZjZlcnY1QTNoeU1zQzhhOEhwOFZVSkRySFFZNWI3RjZtUHJLaDhybEhWVzFBTF9uVlZjWlNSQk5aX25iZ0EySjRQYjR5aVRiM1VERjVFWmpTOTR0Y1ZhNUtaTHpTaWdZZVRPUmppTUJtYl9IZlhGQnM3WkVSNmRreVBjaDF5anFfSHhqN1ZUc2p3cjRoU0pyUzRkZjlBM05B?oc=5",
       "datetime": 1792199820,
-      "headlineKo": "트럼프, 새로운 법에 따라 발효되기 전에 많은 러시아 관련 제재와 관세를 포기 - 로이터 통신",
-      "summaryKo": "트럼프는 새로운 법에 따라 러시아 관련 제재와 관세가 발효되기 전에 많은 것을 포기했습니다."
+      "headlineKo": "트럼프, 새로운 법에 따라 발효되기 전에 러시아 관련 주요 제재와 관세를 포기 - 로이터 통신",
+      "summaryKo": "트럼프는 새로운 법에 따라 발효되기 전에 러시아 관련 주요 제재와 관세를 포기했습니다."
     },
     {
       "headline": "Trump mocks popularity of the name Mohammad, common among Muslims - Reuters",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792205664.1320207,
+  "_news_last_success_at": 1792209439.3450253,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792205654.1774428,
-  "_updated_label": "2026-10-17 11:54",
-  "_last_attempt_at": 1792205654.1774428,
-  "_last_success_at": 1792205654.1774428,
+  "_fetched_at": 1792209429.7234395,
+  "_updated_label": "2026-10-17 12:57",
+  "_last_attempt_at": 1792209429.7234395,
+  "_last_success_at": 1792209429.7234395,
   "_collection_status": "ok",
   "_collection_errors": []
 };
