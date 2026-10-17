@@ -292,7 +292,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 1622986.4,
     "52WeekHigh": 495,
     "52WeekLow": 289.96,
-    "beta": 1.4945898,
+    "beta": 1.4931612,
     "dividendYieldIndicatedAnnual": 1.87972,
     "dividendPerShareTTM": 2.5438,
     "dividendGrowthRate5Y": 11.45,
@@ -310,8 +310,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 25.34,
     "name": "Broadcom Inc",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1792152936.6512837,
-    "_updated_label": "2026-10-16 21:15"
+    "_fetched_at": 1792225107.4021544,
+    "_updated_label": "2026-10-17 17:18"
   },
   "META": {
     "forwardPE": 22.28369,
@@ -975,8 +975,8 @@ const FUNDAMENTALS_DATA = {
     "totalDebt/totalEquityQuarterly": 0.9272,
     "marketCapitalization": 227560.5,
     "52WeekHigh": 307.3743,
-    "52WeekLow": 99.86,
-    "beta": 1.4550314,
+    "52WeekLow": 105.39,
+    "beta": 1.4517329,
     "dividendYieldIndicatedAnnual": 1.04384,
     "dividendPerShareTTM": 0.8055,
     "dividendGrowthRate5Y": 17.29,
@@ -994,8 +994,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 41.85,
     "name": "KLA Corp",
     "theme": "반도체 장비",
-    "_fetched_at": 1792152936.6512837,
-    "_updated_label": "2026-10-16 21:15"
+    "_fetched_at": 1792225107.4021544,
+    "_updated_label": "2026-10-17 17:18"
   },
   "SNDK": {
     "forwardPE": 8.43042,
@@ -1018,7 +1018,7 @@ const FUNDAMENTALS_DATA = {
     "totalDebt/totalEquityQuarterly": 0,
     "marketCapitalization": 201591.38,
     "52WeekHigh": 2354.39,
-    "52WeekLow": 120.96,
+    "52WeekLow": 130.5,
     "beta": 3.3430574,
     "perBandYears": 1,
     "perBandSource": "universal",
@@ -1027,8 +1027,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 89.56,
     "name": "Sandisk Corp",
     "theme": "메모리·스토리지",
-    "_fetched_at": 1792152936.6512837,
-    "_updated_label": "2026-10-16 21:15"
+    "_fetched_at": 1792225107.4021544,
+    "_updated_label": "2026-10-17 17:18"
   },
   "WDC": {
     "forwardPE": 19.8764,
@@ -1350,7 +1350,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 152019.77,
     "52WeekHigh": 478,
     "52WeekLow": 311.92,
-    "beta": 1.1228708,
+    "beta": 1.1209176,
     "dividendYieldIndicatedAnnual": 1.50402,
     "dividendPerShareTTM": 4.2844,
     "dividendGrowthRate5Y": 7.53,
@@ -1368,8 +1368,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 10.9,
     "name": "Eaton Corporation PLC",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1792152936.6512837,
-    "_updated_label": "2026-10-16 21:15"
+    "_fetched_at": 1792225107.4021544,
+    "_updated_label": "2026-10-17 17:18"
   },
   "PWR": {
     "forwardPE": 34.1722,
@@ -1396,7 +1396,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 94644.17,
     "52WeekHigh": 788.75,
     "52WeekLow": 404.51,
-    "beta": 1.2840825,
+    "beta": 1.2833822,
     "dividendYieldIndicatedAnnual": 0.17527,
     "dividendPerShareTTM": 0.4271,
     "dividendGrowthRate5Y": 17.7,
@@ -1414,8 +1414,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 8.9,
     "name": "Quanta Services Inc",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1792152936.6512837,
-    "_updated_label": "2026-10-16 21:15"
+    "_fetched_at": 1792225107.4021544,
+    "_updated_label": "2026-10-17 17:18"
   },
   "HUBB": {
     "forwardPE": 20.73801,
@@ -1616,7 +1616,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 31844.701,
     "52WeekHigh": 951.96,
     "52WeekLow": 564.92,
-    "beta": 1.1531228,
+    "beta": 1.1516192,
     "dividendYieldIndicatedAnnual": 0.33256,
     "dividendPerShareTTM": 1.3026,
     "dividendGrowthRate5Y": 25.6,
@@ -1634,8 +1634,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 38.43,
     "name": "EMCOR Group Inc",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1792152936.6512837,
-    "_updated_label": "2026-10-16 21:15"
+    "_fetched_at": 1792225107.4021544,
+    "_updated_label": "2026-10-17 17:18"
   },
   "FIX": {
     "forwardPE": 28.51361,
@@ -1661,7 +1661,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 50961.39,
     "52WeekHigh": 2073.99,
     "52WeekLow": 770.47,
-    "beta": 1.6154078,
+    "beta": 1.6116753,
     "dividendYieldIndicatedAnnual": 0.50297,
     "dividendPerShareTTM": 2.5988,
     "dividendGrowthRate5Y": 35.55,
@@ -1679,8 +1679,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 51.739999999999995,
     "name": "Comfort Systems USA Inc",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1792152936.6512837,
-    "_updated_label": "2026-10-16 21:16"
+    "_fetched_at": 1792225107.4021544,
+    "_updated_label": "2026-10-17 17:18"
   },
   "BE": {
     "forwardPE": 81.64528662730557,

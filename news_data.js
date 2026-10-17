@@ -2,10 +2,60 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1792202073.9184556,
+    "_last_attempt_at": 1792225130.265845,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Double Size, Double Leverage: Why We Supercharged This QQQ Trade",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4f2deffb2afd64121c4ee812f967baa21186649331c91f23fa008af9ae59a453",
+        "datetime": 1792182049,
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Double Size, Double Leverage: Why We Supercharged This QQQ Trade",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Double Size, Double Leverage: Why We Supercharged This QQQ Trade' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792225133.7140915
+        },
+        "headlineKo": "두 배의 크기, 두 배의 레버리지: 우리가 이 QQQ 거래를 강화한 이유"
+      },
       {
         "headline": "Stock Market Today: Dow Jones, S&P 500 Futures Rise, Nasdaq Falls as Bessent Intensifies Economic Pressure on Iran— TSLA, AA, IBKR in Focus (UPDATED)",
         "source": "Benzinga",
@@ -66,7 +116,7 @@ const NEWS_DATA = {
             "stock futures were higher on Friday, as the Dow Jones, S&P 500 and Nasdaq 100 indices rose, following Thursday’s higher close.",
             "Treasury yields pulled back from multi-decade highs Thursday, with a rout in semiconductor stocks sending investors into government bonds, according to The Kobeissi Letter."
           ],
-          "analysisUpdatedAt": 1792202078.7772455
+          "analysisUpdatedAt": 1792225136.2733488
         },
         "headlineKo": "오늘의 주식 시장: Bessent가 이란에 대한 경제적 압력을 강화함에 따라 Dow Jones, S&P 500 선물 상승, Nasdaq 하락 - TSLA, AA, IBKR 초점(업데이트됨)"
       },
@@ -130,7 +180,7 @@ const NEWS_DATA = {
             "(NASDAQ: GLXY ) CEO Mike Novogratz warned that stopping the artificial intelligence data-center buildout would slow the U.S.",
             "economy, while saying a hypothetical \"AI catastrophe\" could send the Nasdaq crashing."
           ],
-          "analysisUpdatedAt": 1792202081.2335634
+          "analysisUpdatedAt": 1792225138.9750562
         },
         "headlineKo": "Mike Novogratz는 나스닥이 'AI 재앙'으로 인해 30% 급락할 수 있다고 경고합니다. 그가 여전히 데이터 센터 붐이 계속될 것으로 예상하는 이유는 다음과 같습니다."
       },
@@ -142,6 +192,28 @@ const NEWS_DATA = {
         "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "QQQ가 곧 10% 하락할 수 있는 3가지 이유와 2027년에 반등할 수 있는 1가지 이유"
+      },
+      {
+        "headline": "Michael Burry's 'Red October' Warning: Why QQQ and SMH Could Face More Pain",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=56376ae382f8e4214ceded6eef4b27f1089b62fba75f5f38ee0cfdf9212cab82",
+        "datetime": 1792073071,
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "마이클 버리(Michael Burry)의 '붉은 10월' 경고: QQQ와 SMH가 더 큰 고통을 겪을 수 있는 이유"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Double Size, Double Leverage: Why We Supercharged This QQQ Trade",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4f2deffb2afd64121c4ee812f967baa21186649331c91f23fa008af9ae59a453",
+        "datetime": 1792182049,
+        "headlineKo": "두 배의 크기, 두 배의 레버리지: 우리가 이 QQQ 거래를 강화한 이유",
+        "relevance": 1.0,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "low",
@@ -150,7 +222,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "3 Reasons QQQ Could Fall 10% Soon, and 1 Reason It Could Rally Into 2027",
+            "Double Size, Double Leverage: Why We Supercharged This QQQ Trade",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -174,38 +246,15 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 '3 Reasons QQQ Could Fall 10% Soon, and 1 Reason It Could Rally Into 2027' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Double Size, Double Leverage: Why We Supercharged This QQQ Trade' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1.0,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792202082.3651059
-        },
-        "headlineKo": "QQQ가 곧 10% 하락할 수 있는 3가지 이유와 2027년에 반등할 수 있는 1가지 이유"
+          "analysisUpdatedAt": 1792225133.7140915
+        }
       },
-      {
-        "headline": "Michael Burry's 'Red October' Warning: Why QQQ and SMH Could Face More Pain",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=56376ae382f8e4214ceded6eef4b27f1089b62fba75f5f38ee0cfdf9212cab82",
-        "datetime": 1792073071,
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "마이클 버리(Michael Burry)의 '붉은 10월' 경고: QQQ와 SMH가 더 큰 고통을 겪을 수 있는 이유"
-      },
-      {
-        "headline": "Stock Market Today: Dow Rises, Nasdaq Tumbles As AI Worries Hit Major Players (Live Coverage)",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6ad409edc5845d99345332cecd4ac0d247cc7396d902bc4aa044842c2de7fcee",
-        "datetime": 1792066297,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "오늘의 주식 시장: AI 우려로 인해 주요 기업이 타격을 입으면서 다우 상승, 나스닥 하락(생방송)"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Stock Market Today: Dow Jones, S&P 500 Futures Rise, Nasdaq Falls as Bessent Intensifies Economic Pressure on Iran— TSLA, AA, IBKR in Focus (UPDATED)",
         "source": "Benzinga",
@@ -266,7 +315,7 @@ const NEWS_DATA = {
             "stock futures were higher on Friday, as the Dow Jones, S&P 500 and Nasdaq 100 indices rose, following Thursday’s higher close.",
             "Treasury yields pulled back from multi-decade highs Thursday, with a rout in semiconductor stocks sending investors into government bonds, according to The Kobeissi Letter."
           ],
-          "analysisUpdatedAt": 1792202078.7772455
+          "analysisUpdatedAt": 1792225136.2733488
         }
       },
       {
@@ -329,7 +378,7 @@ const NEWS_DATA = {
             "(NASDAQ: GLXY ) CEO Mike Novogratz warned that stopping the artificial intelligence data-center buildout would slow the U.S.",
             "economy, while saying a hypothetical \"AI catastrophe\" could send the Nasdaq crashing."
           ],
-          "analysisUpdatedAt": 1792202081.2335634
+          "analysisUpdatedAt": 1792225138.9750562
         }
       },
       {
@@ -6530,15 +6579,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792202073.9184556,
-    "_updated_label": "2026-10-17 10:54",
-    "_last_success_at": 1792202073.9184556,
+    "_fetched_at": 1792225130.265845,
+    "_updated_label": "2026-10-17 17:18",
+    "_last_success_at": 1792225130.265845,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 127,
+      "checked": 128,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "SPY": {
@@ -14584,11 +14633,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 165,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "MSFT": {
-    "_last_attempt_at": 1792202073.9184556,
+    "_last_attempt_at": 1792225130.265845,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -14649,7 +14698,7 @@ const NEWS_DATA = {
             "$7.4 billion",
             "$128.23",
             "$6.24",
-            "$406.60",
+            "$387.73",
             "$127.36"
           ],
           "sourceExcerpt": [
@@ -14657,7 +14706,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool When investors think about cloud computing , Alphabet ( GOOGL -2.47% ) ( GOOG -2.32% ) and Microsoft ( MSFT -1.93% ) are often the ",
             "But Oracle ( ORCL -4.64% ) is also making a strong push into AI infrastructure, and its rapidly growing cloud business offers another way to ride the AI boom."
           ],
-          "analysisUpdatedAt": 1792202087.8108885
+          "analysisUpdatedAt": 1792225145.1446218
         },
         "headlineKo": "알파벳이 아닙니다. 마이크로소프트가 아닙니다. 이것이 제가 지금 5,000달러로 사고 싶은 클라우드 주식입니다."
       },
@@ -14721,7 +14770,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,665.00 −1.07% Dow Jones 51,999.60 −0.44% Nasdaq 100 29,213.40 −2.32% Russell 2000 2,724.81 −1.63% S&P 500 7,665.00 −1.07% Dow Jones 51,999.60 −0.44% Nasdaq 100 29,213.40 −2.32% Russell 2000 2,724.81 −1.",
             "Alphabet is growing its cloud faster, but Microsoft is funding its AI buildout from its own cash while Alphabet sells stock to keep pace."
           ],
-          "analysisUpdatedAt": 1792202090.2886965
+          "analysisUpdatedAt": 1792225147.6852453
         },
         "headlineKo": "다음 5조 달러 규모의 기업: 알파벳인가, 마이크로소프트인가?"
       },
@@ -14785,7 +14834,7 @@ const NEWS_DATA = {
             "On Friday, NiSource ( NI ) announced a 20-year energy agreement with Microsoft that starts in 2028 and adds about 1,100 MW to NiSource’s generation pool.",
             "Microsoft pays for all the generation and transmission needed to serve the site."
           ],
-          "analysisUpdatedAt": 1792202092.5444722
+          "analysisUpdatedAt": 1792225150.0422487
         },
         "headlineKo": "AI 지출이 그리드를 초과함에 따라 Microsoft는 2048년까지 NiSource와 1,100MW 전력 계약을 체결했습니다."
       },
@@ -14928,7 +14977,7 @@ const NEWS_DATA = {
             "$7.4 billion",
             "$128.23",
             "$6.24",
-            "$406.60",
+            "$387.73",
             "$127.36"
           ],
           "sourceExcerpt": [
@@ -14936,7 +14985,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool When investors think about cloud computing , Alphabet ( GOOGL -2.47% ) ( GOOG -2.32% ) and Microsoft ( MSFT -1.93% ) are often the ",
             "But Oracle ( ORCL -4.64% ) is also making a strong push into AI infrastructure, and its rapidly growing cloud business offers another way to ride the AI boom."
           ],
-          "analysisUpdatedAt": 1792202087.8108885
+          "analysisUpdatedAt": 1792225145.1446218
         }
       },
       {
@@ -14999,7 +15048,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,665.00 −1.07% Dow Jones 51,999.60 −0.44% Nasdaq 100 29,213.40 −2.32% Russell 2000 2,724.81 −1.63% S&P 500 7,665.00 −1.07% Dow Jones 51,999.60 −0.44% Nasdaq 100 29,213.40 −2.32% Russell 2000 2,724.81 −1.",
             "Alphabet is growing its cloud faster, but Microsoft is funding its AI buildout from its own cash while Alphabet sells stock to keep pace."
           ],
-          "analysisUpdatedAt": 1792202090.2886965
+          "analysisUpdatedAt": 1792225147.6852453
         }
       },
       {
@@ -15062,7 +15111,7 @@ const NEWS_DATA = {
             "On Friday, NiSource ( NI ) announced a 20-year energy agreement with Microsoft that starts in 2028 and adds about 1,100 MW to NiSource’s generation pool.",
             "Microsoft pays for all the generation and transmission needed to serve the site."
           ],
-          "analysisUpdatedAt": 1792202092.5444722
+          "analysisUpdatedAt": 1792225150.0422487
         }
       },
       {
@@ -22519,15 +22568,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792202073.9184556,
-    "_updated_label": "2026-10-17 10:54",
-    "_last_success_at": 1792202073.9184556,
+    "_fetched_at": 1792225130.265845,
+    "_updated_label": "2026-10-17 17:19",
+    "_last_success_at": 1792225130.265845,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "GOOGL": {
@@ -30554,7 +30603,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "AMZN": {
@@ -38713,7 +38762,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "META": {
@@ -46709,7 +46758,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "AAPL": {
@@ -54642,7 +54691,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "TSLA": {
@@ -62682,7 +62731,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "ORCL": {
@@ -71275,7 +71324,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "CRM": {
@@ -79533,7 +79582,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 181,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "PLTR": {
@@ -88558,7 +88607,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "NVDA": {
@@ -96236,7 +96285,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "AMD": {
@@ -104371,7 +104420,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "AVGO": {
@@ -113251,7 +113300,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "QCOM": {
@@ -121949,7 +121998,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "ARM": {
@@ -128052,7 +128101,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "MRVL": {
@@ -136860,7 +136909,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "INTC": {
@@ -145681,7 +145730,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "TSM": {
@@ -154201,7 +154250,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "ASML": {
@@ -160891,7 +160940,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "AMAT": {
@@ -167234,7 +167283,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 131,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "LRCX": {
@@ -170473,11 +170522,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1792202073.9184556,
+    "_last_attempt_at": 1792225130.265845,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -170532,7 +170581,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792202097.8407922
+          "analysisUpdatedAt": 1792225155.3654537
         },
         "headlineKo": "KLAC는 1년 만에 64.5% 급등: 주식을 사야 할까요, 팔아야 할까요, 아니면 보유해야 할까요?"
       },
@@ -170582,7 +170631,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792202098.8976223
+          "analysisUpdatedAt": 1792225156.4673789
         },
         "headlineKo": "KLA CORP (NASDAQ:KLAC): 소득 투자자를 위한 배당 품질 플레이"
       },
@@ -170604,11 +170653,11 @@ const NEWS_DATA = {
           "facts": [
             "KLA 주식의 진정한 숨겨진 가격은 무엇입니까?",
             "| Trefis KLA 주식의 진정한 숨겨진 가격은 무엇입니까?",
-            "2026년 10월 14일 · Trefis Team KLAC YTD +44.1% SPY YTD +13.8% QQQ YTD +18.8% KLAC 분석 → 투자자는 현재 KLA(KLAC) 주식에 대해 12개월간 수익의 47.7배를 지불하고 있습니다."
+            "2026년 10월 14일 · Trefis Team KLAC YTD +36.9% SPY YTD +12.5% ​​QQQ YTD +15.8% KLAC 분석 → 투자자는 현재 KLA(KLAC) 주식에 대해 12개월간 수익의 47.7배를 지불하고 있습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 44.1%, 13.8%, 18.8% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 36.9%, 12.5%, 15.8% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -170632,9 +170681,9 @@ const NEWS_DATA = {
           "relevance": 0.5,
           "quality": "medium",
           "verifiedNumbers": [
-            "44.1%",
-            "13.8%",
-            "18.8%",
+            "36.9%",
+            "12.5%",
+            "15.8%",
             "47.7 times",
             "$7.2 billion",
             "33.7 times",
@@ -170644,9 +170693,9 @@ const NEWS_DATA = {
           "sourceExcerpt": [
             "What Is The True Hidden Price Of KLA Stock?",
             "| Trefis What Is The True Hidden Price Of KLA Stock?",
-            "October 14th, 2026 · by Trefis Team KLAC YTD +44.1% SPY YTD +13.8% QQQ YTD +18.8% Analyze KLAC → Investors are currently paying 47.7 times trailing twelve-month earnings for shares of KLA (KLAC) ."
+            "October 14th, 2026 · by Trefis Team KLAC YTD +36.9% SPY YTD +12.5% QQQ YTD +15.8% Analyze KLAC → Investors are currently paying 47.7 times trailing twelve-month earnings for shares of KLA (KLAC) ."
           ],
-          "analysisUpdatedAt": 1792202102.7367828
+          "analysisUpdatedAt": 1792225160.6118486
         },
         "headlineKo": "KLA 주식의 진정한 숨겨진 가격은 무엇입니까?"
       },
@@ -170770,7 +170819,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792202097.8407922
+          "analysisUpdatedAt": 1792225155.3654537
         }
       },
       {
@@ -170819,7 +170868,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792202098.8976223
+          "analysisUpdatedAt": 1792225156.4673789
         }
       },
       {
@@ -170840,11 +170889,11 @@ const NEWS_DATA = {
           "facts": [
             "KLA 주식의 진정한 숨겨진 가격은 무엇입니까?",
             "| Trefis KLA 주식의 진정한 숨겨진 가격은 무엇입니까?",
-            "2026년 10월 14일 · Trefis Team KLAC YTD +44.1% SPY YTD +13.8% QQQ YTD +18.8% KLAC 분석 → 투자자는 현재 KLA(KLAC) 주식에 대해 12개월간 수익의 47.7배를 지불하고 있습니다."
+            "2026년 10월 14일 · Trefis Team KLAC YTD +36.9% SPY YTD +12.5% ​​QQQ YTD +15.8% KLAC 분석 → 투자자는 현재 KLA(KLAC) 주식에 대해 12개월간 수익의 47.7배를 지불하고 있습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 44.1%, 13.8%, 18.8% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 36.9%, 12.5%, 15.8% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -170868,9 +170917,9 @@ const NEWS_DATA = {
           "relevance": 0.5,
           "quality": "medium",
           "verifiedNumbers": [
-            "44.1%",
-            "13.8%",
-            "18.8%",
+            "36.9%",
+            "12.5%",
+            "15.8%",
             "47.7 times",
             "$7.2 billion",
             "33.7 times",
@@ -170880,9 +170929,9 @@ const NEWS_DATA = {
           "sourceExcerpt": [
             "What Is The True Hidden Price Of KLA Stock?",
             "| Trefis What Is The True Hidden Price Of KLA Stock?",
-            "October 14th, 2026 · by Trefis Team KLAC YTD +44.1% SPY YTD +13.8% QQQ YTD +18.8% Analyze KLAC → Investors are currently paying 47.7 times trailing twelve-month earnings for shares of KLA (KLAC) ."
+            "October 14th, 2026 · by Trefis Team KLAC YTD +36.9% SPY YTD +12.5% QQQ YTD +15.8% Analyze KLAC → Investors are currently paying 47.7 times trailing twelve-month earnings for shares of KLA (KLAC) ."
           ],
-          "analysisUpdatedAt": 1792202102.7367828
+          "analysisUpdatedAt": 1792225160.6118486
         }
       },
       {
@@ -173703,15 +173752,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792202073.9184556,
-    "_updated_label": "2026-10-17 10:55",
-    "_last_success_at": 1792202073.9184556,
+    "_fetched_at": 1792225130.265845,
+    "_updated_label": "2026-10-17 17:19",
+    "_last_success_at": 1792225130.265845,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "MU": {
@@ -181738,7 +181787,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "SNDK": {
@@ -190656,7 +190705,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "WDC": {
@@ -196519,11 +196568,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 122,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "ANET": {
-    "_last_attempt_at": 1792202073.9184556,
+    "_last_attempt_at": 1792225130.265845,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -196578,7 +196627,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792202107.6280496
+          "analysisUpdatedAt": 1792225165.5742946
         },
         "headlineKo": "Arista Networks CEO는 세계에서 가장 부유한 여성 중 한 명입니다. 그녀는 방금 3,400만 달러의 주식을 팔았습니다."
       },
@@ -196627,7 +196676,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792202108.7847555
+          "analysisUpdatedAt": 1792225166.747696
         },
         "headlineKo": "Arista Networks의 다음 분기별 수익 보고서에서 기대할 사항"
       },
@@ -196677,7 +196726,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792202110.820639
+          "analysisUpdatedAt": 1792225169.1722257
         },
         "headlineKo": "AKAM 대 ANET: 지금 구매하는 것이 더 나은 AI 인프라 주식은 무엇입니까?"
       },
@@ -196749,7 +196798,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792202107.6280496
+          "analysisUpdatedAt": 1792225165.5742946
         }
       },
       {
@@ -196797,7 +196846,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792202108.7847555
+          "analysisUpdatedAt": 1792225166.747696
         }
       },
       {
@@ -196846,7 +196895,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792202110.820639
+          "analysisUpdatedAt": 1792225169.1722257
         }
       },
       {
@@ -200909,15 +200958,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792202073.9184556,
-    "_updated_label": "2026-10-17 10:55",
-    "_last_success_at": 1792202073.9184556,
+    "_fetched_at": 1792225130.265845,
+    "_updated_label": "2026-10-17 17:19",
+    "_last_success_at": 1792225130.265845,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "COHR": {
@@ -204959,7 +205008,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "LITE": {
@@ -209868,7 +209917,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "GEV": {
@@ -215870,7 +215919,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "CEG": {
@@ -221342,7 +221391,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "VST": {
@@ -225383,7 +225432,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "ETN": {
@@ -229123,7 +229172,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "PWR": {
@@ -232467,7 +232516,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "HUBB": {
@@ -233427,7 +233476,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "VRT": {
@@ -237980,7 +238029,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "MOD": {
@@ -239532,7 +239581,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "STX": {
@@ -244566,7 +244615,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 108,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "EME": {
@@ -246718,7 +246767,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "FIX": {
@@ -248554,7 +248603,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   },
   "BE": {
@@ -251370,7 +251419,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-17 15:09"
+      "updated": "2026-10-17 17:19"
     }
   }
 };
