@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran's Guards say two tankers hit mines in Strait of Hormuz - Reuters",
+      "summary": "Iran's Guards say two tankers hit mines in Strait of Hormuz Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZWFxZjNZNnY5cVR3VDhKUnNnV1JOcG1vOVB5dEZGdWRybEtqdE9YRWgwY0ZVSXZ0bHYzTWRpX2duSkxpTENtY0s0WW5jMzFUZlZIME16d0FpUXluV2ZGbFJ3alNZaDh0VVVSVFhOMWVIbEZTNVgyTVdwaXNLNXRrMjE4SjZvQXZtblNUNVVHSjFIUmlIaU41TGRHYmIzOUxoa25BODFKaG1FZw?oc=5",
+      "datetime": 1792244171,
+      "headlineKo": "이란 경비대, 유조선 2척이 호르무즈 해협에서 지뢰를 공격했다고 밝혔습니다.",
+      "summaryKo": "이란 경비대, 유조선 두 척이 호르무즈 해협에서 지뢰를 공격했다고 밝혔습니다."
+    },
+    {
       "headline": "'Everyone laughed' when he started a pumpkin farm—now it brings in $2 million a year",
       "summary": "Kelly Schultz bought a pumpkin farm in 1996. He transformed it into a seasonal attraction that draws in 100,000 visitors each fall.",
       "source": "CNBC",
@@ -244,15 +253,6 @@ const MARKET_DATA = {
       "datetime": 1792242001,
       "headlineKo": "그가 호박 농장을 시작했을 때 '모두가 웃었다'. 이제는 연간 200만 달러의 수익을 창출합니다.",
       "summaryKo": "Kelly Schultz는 1996년에 호박 농장을 구입했습니다. 그는 이곳을 매년 가을 100,000명의 방문객을 끌어들이는 계절 명소로 탈바꿈시켰습니다."
-    },
-    {
-      "headline": "Israeli settlers attack Palestinians during West Bank olive harvest - Reuters",
-      "summary": "Israeli settlers attack Palestinians during West Bank olive harvest Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPczd6aXNWNkdjZTNxV0V1MXhjQm5YTUtZT2JEUXY4dm81UFNlMVprd01ZdDI0VDI2ZEducHJha09yTkRIaWZMLVpmanQ0dVRBWm56cVBxLWFCOEZkekdCU0ZISkhWeEFxTWRDaGtmR3NPRjc1MVkyQnVhdjZRSzZxWm9OODE2RmxSY19CclZ1WThuWTZrOG15SUtmSlZJd0tfZkwtcmVsQlltc0VNZnMtMWdB?oc=5",
-      "datetime": 1792224675,
-      "headlineKo": "이스라엘 정착민, 서안지구 올리브 수확 중 팔레스타인 공격 - 로이터",
-      "summaryKo": "이스라엘 정착민, 서안지구 올리브 수확 중 팔레스타인 공격 - 최신"
     },
     {
       "headline": "Trump waives key Russia-related sanctions, tariffs before they take effect under new law - Reuters",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792249292.5426505,
+  "_news_last_success_at": 1792252814.5291603,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792249285.0282958,
-  "_updated_label": "2026-10-18 00:02",
-  "_last_attempt_at": 1792249285.0282958,
-  "_last_success_at": 1792249285.0282958,
+  "_fetched_at": 1792252805.2823365,
+  "_updated_label": "2026-10-18 01:00",
+  "_last_attempt_at": 1792252805.2823365,
+  "_last_success_at": 1792252805.2823365,
   "_collection_status": "ok",
   "_collection_errors": []
 };
