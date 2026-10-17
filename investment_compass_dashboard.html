@@ -55,11 +55,17 @@
   .err{color:var(--up);font-size:12px;padding:8px 0;}
 
   /* 요약 섹션 */
-  .summary-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:14px;}
+  .summary-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:14px;}
   @media (max-width:860px){ .summary-grid{grid-template-columns:1fr;} }
-.dc-summary-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:14px;}
-@media (max-width:860px){ .dc-summary-grid{grid-template-columns:repeat(3,1fr);} }
-@media (max-width:520px){ .dc-summary-grid{grid-template-columns:repeat(2,1fr);} }
+/* [2026-10-17 WO11-FOLLOWUP] 바로 밑 1fr은 그리드 트랙의 기본 최소크기가 auto(내용의
+   고유 최소폭)라서, 띄어쓰기 없이 가운뎃점(·)으로 이어붙인 종목 목록처럼 안 끊어지는
+   내용이 있으면 트랙이 거기까지 안 줄어들어 그리드 전체(그리고 페이지)가 뷰포트보다
+   넓어진다(375px 실측: documentElement.scrollWidth=664, 이 그리드 셀이 right=664로
+   정확히 일치 - Playwright로 직접 측정해 확인). minmax(0,1fr)로 최소크기를 0으로 낮춰서
+   진짜로 줄어들 수 있게 한다(칸 개수·비율은 그대로, 줄어드는 한계만 바뀜). */
+.dc-summary-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin-bottom:14px;}
+@media (max-width:860px){ .dc-summary-grid{grid-template-columns:repeat(3,minmax(0,1fr));} }
+@media (max-width:520px){ .dc-summary-grid{grid-template-columns:repeat(2,minmax(0,1fr));} }
 /* [2026-10-17 WO11-2] "한눈에 보기" 맨 위 3줄 요약 - 375px에서도 스크롤 없이 한 화면에
    보이도록 줄간격·글자크기를 압축. 내용(계산)은 그대로, 배치만 바꿈. */
 #glanceSummary .glance-line{ margin:3px 0; line-height:1.45; word-break:break-word; }
@@ -169,7 +175,7 @@
   .news-card.tone-mixed{border-left-color:var(--warn);background:var(--warn-bg);}
   .news-card-head{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;font-size:11px;color:var(--sub);}
   .news-card h3{margin:8px 0 12px;font-size:14.5px;line-height:1.5;color:var(--text);}
-  .news-card-columns{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;}
+  .news-card-columns{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;}
   .news-card-columns>div{padding:10px;border-radius:10px;background:rgba(255,255,255,.65);}
   .news-card-columns b{display:block;margin-bottom:5px;font-size:11px;color:var(--text);}
   .news-card-columns ul{margin:0;padding-left:16px;color:#53615c;}
@@ -196,8 +202,13 @@
   .dtab{padding:10px 14px;font-size:12.5px;color:var(--sub);cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap;font-weight:700;}
   .dtab:hover{color:var(--text);}
   .dtab.active{color:var(--text);border-bottom-color:var(--accent);}
-  .page-tabs{display:flex;gap:6px;margin-bottom:10px;}
-  .ptab{padding:8px 16px;font-size:13px;font-weight:700;color:var(--sub);background:var(--panel);border:1px solid var(--line);border-radius:10px 10px 0 0;cursor:pointer;border-bottom:none;}
+  /* [2026-10-17 WO11-FOLLOWUP] .ptab에 white-space:nowrap이 없어서 "대시보드"・"심플보기"
+     같은 탭 이름이 좁은 화면에서 "대 / 시보드"처럼 중간에서 끊겨 보였다. 안 끊어지게 하고,
+     .page-tabs에는 혹시 그래도 넘치면 탭 줄만 가로로 스크롤되게 안전장치를 둔다(페이지
+     전체가 넓어지지는 않도록). 375px에서는 폰트・패딩을 줄여서 두 탭이 한 줄에 들어오게 함. */
+  .page-tabs{display:flex;gap:6px;margin-bottom:10px;overflow-x:auto;}
+  .ptab{padding:8px 16px;font-size:13px;font-weight:700;color:var(--sub);background:var(--panel);border:1px solid var(--line);border-radius:10px 10px 0 0;cursor:pointer;border-bottom:none;white-space:nowrap;flex-shrink:0;}
+  @media (max-width:420px){ .ptab{padding:7px 10px;font-size:12px;} }
   .ptab:hover{color:var(--text);}
   .ptab.active{color:var(--text);background:var(--panel-2);}
   .detail-body{padding:18px 22px 24px;}
@@ -248,7 +259,7 @@
   .glance-box .glance-line{font-size:13px;line-height:1.7;color:var(--text);}
   .glance-box .glance-warn{margin-top:6px;font-size:12.5px;color:var(--warn);font-weight:700;}
 
-  .fund-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+  .fund-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px;}
   @media (max-width:700px){ .fund-grid{grid-template-columns:1fr;} }
   .fund-col{border:1px solid var(--line);border-radius:14px;padding:16px;background:var(--panel-2);}
   .fund-col h3{font-size:12px;color:var(--sub);margin:0 0 8px;text-transform:uppercase;letter-spacing:0.3px;}
@@ -281,7 +292,7 @@
   <header>
     <div>
       <h1>투자 나침반 · 종목 분석 대시보드</h1>
-      <div class="sub">장기: 승률 검증된 3개 타이밍 지표(52주 낙폭·200일선·시장조정) 눌림목 강도 점수 · 밸류에이션/퀄리티 · 실적 추이 &nbsp;|&nbsp; buy_signal_dashboard.html(단타 신호)과는 별개 도구 &nbsp;|&nbsp; <a href="consensus_research_status.html" target="_blank" style="color:var(--sub);">컨센서스 수집 상태 보기</a></div>
+      <div class="sub">장기: 승률 검증된 3개 타이밍 지표(52주 낙폭·200일선·시장조정) 눌림목 강도 점수 · 밸류에이션/퀄리티 · 실적 추이 &nbsp;|&nbsp; '단타 신호 대시보드'와는 별개 도구 &nbsp;|&nbsp; <a href="consensus_research_status.html" target="_blank" style="color:var(--sub);">컨센서스 수집 상태 보기</a></div>
     </div>
     <div class="updated" id="updatedAt">아직 체크 안 함</div>
   </header>
@@ -2934,10 +2945,12 @@ function renderVerdictScorecard(){
       return `<tr><td style="white-space:nowrap;">${grp.label}</td>${cells}</tr>`;
     }).join('');
     return `<div class="sub" style="margin:10px 0 4px;font-weight:700;">${title}</div>
+      <div style="overflow-x:auto;">
       <table style="width:100%;border-collapse:collapse;font-size:12.5px;">
         <thead><tr><th style="text-align:left;">판정 묶음</th>${horizons.map(h=>`<th>${h}거래일 뒤</th>`).join('')}</tr></thead>
         <tbody>${rows}</tbody>
-      </table>`;
+      </table>
+      </div>`;
   };
   box.innerHTML = `
     <div class="sub">섹터ETF 대비 초과수익 기준 · 적중률은 매수/회피 계열만(중립은 분포만) · 총 ${d.totalRowsScored||0}행 채점(판정변경일만 ${d.totalChangeDaysScored||0}행)</div>
@@ -5487,7 +5500,7 @@ function renderDownturnCauseCard(r){
   const bpHtml = bp ? `
     <div style="margin-top:9px;">
       <div style="font-weight:700;font-size:12px;">사업 전제: ${esc(bp.status)}</div>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:4px;font-size:11.5px;color:${NEU_TEXT};">
+      <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px;margin-top:4px;font-size:11.5px;color:${NEU_TEXT};">
         <div><b>지지 근거</b>${listHtml(bp.support)}</div>
         <div><b>경계 요인</b>${listHtml(bp.caution)}</div>
       </div>
@@ -5565,7 +5578,7 @@ function renderDownturnCauseSummary(scored){
       return `<div style="background:${NEU_BG};border:1px solid ${NEU_LINE};border-radius:10px;padding:12px 10px;text-align:center;">
         <div style="font-size:22px;font-weight:800;color:${NEU_TEXT};">${list.length}</div>
         <div style="font-size:11px;color:${NEU_TEXT};font-weight:700;margin-top:4px;line-height:1.3;">${lbl}</div>
-        <div style="font-size:11px;color:${NEU_DIM};margin-top:2px;">${list.length ? list.join('·') : '0종목'}</div>
+        <div style="font-size:11px;color:${NEU_DIM};margin-top:2px;overflow-wrap:break-word;">${list.length ? list.join('·') : '0종목'}</div>
       </div>`;
     }).join('')
   }</div>`;
@@ -13719,7 +13732,7 @@ function renderTripodCard(){
       <span style="font-family:var(--mono);font-size:14px;font-weight:800;color:${tripodLevColor(cur.target_lev)};">${TRIPOD_LEV_LABEL[cur.target_lev]||cur.target_lev+'배'}</span>
     </div>
     <div class="sub" style="margin-top:4px;">기준일 ${esc(cur.date)} · ${cur.state==='up'?'상승장':'하락장'} · VIX10 ${cur.vix10!=null?cur.vix10.toFixed(1):'-'} · 52주 낙폭 ${cur.drawdown!=null?(cur.drawdown*100).toFixed(1):'-'}%</div>
-    <table style="margin-top:8px;font-size:12.5px;width:100%;">${rows}</table>
+    <div style="overflow-x:auto;"><table style="margin-top:8px;font-size:12.5px;width:100%;">${rows}</table></div>
     ${hist.length>5 ? `<div class="sub" style="margin-top:6px;"><span class="remove" style="cursor:pointer;" onclick="openTripodHistory()">전체 기록 보기 (${hist.length}건) →</span></div>` : ''}
   `;
 }
@@ -14493,7 +14506,7 @@ function renderTechSection(r){
     <div class="chart-label">MACD 히스토그램 (참고용 - 매수신호 판정에는 더는 안 씀)</div>
     <canvas id="techMacdCanvas"></canvas>
     <div class="glossary" style="margin-top:10px;">
-      <b>이 신호는 2026년 7월 기준 대형주 14종목 5년치 실데이터로 백테스트해서 검증한 규칙</b>이에요(buy_signal_dashboard.html의 RSI/MACD/볼린저 6점 룰과는 의도적으로 다른, 별도로 검증된 규칙). 화살표(▲)는 "이럴 때 사면 과거 통계상 유리했다"는 <b>눌림목 진입 후보</b>일 뿐, 정확한 바닥을 집어주는 건 아니에요.<br>
+      <b>이 신호는 2026년 7월 기준 대형주 14종목 5년치 실데이터로 백테스트해서 검증한 규칙</b>이에요('단타 신호 대시보드'의 RSI/MACD/볼린저 6점 룰과는 의도적으로 다른, 별도로 검증된 규칙). 화살표(▲)는 "이럴 때 사면 과거 통계상 유리했다"는 <b>눌림목 진입 후보</b>일 뿐, 정확한 바닥을 집어주는 건 아니에요.<br>
       · <b>매수 신호 조건</b>: ① 우상향(종가&gt;200일선) 중 RSI 30~38로 눌린 날, 또는 ② RSI&lt;30(과매도)인 날. 단 ②가 하락추세(종가≤200일선)면 <b>당일 반등(오늘 종가&gt;어제 종가)이 확인될 때만</b> 신호로 봐요.<br>
       · <b>떨어지는 칼날(falling knife) 회피</b>: 예전엔 하락추세에서 RSI만 낮으면 매일 '매수'가 떴는데, 계속 빠지는 중에도 신호가 찍히는 문제가 있었어요(MSFT 2024-07엔 11일 연속 신호가 뜨며 그 뒤 -7.9%까지 하락). 그래서 하락추세 과매도는 '반등 시작'이 보일 때만 신호로 인정하게 바꿨어요.<br>
       · <b>신호 뭉침 제거(쿨다운 5거래일)</b>: 한 번 신호가 나면 5거래일간은 새 진입신호로 안 쳐요. 같은 자리에 신호가 뭉쳐 찍히던 걸 없앴고, 백테스트도 이 '뭉침 제거된 진입'만으로 계산해요. MSFT 기준 과거 신호일이 67일→17건으로 정리됐어요.<br>
