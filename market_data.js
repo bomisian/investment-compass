@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Explosion at Iraqi paramilitary alliance base kills one member, sources say - Reuters",
+      "summary": "Explosion at Iraqi paramilitary alliance base kills one member, sources say Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMFdrc1I4NnJ2Z0NQeUM2c25pYzF4ekRXcFVHRHlYVWVVYXhhV0hDXzhVUWtUc2JCRnZmU0lZRkJlRkZudWNzUzJINWpDWWdFcG13SG5YVHJnMk9tcEE2Z3BtdHJ1VHdJcXA4eGNQYXVfcE1VX293QjhYQ0YtaVJUOU1kYjJoR2hPeUJJNlNDUzVfVnlxVUhINGJEV2UzTllWRWVrRmpuNG5ZVGY2SFFvcFpySlJsNUEtYmF6LVNEcEpnck0?oc=5",
+      "datetime": 1792254917,
+      "headlineKo": "이라크 준군사 동맹 기지에서 폭발이 발생해 멤버 1명이 사망했다고 소식통이 전했습니다.",
+      "summaryKo": "이라크 준군사 동맹 기지에서 폭발이 발생해 멤버 1명이 사망했다고 소식통이 로이터에 전했다."
+    },
+    {
       "headline": "Iran's Guards say two tankers hit mines in Strait of Hormuz - Reuters",
       "summary": "Iran's Guards say two tankers hit mines in Strait of Hormuz Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792176379,
       "headlineKo": "우리는 큰 복귀 이후 이 소매 재고를 다운그레이드하고 있습니다. 게다가 AI 이름이 다시 미끄러집니다.",
       "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
-    },
-    {
-      "headline": "NBA tightens betting rules, develops AI to flag suspicious wagers",
-      "summary": "The NBA is tightening restrictions on bets and deploying AI to help identify suspicious wagering, according to two documents obtained by CNBC.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/16/nba-tightens-betting-rules-develops-ai-to-flag-suspicious-wagers.html",
-      "datetime": 1792173050,
-      "headlineKo": "NBA, 베팅 규칙을 강화하고 의심스러운 베팅을 표시하는 AI 개발",
-      "summaryKo": "CNBC가 입수한 두 문서에 따르면 NBA는 의심스러운 베팅을 식별하는 데 도움을 주기 위해 베팅에 대한 제한을 강화하고 AI를 배포하고 있습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792260068.575545,
+  "_news_last_success_at": 1792263613.1544251,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792260061.0018232,
-  "_updated_label": "2026-10-18 03:01",
-  "_last_attempt_at": 1792260061.0018232,
-  "_last_success_at": 1792260061.0018232,
+  "_fetched_at": 1792263604.8752434,
+  "_updated_label": "2026-10-18 04:00",
+  "_last_attempt_at": 1792263604.8752434,
+  "_last_success_at": 1792263604.8752434,
   "_collection_status": "ok",
   "_collection_errors": []
 };
