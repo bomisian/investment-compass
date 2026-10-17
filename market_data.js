@@ -241,7 +241,7 @@ const MARKET_DATA = {
       "summary": "Israeli settlers attack Palestinians during West Bank olive harvest Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPczd6aXNWNkdjZTNxV0V1MXhjQm5YTUtZT2JEUXY4dm81UFNlMVprd01ZdDI0VDI2ZEducHJha09yTkRIaWZMLVpmanQ0dVRBWm56cVBxLWFCOEZkekdCU0ZISkhWeEFxTWRDaGtmR3NPRjc1MVkyQnVhdjZRSzZxWm9OODE2RmxSY19CclZ1WThuWTZrOG15SUtmSlZJd0tfZkwtcmVsQlltc0VNZnMtMWdB?oc=5",
-      "datetime": 1792208475,
+      "datetime": 1792215619,
       "headlineKo": "이스라엘 정착민, 서안지구 올리브 수확 중 팔레스타인 공격 - 로이터",
       "summaryKo": "이스라엘 정착민, 서안지구 올리브 수확 중 팔레스타인 공격 - 최신"
     },
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792213226.2044175,
+  "_news_last_success_at": 1792217409.2031317,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792213218.056086,
-  "_updated_label": "2026-10-17 14:00",
-  "_last_attempt_at": 1792213218.056086,
-  "_last_success_at": 1792213218.056086,
+  "_fetched_at": 1792217401.685978,
+  "_updated_label": "2026-10-17 15:10",
+  "_last_attempt_at": 1792217401.685978,
+  "_last_success_at": 1792217401.685978,
   "_collection_status": "ok",
   "_collection_errors": []
 };
