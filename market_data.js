@@ -191,10 +191,10 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": -0.24347946315096403,
-        "ret3m": 14.676495127240718,
-        "ret6m": 10.628713782987376,
-        "ret1y": 3.7649212756620143,
+        "ret1m": -1.0483519581160006,
+        "ret3m": 12.533297504191543,
+        "ret6m": 8.65318606660066,
+        "ret1y": 3.3996433633498357,
         "winRate": 60.8,
         "count": 9
       },
@@ -229,11 +229,11 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.29528297577060103,
-    "corrPctRank": 6.610878661087866,
-    "corrMin5y": 0.036257837878636255,
-    "corrMedian5y": 0.6997619915917241,
-    "corrMax5y": 0.9306761077384692
+    "corr60": 0.253288068053847,
+    "corrPctRank": 6.2761506276150625,
+    "corrMin5y": 0.03632407315364342,
+    "corrMedian5y": 0.6946553068528863,
+    "corrMax5y": 0.9309865329326152
   },
   "news": [
     {
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792238412.5957947,
+  "_news_last_success_at": 1792242042.4465907,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792238404.7762468,
-  "_updated_label": "2026-10-17 21:00",
-  "_last_attempt_at": 1792238404.7762468,
-  "_last_success_at": 1792238404.7762468,
+  "_fetched_at": 1792242011.0715587,
+  "_updated_label": "2026-10-17 22:01",
+  "_last_attempt_at": 1792242011.0715587,
+  "_last_success_at": 1792242011.0715587,
   "_collection_status": "ok",
   "_collection_errors": []
 };

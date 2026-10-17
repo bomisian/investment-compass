@@ -6587,7 +6587,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 128,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "SPY": {
@@ -14633,7 +14633,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 165,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "MSFT": {
@@ -22576,7 +22576,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "GOOGL": {
@@ -30672,7 +30672,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "AMZN": {
@@ -38899,7 +38899,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "META": {
@@ -46925,7 +46925,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "AAPL": {
@@ -54912,7 +54912,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "TSLA": {
@@ -55036,7 +55036,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1792239914.4966445
-        }
+        },
+        "headlineKo": "Cathie Wood가 이끄는 Ark Invest의 가장 큰 3분기 승자와 패자 — PLTR, NVDA, TXG가 주도하고 TSLA, RKLB가 끌려갔습니다."
       },
       {
         "headline": "BYD or Tesla: Which Is a Better Stock?",
@@ -63024,7 +63025,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "ORCL": {
@@ -71617,7 +71618,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "CRM": {
@@ -79884,7 +79885,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 182,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "PLTR": {
@@ -79944,7 +79945,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1792239960.9139972
-        }
+        },
+        "headlineKo": "Cathie Wood가 이끄는 Ark Invest의 가장 큰 3분기 승자와 패자 — PLTR, NVDA, TXG가 주도하고 TSLA, RKLB가 끌려갔습니다."
       },
       {
         "headline": "Stocktwits Defense Watch: RTX Continues Deal Momentum, Ondas-Palantir Launch AI Firm As AeroVironment Strike Four International Deals",
@@ -88990,7 +88992,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "NVDA": {
@@ -89114,7 +89116,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1792239984.0237877
-        }
+        },
+        "headlineKo": "Cathie Wood가 이끄는 Ark Invest의 가장 큰 3분기 승자와 패자 — PLTR, NVDA, TXG가 주도하고 TSLA, RKLB가 끌려갔습니다."
       },
       {
         "headline": "TSMC Says AI Chip Demand Is Still Far Above What It Can Supply. That's Why I'd Buy Nvidia Stock.",
@@ -96694,7 +96697,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "AMD": {
@@ -104829,7 +104832,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "AVGO": {
@@ -113703,7 +113706,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "QCOM": {
@@ -122450,7 +122453,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "ARM": {
@@ -128553,7 +128556,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "MRVL": {
@@ -137361,7 +137364,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "INTC": {
@@ -146183,7 +146186,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "TSM": {
@@ -154729,7 +154732,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "ASML": {
@@ -161419,7 +161422,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "AMAT": {
@@ -167762,7 +167765,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 131,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "LRCX": {
@@ -171001,7 +171004,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "KLAC": {
@@ -174239,7 +174242,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "MU": {
@@ -182312,7 +182315,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "SNDK": {
@@ -191336,7 +191339,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "WDC": {
@@ -197199,7 +197202,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 122,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "ANET": {
@@ -201597,7 +201600,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "COHR": {
@@ -205674,7 +205677,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "LITE": {
@@ -210583,7 +210586,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "GEV": {
@@ -216585,7 +216588,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "CEG": {
@@ -222057,7 +222060,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "VST": {
@@ -226098,7 +226101,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "ETN": {
@@ -229838,7 +229841,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "PWR": {
@@ -233182,7 +233185,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "HUBB": {
@@ -234142,7 +234145,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "VRT": {
@@ -238667,7 +238670,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "MOD": {
@@ -240240,7 +240243,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "STX": {
@@ -245274,7 +245277,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 108,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "EME": {
@@ -247426,7 +247429,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "FIX": {
@@ -249311,7 +249314,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   },
   "BE": {
@@ -252127,7 +252130,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-17 21:31"
+      "updated": "2026-10-17 22:00"
     }
   }
 };
