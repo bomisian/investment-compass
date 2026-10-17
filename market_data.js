@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": -0.24355700164216953,
-        "ret3m": 14.67640599179012,
-        "ret6m": 10.628627793785817,
-        "ret1y": 3.764840621531418,
+        "ret1m": 4.223177199100325,
+        "ret3m": 17.995152231934043,
+        "ret6m": 15.333085106991673,
+        "ret1y": 7.477806931675968,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -8.299705686085856,
-        "ret3m": -6.622640955453829,
-        "ret6m": 27.913994415480214,
-        "ret1y": 124.9913860309881,
+        "ret1m": -0.16678343967524434,
+        "ret3m": -0.9987702549157595,
+        "ret6m": 37.13719401352182,
+        "ret1y": 146.61243907515083,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": -13.308651863450649,
-        "ret3m": -0.8851562497438237,
-        "ret6m": -8.632552918830106,
-        "ret1y": 163.94103871450932,
+        "ret1m": -8.038676757993935,
+        "ret3m": 7.74009514877112,
+        "ret6m": -0.7480864080554483,
+        "ret1y": 183.5618499310559,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": -5.675437312620346,
-        "ret3m": -7.335117455158224,
-        "ret6m": -9.129484412830802,
-        "ret1y": 21.631425370971,
+        "ret1m": -2.163246530001439,
+        "ret3m": -5.18873439842189,
+        "ret6m": -4.998188219542565,
+        "ret1y": 26.817717325671154,
         "winRate": null,
         "count": 12
       }
@@ -229,10 +229,10 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.295283716252429,
-    "corrPctRank": 6.610878661087866,
+    "corr60": 0.23532173821246438,
+    "corrPctRank": 6.197654941373535,
     "corrMin5y": 0.036257837878636255,
-    "corrMedian5y": 0.6997619915917241,
+    "corrMedian5y": 0.6998027599922549,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
@@ -241,9 +241,18 @@ const MARKET_DATA = {
       "summary": "Israeli settlers attack Palestinians during West Bank olive harvest Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPczd6aXNWNkdjZTNxV0V1MXhjQm5YTUtZT2JEUXY4dm81UFNlMVprd01ZdDI0VDI2ZEducHJha09yTkRIaWZMLVpmanQ0dVRBWm56cVBxLWFCOEZkekdCU0ZISkhWeEFxTWRDaGtmR3NPRjc1MVkyQnVhdjZRSzZxWm9OODE2RmxSY19CclZ1WThuWTZrOG15SUtmSlZJd0tfZkwtcmVsQlltc0VNZnMtMWdB?oc=5",
-      "datetime": 1792186875,
+      "datetime": 1792192275,
       "headlineKo": "이스라엘 정착민, 서안지구 올리브 수확 중 팔레스타인 공격 - 로이터",
       "summaryKo": "이스라엘 정착민, 서안지구 올리브 수확 중 팔레스타인 공격 - 최신"
+    },
+    {
+      "headline": "Missiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu - Reuters",
+      "summary": "Missiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPelJ6OUp1VFpwTmJ0Qm85TzRUS2ppU0swVFMydlJuTDZiS1Q1V2R6M1N4bmpfeTZ0aWNqd29XbGdDMm9IVllmLTZUazAxQWFzX3lsVlJBbHI4TVRfQVFrZlk5MkNqVzVCMU5XYkFwM3Fyb0pkbDk0bGo5N1dwQWJMMEo5aEhIeXpaS1J5TkRLVFZTem93Rl9rM2trUHZlaDQwSzVIQTB4UG1xelRQSU5wZ2I4X1N1V0VPUElsWHBIYVZvckhpYk9RZVhZaw?oc=5",
+      "datetime": 1792187513,
+      "headlineKo": "사우디 주도 연합군이 얀부로 향하는 미사일을 요격하는 동안 미사일이 아덴 공항을 강타했습니다 - 로이터",
+      "summaryKo": "사우디 주도 연합군이 얀부로 향하는 미사일을 요격하는 동안 미사일이 아덴 공항을 강타했습니다."
     },
     {
       "headline": "US solicits exchange of up to 17 million barrels of oil from strategic reserve - Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792166789,
       "headlineKo": "다음 주 Capital One과 Meta의 수익 보고가 언제 보고 싶은지",
       "summaryKo": "Investing Club은 매주 평일 오전 10시 20분(ET)에 \"아침 모임\"을 개최합니다."
-    },
-    {
-      "headline": "Kimberly-Clark is having its best week in four years. Here's what is propelling shares higher",
-      "summary": "After a bruising September for the stock, the good news is starting to pile up.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/10/16/kimberly-clark-stock-q3-kenvue-deal-cramer.html",
-      "datetime": 1792163545,
-      "headlineKo": "Kimberly-Clark는 4년 만에 최고의 한 주를 보내고 있습니다. 주가 상승을 촉진하는 요인은 다음과 같습니다.",
-      "summaryKo": "9월의 멍든 주식 이후, ​​좋은 소식이 쌓이기 시작했습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792191613.0139306,
+  "_news_last_success_at": 1792195216.8707416,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792191605.251895,
-  "_updated_label": "2026-10-17 08:00",
-  "_last_attempt_at": 1792191605.251895,
-  "_last_success_at": 1792191605.251895,
+  "_fetched_at": 1792195208.418438,
+  "_updated_label": "2026-10-17 09:00",
+  "_last_attempt_at": 1792195208.418438,
+  "_last_success_at": 1792195208.418438,
   "_collection_status": "ok",
   "_collection_errors": []
 };
