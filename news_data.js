@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1792225130.265845,
+    "_last_attempt_at": 1792247823.2095468,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -52,80 +52,16 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792225133.7140915
+          "analysisUpdatedAt": 1792247828.6466613
         },
         "headlineKo": "두 배의 크기, 두 배의 레버리지: 우리가 이 QQQ 거래를 강화한 이유"
       },
       {
-        "headline": "Stock Market Today: Dow Jones, S&P 500 Futures Rise, Nasdaq Falls as Bessent Intensifies Economic Pressure on Iran— TSLA, AA, IBKR in Focus (UPDATED)",
+        "headline": "QQQ vs. Cheaper Nasdaq-100 ETFs: Why BlackRock And State Street Aren't Winning Investors Yet",
         "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=0fc391f757fa0526b91434da422167199f9703a1477fa3bc3b41948f12bb44ca",
-        "datetime": 1792140192,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "오늘의 주식 시장: Bessent가 이란, 재무부에 대한 경제적 압력을 강화함에 따라 다우, S&P 500 선물 상승 - Benzinga SPY 773.62 +0.24% QQQ 728.93 +0.13% BTC/USD 82,035.70 −0.12% DIA 523.10 +0.37% GLD 383.86 +0.30% TLT 79.97 US 로그인 등록",
-            "목요일 종가에 이어 다우존스, S&P 500, 나스닥 100 지수가 상승하면서 금요일 주식 선물은 상승했습니다.",
-            "고베이시 레터(Kobeissi Letter)에 따르면, 반도체 주식이 폭락하면서 투자자들이 국채로 몰리면서 국채 수익률이 목요일 수십 년 만에 최고치에서 하락했다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.24%, 0.13%, 0.12% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.24%",
-            "0.13%",
-            "0.12%",
-            "0.37%",
-            "0.30%",
-            "5.085%",
-            "5.36%",
-            "5.429%"
-          ],
-          "sourceExcerpt": [
-            "Stock Market Today: Dow, S&P 500 Futures Rise as Bessent Intensifies Economic Pressure on Iran, Treasury - Benzinga SPY 773.62 +0.24% QQQ 728.93 +0.13% BTC/USD 82,035.70 −0.12% DIA 523.10 +0.37% GLD 383.86 +0.30% TLT 79.97 US Sign in Regist",
-            "stock futures were higher on Friday, as the Dow Jones, S&P 500 and Nasdaq 100 indices rose, following Thursday’s higher close.",
-            "Treasury yields pulled back from multi-decade highs Thursday, with a rout in semiconductor stocks sending investors into government bonds, according to The Kobeissi Letter."
-          ],
-          "analysisUpdatedAt": 1792225136.2733488
-        },
-        "headlineKo": "오늘의 주식 시장: Bessent가 이란에 대한 경제적 압력을 강화함에 따라 Dow Jones, S&P 500 선물 상승, Nasdaq 하락 - TSLA, AA, IBKR 초점(업데이트됨)"
-      },
-      {
-        "headline": "Mike Novogratz Warns Nasdaq Could Plunge 30% in an ‘AI Catastrophe’ — Here’s Why He Still Expects the Data Center Boom to Continue",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=0cf4cc57cf2c1debb23d2253042b15c895e0d6b3ff2ab79f540ea1ebfc027f7a",
-        "datetime": 1792129629,
-        "relevance": 0.67,
+        "url": "https://finnhub.io/api/news?id=9cdf42363fd6b28fb03e4b2cbb83f6de1339e41036935d48c69c1e1a6cbfd783",
+        "datetime": 1792164165,
+        "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
@@ -136,13 +72,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Mike Novogratz는 AI 재앙이 Nasdaq을 30% 침몰시킬 것이라고 말합니다 - Invesco QQQ Trust, Series 1 (NASDAQ:QQQ) - Benzinga SPY 773.37 +0.20% QQQ 728.61 +0.08% BTC/USD 82,023.23 −0.13% DIA 522.83 +0.32% GLD 383.36 +0.17% TLT 79.95 −0.03% US 로그인 R",
-            "(NASDAQ: GLXY ) CEO Mike Novogratz는 인공 지능 데이터 센터 구축을 중단하면 미국의 성장이 둔화될 것이라고 경고했습니다.",
-            "경제, 가상의 \"AI 재앙\"은 나스닥을 붕괴시킬 수 있다고 말합니다."
+            "BlackRock, State Street ETF: 투자자들이 전환하지 않는 이유 - Invesco QQQ Trust, Series 1 (NASDA - Benzinga SPY 762.64 −1.19% QQQ 709.96 −2.48% BTC/USD 81,329.30 −0.98% DIA 518.38 −0.52% GLD 381.78 −0.24% TLT 80.04 +0.08% 미국 로그인 등록",
+            "저렴한 Nasdaq-100 ETF: BlackRock과 State Street가 아직 투자자를 확보하지 못하는 이유 Invesco의 기존 제품이 계속해서 자산 및 거래액을 지배하고 있기 때문에 낮은 수수료는 두 개의 새로운 Nasdaq-100 ETF에 대한 의미 있는 견인력으로 해석되지 않았습니다.",
+            "Morgan의 분석가 Kenneth Worthington, Michael Cho 및 Madeline Daleiden은 10월에 언급했습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 30%, 0.20%, 0.08% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.19%, 2.48%, 0.98% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -163,46 +99,110 @@ const NEWS_DATA = {
           ],
           "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
           "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "1.19%",
+            "2.48%",
+            "0.98%",
+            "0.52%",
+            "0.24%",
+            "0.08%",
+            "$489 billion",
+            "$110 billion"
+          ],
+          "sourceExcerpt": [
+            "BlackRock, State Street ETFs: Why Investors Aren't Switching - Invesco QQQ Trust, Series 1 (NASDA - Benzinga SPY 762.64 −1.19% QQQ 709.96 −2.48% BTC/USD 81,329.30 −0.98% DIA 518.38 −0.52% GLD 381.78 −0.24% TLT 80.04 +0.08% US Sign in Regist",
+            "Cheaper Nasdaq-100 ETFs: Why BlackRock And State Street Aren't Winning Investors Yet Lower fees haven’t translated into meaningful traction for two new Nasdaq-100 ETFs, as Invesco’s established products continue to dominate in assets and tr",
+            "Morgan analysts Kenneth Worthington, Michael Cho and Madeline Daleiden noted in an Oct."
+          ],
+          "analysisUpdatedAt": 1792247835.0355897
+        },
+        "headlineKo": "QQQ vs. 더 저렴한 Nasdaq-100 ETF: BlackRock과 State Street가 아직 투자자를 확보하지 못하는 이유"
+      },
+      {
+        "headline": "Nasdaq 100 Slides As Micron, SanDisk, CoreWeave Sink: Stock Market Today",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=c5926a8a854f428679082b9816725c53cdafe5c734def83695422491bdeefea2",
+        "datetime": 1792153986,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nasdaq 100 Slides As Micron, SanDisk, CoreWeave Sink % - 전략 (NASDAQ:MSTR) - Benzinga SPY 767.20 −0.59% QQQ 716.60 −1.57% BTC/USD 81,502.24 −0.77% DIA 520.47 −0.12% GLD 381.46 −0.33% TLT 79.69 −0.36% US 로그인 회원가입 내 계정 Benz",
+            "금요일 정오에 AI 금융 공포로 인해 나스닥 100이 1% 이상 하락했고, 가치주와 방어주로의 회전이 다우존스를 끌어올리면서 주가가 분기되었습니다.",
+            "나스닥 100 지수는 AI 연계 이름으로 약 29,535 압력으로 1.3%, 즉 400포인트 하락했습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.59%, 1.57%, 0.77% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "30%",
-            "0.20%",
-            "0.08%",
-            "0.13%",
-            "0.32%",
-            "0.17%",
-            "0.03%",
-            "$500 Billion"
+            "0.59%",
+            "1.57%",
+            "0.77%",
+            "0.12%",
+            "0.33%",
+            "0.36%",
+            "1%",
+            "1.3%"
           ],
           "sourceExcerpt": [
-            "Mike Novogratz Says an AI Catastrophe Would Sink Nasdaq 30% - Invesco QQQ Trust, Series 1 (NASDAQ:QQQ) - Benzinga SPY 773.37 +0.20% QQQ 728.61 +0.08% BTC/USD 82,023.23 −0.13% DIA 522.83 +0.32% GLD 383.36 +0.17% TLT 79.95 −0.03% US Sign in R",
-            "(NASDAQ: GLXY ) CEO Mike Novogratz warned that stopping the artificial intelligence data-center buildout would slow the U.S.",
-            "economy, while saying a hypothetical \"AI catastrophe\" could send the Nasdaq crashing."
+            "Nasdaq 100 Slides As Micron, SanDisk, CoreWeave Sink % - Strategy (NASDAQ:MSTR) - Benzinga SPY 767.20 −0.59% QQQ 716.60 −1.57% BTC/USD 81,502.24 −0.77% DIA 520.47 −0.12% GLD 381.46 −0.33% TLT 79.69 −0.36% US Sign in Register My Account Benz",
+            "stocks diverged at midday Friday as an AI-financing scare dragged the Nasdaq 100 down more than 1%, while rotation into value and defensive names lifted the Dow Jones.",
+            "The Nasdaq 100 dropped 1.3%, or 400 points, to about 29,535 pressure by AI-linked names."
           ],
-          "analysisUpdatedAt": 1792225138.9750562
+          "analysisUpdatedAt": 1792247838.9488733
         },
-        "headlineKo": "Mike Novogratz는 나스닥이 'AI 재앙'으로 인해 30% 급락할 수 있다고 경고합니다. 그가 여전히 데이터 센터 붐이 계속될 것으로 예상하는 이유는 다음과 같습니다."
+        "headlineKo": "Nasdaq 100 슬라이드, Micron, SanDisk, CoreWeave 싱크: 오늘 주식 시장"
       },
       {
-        "headline": "3 Reasons QQQ Could Fall 10% Soon, and 1 Reason It Could Rally Into 2027",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0867e672a631ae6f738653b854e91feab7c1ea73987ee2169be3acaa7b0a39dd",
-        "datetime": 1792087357,
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "QQQ가 곧 10% 하락할 수 있는 3가지 이유와 2027년에 반등할 수 있는 1가지 이유"
-      },
-      {
-        "headline": "Michael Burry's 'Red October' Warning: Why QQQ and SMH Could Face More Pain",
+        "headline": "Stock Market Today: Dow Jones, S&P 500 Futures Rise, Nasdaq Falls as Bessent Intensifies Economic Pressure on Iran— TSLA, AA, IBKR in Focus (UPDATED)",
         "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=56376ae382f8e4214ceded6eef4b27f1089b62fba75f5f38ee0cfdf9212cab82",
-        "datetime": 1792073071,
-        "relevance": 1.0,
+        "url": "https://finnhub.io/api/news?id=0fc391f757fa0526b91434da422167199f9703a1477fa3bc3b41948f12bb44ca",
+        "datetime": 1792140192,
+        "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "마이클 버리(Michael Burry)의 '붉은 10월' 경고: QQQ와 SMH가 더 큰 고통을 겪을 수 있는 이유"
+        "headlineKo": "오늘의 주식 시장: Bessent가 이란에 대한 경제적 압력을 강화함에 따라 Dow Jones, S&P 500 선물 상승, Nasdaq 하락 - TSLA, AA, IBKR 초점(업데이트됨)"
+      },
+      {
+        "headline": "Mike Novogratz Warns Nasdaq Could Plunge 30% in an ‘AI Catastrophe’ — Here’s Why He Still Expects the Data Center Boom to Continue",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=0cf4cc57cf2c1debb23d2253042b15c895e0d6b3ff2ab79f540ea1ebfc027f7a",
+        "datetime": 1792129629,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Mike Novogratz는 나스닥이 'AI 재앙'으로 인해 30% 급락할 수 있다고 경고합니다. 그가 여전히 데이터 센터 붐이 계속될 것으로 예상하는 이유는 다음과 같습니다."
       }
     ],
     "newsHistory": [
@@ -252,7 +252,133 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792225133.7140915
+          "analysisUpdatedAt": 1792247828.6466613
+        }
+      },
+      {
+        "headline": "QQQ vs. Cheaper Nasdaq-100 ETFs: Why BlackRock And State Street Aren't Winning Investors Yet",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=9cdf42363fd6b28fb03e4b2cbb83f6de1339e41036935d48c69c1e1a6cbfd783",
+        "datetime": 1792164165,
+        "headlineKo": "QQQ vs. 더 저렴한 Nasdaq-100 ETF: BlackRock과 State Street가 아직 투자자를 확보하지 못하는 이유",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "BlackRock, State Street ETF: 투자자들이 전환하지 않는 이유 - Invesco QQQ Trust, Series 1 (NASDA - Benzinga SPY 762.64 −1.19% QQQ 709.96 −2.48% BTC/USD 81,329.30 −0.98% DIA 518.38 −0.52% GLD 381.78 −0.24% TLT 80.04 +0.08% 미국 로그인 등록",
+            "저렴한 Nasdaq-100 ETF: BlackRock과 State Street가 아직 투자자를 확보하지 못하는 이유 Invesco의 기존 제품이 계속해서 자산 및 거래액을 지배하고 있기 때문에 낮은 수수료는 두 개의 새로운 Nasdaq-100 ETF에 대한 의미 있는 견인력으로 해석되지 않았습니다.",
+            "Morgan의 분석가 Kenneth Worthington, Michael Cho 및 Madeline Daleiden은 10월에 언급했습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.19%, 2.48%, 0.98% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "1.19%",
+            "2.48%",
+            "0.98%",
+            "0.52%",
+            "0.24%",
+            "0.08%",
+            "$489 billion",
+            "$110 billion"
+          ],
+          "sourceExcerpt": [
+            "BlackRock, State Street ETFs: Why Investors Aren't Switching - Invesco QQQ Trust, Series 1 (NASDA - Benzinga SPY 762.64 −1.19% QQQ 709.96 −2.48% BTC/USD 81,329.30 −0.98% DIA 518.38 −0.52% GLD 381.78 −0.24% TLT 80.04 +0.08% US Sign in Regist",
+            "Cheaper Nasdaq-100 ETFs: Why BlackRock And State Street Aren't Winning Investors Yet Lower fees haven’t translated into meaningful traction for two new Nasdaq-100 ETFs, as Invesco’s established products continue to dominate in assets and tr",
+            "Morgan analysts Kenneth Worthington, Michael Cho and Madeline Daleiden noted in an Oct."
+          ],
+          "analysisUpdatedAt": 1792247835.0355897
+        }
+      },
+      {
+        "headline": "Nasdaq 100 Slides As Micron, SanDisk, CoreWeave Sink: Stock Market Today",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=c5926a8a854f428679082b9816725c53cdafe5c734def83695422491bdeefea2",
+        "datetime": 1792153986,
+        "headlineKo": "Nasdaq 100 슬라이드, Micron, SanDisk, CoreWeave 싱크: 오늘 주식 시장",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nasdaq 100 Slides As Micron, SanDisk, CoreWeave Sink % - 전략 (NASDAQ:MSTR) - Benzinga SPY 767.20 −0.59% QQQ 716.60 −1.57% BTC/USD 81,502.24 −0.77% DIA 520.47 −0.12% GLD 381.46 −0.33% TLT 79.69 −0.36% US 로그인 회원가입 내 계정 Benz",
+            "금요일 정오에 AI 금융 공포로 인해 나스닥 100이 1% 이상 하락했고, 가치주와 방어주로의 회전이 다우존스를 끌어올리면서 주가가 분기되었습니다.",
+            "나스닥 100 지수는 AI 연계 이름으로 약 29,535 압력으로 1.3%, 즉 400포인트 하락했습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.59%, 1.57%, 0.77% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.59%",
+            "1.57%",
+            "0.77%",
+            "0.12%",
+            "0.33%",
+            "0.36%",
+            "1%",
+            "1.3%"
+          ],
+          "sourceExcerpt": [
+            "Nasdaq 100 Slides As Micron, SanDisk, CoreWeave Sink % - Strategy (NASDAQ:MSTR) - Benzinga SPY 767.20 −0.59% QQQ 716.60 −1.57% BTC/USD 81,502.24 −0.77% DIA 520.47 −0.12% GLD 381.46 −0.33% TLT 79.69 −0.36% US Sign in Register My Account Benz",
+            "stocks diverged at midday Friday as an AI-financing scare dragged the Nasdaq 100 down more than 1%, while rotation into value and defensive names lifted the Dow Jones.",
+            "The Nasdaq 100 dropped 1.3%, or 400 points, to about 29,535 pressure by AI-linked names."
+          ],
+          "analysisUpdatedAt": 1792247838.9488733
         }
       },
       {
@@ -6579,15 +6705,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792225130.265845,
-    "_updated_label": "2026-10-17 17:18",
-    "_last_success_at": 1792225130.265845,
+    "_fetched_at": 1792247823.2095468,
+    "_updated_label": "2026-10-17 23:37",
+    "_last_success_at": 1792247823.2095468,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 128,
+      "checked": 130,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "SPY": {
@@ -14633,11 +14759,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 165,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "MSFT": {
-    "_last_attempt_at": 1792225130.265845,
+    "_last_attempt_at": 1792247823.2095468,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -14646,6 +14772,70 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "UK Watchdog Proposes Strategic Market Tag for Microsoft, Puts Excel and Copilot AI Under Competition Scrutiny",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=2db6e325d956f17f2ea32e7621fce9621ab539e987f5dfdcb065e87bb93b602a",
+        "datetime": 1792199406,
+        "relevance": 0.8,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "UK Watchdog은 Microsoft를 위한 전략적 시장 태그를 제안하고 Excel 및 Copilot AI를 경쟁 Scru에 포함시킵니다. - Benzinga SPY 761.10 −1.39% QQQ 707.87 −2.77% BTC/USD 81,512.58 +0.01% DIA 518.00 −0.59% GLD 381.40 −0.34% TLT 80.06 +0.11% 미국 서명",
+            "(NASDAQ: MSFT)는 비즈니스 소프트웨어 생태계에서 전략적 시장 지위를 갖고 있습니다.",
+            "이번 지정은 미국이 어떻게 행동할지에 영향을 미치는 조치의 길을 열어줄 수 있습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.39%, 2.77%, 0.01% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "MSFT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.8,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "1.39%",
+            "2.77%",
+            "0.01%",
+            "0.59%",
+            "0.34%",
+            "0.11%",
+            "$539",
+            "1.93%"
+          ],
+          "sourceExcerpt": [
+            "UK Watchdog Proposes Strategic Market Tag for Microsoft, Puts Excel and Copilot AI Under Competition Scru - Benzinga SPY 761.10 −1.39% QQQ 707.87 −2.77% BTC/USD 81,512.58 +0.01% DIA 518.00 −0.59% GLD 381.40 −0.34% TLT 80.06 +0.11% US Sign i",
+            "(NASDAQ: MSFT) as having Strategic Market Status in its Business Software Ecosystem.",
+            "The designation could pave the way for measures that affect how the U.S."
+          ],
+          "analysisUpdatedAt": 1792247849.6583848
+        },
+        "headlineKo": "UK Watchdog, Microsoft를 위한 전략적 시장 태그 제안, Excel 및 Copilot AI 경쟁 조사"
+      },
       {
         "headline": "Not Alphabet. Not Microsoft. This Is the Cloud Stock I'd Buy With $5,000 Right Now.",
         "source": "Yahoo",
@@ -14706,38 +14896,36 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool When investors think about cloud computing , Alphabet ( GOOGL -2.47% ) ( GOOG -2.32% ) and Microsoft ( MSFT -1.93% ) are often the ",
             "But Oracle ( ORCL -4.64% ) is also making a strong push into AI infrastructure, and its rapidly growing cloud business offers another way to ride the AI boom."
           ],
-          "analysisUpdatedAt": 1792225145.1446218
+          "analysisUpdatedAt": 1792247852.3191838
         },
         "headlineKo": "알파벳이 아닙니다. 마이크로소프트가 아닙니다. 이것이 제가 지금 5,000달러로 사고 싶은 클라우드 주식입니다."
       },
       {
-        "headline": "The Next $5 Trillion Dollar Company: Alphabet or Microsoft?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b2b7e333f74a91f7507db61ea61e28405e7b9576046edb29551b11fef03a8a65",
-        "datetime": 1792169118,
-        "relevance": 0.4,
+        "headline": "Dow Jones Losers: GOOGL, CRM, MSFT, AMZN, CSCO in Today's US Session",
+        "source": "ChartMill",
+        "url": "https://finnhub.io/api/news?id=9bf954ed3d68f0415a8a21c3fb37453861ad6deccaac5526628104a7171ae838",
+        "datetime": 1792177878,
+        "relevance": 0.6,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "다음 5조 달러 규모의 기업: 알파벳인가, 마이크로소프트인가?",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,665.00 −1.07% Dow Jones 51,999.60 −0.44% Nasdaq 100 29,213.40 −2.32% Russell 2000 2,724.81 −1.63% S&P 500 7,665.00 −1.07% 다우존스 51,999.60 −0.44% 나스닥 100 29,213.40 −2.32% 러셀 2000 2,724.81 −1.",
-            "Alphabet은 클라우드를 더 빠르게 성장시키고 있지만 Microsoft는 자체 현금으로 AI 구축에 자금을 지원하고 Alphabet은 보조를 맞추기 위해 주식을 판매합니다."
+            "Dow Jones Losers: GOOGL, CRM, MSFT, AMZN, CSCO in Today's US Session",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $5 Trillion, $5 trillion, $175 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -14747,31 +14935,29 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "MSFT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$5 Trillion",
-            "$5 trillion",
-            "$175 billion",
-            "$4.25",
-            "$4.01",
-            "24.2%",
-            "$119.80 billion",
-            "$24.77 billion"
-          ],
-          "sourceExcerpt": [
-            "The Next $5 Trillion Dollar Company: Alphabet or Microsoft?",
-            "Skip to content ❚❚ At close S&P 500 7,665.00 −1.07% Dow Jones 51,999.60 −0.44% Nasdaq 100 29,213.40 −2.32% Russell 2000 2,724.81 −1.63% S&P 500 7,665.00 −1.07% Dow Jones 51,999.60 −0.44% Nasdaq 100 29,213.40 −2.32% Russell 2000 2,724.81 −1.",
-            "Alphabet is growing its cloud faster, but Microsoft is funding its AI buildout from its own cash while Alphabet sells stock to keep pace."
-          ],
-          "analysisUpdatedAt": 1792225147.6852453
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Dow Jones Losers: GOOGL, CRM, MSFT, AMZN, CSCO in Today's US Session' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.6,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792247854.4278355
         },
+        "headlineKo": "다우 존스 패자 : 오늘 미국 세션의 GOOGL, CRM, MSFT, AMZN, CSCO"
+      },
+      {
+        "headline": "The Next $5 Trillion Dollar Company: Alphabet or Microsoft?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b2b7e333f74a91f7507db61ea61e28405e7b9576046edb29551b11fef03a8a65",
+        "datetime": 1792169118,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
         "headlineKo": "다음 5조 달러 규모의 기업: 알파벳인가, 마이크로소프트인가?"
       },
       {
@@ -14782,81 +14968,7 @@ const NEWS_DATA = {
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "AI 지출이 그리드를 초과함에 따라 Microsoft는 2048년까지 NiSource와 1,100MW 전력 계약을 체결 | TIKR.com 주식 리뷰 Microsoft, AI 지출이 그리드 Gian Estrada를 능가함에 따라 2048년까지 NiSource와 1,100MW 전력 계약 체결 • 3분 읽기",
-            "금요일에 NiSource(NI)는 2028년부터 시작하여 NiSource의 발전 풀에 약 1,100MW를 추가하는 20년 에너지 계약을 Microsoft와 발표했습니다.",
-            "Microsoft는 사이트 서비스에 필요한 모든 생성 및 전송 비용을 지불합니다."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $23.9 billion, $116 billion, 80% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "MSFT에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$23.9 billion",
-            "$116 billion",
-            "80%",
-            "$41 billion",
-            "$50 billion",
-            "$1,999",
-            "$128",
-            "$600,"
-          ],
-          "sourceExcerpt": [
-            "Microsoft Signs 1,100 MW Power Deal With NiSource Until 2048 as AI Spending Outruns the Grid | TIKR.com Stock Reviews Microsoft Signs 1,100 MW Power Deal With NiSource Until 2048 as AI Spending Outruns the Grid Gian Estrada • 3 minute read ",
-            "On Friday, NiSource ( NI ) announced a 20-year energy agreement with Microsoft that starts in 2028 and adds about 1,100 MW to NiSource’s generation pool.",
-            "Microsoft pays for all the generation and transmission needed to serve the site."
-          ],
-          "analysisUpdatedAt": 1792225150.0422487
-        },
         "headlineKo": "AI 지출이 그리드를 초과함에 따라 Microsoft는 2048년까지 NiSource와 1,100MW 전력 계약을 체결했습니다."
-      },
-      {
-        "headline": "Microsoft (MSFT) Remains a High-Quality AI Leader",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=19d1e5e5552fe419652df8f0e81b2df75f7cd753ff5dc1a091701632f719ea82",
-        "datetime": 1792168112,
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Microsoft(MSFT)는 여전히 고품질 AI 리더로 남아 있습니다."
-      },
-      {
-        "headline": "Strong Azure Results Powered Microsoft Corporation’s (MSFT) Rally",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7b39714a15f33bc629f7386c81797b0b1bff3da64201132e43231ed099583b2b",
-        "datetime": 1792166811,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "강력한 Azure 결과는 Microsoft Corporation(MSFT)의 랠리를 뒷받침했습니다."
       },
       {
         "headline": "Microsoft Sues JLL For Protection Against Lawsuit At NYC Office Project",
@@ -14926,6 +15038,69 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "UK Watchdog Proposes Strategic Market Tag for Microsoft, Puts Excel and Copilot AI Under Competition Scrutiny",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=2db6e325d956f17f2ea32e7621fce9621ab539e987f5dfdcb065e87bb93b602a",
+        "datetime": 1792199406,
+        "headlineKo": "UK Watchdog, Microsoft를 위한 전략적 시장 태그 제안, Excel 및 Copilot AI 경쟁 조사",
+        "relevance": 0.8,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "UK Watchdog은 Microsoft를 위한 전략적 시장 태그를 제안하고 Excel 및 Copilot AI를 경쟁 Scru에 포함시킵니다. - Benzinga SPY 761.10 −1.39% QQQ 707.87 −2.77% BTC/USD 81,512.58 +0.01% DIA 518.00 −0.59% GLD 381.40 −0.34% TLT 80.06 +0.11% 미국 서명",
+            "(NASDAQ: MSFT)는 비즈니스 소프트웨어 생태계에서 전략적 시장 지위를 갖고 있습니다.",
+            "이번 지정은 미국이 어떻게 행동할지에 영향을 미치는 조치의 길을 열어줄 수 있습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.39%, 2.77%, 0.01% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "MSFT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.8,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "1.39%",
+            "2.77%",
+            "0.01%",
+            "0.59%",
+            "0.34%",
+            "0.11%",
+            "$539",
+            "1.93%"
+          ],
+          "sourceExcerpt": [
+            "UK Watchdog Proposes Strategic Market Tag for Microsoft, Puts Excel and Copilot AI Under Competition Scru - Benzinga SPY 761.10 −1.39% QQQ 707.87 −2.77% BTC/USD 81,512.58 +0.01% DIA 518.00 −0.59% GLD 381.40 −0.34% TLT 80.06 +0.11% US Sign i",
+            "(NASDAQ: MSFT) as having Strategic Market Status in its Business Software Ecosystem.",
+            "The designation could pave the way for measures that affect how the U.S."
+          ],
+          "analysisUpdatedAt": 1792247849.6583848
+        }
+      },
+      {
         "headline": "Not Alphabet. Not Microsoft. This Is the Cloud Stock I'd Buy With $5,000 Right Now.",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4973c9150d7ec782eb02c031b24fa855ea2e437ec9c65b2ec3d74d4711f5faa8",
@@ -14985,7 +15160,56 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool When investors think about cloud computing , Alphabet ( GOOGL -2.47% ) ( GOOG -2.32% ) and Microsoft ( MSFT -1.93% ) are often the ",
             "But Oracle ( ORCL -4.64% ) is also making a strong push into AI infrastructure, and its rapidly growing cloud business offers another way to ride the AI boom."
           ],
-          "analysisUpdatedAt": 1792225145.1446218
+          "analysisUpdatedAt": 1792247852.3191838
+        }
+      },
+      {
+        "headline": "Dow Jones Losers: GOOGL, CRM, MSFT, AMZN, CSCO in Today's US Session",
+        "source": "ChartMill",
+        "url": "https://finnhub.io/api/news?id=9bf954ed3d68f0415a8a21c3fb37453861ad6deccaac5526628104a7171ae838",
+        "datetime": 1792177878,
+        "headlineKo": "다우 존스 패자 : 오늘 미국 세션의 GOOGL, CRM, MSFT, AMZN, CSCO",
+        "relevance": 0.6,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Dow Jones Losers: GOOGL, CRM, MSFT, AMZN, CSCO in Today's US Session",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Dow Jones Losers: GOOGL, CRM, MSFT, AMZN, CSCO in Today's US Session' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.6,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792247854.4278355
         }
       },
       {
@@ -22548,35 +22772,17 @@ const NEWS_DATA = {
           ],
           "analysisUpdatedAt": 1790798655.4342172
         }
-      },
-      {
-        "headline": "Stock Market Today: Nasdaq Leads Rise; AI Giant Microsoft Tests A New Entry (Live Coverage)",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=bdf695d8ec59f60c9c792ad96f4f917a700d182be709eb34dd52b4ee23a6cc54",
-        "datetime": 1790782834,
-        "headlineKo": "오늘의 주식 시장: 나스닥이 상승을 주도합니다. AI 거대 Microsoft, 새로운 항목 테스트(실시간 보도)",
-        "relevance": 0.4,
-        "keywordFlag": false
-      },
-      {
-        "headline": "Why Gabelli Bought Microsoft Corporation (MSFT) Near Its 52-Week Lows",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c437ac83055b258fa5ce5069a03b9527248e3ae84b6df10d9339f1417a8e10d7",
-        "datetime": 1790782742,
-        "headlineKo": "Gabelli가 52주 최저치 근처에서 Microsoft Corporation(MSFT)을 인수한 이유",
-        "relevance": 1.0,
-        "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792225130.265845,
-    "_updated_label": "2026-10-17 17:19",
-    "_last_success_at": 1792225130.265845,
+    "_fetched_at": 1792247823.2095468,
+    "_updated_label": "2026-10-17 23:37",
+    "_last_success_at": 1792247823.2095468,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "GOOGL": {
@@ -30672,7 +30878,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "AMZN": {
@@ -38899,7 +39105,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "META": {
@@ -46925,7 +47131,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "AAPL": {
@@ -54912,7 +55118,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "TSLA": {
@@ -63026,7 +63232,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "ORCL": {
@@ -71619,7 +71825,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "CRM": {
@@ -79886,7 +80092,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 182,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "PLTR": {
@@ -88994,7 +89200,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "NVDA": {
@@ -96700,7 +96906,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "AMD": {
@@ -104835,7 +105041,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "AVGO": {
@@ -113709,7 +113915,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "QCOM": {
@@ -122456,7 +122662,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "ARM": {
@@ -128559,7 +128765,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "MRVL": {
@@ -137367,7 +137573,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "INTC": {
@@ -146189,7 +146395,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "TSM": {
@@ -154735,7 +154941,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "ASML": {
@@ -161425,7 +161631,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "AMAT": {
@@ -167768,7 +167974,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 131,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "LRCX": {
@@ -171007,11 +171213,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1792225130.265845,
+    "_last_attempt_at": 1792247823.2095468,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -171066,7 +171272,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792225155.3654537
+          "analysisUpdatedAt": 1792247860.9400306
         },
         "headlineKo": "KLAC는 1년 만에 64.5% 급등: 주식을 사야 할까요, 팔아야 할까요, 아니면 보유해야 할까요?"
       },
@@ -171116,7 +171322,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792225156.4673789
+          "analysisUpdatedAt": 1792247862.1764612
         },
         "headlineKo": "KLA CORP (NASDAQ:KLAC): 소득 투자자를 위한 배당 품질 플레이"
       },
@@ -171180,7 +171386,7 @@ const NEWS_DATA = {
             "| Trefis What Is The True Hidden Price Of KLA Stock?",
             "October 14th, 2026 · by Trefis Team KLAC YTD +36.9% SPY YTD +12.5% QQQ YTD +15.8% Analyze KLAC → Investors are currently paying 47.7 times trailing twelve-month earnings for shares of KLA (KLAC) ."
           ],
-          "analysisUpdatedAt": 1792225160.6118486
+          "analysisUpdatedAt": 1792247865.5041268
         },
         "headlineKo": "KLA 주식의 진정한 숨겨진 가격은 무엇입니까?"
       },
@@ -171304,7 +171510,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792225155.3654537
+          "analysisUpdatedAt": 1792247860.9400306
         }
       },
       {
@@ -171353,7 +171559,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792225156.4673789
+          "analysisUpdatedAt": 1792247862.1764612
         }
       },
       {
@@ -171416,7 +171622,7 @@ const NEWS_DATA = {
             "| Trefis What Is The True Hidden Price Of KLA Stock?",
             "October 14th, 2026 · by Trefis Team KLAC YTD +36.9% SPY YTD +12.5% QQQ YTD +15.8% Analyze KLAC → Investors are currently paying 47.7 times trailing twelve-month earnings for shares of KLA (KLAC) ."
           ],
-          "analysisUpdatedAt": 1792225160.6118486
+          "analysisUpdatedAt": 1792247865.5041268
         }
       },
       {
@@ -174237,15 +174443,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792225130.265845,
-    "_updated_label": "2026-10-17 17:19",
-    "_last_success_at": 1792225130.265845,
+    "_fetched_at": 1792247823.2095468,
+    "_updated_label": "2026-10-17 23:37",
+    "_last_success_at": 1792247823.2095468,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "MU": {
@@ -182318,7 +182524,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "SNDK": {
@@ -191342,7 +191548,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "WDC": {
@@ -197205,11 +197411,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 122,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "ANET": {
-    "_last_attempt_at": 1792225130.265845,
+    "_last_attempt_at": 1792247823.2095468,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -197264,7 +197470,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792225165.5742946
+          "analysisUpdatedAt": 1792247871.7236094
         },
         "headlineKo": "Arista Networks CEO는 세계에서 가장 부유한 여성 중 한 명입니다. 그녀는 방금 3,400만 달러의 주식을 팔았습니다."
       },
@@ -197313,7 +197519,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792225166.747696
+          "analysisUpdatedAt": 1792247873.007222
         },
         "headlineKo": "Arista Networks의 다음 분기별 수익 보고서에서 기대할 사항"
       },
@@ -197363,7 +197569,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792225169.1722257
+          "analysisUpdatedAt": 1792247875.4771008
         },
         "headlineKo": "AKAM 대 ANET: 지금 구매하는 것이 더 나은 AI 인프라 주식은 무엇입니까?"
       },
@@ -197435,7 +197641,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792225165.5742946
+          "analysisUpdatedAt": 1792247871.7236094
         }
       },
       {
@@ -197483,7 +197689,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792225166.747696
+          "analysisUpdatedAt": 1792247873.007222
         }
       },
       {
@@ -197532,7 +197738,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792225169.1722257
+          "analysisUpdatedAt": 1792247875.4771008
         }
       },
       {
@@ -201595,15 +201801,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792225130.265845,
-    "_updated_label": "2026-10-17 17:19",
-    "_last_success_at": 1792225130.265845,
+    "_fetched_at": 1792247823.2095468,
+    "_updated_label": "2026-10-17 23:37",
+    "_last_success_at": 1792247823.2095468,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "COHR": {
@@ -205680,7 +205886,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "LITE": {
@@ -210589,7 +210795,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "GEV": {
@@ -216591,7 +216797,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "CEG": {
@@ -222063,7 +222269,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "VST": {
@@ -226104,7 +226310,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "ETN": {
@@ -229844,7 +230050,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "PWR": {
@@ -233188,7 +233394,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "HUBB": {
@@ -234148,7 +234354,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "VRT": {
@@ -238673,7 +238879,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "MOD": {
@@ -240246,7 +240452,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "STX": {
@@ -245280,7 +245486,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 108,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "EME": {
@@ -247432,7 +247638,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "FIX": {
@@ -249317,7 +249523,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   },
   "BE": {
@@ -252133,7 +252339,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-17 22:03"
+      "updated": "2026-10-17 23:37"
     }
   }
 };
