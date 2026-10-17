@@ -191,10 +191,10 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": -1.0483519581160006,
-        "ret3m": 12.533297504191543,
-        "ret6m": 8.65318606660066,
-        "ret1y": 3.3996433633498357,
+        "ret1m": -0.24347946315096403,
+        "ret3m": 14.676495127240718,
+        "ret6m": 10.628713782987376,
+        "ret1y": 3.7649212756620143,
         "winRate": 60.8,
         "count": 9
       },
@@ -229,13 +229,22 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.253288068053847,
-    "corrPctRank": 6.2761506276150625,
-    "corrMin5y": 0.03632407315364342,
-    "corrMedian5y": 0.6946553068528863,
-    "corrMax5y": 0.9309865329326152
+    "corr60": 0.29528297577060103,
+    "corrPctRank": 6.610878661087866,
+    "corrMin5y": 0.036257837878636255,
+    "corrMedian5y": 0.6997619915917241,
+    "corrMax5y": 0.9306761077384692
   },
   "news": [
+    {
+      "headline": "'Everyone laughed' when he started a pumpkin farm—now it brings in $2 million a year",
+      "summary": "Kelly Schultz bought a pumpkin farm in 1996. He transformed it into a seasonal attraction that draws in 100,000 visitors each fall.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/make-it/2026/10/17/great-pumpkin-farm-new-york-2-million-revenue.html",
+      "datetime": 1792242001,
+      "headlineKo": "그가 호박 농장을 시작했을 때 '모두가 웃었다'. 이제는 연간 200만 달러의 수익을 창출합니다.",
+      "summaryKo": "Kelly Schultz는 1996년에 호박 농장을 구입했습니다. 그는 이곳을 매년 가을 100,000명의 방문객을 끌어들이는 계절 명소로 탈바꿈시켰습니다."
+    },
     {
       "headline": "Israeli settlers attack Palestinians during West Bank olive harvest - Reuters",
       "summary": "Israeli settlers attack Palestinians during West Bank olive harvest Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792173050,
       "headlineKo": "NBA, 베팅 규칙을 강화하고 의심스러운 베팅을 표시하는 AI 개발",
       "summaryKo": "CNBC가 입수한 두 문서에 따르면 NBA는 의심스러운 베팅을 식별하는 데 도움을 주기 위해 베팅에 대한 제한을 강화하고 AI를 배포하고 있습니다."
-    },
-    {
-      "headline": "Here's who Netflix just brought in to run content — and what it means for the streamer",
-      "summary": "Peter Rice brings a wealth of experience in TV and film, including scripted and unscripted shows, live sports, prestige television and theatrical distribution.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/16/netflix-peter-rice-chief-content-officer.html",
-      "datetime": 1792170170,
-      "headlineKo": "Netflix가 콘텐츠 운영을 위해 데려온 사람과 이것이 스트리머에게 미치는 영향은 다음과 같습니다.",
-      "summaryKo": "Peter Rice는 대본 및 대본이 없는 쇼, 라이브 스포츠, 유명 TV 및 극장 배급을 포함하여 TV 및 영화 분야에서 풍부한 경험을 제공합니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792242042.4465907,
+  "_news_last_success_at": 1792245613.9642892,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792242011.0715587,
-  "_updated_label": "2026-10-17 22:01",
-  "_last_attempt_at": 1792242011.0715587,
-  "_last_success_at": 1792242011.0715587,
+  "_fetched_at": 1792245605.2771432,
+  "_updated_label": "2026-10-17 23:00",
+  "_last_attempt_at": 1792245605.2771432,
+  "_last_success_at": 1792245605.2771432,
   "_collection_status": "ok",
   "_collection_errors": []
 };
