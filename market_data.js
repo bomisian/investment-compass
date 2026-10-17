@@ -264,6 +264,15 @@ const MARKET_DATA = {
       "summaryKo": "Kelly Schultz는 1996년에 호박 농장을 구입했습니다. 그는 이곳을 매년 가을 100,000명의 방문객을 끌어들이는 계절 명소로 탈바꿈시켰습니다."
     },
     {
+      "headline": "Tanker struck by unknown projectile off Saudi Arabia on Friday, UKMTO says - Reuters",
+      "summary": "Tanker struck by unknown projectile off Saudi Arabia on Friday, UKMTO says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNDZxN09RLXNuaEpfdzNaQ3lhdzUyM29wSU84bG0tR3hpRm14NWM2d0hBbmtSVmtxM0hSZmhLMXQ5bFhCVTNKaTNkLW1LcUZRcEhlS3g1dmNMU1hFY1ZMYUJqaHBRQ0UwT3ZCNXUtM1Zwa3VxeDJxUmYtUXUxNXVKNk4wWHB3V2NaSkZEYk0yZkhXX2ZhMGtVZHhhcVhCOW9OUXp4djVwbGZ4UWdMa1RpTUJQenphV0RHTTFpejNMdDJtdw?oc=5",
+      "datetime": 1792224313,
+      "headlineKo": "UKMTO는 금요일 사우디 아라비아에서 알려지지 않은 발사체에 유조선이 충돌했다고 밝혔습니다 - Reuters",
+      "summaryKo": "UKMTO는 금요일 사우디아라비아에서 정체불명의 발사체에 유조선이 충돌했다고 로이터 통신이 밝혔습니다."
+    },
+    {
       "headline": "Zelenskiy criticizes Trump's waiver of sanctions on Russia as 'wrong' - Reuters",
       "summary": "Zelenskiy criticizes Trump's waiver of sanctions on Russia as 'wrong' Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792176704,
       "headlineKo": "예멘의 포위된 타이즈에서 후티 반군이 접근하자 가족들은 피난처로 대피 - 로이터 통신",
       "summaryKo": "예멘의 포위된 타이즈에서 가족들은 후티 반군이 폐쇄되자 대피소로 이동"
-    },
-    {
-      "headline": "We're downgrading this retail stock after a big comeback. Plus, AI names slide again",
-      "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/10/16/were-downgrading-this-retail-stock-after-a-big-comeback-plus-ai-names-slide-again.html",
-      "datetime": 1792176379,
-      "headlineKo": "우리는 큰 복귀 이후 이 소매 재고를 다운그레이드하고 있습니다. 게다가 AI 이름이 다시 미끄러집니다.",
-      "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792274412.7707245,
+  "_news_last_success_at": 1792278013.5949142,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792274405.2866733,
-  "_updated_label": "2026-10-18 07:00",
-  "_last_attempt_at": 1792274405.2866733,
-  "_last_success_at": 1792274405.2866733,
+  "_fetched_at": 1792278005.3314762,
+  "_updated_label": "2026-10-18 08:00",
+  "_last_attempt_at": 1792278005.3314762,
+  "_last_success_at": 1792278005.3314762,
   "_collection_status": "ok",
   "_collection_errors": []
 };
