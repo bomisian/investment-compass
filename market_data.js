@@ -241,7 +241,7 @@ const MARKET_DATA = {
       "summary": "Israeli settlers attack Palestinians during West Bank olive harvest Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPczd6aXNWNkdjZTNxV0V1MXhjQm5YTUtZT2JEUXY4dm81UFNlMVprd01ZdDI0VDI2ZEducHJha09yTkRIaWZMLVpmanQ0dVRBWm56cVBxLWFCOEZkekdCU0ZISkhWeEFxTWRDaGtmR3NPRjc1MVkyQnVhdjZRSzZxWm9OODE2RmxSY19CclZ1WThuWTZrOG15SUtmSlZJd0tfZkwtcmVsQlltc0VNZnMtMWdB?oc=5",
-      "datetime": 1792192275,
+      "datetime": 1792197675,
       "headlineKo": "이스라엘 정착민, 서안지구 올리브 수확 중 팔레스타인 공격 - 로이터",
       "summaryKo": "이스라엘 정착민, 서안지구 올리브 수확 중 팔레스타인 공격 - 최신"
     },
@@ -250,7 +250,7 @@ const MARKET_DATA = {
       "summary": "Missiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPelJ6OUp1VFpwTmJ0Qm85TzRUS2ppU0swVFMydlJuTDZiS1Q1V2R6M1N4bmpfeTZ0aWNqd29XbGdDMm9IVllmLTZUazAxQWFzX3lsVlJBbHI4TVRfQVFrZlk5MkNqVzVCMU5XYkFwM3Fyb0pkbDk0bGo5N1dwQWJMMEo5aEhIeXpaS1J5TkRLVFZTem93Rl9rM2trUHZlaDQwSzVIQTB4UG1xelRQSU5wZ2I4X1N1V0VPUElsWHBIYVZvckhpYk9RZVhZaw?oc=5",
-      "datetime": 1792187513,
+      "datetime": 1792187460,
       "headlineKo": "사우디 주도 연합군이 얀부로 향하는 미사일을 요격하는 동안 미사일이 아덴 공항을 강타했습니다 - 로이터",
       "summaryKo": "사우디 주도 연합군이 얀부로 향하는 미사일을 요격하는 동안 미사일이 아덴 공항을 강타했습니다."
     },
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792195216.8707416,
+  "_news_last_success_at": 1792200177.4236512,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792195208.418438,
-  "_updated_label": "2026-10-17 09:00",
-  "_last_attempt_at": 1792195208.418438,
-  "_last_success_at": 1792195208.418438,
+  "_fetched_at": 1792200170.0697446,
+  "_updated_label": "2026-10-17 10:23",
+  "_last_attempt_at": 1792200170.0697446,
+  "_last_success_at": 1792200170.0697446,
   "_collection_status": "ok",
   "_collection_errors": []
 };
