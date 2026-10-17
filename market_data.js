@@ -264,13 +264,13 @@ const MARKET_DATA = {
       "summaryKo": "Kelly Schultz는 1996년에 호박 농장을 구입했습니다. 그는 이곳을 매년 가을 100,000명의 방문객을 끌어들이는 계절 명소로 탈바꿈시켰습니다."
     },
     {
-      "headline": "Trump waives key Russia-related sanctions, tariffs before they take effect under new law - Reuters",
-      "summary": "Trump waives key Russia-related sanctions, tariffs before they take effect under new law Reuters",
+      "headline": "Zelenskiy criticizes Trump's waiver of sanctions on Russia as 'wrong' - Reuters",
+      "summary": "Zelenskiy criticizes Trump's waiver of sanctions on Russia as 'wrong' Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUWRsWXNvbUVMb01QdTFTbEhpSGhZLVZYVXZramJkQjg2RXUzbXRaZjZlcnY1QTNoeU1zQzhhOEhwOFZVSkRySFFZNWI3RjZtUHJLaDhybEhWVzFBTF9uVlZjWlNSQk5aX25iZ0EySjRQYjR5aVRiM1VERjVFWmpTOTR0Y1ZhNUtaTHpTaWdZZVRPUmppTUJtYl9IZlhGQnM3WkVSNmRreVBjaDF5anFfSHhqN1ZUc2p3cjRoU0pyUzRkZjlBM05B?oc=5",
       "datetime": 1792199820,
-      "headlineKo": "트럼프, 새로운 법에 따라 발효되기 전에 러시아 관련 주요 제재와 관세를 포기 - 로이터 통신",
-      "summaryKo": "트럼프는 새로운 법에 따라 발효되기 전에 러시아 관련 주요 제재와 관세를 포기했습니다."
+      "headlineKo": "젤렌스키, 트럼프의 러시아 제재 포기는 '잘못'이라고 비판 - 로이터",
+      "summaryKo": "젤렌스키, 트럼프의 러시아 제재 포기는 '잘못'이라고 비판 - 로이터"
     },
     {
       "headline": "Trump mocks popularity of the name Mohammad, common among Muslims - Reuters",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792267021.1734295,
+  "_news_last_success_at": 1792270849.9692163,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792267013.6635993,
-  "_updated_label": "2026-10-18 04:57",
-  "_last_attempt_at": 1792267013.6635993,
-  "_last_success_at": 1792267013.6635993,
+  "_fetched_at": 1792270841.409565,
+  "_updated_label": "2026-10-18 06:01",
+  "_last_attempt_at": 1792270841.409565,
+  "_last_success_at": 1792270841.409565,
   "_collection_status": "ok",
   "_collection_errors": []
 };
