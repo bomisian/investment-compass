@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 4.223177199100325,
-        "ret3m": 17.995152231934043,
-        "ret6m": 15.333085106991673,
-        "ret1y": 7.477806931675968,
+        "ret1m": -0.24347946315096403,
+        "ret3m": 14.676495127240718,
+        "ret6m": 10.628713782987376,
+        "ret1y": 3.7649212756620143,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -0.16678343967524434,
-        "ret3m": -0.9987702549157595,
-        "ret6m": 37.13719401352182,
-        "ret1y": 146.61243907515083,
+        "ret1m": -8.299705686085856,
+        "ret3m": -6.622640955453829,
+        "ret6m": 27.913994415480214,
+        "ret1y": 124.9913860309881,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": -8.038676757993935,
-        "ret3m": 7.74009514877112,
-        "ret6m": -0.7480864080554483,
-        "ret1y": 183.5618499310559,
+        "ret1m": -13.308651863450649,
+        "ret3m": -0.8851562497438237,
+        "ret6m": -8.632552918830106,
+        "ret1y": 163.94103871450932,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": -2.163246530001439,
-        "ret3m": -5.18873439842189,
-        "ret6m": -4.998188219542565,
-        "ret1y": 26.817717325671154,
+        "ret1m": -5.675437312620346,
+        "ret3m": -7.335117455158224,
+        "ret6m": -9.129484412830802,
+        "ret1y": 21.631425370971,
         "winRate": null,
         "count": 12
       }
@@ -229,10 +229,10 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.23532173821246438,
-    "corrPctRank": 6.197654941373535,
+    "corr60": 0.29528297577060103,
+    "corrPctRank": 6.610878661087866,
     "corrMin5y": 0.036257837878636255,
-    "corrMedian5y": 0.6998027599922549,
+    "corrMedian5y": 0.6997619915917241,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
@@ -241,9 +241,27 @@ const MARKET_DATA = {
       "summary": "Israeli settlers attack Palestinians during West Bank olive harvest Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPczd6aXNWNkdjZTNxV0V1MXhjQm5YTUtZT2JEUXY4dm81UFNlMVprd01ZdDI0VDI2ZEducHJha09yTkRIaWZMLVpmanQ0dVRBWm56cVBxLWFCOEZkekdCU0ZISkhWeEFxTWRDaGtmR3NPRjc1MVkyQnVhdjZRSzZxWm9OODE2RmxSY19CclZ1WThuWTZrOG15SUtmSlZJd0tfZkwtcmVsQlltc0VNZnMtMWdB?oc=5",
-      "datetime": 1792197675,
+      "datetime": 1792203075,
       "headlineKo": "이스라엘 정착민, 서안지구 올리브 수확 중 팔레스타인 공격 - 로이터",
       "summaryKo": "이스라엘 정착민, 서안지구 올리브 수확 중 팔레스타인 공격 - 최신"
+    },
+    {
+      "headline": "Trump waives many Russia-related sanctions, tariffs before they were to take effect under new law - Reuters",
+      "summary": "Trump waives many Russia-related sanctions, tariffs before they were to take effect under new law Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUWRsWXNvbUVMb01QdTFTbEhpSGhZLVZYVXZramJkQjg2RXUzbXRaZjZlcnY1QTNoeU1zQzhhOEhwOFZVSkRySFFZNWI3RjZtUHJLaDhybEhWVzFBTF9uVlZjWlNSQk5aX25iZ0EySjRQYjR5aVRiM1VERjVFWmpTOTR0Y1ZhNUtaTHpTaWdZZVRPUmppTUJtYl9IZlhGQnM3WkVSNmRreVBjaDF5anFfSHhqN1ZUc2p3cjRoU0pyUzRkZjlBM05B?oc=5",
+      "datetime": 1792199820,
+      "headlineKo": "트럼프, 새로운 법에 따라 발효되기 전에 많은 러시아 관련 제재와 관세를 포기 - 로이터 통신",
+      "summaryKo": "트럼프는 새로운 법에 따라 러시아 관련 제재와 관세가 발효되기 전에 많은 것을 포기했습니다."
+    },
+    {
+      "headline": "Trump mocks popularity of the name Mohammad, common among Muslims - Reuters",
+      "summary": "Trump mocks popularity of the name Mohammad, common among Muslims Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ2c4Mjd3MjA4UFF3cXBJTVZKNkFCOXdERDN0YjY3NHNydFFzR1hXZ2V6dWljeGJYaUNNR3dEV1VXVHdXU3FhaTRtc21MSF8yZmRUd1lma0wzWU03S1pZR3E5NllSZVctYlJpSTJrLVMyekNHY0F0QkRBVEVLcVM3bnVTbzhLcDcya1d1ZzVsR0MwQ0psblVBenZnYl9IRjV4ZGl6Qg?oc=5",
+      "datetime": 1792194943,
+      "headlineKo": "트럼프, 무슬림들 사이에서 흔히 볼 수 있는 '무하마드'라는 이름의 인기 조롱 - 로이터",
+      "summaryKo": "트럼프, 무슬림 사이에서 흔히 볼 수 있는 모하마드라는 이름의 인기 조롱 - 최신"
     },
     {
       "headline": "Missiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu - Reuters",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792170170,
       "headlineKo": "Netflix가 콘텐츠 운영을 위해 데려온 사람과 이것이 스트리머에게 미치는 영향은 다음과 같습니다.",
       "summaryKo": "Peter Rice는 대본 및 대본이 없는 쇼, 라이브 스포츠, 유명 TV 및 극장 배급을 포함하여 TV 및 영화 분야에서 풍부한 경험을 제공합니다."
-    },
-    {
-      "headline": "Schwab to create 'tax-aware' strategy that's been attracting billions from wealthy investors",
-      "summary": "Wealthy investors are flocking to tax-aware long short strategies, adding billions into these super-powered versions of tax-loss harvesting accounts.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/16/tax-strategies-capital-gains-wealthy-investors-schwab.html",
-      "datetime": 1792167674,
-      "headlineKo": "Schwab, 부유한 투자자들로부터 수십억 달러를 유치해온 '세금 인식' 전략 수립",
-      "summaryKo": "부유한 투자자들은 세금을 고려한 롱숏 전략에 몰려들고 있으며 이러한 강력한 세금 감면 추징 계좌에 수십억 달러를 추가하고 있습니다."
-    },
-    {
-      "headline": "What we want to see when Capital One and Meta report earnings next week",
-      "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/10/16/what-we-want-to-see-when-capital-one-and-meta-report-earnings-next-week-.html",
-      "datetime": 1792166789,
-      "headlineKo": "다음 주 Capital One과 Meta의 수익 보고가 언제 보고 싶은지",
-      "summaryKo": "Investing Club은 매주 평일 오전 10시 20분(ET)에 \"아침 모임\"을 개최합니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792200177.4236512,
+  "_news_last_success_at": 1792205664.1320207,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792200170.0697446,
-  "_updated_label": "2026-10-17 10:23",
-  "_last_attempt_at": 1792200170.0697446,
-  "_last_success_at": 1792200170.0697446,
+  "_fetched_at": 1792205654.1774428,
+  "_updated_label": "2026-10-17 11:54",
+  "_last_attempt_at": 1792205654.1774428,
+  "_last_success_at": 1792205654.1774428,
   "_collection_status": "ok",
   "_collection_errors": []
 };
