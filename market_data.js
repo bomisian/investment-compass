@@ -237,13 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Trump endorses Netanyahu in Israeli election - Reuters",
-      "summary": "Trump endorses Netanyahu in Israeli election Reuters",
+      "headline": "Trump endorses Netanyahu in close Israeli election - Reuters",
+      "summary": "Trump endorses Netanyahu in close Israeli election Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeXNEX0FibmplMGVhLVA1TDdESTEzdk9PR1JYNWtsQzJkTG5ER1lrMkhfV05saHNXYndlOXFxdFJONU4zOEZhZUdtXzR0WGpVSHBuLUUyOExTWHktR3AtMjlnU08yNXpaUWFVOXE1Q3dNaDFkZG4yT0JFMmlkYzdvTXFudjFQOF9rcFBaM0VBbjBaOFQ5bndSNS1fZw?oc=5",
-      "datetime": 1792339837,
-      "headlineKo": "트럼프, 이스라엘 선거에서 네타냐후 지지 - 로이터",
-      "summaryKo": "트럼프, 이스라엘 선거에서 네타냐후 지지 - 최신"
+      "datetime": 1792345280,
+      "headlineKo": "트럼프, 이스라엘 대선에서 네타냐후 지지 - 로이터",
+      "summaryKo": "트럼프, 이스라엘 총선에서 네타냐후 지지 - 최신"
     },
     {
       "headline": "Saudi-led coalition says helicopter crash in Najran kills two crew members - Reuters",
@@ -291,6 +291,15 @@ const MARKET_DATA = {
       "summaryKo": "육아 코치인 Reem Raouda는 성취 여부에 관계없이 아이들이 가치 있다고 느끼고 실망, 불일치, 어려운 감정을 처리하도록 돕는 교훈을 공유합니다."
     },
     {
+      "headline": "Turkey will get some diesel from US-Russia supply deal, energy minister says - Reuters",
+      "summary": "Turkey will get some diesel from US-Russia supply deal, energy minister says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYjdhZ0V0TGxFRVBoQWVSMVBlOXFvdm1rcFlmWm45dVdYS3FJdm5ZdExGM2xRd3hhb1hvWUJYdnVlRG50bm1CbjJubjRnM2JtVFp3UkdiU0QxcVJEbnZyNC1HSDhOYUM1THhiTm9heG9tTV9FTHpwMW1BOEhxN0Q0WjlocVJMZV9TSUlIN0RMZDdkQmpPQUhUQk40bkNDdzdMSVhEa3U5eUZKd2R1OVBqajZYTDI5cDhTT3FaUk5uZw?oc=5",
+      "datetime": 1792324304,
+      "headlineKo": "터키는 미국-러시아 공급 계약을 통해 일부 디젤을 얻을 것이라고 에너지 장관은 말했습니다 - Reuters",
+      "summaryKo": "터키는 미국-러시아 공급 계약을 통해 일부 디젤을 얻을 것이라고 에너지 장관은 말했습니다."
+    },
+    {
       "headline": "Iran urges US to accept proposal to reopen Strait of Hormuz - Reuters",
       "summary": "Iran urges US to accept proposal to reopen Strait of Hormuz Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792254917,
       "headlineKo": "이라크 준군사 동맹 기지에서 폭발이 발생해 멤버 1명이 사망했다고 소식통이 전했습니다.",
       "summaryKo": "이라크 준군사 동맹 기지에서 폭발이 발생해 멤버 1명이 사망했다고 소식통이 로이터에 전했다."
-    },
-    {
-      "headline": "Israeli settlers attack Palestinians, European diplomats in West Bank, Belgium says - Reuters",
-      "summary": "Israeli settlers attack Palestinians, European diplomats in West Bank, Belgium says Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWXplRm9KdGNaY1RUZFA0UUFLbUxVWmx3TlBnRXRCQU5BUjBBRXNDcm9TSEQ2SUthUlpYMl92X052ZGdjMzFZLUd6amZ3UHdFNG5ic0k5LURwUDFOaDZQNE1CYWFlN1JRWDhlcFRWVVZTU0tzN0l5OHVaZXh0dkVFOFFwYkQ5WTIycElqQk5ZeHh3OTZVQWpVWHNkMDFDWk1ndEc5OHUtR2EzbV9iQVZHaWx4REljaTYxSFhsSkdDRkw?oc=5",
-      "datetime": 1792252260,
-      "headlineKo": "이스라엘 정착민들이 팔레스타인을 공격했다고 벨기에 서안지구의 유럽 외교관들이 밝혔습니다.",
-      "summaryKo": "이스라엘 정착민들이 벨기에 서안지구의 팔레스타인인과 유럽 외교관을 공격했다고 로이터 통신이 밝혔습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792347708.4587514,
+  "_news_last_success_at": 1792351482.0603693,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792347701.0445318,
-  "_updated_label": "2026-10-19 03:22",
-  "_last_attempt_at": 1792347701.0445318,
-  "_last_success_at": 1792347701.0445318,
+  "_fetched_at": 1792351472.1960204,
+  "_updated_label": "2026-10-19 04:25",
+  "_last_attempt_at": 1792351472.1960204,
+  "_last_success_at": 1792351472.1960204,
   "_collection_status": "ok",
   "_collection_errors": []
 };
