@@ -623,9 +623,9 @@ const MARKET_EXPECTATION_41 = {
         "HBM/DRAM/NAND 가격이 둔화·반전되는 경우",
         "분석가 목표가 분산이 좁아지며 컨센서스가 수렴하는 경우"
       ],
-      "source_file": "수동 근거 2026-10-18 기준 + 자동 재무 근거 0건",
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
-      "evidence_manual_as_of": "2026-10-18",
+      "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
       "primary_etf": "SMH",
       "etf_environment": "약세/실패",
