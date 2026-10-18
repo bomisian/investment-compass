@@ -194,15 +194,24 @@
   .glossary b{color:var(--text);}
 
   /* 상세 오버레이 */
-  .overlay{display:none;position:fixed;inset:0;background:rgba(32,36,43,0.45);z-index:50;align-items:flex-start;justify-content:center;padding:24px 12px;overflow-y:auto;}
-  /* WO15-ADHOC(수정지시서#15와 함께, 2026-10-18 사용자 승인) -- 안전영역(노치) 대응:
-     overlay의 위쪽 패딩에 env(safe-area-inset-top)을 더해, 고정 헤더가 노치 밑에 가려지지
-     않게 한다(모바일 전용 - PC는 보통 0이라 영향 없음). */
-  @supports (padding-top: env(safe-area-inset-top)){
-    .overlay{padding-top:calc(24px + env(safe-area-inset-top));}
-  }
+  .overlay{display:none;position:fixed;inset:0;background:rgba(32,36,43,0.45);z-index:50;align-items:flex-start;justify-content:center;padding:0 12px 24px;overflow-y:auto;}
+  /* WO15-ADHOC-2(2026-10-18, 봄이 직접 확인 후 지시) -- 위 top:0 sticky는 overlay의
+     "패딩 안쪽 경계"를 기준으로 고정되기 때문에, overlay에 padding-top:24px가 있으면
+     스크롤해도 그 24px 틈은 절대 안 없어지고(패딩은 스크롤 컨테이너의 콘텐츠 상자 밖에서
+     계속 보임) 그 틈으로 본문 글자가 비쳐 보이는 문제가 실제로 발견됐다(공개 페이지
+     375px/1300px 확인). 이전 코멘트의 "패딩값을 따로 빼지 않아도 자동으로 맞음"은 틀린
+     설명이었음 -- 정정한다. 고쳐서: overlay의 top 패딩을 0으로 비우고, 그만큼(24px)을
+     .detail-panel의 margin-top으로 옮겨서 "처음 열었을 때 보이는 간격"은 그대로 유지하되
+     (24px+16px=40px, 기존과 동일), 스크롤 중엔 sticky가 진짜 화면 맨 위(0px)에 틈 없이
+     붙게 했다. */
   .overlay.open{display:flex;}
-  .detail-panel{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:0;max-width:960px;width:100%;margin-top:16px;box-shadow:0 24px 60px rgba(20,22,26,.18);}
+  .detail-panel{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:0;max-width:960px;width:100%;margin-top:40px;box-shadow:0 24px 60px rgba(20,22,26,.18);}
+  /* 순서 중요: @supports가 .detail-panel 기본 선언보다 "뒤"에 와야 안전영역 보정값이
+     기본 40px를 덮어쓴다(CSS는 명시도가 같으면 뒤에 오는 규칙이 이긴다) -- 처음엔 순서가
+     반대로 돼 있어 안전영역 보정이 적용 안 되는 버그가 있었음, 여기서 고쳤다. */
+  @supports (padding-top: env(safe-area-inset-top)){
+    .detail-panel{margin-top:calc(40px + env(safe-area-inset-top));}
+  }
   /* WO15-ADHOC(수정지시서#15와 함께, 2026-10-18 사용자 승인) -- 종목 상세(#detailOverlay)를
      스크롤해도 헤더(티커·종목명·현재가·등락률·3초 판단·가격 라벨)와 탭이 사라지지 않게
      고정한다. 구조를 바꾸지 않고(overlay가 여전히 스크롤 컨테이너) .detail-head+.detail-tabs
