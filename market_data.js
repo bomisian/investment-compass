@@ -246,6 +246,15 @@ const MARKET_DATA = {
       "summaryKo": "이라크 준군사 동맹 기지에서 폭발이 발생해 멤버 1명이 사망했다고 소식통이 로이터에 전했다."
     },
     {
+      "headline": "Egypt's Sisi seeks parliament's backing to help defend Saudi Arabia if asked - Reuters",
+      "summary": "Egypt's Sisi seeks parliament's backing to help defend Saudi Arabia if asked Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ013QTYtQ0JudFVITVllWWh1Y3Y4WXVXOW80UmlXbEw1YXcxSG5RUkc4djV1X255M3BrWFl1ektoZU5vS1pMYzd4MW5jQ19wS3o4NEFDdHEyT3BsdGl6dDRTNXRDTGVKUnFlVkxSamlaVXRRaGhCeTBCblhQaDZUbHh2TlFRbHYzWUQtODRtVDFjdGlyRUxJR3A1OGdXWU1NalRGRnlhTExDbktfdHpWMmpoY1ZpdTlacmtiN0o1TEJaZ28?oc=5",
+      "datetime": 1792247025,
+      "headlineKo": "이집트 시시 총리, 요청 시 사우디아라비아 방어를 돕기 위해 의회의 지원 요청 - 로이터 통신",
+      "summaryKo": "이집트의 시시(Sisi)는 요청 시 사우디아라비아를 방어하기 위해 의회의 지원을 구합니다."
+    },
+    {
       "headline": "Iran's Guards say two tankers hit mines in Strait of Hormuz - Reuters",
       "summary": "Iran's Guards say two tankers hit mines in Strait of Hormuz Reuters",
       "source": "Reuters",
@@ -291,6 +300,15 @@ const MARKET_DATA = {
       "summaryKo": "트럼프, 무슬림 사이에서 흔히 볼 수 있는 모하마드라는 이름의 인기 조롱 - 최신"
     },
     {
+      "headline": "Brent crude hits $110 a barrel for first time since May as supply concerns mount",
+      "summary": "Diesel and gasoline futures also climbed as traders assessed geopolitical risks, disrupted energy infrastructure and limited prospects for immediate supply relief",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-16/oil-tops-110-for-first-time-since-may-as-supply-risk-grows",
+      "datetime": 1792194075,
+      "headlineKo": "공급 우려로 브렌트유는 5월 이후 처음으로 배럴당 110달러를 기록했다.",
+      "summaryKo": "거래자들이 지정학적 위험을 평가하고, 에너지 인프라가 파괴되고, 즉각적인 공급 구제에 대한 전망이 제한되면서 디젤 및 휘발유 선물도 상승했습니다."
+    },
+    {
       "headline": "Missiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu - Reuters",
       "summary": "Missiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu Reuters",
       "source": "Reuters",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792179439,
       "headlineKo": "독점 : 레바논과의 미국 직항 항공편을 재개하려는 트럼프의 움직임-로이터",
       "summaryKo": "독점: 레바논과의 미국 직항 항공편을 재개하려는 트럼프의 움직임이 장애물에 부딪혔습니다."
-    },
-    {
-      "headline": "Wall Street's fear gauge is ripping. Traders see it going even higher",
-      "summary": "The sell-off in AI-related stocks pushed the VIX above 22 for the first time in four months. A cluster of trades suggests it could go even higher.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/16/wall-streets-fear-gauge-is-ripping-traders-see-it-going-even-higher.html",
-      "datetime": 1792178890,
-      "headlineKo": "월스트리트의 공포지수가 찢어지고 있다. 트레이더들은 가격이 더 오를 것으로 보고 있습니다.",
-      "summaryKo": "AI 관련 주식의 매도세로 인해 VIX가 4개월 만에 처음으로 22를 넘어섰습니다. 일련의 거래는 그것이 더 높아질 수 있음을 시사합니다."
-    },
-    {
-      "headline": "In Yemen's besieged Taiz, families take shelter as Houthis close in - Reuters",
-      "summary": "In Yemen's besieged Taiz, families take shelter as Houthis close in Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOHpQQlcxQ3FCakZ6YUIzOU83eUZHcFluRjU0TDRTb0RRdU9JM0xPQUZRSDUyUm9ZcjlpWFRvR1l3bmlxemxqV0ZsTmxEVk14RV9GTkxNc1pCNUUwcmRKdFJmU2dmbHBHaEQ5WHVDRGVDVXBnb2xQYnF1eUMybVJ2U2FLcGM1MXc0MHlyTW51RnNJSVJZbzA1U05nLUJLcS0tcFVoRVN0OXpOTlR2RTJr?oc=5",
-      "datetime": 1792176704,
-      "headlineKo": "예멘의 포위된 타이즈에서 후티 반군이 접근하자 가족들은 피난처로 대피 - 로이터 통신",
-      "summaryKo": "예멘의 포위된 타이즈에서 가족들은 후티 반군이 폐쇄되자 대피소로 이동"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792278013.5949142,
+  "_news_last_success_at": 1792281614.542687,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792278005.3314762,
-  "_updated_label": "2026-10-18 08:00",
-  "_last_attempt_at": 1792278005.3314762,
-  "_last_success_at": 1792278005.3314762,
+  "_fetched_at": 1792281605.270638,
+  "_updated_label": "2026-10-18 09:00",
+  "_last_attempt_at": 1792281605.270638,
+  "_last_success_at": 1792281605.270638,
   "_collection_status": "ok",
   "_collection_errors": []
 };
