@@ -661,6 +661,7 @@
 <script src="downturn_cause_cards_v31_data.js" onerror="void 0"></script>
 <script src="market_position_card_data.js" onerror="void 0"></script>
 <script src="verdict_scorecard_data.js" onerror="void 0"></script>  <!-- 2026-10-16 WO8-A: 없어도 조용히 건너뜀 -->
+<script src="top100_reference_sample_data.js" onerror="void 0"></script>  <!-- 2026-10-18 WO12-4: 없어도 조용히 건너뜀 -->
 <script>document.write('<script src="ev_sales_history_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>  <!-- WO10-3: EV/Sales 5년 이력(이익훼손형 모델 입력). 없어도 조용히 건너뜀. WO10-FOLLOWUP: 캐시 무효화 추가(smart_money_data.js와 동일 패턴) -->
 <script>
 // ============ 워치리스트 (지수ETF 제외 - 개별 종목 판단용) ============
@@ -2957,6 +2958,36 @@ function renderVerdictScorecard(){
     ${buildTable(d.all || {}, '전체 기록 기준')}
     ${buildTable(d.changeDaysOnly || {}, '판정이 처음 바뀐 날만(표본 부풀림 방지)')}
     <div class="sub" style="margin-top:6px;font-size:11px;">기록 시작일: 2026-10-16(그 이전은 재구성 가능한 과거 스냅샷이 없어 기록 없음) · 갱신: ${d.generatedAt||'-'}</div>
+    ${renderTop100ReferenceSampleHtml()}
+  `;
+}
+
+// [2026-10-18 WO12-4] 참고 표본(과거 TOP100 신호) - 위 실시간 판정 성적표와는 완전히 분리된
+// 구역. top100_reference_sample.py가 이미 집계해 둔 숫자만 보여준다(여기서 다시 계산하지
+// 않음) - 그 날짜에 실제로 기록된 신호와 이후 수익률이고, 현재 판정 로직으로 과거를 다시
+// 채점한 게 아니다. 표본이 20개 미만이면 "표본 부족(N개)"로만 보여준다(WO8-A와 같은 규칙).
+function renderTop100ReferenceSampleHtml(){
+  if(typeof TOP100_REFERENCE_SAMPLE_DATA === 'undefined' || !TOP100_REFERENCE_SAMPLE_DATA){
+    return '';
+  }
+  const d = TOP100_REFERENCE_SAMPLE_DATA;
+  const agg = d.aggregate || {};
+  let body;
+  if(agg.label){
+    body = `<span class="sub">${agg.label}</span>`;
+  } else {
+    const parts = [];
+    if(typeof agg.hit_rate === 'number') parts.push(`적중률 ${agg.hit_rate}%`);
+    if(typeof agg.avg_excess === 'number') parts.push(`평균초과 ${agg.avg_excess>=0?'+':''}${agg.avg_excess}%p`);
+    body = `<b>${agg.n}개</b> - ${parts.join(' · ') || '집계 중'}`;
+  }
+  return `
+    <div style="margin-top:16px;padding-top:10px;border-top:1px dashed var(--line,#ddd);">
+      <div class="sub" style="font-weight:700;margin-bottom:4px;">참고 표본(과거 TOP100 신호) - 실시간 기록과 분리됨</div>
+      <div class="sub" style="font-size:11.5px;margin-bottom:6px;">${d.note||''}</div>
+      <div>${body}</div>
+      <div class="sub" style="font-size:11px;margin-top:4px;">${d.benchmarkNote||''} · ${d.horizonDays||20}거래일 뒤 기준${(d.skipped&&d.skipped.length)?` · 아직 ${d.horizonDays||20}거래일이 지나지 않아 집계 못한 신호 ${d.skipped.length}건(지어내지 않음 - 시간이 지나면 자동으로 채워짐)`:''}</div>
+    </div>
   `;
 }
 
