@@ -3430,13 +3430,21 @@ function buildResultCardHtml(r){
   const buyZoneTxt = (decisionInfo && decisionInfo.buyZone) ? decisionInfo.buyZone : '매수 구간 정보 없음';
   const downturnTxt = d.downturnSummary || null;
 
+  // WO13-FOLLOWUP(수정지시서#13 후속, 2026-10-18 사용자 승인) -- 가격 라벨 옆에 "적정가 대비
+  // ±N%"를 같이 보여준다. 라벨을 매기는 규칙(ntmPER vs 밴드) 자체는 전혀 바꾸지 않고, 이미
+  // 계산돼 있는 basePrice(=적정가/기준가)와 현재가의 비율만 추가로 보여주는 참고 수치다.
+  const basePriceDiffPct = (basePrice!=null && numFn(r.price) && r.price>0) ? (r.price/basePrice - 1)*100 : null;
+  const basePriceDiffTxt = basePriceDiffPct!=null
+    ? ` <span class="sub" style="font-size:11px;">(적정가 대비 ${basePriceDiffPct>=0?'+':''}${basePriceDiffPct.toFixed(1)}%)</span>`
+    : '';
+
   return `<div class="rc-card" id="rc-${r.ticker}">
     <div class="rc-row1">
       <span class="rc-ticker">${esc(r.ticker)}</span>
       <span class="rc-price">$${r.price.toFixed(2)}</span>
     </div>
     <div class="rc-verdict" style="color:${actionColor};">${esc(act.label)}</div>
-    <div class="rc-pricelabel">가격 라벨: <b style="color:${priceColor};">${esc(d.price)}</b></div>
+    <div class="rc-pricelabel">가격 라벨: <b style="color:${priceColor};">${esc(d.price)}</b>${basePriceDiffTxt}</div>
     ${badgesHtml ? `<div class="rc-badges">${badgesHtml}</div>` : ''}
     <div class="rc-tier2-toggle" onclick="toggleRcTier2('${r.ticker}')">더보기 ▾</div>
     <div class="rc-tier2" id="rc-tier2-${r.ticker}">
@@ -6864,6 +6872,18 @@ function computePriceValidity(r){
     }
   }
 
+  // WO13-FOLLOWUP(수정지시서#13 후속, 2026-10-18 사용자 승인) -- 위 두 게이트(첫 번째
+  // 보수가x0.7/상방가x1.3, 두 번째 기준가/현재가 0.55~1.8배) 중 어느 쪽이 떴어도, 지금까지는
+  // priceAlert·priceAlertNote만 세팅되고 "가격 라벨"(price, 저평가/적정/고평가) 자체는 그대로
+  // 남아 있었다. 그래서 카드에 "가격 라벨: 저평가" 바로 옆에 "판단 유보(모델 불신)" 배지가
+  // 동시에 뜨는 모순 화면이 나왔다(MRVL·GOOGL·NVDA·AMZN·ORCL·AMAT 등 실측 확인 — WO13 보고서).
+  // per_band(!usedFallbackModel) 경로 전용 패치이며, usedFallbackModel 경로는 pvFallbackModelV2가
+  // 이미 자기 priceOverride로 같은 일을 하고 있어 중복 적용되지 않는다(이 블록 전체가
+  // !usedFallbackModel 조건 안에서만 priceAlert를 세팅하므로 자동으로 분리됨).
+  if(!usedFallbackModel && priceAlert === '모델 불신 경보'){
+    price = '판단 유보(모델 불신)';
+  }
+
   // --- WO8-B 반려 수정(결함#1/#4, 2026-10-16 사용자 지시) -- 경기순환형이고 새 정상화
   //     모델(v2)이 성공했으면, 화면 설명·판정 계산·내보내기(export_verdicts.js)가 전부
   //     같은 숫자를 보도록 bandTable을 그 모델 결과로 통째로 교체한다. 기존 NTM-EPS 기반
@@ -7117,6 +7137,23 @@ function pvIntegratedAction(d){
       tier: 'price_alert',
     };
   }
+  // P0.5: 현금흐름 거부권(cfVeto)·고위험 조합(WO13 후속, 수정지시서#13, 2026-10-18 사용자
+  //     승인) -- 원래 P4였던 체크 중 cfVeto 유래분만 P1/P2(하락 원인 진단)보다 앞으로
+  //     옮긴다. 이유: 기존 순서에서는 하락 원인 진단이 '관찰'(P2)이기만 해도 그 자리에서
+  //     바로 return되어, cfVeto가 가리키는 더 강한 신호(신규 접근 중지)가 있어도 코드가
+  //     거기까지 도달하지 못했다(COHR·BE 실측 확인 -- cfVeto=true인데 최종행동은 '관찰').
+  //     ⚠️ d.priceHold는 여기서 일부러 빼고 d.cashflow(cfVeto 전용, '경계'/'건전')·
+  //     d.highRiskCombo(cfVeto&&epsDamaged, 역시 cfVeto 하위집합)만 본다 -- priceHold는
+  //     cfVeto 외에도 newsRiskActive(= downturnState가 '관찰'로 시작하면 자동으로 켜짐)로도
+  //     켜지는데, 이걸 여기서 같이 올리면 "관찰"일 때 priceHold가 거의 항상 같이 켜져 있어서
+  //     P2(관찰) 분기가 사실상 죽은 코드가 돼버린다(테스트 중 발견 -- AVGO·INTC·CRM·ARM·GEV
+  //     5종목이 순수 newsRiskActive 사유로 여기 끌려와 '관찰'→'신규 접근 중지'로 과도하게
+  //     강해지는 걸 확인함). 사용자가 요청한 건 COHR·BE의 cfVeto 선점 문제이므로 범위를
+  //     cfVeto 계열로 좁힌다. priceHold(newsRiskActive 포함)는 원래 자리인 P4에 그대로 둔다
+  //     (downturnCauseStale 등으로 P1/P2가 건너뛰어진 희귀 케이스의 기존 보호 동작 유지).
+  if(d.cashflow === '경계' || d.highRiskCombo){
+    return { label: '신규 접근 중지', reason: pvActionSentence(d), recheck: pvChangeConditions(d), tier: 'cf_veto' };
+  }
   // P1: 하락 원인 진단 = 신규 접근 중지 -- 가격이 매력적/적정이어도 최우선
   // WO8-B 3차 반려 수정(필수1-2) -- 진단 자료가 5거래일 넘게 오래되면(downturnCauseStale)
   // 이 거부권에서 제외한다. 화면에는 "진단 자료 오래됨" 배지로만 보여주고(아래 pvDownturnStaleBadge),
@@ -7142,11 +7179,10 @@ function pvIntegratedAction(d){
   // P3: (51748) "가격대 산출 제한(가격 판단 보류)" 분기 제거 -- price가 더 이상 보류 값을
   //     갖지 않으므로 이 분기는 도달 불가능한 죽은 코드였다. 사업·현금흐름·차트 세부 조합은
   //     그대로 P4~P7에서 처리된다(로직 삭제가 아니라 도달 불가 분기만 제거).
-  // P4: 현금흐름 거부권 또는 고위험 조합(EPS 하향 + 현금흐름 거부권, 51747에서 '접근 회피'
-  //     가격 라벨을 대체) -- 가격 라벨과 무관하게 신규 접근 중지
-  if(d.cashflow === '경계' || d.highRiskCombo || d.priceHold){
-    // WO-05 -- 가격 라벨에서 거부권을 분리했으므로(priceHold), 기존에 price==='고평가'로
-    // 덮여서 걸리던 보호 동작(신규 접근 중지)이 느슨해지지 않도록 priceHold도 동일하게 체크한다.
+  // P4: 현금흐름 거부권·고위험 조합은 위 P0.5로 먼저 걸러진다(cfVeto 계열) -- 이 자리는
+  //     priceHold(newsRiskActive·EPS 급락 거부권 포함, cfVeto 아닌 사유)만을 위한 나머지
+  //     체크다. P1/P2가 downturnCauseStale로 건너뛰어진 드문 경우의 기존 보호 동작을 유지.
+  if(d.priceHold){
     return { label: '신규 접근 중지', reason: pvActionSentence(d), recheck: pvChangeConditions(d), tier: 'cf_veto' };
   }
   // P5: 가격이 고평가 구간(과거 고밴드를 넘어섬)
@@ -7858,8 +7894,16 @@ function renderPriceValidityCard(r){
   // =========================================================================
   // 결론 영역(최상단 고정) -- 오늘의 판단 → 오늘의 행동 → 4축 요약 → 바뀌는 조건
   // =========================================================================
-  const seg = (label, val) => `<span style="white-space:nowrap;">${label}: <span style="color:${PV_COLOR[val]||NEU_TEXT};">${esc(val)}</span></span>`;
-  const axisLine = `${seg('가격', d.price)}<span style="color:#aab0b9;margin:0 5px;font-weight:400;">·</span>${seg('사업', d.business)}<span style="color:#aab0b9;margin:0 5px;font-weight:400;">·</span>${seg('현금흐름', d.cashflow)}<span style="color:#aab0b9;margin:0 5px;font-weight:400;">·</span>${seg('차트', pvChartSimple(d))}`;
+  const seg = (label, val, suffix) => `<span style="white-space:nowrap;">${label}: <span style="color:${PV_COLOR[val]||NEU_TEXT};">${esc(val)}</span>${suffix||''}</span>`;
+  // WO13-FOLLOWUP(수정지시서#13 후속, 2026-10-18 사용자 승인) -- 카드와 동일하게 "가격" 축
+  // 옆에도 "적정가 대비 ±N%"를 붙인다(라벨 규칙 자체는 바꾸지 않음, buildResultCardHtml과
+  // 같은 계산).
+  const pvBasePrice = (d.bandTable && num(d.bandTable.base && d.bandTable.base.price)) ? d.bandTable.base.price : null;
+  const pvBasePriceDiffPct = (pvBasePrice!=null && num(r.price) && r.price>0) ? (r.price/pvBasePrice - 1)*100 : null;
+  const pvBasePriceDiffSuffix = pvBasePriceDiffPct!=null
+    ? ` <span class="sub" style="font-size:10.5px;">(적정가 대비 ${pvBasePriceDiffPct>=0?'+':''}${pvBasePriceDiffPct.toFixed(1)}%)</span>`
+    : '';
+  const axisLine = `${seg('가격', d.price, pvBasePriceDiffSuffix)}<span style="color:#aab0b9;margin:0 5px;font-weight:400;">·</span>${seg('사업', d.business)}<span style="color:#aab0b9;margin:0 5px;font-weight:400;">·</span>${seg('현금흐름', d.cashflow)}<span style="color:#aab0b9;margin:0 5px;font-weight:400;">·</span>${seg('차트', pvChartSimple(d))}`;
 
   // --- 51736 -- 카드 최상단의 가장 큰 문구는 "가격 위치"가 아니라 "종합 행동"으로 고정한다.
   //     가격이 적정/매력적이어도 하락 원인 진단의 신규 접근 중지·관찰이 있으면 그것이 우선
