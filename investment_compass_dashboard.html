@@ -3435,8 +3435,8 @@ function buildResultCardHtml(r){
     ${badgesHtml ? `<div class="rc-badges">${badgesHtml}</div>` : ''}
     <div class="rc-tier2-toggle" onclick="toggleRcTier2('${r.ticker}')">더보기 ▾</div>
     <div class="rc-tier2" id="rc-tier2-${r.ticker}">
-      <div>기준가: <b>${basePrice!=null ? ('$'+basePrice.toFixed(2)) : '정보 없음'}</b></div>
-      <div style="margin-top:4px;">매수 구간: ${esc(buyZoneTxt)}</div>
+      <div>적정가(모델): <b>${basePrice!=null ? ('$'+basePrice.toFixed(2)) : '정보 없음'}</b> <span class="sub" style="font-size:10px;">(계산값 - 실제 매수가 아님)</span></div>
+      <div style="margin-top:4px;">진입 검토가: ${esc(buyZoneTxt)}</div>
       ${downturnTxt ? `<div style="margin-top:4px;">하락 원인: ${esc(downturnTxt)}</div>` : ''}
     </div>
     <div class="rc-detail-btn" onclick="openDetail('${r.ticker}')">상세보기 →</div>
@@ -7579,13 +7579,30 @@ function pvDecisionInfo(d, r, act, num){
   if(d.priceAlert){
     out.buyZone = `모델 불신 경보 — ${d.priceAlertNote || '현재가가 모델 밴드를 크게 벗어나 있습니다.'}`;
   } else if(cz && cz.ok){
-    out.buyZone = `합의 구간 $${cz.low.toFixed(2)} ~ $${cz.high.toFixed(2)} (1차 매수 $${cz.tier1.toFixed(2)}·30% → 2차 $${cz.tier2.toFixed(2)}·30% → 3차 $${cz.tier3.toFixed(2)}·40%) — ${cz.note}`;
+    // WO13-3b(수정지시서#13, 2026-10-18 추가수정) -- 합의 구간(교집합)도 bandTable.conservative와
+    // 같은 원칙 적용 대상이다. 현재가가 이미 합의 구간 하단(cz.low)보다 낮으면(= 모델이 보는
+    // "싼 구간"보다도 이미 싸다는 뜻) 미래의 매수 목표가처럼 보이는 숫자 구간 대신 그 사실
+    // 자체를 보여준다(QCOM/CEG에서 발견 -- 기존 WO13-3 패치가 bandTable.conservative 분기에만
+    // 있어서, cz.ok(합의 구간 성립) 분기는 캡이 빠져 있었음).
+    if(num(r.price) && r.price>0 && cz.low > r.price){
+      out.buyZone = `현재가가 이미 구간 아래 — 진입 검토가 = 현재가 기준 재계산 (현재가 $${r.price.toFixed(2)} < 합의 구간 하단 $${cz.low.toFixed(2)})`;
+    } else {
+      out.buyZone = `합의 구간 $${cz.low.toFixed(2)} ~ $${cz.high.toFixed(2)} (1차 매수 $${cz.tier1.toFixed(2)}·30% → 2차 $${cz.tier2.toFixed(2)}·30% → 3차 $${cz.tier3.toFixed(2)}·40%) — ${cz.note}`;
+    }
   } else if(bandDisplayEligible && d.bandTable){
     const bt = d.bandTable;
     // WO-06(수정지시서#01) -- 비관 가정을 하나만 반영한 완화된 보수가를 메인 구간으로
     // 표시하고, 기존(이중 비관) 공식은 "스트레스 바닥(참고)"로 접어서 같이 보여준다
     // (숫자를 지우지 않음 — 둘 다 기존에 쓰던 입력의 재조합).
-    out.buyZone = `$${bt.conservative.price.toFixed(2)} ~ $${bt.base.price.toFixed(2)}(상단 $${bt.upside.price.toFixed(2)} 초과 시 기대 선반영 경계)`;
+    // WO13-3(수정지시서#13, 2026-10-18) -- 진입 검토가(conservative.price)는 현재가보다 높을 수
+    // 없다는 원칙을 적용한다. 모델 구간 자체가 현재가보다 비싸면(=현재가가 이미 모델이 보는
+    // "싼 구간"보다도 싸다는 뜻) 미래의 매수 목표가처럼 보이는 숫자 구간 대신 그 사실 자체를
+    // 보여준다(지시서 문구 그대로 - 재계산 공식을 새로 만들지 않음, 현재가를 그대로 보여줌).
+    if(num(r.price) && r.price>0 && bt.conservative.price > r.price){
+      out.buyZone = `현재가가 이미 구간 아래 — 진입 검토가 = 현재가 기준 재계산 (현재가 $${r.price.toFixed(2)} < 모델 구간 하단 $${bt.conservative.price.toFixed(2)})`;
+    } else {
+      out.buyZone = `$${bt.conservative.price.toFixed(2)} ~ $${bt.base.price.toFixed(2)}(상단 $${bt.upside.price.toFixed(2)} 초과 시 기대 선반영 경계)`;
+    }
     out.buyZoneStressFloor = `스트레스 바닥(참고, 이중 비관 가정): $${bt.stressFloor.price.toFixed(2)}`;
     out.perBandYearsActual = (d.perBandYears!=null) ? d.perBandYears : null;
     // WO2-05 -- 합의 구간을 못 구했을 때도(소스 부족·교집합 없음) 그 사실을 숨기지 않고 함께 보여준다.
