@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1792339202.7513118,
+    "_last_attempt_at": 1792361347.961643,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -52,7 +52,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792339207.6142871
+          "analysisUpdatedAt": 1792361351.750848
         },
         "headlineKo": "두 배의 크기, 두 배의 레버리지: 우리가 이 QQQ 거래를 강화한 이유"
       },
@@ -72,13 +72,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "BlackRock, State Street ETF: 투자자들이 전환하지 않는 이유 - Invesco QQQ Trust, Series 1 (NASDA - Benzinga SPY 761.26 −0.26% QQQ 707.87 −0.27% BTC/USD — DIA — GLD — TLT 80.06 +0.01% US 로그인 내 계정 등록 Benzinga Premium Premium",
+            "BlackRock, State Street ETF: 투자자들이 전환하지 않는 이유 - Invesco QQQ Trust, Series 1 (NASDA - Benzinga SPY — QQQ 707.87 −0.27% BTC/USD — DIA 518.00 −0.21% GLD 381.40 −0.16% TLT 80.06 +0.01% US 로그인 내 계정 등록 벤징가 프렘",
             "저렴한 Nasdaq-100 ETF: BlackRock과 State Street가 아직 투자자를 확보하지 못하는 이유 Invesco의 기존 제품이 계속해서 자산 및 거래액을 지배하고 있기 때문에 낮은 수수료는 두 개의 새로운 Nasdaq-100 ETF에 대한 의미 있는 견인력으로 해석되지 않았습니다.",
             "Morgan의 분석가 Kenneth Worthington, Michael Cho 및 Madeline Daleiden은 10월에 언급했습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.26%, 0.27%, 0.01% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.27%, 0.21%, 0.16% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -102,21 +102,21 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.26%",
             "0.27%",
+            "0.21%",
+            "0.16%",
             "0.01%",
             "$489 billion",
             "$110 billion",
             "$700 million",
-            "$500 million",
-            "1.5%"
+            "$500 million"
           ],
           "sourceExcerpt": [
-            "BlackRock, State Street ETFs: Why Investors Aren't Switching - Invesco QQQ Trust, Series 1 (NASDA - Benzinga SPY 761.26 −0.26% QQQ 707.87 −0.27% BTC/USD — DIA — GLD — TLT 80.06 +0.01% US Sign in Register My Account Benzinga Premium Premium ",
+            "BlackRock, State Street ETFs: Why Investors Aren't Switching - Invesco QQQ Trust, Series 1 (NASDA - Benzinga SPY — QQQ 707.87 −0.27% BTC/USD — DIA 518.00 −0.21% GLD 381.40 −0.16% TLT 80.06 +0.01% US Sign in Register My Account Benzinga Prem",
             "Cheaper Nasdaq-100 ETFs: Why BlackRock And State Street Aren't Winning Investors Yet Lower fees haven’t translated into meaningful traction for two new Nasdaq-100 ETFs, as Invesco’s established products continue to dominate in assets and tr",
             "Morgan analysts Kenneth Worthington, Michael Cho and Madeline Daleiden noted in an Oct."
           ],
-          "analysisUpdatedAt": 1792339211.0662355
+          "analysisUpdatedAt": 1792361355.0800238
         },
         "headlineKo": "QQQ vs. 더 저렴한 Nasdaq-100 ETF: BlackRock과 State Street가 아직 투자자를 확보하지 못하는 이유"
       },
@@ -136,13 +136,13 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Nasdaq 100 Slides As Micron, SanDisk, CoreWeave Sink % - 전략 (NASDAQ:MSTR) - Benzinga SPY — QQQ 707.87 −0.27% BTC/USD — DIA — GLD — TLT 80.06 +0.01% US 로그인 등록 내 계정 Benzinga 프리미엄 프리미엄 서비스 모든 섹션 10월",
+            "Nasdaq 100 Slides As Micron, SanDisk, CoreWeave Sink % - 전략 (NASDAQ:MSTR) - Benzinga SPY 761.26 −0.26% QQQ 707.87 −0.27% BTC/USD — DIA 518.00 −0.21% GLD 381.40 −0.16% TLT 80.06 +0.01% US 로그인 회원가입 내 계정 Benzinga Premium Pr",
             "금요일 정오에 AI 금융 공포로 인해 나스닥 100이 1% 이상 하락했고, 가치주와 방어주로의 회전이 다우존스를 끌어올리면서 주가가 분기되었습니다.",
             "나스닥 100 지수는 AI 연계 이름으로 약 29,535 압력으로 1.3%, 즉 400포인트 하락했습니다."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.27%, 0.01%, 1% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.26%, 0.27%, 0.21% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -166,21 +166,21 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
+            "0.26%",
             "0.27%",
+            "0.21%",
+            "0.16%",
             "0.01%",
             "1%",
             "1.3%",
-            "9.3%",
-            "7.5%",
-            "7.4%",
-            "3.6%"
+            "9.3%"
           ],
           "sourceExcerpt": [
-            "Nasdaq 100 Slides As Micron, SanDisk, CoreWeave Sink % - Strategy (NASDAQ:MSTR) - Benzinga SPY — QQQ 707.87 −0.27% BTC/USD — DIA — GLD — TLT 80.06 +0.01% US Sign in Register My Account Benzinga Premium Premium Services All sections October ",
+            "Nasdaq 100 Slides As Micron, SanDisk, CoreWeave Sink % - Strategy (NASDAQ:MSTR) - Benzinga SPY 761.26 −0.26% QQQ 707.87 −0.27% BTC/USD — DIA 518.00 −0.21% GLD 381.40 −0.16% TLT 80.06 +0.01% US Sign in Register My Account Benzinga Premium Pr",
             "stocks diverged at midday Friday as an AI-financing scare dragged the Nasdaq 100 down more than 1%, while rotation into value and defensive names lifted the Dow Jones.",
             "The Nasdaq 100 dropped 1.3%, or 400 points, to about 29,535 pressure by AI-linked names."
           ],
-          "analysisUpdatedAt": 1792339213.6356235
+          "analysisUpdatedAt": 1792361357.9179056
         },
         "headlineKo": "Nasdaq 100 슬라이드, Micron, SanDisk, CoreWeave 싱크: 오늘 주식 시장"
       },
@@ -252,7 +252,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792339207.6142871
+          "analysisUpdatedAt": 1792361351.750848
         }
       },
       {
@@ -271,13 +271,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "BlackRock, State Street ETF: 투자자들이 전환하지 않는 이유 - Invesco QQQ Trust, Series 1 (NASDA - Benzinga SPY 761.26 −0.26% QQQ 707.87 −0.27% BTC/USD — DIA — GLD — TLT 80.06 +0.01% US 로그인 내 계정 등록 Benzinga Premium Premium",
+            "BlackRock, State Street ETF: 투자자들이 전환하지 않는 이유 - Invesco QQQ Trust, Series 1 (NASDA - Benzinga SPY — QQQ 707.87 −0.27% BTC/USD — DIA 518.00 −0.21% GLD 381.40 −0.16% TLT 80.06 +0.01% US 로그인 내 계정 등록 벤징가 프렘",
             "저렴한 Nasdaq-100 ETF: BlackRock과 State Street가 아직 투자자를 확보하지 못하는 이유 Invesco의 기존 제품이 계속해서 자산 및 거래액을 지배하고 있기 때문에 낮은 수수료는 두 개의 새로운 Nasdaq-100 ETF에 대한 의미 있는 견인력으로 해석되지 않았습니다.",
             "Morgan의 분석가 Kenneth Worthington, Michael Cho 및 Madeline Daleiden은 10월에 언급했습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.26%, 0.27%, 0.01% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.27%, 0.21%, 0.16% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -301,21 +301,21 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.26%",
             "0.27%",
+            "0.21%",
+            "0.16%",
             "0.01%",
             "$489 billion",
             "$110 billion",
             "$700 million",
-            "$500 million",
-            "1.5%"
+            "$500 million"
           ],
           "sourceExcerpt": [
-            "BlackRock, State Street ETFs: Why Investors Aren't Switching - Invesco QQQ Trust, Series 1 (NASDA - Benzinga SPY 761.26 −0.26% QQQ 707.87 −0.27% BTC/USD — DIA — GLD — TLT 80.06 +0.01% US Sign in Register My Account Benzinga Premium Premium ",
+            "BlackRock, State Street ETFs: Why Investors Aren't Switching - Invesco QQQ Trust, Series 1 (NASDA - Benzinga SPY — QQQ 707.87 −0.27% BTC/USD — DIA 518.00 −0.21% GLD 381.40 −0.16% TLT 80.06 +0.01% US Sign in Register My Account Benzinga Prem",
             "Cheaper Nasdaq-100 ETFs: Why BlackRock And State Street Aren't Winning Investors Yet Lower fees haven’t translated into meaningful traction for two new Nasdaq-100 ETFs, as Invesco’s established products continue to dominate in assets and tr",
             "Morgan analysts Kenneth Worthington, Michael Cho and Madeline Daleiden noted in an Oct."
           ],
-          "analysisUpdatedAt": 1792339211.0662355
+          "analysisUpdatedAt": 1792361355.0800238
         }
       },
       {
@@ -334,13 +334,13 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Nasdaq 100 Slides As Micron, SanDisk, CoreWeave Sink % - 전략 (NASDAQ:MSTR) - Benzinga SPY — QQQ 707.87 −0.27% BTC/USD — DIA — GLD — TLT 80.06 +0.01% US 로그인 등록 내 계정 Benzinga 프리미엄 프리미엄 서비스 모든 섹션 10월",
+            "Nasdaq 100 Slides As Micron, SanDisk, CoreWeave Sink % - 전략 (NASDAQ:MSTR) - Benzinga SPY 761.26 −0.26% QQQ 707.87 −0.27% BTC/USD — DIA 518.00 −0.21% GLD 381.40 −0.16% TLT 80.06 +0.01% US 로그인 회원가입 내 계정 Benzinga Premium Pr",
             "금요일 정오에 AI 금융 공포로 인해 나스닥 100이 1% 이상 하락했고, 가치주와 방어주로의 회전이 다우존스를 끌어올리면서 주가가 분기되었습니다.",
             "나스닥 100 지수는 AI 연계 이름으로 약 29,535 압력으로 1.3%, 즉 400포인트 하락했습니다."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.27%, 0.01%, 1% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.26%, 0.27%, 0.21% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -364,21 +364,21 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
+            "0.26%",
             "0.27%",
+            "0.21%",
+            "0.16%",
             "0.01%",
             "1%",
             "1.3%",
-            "9.3%",
-            "7.5%",
-            "7.4%",
-            "3.6%"
+            "9.3%"
           ],
           "sourceExcerpt": [
-            "Nasdaq 100 Slides As Micron, SanDisk, CoreWeave Sink % - Strategy (NASDAQ:MSTR) - Benzinga SPY — QQQ 707.87 −0.27% BTC/USD — DIA — GLD — TLT 80.06 +0.01% US Sign in Register My Account Benzinga Premium Premium Services All sections October ",
+            "Nasdaq 100 Slides As Micron, SanDisk, CoreWeave Sink % - Strategy (NASDAQ:MSTR) - Benzinga SPY 761.26 −0.26% QQQ 707.87 −0.27% BTC/USD — DIA 518.00 −0.21% GLD 381.40 −0.16% TLT 80.06 +0.01% US Sign in Register My Account Benzinga Premium Pr",
             "stocks diverged at midday Friday as an AI-financing scare dragged the Nasdaq 100 down more than 1%, while rotation into value and defensive names lifted the Dow Jones.",
             "The Nasdaq 100 dropped 1.3%, or 400 points, to about 29,535 pressure by AI-linked names."
           ],
-          "analysisUpdatedAt": 1792339213.6356235
+          "analysisUpdatedAt": 1792361357.9179056
         }
       },
       {
@@ -6705,15 +6705,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792339202.7513118,
-    "_updated_label": "2026-10-19 01:00",
-    "_last_success_at": 1792339202.7513118,
+    "_fetched_at": 1792361347.961643,
+    "_updated_label": "2026-10-19 07:09",
+    "_last_success_at": 1792361347.961643,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "SPY": {
@@ -14862,11 +14862,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 166,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "MSFT": {
-    "_last_attempt_at": 1792339202.7513118,
+    "_last_attempt_at": 1792361347.961643,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -14935,7 +14935,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool When investing in tech exchange-traded funds (ETFs), sometimes it's a good idea to peek under the hood and see what you're really b",
             "Sometimes there is a lot of overlap from one tech ETF to another."
           ],
-          "analysisUpdatedAt": 1792339221.876651
+          "analysisUpdatedAt": 1792361363.5957882
         },
         "headlineKo": "VGT를 소유하고 계십니까? Nvidia, Apple, Microsoft 및 Broadcom의 실제 비율은 다음과 같습니다."
       },
@@ -14984,7 +14984,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792339224.24909
+          "analysisUpdatedAt": 1792361365.601095
         },
         "headlineKo": "Microsoft가 Nscale과 영국 데이터 센터 계약을 철회했다고 Telegraph가 보도했습니다."
       },
@@ -15048,7 +15048,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Shares of Microsoft ( MSFT -1.93% ) closed at a record $543.45 on Oct.",
             "13 and slipped about 2% a day later, finishing Oct."
           ],
-          "analysisUpdatedAt": 1792339227.3745453
+          "analysisUpdatedAt": 1792361368.4725144
         },
         "headlineKo": "2030년에 Microsoft 주식은 어디에 있을까요?"
       },
@@ -15199,7 +15199,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool When investing in tech exchange-traded funds (ETFs), sometimes it's a good idea to peek under the hood and see what you're really b",
             "Sometimes there is a lot of overlap from one tech ETF to another."
           ],
-          "analysisUpdatedAt": 1792339221.876651
+          "analysisUpdatedAt": 1792361363.5957882
         }
       },
       {
@@ -15247,7 +15247,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792339224.24909
+          "analysisUpdatedAt": 1792361365.601095
         }
       },
       {
@@ -15310,7 +15310,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Shares of Microsoft ( MSFT -1.93% ) closed at a record $543.45 on Oct.",
             "13 and slipped about 2% a day later, finishing Oct."
           ],
-          "analysisUpdatedAt": 1792339227.3745453
+          "analysisUpdatedAt": 1792361368.4725144
         }
       },
       {
@@ -22830,15 +22830,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792339202.7513118,
-    "_updated_label": "2026-10-19 01:00",
-    "_last_success_at": 1792339202.7513118,
+    "_fetched_at": 1792361347.961643,
+    "_updated_label": "2026-10-19 07:09",
+    "_last_success_at": 1792361347.961643,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "GOOGL": {
@@ -31027,7 +31027,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "AMZN": {
@@ -39299,7 +39299,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "META": {
@@ -47360,7 +47360,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "AAPL": {
@@ -55464,7 +55464,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "TSLA": {
@@ -63501,7 +63501,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "ORCL": {
@@ -72190,7 +72190,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "CRM": {
@@ -80591,7 +80591,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "PLTR": {
@@ -89758,7 +89758,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "NVDA": {
@@ -97637,7 +97637,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "AMD": {
@@ -105824,7 +105824,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "AVGO": {
@@ -114484,7 +114484,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "QCOM": {
@@ -123264,7 +123264,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "ARM": {
@@ -129447,7 +129447,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "MRVL": {
@@ -138256,7 +138256,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "INTC": {
@@ -147173,7 +147173,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "TSM": {
@@ -155718,7 +155718,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "ASML": {
@@ -162670,7 +162670,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 149,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "AMAT": {
@@ -169160,7 +169160,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "LRCX": {
@@ -172659,11 +172659,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1792339202.7513118,
+    "_last_attempt_at": 1792361347.961643,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -172718,7 +172718,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792339234.693923
+          "analysisUpdatedAt": 1792361373.7847788
         },
         "headlineKo": "KLAC는 1년 만에 64.5% 급등: 주식을 사야 할까요, 팔아야 할까요, 아니면 보유해야 할까요?"
       },
@@ -172768,7 +172768,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792339236.089358
+          "analysisUpdatedAt": 1792361374.8212945
         },
         "headlineKo": "KLA CORP (NASDAQ:KLAC): 소득 투자자를 위한 배당 품질 플레이"
       },
@@ -172832,7 +172832,7 @@ const NEWS_DATA = {
             "| Trefis What Is The True Hidden Price Of KLA Stock?",
             "October 14th, 2026 · by Trefis Team KLAC YTD +36.9% SPY YTD +12.5% QQQ YTD +15.8% Analyze KLAC → Investors are currently paying 47.7 times trailing twelve-month earnings for shares of KLA (KLAC) ."
           ],
-          "analysisUpdatedAt": 1792339240.4124444
+          "analysisUpdatedAt": 1792361377.9557958
         },
         "headlineKo": "KLA 주식의 진정한 숨겨진 가격은 무엇입니까?"
       },
@@ -172956,7 +172956,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792339234.693923
+          "analysisUpdatedAt": 1792361373.7847788
         }
       },
       {
@@ -173005,7 +173005,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792339236.089358
+          "analysisUpdatedAt": 1792361374.8212945
         }
       },
       {
@@ -173068,7 +173068,7 @@ const NEWS_DATA = {
             "| Trefis What Is The True Hidden Price Of KLA Stock?",
             "October 14th, 2026 · by Trefis Team KLAC YTD +36.9% SPY YTD +12.5% QQQ YTD +15.8% Analyze KLAC → Investors are currently paying 47.7 times trailing twelve-month earnings for shares of KLA (KLAC) ."
           ],
-          "analysisUpdatedAt": 1792339240.4124444
+          "analysisUpdatedAt": 1792361377.9557958
         }
       },
       {
@@ -175889,15 +175889,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792339202.7513118,
-    "_updated_label": "2026-10-19 01:00",
-    "_last_success_at": 1792339202.7513118,
+    "_fetched_at": 1792361347.961643,
+    "_updated_label": "2026-10-19 07:09",
+    "_last_success_at": 1792361347.961643,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "MU": {
@@ -183964,7 +183964,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "SNDK": {
@@ -192977,7 +192977,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "WDC": {
@@ -198849,11 +198849,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "ANET": {
-    "_last_attempt_at": 1792339202.7513118,
+    "_last_attempt_at": 1792361347.961643,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -198908,7 +198908,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792339246.2227612
+          "analysisUpdatedAt": 1792361382.8751805
         },
         "headlineKo": "Arista vs. Vertiv: 어떤 AI 인프라 비즈니스가 더 큰 이익 쿠션을 갖고 있습니까?"
       },
@@ -198958,7 +198958,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792339248.3546448
+          "analysisUpdatedAt": 1792361384.9002051
         },
         "headlineKo": "Arista 대 Vertiv: 고객 발전에 더 의존하는 현금 흐름은 무엇입니까?"
       },
@@ -199008,7 +199008,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792339250.536721
+          "analysisUpdatedAt": 1792361386.6113868
         },
         "headlineKo": "Arista Networks CEO는 세계에서 가장 부유한 여성 중 한 명입니다. 그녀는 방금 3,400만 달러의 주식을 팔았습니다."
       },
@@ -199080,7 +199080,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792339246.2227612
+          "analysisUpdatedAt": 1792361382.8751805
         }
       },
       {
@@ -199129,7 +199129,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792339248.3546448
+          "analysisUpdatedAt": 1792361384.9002051
         }
       },
       {
@@ -199178,7 +199178,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792339250.536721
+          "analysisUpdatedAt": 1792361386.6113868
         }
       },
       {
@@ -203338,15 +203338,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792339202.7513118,
-    "_updated_label": "2026-10-19 01:00",
-    "_last_success_at": 1792339202.7513118,
+    "_fetched_at": 1792361347.961643,
+    "_updated_label": "2026-10-19 07:09",
+    "_last_success_at": 1792361347.961643,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "COHR": {
@@ -207423,7 +207423,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "LITE": {
@@ -212332,7 +212332,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "GEV": {
@@ -218397,7 +218397,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "CEG": {
@@ -223869,7 +223869,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "VST": {
@@ -228150,7 +228150,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "ETN": {
@@ -232048,7 +232048,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "PWR": {
@@ -235392,7 +235392,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "HUBB": {
@@ -236342,7 +236342,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 19,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "VRT": {
@@ -240979,7 +240979,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "MOD": {
@@ -242588,7 +242588,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "STX": {
@@ -247728,7 +247728,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "EME": {
@@ -249880,7 +249880,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "FIX": {
@@ -251783,7 +251783,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   },
   "BE": {
@@ -254599,7 +254599,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-19 05:34"
+      "updated": "2026-10-19 07:09"
     }
   }
 };
