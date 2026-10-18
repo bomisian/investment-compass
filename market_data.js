@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Saudi-led coalition says helicopter crash in Najran kills two crew members - Reuters",
+      "summary": "Saudi-led coalition says helicopter crash in Najran kills two crew members Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbFZiZFozb1RWTzVBbk4wZU8xMHlSeHhuSmhkMi1FSVhqTTZ5U3BMbF9aaU5fVjRpWnI1MkJTMTZscVcxTWM0YnVFRXFWdXQ2SnpSdVNPVm5LR1QzbVhpQjliR3VNZFl4WXhjODUzbjNZRXg0S0l0al80ZDlwdjc5ejFRU0E3NlJBZm1iOWg3VjhybzNLbWpOelQ4ZDZBWTkxS3Y4Rm9MUm9vTjdfYk9iaVRJd29DSDhMUi1KOGZMcDhzZGs?oc=5",
+      "datetime": 1792293480,
+      "headlineKo": "사우디 주도 연합군, 나즈란에서 헬리콥터 추락으로 승무원 2명 사망 - Reuters",
+      "summaryKo": "사우디 주도 연합군, 나즈란에서 헬리콥터 추락으로 승무원 2명 사망 - 최신"
+    },
+    {
       "headline": "Explosion at Iraqi paramilitary alliance base kills one member, sources say - Reuters",
       "summary": "Explosion at Iraqi paramilitary alliance base kills one member, sources say Reuters",
       "source": "Reuters",
@@ -282,6 +291,15 @@ const MARKET_DATA = {
       "summaryKo": "UKMTO는 금요일 사우디아라비아에서 정체불명의 발사체에 유조선이 충돌했다고 로이터 통신이 밝혔습니다."
     },
     {
+      "headline": "OpenAI poaches another SpaceX sales lead focused on AI",
+      "summary": "OpenAI hires SpaceX AI executives, including Graham Seamans, to expand enterprise sales and cybersecurity offerings amid new revenue strategies.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-16/openai-poaches-another-spacex-sales-lead-focused-on-ai",
+      "datetime": 1792212631,
+      "headlineKo": "OpenAI, AI에 초점을 맞춘 또 다른 SpaceX 영업 리드 확보",
+      "summaryKo": "OpenAI는 Graham Seamans를 포함한 SpaceX AI 임원을 고용하여 새로운 수익 전략 속에서 기업 판매 및 사이버 보안 제품을 확장합니다."
+    },
+    {
       "headline": "Jio’s $3.2 billion IPO tests Ambani appeal with young Indians",
       "summary": "Jio Platforms plans to raise about $3.2 billion in the offering, which opens on Oct. 21; the IPO will test how much the Reliance brand still matters to retail investors",
       "source": "Bloomberg",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792194075,
       "headlineKo": "공급 우려로 브렌트유는 5월 이후 처음으로 배럴당 110달러를 기록했다.",
       "summaryKo": "거래자들이 지정학적 위험을 평가하고, 에너지 인프라가 파괴되고, 즉각적인 공급 구제에 대한 전망이 제한되면서 디젤 및 휘발유 선물도 상승했습니다."
-    },
-    {
-      "headline": "Missiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu - Reuters",
-      "summary": "Missiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPelJ6OUp1VFpwTmJ0Qm85TzRUS2ppU0swVFMydlJuTDZiS1Q1V2R6M1N4bmpfeTZ0aWNqd29XbGdDMm9IVllmLTZUazAxQWFzX3lsVlJBbHI4TVRfQVFrZlk5MkNqVzVCMU5XYkFwM3Fyb0pkbDk0bGo5N1dwQWJMMEo5aEhIeXpaS1J5TkRLVFZTem93Rl9rM2trUHZlaDQwSzVIQTB4UG1xelRQSU5wZ2I4X1N1V0VPUElsWHBIYVZvckhpYk9RZVhZaw?oc=5",
-      "datetime": 1792187460,
-      "headlineKo": "사우디 주도 연합군이 얀부로 향하는 미사일을 요격하는 동안 미사일이 아덴 공항을 강타했습니다 - 로이터",
-      "summaryKo": "사우디 주도 연합군이 얀부로 향하는 미사일을 요격하는 동안 미사일이 아덴 공항을 강타했습니다."
-    },
-    {
-      "headline": "US solicits exchange of up to 17 million barrels of oil from strategic reserve - Reuters",
-      "summary": "US solicits exchange of up to 17 million barrels of oil from strategic reserve Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeFNXdnRkamV3Q2plZzU5UHl3LUlPa2hxTVY1VTA5dXU2UXUxWG5DekxOY0ZrWlNobFBDNTRQR2xrTHRZbEJMZUd1dzRQSUd0ZmQ1TDRtTE9YcmRoRVEzUkhrQjhUX01DVk8zdU5saFJEc1NDUWFXcFhsbmFZRlQ0b1FGdm9nTnFGSDAwWUxVMDVJeHZXalROYmNNdlVJLWxxaEloOWtLWUsxOWlzbTFmSWhHMHVaRGM?oc=5",
-      "datetime": 1792186581,
-      "headlineKo": "미국, 전략적 비축유로부터 최대 1700만 배럴의 석유 교환 요청 - 로이터",
-      "summaryKo": "미국, 전략적 비축유로부터 최대 1700만 배럴의 석유 교환 요청 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792297754.3354747,
+  "_news_last_success_at": 1792301620.6369956,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792297744.3832202,
-  "_updated_label": "2026-10-18 13:29",
-  "_last_attempt_at": 1792297744.3832202,
-  "_last_success_at": 1792297744.3832202,
+  "_fetched_at": 1792301610.9842608,
+  "_updated_label": "2026-10-18 14:34",
+  "_last_attempt_at": 1792301610.9842608,
+  "_last_success_at": 1792301610.9842608,
   "_collection_status": "ok",
   "_collection_errors": []
 };
