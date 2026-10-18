@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 101.41000366210938,
+      "current": 99.0199966430664,
       "prevClose": 97.97000122070312,
-      "changeAbs": 3.44000244140625,
-      "changePct": 3.5112814111911077,
-      "pctRank": 92.12410501193318,
+      "changeAbs": 1.0499954223632812,
+      "changePct": 1.071751974359877,
+      "pctRank": 90.9307875894988,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -10.216904469170418,
-      "ma20": 92.93849983215333,
-      "ma60": 89.3608336130778,
-      "chg1m": -0.5,
-      "chg3m": 18.18000030517578,
-      "chg1mPct": -0.4906289687298896,
-      "chg3mPct": 21.843084911591884,
+      "drawdown1y": -12.33289126298871,
+      "ma20": 92.81899948120117,
+      "ma60": 89.32100016276041,
+      "chg1m": -2.8900070190429688,
+      "chg3m": 15.789993286132812,
+      "chg1mPct": -2.835842326750389,
+      "chg3mPct": 18.97151585879085,
       "lastDate": "2026-10-16",
       "bars": 1257,
       "symbol": "CL=F",
@@ -282,6 +282,24 @@ const MARKET_DATA = {
       "summaryKo": "UKMTO는 금요일 사우디아라비아에서 정체불명의 발사체에 유조선이 충돌했다고 로이터 통신이 밝혔습니다."
     },
     {
+      "headline": "Jio’s $3.2 billion IPO tests Ambani appeal with young Indians",
+      "summary": "Jio Platforms plans to raise about $3.2 billion in the offering, which opens on Oct. 21; the IPO will test how much the Reliance brand still matters to retail investors",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-17/jio-s-3-2-billion-ipo-tests-ambani-appeal-with-young-indians",
+      "datetime": 1792210050,
+      "headlineKo": "Jio의 32억 달러 IPO로 젊은 인도인들에게 Ambani의 매력 테스트",
+      "summaryKo": "Jio Platform은 10월 21일에 개시되는 공모에서 약 32억 달러를 모금할 계획입니다. IPO는 Reliance 브랜드가 소매 투자자들에게 얼마나 중요한지 테스트할 것입니다."
+    },
+    {
+      "headline": "Apple says iPhone Duo demand extraordinary after delivery delays",
+      "summary": "Many customers who opened Apple’s online store Friday morning saw shipping delays pushed from November to December, then to the end of January",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-16/apple-iphone-duo-orders-slip-into-2027-amid-preorder-frenzy",
+      "datetime": 1792209916,
+      "headlineKo": "애플은 아이폰 듀오가 배송 지연 이후 엄청난 수요를 보인다고 밝혔습니다.",
+      "summaryKo": "금요일 아침에 Apple 온라인 스토어를 연 많은 고객들은 배송 지연이 11월에서 12월, 그리고 1월 말로 밀려나는 것을 목격했습니다."
+    },
+    {
       "headline": "Zelenskiy criticizes Trump's waiver of sanctions on Russia as 'wrong' - Reuters",
       "summary": "Zelenskiy criticizes Trump's waiver of sanctions on Russia as 'wrong' Reuters",
       "source": "Reuters",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792186581,
       "headlineKo": "미국, 전략적 비축유로부터 최대 1700만 배럴의 석유 교환 요청 - 로이터",
       "summaryKo": "미국, 전략적 비축유로부터 최대 1700만 배럴의 석유 교환 요청 - 최신"
-    },
-    {
-      "headline": "Why did CoreWeave stock get crushed this week? Look to this corner of the debt market for clues",
-      "summary": "CoreWeave’s bond yields and credit default swaps have surged as its stock sells off. Here’s what those credit signals mean for stock investors.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/10/16/coreweave-credit-default-swaps.html",
-      "datetime": 1792182835,
-      "headlineKo": "이번 주에 CoreWeave 주식이 폭락한 이유는 무엇입니까? 단서를 찾으려면 부채 시장의 이 구석을 살펴보세요.",
-      "summaryKo": "CoreWeave의 채권 수익률과 신용디폴트스왑은 주식이 매도되면서 급등했습니다. 이러한 신용 신호가 주식 투자자에게 의미하는 바는 다음과 같습니다."
-    },
-    {
-      "headline": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock - Reuters",
-      "summary": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNjlHdlpLN0M4ZWJ5WmRvaUkyX2p0V0RNcnBqMmFaWVhqRzVUY2l6YlJkb2xpWXNXWXBZUlRXNzUyRHVhOXl2Wlh2bHROTWdQc1BYVkdjTVR3aFNaazVxOXR1REMtdW9HM0g3R3I0SW42T05qV3pOcDA0R2d3eC0xLWlxVS1MOFRiWHhyeFNzR0ZCWVl3dVplLU9wWmNNS3JhSGRBNjBTZjduSVp5TnlDd1pQN3ljajFBMHc?oc=5",
-      "datetime": 1792179439,
-      "headlineKo": "독점 : 레바논과의 미국 직항 항공편을 재개하려는 트럼프의 움직임-로이터",
-      "summaryKo": "독점: 레바논과의 미국 직항 항공편을 재개하려는 트럼프의 움직임이 장애물에 부딪혔습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792293947.0385277,
+  "_news_last_success_at": 1792297754.3354747,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792293939.7682629,
-  "_updated_label": "2026-10-18 12:26",
-  "_last_attempt_at": 1792293939.7682629,
-  "_last_success_at": 1792293939.7682629,
+  "_fetched_at": 1792297744.3832202,
+  "_updated_label": "2026-10-18 13:29",
+  "_last_attempt_at": 1792297744.3832202,
+  "_last_success_at": 1792297744.3832202,
   "_collection_status": "ok",
   "_collection_errors": []
 };
