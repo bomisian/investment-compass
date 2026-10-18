@@ -237,6 +237,33 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Here are the 3 big things we're watching in the stock market this week",
+      "summary": "Meta and Capital One are set to report earnings. We'll also hear from plenty of important companies outside the Club portfolio.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/investingclub/2026/10/18/here-are-the-3-big-things-were-watching-in-the-stock-market-this-week.html",
+      "datetime": 1792337077,
+      "headlineKo": "이번주 주식시장에서 주목해야 할 3가지 주요 이슈는 다음과 같습니다.",
+      "summaryKo": "메타와 캐피털원이 실적을 발표할 예정이다. 또한 Club 포트폴리오 외부의 수많은 중요한 회사의 소식도 들을 수 있습니다."
+    },
+    {
+      "headline": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict - Reuters",
+      "summary": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUsxbVVqQ0FFUl81U25IbG1NaXhrNzFqZzIzaFpRUVhKbF9rYlZoMXg1Z3NzYjR1TEtkeHNCU1BrOWs4ZXR5VHFqMTBoX3VjSV9FRV9neGVDSkdUNWIxMlNhZWRJbldocDM5Q2hiMXYxUXpHVUJqWkkyOEF5OGNBNWduQXFPMXp6VXhYRjUyNmsxaV9pbXJhS29uVGh6Tm51emp4S3YtdmI5c21HZE9HeFkycENlNGxHRUlJd29YWkxwRF85eXc?oc=5",
+      "datetime": 1792333891,
+      "headlineKo": "이집트는 후티 반군 분쟁 중에 사우디아라비아에 필요한 지원을 제공할 준비가 되어 있다고 밝혔습니다.",
+      "summaryKo": "이집트는 후티 반군 분쟁 중에 사우디아라비아에 필요한 지원을 제공할 준비가 되어 있다고 밝혔습니다."
+    },
+    {
+      "headline": "Oil lifts Saudi bourse; Egypt tumbles on regional tensions - Reuters",
+      "summary": "Oil lifts Saudi bourse; Egypt tumbles on regional tensions Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdkJ2LXpMXzV0dEQ2b1NYcm9XT1FZMTUyZUlVQlZaZ2RYNFhvVFlnVFRJM1RJTU5CNzlDNVdKTmtzX2E0S0xvV2h6UEpOWFJtUlNGczZxeGR4a2NYQlU5NktIN0JQbE54SlRaS3QzRVVvWUdSRGpqWmNYWXlQSWtMbkM2R3lnRWtERTVLcTNadXMwbGxVQm9GXzVLRmVpZDY1OFFDVmI1ZlM3cGVZ?oc=5",
+      "datetime": 1792331503,
+      "headlineKo": "석유가 사우디 증권거래소를 상승시킵니다. 이집트, 지역적 긴장으로 무너져 - 로이터",
+      "summaryKo": "석유가 사우디 증권거래소를 상승시킵니다. 이집트, 지역적 긴장으로 무너져 - 최신"
+    },
+    {
       "headline": "I've studied over 200 kids—parents who raise resilient, successful children teach them these 6 lessons early on",
       "summary": "Parenting coach Reem Raouda shares lessons to help kids feel worthy regardless of achievements and handle disappointment, disagreement and difficult feelings.",
       "source": "CNBC",
@@ -253,15 +280,6 @@ const MARKET_DATA = {
       "datetime": 1792319383,
       "headlineKo": "이란, 미국에 호르무즈 해협 재개 제안 수락 촉구 - 로이터 통신",
       "summaryKo": "이란, 미국에 호르무즈 해협 재개 제안 수락 촉구 - 뉴스와이어"
-    },
-    {
-      "headline": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict - Reuters",
-      "summary": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUsxbVVqQ0FFUl81U25IbG1NaXhrNzFqZzIzaFpRUVhKbF9rYlZoMXg1Z3NzYjR1TEtkeHNCU1BrOWs4ZXR5VHFqMTBoX3VjSV9FRV9neGVDSkdUNWIxMlNhZWRJbldocDM5Q2hiMXYxUXpHVUJqWkkyOEF5OGNBNWduQXFPMXp6VXhYRjUyNmsxaV9pbXJhS29uVGh6Tm51emp4S3YtdmI5c21HZE9HeFkycENlNGxHRUlJd29YWkxwRF85eXc?oc=5",
-      "datetime": 1792318663,
-      "headlineKo": "이집트는 후티 반군 분쟁 중에 사우디아라비아에 필요한 지원을 제공할 준비가 되어 있다고 밝혔습니다.",
-      "summaryKo": "이집트는 후티 반군 분쟁 중에 사우디아라비아에 필요한 지원을 제공할 준비가 되어 있다고 밝혔습니다."
     },
     {
       "headline": "Iran's parliament approves Mehrdad Akhlaqi as minister of defence - Reuters",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792247025,
       "headlineKo": "이집트 시시 총리, 요청 시 사우디아라비아 방어를 돕기 위해 의회의 지원 요청 - 로이터 통신",
       "summaryKo": "이집트의 시시(Sisi)는 요청 시 사우디아라비아를 방어하기 위해 의회의 지원을 구합니다."
-    },
-    {
-      "headline": "Iran's Guards say two tankers hit mines in Strait of Hormuz - Reuters",
-      "summary": "Iran's Guards say two tankers hit mines in Strait of Hormuz Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZWFxZjNZNnY5cVR3VDhKUnNnV1JOcG1vOVB5dEZGdWRybEtqdE9YRWgwY0ZVSXZ0bHYzTWRpX2duSkxpTENtY0s0WW5jMzFUZlZIME16d0FpUXluV2ZGbFJ3alNZaDh0VVVSVFhOMWVIbEZTNVgyTVdwaXNLNXRrMjE4SjZvQXZtblNUNVVHSjFIUmlIaU41TGRHYmIzOUxoa25BODFKaG1FZw?oc=5",
-      "datetime": 1792244171,
-      "headlineKo": "이란 경비대, 유조선 2척이 호르무즈 해협에서 지뢰를 공격했다고 밝혔습니다.",
-      "summaryKo": "이란 경비대, 유조선 두 척이 호르무즈 해협에서 지뢰를 공격했다고 밝혔습니다."
-    },
-    {
-      "headline": "'Everyone laughed' when he started a pumpkin farm—now it brings in $2 million a year",
-      "summary": "Kelly Schultz bought a pumpkin farm in 1996. He transformed it into a seasonal attraction that draws in 100,000 visitors each fall.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/make-it/2026/10/17/great-pumpkin-farm-new-york-2-million-revenue.html",
-      "datetime": 1792242001,
-      "headlineKo": "그가 호박 농장을 시작했을 때 '모두가 웃었다'. 이제는 연간 200만 달러의 수익을 창출합니다.",
-      "summaryKo": "Kelly Schultz는 1996년에 호박 농장을 구입했습니다. 그는 이곳을 매년 가을 100,000명의 방문객을 끌어들이는 계절 명소로 탈바꿈시켰습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792336341.6670706,
+  "_news_last_success_at": 1792340134.8657477,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792336332.1721454,
-  "_updated_label": "2026-10-19 00:12",
-  "_last_attempt_at": 1792336332.1721454,
-  "_last_success_at": 1792336332.1721454,
+  "_fetched_at": 1792340125.2274125,
+  "_updated_label": "2026-10-19 01:16",
+  "_last_attempt_at": 1792340125.2274125,
+  "_last_success_at": 1792340125.2274125,
   "_collection_status": "ok",
   "_collection_errors": []
 };
