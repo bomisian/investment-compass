@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict - Reuters",
+      "summary": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUsxbVVqQ0FFUl81U25IbG1NaXhrNzFqZzIzaFpRUVhKbF9rYlZoMXg1Z3NzYjR1TEtkeHNCU1BrOWs4ZXR5VHFqMTBoX3VjSV9FRV9neGVDSkdUNWIxMlNhZWRJbldocDM5Q2hiMXYxUXpHVUJqWkkyOEF5OGNBNWduQXFPMXp6VXhYRjUyNmsxaV9pbXJhS29uVGh6Tm51emp4S3YtdmI5c21HZE9HeFkycENlNGxHRUlJd29YWkxwRF85eXc?oc=5",
+      "datetime": 1792318663,
+      "headlineKo": "이집트는 후티 반군 분쟁 중에 사우디아라비아에 필요한 지원을 제공할 준비가 되어 있다고 밝혔습니다.",
+      "summaryKo": "이집트는 후티 반군 분쟁 중에 사우디아라비아에 필요한 지원을 제공할 준비가 되어 있다고 밝혔습니다."
+    },
+    {
       "headline": "Iran's parliament approves Mehrdad Akhlaqi as minister of defence - Reuters",
       "summary": "Iran's parliament approves Mehrdad Akhlaqi as minister of defence Reuters",
       "source": "Reuters",
@@ -271,6 +280,15 @@ const MARKET_DATA = {
       "datetime": 1792269103,
       "headlineKo": "레바논은 군사 대표단이 미국 회담에서 이스라엘의 공격을 중단하도록 압력을 가할 것이라고 말했습니다. - 로이터 통신",
       "summaryKo": "레바논은 군사 대표단이 미국 회담에서 이스라엘의 공격을 중단하도록 압력을 가할 것이라고 말했다. 로이터 통신"
+    },
+    {
+      "headline": "Israeli settlers attack Palestinians, European diplomats in West Bank, Belgium says - Reuters",
+      "summary": "Israeli settlers attack Palestinians, European diplomats in West Bank, Belgium says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWXplRm9KdGNaY1RUZFA0UUFLbUxVWmx3TlBnRXRCQU5BUjBBRXNDcm9TSEQ2SUthUlpYMl92X052ZGdjMzFZLUd6amZ3UHdFNG5ic0k5LURwUDFOaDZQNE1CYWFlN1JRWDhlcFRWVVZTU0tzN0l5OHVaZXh0dkVFOFFwYkQ5WTIycElqQk5ZeHh3OTZVQWpVWHNkMDFDWk1ndEc5OHUtR2EzbV9iQVZHaWx4REljaTYxSFhsSkdDRkw?oc=5",
+      "datetime": 1792256884,
+      "headlineKo": "이스라엘 정착민들이 팔레스타인을 공격했다고 벨기에 서안지구의 유럽 외교관들이 밝혔습니다.",
+      "summaryKo": "이스라엘 정착민들이 벨기에 서안지구의 팔레스타인인과 유럽 외교관을 공격했다고 로이터 통신이 밝혔습니다."
     },
     {
       "headline": "Explosion at Iraqi paramilitary alliance base kills one member, sources say - Reuters",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792212631,
       "headlineKo": "OpenAI, AI에 초점을 맞춘 또 다른 SpaceX 영업 리드 확보",
       "summaryKo": "OpenAI는 Graham Seamans를 포함한 SpaceX AI 임원을 고용하여 새로운 수익 전략 속에서 기업 판매 및 사이버 보안 제품을 확장합니다."
-    },
-    {
-      "headline": "Jio’s $3.2 billion IPO tests Ambani appeal with young Indians",
-      "summary": "Jio Platforms plans to raise about $3.2 billion in the offering, which opens on Oct. 21; the IPO will test how much the Reliance brand still matters to retail investors",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-17/jio-s-3-2-billion-ipo-tests-ambani-appeal-with-young-indians",
-      "datetime": 1792210050,
-      "headlineKo": "Jio의 32억 달러 IPO로 젊은 인도인들에게 Ambani의 매력 테스트",
-      "summaryKo": "Jio Platform은 10월 21일에 개시되는 공모에서 약 32억 달러를 모금할 계획입니다. IPO는 Reliance 브랜드가 소매 투자자들에게 얼마나 중요한지 테스트할 것입니다."
-    },
-    {
-      "headline": "Apple says iPhone Duo demand extraordinary after delivery delays",
-      "summary": "Many customers who opened Apple’s online store Friday morning saw shipping delays pushed from November to December, then to the end of January",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-16/apple-iphone-duo-orders-slip-into-2027-amid-preorder-frenzy",
-      "datetime": 1792209916,
-      "headlineKo": "애플은 아이폰 듀오가 배송 지연 이후 엄청난 수요를 보인다고 밝혔습니다.",
-      "summaryKo": "금요일 아침에 Apple 온라인 스토어를 연 많은 고객들은 배송 지연이 11월에서 12월, 그리고 1월 말로 밀려나는 것을 목격했습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792321271.0482197,
+  "_news_last_success_at": 1792324815.457547,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792321259.7047036,
-  "_updated_label": "2026-10-18 20:01",
-  "_last_attempt_at": 1792321259.7047036,
-  "_last_success_at": 1792321259.7047036,
+  "_fetched_at": 1792324804.8224342,
+  "_updated_label": "2026-10-18 21:00",
+  "_last_attempt_at": 1792324804.8224342,
+  "_last_success_at": 1792324804.8224342,
   "_collection_status": "ok",
   "_collection_errors": []
 };
