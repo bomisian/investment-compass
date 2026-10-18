@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "I've studied over 200 kids—parents who raise resilient, successful children teach them these 6 lessons early on",
+      "summary": "Parenting coach Reem Raouda shares lessons to help kids feel worthy regardless of achievements and handle disappointment, disagreement and difficult feelings.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/make-it/2026/10/18/parenting-lessons-resilient-successful-well-adjusted.html",
+      "datetime": 1792330621,
+      "headlineKo": "나는 200명 이상의 아이들을 연구했습니다. 탄력 있고 성공적인 아이들을 키우는 부모들은 그들에게 일찍부터 이 6가지 교훈을 가르칩니다.",
+      "summaryKo": "육아 코치인 Reem Raouda는 성취 여부에 관계없이 아이들이 가치 있다고 느끼고 실망, 불일치, 어려운 감정을 처리하도록 돕는 교훈을 공유합니다."
+    },
+    {
       "headline": "Iran urges US to accept proposal to reopen Strait of Hormuz - Reuters",
       "summary": "Iran urges US to accept proposal to reopen Strait of Hormuz Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792242001,
       "headlineKo": "그가 호박 농장을 시작했을 때 '모두가 웃었다'. 이제는 연간 200만 달러의 수익을 창출합니다.",
       "summaryKo": "Kelly Schultz는 1996년에 호박 농장을 구입했습니다. 그는 이곳을 매년 가을 100,000명의 방문객을 끌어들이는 계절 명소로 탈바꿈시켰습니다."
-    },
-    {
-      "headline": "Tanker struck by unknown projectile off Saudi Arabia on Friday, UKMTO says - Reuters",
-      "summary": "Tanker struck by unknown projectile off Saudi Arabia on Friday, UKMTO says Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNDZxN09RLXNuaEpfdzNaQ3lhdzUyM29wSU84bG0tR3hpRm14NWM2d0hBbmtSVmtxM0hSZmhLMXQ5bFhCVTNKaTNkLW1LcUZRcEhlS3g1dmNMU1hFY1ZMYUJqaHBRQ0UwT3ZCNXUtM1Zwa3VxeDJxUmYtUXUxNXVKNk4wWHB3V2NaSkZEYk0yZkhXX2ZhMGtVZHhhcVhCOW9OUXp4djVwbGZ4UWdMa1RpTUJQenphV0RHTTFpejNMdDJtdw?oc=5",
-      "datetime": 1792224313,
-      "headlineKo": "UKMTO는 금요일 사우디 아라비아에서 알려지지 않은 발사체에 유조선이 충돌했다고 밝혔습니다 - Reuters",
-      "summaryKo": "UKMTO는 금요일 사우디아라비아에서 정체불명의 발사체에 유조선이 충돌했다고 로이터 통신이 밝혔습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792332552.150091,
+  "_news_last_success_at": 1792336341.6670706,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792332543.4491928,
-  "_updated_label": "2026-10-18 23:09",
-  "_last_attempt_at": 1792332543.4491928,
-  "_last_success_at": 1792332543.4491928,
+  "_fetched_at": 1792336332.1721454,
+  "_updated_label": "2026-10-19 00:12",
+  "_last_attempt_at": 1792336332.1721454,
+  "_last_success_at": 1792336332.1721454,
   "_collection_status": "ok",
   "_collection_errors": []
 };
