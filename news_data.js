@@ -6713,7 +6713,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "SPY": {
@@ -14759,7 +14759,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 165,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "MSFT": {
@@ -22733,7 +22733,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "GOOGL": {
@@ -30816,7 +30816,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "AMZN": {
@@ -39062,7 +39062,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "META": {
@@ -47008,7 +47008,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "AAPL": {
@@ -54983,7 +54983,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "TSLA": {
@@ -63108,7 +63108,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "ORCL": {
@@ -71797,7 +71797,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "CRM": {
@@ -80149,7 +80149,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 184,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "PLTR": {
@@ -89288,7 +89288,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "NVDA": {
@@ -97072,7 +97072,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "AMD": {
@@ -105259,7 +105259,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "AVGO": {
@@ -105660,6 +105660,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7b8b38b7b5dea8ced7c1a606a1e7bf0731c51ba71238788bc7d5c8236de8d9f1",
         "datetime": 1792265402,
+        "headlineKo": "Broadcom 주식이 지금 구매하는 것이 좋은 이유",
         "relevance": 0.5,
         "keywordFlag": false
       },
@@ -114078,7 +114079,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "QCOM": {
@@ -122825,7 +122826,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "ARM": {
@@ -128928,7 +128929,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "MRVL": {
@@ -137736,7 +137737,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "INTC": {
@@ -146627,7 +146628,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "TSM": {
@@ -146882,6 +146883,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=eccb3290658773cf73b2e97e864fe97d851b64b9a96ebbb996cbf9e6377e4d60",
         "datetime": 1792282800,
+        "headlineKo": "Nvidia, Broadcom 및 TSMC에 걸쳐 3,000달러를 분할하면 2030년까지 이만큼 가치가 있을 수 있습니다.",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -146944,6 +146946,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=1dbff7e277030dc743fefcf2ffee37b2ddabe0d9d9adf197b0307c59d280f549",
         "datetime": 1792276013,
+        "headlineKo": "TSMC: AI 붐은 예상보다 더 크고 길다",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -146992,6 +146995,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=14f6a1c84c6db264ce29e9754b3e5088258be7bb77d922c567e20fca49b3d494",
         "datetime": 1792275131,
+        "headlineKo": "TSMC 대 ASML: 어느 AI 확장에 더 많은 현금이 필요합니까?",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -147040,6 +147044,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=aacc70dfeb11cc799a12ae8890435cc77c3011fbe85b52985b59499a96142e0f",
         "datetime": 1792275041,
+        "headlineKo": "TSMC 대 ASML: 도구 제조업체를 구입하면 지리적 위험이 줄어듭니까?",
         "relevance": 0.5,
         "keywordFlag": false
       },
@@ -147048,6 +147053,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ca2bf16f5b630348dcff0278e595af4431925ee990afbac5440c39d89b96268b",
         "datetime": 1792257998,
+        "headlineKo": "TSMC가 패키징 사업을 목표로 삼으면서 인텔 주가는 약 6% 하락했습니다. 인텔의 마진이 의미하는 바는 다음과 같습니다.",
         "relevance": 0.5,
         "keywordFlag": false
       },
@@ -155127,7 +155133,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "ASML": {
@@ -161952,7 +161958,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "AMAT": {
@@ -168393,7 +168399,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 133,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "LRCX": {
@@ -171843,7 +171849,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "KLAC": {
@@ -175081,7 +175087,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "MU": {
@@ -175440,6 +175446,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=309bcc166c8163e50d52451d0535d90e773c546669687709a1c6091bd979ca19",
         "datetime": 1792293001,
+        "headlineKo": "마이크론 테크놀로지 vs. 샌디스크: 어느 AI 메모리 주식이 더 나은 투자인가?",
         "relevance": 1.0,
         "keywordFlag": false,
         "analysis": {
@@ -175519,6 +175526,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=9b85bdde1b8bb9591982fea157fcf43892c679cb8645cd86a2d115a5fd5f0fac",
         "datetime": 1792289703,
+        "headlineKo": "Micron이 방금 지원을 중단했으므로 MUU를 강세로 구매하세요.",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -183116,7 +183124,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "SNDK": {
@@ -183365,6 +183373,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=417b4fb879081d5ade679677727209b51e3c42110dee2814fafd701b1119a294",
         "datetime": 1792302600,
+        "headlineKo": "Sandisk는 2026년 S&P 500을 지배하고 있습니다. 2027년에도 반복될 수 있을까요?",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -183427,6 +183436,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=309bcc166c8163e50d52451d0535d90e773c546669687709a1c6091bd979ca19",
         "datetime": 1792293001,
+        "headlineKo": "마이크론 테크놀로지 vs. 샌디스크: 어느 AI 메모리 주식이 더 나은 투자인가?",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -192200,7 +192210,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "WDC": {
@@ -198072,7 +198082,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "ANET": {
@@ -202569,7 +202579,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "COHR": {
@@ -206646,7 +206656,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "LITE": {
@@ -211555,7 +211565,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "GEV": {
@@ -211773,6 +211783,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fb315b60fac64fe998dee02007bd398672104f959d881e80ed41b202fd507664",
         "datetime": 1792306200,
+        "headlineKo": "GE Vernova 대 Caterpillar: 어느 쪽이 AI 전력 증강에 더 많이 노출됩니까?",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -217619,7 +217630,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "CEG": {
@@ -223091,7 +223102,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "VST": {
@@ -223313,6 +223324,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=60227f9160a405233d9f96e87da2692865140e976641f566e48de67a68b08de1",
         "datetime": 1792297105,
+        "headlineKo": "Vistra(VST)는 10억 달러 우선주 상환을 통해 무엇을 얻나요?",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -227294,7 +227306,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "ETN": {
@@ -231192,7 +231204,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "PWR": {
@@ -234536,7 +234548,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "HUBB": {
@@ -235486,7 +235498,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 19,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "VRT": {
@@ -240123,7 +240135,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "MOD": {
@@ -241724,7 +241736,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "STX": {
@@ -246814,7 +246826,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 110,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "EME": {
@@ -248966,7 +248978,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "FIX": {
@@ -250851,7 +250863,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   },
   "BE": {
@@ -253667,7 +253679,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-18 17:21"
+      "updated": "2026-10-18 17:52"
     }
   }
 };
