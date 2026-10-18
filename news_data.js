@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1792270802.7150013,
+    "_last_attempt_at": 1792293896.0271573,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -52,7 +52,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792270807.3035915
+          "analysisUpdatedAt": 1792293901.080746
         },
         "headlineKo": "두 배의 크기, 두 배의 레버리지: 우리가 이 QQQ 거래를 강화한 이유"
       },
@@ -116,7 +116,7 @@ const NEWS_DATA = {
             "Cheaper Nasdaq-100 ETFs: Why BlackRock And State Street Aren't Winning Investors Yet Lower fees haven’t translated into meaningful traction for two new Nasdaq-100 ETFs, as Invesco’s established products continue to dominate in assets and tr",
             "Morgan analysts Kenneth Worthington, Michael Cho and Madeline Daleiden noted in an Oct."
           ],
-          "analysisUpdatedAt": 1792270809.776028
+          "analysisUpdatedAt": 1792293903.7726119
         },
         "headlineKo": "QQQ vs. 더 저렴한 Nasdaq-100 ETF: BlackRock과 State Street가 아직 투자자를 확보하지 못하는 이유"
       },
@@ -180,7 +180,7 @@ const NEWS_DATA = {
             "stocks diverged at midday Friday as an AI-financing scare dragged the Nasdaq 100 down more than 1%, while rotation into value and defensive names lifted the Dow Jones.",
             "The Nasdaq 100 dropped 1.3%, or 400 points, to about 29,535 pressure by AI-linked names."
           ],
-          "analysisUpdatedAt": 1792270811.9417014
+          "analysisUpdatedAt": 1792293906.2587154
         },
         "headlineKo": "Nasdaq 100 슬라이드, Micron, SanDisk, CoreWeave 싱크: 오늘 주식 시장"
       },
@@ -252,7 +252,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792270807.3035915
+          "analysisUpdatedAt": 1792293901.080746
         }
       },
       {
@@ -315,7 +315,7 @@ const NEWS_DATA = {
             "Cheaper Nasdaq-100 ETFs: Why BlackRock And State Street Aren't Winning Investors Yet Lower fees haven’t translated into meaningful traction for two new Nasdaq-100 ETFs, as Invesco’s established products continue to dominate in assets and tr",
             "Morgan analysts Kenneth Worthington, Michael Cho and Madeline Daleiden noted in an Oct."
           ],
-          "analysisUpdatedAt": 1792270809.776028
+          "analysisUpdatedAt": 1792293903.7726119
         }
       },
       {
@@ -378,7 +378,7 @@ const NEWS_DATA = {
             "stocks diverged at midday Friday as an AI-financing scare dragged the Nasdaq 100 down more than 1%, while rotation into value and defensive names lifted the Dow Jones.",
             "The Nasdaq 100 dropped 1.3%, or 400 points, to about 29,535 pressure by AI-linked names."
           ],
-          "analysisUpdatedAt": 1792270811.9417014
+          "analysisUpdatedAt": 1792293906.2587154
         }
       },
       {
@@ -6705,15 +6705,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792270802.7150013,
-    "_updated_label": "2026-10-18 06:00",
-    "_last_success_at": 1792270802.7150013,
+    "_fetched_at": 1792293896.0271573,
+    "_updated_label": "2026-10-18 12:25",
+    "_last_success_at": 1792293896.0271573,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "SPY": {
@@ -14759,11 +14759,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 165,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "MSFT": {
-    "_last_attempt_at": 1792270802.7150013,
+    "_last_attempt_at": 1792293896.0271573,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -14817,7 +14817,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792270816.9897313
+          "analysisUpdatedAt": 1792293911.8625104
         },
         "headlineKo": "Microsoft(MSFT)가 새로운 규제 압력에 직면해 있습니다."
       },
@@ -14866,7 +14866,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792270817.6376138
+          "analysisUpdatedAt": 1792293912.5620098
         },
         "headlineKo": "UBS, 투자자들을 위해 마이크로소프트 주가 목표 재설정"
       },
@@ -14930,7 +14930,7 @@ const NEWS_DATA = {
             "It's heavily pursuing a massive amount of AI computing power for its internal service, Copilot, while also powering other products like OpenAI's ChatGPT through its cloud computing platform, Azure.",
             "To support this growth, Microsoft is investing heavily in data centers."
           ],
-          "analysisUpdatedAt": 1792270820.0232844
+          "analysisUpdatedAt": 1792293915.251896
         },
         "headlineKo": "Microsoft의 1,750억 달러 자본 지출이 비즈니스에 어떤 타격을 주고 있는지 알아보겠습니다."
       },
@@ -15066,7 +15066,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792270816.9897313
+          "analysisUpdatedAt": 1792293911.8625104
         }
       },
       {
@@ -15114,7 +15114,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792270817.6376138
+          "analysisUpdatedAt": 1792293912.5620098
         }
       },
       {
@@ -15177,7 +15177,7 @@ const NEWS_DATA = {
             "It's heavily pursuing a massive amount of AI computing power for its internal service, Copilot, while also powering other products like OpenAI's ChatGPT through its cloud computing platform, Azure.",
             "To support this growth, Microsoft is investing heavily in data centers."
           ],
-          "analysisUpdatedAt": 1792270820.0232844
+          "analysisUpdatedAt": 1792293915.251896
         }
       },
       {
@@ -22725,15 +22725,15 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1792270802.7150013,
-    "_updated_label": "2026-10-18 06:00",
-    "_last_success_at": 1792270802.7150013,
+    "_fetched_at": 1792293896.0271573,
+    "_updated_label": "2026-10-18 12:25",
+    "_last_success_at": 1792293896.0271573,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "GOOGL": {
@@ -30832,7 +30832,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "AMZN": {
@@ -39078,7 +39078,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "META": {
@@ -47043,7 +47043,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "AAPL": {
@@ -55018,7 +55018,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "TSLA": {
@@ -63143,7 +63143,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "ORCL": {
@@ -71832,7 +71832,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "CRM": {
@@ -80184,7 +80184,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 184,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "PLTR": {
@@ -89323,7 +89323,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "NVDA": {
@@ -97041,7 +97041,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "AMD": {
@@ -105178,7 +105178,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "AVGO": {
@@ -114052,7 +114052,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "QCOM": {
@@ -122799,7 +122799,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "ARM": {
@@ -128902,7 +128902,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "MRVL": {
@@ -137710,7 +137710,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "INTC": {
@@ -146601,7 +146601,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "TSM": {
@@ -155156,7 +155156,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "ASML": {
@@ -161981,7 +161981,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "AMAT": {
@@ -168422,7 +168422,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 133,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "LRCX": {
@@ -171872,11 +171872,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1792270802.7150013,
+    "_last_attempt_at": 1792293896.0271573,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -171931,7 +171931,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792270826.324256
+          "analysisUpdatedAt": 1792293921.0355277
         },
         "headlineKo": "KLAC는 1년 만에 64.5% 급등: 주식을 사야 할까요, 팔아야 할까요, 아니면 보유해야 할까요?"
       },
@@ -171981,7 +171981,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792270827.3776789
+          "analysisUpdatedAt": 1792293922.243804
         },
         "headlineKo": "KLA CORP (NASDAQ:KLAC): 소득 투자자를 위한 배당 품질 플레이"
       },
@@ -172045,7 +172045,7 @@ const NEWS_DATA = {
             "| Trefis What Is The True Hidden Price Of KLA Stock?",
             "October 14th, 2026 · by Trefis Team KLAC YTD +36.9% SPY YTD +12.5% QQQ YTD +15.8% Analyze KLAC → Investors are currently paying 47.7 times trailing twelve-month earnings for shares of KLA (KLAC) ."
           ],
-          "analysisUpdatedAt": 1792270830.4920442
+          "analysisUpdatedAt": 1792293925.7646468
         },
         "headlineKo": "KLA 주식의 진정한 숨겨진 가격은 무엇입니까?"
       },
@@ -172169,7 +172169,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792270826.324256
+          "analysisUpdatedAt": 1792293921.0355277
         }
       },
       {
@@ -172218,7 +172218,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792270827.3776789
+          "analysisUpdatedAt": 1792293922.243804
         }
       },
       {
@@ -172281,7 +172281,7 @@ const NEWS_DATA = {
             "| Trefis What Is The True Hidden Price Of KLA Stock?",
             "October 14th, 2026 · by Trefis Team KLAC YTD +36.9% SPY YTD +12.5% QQQ YTD +15.8% Analyze KLAC → Investors are currently paying 47.7 times trailing twelve-month earnings for shares of KLA (KLAC) ."
           ],
-          "analysisUpdatedAt": 1792270830.4920442
+          "analysisUpdatedAt": 1792293925.7646468
         }
       },
       {
@@ -175102,15 +175102,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792270802.7150013,
-    "_updated_label": "2026-10-18 06:00",
-    "_last_success_at": 1792270802.7150013,
+    "_fetched_at": 1792293896.0271573,
+    "_updated_label": "2026-10-18 12:25",
+    "_last_success_at": 1792293896.0271573,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "MU": {
@@ -183122,7 +183122,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "SNDK": {
@@ -192146,7 +192146,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "WDC": {
@@ -198018,11 +198018,11 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "ANET": {
-    "_last_attempt_at": 1792270802.7150013,
+    "_last_attempt_at": 1792293896.0271573,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -198031,6 +198031,106 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Arista vs. Vertiv: Which AI Infrastructure Business Has the Bigger Profit Cushion?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8d8308fbcd3a71f9082fccf1ab0d70e46819fbeb9244fb844777700ecf9aa22c",
+        "datetime": 1792275105,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Arista vs. Vertiv: Which AI Infrastructure Business Has the Bigger Profit Cushion?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ANET",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ANET의 사업과 관련된 'Arista vs. Vertiv: Which AI Infrastructure Business Has the Bigger Profit Cushion?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ANET 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792293931.128171
+        },
+        "headlineKo": "Arista vs. Vertiv: 어떤 AI 인프라 비즈니스가 더 큰 이익 쿠션을 갖고 있습니까?"
+      },
+      {
+        "headline": "Arista vs. Vertiv: Which Cash Flow Depends More on Customer Advances?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b584e82595b78949365b9e2d6d9b6043d3a9977ee5aa4d9f6a3e934599fce496",
+        "datetime": 1792275051,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Arista vs. Vertiv: Which Cash Flow Depends More on Customer Advances?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ANET",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ANET의 사업과 관련된 'Arista vs. Vertiv: Which Cash Flow Depends More on Customer Advances?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 비용·CAPEX·영업현금흐름·FCF·부채 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ANET 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792293933.1485682
+        },
+        "headlineKo": "Arista 대 Vertiv: 고객 발전에 더 의존하는 현금 흐름은 무엇입니까?"
+      },
       {
         "headline": "Arista Networks CEO Is One of the World’s Richest Women. She Just Sold $34M in Stock.",
         "source": "Yahoo",
@@ -198077,7 +198177,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792270834.8244085
+          "analysisUpdatedAt": 1792293934.8952134
         },
         "headlineKo": "Arista Networks CEO는 세계에서 가장 부유한 여성 중 한 명입니다. 그녀는 방금 3,400만 달러의 주식을 팔았습니다."
       },
@@ -198089,45 +198189,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "실적 발표 · 본업과 특이항목 분리",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "What to Expect From Arista Networks’ Next Quarterly Earnings Report",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-            "ANET의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "ANET",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "매출·영업이익 성장",
-            "정상화이익과 특이항목",
-            "가이던스·OCF·FCF"
-          ],
-          "interpretation": "ANET에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792270835.8480349
-        },
         "headlineKo": "Arista Networks의 다음 분기별 수익 보고서에서 기대할 사항"
       },
       {
@@ -198138,6 +198199,18 @@ const NEWS_DATA = {
         "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "AKAM 대 ANET: 지금 구매하는 것이 더 나은 AI 인프라 주식은 무엇입니까?"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Arista vs. Vertiv: Which AI Infrastructure Business Has the Bigger Profit Cushion?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8d8308fbcd3a71f9082fccf1ab0d70e46819fbeb9244fb844777700ecf9aa22c",
+        "datetime": 1792275105,
+        "headlineKo": "Arista vs. Vertiv: 어떤 AI 인프라 비즈니스가 더 큰 이익 쿠션을 갖고 있습니까?",
+        "relevance": 0.67,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "low",
@@ -198146,7 +198219,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AKAM vs. ANET: Which AI Infrastructure Stock is the Better Buy Now?",
+            "Arista vs. Vertiv: Which AI Infrastructure Business Has the Bigger Profit Cushion?",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -198170,38 +198243,64 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 ANET의 사업과 관련된 'AKAM vs. ANET: Which AI Infrastructure Stock is the Better Buy Now?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 ANET의 사업과 관련된 'Arista vs. Vertiv: Which AI Infrastructure Business Has the Bigger Profit Cushion?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "ANET 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1.0,
+          "relevance": 0.67,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792270837.4627562
-        },
-        "headlineKo": "AKAM 대 ANET: 지금 구매하는 것이 더 나은 AI 인프라 주식은 무엇입니까?"
+          "analysisUpdatedAt": 1792293931.128171
+        }
       },
       {
-        "headline": "Here's Why Arista Networks (ANET) Could be Great Choice for a Bottom Fisher",
+        "headline": "Arista vs. Vertiv: Which Cash Flow Depends More on Customer Advances?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=cf6cb1ce17ee515cc0a47afe0d005748634fd595632f0dc374044141e36ef2d1",
-        "datetime": 1792155302,
-        "relevance": 1,
+        "url": "https://finnhub.io/api/news?id=b584e82595b78949365b9e2d6d9b6043d3a9977ee5aa4d9f6a3e934599fce496",
+        "datetime": 1792275051,
+        "headlineKo": "Arista 대 Vertiv: 고객 발전에 더 의존하는 현금 흐름은 무엇입니까?",
+        "relevance": 0.67,
         "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Arista Networks(ANET)가 바텀 피셔에게 탁월한 선택이 될 수 있는 이유는 다음과 같습니다."
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Arista vs. Vertiv: Which Cash Flow Depends More on Customer Advances?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ANET",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ANET의 사업과 관련된 'Arista vs. Vertiv: Which Cash Flow Depends More on Customer Advances?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 비용·CAPEX·영업현금흐름·FCF·부채 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ANET 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792293933.1485682
+        }
       },
-      {
-        "headline": "Arista Networks (ANET) Stock Looks Fairly Valued On Its 7x Run",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=db5d5332de641af2650da4e788bec40948bc6e8fbf0c9ee34c685083f0c7bb20",
-        "datetime": 1792095707,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Arista Networks(ANET) 주식은 7배 상승에서 상당히 가치 있는 것으로 보입니다."
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Arista Networks CEO Is One of the World’s Richest Women. She Just Sold $34M in Stock.",
         "source": "Yahoo",
@@ -198248,7 +198347,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792270834.8244085
+          "analysisUpdatedAt": 1792293934.8952134
         }
       },
       {
@@ -202408,15 +202507,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792270802.7150013,
-    "_updated_label": "2026-10-18 06:00",
-    "_last_success_at": 1792270802.7150013,
+    "_fetched_at": 1792293896.0271573,
+    "_updated_label": "2026-10-18 12:25",
+    "_last_success_at": 1792293896.0271573,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 88,
+      "checked": 90,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "COHR": {
@@ -206493,7 +206592,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "LITE": {
@@ -211402,7 +211501,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "GEV": {
@@ -217404,7 +217503,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "CEG": {
@@ -222876,7 +222975,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "VST": {
@@ -226995,7 +227094,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "ETN": {
@@ -230893,7 +230992,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "PWR": {
@@ -234237,7 +234336,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "HUBB": {
@@ -235187,7 +235286,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 19,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "VRT": {
@@ -239824,7 +239923,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "MOD": {
@@ -241425,7 +241524,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "STX": {
@@ -246515,7 +246614,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 110,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "EME": {
@@ -248667,7 +248766,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "FIX": {
@@ -250552,7 +250651,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   },
   "BE": {
@@ -253368,7 +253467,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-18 10:16"
+      "updated": "2026-10-18 12:25"
     }
   }
 };
