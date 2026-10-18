@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran urges US to accept proposal to reopen Strait of Hormuz - Reuters",
+      "summary": "Iran urges US to accept proposal to reopen Strait of Hormuz Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWUh3Z1JyMmU4SkJ4ZXQ4Y0VaN3RMS1Vtcmg4S1lDMGlvUG1GeVY3Q1pkaWltSG5yOWhmcTBnNkk4U0ZiTVREVzd3RVRZNjZJTjhaTkg5bTFGX0J2Q0JzTUI4UlZIWmxHMmRDeVRRODZRYU1mbkNrVzFRX3piTnpDbllfUGc3NnJkSl9hWWRCQzlxZjFBYnE5bXJQMVBjMzNBUFlNcmRtcw?oc=5",
+      "datetime": 1792319383,
+      "headlineKo": "이란, 미국에 호르무즈 해협 재개 제안 수락 촉구 - 로이터 통신",
+      "summaryKo": "이란, 미국에 호르무즈 해협 재개 제안 수락 촉구 - 뉴스와이어"
+    },
+    {
       "headline": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict - Reuters",
       "summary": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict Reuters",
       "source": "Reuters",
@@ -282,15 +291,6 @@ const MARKET_DATA = {
       "summaryKo": "레바논은 군사 대표단이 미국 회담에서 이스라엘의 공격을 중단하도록 압력을 가할 것이라고 말했다. 로이터 통신"
     },
     {
-      "headline": "Israeli settlers attack Palestinians, European diplomats in West Bank, Belgium says - Reuters",
-      "summary": "Israeli settlers attack Palestinians, European diplomats in West Bank, Belgium says Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWXplRm9KdGNaY1RUZFA0UUFLbUxVWmx3TlBnRXRCQU5BUjBBRXNDcm9TSEQ2SUthUlpYMl92X052ZGdjMzFZLUd6amZ3UHdFNG5ic0k5LURwUDFOaDZQNE1CYWFlN1JRWDhlcFRWVVZTU0tzN0l5OHVaZXh0dkVFOFFwYkQ5WTIycElqQk5ZeHh3OTZVQWpVWHNkMDFDWk1ndEc5OHUtR2EzbV9iQVZHaWx4REljaTYxSFhsSkdDRkw?oc=5",
-      "datetime": 1792256884,
-      "headlineKo": "이스라엘 정착민들이 팔레스타인을 공격했다고 벨기에 서안지구의 유럽 외교관들이 밝혔습니다.",
-      "summaryKo": "이스라엘 정착민들이 벨기에 서안지구의 팔레스타인인과 유럽 외교관을 공격했다고 로이터 통신이 밝혔습니다."
-    },
-    {
       "headline": "Explosion at Iraqi paramilitary alliance base kills one member, sources say - Reuters",
       "summary": "Explosion at Iraqi paramilitary alliance base kills one member, sources say Reuters",
       "source": "Reuters",
@@ -298,6 +298,15 @@ const MARKET_DATA = {
       "datetime": 1792254917,
       "headlineKo": "이라크 준군사 동맹 기지에서 폭발이 발생해 멤버 1명이 사망했다고 소식통이 전했습니다.",
       "summaryKo": "이라크 준군사 동맹 기지에서 폭발이 발생해 멤버 1명이 사망했다고 소식통이 로이터에 전했다."
+    },
+    {
+      "headline": "Israeli settlers attack Palestinians, European diplomats in West Bank, Belgium says - Reuters",
+      "summary": "Israeli settlers attack Palestinians, European diplomats in West Bank, Belgium says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWXplRm9KdGNaY1RUZFA0UUFLbUxVWmx3TlBnRXRCQU5BUjBBRXNDcm9TSEQ2SUthUlpYMl92X052ZGdjMzFZLUd6amZ3UHdFNG5ic0k5LURwUDFOaDZQNE1CYWFlN1JRWDhlcFRWVVZTU0tzN0l5OHVaZXh0dkVFOFFwYkQ5WTIycElqQk5ZeHh3OTZVQWpVWHNkMDFDWk1ndEc5OHUtR2EzbV9iQVZHaWx4REljaTYxSFhsSkdDRkw?oc=5",
+      "datetime": 1792252260,
+      "headlineKo": "이스라엘 정착민들이 팔레스타인을 공격했다고 벨기에 서안지구의 유럽 외교관들이 밝혔습니다.",
+      "summaryKo": "이스라엘 정착민들이 벨기에 서안지구의 팔레스타인인과 유럽 외교관을 공격했다고 로이터 통신이 밝혔습니다."
     },
     {
       "headline": "Egypt's Sisi seeks parliament's backing to help defend Saudi Arabia if asked - Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792224313,
       "headlineKo": "UKMTO는 금요일 사우디 아라비아에서 알려지지 않은 발사체에 유조선이 충돌했다고 밝혔습니다 - Reuters",
       "summaryKo": "UKMTO는 금요일 사우디아라비아에서 정체불명의 발사체에 유조선이 충돌했다고 로이터 통신이 밝혔습니다."
-    },
-    {
-      "headline": "OpenAI poaches another SpaceX sales lead focused on AI",
-      "summary": "OpenAI hires SpaceX AI executives, including Graham Seamans, to expand enterprise sales and cybersecurity offerings amid new revenue strategies.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-16/openai-poaches-another-spacex-sales-lead-focused-on-ai",
-      "datetime": 1792212631,
-      "headlineKo": "OpenAI, AI에 초점을 맞춘 또 다른 SpaceX 영업 리드 확보",
-      "summaryKo": "OpenAI는 Graham Seamans를 포함한 SpaceX AI 임원을 고용하여 새로운 수익 전략 속에서 기업 판매 및 사이버 보안 제품을 확장합니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792328431.8850396,
+  "_news_last_success_at": 1792332552.150091,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792328405.3032715,
-  "_updated_label": "2026-10-18 22:01",
-  "_last_attempt_at": 1792328405.3032715,
-  "_last_success_at": 1792328405.3032715,
+  "_fetched_at": 1792332543.4491928,
+  "_updated_label": "2026-10-18 23:09",
+  "_last_attempt_at": 1792332543.4491928,
+  "_last_success_at": 1792332543.4491928,
   "_collection_status": "ok",
   "_collection_errors": []
 };
