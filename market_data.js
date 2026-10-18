@@ -241,7 +241,7 @@ const MARKET_DATA = {
       "summary": "Trump endorses Netanyahu in close Israeli election Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeXNEX0FibmplMGVhLVA1TDdESTEzdk9PR1JYNWtsQzJkTG5ER1lrMkhfV05saHNXYndlOXFxdFJONU4zOEZhZUdtXzR0WGpVSHBuLUUyOExTWHktR3AtMjlnU08yNXpaUWFVOXE1Q3dNaDFkZG4yT0JFMmlkYzdvTXFudjFQOF9rcFBaM0VBbjBaOFQ5bndSNS1fZw?oc=5",
-      "datetime": 1792345280,
+      "datetime": 1792356947,
       "headlineKo": "트럼프, 이스라엘 대선에서 네타냐후 지지 - 로이터",
       "summaryKo": "트럼프, 이스라엘 총선에서 네타냐후 지지 - 최신"
     },
@@ -300,6 +300,15 @@ const MARKET_DATA = {
       "summaryKo": "터키는 미국-러시아 공급 계약을 통해 일부 디젤을 얻을 것이라고 에너지 장관은 말했습니다."
     },
     {
+      "headline": "EU condemns attacks by violent settlers, including on diplomats, spokesperson says - Reuters",
+      "summary": "EU condemns attacks by violent settlers, including on diplomats, spokesperson says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcG5pYTJCRkVpNVoxOTVPTVRoNUtwcTBYX2lhZ3ZmMVYxQjRjeG5kMHBHRnlpS1otNzZjWVNyaGJCNjhnU0ROclhuOWYwVGltT19POUY1Z0lOT2pJNDNCSUN0LTFHSkFxUW5iWW91T0ZiOVVTTm42TUpINVc2c1JVbEszT0hBQmhEUU5kemNPbFdqZndpTl9wTG1XeFRxd0JfTXhyam1zSDEzV2hXdWZ3X25xOXY4TkZwWThkLWVXTTBXREpWVFp0eC1XRQ?oc=5",
+      "datetime": 1792320730,
+      "headlineKo": "유럽연합(EU)은 외교관을 포함한 폭력적인 정착민들의 공격을 규탄한다고 대변인이 밝혔다 - 로이터 통신",
+      "summaryKo": "EU는 외교관을 포함한 폭력적인 정착민들의 공격을 비난한다고 대변인은 말했습니다."
+    },
+    {
       "headline": "Iran urges US to accept proposal to reopen Strait of Hormuz - Reuters",
       "summary": "Iran urges US to accept proposal to reopen Strait of Hormuz Reuters",
       "source": "Reuters",
@@ -318,13 +327,13 @@ const MARKET_DATA = {
       "summaryKo": "이란 의회는 Mehrdad Akhlaqi를 국방부 장관으로 승인합니다 로이터 통신"
     },
     {
-      "headline": "Rubio heads to Central Asia while other US officials hit foreign policy hot spots - Reuters",
-      "summary": "Rubio heads to Central Asia while other US officials hit foreign policy hot spots Reuters",
+      "headline": "Rubio arrives in Central Asia while other US officials hit foreign policy hot spots - Reuters",
+      "summary": "Rubio arrives in Central Asia while other US officials hit foreign policy hot spots Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMmFpc0NDcHNWM0tpSVFxYURNSGY4OTFCRlhISGVnLUZqUGtaWEpJUXhsTVpyNzZaRmV3R1JhRnRIdjJjS21DaVFjTDRHaEtIUXEySXNwd0U3el93cmNJeEtHblpNc2VhZERoMXliOUFxXzFMVHhnTUNpY1dRVHJEMGxVR1Uxb0ctRThOeGNxN0ZxaW8wQjhJVTJpSG5sSWVNWndGWWRTOW40TjFEa0d3MDVYcU1Id2tRekxlbURxS2gxcDQ5dlZYUnJ4UWlRUQ?oc=5",
       "datetime": 1792299780,
-      "headlineKo": "루비오는 중앙아시아로 향하고 다른 미국 관료들은 외교 정책의 핫스팟에 부딪힌다 - 로이터",
-      "summaryKo": "루비오가 중앙아시아로 향하는 동안 다른 미국 관료들은 외교 정책 핫스팟에 부딪혔다 - 로이터"
+      "headlineKo": "다른 미국 관리들이 외교 정책 핫스팟을 공격하는 동안 루비오가 중앙 아시아에 도착 - 로이터 통신",
+      "summaryKo": "다른 미국 관리들이 외교 정책 핫스팟을 공격하는 동안 루비오가 중앙 아시아에 도착 - 최신"
     },
     {
       "headline": "Lebanon says military delegation will press for halt to Israeli attacks at US talks - Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792269103,
       "headlineKo": "레바논은 군사 대표단이 미국 회담에서 이스라엘의 공격을 중단하도록 압력을 가할 것이라고 말했습니다. - 로이터 통신",
       "summaryKo": "레바논은 군사 대표단이 미국 회담에서 이스라엘의 공격을 중단하도록 압력을 가할 것이라고 말했다. 로이터 통신"
-    },
-    {
-      "headline": "Explosion at Iraqi paramilitary alliance base kills one member, sources say - Reuters",
-      "summary": "Explosion at Iraqi paramilitary alliance base kills one member, sources say Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMFdrc1I4NnJ2Z0NQeUM2c25pYzF4ekRXcFVHRHlYVWVVYXhhV0hDXzhVUWtUc2JCRnZmU0lZRkJlRkZudWNzUzJINWpDWWdFcG13SG5YVHJnMk9tcEE2Z3BtdHJ1VHdJcXA4eGNQYXVfcE1VX293QjhYQ0YtaVJUOU1kYjJoR2hPeUJJNlNDUzVfVnlxVUhINGJEV2UzTllWRWVrRmpuNG5ZVGY2SFFvcFpySlJsNUEtYmF6LVNEcEpnck0?oc=5",
-      "datetime": 1792254917,
-      "headlineKo": "이라크 준군사 동맹 기지에서 폭발이 발생해 멤버 1명이 사망했다고 소식통이 전했습니다.",
-      "summaryKo": "이라크 준군사 동맹 기지에서 폭발이 발생해 멤버 1명이 사망했다고 소식통이 로이터에 전했다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792355676.2888994,
+  "_news_last_success_at": 1792359453.9120407,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792355669.0764823,
-  "_updated_label": "2026-10-19 05:35",
-  "_last_attempt_at": 1792355669.0764823,
-  "_last_success_at": 1792355669.0764823,
+  "_fetched_at": 1792359442.8438463,
+  "_updated_label": "2026-10-19 06:38",
+  "_last_attempt_at": 1792359442.8438463,
+  "_last_success_at": 1792359442.8438463,
   "_collection_status": "ok",
   "_collection_errors": []
 };
