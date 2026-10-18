@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Saudi-led coalition says helicopter crash in Najran kills two crew members - Reuters",
+      "summary": "Saudi-led coalition says helicopter crash in Najran kills two crew members Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbFZiZFozb1RWTzVBbk4wZU8xMHlSeHhuSmhkMi1FSVhqTTZ5U3BMbF9aaU5fVjRpWnI1MkJTMTZscVcxTWM0YnVFRXFWdXQ2SnpSdVNPVm5LR1QzbVhpQjliR3VNZFl4WXhjODUzbjNZRXg0S0l0al80ZDlwdjc5ejFRU0E3NlJBZm1iOWg3VjhybzNLbWpOelQ4ZDZBWTkxS3Y4Rm9MUm9vTjdfYk9iaVRJd29DSDhMUi1KOGZMcDhzZGs?oc=5",
+      "datetime": 1792314433,
+      "headlineKo": "사우디 주도 연합군, 나즈란에서 헬리콥터 추락으로 승무원 2명 사망 - Reuters",
+      "summaryKo": "사우디 주도 연합군, 나즈란에서 헬리콥터 추락으로 승무원 2명 사망 - 최신"
+    },
+    {
       "headline": "Rubio heads to Central Asia while other US officials hit foreign policy hot spots - Reuters",
       "summary": "Rubio heads to Central Asia while other US officials hit foreign policy hot spots Reuters",
       "source": "Reuters",
@@ -246,13 +255,13 @@ const MARKET_DATA = {
       "summaryKo": "루비오가 중앙아시아로 향하는 동안 다른 미국 관료들은 외교 정책 핫스팟에 부딪혔다 - 로이터"
     },
     {
-      "headline": "Saudi-led coalition says helicopter crash in Najran kills two crew members - Reuters",
-      "summary": "Saudi-led coalition says helicopter crash in Najran kills two crew members Reuters",
+      "headline": "Lebanon says military delegation will press for halt to Israeli attacks at US talks - Reuters",
+      "summary": "Lebanon says military delegation will press for halt to Israeli attacks at US talks Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbFZiZFozb1RWTzVBbk4wZU8xMHlSeHhuSmhkMi1FSVhqTTZ5U3BMbF9aaU5fVjRpWnI1MkJTMTZscVcxTWM0YnVFRXFWdXQ2SnpSdVNPVm5LR1QzbVhpQjliR3VNZFl4WXhjODUzbjNZRXg0S0l0al80ZDlwdjc5ejFRU0E3NlJBZm1iOWg3VjhybzNLbWpOelQ4ZDZBWTkxS3Y4Rm9MUm9vTjdfYk9iaVRJd29DSDhMUi1KOGZMcDhzZGs?oc=5",
-      "datetime": 1792293480,
-      "headlineKo": "사우디 주도 연합군, 나즈란에서 헬리콥터 추락으로 승무원 2명 사망 - Reuters",
-      "summaryKo": "사우디 주도 연합군, 나즈란에서 헬리콥터 추락으로 승무원 2명 사망 - 최신"
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSVBXRnY2dGJybHo5d2JiMTlEbnE2SGNfX3FBbVIyazh3dFFPWjB6eWpQaTZwZGwxT3dKQTRfVHlTQ0hZaGJfWmZtOFZYSERiV1Q1QWNTeWdDcWpSMkdtci0zOHBvelNXYW9XaFB0ZHRadFN5Sy1Vb25PNU8yeXV5Q01IdEZIX1o2TEpXNS15ZDcxX0MxQ1JJeEJZQ3laeGpvZURhYVpkajZrTmcwQzZzLW9EUnhaOUlaRmd5WGxaVEhpdElCQVE?oc=5",
+      "datetime": 1792269103,
+      "headlineKo": "레바논은 군사 대표단이 미국 회담에서 이스라엘의 공격을 중단하도록 압력을 가할 것이라고 말했습니다. - 로이터 통신",
+      "summaryKo": "레바논은 군사 대표단이 미국 회담에서 이스라엘의 공격을 중단하도록 압력을 가할 것이라고 말했다. 로이터 통신"
     },
     {
       "headline": "Explosion at Iraqi paramilitary alliance base kills one member, sources say - Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792199820,
       "headlineKo": "젤렌스키, 트럼프의 러시아 제재 포기는 '잘못'이라고 비판 - 로이터",
       "summaryKo": "젤렌스키, 트럼프의 러시아 제재 포기는 '잘못'이라고 비판 - 로이터"
-    },
-    {
-      "headline": "Trump mocks popularity of the name Mohammad, common among Muslims - Reuters",
-      "summary": "Trump mocks popularity of the name Mohammad, common among Muslims Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ2c4Mjd3MjA4UFF3cXBJTVZKNkFCOXdERDN0YjY3NHNydFFzR1hXZ2V6dWljeGJYaUNNR3dEV1VXVHdXU3FhaTRtc21MSF8yZmRUd1lma0wzWU03S1pZR3E5NllSZVctYlJpSTJrLVMyekNHY0F0QkRBVEVLcVM3bnVTbzhLcDcya1d1ZzVsR0MwQ0psblVBenZnYl9IRjV4ZGl6Qg?oc=5",
-      "datetime": 1792194720,
-      "headlineKo": "트럼프, 무슬림들 사이에서 흔히 볼 수 있는 '무하마드'라는 이름의 인기 조롱 - 로이터",
-      "summaryKo": "트럼프, 무슬림 사이에서 흔히 볼 수 있는 모하마드라는 이름의 인기 조롱 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792313564.3986044,
+  "_news_last_success_at": 1792317403.9563742,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792313556.5685413,
-  "_updated_label": "2026-10-18 17:53",
-  "_last_attempt_at": 1792313556.5685413,
-  "_last_success_at": 1792313556.5685413,
+  "_fetched_at": 1792317392.976989,
+  "_updated_label": "2026-10-18 18:57",
+  "_last_attempt_at": 1792317392.976989,
+  "_last_success_at": 1792317392.976989,
   "_collection_status": "ok",
   "_collection_errors": []
 };

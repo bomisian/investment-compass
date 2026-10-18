@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1792315462.6705084,
+  "generatedAt": 1792317392.605008,
   "events": [
     {
       "id": "47480cee764161de443d",
@@ -1305,7 +1305,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2b566dbbc0522f8a0edae255100bcfa6d0fbc745f623c43c289e3eb8a1c74d25",
         "publishedAt": 1792264284,
-        "collectedAt": 1792293896.0271573
+        "collectedAt": 1792317330.7412565
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2555,7 +2555,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fcf9012d7a22606465f07017e6a04f8ec3f45d0d1dc571ffe242d562be5bb359",
         "publishedAt": 1792247820,
-        "collectedAt": 1792293896.0271573
+        "collectedAt": 1792317330.7412565
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2596,10 +2596,10 @@ const EVENT_DATA = {
       ]
     },
     {
-      "id": "43c7968b4eb948f86ea2",
+      "id": "7b5e5ea47603bef00694",
       "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
+      "eventType": "competitor_supply_contract",
+      "eventLabel": "경쟁사 공급 계약",
       "primaryTicker": "MSFT",
       "relatedTickers": [
         "MSFT",
@@ -2629,13 +2629,13 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d4d83602fd58cd6a1fe8f8cc93aa5c2b25ec00d9348ffbe67cb17b8903d01078",
         "publishedAt": 1792247760,
-        "collectedAt": 1792293896.0271573
+        "collectedAt": 1792317330.7412565
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Microsoft의 1,750억 달러에 달하는 자본 지출이 비즈니스에 어떤 타격을 주고 있는지 알아보십시오 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Microsoft( MSFT -1.93% )는 빅 3 중 하나입니다.",
-        "내부 서비스인 Copilot을 위해 엄청난 양의 AI 컴퓨팅 성능을 추구하는 동시에 클라우드 컴퓨팅 플랫폼인 Azure를 통해 OpenAI의 ChatGPT와 같은 다른 제품도 지원하고 있습니다.",
-        "이러한 성장을 지원하기 위해 Microsoft는 데이터 센터에 막대한 투자를 하고 있습니다."
+        "다음은 Microsoft의 $ 1750억 자본 지출이 비즈니스에 미치는 영향입니다 | The Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + --- % | ▲ Stock Advisor + --- % Join The Motley Fool Microsoft (MSFT -1.93%) 는",
+        "내부 서비스인 Copilot을 위해 엄청난 양의 AI 컴퓨팅 파워를 추구하는 동시에 클라우드 컴퓨팅 플랫폼인 Azure를 통해 OpenAI의 ChatGPT와 같은 다른 제품에 전력을 공급하고 있습니다.",
+        "이러한 성장을 지원하기 위해 Microsoft는 데이터 센터에 많은 투자를 하고 있습니다."
       ],
       "marketInterpretation": [
         "경쟁사의 신제품·시장 진입은 가격·점유율·고객 선택에 영향을 줄 수 있어 성능과 실제 수주를 확인해야 합니다.",
@@ -4228,7 +4228,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4973c9150d7ec782eb02c031b24fa855ea2e437ec9c65b2ec3d74d4711f5faa8",
         "publishedAt": 1792186980,
-        "collectedAt": 1792293896.0271573
+        "collectedAt": 1792317330.7412565
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6126,7 +6126,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=997a59f6eed07f3030dcbc74ece74ef55c66e3e0cd797324c480167b927178a9",
         "publishedAt": 1792168579,
-        "collectedAt": 1792293896.0271573
+        "collectedAt": 1792317330.7412565
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7259,7 +7259,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9ea27e9007afa36c4bd7f98e52bee3431af00579245968fa245fb7a770d118c3",
         "publishedAt": 1792160991,
-        "collectedAt": 1792293896.0271573
+        "collectedAt": 1792317330.7412565
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8084,13 +8084,13 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=c5926a8a854f428679082b9816725c53cdafe5c734def83695422491bdeefea2",
         "publishedAt": 1792153986,
-        "collectedAt": 1792293896.0271573
+        "collectedAt": 1792317330.7412565
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Nasdaq 100 Slides As Micron, SanDisk, CoreWeave Sink % - 전략 (NASDAQ:MSTR) - Benzinga SPY — QQQ 707.87 −0.27% BTC/USD — DIA — GLD — TLT 80.06 +0.01% US 로그인 등록 내 계정 Benzinga 프리미엄 프리미엄 서비스 모든 섹션 10월",
-        "금요일 정오에 AI 금융 공포로 인해 나스닥 100이 1% 이상 하락했고, 가치주와 방어주로의 회전이 다우존스를 끌어올리면서 주가가 분기되었습니다.",
-        "나스닥 100 지수는 AI 연계 이름으로 약 29,535 압력으로 1.3%, 즉 400포인트 하락했습니다."
+        "Nasdaq 100 Slides As Micron, SanDisk, CoreWeave Sink % - Strategy (NASDAQ: MSTR) - Benzinga SPY — QQQ 707.87 − 0.27% BTC/USD — DIA — GLD — TLT 80.06 +0.01% US Sign in Register My Account Benzinga Premium Premium Services All sections October",
+        "금요일 정오에 AI 자금 조달 공포가 나스닥 100을 1% 이상 끌어내리면서 주식이 엇갈렸고, 가치와 방어적인 이름으로의 전환이 다우 존스를 끌어올렸다.",
+        "나스닥 100은 AI 연계 명칭으로 약 29,535 압력으로 1.3%, 즉 400포인트 하락했다."
       ],
       "marketInterpretation": [
         "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
@@ -8599,7 +8599,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3f3df1ada20529070a880201afe44837fb7b9a24096341e19f31506e6fe85905",
         "publishedAt": 1792149300,
-        "collectedAt": 1792293896.0271573
+        "collectedAt": 1792317330.7412565
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8967,7 +8967,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fe93b67afb889000a6f8650c7d962049c1ae2f63742459b4f22d8afb3ae8834a",
         "publishedAt": 1792145511,
-        "collectedAt": 1792293896.0271573
+        "collectedAt": 1792317330.7412565
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10353,7 +10353,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e8e694dabb2fa9321529cc2c2df0f8de9cd2f7112911c0709419e0f9b929fe27",
         "publishedAt": 1792124945,
-        "collectedAt": 1792293896.0271573
+        "collectedAt": 1792317330.7412565
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12559,7 +12559,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7d3a1d454782b1179f785ed9a6d7c679ccfcb279fd9b4a3d172471c131c2e3c1",
         "publishedAt": 1792085100,
-        "collectedAt": 1792293896.0271573
+        "collectedAt": 1792317330.7412565
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12790,7 +12790,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cba088b7c156b5db48f1c190f3b97553ce334dbcb2fad39d4d3bb2783951e431",
         "publishedAt": 1792083095,
-        "collectedAt": 1792293896.0271573
+        "collectedAt": 1792317330.7412565
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13875,7 +13875,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a76c7a7b86e1fc9f28ef86af5e68986817a272e7ba268c19e6581ac9d1e4f156",
         "publishedAt": 1792077731,
-        "collectedAt": 1792293896.0271573
+        "collectedAt": 1792317330.7412565
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14028,7 +14028,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e17a563438cf7b5f0b7dcbfe4771738f303dd95b20d7ffb90a0d969c62fbb8fa",
         "publishedAt": 1792077212,
-        "collectedAt": 1792293896.0271573
+        "collectedAt": 1792317330.7412565
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16739,7 +16739,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2c00c4b4f9ac251afe4ef2d559383d0864d7ee9cdb83abc3710cd4966952d8c0",
         "publishedAt": 1792059579,
-        "collectedAt": 1792293896.0271573
+        "collectedAt": 1792317330.7412565
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17212,7 +17212,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9245253fa9f2576955d83bdce769232bfcbfa67e27b046955d86bb06481e60dd",
         "publishedAt": 1792053302,
-        "collectedAt": 1792293896.0271573
+        "collectedAt": 1792317330.7412565
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17734,7 +17734,7 @@ const EVENT_DATA = {
       "6d2e2d5060c3d5bde2b7",
       "dccabd9f726d65afbe87",
       "1aa17ee27e58d37f39e1",
-      "43c7968b4eb948f86ea2",
+      "7b5e5ea47603bef00694",
       "15781bdf8036437e5f5d",
       "49066cac6b39f57325f0",
       "135243c7203fdc2e4d9d",
@@ -18148,7 +18148,7 @@ const EVENT_DATA = {
     "MSFT": [
       "3952f355b71f86ffdd41",
       "a24a6c14316b65406681",
-      "43c7968b4eb948f86ea2",
+      "7b5e5ea47603bef00694",
       "dfde06a6074ec877c86b",
       "6f5da0dc59cedc7972d2",
       "0c037c6d55616c0640ac",
