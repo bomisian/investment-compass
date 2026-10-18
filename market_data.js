@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran's parliament approves Mehrdad Akhlaqi as minister of defence - Reuters",
+      "summary": "Iran's parliament approves Mehrdad Akhlaqi as minister of defence Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUllscVFHdi1ER1I5djNzUWkwbXpXUGVTRkRVLUNWSWRBUU9lek5waWFCVjJwMXphLXFHaV9EUkF0SjdXVGMwNnpLYl9xZ2xrWDFvZzlrN2RwV2J4QUt1UUtiLTlzZTA1Qms2eTMtTjMyRXRGblJXVkF5NV9nTzEzTE1rbDFLUDdNOWRuQlhrS1BIVXFRdVJiQUtuT0lmODVRcVZ1dTRMeU11SkJuWlJvNGNJUjJhY1RBVGN1WWJGQ0JyZw?oc=5",
+      "datetime": 1792314482,
+      "headlineKo": "이란 의회가 메흐르다드 아크흘라키 (Mehrdad Akhlaqi) 를 국방장관으로 승인 - 로이터",
+      "summaryKo": "이란 의회는 Mehrdad Akhlaqi를 국방부 장관으로 승인합니다 로이터 통신"
+    },
+    {
       "headline": "Saudi-led coalition says helicopter crash in Najran kills two crew members - Reuters",
       "summary": "Saudi-led coalition says helicopter crash in Najran kills two crew members Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792209916,
       "headlineKo": "애플은 아이폰 듀오가 배송 지연 이후 엄청난 수요를 보인다고 밝혔습니다.",
       "summaryKo": "금요일 아침에 Apple 온라인 스토어를 연 많은 고객들은 배송 지연이 11월에서 12월, 그리고 1월 말로 밀려나는 것을 목격했습니다."
-    },
-    {
-      "headline": "Zelenskiy criticizes Trump's waiver of sanctions on Russia as 'wrong' - Reuters",
-      "summary": "Zelenskiy criticizes Trump's waiver of sanctions on Russia as 'wrong' Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUWRsWXNvbUVMb01QdTFTbEhpSGhZLVZYVXZramJkQjg2RXUzbXRaZjZlcnY1QTNoeU1zQzhhOEhwOFZVSkRySFFZNWI3RjZtUHJLaDhybEhWVzFBTF9uVlZjWlNSQk5aX25iZ0EySjRQYjR5aVRiM1VERjVFWmpTOTR0Y1ZhNUtaTHpTaWdZZVRPUmppTUJtYl9IZlhGQnM3WkVSNmRreVBjaDF5anFfSHhqN1ZUc2p3cjRoU0pyUzRkZjlBM05B?oc=5",
-      "datetime": 1792199820,
-      "headlineKo": "젤렌스키, 트럼프의 러시아 제재 포기는 '잘못'이라고 비판 - 로이터",
-      "summaryKo": "젤렌스키, 트럼프의 러시아 제재 포기는 '잘못'이라고 비판 - 로이터"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792317403.9563742,
+  "_news_last_success_at": 1792321271.0482197,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792317392.976989,
-  "_updated_label": "2026-10-18 18:57",
-  "_last_attempt_at": 1792317392.976989,
-  "_last_success_at": 1792317392.976989,
+  "_fetched_at": 1792321259.7047036,
+  "_updated_label": "2026-10-18 20:01",
+  "_last_attempt_at": 1792321259.7047036,
+  "_last_success_at": 1792321259.7047036,
   "_collection_status": "ok",
   "_collection_errors": []
 };
