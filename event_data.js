@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1792309755.2083714,
+  "generatedAt": 1792311685.4599273,
   "events": [
     {
       "id": "47480cee764161de443d",
@@ -33,7 +33,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "GE Vernova vs. Caterpillar: Which Has More Exposure to the AI Power Build-Out?",
-      "headlineKo": "",
+      "headlineKo": "GE Vernova 대 Caterpillar: 어느 쪽이 AI 전력 증강에 더 많이 노출됩니까?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fb315b60fac64fe998dee02007bd398672104f959d881e80ed41b202fd507664",
@@ -103,7 +103,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Sandisk Is Dominating the S&P 500 in 2026. Can It Repeat in 2027?",
-      "headlineKo": "",
+      "headlineKo": "Sandisk는 2026년 S&P 500을 지배하고 있습니다. 2027년에도 반복될 수 있을까요?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=417b4fb879081d5ade679677727209b51e3c42110dee2814fafd701b1119a294",
@@ -176,7 +176,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "What Does Vistra (VST) Gain From Its $1 Billion Preferred Stock Redemption?",
-      "headlineKo": "",
+      "headlineKo": "Vistra(VST)는 10억 달러 우선주 상환을 통해 무엇을 얻나요?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=60227f9160a405233d9f96e87da2692865140e976641f566e48de67a68b08de1",
@@ -269,7 +269,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Micron Technology vs. Sandisk: Which AI Memory Stock Is the Better Investment?",
-      "headlineKo": "",
+      "headlineKo": "마이크론 테크놀로지 vs. 샌디스크: 어느 AI 메모리 주식이 더 나은 투자인가?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=309bcc166c8163e50d52451d0535d90e773c546669687709a1c6091bd979ca19",

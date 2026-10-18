@@ -1,11 +1,11 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1792309755.262489,
+  "generatedAt": 1792311685.5162332,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792264284,
       "signal": "주의 강화",
       "netScore": -2.38,
@@ -117,7 +117,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792289780,
       "signal": "주의 강화",
       "netScore": -2.94,
@@ -267,7 +267,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792187050,
       "signal": "중립·확인 대기",
       "netScore": 0.83,
@@ -350,7 +350,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -404,7 +404,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792267620,
       "signal": "주의 강화",
       "netScore": -7.0,
@@ -627,7 +627,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792249822,
       "signal": "주의 강화",
       "netScore": -10,
@@ -849,7 +849,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792281962,
       "signal": "중립·확인 대기",
       "netScore": -1.26,
@@ -944,7 +944,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792178088,
       "signal": "우호적 변화",
       "netScore": 2.09,
@@ -1013,7 +1013,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792257900,
       "signal": "주의 강화",
       "netScore": -2.65,
@@ -1138,7 +1138,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792297105,
       "signal": "우호적 변화",
       "netScore": 2.5,
@@ -1188,7 +1188,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "cb6b222ff1e8ea827ae4",
-          "headline": "What Does Vistra (VST) Gain From Its $1 Billion Preferred Stock Redemption?",
+          "headline": "Vistra(VST)는 10억 달러 우선주 상환을 통해 무엇을 얻나요?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792297105,
           "verificationStatus": "needs_confirmation",
@@ -1201,7 +1201,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "d4506840446e71bbd514",
-          "headline": "Micron Technology vs. Sandisk: Which AI Memory Stock Is the Better Investment?",
+          "headline": "마이크론 테크놀로지 vs. 샌디스크: 어느 AI 메모리 주식이 더 나은 투자인가?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792293001,
           "verificationStatus": "needs_confirmation",
@@ -1356,7 +1356,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792297105,
       "signal": "우호적 변화",
       "netScore": 5.38,
@@ -1406,7 +1406,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "cb6b222ff1e8ea827ae4",
-          "headline": "What Does Vistra (VST) Gain From Its $1 Billion Preferred Stock Redemption?",
+          "headline": "Vistra(VST)는 10억 달러 우선주 상환을 통해 무엇을 얻나요?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792297105,
           "verificationStatus": "needs_confirmation",
@@ -1419,7 +1419,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "d4506840446e71bbd514",
-          "headline": "Micron Technology vs. Sandisk: Which AI Memory Stock Is the Better Investment?",
+          "headline": "마이크론 테크놀로지 vs. 샌디스크: 어느 AI 메모리 주식이 더 나은 투자인가?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792293001,
           "verificationStatus": "needs_confirmation",
@@ -1568,7 +1568,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792147509,
       "signal": "주의 강화",
       "netScore": -2.03,
@@ -1690,7 +1690,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792179277,
       "signal": "주의 강화",
       "netScore": -9.88,
@@ -1830,7 +1830,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792174237,
       "signal": "주의 강화",
       "netScore": -2.32,
@@ -1942,7 +1942,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792079882,
       "signal": "주의 강화",
       "netScore": -3.14,
@@ -2025,7 +2025,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792306200,
       "signal": "주의 강화",
       "netScore": -8.76,
@@ -2075,7 +2075,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "47480cee764161de443d",
-          "headline": "GE Vernova vs. Caterpillar: Which Has More Exposure to the AI Power Build-Out?",
+          "headline": "GE Vernova 대 Caterpillar: 어느 쪽이 AI 전력 증강에 더 많이 노출됩니까?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792306200,
           "verificationStatus": "needs_confirmation",
@@ -2234,7 +2234,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792282800,
       "signal": "주의 강화",
       "netScore": -6.02,
@@ -2454,7 +2454,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792164180,
       "signal": "중립·확인 대기",
       "netScore": 0.83,
@@ -2537,7 +2537,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792070701,
       "signal": "주의 강화",
       "netScore": -3.14,
@@ -2620,7 +2620,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2674,7 +2674,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2728,7 +2728,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792297105,
       "signal": "우호적 변화",
       "netScore": 7.72,
@@ -2778,7 +2778,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "cb6b222ff1e8ea827ae4",
-          "headline": "What Does Vistra (VST) Gain From Its $1 Billion Preferred Stock Redemption?",
+          "headline": "Vistra(VST)는 10억 달러 우선주 상환을 통해 무엇을 얻나요?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792297105,
           "verificationStatus": "needs_confirmation",
@@ -2791,7 +2791,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "d4506840446e71bbd514",
-          "headline": "Micron Technology vs. Sandisk: Which AI Memory Stock Is the Better Investment?",
+          "headline": "마이크론 테크놀로지 vs. 샌디스크: 어느 AI 메모리 주식이 더 나은 투자인가?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792293001,
           "verificationStatus": "needs_confirmation",
@@ -2946,7 +2946,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792302600,
       "signal": "우호적 변화",
       "netScore": 3.77,
@@ -2996,7 +2996,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "c658873cbe8588aa4a01",
-          "headline": "Sandisk Is Dominating the S&P 500 in 2026. Can It Repeat in 2027?",
+          "headline": "Sandisk는 2026년 S&P 500을 지배하고 있습니다. 2027년에도 반복될 수 있을까요?",
           "eventLabel": "장기 공급계약",
           "publishedAt": 1792302600,
           "verificationStatus": "needs_confirmation",
@@ -3087,7 +3087,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792179277,
       "signal": "주의 강화",
       "netScore": -6.86,
@@ -3211,7 +3211,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3265,7 +3265,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3319,7 +3319,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3373,7 +3373,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792079785,
       "signal": "중립·확인 대기",
       "netScore": 1.12,
@@ -3498,7 +3498,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3552,7 +3552,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792297105,
       "signal": "중립·확인 대기",
       "netScore": -1.18,
@@ -3602,7 +3602,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "cb6b222ff1e8ea827ae4",
-          "headline": "What Does Vistra (VST) Gain From Its $1 Billion Preferred Stock Redemption?",
+          "headline": "Vistra(VST)는 10억 달러 우선주 상환을 통해 무엇을 얻나요?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792297105,
           "verificationStatus": "needs_confirmation",
@@ -3634,7 +3634,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792267839,
       "signal": "중립·확인 대기",
       "netScore": 1.4,
@@ -3725,7 +3725,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3779,7 +3779,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792080629,
       "signal": "중립·확인 대기",
       "netScore": 0.7,
@@ -3847,7 +3847,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3901,7 +3901,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3955,7 +3955,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 1792174359,
       "signal": "주의 강화",
       "netScore": -3.14,
@@ -4065,7 +4065,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4119,7 +4119,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4173,7 +4173,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1792309755.262489,
+      "updatedAt": 1792311685.5162332,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,

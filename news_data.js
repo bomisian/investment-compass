@@ -6713,7 +6713,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "SPY": {
@@ -14759,7 +14759,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 165,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "MSFT": {
@@ -22733,7 +22733,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "GOOGL": {
@@ -30816,7 +30816,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "AMZN": {
@@ -39062,7 +39062,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "META": {
@@ -47008,7 +47008,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "AAPL": {
@@ -54983,7 +54983,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "TSLA": {
@@ -63108,7 +63108,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "ORCL": {
@@ -71797,7 +71797,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "CRM": {
@@ -80149,7 +80149,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 184,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "PLTR": {
@@ -89288,7 +89288,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "NVDA": {
@@ -97072,7 +97072,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "AMD": {
@@ -105259,7 +105259,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "AVGO": {
@@ -105461,7 +105461,8 @@ const NEWS_DATA = {
         "datetime": 1792265402,
         "relevance": 0.5,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "Broadcom 주식이 지금 구매하는 것이 좋은 이유"
       },
       {
         "headline": "Here's What $10,000 Invested in Broadcom Will Be Worth by 2028",
@@ -114077,7 +114078,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "QCOM": {
@@ -122824,7 +122825,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "ARM": {
@@ -128927,7 +128928,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "MRVL": {
@@ -137735,7 +137736,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "INTC": {
@@ -146626,7 +146627,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "TSM": {
@@ -146700,7 +146701,8 @@ const NEWS_DATA = {
             "If the AI infrastructure build-out continues, I think that investment could be worth over $9,000 by the end of 2030, a more-than-threefold return in a little over four years."
           ],
           "analysisUpdatedAt": 1792309459.5555031
-        }
+        },
+        "headlineKo": "Nvidia, Broadcom 및 TSMC에 걸쳐 3,000달러를 분할하면 2030년까지 이만큼 가치가 있을 수 있습니다."
       },
       {
         "headline": "TSMC: The AI Boom Is Bigger And Longer Than Expected",
@@ -146749,7 +146751,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1792309460.7417152
-        }
+        },
+        "headlineKo": "TSMC: AI 붐은 예상보다 더 크고 길다"
       },
       {
         "headline": "TSMC vs. ASML: Which AI Expansion Demands More Cash?",
@@ -146798,7 +146801,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1792309463.119723
-        }
+        },
+        "headlineKo": "TSMC 대 ASML: 어느 AI 확장에 더 많은 현금이 필요합니까?"
       },
       {
         "headline": "TSMC vs. ASML: Does Buying the Toolmaker Reduce Geographic Risk?",
@@ -146807,7 +146811,8 @@ const NEWS_DATA = {
         "datetime": 1792275041,
         "relevance": 0.5,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "TSMC 대 ASML: 도구 제조업체를 구입하면 지리적 위험이 줄어듭니까?"
       },
       {
         "headline": "Intel Stock Fell Nearly 6% as TSMC Took Aim at Its Packaging Business. Here’s What It Means for Intel’s Margins",
@@ -146816,7 +146821,8 @@ const NEWS_DATA = {
         "datetime": 1792257998,
         "relevance": 0.5,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "TSMC가 패키징 사업을 목표로 삼으면서 인텔 주가는 약 6% 하락했습니다. 인텔의 마진이 의미하는 바는 다음과 같습니다."
       },
       {
         "headline": "TSMC Earnings Preview: High Growth Likely, But Mind The CapEx (Downgrade)",
@@ -155121,7 +155127,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "ASML": {
@@ -161946,7 +161952,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "AMAT": {
@@ -168387,7 +168393,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 133,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "LRCX": {
@@ -171837,7 +171843,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "KLAC": {
@@ -175075,7 +175081,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "MU": {
@@ -175166,7 +175172,8 @@ const NEWS_DATA = {
             "Deciding between Micron Technology ( MU -5.63% ) and Sandisk ( SNDK -6.85% ) requires a close look at their current and future prospects."
           ],
           "analysisUpdatedAt": 1792309509.32663
-        }
+        },
+        "headlineKo": "마이크론 테크놀로지 vs. 샌디스크: 어느 AI 메모리 주식이 더 나은 투자인가?"
       },
       {
         "headline": "Micron Just Broke Support, So Buy MUU Into Strength",
@@ -175215,7 +175222,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1792309510.9096308
-        }
+        },
+        "headlineKo": "Micron이 방금 지원을 중단했으므로 MUU를 강세로 구매하세요."
       },
       {
         "headline": "Micron Looks Cheap on Earnings. How Much Can Profits Fall Before That Changes?",
@@ -183108,7 +183116,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "SNDK": {
@@ -183182,7 +183190,8 @@ const NEWS_DATA = {
             "Still, Sandisk is holding onto second place by a wide margin, and it has risen nearly 500% this year; not a bad one-year gain!"
           ],
           "analysisUpdatedAt": 1792309525.446048
-        }
+        },
+        "headlineKo": "Sandisk는 2026년 S&P 500을 지배하고 있습니다. 2027년에도 반복될 수 있을까요?"
       },
       {
         "headline": "Micron Technology vs. Sandisk: Which AI Memory Stock Is the Better Investment?",
@@ -183262,7 +183271,8 @@ const NEWS_DATA = {
             "Deciding between Micron Technology ( MU -5.63% ) and Sandisk ( SNDK -6.85% ) requires a close look at their current and future prospects."
           ],
           "analysisUpdatedAt": 1792309526.4405706
-        }
+        },
+        "headlineKo": "마이크론 테크놀로지 vs. 샌디스크: 어느 AI 메모리 주식이 더 나은 투자인가?"
       },
       {
         "headline": "Sandisk Stock Is Still Up 488% This Year Despite a 40% Drop. Is It a Buy Now?",
@@ -192190,7 +192200,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "WDC": {
@@ -198062,7 +198072,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "ANET": {
@@ -202559,7 +202569,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "COHR": {
@@ -206636,7 +206646,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "LITE": {
@@ -211545,7 +211555,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "GEV": {
@@ -211619,7 +211629,8 @@ const NEWS_DATA = {
             "This is driving huge sales for computing, power, cooling, and other related infrastructure needs for these next-generation data centers."
           ],
           "analysisUpdatedAt": 1792309577.6123788
-        }
+        },
+        "headlineKo": "GE Vernova 대 Caterpillar: 어느 쪽이 AI 전력 증강에 더 많이 노출됩니까?"
       },
       {
         "headline": "GE Vernova Landed 5 Grid Equipment Reservations From Venture Global. Here’s Where the Stock Could Go by 2030",
@@ -217608,7 +217619,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "CEG": {
@@ -223080,7 +223091,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "VST": {
@@ -223158,7 +223169,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1792309607.9437985
-        }
+        },
+        "headlineKo": "Vistra(VST)는 10억 달러 우선주 상환을 통해 무엇을 얻나요?"
       },
       {
         "headline": "Should You Buy Vistra After an 11% 1-Day Jump on a $4.2 Billion DOE Loan? The Catch Most Investors Are Missing.",
@@ -227282,7 +227294,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "ETN": {
@@ -231180,7 +231192,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "PWR": {
@@ -234524,7 +234536,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "HUBB": {
@@ -235474,7 +235486,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 19,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "VRT": {
@@ -240111,7 +240123,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "MOD": {
@@ -241712,7 +241724,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "STX": {
@@ -246802,7 +246814,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 110,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "EME": {
@@ -248954,7 +248966,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "FIX": {
@@ -250839,7 +250851,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   },
   "BE": {
@@ -253655,7 +253667,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-18 16:48"
+      "updated": "2026-10-18 17:21"
     }
   }
 };
