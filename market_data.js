@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Rubio heads to Central Asia while other US officials hit foreign policy hot spots - Reuters",
+      "summary": "Rubio heads to Central Asia while other US officials hit foreign policy hot spots Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMmFpc0NDcHNWM0tpSVFxYURNSGY4OTFCRlhISGVnLUZqUGtaWEpJUXhsTVpyNzZaRmV3R1JhRnRIdjJjS21DaVFjTDRHaEtIUXEySXNwd0U3el93cmNJeEtHblpNc2VhZERoMXliOUFxXzFMVHhnTUNpY1dRVHJEMGxVR1Uxb0ctRThOeGNxN0ZxaW8wQjhJVTJpSG5sSWVNWndGWWRTOW40TjFEa0d3MDVYcU1Id2tRekxlbURxS2gxcDQ5dlZYUnJ4UWlRUQ?oc=5",
+      "datetime": 1792299780,
+      "headlineKo": "루비오는 중앙아시아로 향하고 다른 미국 관료들은 외교 정책의 핫스팟에 부딪힌다 - 로이터",
+      "summaryKo": "루비오가 중앙아시아로 향하는 동안 다른 미국 관료들은 외교 정책 핫스팟에 부딪혔다 - 로이터"
+    },
+    {
       "headline": "Saudi-led coalition says helicopter crash in Najran kills two crew members - Reuters",
       "summary": "Saudi-led coalition says helicopter crash in Najran kills two crew members Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792194720,
       "headlineKo": "트럼프, 무슬림들 사이에서 흔히 볼 수 있는 '무하마드'라는 이름의 인기 조롱 - 로이터",
       "summaryKo": "트럼프, 무슬림 사이에서 흔히 볼 수 있는 모하마드라는 이름의 인기 조롱 - 최신"
-    },
-    {
-      "headline": "Brent crude hits $110 a barrel for first time since May as supply concerns mount",
-      "summary": "Diesel and gasoline futures also climbed as traders assessed geopolitical risks, disrupted energy infrastructure and limited prospects for immediate supply relief",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-16/oil-tops-110-for-first-time-since-may-as-supply-risk-grows",
-      "datetime": 1792194075,
-      "headlineKo": "공급 우려로 브렌트유는 5월 이후 처음으로 배럴당 110달러를 기록했다.",
-      "summaryKo": "거래자들이 지정학적 위험을 평가하고, 에너지 인프라가 파괴되고, 즉각적인 공급 구제에 대한 전망이 제한되면서 디젤 및 휘발유 선물도 상승했습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792301620.6369956,
+  "_news_last_success_at": 1792305411.567137,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792301610.9842608,
-  "_updated_label": "2026-10-18 14:34",
-  "_last_attempt_at": 1792301610.9842608,
-  "_last_success_at": 1792301610.9842608,
+  "_fetched_at": 1792305401.726476,
+  "_updated_label": "2026-10-18 15:37",
+  "_last_attempt_at": 1792305401.726476,
+  "_last_success_at": 1792305401.726476,
   "_collection_status": "ok",
   "_collection_errors": []
 };

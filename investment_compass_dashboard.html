@@ -3166,9 +3166,14 @@ function renderMarketSigmaSummary(){
   const below1 = scored.filter(s=>s.sigmaScore<=-1).length;
   const below15 = scored.filter(s=>s.sigmaScore<=-1.5).length;
   const above1 = scored.filter(s=>s.sigmaScore>=1).length;
+  // WO13-8(수정지시서#13 추가분, 2026-10-18) -- 시그마의 anchor는 "이번 주 초" 가격으로 매주
+  // 고정되고, sigmaScore는 그 주초 가격 대비 지금 가격이 옵션 IV로 예상한 범위의 몇 배 벗어났는지일
+  // 뿐이다(즉 "이번 주에 가격이 얼마나 움직였나"의 재서술이지, 밸류에이션의 과열·침체를 판단하는
+  // 독립 지표가 아니다). 기존 문구가 "시장 공통 원인도 같이 확인해보세요"처럼 하락 자체에 별도의
+  // 설명력이 있는 것처럼 읽혀 과열/침체 지표로 오인될 수 있어 문구만 정리한다(계산·숫자는 그대로).
   const read = below15 >= Math.max(3, Math.round(scored.length*0.2))
-    ? '여러 종목이 동시에 이번 주 옵션 IV 기준 이례적 하락 구간이에요 - 개별 악재만이 아니라 시장 공통 원인도 같이 확인해보세요.'
-    : '지금은 시장 전체가 한쪽으로 크게 몰린 상태는 아니에요.';
+    ? '여러 종목이 이번 주 초 가격 대비 옵션 IV가 예상한 범위보다 크게 하락했어요(σ는 "이번 주초 대비 변동폭"이라 매주 다시 0 근처에서 시작하는 값이에요 - 밸류에이션 과열·침체 지표가 아니라, 이번 주 움직임이 평소 변동성 대비 큰지만 보여줘요). 여러 종목이 동시에 그렇다면 개별 뉴스인지 시장 전체 요인인지는 따로 확인하세요.'
+    : '지금은 시장 전체가 이번 주 초 대비 한쪽으로 크게 몰린 상태는 아니에요(σ는 매주 초 가격을 기준으로 다시 시작하는 값입니다).';
   el.innerHTML = `<b>시장 전체 시그마 요약</b>(옵션 IV로 계산 가능했던 ${scored.length}/${rows.length}종목 기준) ${hintIcon('sigmaBand')} · 평균 ${avg>=0?'+':''}${avg.toFixed(2)}σ · -1σ 이하 ${below1}개 · -1.5σ 이하 ${below15}개 · +1σ 이상 ${above1}개<br>${read}`;
 }
 // D8(DECISIONS_LOG_20260930, Codex L10-7): '단기신호 기준가' -- 기존 단기 규칙(RSI_PULLBACK_HI·200일선)을 거꾸로 풀어
