@@ -377,6 +377,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 11.995,
       "pb": 8.9976,
       "evEbitdaTTM": 21.0047
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 33.22,
+      "roicTTM": 26.5,
+      "psTTM": 11.8385,
+      "pb": 8.8802,
+      "evEbitdaTTM": 20.7365
     }
   ],
   "GOOGL": [
@@ -755,6 +763,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 9.6136,
       "pb": 6.6924,
       "evEbitdaTTM": 27.6418
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 50.839999999999996,
+      "roicTTM": 44.84,
+      "psTTM": 9.3423,
+      "pb": 6.5036,
+      "evEbitdaTTM": 26.8694
     }
   ],
   "AMZN": [
@@ -1133,6 +1149,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 3.5331,
       "pb": 4.9683,
       "evEbitdaTTM": 16.6814
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 30.5,
+      "roicTTM": 24.19,
+      "psTTM": 3.4764,
+      "pb": 4.8885,
+      "evEbitdaTTM": 16.4209
     }
   ],
   "META": [
@@ -1511,6 +1535,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 8.2227,
       "pb": 7.1847,
       "evEbitdaTTM": 17.7373
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 29.73,
+      "roicTTM": 23.74,
+      "psTTM": 7.9169,
+      "pb": 6.9176,
+      "evEbitdaTTM": 17.1009
     }
   ],
   "AAPL": [
@@ -1889,6 +1921,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 10.7234,
       "pb": 46.5583,
       "evEbitdaTTM": 30.0713
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 137.17999999999998,
+      "roicTTM": 70.25,
+      "psTTM": 10.7375,
+      "pb": 46.6194,
+      "evEbitdaTTM": 30.1104
     }
   ],
   "TSLA": [
@@ -2267,6 +2307,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 13.8148,
       "pb": 16.4806,
       "evEbitdaTTM": 128.7945
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 4.569999999999999,
+      "roicTTM": 4.14,
+      "psTTM": 13.5205,
+      "pb": 16.1296,
+      "evEbitdaTTM": 125.9841
     }
   ],
   "ORCL": [
@@ -2645,6 +2693,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 5.4791,
       "pb": 5.8898,
       "evEbitdaTTM": 20.05
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 42.58,
+      "roicTTM": 10.76,
+      "psTTM": 5.4019,
+      "pb": 5.8068,
+      "evEbitdaTTM": 19.824
     }
   ],
   "CRM": [
@@ -3023,6 +3079,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 4.5026,
       "pb": 5.155,
       "evEbitdaTTM": 24.3679
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 20.150000000000002,
+      "roicTTM": 13.18,
+      "psTTM": 4.5085,
+      "pb": 5.1617,
+      "evEbitdaTTM": 24.3955
     }
   ],
   "PLTR": [
@@ -3401,6 +3465,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 78.1353,
       "pb": 49.2108,
       "evEbitdaTTM": 179.8846
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 37.47,
+      "roicTTM": 37.47,
+      "psTTM": 72.6194,
+      "pb": 45.7369,
+      "evEbitdaTTM": 167.1321
     }
   ],
   "NVDA": [
@@ -3779,6 +3851,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 17.1143,
       "pb": 22.644,
       "evEbitdaTTM": 25.8323
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 110.11,
+      "roicTTM": 101.59,
+      "psTTM": 17.0332,
+      "pb": 22.5367,
+      "evEbitdaTTM": 25.7101
     }
   ],
   "AMD": [
@@ -4157,6 +4237,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 22.3424,
       "pb": 13.7281,
       "evEbitdaTTM": 120.2186
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 10.07,
+      "roicTTM": 9.59,
+      "psTTM": 20.8975,
+      "pb": 12.8402,
+      "evEbitdaTTM": 112.428
     }
   ],
   "AVGO": [
@@ -4535,6 +4623,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 18.2145,
       "pb": 16.2803,
       "evEbitdaTTM": 36.9847
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 43.91,
+      "roicTTM": 25.34,
+      "psTTM": 17.6123,
+      "pb": 15.7421,
+      "evEbitdaTTM": 35.7881
     }
   ],
   "QCOM": [
@@ -4913,6 +5009,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 4.2712,
       "pb": 6.8056,
       "evEbitdaTTM": 16.991
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 37.330000000000005,
+      "roicTTM": 23.24,
+      "psTTM": 4.1704,
+      "pb": 6.6449,
+      "evEbitdaTTM": 16.6117
     }
   ],
   "ARM": [
@@ -5291,6 +5395,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 49.3008,
       "pb": 29.4548,
       "evEbitdaTTM": 220.1207
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 13,
+      "roicTTM": 12.959999999999999,
+      "psTTM": 50.7051,
+      "pb": 30.2938,
+      "evEbitdaTTM": 226.4669
     }
   ],
   "MRVL": [
@@ -5669,6 +5781,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 22.3848,
       "pb": 11.4153,
       "evEbitdaTTM": 56.9887
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 16.220000000000002,
+      "roicTTM": 12.57,
+      "psTTM": 21.1405,
+      "pb": 10.7807,
+      "evEbitdaTTM": 53.8362
     }
   ],
   "INTC": [
@@ -6047,6 +6167,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 8.7098,
       "pb": 5.6743,
       "evEbitdaTTM": 31.8549
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": -10.76,
+      "roicTTM": -7.42,
+      "psTTM": 8.3279,
+      "pb": 5.4255,
+      "evEbitdaTTM": 30.5567
     }
   ],
   "TSM": [
@@ -6425,6 +6553,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 14.4476,
       "pb": 10.0383,
       "evEbitdaTTM": 22.9424
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 41.19,
+      "roicTTM": 35.199999999999996,
+      "psTTM": 12.7962,
+      "pb": 9.042,
+      "evEbitdaTTM": 19.6136
     }
   ],
   "ASML": [
@@ -6803,6 +6939,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 16.5239,
       "pb": 22.4566,
       "evEbitdaTTM": 41.144
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 41.52,
+      "roicTTM": 35.589999999999996,
+      "psTTM": 15.8319,
+      "pb": 21.5162,
+      "evEbitdaTTM": 39.4122
     }
   ],
   "AMAT": [
@@ -7181,6 +7325,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 11.4941,
       "pb": 13.8314,
       "evEbitdaTTM": 36.6106
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 40.44,
+      "roicTTM": 31.47,
+      "psTTM": 10.5332,
+      "pb": 12.6751,
+      "evEbitdaTTM": 33.5456
     }
   ],
   "LRCX": [
@@ -7559,6 +7711,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 14.6254,
       "pb": 27.2463,
       "evEbitdaTTM": 39.1077
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 66.97,
+      "roicTTM": 48.57,
+      "psTTM": 14.2171,
+      "pb": 26.4857,
+      "evEbitdaTTM": 38.0099
     }
   ],
   "KLAC": [
@@ -7937,6 +8097,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 16.7577,
       "pb": 35.8373,
       "evEbitdaTTM": 38.2104
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 85.38,
+      "roicTTM": 41.85,
+      "psTTM": 15.9278,
+      "pb": 34.0627,
+      "evEbitdaTTM": 36.3528
     }
   ],
   "MU": [
@@ -8315,6 +8483,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 7.7381,
       "pb": 7.4479,
       "evEbitdaTTM": 9.164
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 91.77,
+      "roicTTM": 84.3,
+      "psTTM": 7.4657,
+      "pb": 7.1857,
+      "evEbitdaTTM": 8.8307
     }
   ],
   "SNDK": [
@@ -8693,6 +8869,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 9.9561,
       "pb": 12.8108,
       "evEbitdaTTM": 15.6986
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 93.13,
+      "roicTTM": 89.56,
+      "psTTM": 9.2742,
+      "pb": 11.9334,
+      "evEbitdaTTM": 14.5974
     }
   ],
   "WDC": [
@@ -9071,6 +9255,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 9.8309,
       "pb": 14.3282,
       "evEbitdaTTM": 29.5304
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 117.8,
+      "roicTTM": 85.72999999999999,
+      "psTTM": 10.328,
+      "pb": 15.0527,
+      "evEbitdaTTM": 31.0298
     }
   ],
   "ANET": [
@@ -9449,6 +9641,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 22.205,
       "pb": 15.8172,
       "evEbitdaTTM": 49.9543
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 30.78,
+      "roicTTM": 30.78,
+      "psTTM": 21.176,
+      "pb": 15.0842,
+      "evEbitdaTTM": 47.6165
     }
   ],
   "COHR": [
@@ -9827,6 +10027,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 6.8009,
       "pb": 4.4398,
       "evEbitdaTTM": 39.4431
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 8.37,
+      "roicTTM": 6.25,
+      "psTTM": 6.4434,
+      "pb": 4.2065,
+      "evEbitdaTTM": 37.4546
     }
   ],
   "LITE": [
@@ -10205,6 +10413,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 25.6466,
       "pb": 16.6453,
       "evEbitdaTTM": 237.5434
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": -300.07,
+      "roicTTM": -134.05,
+      "psTTM": 24.7684,
+      "pb": 16.0753,
+      "evEbitdaTTM": 229.3666
     }
   ],
   "GEV": [
@@ -10583,6 +10799,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 5.9646,
       "pb": 20.6358,
       "evEbitdaTTM": 33.4962
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 83.39,
+      "roicTTM": 74.29,
+      "psTTM": 5.9308,
+      "pb": 20.5191,
+      "evEbitdaTTM": 33.2985
     }
   ],
   "CEG": [
@@ -10961,6 +11185,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 3.1159,
       "pb": 3.047,
       "evEbitdaTTM": 20.3583
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 14.69,
+      "roicTTM": 8.690000000000001,
+      "psTTM": 3.0748,
+      "pb": 3.0068,
+      "evEbitdaTTM": 20.1427
     }
   ],
   "VST": [
@@ -11339,6 +11571,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 2.7184,
       "pb": 9.4143,
       "evEbitdaTTM": 13.1022
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 41.5,
+      "roicTTM": 8.690000000000001,
+      "psTTM": 2.6876,
+      "pb": 9.3074,
+      "evEbitdaTTM": 12.9951
     }
   ],
   "ETN": [
@@ -11717,6 +11957,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 5.0631,
       "pb": 7.5057,
       "evEbitdaTTM": 26.6979
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 19.59,
+      "roicTTM": 10.9,
+      "psTTM": 5.0612,
+      "pb": 7.5028,
+      "evEbitdaTTM": 26.6888
     }
   ],
   "PWR": [
@@ -12095,6 +12343,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 2.8763,
       "pb": 9.82,
       "evEbitdaTTM": 38.2437
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 14.74,
+      "roicTTM": 8.9,
+      "psTTM": 2.887,
+      "pb": 9.8565,
+      "evEbitdaTTM": 38.3779
     }
   ],
   "HUBB": [
@@ -12473,6 +12729,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 3.9433,
       "pb": 6.2735,
       "evEbitdaTTM": 19.7798
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 23.72,
+      "roicTTM": 13.13,
+      "psTTM": 3.9143,
+      "pb": 6.2274,
+      "evEbitdaTTM": 19.6592
     }
   ],
   "VRT": [
@@ -12851,6 +13115,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 7.1663,
       "pb": 17.2915,
       "evEbitdaTTM": 34.7294
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 42.11,
+      "roicTTM": 24.610000000000003,
+      "psTTM": 6.9227,
+      "pb": 16.7036,
+      "evEbitdaTTM": 33.5505
     }
   ],
   "MOD": [
@@ -13229,6 +13501,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 2.384,
       "pb": 6.6916,
       "evEbitdaTTM": 27.6167
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 12.620000000000001,
+      "roicTTM": 8.57,
+      "psTTM": 2.3481,
+      "pb": 6.5908,
+      "evEbitdaTTM": 27.2223
     }
   ],
   "STX": [
@@ -13607,6 +13887,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 12.8811,
       "pb": 72.4898,
       "evEbitdaTTM": 37.6739
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 212.44,
+      "roicTTM": 50.519999999999996,
+      "psTTM": 11.9152,
+      "pb": 67.0542,
+      "evEbitdaTTM": 34.8821
     }
   ],
   "EME": [
@@ -13985,6 +14273,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 1.7123,
       "pb": 7.8072,
       "evEbitdaTTM": 15.4353
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 38.49,
+      "roicTTM": 38.43,
+      "psTTM": 1.7116,
+      "pb": 7.8041,
+      "evEbitdaTTM": 15.4291
     }
   ],
   "FIX": [
@@ -14363,6 +14659,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 4.5388,
       "pb": 15.84,
       "evEbitdaTTM": 25.6754
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 53.55,
+      "roicTTM": 51.739999999999995,
+      "psTTM": 4.5108,
+      "pb": 15.7423,
+      "evEbitdaTTM": 25.5113
     }
   ],
   "BE": [
@@ -14741,6 +15045,14 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "psTTM": 21.9536,
       "pb": 42.3977,
       "evEbitdaTTM": 203.1296
+    },
+    {
+      "date": "2026-10-19",
+      "roeTTM": 24.77,
+      "roicTTM": 7.140000000000001,
+      "psTTM": 20.9376,
+      "pb": 40.4354,
+      "evEbitdaTTM": 193.7314
     }
   ]
 };
