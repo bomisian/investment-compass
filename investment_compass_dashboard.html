@@ -3434,9 +3434,16 @@ function buildResultCardHtml(r){
   // ±N%"를 같이 보여준다. 라벨을 매기는 규칙(ntmPER vs 밴드) 자체는 전혀 바꾸지 않고, 이미
   // 계산돼 있는 basePrice(=적정가/기준가)와 현재가의 비율만 추가로 보여주는 참고 수치다.
   const basePriceDiffPct = (basePrice!=null && numFn(r.price) && r.price>0) ? (r.price/basePrice - 1)*100 : null;
-  const basePriceDiffTxt = basePriceDiffPct!=null
-    ? ` <span class="sub" style="font-size:11px;">(적정가 대비 ${basePriceDiffPct>=0?'+':''}${basePriceDiffPct.toFixed(1)}%)</span>`
-    : '';
+  // WO14-0(수정지시서#14, 2026-10-18 사용자 승인) -- "판단 유보(모델 불신)" 라벨인 종목은
+  // 모델 자체를 신뢰하지 않는다고 판정했는데도 ±%가 정상 숫자처럼 옆에 떴다(MRVL +272%,
+  // NVDA -48% 등 실측). 라벨이 모델 불신이면 ±%를 숨기고 그 사실만 말로 알린다. 원래 숫자는
+  // 아래 "모델 진단(참고)" 줄에만 남긴다.
+  const isModelDistrust = d.price === '판단 유보(모델 불신)';
+  const basePriceDiffTxt = isModelDistrust
+    ? ` <span class="sub" style="font-size:11px;">(모델 불신 — 괴리율 표시 안 함)</span>`
+    : (basePriceDiffPct!=null
+      ? ` <span class="sub" style="font-size:11px;">(적정가 대비 ${basePriceDiffPct>=0?'+':''}${basePriceDiffPct.toFixed(1)}%)</span>`
+      : '');
 
   return `<div class="rc-card" id="rc-${r.ticker}">
     <div class="rc-row1">
@@ -3449,6 +3456,7 @@ function buildResultCardHtml(r){
     <div class="rc-tier2-toggle" onclick="toggleRcTier2('${r.ticker}')">더보기 ▾</div>
     <div class="rc-tier2" id="rc-tier2-${r.ticker}">
       <div>적정가(모델): <b>${basePrice!=null ? ('$'+basePrice.toFixed(2)) : '정보 없음'}</b> <span class="sub" style="font-size:10px;">(계산값 - 실제 매수가 아님)</span></div>
+      ${isModelDistrust && basePriceDiffPct!=null ? `<div class="sub" style="margin-top:2px;font-size:10.5px;color:#7a3b2e;">모델 진단(참고, 신뢰 안 함): 적정가 대비 ${basePriceDiffPct>=0?'+':''}${basePriceDiffPct.toFixed(1)}% — 이 종목은 가격 경보가 떠 있어 이 적정가 자체를 신뢰하지 않습니다.</div>` : ''}
       <div style="margin-top:4px;">진입 검토가: ${buyZoneTxt}</div>
       ${downturnTxt ? `<div style="margin-top:4px;">하락 원인: ${esc(downturnTxt)}</div>` : ''}
     </div>
@@ -7924,9 +7932,14 @@ function renderPriceValidityCard(r){
   // 같은 계산).
   const pvBasePrice = (d.bandTable && num(d.bandTable.base && d.bandTable.base.price)) ? d.bandTable.base.price : null;
   const pvBasePriceDiffPct = (pvBasePrice!=null && num(r.price) && r.price>0) ? (r.price/pvBasePrice - 1)*100 : null;
-  const pvBasePriceDiffSuffix = pvBasePriceDiffPct!=null
-    ? ` <span class="sub" style="font-size:10.5px;">(적정가 대비 ${pvBasePriceDiffPct>=0?'+':''}${pvBasePriceDiffPct.toFixed(1)}%)</span>`
-    : '';
+  // WO14-0(수정지시서#14, 2026-10-18 사용자 승인) -- buildResultCardHtml과 동일: "판단
+  // 유보(모델 불신)"에서는 ±%를 숨긴다(라벨 규칙 자체는 바꾸지 않음).
+  const pvIsModelDistrust = d.price === '판단 유보(모델 불신)';
+  const pvBasePriceDiffSuffix = pvIsModelDistrust
+    ? ` <span class="sub" style="font-size:10.5px;">(모델 불신 — 괴리율 표시 안 함)</span>`
+    : (pvBasePriceDiffPct!=null
+      ? ` <span class="sub" style="font-size:10.5px;">(적정가 대비 ${pvBasePriceDiffPct>=0?'+':''}${pvBasePriceDiffPct.toFixed(1)}%)</span>`
+      : '');
   const axisLine = `${seg('가격', d.price, pvBasePriceDiffSuffix)}<span style="color:#aab0b9;margin:0 5px;font-weight:400;">·</span>${seg('사업', d.business)}<span style="color:#aab0b9;margin:0 5px;font-weight:400;">·</span>${seg('현금흐름', d.cashflow)}<span style="color:#aab0b9;margin:0 5px;font-weight:400;">·</span>${seg('차트', pvChartSimple(d))}`;
 
   // --- 51736 -- 카드 최상단의 가장 큰 문구는 "가격 위치"가 아니라 "종합 행동"으로 고정한다.
@@ -8042,6 +8055,7 @@ function renderPriceValidityCard(r){
       <div style="font-size:11px;color:${NEU_DIM};font-weight:700;">현재 가격 판단</div>
       <div style="margin-top:2px;font-size:16px;font-weight:800;color:${priceColor};">${esc(d.price)}${priceLocLine}${d.usedFallbackModel ? ` <span style="font-size:10px;font-weight:700;color:${NEU_DIM};">(대체 모델 기준)</span>` : ''}</div>
       ${d.priceAlert ? `<div style="margin-top:6px;font-size:11.5px;font-weight:700;color:#7a3b2e;background:#fdecea;border:1px solid #e9b3a8;border-radius:8px;padding:7px 9px;line-height:1.5;">⚠ ${esc(d.priceAlert)} — ${esc(d.priceAlertNote||'')}</div>` : ''}
+      ${pvIsModelDistrust && pvBasePriceDiffPct!=null ? `<div style="margin-top:4px;font-size:10.5px;color:#7a3b2e;">모델 진단(참고, 신뢰 안 함): 적정가 대비 ${pvBasePriceDiffPct>=0?'+':''}${pvBasePriceDiffPct.toFixed(1)}%</div>` : ''}
 
       <div style="margin-top:8px;font-size:11px;color:${NEU_DIM};font-weight:700;">신뢰도</div>
       <div style="margin-top:2px;font-size:13px;font-weight:800;color:${NEU_TEXT};">${esc(confidence||'보통')}${confidenceCaveat}</div>
@@ -12458,19 +12472,26 @@ function computeDecisionViewModel(r){
         // 이제 이 헤드라인은 "그런 모델이 존재한다"는 사실만 알리고, 그 모델의 결론(비싸다/
         // 싸다)은 상세 화면의 접힌 참고 영역에서만 확인하게 한다 -- 계산·모델 결과 자체는
         // 전혀 바꾸지 않았다.
-        headlineReason = `기술적 매수 관심(가격 눌림목 조건 ${esc(r.verdict.label)} 충족, 실적 방향 ${esc(fd.verdict)})이 발생했어요. 독립 평가 모델(${esc(valuationVerdict.methodLabel)})도 있지만, 그 결론은 아직 검증 중이라 여기서는 반영하지 않아요(상세 화면의 '현재 가격 진단'·접힌 참고 영역에서 확인하세요 - 그 값 자체가 매수 신호는 아니에요).`;
+        // WO14-0(수정지시서#14, 2026-10-18 사용자 승인) -- 이 아래 5곳 모두 r.verdict.label을
+        // 그대로 esc()해 "강한 매수기회"/"매수 관심"(장기 0~5점, 가격만 보는 점수) 원문이
+        // 그대로 노출되고 있었다. 2026-09-30에 목록 화면은 이미 verdictDisp()로 "큰 폭 조정"/
+        // "조정 중"으로 바꿔 보여주고 있는데, 이 헤드라인 문장 생성 경로만 그 치환을 안 타고
+        // 있었다(누락) -- 예측력이 검증 안 된 "매수기회" 문구가 여기서만 그대로 새고 있었음.
+        // verdictDisp(r.verdict)로 바꿔 같은 치환을 적용한다. 점수·내부 라벨(r.verdict.label,
+        // 필터·정렬용)은 전혀 바꾸지 않음 -- 화면에 보이는 문구만 변경.
+        headlineReason = `기술적 매수 관심(가격 눌림목 조건 ${esc(verdictDisp(r.verdict))} 충족, 실적 방향 ${esc(fd.verdict)})이 발생했어요. 독립 평가 모델(${esc(valuationVerdict.methodLabel)})도 있지만, 그 결론은 아직 검증 중이라 여기서는 반영하지 않아요(상세 화면의 '현재 가격 진단'·접힌 참고 영역에서 확인하세요 - 그 값 자체가 매수 신호는 아니에요).`;
       } else if(valuationVerdict.status === 'independent_confirmed' && valuationBlocked){
         reasonCodes.push('valuation_independent_confirmed_stale');
-        headlineReason = `기술적 매수 관심(가격 눌림목 조건 ${esc(r.verdict.label)} 충족, 실적 방향 ${esc(fd.verdict)})이 발생했어요. 독립 평가 모델(${esc(valuationVerdict.methodLabel)}) 값은 있지만 지금은 과거 참고값이에요 - ${esc(valuationVerdict.judgmentBlockedReason||'자료 최신성 확인 대기')}(상세 화면 참고, 매수 신호로 보지 마세요).`;
+        headlineReason = `기술적 매수 관심(가격 눌림목 조건 ${esc(verdictDisp(r.verdict))} 충족, 실적 방향 ${esc(fd.verdict)})이 발생했어요. 독립 평가 모델(${esc(valuationVerdict.methodLabel)}) 값은 있지만 지금은 과거 참고값이에요 - ${esc(valuationVerdict.judgmentBlockedReason||'자료 최신성 확인 대기')}(상세 화면 참고, 매수 신호로 보지 마세요).`;
       } else if(valuationVerdict.status === 'reference_only' && !valuationBlocked){
         reasonCodes.push('valuation_reference_only');
-        headlineReason = `기술적 매수 관심(가격 눌림목 조건 ${esc(r.verdict.label)} 충족, 실적 방향 ${esc(fd.verdict)})이 발생했어요. 다만 독립 적정가는 아직 없고 동종기업 배수 참고범위만 있어요(가치평가 미확인 - 상세 화면 참고, 매수 신호로 보지 마세요).`;
+        headlineReason = `기술적 매수 관심(가격 눌림목 조건 ${esc(verdictDisp(r.verdict))} 충족, 실적 방향 ${esc(fd.verdict)})이 발생했어요. 다만 독립 적정가는 아직 없고 동종기업 배수 참고범위만 있어요(가치평가 미확인 - 상세 화면 참고, 매수 신호로 보지 마세요).`;
       } else if(valuationVerdict.status === 'reference_only' && valuationBlocked){
         reasonCodes.push('valuation_reference_only_stale');
-        headlineReason = `기술적 매수 관심(가격 눌림목 조건 ${esc(r.verdict.label)} 충족, 실적 방향 ${esc(fd.verdict)})이 발생했어요. 동종기업 배수 참고범위도 지금은 과거 참고값이에요 - ${esc(valuationVerdict.judgmentBlockedReason||'자료 최신성 확인 대기')}(상세 화면 참고, 매수 신호로 보지 마세요).`;
+        headlineReason = `기술적 매수 관심(가격 눌림목 조건 ${esc(verdictDisp(r.verdict))} 충족, 실적 방향 ${esc(fd.verdict)})이 발생했어요. 동종기업 배수 참고범위도 지금은 과거 참고값이에요 - ${esc(valuationVerdict.judgmentBlockedReason||'자료 최신성 확인 대기')}(상세 화면 참고, 매수 신호로 보지 마세요).`;
       } else {
         reasonCodes.push('valuation_unconfirmed');
-        headlineReason = `기술적 매수 관심(가격 눌림목 조건 ${esc(r.verdict.label)} 충족, 실적 방향 ${esc(fd.verdict)})이 발생했어요. 이건 가격·기술적 신호일 뿐이며, 이 종목의 독립적인 가격 타당성(적정가)은 아직 확인되지 않았어요.`;
+        headlineReason = `기술적 매수 관심(가격 눌림목 조건 ${esc(verdictDisp(r.verdict))} 충족, 실적 방향 ${esc(fd.verdict)})이 발생했어요. 이건 가격·기술적 신호일 뿐이며, 이 종목의 독립적인 가격 타당성(적정가)은 아직 확인되지 않았어요.`;
       }
     } else {
       status = 'wait';
