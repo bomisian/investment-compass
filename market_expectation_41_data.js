@@ -381,9 +381,9 @@ const MARKET_EXPECTATION_41 = {
         "해외(애리조나 등) 파운드리 확장에 따른 매출총이익률 희석이 실제로 가시화되는지 확인",
         "2nm 램프업이 3Q26 실제 실적으로 확인되는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 2건(2026-06-30 분기)",
+      "source_file": "수동 근거 2026-10-18 기준 + 자동 재무 근거 2건(2026-06-30 분기)",
       "evidence_auto_count": 2,
-      "evidence_manual_as_of": "2026-10-07",
+      "evidence_manual_as_of": "2026-10-18",
       "stale_financial_axes": [],
       "primary_etf": "SMH",
       "etf_environment": "약세/실패",
@@ -623,9 +623,9 @@ const MARKET_EXPECTATION_41 = {
         "HBM/DRAM/NAND 가격이 둔화·반전되는 경우",
         "분석가 목표가 분산이 좁아지며 컨센서스가 수렴하는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
+      "source_file": "수동 근거 2026-10-18 기준 + 자동 재무 근거 0건",
       "evidence_auto_count": 0,
-      "evidence_manual_as_of": "2026-10-07",
+      "evidence_manual_as_of": "2026-10-18",
       "stale_financial_axes": [],
       "primary_etf": "SMH",
       "etf_environment": "약세/실패",
