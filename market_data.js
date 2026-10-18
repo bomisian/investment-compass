@@ -241,7 +241,7 @@ const MARKET_DATA = {
       "summary": "Trump endorses Netanyahu in Israeli election Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeXNEX0FibmplMGVhLVA1TDdESTEzdk9PR1JYNWtsQzJkTG5ER1lrMkhfV05saHNXYndlOXFxdFJONU4zOEZhZUdtXzR0WGpVSHBuLUUyOExTWHktR3AtMjlnU08yNXpaUWFVOXE1Q3dNaDFkZG4yT0JFMmlkYzdvTXFudjFQOF9rcFBaM0VBbjBaOFQ5bndSNS1fZw?oc=5",
-      "datetime": 1792339424,
+      "datetime": 1792339837,
       "headlineKo": "트럼프, 이스라엘 선거에서 네타냐후 지지 - 로이터",
       "summaryKo": "트럼프, 이스라엘 선거에서 네타냐후 지지 - 최신"
     },
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792343936.438767,
+  "_news_last_success_at": 1792347708.4587514,
   "fgi": {
     "score": 17.9383219954649,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792343927.4498072,
-  "_updated_label": "2026-10-19 02:19",
-  "_last_attempt_at": 1792343927.4498072,
-  "_last_success_at": 1792343927.4498072,
+  "_fetched_at": 1792347701.0445318,
+  "_updated_label": "2026-10-19 03:22",
+  "_last_attempt_at": 1792347701.0445318,
+  "_last_success_at": 1792347701.0445318,
   "_collection_status": "ok",
   "_collection_errors": []
 };
