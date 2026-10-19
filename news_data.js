@@ -6713,7 +6713,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "SPY": {
@@ -14943,7 +14943,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 168,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "MSFT": {
@@ -22964,7 +22964,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "GOOGL": {
@@ -31128,7 +31128,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "AMZN": {
@@ -39468,7 +39468,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "META": {
@@ -47482,7 +47482,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "AAPL": {
@@ -55457,7 +55457,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "TSLA": {
@@ -63294,7 +63294,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "ORCL": {
@@ -71962,7 +71962,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "CRM": {
@@ -80363,7 +80363,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "PLTR": {
@@ -89546,7 +89546,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "NVDA": {
@@ -97378,7 +97378,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "AMD": {
@@ -105585,7 +105585,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "AVGO": {
@@ -114245,7 +114245,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "QCOM": {
@@ -123025,7 +123025,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "ARM": {
@@ -123354,62 +123354,6 @@ const NEWS_DATA = {
             "Qualcomm ( QCOM ) did not get a verdict in its lawsuit against Arm Holdings."
           ],
           "analysisUpdatedAt": 1791844549.08797
-        }
-      },
-      {
-        "headline": "Qualcomm vs. Arm Holdings Q4 2026 trial: royalties and contract breach",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a6fed13b6be411df50bba108d5a6501a2cbba8588dc161584ad89321b32d2815",
-        "datetime": 1791207282,
-        "headlineKo": "Qualcomm 대 Arm Holdings 2026년 4분기 재판: 로열티 및 계약 위반",
-        "relevance": 1,
-        "keywordFlag": true,
-        "flagTerms": [
-          "breach"
-        ],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Arm Holdings 2026년 4분기 재판: 로열티 및 계약 위반 Emerging Technologies Qualcomm은 수십억 달러의 로열티를 걸고 Arm을 다시 재판에 회부합니다. Qualcomm은 Arm이 칩 테스트 도구를 보류하고 종료 위협을 유출했다고 주장합니다.",
-            "소송에서 Qualcomm은 잠재적으로 수십억 달러에 달하는 구제책인 Arm에 대한 로열티 지불을 최대 5년 동안 중단하려고 합니다. 하지만 Maryellen Noreika 판사는 피해를 제한할 수 있는 기간을 파기할지 여부를 고려하고 있습니다.",
-            "Arm의 최대 고객 중 하나인 Qualcomm은 Arm이 언론인에게 2024년 종료 위협을 공개함으로써 Meta $META 플랫폼과 진행 중인 칩 거래 협상이 훼손되었다고 주장했습니다."
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "ARM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "ARM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "ARM에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [
-            "Arm Holdings Q4 2026 trial: royalties and contract breach Emerging Technologies Qualcomm is taking Arm to trial again, with billions in royalties at stake Qualcomm alleges Arm withheld chip testing tools and leaked a termination threat that",
-            "In the lawsuit, Qualcomm is seeking to stop paying royalties to Arm for up to five years — a remedy potentially worth billions of dollars — though Judge Maryellen Noreika is weighing whether to strike that term, which would limit the damage",
-            "Qualcomm , one of Arm's largest customers, further claims that Arm's disclosure of the 2024 termination threat to journalists undermined ongoing chip deal negotiations with Meta $META Platforms, according to Reuters."
-          ],
-          "analysisUpdatedAt": 1791391399.5912373
         }
       }
     ],
@@ -129206,9 +129150,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 119,
+      "checked": 118,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "MRVL": {
@@ -138017,7 +137961,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "INTC": {
@@ -146946,7 +146890,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "TSM": {
@@ -155482,7 +155426,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "ASML": {
@@ -162434,7 +162378,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 149,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "AMAT": {
@@ -168924,7 +168868,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "LRCX": {
@@ -172423,7 +172367,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "KLAC": {
@@ -175661,7 +175605,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "MU": {
@@ -183838,7 +183782,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "SNDK": {
@@ -192851,7 +192795,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "WDC": {
@@ -198723,7 +198667,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "ANET": {
@@ -203220,7 +203164,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "COHR": {
@@ -207297,7 +207241,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "LITE": {
@@ -212206,7 +212150,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "GEV": {
@@ -218271,7 +218215,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "CEG": {
@@ -223743,7 +223687,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "VST": {
@@ -228024,7 +227968,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "ETN": {
@@ -231922,7 +231866,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "PWR": {
@@ -235266,7 +235210,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "HUBB": {
@@ -236216,7 +236160,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 19,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "VRT": {
@@ -240853,7 +240797,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "MOD": {
@@ -242454,7 +242398,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "STX": {
@@ -247594,7 +247538,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "EME": {
@@ -249746,7 +249690,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "FIX": {
@@ -251631,7 +251575,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   },
   "BE": {
@@ -254528,7 +254472,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-10-19 20:07"
+      "updated": "2026-10-19 22:45"
     }
   }
 };
