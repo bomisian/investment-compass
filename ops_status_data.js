@@ -1,12 +1,12 @@
 // ops_status_report.py가 자동 생성합니다. 직접 수정하지 마세요.
 const OPS_STATUS_DATA = {
-  "generatedAt": "2026-10-19T07:35:42+09:00",
+  "generatedAt": "2026-10-20T07:35:42+09:00",
   "items": [
     {
       "key": "last_success",
       "status": "green",
       "label": "마지막 정상 완료",
-      "detail": "2026-10-19 07:10"
+      "detail": "2026-10-20 07:13"
     },
     {
       "key": "public_verify",
@@ -18,7 +18,7 @@ const OPS_STATUS_DATA = {
       "key": "loop_progress",
       "status": "green",
       "label": "루프 진행",
-      "detail": "대기 중(다음 주기, 25분 전부터)"
+      "detail": "대기 중(다음 주기, 22분 전부터)"
     },
     {
       "key": "loop_count",
@@ -34,21 +34,21 @@ const OPS_STATUS_DATA = {
     },
     {
       "key": "compass_asof",
-      "status": "red",
+      "status": "green",
       "label": "나침반 피드 기준일",
-      "detail": "2026-10-16 (3일 전, 기준 2거래일)"
+      "detail": "2026-10-19"
     },
     {
       "key": "market_expectation_asof",
       "status": "green",
       "label": "시장 기대 기준일",
-      "detail": "2026-10-19"
+      "detail": "2026-10-20"
     },
     {
       "key": "eps",
       "status": "green",
       "label": "EPS 수집",
-      "detail": "가장 오래된 종목 CRM 6일 전"
+      "detail": "가장 오래된 종목 ANET 5일 전"
     },
     {
       "key": "data_audit",
@@ -84,7 +84,7 @@ const OPS_STATUS_DATA = {
       "key": "evidence_review_backlog",
       "status": "yellow",
       "label": "근거 승인 대기",
-      "detail": "MU(9일) — approve_evidence.py 실행 필요"
+      "detail": "MU(10일) — approve_evidence.py 실행 필요"
     }
   ]
 };
