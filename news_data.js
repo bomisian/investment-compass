@@ -6713,7 +6713,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "SPY": {
@@ -14862,7 +14862,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 166,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "MSFT": {
@@ -15161,6 +15161,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ff35a4a3386611f185444efefec578170d0e502541a8bd27f6b93751b1fc61b7",
         "datetime": 1792357500,
+        "headlineKo": "일부 투자자들은 AI 거래에 의문을 제기하고 있습니다. Microsoft는 추세를 거스르고 있습니다.",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -22925,7 +22926,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "GOOGL": {
@@ -31080,7 +31081,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "AMZN": {
@@ -39338,7 +39339,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "META": {
@@ -47313,7 +47314,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "AAPL": {
@@ -55417,7 +55418,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "TSLA": {
@@ -63314,7 +63315,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "ORCL": {
@@ -72003,7 +72004,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "CRM": {
@@ -80404,7 +80405,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "PLTR": {
@@ -89591,7 +89592,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "NVDA": {
@@ -97498,7 +97499,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "AMD": {
@@ -105683,7 +105684,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "AVGO": {
@@ -114343,7 +114344,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "QCOM": {
@@ -123123,7 +123124,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "ARM": {
@@ -129306,7 +129307,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "MRVL": {
@@ -138115,7 +138116,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "INTC": {
@@ -147032,7 +147033,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "TSM": {
@@ -155582,7 +155583,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "ASML": {
@@ -162534,7 +162535,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 149,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "AMAT": {
@@ -169024,7 +169025,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "LRCX": {
@@ -172523,7 +172524,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "KLAC": {
@@ -175761,7 +175762,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "MU": {
@@ -176132,6 +176133,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4a12bae0feea9b77908046be33fc7c8f6f4411f3f39faab56b0abcf51b67669a",
         "datetime": 1792369200,
+        "headlineKo": "향후 5년 동안 인공지능(AI) 메모리 주식을 1개만 소유할 수 있다면 그것은 Micron이 아닐 것입니다.",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -176194,6 +176196,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1c47a4bfe620fa98a7f180d4e1c2588e768a78c3ec9e3b7ff9f57c876cf64ba5",
         "datetime": 1792367580,
+        "headlineKo": "2028년까지 Micron에 대한 5,000달러 투자의 가치는 다음과 같습니다.",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -176256,6 +176259,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9b9a4e5f9c64d07dc137fd509eae8ff434d36a319165068d1c7543f8f21fd90d",
         "datetime": 1792353900,
+        "headlineKo": "Micron의 최신 장기 거래가 투자자에게 판도를 바꾸는 이유",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -183890,7 +183894,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "SNDK": {
@@ -192903,7 +192907,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "WDC": {
@@ -198775,7 +198779,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "ANET": {
@@ -203272,7 +203276,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "COHR": {
@@ -207349,7 +207353,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "LITE": {
@@ -212258,7 +212262,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "GEV": {
@@ -218345,7 +218349,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "CEG": {
@@ -223817,7 +223821,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "VST": {
@@ -228098,7 +228102,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "ETN": {
@@ -231996,7 +232000,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "PWR": {
@@ -235358,7 +235362,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "HUBB": {
@@ -236308,7 +236312,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 19,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "VRT": {
@@ -240945,7 +240949,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "MOD": {
@@ -242546,7 +242550,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "STX": {
@@ -247686,7 +247690,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "EME": {
@@ -249838,7 +249842,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "FIX": {
@@ -251723,7 +251727,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   },
   "BE": {
@@ -254539,7 +254543,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-19 15:47"
+      "updated": "2026-10-19 16:18"
     }
   }
 };
