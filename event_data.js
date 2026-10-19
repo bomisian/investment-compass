@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1792390531.3859487,
+  "generatedAt": 1792392450.2562635,
   "events": [
     {
       "id": "dfb7b1c8403dd425a347",
@@ -265,7 +265,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "If I Could Only Own 1 Artificial Intelligence (AI) Memory Stock for the Next 5 Years, It Wouldn't Be Micron.",
-      "headlineKo": "",
+      "headlineKo": "향후 5년 동안 인공지능(AI) 메모리 주식을 1개만 소유할 수 있다면 그것은 Micron이 아닐 것입니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4a12bae0feea9b77908046be33fc7c8f6f4411f3f39faab56b0abcf51b67669a",
@@ -335,7 +335,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Here Is What a $5,000 Investment in Micron Could Be Worth by 2028",
-      "headlineKo": "",
+      "headlineKo": "2028년까지 Micron에 대한 5,000달러 투자의 가치는 다음과 같습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1c47a4bfe620fa98a7f180d4e1c2588e768a78c3ec9e3b7ff9f57c876cf64ba5",
@@ -721,7 +721,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Some Investors Are Questioning the AI Trade. Microsoft Is Bucking the Trend",
-      "headlineKo": "",
+      "headlineKo": "일부 투자자들은 AI 거래에 의문을 제기하고 있습니다. Microsoft는 추세를 거스르고 있습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ff35a4a3386611f185444efefec578170d0e502541a8bd27f6b93751b1fc61b7",
@@ -873,7 +873,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Why Micron's Latest Long-Term Deals Are a Game-Changer for Investors",
-      "headlineKo": "",
+      "headlineKo": "Micron의 최신 장기 거래가 투자자에게 판도를 바꾸는 이유",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9b9a4e5f9c64d07dc137fd509eae8ff434d36a319165068d1c7543f8f21fd90d",

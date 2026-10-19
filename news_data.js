@@ -6713,7 +6713,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "SPY": {
@@ -14862,7 +14862,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 166,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "MSFT": {
@@ -14953,7 +14953,8 @@ const NEWS_DATA = {
             "And it likely won't slow down any time soon."
           ],
           "analysisUpdatedAt": 1792384830.3300407
-        }
+        },
+        "headlineKo": "일부 투자자들은 AI 거래에 의문을 제기하고 있습니다. Microsoft는 추세를 거스르고 있습니다."
       },
       {
         "headline": "Own VGT? Here's How Much of It Is Really Nvidia, Apple, Microsoft, and Broadcom.",
@@ -22924,7 +22925,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "GOOGL": {
@@ -31079,7 +31080,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "AMZN": {
@@ -39337,7 +39338,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "META": {
@@ -47312,7 +47313,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "AAPL": {
@@ -55416,7 +55417,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "TSLA": {
@@ -63313,7 +63314,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "ORCL": {
@@ -72002,7 +72003,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "CRM": {
@@ -80403,7 +80404,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "PLTR": {
@@ -89590,7 +89591,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "NVDA": {
@@ -97497,7 +97498,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "AMD": {
@@ -105682,7 +105683,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "AVGO": {
@@ -114342,7 +114343,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "QCOM": {
@@ -123122,7 +123123,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "ARM": {
@@ -129305,7 +129306,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "MRVL": {
@@ -138114,7 +138115,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "INTC": {
@@ -147031,7 +147032,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "TSM": {
@@ -155581,7 +155582,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "ASML": {
@@ -162533,7 +162534,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 149,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "AMAT": {
@@ -169023,7 +169024,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "LRCX": {
@@ -172522,7 +172523,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "KLAC": {
@@ -175760,7 +175761,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "MU": {
@@ -175834,7 +175835,8 @@ const NEWS_DATA = {
             "What investors may not fully understand is that Micron isn't the only company poised to capitalize on artificial intelligence's insatiable appetite for memory."
           ],
           "analysisUpdatedAt": 1792378903.720237
-        }
+        },
+        "headlineKo": "향후 5년 동안 인공지능(AI) 메모리 주식을 1개만 소유할 수 있다면 그것은 Micron이 아닐 것입니다."
       },
       {
         "headline": "Here Is What a $5,000 Investment in Micron Could Be Worth by 2028",
@@ -175897,7 +175899,8 @@ const NEWS_DATA = {
             "The moves it's making are upending some of the long-established understandings regarding its business, but the market hasn't caught up to those changes yet."
           ],
           "analysisUpdatedAt": 1792378910.8901026
-        }
+        },
+        "headlineKo": "2028년까지 Micron에 대한 5,000달러 투자의 가치는 다음과 같습니다."
       },
       {
         "headline": "Why Micron's Latest Long-Term Deals Are a Game-Changer for Investors",
@@ -175960,7 +175963,8 @@ const NEWS_DATA = {
             "That is one of the main reasons why Micron Technology's ( MU -5.63% ) stock trades at a forward P/E of just over 5 times fiscal 2027 (ending August) analyst estimates despite soaring growth, as investors expect the current supercycle to eve"
           ],
           "analysisUpdatedAt": 1792378916.3878222
-        }
+        },
+        "headlineKo": "Micron의 최신 장기 거래가 투자자에게 판도를 바꾸는 이유"
       },
       {
         "headline": "Better AI Chip Stock: Taiwan Semiconductor vs. Micron",
@@ -183886,7 +183890,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "SNDK": {
@@ -192899,7 +192903,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "WDC": {
@@ -198771,7 +198775,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "ANET": {
@@ -203268,7 +203272,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "COHR": {
@@ -207345,7 +207349,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "LITE": {
@@ -212254,7 +212258,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "GEV": {
@@ -218341,7 +218345,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "CEG": {
@@ -223813,7 +223817,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "VST": {
@@ -228094,7 +228098,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "ETN": {
@@ -231992,7 +231996,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "PWR": {
@@ -235354,7 +235358,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "HUBB": {
@@ -236304,7 +236308,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 19,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "VRT": {
@@ -240941,7 +240945,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "MOD": {
@@ -242542,7 +242546,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "STX": {
@@ -247682,7 +247686,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "EME": {
@@ -249834,7 +249838,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "FIX": {
@@ -251719,7 +251723,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   },
   "BE": {
@@ -254535,7 +254539,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-10-19 13:41"
+      "updated": "2026-10-19 15:47"
     }
   }
 };
