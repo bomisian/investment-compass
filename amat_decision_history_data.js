@@ -947,6 +947,36 @@ const AMAT_DECISION_HISTORY_DATA = {
       ],
       "causeDisclaimer": "아래 changedFacts는 전일 기록과 달라진 값만 기계적으로 대조한 것이에요(변경된 사실) -- 왜 달라졌는지(새 공시 때문인지, 가격이 움직여서인지, 모델 가정 변경 때문인지, 그날 수집된 가격 자체가 달라서인지)는 이 대조만으로 알 수 없어요(변경 원인은 이 기록으로 단정하지 않음). 원인을 확인하려면 price/priceAsOf/dcfBase/runId 필드를 함께 대조하세요.",
       "reasonForChange": "평가 실행 ID 변경(AMAT_REAL_20261017T030059375904 -> AMAT_REAL_20261018T030059437907); 대표가격(DCF) 변경($191.90044253180838 -> $192.03698161084478); 신규매수 매입가 상한(10% 기준) 변경($201.0415309520049 -> $201.1549407789443)"
+    },
+    {
+      "date": "2026-10-20",
+      "generatedAt": "2026-10-20T00:25:47.841908",
+      "runId": "AMAT_REAL_20261019T030059458998",
+      "valuationAnchorDate": "2026-07-26",
+      "dcfBase": 192.03698161084478,
+      "price": 409.2900085449219,
+      "priceAsOf": "2026-10-16",
+      "priceSourceKind": "prices_cache.json 최신 봉(서버 기본정책 기록 -- 개인 브라우저 입력 아님)",
+      "policyBuyRPct": 10,
+      "policyTrimRPct": 8,
+      "snapshotNote": "이 기록은 그날 처음(이자 유일하게) 실행된 기본정책 스냅샷이에요 -- 그날 하루 전체의 가격 변동이나 장중 판단을 대표하지 않아요. 요구수익률 미입력 시 화면 기본 정책(10%/8%) 기준이며, 사용자가 화면에서 직접 입력한 값은 서버가 알 수 없어 이 기록에는 반영되지 않아요.",
+      "engineOk": false,
+      "engineError": "엔진이 실제 카드 HTML에서 '지금 판단' 라벨을 찾지 못함(카드 문구 형식이 바뀌었을 수 있음)",
+      "dcfBaseEngineEcho": 192.03698161084478,
+      "priceIsLive": true,
+      "priceSourceNote": "방금 조회 성공한 값(2026-10-16 관측)",
+      "ceilingBuy": 201.1549407789443,
+      "ceilingTrimRef": 211.5835092214492,
+      "judgmentCode": null,
+      "judgmentLabel": null,
+      "judgmentDetail": null,
+      "dataOk": true,
+      "dataReason": null,
+      "changedFacts": [
+        "평가 실행 ID 변경(AMAT_REAL_20261018T030059437907 -> AMAT_REAL_20261019T030059458998)"
+      ],
+      "causeDisclaimer": "아래 changedFacts는 전일 기록과 달라진 값만 기계적으로 대조한 것이에요(변경된 사실) -- 왜 달라졌는지(새 공시 때문인지, 가격이 움직여서인지, 모델 가정 변경 때문인지, 그날 수집된 가격 자체가 달라서인지)는 이 대조만으로 알 수 없어요(변경 원인은 이 기록으로 단정하지 않음). 원인을 확인하려면 price/priceAsOf/dcfBase/runId 필드를 함께 대조하세요.",
+      "reasonForChange": "평가 실행 ID 변경(AMAT_REAL_20261018T030059437907 -> AMAT_REAL_20261019T030059458998)"
     }
   ]
 };
