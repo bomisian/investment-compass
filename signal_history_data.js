@@ -1,9 +1,50 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1792406100.7829916,
+  "generatedAt": 1792408075.3728983,
   "records": {
     "MSFT": [
+      {
+        "changedAt": 1792408075.3728983,
+        "dataAsOf": 1792403700,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.22,
+            "after": 1.57
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.92,
+            "after": 1.75
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -1.75,
+            "after": -2.45
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.7,
+            "after": 0.17
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "우호적 변화",
+            "after": "중립·확인 대기"
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "예측: Microsoft Stock은 10 월 28 일 이후에 급등 할 것입니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=89e0b9c9c53449d0702d7f0982ea90fa05ffa3f59ce267bd0fbc8246030db22d",
+        "eventId": "b47bf398e06c28ce57e3",
+        "fingerprint": "{\"changes\": [{\"after\": 1.57, \"before\": 1.22, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.75, \"before\": 1.92, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.45, \"before\": -1.75, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.17, \"before\": 0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"우호적 변화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"b47bf398e06c28ce57e3\"}"
+      },
       {
         "changedAt": 1792384868.521165,
         "dataAsOf": 1792357500,
@@ -1864,29 +1905,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=ee5cd25b7c93703fe137f69b98dcb799d0bdbc856fc121d8db2b24643fafac11",
         "eventId": "e6dfe852365b65e0e0c8",
         "fingerprint": "{\"changes\": [{\"after\": 3.15, \"before\": 1.92, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.05, \"before\": -1.4, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -0.52, \"before\": -1.92, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.7, \"before\": -0.52, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"우호적 변화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"e6dfe852365b65e0e0c8\"}"
-      },
-      {
-        "changedAt": 1791211501.5954986,
-        "dataAsOf": 1791207420,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 1.57,
-            "after": 1.92
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -0.87,
-            "after": -0.52
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "비주얼 컴퓨팅 시장 보고서 2026: 2030년까지 글로벌 규모, 점유율, 추세 및 성장 예측 | NVIDIA, Apple, Microsoft 및 AMD를 통해 AI, 실시간 3D 및 AR/VR 활용",
-        "newsUrl": "https://finnhub.io/api/news?id=ee5cd25b7c93703fe137f69b98dcb799d0bdbc856fc121d8db2b24643fafac11",
-        "eventId": "e6dfe852365b65e0e0c8",
-        "fingerprint": "{\"changes\": [{\"after\": 1.92, \"before\": 1.57, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.52, \"before\": -0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"e6dfe852365b65e0e0c8\"}"
       }
     ],
     "GOOGL": [
@@ -16055,6 +16073,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1792408075.3728983,
+        "dataAsOf": 1792352580,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 3.67,
+            "after": 3.15
+          }
+        ],
+        "cause": "AI 컴퓨팅 수요 확대 가능성",
+        "newsHeadline": "대만 반도체가 최고의 AI 투자처인 이유를 방금 증명했습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=aa8f89ccfcc82cdd5533240900c42271d1d202512420920155fb3590ecca9420",
+        "eventId": "b048012de33b44384c14",
+        "fingerprint": "{\"changes\": [{\"after\": 3.15, \"before\": 3.67, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"b048012de33b44384c14\"}"
+      },
+      {
         "changedAt": 1792402267.6004312,
         "dataAsOf": 1792357500,
         "changes": [
@@ -17374,26 +17409,32 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=79d09c9fd6db99d40ba9b6a0ff42cb84ab7414e5d10e1e69e551cf41646f443e",
         "eventId": "68482752d8041194abbf",
         "fingerprint": "{\"changes\": [{\"after\": 2.45, \"before\": 1.92, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -0.52, \"before\": -0.87, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": 2.45, \"before\": 1.57, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"68482752d8041194abbf\"}"
-      },
-      {
-        "changedAt": 1791368587.318846,
-        "dataAsOf": 1791364045,
-        "changes": [
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 2.27,
-            "after": 1.57
-          }
-        ],
-        "cause": "AI 컴퓨팅 수요 확대 가능성",
-        "newsHeadline": "Jim Cramer는 Microsoft(MSFT)의 AI 투자가 마침내 성과를 거두었다고 말합니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=5d498f9ea2b813b6c71d2b717266b6a90cca62d865c717ac5b34a33a5e308a39",
-        "eventId": "ee739e49c20dcbacd7b2",
-        "fingerprint": "{\"changes\": [{\"after\": 1.57, \"before\": 2.27, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"ee739e49c20dcbacd7b2\"}"
       }
     ],
     "AMD": [
+      {
+        "changedAt": 1792408075.3728983,
+        "dataAsOf": 1792372800,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 5,
+            "after": 4.72
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 5,
+            "after": 4.72
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "이것은 AI 매각에서 AMD의 가장 큰 장애물입니다 (아니요, 엔비디아는 아닙니다).",
+        "newsUrl": "https://finnhub.io/api/news?id=133dc0ce0e3c9886a3f4e58edf4e4dc399bb12645a4a3eeb6b39bba129ac9ecd",
+        "eventId": "dfb7b1c8403dd425a347",
+        "fingerprint": "{\"changes\": [{\"after\": 4.72, \"before\": 5, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 4.72, \"before\": 5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"dfb7b1c8403dd425a347\"}"
+      },
       {
         "changedAt": 1792379116.5058818,
         "dataAsOf": 1792372800,
@@ -18600,29 +18641,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=7b31f6f72da28162f972b402d8c7d61247def29acfb2b4cf188e0e950c90ce74",
         "eventId": "7205e54cceff4d0d3916",
         "fingerprint": "{\"changes\": [{\"after\": 1.22, \"before\": 1.75, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"7205e54cceff4d0d3916\"}"
-      },
-      {
-        "changedAt": 1791049584.101558,
-        "dataAsOf": 1791040956,
-        "changes": [
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -1.4,
-            "after": -0.35
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -2.97,
-            "after": -2.45
-          }
-        ],
-        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
-        "newsHeadline": "AMD의 CPU 사업이 AI 칩 야망에 자금을 지원할 수 있습니까?",
-        "newsUrl": "https://finnhub.io/api/news?id=a7bfaeadebd575188d152c345c9fbabf0175dc885806bf3cd3c62091296909a6",
-        "eventId": "863f772ed7470d36226a",
-        "fingerprint": "{\"changes\": [{\"after\": -0.35, \"before\": -1.4, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.45, \"before\": -2.97, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"863f772ed7470d36226a\"}"
       }
     ],
     "AVGO": [
@@ -34535,6 +34553,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "MU": [
       {
+        "changedAt": 1792408075.3728983,
+        "dataAsOf": 1792395961,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 5,
+            "after": 4.55
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "대만의 마이크론 연합은 파업을 승인하기 위해 99%의 투표를 했습니다. 주식을 팔아야 하는가?",
+        "newsUrl": "https://finnhub.io/api/news?id=3f9f18b50e7823c23f0c687a982533777fbae77831ea9209d74a1c9cd11261cb",
+        "eventId": "d2d816f0c6dc1dc3ee38",
+        "fingerprint": "{\"changes\": [{\"after\": 4.55, \"before\": 5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"d2d816f0c6dc1dc3ee38\"}"
+      },
+      {
         "changedAt": 1792402267.6004312,
         "dataAsOf": 1792395961,
         "changes": [
@@ -35752,23 +35787,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=36c3585ccd8fe6e010a7be06b57192429eb8ba892d7e8dc01c37cc9550e9dde6",
         "eventId": "50700b81247a8b9181cd",
         "fingerprint": "{\"changes\": [{\"after\": 2.62, \"before\": 2.27, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 4.72, \"before\": 4.55, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"50700b81247a8b9181cd\"}"
-      },
-      {
-        "changedAt": 1791396019.7375824,
-        "dataAsOf": 1791388480,
-        "changes": [
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 4.9,
-            "after": 4.55
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "부족한 메모리 공급이 더 부드러운 기술 테이프를 앞지르면서 SanDisk와 Micron은 3% 상승합니다. Western Digital의 지연",
-        "newsUrl": "https://finnhub.io/api/news?id=c87f8592ab809016c8fd5f391d659fa73c3c25b6f5a676a4991c59429fbb3665",
-        "eventId": "062490ec287877913a16",
-        "fingerprint": "{\"changes\": [{\"after\": 4.55, \"before\": 4.9, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"062490ec287877913a16\"}"
       }
     ],
     "SNDK": [
