@@ -32,6 +32,11 @@ const TOP100_REFERENCE_SAMPLE_DATA = {
       "t": "MRVL",
       "d": "2026-10-16",
       "reason": "20거래일 뒤 데이터 아직 없음"
+    },
+    {
+      "t": "APH",
+      "d": "2026-10-20",
+      "reason": "20거래일 뒤 데이터 아직 없음"
     }
   ]
 };

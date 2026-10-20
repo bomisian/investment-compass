@@ -3443,6 +3443,11 @@ function toggleRcTier2(ticker){
 // 전혀 호출하지 않고 건드리지도 않는다. 데이터가 없으면(파일 미배포/해당 티커 없음)
 // 조용히 아무것도 안 그린다(기존 카드/탭 레이아웃에 빈 자리가 남지 않음).
 const PM_VERDICT_COLOR = { '매수':'#2f5b3c', '적정':'#3c4552', '고평가':'#7a3b2e' };
+// WO17 임시 배지(2026-10-20 밤, 봄이 지시) - 가격 지도가 10/23 검토 확정 전에 화면에 먼저
+// 노출된 것을 확인한 뒤 "초안 · 검토 중" 표시를 붙여달라고 하셨다. 숫자·판정·계산 로직은
+// 전혀 안 건드리고 표시(배지 문구)만 추가한다. 10/23 확정되면 이 상수를 false로 바꾸거나
+// 아래 두 곳의 배지 블록을 지우면 된다(그 외엔 손댈 곳 없음).
+const PRICE_MAP_DRAFT_REVIEW_NOTICE = true;
 function pmData(ticker){
   try{
     return (window.PRICE_MAP_DATA && window.PRICE_MAP_DATA.tickers && window.PRICE_MAP_DATA.tickers[ticker]) || null;
@@ -3484,7 +3489,7 @@ function buildPriceMapSummaryHtml(ticker, existingPriceLabel){
   if(!pm) return '';
   const vColor = PM_VERDICT_COLOR[pm.verdict] || '#3c4552';
   return `<div class="rc-pricemap" style="margin-top:4px;padding-top:4px;border-top:1px dashed var(--panel-2);">
-    <div style="font-size:11px;color:${vColor};font-weight:700;">가격 지도: ${esc(pm.verdict)}(${esc(pm.action)})${pm.bizRiskBadge ? ' <span style="color:#7a3b2e;">⚠</span>' : ''}</div>
+    <div style="font-size:11px;color:${vColor};font-weight:700;">가격 지도: ${esc(pm.verdict)}(${esc(pm.action)})${pm.bizRiskBadge ? ' <span style="color:#7a3b2e;">⚠</span>' : ''}${PRICE_MAP_DRAFT_REVIEW_NOTICE ? ' <span style="font-size:9.5px;font-weight:700;color:#876000;background:#fff8ea;padding:1px 4px;border-radius:3px;">초안·검토중(10/23 확정예정)</span>' : ''}</div>
     <div class="sub" style="font-size:10.5px;">기존 가격 라벨: <b>${esc(existingPriceLabel||'-')}</b> / 가격 지도 판정: <b style="color:${vColor};">${esc(pm.verdict)}</b></div>
     <div class="sub" style="font-size:10.5px;">중심 적정가 $${pm.fairPrice.toFixed(2)} · 분할매수가 $${pm.bandDcaHigh.toFixed(2)} · 적극 모아가기가 $${pm.bandAggressiveLe.toFixed(2)} · 신뢰도 ${esc(pm.confidence)}</div>
     ${buildPriceMapBarHtml(pm)}
@@ -14759,6 +14764,7 @@ function tabPriceMap(r){
   return `
   <div class="comment-box" style="background:var(--panel-2);">
     <div class="sub">가격 지도(price_map) — 142 판단 엔진(01 판단 탭)과 <b>완전히 독립적으로</b> 산출된 참고 가격표예요. 서로 다른 판정이면 그대로 둘 다 보여드려요.</div>
+    ${PRICE_MAP_DRAFT_REVIEW_NOTICE ? '<div class="sub" style="margin-top:4px;color:#876000;font-weight:700;">⏳ 초안 · 검토 중(10/23 확정 예정) — 지금 보이는 숫자·판정은 확정본이 아니라 검토용 초안입니다.</div>' : ''}
     <div style="font-size:22px;font-weight:800;margin:6px 0 2px;color:${PM_VERDICT_COLOR[pm.verdict]||'#3c4552'};">${esc(pm.verdict)} · ${esc(pm.action)}</div>
     <div>현재가 <b>${usd(pm.currentPrice)}</b> · 중심 적정가 <b>${usd(pm.fairPrice)}</b>(현재가/적정가 ${(pm.ratio*100).toFixed(0)}%) · 신뢰도 <b>${esc(pm.confidence)}</b></div>
     ${buildPriceMapBarHtml(pm)}
