@@ -3449,8 +3449,17 @@ const PM_VERDICT_COLOR = { '매수':'#2f5b3c', '적정':'#3c4552', '고평가':'
 // 아래 두 곳의 배지 블록을 지우면 된다(그 외엔 손댈 곳 없음).
 const PRICE_MAP_DRAFT_REVIEW_NOTICE = true;
 function pmData(ticker){
+  // WO17-8(2026-10-20 밤, 검토 세션 리포트) - price_map_data.js는 다른 *_DATA 파일들과
+  // 동일하게 `<script src="...">`로 불러오는 최상위 const 선언이다. 다른 모든 *_DATA
+  // 전역(FINANCIALS_DATA 등)이 전부 "window.X"가 아니라 "X"(식별자 그대로)로 참조되는
+  // 것과 똑같이, const/let 최상위 선언은 window 프로퍼티로 안 붙는다(스크립트 태그들끼리
+  // 공유하는 최상위 렉시컬 스코프에만 생김) - 그래서 window.PRICE_MAP_DATA는 항상
+  // undefined였고 39종목 전부 안 보였다. PRICE_MAP_DATA를 그대로 참조하도록 고치고,
+  // window.PRICE_MAP_DATA도 혹시 몰라 같이 확인한다(엔진 쪽도 안전하게 두 가지 다 쓰도록
+  // 같이 손봄 - price_map_engine.py write_price_map_data_js() 참고).
   try{
-    return (window.PRICE_MAP_DATA && window.PRICE_MAP_DATA.tickers && window.PRICE_MAP_DATA.tickers[ticker]) || null;
+    const src = (typeof PRICE_MAP_DATA !== 'undefined' ? PRICE_MAP_DATA : (typeof window !== 'undefined' ? window.PRICE_MAP_DATA : undefined));
+    return (src && src.tickers && src.tickers[ticker]) || null;
   }catch(e){ return null; }
 }
 // 4밴드 가격 막대(375px 폭 안전) - bandAggressiveLe(적극 모아가기가) < bandDcaHigh(분할매수가) <
