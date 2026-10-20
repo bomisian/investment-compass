@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 98.18000030517578,
+      "current": 98.16000366210938,
       "prevClose": 103.66000366210938,
-      "changeAbs": -5.480003356933594,
-      "changePct": -5.286516653806263,
+      "changeAbs": -5.5,
+      "changePct": -5.3058072599802575,
       "pctRank": 90.21479713603819,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -13.076579939913202,
-      "ma20": 93.5120002746582,
-      "ma60": 89.85950037638347,
-      "chg1m": 2.4000015258789062,
-      "chg3m": 11.349998474121094,
-      "chg1mPct": 2.50574395120756,
-      "chg3mPct": 13.071517027265308,
+      "drawdown1y": -13.094283918316641,
+      "ma20": 93.51100044250488,
+      "ma60": 89.85916709899902,
+      "chg1m": 2.3800048828125,
+      "chg3m": 11.330001831054688,
+      "chg1mPct": 2.484866269727856,
+      "chg3mPct": 13.048487380087238,
       "lastDate": "2026-10-20",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 101.70500183105469,
+      "current": 101.7300033569336,
       "prevClose": 101.9800033569336,
-      "changeAbs": -0.27500152587890625,
-      "changePct": -0.2696622051642725,
+      "changeAbs": -0.25,
+      "changePct": -0.24514609901020615,
       "pctRank": 44.709626093874306,
       "min5y": 93.3499984741211,
       "max5y": 114.11000061035156,
       "high1y": 102.58000183105469,
-      "drawdown1y": -0.8529927708922136,
-      "ma20": 101.84174995422363,
-      "ma60": 100.37508328755696,
-      "chg1m": 1.2750015258789062,
-      "chg3m": 0.56500244140625,
-      "chg1mPct": 1.2695424893005776,
-      "chg3mPct": 0.5586340170218326,
+      "drawdown1y": -0.8286200613653816,
+      "ma20": 101.84300003051757,
+      "ma60": 100.37549997965495,
+      "chg1m": 1.3000030517578125,
+      "chg3m": 0.5900039672851562,
+      "chg1mPct": 1.294436968841486,
+      "chg3mPct": 0.5833537382298447,
       "lastDate": "2026-10-20",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4142.5,
+      "current": 4140.7001953125,
       "prevClose": 4160.10009765625,
-      "changeAbs": -17.60009765625,
-      "changePct": -0.42306909072129495,
-      "pctRank": 83.78378378378379,
+      "changeAbs": -19.39990234375,
+      "changePct": -0.4663325854750387,
+      "pctRank": 83.6248012718601,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -22.11003166244694,
-      "ma20": 4191.225,
-      "ma60": 4335.888330078125,
-      "chg1m": -241.39990234375,
-      "chg3m": -9.39990234375,
-      "chg1mPct": -5.506510361121411,
-      "chg3mPct": -0.22640002323860817,
+      "drawdown1y": -22.143872756019213,
+      "ma20": 4191.135009765625,
+      "ma60": 4335.858333333334,
+      "chg1m": -243.19970703125,
+      "chg3m": -11.19970703125,
+      "chg1mPct": -5.547565237546344,
+      "chg3mPct": -0.269748965405639,
       "lastDate": "2026-10-20",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran's Nournews says Qatari delegation arrives in Tehran - Reuters",
+      "summary": "Iran's Nournews says Qatari delegation arrives in Tehran Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMWFOdG1rbGRYNW1JcmtDLVJnd09ZU1BzblphekFRZ0hROHJVbzN2T29JbGxrSFJRMUxOclBoYjdaRXJvQV9zZmpRV0pfZFVLZjhmaUhfWDVVTTNYNDVGZVJ4NWhqQ0NFNFdQdm9KalNkcTBOTzdRRW54dER2Z0VlM1dLWWo1a1RETU1SYmFCRXJHTll4eU51bUZyNUVEQy1IV2swTGIydXJzQQ?oc=5",
+      "datetime": 1792528388,
+      "headlineKo": "이란 누르뉴스, 카타르 대표단 테헤란 도착 보도 - 로이터",
+      "summaryKo": "이란 누르뉴스는 카타르 대표단이 테헤란에 도착했다고 보도했습니다."
+    },
+    {
       "headline": "United Airlines slashes 2026 profit outlook on fuel prices, but travelers keep booking despite higher fares",
       "summary": "United Airlines cut its profit outlook for the year as fuel prices continued to climb.",
       "source": "CNBC",
@@ -244,6 +253,15 @@ const MARKET_DATA = {
       "datetime": 1792526585,
       "headlineKo": "유나이티드 항공(United Airlines)은 연료 가격에 대한 2026년 수익 전망을 대폭 낮췄지만 여행자들은 더 높은 운임에도 불구하고 예약을 계속하고 있습니다.",
       "summaryKo": "유나이티드 항공(United Airlines)은 연료 가격이 계속 상승함에 따라 올해 수익 전망을 하향 조정했습니다."
+    },
+    {
+      "headline": "China says US' DeepSeek ban disregards Xi-Trump consensus - Reuters",
+      "summary": "China says US' DeepSeek ban disregards Xi-Trump consensus Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPak9Kd1hvX05mbjBaRWhaaVpUZWhrV0NVZk5zR3lWWjExWnU4ZXVIY3VxbEdvT3cxMU1hNkdZTnlBek1WV1VWa1E3cXRDaDNEdS0tR2NkX09yS3ZreGxiUWcwRUVxbXN0SFVTbE12RUItdUhwMWM5RFVpMHhlZGtYeFJ5UG9iYzhhSjFjT3dXSlhsay1TWldtVXMzd2lRZ0FQMDNCOEhzMTgycEdTTC1UNW1vUzFSUEtwOU1aRGdyWUY2Q1dJTTRV?oc=5",
+      "datetime": 1792526549,
+      "headlineKo": "중국은 미국의 DeepSeek 금지가 시진핑-트럼프 합의를 무시했다고 말했습니다 - Reuters",
+      "summaryKo": "중국은 미국의 DeepSeek 금지가 시진핑-트럼프 합의를 무시한다고 말했습니다 - 최신"
     },
     {
       "headline": "Boeing wins FAA approval for 737 Max 10 after years of delays",
@@ -291,6 +309,15 @@ const MARKET_DATA = {
       "summaryKo": "이란은 파키스탄 육군 참모총장에게 요구 사항이 충족될 때까지 미국과 대화하지 말라고 밝혔습니다."
     },
     {
+      "headline": "Albania formalises corruption charges against ex-deputy PM Balluku - Reuters",
+      "summary": "Albania formalises corruption charges against ex-deputy PM Balluku Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSXBhb0Fha3BUOEtYSkRsNEM4eFBrTmZjYzN5NzJlNmh4cmNUT3pPeFpQVmN0R2k3ZWRSZFZCMjdkbll4Wm9KY2s5Rjdzd1o0RVBsS3F4ZzBLQ3FtUGdOb0FIcVpKNDRhSG1BQ25aWkwzeXMwS1pwSUZhd3VVMFljT29nc0cwYXBnVmIxdU9sM3lZZkZickxhYk5wR0t4eF9sZ2lidWVEdXJNMFJk?oc=5",
+      "datetime": 1792518955,
+      "headlineKo": "알바니아, 발루쿠 전 부총리에 대한 부패 혐의 공식화 - 로이터 통신",
+      "summaryKo": "알바니아, 발루쿠 전 부총리에 대한 부패 혐의 공식화 - Reuters"
+    },
+    {
       "headline": "Israeli fire kills four people in Gaza, medics say - Reuters",
       "summary": "Israeli fire kills four people in Gaza, medics say Reuters",
       "source": "Reuters",
@@ -300,6 +327,15 @@ const MARKET_DATA = {
       "summaryKo": "가자지구에서 이스라엘 총격으로 4명 사망, 의료진에 따르면 로이터통신"
     },
     {
+      "headline": "Eastern Libya parliament approves maritime deal with Turkey, drawing Greek rejection - Reuters",
+      "summary": "Eastern Libya parliament approves maritime deal with Turkey, drawing Greek rejection Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSDNpNHR3ZzZNNnVsTXE1c1N1RDVPdHFvRjBrRWJiQTltVlRmNlM3VzdkX1dEZmNhcW5rRFI4QzJvUjJXdU9XVWlVQklGLUV4LWc2S2VGczdPanlEb09Vb1hJakM5Z2pfRl9YOVZqNGtmVDFveXZscGhaLXpoRlF5WEUwLWVWSGwzU3JvSmJXb3djX3R6dmRfaGRKclNtRDQ4Smd2TUQ0eG43WEQzZXo1SmNRTmFkdE1JYnNoeGFwMXNlLTlrNGc?oc=5",
+      "datetime": 1792518319,
+      "headlineKo": "동부 리비아 의회, 터키와의 해양 거래 승인, 그리스 거부-로이터",
+      "summaryKo": "동부 리비아 의회, 터키와의 해상 거래 승인, 그리스 거부-로이터"
+    },
+    {
       "headline": "Turkey submits Saudi-Pakistan defence pact to parliament for ratification, sources say - Reuters",
       "summary": "Turkey submits Saudi-Pakistan defence pact to parliament for ratification, sources say Reuters",
       "source": "Reuters",
@@ -307,54 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792517275,
       "headlineKo": "터키, 비준을 위해 사우디-파키스탄 국방 협정을 의회에 제출했다고 소식통이 전했습니다.",
       "summaryKo": "터키, 비준을 위해 사우디-파키스탄 국방 협정을 의회에 제출했다고 소식통에 따르면 로이터 통신"
-    },
-    {
-      "headline": "UK police arrest pair on suspicion of helping Iranian intelligence over RAF Fairford incident - Reuters",
-      "summary": "UK police arrest pair on suspicion of helping Iranian intelligence over RAF Fairford incident Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOWtHNEd1UkNWcGVXUE1HOW96YUlFbUQtRE8xdGstc1FlMTFSR0plZjc0Z21kR3lGczUwaEprd3pUcUtvX0x1VE5Cb28xSWNOd0R2UTM1TklYUFZjZVlJalVuZjRHZ0RpZVJHYVNuREdGeHJDdU9zLTRfTnRuOHNsellBOXBhLTAwSWxMV2g2d3FTa1c1dFNUM1o2c3Q4RWo5bjNpOVN3N25MaW9KZEpHQl9KRDlydlNP?oc=5",
-      "datetime": 1792516212,
-      "headlineKo": "영국 경찰은 RAF 페어포드 사건과 관련해 이란 정보국을 도운 혐의로 두 사람을 체포했습니다.",
-      "summaryKo": "영국 경찰은 RAF 페어포드 사건에 대해 이란 정보국을 도운 혐의로 두 사람을 체포했습니다."
-    },
-    {
-      "headline": "Britain says it will carry out defensive air missions over Saudi Arabia - Reuters",
-      "summary": "Britain says it will carry out defensive air missions over Saudi Arabia Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTGh1LWkyRVZqaTRQMEdnRXhvWFhvWnJ6TW5WdlEyM0dxTFQwLWczNjAwLU95SDFDZVVSdUNQUE1uYkREcG05THRjbmhiQk5FWlBjb2p2V01DVmhGRFppUmFHQUFwMm4yZHFLRndUbU9PcEVjY0JBY1JpZjROd0JnOTdoZXFodTRDSzJEQURHQkVzd21pMmtUZmdnLUE3SGI1UGt5Wno0WWVKR1ZWV0FaQ0FmZUY5aVlQZVAtRGV4WEhoTmVnbHRsZ0taZ2d2NFBxOFIzdQ?oc=5",
-      "datetime": 1792515926,
-      "headlineKo": "영국, 사우디아라비아 상공에서 방어적 공중임무 수행할 것이라고 밝혔다 - 로이터",
-      "summaryKo": "영국, 사우디아라비아에 대한 방어적 공중임무 수행할 것이라고 밝혔다 - 로이터"
-    },
-    {
-      "headline": "Israel's Ben-Gvir poised for election gains as young voters turn to far right - Reuters",
-      "summary": "Israel's Ben-Gvir poised for election gains as young voters turn to far right Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRG9Wc1hmTWh4V3JfNXMxV3FjbVI1WTJ6Vy1JY1p5ZUdXa2wxbFQ3V2VyMmhFTm9NaG5LMm5NdjJNQ08zbksyODZtd1NFQS03V0x1MGtrZ3JmTGg1Z3lWc0JnNjVjZ1NUUEU1clZLS0g5Y1JqQlpvRTlheG1LQkxrTHY1TUIzQVAzcDh2dVdpMVU5ekUwbFdRTC1wWHBLTFRUY0FuMUhpdDJ0by1OTmp1akRtbTFvT3l1YjczXw?oc=5",
-      "datetime": 1792515707,
-      "headlineKo": "이스라엘의 벤그비르(Ben-Gvir)는 젊은 유권자들이 극우로 향함에 따라 선거에서 승리할 준비가 되어 있습니다 - Reuters",
-      "summaryKo": "이스라엘의 벤그비르(Ben-Gvir)는 젊은 유권자들이 극우로 향함에 따라 선거에서 승리할 준비가 되어 있습니다 - 최신"
-    },
-    {
-      "headline": "Canada, Turkey set to sign pledge during Carney visit to deepen defence, energy ties, source says - Reuters",
-      "summary": "Canada, Turkey set to sign pledge during Carney visit to deepen defence, energy ties, source says Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObWlTeVJJYUVSSnEtekFFRGpHdkdVSVgwczVsS3NSeEdESkYxYWZoVkFJUmNuSUtmcC1ybXB3bFFFTlhDSjhYOFVxblVXZ3dYcHE3MzVYRHJieVYxQXd6VWtQWklwbjRkZzJGMkZnZkhpSzQ4UjI5ZTV4ZUxsUEpHQkhNcVNQczhsaWVLM3c5cUsxblJaMWVMN3diM1p3NWh6UUd2ZzNpQWdUdU5lOG9nN1RoMWFEdXdndzdOdzJMWjB5alFHcWFHNV9R?oc=5",
-      "datetime": 1792514022,
-      "headlineKo": "캐나다와 터키는 카니 방문 중 국방과 에너지 관계를 강화하기 위한 서약에 서명할 예정이라고 소식통은 전했습니다.",
-      "summaryKo": "캐나다와 터키는 카니 방문 중 국방, 에너지 관계를 강화하기 위한 서약에 서명할 예정이라고 소식통은 말했습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792533613.3096051,
+  "_news_last_success_at": 1792537221.1298623,
   "fgi": {
     "score": 27.2,
     "rating": "fear"
   },
-  "_fetched_at": 1792533604.762485,
-  "_updated_label": "2026-10-21 07:00",
-  "_last_attempt_at": 1792533604.762485,
-  "_last_success_at": 1792533604.762485,
+  "_fetched_at": 1792537205.862817,
+  "_updated_label": "2026-10-21 08:00",
+  "_last_attempt_at": 1792537205.862817,
+  "_last_success_at": 1792537205.862817,
   "_collection_status": "ok",
   "_collection_errors": []
 };
