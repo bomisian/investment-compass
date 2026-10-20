@@ -2,7 +2,7 @@
 // Finnhub 실적 캘린더 + 회사 뉴스 헤드라인. 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 숨김).
 const NEWS_DATA = {
   "QQQ": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
@@ -16,22 +16,24 @@ const NEWS_DATA = {
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Why Are Nasdaq Futures Falling Premarket? CRWV, NBIS, TSLA, SPCX, MU, ASTS, NFLX, SLS Stocks In Focus",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "나스닥 선물이 시판 전 하락하는 이유는 무엇입니까?",
+            "CRWV, NBIS, TSLA, SPCX, MU, ASTS, NFLX, SLS 주식 집중 AI 에이전트 동향 뉴스 수익 전체 DIA 1.20% SPY 0.51% QQQ 0.20% 추세 SPCX 2.19% NFLX 6.66% SMCI 12.02% SLS 14.01% ISRG 7.66% UAL BA 0.22% SE 9.10% TSLA 1.63% mRNA 6.55% 홈",
+            "CRWV, NBIS, TSLA, SPCX, MU, ASTS, NFLX, SLS 주식 집중 광고 | 광고를 제거하세요."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.20%, 0.51%, 0.20% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -41,18 +43,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
           ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Why Are Nasdaq Futures Falling Premarket? CRWV, NBIS, TSLA, SPCX, MU, ASTS, NFLX, SLS Stocks In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507147.8315315
+          "quality": "medium",
+          "verifiedNumbers": [
+            "1.20%",
+            "0.51%",
+            "0.20%",
+            "2.19%",
+            "6.66%",
+            "12.02%",
+            "14.01%",
+            "7.66%"
+          ],
+          "sourceExcerpt": [
+            "Why Are Nasdaq Futures Falling Premarket?",
+            "CRWV, NBIS, TSLA, SPCX, MU, ASTS, NFLX, SLS Stocks In Focus AI Agent Trending News Earnings All DIA 1.20% SPY 0.51% QQQ 0.20% Trending SPCX 2.19% NFLX 6.66% SMCI 12.02% SLS 14.01% ISRG 7.66% UAL BA 0.22% SE 9.10% TSLA 1.63% MRNA 6.55% Home ",
+            "CRWV, NBIS, TSLA, SPCX, MU, ASTS, NFLX, SLS Stocks In Focus Advertisement | Remove ads."
+          ],
+          "analysisUpdatedAt": 1792529390.9280512
         },
         "headlineKo": "나스닥 선물이 시판 전 하락하는 이유는 무엇입니까? CRWV, NBIS, TSLA, SPCX, MU, ASTS, NFLX, SLS 주식에 집중"
       },
@@ -102,7 +116,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507148.7869363
+          "analysisUpdatedAt": 1792529391.6262987
         },
         "headlineKo": "오늘의 주식 시장: 이란이 해저 케이블을 표적으로 삼겠다고 위협하면서 다우 존스, S&P 500, 나스닥 100 선물 하락 — SPCX, NFLX, STLD 초점(업데이트됨)"
       },
@@ -152,7 +166,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507151.315218
+          "analysisUpdatedAt": 1792529393.675409
         },
         "headlineKo": "QQQ: 이 핫 테크 지수에서 약세 풋 스프레드를 설정하는 방법"
       },
@@ -188,22 +202,24 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Why Are Nasdaq Futures Falling Premarket? CRWV, NBIS, TSLA, SPCX, MU, ASTS, NFLX, SLS Stocks In Focus",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "나스닥 선물이 시판 전 하락하는 이유는 무엇입니까?",
+            "CRWV, NBIS, TSLA, SPCX, MU, ASTS, NFLX, SLS 주식 집중 AI 에이전트 동향 뉴스 수익 전체 DIA 1.20% SPY 0.51% QQQ 0.20% 추세 SPCX 2.19% NFLX 6.66% SMCI 12.02% SLS 14.01% ISRG 7.66% UAL BA 0.22% SE 9.10% TSLA 1.63% mRNA 6.55% 홈",
+            "CRWV, NBIS, TSLA, SPCX, MU, ASTS, NFLX, SLS 주식 집중 광고 | 광고를 제거하세요."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.20%, 0.51%, 0.20% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -213,18 +229,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
           ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Why Are Nasdaq Futures Falling Premarket? CRWV, NBIS, TSLA, SPCX, MU, ASTS, NFLX, SLS Stocks In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507147.8315315
+          "quality": "medium",
+          "verifiedNumbers": [
+            "1.20%",
+            "0.51%",
+            "0.20%",
+            "2.19%",
+            "6.66%",
+            "12.02%",
+            "14.01%",
+            "7.66%"
+          ],
+          "sourceExcerpt": [
+            "Why Are Nasdaq Futures Falling Premarket?",
+            "CRWV, NBIS, TSLA, SPCX, MU, ASTS, NFLX, SLS Stocks In Focus AI Agent Trending News Earnings All DIA 1.20% SPY 0.51% QQQ 0.20% Trending SPCX 2.19% NFLX 6.66% SMCI 12.02% SLS 14.01% ISRG 7.66% UAL BA 0.22% SE 9.10% TSLA 1.63% MRNA 6.55% Home ",
+            "CRWV, NBIS, TSLA, SPCX, MU, ASTS, NFLX, SLS Stocks In Focus Advertisement | Remove ads."
+          ],
+          "analysisUpdatedAt": 1792529390.9280512
         }
       },
       {
@@ -273,7 +301,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507148.7869363
+          "analysisUpdatedAt": 1792529391.6262987
         }
       },
       {
@@ -322,7 +350,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507151.315218
+          "analysisUpdatedAt": 1792529393.675409
         }
       },
       {
@@ -6891,22 +6919,122 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:39",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:49",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "SPY": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": null,
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Energy Stocks Lead This Year, But Tech Still Drives The S&P 500",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=d31e55802d509a5b455b03bbb9c1c8f4573b521a5ddcd01db8d6b021a70a3548",
+        "datetime": 1792496100,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Energy Stocks Lead This Year, But Tech Still Drives The S&P 500",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "SPY",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 SPY의 사업과 관련된 'Energy Stocks Lead This Year, But Tech Still Drives The S&P 500' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "SPY 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529397.7436256
+        },
+        "headlineKo": "올해는 에너지주가 선두를 달리고 있지만, 기술주가 여전히 S&P 500을 주도하고 있습니다."
+      },
+      {
+        "headline": "The S&P 500 Mirage: What Dalio, Damodaran & Burry See Beneath The Rally",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=d836ab98f43f033c9e749e88ff939b1c3b05c52ee20d875703f89a6f9a1897e4",
+        "datetime": 1792491790,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "The S&P 500 Mirage: What Dalio, Damodaran & Burry See Beneath The Rally",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "SPY",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 SPY의 사업과 관련된 'The S&P 500 Mirage: What Dalio, Damodaran & Burry See Beneath The Rally' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "SPY 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529398.6260865
+        },
+        "headlineKo": "S&P 500 미라지: Dalio, Damodaran, Burry가 랠리에서 보는 것"
+      },
       {
         "headline": "IVV vs. SPY: Which S&P 500 ETF Is the Better Buy for Long-Term Investors?",
         "source": "Yahoo",
@@ -6924,12 +7052,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "SPY: 장기 투자자에게 더 나은 구매 S&P 500 ETF는 무엇입니까?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool iShares Core S&P 500 ETF( IVV +0.39% )에 참여하면 State Street SPDR S&P 500 ETF( SPY +0)보다 S&P 500에 더 저렴하게 접근할 수 있습니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool iShares Core S&P 500 ETF( IVV +0.30% )에 참여하면 State Street SPDR S&P 500 ETF( SPY +0)보다 S&P 500에 더 저렴하게 접근할 수 있습니다.",
             "두 펀드 모두 미국의 주요 벤치마크인 S&P 500의 성과를 반영하는 것을 목표로 하고 있습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.39%, 0.45%, $771.79 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.30%, 0.34%, $771.79 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -6953,8 +7081,8 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.39%",
-            "0.45%",
+            "0.30%",
+            "0.34%",
             "$771.79",
             "$775.16",
             "0.09%",
@@ -6964,10 +7092,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "SPY: Which S&P 500 ETF Is the Better Buy for Long-Term Investors?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool iShares Core S&P 500 ETF ( IVV +0.39% ) provides more affordable access to the S&P 500 than State Street SPDR S&P 500 ETF ( SPY +0.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool iShares Core S&P 500 ETF ( IVV +0.30% ) provides more affordable access to the S&P 500 than State Street SPDR S&P 500 ETF ( SPY +0.",
             "Both funds aim to mirror the performance of the S&P 500, the primary benchmark for the U.S."
           ],
-          "analysisUpdatedAt": 1792507162.3040082
+          "analysisUpdatedAt": 1792529402.1665866
         },
         "headlineKo": "IVV 대 SPY: 장기 투자자에게 더 나은 S&P 500 ETF는 무엇입니까?"
       },
@@ -6979,46 +7107,6 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "실적·재무 부담 확인 필요",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Tom Lee Predicts S&P 500 At 8,400 By Year-End, Says Midterm Elections Could Trigger ‘Risk-On’ Rally in Tech Stocks and Crypto: ‘We Are in an Unprecedented Time’",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "SPY",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 SPY의 사업과 관련된 'Tom Lee Predicts S&P 500 At 8,400 By Year-End, Says Midterm Elections Could Trigger ‘Risk-On’ Rally in Tech Stocks and Crypto: ‘We Are in an Unprecedented Time’' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "SPY 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507163.285282
-        },
         "headlineKo": "톰 리(Tom Lee)는 연말까지 S&P 500이 8,400이 될 것으로 예측하고 중간 선거가 기술주와 암호화폐의 '위험' 랠리를 촉발할 수 있다고 말했습니다: '우리는 전례 없는 시대에 있습니다'"
       },
       {
@@ -7029,6 +7117,18 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "주식시장: 오늘 S&P 500이 상승할 것인가, 하락할 것인가?"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Energy Stocks Lead This Year, But Tech Still Drives The S&P 500",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=d31e55802d509a5b455b03bbb9c1c8f4573b521a5ddcd01db8d6b021a70a3548",
+        "datetime": 1792496100,
+        "headlineKo": "올해는 에너지주가 선두를 달리고 있지만, 기술주가 여전히 S&P 500을 주도하고 있습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "low",
@@ -7037,7 +7137,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Stock Market: Will S&P 500 Open Up or Down Today?",
+            "Energy Stocks Lead This Year, But Tech Still Drives The S&P 500",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -7061,38 +7161,64 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 SPY의 사업과 관련된 'Stock Market: Will S&P 500 Open Up or Down Today?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 SPY의 사업과 관련된 'Energy Stocks Lead This Year, But Tech Still Drives The S&P 500' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "SPY 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.5,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507164.2556884
-        },
-        "headlineKo": "주식시장: 오늘 S&P 500이 상승할 것인가, 하락할 것인가?"
+          "analysisUpdatedAt": 1792529397.7436256
+        }
       },
       {
-        "headline": "Stock Market Today:  Dow Jones, S&P 500, Nasdaq 100 Futures Fall as Iran Threatens to Target Undersea Cables — SPCX, NFLX, STLD in Focus (UPDATED)",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=15f8d13b6b36ecc13b63958159ec6811f1b5c053fefdadb9869ab0704d4438b8",
-        "datetime": 1792476784,
+        "headline": "The S&P 500 Mirage: What Dalio, Damodaran & Burry See Beneath The Rally",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=d836ab98f43f033c9e749e88ff939b1c3b05c52ee20d875703f89a6f9a1897e4",
+        "datetime": 1792491790,
+        "headlineKo": "S&P 500 미라지: Dalio, Damodaran, Burry가 랠리에서 보는 것",
         "relevance": 0.5,
         "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "오늘의 주식 시장: 이란이 해저 케이블을 표적으로 삼겠다고 위협하면서 다우 존스, S&P 500, 나스닥 100 선물 하락 — SPCX, NFLX, STLD 초점(업데이트됨)"
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "The S&P 500 Mirage: What Dalio, Damodaran & Burry See Beneath The Rally",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "SPY",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 SPY의 사업과 관련된 'The S&P 500 Mirage: What Dalio, Damodaran & Burry See Beneath The Rally' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "SPY 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529398.6260865
+        }
       },
-      {
-        "headline": "TIPS Now Pay 2.8% Above Inflation. Here's The Hurdle That Sets For S&P 500 Investors",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=8a2f023cd9d71d0e962ace89985e2af10515500836116aa4981f2993a93ab22f",
-        "datetime": 1792425366,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "TIPS는 이제 인플레이션보다 2.8% 높은 수수료를 지불합니다. S&P 500 투자자에게 놓인 장애물은 다음과 같습니다."
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "IVV vs. SPY: Which S&P 500 ETF Is the Better Buy for Long-Term Investors?",
         "source": "Yahoo",
@@ -7110,12 +7236,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "SPY: 장기 투자자에게 더 나은 구매 S&P 500 ETF는 무엇입니까?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool iShares Core S&P 500 ETF( IVV +0.39% )에 참여하면 State Street SPDR S&P 500 ETF( SPY +0)보다 S&P 500에 더 저렴하게 접근할 수 있습니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool iShares Core S&P 500 ETF( IVV +0.30% )에 참여하면 State Street SPDR S&P 500 ETF( SPY +0)보다 S&P 500에 더 저렴하게 접근할 수 있습니다.",
             "두 펀드 모두 미국의 주요 벤치마크인 S&P 500의 성과를 반영하는 것을 목표로 하고 있습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.39%, 0.45%, $771.79 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.30%, 0.34%, $771.79 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -7139,8 +7265,8 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.39%",
-            "0.45%",
+            "0.30%",
+            "0.34%",
             "$771.79",
             "$775.16",
             "0.09%",
@@ -7150,10 +7276,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "SPY: Which S&P 500 ETF Is the Better Buy for Long-Term Investors?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool iShares Core S&P 500 ETF ( IVV +0.39% ) provides more affordable access to the S&P 500 than State Street SPDR S&P 500 ETF ( SPY +0.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool iShares Core S&P 500 ETF ( IVV +0.30% ) provides more affordable access to the S&P 500 than State Street SPDR S&P 500 ETF ( SPY +0.",
             "Both funds aim to mirror the performance of the S&P 500, the primary benchmark for the U.S."
           ],
-          "analysisUpdatedAt": 1792507162.3040082
+          "analysisUpdatedAt": 1792529402.1665866
         }
       },
       {
@@ -15386,19 +15512,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:39",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:50",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 175,
+      "checked": 177,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "MSFT": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -15408,81 +15534,196 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Update: Market Chatter: Microsoft Pulls Out of UK Data Center Deal With Nscale",
+        "headline": "What Happened to $1,000 Invested in Microsoft Before Its Cloud and AI Boom?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f6f05377f89e818acee2d57cd3df61a93b6dd86bf1a56d336fc1c0d703912f47",
-        "datetime": 1792500792,
+        "url": "https://finnhub.io/api/news?id=7373c7014511c198903d29b1d018cf5df505e34aea7d3a0d8f18538ae4369bae",
+        "datetime": 1792520159,
         "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $1,000, $100 billion, 27%, $135 billion, $250 billion, $331.84 billion, 17.79%, 31.34%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'What Happened to $1,000 Invested in Microsoft Before Its Cloud and AI Boom?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MSFT에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 0.4,
+          "quality": "high",
+          "verifiedNumbers": [
+            "$1,000",
+            "$100 billion",
+            "27%",
+            "$135 billion",
+            "$250 billion",
+            "$331.84 billion",
+            "17.79%",
+            "31.34%"
+          ],
+          "sourceExcerpt": [
+            "What Happened to $1,000 Invested in Microsoft Before Its Cloud and AI Boom?",
+            "Skip to content ❚❚ At close S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.",
+            "Satya Nadella inherited a company synonymous with Windows and turned it into something Wall Street barely recognized a decade later."
+          ],
+          "analysisUpdatedAt": 1792529407.5899494
+        },
+        "headlineKo": "클라우드와 AI 붐이 일어나기 전에 Microsoft에 투자한 1,000달러는 어떻게 되었나요?"
+      },
+      {
+        "headline": "Trump’s FTC Subpoenas OpenAI and Anthropic. Inside the $500 Billion Threat Faced by Microsoft, Amazon, and Google",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d2f13b36616f1cedc53c7ffd3f32d14c4768a2cb3a23fd85100c5d1232a76f74",
+        "datetime": 1792518461,
+        "relevance": 0.4,
+        "keywordFlag": true,
+        "flagTerms": [
+          "ftc"
+        ],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $500 Billion, $554 billion, 27%, $228 billion, $852 billion, $5 billion, $190.4 billion, 14%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Trump’s FTC Subpoenas OpenAI and Anthropic. Inside the $500 Billion Threat Faced by Microsoft, Amazon, and Google' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MSFT에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 0.4,
+          "quality": "high",
+          "verifiedNumbers": [
+            "$500 Billion",
+            "$554 billion",
+            "27%",
+            "$228 billion",
+            "$852 billion",
+            "$5 billion",
+            "$190.4 billion",
+            "14%"
+          ],
+          "sourceExcerpt": [
+            "Trump&#8217;s FTC Subpoenas OpenAI and Anthropic.",
+            "Inside the $500 Billion Threat Faced by Microsoft, Amazon, and Google | TIKR.com General Investing Trump’s FTC Subpoenas OpenAI and Anthropic.",
+            "Inside the $500 Billion Threat Faced by Microsoft, Amazon, and Google Michael Douglass • 5 minute read Reviewed by: David Hanson Last updated Oct 20, 2026 Katrin Bolovtsova from Pexels and Sumali Ibnu Chamid from Alemedia.id via Canva Key T"
+          ],
+          "analysisUpdatedAt": 1792529408.36375
+        },
+        "headlineKo": "트럼프의 FTC 소환장 OpenAI 및 Anthropic. Microsoft, Amazon, Google이 직면한 5000억 달러 규모의 위협 내부"
+      },
+      {
+        "headline": "Boeing Teams Up With Microsoft To Build New AI-Powered Dataliner Platform – BMO Sees ‘Upside Tension’ For Azure",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=28795b6d1fa7b180f41af05404b12f4541c3402e99e90a4c8ff11fe4fb067ef5",
+        "datetime": 1792517678,
+        "relevance": 0.8,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "medium",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "고객 계약 · 매출 연결 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Update: Market Chatter: Microsoft Pulls Out of UK Data Center Deal With Nscale",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
-            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "계약 금액·기간·취소 조건",
-            "수주잔고와 매출 인식 시점",
-            "관련 사업부 매출총이익률"
-          ],
-          "interpretation": "MSFT에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507174.0939827
-        },
-        "headlineKo": "업데이트: 시장 잡담: Microsoft, Nscale과의 영국 데이터 센터 거래 철회"
-      },
-      {
-        "headline": "Microsoft’s Claim to Have Bested OpenAI’s Model at One Fourth The Cost Intrigues Me Enough to Buy",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=be072a7d3553222e225dca8ed3db7fc68b7ddc2eda3c0fc955860b4349512006",
-        "datetime": 1792500321,
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
+          "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "OpenAI 모델을 4분의 1로 앞섰다는 Microsoft의 주장 비용이 충분히 매력적입니다. - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% 다우존스 52,602.00 +1.07% 나스닥 100 29,665.80 +0.27% 러셀 2000 2,776.94 +1.",
-            "작성자: Alex Sirois 2026년 10월 20일 오전 8시 45분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 독특한 Microsoft 로고는 세련되고 현대적인 유리 건물에 눈에 띄게 표시되어 회사의 지속적인 존재감과 기술 혁신을 상징합니다."
+            "Boeing, 새로운 AI 기반 Dataliner 플랫폼 구축을 위해 Microsoft와 협력 - BMO, Azure AI 에이전트에 대한 '상향 긴장' 확인 Trending News Earnings All DIA 1.20% SPY 0.51% QQQ 0.20% Trending SPCX 2.19% NFLX 6.66% SMCI 12.02% SLS 14.01% ISRG 7.6",
+            "보잉, 새로운 AI 기반 데이터라이너 플랫폼 구축을 위해 마이크로소프트와 협력 - BMO, Azure의 '상향 긴장' 확인 BMO Capital은 The Fl에 따르면 마이크로소프트의 목표 가격을 515달러에서 600달러로 높이면서 '우수' 등급을 유지했다고 합니다.",
+            "판보로 에어쇼에서 보잉 직원이자 회사인 787 드림라이너(N787BX)."
           ],
           "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 89%, $331.84 billion, 17.79% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.20%, 0.51%, 0.20% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -15493,116 +15734,52 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
           ],
-          "interpretation": "MSFT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
+          "interpretation": "MSFT에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.8,
           "quality": "medium",
           "verifiedNumbers": [
-            "89%",
-            "$331.84 billion",
-            "17.79%",
-            "43%",
-            "$100 billion",
-            "$678 billion",
-            "84%",
-            "46.78%"
+            "1.20%",
+            "0.51%",
+            "0.20%",
+            "2.19%",
+            "6.66%",
+            "12.02%",
+            "14.01%",
+            "7.66%"
           ],
           "sourceExcerpt": [
-            "Microsoft's Claim to Have Bested OpenAI's Model at One Fourth The Cost Intrigues Me Enough to Buy - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.",
-            "By Alex Sirois Published October 20, 2026, 8:45am ET · 3 min read 𝕏 f ⧉ The distinctive Microsoft logo is prominently displayed on a sleek, modern glass building, symbolizing the company's enduring presence and technological innovation."
+            "Boeing Teams Up With Microsoft To Build New AI-Powered Dataliner Platform – BMO Sees ‘Upside Tension’ For Azure AI Agent Trending News Earnings All DIA 1.20% SPY 0.51% QQQ 0.20% Trending SPCX 2.19% NFLX 6.66% SMCI 12.02% SLS 14.01% ISRG 7.6",
+            "Boeing Teams Up With Microsoft To Build New AI-Powered Dataliner Platform – BMO Sees ‘Upside Tension’ For Azure BMO Capital raised its price target on Microsoft to $600 from $515 while maintaining an ‘Outperform’ rating, according to The Fl",
+            "Boeing employee and company 787 Dreamliner (N787BX) at the Farnborough Airshow."
           ],
-          "analysisUpdatedAt": 1792507180.1478024
+          "analysisUpdatedAt": 1792529414.6724513
         },
-        "headlineKo": "OpenAI 모델을 4분의 1로 앞섰다는 Microsoft의 주장"
+        "headlineKo": "Boeing, Microsoft와 협력하여 새로운 AI 기반 Dataliner 플랫폼 구축 - BMO, Azure의 '상향 긴장' 확인"
       },
       {
-        "headline": "Microsoft Pays Cash For AI. CoreWeave Borrows.",
+        "headline": "Anthropic may double down on the site Microsoft walked away from",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=400e89cf45109f3e6ba2c05cbe9032a6ed9df6bba438ccd2f60036f3cfa3f207",
-        "datetime": 1792496960,
+        "url": "https://finnhub.io/api/news?id=8a7c66d3281a14a4563fd32abfb39120cd0443b57531ee2075691bbb1b675b9c",
+        "datetime": 1792516020,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "주식 희석 · 주당가치 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "| Trefis Microsoft는 AI에 현금을 지불합니다.",
-            "2026년 10월 20일 · Trefis 팀 MSFT YTD +11.0% SPY YTD +13.0% QQQ YTD +17.2% MSFT 분석 → AI 구축은 부분적으로 빌린 돈으로 운영되고 빌린 돈은 저렴하지 않습니다. 10년 만기 국채 수익률은 5.1%이며 인플레이션은",
-            "두 AI 회사는 이것이 주주들에게 어떤 의미인지 보여줍니다."
-          ],
-          "why": [
-            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 11.0%, 13.0%, 17.2% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "신규 주식 수·행사가격",
-            "조달 자금 사용처",
-            "완전희석 주식수와 EPS"
-          ],
-          "interpretation": "MSFT에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "11.0%",
-            "13.0%",
-            "17.2%",
-            "5.1%",
-            "3.7%",
-            "1.8%",
-            "56.3%",
-            "$115.9 billion"
-          ],
-          "sourceExcerpt": [
-            "| Trefis Microsoft Pays Cash For AI.",
-            "October 20th, 2026 · by Trefis Team MSFT YTD +11.0% SPY YTD +13.0% QQQ YTD +17.2% Analyze MSFT → The AI build-out is running partly on borrowed money, and borrowed money isn’t cheap: the 10-year Treasury yields 5.1%, with inflation back at ",
-            "Two AI companies show what that means for shareholders."
-          ],
-          "analysisUpdatedAt": 1792507184.7772145
-        },
-        "headlineKo": "마이크로소프트는 AI에 현금을 지불합니다. CoreWeave 차용."
+        "headlineKo": "Anthropic은 Microsoft가 떠난 사이트에서 두 배로 늘어날 수 있습니다."
       },
       {
-        "headline": "Jim Cramer Has a Warning for AI Data Center Investors Ahead of MSFT, GOOGL and AMZN Earnings: ‘Too Early to Say That the Coast Is Clear’",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=ded58f3333e3199c49cbc5b38ab1eb559b980c25eced0fdcbdeb4ad18cdaff8d",
-        "datetime": 1792470715,
-        "relevance": 0.6,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Jim Cramer는 MSFT, GOOGL 및 AMZN 수익을 앞두고 AI 데이터 센터 투자자들에게 경고합니다: '해안이 분명하다고 말하기에는 너무 이르다'"
-      },
-      {
-        "headline": "Microsoft vs. Oracle: Which Tech Stock Is a Better Buy in 2026?",
+        "headline": "The non-gamer CEO racing to save Microsoft’s Xbox",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e1e505b35a5f707444373e7c8181733e4fa60a1c6fb2d85ffe25265775e4f055",
-        "datetime": 1792469402,
+        "url": "https://finnhub.io/api/news?id=e4e9685be13bea65fe2f2326dddd9294c169654438e8610daf2cf6b14710a071",
+        "datetime": 1792512648,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Microsoft vs. Oracle: 2026년에는 어느 기술주를 매수하는 것이 더 나은가요?"
+        "headlineKo": "마이크로소프트 엑스박스를 구하기 위해 경주하는 비게이머 CEO"
       },
       {
         "headline": "Microsoft Sues JLL For Protection Against Lawsuit At NYC Office Project",
@@ -15671,6 +15848,250 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "What Happened to $1,000 Invested in Microsoft Before Its Cloud and AI Boom?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=7373c7014511c198903d29b1d018cf5df505e34aea7d3a0d8f18538ae4369bae",
+        "datetime": 1792520159,
+        "headlineKo": "클라우드와 AI 붐이 일어나기 전에 Microsoft에 투자한 1,000달러는 어떻게 되었나요?",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $1,000, $100 billion, 27%, $135 billion, $250 billion, $331.84 billion, 17.79%, 31.34%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'What Happened to $1,000 Invested in Microsoft Before Its Cloud and AI Boom?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MSFT에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 0.4,
+          "quality": "high",
+          "verifiedNumbers": [
+            "$1,000",
+            "$100 billion",
+            "27%",
+            "$135 billion",
+            "$250 billion",
+            "$331.84 billion",
+            "17.79%",
+            "31.34%"
+          ],
+          "sourceExcerpt": [
+            "What Happened to $1,000 Invested in Microsoft Before Its Cloud and AI Boom?",
+            "Skip to content ❚❚ At close S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.",
+            "Satya Nadella inherited a company synonymous with Windows and turned it into something Wall Street barely recognized a decade later."
+          ],
+          "analysisUpdatedAt": 1792529407.5899494
+        }
+      },
+      {
+        "headline": "Trump’s FTC Subpoenas OpenAI and Anthropic. Inside the $500 Billion Threat Faced by Microsoft, Amazon, and Google",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d2f13b36616f1cedc53c7ffd3f32d14c4768a2cb3a23fd85100c5d1232a76f74",
+        "datetime": 1792518461,
+        "headlineKo": "트럼프의 FTC 소환장 OpenAI 및 Anthropic. Microsoft, Amazon, Google이 직면한 5000억 달러 규모의 위협 내부",
+        "relevance": 0.4,
+        "keywordFlag": true,
+        "flagTerms": [
+          "ftc"
+        ],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $500 Billion, $554 billion, 27%, $228 billion, $852 billion, $5 billion, $190.4 billion, 14%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Trump’s FTC Subpoenas OpenAI and Anthropic. Inside the $500 Billion Threat Faced by Microsoft, Amazon, and Google' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MSFT에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 0.4,
+          "quality": "high",
+          "verifiedNumbers": [
+            "$500 Billion",
+            "$554 billion",
+            "27%",
+            "$228 billion",
+            "$852 billion",
+            "$5 billion",
+            "$190.4 billion",
+            "14%"
+          ],
+          "sourceExcerpt": [
+            "Trump&#8217;s FTC Subpoenas OpenAI and Anthropic.",
+            "Inside the $500 Billion Threat Faced by Microsoft, Amazon, and Google | TIKR.com General Investing Trump’s FTC Subpoenas OpenAI and Anthropic.",
+            "Inside the $500 Billion Threat Faced by Microsoft, Amazon, and Google Michael Douglass • 5 minute read Reviewed by: David Hanson Last updated Oct 20, 2026 Katrin Bolovtsova from Pexels and Sumali Ibnu Chamid from Alemedia.id via Canva Key T"
+          ],
+          "analysisUpdatedAt": 1792529408.36375
+        }
+      },
+      {
+        "headline": "Boeing Teams Up With Microsoft To Build New AI-Powered Dataliner Platform – BMO Sees ‘Upside Tension’ For Azure",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=28795b6d1fa7b180f41af05404b12f4541c3402e99e90a4c8ff11fe4fb067ef5",
+        "datetime": 1792517678,
+        "headlineKo": "Boeing, Microsoft와 협력하여 새로운 AI 기반 Dataliner 플랫폼 구축 - BMO, Azure의 '상향 긴장' 확인",
+        "relevance": 0.8,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Boeing, 새로운 AI 기반 Dataliner 플랫폼 구축을 위해 Microsoft와 협력 - BMO, Azure AI 에이전트에 대한 '상향 긴장' 확인 Trending News Earnings All DIA 1.20% SPY 0.51% QQQ 0.20% Trending SPCX 2.19% NFLX 6.66% SMCI 12.02% SLS 14.01% ISRG 7.6",
+            "보잉, 새로운 AI 기반 데이터라이너 플랫폼 구축을 위해 마이크로소프트와 협력 - BMO, Azure의 '상향 긴장' 확인 BMO Capital은 The Fl에 따르면 마이크로소프트의 목표 가격을 515달러에서 600달러로 높이면서 '우수' 등급을 유지했다고 합니다.",
+            "판보로 에어쇼에서 보잉 직원이자 회사인 787 드림라이너(N787BX)."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.20%, 0.51%, 0.20% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "MSFT에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.8,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "1.20%",
+            "0.51%",
+            "0.20%",
+            "2.19%",
+            "6.66%",
+            "12.02%",
+            "14.01%",
+            "7.66%"
+          ],
+          "sourceExcerpt": [
+            "Boeing Teams Up With Microsoft To Build New AI-Powered Dataliner Platform – BMO Sees ‘Upside Tension’ For Azure AI Agent Trending News Earnings All DIA 1.20% SPY 0.51% QQQ 0.20% Trending SPCX 2.19% NFLX 6.66% SMCI 12.02% SLS 14.01% ISRG 7.6",
+            "Boeing Teams Up With Microsoft To Build New AI-Powered Dataliner Platform – BMO Sees ‘Upside Tension’ For Azure BMO Capital raised its price target on Microsoft to $600 from $515 while maintaining an ‘Outperform’ rating, according to The Fl",
+            "Boeing employee and company 787 Dreamliner (N787BX) at the Farnborough Airshow."
+          ],
+          "analysisUpdatedAt": 1792529414.6724513
+        }
+      },
+      {
+        "headline": "Anthropic may double down on the site Microsoft walked away from",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8a7c66d3281a14a4563fd32abfb39120cd0443b57531ee2075691bbb1b675b9c",
+        "datetime": 1792516020,
+        "headlineKo": "Anthropic은 Microsoft가 떠난 사이트에서 두 배로 늘어날 수 있습니다.",
+        "relevance": 0.4,
+        "keywordFlag": false
+      },
+      {
+        "headline": "The non-gamer CEO racing to save Microsoft’s Xbox",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e4e9685be13bea65fe2f2326dddd9294c169654438e8610daf2cf6b14710a071",
+        "datetime": 1792512648,
+        "headlineKo": "마이크로소프트 엑스박스를 구하기 위해 경주하는 비게이머 CEO",
+        "relevance": 0.4,
+        "keywordFlag": false
+      },
       {
         "headline": "Update: Market Chatter: Microsoft Pulls Out of UK Data Center Deal With Nscale",
         "source": "Yahoo",
@@ -23130,307 +23551,21 @@ const NEWS_DATA = {
           ],
           "analysisUpdatedAt": 1791208836.1926854
         }
-      },
-      {
-        "headline": "Accenture vs. Microsoft: Which Technology Stock Is a Better Buy in 2026?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4b592b364b83d5eb0a1d0b6b33019b738456af8a27b0128244e2718281872243",
-        "datetime": 1791129524,
-        "headlineKo": "Accenture vs. Microsoft: 2026년에는 어느 기술주를 매수하는 것이 더 나은가요?",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Microsoft: 2026년에는 어느 기술주를 매수하는 것이 더 나은가요?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Accenture(ACN -6.31%)와 Microsoft(MSFT +0.92%) 중 하나를 결정하려면 지배적인 전문 서비스 중에서 선택해야 합니다.",
-            "Accenture는 디지털 혁신 프로젝트의 주요 파트너로 성장하고 있으며 Microsoft는 기업이 매일 사용하는 기본 클라우드 인프라와 생산성 도구를 제공합니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $198.90, 6.31 %, $13.40 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "MSFT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$198.90",
-            "6.31 %",
-            "$13.40",
-            "$517.53",
-            "0.92 %",
-            "$4.73",
-            "$122",
-            "$118.15"
-          ],
-          "sourceExcerpt": [
-            "Microsoft: Which Technology Stock Is a Better Buy in 2026?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Deciding between Accenture ( ACN -6.31% ) and Microsoft ( MSFT +0.92% ) requires choosing between a dominant professional services ",
-            "Accenture thrives as the primary partner for digital transformation projects, while Microsoft provides the underlying cloud infrastructure and productivity tools that businesses use daily."
-          ],
-          "analysisUpdatedAt": 1791186076.3320153
-        }
-      },
-      {
-        "headline": "Meta vs. Microsoft: One AI Agent Has a Problem the Other Doesn’t.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6ea52a8dcc42d6b97c3183577372c176dce39e087ca4741d597cb47001cb3d66",
-        "datetime": 1791117386,
-        "headlineKo": "메타 대 Microsoft: 한 AI 에이전트에는 다른 AI 에이전트에는 없는 문제가 있습니다.",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Meta vs. Microsoft: One AI Agent Has a Problem the Other Doesn’t.",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Meta vs. Microsoft: One AI Agent Has a Problem the Other Doesn’t.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.4,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791163303.728046
-        }
-      },
-      {
-        "headline": "How Much Revenue Visibility Does Microsoft’s Backlog Really Provide?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=04d267a0dba4fe238f17b5475bfa2fed7f5e79fa77784b837b8923df29e6a731",
-        "datetime": 1791081334,
-        "headlineKo": "Microsoft의 백로그가 실제로 얼마나 많은 수익 가시성을 제공합니까?",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "실적 발표 · 본업과 특이항목 분리",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "How Much Revenue Visibility Does Microsoft’s Backlog Really Provide?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "매출·영업이익 성장",
-            "정상화이익과 특이항목",
-            "가이던스·OCF·FCF"
-          ],
-          "interpretation": "MSFT에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791140412.002111
-        }
-      },
-      {
-        "headline": "Is a Microsoft Stock Split Coming After 23 Years?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=099437711ee6544a71693f4f940efae7809e093a948cc565c4452d46ce8abb68",
-        "datetime": 1791017221,
-        "headlineKo": "23년 후에 Microsoft 주식 분할이 이루어지나요?",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "23년 후에 Microsoft 주식 분할이 이루어지나요?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% The Motley Fool에 참여하세요. Microsoft( MSFT +0.92% ) 주가는 이 글을 쓰는 시점에서 약 518달러였으며, 이는 지난 10월 기록된 542달러의 약 5% 이내였습니다.",
-            "마이크로소프트 이사회는 이전에는 주가가 그 정도로 높은 수준으로 올라가는 것을 거의 허용하지 않았습니다."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $25, $500, $98 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "MSFT에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$25",
-            "$500",
-            "$98",
-            "$178",
-            "$48.",
-            "$50",
-            "$100",
-            "$178,"
-          ],
-          "sourceExcerpt": [
-            "Is a Microsoft Stock Split Coming After 23 Years?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Microsoft ( MSFT +0.92% ) stock sat around $518 as of this writing, within about 5% of its record close of $542 set last October.",
-            "Microsoft's board rarely let the share price go anywhere near that high before."
-          ],
-          "analysisUpdatedAt": 1791140414.38548
-        }
-      },
-      {
-        "headline": "Mag 7 Voices: Huang Defends AI Spending, Pichai Ramps Up Gemini, Nadella Calls Copilot A ‘New OS For Work’ This Week",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=46d3c6a7d717e97fd24c883d9bfe1437bda2f3237c110f4776dbe0b335daddb1",
-        "datetime": 1790992895,
-        "headlineKo": "Mag 7 Voices: Huang은 AI 지출을 옹호하고 Pichai는 Gemini를 강화하며 Nadella는 Copilot을 이번 주에 '업무를 위한 새로운 OS'라고 부릅니다.",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "경쟁사 수주 · 고객 점유 변화",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Mag 7 목소리: Huang은 AI 지출을 옹호하고 Pichai는 Gemini를 늘리고 Nadella는 Copilot을 이번 주 '업무를 위한 새로운 OS'로 부릅니다. AI 에이전트 동향 뉴스 수익 전체 DIA 0.49% SPY 0.74% QQQ 1.02% Trending HIMX 5.47% STRK 25.69% DX 0.54% RIG 1.34% DIA 0.",
-            "Mag 7 Voices: Huang은 AI 지출을 옹호하고 Pichai는 Gemini를 강화하고 Nadella는 이번 주 Copilot에 '업무를 위한 새로운 OS'를 요청합니다. Nvidia, Alphabet 및 Meta는 백악관의 자발적인 AI 안전 협정에 서명했으며 Microsoft와 Amazon은 Whit에 참석했습니다.",
-            "엔비디아 CEO 젠슨 황(왼쪽)과 메타 CEO 마크 주커버그(왼쪽) 옆에 앉은 도널드 트럼프 미국 대통령이 2026년 9월 29일 워싱턴 DC에서 열린 기술 경영진과의 회의에서 연설하고 있다."
-          ],
-          "why": [
-            "경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.49%, 0.74%, 1.02% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "경쟁사가 같은 고객에게 납품할 기회를 얻었다는 뜻입니다. 기존 회사 물량을 빼앗은 것인지, 고객이 공급처를 하나 더 늘린 것인지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "신규 공급사의 실제 물량",
-            "기존 공급사 매출 비중",
-            "고객의 이중 공급 전략"
-          ],
-          "interpretation": "MSFT에 대한 경쟁사 수주 · 고객 점유 변화 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.49%",
-            "0.74%",
-            "1.02%",
-            "5.47%",
-            "25.69%",
-            "0.54%",
-            "1.34%",
-            "3.39%"
-          ],
-          "sourceExcerpt": [
-            "Mag 7 Voices: Huang Defends AI Spending, Pichai Ramps Up Gemini, Nadella Calls Copilot A ‘New OS For Work’ This Week AI Agent Trending News Earnings All DIA 0.49% SPY 0.74% QQQ 1.02% Trending HIMX 5.47% STRK 25.69% DX 0.54% RIG 1.34% DIA 0.",
-            "Mag 7 Voices: Huang Defends AI Spending, Pichai Ramps Up Gemini, Nadella Calls Copilot A ‘New OS For Work’ This Week Nvidia, Alphabet and Meta signed the White House’s voluntary AI safety accord, while Microsoft and Amazon attended the Whit",
-            "US President Donald Trump, seated next to Nvidia CEO Jensen Huang (2L) and Meta CEO Mark Zuckerberg (L), speaks during a meeting with technology executives in Washington, DC, on September 29, 2026."
-          ],
-          "analysisUpdatedAt": 1791117796.8331306
-        }
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:39",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:50",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "GOOGL": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "amc",
@@ -23440,126 +23575,15 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Alphabet (GOOGL): Can YouTube Subscriptions Make Its Earnings More Resilient?",
+        "headline": "Bank of England investigates Google outage",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ada8ca1f618525faf4d8e91b7fa40df773794f73570c47f662731be5dfe8c269",
-        "datetime": 1792503536,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "실적 발표 · 본업과 특이항목 분리",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Alphabet (GOOGL): Can YouTube Subscriptions Make Its Earnings More Resilient?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-            "GOOGL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "GOOGL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "매출·영업이익 성장",
-            "정상화이익과 특이항목",
-            "가이던스·OCF·FCF"
-          ],
-          "interpretation": "GOOGL에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507196.9983478
-        },
-        "headlineKo": "Alphabet(GOOGL): YouTube 구독으로 수익 탄력성을 높일 수 있나요?"
-      },
-      {
-        "headline": "Google Partners With Xcel Energy To Fuel New AI Data Center With Clean Power",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=79278887b303980076c092f9782d250e8f3480837a4b73873337127dcc227004",
-        "datetime": 1792501877,
+        "url": "https://finnhub.io/api/news?id=a526b81d16e55c9960addf0c279fc46f7d854856a784deadffcc85e88351bf85",
+        "datetime": 1792520890,
         "relevance": 1.0,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Google, Clean Power로 새로운 AI 데이터 센터 활성화 위해 Xcel Energy와 파트너십 체결 | TIKR.com General Investing Google, Xcel Energy와 파트너십을 맺고 청정 전력 Aditya Raghunath로 새로운 AI 데이터 센터 지원 • 4분 읽기 검토자: David Hanso",
-            "19: $344 52주 최고가: $348 $GOOGL 주가 목표: $430 현재 진행 중: TIKR의 새로운 가치 평가 모델을 사용하여 좋아하는 주식이 얼마나 상승할 수 있는지 알아보세요(무료입니다) >>> 무슨 일이 일어났나요?",
-            "Alphabet(GOOGL)은 미네소타주 파인 아일랜드에 새로운 AI 데이터 센터를 구축하기 위해 Xcel Energy와 계약을 제안했습니다."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 2%, $344, $348 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "GOOGL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "GOOGL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "GOOGL에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1.0,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "2%",
-            "$344",
-            "$348",
-            "$430",
-            "75%",
-            "71%",
-            "10%",
-            "82%"
-          ],
-          "sourceExcerpt": [
-            "Google Partners With Xcel Energy To Fuel New AI Data Center With Clean Power | TIKR.com General Investing Google Partners With Xcel Energy To Fuel New AI Data Center With Clean Power Aditya Raghunath • 4 minute read Reviewed by: David Hanso",
-            "19: $344 52-Week High: $348 $GOOGL Stock Price Target: $430 Now Live: Discover how much upside your favorite stocks could have using TIKR’s new Valuation Model (It’s free) >>> What Happened?",
-            "Alphabet ( GOOGL ) has proposed a deal with Xcel Energy to power a new AI data center in Pine Island, Minnesota."
-          ],
-          "analysisUpdatedAt": 1792507201.9118125
-        },
-        "headlineKo": "Google, Xcel Energy와 파트너십을 맺고 청정 전력으로 새로운 AI 데이터 센터 활성화"
-      },
-      {
-        "headline": "Brokers Suggest Investing in Alphabet (GOOGL): Read This Before Placing a Bet",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ea9e1460305a4d24b36dc0b9d4b77e8a679c581c49183fe7539825653805704d",
-        "datetime": 1792499404,
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "flagTerms": [],
+        "keywordFlag": true,
+        "flagTerms": [
+          "outage"
+        ],
         "analysis": {
           "version": 9,
           "importance": "low",
@@ -23568,7 +23592,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Brokers Suggest Investing in Alphabet (GOOGL): Read This Before Placing a Bet",
+            "Bank of England investigates Google outage",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -23592,37 +23616,180 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Brokers Suggest Investing in Alphabet (GOOGL): Read This Before Placing a Bet' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Bank of England investigates Google outage' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "GOOGL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1.0,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507204.505781
+          "analysisUpdatedAt": 1792529422.1116571
         },
-        "headlineKo": "브로커는 알파벳 투자를 제안합니다(GOOGL): 베팅하기 전에 읽어보세요"
+        "headlineKo": "영란은행, 구글 중단 조사"
       },
       {
-        "headline": "Wall Street Bulls Look Optimistic About Alphabet (GOOG): Should You Buy?",
+        "headline": "Trump’s FTC Subpoenas OpenAI and Anthropic. Inside the $500 Billion Threat Faced by Microsoft, Amazon, and Google",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=fc27f5bef8aa3f1b47b81699e5498a15e9fe96c81d358bb009fae9e6fc3ddf64",
-        "datetime": 1792499402,
+        "url": "https://finnhub.io/api/news?id=d2f13b36616f1cedc53c7ffd3f32d14c4768a2cb3a23fd85100c5d1232a76f74",
+        "datetime": 1792518461,
+        "relevance": 1.0,
+        "keywordFlag": true,
+        "flagTerms": [
+          "ftc"
+        ],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $500 Billion, $554 billion, 27%, $228 billion, $852 billion, $5 billion, $190.4 billion, 14%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Trump’s FTC Subpoenas OpenAI and Anthropic. Inside the $500 Billion Threat Faced by Microsoft, Amazon, and Google' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: GOOGL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1.0,
+          "quality": "high",
+          "verifiedNumbers": [
+            "$500 Billion",
+            "$554 billion",
+            "27%",
+            "$228 billion",
+            "$852 billion",
+            "$5 billion",
+            "$190.4 billion",
+            "14%"
+          ],
+          "sourceExcerpt": [
+            "Trump&#8217;s FTC Subpoenas OpenAI and Anthropic.",
+            "Inside the $500 Billion Threat Faced by Microsoft, Amazon, and Google | TIKR.com General Investing Trump’s FTC Subpoenas OpenAI and Anthropic.",
+            "Inside the $500 Billion Threat Faced by Microsoft, Amazon, and Google Michael Douglass • 5 minute read Reviewed by: David Hanson Last updated Oct 20, 2026 Katrin Bolovtsova from Pexels and Sumali Ibnu Chamid from Alemedia.id via Canva Key T"
+          ],
+          "analysisUpdatedAt": 1792529422.8354747
+        },
+        "headlineKo": "트럼프의 FTC 소환장 OpenAI 및 Anthropic. Microsoft, Amazon, Google이 직면한 5000억 달러 규모의 위협 내부"
+      },
+      {
+        "headline": "Alphabet Poised For Third-Quarter Beat Amid Cloud Strength, BofA Says",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4a00ca53e16fc74857a8c6c568dd293105b68c062d6ef411aac3a6864829a21a",
+        "datetime": 1792515422,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "월스트리트 상승세는 알파벳(GOOG)에 대해 낙관적입니다. 매수해야 할까요?"
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Alphabet Poised For Third-Quarter Beat Amid Cloud Strength, BofA Says",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "GOOGL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Alphabet Poised For Third-Quarter Beat Amid Cloud Strength, BofA Says' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "GOOGL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529424.899241
+        },
+        "headlineKo": "BofA는 클라우드 강세 속에서 3분기 실적이 좋아질 것이라고 밝혔습니다."
+      },
+      {
+        "headline": "Alphabet set for earnings beat as Cloud and AI chips take centre stage",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=63c11dc609d030ad26b9202ad746d45c15ad179085b3a8b430d9a0bee4ccad03",
+        "datetime": 1792514040,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "클라우드와 AI 칩이 주목을 받으면서 수익이 예상되는 알파벳이 앞섰습니다."
+      },
+      {
+        "headline": "3 Reasons Why Growth Investors Shouldn't Overlook Alphabet (GOOGL)",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c7dda0cf1136693d7a9af3eafb0f780270f68da170f9f68f0362a9608c8a52e4",
+        "datetime": 1792511104,
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "성장 투자자가 알파벳을 간과해서는 안 되는 3가지 이유 (GOOGL)"
       },
       {
         "headline": "How Investors May Respond To Google (GOOGL) London Cloud Outage",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1c1b889abc9d39657283be33a0600a35e4a26af9f3b3dddd5d27384a9db26a01",
         "datetime": 1792498363,
+        "headlineKo": "투자자가 Google(GOOGL) 런던 클라우드 중단에 대응할 수 있는 방법",
         "relevance": 1.0,
         "keywordFlag": true,
         "flagTerms": [
           "outage"
-        ],
-        "headlineKo": "투자자가 Google(GOOGL) 런던 클라우드 중단에 대응할 수 있는 방법"
+        ]
       },
       {
         "headline": "Alphabet Might Use Waymo to Destroy Tesla’s First-Mover “Robotaxi Monopoly” Premium",
@@ -23692,6 +23859,208 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Bank of England investigates Google outage",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a526b81d16e55c9960addf0c279fc46f7d854856a784deadffcc85e88351bf85",
+        "datetime": 1792520890,
+        "headlineKo": "영란은행, 구글 중단 조사",
+        "relevance": 1.0,
+        "keywordFlag": true,
+        "flagTerms": [
+          "outage"
+        ],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Bank of England investigates Google outage",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "GOOGL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Bank of England investigates Google outage' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "GOOGL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529422.1116571
+        }
+      },
+      {
+        "headline": "Trump’s FTC Subpoenas OpenAI and Anthropic. Inside the $500 Billion Threat Faced by Microsoft, Amazon, and Google",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d2f13b36616f1cedc53c7ffd3f32d14c4768a2cb3a23fd85100c5d1232a76f74",
+        "datetime": 1792518461,
+        "headlineKo": "트럼프의 FTC 소환장 OpenAI 및 Anthropic. Microsoft, Amazon, Google이 직면한 5000억 달러 규모의 위협 내부",
+        "relevance": 1.0,
+        "keywordFlag": true,
+        "flagTerms": [
+          "ftc"
+        ],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $500 Billion, $554 billion, 27%, $228 billion, $852 billion, $5 billion, $190.4 billion, 14%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Trump’s FTC Subpoenas OpenAI and Anthropic. Inside the $500 Billion Threat Faced by Microsoft, Amazon, and Google' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: GOOGL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1.0,
+          "quality": "high",
+          "verifiedNumbers": [
+            "$500 Billion",
+            "$554 billion",
+            "27%",
+            "$228 billion",
+            "$852 billion",
+            "$5 billion",
+            "$190.4 billion",
+            "14%"
+          ],
+          "sourceExcerpt": [
+            "Trump&#8217;s FTC Subpoenas OpenAI and Anthropic.",
+            "Inside the $500 Billion Threat Faced by Microsoft, Amazon, and Google | TIKR.com General Investing Trump’s FTC Subpoenas OpenAI and Anthropic.",
+            "Inside the $500 Billion Threat Faced by Microsoft, Amazon, and Google Michael Douglass • 5 minute read Reviewed by: David Hanson Last updated Oct 20, 2026 Katrin Bolovtsova from Pexels and Sumali Ibnu Chamid from Alemedia.id via Canva Key T"
+          ],
+          "analysisUpdatedAt": 1792529422.8354747
+        }
+      },
+      {
+        "headline": "Alphabet Poised For Third-Quarter Beat Amid Cloud Strength, BofA Says",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4a00ca53e16fc74857a8c6c568dd293105b68c062d6ef411aac3a6864829a21a",
+        "datetime": 1792515422,
+        "headlineKo": "BofA는 클라우드 강세 속에서 3분기 실적이 좋아질 것이라고 밝혔습니다.",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Alphabet Poised For Third-Quarter Beat Amid Cloud Strength, BofA Says",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "GOOGL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Alphabet Poised For Third-Quarter Beat Amid Cloud Strength, BofA Says' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "GOOGL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529424.899241
+        }
+      },
+      {
+        "headline": "Alphabet set for earnings beat as Cloud and AI chips take centre stage",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=63c11dc609d030ad26b9202ad746d45c15ad179085b3a8b430d9a0bee4ccad03",
+        "datetime": 1792514040,
+        "headlineKo": "클라우드와 AI 칩이 주목을 받으면서 수익이 예상되는 알파벳이 앞섰습니다.",
+        "relevance": 0.4,
+        "keywordFlag": false
+      },
+      {
+        "headline": "3 Reasons Why Growth Investors Shouldn't Overlook Alphabet (GOOGL)",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c7dda0cf1136693d7a9af3eafb0f780270f68da170f9f68f0362a9608c8a52e4",
+        "datetime": 1792511104,
+        "headlineKo": "성장 투자자가 알파벳을 간과해서는 안 되는 3가지 이유 (GOOGL)",
+        "relevance": 1.0,
+        "keywordFlag": false
+      },
       {
         "headline": "Alphabet (GOOGL): Can YouTube Subscriptions Make Its Earnings More Resilient?",
         "source": "Yahoo",
@@ -31276,295 +31645,21 @@ const NEWS_DATA = {
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1791140425.0174026
         }
-      },
-      {
-        "headline": "Better Artificial Intelligence Stock: Alphabet vs. Meta Platforms",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5f0ddc9385e61425a34d556cef4490307a28dee7382190a6513ae687062e28fa",
-        "datetime": 1791075974,
-        "headlineKo": "더 나은 인공 지능 주식: 알파벳 대 메타 플랫폼",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "더 나은 인공지능 주식: 알파벳 vs.",
-            "메타 플랫폼 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ 주식 고문 + ---% Motley Fool에 참여하세요. 인공 지능이 사용자가 정보를 찾고 정보를 찾는 방식을 변화시키면서 디지털 광고 환경이 변화하고 있습니다.",
-            "알파벳( GOOGL +1.55% )( GOOG +1.62% )과 메타 플랫폼( META +0.30% ) 중에서 선택하려면 소셜 미디어 규모에 비해 검색 우위를 가늠해야 합니다."
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 1.55%, 1.62%, 0.30% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "GOOGL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "GOOGL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "GOOGL에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "1.55%",
-            "1.62%",
-            "0.30%",
-            "$402.8 billion",
-            "15.1%",
-            "$132.2 billion",
-            "32.8%",
-            "$73.3 billion"
-          ],
-          "sourceExcerpt": [
-            "Better Artificial Intelligence Stock: Alphabet vs.",
-            "Meta Platforms | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool The digital advertising landscape is shifting as artificial intelligence transforms how users find information and c",
-            "Choosing between Alphabet ( GOOGL +1.55% ) ( GOOG +1.62% ) and Meta Platforms ( META +0.30% ) requires weighing search dominance against social media scale."
-          ],
-          "analysisUpdatedAt": 1791094802.075349
-        }
-      },
-      {
-        "headline": "Alphabet (GOOGL) Prevails In Two US Antitrust Lawsuits",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a67b61ce3b52370842677277426eb40658fad73d45752068de23fd418bbe9301",
-        "datetime": 1791054449,
-        "headlineKo": "알파벳(GOOGL), 두 건의 미국 독점금지 소송에서 승소",
-        "relevance": 1.0,
-        "keywordFlag": true,
-        "flagTerms": [
-          "antitrust"
-        ],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Alphabet (GOOGL) Prevails In Two US Antitrust Lawsuits",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "GOOGL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "GOOGL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "GOOGL에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1.0,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791094804.0450842
-        }
-      },
-      {
-        "headline": "Benzinga Bulls and Bears: Alphabet, Micron, Nike",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=b301adb08f6739782553d10de0a5a721e5aa0f60e2845376e59ef852f1edaf54",
-        "datetime": 1791014409,
-        "headlineKo": "벤징가 황소와 곰: 알파벳, 마이크론, 나이키",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "벤징가 황소와 곰: 알파벳, 마이크론, 나이키 - 알파벳(NASDAQ:GOOGL), 알파벳(NASDAQ:GOOG) SPY 769.86 +0.03% QQQ 749.55 −0.00% BTC/USD 84,661.85 +0.19% DIA 511.70 +0.12% GLD 380.52 +0.10% TLT 77.53 +0.06% US 로그인 회원가입 My Acco",
-            "예상보다 부진한 9월 고용 보고서가 연준의 추가 금리 인상에 대한 우려를 완화하고 기술주 반등에 도움이 되면서 주가는 혼조세로 마감했습니다.",
-            "이번 주 S&P 500 지수는 0.3% 하락했고, 다우존스 산업평균지수는 1.3% 하락했고, 나스닥 종합지수는 0.5% 상승했습니다."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.03%, 0.00%, 0.19% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "GOOGL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "GOOGL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "GOOGL에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.03%",
-            "0.00%",
-            "0.19%",
-            "0.12%",
-            "0.10%",
-            "0.06%",
-            "$32 billion",
-            "80%"
-          ],
-          "sourceExcerpt": [
-            "Benzinga Bulls and Bears: Alphabet, Micron, Nike - Alphabet (NASDAQ:GOOGL), Alphabet (NASDAQ:GOOG) SPY 769.86 +0.03% QQQ 749.55 −0.00% BTC/USD 84,661.85 +0.19% DIA 511.70 +0.12% GLD 380.52 +0.10% TLT 77.53 +0.06% US Sign in Register My Acco",
-            "stocks ended the week mixed as a weaker-than-expected September jobs report eased concerns about another Federal Reserve rate hike, helping technology shares rebound.",
-            "The S&P 500 fell 0.3% for the week and the Dow Jones Industrial Average dropped 1.3%, while the Nasdaq Composite gained 0.5%."
-          ],
-          "analysisUpdatedAt": 1791072027.129059
-        }
-      },
-      {
-        "headline": "Mag 7 Voices: Huang Defends AI Spending, Pichai Ramps Up Gemini, Nadella Calls Copilot A ‘New OS For Work’ This Week",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=46d3c6a7d717e97fd24c883d9bfe1437bda2f3237c110f4776dbe0b335daddb1",
-        "datetime": 1790992895,
-        "headlineKo": "Mag 7 Voices: Huang은 AI 지출을 옹호하고 Pichai는 Gemini를 강화하며 Nadella는 Copilot을 이번 주에 '업무를 위한 새로운 OS'라고 부릅니다.",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Mag 7 Voices: Huang Defends AI Spending, Pichai Ramps Up Gemini, Nadella Calls Copilot A ‘New OS For Work’ This Week",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "GOOGL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "GOOGL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "GOOGL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791072027.8145986
-        }
-      },
-      {
-        "headline": "HigherVisibility Analysis: Google's AI Fact-Check Rule Now Covers Metadata",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9c7c18bf656f52f8ae6d68bcf7e8765d356cef842b946f4bb551d0c79525b634",
-        "datetime": 1790978100,
-        "headlineKo": "HigherVisibility 분석: 이제 Google의 AI 사실 확인 규칙에 메타데이터가 포함됩니다.",
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "HigherVisibility Analysis: Google's AI Fact-Check Rule Now Covers Metadata",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "GOOGL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'HigherVisibility Analysis: Google's AI Fact-Check Rule Now Covers Metadata' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "GOOGL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1.0,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791049230.0392437
-        }
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:40",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:50",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 186,
+      "checked": 187,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "AMZN": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-10-29",
       "hour": "amc",
@@ -31574,11 +31669,11 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Amazon (AMZN): How Much More Can It Earn From Sellers Before Their Economics Suffer?",
+        "headline": "Amazon stockpiles Nvidia AI hardware ahead of power availability -Business Insider",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7e04dc1b14ab68ea04d88e9543ea6ba04f3499fe8bf6099794e5c2b12be889e6",
-        "datetime": 1792503604,
-        "relevance": 1,
+        "url": "https://finnhub.io/api/news?id=ab574575bc56dcfc0cd06ef844851b998d5564737e945aab4859e7d98b0587f1",
+        "datetime": 1792525575,
+        "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
@@ -31589,7 +31684,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Amazon (AMZN): How Much More Can It Earn From Sellers Before Their Economics Suffer?",
+            "Amazon stockpiles Nvidia AI hardware ahead of power availability -Business Insider",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -31613,42 +31708,42 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon (AMZN): How Much More Can It Earn From Sellers Before Their Economics Suffer?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon stockpiles Nvidia AI hardware ahead of power availability -Business Insider' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
+          "relevance": 0.5,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507213.5444255
+          "analysisUpdatedAt": 1792529432.3972373
         },
-        "headlineKo": "Amazon(AMZN): 판매자의 경제적 어려움이 닥치기 전에 판매자로부터 얼마나 더 많은 수익을 얻을 수 있습니까?"
+        "headlineKo": "Amazon, 전력 공급에 앞서 Nvidia AI 하드웨어 비축 -Business Insider"
       },
       {
-        "headline": "3M Beat Estimates and Raised Guidance. Why an Amazon Deal Is Driving the Stock.",
+        "headline": "Amazon’s $350 target rests on an AI bet beyond the cloud",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=29a5be677506a7d351141d4eb2d29e1b2693b85ab6b818bc977f4365b8344f38",
-        "datetime": 1792499820,
+        "url": "https://finnhub.io/api/news?id=37c90875b4c69045a7db5958cc4e5234cea6ef3bb1a2da6e9e97121822cf6d52",
+        "datetime": 1792525020,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "medium",
-          "tone": "positive",
+          "importance": "low",
+          "tone": "neutral",
           "certainty": "본문 확인 필요",
-          "label": "회사 전망 변경 · 추정치 재평가",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "3M Beat Estimates and Raised Guidance. Why an Amazon Deal Is Driving the Stock.",
+            "Amazon’s $350 target rests on an AI bet beyond the cloud",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -31658,48 +31753,47 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "AMZN에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon’s $350 target rests on an AI bet beyond the cloud' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.5,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507216.3640885
+          "analysisUpdatedAt": 1792529433.0552456
         },
-        "headlineKo": "3M 비트 추정치 및 상향 조정된 지침. Amazon 거래가 주식을 주도하는 이유."
+        "headlineKo": "Amazon의 350달러 목표는 클라우드 너머의 AI 베팅에 달려 있습니다."
       },
       {
-        "headline": "Amazon Stock Rises on Morgan Stanley Top Pick: What the $350 Target Needs",
+        "headline": "Market Chatter: Amazon is Buying More Nvidia AI Hardware Than It Can Power Up",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=760c6eb9175adc6c96225d582675e3b33ddd711e4f2116a85354b90723f2b93e",
-        "datetime": 1792499257,
+        "url": "https://finnhub.io/api/news?id=af5b78cf3bc72ee40b61c9f88597575013b276cf78183bbb30a4005d404291c0",
+        "datetime": 1792524552,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "주식 희석 · 주당가치 확인",
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Morgan Stanley Top Pick에서 Amazon 주식 상승: $350 목표에 필요한 것 | TIKR.com 일반 투자 Amazon 주식이 Morgan Stanley에서 상승 최고 선택: $350 목표에 필요한 것 Gian Estrada • 4분 읽기 검토자: David Hanson 최종 업데이트",
-            "통화는 원장 양쪽의 거리보다 더 멀리 진행됩니다.",
-            "Nowak의 2028년 수익 추정치는 컨센서스보다 24% 높으며, 그의 2027년 자본 지출 예측은 컨센서스보다 28% 높습니다."
+            "Market Chatter: Amazon is Buying More Nvidia AI Hardware Than It Can Power Up",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $350, 5%, $262.45 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -31709,52 +31803,40 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "신규 주식 수·행사가격",
-            "조달 자금 사용처",
-            "완전희석 주식수와 EPS"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "AMZN에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Market Chatter: Amazon is Buying More Nvidia AI Hardware Than It Can Power Up' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$350",
-            "5%",
-            "$262.45",
-            "$335",
-            "24%",
-            "28%",
-            "47%",
-            "42%"
-          ],
-          "sourceExcerpt": [
-            "Amazon Stock Rises on Morgan Stanley Top Pick: What the $350 Target Needs | TIKR.com General Investing Amazon Stock Rises on Morgan Stanley Top Pick: What the $350 Target Needs Gian Estrada • 4 minute read Reviewed by: David Hanson Last upd",
-            "The call goes further than the Street on both sides of the ledger.",
-            "Nowak’s 2028 earnings estimate sits 24% above consensus, and his 2027 capital spending forecast sits 28% above it."
-          ],
-          "analysisUpdatedAt": 1792507220.5253458
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529434.989281
         },
-        "headlineKo": "Morgan Stanley Top Pick에서 Amazon 주가 상승: 350달러 목표에 필요한 것"
+        "headlineKo": "시장 잡담: Amazon은 전력을 공급할 수 있는 것보다 더 많은 Nvidia AI 하드웨어를 구매하고 있습니다."
       },
       {
-        "headline": "Morgan Stanley Names Amazon Top Pick And Raises Price Target",
+        "headline": "Rising Amazon demand brings 14,000 seasonal jobs to Tennessee",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e40da951f9f838bbab1b415961ae524f1c4ce82c0509c69a8615db310ddedc20",
-        "datetime": 1792498631,
+        "url": "https://finnhub.io/api/news?id=cb34196bddcf2732bf16b842fdd0732d6e3f662ec552dfff5713242e88542a40",
+        "datetime": 1792522621,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "모건스탠리, Amazon Top Pick으로 선정하고 목표가 상향 조정"
+        "headlineKo": "아마존 수요 증가로 테네시주에 14,000개의 계절 일자리 창출"
       },
       {
-        "headline": "Olifant Digital Addresses Amazon Sellers' AI Search Concerns in DesignRush Feature",
+        "headline": "Amazon Creates Over 300,000 New U.S. Jobs This Holiday Season with Increased Pay and Expanded Benefits",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=faa8725de1e5e767b7f7e9faac1f5d889941e023dd47e814d28047c679053c54",
-        "datetime": 1792497600,
+        "url": "https://finnhub.io/api/news?id=54a21daafd7a0b52e66b81d42b2d0a77d8982a630ca75175559a40fcb355a5dc",
+        "datetime": 1792521060,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Olifant Digital, DesignRush 기능에서 Amazon 판매자의 AI 검색 문제 해결"
+        "headlineKo": "Amazon, 이번 휴가철에 급여 인상 및 혜택 확대로 300,000개 이상의 새로운 미국 일자리 창출"
       },
       {
         "headline": "How to Play AMZN Stock Amid the Latest Round of Amazon Layoffs",
@@ -31985,6 +32067,171 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Amazon stockpiles Nvidia AI hardware ahead of power availability -Business Insider",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ab574575bc56dcfc0cd06ef844851b998d5564737e945aab4859e7d98b0587f1",
+        "datetime": 1792525575,
+        "headlineKo": "Amazon, 전력 공급에 앞서 Nvidia AI 하드웨어 비축 -Business Insider",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Amazon stockpiles Nvidia AI hardware ahead of power availability -Business Insider",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon stockpiles Nvidia AI hardware ahead of power availability -Business Insider' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529432.3972373
+        }
+      },
+      {
+        "headline": "Amazon’s $350 target rests on an AI bet beyond the cloud",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=37c90875b4c69045a7db5958cc4e5234cea6ef3bb1a2da6e9e97121822cf6d52",
+        "datetime": 1792525020,
+        "headlineKo": "Amazon의 350달러 목표는 클라우드 너머의 AI 베팅에 달려 있습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Amazon’s $350 target rests on an AI bet beyond the cloud",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon’s $350 target rests on an AI bet beyond the cloud' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529433.0552456
+        }
+      },
+      {
+        "headline": "Market Chatter: Amazon is Buying More Nvidia AI Hardware Than It Can Power Up",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=af5b78cf3bc72ee40b61c9f88597575013b276cf78183bbb30a4005d404291c0",
+        "datetime": 1792524552,
+        "headlineKo": "시장 잡담: Amazon은 전력을 공급할 수 있는 것보다 더 많은 Nvidia AI 하드웨어를 구매하고 있습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Market Chatter: Amazon is Buying More Nvidia AI Hardware Than It Can Power Up",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Market Chatter: Amazon is Buying More Nvidia AI Hardware Than It Can Power Up' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529434.989281
+        }
+      },
+      {
+        "headline": "Rising Amazon demand brings 14,000 seasonal jobs to Tennessee",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=cb34196bddcf2732bf16b842fdd0732d6e3f662ec552dfff5713242e88542a40",
+        "datetime": 1792522621,
+        "headlineKo": "아마존 수요 증가로 테네시주에 14,000개의 계절 일자리 창출",
+        "relevance": 0.5,
+        "keywordFlag": false
+      },
+      {
+        "headline": "Amazon Creates Over 300,000 New U.S. Jobs This Holiday Season with Increased Pay and Expanded Benefits",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=54a21daafd7a0b52e66b81d42b2d0a77d8982a630ca75175559a40fcb355a5dc",
+        "datetime": 1792521060,
+        "headlineKo": "Amazon, 이번 휴가철에 급여 인상 및 혜택 확대로 300,000개 이상의 새로운 미국 일자리 창출",
+        "relevance": 0.5,
+        "keywordFlag": false
+      },
       {
         "headline": "Amazon (AMZN): How Much More Can It Earn From Sellers Before Their Economics Suffer?",
         "source": "Yahoo",
@@ -39482,309 +39729,21 @@ const NEWS_DATA = {
           ],
           "analysisUpdatedAt": 1791186094.9189339
         }
-      },
-      {
-        "headline": "Amazon vs. Alphabet: Which AI Cloud Stock Makes the Better Case After the Spending Bill?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6b2a60755384475fe6fde01a90afc81b6f772fe04aaf60e7d2155a12585a8360",
-        "datetime": 1791156255,
-        "headlineKo": "Amazon vs. Alphabet: 지출 비용 이후 어느 AI 클라우드 주식이 더 나은 사례를 만드는가?",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Amazon vs. Alphabet: Which AI Cloud Stock Makes the Better Case After the Spending Bill?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMZN",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "AMZN에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791186098.3773203
-        }
-      },
-      {
-        "headline": "What a 20-Year Deal With Amazon Means for Constellation Energy Stock",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ac507a114a3f8dc4f9e53b87e09b7f9074d907e4aa0b915b84c599fb5beabffb",
-        "datetime": 1791138602,
-        "headlineKo": "아마존과의 20년 계약이 Constellation Energy 주식에 미치는 영향",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "고객 계약 · 매출 연결 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "What a 20-Year Deal With Amazon Means for Constellation Energy Stock",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
-            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMZN",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "계약 금액·기간·취소 조건",
-            "수주잔고와 매출 인식 시점",
-            "관련 사업부 매출총이익률"
-          ],
-          "interpretation": "AMZN에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791186099.450093
-        }
-      },
-      {
-        "headline": "Amazon AWS CEO reveals surprising risk to AI stocks and U.S. economy",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=51ce6115ae12ffa68bb342ae2e1fafe8632e7e2fe2aaaf54802b168522490f5b",
-        "datetime": 1791129780,
-        "headlineKo": "Amazon AWS CEO는 AI 주식과 미국 경제에 대한 놀라운 위험을 밝힙니다.",
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "실적·재무 부담 확인 필요",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Amazon AWS CEO reveals surprising risk to AI stocks and U.S. economy",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMZN",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon AWS CEO reveals surprising risk to AI stocks and U.S. economy' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMZN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1.0,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791163323.7525907
-        }
-      },
-      {
-        "headline": "Jim Cramer Says He May Quit Amazon for the Rival That Jumped 24% in a Month",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=59352f12e4d58e8346bfae50c868ea29a592f1221285acb772611671f974581b",
-        "datetime": 1791129505,
-        "headlineKo": "짐 크레이머(Jim Cramer)는 한 달 만에 24% 상승한 경쟁자 때문에 아마존을 그만둘 수도 있다고 말했습니다.",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "장기 공급계약 · 매출 가시성 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Jim Cramer는 한 달 만에 24% 상승한 경쟁자를 위해 아마존을 그만둘 수도 있다고 말했습니다 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,729.20 +0.64% Dow Jones 51,232.00 +0.46% Nasdaq 100 30,827.70 +0.91% Russell 2000 2,836.24 +0.78% S&P 500 7,729.20 +0.64% 다우존스 51,232.00 +0.46% 나스닥 100 30,827.70 +0.91% 러셀 2000 2,836.24 +0.",
-            "Jim Cramer는 2026년 9월 28일 CNBC의 Squawk on the Street에서 Meta Platforms(NASDAQ:META | META Price Prediction)의 새로운 AI 쇼핑 기능 시연을 본 후 다음과 같이 말했습니다."
-          ],
-          "why": [
-            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 24%, 23.89%, $577.61 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMZN",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "계약 기간·최소구매 조건",
-            "연도별 매출 인식",
-            "수주잔고·취소 조건"
-          ],
-          "interpretation": "AMZN에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "24%",
-            "23.89%",
-            "$577.61",
-            "$715.62,",
-            "7.61%",
-            "$266.43",
-            "$246.15.",
-            "$728.08"
-          ],
-          "sourceExcerpt": [
-            "Jim Cramer Says He May Quit Amazon for the Rival That Jumped 24% in a Month - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,729.20 +0.64% Dow Jones 51,232.00 +0.46% Nasdaq 100 30,827.70 +0.91% Russell 2000 2,836.24 +0.78% S&P 500 7,729.20 +0.64% Dow Jones 51,232.00 +0.46% Nasdaq 100 30,827.70 +0.91% Russell 2000 2,836.24 +0.",
-            "Jim Cramer said it live on CNBC’s Squawk on the Street on September 28, 2026, after seeing a demonstration of a new AI shopping capability from Meta Platforms ( NASDAQ:META | META Price Prediction ): “I’m an Amazon guy, but maybe I shouldn’"
-          ],
-          "analysisUpdatedAt": 1791140881.3188195
-        }
-      },
-      {
-        "headline": "Amazon Wants to Move $8 Billion in Nvidia Chips Off Its Books. Is AI’s Financing Model Starting to Change?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=00a6a27373db4d8893dcdcfae1a5c751a7be4379a50f1e3287e4ed2e5b11bc1d",
-        "datetime": 1791128309,
-        "headlineKo": "Amazon은 Nvidia에서 80억 달러를 장부에서 빼내려고 합니다. AI의 자금조달 모델이 변화하기 시작하고 있나요?",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "mixed",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: $8 Billion, $8 billion, 10%, $54.2 billion, 68%, $200 billion, $7.6 billion, $119.1 billion.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon Wants to Move $8 Billion in Nvidia Chips Off Its Books. Is AI’s Financing Model Starting to Change?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: AMZN에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
-          "relevance": 0.5,
-          "quality": "high",
-          "verifiedNumbers": [
-            "$8 Billion",
-            "$8 billion",
-            "10%",
-            "$54.2 billion",
-            "68%",
-            "$200 billion",
-            "$7.6 billion",
-            "$119.1 billion"
-          ],
-          "sourceExcerpt": [
-            "Amazon Wants to Move $8 Billion in Nvidia Chips Off Its Books.",
-            "Is AI's Financing Model Starting to Change?",
-            "Skip to content ❚❚ At close S&P 500 7,729.20 +0.64% Dow Jones 51,232.00 +0.46% Nasdaq 100 30,827.70 +0.91% Russell 2000 2,836.24 +0.78% S&P 500 7,729.20 +0.64% Dow Jones 51,232.00 +0.46% Nasdaq 100 30,827.70 +0.91% Russell 2000 2,836.24 +0."
-          ],
-          "analysisUpdatedAt": 1791140882.3096998
-        }
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:40",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:50",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "META": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-10-21",
       "hour": "amc",
@@ -39794,81 +39753,31 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Meta (META): Can WhatsApp Become a Meaningful Business Beyond Advertising?",
+        "headline": "Meta Q3 earnings to test Wall Street's stomach for AI spending",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=42edc5a713527b3621b3b453dca4b04e8efa1d574da19f48b08267d5e9a178e5",
-        "datetime": 1792503805,
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Meta (META): Can WhatsApp Become a Meaningful Business Beyond Advertising?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "META",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 META의 사업과 관련된 'Meta (META): Can WhatsApp Become a Meaningful Business Beyond Advertising?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "META 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1.0,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507230.723517
-        },
-        "headlineKo": "메타(META): WhatsApp이 광고를 넘어 의미 있는 비즈니스가 될 수 있을까요?"
-      },
-      {
-        "headline": "RBC Weighs Blocking Meta's AI Agent Muse, CEO McKay Says",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2bd7d05456f77f01387de9210f6319a10af6ef511c396a2264de2000a73067ef",
-        "datetime": 1792500963,
+        "url": "https://finnhub.io/api/news?id=691b7aca7dc47e177d5d0d55a2e9972c40275a968559246f7fa77ffcd7689629",
+        "datetime": 1792521665,
         "relevance": 0.6,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "low",
+          "importance": "medium",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "RBC Weighs Blocking Meta's AI Agent Muse, CEO McKay Says",
+            "Meta Q3 earnings to test Wall Street's stomach for AI spending",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "META의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -39878,47 +39787,46 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
           ],
-          "interpretation": "이 기사는 META의 사업과 관련된 'RBC Weighs Blocking Meta's AI Agent Muse, CEO McKay Says' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "META 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "META에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.6,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507232.6390502
+          "analysisUpdatedAt": 1792529442.3161986
         },
-        "headlineKo": "RBC는 Meta의 AI 에이전트 Muse를 차단하는 데 무게를 두고 있다고 CEO McKay는 말합니다."
+        "headlineKo": "AI 지출에 대한 월스트리트의 배짱을 테스트하기 위한 메타 Q3 수익"
       },
       {
-        "headline": "Zacks Investment Ideas feature highlights: Meta Platforms and Tesla",
+        "headline": "Meta Stocks Slides as Earnings Loom. Is Muse Losing Its Shine Already?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e0a8a7fc5f0cfda01980531c4fc9cd06a1d07daef8b90517f2a963bbcff869b3",
-        "datetime": 1792498200,
-        "relevance": 1.0,
+        "url": "https://finnhub.io/api/news?id=7052231cbfc40ff1c497a742cb2266b58cb1453415d2db98cd6121dd2f76ae37",
+        "datetime": 1792516213,
+        "relevance": 0.6,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "low",
+          "importance": "medium",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "label": "실적 발표 · 본업과 특이항목 분리",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Zacks Investment Ideas feature highlights: Meta Platforms and Tesla",
+            "Meta Stocks Slides as Earnings Loom. Is Muse Losing Its Shine Already?",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+            "META의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -39928,40 +39836,103 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "매출·영업이익 성장",
+            "정상화이익과 특이항목",
+            "가이던스·OCF·FCF"
           ],
-          "interpretation": "이 기사는 META의 사업과 관련된 'Zacks Investment Ideas feature highlights: Meta Platforms and Tesla' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "META 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1.0,
+          "interpretation": "META에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.6,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507236.2271087
+          "analysisUpdatedAt": 1792529444.1657372
         },
-        "headlineKo": "Zacks 투자 아이디어 주요 특징: 메타 플랫폼 및 Tesla"
+        "headlineKo": "실적이 밝아지면서 메타 주식이 하락했습니다. 뮤즈는 이미 빛을 잃고 있나요?"
       },
       {
-        "headline": "AI Trade Rotation Favors Mag 7 Over Neoclouds, Analysts Say Ahead Of SPCX, META, NFLX Results",
+        "headline": "Meta Policy Chief Joel Kaplan Reportedly To Leave In 2027 — Leadership Transition Comes Amid Zuckerberg's AI Push",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a9c432a14fd5de41ca29a7b37c903dacc74b3bb95e9eb1ffaf7372df4913e101",
-        "datetime": 1792496469,
+        "url": "https://finnhub.io/api/news?id=9441f6f90d7d2982a8092fd154343b0972c31e0cc8ff7fbc9c558b0e80a22e21",
+        "datetime": 1792516137,
         "relevance": 0.6,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "AI 거래 회전은 Neoclouds보다 Mag 7을 선호하며 분석가들은 SPCX, META, NFLX 결과를 앞두고 말합니다."
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "메타 정책 책임자인 조엘 카플란(Joel Kaplan)은 2027년에 떠날 것으로 알려졌습니다. 리더십 전환은 Zuckerberg의 AI 추진으로 이루어집니다. AI 에이전트 Trending News Earnings All DIA 1.20% SPY 0.51% QQQ 0.20% Trending SPCX 2.19% NFLX 6.66% SMCI 12.02% SLS 14.01% ISRG 7",
+            "메타 정책 책임자인 조엘 카플란(Joel Kaplan)은 2027년에 떠날 것으로 알려졌습니다 — 주커버그의 AI 추진 중에 리더십 전환이 이루어지고 있습니다. Axios의 보고서에 따르면 메타 사장인 디나 파월 맥코믹(Dina Powell McCormick)은 COM으로서 대외 업무 책임을 맡게 됩니다.",
+            "Meta 창립자이자 CEO인 Mark Zuckerberg와 글로벌 공공 정책 담당 부사장인 Joel Kaplan(오른쪽)은 국회의사당 사무실에서 John Cornyn 상원의원(R-TX)과의 회의를 마친 후 대화를 나누고 있습니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.20%, 0.51%, 0.20% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "META의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "META",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "META에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.6,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "1.20%",
+            "0.51%",
+            "0.20%",
+            "2.19%",
+            "6.66%",
+            "12.02%",
+            "14.01%",
+            "7.66%"
+          ],
+          "sourceExcerpt": [
+            "Meta Policy Chief Joel Kaplan Reportedly To Leave In 2027 — Leadership Transition Comes Amid Zuckerberg's AI Push AI Agent Trending News Earnings All DIA 1.20% SPY 0.51% QQQ 0.20% Trending SPCX 2.19% NFLX 6.66% SMCI 12.02% SLS 14.01% ISRG 7",
+            "Meta Policy Chief Joel Kaplan Reportedly To Leave In 2027 — Leadership Transition Comes Amid Zuckerberg's AI Push According to a report by Axios, Meta President Dina Powell McCormick will take on external affairs responsibilities as the com",
+            "Meta founder and CEO Mark Zuckerberg and Vice President of Global Public Policy, Joel Kaplan (R) chat after leaving a meeting with Senator John Cornyn (R-TX) in his office on Capitol Hill."
+          ],
+          "analysisUpdatedAt": 1792529449.4653254
+        },
+        "headlineKo": "메타 정책 책임자인 조엘 카플란(Joel Kaplan)은 2027년에 떠날 것으로 알려졌습니다. 리더십 전환은 주커버그(Zuckerberg)의 AI 추진 중에 이루어집니다."
       },
       {
-        "headline": "The Zacks Analyst Blog Highlights Meta Platforms, Lam Research, Texas Instruments, Tesla, Netflix, Procter & Gamble and GE Aerospace",
+        "headline": "Meta Stock Climbed 25% in September. Here’s Why There’s More Upside Ahead",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d03ade76408beb895bc3eff3d0a596a035d1d870ede290b787af12364454cddf",
-        "datetime": 1792495620,
-        "relevance": 1.0,
+        "url": "https://finnhub.io/api/news?id=c85fa8f75a86cb1cdeb980786ed75e0ca123b461a1a5176dab8830c3d863dd4f",
+        "datetime": 1792515302,
+        "relevance": 0.6,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Zacks Analyst 블로그에서는 Meta Platform, Lam Research, Texas Instruments, Tesla, Netflix, Procter & Gamble 및 GE Aerospace를 강조합니다."
+        "headlineKo": "메타주가는 9월에 25% 상승했습니다. 앞으로 더 많은 상승 여지가 있는 이유는 다음과 같습니다."
+      },
+      {
+        "headline": "What Meta’s Quarter Has to Show to Justify Wall Street’s Highest Targets",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=06fc12e1d9f3a8789bb9db31cd221b1b40723099b548d23c0c3390659858954b",
+        "datetime": 1792513830,
+        "relevance": 0.6,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "월스트리트의 최고 목표를 정당화하기 위해 Meta의 분기가 보여주어야 하는 것"
       },
       {
         "headline": "Meta: Why I Took Profits After The Run (Rating Downgrade)",
@@ -40087,6 +40058,183 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Meta Q3 earnings to test Wall Street's stomach for AI spending",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=691b7aca7dc47e177d5d0d55a2e9972c40275a968559246f7fa77ffcd7689629",
+        "datetime": 1792521665,
+        "headlineKo": "AI 지출에 대한 월스트리트의 배짱을 테스트하기 위한 메타 Q3 수익",
+        "relevance": 0.6,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Meta Q3 earnings to test Wall Street's stomach for AI spending",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "META의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "META",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "META에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.6,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529442.3161986
+        }
+      },
+      {
+        "headline": "Meta Stocks Slides as Earnings Loom. Is Muse Losing Its Shine Already?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=7052231cbfc40ff1c497a742cb2266b58cb1453415d2db98cd6121dd2f76ae37",
+        "datetime": 1792516213,
+        "headlineKo": "실적이 밝아지면서 메타 주식이 하락했습니다. 뮤즈는 이미 빛을 잃고 있나요?",
+        "relevance": 0.6,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "실적 발표 · 본업과 특이항목 분리",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Meta Stocks Slides as Earnings Loom. Is Muse Losing Its Shine Already?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+            "META의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "META",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "매출·영업이익 성장",
+            "정상화이익과 특이항목",
+            "가이던스·OCF·FCF"
+          ],
+          "interpretation": "META에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.6,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529444.1657372
+        }
+      },
+      {
+        "headline": "Meta Policy Chief Joel Kaplan Reportedly To Leave In 2027 — Leadership Transition Comes Amid Zuckerberg's AI Push",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9441f6f90d7d2982a8092fd154343b0972c31e0cc8ff7fbc9c558b0e80a22e21",
+        "datetime": 1792516137,
+        "headlineKo": "메타 정책 책임자인 조엘 카플란(Joel Kaplan)은 2027년에 떠날 것으로 알려졌습니다. 리더십 전환은 주커버그(Zuckerberg)의 AI 추진 중에 이루어집니다.",
+        "relevance": 0.6,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "메타 정책 책임자인 조엘 카플란(Joel Kaplan)은 2027년에 떠날 것으로 알려졌습니다. 리더십 전환은 Zuckerberg의 AI 추진으로 이루어집니다. AI 에이전트 Trending News Earnings All DIA 1.20% SPY 0.51% QQQ 0.20% Trending SPCX 2.19% NFLX 6.66% SMCI 12.02% SLS 14.01% ISRG 7",
+            "메타 정책 책임자인 조엘 카플란(Joel Kaplan)은 2027년에 떠날 것으로 알려졌습니다 — 주커버그의 AI 추진 중에 리더십 전환이 이루어지고 있습니다. Axios의 보고서에 따르면 메타 사장인 디나 파월 맥코믹(Dina Powell McCormick)은 COM으로서 대외 업무 책임을 맡게 됩니다.",
+            "Meta 창립자이자 CEO인 Mark Zuckerberg와 글로벌 공공 정책 담당 부사장인 Joel Kaplan(오른쪽)은 국회의사당 사무실에서 John Cornyn 상원의원(R-TX)과의 회의를 마친 후 대화를 나누고 있습니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.20%, 0.51%, 0.20% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "META의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "META",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "META에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.6,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "1.20%",
+            "0.51%",
+            "0.20%",
+            "2.19%",
+            "6.66%",
+            "12.02%",
+            "14.01%",
+            "7.66%"
+          ],
+          "sourceExcerpt": [
+            "Meta Policy Chief Joel Kaplan Reportedly To Leave In 2027 — Leadership Transition Comes Amid Zuckerberg's AI Push AI Agent Trending News Earnings All DIA 1.20% SPY 0.51% QQQ 0.20% Trending SPCX 2.19% NFLX 6.66% SMCI 12.02% SLS 14.01% ISRG 7",
+            "Meta Policy Chief Joel Kaplan Reportedly To Leave In 2027 — Leadership Transition Comes Amid Zuckerberg's AI Push According to a report by Axios, Meta President Dina Powell McCormick will take on external affairs responsibilities as the com",
+            "Meta founder and CEO Mark Zuckerberg and Vice President of Global Public Policy, Joel Kaplan (R) chat after leaving a meeting with Senator John Cornyn (R-TX) in his office on Capitol Hill."
+          ],
+          "analysisUpdatedAt": 1792529449.4653254
+        }
+      },
+      {
+        "headline": "Meta Stock Climbed 25% in September. Here’s Why There’s More Upside Ahead",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c85fa8f75a86cb1cdeb980786ed75e0ca123b461a1a5176dab8830c3d863dd4f",
+        "datetime": 1792515302,
+        "headlineKo": "메타주가는 9월에 25% 상승했습니다. 앞으로 더 많은 상승 여지가 있는 이유는 다음과 같습니다.",
+        "relevance": 0.6,
+        "keywordFlag": false
+      },
+      {
+        "headline": "What Meta’s Quarter Has to Show to Justify Wall Street’s Highest Targets",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=06fc12e1d9f3a8789bb9db31cd221b1b40723099b548d23c0c3390659858954b",
+        "datetime": 1792513830,
+        "headlineKo": "월스트리트의 최고 목표를 정당화하기 위해 Meta의 분기가 보여주어야 하는 것",
+        "relevance": 0.6,
+        "keywordFlag": false
+      },
       {
         "headline": "Meta (META): Can WhatsApp Become a Meaningful Business Beyond Advertising?",
         "source": "Yahoo",
@@ -47393,174 +47541,21 @@ const NEWS_DATA = {
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1791252619.0689604
         }
-      },
-      {
-        "headline": "Here’s Why I’m Very Skeptical of the META Stock Rally (And You Should Be Too)",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=710799cc9df66249f90c138987308540e1dfbc3f8750a344448be4a6ad53ae1c",
-        "datetime": 1791231543,
-        "headlineKo": "내가 META 주식 랠리에 대해 매우 회의적인 이유는 다음과 같습니다(당신도 그렇게 생각해야 합니다).",
-        "relevance": 0.6,
-        "keywordFlag": false
-      },
-      {
-        "headline": "The Simple Reason Meta and Google Will Win AI: Only “2% of US Households” Pay for It.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=898527f37f586052a6c22e453923ba0d2fc57d7669983be07029fbdc106f6390",
-        "datetime": 1791229332,
-        "headlineKo": "Meta와 Google이 AI에서 승리할 간단한 이유: \"미국 가구의 2%\"만이 비용을 지불합니다.",
-        "relevance": 0.6,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Meta와 Google이 AI에서 승리할 간단한 이유: \"미국 가구의 2%\"만이 비용을 지불합니다.",
-            "| TIKR.com 일반 투자 Meta와 Google이 AI를 이길 간단한 이유: \"미국 가구의 2%\"만이 비용을 지불합니다.",
-            "David Beren • 5분 읽기 검토자: Michael Douglass 최종 업데이트: 2026년 10월 5일 Getty Images의 sasha85ru, Canva를 통한 Getty Images의 ChristianChan 주요 내용 미국 가구 중 약 2%만이 AI 비용을 지불합니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 2%, 98%, $201 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "META의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "META",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "META에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.6,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "2%",
-            "98%",
-            "$201 billion",
-            "32%",
-            "80%",
-            "$196.2 billion",
-            "$83.3 billion",
-            "$363 billion"
-          ],
-          "sourceExcerpt": [
-            "The Simple Reason Meta and Google Will Win AI: Only &#8220;2% of US Households&#8221; Pay for It.",
-            "| TIKR.com General Investing The Simple Reason Meta and Google Will Win AI: Only “2% of US Households” Pay for It.",
-            "David Beren • 5 minute read Reviewed by: Michael Douglass Last updated Oct 5, 2026 sasha85ru from Getty Images, ChristianChan from Getty Images via Canva Key Takeaways Only about 2% of US households pay for AI."
-          ],
-          "analysisUpdatedAt": 1791252621.6144688
-        }
-      },
-      {
-        "headline": "“Zuck Is the Winner” of the White House AI Accord, and Meta’s Open-Source Risk Just Shrank",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=cb3377caa2069fb9387ff65e4c885546504b8d9c705e94030140a6f512312ecb",
-        "datetime": 1791228788,
-        "headlineKo": "백악관 AI 협약의 “Zuck이 승자”, Meta의 오픈 소스 위험이 줄어들었습니다.",
-        "relevance": 0.6,
-        "keywordFlag": false
-      },
-      {
-        "headline": "Meta and Microsoft scale back internal use of Anthropic’s Claude, report says",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c8debd594f580db979b14ed129f05e1fb2f4d9d872e473d00dbe6bd22b8ab8ef",
-        "datetime": 1791226722,
-        "headlineKo": "Meta와 Microsoft는 Anthropic의 Claude의 내부 사용을 축소했다고 보고서에 나와 있습니다.",
-        "relevance": 0.6,
-        "keywordFlag": false
-      },
-      {
-        "headline": "Pay Attention to Meta’s Quiet Dismantling of Its Biggest Mistake",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4343b9aa627dae05be2aa4793c9ddc292d4fa2edb21d0eb052f035ed2132f9cd",
-        "datetime": 1791218706,
-        "headlineKo": "메타의 최대 실수를 조용히 해체하는 것에 주목하라",
-        "relevance": 0.6,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "메타의 가장 큰 실수에 대한 조용한 해체에 주목하세요 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,785.10 +0.72% Dow Jones 51,365.60 +0.26% Nasdaq 100 31,076.20 +0.81% Russell 2000 2,859.41 +0.82% S&P 500 7,785.10 +0.72% 다우존스 51,365.60 +0.26% 나스닥 100 31,076.20 +0.81% 러셀 2000 2,859.41 +0.",
-            "작성자: Alex Sirois 2026년 10월 5일 오후 12시 45분(ET) 게시 · 3분 읽기 𝕏 f ⧉ Facebook 로고가 표시된 스마트폰은 흐릿한 Meta 로고 앞에 표시되어 있으며, 이는 전통적인 소셜 미디어를 넘어 Meta 플랫폼의 전략적 진화를 상징합니다."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $728.08., $19.2 billion, $597.37 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "META의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "META",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "META에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.6,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$728.08.",
-            "$19.2 billion",
-            "$597.37",
-            "22.9%",
-            "3.14%",
-            "27%",
-            "$59.36 billion",
-            "14%"
-          ],
-          "sourceExcerpt": [
-            "Pay Attention to Meta's Quiet Dismantling of Its Biggest Mistake - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,785.10 +0.72% Dow Jones 51,365.60 +0.26% Nasdaq 100 31,076.20 +0.81% Russell 2000 2,859.41 +0.82% S&P 500 7,785.10 +0.72% Dow Jones 51,365.60 +0.26% Nasdaq 100 31,076.20 +0.81% Russell 2000 2,859.41 +0.",
-            "By Alex Sirois Published October 5, 2026, 12:45pm ET · 3 min read 𝕏 f ⧉ A smartphone displaying the Facebook logo is shown in front of a blurred Meta logo, symbolizing Meta Platforms' strategic evolution beyond traditional social media as i"
-          ],
-          "analysisUpdatedAt": 1791230465.2871947
-        }
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:40",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:50",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "AAPL": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-11-02",
       "hour": "amc",
@@ -47570,31 +47565,33 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Apple Stock Downgraded As Analysts Turn Cautious On iPhone Maker",
+        "headline": "Apple faces gross margin pressure as UBS flags slowing iPhone growth ahead of earnings",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=92fa7bb756a7aea8ad47dc20ff241b30723421dee46c3cdd1e862a167dd43f2b",
-        "datetime": 1792504090,
+        "url": "https://finnhub.io/api/news?id=689fb5883c02a5dc568b7900df437e467926a35a939da5a2bcfec21138a4ca9e",
+        "datetime": 1792521960,
         "relevance": 0.57,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Apple Stock Downgraded As Analysts Turn Cautious On iPhone Maker",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "UBS가 실적에 앞서 iPhone 성장 둔화를 선언함에 따라 Apple은 매출총이익 압박에 직면해 있습니다 | NASDAQ:AAPL, XETRA:APC 무엇을 찾고 계십니까?",
+            "회사 뉴스 일치하는 모든 회사 보기 일치하는 모든 뉴스 보기 Tech Hardware & Electrical Equipment 작성자: Angela Harmantas 고지 사항 투자 조언 없음 이 콘텐츠 정보 편집 표준 및 정책 기사 공유 이 콘에 대하여",
+            "그녀는 특히 후배 자원주에 초점을 맞춰 북미 주식 시장을 다루는 15년 이상의 경험을 갖고 있습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $112.8 billion, $113.6 billion, $1.97, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -47604,26 +47601,38 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
           ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple Stock Downgraded As Analysts Turn Cautious On iPhone Maker' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "AAPL에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.57,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507245.6917834
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$112.8 billion",
+            "$113.6 billion",
+            "$1.97,",
+            "$1.99",
+            "$56 billion",
+            "14%",
+            "22%",
+            "23%"
+          ],
+          "sourceExcerpt": [
+            "Apple faces gross margin pressure as UBS flags slowing iPhone growth ahead of earnings | NASDAQ:AAPL, XETRA:APC What are you searching for?",
+            "Companies News See all companies matching See all news matching Tech Hardware & Electrical Equipment Written by: Angela Harmantas Disclaimer No investment advice About this content Editorial Standards & Policies Share article About this con",
+            "She has over 15 years of experience covering the equity markets in North America, with a particular focus on junior resource stocks."
+          ],
+          "analysisUpdatedAt": 1792529459.9992764
         },
-        "headlineKo": "애널리스트들이 아이폰 메이커에 대해 조심스러워하면서 애플 주식은 강등됐다"
+        "headlineKo": "UBS가 실적에 앞서 iPhone 성장 둔화를 지적함에 따라 Apple은 매출총이익 압박에 직면해 있습니다."
       },
       {
-        "headline": "Apple downgraded, Akamai upgraded: Wall Street's top analyst calls",
+        "headline": "Apple Expected to Report Fiscal Q4 Results In Line With Consensus, UBS Says",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4bfb8d37828d880b69512fa556a6e88025420ce344389cf75c07778d1668b3de",
-        "datetime": 1792503315,
+        "url": "https://finnhub.io/api/news?id=2fd190cb41e9b23b7c5bddb09066f0e231afb6a44a99b0b2248cae60bd5e44a6",
+        "datetime": 1792511241,
         "relevance": 0.29,
         "keywordFlag": false,
         "flagTerms": [],
@@ -47635,7 +47644,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Apple downgraded, Akamai upgraded: Wall Street's top analyst calls",
+            "Apple Expected to Report Fiscal Q4 Results In Line With Consensus, UBS Says",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -47659,85 +47668,118 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple downgraded, Akamai upgraded: Wall Street's top analyst calls' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple Expected to Report Fiscal Q4 Results In Line With Consensus, UBS Says' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.29,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507248.525755
+          "analysisUpdatedAt": 1792529462.044586
         },
-        "headlineKo": "Apple의 다운그레이드, Akamai의 업그레이드: 월스트리트의 최고 분석가 전화"
+        "headlineKo": "UBS, 애플이 합의에 따라 4분기 회계연도 결과를 보고할 것으로 예상"
       },
       {
-        "headline": "Parks Associates: 37% of Recent Home Security System Buyers are Renters as Apple Enters The Smart Home Market",
+        "headline": "Should You Buy Apple Stock Now or Wait for a Dip?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1b1cc389852f74369297d552caf707ead5f3e6285d4026ec875aade83fb7f15b",
-        "datetime": 1792501920,
+        "url": "https://finnhub.io/api/news?id=d900116cb4f7aa1c70fb3b960f3e6b2e95c1c557cc1fa75f77385a8693392631",
+        "datetime": 1792509541,
         "relevance": 0.29,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
+          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
           "facts": [
-            "Parks Associates: 37% of Recent Home Security System Buyers are Renters as Apple Enters The Smart Home Market",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
+            "기사 본문에서 언급된 수치: 26%, $5 trillion, $5.3 trillion, 40 times, $1,999., $339.50, $3.44, 1.00%.",
+            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
+            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
+            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
+            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
+            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
           ],
           "impacts": [
             {
               "ticker": "AAPL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
+              "stance": "혼합",
+              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "메모리 ASP와 이익률 개선 가능성"
+            },
+            {
+              "ticker": "WDC",
+              "stance": "긍정",
+              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
+            },
+            {
+              "ticker": "QCOM",
+              "stance": "중립·확인",
+              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "iPhone 18 실제 출고가·사전예약",
+            "애플 아이폰 출하량과 제품 믹스",
+            "메모리 현물·계약 가격",
+            "AAPL 매출총이익률과 MU/WDC 가이던스"
           ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Parks Associates: 37% of Recent Home Security System Buyers are Renters as Apple Enters The Smart Home Market' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Should You Buy Apple Stock Now or Wait for a Dip?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AAPL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
           "relevance": 0.29,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507250.8678722
+          "quality": "high",
+          "verifiedNumbers": [
+            "26%",
+            "$5 trillion",
+            "$5.3 trillion",
+            "40 times",
+            "$1,999.",
+            "$339.50",
+            "$3.44",
+            "1.00%"
+          ],
+          "sourceExcerpt": [
+            "Should You Buy Apple Stock Now or Wait for a Dip?",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Apple ( AAPL -1.00% ) may not be leading in artificial intelligence (AI) development, but the tech stock is one of the leading stoc",
+            "Year to date, it has risen by around 26% in value and has a market cap of $5 trillion, trailing only Nvidia , which has a valuation of around $5.3 trillion."
+          ],
+          "analysisUpdatedAt": 1792529463.2088432
         },
-        "headlineKo": "Parks Associates: Apple이 스마트 홈 시장에 진출함에 따라 최근 홈 보안 시스템 구매자 중 37%가 임차인입니다."
+        "headlineKo": "지금 애플 주식을 사야 할까요, 아니면 하락을 기다려야 할까요?"
       },
       {
-        "headline": "Apple Schedules Launch Event For New Pro Macs Under Leadership Of John Ternus",
+        "headline": "Mark Zuckerberg once trashed Apple. Now he’s thanking its new CEO — and had to do it on Elon Musk’s X, not Threads",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=cd7b2faa60af4ed849b3083a42831afee17c5d3009829a9c11356449ace14d77",
-        "datetime": 1792501776,
+        "url": "https://finnhub.io/api/news?id=b88918e723a1b66a3500e3d72ec5b4742c19f7e6d66a9d373ca7eebc9d7cae3d",
+        "datetime": 1792508400,
         "relevance": 0.29,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Apple, John Ternus의 리더십 하에 새로운 Pro Mac 출시 이벤트 예정"
+        "headlineKo": "Mark Zuckerberg는 한때 Apple을 망쳤습니다. 이제 그는 새로운 CEO에게 감사를 표하고 있으며 Threads가 아닌 Elon Musk의 X에서 감사를 표해야 했습니다."
       },
       {
-        "headline": "AAPL Stock Downgraded As iPhone Shipment Concerns Mount — Analysts Flag Sales Growth Slowing",
+        "headline": "Apple Stock Is the Best Performer in the Mag 7. An Analyst Downgrade Signals It’s Time to Pump the Brakes.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=39ee21b69b008a2a3649595c9409b850919568246badf1b6c3ff98ea510e0bfd",
-        "datetime": 1792499894,
-        "relevance": 0.71,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "iPhone 출하 문제가 증가함에 따라 AAPL 주식이 하향 조정됨 - 분석가들은 판매 성장 둔화를 표시"
+        "url": "https://finnhub.io/api/news?id=629024c0ad4c3d5ad399d0a02bbf58b7a13a9055f3960ca69882fa43fca7e570",
+        "datetime": 1792506180,
+        "relevance": 0.29,
+        "keywordFlag": true,
+        "flagTerms": [
+          "downgrade"
+        ],
+        "headlineKo": "Apple 주식은 Mag 7에서 가장 좋은 성과를 냈습니다. 분석가의 다운그레이드는 이제 브레이크를 밟을 때라는 신호를 보냅니다."
       },
       {
         "headline": "Apple bets on the same Siri AI technology with new HomeView device that led to a $250M settlement for iPhone users",
@@ -47793,6 +47835,219 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Apple faces gross margin pressure as UBS flags slowing iPhone growth ahead of earnings",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=689fb5883c02a5dc568b7900df437e467926a35a939da5a2bcfec21138a4ca9e",
+        "datetime": 1792521960,
+        "headlineKo": "UBS가 실적에 앞서 iPhone 성장 둔화를 지적함에 따라 Apple은 매출총이익 압박에 직면해 있습니다.",
+        "relevance": 0.57,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "UBS가 실적에 앞서 iPhone 성장 둔화를 선언함에 따라 Apple은 매출총이익 압박에 직면해 있습니다 | NASDAQ:AAPL, XETRA:APC 무엇을 찾고 계십니까?",
+            "회사 뉴스 일치하는 모든 회사 보기 일치하는 모든 뉴스 보기 Tech Hardware & Electrical Equipment 작성자: Angela Harmantas 고지 사항 투자 조언 없음 이 콘텐츠 정보 편집 표준 및 정책 기사 공유 이 콘에 대하여",
+            "그녀는 특히 후배 자원주에 초점을 맞춰 북미 주식 시장을 다루는 15년 이상의 경험을 갖고 있습니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $112.8 billion, $113.6 billion, $1.97, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "AAPL에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.57,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$112.8 billion",
+            "$113.6 billion",
+            "$1.97,",
+            "$1.99",
+            "$56 billion",
+            "14%",
+            "22%",
+            "23%"
+          ],
+          "sourceExcerpt": [
+            "Apple faces gross margin pressure as UBS flags slowing iPhone growth ahead of earnings | NASDAQ:AAPL, XETRA:APC What are you searching for?",
+            "Companies News See all companies matching See all news matching Tech Hardware & Electrical Equipment Written by: Angela Harmantas Disclaimer No investment advice About this content Editorial Standards & Policies Share article About this con",
+            "She has over 15 years of experience covering the equity markets in North America, with a particular focus on junior resource stocks."
+          ],
+          "analysisUpdatedAt": 1792529459.9992764
+        }
+      },
+      {
+        "headline": "Apple Expected to Report Fiscal Q4 Results In Line With Consensus, UBS Says",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2fd190cb41e9b23b7c5bddb09066f0e231afb6a44a99b0b2248cae60bd5e44a6",
+        "datetime": 1792511241,
+        "headlineKo": "UBS, 애플이 합의에 따라 4분기 회계연도 결과를 보고할 것으로 예상",
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Apple Expected to Report Fiscal Q4 Results In Line With Consensus, UBS Says",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple Expected to Report Fiscal Q4 Results In Line With Consensus, UBS Says' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.29,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529462.044586
+        }
+      },
+      {
+        "headline": "Should You Buy Apple Stock Now or Wait for a Dip?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d900116cb4f7aa1c70fb3b960f3e6b2e95c1c557cc1fa75f77385a8693392631",
+        "datetime": 1792509541,
+        "headlineKo": "지금 애플 주식을 사야 할까요, 아니면 하락을 기다려야 할까요?",
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
+          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
+          "facts": [
+            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
+            "기사 본문에서 언급된 수치: 26%, $5 trillion, $5.3 trillion, 40 times, $1,999., $339.50, $3.44, 1.00%.",
+            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
+          ],
+          "why": [
+            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
+            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
+            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
+          ],
+          "beginner": [
+            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
+            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
+            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "혼합",
+              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "메모리 ASP와 이익률 개선 가능성"
+            },
+            {
+              "ticker": "WDC",
+              "stance": "긍정",
+              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
+            },
+            {
+              "ticker": "QCOM",
+              "stance": "중립·확인",
+              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
+            }
+          ],
+          "watch": [
+            "iPhone 18 실제 출고가·사전예약",
+            "애플 아이폰 출하량과 제품 믹스",
+            "메모리 현물·계약 가격",
+            "AAPL 매출총이익률과 MU/WDC 가이던스"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Should You Buy Apple Stock Now or Wait for a Dip?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AAPL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 0.29,
+          "quality": "high",
+          "verifiedNumbers": [
+            "26%",
+            "$5 trillion",
+            "$5.3 trillion",
+            "40 times",
+            "$1,999.",
+            "$339.50",
+            "$3.44",
+            "1.00%"
+          ],
+          "sourceExcerpt": [
+            "Should You Buy Apple Stock Now or Wait for a Dip?",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Apple ( AAPL -1.00% ) may not be leading in artificial intelligence (AI) development, but the tech stock is one of the leading stoc",
+            "Year to date, it has risen by around 26% in value and has a market cap of $5 trillion, trailing only Nvidia , which has a valuation of around $5.3 trillion."
+          ],
+          "analysisUpdatedAt": 1792529463.2088432
+        }
+      },
+      {
+        "headline": "Mark Zuckerberg once trashed Apple. Now he’s thanking its new CEO — and had to do it on Elon Musk’s X, not Threads",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b88918e723a1b66a3500e3d72ec5b4742c19f7e6d66a9d373ca7eebc9d7cae3d",
+        "datetime": 1792508400,
+        "headlineKo": "Mark Zuckerberg는 한때 Apple을 망쳤습니다. 이제 그는 새로운 CEO에게 감사를 표하고 있으며 Threads가 아닌 Elon Musk의 X에서 감사를 표해야 했습니다.",
+        "relevance": 0.29,
+        "keywordFlag": false
+      },
+      {
+        "headline": "Apple Stock Is the Best Performer in the Mag 7. An Analyst Downgrade Signals It’s Time to Pump the Brakes.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=629024c0ad4c3d5ad399d0a02bbf58b7a13a9055f3960ca69882fa43fca7e570",
+        "datetime": 1792506180,
+        "headlineKo": "Apple 주식은 Mag 7에서 가장 좋은 성과를 냈습니다. 분석가의 다운그레이드는 이제 브레이크를 밟을 때라는 신호를 보냅니다.",
+        "relevance": 0.29,
+        "keywordFlag": true,
+        "flagTerms": [
+          "downgrade"
+        ]
+      },
       {
         "headline": "Apple Stock Downgraded As Analysts Turn Cautious On iPhone Maker",
         "source": "Yahoo",
@@ -55080,245 +55335,21 @@ const NEWS_DATA = {
         "headlineKo": "Apple(AAPL)의 분기 기록이 배수를 정당화할 수 있습니까?",
         "relevance": 0.71,
         "keywordFlag": false
-      },
-      {
-        "headline": "Apple Turned $10,000 Into Nearly $129,000. Can It Do It Again?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c4601bf13afba59305609d20e53ff6163920370fb394bc407ec76b4ad02f9551",
-        "datetime": 1791291601,
-        "headlineKo": "애플은 10,000달러를 거의 129,000달러로 바꿨습니다. 다시 할 수 있을까?",
-        "relevance": 0.29,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "애플은 10,000달러를 거의 129,000달러로 바꿨습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,837.80 +0.65% Dow Jones 51,571.40 +0.40% Nasdaq 100 31,368.20 +0.76% Russell 2000 2,845.37 −0.30% S&P 500 7,837.80 +0.65% 다우존스 51,571.40 +0.40% 나스닥 100 31,368.20 +0.76% 러셀 2000 2,845.37 −0.",
-            "Apple은 지난 10년 동안 적당한 투자를 통해 작은 재산으로 변했지만 시가총액이 5조 달러에 달하면서 수학은 근본적으로 바뀌었습니다."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $10,000, $129,000., $5 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AAPL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "AAPL에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.29,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$10,000",
-            "$129,000.",
-            "$5 trillion",
-            "$25.73",
-            "$333.45,",
-            "1196%",
-            "$129,600",
-            "$4.87"
-          ],
-          "sourceExcerpt": [
-            "Apple Turned $10,000 Into Nearly $129,000.",
-            "Skip to content ❚❚ At close S&P 500 7,837.80 +0.65% Dow Jones 51,571.40 +0.40% Nasdaq 100 31,368.20 +0.76% Russell 2000 2,845.37 −0.30% S&P 500 7,837.80 +0.65% Dow Jones 51,571.40 +0.40% Nasdaq 100 31,368.20 +0.76% Russell 2000 2,845.37 −0.",
-            "Apple turned a modest investment into a small fortune over the last decade, but with a market cap pushing $5 trillion, the math has fundamentally changed."
-          ],
-          "analysisUpdatedAt": 1791299089.100828
-        }
-      },
-      {
-        "headline": "Apple (AAPL) Trading Above Analyst Targets as Memory Costs Crimp Margin Outlook",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=739973eb0516a3691e32c326fd677a89cd62a7b7602bd41e87e2fd17fa5fb43f",
-        "datetime": 1791290142,
-        "headlineKo": "메모리 비용 압착 마진 전망으로 인해 Apple(AAPL) 거래가 분석가 목표를 초과했습니다.",
-        "relevance": 0.71,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "메모리 비용 압착 마진 전망으로 인해 Apple(AAPL) 거래가 애널리스트 목표를 초과했습니다 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,837.80 +0.65% Dow Jones 51,571.40 +0.40% Nasdaq 100 31,368.20 +0.76% Russell 2000 2,845.37 −0.30% S&P 500 7,837.80 +0.65% 다우존스 51,571.40 +0.40% 나스닥 100 31,368.20 +0.76% 러셀 2000 2,845.37 −0.",
-            "작성자: Omor Ibne Ehsan 2026년 10월 6일 오전 8시 35분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 눈에 띄는 녹색 황소와 상승 추세의 주식 차트는 투자가에 대한 기사의 초점을 반영하여 Apple 주식의 상당한 성장 가능성을 보여줍니다."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $332.89,, $328.09, $334.90. — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AAPL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "AAPL에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.71,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$332.89,",
-            "$328.09",
-            "$334.90.",
-            "$215",
-            "$405.",
-            "$340,",
-            "$9.5758",
-            "$9.6826"
-          ],
-          "sourceExcerpt": [
-            "Apple (AAPL) Trading Above Analyst Targets as Memory Costs Crimp Margin Outlook - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,837.80 +0.65% Dow Jones 51,571.40 +0.40% Nasdaq 100 31,368.20 +0.76% Russell 2000 2,845.37 −0.30% S&P 500 7,837.80 +0.65% Dow Jones 51,571.40 +0.40% Nasdaq 100 31,368.20 +0.76% Russell 2000 2,845.37 −0.",
-            "By Omor Ibne Ehsan Published October 6, 2026, 8:35am ET · 3 min read 𝕏 f ⧉ A prominent green bull and an upward trending stock chart illustrate the potential for significant growth in Apple stock, reflecting the article's focus on investmen"
-          ],
-          "analysisUpdatedAt": 1791299092.0301294
-        }
-      },
-      {
-        "headline": "22%: The One Number That Matters Most for Apple (AAPL) Shareholders",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=335897208476f1904381823ddc2b672d59e451c9f59bd4da898e42dd370fdd78",
-        "datetime": 1791285600,
-        "headlineKo": "22%: Apple(AAPL) 주주에게 가장 중요한 숫자",
-        "relevance": 0.71,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "mixed",
-          "certainty": "전망·추정 포함",
-          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
-          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
-          "facts": [
-            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
-            "기사 본문에서 언급된 수치: 22%, 22.4%, 0.27 %, $ 0.91, $ 333.80, $4.9, $ 330.62, $ 334.38.",
-            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
-          ],
-          "why": [
-            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
-            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
-            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
-          ],
-          "beginner": [
-            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
-            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
-            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AAPL",
-              "stance": "혼합",
-              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "메모리 ASP와 이익률 개선 가능성"
-            },
-            {
-              "ticker": "WDC",
-              "stance": "긍정",
-              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
-            },
-            {
-              "ticker": "QCOM",
-              "stance": "중립·확인",
-              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
-            }
-          ],
-          "watch": [
-            "iPhone 18 실제 출고가·사전예약",
-            "애플 아이폰 출하량과 제품 믹스",
-            "메모리 현물·계약 가격",
-            "AAPL 매출총이익률과 MU/WDC 가이던스"
-          ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 '22%: The One Number That Matters Most for Apple (AAPL) Shareholders' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: AAPL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
-          "relevance": 0.71,
-          "quality": "high",
-          "verifiedNumbers": [
-            "22%",
-            "22.4%",
-            "0.27 %",
-            "$ 0.91",
-            "$ 333.80",
-            "$4.9",
-            "$ 330.62",
-            "$ 334.38"
-          ],
-          "sourceExcerpt": [
-            "22%: The One Number That Matters Most for Apple (AAPL) Shareholders | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Apple 's ( AAPL +0.27% ) capital expenditures totaled just $6.8",
-            "That pales in comparison to how much money other big tech companies are spending as they race to build data centers to power the artificial intelligence (AI) buildout.",
-            "But Apple isn't falling behind from a competitive point of view."
-          ],
-          "analysisUpdatedAt": 1791299092.9661367
-        }
-      },
-      {
-        "headline": "The Apple HomePad Pricing Vacuum",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=bcd1a6fa16e75b61bf96e036e2e5b19f836e7dc97bc39c96043c217b6eafffd8",
-        "datetime": 1791278204,
-        "headlineKo": "Apple HomePad 가격 진공",
-        "relevance": 0.29,
-        "keywordFlag": false
-      },
-      {
-        "headline": "Why Oura really pulled its IPO: Wall Street experts suspect valuation concerns, an insider cash-out, and an Apple-sized threat",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9f97d08231e16082b35f2f647475026bae94aa5f5673a77c6e2ad3477cad0aef",
-        "datetime": 1791270000,
-        "headlineKo": "Oura가 실제로 IPO를 철회한 이유: 월스트리트 전문가들은 가치 평가 문제, 내부자 현금 유출 및 Apple 규모의 위협을 의심합니다.",
-        "relevance": 0.29,
-        "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:40",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:51",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "TSLA": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-10-21",
       "hour": "amc",
@@ -55328,74 +55359,10 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "SpaceX And Tesla Prepare Side By Side Earnings Reports Amid Merger Speculation",
+        "headline": "Tesla Q3 preview: Delivery outlook, cash flow, and a dash of merger speculation on tap",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b116d5cefe2ef9a22df93d20c56dd06dedea01fddc7644f95b66318bea830fc1",
-        "datetime": 1792502013,
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "SpaceX와 Tesla, 합병 추측 속에 나란히 수익 보고서 준비 | TIKR.com 일반 투자 SpaceX와 Tesla, 합병 추측 속에서 나란히 수익 보고서 준비 Aditya Raghunath • 4분 읽기 검토자: David H",
-            "19: $148 52주 최고가: $226 $SPCX 주가 목표: $223 현재 진행 중: TIKR의 새로운 가치 평가 모델을 사용하여 좋아하는 주식이 얼마나 상승할 수 있는지 알아보세요(무료) >>> 무슨 일이 일어났나요?",
-            "SpaceX(SPCX)는 화요일 시장 마감 후 3분기 실적을 발표하고 Tesla는 수요일에 뒤를 따릅니다."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 3%, $148, $226 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "TSLA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "TSLA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "TSLA에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "3%",
-            "$148",
-            "$226",
-            "$223",
-            "37%",
-            "56%",
-            "$12.74 billion",
-            "$7.8 billion"
-          ],
-          "sourceExcerpt": [
-            "SpaceX And Tesla Prepare Side By Side Earnings Reports Amid Merger Speculation | TIKR.com General Investing SpaceX And Tesla Prepare Side By Side Earnings Reports Amid Merger Speculation Aditya Raghunath • 4 minute read Reviewed by: David H",
-            "19: $148 52-Week High: $226 $SPCX Stock Price Target: $223 Now Live: Discover how much upside your favorite stocks could have using TIKR’s new Valuation Model (It’s free) >>> What Happened?",
-            "SpaceX ( SPCX ) reports Q3 results on Tuesday after markets close , and Tesla follows on Wednesday."
-          ],
-          "analysisUpdatedAt": 1792507264.1562352
-        },
-        "headlineKo": "SpaceX와 Tesla, 합병 추측 속에서 나란히 수익 보고서 준비"
-      },
-      {
-        "headline": "What could a Tesla-SpaceX merger earn? Cathie Wood's Ark Invest has a $2.7 trillion answer.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0ac16afd660cd5d9b2c363578dad833de88f6bab9cb72d46471d693a2c8d48a4",
-        "datetime": 1792501682,
+        "url": "https://finnhub.io/api/news?id=2f8a739fd0a83c4f879cd360a6f1bb0c121481033ff68df6023c402a1daef106",
+        "datetime": 1792512397,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
@@ -55407,7 +55374,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "What could a Tesla-SpaceX merger earn? Cathie Wood's Ark Invest has a $2.7 trillion answer.",
+            "Tesla Q3 preview: Delivery outlook, cash flow, and a dash of merger speculation on tap",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -55431,43 +55398,43 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 TSLA의 사업과 관련된 'What could a Tesla-SpaceX merger earn? Cathie Wood's Ark Invest has a $2.7 trillion answer.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Tesla Q3 preview: Delivery outlook, cash flow, and a dash of merger speculation on tap' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 비용·CAPEX·영업현금흐름·FCF·부채 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "TSLA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.4,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507266.4949203
+          "analysisUpdatedAt": 1792529470.8579412
         },
-        "headlineKo": "Tesla-SpaceX 합병으로 무엇을 얻을 수 있습니까? Cathie Wood의 Ark Invest에는 2조 7천억 달러의 답이 있습니다."
+        "headlineKo": "Tesla Q3 미리보기: 납품 전망, 현금 흐름 및 합병 추측이 곧 다가옵니다."
       },
       {
-        "headline": "Tesla Reports With 21 Analysts on Hold. Here’s What Would Change Their Minds",
+        "headline": "Tesla Just Put a $158 Billion Price Tag on Elon Musk’s Pay for Last Year",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=53011929080f0c03c6183ad058f12c411b63af3b3817da164ffdf7b1ae7b770a",
-        "datetime": 1792501223,
+        "url": "https://finnhub.io/api/news?id=4bf910b66e123ef22b656dac6189d6563601a962280bb34467d09828ea471d0d",
+        "datetime": 1792509458,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "high",
+          "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "주식 희석 · 주당가치 확인",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Tesla는 21명의 애널리스트가 보류된 보고서를 발표했습니다.",
-            "그들의 마음을 바꿀 것은 다음과 같습니다 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% 다우존스 52,602.00 +1.07% 나스닥 100 29,665.80 +0.27% 러셀 2000 2,776.94 +1."
+            "Tesla는 작년에 Elon Musk의 급여에 1,580억 달러의 가격표를 붙였습니다. - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% 다우존스 52,632.50 +1.13% 나스닥 100 29,606.60 +0.07% 러셀 2000 2,779.59 +1.",
+            "작성자: Omor Ibne Ehsan 2026년 10월 20일 오전 11시 17분(ET) 게시 · 3분 분량 𝕏 f ⧉ 이 그래픽은 Tesla의 상당한 시장 영향과 미래 전쟁을 반영하여 Elon Musk의 보상과 관련된 엄청난 1,580억 달러 가치 평가를 시각화합니다."
           ],
           "why": [
-            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $391.09, $354.72, 10.25% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $158 Billion, $158 billion, $158,359,009,867, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "TSLA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -55478,52 +55445,102 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "신규 주식 수·행사가격",
-            "조달 자금 사용처",
-            "완전희석 주식수와 EPS"
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
           ],
-          "interpretation": "TSLA에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "TSLA에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.4,
           "quality": "medium",
           "verifiedNumbers": [
-            "$391.09",
-            "$354.72",
-            "10.25%",
-            "90%",
-            "$397.83",
-            "21.12%",
-            "7.31%",
-            "0.94%"
+            "$158 Billion",
+            "$158 billion",
+            "$158,359,009,867,",
+            "3.76%",
+            "$368.06,",
+            "$1.45 trillion",
+            "18.16%",
+            "$132,298,849,867,"
           ],
           "sourceExcerpt": [
-            "Tesla Reports With 21 Analysts on Hold.",
-            "Here's What Would Change Their Minds - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1."
+            "Tesla Just Put a $158 Billion Price Tag on Elon Musk's Pay for Last Year - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.",
+            "By Omor Ibne Ehsan Published October 20, 2026, 11:17am ET · 3 min read 𝕏 f ⧉ This graphic visualizes the immense $158 billion valuation associated with Elon Musk's compensation, reflecting Tesla's significant market impact and future-forwar"
           ],
-          "analysisUpdatedAt": 1792507269.647624
+          "analysisUpdatedAt": 1792529475.5745609
         },
-        "headlineKo": "Tesla는 21명의 애널리스트가 보류된 보고서를 발표했습니다. 그들의 마음을 바꿀 것은 다음과 같습니다"
+        "headlineKo": "Tesla는 작년에 Elon Musk의 급여에 1,580억 달러의 가격표를 붙였습니다."
       },
       {
-        "headline": "Tesla Earnings Spotlight SpaceX Merger Talk. Here's What Analysts, Musk Say.",
+        "headline": "EXCLUSIVE: Tesla SpaceX Merger? 70% of Benzinga Viewers Say Elon Musk Will Get There — But Not When You Think",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=fbaff328d6091f755dfe7b664837044296412b058b72de210cf06399c00d7178",
-        "datetime": 1792500937,
+        "url": "https://finnhub.io/api/news?id=d0734ec45ba7662345f43dd7e43294765a0102bbc25418a00c1de42e0590043e",
+        "datetime": 1792508712,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Tesla 수익 스포트라이트 SpaceX 합병 토크. 애널리스트 머스크가 말하는 내용은 다음과 같습니다."
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "EXCLUSIVE: Tesla SpaceX Merger? 70% of Benzinga Viewers Say Elon Musk Will Get There — But Not When You Think",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "TSLA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 'EXCLUSIVE: Tesla SpaceX Merger? 70% of Benzinga Viewers Say Elon Musk Will Get There — But Not When You Think' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "TSLA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529476.2466114
+        },
+        "headlineKo": "독점: Tesla SpaceX 합병? Benzinga 시청자 중 70%는 Elon Musk가 성공할 것이라고 말합니다. 그러나 생각해보면 그렇지 않습니다."
       },
       {
-        "headline": "Tesla’s Roadster Debut Reveals A Bigger Truth About Its Valuation",
+        "headline": "SpaceX And Tesla Prepare Side By Side Earnings Reports Amid Merger Speculation",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c07410a9c51b8e8dd45953c6729903391de63114fc9cdc285796eabba94dc929",
-        "datetime": 1792500345,
+        "url": "https://finnhub.io/api/news?id=b116d5cefe2ef9a22df93d20c56dd06dedea01fddc7644f95b66318bea830fc1",
+        "datetime": 1792502013,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Tesla의 로드스터 데뷔는 가치 평가에 대한 더 큰 진실을 드러냅니다."
+        "headlineKo": "SpaceX와 Tesla, 합병 추측 속에서 나란히 수익 보고서 준비"
+      },
+      {
+        "headline": "What could a Tesla-SpaceX merger earn? Cathie Wood's Ark Invest has a $2.7 trillion answer.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0ac16afd660cd5d9b2c363578dad833de88f6bab9cb72d46471d693a2c8d48a4",
+        "datetime": 1792501682,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Tesla-SpaceX 합병으로 무엇을 얻을 수 있습니까? Cathie Wood의 Ark Invest에는 2조 7천억 달러의 답이 있습니다."
       },
       {
         "headline": "Tesla Just Won in Court: Self-Driving Buyers Can’t Sue as a Class",
@@ -55777,6 +55794,167 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Tesla Q3 preview: Delivery outlook, cash flow, and a dash of merger speculation on tap",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2f8a739fd0a83c4f879cd360a6f1bb0c121481033ff68df6023c402a1daef106",
+        "datetime": 1792512397,
+        "headlineKo": "Tesla Q3 미리보기: 납품 전망, 현금 흐름 및 합병 추측이 곧 다가옵니다.",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Tesla Q3 preview: Delivery outlook, cash flow, and a dash of merger speculation on tap",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "TSLA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Tesla Q3 preview: Delivery outlook, cash flow, and a dash of merger speculation on tap' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 비용·CAPEX·영업현금흐름·FCF·부채 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "TSLA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529470.8579412
+        }
+      },
+      {
+        "headline": "Tesla Just Put a $158 Billion Price Tag on Elon Musk’s Pay for Last Year",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4bf910b66e123ef22b656dac6189d6563601a962280bb34467d09828ea471d0d",
+        "datetime": 1792509458,
+        "headlineKo": "Tesla는 작년에 Elon Musk의 급여에 1,580억 달러의 가격표를 붙였습니다.",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Tesla는 작년에 Elon Musk의 급여에 1,580억 달러의 가격표를 붙였습니다. - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% 다우존스 52,632.50 +1.13% 나스닥 100 29,606.60 +0.07% 러셀 2000 2,779.59 +1.",
+            "작성자: Omor Ibne Ehsan 2026년 10월 20일 오전 11시 17분(ET) 게시 · 3분 분량 𝕏 f ⧉ 이 그래픽은 Tesla의 상당한 시장 영향과 미래 전쟁을 반영하여 Elon Musk의 보상과 관련된 엄청난 1,580억 달러 가치 평가를 시각화합니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $158 Billion, $158 billion, $158,359,009,867, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "TSLA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "TSLA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "TSLA에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.4,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$158 Billion",
+            "$158 billion",
+            "$158,359,009,867,",
+            "3.76%",
+            "$368.06,",
+            "$1.45 trillion",
+            "18.16%",
+            "$132,298,849,867,"
+          ],
+          "sourceExcerpt": [
+            "Tesla Just Put a $158 Billion Price Tag on Elon Musk's Pay for Last Year - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.",
+            "By Omor Ibne Ehsan Published October 20, 2026, 11:17am ET · 3 min read 𝕏 f ⧉ This graphic visualizes the immense $158 billion valuation associated with Elon Musk's compensation, reflecting Tesla's significant market impact and future-forwar"
+          ],
+          "analysisUpdatedAt": 1792529475.5745609
+        }
+      },
+      {
+        "headline": "EXCLUSIVE: Tesla SpaceX Merger? 70% of Benzinga Viewers Say Elon Musk Will Get There — But Not When You Think",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d0734ec45ba7662345f43dd7e43294765a0102bbc25418a00c1de42e0590043e",
+        "datetime": 1792508712,
+        "headlineKo": "독점: Tesla SpaceX 합병? Benzinga 시청자 중 70%는 Elon Musk가 성공할 것이라고 말합니다. 그러나 생각해보면 그렇지 않습니다.",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "EXCLUSIVE: Tesla SpaceX Merger? 70% of Benzinga Viewers Say Elon Musk Will Get There — But Not When You Think",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "TSLA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 'EXCLUSIVE: Tesla SpaceX Merger? 70% of Benzinga Viewers Say Elon Musk Will Get There — But Not When You Think' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "TSLA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529476.2466114
+        }
+      },
       {
         "headline": "SpaceX And Tesla Prepare Side By Side Earnings Reports Amid Merger Speculation",
         "source": "Yahoo",
@@ -63020,182 +63198,21 @@ const NEWS_DATA = {
           ],
           "analysisUpdatedAt": 1791344946.7118304
         }
-      },
-      {
-        "headline": "UBS holds its ground on Tesla after mixed delivery results",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=95e2c242f840f76b840b13362fa9d7729ee6c869ee4c44ab8b20c426675a38e6",
-        "datetime": 1791306420,
-        "headlineKo": "UBS는 엇갈린 배송 결과 이후 Tesla에 대한 입지를 유지하고 있습니다.",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "UBS holds its ground on Tesla after mixed delivery results",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "TSLA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 TSLA의 사업과 관련된 'UBS holds its ground on Tesla after mixed delivery results' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "TSLA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.4,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791344947.4130986
-        }
-      },
-      {
-        "headline": "Stellantis N.V. vs. Tesla: Which Consumer Stock Is a Better Buy in 2026?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=23cf5fafacfae18434de2be3c4c6dcb1f4ead23dd82c2105cb270f86518c0428",
-        "datetime": 1791300152,
-        "headlineKo": "Stellantis N.V. vs. Tesla: 2026년에는 어느 소비재 주식이 더 나은 매수인가요?",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Tesla: 2026년에는 어느 소비재 주식이 더 나은 매수인가요?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Can Stellantis N.V.의 가치 지향, 멀티 브랜드 전략",
-            "( STLA +2.67% ) 급변하는 자동차 환경에서 Tesla( TSLA +0.52% )의 고성장, 고평가 매력을 극복할 수 있을까요?"
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 2.67%, 0.52%, 2.1% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "TSLA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "TSLA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "TSLA에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "2.67%",
-            "0.52%",
-            "2.1%",
-            "€22.3 billion",
-            "€5.5 billion",
-            "14.6%",
-            "€4.5 billion",
-            "$94.8 billion"
-          ],
-          "sourceExcerpt": [
-            "Tesla: Which Consumer Stock Is a Better Buy in 2026?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Can the value-oriented, multi-brand strategy of Stellantis N.V.",
-            "( STLA +2.67% ) overcome the high-growth, high-valuation allure of Tesla ( TSLA +0.52% ) in a rapidly changing automotive landscape?"
-          ],
-          "analysisUpdatedAt": 1791344949.7965403
-        }
-      },
-      {
-        "headline": "Elon Musk Is a Trillionaire Again Thanks to Recent Tesla, SpaceX Rally",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=26779e759d69c2ff75efc0ebff39158ce108195f93dc1d9eb4b80add7206bdbd",
-        "datetime": 1791296982,
-        "headlineKo": "Elon Musk는 최근 Tesla, SpaceX Rally 덕분에 다시 억만장자가 되었습니다.",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Elon Musk Is a Trillionaire Again Thanks to Recent Tesla, SpaceX Rally",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "TSLA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Elon Musk Is a Trillionaire Again Thanks to Recent Tesla, SpaceX Rally' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "TSLA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.4,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791322153.4253879
-        }
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:41",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:51",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "ORCL": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-12-08",
       "hour": "",
@@ -63205,60 +63222,10 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Oracle (ORCL): Can Rival Clouds Become Its Best Database Sales Channel?",
+        "headline": "Oracle Just Dropped 12% in a Month. Is It Time to Sell, or Load Up?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5d6bb27d5ab4ebbd36742769aa15dfde1874f5e877d262c3b56932c442e2a5a9",
-        "datetime": 1792503941,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Oracle (ORCL): Can Rival Clouds Become Its Best Database Sales Channel?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "ORCL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 ORCL의 사업과 관련된 'Oracle (ORCL): Can Rival Clouds Become Its Best Database Sales Channel?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "ORCL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507278.4208448
-        },
-        "headlineKo": "Oracle(ORCL): 라이벌 클라우드가 최고의 데이터베이스 판매 채널이 될 수 있습니까?"
-      },
-      {
-        "headline": "CoreWeave Falls 4% as HSBC Reiterates Bearish Call on Debt Risk; Nebius Drops 5%, Oracle Holds Steady",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f50f0ffd0a16f4f1828a936de65b8bfc3384b8bd07a87266f75064a5f500e81d",
-        "datetime": 1792499783,
+        "url": "https://finnhub.io/api/news?id=274bb1f041dfedcb55ab603d99a7f7bf4321bd1bf59ac3c1052289adad827869",
+        "datetime": 1792513575,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
@@ -63270,13 +63237,13 @@ const NEWS_DATA = {
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "HSBC가 부채 위험에 대한 약세 전망을 반복함에 따라 CoreWeave는 4% 하락했습니다. Nebius는 5% 하락하고 Oracle은 안정적으로 유지됩니다 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% 다우존스 52,602.00 +1.07% 나스닥 100 29,665.80 +0.27% 러셀 2000 2,776.94 +1.",
-            "작성자 David Moadel 2026년 10월 20일 오전 8시 36분(ET) 게시 · 3분 읽기 Market Movers 데스크."
+            "오라클은 한 달 만에 12% 하락했습니다.",
+            "| TIKR.com General Investing Oracle은 한 달 만에 12% 하락했습니다.",
+            "Roxanna Maglangit • 5분 읽기 검토자: Michael Douglass 최종 업데이트: 2026년 10월 20일 pixabay의 v2killer7603 및 Getty Images의 spxChrome Getty Images의 서명 DanielPrudek 및 Pexels의 The Weekender Bianca Constant"
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 4%, 5%, $58.67 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 12%, $90 billion, $169.1 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "ORCL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -63300,22 +63267,143 @@ const NEWS_DATA = {
           "relevance": 0.5,
           "quality": "medium",
           "verifiedNumbers": [
-            "4%",
-            "5%",
-            "$58.67",
-            "$162.20.",
-            "0.52%",
-            "$128.95,",
-            "$161.08,",
-            "0.75%"
+            "12%",
+            "$90 billion",
+            "$169.1 billion",
+            "25%",
+            "5.5%",
+            "8.8%",
+            "3.7%",
+            "15%"
           ],
           "sourceExcerpt": [
-            "CoreWeave Falls 4% as HSBC Reiterates Bearish Call on Debt Risk; Nebius Drops 5%, Oracle Holds Steady - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.",
-            "By David Moadel Published October 20, 2026, 8:36am ET · 3 min read Market Movers desk."
+            "Oracle Just Dropped 12% in a Month.",
+            "| TIKR.com General Investing Oracle Just Dropped 12% in a Month.",
+            "Roxanna Maglangit • 5 minute read Reviewed by: Michael Douglass Last updated Oct 20, 2026 v2killer7603 from pixabay and spxChrome from Getty Images Signature DanielPrudek from Getty Images and Burak The Weekender from Pexels Bianca Constant"
           ],
-          "analysisUpdatedAt": 1792507282.8556523
+          "analysisUpdatedAt": 1792529483.7693043
         },
+        "headlineKo": "오라클은 한 달 만에 12% 하락했습니다. 판매할 시간인가, 아니면 장전할 시간인가?"
+      },
+      {
+        "headline": "Oracle (ORCL) Expands Its AI Healthcare Push With A New Drugmaker Partnership",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9deffecb0b309742ae93c8101e3125a8864e6c1fe78c207c71d198c6aa1cd39d",
+        "datetime": 1792512826,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "파트너십 발표·상업화 규모 확인 필요",
+          "label": "클라우드 생태계 확장",
+          "horizon": "중장기 계약·클라우드 매출 반영",
+          "facts": [
+            "Oracle Cloud Infrastructure에서 양자컴퓨팅 서비스를 제공하기 위한 다년간 파트너십 소식입니다.",
+            "파트너십은 기술·고객 확보 신호지만 계약 금액과 매출 인식 시점은 별도 확인이 필요합니다.",
+            "초기에는 클라우드 사용량과 고객 유입이 늘어나는지가 핵심입니다."
+          ],
+          "why": [
+            "OCI가 데이터베이스 중심에서 AI·양자·고성능 컴퓨팅으로 확장되는 흐름을 보여줍니다.",
+            "기술 제휴가 실제 클라우드 매출과 잉여현금흐름으로 연결되기까지 시간이 걸릴 수 있습니다."
+          ],
+          "beginner": [
+            "파트너십은 ‘앞으로 같이 사업을 해보자’는 약속에 가깝고, 당장 매출이 늘었다는 뜻은 아닙니다.",
+            "Oracle이 실제 고객에게 양자 서비스를 판매하고 사용량이 늘어야 실적에 반영됩니다.",
+            "다음 실적에서 클라우드 매출 성장과 FCF를 함께 확인하면 됩니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "ORCL",
+              "stance": "긍정·확인 필요",
+              "reason": "OCI 서비스 범위 확대 가능성, 매출화 시점 불확실"
+            }
+          ],
+          "watch": [
+            "OCI 클라우드 매출 성장률",
+            "파트너십 고객·계약 규모",
+            "CAPEX 대비 FCF 전환"
+          ],
+          "interpretation": "이 기사는 ORCL의 사업과 관련된 'Oracle (ORCL) Expands Its AI Healthcare Push With A New Drugmaker Partnership' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ORCL에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529485.7686605
+        },
+        "headlineKo": "오라클(ORCL), 새로운 제약회사 파트너십으로 AI 헬스케어 사업 확장"
+      },
+      {
+        "headline": "What Is Oracle’s (ORCL) Economic Moat, and Is It Widening or Narrowing?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9581d3b6301fc7911af8a6ab17cbc6cfccde0f463408a666f69d64477e631a65",
+        "datetime": 1792507407,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "What Is Oracle’s (ORCL) Economic Moat, and Is It Widening or Narrowing?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ORCL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ORCL의 사업과 관련된 'What Is Oracle’s (ORCL) Economic Moat, and Is It Widening or Narrowing?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ORCL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529487.1516917
+        },
+        "headlineKo": "오라클(ORCL)의 경제적 해자는 무엇이며, 확대되고 있습니까, 아니면 축소되고 있습니까?"
+      },
+      {
+        "headline": "Oracle (ORCL): Can Rival Clouds Become Its Best Database Sales Channel?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5d6bb27d5ab4ebbd36742769aa15dfde1874f5e877d262c3b56932c442e2a5a9",
+        "datetime": 1792503941,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Oracle(ORCL): 라이벌 클라우드가 최고의 데이터베이스 판매 채널이 될 수 있습니까?"
+      },
+      {
+        "headline": "CoreWeave Falls 4% as HSBC Reiterates Bearish Call on Debt Risk; Nebius Drops 5%, Oracle Holds Steady",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f50f0ffd0a16f4f1828a936de65b8bfc3384b8bd07a87266f75064a5f500e81d",
+        "datetime": 1792499783,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
         "headlineKo": "HSBC가 부채 위험에 대한 약세 전망을 반복함에 따라 CoreWeave는 4% 하락했습니다. Nebius는 5% 하락하고 Oracle은 안정을 유지합니다."
       },
       {
@@ -63323,6 +63411,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bccabf8cf22417cbc0cd7b5aeb7dcc9471cacbce14cea661de43165f7c0f69b3",
         "datetime": 1792498751,
+        "headlineKo": "기술 부문 전반에 걸쳐 AI 거래가 실패함에 따라 오라클 채권은 다운그레이드 위험에 직면해 있습니다.",
         "relevance": 0.5,
         "keywordFlag": true,
         "flagTerms": [
@@ -63381,28 +63470,7 @@ const NEWS_DATA = {
             "Oracle ( ORCL ) is facing fresh worries in the bond market."
           ],
           "analysisUpdatedAt": 1792507288.453754
-        },
-        "headlineKo": "기술 부문 전반에 걸쳐 AI 거래가 실패함에 따라 오라클 채권은 다운그레이드 위험에 직면해 있습니다."
-      },
-      {
-        "headline": "Oracle, AstraZeneca Explore AI To Tackle Clinical-Trial Recruitment Challenge",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6ef404e988ffade88a4974e9e74b3a62ae01bb6e14ec40bd178e5201e2d5efa1",
-        "datetime": 1792494222,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Oracle, AstraZeneca, 임상 시험 모집 문제 해결을 위해 AI 탐색"
-      },
-      {
-        "headline": "AstraZeneca and Oracle Launch AI Partnership to Improve Clinical Trials and Patient Care",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d8ae13749806499f734e5ead993cc11fa4369da2835d237a97993fe54c35e450",
-        "datetime": 1792492863,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "AstraZeneca와 Oracle, 임상 시험 및 환자 치료 개선을 위해 AI 파트너십 개시"
+        }
       },
       {
         "headline": "Oracle (ORCL) Health Data Breach Exposes Nearly 20 Million People",
@@ -63459,6 +63527,168 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Oracle Just Dropped 12% in a Month. Is It Time to Sell, or Load Up?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=274bb1f041dfedcb55ab603d99a7f7bf4321bd1bf59ac3c1052289adad827869",
+        "datetime": 1792513575,
+        "headlineKo": "오라클은 한 달 만에 12% 하락했습니다. 판매할 시간인가, 아니면 장전할 시간인가?",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "오라클은 한 달 만에 12% 하락했습니다.",
+            "| TIKR.com General Investing Oracle은 한 달 만에 12% 하락했습니다.",
+            "Roxanna Maglangit • 5분 읽기 검토자: Michael Douglass 최종 업데이트: 2026년 10월 20일 pixabay의 v2killer7603 및 Getty Images의 spxChrome Getty Images의 서명 DanielPrudek 및 Pexels의 The Weekender Bianca Constant"
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 12%, $90 billion, $169.1 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "ORCL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "ORCL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "ORCL에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "12%",
+            "$90 billion",
+            "$169.1 billion",
+            "25%",
+            "5.5%",
+            "8.8%",
+            "3.7%",
+            "15%"
+          ],
+          "sourceExcerpt": [
+            "Oracle Just Dropped 12% in a Month.",
+            "| TIKR.com General Investing Oracle Just Dropped 12% in a Month.",
+            "Roxanna Maglangit • 5 minute read Reviewed by: Michael Douglass Last updated Oct 20, 2026 v2killer7603 from pixabay and spxChrome from Getty Images Signature DanielPrudek from Getty Images and Burak The Weekender from Pexels Bianca Constant"
+          ],
+          "analysisUpdatedAt": 1792529483.7693043
+        }
+      },
+      {
+        "headline": "Oracle (ORCL) Expands Its AI Healthcare Push With A New Drugmaker Partnership",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9deffecb0b309742ae93c8101e3125a8864e6c1fe78c207c71d198c6aa1cd39d",
+        "datetime": 1792512826,
+        "headlineKo": "오라클(ORCL), 새로운 제약회사 파트너십으로 AI 헬스케어 사업 확장",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "파트너십 발표·상업화 규모 확인 필요",
+          "label": "클라우드 생태계 확장",
+          "horizon": "중장기 계약·클라우드 매출 반영",
+          "facts": [
+            "Oracle Cloud Infrastructure에서 양자컴퓨팅 서비스를 제공하기 위한 다년간 파트너십 소식입니다.",
+            "파트너십은 기술·고객 확보 신호지만 계약 금액과 매출 인식 시점은 별도 확인이 필요합니다.",
+            "초기에는 클라우드 사용량과 고객 유입이 늘어나는지가 핵심입니다."
+          ],
+          "why": [
+            "OCI가 데이터베이스 중심에서 AI·양자·고성능 컴퓨팅으로 확장되는 흐름을 보여줍니다.",
+            "기술 제휴가 실제 클라우드 매출과 잉여현금흐름으로 연결되기까지 시간이 걸릴 수 있습니다."
+          ],
+          "beginner": [
+            "파트너십은 ‘앞으로 같이 사업을 해보자’는 약속에 가깝고, 당장 매출이 늘었다는 뜻은 아닙니다.",
+            "Oracle이 실제 고객에게 양자 서비스를 판매하고 사용량이 늘어야 실적에 반영됩니다.",
+            "다음 실적에서 클라우드 매출 성장과 FCF를 함께 확인하면 됩니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "ORCL",
+              "stance": "긍정·확인 필요",
+              "reason": "OCI 서비스 범위 확대 가능성, 매출화 시점 불확실"
+            }
+          ],
+          "watch": [
+            "OCI 클라우드 매출 성장률",
+            "파트너십 고객·계약 규모",
+            "CAPEX 대비 FCF 전환"
+          ],
+          "interpretation": "이 기사는 ORCL의 사업과 관련된 'Oracle (ORCL) Expands Its AI Healthcare Push With A New Drugmaker Partnership' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ORCL에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529485.7686605
+        }
+      },
+      {
+        "headline": "What Is Oracle’s (ORCL) Economic Moat, and Is It Widening or Narrowing?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9581d3b6301fc7911af8a6ab17cbc6cfccde0f463408a666f69d64477e631a65",
+        "datetime": 1792507407,
+        "headlineKo": "오라클(ORCL)의 경제적 해자는 무엇이며, 확대되고 있습니까, 아니면 축소되고 있습니까?",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "What Is Oracle’s (ORCL) Economic Moat, and Is It Widening or Narrowing?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ORCL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ORCL의 사업과 관련된 'What Is Oracle’s (ORCL) Economic Moat, and Is It Widening or Narrowing?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ORCL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529487.1516917
+        }
+      },
       {
         "headline": "Oracle (ORCL): Can Rival Clouds Become Its Best Database Sales Channel?",
         "source": "Yahoo",
@@ -71636,195 +71866,21 @@ const NEWS_DATA = {
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1790571757.3380165
         }
-      },
-      {
-        "headline": "Michael Burry just put a date on Big Tech's AI reckoning, and Oracle's $664 billion lands in crosshairs",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a784045f174387c69128bf330aa2d021a4ada7f854b57af5e895a66fcecffcac",
-        "datetime": 1790545620,
-        "headlineKo": "Michael Burry는 Big Tech의 AI 계산에 날짜를 넣었고 Oracle의 6,640억 달러는 십자선에 표시되었습니다.",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 ORCL의 사업과 관련된 'Michael Burry just put a date on Big Tech's AI reckoning, and Oracle's $664 billion lands in crosshairs' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: ORCL에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
-          "relevance": 0.5,
-          "quality": "high",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790571758.0326388
-        }
-      },
-      {
-        "headline": "Oracle’s AI Expansion Faces a New Test as Data Center Costs Rise",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5d0e0af97bf04fcd5847ed492315a2bc7e1d50a830bd0dfd747277e3707211ba",
-        "datetime": 1790540528,
-        "headlineKo": "데이터 센터 비용 상승으로 오라클의 AI 확장이 새로운 테스트에 직면",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Oracle’s AI Expansion Faces a New Test as Data Center Costs Rise",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "ORCL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 ORCL의 사업과 관련된 'Oracle’s AI Expansion Faces a New Test as Data Center Costs Rise' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "ORCL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790549403.4399095
-        }
-      },
-      {
-        "headline": "One Notch Higher Than Junk, Oracle Debt Warning Played Out (Upgrade)",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=fcadf03ced9cd80ff05d20322ae8e981de748f95bfa14bc35000d7c5f05d88ff",
-        "datetime": 1790500257,
-        "headlineKo": "정크보다 한 단계 높은 오라클 부채 경고 발생(업그레이드)",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "정크보다 한 단계 높은 오라클 주식 부채 경고 발생(NYSE:ORCL) | 알파 찾기 요약 오라클은 부채 및 현금 흐름에 대한 우려가 마침내 주식 재평가로 전환되면서 작년 매도 요청 이후 자사 주가가 41% 하락한 것을 확인했습니다.",
-            "S&P는 ORCL의 부채를 정크 등급보다 한 단계 높은 BBB-로 하향 조정했고 채권 수익률은 8%로 상승했습니다.",
-            "주식 밸류에이션은 현재 이익수익률 4.7%, P/E 22배로 조정되어 채권수익률과의 격차가 줄어들고 있습니다."
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 41%, 8%, 4.7% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "ORCL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "ORCL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "ORCL에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "41%",
-            "8%",
-            "4.7%"
-          ],
-          "sourceExcerpt": [
-            "One Notch Higher Than Junk: Oracle Stock Debt Warning Played Out (NYSE:ORCL) | Seeking Alpha Summary Oracle has seen its stock fall 41% since last year's sell call, as debt and cash flow concerns finally translated into an equity rerating.",
-            "S&P downgraded ORCL’s debt to BBB-, one notch above junk, and bond yields rose to 8%.",
-            "Equity valuations have corrected, with the earnings yield now at 4.7% and the P/E at 22x, narrowing the gap with bond yields."
-          ],
-          "analysisUpdatedAt": 1790549406.0635848
-        }
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:41",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:51",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 186,
+      "checked": 187,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "CRM": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-12-01",
       "hour": "amc",
@@ -71834,10 +71890,74 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "Klaviyo shares jump 8% as Salesforce moves to acquire rival Braze for $5.7 billion",
+        "headline": "Braze Soars 51% as Salesforce Agrees to $5.66 Billion Buyout to Deliver That “Wow Moment”",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ad758828e7687da8e74653c278e84bbf7c623c7a976d89a129a4acb7be434ca0",
-        "datetime": 1792503916,
+        "url": "https://finnhub.io/api/news?id=74a2e566db82e7429a93ec905ebd47ae7c2718dba4388379c3d623bca3934171",
+        "datetime": 1792525738,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "규제·법무 · 비선형 위험",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Salesforce가 \"와우 순간\"을 전달하기 위해 56억 6천만 달러의 인수에 동의하면서 Braze가 51% 급등 | TIKR.com General Investing Braze는 Salesforce가 \"와우 순간\"을 전달하기 위해 56억 6천만 달러 규모의 인수에 동의하면서 51% 급증했습니다. Michael Douglass •",
+            "Braze는 이제 제안 가격 바로 아래에서 거래되므로 시장에서는 거래가 성사될 것으로 예상하므로 주주들에게는 거의 이익이 되지 않습니다.",
+            "Braze 주주와 규제 기관은 여전히 ​​거래를 승인해야 하며 Salesforce의 2028 회계연도까지는 거래가 종료되지 않을 것으로 예상됩니다."
+          ],
+          "why": [
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 51%, $5.66 Billion, $47.50 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
+          ],
+          "interpretation": "CRM에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "51%",
+            "$5.66 Billion",
+            "$47.50",
+            "$5.66 billion",
+            "3%",
+            "12%",
+            "58%",
+            "$738 million"
+          ],
+          "sourceExcerpt": [
+            "Braze Soars 51% as Salesforce Agrees to $5.66 Billion Buyout to Deliver That &#8220;Wow Moment&#8221; | TIKR.com General Investing Braze Soars 51% as Salesforce Agrees to $5.66 Billion Buyout to Deliver That “Wow Moment” Michael Douglass • ",
+            "Braze now trades just under the offer price, so the market expects the deal to close, which leaves little upside for shareholders.",
+            "Braze shareholders and regulators still have to approve the deal, and it isn’t expected to close until Salesforce’s fiscal 2028."
+          ],
+          "analysisUpdatedAt": 1792529495.3326552
+        },
+        "headlineKo": "Salesforce가 \"와우 순간\"을 전달하기 위해 56억 6천만 달러 규모의 인수에 동의하면서 Braze는 51% 급등했습니다."
+      },
+      {
+        "headline": "Salesforce Needs to Integrate Braze While Preserving Its Innovation, Truist Says",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=705b824e2c5c098c4b384c8aab3aeb43433bdb0d19a02da5c0e16065fbcd68da",
+        "datetime": 1792522017,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
@@ -71849,7 +71969,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Klaviyo shares jump 8% as Salesforce moves to acquire rival Braze for $5.7 billion",
+            "Salesforce Needs to Integrate Braze While Preserving Its Innovation, Truist Says",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -71873,105 +71993,43 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'Klaviyo shares jump 8% as Salesforce moves to acquire rival Braze for $5.7 billion' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce Needs to Integrate Braze While Preserving Its Innovation, Truist Says' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.5,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507297.7708695
+          "analysisUpdatedAt": 1792529497.325545
         },
-        "headlineKo": "Salesforce가 경쟁업체인 Braze를 57억 달러에 인수함에 따라 Klaviyo 주가가 8% 상승했습니다."
+        "headlineKo": "Salesforce는 혁신을 유지하면서 Braze를 통합해야 한다고 Truist는 말합니다."
       },
       {
-        "headline": "Salesforce Retreats 2% on $5.66B Deal for Braze, Even as ServiceNow and Adobe Gain 2%",
+        "headline": "Braze Soars 51% on $5.66 Billion Salesforce Deal: “An Opportunity to Wow Your Customers”",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=00c89d8811e1f08eef06c56dc15d26447343c61555cc5672c937beae38808e67",
-        "datetime": 1792503443,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Salesforce는 ServiceNow와 Adobe가 24/7 Wall St.에서 2%를 얻었음에도 불구하고 Braze에 대한 56억 6천만 달러 거래에서 2%를 철회했습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% 다우존스 52,602.00 +1.07% 나스닥 100 29,665.80 +0.27% 러셀 2000 2,776.94 +1.",
-            "Salesforce가 성공하는 동안 경쟁업체가 부상하는 이유와 Marketing Cloud에 대한 전략적 베팅이 정당화되는지 알아보세요. David Moadel 게시 2026년 10월 20일 오전 9시 37분(ET) · Market Movers 데스크 3분 읽기."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 2%, $5.66, $238.57 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "CRM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "CRM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "2%",
-            "$5.66",
-            "$238.57",
-            "$5.66 billion",
-            "$148.10.",
-            "$252.47.",
-            "0.3%",
-            "$105.65."
-          ],
-          "sourceExcerpt": [
-            "Salesforce Retreats 2% on $5.66B Deal for Braze, Even as ServiceNow and Adobe Gain 2% - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.",
-            "Find out why rivals are rising while Salesforce takes the hit and whether the strategic bet on Marketing Cloud justifies the… By David Moadel Published October 20, 2026, 9:37am ET · 3 min read Market Movers desk."
-          ],
-          "analysisUpdatedAt": 1792507301.5977523
-        },
-        "headlineKo": "Salesforce는 ServiceNow와 Adobe가 2%를 얻었음에도 불구하고 Braze에 대한 56억 6천만 달러 거래에서 2%를 철회했습니다."
-      },
-      {
-        "headline": "Salesforce To Buy Braze In $5.6 Billion, All-Cash Deal As Acquisitions Continue",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=61f3339e45a25197d7e8629434c16719a06b922cc15f27855729c69cd16d7b6e",
-        "datetime": 1792502213,
+        "url": "https://finnhub.io/api/news?id=b7c0a6bb6a0bdd06f775e52aa92cf5d635e9f421162d8ee300803456c8d7b566",
+        "datetime": 1792517806,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "medium",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "고객 계약 · 매출 연결 확인",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Salesforce To Buy Braze In $5.6 Billion, All-Cash Deal As Acquisitions Continue",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "Braze, 56억 6천만 달러 규모의 Salesforce 거래로 51% 급증: \"고객을 놀라게 할 기회\" | TIKR.com General Investing Braze, 56억 6천만 달러 규모의 Salesforce 거래로 51% 상승: \"고객을 놀라게 할 기회\" Gian Estrada • 3분 읽기 Revi",
+            "주목해야 할 숫자는 매출 1달러당 가격입니다.",
+            "Salesforce는 2027년 1월 31일에 끝나는 회계연도에 대해 Braze의 수익 기준의 약 6.2배를 지불하고 있습니다."
           ],
           "why": [
-            "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 51%, $5.66 Billion, $45.50 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -71982,39 +72040,52 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "계약 금액·기간·취소 조건",
-            "수주잔고와 매출 인식 시점",
-            "관련 사업부 매출총이익률"
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
           ],
-          "interpretation": "CRM에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "CRM에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507303.6615238
+          "quality": "medium",
+          "verifiedNumbers": [
+            "51%",
+            "$5.66 Billion",
+            "$45.50",
+            "$47.50",
+            "$5.66 billion",
+            "58%",
+            "$30.04",
+            "80%"
+          ],
+          "sourceExcerpt": [
+            "Braze Soars 51% on $5.66 Billion Salesforce Deal: “An Opportunity to Wow Your Customers” | TIKR.com General Investing Braze Soars 51% on $5.66 Billion Salesforce Deal: “An Opportunity to Wow Your Customers” Gian Estrada • 3 minute read Revi",
+            "The number to watch is the price per dollar of sales.",
+            "Salesforce is paying about 6.2x Braze’s revenue guide for the fiscal year ending January 31, 2027."
+          ],
+          "analysisUpdatedAt": 1792529502.1570253
         },
-        "headlineKo": "Salesforce, 인수가 계속됨에 따라 Braze를 56억 달러에 전액 현금 거래로 인수"
+        "headlineKo": "Braze는 56억 6천만 달러 규모의 Salesforce 거래로 51% 급등: \"고객을 놀라게 할 기회\""
       },
       {
-        "headline": "CRM Stock Falls: Salesforce Strikes $5.66B Braze Deal To Strengthen AI Marketing Push",
+        "headline": "Salesforce Acquires Braze for $5.7 Billion in Latest AI Bet. The Price ‘Seems a Bit Odd.’",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a7c462b685c6ac6693a06c6eaf9ee5bdf56b178bb040e0f99637f57bc4304017",
-        "datetime": 1792502103,
-        "relevance": 1,
+        "url": "https://finnhub.io/api/news?id=54650ae5f519644bb1d873595d32f0b58f9737d9cb30ad2aeffb733b774dd177",
+        "datetime": 1792514040,
+        "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "CRM 주가 하락: Salesforce, AI 마케팅 강화를 위해 56억 6천만 달러 규모의 Braze 거래 체결"
+        "headlineKo": "Salesforce, 최신 AI 베팅에서 57억 달러에 Braze 인수 가격이 좀 이상한 것 같아요."
       },
       {
-        "headline": "Salesforce to buy Braze for $5.7 billion, CRM shares slide 3%",
+        "headline": "Top Midday Stories: Salesforce to Acquire Braze for $5.66 Billion; GM Q3 EPS, Revenue Top Estimates But Stock Falls",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5b1bf89226a9f7d124360b94ee2c9d27e1b789b88820b8fa3074ee48ced34f0c",
-        "datetime": 1792499870,
-        "relevance": 1,
+        "url": "https://finnhub.io/api/news?id=cc292d311aea7e789d9e55ec51877ed87ae0ec90a1ed2e01e3aa4e0f91f896a2",
+        "datetime": 1792511480,
+        "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Salesforce, Braze를 57억 달러에 인수, CRM 주가 3% 하락"
+        "headlineKo": "주요 Midday Stories: Salesforce, Braze를 56억 6천만 달러에 인수; GM Q3 EPS, 매출 최고 추정치, 주가 하락"
       },
       {
         "headline": "Salesforce wins upgrade as Adobe faces downgrade",
@@ -72030,6 +72101,199 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Braze Soars 51% as Salesforce Agrees to $5.66 Billion Buyout to Deliver That “Wow Moment”",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=74a2e566db82e7429a93ec905ebd47ae7c2718dba4388379c3d623bca3934171",
+        "datetime": 1792525738,
+        "headlineKo": "Salesforce가 \"와우 순간\"을 전달하기 위해 56억 6천만 달러 규모의 인수에 동의하면서 Braze는 51% 급등했습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "규제·법무 · 비선형 위험",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Salesforce가 \"와우 순간\"을 전달하기 위해 56억 6천만 달러의 인수에 동의하면서 Braze가 51% 급등 | TIKR.com General Investing Braze는 Salesforce가 \"와우 순간\"을 전달하기 위해 56억 6천만 달러 규모의 인수에 동의하면서 51% 급증했습니다. Michael Douglass •",
+            "Braze는 이제 제안 가격 바로 아래에서 거래되므로 시장에서는 거래가 성사될 것으로 예상하므로 주주들에게는 거의 이익이 되지 않습니다.",
+            "Braze 주주와 규제 기관은 여전히 ​​거래를 승인해야 하며 Salesforce의 2028 회계연도까지는 거래가 종료되지 않을 것으로 예상됩니다."
+          ],
+          "why": [
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 51%, $5.66 Billion, $47.50 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
+          ],
+          "interpretation": "CRM에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "51%",
+            "$5.66 Billion",
+            "$47.50",
+            "$5.66 billion",
+            "3%",
+            "12%",
+            "58%",
+            "$738 million"
+          ],
+          "sourceExcerpt": [
+            "Braze Soars 51% as Salesforce Agrees to $5.66 Billion Buyout to Deliver That &#8220;Wow Moment&#8221; | TIKR.com General Investing Braze Soars 51% as Salesforce Agrees to $5.66 Billion Buyout to Deliver That “Wow Moment” Michael Douglass • ",
+            "Braze now trades just under the offer price, so the market expects the deal to close, which leaves little upside for shareholders.",
+            "Braze shareholders and regulators still have to approve the deal, and it isn’t expected to close until Salesforce’s fiscal 2028."
+          ],
+          "analysisUpdatedAt": 1792529495.3326552
+        }
+      },
+      {
+        "headline": "Salesforce Needs to Integrate Braze While Preserving Its Innovation, Truist Says",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=705b824e2c5c098c4b384c8aab3aeb43433bdb0d19a02da5c0e16065fbcd68da",
+        "datetime": 1792522017,
+        "headlineKo": "Salesforce는 혁신을 유지하면서 Braze를 통합해야 한다고 Truist는 말합니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Salesforce Needs to Integrate Braze While Preserving Its Innovation, Truist Says",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce Needs to Integrate Braze While Preserving Its Innovation, Truist Says' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529497.325545
+        }
+      },
+      {
+        "headline": "Braze Soars 51% on $5.66 Billion Salesforce Deal: “An Opportunity to Wow Your Customers”",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b7c0a6bb6a0bdd06f775e52aa92cf5d635e9f421162d8ee300803456c8d7b566",
+        "datetime": 1792517806,
+        "headlineKo": "Braze는 56억 6천만 달러 규모의 Salesforce 거래로 51% 급등: \"고객을 놀라게 할 기회\"",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Braze, 56억 6천만 달러 규모의 Salesforce 거래로 51% 급증: \"고객을 놀라게 할 기회\" | TIKR.com General Investing Braze, 56억 6천만 달러 규모의 Salesforce 거래로 51% 상승: \"고객을 놀라게 할 기회\" Gian Estrada • 3분 읽기 Revi",
+            "주목해야 할 숫자는 매출 1달러당 가격입니다.",
+            "Salesforce는 2027년 1월 31일에 끝나는 회계연도에 대해 Braze의 수익 기준의 약 6.2배를 지불하고 있습니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 51%, $5.66 Billion, $45.50 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "CRM에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "51%",
+            "$5.66 Billion",
+            "$45.50",
+            "$47.50",
+            "$5.66 billion",
+            "58%",
+            "$30.04",
+            "80%"
+          ],
+          "sourceExcerpt": [
+            "Braze Soars 51% on $5.66 Billion Salesforce Deal: “An Opportunity to Wow Your Customers” | TIKR.com General Investing Braze Soars 51% on $5.66 Billion Salesforce Deal: “An Opportunity to Wow Your Customers” Gian Estrada • 3 minute read Revi",
+            "The number to watch is the price per dollar of sales.",
+            "Salesforce is paying about 6.2x Braze’s revenue guide for the fiscal year ending January 31, 2027."
+          ],
+          "analysisUpdatedAt": 1792529502.1570253
+        }
+      },
+      {
+        "headline": "Salesforce Acquires Braze for $5.7 Billion in Latest AI Bet. The Price ‘Seems a Bit Odd.’",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=54650ae5f519644bb1d873595d32f0b58f9737d9cb30ad2aeffb733b774dd177",
+        "datetime": 1792514040,
+        "headlineKo": "Salesforce, 최신 AI 베팅에서 57억 달러에 Braze 인수 가격이 좀 이상한 것 같아요.",
+        "relevance": 0.5,
+        "keywordFlag": false
+      },
+      {
+        "headline": "Top Midday Stories: Salesforce to Acquire Braze for $5.66 Billion; GM Q3 EPS, Revenue Top Estimates But Stock Falls",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=cc292d311aea7e789d9e55ec51877ed87ae0ec90a1ed2e01e3aa4e0f91f896a2",
+        "datetime": 1792511480,
+        "headlineKo": "주요 Midday Stories: Salesforce, Braze를 56억 6천만 달러에 인수; GM Q3 EPS, 매출 최고 추정치, 주가 하락",
+        "relevance": 0.5,
+        "keywordFlag": false
+      },
       {
         "headline": "Klaviyo shares jump 8% as Salesforce moves to acquire rival Braze for $5.7 billion",
         "source": "Yahoo",
@@ -80103,204 +80367,21 @@ const NEWS_DATA = {
         "headlineKo": "Salesforce 주식이 강세를 보일 것으로 보입니다. 여기 저렴하게 이익을 얻을 수 있는 방법이 있습니다.",
         "relevance": 0.5,
         "keywordFlag": false
-      },
-      {
-        "headline": "Adecco Group announces Salesforce's Agentforce Coworker rollout across 40 countries",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e4a7b15630e5454de7954137720feafcf8a73543ccf075d687a6c0fdccc36560",
-        "datetime": 1789487400,
-        "headlineKo": "Adecco Group, Salesforce의 Agentforce Coworker 출시를 40개국에 발표",
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Adecco Group announces Salesforce's Agentforce Coworker rollout across 40 countries",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "CRM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'Adecco Group announces Salesforce's Agentforce Coworker rollout across 40 countries' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1.0,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789502520.0639477
-        }
-      },
-      {
-        "headline": "Salesforce Slips as Dreamforce Puts Its $3.9 Billion AI Engine on Trial",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=24e4f2f5249502eb40e171d322d9193341589e949ccd6162e862dcddf163f570",
-        "datetime": 1789486515,
-        "headlineKo": "Dreamforce가 39억 달러 규모의 AI 엔진을 시험하면서 Salesforce가 미끄러졌습니다.",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce Slips as Dreamforce Puts Its $3.9 Billion AI Engine on Trial' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: CRM에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
-          "relevance": 0.5,
-          "quality": "high",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789502522.098363
-        }
-      },
-      {
-        "headline": "Salesforce Broadens Alliances With Nvidia, Google Cloud, AWS for Enterprise AI Integration",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a0f13dd5872071e48126d8f286cf349883f0aa21324db1d5f38cc039ab90448d",
-        "datetime": 1789485239,
-        "headlineKo": "Salesforce, 엔터프라이즈 AI 통합을 위해 Nvidia, Google Cloud, AWS와의 제휴 확대",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Salesforce Broadens Alliances With Nvidia, Google Cloud, AWS for Enterprise AI Integration",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "CRM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce Broadens Alliances With Nvidia, Google Cloud, AWS for Enterprise AI Integration' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789502524.316453
-        }
-      },
-      {
-        "headline": "Here’s How Much Traders See Salesforce Stock Moving After ‘Dreamforce’ Event",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ec453c7d59e5eb6c5b94873af4818a33a6219de9610364a61749d12403ad6d71",
-        "datetime": 1789485209,
-        "headlineKo": "'Dreamforce' 이벤트 이후 거래자들이 Salesforce 주식의 움직임을 보는 정도는 다음과 같습니다.",
-        "relevance": 0.5,
-        "keywordFlag": false
-      },
-      {
-        "headline": "Salesforce Unveils Koa AI Model With NVIDIA To Power Agentforce – What Investors Need To Know",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8315151921852844f27ad5b34c1f4cf154bfae6d43112f6d2968417471f5f711",
-        "datetime": 1789483409,
-        "headlineKo": "Salesforce, NVIDIA와 함께 Koa AI 모델 공개 Agentforce – 투자자가 알아야 할 사항",
-        "relevance": 1.0,
-        "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:41",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:51",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "PLTR": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-11-02",
       "hour": "",
@@ -80309,6 +80390,56 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Palantir: Wall Street Expects Shrinking Margins, I See The Opposite",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=25dd8e131aad34cc77be28135566b08422b16fe845d55c997f7699a0cd09f2f5",
+        "datetime": 1792499180,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Palantir: Wall Street Expects Shrinking Margins, I See The Opposite",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'Palantir: Wall Street Expects Shrinking Margins, I See The Opposite' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "PLTR 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529509.942679
+        },
+        "headlineKo": "Palantir: 월스트리트는 마진 축소를 예상하지만 나는 그 반대라고 봅니다."
+      },
       {
         "headline": "Not Palantir. Not Snowflake. This AI Software Stock Could Be the Biggest Winner of 2027.",
         "source": "Yahoo",
@@ -80326,12 +80457,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "이 AI 소프트웨어 주식은 2027년의 가장 큰 승자가 될 수 있습니다.",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 인공지능 소프트웨어 분야에서는 Palantir Technologies( PLTR +0.31% )와 Snowflake( SNOW +1.16% )가 투자했습니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 인공지능 소프트웨어 분야에서는 Palantir Technologies( PLTR -0.80% )와 Snowflake( SNOW +1.35% )가 투자했습니다.",
             "Palantir는 기업과 정부 기관이 AI를 사용하여 정보를 분석하고 의사 결정을 내릴 수 있도록 돕는 데 성공했습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.12%, $228.38, $0.28 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.32%, $227.37, $0.73 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -80355,21 +80486,21 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.12%",
-            "$228.38",
-            "$0.28",
+            "0.32%",
+            "$227.37",
+            "$0.73",
             "$233.56",
             "$221.36",
-            "$228.79",
+            "$229.24",
             "$85.68",
             "$286.99"
           ],
           "sourceExcerpt": [
             "This AI Software Stock Could Be the Biggest Winner of 2027.",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool In the artificial intelligence software space, Palantir Technologies ( PLTR +0.31% ) and Snowflake ( SNOW +1.16% ) have given inves",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool In the artificial intelligence software space, Palantir Technologies ( PLTR -0.80% ) and Snowflake ( SNOW +1.35% ) have given inves",
             "Palantir has found success helping businesses and government agencies use AI to analyze information and make decisions."
           ],
-          "analysisUpdatedAt": 1792507312.7257698
+          "analysisUpdatedAt": 1792529513.905038
         },
         "headlineKo": "팔란티르가 아닙니다. 눈송이가 아닙니다. 이 AI 소프트웨어 주식은 2027년의 가장 큰 승자가 될 수 있습니다."
       },
@@ -80381,46 +80512,6 @@ const NEWS_DATA = {
         "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "실적·재무 부담 확인 필요",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "PLTR Stock’s Biggest Risk Isn’t Slowing Growth, but Its Price, Analyst Warns — Valuation Already Bakes In ‘Years of Exceptional Execution’",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "PLTR",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 PLTR의 사업과 관련된 'PLTR Stock’s Biggest Risk Isn’t Slowing Growth, but Its Price, Analyst Warns — Valuation Already Bakes In ‘Years of Exceptional Execution’' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "PLTR 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1.0,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507313.7069833
-        },
         "headlineKo": "PLTR 주식의 가장 큰 위험은 성장 둔화가 아니라 가격이라고 분석가는 경고합니다. 가치 평가는 이미 '뛰어난 실행의 해'에 구워지고 있습니다."
       },
       {
@@ -80431,67 +80522,7 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Palantir: Higher Fair Value But Not Enough So I Switched From Bullish To Neutral",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "PLTR",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 PLTR의 사업과 관련된 'Palantir: Higher Fair Value But Not Enough So I Switched From Bullish To Neutral' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "PLTR 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507314.7110898
-        },
         "headlineKo": "Palantir: 공정 가치가 더 높지만 충분하지 않아 강세에서 중립으로 전환했습니다."
-      },
-      {
-        "headline": "Nasdaq 100 Sees Best Day In Nearly A Month As AI Rout Cools — AMZN, BE, CRWV, AAPL, PLTR In Focus",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b2c49c35a756adb72db9233d431d447e8200033fa768a6a031f1d0857617d958",
-        "datetime": 1792450823,
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "AI Rout이 식으면서 Nasdaq 100은 거의 한 달 만에 최고의 날을 맞이했습니다 — AMZN, BE, CRWV, AAPL, PLTR 초점"
-      },
-      {
-        "headline": "Cathie Wood Buys $8.1 Million of CoreWeave Stock as Goldman Sachs Upgrades, Ark Invest Sells Palantir Stock",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=1740ff4c1d449066b4cfc17b10b756d40b41092a30de86306ce29ebcbfb689c8",
-        "datetime": 1792446315,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Cathie Wood는 Goldman Sachs 업그레이드로 CoreWeave 주식 810만 달러 매입, Ark Invest는 Palantir 주식 매각"
       },
       {
         "headline": "Stocktwits Defense Watch: RTX Continues Deal Momentum, Ondas-Palantir Launch AI Firm As AeroVironment Strike Four International Deals",
@@ -80731,6 +80762,55 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "Palantir: Wall Street Expects Shrinking Margins, I See The Opposite",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=25dd8e131aad34cc77be28135566b08422b16fe845d55c997f7699a0cd09f2f5",
+        "datetime": 1792499180,
+        "headlineKo": "Palantir: 월스트리트는 마진 축소를 예상하지만 나는 그 반대라고 봅니다.",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Palantir: Wall Street Expects Shrinking Margins, I See The Opposite",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'Palantir: Wall Street Expects Shrinking Margins, I See The Opposite' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "PLTR 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529509.942679
+        }
+      },
+      {
         "headline": "Not Palantir. Not Snowflake. This AI Software Stock Could Be the Biggest Winner of 2027.",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c715948989cf4024b71a86181fd43f69852f5e5484b196aed8dd6a5f7a78d176",
@@ -80747,12 +80827,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "이 AI 소프트웨어 주식은 2027년의 가장 큰 승자가 될 수 있습니다.",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 인공지능 소프트웨어 분야에서는 Palantir Technologies( PLTR +0.31% )와 Snowflake( SNOW +1.16% )가 투자했습니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 인공지능 소프트웨어 분야에서는 Palantir Technologies( PLTR -0.80% )와 Snowflake( SNOW +1.35% )가 투자했습니다.",
             "Palantir는 기업과 정부 기관이 AI를 사용하여 정보를 분석하고 의사 결정을 내릴 수 있도록 돕는 데 성공했습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.12%, $228.38, $0.28 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.32%, $227.37, $0.73 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -80776,21 +80856,21 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.12%",
-            "$228.38",
-            "$0.28",
+            "0.32%",
+            "$227.37",
+            "$0.73",
             "$233.56",
             "$221.36",
-            "$228.79",
+            "$229.24",
             "$85.68",
             "$286.99"
           ],
           "sourceExcerpt": [
             "This AI Software Stock Could Be the Biggest Winner of 2027.",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool In the artificial intelligence software space, Palantir Technologies ( PLTR +0.31% ) and Snowflake ( SNOW +1.16% ) have given inves",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool In the artificial intelligence software space, Palantir Technologies ( PLTR -0.80% ) and Snowflake ( SNOW +1.35% ) have given inves",
             "Palantir has found success helping businesses and government agencies use AI to analyze information and make decisions."
           ],
-          "analysisUpdatedAt": 1792507312.7257698
+          "analysisUpdatedAt": 1792529513.905038
         }
       },
       {
@@ -89328,84 +89408,21 @@ const NEWS_DATA = {
           ],
           "analysisUpdatedAt": 1790708546.9403918
         }
-      },
-      {
-        "headline": "Can You Justify Buying Palantir Stock Today?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=bc13de573a63b2a1555c72b4c654cb1f369fec34e9225403166680dc2951af42",
-        "datetime": 1790691820,
-        "headlineKo": "오늘 Palantir 주식을 구매하는 것이 정당화될 수 있습니까?",
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "오늘 Palantir 주식을 구매하는 것이 정당화될 수 있습니까?",
-            "| Trefis 지금 Palantir 주식을 구매하는 것을 정당화할 수 있습니까?",
-            "2026년 9월 29일 · Trefis Team PLTR YTD +5.5% SPY YTD +12.9% QQQ YTD +20.2% PLTR 분석 → Palantir Technologies(PLTR) 주식은 지난 12개월 동안 매출의 73배에 거래되며, 이는 S&P 500의 약 3배에 해당합니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 12 times, $448.7 billion, $15.6 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "PLTR",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "PLTR에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "12 times",
-            "$448.7 billion",
-            "$15.6 billion",
-            "$73.6 billion",
-            "21%",
-            "43%",
-            "79%",
-            "39%"
-          ],
-          "sourceExcerpt": [
-            "Can You Justify Buying Palantir Stock Today?",
-            "| Trefis Can You Justify Buying Palantir Stock Today?",
-            "September 29th, 2026 · by Trefis Team PLTR YTD +5.5% SPY YTD +12.9% QQQ YTD +20.2% Analyze PLTR → Palantir Technologies (PLTR) stock trades at 73 times its sales over the last twelve months, against about 3 times for the S&P 500."
-          ],
-          "analysisUpdatedAt": 1790708552.500595
-        }
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:41",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:51",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 189,
-      "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "removed": 1,
+      "updated": "2026-10-21 05:57"
     }
   },
   "NVDA": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-11-17",
       "hour": "amc",
@@ -89415,33 +89432,31 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "NVIDIA Gets the Attention, but Broadcom Could Deliver the Bigger Surprise",
+        "headline": "Amazon stockpiles Nvidia AI hardware ahead of power availability -Business Insider",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b5af670081a927e2468e1d3008c68af70dc5c3e2b902101d7d6a313edf2a67a2",
-        "datetime": 1792503017,
+        "url": "https://finnhub.io/api/news?id=ab574575bc56dcfc0cd06ef844851b998d5564737e945aab4859e7d98b0587f1",
+        "datetime": 1792525575,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "NVIDIA는 주목을 받지만 Broadcom은 더 큰 놀라움을 선사할 수 있습니다 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% 다우존스 52,602.00 +1.07% 나스닥 100 29,665.80 +0.27% 러셀 2000 2,776.94 +1.",
-            "그 수학에 관한 뭔가가 가치가 있습니다… 작성자: Vandita Jadeja 2026년 10월 20일 오전 9시 30분(ET) 게시 · 3분 읽기 가격 목표 데스크."
+            "Amazon stockpiles Nvidia AI hardware ahead of power availability -Business Insider",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $419.38, 21.12%, $346.25 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -89451,38 +89466,107 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "NVDA에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Amazon stockpiles Nvidia AI hardware ahead of power availability -Business Insider' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.4,
-          "quality": "medium",
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529520.31015
+        },
+        "headlineKo": "Amazon, 전력 공급에 앞서 Nvidia AI 하드웨어 비축 -Business Insider"
+      },
+      {
+        "headline": "Anthropic Is in Talks for Another $45 Billion AI Deal. Nvidia Could Be a Big Winner.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e7614a1c2f40846e8541b05cc5535d834a3170da285d81e21d784000cd103613",
+        "datetime": 1792525441,
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $45 Billion, $90 billion, 85%, 0.11%, $1.5 trillion, $2 trillion, $147.79, $0.17.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Anthropic Is in Talks for Another $45 Billion AI Deal. Nvidia Could Be a Big Winner.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: NVDA에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 0.4,
+          "quality": "high",
           "verifiedNumbers": [
-            "$419.38",
-            "21.12%",
-            "$346.25",
-            "90%",
-            "$527.59,",
-            "$337.81",
-            "2.44%",
-            "10.28%"
+            "$45 Billion",
+            "$90 billion",
+            "85%",
+            "0.11%",
+            "$1.5 trillion",
+            "$2 trillion",
+            "$147.79",
+            "$0.17"
           ],
           "sourceExcerpt": [
-            "NVIDIA Gets the Attention, but Broadcom Could Deliver the Bigger Surprise - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.",
-            "Something about that math deserves… By Vandita Jadeja Published October 20, 2026, 9:30am ET · 3 min read Price Targets desk."
+            "Anthropic Is in Talks for Another $45 Billion AI Deal.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Anthropic, the company behind Claude, is reportedly in talks with the British neocloud provider Nscale to expand an already massive",
+            "Anthropic's Nscale deal could reach $90 billion CNBC reported this morning that the frontier AI lab is in talks to rent computing capacity in a second building at Monarch, Nscale's data center campus in West Virginia."
           ],
-          "analysisUpdatedAt": 1792507324.8701148
+          "analysisUpdatedAt": 1792529521.2151449
         },
-        "headlineKo": "NVIDIA가 주목을 받지만 Broadcom은 더 큰 놀라움을 선사할 수 있습니다."
+        "headlineKo": "Anthropic은 또 다른 450억 달러 규모의 AI 거래를 논의 중입니다. Nvidia는 큰 승자가 될 수 있습니다."
       },
       {
-        "headline": "Not Even Rumors of a Big China Chip Purchase Can Lift Nvidia Stock",
+        "headline": "Market Chatter: Amazon is Buying More Nvidia AI Hardware Than It Can Power Up",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ac4df03fa28c9fd47c5138540ab1dfac1c43b16c5336299ea457c17c7678e1d8",
-        "datetime": 1792500720,
+        "url": "https://finnhub.io/api/news?id=af5b78cf3bc72ee40b61c9f88597575013b276cf78183bbb30a4005d404291c0",
+        "datetime": 1792524552,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
@@ -89494,7 +89578,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Not Even Rumors of a Big China Chip Purchase Can Lift Nvidia Stock",
+            "Market Chatter: Amazon is Buying More Nvidia AI Hardware Than It Can Power Up",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -89518,88 +89602,234 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Not Even Rumors of a Big China Chip Purchase Can Lift Nvidia Stock' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Market Chatter: Amazon is Buying More Nvidia AI Hardware Than It Can Power Up' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.4,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507326.6717765
+          "analysisUpdatedAt": 1792529523.2591918
         },
-        "headlineKo": "대규모 중국 칩 구매에 대한 소문조차도 엔비디아 주가를 상승시킬 수 없습니다"
+        "headlineKo": "시장 잡담: Amazon은 전력을 공급할 수 있는 것보다 더 많은 Nvidia AI 하드웨어를 구매하고 있습니다."
       },
       {
-        "headline": "Nvidia Reportedly Sees Alibaba, ByteDance, Tencent Order $35B In RTX PRO 5500 Chips Amid US Export Curbs",
+        "headline": "Investment summit: German government strikes AI deal with Nvidia",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7981ccc7be95aa1efcf290a84a38e9ecda4797aadfe2d322a1e2d356a08bb82f",
-        "datetime": 1792493306,
+        "url": "https://finnhub.io/api/news?id=2d11ee394ed057db50b8b6a1640b8b80c2ae386a09286f5e8ea9fe1e940af13d",
+        "datetime": 1792521846,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Nvidia Reportedly Sees Alibaba, ByteDance, Tencent Order $35B In RTX PRO 5500 Chips Amid US Export Curbs",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Nvidia Reportedly Sees Alibaba, ByteDance, Tencent Order $35B In RTX PRO 5500 Chips Amid US Export Curbs' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.4,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507327.6551654
-        },
-        "headlineKo": "Nvidia는 미국 수출 억제로 인해 Alibaba, ByteDance, Tencent가 RTX PRO 5500 칩에서 350억 달러를 주문한 것으로 보고되었습니다."
+        "headlineKo": "투자 서밋: 독일 정부, 엔비디아와 AI 계약 체결"
       },
       {
-        "headline": "Market Chatter: Nvidia Receives Over $35 Billion in Chip Orders From ByteDance, Tencent, Alibaba",
+        "headline": "Nvidia Reportedly Just Landed $35 Billion In Chip Orders From Chinese Companies. Here's Why That Could Be Great News for the Stock",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3b136bfdc1c99e74e38b3e24c84a1a9136428a9d96144a8d01194d24eafff65b",
-        "datetime": 1792489600,
+        "url": "https://finnhub.io/api/news?id=c0b78958f851f4c1cc2144d06f55a401969c14a02dd1c66fd78be747057471ae",
+        "datetime": 1792520881,
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "시장 잡담: Nvidia는 ByteDance, Tencent, Alibaba로부터 350억 달러 이상의 칩 주문을 받았습니다."
-      },
-      {
-        "headline": "Nvidia Stock Hasn’t Been This Cheap in 7 Years. Only 1 Explanation Makes Sense.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9e34131c333fe5c61a6a619f42962ace928222a5425e8c27dfd6f6a63839cd1b",
-        "datetime": 1792487042,
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Nvidia 주식은 7년 동안 이렇게 저렴하지 않았습니다. 단 1개의 설명만 의미가 있습니다."
+        "headlineKo": "Nvidia는 중국 회사로부터 350억 달러의 칩 주문을 받은 것으로 알려졌습니다. 이것이 주식에 좋은 소식이 될 수 있는 이유는 다음과 같습니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Amazon stockpiles Nvidia AI hardware ahead of power availability -Business Insider",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ab574575bc56dcfc0cd06ef844851b998d5564737e945aab4859e7d98b0587f1",
+        "datetime": 1792525575,
+        "headlineKo": "Amazon, 전력 공급에 앞서 Nvidia AI 하드웨어 비축 -Business Insider",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Amazon stockpiles Nvidia AI hardware ahead of power availability -Business Insider",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Amazon stockpiles Nvidia AI hardware ahead of power availability -Business Insider' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529520.31015
+        }
+      },
+      {
+        "headline": "Anthropic Is in Talks for Another $45 Billion AI Deal. Nvidia Could Be a Big Winner.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e7614a1c2f40846e8541b05cc5535d834a3170da285d81e21d784000cd103613",
+        "datetime": 1792525441,
+        "headlineKo": "Anthropic은 또 다른 450억 달러 규모의 AI 거래를 논의 중입니다. Nvidia는 큰 승자가 될 수 있습니다.",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $45 Billion, $90 billion, 85%, 0.11%, $1.5 trillion, $2 trillion, $147.79, $0.17.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Anthropic Is in Talks for Another $45 Billion AI Deal. Nvidia Could Be a Big Winner.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: NVDA에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 0.4,
+          "quality": "high",
+          "verifiedNumbers": [
+            "$45 Billion",
+            "$90 billion",
+            "85%",
+            "0.11%",
+            "$1.5 trillion",
+            "$2 trillion",
+            "$147.79",
+            "$0.17"
+          ],
+          "sourceExcerpt": [
+            "Anthropic Is in Talks for Another $45 Billion AI Deal.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Anthropic, the company behind Claude, is reportedly in talks with the British neocloud provider Nscale to expand an already massive",
+            "Anthropic's Nscale deal could reach $90 billion CNBC reported this morning that the frontier AI lab is in talks to rent computing capacity in a second building at Monarch, Nscale's data center campus in West Virginia."
+          ],
+          "analysisUpdatedAt": 1792529521.2151449
+        }
+      },
+      {
+        "headline": "Market Chatter: Amazon is Buying More Nvidia AI Hardware Than It Can Power Up",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=af5b78cf3bc72ee40b61c9f88597575013b276cf78183bbb30a4005d404291c0",
+        "datetime": 1792524552,
+        "headlineKo": "시장 잡담: Amazon은 전력을 공급할 수 있는 것보다 더 많은 Nvidia AI 하드웨어를 구매하고 있습니다.",
+        "relevance": 0.4,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Market Chatter: Amazon is Buying More Nvidia AI Hardware Than It Can Power Up",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Market Chatter: Amazon is Buying More Nvidia AI Hardware Than It Can Power Up' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529523.2591918
+        }
+      },
+      {
+        "headline": "Investment summit: German government strikes AI deal with Nvidia",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2d11ee394ed057db50b8b6a1640b8b80c2ae386a09286f5e8ea9fe1e940af13d",
+        "datetime": 1792521846,
+        "headlineKo": "투자 서밋: 독일 정부, 엔비디아와 AI 계약 체결",
+        "relevance": 0.4,
+        "keywordFlag": false
+      },
+      {
+        "headline": "Nvidia Reportedly Just Landed $35 Billion In Chip Orders From Chinese Companies. Here's Why That Could Be Great News for the Stock",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c0b78958f851f4c1cc2144d06f55a401969c14a02dd1c66fd78be747057471ae",
+        "datetime": 1792520881,
+        "headlineKo": "Nvidia는 중국 회사로부터 350억 달러의 칩 주문을 받은 것으로 알려졌습니다. 이것이 주식에 좋은 소식이 될 수 있는 이유는 다음과 같습니다.",
+        "relevance": 0.4,
+        "keywordFlag": false
+      },
       {
         "headline": "NVIDIA Gets the Attention, but Broadcom Could Deliver the Bigger Surprise",
         "source": "Yahoo",
@@ -96981,221 +97211,21 @@ const NEWS_DATA = {
         "headlineKo": "Nvidia와 SpaceX: 최고 분석가 Daniel Ives는 이 두 AI 거물이 더 많은 실행 여지를 갖고 있다고 말합니다.",
         "relevance": 0.4,
         "keywordFlag": false
-      },
-      {
-        "headline": "Meet the Super Semiconductor Stock Crushing Nvidia in 2026",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f19b92ec36882bc0240d840a5763ba8c76a3c2e421c7c1e9526a6cb2b49de089",
-        "datetime": 1791473160,
-        "headlineKo": "2026년 슈퍼반도체 주가를 압도하는 엔비디아를 만나보세요",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "장기 공급계약 · 매출 가시성 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "2026년 슈퍼반도체 주식을 압도하는 Nvidia를 만나보세요 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 참여하세요 그래픽 처리 장치(GPU)는 가장 많은 일을 하는 데이터 센터 칩입니다.",
-            "Nvidia(NVDA -2.53%)는 세계 최고의 GPU를 공급하고 있으며 매출이 너무 강해서 회사의 시가총액이 2023년 초 이후 3,600억 달러에서 무려 5조 8,000억 달러로 성장했습니다.",
-            "그러나 Nvidia는 엄청난 규모로 인해 앞으로 그러한 수익을 재현하기 어려울 것이며, 이것이 바로 Nvidia의 주식이 2026년 현재까지(10월 1일 월요일 시장 마감 기준) 28%의 상승세를 기록하는 이유입니다."
-          ],
-          "why": [
-            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 2.53%, $360 billion, $5.8 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "계약 기간·최소구매 조건",
-            "연도별 매출 인식",
-            "수주잔고·취소 조건"
-          ],
-          "interpretation": "NVDA에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "2.53%",
-            "$360 billion",
-            "$5.8 trillion",
-            "28%",
-            "6.37%",
-            "82%",
-            "75%",
-            "50%"
-          ],
-          "sourceExcerpt": [
-            "Meet the Super Semiconductor Stock Crushing Nvidia in 2026 | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Graphics processing units (GPUs) are the data center chips that do most ",
-            "Nvidia ( NVDA -2.53% ) supplies the world's best GPUs, and sales have been so strong that the company's market capitalization has grown from $360 billion to a whopping $5.8 trillion since the start of 2023.",
-            "However, it will be hard for Nvidia to replicate those returns going forward because of its enormous size, which is why its stock has only mustered a 28% gain so far in 2026 (at the market close on Monday, Oct."
-          ],
-          "analysisUpdatedAt": 1791482555.1301088
-        }
-      },
-      {
-        "headline": "Securitize Brings Nvidia, Apple and Amazon Onchain With Tokenized Stocks on Solana",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=92f4277736d57f55d1a9e8e5821e50b7e901f743959c94503c04d034947defe2",
-        "datetime": 1791472249,
-        "headlineKo": "Securitize는 Solana의 토큰화된 주식을 통해 Nvidia, Apple 및 Amazon 온체인을 제공합니다.",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "경쟁사 수주 · 고객 점유 변화",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Securitize는 Nvidia, Apple 및 Amazon Onchain을 Solana의 토큰화된 주식과 함께 제공합니다. - Decrypt 요약 Securitize는 미국에서 토큰화된 주식을 출시했습니다.",
-            "주식은 실제 주식에 의해 일대일로 뒷받침되며 Apple, Nvidia, Tesla 및 Microsoft를 포함한 12개 이름으로 시작됩니다.",
-            "많은 해외 ​​가격 추적 제품과 달리 각 토큰은 배당금 및 투표와 같은 권리를 보존하는 UCC에 따른 보안 자격입니다."
-          ],
-          "why": [
-            "경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다.",
-            "이번 기사에서 확인된 구체적 수치: $80,751, 4.78 %, $86.8 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "경쟁사가 같은 고객에게 납품할 기회를 얻었다는 뜻입니다. 기존 회사 물량을 빼앗은 것인지, 고객이 공급처를 하나 더 늘린 것인지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "신규 공급사의 실제 물량",
-            "기존 공급사 매출 비중",
-            "고객의 이중 공급 전략"
-          ],
-          "interpretation": "NVDA에 대한 경쟁사 수주 · 고객 점유 변화 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 경쟁사의 공급 계약은 기존 공급사의 고객 비중과 가격 협상력에 영향을 줄 수 있습니다. 공급 물량이 추가분인지 대체 물량인지가 핵심입니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$80,751",
-            "4.78 %",
-            "$86.8",
-            "$84.8",
-            "$82.8",
-            "$80.7",
-            "$83,563",
-            "$80,789"
-          ],
-          "sourceExcerpt": [
-            "Securitize Brings Nvidia, Apple and Amazon Onchain With Tokenized Stocks on Solana - Decrypt In brief Securitize launched tokenized U.S.",
-            "stocks backed one-to-one by real shares, opening with 12 names including Apple, Nvidia, Tesla and Microsoft.",
-            "Unlike many offshore price-tracking products, each token is a security entitlement under the UCC that preserves rights like dividends and voting."
-          ],
-          "analysisUpdatedAt": 1791482557.2697928
-        }
-      },
-      {
-        "headline": "Securitize Rolls Out 1:1-Backed Tokens of Apple, Nvidia and 10 Other U.S. Stocks on Solana",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d8806409c3d3cce81ff5196291c460db87540eab00615dac15af62cd56db8493",
-        "datetime": 1791471289,
-        "headlineKo": "Securitize는 솔라나에서 Apple, Nvidia 및 기타 10개 미국 주식의 1:1 담보 토큰을 출시합니다.",
-        "relevance": 0.4,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Securitize는 Apple, Nvidia 및 기타 미국 10곳의 1:1 지원 토큰을 출시합니다.",
-            "Solana의 주식 - Securitize가 후원하는 Unchained가 Apple, Nvidia 및 기타 미국 10개 기업의 1:1 지원 토큰을 출시합니다.",
-            "Solana Securitize Stocks의 주식은 자격을 갖춘 투자자에게 미국 12개 주요 기업의 토큰을 완전히 지원합니다."
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $5 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "NVDA에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$5 billion"
-          ],
-          "sourceExcerpt": [
-            "Securitize Rolls Out 1:1-Backed Tokens of Apple, Nvidia and 10 Other U.S.",
-            "Stocks on Solana - Unchained Sponsored by Securitize Rolls Out 1:1-Backed Tokens of Apple, Nvidia and 10 Other U.S.",
-            "Stocks on Solana Securitize Stocks give eligible investors fully backed tokens of 12 major U.S."
-          ],
-          "analysisUpdatedAt": 1791482560.6850877
-        }
-      },
-      {
-        "headline": "1 Unstoppable Artificial Intelligence (AI) Stock to Buy Before It Joins Nvidia in the $5 Trillion Club",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f5bde8b62917bdda4a792a5ee85e1064976b27e385a68814a1d6cfb7833d6322",
-        "datetime": 1791471000,
-        "headlineKo": "5조 달러 클럽에 Nvidia에 합류하기 전에 구매해야 할 멈출 수 없는 인공 지능(AI) 주식 1개",
-        "relevance": 0.4,
-        "keywordFlag": false
-      },
-      {
-        "headline": "From Agentic AI Concerns to Solutions: How NVIDIA Corporation’s (NVDA) Safety Platform Strengthens Bull Case",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a254196be56c1fded858ae72e90523b91e724d714c2b2f9b3ad9fd31ec9531bf",
-        "datetime": 1791470441,
-        "headlineKo": "Agentic AI 문제부터 솔루션까지: NVIDIA Corporation(NVDA)의 안전 플랫폼이 Bull Case를 강화하는 방법",
-        "relevance": 1.0,
-        "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:42",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:52",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "AMD": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -97205,10 +97235,10 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "CoreWeave, SpaceX, Netflix, IREN, AMD, and More Stocks That Explain Today’s Market",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=155619c26132e42e51a7cf6f3b152b887de125a705973eafc02a0fe6d69433ad",
-        "datetime": 1792492860,
+        "headline": "AMD: The Helios Ramp Is Priced But The Margin Path Is Not",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=f3e78890a60fff9e841bd6e8d335b06fb2f290746e29cd925b4347ec25d10887",
+        "datetime": 1792508098,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
@@ -97220,7 +97250,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "CoreWeave, SpaceX, Netflix, IREN, AMD, and More Stocks That Explain Today’s Market",
+            "AMD: The Helios Ramp Is Priced But The Margin Path Is Not",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -97244,37 +97274,39 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'CoreWeave, SpaceX, Netflix, IREN, AMD, and More Stocks That Explain Today’s Market' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD: The Helios Ramp Is Priced But The Margin Path Is Not' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507339.7308528
+          "analysisUpdatedAt": 1792529529.5121346
         },
-        "headlineKo": "CoreWeave, SpaceX, Netflix, IREN, AMD 및 오늘날 시장을 설명하는 기타 주식"
+        "headlineKo": "AMD: Helios Ramp는 가격이 책정되지만 마진 경로는 그렇지 않습니다."
       },
       {
-        "headline": "Wedbush Reiterates Outperform on Advanced Micro Devices, Maintains $600 Price Target",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=e28e7bceee385b28c1ae60af15ea24127e99384505f3866b16de9b7caf402038",
-        "datetime": 1792485450,
-        "relevance": 0.4,
+        "headline": "AMD Stock Price Prediction: Is the AI Chip Opportunity Bigger Than Wall Street Thinks?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=fd103074693584e6a8a99232d4210bd09568507729f2a7036d4470dc1ebf3536",
+        "datetime": 1792506619,
+        "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "medium",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Wedbush Reiterates Outperform on Advanced Micro Devices, Maintains $600 Price Target",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "AMD 주가 예측: AI 칩 기회는 월스트리트가 생각하는 것보다 더 큽니까?",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% 다우존스 52,632.50 +1.13% 나스닥 100 29,606.60 +0.07% 러셀 2000 2,779.59 +1.",
+            "AMD는 올해 155% 이상 급등했으며 일주일 동안의 잔혹한 매도는 중요한 질문을 제기합니다. 주가가 이미 완전한 AI 기회를 포착하고 있습니까, 아니면 월스트리트는 다음 단계에 대해 여전히 잠자고 있습니까?"
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 155%, $571.04, $546.68 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -97293,33 +97325,46 @@ const NEWS_DATA = {
             "적용 PER 변화",
             "회사 공식 가이던스"
           ],
-          "interpretation": "AMD에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "interpretation": "AMD에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
           "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.4,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507340.5926468
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "155%",
+            "$571.04",
+            "$546.68",
+            "4.46%",
+            "90%",
+            "$570.62.",
+            "15.36%",
+            "4.23%"
+          ],
+          "sourceExcerpt": [
+            "AMD Stock Price Prediction: Is the AI Chip Opportunity Bigger Than Wall Street Thinks?",
+            "Skip to content ❚❚ At close S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.",
+            "AMD has surged over 155% this year while a brutal week-long selloff raises a critical question: does the stock price already capture the full AI opportunity, or is Wall Street still sleeping on what comes next?"
+          ],
+          "analysisUpdatedAt": 1792529531.9661531
         },
-        "headlineKo": "Wedbush, 고급 마이크로 장치 부문에서 우수한 성과 유지, $600 목표 가격 유지"
+        "headlineKo": "AMD 주가 예측: AI 칩 기회는 월스트리트가 생각하는 것보다 더 큽니까?"
       },
       {
-        "headline": "Semiconductor (Silicon) Intellectual Property (SIP) Market Forecasts Growth from $7.3 Billion (2024) to $9.2 Billion by 2030, Profiling Arm, Cadence Design Systems, AMD, Ceva & 67 Other Key Players",
+        "headline": "Stocks making big moves yesterday: Datadog, SolarEdge, AMD, Western Digital, and Amazon",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7b2ff34d2d390a952cefe5d3063da0b224e1bcec356767d6b44c68cd4703dd61",
-        "datetime": 1792484940,
+        "url": "https://finnhub.io/api/news?id=f638110ff1af37f8617e3c0cddf2fe1a5da6c542de5be1bd79af595c28438af5",
+        "datetime": 1792504190,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "low",
-          "tone": "positive",
+          "tone": "neutral",
           "certainty": "본문 확인 필요",
-          "label": "실적·수요 개선 가능성",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Semiconductor (Silicon) Intellectual Property (SIP) Market Forecasts Growth from $7.3 Billion (2024) to $9.2 Billion by 2030, Profiling Arm, Cadence Design Systems, AMD, Ceva & 67 Other Key Players",
+            "Stocks making big moves yesterday: Datadog, SolarEdge, AMD, Western Digital, and Amazon",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -97343,38 +97388,217 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMD의 사업과 관련된 'Semiconductor (Silicon) Intellectual Property (SIP) Market Forecasts Growth from $7.3 Billion (2024) to $9.2 Billion by 2030, Profiling Arm, Cadence Design Systems, AMD, Ceva & 67 Other Key Players' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'Stocks making big moves yesterday: Datadog, SolarEdge, AMD, Western Digital, and Amazon' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507342.9534433
+          "analysisUpdatedAt": 1792529533.7891555
         },
-        "headlineKo": "반도체(실리콘) 지적 재산권(SIP) 시장은 2024년 73억 달러에서 2030년까지 92억 달러로 성장할 것으로 예측, Profiling Arm, Cadence Design Systems, AMD, Ceva 및 기타 67개 주요 업체"
+        "headlineKo": "어제 큰 움직임을 보인 주식: Datadog, SolarEdge, AMD, Western Digital 및 Amazon"
       },
       {
-        "headline": "Will AI Rack Expansion Change AMD Stock Narrative",
+        "headline": "AMD Lost Its $1 Trillion Status: Two Options Trades to Play the Comeback",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=bfade1dfd7a863d8282dee5a7a908e57b99bd7d2d0cdbfc486ec58840e155d58",
-        "datetime": 1792448027,
+        "url": "https://finnhub.io/api/news?id=3b00221565345abaeface805ab1d5a12de86745db739e7cb7f4ec97406b91d77",
+        "datetime": 1792501502,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "AI 랙 확장으로 AMD 주식 설명이 바뀔까요?"
+        "headlineKo": "AMD는 1조 달러의 지위를 잃었습니다: 복귀를 위한 두 가지 옵션 거래"
       },
       {
-        "headline": "AMD (AMD) Stock Trades Up, Here Is Why",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a7bedc19252759788da9710de6ded87ff986aabe8cbdf8edfff0688c0b121286",
-        "datetime": 1792447735,
+        "headline": "AMD Stock: My Notes On Its 70+ P/E Ratio",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=e20a55575887bcf852157468c1891edd7c7feba6b0b20554fca2dbaade1a58db",
+        "datetime": 1792500710,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "AMD(AMD) 주식이 상승하는 이유는 다음과 같습니다."
+        "headlineKo": "AMD 주식: 70+ P/E 비율에 대한 나의 메모"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "AMD: The Helios Ramp Is Priced But The Margin Path Is Not",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=f3e78890a60fff9e841bd6e8d335b06fb2f290746e29cd925b4347ec25d10887",
+        "datetime": 1792508098,
+        "headlineKo": "AMD: Helios Ramp는 가격이 책정되지만 마진 경로는 그렇지 않습니다.",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AMD: The Helios Ramp Is Priced But The Margin Path Is Not",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD: The Helios Ramp Is Priced But The Margin Path Is Not' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529529.5121346
+        }
+      },
+      {
+        "headline": "AMD Stock Price Prediction: Is the AI Chip Opportunity Bigger Than Wall Street Thinks?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=fd103074693584e6a8a99232d4210bd09568507729f2a7036d4470dc1ebf3536",
+        "datetime": 1792506619,
+        "headlineKo": "AMD 주가 예측: AI 칩 기회는 월스트리트가 생각하는 것보다 더 큽니까?",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AMD 주가 예측: AI 칩 기회는 월스트리트가 생각하는 것보다 더 큽니까?",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% 다우존스 52,632.50 +1.13% 나스닥 100 29,606.60 +0.07% 러셀 2000 2,779.59 +1.",
+            "AMD는 올해 155% 이상 급등했으며 일주일 동안의 잔혹한 매도는 중요한 질문을 제기합니다. 주가가 이미 완전한 AI 기회를 포착하고 있습니까, 아니면 월스트리트는 다음 단계에 대해 여전히 잠자고 있습니까?"
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 155%, $571.04, $546.68 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "AMD에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "155%",
+            "$571.04",
+            "$546.68",
+            "4.46%",
+            "90%",
+            "$570.62.",
+            "15.36%",
+            "4.23%"
+          ],
+          "sourceExcerpt": [
+            "AMD Stock Price Prediction: Is the AI Chip Opportunity Bigger Than Wall Street Thinks?",
+            "Skip to content ❚❚ At close S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.",
+            "AMD has surged over 155% this year while a brutal week-long selloff raises a critical question: does the stock price already capture the full AI opportunity, or is Wall Street still sleeping on what comes next?"
+          ],
+          "analysisUpdatedAt": 1792529531.9661531
+        }
+      },
+      {
+        "headline": "Stocks making big moves yesterday: Datadog, SolarEdge, AMD, Western Digital, and Amazon",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f638110ff1af37f8617e3c0cddf2fe1a5da6c542de5be1bd79af595c28438af5",
+        "datetime": 1792504190,
+        "headlineKo": "어제 큰 움직임을 보인 주식: Datadog, SolarEdge, AMD, Western Digital 및 Amazon",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Stocks making big moves yesterday: Datadog, SolarEdge, AMD, Western Digital, and Amazon",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'Stocks making big moves yesterday: Datadog, SolarEdge, AMD, Western Digital, and Amazon' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529533.7891555
+        }
+      },
+      {
+        "headline": "AMD Lost Its $1 Trillion Status: Two Options Trades to Play the Comeback",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3b00221565345abaeface805ab1d5a12de86745db739e7cb7f4ec97406b91d77",
+        "datetime": 1792501502,
+        "headlineKo": "AMD는 1조 달러의 지위를 잃었습니다: 복귀를 위한 두 가지 옵션 거래",
+        "relevance": 1,
+        "keywordFlag": false
+      },
+      {
+        "headline": "AMD Stock: My Notes On Its 70+ P/E Ratio",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=e20a55575887bcf852157468c1891edd7c7feba6b0b20554fca2dbaade1a58db",
+        "datetime": 1792500710,
+        "headlineKo": "AMD 주식: 70+ P/E 비율에 대한 나의 메모",
+        "relevance": 1,
+        "keywordFlag": false
+      },
       {
         "headline": "CoreWeave, SpaceX, Netflix, IREN, AMD, and More Stocks That Explain Today’s Market",
         "source": "Yahoo",
@@ -105102,336 +105326,21 @@ const NEWS_DATA = {
         "headlineKo": "AMD(Advanced Micro Devices)는 World Labs 거래로 인해 33% 저평가될 수 있습니다.",
         "relevance": 1,
         "keywordFlag": false
-      },
-      {
-        "headline": "The Hyperscaler CPU Threat to AMD No One Is Talking About",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=53403066a13cd814eec58a16705c590a0da8ec44154a9dd5e9b452a21e38486a",
-        "datetime": 1790853341,
-        "headlineKo": "AMD에 대한 하이퍼스케일러 CPU 위협에 대해서는 아무도 언급하지 않습니다.",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "AMD에 대한 하이퍼스케일러 CPU 위협에 대해서는 아무도 이야기하지 않습니다. - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,644.10 −0.37% Dow Jones 50,711.60 −0.62% Nasdaq 100 30,408.00 −0.27% Russell 2000 2,785.51 −0.62% S&P 500 7,644.10 −0.37% 다우존스 50,711.60 −0.62% 나스닥 100 30,408.00 −0.27% 러셀 2000 2,785.51 −0.",
-            "대답은 곧 출시될 칩 하나와 하이퍼스케일러가 어떤 선택을 하느냐에 달려 있습니다. 작성자: Alex Sirois 2026년 10월 1일 게시, 오전 7시 15분(ET) · 읽기 2분 𝕏 f ⧉ 한 투자자가 AMD의 데이터 센터 운영이 재무적으로 미치는 영향을 반영하며 우려를 표시합니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $6.72, 107%, $2.10 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "AMD에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$6.72",
-            "107%",
-            "$2.10",
-            "$155",
-            "70%",
-            "$89.02",
-            "117%",
-            "$5 billion"
-          ],
-          "sourceExcerpt": [
-            "The Hyperscaler CPU Threat to AMD No One Is Talking About - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,644.10 −0.37% Dow Jones 50,711.60 −0.62% Nasdaq 100 30,408.00 −0.27% Russell 2000 2,785.51 −0.62% S&P 500 7,644.10 −0.37% Dow Jones 50,711.60 −0.62% Nasdaq 100 30,408.00 −0.27% Russell 2000 2,785.51 −0.",
-            "The answer hinges on one upcoming chip and which hyperscalers choose to… By Alex Sirois Published October 1, 2026, 7:15am ET · 2 min read 𝕏 f ⧉ An investor displays concern, reflecting on the financial implications of AMD's data center reve"
-          ],
-          "analysisUpdatedAt": 1790866972.464725
-        }
-      },
-      {
-        "headline": "I’m Dollar Cost Averaging AMD at Today’s Price Without Fear",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f8e90961af80eac05bc0f8481d32b6c54cee6c4ac15dbc6357a93a6be13bc0ff",
-        "datetime": 1790853314,
-        "headlineKo": "나는 두려움 없이 오늘의 가격으로 달러 비용 평균 AMD입니다",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "장기 공급계약 · 매출 가시성 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "저는 두려움 없이 오늘의 가격으로 AMD를 평균하는 달러 비용입니다 - 연중무휴 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,644.10 −0.37% Dow Jones 50,711.60 −0.62% Nasdaq 100 30,408.00 −0.27% Russell 2000 2,785.51 −0.62% S&P 500 7,644.10 −0.37% 다우존스 50,711.60 −0.62% 나스닥 100 30,408.00 −0.27% 러셀 2000 2,785.51 −0.",
-            "여기에 그 규율의 이면에 있는 논리가 있습니다. 작성자: Alex Sirois 2026년 10월 1일 게시, 오전 7시 15분(동부 표준시) · 3분 읽기 𝕏 f ⧉ AMD EPYC 프로세서는 데이터 센터 부문에서 회사의 강력한 성능과 증가하는 시장 점유율을 상징합니다."
-          ],
-          "why": [
-            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $611.76,, 185.66%, 50.1% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "계약 기간·최소구매 조건",
-            "연도별 매출 인식",
-            "수주잔고·취소 조건"
-          ],
-          "interpretation": "AMD에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$611.76,",
-            "185.66%",
-            "50.1%",
-            "$11.54 billion",
-            "107%",
-            "$6.718 billion",
-            "58%",
-            "27%"
-          ],
-          "sourceExcerpt": [
-            "I'm Dollar Cost Averaging AMD at Today's Price Without Fear - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,644.10 −0.37% Dow Jones 50,711.60 −0.62% Nasdaq 100 30,408.00 −0.27% Russell 2000 2,785.51 −0.62% S&P 500 7,644.10 −0.37% Dow Jones 50,711.60 −0.62% Nasdaq 100 30,408.00 −0.27% Russell 2000 2,785.51 −0.",
-            "Here is the logic behind that discipline and… By Alex Sirois Published October 1, 2026, 7:15am ET · 3 min read 𝕏 f ⧉ An AMD EPYC processor, symbolizing the company's strong performance and increasing market share in the data center segment."
-          ],
-          "analysisUpdatedAt": 1790866977.4057744
-        }
-      },
-      {
-        "headline": "What's Going On With AMD Stock Thursday?",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=e70b94baba57612802fea9a86bbd1b5ae287c4d53e3e25f2ae9e3068ae57513a",
-        "datetime": 1790835182,
-        "headlineKo": "목요일 AMD 주식에 무슨 일이 일어나고 있나요?",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "목요일 AMD 주식에 무슨 일이 일어나고 있나요?",
-            "- Advanced Micro Devices (NASDAQ:AMD) - Benzinga SPY 764.05 +0.19% QQQ 743.93 +0.56% BTC/USD 83,620.49 +0.08% DIA 507.38 −0.23% GLD 380.82 −0.01% TLT 77.20 −0.35% US 로그인 회원가입 내 계정 Benzinga Premium 프리미엄 서비스 모든 섹션",
-            "(NASDAQ: AMD)는 프로세서, 소프트웨어, 모델 및 시스템을 중심으로 더 넓은 AI 생태계를 구축하면서 전통적인 칩 제조를 넘어 확장하고 있으며, 전문가들은 에이전트 AI 및 추론을 CPU 및 GPU에 대한 새로운 수요 동인으로 지적합니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.19%, 0.56%, 0.08% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "AMD에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.19%",
-            "0.56%",
-            "0.08%",
-            "0.23%",
-            "0.01%",
-            "0.35%",
-            "30%",
-            "200%"
-          ],
-          "sourceExcerpt": [
-            "What's Going On With AMD Stock Thursday?",
-            "- Advanced Micro Devices (NASDAQ:AMD) - Benzinga SPY 764.05 +0.19% QQQ 743.93 +0.56% BTC/USD 83,620.49 +0.08% DIA 507.38 −0.23% GLD 380.82 −0.01% TLT 77.20 −0.35% US Sign in Register My Account Benzinga Premium Premium Services All sections",
-            "(NASDAQ: AMD ) is expanding beyond traditional chipmaking as it builds a broader AI ecosystem around processors, software, models and systems, while experts point to agentic AI and inference as new demand drivers for its CPUs and GPUs."
-          ],
-          "analysisUpdatedAt": 1790866982.278182
-        }
-      },
-      {
-        "headline": "History Says AMD Stock's $1 Trillion Milestone Isn't a Ceiling",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b7deef85221430a024a04d7f5653a91a75e6f3b37f8f949b6802afdcb00b5c74",
-        "datetime": 1790834461,
-        "headlineKo": "역사에 따르면 AMD 주식의 1조 달러 이정표는 한도가 아닙니다.",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "역사에 따르면 AMD 주식의 1조 달러 이정표는 한계가 아닙니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% The Motley Fool Advanced Micro Devices(AMD +0.69%)에 참여하세요. 월요일 $615.52에 마감되었습니다.",
-            "21일 하루 동안 약 10% 상승해 처음으로 1조 달러를 넘어섰습니다.",
-            "Nvidia(NVDA +0.52%), Broadcom(AVGO -1.10%) 및 Micron Technology에 이어 칩 제조업체가 기록을 달성했습니다."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 10%, $1 trillion, 0.52% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "AMD에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "10%",
-            "$1 trillion",
-            "0.52%",
-            "1.10%",
-            "$608,",
-            "184%",
-            "216%",
-            "0.16%"
-          ],
-          "sourceExcerpt": [
-            "History Says AMD Stock's $1 Trillion Milestone Isn't a Ceiling | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Advanced Micro Devices ( AMD +0.69% ) closed at $615.52 on Monday, S",
-            "21, up about 10% for the day and worth over $1 trillion for the first time.",
-            "chipmaker to hit the mark, after Nvidia ( NVDA +0.52% ) , Broadcom ( AVGO -1.10% ) , and Micron Technology ."
-          ],
-          "analysisUpdatedAt": 1790844840.5585635
-        }
-      },
-      {
-        "headline": "Nvidia, Broadcom, and AMD Investors Need to Have Oct. 15 Circled on Their Calendars",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4a438b5d0e95cb6bd7403fa88539f5348b58651232f9615f1d3f5d35a122dbaa",
-        "datetime": 1790809440,
-        "headlineKo": "Nvidia, Broadcom 및 AMD 투자자는 달력에 10월 15일을 표시해야 합니다.",
-        "relevance": 1,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Nvidia, Broadcom 및 AMD 투자자는 10월의 기회를 가져야 합니다.",
-            "15 달력에 동그라미 표시 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 거의 모든 주요 AI 주식에 대한 중요한 이벤트가 10월 1일에 열립니다.",
-            "Nvidia(NVDA +0.52%), Broadcom(AVGO -1.10%) 또는 AMD(AMD +0.69%)와 같은 주식과 직접적인 관련은 없지만 주요 공급업체 중 하나에서 나온 것이며, 이 내용은 OU에 큰 영향을 미칠 것입니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.52%, 1.10%, 0.69% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMD",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "AMD에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.52%",
-            "1.10%",
-            "0.69%",
-            "0.16%",
-            "72.5%",
-            "45%",
-            "53%",
-            "47%"
-          ],
-          "sourceExcerpt": [
-            "Nvidia, Broadcom, and AMD Investors Need to Have Oct.",
-            "15 Circled on Their Calendars | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool An important event for nearly every major AI stock is coming on Oct.",
-            "Although it doesn't directly have anything to do with stocks like Nvidia ( NVDA +0.52% ) , Broadcom ( AVGO -1.10% ) , or AMD ( AMD +0.69% ) , it comes from one of their key suppliers, and what it says will have major implications for the ou"
-          ],
-          "analysisUpdatedAt": 1790844843.8367023
-        }
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:42",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:52",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "AVGO": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-12-09",
       "hour": "amc",
@@ -105440,6 +105349,106 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Photonic Integrated Circuit (PIC) - Global Strategic Business Report: Capitalize on 19.7% CAGR to US$5.5 Billion by 2030 as Broadcom, Intel, Ciena, Infinera and Acacia Reshape the Market",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e9fbcbbf889a1d30c09c9def430bb49c061554c9320f310a611b4f043365dfb0",
+        "datetime": 1792511220,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Photonic Integrated Circuit (PIC) - Global Strategic Business Report: Capitalize on 19.7% CAGR to US$5.5 Billion by 2030 as Broadcom, Intel, Ciena, Infinera and Acacia Reshape the Market",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AVGO",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AVGO의 사업과 관련된 'Photonic Integrated Circuit (PIC) - Global Strategic Business Report: Capitalize on 19.7% CAGR to US$5.5 Billion by 2030 as Broadcom, Intel, Ciena, Infinera and Acacia Reshape the Market' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AVGO 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529542.1579344
+        },
+        "headlineKo": "광자 집적 회로(PIC) - 글로벌 전략 사업 보고서: Broadcom, Intel, Ciena, Infinera 및 Acacia가 시장을 재편함에 따라 2030년까지 CAGR 19.7%를 활용하여 미화 55억 달러에 도달할 것입니다."
+      },
+      {
+        "headline": "Broadcom (AVGO), What Is Behind The Fresh Attention?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3b54eb9f205667cff2e2d1521575cf2210e5a4d1b592c6896a7d12aeeac85dcf",
+        "datetime": 1792505328,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Broadcom (AVGO), What Is Behind The Fresh Attention?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AVGO",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AVGO의 사업과 관련된 'Broadcom (AVGO), What Is Behind The Fresh Attention?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AVGO 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529544.2019665
+        },
+        "headlineKo": "브로드컴(AVGO), 새롭게 주목받는 이유는 무엇일까?"
+      },
       {
         "headline": "Broadcom (AVGO): Can VMware Remain a Durable Cash Engine as Customers Reassess Private Clouds?",
         "source": "Yahoo",
@@ -105486,7 +105495,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507352.5172806
+          "analysisUpdatedAt": 1792529546.5972652
         },
         "headlineKo": "Broadcom(AVGO): 고객이 프라이빗 클라우드를 재평가하는 동안 VMware가 내구성 있는 현금 엔진으로 남을 수 있습니까?"
       },
@@ -105498,88 +105507,46 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "NVIDIA는 주목을 받지만 Broadcom은 더 큰 놀라움을 선사할 수 있습니다 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% 다우존스 52,602.00 +1.07% 나스닥 100 29,665.80 +0.27% 러셀 2000 2,776.94 +1.",
-            "그 수학에 관한 뭔가가 가치가 있습니다… 작성자: Vandita Jadeja 2026년 10월 20일 오전 9시 30분(ET) 게시 · 3분 읽기 가격 목표 데스크."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $419.38, 21.12%, $346.25 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AVGO의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AVGO",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "AVGO에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$419.38",
-            "21.12%",
-            "$346.25",
-            "90%",
-            "$527.59,",
-            "$337.81",
-            "2.44%",
-            "10.28%"
-          ],
-          "sourceExcerpt": [
-            "NVIDIA Gets the Attention, but Broadcom Could Deliver the Bigger Surprise - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.",
-            "Something about that math deserves… By Vandita Jadeja Published October 20, 2026, 9:30am ET · 3 min read Price Targets desk."
-          ],
-          "analysisUpdatedAt": 1792507355.1152442
-        },
         "headlineKo": "NVIDIA가 주목을 받지만 Broadcom은 더 큰 놀라움을 선사할 수 있습니다."
       },
       {
-        "headline": "Broadcom Announces Continued Infrastructure Agreement with FedEx to Support Global Operations",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=dac0d99e77c6a45c3f613ed28c686344503f3c88fd3d1408b8f71e14605f26be",
-        "datetime": 1792501200,
+        "headline": "Celestica: Broadcom Just Fired A $350 Billion Warning Shot",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=fd42c51a4a8e39d2d446bb787188df98db4822a4023aeb88773490bda9eb1602",
+        "datetime": 1792502872,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "Celestica: Broadcom이 방금 3,500억 달러 규모의 경고 조치를 취했습니다."
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Photonic Integrated Circuit (PIC) - Global Strategic Business Report: Capitalize on 19.7% CAGR to US$5.5 Billion by 2030 as Broadcom, Intel, Ciena, Infinera and Acacia Reshape the Market",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e9fbcbbf889a1d30c09c9def430bb49c061554c9320f310a611b4f043365dfb0",
+        "datetime": 1792511220,
+        "headlineKo": "광자 집적 회로(PIC) - 글로벌 전략 사업 보고서: Broadcom, Intel, Ciena, Infinera 및 Acacia가 시장을 재편함에 따라 2030년까지 CAGR 19.7%를 활용하여 미화 55억 달러에 도달할 것입니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "medium",
+          "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
-          "label": "고객 계약 · 매출 연결 확인",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Broadcom Announces Continued Infrastructure Agreement with FedEx to Support Global Operations",
+            "Photonic Integrated Circuit (PIC) - Global Strategic Business Report: Capitalize on 19.7% CAGR to US$5.5 Billion by 2030 as Broadcom, Intel, Ciena, Infinera and Acacia Reshape the Market",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
-            "AVGO의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -105589,42 +105556,69 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "계약 금액·기간·취소 조건",
-            "수주잔고와 매출 인식 시점",
-            "관련 사업부 매출총이익률"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "AVGO에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 AVGO의 사업과 관련된 'Photonic Integrated Circuit (PIC) - Global Strategic Business Report: Capitalize on 19.7% CAGR to US$5.5 Billion by 2030 as Broadcom, Intel, Ciena, Infinera and Acacia Reshape the Market' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AVGO 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.5,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507357.3162081
-        },
-        "headlineKo": "Broadcom, 글로벌 운영 지원을 위해 FedEx와 지속적인 인프라 계약 발표"
+          "analysisUpdatedAt": 1792529542.1579344
+        }
       },
       {
-        "headline": "Jim Cramer sees something Wall Street may be missing in Broadcom",
+        "headline": "Broadcom (AVGO), What Is Behind The Fresh Attention?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7bb948cd82619478d60cdab51ff6a48571ece5ddbeb13edb3d9730ba63b5c8dc",
-        "datetime": 1792494180,
-        "relevance": 0.5,
+        "url": "https://finnhub.io/api/news?id=3b54eb9f205667cff2e2d1521575cf2210e5a4d1b592c6896a7d12aeeac85dcf",
+        "datetime": 1792505328,
+        "headlineKo": "브로드컴(AVGO), 새롭게 주목받는 이유는 무엇일까?",
+        "relevance": 1,
         "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Jim Cramer는 Broadcom에서 월스트리트가 놓칠 수 있는 뭔가를 발견했습니다."
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Broadcom (AVGO), What Is Behind The Fresh Attention?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AVGO",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AVGO의 사업과 관련된 'Broadcom (AVGO), What Is Behind The Fresh Attention?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AVGO 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529544.2019665
+        }
       },
-      {
-        "headline": "FedEx To Continue Utilizing Broadcom's Infrastructure Software Portfolio Under Expanded Collaboration",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=2c8b08edb11558d8493814c5309fa741999649b83ea63fa4f255f472acb2227e",
-        "datetime": 1792487054,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "FedEx, 확장된 협력 하에 Broadcom의 인프라 소프트웨어 포트폴리오 계속 활용"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Broadcom (AVGO): Can VMware Remain a Durable Cash Engine as Customers Reassess Private Clouds?",
         "source": "Yahoo",
@@ -105671,7 +105665,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507352.5172806
+          "analysisUpdatedAt": 1792529546.5972652
         }
       },
       {
@@ -105736,6 +105730,15 @@ const NEWS_DATA = {
           ],
           "analysisUpdatedAt": 1792507355.1152442
         }
+      },
+      {
+        "headline": "Celestica: Broadcom Just Fired A $350 Billion Warning Shot",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=fd42c51a4a8e39d2d446bb787188df98db4822a4023aeb88773490bda9eb1602",
+        "datetime": 1792502872,
+        "headlineKo": "Celestica: Broadcom이 방금 3,500억 달러 규모의 경고 조치를 취했습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false
       },
       {
         "headline": "Broadcom Announces Continued Infrastructure Agreement with FedEx to Support Global Operations",
@@ -113740,214 +113743,21 @@ const NEWS_DATA = {
         "headlineKo": "Anthropic과 Broadcom은 더욱 긴밀하게 얽혀가고 있습니다. Broadcom 주식에 대한 의미",
         "relevance": 0.5,
         "keywordFlag": false
-      },
-      {
-        "headline": "Is Broadcom a Millionaire-Maker Stock?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a1c3567458901a86edb0fb634653e3d058e486e7b491f50a96a4369c51e4f82a",
-        "datetime": 1790862600,
-        "headlineKo": "Broadcom은 백만장자 주식인가요?",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Broadcom은 백만장자 주식인가요?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 소수의 회사만이 현재 인공지능(AI) 붐으로 인해 Broadcom(AVGO -0.89%)보다 더 많은 혜택을 받았습니다.",
-            "거대 반도체 회사의 주가는 지난 3년 동안 330%나 올랐으며, 현재 Broadcom은 시가총액 1조 6,800억 달러(9월 1일 기준)로 세계 9위의 가치 있는 회사로 자리매김했습니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 330%, $1.68 trillion, $1 million — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AVGO의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AVGO",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "AVGO에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "330%",
-            "$1.68 trillion",
-            "$1 million",
-            "$500,000",
-            "$25,000",
-            "$3,000",
-            "$250",
-            "24.8%"
-          ],
-          "sourceExcerpt": [
-            "Is Broadcom a Millionaire-Maker Stock?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Only a handful of companies have benefited more from the current artificial intelligence (AI) boom than Broadcom ( AVGO -0.89% ) .",
-            "Shares of the semiconductor giant are up 330% in the past three years, and Broadcom now sits as the world's ninth-most valuable company, with a market capitalization of $1.68 trillion (as of Sept."
-          ],
-          "analysisUpdatedAt": 1790866994.0046852
-        }
-      },
-      {
-        "headline": "Broadcom to lend Anthropic $42 billion in finance infrastructure spending",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=43f9370f1a90e171b25ea647f8816600621ed547eccef5b1f1fd267d85f50aa7",
-        "datetime": 1790861885,
-        "headlineKo": "Broadcom, 금융 인프라 지출로 Anthropic에 420억 달러 대출 제공",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 AVGO의 사업과 관련된 'Broadcom to lend Anthropic $42 billion in finance infrastructure spending' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: AVGO에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
-          "relevance": 0.5,
-          "quality": "high",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790867000.0351553
-        }
-      },
-      {
-        "headline": "The Only Way I Stop Adding Broadcom is an AI Collapse",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f632cf3cbf8243be7fd4a7624ab96648a3ef4b3c0b34afece9caa3194ccbdf8a",
-        "datetime": 1790858741,
-        "headlineKo": "Broadcom 추가를 중단하는 유일한 방법은 AI 붕괴입니다",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Broadcom 추가를 중단하는 유일한 방법은 AI 붕괴입니다. - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,644.10 −0.37% Dow Jones 50,711.60 −0.62% Nasdaq 100 30,408.00 −0.27% Russell 2000 2,785.51 −0.62% S&P 500 7,644.10 −0.37% 다우존스 50,711.60 −0.62% 나스닥 100 30,408.00 −0.27% 러셀 2000 2,785.51 −0.",
-            "작성자: Alex Sirois 2026년 10월 1일 오전 8시 45분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 회로 기판에 'AI' 라벨이 붙은 칩의 클로즈업 이미지는 기업이 좋아하는 영역인 인공 지능 산업을 주도하는 핵심 기술을 상징합니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $29.59 billion, 85.5%, $16.70 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AVGO의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AVGO",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "AVGO에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$29.59 billion",
-            "85.5%",
-            "$16.70 billion",
-            "221%",
-            "$34.8 billion",
-            "$115 billion",
-            "$230 billion",
-            "$13.67 billion"
-          ],
-          "sourceExcerpt": [
-            "The Only Way I Stop Adding Broadcom is an AI Collapse - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,644.10 −0.37% Dow Jones 50,711.60 −0.62% Nasdaq 100 30,408.00 −0.27% Russell 2000 2,785.51 −0.62% S&P 500 7,644.10 −0.37% Dow Jones 50,711.60 −0.62% Nasdaq 100 30,408.00 −0.27% Russell 2000 2,785.51 −0.",
-            "By Alex Sirois Published October 1, 2026, 8:45am ET · 3 min read 𝕏 f ⧉ This close-up image of an 'AI' labeled chip on a circuit board symbolizes the core technology driving the artificial intelligence industry, a domain where companies like"
-          ],
-          "analysisUpdatedAt": 1790867004.7668483
-        }
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:42",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:52",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "QCOM": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-11-04",
       "hour": "amc",
@@ -113957,10 +113767,10 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "'Qualcomm to cut jobs worldwide in performance-focused layoffs, internal memo shows' - Reuters Exclusive",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=b4c256e76528c5d0c85d03cf982295af69f740419b97dbdd28f6220d52804f2c",
-        "datetime": 1792479512,
+        "headline": "Qualcomm To Reportedly Conduct Global Layoffs In Performance-Driven Overhaul",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=57aac6b44d03630ef98220890683ea170489e9be169e2c169f3d64dee028a9ac",
+        "datetime": 1792519635,
         "relevance": 0.5,
         "keywordFlag": true,
         "flagTerms": [
@@ -113968,13 +113778,141 @@ const NEWS_DATA = {
         ],
         "analysis": {
           "version": 9,
-          "importance": "low",
+          "importance": "medium",
           "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "실적·재무 부담 확인 필요",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "'Qualcomm to cut jobs worldwide in performance-focused layoffs, internal memo shows' - Reuters Exclusive",
+            "Qualcomm은 성능 중심 정밀 검사를 통해 글로벌 정리해고를 수행할 것으로 알려짐 AI 에이전트 Trending News Earnings All DIA 1.20% SPY 0.56% QQQ 0.32% Trending SPCX 3.60% NFLX 6.69% SMCI 13.89% SLS 14.20% ISRG 5.15% UAL SE 9.10% TSLA 1.68% IWM 1.77",
+            "Qualcomm, 성과 중심 정밀검사에서 글로벌 정리해고 실시 보도 거대 반도체 회사인 Qualcomm은 보다 엄격한 성과 문화를 조성하기 위해 연례 검토를 거쳐 전 세계적으로 정리해고를 실시한다고 로이터 통신이 보도했습니다.",
+            "2026년 3월 2일 스페인 바르셀로나에서 열린 2026 모바일 월드 콩그레스(MWC)에서 퀄컴 부스가 모습을 드러냈습니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.20%, 0.56%, 0.32% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QCOM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "QCOM에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "1.20%",
+            "0.56%",
+            "0.32%",
+            "3.60%",
+            "6.69%",
+            "13.89%",
+            "14.20%",
+            "5.15%"
+          ],
+          "sourceExcerpt": [
+            "Qualcomm To Reportedly Conduct Global Layoffs In Performance-Driven Overhaul AI Agent Trending News Earnings All DIA 1.20% SPY 0.56% QQQ 0.32% Trending SPCX 3.60% NFLX 6.69% SMCI 13.89% SLS 14.20% ISRG 5.15% UAL SE 9.10% TSLA 1.68% IWM 1.77",
+            "Qualcomm To Reportedly Conduct Global Layoffs In Performance-Driven Overhaul Semiconductor giant Qualcomm is launching worldwide layoffs following annual reviews to cultivate a stricter performance culture, according to a Reuters report.",
+            "Qualcomm booth is seen during 2026 Mobile World Congress (MWC) on March 2, 2026 in Barcelona, Spain."
+          ],
+          "analysisUpdatedAt": 1792529556.7169886
+        },
+        "headlineKo": "Qualcomm, 성과 중심 점검을 통해 글로벌 정리해고를 실시할 것으로 알려짐"
+      },
+      {
+        "headline": "Qualcomm Cuts Global Workforce Following Performance Focused Employee Reviews",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=394ee3b9bee30a082f872ff480f4f147d4d4b4ba766fee7b56de10243a06fb27",
+        "datetime": 1792508864,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Qualcomm, 성과 중심 직원 평가에 따라 글로벌 인력 감축 | TIKR.com 일반 투자 Qualcomm, 성과 중심 직원 리뷰에 따라 글로벌 인력 감축 Aditya Raghunath • 4분 읽기 검토자: David Han",
+            "19: $174 52주 최고가: $260 $QCOM 주가 목표: $195 현재 진행 중: TIKR의 새로운 가치 평가 모델을 사용하여 좋아하는 주식이 얼마나 상승할 수 있는지 알아보세요(무료) >>> 무슨 일이 일어났나요?",
+            "Qualcomm(QCOM)은 전 세계적으로 일자리를 삭감할 예정입니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 26%, $174, $260 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QCOM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "QCOM에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "26%",
+            "$174",
+            "$260",
+            "$195",
+            "1.5%",
+            "1%",
+            "20%",
+            "50%"
+          ],
+          "sourceExcerpt": [
+            "Qualcomm Cuts Global Workforce Following Performance Focused Employee Reviews | TIKR.com General Investing Qualcomm Cuts Global Workforce Following Performance Focused Employee Reviews Aditya Raghunath • 4 minute read Reviewed by: David Han",
+            "19: $174 52-Week High: $260 $QCOM Stock Price Target: $195 Now Live: Discover how much upside your favorite stocks could have using TIKR’s new Valuation Model (It’s free) >>> What Happened?",
+            "Qualcomm ( QCOM ) will cut jobs around the world ."
+          ],
+          "analysisUpdatedAt": 1792529560.8370821
+        },
+        "headlineKo": "Qualcomm, 성과 중심 직원 평가에 따라 글로벌 인력 감축"
+      },
+      {
+        "headline": "Can Qualcomm's PickNik Acquisition Strengthen Its Robotics Edge?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2dc8db291ba3d65afeee2921db7dda5d6879ca14dfd532a9347176e16a500f72",
+        "datetime": 1792501740,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Can Qualcomm's PickNik Acquisition Strengthen Its Robotics Edge?",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -113998,14 +113936,38 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 QCOM의 사업과 관련된 ''Qualcomm to cut jobs worldwide in performance-focused layoffs, internal memo shows' - Reuters Exclusive' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 비용·CAPEX·영업현금흐름·FCF·부채 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 QCOM의 사업과 관련된 'Can Qualcomm's PickNik Acquisition Strengthen Its Robotics Edge?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "QCOM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.5,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507365.3749344
+          "analysisUpdatedAt": 1792529562.5576942
         },
+        "headlineKo": "Qualcomm의 PickNik 인수로 로봇공학의 우위가 강화될 수 있습니까?"
+      },
+      {
+        "headline": "Qualcomm Stock Climbs as Report Reveals Possible November Layoffs",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3cfa780fa71a6c4fc4e49e568316e2b5e7ad12d3edac26dbf387b7fb56ce76ff",
+        "datetime": 1792501367,
+        "relevance": 0.5,
+        "keywordFlag": true,
+        "flagTerms": [
+          "layoffs"
+        ],
+        "headlineKo": "보고서에서 11월 해고 가능성이 밝혀지면서 Qualcomm 주가 상승"
+      },
+      {
+        "headline": "'Qualcomm to cut jobs worldwide in performance-focused layoffs, internal memo shows' - Reuters Exclusive",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=b4c256e76528c5d0c85d03cf982295af69f740419b97dbdd28f6220d52804f2c",
+        "datetime": 1792479512,
+        "relevance": 0.5,
+        "keywordFlag": true,
+        "flagTerms": [
+          "layoffs"
+        ],
         "headlineKo": "'Qualcomm, 성과 중심 정리해고와 내부 메모 쇼를 통해 전 세계 직원 감축' - Reuters Exclusive"
       },
       {
@@ -114013,6 +113975,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cd273d29613867f574013ce736caade33a7b1e6e10a4443be68931317a2d2d20",
         "datetime": 1792329190,
+        "headlineKo": "Arm 주식 평결 위험은 Qualcomm 라이센스 위반 판결 이후 증가합니다.",
         "relevance": 0.5,
         "keywordFlag": true,
         "flagTerms": [
@@ -114057,78 +114020,7 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1792507368.5473015
-        },
-        "headlineKo": "Arm 주식 평결 위험은 Qualcomm 라이센스 위반 판결 이후 증가합니다."
-      },
-      {
-        "headline": "QUALCOMM INC (NASDAQ:QCOM) Offers Quality Dividend Backed by Strong Profitability and Financial Health",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=516865b3ed0504dd77afc400bbc7fa1f93a6c756b9d45126c924b8ba387d7130",
-        "datetime": 1792225252,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "QUALCOMM INC (NASDAQ:QCOM) Offers Quality Dividend Backed by Strong Profitability and Financial Health",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "QCOM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 QCOM의 사업과 관련된 'QUALCOMM INC (NASDAQ:QCOM) Offers Quality Dividend Backed by Strong Profitability and Financial Health' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "QCOM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507370.7873716
-        },
-        "headlineKo": "QUALCOMM INC (NASDAQ: QCOM), 강력한 수익성과 재무 건전성으로 뒷받침되는 품질 배당 제공"
-      },
-      {
-        "headline": "Should You Buy Qualcomm Stock For Its Cash?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5d97d563f196004769529b8a8a462a6f30d90e791071af12927b2fe71d204873",
-        "datetime": 1792206181,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "현금으로 Qualcomm 주식을 구매해야 합니까?"
-      },
-      {
-        "headline": "Arm and AMD Fall 5% as Qualcomm Verdict Adds to Chip Selloff; Taiwan Semiconductor Slips",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=042b71cb1b9afd96d54ae9e11c90b62b50d4d66c88dd0217f010354cdc7fafc1",
-        "datetime": 1792174237,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Qualcomm 평결로 인해 칩 매도세가 증가함에 따라 Arm과 AMD는 5% 하락합니다. 대만 반도체 전표"
+        }
       },
       {
         "headline": "ARM-QCOM Lawsuit: Delaware Jury Delivers Verdict In High-Stakes Qualcomm-ARM Licensing Battle",
@@ -114264,6 +114156,196 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Qualcomm To Reportedly Conduct Global Layoffs In Performance-Driven Overhaul",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=57aac6b44d03630ef98220890683ea170489e9be169e2c169f3d64dee028a9ac",
+        "datetime": 1792519635,
+        "headlineKo": "Qualcomm, 성과 중심 점검을 통해 글로벌 정리해고를 실시할 것으로 알려짐",
+        "relevance": 0.5,
+        "keywordFlag": true,
+        "flagTerms": [
+          "layoffs"
+        ],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Qualcomm은 성능 중심 정밀 검사를 통해 글로벌 정리해고를 수행할 것으로 알려짐 AI 에이전트 Trending News Earnings All DIA 1.20% SPY 0.56% QQQ 0.32% Trending SPCX 3.60% NFLX 6.69% SMCI 13.89% SLS 14.20% ISRG 5.15% UAL SE 9.10% TSLA 1.68% IWM 1.77",
+            "Qualcomm, 성과 중심 정밀검사에서 글로벌 정리해고 실시 보도 거대 반도체 회사인 Qualcomm은 보다 엄격한 성과 문화를 조성하기 위해 연례 검토를 거쳐 전 세계적으로 정리해고를 실시한다고 로이터 통신이 보도했습니다.",
+            "2026년 3월 2일 스페인 바르셀로나에서 열린 2026 모바일 월드 콩그레스(MWC)에서 퀄컴 부스가 모습을 드러냈습니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.20%, 0.56%, 0.32% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QCOM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "QCOM에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "1.20%",
+            "0.56%",
+            "0.32%",
+            "3.60%",
+            "6.69%",
+            "13.89%",
+            "14.20%",
+            "5.15%"
+          ],
+          "sourceExcerpt": [
+            "Qualcomm To Reportedly Conduct Global Layoffs In Performance-Driven Overhaul AI Agent Trending News Earnings All DIA 1.20% SPY 0.56% QQQ 0.32% Trending SPCX 3.60% NFLX 6.69% SMCI 13.89% SLS 14.20% ISRG 5.15% UAL SE 9.10% TSLA 1.68% IWM 1.77",
+            "Qualcomm To Reportedly Conduct Global Layoffs In Performance-Driven Overhaul Semiconductor giant Qualcomm is launching worldwide layoffs following annual reviews to cultivate a stricter performance culture, according to a Reuters report.",
+            "Qualcomm booth is seen during 2026 Mobile World Congress (MWC) on March 2, 2026 in Barcelona, Spain."
+          ],
+          "analysisUpdatedAt": 1792529556.7169886
+        }
+      },
+      {
+        "headline": "Qualcomm Cuts Global Workforce Following Performance Focused Employee Reviews",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=394ee3b9bee30a082f872ff480f4f147d4d4b4ba766fee7b56de10243a06fb27",
+        "datetime": 1792508864,
+        "headlineKo": "Qualcomm, 성과 중심 직원 평가에 따라 글로벌 인력 감축",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Qualcomm, 성과 중심 직원 평가에 따라 글로벌 인력 감축 | TIKR.com 일반 투자 Qualcomm, 성과 중심 직원 리뷰에 따라 글로벌 인력 감축 Aditya Raghunath • 4분 읽기 검토자: David Han",
+            "19: $174 52주 최고가: $260 $QCOM 주가 목표: $195 현재 진행 중: TIKR의 새로운 가치 평가 모델을 사용하여 좋아하는 주식이 얼마나 상승할 수 있는지 알아보세요(무료) >>> 무슨 일이 일어났나요?",
+            "Qualcomm(QCOM)은 전 세계적으로 일자리를 삭감할 예정입니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 26%, $174, $260 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QCOM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "QCOM에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "26%",
+            "$174",
+            "$260",
+            "$195",
+            "1.5%",
+            "1%",
+            "20%",
+            "50%"
+          ],
+          "sourceExcerpt": [
+            "Qualcomm Cuts Global Workforce Following Performance Focused Employee Reviews | TIKR.com General Investing Qualcomm Cuts Global Workforce Following Performance Focused Employee Reviews Aditya Raghunath • 4 minute read Reviewed by: David Han",
+            "19: $174 52-Week High: $260 $QCOM Stock Price Target: $195 Now Live: Discover how much upside your favorite stocks could have using TIKR’s new Valuation Model (It’s free) >>> What Happened?",
+            "Qualcomm ( QCOM ) will cut jobs around the world ."
+          ],
+          "analysisUpdatedAt": 1792529560.8370821
+        }
+      },
+      {
+        "headline": "Can Qualcomm's PickNik Acquisition Strengthen Its Robotics Edge?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2dc8db291ba3d65afeee2921db7dda5d6879ca14dfd532a9347176e16a500f72",
+        "datetime": 1792501740,
+        "headlineKo": "Qualcomm의 PickNik 인수로 로봇공학의 우위가 강화될 수 있습니까?",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Can Qualcomm's PickNik Acquisition Strengthen Its Robotics Edge?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QCOM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QCOM의 사업과 관련된 'Can Qualcomm's PickNik Acquisition Strengthen Its Robotics Edge?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QCOM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529562.5576942
+        }
+      },
+      {
+        "headline": "Qualcomm Stock Climbs as Report Reveals Possible November Layoffs",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3cfa780fa71a6c4fc4e49e568316e2b5e7ad12d3edac26dbf387b7fb56ce76ff",
+        "datetime": 1792501367,
+        "headlineKo": "보고서에서 11월 해고 가능성이 밝혀지면서 Qualcomm 주가 상승",
+        "relevance": 0.5,
+        "keywordFlag": true,
+        "flagTerms": [
+          "layoffs"
+        ]
+      },
       {
         "headline": "'Qualcomm to cut jobs worldwide in performance-focused layoffs, internal memo shows' - Reuters Exclusive",
         "source": "Benzinga",
@@ -122556,209 +122638,21 @@ const NEWS_DATA = {
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789502607.1577787
         }
-      },
-      {
-        "headline": "Applied Materials vs. Qualcomm: Which Tech Stock Is a Better Buy in 2026?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=45da079c6df91916bb73bfc99fcc10f7c4724d722da16eb42437cb64d43331ee",
-        "datetime": 1789473901,
-        "headlineKo": "어플라이드 머티어리얼즈 vs. 퀄컴: 2026년에는 어느 기술주를 사는 것이 더 나을까요?",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Qualcomm: 2026년에는 어느 기술주를 매수하는 것이 더 나은가요?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 2026년 디지털 경제가 성숙해지면서 많은 투자자들이 칩 제조 도구를 만드는 회사와 칩 제작 도구를 만드는 회사 중에서 선택하고 있습니다.",
-            "Applied Materials(AMAT -0.73%) 또는 Qualcomm(QCOM +4.10%)을 선호해야 합니까?"
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.73%, 4.10%, 19% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "QCOM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "QCOM에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.73%",
-            "4.10%",
-            "19%",
-            "15%",
-            "$28.4 billion",
-            "4.4%",
-            "$7 billion",
-            "$7.2 billion"
-          ],
-          "sourceExcerpt": [
-            "Qualcomm: Which Tech Stock Is a Better Buy in 2026?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool As the digital economy matures in 2026, many investors are choosing between the companies that build chipmaking tools and those tha",
-            "Should you favor Applied Materials ( AMAT -0.73% ) or Qualcomm ( QCOM +4.10% ) ?"
-          ],
-          "analysisUpdatedAt": 1789502610.4906378
-        }
-      },
-      {
-        "headline": "Qualcomm’s Datacenter Pivot Is Real, but The Market Already Knows This",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f0d4e8f464b2af5df1000b2ed37760cd2d9c7c38418275908ba9c11051bcfde4",
-        "datetime": 1789472620,
-        "headlineKo": "Qualcomm의 데이터 센터 피벗은 현실이지만 시장은 이미 이를 알고 있습니다.",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Qualcomm’s Datacenter Pivot Is Real, but The Market Already Knows This",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "QCOM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 QCOM의 사업과 관련된 'Qualcomm’s Datacenter Pivot Is Real, but The Market Already Knows This' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "QCOM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789479819.232451
-        }
-      },
-      {
-        "headline": "MediaTek Cranks Up Pressure on Qualcomm With Cutting-Edge Smartphone Chip",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=79d063f81dc097e9d3df08212a3ff17d47659f3ab96c26b31a666958d2fa0959",
-        "datetime": 1789456338,
-        "headlineKo": "MediaTek, 최첨단 스마트폰 칩으로 Qualcomm에 대한 압박 강화",
-        "relevance": 0.5,
-        "keywordFlag": false
-      },
-      {
-        "headline": "Amazon Could Buy Up to $60 Billion From Qualcomm Just as Apple Brings Modems In-House. Is the AI Pivot Real?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=be33aa8fe457fc100c608f4ac16fd2c35d3d2f29e18b273aa99468e0ec75182a",
-        "datetime": 1789445485,
-        "headlineKo": "Apple이 모뎀을 자체적으로 도입하는 것처럼 Amazon은 Qualcomm으로부터 최대 600억 달러를 구매할 수 있습니다. AI 피벗은 진짜인가?",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 QCOM의 사업과 관련된 'Amazon Could Buy Up to $60 Billion From Qualcomm Just as Apple Brings Modems In-House. Is the AI Pivot Real?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: QCOM에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
-          "relevance": 0.5,
-          "quality": "high",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789479820.959678
-        }
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:42",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:52",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 187,
+      "checked": 188,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "ARM": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-11-05",
       "hour": "",
@@ -122785,11 +122679,11 @@ const NEWS_DATA = {
           "facts": [
             "Lumentum: 2026년에는 어떤 기술주를 구매하는 것이 더 나은가요?",
             "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 인공 지능(AI)이 컴퓨팅 성능과 데이터 전송을 새로운 한계로 밀어붙이면서 투자자들은 다양한 경로를 저울질하고 있습니다.",
-            "현재 Arm Holdings(ARM -2.03%) 또는 Lumentum Holdings(LITE -0.99%)가 더 나은 선택입니까?"
+            "현재 Arm Holdings(ARM -3.06%) 또는 Lumentum Holdings(LITE -1.44%)가 더 나은 선택입니까?"
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 2.03%, 0.99%, $223.43 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 3.06%, 1.44%, $221.06 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "ARM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -122813,21 +122707,21 @@ const NEWS_DATA = {
           "relevance": 0.75,
           "quality": "medium",
           "verifiedNumbers": [
-            "2.03%",
-            "0.99%",
-            "$223.43",
-            "2.03 %",
-            "$4.62",
-            "$826.27",
-            "0.99 %",
-            "$8.24"
+            "3.06%",
+            "1.44%",
+            "$221.06",
+            "3.06 %",
+            "$6.99",
+            "$822.51",
+            "1.44 %",
+            "$12.00"
           ],
           "sourceExcerpt": [
             "Lumentum: Which Tech Stock Is a Better Buy in 2026?",
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool As artificial intelligence (AI) pushes computing power and data transmission to new limits, investors are weighing different paths ",
-            "Is Arm Holdings ( ARM -2.03% ) or Lumentum Holdings ( LITE -0.99% ) the better choice today?"
+            "Is Arm Holdings ( ARM -3.06% ) or Lumentum Holdings ( LITE -1.44% ) the better choice today?"
           ],
-          "analysisUpdatedAt": 1792507379.8008463
+          "analysisUpdatedAt": 1792529570.1080413
         },
         "headlineKo": "Arm 대 Lumentum: 2026년에는 어느 기술주를 매수하는 것이 더 나은가요?"
       },
@@ -122879,7 +122773,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507382.4160967
+          "analysisUpdatedAt": 1792529572.1259627
         },
         "headlineKo": "Arm 주식 평결 위험은 Qualcomm 라이센스 위반 판결 이후 증가합니다."
       },
@@ -122931,7 +122825,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507385.01219
+          "analysisUpdatedAt": 1792529573.7613516
         },
         "headlineKo": "Arm Holdings(ARM)가 라이센스 위반 문제에 직면했습니다. 가치 평가가 여전히 너무 높습니까?"
       },
@@ -123107,11 +123001,11 @@ const NEWS_DATA = {
           "facts": [
             "Lumentum: 2026년에는 어떤 기술주를 구매하는 것이 더 나은가요?",
             "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 인공 지능(AI)이 컴퓨팅 성능과 데이터 전송을 새로운 한계로 밀어붙이면서 투자자들은 다양한 경로를 저울질하고 있습니다.",
-            "현재 Arm Holdings(ARM -2.03%) 또는 Lumentum Holdings(LITE -0.99%)가 더 나은 선택입니까?"
+            "현재 Arm Holdings(ARM -3.06%) 또는 Lumentum Holdings(LITE -1.44%)가 더 나은 선택입니까?"
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 2.03%, 0.99%, $223.43 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 3.06%, 1.44%, $221.06 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "ARM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -123135,21 +123029,21 @@ const NEWS_DATA = {
           "relevance": 0.75,
           "quality": "medium",
           "verifiedNumbers": [
-            "2.03%",
-            "0.99%",
-            "$223.43",
-            "2.03 %",
-            "$4.62",
-            "$826.27",
-            "0.99 %",
-            "$8.24"
+            "3.06%",
+            "1.44%",
+            "$221.06",
+            "3.06 %",
+            "$6.99",
+            "$822.51",
+            "1.44 %",
+            "$12.00"
           ],
           "sourceExcerpt": [
             "Lumentum: Which Tech Stock Is a Better Buy in 2026?",
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool As artificial intelligence (AI) pushes computing power and data transmission to new limits, investors are weighing different paths ",
-            "Is Arm Holdings ( ARM -2.03% ) or Lumentum Holdings ( LITE -0.99% ) the better choice today?"
+            "Is Arm Holdings ( ARM -3.06% ) or Lumentum Holdings ( LITE -1.44% ) the better choice today?"
           ],
-          "analysisUpdatedAt": 1792507379.8008463
+          "analysisUpdatedAt": 1792529570.1080413
         }
       },
       {
@@ -123201,7 +123095,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507382.4160967
+          "analysisUpdatedAt": 1792529572.1259627
         }
       },
       {
@@ -123253,7 +123147,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507385.01219
+          "analysisUpdatedAt": 1792529573.7613516
         }
       },
       {
@@ -128938,19 +128832,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:43",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:52",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "MRVL": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-11-30",
       "hour": "",
@@ -128959,6 +128853,56 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Will AI Data Center Launches Change Marvell Stock Narrative",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=69e1350d9f3a81af3a2d5abb23f319b9a64a3270732e077930f69915806f99c1",
+        "datetime": 1792509147,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Will AI Data Center Launches Change Marvell Stock Narrative",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MRVL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MRVL의 사업과 관련된 'Will AI Data Center Launches Change Marvell Stock Narrative' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MRVL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529578.2324612
+        },
+        "headlineKo": "AI 데이터 센터, Marvell Stock Narrative 변경 출시 예정"
+      },
       {
         "headline": "Is Marvell Technology a Millionaire-Maker Stock?",
         "source": "Yahoo",
@@ -128976,7 +128920,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Marvell Technology는 백만장자 주식인가요?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Marvell Technology( MRVL +0.13% )는 광학 칩, 애플리케이션 등 인공 지능 인프라에 깊이 관여하고 있습니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 합류 Marvell Technology ( MRVL +1.41% )는 광학 칩, 애플리케이션을 통해 인공 지능 인프라에 깊이 관여하고 있습니다.",
             "이러한 광범위한 제품 포트폴리오는 Nvidia CEO Jensen Huang이 6월에 Marvell Technology가 다음 1조 달러 규모의 회사가 될 것으로 기대한다고 말한 이유를 설명합니다."
           ],
           "why": [
@@ -129008,18 +128952,18 @@ const NEWS_DATA = {
             "$1 trillion",
             "$215 million",
             "37%",
-            "$237.41",
-            "$0.32",
-            "0.13%",
+            "$240.42",
+            "$3.33",
+            "1.41%",
             "$207.90",
             "$226.52"
           ],
           "sourceExcerpt": [
             "Is Marvell Technology a Millionaire-Maker Stock?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Marvell Technology ( MRVL +0.13% ) is deeply involved in artificial intelligence infrastructure, with its optical chips, applicatio",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Marvell Technology ( MRVL +1.41% ) is deeply involved in artificial intelligence infrastructure, with its optical chips, applicatio",
             "This broad portfolio of products explains why Nvidia CEO Jensen Huang said back in June that he expects Marvell Technology to be the next $1 trillion company."
           ],
-          "analysisUpdatedAt": 1792507395.2731295
+          "analysisUpdatedAt": 1792529582.9053874
         },
         "headlineKo": "Marvell Technology는 백만장자 주식인가요?"
       },
@@ -129100,7 +129044,7 @@ const NEWS_DATA = {
             "Here’s What the AI Funding Scare Means for 2031 | TIKR.com Stock Reviews Marvell Stock Is Still 17% Below Its Investor Day Close.",
             "Here’s What the AI Funding Scare Means for 2031 Wiltone Asuncion • 6 minute read Reviewed by: David Hanson Last updated Oct 20, 2026 Nodar Chernishev from Getty Images and Tatarinov Andrey from Изображения пользователя Андрей via Canva K ey"
           ],
-          "analysisUpdatedAt": 1792507396.3680513
+          "analysisUpdatedAt": 1792529583.6535547
         },
         "headlineKo": "Marvell 주식은 여전히 ​​투자자의 날 마감보다 17% 낮습니다. 2031년에 AI 자금 조달 공포가 의미하는 바는 다음과 같습니다."
       },
@@ -129112,46 +129056,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Applied Materials, Lam Research, Marvell Technology, Micron, and Semtech Shares Skyrocket, What You Need To Know",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "MRVL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 MRVL의 사업과 관련된 'Applied Materials, Lam Research, Marvell Technology, Micron, and Semtech Shares Skyrocket, What You Need To Know' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "MRVL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507398.7870898
-        },
         "headlineKo": "Applied Materials, Lam Research, Marvell Technology, Micron 및 Semtech 주가 급등, 알아야 할 사항"
       },
       {
@@ -129163,16 +129067,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Marvell 주식에 무슨 일이 일어났나요?"
-      },
-      {
-        "headline": "Marvell Jumps 6% as GF Securities Says Google Chip Delay Won’t Dent Its Position; Broadcom Rises 3%",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3f646b562aa3ac37aa7f2b73570329bd642c4eebfee2483f939c356f0d2f7b7b",
-        "datetime": 1792429706,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "GF Securities가 Google 칩 지연으로 인해 위치가 훼손되지 않을 것이라고 Marvell이 6% 상승했습니다. 브로드컴 3% 상승"
       },
       {
         "headline": "Stocktwits Wall Street Wrap: Analysts Turn Bullish On Palantir, Marvell And Cava As Nike Faces Downgrade",
@@ -129314,6 +129208,55 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "Will AI Data Center Launches Change Marvell Stock Narrative",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=69e1350d9f3a81af3a2d5abb23f319b9a64a3270732e077930f69915806f99c1",
+        "datetime": 1792509147,
+        "headlineKo": "AI 데이터 센터, Marvell Stock Narrative 변경 출시 예정",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Will AI Data Center Launches Change Marvell Stock Narrative",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MRVL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MRVL의 사업과 관련된 'Will AI Data Center Launches Change Marvell Stock Narrative' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MRVL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529578.2324612
+        }
+      },
+      {
         "headline": "Is Marvell Technology a Millionaire-Maker Stock?",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=211972ce97348b8cad5fd276e261fa56b7986b96df5d54f56757c4377944aec6",
@@ -129330,7 +129273,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Marvell Technology는 백만장자 주식인가요?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Marvell Technology( MRVL +0.13% )는 광학 칩, 애플리케이션 등 인공 지능 인프라에 깊이 관여하고 있습니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 합류 Marvell Technology ( MRVL +1.41% )는 광학 칩, 애플리케이션을 통해 인공 지능 인프라에 깊이 관여하고 있습니다.",
             "이러한 광범위한 제품 포트폴리오는 Nvidia CEO Jensen Huang이 6월에 Marvell Technology가 다음 1조 달러 규모의 회사가 될 것으로 기대한다고 말한 이유를 설명합니다."
           ],
           "why": [
@@ -129362,18 +129305,18 @@ const NEWS_DATA = {
             "$1 trillion",
             "$215 million",
             "37%",
-            "$237.41",
-            "$0.32",
-            "0.13%",
+            "$240.42",
+            "$3.33",
+            "1.41%",
             "$207.90",
             "$226.52"
           ],
           "sourceExcerpt": [
             "Is Marvell Technology a Millionaire-Maker Stock?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Marvell Technology ( MRVL +0.13% ) is deeply involved in artificial intelligence infrastructure, with its optical chips, applicatio",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Marvell Technology ( MRVL +1.41% ) is deeply involved in artificial intelligence infrastructure, with its optical chips, applicatio",
             "This broad portfolio of products explains why Nvidia CEO Jensen Huang said back in June that he expects Marvell Technology to be the next $1 trillion company."
           ],
-          "analysisUpdatedAt": 1792507395.2731295
+          "analysisUpdatedAt": 1792529582.9053874
         }
       },
       {
@@ -129453,7 +129396,7 @@ const NEWS_DATA = {
             "Here’s What the AI Funding Scare Means for 2031 | TIKR.com Stock Reviews Marvell Stock Is Still 17% Below Its Investor Day Close.",
             "Here’s What the AI Funding Scare Means for 2031 Wiltone Asuncion • 6 minute read Reviewed by: David Hanson Last updated Oct 20, 2026 Nodar Chernishev from Getty Images and Tatarinov Andrey from Изображения пользователя Андрей via Canva K ey"
           ],
-          "analysisUpdatedAt": 1792507396.3680513
+          "analysisUpdatedAt": 1792529583.6535547
         }
       },
       {
@@ -137780,15 +137723,101 @@ const NEWS_DATA = {
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1790063346.750279
         }
+      }
+    ],
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:53",
+    "_last_success_at": 1792529384.667372,
+    "_collection_status": "ok",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 188,
+      "removed": 0,
+      "updated": "2026-10-21 05:57"
+    }
+  },
+  "INTC": {
+    "_last_attempt_at": 1792529384.667372,
+    "nextEarnings": {
+      "date": "2026-10-29",
+      "hour": "amc",
+      "epsEstimate": 0.3996,
+      "revenueEstimate": 16781909631
+    },
+    "_earnings_status": "ok",
+    "news": [
+      {
+        "headline": "Intel Vs. Micron: Who Is More Exposed By Chinese Rival CXMT’s Progress?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0714160c956c1e36fb80d4b05e2bc5646f21aa5300978c36a447459b96639889",
+        "datetime": 1792514712,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "장기 공급계약 · 매출 가시성 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "마이크론: 중국 라이벌 CXMT의 진전에 더 많이 노출되는 사람은 누구입니까?",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% 다우존스 52,632.50 +1.13% 나스닥 100 29,606.60 +0.07% 러셀 2000 2,779.59 +1.",
+            "마이크론: 중국 라이벌 CXMT의 진전에 더 많이 노출되는 사람은 누구입니까?"
+          ],
+          "why": [
+            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $54.23, 379.3%, 87.0% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 기간·최소구매 조건",
+            "연도별 매출 인식",
+            "수주잔고·취소 조건"
+          ],
+          "interpretation": "INTC에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$54.23",
+            "379.3%",
+            "87.0%",
+            "$39.8 billion",
+            "73%",
+            "25.4%",
+            "$16.13",
+            "59%"
+          ],
+          "sourceExcerpt": [
+            "Micron: Who Is More Exposed By Chinese Rival CXMT's Progress?",
+            "Skip to content ❚❚ At close S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.",
+            "Micron: Who Is More Exposed By Chinese Rival CXMT’s Progress?"
+          ],
+          "analysisUpdatedAt": 1792529589.9672997
+        },
+        "headlineKo": "인텔 대. 마이크론: 중국 라이벌 CXMT의 진전에 더 많이 노출되는 사람은 누구입니까?"
       },
       {
-        "headline": "Marvell Shares Rally After Unveiling 1.6T Optical Technology for AI Networks",
+        "headline": "Photonic Integrated Circuit (PIC) - Global Strategic Business Report: Capitalize on 19.7% CAGR to US$5.5 Billion by 2030 as Broadcom, Intel, Ciena, Infinera and Acacia Reshape the Market",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=64561fe5c212c7b7508af82f776d6243d54b6e3ccf6c765f9990086f429a423e",
-        "datetime": 1790020053,
-        "headlineKo": "Marvell, AI 네트워크용 1.6T 광학 기술 공개 후 반등",
-        "relevance": 0.67,
+        "url": "https://finnhub.io/api/news?id=e9fbcbbf889a1d30c09c9def430bb49c061554c9320f310a611b4f043365dfb0",
+        "datetime": 1792511220,
+        "relevance": 0.5,
         "keywordFlag": false,
+        "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "low",
@@ -137797,7 +137826,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Marvell Shares Rally After Unveiling 1.6T Optical Technology for AI Networks",
+            "Photonic Integrated Circuit (PIC) - Global Strategic Business Report: Capitalize on 19.7% CAGR to US$5.5 Billion by 2030 as Broadcom, Intel, Ciena, Infinera and Acacia Reshape the Market",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -137810,7 +137839,7 @@ const NEWS_DATA = {
           ],
           "impacts": [
             {
-              "ticker": "MRVL",
+              "ticker": "INTC",
               "stance": "확인 필요",
               "reason": "회사 실적과의 연결고리 확인"
             }
@@ -137821,37 +137850,16 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 MRVL의 사업과 관련된 'Marvell Shares Rally After Unveiling 1.6T Optical Technology for AI Networks' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "MRVL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.67,
+          "interpretation": "이 기사는 INTC의 사업과 관련된 'Photonic Integrated Circuit (PIC) - Global Strategic Business Report: Capitalize on 19.7% CAGR to US$5.5 Billion by 2030 as Broadcom, Intel, Ciena, Infinera and Acacia Reshape the Market' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790041358.8966696
-        }
-      }
-    ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:43",
-    "_last_success_at": 1792507143.066666,
-    "_collection_status": "ok",
-    "_relevance_audit": {
-      "ruleVersion": 3,
-      "checked": 188,
-      "removed": 0,
-      "updated": "2026-10-21 02:00"
-    }
-  },
-  "INTC": {
-    "_last_attempt_at": 1792507143.066666,
-    "nextEarnings": {
-      "date": "2026-10-29",
-      "hour": "amc",
-      "epsEstimate": 0.3996,
-      "revenueEstimate": 16781909631
-    },
-    "_earnings_status": "ok",
-    "news": [
+          "analysisUpdatedAt": 1792529591.8628705
+        },
+        "headlineKo": "광자 집적 회로(PIC) - 글로벌 전략 사업 보고서: Broadcom, Intel, Ciena, Infinera 및 Acacia가 시장을 재편함에 따라 2030년까지 CAGR 19.7%를 활용하여 미화 55억 달러에 도달할 것입니다."
+      },
       {
         "headline": "JPMorgan Upgrades Intel Stock Following Strong Management Execution",
         "source": "Yahoo",
@@ -137912,7 +137920,7 @@ const NEWS_DATA = {
             "19: $92 52-Week High: $142 $INTC Stock Price Target: $118 Now Live: Discover how much upside your favorite stocks could have using TIKR’s new Valuation Model (It’s free) >>> What Happened?",
             "JPMorgan upgraded Intel ( INTC ) to Neutral from Underweight late Friday, according to Investing.com."
           ],
-          "analysisUpdatedAt": 1792507413.3044004
+          "analysisUpdatedAt": 1792529594.0086844
         },
         "headlineKo": "JPMorgan, 강력한 경영진 실행에 따라 Intel 주식 업그레이드"
       },
@@ -137924,46 +137932,6 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Industrial Semiconductors - Global Strategic Business Report 2026 | Secure Share of the US$156.1 Billion 2032 Market as Infineon, Intel, STMicroelectronics, NXP, and Texas Instruments Lead",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "INTC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 INTC의 사업과 관련된 'Industrial Semiconductors - Global Strategic Business Report 2026 | Secure Share of the US$156.1 Billion 2032 Market as Infineon, Intel, STMicroelectronics, NXP, and Texas Instruments Lead' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507415.3526952
-        },
         "headlineKo": "산업용 반도체 - 2026년 글로벌 전략 비즈니스 보고서 | Infineon, Intel, STMicroelectronics, NXP 및 Texas Instruments가 주도하여 2032년 1,561억 달러 시장 점유율 확보"
       },
       {
@@ -137974,6 +137942,81 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "Intel Q3 미리보기: 25% 할인, 하지만 이 가격은 충분히 좋은 판매 가격이 아닐 수 있습니다."
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Intel Vs. Micron: Who Is More Exposed By Chinese Rival CXMT’s Progress?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0714160c956c1e36fb80d4b05e2bc5646f21aa5300978c36a447459b96639889",
+        "datetime": 1792514712,
+        "headlineKo": "인텔 대. 마이크론: 중국 라이벌 CXMT의 진전에 더 많이 노출되는 사람은 누구입니까?",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "장기 공급계약 · 매출 가시성 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "마이크론: 중국 라이벌 CXMT의 진전에 더 많이 노출되는 사람은 누구입니까?",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% 다우존스 52,632.50 +1.13% 나스닥 100 29,606.60 +0.07% 러셀 2000 2,779.59 +1.",
+            "마이크론: 중국 라이벌 CXMT의 진전에 더 많이 노출되는 사람은 누구입니까?"
+          ],
+          "why": [
+            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $54.23, 379.3%, 87.0% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 기간·최소구매 조건",
+            "연도별 매출 인식",
+            "수주잔고·취소 조건"
+          ],
+          "interpretation": "INTC에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$54.23",
+            "379.3%",
+            "87.0%",
+            "$39.8 billion",
+            "73%",
+            "25.4%",
+            "$16.13",
+            "59%"
+          ],
+          "sourceExcerpt": [
+            "Micron: Who Is More Exposed By Chinese Rival CXMT's Progress?",
+            "Skip to content ❚❚ At close S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.",
+            "Micron: Who Is More Exposed By Chinese Rival CXMT’s Progress?"
+          ],
+          "analysisUpdatedAt": 1792529589.9672997
+        }
+      },
+      {
+        "headline": "Photonic Integrated Circuit (PIC) - Global Strategic Business Report: Capitalize on 19.7% CAGR to US$5.5 Billion by 2030 as Broadcom, Intel, Ciena, Infinera and Acacia Reshape the Market",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e9fbcbbf889a1d30c09c9def430bb49c061554c9320f310a611b4f043365dfb0",
+        "datetime": 1792511220,
+        "headlineKo": "광자 집적 회로(PIC) - 글로벌 전략 사업 보고서: Broadcom, Intel, Ciena, Infinera 및 Acacia가 시장을 재편함에 따라 2030년까지 CAGR 19.7%를 활용하여 미화 55억 달러에 도달할 것입니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "low",
@@ -137982,7 +138025,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Intel Q3 Preview: 25% Off, But This May Not Be A Good Enough Sale Price",
+            "Photonic Integrated Circuit (PIC) - Global Strategic Business Report: Capitalize on 19.7% CAGR to US$5.5 Billion by 2030 as Broadcom, Intel, Ciena, Infinera and Acacia Reshape the Market",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -138006,38 +138049,15 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel Q3 Preview: 25% Off, But This May Not Be A Good Enough Sale Price' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 INTC의 사업과 관련된 'Photonic Integrated Circuit (PIC) - Global Strategic Business Report: Capitalize on 19.7% CAGR to US$5.5 Billion by 2030 as Broadcom, Intel, Ciena, Infinera and Acacia Reshape the Market' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "INTC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.5,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507416.4874442
-        },
-        "headlineKo": "Intel Q3 미리보기: 25% 할인, 하지만 이 가격은 충분히 좋은 판매 가격이 아닐 수 있습니다."
+          "analysisUpdatedAt": 1792529591.8628705
+        }
       },
-      {
-        "headline": "Did Foundry Win Just Shift Intel (INTC) Investment Narrative?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d1dbea3756529f0c1b3e9b9f037511d22104aacabeb39bc6eae426f082d5c958",
-        "datetime": 1792448139,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "파운드리의 승리가 인텔(INTC) 투자 내러티브를 바꾸었나요?"
-      },
-      {
-        "headline": "Why Intel (INTC) Outpaced the Stock Market Today",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8751ab5f9f5ece1cb6e26bd11bbad03b9218645add32e9355e654a41991501d6",
-        "datetime": 1792442701,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "인텔(INTC)이 오늘날 주식 시장을 능가한 이유"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "JPMorgan Upgrades Intel Stock Following Strong Management Execution",
         "source": "Yahoo",
@@ -138098,7 +138118,7 @@ const NEWS_DATA = {
             "19: $92 52-Week High: $142 $INTC Stock Price Target: $118 Now Live: Discover how much upside your favorite stocks could have using TIKR’s new Valuation Model (It’s free) >>> What Happened?",
             "JPMorgan upgraded Intel ( INTC ) to Neutral from Underweight late Friday, according to Investing.com."
           ],
-          "analysisUpdatedAt": 1792507413.3044004
+          "analysisUpdatedAt": 1792529594.0086844
         }
       },
       {
@@ -146401,151 +146421,21 @@ const NEWS_DATA = {
         "headlineKo": "SKHY는 잠재적인 인텔 파트너십을 통해 이익을 얻을 가능성이 높습니다: 구매할 가치가 있나요?",
         "relevance": 0.5,
         "keywordFlag": false
-      },
-      {
-        "headline": "Computer Vision Global Market Report 2026: Secure Your Share of a $37.1 Billion Market Growing 15.9% Annually by 2030—Benchmark Microsoft, Sony, Intel, Texas Instruments and MediaTek as AI, Edge Visio",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=466e72eda9d3ce0ac7473abf0a66463f4e2fd5eac2e75107f4d5905d61948025",
-        "datetime": 1790587680,
-        "headlineKo": "2026년 컴퓨터 비전 글로벌 시장 보고서: 2030년까지 매년 15.9% 성장하는 371억 달러 시장 점유율 확보—Microsoft, Sony, Intel, Texas Instruments 및 MediaTek을 AI, Edge Visio로 벤치마킹",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 INTC의 사업과 관련된 'Computer Vision Global Market Report 2026: Secure Your Share of a $37.1 Billion Market Growing 15.9% Annually by 2030—Benchmark Microsoft, Sony, Intel, Texas Instruments and MediaTek as AI, Edge Visio' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: INTC에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
-          "relevance": 0.5,
-          "quality": "high",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1790596857.4811778
-        }
-      },
-      {
-        "headline": "INTC, AMD, AVGO: Chip Stocks Lead Slide As Tech Gets Hammered Amid Renewed U.S.-Iran Tensions",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f0962506e75fdbd8c68f04e26ab77822fa6dfca9adfe3e913a6fa0130704283f",
-        "datetime": 1790586499,
-        "headlineKo": "INTC, AMD, AVGO: 미국-이란 긴장이 다시 고조되는 가운데 기술이 타격을 입으면서 칩 주식이 하락세를 주도",
-        "relevance": 0.75,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "INTC, AMD, AVGO: 미국-이란 긴장이 다시 고조되는 가운데 기술이 타격을 입으면서 칩 주가 하락세를 주도 AI 에이전트 동향 뉴스 수익 전체 DIA 0.58% SPY 0.46% QQQ 0.81% 추세 NVDA 1.25% QNT 44.26% KOD 61.95% HBAR 23.96% AMPX 12.92% SPCX 0.76% TTD",
-            "INTC, AMD, AVGO: 미국-이란 긴장이 다시 고조되는 가운데 기술이 타격을 입으면서 칩 주가 하락세를 주도합니다. 오일 쇼크로 인해 AI 거래는 새로운 거시적 테스트를 받게 되었습니다.",
-            "트레이더들이 뉴욕 증권 거래소(NYSE)의 폐장 시간 전에 일하고 있습니다. (사진 출처는 JOHANNES EISELE/AFP via Getty Images) Yuvraj Malik · Stocktwits 게시일: 2026년 9월 28일 | 오전 5:08 EDT 공유 · 브렌트유 상승에 우리를 추가하세요"
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.58%, 0.46%, 0.81% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "INTC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "INTC에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.75,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.58%",
-            "0.46%",
-            "0.81%",
-            "1.25%",
-            "44.26%",
-            "61.95%",
-            "23.96%",
-            "12.92%"
-          ],
-          "sourceExcerpt": [
-            "INTC, AMD, AVGO: Chip Stocks Lead Slide As Tech Gets Hammered Amid Renewed U.S.-Iran Tensions AI Agent Trending News Earnings All DIA 0.58% SPY 0.46% QQQ 0.81% Trending NVDA 1.25% QNT 44.26% KOD 61.95% HBAR 23.96% AMPX 12.92% SPCX 0.76% TTD",
-            "INTC, AMD, AVGO: Chip Stocks Lead Slide As Tech Gets Hammered Amid Renewed U.S.-Iran Tensions Oil shock has put the AI trade under a fresh macro test.",
-            "Traders work before the closing bell at the New York Stock Exchange (NYSE) (Photo credit should read JOHANNES EISELE/AFP via Getty Images) Yuvraj Malik · Stocktwits Published Sep 28, 2026 | 5:08 AM EDT Share · Add us on Brent crude climbed "
-          ],
-          "analysisUpdatedAt": 1790596861.1181622
-        }
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:43",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:53",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "TSM": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2027-01-13",
       "hour": "bmo",
@@ -146554,6 +146444,56 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "TSMC Stock: AI Demand Drives Strong Q3 Results",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=4483360b9abf9da96e3301937a2eec98fef3e6ecfa284a29569078edc20d75db",
+        "datetime": 1792496993,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "TSMC Stock: AI Demand Drives Strong Q3 Results",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "TSM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 TSM의 사업과 관련된 'TSMC Stock: AI Demand Drives Strong Q3 Results' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "TSM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529598.9174483
+        },
+        "headlineKo": "TSMC 주식: AI 수요로 인해 강력한 3분기 실적 창출"
+      },
       {
         "headline": "Taiwan Semiconductor Manufacturing Halts Construction At Kaohsiung Plant Due To Accident At Construction Process Of Steel Structure Operation",
         "source": "Benzinga",
@@ -146600,7 +146540,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507422.994875
+          "analysisUpdatedAt": 1792529599.5823185
         },
         "headlineKo": "대만 반도체 제조업, 철강 구조물 작업 건설 과정에서 사고로 가오슝 공장 건설 중단"
       },
@@ -146650,7 +146590,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507424.008103
+          "analysisUpdatedAt": 1792529600.4507306
         },
         "headlineKo": "대만 반도체: 그렇지 않은 마진의 정점"
       },
@@ -146662,46 +146602,6 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Buy Top-Ranked Tech Stock TSMC Now on the Dip and Hold",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "TSM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 TSM의 사업과 관련된 'Buy Top-Ranked Tech Stock TSMC Now on the Dip and Hold' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "TSM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507426.4096591
-        },
         "headlineKo": "현재 하락세를 유지하고 있는 최고 기술주 TSMC 구매"
       },
       {
@@ -146713,16 +146613,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "AMD 대 TSMC: AMD의 현금 흐름은 얼마나 더 빠르게 성장해야 합니까?"
-      },
-      {
-        "headline": "Nvidia vs. TSMC: Which Business Depends Less on Picking the Winning AI Chip?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=16786467cd1a89e2a2ca53f67636c77d16b090dd384aac2c5016e2e420641c33",
-        "datetime": 1792436190,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Nvidia 대 TSMC: 승리하는 AI 칩 선택에 덜 의존하는 비즈니스는 무엇입니까?"
       },
       {
         "headline": "TSMC Earnings Preview: High Growth Likely, But Mind The CapEx (Downgrade)",
@@ -146778,6 +146668,55 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "TSMC Stock: AI Demand Drives Strong Q3 Results",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=4483360b9abf9da96e3301937a2eec98fef3e6ecfa284a29569078edc20d75db",
+        "datetime": 1792496993,
+        "headlineKo": "TSMC 주식: AI 수요로 인해 강력한 3분기 실적 창출",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "TSMC Stock: AI Demand Drives Strong Q3 Results",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "TSM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 TSM의 사업과 관련된 'TSMC Stock: AI Demand Drives Strong Q3 Results' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "TSM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529598.9174483
+        }
+      },
+      {
         "headline": "Taiwan Semiconductor Manufacturing Halts Construction At Kaohsiung Plant Due To Accident At Construction Process Of Steel Structure Operation",
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=b5029dcba31af2fb9bc6bc0663f4a852b68a18041381e2fcdbaffda2d5243f8a",
@@ -146823,7 +146762,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507422.994875
+          "analysisUpdatedAt": 1792529599.5823185
         }
       },
       {
@@ -146872,7 +146811,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507424.008103
+          "analysisUpdatedAt": 1792529600.4507306
         }
       },
       {
@@ -154957,70 +154896,21 @@ const NEWS_DATA = {
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1790019271.0250258
         }
-      },
-      {
-        "headline": "ASML (ASML) and Chip Giants like TSMC Plot a Bigger Canvas for Building AI Chips",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8c69db0d3d99efd1444fd0b5c88390a4d70bf5b030efe1d6bd477ef579b7f8ce",
-        "datetime": 1789940489,
-        "headlineKo": "ASML(ASML) 및 TSMC와 같은 칩 거대 기업은 AI 칩 구축을 위해 더 큰 캔버스를 계획합니다.",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "ASML (ASML) and Chip Giants like TSMC Plot a Bigger Canvas for Building AI Chips",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "TSM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 TSM의 사업과 관련된 'ASML (ASML) and Chip Giants like TSMC Plot a Bigger Canvas for Building AI Chips' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "TSM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789997114.8032558
-        }
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:43",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:53",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "ASML": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2027-01-27",
       "hour": "amc",
@@ -155029,6 +154919,70 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "ASML’s Dividend Is the Most Overlooked Part of the AI Chip Trade",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=319dfb4f300107e0c59bd2e8a39e74f95a53f5cf7bd8cb4c9f3c502169bc2f58",
+        "datetime": 1792512904,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "ASML의 배당금은 AI 칩 거래에서 가장 간과되는 부분입니다 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% 다우존스 52,632.50 +1.13% 나스닥 100 29,606.60 +0.07% 러셀 2000 2,779.59 +1.",
+            "작성자: Chris Lange 2026년 10월 20일 오후 12:15(ET) 게시 · 3분 읽기 𝕏 f ⧉ 회로 기판에 있는 \"AI\" 칩의 클로즈업은 해석 가능성 논쟁의 중심에 있는 복잡한 기술을 보여줍니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 6.8%, $2.107668, $1,631.30, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "ASML의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "ASML",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "ASML에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "6.8%",
+            "$2.107668",
+            "$1,631.30,",
+            "$8.430672",
+            "0.52%",
+            "0.56%",
+            "€7.50",
+            "17%"
+          ],
+          "sourceExcerpt": [
+            "ASML's Dividend Is the Most Overlooked Part of the AI Chip Trade - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.",
+            "By Chris Lange Published October 20, 2026, 12:15pm ET · 3 min read 𝕏 f ⧉ A close-up of an \"AI\" chip on a circuit board illustrates the complex technology at the heart of the interpretability debate."
+          ],
+          "analysisUpdatedAt": 1792529609.7299018
+        },
+        "headlineKo": "ASML의 배당금은 AI 칩 거래에서 가장 간과되는 부분입니다"
+      },
       {
         "headline": "Apple vs. ASML: Which Tech Stock Is a Better Buy in 2026?",
         "source": "Yahoo",
@@ -155047,11 +155001,11 @@ const NEWS_DATA = {
           "facts": [
             "ASML: 2026년에는 어떤 기술주를 구매하는 것이 더 나은가요?",
             "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 세계에서 가장 상징적인 소비자 기기 브랜드에 베팅해야 할까요, 아니면 이를 만드는 데 필요한 기계를 제작하는 회사에 베팅해야 할까요?",
-            "Apple(AAPL -0.25%)과 ASML(ASML -0.54%)을 비교하면 기술 부문을 플레이하는 두 가지 다른 방식이 드러납니다."
+            "Apple( AAPL -1.00% )과 ASML( ASML -0.99% )을 비교하면 기술 부문을 플레이하는 두 가지 다른 방식이 드러납니다."
           ],
           "why": [
             "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.25%, 0.54%, 60% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.00%, 0.99%, 60% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "ASML의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -155075,11 +155029,11 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.25%",
-            "0.54%",
+            "1.00%",
+            "0.99%",
             "60%",
-            "0.06%",
-            "0.19%",
+            "1.10%",
+            "1.14%",
             "$416.2 billion",
             "6.4%",
             "$112 billion"
@@ -155087,9 +155041,9 @@ const NEWS_DATA = {
           "sourceExcerpt": [
             "ASML: Which Tech Stock Is a Better Buy in 2026?",
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Should you bet on the world's most iconic consumer device brand, or the company that builds the machines required to make them?",
-            "Comparing Apple ( AAPL -0.25% ) and ASML ( ASML -0.54% ) reveals two different ways to play the tech sector."
+            "Comparing Apple ( AAPL -1.00% ) and ASML ( ASML -0.99% ) reveals two different ways to play the tech sector."
           ],
-          "analysisUpdatedAt": 1792507437.8660607
+          "analysisUpdatedAt": 1792529612.9158976
         },
         "headlineKo": "Apple 대 ASML: 2026년에는 어떤 기술주를 구매하는 것이 더 나은가요?"
       },
@@ -155139,7 +155093,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507440.2372057
+          "analysisUpdatedAt": 1792529614.997312
         },
         "headlineKo": "E-빔 웨이퍼 검사 시스템 시장은 KLA, Applied Materials, ASML, Hitachi High-Technologies 및 14개 기타 주요 기업 프로파일링을 통해 2024년 13억 달러에서 2030년까지 36억 달러로 성장할 것으로 예측합니다."
       },
@@ -155151,46 +155105,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Applied Materials vs. ASML: Which Can Carry a Bigger Research Bill?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "ASML",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 ASML의 사업과 관련된 'Applied Materials vs. ASML: Which Can Carry a Bigger Research Bill?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "ASML 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507442.2278817
-        },
         "headlineKo": "Applied Materials와 ASML: 어느 것이 더 큰 연구 비용을 감당할 수 있습니까?"
       },
       {
@@ -155202,16 +155116,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "ASML 대 Lam 연구: 서비스 수익이 실제로 얼마나 많은 보호를 제공합니까?"
-      },
-      {
-        "headline": "Why Is ASML Holding (ENXTAM:ASML) Teaming Up On Next Generation FinFET 3D Chips?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5926958ab4bd4647d8639b649d847fe5bbc39653531573bcb9b67a795726ebfb",
-        "datetime": 1792422685,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "ASML Holding(ENXTAM:ASML)이 차세대 FinFET 3D 칩을 위해 협력하는 이유는 무엇입니까?"
       },
       {
         "headline": "Is ASML’s (ASML) Monopoly Worth the Premium?",
@@ -155268,6 +155172,69 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "ASML’s Dividend Is the Most Overlooked Part of the AI Chip Trade",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=319dfb4f300107e0c59bd2e8a39e74f95a53f5cf7bd8cb4c9f3c502169bc2f58",
+        "datetime": 1792512904,
+        "headlineKo": "ASML의 배당금은 AI 칩 거래에서 가장 간과되는 부분입니다",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "ASML의 배당금은 AI 칩 거래에서 가장 간과되는 부분입니다 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% 다우존스 52,632.50 +1.13% 나스닥 100 29,606.60 +0.07% 러셀 2000 2,779.59 +1.",
+            "작성자: Chris Lange 2026년 10월 20일 오후 12:15(ET) 게시 · 3분 읽기 𝕏 f ⧉ 회로 기판에 있는 \"AI\" 칩의 클로즈업은 해석 가능성 논쟁의 중심에 있는 복잡한 기술을 보여줍니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 6.8%, $2.107668, $1,631.30, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "ASML의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "ASML",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "ASML에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "6.8%",
+            "$2.107668",
+            "$1,631.30,",
+            "$8.430672",
+            "0.52%",
+            "0.56%",
+            "€7.50",
+            "17%"
+          ],
+          "sourceExcerpt": [
+            "ASML's Dividend Is the Most Overlooked Part of the AI Chip Trade - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.",
+            "By Chris Lange Published October 20, 2026, 12:15pm ET · 3 min read 𝕏 f ⧉ A close-up of an \"AI\" chip on a circuit board illustrates the complex technology at the heart of the interpretability debate."
+          ],
+          "analysisUpdatedAt": 1792529609.7299018
+        }
+      },
+      {
         "headline": "Apple vs. ASML: Which Tech Stock Is a Better Buy in 2026?",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fbc85a70aebb4549f22f8c830881dc7ff6d9e4916c01327b354afe1c8e058ef7",
@@ -155285,11 +155252,11 @@ const NEWS_DATA = {
           "facts": [
             "ASML: 2026년에는 어떤 기술주를 구매하는 것이 더 나은가요?",
             "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 세계에서 가장 상징적인 소비자 기기 브랜드에 베팅해야 할까요, 아니면 이를 만드는 데 필요한 기계를 제작하는 회사에 베팅해야 할까요?",
-            "Apple(AAPL -0.25%)과 ASML(ASML -0.54%)을 비교하면 기술 부문을 플레이하는 두 가지 다른 방식이 드러납니다."
+            "Apple( AAPL -1.00% )과 ASML( ASML -0.99% )을 비교하면 기술 부문을 플레이하는 두 가지 다른 방식이 드러납니다."
           ],
           "why": [
             "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.25%, 0.54%, 60% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.00%, 0.99%, 60% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "ASML의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -155313,11 +155280,11 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.25%",
-            "0.54%",
+            "1.00%",
+            "0.99%",
             "60%",
-            "0.06%",
-            "0.19%",
+            "1.10%",
+            "1.14%",
             "$416.2 billion",
             "6.4%",
             "$112 billion"
@@ -155325,9 +155292,9 @@ const NEWS_DATA = {
           "sourceExcerpt": [
             "ASML: Which Tech Stock Is a Better Buy in 2026?",
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Should you bet on the world's most iconic consumer device brand, or the company that builds the machines required to make them?",
-            "Comparing Apple ( AAPL -0.25% ) and ASML ( ASML -0.54% ) reveals two different ways to play the tech sector."
+            "Comparing Apple ( AAPL -1.00% ) and ASML ( ASML -0.99% ) reveals two different ways to play the tech sector."
           ],
-          "analysisUpdatedAt": 1792507437.8660607
+          "analysisUpdatedAt": 1792529612.9158976
         }
       },
       {
@@ -155376,7 +155343,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507440.2372057
+          "analysisUpdatedAt": 1792529614.997312
         }
       },
       {
@@ -162343,19 +162310,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:44",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:53",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 157,
+      "checked": 158,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "AMAT": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-11-12",
       "hour": "amc",
@@ -162410,7 +162377,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507449.3087091
+          "analysisUpdatedAt": 1792529620.4989347
         },
         "headlineKo": "E-빔 웨이퍼 검사 시스템 시장은 KLA, Applied Materials, ASML, Hitachi High-Technologies 및 14개 기타 주요 기업 프로파일링을 통해 2024년 13억 달러에서 2030년까지 36억 달러로 성장할 것으로 예측합니다."
       },
@@ -162460,7 +162427,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507450.9292364
+          "analysisUpdatedAt": 1792529622.549822
         },
         "headlineKo": "EPIC 센터 출범이 어플라이드 머티어리얼즈 주식에 미치는 영향"
       },
@@ -162510,7 +162477,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507455.05361
+          "analysisUpdatedAt": 1792529624.3727558
         },
         "headlineKo": "Applied Materials, Lam Research, Marvell Technology, Micron 및 Semtech 주가 급등, 알아야 할 사항"
       },
@@ -162582,7 +162549,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507449.3087091
+          "analysisUpdatedAt": 1792529620.4989347
         }
       },
       {
@@ -162631,7 +162598,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507450.9292364
+          "analysisUpdatedAt": 1792529622.549822
         }
       },
       {
@@ -162680,7 +162647,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507455.05361
+          "analysisUpdatedAt": 1792529624.3727558
         }
       },
       {
@@ -169297,19 +169264,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:44",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:53",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "LRCX": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-10-21",
       "hour": "amc",
@@ -169318,6 +169285,55 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Why Lam Research (LRCX) is Poised to Beat Earnings Estimates Again",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9ac3581626fe71d132058f6a3ff3ef8ced1e5418e015c5e783236262888996da",
+        "datetime": 1792509002,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적 발표 · 본업과 특이항목 분리",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Why Lam Research (LRCX) is Poised to Beat Earnings Estimates Again",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+            "LRCX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "LRCX",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "매출·영업이익 성장",
+            "정상화이익과 특이항목",
+            "가이던스·OCF·FCF"
+          ],
+          "interpretation": "LRCX에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529629.2954698
+        },
+        "headlineKo": "Lam Research(LRCX)가 수익 추정치를 다시 상회할 준비가 되어 있는 이유"
+      },
       {
         "headline": "Texas Instruments and Lam Research Report Earnings: AI Equipment Boom Meets Analog Rebound",
         "source": "Yahoo",
@@ -169335,7 +169351,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Texas Instruments 및 Lam Research 보고서 수익: AI 장비 붐이 아날로그 반등을 충족함 - 연중무휴 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% 다우존스 52,602.00 +1.07% 나스닥 100 29,665.80 +0.27% 러셀 2000 2,776.94 +1.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% 다우존스 52,632.50 +1.13% 나스닥 100 29,606.60 +0.07% 러셀 2000 2,779.59 +1.",
             "© Shutterstock 시장 마감 후 10월 21일 수요일 업계 보고서의 반대편에 있는 두 개의 칩 주식."
           ],
           "why": [
@@ -169375,10 +169391,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Texas Instruments and Lam Research Report Earnings: AI Equipment Boom Meets Analog Rebound - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.",
+            "Skip to content ❚❚ At close S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.",
             "© Shutterstock Two chip stocks from opposite ends of the industry report on Wednesday, October 21, after the market close."
           ],
-          "analysisUpdatedAt": 1792507464.7029257
+          "analysisUpdatedAt": 1792529631.7117577
         },
         "headlineKo": "Texas Instruments 및 Lam Research 수익 보고서: AI 장비 붐이 아날로그 반등을 만나다"
       },
@@ -169428,9 +169444,19 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507466.549197
+          "analysisUpdatedAt": 1792529633.4283566
         },
         "headlineKo": "Zacks Analyst 블로그에서는 Meta Platform, Lam Research, Texas Instruments, Tesla, Netflix, Procter & Gamble 및 GE Aerospace를 강조합니다."
+      },
+      {
+        "headline": "Evercore ISI Group Maintains Outperform on Lam Research, Lowers Price Target to $315",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=5f74262f5e00637d95c0ce89a44270dd59055559fa252acd12a44900c8399157",
+        "datetime": 1792485691,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Evercore ISI 그룹, Lam Research에서 우수한 성과를 유지하고 목표 가격을 315달러로 낮춤"
       },
       {
         "headline": "Lam Research (LRCX) Q3 Earnings: What To Expect",
@@ -169440,15 +169466,27 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "Lam Research(LRCX) 3분기 실적: 예상되는 사항"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Why Lam Research (LRCX) is Poised to Beat Earnings Estimates Again",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9ac3581626fe71d132058f6a3ff3ef8ced1e5418e015c5e783236262888996da",
+        "datetime": 1792509002,
+        "headlineKo": "Lam Research(LRCX)가 수익 추정치를 다시 상회할 준비가 되어 있는 이유",
+        "relevance": 1,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "medium",
-          "tone": "neutral",
+          "tone": "positive",
           "certainty": "본문 확인 필요",
           "label": "실적 발표 · 본업과 특이항목 분리",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Lam Research (LRCX) Q3 Earnings: What To Expect",
+            "Why Lam Research (LRCX) is Poised to Beat Earnings Estimates Again",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -169477,32 +169515,9 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507468.6558592
-        },
-        "headlineKo": "Lam Research(LRCX) 3분기 실적: 예상되는 사항"
+          "analysisUpdatedAt": 1792529629.2954698
+        }
       },
-      {
-        "headline": "Learn Why The Bull Case For Lam Research Stock Could Change Following Earnings Beat",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=276cff3bb55aa9ae505cca29916dce683956c1754c6a851d2602c0916007b7b1",
-        "datetime": 1792455563,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Lam Research 주식의 강세 사례가 실적 개선에 따라 변경될 수 있는 이유를 알아보세요."
-      },
-      {
-        "headline": "Applied Materials, Lam Research, Marvell Technology, Micron, and Semtech Shares Skyrocket, What You Need To Know",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=26a51fb6e21c2d5b2b0627b55b2c1993b3071882e3470a4099fceb9d1cfe6c59",
-        "datetime": 1792445335,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Applied Materials, Lam Research, Marvell Technology, Micron 및 Semtech 주가 급등, 알아야 할 사항"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Texas Instruments and Lam Research Report Earnings: AI Equipment Boom Meets Analog Rebound",
         "source": "Yahoo",
@@ -169520,7 +169535,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Texas Instruments 및 Lam Research 보고서 수익: AI 장비 붐이 아날로그 반등을 충족함 - 연중무휴 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% 다우존스 52,602.00 +1.07% 나스닥 100 29,665.80 +0.27% 러셀 2000 2,776.94 +1.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% 다우존스 52,632.50 +1.13% 나스닥 100 29,606.60 +0.07% 러셀 2000 2,779.59 +1.",
             "© Shutterstock 시장 마감 후 10월 21일 수요일 업계 보고서의 반대편에 있는 두 개의 칩 주식."
           ],
           "why": [
@@ -169560,10 +169575,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Texas Instruments and Lam Research Report Earnings: AI Equipment Boom Meets Analog Rebound - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.",
+            "Skip to content ❚❚ At close S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.",
             "© Shutterstock Two chip stocks from opposite ends of the industry report on Wednesday, October 21, after the market close."
           ],
-          "analysisUpdatedAt": 1792507464.7029257
+          "analysisUpdatedAt": 1792529631.7117577
         }
       },
       {
@@ -169612,8 +169627,17 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507466.549197
+          "analysisUpdatedAt": 1792529633.4283566
         }
+      },
+      {
+        "headline": "Evercore ISI Group Maintains Outperform on Lam Research, Lowers Price Target to $315",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=5f74262f5e00637d95c0ce89a44270dd59055559fa252acd12a44900c8399157",
+        "datetime": 1792485691,
+        "headlineKo": "Evercore ISI 그룹, Lam Research에서 우수한 성과를 유지하고 목표 가격을 315달러로 낮춤",
+        "relevance": 0.67,
+        "keywordFlag": false
       },
       {
         "headline": "Lam Research (LRCX) Q3 Earnings: What To Expect",
@@ -173283,19 +173307,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:44",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:53",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 84,
+      "checked": 86,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "KLAC": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -173350,7 +173374,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507476.9471478
+          "analysisUpdatedAt": 1792529639.5823817
         },
         "headlineKo": "KLAC는 1년 만에 64.5% 급등: 주식을 사야 할까요, 팔아야 할까요, 아니면 보유해야 할까요?"
       },
@@ -173400,7 +173424,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507478.2145436
+          "analysisUpdatedAt": 1792529640.6707883
         },
         "headlineKo": "KLA CORP (NASDAQ:KLAC): 소득 투자자를 위한 배당 품질 플레이"
       },
@@ -173464,7 +173488,7 @@ const NEWS_DATA = {
             "| Trefis What Is The True Hidden Price Of KLA Stock?",
             "October 14th, 2026 · by Trefis Team KLAC YTD +37.5% SPY YTD +13.0% QQQ YTD +17.2% Analyze KLAC → Investors are currently paying 47.7 times trailing twelve-month earnings for shares of KLA (KLAC) ."
           ],
-          "analysisUpdatedAt": 1792507481.6337726
+          "analysisUpdatedAt": 1792529643.8867078
         },
         "headlineKo": "KLA 주식의 진정한 숨겨진 가격은 무엇입니까?"
       },
@@ -173588,7 +173612,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507476.9471478
+          "analysisUpdatedAt": 1792529639.5823817
         }
       },
       {
@@ -173637,7 +173661,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507478.2145436
+          "analysisUpdatedAt": 1792529640.6707883
         }
       },
       {
@@ -173700,7 +173724,7 @@ const NEWS_DATA = {
             "| Trefis What Is The True Hidden Price Of KLA Stock?",
             "October 14th, 2026 · by Trefis Team KLAC YTD +37.5% SPY YTD +13.0% QQQ YTD +17.2% Analyze KLAC → Investors are currently paying 47.7 times trailing twelve-month earnings for shares of KLA (KLAC) ."
           ],
-          "analysisUpdatedAt": 1792507481.6337726
+          "analysisUpdatedAt": 1792529643.8867078
         }
       },
       {
@@ -176521,19 +176545,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:44",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:54",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "MU": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-12-15",
       "hour": "amc",
@@ -176543,10 +176567,10 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "SK Hynix Sinks 4% as Seoul Selloff Revives AI Spending Fears; SanDisk Drops 3%, Micron Eases",
+        "headline": "Prediction: Micron Could Turn a $5,000 Investment Into This by 2030",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8726e579aa0e69836d74ddb9c4077f531ab99020418ea320d926351a7c2ec603",
-        "datetime": 1792503044,
+        "url": "https://finnhub.io/api/news?id=f55beb7ac83c8600cd50b8e9f565d68e0ed64d4192595ee417674006349b0dda",
+        "datetime": 1792524780,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
@@ -176555,20 +176579,20 @@ const NEWS_DATA = {
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "label": "공급망 · 생산 차질 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "SK하이닉스, 서울 매각으로 AI 지출 공포 다시 살아나면서 4% 하락 SanDisk 하락 3%, Micron 완화 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% 다우존스 52,602.00 +1.07% 나스닥 100 29,665.80 +0.27% 러셀 2000 2,776.94 +1.",
-            "다음 SK 하이닉스 수익 보고서에서 밝혀지는 내용이 최근 반등 여부를 결정할 수 있습니다. 작성자: David Moadel 게시일: 2026년 10월 20일 오전 9시 30분(ET) · 3분 읽기 Market Movers 데스크."
+            "예측: Micron은 2030년까지 5,000달러를 투자할 수 있습니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Micron( MU -0.98% )은 시장에서 가장 인기 있는 주식 중 하나입니다.",
+            "주가는 지난 12개월 동안 334% 상승했고, 10월 1일 장 마감까지 연중 208% 상승했다.",
+            "Micron 투자자들에게는 좋은 여행이었다는 데는 의심의 여지가 없습니다. 하지만 향후 몇 년 동안 주식은 어떤 모습일까요?"
           ],
           "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 4%, 3%, $137.03, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 334%, 208%, $896.07 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "주문은 있어도 부품이나 생산 문제로 제때 팔지 못할 수 있다는 뉴스입니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -176579,38 +176603,187 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
+            "출하 지연 기간",
+            "재고와 리드타임",
+            "매출총이익률·대체 공급처"
           ],
-          "interpretation": "MU에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "MU에 대한 공급망 · 생산 차질 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.5,
           "quality": "medium",
           "verifiedNumbers": [
-            "4%",
-            "3%",
-            "$137.03,",
-            "$1,336.86.",
-            "2%",
-            "$886.64,",
-            "$46.75,",
-            "0.5%"
+            "334%",
+            "208%",
+            "$896.07",
+            "$8.83",
+            "0.98%",
+            "$1.02",
+            "$881.52",
+            "$918.89"
           ],
           "sourceExcerpt": [
-            "SK Hynix Sinks 4% as Seoul Selloff Revives AI Spending Fears; SanDisk Drops 3%, Micron Eases - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.",
-            "What the next SK Hynix earnings report reveals could determine whether the recent rebound… By David Moadel Published October 20, 2026, 9:30am ET · 3 min read Market Movers desk."
+            "Prediction: Micron Could Turn a $5,000 Investment Into This by 2030 | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Micron ( MU -0.98% ) has been one of the market's hottest stock",
+            "The stock was up 334% over the past 12 months and up 208% for the year through market close on Oct.",
+            "There's no doubt it's been a good ride for Micron investors , but what might the next few years look like for the stock?"
           ],
-          "analysisUpdatedAt": 1792507490.1445549
+          "analysisUpdatedAt": 1792529650.4805405
         },
-        "headlineKo": "SK하이닉스, 서울 매각으로 AI 지출 공포 다시 살아나면서 4% 하락 SanDisk 하락 3%, Micron 완화"
+        "headlineKo": "예측: Micron은 2030년까지 5,000달러를 투자할 수 있습니다."
+      },
+      {
+        "headline": "Trump Dumped Micron, Up 338% in a Year. The Memory Cycle Decides Who’s Right",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f5ab011dbceb3744bc929640e1e7ffa7e22bcae091e3de0d307a3443cf0f526d",
+        "datetime": 1792522410,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "트럼프, 마이크론 1년새 338% 상승.",
+            "기억의 주기는 누가 옳은지를 결정합니다 | TIKR.com General Investing Trump는 마이크론을 1년 만에 338% 상승시켰습니다.",
+            "기억 주기가 누가 옳은지를 결정합니다 Michael Douglass • 5분 읽기 검토자: David Hanson 마지막 업데이트 2026년 10월 20일 공식 백악관 사진 제공: Daniel Torok 및 Adam Smigielski, Getty Images 서명 Canva를 통한 주요 시사점 사전"
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 338%, $251,000, $515,000 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MU",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "MU에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "338%",
+            "$251,000",
+            "$515,000",
+            "$1 million",
+            "$5 million",
+            "$25.3 million",
+            "2.7%",
+            "80.7%"
+          ],
+          "sourceExcerpt": [
+            "Trump Dumped Micron, Up 338% in a Year.",
+            "The Memory Cycle Decides Who&#8217;s Right | TIKR.com General Investing Trump Dumped Micron, Up 338% in a Year.",
+            "The Memory Cycle Decides Who’s Right Michael Douglass • 5 minute read Reviewed by: David Hanson Last updated Oct 20, 2026 Official White House Photo by Daniel Torok and Adam Smigielski from Getty Images Signature via Canva Key Takeaways Pre"
+          ],
+          "analysisUpdatedAt": 1792529655.3111937
+        },
+        "headlineKo": "트럼프, 마이크론 1년새 338% 상승. 기억주기는 누가 옳은지를 결정합니다"
+      },
+      {
+        "headline": "Micron Just Dropped 10% in a Month. Is It Time to Sell, or Load Up?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ac44ea1041262e8b85f6c0bbaee887b9d04706ab159867448af4b18fb196b355",
+        "datetime": 1792522012,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "마이크론은 한 달 만에 10% 하락했습니다.",
+            "| TIKR.com General Investing Micron은 한 달 만에 10% 하락했습니다.",
+            "Roxanna Maglangit • 5분 읽기 검토자: Michael Douglass 마지막 업데이트 2026년 10월 20일 Canva를 통한 Streetoncamara의 Oleksii Mach 및 StreetOnCamara 주요 내용 Micron 주가는 지난 한 달 동안 월요일 마감까지 10.9% 하락했습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 10%, 10.9%, $61.5 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MU",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "MU에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "10%",
+            "10.9%",
+            "$61.5 billion",
+            "86.8%",
+            "23.8%",
+            "217%",
+            "4.8%",
+            "3.9%"
+          ],
+          "sourceExcerpt": [
+            "Micron Just Dropped 10% in a Month.",
+            "| TIKR.com General Investing Micron Just Dropped 10% in a Month.",
+            "Roxanna Maglangit • 5 minute read Reviewed by: Michael Douglass Last updated Oct 20, 2026 Oleksii Mach and StreetOnCamara from Streetoncamara via Canva Key Takeaways Micron stock fell 10.9% in the past month through Monday’s close, all of i"
+          ],
+          "analysisUpdatedAt": 1792529658.8238227
+        },
+        "headlineKo": "마이크론은 한 달 만에 10% 하락했습니다. 판매할 시간인가, 아니면 장전할 시간인가?"
+      },
+      {
+        "headline": "Not Micron. Not Sandisk. This Storage Stock Is Riding the Same AI Infrastructure Wave.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=70d3e1d0872b6ee59b501ee3152b6d9ed8027582e16905468d03a356033ce027",
+        "datetime": 1792517700,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "마이크론이 아닙니다. 샌디스크가 아닙니다. 이 스토리지 주식은 동일한 AI 인프라 물결을 타고 있습니다."
+      },
+      {
+        "headline": "Intel Vs. Micron: Who Is More Exposed By Chinese Rival CXMT’s Progress?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0714160c956c1e36fb80d4b05e2bc5646f21aa5300978c36a447459b96639889",
+        "datetime": 1792514712,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "인텔 대. 마이크론: 중국 라이벌 CXMT의 진전에 더 많이 노출되는 사람은 누구입니까?"
       },
       {
         "headline": "Micron Workers In Taiwan Announce Strike Over Escalating Bonus Dispute",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=045822d644ee0f6fc0987507595030f3bf9762de439880dc08cc3c71c4c32ae9",
         "datetime": 1792502173,
+        "headlineKo": "대만 마이크론 근로자, 증가하는 보너스 분쟁에 대한 파업 발표",
         "relevance": 0.5,
         "keywordFlag": true,
         "flagTerms": [
@@ -176669,92 +176842,7 @@ const NEWS_DATA = {
             "Workers at Micron Technology ( MU ) in Taoyuan, Taiwan, plan to strike on Thursday ."
           ],
           "analysisUpdatedAt": 1792507496.1164758
-        },
-        "headlineKo": "대만 마이크론 근로자, 증가하는 보너스 분쟁에 대한 파업 발표"
-      },
-      {
-        "headline": "Micron Invests In US Indium Processing Amid China Export Restrictions – MU Stock Still Dips",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=377e270f44579abbedb9820630758a3f80b1a3ae7dd8e9b92c70c603659c353d",
-        "datetime": 1792500698,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "MU 주식은 칩 제조업체가 미국 중요 광물을 확장하더라도 AI 에이전트를 밀어붙입니다. 동향 뉴스 수익 전체 DIA 1.25% SPY 0.64% QQQ 0.42% 추세 CRWV 4.79% USO 2.61% DJT 1.55% LLY 4.79% QQQ 0.42% PFE 1.94% RAPP 3.46% VICR 7.84% 아이렌 0.07% NBI",
-            "Micron은 중국 수출 제한으로 인해 미국 인듐 처리에 투자 – MU 주가는 여전히 하락세 Micron은 Indium Corporation에 전략적 자금을 제공하여 중국의 필수 광물 정제 및 고순도 재료 제조를 확장할 것이라고 밝혔습니다.",
-            "한 남자가 Micron Technology, Inc.의 사무실 건물로 들어갑니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 1.25%, 0.64%, 0.42% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MU",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "MU에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "1.25%",
-            "0.64%",
-            "0.42%",
-            "4.79%",
-            "2.61%",
-            "1.55%",
-            "1.94%",
-            "3.46%"
-          ],
-          "sourceExcerpt": [
-            "MU Stock Slides Even As Chipmaker Expands US Critical Minerals Push AI Agent Trending News Earnings All DIA 1.25% SPY 0.64% QQQ 0.42% Trending CRWV 4.79% USO 2.61% DJT 1.55% LLY 4.79% QQQ 0.42% PFE 1.94% RAPP 3.46% VICR 7.84% IREN 0.07% NBI",
-            "Micron Invests In US Indium Processing Amid China Export Restrictions – MU Stock Still Dips Micron said it will provide strategic funding to Indium Corporation to expand critical-minerals refining and high-purity materials manufacturing in ",
-            "A man walks into an office building of Micron Technology, Inc."
-          ],
-          "analysisUpdatedAt": 1792507501.8818903
-        },
-        "headlineKo": "Micron은 중국 수출 제한으로 인해 미국 인듐 처리에 투자 – MU 재고는 여전히 하락"
-      },
-      {
-        "headline": "Micron Stock Falls Amid 3 Warning Signals",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=cfb09e29e2c5701b5e4345834c98409ad69847c064a040699a01d371f95cf15f",
-        "datetime": 1792499760,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "3가지 경고 신호에 마이크론 주가 하락"
-      },
-      {
-        "headline": "Wall Street Gave Micron Back Its $1 Trillion Crown Just One Session Later",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7c7386fd9b59eb3861fcdc59afffa1d330696e0ded83b36fe8521919bb133477",
-        "datetime": 1792497330,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "월스트리트는 단 한 세션 후에 마이크론에게 1조 달러의 왕관을 돌려주었습니다."
+        }
       },
       {
         "headline": "A Micron Union in Taiwan Voted 99% to Authorize a Strike. Should You Sell the Stock?",
@@ -176897,21 +176985,216 @@ const NEWS_DATA = {
         "flagTerms": [
           "strike"
         ]
-      },
-      {
-        "headline": "Update: Market Chatter: Micron Technology's Taiwan Workers Authorize Strike Over Bonus Dispute",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d7e26d47ca7746bac6349f133ef7038bfa174080020384944864804cc4bc6c6a",
-        "datetime": 1791447705,
-        "headlineKo": "업데이트: 시장 잡담: Micron Technology의 대만 근로자, 보너스 분쟁에 대한 파업 승인",
-        "relevance": 1.0,
-        "keywordFlag": true,
-        "flagTerms": [
-          "strike"
-        ]
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Prediction: Micron Could Turn a $5,000 Investment Into This by 2030",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f55beb7ac83c8600cd50b8e9f565d68e0ed64d4192595ee417674006349b0dda",
+        "datetime": 1792524780,
+        "headlineKo": "예측: Micron은 2030년까지 5,000달러를 투자할 수 있습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "공급망 · 생산 차질 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "예측: Micron은 2030년까지 5,000달러를 투자할 수 있습니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Micron( MU -0.98% )은 시장에서 가장 인기 있는 주식 중 하나입니다.",
+            "주가는 지난 12개월 동안 334% 상승했고, 10월 1일 장 마감까지 연중 208% 상승했다.",
+            "Micron 투자자들에게는 좋은 여행이었다는 데는 의심의 여지가 없습니다. 하지만 향후 몇 년 동안 주식은 어떤 모습일까요?"
+          ],
+          "why": [
+            "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 334%, 208%, $896.07 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "주문은 있어도 부품이나 생산 문제로 제때 팔지 못할 수 있다는 뉴스입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MU",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "출하 지연 기간",
+            "재고와 리드타임",
+            "매출총이익률·대체 공급처"
+          ],
+          "interpretation": "MU에 대한 공급망 · 생산 차질 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "334%",
+            "208%",
+            "$896.07",
+            "$8.83",
+            "0.98%",
+            "$1.02",
+            "$881.52",
+            "$918.89"
+          ],
+          "sourceExcerpt": [
+            "Prediction: Micron Could Turn a $5,000 Investment Into This by 2030 | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Micron ( MU -0.98% ) has been one of the market's hottest stock",
+            "The stock was up 334% over the past 12 months and up 208% for the year through market close on Oct.",
+            "There's no doubt it's been a good ride for Micron investors , but what might the next few years look like for the stock?"
+          ],
+          "analysisUpdatedAt": 1792529650.4805405
+        }
+      },
+      {
+        "headline": "Trump Dumped Micron, Up 338% in a Year. The Memory Cycle Decides Who’s Right",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f5ab011dbceb3744bc929640e1e7ffa7e22bcae091e3de0d307a3443cf0f526d",
+        "datetime": 1792522410,
+        "headlineKo": "트럼프, 마이크론 1년새 338% 상승. 기억주기는 누가 옳은지를 결정합니다",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "트럼프, 마이크론 1년새 338% 상승.",
+            "기억의 주기는 누가 옳은지를 결정합니다 | TIKR.com General Investing Trump는 마이크론을 1년 만에 338% 상승시켰습니다.",
+            "기억 주기가 누가 옳은지를 결정합니다 Michael Douglass • 5분 읽기 검토자: David Hanson 마지막 업데이트 2026년 10월 20일 공식 백악관 사진 제공: Daniel Torok 및 Adam Smigielski, Getty Images 서명 Canva를 통한 주요 시사점 사전"
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 338%, $251,000, $515,000 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MU",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "MU에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "338%",
+            "$251,000",
+            "$515,000",
+            "$1 million",
+            "$5 million",
+            "$25.3 million",
+            "2.7%",
+            "80.7%"
+          ],
+          "sourceExcerpt": [
+            "Trump Dumped Micron, Up 338% in a Year.",
+            "The Memory Cycle Decides Who&#8217;s Right | TIKR.com General Investing Trump Dumped Micron, Up 338% in a Year.",
+            "The Memory Cycle Decides Who’s Right Michael Douglass • 5 minute read Reviewed by: David Hanson Last updated Oct 20, 2026 Official White House Photo by Daniel Torok and Adam Smigielski from Getty Images Signature via Canva Key Takeaways Pre"
+          ],
+          "analysisUpdatedAt": 1792529655.3111937
+        }
+      },
+      {
+        "headline": "Micron Just Dropped 10% in a Month. Is It Time to Sell, or Load Up?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ac44ea1041262e8b85f6c0bbaee887b9d04706ab159867448af4b18fb196b355",
+        "datetime": 1792522012,
+        "headlineKo": "마이크론은 한 달 만에 10% 하락했습니다. 판매할 시간인가, 아니면 장전할 시간인가?",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "마이크론은 한 달 만에 10% 하락했습니다.",
+            "| TIKR.com General Investing Micron은 한 달 만에 10% 하락했습니다.",
+            "Roxanna Maglangit • 5분 읽기 검토자: Michael Douglass 마지막 업데이트 2026년 10월 20일 Canva를 통한 Streetoncamara의 Oleksii Mach 및 StreetOnCamara 주요 내용 Micron 주가는 지난 한 달 동안 월요일 마감까지 10.9% 하락했습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 10%, 10.9%, $61.5 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MU",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "MU에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "10%",
+            "10.9%",
+            "$61.5 billion",
+            "86.8%",
+            "23.8%",
+            "217%",
+            "4.8%",
+            "3.9%"
+          ],
+          "sourceExcerpt": [
+            "Micron Just Dropped 10% in a Month.",
+            "| TIKR.com General Investing Micron Just Dropped 10% in a Month.",
+            "Roxanna Maglangit • 5 minute read Reviewed by: Michael Douglass Last updated Oct 20, 2026 Oleksii Mach and StreetOnCamara from Streetoncamara via Canva Key Takeaways Micron stock fell 10.9% in the past month through Monday’s close, all of i"
+          ],
+          "analysisUpdatedAt": 1792529658.8238227
+        }
+      },
+      {
+        "headline": "Not Micron. Not Sandisk. This Storage Stock Is Riding the Same AI Infrastructure Wave.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=70d3e1d0872b6ee59b501ee3152b6d9ed8027582e16905468d03a356033ce027",
+        "datetime": 1792517700,
+        "headlineKo": "마이크론이 아닙니다. 샌디스크가 아닙니다. 이 스토리지 주식은 동일한 AI 인프라 물결을 타고 있습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false
+      },
+      {
+        "headline": "Intel Vs. Micron: Who Is More Exposed By Chinese Rival CXMT’s Progress?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0714160c956c1e36fb80d4b05e2bc5646f21aa5300978c36a447459b96639889",
+        "datetime": 1792514712,
+        "headlineKo": "인텔 대. 마이크론: 중국 라이벌 CXMT의 진전에 더 많이 노출되는 사람은 누구입니까?",
+        "relevance": 0.5,
+        "keywordFlag": false
+      },
       {
         "headline": "SK Hynix Sinks 4% as Seoul Selloff Revives AI Spending Fears; SanDisk Drops 3%, Micron Eases",
         "source": "Yahoo",
@@ -184483,228 +184766,21 @@ const NEWS_DATA = {
         "flagTerms": [
           "settlement"
         ]
-      },
-      {
-        "headline": "SK Hynix Falls 4% on Earnings Caution Before a Rebalancing Goldman Says Favors It; SanDisk Slips 2%, Micron Holds Firm",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=547005e71eff3008bc34ae5604e43da34dbc21f23cd0c5d0ae70215641ff6138",
-        "datetime": 1791305979,
-        "headlineKo": "SK하이닉스, 수익 4% 하락 골드만삭스가 재조정을 선호한다고 말하기 전 주의; SanDisk는 2% 하락, Micron은 확고히 유지",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "SK하이닉스, 수익 4% 하락 골드만삭스가 재조정을 선호한다고 말하기 전 주의; SanDisk는 2% 하락하고 Micron은 24/7 월스트리트에서 확고한 지위를 유지했습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,835.80 +0.62% Dow Jones 51,602.50 +0.46% Nasdaq 100 31,288.50 +0.50% Russell 2000 2,834.20 −0.69% S&P 500 7,835.80 +0.62% 다우존스 51,602.50 +0.46% 나스닥 100 31,288.50 +0.50% 러셀 2000 2,834.20 −0.",
-            "𝕏 f ⧉ © Stockcrafterpro / Shutterstock.com 메모리 칩 주식은 보고 위험에 따라 거래되고 있으며, 가장 큰 매도는 아직 보고할 분기가 남아 있는 한 주요 공급업체에 착륙하는 것입니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 4%, 2%, $187.25 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MU",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "MU에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "4%",
-            "2%",
-            "$187.25",
-            "$1,675.08",
-            "0.3%",
-            "$1,066.91.",
-            "0.6%",
-            "274%"
-          ],
-          "sourceExcerpt": [
-            "SK Hynix Falls 4% on Earnings Caution Before a Rebalancing Goldman Says Favors It; SanDisk Slips 2%, Micron Holds Firm - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,835.80 +0.62% Dow Jones 51,602.50 +0.46% Nasdaq 100 31,288.50 +0.50% Russell 2000 2,834.20 −0.69% S&P 500 7,835.80 +0.62% Dow Jones 51,602.50 +0.46% Nasdaq 100 31,288.50 +0.50% Russell 2000 2,834.20 −0.",
-            "𝕏 f ⧉ © Stockcrafterpro / Shutterstock.com Memory chip stocks are trading on reporting risk, and the biggest selling is landing on the one major supplier that still has a quarter to report."
-          ],
-          "analysisUpdatedAt": 1791322320.7351186
-        }
-      },
-      {
-        "headline": "Western Digital Sinks 6% as Toshiba’s Drive Expansion Hits the Group; Seagate Drops 8%, Micron Holds Flat",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=11074b2fd5407e2ce70b7bff5652619813f1de40dd70c8785403a1e2e28b9b79",
-        "datetime": 1791301929,
-        "headlineKo": "Toshiba의 드라이브 확장이 그룹을 강타함에 따라 Western Digital이 6% 하락했습니다. Seagate는 8% 하락, Micron은 보합세 유지",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "공급망 · 생산 차질 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Toshiba의 드라이브 확장이 그룹을 강타함에 따라 Western Digital은 6% 하락했습니다. Seagate 하락 8%, Micron은 보합세 유지 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,835.80 +0.62% Dow Jones 51,602.50 +0.46% Nasdaq 100 31,288.50 +0.50% Russell 2000 2,834.20 −0.69% S&P 500 7,835.80 +0.62% 다우존스 51,602.50 +0.46% 나스닥 100 31,288.50 +0.50% 러셀 2000 2,834.20 −0.",
-            "오늘날 스토리지 재고는 메모리 칩 이름을 그대로 유지하면서 어려움을 겪고 있으며, 분할은 매도가 진정한 공급 두려움을 반영하는지 아니면 거래 자체에 숨어 있는 무엇인가에 대한 날카로운 질문을 제기합니다."
-          ],
-          "why": [
-            "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 6%, 8%, $414.65 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "주문은 있어도 부품이나 생산 문제로 제때 팔지 못할 수 있다는 뉴스입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MU",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "출하 지연 기간",
-            "재고와 리드타임",
-            "매출총이익률·대체 공급처"
-          ],
-          "interpretation": "MU에 대한 공급망 · 생산 차질 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "6%",
-            "8%",
-            "$414.65",
-            "$819.08,",
-            "0.3%",
-            "$1,067.02,",
-            "2%",
-            "0.8%"
-          ],
-          "sourceExcerpt": [
-            "Western Digital Sinks 6% as Toshiba's Drive Expansion Hits the Group; Seagate Drops 8%, Micron Holds Flat - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,835.80 +0.62% Dow Jones 51,602.50 +0.46% Nasdaq 100 31,288.50 +0.50% Russell 2000 2,834.20 −0.69% S&P 500 7,835.80 +0.62% Dow Jones 51,602.50 +0.46% Nasdaq 100 31,288.50 +0.50% Russell 2000 2,834.20 −0.",
-            "storage stocks hard today while leaving memory chip names untouched, and the split raises a sharp question about whether the selloff reflects genuine supply fear or something hiding in the trade itself."
-          ],
-          "analysisUpdatedAt": 1791322324.605604
-        }
-      },
-      {
-        "headline": "Not Nvidia. Not Micron. If I Could Buy and Hold Only 1 Artificial Intelligence (AI) Chip Stock Through 2030, It Would be This One.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3f33a6af72c9567f9e0743bc2124c14d5b16042fb058ea6502e53ccb09e538fc",
-        "datetime": 1791300900,
-        "headlineKo": "엔비디아가 아닙니다. 마이크론이 아닙니다. 2030년까지 인공지능(AI) 칩 주식을 1개만 사고 보유할 수 있다면 이 주식이 될 것입니다.",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "공급망 · 생산 차질 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "2030년까지 인공지능(AI) 칩 주식을 1개만 사고 보유할 수 있다면 이 주식이 될 것입니다.",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 모델 훈련 클러스터를 구동하는 모든 GPU는 어딘가에 구축되어야 하며, 그 어딘가는 거의 항상 Tai가 운영하는 공장입니다.",
-            "Taiwan Semi는 헤드라인을 장식하는 인공지능(AI) 칩을 설계하지 않습니다."
-          ],
-          "why": [
-            "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.14%, 2.80%, 1.73% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "주문은 있어도 부품이나 생산 문제로 제때 팔지 못할 수 있다는 뉴스입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MU",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "출하 지연 기간",
-            "재고와 리드타임",
-            "매출총이익률·대체 공급처"
-          ],
-          "interpretation": "MU에 대한 공급망 · 생산 차질 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.14%",
-            "2.80%",
-            "1.73%",
-            "73%",
-            "90%",
-            "50%",
-            "25%",
-            "0.72 %"
-          ],
-          "sourceExcerpt": [
-            "If I Could Buy and Hold Only 1 Artificial Intelligence (AI) Chip Stock Through 2030, It Would be This One.",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Every GPU that powers a model training cluster has to be built somewhere, and that somewhere is almost always a fab operated by Tai",
-            "Taiwan Semi does not design the artificial intelligence (AI) chips that get the headlines."
-          ],
-          "analysisUpdatedAt": 1791322327.0190372
-        }
-      },
-      {
-        "headline": "How Has Micron's Story Changed?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2652b5cf850cfb57140300c68c70290a4e51fe6407e284558d2242db6e904f54",
-        "datetime": 1791296323,
-        "headlineKo": "마이크론의 이야기는 어떻게 바뀌었나요?",
-        "relevance": 0.5,
-        "keywordFlag": false
-      },
-      {
-        "headline": "Micron: Tighter Market Conditions Through 2028 Mean This Is A Great Buy",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=940c739a2557f1a471c6bebcf669d760ba9669171ac4f214addd9fa28818d144",
-        "datetime": 1791294182,
-        "headlineKo": "마이크론: 2028년까지 더욱 타이트한 시장 상황은 이것이 좋은 구매임을 의미합니다",
-        "relevance": 0.5,
-        "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:45",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:54",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "SNDK": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-10-29",
       "hour": "",
@@ -184714,28 +184790,28 @@ const NEWS_DATA = {
     "_earnings_status": "ok",
     "news": [
       {
-        "headline": "SK Hynix Sinks 4% as Seoul Selloff Revives AI Spending Fears; SanDisk Drops 3%, Micron Eases",
+        "headline": "Not Micron. Not Sandisk. This Storage Stock Is Riding the Same AI Infrastructure Wave.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8726e579aa0e69836d74ddb9c4077f531ab99020418ea320d926351a7c2ec603",
-        "datetime": 1792503044,
+        "url": "https://finnhub.io/api/news?id=70d3e1d0872b6ee59b501ee3152b6d9ed8027582e16905468d03a356033ce027",
+        "datetime": 1792517700,
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "medium",
-          "tone": "risk",
+          "tone": "positive",
           "certainty": "본문 기반 간이 분석",
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "SK하이닉스, 서울 매각으로 AI 지출 공포 다시 살아나면서 4% 하락 SanDisk 하락 3%, Micron 완화 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% 다우존스 52,602.00 +1.07% 나스닥 100 29,665.80 +0.27% 러셀 2000 2,776.94 +1.",
-            "다음 SK 하이닉스 수익 보고서에서 밝혀지는 내용이 최근 반등 여부를 결정할 수 있습니다. 작성자: David Moadel 게시일: 2026년 10월 20일 오전 9시 30분(ET) · 3분 읽기 Market Movers 데스크."
+            "이 스토리지 주식은 동일한 AI 인프라 물결을 타고 있습니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 인공지능(AI) 인프라 주식의 경우 마이크론 테크놀로지(Micron Technology)와 샌디스크(Sandisk)가 많은 관심을 받아왔습니다.",
+            "두 회사 모두 AI 데이터 센터의 글로벌 확장으로 인한 메모리 및 스토리지에 대한 막대한 수요로 인해 이익을 얻고 있습니다."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 4%, 3%, $137.03, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 3.44%, 100%, 87% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "SNDK의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -184759,93 +184835,29 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "4%",
-            "3%",
-            "$137.03,",
-            "$1,336.86.",
-            "2%",
-            "$886.64,",
-            "$46.75,",
-            "0.5%"
+            "3.44%",
+            "100%",
+            "87%",
+            "70%",
+            "$364.32",
+            "$12.11",
+            "$131.84",
+            "$342.50"
           ],
           "sourceExcerpt": [
-            "SK Hynix Sinks 4% as Seoul Selloff Revives AI Spending Fears; SanDisk Drops 3%, Micron Eases - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.",
-            "What the next SK Hynix earnings report reveals could determine whether the recent rebound… By David Moadel Published October 20, 2026, 9:30am ET · 3 min read Market Movers desk."
+            "This Storage Stock Is Riding the Same AI Infrastructure Wave.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool When it comes to artificial intelligence (AI) infrastructure stocks, Micron Technology and Sandisk have been getting plenty of atte",
+            "Both are benefiting from the massive demand for memory and storage driven by the global expansion of AI data centers."
           ],
-          "analysisUpdatedAt": 1792507511.5476842
+          "analysisUpdatedAt": 1792529667.6920605
         },
-        "headlineKo": "SK하이닉스, 서울 매각으로 AI 지출 공포 다시 살아나면서 4% 하락 SanDisk 하락 3%, Micron 완화"
+        "headlineKo": "마이크론이 아닙니다. 샌디스크가 아닙니다. 이 스토리지 주식은 동일한 AI 인프라 물결을 타고 있습니다."
       },
       {
-        "headline": "Cramer warns SanDisk and Western Digital are worst stocks if data center capacity shrinks",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=02effdae69d202ca0ef91538f492a96670a5bc3261c42e6c6ffaf666292f3f54",
-        "datetime": 1792495521,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Cramer는 데이터 센터 용량이 줄어들면 SanDisk와 Western Digital이 최악의 주식이라고 경고합니다. - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% 다우존스 52,602.00 +1.07% 나스닥 100 29,665.80 +0.27% 러셀 2000 2,776.94 +1.",
-            "작성자: Omor Ibne Ehsan 2026년 10월 20일 오전 7시 25분(동부 표준시) 게시 · 4분 읽음 𝕏 f ⧉ © Jimcramerphoto( CC BY 2.0 ) by Tulane Public Relations SanDisk( NASDAQ:SNDK | SNDK Price Prediction )는 10월 19일 $1,371.12로 마감되어 5.53% 상승했으며 Western D"
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $1,371.12, 5.53%, 6.09% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "SNDK의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "SNDK",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "SNDK에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$1,371.12",
-            "5.53%",
-            "6.09%",
-            "$352.21.",
-            "477.61%",
-            "104.68%",
-            "$115.948 billion",
-            "$175 billion"
-          ],
-          "sourceExcerpt": [
-            "Cramer warns SanDisk and Western Digital are worst stocks if data center capacity shrinks - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.",
-            "By Omor Ibne Ehsan Published October 20, 2026, 7:25am ET · 4 min read 𝕏 f ⧉ © Jimcramerphoto ( CC BY 2.0 ) by Tulane Public Relations SanDisk ( NASDAQ:SNDK | SNDK Price Prediction ) closed at $1,371.12 on October 19, up 5.53%, and Western D"
-          ],
-          "analysisUpdatedAt": 1792507515.8547847
-        },
-        "headlineKo": "Cramer는 데이터 센터 용량이 줄어들면 SanDisk와 Western Digital이 최악의 주식이라고 경고합니다."
-      },
-      {
-        "headline": "Sandisk, Datadog, Amazon Lead S&P 500 As AI Stocks Rebound",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6ac09fd8226d2dfa8ca863bc99fe2bc50972d453fb7adfef6ba028c2e9f58c70",
-        "datetime": 1792440900,
+        "headline": "Sandisk Stock: The Market Is Panicking - I'm Not Selling",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=32ab23df70c6279dfe011ce12e20da18d803448182313256b6801ecfdcb9087a",
+        "datetime": 1792503318,
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
@@ -184857,7 +184869,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Sandisk, Datadog, Amazon Lead S&P 500 As AI Stocks Rebound",
+            "Sandisk Stock: The Market Is Panicking - I'm Not Selling",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -184881,46 +184893,24 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 SNDK의 사업과 관련된 'Sandisk, Datadog, Amazon Lead S&P 500 As AI Stocks Rebound' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 SNDK의 사업과 관련된 'Sandisk Stock: The Market Is Panicking - I'm Not Selling' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "SNDK 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.67,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507518.471744
+          "analysisUpdatedAt": 1792529668.5323873
         },
-        "headlineKo": "AI 주식 반등으로 Sandisk, Datadog, Amazon 선두 S&P 500"
+        "headlineKo": "Sandisk 주식: 시장이 패닉에 빠졌습니다. 나는 팔지 않을 것입니다."
       },
-      {
-        "headline": "Micron (MU) vs. Sandisk (SNDK): Is the Smaller Factory Bill Really an Advantage?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f5f692e3c5060c1b942c0c51a1c5a8f72e1eb4a5118405a858315e38c8c6351a",
-        "datetime": 1792436304,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Micron(MU) 대 Sandisk(SNDK): 소규모 공장 비용이 실제로 이점이 있습니까?"
-      },
-      {
-        "headline": "Sandisk (SNDK)  vs. Texas Instruments (TXN): How Much Cash-Yield Protection Does Memory Offer?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1a4876a49aaec6fcfab8da5b87e55d19c45c6c7a2065be6d4add41fc37a9494a",
-        "datetime": 1792436251,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Sandisk(SNDK)와 Texas Instruments(TXN): 메모리는 어느 정도의 현금 수익률 보호를 제공합니까?"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "SK Hynix Sinks 4% as Seoul Selloff Revives AI Spending Fears; SanDisk Drops 3%, Micron Eases",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8726e579aa0e69836d74ddb9c4077f531ab99020418ea320d926351a7c2ec603",
         "datetime": 1792503044,
-        "headlineKo": "SK하이닉스, 서울 매각으로 AI 지출 공포 다시 살아나면서 4% 하락 SanDisk 하락 3%, Micron 완화",
         "relevance": 0.67,
         "keywordFlag": false,
+        "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "medium",
@@ -184930,7 +184920,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "SK하이닉스, 서울 매각으로 AI 지출 공포 다시 살아나면서 4% 하락 SanDisk 하락 3%, Micron 완화 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% 다우존스 52,602.00 +1.07% 나스닥 100 29,665.80 +0.27% 러셀 2000 2,776.94 +1.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% 다우존스 52,632.50 +1.13% 나스닥 100 29,606.60 +0.07% 러셀 2000 2,779.59 +1.",
             "다음 SK 하이닉스 수익 보고서에서 밝혀지는 내용이 최근 반등 여부를 결정할 수 있습니다. 작성자: David Moadel 게시일: 2026년 10월 20일 오전 9시 30분(ET) · 3분 읽기 Market Movers 데스크."
           ],
           "why": [
@@ -184970,11 +184960,218 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "SK Hynix Sinks 4% as Seoul Selloff Revives AI Spending Fears; SanDisk Drops 3%, Micron Eases - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.",
+            "Skip to content ❚❚ At close S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.",
             "What the next SK Hynix earnings report reveals could determine whether the recent rebound… By David Moadel Published October 20, 2026, 9:30am ET · 3 min read Market Movers desk."
           ],
-          "analysisUpdatedAt": 1792507511.5476842
+          "analysisUpdatedAt": 1792529670.9689114
+        },
+        "headlineKo": "SK하이닉스, 서울 매각으로 AI 지출 공포 다시 살아나면서 4% 하락 SanDisk 하락 3%, Micron 완화"
+      },
+      {
+        "headline": "Sandisk Q1 Preview: Here's What Is Coming On October 29",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=cc5a94bbbc053145ebdcf379c1305d644bd7ad4ff676e11a9b395e381edc7362",
+        "datetime": 1792497615,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Sandisk Q1 미리보기: 10월 29일에 예정된 내용은 다음과 같습니다."
+      },
+      {
+        "headline": "Cramer warns SanDisk and Western Digital are worst stocks if data center capacity shrinks",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=02effdae69d202ca0ef91538f492a96670a5bc3261c42e6c6ffaf666292f3f54",
+        "datetime": 1792495521,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Cramer는 데이터 센터 용량이 줄어들면 SanDisk와 Western Digital이 최악의 주식이라고 경고합니다."
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Not Micron. Not Sandisk. This Storage Stock Is Riding the Same AI Infrastructure Wave.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=70d3e1d0872b6ee59b501ee3152b6d9ed8027582e16905468d03a356033ce027",
+        "datetime": 1792517700,
+        "headlineKo": "마이크론이 아닙니다. 샌디스크가 아닙니다. 이 스토리지 주식은 동일한 AI 인프라 물결을 타고 있습니다.",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "이 스토리지 주식은 동일한 AI 인프라 물결을 타고 있습니다.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 인공지능(AI) 인프라 주식의 경우 마이크론 테크놀로지(Micron Technology)와 샌디스크(Sandisk)가 많은 관심을 받아왔습니다.",
+            "두 회사 모두 AI 데이터 센터의 글로벌 확장으로 인한 메모리 및 스토리지에 대한 막대한 수요로 인해 이익을 얻고 있습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 3.44%, 100%, 87% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "SNDK의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "SNDK",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "SNDK에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "3.44%",
+            "100%",
+            "87%",
+            "70%",
+            "$364.32",
+            "$12.11",
+            "$131.84",
+            "$342.50"
+          ],
+          "sourceExcerpt": [
+            "This Storage Stock Is Riding the Same AI Infrastructure Wave.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool When it comes to artificial intelligence (AI) infrastructure stocks, Micron Technology and Sandisk have been getting plenty of atte",
+            "Both are benefiting from the massive demand for memory and storage driven by the global expansion of AI data centers."
+          ],
+          "analysisUpdatedAt": 1792529667.6920605
         }
+      },
+      {
+        "headline": "Sandisk Stock: The Market Is Panicking - I'm Not Selling",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=32ab23df70c6279dfe011ce12e20da18d803448182313256b6801ecfdcb9087a",
+        "datetime": 1792503318,
+        "headlineKo": "Sandisk 주식: 시장이 패닉에 빠졌습니다. 나는 팔지 않을 것입니다.",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Sandisk Stock: The Market Is Panicking - I'm Not Selling",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "SNDK",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 SNDK의 사업과 관련된 'Sandisk Stock: The Market Is Panicking - I'm Not Selling' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "SNDK 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529668.5323873
+        }
+      },
+      {
+        "headline": "SK Hynix Sinks 4% as Seoul Selloff Revives AI Spending Fears; SanDisk Drops 3%, Micron Eases",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8726e579aa0e69836d74ddb9c4077f531ab99020418ea320d926351a7c2ec603",
+        "datetime": 1792503044,
+        "headlineKo": "SK하이닉스, 서울 매각으로 AI 지출 공포 다시 살아나면서 4% 하락 SanDisk 하락 3%, Micron 완화",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "SK하이닉스, 서울 매각으로 AI 지출 공포 다시 살아나면서 4% 하락 SanDisk 하락 3%, Micron 완화 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% 다우존스 52,632.50 +1.13% 나스닥 100 29,606.60 +0.07% 러셀 2000 2,779.59 +1.",
+            "다음 SK 하이닉스 수익 보고서에서 밝혀지는 내용이 최근 반등 여부를 결정할 수 있습니다. 작성자: David Moadel 게시일: 2026년 10월 20일 오전 9시 30분(ET) · 3분 읽기 Market Movers 데스크."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 4%, 3%, $137.03, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "SNDK의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "SNDK",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "SNDK에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "4%",
+            "3%",
+            "$137.03,",
+            "$1,336.86.",
+            "2%",
+            "$886.64,",
+            "$46.75,",
+            "0.5%"
+          ],
+          "sourceExcerpt": [
+            "SK Hynix Sinks 4% as Seoul Selloff Revives AI Spending Fears; SanDisk Drops 3%, Micron Eases - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.",
+            "What the next SK Hynix earnings report reveals could determine whether the recent rebound… By David Moadel Published October 20, 2026, 9:30am ET · 3 min read Market Movers desk."
+          ],
+          "analysisUpdatedAt": 1792529670.9689114
+        }
+      },
+      {
+        "headline": "Sandisk Q1 Preview: Here's What Is Coming On October 29",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=cc5a94bbbc053145ebdcf379c1305d644bd7ad4ff676e11a9b395e381edc7362",
+        "datetime": 1792497615,
+        "headlineKo": "Sandisk Q1 미리보기: 10월 29일에 예정된 내용은 다음과 같습니다.",
+        "relevance": 0.67,
+        "keywordFlag": false
       },
       {
         "headline": "Cramer warns SanDisk and Western Digital are worst stocks if data center capacity shrinks",
@@ -193530,102 +193727,21 @@ const NEWS_DATA = {
           ],
           "analysisUpdatedAt": 1790107446.77062
         }
-      },
-      {
-        "headline": "Analyst Says Sandisk to Hit $2,400 as NAND Flash Becomes Critical AI Infrastructure",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=19166d4e625cad024165f2a8281aa2ec41a57f7ad48b425e1eb6e9e0a21cf55b",
-        "datetime": 1790091671,
-        "headlineKo": "분석가는 NAND 플래시가 중요한 AI 인프라가 되면서 Sandisk가 2,400달러를 기록할 것이라고 말합니다.",
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "주식 희석 · 주당가치 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "분석가는 NAND 플래시가 중요한 AI 인프라가 되면서 Sandisk가 2,400달러를 기록할 것이라고 말합니다. - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,786.30 +0.15% Dow Jones 52,005.40 −0.24% Nasdaq 100 30,765.00 +0.80% Russell 2000 2,898.61 +0.64% S&P 500 7,786.30 +0.15% 다우존스 52,005.40 −0.24% 나스닥 100 30,765.00 +0.80% 러셀 2000 2,898.61 +0.",
-            "논쟁은 NAND 플래시가 영구적으로 변경되었는지 여부에 중점을 둡니다. 작성자: Rich Duprey 게시일: 2026년 9월 22일 오전 11:41(ET) · 읽기 3분 𝕏 f ⧉ 다이어그램은 HBM, DRAM, eSSD 및 NAND와 같은 중요한 하드웨어 구성 요소를 보여줍니다."
-          ],
-          "why": [
-            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $2,400, 698.69%, 10 times — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "SNDK의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "SNDK",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "신규 주식 수·행사가격",
-            "조달 자금 사용처",
-            "완전희석 주식수와 EPS"
-          ],
-          "interpretation": "SNDK에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$2,400",
-            "698.69%",
-            "10 times",
-            "65%",
-            "$8.965 billion",
-            "371.59%",
-            "$39.25",
-            "$33.28"
-          ],
-          "sourceExcerpt": [
-            "Analyst Says Sandisk to Hit $2,400 as NAND Flash Becomes Critical AI Infrastructure - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,786.30 +0.15% Dow Jones 52,005.40 −0.24% Nasdaq 100 30,765.00 +0.80% Russell 2000 2,898.61 +0.64% S&P 500 7,786.30 +0.15% Dow Jones 52,005.40 −0.24% Nasdaq 100 30,765.00 +0.80% Russell 2000 2,898.61 +0.",
-            "The argument centers on whether NAND flash has permanently changed its… By Rich Duprey Published September 22, 2026, 11:41am ET · 3 min read 𝕏 f ⧉ The diagram illustrates the critical hardware components like HBM, DRAM, eSSD, and NAND that "
-          ],
-          "analysisUpdatedAt": 1790107450.9788768
-        }
-      },
-      {
-        "headline": "Sandisk, GameStop, Viking Therapeutics, Vicor, On Holding, and More Stocks That Explain Today’s Market",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7da24aed4d4523e3321a1b9d0ecc2a2f57f2454132a79d2c31095913cd24673a",
-        "datetime": 1790088900,
-        "headlineKo": "Sandisk, GameStop, Viking Therapeutics, Vicor, On Holding 및 오늘날 시장을 설명하는 기타 주식",
-        "relevance": 0.67,
-        "keywordFlag": false
-      },
-      {
-        "headline": "Sandisk Stock Is Up 644% This Year. Why the Stock Isn’t Done Rising.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=edac86a0f493b4521ccd41c5faf356b1cc5291f79f578607ec1bd6ce52c63488",
-        "datetime": 1790085540,
-        "headlineKo": "샌디스크 주가는 올해 644% 상승했다. 주식이 계속 상승하지 않는 이유",
-        "relevance": 0.67,
-        "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:45",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:54",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "WDC": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-10-22",
       "hour": "amc",
@@ -193680,7 +193796,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507528.7196763
+          "analysisUpdatedAt": 1792529677.2372715
         },
         "headlineKo": "어제 큰 움직임을 보인 주식: Datadog, SolarEdge, AMD, Western Digital 및 Amazon"
       },
@@ -193729,7 +193845,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507531.4707596
+          "analysisUpdatedAt": 1792529679.2770426
         },
         "headlineKo": "Morgan Stanley, Western Digital 목표 축소, HDD 매각 속에 Seagate 인상"
       },
@@ -193779,7 +193895,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507533.273224
+          "analysisUpdatedAt": 1792529681.5901027
         },
         "headlineKo": "80% 상승여력? Morgan Stanley가 망가진 Seagate 및 Western Digital 주식에 대해 문제를 제기하는 이유"
       },
@@ -193851,7 +193967,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507528.7196763
+          "analysisUpdatedAt": 1792529677.2372715
         }
       },
       {
@@ -193899,7 +194015,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507531.4707596
+          "analysisUpdatedAt": 1792529679.2770426
         }
       },
       {
@@ -193948,7 +194064,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507533.273224
+          "analysisUpdatedAt": 1792529681.5901027
         }
       },
       {
@@ -199791,19 +199907,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:45",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:54",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "ANET": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "amc",
@@ -199876,7 +199992,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507542.031917
+          "analysisUpdatedAt": 1792529686.5002143
         },
         "headlineKo": "Open AI 랙 출시로 인해 Arista Networks 주식에 대한 투자 사례가 바뀌고 있습니까?"
       },
@@ -199940,7 +200056,7 @@ const NEWS_DATA = {
             "Here’s What the Selloff Missed and Where the Stock Could Go by 2030 | TIKR.com Stock Reviews Arista Networks Stock Fell 18% From Its Record in One Week.",
             "Here’s What the Selloff Missed and Where the Stock Could Go by 2030 Wiltone Asuncion • 5 minute read Reviewed by: David Hanson Last updated Oct 20, 2026 @Kittipong Jirasukhanont from PhonlamaiPhoto's Images via Canva, @Vladimir_Timofeev fro"
           ],
-          "analysisUpdatedAt": 1792507546.4141364
+          "analysisUpdatedAt": 1792529688.6618402
         },
         "headlineKo": "Arista Networks 주식은 일주일 만에 기록 대비 18% 하락했습니다. 매도가 놓친 부분과 2030년까지 주식이 어디로 갈 수 있는지는 다음과 같습니다."
       },
@@ -200003,7 +200119,7 @@ const NEWS_DATA = {
             "A price that high acts as a bet that Arista’s profits will keep growing fast for years.",
             "Anyone stepping in now is also buying after a recent decline."
           ],
-          "analysisUpdatedAt": 1792507549.7416997
+          "analysisUpdatedAt": 1792529691.7167003
         },
         "headlineKo": "Arista Networks는 시장을 4배로 앞지르며 성장하고 있습니다: 다음에 주목해야 할 사항"
       },
@@ -200093,7 +200209,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507542.031917
+          "analysisUpdatedAt": 1792529686.5002143
         }
       },
       {
@@ -200156,7 +200272,7 @@ const NEWS_DATA = {
             "Here’s What the Selloff Missed and Where the Stock Could Go by 2030 | TIKR.com Stock Reviews Arista Networks Stock Fell 18% From Its Record in One Week.",
             "Here’s What the Selloff Missed and Where the Stock Could Go by 2030 Wiltone Asuncion • 5 minute read Reviewed by: David Hanson Last updated Oct 20, 2026 @Kittipong Jirasukhanont from PhonlamaiPhoto's Images via Canva, @Vladimir_Timofeev fro"
           ],
-          "analysisUpdatedAt": 1792507546.4141364
+          "analysisUpdatedAt": 1792529688.6618402
         }
       },
       {
@@ -200218,7 +200334,7 @@ const NEWS_DATA = {
             "A price that high acts as a bet that Arista’s profits will keep growing fast for years.",
             "Anyone stepping in now is also buying after a recent decline."
           ],
-          "analysisUpdatedAt": 1792507549.7416997
+          "analysisUpdatedAt": 1792529691.7167003
         }
       },
       {
@@ -204749,19 +204865,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:45",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:54",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "COHR": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-11-04",
       "hour": "",
@@ -204770,6 +204886,70 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "3M Jumps 6% on Expanded Amazon Data Center Deal and Earnings Beat; Coherent Edges Higher, Corning Stays Flat",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6129f56cc87faa8ab520b296dffab50edcea140b5d320765804380efcaa18679",
+        "datetime": 1792508325,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "주식 희석 · 주당가치 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "3M, 확장된 Amazon 데이터 센터 거래로 6% 증가 및 수익 개선 일관된 가장자리는 더 높아지고 코닝은 평탄한 상태를 유지합니다 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% 다우존스 52,632.50 +1.13% 나스닥 100 29,606.60 +0.07% 러셀 2000 2,779.59 +1.",
+            "David Moadel 작성: 2026년 10월 20일 오전 10시 58분(동부 표준시) · 3분 읽기 𝕏 f ⧉ © Arsenii Palivoda / Shutterstock.com 3M( ​​NYSE:MMM | MMM Price Prediction ) 주가는 투자자들이 확장된 Amazon( NASDAQ:AMZN ) 데이터에 무게를 두면서 6% 상승한 $171.91로 올랐습니다."
+          ],
+          "why": [
+            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 6%, $171.91, 1.33% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "COHR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "COHR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "신규 주식 수·행사가격",
+            "조달 자금 사용처",
+            "완전희석 주식수와 EPS"
+          ],
+          "interpretation": "COHR에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "6%",
+            "$171.91",
+            "1.33%",
+            "$235.11,",
+            "0.21%",
+            "$132.46.",
+            "$164.89",
+            "85%"
+          ],
+          "sourceExcerpt": [
+            "3M Jumps 6% on Expanded Amazon Data Center Deal and Earnings Beat; Coherent Edges Higher, Corning Stays Flat - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.",
+            "By David Moadel Published October 20, 2026, 10:58am ET · 3 min read 𝕏 f ⧉ © Arsenii Palivoda / Shutterstock.com 3M ( NYSE:MMM | MMM Price Prediction ) stock jumped 6% to $171.91 as investors weighed an expanded Amazon ( NASDAQ:AMZN ) data c"
+          ],
+          "analysisUpdatedAt": 1792529698.5418344
+        },
+        "headlineKo": "3M, 확장된 Amazon 데이터 센터 거래로 6% 증가 및 수익 개선 일관된 가장자리는 더 높고 코닝은 평탄함을 유지합니다."
+      },
       {
         "headline": "Is Coherent (COHR) Fairly Valued?",
         "source": "Yahoo",
@@ -204816,7 +204996,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507556.1041389
+          "analysisUpdatedAt": 1792529700.5341184
         },
         "headlineKo": "Coherent(COHR)는 공정한 가치를 갖고 있나요?"
       },
@@ -204836,13 +205016,13 @@ const NEWS_DATA = {
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AI 섬유 부족으로 인한 가격 상승에 초점을 맞춘 GLW, VZ, COHR - TrendForce는 2028년까지 공급 위기를 확인합니다. AI 에이전트 동향 뉴스 수익 전체 DIA 1.27% SPY 0.66% QQQ 0.45% 추세 CRWV 5.20% USO 2.78% DJT 1.55% LLY 4.75% QQQ 0.45% PFE",
+            "AI 섬유 부족으로 인한 가격 상승에 초점을 맞춘 GLW, VZ, COHR - TrendForce는 2028년까지 공급 위기를 예상합니다. AI 에이전트 동향 뉴스 수익 전체 DIA 1.19% SPY 0.59% QQQ 0.39% 추세 SPCX 4.19% NFLX 6.73% SMCI 12.43% SLS 14.20% ISRG 5.19%",
             "AI 광케이블 부족으로 인해 가격이 상승함에 따라 GLW, VZ, COHR에 주목 - TrendForce는 2028년까지 공급 위기를 예측",
             "광섬유 케이블의 단일 광섬유를 사용하면 매우 빠른 데이터 전송이 가능합니다.(Oed/ullstein bild via Getty Images) Harshita Tyagi · Stocktwits 게시일: 2026년 10월 19일 | 오후 1시 9분(EDT) 공유 · TrendForce에 우리를 추가해 전 세계적인 선택을 예측합니다"
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 1.27%, 0.66%, 0.45% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.19%, 0.59%, 0.39% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "COHR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -204866,21 +205046,21 @@ const NEWS_DATA = {
           "relevance": 1.0,
           "quality": "medium",
           "verifiedNumbers": [
-            "1.27%",
-            "0.66%",
-            "0.45%",
-            "5.20%",
-            "2.78%",
-            "1.55%",
-            "4.75%",
-            "1.89%"
+            "1.19%",
+            "0.59%",
+            "0.39%",
+            "4.19%",
+            "6.73%",
+            "12.43%",
+            "14.20%",
+            "5.19%"
           ],
           "sourceExcerpt": [
-            "GLW, VZ, COHR In Focus As AI Fiber Shortage Drives Prices Higher — TrendForce Sees Supply Crunch Through 2028 AI Agent Trending News Earnings All DIA 1.27% SPY 0.66% QQQ 0.45% Trending CRWV 5.20% USO 2.78% DJT 1.55% LLY 4.75% QQQ 0.45% PFE ",
+            "GLW, VZ, COHR In Focus As AI Fiber Shortage Drives Prices Higher — TrendForce Sees Supply Crunch Through 2028 AI Agent Trending News Earnings All DIA 1.19% SPY 0.59% QQQ 0.39% Trending SPCX 4.19% NFLX 6.73% SMCI 12.43% SLS 14.20% ISRG 5.19%",
             "GLW, VZ, COHR In Focus As AI Fiber Shortage Drives Prices Higher — TrendForce Sees Supply Crunch Through 2028 Global optical fiber demand is projected to reach 577 million fiber-kilometers in 2026, with data centers accounting for a growing",
             "single fibers of a fiber optic cable, they enable extremly fast data transfer.(Photo by Oed/ullstein bild via Getty Images) Harshita Tyagi · Stocktwits Published Oct 19, 2026 | 1:09 PM EDT Share · Add us on TrendForce forecasts a global opt"
           ],
-          "analysisUpdatedAt": 1792507559.756225
+          "analysisUpdatedAt": 1792529705.1515625
         },
         "headlineKo": "AI 섬유 부족으로 인해 가격이 상승함에 따라 GLW, VZ, COHR에 주목 - TrendForce는 2028년까지 공급 위기를 예상"
       },
@@ -204892,60 +205072,6 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "실적에 앞서 광학 주식 반등: Applied Optoelectronics는 5% 상승, Lumentum은 4% 추가, Coherent는 2% 상승 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% 다우존스 52,602.00 +1.07% 나스닥 100 29,665.80 +0.27% 러셀 2000 2,776.94 +1.",
-            "© Shutterstock Applied Optoelectronics ( NASDAQ:AAOI ) 주가는 다가오는 수익 보고서를 앞두고 광학 분야의 이름이 상승함에 따라 월요일에 5% 상승한 79.01달러를 기록했습니다."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 5%, 4%, 2% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "COHR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "COHR",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "COHR에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "5%",
-            "4%",
-            "2%",
-            "$79.01",
-            "$856.18,",
-            "$236.93.",
-            "$20.20.",
-            "70%"
-          ],
-          "sourceExcerpt": [
-            "Optics Stocks Rally Ahead of Earnings: Applied Optoelectronics Jumps 5%, Lumentum Adds 4%, Coherent Rises 2% - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.",
-            "© Shutterstock Applied Optoelectronics ( NASDAQ:AAOI ) stock jumped 5% to $79.01 on Monday as optics names advanced ahead of upcoming earnings reports."
-          ],
-          "analysisUpdatedAt": 1792507563.4347806
-        },
         "headlineKo": "실적에 앞서 광학 주식 랠리: Applied Optoelectronics 5% 점프, Lumentum 4% 추가, Coherent 2% 상승"
       },
       {
@@ -204957,19 +205083,72 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Coherent(COHR)는 CPO 채택에 시간이 걸리더라도 AI 네트워킹의 이점을 누릴 수 있습니다."
-      },
-      {
-        "headline": "What to Expect From Coherent's Next Quarterly Earnings Report",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=acb0d25170eb978c9fef642157ca2ad50cd6bbfbfe776e6fb98c39ea0d035ec9",
-        "datetime": 1792407569,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Coherent의 다음 분기별 수익 보고서에서 기대할 수 있는 사항"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "3M Jumps 6% on Expanded Amazon Data Center Deal and Earnings Beat; Coherent Edges Higher, Corning Stays Flat",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6129f56cc87faa8ab520b296dffab50edcea140b5d320765804380efcaa18679",
+        "datetime": 1792508325,
+        "headlineKo": "3M, 확장된 Amazon 데이터 센터 거래로 6% 증가 및 수익 개선 일관된 가장자리는 더 높고 코닝은 평탄함을 유지합니다.",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "주식 희석 · 주당가치 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "3M, 확장된 Amazon 데이터 센터 거래로 6% 증가 및 수익 개선 일관된 가장자리는 더 높아지고 코닝은 평탄한 상태를 유지합니다 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% 다우존스 52,632.50 +1.13% 나스닥 100 29,606.60 +0.07% 러셀 2000 2,779.59 +1.",
+            "David Moadel 작성: 2026년 10월 20일 오전 10시 58분(동부 표준시) · 3분 읽기 𝕏 f ⧉ © Arsenii Palivoda / Shutterstock.com 3M( ​​NYSE:MMM | MMM Price Prediction ) 주가는 투자자들이 확장된 Amazon( NASDAQ:AMZN ) 데이터에 무게를 두면서 6% 상승한 $171.91로 올랐습니다."
+          ],
+          "why": [
+            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 6%, $171.91, 1.33% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "COHR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "COHR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "신규 주식 수·행사가격",
+            "조달 자금 사용처",
+            "완전희석 주식수와 EPS"
+          ],
+          "interpretation": "COHR에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "6%",
+            "$171.91",
+            "1.33%",
+            "$235.11,",
+            "0.21%",
+            "$132.46.",
+            "$164.89",
+            "85%"
+          ],
+          "sourceExcerpt": [
+            "3M Jumps 6% on Expanded Amazon Data Center Deal and Earnings Beat; Coherent Edges Higher, Corning Stays Flat - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.",
+            "By David Moadel Published October 20, 2026, 10:58am ET · 3 min read 𝕏 f ⧉ © Arsenii Palivoda / Shutterstock.com 3M ( NYSE:MMM | MMM Price Prediction ) stock jumped 6% to $171.91 as investors weighed an expanded Amazon ( NASDAQ:AMZN ) data c"
+          ],
+          "analysisUpdatedAt": 1792529698.5418344
+        }
+      },
       {
         "headline": "Is Coherent (COHR) Fairly Valued?",
         "source": "Yahoo",
@@ -205016,7 +205195,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507556.1041389
+          "analysisUpdatedAt": 1792529700.5341184
         }
       },
       {
@@ -205035,13 +205214,13 @@ const NEWS_DATA = {
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AI 섬유 부족으로 인한 가격 상승에 초점을 맞춘 GLW, VZ, COHR - TrendForce는 2028년까지 공급 위기를 확인합니다. AI 에이전트 동향 뉴스 수익 전체 DIA 1.27% SPY 0.66% QQQ 0.45% 추세 CRWV 5.20% USO 2.78% DJT 1.55% LLY 4.75% QQQ 0.45% PFE",
+            "AI 섬유 부족으로 인한 가격 상승에 초점을 맞춘 GLW, VZ, COHR - TrendForce는 2028년까지 공급 위기를 예상합니다. AI 에이전트 동향 뉴스 수익 전체 DIA 1.19% SPY 0.59% QQQ 0.39% 추세 SPCX 4.19% NFLX 6.73% SMCI 12.43% SLS 14.20% ISRG 5.19%",
             "AI 광케이블 부족으로 인해 가격이 상승함에 따라 GLW, VZ, COHR에 주목 - TrendForce는 2028년까지 공급 위기를 예측",
             "광섬유 케이블의 단일 광섬유를 사용하면 매우 빠른 데이터 전송이 가능합니다.(Oed/ullstein bild via Getty Images) Harshita Tyagi · Stocktwits 게시일: 2026년 10월 19일 | 오후 1시 9분(EDT) 공유 · TrendForce에 우리를 추가해 전 세계적인 선택을 예측합니다"
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 1.27%, 0.66%, 0.45% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.19%, 0.59%, 0.39% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "COHR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -205065,21 +205244,21 @@ const NEWS_DATA = {
           "relevance": 1.0,
           "quality": "medium",
           "verifiedNumbers": [
-            "1.27%",
-            "0.66%",
-            "0.45%",
-            "5.20%",
-            "2.78%",
-            "1.55%",
-            "4.75%",
-            "1.89%"
+            "1.19%",
+            "0.59%",
+            "0.39%",
+            "4.19%",
+            "6.73%",
+            "12.43%",
+            "14.20%",
+            "5.19%"
           ],
           "sourceExcerpt": [
-            "GLW, VZ, COHR In Focus As AI Fiber Shortage Drives Prices Higher — TrendForce Sees Supply Crunch Through 2028 AI Agent Trending News Earnings All DIA 1.27% SPY 0.66% QQQ 0.45% Trending CRWV 5.20% USO 2.78% DJT 1.55% LLY 4.75% QQQ 0.45% PFE ",
+            "GLW, VZ, COHR In Focus As AI Fiber Shortage Drives Prices Higher — TrendForce Sees Supply Crunch Through 2028 AI Agent Trending News Earnings All DIA 1.19% SPY 0.59% QQQ 0.39% Trending SPCX 4.19% NFLX 6.73% SMCI 12.43% SLS 14.20% ISRG 5.19%",
             "GLW, VZ, COHR In Focus As AI Fiber Shortage Drives Prices Higher — TrendForce Sees Supply Crunch Through 2028 Global optical fiber demand is projected to reach 577 million fiber-kilometers in 2026, with data centers accounting for a growing",
             "single fibers of a fiber optic cable, they enable extremly fast data transfer.(Photo by Oed/ullstein bild via Getty Images) Harshita Tyagi · Stocktwits Published Oct 19, 2026 | 1:09 PM EDT Share · Add us on TrendForce forecasts a global opt"
           ],
-          "analysisUpdatedAt": 1792507559.756225
+          "analysisUpdatedAt": 1792529705.1515625
         }
       },
       {
@@ -209154,19 +209333,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:46",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:55",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 85,
+      "checked": 86,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "LITE": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-11-05",
       "hour": "amc",
@@ -209235,7 +209414,7 @@ const NEWS_DATA = {
             "October 19th, 2026 · by Trefis Team LITE YTD +126.4% SPY YTD +13.0% QQQ YTD +17.2% Analyze LITE → Shares of Lumentum (LITE) fell 25.3% in the five trading sessions from October 9 to October 16, 2026.",
             "The S&P 500 lost 1.9% over the same stretch."
           ],
-          "analysisUpdatedAt": 1792507572.1188345
+          "analysisUpdatedAt": 1792529711.5767248
         },
         "headlineKo": "Lumentum 주식이 하락한 이유는 무엇입니까?"
       },
@@ -209256,7 +209435,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "실적에 앞서 광학 주식 반등: Applied Optoelectronics는 5% 상승, Lumentum은 4% 추가, Coherent는 2% 상승 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% 다우존스 52,602.00 +1.07% 나스닥 100 29,665.80 +0.27% 러셀 2000 2,776.94 +1.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% 다우존스 52,632.50 +1.13% 나스닥 100 29,606.60 +0.07% 러셀 2000 2,779.59 +1.",
             "© Shutterstock Applied Optoelectronics ( NASDAQ:AAOI ) 주가는 다가오는 수익 보고서를 앞두고 광학 분야의 이름이 상승함에 따라 월요일에 5% 상승한 79.01달러를 기록했습니다."
           ],
           "why": [
@@ -209296,10 +209475,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Optics Stocks Rally Ahead of Earnings: Applied Optoelectronics Jumps 5%, Lumentum Adds 4%, Coherent Rises 2% - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.",
+            "Skip to content ❚❚ At close S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.",
             "© Shutterstock Applied Optoelectronics ( NASDAQ:AAOI ) stock jumped 5% to $79.01 on Monday as optics names advanced ahead of upcoming earnings reports."
           ],
-          "analysisUpdatedAt": 1792507574.612268
+          "analysisUpdatedAt": 1792529714.002265
         },
         "headlineKo": "실적에 앞서 광학 주식 랠리: Applied Optoelectronics 5% 점프, Lumentum 4% 추가, Coherent 2% 상승"
       },
@@ -209349,7 +209528,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507576.8543873
+          "analysisUpdatedAt": 1792529716.0653064
         },
         "headlineKo": "Lumentum(LITE)이 수요를 충족할 수 없습니다. 가치 평가가 유지될 수 있는가?"
       },
@@ -209435,7 +209614,7 @@ const NEWS_DATA = {
             "October 19th, 2026 · by Trefis Team LITE YTD +126.4% SPY YTD +13.0% QQQ YTD +17.2% Analyze LITE → Shares of Lumentum (LITE) fell 25.3% in the five trading sessions from October 9 to October 16, 2026.",
             "The S&P 500 lost 1.9% over the same stretch."
           ],
-          "analysisUpdatedAt": 1792507572.1188345
+          "analysisUpdatedAt": 1792529711.5767248
         }
       },
       {
@@ -209455,7 +209634,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "실적에 앞서 광학 주식 반등: Applied Optoelectronics는 5% 상승, Lumentum은 4% 추가, Coherent는 2% 상승 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% 다우존스 52,602.00 +1.07% 나스닥 100 29,665.80 +0.27% 러셀 2000 2,776.94 +1.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% 다우존스 52,632.50 +1.13% 나스닥 100 29,606.60 +0.07% 러셀 2000 2,779.59 +1.",
             "© Shutterstock Applied Optoelectronics ( NASDAQ:AAOI ) 주가는 다가오는 수익 보고서를 앞두고 광학 분야의 이름이 상승함에 따라 월요일에 5% 상승한 79.01달러를 기록했습니다."
           ],
           "why": [
@@ -209495,10 +209674,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Optics Stocks Rally Ahead of Earnings: Applied Optoelectronics Jumps 5%, Lumentum Adds 4%, Coherent Rises 2% - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.62% S&P 500 7,744.80 +0.51% Dow Jones 52,602.00 +1.07% Nasdaq 100 29,665.80 +0.27% Russell 2000 2,776.94 +1.",
+            "Skip to content ❚❚ At close S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.71% S&P 500 7,739.80 +0.44% Dow Jones 52,632.50 +1.13% Nasdaq 100 29,606.60 +0.07% Russell 2000 2,779.59 +1.",
             "© Shutterstock Applied Optoelectronics ( NASDAQ:AAOI ) stock jumped 5% to $79.01 on Monday as optics names advanced ahead of upcoming earnings reports."
           ],
-          "analysisUpdatedAt": 1792507574.612268
+          "analysisUpdatedAt": 1792529714.002265
         }
       },
       {
@@ -209547,7 +209726,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507576.8543873
+          "analysisUpdatedAt": 1792529716.0653064
         }
       },
       {
@@ -214365,19 +214544,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:46",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:55",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "GEV": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -214431,7 +214610,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507582.622455
+          "analysisUpdatedAt": 1792529719.7033849
         },
         "headlineKo": "GE Vernova, 2029년 가동 예정인 코트디부아르의 372MW 송곤 발전소에 9E 가스 터빈 공급 주문 확보"
       },
@@ -214457,7 +214636,7 @@ const NEWS_DATA = {
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $1.7 trillion, $2.1 trillion, 0.40% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: $1.7 trillion, $2.1 trillion, 1.99% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "GEV의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -214483,19 +214662,19 @@ const NEWS_DATA = {
           "verifiedNumbers": [
             "$1.7 trillion",
             "$2.1 trillion",
-            "0.40%",
-            "0.64%",
+            "1.99%",
+            "0.08%",
             "25%",
             "$5 billion",
-            "$912.03",
-            "$3.59"
+            "$890.33",
+            "$18.11"
           ],
           "sourceExcerpt": [
             "Caterpillar: Which Has More Exposure to the AI Power Build-Out?",
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Technology companies are investing massively in artificial intelligence (AI) infrastructure, and analysts expect AI capital expendi",
             "This is driving huge sales for computing, power, cooling, and other related infrastructure needs for these next-generation data centers."
           ],
-          "analysisUpdatedAt": 1792507588.1847062
+          "analysisUpdatedAt": 1792529722.3458853
         },
         "headlineKo": "GE Vernova 대 Caterpillar: 어느 쪽이 AI 전력 증강에 더 많이 노출됩니까?"
       },
@@ -214559,7 +214738,7 @@ const NEWS_DATA = {
             "Here’s Where the Stock Could Go by 2030 | TIKR.com Stock Reviews GE Vernova Landed 5 Grid Equipment Reservations From Venture Global.",
             "Here’s Where the Stock Could Go by 2030 Wiltone Asuncion • 5 minute read Reviewed by: David Hanson Last updated Oct 16, 2026 @Ali Raza via Canva, @Tromp Willem van Urk via Canva K ey Stats for GE Vernova Stock Current Price: $926.44 Target "
           ],
-          "analysisUpdatedAt": 1792507590.9095635
+          "analysisUpdatedAt": 1792529724.5595584
         },
         "headlineKo": "GE Vernova는 Venture Global로부터 5개의 그리드 장비 예약을 받았습니다. 2030년까지 주식이 갈 수 있는 곳은 다음과 같습니다"
       },
@@ -214630,7 +214809,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507582.622455
+          "analysisUpdatedAt": 1792529719.7033849
         }
       },
       {
@@ -214655,7 +214834,7 @@ const NEWS_DATA = {
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $1.7 trillion, $2.1 trillion, 0.40% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: $1.7 trillion, $2.1 trillion, 1.99% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "GEV의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -214681,19 +214860,19 @@ const NEWS_DATA = {
           "verifiedNumbers": [
             "$1.7 trillion",
             "$2.1 trillion",
-            "0.40%",
-            "0.64%",
+            "1.99%",
+            "0.08%",
             "25%",
             "$5 billion",
-            "$912.03",
-            "$3.59"
+            "$890.33",
+            "$18.11"
           ],
           "sourceExcerpt": [
             "Caterpillar: Which Has More Exposure to the AI Power Build-Out?",
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Technology companies are investing massively in artificial intelligence (AI) infrastructure, and analysts expect AI capital expendi",
             "This is driving huge sales for computing, power, cooling, and other related infrastructure needs for these next-generation data centers."
           ],
-          "analysisUpdatedAt": 1792507588.1847062
+          "analysisUpdatedAt": 1792529722.3458853
         }
       },
       {
@@ -214756,7 +214935,7 @@ const NEWS_DATA = {
             "Here’s Where the Stock Could Go by 2030 | TIKR.com Stock Reviews GE Vernova Landed 5 Grid Equipment Reservations From Venture Global.",
             "Here’s Where the Stock Could Go by 2030 Wiltone Asuncion • 5 minute read Reviewed by: David Hanson Last updated Oct 16, 2026 @Ali Raza via Canva, @Tromp Willem van Urk via Canva K ey Stats for GE Vernova Stock Current Price: $926.44 Target "
           ],
-          "analysisUpdatedAt": 1792507590.9095635
+          "analysisUpdatedAt": 1792529724.5595584
         }
       },
       {
@@ -220477,19 +220656,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:46",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:55",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "CEG": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-11-04",
       "hour": "",
@@ -220498,6 +220677,56 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "CEG Stock Outperforms Industry in 3 Months: Time to Buy or Hold Now?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=dcbcb17be8be5a7be41b075c5ba2723e13c8392d8bc1c4a3e233e7e71275af4c",
+        "datetime": 1792504740,
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "CEG Stock Outperforms Industry in 3 Months: Time to Buy or Hold Now?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CEG",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CEG의 사업과 관련된 'CEG Stock Outperforms Industry in 3 Months: Time to Buy or Hold Now?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CEG 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529729.7860663
+        },
+        "headlineKo": "CEG 주식은 3개월 만에 업계를 능가합니다. 지금 매수해야 할까요 아니면 보유해야 할까요?"
+      },
       {
         "headline": "Is This Number The Biggest Risk To Constellation Energy Stock?",
         "source": "Yahoo",
@@ -220558,7 +220787,7 @@ const NEWS_DATA = {
             "| Trefis Is This Number The Biggest Risk To Constellation Energy Stock?",
             "October 19th, 2026 · by Trefis Team CEG YTD -25.2% SPY YTD +13.0% XLU YTD -1.8% Analyze CEG → Anyone analyzing Constellation Energy (CEG) should look at its debt load first."
           ],
-          "analysisUpdatedAt": 1792507599.2295203
+          "analysisUpdatedAt": 1792529733.1045027
         },
         "headlineKo": "이 숫자가 별자리 에너지 주식에 대한 가장 큰 위험입니까?"
       },
@@ -220608,7 +220837,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507601.7161822
+          "analysisUpdatedAt": 1792529735.418677
         },
         "headlineKo": "월스트리트 분석가들은 Constellation Energy Corporation(CEG)이 25.22% 상승할 수 있다고 믿습니다: 거래 방법은 다음과 같습니다."
       },
@@ -220620,60 +220849,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Constellation Energy: 2026년에 AI 기반 매수에 적합한 에너지 주식은 무엇입니까?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 에너지 소모가 많은 데이터 센터에 전력을 공급하기 위한 경쟁이 가속화됨에 따라 수소 연료 전지 또는 원자력 발전에 투자해야 합니까?",
-            "오늘 Bloom Energy(BE +0.65%)와 Constellation Energy(CEG -0.68%)를 비교하는 방법은 다음과 같습니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.65%, 0.68%, $227.69 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "CEG",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "CEG에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.65%",
-            "0.68%",
-            "$227.69",
-            "0.65 %",
-            "$1.47",
-            "$261.41",
-            "0.68 %",
-            "$1.78"
-          ],
-          "sourceExcerpt": [
-            "Constellation Energy: Which Energy Stock Is an AI-Driven Buy in 2026?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool As the race to power energy-hungry data centers accelerates, should you bet on hydrogen-ready fuel cells or nuclear power?",
-            "Here is how Bloom Energy ( BE +0.65% ) and Constellation Energy ( CEG -0.68% ) compare today."
-          ],
-          "analysisUpdatedAt": 1792507604.8786438
-        },
         "headlineKo": "Bloom Energy 대 Constellation Energy: 2026년에 AI 기반 매수에 적합한 에너지 주식은 무엇입니까?"
       },
       {
@@ -220685,19 +220860,58 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "금요일 최고의 월스트리트 분석가 연구 통화는 다음과 같습니다. Barrick Mining, Brinker International, Constellation Energy, Equifax, Fox Corporation, JPMorgan Chase, Klaviyo, Toll Brothers, Workday 및 Mo"
-      },
-      {
-        "headline": "CIBC Initiates Coverage On Constellation Energy with Outperformer Rating, Announces Price Target of $358",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=0854906dfbc8bb7a6e2c31ea5a0933bb7d2b8e3d39ff9456c59832c8279cafde",
-        "datetime": 1792138855,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "CIBC는 실적이 우수한 등급으로 Constellation Energy에 대한 보도를 시작하고 $358의 목표 가격을 발표했습니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "CEG Stock Outperforms Industry in 3 Months: Time to Buy or Hold Now?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=dcbcb17be8be5a7be41b075c5ba2723e13c8392d8bc1c4a3e233e7e71275af4c",
+        "datetime": 1792504740,
+        "headlineKo": "CEG 주식은 3개월 만에 업계를 능가합니다. 지금 매수해야 할까요 아니면 보유해야 할까요?",
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "CEG Stock Outperforms Industry in 3 Months: Time to Buy or Hold Now?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CEG",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CEG의 사업과 관련된 'CEG Stock Outperforms Industry in 3 Months: Time to Buy or Hold Now?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CEG 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529729.7860663
+        }
+      },
       {
         "headline": "Is This Number The Biggest Risk To Constellation Energy Stock?",
         "source": "Yahoo",
@@ -220758,7 +220972,7 @@ const NEWS_DATA = {
             "| Trefis Is This Number The Biggest Risk To Constellation Energy Stock?",
             "October 19th, 2026 · by Trefis Team CEG YTD -25.2% SPY YTD +13.0% XLU YTD -1.8% Analyze CEG → Anyone analyzing Constellation Energy (CEG) should look at its debt load first."
           ],
-          "analysisUpdatedAt": 1792507599.2295203
+          "analysisUpdatedAt": 1792529733.1045027
         }
       },
       {
@@ -220807,7 +221021,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507601.7161822
+          "analysisUpdatedAt": 1792529735.418677
         }
       },
       {
@@ -226050,19 +226264,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:46",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:55",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 118,
+      "checked": 119,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "VST": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-11-06",
       "hour": "",
@@ -226071,6 +226285,66 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "What Could Surprise Vistra Stock Investors On The Upside?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c3447b698b5bc73a39c7deafcdce81e91f72c5eaaceac54a2d2774b8a3dedc51",
+        "datetime": 1792518973,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Vistra 주식 투자자를 놀라게 할 수 있는 것은 무엇입니까?",
+            "| Trefis 무엇이 Vistra 주식 투자자들을 놀라게 할 수 있을까요?",
+            "2026년 10월 20일 · Trefis Team 기준 VST YTD -6.8% SPY YTD +13.0% XLU YTD -1.8% VST 분석 → Vistra(VST) 주식은 지난 1년 동안 28.4% 하락한 반면 S&P 500은 17.4%를 반환했습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $700 million, $7.4 billion, $7.8 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "VST의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "VST",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "VST에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$700 million",
+            "$7.4 billion",
+            "$7.8 billion",
+            "9%"
+          ],
+          "sourceExcerpt": [
+            "What Could Surprise Vistra Stock Investors On The Upside?",
+            "| Trefis What Could Surprise Vistra Stock Investors On The Upside?",
+            "October 20th, 2026 · by Trefis Team VST YTD -6.8% SPY YTD +13.0% XLU YTD -1.8% Analyze VST → Vistra (VST) stock lost 28.4% over the past year , while the S&P 500 returned 17.4%."
+          ],
+          "analysisUpdatedAt": 1792529742.2057612
+        },
+        "headlineKo": "Vistra 주식 투자자를 놀라게 할 수 있는 것은 무엇입니까?"
+      },
       {
         "headline": "Vistra Corp. (VST) Is a Trending Stock: Facts to Know Before Betting on It",
         "source": "Yahoo",
@@ -226117,7 +226391,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507611.4967468
+          "analysisUpdatedAt": 1792529743.859641
         },
         "headlineKo": "Vistra Corp.(VST)은 인기 주식입니다: 베팅하기 전에 알아야 할 사실"
       },
@@ -226181,7 +226455,7 @@ const NEWS_DATA = {
             "| TIKR.com Stock Reviews Vistra Stock Is Down 28% Over the Past Year.",
             "Gian Estrada • 6 minute read Reviewed by: David Hanson Last updated Oct 18, 2026 claudiodivizia and yangwenshuang from Getty Images Signature via Canva Key Takeaways Vistra stock is down 28% over the past year, closing at $152.02 on October"
           ],
-          "analysisUpdatedAt": 1792507615.923416
+          "analysisUpdatedAt": 1792529746.2684457
         },
         "headlineKo": "비스트라 주가는 지난 1년 동안 28% 하락했습니다. 할인 또는 경고 표시?"
       },
@@ -226193,64 +226467,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 VST의 사업과 관련된 'What Does Vistra (VST) Gain From Its $1 Billion Preferred Stock Redemption?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: VST에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
-          "relevance": 1,
-          "quality": "high",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507618.2389114
-        },
         "headlineKo": "Vistra(VST)는 10억 달러 우선주 상환을 통해 무엇을 얻나요?"
       },
       {
@@ -226262,19 +226478,68 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "42억 달러 규모의 DOE 대출에서 1일 11% 상승한 후 Vistra를 구입해야 합니까? 대부분의 투자자가 놓치고 있는 점."
-      },
-      {
-        "headline": "CIBC Initiates Coverage of Vistra at Outperformer",
-        "source": "Fintel",
-        "url": "https://finnhub.io/api/news?id=87a545b277265cfcb4a001eed7cf65a8a87e3c4f911812d2d4da7c391cbe8650",
-        "datetime": 1792202670,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "CIBC, Outperformer에서 Vistra 보도 시작"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "What Could Surprise Vistra Stock Investors On The Upside?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c3447b698b5bc73a39c7deafcdce81e91f72c5eaaceac54a2d2774b8a3dedc51",
+        "datetime": 1792518973,
+        "headlineKo": "Vistra 주식 투자자를 놀라게 할 수 있는 것은 무엇입니까?",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Vistra 주식 투자자를 놀라게 할 수 있는 것은 무엇입니까?",
+            "| Trefis 무엇이 Vistra 주식 투자자들을 놀라게 할 수 있을까요?",
+            "2026년 10월 20일 · Trefis Team 기준 VST YTD -6.8% SPY YTD +13.0% XLU YTD -1.8% VST 분석 → Vistra(VST) 주식은 지난 1년 동안 28.4% 하락한 반면 S&P 500은 17.4%를 반환했습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $700 million, $7.4 billion, $7.8 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "VST의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "VST",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "VST에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$700 million",
+            "$7.4 billion",
+            "$7.8 billion",
+            "9%"
+          ],
+          "sourceExcerpt": [
+            "What Could Surprise Vistra Stock Investors On The Upside?",
+            "| Trefis What Could Surprise Vistra Stock Investors On The Upside?",
+            "October 20th, 2026 · by Trefis Team VST YTD -6.8% SPY YTD +13.0% XLU YTD -1.8% Analyze VST → Vistra (VST) stock lost 28.4% over the past year , while the S&P 500 returned 17.4%."
+          ],
+          "analysisUpdatedAt": 1792529742.2057612
+        }
+      },
       {
         "headline": "Vistra Corp. (VST) Is a Trending Stock: Facts to Know Before Betting on It",
         "source": "Yahoo",
@@ -226321,7 +226586,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507611.4967468
+          "analysisUpdatedAt": 1792529743.859641
         }
       },
       {
@@ -226384,7 +226649,7 @@ const NEWS_DATA = {
             "| TIKR.com Stock Reviews Vistra Stock Is Down 28% Over the Past Year.",
             "Gian Estrada • 6 minute read Reviewed by: David Hanson Last updated Oct 18, 2026 claudiodivizia and yangwenshuang from Getty Images Signature via Canva Key Takeaways Vistra stock is down 28% over the past year, closing at $152.02 on October"
           ],
-          "analysisUpdatedAt": 1792507615.923416
+          "analysisUpdatedAt": 1792529746.2684457
         }
       },
       {
@@ -230317,19 +230582,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:46",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:55",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 87,
+      "checked": 88,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "ETN": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "bmo",
@@ -230338,6 +230603,55 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Eaton (ETN): Will Its Electrical Backlog Translate Into Lasting Earnings Power?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=bfd025a6ba2358fcbd8ed1e2ad399ddc258a62b1f3b29a4801510b5d26e83747",
+        "datetime": 1792514557,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "실적 발표 · 본업과 특이항목 분리",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Eaton (ETN): Will Its Electrical Backlog Translate Into Lasting Earnings Power?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+            "ETN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "ETN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "매출·영업이익 성장",
+            "정상화이익과 특이항목",
+            "가이던스·OCF·FCF"
+          ],
+          "interpretation": "ETN에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529751.9253018
+        },
+        "headlineKo": "Eaton(ETN): 전기 잔고가 지속적인 수익 창출로 이어질까요?"
+      },
       {
         "headline": "What Could Eaton Stock Be Worth In Three Years?",
         "source": "Yahoo",
@@ -230398,7 +230712,7 @@ const NEWS_DATA = {
             "| Trefis What Could Eaton Stock Be Worth In Three Years?",
             "October 20th, 2026 · by Trefis Team ETN YTD +23.9% SPY YTD +13.0% XLI YTD +8.0% Analyze ETN → Eaton (ETN) stock trades at 39.7 times earnings ."
           ],
-          "analysisUpdatedAt": 1792507629.3186631
+          "analysisUpdatedAt": 1792529755.1160567
         },
         "headlineKo": "3년 후 이튼 주식의 가치는 얼마나 될까요?"
       },
@@ -230448,7 +230762,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507632.0446665
+          "analysisUpdatedAt": 1792529757.082164
         },
         "headlineKo": "Forgent 대 Eaton: 어떤 데이터 센터 전력 재고가 더 나은 구매입니까?"
       },
@@ -230460,6 +230774,28 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "이튼, 2026년 11월 3일 2026년 3분기 실적 발표"
+      },
+      {
+        "headline": "ServiceNow, Eaton, SentinelOne And A Financial Stock: CNBC’s ‘Final Trades’",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=c9cd187153b83d3f927c20bc9159ae462992c7b093d1dc1ba62cba85987cbc6d",
+        "datetime": 1792394835,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "ServiceNow, Eaton, SentinelOne 및 금융 주식: CNBC의 '최종 거래'"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Eaton (ETN): Will Its Electrical Backlog Translate Into Lasting Earnings Power?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=bfd025a6ba2358fcbd8ed1e2ad399ddc258a62b1f3b29a4801510b5d26e83747",
+        "datetime": 1792514557,
+        "headlineKo": "Eaton(ETN): 전기 잔고가 지속적인 수익 창출로 이어질까요?",
+        "relevance": 1,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "medium",
@@ -230468,7 +230804,7 @@ const NEWS_DATA = {
           "label": "실적 발표 · 본업과 특이항목 분리",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Eaton to announce third quarter 2026 earnings on November 3, 2026",
+            "Eaton (ETN): Will Its Electrical Backlog Translate Into Lasting Earnings Power?",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -230493,36 +230829,13 @@ const NEWS_DATA = {
           ],
           "interpretation": "ETN에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
           "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
+          "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507634.2344656
-        },
-        "headlineKo": "이튼, 2026년 11월 3일 2026년 3분기 실적 발표"
+          "analysisUpdatedAt": 1792529751.9253018
+        }
       },
-      {
-        "headline": "ServiceNow, Eaton, SentinelOne And A Financial Stock: CNBC’s ‘Final Trades’",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=c9cd187153b83d3f927c20bc9159ae462992c7b093d1dc1ba62cba85987cbc6d",
-        "datetime": 1792394835,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "ServiceNow, Eaton, SentinelOne 및 금융 주식: CNBC의 '최종 거래'"
-      },
-      {
-        "headline": "Eaton (ETN) Finance Reshuffle Meets AI Power Narrative With Fair Value In Focus",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b84b71fc60c3b31227906513100c14d48239dad7a7f0c9509be7d4395c04b4b9",
-        "datetime": 1792267839,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Eaton(ETN) 금융 개편, 공정 가치에 초점을 맞춰 AI 파워 내러티브를 만나다"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "What Could Eaton Stock Be Worth In Three Years?",
         "source": "Yahoo",
@@ -230583,7 +230896,7 @@ const NEWS_DATA = {
             "| Trefis What Could Eaton Stock Be Worth In Three Years?",
             "October 20th, 2026 · by Trefis Team ETN YTD +23.9% SPY YTD +13.0% XLI YTD +8.0% Analyze ETN → Eaton (ETN) stock trades at 39.7 times earnings ."
           ],
-          "analysisUpdatedAt": 1792507629.3186631
+          "analysisUpdatedAt": 1792529755.1160567
         }
       },
       {
@@ -230632,7 +230945,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507632.0446665
+          "analysisUpdatedAt": 1792529757.082164
         }
       },
       {
@@ -234391,19 +234704,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:47",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:55",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 83,
+      "checked": 84,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "PWR": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-10-29",
       "hour": "bmo",
@@ -234458,7 +234771,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507641.6958582
+          "analysisUpdatedAt": 1792529762.6889048
         },
         "headlineKo": "Quanta가 기록적인 프로젝트 수요로 거시적 역풍을 극복할 수 있습니까?"
       },
@@ -234508,7 +234821,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507646.139867
+          "analysisUpdatedAt": 1792529764.6868415
         },
         "headlineKo": "오늘날 Quanta Services(PWR)가 더 넓은 시장보다 하락한 이유"
       },
@@ -234558,7 +234871,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507647.1117387
+          "analysisUpdatedAt": 1792529765.3851426
         },
         "headlineKo": "20년 전에 Quanta Services 주식에 100달러를 투자했다면 오늘날 이 정도의 수익을 얻게 될 것입니다."
       },
@@ -234630,7 +234943,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507641.6958582
+          "analysisUpdatedAt": 1792529762.6889048
         }
       },
       {
@@ -234679,7 +234992,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507646.139867
+          "analysisUpdatedAt": 1792529764.6868415
         }
       },
       {
@@ -234728,7 +235041,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507647.1117387
+          "analysisUpdatedAt": 1792529765.3851426
         }
       },
       {
@@ -237756,19 +238069,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:47",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:56",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "HUBB": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-10-27",
       "hour": "",
@@ -237777,6 +238090,55 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Hubbell (HUBB) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=56f84a96f4763f8531481707bf61e0a3367758de5d1419b742ed3e6fe5305155",
+        "datetime": 1792501219,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "실적 발표 · 본업과 특이항목 분리",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Hubbell (HUBB) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+            "HUBB의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "HUBB",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "매출·영업이익 성장",
+            "정상화이익과 특이항목",
+            "가이던스·OCF·FCF"
+          ],
+          "interpretation": "HUBB에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529769.9323306
+        },
+        "headlineKo": "Hubbell (HUBB) 수익 증가 예상: 다음 주 출시에 앞서 알아야 할 사항"
+      },
       {
         "headline": "Will Hubbell (HUBB) Beat Estimates Again in Its Next Earnings Report?",
         "source": "Yahoo",
@@ -237822,7 +238184,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507654.5407286
+          "analysisUpdatedAt": 1792529771.9595776
         },
         "headlineKo": "Hubbell(HUBB)이 다음 수익 보고서에서 다시 추정치를 상회할까요?"
       },
@@ -237890,7 +238252,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507656.9048607
+          "analysisUpdatedAt": 1792529774.2117743
         },
         "headlineKo": "기네스 지속 가능 에너지 펀드, 유틸리티 성장 우려 속에서 Hubbell Incorporated(HUBB) 강조"
       },
@@ -237902,45 +238264,6 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Mizuho Maintains Outperform on Hubbell, Lowers Price Target to $560",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "HUBB의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "HUBB",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "HUBB에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507657.8417852
-        },
         "headlineKo": "Mizuho는 Hubbell에서 우수한 성과를 유지하고 목표 가격을 560달러로 낮췄습니다."
       },
       {
@@ -237955,6 +238278,54 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Hubbell (HUBB) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=56f84a96f4763f8531481707bf61e0a3367758de5d1419b742ed3e6fe5305155",
+        "datetime": 1792501219,
+        "headlineKo": "Hubbell (HUBB) 수익 증가 예상: 다음 주 출시에 앞서 알아야 할 사항",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "실적 발표 · 본업과 특이항목 분리",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Hubbell (HUBB) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+            "HUBB의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "HUBB",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "매출·영업이익 성장",
+            "정상화이익과 특이항목",
+            "가이던스·OCF·FCF"
+          ],
+          "interpretation": "HUBB에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529769.9323306
+        }
+      },
       {
         "headline": "Will Hubbell (HUBB) Beat Estimates Again in Its Next Earnings Report?",
         "source": "Yahoo",
@@ -238000,7 +238371,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507654.5407286
+          "analysisUpdatedAt": 1792529771.9595776
         }
       },
       {
@@ -238067,7 +238438,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507656.9048607
+          "analysisUpdatedAt": 1792529774.2117743
         }
       },
       {
@@ -238763,19 +239134,19 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:47",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:56",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 21,
+      "checked": 23,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "VRT": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-10-28",
       "hour": "",
@@ -238844,7 +239215,7 @@ const NEWS_DATA = {
             "Morgan Stanley Sees 60% Upside From Here Gian Estrada • 4 minute read Reviewed by: David Hanson Last updated Oct 20, 2026 Wisarut Pumipak from Getty Images and Corina Ciocirlan's Images via Canva Key Takeaways Vertiv shares fell nearly 14% ",
             "Vertiv reported nothing negative, and the selling followed a scare over how the AI build-out gets financed after CoreWeave’s 2032 bonds yielded close to 15%."
           ],
-          "analysisUpdatedAt": 1792507666.453906
+          "analysisUpdatedAt": 1792529780.7341378
         },
         "headlineKo": "Vertiv는 일주일 만에 13% 손실을 입었습니다. Morgan Stanley는 여기에서 60% 상승 여력을 봅니다."
       },
@@ -238908,7 +239279,7 @@ const NEWS_DATA = {
             "Here’s What Its October 28 Report Needs to Show Wiltone Asuncion • 5 minute read Reviewed by: David Hanson Last updated Oct 20, 2026 @Kittipong Jirasukhanont from PhonlamaiPhoto's Images via Canva, @Изображения пользователя hlopotov_alexand",
             "Vertiv Holdings ( VRT ) now trades at a lower forward multiple than at any quarter-end TIKR shows since September 2025, even as earnings estimates climbed."
           ],
-          "analysisUpdatedAt": 1792507671.593879
+          "analysisUpdatedAt": 1792529784.099323
         },
         "headlineKo": "Vertiv 주가는 지난 주 15% 하락했습니다. 10월 28일 보고서에서 보여줘야 할 내용은 다음과 같습니다."
       },
@@ -238929,7 +239300,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Vertiv 주식은 1년 후 어디에 있을까요?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% 데이터 c용 열 관리, 액체 냉각 및 무정전 전원 공급 장치(UPS) 시스템 제공업체인 The Motley Fool Vertiv( VRT +0.80% )에 참여하세요.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% 데이터 c용 열 관리, 액체 냉각 및 무정전 전원 공급 장치(UPS) 시스템 제공업체인 The Motley Fool Vertiv( VRT -1.22% )에 참여하세요.",
             "5월 14일 주가는 주당 376.06달러로 사상 최고치를 기록하며 지난 3년 동안 2,390%의 상승률을 기록했습니다."
           ],
           "why": [
@@ -238961,7 +239332,7 @@ const NEWS_DATA = {
             "$376.06",
             "2,390%",
             "$211.",
-            "0.53%",
+            "0.29%",
             "$5.0 billion",
             "$10.2 billion",
             "$0.76",
@@ -238969,10 +239340,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Where Will Vertiv Stock Be in 1 Year?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Vertiv ( VRT +0.80% ) , a provider of thermal management, liquid cooling, and uninterruptible power supply (UPS) systems for data c",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Vertiv ( VRT -1.22% ) , a provider of thermal management, liquid cooling, and uninterruptible power supply (UPS) systems for data c",
             "Its stock closed at a record high of $376.06 per share on May 14, marking a 2,390% gain over its previous three years."
           ],
-          "analysisUpdatedAt": 1792507676.2842126
+          "analysisUpdatedAt": 1792529787.6671307
         },
         "headlineKo": "Vertiv 주식은 1년 후 어디에 있을까요?"
       },
@@ -239058,7 +239429,7 @@ const NEWS_DATA = {
             "Morgan Stanley Sees 60% Upside From Here Gian Estrada • 4 minute read Reviewed by: David Hanson Last updated Oct 20, 2026 Wisarut Pumipak from Getty Images and Corina Ciocirlan's Images via Canva Key Takeaways Vertiv shares fell nearly 14% ",
             "Vertiv reported nothing negative, and the selling followed a scare over how the AI build-out gets financed after CoreWeave’s 2032 bonds yielded close to 15%."
           ],
-          "analysisUpdatedAt": 1792507666.453906
+          "analysisUpdatedAt": 1792529780.7341378
         }
       },
       {
@@ -239121,7 +239492,7 @@ const NEWS_DATA = {
             "Here’s What Its October 28 Report Needs to Show Wiltone Asuncion • 5 minute read Reviewed by: David Hanson Last updated Oct 20, 2026 @Kittipong Jirasukhanont from PhonlamaiPhoto's Images via Canva, @Изображения пользователя hlopotov_alexand",
             "Vertiv Holdings ( VRT ) now trades at a lower forward multiple than at any quarter-end TIKR shows since September 2025, even as earnings estimates climbed."
           ],
-          "analysisUpdatedAt": 1792507671.593879
+          "analysisUpdatedAt": 1792529784.099323
         }
       },
       {
@@ -239141,7 +239512,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Vertiv 주식은 1년 후 어디에 있을까요?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% 데이터 c용 열 관리, 액체 냉각 및 무정전 전원 공급 장치(UPS) 시스템 제공업체인 The Motley Fool Vertiv( VRT +0.80% )에 참여하세요.",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% 데이터 c용 열 관리, 액체 냉각 및 무정전 전원 공급 장치(UPS) 시스템 제공업체인 The Motley Fool Vertiv( VRT -1.22% )에 참여하세요.",
             "5월 14일 주가는 주당 376.06달러로 사상 최고치를 기록하며 지난 3년 동안 2,390%의 상승률을 기록했습니다."
           ],
           "why": [
@@ -239173,7 +239544,7 @@ const NEWS_DATA = {
             "$376.06",
             "2,390%",
             "$211.",
-            "0.53%",
+            "0.29%",
             "$5.0 billion",
             "$10.2 billion",
             "$0.76",
@@ -239181,10 +239552,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Where Will Vertiv Stock Be in 1 Year?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Vertiv ( VRT +0.80% ) , a provider of thermal management, liquid cooling, and uninterruptible power supply (UPS) systems for data c",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Vertiv ( VRT -1.22% ) , a provider of thermal management, liquid cooling, and uninterruptible power supply (UPS) systems for data c",
             "Its stock closed at a record high of $376.06 per share on May 14, marking a 2,390% gain over its previous three years."
           ],
-          "analysisUpdatedAt": 1792507676.2842126
+          "analysisUpdatedAt": 1792529787.6671307
         }
       },
       {
@@ -243695,19 +244066,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:47",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:56",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "MOD": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-11-03",
       "hour": "",
@@ -243761,7 +244132,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507682.4649312
+          "analysisUpdatedAt": 1792529791.2233317
         },
         "headlineKo": "Cantor Fitzgerald, Modine 제조에 대한 비중확대 등급 보도 개시, 목표 가격 $275 발표"
       },
@@ -243811,7 +244182,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507683.4872227
+          "analysisUpdatedAt": 1792529792.0638697
         },
         "headlineKo": "Modine Manufacturing: AI 인프라 붐의 숨겨진 승자"
       },
@@ -243861,7 +244232,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507686.5364377
+          "analysisUpdatedAt": 1792529794.0302932
         },
         "headlineKo": "시장 상승에도 불구하고 모딘(MOD) 주식 하락: 주목해야 할 중요한 사실"
       },
@@ -243932,7 +244303,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507682.4649312
+          "analysisUpdatedAt": 1792529791.2233317
         }
       },
       {
@@ -243981,7 +244352,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507683.4872227
+          "analysisUpdatedAt": 1792529792.0638697
         }
       },
       {
@@ -244030,7 +244401,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507686.5364377
+          "analysisUpdatedAt": 1792529794.0302932
         }
       },
       {
@@ -245315,19 +245686,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:48",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:56",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "STX": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-10-27",
       "hour": "",
@@ -245336,6 +245707,70 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "STX Stock Adds 2% After Morgan Stanley Hikes Price Target To Nearly Double From Current Levels",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d3d58c57a27b5075c38302a8281351a4c4febcd2ad3e14b963a5711f17c44359",
+        "datetime": 1792520385,
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "STX 주식은 Morgan Stanley가 가격 목표를 현재 수준보다 거의 두 배로 인상한 후 2%를 추가합니다. AI 에이전트 동향 뉴스 수익 전체 DIA 1.19% SPY 0.59% QQQ 0.39% 추세 SPCX 4.19% NFLX 6.73% SMCI 12.43% SLS 14.20% ISRG 5.19% UAL 0.67% IWM",
+            "Morgan Stanley가 목표 가격을 현재 수준보다 거의 두 배로 인상한 후 STX 주가 2% 추가 Morgan Stanley는 Seagate Technology에 대한 강세 입장을 재확인하고 목표 가격을 $1,200로 높였습니다.",
+            "2024년 1월 3일 미네소타 주 미니애폴리스에 있는 Seagate Technology 회사 사무실의 일반적인 모습입니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 2%, 1.19%, 0.59% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "STX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "STX",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "STX에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1.0,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "2%",
+            "1.19%",
+            "0.59%",
+            "0.39%",
+            "4.19%",
+            "6.73%",
+            "12.43%",
+            "14.20%"
+          ],
+          "sourceExcerpt": [
+            "STX Stock Adds 2% After Morgan Stanley Hikes Price Target To Nearly Double From Current Levels AI Agent Trending News Earnings All DIA 1.19% SPY 0.59% QQQ 0.39% Trending SPCX 4.19% NFLX 6.73% SMCI 12.43% SLS 14.20% ISRG 5.19% UAL 0.67% IWM ",
+            "STX Stock Adds 2% After Morgan Stanley Hikes Price Target To Nearly Double From Current Levels Morgan Stanley reaffirmed its bullish stance on Seagate Technology, raising its price target to $1,200.",
+            "A general view of the Seagate Technology company offices on January 03, 2024, in Minneapolis, Minnesota."
+          ],
+          "analysisUpdatedAt": 1792529802.7170203
+        },
+        "headlineKo": "Morgan Stanley가 가격 목표를 현재 수준보다 거의 두 배로 인상 한 후 STX 주식은 2 % 추가"
+      },
       {
         "headline": "Morgan Stanley cuts Western Digital target, raises Seagate amid HDD selloff",
         "source": "Yahoo",
@@ -245381,7 +245816,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507693.362169
+          "analysisUpdatedAt": 1792529805.0446591
         },
         "headlineKo": "Morgan Stanley, Western Digital 목표 축소, HDD 매각 속에 Seagate 인상"
       },
@@ -245431,7 +245866,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507694.9959657
+          "analysisUpdatedAt": 1792529806.874174
         },
         "headlineKo": "80% 상승여력? Morgan Stanley가 망가진 Seagate 및 Western Digital 주식에 대해 문제를 제기하는 이유"
       },
@@ -245443,46 +245878,6 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "FormFactor, Teradyne, Entegris, Kulicke and Soffa, and Seagate Shares Skyrocket, What You Need To Know",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "STX",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 STX의 사업과 관련된 'FormFactor, Teradyne, Entegris, Kulicke and Soffa, and Seagate Shares Skyrocket, What You Need To Know' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "STX 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507696.8128495
-        },
         "headlineKo": "FormFactor, Teradyne, Entegris, Kulicke 및 Soffa 및 Seagate 주가 급등, 알아야 할 사항"
       },
       {
@@ -245494,19 +245889,72 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Seagate 주식이 여전히 업계를 선도하고 있습니까?"
-      },
-      {
-        "headline": "How Did Seagate (STX) Triple Selling a Technology Everyone Buried?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=88cbc0a7608a74d8f1cde0094daa69dc6463216438da65de621e6fe1ee06040c",
-        "datetime": 1792333952,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Seagate(STX)는 모두가 묻혀 있던 기술을 어떻게 세 배로 판매했습니까?"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "STX Stock Adds 2% After Morgan Stanley Hikes Price Target To Nearly Double From Current Levels",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d3d58c57a27b5075c38302a8281351a4c4febcd2ad3e14b963a5711f17c44359",
+        "datetime": 1792520385,
+        "headlineKo": "Morgan Stanley가 가격 목표를 현재 수준보다 거의 두 배로 인상 한 후 STX 주식은 2 % 추가",
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "STX 주식은 Morgan Stanley가 가격 목표를 현재 수준보다 거의 두 배로 인상한 후 2%를 추가합니다. AI 에이전트 동향 뉴스 수익 전체 DIA 1.19% SPY 0.59% QQQ 0.39% 추세 SPCX 4.19% NFLX 6.73% SMCI 12.43% SLS 14.20% ISRG 5.19% UAL 0.67% IWM",
+            "Morgan Stanley가 목표 가격을 현재 수준보다 거의 두 배로 인상한 후 STX 주가 2% 추가 Morgan Stanley는 Seagate Technology에 대한 강세 입장을 재확인하고 목표 가격을 $1,200로 높였습니다.",
+            "2024년 1월 3일 미네소타 주 미니애폴리스에 있는 Seagate Technology 회사 사무실의 일반적인 모습입니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 2%, 1.19%, 0.59% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "STX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "STX",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "STX에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1.0,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "2%",
+            "1.19%",
+            "0.59%",
+            "0.39%",
+            "4.19%",
+            "6.73%",
+            "12.43%",
+            "14.20%"
+          ],
+          "sourceExcerpt": [
+            "STX Stock Adds 2% After Morgan Stanley Hikes Price Target To Nearly Double From Current Levels AI Agent Trending News Earnings All DIA 1.19% SPY 0.59% QQQ 0.39% Trending SPCX 4.19% NFLX 6.73% SMCI 12.43% SLS 14.20% ISRG 5.19% UAL 0.67% IWM ",
+            "STX Stock Adds 2% After Morgan Stanley Hikes Price Target To Nearly Double From Current Levels Morgan Stanley reaffirmed its bullish stance on Seagate Technology, raising its price target to $1,200.",
+            "A general view of the Seagate Technology company offices on January 03, 2024, in Minneapolis, Minnesota."
+          ],
+          "analysisUpdatedAt": 1792529802.7170203
+        }
+      },
       {
         "headline": "Morgan Stanley cuts Western Digital target, raises Seagate amid HDD selloff",
         "source": "Yahoo",
@@ -245552,7 +246000,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507693.362169
+          "analysisUpdatedAt": 1792529805.0446591
         }
       },
       {
@@ -245601,7 +246049,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507694.9959657
+          "analysisUpdatedAt": 1792529806.874174
         }
       },
       {
@@ -250664,19 +251112,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:48",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:56",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 115,
+      "checked": 116,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "EME": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-10-29",
       "hour": "",
@@ -250685,6 +251133,56 @@ const NEWS_DATA = {
     },
     "_earnings_status": "ok",
     "news": [
+      {
+        "headline": "Can EMCOR's Execution Excellence Continue Defying Construction Cycles?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6f141320b3a58846b5cd1ad1905cf9f3af94b406d4a3d406da39829269a72229",
+        "datetime": 1792502400,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Can EMCOR's Execution Excellence Continue Defying Construction Cycles?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "EME",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 EME의 사업과 관련된 'Can EMCOR's Execution Excellence Continue Defying Construction Cycles?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "EME 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529812.4535897
+        },
+        "headlineKo": "EMCOR의 실행 우수성이 계속해서 건설 주기를 무시할 수 있습니까?"
+      },
       {
         "headline": "Is It Worth Investing in Emcor Group (EME) Based on Wall Street's Bullish Views?",
         "source": "Yahoo",
@@ -250731,7 +251229,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507705.6270094
+          "analysisUpdatedAt": 1792529814.4778414
         },
         "headlineKo": "월스트리트의 낙관적 전망을 바탕으로 Emcor Group(EME)에 투자할 가치가 있습니까?"
       },
@@ -250781,7 +251279,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507707.831005
+          "analysisUpdatedAt": 1792529816.7956882
         },
         "headlineKo": "EMCOR Group, Inc.(EME)가 투자자의 관심을 끌고 있습니다: 알아야 할 사항은 다음과 같습니다."
       },
@@ -250793,15 +251291,37 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "EMCOR 그룹(EME)이 올해 다른 건설주보다 실적이 좋나요?"
+      },
+      {
+        "headline": "Can EMCOR's Turnaround and Petrochemical Work Lift Industrial Growth?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=07dc2d0a7096d98c750e47f02d4af430960c62d84c9b0244078403026d27c35b",
+        "datetime": 1792151880,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "EMCOR의 턴어라운드 및 석유화학 작업이 산업 성장을 촉진할 수 있습니까?"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Can EMCOR's Execution Excellence Continue Defying Construction Cycles?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6f141320b3a58846b5cd1ad1905cf9f3af94b406d4a3d406da39829269a72229",
+        "datetime": 1792502400,
+        "headlineKo": "EMCOR의 실행 우수성이 계속해서 건설 주기를 무시할 수 있습니까?",
+        "relevance": 0.67,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "low",
-          "tone": "neutral",
+          "tone": "risk",
           "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Is EMCOR Group (EME) Outperforming Other Construction Stocks This Year?",
+            "Can EMCOR's Execution Excellence Continue Defying Construction Cycles?",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -250825,38 +251345,15 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 EME의 사업과 관련된 'Is EMCOR Group (EME) Outperforming Other Construction Stocks This Year?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 EME의 사업과 관련된 'Can EMCOR's Execution Excellence Continue Defying Construction Cycles?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "EME 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
+          "relevance": 0.67,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507711.4204597
-        },
-        "headlineKo": "EMCOR 그룹(EME)이 올해 다른 건설주보다 실적이 좋나요?"
+          "analysisUpdatedAt": 1792529812.4535897
+        }
       },
-      {
-        "headline": "Can EMCOR's Turnaround and Petrochemical Work Lift Industrial Growth?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=07dc2d0a7096d98c750e47f02d4af430960c62d84c9b0244078403026d27c35b",
-        "datetime": 1792151880,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "EMCOR의 턴어라운드 및 석유화학 작업이 산업 성장을 촉진할 수 있습니까?"
-      },
-      {
-        "headline": "Emcor Group (EME) Stock Declines While Market Improves: Some Information for Investors",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=08df72c3f7dc525a641d59055ea604cf2f52fb2f51b9831c2960e9c9c9f7a4b1",
-        "datetime": 1792097403,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "시장이 개선되는 동안 Emcor Group(EME) 주가 하락: 투자자를 위한 일부 정보"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Is It Worth Investing in Emcor Group (EME) Based on Wall Street's Bullish Views?",
         "source": "Yahoo",
@@ -250903,7 +251400,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507705.6270094
+          "analysisUpdatedAt": 1792529814.4778414
         }
       },
       {
@@ -250952,7 +251449,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507707.831005
+          "analysisUpdatedAt": 1792529816.7956882
         }
       },
       {
@@ -252914,19 +253411,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:48",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:56",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 49,
+      "checked": 50,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "FIX": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-10-22",
       "hour": "",
@@ -252981,7 +253478,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507719.3582337
+          "analysisUpdatedAt": 1792529822.1832345
         },
         "headlineKo": "Comfort Systems의 현금 흐름 강도가 투자 계획을 뒷받침할 수 있습니까?"
       },
@@ -253031,7 +253528,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507721.9026093
+          "analysisUpdatedAt": 1792529823.7346554
         },
         "headlineKo": "기록 백로그가 Comfort Systems USA(FIX) 주식 투자 내러티브를 바꾸었나요?"
       },
@@ -253080,7 +253577,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507724.2328975
+          "analysisUpdatedAt": 1792529826.0178823
         },
         "headlineKo": "3분기 실적 전 Comfort Systems 주식: 예상되는 내용은 다음과 같습니다."
       },
@@ -253152,7 +253649,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507719.3582337
+          "analysisUpdatedAt": 1792529822.1832345
         }
       },
       {
@@ -253201,7 +253698,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507721.9026093
+          "analysisUpdatedAt": 1792529823.7346554
         }
       },
       {
@@ -253249,7 +253746,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507724.2328975
+          "analysisUpdatedAt": 1792529826.0178823
         }
       },
       {
@@ -254945,19 +255442,19 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:48",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:57",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   },
   "BE": {
-    "_last_attempt_at": 1792507143.066666,
+    "_last_attempt_at": 1792529384.667372,
     "nextEarnings": {
       "date": "2026-10-22",
       "hour": "amc",
@@ -255011,7 +255508,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507731.351655
+          "analysisUpdatedAt": 1792529831.0572553
         },
         "headlineKo": "Bloom Energy(BE) Q3 수익, 수익 및 주당순이익에 대한 분석가 추정 살펴보기"
       },
@@ -255026,18 +255523,18 @@ const NEWS_DATA = {
         "analysis": {
           "version": 9,
           "importance": "medium",
-          "tone": "risk",
+          "tone": "positive",
           "certainty": "본문 기반 간이 분석",
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "BE 주식 하락: 3분기 수익을 앞두고 Bloom Energy의 가치 평가에 초점 AI 에이전트 동향 뉴스 수익 전체 DIA 1.32% SPY 0.69% QQQ 0.50% 추세 CRWV 5.04% USO 2.72% DJT 1.71% LLY 4.93% QQQ 0.50% PFE 1.97% RAPP 2.76% VICR 8.67% I",
+            "BE 주식 하락: 3분기 수익을 앞두고 Bloom Energy의 가치 평가에 초점 AI 에이전트 동향 뉴스 수익 전체 DIA 1.19% SPY 0.59% QQQ 0.41% 추세 SPCX 3.62% NFLX 7.04% SMCI 12.40% SLS 14.20% ISRG 5.81% UAL 0.67% IWM 1.80% TSLA 1.6",
             "BE 주가 밤새 하락: Bloom Energy의 3분기 수익에 앞서 가치 평가에 집중 Bloom Energy의 선도 가격 대비 수익 비율은 Koyfin 데이터에 따라 63.5배로 동종 업체를 초과합니다.",
             "이번 포토 일러스트에는 블룸에너지(Be) 로고가 스마트폰 화면에 표시된 모습이 담겨 있다."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 1.32%, 0.69%, 0.50% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.19%, 0.59%, 0.41% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "BE의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -255061,21 +255558,21 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "1.32%",
-            "0.69%",
-            "0.50%",
-            "5.04%",
-            "2.72%",
-            "1.71%",
-            "4.93%",
-            "1.97%"
+            "1.19%",
+            "0.59%",
+            "0.41%",
+            "3.62%",
+            "7.04%",
+            "12.40%",
+            "14.20%",
+            "5.81%"
           ],
           "sourceExcerpt": [
-            "BE Stock Slips Overnight: Bloom Energy’s Valuation In Focus Ahead Of Q3 Earnings AI Agent Trending News Earnings All DIA 1.32% SPY 0.69% QQQ 0.50% Trending CRWV 5.04% USO 2.72% DJT 1.71% LLY 4.93% QQQ 0.50% PFE 1.97% RAPP 2.76% VICR 8.67% I",
+            "BE Stock Slips Overnight: Bloom Energy’s Valuation In Focus Ahead Of Q3 Earnings AI Agent Trending News Earnings All DIA 1.19% SPY 0.59% QQQ 0.41% Trending SPCX 3.62% NFLX 7.04% SMCI 12.40% SLS 14.20% ISRG 5.81% UAL 0.67% IWM 1.80% TSLA 1.6",
             "BE Stock Slips Overnight: Bloom Energy’s Valuation In Focus Ahead Of Q3 Earnings Bloom Energy's forward price-to-earnings ratio exceeds its peers, at 63.5x as per Koyfin data.",
             "In this photo illustration, the Bloom Energy (Be) logo is seen displayed on a smartphone screen."
           ],
-          "analysisUpdatedAt": 1792507735.590529
+          "analysisUpdatedAt": 1792529834.561401
         },
         "headlineKo": "BE 주가 밤새 하락: Bloom Energy의 가치 평가는 3분기 실적에 앞서 집중됩니다"
       },
@@ -255089,24 +255586,22 @@ const NEWS_DATA = {
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "BE 주식은 Oracle Signals 프로젝트 후 3% 추가 Jupiter '빠르게 이동' AI 에이전트 동향 뉴스 수익 전체 DIA 1.28% SPY 0.66% QQQ 0.44% 추세 CRWV 4.29% USO 2.56% DJT 1.09% LLY 4.73% QQQ 0.44% SOXX 0.95% RAPP 3.08% VICR 8.31% GE 2.77% P",
-            "BE 주식은 오라클이 Jupiter 프로젝트를 '빠르게 움직인다'는 신호를 보낸 후 3%를 추가합니다. Project Jupiter 데이터 센터 캠퍼스의 건설이 빠르게 진행되고 있으며 현장에서 강력한 진전을 보이고 있다고 Oracle이 X에 게시한 글에서 밝혔습니다.",
-            "Bloom Energy의 공동 창립자이자 CEO인 Sridhar가 2월 2일 수요일 캘리포니아주 새너제이에 있는 eBay 사무실에서 열린 기자회견에서 연료전지를 들고 있습니다."
+            "BE Stock Adds 3% After Oracle Signals Project Jupiter 'Moving Quickly'",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 3%, 1.28%, 0.66% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "BE의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -255116,30 +255611,18 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "BE에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 BE의 사업과 관련된 'BE Stock Adds 3% After Oracle Signals Project Jupiter 'Moving Quickly'' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "BE 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "3%",
-            "1.28%",
-            "0.66%",
-            "0.44%",
-            "4.29%",
-            "2.56%",
-            "1.09%",
-            "4.73%"
-          ],
-          "sourceExcerpt": [
-            "BE Stock Adds 3% After Oracle Signals Project Jupiter 'Moving Quickly' AI Agent Trending News Earnings All DIA 1.28% SPY 0.66% QQQ 0.44% Trending CRWV 4.29% USO 2.56% DJT 1.09% LLY 4.73% QQQ 0.44% SOXX 0.95% RAPP 3.08% VICR 8.31% GE 2.77% P",
-            "BE Stock Adds 3% After Oracle Signals Project Jupiter 'Moving Quickly' Construction on the Project Jupiter data center campus is moving quickly, with strong progress on site, Oracle said in a post on X.",
-            "Sridhar, co-founder and CEO of Bloom Energy, holds up a fuel cell at a news conference at eBay offices in San Jose, Calif., Wednesday, Feb."
-          ],
-          "analysisUpdatedAt": 1792507739.2050443
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529835.270968
         },
         "headlineKo": "BE 주식은 Oracle이 Jupiter 프로젝트에 '빠른 움직임' 신호를 보낸 후 3%를 추가합니다."
       },
@@ -255210,7 +255693,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507731.351655
+          "analysisUpdatedAt": 1792529831.0572553
         }
       },
       {
@@ -255224,18 +255707,18 @@ const NEWS_DATA = {
         "analysis": {
           "version": 9,
           "importance": "medium",
-          "tone": "risk",
+          "tone": "positive",
           "certainty": "본문 기반 간이 분석",
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "BE 주식 하락: 3분기 수익을 앞두고 Bloom Energy의 가치 평가에 초점 AI 에이전트 동향 뉴스 수익 전체 DIA 1.32% SPY 0.69% QQQ 0.50% 추세 CRWV 5.04% USO 2.72% DJT 1.71% LLY 4.93% QQQ 0.50% PFE 1.97% RAPP 2.76% VICR 8.67% I",
+            "BE 주식 하락: 3분기 수익을 앞두고 Bloom Energy의 가치 평가에 초점 AI 에이전트 동향 뉴스 수익 전체 DIA 1.19% SPY 0.59% QQQ 0.41% 추세 SPCX 3.62% NFLX 7.04% SMCI 12.40% SLS 14.20% ISRG 5.81% UAL 0.67% IWM 1.80% TSLA 1.6",
             "BE 주가 밤새 하락: Bloom Energy의 3분기 수익에 앞서 가치 평가에 집중 Bloom Energy의 선도 가격 대비 수익 비율은 Koyfin 데이터에 따라 63.5배로 동종 업체를 초과합니다.",
             "이번 포토 일러스트에는 블룸에너지(Be) 로고가 스마트폰 화면에 표시된 모습이 담겨 있다."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 1.32%, 0.69%, 0.50% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.19%, 0.59%, 0.41% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "BE의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -255259,21 +255742,21 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "1.32%",
-            "0.69%",
-            "0.50%",
-            "5.04%",
-            "2.72%",
-            "1.71%",
-            "4.93%",
-            "1.97%"
+            "1.19%",
+            "0.59%",
+            "0.41%",
+            "3.62%",
+            "7.04%",
+            "12.40%",
+            "14.20%",
+            "5.81%"
           ],
           "sourceExcerpt": [
-            "BE Stock Slips Overnight: Bloom Energy’s Valuation In Focus Ahead Of Q3 Earnings AI Agent Trending News Earnings All DIA 1.32% SPY 0.69% QQQ 0.50% Trending CRWV 5.04% USO 2.72% DJT 1.71% LLY 4.93% QQQ 0.50% PFE 1.97% RAPP 2.76% VICR 8.67% I",
+            "BE Stock Slips Overnight: Bloom Energy’s Valuation In Focus Ahead Of Q3 Earnings AI Agent Trending News Earnings All DIA 1.19% SPY 0.59% QQQ 0.41% Trending SPCX 3.62% NFLX 7.04% SMCI 12.40% SLS 14.20% ISRG 5.81% UAL 0.67% IWM 1.80% TSLA 1.6",
             "BE Stock Slips Overnight: Bloom Energy’s Valuation In Focus Ahead Of Q3 Earnings Bloom Energy's forward price-to-earnings ratio exceeds its peers, at 63.5x as per Koyfin data.",
             "In this photo illustration, the Bloom Energy (Be) logo is seen displayed on a smartphone screen."
           ],
-          "analysisUpdatedAt": 1792507735.590529
+          "analysisUpdatedAt": 1792529834.561401
         }
       },
       {
@@ -255286,24 +255769,22 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "BE 주식은 Oracle Signals 프로젝트 후 3% 추가 Jupiter '빠르게 이동' AI 에이전트 동향 뉴스 수익 전체 DIA 1.28% SPY 0.66% QQQ 0.44% 추세 CRWV 4.29% USO 2.56% DJT 1.09% LLY 4.73% QQQ 0.44% SOXX 0.95% RAPP 3.08% VICR 8.31% GE 2.77% P",
-            "BE 주식은 오라클이 Jupiter 프로젝트를 '빠르게 움직인다'는 신호를 보낸 후 3%를 추가합니다. Project Jupiter 데이터 센터 캠퍼스의 건설이 빠르게 진행되고 있으며 현장에서 강력한 진전을 보이고 있다고 Oracle이 X에 게시한 글에서 밝혔습니다.",
-            "Bloom Energy의 공동 창립자이자 CEO인 Sridhar가 2월 2일 수요일 캘리포니아주 새너제이에 있는 eBay 사무실에서 열린 기자회견에서 연료전지를 들고 있습니다."
+            "BE Stock Adds 3% After Oracle Signals Project Jupiter 'Moving Quickly'",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 3%, 1.28%, 0.66% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "BE의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -255313,30 +255794,18 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "BE에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 BE의 사업과 관련된 'BE Stock Adds 3% After Oracle Signals Project Jupiter 'Moving Quickly'' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "BE 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "3%",
-            "1.28%",
-            "0.66%",
-            "0.44%",
-            "4.29%",
-            "2.56%",
-            "1.09%",
-            "4.73%"
-          ],
-          "sourceExcerpt": [
-            "BE Stock Adds 3% After Oracle Signals Project Jupiter 'Moving Quickly' AI Agent Trending News Earnings All DIA 1.28% SPY 0.66% QQQ 0.44% Trending CRWV 4.29% USO 2.56% DJT 1.09% LLY 4.73% QQQ 0.44% SOXX 0.95% RAPP 3.08% VICR 8.31% GE 2.77% P",
-            "BE Stock Adds 3% After Oracle Signals Project Jupiter 'Moving Quickly' Construction on the Project Jupiter data center campus is moving quickly, with strong progress on site, Oracle said in a post on X.",
-            "Sridhar, co-founder and CEO of Bloom Energy, holds up a fuel cell at a news conference at eBay offices in San Jose, Calif., Wednesday, Feb."
-          ],
-          "analysisUpdatedAt": 1792507739.2050443
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792529835.270968
         }
       },
       {
@@ -258060,15 +258529,15 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1792507143.066666,
-    "_updated_label": "2026-10-20 23:48",
-    "_last_success_at": 1792507143.066666,
+    "_fetched_at": 1792529384.667372,
+    "_updated_label": "2026-10-21 05:57",
+    "_last_success_at": 1792529384.667372,
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-21 02:00"
+      "updated": "2026-10-21 05:57"
     }
   }
 };
