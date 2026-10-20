@@ -707,6 +707,7 @@
 <script src="market_position_card_data.js" onerror="void 0"></script>
 <script src="verdict_scorecard_data.js" onerror="void 0"></script>  <!-- 2026-10-16 WO8-A: 없어도 조용히 건너뜀 -->
 <script src="top100_reference_sample_data.js" onerror="void 0"></script>  <!-- 2026-10-18 WO12-4: 없어도 조용히 건너뜀 -->
+<script>document.write('<script src="price_map_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>  <!-- WO17-5(2026-10-20): 가격 지도(price_map) 화면용 데이터. 142 판단 엔진과 완전히 독립 산출물, 없어도 조용히 건너뜀. -->
 <script>document.write('<script src="ev_sales_history_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>  <!-- WO10-3: EV/Sales 5년 이력(이익훼손형 모델 입력). 없어도 조용히 건너뜀. WO10-FOLLOWUP: 캐시 무효화 추가(smart_money_data.js와 동일 패턴) -->
 <script>
 // ============ 워치리스트 (지수ETF 제외 - 개별 종목 판단용) ============
@@ -3436,6 +3437,59 @@ function toggleRcTier2(ticker){
   const el = document.getElementById('rc-tier2-'+ticker);
   if(el) el.classList.toggle('open');
 }
+// ============ [WO17-5, 2026-10-20] 가격 지도(price_map) 화면 표시 ============
+// price_map_data.js(142 엔진과 완전히 독립적으로 산출된 가격 지도)를 "추가로만" 보여준다 -
+// 기존 판정(computePriceValidity/pvIntegratedAction)·가격 라벨·알림 로직은 이 섹션에서
+// 전혀 호출하지 않고 건드리지도 않는다. 데이터가 없으면(파일 미배포/해당 티커 없음)
+// 조용히 아무것도 안 그린다(기존 카드/탭 레이아웃에 빈 자리가 남지 않음).
+const PM_VERDICT_COLOR = { '매수':'#2f5b3c', '적정':'#3c4552', '고평가':'#7a3b2e' };
+function pmData(ticker){
+  try{
+    return (window.PRICE_MAP_DATA && window.PRICE_MAP_DATA.tickers && window.PRICE_MAP_DATA.tickers[ticker]) || null;
+  }catch(e){ return null; }
+}
+// 4밴드 가격 막대(375px 폭 안전) - bandAggressiveLe(적극 모아가기가) < bandDcaHigh(분할매수가) <
+// fairPrice(중심 적정가) < bandFairHigh(적정 상단) 네 경계로 구간을 나누고 현재가 위치에 점을
+// 찍는다. 구간 경계·가격 자체는 price_map_data.js 값을 그대로 쓸 뿐 여기서 새로 계산하지 않는다.
+function buildPriceMapBarHtml(pm){
+  const pts = [pm.bandAggressiveLe, pm.bandDcaHigh, pm.fairPrice, pm.bandFairHigh].filter(v=>typeof v==='number'&&isFinite(v));
+  if(pts.length<4 || !(typeof pm.currentPrice==='number'&&isFinite(pm.currentPrice))) return '';
+  const lo = Math.min(pts[0], pm.currentPrice) * 0.92;
+  const hi = Math.max(pts[3], pm.currentPrice) * 1.08;
+  const span = hi - lo || 1;
+  const pct = v => Math.max(0, Math.min(100, (v - lo) / span * 100));
+  const segs = [
+    {to: pct(pm.bandAggressiveLe), color:'#2f5b3c'},
+    {to: pct(pm.bandDcaHigh), color:'#5b7a3c'},
+    {to: pct(pm.fairPrice), color:'#7a5c00'},
+    {to: pct(pm.bandFairHigh), color:'#7a3b2e'},
+    {to: 100, color:'#8a2f2f'},
+  ];
+  let prev = 0;
+  const segHtml = segs.map(s=>{
+    const w = Math.max(0, s.to - prev);
+    const html = `<div style="position:absolute;left:${prev}%;width:${w}%;height:100%;background:${s.color};opacity:0.55;"></div>`;
+    prev = s.to;
+    return html;
+  }).join('');
+  const dotPos = pct(pm.currentPrice);
+  return `<div style="position:relative;height:10px;border-radius:5px;overflow:hidden;background:var(--panel-2);margin:4px 0;">${segHtml}<div style="position:absolute;left:${dotPos}%;top:-2px;width:3px;height:14px;background:#111;border-radius:2px;transform:translateX(-1.5px);" title="현재가 $${pm.currentPrice.toFixed(2)}"></div></div>`;
+}
+// 카드 맨 위(기존 3초 판단 줄 바로 위)에 붙는 가격 지도 요약 한 줄(+막대). 기존 가격 라벨
+// (d.price)과 가격 지도 판정(pm.verdict)을 항상 나란히 보여준다(지시: "기존 판정과 가격
+// 지도를 나란히 보여주고") - 둘이 같을 때도 생략하지 않아서 "다를 때만 보인다"는 오해가
+// 생기지 않게 한다.
+function buildPriceMapSummaryHtml(ticker, existingPriceLabel){
+  const pm = pmData(ticker);
+  if(!pm) return '';
+  const vColor = PM_VERDICT_COLOR[pm.verdict] || '#3c4552';
+  return `<div class="rc-pricemap" style="margin-top:4px;padding-top:4px;border-top:1px dashed var(--panel-2);">
+    <div style="font-size:11px;color:${vColor};font-weight:700;">가격 지도: ${esc(pm.verdict)}(${esc(pm.action)})${pm.bizRiskBadge ? ' <span style="color:#7a3b2e;">⚠</span>' : ''}</div>
+    <div class="sub" style="font-size:10.5px;">기존 가격 라벨: <b>${esc(existingPriceLabel||'-')}</b> / 가격 지도 판정: <b style="color:${vColor};">${esc(pm.verdict)}</b></div>
+    <div class="sub" style="font-size:10.5px;">중심 적정가 $${pm.fairPrice.toFixed(2)} · 분할매수가 $${pm.bandDcaHigh.toFixed(2)} · 적극 모아가기가 $${pm.bandAggressiveLe.toFixed(2)} · 신뢰도 ${esc(pm.confidence)}</div>
+    ${buildPriceMapBarHtml(pm)}
+  </div>`;
+}
 function buildResultCardHtml(r){
   const numFn = v => typeof v === 'number' && isFinite(v);
   let d, act, decisionInfo;
@@ -3495,6 +3549,7 @@ function buildResultCardHtml(r){
       <span class="rc-ticker">${esc(r.ticker)}</span>
       <span class="rc-price">$${r.price.toFixed(2)}</span>
     </div>
+    ${buildPriceMapSummaryHtml(r.ticker, d.price)}
     <div class="rc-verdict" style="color:${actionColor};">${esc(act.label)}</div>
     <div class="rc-pricelabel">가격 라벨: <b style="color:${priceColor};">${esc(d.price)}</b>${basePriceDiffTxt}</div>
     ${badgesHtml ? `<div class="rc-badges">${badgesHtml}</div>` : ''}
@@ -3618,7 +3673,7 @@ function refreshOpenDetailIfCurrent(ticker){
 }
 
 function renderTabs(ticker){
-  const tabs = [['01','판단'],['02','가치/퀄리티'],['03','실적'],['04','재무제표'],['05','전망'],['06','뉴스'],['07','적정가']];
+  const tabs = [['01','판단'],['02','가치/퀄리티'],['03','실적'],['04','재무제표'],['05','전망'],['06','뉴스'],['07','적정가'],['08','가격지도']];
   const el = document.getElementById('detailTabs');
   el.innerHTML = tabs.map(([id,label])=>{
     // 05(실적 해석)·06(뉴스 해석)에 Claude가 최근 추가한 조사 기록이 있으면 탭 버튼 자체에 NEW 표시 -
@@ -3660,6 +3715,7 @@ function renderTabContent(ticker){
   else if(activeTab==='05') body.innerHTML = tabForecast(r);
   else if(activeTab==='06') body.innerHTML = tabNews(r);
   else if(activeTab==='07') body.innerHTML = tabFairValue(r);
+  else if(activeTab==='08') body.innerHTML = tabPriceMap(r);
 
   requestAnimationFrame(()=>{
     if(activeTab==='01'){
@@ -14679,6 +14735,51 @@ function tabFairValue100(r){
   <div class="comment-box" style="margin-top:10px;background:var(--warn-bg);color:#876000;">
     매수·매도 신호가 아니에요. q는 과거 후행(GAAP) PER로 잰 비율을 선행 PER에 적용한 값이라 기준이 섞여 있고, 이 범위의 예측력은 검증되지 않았어요.
   </div>${asof}`;
+}
+// ============ [WO17-5, 2026-10-20] 08 가격지도 탭 ============
+// price_map_data.js(142 판단 엔진과 완전히 독립 산출된 가격 지도)의 근거를 그대로 보여준다.
+// 숫자를 다시 계산하거나 요약하면서 바꾸지 않고 산출된 필드를 표시만 한다. 01 판단 탭의
+// 판정·알림 로직은 이 함수에서 전혀 호출하지 않는다.
+function tabPriceMap(r){
+  const pm = pmData(r.ticker);
+  if(!pm) return `<div class="comment-box" style="background:var(--panel-2);">이 종목은 가격 지도 자료(price_map_data.js)가 아직 없어요.</div>`;
+  const usd = v => (typeof v==='number'&&isFinite(v)) ? '$'+v.toFixed(2) : '—';
+  const c = pm.candidates || {};
+  const candRows = [
+    {label:'과거 PER 기준', v:c.historicalPer, note: c.historicalPerYearsUsed ? `최근 ${c.historicalPerYearsUsed}년 평균 사용` : ''},
+    {label:'업종 PER 기준', v:c.sectorPer, note: c.sectorPer==null ? '업종 비교 불가(정상화 비교군 부족) 또는 조건 미해당' : `유효 비교군 ${c.sectorPerValidPeers}개`},
+    {label:'성장률(PEG) 기준', v:c.growthPerPeg, note:''},
+  ];
+  const candHtml = candRows.map(x=>`<li>${esc(x.label)}: ${x.v==null?'<span class="sub">해당 없음</span>':x.v.toFixed(1)+'배'}${x.note?` <span class="sub">(${esc(x.note)})</span>`:''}</li>`).join('');
+  const changesHtml = (pm.recentChanges && pm.recentChanges.length)
+    ? `<ul style="margin:6px 0 0 18px;">${pm.recentChanges.map(ch=>`<li>${esc(ch.date)}: ${usd(ch.prevFairPrice)} → ${usd(ch.newFairPrice)} (${ch.changePct>=0?'+':''}${ch.changePct.toFixed(1)}%) — EPS효과 ${ch.epsEffect>=0?'+':''}${ch.epsEffect.toFixed(1)}%p · PER효과 ${ch.perEffect>=0?'+':''}${ch.perEffect.toFixed(1)}%p${ch.otherEffect?` · 기타 ${ch.otherEffect>=0?'+':''}${ch.otherEffect.toFixed(1)}%p`:''}${ch.note?` <span class="sub">(${esc(ch.note)})</span>`:''}</li>`).join('')}</ul>`
+    : `<div class="sub">최근 변경 이력 없음(최초 산출이거나 아직 변경 없음)</div>`;
+  const warnHtml = (pm.qualityWarnings && pm.qualityWarnings.length)
+    ? `<div class="sub" style="margin-top:6px;color:#876000;">${pm.qualityWarnings.map(esc).join('<br>')}</div>` : '';
+  return `
+  <div class="comment-box" style="background:var(--panel-2);">
+    <div class="sub">가격 지도(price_map) — 142 판단 엔진(01 판단 탭)과 <b>완전히 독립적으로</b> 산출된 참고 가격표예요. 서로 다른 판정이면 그대로 둘 다 보여드려요.</div>
+    <div style="font-size:22px;font-weight:800;margin:6px 0 2px;color:${PM_VERDICT_COLOR[pm.verdict]||'#3c4552'};">${esc(pm.verdict)} · ${esc(pm.action)}</div>
+    <div>현재가 <b>${usd(pm.currentPrice)}</b> · 중심 적정가 <b>${usd(pm.fairPrice)}</b>(현재가/적정가 ${(pm.ratio*100).toFixed(0)}%) · 신뢰도 <b>${esc(pm.confidence)}</b></div>
+    ${buildPriceMapBarHtml(pm)}
+    <div class="sub">적극 모아가기 ${usd(pm.bandAggressiveLe)} 이하 · 분할매수 ${usd(pm.bandDcaHigh)} 이하 · 적정 상단 ${usd(pm.bandFairHigh)}</div>
+    ${pm.modelCheckNeeded ? '<div class="sub" style="color:#b3261e;">⚠ 모델 점검 필요(후보 간 괴리가 커서 자동 산출을 그대로 신뢰하지 않는 게 좋아요)</div>' : ''}
+    ${warnHtml}
+  </div>
+  <div class="comment-box" style="margin-top:10px;">
+    <b>적정가 근거</b>
+    <div class="sub" style="margin-top:2px;">${esc(pm.fairPriceBasis||'')} · 적용 EPS ${usd(pm.epsUsedForCandidates)}${pm.epsBasisNote?` <span class="sub">(${esc(pm.epsBasisNote)})</span>`:''} · 환산 적정 PER ${typeof pm.convertedFairPer==='number'?pm.convertedFairPer.toFixed(1)+'배':'—'}</div>
+    <ul style="margin:6px 0 0 18px;">${candHtml}</ul>
+    <div class="sub" style="margin-top:4px;">종목 유형: ${esc(pm.stockType)}${pm.stockTypeReason?` <span class="sub">(${esc(pm.stockTypeReason)})</span>`:''}</div>
+  </div>
+  <div class="comment-box" style="margin-top:10px;">
+    <b>최근 적정가 변경 내역(최대 3건)</b>
+    ${changesHtml}
+  </div>
+  <div class="comment-box" style="margin-top:10px;">
+    <div class="sub">다음 PER 갱신 예정일(근사치, 실적 발표일 또는 분기 초 기준): <b>${esc(pm.nextUpdateDate||'—')}</b></div>
+    <div class="sub" style="margin-top:4px;color:#5b6472;">기준일 ${esc(pm.asOf)} · 이 탭의 숫자는 142 판단 엔진(01 판단 탭)의 매수/보유/매도 신호·알림을 전혀 바꾸지 않아요.</div>
+  </div>`;
 }
 function tabNews(r){
   const logHtml = renderNewsLog(r.ticker);
