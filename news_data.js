@@ -6783,7 +6783,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 132,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "SPY": {
@@ -15148,7 +15148,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 171,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "MSFT": {
@@ -23153,7 +23153,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "GOOGL": {
@@ -23288,7 +23288,61 @@ const NEWS_DATA = {
         "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "1조 5000억 달러 규모의 인류주 IPO가 여전히 Google에 성과를 거두고 있습니다: “그들은 괜찮을 것입니다”"
+        "headlineKo": "1조 5000억 달러 규모의 인류주 IPO가 여전히 Google에 성과를 거두고 있습니다: “그들은 괜찮을 것입니다”",
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "1조 5천억 달러 규모의 인류주 IPO가 여전히 Google에 성과를 거두고 있습니다. “그들은 괜찮을 것입니다” | TIKR.com General 투자로 1조 5천억 달러의 인류주적 IPO가 Google에 여전히 성과를 거두고 있습니다: “그들은 괜찮을 것입니다” David Beren • 5분 읽기 Rev",
+            "1조 5천억 달러에 달하는 약 12%의 지분은 알파벳에게 약 1,800억 달러의 가치가 될 것이며, 이는 2025년 한 해 동안 알파벳이 벌어들인 것보다 더 많은 것입니다.",
+            "분석가들은 Alphabet의 EPS가 2025년 10.81달러에서 2027년 15.29달러로 증가하고 주식은 25배의 향후 수익으로 거래될 것으로 예상합니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $1.5 Trillion, $1.5 trillion, $2 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "GOOGL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "GOOGL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "GOOGL에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1.0,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$1.5 Trillion",
+            "$1.5 trillion",
+            "$2 trillion",
+            "45%",
+            "12%",
+            "$180 billion",
+            "$10.81",
+            "$15.29"
+          ],
+          "sourceExcerpt": [
+            "A $1.5 Trillion Anthropic IPO Still Pays Off for Google: &#8220;They&#8217;re Gonna Be Fine&#8221; | TIKR.com General Investing A $1.5 Trillion Anthropic IPO Still Pays Off for Google: “They’re Gonna Be Fine” David Beren • 5 minute read Rev",
+            "At $1.5 trillion, a stake of about 12% would be worth about $180 billion to Alphabet, more than Alphabet earned in all of 2025.",
+            "Analysts expect Alphabet’s EPS to grow from $10.81 in 2025 to $15.29 in 2027, and the stock trades at 25x forward earnings."
+          ],
+          "analysisUpdatedAt": 1792486121.4413006
+        }
       },
       {
         "headline": "Third Wheel: Microsoft’s AI Chips Are “Nowhere Close” to NVIDIA or Google per Analyst",
@@ -23552,7 +23606,7 @@ const NEWS_DATA = {
             "At $1.5 trillion, a stake of about 12% would be worth about $180 billion to Alphabet, more than Alphabet earned in all of 2025.",
             "Analysts expect Alphabet’s EPS to grow from $10.81 in 2025 to $15.29 in 2027, and the stock trades at 25x forward earnings."
           ],
-          "analysisUpdatedAt": 1792447535.1254518
+          "analysisUpdatedAt": 1792486121.4413006
         }
       },
       {
@@ -31289,9 +31343,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 187,
-      "removed": 1,
-      "updated": "2026-10-20 17:16"
+      "checked": 186,
+      "removed": 0,
+      "updated": "2026-10-20 17:48"
     }
   },
   "AMZN": {
@@ -39565,7 +39619,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "META": {
@@ -47395,7 +47449,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "AAPL": {
@@ -55289,7 +55343,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "TSLA": {
@@ -63136,7 +63190,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "ORCL": {
@@ -71800,7 +71854,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "CRM": {
@@ -80250,7 +80304,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "PLTR": {
@@ -89301,7 +89355,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "NVDA": {
@@ -97105,7 +97159,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "AMD": {
@@ -105262,7 +105316,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "AVGO": {
@@ -113794,7 +113848,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "QCOM": {
@@ -122574,7 +122628,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "ARM": {
@@ -128766,7 +128820,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "MRVL": {
@@ -137517,7 +137571,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "INTC": {
@@ -146219,7 +146273,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "TSM": {
@@ -154711,7 +154765,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "ASML": {
@@ -161919,7 +161973,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 155,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "AMAT": {
@@ -168824,7 +168878,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 143,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "LRCX": {
@@ -172683,7 +172737,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "KLAC": {
@@ -175921,7 +175975,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "MU": {
@@ -184039,7 +184093,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "SNDK": {
@@ -192917,7 +192971,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "WDC": {
@@ -198946,7 +199000,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 126,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "ANET": {
@@ -203770,7 +203824,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 95,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "COHR": {
@@ -208175,7 +208229,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "LITE": {
@@ -213386,7 +213440,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "GEV": {
@@ -219451,7 +219505,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "CEG": {
@@ -225036,7 +225090,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "VST": {
@@ -229317,7 +229371,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "ETN": {
@@ -233250,7 +233304,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 80,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "PWR": {
@@ -236615,7 +236669,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "HUBB": {
@@ -237622,7 +237676,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "VRT": {
@@ -242414,7 +242468,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 95,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "MOD": {
@@ -243987,7 +244041,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "STX": {
@@ -249254,7 +249308,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 113,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "EME": {
@@ -251455,7 +251509,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "FIX": {
@@ -253437,7 +253491,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   },
   "BE": {
@@ -256519,7 +256573,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-10-20 17:16"
+      "updated": "2026-10-20 17:48"
     }
   }
 };
