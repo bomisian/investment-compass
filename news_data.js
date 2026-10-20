@@ -6927,7 +6927,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "SPY": {
@@ -15520,7 +15520,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 177,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "MSFT": {
@@ -23561,7 +23561,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "GOOGL": {
@@ -31655,7 +31655,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "AMZN": {
@@ -39739,7 +39739,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "META": {
@@ -39984,76 +39984,6 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1791821205.3960755
-        }
-      },
-      {
-        "headline": "Mark Cuban says Facebook knowingly runs AI deepfake scam ads as Meta docs reveal $16 billion in fraud-linked revenue",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2bae9b1f767db0945e28868e3655092c7cb6a370ccc23414053f8d3deb06c5f5",
-        "datetime": 1791322200,
-        "headlineKo": "Mark Cuban은 Meta 문서에서 사기 관련 수익이 160억 달러에 달하는 것으로 밝혀지면서 Facebook이 고의로 AI 딥페이크 사기 광고를 운영하고 있다고 말했습니다.",
-        "relevance": 1.0,
-        "keywordFlag": true,
-        "flagTerms": [
-          "fraud"
-        ],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 META의 사업과 관련된 'Mark Cuban says Facebook knowingly runs AI deepfake scam ads as Meta docs reveal $16 billion in fraud-linked revenue' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: META에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
-          "relevance": 1.0,
-          "quality": "high",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791344927.399683
         }
       }
     ],
@@ -47549,9 +47479,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 187,
+      "checked": 186,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "AAPL": {
@@ -55345,7 +55275,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "TSLA": {
@@ -63208,7 +63138,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "ORCL": {
@@ -71876,7 +71806,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "CRM": {
@@ -80377,7 +80307,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "PLTR": {
@@ -89458,7 +89388,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "NVDA": {
@@ -97261,7 +97191,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "AMD": {
@@ -105376,7 +105306,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "AVGO": {
@@ -113793,7 +113723,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "QCOM": {
@@ -122688,7 +122618,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "ARM": {
@@ -128880,7 +128810,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "MRVL": {
@@ -137773,7 +137703,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "INTC": {
@@ -146471,7 +146401,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "TSM": {
@@ -154946,7 +154876,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "ASML": {
@@ -162358,7 +162288,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 158,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "AMAT": {
@@ -169312,7 +169242,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "LRCX": {
@@ -173355,7 +173285,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "KLAC": {
@@ -176593,7 +176523,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "MU": {
@@ -184816,7 +184746,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "SNDK": {
@@ -193777,7 +193707,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "WDC": {
@@ -199955,7 +199885,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "ANET": {
@@ -204913,7 +204843,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "COHR": {
@@ -209381,7 +209311,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "LITE": {
@@ -214592,7 +214522,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "GEV": {
@@ -220704,7 +220634,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "CEG": {
@@ -226312,7 +226242,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "VST": {
@@ -230630,7 +230560,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "ETN": {
@@ -234752,7 +234682,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "PWR": {
@@ -238117,7 +238047,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "HUBB": {
@@ -239182,7 +239112,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "VRT": {
@@ -244114,7 +244044,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "MOD": {
@@ -245734,7 +245664,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "STX": {
@@ -251160,7 +251090,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "EME": {
@@ -253459,7 +253389,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "FIX": {
@@ -255490,7 +255420,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   },
   "BE": {
@@ -258577,7 +258507,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-21 06:00"
+      "updated": "2026-10-21 06:30"
     }
   }
 };
