@@ -6927,7 +6927,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "SPY": {
@@ -15520,7 +15520,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 177,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "MSFT": {
@@ -23561,7 +23561,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "GOOGL": {
@@ -31655,7 +31655,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "AMZN": {
@@ -39739,7 +39739,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "META": {
@@ -47551,7 +47551,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "AAPL": {
@@ -55345,7 +55345,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "TSLA": {
@@ -63208,7 +63208,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "ORCL": {
@@ -71876,7 +71876,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "CRM": {
@@ -80377,7 +80377,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "PLTR": {
@@ -80512,7 +80512,47 @@ const NEWS_DATA = {
         "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "PLTR 주식의 가장 큰 위험은 성장 둔화가 아니라 가격이라고 분석가는 경고합니다. 가치 평가는 이미 '뛰어난 실행의 해'에 구워지고 있습니다."
+        "headlineKo": "PLTR 주식의 가장 큰 위험은 성장 둔화가 아니라 가격이라고 분석가는 경고합니다. 가치 평가는 이미 '뛰어난 실행의 해'에 구워지고 있습니다.",
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "PLTR 주식의 가장 큰 위험은 성장 둔화가 아니라 가격이라고 분석가는 경고합니다. 가치 평가는 이미 '뛰어난 실행의 해'에 구워지고 있습니다.",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'PLTR 주식의 가장 큰 위험은 성장 둔화가 아니라 가격이라고 분석가는 경고합니다. 가치 평가는 이미 '뛰어난 실행의 해'에 구워지고 있습니다.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "PLTR 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1792530002.9458609
+        }
       },
       {
         "headline": "Palantir: Higher Fair Value But Not Enough So I Switched From Bullish To Neutral",
@@ -80889,7 +80929,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "PLTR Stock’s Biggest Risk Isn’t Slowing Growth, but Its Price, Analyst Warns — Valuation Already Bakes In ‘Years of Exceptional Execution’",
+            "PLTR 주식의 가장 큰 위험은 성장 둔화가 아니라 가격이라고 분석가는 경고합니다. 가치 평가는 이미 '뛰어난 실행의 해'에 구워지고 있습니다.",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -80913,13 +80953,13 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 PLTR의 사업과 관련된 'PLTR Stock’s Biggest Risk Isn’t Slowing Growth, but Its Price, Analyst Warns — Valuation Already Bakes In ‘Years of Exceptional Execution’' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'PLTR 주식의 가장 큰 위험은 성장 둔화가 아니라 가격이라고 분석가는 경고합니다. 가치 평가는 이미 '뛰어난 실행의 해'에 구워지고 있습니다.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "PLTR 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1.0,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1792507313.7069833
+          "analysisUpdatedAt": 1792530002.9458609
         }
       },
       {
@@ -89416,9 +89456,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 189,
-      "removed": 1,
-      "updated": "2026-10-21 05:57"
+      "checked": 188,
+      "removed": 0,
+      "updated": "2026-10-21 06:00"
     }
   },
   "NVDA": {
@@ -97221,7 +97261,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "AMD": {
@@ -105336,7 +105376,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "AVGO": {
@@ -113753,7 +113793,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "QCOM": {
@@ -122648,7 +122688,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "ARM": {
@@ -128840,7 +128880,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "MRVL": {
@@ -137733,7 +137773,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "INTC": {
@@ -146431,7 +146471,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "TSM": {
@@ -154906,7 +154946,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "ASML": {
@@ -162318,7 +162358,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 158,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "AMAT": {
@@ -169272,7 +169312,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "LRCX": {
@@ -173315,7 +173355,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "KLAC": {
@@ -176553,7 +176593,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "MU": {
@@ -184776,7 +184816,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "SNDK": {
@@ -193737,7 +193777,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "WDC": {
@@ -199915,7 +199955,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "ANET": {
@@ -204873,7 +204913,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "COHR": {
@@ -209341,7 +209381,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "LITE": {
@@ -214552,7 +214592,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "GEV": {
@@ -220664,7 +220704,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "CEG": {
@@ -226272,7 +226312,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "VST": {
@@ -230590,7 +230630,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "ETN": {
@@ -234712,7 +234752,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "PWR": {
@@ -238077,7 +238117,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "HUBB": {
@@ -239142,7 +239182,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "VRT": {
@@ -244074,7 +244114,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "MOD": {
@@ -245694,7 +245734,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "STX": {
@@ -251120,7 +251160,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "EME": {
@@ -253419,7 +253459,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "FIX": {
@@ -255450,7 +255490,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   },
   "BE": {
@@ -258537,7 +258577,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-21 05:57"
+      "updated": "2026-10-21 06:00"
     }
   }
 };
