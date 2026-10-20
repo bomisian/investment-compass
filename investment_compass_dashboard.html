@@ -4022,7 +4022,7 @@ function buildValuationReasonablenessHtml(r){
   const eps = (typeof EPS_DATA !== 'undefined') ? EPS_DATA[r.ticker] : null;
 
   const lines = [];
-  lines.push(`Forward PER <b>${fwd.anchorPe.toFixed(0)}배</b> · 내년 예상 EPS 성장 <b>${fwd.growth>=0?'+':''}${(fwd.growth*100).toFixed(0)}%</b>${growthRateTrendNote(r)}`);
+  lines.push(`Forward PER <b>${fwd.anchorPe.toFixed(1)}배</b> · 내년 예상 EPS 성장 <b>${fwd.growth>=0?'+':''}${(fwd.growth*100).toFixed(1)}%</b>${growthRateTrendNote(r)}`);
   // 2026-09-11 수정(외부 검토로 발견, A6 - AAPL $9.57/$9.53 사례) - 위 "내년 예상 EPS 성장"
   // (fwd.growth)은 ESTIMATES_DATA(야후, eps0/eps1)로 계산하고, 바로 아래 "EPS 컨센서스는
   // 최근 상향/하향"은 EPS_DATA(Alpha Vantage, 별도 수집기)를 쓴다 - 두 수집원이 대상 회계
@@ -4039,7 +4039,7 @@ function buildValuationReasonablenessHtml(r){
   }
   if(peg!=null){
     const pegTone = peg<=1 ? '저평가 쪽' : peg>=2 ? '고평가 쪽' : '중간 수준';
-    lines.push(`PEG(Forward PER÷성장률) <b>${peg.toFixed(2)}배</b> - ${pegTone}(1 이하 저평가/2 이상 고평가 기준)`);
+    lines.push(`PEG <b>${peg.toFixed(2)}배</b> - ${pegTone}(1 이하 저평가/2 이상 고평가 기준) <span class="sub" style="font-size:10px;">(별도 제공처 컨센서스 PER·성장률 기준 — 위 Forward PER·성장률과 정의가 달라 직접 나누면 똑같이 안 나올 수 있어요)</span>`);
   }
 
   let zoneHtml;
@@ -6827,8 +6827,13 @@ function computePriceValidity(r){
       priceHold = vetoReason;
     }
 
+    // WO16-0 item3(2026-10-20) -- PEG 배지(peg.toFixed(2))와 사용자가 직접 나눠볼 수 있는
+    // NTM PER-성장률 원값을 같은 소수점 1자리로 나란히 보여준다. 전에는 이 괄호가 없어서
+    // 화면 다른 곳의 정수 반올림 PER(예: 18배)로 손으로 나눠보면(18÷30=0.60) 실제 계산에
+    // 쓴 소수 값(예: 18.3÷30=0.61)과 달라 보일 수 있었음 -- 계산값은 그대로 두고, 계산에
+    // 실제로 쓴 원값만 노출.
     const pegText = peg!=null
-      ? `PEG(NTM PER÷성장률) ${peg.toFixed(2)}배${cagr2yPct!=null?` — 성장률 급등 구간(다음 회계연도 +${growthPct.toFixed(1)}%)이라 EPS 금액 기준 2개년 CAGR(+${cagr2yPct.toFixed(1)}%)과 비교해 더 낮은(보수적인) 쪽 사용`:''}`
+      ? `PEG(NTM PER÷성장률) ${peg.toFixed(2)}배(=${ntmPer.toFixed(1)}÷${growthPctForPeg.toFixed(1)})${cagr2yPct!=null?` — 성장률 급등 구간(다음 회계연도 +${growthPct.toFixed(1)}%)이라 EPS 금액 기준 2개년 CAGR(+${cagr2yPct.toFixed(1)}%)과 비교해 더 낮은(보수적인) 쪽 사용`:''}`
       : (cagrUncomputable ? '기준연도 EPS 추정이 0 이하이거나 적자→흑자 전환이라 PEG 계산 불가(기저효과 가능성 — 신뢰도 한 단계 감점)'
          : (growthPct!=null && growthPct<=0 ? `다음 회계연도 성장률 ${growthPct.toFixed(1)}%로 0 이하 — PEG 계산 불가(가격 부담 가산 요인)` : 'NTM PER 또는 성장률 데이터 부족 — PEG 계산 불가'));
 
@@ -7634,19 +7639,23 @@ function pvConsensusZone(d, r, num){
   }
 
   const sg = (typeof SIGMA_DATA !== 'undefined') ? SIGMA_DATA[r.ticker] : null;
-  if(sg && num(sg.lower1Sigma) && num(sg.upper1Sigma) && sg.lower1Sigma > 0 && sg.upper1Sigma > sg.lower1Sigma){
+  const sgExpired = !!(sg && sg.expirationDate && new Date(String(sg.expirationDate) + 'T23:59:59') < new Date());
+  let optionExpiredNote = null;
+  if(sgExpired){
+    optionExpiredNote = `옵션 범위 만료(만기 ${sg.expirationDate} 지남 — 합의 구간 계산에서 제외)`;
+  } else if(sg && num(sg.lower1Sigma) && num(sg.upper1Sigma) && sg.lower1Sigma > 0 && sg.upper1Sigma > sg.lower1Sigma){
     segs.push({name: '옵션 IV 주간 ±1시그마', low: sg.lower1Sigma, high: sg.upper1Sigma});
   }
 
   if(segs.length < 2){
-    return {ok: false, segs, reason: `근거 부족(확인된 소스 ${segs.length}개 — 2개 이상 필요) → 합의 구간 계산 안 함`};
+    return {ok: false, segs, optionExpiredNote, reason: `근거 부족(확인된 소스 ${segs.length}개 — 2개 이상 필요)${optionExpiredNote ? ' · ' + optionExpiredNote : ''} → 합의 구간 계산 안 함`};
   }
 
   const lo = Math.max(...segs.map(s => s.low));
   const hi = Math.min(...segs.map(s => s.high));
   if(!(hi > lo)){
     const detail = segs.map(s => `${s.name} $${s.low.toFixed(2)}~$${s.high.toFixed(2)}`).join(' · ');
-    return {ok: false, segs, reason: `근거 불일치 — 서로 겹치는 구간 없음(${detail}) → 진입 보류`};
+    return {ok: false, segs, optionExpiredNote, reason: `근거 불일치 — 서로 겹치는 구간 없음(${detail}) → 진입 보류`};
   }
 
   const mid = (lo + hi) / 2;
@@ -7685,8 +7694,8 @@ function pvConsensusZone(d, r, num){
 
   return {
     ok: true, segs, low: fLo, high: fHi, tier1, tier2, tier3,
-    stopLine, stopTriggered, invalidParts,
-    note: `${segs.length}개 소스 교집합(${segs.map(s => s.name).join(' · ')})`
+    stopLine, stopTriggered, invalidParts, optionExpiredNote,
+    note: `${segs.length}개 소스 교집합(${segs.map(s => s.name).join(' · ')})${optionExpiredNote ? ' · ' + optionExpiredNote : ''}`
   };
 }
 
@@ -8046,9 +8055,14 @@ function renderPriceValidityCard(r){
 
   // --- 가격 위치 요약(51735 P1 그대로 재사용, 숫자 밴드가 있을 때만) ---
   const posSeg = pvPositionSegment(d, r, num);
-  const priceLocLine = (bandDisplayEligible && posSeg)
-    ? ` · 기준값 대비 <b>${posSeg.pct>=0?'+':''}${posSeg.pct.toFixed(1)}%</b>(${esc(posSeg.actionBand)})`
-    : '';
+  // WO16-0 item1(2026-10-20) -- "판단 유보(모델 불신)"인데도 이 줄에 괴리율·구간 이름이 그대로
+  // 남아 매수 신호처럼 읽히던 버그(AMAT/ORCL 실측) 수정. pvIsModelDistrust면 숫자·구간 이름을
+  // 전부 빼고 짧은 문구만 보여준다 - 판정(d.price) 자체는 바꾸지 않음.
+  const priceLocLine = pvIsModelDistrust
+    ? ` <span class="sub" style="font-size:10.5px;">· 모델 불신 — 가격 구간 판단 안 함</span>`
+    : (bandDisplayEligible && posSeg)
+      ? ` · 기준값 대비 <b>${posSeg.pct>=0?'+':''}${posSeg.pct.toFixed(1)}%</b>(${esc(posSeg.actionBand)})`
+      : '';
 
   // --- 51748 -- 카드 최상단 고정 5줄(현재 가격 판단/신뢰도/핵심 근거/위험 또는 반대 근거/
   //     차트)을 사용자 지정 형식 그대로 구현한다. "가격 판단 보류"가 없어졌으므로 모든
@@ -8271,9 +8285,15 @@ function renderPriceValidityCard(r){
   //     매수 구간처럼 보여주지 않고, "대체 모델상 [가격] 판단"으로만 안내한다(사용자 지시
   //     5번). ---
   const posLine = pvPositionLine(d, r, num);
-  const positionBox = bandDisplayEligible
-    ? (posLine ? `<div style="margin-top:8px;font-size:12px;color:${NEU_TEXT};background:${NEU_BG};border-radius:8px;padding:8px 10px;line-height:1.5;">${posLine}</div>` : '')
-    : `<div style="margin-top:8px;font-size:11.5px;color:${NEU_DIM};background:${NEU_BG};border:1px solid ${NEU_LINE};border-radius:8px;padding:8px 10px;line-height:1.5;">숫자 가격대 대신 <b>대체 모델상 ${esc(d.price)} 판단</b> — ${esc(d.distorted ? ('과거 PER 비교 가능성 제한(평균÷현재NTM PER ' + (num(d.distortionRatio)?d.distortionRatio.toFixed(1):'—') + '배 차이)') : (d.blockReason||'유효한 과거 PER 밴드 없음'))}. 사업·현금흐름·차트는 아래 "판단 근거 보기"에서 계속 확인할 수 있습니다.</div>`;
+  // WO16-0 item1(2026-10-20) -- "현재가 X는 모델 기준 가격대의 보수 구간보다 낮음(분할 검토
+  // 구간)에 있으며..." 문장이 판단 유보(모델 불신) 종목(ORCL 등)에도 그대로 나와 매수 신호로
+  // 읽히던 버그 수정. pvIsModelDistrust면 숫자 구간·행동 구간 이름을 보여주지 않고, 모델을
+  // 못 믿는 이유(priceAlertNote, 이미 계산돼 있음)만 짧게 보여준다.
+  const positionBox = pvIsModelDistrust
+    ? `<div style="margin-top:8px;font-size:11.5px;color:${NEU_DIM};background:${NEU_BG};border:1px solid ${NEU_LINE};border-radius:8px;padding:8px 10px;line-height:1.5;"><b>모델 불신 — 가격 구간 판단 안 함</b> — ${esc(d.priceAlertNote || '기준가가 현재가와 지나치게 벌어져 숫자 구간을 신뢰할 수 없습니다.')} 사업·현금흐름·차트는 아래 "판단 근거 보기"에서 계속 확인할 수 있습니다.</div>`
+    : bandDisplayEligible
+      ? (posLine ? `<div style="margin-top:8px;font-size:12px;color:${NEU_TEXT};background:${NEU_BG};border-radius:8px;padding:8px 10px;line-height:1.5;">${posLine}</div>` : '')
+      : `<div style="margin-top:8px;font-size:11.5px;color:${NEU_DIM};background:${NEU_BG};border:1px solid ${NEU_LINE};border-radius:8px;padding:8px 10px;line-height:1.5;">숫자 가격대 대신 <b>대체 모델상 ${esc(d.price)} 판단</b> — ${esc(d.distorted ? ('과거 PER 비교 가능성 제한(평균÷현재NTM PER ' + (num(d.distortionRatio)?d.distortionRatio.toFixed(1):'—') + '배 차이)') : (d.blockReason||'유효한 과거 PER 밴드 없음'))}. 사업·현금흐름·차트는 아래 "판단 근거 보기"에서 계속 확인할 수 있습니다.</div>`;
 
   // --- 51757 -- "가격: X" 헤드라인(PER 밴드 비교)과 바로 아래 position 문장(3년 평균 PER
   //     기준 EPS 시나리오 비교)이 서로 다른 잣대를 쓰다 보니, 같은 카드 안에서 "적정"인데
@@ -8282,7 +8302,10 @@ function renderPriceValidityCard(r){
   //     표 숫자도 전혀 바꾸지 않고, 두 표현이 왜 다른 기준인지 설명하는 문장만 조건부로
   //     추가한다. ---
   let positionMismatchNote = '';
-  if(posSeg && bandDisplayEligible && typeof posSeg.pct === 'number'){
+  // WO16-0 item1 -- 이 모순 설명 노트도 판단 유보(모델 불신) 종목에는 띄우지 않는다(위
+  // positionBox가 이미 숫자 구간을 숨기므로 "가격 판정은 PER 밴드 안에 있는지로..." 설명
+  // 자체가 성립하지 않음).
+  if(posSeg && bandDisplayEligible && !pvIsModelDistrust && typeof posSeg.pct === 'number'){
     // 기준(base, 3년 평균 PER) 대비 괴리율이 눈에 띄게 크면(±15%p) "가격: 적정/저평가/고평가"
     // 헤드라인과 다르게 보일 수 있음 — posLabel(보수/기준~상방/상방 이상) 구간 경계가 아니라
     // pct 자체로 판단해야 실제로 눈에 띄는 괴리(WDC: 기준~상방 구간인데도 +19%)를 놓치지 않는다.
@@ -8290,7 +8313,24 @@ function renderPriceValidityCard(r){
     const lowMismatch = (posSeg.pct <= -15) && (d.price !== '저평가');
     if(highMismatch || lowMismatch){
       const perTxt = `현재 NTM PER ${num(d.ntmPer)?d.ntmPer.toFixed(1):'—'}배, 밴드 ${num(d.perBandLowVal)?d.perBandLowVal.toFixed(1):'—'}~${num(d.perBandHighVal)?d.perBandHighVal.toFixed(1):'—'}배`;
-      positionMismatchNote = `<div style="margin-top:4px;font-size:11px;color:${NEU_DIM};background:#fff8ea;border:1px solid #e9dcb8;border-radius:8px;padding:7px 9px;line-height:1.5;">※ 위 "가격: ${esc(d.price)}" 판정과 바로 위 문장이 다르게 느껴질 수 있어요 — 서로 다른 기준입니다. "가격" 판정은 <b>PER 밴드</b>(${perTxt}) 안에 있는지로 결정되고, 바로 위 문장은 <b>3년 평균 PER</b>을 기준값으로 쓴 EPS 시나리오 비교예요. 둘 다 맞는 계산이고 모순이 아니지만, 서로 다른 질문에 대한 답이라 다르게 보일 수 있습니다.</div>`;
+      // WO16-0 item2(2026-10-20) -- "PER 밴드 안에 있는지로 결정됩니다"라는 고정 문구가
+      // 실제로는 밴드 밖인 경우(이 노트가 뜨는 경우 거의 전부)에도 그대로 나와 판정과 설명이
+      // 어긋나 보이던 버그 수정. 밴드 안/위/아래 + 실제 이탈률(%)을 숫자로 자동 생성한다
+      // (새 임계값·새 판정 아님 - 이미 계산된 d.ntmPer/perBandLowVal/perBandHighVal로
+      // 비교만 다시 함).
+      let perBandStatusTxt;
+      if(num(d.ntmPer) && num(d.perBandHighVal) && d.ntmPer > d.perBandHighVal && d.perBandHighVal > 0){
+        const overPct = (d.ntmPer/d.perBandHighVal - 1) * 100;
+        perBandStatusTxt = `현재 PER이 밴드 상단보다 <b>${overPct.toFixed(0)}% 높아 밴드 밖</b>`;
+      } else if(num(d.ntmPer) && num(d.perBandLowVal) && d.perBandLowVal > 0 && d.ntmPer < d.perBandLowVal){
+        const underPct = (1 - d.ntmPer/d.perBandLowVal) * 100;
+        perBandStatusTxt = `현재 PER이 밴드 하단보다 <b>${underPct.toFixed(0)}% 낮아 밴드 밖</b>`;
+      } else if(num(d.ntmPer) && num(d.perBandLowVal) && num(d.perBandHighVal)){
+        perBandStatusTxt = `현재 PER이 <b>밴드 안</b>`;
+      } else {
+        perBandStatusTxt = `밴드 비교 불가(데이터 부족)`;
+      }
+      positionMismatchNote = `<div style="margin-top:4px;font-size:11px;color:${NEU_DIM};background:#fff8ea;border:1px solid #e9dcb8;border-radius:8px;padding:7px 9px;line-height:1.5;">※ 위 "가격: ${esc(d.price)}" 판정과 바로 위 문장이 다르게 느껴질 수 있어요 — 서로 다른 기준입니다. "가격" 판정은 <b>PER 밴드</b>(${perTxt})를 기준으로 하며, ${perBandStatusTxt}입니다. 바로 위 문장은 <b>3년 평균 PER</b>을 기준값으로 쓴 EPS 시나리오 비교예요. 둘 다 맞는 계산이고 모순이 아니지만, 서로 다른 질문에 대한 답이라 다르게 보일 수 있습니다.</div>`;
     }
   }
 
@@ -8451,7 +8491,11 @@ function renderPriceValidityCard(r){
   }
 
   let bandHtml = '';
-  if(d.bandEligible && d.bandTable && !d.distorted){
+  // WO16-0 item1(2026-10-20) -- "판단 근거 보기" 접힘 섹션 안의 이 가격대 표에도
+  // posLine(기준값 대비 ±% · 분할 검토 구간 등)이 pvIsModelDistrust 여부와 무관하게
+  // 그대로 나오던 버그(AMAT/ORCL 실측) 수정. 위 요약 박스(positionBox)와 똑같은 기준으로
+  // 모델 불신이면 숫자·구간 문구를 빼고 짧은 사유문으로 대체한다.
+  if(d.bandEligible && d.bandTable && !d.distorted && !pvIsModelDistrust){
     const bt = d.bandTable;
     bandHtml = `
       <div style="margin-top:10px;">
@@ -8464,6 +8508,16 @@ function renderPriceValidityCard(r){
           <tr><td style="text-align:left;color:${NEU_DIM};font-weight:700;padding:6px 4px;">상방(기대 선반영 경계)</td><td style="text-align:center;padding:6px 4px;">$${bt.upside.eps.toFixed(2)}</td><td style="text-align:center;padding:6px 4px;">${bt.upside.per.toFixed(1)}배(고밴드)</td><td style="text-align:center;padding:6px 4px;">$${bt.upside.price.toFixed(1)}</td></tr>
         </table>
         <div style="margin-top:6px;font-size:10.3px;color:${NEU_DIM};font-style:italic;">이 가격대는 애널리스트 EPS 저위·평균·고위 추정치와 해당 종목의 과거 PER 범위(${d.bandBasis==='ticker'?'종목 자신의 중앙값 기반 백분위':'상장 이력 부족으로 전체 통계 폴백'})를 결합한 조건부 모델 기준 시나리오입니다. 실제 적정가나 목표가를 보장하지 않으며, 현재 가격에 맞춰 배수나 성장률을 조정하지 않았습니다.</div>
+      </div>`;
+  } else if(pvIsModelDistrust){
+    // WO16-0 item1 -- 모델 불신은 밴드 자체가 없는 게 아니라(d.bandEligible은 보통 true)
+    // "기준가/현재가 비율이 너무 벌어져 그 밴드를 못 믿는다"는 별도 사유라, 위 !bandEligible/
+    // distorted용 문구("유효한 과거 PER 밴드 없음" 등)를 그대로 쓰면 틀린 설명이 된다.
+    // d.priceAlertNote(이미 계산돼 있음)로 왜 못 믿는지만 보여주고, 숫자 밴드는 보여주지 않는다.
+    bandHtml = `
+      <div style="margin-top:10px;">
+        <div style="font-size:11.5px;font-weight:800;color:${NEU_DIM};margin-bottom:4px;">EPS·현금흐름 전제의 모델 기준 가격대</div>
+        <div style="font-size:11.5px;color:${NEU_TEXT};background:${NEU_BG};border:1px solid ${NEU_LINE};border-radius:8px;padding:9px 11px;line-height:1.6;"><span style="display:inline-block;margin-bottom:5px;font-size:10px;font-weight:700;padding:1px 7px;border-radius:5px;color:#7a3b2e;background:#fdecea;border:1px solid #e9b3a8;">모델 불신 — 숫자 가격대 판단 안 함</span><br><b>숫자 가격대 자체를 신뢰하지 않습니다.</b> ${esc(d.priceAlertNote || '기준가가 현재가와 지나치게 벌어져 과거 PER 밴드를 신뢰할 수 없습니다.')} 가격 결론(${esc(d.price)})은 그대로 유지되며, 사업·현금흐름·차트 평가도 바뀌지 않습니다.</div>
       </div>`;
   } else {
     // 51748 -- !bandEligible(유효 과거 PER 밴드 없음) 또는 distorted(과거 PER 비교 가능성
