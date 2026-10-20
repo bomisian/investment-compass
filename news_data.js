@@ -6899,7 +6899,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "SPY": {
@@ -15394,7 +15394,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 175,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "MSFT": {
@@ -23426,7 +23426,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "GOOGL": {
@@ -23689,18 +23689,6 @@ const NEWS_DATA = {
           ],
           "analysisUpdatedAt": 1792078798.2559261
         }
-      },
-      {
-        "headline": "Google, Constellation Energy Strike Deal for Nuclear Power",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=28380b6170d99638d5dc37706d946c6908e0aaa412c188423614957ac393c426",
-        "datetime": 1791304281,
-        "headlineKo": "구글, 원자력 발전을 위한 Constellation Energy 파업 계약",
-        "relevance": 1.0,
-        "keywordFlag": true,
-        "flagTerms": [
-          "strike"
-        ]
       }
     ],
     "newsHistory": [
@@ -31570,9 +31558,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 187,
+      "checked": 186,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "AMZN": {
@@ -39792,7 +39780,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "META": {
@@ -47568,7 +47556,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "AAPL": {
@@ -55326,7 +55314,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "TSLA": {
@@ -63203,7 +63191,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "ORCL": {
@@ -71832,7 +71820,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "CRM": {
@@ -80308,7 +80296,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "PLTR": {
@@ -89413,7 +89401,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "NVDA": {
@@ -97203,7 +97191,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "AMD": {
@@ -105439,7 +105427,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "AVGO": {
@@ -113955,7 +113943,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "QCOM": {
@@ -122766,7 +122754,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "ARM": {
@@ -128958,7 +128946,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "MRVL": {
@@ -137851,7 +137839,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "INTC": {
@@ -146553,7 +146541,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "TSM": {
@@ -155028,7 +155016,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "ASML": {
@@ -162363,7 +162351,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 157,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "AMAT": {
@@ -169317,7 +169305,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "LRCX": {
@@ -173303,7 +173291,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "KLAC": {
@@ -176541,7 +176529,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "MU": {
@@ -184712,7 +184700,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "SNDK": {
@@ -193633,7 +193621,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "WDC": {
@@ -199811,7 +199799,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "ANET": {
@@ -204769,7 +204757,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "COHR": {
@@ -209174,7 +209162,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "LITE": {
@@ -214385,7 +214373,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "GEV": {
@@ -220497,7 +220485,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "CEG": {
@@ -220707,18 +220695,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "CIBC는 실적이 우수한 등급으로 Constellation Energy에 대한 보도를 시작하고 $358의 목표 가격을 발표했습니다."
-      },
-      {
-        "headline": "Google, Constellation Energy Strike Deal for Nuclear Power",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=28380b6170d99638d5dc37706d946c6908e0aaa412c188423614957ac393c426",
-        "datetime": 1791304281,
-        "headlineKo": "구글, 원자력 발전을 위한 Constellation Energy 파업 계약",
-        "relevance": 1,
-        "keywordFlag": true,
-        "flagTerms": [
-          "strike"
-        ]
       }
     ],
     "newsHistory": [
@@ -226080,9 +226056,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 119,
+      "checked": 118,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "VST": {
@@ -230349,7 +230325,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "ETN": {
@@ -234423,7 +234399,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "PWR": {
@@ -237788,7 +237764,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "HUBB": {
@@ -238795,7 +238771,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "VRT": {
@@ -243727,7 +243703,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "MOD": {
@@ -245347,7 +245323,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "STX": {
@@ -250696,7 +250672,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 115,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "EME": {
@@ -252946,7 +252922,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "FIX": {
@@ -254977,7 +254953,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   },
   "BE": {
@@ -258092,7 +258068,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-10-20 23:49"
+      "updated": "2026-10-21 02:00"
     }
   }
 };
