@@ -14766,7 +14766,18 @@ function tabPriceMap(r){
   ];
   const candHtml = candRows.map(x=>`<li>${esc(x.label)}: ${x.v==null?'<span class="sub">해당 없음</span>':x.v.toFixed(1)+'배'}${x.note?` <span class="sub">(${esc(x.note)})</span>`:''}</li>`).join('');
   const changesHtml = (pm.recentChanges && pm.recentChanges.length)
-    ? `<ul style="margin:6px 0 0 18px;">${pm.recentChanges.map(ch=>`<li>${esc(ch.date)}: ${usd(ch.prevFairPrice)} → ${usd(ch.newFairPrice)} (${ch.changePct>=0?'+':''}${ch.changePct.toFixed(1)}%) — EPS효과 ${ch.epsEffect>=0?'+':''}${ch.epsEffect.toFixed(1)}%p · PER효과 ${ch.perEffect>=0?'+':''}${ch.perEffect.toFixed(1)}%p${ch.otherEffect?` · 기타 ${ch.otherEffect>=0?'+':''}${ch.otherEffect.toFixed(1)}%p`:''}${ch.note?` <span class="sub">(${esc(ch.note)})</span>`:''}</li>`).join('')}</ul>`
+    ? `<ul style="margin:6px 0 0 18px;">${pm.recentChanges.map(ch=>{
+        // WO17-9(2026-10-20 밤) - decompose_price_change()는 종목유형이 바뀐 구간처럼
+        // "같은 기준으로 못 쪼개는" 경우 EPS효과/PER효과를 null로 두고 변화 전부를
+        // other_effect(기타)에 몰아준다(엔진 쪽 설계 그대로, 숫자를 지어내지 않음) - 화면도
+        // null을 안전하게 "해당없음"으로 보여준다(이전엔 .toFixed() 호출 중 TypeError로
+        // 탭 전체가 죽었음 - 렌더링 버그였고 엔진 계산과는 무관).
+        const num = v => (typeof v==='number'&&isFinite(v));
+        const epsTxt = num(ch.epsEffect) ? `${ch.epsEffect>=0?'+':''}${ch.epsEffect.toFixed(1)}%p` : '해당없음';
+        const perTxt = num(ch.perEffect) ? `${ch.perEffect>=0?'+':''}${ch.perEffect.toFixed(1)}%p` : '해당없음';
+        const otherTxt = num(ch.otherEffect) && ch.otherEffect !== 0 ? ` · 기타 ${ch.otherEffect>=0?'+':''}${ch.otherEffect.toFixed(1)}%p` : '';
+        return `<li>${esc(ch.date)}: ${usd(ch.prevFairPrice)} → ${usd(ch.newFairPrice)} (${num(ch.changePct)?(ch.changePct>=0?'+':'')+ch.changePct.toFixed(1):'—'}%) — EPS효과 ${epsTxt} · PER효과 ${perTxt}${otherTxt}${ch.note?` <span class="sub">(${esc(ch.note)})</span>`:''}</li>`;
+      }).join('')}</ul>`
     : `<div class="sub">최근 변경 이력 없음(최초 산출이거나 아직 변경 없음)</div>`;
   const warnHtml = (pm.qualityWarnings && pm.qualityWarnings.length)
     ? `<div class="sub" style="margin-top:6px;color:#876000;">${pm.qualityWarnings.map(esc).join('<br>')}</div>` : '';
