@@ -205,8 +205,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792522804.5390067,
-    "_updated_label": "2026-10-21"
+    "_fetched_at": 1792594831.2695844,
+    "_updated_label": "2026-10-22"
   },
   "AMZN": {
     "transactions": [
@@ -755,8 +755,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792522804.5390067,
-    "_updated_label": "2026-10-21"
+    "_fetched_at": 1792594831.2695844,
+    "_updated_label": "2026-10-22"
   },
   "CRM": {
     "transactions": [
