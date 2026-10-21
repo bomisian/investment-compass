@@ -16190,7 +16190,10 @@ function buildMarketIssueGroups(market, news, nowSec){
   const recent = 72*3600, candidates = [], sources = [];
   const freshness = (stamp) => Number.isFinite(stamp) && stamp > 0 && stamp <= nowSec && nowSec-stamp <= recent;
   const newsStamp = market && (market._news_last_success_at || market._last_success_at);
-  const generalFailed = market && (market._news_collection_status === 'error' || (market._collection_errors||[]).includes('시장 헤드라인'));
+  // [2026-10-21 봄이 지시] 뉴스 수집 결과가 0건이라 이전 뉴스를 그대로 유지한 경우
+  // (_news_collection_status==='empty_kept_previous')도 'error'와 똑같이 "이번엔 갱신 실패,
+  // 화면은 이전 뉴스"로 취급한다 - 0건을 'ok'로 숨기지 않기 위한 조치.
+  const generalFailed = market && (market._news_collection_status === 'error' || market._news_collection_status === 'empty_kept_previous' || (market._collection_errors||[]).includes('시장 헤드라인'));
   sources.push({label:'시장 뉴스', fresh:!generalFailed && freshness(newsStamp), stamp:newsStamp});
   const add = (n,ticker,sourceFresh) => {
     if(!n || !Number.isFinite(n.datetime) || n.datetime <= 0 || n.datetime > nowSec || nowSec-n.datetime>recent) return;
@@ -16223,7 +16226,7 @@ function buildMarketIssueGroups(market, news, nowSec){
     if(!g){g={...x.profile,articles:[]};groups.push(g);}
     g.articles.push(x);
   });
-  return {groups,sources,articleCount:unique.length};
+  return {groups,sources,articleCount:unique.length,generalFailed,newsStamp};
 }
 // 2026-09-30 사용자 요청: '시장 주요 이슈 · 요약과 해석'(자동 뉴스 묶음) 대신 예전처럼 수동 시장 해석(BUSINESS_NOTES.MARKET.newsLog)을 보관함 형태로.
 function renderManualMarketNotes(){
@@ -16273,8 +16276,18 @@ function renderMarketNewsAuto(){
   let open=false; try {open=localStorage.getItem('compass_market_issues_open_v1')==='1';} catch {}
   const manual=(typeof BUSINESS_NOTES!=='undefined' && BUSINESS_NOTES?.MARKET?.newsLog?.length)
     ? `<details style="margin-top:12px;"><summary style="cursor:pointer;">이전 수동 시장 해석 보관함</summary>${renderNewsLog('MARKET','이전 시장 해석',3650)}</details>`:'';
+  // [2026-10-21 봄이 지시] 뉴스 수집이 이번엔 실패(또는 0건이라 이전 값 유지)했는데 화면이
+  // 마치 "지금 막 갱신된 뉴스"처럼 보이면 안 되므로, 눈에 바로 띄는 배지를 제목 아래에 둔다.
+  // KST HH:MM로 "이 뉴스가 실제로 언제 기준인지"를 명시(지어내지 않고 market._news_last_success_at
+  // 그대로 환산).
+  const kstHHMM = ts => (Number.isFinite(ts) && ts>0) ? new Date(ts*1000 + 9*3600000).toISOString().slice(11,16) : null;
+  const failStamp = kstHHMM(model.newsStamp);
+  const failBanner = model.generalFailed
+    ? `<div style="margin:6px 0 10px;padding:6px 10px;background:var(--warn-bg,#fff3e0);color:#8a5a00;border-radius:8px;font-size:12px;">⚠ 뉴스 갱신 실패 — ${failStamp?esc(failStamp)+' 기준 뉴스':'이전 뉴스'}</div>`
+    : '';
   return `<details id="marketIssueNews" data-news-version="issue-first-v1" ${open?'open':''} ontoggle="rememberMarketIssuesOpen(this)" style="margin-top:8px;">
     <summary style="cursor:pointer;font-size:14px;font-weight:700;line-height:1.8;">시장 주요 이슈 · 요약과 해석 보기 <span class="sub" style="font-size:12px;font-weight:400;">최근 72시간 · ${model.groups.length}개 주제</span></summary>
+    ${failBanner}
     <p class="sub" style="line-height:1.7;">금리·정책·지정학과 기업의 주요 사건을 우선합니다. 보도 요약과 조건부 영향 해석을 구분하며, 영향 설명은 주가 예측이 아닙니다.</p>
     ${cards || '<p class="sub">최근 72시간 이슈 자료가 없습니다. 마지막 수집 상태를 아래에서 확인하세요.</p>'}
     <details style="margin-top:10px;"><summary style="cursor:pointer;font-size:12px;">수집 상태${status?` · ${status}개 경로 갱신 확인 필요`:''}</summary><div class="sub" style="line-height:1.8;">${model.sources.map(x=>`${safe(x.label)} · 마지막 성공 ${safe(fmt(x.stamp))} · ${x.fresh?'최근 수집 확인':'갱신 확인 필요'}`).join('<br>')}</div></details>
