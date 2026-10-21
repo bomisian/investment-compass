@@ -1,12 +1,12 @@
 // ops_status_report.py가 자동 생성합니다. 직접 수정하지 마세요.
 const OPS_STATUS_DATA = {
-  "generatedAt": "2026-10-21T15:27:22+09:00",
+  "generatedAt": "2026-10-21T15:40:57+09:00",
   "items": [
     {
       "key": "last_success",
       "status": "green",
       "label": "마지막 정상 완료",
-      "detail": "2026-10-21 15:02"
+      "detail": "2026-10-21 15:34"
     },
     {
       "key": "public_verify",
@@ -18,7 +18,7 @@ const OPS_STATUS_DATA = {
       "key": "loop_progress",
       "status": "green",
       "label": "루프 진행",
-      "detail": "대기 중(다음 주기, 25분 전부터)"
+      "detail": "대기 중(다음 주기, 6분 전부터)"
     },
     {
       "key": "loop_count",
@@ -85,6 +85,12 @@ const OPS_STATUS_DATA = {
       "status": "green",
       "label": "근거 승인 대기",
       "detail": "24시간 넘게 대기 중인 근거 승인 없음"
+    },
+    {
+      "key": "external_peer_cache_freshness",
+      "status": "green",
+      "label": "external_peer_cache_freshness",
+      "detail": "2026-10-21 06:39 KST 정상 갱신(실패 0개)"
     }
   ]
 };
