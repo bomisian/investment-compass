@@ -7158,6 +7158,12 @@ function pvCrossCheck(t, price, perLabel, fin, fund, iv, ntmPerForCheck){
   const fxCcy = fin && fin._currency;
   const fxMismatch = !!(fxCcy && fxCcy !== 'USD');
   const gh = (typeof GUIDANCE_HISTORY_DATA!=='undefined') ? GUIDANCE_HISTORY_DATA[t] : null;
+  // [WO18-B1 2026-10-21, 봄이 지시] LRCX·PWR처럼 "공식 가이던스는 있는데 대상기간이 날짜로만
+  // 표기돼 분기 환산이 아직 안 된" 경우(extract_official_guidance의 status
+  // ="unavailable_date_only_period")를 구분해 보여주기 위해 lastCheck도 읽는다. 날짜→분기
+  // 정식 환산은 10/26 실적주간 이후로 보류(봄이 지시) - 지금은 숫자를 추측해서 배수를 내지
+  // 않고, "가이던스가 있다는 사실"과 원문 기간 문구만 투명하게 보여준다.
+  const lastCheckRec = (typeof GUIDANCE_LAST_CHECK_DATA!=='undefined') ? GUIDANCE_LAST_CHECK_DATA[t] : null;
   let epsGuideRec = null;
   if(Array.isArray(gh)){
     for(let i=gh.length-1;i>=0;i--){
@@ -7201,6 +7207,28 @@ function pvCrossCheck(t, price, perLabel, fin, fund, iv, ntmPerForCheck){
     } else {
       eps.basisLabel = '공식 비GAAP 가이던스 중간값이 0 이하(적자 가이던스)라 연환산 불가';
     }
+  } else if(lastCheckRec && lastCheckRec.guidanceStatus==='unavailable_date_only_period' && Array.isArray(lastCheckRec.metrics)){
+    // [WO18-B1 2026-10-21, 봄이 지시] LRCX·PWR 같은 케이스 - 숫자는 뽑혔지만 분기 환산이
+    // 아직 안 됐으므로 배수(multiple)는 내지 않고, "가이던스는 존재한다"는 사실과 원문 기간
+    // 문구·값만 투명하게 보여준다(10/26 이후 날짜→분기 환산 로직 연결 예정).
+    const epsMetricsFound = lastCheckRec.metrics.filter(m=>m && m.metric==='eps');
+    const fmtEpsMetric = m => {
+      if(typeof m.center==='number' && typeof m.plusMinus==='number') return `$${m.center.toFixed(2)}±$${m.plusMinus.toFixed(2)}`;
+      if(typeof m.low==='number' && typeof m.high==='number') return `$${m.low.toFixed(2)}~$${m.high.toFixed(2)}`;
+      if(typeof m.value==='number') return `$${m.value.toFixed(2)}`;
+      return null;
+    };
+    const basisWord = b => (b==='non_gaap' || b==='single_point_non_gaap') ? '비GAAP' : (b==='unknown_pair' ? '기준 미확인' : 'GAAP');
+    const epsDescParts = epsMetricsFound.map(m=>{
+      const v = fmtEpsMetric(m);
+      return v ? `${basisWord(m.basis)} ${v}` : null;
+    }).filter(Boolean);
+    eps.basisKind = 'date_only_period_unconnected';
+    eps.basisLabel = `공식 가이던스 있음(대상 기간이 날짜로 표기 — 교차검증 미연결)` +
+      (lastCheckRec.rawPeriodPhrase ? ` — 원문 기간: "${lastCheckRec.rawPeriodPhrase}"` : '') +
+      (epsDescParts.length ? `, EPS ${epsDescParts.join(' / ')}` : '');
+    eps.tier = null;
+    eps.badge = '교차검증 미연결';
   } else if(fxMismatch){
     eps.basisKind = 'currency_mismatch';
     eps.basisLabel = `GAAP 실적 통화(${fxCcy})와 주가 통화(USD)가 달라 환산 자료(환율·ADR 비율) 없이는 배수를 낼 수 없음 — 숫자 대신 "통화 다름" 배지만 표시 (WO-02)`;
