@@ -1,12 +1,12 @@
 // ops_status_report.py가 자동 생성합니다. 직접 수정하지 마세요.
 const OPS_STATUS_DATA = {
-  "generatedAt": "2026-10-21T15:40:57+09:00",
+  "generatedAt": "2026-10-22T07:35:43+09:00",
   "items": [
     {
       "key": "last_success",
       "status": "green",
       "label": "마지막 정상 완료",
-      "detail": "2026-10-21 15:34"
+      "detail": "2026-10-22 07:23"
     },
     {
       "key": "public_verify",
@@ -18,13 +18,13 @@ const OPS_STATUS_DATA = {
       "key": "loop_progress",
       "status": "green",
       "label": "루프 진행",
-      "detail": "대기 중(다음 주기, 6분 전부터)"
+      "detail": "대기 중(다음 주기, 12분 전부터)"
     },
     {
       "key": "loop_count",
-      "status": "unknown",
+      "status": "green",
       "label": "루프 개수",
-      "detail": "확인불가(잠금 상태 조회 실패)"
+      "detail": "실행 중(정상) - watchdog_loop.bat 자신의 잠금으로 중복 실행은 별도 방지됨"
     },
     {
       "key": "scheduler",
@@ -36,19 +36,19 @@ const OPS_STATUS_DATA = {
       "key": "compass_asof",
       "status": "green",
       "label": "나침반 피드 기준일",
-      "detail": "2026-10-20"
+      "detail": "2026-10-21"
     },
     {
       "key": "market_expectation_asof",
       "status": "green",
       "label": "시장 기대 기준일",
-      "detail": "2026-10-21"
+      "detail": "2026-10-22"
     },
     {
       "key": "eps",
       "status": "green",
       "label": "EPS 수집",
-      "detail": "가장 오래된 종목 ANET 6일 전"
+      "detail": "가장 오래된 종목 ANET 7일 전"
     },
     {
       "key": "data_audit",
@@ -89,8 +89,8 @@ const OPS_STATUS_DATA = {
     {
       "key": "external_peer_cache_freshness",
       "status": "green",
-      "label": "external_peer_cache_freshness",
-      "detail": "2026-10-21 06:39 KST 정상 갱신(실패 0개)"
+      "label": "외부보충 비교군 캐시 신선도",
+      "detail": "2026-10-22 07:11 KST 정상 갱신(실패 0개)"
     }
   ]
 };
