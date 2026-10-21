@@ -6948,7 +6948,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 137,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "SPY": {
@@ -15604,7 +15604,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 178,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "MSFT": {
@@ -23655,7 +23655,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "GOOGL": {
@@ -31821,7 +31821,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "AMZN": {
@@ -40024,7 +40024,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "META": {
@@ -47792,7 +47792,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "AAPL": {
@@ -55507,7 +55507,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "TSLA": {
@@ -63343,7 +63343,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "ORCL": {
@@ -72073,7 +72073,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "CRM": {
@@ -80666,7 +80666,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "PLTR": {
@@ -89755,7 +89755,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "NVDA": {
@@ -97622,7 +97622,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "AMD": {
@@ -105829,7 +105829,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "AVGO": {
@@ -114286,7 +114286,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "QCOM": {
@@ -123255,7 +123255,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "ARM": {
@@ -129447,7 +129447,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "MRVL": {
@@ -138309,7 +138309,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "INTC": {
@@ -147007,7 +147007,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "TSM": {
@@ -155482,7 +155482,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "ASML": {
@@ -162953,7 +162953,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 158,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "AMAT": {
@@ -169956,7 +169956,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 145,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "LRCX": {
@@ -173999,7 +173999,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "KLAC": {
@@ -177272,7 +177272,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "MU": {
@@ -185492,7 +185492,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "SNDK": {
@@ -194453,7 +194453,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "WDC": {
@@ -200678,7 +200678,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 131,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "ANET": {
@@ -200914,6 +200914,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=317db81f856e0553821b07f0de02c5a5a0de38ff197d9689967b873c6b76066d",
         "datetime": 1792552561,
+        "headlineKo": "Arista Networks vs. Axon Enterprise: 2026년에는 어떤 기술주를 구매하는 것이 더 나을까요?",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -205699,7 +205700,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "COHR": {
@@ -210137,7 +210138,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "LITE": {
@@ -215397,7 +215398,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 107,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "GEV": {
@@ -215617,6 +215618,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d811057d36492f9a6f387d3789c817f50d40e11c1dd75faa47cfb9ff4a97e952",
         "datetime": 1792573800,
+        "headlineKo": "GE Vernova의 1,760억 달러 백로그 설명",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -221640,7 +221642,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "CEG": {
@@ -227248,7 +227250,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "VST": {
@@ -231566,7 +231568,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "ETN": {
@@ -231769,6 +231771,7 @@ const NEWS_DATA = {
         "source": "Fintel",
         "url": "https://finnhub.io/api/news?id=514ea875624c9027ed7c6285689366eafb51effa2282b491d27579e9b002a208",
         "datetime": 1792562923,
+        "headlineKo": "Eaton의 백로그가 43% 증가했습니다. 마진 하락은 이제 쉽게 비교할 수 있습니다.",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -235736,7 +235739,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "PWR": {
@@ -239101,7 +239104,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "HUBB": {
@@ -240166,7 +240169,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "VRT": {
@@ -245133,7 +245136,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "MOD": {
@@ -246849,7 +246852,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "STX": {
@@ -252275,7 +252278,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "EME": {
@@ -254574,7 +254577,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "FIX": {
@@ -256605,7 +256608,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   },
   "BE": {
@@ -256807,6 +256810,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=723999300349171dface61caa412ec4e04b42e1557991378fa6671b7d3feff7c",
         "datetime": 1792560879,
+        "headlineKo": "Bloom Energy(BE)의 3분기 실적에서 기대할 사항",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -259801,7 +259805,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-21 19:59"
+      "updated": "2026-10-21 20:31"
     }
   }
 };
