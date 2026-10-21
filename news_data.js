@@ -6948,7 +6948,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 137,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "SPY": {
@@ -15604,7 +15604,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 178,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "MSFT": {
@@ -23655,7 +23655,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "GOOGL": {
@@ -31821,7 +31821,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "AMZN": {
@@ -40024,7 +40024,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "META": {
@@ -47792,7 +47792,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "AAPL": {
@@ -55507,7 +55507,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "TSLA": {
@@ -63343,7 +63343,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "ORCL": {
@@ -72073,7 +72073,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "CRM": {
@@ -80666,7 +80666,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "PLTR": {
@@ -89753,9 +89753,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 189,
-      "removed": 1,
-      "updated": "2026-10-21 18:54"
+      "checked": 188,
+      "removed": 0,
+      "updated": "2026-10-21 19:59"
     }
   },
   "NVDA": {
@@ -97622,7 +97622,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "AMD": {
@@ -105829,7 +105829,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "AVGO": {
@@ -114286,7 +114286,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "QCOM": {
@@ -123255,7 +123255,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "ARM": {
@@ -129447,7 +129447,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "MRVL": {
@@ -138309,7 +138309,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "INTC": {
@@ -147007,7 +147007,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "TSM": {
@@ -155482,7 +155482,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "ASML": {
@@ -162953,7 +162953,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 158,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "AMAT": {
@@ -169956,7 +169956,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 145,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "LRCX": {
@@ -173999,7 +173999,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "KLAC": {
@@ -177272,7 +177272,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "MU": {
@@ -185492,7 +185492,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "SNDK": {
@@ -194453,7 +194453,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "WDC": {
@@ -200678,7 +200678,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 131,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "ANET": {
@@ -200752,7 +200752,8 @@ const NEWS_DATA = {
             "Choosing between Arista Networks ( ANET -0.96% ) and Axon Enterprise ( AXON +2.49% ) requires balancing different risk profiles."
           ],
           "analysisUpdatedAt": 1792576319.170315
-        }
+        },
+        "headlineKo": "Arista Networks vs. Axon Enterprise: 2026년에는 어떤 기술주를 구매하는 것이 더 나을까요?"
       },
       {
         "headline": "Is Open AI Rack Launch Altering The Investment Case For Arista Networks Stock?",
@@ -205698,7 +205699,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "COHR": {
@@ -210136,7 +210137,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "LITE": {
@@ -215396,7 +215397,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 107,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "GEV": {
@@ -215487,7 +215488,8 @@ const NEWS_DATA = {
             "There's also an underlying story of a significant improvement in the company's potential to generate long-term recurring revenue, notably from long-term service agreements (LTSA) attached to gas turbines and aftermarket parts/repair and sof"
           ],
           "analysisUpdatedAt": 1792576358.9640186
-        }
+        },
+        "headlineKo": "GE Vernova의 1,760억 달러 백로그 설명"
       },
       {
         "headline": "GE Vernova (GEV) Stock Drops Despite Market Gains: Important Facts to Note",
@@ -221638,7 +221640,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "CEG": {
@@ -227246,7 +227248,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "VST": {
@@ -231564,7 +231566,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "ETN": {
@@ -231624,7 +231626,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1792576394.7673342
-        }
+        },
+        "headlineKo": "Eaton의 백로그가 43% 증가했습니다. 마진 하락은 이제 쉽게 비교할 수 있습니다."
       },
       {
         "headline": "Eaton (ETN): Will Its Electrical Backlog Translate Into Lasting Earnings Power?",
@@ -235733,7 +235736,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "PWR": {
@@ -239098,7 +239101,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "HUBB": {
@@ -240163,7 +240166,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "VRT": {
@@ -245130,7 +245133,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "MOD": {
@@ -246846,7 +246849,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "STX": {
@@ -252272,7 +252275,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "EME": {
@@ -254571,7 +254574,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "FIX": {
@@ -256602,7 +256605,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   },
   "BE": {
@@ -256661,7 +256664,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1792576474.2046783
-        }
+        },
+        "headlineKo": "Bloom Energy(BE)의 3분기 실적에서 기대할 사항"
       },
       {
         "headline": "BE Stock Leads Energy Rally After SpaceX CEO Elon Musk Says AI’s Real Constraint Is Power And Cooling, Not Chips",
@@ -259797,7 +259801,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-21 18:54"
+      "updated": "2026-10-21 19:59"
     }
   }
 };

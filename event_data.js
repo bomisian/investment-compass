@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1792578459.0857964,
+  "generatedAt": 1792580377.0807168,
   "events": [
     {
       "id": "a4e0cc48154b70841ef7",
@@ -29,7 +29,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "GE Vernova's $176 Billion Backlog, Explained",
-      "headlineKo": "",
+      "headlineKo": "GE Vernova의 1,760억 달러 백로그 설명",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d811057d36492f9a6f387d3789c817f50d40e11c1dd75faa47cfb9ff4a97e952",
@@ -632,7 +632,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "What To Expect From Bloom Energy’s (BE) Q3 Earnings",
-      "headlineKo": "",
+      "headlineKo": "Bloom Energy(BE)의 3분기 실적에서 기대할 사항",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=723999300349171dface61caa412ec4e04b42e1557991378fa6671b7d3feff7c",
@@ -1036,7 +1036,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Arista Networks vs. Axon Enterprise: Which Tech Stock Is a Better Buy in 2026?",
-      "headlineKo": "",
+      "headlineKo": "Arista Networks vs. Axon Enterprise: 2026년에는 어떤 기술주를 구매하는 것이 더 나을까요?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=317db81f856e0553821b07f0de02c5a5a0de38ff197d9689967b873c6b76066d",

@@ -2,7 +2,7 @@ const PRICE_MAP_DATA = {
   "_meta": {
     "title": "WO17 가격지도(price_map) - 화면용 production 데이터",
     "as_of": "2026-10-21",
-    "input_snapshot_hash": "95ea531c021cd03b3de53bef02336e2a4036a7f54f7b38ecfc3c105953c6c275",
+    "input_snapshot_hash": "4b0f7788a6e676d6043dd8c83a558f20f37c20a174e890ba44e54a59c9284965",
     "generated_by": "price_map_engine.py write_price_map_data_js()",
     "note": "142 엔진(computePriceValidity/pvIntegratedAction)과 완전히 독립된 산출물 - 기존 판정 로직을 전혀 안 건드림."
   },
@@ -150,7 +150,7 @@ const PRICE_MAP_DATA = {
       "stockType": "분류불가(이력부족)",
       "stockTypeReason": "유효 연간 EPS 4개년(<5년 기준) - 필터 없음(원본 그대로)",
       "candidates": {
-        "historicalPer": 32.417781848700564,
+        "historicalPer": 32.41200739521843,
         "historicalPerYearsUsed": 4,
         "sectorPer": 31.43094,
         "sectorPerValidPeers": 3,
@@ -516,7 +516,7 @@ const PRICE_MAP_DATA = {
       "stockType": "분류불가(이력부족)",
       "stockTypeReason": "유효 연간 EPS 4개년(<5년 기준) - 필터 없음(원본 그대로)",
       "candidates": {
-        "historicalPer": 5.793811715166131,
+        "historicalPer": 5.812622792163424,
         "historicalPerYearsUsed": 2,
         "sectorPer": 23.57275,
         "sectorPerValidPeers": 3,
@@ -526,7 +526,7 @@ const PRICE_MAP_DATA = {
       "epsBasisNote": "WO8-B 분류 불가(이력 부족, 유효 4개년 <5년) - 필터 없음(원본 그대로) - 경기순환 여부 판단 안 함, NTM EPS 그대로 사용",
       "convertedFairPer": 23.572749999999996,
       "fairPriceBasis": "세 적정가 후보 중앙값",
-      "dispersionFlag": "최대/최소 5.18배 > 기준 1.5배 - 계산은 그대로, 원인 점검 필요",
+      "dispersionFlag": "최대/최소 5.16배 > 기준 1.5배 - 계산은 그대로, 원인 점검 필요",
       "qualityWarnings": [
         "과거 PER 이력 부족(2년치)",
         "ADR 통화환산 적용(TWD->USD)",
