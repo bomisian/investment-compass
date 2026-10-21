@@ -7046,7 +7046,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 139,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "SPY": {
@@ -15751,7 +15751,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 179,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "MSFT": {
@@ -23839,7 +23839,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "GOOGL": {
@@ -32049,7 +32049,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "AMZN": {
@@ -40196,7 +40196,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "META": {
@@ -47933,7 +47933,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "AAPL": {
@@ -55726,7 +55726,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "TSLA": {
@@ -63429,7 +63429,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "ORCL": {
@@ -63721,59 +63721,6 @@ const NEWS_DATA = {
             "Oracle ( ORCL ) is facing fresh worries in the bond market."
           ],
           "analysisUpdatedAt": 1792507288.453754
-        }
-      },
-      {
-        "headline": "Oracle (ORCL) Health Data Breach Exposes Nearly 20 Million People",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=477226286000532452b6b724f8a0fdc4b9ff33252ae02c32177e5be3c9f6a9de",
-        "datetime": 1791400359,
-        "headlineKo": "Oracle(ORCL) 건강 데이터 유출로 인해 거의 2천만 명이 노출됨",
-        "relevance": 1,
-        "keywordFlag": true,
-        "flagTerms": [
-          "breach",
-          "data breach"
-        ],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Oracle (ORCL) Health Data Breach Exposes Nearly 20 Million People",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "ORCL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 ORCL의 사업과 관련된 'Oracle (ORCL) Health Data Breach Exposes Nearly 20 Million People' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "ORCL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1791414323.3470542
         }
       }
     ],
@@ -72197,9 +72144,9 @@ const NEWS_DATA = {
     "_collection_status": "ok",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 187,
+      "checked": 186,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "CRM": {
@@ -80818,7 +80765,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "PLTR": {
@@ -89947,7 +89894,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "NVDA": {
@@ -97798,7 +97745,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "AMD": {
@@ -105990,7 +105937,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "AVGO": {
@@ -114493,7 +114440,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "QCOM": {
@@ -123487,7 +123434,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "ARM": {
@@ -129679,7 +129626,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "MRVL": {
@@ -138541,7 +138488,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "INTC": {
@@ -147293,7 +147240,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "TSM": {
@@ -155738,7 +155685,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "ASML": {
@@ -163379,7 +163326,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 163,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "AMAT": {
@@ -170459,7 +170406,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 146,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "LRCX": {
@@ -174584,7 +174531,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "KLAC": {
@@ -177955,7 +177902,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "MU": {
@@ -186172,7 +186119,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "SNDK": {
@@ -195133,7 +195080,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "WDC": {
@@ -201464,7 +201411,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "ANET": {
@@ -206521,7 +206468,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "COHR": {
@@ -211007,7 +210954,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "LITE": {
@@ -216267,7 +216214,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 107,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "GEV": {
@@ -222617,7 +222564,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 126,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "CEG": {
@@ -228225,7 +228172,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "VST": {
@@ -232694,7 +232641,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "ETN": {
@@ -236865,7 +236812,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "PWR": {
@@ -240279,7 +240226,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "HUBB": {
@@ -241373,7 +241320,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "VRT": {
@@ -246450,7 +246397,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "MOD": {
@@ -248166,7 +248113,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "STX": {
@@ -253687,7 +253634,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 118,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "EME": {
@@ -256033,7 +255980,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "FIX": {
@@ -258112,7 +258059,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   },
   "BE": {
@@ -261309,7 +261256,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-10-22 01:11"
+      "updated": "2026-10-22 04:30"
     }
   }
 };
