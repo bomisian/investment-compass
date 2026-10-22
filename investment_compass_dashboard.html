@@ -624,6 +624,8 @@
 <script>document.write('<script src="revenue_estimate_history_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 뉴스/실적일정 - 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 안 보임) -->
 <script>document.write('<script src="news_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
+<!-- [2026-10-22 WO21-0] news_data.js의 nextEarnings만 뽑은 경량 파일(실적 D-day 전용) - 없어도 news_data.js로 자동 대체됨 -->
+<script>document.write('<script src="earnings_calendar_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 데이터 상태 진단(각 소스 최신성·오류) - buy_signal_telegram.py가 매 실행마다 기록해왔는데
      화면에 연결이 안 돼 있었음. 2026-08-28 화면 연결함. 없어도 대시보드는 정상 동작함 -->
 <script>document.write('<script src="data_status_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
@@ -13992,7 +13994,10 @@ function renderOpsStatusLine(){
 // fetch_next_earnings()가 채움)만 읽는다. phase: 'upcoming'(발표 7일 전~당일) 또는
 // 'justReported'(발표 후 1~2일) - 그 밖엔 null(배지 안 띄움).
 function earningsDdayInfo(ticker){
-  const ne = (typeof NEWS_DATA !== 'undefined' && NEWS_DATA && NEWS_DATA[ticker]) ? NEWS_DATA[ticker].nextEarnings : null;
+  // [2026-10-22 WO21-0] 경량 파일(EARNINGS_CALENDAR_DATA) 먼저 확인, 없으면 기존 NEWS_DATA로 폴백 - 새 계산 없음
+  const ne = (typeof EARNINGS_CALENDAR_DATA !== 'undefined' && EARNINGS_CALENDAR_DATA && EARNINGS_CALENDAR_DATA[ticker])
+    ? EARNINGS_CALENDAR_DATA[ticker]
+    : ((typeof NEWS_DATA !== 'undefined' && NEWS_DATA && NEWS_DATA[ticker]) ? NEWS_DATA[ticker].nextEarnings : null);
   if(!ne || !ne.date) return null;
   const daysAgo = daysAgoFromDateStr(ne.date);  // 양수=과거, 음수=미래(daysAgoFromDateStr 기존 정의 그대로 재사용)
   if(daysAgo == null) return null;
