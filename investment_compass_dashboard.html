@@ -328,6 +328,11 @@
     font-size:12px;font-weight:400;line-height:1.6;text-align:left;box-shadow:0 10px 26px rgba(0,0,0,.28);
     pointer-events:none;display:none;max-width:min(320px, calc(100vw - 24px));}
   #hintPop.show{display:block;}
+/* [2026-10-22 봄이 지시 ③] 접힘(<details>) 요약줄에 직접 "▸"를 넣어둔 곳은 브라우저가
+   그리는 기본 화살표(▶/▼)까지 겹쳐 두 개로 보임 - 네이티브 마커만 숨긴다(표시만 변경,
+   로직 없음). */
+.no-dup-arrow{ list-style:none; }
+.no-dup-arrow::-webkit-details-marker{ display:none; }
 </style>
 </head>
 <body>
@@ -3525,6 +3530,14 @@ function buildPriceGlanceTableHtml(ticker){
   const pctTxt = pct!=null ? ` (${pct>=0?'+':''}${pct.toFixed(1)}% 적정가 대비)` : '';
   const warnTxt = pm.modelCheckNeeded ? ' <span style="color:#b3261e;font-weight:700;" title="적정가/현재가 비율이 정상 범위를 벗어나 모델 점검이 필요합니다">⚠ 모델 점검 필요</span>' : '';
   const draftTxt = (typeof PRICE_MAP_DRAFT_REVIEW_NOTICE !== 'undefined' && PRICE_MAP_DRAFT_REVIEW_NOTICE) ? ' <span style="font-size:9px;font-weight:700;color:#876000;background:#fff8ea;padding:1px 4px;border-radius:3px;white-space:nowrap;">초안·검토중(10/23 확정예정)</span>' : '';
+  // [2026-10-22 봄이 지시 ②] 사업 경고(bizRiskBadge, 현금흐름 거부권·EPS 수정 하향 등)는
+  // price_map_data.js에 이미 계산돼 있는데 한눈표에는 안 보였다 - 새로 계산하지 않고
+  // bizRiskDetail(이미 계산된 문장)을 "지금 위치" 바로 아래 빨간 글씨로 그대로 보여준다.
+  const bizRiskHtml = (pm.bizRiskBadge && Array.isArray(pm.bizRiskDetail) && pm.bizRiskDetail.length)
+    ? `<div style="padding:5px 10px 7px;border-top:1px solid var(--panel-2);background:#fdecea;">
+        <span style="font-size:11.5px;font-weight:700;color:#b3261e;">⚠ 사업 경고: ${esc(pm.bizRiskDetail.join(' · '))}</span>
+      </div>`
+    : '';
   const rows = [
     ['현재가', numOk(pm.currentPrice) ? ('$' + pm.currentPrice.toFixed(2)) : '-', null],
     ['적정가', numOk(pm.fairPrice) ? ('$' + pm.fairPrice.toFixed(2)) : '-', null],
@@ -3538,7 +3551,7 @@ function buildPriceGlanceTableHtml(ticker){
     <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:4px 8px;padding:5px 10px;${i>0?'border-top:1px solid var(--panel-2);':''}">
       <span class="sub" style="font-size:11.5px;white-space:nowrap;flex-shrink:0;">${esc(label)}</span>
       <span style="font-size:13px;font-weight:700;text-align:right;min-width:0;overflow-wrap:break-word;word-break:break-word;flex:1 1 auto;"${title ? ' title="' + esc(title) + '"' : ''}>${val}</span>
-    </div>`).join('');
+    </div>${label==='지금 위치' ? bizRiskHtml : ''}`).join('');
   return `<div class="pg-glance" style="border:1px solid var(--panel-2);border-radius:8px;overflow:hidden;margin-bottom:8px;background:var(--panel);">
     <div style="display:flex;justify-content:space-between;align-items:center;padding:5px 10px;background:var(--panel-2);font-size:11px;font-weight:700;flex-wrap:wrap;gap:4px;">
       <span>가격 한눈표${warnTxt}</span>
@@ -3601,17 +3614,32 @@ function buildResultCardHtml(r){
       ? ` <span class="sub" style="font-size:11px;">(적정가 대비 ${basePriceDiffPct>=0?'+':''}${basePriceDiffPct.toFixed(1)}%)</span>`
       : '');
 
+  // [2026-10-22 봄이 지시 ①] 카드 목록도 고정 헤더와 같은 규칙 - 눈에 띄는 자리(rc-verdict·
+  // rc-pricelabel)는 가격 지도 판정으로, 기존 엔진 판정(act.label·d.price)은 "더보기"
+  // 안으로 옮긴다. 가격 지도 데이터 없는 종목(관심종목 아님 등)은 기존 그대로 폴백.
+  const pmCard = pmData(r.ticker);
+  let verdictBlockHtml, legacyInTier2Html;
+  if(pmCard){
+    const pmPosCard = PM_POSITION_GLANCE[pmCard.verdict] || {emoji:'⚪', label:pmCard.verdict || '-'};
+    const pmColorCard = PM_VERDICT_COLOR[pmCard.verdict] || '#3c4552';
+    verdictBlockHtml = `<div class="rc-verdict" style="color:${pmColorCard};">${pmPosCard.emoji} ${esc(pmPosCard.label)} · ${esc(pmCard.action || '')}</div>`;
+    legacyInTier2Html = `<div style="margin-bottom:4px;">기존 모델 판정: <b style="color:${actionColor};">${esc(act.label)}</b> · 가격 라벨: <b style="color:${priceColor};">${esc(d.price)}</b>${basePriceDiffTxt}</div>`;
+  } else {
+    verdictBlockHtml = `<div class="rc-verdict" style="color:${actionColor};">${esc(act.label)}</div><div class="rc-pricelabel">가격 라벨: <b style="color:${priceColor};">${esc(d.price)}</b>${basePriceDiffTxt}</div>`;
+    legacyInTier2Html = '';
+  }
+
   return `${buildPriceGlanceTableHtml(r.ticker)}<div class="rc-card" id="rc-${r.ticker}">
     <div class="rc-row1">
       <span class="rc-ticker">${esc(r.ticker)}</span>
       <span class="rc-price">$${r.price.toFixed(2)}</span>
     </div>
     ${buildPriceMapSummaryHtml(r.ticker, d.price)}
-    <div class="rc-verdict" style="color:${actionColor};">${esc(act.label)}</div>
-    <div class="rc-pricelabel">가격 라벨: <b style="color:${priceColor};">${esc(d.price)}</b>${basePriceDiffTxt}</div>
+    ${verdictBlockHtml}
     ${badgesHtml ? `<div class="rc-badges">${badgesHtml}</div>` : ''}
     <div class="rc-tier2-toggle" onclick="toggleRcTier2('${r.ticker}')">더보기 ▾</div>
     <div class="rc-tier2" id="rc-tier2-${r.ticker}">
+      ${legacyInTier2Html}
       <div>적정가(모델): <b>${basePrice!=null ? ('$'+basePrice.toFixed(2)) : '정보 없음'}</b> <span class="sub" style="font-size:10px;">(계산값 - 실제 매수가 아님)</span></div>
       ${isModelDistrust && basePriceDiffPct!=null ? `<div class="sub" style="margin-top:2px;font-size:10.5px;color:#7a3b2e;">모델 진단(참고, 신뢰 안 함): 적정가 대비 ${basePriceDiffPct>=0?'+':''}${basePriceDiffPct.toFixed(1)}% — 이 종목은 가격 경보가 떠 있어 이 적정가 자체를 신뢰하지 않습니다.</div>` : ''}
       <div style="margin-top:4px;">진입 검토가: ${buyZoneTxt}</div>
@@ -3678,11 +3706,26 @@ function renderDetailHeader(ticker){
     const chgTxt = chg==null ? '—' : `${chg>=0?'▲+':'▼'}${Math.abs(chg).toFixed(1)}%`;
     const actionColor = ACTION_COLOR_RC[act.label] || '#3c4552';
     const priceColor = PV_COLOR[d.price] || '#3c4552';
+    // [2026-10-22 봄이 지시 ①] 고정 헤더가 기존 엔진 판정(예: 신규 접근 중지·판단
+    // 유보)을 보여주면 바로 아래 가격 한눈표의 가격 지도 판정(예: 🟢 싸다)과 정반대로
+    // 보여 혼란을 줬다 - 고정 헤더는 가격 지도 판정으로 바꾸고, 기존 엔진 판정은
+    // "자세히 보기(기존 분석)" 맨 위로 옮긴다(renderJudgementConclusionCard 쪽, tabJudgement
+    // 참고). 가격 지도 데이터가 없는 종목(관심종목 아님 등)은 기존 그대로 폴백.
+    const pmHdr = (typeof pmData === 'function') ? pmData(ticker) : null;
+    let verdictSpan, pricelabelSpan;
+    if(pmHdr){
+      const pmPos = (typeof PM_POSITION_GLANCE !== 'undefined' && PM_POSITION_GLANCE[pmHdr.verdict]) || {emoji:'⚪', label:pmHdr.verdict || '-'};
+      const pmColor = (typeof PM_VERDICT_COLOR !== 'undefined' && PM_VERDICT_COLOR[pmHdr.verdict]) || '#3c4552';
+      verdictSpan = `<span class="dh-verdict" style="color:${pmColor};">${pmPos.emoji} ${esc(pmPos.label)}</span>`;
+      pricelabelSpan = `<span class="dh-pricelabel" style="color:${pmColor};">· ${esc(pmHdr.action || '')}</span>`;
+    } else {
+      verdictSpan = `<span class="dh-verdict" style="color:${actionColor};">${esc(act.label)}</span>`;
+      pricelabelSpan = `<span class="dh-pricelabel" style="color:${priceColor};">${esc(d.price)}</span>`;
+    }
     document.getElementById('detailQuickBar').innerHTML =
       `<span class="dh-price">$${r.price.toFixed(2)}</span>` +
       `<span class="dh-chg" style="color:${chgColor};">${chgTxt}</span>` +
-      `<span class="dh-verdict" style="color:${actionColor};">${esc(act.label)}</span>` +
-      `<span class="dh-pricelabel" style="color:${priceColor};">${esc(d.price)}</span>`;
+      verdictSpan + pricelabelSpan;
   }catch(e){
     document.getElementById('detailQuickBar').innerHTML = `<span class="dh-price">$${r.price.toFixed(2)}</span>`;
   }
@@ -9635,11 +9678,24 @@ function tabJudgement(r){
   // 재사용해 위치만 재배치했다. $357.95·$681 등 기존 시나리오 값을 새 확정 적정가로 바꾸지 않는다.
   const ivHtmlFolded = renderIndependentValuationSection(r);
 
+  // [2026-10-22 봄이 지시 ①] 기존 엔진 판정(act.label·d.price)을 고정 헤더/한눈표 자리에서
+  // 빼고 "자세히 보기(기존 분석)" 맨 위로 옮긴다 - 계산은 그대로(computePriceValidity/
+  // pvIntegratedAction을 다시 호출할 뿐 새 판정 아님), 위치와 라벨 문구만 바꿈.
+  let legacyVerdictLine = '';
+  try{
+    const _ld = computePriceValidity(r);
+    const _lact = pvIntegratedAction(_ld);
+    const _lActionColor = ACTION_COLOR_RC[_lact.label] || '#3c4552';
+    const _lPriceColor = PV_COLOR[_ld.price] || '#3c4552';
+    legacyVerdictLine = `<div style="margin-bottom:10px;padding:8px 10px;background:var(--panel-2);border-radius:8px;font-size:12.5px;">기존 모델 판정: <b style="color:${_lActionColor};">${esc(_lact.label)}</b> · 가격 라벨: <b style="color:${_lPriceColor};">${esc(_ld.price)}</b></div>`;
+  }catch(e){}
+
   return `
     ${buildPriceGlanceTableHtml(r.ticker)}
     <details style="margin-top:10px;">
-      <summary style="cursor:pointer;font-weight:700;padding:8px 0;font-size:14.5px;">▸ 자세히 보기(기존 분석)</summary>
+      <summary class="no-dup-arrow" style="cursor:pointer;font-weight:700;padding:8px 0;font-size:14.5px;">▸ 자세히 보기(기존 분석)</summary>
       <div style="margin-top:8px;">
+        ${legacyVerdictLine}
     ${renderCompassCard(r)}
     ${renderPriceValidityCard(r)}
     ${renderMarketExpectationSectorCard(r)}
