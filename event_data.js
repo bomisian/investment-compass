@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1792635654.076348,
+  "generatedAt": 1792637662.0016685,
   "events": [
     {
       "id": "a2700bd73ce152b20284",
@@ -37,7 +37,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Kazakhstan’s AIFC Regulator Turns to Apple and Google to Enforce Coinbase, HTX Injunctions",
-      "headlineKo": "",
+      "headlineKo": "카자흐스탄의 AIFC 규제 기관, Apple과 Google에 의존하여 Coinbase, HTX 금지 명령 집행",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0537f70210129aee0bbb1e00c5dc17da8c4b3f81a75e14c6007f42e0ce6c56a8",
@@ -106,7 +106,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "How Big Could Western Digital Stock's Next Fall Be?",
-      "headlineKo": "",
+      "headlineKo": "Western Digital 주식의 다음 가을은 얼마나 커질 수 있습니까?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ea1cf266c1be3aa229b6941aef14190739f074d7b05bce628221cbd5dfd085e8",
@@ -175,7 +175,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Lam Research: Fiscal Q1 Earnings Snapshot",
-      "headlineKo": "",
+      "headlineKo": "Lam Research: 회계연도 1분기 실적 스냅샷",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d7c0ad02d109b7bcafbb6d3c0439ef51e10bcf3a959796d57abd66c9c365dbc6",
@@ -249,7 +249,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Amazon logistics automation offers long-term margin gains, Jefferies says",
-      "headlineKo": "",
+      "headlineKo": "Jefferies는 Amazon 물류 자동화를 통해 장기적인 마진 이익을 얻을 수 있다고 말합니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cbefd013412e5c74ca19d4e09e4ccd2b7cca791d58366392af7481e08516344e",
@@ -324,7 +324,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Tesla to report earnings after Elon Musk floats SpaceX merger plan",
-      "headlineKo": "",
+      "headlineKo": "Tesla, Elon Musk가 SpaceX 합병 계획 발표 후 수익 보고",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fd44d6921eedee7b6216f639f16a9a3c11cc1d796a7eff9f48afb82d483aa713",
@@ -403,7 +403,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Update: US Equity Indexes Rise Ahead of Quarterly Earnings From Meta Platforms, Tesla Following Blockbuster SpaceX Results",
-      "headlineKo": "",
+      "headlineKo": "업데이트: 미국 주식 지수는 블록버스터 SpaceX 결과에 따라 Tesla, Meta 플랫폼의 분기별 수익을 앞두고 상승했습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1897c1643257c8a93a51e8f972c6f167d2ccc4b89a82f9a6ea8b03a52d872d5c",
@@ -470,7 +470,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Salesforce’s Braze deal wins UBS backing on strategy, but growth concerns remain",
-      "headlineKo": "",
+      "headlineKo": "Salesforce의 Braze 거래로 UBS의 전략 지원을 얻었지만 성장에 대한 우려는 여전히 남아 있습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=986bc47727d8056d7fdd3b1487ee3736ff4eeae71330d0dc2c87cdc7e90af488",
@@ -540,7 +540,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Seagate price target raised as Bank of America sees strong demand for hard drives",
-      "headlineKo": "",
+      "headlineKo": "Bank of America가 하드 드라이브에 대한 수요가 높아짐에 따라 Seagate 가격 목표가 상향 조정되었습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ea4c886a8d2d2a0222294984d92c7d4ac507f353ae3a4156eedf88fcacbfd23d",
@@ -612,7 +612,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Micron Is Up 221% in 2026 and Seagate Is Up 155%: Take Profits, or Hold On for the Ride?",
-      "headlineKo": "",
+      "headlineKo": "2026년 Micron은 221% 상승하고 Seagate는 155% 상승: 이익을 얻을 것인가, 아니면 계속해서 나아갈 것인가?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f37320366f7f91aa723b4a021b0c2817f8909ea8d624f70f7bb98b7662f2a762",
@@ -696,7 +696,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "ASML Has Incredible News for Nvidia Stock and Micron Stock Investors",
-      "headlineKo": "",
+      "headlineKo": "ASML은 Nvidia 주식 및 Micron 주식 투자자를 위한 놀라운 소식을 전합니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0958b6354c07d821287d407ea22dba633e56150b386ad9f6da3c47a0369ec6da",
@@ -773,7 +773,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Steve Ballmer Is Worth $164 Billion, After Being Kicked Out Of Microsoft",
-      "headlineKo": "",
+      "headlineKo": "스티브 발머, 마이크로소프트에서 쫓겨난 뒤 자산 1640억 달러",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=684c170a8af7eb567f99eb3901ed2614de11e7fd938138bb53463cdfeccbf327",
@@ -842,7 +842,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Q2 Earnings Recap: EMCOR (NYSE:EME) Tops Engineering and Design Services Stocks",
-      "headlineKo": "",
+      "headlineKo": "2분기 실적 요약: EMCOR(NYSE:EME)이 엔지니어링 및 설계 서비스 주식 1위를 차지했습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4977665e81e817a2adf087a29094e4b411a334ef701db8e31e300f3ec1e02065",
@@ -915,7 +915,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Nvidia’s $1.1 Billion KYEC Deal Is the Small Number in a $279 Billion Supply Bet",
-      "headlineKo": "",
+      "headlineKo": "Nvidia의 11억 달러 KYEC 거래는 2,790억 달러 공급 베팅 중 작은 숫자입니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=737a12aa1e274557876c52bec25cb7058bb1587718f6982bdc519983d0ca8160",
@@ -990,7 +990,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Klique Announces Expanded Integrations with NVIDIA to Accelerate Enterprise AI Workflows and Optimize GPU Utilization",
-      "headlineKo": "",
+      "headlineKo": "Klique, 기업 AI 워크플로우 가속화 및 GPU 활용 최적화 위해 NVIDIA와의 확장된 통합 발표",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=53c699c60f845fd84bc8c00584b8d5b6a6028dc6d61659ba5ae1b3e76969fc46",
@@ -999,7 +999,7 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Klique Announces Expanded Integrations with NVIDIA to Accelerate Enterprise AI Workflows and Optimize GPU Utilization"
+        "Klique, 기업 AI 워크플로우 가속화 및 GPU 활용 최적화 위해 NVIDIA와의 확장된 통합 발표"
       ],
       "marketInterpretation": [],
       "aiInference": [
@@ -1047,7 +1047,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Johnson & Johnson Raised Its Dividend Every Year. Why Did It Trail the S&P 500?",
-      "headlineKo": "",
+      "headlineKo": "Johnson & Johnson은 매년 배당금을 올렸습니다. S&P 500을 추월한 이유는 무엇입니까?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e7e2ceebcdf62fce8337b7b7247e9e07700b6282c2bc5f09ec3fe5809f665395",
@@ -1122,7 +1122,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Amazon Ditches Ashburn Data Center Plan, Shifts To Mixed-Use Vision",
-      "headlineKo": "",
+      "headlineKo": "Amazon은 Ashburn 데이터 센터 계획을 버리고 혼합 용도 비전으로 전환합니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=60a74472702071845e1c72cf0b9c4ae4afd8bbb33ac5effead40d026631ec193",
@@ -1203,7 +1203,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Amazon's Nvidia Chips Are Sitting in Warehouses Without Power as AI Spending Soars, Business Insider Reports",
-      "headlineKo": "",
+      "headlineKo": "AI 지출이 급증함에 따라 Amazon의 Nvidia 칩은 전력 공급 없이 창고에 앉아 있다고 Business Insider가 보고했습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=78c4e490733d27a611dce0061a3627906f98e2deb129a6c145edacd2624b0577",
@@ -1212,7 +1212,7 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Amazon's Nvidia Chips Are Sitting in Warehouses Without Power as AI Spending Soars, Business Insider Reports"
+        "AI 지출이 급증함에 따라 Amazon의 Nvidia 칩은 전력 공급 없이 창고에 앉아 있다고 Business Insider가 보고했습니다."
       ],
       "marketInterpretation": [],
       "aiInference": [
@@ -1265,7 +1265,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "With Amazon Earnings On Tap, Here's How To Ride Out The Volatility",
-      "headlineKo": "",
+      "headlineKo": "Amazon Earnings On Tap을 통해 변동성을 극복하는 방법은 다음과 같습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=03a64ec99a79dfc3cd0900cfb4bfc9261d2efb9d08b061cba6e1c49f245aae58",
@@ -1274,7 +1274,7 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "With Amazon Earnings On Tap, Here's How To Ride Out The Volatility"
+        "Amazon Earnings On Tap을 통해 변동성을 극복하는 방법은 다음과 같습니다."
       ],
       "marketInterpretation": [],
       "aiInference": [
@@ -1334,7 +1334,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Amazon or Alphabet: If I Could Only Own One for the Next Decade, It Would Be This One",
-      "headlineKo": "",
+      "headlineKo": "Amazon 또는 Alphabet: 앞으로 10년 동안 하나만 소유할 수 있다면 이 제품을 살 것입니다",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=02cf2847c4e279da41791771f54cac60db898b106e5eff2381797663c9234341",
@@ -1419,7 +1419,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Intel’s $28B Ohio Chip Project Hits Construction Milestone After Years Of Delays — Arizona Fab Targets 2028 Start",
-      "headlineKo": "",
+      "headlineKo": "인텔의 280억 달러 규모 오하이오 칩 프로젝트, 수년간의 지연 끝에 건설 이정표 달성 — 애리조나 팹, 2028년 시작 목표",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=09a241c5532847859dd335abef472930a78c2640d951d6c94ea750d0fc53fe6f",
@@ -1495,7 +1495,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Microsoft Must Say This on Oct. 28 or the Stock Will Go Into Free Fall",
-      "headlineKo": "",
+      "headlineKo": "마이크로소프트는 10월 28일에 이 말을 해야 합니다. 그렇지 않으면 주가가 자유낙하할 것입니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f2a51d27d3eb4d1dc2ce2941ad92ac66049328fb5b04fe8543dcf8df14f05005",
@@ -1564,7 +1564,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Micron Technology Maps AI Memory Future With HBM, DRAM and NAND Roadmap",
-      "headlineKo": "",
+      "headlineKo": "Micron Technology, HBM, DRAM 및 NAND 로드맵으로 AI 메모리 미래 지도",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=96b4e18dba44406ace3cc9a91be1dbf1d2cb3df4cd94124154f6d82c39ade92b",
@@ -1636,7 +1636,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Palantir Rises 4% as Software Stocks Rally; ServiceNow Gains 3%, Salesforce Holds Flat",
-      "headlineKo": "",
+      "headlineKo": "Palantir는 소프트웨어 주식 반등으로 4% 상승했습니다. ServiceNow는 3% 상승, Salesforce는 정체 상태 유지",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=311496efe7500bc9c1abecb0f74f4921ce9161abca586d8584117491974514b7",
@@ -1718,7 +1718,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Apple vs. SK hynix: Which Tech Stock Is a Better Buy in 2026?",
-      "headlineKo": "",
+      "headlineKo": "Apple vs. SK 하이닉스: 2026년에는 어느 기술주를 매수하는 것이 더 나은가요?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2461f787aa0d833bbe8552b28a586e7d204ad0d3df7dfa46304235ebd2634b98",
@@ -1787,7 +1787,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Micron helps revive U.S. metal refining as China dominates supply",
-      "headlineKo": "",
+      "headlineKo": "마이크론은 중국이 공급을 장악함에 따라 미국 금속 정제 산업을 부활시키는 데 도움을 줍니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fd52523004832ac008391f828884478c3a852743b0a0b8f4abace72f81a20a7a",
@@ -1796,7 +1796,7 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Micron helps revive U.S. metal refining as China dominates supply"
+        "마이크론은 중국이 공급을 장악함에 따라 미국 금속 정제 산업을 부활시키는 데 도움을 줍니다."
       ],
       "marketInterpretation": [],
       "aiInference": [
@@ -1851,7 +1851,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Wall Street Continues to Systematically Undervalue Alphabet, So I Continue to Buy",
-      "headlineKo": "",
+      "headlineKo": "월스트리트는 계속해서 체계적으로 알파벳을 과소평가하고 있으므로 나는 계속 매수합니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6bb44211e358b35ea4d104882a787e6a7779d75233c933805b2f9fe928ec3f47",
@@ -1936,7 +1936,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Alphabet Has Lost About $860 Billion Since Its Peak, Nearly a Whole Walmart. Apple Has Avoided the AI Race and Is Near All-Time Highs.",
-      "headlineKo": "",
+      "headlineKo": "Alphabet은 정점 이후 약 8,600억 달러의 손실을 입었습니다. 이는 Walmart 전체의 거의 전체 손실입니다. 애플은 AI 경쟁을 피하고 사상 최고치에 가까워졌습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=38f1ac5655414ebb9f503108f276a5e1b66747bba211d0fc9a6c65815630b771",
@@ -2050,7 +2050,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Alphabet Slips 2% Despite NASDAQ Rally as Pichai Says Google Cloud Is Giving Up Revenue for AI Capacity; Amazon Dips, Microsoft Holds Steady",
-      "headlineKo": "",
+      "headlineKo": "Pichai가 Google Cloud가 AI 용량에 대한 수익을 포기하고 있다고 말하면서 Alphabet은 NASDAQ 랠리에도 불구하고 2% 하락했습니다. Amazon Dips, Microsoft는 꾸준한 유지",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5023793fb4092c84946cf9fcdad5139d31ad359f180b7a1d2d6dce3b83f9c3b6",
@@ -2143,7 +2143,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Alphabet Slips 2% Despite NASDAQ Rally as Pichai Says Google Cloud Is Giving Up Revenue for AI Capacity; Amazon Dips, Microsoft Holds Steady",
-      "headlineKo": "",
+      "headlineKo": "Pichai가 Google Cloud가 AI 용량에 대한 수익을 포기하고 있다고 말하면서 Alphabet은 NASDAQ 랠리에도 불구하고 2% 하락했습니다. Amazon Dips, Microsoft는 꾸준한 유지",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5023793fb4092c84946cf9fcdad5139d31ad359f180b7a1d2d6dce3b83f9c3b6",
@@ -2152,7 +2152,7 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Alphabet Slips 2% Despite NASDAQ Rally as Pichai Says Google Cloud Is Giving Up Revenue for AI Capacity; Amazon Dips, Microsoft Holds Steady"
+        "Pichai가 Google Cloud가 AI 용량에 대한 수익을 포기하고 있다고 말하면서 Alphabet은 NASDAQ 랠리에도 불구하고 2% 하락했습니다. Amazon Dips, Microsoft는 꾸준한 유지"
       ],
       "marketInterpretation": [],
       "aiInference": [
@@ -2205,7 +2205,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Apple Faces ‘Slightly Challenging’ Earnings Setup Near Record Highs, Morgan Stanley Says — Sees Limited Upside Potential",
-      "headlineKo": "",
+      "headlineKo": "Apple, 사상 최고치에 가까운 수익 설정에 직면",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=174bf79384ee37d903843cee747059678f975c5150e72c9e31e7652dff7ea247",
@@ -2214,7 +2214,7 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Apple Faces ‘Slightly Challenging’ Earnings Setup Near Record Highs, Morgan Stanley Says — Sees Limited Upside Potential"
+        "Apple, 사상 최고치에 가까운 수익 설정에 직면"
       ],
       "marketInterpretation": [],
       "aiInference": [
@@ -2261,7 +2261,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "GE Vernova’s (GEV) Q3 Pullback Reflects Profit-Taking Amid Sustained AI-Capex Demand",
-      "headlineKo": "",
+      "headlineKo": "GE Vernova(GEV)의 3분기 철수는 지속적인 AI 투자 수요 속에서 이익 실현을 반영합니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=22dd31e02784bf54459a84ce3d4d84e3593da58020e9ed589f5f0260753b0e20",
@@ -2342,7 +2342,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "AMD vs. Nvidia. 1 Metric Proves Which Is the Best Stock.",
-      "headlineKo": "",
+      "headlineKo": "AMD 대 엔비디아. 1개의 지표가 어느 주식이 최고의 주식인지 증명합니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0c998c48b5282eb333f3fff9ff77e7388dea045b303e0f412843f2fd0b9759bd",
@@ -2417,7 +2417,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Broadcom’s AI Revenue Surges 221%, But is Growth Becoming Too Dependent on AI Spending?",
-      "headlineKo": "",
+      "headlineKo": "Broadcom의 AI 수익이 221% 급증했지만 성장이 AI 지출에 너무 의존하고 있습니까?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1510f10c435ddefb59be5174e1d52338665809481f833ac0dab4fe5732ef73e3",
@@ -2493,7 +2493,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Anthropic Has Locked In Over $600 Billion of Computing, More Than Intel Is Worth. It Still Wants More and That’s Big News for AMD.",
-      "headlineKo": "",
+      "headlineKo": "Anthropic은 Intel의 가치보다 더 많은 6000억 달러 이상의 컴퓨팅 분야에 투자했습니다. 여전히 더 많은 것을 원하며 이는 AMD에게는 큰 소식입니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e16ad8d5c99aece4ced267f91a11eb6605a8e01c36e1ce3f36a2f8551b997c55",
@@ -2562,7 +2562,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Will Seagate (STX) Beat Estimates Again in Its Next Earnings Report?",
-      "headlineKo": "",
+      "headlineKo": "Seagate(STX)가 다음 수익 보고서에서 다시 추정치를 상회할 예정입니까?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cc697a6554ea7f431c432c7ea23edb5981146587e3a631ccf2507187341cda84",
@@ -2571,7 +2571,7 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Will Seagate (STX) Beat Estimates Again in Its Next Earnings Report?"
+        "Seagate(STX)가 다음 수익 보고서에서 다시 추정치를 상회할 예정입니까?"
       ],
       "marketInterpretation": [],
       "aiInference": [
@@ -2618,7 +2618,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Why Western Digital (WDC) is Poised to Beat Earnings Estimates Again",
-      "headlineKo": "",
+      "headlineKo": "Western Digital(WDC)이 수익 추정치를 다시 뛰어넘을 준비가 되어 있는 이유",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=da01bc4690edf6098cc858f23c7bd2982c25f6af49e6180f76b03403b3b04813",
@@ -2664,6 +2664,68 @@ const EVENT_DATA = {
       ]
     },
     {
+      "id": "d32c9c11dcb404bc6e32",
+      "schemaVersion": 1,
+      "eventType": "major_customer_contract",
+      "eventLabel": "주요 고객 계약",
+      "primaryTicker": "AAPL",
+      "relatedTickers": [
+        "AAPL"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Apple",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "중기·장기",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Apple expands US supplier network for iPhone materials, components",
+      "headlineKo": "Apple, iPhone 소재 및 부품에 대한 미국 공급업체 네트워크 확장",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=cf835681acbd9faef8d8c8bcbc9c70eae912544eb4eb96678464303517d091e5",
+        "publishedAt": 1792595100,
+        "collectedAt": 1792620715.85159
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Apple, iPhone 소재 및 부품에 대한 미국 공급업체 네트워크 확장"
+      ],
+      "marketInterpretation": [],
+      "aiInference": [
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AAPL",
+          "direction": "positive",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
+        }
+      ],
+      "watch": []
+    },
+    {
       "id": "af20c168dadff23b9a8a",
       "schemaVersion": 1,
       "eventType": "long_term_supply",
@@ -2700,7 +2762,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Elon Musk May Have Ended the October AI Crash as NVIDIA, Intel, and SanDisk Rally after One SpaceX Quote",
-      "headlineKo": "",
+      "headlineKo": "Elon Musk는 One SpaceX 인용 이후 NVIDIA, Intel 및 SanDisk 랠리로 10월 AI 충돌을 종료했을 수 있습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c148a30507b181b491832d05201a856845755646d305bde08e40c3b1c17b5d13",
@@ -2777,7 +2839,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Oracle’s Growth to Valuation Mismatch is Less and Less Compelling",
-      "headlineKo": "",
+      "headlineKo": "Oracle의 가치 평가 불일치로 인한 성장은 점점 더 매력적이지 않습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=93ba5f83bd45bd646bdf7d764921eb00134a5e86377ed7bc08068a53f0b1481c",
@@ -2854,7 +2916,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Arista Networks vs. Datadog: Which Technology Stock Is a Better Buy in 2026?",
-      "headlineKo": "",
+      "headlineKo": "Arista Networks 대 Datadog: 2026년에는 어떤 기술 주식을 구매하는 것이 더 낫습니까?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=701f310f04ba1f08eed26771d996652dba505f5b3c73f58ef6c915979f9e0e03",
@@ -2926,7 +2988,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "AMD, QCOM Targets Raised While INTC, COHR Face Cuts — Susquehanna Sees ‘Modest Upside’ For Chip Earnings",
-      "headlineKo": "",
+      "headlineKo": "INTC, COHR이 인하하는 동안 AMD, QCOM 목표는 상향 조정됨 - Susquehanna는 칩 수익에 대해 '보통의 상승'을 확인",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7ec20134b7b0279facf740220681c46e08c4fcbea48568c3079ab0d00328d34f",
@@ -2935,7 +2997,7 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "AMD, QCOM Targets Raised While INTC, COHR Face Cuts — Susquehanna Sees ‘Modest Upside’ For Chip Earnings"
+        "INTC, COHR이 인하하는 동안 AMD, QCOM 목표는 상향 조정됨 - Susquehanna는 칩 수익에 대해 '보통의 상승'을 확인"
       ],
       "marketInterpretation": [],
       "aiInference": [
@@ -2997,7 +3059,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "AMD, QCOM Targets Raised While INTC, COHR Face Cuts — Susquehanna Sees ‘Modest Upside’ For Chip Earnings",
-      "headlineKo": "",
+      "headlineKo": "INTC, COHR이 인하하는 동안 AMD, QCOM 목표는 상향 조정됨 - Susquehanna는 칩 수익에 대해 '보통의 상승'을 확인",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7ec20134b7b0279facf740220681c46e08c4fcbea48568c3079ab0d00328d34f",
@@ -3066,7 +3128,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "After a 137% Run, Is AMD Priced for Perfection Before Earnings?",
-      "headlineKo": "",
+      "headlineKo": "137%의 성과를 거둔 AMD는 수익을 내기 전에 완벽함을 위해 가격을 책정합니까?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3c95003f11d90d5f14a6b9dae0adc9bf01543a00bf35241449f4df6177195fe2",
@@ -3075,7 +3137,7 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "After a 137% Run, Is AMD Priced for Perfection Before Earnings?"
+        "137%의 성과를 거둔 AMD는 수익을 내기 전에 완벽함을 위해 가격을 책정합니까?"
       ],
       "marketInterpretation": [],
       "aiInference": [
@@ -3133,7 +3195,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Qualcomm (QCOM): Automotive Growth Meets Pressure on Handset Earnings",
-      "headlineKo": "",
+      "headlineKo": "Qualcomm(QCOM): 자동차 성장이 휴대폰 수익에 대한 압박을 충족시키다",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=95e1721f6e2b1d4a156222904ca8c56abf6d84c16d44c42489042c2695236f1e",
@@ -4253,7 +4315,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "KLA (KLAC) Earnings Expected to Grow: Should You Buy?",
-      "headlineKo": "",
+      "headlineKo": "KLA(KLAC) 이익 증가 예상: 매수해야 하나?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=211abada83d35cffa02e3d9885344cc6591b0112fc095fcb98b70fd146a7575e",
@@ -4320,7 +4382,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Vertiv Holdings Co. (VRT) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
-      "headlineKo": "",
+      "headlineKo": "Vertiv Holdings Co.(VRT) 수익 증가 예상: 다음 주 출시에 앞서 알아야 할 사항",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ac6149071100b279c1404b9ccb68ead9c82ab9816bf8351e0d17fff425b3424a",
@@ -4387,7 +4449,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "GE Vernova (GEV) Earnings Expected to Grow: Should You Buy?",
-      "headlineKo": "",
+      "headlineKo": "GE Vernova (GEV) 수익 증가가 예상됩니다: 매수해야 할까요?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fcc5ed4a0dfaf7547c8fa859d818b33429319376cb95d403e2f89745b5afe8a2",
@@ -10725,7 +10787,7 @@ const EVENT_DATA = {
               "variancePct": 2.38,
               "actualEndDate": "2026-03-31",
               "source": "SEC Company Facts",
-              "settledAt": 1792635652.16651,
+              "settledAt": 1792637659.9825284,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -10745,7 +10807,7 @@ const EVENT_DATA = {
               "variancePct": 2.19,
               "actualEndDate": "2026-06-30",
               "source": "SEC Company Facts",
-              "settledAt": 1792635652.16651,
+              "settledAt": 1792637659.9825284,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -17609,62 +17671,6 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
-    },
-    {
-      "id": "067bf49649423f2a4a48",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "MU",
-      "relatedTickers": [
-        "MU"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "중기·장기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Why Is Micron Technology (MU) Betting More On AI Memory Than Smartphones?",
-      "headlineKo": "마이크론 테크놀로지(MU)가 스마트폰보다 AI 메모리에 더 많이 투자하는 이유는 무엇입니까?",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3b5ed6cd93bf32628c61c2228da7454ffc64ee8df78eff44006b1d387570e8a4",
-        "publishedAt": 1792429760,
-        "collectedAt": 1792620715.85159
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "마이크론 테크놀로지(MU)가 스마트폰보다 AI 메모리에 더 많이 투자하는 이유는 무엇입니까?"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "MU",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
     }
   ],
   "byTicker": {
@@ -17673,6 +17679,7 @@ const EVENT_DATA = {
       "4f6145074c5ef7b53ca3",
       "59874c41c96001d8e8b0",
       "e77ea0b66edfa5d62875",
+      "d32c9c11dcb404bc6e32",
       "44aab30b46955414eb32",
       "00189ca4847b578494d9",
       "27c626c27d6292d15e4b",
@@ -18004,8 +18011,7 @@ const EVENT_DATA = {
       "c6f5ce1ef9143b0897d7",
       "bdf58dad04f3050349f7",
       "d809644cd27150ff4bdc",
-      "c11ece71bb149befb39a",
-      "067bf49649423f2a4a48"
+      "c11ece71bb149befb39a"
     ],
     "ASML": [
       "f73e73a5602c503d591c",

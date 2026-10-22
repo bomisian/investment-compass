@@ -333,6 +333,7 @@
 <body>
 <div class="wrap">
 
+  <div id="staleScreenBanner" style="display:none;"></div>
   <header>
     <div>
       <h1>투자 나침반 · 종목 분석 대시보드</h1>
@@ -609,74 +610,74 @@
   </div>
 </div>
 
-<script src="local_features.js" onerror="void 0"></script>
-<script src="fundamentals_data.js"></script>
-<script src="fundamentals_history_data.js" onerror="void 0"></script>
-<script src="financials_data.js"></script>
-<script src="estimates_data.js"></script>
+<script>document.write('<script src="local_features.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
+<script>document.write('<script src="fundamentals_data.js?v=' + Date.now() + '"><\/script>');</script>
+<script>document.write('<script src="fundamentals_history_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
+<script>document.write('<script src="financials_data.js?v=' + Date.now() + '"><\/script>');</script>
+<script>document.write('<script src="estimates_data.js?v=' + Date.now() + '"><\/script>');</script>
 <!-- WO8-B 반려 수정(2026-10-16) -- NTM 매출 컨센서스(정상화 모델 입력). 파일은 이미 파이프라인이 매일 누적해 왔는데 대시보드 로딩 목록에 빠져 있었음(버그). 없어도 대시보드는 정상 동작함(해당 모델만 산출 제한으로 표시). -->
-<script src="revenue_estimate_history_data.js" onerror="void 0"></script>
+<script>document.write('<script src="revenue_estimate_history_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 뉴스/실적일정 - 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 안 보임) -->
-<script src="news_data.js" onerror="void 0"></script>
+<script>document.write('<script src="news_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 데이터 상태 진단(각 소스 최신성·오류) - buy_signal_telegram.py가 매 실행마다 기록해왔는데
      화면에 연결이 안 돼 있었음. 2026-08-28 화면 연결함. 없어도 대시보드는 정상 동작함 -->
-<script src="data_status_data.js" onerror="void 0"></script>
-<script src="ops_status_data.js" onerror="void 0"></script>  <!-- 2026-10-15 WO6-01: 없어도 조용히 건너뜀(다른 선택적 데이터 파일과 동일 패턴) -->
-<script src="verdict_change_today_data.js" onerror="void 0"></script>  <!-- 2026-10-17 WO11-2 ①: 없어도 조용히 건너뜀(다른 선택적 데이터 파일과 동일 패턴) -->
-<script src="evidence_review_queue_status.js" onerror="void 0"></script>  <!-- 2026-10-15 WO6-03: 없어도 조용히 건너뜀 -->
+<script>document.write('<script src="data_status_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
+<script>document.write('<script src="ops_status_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>  <!-- 2026-10-15 WO6-01: 없어도 조용히 건너뜀(다른 선택적 데이터 파일과 동일 패턴) -->
+<script>document.write('<script src="verdict_change_today_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>  <!-- 2026-10-17 WO11-2 ①: 없어도 조용히 건너뜀(다른 선택적 데이터 파일과 동일 패턴) -->
+<script>document.write('<script src="evidence_review_queue_status.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>  <!-- 2026-10-15 WO6-03: 없어도 조용히 건너뜀 -->
 <!-- 자동 뉴스 기반 이벤트분석·변경이력 - Claude가 직접 조사하기 전 보조용(analystLog가
      있으면 이게 아니라 그걸 우선 보여줌). 2026-08-28 화면 연결함. 없어도 대시보드는 정상 동작함 -->
-<script src="event_data.js" onerror="void 0"></script>
-<script src="event_analysis_data.js" onerror="void 0"></script>
-<script src="signal_history_data.js" onerror="void 0"></script>
+<script>document.write('<script src="event_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
+<script>document.write('<script src="event_analysis_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
+<script>document.write('<script src="signal_history_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 임원/이사 내부자 거래(Form 4, SEC 공개 공시) - 없어도 대시보드는 정상 동작함(해당 섹션만 안 보임) -->
-<script src="insider_data.js" onerror="void 0"></script>
+<script>document.write('<script src="insider_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 내부자 거래 정밀분석(반복매도·동시매도·레벨 분류) - buy_signal_telegram.py가 위 원본
      거래 위에 규칙 기반으로 한 단계 더 분석해서 저장해왔는데 화면 연결이 안 돼 있었음.
      2026-08-28 화면 연결함. 없어도 대시보드는 정상 동작함 -->
-<script src="insider_analysis_data.js" onerror="void 0"></script>
+<script>document.write('<script src="insider_analysis_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 시장 환경 지표 + 시장 헤드라인 - 없으면 '오늘의 시장 환경' 카드만 숨겨짐 -->
-<script src="market_data.js" onerror="void 0"></script>
-<script src="tripod_signal_data.js" onerror="void 0"></script>
+<script>document.write('<script src="market_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
+<script>document.write('<script src="tripod_signal_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 종목별 가격(OHLCV) - 실시간 조회 3곳이 다 실패했을 때만 쓰는 폴백. 없어도 대시보드는 정상 동작함 -->
-<script src="prices_data.js" onerror="void 0"></script>
+<script>document.write('<script src="prices_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 종목 사업 핵심 요약(납품처·장점·위험도) - Claude가 WebSearch로 조사해 수동 작성, buy_signal_telegram.py
      자동 갱신 대상 아님(2026-08-10 파일럿 3종목 시작, 2026-08-27 ETF 제외 전 종목 39개 완료). 없어도 대시보드는 정상 동작함 -->
-<script src="business_notes_data.js" onerror="void 0"></script>
+<script>document.write('<script src="business_notes_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- Fundamental 관찰 점수(7D/30D/90D) - SEC 공시 매출·영업이익률 변화 기반, buy_signal_telegram.py가
      매시간 자동 갱신함(뉴스·API 추가 호출 없이 로컬 캐시만 사용). 없어도 대시보드는 정상 동작함 -->
-<script src="fundamental_window_scores_data.js" onerror="void 0"></script>
+<script>document.write('<script src="fundamental_window_scores_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 옵션 IV 기반 이번 주 예상 변동범위(시그마 밴드) - sigma_calc.py가 Yahoo 옵션체인으로 매시간
      계산해서 저장해왔는데(2026-08-20 추가) 화면에 연결이 안 돼 있었음. 2026-08-28 화면 연결함.
      없어도 대시보드는 정상 동작함 -->
-<script src="sigma_data.js" onerror="void 0"></script>
+<script>document.write('<script src="sigma_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- EPS 컨센서스 최근 변화 방향 - eps_revision_collector.py가 Alpha Vantage로 수집해왔는데
      (수동 실행, 2026-08-27부터) 화면에 연결이 안 돼 있었음. 2026-08-28 화면 연결 + 자동
      순환 갱신 파이프라인에 연결함. 없어도 대시보드는 정상 동작함 -->
-<script src="eps_data.js" onerror="void 0"></script>
-<script src="guidance_history_data.js" onerror="void 0"></script>
-<script src="review_baseline_data.js" onerror="void 0"></script>
-<script src="compass_feed.js" onerror="void 0"></script>
-<script src="valuation_snapshot_log_2026.js" onerror="void 0"></script>
+<script>document.write('<script src="eps_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
+<script>document.write('<script src="guidance_history_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
+<script>document.write('<script src="review_baseline_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
+<script>document.write('<script src="compass_feed.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
+<script>document.write('<script src="valuation_snapshot_log_2026.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 공매도(FINRA, 무료·비상업 이용) - 2026-09-04 추가. 격주 갱신이라 파일이 아직 없을 수 있어
      onerror로 없어도 대시보드가 정상 동작하게 함(참고용 지표, 매수·매도 신호 아님) -->
-<script src="short_interest_data.js" onerror="void 0"></script>
+<script>document.write('<script src="short_interest_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 사업부별(세그먼트) 매출(SEC 공식 재무제표 데이터셋, 무료) - 2026-09-04 추가. 분기 단위로만
      갱신되고 종목마다 잡히는 시점이 다를 수 있어 onerror로 없어도 정상 동작하게 함(참고용) -->
-<script src="segment_revenue_data.js" onerror="void 0"></script>
+<script>document.write('<script src="segment_revenue_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 키움증권 실제 매도 내역(ust21530) - 개인 실거래 정보라 로컬 전용, GitHub Pages 배포본엔 없음.
      appkey/secretkey를 config.json에 설정 안 했으면 이 파일 자체가 안 만들어짐 - 없어도 대시보드는 정상 동작함 -->
-<script src="kiwoom_sells_data.js" onerror="void 0"></script>
+<script>document.write('<script src="kiwoom_sells_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 2026-09-15 추가(외부 검토 후속) - VST 독립 적정가 모델(EV/EBITDA+DCF) 수동 스냅샷, 아직 파이프라인 미연동.
      2026-09-17 갱신(AMAT 웹 이식) - 로컬 검수본에서는 AMAT 항목을 별도 파일
      (independent_valuation_data_amat.js)로 분리해 시험했으나, 실제 배포본에서는 새 파일을
      추가하지 않고 이 파일(independent_valuation_data.js) 안에 VST(원본 그대로, 바이트 단위
      동일 확인됨) 옆에 AMAT 항목을 형제 키로 추가하는 방식으로 병합했다 -- 파일 종류를 늘리지
      않고, 기존 스크립트 로딩 순서·onerror 방어 로직도 그대로 유지된다. -->
-<script src="independent_valuation_data.js" onerror="void 0"></script>
+<script>document.write('<script src="independent_valuation_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 2026-09-21 신규(봄이 요청: 일별 판단 이력 추적) -- 아직 배포 전이거나 파일이 없어도
      onerror로 조용히 무시된다(카드 쪽에서도 typeof 체크로 없으면 그냥 숨김). -->
-<script src="amat_decision_history_data.js" onerror="void 0"></script>
+<script>document.write('<script src="amat_decision_history_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 2026-09-28 신규(사용자 요청: 종목별 시장 기준 적정가 범위, 07 탭) -- C_research/sp500_20260928/build_100_fair_value.py가
      매일(92d 수집 직후) 생성. 없으면 onerror로 무시하고 07 탭은 '자료 없음'을 표시. $578.74·매수 배지와 연결하지 않음. -->
 <script>document.write('<script src="fair_value_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
@@ -699,14 +700,14 @@
 <!-- 2026-09-30 신규(사용자 요청: 13F 말고 펠로시 같은 투자자) -- 127_house_ptr_view/build_127_house_ptr_view.py가 생성(113 하원 PTR 자료, 수동 갱신) -->
 <script>document.write('<script src="house_ptr_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 2026-10-07 신규: 시장 기대·섹터 환경 카드(읽기 전용) -- 142 기대충족 판정 엔진 + ETF 섹터 환경 필터 스냅샷. 매수/매도 신호 아님, 자동주문/알림/텔레그램과 미연결. build_dashboard_data.py가 생성. -->
-<script src="market_expectation_41_data.js" onerror="void 0"></script>
-<script src="sector_environment_41_data.js" onerror="void 0"></script>
+<script>document.write('<script src="market_expectation_41_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
+<script>document.write('<script src="sector_environment_41_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 2026-10-08 신규: 사건 영향 의견 카드(읽기 전용) -- 장기 전제 훼손 vs 단기 악재 의견. 102/103/104/142 계산·화면 미변경, 자동매매/텔레그램/매수매도/비중조절 신호 미연결. 데이터 없는 종목은 "최근 구조화 사건 없음"만 표시. -->
-<script src="setback_cards_41_data.js" onerror="void 0"></script>
-<script src="downturn_cause_cards_v31_data.js" onerror="void 0"></script>
-<script src="market_position_card_data.js" onerror="void 0"></script>
-<script src="verdict_scorecard_data.js" onerror="void 0"></script>  <!-- 2026-10-16 WO8-A: 없어도 조용히 건너뜀 -->
-<script src="top100_reference_sample_data.js" onerror="void 0"></script>  <!-- 2026-10-18 WO12-4: 없어도 조용히 건너뜀 -->
+<script>document.write('<script src="setback_cards_41_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
+<script>document.write('<script src="downturn_cause_cards_v31_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
+<script>document.write('<script src="market_position_card_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
+<script>document.write('<script src="verdict_scorecard_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>  <!-- 2026-10-16 WO8-A: 없어도 조용히 건너뜀 -->
+<script>document.write('<script src="top100_reference_sample_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>  <!-- 2026-10-18 WO12-4: 없어도 조용히 건너뜀 -->
 <script>document.write('<script src="price_map_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>  <!-- WO17-5(2026-10-20): 가격 지도(price_map) 화면용 데이터. 142 판단 엔진과 완전히 독립 산출물, 없어도 조용히 건너뜀. -->
 <script>document.write('<script src="ev_sales_history_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>  <!-- WO10-3: EV/Sales 5년 이력(이익훼손형 모델 입력). 없어도 조용히 건너뜀. WO10-FOLLOWUP: 캐시 무효화 추가(smart_money_data.js와 동일 패턴) -->
 <script>
@@ -3504,6 +3505,48 @@ function buildPriceMapSummaryHtml(ticker, existingPriceLabel){
     ${buildPriceMapBarHtml(pm)}
   </div>`;
 }
+// [2026-10-22 봄이 지시 ② 최우선] "데이터는 많은데 한눈에 보기 어렵고 믿기 어렵다" - 상세
+// 화면(01 탭) 맨 위와 종목 카드 맨 위에 공통으로 쓰는 "가격 한눈표" - price_map_data.js(142
+// 엔진과 완전히 독립적으로 산출된 가격 지도, pmData()가 읽음) 값만 그대로 보여줄 뿐 여기서
+// 새로 계산하지 않는다(판정 로직·142 엔진·알림 전혀 안 건드림). 데이터가 없는 종목(관심종목이
+// 아니거나 가격지도 미산출)은 조용히 빈 문자열을 반환한다(기존 다른 섹션들과 같은 관례).
+// 신뢰도 낮음/모델 점검 필요 종목도 숨기지 않고 그대로 표시(지시서 명시).
+const PM_POSITION_GLANCE = {
+  '매수': {emoji:'🟢', label:'싸다'},
+  '적정': {emoji:'🟡', label:'적정'},
+  '고평가': {emoji:'🔴', label:'비싸다'},
+};
+function buildPriceGlanceTableHtml(ticker){
+  const pm = pmData(ticker);
+  if(!pm) return '';
+  const numOk = v => typeof v === 'number' && isFinite(v);
+  const pos = PM_POSITION_GLANCE[pm.verdict] || {emoji:'⚪', label:pm.verdict || '-'};
+  const pct = numOk(pm.ratio) ? (pm.ratio - 1) * 100 : null;
+  const pctTxt = pct!=null ? ` (${pct>=0?'+':''}${pct.toFixed(1)}% 적정가 대비)` : '';
+  const warnTxt = pm.modelCheckNeeded ? ' <span style="color:#b3261e;font-weight:700;" title="적정가/현재가 비율이 정상 범위를 벗어나 모델 점검이 필요합니다">⚠ 모델 점검 필요</span>' : '';
+  const draftTxt = (typeof PRICE_MAP_DRAFT_REVIEW_NOTICE !== 'undefined' && PRICE_MAP_DRAFT_REVIEW_NOTICE) ? ' <span style="font-size:9px;font-weight:700;color:#876000;background:#fff8ea;padding:1px 4px;border-radius:3px;white-space:nowrap;">초안·검토중(10/23 확정예정)</span>' : '';
+  const rows = [
+    ['현재가', numOk(pm.currentPrice) ? ('$' + pm.currentPrice.toFixed(2)) : '-', null],
+    ['적정가', numOk(pm.fairPrice) ? ('$' + pm.fairPrice.toFixed(2)) : '-', null],
+    ['분할매수 시작가', numOk(pm.bandDcaHigh) ? ('$' + pm.bandDcaHigh.toFixed(2)) : '-', null],
+    ['적극 모아가기가', numOk(pm.bandAggressiveLe) ? ('$' + pm.bandAggressiveLe.toFixed(2)) : '-', null],
+    ['지금 위치', `${pos.emoji} ${esc(pos.label)}${pctTxt}`, null],
+    ['신뢰도', esc(pm.confidence || '-'), pm.confidenceNote || null],
+    ['가격 기준일', esc(pm.asOf || '-'), null],
+  ];
+  const rowsHtml = rows.map(([label, val, title], i) => `
+    <div style="display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:5px 10px;${i>0?'border-top:1px solid var(--panel-2);':''}">
+      <span class="sub" style="font-size:11.5px;white-space:nowrap;">${esc(label)}</span>
+      <span style="font-size:13px;font-weight:700;text-align:right;"${title ? ' title="' + esc(title) + '"' : ''}>${val}</span>
+    </div>`).join('');
+  return `<div class="pg-glance" style="border:1px solid var(--panel-2);border-radius:8px;overflow:hidden;margin-bottom:8px;background:var(--panel);">
+    <div style="display:flex;justify-content:space-between;align-items:center;padding:5px 10px;background:var(--panel-2);font-size:11px;font-weight:700;flex-wrap:wrap;gap:4px;">
+      <span>가격 한눈표${warnTxt}</span>
+      ${draftTxt}
+    </div>
+    ${rowsHtml}
+  </div>`;
+}
 function buildResultCardHtml(r){
   const numFn = v => typeof v === 'number' && isFinite(v);
   let d, act, decisionInfo;
@@ -3512,7 +3555,7 @@ function buildResultCardHtml(r){
     act = pvIntegratedAction(d);
     decisionInfo = pvDecisionInfo(d, r, act, numFn);
   }catch(e){
-    return `<div class="rc-card"><div class="rc-row1"><span class="rc-ticker">${esc(r.ticker)}</span><span class="rc-price">$${r.price.toFixed(2)}</span></div><div class="sub" style="margin-top:6px;">판단 계산 실패(참고 - 상세보기에서 다시 확인하세요)</div><div class="rc-detail-btn" onclick="openDetail('${r.ticker}')">상세보기 →</div></div>`;
+    return `${buildPriceGlanceTableHtml(r.ticker)}<div class="rc-card"><div class="rc-row1"><span class="rc-ticker">${esc(r.ticker)}</span><span class="rc-price">$${r.price.toFixed(2)}</span></div><div class="sub" style="margin-top:6px;">판단 계산 실패(참고 - 상세보기에서 다시 확인하세요)</div><div class="rc-detail-btn" onclick="openDetail('${r.ticker}')">상세보기 →</div></div>`;
   }
   const actionColor = ACTION_COLOR_RC[act.label] || '#3c4552';
   const priceColor = PV_COLOR[d.price] || '#3c4552';
@@ -3558,7 +3601,7 @@ function buildResultCardHtml(r){
       ? ` <span class="sub" style="font-size:11px;">(적정가 대비 ${basePriceDiffPct>=0?'+':''}${basePriceDiffPct.toFixed(1)}%)</span>`
       : '');
 
-  return `<div class="rc-card" id="rc-${r.ticker}">
+  return `${buildPriceGlanceTableHtml(r.ticker)}<div class="rc-card" id="rc-${r.ticker}">
     <div class="rc-row1">
       <span class="rc-ticker">${esc(r.ticker)}</span>
       <span class="rc-price">$${r.price.toFixed(2)}</span>
@@ -9593,6 +9636,10 @@ function tabJudgement(r){
   const ivHtmlFolded = renderIndependentValuationSection(r);
 
   return `
+    ${buildPriceGlanceTableHtml(r.ticker)}
+    <details style="margin-top:10px;">
+      <summary style="cursor:pointer;font-weight:700;padding:8px 0;font-size:14.5px;">▸ 자세히 보기(기존 분석)</summary>
+      <div style="margin-top:8px;">
     ${renderCompassCard(r)}
     ${renderPriceValidityCard(r)}
     ${renderMarketExpectationSectorCard(r)}
@@ -9681,6 +9728,8 @@ function tabJudgement(r){
         ${renderDataAsOf(r)}
         ${renderDataHealth(r)}
         ${isAdHocTicker(r.ticker) ? `<div class="comment-box" style="background:var(--warn-bg);color:#876000;margin-bottom:12px;"><b>${r.ticker}</b>는 관심종목이 아니라 펀더멘털 캐시가 없어요. 아래 장기 점수(눌림목 강도)는 가격만으로 계산되니 그대로 유효하지만, 참고 지표(PER·부채·EPS)와 02~05 탭은 "조회 불가"로 떠요.</div>` : ''}
+      </div>
+    </details>
       </div>
     </details>
   `;
@@ -13834,6 +13883,26 @@ function renderDataStatusLine(){
 // data_status_data.js(위 renderDataStatusLine)와 역할이 다름 - 저건 "가격·재무 데이터 소스"
 // 상태, 이건 "파이프라인/배포 자체"가 멈추거나 어긋났는지 상태. 파일이 없거나 비어있으면
 // 조용히 숨긴다(다른 선택적 카드들과 동일한 패턴).
+// [2026-10-22 봄이 지시] 화면이 오래된 채로 떠 있어도 모르고 보는 문제(10/14 화면이 그대로 떠
+// 있었던 사례) 방지용 - DATA_STATUS.generatedAt(파이프라인이 매 사이클 갱신하는 생성 시각)을
+// 기준으로, 페이지가 가진 데이터가 기존 코드베이스의 36시간 신선도 기준(스마트머니 등 다른 곳에서도
+// 이미 쓰는 값, 대략 1거래일 이상에 해당)보다 오래됐으면 맨 위에 경고 배너를 띔.
+// 판정 로직·142 엔진·알림과는 무관 - 순수 표시 전용이며 읽기만 하고 아무 것도 계산/저장하지 않음.
+function renderStaleScreenBanner(){
+  const el = document.getElementById('staleScreenBanner');
+  if(!el) return;
+  try{
+    if(typeof DATA_STATUS === 'undefined' || !DATA_STATUS || !DATA_STATUS.generatedAt){ el.style.display='none'; return; }
+    const ageMs = Date.now() - (DATA_STATUS.generatedAt * 1000);
+    const ageH = ageMs / 3600000;
+    if(!isFinite(ageH) || ageH <= 36){ el.style.display='none'; return; }
+    const label = DATA_STATUS.buildGeneratedAt ? (' (최근 데이터: ' + esc(String(DATA_STATUS.buildGeneratedAt)) + ')') : '';
+    el.style.display = 'block';
+    el.style.cssText = 'display:block;background:#fff3cd;color:#7a4b00;border:1px solid #e0b200;border-radius:8px;padding:8px 12px;margin-bottom:10px;font-weight:700;font-size:14px;';
+    el.innerHTML = '⚠ 오래된 화면 — 새로고침 필요' + label;
+  }catch(e){ el.style.display='none'; }
+}
+
 function renderOpsStatusLine(){
   const el = document.getElementById('opsStatusLine');
   if(!el) return;
@@ -18058,6 +18127,8 @@ renderHoldings();
 renderMarketCard();  // 시장 환경은 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
 renderTripodCard();  // 트라이팟 신호도 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
 renderDataStatusLine();  // 데이터 상태도 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
+renderStaleScreenBanner();  // 2026-10-22 봄이 지시: 오래된 화면(10/14 화면이 그대로 떠 있던 사례) 경고 - 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
+setInterval(renderStaleScreenBanner, 5 * 60 * 1000);  // 탭을 계속 열어둔 채 방치해도(새로고침 없이도) 5분마다 재확인
 renderVerdictChangeLine();  // 2026-10-17 WO11-2 ①: 오늘 판정이 바뀐 종목도 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
 renderOpsStatusLine();  // 2026-10-15 WO6-01: 운영 상태(파이프라인/배포 자체)도 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
 renderEarningsDdayLine();  // 2026-10-15 WO6-04: 다음 7일 실적 발표 한눈에 보기 - 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨

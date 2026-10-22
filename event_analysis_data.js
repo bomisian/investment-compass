@@ -1,11 +1,11 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1792635654.1457758,
+  "generatedAt": 1792637662.066217,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792608719,
       "signal": "주의 강화",
       "netScore": -2.38,
@@ -55,7 +55,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "73b96e05d70c546c697f",
-          "headline": "Steve Ballmer Is Worth $164 Billion, After Being Kicked Out Of Microsoft",
+          "headline": "스티브 발머, 마이크로소프트에서 쫓겨난 뒤 자산 1640억 달러",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1792608719,
           "verificationStatus": "needs_confirmation",
@@ -69,7 +69,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "91987a674b9f255d3804",
-          "headline": "Microsoft Must Say This on Oct. 28 or the Stock Will Go Into Free Fall",
+          "headline": "마이크로소프트는 10월 28일에 이 말을 해야 합니다. 그렇지 않으면 주가가 자유낙하할 것입니다.",
           "eventLabel": "장기 공급계약",
           "publishedAt": 1792603020,
           "verificationStatus": "needs_confirmation",
@@ -171,7 +171,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792615320,
       "signal": "주의 강화",
       "netScore": -6.92,
@@ -221,7 +221,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "a2700bd73ce152b20284",
-          "headline": "Kazakhstan’s AIFC Regulator Turns to Apple and Google to Enforce Coinbase, HTX Injunctions",
+          "headline": "카자흐스탄의 AIFC 규제 기관, Apple과 Google에 의존하여 Coinbase, HTX 금지 명령 집행",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1792615320,
           "verificationStatus": "needs_confirmation",
@@ -235,7 +235,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "db29787372e159d28a64",
-          "headline": "Alphabet Slips 2% Despite NASDAQ Rally as Pichai Says Google Cloud Is Giving Up Revenue for AI Capacity; Amazon Dips, Microsoft Holds Steady",
+          "headline": "Pichai가 Google Cloud가 AI 용량에 대한 수익을 포기하고 있다고 말하면서 Alphabet은 NASDAQ 랠리에도 불구하고 2% 하락했습니다. Amazon Dips, Microsoft는 꾸준한 유지",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792597719,
           "verificationStatus": "needs_confirmation",
@@ -283,7 +283,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792606534,
       "signal": "주의 강화",
       "netScore": -10,
@@ -333,7 +333,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "973c423976faceab7eac",
-          "headline": "Amazon Ditches Ashburn Data Center Plan, Shifts To Mixed-Use Vision",
+          "headline": "Amazon은 Ashburn 데이터 센터 계획을 버리고 혼합 용도 비전으로 전환합니다.",
           "eventLabel": "공급망 문제",
           "publishedAt": 1792606534,
           "verificationStatus": "needs_confirmation",
@@ -347,7 +347,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "439e47d9f8a1fe382b75",
-          "headline": "Amazon or Alphabet: If I Could Only Own One for the Next Decade, It Would Be This One",
+          "headline": "Amazon 또는 Alphabet: 앞으로 10년 동안 하나만 소유할 수 있다면 이 제품을 살 것입니다",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792605000,
           "verificationStatus": "needs_confirmation",
@@ -362,7 +362,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "db29787372e159d28a64",
-          "headline": "Alphabet Slips 2% Despite NASDAQ Rally as Pichai Says Google Cloud Is Giving Up Revenue for AI Capacity; Amazon Dips, Microsoft Holds Steady",
+          "headline": "Pichai가 Google Cloud가 AI 용량에 대한 수익을 포기하고 있다고 말하면서 Alphabet은 NASDAQ 랠리에도 불구하고 2% 하락했습니다. Amazon Dips, Microsoft는 꾸준한 유지",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792597719,
           "verificationStatus": "needs_confirmation",
@@ -502,7 +502,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792604487,
       "signal": "주의 강화",
       "netScore": -2.65,
@@ -552,7 +552,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "7f609b4b4352b6534aff",
-          "headline": "Intel’s $28B Ohio Chip Project Hits Construction Milestone After Years Of Delays — Arizona Fab Targets 2028 Start",
+          "headline": "인텔의 280억 달러 규모 오하이오 칩 프로젝트, 수년간의 지연 끝에 건설 이정표 달성 — 애리조나 팹, 2028년 시작 목표",
           "eventLabel": "실적 발표",
           "publishedAt": 1792604487,
           "verificationStatus": "needs_confirmation",
@@ -565,7 +565,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "119b05f0491e549cd6aa",
-          "headline": "AMD, QCOM Targets Raised While INTC, COHR Face Cuts — Susquehanna Sees ‘Modest Upside’ For Chip Earnings",
+          "headline": "INTC, COHR이 인하하는 동안 AMD, QCOM 목표는 상향 조정됨 - Susquehanna는 칩 수익에 대해 '보통의 상승'을 확인",
           "eventLabel": "애널리스트 목표주가 변경",
           "publishedAt": 1792593029,
           "verificationStatus": "needs_confirmation",
@@ -607,20 +607,20 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792615320,
       "signal": "주의 강화",
-      "netScore": -10,
+      "netScore": -9.6,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 0.0,
+          "score": 0.52,
           "level": "중립"
         },
         "growth": {
           "label": "성장성",
-          "score": -3.32,
+          "score": -2.27,
           "level": "주의"
         },
         "valuationBurden": {
@@ -645,7 +645,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -4.38,
+          "score": -3.85,
           "level": "주의"
         },
         "insiderSignal": {
@@ -657,7 +657,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "a2700bd73ce152b20284",
-          "headline": "Kazakhstan’s AIFC Regulator Turns to Apple and Google to Enforce Coinbase, HTX Injunctions",
+          "headline": "카자흐스탄의 AIFC 규제 기관, Apple과 Google에 의존하여 Coinbase, HTX 금지 명령 집행",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1792615320,
           "verificationStatus": "needs_confirmation",
@@ -671,7 +671,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "4f6145074c5ef7b53ca3",
-          "headline": "Apple vs. SK hynix: Which Tech Stock Is a Better Buy in 2026?",
+          "headline": "Apple vs. SK 하이닉스: 2026년에는 어느 기술주를 매수하는 것이 더 나은가요?",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1792601582,
           "verificationStatus": "needs_confirmation",
@@ -682,6 +682,20 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -1
           },
           "reason": "회사 실적과의 연결고리 확인"
+        },
+        {
+          "eventId": "d32c9c11dcb404bc6e32",
+          "headline": "Apple, iPhone 소재 및 부품에 대한 미국 공급업체 네트워크 확장",
+          "eventLabel": "주요 고객 계약",
+          "publishedAt": 1792595100,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=cf835681acbd9faef8d8c8bcbc9c70eae912544eb4eb96678464303517d091e5",
+          "factorChanges": {
+            "growth": 2,
+            "longTermCompetitiveness": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
         },
         {
           "eventId": "44aab30b46955414eb32",
@@ -804,12 +818,12 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 11,
+      "unverifiedEvidenceCount": 12,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792604487,
       "signal": "주의 강화",
       "netScore": -3.36,
@@ -859,7 +873,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "7f609b4b4352b6534aff",
-          "headline": "Intel’s $28B Ohio Chip Project Hits Construction Milestone After Years Of Delays — Arizona Fab Targets 2028 Start",
+          "headline": "인텔의 280억 달러 규모 오하이오 칩 프로젝트, 수년간의 지연 끝에 건설 이정표 달성 — 애리조나 팹, 2028년 시작 목표",
           "eventLabel": "실적 발표",
           "publishedAt": 1792604487,
           "verificationStatus": "needs_confirmation",
@@ -872,7 +886,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "119b05f0491e549cd6aa",
-          "headline": "AMD, QCOM Targets Raised While INTC, COHR Face Cuts — Susquehanna Sees ‘Modest Upside’ For Chip Earnings",
+          "headline": "INTC, COHR이 인하하는 동안 AMD, QCOM 목표는 상향 조정됨 - Susquehanna는 칩 수익에 대해 '보통의 상승'을 확인",
           "eventLabel": "애널리스트 목표주가 변경",
           "publishedAt": 1792593029,
           "verificationStatus": "needs_confirmation",
@@ -970,7 +984,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792593956,
       "signal": "중립·확인 대기",
       "netScore": -0.49,
@@ -1020,7 +1034,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "814fa883f2a1292171ba",
-          "headline": "Oracle’s Growth to Valuation Mismatch is Less and Less Compelling",
+          "headline": "Oracle의 가치 평가 불일치로 인한 성장은 점점 더 매력적이지 않습니다.",
           "eventLabel": "워런트·신주·희석 가능성",
           "publishedAt": 1792593956,
           "verificationStatus": "needs_confirmation",
@@ -1109,7 +1123,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792601708,
       "signal": "중립·확인 대기",
       "netScore": 0.84,
@@ -1159,7 +1173,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "03b396211e0fe3e80270",
-          "headline": "Palantir Rises 4% as Software Stocks Rally; ServiceNow Gains 3%, Salesforce Holds Flat",
+          "headline": "Palantir는 소프트웨어 주식 반등으로 4% 상승했습니다. ServiceNow는 3% 상승, Salesforce는 정체 상태 유지",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1792601708,
           "verificationStatus": "needs_confirmation",
@@ -1290,7 +1304,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792601708,
       "signal": "중립·확인 대기",
       "netScore": 1.25,
@@ -1340,7 +1354,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "03b396211e0fe3e80270",
-          "headline": "Palantir Rises 4% as Software Stocks Rally; ServiceNow Gains 3%, Salesforce Holds Flat",
+          "headline": "Palantir는 소프트웨어 주식 반등으로 4% 상승했습니다. ServiceNow는 3% 상승, Salesforce는 정체 상태 유지",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1792601708,
           "verificationStatus": "needs_confirmation",
@@ -1399,7 +1413,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792608320,
       "signal": "우호적 변화",
       "netScore": 8.18,
@@ -1449,7 +1463,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "ce4de9d37058e8724f20",
-          "headline": "Nvidia’s $1.1 Billion KYEC Deal Is the Small Number in a $279 Billion Supply Bet",
+          "headline": "Nvidia의 11억 달러 KYEC 거래는 2,790억 달러 공급 베팅 중 작은 숫자입니다.",
           "eventLabel": "공급망 문제",
           "publishedAt": 1792608320,
           "verificationStatus": "needs_confirmation",
@@ -1463,7 +1477,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "59874c41c96001d8e8b0",
-          "headline": "Alphabet Has Lost About $860 Billion Since Its Peak, Nearly a Whole Walmart. Apple Has Avoided the AI Race and Is Near All-Time Highs.",
+          "headline": "Alphabet은 정점 이후 약 8,600억 달러의 손실을 입었습니다. 이는 Walmart 전체의 거의 전체 손실입니다. 애플은 AI 경쟁을 피하고 사상 최고치에 가까워졌습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792598778,
           "verificationStatus": "needs_confirmation",
@@ -1476,7 +1490,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "8a4c23979d2f08a3ba60",
-          "headline": "AMD vs. Nvidia. 1 Metric Proves Which Is the Best Stock.",
+          "headline": "AMD 대 엔비디아. 1개의 지표가 어느 주식이 최고의 주식인지 증명합니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792596900,
           "verificationStatus": "needs_confirmation",
@@ -1491,7 +1505,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "af20c168dadff23b9a8a",
-          "headline": "Elon Musk May Have Ended the October AI Crash as NVIDIA, Intel, and SanDisk Rally after One SpaceX Quote",
+          "headline": "Elon Musk는 One SpaceX 인용 이후 NVIDIA, Intel 및 SanDisk 랠리로 10월 AI 충돌을 종료했을 수 있습니다.",
           "eventLabel": "장기 공급계약",
           "publishedAt": 1792595065,
           "verificationStatus": "needs_confirmation",
@@ -1613,7 +1627,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792598778,
       "signal": "우호적 변화",
       "netScore": 9.51,
@@ -1663,7 +1677,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "59874c41c96001d8e8b0",
-          "headline": "Alphabet Has Lost About $860 Billion Since Its Peak, Nearly a Whole Walmart. Apple Has Avoided the AI Race and Is Near All-Time Highs.",
+          "headline": "Alphabet은 정점 이후 약 8,600억 달러의 손실을 입었습니다. 이는 Walmart 전체의 거의 전체 손실입니다. 애플은 AI 경쟁을 피하고 사상 최고치에 가까워졌습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792598778,
           "verificationStatus": "needs_confirmation",
@@ -1676,7 +1690,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "4ba14f93f316d92eb9ba",
-          "headline": "Anthropic Has Locked In Over $600 Billion of Computing, More Than Intel Is Worth. It Still Wants More and That’s Big News for AMD.",
+          "headline": "Anthropic은 Intel의 가치보다 더 많은 6000억 달러 이상의 컴퓨팅 분야에 투자했습니다. 여전히 더 많은 것을 원하며 이는 AMD에게는 큰 소식입니다.",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1792595780,
           "verificationStatus": "needs_confirmation",
@@ -1690,7 +1704,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "119b05f0491e549cd6aa",
-          "headline": "AMD, QCOM Targets Raised While INTC, COHR Face Cuts — Susquehanna Sees ‘Modest Upside’ For Chip Earnings",
+          "headline": "INTC, COHR이 인하하는 동안 AMD, QCOM 목표는 상향 조정됨 - Susquehanna는 칩 수익에 대해 '보통의 상승'을 확인",
           "eventLabel": "애널리스트 목표주가 변경",
           "publishedAt": 1792593029,
           "verificationStatus": "needs_confirmation",
@@ -1824,7 +1838,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792593029,
       "signal": "중립·확인 대기",
       "netScore": -1.62,
@@ -1874,7 +1888,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "119b05f0491e549cd6aa",
-          "headline": "AMD, QCOM Targets Raised While INTC, COHR Face Cuts — Susquehanna Sees ‘Modest Upside’ For Chip Earnings",
+          "headline": "INTC, COHR이 인하하는 동안 AMD, QCOM 목표는 상향 조정됨 - Susquehanna는 칩 수익에 대해 '보통의 상승'을 확인",
           "eventLabel": "애널리스트 목표주가 변경",
           "publishedAt": 1792593029,
           "verificationStatus": "needs_confirmation",
@@ -1974,7 +1988,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792591108,
       "signal": "주의 강화",
       "netScore": -2.52,
@@ -2024,7 +2038,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "3122a969bb065d762abf",
-          "headline": "Qualcomm (QCOM): Automotive Growth Meets Pressure on Handset Earnings",
+          "headline": "Qualcomm(QCOM): 자동차 성장이 휴대폰 수익에 대한 압박을 충족시키다",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1792591108,
           "verificationStatus": "needs_confirmation",
@@ -2111,7 +2125,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2165,7 +2179,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2219,7 +2233,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792608722,
       "signal": "주의 강화",
       "netScore": -9.39,
@@ -2269,7 +2283,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "f73e73a5602c503d591c",
-          "headline": "ASML Has Incredible News for Nvidia Stock and Micron Stock Investors",
+          "headline": "ASML은 Nvidia 주식 및 Micron 주식 투자자를 위한 놀라운 소식을 전합니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792608722,
           "verificationStatus": "needs_confirmation",
@@ -2284,7 +2298,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "4f6145074c5ef7b53ca3",
-          "headline": "Apple vs. SK hynix: Which Tech Stock Is a Better Buy in 2026?",
+          "headline": "Apple vs. SK 하이닉스: 2026년에는 어느 기술주를 매수하는 것이 더 나은가요?",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1792601582,
           "verificationStatus": "needs_confirmation",
@@ -2298,7 +2312,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "8a4c23979d2f08a3ba60",
-          "headline": "AMD vs. Nvidia. 1 Metric Proves Which Is the Best Stock.",
+          "headline": "AMD 대 엔비디아. 1개의 지표가 어느 주식이 최고의 주식인지 증명합니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792596900,
           "verificationStatus": "needs_confirmation",
@@ -2313,7 +2327,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "4ba14f93f316d92eb9ba",
-          "headline": "Anthropic Has Locked In Over $600 Billion of Computing, More Than Intel Is Worth. It Still Wants More and That’s Big News for AMD.",
+          "headline": "Anthropic은 Intel의 가치보다 더 많은 6000억 달러 이상의 컴퓨팅 분야에 투자했습니다. 여전히 더 많은 것을 원하며 이는 AMD에게는 큰 소식입니다.",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1792595780,
           "verificationStatus": "needs_confirmation",
@@ -2327,7 +2341,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "af20c168dadff23b9a8a",
-          "headline": "Elon Musk May Have Ended the October AI Crash as NVIDIA, Intel, and SanDisk Rally after One SpaceX Quote",
+          "headline": "Elon Musk는 One SpaceX 인용 이후 NVIDIA, Intel 및 SanDisk 랠리로 10월 AI 충돌을 종료했을 수 있습니다.",
           "eventLabel": "장기 공급계약",
           "publishedAt": 1792595065,
           "verificationStatus": "needs_confirmation",
@@ -2341,7 +2355,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "ee45c2b9085941aef646",
-          "headline": "Arista Networks vs. Datadog: Which Technology Stock Is a Better Buy in 2026?",
+          "headline": "Arista Networks 대 Datadog: 2026년에는 어떤 기술 주식을 구매하는 것이 더 낫습니까?",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1792593644,
           "verificationStatus": "needs_confirmation",
@@ -2355,7 +2369,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "119b05f0491e549cd6aa",
-          "headline": "AMD, QCOM Targets Raised While INTC, COHR Face Cuts — Susquehanna Sees ‘Modest Upside’ For Chip Earnings",
+          "headline": "INTC, COHR이 인하하는 동안 AMD, QCOM 목표는 상향 조정됨 - Susquehanna는 칩 수익에 대해 '보통의 상승'을 확인",
           "eventLabel": "애널리스트 목표주가 변경",
           "publishedAt": 1792593029,
           "verificationStatus": "needs_confirmation",
@@ -2441,7 +2455,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792585560,
       "signal": "중립·확인 대기",
       "netScore": 0.36,
@@ -2535,7 +2549,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792608722,
       "signal": "주의 강화",
       "netScore": -6.85,
@@ -2585,7 +2599,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "f73e73a5602c503d591c",
-          "headline": "ASML Has Incredible News for Nvidia Stock and Micron Stock Investors",
+          "headline": "ASML은 Nvidia 주식 및 Micron 주식 투자자를 위한 놀라운 소식을 전합니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792608722,
           "verificationStatus": "needs_confirmation",
@@ -2660,7 +2674,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2714,7 +2728,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792604487,
       "signal": "중립·확인 대기",
       "netScore": -0.9,
@@ -2764,7 +2778,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "7f609b4b4352b6534aff",
-          "headline": "Intel’s $28B Ohio Chip Project Hits Construction Milestone After Years Of Delays — Arizona Fab Targets 2028 Start",
+          "headline": "인텔의 280억 달러 규모 오하이오 칩 프로젝트, 수년간의 지연 끝에 건설 이정표 달성 — 애리조나 팹, 2028년 시작 목표",
           "eventLabel": "실적 발표",
           "publishedAt": 1792604487,
           "verificationStatus": "needs_confirmation",
@@ -2777,7 +2791,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "119b05f0491e549cd6aa",
-          "headline": "AMD, QCOM Targets Raised While INTC, COHR Face Cuts — Susquehanna Sees ‘Modest Upside’ For Chip Earnings",
+          "headline": "INTC, COHR이 인하하는 동안 AMD, QCOM 목표는 상향 조정됨 - Susquehanna는 칩 수익에 대해 '보통의 상승'을 확인",
           "eventLabel": "애널리스트 목표주가 변경",
           "publishedAt": 1792593029,
           "verificationStatus": "needs_confirmation",
@@ -2845,7 +2859,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2899,7 +2913,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792608722,
       "signal": "우호적 변화",
       "netScore": 6.87,
@@ -2949,7 +2963,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "f73e73a5602c503d591c",
-          "headline": "ASML Has Incredible News for Nvidia Stock and Micron Stock Investors",
+          "headline": "ASML은 Nvidia 주식 및 Micron 주식 투자자를 위한 놀라운 소식을 전합니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792608722,
           "verificationStatus": "needs_confirmation",
@@ -2964,7 +2978,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "8b1053e9b0f587ea2a81",
-          "headline": "Micron helps revive U.S. metal refining as China dominates supply",
+          "headline": "마이크론은 중국이 공급을 장악함에 따라 미국 금속 정제 산업을 부활시키는 데 도움을 줍니다.",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1792601220,
           "verificationStatus": "needs_confirmation",
@@ -2978,7 +2992,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "59874c41c96001d8e8b0",
-          "headline": "Alphabet Has Lost About $860 Billion Since Its Peak, Nearly a Whole Walmart. Apple Has Avoided the AI Race and Is Near All-Time Highs.",
+          "headline": "Alphabet은 정점 이후 약 8,600억 달러의 손실을 입었습니다. 이는 Walmart 전체의 거의 전체 손실입니다. 애플은 AI 경쟁을 피하고 사상 최고치에 가까워졌습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792598778,
           "verificationStatus": "needs_confirmation",
@@ -3114,7 +3128,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792595065,
       "signal": "중립·확인 대기",
       "netScore": 1.54,
@@ -3164,7 +3178,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "af20c168dadff23b9a8a",
-          "headline": "Elon Musk May Have Ended the October AI Crash as NVIDIA, Intel, and SanDisk Rally after One SpaceX Quote",
+          "headline": "Elon Musk는 One SpaceX 인용 이후 NVIDIA, Intel 및 SanDisk 랠리로 10월 AI 충돌을 종료했을 수 있습니다.",
           "eventLabel": "장기 공급계약",
           "publishedAt": 1792595065,
           "verificationStatus": "needs_confirmation",
@@ -3212,7 +3226,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792527364,
       "signal": "주의 강화",
       "netScore": -6.92,
@@ -3324,7 +3338,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792593644,
       "signal": "주의 강화",
       "netScore": -3.14,
@@ -3374,7 +3388,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "ee45c2b9085941aef646",
-          "headline": "Arista Networks vs. Datadog: Which Technology Stock Is a Better Buy in 2026?",
+          "headline": "Arista Networks 대 Datadog: 2026년에는 어떤 기술 주식을 구매하는 것이 더 낫습니까?",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1792593644,
           "verificationStatus": "needs_confirmation",
@@ -3407,7 +3421,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792593029,
       "signal": "주의 강화",
       "netScore": -3.92,
@@ -3457,7 +3471,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "119b05f0491e549cd6aa",
-          "headline": "AMD, QCOM Targets Raised While INTC, COHR Face Cuts — Susquehanna Sees ‘Modest Upside’ For Chip Earnings",
+          "headline": "INTC, COHR이 인하하는 동안 AMD, QCOM 목표는 상향 조정됨 - Susquehanna는 칩 수익에 대해 '보통의 상승'을 확인",
           "eventLabel": "애널리스트 목표주가 변경",
           "publishedAt": 1792593029,
           "verificationStatus": "needs_confirmation",
@@ -3502,7 +3516,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3556,7 +3570,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792586700,
       "signal": "우호적 변화",
       "netScore": 3.49,
@@ -3639,7 +3653,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3693,7 +3707,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792579962,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -3762,7 +3776,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3816,7 +3830,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3870,7 +3884,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3924,7 +3938,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792430100,
       "signal": "우호적 변화",
       "netScore": 2.09,
@@ -3993,7 +4007,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4047,7 +4061,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 1792608873,
       "signal": "주의 강화",
       "netScore": -3.13,
@@ -4097,7 +4111,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "66cd144f443fbc1831ac",
-          "headline": "Micron Is Up 221% in 2026 and Seagate Is Up 155%: Take Profits, or Hold On for the Ride?",
+          "headline": "2026년 Micron은 221% 상승하고 Seagate는 155% 상승: 이익을 얻을 것인가, 아니면 계속해서 나아갈 것인가?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792608873,
           "verificationStatus": "needs_confirmation",
@@ -4132,7 +4146,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4186,7 +4200,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4240,7 +4254,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1792635654.1457758,
+      "updatedAt": 1792637662.066217,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
