@@ -2,7 +2,7 @@ const PRICE_MAP_DATA = {
   "_meta": {
     "title": "WO17 가격지도(price_map) - 화면용 production 데이터",
     "as_of": "2026-10-22",
-    "input_snapshot_hash": "b44525fbf4821ad5c9a1664f356ae1099915d7d5f5585862319950b75cfffd2e",
+    "input_snapshot_hash": "e483f91c0099f407f7fb863fd59b6489f663d20de9648b5091e7a223c6fdc46a",
     "generated_by": "price_map_engine.py write_price_map_data_js()",
     "note": "142 엔진(computePriceValidity/pvIntegratedAction)과 완전히 독립된 산출물 - 기존 판정 로직을 전혀 안 건드림."
   },
@@ -186,7 +186,7 @@ const PRICE_MAP_DATA = {
       "stockType": "분류불가(이력부족)",
       "stockTypeReason": "유효 연간 EPS 4개년(<5년 기준) - 필터 없음(원본 그대로)",
       "candidates": {
-        "historicalPer": 32.36012973799684,
+        "historicalPer": 32.3572525147606,
         "historicalPerYearsUsed": 4,
         "historicalPerEpsBasis": "TTM EPS",
         "sectorPer": 31.43094,
@@ -199,9 +199,9 @@ const PRICE_MAP_DATA = {
       "ttmEps": 30.56596581167464,
       "diag": {
         "epsTtmNtmRatio": 0.5755612416333261,
-        "candSpread": 1.687545824289859,
-        "fairAltExCappedGrowth": 1329.1508074234562,
-        "fairAltGapPct": -16.573039247638377,
+        "candSpread": 1.6876958817168812,
+        "fairAltExCappedGrowth": 1329.1068348699205,
+        "fairAltGapPct": -16.575799277935545,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },

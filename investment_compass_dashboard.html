@@ -14912,12 +14912,29 @@ function tabPriceMap(r){
   if(!pm) return `<div class="comment-box" style="background:var(--panel-2);">이 종목은 가격 지도 자료(price_map_data.js)가 아직 없어요.</div>`;
   const usd = v => (typeof v==='number'&&isFinite(v)) ? '$'+v.toFixed(2) : '—';
   const c = pm.candidates || {};
+  // 2026-10-22 지시[2] - 각 후보 옆에 "지난 실적 기준(TTM)" / "예상 실적 기준(NTM)" 표기만
+  // 추가(판정 아님, 새 계산 아님 - price_map_engine.py가 이미 적어둔 *EpsBasis 라벨을
+  // 그대로 분류해서 보여줄 뿐).
+  const basisTag = basis => {
+    if(!basis) return '';
+    if(basis.indexOf('TTM')>=0) return '지난 실적 기준(TTM)';
+    if(basis.indexOf('NTM')>=0) return '예상 실적 기준(NTM)' + (basis.indexOf('정상화')>=0 ? '/정상화' : '');
+    if(basis.indexOf('정상화')>=0) return '정상화 실적 기준';
+    return basis;
+  };
   const candRows = [
-    {label:'과거 PER 기준', v:c.historicalPer, note: c.historicalPerYearsUsed ? `최근 ${c.historicalPerYearsUsed}년 평균 사용` : ''},
-    {label:'업종 PER 기준', v:c.sectorPer, note: c.sectorPer==null ? '업종 비교 불가(정상화 비교군 부족) 또는 조건 미해당' : `유효 비교군 ${c.sectorPerValidPeers}개`},
-    {label:'성장률(PEG) 기준', v:c.growthPerPeg, note:''},
+    {label:'과거 PER 기준', v:c.historicalPer, basis: basisTag(c.historicalPerEpsBasis), note: c.historicalPerYearsUsed ? `최근 ${c.historicalPerYearsUsed}년 평균 사용` : ''},
+    {label:'업종 PER 기준', v:c.sectorPer, basis: basisTag(c.sectorPerEpsBasis), note: c.sectorPer==null ? '업종 비교 불가(정상화 비교군 부족) 또는 조건 미해당' : `유효 비교군 ${c.sectorPerValidPeers}개`},
+    {label:'성장률(PEG) 기준', v:c.growthPerPeg, basis: basisTag(c.growthPerPegEpsBasis), note:''},
   ];
-  const candHtml = candRows.map(x=>`<li>${esc(x.label)}: ${x.v==null?'<span class="sub">해당 없음</span>':x.v.toFixed(1)+'배'}${x.note?` <span class="sub">(${esc(x.note)})</span>`:''}</li>`).join('');
+  const candHtml = candRows.map(x=>`<li>${esc(x.label)}: ${x.v==null?'<span class="sub">해당 없음</span>':x.v.toFixed(1)+'배'}${x.basis?` <span class="sub">[${esc(x.basis)}]</span>`:''}${x.note?` <span class="sub">(${esc(x.note)})</span>`:''}</li>`).join('');
+  // 2026-10-22 지시[2] - "성장률 상한 제외 시 적정가" 참고 줄(판정에 연결 안 됨, price_map_engine.py의
+  // diag.fairAltExCappedGrowth/fairAltGapPct를 그대로 표시만 - 성장률PER이 30배 상한에
+  // 걸린 종목만 해당, 안 걸렸으면 아무것도 안 보임).
+  const diag = pm.diag || {};
+  const fairAltHtml = (diag.fairAltApplicable && typeof diag.fairAltExCappedGrowth === 'number')
+    ? `<div class="sub" style="margin-top:6px;">참고: 성장률 상한 제외 시 적정가 ${usd(diag.fairAltExCappedGrowth)}${typeof diag.fairAltGapPct==='number' ? ` (A안 대비 ${diag.fairAltGapPct>=0?'+':''}${diag.fairAltGapPct.toFixed(1)}%)` : ''} — 성장률(PEG) 후보가 30배 상한에 걸려 있어 그 후보만 뺀 참고값, 판정에는 반영 안 됨</div>`
+    : '';
   const changesHtml = (pm.recentChanges && pm.recentChanges.length)
     ? `<ul style="margin:6px 0 0 18px;">${pm.recentChanges.map(ch=>{
         // WO17-9(2026-10-20 밤) - decompose_price_change()는 종목유형이 바뀐 구간처럼
@@ -14949,6 +14966,7 @@ function tabPriceMap(r){
     <b>적정가 근거</b>
     <div class="sub" style="margin-top:2px;">${esc(pm.fairPriceBasis||'')} · 적용 EPS ${usd(pm.epsUsedForCandidates)}${pm.epsBasisNote?` <span class="sub">(${esc(pm.epsBasisNote)})</span>`:''} · 환산 적정 PER ${typeof pm.convertedFairPer==='number'?pm.convertedFairPer.toFixed(1)+'배':'—'}</div>
     <ul style="margin:6px 0 0 18px;">${candHtml}</ul>
+    ${fairAltHtml}
     <div class="sub" style="margin-top:4px;">종목 유형: ${esc(pm.stockType)}${pm.stockTypeReason?` <span class="sub">(${esc(pm.stockTypeReason)})</span>`:''}</div>
   </div>
   <div class="comment-box" style="margin-top:10px;">
