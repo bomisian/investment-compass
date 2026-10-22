@@ -2,7 +2,7 @@ const PRICE_MAP_DATA = {
   "_meta": {
     "title": "WO17 가격지도(price_map) - 화면용 production 데이터",
     "as_of": "2026-10-22",
-    "input_snapshot_hash": "5d12b7b29713e33075740698e0a53239d9e9bb60e845458c2f591ce4365dd77d",
+    "input_snapshot_hash": "14834841d37dc6e9dd2a0fddf6ecb7d3dcf72332aefa3bb62310692f9e4c25de",
     "generated_by": "price_map_engine.py write_price_map_data_js()",
     "note": "142 엔진(computePriceValidity/pvIntegratedAction)과 완전히 독립된 산출물 - 기존 판정 로직을 전혀 안 건드림."
   },
@@ -150,7 +150,7 @@ const PRICE_MAP_DATA = {
       "stockType": "분류불가(이력부족)",
       "stockTypeReason": "유효 연간 EPS 4개년(<5년 기준) - 필터 없음(원본 그대로)",
       "candidates": {
-        "historicalPer": 32.3572525147606,
+        "historicalPer": 32.374523532916335,
         "historicalPerYearsUsed": 4,
         "sectorPer": 31.43094,
         "sectorPerValidPeers": 3,
