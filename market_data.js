@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 98.36000061035156,
+      "current": 98.41999816894531,
       "prevClose": 97.1500015258789,
-      "changeAbs": 1.2099990844726562,
-      "changePct": 1.2454956927101393,
+      "changeAbs": 1.2699966430664062,
+      "changePct": 1.307253343406385,
       "pctRank": 90.38155802861685,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -12.917217115620016,
-      "ma20": 94.12950019836425,
-      "ma60": 90.44950040181477,
-      "chg1m": 6.1999969482421875,
-      "chg3m": 9.050003051757812,
-      "chg1mPct": 6.727426976862471,
-      "chg3mPct": 10.13324745174286,
+      "drawdown1y": -12.864098425744142,
+      "ma20": 94.13250007629395,
+      "ma60": 90.45050036112467,
+      "chg1m": 6.2599945068359375,
+      "chg3m": 9.110000610351562,
+      "chg1mPct": 6.792528491846912,
+      "chg3mPct": 10.200426446518208,
       "lastDate": "2026-10-22",
       "bars": 1258,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 101.71700286865234,
+      "current": 101.5270004272461,
       "prevClose": 101.7300033569336,
-      "changeAbs": -0.01300048828125,
-      "changePct": -0.012779404160281026,
-      "pctRank": 44.630071599045344,
+      "changeAbs": -0.2030029296875,
+      "changePct": -0.1995506959488014,
+      "pctRank": 43.51630867143994,
       "min5y": 93.3499984741211,
       "max5y": 114.11000061035156,
       "high1y": 102.58000183105469,
-      "drawdown1y": -0.8412935728190685,
-      "ma20": 101.87385025024415,
-      "ma60": 100.38111673990885,
-      "chg1m": 1.11700439453125,
-      "chg3m": 0.2870025634765625,
-      "chg1mPct": 1.1103423573297513,
-      "chg3mPct": 0.2829562876989534,
+      "drawdown1y": -1.0265172402149525,
+      "ma20": 101.86435012817383,
+      "ma60": 100.37795003255208,
+      "chg1m": 0.927001953125,
+      "chg3m": 0.0970001220703125,
+      "chg1mPct": 0.9214731284150737,
+      "chg3mPct": 0.09563257594248747,
       "lastDate": "2026-10-22",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4126.7001953125,
+      "current": 4117.60009765625,
       "prevClose": 4150.0,
-      "changeAbs": -23.2998046875,
-      "changePct": -0.5614410768072289,
-      "pctRank": 83.16123907863384,
+      "changeAbs": -32.39990234375,
+      "changePct": -0.7807205384036144,
+      "pctRank": 83.00238284352662,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -22.407109824631345,
-      "ma20": 4174.24501953125,
-      "ma60": 4339.2516682942705,
-      "chg1m": -191.69970703125,
-      "chg3m": 55.900146484375,
-      "chg1mPct": -4.439137443644524,
-      "chg3mPct": 1.3731980400380306,
+      "drawdown1y": -22.57821575542529,
+      "ma20": 4173.790014648437,
+      "ma60": 4339.1,
+      "chg1m": -200.7998046875,
+      "chg3m": 46.800048828125,
+      "chg1mPct": -4.649865904695829,
+      "chg3mPct": 1.149652359899069,
       "lastDate": "2026-10-22",
       "bars": 1259,
       "symbol": "GC=F",
@@ -241,7 +241,18 @@ const MARKET_DATA = {
       "summary": "Oil rises as US orders diplomats to leave Saudi Arabia amid escalating tensions Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYzBEdGVKYmZ3VVpJajg0TW5DN2VHVEM2aDVTcFJKQVduMnVMTU5NbVcyMGxBanBHY3VvMzJQR1VrQWM4b0hLeG1YaTFWcldTeU9yTlBXc3FiR1FtcUp0SmxhRkJkWmpmZ2x6X3VGZHZEUDNLTE9LTFZNSlBWWjNJVGtaV3YwWkc4QVhxbHozYkx5THpZMVlYVDAtd0dqbUMyOUcyVk91NEYxaFFCZklRWWhjQm5qN2NvVHdWdnZIQVJSMk0?oc=5",
-      "datetime": 1792629960
+      "datetime": 1792629960,
+      "headlineKo": "긴장이 고조되는 가운데 미국이 외교관들에게 사우디 아라비아를 떠나라고 명령함에 따라 유가 상승 - 로이터",
+      "summaryKo": "긴장이 고조되는 가운데 미국이 외교관들에게 사우디 아라비아를 떠나라고 명령함에 따라 유가 상승 - 최신"
+    },
+    {
+      "headline": "From groceries to home loans, high oil prices permeate daily life - Reuters",
+      "summary": "From groceries to home loans, high oil prices permeate daily life Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPam52bzA3TTBVZjZQOC1ISHZJal8xZmcyc3hYZVJEYXpTZ1VUWHBvUVBQZDlKUUlwSFIwWFYtMUxucy1lS1ZRRDZEaW0tZmd5WndsSnNDNVUycTJVYWUyaFVVNDJIZnlfb0tMNGY5dW9BNkU1R0lVOWY0czhfN3pxcUhzejl5SUdLaGlMWFpjWnhWekJ4TWxzM3E2YXo3VVZzbGdCdi1CblkyTzRP?oc=5",
+      "datetime": 1792623840,
+      "headlineKo": "식료품부터 주택담보대출까지 고유가가 일상에 스며들다 - 로이터 통신",
+      "summaryKo": "식료품부터 주택 융자까지, 고유가가 일상생활에 스며들다 - 최신"
     },
     {
       "headline": "Putin agrees to resume 3-way peace talks with Ukraine and US - Reuters",
@@ -257,49 +268,62 @@ const MARKET_DATA = {
       "summary": "Saudi civil aviation says one killed, eight injured in attack on King Fahd airport Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSGNWYThfTTlBMk0yXzZJMVdvRkp2NDRwOEItSlJxRjN3NE5nVmRMbFkybld2UUFLWHFzel8zTEVMMUt4T3A3QUxMN0dObTR6WHMwOHUwYmh2RGJYX1hIOFBSb1ppQ0VIUW0xdTFzTHB2NENTTElkMTRqOHBVWGFoejRhb3dhclZtS09kNkZra055RUlyVm82M1ZpNmhHZWctLUtfelg5blVrbW5aVHhpSzBvVmsyNVZm?oc=5",
-      "datetime": 1792621304
+      "datetime": 1792621304,
+      "headlineKo": "사우디 민간항공, 킹 파드 공항 공격으로 1명 사망, 8명 부상",
+      "summaryKo": "사우디 민간 항공, 킹 파드 공항 공격으로 1명이 사망하고 8명이 부상했다고 밝혔습니다."
     },
     {
       "headline": "Southwest Airlines cuts 2026 profit forecast on higher fuel",
       "summary": "Southwest Airlines became the third major U.S. airline this month to cut its 2026 profit forecast due to higher fuel prices.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/21/southwest-airlines-luv-3q-2026-earnings.html",
-      "datetime": 1792615003
+      "datetime": 1792615003,
+      "headlineKo": "사우스웨스트 항공, 연료비 증가로 2026년 수익 전망 하향",
+      "summaryKo": "사우스웨스트 항공(Southwest Airlines)은 이번 달 연료 가격 인상으로 인해 2026년 수익 전망을 하향 조정한 세 번째 미국 주요 항공사가 되었습니다."
     },
     {
       "headline": "SpaceX gives the AI trade a shot in the arm. What it means for our stocks",
       "summary": "SpaceX indicated there's been no slowdown in demand for AI computing.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/investingclub/2026/10/21/spacex-gives-the-ai-trade-a-shot-in-the-arm-what-it-means-for-our-stocks-.html",
-      "datetime": 1792609283
+      "datetime": 1792609283,
+      "headlineKo": "SpaceX는 AI 거래에 기회를 제공합니다. 우리 주식에 미치는 영향",
+      "summaryKo": "SpaceX는 AI 컴퓨팅에 대한 수요가 둔화되지 않았다고 밝혔습니다."
     },
     {
       "headline": "EXCLUSIVE: US orders diplomats to depart Saudi Arabia amid Houthi strikes - Reuters",
       "summary": "EXCLUSIVE: US orders diplomats to depart Saudi Arabia amid Houthi strikes Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONDg0WFNBeGFxeHpUVUsya2RYd0k3XzF6bXU3eGpZVnh2T25MWHVsQzVrbE9PNEdaWnpfN1dmRmtxajMtbl8yZ29EWUxYaXAxcnkxcFN1NEVDLVE3bUtkR0NwZDVPN2haVXFERXRUeHRnQ2QyVDhVdjBNa2FIUFVDOWFicGJOQVVWR0JFMnZSM0NLV09nZHk5UzA2LTgtbmFEVnlYZDI1Uk9ic1hyLTZ0Z2NKbWI5QWgtWWE3ZzV4eE11bmpCcGstTFAzQnVGUQ?oc=5",
-      "datetime": 1792609080
+      "datetime": 1792609080,
+      "headlineKo": "독점: 미국, 후티 반군의 공습으로 외교관들에게 사우디아라비아를 떠나라고 명령 - 로이터 통신",
+      "summaryKo": "독점: 미국, 후티 반군의 공습으로 외교관들에게 사우디아라비아를 떠나라고 명령 - 로이터"
     },
     {
       "headline": "Apple's iPhone Duo in short supply — plus, the 2 stocks fueling an AI rebound",
       "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/investingclub/2026/10/21/apples-iphone-duo-in-short-supply-plus-2-stocks-fueling-an-ai-rebound.html",
-      "datetime": 1792608328
+      "datetime": 1792608328,
+      "headlineKo": "Apple의 iPhone Duo 공급 부족 - AI 반등을 촉진하는 두 가지 주식",
+      "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
     },
     {
       "headline": "US sanctions Greece-, Panama-based law firm over aid to Iranian shipping - Reuters",
       "summary": "US sanctions Greece-, Panama-based law firm over aid to Iranian shipping Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZFh4ZEdDSDhEcmZJWFR1VDVOUDVaYTR6aURwNjEzRnpsVGV4aTl1RFR3LVZpa1ZRZW5DY1ByTnBXZmk3RVl4VHRZM0x6UGRnUWp1dUJJUWItY3lYU3dmZ1RBYU1OLTdjc3JXOVB3V09mM051WGM1dEJsaW1WQXRmd3BmVXRaRUZMNzR4bkVBY3RTNWt1aXYxcGdWZVdUMy0xNUNzMlpJMkpyR0RaQVdKbUNENzFIdw?oc=5",
-      "datetime": 1792607879
+      "datetime": 1792607879,
+      "headlineKo": "미국, 이란 해운 지원에 대해 그리스와 파나마에 본사를 둔 법률 회사를 제재 - 로이터 통신",
+      "summaryKo": "미국, 이란 해운 지원에 대해 그리스와 파나마에 본사를 둔 법률 회사를 제재 - 최신"
     },
     {
       "headline": "Sisi says Egypt would defend Saudi territory but rules out attack on Yemen - Reuters",
       "summary": "Sisi says Egypt would defend Saudi territory but rules out attack on Yemen Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaTVZLWNRalc0ZzFmaXlERE8ySDhISTVTVjV0c0o2ZzU1UThTS2RMd0RRaVlsdmlNcFZfR3BiRHAwejM0dGFaUVA2V2JtVW4zMFZUVm1JMnViVGI1M2ZQa2VySHo2M3pJemxlRmJBanJSOTgwZko5VjFoeEFpTndNRHF4TGZNT25MMmRTMDRDdENwa3ZsZ1ZkY2NGOUo4a04wNmMxNk5OUE5nSXQ1TWxuZTNsQWF6U1JuX0FHcw?oc=5",
-      "datetime": 1792605257
+      "datetime": 1792605257,
+      "headlineKo": "시시는 이집트가 사우디 영토를 방어할 것이지만 예멘에 대한 공격은 배제할 것이라고 말했습니다."
     },
     {
       "headline": "Trump-aligned super PACs pour millions into once-safe GOP House seats",
@@ -318,27 +342,18 @@ const MARKET_DATA = {
       "datetime": 1792600122,
       "headlineKo": "영국 FTSE 100지수는 에너지 상승으로 상승했습니다. 뜨거운 인플레이션 보고서는 이익을 제한합니다 - Reuters",
       "summaryKo": "영국 FTSE 100지수는 에너지 상승으로 상승했습니다. 뜨거운 인플레이션 보고서 제한 증가 Reuters"
-    },
-    {
-      "headline": "Meta stock advances ahead of after-the-bell earnings. What we're looking for",
-      "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/10/21/meta-stock-advances-ahead-of-after-the-bell-earnings-what-were-looking-for.html",
-      "datetime": 1792598425,
-      "headlineKo": "메타 주식은 사후 실적보다 앞서 상승합니다. 우리가 찾고 있는 것",
-      "summaryKo": "Investing Club은 매주 평일 오전 10시 20분(ET)에 \"아침 모임\"을 개최합니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792635684.4556043,
+  "_news_last_success_at": 1792639581.1878233,
   "fgi": {
     "score": 31.3714285714286,
     "rating": "fear"
   },
-  "_fetched_at": 1792635654.5312932,
-  "_updated_label": "2026-10-22 11:21",
-  "_last_attempt_at": 1792635654.5312932,
-  "_last_success_at": 1792635654.5312932,
+  "_fetched_at": 1792639564.7799609,
+  "_updated_label": "2026-10-22 12:26",
+  "_last_attempt_at": 1792639564.7799609,
+  "_last_success_at": 1792639564.7799609,
   "_collection_status": "ok",
   "_collection_errors": []
 };

@@ -7046,7 +7046,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 139,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "SPY": {
@@ -7245,6 +7245,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e7e2ceebcdf62fce8337b7b7247e9e07700b6282c2bc5f09ec3fe5809f665395",
         "datetime": 1792606552,
+        "headlineKo": "Johnson & Johnson은 매년 배당금을 올렸습니다. S&P 500을 추월한 이유는 무엇입니까?",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -15813,7 +15814,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 180,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "MSFT": {
@@ -16193,6 +16194,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=684c170a8af7eb567f99eb3901ed2614de11e7fd938138bb53463cdfeccbf327",
         "datetime": 1792608719,
+        "headlineKo": "스티브 발머, 마이크로소프트에서 쫓겨난 뒤 자산 1640억 달러",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -16255,6 +16257,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f2a51d27d3eb4d1dc2ce2941ad92ac66049328fb5b04fe8543dcf8df14f05005",
         "datetime": 1792603020,
+        "headlineKo": "마이크로소프트는 10월 28일에 이 말을 해야 합니다. 그렇지 않으면 주가가 자유낙하할 것입니다.",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -16317,6 +16320,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5023793fb4092c84946cf9fcdad5139d31ad359f180b7a1d2d6dce3b83f9c3b6",
         "datetime": 1792597719,
+        "headlineKo": "Pichai가 Google Cloud가 AI 용량에 대한 수익을 포기하고 있다고 말하면서 Alphabet은 NASDAQ 랠리에도 불구하고 2% 하락했습니다. Amazon Dips, Microsoft는 꾸준한 유지",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -16379,6 +16383,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2b68751cfb0f17c50b5851e4de0844c4c69a5df414f3deda289b4733b09f044c",
         "datetime": 1792595890,
+        "headlineKo": "Nvidia vs. Microsoft: NVDA의 폭발적인 성장이 과소평가되고 있나요?",
         "relevance": 0.4,
         "keywordFlag": false
       },
@@ -16387,6 +16392,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ac8ed62f57d91c5ecc1ff82dd8ae804e41674379540becbd3500c998607242df",
         "datetime": 1792594811,
+        "headlineKo": "Microsoft 주식에 투자한 5,000달러의 5년 후 가치는 얼마입니까?",
         "relevance": 0.4,
         "keywordFlag": false
       },
@@ -23880,7 +23886,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "GOOGL": {
@@ -24408,6 +24414,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=02cf2847c4e279da41791771f54cac60db898b106e5eff2381797663c9234341",
         "datetime": 1792605000,
+        "headlineKo": "Amazon 또는 Alphabet: 앞으로 10년 동안 하나만 소유할 수 있다면 이 제품을 살 것입니다",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -24470,6 +24477,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6bb44211e358b35ea4d104882a787e6a7779d75233c933805b2f9fe928ec3f47",
         "datetime": 1792601146,
+        "headlineKo": "월스트리트는 계속해서 체계적으로 알파벳을 과소평가하고 있으므로 나는 계속 매수합니다.",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -24532,6 +24540,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=38f1ac5655414ebb9f503108f276a5e1b66747bba211d0fc9a6c65815630b771",
         "datetime": 1792598778,
+        "headlineKo": "Alphabet은 정점 이후 약 8,600억 달러의 손실을 입었습니다. 이는 Walmart 전체의 거의 전체 손실입니다. 애플은 AI 경쟁을 피하고 사상 최고치에 가까워졌습니다.",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -24611,6 +24620,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5023793fb4092c84946cf9fcdad5139d31ad359f180b7a1d2d6dce3b83f9c3b6",
         "datetime": 1792597719,
+        "headlineKo": "Pichai가 Google Cloud가 AI 용량에 대한 수익을 포기하고 있다고 말하면서 Alphabet은 NASDAQ 랠리에도 불구하고 2% 하락했습니다. Amazon Dips, Microsoft는 꾸준한 유지",
         "relevance": 1,
         "keywordFlag": false
       },
@@ -24619,6 +24629,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5adb8731cf6c1fb5c022ac1b271d09f79c3ce55f4e9132c955c9b0466c307f50",
         "datetime": 1792597009,
+        "headlineKo": "Alphabet (GOOGL): 가치 평가가 Waymo의 잠재력을 설명합니까?",
         "relevance": 1.0,
         "keywordFlag": false
       },
@@ -32202,7 +32213,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "AMZN": {
@@ -32647,6 +32658,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cbefd013412e5c74ca19d4e09e4ccd2b7cca791d58366392af7481e08516344e",
         "datetime": 1792611780,
+        "headlineKo": "Jefferies는 Amazon 물류 자동화를 통해 장기적인 마진 이익을 얻을 수 있다고 말합니다.",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -32709,6 +32721,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fcba5357d05a6cf8ecf33196ab71551fcda3883045db505923e1bb639881605c",
         "datetime": 1792606754,
+        "headlineKo": "Amazon은 4억 2,700만 달러 규모의 캠퍼스 데이터 센터 계획을 포기하고 대신 6,500만 달러 상당의 토지 기부를 약속했습니다.",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -32757,6 +32770,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=60a74472702071845e1c72cf0b9c4ae4afd8bbb33ac5effead40d026631ec193",
         "datetime": 1792606534,
+        "headlineKo": "Amazon은 Ashburn 데이터 센터 계획을 버리고 혼합 용도 비전으로 전환합니다.",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -32819,6 +32833,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=78c4e490733d27a611dce0061a3627906f98e2deb129a6c145edacd2624b0577",
         "datetime": 1792605990,
+        "headlineKo": "AI 지출이 급증함에 따라 Amazon의 Nvidia 칩은 전력 공급 없이 창고에 앉아 있다고 Business Insider가 보고했습니다.",
         "relevance": 0.5,
         "keywordFlag": false
       },
@@ -32827,6 +32842,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=03a64ec99a79dfc3cd0900cfb4bfc9261d2efb9d08b061cba6e1c49f245aae58",
         "datetime": 1792605516,
+        "headlineKo": "Amazon Earnings On Tap을 통해 변동성을 극복하는 방법은 다음과 같습니다.",
         "relevance": 0.5,
         "keywordFlag": false
       },
@@ -40319,7 +40335,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "META": {
@@ -40564,6 +40580,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1897c1643257c8a93a51e8f972c6f167d2ccc4b89a82f9a6ea8b03a52d872d5c",
         "datetime": 1792611583,
+        "headlineKo": "업데이트: 미국 주식 지수는 블록버스터 SpaceX 결과에 따라 Tesla, Meta 플랫폼의 분기별 수익을 앞두고 상승했습니다.",
         "relevance": 1.0,
         "keywordFlag": false,
         "analysis": {
@@ -40611,6 +40628,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0d716cdc3db71f7bcce99a2e21fba489f32137e9eed9967306df4e0ff88ede64",
         "datetime": 1792610920,
+        "headlineKo": "메타, 개인 정보 보호에 대해 오해한 사용자에 대해 기록적인 250억 달러 지불 명령",
         "relevance": 0.6,
         "keywordFlag": false,
         "analysis": {
@@ -40659,6 +40677,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=53b6a69e8950a5266bd862650fcd9c0475a0a27685e993e10682ea527571c848",
         "datetime": 1792609997,
+        "headlineKo": "메타는 페이스북 사용자를 오도한 혐의로 250억 달러의 벌금을 부과 받았습니다.",
         "relevance": 1.0,
         "keywordFlag": true,
         "flagTerms": [
@@ -40710,6 +40729,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9a5d9fcfbc3efe0507dcbf47e3b517ab5515d4435da74d3b0b8337ad9261a2cf",
         "datetime": 1792609980,
+        "headlineKo": "뉴멕시코 데이터 개인정보 보호 사건에서 Meta가 250억 달러의 벌금형을 선고받았습니다.",
         "relevance": 0.6,
         "keywordFlag": true,
         "flagTerms": [
@@ -40721,6 +40741,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=231d89cf65dc1c3ae264a92879e90f393fe559d6afea48929b78d7d5f713ce20",
         "datetime": 1792609623,
+        "headlineKo": "뉴멕시코 판사는 메타에게 사건에 대해 250억 달러를 지불하라고 명령했습니다. 그 주식은 여전히 ​​오르고 있습니다.",
         "relevance": 0.6,
         "keywordFlag": false
       },
@@ -47947,7 +47968,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "AAPL": {
@@ -48250,6 +48271,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0537f70210129aee0bbb1e00c5dc17da8c4b3f81a75e14c6007f42e0ce6c56a8",
         "datetime": 1792615320,
+        "headlineKo": "카자흐스탄의 AIFC 규제 기관, Apple과 Google에 의존하여 Coinbase, HTX 금지 명령 집행",
         "relevance": 0.29,
         "keywordFlag": false,
         "analysis": {
@@ -48302,6 +48324,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2461f787aa0d833bbe8552b28a586e7d204ad0d3df7dfa46304235ebd2634b98",
         "datetime": 1792601582,
+        "headlineKo": "Apple vs. SK 하이닉스: 2026년에는 어느 기술주를 매수하는 것이 더 나은가요?",
         "relevance": 0.29,
         "keywordFlag": false,
         "analysis": {
@@ -48364,6 +48387,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=38f1ac5655414ebb9f503108f276a5e1b66747bba211d0fc9a6c65815630b771",
         "datetime": 1792598778,
+        "headlineKo": "Alphabet은 정점 이후 약 8,600억 달러의 손실을 입었습니다. 이는 Walmart 전체의 거의 전체 손실입니다. 애플은 AI 경쟁을 피하고 사상 최고치에 가까워졌습니다.",
         "relevance": 0.29,
         "keywordFlag": false,
         "analysis": {
@@ -48443,6 +48467,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=174bf79384ee37d903843cee747059678f975c5150e72c9e31e7652dff7ea247",
         "datetime": 1792597277,
+        "headlineKo": "Apple, 사상 최고치에 가까운 수익 설정에 직면",
         "relevance": 0.29,
         "keywordFlag": false
       },
@@ -48451,6 +48476,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cf835681acbd9faef8d8c8bcbc9c70eae912544eb4eb96678464303517d091e5",
         "datetime": 1792595100,
+        "headlineKo": "Apple, iPhone 소재 및 부품에 대한 미국 공급업체 네트워크 확장",
         "relevance": 0.57,
         "keywordFlag": false
       },
@@ -55759,7 +55785,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "TSLA": {
@@ -56197,6 +56223,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fd44d6921eedee7b6216f639f16a9a3c11cc1d796a7eff9f48afb82d483aa713",
         "datetime": 1792611710,
+        "headlineKo": "Tesla, Elon Musk가 SpaceX 합병 계획 발표 후 수익 보고",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -56244,6 +56271,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1897c1643257c8a93a51e8f972c6f167d2ccc4b89a82f9a6ea8b03a52d872d5c",
         "datetime": 1792611583,
+        "headlineKo": "업데이트: 미국 주식 지수는 블록버스터 SpaceX 결과에 따라 Tesla, Meta 플랫폼의 분기별 수익을 앞두고 상승했습니다.",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -56291,6 +56319,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a17399d680e7e8cbefa9d9acd970f944bc1a48981ac5da5943b3fa9ad7613741",
         "datetime": 1792606972,
+        "headlineKo": "Tesla에게는 이것이 가장 중요한 숫자입니다",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -56339,6 +56368,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0798aa965f70d36a208803a59b02e1b3eb810cfb9aec9067cadc24382a5da9e7",
         "datetime": 1792606651,
+        "headlineKo": "머스크는 SpaceX와 Tesla의 합병이 합리적이라고 말합니다",
         "relevance": 0.4,
         "keywordFlag": false
       },
@@ -56347,6 +56377,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8c04c301b17ed229f38b4800ceeb41f35c457d33d1d7991ddb5c2b79635e25d6",
         "datetime": 1792606563,
+        "headlineKo": "SpaceX와 Tesla 합병이 머스크의 AI 제국을 어떻게 재구성할 것인가",
         "relevance": 0.4,
         "keywordFlag": false
       },
@@ -63387,7 +63418,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "ORCL": {
@@ -63671,6 +63702,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8a1fe575f1db42d782d0b40e04bbe2c00d7a695be74a4c802006fe6ca6589109",
         "datetime": 1792606102,
+        "headlineKo": "Salesforce(CRM)와 Oracle(ORCL): 어느 주식을 구매하는 것이 더 좋나요?",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -63719,6 +63751,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=93ba5f83bd45bd646bdf7d764921eb00134a5e86377ed7bc08068a53f0b1481c",
         "datetime": 1792593956,
+        "headlineKo": "Oracle의 가치 평가 불일치로 인한 성장은 점점 더 매력적이지 않습니다.",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -72085,7 +72118,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "CRM": {
@@ -72291,6 +72324,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=43f14b8e7aaf93ebcb538fa64fc06b5acd809bfed9fe15d644e3b9cb38de8e5f",
         "datetime": 1792611180,
+        "headlineKo": "Salesforce, S&P 및 Intuit에 대한 최고 분석가 보고서",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -72339,6 +72373,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=986bc47727d8056d7fdd3b1487ee3736ff4eeae71330d0dc2c87cdc7e90af488",
         "datetime": 1792610400,
+        "headlineKo": "Salesforce의 Braze 거래로 UBS의 전략 지원을 얻었지만 성장에 대한 우려는 여전히 남아 있습니다.",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -72401,6 +72436,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8a1fe575f1db42d782d0b40e04bbe2c00d7a695be74a4c802006fe6ca6589109",
         "datetime": 1792606102,
+        "headlineKo": "Salesforce(CRM)와 Oracle(ORCL): 어느 주식을 구매하는 것이 더 좋나요?",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -72449,6 +72485,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=311496efe7500bc9c1abecb0f74f4921ce9161abca586d8584117491974514b7",
         "datetime": 1792601708,
+        "headlineKo": "Palantir는 소프트웨어 주식 반등으로 4% 상승했습니다. ServiceNow는 3% 상승, Salesforce는 정체 상태 유지",
         "relevance": 0.5,
         "keywordFlag": false
       },
@@ -80753,7 +80790,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "PLTR": {
@@ -81206,6 +81243,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=311496efe7500bc9c1abecb0f74f4921ce9161abca586d8584117491974514b7",
         "datetime": 1792601708,
+        "headlineKo": "Palantir는 소프트웨어 주식 반등으로 4% 상승했습니다. ServiceNow는 3% 상승, Salesforce는 정체 상태 유지",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -89895,7 +89933,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "NVDA": {
@@ -90113,6 +90151,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2287045b3d8705233046cacabc05bbd546c5f376f0399b51f0ce7efc68b55178",
         "datetime": 1792609134,
+        "headlineKo": "NVIDIA는 10월 15일에 모델을 제공했습니다. 베를린은 10월 21일에 인프라를 판매했습니다.",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -90161,6 +90200,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0958b6354c07d821287d407ea22dba633e56150b386ad9f6da3c47a0369ec6da",
         "datetime": 1792608722,
+        "headlineKo": "ASML은 Nvidia 주식 및 Micron 주식 투자자를 위한 놀라운 소식을 전합니다.",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -90223,6 +90263,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=737a12aa1e274557876c52bec25cb7058bb1587718f6982bdc519983d0ca8160",
         "datetime": 1792608320,
+        "headlineKo": "Nvidia의 11억 달러 KYEC 거래는 2,790억 달러 공급 베팅 중 작은 숫자입니다.",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -90285,6 +90326,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bf06b72e87b848db240a110e324a080c2a64baeed0e55bc4a7d179ee45b79866",
         "datetime": 1792607700,
+        "headlineKo": "CoreWeave 주식을 매도할 시간인가요? Nvidia CEO Jensen Huang은 그렇게 생각하지 않습니다.",
         "relevance": 0.4,
         "keywordFlag": false
       },
@@ -90293,6 +90335,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=53c699c60f845fd84bc8c00584b8d5b6a6028dc6d61659ba5ae1b3e76969fc46",
         "datetime": 1792607700,
+        "headlineKo": "Klique, 기업 AI 워크플로우 가속화 및 GPU 활용 최적화 위해 NVIDIA와의 확장된 통합 발표",
         "relevance": 0.4,
         "keywordFlag": false
       },
@@ -97753,7 +97796,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "AMD": {
@@ -97971,6 +98014,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0c998c48b5282eb333f3fff9ff77e7388dea045b303e0f412843f2fd0b9759bd",
         "datetime": 1792596900,
+        "headlineKo": "AMD 대 엔비디아. 1개의 지표가 어느 주식이 최고의 주식인지 증명합니다.",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -98033,6 +98077,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bd6976cbe8d0312c6c7756ad9aa83173f1797cc52602db0640373a8df35a0c23",
         "datetime": 1792596355,
+        "headlineKo": "AMD의 데이터 센터 사업이 마침내 수익을 창출하고 있습니다. MU의 라이벌은 기세를 이어갈 수 있을까?",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -98081,6 +98126,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e16ad8d5c99aece4ced267f91a11eb6605a8e01c36e1ce3f36a2f8551b997c55",
         "datetime": 1792595780,
+        "headlineKo": "Anthropic은 Intel의 가치보다 더 많은 6000억 달러 이상의 컴퓨팅 분야에 투자했습니다. 여전히 더 많은 것을 원하며 이는 AMD에게는 큰 소식입니다.",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -98143,6 +98189,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7ec20134b7b0279facf740220681c46e08c4fcbea48568c3079ab0d00328d34f",
         "datetime": 1792593029,
+        "headlineKo": "INTC, COHR이 인하하는 동안 AMD, QCOM 목표는 상향 조정됨 - Susquehanna는 칩 수익에 대해 '보통의 상승'을 확인",
         "relevance": 1,
         "keywordFlag": false
       },
@@ -98151,6 +98198,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3c95003f11d90d5f14a6b9dae0adc9bf01543a00bf35241449f4df6177195fe2",
         "datetime": 1792591234,
+        "headlineKo": "137%의 성과를 거둔 AMD는 수익을 내기 전에 완벽함을 위해 가격을 책정합니까?",
         "relevance": 1,
         "keywordFlag": false
       },
@@ -105876,7 +105924,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "AVGO": {
@@ -106081,6 +106129,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1510f10c435ddefb59be5174e1d52338665809481f833ac0dab4fe5732ef73e3",
         "datetime": 1792596333,
+        "headlineKo": "Broadcom의 AI 수익이 221% 급증했지만 성장이 AI 지출에 너무 의존하고 있습니까?",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -106128,6 +106177,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=685b44bf28a50e3ff8521bfdc8a066377d4e4a32441f80c702c96fde77cd79b8",
         "datetime": 1792590953,
+        "headlineKo": "Broadcom 주식의 하락폭을 매수한 것이 성과를 거두었습니까?",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -114375,7 +114425,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "QCOM": {
@@ -114828,6 +114878,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7ec20134b7b0279facf740220681c46e08c4fcbea48568c3079ab0d00328d34f",
         "datetime": 1792593029,
+        "headlineKo": "INTC, COHR이 인하하는 동안 AMD, QCOM 목표는 상향 조정됨 - Susquehanna는 칩 수익에 대해 '보통의 상승'을 확인",
         "relevance": 0.75,
         "keywordFlag": false,
         "analysis": {
@@ -114890,6 +114941,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=95e1721f6e2b1d4a156222904ca8c56abf6d84c16d44c42489042c2695236f1e",
         "datetime": 1792591108,
+        "headlineKo": "Qualcomm(QCOM): 자동차 성장이 휴대폰 수익에 대한 압박을 충족시키다",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -123368,7 +123420,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "ARM": {
@@ -129560,7 +129612,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "MRVL": {
@@ -129887,6 +129939,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9502b675a9d0cf2690716ce7acd0d2d047941a27a3632f1f5208e5b1d53c30c1",
         "datetime": 1792615504,
+        "headlineKo": "Marvell Technology(MRVL)가 시장보다 높게 상승: 주요 사실",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -129935,6 +129988,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=af8b0e1867c611e10ef5a71089742e982b76a5e89c07ba72d7c59ed49b80bef5",
         "datetime": 1792597586,
+        "headlineKo": "Marvell 주식이 반등하고 있습니다. 황소가 물러서지 않는 3가지 이유",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -138392,7 +138446,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "INTC": {
@@ -138610,6 +138664,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=09a241c5532847859dd335abef472930a78c2640d951d6c94ea750d0fc53fe6f",
         "datetime": 1792604487,
+        "headlineKo": "인텔의 280억 달러 규모 오하이오 칩 프로젝트, 수년간의 지연 끝에 건설 이정표 달성 — 애리조나 팹, 2028년 시작 목표",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -138672,6 +138727,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=df15e46dd0f9fb5fe59f824665bd16a4725bd6938162659b40a3e279c1cc88d6",
         "datetime": 1792597614,
+        "headlineKo": "인텔, 칩 수요 전망 개선에 따라 오하이오주 애리조나 공장 프로젝트 진행",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -138720,6 +138776,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e16ad8d5c99aece4ced267f91a11eb6605a8e01c36e1ce3f36a2f8551b997c55",
         "datetime": 1792595780,
+        "headlineKo": "Anthropic은 Intel의 가치보다 더 많은 6000억 달러 이상의 컴퓨팅 분야에 투자했습니다. 여전히 더 많은 것을 원하며 이는 AMD에게는 큰 소식입니다.",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -138782,6 +138839,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c148a30507b181b491832d05201a856845755646d305bde08e40c3b1c17b5d13",
         "datetime": 1792595065,
+        "headlineKo": "Elon Musk는 One SpaceX 인용 이후 NVIDIA, Intel 및 SanDisk 랠리로 10월 AI 충돌을 종료했을 수 있습니다.",
         "relevance": 0.5,
         "keywordFlag": false
       },
@@ -138790,6 +138848,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7ec20134b7b0279facf740220681c46e08c4fcbea48568c3079ab0d00328d34f",
         "datetime": 1792593029,
+        "headlineKo": "INTC, COHR이 인하하는 동안 AMD, QCOM 목표는 상향 조정됨 - Susquehanna는 칩 수익에 대해 '보통의 상승'을 확인",
         "relevance": 0.75,
         "keywordFlag": false
       },
@@ -147113,7 +147172,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "TSM": {
@@ -155558,7 +155617,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "ASML": {
@@ -155794,6 +155853,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0958b6354c07d821287d407ea22dba633e56150b386ad9f6da3c47a0369ec6da",
         "datetime": 1792608722,
+        "headlineKo": "ASML은 Nvidia 주식 및 Micron 주식 투자자를 위한 놀라운 소식을 전합니다.",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -163275,7 +163335,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 164,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "AMAT": {
@@ -163493,6 +163553,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3fa462bab441484bc08884a84454f0a7e9837f26b0073b6ee79fc3fa1af6ca61",
         "datetime": 1792616312,
+        "headlineKo": "지금 Applied Materials 재고를 재고해야 하는 두 가지 이유",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -170431,7 +170492,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "LRCX": {
@@ -170620,6 +170681,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e67bb0423c3c80ea40cf7a4d8cb4d9463a98ec03374b0e7bf6b2c73d2560cfe1",
         "datetime": 1792616056,
+        "headlineKo": "Lam Research 주가는 칩 기어 제조업체의 전망이 인상적이지 못함에 따라 하락",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -170668,6 +170730,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=433dde904cd4b7cdeb415c08b2ffa84a854f77d95a6b542c8dec13fbc5c03687",
         "datetime": 1792615948,
+        "headlineKo": "Lam Research, 1분기 목표 초과 달성 및 긍정적인 가이던스 발표, 주가 하락",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -170716,6 +170779,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d7c0ad02d109b7bcafbb6d3c0439ef51e10bcf3a959796d57abd66c9c365dbc6",
         "datetime": 1792614099,
+        "headlineKo": "Lam Research: 회계연도 1분기 실적 스냅샷",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -170763,6 +170827,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3c350566c651a1aaf801be4f796f1f825e3c929caa55a137a0a77f2d19fa66b0",
         "datetime": 1792613809,
+        "headlineKo": "Lam Research(NASDAQ:LRCX)의 3분기 판매량은 놀라운 일이 아니지만 주가는 하락했습니다.",
         "relevance": 1,
         "keywordFlag": false
       },
@@ -170771,6 +170836,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e5e3e375be18864e38300de62d8e4fa32f604d75eea43d8ab4c535bd4ea8e8c1",
         "datetime": 1792613100,
+        "headlineKo": "Lam Research Corporation, 2026년 9월 27일에 종료된 분기 재무 결과 보고",
         "relevance": 1,
         "keywordFlag": false
       },
@@ -174716,7 +174782,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "KLAC": {
@@ -174957,6 +175023,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=211abada83d35cffa02e3d9885344cc6591b0112fc095fcb98b70fd146a7575e",
         "datetime": 1792587625,
+        "headlineKo": "KLA(KLAC) 이익 증가 예상: 매수해야 하나?",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -178133,7 +178200,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "MU": {
@@ -178569,6 +178636,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f37320366f7f91aa723b4a021b0c2817f8909ea8d624f70f7bb98b7662f2a762",
         "datetime": 1792608873,
+        "headlineKo": "2026년 Micron은 221% 상승하고 Seagate는 155% 상승: 이익을 얻을 것인가, 아니면 계속해서 나아갈 것인가?",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -178631,6 +178699,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0958b6354c07d821287d407ea22dba633e56150b386ad9f6da3c47a0369ec6da",
         "datetime": 1792608722,
+        "headlineKo": "ASML은 Nvidia 주식 및 Micron 주식 투자자를 위한 놀라운 소식을 전합니다.",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -178693,6 +178762,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=96b4e18dba44406ace3cc9a91be1dbf1d2cb3df4cd94124154f6d82c39ade92b",
         "datetime": 1792602274,
+        "headlineKo": "Micron Technology, HBM, DRAM 및 NAND 로드맵으로 AI 메모리 미래 지도",
         "relevance": 1.0,
         "keywordFlag": false,
         "analysis": {
@@ -178751,6 +178821,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fd52523004832ac008391f828884478c3a852743b0a0b8f4abace72f81a20a7a",
         "datetime": 1792601220,
+        "headlineKo": "마이크론은 중국이 공급을 장악함에 따라 미국 금속 정제 산업을 부활시키는 데 도움을 줍니다.",
         "relevance": 0.5,
         "keywordFlag": false
       },
@@ -178759,6 +178830,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b0f40e8cd55180c9c986be51b588f6b47b1ef526553d8e8b8300dcac797f3be8",
         "datetime": 1792600251,
+        "headlineKo": "마이크론이 연간 10% 성장한다면 2030년까지 1,000달러는 어떻게 될까요?",
         "relevance": 0.5,
         "keywordFlag": false
       },
@@ -186363,7 +186435,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "SNDK": {
@@ -186595,6 +186667,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c148a30507b181b491832d05201a856845755646d305bde08e40c3b1c17b5d13",
         "datetime": 1792595065,
+        "headlineKo": "Elon Musk는 One SpaceX 인용 이후 NVIDIA, Intel 및 SanDisk 랠리로 10월 AI 충돌을 종료했을 수 있습니다.",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -195351,7 +195424,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "WDC": {
@@ -195554,6 +195627,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ea1cf266c1be3aa229b6941aef14190739f074d7b05bce628221cbd5dfd085e8",
         "datetime": 1792615228,
+        "headlineKo": "Western Digital 주식의 다음 가을은 얼마나 커질 수 있습니까?",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -195616,6 +195690,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=da01bc4690edf6098cc858f23c7bd2982c25f6af49e6180f76b03403b3b04813",
         "datetime": 1792595403,
+        "headlineKo": "Western Digital(WDC)이 수익 추정치를 다시 뛰어넘을 준비가 되어 있는 이유",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -201806,7 +201881,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "ANET": {
@@ -202024,6 +202099,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=39f4a792eb8f0aa825339a5fb5731ae01182887a681f19de1a1e92b4f035e980",
         "datetime": 1792615502,
+        "headlineKo": "시장보다 높은 상승세를 보이고 있는 Arista Networks(ANET): 주요 사실",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -202072,6 +202148,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=701f310f04ba1f08eed26771d996652dba505f5b3c73f58ef6c915979f9e0e03",
         "datetime": 1792593644,
+        "headlineKo": "Arista Networks 대 Datadog: 2026년에는 어떤 기술 주식을 구매하는 것이 더 낫습니까?",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -206983,7 +207060,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "COHR": {
@@ -207200,6 +207277,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7ec20134b7b0279facf740220681c46e08c4fcbea48568c3079ab0d00328d34f",
         "datetime": 1792593029,
+        "headlineKo": "INTC, COHR이 인하하는 동안 AMD, QCOM 목표는 상향 조정됨 - Susquehanna는 칩 수익에 대해 '보통의 상승'을 확인",
         "relevance": 1.0,
         "keywordFlag": false,
         "analysis": {
@@ -211545,7 +211623,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "LITE": {
@@ -216805,7 +216883,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 107,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "GEV": {
@@ -216993,6 +217071,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=22dd31e02784bf54459a84ce3d4d84e3593da58020e9ed589f5f0260753b0e20",
         "datetime": 1792597051,
+        "headlineKo": "GE Vernova(GEV)의 3분기 철수는 지속적인 AI 투자 수요 속에서 이익 실현을 반영합니다.",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -217040,6 +217119,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fcc5ed4a0dfaf7547c8fa859d818b33429319376cb95d403e2f89745b5afe8a2",
         "datetime": 1792587611,
+        "headlineKo": "GE Vernova (GEV) 수익 증가가 예상됩니다: 매수해야 할까요?",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -223217,7 +223297,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 128,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "CEG": {
@@ -228825,7 +228905,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "VST": {
@@ -233294,7 +233374,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "ETN": {
@@ -237465,7 +237545,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "PWR": {
@@ -240879,7 +240959,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "HUBB": {
@@ -241973,7 +242053,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "VRT": {
@@ -242176,6 +242256,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4d0d96fb831bdc6d099558c63bdeaa810216dbe0e7736dfe88255b4c2094ac0a",
         "datetime": 1792616079,
+        "headlineKo": "Vertiv(VRT) 주가 상승, 알아야 할 사항",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -242224,6 +242305,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ba8ed11ba688f88c9eaab7f2790dda32dc42b04c495c12491cf7150b3ed28e68",
         "datetime": 1792590949,
+        "headlineKo": "Vertiv 주식은 무엇이 바뀌었고 무엇이 바뀌지 않았습니까?",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -242286,6 +242368,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ac6149071100b279c1404b9ccb68ead9c82ab9816bf8351e0d17fff425b3424a",
         "datetime": 1792587617,
+        "headlineKo": "Vertiv Holdings Co.(VRT) 수익 증가 예상: 다음 주 출시에 앞서 알아야 할 사항",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -247220,7 +247303,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "MOD": {
@@ -248936,7 +249019,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "STX": {
@@ -249154,6 +249237,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ea4c886a8d2d2a0222294984d92c7d4ac507f353ae3a4156eedf88fcacbfd23d",
         "datetime": 1792609200,
+        "headlineKo": "Bank of America가 하드 드라이브에 대한 수요가 높아짐에 따라 Seagate 가격 목표가 상향 조정되었습니다.",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -249216,6 +249300,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f37320366f7f91aa723b4a021b0c2817f8909ea8d624f70f7bb98b7662f2a762",
         "datetime": 1792608873,
+        "headlineKo": "2026년 Micron은 221% 상승하고 Seagate는 155% 상승: 이익을 얻을 것인가, 아니면 계속해서 나아갈 것인가?",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -249278,6 +249363,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=26185b7ebfb59c485ca9559fd8856b4ea66c97371d358813484593da26772e83",
         "datetime": 1792597502,
+        "headlineKo": "성장 투자자가 지금 Seagate(STX)를 구매해야 하는 이유는 다음과 같습니다.",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -249326,6 +249412,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cc697a6554ea7f431c432c7ea23edb5981146587e3a631ccf2507187341cda84",
         "datetime": 1792595404,
+        "headlineKo": "Seagate(STX)가 다음 수익 보고서에서 다시 추정치를 상회할 예정입니까?",
         "relevance": 1,
         "keywordFlag": false
       },
@@ -249334,6 +249421,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=dbe6738208c839b11fb4f65d73ca6d3b59de39a3b827dad399f925b2cdea1070",
         "datetime": 1792594804,
+        "headlineKo": "Seagate(STX)가 구매로 업그레이드됨: 이유는 다음과 같습니다.",
         "relevance": 1,
         "keywordFlag": false
       },
@@ -254661,7 +254749,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "EME": {
@@ -254849,6 +254937,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4977665e81e817a2adf087a29094e4b411a334ef701db8e31e300f3ec1e02065",
         "datetime": 1792608399,
+        "headlineKo": "2분기 실적 요약: EMCOR(NYSE:EME)이 엔지니어링 및 설계 서비스 주식 1위를 차지했습니다.",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -257053,7 +257142,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "FIX": {
@@ -259132,7 +259221,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   },
   "BE": {
@@ -259335,6 +259424,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bcecb73204de3e888750a3158680a26f7986bd741a922a3eb92d3f65e30c05a2",
         "datetime": 1792607576,
+        "headlineKo": "S&P 500은 기술주 없이는 정체될 것입니다",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -262378,7 +262468,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-10-22 11:54"
+      "updated": "2026-10-22 12:26"
     }
   }
 };
