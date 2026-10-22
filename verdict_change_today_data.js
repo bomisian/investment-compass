@@ -1,12 +1,12 @@
 const VERDICT_CHANGE_TODAY_DATA = {
-  "generatedAt": "2026-10-22T17:55:40+09:00",
-  "prevDate": "2026-10-19",
-  "curDate": "2026-10-20",
+  "generatedAt": "2026-10-23T02:15:40+09:00",
+  "prevDate": "2026-10-20",
+  "curDate": "2026-10-21",
   "changed": [
     {
-      "ticker": "PWR",
-      "oldTier": "추세 반전 대기",
-      "newTier": "눌림 대기",
+      "ticker": "ETN",
+      "oldTier": "눌림 대기",
+      "newTier": "추세 반전 대기",
       "oldLabel": "적정",
       "newLabel": "적정",
       "changedFields": [
@@ -14,11 +14,11 @@ const VERDICT_CHANGE_TODAY_DATA = {
       ]
     },
     {
-      "ticker": "WDC",
-      "oldTier": "눌림 대기",
-      "newTier": "추세 반전 대기",
-      "oldLabel": "적정",
-      "newLabel": "적정",
+      "ticker": "PLTR",
+      "oldTier": "관찰",
+      "newTier": "눌림 대기",
+      "oldLabel": "기대와 부합",
+      "newLabel": "기대와 부합",
       "changedFields": [
         "final_tier"
       ]

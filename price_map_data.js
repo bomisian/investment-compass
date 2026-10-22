@@ -2,7 +2,7 @@ const PRICE_MAP_DATA = {
   "_meta": {
     "title": "WO17 가격지도(price_map) - 화면용 production 데이터",
     "as_of": "2026-10-22",
-    "input_snapshot_hash": "e483f91c0099f407f7fb863fd59b6489f663d20de9648b5091e7a223c6fdc46a",
+    "input_snapshot_hash": "439f00b0c39a01d619f4d1302196d9e046f14e01dafe30578b5f073b67d1a560",
     "generated_by": "price_map_engine.py write_price_map_data_js()",
     "note": "142 엔진(computePriceValidity/pvIntegratedAction)과 완전히 독립된 산출물 - 기존 판정 로직을 전혀 안 건드림."
   },
@@ -36,12 +36,12 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 18.35025939726027,
-      "ttmEps": 11.559324498379091,
+      "ttmEps": 11.652139790384755,
       "diag": {
-        "epsTtmNtmRatio": 0.629927035260598,
-        "candSpread": 2.336885743461376,
-        "fairAltExCappedGrowth": 411.78776528040754,
-        "fairAltGapPct": -25.19855689489812,
+        "epsTtmNtmRatio": 0.6349850178207531,
+        "candSpread": 2.318271245475159,
+        "fairAltExCappedGrowth": 412.77864099025714,
+        "fairAltGapPct": -25.01856385167579,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -77,7 +77,7 @@ const PRICE_MAP_DATA = {
       "bandFairHigh": 338.343526520548,
       "modelCheckNeeded": false,
       "confidence": "낮음",
-      "confidenceNote": "적정가 후보 중 최대 괴리 ±56% (±40% 밖)",
+      "confidenceNote": "적정가 후보 중 최대 괴리 ±57% (±40% 밖)",
       "bizRiskBadge": false,
       "bizRiskDetail": [],
       "stockType": "고성장형",
@@ -93,12 +93,12 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 10.252834136986301,
-      "ttmEps": 5.7981485220310915,
+      "ttmEps": 5.695635789378608,
       "diag": {
-        "epsTtmNtmRatio": 0.5655166605216719,
-        "candSpread": 2.3097865706019967,
-        "fairAltExCappedGrowth": 224.73850327434414,
-        "fairAltGapPct": -26.93451057153148,
+        "epsTtmNtmRatio": 0.5555181829024275,
+        "candSpread": 2.3513591960212654,
+        "fairAltExCappedGrowth": 223.5379927561541,
+        "fairAltGapPct": -27.324812577185142,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -150,12 +150,12 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 5.844450657534247,
-      "ttmEps": 3.706937839115335,
+      "ttmEps": 3.7009273871759736,
       "diag": {
-        "epsTtmNtmRatio": 0.6342662563737477,
-        "candSpread": 1.989155731108828,
-        "fairAltExCappedGrowth": 134.34727680070395,
-        "fairAltGapPct": -23.37615932730245,
+        "epsTtmNtmRatio": 0.6332378531427933,
+        "candSpread": 1.9923861984136342,
+        "fairAltExCappedGrowth": 134.27440287738796,
+        "fairAltGapPct": -23.41772235725238,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -186,7 +186,7 @@ const PRICE_MAP_DATA = {
       "stockType": "분류불가(이력부족)",
       "stockTypeReason": "유효 연간 EPS 4개년(<5년 기준) - 필터 없음(원본 그대로)",
       "candidates": {
-        "historicalPer": 32.3572525147606,
+        "historicalPer": 32.504646215926456,
         "historicalPerYearsUsed": 4,
         "historicalPerEpsBasis": "TTM EPS",
         "sectorPer": 31.43094,
@@ -196,12 +196,12 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 53.106365753424654,
-      "ttmEps": 30.56596581167464,
+      "ttmEps": 31.41869245224019,
       "diag": {
-        "epsTtmNtmRatio": 0.5755612416333261,
-        "candSpread": 1.6876958817168812,
-        "fairAltExCappedGrowth": 1329.1068348699205,
-        "fairAltGapPct": -16.575799277935545,
+        "epsTtmNtmRatio": 0.5916181988072513,
+        "candSpread": 1.6344453398158356,
+        "fairAltExCappedGrowth": 1345.2182391705057,
+        "fairAltGapPct": -15.564532921444417,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -245,9 +245,9 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS(또는 정상화 EPS)"
       },
       "epsUsedForCandidates": 53.416000000000004,
-      "ttmEps": 75.27724083495282,
+      "ttmEps": 75.11571364411199,
       "diag": {
-        "epsTtmNtmRatio": 1.4092639066001351,
+        "epsTtmNtmRatio": 1.406239958890819,
         "candSpread": 2.0840654744160583,
         "fairAltExCappedGrowth": 768.920180134458,
         "fairAltGapPct": -35.150533716257,
@@ -294,12 +294,12 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 230.90002098630137,
-      "ttmEps": 79.51559599503396,
+      "ttmEps": 79.10620641835368,
       "diag": {
-        "epsTtmNtmRatio": 0.3443724069637542,
-        "candSpread": 3.682293364926385,
-        "fairAltExCappedGrowth": 3235.3129842502676,
-        "fairAltGapPct": -29.50560295899568,
+        "epsTtmNtmRatio": 0.34259939033546827,
+        "candSpread": 3.7013499293874266,
+        "fairAltExCappedGrowth": 3230.470354021776,
+        "fairAltGapPct": -29.611119272165965,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -320,11 +320,11 @@ const PRICE_MAP_DATA = {
       "verdict": "매수",
       "action": "적극 모아가기",
       "currentPrice": 378.510009765625,
-      "fairPrice": 559.0005579450567,
-      "ratio": 0.67711919851577,
-      "bandAggressiveLe": 447.2004463560454,
-      "bandDcaHigh": 503.10050215055105,
-      "bandFairHigh": 614.9006137395625,
+      "fairPrice": 546.661079494819,
+      "ratio": 0.6924034359925789,
+      "bandAggressiveLe": 437.3288635958552,
+      "bandDcaHigh": 491.9949715453371,
+      "bandFairHigh": 601.3271874443009,
       "modelCheckNeeded": false,
       "confidence": "낮음",
       "confidenceNote": "EPS 품질 경고: 과거 PER 이력 부족(1년치); WO8-B 분류 불가(이력 부족 - 유효 1개년 <5년; corporate_events.json 기업분할/분리상장(2025-02-21) 이전 회계연도 7개 제외)",
@@ -343,17 +343,17 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 24.667631506849315,
-      "ttmEps": 25.180952777191052,
+      "ttmEps": 24.62510391490576,
       "diag": {
-        "epsTtmNtmRatio": 1.0208095078037471,
+        "epsTtmNtmRatio": 0.9982759758701704,
         "candSpread": 3.5585415673240477,
-        "fairAltExCappedGrowth": 383.47952597651465,
-        "fairAltGapPct": -31.399079924674023,
+        "fairAltExCappedGrowth": 377.3097867513958,
+        "fairAltGapPct": -30.979211635100178,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": "WO8-B 분류 불가(이력 부족, 유효 1개년 <5년) - corporate_events.json 기업분할/분리상장(2025-02-21) 이전 회계연도 7개 제외 - 경기순환 여부 판단 안 함, NTM EPS 그대로 사용",
-      "convertedFairPer": 22.66129838164002,
+      "convertedFairPer": 22.161068821829563,
       "fairPriceBasis": "세 적정가 후보 중앙값",
       "dispersionFlag": "최대/최소 3.56배 > 기준 1.5배 - 계산은 그대로, 원인 점검 필요",
       "qualityWarnings": [
@@ -405,9 +405,9 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS(또는 정상화 EPS)"
       },
       "epsUsedForCandidates": 11.0484,
-      "ttmEps": 14.453501216368789,
+      "ttmEps": 14.00218232730972,
       "diag": {
-        "epsTtmNtmRatio": 1.3081985822715314,
+        "epsTtmNtmRatio": 1.2673493290711524,
         "candSpread": 1.4359445453498019,
         "fairAltExCappedGrowth": 230.82506986316588,
         "fairAltGapPct": -17.896324700084687,
@@ -455,9 +455,9 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS(또는 정상화 EPS)"
       },
       "epsUsedForCandidates": 6.114639999999999,
-      "ttmEps": 8.32405193187992,
+      "ttmEps": 8.074954480230172,
       "diag": {
-        "epsTtmNtmRatio": 1.3613314818010416,
+        "epsTtmNtmRatio": 1.320593604894184,
         "candSpread": 1.7095517711479125,
         "fairAltExCappedGrowth": 313.5988092579561,
         "fairAltGapPct": 26.187053471479093,
@@ -504,12 +504,12 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 14.195185342465752,
-      "ttmEps": 4.037868318549233,
+      "ttmEps": 3.9224840321077465,
       "diag": {
-        "epsTtmNtmRatio": 0.2844533707122306,
-        "candSpread": 1.854702222667398,
-        "fairAltExCappedGrowth": 249.69574661533818,
-        "fairAltGapPct": -7.445674779304545,
+        "epsTtmNtmRatio": 0.2763249607156167,
+        "candSpread": 1.9092603778497206,
+        "fairAltExCappedGrowth": 246.4151513721215,
+        "fairAltGapPct": -8.661687799846284,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -545,10 +545,10 @@ const PRICE_MAP_DATA = {
       "bandFairHigh": 633.8021525753425,
       "modelCheckNeeded": false,
       "confidence": "낮음",
-      "confidenceNote": "적정가 후보 중 최대 괴리 ±50% (±40% 밖) / 사업 위험으로 신뢰도 1단계 하향(낮음→낮음): EPS 수정 방향 하향 전환(방향: 보합)",
+      "confidenceNote": "적정가 후보 중 최대 괴리 ±51% (±40% 밖) / 사업 위험으로 신뢰도 1단계 하향(낮음→낮음): EPS 하향 수정이 상향보다 많음(방향은 보합)",
       "bizRiskBadge": true,
       "bizRiskDetail": [
-        "EPS 수정 방향 하향(보합)"
+        "EPS 하향 수정이 상향보다 많음(방향은 보합)"
       ],
       "stockType": "기타",
       "stockTypeReason": "경기순환형·이익훼손형·고성장형 조건 모두 미해당",
@@ -563,12 +563,12 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 19.206125835616437,
-      "ttmEps": 8.080140931081246,
+      "ttmEps": 7.998635822736413,
       "diag": {
-        "epsTtmNtmRatio": 0.42070644544550373,
-        "candSpread": 3.017061722237539,
-        "fairAltExCappedGrowth": 575.2390225886261,
-        "fairAltGapPct": -0.16396721336950915,
+        "epsTtmNtmRatio": 0.4164627416896069,
+        "candSpread": 3.047805207502241,
+        "fairAltExCappedGrowth": 573.7945618951442,
+        "fairAltGapPct": -0.4146616542725301,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -577,7 +577,7 @@ const PRICE_MAP_DATA = {
       "fairPriceBasis": "세 적정가 후보 중앙값",
       "dispersionFlag": null,
       "qualityWarnings": [
-        "⚠ 사업 경고(현금흐름/EPS 하향): EPS 수정 방향 하향 전환(방향: 보합)"
+        "⚠ 사업 경고(현금흐름/EPS 하향): EPS 하향 수정이 상향보다 많음(방향은 보합)"
       ],
       "recentChanges": [],
       "nextUpdateDate": "2026-12-10"
@@ -611,12 +611,12 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 6.468799479452055,
-      "ttmEps": 3.064836578026939,
+      "ttmEps": 3.0104928705194802,
       "diag": {
-        "epsTtmNtmRatio": 0.4737875378209356,
-        "candSpread": 6.163380771268031,
-        "fairAltExCappedGrowth": 77.21384974996687,
-        "fairAltGapPct": -37.19443037839486,
+        "epsTtmNtmRatio": 0.4653866424646829,
+        "candSpread": 6.27463862049625,
+        "fairAltExCappedGrowth": 76.93469958367788,
+        "fairAltGapPct": -37.42149048821347,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -670,12 +670,12 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 22.257421232876712,
-      "ttmEps": 17.5343372666441,
+      "ttmEps": 17.643719142118663,
       "diag": {
-        "epsTtmNtmRatio": 0.787797341083877,
-        "candSpread": 6.530136545884512,
-        "fairAltExCappedGrowth": 313.4605516852847,
-        "fairAltGapPct": -40.25551825813832,
+        "epsTtmNtmRatio": 0.7927117412890989,
+        "candSpread": 6.489653098106843,
+        "fairAltExCappedGrowth": 313.7794849741925,
+        "fairAltGapPct": -40.19473069187654,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -768,14 +768,14 @@ const PRICE_MAP_DATA = {
       "verdict": "고평가",
       "action": "신규 추격 금지",
       "currentPrice": 177.9600067138672,
-      "fairPrice": 113.32545418878465,
-      "ratio": 1.5703445266357392,
-      "bandAggressiveLe": 90.66036335102773,
-      "bandDcaHigh": 101.99290876990618,
-      "bandFairHigh": 124.65799960766313,
+      "fairPrice": 112.03490548200281,
+      "ratio": 1.5884335863741548,
+      "bandAggressiveLe": 89.62792438560226,
+      "bandDcaHigh": 100.83141493380253,
+      "bandFairHigh": 123.2383960302031,
       "modelCheckNeeded": false,
       "confidence": "낮음",
-      "confidenceNote": "적정가 후보 중 최대 괴리 ±33% / 사업 위험으로 신뢰도 1단계 하향(보통→낮음): EPS 수정 방향 하향 전환(방향: 하향)",
+      "confidenceNote": "적정가 후보 중 최대 괴리 ±32% / 사업 위험으로 신뢰도 1단계 하향(보통→낮음): EPS 수정 방향 하향(하향)",
       "bizRiskBadge": true,
       "bizRiskDetail": [
         "EPS 수정 방향 하향(하향)"
@@ -793,21 +793,21 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 10.19018,
-      "ttmEps": 8.830797963193456,
+      "ttmEps": 8.679070775384291,
       "diag": {
-        "epsTtmNtmRatio": 0.8665988199613213,
-        "candSpread": 1.9656121007685086,
+        "epsTtmNtmRatio": 0.8517092706295954,
+        "candSpread": 1.931839751133027,
         "fairAltExCappedGrowth": null,
         "fairAltGapPct": null,
         "fairAltApplicable": false,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 11.121045377881908,
+      "convertedFairPer": 10.994399066748851,
       "fairPriceBasis": "적정가 후보 2개 평균",
       "dispersionFlag": "최대/최소 2.27배 > 기준 1.5배 - 계산은 그대로, 원인 점검 필요",
       "qualityWarnings": [
-        "⚠ 사업 경고(현금흐름/EPS 하향): EPS 수정 방향 하향 전환(방향: 하향)"
+        "⚠ 사업 경고(현금흐름/EPS 하향): EPS 수정 방향 하향(하향)"
       ],
       "recentChanges": [
         {
@@ -852,9 +852,9 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 2.6969123287671235,
-      "ttmEps": 0.9723356840545812,
+      "ttmEps": 1.0019819261095941,
       "diag": {
-        "epsTtmNtmRatio": 0.36053663060640845,
+        "epsTtmNtmRatio": 0.3715292912645936,
         "candSpread": null,
         "fairAltExCappedGrowth": null,
         "fairAltGapPct": null,
@@ -878,18 +878,18 @@ const PRICE_MAP_DATA = {
       "verdict": "고평가",
       "action": "신규 추격 금지",
       "currentPrice": 184.3300018310547,
-      "fairPrice": 152.13097461110755,
-      "ratio": 1.2116533289966591,
-      "bandAggressiveLe": 121.70477968888605,
-      "bandDcaHigh": 136.9178771499968,
-      "bandFairHigh": 167.34407207221832,
+      "fairPrice": 152.8787944686175,
+      "ratio": 1.2057264218478212,
+      "bandAggressiveLe": 122.30303557489401,
+      "bandDcaHigh": 137.59091502175576,
+      "bandFairHigh": 168.16667391547927,
       "modelCheckNeeded": false,
       "confidence": "높음",
-      "confidenceNote": "적정가 후보 모두 중앙값 ±1% 안",
+      "confidenceNote": "적정가 후보 모두 중앙값 ±2% 안",
       "bizRiskBadge": false,
       "bizRiskDetail": [],
       "stockType": "고성장형",
-      "stockTypeReason": "NTM PER 44.1배(기준 40 초과); 다음 회계연도 성장률 38.1%(기준 30% 초과)",
+      "stockTypeReason": "NTM PER 44.8배(기준 40 초과); 다음 회계연도 성장률 38.1%(기준 30% 초과)",
       "candidates": {
         "historicalPer": 47.64727228338068,
         "historicalPerYearsUsed": 5,
@@ -901,17 +901,17 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 5.010341369863014,
-      "ttmEps": 3.231070757014203,
+      "ttmEps": 3.262460585714672,
       "diag": {
-        "epsTtmNtmRatio": 0.6448803621343954,
-        "candSpread": 1.0242263401607559,
-        "fairAltExCappedGrowth": 153.9517081263247,
-        "fairAltGapPct": 1.1968197271275516,
+        "epsTtmNtmRatio": 0.6511453701215312,
+        "candSpread": 1.0341766915414428,
+        "fairAltExCappedGrowth": 155.44734784134457,
+        "fairAltGapPct": 1.6801240365970527,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 30.363395102411335,
+      "convertedFairPer": 30.512650373121645,
       "fairPriceBasis": "적정가 후보 2개 평균",
       "dispersionFlag": "최대/최소 1.59배 > 기준 1.5배 - 계산은 그대로, 원인 점검 필요",
       "qualityWarnings": [],
@@ -935,14 +935,14 @@ const PRICE_MAP_DATA = {
       "verdict": "고평가",
       "action": "신규 추격 금지",
       "currentPrice": 393.94000244140625,
-      "fairPrice": 327.2261449844959,
-      "ratio": 1.2038769165589482,
-      "bandAggressiveLe": 261.7809159875967,
-      "bandDcaHigh": 294.5035304860463,
-      "bandFairHigh": 359.9487594829455,
+      "fairPrice": 330.09656822785416,
+      "ratio": 1.1934083548832388,
+      "bandAggressiveLe": 264.07725458228333,
+      "bandDcaHigh": 297.08691140506875,
+      "bandFairHigh": 363.10622505063964,
       "modelCheckNeeded": false,
       "confidence": "높음",
-      "confidenceNote": "적정가 후보 모두 중앙값 ±18% 안",
+      "confidenceNote": "적정가 후보 모두 중앙값 ±17% 안",
       "bizRiskBadge": false,
       "bizRiskDetail": [],
       "stockType": "기타",
@@ -951,24 +951,24 @@ const PRICE_MAP_DATA = {
         "historicalPer": 30.479426771830145,
         "historicalPerYearsUsed": 5,
         "historicalPerEpsBasis": "TTM EPS",
-        "sectorPer": 20.73801,
+        "sectorPer": 20.919923538503525,
         "sectorPerValidPeers": 3,
         "sectorPerEpsBasis": "NTM EPS",
         "growthPerPeg": 24.375,
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 15.779052328767122,
-      "ttmEps": 10.162259833391106,
+      "ttmEps": 9.933155377741961,
       "diag": {
-        "epsTtmNtmRatio": 0.6440348648102318,
-        "candSpread": 1.2417336516922493,
+        "epsTtmNtmRatio": 0.6295153327828578,
+        "candSpread": 1.2703737666923276,
         "fairAltExCappedGrowth": null,
         "fairAltGapPct": null,
         "fairAltApplicable": false,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 20.73801,
+      "convertedFairPer": 20.919923538503525,
       "fairPriceBasis": "세 적정가 후보 중앙값",
       "dispersionFlag": null,
       "qualityWarnings": [],
@@ -992,17 +992,17 @@ const PRICE_MAP_DATA = {
       "verdict": "적정",
       "action": "선별 매수",
       "currentPrice": 460.760009765625,
-      "fairPrice": 458.3660524331887,
-      "ratio": 1.0052228067932347,
-      "bandAggressiveLe": 366.69284194655097,
-      "bandDcaHigh": 412.52944718986987,
-      "bandFairHigh": 504.2026576765076,
+      "fairPrice": 455.19379979465594,
+      "ratio": 1.0122282200976376,
+      "bandAggressiveLe": 364.1550398357248,
+      "bandDcaHigh": 409.67441981519033,
+      "bandFairHigh": 500.71317977412156,
       "modelCheckNeeded": false,
       "confidence": "낮음",
-      "confidenceNote": "적정가 후보 중 최대 괴리 ±39% / 사업 위험으로 신뢰도 1단계 하향(보통→낮음): EPS 수정 방향 하향 전환(방향: 혼조)",
+      "confidenceNote": "적정가 후보 중 최대 괴리 ±40% (±40% 밖) / 사업 위험으로 신뢰도 1단계 하향(낮음→낮음): EPS 하향 수정이 상향보다 많음(방향은 혼조)",
       "bizRiskBadge": true,
       "bizRiskDetail": [
-        "EPS 수정 방향 하향(혼조)"
+        "EPS 하향 수정이 상향보다 많음(방향은 혼조)"
       ],
       "stockType": "기타",
       "stockTypeReason": "경기순환형·이익훼손형·고성장형 조건 모두 미해당",
@@ -1017,9 +1017,9 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 22.561004520547943,
-      "ttmEps": 17.07093908560385,
+      "ttmEps": 16.952794796189153,
       "diag": {
-        "epsTtmNtmRatio": 0.756656870932148,
+        "epsTtmNtmRatio": 0.7514202118415877,
         "candSpread": 1.5097663758437379,
         "fairAltExCappedGrowth": null,
         "fairAltGapPct": null,
@@ -1027,11 +1027,11 @@ const PRICE_MAP_DATA = {
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 20.31673953239633,
+      "convertedFairPer": 20.176131757789328,
       "fairPriceBasis": "세 적정가 후보 중앙값",
       "dispersionFlag": "최대/최소 1.51배 > 기준 1.5배 - 계산은 그대로, 원인 점검 필요",
       "qualityWarnings": [
-        "⚠ 사업 경고(현금흐름/EPS 하향): EPS 수정 방향 하향 전환(방향: 혼조)"
+        "⚠ 사업 경고(현금흐름/EPS 하향): EPS 하향 수정이 상향보다 많음(방향은 혼조)"
       ],
       "recentChanges": [
         {
@@ -1053,14 +1053,14 @@ const PRICE_MAP_DATA = {
       "verdict": "적정",
       "action": "선별 매수",
       "currentPrice": 212.14999389648438,
-      "fairPrice": 220.15477124459107,
-      "ratio": 0.9636402277231892,
-      "bandAggressiveLe": 176.12381699567288,
-      "bandDcaHigh": 198.13929412013198,
-      "bandFairHigh": 242.1702483690502,
+      "fairPrice": 211.50520848632917,
+      "ratio": 1.0030485557058841,
+      "bandAggressiveLe": 169.20416678906335,
+      "bandDcaHigh": 190.35468763769626,
+      "bandFairHigh": 232.6557293349621,
       "modelCheckNeeded": false,
-      "confidence": "높음",
-      "confidenceNote": "적정가 후보 모두 중앙값 ±19% 안",
+      "confidence": "보통",
+      "confidenceNote": "적정가 후보 중 최대 괴리 ±24%",
       "bizRiskBadge": false,
       "bizRiskDetail": [],
       "stockType": "고성장형",
@@ -1069,26 +1069,26 @@ const PRICE_MAP_DATA = {
         "historicalPer": 47.510262318720216,
         "historicalPerYearsUsed": 3,
         "historicalPerEpsBasis": "TTM EPS",
-        "sectorPer": 20.73801,
+        "sectorPer": 20.919923538503525,
         "sectorPerValidPeers": 3,
         "sectorPerEpsBasis": "NTM EPS",
         "growthPerPeg": 30.0,
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 8.722630136986302,
-      "ttmEps": 4.633836154548965,
+      "ttmEps": 4.451779429620006,
       "diag": {
-        "epsTtmNtmRatio": 0.531242994575713,
-        "candSpread": 1.4466190343239298,
-        "fairAltExCappedGrowth": 200.52238112585718,
-        "fairAltGapPct": -8.917540150389192,
+        "epsTtmNtmRatio": 0.5103712251587124,
+        "candSpread": 1.4340396581653092,
+        "fairAltExCappedGrowth": 196.99098200336456,
+        "fairAltGapPct": -6.862349436611037,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 25.239494027274585,
+      "convertedFairPer": 24.247870787217046,
       "fairPriceBasis": "세 적정가 후보 중앙값",
-      "dispersionFlag": "최대/최소 2.29배 > 기준 1.5배 - 계산은 그대로, 원인 점검 필요",
+      "dispersionFlag": "최대/최소 2.27배 > 기준 1.5배 - 계산은 그대로, 원인 점검 필요",
       "qualityWarnings": [],
       "recentChanges": [
         {
@@ -1133,9 +1133,9 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 8.559589452054794,
-      "ttmEps": 2.709415277486182,
+      "ttmEps": 2.6901206365786163,
       "diag": {
-        "epsTtmNtmRatio": 0.31653565777454035,
+        "epsTtmNtmRatio": 0.31428150282754885,
         "candSpread": 1.0597665970046757,
         "fairAltExCappedGrowth": 242.30588535950136,
         "fairAltGapPct": -2.901619877300099,
@@ -1182,12 +1182,12 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 19.260659999999998,
-      "ttmEps": 8.983448222684387,
+      "ttmEps": 8.746768227503235,
       "diag": {
-        "epsTtmNtmRatio": 0.46641435042643337,
-        "candSpread": 1.4902801211422227,
-        "fairAltExCappedGrowth": 396.51731649585986,
-        "fairAltGapPct": -2.169131618996223,
+        "epsTtmNtmRatio": 0.4541260905650812,
+        "candSpread": 1.53060581432584,
+        "fairAltExCappedGrowth": 391.4097621276216,
+        "fairAltGapPct": -3.429294689713347,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -1223,7 +1223,7 @@ const PRICE_MAP_DATA = {
       "bandFairHigh": 1157.2379570183405,
       "modelCheckNeeded": false,
       "confidence": "낮음",
-      "confidenceNote": "적정가 후보 중 최대 괴리 ±44% (±40% 밖)",
+      "confidenceNote": "적정가 후보 중 최대 괴리 ±42% (±40% 밖)",
       "bizRiskBadge": false,
       "bizRiskDetail": [],
       "stockType": "기타",
@@ -1239,12 +1239,12 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 36.895872054794516,
-      "ttmEps": 32.41069445444398,
+      "ttmEps": 33.204157484798486,
       "diag": {
-        "epsTtmNtmRatio": 0.8784368724585355,
-        "candSpread": 1.8677181227706035,
-        "fairAltExCappedGrowth": 822.3350294512421,
-        "fairAltGapPct": -21.83383487290589,
+        "epsTtmNtmRatio": 0.8999423413949014,
+        "candSpread": 1.8230862033424393,
+        "fairAltExCappedGrowth": 829.5893387049518,
+        "fairAltGapPct": -21.14428436769772,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -1296,12 +1296,12 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 58.07781589041096,
-      "ttmEps": 40.404544838131834,
+      "ttmEps": 40.838827575359495,
       "diag": {
-        "epsTtmNtmRatio": 0.6956966996550381,
-        "candSpread": 1.7128603066229304,
-        "fairAltExCappedGrowth": 1119.6799807844186,
-        "fairAltGapPct": -8.384585100393771,
+        "epsTtmNtmRatio": 0.7031743007075144,
+        "candSpread": 1.6946456391945828,
+        "fairAltExCappedGrowth": 1125.1466391917425,
+        "fairAltGapPct": -7.937287491526524,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -1330,11 +1330,11 @@ const PRICE_MAP_DATA = {
       "verdict": "적정",
       "action": "선별 매수",
       "currentPrice": 237.52999877929688,
-      "fairPrice": 231.8169692431792,
-      "ratio": 1.0246445700449334,
-      "bandAggressiveLe": 185.45357539454335,
-      "bandDcaHigh": 208.63527231886127,
-      "bandFairHigh": 254.99866616749713,
+      "fairPrice": 231.2348690428691,
+      "ratio": 1.027223963939715,
+      "bandAggressiveLe": 184.98789523429528,
+      "bandDcaHigh": 208.1113821385822,
+      "bandFairHigh": 254.358355947156,
       "modelCheckNeeded": false,
       "confidence": "낮음",
       "confidenceNote": "EPS 품질 경고: 과거 PER 이력 부족(2년치) / 사업 위험으로 신뢰도 1단계 하향(낮음→낮음): 현금흐름 거부권 발동(2/3: FCF 2년 연속 악화(0.2B→0.2B→-1.0B), 발행주식수 +4.5%(3개분기))",
@@ -1355,17 +1355,17 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 10.867479780821917,
-      "ttmEps": 4.184783736183975,
+      "ttmEps": 4.149379746584345,
       "diag": {
-        "epsTtmNtmRatio": 0.3850739840868124,
-        "candSpread": 2.369198977283703,
-        "fairAltExCappedGrowth": 137.6095450617009,
-        "fairAltGapPct": -40.638709275270266,
+        "epsTtmNtmRatio": 0.38181619200312183,
+        "candSpread": 2.389413828917915,
+        "fairAltExCappedGrowth": 136.44534466108072,
+        "fairAltGapPct": -40.99274680074966,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 21.331253788230804,
+      "convertedFairPer": 21.277690293101294,
       "fairPriceBasis": "적정가 후보 2개 평균",
       "dispersionFlag": null,
       "qualityWarnings": [
@@ -1440,14 +1440,14 @@ const PRICE_MAP_DATA = {
       "verdict": "고평가",
       "action": "신규 추격 금지",
       "currentPrice": 270.739990234375,
-      "fairPrice": 238.6624201516077,
-      "ratio": 1.1344056180373532,
-      "bandAggressiveLe": 190.92993612128618,
-      "bandDcaHigh": 214.79617813644694,
-      "bandFairHigh": 262.52866216676847,
+      "fairPrice": 228.17244641802594,
+      "ratio": 1.1865586510755235,
+      "bandAggressiveLe": 182.53795713442076,
+      "bandDcaHigh": 205.35520177622334,
+      "bandFairHigh": 250.98969105982854,
       "modelCheckNeeded": false,
       "confidence": "낮음",
-      "confidenceNote": "적정가 후보 중 최대 괴리 ±59% (±40% 밖)",
+      "confidenceNote": "적정가 후보 중 최대 괴리 ±66% (±40% 밖)",
       "bizRiskBadge": false,
       "bizRiskDetail": [],
       "stockType": "기타",
@@ -1463,9 +1463,9 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 13.066298493150684,
-      "ttmEps": 10.229264532492104,
+      "ttmEps": 9.779655766304543,
       "diag": {
-        "epsTtmNtmRatio": 0.7828739361690118,
+        "epsTtmNtmRatio": 0.7484641324726364,
         "candSpread": 2.8205618693244054,
         "fairAltExCappedGrowth": null,
         "fairAltGapPct": null,
@@ -1473,7 +1473,7 @@ const PRICE_MAP_DATA = {
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 18.265495792608277,
+      "convertedFairPer": 17.46266905946112,
       "fairPriceBasis": "세 적정가 후보 중앙값",
       "dispersionFlag": "최대/최소 2.82배 > 기준 1.5배 - 계산은 그대로, 원인 점검 필요",
       "qualityWarnings": [],
@@ -1504,7 +1504,7 @@ const PRICE_MAP_DATA = {
       "bandFairHigh": 115.62821906678795,
       "modelCheckNeeded": false,
       "confidence": "낮음",
-      "confidenceNote": "적정가 후보 중 최대 괴리 ±191% (±40% 밖) / 사업 위험으로 신뢰도 1단계 하향(낮음→낮음): 현금흐름 거부권 발동(2/3: FCF 2년 연속 악화(3.8B→2.5B→1.3B), 부채/자본 3.74); EPS 수정 방향 하향 전환(방향: 하향)",
+      "confidenceNote": "적정가 후보 중 최대 괴리 ±191% (±40% 밖) / 사업 위험으로 신뢰도 1단계 하향(낮음→낮음): 현금흐름 거부권 발동(2/3: FCF 2년 연속 악화(3.8B→2.5B→1.3B), 부채/자본 3.74); EPS 수정 방향 하향(하향)",
       "bizRiskBadge": true,
       "bizRiskDetail": [
         "현금흐름 거부권(2/3: FCF 2년 연속 악화(3.8B→2.5B→1.3B), 부채/자본 3.74)",
@@ -1523,12 +1523,12 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 10.206997808219178,
-      "ttmEps": 6.739526385312738,
+      "ttmEps": 6.510200567449349,
       "diag": {
-        "epsTtmNtmRatio": 0.6602848861087968,
-        "candSpread": 3.0043445687806285,
-        "fairAltExCappedGrowth": 103.51946897356311,
-        "fairAltGapPct": -1.5193550588665339,
+        "epsTtmNtmRatio": 0.6378173768399377,
+        "candSpread": 3.110174453473257,
+        "fairAltExCappedGrowth": 101.7854129950239,
+        "fairAltGapPct": -3.1690056301439173,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -1537,7 +1537,7 @@ const PRICE_MAP_DATA = {
       "fairPriceBasis": "세 적정가 후보 중앙값",
       "dispersionFlag": "최대/최소 2.91배 > 기준 1.5배 - 계산은 그대로, 원인 점검 필요",
       "qualityWarnings": [
-        "⚠ 사업 경고(현금흐름/EPS 하향): 현금흐름 거부권 발동(2/3: FCF 2년 연속 악화(3.8B→2.5B→1.3B), 부채/자본 3.74); EPS 수정 방향 하향 전환(방향: 하향)"
+        "⚠ 사업 경고(현금흐름/EPS 하향): 현금흐름 거부권 발동(2/3: FCF 2년 연속 악화(3.8B→2.5B→1.3B), 부채/자본 3.74); EPS 수정 방향 하향(하향)"
       ],
       "recentChanges": [
         {
@@ -1582,12 +1582,12 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 24.48507,
-      "ttmEps": 36.46301727654258,
+      "ttmEps": 35.77466899428777,
       "diag": {
-        "epsTtmNtmRatio": 1.4891939159880931,
-        "candSpread": 3.095045386444443,
-        "fairAltExCappedGrowth": 1156.5772789681703,
-        "fairAltGapPct": 57.45340309668576,
+        "epsTtmNtmRatio": 1.4610809360270471,
+        "candSpread": 3.0366171669939837,
+        "fairAltExCappedGrowth": 1140.0752027541528,
+        "fairAltGapPct": 55.20685363967412,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -1645,9 +1645,9 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 4.510657945205479,
-      "ttmEps": 0.8888436714251902,
+      "ttmEps": 0.8288297762277625,
       "diag": {
-        "epsTtmNtmRatio": 0.1970541065677503,
+        "epsTtmNtmRatio": 0.18374919718945923,
         "candSpread": null,
         "fairAltExCappedGrowth": null,
         "fairAltGapPct": null,
@@ -1689,7 +1689,7 @@ const PRICE_MAP_DATA = {
       "bandFairHigh": 236.86428280872502,
       "modelCheckNeeded": false,
       "confidence": "높음",
-      "confidenceNote": "적정가 후보 모두 중앙값 ±16% 안",
+      "confidenceNote": "적정가 후보 모두 중앙값 ±14% 안",
       "bizRiskBadge": false,
       "bizRiskDetail": [],
       "stockType": "기타",
@@ -1705,10 +1705,10 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 9.56345,
-      "ttmEps": 8.926990925718915,
+      "ttmEps": 8.816819860833085,
       "diag": {
-        "epsTtmNtmRatio": 0.9334487999329651,
-        "candSpread": 1.3038803983682559,
+        "epsTtmNtmRatio": 0.9219287872925656,
+        "candSpread": 1.2877887619851458,
         "fairAltExCappedGrowth": null,
         "fairAltGapPct": null,
         "fairAltApplicable": false,
@@ -1746,7 +1746,7 @@ const PRICE_MAP_DATA = {
       "bandFairHigh": 593.6671246530411,
       "modelCheckNeeded": false,
       "confidence": "높음",
-      "confidenceNote": "적정가 후보 모두 중앙값 ±19% 안",
+      "confidenceNote": "적정가 후보 모두 중앙값 ±18% 안",
       "bizRiskBadge": false,
       "bizRiskDetail": [],
       "stockType": "기타",
@@ -1762,10 +1762,10 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 20.991730301369863,
-      "ttmEps": 18.23441503118724,
+      "ttmEps": 18.133472569513557,
       "diag": {
-        "epsTtmNtmRatio": 0.8686475468864666,
-        "candSpread": 1.3572007218447157,
+        "epsTtmNtmRatio": 0.8638388693632472,
+        "candSpread": 1.349687501288203,
         "fairAltExCappedGrowth": null,
         "fairAltGapPct": null,
         "fairAltApplicable": false,
@@ -1819,12 +1819,12 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 15.09738,
-      "ttmEps": 19.5902417334651,
+      "ttmEps": 19.977561931014574,
       "diag": {
-        "epsTtmNtmRatio": 1.2975921473437841,
-        "candSpread": 1.3315754550576517,
-        "fairAltExCappedGrowth": 413.0768192923067,
-        "fairAltGapPct": -8.797239588964734,
+        "epsTtmNtmRatio": 1.323246942914239,
+        "candSpread": 1.3579021372559592,
+        "fairAltExCappedGrowth": 417.7410226837974,
+        "fairAltGapPct": -7.767435434978919,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -1879,12 +1879,12 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 33.11752808219178,
-      "ttmEps": 26.43112453273197,
+      "ttmEps": 26.857132608099263,
       "diag": {
-        "epsTtmNtmRatio": 0.7981007660696972,
-        "candSpread": 1.5388845072498532,
-        "fairAltExCappedGrowth": 711.4383609915822,
-        "fairAltGapPct": -8.468705034515045,
+        "epsTtmNtmRatio": 0.8109642888033389,
+        "candSpread": 1.5144747075622889,
+        "fairAltExCappedGrowth": 716.6412592758935,
+        "fairAltGapPct": -7.799317433777631,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -1936,12 +1936,12 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 10.55875,
-      "ttmEps": 12.538110615469302,
+      "ttmEps": 12.615943640923199,
       "diag": {
-        "epsTtmNtmRatio": 1.1874616422842952,
-        "candSpread": 2.6294559047168997,
-        "fairAltExCappedGrowth": 445.25888834069957,
-        "fairAltGapPct": 40.56553043390541,
+        "epsTtmNtmRatio": 1.194833066501546,
+        "candSpread": 2.6457788192802174,
+        "fairAltExCappedGrowth": 447.26137107743637,
+        "fairAltGapPct": 41.197702088295294,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -1972,14 +1972,14 @@ const PRICE_MAP_DATA = {
       "verdict": "매수",
       "action": "적극 모아가기",
       "currentPrice": 129.1300048828125,
-      "fairPrice": 218.3069018125901,
-      "ratio": 0.5915067449111926,
-      "bandAggressiveLe": 174.6455214500721,
-      "bandDcaHigh": 196.4762116313311,
-      "bandFairHigh": 240.13759199384913,
+      "fairPrice": 216.93061385687503,
+      "ratio": 0.5952594822232375,
+      "bandAggressiveLe": 173.54449108550003,
+      "bandDcaHigh": 195.23755247118754,
+      "bandFairHigh": 238.62367524256254,
       "modelCheckNeeded": false,
       "confidence": "낮음",
-      "confidenceNote": "적정가 후보 중 최대 괴리 ±27% / 사업 위험으로 신뢰도 1단계 하향(보통→낮음): 현금흐름 거부권 발동(3/3: FCF 2년 연속 악화(11.8B→-0.4B→-23.7B), 부채/자본 2.01, 발행주식수 +5.1%(3개분기))",
+      "confidenceNote": "적정가 후보 중 최대 괴리 ±28% / 사업 위험으로 신뢰도 1단계 하향(보통→낮음): 현금흐름 거부권 발동(3/3: FCF 2년 연속 악화(11.8B→-0.4B→-23.7B), 부채/자본 2.01, 발행주식수 +5.1%(3개분기))",
       "bizRiskBadge": true,
       "bizRiskDetail": [
         "현금흐름 거부권(3/3: FCF 2년 연속 악화(11.8B→-0.4B→-23.7B), 부채/자본 2.01, 발행주식수 +5.1%(3개분기))"
@@ -1997,17 +1997,17 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 9.266975150684932,
-      "ttmEps": 6.326242902772538,
+      "ttmEps": 6.286359913092769,
       "diag": {
-        "epsTtmNtmRatio": 0.6826653573474791,
+        "epsTtmNtmRatio": 0.6783615808690432,
         "candSpread": 1.6019684988914378,
-        "fairAltExCappedGrowth": 195.92458739023039,
-        "fairAltGapPct": -10.252682914062994,
+        "fairAltExCappedGrowth": 195.23644341237286,
+        "fairAltGapPct": -10.000511250484633,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 23.557514535522934,
+      "convertedFairPer": 23.408999196554603,
       "fairPriceBasis": "세 적정가 후보 중앙값",
       "dispersionFlag": "최대/최소 1.84배 > 기준 1.5배 - 계산은 그대로, 원인 점검 필요",
       "qualityWarnings": [
@@ -2040,7 +2040,7 @@ const PRICE_MAP_DATA = {
       "bandFairHigh": 393.54722944113104,
       "modelCheckNeeded": false,
       "confidence": "낮음",
-      "confidenceNote": "적정가 후보 중 최대 괴리 ±73% (±40% 밖)",
+      "confidenceNote": "적정가 후보 중 최대 괴리 ±72% (±40% 밖)",
       "bizRiskBadge": false,
       "bizRiskDetail": [],
       "stockType": "고성장형",
@@ -2056,10 +2056,10 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 16.21988920547945,
-      "ttmEps": 11.782593592589553,
+      "ttmEps": 11.704903529639715,
       "diag": {
-        "epsTtmNtmRatio": 0.7264287347048661,
-        "candSpread": 1.9274729682354805,
+        "epsTtmNtmRatio": 0.7216389323846633,
+        "candSpread": 1.9147639245890542,
         "fairAltExCappedGrowth": null,
         "fairAltGapPct": null,
         "fairAltApplicable": false,
@@ -2113,9 +2113,9 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 2.2101605479452053,
-      "ttmEps": 1.3109870306436597,
+      "ttmEps": 1.2553551190054686,
       "diag": {
-        "epsTtmNtmRatio": 0.5931637101487895,
+        "epsTtmNtmRatio": 0.567992728027191,
         "candSpread": null,
         "fairAltExCappedGrowth": null,
         "fairAltGapPct": null,
@@ -2136,16 +2136,16 @@ const PRICE_MAP_DATA = {
       "ticker": "TSLA",
       "asOf": "2026-10-22",
       "verdict": "고평가",
-      "action": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 8.35배)",
+      "action": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 8.56배)",
       "currentPrice": 386.4700012207031,
-      "fairPrice": 46.27504086366619,
-      "ratio": 8.351586384533007,
-      "bandAggressiveLe": 37.02003269093296,
-      "bandDcaHigh": 41.64753677729957,
-      "bandFairHigh": 50.90254495003281,
+      "fairPrice": 45.150853445579216,
+      "ratio": 8.559528153471547,
+      "bandAggressiveLe": 36.120682756463374,
+      "bandDcaHigh": 40.6357681010213,
+      "bandFairHigh": 49.66593879013714,
       "modelCheckNeeded": true,
       "confidence": "낮음",
-      "confidenceNote": "적정가/현재가 비율이 2배 초과 또는 0.5배 미만 - 모델 점검 필요로 강제 낮음 / 사업 위험으로 신뢰도 1단계 하향(낮음→낮음): EPS 수정 방향 하향 전환(방향: 하향)",
+      "confidenceNote": "적정가/현재가 비율이 2배 초과 또는 0.5배 미만 - 모델 점검 필요로 강제 낮음 / 사업 위험으로 신뢰도 1단계 하향(낮음→낮음): EPS 수정 방향 하향(하향)",
       "bizRiskBadge": true,
       "bizRiskDetail": [
         "EPS 수정 방향 하향(하향)"
@@ -2163,22 +2163,22 @@ const PRICE_MAP_DATA = {
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "epsUsedForCandidates": 2.0856910958904114,
-      "ttmEps": 1.0118557361899199,
+      "ttmEps": 0.9628788281034526,
       "diag": {
-        "epsTtmNtmRatio": 0.4851417058756461,
-        "candSpread": 1.0076380600311927,
+        "epsTtmNtmRatio": 0.46165936556985004,
+        "candSpread": 1.0428993515901037,
         "fairAltExCappedGrowth": null,
         "fairAltGapPct": null,
         "fairAltApplicable": false,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 22.186910110919715,
+      "convertedFairPer": 21.647910150521916,
       "fairPriceBasis": "적정가 후보 2개 평균",
       "dispersionFlag": "최대/최소 2.08배 > 기준 1.5배 - 계산은 그대로, 원인 점검 필요",
       "qualityWarnings": [
         "과거 PER 이력 부족(2년치)",
-        "⚠ 사업 경고(현금흐름/EPS 하향): EPS 수정 방향 하향 전환(방향: 하향)"
+        "⚠ 사업 경고(현금흐름/EPS 하향): EPS 수정 방향 하향(하향)"
       ],
       "recentChanges": [
         {
