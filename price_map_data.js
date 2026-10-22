@@ -2,7 +2,7 @@ const PRICE_MAP_DATA = {
   "_meta": {
     "title": "WO17 가격지도(price_map) - 화면용 production 데이터",
     "as_of": "2026-10-22",
-    "input_snapshot_hash": "3e002981227d006a96ab085c3de240e5d73b997972f52428137f516c7796f7e6",
+    "input_snapshot_hash": "d32fba56202d0976df7bccee8e38858833e73a706f6465aa725bcff54dcafcdd",
     "generated_by": "price_map_engine.py write_price_map_data_js()",
     "note": "142 엔진(computePriceValidity/pvIntegratedAction)과 완전히 독립된 산출물 - 기존 판정 로직을 전혀 안 건드림."
   },
