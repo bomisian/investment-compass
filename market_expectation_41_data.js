@@ -509,14 +509,13 @@ const MARKET_EXPECTATION_41 = {
       "stale_consensus_warning": false,
       "price_as_of_mismatch": false,
       "composite_hidden": false,
-      "composite_internal_ref": 0.5667,
+      "composite_internal_ref": 0.7167,
       "support_summary": [
-        "Q4 FY2026 매출 $6,722M, +30.0% YoY; FY2026 연간 매출 $23,232.7M, +26.0% YoY",
-        "Q4 FY2026 GAAP 영업이익 $2,513.5M, +44.3% YoY(마진 37.4%, 전년 33.7%)",
-        "FY2026 연간 CAPEX $966.4M, 전년 $759.2M 대비 +27.2% YoY"
+        "CEO: \"AI발 수요가 반도체산업을 재편\"; 다음 분기(9월) 매출 가이던스 $8.10B±$400M(전분기 대비 20%대 증가 시사)",
+        "[자동] Q3'26 매출 $8.22B, 전년 동기 대비 +54.4%",
+        "[자동] Q3'26 영업이익 $3.28B, 전년 동기 대비 +79.5%"
       ],
       "caution_summary": [
-        "FY2026 연간 OCF $5,857.7M, 전년 $6,173.3M 대비 -5.1% YoY(매출은 +26% 증가했음에도 감소)",
         "10-K: \"중국 고객向 매출은 수출 라이선스 요건 등 규제 변화로 실질적·악영향을 받아왔고 계속 그럴 가능성이 있음\" — 중국 매출 비중 FY2024 42.3%→FY2025 33.6%→FY2026 33.8%(Q4만 26%)로 하락"
       ],
       "next_change_condition": [
@@ -526,8 +525,8 @@ const MARKET_EXPECTATION_41 = {
         "중국 매출 비중이 추가로 하락하거나 안정화되는 경우",
         "CAPEX/OCF 비율이 추가로 악화되는 경우"
       ],
-      "source_file": "수동 근거 2026-10-22 기준 + 자동 재무 근거 0건",
-      "evidence_auto_count": 0,
+      "source_file": "수동 근거 2026-10-22 기준 + 자동 재무 근거 4건(2026-09-27 분기)",
+      "evidence_auto_count": 4,
       "evidence_manual_as_of": "2026-10-22",
       "stale_financial_axes": [],
       "primary_etf": "SMH",
@@ -1770,11 +1769,11 @@ const MARKET_EXPECTATION_41 = {
       "stale_consensus_warning": false,
       "price_as_of_mismatch": false,
       "composite_hidden": false,
-      "composite_internal_ref": 0.8917,
+      "composite_internal_ref": 1.0,
       "support_summary": [
-        "Q2 2026 매출 $3.27B(+50% YoY), H1 $6.13B(+53%)",
-        "Q2 매출총이익률 25.8%(전년 23.5%); 영업이익 $558.0M(+86%), 순이익 $441.6M(+91%)",
-        "H1 2026 OCF $1.53B(전년 $164.5M 대비 약 +830%), FCF 약 $1.24B"
+        "총부채 $54.1M(YE2025 $145.2M 대비 급감), 현금 $1.85B(YE2025 $981.9M 대비 +$872.9M) — 순현금 포지션",
+        "RPO(수행의무잔액) $14.06B(6/30/26, 10-Q 공식), YoY +$5.9B(실적콜 인용); 65~75%가 12개월 내 인식 예상; 기술고객 비중 Q2매출의 58%(전년 43%, 10-Q 세그먼트 공시)",
+        "[자동] Q3'26 매출 $3.77B, 전년 동기 대비 +53.7%"
       ],
       "caution_summary": [
         "미청구매출채권(계약자산, 순액) $144.6M vs $88.8M(+63%), 매출증가율(약50%)보다 빠른 증가"
@@ -1786,8 +1785,8 @@ const MARKET_EXPECTATION_41 = {
         "마진 개선(+약300bp)이 다음 분기에도 유지되는지(모듈러 믹스 효과의 지속성) 확인",
         "신규 모듈러 생산시설 투자의 가동률·수익성이 확인되는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
-      "evidence_auto_count": 0,
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 4건(2026-09-30 분기)",
+      "evidence_auto_count": 4,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
       "primary_etf": "XLI",
@@ -1866,15 +1865,16 @@ const MARKET_EXPECTATION_41 = {
       "stale_consensus_warning": false,
       "price_as_of_mismatch": false,
       "composite_hidden": false,
-      "composite_internal_ref": 0.5065,
+      "composite_internal_ref": 0.4389,
       "support_summary": [
-        "Q2 2026 매출 $1,065.4M, 전년동기 $401.2M 대비 +165.5% YoY; FY2026 가이던스 $3.9B~$4.2B로 상향",
-        "Q2 2026 OCF $226.4M(전년동기 $(213.1)M 유출), FCF $174.8M, CAPEX $51.6M",
-        "Brookfield-Bloom Energy AI 인프라 파트너십 2026-06-30 $5B→$25B로 5배 확대(양사 공식 발표)"
+        "Brookfield-Bloom Energy AI 인프라 파트너십 2026-06-30 $5B→$25B로 5배 확대(양사 공식 발표)",
+        "[자동] Q3'26 매출 $1.24B, 전년 동기 대비 +138.1%",
+        "[자동] Q3'26 영업이익 $0.23B, 전년 동기 대비 +2773.4%"
       ],
       "caution_summary": [
         "6/30/26 기준 총 outstanding 부채(recourse $2,475.4M+non-recourse $2.6M) 약 $2,478M, 전년동기 약 $1.13B 대비 약 +120% YoY",
-        "보통주 발행주식수 2.345억주(2025-07-28 10-Q)→2.945억주(2026-07-22 10-Q), +25.9% YoY 희석(전환사채 전환 6.7M주, 옵션 0.8M주, ESPP 0.6M주, 워런트행사 2.2M주 등)"
+        "보통주 발행주식수 2.345억주(2025-07-28 10-Q)→2.945억주(2026-07-22 10-Q), +25.9% YoY 희석(전환사채 전환 6.7M주, 옵션 0.8M주, ESPP 0.6M주, 워런트행사 2.2M주 등)",
+        "[자동] Q3'26 잉여현금흐름 $-0.18B(마이너스)"
       ],
       "next_change_condition": [
         "지지 근거 중 하나라도 공식적으로 철회·악화되거나, 구조위험 조건이 나오면 결론이 바뀐다.",
@@ -1883,8 +1883,8 @@ const MARKET_EXPECTATION_41 = {
         "추가 희석(전환사채 잔여물량 전환, 신규 ATM 증자 개시 여부) 확인",
         "부채 수준이 추가로 증가하는지, 신용조건이 변화하는지 확인"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
-      "evidence_auto_count": 0,
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 4건(2026-09-30 분기)",
+      "evidence_auto_count": 4,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
       "primary_etf": "ICLN",
