@@ -1,12 +1,12 @@
 // ops_status_report.py가 자동 생성합니다. 직접 수정하지 마세요.
 const OPS_STATUS_DATA = {
-  "generatedAt": "2026-10-23T07:35:42+09:00",
+  "generatedAt": "2026-10-24T07:35:42+09:00",
   "items": [
     {
       "key": "last_success",
       "status": "green",
       "label": "마지막 정상 완료",
-      "detail": "2026-10-23 07:14"
+      "detail": "2026-10-24 07:09"
     },
     {
       "key": "public_verify",
@@ -18,7 +18,7 @@ const OPS_STATUS_DATA = {
       "key": "loop_progress",
       "status": "green",
       "label": "루프 진행",
-      "detail": "대기 중(다음 주기, 22분 전부터)"
+      "detail": "대기 중(다음 주기, 26분 전부터)"
     },
     {
       "key": "loop_count",
@@ -36,19 +36,19 @@ const OPS_STATUS_DATA = {
       "key": "compass_asof",
       "status": "green",
       "label": "나침반 피드 기준일",
-      "detail": "2026-10-22"
+      "detail": "2026-10-23"
     },
     {
       "key": "market_expectation_asof",
       "status": "green",
       "label": "시장 기대 기준일",
-      "detail": "2026-10-23"
+      "detail": "2026-10-24"
     },
     {
       "key": "eps",
       "status": "green",
       "label": "EPS 수집",
-      "detail": "가장 오래된 종목 ANET 8일 전"
+      "detail": "가장 오래된 종목 ANET 9일 전"
     },
     {
       "key": "data_audit",
@@ -81,16 +81,28 @@ const OPS_STATUS_DATA = {
       "detail": "아직 실행 기록 없음(수집 창 전이거나 최초 실행 전)"
     },
     {
+      "key": "evidence_10q_crosscheck",
+      "status": "yellow",
+      "label": "8-K 승인분 대조만(10-Q)",
+      "detail": "META(8-K 2026-10-21 승인), TSLA(8-K 2026-10-21 승인), LRCX(8-K 2026-10-21 승인) — 10-Q는 8-K 승인분과 대조만 남음(승인 대기·72시간 알림 집계 제외, 큐 status 그대로)"
+    },
+    {
       "key": "evidence_review_backlog",
       "status": "yellow",
       "label": "근거 승인 대기",
-      "detail": "META(1일), TSLA(1일) — approve_evidence.py 실행 필요"
+      "detail": "WDC(1일), FIX(2일), BE(2일) — approve_evidence.py 실행 필요"
+    },
+    {
+      "key": "price_map_daily_run",
+      "status": "green",
+      "label": "가격 지도 일일 실행",
+      "detail": "마지막 성공 세션 2026-10-23(기대 2026-10-23, 실행 2026-10-24 05:35:22)"
     },
     {
       "key": "external_peer_cache_freshness",
       "status": "green",
       "label": "외부보충 비교군 캐시 신선도",
-      "detail": "2026-10-23 07:12 KST 정상 갱신(실패 0개)"
+      "detail": "2026-10-24 07:08 KST 정상 갱신(실패 0개)"
     }
   ]
 };
