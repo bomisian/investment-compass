@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1792797561.4161348,
+  "generatedAt": 1792799428.613612,
   "events": [
     {
       "id": "b1dca53b08cd8e35fecf",
@@ -1267,6 +1267,81 @@ const EVENT_DATA = {
         "계약 금액·기간·취소 조건",
         "수주잔고와 매출 인식 시점",
         "관련 사업부 매출총이익률"
+      ]
+    },
+    {
+      "id": "a3d31ae5e0ba2a8f4a94",
+      "schemaVersion": 1,
+      "eventType": "regulatory_legal_export",
+      "eventLabel": "규제·소송·수출 제한",
+      "primaryTicker": "TSLA",
+      "relatedTickers": [
+        "TSLA"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Tesla",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "SpaceX Filing Gives Elon Musk the Final Word on Tesla Merger He Says He’s Staying Out Of",
+      "headlineKo": "SpaceX 제출로 Elon Musk에게 Tesla 합병에 대한 최종 결정이 내려졌습니다. 그는 자신이 참여하지 않는다고 말했습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ea2a4845b828d92fce5ab0d37e56e9af099815355b6e84e1166040e0a71b91cd",
+        "publishedAt": 1792784162,
+        "collectedAt": 1792797087.7111492
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "SpaceX 서류 제출로 Elon Musk가 Tesla 합병에 대한 최종 결정을 내림",
+        "머스크는 두 특별위원회 모두에서 탈퇴했지만 공개적으로 거래를 지지했습니다. 그의 발언은 독립 과정에 '혼란'을 초래한 것으로 알려졌다.",
+        "Tesla 주주는 전체 발행주식의 50% 승인 기준을 충족해야 합니다. Tesla의 12월 3일 연례 회의 또는 그 근처에 투표가 있을 것으로 예상됩니다."
+      ],
+      "marketInterpretation": [
+        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 85%, 50%, $3.5 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "TSLA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "TSLA에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 85%, 50%, $3.5 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "TSLA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "TSLA",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "공식 규제 적용일·대상 제품",
+        "회사의 매출 영향 추정",
+        "대체 제품·지역 판매"
       ]
     },
     {
@@ -17111,73 +17186,6 @@ const EVENT_DATA = {
         "컨센서스 추정치 변경",
         "마진·FCF 전망"
       ]
-    },
-    {
-      "id": "3128ba506cd73960683b",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "SNDK",
-      "relatedTickers": [
-        "SNDK"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "neutral",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Sandisk: Strong Buy Despite China And AI Spending Fears",
-      "headlineKo": "Sandisk: 중국과 AI 지출에 대한 우려에도 불구하고 강력한 매수",
-      "source": {
-        "name": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=7216d7c10e2da9bf14b868ab4bd069211ddbcf357a1734ee14d9fba30526c98c",
-        "publishedAt": 1792617787,
-        "collectedAt": 1792797087.7111492
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Sandisk: Strong Buy Despite China And AI Spending Fears",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "SNDK의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "SNDK에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "SNDK의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "SNDK",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "실제 CAPEX 집행",
-        "공급업체 수주·매출",
-        "투자 기업 OCF·FCF·부채"
-      ]
     }
   ],
   "byTicker": {
@@ -17405,6 +17413,7 @@ const EVENT_DATA = {
     "TSLA": [
       "22aa48b84d3b9d120858",
       "e3b1ab80e51aa4687665",
+      "a3d31ae5e0ba2a8f4a94",
       "346de915af5d5badeeff",
       "125bbe0eb336b03df55d",
       "db9d4fba948c13137e07",
@@ -17668,8 +17677,7 @@ const EVENT_DATA = {
       "f58842d2b6cd7492d71a",
       "daec5f17a77c3a238282",
       "6bc0534703df5a2a2a97",
-      "37531818a1c6b371824f",
-      "3128ba506cd73960683b"
+      "37531818a1c6b371824f"
     ],
     "VST": [
       "30f5c9a167d8826588f6",

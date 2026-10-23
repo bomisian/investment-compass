@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1792797561.471555,
+  "generatedAt": 1792799428.6682987,
   "records": {
     "MSFT": [
       {
@@ -9009,6 +9009,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "TSLA": [
       {
+        "changedAt": 1792799428.6682987,
+        "dataAsOf": 1792789916,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -2.8,
+            "after": -3.32
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -3.32,
+            "after": -4.38
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -2.8,
+            "after": -3.32
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Tesla 주식은 '통신 문제'로 인해 Apple보다 뒤처져 있다고 투자자 Gary Black이 말했습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=1a32ae511329471acda20b1207114e05fe001cf6483bfd786481844cbe82e4f7",
+        "eventId": "22aa48b84d3b9d120858",
+        "fingerprint": "{\"changes\": [{\"after\": -3.32, \"before\": -2.8, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.38, \"before\": -3.32, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -3.32, \"before\": -2.8, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"22aa48b84d3b9d120858\"}"
+      },
+      {
         "changedAt": 1792797561.471555,
         "dataAsOf": 1792789916,
         "changes": [
@@ -10730,47 +10759,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=f8721b2a03da3e0765956df0a6ef2db3733deed7798ee9e8b0228b96a32da984",
         "eventId": "3b83dcdcf69f5426d04d",
         "fingerprint": "{\"changes\": [{\"after\": -0.35, \"before\": 0.0, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.4, \"before\": -1.05, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"3b83dcdcf69f5426d04d\"}"
-      },
-      {
-        "changedAt": 1790980790.1775115,
-        "dataAsOf": 1790965500,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 0.35,
-            "after": 0.0
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 1.05,
-            "after": 0.0
-          },
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -2.1,
-            "after": -1.05
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -1.05,
-            "after": -1.22
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -1.4,
-            "after": -1.05
-          }
-        ],
-        "cause": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-        "newsHeadline": "Tesla는 연간 천만 대의 로봇을 만들고 싶어합니다. 먼저 존재해야 하는 공급망과 이익을 얻을 수 있는 주식은 다음과 같습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=f8721b2a03da3e0765956df0a6ef2db3733deed7798ee9e8b0228b96a32da984",
-        "eventId": "3b83dcdcf69f5426d04d",
-        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": 0.35, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.0, \"before\": 1.05, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.05, \"before\": -2.1, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.22, \"before\": -1.05, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.05, \"before\": -1.4, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"3b83dcdcf69f5426d04d\"}"
       }
     ],
     "ORCL": [
