@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
+      "summary": "Moody's left its credit rating on France at Aa3, giving the country some relief in a week of unrest.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html",
+      "datetime": 1792794574,
+      "headlineKo": "무디스는 프랑스가 혼란과 높은 수익률로 어려움을 겪고 있는 동안 프랑스의 신용 등급을 안정적으로 유지했습니다.",
+      "summaryKo": "무디스는 프랑스의 신용등급을 Aa3으로 유지해 불안한 일주일 동안 프랑스에 안도감을 안겨주었습니다."
+    },
+    {
       "headline": "Seven killed as gunmen open fire at church in Jordan in 'terrorist' attack, authorities say - Reuters",
       "summary": "Seven killed as gunmen open fire at church in Jordan in 'terrorist' attack, authorities say Reuters",
       "source": "Reuters",
@@ -244,6 +253,15 @@ const MARKET_DATA = {
       "datetime": 1792790732,
       "headlineKo": "요르단 교회에서 무장괴한이 총격을 가해 7명이 사망했다고 당국이 밝혔습니다.",
       "summaryKo": "요르단 교회서 '테러' 공격에 무장괴한들이 총격을 가해 7명이 사망했다고 당국이 밝혔습니다."
+    },
+    {
+      "headline": "Trump says US will 'take care of Cuba' on its way back from Iran - Reuters",
+      "summary": "Trump says US will 'take care of Cuba' on its way back from Iran Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSi0yX09qbUQwUnFtemR0RURPc1hNMXpkYmF5cXN2NmVuUEZRQ0NFS1AtMXVlT2gtTDNocWthM0xBS2NrTndlYXNIWnhoQy1CdjJsODBOU0V3RHFSZkRKb0FBOUtGUVJEMlhGTHdtR1UyTXhLWDR1SktFcjlCUm5BSGdkREhaa3NzNEY2VXc0dGxXM25XNW1XNVRjX3dCekNhRDNLMw?oc=5",
+      "datetime": 1792786903,
+      "headlineKo": "트럼프 \"이란에서 돌아오는 길에 미국이 쿠바를 돌볼 것\" - 로이터",
+      "summaryKo": "트럼프 \"이란에서 돌아오는 길에 미국이 쿠바를 돌볼 것\" - 로이터"
     },
     {
       "headline": "Trump says US may do another military operation against Iran - Reuters",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792773703,
       "headlineKo": "미국, 금지된 이라크 영공 비행에 대해 에어프랑스, KLM에 벌금 부과 - 로이터",
       "summaryKo": "미국, 금지된 이라크 영공 비행에 대해 에어프랑스, KLM에 벌금 부과 - 최신"
-    },
-    {
-      "headline": "What we want to see when this data center stock reports earnings next week",
-      "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/10/23/what-we-want-to-see-when-this-data-center-stock-reports-earnings-next-week.html",
-      "datetime": 1792772159,
-      "headlineKo": "다음 주에 이 데이터 센터 주식이 수익을 보고할 때 우리가 보고 싶은 것",
-      "summaryKo": "Investing Club은 매주 평일 오전 10시 20분(ET)에 \"아침 모임\"을 개최합니다."
-    },
-    {
-      "headline": "Turkey says renewed attack on Iran would expand conflict, diplomacy only way - Reuters",
-      "summary": "Turkey says renewed attack on Iran would expand conflict, diplomacy only way Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMXkzbk1uOGZSVDB3cUp6M2VmZjlpOHBBVnVkOHlRNUhvQmxmTG9pcWhSckhyaHg0c21DTUdTMGw4bkZIbk9YYWZvOV9EQ1lZM1g1YVpqUXJuVWlwVkh4SkFmRFRES3dNUnIyTmRPOFFoSXZKcXlRUmQwUGlZWndITG1nYnBYRU5POU5XTWp4aHF0aUxxdms5endGVGpNb0hhNGQ4MzNldWhLZkJUNEFzdzBaUG9jNHREWUpvOWd2dC05ellnRUE?oc=5",
-      "datetime": 1792771777,
-      "headlineKo": "터키는 이란에 대한 새로운 공격이 갈등을 확대할 것이며 외교는 유일한 길이라고 말했습니다 - 로이터",
-      "summaryKo": "터키는 이란에 대한 새로운 공격이 갈등을 확대할 것이라고 밝혔습니다. 외교는 유일한 방법입니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792792832.8228457,
+  "_news_last_success_at": 1792796429.9415863,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792792820.9361963,
-  "_updated_label": "2026-10-24 07:01",
-  "_last_attempt_at": 1792792820.9361963,
-  "_last_success_at": 1792792820.9361963,
+  "_fetched_at": 1792796420.7833145,
+  "_updated_label": "2026-10-24 08:00",
+  "_last_attempt_at": 1792796420.7833145,
+  "_last_success_at": 1792796420.7833145,
   "_collection_status": "ok",
   "_collection_errors": []
 };
