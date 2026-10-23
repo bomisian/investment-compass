@@ -704,9 +704,9 @@ const MARKET_EXPECTATION_41 = {
       "composite_hidden": false,
       "composite_internal_ref": 1.0,
       "support_summary": [
-        "Q4 FY2026 매출 $3,747M, +44% YoY(+12% QoQ); FY2026 연간 $12,919M, +36% YoY",
         "나얼라인 231EB 출하(+22% YoY), 클라우드향 매출 비중 89%(+43% YoY); 경영진은 연 25% 이상 엑사바이트 수요 성장 지속 전망(2027 하반기 가속 예상)",
-        "[자동] Q3'26 영업이익 $1.56B, 전년 동기 대비 +129.9%"
+        "[자동] Q4'26 매출 $4.38B, 전년 동기 대비 +55.5%",
+        "[자동] Q4'26 영업이익 $2.05B, 전년 동기 대비 +158.3%"
       ],
       "caution_summary": [],
       "next_change_condition": [
@@ -716,8 +716,8 @@ const MARKET_EXPECTATION_41 = {
         "10-06 급락의 원인(업종 전반 vs 종목 고유 이슈)이 확인되는 경우",
         "나얼라인 출하 성장률이 다음 분기에 가속/둔화되는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 3건(2026-07-03 분기)",
-      "evidence_auto_count": 3,
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 4건(2026-10-02 분기)",
+      "evidence_auto_count": 4,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
       "primary_etf": "SMH",
