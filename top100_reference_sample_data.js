@@ -41,7 +41,7 @@ const TOP100_REFERENCE_SAMPLE_DATA = {
     {
       "t": "META",
       "d": "2026-10-22",
-      "reason": "신호일 종가 없음"
+      "reason": "20거래일 뒤 데이터 아직 없음"
     },
     {
       "t": "APH",
