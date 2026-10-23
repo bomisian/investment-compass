@@ -3600,17 +3600,37 @@ function buildPriceGlanceTableHtml(ticker, liveR){
   const priceAsOfTxt = pd.priceIsLive
     ? `실시간${LAST_SCAN_COMPLETED_AT ? ' ' + LAST_SCAN_COMPLETED_AT.toLocaleTimeString('ko-KR', {hour:'2-digit', minute:'2-digit', hour12:false}) : ''}`
     : '어제 종가 기준';
-  // [2026-10-22 지시⑥] 업종 비교 - 새 계산 없음, 02탭 "동종업계(Peer) 비교"가 이미 쓰는
-  // computePeerPER()(FUNDAMENTALS_DATA.forwardPE, 같은 테마 피어 중앙값)를 그대로 재사용.
-  // 피어가 REL_MIN_PEERS 미만이거나 테마가 '기타'면 null - 그때는 줄 자체를 생략(기존 관행).
-  const peer = (typeof computePeerPER === 'function' && liveR) ? computePeerPER(liveR) : null;
+  // [2026-10-24 봄이 지시 - 업종 비교 줄 교체] 02탭 computePeerPER()(테마 기반 피어) 재사용을
+  // 없애고, 가격 지도 업종PER 후보가 "실제로 쓴" 비교군(price_map_data.js sectorPeerDisplay,
+  // price_map_engine.py가 계산 결과를 그대로 옮겨 담은 display-only 필드)을 보여준다. 새 계산
+  // 없음 - "이 종목" 배수만 화면 현재가 / epsUsedForCandidates(업종PER 후보에 곱해지는 바로 그
+  // EPS)로 나눠 같은 기준끼리 비교되게 한다. 비교 불가 종목은 줄을 숨기지 않고 사유를 그대로 표시.
+  const sp = pm.sectorPeerDisplay || null;
+  let peerRow = null;
+  if(sp){
+    const basisTxt = sp.basis === 'normalized_eps' ? '정상화 EPS 기준' : 'forwardPE 기준';
+    const exTxt = (sp.excluded || []).map(x => `${x.ticker}(${x.reason})`).join(', ');
+    const titleTxt = `가격 지도 업종PER 후보 계산의 유효 비교군 ${(sp.peers||[]).length}개(${basisTxt})` +
+      ((sp.peers||[]).length ? ': ' + sp.peers.map(x => `${x.ticker} ${numOk(x.per) ? x.per.toFixed(1) + '배' : '-'}`).join(', ') : '') +
+      (exTxt ? ` / 제외: ${exTxt}` : '') + (sp.note ? ` / ${sp.note}` : '');
+    if(numOk(sp.medianPer)){
+      const eu = pm.epsUsedForCandidates;
+      const myPer = (numOk(eu) && eu > 0 && numOk(pd.displayPrice)) ? pd.displayPrice / eu : null;
+      peerRow = ['업종 비교', `${(sp.peers||[]).map(x => esc(x.ticker)).join('·')} 중앙값 ${sp.medianPer.toFixed(1)}배` +
+        (sp.basis === 'normalized_eps' ? ' (정상화 EPS 기준)' : '') +
+        (myPer != null ? ` (이 종목 ${myPer.toFixed(1)}배, 같은 EPS 기준)` : ''), titleTxt];
+    } else {
+      const reasonTxt = (sp.note || '사유 미기재').replace(/^업종 비교 불가\(정상화 비교군 부족\) - /, '');
+      peerRow = ['업종 비교', `비교 불가 — ${sp.basis === 'normalized_eps' ? '경기순환형 · ' : ''}${esc(reasonTxt)}`, titleTxt];
+    }
+  }
   const rows = [
     ['현재가', numOk(pd.displayPrice) ? ('$' + pd.displayPrice.toFixed(2) + (pd.priceIsLive ? '' : ' (어제 종가 기준)')) : '-', null],
     ['적정가', numOk(pm.fairPrice) ? ('$' + pm.fairPrice.toFixed(2)) : '-', null],
     ['분할매수 시작가', numOk(pm.bandDcaHigh) ? ('$' + pm.bandDcaHigh.toFixed(2)) : '-', null],
     ['적극 모아가기가', numOk(pm.bandAggressiveLe) ? ('$' + pm.bandAggressiveLe.toFixed(2)) : '-', null],
     ['지금 위치', `${pos.emoji} ${esc(pos.label)}${pctTxt}`, null],
-    ...(peer ? [['업종 비교', `${peer.tickers.map(esc).join('·')} 중앙값 ${peer.peerMedian.toFixed(1)}배(이 종목 시장 PER ${peer.myValue.toFixed(1)}배)`, `같은 테마(${peer.theme}) ${peer.peerCount}종목 기준, Finnhub forwardPE 참고용`]] : []),
+    ...(peerRow ? [peerRow] : []),
     ['신뢰도', esc(pm.confidence || '-'), pm.confidenceNote || null],
     ['가격 기준', esc(priceAsOfTxt), null],
     ['적정가 계산', esc(pm.asOf || '-') + ' 계산', null],
