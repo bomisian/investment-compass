@@ -3457,7 +3457,8 @@ const PM_VERDICT_COLOR = { '매수':'#2f5b3c', '적정':'#3c4552', '고평가':'
 // 노출된 것을 확인한 뒤 "초안 · 검토 중" 표시를 붙여달라고 하셨다. 숫자·판정·계산 로직은
 // 전혀 안 건드리고 표시(배지 문구)만 추가한다. 10/23 확정되면 이 상수를 false로 바꾸거나
 // 아래 두 곳의 배지 블록을 지우면 된다(그 외엔 손댈 곳 없음).
-const PRICE_MAP_DRAFT_REVIEW_NOTICE = true;
+// [2026-10-24 검토 세션 WO22 통과 → 가격 지도 v1 확정] 초안·검토중 배지 제거(false). 표시 전용 상수.
+const PRICE_MAP_DRAFT_REVIEW_NOTICE = false;
 function pmData(ticker){
   // WO17-8(2026-10-20 밤, 검토 세션 리포트) - price_map_data.js는 다른 *_DATA 파일들과
   // 동일하게 `<script src="...">`로 불러오는 최상위 const 선언이다. 다른 모든 *_DATA
@@ -3604,7 +3605,8 @@ function buildPriceGlanceTableHtml(ticker, liveR){
   // 없애고, 가격 지도 업종PER 후보가 "실제로 쓴" 비교군(price_map_data.js sectorPeerDisplay,
   // price_map_engine.py가 계산 결과를 그대로 옮겨 담은 display-only 필드)을 보여준다. 새 계산
   // 없음 - "이 종목" 배수만 화면 현재가 / epsUsedForCandidates(업종PER 후보에 곱해지는 바로 그
-  // EPS)로 나눠 같은 기준끼리 비교되게 한다. 비교 불가 종목은 줄을 숨기지 않고 사유를 그대로 표시.
+  // EPS)로 나눈 값 - 비교군은 forwardPE라 계산 방식이 다르므로 "같은 기준"이라고 쓰지 않는다(10/24
+  // 검토 세션 지시, 문구만 수정). 비교 불가 종목은 줄을 숨기지 않고 사유를 그대로 표시.
   const sp = pm.sectorPeerDisplay || null;
   let peerRow = null;
   if(sp){
@@ -3618,7 +3620,7 @@ function buildPriceGlanceTableHtml(ticker, liveR){
       const myPer = (numOk(eu) && eu > 0 && numOk(pd.displayPrice)) ? pd.displayPrice / eu : null;
       peerRow = ['업종 비교', `${(sp.peers||[]).map(x => esc(x.ticker)).join('·')} 중앙값 ${sp.medianPer.toFixed(1)}배` +
         (sp.basis === 'normalized_eps' ? ' (정상화 EPS 기준)' : '') +
-        (myPer != null ? ` (이 종목 ${myPer.toFixed(1)}배, 같은 EPS 기준)` : ''), titleTxt];
+        (myPer != null ? ` · 이 종목 ${myPer.toFixed(1)}배(가격지도 ${sp.basis === 'normalized_eps' ? '정상화' : '예상'} EPS 기준)` : ''), titleTxt];
     } else {
       const reasonTxt = (sp.note || '사유 미기재').replace(/^업종 비교 불가\(정상화 비교군 부족\) - /, '');
       peerRow = ['업종 비교', `비교 불가 — ${sp.basis === 'normalized_eps' ? '경기순환형 · ' : ''}${esc(reasonTxt)}`, titleTxt];
