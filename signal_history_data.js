@@ -1,9 +1,32 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1792751305.9904404,
+  "generatedAt": 1792753732.706731,
   "records": {
     "MSFT": [
+      {
+        "changedAt": 1792753732.706731,
+        "dataAsOf": 1792608719,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.53,
+            "after": 0.18
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.18,
+            "after": -0.17
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "스티브 발머, 마이크로소프트에서 쫓겨난 뒤 자산 1640억 달러",
+        "newsUrl": "https://finnhub.io/api/news?id=684c170a8af7eb567f99eb3901ed2614de11e7fd938138bb53463cdfeccbf327",
+        "eventId": "73b96e05d70c546c697f",
+        "fingerprint": "{\"changes\": [{\"after\": 0.18, \"before\": 0.53, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.17, \"before\": 0.18, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"73b96e05d70c546c697f\"}"
+      },
       {
         "changedAt": 1792709526.0209024,
         "dataAsOf": 1792700784,
@@ -1906,38 +1929,32 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=007b80dde659da10d73d211ec5e6f2448cebff8fde015c25481965f3b5bab51c",
         "eventId": "9f18a2e121475bcdbbfa",
         "fingerprint": "{\"changes\": [{\"after\": -1.4, \"before\": -1.05, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.4, \"before\": -1.05, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -4.72, \"before\": -4.37, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -2.8, \"before\": -2.45, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"9f18a2e121475bcdbbfa\"}"
-      },
+      }
+    ],
+    "GOOGL": [
       {
-        "changedAt": 1791504447.4821503,
-        "dataAsOf": 1791490888,
+        "changedAt": 1792753732.706731,
+        "dataAsOf": 1792724820,
         "changes": [
           {
             "key": "growth",
             "label": "성장성",
-            "before": -0.52,
-            "after": -1.05
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -3.32,
-            "after": -4.37
+            "before": 0.87,
+            "after": 0.53
           },
           {
             "key": "shortTermMomentum",
             "label": "단기 뉴스 모멘텀",
-            "before": -1.92,
-            "after": -2.45
+            "before": -0.87,
+            "after": -1.22
           }
         ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "Microsoft는 H-1B 비자 남용으로 영주권 프로그램을 중단했습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=007b80dde659da10d73d211ec5e6f2448cebff8fde015c25481965f3b5bab51c",
-        "eventId": "9f18a2e121475bcdbbfa",
-        "fingerprint": "{\"changes\": [{\"after\": -1.05, \"before\": -0.52, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.37, \"before\": -3.32, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -2.45, \"before\": -1.92, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"9f18a2e121475bcdbbfa\"}"
-      }
-    ],
-    "GOOGL": [
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "구글의 AI 칩은 750억 달러 규모의 사업이 될 수 있다",
+        "newsUrl": "https://finnhub.io/api/news?id=a66362dbb043c2a4c05a77ab0bd4e74d737a875a4553ea7aa2a52322bff40291",
+        "eventId": "0bae6ef2017d9db452b1",
+        "fingerprint": "{\"changes\": [{\"after\": 0.53, \"before\": 0.87, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.22, \"before\": -0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"0bae6ef2017d9db452b1\"}"
+      },
       {
         "changedAt": 1792731424.129369,
         "dataAsOf": 1792724820,
@@ -3624,44 +3641,32 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=2849bf8d454646a5369d6414fd2a944c74818de6bd75096be18dfba14fd06f2c",
         "eventId": "59e4f86035423189a73b",
         "fingerprint": "{\"changes\": [{\"after\": 3.68, \"before\": 3.33, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"59e4f86035423189a73b\"}"
-      },
+      }
+    ],
+    "AMZN": [
       {
-        "changedAt": 1791549532.5436523,
-        "dataAsOf": 1791529087,
+        "changedAt": 1792753732.706731,
+        "dataAsOf": 1792742448,
         "changes": [
           {
             "key": "longTermCompetitiveness",
             "label": "장기 사업 경쟁력",
-            "before": 5,
-            "after": 4.2
+            "before": 0.0,
+            "after": 0.35
           },
           {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
+            "key": "growth",
+            "label": "성장성",
             "before": -1.57,
-            "after": -0.52
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -2.1,
-            "after": -1.57
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 4.55,
-            "after": 3.33
+            "after": -1.22
           }
         ],
-        "cause": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-        "newsHeadline": "국회의원들은 Google의 1천만 달러 규모의 Spirit Airlines 데이터 거래를 반대했습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=2849bf8d454646a5369d6414fd2a944c74818de6bd75096be18dfba14fd06f2c",
-        "eventId": "59e4f86035423189a73b",
-        "fingerprint": "{\"changes\": [{\"after\": 4.2, \"before\": 5, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -0.52, \"before\": -1.57, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.57, \"before\": -2.1, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 3.33, \"before\": 4.55, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"59e4f86035423189a73b\"}"
-      }
-    ],
-    "AMZN": [
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Amazon 주식에 어떤 문제가 발생할 수 있나요?",
+        "newsUrl": "https://finnhub.io/api/news?id=159a0e936032fb8049c2cbee82ce1c1eea7b2e67f320f7c6fd3c3cce09ce525f",
+        "eventId": "788cabfcefef0e4cbe86",
+        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.0, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -1.22, \"before\": -1.57, \"key\": \"growth\", \"label\": \"성장성\"}], \"eventId\": \"788cabfcefef0e4cbe86\"}"
+      },
       {
         "changedAt": 1792709526.0209024,
         "dataAsOf": 1792700784,
@@ -5492,32 +5497,38 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=8c060be30d9303bebd5afcb29f6f25d198408118a352ded86fb3365414b3af36",
         "eventId": "80b2ddbea274b27af1df",
         "fingerprint": "{\"changes\": [{\"after\": 2.1, \"before\": 2.62, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 3.5, \"before\": 4.9, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.05, \"before\": -0.7, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.05, \"before\": -0.7, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.35, \"before\": 1.22, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"80b2ddbea274b27af1df\"}"
-      },
+      }
+    ],
+    "META": [
       {
-        "changedAt": 1791393624.128274,
-        "dataAsOf": 1791387400,
+        "changedAt": 1792753732.706731,
+        "dataAsOf": 1792750428,
         "changes": [
           {
-            "key": "growth",
-            "label": "성장성",
-            "before": 5,
-            "after": 4.9
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -0.52,
+            "after": -1.57
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -1.57,
+            "after": -2.1
           },
           {
             "key": "shortTermMomentum",
             "label": "단기 뉴스 모멘텀",
-            "before": 1.57,
-            "after": 1.22
+            "before": 0.0,
+            "after": -1.05
           }
         ],
         "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "Marvell CEO, 300억 달러 규모의 맞춤형 칩 목표는 '인상이 아니다' - 1조 달러 가치 평가 가능성 확인",
-        "newsUrl": "https://finnhub.io/api/news?id=bc97d64f9b1b636151dc368a51178cfd3e988218a535dc7837ae0a88d9bb2883",
-        "eventId": "b6559c29865c21d298fd",
-        "fingerprint": "{\"changes\": [{\"after\": 4.9, \"before\": 5, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 1.22, \"before\": 1.57, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"b6559c29865c21d298fd\"}"
-      }
-    ],
-    "META": [
+        "newsHeadline": "Nasdaq, Dow, S&P 500 선물 하락 프리마켓: NVDA, AMD, META, CRWV, MRNA, WDC, BE In Focus",
+        "newsUrl": "https://finnhub.io/api/news?id=5922972d586f65fcf83214c46c06e90ef1c3a8fbb7f6857fb86f2fb48028df32",
+        "eventId": "1dbb3d9feb5257d03a76",
+        "fingerprint": "{\"changes\": [{\"after\": -1.57, \"before\": -0.52, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.1, \"before\": -1.57, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.05, \"before\": 0.0, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"1dbb3d9feb5257d03a76\"}"
+      },
       {
         "changedAt": 1792731424.129369,
         "dataAsOf": 1792713041,
@@ -7354,44 +7365,32 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=46d3c6a7d717e97fd24c883d9bfe1437bda2f3237c110f4776dbe0b335daddb1",
         "eventId": "cbc3abe0a34b96d222e9",
         "fingerprint": "{\"changes\": [{\"after\": -0.0, \"before\": 0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.05, \"before\": -0.7, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -3.15, \"before\": -2.8, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.05, \"before\": -0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"cbc3abe0a34b96d222e9\"}"
-      },
+      }
+    ],
+    "AAPL": [
       {
-        "changedAt": 1790980790.1775115,
-        "dataAsOf": 1790968231,
+        "changedAt": 1792753732.706731,
+        "dataAsOf": 1792701125,
         "changes": [
           {
             "key": "growth",
             "label": "성장성",
-            "before": 0.87,
-            "after": 0.35
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -1.75,
-            "after": -2.8
+            "before": -0.87,
+            "after": -0.35
           },
           {
             "key": "shortTermMomentum",
             "label": "단기 뉴스 모멘텀",
-            "before": -0.18,
-            "after": -0.7
-          },
-          {
-            "key": "signal",
-            "label": "종합 시그널",
-            "before": "중립·확인 대기",
-            "after": "주의 강화"
+            "before": -2.27,
+            "after": -1.75
           }
         ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "Cramer는 Meta의 AI가 이 주식을 무너뜨릴 것이라고 시청자에게 경고했지만 누군가는 그렇지 않을 것이라고 수백만 달러를 걸었습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=9abfe531e614a8ca3e5110e4211c4877000f499f6efeef23c91f09115d203e31",
-        "eventId": "164705d71cebe6abf557",
-        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.87, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.8, \"before\": -1.75, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.7, \"before\": -0.18, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"주의 강화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"164705d71cebe6abf557\"}"
-      }
-    ],
-    "AAPL": [
+        "cause": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험",
+        "newsHeadline": "애플은 아이폰 듀오 목표를 44% 높인 것으로 알려졌다. 11월 2일에 보여줄 내용은 다음과 같습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=4fe983b29a7fa808125e898fb5812a9bb07bb8e5b67c2d399786bc6e494da761",
+        "eventId": "069ca67e5f81e5ea6610",
+        "fingerprint": "{\"changes\": [{\"after\": -0.35, \"before\": -0.87, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.75, \"before\": -2.27, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"069ca67e5f81e5ea6610\"}"
+      },
       {
         "changedAt": 1792731424.129369,
         "dataAsOf": 1792725802,
@@ -8958,35 +8957,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=ee5cd25b7c93703fe137f69b98dcb799d0bdbc856fc121d8db2b24643fafac11",
         "eventId": "e6dfe852365b65e0e0c8",
         "fingerprint": "{\"changes\": [{\"after\": -3.15, \"before\": -3.5, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.72, \"before\": -5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"e6dfe852365b65e0e0c8\"}"
-      },
-      {
-        "changedAt": 1791209481.140676,
-        "dataAsOf": 1791179955,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 0.0,
-            "after": -0.52
-          },
-          {
-            "key": "competitiveRisk",
-            "label": "경쟁 심화 리스크",
-            "before": 0.0,
-            "after": -1.05
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -4.55,
-            "after": -5
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "경쟁사와 비교하여 기술 하드웨어, 스토리지 및 주변 장치 산업에서 Apple의 입지 조사",
-        "newsUrl": "https://finnhub.io/api/news?id=28fc6104f12186378f7823546bdc4a5948ce6859c345550afb3955d40b4bd955",
-        "eventId": "f4d0af125ad0ee0050a5",
-        "fingerprint": "{\"changes\": [{\"after\": -0.52, \"before\": 0.0, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -1.05, \"before\": 0.0, \"key\": \"competitiveRisk\", \"label\": \"경쟁 심화 리스크\"}, {\"after\": -5, \"before\": -4.55, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"f4d0af125ad0ee0050a5\"}"
       }
     ],
     "TSLA": [
@@ -12679,6 +12649,41 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "CRM": [
       {
+        "changedAt": 1792753732.706731,
+        "dataAsOf": 1792706659,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.87,
+            "after": 0.35
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.22,
+            "after": 0.18
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.7,
+            "after": -1.22
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "중립·확인 대기",
+            "after": "주의 강화"
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "세일즈포스(Salesforce), 브레이즈(Braze)를 56억 6천만 달러에 인수, 실시간 AI 마케팅에 큰 투자",
+        "newsUrl": "https://finnhub.io/api/news?id=74e124eda8c1df35aebf0bb40906effc59c72eaac163cc4776960e0249dfd754",
+        "eventId": "96d2e0f3fb7f1bc32ecf",
+        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.87, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.18, \"before\": 1.22, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.22, \"before\": -0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"주의 강화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"96d2e0f3fb7f1bc32ecf\"}"
+      },
+      {
         "changedAt": 1792731424.129369,
         "dataAsOf": 1792706659,
         "changes": [
@@ -14502,29 +14507,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=f4d5dcf9d7c9015e97f14ef9985d7c694b3c0c7558c008a04ddb713c2ac224b5",
         "eventId": "1304355796dc68a5e9a6",
         "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 0.88, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.52, \"before\": -1.57, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.35, \"before\": -0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"1304355796dc68a5e9a6\"}"
-      },
-      {
-        "changedAt": 1789931035.1919758,
-        "dataAsOf": 1789731043,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 1.4,
-            "after": 0.88
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -0.35,
-            "after": -0.87
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "6명의 분석가가 Salesforce에 대해 강세를 보이며 주요 재평가를 앞두고 있음을 알립니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=f4d5dcf9d7c9015e97f14ef9985d7c694b3c0c7558c008a04ddb713c2ac224b5",
-        "eventId": "1304355796dc68a5e9a6",
-        "fingerprint": "{\"changes\": [{\"after\": 0.88, \"before\": 1.4, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.87, \"before\": -0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"1304355796dc68a5e9a6\"}"
       }
     ],
     "PLTR": [
@@ -16325,6 +16307,41 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1792753732.706731,
+        "dataAsOf": 1792750428,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.87,
+            "after": 1.4
+          },
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -1.57,
+            "after": -2.62
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -2.27,
+            "after": -2.8
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 4.55,
+            "after": 3.15
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Nasdaq, Dow, S&P 500 선물 하락 프리마켓: NVDA, AMD, META, CRWV, MRNA, WDC, BE In Focus",
+        "newsUrl": "https://finnhub.io/api/news?id=5922972d586f65fcf83214c46c06e90ef1c3a8fbb7f6857fb86f2fb48028df32",
+        "eventId": "1dbb3d9feb5257d03a76",
+        "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 0.87, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -2.62, \"before\": -1.57, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.8, \"before\": -2.27, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 3.15, \"before\": 4.55, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"1dbb3d9feb5257d03a76\"}"
+      },
+      {
         "changedAt": 1792731424.129369,
         "dataAsOf": 1792724820,
         "changes": [
@@ -17698,26 +17715,38 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=01a786a0f135b8e34ae002f5c662d8c407607d5e071fa680ed969b0df4cb99ef",
         "eventId": "3c15aa0599a6dbd5d3d0",
         "fingerprint": "{\"changes\": [{\"after\": 1.92, \"before\": 2.27, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"3c15aa0599a6dbd5d3d0\"}"
-      },
-      {
-        "changedAt": 1791732584.9263947,
-        "dataAsOf": 1791718500,
-        "changes": [
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -4.2,
-            "after": -3.15
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "This Nvidia Partner Was My Top Pick for 2026, and It's Up 43%: Here's Why It's Still a Great Value Now",
-        "newsUrl": "https://finnhub.io/api/news?id=c70a453892a0b534cf411568d93f09276533ac32a66ae99c36337cb7275c6308",
-        "eventId": "393f2dc521e901f62051",
-        "fingerprint": "{\"changes\": [{\"after\": -3.15, \"before\": -4.2, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"393f2dc521e901f62051\"}"
       }
     ],
     "AMD": [
+      {
+        "changedAt": 1792753732.706731,
+        "dataAsOf": 1792750428,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -0.52,
+            "after": -1.57
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -1.57,
+            "after": -2.1
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 5,
+            "after": 3.15
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Nasdaq, Dow, S&P 500 선물 하락 프리마켓: NVDA, AMD, META, CRWV, MRNA, WDC, BE In Focus",
+        "newsUrl": "https://finnhub.io/api/news?id=5922972d586f65fcf83214c46c06e90ef1c3a8fbb7f6857fb86f2fb48028df32",
+        "eventId": "1dbb3d9feb5257d03a76",
+        "fingerprint": "{\"changes\": [{\"after\": -1.57, \"before\": -0.52, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.1, \"before\": -1.57, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 3.15, \"before\": 5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"1dbb3d9feb5257d03a76\"}"
+      },
       {
         "changedAt": 1792731424.129369,
         "dataAsOf": 1792724820,
@@ -18948,38 +18977,38 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=cac0f65dbfc159b0714adc0c403527d74a4d55a70d487f42c12b66ea4217e584",
         "eventId": "4b1eaf5596e064a5666a",
         "fingerprint": "{\"changes\": [{\"after\": 1.05, \"before\": 0.0, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -4.37, \"before\": -3.67, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"4b1eaf5596e064a5666a\"}"
-      },
+      }
+    ],
+    "AVGO": [
       {
-        "changedAt": 1791299343.720136,
-        "dataAsOf": 1791277971,
+        "changedAt": 1792753732.706731,
+        "dataAsOf": 1792718977,
         "changes": [
           {
             "key": "longTermCompetitiveness",
             "label": "장기 사업 경쟁력",
-            "before": 0.35,
+            "before": 0.0,
+            "after": 0.52
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -0.52,
+            "after": 0.52
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.52,
             "after": 0.0
-          },
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -1.75,
-            "after": -1.4
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -4.02,
-            "after": -3.67
           }
         ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "INTC, AMD, MU, SNDK, SOXX: 칩, 메모리 주식은 급격한 10월 랠리 이후 시판 전 하락",
-        "newsUrl": "https://finnhub.io/api/news?id=aa475f9363e423a2f98742f7531b2d0eb385a9a9efddf15069bd64880d0c5bd8",
-        "eventId": "ef18a9c38901a02cf117",
-        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": 0.35, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -1.4, \"before\": -1.75, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -3.67, \"before\": -4.02, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"ef18a9c38901a02cf117\"}"
-      }
-    ],
-    "AVGO": [
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "10년간의 VMware 거래 후 칩 주가가 하락하면서 Broadcom 주가는 4% 하락했습니다. 월스트리트의 표적이 말하는 것은 다음과 같습니다",
+        "newsUrl": "https://finnhub.io/api/news?id=25924971557454c65f4a79283c5c7f91dc242612787f2f184a8a70a61f49dada",
+        "eventId": "4a8bd96a453139ede239",
+        "fingerprint": "{\"changes\": [{\"after\": 0.52, \"before\": 0.0, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.52, \"before\": -0.52, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.0, \"before\": -0.52, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"4a8bd96a453139ede239\"}"
+      },
       {
         "changedAt": 1792687704.5788374,
         "dataAsOf": 1792587122,
@@ -20912,56 +20941,38 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=9767c1ce7486f49d389c61175a1b19215ba5e905cd954d700da4629eee67a564",
         "eventId": "b6f7da99028f0dfc0bb3",
         "fingerprint": "{\"changes\": [{\"after\": 1.05, \"before\": 1.4, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.35, \"before\": -1.4, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.1, \"before\": -2.62, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.35, \"before\": -0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"b6f7da99028f0dfc0bb3\"}"
-      },
+      }
+    ],
+    "QCOM": [
       {
-        "changedAt": 1791253012.7121608,
-        "dataAsOf": 1791236825,
+        "changedAt": 1792753732.706731,
+        "dataAsOf": 1792701125,
         "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 0.35,
-            "after": 0.7
-          },
           {
             "key": "growth",
             "label": "성장성",
-            "before": 0.52,
-            "after": 1.4
-          },
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -1.92,
-            "after": -1.4
+            "before": 0.0,
+            "after": 0.52
           },
           {
             "key": "businessRisk",
             "label": "사업 리스크",
-            "before": -2.45,
-            "after": -2.62
+            "before": -2.1,
+            "after": -1.05
           },
           {
             "key": "shortTermMomentum",
             "label": "단기 뉴스 모멘텀",
-            "before": -0.87,
-            "after": -0.35
-          },
-          {
-            "key": "signal",
-            "label": "종합 시그널",
-            "before": "주의 강화",
-            "after": "중립·확인 대기"
+            "before": -0.52,
+            "after": 0.0
           }
         ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "월스트리트, 600억 달러 규모의 Broadcom-Anthropic 거래로 대출 기관의 선호도 테스트 - FT",
-        "newsUrl": "https://finnhub.io/api/news?id=9767c1ce7486f49d389c61175a1b19215ba5e905cd954d700da4629eee67a564",
-        "eventId": "b6f7da99028f0dfc0bb3",
-        "fingerprint": "{\"changes\": [{\"after\": 0.7, \"before\": 0.35, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.4, \"before\": 0.52, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.4, \"before\": -1.92, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.62, \"before\": -2.45, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.35, \"before\": -0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"b6f7da99028f0dfc0bb3\"}"
-      }
-    ],
-    "QCOM": [
+        "cause": "스마트폰 수요가 줄면 고객 칩 수요에 부담",
+        "newsHeadline": "애플은 아이폰 듀오 목표를 44% 높인 것으로 알려졌다. 11월 2일에 보여줄 내용은 다음과 같습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=4fe983b29a7fa808125e898fb5812a9bb07bb8e5b67c2d399786bc6e494da761",
+        "eventId": "069ca67e5f81e5ea6610",
+        "fingerprint": "{\"changes\": [{\"after\": 0.52, \"before\": 0.0, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.05, \"before\": -2.1, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.0, \"before\": -0.52, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"069ca67e5f81e5ea6610\"}"
+      },
       {
         "changedAt": 1792731424.129369,
         "dataAsOf": 1792725802,
@@ -22546,29 +22557,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=51eb55409c689d88e5bf97a1b9347d52f44cfa8e6dd45e6d8505406e0cf2a44a",
         "eventId": "0db869b430e28449552b",
         "fingerprint": "{\"changes\": [{\"after\": -2.27, \"before\": -1.92, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.4, \"before\": -3.05, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}], \"eventId\": \"0db869b430e28449552b\"}"
-      },
-      {
-        "changedAt": 1791188430.40081,
-        "dataAsOf": 1791185489,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": -1.4,
-            "after": -1.92
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -4.8,
-            "after": -5
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "Stocktwits M&A 보기: Paramount-Warner Bros 조합, Skyworks-Qorvo 합병, AMD의 World Labs 인수에 초점",
-        "newsUrl": "https://finnhub.io/api/news?id=51eb55409c689d88e5bf97a1b9347d52f44cfa8e6dd45e6d8505406e0cf2a44a",
-        "eventId": "0db869b430e28449552b",
-        "fingerprint": "{\"changes\": [{\"after\": -1.92, \"before\": -1.4, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -5, \"before\": -4.8, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"0db869b430e28449552b\"}"
       }
     ],
     "ARM": [
@@ -29805,6 +29793,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "ASML": [
       {
+        "changedAt": 1792753732.706731,
+        "dataAsOf": 1792680290,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -0.52,
+            "after": 0.0
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -3.15,
+            "after": -2.1
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -2.1,
+            "after": -1.57
+          }
+        ],
+        "cause": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+        "newsHeadline": "Lam Research, 공급 제약으로 인해 전망이 9% 하락; 어플라이드 머티리얼즈 6% 하락, ASML 홀딩스 4% 하락",
+        "newsUrl": "https://finnhub.io/api/news?id=18c507fe1f0241929a4e0affa7d8806083a68178299388fa33305e58228d5d2a",
+        "eventId": "6296133b7872d5df884b",
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -0.52, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.1, \"before\": -3.15, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.57, \"before\": -2.1, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"6296133b7872d5df884b\"}"
+      },
+      {
         "changedAt": 1792687704.5788374,
         "dataAsOf": 1792680290,
         "changes": [
@@ -31706,38 +31723,38 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": null,
         "eventId": null,
         "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -0.52, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.0, \"before\": -1.05, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.0, \"before\": -0.52, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": null}"
-      },
+      }
+    ],
+    "AMAT": [
       {
-        "changedAt": 1789975240.948242,
-        "dataAsOf": 1789955539,
+        "changedAt": 1792753732.706731,
+        "dataAsOf": 1792680290,
         "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.05,
+            "after": 0.52
+          },
           {
             "key": "growth",
             "label": "성장성",
-            "before": 0.0,
-            "after": -0.52
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": 0.0,
-            "after": -1.05
+            "before": 2.1,
+            "after": 1.05
           },
           {
             "key": "shortTermMomentum",
             "label": "단기 뉴스 모멘텀",
-            "before": 0.0,
-            "after": -0.52
+            "before": 1.05,
+            "after": 0.52
           }
         ],
         "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "더 나은 인공 지능 주식: Arm Holdings 대 ASML",
-        "newsUrl": "https://finnhub.io/api/news?id=d8376df9a3b0b152ee22d7601cf7aa782560a413730d668435d74be2e8ab8e72",
-        "eventId": "f064b85100918e010d80",
-        "fingerprint": "{\"changes\": [{\"after\": -0.52, \"before\": 0.0, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.05, \"before\": 0.0, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.52, \"before\": 0.0, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"f064b85100918e010d80\"}"
-      }
-    ],
-    "AMAT": [
+        "newsHeadline": "Lam Research, 공급 제약으로 인해 전망이 9% 하락; 어플라이드 머티리얼즈 6% 하락, ASML 홀딩스 4% 하락",
+        "newsUrl": "https://finnhub.io/api/news?id=18c507fe1f0241929a4e0affa7d8806083a68178299388fa33305e58228d5d2a",
+        "eventId": "6296133b7872d5df884b",
+        "fingerprint": "{\"changes\": [{\"after\": 0.52, \"before\": 1.05, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.05, \"before\": 2.1, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.52, \"before\": 1.05, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"6296133b7872d5df884b\"}"
+      },
       {
         "changedAt": 1792687704.5788374,
         "dataAsOf": 1792680290,
@@ -33526,47 +33543,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://www.sec.gov/Archives/edgar/data/6951/000162828026059257/amat-20260827.htm",
         "eventId": "437ebc3c071f1823cd7e",
         "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.0, \"before\": -0.35, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": 0.0, \"before\": -0.35, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.0, \"before\": -0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"437ebc3c071f1823cd7e\"}"
-      },
-      {
-        "changedAt": 1787792570.8926353,
-        "dataAsOf": 1787163259,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": -0.7,
-            "after": -0.35
-          },
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -0.7,
-            "after": -0.35
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -0.7,
-            "after": -0.35
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -0.7,
-            "after": -0.35
-          },
-          {
-            "key": "signal",
-            "label": "종합 시그널",
-            "before": "주의 강화",
-            "after": "중립·확인 대기"
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "Applied Materials 4% 하락, Lam Research 및 Teradyne Sink 5%: 칩 장비 주식 매도를 촉진하는 요인은 무엇입니까?",
-        "newsUrl": "https://finnhub.io/api/news?id=a19157318a679304836f7d2fc5d4ba80a2578ae575634b1681497cf3ab94884c",
-        "eventId": "0a8e1651fa4f0399016b",
-        "fingerprint": "{\"changes\": [{\"after\": -0.35, \"before\": -0.7, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.35, \"before\": -0.7, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -0.35, \"before\": -0.7, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.35, \"before\": -0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"0a8e1651fa4f0399016b\"}"
       }
     ],
     "LRCX": [
@@ -35383,6 +35359,41 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "MU": [
       {
+        "changedAt": 1792753732.706731,
+        "dataAsOf": 1792748100,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.87,
+            "after": 1.22
+          },
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -0.52,
+            "after": -1.57
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -3.32,
+            "after": -2.8
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 4.9,
+            "after": 3.85
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "더 나은 메모리 주식: SK 하이닉스 vs. 마이크론",
+        "newsUrl": "https://finnhub.io/api/news?id=d5109588cb1b53aadbbeb1bf26eae9e27450339d738949267438acf89270479e",
+        "eventId": "767ba5bd509c21554bb4",
+        "fingerprint": "{\"changes\": [{\"after\": 1.22, \"before\": 0.87, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -1.57, \"before\": -0.52, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.8, \"before\": -3.32, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 3.85, \"before\": 4.9, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"767ba5bd509c21554bb4\"}"
+      },
+      {
         "changedAt": 1792731424.129369,
         "dataAsOf": 1792725802,
         "changes": [
@@ -36666,32 +36677,44 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=f162837042780ff68cc2553a3fbba919f404df2acd023205126071f503566037",
         "eventId": "4a97ee5a91b4938218ee",
         "fingerprint": "{\"changes\": [{\"after\": 2.1, \"before\": 1.57, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -1.57, \"before\": -1.05, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}], \"eventId\": \"4a97ee5a91b4938218ee\"}"
-      },
+      }
+    ],
+    "SNDK": [
       {
-        "changedAt": 1791799769.1717637,
-        "dataAsOf": 1791785772,
+        "changedAt": 1792753732.706731,
+        "dataAsOf": 1792746240,
         "changes": [
           {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 1.05,
-            "after": 1.57
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": 0.0,
+            "after": -1.05
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": 0.0,
+            "after": -0.52
           },
           {
             "key": "shortTermMomentum",
             "label": "단기 뉴스 모멘텀",
-            "before": 5,
-            "after": 4.38
+            "before": 0.7,
+            "after": -0.35
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "우호적 변화",
+            "after": "중립·확인 대기"
           }
         ],
-        "cause": "메모리 ASP와 이익률 개선 가능성",
-        "newsHeadline": "새로운 Apple TV 및 HomePod Mini 예상: AAPL 재고의 중요성",
-        "newsUrl": "https://finnhub.io/api/news?id=73f67e18f0b266d32afb1aa7e5048ea8d434f16721e732678fe19dd1e0fcc939",
-        "eventId": "ff356ceb5cc350e0556b",
-        "fingerprint": "{\"changes\": [{\"after\": 1.57, \"before\": 1.05, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 4.38, \"before\": 5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"ff356ceb5cc350e0556b\"}"
-      }
-    ],
-    "SNDK": [
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "더 나은 메모리 재고: Micron 대 Sandisk",
+        "newsUrl": "https://finnhub.io/api/news?id=940739524acba0d8f2b5e26d880ba582742a081c819751c86648ca6ba4ca158c",
+        "eventId": "6bc0534703df5a2a2a97",
+        "fingerprint": "{\"changes\": [{\"after\": -1.05, \"before\": 0.0, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -0.52, \"before\": 0.0, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.35, \"before\": 0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"우호적 변화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"6bc0534703df5a2a2a97\"}"
+      },
       {
         "changedAt": 1792731424.129369,
         "dataAsOf": 1792697297,
@@ -38600,38 +38623,44 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=083eb6300141fad73672a0f96edcaff05674be5e6054f0a6ed58fabf49ef7015",
         "eventId": "3a72b6df53e77404ce30",
         "fingerprint": "{\"changes\": [{\"after\": 0.87, \"before\": 0.35, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.87, \"before\": -0.17, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.35, \"before\": -0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"3a72b6df53e77404ce30\"}"
-      },
+      }
+    ],
+    "WDC": [
       {
-        "changedAt": 1790913888.735346,
-        "dataAsOf": 1790899318,
+        "changedAt": 1792753732.706731,
+        "dataAsOf": 1792750428,
         "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 0.0,
-            "after": 0.35
-          },
           {
             "key": "growth",
             "label": "성장성",
-            "before": -0.87,
-            "after": -0.17
+            "before": -1.05,
+            "after": -0.52
+          },
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": 0.0,
+            "after": -1.05
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -2.1,
+            "after": -1.57
           },
           {
             "key": "shortTermMomentum",
             "label": "단기 뉴스 모멘텀",
-            "before": -1.22,
-            "after": -0.87
+            "before": -1.05,
+            "after": -1.57
           }
         ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "SanDisk 주가가 급등한 이유는 무엇입니까?",
-        "newsUrl": "https://finnhub.io/api/news?id=256266dd661d1979a3c1a2ab118571b05853fee761e293f70f90d4fc843d1e2f",
-        "eventId": "c44538476f9e611ecb80",
-        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.0, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -0.17, \"before\": -0.87, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.87, \"before\": -1.22, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"c44538476f9e611ecb80\"}"
-      }
-    ],
-    "WDC": [
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Nasdaq, Dow, S&P 500 선물 하락 프리마켓: NVDA, AMD, META, CRWV, MRNA, WDC, BE In Focus",
+        "newsUrl": "https://finnhub.io/api/news?id=5922972d586f65fcf83214c46c06e90ef1c3a8fbb7f6857fb86f2fb48028df32",
+        "eventId": "1dbb3d9feb5257d03a76",
+        "fingerprint": "{\"changes\": [{\"after\": -0.52, \"before\": -1.05, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.05, \"before\": 0.0, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.57, \"before\": -2.1, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.57, \"before\": -1.05, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"1dbb3d9feb5257d03a76\"}"
+      },
       {
         "changedAt": 1792731424.129369,
         "dataAsOf": 1792725802,
@@ -40324,35 +40353,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=d04eae234e3a29ff64372c2c9007ab3075e1d99b0395ce2a635e928e33c28b0a",
         "eventId": "130a6564f18c190d37ff",
         "fingerprint": "{\"changes\": [{\"after\": -1.57, \"before\": -1.22, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.35, \"before\": 0.0, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.8, \"before\": -2.45, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"130a6564f18c190d37ff\"}"
-      },
-      {
-        "changedAt": 1791003659.074926,
-        "dataAsOf": 1790973424,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 0.87,
-            "after": 1.22
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": -2.45,
-            "after": -1.22
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -3.67,
-            "after": -2.45
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "트럼프 행정부는 Vistra의 원자력 용량 확장을 위해 40억 달러의 연방 대출을 준비한 것으로 알려짐",
-        "newsUrl": "https://finnhub.io/api/news?id=b381071346cdccaa923c9d2d4714acbc53905119ff5a8870022fd89d72b83fb2",
-        "eventId": "1cde97e0c777a2860f13",
-        "fingerprint": "{\"changes\": [{\"after\": 1.22, \"before\": 0.87, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -1.22, \"before\": -2.45, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.45, \"before\": -3.67, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"1cde97e0c777a2860f13\"}"
       }
     ],
     "ANET": [
@@ -48381,6 +48381,41 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "VST": [
       {
+        "changedAt": 1792753732.706731,
+        "dataAsOf": 1792634388,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -0.52,
+            "after": 0.0
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -1.05,
+            "after": 0.0
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.87,
+            "after": -0.35
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "주의 강화",
+            "after": "중립·확인 대기"
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "원자력 분석가 정리: 월스트리트는 OKLO, SMR, CEG, VST, LEU 주식에 무게를 두고 있습니다",
+        "newsUrl": "https://finnhub.io/api/news?id=c06c25c1f058f70ec4593dd906f41f5b9f37329c2a91d15677856d45031a3757",
+        "eventId": "7beaed8e68252428f6cb",
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -0.52, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.0, \"before\": -1.05, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.35, \"before\": -0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"7beaed8e68252428f6cb\"}"
+      },
+      {
         "changedAt": 1792665706.5196085,
         "dataAsOf": 1792634388,
         "changes": [
@@ -50120,35 +50155,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=9389c69fccdc5df687423afc5e7d1a2472d962081de9d8a84bb42974da7f9ee2",
         "eventId": "83dc0eb9cc41033d2db6",
         "fingerprint": "{\"changes\": [{\"after\": 1.57, \"before\": 1.92, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 3.15, \"before\": 3.85, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 1.57, \"before\": 1.92, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"83dc0eb9cc41033d2db6\"}"
-      },
-      {
-        "changedAt": 1790263876.0074015,
-        "dataAsOf": 1790090086,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 2.27,
-            "after": 1.92
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 4.55,
-            "after": 3.85
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 2.27,
-            "after": 1.92
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "Vistra(VST)는 저렴한 가격입니까, 아니면 새로운 전력 거래 이후 정가로 책정됩니까?",
-        "newsUrl": "https://finnhub.io/api/news?id=9389c69fccdc5df687423afc5e7d1a2472d962081de9d8a84bb42974da7f9ee2",
-        "eventId": "83dc0eb9cc41033d2db6",
-        "fingerprint": "{\"changes\": [{\"after\": 1.92, \"before\": 2.27, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 3.85, \"before\": 4.55, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 1.92, \"before\": 2.27, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"83dc0eb9cc41033d2db6\"}"
       }
     ],
     "ETN": [
