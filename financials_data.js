@@ -3825,7 +3825,11 @@ const FINANCIALS_DATA = {
         "revenue": 7750000000.0,
         "netIncome": 887000000.0,
         "opIncome": 1522000000.0,
-        "endDate": "2024-08-29"
+        "endDate": "2024-08-29",
+        "ocf": 3405000000,
+        "capex": -3120000000,
+        "fcf": 285000000,
+        "_fcfIsProxy": true
       },
       {
         "period": "Q4'24",
@@ -3875,10 +3879,11 @@ const FINANCIALS_DATA = {
         "netIncome": 3201000000.0,
         "opIncome": 3654000000.0,
         "endDate": "2025-08-28",
+        "ocf": 5730000000,
+        "capex": -5658000000,
+        "fcf": 72000000,
+        "_fcfIsProxy": true,
         "eps": 2.83,
-        "ocf": 5730000000.0,
-        "capex": -5658000000.0,
-        "fcf": 72000000.0,
         "pretaxIncome": 3631000000.0,
         "taxProvision": 429000000.0,
         "normalizedIncome": 3201000000.0,
@@ -3945,7 +3950,11 @@ const FINANCIALS_DATA = {
         "revenue": 54229000000.0,
         "netIncome": 37701000000.0,
         "opIncome": 43751000000.0,
-        "endDate": "2026-09-03"
+        "endDate": "2026-09-03",
+        "ocf": 43973000000,
+        "capex": -11110000000,
+        "fcf": 32863000000,
+        "_fcfIsProxy": true
       }
     ],
     "_currency": "USD",
@@ -4051,8 +4060,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1792156756.5825577,
-    "_updated_label": "2026-10-22 23:27",
+    "_fetched_at": 1792763357.2322357,
+    "_updated_label": "2026-10-23 22:49",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -4079,7 +4088,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1792679228.5000632,
+    "_yahoo_verified_at": 1792763366.7781732,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "AMD": {
@@ -5423,16 +5432,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1792761407.5383797,
-    "_updated_label": "2026-10-23 22:16"
+    "_fetched_at": 1792763357.2322357,
+    "_updated_label": "2026-10-23 22:49"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1792761407.5383797,
-    "_updated_label": "2026-10-23 22:16"
+    "_fetched_at": 1792763357.2322357,
+    "_updated_label": "2026-10-23 22:49"
   },
   "ORCL": {
     "annual": [
