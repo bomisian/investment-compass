@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "AI funding fears rattle Wall Street. Here's how we're adjusting our portfolio",
+      "summary": "The rotation out of AI stocks benefited several defensive Club stocks.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/investingclub/2026/10/24/ai-funding-fears-rattle-wall-street-heres-how-were-adjusting-our-portfolio.html",
+      "datetime": 1792858440,
+      "headlineKo": "AI 자금 조달은 월스트리트를 뒤흔들 것을 두려워합니다. 포트폴리오를 조정하는 방법은 다음과 같습니다.",
+      "summaryKo": "AI 주식의 교체는 몇몇 방어적인 클럽 주식에 도움이 되었습니다."
+    },
+    {
       "headline": "Retail investors are not more sophisticated than 30 years ago, says former hedge fund manager",
       "summary": "Retail investors trying to beat the market by buying individual stocks and complex exchange-traded funds may be better off with broad market index funds.",
       "source": "CNBC",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792824900,
       "headlineKo": "필리핀 공군 조종사 4명 훈련사고로 사망 - 로이터",
       "summaryKo": "필리핀 공군 조종사 4명 훈련사고로 사망 - 최신"
-    },
-    {
-      "headline": "Jordan tightens security after deadly church attack kills eight - Reuters",
-      "summary": "Jordan tightens security after deadly church attack kills eight Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSldwN2ViWHdOeFFhai1heXdsT0ExOW9GNW1FYlpPQnhad0NzTE53N3p3ckRqSlJUTnE0eGNnOHZOb1dIZGdKbng5d2lxMHp0cHpGb1QyOXVsUjlQamVzOGlHVkJCRlBXSk0zaURFekgtSDA5X1praWRjek14NGlOMmdHZnAxd29LRFRJamRSdTZtV1lCbm1UUEh3V1EwOFFFaFUycTZDZHJucFJHS3BicDdMNWY2N1VHa19feDJoZTRkU1l3T0E?oc=5",
-      "datetime": 1792822620,
-      "headlineKo": "요르단, 교회 공격으로 8명 사망 후 보안 강화 - 로이터",
-      "summaryKo": "치명적인 교회 공격으로 8명이 사망한 후 요르단, 보안 강화 Reuters"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792857648.5269346,
+  "_news_last_success_at": 1792861230.0382018,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792857638.7212355,
-  "_updated_label": "2026-10-25 01:01",
-  "_last_attempt_at": 1792857638.7212355,
-  "_last_success_at": 1792857638.7212355,
+  "_fetched_at": 1792861221.8038418,
+  "_updated_label": "2026-10-25 02:00",
+  "_last_attempt_at": 1792861221.8038418,
+  "_last_success_at": 1792861221.8038418,
   "_collection_status": "ok",
   "_collection_errors": []
 };
