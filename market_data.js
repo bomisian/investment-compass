@@ -237,13 +237,22 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Saudi civil defense says danger passed after brief alerts for Mecca, Jeddah, Taif and Yanbu - Reuters",
-      "summary": "Saudi civil defense says danger passed after brief alerts for Mecca, Jeddah, Taif and Yanbu Reuters",
+      "headline": "Saudi-led coalition says it destroyed Houthi ballistic missiles fired towards Yanbu and Taif - Reuters",
+      "summary": "Saudi-led coalition says it destroyed Houthi ballistic missiles fired towards Yanbu and Taif Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU1JpTkpxd3RUSFgwb29mWkRuSmg5UFd5d1RMQkZMdE5tV3F4cEN6SXFOODhTQUZTbTZucHJGVnpxMWpGZVFuSXJzZ045Q0o1Uzh5NFNvVENFX1M2dFQ0NzRGYjUtWk9TYjBWcldGNS1hY21yS2IyOXBsX29hcFg5N2ZENUlIV2oyTE1OT3hJQUFaS1pjTHV3VnZUTkRWbVFnd0JqYV9iZmVwUW4xcGNVOUdUZmgtaWpkVGdsVzJ1SXR1U1hyWG5uWg?oc=5",
-      "datetime": 1792830892,
-      "headlineKo": "사우디 민방위대는 메카, 제다, 타이프, 얀부에 대한 짧은 경보 이후 위험이 사라졌다고 밝혔습니다.",
-      "summaryKo": "사우디 민방위는 메카, 제다, 타이프, 얀부에 대한 짧은 경보 이후 위험이 사라졌다고 밝혔습니다."
+      "datetime": 1792833076,
+      "headlineKo": "사우디 주도 연합군은 얀부와 타이프를 향해 발사된 후티 탄도미사일을 파괴했다고 밝혔습니다.",
+      "summaryKo": "사우디 주도 연합군은 얀부와 타이프를 향해 발사된 후티 탄도미사일을 파괴했다고 밝혔습니다."
+    },
+    {
+      "headline": "Jordan tightens security after deadly church attack kills eight - Reuters",
+      "summary": "Jordan tightens security after deadly church attack kills eight Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSldwN2ViWHdOeFFhai1heXdsT0ExOW9GNW1FYlpPQnhad0NzTE53N3p3ckRqSlJUTnE0eGNnOHZOb1dIZGdKbng5d2lxMHp0cHpGb1QyOXVsUjlQamVzOGlHVkJCRlBXSk0zaURFekgtSDA5X1praWRjek14NGlOMmdHZnAxd29LRFRJamRSdTZtV1lCbm1UUEh3V1EwOFFFaFUycTZDZHJucFJHS3BicDdMNWY2N1VHa19feDJoZTRkU1l3T0E?oc=5",
+      "datetime": 1792822620,
+      "headlineKo": "요르단, 교회 공격으로 8명 사망 후 보안 강화 - 로이터",
+      "summaryKo": "치명적인 교회 공격으로 8명이 사망한 후 요르단, 보안 강화 Reuters"
     },
     {
       "headline": "Trump foreign policy hits voters in the pocketbook, imperiling Republicans in midterms - Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792777231,
       "headlineKo": "투자자들은 훼손된 채권 시장에서 기회를 찾기 시작했습니다.",
       "summaryKo": "일부 시장 참여자들은 올해 큰 타격을 입은 시장에서 희망을 찾을 이유가 있다고 봅니다."
-    },
-    {
-      "headline": "Building collapses in Kenyan capital, rescuers on the scene - Reuters",
-      "summary": "Building collapses in Kenyan capital, rescuers on the scene Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYVpLTzd4NkFaVmRUa3lENmlHdGxvZmJuWHN0TG1DeXVNbXhlSkVDc3RxeV91MkNLYjJtdUlQY1BlUXo0TlFuOXZNTGpFd1JoWVRFMERXTVlYZEpqb2Y5WTFqd1ptMVd0ZmVjM0hWLWxtWmMtQWpyd0dhYVpaTlJZbDVfS0VQY1hMTTdZWXdtUjdmc0tENjFUMUlWNHY3QQ?oc=5",
-      "datetime": 1792775870,
-      "headlineKo": "케냐 수도 건물 붕괴, 구조대원 현장 출동 - 로이터 통신",
-      "summaryKo": "케냐 수도 건물 붕괴, 구조대원 현장 출동 - 로이터통신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792834390.6012862,
+  "_news_last_success_at": 1792838223.337589,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792834380.3689086,
-  "_updated_label": "2026-10-24 18:33",
-  "_last_attempt_at": 1792834380.3689086,
-  "_last_success_at": 1792834380.3689086,
+  "_fetched_at": 1792838211.3980803,
+  "_updated_label": "2026-10-24 19:37",
+  "_last_attempt_at": 1792838211.3980803,
+  "_last_success_at": 1792838211.3980803,
   "_collection_status": "ok",
   "_collection_errors": []
 };
