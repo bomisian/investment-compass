@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Houthis say they attacked Saudi oil sites; strikes reported in Aden - Reuters",
+      "summary": "Houthis say they attacked Saudi oil sites; strikes reported in Aden Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU1JpTkpxd3RUSFgwb29mWkRuSmg5UFd5d1RMQkZMdE5tV3F4cEN6SXFOODhTQUZTbTZucHJGVnpxMWpGZVFuSXJzZ045Q0o1Uzh5NFNvVENFX1M2dFQ0NzRGYjUtWk9TYjBWcldGNS1hY21yS2IyOXBsX29hcFg5N2ZENUlIV2oyTE1OT3hJQUFaS1pjTHV3VnZUTkRWbVFnd0JqYV9iZmVwUW4xcGNVOUdUZmgtaWpkVGdsVzJ1SXR1U1hyWG5uWg?oc=5",
+      "datetime": 1792864731,
+      "headlineKo": "Houthis는 사우디 석유 현장을 공격했다고 말합니다. 아덴에서 파업이 보고되었습니다. - Reuters",
+      "summaryKo": "Houthis는 사우디 석유 현장을 공격했다고 말하며, 파업은 Aden Reuters에 보고되었습니다."
+    },
+    {
       "headline": "AI funding fears rattle Wall Street. Here's how we're adjusting our portfolio",
       "summary": "The rotation out of AI stocks benefited several defensive Club stocks.",
       "source": "CNBC",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792843201,
       "headlineKo": "인기 비행기가 몇 년 일찍 폐기되는 이유",
       "summaryKo": "엔진과 기타 부품의 공급이 부족하기 때문에 비행기는 예정보다 몇 년 앞서 부품을 해체하고 있습니다."
-    },
-    {
-      "headline": "Saudi-led coalition says it intercepted Houthi ballistic missiles targeting Saudi cities - Reuters",
-      "summary": "Saudi-led coalition says it intercepted Houthi ballistic missiles targeting Saudi cities Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU1JpTkpxd3RUSFgwb29mWkRuSmg5UFd5d1RMQkZMdE5tV3F4cEN6SXFOODhTQUZTbTZucHJGVnpxMWpGZVFuSXJzZ045Q0o1Uzh5NFNvVENFX1M2dFQ0NzRGYjUtWk9TYjBWcldGNS1hY21yS2IyOXBsX29hcFg5N2ZENUlIV2oyTE1OT3hJQUFaS1pjTHV3VnZUTkRWbVFnd0JqYV9iZmVwUW4xcGNVOUdUZmgtaWpkVGdsVzJ1SXR1U1hyWG5uWg?oc=5",
-      "datetime": 1792836479,
-      "headlineKo": "사우디 주도 연합군, 사우디 도시를 겨냥한 후티 탄도미사일 요격했다고 발표 - 로이터 통신",
-      "summaryKo": "사우디 주도 연합군, 사우디 도시를 겨냥한 후티 탄도미사일 요격했다고 발표 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792864829.8352215,
+  "_news_last_success_at": 1792868431.6638584,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792864821.8758044,
-  "_updated_label": "2026-10-25 03:00",
-  "_last_attempt_at": 1792864821.8758044,
-  "_last_success_at": 1792864821.8758044,
+  "_fetched_at": 1792868419.8552697,
+  "_updated_label": "2026-10-25 04:00",
+  "_last_attempt_at": 1792868419.8552697,
+  "_last_success_at": 1792868419.8552697,
   "_collection_status": "ok",
   "_collection_errors": []
 };
