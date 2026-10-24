@@ -215,10 +215,10 @@ const MARKET_DATA = {
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": -16.839005635844384,
-        "ret3m": -16.32381369034219,
-        "ret6m": -22.295224712854132,
-        "ret1y": 18.516843495961698,
+        "ret1m": -16.601498454118556,
+        "ret3m": -16.084835124249707,
+        "ret6m": -22.073300452253385,
+        "ret1y": 18.85532671998984,
         "winRate": null,
         "count": 12
       }
@@ -236,6 +236,15 @@ const MARKET_DATA = {
     "corrMax5y": 0.9306761077384692
   },
   "news": [
+    {
+      "headline": "EXCLUSIVE: US has for years asked Musk to alter Starlink service in Ukraine, Middle East, sources say - Reuters",
+      "summary": "EXCLUSIVE: US has for years asked Musk to alter Starlink service in Ukraine, Middle East, sources say Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQmxvaUpMTUR1QlpFdTFCM21oR2ZqYmwzWUVrSFpBYmZLYlFjWV9yc3NTX1BjTnZndGl1d2N4OG52MlVJenJKNkxKUW9aR3lZaGtvVzJ1UzhCeDh2X3hQcFRJVklIZ2N5X3drTHk0YVpFTmNKcGN6WDlpQ294WE5TNUhBT0g0NFJjSDhmek9yMU0zNGRMeU1mZ1ZkME13QUJ1aGFMR0gtOWVqcG50SFZQNWdUVlZxV01wNUNWc2gwZlp3VVhoZDc3VnIwcWdQSGhVOWFWUUE3ZndMTDIz?oc=5",
+      "datetime": 1792802580,
+      "headlineKo": "독점: 미국은 수년 동안 머스크에게 우크라이나, 중동의 Starlink 서비스를 변경하도록 요청했다고 소식통에 따르면 - Reuters",
+      "summaryKo": "독점: 미국은 수년 동안 머스크에게 우크라이나, 중동의 Starlink 서비스를 변경하도록 요청했다고 소식통은 로이터에 말했습니다."
+    },
     {
       "headline": "In Florida, Trump vows to deal with Cuba after Iran gets settled - Reuters",
       "summary": "In Florida, Trump vows to deal with Cuba after Iran gets settled Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792775324,
       "headlineKo": "독점: 사우디 미사일 공장 확장으로 더욱 강력한 미사일 생산 가능 - 연구 결과 - Reuters",
       "summaryKo": "독점: 사우디 미사일 공장 확장으로 더 강력한 미사일 생산 가능"
-    },
-    {
-      "headline": "College campuses have (largely) gone silent. Can practicing small talk and phone-free spaces change that?",
-      "summary": "College students are spending less time socializing, which has implications for later in life and the workplace.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/make-it/2026/10/23/college-students-socializing-less-campus-life.html",
-      "datetime": 1792773875,
-      "headlineKo": "대학 캠퍼스는 (대체로) 조용해졌습니다. 잡담과 전화 없는 공간을 연습하면 상황이 바뀔 수 있을까요?",
-      "summaryKo": "대학생들은 사교 활동에 더 적은 시간을 소비하고 있으며 이는 나중에 인생과 직장에 영향을 미칩니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792807171.669105,
+  "_news_last_success_at": 1792810989.8360763,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792807163.1248372,
-  "_updated_label": "2026-10-24 10:59",
-  "_last_attempt_at": 1792807163.1248372,
-  "_last_success_at": 1792807163.1248372,
+  "_fetched_at": 1792810981.3994424,
+  "_updated_label": "2026-10-24 12:03",
+  "_last_attempt_at": 1792810981.3994424,
+  "_last_success_at": 1792810981.3994424,
   "_collection_status": "ok",
   "_collection_errors": []
 };
