@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": -1.6630881288799193,
-        "ret3m": 23.110420007609545,
-        "ret6m": 12.769826311675203,
-        "ret1y": 1.9391798965703755,
+        "ret1m": -2.190545702424118,
+        "ret3m": 19.900878780561882,
+        "ret6m": 10.935486712005282,
+        "ret1y": 2.724823676286725,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -19.970463251886795,
-        "ret3m": -11.230811009678376,
-        "ret6m": 18.20685715743997,
-        "ret1y": 115.77266149177161,
+        "ret1m": -18.993285160426453,
+        "ret3m": -8.238551865145682,
+        "ret6m": 11.611377901362708,
+        "ret1y": 120.1638185020868,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": -22.12133763367824,
-        "ret3m": -8.941542995186925,
-        "ret6m": -14.919663114227843,
-        "ret1y": 132.05387886142893,
+        "ret1m": -20.80295406576338,
+        "ret3m": -4.375546989332979,
+        "ret6m": -16.08948600081416,
+        "ret1y": 139.17673627968304,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": -14.429297310156697,
-        "ret3m": -14.644887787460215,
-        "ret6m": -19.565578737345255,
-        "ret1y": 17.580362971472496,
+        "ret1m": -16.839005635844384,
+        "ret3m": -16.32381369034219,
+        "ret6m": -22.295224712854132,
+        "ret1y": 18.516843495961698,
         "winRate": null,
         "count": 12
       }
@@ -229,13 +229,22 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.3784286743379698,
-    "corrPctRank": 9.128978224455611,
+    "corr60": 0.3637618132240029,
+    "corrPctRank": 8.702928870292887,
     "corrMin5y": 0.036257837878636255,
-    "corrMedian5y": 0.6976050036941197,
+    "corrMedian5y": 0.6976029792226366,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
+    {
+      "headline": "In Florida, Trump vows to deal with Cuba after Iran gets settled - Reuters",
+      "summary": "In Florida, Trump vows to deal with Cuba after Iran gets settled Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaW1UZUdScXEwTWVUNUJxcDkyWmV1TDREckM1RnRCTFR4VjBuVmk2Vm9OVF83d2FLdTdnSGN2N0FGNURpVXJKbzR4bWI3b05TY3pPWGgzRnZvX2N4SEQ4cmw3blpTZktVMXd4UDlFeWpFcG9jX1FJcTN3OW1WVW5UTnFfQ3BqdHRwNFAzOGRsc1Nyc0N6TENyVDJaeW9ZSExlSl9adExjYmQ?oc=5",
+      "datetime": 1792799575,
+      "headlineKo": "플로리다에서 트럼프는 이란이 정착한 후 쿠바와 협상하겠다고 다짐했습니다.",
+      "summaryKo": "플로리다에서 트럼프는 이란이 정착한 후 쿠바와 협상하겠다고 다짐했습니다."
+    },
     {
       "headline": "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
       "summary": "Moody's left its credit rating on France at Aa3, giving the country some relief in a week of unrest.",
@@ -253,15 +262,6 @@ const MARKET_DATA = {
       "datetime": 1792791782,
       "headlineKo": "요르단 교회에서 무장괴한이 총격을 가해 7명이 사망했다고 당국이 밝혔습니다.",
       "summaryKo": "요르단 교회서 '테러' 공격에 무장괴한들이 총격을 가해 7명이 사망했다고 당국이 밝혔습니다."
-    },
-    {
-      "headline": "In Florida, Trump vows to deal with Cuba after Iran settled - Reuters",
-      "summary": "In Florida, Trump vows to deal with Cuba after Iran settled Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaW1UZUdScXEwTWVUNUJxcDkyWmV1TDREckM1RnRCTFR4VjBuVmk2Vm9OVF83d2FLdTdnSGN2N0FGNURpVXJKbzR4bWI3b05TY3pPWGgzRnZvX2N4SEQ4cmw3blpTZktVMXd4UDlFeWpFcG9jX1FJcTN3OW1WVW5UTnFfQ3BqdHRwNFAzOGRsc1Nyc0N6TENyVDJaeW9ZSExlSl9adExjYmQ?oc=5",
-      "datetime": 1792791415,
-      "headlineKo": "플로리다에서 트럼프는 이란이 정착한 후 쿠바와 협상하겠다고 다짐했습니다.",
-      "summaryKo": "플로리다에서 트럼프는 이란이 합의한 후 쿠바와 협상하겠다고 다짐했습니다."
     },
     {
       "headline": "Trump says US will 'take care of Cuba' on its way back from Iran - Reuters",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792803367.0658865,
+  "_news_last_success_at": 1792807171.669105,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792803359.6367936,
-  "_updated_label": "2026-10-24 09:56",
-  "_last_attempt_at": 1792803359.6367936,
-  "_last_success_at": 1792803359.6367936,
+  "_fetched_at": 1792807163.1248372,
+  "_updated_label": "2026-10-24 10:59",
+  "_last_attempt_at": 1792807163.1248372,
+  "_last_success_at": 1792807163.1248372,
   "_collection_status": "ok",
   "_collection_errors": []
 };
