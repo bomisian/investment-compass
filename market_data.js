@@ -237,6 +237,33 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "An ex-bookkeeper spent $375 to launch a sewing business: 'I hadn't felt so sure about something like that in a long time'",
+      "summary": "Eric Lugo runs Stitch Lab ATX, a sewing studio that offers group classes and events to teach basic sewing skills.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/make-it/2026/10/24/sewing-workshop-business-stitch-lab-atx.html",
+      "datetime": 1792850401,
+      "headlineKo": "전직 회계원이 재봉 사업을 시작하기 위해 375달러를 썼습니다: '오랜만에 그런 확신을 느낀 적이 없었습니다.'",
+      "summaryKo": "Eric Lugo는 기본적인 재봉 기술을 가르치는 그룹 수업과 이벤트를 제공하는 재봉 스튜디오인 Stitch Lab ATX를 운영하고 있습니다."
+    },
+    {
+      "headline": "Iran's Pezeshkian blames US for interim deal failure, urges new try - Reuters",
+      "summary": "Iran's Pezeshkian blames US for interim deal failure, urges new try Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNd0xVa2UzLXppdXQ4c2xJaWNFcUlFWWswS3NYT0ZwQkZ3by1HNGJTakpQTDdUYzhSTUpwUHMzRnMtRzNEWmhieTJqTjZOdTlUN3c3YlNFMHVGd2V5RUZUcXNnbXFMMTlQLVBsRXNUT0ZndHM5SmswcFE5U0dCRlBnMndsNnRIQk00OXhIMnFzVDlSTWVVUjJGNkdnUFprRXBhY01RdnJFcnUzb1pzMDd4Ri1nUUdJdw?oc=5",
+      "datetime": 1792848432,
+      "headlineKo": "이란의 페제쉬키안은 잠정 협정 실패에 대해 미국을 비난하고 새로운 시도를 촉구했습니다.",
+      "summaryKo": "이란의 페제쉬키안은 임시 협정 실패에 대해 미국을 비난하고 새로운 시도를 촉구했습니다."
+    },
+    {
+      "headline": "As winter nears, heating oil emerges as hurdle for Republicans in US Senate races - Reuters",
+      "summary": "As winter nears, heating oil emerges as hurdle for Republicans in US Senate races Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWk5FamNJdG52SWx6b2FvaS1zcEFZZUJkbl9Kdl9DS2g2bGZadUJTcUZoMy03VWNrRlMtVFNnc2Q5clJJNVZ5eldDendydEU5b1lndTQ5TXViQW9uN2tTN185S1FkWnV3UHZxZkwtZE5zb0hZYm43ZG5sMHpIYWNGejQ3OWFNSjBjYUZfeEVoN1FvNk9zMmNDdEFrczJ1OEpadEM2U2RmdmtMMy1xUl9DWTkwVWd1ZFNIZjZ2Wg?oc=5",
+      "datetime": 1792847260,
+      "headlineKo": "겨울이 다가오면서 미국 상원 경선에서 공화당의 장애물로 난방유 문제 등장 - Reuters",
+      "summaryKo": "겨울이 다가옴에 따라 난방유가 미국 상원 경선에서 공화당의 장애물로 떠오릅니다."
+    },
+    {
       "headline": "Fact vs. fiction: Doctors share whether peptides are safe and effective",
       "summary": "As peptides gain popularity among some wellness influencers and federal government officials, doctors share what you need to know.",
       "source": "CNBC",
@@ -244,6 +271,15 @@ const MARKET_DATA = {
       "datetime": 1792847101,
       "headlineKo": "사실 대 허구: 의사들은 펩타이드가 안전하고 효과적인지 공유합니다.",
       "summaryKo": "일부 웰니스 영향력자와 연방 정부 공무원 사이에서 펩타이드가 인기를 얻으면서 의사들은 귀하가 알아야 할 사항을 공유합니다."
+    },
+    {
+      "headline": "UAE's Ras Al Khaimah shuts all beaches as neighbours grapple with oil spill - Reuters",
+      "summary": "UAE's Ras Al Khaimah shuts all beaches as neighbours grapple with oil spill Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeDMwaHJxZFNJTlFkYnB5UDY2SEdRcnRvdGRMSUNDR0I3cmhHT0xkTHQ4QjR5d241bnMtTm44UFIzdTZJYUJwcXZTcVFwN2FSVm80aTBWNmpXQVhrSTdtMnZHbWJiZTV1WFl1cGVyOHlJSmZ2d3gxZ0ZpTkpVOW0xTWFrNEFlTDczUGY1TVl0SmVKSVQ5cnN3S2NhU2dwZGZuYldJZDB3WWpaQTYzQ1RQeUdqNS1acnNqY002emRQMHV0TFU?oc=5",
+      "datetime": 1792845943,
+      "headlineKo": "UAE의 라스 알 카이마(Ras Al Khaimah)는 이웃들이 기름 유출로 인해 어려움을 겪자 모든 해변을 폐쇄했습니다 - Reuters",
+      "summaryKo": "UAE의 라스 알 카이마(Ras Al Khaimah)는 이웃들이 기름 유출로 인해 어려움을 겪자 모든 해변을 폐쇄했습니다 - 최신"
     },
     {
       "headline": "Why popular airplanes are getting scrapped years early",
@@ -264,15 +300,6 @@ const MARKET_DATA = {
       "summaryKo": "요르단 교회 공격 생존자, 가해자가 자신에게 권총을 겨누었다고 말하다 - 최신"
     },
     {
-      "headline": "As winter nears, heating oil emerges as hurdle for Republicans in US Senate races - Reuters",
-      "summary": "As winter nears, heating oil emerges as hurdle for Republicans in US Senate races Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWk5FamNJdG52SWx6b2FvaS1zcEFZZUJkbl9Kdl9DS2g2bGZadUJTcUZoMy03VWNrRlMtVFNnc2Q5clJJNVZ5eldDendydEU5b1lndTQ5TXViQW9uN2tTN185S1FkWnV3UHZxZkwtZE5zb0hZYm43ZG5sMHpIYWNGejQ3OWFNSjBjYUZfeEVoN1FvNk9zMmNDdEFrczJ1OEpadEM2U2RmdmtMMy1xUl9DWTkwVWd1ZFNIZjZ2Wg?oc=5",
-      "datetime": 1792836823,
-      "headlineKo": "겨울이 다가오면서 미국 상원 경선에서 공화당의 장애물로 난방유 문제 등장 - Reuters",
-      "summaryKo": "겨울이 다가옴에 따라 난방유가 미국 상원 경선에서 공화당의 장애물로 떠오릅니다."
-    },
-    {
       "headline": "Saudi-led coalition says it intercepted Houthi ballistic missiles targeting Saudi cities - Reuters",
       "summary": "Saudi-led coalition says it intercepted Houthi ballistic missiles targeting Saudi cities Reuters",
       "source": "Reuters",
@@ -280,6 +307,15 @@ const MARKET_DATA = {
       "datetime": 1792836479,
       "headlineKo": "사우디 주도 연합군, 사우디 도시를 겨냥한 후티 탄도미사일 요격했다고 발표 - 로이터 통신",
       "summaryKo": "사우디 주도 연합군, 사우디 도시를 겨냥한 후티 탄도미사일 요격했다고 발표 - 최신"
+    },
+    {
+      "headline": "Four Philippine Air Force pilots killed in training accident - Reuters",
+      "summary": "Four Philippine Air Force pilots killed in training accident Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUkZPOHk1VnhKNVhxNUVsNzg1VGdBWG1lYUFmLUptalZfVlJkMjJfVWU5MTh5TmhaZmZvRmZDbVNnRjZSb01GcV8tZWg1YlY2OVhZanBoV0NRMTZQbnd6eUhoOGlVekhkTkVrbXFCN1ZWTTF3UHVFRWdWZXdsWGkxUXhybVBhMlV6VDhGZ1JjcG5HNHRoWGhvRGxQSWYyVklyUkVsS01ZMGxyY0t6UlpkT3J3?oc=5",
+      "datetime": 1792824900,
+      "headlineKo": "필리핀 공군 조종사 4명 훈련사고로 사망 - 로이터",
+      "summaryKo": "필리핀 공군 조종사 4명 훈련사고로 사망 - 최신"
     },
     {
       "headline": "Jordan tightens security after deadly church attack kills eight - Reuters",
@@ -307,54 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792818300,
       "headlineKo": "트럼프 외교정책, 유권자의 주머니 사정을 강타하고 중간선거에서 공화당을 위태롭게 한다 - 로이터 통신",
       "summaryKo": "트럼프 외교 정책, 유권자의 주머니 사정을 강타하고 중간선거에서 공화당을 위태롭게 하다 - 로이터"
-    },
-    {
-      "headline": "EXCLUSIVE: US has for years asked Musk to alter Starlink service in Ukraine, Middle East, sources say - Reuters",
-      "summary": "EXCLUSIVE: US has for years asked Musk to alter Starlink service in Ukraine, Middle East, sources say Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQmxvaUpMTUR1QlpFdTFCM21oR2ZqYmwzWUVrSFpBYmZLYlFjWV9yc3NTX1BjTnZndGl1d2N4OG52MlVJenJKNkxKUW9aR3lZaGtvVzJ1UzhCeDh2X3hQcFRJVklIZ2N5X3drTHk0YVpFTmNKcGN6WDlpQ294WE5TNUhBT0g0NFJjSDhmek9yMU0zNGRMeU1mZ1ZkME13QUJ1aGFMR0gtOWVqcG50SFZQNWdUVlZxV01wNUNWc2gwZlp3VVhoZDc3VnIwcWdQSGhVOWFWUUE3ZndMTDIz?oc=5",
-      "datetime": 1792802580,
-      "headlineKo": "독점: 미국은 수년 동안 머스크에게 우크라이나, 중동의 Starlink 서비스를 변경하도록 요청했다고 소식통에 따르면 - Reuters",
-      "summaryKo": "독점: 미국은 수년 동안 머스크에게 우크라이나, 중동의 Starlink 서비스를 변경하도록 요청했다고 소식통은 로이터에 말했습니다."
-    },
-    {
-      "headline": "In Florida, Trump vows to deal with Cuba after Iran gets settled - Reuters",
-      "summary": "In Florida, Trump vows to deal with Cuba after Iran gets settled Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaW1UZUdScXEwTWVUNUJxcDkyWmV1TDREckM1RnRCTFR4VjBuVmk2Vm9OVF83d2FLdTdnSGN2N0FGNURpVXJKbzR4bWI3b05TY3pPWGgzRnZvX2N4SEQ4cmw3blpTZktVMXd4UDlFeWpFcG9jX1FJcTN3OW1WVW5UTnFfQ3BqdHRwNFAzOGRsc1Nyc0N6TENyVDJaeW9ZSExlSl9adExjYmQ?oc=5",
-      "datetime": 1792799575,
-      "headlineKo": "플로리다에서 트럼프는 이란이 정착한 후 쿠바와 협상하겠다고 다짐했습니다.",
-      "summaryKo": "플로리다에서 트럼프는 이란이 정착한 후 쿠바와 협상하겠다고 다짐했습니다."
-    },
-    {
-      "headline": "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
-      "summary": "Moody's left its credit rating on France at Aa3, giving the country some relief in a week of unrest.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html",
-      "datetime": 1792794574,
-      "headlineKo": "무디스는 프랑스가 혼란과 높은 수익률로 어려움을 겪고 있는 동안 프랑스의 신용 등급을 안정적으로 유지했습니다.",
-      "summaryKo": "무디스는 프랑스의 신용등급을 Aa3으로 유지해 불안한 일주일 동안 프랑스에 안도감을 안겨주었습니다."
-    },
-    {
-      "headline": "Marco Rubio calls on those seeking change in Cuba to partner with CIA - Reuters",
-      "summary": "Marco Rubio calls on those seeking change in Cuba to partner with CIA Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSi0yX09qbUQwUnFtemR0RURPc1hNMXpkYmF5cXN2NmVuUEZRQ0NFS1AtMXVlT2gtTDNocWthM0xBS2NrTndlYXNIWnhoQy1CdjJsODBOU0V3RHFSZkRKb0FBOUtGUVJEMlhGTHdtR1UyTXhLWDR1SktFcjlCUm5BSGdkREhaa3NzNEY2VXc0dGxXM25XNW1XNVRjX3dCekNhRDNLMw?oc=5",
-      "datetime": 1792786800,
-      "headlineKo": "마르코 루비오(Marco Rubio)는 쿠바에서 변화를 원하는 사람들에게 CIA와 협력할 것을 촉구합니다. - 로이터",
-      "summaryKo": "마르코 루비오(Marco Rubio)는 쿠바에서 변화를 원하는 이들에게 CIA와 협력할 것을 촉구했습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792849816.4854066,
+  "_news_last_success_at": 1792853714.5409951,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792849808.3823707,
-  "_updated_label": "2026-10-24 22:50",
-  "_last_attempt_at": 1792849808.3823707,
-  "_last_success_at": 1792849808.3823707,
+  "_fetched_at": 1792853701.5725732,
+  "_updated_label": "2026-10-24 23:55",
+  "_last_attempt_at": 1792853701.5725732,
+  "_last_success_at": 1792853701.5725732,
   "_collection_status": "ok",
   "_collection_errors": []
 };
