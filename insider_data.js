@@ -4,13 +4,13 @@
 const INSIDER_DATA = {
   "QQQ": {
     "transactions": [],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "SPY": {
     "transactions": [],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "MSFT": {
     "transactions": [
@@ -167,8 +167,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "GOOGL": {
     "transactions": [
@@ -205,8 +205,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "AMZN": {
     "transactions": [
@@ -371,8 +371,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "META": {
     "transactions": [
@@ -537,11 +537,19 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "AAPL": {
     "transactions": [
+      {
+        "name": "Newstead Jennifer",
+        "share": 2399,
+        "transactionPrice": 339.62,
+        "transactionDate": "2026-10-20",
+        "filingDate": "2026-10-22",
+        "code": "S"
+      },
       {
         "name": "Newstead Jennifer",
         "share": 2399,
@@ -693,18 +701,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-08-18",
         "filingDate": "2026-08-20",
         "code": "S"
-      },
-      {
-        "name": "Newstead Jennifer",
-        "share": 1439,
-        "transactionPrice": 307.75,
-        "transactionDate": "2026-08-11",
-        "filingDate": "2026-08-13",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "TSLA": {
     "transactions": [
@@ -717,8 +717,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "ORCL": {
     "transactions": [
@@ -755,8 +755,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "CRM": {
     "transactions": [
@@ -785,8 +785,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "PLTR": {
     "transactions": [
@@ -951,8 +951,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "NVDA": {
     "transactions": [
@@ -1117,8 +1117,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "AMD": {
     "transactions": [
@@ -1283,8 +1283,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "AVGO": {
     "transactions": [
@@ -1417,8 +1417,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "QCOM": {
     "transactions": [
@@ -1583,8 +1583,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "ARM": {
     "transactions": [
@@ -1605,8 +1605,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "MRVL": {
     "transactions": [
@@ -1675,8 +1675,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "INTC": {
     "transactions": [
@@ -1689,8 +1689,8 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "TSM": {
     "transactions": [
@@ -1855,13 +1855,13 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "ASML": {
     "transactions": [],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "AMAT": {
     "transactions": [
@@ -1890,8 +1890,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "LRCX": {
     "transactions": [
@@ -1952,8 +1952,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "KLAC": {
     "transactions": [
@@ -2062,8 +2062,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "MU": {
     "transactions": [
@@ -2228,8 +2228,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "SNDK": {
     "transactions": [
@@ -2394,11 +2394,19 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "WDC": {
     "transactions": [
+      {
+        "name": "Tregillis Cynthia L",
+        "share": 807,
+        "transactionPrice": 380,
+        "transactionDate": "2026-10-21",
+        "filingDate": "2026-10-22",
+        "code": "S"
+      },
       {
         "name": "Tregillis Cynthia L",
         "share": 432,
@@ -2550,21 +2558,157 @@ const INSIDER_DATA = {
         "transactionDate": "2026-07-28",
         "filingDate": "2026-07-29",
         "code": "S"
-      },
-      {
-        "name": "Cole Martin I",
-        "share": 248,
-        "transactionPrice": 459.9732,
-        "transactionDate": "2026-07-28",
-        "filingDate": "2026-07-29",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "ANET": {
     "transactions": [
+      {
+        "name": "Duda Kenneth",
+        "share": 116,
+        "transactionPrice": 182.7925,
+        "transactionDate": "2026-10-20",
+        "filingDate": "2026-10-22",
+        "code": "S"
+      },
+      {
+        "name": "Duda Kenneth",
+        "share": 3446,
+        "transactionPrice": 181.7814,
+        "transactionDate": "2026-10-20",
+        "filingDate": "2026-10-22",
+        "code": "S"
+      },
+      {
+        "name": "Duda Kenneth",
+        "share": 3742,
+        "transactionPrice": 180.9298,
+        "transactionDate": "2026-10-20",
+        "filingDate": "2026-10-22",
+        "code": "S"
+      },
+      {
+        "name": "Duda Kenneth",
+        "share": 2041,
+        "transactionPrice": 180.1198,
+        "transactionDate": "2026-10-20",
+        "filingDate": "2026-10-22",
+        "code": "S"
+      },
+      {
+        "name": "Duda Kenneth",
+        "share": 281,
+        "transactionPrice": 179.0184,
+        "transactionDate": "2026-10-20",
+        "filingDate": "2026-10-22",
+        "code": "S"
+      },
+      {
+        "name": "Duda Kenneth",
+        "share": 374,
+        "transactionPrice": 177.9108,
+        "transactionDate": "2026-10-20",
+        "filingDate": "2026-10-22",
+        "code": "S"
+      },
+      {
+        "name": "Duda Kenneth",
+        "share": 185,
+        "transactionPrice": 182.7925,
+        "transactionDate": "2026-10-20",
+        "filingDate": "2026-10-22",
+        "code": "S"
+      },
+      {
+        "name": "Duda Kenneth",
+        "share": 5514,
+        "transactionPrice": 181.7814,
+        "transactionDate": "2026-10-20",
+        "filingDate": "2026-10-22",
+        "code": "S"
+      },
+      {
+        "name": "Duda Kenneth",
+        "share": 5988,
+        "transactionPrice": 180.9298,
+        "transactionDate": "2026-10-20",
+        "filingDate": "2026-10-22",
+        "code": "S"
+      },
+      {
+        "name": "Duda Kenneth",
+        "share": 3265,
+        "transactionPrice": 180.1198,
+        "transactionDate": "2026-10-20",
+        "filingDate": "2026-10-22",
+        "code": "S"
+      },
+      {
+        "name": "Duda Kenneth",
+        "share": 449,
+        "transactionPrice": 179.0184,
+        "transactionDate": "2026-10-20",
+        "filingDate": "2026-10-22",
+        "code": "S"
+      },
+      {
+        "name": "Duda Kenneth",
+        "share": 599,
+        "transactionPrice": 177.9108,
+        "transactionDate": "2026-10-20",
+        "filingDate": "2026-10-22",
+        "code": "S"
+      },
+      {
+        "name": "Duda Kenneth",
+        "share": 200,
+        "transactionPrice": 182.7925,
+        "transactionDate": "2026-10-20",
+        "filingDate": "2026-10-22",
+        "code": "S"
+      },
+      {
+        "name": "Duda Kenneth",
+        "share": 5973,
+        "transactionPrice": 181.7814,
+        "transactionDate": "2026-10-20",
+        "filingDate": "2026-10-22",
+        "code": "S"
+      },
+      {
+        "name": "Duda Kenneth",
+        "share": 6487,
+        "transactionPrice": 180.9298,
+        "transactionDate": "2026-10-20",
+        "filingDate": "2026-10-22",
+        "code": "S"
+      },
+      {
+        "name": "Duda Kenneth",
+        "share": 3538,
+        "transactionPrice": 180.1198,
+        "transactionDate": "2026-10-20",
+        "filingDate": "2026-10-22",
+        "code": "S"
+      },
+      {
+        "name": "Duda Kenneth",
+        "share": 486,
+        "transactionPrice": 179.0184,
+        "transactionDate": "2026-10-20",
+        "filingDate": "2026-10-22",
+        "code": "S"
+      },
+      {
+        "name": "Duda Kenneth",
+        "share": 649,
+        "transactionPrice": 177.9108,
+        "transactionDate": "2026-10-20",
+        "filingDate": "2026-10-22",
+        "code": "S"
+      },
       {
         "name": "Ullal Jayshree",
         "share": 93241,
@@ -2580,154 +2724,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-10-09",
         "filingDate": "2026-10-13",
         "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 18656,
-        "transactionPrice": 217.0958,
-        "transactionDate": "2026-10-09",
-        "filingDate": "2026-10-13",
-        "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 19990,
-        "transactionPrice": 217.0483,
-        "transactionDate": "2026-10-08",
-        "filingDate": "2026-10-13",
-        "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 4000,
-        "transactionPrice": 217.0483,
-        "transactionDate": "2026-10-08",
-        "filingDate": "2026-10-13",
-        "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 4000,
-        "transactionPrice": 217.0483,
-        "transactionDate": "2026-10-08",
-        "filingDate": "2026-10-13",
-        "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 69272,
-        "transactionPrice": 217.1408,
-        "transactionDate": "2026-10-07",
-        "filingDate": "2026-10-09",
-        "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 13860,
-        "transactionPrice": 217.1408,
-        "transactionDate": "2026-10-07",
-        "filingDate": "2026-10-09",
-        "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 13860,
-        "transactionPrice": 217.1408,
-        "transactionDate": "2026-10-07",
-        "filingDate": "2026-10-09",
-        "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 3902,
-        "transactionPrice": 213.0637,
-        "transactionDate": "2026-10-06",
-        "filingDate": "2026-10-08",
-        "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 259045,
-        "transactionPrice": 212.2662,
-        "transactionDate": "2026-10-06",
-        "filingDate": "2026-10-08",
-        "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 65897,
-        "transactionPrice": 211.3602,
-        "transactionDate": "2026-10-06",
-        "filingDate": "2026-10-08",
-        "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 781,
-        "transactionPrice": 213.0637,
-        "transactionDate": "2026-10-06",
-        "filingDate": "2026-10-08",
-        "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 51805,
-        "transactionPrice": 212.2662,
-        "transactionDate": "2026-10-06",
-        "filingDate": "2026-10-08",
-        "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 13179,
-        "transactionPrice": 211.3602,
-        "transactionDate": "2026-10-06",
-        "filingDate": "2026-10-08",
-        "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 781,
-        "transactionPrice": 213.0637,
-        "transactionDate": "2026-10-06",
-        "filingDate": "2026-10-08",
-        "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 51805,
-        "transactionPrice": 212.2662,
-        "transactionDate": "2026-10-06",
-        "filingDate": "2026-10-08",
-        "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 13179,
-        "transactionPrice": 211.3602,
-        "transactionDate": "2026-10-06",
-        "filingDate": "2026-10-08",
-        "code": "S"
-      },
-      {
-        "name": "Breithaupt Chantelle Yvette",
-        "share": 1224,
-        "transactionPrice": 215,
-        "transactionDate": "2026-10-06",
-        "filingDate": "2026-10-08",
-        "code": "S"
-      },
-      {
-        "name": "TEMPLETON MARK B",
-        "share": 200,
-        "transactionPrice": 206.03,
-        "transactionDate": "2026-10-01",
-        "filingDate": "2026-10-05",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "COHR": {
     "transactions": [
@@ -2796,8 +2796,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "LITE": {
     "transactions": [
@@ -2962,13 +2962,13 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "GEV": {
     "transactions": [],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "CEG": {
     "transactions": [
@@ -2981,8 +2981,8 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "VST": {
     "transactions": [
@@ -3059,8 +3059,8 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "ETN": {
     "transactions": [
@@ -3097,13 +3097,13 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "PWR": {
     "transactions": [],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "HUBB": {
     "transactions": [
@@ -3116,8 +3116,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "VRT": {
     "transactions": [
@@ -3186,8 +3186,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "MOD": {
     "transactions": [
@@ -3200,8 +3200,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "STX": {
     "transactions": [
@@ -3366,13 +3366,13 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "EME": {
     "transactions": [],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "FIX": {
     "transactions": [
@@ -3409,8 +3409,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   },
   "BE": {
     "transactions": [
@@ -3503,7 +3503,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1792741009.1679332,
-    "_updated_label": "2026-10-23"
+    "_fetched_at": 1792814781.5243683,
+    "_updated_label": "2026-10-24"
   }
 };
