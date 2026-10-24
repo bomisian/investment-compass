@@ -237,6 +237,33 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Retail investors are not more sophisticated than 30 years ago, says former hedge fund manager",
+      "summary": "Retail investors trying to beat the market by buying individual stocks and complex exchange-traded funds may be better off with broad market index funds.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/24/stock-picking-could-hurt-investors-warns-former-hedge-fund-manager.html",
+      "datetime": 1792854001,
+      "headlineKo": "개인 투자자들은 30년 전보다 더 정교하지 않다고 전직 헤지펀드 매니저가 말했습니다.",
+      "summaryKo": "개별 주식과 복잡한 ETF를 매수하여 시장을 이기려는 개인 투자자는 광범위한 시장 인덱스 펀드를 이용하는 것이 더 나을 수 있습니다."
+    },
+    {
+      "headline": "I quit my marketing job to walk dogs for 4 months: It's 'one of the most valuable professional experiences I've ever had'",
+      "summary": "\"People sometimes assume dog walking was a gap or detour in my career. I see it as one of the most valuable professional experiences I've had,\" says Sally Simmons.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/make-it/2026/10/24/quit-marketing-job-walk-dogs.html",
+      "datetime": 1792852561,
+      "headlineKo": "4개월 동안 개를 산책시키기 위해 마케팅 일을 그만뒀습니다. 그것은 '내가 이제까지 경험한 가장 귀중한 직업 경험 중 하나'입니다.",
+      "summaryKo": "Sally Simmons는 \"사람들은 때때로 개 산책이 내 경력에 공백이거나 우회로라고 생각합니다. 나는 그것이 내가 가진 가장 귀중한 전문 경험 중 하나라고 생각합니다\"라고 말합니다."
+    },
+    {
+      "headline": "Jordan church attack survivor says assailant pointed handgun at him - Reuters",
+      "summary": "Jordan church attack survivor says assailant pointed handgun at him Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZVhBcHBITVRDY2hGb1hueUEwVnhWbUhBc3dvc2NXTk5Yd3NybDQyUW15R3NfVnBmOHpJLVo5b2UyVmN5NjdURndGT2xQb05hSlE4UU52cnFYMDdjbnlQTm9LRHpBSkdLSDUtTlhKdGJYVjN1cGY3c2hEelZjN3FhRXM1X0ZYbVk1Q05lX3ZPdWtBRHE4U3BHUjJtNUpMemJTbXhRcEVERGFZTUt2QW1JbXlSWUpWOGZ6UWc?oc=5",
+      "datetime": 1792851020,
+      "headlineKo": "요르단 교회 테러 생존자, 가해자가 자신에게 권총 겨누었다고 말 - 로이터 통신",
+      "summaryKo": "요르단 교회 공격 생존자, 가해자가 자신에게 권총을 겨누었다고 말하다 - 최신"
+    },
+    {
       "headline": "An ex-bookkeeper spent $375 to launch a sewing business: 'I hadn't felt so sure about something like that in a long time'",
       "summary": "Eric Lugo runs Stitch Lab ATX, a sewing studio that offers group classes and events to teach basic sewing skills.",
       "source": "CNBC",
@@ -291,15 +318,6 @@ const MARKET_DATA = {
       "summaryKo": "엔진과 기타 부품의 공급이 부족하기 때문에 비행기는 예정보다 몇 년 앞서 부품을 해체하고 있습니다."
     },
     {
-      "headline": "Jordan church attack survivor says assailant pointed handgun at him - Reuters",
-      "summary": "Jordan church attack survivor says assailant pointed handgun at him Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZVhBcHBITVRDY2hGb1hueUEwVnhWbUhBc3dvc2NXTk5Yd3NybDQyUW15R3NfVnBmOHpJLVo5b2UyVmN5NjdURndGT2xQb05hSlE4UU52cnFYMDdjbnlQTm9LRHpBSkdLSDUtTlhKdGJYVjN1cGY3c2hEelZjN3FhRXM1X0ZYbVk1Q05lX3ZPdWtBRHE4U3BHUjJtNUpMemJTbXhRcEVERGFZTUt2QW1JbXlSWUpWOGZ6UWc?oc=5",
-      "datetime": 1792837784,
-      "headlineKo": "요르단 교회 테러 생존자, 가해자가 자신에게 권총 겨누었다고 말 - 로이터 통신",
-      "summaryKo": "요르단 교회 공격 생존자, 가해자가 자신에게 권총을 겨누었다고 말하다 - 최신"
-    },
-    {
       "headline": "Saudi-led coalition says it intercepted Houthi ballistic missiles targeting Saudi cities - Reuters",
       "summary": "Saudi-led coalition says it intercepted Houthi ballistic missiles targeting Saudi cities Reuters",
       "source": "Reuters",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792822620,
       "headlineKo": "요르단, 교회 공격으로 8명 사망 후 보안 강화 - 로이터",
       "summaryKo": "치명적인 교회 공격으로 8명이 사망한 후 요르단, 보안 강화 Reuters"
-    },
-    {
-      "headline": "COMMENTARY: How Trump's energy dominance turned into hubris - Reuters",
-      "summary": "COMMENTARY: How Trump's energy dominance turned into hubris Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQekgyR1FuVEk3cnpGRGlzWVFSTmZPT2gteXQ0UHk2M0hiUDJ2MnFJbjIzYjdhbzZfa3pPNDlVcWJhRjVRWlVPVFlJZC1FOFE2UHBDWTNzOGlmdHR2Z1NVN1lYdFNBU2haMVRGTlUwOE1OTENUUHl2bGo2R2d4RXRTdlQ2WTRuNm9adGU4TnE4alVleS11OHNmU20tOHVYMEdPQndUa19NazhxVHlfNkdMMk5SZG5mRjAtY2kycmd5TQ?oc=5",
-      "datetime": 1792821600,
-      "headlineKo": "논평: 트럼프의 에너지 지배력이 어떻게 오만으로 변했는지 - 로이터",
-      "summaryKo": "논평: 트럼프의 에너지 지배력이 어떻게 오만으로 변했는지 Reuters"
-    },
-    {
-      "headline": "Trump foreign policy hits voters in the pocketbook, imperiling Republicans in midterms - Reuters",
-      "summary": "Trump foreign policy hits voters in the pocketbook, imperiling Republicans in midterms Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRzVIOWVqX0Jia3JrVmo5YkZuTGFOTlo1YVpMcFFwRHFtMEFaQVhYMjdZbGdYYXhaSTFLcTNiZzVNRzRCaTZIcWtmVktJTEhVTDl5dHNMcW9fMEp0WGxnazE1TnUzcEdXZUg1M3gyVUF4XzV1c1BmeGZKM2R1dm9USFljVldzUXdQWVk3bnFJMi1ZUDk5QjQ2TEozNUlXMXJ0bnkxYndOUFZVa042YlJlYnlzZVIzb2dJZzlReA?oc=5",
-      "datetime": 1792818300,
-      "headlineKo": "트럼프 외교정책, 유권자의 주머니 사정을 강타하고 중간선거에서 공화당을 위태롭게 한다 - 로이터 통신",
-      "summaryKo": "트럼프 외교 정책, 유권자의 주머니 사정을 강타하고 중간선거에서 공화당을 위태롭게 하다 - 로이터"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792853714.5409951,
+  "_news_last_success_at": 1792857611.0159955,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792853701.5725732,
-  "_updated_label": "2026-10-24 23:55",
-  "_last_attempt_at": 1792853701.5725732,
-  "_last_success_at": 1792853701.5725732,
+  "_fetched_at": 1792857601.0732665,
+  "_updated_label": "2026-10-25 01:00",
+  "_last_attempt_at": 1792857601.0732665,
+  "_last_success_at": 1792857601.0732665,
   "_collection_status": "ok",
   "_collection_errors": []
 };
