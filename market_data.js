@@ -246,6 +246,15 @@ const MARKET_DATA = {
       "summaryKo": "AI 주식의 교체는 몇몇 방어적인 클럽 주식에 도움이 되었습니다."
     },
     {
+      "headline": "Around 1,200 Palestinians are displaced in Hebron as Israel begins military operation - Reuters",
+      "summary": "Around 1,200 Palestinians are displaced in Hebron as Israel begins military operation Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNU0lFZzBBODd6NDh2OUEyNmMwbFUyalpDRFpwVkVRVkR2VzlOLWdTU1N1ZmhEaFBzaUFmWUVEMFBrdDFDMVF3WVlQWHh5VVFVd2R6LVM5b3VxakFlNVhwQlNwcHVhaHV0dDZuYjgzSU5qUTdtalpZd2tmQlFxN3ZtcmNpaTdvM3hCUlhMck5ubkphU25lT2dFU0ZvSDVXNEE0amJ1X3IwLU82a2M3TWROaU1SYWhhdHJuQmpLTzZtckhsaVdwODdaOTNaNkk?oc=5",
+      "datetime": 1792857728,
+      "headlineKo": "이스라엘이 군사 작전을 시작함에 따라 약 1,200명의 팔레스타인인이 헤브론에서 난민이 되었습니다 - 로이터",
+      "summaryKo": "이스라엘이 군사 작전을 시작함에 따라 약 1,200명의 팔레스타인인이 헤브론에서 난민이 되었습니다 - 최신"
+    },
+    {
       "headline": "Retail investors are not more sophisticated than 30 years ago, says former hedge fund manager",
       "summary": "Retail investors trying to beat the market by buying individual stocks and complex exchange-traded funds may be better off with broad market index funds.",
       "source": "CNBC",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792836479,
       "headlineKo": "사우디 주도 연합군, 사우디 도시를 겨냥한 후티 탄도미사일 요격했다고 발표 - 로이터 통신",
       "summaryKo": "사우디 주도 연합군, 사우디 도시를 겨냥한 후티 탄도미사일 요격했다고 발표 - 최신"
-    },
-    {
-      "headline": "Four Philippine Air Force pilots killed in training accident - Reuters",
-      "summary": "Four Philippine Air Force pilots killed in training accident Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUkZPOHk1VnhKNVhxNUVsNzg1VGdBWG1lYUFmLUptalZfVlJkMjJfVWU5MTh5TmhaZmZvRmZDbVNnRjZSb01GcV8tZWg1YlY2OVhZanBoV0NRMTZQbnd6eUhoOGlVekhkTkVrbXFCN1ZWTTF3UHVFRWdWZXdsWGkxUXhybVBhMlV6VDhGZ1JjcG5HNHRoWGhvRGxQSWYyVklyUkVsS01ZMGxyY0t6UlpkT3J3?oc=5",
-      "datetime": 1792824900,
-      "headlineKo": "필리핀 공군 조종사 4명 훈련사고로 사망 - 로이터",
-      "summaryKo": "필리핀 공군 조종사 4명 훈련사고로 사망 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792861230.0382018,
+  "_news_last_success_at": 1792864829.8352215,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792861221.8038418,
-  "_updated_label": "2026-10-25 02:00",
-  "_last_attempt_at": 1792861221.8038418,
-  "_last_success_at": 1792861221.8038418,
+  "_fetched_at": 1792864821.8758044,
+  "_updated_label": "2026-10-25 03:00",
+  "_last_attempt_at": 1792864821.8758044,
+  "_last_success_at": 1792864821.8758044,
   "_collection_status": "ok",
   "_collection_errors": []
 };
