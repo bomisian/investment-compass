@@ -237,6 +237,24 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Saudi civil defense says danger passed after brief alerts for Mecca, Jeddah, Taif and Yanbu - Reuters",
+      "summary": "Saudi civil defense says danger passed after brief alerts for Mecca, Jeddah, Taif and Yanbu Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU1JpTkpxd3RUSFgwb29mWkRuSmg5UFd5d1RMQkZMdE5tV3F4cEN6SXFOODhTQUZTbTZucHJGVnpxMWpGZVFuSXJzZ045Q0o1Uzh5NFNvVENFX1M2dFQ0NzRGYjUtWk9TYjBWcldGNS1hY21yS2IyOXBsX29hcFg5N2ZENUlIV2oyTE1OT3hJQUFaS1pjTHV3VnZUTkRWbVFnd0JqYV9iZmVwUW4xcGNVOUdUZmgtaWpkVGdsVzJ1SXR1U1hyWG5uWg?oc=5",
+      "datetime": 1792830892,
+      "headlineKo": "사우디 민방위대는 메카, 제다, 타이프, 얀부에 대한 짧은 경보 이후 위험이 사라졌다고 밝혔습니다.",
+      "summaryKo": "사우디 민방위는 메카, 제다, 타이프, 얀부에 대한 짧은 경보 이후 위험이 사라졌다고 밝혔습니다."
+    },
+    {
+      "headline": "Trump foreign policy hits voters in the pocketbook, imperiling Republicans in midterms - Reuters",
+      "summary": "Trump foreign policy hits voters in the pocketbook, imperiling Republicans in midterms Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRzVIOWVqX0Jia3JrVmo5YkZuTGFOTlo1YVpMcFFwRHFtMEFaQVhYMjdZbGdYYXhaSTFLcTNiZzVNRzRCaTZIcWtmVktJTEhVTDl5dHNMcW9fMEp0WGxnazE1TnUzcEdXZUg1M3gyVUF4XzV1c1BmeGZKM2R1dm9USFljVldzUXdQWVk3bnFJMi1ZUDk5QjQ2TEozNUlXMXJ0bnkxYndOUFZVa042YlJlYnlzZVIzb2dJZzlReA?oc=5",
+      "datetime": 1792818300,
+      "headlineKo": "트럼프 외교정책, 유권자의 주머니 사정을 강타하고 중간선거에서 공화당을 위태롭게 한다 - 로이터 통신",
+      "summaryKo": "트럼프 외교 정책, 유권자의 주머니 사정을 강타하고 중간선거에서 공화당을 위태롭게 하다 - 로이터"
+    },
+    {
       "headline": "EXCLUSIVE: US has for years asked Musk to alter Starlink service in Ukraine, Middle East, sources say - Reuters",
       "summary": "EXCLUSIVE: US has for years asked Musk to alter Starlink service in Ukraine, Middle East, sources say Reuters",
       "source": "Reuters",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792775870,
       "headlineKo": "케냐 수도 건물 붕괴, 구조대원 현장 출동 - 로이터 통신",
       "summaryKo": "케냐 수도 건물 붕괴, 구조대원 현장 출동 - 로이터통신"
-    },
-    {
-      "headline": "EXCLUSIVE: Saudi missile plant expansion may produce more powerful missiles, study says - Reuters",
-      "summary": "EXCLUSIVE: Saudi missile plant expansion may produce more powerful missiles, study says Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUTNudHNub01PQk1mQ1pIc3I0d2N5TGJPTG5lSlkwSWZKc05VMHpaNGtRTmpmd1pDblNPYjZGbEw3d05QeThxdjNJWDhYX09KMDdPeTlOeWxhX0txVTVrVzRvdWwzMEFfN01jYUNoN1dEVkRQMjlrUENUNVcxMkNuZDlyTnVQMlBkNmhJRzRjRkRESDVJZmdWYzJFMUtzUzBMdFpXVWNoM0hzOTBaajZhRDJtQ0U5ZFlzMkdaZ3BZa2ZPN0RwUHR6cQ?oc=5",
-      "datetime": 1792775324,
-      "headlineKo": "독점: 사우디 미사일 공장 확장으로 더욱 강력한 미사일 생산 가능 - 연구 결과 - Reuters",
-      "summaryKo": "독점: 사우디 미사일 공장 확장으로 더 강력한 미사일 생산 가능"
-    },
-    {
-      "headline": "College campuses have (largely) gone silent. Can practicing small talk and phone-free spaces change that?",
-      "summary": "College students are spending less time socializing, which has implications for later in life and the workplace.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/make-it/2026/10/23/college-students-socializing-less-campus-life.html",
-      "datetime": 1792773875,
-      "headlineKo": "대학 캠퍼스는 (대체로) 조용해졌습니다. 잡담과 전화 없는 공간을 연습하면 상황이 바뀔 수 있을까요?",
-      "summaryKo": "대학생들은 사교 활동에 더 적은 시간을 소비하고 있으며 이는 나중에 인생과 직장에 영향을 미칩니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792830583.8245542,
+  "_news_last_success_at": 1792834390.6012862,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792830576.6296105,
-  "_updated_label": "2026-10-24 17:30",
-  "_last_attempt_at": 1792830576.6296105,
-  "_last_success_at": 1792830576.6296105,
+  "_fetched_at": 1792834380.3689086,
+  "_updated_label": "2026-10-24 18:33",
+  "_last_attempt_at": 1792834380.3689086,
+  "_last_success_at": 1792834380.3689086,
   "_collection_status": "ok",
   "_collection_errors": []
 };
