@@ -237,13 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Houthis say they attacked Saudi oil sites; strikes reported in Aden - Reuters",
-      "summary": "Houthis say they attacked Saudi oil sites; strikes reported in Aden Reuters",
+      "headline": "Houthis say they targeted Saudi oil sites; attacks reported in Aden - Reuters",
+      "summary": "Houthis say they targeted Saudi oil sites; attacks reported in Aden Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU1JpTkpxd3RUSFgwb29mWkRuSmg5UFd5d1RMQkZMdE5tV3F4cEN6SXFOODhTQUZTbTZucHJGVnpxMWpGZVFuSXJzZ045Q0o1Uzh5NFNvVENFX1M2dFQ0NzRGYjUtWk9TYjBWcldGNS1hY21yS2IyOXBsX29hcFg5N2ZENUlIV2oyTE1OT3hJQUFaS1pjTHV3VnZUTkRWbVFnd0JqYV9iZmVwUW4xcGNVOUdUZmgtaWpkVGdsVzJ1SXR1U1hyWG5uWg?oc=5",
-      "datetime": 1792864731,
-      "headlineKo": "Houthis는 사우디 석유 현장을 공격했다고 말합니다. 아덴에서 파업이 보고되었습니다. - Reuters",
-      "summaryKo": "Houthis는 사우디 석유 현장을 공격했다고 말하며, 파업은 Aden Reuters에 보고되었습니다."
+      "datetime": 1792869879,
+      "headlineKo": "Houthis는 그들이 사우디 석유 현장을 표적으로 삼았다고 말했습니다. 아덴에서 보고된 공격 - 로이터",
+      "summaryKo": "Houthis는 그들이 사우디 석유 현장을 표적으로 삼았다고 말했습니다. Aden Reuters에서 보고된 공격"
     },
     {
       "headline": "AI funding fears rattle Wall Street. Here's how we're adjusting our portfolio",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792872029.5919366,
+  "_news_last_success_at": 1792875731.5281327,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792872020.5427115,
-  "_updated_label": "2026-10-25 05:00",
-  "_last_attempt_at": 1792872020.5427115,
-  "_last_success_at": 1792872020.5427115,
+  "_fetched_at": 1792875722.401907,
+  "_updated_label": "2026-10-25 06:02",
+  "_last_attempt_at": 1792875722.401907,
+  "_last_success_at": 1792875722.401907,
   "_collection_status": "ok",
   "_collection_errors": []
 };
