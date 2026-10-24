@@ -1,12 +1,12 @@
 // ops_status_report.py가 자동 생성합니다. 직접 수정하지 마세요.
 const OPS_STATUS_DATA = {
-  "generatedAt": "2026-10-24T07:35:42+09:00",
+  "generatedAt": "2026-10-25T07:35:42+09:00",
   "items": [
     {
       "key": "last_success",
       "status": "green",
       "label": "마지막 정상 완료",
-      "detail": "2026-10-24 07:09"
+      "detail": "2026-10-25 07:29"
     },
     {
       "key": "public_verify",
@@ -18,7 +18,7 @@ const OPS_STATUS_DATA = {
       "key": "loop_progress",
       "status": "green",
       "label": "루프 진행",
-      "detail": "대기 중(다음 주기, 26분 전부터)"
+      "detail": "대기 중(다음 주기, 6분 전부터)"
     },
     {
       "key": "loop_count",
@@ -42,13 +42,13 @@ const OPS_STATUS_DATA = {
       "key": "market_expectation_asof",
       "status": "green",
       "label": "시장 기대 기준일",
-      "detail": "2026-10-24"
+      "detail": "2026-10-25"
     },
     {
       "key": "eps",
       "status": "green",
       "label": "EPS 수집",
-      "detail": "가장 오래된 종목 ANET 9일 전"
+      "detail": "가장 오래된 종목 ANET 10일 전"
     },
     {
       "key": "data_audit",
@@ -90,7 +90,7 @@ const OPS_STATUS_DATA = {
       "key": "evidence_review_backlog",
       "status": "yellow",
       "label": "근거 승인 대기",
-      "detail": "WDC(1일), FIX(2일), BE(2일) — approve_evidence.py 실행 필요"
+      "detail": "WDC(2일), FIX(3일), BE(3일) — approve_evidence.py 실행 필요"
     },
     {
       "key": "price_map_daily_run",
@@ -102,7 +102,7 @@ const OPS_STATUS_DATA = {
       "key": "external_peer_cache_freshness",
       "status": "green",
       "label": "외부보충 비교군 캐시 신선도",
-      "detail": "2026-10-24 07:08 KST 정상 갱신(실패 0개)"
+      "detail": "2026-10-25 07:28 KST 정상 갱신(실패 0개)"
     }
   ]
 };

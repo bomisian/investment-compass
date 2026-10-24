@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran has ramped up efforts to target US personnel, intelligence memo warns - Reuters",
+      "summary": "Iran has ramped up efforts to target US personnel, intelligence memo warns Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSnBGckdpTkdaSnNZeFIyenI0MVVDMHd6R2ZDcTlUX3I4OWNNMlRjd0FTXzhCY09zakU1MWx2RzBpRW1QYTRxY2M3UWpBZHR3S1JlNjQ0WlIyRlh3ZnhNaVZ0OVcwU21YMjUyVVF0RXB0VXFLMWpGdEVtak1DUktTdUdLWmQyWGRFQ0xmb2Z3WG1nSHdfVUxlbUlsc2RJRmNmWVRHS1Qtd0RCVU92d2t1S19HbjlFVzdoREJONTRNYk1iZw?oc=5",
+      "datetime": 1792879612,
+      "headlineKo": "이란이 미군을 표적으로 삼기 위한 노력을 강화했다고 정보 메모가 경고했다 - 로이터",
+      "summaryKo": "이란이 미국 요원을 표적으로 삼기 위한 노력을 강화했다고 정보 메모가 경고했습니다."
+    },
+    {
       "headline": "Houthis say they targeted Saudi oil sites; attacks reported in Aden - Reuters",
       "summary": "Houthis say they targeted Saudi oil sites; attacks reported in Aden Reuters",
       "source": "Reuters",
@@ -262,15 +271,6 @@ const MARKET_DATA = {
       "datetime": 1792857849,
       "headlineKo": "리비아의 드베이바(Dbeibah)는 이집트의 해양 문제를 해결할 준비가 되어 있다고 말했습니다 - 로이터",
       "summaryKo": "리비아의 드베이바(Dbeibah)는 이집트의 해양 문제를 해결할 준비가 되어 있다고 말했습니다."
-    },
-    {
-      "headline": "Iran has ramped up efforts to target US personnel, intelligence memo warns - Reuters",
-      "summary": "Iran has ramped up efforts to target US personnel, intelligence memo warns Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSnBGckdpTkdaSnNZeFIyenI0MVVDMHd6R2ZDcTlUX3I4OWNNMlRjd0FTXzhCY09zakU1MWx2RzBpRW1QYTRxY2M3UWpBZHR3S1JlNjQ0WlIyRlh3ZnhNaVZ0OVcwU21YMjUyVVF0RXB0VXFLMWpGdEVtak1DUktTdUdLWmQyWGRFQ0xmb2Z3WG1nSHdfVUxlbUlsc2RJRmNmWVRHS1Qtd0RCVU92d2t1S19HbjlFVzdoREJONTRNYk1iZw?oc=5",
-      "datetime": 1792857823,
-      "headlineKo": "이란이 미군을 표적으로 삼기 위한 노력을 강화했다고 정보 메모가 경고했다 - 로이터",
-      "summaryKo": "이란이 미국 요원을 표적으로 삼기 위한 노력을 강화했다고 정보 메모가 경고했습니다."
     },
     {
       "headline": "Around 1,200 Palestinians are displaced in Hebron as Israel begins military operation - Reuters",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792879013.1999123,
+  "_news_last_success_at": 1792882827.5740213,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792879006.102586,
-  "_updated_label": "2026-10-25 06:57",
-  "_last_attempt_at": 1792879006.102586,
-  "_last_success_at": 1792879006.102586,
+  "_fetched_at": 1792882820.4261048,
+  "_updated_label": "2026-10-25 08:00",
+  "_last_attempt_at": 1792882820.4261048,
+  "_last_success_at": 1792882820.4261048,
   "_collection_status": "ok",
   "_collection_errors": []
 };
