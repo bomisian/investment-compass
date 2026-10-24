@@ -237,13 +237,40 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Saudi-led coalition says it destroyed Houthi ballistic missiles fired towards Yanbu and Taif - Reuters",
-      "summary": "Saudi-led coalition says it destroyed Houthi ballistic missiles fired towards Yanbu and Taif Reuters",
+      "headline": "Why popular airplanes are getting scrapped years early",
+      "summary": "Airplanes are getting dismantled for parts years ahead of schedule because engines and other components are in short supply.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/24/spirit-airlines-planes-scrapped-engine-shortage.html",
+      "datetime": 1792843201,
+      "headlineKo": "인기 비행기가 몇 년 일찍 폐기되는 이유",
+      "summaryKo": "엔진과 기타 부품의 공급이 부족하기 때문에 비행기는 예정보다 몇 년 앞서 부품을 해체하고 있습니다."
+    },
+    {
+      "headline": "Jordan church attack survivor says assailant pointed handgun at him - Reuters",
+      "summary": "Jordan church attack survivor says assailant pointed handgun at him Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZVhBcHBITVRDY2hGb1hueUEwVnhWbUhBc3dvc2NXTk5Yd3NybDQyUW15R3NfVnBmOHpJLVo5b2UyVmN5NjdURndGT2xQb05hSlE4UU52cnFYMDdjbnlQTm9LRHpBSkdLSDUtTlhKdGJYVjN1cGY3c2hEelZjN3FhRXM1X0ZYbVk1Q05lX3ZPdWtBRHE4U3BHUjJtNUpMemJTbXhRcEVERGFZTUt2QW1JbXlSWUpWOGZ6UWc?oc=5",
+      "datetime": 1792837784,
+      "headlineKo": "요르단 교회 테러 생존자, 가해자가 자신에게 권총 겨누었다고 말 - 로이터 통신",
+      "summaryKo": "요르단 교회 공격 생존자, 가해자가 자신에게 권총을 겨누었다고 말하다 - 최신"
+    },
+    {
+      "headline": "As winter nears, heating oil emerges as hurdle for Republicans in US Senate races - Reuters",
+      "summary": "As winter nears, heating oil emerges as hurdle for Republicans in US Senate races Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWk5FamNJdG52SWx6b2FvaS1zcEFZZUJkbl9Kdl9DS2g2bGZadUJTcUZoMy03VWNrRlMtVFNnc2Q5clJJNVZ5eldDendydEU5b1lndTQ5TXViQW9uN2tTN185S1FkWnV3UHZxZkwtZE5zb0hZYm43ZG5sMHpIYWNGejQ3OWFNSjBjYUZfeEVoN1FvNk9zMmNDdEFrczJ1OEpadEM2U2RmdmtMMy1xUl9DWTkwVWd1ZFNIZjZ2Wg?oc=5",
+      "datetime": 1792836823,
+      "headlineKo": "겨울이 다가오면서 미국 상원 경선에서 공화당의 장애물로 난방유 문제 등장 - Reuters",
+      "summaryKo": "겨울이 다가옴에 따라 난방유가 미국 상원 경선에서 공화당의 장애물로 떠오릅니다."
+    },
+    {
+      "headline": "Saudi-led coalition says it intercepted Houthi ballistic missiles targeting Saudi cities - Reuters",
+      "summary": "Saudi-led coalition says it intercepted Houthi ballistic missiles targeting Saudi cities Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU1JpTkpxd3RUSFgwb29mWkRuSmg5UFd5d1RMQkZMdE5tV3F4cEN6SXFOODhTQUZTbTZucHJGVnpxMWpGZVFuSXJzZ045Q0o1Uzh5NFNvVENFX1M2dFQ0NzRGYjUtWk9TYjBWcldGNS1hY21yS2IyOXBsX29hcFg5N2ZENUlIV2oyTE1OT3hJQUFaS1pjTHV3VnZUTkRWbVFnd0JqYV9iZmVwUW4xcGNVOUdUZmgtaWpkVGdsVzJ1SXR1U1hyWG5uWg?oc=5",
-      "datetime": 1792833076,
-      "headlineKo": "사우디 주도 연합군은 얀부와 타이프를 향해 발사된 후티 탄도미사일을 파괴했다고 밝혔습니다.",
-      "summaryKo": "사우디 주도 연합군은 얀부와 타이프를 향해 발사된 후티 탄도미사일을 파괴했다고 밝혔습니다."
+      "datetime": 1792836479,
+      "headlineKo": "사우디 주도 연합군, 사우디 도시를 겨냥한 후티 탄도미사일 요격했다고 발표 - 로이터 통신",
+      "summaryKo": "사우디 주도 연합군, 사우디 도시를 겨냥한 후티 탄도미사일 요격했다고 발표 - 최신"
     },
     {
       "headline": "Jordan tightens security after deadly church attack kills eight - Reuters",
@@ -253,6 +280,15 @@ const MARKET_DATA = {
       "datetime": 1792822620,
       "headlineKo": "요르단, 교회 공격으로 8명 사망 후 보안 강화 - 로이터",
       "summaryKo": "치명적인 교회 공격으로 8명이 사망한 후 요르단, 보안 강화 Reuters"
+    },
+    {
+      "headline": "COMMENTARY: How Trump's energy dominance turned into hubris - Reuters",
+      "summary": "COMMENTARY: How Trump's energy dominance turned into hubris Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQekgyR1FuVEk3cnpGRGlzWVFSTmZPT2gteXQ0UHk2M0hiUDJ2MnFJbjIzYjdhbzZfa3pPNDlVcWJhRjVRWlVPVFlJZC1FOFE2UHBDWTNzOGlmdHR2Z1NVN1lYdFNBU2haMVRGTlUwOE1OTENUUHl2bGo2R2d4RXRTdlQ2WTRuNm9adGU4TnE4alVleS11OHNmU20tOHVYMEdPQndUa19NazhxVHlfNkdMMk5SZG5mRjAtY2kycmd5TQ?oc=5",
+      "datetime": 1792821600,
+      "headlineKo": "논평: 트럼프의 에너지 지배력이 어떻게 오만으로 변했는지 - 로이터",
+      "summaryKo": "논평: 트럼프의 에너지 지배력이 어떻게 오만으로 변했는지 Reuters"
     },
     {
       "headline": "Trump foreign policy hits voters in the pocketbook, imperiling Republicans in midterms - Reuters",
@@ -307,56 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792785849,
       "headlineKo": "이란은 전쟁이 재개되면 걸프 해저 케이블을 공격할 세부 계획을 갖고 있다고 관리들이 밝혔습니다.",
       "summaryKo": "이란은 전쟁이 재개되면 걸프 해저 케이블을 공격할 세부 계획을 갖고 있다고 관리들이 밝혔습니다."
-    },
-    {
-      "headline": "Trump says US may do another military operation against Iran - Reuters",
-      "summary": "Trump says US may do another military operation against Iran Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZjhrQTB6UmEzUzQ0N1RPV1BiZXhoaGdyWmhCTVpTTWgydnE3aEd0WHJHXzlpR09JXzh0SVpGSHkzc0JJR2g4M21MbVM1dUljQzd4UWNrSnlDWkw2SlgzOHlITmpJNHpuTTAtMmdPMXdXR0JGQlF4LUtHMTUxSWdWeVRoZVhMRlJtY0NmNHp4enJ2NzVwdE5xUm1zdVRfZ0pYdE0wRGFpU0k0eGpMZTlpNEl2bmQ?oc=5",
-      "datetime": 1792785840,
-      "headlineKo": "트럼프, 미국이 이란에 대해 또 다른 군사작전을 할 수도 있다고 말했다 - 로이터",
-      "summaryKo": "트럼프, 미국이 이란에 대해 또 다른 군사작전을 할 수도 있다고 말했다 - 로이터"
-    },
-    {
-      "headline": "POLL Bank of Canada to raise rates to 2.50% on October 28 and once again by end-March - Reuters",
-      "summary": "POLL Bank of Canada to raise rates to 2.50% on October 28 and once again by end-March Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcXBVcldURXc1c3hRcmpNWXdhcWRVR1hibkVqNF9YM1V4NzIzdmlDUzlGZHpjaVJWQlp3M1N2ckpRMzlSdlZZRTRJcVloUTNnR0l4UE1fSXlhTXpZWFlqVGdYWEljWG9DdWpXRGQyaUlvVkdyNUlhZjF0TS1iRWNLYTZjZjNZZXc0Zi1fUzdvWm0xYWk4VmNiaU9WdHhVUno5WTBxMGhkNWpkZWVJUXA4bVdtYw?oc=5",
-      "datetime": 1792781668,
-      "headlineKo": "POLL 캐나다 중앙은행, 10월 28일 금리를 2.50%로 인상하고 3월 말까지 다시 한 번 인상 - Reuters",
-      "summaryKo": "POLL 캐나다 중앙은행, 10월 28일 금리를 2.50%로 인상하고 3월 말까지 다시 한 번 인상할 예정 Reuters"
-    },
-    {
-      "headline": "CrowdStrike CEO's alarming prediction — plus, the sell-off spreads beyond tech",
-      "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/10/23/crowdstrikes-alarming-prediction-plus-sell-off-spreads-beyond-tech.html",
-      "datetime": 1792781396,
-      "headlineKo": "CrowdStrike CEO의 놀라운 예측 - 게다가 매각은 기술 분야를 넘어 확산됩니다.",
-      "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
-    },
-    {
-      "headline": "Investors are starting to find opportunities in the battered bond market",
-      "summary": "Some market participants see reason for hope in a market bludgeoned this year.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/23/investors-are-starting-to-find-opportunities-in-the-battered-bond-market.html",
-      "datetime": 1792777231,
-      "headlineKo": "투자자들은 훼손된 채권 시장에서 기회를 찾기 시작했습니다.",
-      "summaryKo": "일부 시장 참여자들은 올해 큰 타격을 입은 시장에서 희망을 찾을 이유가 있다고 봅니다."
     }
   ],
-  "_news_collection_status": "empty_kept_previous",
-  "_news_last_success_at": 1792838223.337589,
+  "_news_collection_status": "ok",
+  "_news_last_success_at": 1792845897.6061306,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792842058.6703155,
-  "_updated_label": "2026-10-24 20:41",
-  "_last_attempt_at": 1792842058.6703155,
-  "_last_success_at": 1792838211.3980803,
-  "_collection_status": "partial",
-  "_collection_errors": [
-    "시장 헤드라인(0건, 이전 유지)"
-  ]
+  "_fetched_at": 1792845881.552542,
+  "_updated_label": "2026-10-24 21:45",
+  "_last_attempt_at": 1792845881.552542,
+  "_last_success_at": 1792845881.552542,
+  "_collection_status": "ok",
+  "_collection_errors": []
 };
