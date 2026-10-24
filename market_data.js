@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": -2.1907024532739516,
-        "ret3m": 19.900686625674812,
-        "ret6m": 10.935308925185549,
-        "ret1y": 2.7246590479946597,
+        "ret1m": -1.6630881288799193,
+        "ret3m": 23.110420007609545,
+        "ret6m": 12.769826311675203,
+        "ret1y": 1.9391798965703755,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -18.993285160426453,
-        "ret3m": -8.238551865145682,
-        "ret6m": 11.611377901362708,
-        "ret1y": 120.1638185020868,
+        "ret1m": -19.970463251886795,
+        "ret3m": -11.230811009678376,
+        "ret6m": 18.20685715743997,
+        "ret1y": 115.77266149177161,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": -20.80295406576338,
-        "ret3m": -4.375546989332979,
-        "ret6m": -16.08948600081416,
-        "ret1y": 139.17673627968304,
+        "ret1m": -22.12133763367824,
+        "ret3m": -8.941542995186925,
+        "ret6m": -14.919663114227843,
+        "ret1y": 132.05387886142893,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": -16.601498454118556,
-        "ret3m": -16.084835124249707,
-        "ret6m": -22.073300452253385,
-        "ret1y": 18.85532671998984,
+        "ret1m": -14.429297310156697,
+        "ret3m": -14.644887787460215,
+        "ret6m": -19.565578737345255,
+        "ret1y": 17.580362971472496,
         "winRate": null,
         "count": 12
       }
@@ -229,10 +229,10 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.3637613558867564,
-    "corrPctRank": 8.702928870292887,
+    "corr60": 0.3784286743379698,
+    "corrPctRank": 9.128978224455611,
     "corrMin5y": 0.036257837878636255,
-    "corrMedian5y": 0.6976029792226366,
+    "corrMedian5y": 0.6976050036941197,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
@@ -250,9 +250,18 @@ const MARKET_DATA = {
       "summary": "Seven killed as gunmen open fire at church in Jordan in 'terrorist' attack, authorities say Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNd2lOTkU3cVRlN2NTOWxzMWZYZnZUSjBZeWV6VHprNk44Q0pWLXdaMjF6QU1iS1JjV2RLdkFkM2NyVUtTOXpDdHg3SThHN2tFZFozTGZIdlVaVzBqUFV2STZCMXcwbjMycDNTNWppUDdSTVZBaWxqTTR4dk5kWkFrTDM2TzVkYi1oNTNwTjluU2NmTmY5cHkxbEhhWGR4VUt5QTJub2hkalo1WExtNVc2MEoybC1YWkQxbnNoZ3l6QzB6c1lOdGJhZTdB?oc=5",
-      "datetime": 1792790732,
+      "datetime": 1792791782,
       "headlineKo": "요르단 교회에서 무장괴한이 총격을 가해 7명이 사망했다고 당국이 밝혔습니다.",
       "summaryKo": "요르단 교회서 '테러' 공격에 무장괴한들이 총격을 가해 7명이 사망했다고 당국이 밝혔습니다."
+    },
+    {
+      "headline": "In Florida, Trump vows to deal with Cuba after Iran settled - Reuters",
+      "summary": "In Florida, Trump vows to deal with Cuba after Iran settled Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaW1UZUdScXEwTWVUNUJxcDkyWmV1TDREckM1RnRCTFR4VjBuVmk2Vm9OVF83d2FLdTdnSGN2N0FGNURpVXJKbzR4bWI3b05TY3pPWGgzRnZvX2N4SEQ4cmw3blpTZktVMXd4UDlFeWpFcG9jX1FJcTN3OW1WVW5UTnFfQ3BqdHRwNFAzOGRsc1Nyc0N6TENyVDJaeW9ZSExlSl9adExjYmQ?oc=5",
+      "datetime": 1792791415,
+      "headlineKo": "플로리다에서 트럼프는 이란이 정착한 후 쿠바와 협상하겠다고 다짐했습니다.",
+      "summaryKo": "플로리다에서 트럼프는 이란이 합의한 후 쿠바와 협상하겠다고 다짐했습니다."
     },
     {
       "headline": "Trump says US will 'take care of Cuba' on its way back from Iran - Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792773875,
       "headlineKo": "대학 캠퍼스는 (대체로) 조용해졌습니다. 잡담과 전화 없는 공간을 연습하면 상황이 바뀔 수 있을까요?",
       "summaryKo": "대학생들은 사교 활동에 더 적은 시간을 소비하고 있으며 이는 나중에 인생과 직장에 영향을 미칩니다."
-    },
-    {
-      "headline": "US fines Air France, KLM over flights in prohibited Iraqi airspace - Reuters",
-      "summary": "US fines Air France, KLM over flights in prohibited Iraqi airspace Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRmlDdXhrR2VhUFlYLXFkR3JtSzlGYTZ2Sng0SUNucWQ3bmt3bGtyLUNoYnFOR3luc1FhdFFTTG5NdVAzdm1nay1iSE1RU3FKd0pmZ2JrYURHcV9XYWJwd3h1cjZxUURqRXl3RWxZUkplOU9vWU1lQUY2ai1zOUc1T010V2oxak1xSmJLR1ZNRk9Sd1NtRFFfNWFQR214UF9TN1R5UDFNOWl4aF93T0kwRi1nbTFwUU0?oc=5",
-      "datetime": 1792773703,
-      "headlineKo": "미국, 금지된 이라크 영공 비행에 대해 에어프랑스, KLM에 벌금 부과 - 로이터",
-      "summaryKo": "미국, 금지된 이라크 영공 비행에 대해 에어프랑스, KLM에 벌금 부과 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792796429.9415863,
+  "_news_last_success_at": 1792800045.7855744,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792796420.7833145,
-  "_updated_label": "2026-10-24 08:00",
-  "_last_attempt_at": 1792796420.7833145,
-  "_last_success_at": 1792796420.7833145,
+  "_fetched_at": 1792800037.4547126,
+  "_updated_label": "2026-10-24 09:01",
+  "_last_attempt_at": 1792800037.4547126,
+  "_last_success_at": 1792800037.4547126,
   "_collection_status": "ok",
   "_collection_errors": []
 };
