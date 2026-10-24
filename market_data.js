@@ -345,16 +345,18 @@ const MARKET_DATA = {
       "summaryKo": "일부 시장 참여자들은 올해 큰 타격을 입은 시장에서 희망을 찾을 이유가 있다고 봅니다."
     }
   ],
-  "_news_collection_status": "ok",
+  "_news_collection_status": "empty_kept_previous",
   "_news_last_success_at": 1792838223.337589,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792838211.3980803,
-  "_updated_label": "2026-10-24 19:37",
-  "_last_attempt_at": 1792838211.3980803,
+  "_fetched_at": 1792842058.6703155,
+  "_updated_label": "2026-10-24 20:41",
+  "_last_attempt_at": 1792842058.6703155,
   "_last_success_at": 1792838211.3980803,
-  "_collection_status": "ok",
-  "_collection_errors": []
+  "_collection_status": "partial",
+  "_collection_errors": [
+    "시장 헤드라인(0건, 이전 유지)"
+  ]
 };
