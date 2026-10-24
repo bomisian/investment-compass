@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Fact vs. fiction: Doctors share whether peptides are safe and effective",
+      "summary": "As peptides gain popularity among some wellness influencers and federal government officials, doctors share what you need to know.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/make-it/2026/10/24/peptides-safety-risks-benefits.html",
+      "datetime": 1792847101,
+      "headlineKo": "사실 대 허구: 의사들은 펩타이드가 안전하고 효과적인지 공유합니다.",
+      "summaryKo": "일부 웰니스 영향력자와 연방 정부 공무원 사이에서 펩타이드가 인기를 얻으면서 의사들은 귀하가 알아야 할 사항을 공유합니다."
+    },
+    {
       "headline": "Why popular airplanes are getting scrapped years early",
       "summary": "Airplanes are getting dismantled for parts years ahead of schedule because engines and other components are in short supply.",
       "source": "CNBC",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792786800,
       "headlineKo": "마르코 루비오(Marco Rubio)는 쿠바에서 변화를 원하는 사람들에게 CIA와 협력할 것을 촉구합니다. - 로이터",
       "summaryKo": "마르코 루비오(Marco Rubio)는 쿠바에서 변화를 원하는 이들에게 CIA와 협력할 것을 촉구했습니다."
-    },
-    {
-      "headline": "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say - Reuters",
-      "summary": "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOc28yS2Z0aVExaE1CeEZtYURTUG5NMDBhZnVidVctdjJZak1tMk5oQy1aU0dlQzBJbEV2SWlUdUdxNC1YMngyZEhLM0l3ZmI5dEliUjRPNVdsSnV2QWV2TS1TNVhaN2RTYlpSaEFCMjFHRGs5Z29Cek10c1BfUEZROHpjd2NIRHFfNEhLUGdhbDBXQ2hfXzUtc0daeHZPRlpoTXo5TjlvTVZuWXgwVmtEbG5jemZUWDRvRDJvWVQxb3VKdzZucnBlUEhPZw?oc=5",
-      "datetime": 1792785849,
-      "headlineKo": "이란은 전쟁이 재개되면 걸프 해저 케이블을 공격할 세부 계획을 갖고 있다고 관리들이 밝혔습니다.",
-      "summaryKo": "이란은 전쟁이 재개되면 걸프 해저 케이블을 공격할 세부 계획을 갖고 있다고 관리들이 밝혔습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792845897.6061306,
+  "_news_last_success_at": 1792849816.4854066,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792845881.552542,
-  "_updated_label": "2026-10-24 21:45",
-  "_last_attempt_at": 1792845881.552542,
-  "_last_success_at": 1792845881.552542,
+  "_fetched_at": 1792849808.3823707,
+  "_updated_label": "2026-10-24 22:50",
+  "_last_attempt_at": 1792849808.3823707,
+  "_last_success_at": 1792849808.3823707,
   "_collection_status": "ok",
   "_collection_errors": []
 };
