@@ -255,6 +255,24 @@ const MARKET_DATA = {
       "summaryKo": "AI 주식의 교체는 몇몇 방어적인 클럽 주식에 도움이 되었습니다."
     },
     {
+      "headline": "Libya's Dbeibah says ready to address Egypt's maritime concerns - Reuters",
+      "summary": "Libya's Dbeibah says ready to address Egypt's maritime concerns Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmxsRWg3NGtsREw4YWtPYlZUcjJVN0FJcDJkbzY1ZjdycTZzVzNjVFpwajFzTk9pT1V5QW5JdmQyMWNaOTIxU1pGdHRQQ2ZXcnh2UnFFQTJjUUlrSlpTZVBkNHBvaGpVY3JZMjZoSkliSWYxWm44dEpaQTdsNmNrb0RMV1FfX0p5eUpSQWFCYkpQRWE4WXllX1FYTW1IbE01SDk2bjVpNHVLOHI5RnllbE93?oc=5",
+      "datetime": 1792857849,
+      "headlineKo": "리비아의 드베이바(Dbeibah)는 이집트의 해양 문제를 해결할 준비가 되어 있다고 말했습니다 - 로이터",
+      "summaryKo": "리비아의 드베이바(Dbeibah)는 이집트의 해양 문제를 해결할 준비가 되어 있다고 말했습니다."
+    },
+    {
+      "headline": "Iran has ramped up efforts to target US personnel, intelligence memo warns - Reuters",
+      "summary": "Iran has ramped up efforts to target US personnel, intelligence memo warns Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSnBGckdpTkdaSnNZeFIyenI0MVVDMHd6R2ZDcTlUX3I4OWNNMlRjd0FTXzhCY09zakU1MWx2RzBpRW1QYTRxY2M3UWpBZHR3S1JlNjQ0WlIyRlh3ZnhNaVZ0OVcwU21YMjUyVVF0RXB0VXFLMWpGdEVtak1DUktTdUdLWmQyWGRFQ0xmb2Z3WG1nSHdfVUxlbUlsc2RJRmNmWVRHS1Qtd0RCVU92d2t1S19HbjlFVzdoREJONTRNYk1iZw?oc=5",
+      "datetime": 1792857823,
+      "headlineKo": "이란이 미군을 표적으로 삼기 위한 노력을 강화했다고 정보 메모가 경고했다 - 로이터",
+      "summaryKo": "이란이 미국 요원을 표적으로 삼기 위한 노력을 강화했다고 정보 메모가 경고했습니다."
+    },
+    {
       "headline": "Around 1,200 Palestinians are displaced in Hebron as Israel begins military operation - Reuters",
       "summary": "Around 1,200 Palestinians are displaced in Hebron as Israel begins military operation Reuters",
       "source": "Reuters",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792847101,
       "headlineKo": "사실 대 허구: 의사들은 펩타이드가 안전하고 효과적인지 공유합니다.",
       "summaryKo": "일부 웰니스 영향력자와 연방 정부 공무원 사이에서 펩타이드가 인기를 얻으면서 의사들은 귀하가 알아야 할 사항을 공유합니다."
-    },
-    {
-      "headline": "UAE's Ras Al Khaimah shuts all beaches as neighbours grapple with oil spill - Reuters",
-      "summary": "UAE's Ras Al Khaimah shuts all beaches as neighbours grapple with oil spill Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeDMwaHJxZFNJTlFkYnB5UDY2SEdRcnRvdGRMSUNDR0I3cmhHT0xkTHQ4QjR5d241bnMtTm44UFIzdTZJYUJwcXZTcVFwN2FSVm80aTBWNmpXQVhrSTdtMnZHbWJiZTV1WFl1cGVyOHlJSmZ2d3gxZ0ZpTkpVOW0xTWFrNEFlTDczUGY1TVl0SmVKSVQ5cnN3S2NhU2dwZGZuYldJZDB3WWpaQTYzQ1RQeUdqNS1acnNqY002emRQMHV0TFU?oc=5",
-      "datetime": 1792845943,
-      "headlineKo": "UAE의 라스 알 카이마(Ras Al Khaimah)는 이웃들이 기름 유출로 인해 어려움을 겪자 모든 해변을 폐쇄했습니다 - Reuters",
-      "summaryKo": "UAE의 라스 알 카이마(Ras Al Khaimah)는 이웃들이 기름 유출로 인해 어려움을 겪자 모든 해변을 폐쇄했습니다 - 최신"
-    },
-    {
-      "headline": "Why popular airplanes are getting scrapped years early",
-      "summary": "Airplanes are getting dismantled for parts years ahead of schedule because engines and other components are in short supply.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/24/spirit-airlines-planes-scrapped-engine-shortage.html",
-      "datetime": 1792843201,
-      "headlineKo": "인기 비행기가 몇 년 일찍 폐기되는 이유",
-      "summaryKo": "엔진과 기타 부품의 공급이 부족하기 때문에 비행기는 예정보다 몇 년 앞서 부품을 해체하고 있습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792868431.6638584,
+  "_news_last_success_at": 1792872029.5919366,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792868419.8552697,
-  "_updated_label": "2026-10-25 04:00",
-  "_last_attempt_at": 1792868419.8552697,
-  "_last_success_at": 1792868419.8552697,
+  "_fetched_at": 1792872020.5427115,
+  "_updated_label": "2026-10-25 05:00",
+  "_last_attempt_at": 1792872020.5427115,
+  "_last_success_at": 1792872020.5427115,
   "_collection_status": "ok",
   "_collection_errors": []
 };
