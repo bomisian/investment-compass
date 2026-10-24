@@ -38,20 +38,20 @@ const EPS_DATA = {
         "revenueAvg": 468283414850.0
       }
     ],
-    "updatedAt": "2026-10-24T09:21:53+09:00"
+    "updatedAt": "2026-10-25T05:50:08+09:00"
   },
   "GOOGL": {
     "symbol": "GOOGL",
     "targetLabel": "다음 회계연도",
     "fiscalDate": "2027-12-31",
-    "analystCount": 53.0,
-    "epsNow": 15.0761,
-    "eps7d": 14.9724,
-    "eps30d": 14.8704,
-    "eps60d": 14.7765,
-    "eps90d": 14.6867,
-    "change30dPct": 1.38,
-    "change90dPct": 2.65,
+    "analystCount": 52.0,
+    "epsNow": 15.1107,
+    "eps7d": 15.0389,
+    "eps30d": 14.9221,
+    "eps60d": 14.8373,
+    "eps90d": 14.7672,
+    "change30dPct": 1.26,
+    "change90dPct": 2.33,
     "revisionUp30": 7,
     "revisionDown30": 3,
     "revisionUp7": 3,
@@ -62,36 +62,36 @@ const EPS_DATA = {
       {
         "label": "현재 회계연도",
         "date": "2026-12-31",
-        "epsAvg": 20.5882,
+        "epsAvg": 20.595,
         "epsHigh": 21.79,
         "epsLow": 19.8043,
         "analystCount": 53.0,
-        "revenueAvg": 499710114890.0
+        "revenueAvg": 500145126430.0
       },
       {
         "label": "다음 회계연도",
         "date": "2027-12-31",
-        "epsAvg": 15.0761,
+        "epsAvg": 15.1107,
         "epsHigh": 19.1084,
         "epsLow": 13.96,
-        "analystCount": 53.0,
-        "revenueAvg": 623648687050.0
+        "analystCount": 52.0,
+        "revenueAvg": 626817874790.0
       }
     ],
-    "updatedAt": "2026-10-24T09:22:07+09:00"
+    "updatedAt": "2026-10-25T05:50:22+09:00"
   },
   "AMZN": {
     "symbol": "AMZN",
     "targetLabel": "다음 회계연도",
     "fiscalDate": "2027-12-31",
-    "analystCount": 53.0,
-    "epsNow": 10.5519,
-    "eps7d": 10.5269,
+    "analystCount": 54.0,
+    "epsNow": 10.5582,
+    "eps7d": 10.5273,
     "eps30d": 10.4798,
-    "eps60d": 10.5169,
-    "eps90d": 10.0174,
-    "change30dPct": 0.69,
-    "change90dPct": 5.34,
+    "eps60d": 10.4928,
+    "eps90d": 10.009,
+    "change30dPct": 0.75,
+    "change90dPct": 5.49,
     "revisionUp30": 4,
     "revisionDown30": 1,
     "revisionUp7": 2,
@@ -102,36 +102,36 @@ const EPS_DATA = {
       {
         "label": "현재 회계연도",
         "date": "2026-12-31",
-        "epsAvg": 12.9018,
+        "epsAvg": 12.9043,
         "epsHigh": 13.51,
         "epsLow": 12.16,
         "analystCount": 51.0,
-        "revenueAvg": 828662360890.0
+        "revenueAvg": 828740239080.0
       },
       {
         "label": "다음 회계연도",
         "date": "2027-12-31",
-        "epsAvg": 10.5519,
+        "epsAvg": 10.5582,
         "epsHigh": 15.0435,
         "epsLow": 8.73,
-        "analystCount": 53.0,
-        "revenueAvg": 949544141140.0
+        "analystCount": 54.0,
+        "revenueAvg": 949942407590.0
       }
     ],
-    "updatedAt": "2026-10-24T09:22:20+09:00"
+    "updatedAt": "2026-10-25T05:50:35+09:00"
   },
   "META": {
     "symbol": "META",
     "targetLabel": "다음 회계연도",
     "fiscalDate": "2027-12-31",
-    "analystCount": 54.0,
-    "epsNow": 33.9191,
-    "eps7d": 34.0747,
-    "eps30d": 33.9409,
-    "eps60d": 33.9856,
-    "eps90d": 34.9401,
-    "change30dPct": -0.06,
-    "change90dPct": -2.92,
+    "analystCount": 55.0,
+    "epsNow": 33.9225,
+    "eps7d": 34.0517,
+    "eps30d": 33.8747,
+    "eps60d": 33.9284,
+    "eps90d": 35.1443,
+    "change30dPct": 0.14,
+    "change90dPct": -3.48,
     "revisionUp30": 7,
     "revisionDown30": 3,
     "revisionUp7": 1,
@@ -142,36 +142,36 @@ const EPS_DATA = {
       {
         "label": "현재 회계연도",
         "date": "2026-12-31",
-        "epsAvg": 30.6104,
-        "epsHigh": 33.65,
-        "epsLow": 27.47,
-        "analystCount": 55.0,
-        "revenueAvg": 254188901340.0
+        "epsAvg": 29.2389,
+        "epsHigh": 32.34,
+        "epsLow": 27.77,
+        "analystCount": 53.0,
+        "revenueAvg": 256538395260.0
       },
       {
         "label": "다음 회계연도",
         "date": "2027-12-31",
-        "epsAvg": 33.9191,
+        "epsAvg": 33.9225,
         "epsHigh": 41.5,
-        "epsLow": 28.57,
-        "analystCount": 54.0,
-        "revenueAvg": 306923845530.0
+        "epsLow": 29.44,
+        "analystCount": 55.0,
+        "revenueAvg": 311291364800.0
       }
     ],
-    "updatedAt": "2026-10-24T09:22:34+09:00"
+    "updatedAt": "2026-10-25T05:50:49+09:00"
   },
   "AAPL": {
     "symbol": "AAPL",
     "targetLabel": "현재 회계연도",
     "fiscalDate": "2027-09-30",
     "analystCount": 40.0,
-    "epsNow": 9.5706,
-    "eps7d": 9.5804,
+    "epsNow": 9.5635,
+    "eps7d": 9.5834,
     "eps30d": 9.5815,
-    "eps60d": 9.5395,
-    "eps90d": 9.7106,
-    "change30dPct": -0.11,
-    "change90dPct": -1.44,
+    "eps60d": 9.5313,
+    "eps90d": 9.7111,
+    "change30dPct": -0.19,
+    "change90dPct": -1.52,
     "revisionUp30": 5,
     "revisionDown30": 3,
     "revisionUp7": 1,
@@ -182,29 +182,29 @@ const EPS_DATA = {
       {
         "label": "현재 회계연도",
         "date": "2027-09-30",
-        "epsAvg": 9.5706,
+        "epsAvg": 9.5635,
         "epsHigh": 10.67,
         "epsLow": 8.5,
         "analystCount": 40.0,
-        "revenueAvg": 528113789120.0
+        "revenueAvg": 527257593570.0
       }
     ],
-    "updatedAt": "2026-10-24T09:22:47+09:00"
+    "updatedAt": "2026-10-25T05:51:03+09:00"
   },
   "TSLA": {
     "symbol": "TSLA",
     "targetLabel": "다음 회계연도",
     "fiscalDate": "2027-12-31",
     "analystCount": 31.0,
-    "epsNow": 2.1457,
-    "eps7d": 2.163,
-    "eps30d": 2.1586,
-    "eps60d": 2.1633,
-    "eps90d": 2.5908,
-    "change30dPct": -0.6,
-    "change90dPct": -17.18,
+    "epsNow": 2.15,
+    "eps7d": 2.1684,
+    "eps30d": 2.1972,
+    "eps60d": 2.1586,
+    "eps90d": 2.24,
+    "change30dPct": -2.15,
+    "change90dPct": -4.02,
     "revisionUp30": 1,
-    "revisionDown30": 4,
+    "revisionDown30": 10,
     "revisionUp7": 1,
     "revisionDown7": 0,
     "direction": "하향",
@@ -213,36 +213,36 @@ const EPS_DATA = {
       {
         "label": "현재 회계연도",
         "date": "2026-12-31",
-        "epsAvg": 1.7421,
-        "epsHigh": 2.39,
-        "epsLow": 1.4,
-        "analystCount": 33.0,
-        "revenueAvg": 106882469590.0
+        "epsAvg": 1.7229,
+        "epsHigh": 1.99,
+        "epsLow": 1.5578,
+        "analystCount": 27.0,
+        "revenueAvg": 107792399500.0
       },
       {
         "label": "다음 회계연도",
         "date": "2027-12-31",
-        "epsAvg": 2.1457,
-        "epsHigh": 3.65,
-        "epsLow": 1.3989,
+        "epsAvg": 2.15,
+        "epsHigh": 3.67,
+        "epsLow": 1.283,
         "analystCount": 31.0,
-        "revenueAvg": 121216265940.0
+        "revenueAvg": 121928374220.0
       }
     ],
-    "updatedAt": "2026-10-23T13:13:43+09:00"
+    "updatedAt": "2026-10-25T05:51:16+09:00"
   },
   "ORCL": {
     "symbol": "ORCL",
     "targetLabel": "다음 회계연도",
     "fiscalDate": "2028-05-31",
     "analystCount": 39.0,
-    "epsNow": 10.9916,
+    "epsNow": 10.9955,
     "eps7d": 10.999,
-    "eps30d": 10.9939,
+    "eps30d": 10.9972,
     "eps60d": 10.9149,
-    "eps90d": 10.9216,
+    "eps90d": 10.8902,
     "change30dPct": -0.02,
-    "change90dPct": 0.64,
+    "change90dPct": 0.97,
     "revisionUp30": 23,
     "revisionDown30": 10,
     "revisionUp7": 21,
@@ -253,36 +253,36 @@ const EPS_DATA = {
       {
         "label": "현재 회계연도",
         "date": "2027-05-31",
-        "epsAvg": 8.1406,
+        "epsAvg": 8.1407,
         "epsHigh": 8.37,
         "epsLow": 8.07,
         "analystCount": 37.0,
-        "revenueAvg": 90424111430.0
+        "revenueAvg": 90424117370.0
       },
       {
         "label": "다음 회계연도",
         "date": "2028-05-31",
-        "epsAvg": 10.9916,
+        "epsAvg": 10.9955,
         "epsHigh": 13.3,
         "epsLow": 9.0,
         "analystCount": 39.0,
-        "revenueAvg": 131711633380.0
+        "revenueAvg": 131774266650.0
       }
     ],
-    "updatedAt": "2026-10-23T13:13:56+09:00"
+    "updatedAt": "2026-10-25T05:51:30+09:00"
   },
   "CRM": {
     "symbol": "CRM",
     "targetLabel": "다음 회계연도",
     "fiscalDate": "2028-01-31",
     "analystCount": 53.0,
-    "epsNow": 16.023,
-    "eps7d": 16.0207,
-    "eps30d": 16.0082,
-    "eps60d": 15.5216,
-    "eps90d": 15.512,
-    "change30dPct": 0.09,
-    "change90dPct": 3.29,
+    "epsNow": 16.0152,
+    "eps7d": 16.023,
+    "eps30d": 16.005,
+    "eps60d": 15.5182,
+    "eps90d": 15.5123,
+    "change30dPct": 0.06,
+    "change90dPct": 3.24,
     "revisionUp30": 8,
     "revisionDown30": 2,
     "revisionUp7": 1,
@@ -293,23 +293,23 @@ const EPS_DATA = {
       {
         "label": "현재 회계연도",
         "date": "2027-01-31",
-        "epsAvg": 16.7558,
+        "epsAvg": 16.7548,
         "epsHigh": 17.6,
         "epsLow": 16.67,
         "analystCount": 52.0,
-        "revenueAvg": 46296649200.0
+        "revenueAvg": 46295338330.0
       },
       {
         "label": "다음 회계연도",
         "date": "2028-01-31",
-        "epsAvg": 16.023,
+        "epsAvg": 16.0152,
         "epsHigh": 18.12,
         "epsLow": 14.6632,
         "analystCount": 53.0,
-        "revenueAvg": 50799336690.0
+        "revenueAvg": 50788751270.0
       }
     ],
-    "updatedAt": "2026-10-23T13:14:10+09:00"
+    "updatedAt": "2026-10-25T05:51:43+09:00"
   },
   "PLTR": {
     "symbol": "PLTR",
@@ -349,7 +349,7 @@ const EPS_DATA = {
         "revenueAvg": 12332651640.0
       }
     ],
-    "updatedAt": "2026-10-23T13:14:23+09:00"
+    "updatedAt": "2026-10-25T05:51:57+09:00"
   },
   "NVDA": {
     "symbol": "NVDA",
@@ -357,12 +357,12 @@ const EPS_DATA = {
     "fiscalDate": "2028-01-31",
     "analystCount": 52.0,
     "epsNow": 15.9146,
-    "eps7d": 15.7992,
-    "eps30d": 15.5675,
-    "eps60d": 12.8206,
-    "eps90d": 12.7636,
-    "change30dPct": 2.23,
-    "change90dPct": 24.69,
+    "eps7d": 15.9146,
+    "eps30d": 15.6826,
+    "eps60d": 13.0273,
+    "eps90d": 12.8148,
+    "change30dPct": 1.48,
+    "change90dPct": 24.19,
     "revisionUp30": 7,
     "revisionDown30": 0,
     "revisionUp7": 3,
@@ -377,7 +377,7 @@ const EPS_DATA = {
         "epsHigh": 10.1,
         "epsLow": 9.01,
         "analystCount": 51.0,
-        "revenueAvg": 411653409840.0
+        "revenueAvg": 411653417250.0
       },
       {
         "label": "다음 회계연도",
@@ -386,23 +386,23 @@ const EPS_DATA = {
         "epsHigh": 18.746,
         "epsLow": 12.8484,
         "analystCount": 52.0,
-        "revenueAvg": 692206372650.0
+        "revenueAvg": 692206374410.0
       }
     ],
-    "updatedAt": "2026-10-23T13:14:37+09:00"
+    "updatedAt": "2026-10-25T05:52:10+09:00"
   },
   "AMD": {
     "symbol": "AMD",
     "targetLabel": "다음 회계연도",
     "fiscalDate": "2027-12-31",
     "analystCount": 50.0,
-    "epsNow": 15.7553,
+    "epsNow": 15.7629,
     "eps7d": 15.7219,
     "eps30d": 15.5707,
-    "eps60d": 15.3249,
-    "eps90d": 13.4647,
-    "change30dPct": 1.19,
-    "change90dPct": 17.01,
+    "eps60d": 15.3555,
+    "eps90d": 13.4921,
+    "change30dPct": 1.23,
+    "change90dPct": 16.83,
     "revisionUp30": 7,
     "revisionDown30": 1,
     "revisionUp7": 4,
@@ -413,23 +413,23 @@ const EPS_DATA = {
       {
         "label": "현재 회계연도",
         "date": "2026-12-31",
-        "epsAvg": 7.5868,
+        "epsAvg": 7.5884,
         "epsHigh": 8.2,
         "epsLow": 7.0,
         "analystCount": 49.0,
-        "revenueAvg": 50948325430.0
+        "revenueAvg": 50972190010.0
       },
       {
         "label": "다음 회계연도",
         "date": "2027-12-31",
-        "epsAvg": 15.7553,
+        "epsAvg": 15.7629,
         "epsHigh": 20.25,
         "epsLow": 9.6,
         "analystCount": 50.0,
-        "revenueAvg": 89053930960.0
+        "revenueAvg": 89170919430.0
       }
     ],
-    "updatedAt": "2026-10-23T13:14:50+09:00"
+    "updatedAt": "2026-10-25T05:52:24+09:00"
   },
   "AVGO": {
     "symbol": "AVGO",
@@ -439,7 +439,7 @@ const EPS_DATA = {
     "epsNow": 19.397,
     "eps7d": 19.3938,
     "eps30d": 19.3832,
-    "eps60d": 19.598,
+    "eps60d": 19.5997,
     "eps90d": 19.4832,
     "change30dPct": 0.07,
     "change90dPct": -0.44,
@@ -457,7 +457,7 @@ const EPS_DATA = {
         "epsHigh": 12.38,
         "epsLow": 11.35,
         "analystCount": 48.0,
-        "revenueAvg": 105978068240.0
+        "revenueAvg": 105978078240.0
       },
       {
         "label": "다음 회계연도",
@@ -466,23 +466,23 @@ const EPS_DATA = {
         "epsHigh": 22.44,
         "epsLow": 17.4665,
         "analystCount": 48.0,
-        "revenueAvg": 173968305340.0
+        "revenueAvg": 173968309420.0
       }
     ],
-    "updatedAt": "2026-10-23T13:15:04+09:00"
+    "updatedAt": "2026-10-25T05:52:38+09:00"
   },
   "QCOM": {
     "symbol": "QCOM",
     "targetLabel": "현재 회계연도",
     "fiscalDate": "2027-09-30",
     "analystCount": 34.0,
-    "epsNow": 10.1902,
+    "epsNow": 10.1925,
     "eps7d": 10.1967,
     "eps30d": 10.204,
     "eps60d": 10.202,
-    "eps90d": 11.0467,
-    "change30dPct": -0.14,
-    "change90dPct": -7.75,
+    "eps90d": 10.9694,
+    "change30dPct": -0.11,
+    "change90dPct": -7.08,
     "revisionUp30": 1,
     "revisionDown30": 2,
     "revisionUp7": 0,
@@ -493,27 +493,27 @@ const EPS_DATA = {
       {
         "label": "현재 회계연도",
         "date": "2027-09-30",
-        "epsAvg": 10.1902,
+        "epsAvg": 10.1925,
         "epsHigh": 12.24,
         "epsLow": 8.83,
         "analystCount": 34.0,
-        "revenueAvg": 44873631900.0
+        "revenueAvg": 44876344020.0
       }
     ],
-    "updatedAt": "2026-10-23T13:15:17+09:00"
+    "updatedAt": "2026-10-25T05:52:51+09:00"
   },
   "ARM": {
     "symbol": "ARM",
     "targetLabel": "다음 회계연도",
     "fiscalDate": "2028-03-31",
     "analystCount": 40.0,
-    "epsNow": 3.0628,
+    "epsNow": 3.0665,
     "eps7d": 3.0628,
-    "eps30d": 3.0638,
-    "eps60d": 3.0582,
-    "eps90d": 3.0796,
-    "change30dPct": -0.03,
-    "change90dPct": -0.55,
+    "eps30d": 3.0628,
+    "eps60d": 3.0608,
+    "eps90d": 3.0759,
+    "change30dPct": 0.12,
+    "change90dPct": -0.31,
     "revisionUp30": 2,
     "revisionDown30": 1,
     "revisionUp7": 0,
@@ -524,36 +524,36 @@ const EPS_DATA = {
       {
         "label": "현재 회계연도",
         "date": "2027-03-31",
-        "epsAvg": 2.2282,
+        "epsAvg": 2.2295,
         "epsHigh": 2.38,
         "epsLow": 2.06,
         "analystCount": 39.0,
-        "revenueAvg": 6058451630.0
+        "revenueAvg": 6060856750.0
       },
       {
         "label": "다음 회계연도",
         "date": "2028-03-31",
-        "epsAvg": 3.0628,
+        "epsAvg": 3.0665,
         "epsHigh": 3.69,
         "epsLow": 2.65,
         "analystCount": 40.0,
-        "revenueAvg": 8253431750.0
+        "revenueAvg": 8268244250.0
       }
     ],
-    "updatedAt": "2026-10-23T13:15:31+09:00"
+    "updatedAt": "2026-10-25T05:53:05+09:00"
   },
   "MRVL": {
     "symbol": "MRVL",
     "targetLabel": "다음 회계연도",
     "fiscalDate": "2028-01-31",
     "analystCount": 43.0,
-    "epsNow": 7.2963,
+    "epsNow": 7.329,
     "eps7d": 7.2828,
     "eps30d": 6.7609,
-    "eps60d": 6.2425,
-    "eps90d": 6.1994,
-    "change30dPct": 7.92,
-    "change90dPct": 17.69,
+    "eps60d": 6.249,
+    "eps90d": 6.2409,
+    "change30dPct": 8.4,
+    "change90dPct": 17.43,
     "revisionUp30": 26,
     "revisionDown30": 1,
     "revisionUp7": 24,
@@ -567,33 +567,33 @@ const EPS_DATA = {
         "epsAvg": 4.2203,
         "epsHigh": 4.6141,
         "epsLow": 3.92,
-        "analystCount": 41.0,
-        "revenueAvg": 12069734010.0
+        "analystCount": 42.0,
+        "revenueAvg": 12069368790.0
       },
       {
         "label": "다음 회계연도",
         "date": "2028-01-31",
-        "epsAvg": 7.2963,
+        "epsAvg": 7.329,
         "epsHigh": 8.21,
         "epsLow": 6.22,
         "analystCount": 43.0,
-        "revenueAvg": 19699419880.0
+        "revenueAvg": 19707584360.0
       }
     ],
-    "updatedAt": "2026-10-23T13:15:45+09:00"
+    "updatedAt": "2026-10-25T05:53:18+09:00"
   },
   "INTC": {
     "symbol": "INTC",
     "targetLabel": "다음 회계연도",
     "fiscalDate": "2027-12-31",
     "analystCount": 46.0,
-    "epsNow": 2.1049,
-    "eps7d": 2.0825,
-    "eps30d": 2.0448,
+    "epsNow": 2.1123,
+    "eps7d": 2.0908,
+    "eps30d": 2.0621,
     "eps60d": 2.0351,
-    "eps90d": 1.5847,
-    "change30dPct": 2.94,
-    "change90dPct": 32.83,
+    "eps90d": 1.595,
+    "change30dPct": 2.43,
+    "change90dPct": 32.43,
     "revisionUp30": 1,
     "revisionDown30": 0,
     "revisionUp7": 1,
@@ -604,23 +604,23 @@ const EPS_DATA = {
       {
         "label": "현재 회계연도",
         "date": "2026-12-31",
-        "epsAvg": 1.5281,
+        "epsAvg": 1.5297,
         "epsHigh": 1.74,
         "epsLow": 1.12,
         "analystCount": 41.0,
-        "revenueAvg": 63165957080.0
+        "revenueAvg": 63175987310.0
       },
       {
         "label": "다음 회계연도",
         "date": "2027-12-31",
-        "epsAvg": 2.1049,
+        "epsAvg": 2.1123,
         "epsHigh": 3.44,
         "epsLow": 1.45,
         "analystCount": 46.0,
-        "revenueAvg": 72685983820.0
+        "revenueAvg": 72763473180.0
       }
     ],
-    "updatedAt": "2026-10-23T13:15:59+09:00"
+    "updatedAt": "2026-10-25T05:53:32+09:00"
   },
   "TSM": {
     "symbol": "TSM",
@@ -660,7 +660,7 @@ const EPS_DATA = {
         "revenueAvg": 7322502668340.0
       }
     ],
-    "updatedAt": "2026-10-23T13:16:12+09:00"
+    "updatedAt": "2026-10-25T05:53:46+09:00"
   },
   "ASML": {
     "symbol": "ASML",
@@ -688,7 +688,7 @@ const EPS_DATA = {
         "epsHigh": 43.77,
         "epsLow": 37.12,
         "analystCount": 25.0,
-        "revenueAvg": 44468864640.0
+        "revenueAvg": 44457804430.0
       },
       {
         "label": "다음 회계연도",
@@ -697,26 +697,26 @@ const EPS_DATA = {
         "epsHigh": 63.9,
         "epsLow": 37.43,
         "analystCount": 27.0,
-        "revenueAvg": 57214822150.0
+        "revenueAvg": 57214507040.0
       }
     ],
-    "updatedAt": "2026-10-23T13:16:26+09:00"
+    "updatedAt": "2026-10-25T05:53:59+09:00"
   },
   "AMAT": {
     "symbol": "AMAT",
     "targetLabel": "다음 회계연도",
     "fiscalDate": "2027-10-31",
     "analystCount": 35.0,
-    "epsNow": 18.4672,
-    "eps7d": 18.4658,
+    "epsNow": 18.4909,
+    "eps7d": 18.4789,
     "eps30d": 18.4548,
-    "eps60d": 18.1568,
+    "eps60d": 18.3412,
     "eps90d": 16.7456,
-    "change30dPct": 0.07,
-    "change90dPct": 10.28,
+    "change30dPct": 0.2,
+    "change90dPct": 10.42,
     "revisionUp30": 3,
     "revisionDown30": 0,
-    "revisionUp7": 1,
+    "revisionUp7": 2,
     "revisionDown7": 0,
     "direction": "상향",
     "note": "전망치가 오르는 중",
@@ -733,27 +733,27 @@ const EPS_DATA = {
       {
         "label": "다음 회계연도",
         "date": "2027-10-31",
-        "epsAvg": 18.4672,
+        "epsAvg": 18.4909,
         "epsHigh": 21.77,
         "epsLow": 16.02,
         "analystCount": 35.0,
-        "revenueAvg": 46312452790.0
+        "revenueAvg": 46366612790.0
       }
     ],
-    "updatedAt": "2026-10-23T13:16:39+09:00"
+    "updatedAt": "2026-10-25T05:54:13+09:00"
   },
   "LRCX": {
     "symbol": "LRCX",
     "targetLabel": "다음 회계연도",
     "fiscalDate": "2028-06-30",
-    "analystCount": 26.0,
-    "epsNow": 11.7657,
-    "eps7d": 11.7642,
+    "analystCount": 28.0,
+    "epsNow": 12.1124,
+    "eps7d": 11.7657,
     "eps30d": 11.6518,
     "eps60d": 11.5571,
-    "eps90d": 9.9644,
-    "change30dPct": 0.98,
-    "change90dPct": 18.08,
+    "eps90d": 10.157,
+    "change30dPct": 3.95,
+    "change90dPct": 19.25,
     "revisionUp30": 3,
     "revisionDown30": 0,
     "revisionUp7": 1,
@@ -764,23 +764,23 @@ const EPS_DATA = {
       {
         "label": "현재 회계연도",
         "date": "2027-06-30",
-        "epsAvg": 9.4765,
-        "epsHigh": 10.82,
-        "epsLow": 8.44,
-        "analystCount": 30.0,
-        "revenueAvg": 34924175930.0
+        "epsAvg": 9.6258,
+        "epsHigh": 10.0176,
+        "epsLow": 9.2,
+        "analystCount": 28.0,
+        "revenueAvg": 35381683340.0
       },
       {
         "label": "다음 회계연도",
         "date": "2028-06-30",
-        "epsAvg": 11.7657,
+        "epsAvg": 12.1124,
         "epsHigh": 15.12,
-        "epsLow": 8.96,
-        "analystCount": 26.0,
-        "revenueAvg": 41569922710.0
+        "epsLow": 10.28,
+        "analystCount": 28.0,
+        "revenueAvg": 42649813270.0
       }
     ],
-    "updatedAt": "2026-10-23T13:16:53+09:00"
+    "updatedAt": "2026-10-25T05:54:27+09:00"
   },
   "KLAC": {
     "symbol": "KLAC",
@@ -1543,4 +1543,4 @@ const EPS_DATA = {
     "updatedAt": "2026-10-15T04:29:02"
   }
 };
-const EPS_DATA_GENERATED_AT = "2026-10-24T09:23:01";
+const EPS_DATA_GENERATED_AT = "2026-10-25T05:54:27";
