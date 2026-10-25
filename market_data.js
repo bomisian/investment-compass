@@ -237,6 +237,33 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Here are 4 big things we're watching in the stock market this week",
+      "summary": "Peak earnings season, plus a Fed meeting and fresh inflation data.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/investingclub/2026/10/25/here-are-4-big-things-were-watching-in-the-stock-market-this-week.html",
+      "datetime": 1792940306,
+      "headlineKo": "이번 주 주식 시장에서 주목해야 할 4가지 주요 소식은 다음과 같습니다.",
+      "summaryKo": "최고 실적 시즌, 연준 회의 및 새로운 인플레이션 데이터가 추가되었습니다."
+    },
+    {
+      "headline": "I paid off $11,000 of credit card debt in 18 months while still traveling, shopping and living my life",
+      "summary": "I racked up over $11,000 in credit card debt traveling, shopping and dining out. Here's how I paid it all off in under two years.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/make-it/2026/10/25/pay-off-credit-card-debt.html",
+      "datetime": 1792936801,
+      "headlineKo": "여행하고, 쇼핑하고, 생활하면서 18개월 만에 신용카드 빚 11,000달러를 갚았습니다.",
+      "summaryKo": "나는 여행, 쇼핑, 외식으로 11,000달러가 넘는 신용카드 빚을 졌습니다. 제가 2년 안에 모든 돈을 갚은 방법은 다음과 같습니다."
+    },
+    {
+      "headline": "Should you travel together? Ask these questions before booking: 'It'll save you time, money and disappointment'",
+      "summary": "Consider budget, accommodations, personal habits, alone time and more, say Anna Goldfarb and Nell McShane Wulfhart, experts in friendship, travel and decision-making.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/make-it/2026/10/25/travel-compatibility-questions.html",
+      "datetime": 1792935481,
+      "headlineKo": "함께 여행해야 할까요? 예약하기 전에 다음 질문을 해보세요: '시간, 돈, 실망을 줄여줄 것입니다.'",
+      "summaryKo": "우정, 여행, 의사결정 전문가인 Anna Goldfarb와 Nell McShane Wulfhart는 예산, 숙소, 개인 습관, 혼자 있는 시간 등을 고려한다고 말합니다."
+    },
+    {
       "headline": "Most Gulf shares close lower as Saudi-Houthi fighting rages on - Reuters",
       "summary": "Most Gulf shares close lower as Saudi-Houthi fighting rages on Reuters",
       "source": "Reuters",
@@ -316,45 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792857849,
       "headlineKo": "리비아의 드베이바(Dbeibah)는 이집트의 해양 문제를 해결할 준비가 되어 있다고 말했습니다 - 로이터",
       "summaryKo": "리비아의 드베이바(Dbeibah)는 이집트의 해양 문제를 해결할 준비가 되어 있다고 말했습니다."
-    },
-    {
-      "headline": "Iran has ramped up efforts to target US personnel, intelligence memo warns - Reuters",
-      "summary": "Iran has ramped up efforts to target US personnel, intelligence memo warns Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSnBGckdpTkdaSnNZeFIyenI0MVVDMHd6R2ZDcTlUX3I4OWNNMlRjd0FTXzhCY09zakU1MWx2RzBpRW1QYTRxY2M3UWpBZHR3S1JlNjQ0WlIyRlh3ZnhNaVZ0OVcwU21YMjUyVVF0RXB0VXFLMWpGdEVtak1DUktTdUdLWmQyWGRFQ0xmb2Z3WG1nSHdfVUxlbUlsc2RJRmNmWVRHS1Qtd0RCVU92d2t1S19HbjlFVzdoREJONTRNYk1iZw?oc=5",
-      "datetime": 1792857780,
-      "headlineKo": "이란이 미군을 표적으로 삼기 위한 노력을 강화했다고 정보 메모가 경고했다 - 로이터",
-      "summaryKo": "이란이 미국 요원을 표적으로 삼기 위한 노력을 강화했다고 정보 메모가 경고했습니다."
-    },
-    {
-      "headline": "Around 1,200 Palestinians are displaced in Hebron as Israel begins military operation - Reuters",
-      "summary": "Around 1,200 Palestinians are displaced in Hebron as Israel begins military operation Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNU0lFZzBBODd6NDh2OUEyNmMwbFUyalpDRFpwVkVRVkR2VzlOLWdTU1N1ZmhEaFBzaUFmWUVEMFBrdDFDMVF3WVlQWHh5VVFVd2R6LVM5b3VxakFlNVhwQlNwcHVhaHV0dDZuYjgzSU5qUTdtalpZd2tmQlFxN3ZtcmNpaTdvM3hCUlhMck5ubkphU25lT2dFU0ZvSDVXNEE0amJ1X3IwLU82a2M3TWROaU1SYWhhdHJuQmpLTzZtckhsaVdwODdaOTNaNkk?oc=5",
-      "datetime": 1792857728,
-      "headlineKo": "이스라엘이 군사 작전을 시작함에 따라 약 1,200명의 팔레스타인인이 헤브론에서 난민이 되었습니다 - 로이터",
-      "summaryKo": "이스라엘이 군사 작전을 시작함에 따라 약 1,200명의 팔레스타인인이 헤브론에서 난민이 되었습니다 - 최신"
-    },
-    {
-      "headline": "Retail investors are not more sophisticated than 30 years ago, says former hedge fund manager",
-      "summary": "Retail investors trying to beat the market by buying individual stocks and complex exchange-traded funds may be better off with broad market index funds.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/24/stock-picking-could-hurt-investors-warns-former-hedge-fund-manager.html",
-      "datetime": 1792854001,
-      "headlineKo": "개인 투자자들은 30년 전보다 더 정교하지 않다고 전직 헤지펀드 매니저가 말했습니다.",
-      "summaryKo": "개별 주식과 복잡한 ETF를 매수하여 시장을 이기려는 개인 투자자는 광범위한 시장 인덱스 펀드를 이용하는 것이 더 나을 수 있습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792940552.7193093,
+  "_news_last_success_at": 1792944044.9851127,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792940542.3181074,
-  "_updated_label": "2026-10-26 00:03",
-  "_last_attempt_at": 1792940542.3181074,
-  "_last_success_at": 1792940542.3181074,
+  "_fetched_at": 1792944033.9267395,
+  "_updated_label": "2026-10-26 01:01",
+  "_last_attempt_at": 1792944033.9267395,
+  "_last_success_at": 1792944033.9267395,
   "_collection_status": "ok",
   "_collection_errors": []
 };
