@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Explainer: Four ways US foreign policy could change if Democrats win in November - Reuters",
+      "summary": "Explainer: Four ways US foreign policy could change if Democrats win in November Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYVRLMHJmdldMQ1h3TUZkbmpNUUZqUlVTY1VPaTNpU0JLc2xua051SmgtQUJzcFlnRjV3a3VaWVctNFM0dF80X2VKMlM5UTNIQkV4YmJ4TTAxdDFVS2EtdFN6R2pfTDVTVnNfZjJOYXdxbTV3eGxQeUFPZV85ZjBNb0I2dlpVdU9DQkhDaWI2Z214Wko2cUVLenFCYWUtLVY5WF9ydlJOTmlkdjN4RloxQQ?oc=5",
+      "datetime": 1792922675,
+      "headlineKo": "설명자: 11월 민주당이 승리할 경우 미국 외교 정책이 바뀔 수 있는 네 가지 방법 - Reuters",
+      "summaryKo": "설명자: 11월 민주당이 승리할 경우 미국 외교 정책이 바뀔 수 있는 네 가지 방법 Reuters"
+    },
+    {
       "headline": "Disenchanted Netanyahu supporters are prize of Israel election campaign - Reuters",
       "summary": "Disenchanted Netanyahu supporters are prize of Israel election campaign Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792851020,
       "headlineKo": "요르단 교회 테러 생존자, 가해자가 자신에게 권총 겨누었다고 말 - 로이터 통신",
       "summaryKo": "요르단 교회 공격 생존자, 가해자가 자신에게 권총을 겨누었다고 말하다 - 최신"
-    },
-    {
-      "headline": "An ex-bookkeeper spent $375 to launch a sewing business: 'I hadn't felt so sure about something like that in a long time'",
-      "summary": "Eric Lugo runs Stitch Lab ATX, a sewing studio that offers group classes and events to teach basic sewing skills.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/make-it/2026/10/24/sewing-workshop-business-stitch-lab-atx.html",
-      "datetime": 1792850401,
-      "headlineKo": "전직 회계원이 재봉 사업을 시작하기 위해 375달러를 썼습니다: '오랜만에 그런 확신을 느낀 적이 없었습니다.'",
-      "summaryKo": "Eric Lugo는 기본적인 재봉 기술을 가르치는 그룹 수업과 이벤트를 제공하는 재봉 스튜디오인 Stitch Lab ATX를 운영하고 있습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792926155.094284,
+  "_news_last_success_at": 1792929635.60078,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792926147.5994852,
-  "_updated_label": "2026-10-25 20:03",
-  "_last_attempt_at": 1792926147.5994852,
-  "_last_success_at": 1792926147.5994852,
+  "_fetched_at": 1792929626.0158787,
+  "_updated_label": "2026-10-25 21:01",
+  "_last_attempt_at": 1792929626.0158787,
+  "_last_success_at": 1792929626.0158787,
   "_collection_status": "ok",
   "_collection_errors": []
 };
