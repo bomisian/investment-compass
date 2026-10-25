@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Yemen's Houthis renew warning against using Riyadh airport - Reuters",
+      "summary": "Yemen's Houthis renew warning against using Riyadh airport Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT0JBTVByRUdVWnYzNWpyRUlfbGRFR2RnQzZpbTgzR05tX1AzU2VkVC10RUswYWthSGtJa2FZamVSa2E2ckdSeG5FN3VGTFU5SVJfbjY4NEZjR2tQSWJfZmxtbTJvUU5YSEpKWHRQQWpHMGRfR29xeFhkR1BwcHA5NlA3MnJmRnloYzF6Q0tBZG92ZDgzWmRubVNpNi1CajBmdXdNZmNTYnkzLWFnMldvaQ?oc=5",
+      "datetime": 1792886263,
+      "headlineKo": "예멘 후티 반군, 리야드 공항 이용 반대 경고 재개 - 로이터 통신",
+      "summaryKo": "예멘 후티 반군, 리야드 공항 이용 반대 경고 재개 - 최신"
+    },
+    {
       "headline": "Iran has ramped up efforts to target US personnel, intelligence memo warns - Reuters",
       "summary": "Iran has ramped up efforts to target US personnel, intelligence memo warns Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792847260,
       "headlineKo": "겨울이 다가오면서 미국 상원 경선에서 공화당의 장애물로 난방유 문제 등장 - Reuters",
       "summaryKo": "겨울이 다가옴에 따라 난방유가 미국 상원 경선에서 공화당의 장애물로 떠오릅니다."
-    },
-    {
-      "headline": "Fact vs. fiction: Doctors share whether peptides are safe and effective",
-      "summary": "As peptides gain popularity among some wellness influencers and federal government officials, doctors share what you need to know.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/make-it/2026/10/24/peptides-safety-risks-benefits.html",
-      "datetime": 1792847101,
-      "headlineKo": "사실 대 허구: 의사들은 펩타이드가 안전하고 효과적인지 공유합니다.",
-      "summaryKo": "일부 웰니스 영향력자와 연방 정부 공무원 사이에서 펩타이드가 인기를 얻으면서 의사들은 귀하가 알아야 할 사항을 공유합니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792894804.6222923,
+  "_news_last_success_at": 1792898660.2278888,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792894797.21877,
-  "_updated_label": "2026-10-25 11:20",
-  "_last_attempt_at": 1792894797.21877,
-  "_last_success_at": 1792894797.21877,
+  "_fetched_at": 1792898651.4659572,
+  "_updated_label": "2026-10-25 12:24",
+  "_last_attempt_at": 1792898651.4659572,
+  "_last_success_at": 1792898651.4659572,
   "_collection_status": "ok",
   "_collection_errors": []
 };
