@@ -1,11 +1,11 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1792910815.9193099,
+  "generatedAt": 1792912771.2071774,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792700784,
       "signal": "중립·확인 대기",
       "netScore": 0.7,
@@ -73,7 +73,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792887722,
       "signal": "중립·확인 대기",
       "netScore": -0.14,
@@ -123,7 +123,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "19ba36cbd34cbda7690f",
-          "headline": "Is the AI Bubble About to Burst? Plus, Apple Bets on Doorbells.",
+          "headline": "AI 버블은 곧 터질 것인가? 게다가 Apple은 초인종에 투자하고 있습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792887722,
           "verificationStatus": "needs_confirmation",
@@ -253,7 +253,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792841701,
       "signal": "우호적 변화",
       "netScore": 4.68,
@@ -391,7 +391,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792898400,
       "signal": "주의 강화",
       "netScore": -7.08,
@@ -565,7 +565,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792853501,
       "signal": "주의 강화",
       "netScore": -2.74,
@@ -705,7 +705,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792854496,
       "signal": "주의 강화",
       "netScore": -7.91,
@@ -845,7 +845,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792680578,
       "signal": "우호적 변화",
       "netScore": 2.09,
@@ -914,7 +914,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792774202,
       "signal": "주의 강화",
       "netScore": -7.97,
@@ -1025,7 +1025,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792830000,
       "signal": "중립·확인 대기",
       "netScore": 1.4,
@@ -1094,7 +1094,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792905293,
       "signal": "우호적 변화",
       "netScore": 7.02,
@@ -1144,7 +1144,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "1d68ab84a463ff9c84f7",
-          "headline": "Is AI Power Demand Reset Altering The Investment Case For Vistra Stock?",
+          "headline": "AI 전력 수요 재설정이 Vistra 주식의 투자 사례를 변화시키고 있습니까?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792905293,
           "verificationStatus": "needs_confirmation",
@@ -1157,7 +1157,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "b89ee5d8175fba969c6e",
-          "headline": "Nvidia’s Jensen Huang Says AI Agents Have Sent Token, GPU Demand ‘Through the Roof’: Gene Munster Sees 15 Million Bot Users Soaring to Billions",
+          "headline": "Nvidia의 Jensen Huang은 AI 에이전트가 토큰을 보냈고 GPU 수요가 '지붕을 통해' 전달되었다고 말합니다. Gene Munster는 1,500만 명의 봇 사용자가 수십억 명으로 급증하는 것을 목격했습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792891810,
           "verificationStatus": "needs_confirmation",
@@ -1170,7 +1170,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "fce12bdb500e6ef65eed",
-          "headline": "Did AI Funding Delays Just Shift Coherent's (COHR) Investment Narrative?",
+          "headline": "AI 자금 조달 지연으로 인해 Coherent(COHR)의 투자 내러티브가 바뀌었나요?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792890644,
           "verificationStatus": "needs_confirmation",
@@ -1183,7 +1183,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "af15fb89470083c42c5b",
-          "headline": "1 Red Flag That Keeps Me From Buying AMD Stock",
+          "headline": "AMD 주식 구매를 방해하는 1가지 위험 신호",
           "eventLabel": "실적 발표",
           "publishedAt": 1792889640,
           "verificationStatus": "needs_confirmation",
@@ -1308,7 +1308,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792905293,
       "signal": "우호적 변화",
       "netScore": 9.23,
@@ -1358,7 +1358,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "1d68ab84a463ff9c84f7",
-          "headline": "Is AI Power Demand Reset Altering The Investment Case For Vistra Stock?",
+          "headline": "AI 전력 수요 재설정이 Vistra 주식의 투자 사례를 변화시키고 있습니까?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792905293,
           "verificationStatus": "needs_confirmation",
@@ -1371,7 +1371,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "b89ee5d8175fba969c6e",
-          "headline": "Nvidia’s Jensen Huang Says AI Agents Have Sent Token, GPU Demand ‘Through the Roof’: Gene Munster Sees 15 Million Bot Users Soaring to Billions",
+          "headline": "Nvidia의 Jensen Huang은 AI 에이전트가 토큰을 보냈고 GPU 수요가 '지붕을 통해' 전달되었다고 말합니다. Gene Munster는 1,500만 명의 봇 사용자가 수십억 명으로 급증하는 것을 목격했습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792891810,
           "verificationStatus": "needs_confirmation",
@@ -1384,7 +1384,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "fce12bdb500e6ef65eed",
-          "headline": "Did AI Funding Delays Just Shift Coherent's (COHR) Investment Narrative?",
+          "headline": "AI 자금 조달 지연으로 인해 Coherent(COHR)의 투자 내러티브가 바뀌었나요?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792890644,
           "verificationStatus": "needs_confirmation",
@@ -1522,7 +1522,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792864453,
       "signal": "주의 강화",
       "netScore": -4.28,
@@ -1662,7 +1662,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792853501,
       "signal": "주의 강화",
       "netScore": -5.66,
@@ -1759,7 +1759,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792773000,
       "signal": "주의 강화",
       "netScore": -4.19,
@@ -1842,7 +1842,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792773903,
       "signal": "주의 강화",
       "netScore": -4.13,
@@ -1976,7 +1976,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792767000,
       "signal": "중립·확인 대기",
       "netScore": -0.22,
@@ -2102,7 +2102,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792815600,
       "signal": "우호적 변화",
       "netScore": 2.03,
@@ -2227,7 +2227,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792680290,
       "signal": "우호적 변화",
       "netScore": 2.09,
@@ -2296,7 +2296,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792680290,
       "signal": "우호적 변화",
       "netScore": 2.09,
@@ -2365,7 +2365,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792787653,
       "signal": "중립·확인 대기",
       "netScore": 1.74,
@@ -2446,7 +2446,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2500,7 +2500,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792905293,
       "signal": "우호적 변화",
       "netScore": 6.21,
@@ -2550,7 +2550,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "1d68ab84a463ff9c84f7",
-          "headline": "Is AI Power Demand Reset Altering The Investment Case For Vistra Stock?",
+          "headline": "AI 전력 수요 재설정이 Vistra 주식의 투자 사례를 변화시키고 있습니까?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792905293,
           "verificationStatus": "needs_confirmation",
@@ -2563,7 +2563,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "b89ee5d8175fba969c6e",
-          "headline": "Nvidia’s Jensen Huang Says AI Agents Have Sent Token, GPU Demand ‘Through the Roof’: Gene Munster Sees 15 Million Bot Users Soaring to Billions",
+          "headline": "Nvidia의 Jensen Huang은 AI 에이전트가 토큰을 보냈고 GPU 수요가 '지붕을 통해' 전달되었다고 말합니다. Gene Munster는 1,500만 명의 봇 사용자가 수십억 명으로 급증하는 것을 목격했습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792891810,
           "verificationStatus": "needs_confirmation",
@@ -2576,7 +2576,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "fce12bdb500e6ef65eed",
-          "headline": "Did AI Funding Delays Just Shift Coherent's (COHR) Investment Narrative?",
+          "headline": "AI 자금 조달 지연으로 인해 Coherent(COHR)의 투자 내러티브가 바뀌었나요?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792890644,
           "verificationStatus": "needs_confirmation",
@@ -2715,7 +2715,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792854300,
       "signal": "주의 강화",
       "netScore": -5.74,
@@ -2840,7 +2840,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792853501,
       "signal": "주의 강화",
       "netScore": -5.88,
@@ -2975,7 +2975,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792770602,
       "signal": "주의 강화",
       "netScore": -3.78,
@@ -3058,7 +3058,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792890644,
       "signal": "중립·확인 대기",
       "netScore": -0.56,
@@ -3108,7 +3108,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "fce12bdb500e6ef65eed",
-          "headline": "Did AI Funding Delays Just Shift Coherent's (COHR) Investment Narrative?",
+          "headline": "AI 자금 조달 지연으로 인해 Coherent(COHR)의 투자 내러티브가 바뀌었나요?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792890644,
           "verificationStatus": "needs_confirmation",
@@ -3140,7 +3140,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792689005,
       "signal": "주의 강화",
       "netScore": -3.92,
@@ -3235,7 +3235,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792895700,
       "signal": "주의 강화",
       "netScore": -2.38,
@@ -3285,7 +3285,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "2cd6beedf57946c38bc6",
-          "headline": "Constellation, Vistra, and GE Vernova Ranked From Worst to First for the AI Power Boom",
+          "headline": "AI 파워 붐 부문에서 컨스텔레이션(Constellation), 비스트라(Vistra), GE 베르노바(Vernova)가 최악에서 1위로 올라섰다.",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1792895700,
           "verificationStatus": "needs_confirmation",
@@ -3332,7 +3332,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792895700,
       "signal": "주의 강화",
       "netScore": -3.64,
@@ -3382,7 +3382,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "2cd6beedf57946c38bc6",
-          "headline": "Constellation, Vistra, and GE Vernova Ranked From Worst to First for the AI Power Boom",
+          "headline": "AI 파워 붐 부문에서 컨스텔레이션(Constellation), 비스트라(Vistra), GE 베르노바(Vernova)가 최악에서 1위로 올라섰다.",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1792895700,
           "verificationStatus": "needs_confirmation",
@@ -3396,7 +3396,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "19ba36cbd34cbda7690f",
-          "headline": "Is the AI Bubble About to Burst? Plus, Apple Bets on Doorbells.",
+          "headline": "AI 버블은 곧 터질 것인가? 게다가 Apple은 초인종에 투자하고 있습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792887722,
           "verificationStatus": "needs_confirmation",
@@ -3444,7 +3444,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792905293,
       "signal": "중립·확인 대기",
       "netScore": -1.18,
@@ -3494,7 +3494,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "1d68ab84a463ff9c84f7",
-          "headline": "Is AI Power Demand Reset Altering The Investment Case For Vistra Stock?",
+          "headline": "AI 전력 수요 재설정이 Vistra 주식의 투자 사례를 변화시키고 있습니까?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1792905293,
           "verificationStatus": "needs_confirmation",
@@ -3507,7 +3507,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "2cd6beedf57946c38bc6",
-          "headline": "Constellation, Vistra, and GE Vernova Ranked From Worst to First for the AI Power Boom",
+          "headline": "AI 파워 붐 부문에서 컨스텔레이션(Constellation), 비스트라(Vistra), GE 베르노바(Vernova)가 최악에서 1위로 올라섰다.",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1792895700,
           "verificationStatus": "needs_confirmation",
@@ -3526,7 +3526,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3580,7 +3580,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3634,7 +3634,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3688,7 +3688,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792698420,
       "signal": "주의 강화",
       "netScore": -3.13,
@@ -3773,7 +3773,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3827,7 +3827,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792848563,
       "signal": "우호적 변화",
       "netScore": 2.09,
@@ -3896,7 +3896,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3950,7 +3950,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 1792792807,
       "signal": "중립·확인 대기",
       "netScore": -1.26,
@@ -4020,7 +4020,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1792910815.9193099,
+      "updatedAt": 1792912771.2071774,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,

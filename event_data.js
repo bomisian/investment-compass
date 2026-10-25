@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1792910815.8660188,
+  "generatedAt": 1792912771.1540349,
   "events": [
     {
       "id": "1d68ab84a463ff9c84f7",
@@ -29,7 +29,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Is AI Power Demand Reset Altering The Investment Case For Vistra Stock?",
-      "headlineKo": "",
+      "headlineKo": "AI 전력 수요 재설정이 Vistra 주식의 투자 사례를 변화시키고 있습니까?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=43e2c8616ca969b4ed6c743d95569aea43e8f0b3d8aea6d79ed516dea9cf0dd2",
@@ -197,7 +197,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Constellation, Vistra, and GE Vernova Ranked From Worst to First for the AI Power Boom",
-      "headlineKo": "",
+      "headlineKo": "AI 파워 붐 부문에서 컨스텔레이션(Constellation), 비스트라(Vistra), GE 베르노바(Vernova)가 최악에서 1위로 올라섰다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7389b6adbcd1822881abf2e633edb45ba19a2ccaaed63b9f0c8940d3a7e7110d",
@@ -275,7 +275,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Nvidia’s Jensen Huang Says AI Agents Have Sent Token, GPU Demand ‘Through the Roof’: Gene Munster Sees 15 Million Bot Users Soaring to Billions",
-      "headlineKo": "",
+      "headlineKo": "Nvidia의 Jensen Huang은 AI 에이전트가 토큰을 보냈고 GPU 수요가 '지붕을 통해' 전달되었다고 말합니다. Gene Munster는 1,500만 명의 봇 사용자가 수십억 명으로 급증하는 것을 목격했습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=53d5b4925b86e394413a8018407c2c70bb5b459ac95e8332f86ded3254b58ddc",
@@ -370,7 +370,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "How Investors May Respond To Qualcomm Stock Earnings Outlook Concerns",
-      "headlineKo": "",
+      "headlineKo": "투자자들이 Qualcomm 주식 수익 전망에 대한 우려에 어떻게 대응할 수 있습니까?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2be30e2513c82a9651b593d8c98f0a68caf6f993c59c3a06f986316a6453befa",
@@ -441,7 +441,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Did AI Funding Delays Just Shift Coherent's (COHR) Investment Narrative?",
-      "headlineKo": "",
+      "headlineKo": "AI 자금 조달 지연으로 인해 Coherent(COHR)의 투자 내러티브가 바뀌었나요?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=82732403fc037d86be6b3c5de666422d862d069925fbc62e663d70c4997bbf1f",
@@ -538,7 +538,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "1 Red Flag That Keeps Me From Buying AMD Stock",
-      "headlineKo": "",
+      "headlineKo": "AMD 주식 구매를 방해하는 1가지 위험 신호",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d941c616c2c9aa9cca36c937e875fa72de63a915c3365a21d944f24bbce159a7",
@@ -621,7 +621,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Is the AI Bubble About to Burst? Plus, Apple Bets on Doorbells.",
-      "headlineKo": "",
+      "headlineKo": "AI 버블은 곧 터질 것인가? 게다가 Apple은 초인종에 투자하고 있습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=07647077dba6d2ee6be52046ca470b17d16108b443389f355ca686e32171a59b",
