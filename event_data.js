@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1792932382.3052087,
+  "generatedAt": 1792933279.4876578,
   "events": [
     {
       "id": "104e8b0129884693a843",
@@ -16961,7 +16961,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm",
         "publishedAt": 1792681200.0,
-        "collectedAt": 1792910784.3269672
+        "collectedAt": 1792933251.8774898
       },
       "confirmedFacts": [
         "MRVL가 2026-10-23에 SEC Form 8-K을 제출했습니다.",
@@ -17026,7 +17026,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026066933/wdc-20261002.htm",
         "publishedAt": 1792681200.0,
-        "collectedAt": 1792910784.3269672
+        "collectedAt": 1792933251.8774898
       },
       "confirmedFacts": [
         "WDC가 2026-10-23에 SEC Form 10-Q을 제출했습니다."

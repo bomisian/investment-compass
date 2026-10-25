@@ -237,13 +237,31 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Explainer: Four ways US foreign policy could change if Democrats win in November - Reuters",
-      "summary": "Explainer: Four ways US foreign policy could change if Democrats win in November Reuters",
+      "headline": "Jordan church attack survivor says her cousin died before her eyes - Reuters",
+      "summary": "Jordan church attack survivor says her cousin died before her eyes Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVTFxbDBEOEdFZFEwX29PZzd0QTNuYm11VXE5ekQ1bUgtQjVGeU1lbHdjVG9BR21DcENBLU5BeWFCeERYd2Y4bWp4OHFEclBuWlRUQ3ltUkduNFlQOXNwSTV6ZHJ4Qi02ZGQyakE1a0lfNldTM2RBQ3dVbEJHcWpSWE96b3FKUWstUjh6aExqcTdPMmdhMkRpbEhjcEtpak5YMmFfOThiTmh4ZGd5Z2lGMk1Ucjh0U2lDQjlRZQ?oc=5",
+      "datetime": 1792926251,
+      "headlineKo": "요르단 교회 테러 생존자 \"사촌이 눈앞에서 사망했다\" - 로이터",
+      "summaryKo": "요르단 교회 테러 생존자 \"사촌이 눈앞에서 사망\" - 중앙일보"
+    },
+    {
+      "headline": "Four ways US foreign policy could change if Democrats win in November - Reuters",
+      "summary": "Four ways US foreign policy could change if Democrats win in November Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYVRLMHJmdldMQ1h3TUZkbmpNUUZqUlVTY1VPaTNpU0JLc2xua051SmgtQUJzcFlnRjV3a3VaWVctNFM0dF80X2VKMlM5UTNIQkV4YmJ4TTAxdDFVS2EtdFN6R2pfTDVTVnNfZjJOYXdxbTV3eGxQeUFPZV85ZjBNb0I2dlpVdU9DQkhDaWI2Z214Wko2cUVLenFCYWUtLVY5WF9ydlJOTmlkdjN4RloxQQ?oc=5",
-      "datetime": 1792922675,
-      "headlineKo": "설명자: 11월 민주당이 승리할 경우 미국 외교 정책이 바뀔 수 있는 네 가지 방법 - Reuters",
-      "summaryKo": "설명자: 11월 민주당이 승리할 경우 미국 외교 정책이 바뀔 수 있는 네 가지 방법 Reuters"
+      "datetime": 1792926150,
+      "headlineKo": "11월 민주당이 승리할 경우 미국 외교 정책이 바뀔 수 있는 네 가지 방법 - Reuters",
+      "summaryKo": "11월 민주당이 승리할 경우 미국 외교 정책이 바뀔 수 있는 네 가지 방법 Reuters"
+    },
+    {
+      "headline": "Saudi, Egyptian stocks sink as Yemen conflict intensifies - Reuters",
+      "summary": "Saudi, Egyptian stocks sink as Yemen conflict intensifies Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa3ZBWG5tbkZvcXJFc2xkcEs1SmhEcHAybDM1ZGN0T0ZCN3BIcTFyaF9laXlEYVA2N2ZsUmJjcmgxaS1aVW5jdFZSOFZrc2JnUWFJaFRwR25QS0pob0RTT0lONlJldzVxOFlidThrdm8zTVU4X1l4dFRPVUY5R0ZuX05aX2pibWg2VlNLUmlaVmFaWDg5bDlMQUVFWTh2bnZ3WFJ4MzA1RWVDMEtKOEE?oc=5",
+      "datetime": 1792921445,
+      "headlineKo": "예멘 갈등 심화로 사우디·이집트 주가 하락 - 로이터",
+      "summaryKo": "예멘 갈등 심화로 사우디·이집트 주가 급락 - 로이터"
     },
     {
       "headline": "Disenchanted Netanyahu supporters are prize of Israel election campaign - Reuters",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792854001,
       "headlineKo": "개인 투자자들은 30년 전보다 더 정교하지 않다고 전직 헤지펀드 매니저가 말했습니다.",
       "summaryKo": "개별 주식과 복잡한 ETF를 매수하여 시장을 이기려는 개인 투자자는 광범위한 시장 인덱스 펀드를 이용하는 것이 더 나을 수 있습니다."
-    },
-    {
-      "headline": "I quit my marketing job to walk dogs for 4 months: It's 'one of the most valuable professional experiences I've ever had'",
-      "summary": "\"People sometimes assume dog walking was a gap or detour in my career. I see it as one of the most valuable professional experiences I've had,\" says Sally Simmons.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/make-it/2026/10/24/quit-marketing-job-walk-dogs.html",
-      "datetime": 1792852561,
-      "headlineKo": "4개월 동안 개를 산책시키기 위해 마케팅 일을 그만뒀습니다. 그것은 '내가 이제까지 경험한 가장 귀중한 직업 경험 중 하나'입니다.",
-      "summaryKo": "Sally Simmons는 \"사람들은 때때로 개 산책이 내 경력에 공백이거나 우회로라고 생각합니다. 나는 그것이 내가 가진 가장 귀중한 전문 경험 중 하나라고 생각합니다\"라고 말합니다."
-    },
-    {
-      "headline": "Jordan church attack survivor says assailant pointed handgun at him - Reuters",
-      "summary": "Jordan church attack survivor says assailant pointed handgun at him Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZVhBcHBITVRDY2hGb1hueUEwVnhWbUhBc3dvc2NXTk5Yd3NybDQyUW15R3NfVnBmOHpJLVo5b2UyVmN5NjdURndGT2xQb05hSlE4UU52cnFYMDdjbnlQTm9LRHpBSkdLSDUtTlhKdGJYVjN1cGY3c2hEelZjN3FhRXM1X0ZYbVk1Q05lX3ZPdWtBRHE4U3BHUjJtNUpMemJTbXhRcEVERGFZTUt2QW1JbXlSWUpWOGZ6UWc?oc=5",
-      "datetime": 1792851020,
-      "headlineKo": "요르단 교회 테러 생존자, 가해자가 자신에게 권총 겨누었다고 말 - 로이터 통신",
-      "summaryKo": "요르단 교회 공격 생존자, 가해자가 자신에게 권총을 겨누었다고 말하다 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792929635.60078,
+  "_news_last_success_at": 1792933291.5884078,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792929626.0158787,
-  "_updated_label": "2026-10-25 21:01",
-  "_last_attempt_at": 1792929626.0158787,
-  "_last_success_at": 1792929626.0158787,
+  "_fetched_at": 1792933279.866948,
+  "_updated_label": "2026-10-25 22:02",
+  "_last_attempt_at": 1792933279.866948,
+  "_last_success_at": 1792933279.866948,
   "_collection_status": "ok",
   "_collection_errors": []
 };
