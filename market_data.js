@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Sri Lanka rescues 40 Iranian sailors, spokesman says - Reuters",
+      "summary": "Sri Lanka rescues 40 Iranian sailors, spokesman says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVlpiem5XSDBRRmZVd1BHdS1GaGppQVhLQkVhWkFaU3dvYTl6UkJ5MnZySmFpUkxfb2xZMy14V1pQTlRURmQ3eUNISklSZlVkMkVOZjBja1ZCNkxaaHo4c3IzYUk3VEczNWR0RzFSVEhfXzRUWEliODc2Y1hNSC0wbk5hdWFoUG9IYmxtMURiOHhtYVB1SHJRTWNEbDdBV3dvWXdKTF9lQ2s1Zw?oc=5",
+      "datetime": 1792948018,
+      "headlineKo": "스리랑카, 이란 선원 40명 구출했다고 대변인 발표 - 로이터",
+      "summaryKo": "스리랑카, 이란 선원 40명 구출했다고 대변인 발표 로이터 통신"
+    },
+    {
       "headline": "Billionaire Trump backer says Ben-Gvir, Smotrich should not serve in next Israeli government - Reuters",
       "summary": "Billionaire Trump backer says Ben-Gvir, Smotrich should not serve in next Israeli government Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792869879,
       "headlineKo": "Houthis는 그들이 사우디 석유 현장을 표적으로 삼았다고 말했습니다. 아덴에서 보고된 공격 - 로이터",
       "summaryKo": "Houthis는 그들이 사우디 석유 현장을 표적으로 삼았다고 말했습니다. Aden Reuters에서 보고된 공격"
-    },
-    {
-      "headline": "AI funding fears rattle Wall Street. Here's how we're adjusting our portfolio",
-      "summary": "The rotation out of AI stocks benefited several defensive Club stocks.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/10/24/ai-funding-fears-rattle-wall-street-heres-how-were-adjusting-our-portfolio.html",
-      "datetime": 1792858440,
-      "headlineKo": "AI 자금 조달은 월스트리트를 뒤흔들 것을 두려워합니다. 포트폴리오를 조정하는 방법은 다음과 같습니다.",
-      "summaryKo": "AI 주식의 교체는 몇몇 방어적인 클럽 주식에 도움이 되었습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792955303.7358482,
+  "_news_last_success_at": 1792959289.7984092,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792955296.2976823,
-  "_updated_label": "2026-10-26 04:08",
-  "_last_attempt_at": 1792955296.2976823,
-  "_last_success_at": 1792955296.2976823,
+  "_fetched_at": 1792959281.3759098,
+  "_updated_label": "2026-10-26 05:15",
+  "_last_attempt_at": 1792959281.3759098,
+  "_last_success_at": 1792959281.3759098,
   "_collection_status": "ok",
   "_collection_errors": []
 };
