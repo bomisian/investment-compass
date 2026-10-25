@@ -309,13 +309,13 @@ const MARKET_DATA = {
       "summaryKo": "이란군이 반다르 압바스 상공에서 미국 드론을 격추했다고 타스님(Tasnim)이 로이터 통신을 통해 보도했습니다."
     },
     {
-      "headline": "Saudi Arabia intercepts drones and missiles as fighting with Yemen's Houthis continues - Reuters",
-      "summary": "Saudi Arabia intercepts drones and missiles as fighting with Yemen's Houthis continues Reuters",
+      "headline": "Saudi says Riyadh airport partly reopens despite renewed Houthi threats - Reuters",
+      "summary": "Saudi says Riyadh airport partly reopens despite renewed Houthi threats Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT0JBTVByRUdVWnYzNWpyRUlfbGRFR2RnQzZpbTgzR05tX1AzU2VkVC10RUswYWthSGtJa2FZamVSa2E2ckdSeG5FN3VGTFU5SVJfbjY4NEZjR2tQSWJfZmxtbTJvUU5YSEpKWHRQQWpHMGRfR29xeFhkR1BwcHA5NlA3MnJmRnloYzF6Q0tBZG92ZDgzWmRubVNpNi1CajBmdXdNZmNTYnkzLWFnMldvaQ?oc=5",
       "datetime": 1792886160,
-      "headlineKo": "사우디아라비아, 예멘 후티 반군과의 교전 계속 중 드론과 미사일 요격 - 로이터 통신",
-      "summaryKo": "사우디아라비아, 예멘 후티 반군과의 교전 계속 로이터 통신에 드론과 미사일 요격"
+      "headlineKo": "사우디는 후티의 새로운 위협에도 불구하고 리야드 공항이 부분적으로 재개됐다고 밝혔습니다.",
+      "summaryKo": "사우디는 후티 반군의 새로운 위협에도 불구하고 리야드 공항이 부분적으로 재개됐다고 밝혔습니다."
     },
     {
       "headline": "Houthis say they targeted Saudi oil sites; attacks reported in Aden - Reuters",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792944044.9851127,
+  "_news_last_success_at": 1792947547.3433244,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792944033.9267395,
-  "_updated_label": "2026-10-26 01:01",
-  "_last_attempt_at": 1792944033.9267395,
-  "_last_success_at": 1792944033.9267395,
+  "_fetched_at": 1792947538.1958742,
+  "_updated_label": "2026-10-26 01:59",
+  "_last_attempt_at": 1792947538.1958742,
+  "_last_success_at": 1792947538.1958742,
   "_collection_status": "ok",
   "_collection_errors": []
 };
