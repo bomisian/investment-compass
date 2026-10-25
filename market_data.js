@@ -237,13 +237,31 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Yemen's Houthis renew warning against using Riyadh airport - Reuters",
-      "summary": "Yemen's Houthis renew warning against using Riyadh airport Reuters",
+      "headline": "Disenchanted Netanyahu supporters are prize of Israel election campaign - Reuters",
+      "summary": "Disenchanted Netanyahu supporters are prize of Israel election campaign Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORkR4bHJlcGYyMi1nYkI4Wm9SeThiSEh4ZUVrdHM1NnpJSjV4eWdVOUxOWS13NzhWZ3RLbXY4Skp2aVhhT0ZUOFR1a0pNYkZzRFRjVjEtSEttMjY1Z1RKMHNvZFI5RVZidV9ONzFuc1lfdjFnRlJlUG84Qy1SNmM5UFkwU0FGYmFLeXFiYTlqU2hsci01T2JwVW1PZFZKT0RCVlVpMTg5VVZDQktaTi01R1pDc2p3RVN3YmpWeWlER1I?oc=5",
+      "datetime": 1792913263,
+      "headlineKo": "환멸을 느낀 네타냐후 지지자들은 이스라엘 선거 캠페인의 상이 되었습니다 - 로이터 통신",
+      "summaryKo": "환멸을 느낀 네타냐후 지지자들은 이스라엘 선거 캠페인의 상입니다 - 최신"
+    },
+    {
+      "headline": "Iranian army says it shot down US drone over Bandar Abbas, Tasnim reports - Reuters",
+      "summary": "Iranian army says it shot down US drone over Bandar Abbas, Tasnim reports Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNjlxWUNjczg2SHFQamFEZDV0SVhZaHA5bFdqaVQzT1oxSjd0b2ZQQjd6MldHeEhKcUstbGJEa1QxMmFBMFhad2VnREVIa2xoT0tPWlFXVW5lcXVEYjMwdUd5NTRIYm0zTFpabXUxY2pCakRGM3JnWE1iNHc3MmtlbWduRno3ZWVGVWVpa2JtRjF4VDh5TEFHN21hUV9sQUhxOWpJMVVPNlhFMDd5SkJMekZkTFdtQzlnYnBQNkd2MG1TNzZy?oc=5",
+      "datetime": 1792912959,
+      "headlineKo": "이란군이 반다르 압바스 상공에서 미국 드론을 격추했다고 타스님(Tasnim)이 보도했습니다.",
+      "summaryKo": "이란군이 반다르 압바스 상공에서 미국 드론을 격추했다고 타스님(Tasnim)이 로이터 통신을 통해 보도했습니다."
+    },
+    {
+      "headline": "Saudi Arabia intercepts drones and missiles as fighting with Yemen's Houthis continues - Reuters",
+      "summary": "Saudi Arabia intercepts drones and missiles as fighting with Yemen's Houthis continues Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT0JBTVByRUdVWnYzNWpyRUlfbGRFR2RnQzZpbTgzR05tX1AzU2VkVC10RUswYWthSGtJa2FZamVSa2E2ckdSeG5FN3VGTFU5SVJfbjY4NEZjR2tQSWJfZmxtbTJvUU5YSEpKWHRQQWpHMGRfR29xeFhkR1BwcHA5NlA3MnJmRnloYzF6Q0tBZG92ZDgzWmRubVNpNi1CajBmdXdNZmNTYnkzLWFnMldvaQ?oc=5",
-      "datetime": 1792886263,
-      "headlineKo": "예멘 후티 반군, 리야드 공항 이용 반대 경고 재개 - 로이터 통신",
-      "summaryKo": "예멘 후티 반군, 리야드 공항 이용 반대 경고 재개 - 최신"
+      "datetime": 1792886160,
+      "headlineKo": "사우디아라비아, 예멘 후티 반군과의 교전 계속 중 드론과 미사일 요격 - 로이터 통신",
+      "summaryKo": "사우디아라비아, 예멘 후티 반군과의 교전 계속 로이터 통신에 드론과 미사일 요격"
     },
     {
       "headline": "Houthis say they targeted Saudi oil sites; attacks reported in Aden - Reuters",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792850401,
       "headlineKo": "전직 회계원이 재봉 사업을 시작하기 위해 375달러를 썼습니다: '오랜만에 그런 확신을 느낀 적이 없었습니다.'",
       "summaryKo": "Eric Lugo는 기본적인 재봉 기술을 가르치는 그룹 수업과 이벤트를 제공하는 재봉 스튜디오인 Stitch Lab ATX를 운영하고 있습니다."
-    },
-    {
-      "headline": "Iran's Pezeshkian blames US for interim deal failure, urges new try - Reuters",
-      "summary": "Iran's Pezeshkian blames US for interim deal failure, urges new try Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNd0xVa2UzLXppdXQ4c2xJaWNFcUlFWWswS3NYT0ZwQkZ3by1HNGJTakpQTDdUYzhSTUpwUHMzRnMtRzNEWmhieTJqTjZOdTlUN3c3YlNFMHVGd2V5RUZUcXNnbXFMMTlQLVBsRXNUT0ZndHM5SmswcFE5U0dCRlBnMndsNnRIQk00OXhIMnFzVDlSTWVVUjJGNkdnUFprRXBhY01RdnJFcnUzb1pzMDd4Ri1nUUdJdw?oc=5",
-      "datetime": 1792848432,
-      "headlineKo": "이란의 페제쉬키안은 잠정 협정 실패에 대해 미국을 비난하고 새로운 시도를 촉구했습니다.",
-      "summaryKo": "이란의 페제쉬키안은 임시 협정 실패에 대해 미국을 비난하고 새로운 시도를 촉구했습니다."
-    },
-    {
-      "headline": "As winter nears, heating oil emerges as hurdle for Republicans in US Senate races - Reuters",
-      "summary": "As winter nears, heating oil emerges as hurdle for Republicans in US Senate races Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWk5FamNJdG52SWx6b2FvaS1zcEFZZUJkbl9Kdl9DS2g2bGZadUJTcUZoMy03VWNrRlMtVFNnc2Q5clJJNVZ5eldDendydEU5b1lndTQ5TXViQW9uN2tTN185S1FkWnV3UHZxZkwtZE5zb0hZYm43ZG5sMHpIYWNGejQ3OWFNSjBjYUZfeEVoN1FvNk9zMmNDdEFrczJ1OEpadEM2U2RmdmtMMy1xUl9DWTkwVWd1ZFNIZjZ2Wg?oc=5",
-      "datetime": 1792847260,
-      "headlineKo": "겨울이 다가오면서 미국 상원 경선에서 공화당의 장애물로 난방유 문제 등장 - Reuters",
-      "summaryKo": "겨울이 다가옴에 따라 난방유가 미국 상원 경선에서 공화당의 장애물로 떠오릅니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792918535.8048866,
+  "_news_last_success_at": 1792922350.2916226,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792918528.5085394,
-  "_updated_label": "2026-10-25 17:56",
-  "_last_attempt_at": 1792918528.5085394,
-  "_last_success_at": 1792918528.5085394,
+  "_fetched_at": 1792922339.4610758,
+  "_updated_label": "2026-10-25 18:59",
+  "_last_attempt_at": 1792922339.4610758,
+  "_last_success_at": 1792922339.4610758,
   "_collection_status": "ok",
   "_collection_errors": []
 };
