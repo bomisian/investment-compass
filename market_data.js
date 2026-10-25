@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Most Gulf shares close lower as Saudi-Houthi fighting rages on - Reuters",
+      "summary": "Most Gulf shares close lower as Saudi-Houthi fighting rages on Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa3ZBWG5tbkZvcXJFc2xkcEs1SmhEcHAybDM1ZGN0T0ZCN3BIcTFyaF9laXlEYVA2N2ZsUmJjcmgxaS1aVW5jdFZSOFZrc2JnUWFJaFRwR25QS0pob0RTT0lONlJldzVxOFlidThrdm8zTVU4X1l4dFRPVUY5R0ZuX05aX2pibWg2VlNLUmlaVmFaWDg5bDlMQUVFWTh2bnZ3WFJ4MzA1RWVDMEtKOEE?oc=5",
+      "datetime": 1792934432,
+      "headlineKo": "사우디-후티 전투 격화로 대부분의 걸프 주가 하락 마감 - Reuters",
+      "summaryKo": "사우디-후티 전쟁 격화로 걸프만 주가 대부분 하락 마감"
+    },
+    {
       "headline": "Jordan church attack survivor says her cousin died before her eyes - Reuters",
       "summary": "Jordan church attack survivor says her cousin died before her eyes Reuters",
       "source": "Reuters",
@@ -253,15 +262,6 @@ const MARKET_DATA = {
       "datetime": 1792926150,
       "headlineKo": "11월 민주당이 승리할 경우 미국 외교 정책이 바뀔 수 있는 네 가지 방법 - Reuters",
       "summaryKo": "11월 민주당이 승리할 경우 미국 외교 정책이 바뀔 수 있는 네 가지 방법 Reuters"
-    },
-    {
-      "headline": "Saudi, Egyptian stocks sink as Yemen conflict intensifies - Reuters",
-      "summary": "Saudi, Egyptian stocks sink as Yemen conflict intensifies Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa3ZBWG5tbkZvcXJFc2xkcEs1SmhEcHAybDM1ZGN0T0ZCN3BIcTFyaF9laXlEYVA2N2ZsUmJjcmgxaS1aVW5jdFZSOFZrc2JnUWFJaFRwR25QS0pob0RTT0lONlJldzVxOFlidThrdm8zTVU4X1l4dFRPVUY5R0ZuX05aX2pibWg2VlNLUmlaVmFaWDg5bDlMQUVFWTh2bnZ3WFJ4MzA1RWVDMEtKOEE?oc=5",
-      "datetime": 1792921445,
-      "headlineKo": "예멘 갈등 심화로 사우디·이집트 주가 하락 - 로이터",
-      "summaryKo": "예멘 갈등 심화로 사우디·이집트 주가 급락 - 로이터"
     },
     {
       "headline": "Disenchanted Netanyahu supporters are prize of Israel election campaign - Reuters",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792936848.5826483,
+  "_news_last_success_at": 1792940552.7193093,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792936840.9254823,
-  "_updated_label": "2026-10-25 23:01",
-  "_last_attempt_at": 1792936840.9254823,
-  "_last_success_at": 1792936840.9254823,
+  "_fetched_at": 1792940542.3181074,
+  "_updated_label": "2026-10-26 00:03",
+  "_last_attempt_at": 1792940542.3181074,
+  "_last_success_at": 1792940542.3181074,
   "_collection_status": "ok",
   "_collection_errors": []
 };
