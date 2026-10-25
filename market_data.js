@@ -241,7 +241,7 @@ const MARKET_DATA = {
       "summary": "Jordan church attack survivor says her cousin died before her eyes Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVTFxbDBEOEdFZFEwX29PZzd0QTNuYm11VXE5ekQ1bUgtQjVGeU1lbHdjVG9BR21DcENBLU5BeWFCeERYd2Y4bWp4OHFEclBuWlRUQ3ltUkduNFlQOXNwSTV6ZHJ4Qi02ZGQyakE1a0lfNldTM2RBQ3dVbEJHcWpSWE96b3FKUWstUjh6aExqcTdPMmdhMkRpbEhjcEtpak5YMmFfOThiTmh4ZGd5Z2lGMk1Ucjh0U2lDQjlRZQ?oc=5",
-      "datetime": 1792926251,
+      "datetime": 1792932327,
       "headlineKo": "요르단 교회 테러 생존자 \"사촌이 눈앞에서 사망했다\" - 로이터",
       "summaryKo": "요르단 교회 테러 생존자 \"사촌이 눈앞에서 사망\" - 중앙일보"
     },
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792933291.5884078,
+  "_news_last_success_at": 1792936848.5826483,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792933279.866948,
-  "_updated_label": "2026-10-25 22:02",
-  "_last_attempt_at": 1792933279.866948,
-  "_last_success_at": 1792933279.866948,
+  "_fetched_at": 1792936840.9254823,
+  "_updated_label": "2026-10-25 23:01",
+  "_last_attempt_at": 1792936840.9254823,
+  "_last_success_at": 1792936840.9254823,
   "_collection_status": "ok",
   "_collection_errors": []
 };
