@@ -291,6 +291,15 @@ const MARKET_DATA = {
       "summaryKo": "요르단 교회 테러 생존자 \"사촌이 눈앞에서 사망\" - 중앙일보"
     },
     {
+      "headline": "Disenchanted Netanyahu supporters are prize of Israel election campaign - Reuters",
+      "summary": "Disenchanted Netanyahu supporters are prize of Israel election campaign Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORkR4bHJlcGYyMi1nYkI4Wm9SeThiSEh4ZUVrdHM1NnpJSjV4eWdVOUxOWS13NzhWZ3RLbXY4Skp2aVhhT0ZUOFR1a0pNYkZzRFRjVjEtSEttMjY1Z1RKMHNvZFI5RVZidV9ONzFuc1lfdjFnRlJlUG84Qy1SNmM5UFkwU0FGYmFLeXFiYTlqU2hsci01T2JwVW1PZFZKT0RCVlVpMTg5VVZDQktaTi01R1pDc2p3RVN3YmpWeWlER1I?oc=5",
+      "datetime": 1792927135,
+      "headlineKo": "환멸을 느낀 네타냐후 지지자들은 이스라엘 선거 캠페인의 상이 되었습니다 - 로이터 통신",
+      "summaryKo": "환멸을 느낀 네타냐후 지지자들은 이스라엘 선거 캠페인의 상입니다 - 최신"
+    },
+    {
       "headline": "Four ways US foreign policy could change if Democrats win in November - Reuters",
       "summary": "Four ways US foreign policy could change if Democrats win in November Reuters",
       "source": "Reuters",
@@ -298,15 +307,6 @@ const MARKET_DATA = {
       "datetime": 1792926150,
       "headlineKo": "11월 민주당이 승리할 경우 미국 외교 정책이 바뀔 수 있는 네 가지 방법 - Reuters",
       "summaryKo": "11월 민주당이 승리할 경우 미국 외교 정책이 바뀔 수 있는 네 가지 방법 Reuters"
-    },
-    {
-      "headline": "Disenchanted Netanyahu supporters are prize of Israel election campaign - Reuters",
-      "summary": "Disenchanted Netanyahu supporters are prize of Israel election campaign Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORkR4bHJlcGYyMi1nYkI4Wm9SeThiSEh4ZUVrdHM1NnpJSjV4eWdVOUxOWS13NzhWZ3RLbXY4Skp2aVhhT0ZUOFR1a0pNYkZzRFRjVjEtSEttMjY1Z1RKMHNvZFI5RVZidV9ONzFuc1lfdjFnRlJlUG84Qy1SNmM5UFkwU0FGYmFLeXFiYTlqU2hsci01T2JwVW1PZFZKT0RCVlVpMTg5VVZDQktaTi01R1pDc2p3RVN3YmpWeWlER1I?oc=5",
-      "datetime": 1792913263,
-      "headlineKo": "환멸을 느낀 네타냐후 지지자들은 이스라엘 선거 캠페인의 상이 되었습니다 - 로이터 통신",
-      "summaryKo": "환멸을 느낀 네타냐후 지지자들은 이스라엘 선거 캠페인의 상입니다 - 최신"
     },
     {
       "headline": "Iranian army says it shot down US drone over Bandar Abbas, Tasnim reports - Reuters",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792951229.3564858,
+  "_news_last_success_at": 1792955303.7358482,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792951221.067758,
-  "_updated_label": "2026-10-26 03:00",
-  "_last_attempt_at": 1792951221.067758,
-  "_last_success_at": 1792951221.067758,
+  "_fetched_at": 1792955296.2976823,
+  "_updated_label": "2026-10-26 04:08",
+  "_last_attempt_at": 1792955296.2976823,
+  "_last_success_at": 1792955296.2976823,
   "_collection_status": "ok",
   "_collection_errors": []
 };
