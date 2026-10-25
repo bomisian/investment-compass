@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Billionaire Trump backer says Ben-Gvir, Smotrich should not serve in next Israeli government - Reuters",
+      "summary": "Billionaire Trump backer says Ben-Gvir, Smotrich should not serve in next Israeli government Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSlk2VkFXVkdJWWhnUXFnSFNuN25YOHpiSHdWczV3X3BHQURLcVhtVzdIVXlRbE5CWU9KSG45dkNqemxwZXBSRHpMR2hkdmhRSFhrNkpHU2dZa2RNbm1hQ3dMTUQtWGlIbElrNHhrb2Zsem4xY19hOHoxNmNlMjJPb3BUd2YybklKZXREeVNKZVNBRGJHTW5jcG5LaVdzZUhLTExFT3ZBV0Nwc29NRXhZXzJFbkRQTjR5UDQ5dVo4b2Jhcm5oVzF3ekt0MA?oc=5",
+      "datetime": 1792946274,
+      "headlineKo": "억만장자 트럼프 후원자, 벤-그비르와 스모트리치가 차기 이스라엘 정부에서 일해서는 안 된다고 말하다 - 로이터 통신",
+      "summaryKo": "억만장자 트럼프 후원자, 벤-그비르와 스모트리치가 차기 이스라엘 정부에서 일해서는 안 된다고 말하다 - 최신"
+    },
+    {
       "headline": "Here are 4 big things we're watching in the stock market this week",
       "summary": "Peak earnings season, plus a Fed meeting and fresh inflation data.",
       "source": "CNBC",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1792858440,
       "headlineKo": "AI 자금 조달은 월스트리트를 뒤흔들 것을 두려워합니다. 포트폴리오를 조정하는 방법은 다음과 같습니다.",
       "summaryKo": "AI 주식의 교체는 몇몇 방어적인 클럽 주식에 도움이 되었습니다."
-    },
-    {
-      "headline": "Libya's Dbeibah says ready to address Egypt's maritime concerns - Reuters",
-      "summary": "Libya's Dbeibah says ready to address Egypt's maritime concerns Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmxsRWg3NGtsREw4YWtPYlZUcjJVN0FJcDJkbzY1ZjdycTZzVzNjVFpwajFzTk9pT1V5QW5JdmQyMWNaOTIxU1pGdHRQQ2ZXcnh2UnFFQTJjUUlrSlpTZVBkNHBvaGpVY3JZMjZoSkliSWYxWm44dEpaQTdsNmNrb0RMV1FfX0p5eUpSQWFCYkpQRWE4WXllX1FYTW1IbE01SDk2bjVpNHVLOHI5RnllbE93?oc=5",
-      "datetime": 1792857849,
-      "headlineKo": "리비아의 드베이바(Dbeibah)는 이집트의 해양 문제를 해결할 준비가 되어 있다고 말했습니다 - 로이터",
-      "summaryKo": "리비아의 드베이바(Dbeibah)는 이집트의 해양 문제를 해결할 준비가 되어 있다고 말했습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1792947547.3433244,
+  "_news_last_success_at": 1792951229.3564858,
   "fgi": {
     "score": 20.9809523809524,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1792947538.1958742,
-  "_updated_label": "2026-10-26 01:59",
-  "_last_attempt_at": 1792947538.1958742,
-  "_last_success_at": 1792947538.1958742,
+  "_fetched_at": 1792951221.067758,
+  "_updated_label": "2026-10-26 03:00",
+  "_last_attempt_at": 1792951221.067758,
+  "_last_success_at": 1792951221.067758,
   "_collection_status": "ok",
   "_collection_errors": []
 };
