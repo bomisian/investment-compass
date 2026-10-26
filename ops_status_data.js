@@ -1,12 +1,12 @@
 // ops_status_report.py가 자동 생성합니다. 직접 수정하지 마세요.
 const OPS_STATUS_DATA = {
-  "generatedAt": "2026-10-26T07:35:42+09:00",
+  "generatedAt": "2026-10-27T07:35:43+09:00",
   "items": [
     {
       "key": "last_success",
       "status": "green",
       "label": "마지막 정상 완료",
-      "detail": "2026-10-26 07:23"
+      "detail": "2026-10-27 07:08"
     },
     {
       "key": "public_verify",
@@ -18,7 +18,7 @@ const OPS_STATUS_DATA = {
       "key": "loop_progress",
       "status": "green",
       "label": "루프 진행",
-      "detail": "대기 중(다음 주기, 13분 전부터)"
+      "detail": "대기 중(다음 주기, 27분 전부터)"
     },
     {
       "key": "loop_count",
@@ -34,21 +34,21 @@ const OPS_STATUS_DATA = {
     },
     {
       "key": "compass_asof",
-      "status": "red",
+      "status": "green",
       "label": "나침반 피드 기준일",
-      "detail": "2026-10-23 (3일 전, 기준 2거래일)"
+      "detail": "2026-10-26"
     },
     {
       "key": "market_expectation_asof",
       "status": "green",
       "label": "시장 기대 기준일",
-      "detail": "2026-10-26"
+      "detail": "2026-10-27"
     },
     {
       "key": "eps",
       "status": "green",
       "label": "EPS 수집",
-      "detail": "가장 오래된 종목 ANET 11일 전"
+      "detail": "가장 오래된 종목 COHR 12일 전"
     },
     {
       "key": "data_audit",
@@ -90,19 +90,37 @@ const OPS_STATUS_DATA = {
       "key": "evidence_review_backlog",
       "status": "yellow",
       "label": "근거 승인 대기",
-      "detail": "WDC(3일), FIX(4일), BE(4일) — approve_evidence.py 실행 필요"
+      "detail": "WDC(4일), FIX(5일), BE(5일) — approve_evidence.py 실행 필요"
+    },
+    {
+      "key": "target_consensus_freshness",
+      "status": "green",
+      "label": "목표가 컨센서스 수집일",
+      "detail": "39종목 3거래일 이내 수집"
+    },
+    {
+      "key": "quarterly_cashflow_gap",
+      "status": "green",
+      "label": "최신 분기 현금흐름(OCF·CAPEX·FCF)",
+      "detail": "비어 있음(아직 기다리는 중): TSM Q3'26(2026-10-26부터 0거래일)"
+    },
+    {
+      "key": "ttm_eps_rule",
+      "status": "green",
+      "label": "TTM EPS 공통 규칙(분기 합/Finnhub)",
+      "detail": "분기 합 34종목 · 기존 값·없음 5종목 · 적정가 변화 9종목 · 판정 변경(승인 기록) CEG"
     },
     {
       "key": "price_map_daily_run",
       "status": "green",
       "label": "가격 지도 일일 실행",
-      "detail": "마지막 성공 세션 2026-10-23(기대 2026-10-23, 실행 2026-10-24 05:35:22)"
+      "detail": "마지막 성공 세션 2026-10-26(기대 2026-10-26, 실행 2026-10-27 05:33:38)"
     },
     {
       "key": "external_peer_cache_freshness",
       "status": "green",
       "label": "외부보충 비교군 캐시 신선도",
-      "detail": "2026-10-26 07:21 KST 정상 갱신(실패 0개)"
+      "detail": "2026-10-27 07:07 KST 정상 갱신(실패 0개)"
     }
   ]
 };
