@@ -5557,7 +5557,8 @@ function summaryCardHtml(r){
   // 이익
   const earnBody = em ? row('전망 방향', `<b>${esc((EST_DIR_STYLE[em.direction] || {}).i || '')}${esc(em.direction)}</b>`)
     + row('선행 EPS 추정 30일 / 90일', `${pc(em.ntm_change_30d)} / ${pc(em.ntm_change_90d)}`)
-    + row('최근 30일 수정 상향 / 하향', `${em.revisions_up_30d ?? '?'} / ${em.revisions_down_30d ?? '?'}건`) : '<div class="sub">이익 전망 자료 없음</div>';
+    + row('최근 30일 수정 상향 / 하향', `${em.revisions_up_30d ?? '?'} / ${em.revisions_down_30d ?? '?'}건`)
+    : ((typeof estConsensusFactsTxt === 'function' && estConsensusFactsTxt(tk)) ? `<div class="sub">${esc(estConsensusFactsTxt(tk))}</div>` : '<div class="sub">이익 전망 자료 없음</div>');
 
   // 시장 기대(② 방법 기준가 시점)
   const ai = a && a.inputs ? a.inputs : null;
@@ -12994,7 +12995,11 @@ function accumulationCheck(r){
   if(em){
     const st = em.direction === '하향 우세' ? 'bad' : (em.direction === '상향 우세' ? 'ok' : 'mid');
     items.push({k: '이익 전망', st, txt: `애널리스트 이익 추정 ${em.direction} (30일 상향 ${em.revisions_up_30d ?? '?'}건 / 하향 ${em.revisions_down_30d ?? '?'}건, 90일 변화 ${pc(em.ntm_change_90d)})`});
-  } else items.push({k: '이익 전망', st: 'na', txt: '컨센서스 자료 없음'});
+  } else {
+    // [WO23-A1] 상태값은 그대로 na(판정·점검 결과 영향 없음), 문구만 실제 자료 상태로
+    const facts = (typeof estConsensusFactsTxt === 'function') ? estConsensusFactsTxt(t) : null;
+    items.push({k: '이익 전망', st: 'na', txt: facts || '컨센서스 자료 없음'});
+  }
   // 2) 실적 방향(SEC 공시 매출·영업이익률)
   let fd = null;
   try{ const fin = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA[t] : null; fd = fin ? computeFinancialDirection(r, fin) : null; }catch(e){ fd = null; }
@@ -14844,6 +14849,23 @@ function estMomentum(ticker){
   const a = marketFairAltRow(ticker);
   const e = a && a.estimate_momentum;
   return (e && e.status === 'ok') ? e : null;
+}
+// [2026-10-26 WO23-A1 외부검토 반영] estMomentum()은 fair_value_alt_data.js(2026-10-01 PLAN_132 감사로
+// 공개 배포 제외 - DEPLOY_RETIRED_FILES)만 읽어서, 공개 페이지에선 39종목 전부 null → "이익 전망 자료 없음"으로
+// 잘못 보였다(로컬에선 파일이 있어 WO14-0 때 재현 안 됨). 원자료가 실제로 없는 게 아니라 "방향 계산
+// 원자료가 공개본에서 빠진" 상태이므로, 공개되는 ESTIMATES_DATA(Yahoo 컨센서스)에 있는 사실만 그대로
+// 보여준다. 새 계산·방향 추정 없음(상향/하향 판단은 하지 않음). 판정 상태값(na)은 호출부에서 그대로 둔다.
+function estConsensusFactsTxt(ticker){
+  const E = (typeof ESTIMATES_DATA !== 'undefined') ? ESTIMATES_DATA[ticker] : null;
+  const tr = E && Array.isArray(E.trend) ? E.trend : [];
+  const fmt = x => {
+    if(!x || typeof x.epsAvg !== 'number' || !isFinite(x.epsAvg)) return null;
+    const fy = (typeof x.endDate === 'string' && x.endDate.length >= 7) ? x.endDate.slice(0, 7).replace('-', '/') + ' 마감 회계연도' : (x.period === '0y' ? '이번 회계연도' : '다음 회계연도');
+    return `${fy} EPS $${x.epsAvg.toFixed(2)}${typeof x.analysts === 'number' ? `(${x.analysts}명)` : ''}`;
+  };
+  const parts = [tr.find(x => x.period === '0y'), tr.find(x => x.period === '+1y')].map(fmt).filter(Boolean);
+  if(!parts.length) return null;
+  return `컨센서스 ${parts.join(' → ')} · 추정 수정 방향(상향/하향 건수)은 공개 페이지에 원자료가 없어 표시 안 함`;
 }
 function estMomentumChip(ticker){
   const e = estMomentum(ticker);
