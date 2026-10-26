@@ -1204,7 +1204,10 @@ async function fetchYahooViaProxies(ticker, range='2y'){
       }
       if(closes.length < 40) throw new Error('데이터 부족');
       _lastGoodProxy = name;
-      return {opens, highs, lows, closes, dates, volumes, source:'Yahoo/'+name, dropped};
+      // [2026-10-26 WO23-A4] 가격의 실제 마지막 거래 시각(야후 meta.regularMarketTime, 정규장 기준)을 같이
+      // 넘긴다 - 한눈표가 "실시간"을 스캔 완료 시각이 아니라 실제 거래 시각·시장 상태로 표시하게.
+      return {opens, highs, lows, closes, dates, volumes, source:'Yahoo/'+name, dropped,
+              marketTime: (meta && typeof meta.regularMarketTime === 'number') ? meta.regularMarketTime : null};
     }catch(e){ lastErr = e; }
   }
   throw lastErr || new Error('야후 프록시 전체 실패');
@@ -2296,7 +2299,7 @@ function computeRiskProfile(closes, dates){
 
 // ============ 종목 분석 ============
 async function analyzeTicker(ticker, env){
-  const {opens, highs, lows, closes, dates, volumes, source, dropped} = await fetchDailyCloses(ticker);
+  const {opens, highs, lows, closes, dates, volumes, source, dropped, marketTime} = await fetchDailyCloses(ticker);
   const price = last(closes);
   // 이상 변동 알림 배너용 - 방금 받은 실시간 종가의 최근 2봉 차이(전일대비 등락률)
   const prevClose = closes.length>1 ? closes[closes.length-2] : null;
@@ -2377,6 +2380,7 @@ async function analyzeTicker(ticker, env){
     score: breakdown.total, breakdown, verdict,
     techScore, techVerdict, entryStat, fairValue, risk,
     dataHealth: computeDataHealth(dates, source, dropped),
+    priceMarketTime: (typeof marketTime === 'number') ? marketTime : null,  // [WO23-A4] 실제 마지막 거래 시각(초, 야후만)
     series: {opens, highs, lows, closes, dates, ma20: ma20arr, rsiArr: rsi(closes), techSeries, fairValue},
   };
 }
@@ -3491,6 +3495,99 @@ const PM_BAND_LABELS = {
   le_fair: {verdict:'적정', action:'선별 매수'},
   gt_fair: {verdict:'고평가', action:'신규 추격 금지'},
 };
+// [2026-10-26 WO23-A4/A5 외부검토 반영] 미국 정규장이 아닐 때도 "실시간 HH:MM"(=스캔 완료 시각)이 떠서
+// 주말에 본 10/23 종가가 실시간처럼 보였다. 가격의 실제 상태를 4가지로 나눠 표시한다:
+// 정규장 실시간 / 장전·장후(가격은 최근 정규장 종가 - 시간외 가격 아님) / 최근 정규장 종가(MM/DD) / 캐시.
+// NYSE 휴장일·조기폐장은 price_map_daily_readiness.py와 같은 목록(NYSE 공식 발표, 2028년까지).
+const NYSE_HOLIDAYS_JS = new Set(['2026-01-01','2026-01-19','2026-02-16','2026-04-03','2026-05-25','2026-06-19','2026-07-03','2026-09-07','2026-11-26','2026-12-25',
+  '2027-01-01','2027-01-18','2027-02-15','2027-03-26','2027-05-31','2027-06-18','2027-07-05','2027-09-06','2027-11-25','2027-12-24',
+  '2028-01-17','2028-02-21','2028-04-14','2028-05-29','2028-06-19','2028-07-04','2028-09-04','2028-11-23','2028-12-25']);
+const NYSE_EARLY_CLOSE_JS = new Set(['2026-11-27','2026-12-24','2027-11-26','2028-07-03','2028-11-24']);
+function nyClockParts(d){
+  const f = new Intl.DateTimeFormat('en-US', {timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false, weekday: 'short'});
+  const o = {}; f.formatToParts(d || new Date()).forEach(x => { o[x.type] = x.value; });
+  const hh = (+o.hour) % 24;
+  return {date: `${o.year}-${o.month}-${o.day}`, mins: hh * 60 + (+o.minute), wd: o.weekday, hhmm: `${String(hh).padStart(2, '0')}:${o.minute}`};
+}
+function nyseSessionState(d){
+  const p = nyClockParts(d);
+  if(p.wd === 'Sat' || p.wd === 'Sun' || NYSE_HOLIDAYS_JS.has(p.date)) return {state: 'closed', nyDate: p.date};
+  const close = NYSE_EARLY_CLOSE_JS.has(p.date) ? 13 * 60 : 16 * 60;
+  if(p.mins >= 9 * 60 + 30 && p.mins < close) return {state: 'regular', nyDate: p.date};
+  if(p.mins >= 4 * 60 && p.mins < 9 * 60 + 30) return {state: 'pre', nyDate: p.date};
+  if(p.mins >= close && p.mins < 20 * 60) return {state: 'post', nyDate: p.date};
+  return {state: 'closed', nyDate: p.date};
+}
+function mdLabel(iso){ return (typeof iso === 'string' && iso.length >= 10) ? `${+iso.slice(5, 7)}/${+iso.slice(8, 10)}` : '?'; }
+function priceTimingLabel(r, nowD){
+  const h = (r && r.dataHealth) || {};
+  const src = String(h.source || '');
+  const lastDate = h.lastDate || (r && r.series && Array.isArray(r.series.dates) ? r.series.dates[r.series.dates.length - 1] : null);
+  if(/GitHubCache|캐시 복원|PRICES_DATA/.test(src)) return `캐시 — ${mdLabel(lastDate)} 종가(저장값, 실시간 조회 실패)`;
+  const ss = nyseSessionState(nowD);
+  if(ss.state === 'regular' && lastDate === ss.nyDate){
+    const mt = (r && typeof r.priceMarketTime === 'number') ? nyClockParts(new Date(r.priceMarketTime * 1000)).hhmm : null;
+    return mt ? `정규장 실시간 · ${mt} ET 거래가` : '정규장 실시간(거래 시각 미확인)';
+  }
+  if(ss.state === 'pre' || ss.state === 'post') return `${ss.state === 'pre' ? '장전' : '장후'} — 최근 정규장 종가(${mdLabel(lastDate)}), 시간외 가격 아님`;
+  return `최근 정규장 종가(${mdLabel(lastDate)})`;
+}
+// [WO23-A5] "적정가 계산 10/24"(엔진 실행일=PC 날짜) 대신 실제 확정 종가 거래일(_meta.session_date) 기준으로 표시
+function pmSessionDate(pm){
+  const M = (typeof PRICE_MAP_DATA !== 'undefined' && PRICE_MAP_DATA && PRICE_MAP_DATA._meta) ? PRICE_MAP_DATA._meta : null;
+  return (M && M.session_date) || null;
+}
+function pmCalcBasisTxt(pm){
+  const sd = pmSessionDate(pm);
+  return sd ? `${mdLabel(sd)} 종가 기준 계산` : `${pm && pm.asOf ? pm.asOf : '-'} 계산`;
+}
+function pmFallbackPriceTxt(pm){
+  const sd = pmSessionDate(pm);
+  return sd ? `가격지도 계산 시 ${mdLabel(sd)} 종가` : '가격지도 계산 시 가격';
+}
+// [2026-10-26 WO23-C8 외부검토 반영] 한눈표 "적정가 근거" 한 줄 - 어느 후보가 적정가를 정했는지(중앙값/평균),
+// 성장률 PER이 30배 상한에 걸렸는지, 걸렸으면 B안(성장 상한 후보 제외 시, diag.fairAltExCappedGrowth)을 같이
+// 보여준다. price_map_data.js의 fairPriceCandidates(엔진이 실제로 쓴 후보, 2026-10-26 추가)를 그대로 읽고,
+// 그 필드가 없는 예전 파일이면 기존 필드(배수·EPS 기준)로 후보 가격을 맞춰 본 뒤 적정가와 정확히 일치할
+// 때만 표시한다(안 맞으면 줄을 비움 - 지어내지 않음). 판정·적정가 계산 영향 없음.
+const PM_CAND_NAME = {historical_per: '과거 PER', sector_per: '업종 PER', growth_per_peg: '성장률 PER'};
+function pmEpsName(basis){
+  const b = String(basis || '');
+  if(b.indexOf('정상화') >= 0 && b.indexOf('NTM') < 0) return '정상화 EPS';
+  if(b.indexOf('TTM') >= 0) return '최근 4분기 EPS';
+  return '예상 EPS';
+}
+function pmFairCandidates(pm){
+  const ok = v => typeof v === 'number' && isFinite(v);
+  if(Array.isArray(pm.fairPriceCandidates) && pm.fairPriceCandidates.length) return pm.fairPriceCandidates.filter(c => ok(c.fairPrice));
+  const c = pm.candidates || {}, out = [];
+  const normalized = c.historicalPerEpsBasis === '정상화 EPS';
+  const fwdEps = pm.epsUsedForCandidates;
+  const histEps = normalized ? fwdEps : pm.ttmEps;
+  if(ok(c.historicalPer) && ok(histEps) && histEps > 0) out.push({candidate: 'historical_per', per: c.historicalPer, eps: histEps, epsBasis: normalized ? '정상화 EPS' : 'TTM EPS', fairPrice: c.historicalPer * histEps});
+  const fb = normalized ? '정상화 EPS' : 'NTM EPS';
+  if(ok(c.sectorPer) && ok(fwdEps) && fwdEps > 0) out.push({candidate: 'sector_per', per: c.sectorPer, eps: fwdEps, epsBasis: fb, fairPrice: c.sectorPer * fwdEps});
+  if(ok(c.growthPerPeg) && ok(fwdEps) && fwdEps > 0) out.push({candidate: 'growth_per_peg', per: c.growthPerPeg, eps: fwdEps, epsBasis: fb, fairPrice: c.growthPerPeg * fwdEps});
+  return out;
+}
+function pmFairBasisLine(pm){
+  const ok = v => typeof v === 'number' && isFinite(v);
+  if(!pm || !ok(pm.fairPrice)) return null;
+  const cs = pmFairCandidates(pm);
+  if(!cs.length) return null;
+  const sorted = cs.slice().sort((a, b) => a.fairPrice - b.fairPrice);
+  const n = sorted.length;
+  const capped = (pm.growthPerCapped === true) || !!(pm.diag && pm.diag.fairAltApplicable === true);
+  const desc = x => `${PM_CAND_NAME[x.candidate] || x.candidate} ${x.per.toFixed(1)}배${x.candidate === 'growth_per_peg' && capped ? '(상한)' : ''} × ${pmEpsName(x.epsBasis)} $${x.eps.toFixed(2)}`;
+  let txt, check;
+  if(n === 1){ check = sorted[0].fairPrice; txt = `${desc(sorted[0])} — 후보 1개만 계산됨`; }
+  else if(n === 2){ check = (sorted[0].fairPrice + sorted[1].fairPrice) / 2; txt = `${desc(sorted[0])}와 ${desc(sorted[1])}의 평균 — 후보 2개`; }
+  else { const m = sorted[1]; check = m.fairPrice; txt = `${desc(m)} — 세 후보 중앙값`; }
+  if(!(Math.abs(check - pm.fairPrice) <= Math.max(1e-6, Math.abs(pm.fairPrice) * 1e-9))) return null;  // 맞춰 본 값이 적정가와 다르면 표시 안 함
+  const alt = pm.diag && ok(pm.diag.fairAltExCappedGrowth) && capped ? ` · 성장 상한 제외 시 $${pm.diag.fairAltExCappedGrowth.toFixed(0)}` : '';
+  const others = sorted.filter(x => n < 3 ? false : x !== sorted[1]).map(x => `${PM_CAND_NAME[x.candidate] || x.candidate} $${x.fairPrice.toFixed(0)}`).join(' / ');
+  return {txt: txt + alt, title: (others ? `나머지 후보: ${others}. ` : '') + '적정가 후보 = 배수 × 기준 EPS. 배수 자체(성장률 PER 30배 상한 등)는 12월 점검 대상.'};
+}
 function resolvePmDisplay(pm, liveR){
   if(!pm) return null;
   const numOk = v => typeof v === 'number' && isFinite(v);
@@ -3598,9 +3695,7 @@ function buildPriceGlanceTableHtml(ticker, liveR){
   // 분리 표기. 실시간 가격을 못 받았으면(스캔 실패 등) pd.priceIsLive=false - 그때는
   // pm.currentPrice(price_map_engine.py가 마지막 실행 때 쓴 종가)로 폴백했다는 뜻이므로
   // "(어제 종가 기준)"이라고 표시(지어낸 숫자 아님, 폴백 사실을 그대로 알림).
-  const priceAsOfTxt = pd.priceIsLive
-    ? `실시간${LAST_SCAN_COMPLETED_AT ? ' ' + LAST_SCAN_COMPLETED_AT.toLocaleTimeString('ko-KR', {hour:'2-digit', minute:'2-digit', hour12:false}) : ''}`
-    : '어제 종가 기준';
+  const priceAsOfTxt = pd.priceIsLive ? priceTimingLabel(liveR) : pmFallbackPriceTxt(pm);  // [WO23-A4]
   // [2026-10-24 봄이 지시 - 업종 비교 줄 교체] 02탭 computePeerPER()(테마 기반 피어) 재사용을
   // 없애고, 가격 지도 업종PER 후보가 "실제로 쓴" 비교군(price_map_data.js sectorPeerDisplay,
   // price_map_engine.py가 계산 결과를 그대로 옮겨 담은 display-only 필드)을 보여준다. 새 계산
@@ -3627,15 +3722,16 @@ function buildPriceGlanceTableHtml(ticker, liveR){
     }
   }
   const rows = [
-    ['현재가', numOk(pd.displayPrice) ? ('$' + pd.displayPrice.toFixed(2) + (pd.priceIsLive ? '' : ' (어제 종가 기준)')) : '-', null],
+    ['현재가', numOk(pd.displayPrice) ? ('$' + pd.displayPrice.toFixed(2) + (pd.priceIsLive ? '' : ` (${pmFallbackPriceTxt(pm)})`)) : '-', null],
     ['적정가', numOk(pm.fairPrice) ? ('$' + pm.fairPrice.toFixed(2)) : '-', null],
+    ...((() => { const fb = pmFairBasisLine(pm); return fb ? [['적정가 근거', esc(fb.txt), fb.title]] : []; })()),  // [WO23-C8]
     ['분할매수 시작가', numOk(pm.bandDcaHigh) ? ('$' + pm.bandDcaHigh.toFixed(2)) : '-', null],
     ['적극 모아가기가', numOk(pm.bandAggressiveLe) ? ('$' + pm.bandAggressiveLe.toFixed(2)) : '-', null],
     ['지금 위치', `${pos.emoji} ${esc(pos.label)}${pctTxt}`, null],
     ...(peerRow ? [peerRow] : []),
     ['신뢰도', esc(pm.confidence || '-'), pm.confidenceNote || null],
     ['가격 기준', esc(priceAsOfTxt), null],
-    ['적정가 계산', esc(pm.asOf || '-') + ' 계산', null],
+    ['적정가 계산', esc(pmCalcBasisTxt(pm)), null],  // [WO23-A5]
   ];
   const rowsHtml = rows.map(([label, val, title], i) => `
     <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:4px 8px;padding:5px 10px;${i>0?'border-top:1px solid var(--panel-2);':''}">
@@ -5095,10 +5191,42 @@ function smartSummaryHtml(ticker){
   if(!(x.investors || []).length) return `<div class="sub">추적 투자자 ${((window.SMART_MONEY || {}).managers || []).length}명 중 최근 공시에서 보유·매매 기록 없음</div>`;
   const c = x.counts || {};
   const inv = (x.investors || []).slice(0, 6).map(i => `${esc(SM_ACT[i.action] || '')}${esc(i.manager || smMgrName(i.key))}`).join(' · ');
-  const age = (x.investors || []).map(i => i.days_since_filing).filter(v => typeof v === 'number');
+  const datesTxt = smart13fDatesTxt(x);
   return `<div class="fund-row"><span>보유 투자자(13F)</span><span class="v">${x.holders ?? 0}명 · 🆕${c['신규'] || 0} ⬆${c['추가'] || 0} ⬇${c['일부매도'] || 0} ❌${c['전량매도'] || 0}</span></div>`
     + (inv ? `<div class="sub" style="font-size:10.5px;">${inv}</div>` : '')
-    + `<div class="sub" style="font-size:10.5px;">최근 공개 공시 기준(보고기준일 ${esc(x.latest_report_date || '?')}${age.length ? ` · 공개 후 ${Math.min(...age)}~${Math.max(...age)}일` : ''}) — 분기말 보유를 최대 45일 지연 공개(13F), 지금도 보유 중인지는 알 수 없어요</div>`;
+    + `<div class="sub" style="font-size:10.5px;">${datesTxt} — 분기말 보유를 최대 45일 지연 공개(13F), 지금도 보유 중인지는 알 수 없어요</div>`;
+}
+// [2026-10-26 WO23-A3 외부검토 반영] 예전엔 "보고기준일 = 투자자 중 최댓값(9/30)"과 "공개 후 경과일 범위 =
+// 전체 투자자(대부분 6/30 분기 공시)"를 한 줄에 섞어 "9/30 기준·공개 후 4~87일"처럼 불가능한 조합을 보였다
+// (9/30 분기 13F는 10/1 이후 제출이라 10/26 기준 최대 25일). 투자자마다 자기 최신 13F 하나씩이므로
+// 보고기준일별로 묶어서 보고기준일·제출일·경과일을 따로 보여준다. 경과일은 공개일(ps)부터 오늘까지
+// 화면에서 다시 센다(수집 당시 숫자 days_since_filing은 시간이 지나면 틀려지므로). 수집일은 파일 생성 시각.
+// 투자자별 날짜(rd/fd/ps)는 build_112 slim_row가 관심종목에만 넣는다 - 없으면 섞인 범위를 보이지 않는다.
+function smart13fDateGroups(x, todayIso){
+  const inv = (x && x.investors) || [];
+  if(!inv.length || !inv.every(i => typeof i.rd === 'string' && i.rd)) return null;
+  const today = todayIso ? new Date(todayIso + 'T00:00:00Z') : new Date(new Date().toISOString().slice(0, 10) + 'T00:00:00Z');
+  const dd = iso => Math.round((today - new Date(iso + 'T00:00:00Z')) / 86400000);
+  const g = {};
+  inv.forEach(i => { (g[i.rd] = g[i.rd] || []).push(i); });
+  return Object.keys(g).sort().reverse().map(rd => {
+    const L = g[rd];
+    const fds = L.map(i => i.fd).filter(v => typeof v === 'string' && v).sort();
+    const els = L.map(i => (typeof (i.ps || i.fd) === 'string') ? dd(i.ps || i.fd) : null).filter(v => typeof v === 'number');
+    return {rd, n: L.length, fdMin: fds[0] || null, fdMax: fds[fds.length - 1] || null,
+            elMin: els.length ? Math.min(...els) : null, elMax: els.length ? Math.max(...els) : null,
+            maxPossible: dd(rd)};
+  });
+}
+function smart13fDatesTxt(x, todayIso){
+  const md = iso => (typeof iso === 'string' && iso.length >= 10) ? `${+iso.slice(5, 7)}/${+iso.slice(8, 10)}` : '?';
+  const S = (typeof window !== 'undefined') ? window.SMART_MONEY : null;
+  const col = S && typeof S.generated_at === 'string' ? ` · 수집 ${md(S.generated_at.slice(0, 10))}` : '';
+  const gs = smart13fDateGroups(x, todayIso);
+  if(!gs) return `최근 공개 공시 기준(투자자별 최신 13F, 보고기준일 최대 ${esc(x.latest_report_date || '?')} — 투자자별 날짜 미수록이라 경과일은 표시 안 함${col})`;
+  const fr = (a, b) => a === b ? md(a) : `${md(a)}~${md(b)}`;
+  const parts = gs.map(g => `보고기준일 ${md(g.rd)} ${g.n}명(제출 ${g.fdMin ? fr(g.fdMin, g.fdMax) : '?'}${g.elMin != null ? ` · 공개 후 ${g.elMin === g.elMax ? g.elMin : g.elMin + '~' + g.elMax}일` : ''})`);
+  return `투자자별 최신 13F: ${parts.join(' / ')}${col}`;
 }
 function setSmartFilter(f){ smartFilter = f; renderSmartMoneyPage(); }
 function smartAddWatch(ticker){
@@ -8193,12 +8321,18 @@ function renderCompassCard(r){
   //     내려옴) 피드 데이터를 지어내 고치지 않고 화면에서만 "추세 이탈 점검"으로 바꿔
   //     보여준다 -- 자기 규칙 위반(ORCL·WDC·COHR·VRT·MOD·EME 실측) 노출. ---
   let compassOverrideNote = '';
-  const feedSaysUptrend = (c.dec === 'BUY' || c.dec === 'ACC');
+  // [2026-10-26 WO23-A2 외부검토 반영] 예전엔 "BUY/ACC = 200일선 위"라고 가정했는데, 나침반 피드는
+  // 200일선 아래에서도 "깊은 낙폭 기준 모아가기"를 낸다(wait 문구에 근거를 적음 - 예: AMAT·ORCL·KLAC·ARM
+  // "200일선($442)도 아래 — 지금 판정은 깊은 낙폭 기준입니다"). 이런 종목은 피드가 이미 200일선 아래인
+  // 걸 알고 판정한 것이라 화면에서 "추세 이탈 점검"으로 덮어쓰면 피드와 다른 말을 하게 된다. 피드 자신이
+  // "깊은 낙폭 기준"이라고 밝힌 경우는 덮어쓰지 않고 피드 판정·문구를 그대로 쓴다(새 판단 없음).
+  const feedDeepDrawdownBasis = typeof c.wait === 'string' && c.wait.indexOf('깊은 낙폭 기준') >= 0;
+  const feedSaysUptrend = (c.dec === 'BUY' || c.dec === 'ACC') && !feedDeepDrawdownBasis;
   const liveBelowMa200 = typeof r.ma200Pct === 'number' && r.ma200Pct < 0;
   if(feedSaysUptrend && liveBelowMa200){
     decColor = COMPASS_DEC_COLOR.SELL;
     decLabel = '추세 이탈 점검';
-    compassOverrideNote = `<div style="margin-top:6px;font-size:11px;color:#7a3b2e;background:#fff0ea;border:1px solid #e9c3b8;border-radius:8px;padding:6px 9px;line-height:1.5;">⚠ 피드 판정은 "${esc(COMPASS_DEC_LABEL[c.dec]||c.dec)}"(기준일 ${esc(c.date||(typeof COMPASS_FEED!=='undefined'?COMPASS_FEED.date:'')||'—')} 기준 200일선 위)였지만, 지금 현재가는 200일선 아래(${r.ma200Pct.toFixed(1)}%)로 내려와 있어 화면에서 "추세 이탈 점검"으로 바꿔 표시합니다 — 나침반 자신의 전제(200일선 위 유지)가 깨진 상태입니다.</div>`;
+    compassOverrideNote = `<div style="margin-top:6px;font-size:11px;color:#7a3b2e;background:#fff0ea;border:1px solid #e9c3b8;border-radius:8px;padding:6px 9px;line-height:1.5;">⚠ 피드 판정은 "${esc(c.decTxt||COMPASS_DEC_LABEL[c.dec]||c.dec)}"(기준일 ${esc(c.date||(typeof COMPASS_FEED!=='undefined'?COMPASS_FEED.date:'')||'—')}, 200일선 위 눌림 구간 기준)이었지만, 지금 현재가는 200일선 아래(${r.ma200Pct.toFixed(1)}%)로 내려와 있어 화면에서 "추세 이탈 점검"으로 바꿔 표시합니다 — 피드가 판정할 때의 전제(200일선 위)가 지금은 깨진 상태입니다.</div>`;
   }
 
   // 기존 EPS·PER 기반 가격 판단과 결론 방향이 뚜렷이 엇갈릴 때만 "기준이 다름" 안내를
@@ -15081,8 +15215,8 @@ function tabPriceMap(r){
     <div class="sub">가격 지도(price_map) — 142 판단 엔진(01 판단 탭)과 <b>완전히 독립적으로</b> 산출된 참고 가격표예요. 서로 다른 판정이면 그대로 둘 다 보여드려요.</div>
     ${PRICE_MAP_DRAFT_REVIEW_NOTICE ? '<div class="sub" style="margin-top:4px;color:#876000;font-weight:700;">⏳ 초안 · 검토 중(10/23 확정 예정) — 지금 보이는 숫자·판정은 확정본이 아니라 검토용 초안입니다.</div>' : ''}
     <div style="font-size:22px;font-weight:800;margin:6px 0 2px;color:${PM_VERDICT_COLOR[pd.verdict]||'#3c4552'};">${esc(pd.verdict)} · ${esc(pd.action)}</div>
-    <div>현재가 <b>${usd(pd.displayPrice)}</b>${pd.priceIsLive?'':' <span class="sub">(어제 종가 기준)</span>'} · 중심 적정가 <b>${usd(pm.fairPrice)}</b>(현재가/적정가 ${(pd.ratio*100).toFixed(0)}%) · 신뢰도 <b>${esc(pm.confidence)}</b></div>
-    <div class="sub">가격: ${pd.priceIsLive ? ('실시간' + (LAST_SCAN_COMPLETED_AT ? ' ' + LAST_SCAN_COMPLETED_AT.toLocaleTimeString('ko-KR', {hour:'2-digit', minute:'2-digit', hour12:false}) : '')) : '어제 종가 기준'} / 적정가: ${esc(pm.asOf||'-')} 계산</div>
+    <div>현재가 <b>${usd(pd.displayPrice)}</b>${pd.priceIsLive?'':` <span class="sub">(${esc(pmFallbackPriceTxt(pm))})</span>`} · 중심 적정가 <b>${usd(pm.fairPrice)}</b>(현재가/적정가 ${(pd.ratio*100).toFixed(0)}%) · 신뢰도 <b>${esc(pm.confidence)}</b></div>
+    <div class="sub">가격: ${esc(pd.priceIsLive ? priceTimingLabel(r) : pmFallbackPriceTxt(pm))} / 적정가: ${esc(pmCalcBasisTxt(pm))}</div>
     ${buildPriceMapBarHtml(pm, pd)}
     <div class="sub">적극 모아가기 ${usd(pm.bandAggressiveLe)} 이하 · 분할매수 ${usd(pm.bandDcaHigh)} 이하 · 적정 상단 ${usd(pm.bandFairHigh)}</div>
     ${pd.modelCheckNeeded ? '<div class="sub" style="color:#b3261e;">⚠ 모델 점검 필요(후보 간 괴리가 커서 자동 산출을 그대로 신뢰하지 않는 게 좋아요)</div>' : ''}
