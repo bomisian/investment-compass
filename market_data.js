@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 101.31999969482422,
+      "current": 101.25,
       "prevClose": 103.2699966430664,
-      "changeAbs": -1.9499969482421875,
-      "changePct": -1.8882511974721856,
+      "changeAbs": -2.0199966430664062,
+      "changePct": -1.95603438436059,
       "pctRank": 91.64677804295943,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -10.29658925864979,
-      "ma20": 95.16399993896485,
-      "ma60": 91.07350044250488,
-      "chg1m": 8.909996032714844,
-      "chg3m": 22.05999755859375,
-      "chg1mPct": 9.641808981302082,
-      "chg3mPct": 27.83244633362169,
+      "drawdown1y": -10.358563315060165,
+      "ma20": 95.16049995422364,
+      "ma60": 91.07233378092448,
+      "chg1m": 8.839996337890625,
+      "chg3m": 21.98999786376953,
+      "chg1mPct": 9.566059936772046,
+      "chg3mPct": 27.744129789415815,
       "lastDate": "2026-10-26",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 102.01799774169922,
+      "current": 102.00199890136719,
       "prevClose": 101.80999755859375,
-      "changeAbs": 0.20800018310546875,
-      "changePct": 0.20430231617062986,
-      "pctRank": 47.334924423229914,
+      "changeAbs": 0.1920013427734375,
+      "changePct": 0.18858790627407368,
+      "pctRank": 47.25536992840095,
       "min5y": 93.3499984741211,
       "max5y": 114.11000061035156,
       "high1y": 102.58000183105469,
-      "drawdown1y": -0.5478690576366629,
-      "ma20": 101.97589988708496,
-      "ma60": 100.46263313293457,
-      "chg1m": 1.0479965209960938,
-      "chg3m": 0.63800048828125,
-      "chg1mPct": 1.0379286008973625,
-      "chg3mPct": 0.6293159455177832,
+      "drawdown1y": -0.5634655092319529,
+      "ma20": 101.97509994506837,
+      "ma60": 100.46236648559571,
+      "chg1m": 1.0319976806640625,
+      "chg3m": 0.6220016479492188,
+      "chg1mPct": 1.022083458638663,
+      "chg3mPct": 0.6135348834094079,
       "lastDate": "2026-10-26",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4028.89990234375,
+      "current": 4031.0,
       "prevClose": 4007.89990234375,
-      "changeAbs": 21.0,
-      "changePct": 0.5239651815585405,
+      "changeAbs": 23.10009765625,
+      "changePct": 0.5763641363084309,
       "pctRank": 80.44515103338632,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -24.246014283952842,
-      "ma20": 4148.289990234375,
-      "ma60": 4335.308325195312,
-      "chg1m": -292.30029296875,
-      "chg3m": -9.800048828125,
-      "chg1mPct": -6.764331198675498,
-      "chg3mPct": -0.24265355056350257,
+      "drawdown1y": -24.206526887464964,
+      "ma20": 4148.394995117187,
+      "ma60": 4335.343326822916,
+      "chg1m": -290.2001953125,
+      "chg3m": -7.699951171875,
+      "chg1mPct": -6.715731329164057,
+      "chg3mPct": -0.19065420221774015,
       "lastDate": "2026-10-26",
       "bars": 1258,
       "symbol": "GC=F",
@@ -246,6 +246,33 @@ const MARKET_DATA = {
       "summaryKo": "JetBlue Airways는 비용 절감과 프리미엄 수익 증대를 목표로 하는 계획을 진행 중입니다."
     },
     {
+      "headline": "Anthropic's IPO puts power in the hands of founders, giving everyday shareholders little voice",
+      "summary": "Founder LLC is one component of the \"novel capital and corporate governance structure\" that Anthropic outlined in its public S-1 filing.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-founder-voting-control.html",
+      "datetime": 1793045274,
+      "headlineKo": "Anthropic의 IPO는 창립자의 손에 권력을 부여하고 일상적인 주주들에게 발언권을 거의 제공하지 않습니다.",
+      "summaryKo": "Founder LLC는 Anthropic이 공개 S-1 서류에 명시한 \"새로운 자본 및 기업 지배구조 구조\"의 한 구성 요소입니다."
+    },
+    {
+      "headline": "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran - Reuters",
+      "summary": "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUUluTlhFbGtJMWMtZ09ieVhSblh2b0Y4cWpleDVwWUVfUWVyanZIOHFhenFqaWRYZ0U0cEd6MFVjQk5xSXZkWjJNRmM4ZWdPa01KTHBRRjVHRnJPRWtlbGRwWFBNOFJnQ3F5Z2JZbjVFVE5ERUxDdmozN0FPUjRkaUpVNGIwRUFTVXhROU95dC1wby0wX2xzTlg2ODlZeDR2cmM3bHFFaHItbGJ6X3gxT2lwX0FONW11aGtoeWFXQmhmc00tWnlQZEhHQQ?oc=5",
+      "datetime": 1793044812,
+      "headlineKo": "네타냐후는 투표 전날 트럼프 지지를 선전하며 이란과의 전쟁을 재개할 수도 있다고 말했다 - 로이터",
+      "summaryKo": "네타냐후는 투표 전날 트럼프 지지를 선전하며 이란과의 전쟁을 재개할 수도 있다고 시사했습니다."
+    },
+    {
+      "headline": "'No fuel to keep babies warm': shortages push hospitals in Yemen's Taiz to brink - Reuters",
+      "summary": "'No fuel to keep babies warm': shortages push hospitals in Yemen's Taiz to brink Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNckIwZ1pHUU1CZ1VHMmpaR3NBZmJkZkJwRlBvUjJzVTFGbXFySzkybTUxV2Jqa1R3S0dGbGhJdDNmRVdtTkRfVU5pcU1HVjVNNU51NGZHamZhdGxIUjJOS0lRYTNPejFYTHNrMVFHRjRpMTF5aWRST1JTSEpIN3ZKZUVCbXpwUjU1UXdrbGpWR21vVGN0RkVDUzVNaFpmbE1FTkRlSlNnOHQ0MVVFZ1VnWkRBSDNLZjhkY3JzME1B?oc=5",
+      "datetime": 1793043740,
+      "headlineKo": "아기를 따뜻하게 해줄 연료가 없다: 부족으로 예멘 타이즈 병원이 위기에 처해 있다 - 로이터 통신",
+      "summaryKo": "아기를 따뜻하게 해줄 연료가 없다: 부족으로 인해 예멘 타이즈 병원이 위기에 처했다"
+    },
+    {
       "headline": "Egypt approves military support for Saudi Arabia after Houthi attacks escalate - Reuters",
       "summary": "Egypt approves military support for Saudi Arabia after Houthi attacks escalate Reuters",
       "source": "Reuters",
@@ -262,15 +289,6 @@ const MARKET_DATA = {
       "datetime": 1793041110,
       "headlineKo": "시장을 염두에 두고 영국의 Healey는 신중한 예산을 집행할 예정입니다 - Reuters",
       "summaryKo": "시장을 염두에 두고 영국의 Healey는 신중한 예산을 제공할 예정입니다."
-    },
-    {
-      "headline": "The races that will decide control of the US Senate - Reuters",
-      "summary": "The races that will decide control of the US Senate Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaVU2UUJNNDNwTjN1ZGswTlV1R3Uxb2lKYnR6cV9hOVBza2YwT2kzY3l1aERkc2hCR1NaY3JsWlczZ1dlekJZaERWVzMwempGbEozZ3dMVEt6QTZOQnVwNjBtQTNwVDNZcE5yRjFzMDFzUksyU2U4TFBCQ3UxeUt2NzBSdVJVNWU0RWxOOUp4UGhPblRVVDhkdw?oc=5",
-      "datetime": 1793040821,
-      "headlineKo": "미국 상원의 통제권을 결정할 경쟁 - Reuters",
-      "summaryKo": "미국 상원의 통제권을 결정할 경쟁 Reuters"
     },
     {
       "headline": "J&J's potential 'game-changer' drug — plus, what Microsoft's mass buyouts mean",
@@ -291,13 +309,13 @@ const MARKET_DATA = {
       "summaryKo": "유엔 조사 결과 이스라엘은 휴전 후에도 가자지구에서 대량 학살을 계속했다고 밝혔습니다 - 최신"
     },
     {
-      "headline": "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran - Reuters",
-      "summary": "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran Reuters",
+      "headline": "Russian missile strikes on Ukraine's Kharkiv kill two, injure four, mayor says - Reuters",
+      "summary": "Russian missile strikes on Ukraine's Kharkiv kill two, injure four, mayor says Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUUluTlhFbGtJMWMtZ09ieVhSblh2b0Y4cWpleDVwWUVfUWVyanZIOHFhenFqaWRYZ0U0cEd6MFVjQk5xSXZkWjJNRmM4ZWdPa01KTHBRRjVHRnJPRWtlbGRwWFBNOFJnQ3F5Z2JZbjVFVE5ERUxDdmozN0FPUjRkaUpVNGIwRUFTVXhROU95dC1wby0wX2xzTlg2ODlZeDR2cmM3bHFFaHItbGJ6X3gxT2lwX0FONW11aGtoeWFXQmhmc00tWnlQZEhHQQ?oc=5",
-      "datetime": 1793032195,
-      "headlineKo": "네타냐후는 투표 전날 트럼프 지지를 선전하며 이란과의 전쟁을 재개할 수도 있다고 말했다 - 로이터",
-      "summaryKo": "네타냐후는 투표 전날 트럼프 지지를 선전하며 이란과의 전쟁을 재개할 수도 있다고 시사했습니다."
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZGJtb2NGTFJkaUZINzFZYUo2T3RCS3REQ1ZCVWhSMGludTZfTldKTElPaUFXeWRudzBURUdxUVQ2MzlqamRhbGRFTnJtTTBoa281MFotY2JsaURvbUppWW1jeG9xbkpGMHdzY2NDVDBnbDg5MEtkY3ltQm9qZVREZEJlSjd0WllfNnM5N211cXg1ejVkZ3JyY3doSklkVW1hZFQ5V1ROQWlxRFlmWTNrNHktdHA?oc=5",
+      "datetime": 1793037703,
+      "headlineKo": "우크라이나 하르키우에 러시아 미사일 공격, 2명 사망, 4명 부상",
+      "summaryKo": "러시아가 우크라이나 하르키프에 미사일 공격을 가해 2명이 사망하고 4명이 부상했다고 시장이 로이터통신에 밝혔다."
     },
     {
       "headline": "Galp, Moeve scrap downstream merger as Iran war boosts refinery valuations - Reuters",
@@ -318,15 +336,6 @@ const MARKET_DATA = {
       "summaryKo": "판사는 전 FBI 국장인 제임스 코미(James Comey)의 딸인 코미에게 소급하여 미국 검사보로 복직하라고 명령했습니다."
     },
     {
-      "headline": "'No fuel to keep babies warm': shortages push hospitals in Yemen's Taiz to brink - Reuters",
-      "summary": "'No fuel to keep babies warm': shortages push hospitals in Yemen's Taiz to brink Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNckIwZ1pHUU1CZ1VHMmpaR3NBZmJkZkJwRlBvUjJzVTFGbXFySzkybTUxV2Jqa1R3S0dGbGhJdDNmRVdtTkRfVU5pcU1HVjVNNU51NGZHamZhdGxIUjJOS0lRYTNPejFYTHNrMVFHRjRpMTF5aWRST1JTSEpIN3ZKZUVCbXpwUjU1UXdrbGpWR21vVGN0RkVDUzVNaFpmbE1FTkRlSlNnOHQ0MVVFZ1VnWkRBSDNLZjhkY3JzME1B?oc=5",
-      "datetime": 1793028104,
-      "headlineKo": "아기를 따뜻하게 해줄 연료가 없다: 부족으로 예멘 타이즈 병원이 위기에 처해 있다 - 로이터 통신",
-      "summaryKo": "아기를 따뜻하게 해줄 연료가 없다: 부족으로 인해 예멘 타이즈 병원이 위기에 처했다"
-    },
-    {
       "headline": "Hezbollah readies for new regional war with funds from Iran, sources say - Reuters",
       "summary": "Hezbollah readies for new regional war with funds from Iran, sources say Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1793026423,
       "headlineKo": "헤즈볼라는 이란 자금으로 새로운 지역 전쟁을 준비하고 있다고 소식통은 전했습니다.",
       "summaryKo": "헤즈볼라는 이란의 자금으로 새로운 지역 전쟁을 준비하고 있다고 소식통은 말했습니다."
-    },
-    {
-      "headline": "Apollo deepens Abu Dhabi ties with investment in Mubadala Capital - Reuters",
-      "summary": "Apollo deepens Abu Dhabi ties with investment in Mubadala Capital Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcEE4ZE9DeXU0LWNqVVVWRUxKTXFzbmN2ZHlUXzY1czFSZ1VWemlWUkx5N0RfZnlJZGNNeHcxY0ZkRUJkaTZXdzZDWm9FMjl1SXhlVFdSbXVBWnZaRUYzcmhweDVPeldraGJiQW1ueXJBM1pBUUExVHpSMDN1b1lpb3dacU5vNWJna0xJZVBlaWhGWkhWbWxadFF2Q0tTV0RVYjdySjlxTVdGX2p1OUJkdm1vd2pGdmVLY2dic1RnWDNycE5K?oc=5",
-      "datetime": 1793025239,
-      "headlineKo": "Apollo, Mubadala Capital 투자로 아부다비 관계 강화 - Reuters",
-      "summaryKo": "Apollo, Mubadala Capital 투자로 아부다비 관계 심화 Reuters"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793048431.273813,
+  "_news_last_success_at": 1793052030.8779778,
   "fgi": {
     "score": 27.0788912579957,
     "rating": "fear"
   },
-  "_fetched_at": 1793048420.7711828,
-  "_updated_label": "2026-10-27 06:00",
-  "_last_attempt_at": 1793048420.7711828,
-  "_last_success_at": 1793048420.7711828,
+  "_fetched_at": 1793052021.0398545,
+  "_updated_label": "2026-10-27 07:00",
+  "_last_attempt_at": 1793052021.0398545,
+  "_last_success_at": 1793052021.0398545,
   "_collection_status": "ok",
   "_collection_errors": []
 };
