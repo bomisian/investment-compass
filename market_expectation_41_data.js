@@ -349,10 +349,10 @@ const MARKET_EXPECTATION_41 = {
       "ticker": "TSM",
       "as_of": "2026-10-26",
       "expectation_status": "기대 강화",
-      "confidence": "보통",
-      "observed_axes": 5,
-      "ab_grade_axes": 5,
-      "coverage_limited": false,
+      "confidence": "낮음",
+      "observed_axes": 3,
+      "ab_grade_axes": 3,
+      "coverage_limited": true,
       "source_concentration_warning": true,
       "currency_mismatch_warning": true,
       "consensus_position_pct": -28.0,
@@ -367,21 +367,21 @@ const MARKET_EXPECTATION_41 = {
       "composite_hidden": false,
       "composite_internal_ref": 1.0,
       "support_summary": [
-        "총매출 US$40.20B, +33.7% YoY(TWD 기준 +36.0%), QoQ +12.0% [통화: USD, TSMC 공식 병기치 사용]",
-        "매출총이익률 67.7%, 영업이익률 60.3%, 순이익률 55.6%; 순이익 NT$706.56B(+77.4% YoY, +23.4% QoQ)",
-        "CFO: \"첨단공정 수요가 강하다\", 3Q26 2nm \"steep ramp-up\" 예상; CEO: 첨단패키징 용량이 \"고객 성장을 제약할 정도로 타이트\", \"수요-공급 격차가 매우 크다\""
+        "CFO: \"첨단공정 수요가 강하다\", 3Q26 2nm \"steep ramp-up\" 예상; CEO: 첨단패키징 용량이 \"고객 성장을 제약할 정도로 타이트\", \"수요-공급 격차가 매우 크다\"",
+        "[자동] Q3'26 매출 $1494.24B, 전년 동기 대비 +50.9%",
+        "[자동] Q3'26 영업이익 $876.45B, 전년 동기 대비 +75.0%"
       ],
       "caution_summary": [
         "반대방향 A/B급 증거 없음(해외 파운드리 확장이 매출총이익률을 초기 2~3%p, 양산확대 시 3~4%p까지 희석할 수 있다는 회사 자체 언급만 counter_evidence로 기록 — 참고용)"
       ],
       "next_change_condition": [
         "지지 근거 중 하나라도 공식적으로 철회·악화되거나, 구조위험 조건이 나오면 결론이 바뀐다.",
+        "미관측 축(현금전환·CAPEX·부채·정책·뉴스) 자료 확보 시 재평가",
         "미관측 축(부채·정책·뉴스·추세) 자료 확보 시 재평가",
         "영업현금흐름·CAPEX 분기 YoY·부채총액을 20-F/데이터북에서 확보해 관측축 확대 시",
-        "해외(애리조나 등) 파운드리 확장에 따른 매출총이익률 희석이 실제로 가시화되는지 확인",
-        "2nm 램프업이 3Q26 실제 실적으로 확인되는 경우"
+        "해외(애리조나 등) 파운드리 확장에 따른 매출총이익률 희석이 실제로 가시화되는지 확인"
       ],
-      "source_file": "수동 근거 2026-10-18 기준 + 자동 재무 근거 2건(2026-06-30 분기)",
+      "source_file": "수동 근거 2026-10-18 기준 + 자동 재무 근거 2건(2026-09-30 분기)",
       "evidence_auto_count": 2,
       "evidence_manual_as_of": "2026-10-18",
       "stale_financial_axes": [],
