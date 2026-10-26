@@ -4280,6 +4280,39 @@ function buildAtAGlanceHtml(r){
 // 2026-09-29(122 점검, 사용자 지적 ORCL·CEG): 최근 4분기 잉여현금흐름이 적자인데 순이익은 흑자 -> '싸 보임'은 조건부
 // (두 적정가 계산 모두 'EPS = 주주 몫 현금'을 가정하므로 이 경우 과대평가될 수 있음)
 function usdSigned(v){ return (v < 0 ? '-$' : '$') + fmtUsd(Math.abs(v)); }
+// [2026-10-26 WO26-E1 외부검토 반영] 재무 금액(매출·순이익·FCF 등)은 FINANCIALS_DATA[t]._currency(없으면
+// ESTIMATES_DATA[t].financialCurrency) 통화 그대로다 - TSM=TWD, ASML=EUR. 예전엔 무조건 "$"를 붙여 TSM
+// "잉여현금흐름 $1.12T"처럼 보였다(실제 NT$). 원 통화 기호로 표시하고, 가격지도 엔진이 기록한 환율
+// (PRICE_MAP_DATA._meta.fxRates, 기준일 포함)이 있으면 "≈US$" 환산을 병기한다. 계산은 바꾸지 않는다.
+const FIN_CUR_SYMBOL = {USD: '$', TWD: 'NT$', EUR: '€', JPY: '¥', GBP: '£', KRW: '₩', CNY: 'CN¥', HKD: 'HK$'};
+function finCurOf(t){
+  const F = (typeof FINANCIALS_DATA !== 'undefined' && FINANCIALS_DATA) ? FINANCIALS_DATA[t] : null;
+  const E = (typeof ESTIMATES_DATA !== 'undefined' && ESTIMATES_DATA) ? ESTIMATES_DATA[t] : null;
+  return (F && F._currency) || (E && E.financialCurrency) || 'USD';
+}
+function finSym(t){ const c = finCurOf(t); return FIN_CUR_SYMBOL[c] || (c + ' '); }
+function finFx(t){
+  const c = finCurOf(t);
+  if(c === 'USD') return null;
+  const M = (typeof PRICE_MAP_DATA !== 'undefined' && PRICE_MAP_DATA && PRICE_MAP_DATA._meta) ? PRICE_MAP_DATA._meta : null;
+  const fx = M && M.fxRates ? M.fxRates[c + 'USD'] : null;
+  return (fx && typeof fx.rate === 'number' && isFinite(fx.rate) && fx.rate > 0) ? fx : null;
+}
+// 금액 한 개: 원 통화 + (USD 아니면, 환율 있을 때) ≈US$ 환산
+function finAmt(t, v, opt){
+  if(v == null || !isFinite(v)) return '-';
+  const neg = v < 0, a = Math.abs(v);
+  const base = (neg ? '-' : '') + finSym(t) + fmtUsd(a);
+  const fx = (opt && opt.noFx) ? null : finFx(t);
+  if(!fx) return base;
+  return `${base}(≈US$${fmtUsd(a * fx.rate)}${neg ? ' 적자' : ''})`;
+}
+function finFxNote(t){
+  const c = finCurOf(t); if(c === 'USD') return '';
+  const fx = finFx(t);
+  return fx ? `금액은 ${c} 원 통화 기준, ≈US$ 환산은 ${c}USD ${fx.rate.toFixed(4)}(${fx.asOf || '?'}) 적용` : `금액은 ${c} 원 통화 기준(달러 아님)`;
+}
+function finSigned(t, v){ return finAmt(t, v, {signed: true}); }
 function fcfWarn(ticker){
   const F = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA : null;
   const q = F && F[ticker] && Array.isArray(F[ticker].quarterly) ? F[ticker].quarterly : [];
@@ -4299,7 +4332,7 @@ function valuationBadgeHtml(r){
   const exp = fwd.expectations;
   const peg = fwd.peg;
   const fw = fcfWarn(r.ticker);
-  const fwTip = fw ? ` · ⚠️ 최근 4분기 잉여현금흐름 ${usdSigned(fw.fcf)}(적자)인데 순이익 ${usdSigned(fw.ni)}(흑자) -- 순이익은 흑자지만 투자지출 등을 반영한 잉여현금흐름은 적자라 '싸 보임'은 조건부` : '';
+  const fwTip = fw ? ` · ⚠️ 최근 4분기 잉여현금흐름 ${finSigned(r.ticker, fw.fcf)}(적자)인데 순이익 ${finSigned(r.ticker, fw.ni)}(흑자) -- 순이익은 흑자지만 투자지출 등을 반영한 잉여현금흐름은 적자라 '싸 보임'은 조건부` : '';
   if(exp){
     // 122: 자기 과거 기준 '적정' 구간(상단/하단)이 2배를 넘으면 배지로서 의미가 약해 보류
     const _w = (1 + exp.pctToOvervalued / 100) / (1 + exp.pctToUndervalued / 100);
@@ -5776,7 +5809,7 @@ function summaryCardHtml(r){
   // 낮을 때, 200일선 추세 상태까지 묶어 한 문장으로 설명한다(이익 전망 상향 + 가격 조정만 =
   // 밸류에이션만 싸진 것, 추세 유지 여부로 성격을 덧붙임).
   const earnPriceSyncNote = (em && num(em.ntm_change_90d) && em.ntm_change_90d >= 0.05 && num(r.drawdownPct) && r.drawdownPct <= -5)
-    ? `<div class="sub" style="margin-top:2px;">→ 이익 전망은 최근 90일간 ${esc(pc(em.ntm_change_90d))} 올랐는데 주가는 고점 대비 ${esc(pp(r.drawdownPct))} — 가격만 빠진 조정으로 보입니다${num(chartSlope) ? (chartSlope >= 0 ? '. 추세(200일선)는 유지되고 있습니다.' : '. 다만 200일선 추세는 하락 중입니다.') : ''}</div>`
+    ? `<div class="sub" style="margin-top:2px;">→ 이익 전망은 최근 90일간 ${esc(pc(em.ntm_change_90d))} 올랐는데 주가는 고점 대비 ${esc(pp(r.drawdownPct))} — 가격만 빠진 조정으로 보입니다${pvMa200TrendSentence(r, chartSlope)}</div>`
     : '';
   const ddBody = (ddt && !ddt.skip && (ddt.label_forward || ddt.label_trailing))
     ? (ddt.label_forward ? row('최근 90일', esc(ddt.label_forward)) : '') + (ddt.label_trailing ? row('고점 이후 공시 실적', esc(ddt.label_trailing)) : '')
@@ -8346,6 +8379,22 @@ const COMPASS_DEC_COLOR = { BUY:'#2f5b3c', ACC:'#7a5c00', WAIT:'#5b6472', SELL:'
 const COMPASS_DEC_LABEL = { BUY:'분할 매수 구간', ACC:'모아가기', WAIT:'조정 대기', SELL:'추세 이탈 점검' };
 // [2026-10-26 WO24 WO14-3 통일] 200일선 "위/아래" 표시 문구를 화면마다 같은 판단(pvMa200BreachOR: 2거래일 연속
 // 종가 이탈 OR 0.5×ATR(20) 이상 이탈)으로 맞춘다. 표시 전용 - 신호·점수·판정 조건(ma200Pct 부호를 쓰는 계산)은 그대로.
+// [2026-10-26 WO26-E3 외부검토 반영] 하락 원인 문장의 200일선 설명. 예전엔 200일선 "기울기"만 보고 "추세(200일선)는
+// 유지되고 있습니다"라고 써서, AMAT처럼 주가가 200일선 아래(-14.6%)인데도 "유지"로 보였다. 현재 위치(WO24 공용
+// 판단 pvMa200BreachOR: 2거래일 연속 또는 0.5×ATR20 이상 이탈)와 기울기를 함께 쓴다. 표시 전용.
+function pvMa200TrendSentence(r, slope){
+  const okNum = v => typeof v === 'number' && isFinite(v);
+  if(!okNum(r.ma200Pct)) return okNum(slope) ? (slope >= 0 ? '. 200일선 자체는 상승 중입니다(현재 위치 미확인).' : '. 다만 200일선 추세는 하락 중입니다.') : '';
+  const pct = `${r.ma200Pct >= 0 ? '+' : ''}${r.ma200Pct.toFixed(1)}%`;
+  const up = okNum(slope) ? slope >= 0 : null;
+  if(r.ma200Pct >= 0){
+    if(up === false) return `. 주가는 200일선 위(${pct})지만 200일선 자체는 하락 중입니다.`;
+    return `. 추세(200일선)는 유지되고 있습니다(200일선 대비 ${pct}).`;
+  }
+  if(!pvMa200BreachOR(r)) return `. 주가가 200일선 바로 아래(${pct})지만 이탈은 아직 확정 아닙니다(2거래일 연속·0.5ATR 기준 미충족).`;
+  return up === false ? `. 다만 주가가 200일선 아래(${pct})이고 200일선도 하락 중입니다.`
+    : `. 다만 주가가 200일선 아래(${pct})로 내려와 있습니다${up ? '(200일선 자체는 아직 상승 중)' : ''}.`;
+}
 function pvMa200StatusTxt(r){
   if(!(typeof r.ma200Pct === 'number' && isFinite(r.ma200Pct))) return null;
   const pct = `${r.ma200Pct >= 0 ? '+' : ''}${r.ma200Pct.toFixed(1)}%`;
@@ -8698,12 +8747,12 @@ function renderPriceValidityCard(r){
       modelBody = `역DCF(할인율 9%·영구성장률 3%·10년, ${esc(rr.assumptions.evNote)}) 기준 시장 내재 성장률 연 ${rr.impliedGrowthPct.toFixed(1)}%
         vs 컨센서스 10년 환산 CAGR 연 ${rr.consensus10yGrowthPct!=null?rr.consensus10yGrowthPct.toFixed(1):'—'}% → <b>${esc(rr.verdict || `비교 불가(${rr.verdictBlockedReason||'컨센서스 성장률 데이터 부족'})`)}</b>
         (원래 1~2년차 평균 컨센서스는 연 ${rr.consensusGrowthPct!=null?rr.consensusGrowthPct.toFixed(1):'—'}% — 1~2년차는 그대로 쓰고 3~10년차는 2년차→영구성장률(3%)까지 선형 감소시켜 10년 CAGR로 환산한 값과 비교합니다)
-        (기준 현금흐름: $${(rr.fcfBasis/1e9).toFixed(2)}B, ${esc(rr.fcfSource)}${rr.fcfIsEpsProxy?' · FCF 대체값':''}${rr.boundHit?' · 탐색 범위(-30%~60%) 경계에 닿음 - 추정 신뢰도 낮음':''})
+        (기준 현금흐름: ${finSym(r.ticker)}${(rr.fcfBasis/1e9).toFixed(2)}B, ${esc(rr.fcfSource)}${rr.fcfIsEpsProxy?' · FCF 대체값':''}${rr.boundHit?' · 탐색 범위(-30%~60%) 경계에 닿음 - 추정 신뢰도 낮음':''})
         이 모델은 기준가를 내지 않습니다(지시서 명시) — 매수 구간은 나침반 구간·옵션 구간을 그대로 씁니다.`;
     } else if(fv.model === 'ev_sales' && fv.result.ok){
       const rr = fv.result;
       modelBody = `EV/매출 과거 ${rr.basisQuarters}개 분기(${esc(rr.basisPeriodStart)} ~ ${esc(rr.basisPeriodEnd)}) 백분위: 20%=${rr.evSalesP20.toFixed(2)}배 · 50%=${rr.evSalesP50.toFixed(2)}배 · 80%=${rr.evSalesP80.toFixed(2)}배
-        × 최근 분기(${esc(rr.anchorDate)}) TTM매출 $${(rr.anchorTtmRevenue/1e9).toFixed(2)}B, 순부채 $${(rr.anchorNetDebt/1e9).toFixed(2)}B, 발행주식수 ${(rr.anchorShares/1e6).toFixed(1)}M주 = 기준가 $${rr.basePrice.toFixed(2)}
+        × 최근 분기(${esc(rr.anchorDate)}) TTM매출 ${finSym(r.ticker)}${(rr.anchorTtmRevenue/1e9).toFixed(2)}B, 순부채 ${finSym(r.ticker)}${(rr.anchorNetDebt/1e9).toFixed(2)}B, 발행주식수 ${(rr.anchorShares/1e6).toFixed(1)}M주 = 기준가 $${rr.basePrice.toFixed(2)}
         (밴드 $${rr.lowPrice.toFixed(2)} ~ $${rr.highPrice.toFixed(2)}, 폭 ${rr.widthPct!=null?rr.widthPct.toFixed(0):'—'}%${rr.negativeLowFloor?' · 20%분위 밴드 하단이 순부채 부담으로 음수라 0으로 표시':''})`;
     } else {
       modelBody = `산출 제한 — ${esc(fv.result.blockReason||'데이터 부족')}.${(st.type==='경기순환형'||st.type==='이익훼손형') ? ' 숫자 기준가 없이 판단 유보로 표시합니다.' : ' 다른 모델로 넘어가지 않고 아래 PEG(보조 확인)를 참고하세요.'}`;
@@ -9049,8 +9098,9 @@ function renderPriceValidityCard(r){
 
   // --- 시장 기대 참고 (목표가, 보조 참고만 -- 자세한 내용은 아래 '시장 기대 참고' 카드에서) ---
   let targetRef = '';
-  if(d.tc){
-    targetRef = `<div style="margin-top:9px;font-size:11px;color:${NEU_DIM};background:#fff;border:1px dashed ${NEU_LINE};border-radius:7px;padding:7px 10px;">시장 기대 참고(보조): 목표가 분산 최저 $${d.tc.target_low.toFixed(2)} / 중앙 $${d.tc.target_median.toFixed(2)} / 최고 $${d.tc.target_high.toFixed(2)} · 분석가 ${d.tc.num_analysts}명. 목표가 수준 자체로 가격 매력도나 행동 문장을 정하지 않습니다 — 자세한 내용은 아래 "시장 기대 참고" 카드를 보십시오.</div>`;
+  const tcx = marketTargetConsensus(r.ticker);  // [WO26-E2] 매일 갱신 목표가(판정 미사용, 표시 전용)
+  if(tcx){
+    targetRef = `<div style="margin-top:9px;font-size:11px;color:${NEU_DIM};background:#fff;border:1px dashed ${NEU_LINE};border-radius:7px;padding:7px 10px;">시장 기대 참고(보조): 목표가 분산 최저 $${tcx.target_low.toFixed(2)} / ${tcx.center_kind === 'median' ? '중앙' : '평균'} $${tcx.target_median.toFixed(2)} / 최고 $${tcx.target_high.toFixed(2)} · 분석가 ${tcx.num_analysts}명 · 수집 ${esc(tcx.fetched_at || '—')}${marketTargetStaleBadge(tcx)}. 목표가 수준 자체로 가격 매력도나 행동 문장을 정하지 않습니다 — 자세한 내용은 아래 "시장 기대 참고" 카드를 보십시오.</div>`;
   }
 
   const footNote = `<div style="margin-top:8px;margin-bottom:16px;font-size:10.5px;color:var(--sub);">가격 타당성(모델 기준)과 기술적 진입 상태는 서로 다른 축이며, 한쪽이 다른 쪽을 덮어 낮추지 않습니다. 애널리스트 목표가는 가격 기준이 아니라 시장 기대 참고로만 사용합니다. 현재 가격에 맞춰 배수·EPS·가격대를 조정하지 않습니다. 자동매매·알림·매수/매도 신호와 연결되지 않습니다.</div>`;
@@ -9231,7 +9281,8 @@ function pvDataRegistryRow(t, r, d){
   if(cc.eps) push('실제 EPS 교차검증', cc.eps.multiple, cc.eps.basisKind, cc.eps.basisLabel, null, cc.eps.badge, 'SEC·IR 새 공시 감지 시 갱신');
   if(cc.fcf) push('FCF 교차검증', cc.fcf.ttmYield, 'actual_ttm', cc.fcf.ttmNote, null, cc.fcf.badge, 'SEC·IR 새 공시 감지 시 갱신');
   push('부채·희석', d.cfVeto, 'veto_gate', d.cfDetail.join(' · ')||'—', null, d.cfVeto?'거부권 발동':'정상', 'SEC·IR 새 공시 감지 시 갱신');
-  if(d.tc) push('컨센서스 목표가', d.tc.target_median, 'analyst_consensus', '시장 기대 참고', null, (d.me&&d.me.stale_consensus_warning)?'기준일 초과':'정상', '매일/주1회 배치 갱신');
+  const tcx = marketTargetConsensus(t);  // [WO26-E2]
+  if(tcx) push('컨센서스 목표가', tcx.target_median, 'analyst_consensus', `시장 기대 참고(${tcx.center_kind === 'median' ? '중앙값' : '평균'})`, tcx.fetched_at || null, tcx.stale ? '오래된 자료' : '정상', '매일/주1회 배치 갱신');
   push('기술지표', r.techScore, 'technical', 'computeTechnicalSeries', (r.dataHealth&&r.dataHealth.lastDate)||null, null, '매 거래일 자동 갱신');
   return rows;
 }
@@ -9794,6 +9845,52 @@ if(typeof HINTS !== 'undefined'){
 const MARKET_POSITION_STALE_DAYS = 14; // 기존 프로젝트 STALE 규칙 재사용 -- 신규 임계값 아님
 const MARKET_POSITION_NON_EQUITY = ['SPY', 'QQQ']; // 기업 컨센서스 대상이 아닌 지수 ETF -- 시장 문맥으로만 고정 표시
 
+// [2026-10-26 WO26-E2 외부검토 반영] 목표가 컨센서스: market_position_card_data.js(MARKET_TARGET_CONSENSUS)는
+// 10/08에 한 번 만든 뒤 생성기가 없어 갱신되지 않았다(카드에 "수집일 2026-10-08"). 매일 갱신되는 ESTIMATES_DATA
+// (Yahoo financialData 같은 모듈)의 목표가로 바꾼다. 중앙값(targetMedian, 10/27부터 수집)이 있으면 중앙값, 없으면
+// 평균(targetMean)을 쓰고 화면에 어느 쪽인지 밝힌다. ESTIMATES에 없을 때만 예전 파일로 폴백. 수집일이 마지막
+// 완료 거래일보다 3거래일 넘게 지났으면 "오래된 자료" 표시. 판정(142)에는 쓰이지 않는 표시 전용 값.
+const MARKET_TARGET_STALE_TRADING_DAYS = 3;
+function nyseTradingDaysAfter(fromIso, toIso){
+  if(!fromIso || !toIso || fromIso >= toIso) return 0;
+  let n = 0; const d = new Date(fromIso + 'T12:00:00Z'); const end = new Date(toIso + 'T12:00:00Z');
+  for(d.setUTCDate(d.getUTCDate() + 1); d <= end; d.setUTCDate(d.getUTCDate() + 1)){
+    const iso = d.toISOString().slice(0, 10), wd = d.getUTCDay();
+    if(wd !== 0 && wd !== 6 && !NYSE_HOLIDAYS_JS.has(iso)) n++;
+  }
+  return n;
+}
+function lastCompletedNyseSession(nowD){
+  const ss = nyseSessionState(nowD), p = nyClockParts(nowD);
+  let d = new Date(p.date + 'T12:00:00Z');
+  const todayDone = (ss.state === 'post' || (ss.state === 'closed' && p.mins >= 16 * 60)) && !NYSE_HOLIDAYS_JS.has(p.date) && p.wd !== 'Sat' && p.wd !== 'Sun';
+  if(!todayDone) d.setUTCDate(d.getUTCDate() - 1);
+  for(let i = 0; i < 10; i++){ const iso = d.toISOString().slice(0, 10), wd = d.getUTCDay(); if(wd !== 0 && wd !== 6 && !NYSE_HOLIDAYS_JS.has(iso)) return iso; d.setUTCDate(d.getUTCDate() - 1); }
+  return p.date;
+}
+function marketTargetConsensus(t, nowD){
+  const num = v => typeof v === 'number' && isFinite(v);
+  const E = (typeof ESTIMATES_DATA !== 'undefined' && ESTIMATES_DATA) ? ESTIMATES_DATA[t] : null;
+  let o = null;
+  if(E && (num(E.targetMedian) || num(E.targetMean))){
+    const fetchedIso = num(E._fetched_at) ? new Date(E._fetched_at * 1000).toISOString().slice(0, 10) : (typeof E._updated_label === 'string' ? E._updated_label.slice(0, 10) : null);
+    o = {target_low: E.targetLow, target_high: E.targetHigh, target_mean: E.targetMean,
+         target_median: num(E.targetMedian) ? E.targetMedian : E.targetMean, center_kind: num(E.targetMedian) ? 'median' : 'mean',
+         num_analysts: E.analystCount, source: 'Yahoo Finance quoteSummary(financialData) · estimates_data.js 매일 수집', fetched_at: fetchedIso};
+  } else {
+    const L = (typeof MARKET_TARGET_CONSENSUS !== 'undefined' && MARKET_TARGET_CONSENSUS && MARKET_TARGET_CONSENSUS.tickers) ? MARKET_TARGET_CONSENSUS.tickers[t] : null;
+    if(L) o = Object.assign({center_kind: 'median'}, L, {source: (L.source || 'Yahoo Finance quoteSummary(financialData)') + ' · 예전 1회 수집본'});
+  }
+  if(!o || !num(o.target_median)) return null;
+  const last = lastCompletedNyseSession(nowD);
+  o.stale_trading_days = o.fetched_at ? nyseTradingDaysAfter(o.fetched_at, last) : null;
+  o.stale = !o.fetched_at || o.stale_trading_days > MARKET_TARGET_STALE_TRADING_DAYS;
+  o.center_label = o.center_kind === 'median' ? '중앙값' : '평균(중앙값 미수집)';
+  return o;
+}
+function marketTargetStaleBadge(tc){
+  return (tc && tc.stale) ? ` <span style="font-size:10px;font-weight:700;color:#7a5c00;background:#fff8ea;border:1px solid #e9dcb8;border-radius:5px;padding:0 5px;">오래된 자료${typeof tc.stale_trading_days === 'number' ? `(${tc.stale_trading_days}거래일 전)` : ''}</span>` : '';
+}
 function renderMarketPositionCard(r){
   if(!r || !r.ticker) return '';
   const NEU_BG='#eef0f3', NEU_TEXT='#3c4552', NEU_LINE='#d7dbe1', NEU_DIM='#5b6472';
@@ -9810,7 +9907,7 @@ function renderMarketPositionCard(r){
       <div style="background:${NEU_BG};border:1px solid ${NEU_LINE};border-radius:12px;padding:12px 14px;color:${NEU_DIM};font-size:12px;margin-bottom:12px;">시장 문맥 — 기업 컨센서스 대상 아님</div>`;
   }
 
-  const tc = (typeof MARKET_TARGET_CONSENSUS !== 'undefined' && MARKET_TARGET_CONSENSUS && MARKET_TARGET_CONSENSUS.tickers) ? MARKET_TARGET_CONSENSUS.tickers[r.ticker] : null;
+  const tc = marketTargetConsensus(r.ticker);  // [WO26-E2]
   if(!tc){
     return `${headHtml}
       <div style="background:${NEU_BG};border:1px solid ${NEU_LINE};border-radius:12px;padding:12px 14px;color:${NEU_DIM};font-size:12px;margin-bottom:12px;">컨센서스 데이터 미확보</div>`;
@@ -9826,10 +9923,10 @@ function renderMarketPositionCard(r){
 
   let rowsHtml = '';
   rowsHtml += rowHtml('현재가 (기준일)', `$${num(price) ? price.toFixed(2) : '—'} (${esc(priceAsOf)})`);
-  rowsHtml += rowHtml('컨센서스 중앙값', `$${tc.target_median.toFixed(2)}`);
+  rowsHtml += rowHtml(`컨센서스 ${tc.center_label}`, `$${tc.target_median.toFixed(2)}`);
   rowsHtml += rowHtml('목표가 분산 (최저/최고)', `$${tc.target_low.toFixed(2)} / $${tc.target_high.toFixed(2)}`);
   rowsHtml += rowHtml('분석가 수', `${tc.num_analysts}명`);
-  rowsHtml += rowHtml('출처', `${esc(tc.source || 'Yahoo Finance quoteSummary(financialData)')} · 수집일 ${esc(tc.fetched_at || '—')}`);
+  rowsHtml += rowHtml('출처', `${esc(tc.source || 'Yahoo Finance quoteSummary(financialData)')} · 수집일 ${esc(tc.fetched_at || '—')}${marketTargetStaleBadge(tc)}`);
 
   // 컨센서스 신선도 -- 기존 14일 STALE 규칙 재사용(신규 임계값 없음)
   let consensusAsOf = '—', ageDays = null, staleBadge = '';
@@ -9877,11 +9974,12 @@ function renderMarketPositionCard(r){
     summary = [`목표가 수정 방향 ${revisionDir}`, spreadLabel, analystsLabel, asOfElapsedLabel, sourceConcLabel, staleLabel].filter(Boolean).join(' · ');
   }
 
-  const gapLine = num(gapPct) ? `<div style="margin-top:9px;font-size:13px;font-weight:800;color:${NEU_TEXT};">현재가는 중앙값 대비 ${gapPct>=0?'+':''}${gapPct.toFixed(1)}% ${gapPct<0?'낮음':'높음'}</div>` : '';
+  const gapLine = num(gapPct) ? `<div style="margin-top:9px;font-size:13px;font-weight:800;color:${NEU_TEXT};">현재가는 ${tc.center_kind === 'median' ? '중앙값' : '평균'} 대비 ${gapPct>=0?'+':''}${gapPct.toFixed(1)}% ${gapPct<0?'낮음':'높음'}</div>` : '';
   const lowConfBadge = lowConfidence ? `<span style="display:inline-block;margin-left:6px;font-size:10.5px;font-weight:800;color:${NEU_DIM};background:#fff;border:1px dashed ${NEU_LINE};border-radius:6px;padding:2px 8px;">근거신뢰도 낮음</span>` : '';
 
-  const covTotal = (typeof MARKET_TARGET_CONSENSUS !== 'undefined' && MARKET_TARGET_CONSENSUS && num(MARKET_TARGET_CONSENSUS.coverage_total)) ? MARKET_TARGET_CONSENSUS.coverage_total : null;
-  const covConfirmed = (typeof MARKET_TARGET_CONSENSUS !== 'undefined' && MARKET_TARGET_CONSENSUS && num(MARKET_TARGET_CONSENSUS.coverage_confirmed)) ? MARKET_TARGET_CONSENSUS.coverage_confirmed : null;
+  const _covT = (typeof ESTIMATES_DATA !== 'undefined' && ESTIMATES_DATA) ? Object.keys(ESTIMATES_DATA).filter(k => !MARKET_POSITION_NON_EQUITY.includes(k)) : [];  // [WO26-E2]
+  const covTotal = _covT.length || null;
+  const covConfirmed = _covT.filter(k => marketTargetConsensus(k)).length;
   const covBadge = (num(covTotal) && num(covConfirmed)) ? `<div style="margin-top:8px;font-size:10.5px;color:${NEU_DIM};">컨센서스 데이터 커버리지 ${covConfirmed}/${covTotal}</div>` : '';
 
   const summaryLine = `<div style="font-size:12.5px;color:${NEU_TEXT};background:${NEU_BG};border:1px solid ${NEU_LINE};border-radius:8px;padding:8px 12px;margin-bottom:2px;">종합: <b>${esc(summary)}</b>${lowConfBadge}</div>`;
@@ -13231,7 +13329,7 @@ function accumulationCheck(r){
   const cf = accFcfState(t);
   if(cf){
     const st = cf.fcf >= 0 ? 'ok' : (cf.ni > 0 ? 'mid' : 'bad');
-    items.push({k: '현금흐름', st, txt: `최근 4분기 잉여현금흐름 ${usdSigned(cf.fcf)} · 순이익 ${usdSigned(cf.ni)}${cf.fcf < 0 && cf.ni > 0 ? ' (투자지출이 커서 이익보다 현금이 적음)' : ''}`});
+    items.push({k: '현금흐름', st, txt: `최근 4분기 잉여현금흐름 ${finSigned(t, cf.fcf)} · 순이익 ${finSigned(t, cf.ni)}${cf.fcf < 0 && cf.ni > 0 ? ' (투자지출이 커서 이익보다 현금이 적음)' : ''}`});
   } else items.push({k: '현금흐름', st: 'na', txt: '현금흐름 자료 없음'});
   // 4) 가치 위치 -- 2026-10-01: 기존 기준가 숨김에 따라 판정에 쓰지 않고 보류로 고정(132 검증 후 재결정)
   items.push({k: '가치 위치', st: 'na', txt: '보류 — 검증 전 계산은 숨겼어요'});
@@ -14769,11 +14867,11 @@ function fairJudgeNotes(ticker, cb){
   if((cb.basis || '').includes('너무 넓')) out.notes.push('범위가 너무 넓어(상단이 하단의 2배 초과) 싸다·비싸다를 판단하지 않음');
   if(cb.judgment !== '싸다' && cb.judgment !== '비싸다'){
     const fw0 = (typeof fcfWarn === 'function') ? fcfWarn(ticker) : null;
-    if(fw0) out.notes.push(`현금흐름 주의: 최근 4분기 잉여현금흐름 ${usdSigned(fw0.fcf)} 적자·순이익 ${usdSigned(fw0.ni)} 흑자 -- 이익 기반 적정가가 과대일 수 있음`);
+    if(fw0) out.notes.push(`현금흐름 주의: 최근 4분기 잉여현금흐름 ${finSigned(ticker, fw0.fcf)} 적자·순이익 ${finSigned(ticker, fw0.ni)} 흑자 -- 이익 기반 적정가가 과대일 수 있음`);
   }
   if(cb.judgment === '싸다'){
     const fw = (typeof fcfWarn === 'function') ? fcfWarn(ticker) : null;
-    if(fw) out.notes.push(`조건부: 최근 4분기 잉여현금흐름 ${usdSigned(fw.fcf)} 적자·순이익 ${usdSigned(fw.ni)} 흑자 -- 순이익은 흑자지만 투자지출 등을 반영한 잉여현금흐름은 적자`);
+    if(fw) out.notes.push(`조건부: 최근 4분기 잉여현금흐름 ${finSigned(ticker, fw.fcf)} 적자·순이익 ${finSigned(ticker, fw.ni)} 흑자 -- 순이익은 흑자지만 투자지출 등을 반영한 잉여현금흐름은 적자`);
     const em = estMomentum(ticker);
     if(em && String(em.direction || '').includes('하향')) out.notes.push('이익 추정 하향 중 -- 싼 이유일 수 있음');
   }
@@ -14859,7 +14957,7 @@ function basePriceCellHtml(ticker){
   let tags = '';
   if(e.label.includes('저평가')){
     const fw = fcfWarn(ticker);
-    if(fw) tags += `<br><span style="font-size:10px;color:#876000;" title="최근 4분기 잉여현금흐름 ${usdSigned(fw.fcf)} 적자, 순이익 ${usdSigned(fw.ni)} 흑자">조건부: 잉여현금흐름 적자(투자지출 큼)</span>`;
+    if(fw) tags += `<br><span style="font-size:10px;color:#876000;" title="최근 4분기 잉여현금흐름 ${finSigned(ticker, fw.fcf)} 적자, 순이익 ${finSigned(ticker, fw.ni)} 흑자">조건부: 잉여현금흐름 적자(투자지출 큼)</span>`;
     const em = estMomentum(ticker);
     if(em && String(em.direction || '').includes('하향')) tags += `<br><span style="font-size:10px;color:#876000;">이익 추정 하향 중 -- 싼 이유일 수 있음</span>`;
   }
@@ -14983,7 +15081,7 @@ function marketFairCellHtmlCore(ticker){
     let tags = '';
     if(cb.judgment === '싸다'){
       const fw = fcfWarn(ticker);
-      if(fw) tags += `<br><span style="font-size:10px;color:#876000;" title="최근 4분기 잉여현금흐름 ${usdSigned(fw.fcf)} 적자, 순이익 ${usdSigned(fw.ni)} 흑자 -- 계산은 이익이 현금이라고 가정">조건부: 순이익은 흑자지만 투자지출 반영 잉여현금흐름은 적자</span>`;
+      if(fw) tags += `<br><span style="font-size:10px;color:#876000;" title="최근 4분기 잉여현금흐름 ${finSigned(ticker, fw.fcf)} 적자, 순이익 ${finSigned(ticker, fw.ni)} 흑자 -- 계산은 이익이 현금이라고 가정">조건부: 순이익은 흑자지만 투자지출 반영 잉여현금흐름은 적자</span>`;
       const em = estMomentum(ticker);
       if(em && String(em.direction || '').includes('하향')) tags += `<br><span style="font-size:10px;color:#876000;">이익 추정 하향 중 -- 싼 이유일 수 있음</span>`;
     }
@@ -14995,7 +15093,7 @@ function marketFairCellHtmlCore(ticker){
     }
     if(cb.judgment !== '싸다' && cb.judgment !== '비싸다'){
       const fw0 = fcfWarn(ticker);
-      if(fw0) tags += `<br><span style="font-size:10px;color:#876000;" title="최근 4분기 잉여현금흐름 ${usdSigned(fw0.fcf)} 적자, 순이익 ${usdSigned(fw0.ni)} 흑자">현금흐름 주의: 순이익 흑자·잉여현금흐름 적자</span>`;
+      if(fw0) tags += `<br><span style="font-size:10px;color:#876000;" title="최근 4분기 잉여현금흐름 ${finSigned(ticker, fw0.fcf)} 적자, 순이익 ${finSigned(ticker, fw0.ni)} 흑자">현금흐름 주의: 순이익 흑자·잉여현금흐름 적자</span>`;
     }
     const rcn = fairRuleChangeNote(ticker);
     if(rcn) tags += `<br><span style="font-size:10px;color:#876000;">${esc(rcn)}</span>`;
@@ -16312,6 +16410,7 @@ function secAnnualNetIncomeMismatch(ticker){
   return { qSum, annualNetIncome: lastAnnual.netIncome, diff, period: lastAnnual.period };
 }
 function dataQualityNotes(ticker, fund){
+  const FS = finSym(ticker);  // [WO26-E1] 재무 금액 원 통화 기호
   const notes = [];
   const op = fund.operatingMarginTTM, net = fund.netProfitMarginTTM;
   if(typeof op==='number' && typeof net==='number' && net > op + MARGIN_GAP_WARN_PP){
@@ -16346,7 +16445,7 @@ function dataQualityNotes(ticker, fund){
   const niMismatch = secAnnualNetIncomeMismatch(ticker);
   if(niMismatch){
     const diffM = (niMismatch.diff / 1_000_000).toFixed(0);
-    notes.push(`<b>최근 4분기 순이익 합계($${(niMismatch.qSum/1e9).toFixed(3)}B)가 ${niMismatch.period} 연간 공식 순이익($${(niMismatch.annualNetIncome/1e9).toFixed(3)}B)과 ${Math.abs(niMismatch.diff)>=1e8?'':'약'} $${Math.abs(diffM)}백만 차이나요.</b> 분기 중 하나가 연결 순이익과 보통주주 귀속 순이익(우선주 배당 차감 후) 중 다른 기준으로 저장돼 있을 가능성이 커요 - 연간 총계는 공식 발표 기준(신뢰도 높음)이니, 연간 합산치가 필요한 계산(예: TTM PER)은 분기 4개를 더하기보다 이 연간 공식 수치를 쓰는 게 더 안전해요.`);
+    notes.push(`<b>최근 4분기 순이익 합계(${FS}${(niMismatch.qSum/1e9).toFixed(3)}B)가 ${niMismatch.period} 연간 공식 순이익(${FS}${(niMismatch.annualNetIncome/1e9).toFixed(3)}B)과 ${Math.abs(niMismatch.diff)>=1e8?'':'약'} $${Math.abs(diffM)}백만 차이나요.</b> 분기 중 하나가 연결 순이익과 보통주주 귀속 순이익(우선주 배당 차감 후) 중 다른 기준으로 저장돼 있을 가능성이 커요 - 연간 총계는 공식 발표 기준(신뢰도 높음)이니, 연간 합산치가 필요한 계산(예: TTM PER)은 분기 4개를 더하기보다 이 연간 공식 수치를 쓰는 게 더 안전해요.`);
   }
   if(!notes.length) return '';
   return `<div class="comment-box" style="background:var(--warn-bg);color:#876000;margin-top:12px;">
@@ -16420,6 +16519,14 @@ function renderEpsRevision(ticker){
     <div class="sub" style="margin-bottom:10px;">3개월 추이 ${trail} <span style="color:${color};font-weight:600;">${arrow} ${esc(e.note||'')}</span> · 3개월 변화 ${chg} · 최근 30일 상향 ${e.revisionUp30}명 / 하향 ${e.revisionDown30}명 · ${updLabel}</div>
     ${fyTableHtml}`;
 }
+// [2026-10-26 WO26 참고] ±1σ 범위 중심 = 기준가(anchorPrice)라, 기준가 이후 가격이 그대로면(주말·휴장) σ가 0으로
+// 나온다 - 오류가 아니라는 걸 문구로 알린다. 계산 그대로.
+function sigmaNoMoveNote(s){
+  if(!(typeof s.currentPrice === 'number' && typeof s.anchorPrice === 'number')) return '';
+  if(Math.abs(s.currentPrice - s.anchorPrice) > 1e-9) return '';
+  const md = v => (typeof v === 'string' && v.length >= 10) ? `${+v.slice(5, 7)}/${+v.slice(8, 10)}` : '?';
+  return ` <span class="sub" style="font-weight:400;">(IV 스냅샷 ${esc(md(s.ivAsOf))} 이후 가격 변동 없음 — 기준가 ${esc(md(s.anchorDate))} 종가)</span>`;
+}
 function renderSigmaBand(ticker){
   const s = (typeof SIGMA_DATA !== 'undefined') ? SIGMA_DATA[ticker] : null;
   if(!s) return '';
@@ -16434,7 +16541,7 @@ function renderSigmaBand(ticker){
   return `<div class="sub" style="margin:10px 0 4px;">이번 주 예상 변동범위(옵션 IV 기준${s.expirationDate?', '+esc(s.expirationDate)+' 만기':''}${ivAsOfLabel}) ${hintIcon('sigmaBand')}</div>
     <div class="fund-row"><span>±1σ 범위</span><span class="v">${fmt(s.lower1Sigma)} ~ ${fmt(s.upper1Sigma)}</span></div>
     <div class="fund-row"><span>±2σ 범위</span><span class="v">${fmt(s.lower2Sigma)} ~ ${fmt(s.upper2Sigma)}</span></div>
-    <div class="fund-row"><span>현재 위치</span><span class="v" style="color:${statusColor};">${scoreLabel}${attention ? ' · 평소보다 크게 움직인 상태' : ''}</span></div>`;
+    <div class="fund-row"><span>현재 위치</span><span class="v" style="color:${statusColor};">${scoreLabel}${attention ? ' · 평소보다 크게 움직인 상태' : ''}${sigmaNoMoveNote(s)}</span></div>`;
 }
 function renderFundamentalWindowScores(ticker){
   const rec = (typeof FUNDAMENTAL_WINDOW_SCORES_DATA !== 'undefined' && FUNDAMENTAL_WINDOW_SCORES_DATA.records) ? FUNDAMENTAL_WINDOW_SCORES_DATA.records[ticker] : null;
@@ -17343,7 +17450,8 @@ function cmtBox(items, tone){
 }
 
 // ---- 03 실적 코멘트 ----
-function earningsComment(data, mode){
+function earningsComment(data, mode, t){
+  const FS = finSym(t);  // [WO26-E1] 재무 금액 원 통화 기호
   const rows = data.filter(d=>d.revenue!=null);
   if(rows.length < 2) return '';
   const isQ = mode==='quarterly';
@@ -17356,7 +17464,7 @@ function earningsComment(data, mode){
   const gRev = prevYoY ? growth(last.revenue, prevYoY.revenue) : null;
   if(gRev != null){
     const label = isQ ? '전년 같은 분기' : '전년';
-    items.push(`<b>${last.period}</b> 매출은 $${fmtUsd(last.revenue)}로 ${label} 대비 <b>${pctStr(gRev)}</b>예요.`);
+    items.push(`<b>${last.period}</b> 매출은 ${FS}${fmtUsd(last.revenue)}로 ${label} 대비 <b>${pctStr(gRev)}</b>예요.`);
     // 2) 성장 가속/둔화 - 직전 기간의 성장률과 비교
     if(rows.length > 1){
       const prevPeriodYoY = findYoYRow(rows, rows.length-2, isQ);
@@ -17402,10 +17510,10 @@ function earningsComment(data, mode){
       const nonOpBig = last.otherNonOperating!=null && last.netIncome>0 && Math.abs(last.otherNonOperating)>=last.netIncome*0.2;
       const unusualBig = !nonOpBig && last.unusualItems!=null && last.revenue && Math.abs(last.unusualItems)>=last.revenue*0.1;
       if(nonOpBig){
-        s += ` <span style="color:var(--warn)">(이 중 $${fmtUsd(last.otherNonOperating)}는 영업외손익 - 본업 개선 폭과는 달라요.)</span>`;
+        s += ` <span style="color:var(--warn)">(이 중 ${FS}${fmtUsd(last.otherNonOperating)}는 영업외손익 - 본업 개선 폭과는 달라요.)</span>`;
       } else if(unusualBig){
         const sign = last.unusualItems < 0 ? '손실' : '이익';
-        s += ` <span style="color:var(--warn)">(대형 일회성 ${sign} $${fmtUsd(Math.abs(last.unusualItems))}가 반영돼 있어 본업 개선 폭과는 달라요.)</span>`;
+        s += ` <span style="color:var(--warn)">(대형 일회성 ${sign} ${FS}${fmtUsd(Math.abs(last.unusualItems))}가 반영돼 있어 본업 개선 폭과는 달라요.)</span>`;
       }
     } else s += '예요.';
     items.push(s);
@@ -17418,22 +17526,22 @@ function earningsComment(data, mode){
   const gOp = (last.opIncome!=null && prevYoY?.opIncome!=null) ? growth(last.opIncome, prevYoY.opIncome) : null;
   if(gOp != null){
     const label = isQ ? '전년 같은 분기' : '전년';
-    items.push(`영업이익은 $${fmtUsd(last.opIncome)}로 ${label} 대비 <b>${pctStr(gOp)}</b>예요${gRev!=null && Math.abs(gOp-gRev)>=10 ? (gOp>gRev?' (매출보다 더 빠르게 늘었어요 - 레버리지 개선)':' (매출 증가만큼 이익이 못 따라갔어요)') : ''}.`);
+    items.push(`영업이익은 ${FS}${fmtUsd(last.opIncome)}로 ${label} 대비 <b>${pctStr(gOp)}</b>예요${gRev!=null && Math.abs(gOp-gRev)>=10 ? (gOp>gRev?' (매출보다 더 빠르게 늘었어요 - 레버리지 개선)':' (매출 증가만큼 이익이 못 따라갔어요)') : ''}.`);
     if(gOp < -10) tone = 'warn';
   }
   // 03b) 잉여현금흐름(FCF) 변화 - 순이익은 흑자여도 현금이 안 따라오는 경우를 잡아냄
   if(last.fcf!=null && prevYoY?.fcf!=null){
     const dir = last.fcf > prevYoY.fcf ? '늘었어요' : (last.fcf < prevYoY.fcf ? '줄었어요' : '비슷해요');
-    items.push(`잉여현금흐름(FCF)은 $${fmtUsd(prevYoY.fcf)}에서 $${fmtUsd(last.fcf)}로 ${dir}${last.fcf<0?' (설비투자가 영업현금보다 많아요)':''}.`);
+    items.push(`잉여현금흐름(FCF)은 ${FS}${fmtUsd(prevYoY.fcf)}에서 ${FS}${fmtUsd(last.fcf)}로 ${dir}${last.fcf<0?' (설비투자가 영업현금보다 많아요)':''}.`);
     if(last.fcf < 0 && prevYoY.fcf >= 0) tone = 'warn';
   }
   // 03c) 1회성 항목 체크 - 세금효과·영업외손익이 순이익을 크게 흔들었으면 여기서 바로 경고
   // (04 재무제표 탭 financialDirectionComment의 동일 판정 로직을 재사용해 기준을 통일함)
   if(last.taxProvision!=null && last.taxProvision<0 && last.netIncome>0 && Math.abs(last.taxProvision)>=last.netIncome*0.2){
-    items.push(`<span style="color:var(--warn)">⚠️ ${last.period} 순이익에는 <b>$${fmtUsd(Math.abs(last.taxProvision))}의 세금효과(세금비용 마이너스)</b>가 포함돼 있어요 - 이 기간 순이익 급증을 본업 성장으로만 해석하면 안 돼요.</span>`);
+    items.push(`<span style="color:var(--warn)">⚠️ ${last.period} 순이익에는 <b>${FS}${fmtUsd(Math.abs(last.taxProvision))}의 세금효과(세금비용 마이너스)</b>가 포함돼 있어요 - 이 기간 순이익 급증을 본업 성장으로만 해석하면 안 돼요.</span>`);
   }
   if(last.otherNonOperating!=null && last.netIncome>0 && Math.abs(last.otherNonOperating)>=last.netIncome*0.2){
-    items.push(`<span style="color:var(--warn)">⚠️ ${last.period} 순이익에는 <b>$${fmtUsd(last.otherNonOperating)}의 영업외손익</b>이 크게 작용했어요 - 본업 흐름은 순이익보다 영업이익 쪽을 우선해서 보세요.</span>`);
+    items.push(`<span style="color:var(--warn)">⚠️ ${last.period} 순이익에는 <b>${FS}${fmtUsd(last.otherNonOperating)}의 영업외손익</b>이 크게 작용했어요 - 본업 흐름은 순이익보다 영업이익 쪽을 우선해서 보세요.</span>`);
   }
   if(last.stockComp!=null && last.netIncome>0 && last.stockComp>=last.netIncome*0.5){
     items.push(`주식보상비용이 순이익의 <b>${(last.stockComp/last.netIncome).toFixed(1)}배</b>예요 - GAAP 순이익만 보면 비현금성 비용 때문에 실제보다 나빠 보일 수 있어요.`);
@@ -17471,7 +17579,8 @@ function earningsComment(data, mode){
 }
 
 // ---- 04 재무제표: 손익 관점 ----
-function incomeComment(annual){
+function incomeComment(annual, t){
+  const FS = finSym(t);  // [WO26-E1] 재무 금액 원 통화 기호
   const allRows = annual.filter(d=>d.revenue!=null);
   if(allRows.length < 2) return '';
   const items = [];
@@ -17503,7 +17612,7 @@ function incomeComment(annual){
   // 매출 연평균 성장률(CAGR)
   if(first.revenue > 0 && last.revenue > 0 && yrs >= 0.7){
     const cagr = (Math.pow(last.revenue/first.revenue, 1/yrs) - 1) * 100;
-    items.push(`최근 ${cagrRows.length}개 연도(${first.period}→${last.period}) 매출은 $${fmtUsd(first.revenue)} → $${fmtUsd(last.revenue)}로 <b>연평균 ${pctStr(cagr)}</b> 변했어요.${cagrStart>0 ? ' <span class="sub">(그 이전 연도는 데이터 공백/법인변경 등으로 연속된 비교가 어려워 제외)</span>' : ''}`);
+    items.push(`최근 ${cagrRows.length}개 연도(${first.period}→${last.period}) 매출은 ${FS}${fmtUsd(first.revenue)} → ${FS}${fmtUsd(last.revenue)}로 <b>연평균 ${pctStr(cagr)}</b> 변했어요.${cagrStart>0 ? ' <span class="sub">(그 이전 연도는 데이터 공백/법인변경 등으로 연속된 비교가 어려워 제외)</span>' : ''}`);
     if(cagr < 0) tone = 'warn';
   }
   // 영업이익률 추이
@@ -17537,7 +17646,7 @@ function incomeComment(annual){
       if(go != null && go >= gr - 1){
         let s = `순이익이 매출보다 느리게 늘었어요(매출 ${pctStr(gr)} vs 순이익 ${pctStr(gn)}) — 하지만 <b>영업이익은 매출만큼(또는 더) 늘었어요(${pctStr(go)})</b>. 본업 비용 부담이 커졌다기보다 `;
         if(taxNow!=null && taxPrev!=null && taxNow > taxPrev){
-          s += `<b>법인세 비용이 $${fmtUsd(taxPrev)} → $${fmtUsd(taxNow)}로 늘어난 영향</b>이 커 보여요(영업외손익·일회성 항목도 같이 확인하세요).`;
+          s += `<b>법인세 비용이 ${FS}${fmtUsd(taxPrev)} → ${FS}${fmtUsd(taxNow)}로 늘어난 영향</b>이 커 보여요(영업외손익·일회성 항목도 같이 확인하세요).`;
         } else {
           s += `<b>영업이익 아래(세금·영업외손익) 항목의 영향</b>일 가능성이 높아요.`;
         }
@@ -17557,7 +17666,8 @@ function incomeComment(annual){
 }
 
 // ---- 04 재무제표: 현금흐름 관점 ----
-function cashflowComment(annual){
+function cashflowComment(annual, t){
+  const FS = finSym(t);  // [WO26-E1] 재무 금액 원 통화 기호
   const rows = annual.filter(d=>d.ocf!=null || d.fcf!=null);
   if(rows.length < 2) return '';
   const items = [];
@@ -17569,21 +17679,21 @@ function cashflowComment(annual){
     const posYears = rows.filter(d=>d.fcf!=null && d.fcf>0).length;
     const total = rows.filter(d=>d.fcf!=null).length;
     items.push(last.fcf >= 0
-      ? `${last.period} 잉여현금흐름(FCF)은 <b>$${fmtUsd(last.fcf)} 흑자</b>예요(표시 기간 ${total}년 중 ${posYears}년 흑자).`
-      : `${last.period} 잉여현금흐름(FCF)이 <b>$${fmtUsd(last.fcf)}로 마이너스</b>예요 — 버는 돈보다 설비투자가 많다는 뜻이에요.`);
+      ? `${last.period} 잉여현금흐름(FCF)은 <b>${FS}${fmtUsd(last.fcf)} 흑자</b>예요(표시 기간 ${total}년 중 ${posYears}년 흑자).`
+      : `${last.period} 잉여현금흐름(FCF)이 <b>${FS}${fmtUsd(last.fcf)}로 마이너스</b>예요 — 버는 돈보다 설비투자가 많다는 뜻이에요.`);
     if(last.fcf < 0) tone = 'warn';
     if(prev.fcf != null && last.fcf != null){
       const d = last.fcf - prev.fcf;
       if(Math.abs(prev.fcf) > 0) items.push(d >= 0
-        ? `전년 $${fmtUsd(prev.fcf)}보다 <b>늘었어요.</b>` : `전년 $${fmtUsd(prev.fcf)}보다 <b>줄었어요.</b>`);
+        ? `전년 ${FS}${fmtUsd(prev.fcf)}보다 <b>늘었어요.</b>` : `전년 ${FS}${fmtUsd(prev.fcf)}보다 <b>줄었어요.</b>`);
     }
   }
   // 2) 이익의 질 - 순이익 대비 영업현금흐름
   if(last.ocf != null && last.netIncome != null && last.netIncome > 0){
     const ratio = last.ocf / last.netIncome;
     items.push(ratio >= 1
-      ? `영업활동으로 들어온 현금($${fmtUsd(last.ocf)})이 순이익($${fmtUsd(last.netIncome)})보다 많아요(${ratio.toFixed(2)}배) — <b>장부상 이익이 실제 현금으로 잘 들어오고 있다</b>는 뜻이에요.`
-      : `영업활동 현금($${fmtUsd(last.ocf)})이 순이익($${fmtUsd(last.netIncome)})보다 적어요(${ratio.toFixed(2)}배) — 장부 이익만큼 현금이 안 들어온 셈이라 <b>재고·외상매출이 늘었는지</b> 볼 필요가 있어요.`);
+      ? `영업활동으로 들어온 현금(${FS}${fmtUsd(last.ocf)})이 순이익(${FS}${fmtUsd(last.netIncome)})보다 많아요(${ratio.toFixed(2)}배) — <b>장부상 이익이 실제 현금으로 잘 들어오고 있다</b>는 뜻이에요.`
+      : `영업활동 현금(${FS}${fmtUsd(last.ocf)})이 순이익(${FS}${fmtUsd(last.netIncome)})보다 적어요(${ratio.toFixed(2)}배) — 장부 이익만큼 현금이 안 들어온 셈이라 <b>재고·외상매출이 늘었는지</b> 볼 필요가 있어요.`);
     if(ratio < 0.8) tone = 'warn';
   }
   // 3) 설비투자 강도 - 매출 대비 CAPEX
@@ -17613,6 +17723,7 @@ function cashflowComment(annual){
 // 데이터(매출·방향성)가 바뀌면 매도가이드 자체도 바뀌어야 한다"고 지적해서, renderSellGuide()가
 // 이 종목의 실제 재무 판정(verdict)을 그 자리에서 그대로 가져다 쓸 수 있게 하기 위함(로직 중복 없이).
 function computeFinancialDirection(r, fin){
+  const FS = finSym(r && r.ticker);  // [WO26-E1] 재무 금액 원 통화 기호
   const annual = (fin?.annual || []).filter(d=>d.revenue!=null);
   const quarterly = (fin?.quarterly || []).filter(d=>d.revenue!=null);
   if(annual.length < 2) return null;
@@ -17723,10 +17834,10 @@ function computeFinancialDirection(r, fin){
   if(stockCompRatio!=null && stockCompRatio>=0.5) analysis.push(`주식보상비용이 최신 분기 순이익의 <b>${stockCompRatio.toFixed(1)}배</b>라 GAAP 이익과 조정이익의 차이를 함께 봐야 합니다.`);
   const taxOutlier = annual.slice().reverse().find(d=>d.taxProvision!=null && d.taxProvision<0 && d.netIncome>0 && Math.abs(d.taxProvision)>=d.netIncome*0.2);
   if(taxOutlier){
-    analysis.push(`${taxOutlier.period} 순이익에는 <b>$${fmtUsd(Math.abs(taxOutlier.taxProvision))}의 세금효과(세금비용 마이너스)</b>가 포함돼 있어, 그해 순이익 급증을 본업 성장으로 해석하면 안 됩니다.`);
+    analysis.push(`${taxOutlier.period} 순이익에는 <b>${FS}${fmtUsd(Math.abs(taxOutlier.taxProvision))}의 세금효과(세금비용 마이너스)</b>가 포함돼 있어, 그해 순이익 급증을 본업 성장으로 해석하면 안 됩니다.`);
   }
   if(lastQ?.otherNonOperating!=null && lastQ.netIncome>0 && Math.abs(lastQ.otherNonOperating)>=lastQ.netIncome*0.2){
-    analysis.push(`최신 분기 순이익에는 <b>$${fmtUsd(lastQ.otherNonOperating)}의 영업외손익</b>이 크게 작용해, 방향 판단은 순이익보다 영업이익을 우선했습니다.`);
+    analysis.push(`최신 분기 순이익에는 <b>${FS}${fmtUsd(lastQ.otherNonOperating)}의 영업외손익</b>이 크게 작용해, 방향 판단은 순이익보다 영업이익을 우선했습니다.`);
   }
   // 2026-09-11 추가(외부 검토로 발견, INTC 사례) - 위 체크는 netIncome>0(순이익 급증)일 때만
   // 봤는데, otherNonOperating이 아예 없고(이 종목은 SEC 검증 분기라 그 필드가 안 채워짐) 대신
@@ -17738,8 +17849,8 @@ function computeFinancialDirection(r, fin){
   // 제외 추정치)이 있으면 그 수치도 같이 보여줘 "본업만 보면 어느 정도인지" 감을 잡게 한다.
   if(lastQ?.unusualItems!=null && lastQ.revenue && Math.abs(lastQ.unusualItems)>=lastQ.revenue*0.1 && lastQ.otherNonOperating==null){
     const sign = lastQ.unusualItems < 0 ? '손실' : '이익';
-    const normText = lastQ.normalizedIncome!=null ? ` 이 항목을 제외한 조정 순이익(제공처 추정치)은 <b>$${fmtUsd(lastQ.normalizedIncome)}</b>입니다.` : '';
-    analysis.push(`최신 분기 순이익에는 본업과 무관한 <b>대형 일회성 ${sign}($${fmtUsd(Math.abs(lastQ.unusualItems))})</b>이 크게 반영돼 있어, GAAP 순이익 하나만으로 그 분기를 판단하면 안 됩니다.${normText} 영업이익(위 profitDir)은 이 일회성 항목과 무관하게 별도로 계산돼 있어 본업 방향 판단엔 그쪽을 우선하세요.`);
+    const normText = lastQ.normalizedIncome!=null ? ` 이 항목을 제외한 조정 순이익(제공처 추정치)은 <b>${FS}${fmtUsd(lastQ.normalizedIncome)}</b>입니다.` : '';
+    analysis.push(`최신 분기 순이익에는 본업과 무관한 <b>대형 일회성 ${sign}(${FS}${fmtUsd(Math.abs(lastQ.unusualItems))})</b>이 크게 반영돼 있어, GAAP 순이익 하나만으로 그 분기를 판단하면 안 됩니다.${normText} 영업이익(위 profitDir)은 이 일회성 항목과 무관하게 별도로 계산돼 있어 본업 방향 판단엔 그쪽을 우선하세요.`);
   }
   if(balanceGood) analysis.push(`유동비율 <b>${currentRatio.toFixed(2)}배</b>·이자부채/자본 <b>${debtEq.toFixed(2)}배</b>로 단기 지급능력과 부채 부담은 안정적인 편입니다.`);
   if(eps0Unreliable) analysis.push(`올해(0y) 예상 EPS는 01 판단 탭에서 신뢰할 수 없다고 판단해 계산을 보류한 값이라(${esc(r.fairValue.eps0StatusReason||'')}), 이 값을 분모로 쓰는 EPS 성장률 비교는 여기서도 생략했습니다.`);
@@ -17867,7 +17978,7 @@ function tabEarnings(r){
   // 토글로 선택한 모드에 데이터가 없을 때만 다른 쪽으로 대체 - 매번 quarterly로 되돌리지 않음
   if(!fin[earningsMode]?.length) earningsMode = fin.quarterly?.length ? 'quarterly' : 'annual';
   const sec = secTtmFromFinancials(r.ticker);
-  const vintage = sec ? `<div class="sub" style="margin-top:8px;">이 탭은 <b>SEC 정식 공시(10-Q/10-K)</b> 기준이라 <b>${sec.lastPeriod}</b>까지 반영돼 있어요. 최근 12개월 합산: 매출 $${fmtUsd(sec.revenue)} · 순이익 $${fmtUsd(sec.netIncome)} → 순이익률 ${sec.margin.toFixed(1)}%. 실적 발표는 났지만 공시서류 제출 전인 분기는 아직 여기 안 들어와요(그래서 02 탭 수치와 다를 수 있어요).</div>` : '';
+  const vintage = sec ? `<div class="sub" style="margin-top:8px;">이 탭은 <b>SEC 정식 공시(10-Q/10-K)</b> 기준이라 <b>${sec.lastPeriod}</b>까지 반영돼 있어요. 최근 12개월 합산: 매출 ${finSym(r.ticker)}${fmtUsd(sec.revenue)} · 순이익 ${finSym(r.ticker)}${fmtUsd(sec.netIncome)} → 순이익률 ${sec.margin.toFixed(1)}%. 실적 발표는 났지만 공시서류 제출 전인 분기는 아직 여기 안 들어와요(그래서 02 탭 수치와 다를 수 있어요).</div>` : '';
   // ⚠️ 2026-08-11 추가: 분기 라벨은 '달력 분기'(Q1=1~3월), 연간 라벨은 '회계연도'라 기준이 서로 다름.
   // 12월 결산이 아닌 회사(워치리스트 24종목 중 15종목!)는 이 둘이 다른 기간을 가리켜서, 분기 4개를
   // 더한 값과 같은 이름의 연간 값이 안 맞아 보임(실측: NVDA Q1'25~Q4'25 합 $187B vs 연간 2025 $130.5B).
@@ -17883,10 +17994,10 @@ function tabEarnings(r){
       <div class="toggle-btn ${earningsMode==='quarterly'?'active':''}" onclick="setEarningsMode('${r.ticker}','quarterly')">분기별</div>
       <div class="toggle-btn ${earningsMode==='annual'?'active':''}" onclick="setEarningsMode('${r.ticker}','annual')">연도별</div>
     </div>
-    <div class="chart-label">매출(막대) · 순이익(선) — 단위 $ · <b>막대와 선은 서로 다른 축척(각자 자기 최댓값 기준)</b>이라 높이를 직접 비교하면 안 돼요 · 화면이 좁아 숫자가 겹칠 땐 생략되니 아래 표에서 보세요</div>
+    <div class="chart-label">매출(막대) · 순이익(선) — 단위 ${esc(finCurOf(r.ticker) === 'USD' ? '$' : finCurOf(r.ticker) + '(' + finSym(r.ticker) + ')')} · <b>막대와 선은 서로 다른 축척(각자 자기 최댓값 기준)</b>이라 높이를 직접 비교하면 안 돼요 · 화면이 좁아 숫자가 겹칠 땐 생략되니 아래 표에서 보세요</div>
     <canvas id="earningsCanvas"></canvas>
-    ${earningsComment(fin[earningsMode] || [], earningsMode)}
-    ${earningsTable(fin[earningsMode] || [], earningsMode)}
+    ${earningsComment(fin[earningsMode] || [], earningsMode, r.ticker)}
+    ${earningsTable(fin[earningsMode] || [], earningsMode, r.ticker)}
     ${fyNote}
     ${vintage}
     <div class="glossary" style="margin-top:10px;">
@@ -17895,7 +18006,8 @@ function tabEarnings(r){
   `;
 }
 // 차트 숫자가 작아서 안 보인다는 요청 → 같은 데이터를 표로도 제공(증감률·이익률까지 같이 계산)
-function earningsTable(data, mode){
+function earningsTable(data, mode, t){
+  const FS = finSym(t);  // [WO26-E1] 재무 금액 원 통화 기호
   const rows = data.filter(d=>d.revenue!=null || d.netIncome!=null);
   if(!rows.length) return '';
   const isQTable = mode==='quarterly';
@@ -17910,10 +18022,10 @@ function earningsTable(data, mode){
       : esc(String(d.period));
     return `<tr id="earnRow-${esc(String(d.period))}">
       <td class="name">${periodLabel}</td>
-      <td>${d.revenue!=null?'$'+fmtUsd(d.revenue):'-'}</td>
+      <td>${d.revenue!=null?FS+fmtUsd(d.revenue):'-'}</td>
       <td style="color:${gRev==null?'inherit':(gRev>=0?'var(--up)':'var(--down)')}">${gRev==null?'-':pctStr(gRev)}</td>
-      <td>${d.opIncome!=null?'$'+fmtUsd(d.opIncome):'-'}</td>
-      <td>${d.netIncome!=null?'$'+fmtUsd(d.netIncome):'-'}</td>
+      <td>${d.opIncome!=null?FS+fmtUsd(d.opIncome):'-'}</td>
+      <td>${d.netIncome!=null?FS+fmtUsd(d.netIncome):'-'}</td>
       <td style="color:${margin==null?'inherit':(margin>=0?'inherit':'var(--down)')}">${margin==null?'-':margin.toFixed(1)+'%'}</td>
     </tr>`;
   }).reverse().join('');   // 최신이 위로 오게
@@ -18061,6 +18173,7 @@ function normalizeAnnualFcf(annual){
   return annual;
 }
 function tabFinancials(r){
+  const FS = finSym(r.ticker);  // [WO26-E1] 재무 금액 원 통화 기호
   const fin = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA[r.ticker] : null;
   const annual = normalizeAnnualFcf(fin?.annual || []);
   if(!annual.length){
@@ -18069,24 +18182,24 @@ function tabFinancials(r){
   const rows = annual.map(a=>`
     <tr id="finRow-${esc(String(a.period))}">
       <td class="name">${a.period}</td>
-      <td>$${fmtUsd(a.revenue)}</td>
-      <td>${a.opIncome!=null?'$'+fmtUsd(a.opIncome):'-'}</td>
-      <td>${a.netIncome!=null?'$'+fmtUsd(a.netIncome):'-'}</td>
-      <td>${a.ocf!=null?'$'+fmtUsd(a.ocf):'-'}</td>
-      <td>${a.capex!=null?'$'+fmtUsd(a.capex):'-'}</td>
-      <td>${a.fcf!=null?('$'+fmtUsd(a.fcf)+(a._fcfIsProxy?' <span title="회사가 공시한 FCF가 없어 OCF-|CAPEX|로 추정한 값입니다">*</span>':'')):'-'}</td>
+      <td>${FS}${fmtUsd(a.revenue)}</td>
+      <td>${a.opIncome!=null?FS+fmtUsd(a.opIncome):'-'}</td>
+      <td>${a.netIncome!=null?FS+fmtUsd(a.netIncome):'-'}</td>
+      <td>${a.ocf!=null?FS+fmtUsd(a.ocf):'-'}</td>
+      <td>${a.capex!=null?FS+fmtUsd(a.capex):'-'}</td>
+      <td>${a.fcf!=null?(FS+fmtUsd(a.fcf)+(a._fcfIsProxy?' <span title="회사가 공시한 FCF가 없어 OCF-|CAPEX|로 추정한 값입니다">*</span>':'')):'-'}</td>
     </tr>`).join('');
   return `
     <div class="chart-label">연도별 손익</div>
     ${chartLegend([{color:'rgba(216,69,62,0.5)', label:'매출(막대)'}, {color:'#ea5414', line:true, label:'영업이익(선)'}, {color:'#3b6fd8', line:true, label:'순이익(선)'}])}
     <canvas id="finIncomeCanvas"></canvas>
     <div class="sub" style="margin-top:2px;">막대·점을 누르면 아래 표에서 그 연도가 강조돼요 · 정확한 숫자는 표에서 확인하세요</div>
-    ${incomeComment(annual)}
+    ${incomeComment(annual, r.ticker)}
     <div class="chart-label" style="margin-top:16px;">연도별 현금흐름</div>
     ${chartLegend([{color:'rgba(216,69,62,0.5)', label:'OCF(막대)'}, {color:'#9a6800', line:true, label:'CAPEX(선)'}, {color:'#087d4c', line:true, label:'FCF(선)'}])}
     <canvas id="finCfCanvas"></canvas>
     <div class="sub" style="margin-top:2px;">막대·점을 누르면 아래 표에서 그 연도가 강조돼요 · 정확한 숫자는 표에서 확인하세요</div>
-    ${cashflowComment(annual)}
+    ${cashflowComment(annual, r.ticker)}
     ${sharesOutstandingComment(fin)}
     ${segmentRevenueComment(r.ticker)}
     ${financialDirectionComment(r, fin)}
