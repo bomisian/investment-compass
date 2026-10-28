@@ -48,6 +48,13 @@ const EVIDENCE_REVIEW_QUEUE_STATUS = {
     "filingDate": "2026-10-27",
     "level": "ok",
     "confidenceLevel": "confirmed"
+  },
+  "STX": {
+    "pendingDays": 1,
+    "form": "8-K",
+    "filingDate": "2026-10-27",
+    "level": "ok",
+    "confidenceLevel": "confirmed"
   }
 };
 const EVIDENCE_RESULTS_PERIOD = {
