@@ -1557,7 +1557,7 @@ const MARKET_EXPECTATION_41 = {
     "HUBB": {
       "ticker": "HUBB",
       "as_of": "2026-10-28",
-      "expectation_status": "기대 유지",
+      "expectation_status": "기대 강화",
       "confidence": "보통",
       "observed_axes": 6,
       "ab_grade_axes": 6,
@@ -1574,25 +1574,24 @@ const MARKET_EXPECTATION_41 = {
       "stale_consensus_warning": false,
       "price_as_of_mismatch": false,
       "composite_hidden": false,
-      "composite_internal_ref": 0.15,
+      "composite_internal_ref": 0.4167,
       "support_summary": [
-        "Q2 2026 매출 $1,711.8M(+15% YoY, 유기적 +10%); H1 2026 $3,228.5M(+13% YoY)",
-        "조정 희석 EPS $5.52, 전년 대비 +12% YoY",
-        "Q2 OCF $249.8M, FCF $212.8M"
+        "[자동] Q3'26 매출 $1.87B, 전년 동기 대비 +24.6%",
+        "[자동] Q3'26 영업이익 $0.41B, 전년 동기 대비 +23.6%",
+        "[자동] Q3'26 잉여현금흐름 $0.28B, 전년 동기 대비 +10.5%"
       ],
       "caution_summary": [
-        "총부채 $5,372.6M, 순부채 $4,874.2M — NSI Industries 인수 자금조달($900M 텀론+$1.9B 선순위채)",
-        "Q2 조정영업마진 23.9%, 전년대비 -50bp 하락(매출성장에도 불구)"
+        "총부채 $5,372.6M, 순부채 $4,874.2M — NSI Industries 인수 자금조달($900M 텀론+$1.9B 선순위채)"
       ],
       "next_change_condition": [
-        "종합 점수가 ±0.25를 넘어서는 새 A/B급 근거가 나오면 결론이 바뀐다.",
+        "지지 근거 중 하나라도 공식적으로 철회·악화되거나, 구조위험 조건이 나오면 결론이 바뀐다.",
         "미관측 축(정책·뉴스·추세) 자료 확보 시 재평가",
+        "종합 점수가 ±0.25를 넘어서는 새 A/B급 근거가 나오면 결론이 바뀐다.",
         "최신(2026년 10월 전후) 다수 애널리스트 컨센서스 자료를 확보해 목표가 데이터를 갱신",
-        "정량화된 백로그/수주 $ 수치가 공시되어 CAPEX-수요 페어링이 가능해지는 경우",
-        "다음 분기 마진이 회복되는지, 인수 통합비용이 해소되는지 확인"
+        "정량화된 백로그/수주 $ 수치가 공시되어 CAPEX-수요 페어링이 가능해지는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
-      "evidence_auto_count": 0,
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 4건(2026-09-30 분기)",
+      "evidence_auto_count": 4,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
       "primary_etf": "XLI",
@@ -1817,11 +1816,11 @@ const MARKET_EXPECTATION_41 = {
       "stale_consensus_warning": false,
       "price_as_of_mismatch": false,
       "composite_hidden": false,
-      "composite_internal_ref": 0.7062,
+      "composite_internal_ref": 0.7625,
       "support_summary": [
-        "Q2 2026 총매출 $11,104M, +22% YoY(유기적 +12%)",
-        "Q2 2026 OCF $5,492M, H1 OCF $10,680M; FY2026 FCF 가이던스 $11.5~12.5B로 상향(기존 $6.5~7.5B)",
-        "Q2 2026 수주(orders) $24.2B(+88% 유기적 YoY), 총 backlog $176B; 가스발전 설비백로그 53GW(이전 44GW), 가스터빈 슬롯예약 63GW(이전 56GW)"
+        "Q2 2026 수주(orders) $24.2B(+88% 유기적 YoY), 총 backlog $176B; 가스발전 설비백로그 53GW(이전 44GW), 가스터빈 슬롯예약 63GW(이전 56GW)",
+        "2026-02-02 Prolec GE 잔여 50% 지분 인수 완료($5.275B), 데이터센터向 변압기·전력인프라 사업 강화",
+        "[자동] Q3'26 매출 $12.64B, 전년 동기 대비 +26.8%"
       ],
       "caution_summary": [
         "2026-02-04 공개기업 전환 후 첫 회사채 $2.6B 발행(Prolec GE 인수자금 절반); 2025-12-31 총부채 $1,196M→2026-06-30 $3,720M(+211%, 2차 집계)"
@@ -1833,8 +1832,8 @@ const MARKET_EXPECTATION_41 = {
         "가스터빈 백로그 수치의 1차/2차 소스 불일치(53GW vs 116GW) 해소",
         "OBBBA 풍력 정책 영향이 공식 자료로 재확인되는지 확인"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 1건(2026-06-30 분기)",
-      "evidence_auto_count": 1,
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 4건(2026-09-30 분기)",
+      "evidence_auto_count": 4,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
       "primary_etf": "ICLN",
