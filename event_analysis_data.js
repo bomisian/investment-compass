@@ -1,14 +1,14 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793217677.1243436,
+  "generatedAt": 1793218530.2901735,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793200424,
       "signal": "중립·확인 대기",
-      "netScore": -1.12,
+      "netScore": 0.14,
       "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -18,12 +18,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": 0.17,
+          "score": 0.52,
           "level": "중립"
         },
         "valuationBurden": {
           "label": "밸류에이션 부담",
-          "score": -0.7,
+          "score": -0.35,
           "level": "중립"
         },
         "customerConcentration": {
@@ -38,12 +38,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -0.7,
+          "score": -0.35,
           "level": "중립"
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -0.52,
+          "score": -0.17,
           "level": "중립"
         },
         "insiderSignal": {
@@ -132,30 +132,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -1
           },
           "reason": "사업·실적 연결 경로 확인 필요"
-        },
-        {
-          "eventId": "5dfb13efc4e940739c2a",
-          "headline": "기술 수익은 이번 주 시장의 가장 큰 이야기입니다. Microsoft, Amazon, Intel, SanDisk 및 Alphabet이 주식 시장의 다음 움직임을 주도할 이유는 다음과 같습니다.",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1793049314,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=3ba45970045d616ae03d3cc67e7f9f6059a35dc49bdd2be6aa520a0bc20af7bf",
-          "factorChanges": {
-            "growth": -1,
-            "valuationBurden": -1,
-            "businessRisk": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 7,
+      "unverifiedEvidenceCount": 6,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793194984,
       "signal": "주의 강화",
       "netScore": -3.84,
@@ -307,10 +292,10 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793190945,
       "signal": "중립·확인 대기",
-      "netScore": -1.13,
+      "netScore": 0.83,
       "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -320,12 +305,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": 0.87,
-          "level": "중립"
+          "score": 1.57,
+          "level": "우호적"
         },
         "valuationBurden": {
           "label": "밸류에이션 부담",
-          "score": -0.7,
+          "score": -0.35,
           "level": "중립"
         },
         "customerConcentration": {
@@ -340,12 +325,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -1.4,
+          "score": -1.05,
           "level": "주의"
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -0.7,
+          "score": 0.0,
           "level": "중립"
         },
         "insiderSignal": {
@@ -379,6 +364,19 @@ const EVENT_ANALYSIS_DATA = {
           "factorChanges": {
             "growth": -1,
             "shortTermMomentum": -1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
+        {
+          "eventId": "dbb13cafd7a6f3388759",
+          "headline": "'사이버캡은 어디에 있습니까?' Tesla 투자자 Ross Gerber는 150개의 Robotaxis에 대한 Santa Monica 거래를 통해 Amazon의 Zoox Eyes 확장으로 Elon Musk를 목표로 삼고 있습니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1793154611,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=2c54a2c998469db63613ae0fdfcc3c4181f092e6bf1d7d0a09d39cd2d1d2740e",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
           },
           "reason": "사업·실적 연결 경로 확인 필요"
         },
@@ -452,21 +450,6 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -1
           },
           "reason": "사업·실적 연결 경로 확인 필요"
-        },
-        {
-          "eventId": "5dfb13efc4e940739c2a",
-          "headline": "기술 수익은 이번 주 시장의 가장 큰 이야기입니다. Microsoft, Amazon, Intel, SanDisk 및 Alphabet이 주식 시장의 다음 움직임을 주도할 이유는 다음과 같습니다.",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1793049314,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=3ba45970045d616ae03d3cc67e7f9f6059a35dc49bdd2be6aa520a0bc20af7bf",
-          "factorChanges": {
-            "growth": -1,
-            "valuationBurden": -1,
-            "businessRisk": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
         }
       ],
       "confirmedEvidenceCount": 0,
@@ -475,7 +458,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793200150,
       "signal": "우호적 변화",
       "netScore": 2.44,
@@ -693,7 +676,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793106154,
       "signal": "주의 강화",
       "netScore": -4.2,
@@ -790,10 +773,10 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793198460,
       "signal": "중립·확인 대기",
-      "netScore": -1.61,
+      "netScore": -0.91,
       "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -803,7 +786,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": 0.35,
+          "score": 0.7,
           "level": "중립"
         },
         "valuationBurden": {
@@ -828,7 +811,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -0.7,
+          "score": -0.35,
           "level": "중립"
         },
         "insiderSignal": {
@@ -852,6 +835,19 @@ const EVENT_ANALYSIS_DATA = {
           "reason": "사업·실적 연결 경로 확인 필요"
         },
         {
+          "eventId": "dbb13cafd7a6f3388759",
+          "headline": "'사이버캡은 어디에 있습니까?' Tesla 투자자 Ross Gerber는 150개의 Robotaxis에 대한 Santa Monica 거래를 통해 Amazon의 Zoox Eyes 확장으로 Elon Musk를 목표로 삼고 있습니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1793154611,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=2c54a2c998469db63613ae0fdfcc3c4181f092e6bf1d7d0a09d39cd2d1d2740e",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
+        {
           "eventId": "3973ce90de8a5a59fa23",
           "headline": "Tesla의 이익은 43% 하락했고 주가는 유지되었습니다. 이유는 다음과 같습니다",
           "eventLabel": "워런트·신주·희석 가능성",
@@ -867,12 +863,12 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 2,
+      "unverifiedEvidenceCount": 3,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793200424,
       "signal": "우호적 변화",
       "netScore": 2.39,
@@ -1061,7 +1057,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -1115,7 +1111,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793208245,
       "signal": "주의 강화",
       "netScore": -4.62,
@@ -1198,10 +1194,10 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793208523,
       "signal": "우호적 변화",
-      "netScore": 7.07,
+      "netScore": 7.17,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -1236,7 +1232,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 4.9,
+          "score": 5,
           "level": "우호적"
         },
         "insiderSignal": {
@@ -1407,15 +1403,15 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 33,
+      "unverifiedEvidenceCount": 35,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793208523,
       "signal": "우호적 변화",
-      "netScore": 2.97,
+      "netScore": 3.67,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -1450,7 +1446,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 2.28,
+          "score": 2.98,
           "level": "우호적"
         },
         "insiderSignal": {
@@ -1595,6 +1591,19 @@ const EVENT_ANALYSIS_DATA = {
           "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
         },
         {
+          "eventId": "dbb13cafd7a6f3388759",
+          "headline": "'사이버캡은 어디에 있습니까?' Tesla 투자자 Ross Gerber는 150개의 Robotaxis에 대한 Santa Monica 거래를 통해 Amazon의 Zoox Eyes 확장으로 Elon Musk를 목표로 삼고 있습니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1793154611,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=2c54a2c998469db63613ae0fdfcc3c4181f092e6bf1d7d0a09d39cd2d1d2740e",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+        },
+        {
           "eventId": "0735270e4e3e10149e01",
           "headline": "Broadcom CEO는 은행이 흔들린 후 자본을 '사용 가능'하다고 말했습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
@@ -1606,28 +1615,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-        },
-        {
-          "eventId": "c4a11dddae1380576c36",
-          "headline": "Oracle과 OpenAI는 투자자들이 계속 묻는 자금 조달 질문을 건너뛰었습니다.",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1793151780,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=64fc8d15c73a83e9efde1d56e03443ef40ef88beda9133de3397683a104d3081",
-          "factorChanges": {
-            "growth": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 24,
+      "unverifiedEvidenceCount": 26,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793198160,
       "signal": "우호적 변화",
       "netScore": 6.47,
@@ -1847,7 +1843,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -1901,7 +1897,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793112901,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -1970,7 +1966,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793122427,
       "signal": "주의 강화",
       "netScore": -4.19,
@@ -2053,10 +2049,10 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793198160,
       "signal": "주의 강화",
-      "netScore": -5.6,
+      "netScore": -4.34,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -2066,12 +2062,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": -0.35,
+          "score": 0.0,
           "level": "중립"
         },
         "valuationBurden": {
           "label": "밸류에이션 부담",
-          "score": -1.4,
+          "score": -1.05,
           "level": "주의"
         },
         "customerConcentration": {
@@ -2086,12 +2082,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -2.97,
+          "score": -2.62,
           "level": "주의"
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -1.75,
+          "score": -1.4,
           "level": "주의"
         },
         "insiderSignal": {
@@ -2193,30 +2189,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -1
           },
           "reason": "사업·실적 연결 경로 확인 필요"
-        },
-        {
-          "eventId": "5dfb13efc4e940739c2a",
-          "headline": "기술 수익은 이번 주 시장의 가장 큰 이야기입니다. Microsoft, Amazon, Intel, SanDisk 및 Alphabet이 주식 시장의 다음 움직임을 주도할 이유는 다음과 같습니다.",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1793049314,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=3ba45970045d616ae03d3cc67e7f9f6059a35dc49bdd2be6aa520a0bc20af7bf",
-          "factorChanges": {
-            "growth": -1,
-            "valuationBurden": -1,
-            "businessRisk": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 8,
+      "unverifiedEvidenceCount": 7,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793091002,
       "signal": "주의 강화",
       "netScore": -3.14,
@@ -2299,7 +2280,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2353,7 +2334,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793203425,
       "signal": "주의 강화",
       "netScore": -3.14,
@@ -2436,7 +2417,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793203425,
       "signal": "중립·확인 대기",
       "netScore": -1.26,
@@ -2505,7 +2486,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793203425,
       "signal": "중립·확인 대기",
       "netScore": -1.26,
@@ -2574,7 +2555,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793208523,
       "signal": "우호적 변화",
       "netScore": 8.46,
@@ -2785,15 +2766,15 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 27,
+      "unverifiedEvidenceCount": 29,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793191801,
       "signal": "중립·확인 대기",
-      "netScore": -1.69,
+      "netScore": -0.43,
       "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -2803,12 +2784,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": -0.0,
+          "score": 0.35,
           "level": "중립"
         },
         "valuationBurden": {
           "label": "밸류에이션 부담",
-          "score": -0.35,
+          "score": 0.0,
           "level": "중립"
         },
         "customerConcentration": {
@@ -2823,12 +2804,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -1.75,
+          "score": -1.4,
           "level": "주의"
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -0.53,
+          "score": -0.18,
           "level": "중립"
         },
         "insiderSignal": {
@@ -2879,30 +2860,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
-        },
-        {
-          "eventId": "5dfb13efc4e940739c2a",
-          "headline": "기술 수익은 이번 주 시장의 가장 큰 이야기입니다. Microsoft, Amazon, Intel, SanDisk 및 Alphabet이 주식 시장의 다음 움직임을 주도할 이유는 다음과 같습니다.",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1793049314,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=3ba45970045d616ae03d3cc67e7f9f6059a35dc49bdd2be6aa520a0bc20af7bf",
-          "factorChanges": {
-            "growth": -1,
-            "valuationBurden": -1,
-            "businessRisk": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 4,
+      "unverifiedEvidenceCount": 3,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793183016,
       "signal": "중립·확인 대기",
       "netScore": 0.92,
@@ -2999,7 +2965,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793189882,
       "signal": "중립·확인 대기",
       "netScore": -1.26,
@@ -3068,7 +3034,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3122,7 +3088,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793207161,
       "signal": "주의 강화",
       "netScore": -4.27,
@@ -3229,7 +3195,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793196230,
       "signal": "중립·확인 대기",
       "netScore": -1.87,
@@ -3319,7 +3285,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3373,7 +3339,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3427,7 +3393,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3481,7 +3447,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793196230,
       "signal": "중립·확인 대기",
       "netScore": -1.87,
@@ -3551,7 +3517,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793114913,
       "signal": "중립·확인 대기",
       "netScore": -1.54,
@@ -3630,7 +3596,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793196230,
       "signal": "주의 강화",
       "netScore": -3.78,
@@ -3725,7 +3691,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3779,7 +3745,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793192844,
       "signal": "주의 강화",
       "netScore": -8.05,
@@ -3939,7 +3905,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3993,7 +3959,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4047,7 +4013,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1793217677.1243436,
+      "updatedAt": 1793218530.2901735,
       "dataAsOf": 1793128029,
       "signal": "중립·확인 대기",
       "netScore": -1.26,
