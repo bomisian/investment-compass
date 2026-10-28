@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 101.33000183105469,
+      "current": 101.27999877929688,
       "prevClose": 99.9000015258789,
-      "changeAbs": 1.4300003051757812,
-      "changePct": 1.4314317150489155,
+      "changeAbs": 1.3799972534179688,
+      "changePct": 1.3813786109507546,
       "pctRank": 91.56722354813047,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -10.287733892115291,
-      "ma20": 96.25750045776367,
-      "ma60": 91.83283398946126,
-      "chg1m": 11.950004577636719,
-      "chg3m": 17.740005493164062,
-      "chg1mPct": 13.369886937627692,
-      "chg3mPct": 21.222641787726303,
+      "drawdown1y": -10.332003970122228,
+      "ma20": 96.25500030517578,
+      "ma60": 91.83200060526529,
+      "chg1m": 11.900001525878906,
+      "chg3m": 17.69000244140625,
+      "chg1mPct": 13.313942595163638,
+      "chg3mPct": 21.162822366804583,
       "lastDate": "2026-10-28",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 102.4280014038086,
+      "current": 102.41600036621094,
       "prevClose": 102.31999969482422,
-      "changeAbs": 0.108001708984375,
-      "changePct": 0.1055528824340274,
-      "pctRank": 50.83532219570406,
+      "changeAbs": 0.09600067138671875,
+      "changePct": 0.09382395589625366,
+      "pctRank": 50.7557677008751,
       "min5y": 93.3499984741211,
       "max5y": 114.11000061035156,
       "high1y": 102.58000183105469,
-      "drawdown1y": -0.14817744641536512,
-      "ma20": 102.06940002441407,
-      "ma60": 100.54329986572266,
-      "chg1m": 1.0579986572265625,
-      "chg3m": 2.417999267578125,
-      "chg1mPct": 1.043699939390833,
-      "chg3mPct": 2.4177574401852353,
+      "drawdown1y": -0.15987664448852135,
+      "ma20": 102.06879997253418,
+      "ma60": 100.54309984842936,
+      "chg1m": 1.0459976196289062,
+      "chg3m": 2.4059982299804688,
+      "chg1mPct": 1.0318610942961377,
+      "chg3mPct": 2.405757602827659,
       "lastDate": "2026-10-28",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4056.0,
+      "current": 4049.199951171875,
       "prevClose": 4074.60009765625,
-      "changeAbs": -18.60009765625,
-      "changePct": -0.45648891205173625,
-      "pctRank": 80.9220985691574,
+      "changeAbs": -25.400146484375,
+      "changePct": -0.6233776536496284,
+      "pctRank": 80.7631160572337,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -23.736460693514726,
-      "ma20": 4136.9749755859375,
-      "ma60": 4333.591658528646,
-      "chg1m": -123.7001953125,
-      "chg3m": -44.10009765625,
-      "chg1mPct": -2.9595470854878245,
-      "chg3mPct": -1.0755858785364545,
+      "drawdown1y": -23.864319616367226,
+      "ma20": 4136.634973144532,
+      "ma60": 4333.47832438151,
+      "chg1m": -130.500244140625,
+      "chg3m": -50.900146484375,
+      "chg1mPct": -3.122239348338428,
+      "chg3mPct": -1.2414366789111118,
       "lastDate": "2026-10-28",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,6 +237,24 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Netanyahu, Eisenkot stake rival claims to lead Israel after deadlocked vote - Reuters",
+      "summary": "Netanyahu, Eisenkot stake rival claims to lead Israel after deadlocked vote Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZmptb013S1hpZ2RvLUZSRWh6dHV5cWFLZC0tdVBFdE8yVk04N2xjd0Q2VzZvdC1mVEUtZmdDMW9LQlRET1doTFFJd2xqWlJZTWVhWVdtamNCWk9WMjAyanRzTjNDcXEzNG80bWM4a3p1bkp2Vm43em0tcUI1ZkE0Tm1RaHc5cEdVcS1ER0loZU1xczlmQ1gxaXZ5Q1Y3Tnp4eDNKZ09zSDNWbUxnNmt3Q1Rvc1FPcmV1dVpmSmlSRHVTc2M?oc=5",
+      "datetime": 1793155680,
+      "headlineKo": "네타냐후, 아이젠코트 스테이크 경쟁자, 교착상태 투표 후 이스라엘 지도자 주장 - 로이터 통신",
+      "summaryKo": "네타냐후, 아이젠코트 스테이크 라이벌, 교착상태 투표 후 이스라엘 지도자 주장 - 최신"
+    },
+    {
+      "headline": "Oil prices rise after attack on Saudi Arabian refinery reignites supply concerns - Reuters",
+      "summary": "Oil prices rise after attack on Saudi Arabian refinery reignites supply concerns Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYUhHblNqOGNPczlpdUR2NDFMWjZxX2FZYjVTTzREX2R4YU5jRzF2ckN1MG9sSnIxWG9hbDJ0TjV4YTZXRjdqSUc3aF9OcTJuUVlJZkZrdUd0V0RMUU1qUWxiNDdmdXhCTmJUczZWOFRUWTRKdzJQLUJYNXZBODhnTjJfOXMyNU01OGVreWM5TkNyamNjbzV5UzAxX3ZOdWcwcUE5SFZHSkEyUjZ1M1dUQ3ByRDdxbC13ZzRQR0xfcTZ0bjh6dnNPalJZRWI?oc=5",
+      "datetime": 1793152140,
+      "headlineKo": "사우디아라비아 정유소 공격으로 유가 상승, 공급 우려 다시 촉발 - Reuters",
+      "summaryKo": "사우디 아라비아 정유소 공격으로 유가 상승, 공급 우려 다시 촉발 - 최신"
+    },
+    {
       "headline": "ASEAN envoy to lead humanitarian mission to Myanmar - Reuters",
       "summary": "ASEAN envoy to lead humanitarian mission to Myanmar Reuters",
       "source": "Reuters",
@@ -255,6 +273,15 @@ const MARKET_DATA = {
       "summaryKo": "미 국방부 추산에 따르면 미국의 이란 전쟁 비용은 470억 달러 이상으로 증가합니다."
     },
     {
+      "headline": "Healey seeks to steer UK through 'difficult moment' with low-key budget - Reuters",
+      "summary": "Healey seeks to steer UK through 'difficult moment' with low-key budget Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTWt5eEVYVG40UkFvRGh3TmhBeFAzMDdOdVp1aW5kekhwRFUzRWxJdTVPRl8xZUt5QVl5bm9xbXczdE5DMHlpdE5JSWR6eEZGREI5VnU0TVFreVdyZ3lJQ2lRQnJqTjQydFphUmZaOFg3YlNRdlBsZ0s3TGVaQndkby16NkZMU3I1Q0FucHgyekp0MjFsWmI1YXBkMlpNRjVFNFlSVTJDeFhQQlowaHVzeQ?oc=5",
+      "datetime": 1793145780,
+      "headlineKo": "Healey는 낮은 예산으로 '어려운 순간'을 통해 영국을 이끌려고 노력합니다-Reuters",
+      "summaryKo": "Healey는 낮은 예산으로 '어려운 순간'을 통해 영국을 이끌려고 노력합니다."
+    },
+    {
       "headline": "Hegseth likely to face questions on US role in Indo-Pacific at ASEAN summit - Reuters",
       "summary": "Hegseth likely to face questions on US role in Indo-Pacific at ASEAN summit Reuters",
       "source": "Reuters",
@@ -262,6 +289,15 @@ const MARKET_DATA = {
       "datetime": 1793143744,
       "headlineKo": "헤그세스, ASEAN 정상회담에서 인도-태평양에서 미국의 역할에 대한 질문에 직면할 듯 - 로이터",
       "summaryKo": "헤그세스, ASEAN 정상회담에서 인도-태평양에서 미국의 역할에 대한 질문에 직면할 듯 - 로이터"
+    },
+    {
+      "headline": "UK's Healey to reverse cuts to cash ISA allowances, FT reports - Reuters",
+      "summary": "UK's Healey to reverse cuts to cash ISA allowances, FT reports Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNY3hqY0RJSHAydENJNjV0Zmg3a2wxQnhUcGdRWFdMSmtWczFseFg3cEx1eURQLXp2QnpVV2FmeVBvM3VYRlBaZ3M2RnRWOHBiZl9QeEkxMXRSX2p3djhjVXFxakVyWndnN3lqR29vbWh3RGxGaWhBdE5XRkttLUI1a3VUX2t4aG1GWUVSSUFlSGF3a2ZLN0h2bkh0VjhPdm9j?oc=5",
+      "datetime": 1793141983,
+      "headlineKo": "영국의 Healey가 현금 ISA 수당 삭감을 취소한다고 FT 보고서 - Reuters",
+      "summaryKo": "영국의 Healey가 현금 ISA 수당 삭감을 취소한다고 FT가 보도했습니다."
     },
     {
       "headline": "Rights monitors raise concerns over senior UAE diplomat bid for next UN boss - Reuters",
@@ -307,56 +343,18 @@ const MARKET_DATA = {
       "datetime": 1793128673,
       "headlineKo": "예멘 후티 반군, 사우디 라스 타누라 정유소에 미사일 공격",
       "summaryKo": "예멘 후티 반군, 미사일로 사우디 라스 타누라 정유소 공격했다고 밝혔다 - 최신"
-    },
-    {
-      "headline": "Food and household brands warn of more price hikes as Iran war costs bite - Reuters",
-      "summary": "Food and household brands warn of more price hikes as Iran war costs bite Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUXRiWWdvUGZ0dTBiY2t4aWlWZlNWSlVlYUV4VXR6c25vRFJ0QUJ2NEJ6WTJTSW93cWFhb2xDYURhY2gydkQyRHhvMEFJYkh0S1JjVTVOLWlTbEVOQW83UUZZam5TTnBtV1ZoS2NaV3REUXF6andpWUZfcXpwdzRMQjJmZkxkdUs0eDVFSF94TjN5Tl9INFZ1WVFiUm8wSzBvbHlEQVJJT25TMlBWRVZneE01NGl6ekNHVGhYb2ZqNTRHdw?oc=5",
-      "datetime": 1793125783,
-      "headlineKo": "식품 및 생활용품 브랜드, 이란 전쟁 비용 증가로 추가 가격 인상 경고 - 로이터 통신",
-      "summaryKo": "이란 전쟁 비용으로 인해 식품 및 가정용품 브랜드가 추가 가격 인상 경고 - 최신"
-    },
-    {
-      "headline": "What's behind the AI trade comeback — plus, our take on Intel's latest deal",
-      "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/10/27/the-ai-trade-comeback-plus-our-take-on-latest-intel-deal.html",
-      "datetime": 1793124831,
-      "headlineKo": "AI 무역 복귀의 배경은 무엇입니까? 또한 Intel의 최신 거래에 대한 우리의 견해도 있습니다.",
-      "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
-    },
-    {
-      "headline": "Anthropic's IPO could be 'speculative fiction' or a 'generational moment' — investors are split",
-      "summary": "Investors are digesting Anthropic's S-1 filing that the Securities and Exchange Commission released on Monday.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/27/-anthropic-ipo-investors-growth-losses-s-1.html",
-      "datetime": 1793121994,
-      "headlineKo": "Anthropic의 IPO는 '투기적 허구'이거나 '세대의 순간'일 수 있습니다. 투자자는 분열되어 있습니다.",
-      "summaryKo": "투자자들은 증권거래위원회가 월요일에 발표한 Anthropic의 S-1 서류를 소화하고 있습니다."
-    },
-    {
-      "headline": "AI investment boom powers US business spending on equipment in September - Reuters",
-      "summary": "AI investment boom powers US business spending on equipment in September Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNlJmQ1NMeEVTRlJIWjMxUGJPOXNBMXRLR0VnVlBkVDQwUFlUNkFKOTRnaWFUc2U5YVhxYWF0UnBVWFVkMXd3c2Juclh5a0FnOHMzeUpaOE1NVWhfYWYtVUc2MHBzVXhESFc3RXRpcTM0R3I3V2tpcFVpSE5aTkNtaEh4LXZpRjlmMUdHcHMzWUFtdjNzY2hIbmt1WThYSUg4OGVlVA?oc=5",
-      "datetime": 1793120358,
-      "headlineKo": "AI 투자 붐으로 인해 9월 미국 기업의 장비 지출이 증가했습니다 - Reuters",
-      "summaryKo": "AI 투자 붐으로 인해 미국 기업의 9월 장비 지출이 증가했습니다. Reuters"
     }
   ],
-  "_news_collection_status": "empty_kept_previous",
-  "_news_last_success_at": 1793157923.43487,
+  "_news_collection_status": "ok",
+  "_news_last_success_at": 1793165686.2103221,
   "fgi": {
     "score": 33.5714285714286,
     "rating": "fear"
   },
-  "_fetched_at": 1793161808.0047426,
-  "_updated_label": "2026-10-28 13:30",
-  "_last_attempt_at": 1793161808.0047426,
-  "_last_success_at": 1793157915.0326605,
-  "_collection_status": "partial",
-  "_collection_errors": [
-    "시장 헤드라인(0건, 이전 유지)"
-  ]
+  "_fetched_at": 1793165673.5948124,
+  "_updated_label": "2026-10-28 14:35",
+  "_last_attempt_at": 1793165673.5948124,
+  "_last_success_at": 1793165673.5948124,
+  "_collection_status": "ok",
+  "_collection_errors": []
 };
