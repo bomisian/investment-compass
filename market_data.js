@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 102.08000183105469,
+      "current": 101.79000091552734,
       "prevClose": 99.9000015258789,
-      "changeAbs": 2.1800003051757812,
-      "changePct": 2.1821824543326525,
-      "pctRank": 92.442322991249,
+      "changeAbs": 1.8899993896484375,
+      "changePct": 1.8918912520325004,
+      "pctRank": 91.96499602227526,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -9.623723250004623,
-      "ma20": 96.29500045776368,
-      "ma60": 91.84533398946127,
-      "chg1m": 12.700004577636719,
-      "chg3m": 18.490005493164062,
-      "chg1mPct": 14.209000859139161,
-      "chg3mPct": 22.119878338579017,
+      "drawdown1y": -9.88047484218062,
+      "ma20": 96.2805004119873,
+      "ma60": 91.84050064086914,
+      "chg1m": 12.410003662109375,
+      "chg3m": 18.20000457763672,
+      "chg1mPct": 13.884542451845741,
+      "chg3mPct": 21.77294577698984,
       "lastDate": "2026-10-28",
       "bars": 1257,
       "symbol": "CL=F",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4064.699951171875,
+      "current": 4065.39990234375,
       "prevClose": 4074.60009765625,
-      "changeAbs": -9.900146484375,
-      "changePct": -0.24297222419617723,
+      "changeAbs": -9.2001953125,
+      "changePct": -0.22579382251014138,
       "pctRank": 81.08108108108108,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -23.572878576118082,
-      "ma20": 4137.409973144531,
-      "ma60": 4333.736657714844,
-      "chg1m": -115.000244140625,
-      "chg3m": -35.400146484375,
-      "chg1mPct": -2.7513993532262635,
-      "chg3mPct": -0.8633971279045326,
+      "drawdown1y": -23.559717640785514,
+      "ma20": 4137.444970703125,
+      "ma60": 4333.748323567708,
+      "chg1m": -114.30029296875,
+      "chg3m": -34.7001953125,
+      "chg1mPct": -2.7346529087645295,
+      "chg3mPct": -0.8463255648889099,
       "lastDate": "2026-10-28",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Libya's eastern administration bars entry to Iranians, Afghans - Reuters",
+      "summary": "Libya's eastern administration bars entry to Iranians, Afghans Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZWNkSzNWNkFQZElrN2R4NFJhMzVCaVdtSUJ4R1lNU0xHSXhZNF82X20taGlpSGJwRzRxdnFyTWYyUW15NW0ybmFuRlRHR2pVQzIweEZXTE41TUJ1emRmY0o2QWxiMnctR0VRSEpreUxUOEZzb3lnYmdJWmNjejE4N2k5dFBIU1VPZzN2MVVXdENQamJRS0R1V0FHQmFQeTl3aUplSjZIOTlZdW5kYnE1VE13?oc=5",
+      "datetime": 1793226002,
+      "headlineKo": "리비아 동부 행정부, 이란인과 아프가니스탄인 입국 금지 - 로이터",
+      "summaryKo": "리비아 동부 행정부, 이란인과 아프가니스탄인 입국 금지 - 로이터"
+    },
+    {
       "headline": "Iran sees only unacceptable ideas in latest mediation to end war, official says - Reuters",
       "summary": "Iran sees only unacceptable ideas in latest mediation to end war, official says Reuters",
       "source": "Reuters",
@@ -334,29 +343,18 @@ const MARKET_DATA = {
       "datetime": 1793206293,
       "headlineKo": "후티 반군, 대피 경고 후 예멘 아덴 공항 공습 - 로이터 통신",
       "summaryKo": "후티 반군, 대피 경고 후 예멘 아덴 공항 공습 - 최신"
-    },
-    {
-      "headline": "Jim Cramer sees buying opportunities in these 2 beaten-down stocks",
-      "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/10/28/jim-cramer-sees-buying-opportunities-in-these-2-beaten-down-stocks.html",
-      "datetime": 1793202983,
-      "headlineKo": "Jim Cramer는 이 두 가지 하락한 주식에서 매수 기회를 봅니다.",
-      "summaryKo": "Investing Club은 매주 평일 오전 10시 20분(ET)에 \"아침 모임\"을 개최합니다."
     }
   ],
-  "_news_collection_status": "empty_kept_previous",
-  "_news_last_success_at": 1793224829.1063237,
+  "_news_collection_status": "ok",
+  "_news_last_success_at": 1793231689.2012029,
   "fgi": {
     "score": 35.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1793228421.4917674,
-  "_updated_label": "2026-10-29 08:00",
-  "_last_attempt_at": 1793228421.4917674,
-  "_last_success_at": 1793224821.461812,
-  "_collection_status": "partial",
-  "_collection_errors": [
-    "시장 헤드라인(0건, 이전 유지)"
-  ]
+  "_fetched_at": 1793231680.7707243,
+  "_updated_label": "2026-10-29 08:55",
+  "_last_attempt_at": 1793231680.7707243,
+  "_last_success_at": 1793231680.7707243,
+  "_collection_status": "ok",
+  "_collection_errors": []
 };
