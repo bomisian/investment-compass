@@ -1,12 +1,12 @@
 // ops_status_report.py가 자동 생성합니다. 직접 수정하지 마세요.
 const OPS_STATUS_DATA = {
-  "generatedAt": "2026-10-28T07:35:42+09:00",
+  "generatedAt": "2026-10-29T07:35:42+09:00",
   "items": [
     {
       "key": "last_success",
-      "status": "red",
+      "status": "green",
       "label": "마지막 정상 완료",
-      "detail": "기록 없음(한 번도 성공한 적 없음)"
+      "detail": "2026-10-29 07:22"
     },
     {
       "key": "public_verify",
@@ -16,15 +16,15 @@ const OPS_STATUS_DATA = {
     },
     {
       "key": "loop_progress",
-      "status": "red",
+      "status": "green",
       "label": "루프 진행",
-      "detail": "'generate_dashboard_connection' 단계에서 1016분째 멈춤(기준 45분)"
+      "detail": "대기 중(다음 주기, 13분 전부터)"
     },
     {
       "key": "loop_count",
-      "status": "red",
+      "status": "green",
       "label": "루프 개수",
-      "detail": "꺼져 있음 - watchdog 루프가 돌고 있지 않음"
+      "detail": "실행 중(정상) - watchdog_loop.bat 자신의 잠금으로 중복 실행은 별도 방지됨"
     },
     {
       "key": "scheduler",
@@ -36,19 +36,19 @@ const OPS_STATUS_DATA = {
       "key": "compass_asof",
       "status": "green",
       "label": "나침반 피드 기준일",
-      "detail": "2026-10-27"
+      "detail": "2026-10-28"
     },
     {
       "key": "market_expectation_asof",
       "status": "green",
       "label": "시장 기대 기준일",
-      "detail": "2026-10-28"
+      "detail": "2026-10-29"
     },
     {
       "key": "eps",
-      "status": "green",
+      "status": "red",
       "label": "EPS 수집",
-      "detail": "가장 오래된 종목 COHR 13일 전"
+      "detail": "COHR 14일째(기준 14일)"
     },
     {
       "key": "data_audit",
@@ -90,7 +90,7 @@ const OPS_STATUS_DATA = {
       "key": "evidence_review_backlog",
       "status": "yellow",
       "label": "근거 승인 대기",
-      "detail": "WDC(5일), FIX(6일), BE(6일), HUBB(1일) — approve_evidence.py 실행 필요"
+      "detail": "WDC(6일), FIX(7일), BE(7일), HUBB(2일), STX(2일), GEV(1일), HUBB(1일), VRT(1일) — approve_evidence.py 실행 필요"
     },
     {
       "key": "target_consensus_freshness",
@@ -102,25 +102,31 @@ const OPS_STATUS_DATA = {
       "key": "quarterly_cashflow_gap",
       "status": "green",
       "label": "최신 분기 현금흐름(OCF·CAPEX·FCF)",
-      "detail": "비어 있음(아직 기다리는 중): TSM Q3'26(2026-10-26부터 1거래일)"
+      "detail": "비어 있음(아직 기다리는 중): TSM Q3'26(2026-10-26부터 2거래일)"
     },
     {
       "key": "ttm_eps_rule",
       "status": "green",
       "label": "TTM EPS 공통 규칙(분기 합/Finnhub)",
-      "detail": "분기 합 32종목 · 기존 값·없음 7종목 · 적정가 변화 8종목 · 판정 변경(승인 기록) CEG"
+      "detail": "분기 합 31종목 · 기존 값·없음 8종목 · 적정가 변화 13종목 · 판정 변경(승인 기록) CEG"
+    },
+    {
+      "key": "wacc_roic",
+      "status": "green",
+      "label": "자본 효율(ROIC·WACC) 계산",
+      "detail": "계산 33/39종목 · 계산 불가 6종목(TSM, ANET, LITE, BE, AAPL, PLTR) · 10년물 4.99%(2026-10-27, fresh) · 생성 2026-10-29T05:48"
     },
     {
       "key": "price_map_daily_run",
       "status": "green",
       "label": "가격 지도 일일 실행",
-      "detail": "마지막 성공 세션 2026-10-27(기대 2026-10-27, 실행 2026-10-28 06:02:07)"
+      "detail": "마지막 성공 세션 2026-10-28(기대 2026-10-28, 실행 2026-10-29 05:47:43)"
     },
     {
       "key": "external_peer_cache_freshness",
       "status": "green",
       "label": "외부보충 비교군 캐시 신선도",
-      "detail": "2026-10-28 07:00 KST 정상 갱신(실패 0개)"
+      "detail": "2026-10-29 07:21 KST 정상 갱신(실패 0개)"
     }
   ]
 };
