@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793227957.8249924,
+  "generatedAt": 1793228421.0887885,
   "events": [
     {
       "id": "5c0609ff2e69f258a887",
@@ -12933,7 +12933,7 @@ const EVENT_DATA = {
               "variancePct": -72.69,
               "actualEndDate": "2025-09-30",
               "source": "SEC Company Facts",
-              "settledAt": 1793227955.7573266,
+              "settledAt": 1793228418.979376,
               "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
             }
           },
@@ -12953,7 +12953,7 @@ const EVENT_DATA = {
               "variancePct": -69.98,
               "actualEndDate": "2025-12-31",
               "source": "SEC Company Facts",
-              "settledAt": 1793227955.7573266,
+              "settledAt": 1793228418.979376,
               "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
             }
           },
@@ -12973,7 +12973,7 @@ const EVENT_DATA = {
               "variancePct": -79.01,
               "actualEndDate": "2026-03-31",
               "source": "SEC Company Facts",
-              "settledAt": 1793227955.7573266,
+              "settledAt": 1793228418.979376,
               "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
             }
           },
@@ -12993,7 +12993,7 @@ const EVENT_DATA = {
               "variancePct": -75.32,
               "actualEndDate": "2026-06-30",
               "source": "SEC Company Facts",
-              "settledAt": 1793227955.7573266,
+              "settledAt": 1793228418.979376,
               "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
             }
           },
