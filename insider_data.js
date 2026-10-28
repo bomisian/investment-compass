@@ -4,13 +4,13 @@
 const INSIDER_DATA = {
   "QQQ": {
     "transactions": [],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "SPY": {
     "transactions": [],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "MSFT": {
     "transactions": [
@@ -167,8 +167,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "GOOGL": {
     "transactions": [
@@ -195,18 +195,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-07-30",
         "filingDate": "2026-07-30",
         "code": "S"
-      },
-      {
-        "name": "Saraci Marsida",
-        "share": 449,
-        "transactionPrice": 333.2,
-        "transactionDate": "2026-07-29",
-        "filingDate": "2026-07-29",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "AMZN": {
     "transactions": [
@@ -371,8 +363,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "META": {
     "transactions": [
@@ -537,8 +529,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "AAPL": {
     "transactions": [
@@ -703,8 +695,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "TSLA": {
     "transactions": [
@@ -717,8 +709,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "ORCL": {
     "transactions": [
@@ -755,8 +747,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "CRM": {
     "transactions": [
@@ -785,8 +777,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "PLTR": {
     "transactions": [
@@ -951,8 +943,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "NVDA": {
     "transactions": [
@@ -1117,8 +1109,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "AMD": {
     "transactions": [
@@ -1283,8 +1275,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "AVGO": {
     "transactions": [
@@ -1417,8 +1409,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "QCOM": {
     "transactions": [
@@ -1583,8 +1575,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "ARM": {
     "transactions": [
@@ -1605,8 +1597,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "MRVL": {
     "transactions": [
@@ -1675,8 +1667,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "INTC": {
     "transactions": [
@@ -1689,8 +1681,8 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "TSM": {
     "transactions": [
@@ -1855,13 +1847,13 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "ASML": {
     "transactions": [],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "AMAT": {
     "transactions": [
@@ -1890,11 +1882,19 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "LRCX": {
     "transactions": [
+      {
+        "name": "ARCHER TIMOTHY",
+        "share": 31400,
+        "transactionPrice": 227.02,
+        "transactionDate": "2026-10-23",
+        "filingDate": "2026-10-26",
+        "code": "S"
+      },
       {
         "name": "Mayer Bethany",
         "share": 9557,
@@ -1952,8 +1952,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "KLAC": {
     "transactions": [
@@ -2062,8 +2062,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "MU": {
     "transactions": [
@@ -2228,8 +2228,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "SNDK": {
     "transactions": [
@@ -2394,8 +2394,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "WDC": {
     "transactions": [
@@ -2536,8 +2536,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "ANET": {
     "transactions": [
@@ -2702,8 +2702,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "COHR": {
     "transactions": [
@@ -2772,8 +2772,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "LITE": {
     "transactions": [
@@ -2938,13 +2938,13 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "GEV": {
     "transactions": [],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "CEG": {
     "transactions": [
@@ -2957,8 +2957,8 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "VST": {
     "transactions": [
@@ -3035,8 +3035,8 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "ETN": {
     "transactions": [
@@ -3073,13 +3073,13 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "PWR": {
     "transactions": [],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "HUBB": {
     "transactions": [
@@ -3092,8 +3092,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "VRT": {
     "transactions": [
@@ -3162,8 +3162,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "MOD": {
     "transactions": [
@@ -3176,11 +3176,19 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "STX": {
     "transactions": [
+      {
+        "name": "Lee James CI",
+        "share": 547,
+        "transactionPrice": 642.14,
+        "transactionDate": "2026-10-23",
+        "filingDate": "2026-10-26",
+        "code": "S"
+      },
       {
         "name": "MOSLEY WILLIAM D",
         "share": 962,
@@ -3332,23 +3340,15 @@ const INSIDER_DATA = {
         "transactionDate": "2026-10-01",
         "filingDate": "2026-10-02",
         "code": "S"
-      },
-      {
-        "name": "MOSLEY WILLIAM D",
-        "share": 640,
-        "transactionPrice": 924.7198,
-        "transactionDate": "2026-10-01",
-        "filingDate": "2026-10-02",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "EME": {
     "transactions": [],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "FIX": {
     "transactions": [
@@ -3385,8 +3385,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   },
   "BE": {
     "transactions": [
@@ -3479,7 +3479,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793106051.8242402,
-    "_updated_label": "2026-10-27"
+    "_fetched_at": 1793179959.339721,
+    "_updated_label": "2026-10-28"
   }
 };

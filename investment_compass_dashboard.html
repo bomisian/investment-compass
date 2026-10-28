@@ -232,6 +232,8 @@
   .dh-close{flex-shrink:0;}
   .dh-row2{display:flex;align-items:baseline;gap:10px;margin-top:5px;padding-bottom:10px;font-size:13px;white-space:nowrap;overflow-x:auto;-ms-overflow-style:none;scrollbar-width:none;}
   .dh-row2::-webkit-scrollbar{display:none;}
+  .dh-row2{flex-wrap:wrap;row-gap:3px;}  /* [WO31 보완 6] 배지 줄바꿈 */
+  .dh-row2 .dh-badges{flex-basis:100%;white-space:normal;display:flex;flex-wrap:wrap;gap:4px;align-items:center;}
   .dh-row2 .dh-price{font-weight:800;font-size:14.5px;color:var(--text);flex-shrink:0;}
   .dh-row2 .dh-chg{font-weight:700;flex-shrink:0;}
   .dh-row2 .dh-verdict{font-weight:800;flex-shrink:0;}
@@ -620,6 +622,7 @@
 <script>document.write('<script src="fundamentals_history_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <script>document.write('<script src="financials_data.js?v=' + Date.now() + '"><\/script>');</script>
 <script>document.write('<script src="estimates_data.js?v=' + Date.now() + '"><\/script>');</script>
+<script>document.write('<script src="wacc_roic_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>  <!-- [WO31 스테이징] 참고 계산(베타·WACC·ROIC), 없어도 동작 -->
 <!-- WO8-B 반려 수정(2026-10-16) -- NTM 매출 컨센서스(정상화 모델 입력). 파일은 이미 파이프라인이 매일 누적해 왔는데 대시보드 로딩 목록에 빠져 있었음(버그). 없어도 대시보드는 정상 동작함(해당 모델만 산출 제한으로 표시). -->
 <script>document.write('<script src="revenue_estimate_history_data.js?v=' + Date.now() + '" onerror="void 0"><\/script>');</script>
 <!-- 뉴스/실적일정 - 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 안 보임) -->
@@ -4013,7 +4016,10 @@ function renderDetailHeader(ticker){
       const pmColor = (typeof PM_VERDICT_COLOR !== 'undefined' && PM_VERDICT_COLOR[pdH.verdict]) || '#3c4552';
       const actH = String(pdH.action || '').split(' · ')[0];
       verdictSpan = `<span class="dh-verdict" style="color:${pmColor};">${pmPos.emoji} ${esc(pmPos.label)}</span>`;
-      pricelabelSpan = `<span class="dh-pricelabel" style="color:${pmColor};">· ${esc(actH)}${pdH.modelCheckNeeded ? ' · ⚠ 모델 점검' : ''}${pmBadges(pmHdr, pdH)}</span>`;
+      pricelabelSpan = `<span class="dh-pricelabel" style="color:${pmColor};">· ${esc(actH)}</span>`;
+      // [WO31 보완 6] 배지는 둘째 줄(375px에서 잘리지 않게)
+      const hdrBadges = `${pdH.modelCheckNeeded ? '<span style="font-size:10px;font-weight:700;color:#b3261e;">⚠ 모델 점검</span>' : ''}${pmBadges(pmHdr, pdH)}`.trim();
+      if(hdrBadges) pricelabelSpan += `<span class="dh-badges">${hdrBadges}</span>`;
     } else {
       verdictSpan = `<span class="dh-verdict" style="color:${actionColor};">${esc(act.label)}</span>`;
       pricelabelSpan = `<span class="dh-pricelabel" style="color:${priceColor};">${esc(d.price)}</span>`;
@@ -4068,7 +4074,390 @@ function refreshOpenDetailIfCurrent(ticker){
   renderTabContent(ticker);
 }
 
+// ===== [2026-10-28 WO31 스테이징] 상세 화면 v2(탭 3개) — 화면 배치·표현만 =====
+// 판정·행동·cap·적정가·구간가는 전부 기존 함수(pmData/resolvePmDisplay/pmFairCandidates/pmFairBasisLine/
+// computePriceValidity/pvReverseDcfModelB …) 결과를 그대로 보여줄 뿐 새로 정하지 않는다.
+// 새로 계산하는 값(PER 슬라이더·역DCF 환산 가격·베타/WACC/ROIC)은 전부 "참고" 표시, 판정·행동 미사용.
+// [WO31 2단계 10/28] 가격지도 자료가 있는 종목(관심종목 39개) 전부 v2. 가격지도 자료 없는 직접 조회 종목은 기존 8탭 그대로.
+function detailV2On(t){ return typeof pmData === 'function' && !!pmData(t); }
+const V2_OPEN = {};   // ② 근거 아코디언 열림 상태(다시 그릴 때 유지)
+const v2num = v => typeof v === 'number' && isFinite(v);
+const v2usd = (v, d) => v2num(v) ? '$' + v.toFixed(d == null ? 2 : d) : '—';  // 운영 화면과 같은 표기(천 단위 쉼표 없음)
+const v2big = v => { if(!v2num(v)) return '—'; const a = Math.abs(v), s = v < 0 ? '−' : ''; return a >= 1e9 ? `${s}$${(a/1e9).toFixed(a >= 1e10 ? 1 : 2)}B` : a >= 1e6 ? `${s}$${(a/1e6).toFixed(0)}M` : `${s}$${a.toFixed(0)}`; };
+const v2pct = (v, d) => v2num(v) ? `${v >= 0 ? '+' : '−'}${Math.abs(v).toFixed(d == null ? 1 : d)}%` : '—';
+const V2_TONE = {good: ['#e7f3ea', '#2f5b3c'], warn: ['#fff4e0', '#876000'], bad: ['#fdecea', '#b3261e'], neutral: ['#eef0f3', '#3c4552']};
+function v2badge(txt, tone){ const [bg, fg] = V2_TONE[tone] || V2_TONE.neutral; return `<span style="display:inline-block;font-size:11px;font-weight:700;color:${fg};background:${bg};border-radius:6px;padding:1px 7px;white-space:nowrap;">${esc(txt)}</span>`; }
+function v2card(no, title, badge, body){
+  return `<div class="v2card" style="border:1px solid var(--panel-2);border-radius:12px;padding:11px 12px;margin-top:10px;min-width:0;">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:6px;flex-wrap:wrap;"><b style="font-size:13.5px;">${no ? `<span style="color:#8a929e;margin-right:4px;">${no}</span>` : ''}${esc(title)}</b>${badge || ''}</div>${body}</div>`;
+}
+// 미니 막대(SVG, 폭 100%) - vals 음수면 빨강
+function v2bars(vals, labels, opt){
+  opt = opt || {};
+  const ok = vals.filter(v2num); if(!ok.length) return '';
+  const W = 300, H = opt.h || 54, n = vals.length, gap = 6, bw = (W - gap * (n - 1)) / n;
+  const mx = Math.max(...ok, 0), mn = Math.min(...ok, 0), span = (mx - mn) || 1, zero = H - 12 - (0 - mn) / span * (H - 24);
+  const bars = vals.map((v, i) => {
+    if(!v2num(v)) return '';
+    const y1 = H - 12 - (v - mn) / span * (H - 24), y = Math.min(y1, zero), h = Math.max(1, Math.abs(zero - y1));
+    const col = v < 0 ? '#b3261e' : (opt.dashFrom != null && i >= opt.dashFrom ? '#9bb3d6' : (opt.color || '#5b7a8c'));
+    return `<rect x="${(i * (bw + gap)).toFixed(1)}" y="${y.toFixed(1)}" width="${bw.toFixed(1)}" height="${h.toFixed(1)}" rx="2" fill="${col}"/>` +
+      `<text x="${(i * (bw + gap) + bw / 2).toFixed(1)}" y="${H - 1}" font-size="9" text-anchor="middle" fill="#8a929e">${esc(labels[i] || '')}</text>`;
+  }).join('');
+  return `<svg viewBox="0 0 ${W} ${H}" width="100%" height="${H}" preserveAspectRatio="none" style="display:block;margin-top:6px;">${bars}</svg>`;
+}
+function v2spark(vals){
+  const ok = vals.filter(v2num); if(ok.length < 2) return '';
+  const W = 300, H = 40, mx = Math.max(...ok), mn = Math.min(...ok), span = (mx - mn) || 1;
+  const pts = ok.map((v, i) => `${(i / (ok.length - 1) * W).toFixed(1)},${(H - 4 - (v - mn) / span * (H - 8)).toFixed(1)}`).join(' ');
+  return `<svg viewBox="0 0 ${W} ${H}" width="100%" height="${H}" preserveAspectRatio="none" style="display:block;margin-top:6px;"><polyline points="${pts}" fill="none" stroke="#1a56b0" stroke-width="2"/></svg>`;
+}
+function v2kv(items){
+  return `<div style="display:grid;grid-template-columns:repeat(${items.length},minmax(0,1fr));gap:6px;margin-top:6px;">${items.map(([k, v, sub]) =>
+    `<div style="min-width:0;"><div class="sub" style="font-size:10.5px;">${esc(k)}</div><div style="font-weight:800;font-size:14px;overflow-wrap:anywhere;">${v}</div>${sub ? `<div class="sub" style="font-size:10px;">${sub}</div>` : ''}</div>`).join('')}</div>`;
+}
+function v2pmd(r){
+  const pm = pmData(r.ticker); if(!pm) return null;
+  const pd = resolvePmDisplay(pm, r) || {displayPrice: pm.currentPrice, priceIsLive: false, verdict: pm.verdict, action: pm.action, ratio: pm.ratio, modelCheckNeeded: pm.modelCheckNeeded};
+  return {pm, pd};
+}
+// 나침반 표시 라벨 - renderCompassCard와 같은 규칙(피드 판정, 200일선 이탈 OR 규칙이면 "추세 이탈 점검")
+function v2compass(r){
+  const c = pvCompassData(r.ticker); if(!c) return null;
+  const deep = typeof c.wait === 'string' && c.wait.indexOf('깊은 낙폭 기준') >= 0;
+  if((c.dec === 'BUY' || c.dec === 'ACC') && !deep && pvMa200BreachOR(r)) return {label: '추세 이탈 점검', tone: 'bad'};
+  const label = c.decTxt || COMPASS_DEC_LABEL[c.dec] || c.dec || '—';
+  return {label, tone: c.dec === 'BUY' ? 'good' : c.dec === 'ACC' ? 'warn' : c.dec === 'SELL' ? 'bad' : 'neutral'};
+}
+
+// ---------- ① 한눈에 ----------
+function v2Verdict(r, pm, pd){
+  const vColor = PM_VERDICT_COLOR[pd.verdict] || '#3c4552';
+  const upper = (pm.fairBasisMode === 'ex_capped_growth_floor_b' && v2num(pm.fairPriceUpper)) ? `(상한 포함 ${v2usd(pm.fairPriceUpper)}) · ` : '';
+  const cap = pmCapExplain(pd);
+  const ratioTxt = v2num(pd.ratio) ? `현재가는 적정가의 <b>${(pd.ratio * 100).toFixed(0)}%</b>` : '';
+  return `<div style="border-radius:14px;padding:13px 14px;background:var(--panel-2);">
+    <div style="font-size:21px;font-weight:800;color:${vColor};line-height:1.3;">${esc(pd.verdict)} · ${esc(pd.action)}${pmBadges(pm, pd)}</div>
+    <div style="margin-top:6px;font-size:13px;">${ratioTxt}${ratioTxt ? ' — ' : ''}${pd.verdict === '고평가' ? '적정가보다 비싸서 새로 사지 않아요' : pd.verdict === '적정' ? '적정가 근처라 기다려요' : '적정가보다 싸서 구간대로 모아요'}</div>
+    ${v2kv([['현재가', v2usd(pd.displayPrice), esc(pd.priceIsLive ? priceTimingLabel(r) : pmFallbackPriceTxt(pm))], ['적정가', v2usd(pm.fairPrice), upper + esc(pmCalcBasisTxt(pm))], ['신뢰도', esc(pm.confidence || '—'), pd.modelCheckNeeded ? '⚠ 모델 점검 필요' : '']])}
+    ${cap ? `<div class="sub" style="margin-top:6px;color:#b3261e;">${esc(cap)}</div>` : ''}
+  </div>`;
+}
+function v2PriceGuide(pm, pd){
+  const bar = buildPriceMapBarHtml(pm, pd);
+  if(!bar) return '';
+  return v2card('', '매수 가격 가이드', '', `${bar}
+    <div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px;font-size:10.5px;margin-top:4px;">
+      <div><b style="color:#2f5b3c;">적극 모아가기</b><br>${v2usd(pm.bandAggressiveLe)} 이하</div>
+      <div><b style="color:#5b7a3c;">분할매수</b><br>${v2usd(pm.bandDcaHigh)} 이하</div>
+      <div><b style="color:#7a5c00;">관망(적정가 근처)</b><br>${v2usd(pm.bandFairHigh)} 이하</div>
+      <div><b style="color:#8a2f2f;">고평가</b><br>${v2usd(pm.bandFairHigh)} 초과</div>
+    </div>
+    <div class="sub" style="font-size:10.5px;margin-top:4px;">▼ 검은 막대 = 현재가 ${v2usd(pd.displayPrice)} · 구간 = 적정가 ×0.8 / ×0.9 / ×1.1 · 행동은 이 구간으로만 정해요</div>`);
+}
+function v2CardForecast(r){
+  const t = r.ticker, est = (typeof ESTIMATES_DATA !== 'undefined' && ESTIMATES_DATA) ? ESTIMATES_DATA[t] : null;
+  const em = (window.ESTIMATE_MOMENTUM && window.ESTIMATE_MOMENTUM.rows) ? window.ESTIMATE_MOMENTUM.rows[t] : null;
+  const tr = (est && Array.isArray(est.trend)) ? est.trend : [];
+  const fy = x => x && x.endDate ? `FY${x.endDate.slice(0, 4)}` : '—';
+  const dir = em && em.status === 'ok' ? em.direction : null;
+  const badge = dir ? v2badge(dir, dir.indexOf('상향') >= 0 ? 'good' : dir.indexOf('하향') >= 0 ? 'bad' : 'neutral') : v2badge('자료 없음', 'neutral');
+  const hist = (est && Array.isArray(est._history)) ? est._history.slice(-90).map(h => h.eps1) : [];
+  const body = v2kv([
+    [`${fy(tr[0])} 예상 EPS`, v2usd(tr[0] && tr[0].epsAvg), tr[0] && v2num(tr[0].epsGrowth) ? `전년비 ${v2pct(tr[0].epsGrowth * 100, 0)}` : ''],
+    [`${fy(tr[1])} 예상 EPS`, v2usd(tr[1] && tr[1].epsAvg), tr[1] && v2num(tr[1].epsGrowth) ? `전년비 ${v2pct(tr[1].epsGrowth * 100, 0)}` : ''],
+    ['향후 12개월 EPS 90일 변화', em && v2num(em.ntm_change_90d) ? v2pct(em.ntm_change_90d * 100) : '—', em ? `30일 상향 ${em.revisions_up_30d ?? '—'} · 하향 ${em.revisions_down_30d ?? '—'}` : ''],
+  ]) + v2spark(hist) + `<div class="sub" style="font-size:10.5px;">선 = ${fy(tr[1])} 예상 EPS 최근 ${hist.filter(v2num).length}일 변화(애널리스트 컨센서스, 조정 기준)</div>`;
+  return v2card('1', '이익 전망', badge, body);
+}
+function v2CardEarnings(r){
+  const fin = (typeof FINANCIALS_DATA !== 'undefined' && FINANCIALS_DATA) ? FINANCIALS_DATA[r.ticker] : null;
+  const a = fin && Array.isArray(fin.annual) ? fin.annual.slice(-5) : [];
+  if(a.length < 2) return v2card('2', '실적', v2badge('자료 없음', 'neutral'), '<div class="sub">연간 실적 자료가 부족해요.</div>');
+  const L = a[a.length - 1], P = a[a.length - 2];
+  const g = (k) => (v2num(L[k]) && v2num(P[k]) && P[k] > 0) ? (L[k] / P[k] - 1) * 100 : null;
+  const gr = g('revenue'), go = g('opIncome'), ge = g('eps');
+  const pos = [gr, go, ge].filter(v2num), up = pos.filter(v => v > 0).length;
+  const badge = !pos.length ? v2badge('비교 불가', 'neutral') : up === pos.length ? v2badge('성장', 'good') : up === 0 ? v2badge('역성장', 'bad') : v2badge('혼조', 'warn');
+  const body = v2kv([['매출 성장', v2pct(gr), v2big(L.revenue)], ['영업이익 성장', v2pct(go), v2big(L.opIncome)], ['EPS 성장', v2pct(ge), v2usd(L.eps)]]) +
+    v2bars(a.map(x => x.revenue), a.map(x => 'FY' + String(x.period).slice(-2))) +
+    `<div class="sub" style="font-size:10.5px;">막대 = 연간 매출(최근 ${a.length}년) · FY${esc(String(L.period))}(${esc(L.endDate || '')} 결산) vs 전년 · SEC 공시 기준(GAAP)</div>`;
+  return v2card('2', '실적', badge, body);
+}
+function v2CardCash(r, pm){
+  const fin = (typeof FINANCIALS_DATA !== 'undefined' && FINANCIALS_DATA) ? FINANCIALS_DATA[r.ticker] : null;
+  const a = fin && Array.isArray(fin.annual) ? fin.annual.slice(-5) : [];
+  const L = a[a.length - 1] || {};
+  const veto = pmHasCashflowVeto(pm);
+  const badge = veto ? v2badge('현금흐름 거부권', 'bad') : (v2num(L.fcf) && L.fcf > 0 ? v2badge('양호', 'good') : v2badge('주의', 'warn'));
+  const vetoTxt = veto ? ((pm.bizRiskDetail || []).find(x => String(x).indexOf('현금흐름 거부권') === 0) || '현금흐름 거부권 발동') : '';
+  const body = v2kv([['영업현금흐름', v2big(L.ocf), ''], ['설비투자', v2big(L.capex), ''], ['잉여현금흐름', v2big(L.fcf), '']]) +
+    v2bars(a.map(x => x.fcf), a.map(x => 'FY' + String(x.period).slice(-2))) +
+    `<div class="sub" style="font-size:10.5px;">막대 = 연간 잉여현금흐름(빨강 = 마이너스) · FY${esc(String(L.period || ''))}</div>` +
+    (veto ? `<div class="sub" style="font-size:11px;color:#b3261e;margin-top:3px;">${esc(vetoTxt)} → 행동 최대 분할매수</div>` : '');
+  return v2card('3', '현금흐름', badge, body);
+}
+function v2CardRisk(r, pm, pd){
+  const ed = earningsDdayInfo(r.ticker);
+  const ecal = (typeof EARNINGS_CALENDAR_DATA !== 'undefined' && EARNINGS_CALENDAR_DATA) ? EARNINGS_CALENDAR_DATA[r.ticker] : null;
+  const nl = pmNormalizationLine(pm);
+  const items = [
+    ['사업 경고', pm.bizRiskBadge ? (pm.bizRiskDetail && pm.bizRiskDetail[0] ? String(pm.bizRiskDetail[0]) : '있음') : '없음', !!pm.bizRiskBadge],
+    ['신뢰도', pm.confidence || '—', pm.confidence === '낮음'],
+    ['모델 점검', pd.modelCheckNeeded ? '필요(후보 괴리 큼)' : '불필요', !!pd.modelCheckNeeded],
+    ['정상화 영향', nl ? nl.txt : '해당 없음(정상화 EPS 안 씀)', !!nl],
+    ...(() => { const q = v2RoicShort(r.ticker); return [['자본 효율', q.txt, q.warn]]; })(),
+    ['실적 발표', ed ? (ed.phase === 'upcoming' ? `D-${ed.daysUntil} (${ed.date.slice(5).replace('-', '/')} ${ed.hourLabel})` : `발표 직후(${ed.date.slice(5).replace('-', '/')})`) : (ecal && ecal.date ? ecal.date : '일정 없음'), !!ed],
+  ];
+  const nWarn = items.filter(x => x[2]).length;
+  const badge = nWarn === 0 ? v2badge('특이 없음', 'good') : v2badge(`주의 ${nWarn}건`, nWarn >= 3 ? 'bad' : 'warn');
+  const dots = `<div style="display:flex;gap:4px;margin-top:6px;">${items.map(x => `<div title="${esc(x[0])}" style="flex:1;height:6px;border-radius:3px;background:${x[2] ? '#e9b3a8' : '#cfe3d4'};"></div>`).join('')}</div>`;
+  const body = dots + `<div style="margin-top:6px;font-size:12px;line-height:1.55;">${items.map(x => `<div style="display:flex;gap:6px;"><span class="sub" style="flex:0 0 76px;white-space:nowrap;">${esc(x[0])}</span><span style="min-width:0;overflow-wrap:anywhere;${x[2] ? 'color:#7a3b2e;' : ''}">${esc(x[1])}</span></div>`).join('')}</div>`;
+  return v2card('4', '위험', badge, body);
+}
+function v2FairBars(pm, pd){
+  const cs = pmFairCandidates(pm);
+  const fb = pmFairBasisLine(pm);
+  if(!cs.length) return v2card('', '적정가 근거', '', `<div class="sub">${esc(fb ? fb.txt : (pm.fairPriceBasis || '후보 없음'))}</div>`);
+  const capped = (pm.growthPerCapped === true) || !!(pm.diag && pm.diag.fairAltApplicable === true);
+  const vals = cs.map(c => c.fairPrice).concat([pm.fairPrice, pd.displayPrice]).filter(v2num);
+  const mx = Math.max(...vals) * 1.05;
+  const w = v => Math.max(1, Math.min(100, v / mx * 100));
+  const NAME = {historical_per: '과거 PER', sector_per: '업종 PER', growth_per_peg: '성장률 PER'};
+  const ORDER = ['historical_per', 'sector_per', 'growth_per_peg'];
+  const byC = {}; cs.forEach(c => { byC[c.candidate] = c; });
+  const rows = ORDER.map(k => {
+    const c = byC[k];
+    if(!c) return `<div style="font-size:11.5px;margin-top:6px;"><span class="sub">${NAME[k]} — 없음</span></div>`;
+    const excluded = pm.fairBasisMode === 'ex_capped_growth_floor_b' && k === 'growth_per_peg';
+    return `<div style="margin-top:6px;"><div style="display:flex;justify-content:space-between;font-size:11.5px;gap:6px;"><span style="min-width:0;">${NAME[k]} ${c.per.toFixed(1)}배 × ${esc(pmEpsName(c.epsBasis))} ${v2usd(c.eps)}${k === 'growth_per_peg' && capped ? ' <span class="sub">(상한)</span>' : ''}${excluded ? ' <span class="sub">· 제외</span>' : ''}</span><b style="white-space:nowrap;">${v2usd(c.fairPrice, 0)}</b></div>
+      <div style="height:8px;background:var(--panel-2);border-radius:4px;position:relative;"><div style="width:${w(c.fairPrice)}%;height:100%;border-radius:4px;background:${excluded ? '#c9ced6' : '#7a8fa6'};"></div></div></div>`;
+  }).join('');
+  const marks = `<div style="position:relative;height:16px;margin-top:6px;">
+      <div style="position:absolute;left:${w(pm.fairPrice)}%;top:0;width:2px;height:16px;background:#7a5c00;"></div>
+      <div style="position:absolute;left:${w(pd.displayPrice)}%;top:0;width:2px;height:16px;background:#111;"></div></div>
+    <div class="sub" style="font-size:10.5px;"><span style="color:#7a5c00;">│</span> 채택 적정가 ${v2usd(pm.fairPrice)} · <span style="color:#111;">│</span> 현재가 ${v2usd(pd.displayPrice)}</div>`;
+  return v2card('', '적정가 근거', '', rows + marks + (fb ? `<div style="font-size:12px;margin-top:6px;">${esc(fb.txt)}</div>` : ''));
+}
+function v2PerSlider(r, pm){
+  // 범위 = 각 후보 적정가 ÷ 예상 EPS(같은 EPS로 환산한 배수)의 최소~최대 → 양 끝이 정확히 후보 가격과 같아짐.
+  // (과거 PER 후보는 최근 4분기 EPS 기준이라 원래 배수를 그대로 예상 EPS에 곱하면 후보 가격과 달라짐 - 원래 배수는 아래 줄에 따로 표시)
+  const cs = pmFairCandidates(pm);
+  const eps = pm.epsUsedForCandidates;
+  if(cs.length < 2 || !v2num(eps) || eps <= 0) return '';
+  const conv = cs.map(c => c.fairPrice / eps), lo = Math.min(...conv), hi = Math.max(...conv);
+  if(!(hi > lo)) return '';
+  const adopt = v2num(pm.fairPrice) ? pm.fairPrice / eps : lo;
+  const def = Math.min(hi, Math.max(lo, adopt));
+  const id = 'v2sl_' + r.ticker;
+  const nb = cs.find(c => c.candidate !== 'historical_per');
+  const epsName = pmEpsName(nb ? nb.epsBasis : 'NTM');
+  const NAME = {historical_per: '과거', sector_per: '업종', growth_per_peg: '성장'};
+  const rawTxt = cs.map(c => `${NAME[c.candidate] || c.candidate} ${c.per.toFixed(1)}배×${pmEpsName(c.epsBasis)}=${(c.fairPrice / eps).toFixed(1)}배`).join(' · ');
+  return v2card('', 'PER 시나리오(참고)', v2badge('판정 미사용', 'neutral'), `
+    <input type="range" min="${lo.toFixed(2)}" max="${hi.toFixed(2)}" step="0.1" value="${def.toFixed(2)}" style="width:100%;margin-top:8px;" oninput="v2SliderMove('${r.ticker}', this.value)" id="${id}">
+    <div style="display:flex;justify-content:space-between;font-size:10.5px;" class="sub"><span>${lo.toFixed(1)}배</span><span>채택 ${adopt.toFixed(1)}배</span><span>${hi.toFixed(1)}배</span></div>
+    <div id="${id}_out" style="font-size:12.5px;margin-top:4px;">${v2SliderText(def, eps, epsName)}</div>
+    <div class="sub" style="font-size:10.5px;line-height:1.5;">배수 = 후보 적정가 ÷ ${esc(epsName)} ${v2usd(eps)}로 환산(${esc(rawTxt)}) · 범위 = 후보 최소~최대 · 참고 계산 — 판정·행동에 쓰지 않음</div>`);
+}
+function v2SliderText(per, eps, epsName){
+  const f = per * eps;
+  return `<b>${Number(per).toFixed(1)}배</b> × ${esc(epsName)} ${v2usd(eps)} = 적정가 <b>${v2usd(f)}</b> · ×0.9 분할 ${v2usd(f * 0.9)} · ×0.8 적극 ${v2usd(f * 0.8)}`;
+}
+function v2SliderMove(t, v){
+  const pm = pmData(t); if(!pm) return;
+  const cs = pmFairCandidates(pm);
+  const nb = cs.find(c => c.candidate !== 'historical_per');
+  const el = document.getElementById('v2sl_' + t + '_out');
+  if(el) el.innerHTML = v2SliderText(Number(v), pm.epsUsedForCandidates, pmEpsName(nb ? nb.epsBasis : 'NTM'));
+}
+function v2Summary(r, pm, pd){
+  const veto = pmHasCashflowVeto(pm), comp = v2compass(r);
+  const cell = (k, v, tone) => `<div style="min-width:0;border-radius:10px;padding:7px 6px;background:${(V2_TONE[tone] || V2_TONE.neutral)[0]};text-align:center;"><div class="sub" style="font-size:10.5px;">${esc(k)}</div><div style="font-weight:800;font-size:12.5px;color:${(V2_TONE[tone] || V2_TONE.neutral)[1]};overflow-wrap:anywhere;">${esc(v)}</div></div>`;
+  return v2card('', '종합', '', `<div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px;margin-top:8px;">
+      ${cell('사업', pm.bizRiskBadge ? '경고' : '이상 없음', pm.bizRiskBadge ? 'warn' : 'good')}
+      ${cell('현금흐름', veto ? '거부권' : '정상', veto ? 'bad' : 'good')}
+      ${cell('차트(나침반)', comp ? comp.label : '자료 없음', comp ? comp.tone : 'neutral')}
+      ${cell('가격', pd.verdict, pd.verdict === '매수' ? 'good' : pd.verdict === '고평가' ? 'bad' : 'neutral')}
+    </div>
+    <div style="margin-top:8px;font-size:14px;font-weight:800;">→ 최종 행동: ${esc(pd.action)}${pmBadges(pm, pd)}</div>
+    <div class="sub" style="font-size:10.5px;">최종 행동 = 가격지도 행동(현금흐름·신뢰도 제한 반영). 사업·차트 칸은 참고 표시예요.</div>`);
+}
+function tabV2Glance(r){
+  const x = v2pmd(r);
+  if(!x) return `<div class="comment-box" style="background:var(--panel-2);">이 종목은 가격 지도 자료가 아직 없어요.</div>` + tabJudgement(r);
+  const {pm, pd} = x;
+  return `<div style="max-width:100%;overflow-wrap:anywhere;">${v2Verdict(r, pm, pd)}${v2PriceGuide(pm, pd)}
+    ${v2CardForecast(r)}${v2CardEarnings(r)}${v2CardCash(r, pm)}${v2CardRisk(r, pm, pd)}
+    ${v2FairBars(pm, pd)}${v2PerSlider(r, pm)}${v2Summary(r, pm, pd)}
+    <div class="sub" style="font-size:10.5px;margin-top:8px;">142 판단 엔진(기존 모델) 결과와 차트는 ② 근거 → "01 판단·차트"에 그대로 있어요.</div></div>`;
+}
+
+// ---------- ② 근거 ----------
+function v2RevDcf(r){
+  const t = r.ticker;
+  const fin = (typeof FINANCIALS_DATA !== 'undefined' && FINANCIALS_DATA) ? FINANCIALS_DATA[t] : null;
+  const fund = (typeof FUNDAMENTALS_DATA !== 'undefined' && FUNDAMENTALS_DATA) ? FUNDAMENTALS_DATA[t] : null;
+  const est = (typeof ESTIMATES_DATA !== 'undefined' && ESTIMATES_DATA) ? ESTIMATES_DATA[t] : null;
+  let rr = null; try{ rr = pvReverseDcfModelB(t, r, fin, fund, est); }catch(e){ rr = {ok: false, blockReason: '계산 오류: ' + e.message}; }
+  // [WO31 보완 5] 최근 FCF 적자/미확보로 기존 함수가 NTM EPS×주식수로 대체한 경우 화면에서는 계산 불가로(현재가 대비 큰 가치처럼 읽히는 것 방지)
+  if(rr && rr.ok && rr.fcfIsEpsProxy) rr = {ok: false, fcfNegative: true, blockReason: '계산 불가 — 최근 FCF 적자(이익으로 대신 계산하지 않음)'};
+  // 역DCF 환산 가격(참고): 같은 가정(할인율 9%·영구성장 3%·10년)에 컨센서스 10년 성장률을 넣은 주당 가치
+  let perShare = null;
+  if(rr && rr.ok && v2num(rr.consensus10yGrowthPct) && v2num(rr.fcfBasis)){
+    const sh = fin && Array.isArray(fin.sharesOutstanding) && fin.sharesOutstanding.length ? fin.sharesOutstanding[fin.sharesOutstanding.length - 1].shares
+      : (fund && v2num(fund.marketCapitalization) && v2num(r.price) ? fund.marketCapitalization * 1e6 / r.price : null);
+    if(v2num(sh) && sh > 0){
+      const g = rr.consensus10yGrowthPct / 100, D = 0.09, TG = 0.03; let pv = 0, f = rr.fcfBasis;
+      for(let y = 1; y <= 10; y++){ f = f * (1 + g); pv += f / Math.pow(1 + D, y); }
+      pv += f * (1 + TG) / (D - TG) / Math.pow(1 + D, 10);
+      perShare = pv / sh;
+    }
+  }
+  return {rr, perShare};
+}
+function v2ModelCompare(r, pm, pd, rev){
+  const est = (typeof ESTIMATES_DATA !== 'undefined' && ESTIMATES_DATA) ? ESTIMATES_DATA[r.ticker] : null;
+  let base142 = null, label142 = '';
+  try{ const d = computePriceValidity(r); base142 = d && d.bandTable && d.bandTable.base ? d.bandTable.base.price : null; label142 = d ? d.price : ''; }catch(e){}
+  const tgt = est ? (v2num(est.targetMedian) ? [est.targetMedian, '중앙값'] : (v2num(est.targetMean) ? [est.targetMean, '평균'] : null)) : null;
+  const rows = [
+    ['가격지도 적정가(판정 기준)', pm.fairPrice, '#7a5c00', ''],
+    ['상한 포함 값(A안)', pm.fairBasisMode === 'ex_capped_growth_floor_b' ? pm.fairPriceUpper : null, '#b9a46a', pm.fairBasisMode === 'ex_capped_growth_floor_b' ? '' : '해당 없음(상한 제외 미발동)'],
+    ['기존 142 기준가', base142, '#5b7a8c', label142 ? `142 가격 라벨: ${label142}` : ''],
+    ['역DCF 환산 가격', rev.perShare, '#6b5b8c', rev.rr && rev.rr.ok ? `컨센서스 10년 성장률 ${rev.rr.consensus10yGrowthPct ?? '—'}%를 넣은 주당 가치 · 할인율 9%·영구 3%` : (rev.rr ? (rev.rr.blockReason || '') + ' · 비교에서 제외' : '')],
+    [`애널리스트 목표가(${tgt ? tgt[1] : '없음'})`, tgt ? tgt[0] : null, '#8a929e', est && est.analystCount ? `${est.analystCount}명 · 12개월 목표 · 판정 미사용` : ''],
+    ['12개월 기준가(WO20)', null, '#8a929e', '아직 계산 안 함(WO20 구현 후)'],
+  ];
+  const vals = rows.map(x => x[1]).concat([pd.displayPrice]).filter(v2num);
+  const mx = Math.max(...vals) * 1.05, w = v => Math.max(1, Math.min(100, v / mx * 100));
+  const html = rows.map(([k, v, col, note]) => `<div style="margin-top:7px;"><div style="display:flex;justify-content:space-between;gap:6px;font-size:11.5px;"><span style="min-width:0;">${esc(k)}</span><b style="white-space:nowrap;">${v2num(v) ? v2usd(v, 0) : '—'}</b></div>
+      <div style="height:8px;background:var(--panel-2);border-radius:4px;position:relative;">${v2num(v) ? `<div style="width:${w(v)}%;height:100%;border-radius:4px;background:${col};"></div>` : ''}<div style="position:absolute;left:${w(pd.displayPrice)}%;top:-3px;width:2px;height:14px;background:#111;"></div></div>
+      ${note ? `<div class="sub" style="font-size:10px;">${esc(note)}</div>` : ''}</div>`).join('');
+  const AV = (typeof DETAIL_V2_SHOW_MODEL_AVERAGE !== 'undefined' && DETAIL_V2_SHOW_MODEL_AVERAGE) ? (() => {
+    const xs = rows.slice(0, 5).map(x => x[1]).filter(v2num); return xs.length ? `<div class="sub" style="margin-top:6px;">참고: 모델 평균 ${v2usd(xs.reduce((a, b) => a + b, 0) / xs.length, 0)}(판정 미사용)</div>` : '';
+  })() : '';
+  return v2card('', '모델 비교(참고)', v2badge('판정은 가격지도 하나', 'neutral'), html + `<div class="sub" style="font-size:10.5px;margin-top:6px;">검은 세로선 = 현재가 ${v2usd(pd.displayPrice)} · 평균 "종합 적정가"는 만들지 않아요.</div>` + AV);
+}
+function v2RoicShort(t){  // 위험 카드용 한 줄
+  const W = window.WACC_ROIC_DATA, x = W && W.tickers ? W.tickers[t] : null;
+  if(!x) return {txt: '아직 계산 안 함', warn: false};
+  const sp = x.roic_minus_wacc_pp;
+  if(v2num(sp)) return {txt: `ROIC−WACC ${sp >= 0 ? '+' : '−'}${Math.abs(sp).toFixed(0)}%p${sp >= 0 ? '(가치 창출)' : '(자본비용 미달)'}`, warn: sp < 0};
+  return {txt: '계산 불가 — ' + (x.block || (x.missing || [])[0] || '자료 부족'), warn: false};
+}
+function v2Roic(r){
+  const W = (typeof window !== 'undefined' && window.WACC_ROIC_DATA) ? window.WACC_ROIC_DATA : null;
+  const x = W && W.tickers ? W.tickers[r.ticker] : null;
+  if(!x) return v2card('', '자본 효율(ROIC·WACC)', v2badge('계산 불가', 'neutral'), '<div class="sub">자본 효율 자료(wacc_roic_data.js)가 아직 없어요.</div>');
+  if(x.block) return v2card('', '자본 효율(ROIC·WACC)', v2badge('계산 불가', 'neutral'), `<div class="sub">${esc(x.block)}</div>`);
+  const m = W._meta || {}, rf = m.risk_free || {};
+  const sp = x.roic_minus_wacc_pp;
+  const badge = v2num(sp) ? v2badge(`ROIC − WACC = ${sp >= 0 ? '+' : '−'}${Math.abs(sp).toFixed(1)}%p`, sp >= 0 ? 'good' : 'bad') : v2badge('계산 불가', 'neutral');
+  const p = v => v2num(v) ? (v * 100).toFixed(1) + '%' : '계산 불가';
+  const yrs = (x.years || []).filter(y => v2num(y.roic));
+  const last = (x.years || []).slice(-1)[0] || {};
+  const inp = x.inputs || {};
+  const rfTxt = v2num(rf.value_pct) ? `${rf.value_pct.toFixed(2)}%·${esc(rf.observation_date || '')}${rf.status === 'cached' ? '(수집 실패 - 직전 값)' : ''}` : '—';
+  const notes = [];
+  if(last.debt && last.debt.assumed_zero) notes.push('차입금 태그 없음 → 0(무차입으로 봄)');
+  if(inp.interest && String(inp.interest.tag).indexOf('대체') >= 0) notes.push('이자비용: ' + inp.interest.tag);
+  if(inp.E_basis && inp.E_basis.indexOf('시가총액') === 0) notes.push('자기자본 가치: ' + inp.E_basis);
+  if(x.currency && x.currency !== 'USD') notes.push(`공시 통화 ${x.currency}(ROIC는 같은 통화끼리, 차입금 비중만 환율 ${v2num(inp.fx_to_usd) ? inp.fx_to_usd : '—'}로 USD 환산)`);
+  const body = v2kv([['ROIC(최근)', p(x.roic_latest), x.roic_latest_fy ? 'FY' + x.roic_latest_fy : ''], ['ROIC 3년 평균', p(x.roic_3y_avg), (x.roic_3y_fys || []).map(f => 'FY' + String(f).slice(-2)).join('·')], ['WACC', p(x.wacc), '']]) +
+    (x.missing && x.missing.length ? `<div class="sub" style="font-size:10.5px;color:#876000;margin-top:4px;">${x.missing.map(esc).join('<br>')}</div>` : '') +
+    v2bars(yrs.map(y => y.roic * 100), yrs.map(y => 'FY' + String(y.fy).slice(-2))) +
+    `<div class="sub" style="font-size:10.5px;line-height:1.5;">ROIC = 세후 영업이익 ÷ (자기자본 + 차입금 − 현금·단기투자), 연말 SEC 연간보고서<br>WACC = 자기자본비용 ${p(x.cost_of_equity)}(10년물 ${rfTxt} + 베타 ${v2num(x.beta && x.beta.value) ? x.beta.value.toFixed(2) : '—'}${x.beta && v2num(x.beta.raw) && x.beta.adjustment === 'blume' ? `(원값 ${x.beta.raw.toFixed(2)}, 2년 주간)` : ''} × 시장위험프리미엄 ${m.equity_risk_premium_pct}%) × ${p(x.weight_equity)}${v2num(x.weight_debt) && x.weight_debt > 0 ? ` + 세후 부채비용 ${p(x.cost_of_debt_aftertax)} × ${p(x.weight_debt)}` : ' (차입금 0)'}<br>베타 = 최근 ${x.beta ? x.beta.weeks : '—'}주 주간 수익률 vs SPY${x.beta && x.beta.adjustment === 'blume' ? ', Blume 조정(0.67×원값+0.33)' : ''} · 현금 기준: ${esc(last.cash ? (last.cash.basis || '') : '—')}${notes.length ? '<br>' + notes.map(esc).join(' · ') : ''} · 참고 값(판정 미사용)</div>`;
+  return v2card('', '자본 효율(ROIC·WACC)', badge, body);
+}
+function v2RevDcfCard(rev){
+  const rr = rev.rr;
+  if(!rr || !rr.ok) return v2card('', '역DCF(시장이 가정하는 성장률)', v2badge('계산 불가', 'neutral'), `<div class="sub">${esc(rr ? rr.blockReason || '' : '')}</div>`);
+  const tone = rr.verdict === '기대 선반영 큼' ? 'warn' : 'neutral';  // 참고 지표 - 매수 신호처럼 보이지 않게 초록색 안 씀
+  return v2card('', '역DCF(시장이 가정하는 성장률)', v2badge(rr.verdict || rr.verdictBlockedReason || '비교 불가', tone),
+    v2kv([['현재가가 가정하는 10년 FCF 성장률', `연 ${rr.impliedGrowthPct.toFixed(1)}%`, rr.boundHit ? '⚠ 탐색 범위 끝' : ''], ['컨센서스 10년 환산 성장률', v2num(rr.consensus10yGrowthPct) ? `연 ${rr.consensus10yGrowthPct.toFixed(1)}%` : '—', v2num(rr.consensusGrowthPct) ? `1~2년차 평균 ${rr.consensusGrowthPct.toFixed(1)}%` : '']]) +
+    `<div class="sub" style="font-size:10.5px;line-height:1.5;">기준 FCF ${v2big(rr.fcfBasis)}(${esc(rr.fcfSource || '')}) · 할인율 ${rr.assumptions.discountRatePct}% · 영구성장 ${rr.assumptions.terminalGrowthPct}% · ${rr.assumptions.years}년 · ${esc(rr.assumptions.evNote)}</div>`);
+}
+const V2_ACC = [['01', '01 판단·차트(기존 142 모델)'], ['08', '08 가격지도 상세'], ['07', '07 적정가(142 밴드)'], ['02', '02 가치/퀄리티'], ['03', '03 실적'], ['04', '04 재무제표'], ['05', '05 전망']];
+function v2AccBody(id, r){
+  if(id === '01') return tabJudgement(r);
+  if(id === '02') return tabValueQuality(r);
+  if(id === '03') return tabEarnings(r);
+  if(id === '04') return tabFinancials(r);
+  if(id === '05') return tabForecast(r);
+  if(id === '07') return tabFairValue(r);
+  if(id === '08') return tabPriceMap(r);
+  return '';
+}
+function tabV2Evidence(r){
+  const x = v2pmd(r);
+  const rev = v2RevDcf(r);
+  const top = x ? v2ModelCompare(r, x.pm, x.pd, rev) : '';
+  const acc = V2_ACC.map(([id, label]) => {
+    const open = !!(V2_OPEN[r.ticker] && V2_OPEN[r.ticker][id]);
+    return `<details class="v2acc" data-id="${id}" ${open ? 'open' : ''} ontoggle="v2AccToggle(this,'${r.ticker}','${id}')" style="border:1px solid var(--panel-2);border-radius:10px;margin-top:8px;">
+      <summary style="padding:10px 12px;font-weight:700;font-size:13px;cursor:pointer;">${esc(label)}</summary>
+      <div class="v2acc-body" id="v2acc_${id}" style="padding:0 8px 10px;min-width:0;">${open ? v2AccBody(id, r) : ''}</div></details>`;
+  }).join('');
+  return `<div style="max-width:100%;overflow-wrap:anywhere;">${top}${v2Roic(r)}${v2RevDcfCard(rev)}
+    <div class="sub" style="margin-top:12px;">아래는 예전 8탭 내용 그대로(눌러서 펼치기) — 한 달 보존, 11/28 전후 정리 여부 재확인</div>${acc}</div>`;
+}
+function v2AccToggle(el, t, id){
+  V2_OPEN[t] = V2_OPEN[t] || {};
+  V2_OPEN[t][id] = el.open;
+  const body = el.querySelector('.v2acc-body');
+  const r = results[t];
+  if(el.open && body && r && !body.innerHTML.trim()){ body.innerHTML = v2AccBody(id, r); }
+  if(el.open && r) requestAnimationFrame(() => v2SetupAcc(id, t, r));
+}
+function v2SetupAcc(id, ticker, r){
+  if(id === '01'){
+    const c = document.getElementById('priceCanvas');
+    const cs = getChartSeries(ticker) || r.series;
+    if(c){ drawCandleChart(c, cs, pinnedHoverIndex(cs), techViewOpen, ticker); setupPriceChartHover(c, cs, ticker); }
+    if(techViewOpen){
+      const rc = document.getElementById('techRsiCanvas'), mc = document.getElementById('techMacdCanvas');
+      if(rc) drawTechRsiChart(rc, r.series.techSeries);
+      if(mc) drawTechMacdChart(mc, r.series.techSeries);
+    }
+    loadLongRiskProfile(ticker);
+  }
+  if(id === '03') setupEarningsChart(ticker);
+  if(id === '04') setupFinancialsChart(ticker);
+  if(id === '05') setupForecastChart(ticker);
+}
+
+// ---------- ③ 뉴스·수급 ----------
+function tabV2Flow(r){
+  const t = r.ticker;
+  const sec = (title, html) => html ? `<div style="margin-top:12px;"><b style="font-size:13.5px;">${esc(title)}</b>${html}</div>` : '';
+  let sm = '', ins = '', sig = '';
+  try{ sm = smartSummaryHtml(t); }catch(e){ sm = ''; }
+  try{ ins = insiderTradingHtml(t); }catch(e){ ins = ''; }
+  try{ sig = renderSigmaBand(t); }catch(e){ sig = ''; }
+  return `<div style="max-width:100%;overflow-wrap:anywhere;">${tabNews(r)}${sec('🐋 유명 투자자(13F)', sm)}${sec('내부자 거래', ins)}${sec('옵션 기준 변동 범위', sig)}</div>`;
+}
+function renderTabContentV2(ticker, r){
+  const body = document.getElementById('detailBody');
+  if(activeTab === 'B'){
+    body.innerHTML = tabV2Evidence(r);
+    requestAnimationFrame(() => { const o = V2_OPEN[ticker] || {}; Object.keys(o).filter(k => o[k]).forEach(id => v2SetupAcc(id, ticker, r)); });
+  } else if(activeTab === 'C') body.innerHTML = tabV2Flow(r);
+  else body.innerHTML = tabV2Glance(r);
+}
+// ===== [WO31] 끝 =====
+
+const DETAIL_V2_SHOW_MODEL_AVERAGE = false;  // detail_v2_assumptions.json model_compare.show_model_average
 function renderTabs(ticker){
+  if(detailV2On(ticker)){  // [WO31] 3탭
+    if(['A','B','C'].indexOf(activeTab) < 0) activeTab = 'A';
+    const el2 = document.getElementById('detailTabs');
+    const badgeC = hasFreshNewsLog(ticker) ? '<span class="new-badge" style="margin-left:3px;">NEW</span>' : '';
+    el2.innerHTML = [['A','① 한눈에'],['B','② 근거'],['C','③ 뉴스·수급']].map(([id,label]) =>
+      `<div class="dtab ${activeTab===id?'active':''}" onclick="switchTab('${ticker}','${id}')">${label}${id==='C'?badgeC:''}</div>`).join('');
+    return;
+  }
+  if(['A','B','C'].indexOf(activeTab) >= 0) activeTab = '01';
   const tabs = [['01','판단'],['02','가치/퀄리티'],['03','실적'],['04','재무제표'],['05','전망'],['06','뉴스'],['07','적정가'],['08','가격지도']];
   const el = document.getElementById('detailTabs');
   el.innerHTML = tabs.map(([id,label])=>{
@@ -4104,6 +4493,7 @@ function renderTabContent(ticker){
     body.innerHTML = `<div class="comment-box" style="background:var(--panel-2);">⏳ ${esc(ticker)} 자료를 불러오는 중이에요. 잠시 후 자동으로 갱신돼요.</div>`;
     return;
   }
+  if(detailV2On(ticker)){ renderTabContentV2(ticker, r); return; }  // [WO31]
   if(activeTab==='01') body.innerHTML = tabJudgement(r);
   else if(activeTab==='02') body.innerHTML = tabValueQuality(r);
   else if(activeTab==='03') body.innerHTML = tabEarnings(r);
