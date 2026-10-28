@@ -3489,13 +3489,13 @@ function pmData(ticker){
 // 밴드 "비율"은 새로 정하지 않고 이미 계산돼 있는 달러 밴드에서 역산한다(=
 // price_map_assumptions.json의 고정 비율 0.8/0.9/1.1과 항상 같음 - 그 파일이 바뀌면
 // price_map_engine.py 다음 실행 때 달러 밴드가 바뀌고 여기 역산값도 자동으로 따라감).
-// 라벨 문구(적극 모아가기/분할매수/선별 매수/신규 추격 금지)는 price_map_assumptions.json의
+// 라벨 문구(적극 모아가기/분할매수/관망(적정가 근처)/신규 추격 금지 - 10/28 WO30에서 적정 구간 이름 변경)는 price_map_assumptions.json의
 // price_map_bands.labels를 그대로 옮겨온 것 - 판정 임계값 자체는 전혀 안 바꿈. 실시간
 // 가격을 못 받은 종목(스캔 실패 등)은 pm.currentPrice(=어제 종가 기준)로 폴백한다.
 const PM_BAND_LABELS = {
   le_aggr: {verdict:'매수', action:'적극 모아가기'},
   le_dca: {verdict:'매수', action:'분할매수'},
-  le_fair: {verdict:'적정', action:'선별 매수'},
+  le_fair: {verdict:'적정', action:'관망(적정가 근처)'},  // [WO30-1] 구간·판정 그대로, 이름만 변경
   gt_fair: {verdict:'고평가', action:'신규 추격 금지'},
 };
 // [2026-10-26 WO23-A4/A5 외부검토 반영] 미국 정규장이 아닐 때도 "실시간 HH:MM"(=스캔 완료 시각)이 떠서
@@ -3574,23 +3574,69 @@ function pmFairCandidates(pm){
   return out;
 }
 function pmFairBasisLine(pm){
+  // [WO30 3-1] "과거 $221 / 업종 $272 / 성장 $430(상한) → 중앙값 $272" - 세 후보를 고정 순서로 다 보여준다.
+  // 결합 방식(중앙값/평균/단일)은 엔진 fairPrice와 다시 맞춰 보고, 안 맞으면 줄을 숨긴다(기존 원칙 유지).
   const ok = v => typeof v === 'number' && isFinite(v);
-  if(!pm || !ok(pm.fairPrice)) return null;
+  if(!pm) return null;
   const cs = pmFairCandidates(pm);
-  if(!cs.length) return null;
-  const sorted = cs.slice().sort((a, b) => a.fairPrice - b.fairPrice);
-  const n = sorted.length;
   const capped = (pm.growthPerCapped === true) || !!(pm.diag && pm.diag.fairAltApplicable === true);
-  const desc = x => `${PM_CAND_NAME[x.candidate] || x.candidate} ${x.per.toFixed(1)}배${x.candidate === 'growth_per_peg' && capped ? '(상한)' : ''} × ${pmEpsName(x.epsBasis)} $${x.eps.toFixed(2)}`;
-  let txt, check;
-  if(n === 1){ check = sorted[0].fairPrice; txt = `${desc(sorted[0])} — 후보 1개만 계산됨`; }
-  else if(n === 2){ check = (sorted[0].fairPrice + sorted[1].fairPrice) / 2; txt = `${desc(sorted[0])}와 ${desc(sorted[1])}의 평균 — 후보 2개`; }
-  else { const m = sorted[1]; check = m.fairPrice; txt = `${desc(m)} — 세 후보 중앙값`; }
+  const SHORT = {historical_per: '과거', sector_per: '업종', growth_per_peg: '성장'};
+  const ORDER = ['historical_per', 'sector_per', 'growth_per_peg'];
+  const byC = {}; cs.forEach(x => { byC[x.candidate] = x; });
+  const desc = x => `${PM_CAND_NAME[x.candidate] || x.candidate} ${x.per.toFixed(1)}배${x.candidate === 'growth_per_peg' && capped ? '(상한)' : ''} × ${pmEpsName(x.epsBasis)} $${x.eps.toFixed(2)} = $${x.fairPrice.toFixed(0)}`;
+  const missReason = c => {
+    if(c === 'sector_per' && pm.sectorPeerDisplay && pm.sectorPeerDisplay.note) return String(pm.sectorPeerDisplay.note).replace(/^업종 비교 불가\(정상화 비교군 부족\) - /, '');
+    return '계산 안 됨';
+  };
+  const parts = ORDER.map(c => byC[c] ? `${SHORT[c]} $${byC[c].fairPrice.toFixed(0)}${c === 'growth_per_peg' && capped ? '(상한)' : ''}` : `${SHORT[c]} 없음`);
+  const missTitle = ORDER.filter(c => !byC[c]).map(c => `${PM_CAND_NAME[c]} 없음: ${missReason(c)}`);
+  const titleBase = cs.map(desc).concat(missTitle).join(' / ') + '. 적정가 후보 = 배수 × 기준 EPS. 배수 자체(성장률 PER 30배 상한 등)는 12월 점검 대상.';
+  if(!ok(pm.fairPrice) || !cs.length){
+    return {txt: `${parts.join(' / ')} → 없음(${esc(pm.fairPriceBasis || '적정가 후보 0개')})`, title: titleBase};
+  }
+  const n = cs.length;
+  const sorted = cs.slice().sort((a, b) => a.fairPrice - b.fairPrice);
+  const mode = pm.fairBasisMode || 'median';
+  let check, how, alt = '';
+  if(mode === 'ex_capped_growth_floor_b'){
+    // [WO29-1 합침] B안: 상한 성장 후보 제외, 나머지 두 후보의 평균
+    const rem = sorted.filter(x => x.candidate !== 'growth_per_peg');
+    if(rem.length !== 2) return null;
+    check = (rem[0].fairPrice + rem[1].fairPrice) / 2;
+    how = `상한 제외 평균 $${check.toFixed(0)}`;
+    if(ok(pm.fairPriceUpper)) alt = ` · 상한 포함 시 $${pm.fairPriceUpper.toFixed(0)}`;
+  }
+  else if(n === 1){ check = sorted[0].fairPrice; how = `단일 $${check.toFixed(0)}`; }
+  else if(n === 2){ check = (sorted[0].fairPrice + sorted[1].fairPrice) / 2; how = `평균 $${check.toFixed(0)}`; }
+  else { check = sorted[1].fairPrice; how = `중앙값 $${check.toFixed(0)}`; }
   if(!(Math.abs(check - pm.fairPrice) <= Math.max(1e-6, Math.abs(pm.fairPrice) * 1e-9))) return null;  // 맞춰 본 값이 적정가와 다르면 표시 안 함
-  const alt = pm.diag && ok(pm.diag.fairAltExCappedGrowth) && capped ? ` · 성장 상한 제외 시 $${pm.diag.fairAltExCappedGrowth.toFixed(0)}` : '';
-  const others = sorted.filter(x => n < 3 ? false : x !== sorted[1]).map(x => `${PM_CAND_NAME[x.candidate] || x.candidate} $${x.fairPrice.toFixed(0)}`).join(' / ');
-  return {txt: txt + alt, title: (others ? `나머지 후보: ${others}. ` : '') + '적정가 후보 = 배수 × 기준 EPS. 배수 자체(성장률 PER 30배 상한 등)는 12월 점검 대상.'};
+  if(mode === 'a_kept_b_higher' && ok(pm.fairPriceB)) alt = ` · 성장 상한 제외 시 $${pm.fairPriceB.toFixed(0)}(더 높아 A안 유지)`;
+  else if(mode === 'a_kept_two_candidates') alt = ' · 상한 제외 시 후보 1개뿐이라 A안 유지';
+  else if(mode === 'a_kept_one_candidate') alt = ' · 후보가 상한 성장률 PER 하나뿐(A안)';
+  else if(mode === 'median' && pm.diag && ok(pm.diag.fairAltExCappedGrowth) && capped) alt = ` · 성장 상한 제외 시 $${pm.diag.fairAltExCappedGrowth.toFixed(0)}`;
+  return {txt: `${parts.join(' / ')} → ${how}${alt}`, title: titleBase};
 }
+// [WO30 3-2] 정상화 EPS 종목만: "정상화 영향: 예상 EPS $14.20 → 정상화 $6.11(−57%) · 정상화 안 하면 적정가 $426(참고)".
+// 엔진 normalizationSensitivity(표시 전용)를 그대로 보여줄 뿐 - 판정·행동·구간에는 안 씀.
+function pmNormalizationLine(pm){
+  const ok = v => typeof v === 'number' && isFinite(v);
+  const ns = pm && pm.normalizationSensitivity;
+  if(!ns || !ok(ns.ntm_eps_raw) || !ok(ns.normalized_eps)) return null;
+  const pct = ok(ns.change_pct) ? `(${ns.change_pct < 0 ? '−' : '+'}${Math.abs(ns.change_pct).toFixed(0)}%)` : '';
+  const fx = ok(ns.fair_without_normalization) ? ` · 정상화 안 하면 적정가 $${ns.fair_without_normalization.toFixed(0)}(참고)` : '';
+  const cl = (ns.candidates_without_normalization || []).filter(c => ok(c.fairPrice)).map(c => `${PM_CAND_NAME[c.candidate] || c.candidate} ${ok(c.per) ? c.per.toFixed(1) + '배' : '-'} × ${pmEpsName(c.epsBasis)} $${ok(c.eps) ? c.eps.toFixed(2) : '-'} = $${c.fairPrice.toFixed(0)}`).join(' / ');
+  return {txt: `예상 EPS $${ns.ntm_eps_raw.toFixed(2)} → 정상화 $${ns.normalized_eps.toFixed(2)}${pct}${fx}`,
+          title: `정상화 안 한 계산(${ns.basis_without_normalization || ''}): ${cl}. 참고값 - 판정·행동에는 정상화 EPS 기준 적정가만 씀.`};
+}
+// [WO30-2] 15% 요구수익률 기준 가격(WO20 "12개월 기준가 ÷ 1.15") 참고 줄 자리. 행동 판정에는 연결하지 않는다
+// (resolvePmDisplay는 bandAggressiveLe/bandDcaHigh/bandFairHigh만 봄). WO20 구현 전이라 값 필드가 없으면 줄 자체를 숨김(가짜 값 금지).
+function pmRequiredReturnRow(pm){
+  const v = pm && pm.requiredReturnPrice15;
+  if(!(typeof v === 'number' && isFinite(v))) return [];
+  return [['참고: 15% 요구수익률 기준 가격', `$${v.toFixed(2)} (행동 판정에 쓰지 않음)`, 'WO20 12개월 기준가 ÷ 1.15 - 참고 줄. 행동은 분할매수 시작가(적정가×0.9)·적극 모아가기가(적정가×0.8)만으로 정함.']];
+}
+// [WO30-b] 센트 반올림(0.5 올림) - 엔진 _pm_cent()와 같은 식
+function pmCent(x){ return Math.floor(x * 100 + 0.5) / 100; }
 function resolvePmDisplay(pm, liveR){
   if(!pm) return null;
   const numOk = v => typeof v === 'number' && isFinite(v);
@@ -3603,13 +3649,16 @@ function resolvePmDisplay(pm, liveR){
     return pmApplyCashflowCap(pm, {displayPrice, priceIsLive, verdict: pm.verdict, action: pm.action, ratio: pm.ratio, modelCheckNeeded: pm.modelCheckNeeded});
   }
   const ratio = displayPrice / fp;
-  const rAggr = numOk(pm.bandAggressiveLe) ? pm.bandAggressiveLe / fp : null;
-  const rDca = numOk(pm.bandDcaHigh) ? pm.bandDcaHigh / fp : null;
-  const rFair = numOk(pm.bandFairHigh) ? pm.bandFairHigh / fp : null;
+  // [2026-10-28 WO30-b] 구간은 "센트 반올림 현재가 ≤ 센트 반올림 밴드가격"(엔진 resolve_price_map·게이트와 같은 식).
+  // 밴드 가격은 엔진이 계산해 둔 달러 값 그대로, 경계 포함(≤) 그대로. ratio(표시·모델 점검)는 원값.
+  const pc = pmCent(displayPrice);
+  const bAggr = numOk(pm.bandAggressiveLe) ? pmCent(pm.bandAggressiveLe) : null;
+  const bDca = numOk(pm.bandDcaHigh) ? pmCent(pm.bandDcaHigh) : null;
+  const bFair = numOk(pm.bandFairHigh) ? pmCent(pm.bandFairHigh) : null;
   let label;
-  if(rAggr!=null && ratio <= rAggr) label = PM_BAND_LABELS.le_aggr;
-  else if(rDca!=null && ratio <= rDca) label = PM_BAND_LABELS.le_dca;
-  else if(rFair!=null && ratio <= rFair) label = PM_BAND_LABELS.le_fair;
+  if(bAggr!=null && pc <= bAggr) label = PM_BAND_LABELS.le_aggr;
+  else if(bDca!=null && pc <= bDca) label = PM_BAND_LABELS.le_dca;
+  else if(bFair!=null && pc <= bFair) label = PM_BAND_LABELS.le_fair;
   else label = PM_BAND_LABELS.gt_fair;
   // price_map_engine.py resolve_price_map()의 model_check_needed 임계값(2.0배/0.5배)과
   // 동일 - 그대로 가져온 것, 바꾸지 않음. 비율이 재판정으로 바뀌었으니 이 플래그도 같이
@@ -3634,7 +3683,31 @@ function pmApplyCashflowCap(pm, pd){
     out.action = dca + a.slice(aggr.length);
     out.actionCapReason = 'cashflow_veto_cap';
   }
+  // [2026-10-27 WO29-2, 봄이 승인] 신뢰도 낮음 + 후보 괴리 ±40% 밖(엔진이 계산한 lowConfidenceCapEligible 그대로) →
+  // "적극 모아가기" 금지, 최대 "분할매수". price_map_engine.py apply_low_confidence_cap()와 같은 규칙.
+  out.lowConfidenceCapEligible = pm.lowConfidenceCapEligible === true;
+  const a2 = String(out.action || '');
+  if(out.lowConfidenceCapEligible && !out.actionCapReason && (a2 === aggr || a2.indexOf(aggr + ' · ') === 0)){
+    out.action = dca + a2.slice(aggr.length);
+    out.actionCapReason = 'low_confidence_cap';
+  }
   return out;
+}
+// [WO29] 배지 모음: 현금흐름 경고 / 신뢰도 낮음(cap) / 후보 1개·2개(규칙1에서 A안 유지한 사유). 표시만.
+const PM_LC_BADGE = ' <span style="font-size:10px;font-weight:700;color:#7a5c00;background:#fff8ea;border:1px solid #e6d3a3;border-radius:5px;padding:0 4px;white-space:nowrap;" title="신뢰도 낮음 + 적정가 후보 괴리 ±40% 밖 - 가격이 싸도 행동은 최대 분할매수까지">⚠ 신뢰도 낮음</span>';
+function pmCandBadge(pm){
+  const b = pm && pm.candidateBadge;
+  if(!b) return '';
+  const tip = b === '후보 1개' ? '적정가 후보가 상한(30배) 성장률 PER 하나뿐 - A안 그대로, 신뢰도 낮음' : '적정가 후보 2개(상한 성장률 PER 포함) - 상한 제외 시 후보가 1개뿐이라 A안 유지';
+  return ` <span style="font-size:10px;font-weight:700;color:#5b6472;background:#eef0f2;border:1px solid #c9ced6;border-radius:5px;padding:0 4px;white-space:nowrap;" title="${tip}">${b}</span>`;
+}
+function pmBadges(pm, pd){
+  return (pd && pd.cashflowVeto ? PM_CF_BADGE : '') + (pd && pd.actionCapReason === 'low_confidence_cap' ? PM_LC_BADGE : '') + pmCandBadge(pm);
+}
+function pmCapExplain(pd){
+  if(!pd || !pd.actionCapReason) return null;
+  if(pd.actionCapReason === 'low_confidence_cap') return `신뢰도 낮음(적정가 후보 괴리 ±40% 밖): 가격은 ${pd.actionRaw} 구간이지만 행동은 최대 ${pd.action}까지`;
+  return `현금흐름 거부권: 가격은 ${pd.actionRaw} 구간이지만 행동은 최대 ${pd.action}까지`;
 }
 const PM_CF_BADGE = ' <span style="font-size:10px;font-weight:700;color:#b3261e;background:#fdecea;border:1px solid #e9b3a8;border-radius:5px;padding:0 4px;white-space:nowrap;" title="현금흐름 거부권 발동 - 가격이 싸도 행동은 최대 분할매수까지">⚠ 현금흐름 경고</span>';
 // 4밴드 가격 막대(375px 폭 안전) - bandAggressiveLe(적극 모아가기가) < bandDcaHigh(분할매수가) <
@@ -3676,7 +3749,7 @@ function buildPriceMapSummaryHtml(ticker, existingPriceLabel, liveR){
   const pd = resolvePmDisplay(pm, liveR) || {verdict: pm.verdict, action: pm.action};
   const vColor = PM_VERDICT_COLOR[pd.verdict] || '#3c4552';
   return `<div class="rc-pricemap" style="margin-top:4px;padding-top:4px;border-top:1px dashed var(--panel-2);">
-    <div style="font-size:11px;color:${vColor};font-weight:700;">가격 지도: ${esc(pd.verdict)}(${esc(pd.action)})${pd.cashflowVeto ? PM_CF_BADGE : (pm.bizRiskBadge ? ' <span style="color:#7a3b2e;" title="사업 경고(EPS 하향 등) - 한눈표 참고">⚠</span>' : '')}${PRICE_MAP_DRAFT_REVIEW_NOTICE ? ' <span style="font-size:9.5px;font-weight:700;color:#876000;background:#fff8ea;padding:1px 4px;border-radius:3px;">초안·검토중(10/23 확정예정)</span>' : ''}</div>
+    <div style="font-size:11px;color:${vColor};font-weight:700;">가격 지도: ${esc(pd.verdict)}${String(pd.action||'').indexOf('(') >= 0 ? ' · ' + esc(pd.action) : '(' + esc(pd.action) + ')'}${pmBadges(pm, pd)}${(!pd.cashflowVeto && pm.bizRiskBadge) ? ' <span style="color:#7a3b2e;" title="사업 경고(EPS 하향 등) - 한눈표 참고">⚠</span>' : ''}${PRICE_MAP_DRAFT_REVIEW_NOTICE ? ' <span style="font-size:9.5px;font-weight:700;color:#876000;background:#fff8ea;padding:1px 4px;border-radius:3px;">초안·검토중(10/23 확정예정)</span>' : ''}</div>
     <div class="sub" style="font-size:10.5px;">기존 가격 라벨: <b>${esc(existingPriceLabel||'-')}</b> / 가격 지도 판정: <b style="color:${vColor};">${esc(pd.verdict)}</b></div>
     <div class="sub" style="font-size:10.5px;">중심 적정가 $${pm.fairPrice.toFixed(2)} · 분할매수가 $${pm.bandDcaHigh.toFixed(2)} · 적극 모아가기가 $${pm.bandAggressiveLe.toFixed(2)} · 신뢰도 ${esc(pm.confidence)}</div>
     ${buildPriceMapBarHtml(pm, pd)}
@@ -3746,11 +3819,13 @@ function buildPriceGlanceTableHtml(ticker, liveR){
   }
   const rows = [
     ['현재가', numOk(pd.displayPrice) ? ('$' + pd.displayPrice.toFixed(2) + (pd.priceIsLive ? '' : ` (${pmFallbackPriceTxt(pm)})`)) : '-', null],
-    ['적정가', numOk(pm.fairPrice) ? ('$' + pm.fairPrice.toFixed(2)) : '-', null],
-    ...((() => { const fb = pmFairBasisLine(pm); return fb ? [['적정가 근거', esc(fb.txt), fb.title]] : []; })()),  // [WO23-C8]
+    ['적정가', numOk(pm.fairPrice) ? ('$' + pm.fairPrice.toFixed(2) + (pm.fairBasisMode === 'ex_capped_growth_floor_b' && numOk(pm.fairPriceUpper) ? ` (상한 포함 시 $${pm.fairPriceUpper.toFixed(2)})` : '')) : '-', pm.fairBasisMode === 'ex_capped_growth_floor_b' ? 'B안: 30배 상한에 걸린 성장률 PER 후보를 뺀 나머지 두 후보 평균. A안(상한 포함 중앙값)은 참고값' : null],
+    ...((() => { const fb = pmFairBasisLine(pm); return fb ? [['적정가 근거', esc(fb.txt), fb.title]] : []; })()),  // [WO23-C8][WO30 3-1]
+    ...((() => { const nl = pmNormalizationLine(pm); return nl ? [['정상화 영향', esc(nl.txt), nl.title]] : []; })()),  // [WO30 3-2]
     ['분할매수 시작가', numOk(pm.bandDcaHigh) ? ('$' + pm.bandDcaHigh.toFixed(2)) : '-', null],
     ['적극 모아가기가', numOk(pm.bandAggressiveLe) ? ('$' + pm.bandAggressiveLe.toFixed(2)) : '-', null],
-    ['지금 위치', `${pos.emoji} ${esc(pos.label)}${pctTxt}${pd.cashflowVeto ? PM_CF_BADGE : ''}`, pd.actionCapReason ? `현금흐름 거부권: 가격은 ${pd.actionRaw} 구간이지만 행동은 최대 ${pd.action}까지` : null],  // [WO24-B6]
+    ...pmRequiredReturnRow(pm),  // [WO30-2] 값 있을 때만(현재 WO20 미구현 → 숨김)
+    ['지금 위치', `${pos.emoji} ${esc(pos.label)}${pctTxt}${pmBadges(pm, pd)}`, pmCapExplain(pd)],  // [WO24-B6]
     ...(peerRow ? [peerRow] : []),
     ['신뢰도', esc(pm.confidence || '-'), pm.confidenceNote || null],
     ['가격 기준', esc(priceAsOfTxt), null],
@@ -3837,7 +3912,7 @@ function buildResultCardHtml(r){
     const pd = resolvePmDisplay(pmCard, r) || {verdict: pmCard.verdict, action: pmCard.action, modelCheckNeeded: pmCard.modelCheckNeeded};
     const pmPosCard = PM_POSITION_GLANCE[pd.verdict] || {emoji:'⚪', label:pd.verdict || '-'};
     const pmColorCard = PM_VERDICT_COLOR[pd.verdict] || '#3c4552';
-    const pmActionSuffix = (pd.modelCheckNeeded ? ' · ⚠ 모델 점검' : (pd.action ? ' · ' + esc(pd.action) : '')) + (pd.cashflowVeto ? PM_CF_BADGE : '');  // [WO24-B6]
+    const pmActionSuffix = (pd.modelCheckNeeded ? ' · ⚠ 모델 점검' : (pd.action ? ' · ' + esc(pd.action) : '')) + pmBadges(pmCard, pd);  // [WO24-B6][WO29]
     verdictBlockHtml = `<div class="rc-verdict" style="color:${pmColorCard};">${pmPosCard.emoji} ${esc(pmPosCard.label)}${pmActionSuffix}</div>`;
     legacyInTier2Html = `<div style="margin-bottom:4px;">기존 모델 판정: <b style="color:${actionColor};">${esc(act.label)}</b> · 가격 라벨: <b style="color:${priceColor};">${esc(d.price)}</b>${basePriceDiffTxt}</div>`;
   } else {
@@ -3938,7 +4013,7 @@ function renderDetailHeader(ticker){
       const pmColor = (typeof PM_VERDICT_COLOR !== 'undefined' && PM_VERDICT_COLOR[pdH.verdict]) || '#3c4552';
       const actH = String(pdH.action || '').split(' · ')[0];
       verdictSpan = `<span class="dh-verdict" style="color:${pmColor};">${pmPos.emoji} ${esc(pmPos.label)}</span>`;
-      pricelabelSpan = `<span class="dh-pricelabel" style="color:${pmColor};">· ${esc(actH)}${pdH.modelCheckNeeded ? ' · ⚠ 모델 점검' : ''}${pdH.cashflowVeto ? PM_CF_BADGE : ''}</span>`;
+      pricelabelSpan = `<span class="dh-pricelabel" style="color:${pmColor};">· ${esc(actH)}${pdH.modelCheckNeeded ? ' · ⚠ 모델 점검' : ''}${pmBadges(pmHdr, pdH)}</span>`;
     } else {
       verdictSpan = `<span class="dh-verdict" style="color:${actionColor};">${esc(act.label)}</span>`;
       pricelabelSpan = `<span class="dh-pricelabel" style="color:${priceColor};">${esc(d.price)}</span>`;
@@ -15439,7 +15514,9 @@ function tabPriceMap(r){
   // 걸린 종목만 해당, 안 걸렸으면 아무것도 안 보임).
   const diag = pm.diag || {};
   const fairAltHtml = (diag.fairAltApplicable && typeof diag.fairAltExCappedGrowth === 'number')
-    ? `<div class="sub" style="margin-top:6px;">참고: 성장률 상한 제외 시 적정가 ${usd(diag.fairAltExCappedGrowth)}${typeof diag.fairAltGapPct==='number' ? ` (A안 대비 ${diag.fairAltGapPct>=0?'+':''}${diag.fairAltGapPct.toFixed(1)}%)` : ''} — 성장률(PEG) 후보가 30배 상한에 걸려 있어 그 후보만 뺀 참고값, 판정에는 반영 안 됨</div>`
+    ? (pm.fairBasisMode === 'ex_capped_growth_floor_b'
+        ? `<div class="sub" style="margin-top:6px;">B안 적용: 성장률(PEG) 후보가 30배 상한에 걸려 그 후보를 뺀 나머지 두 후보 평균 ${usd(pm.fairPrice)}이 적정가예요. 상한 포함 A안 ${usd(pm.fairPriceUpper)}은 참고값(이력에 함께 기록).</div>`
+        : `<div class="sub" style="margin-top:6px;">참고: 성장률 상한 제외 시 적정가 ${usd(diag.fairAltExCappedGrowth)}${typeof diag.fairAltGapPct==='number' ? ` (A안 대비 ${diag.fairAltGapPct>=0?'+':''}${diag.fairAltGapPct.toFixed(1)}%)` : ''} — ${pm.fairBasisMode === 'a_kept_b_higher' ? '상한 제외 값이 더 높아 A안을 유지했어요(낮은 쪽 적용 규칙)' : pm.fairBasisMode === 'a_kept_two_candidates' ? '상한 제외 시 후보가 1개뿐이라 A안을 유지했어요' : pm.fairBasisMode === 'a_kept_capped_not_used' ? '상한 후보가 중앙값이 아니라 적정가에 안 쓰였어요(A안 그대로)' : '성장률(PEG) 후보가 30배 상한에 걸려 있어 그 후보만 뺀 참고값, 판정에는 반영 안 됨'}</div>`)
     : '';
   const changesHtml = (pm.recentChanges && pm.recentChanges.length)
     ? `<ul style="margin:6px 0 0 18px;">${pm.recentChanges.map(ch=>{
@@ -15461,8 +15538,8 @@ function tabPriceMap(r){
   <div class="comment-box" style="background:var(--panel-2);">
     <div class="sub">가격 지도(price_map) — 142 판단 엔진(01 판단 탭)과 <b>완전히 독립적으로</b> 산출된 참고 가격표예요. 서로 다른 판정이면 그대로 둘 다 보여드려요.</div>
     ${PRICE_MAP_DRAFT_REVIEW_NOTICE ? '<div class="sub" style="margin-top:4px;color:#876000;font-weight:700;">⏳ 초안 · 검토 중(10/23 확정 예정) — 지금 보이는 숫자·판정은 확정본이 아니라 검토용 초안입니다.</div>' : ''}
-    <div style="font-size:22px;font-weight:800;margin:6px 0 2px;color:${PM_VERDICT_COLOR[pd.verdict]||'#3c4552'};">${esc(pd.verdict)} · ${esc(pd.action)}${pd.cashflowVeto ? PM_CF_BADGE : ''}</div>
-    ${pd.actionCapReason ? `<div class="sub" style="color:#b3261e;">현금흐름 거부권이 발동해 가격은 "${esc(pd.actionRaw)}" 구간이지만 행동은 "${esc(pd.action)}"까지로 제한했어요(가격 판정은 그대로).</div>` : ''}
+    <div style="font-size:22px;font-weight:800;margin:6px 0 2px;color:${PM_VERDICT_COLOR[pd.verdict]||'#3c4552'};">${esc(pd.verdict)} · ${esc(pd.action)}${pmBadges(pm, pd)}</div>
+    ${pd.actionCapReason ? `<div class="sub" style="color:#b3261e;">${pd.actionCapReason === 'low_confidence_cap' ? '신뢰도 낮음(적정가 후보 괴리 ±40% 밖)이라' : '현금흐름 거부권이 발동해'} 가격은 "${esc(pd.actionRaw)}" 구간이지만 행동은 "${esc(pd.action)}"까지로 제한했어요(가격 판정은 그대로).</div>` : ''}
     <div>현재가 <b>${usd(pd.displayPrice)}</b>${pd.priceIsLive?'':` <span class="sub">(${esc(pmFallbackPriceTxt(pm))})</span>`} · 중심 적정가 <b>${usd(pm.fairPrice)}</b>(현재가/적정가 ${(pd.ratio*100).toFixed(0)}%) · 신뢰도 <b>${esc(pm.confidence)}</b></div>
     <div class="sub">가격: ${esc(pd.priceIsLive ? priceTimingLabel(r) : pmFallbackPriceTxt(pm))} / 적정가: ${esc(pmCalcBasisTxt(pm))}</div>
     ${buildPriceMapBarHtml(pm, pd)}
