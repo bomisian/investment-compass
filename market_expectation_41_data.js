@@ -557,11 +557,11 @@ const MARKET_EXPECTATION_41 = {
       "stale_consensus_warning": false,
       "price_as_of_mismatch": false,
       "composite_hidden": false,
-      "composite_internal_ref": 0.3,
+      "composite_internal_ref": 0.4857,
       "support_summary": [
-        "Q4 FY26 매출 $3,658M, +15.2% YoY; FY26 연간 $13,579M, +11.7% YoY",
         "FY26 연간 GAAP 순이익 $4,831M, +18.9% YoY(GAAP EPS $3.66, +20.4%); 매출총이익률 61.3%",
-        "Backlog $7.86B(2025-06-30)→$12.57B(2026-06-30)로 +60% 급증(10-K, \"강한 AI 인프라 빌드아웃 수요\" 명시); 이연 시스템매출 +14.2% YoY"
+        "Backlog $7.86B(2025-06-30)→$12.57B(2026-06-30)로 +60% 급증(10-K, \"강한 AI 인프라 빌드아웃 수요\" 명시); 이연 시스템매출 +14.2% YoY",
+        "[자동] Q3'26 매출 $4.14B, 전년 동기 대비 +28.9%"
       ],
       "caution_summary": [
         "순부채가 FY25 순현금 약 $1.39B(현금+시장성증권 $4.49B - 장기채무 $5.88B = -$1.39B, 즉 net cash)에서 FY26 순부채 약 $985M(현금+시장성증권 $4.90B - 장기채무 $5.89B)로 전환 — 약 $2.4B 규모의 순현금→순부채 전환",
@@ -574,8 +574,8 @@ const MARKET_EXPECTATION_41 = {
         "순부채 전환이 일회성 자본환원 때문인지 구조적 변화인지 다음 분기로 확인",
         "중국 매출 비중이 추가로 하락하거나 안정화되는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 1건(2026-06-30 분기)",
-      "evidence_auto_count": 1,
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 3건(2026-09-30 분기)",
+      "evidence_auto_count": 3,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
       "primary_etf": "SMH",
@@ -750,9 +750,9 @@ const MARKET_EXPECTATION_41 = {
       "composite_hidden": false,
       "composite_internal_ref": 0.7723,
       "support_summary": [
-        "Q4 FY2026 매출 $3,629M, +48.5% YoY; FY2026 연간 $12,195M, +34.1% YoY",
-        "FY2026 연간 GAAP 영업이익 $4,094M, +117% YoY(마진 33.6%, 전년 20.8%, +12.8%p)",
-        "FY2026 연간 OCF $3,674M, +239% YoY; FCF $3,105M, +279% YoY"
+        "[자동] Q4'26 매출 $4.23B, 전년 동기 대비 +61.0%",
+        "[자동] Q4'26 영업이익 $2.06B, 전년 동기 대비 +197.4%",
+        "[자동] Q4'26 잉여현금흐름 $1.48B, 전년 동기 대비 +246.4%"
       ],
       "caution_summary": [
         "2026-10-02 Toshiba가 필리핀 HDD 생산능력을 2배로 확대, 중기 시장점유율 목표 약 30%(용량 기준) 발표 — STX 주가 2026-10-02~10-06 누적 약 -10~14% 하락"
@@ -764,8 +764,8 @@ const MARKET_EXPECTATION_41 = {
         "BIS settlement agreement의 세부 조건이 공식 문서로 확인되는 경우",
         "Toshiba 생산능력 확대가 실제 양산·출하로 이어지는 시점(통상 1~2년 소요) 추적"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
-      "evidence_auto_count": 0,
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 4건(2026-10-02 분기)",
+      "evidence_auto_count": 4,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
       "primary_etf": "SMH",

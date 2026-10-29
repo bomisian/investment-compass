@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793307659.650965,
+  "generatedAt": 1793308420.2060378,
   "events": [
     {
       "id": "2d73959fba5564e39cb4",
@@ -5968,7 +5968,7 @@ const EVENT_DATA = {
               "variancePct": 16.35,
               "actualEndDate": "2026-01-02",
               "source": "SEC Company Facts",
-              "settledAt": 1793307626.969193,
+              "settledAt": 1793308413.4169893,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -5988,7 +5988,7 @@ const EVENT_DATA = {
               "variancePct": 29.35,
               "actualEndDate": "2026-04-03",
               "source": "SEC Company Facts",
-              "settledAt": 1793307626.969193,
+              "settledAt": 1793308413.4169893,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -6008,7 +6008,7 @@ const EVENT_DATA = {
               "variancePct": 12.06,
               "actualEndDate": "2026-07-03",
               "source": "SEC Company Facts",
-              "settledAt": 1793307626.969193,
+              "settledAt": 1793308413.4169893,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -6445,7 +6445,7 @@ const EVENT_DATA = {
               "variancePct": -72.63,
               "actualEndDate": "2026-09-30",
               "source": "SEC Company Facts",
-              "settledAt": 1793307626.969193,
+              "settledAt": 1793308413.4169893,
               "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
             }
           },
@@ -7918,7 +7918,7 @@ const EVENT_DATA = {
               "variancePct": 2.31,
               "actualEndDate": "2026-06-30",
               "source": "SEC Company Facts",
-              "settledAt": 1793307626.969193,
+              "settledAt": 1793308413.4169893,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -7927,7 +7927,20 @@ const EVENT_DATA = {
             "targetPeriod": "first quarter 2027",
             "status": "available",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000024/exhibit991earningsrelease7.htm",
-            "outcome": null
+            "outcome": {
+              "status": "met",
+              "metric": "revenue",
+              "period": "Q3'26",
+              "actual": 4.136,
+              "low": 3.8,
+              "high": 4.2,
+              "unit": "billion",
+              "variancePct": 3.4,
+              "actualEndDate": "2026-09-30",
+              "source": "SEC Company Facts",
+              "settledAt": 1793308413.4169893,
+              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+            }
           },
           {
             "filingDate": "2026-10-28",
@@ -8133,7 +8146,7 @@ const EVENT_DATA = {
               "variancePct": -72.69,
               "actualEndDate": "2025-09-30",
               "source": "SEC Company Facts",
-              "settledAt": 1793307626.969193,
+              "settledAt": 1793308413.4169893,
               "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
             }
           },
@@ -8153,7 +8166,7 @@ const EVENT_DATA = {
               "variancePct": -69.98,
               "actualEndDate": "2025-12-31",
               "source": "SEC Company Facts",
-              "settledAt": 1793307626.969193,
+              "settledAt": 1793308413.4169893,
               "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
             }
           },
@@ -8173,7 +8186,7 @@ const EVENT_DATA = {
               "variancePct": -79.01,
               "actualEndDate": "2026-03-31",
               "source": "SEC Company Facts",
-              "settledAt": 1793307626.969193,
+              "settledAt": 1793308413.4169893,
               "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
             }
           },
@@ -8193,7 +8206,7 @@ const EVENT_DATA = {
               "variancePct": -75.32,
               "actualEndDate": "2026-06-30",
               "source": "SEC Company Facts",
-              "settledAt": 1793307626.969193,
+              "settledAt": 1793308413.4169893,
               "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
             }
           },
@@ -9223,7 +9236,7 @@ const EVENT_DATA = {
               "variancePct": 5.16,
               "actualEndDate": "2025-10-03",
               "source": "SEC Company Facts",
-              "settledAt": 1793307626.969193,
+              "settledAt": 1793308413.4169893,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -9243,7 +9256,7 @@ const EVENT_DATA = {
               "variancePct": 4.63,
               "actualEndDate": "2026-01-02",
               "source": "SEC Company Facts",
-              "settledAt": 1793307626.969193,
+              "settledAt": 1793308413.4169893,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -9263,7 +9276,7 @@ const EVENT_DATA = {
               "variancePct": 7.31,
               "actualEndDate": "2026-04-03",
               "source": "SEC Company Facts",
-              "settledAt": 1793307626.969193,
+              "settledAt": 1793308413.4169893,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -9283,7 +9296,7 @@ const EVENT_DATA = {
               "variancePct": 5.19,
               "actualEndDate": "2026-07-03",
               "source": "SEC Company Facts",
-              "settledAt": 1793307626.969193,
+              "settledAt": 1793308413.4169893,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -9292,7 +9305,20 @@ const EVENT_DATA = {
             "targetPeriod": "first quarter 2027",
             "status": "available",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000153/stxq42026pressreleasefinan.htm",
-            "outcome": null
+            "outcome": {
+              "status": "above_high",
+              "metric": "revenue",
+              "period": "Q4'26",
+              "actual": 4.233,
+              "low": 4.0,
+              "high": 4.2,
+              "unit": "billion",
+              "variancePct": 3.24,
+              "actualEndDate": "2026-10-02",
+              "source": "SEC Company Facts",
+              "settledAt": 1793308413.4169893,
+              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+            }
           },
           {
             "filingDate": "2026-10-27",
@@ -10908,7 +10934,7 @@ const EVENT_DATA = {
               "variancePct": 2.38,
               "actualEndDate": "2026-03-31",
               "source": "SEC Company Facts",
-              "settledAt": 1793307626.969193,
+              "settledAt": 1793308413.4169893,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -10928,7 +10954,7 @@ const EVENT_DATA = {
               "variancePct": 2.19,
               "actualEndDate": "2026-06-30",
               "source": "SEC Company Facts",
-              "settledAt": 1793307626.969193,
+              "settledAt": 1793308413.4169893,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -10948,7 +10974,7 @@ const EVENT_DATA = {
               "variancePct": 3.36,
               "actualEndDate": "2026-09-30",
               "source": "SEC Company Facts",
-              "settledAt": 1793307626.969193,
+              "settledAt": 1793308413.4169893,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -11608,7 +11634,9 @@ const EVENT_DATA = {
         "collectedAt": 1793307626.969193
       },
       "confirmedFacts": [
-        "VST가 2026-10-05에 SEC Form 8-K을 제출했습니다."
+        "VST가 2026-10-05에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 중요 계약 체결·변경 · 재무제표·첨부자료",
+        "원문에서 관련 표현이 확인된 주제: 계약·수주"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -11618,7 +11646,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -11671,7 +11699,8 @@ const EVENT_DATA = {
         "collectedAt": 1793307626.969193
       },
       "confirmedFacts": [
-        "ETN가 2026-10-05에 SEC Form 8-K을 제출했습니다."
+        "ETN가 2026-10-05에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 임원·이사 변경 또는 보상"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -11681,7 +11710,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -11707,14 +11736,14 @@ const EVENT_DATA = {
     {
       "id": "57e748ea4345c1a44426",
       "schemaVersion": 1,
-      "eventType": "official_filing",
-      "eventLabel": "중요사항 공시",
+      "eventType": "earnings_result",
+      "eventLabel": "실적·재무 공식 공시",
       "primaryTicker": "TSLA",
       "relatedTickers": [
         "TSLA"
       ],
       "relatedEntities": [],
-      "importance": "medium",
+      "importance": "high",
       "sourceReliability": {
         "level": "high",
         "score": 100,
@@ -11734,23 +11763,26 @@ const EVENT_DATA = {
         "collectedAt": 1793307626.969193
       },
       "confirmedFacts": [
-        "TSLA가 2026-10-02에 SEC Form 8-K을 제출했습니다."
+        "TSLA가 2026-10-02에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 재무제표·첨부자료",
+        "SEC Company Facts Q3'26: 매출 $28.05B · 영업이익 $0.72B · 순이익 $0.79B"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다.",
+        "Finnhub 시장 EPS 컨센서스 대비 예상 상회: 실제 0.48 / 예상 0.4358 (+10.14%). SEC 공식 수치와는 별도 출처입니다."
       ],
       "aiInference": [
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
       ],
       "beginnerExplanation": [
-        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+        "회사가 실적을 SEC에 공식 제출했습니다. 매출·영업이익·순이익은 SEC 검증 수치를 우선하고, EPS 예상 상회·하회는 별도 시장 컨센서스와 비교합니다."
       ],
       "whyItMatters": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다."
       ],
       "impacts": [
         {
@@ -11761,11 +11793,47 @@ const EVENT_DATA = {
         }
       ],
       "watch": [
-        "공시 Item 번호와 첨부자료",
-        "계약·재무·임원 변화의 실제 내용",
-        "다음 실적과 현금흐름 영향"
+        "매출·영업이익·순이익의 전년 대비 변화",
+        "현재 가이던스와 다음 분기 실제 결과",
+        "일회성 손익·OCF·FCF"
       ],
-      "earningsEvidence": null
+      "earningsEvidence": {
+        "version": 8,
+        "analyzedAt": 1793308413.4169893,
+        "officialActuals": {
+          "status": "available",
+          "source": "SEC Company Facts",
+          "period": "Q3'26",
+          "endDate": "2026-09-30",
+          "metrics": {
+            "revenue": 28046000000.0,
+            "opIncome": 718000000,
+            "netIncome": 787000000.0
+          }
+        },
+        "guidance": {
+          "status": "unavailable",
+          "metrics": [],
+          "targetPeriod": "q3 2026",
+          "comparison": "no_prior_guidance"
+        },
+        "consensusComparison": {
+          "status": "available",
+          "source": "Finnhub earnings consensus",
+          "metric": "eps",
+          "actual": 0.48,
+          "estimate": 0.4358,
+          "providerPeriod": "2026-09-30",
+          "label": "beat",
+          "surprisePct": 10.14,
+          "notice": "시장 데이터 제공자의 최근 EPS 컨센서스입니다. SEC 공식 숫자와 출처가 다르며 제공자 회계기간 표기가 공시일과 다를 수 있습니다."
+        },
+        "notice": "확인된 사실(SEC)과 시장 컨센서스(Finnhub)를 분리했습니다. 이전 공식 가이던스가 없으면 상향·하향으로 판정하지 않습니다.",
+        "exhibit": {
+          "status": "available",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026064366/exhibit991111111.htm"
+        }
+      }
     },
     {
       "id": "59096d92cb5dccdbbfb7",
@@ -11797,7 +11865,8 @@ const EVENT_DATA = {
         "collectedAt": 1793307626.969193
       },
       "confirmedFacts": [
-        "QCOM가 2026-10-02에 SEC Form S-3을 제출했습니다."
+        "QCOM가 2026-10-02에 SEC Form S-3을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -11807,7 +11876,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
@@ -11860,7 +11929,9 @@ const EVENT_DATA = {
         "collectedAt": 1793307626.969193
       },
       "confirmedFacts": [
-        "MOD가 2026-10-01에 SEC Form 8-K을 제출했습니다."
+        "MOD가 2026-10-01에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 중요 계약 체결·변경 · 임원·이사 변경 또는 보상 · 규정 FD 공개 · 기타 중요 사건 · 재무제표·첨부자료",
+        "원문에서 관련 표현이 확인된 주제: 계약·수주 · 자금조달·증권발행 · 인수·매각"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -11870,7 +11941,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -11896,14 +11967,14 @@ const EVENT_DATA = {
     {
       "id": "2d3c9abfdf5f90da538c",
       "schemaVersion": 1,
-      "eventType": "official_filing",
-      "eventLabel": "중요사항 공시",
+      "eventType": "earnings_result",
+      "eventLabel": "EPS",
       "primaryTicker": "MU",
       "relatedTickers": [
         "MU"
       ],
       "relatedEntities": [],
-      "importance": "medium",
+      "importance": "high",
       "sourceReliability": {
         "level": "high",
         "score": 100,
@@ -11923,23 +11994,27 @@ const EVENT_DATA = {
         "collectedAt": 1793307626.969193
       },
       "confirmedFacts": [
-        "MU가 2026-09-30에 SEC Form 8-K을 제출했습니다."
+        "MU가 2026-09-30에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 재무제표·첨부자료",
+        "SEC Company Facts Q3'26: 매출 $54.23B · 영업이익 $43.75B · 순이익 $37.70B"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다.",
+        "Finnhub 시장 EPS 컨센서스 대비 예상 상회: 실제 33.42 / 예상 32.5625 (+2.63%). SEC 공식 수치와는 별도 출처입니다."
       ],
       "aiInference": [
-        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다.",
+        "공식 첨부자료에서 현재 가이던스를 확인해 기준점 1회를 저장했습니다. 같은 대상기간의 이전 공식 가이던스가 없어 아직 상향·유지·하향으로 판정하지 않았습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
       ],
       "beginnerExplanation": [
-        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+        "회사가 실적을 SEC에 공식 제출했습니다. 매출·영업이익·순이익은 SEC 검증 수치를 우선하고, EPS 예상 상회·하회는 별도 시장 컨센서스와 비교합니다."
       ],
       "whyItMatters": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다."
       ],
       "impacts": [
         {
@@ -11950,11 +12025,68 @@ const EVENT_DATA = {
         }
       ],
       "watch": [
-        "공시 Item 번호와 첨부자료",
-        "계약·재무·임원 변화의 실제 내용",
-        "다음 실적과 현금흐름 영향"
+        "매출·영업이익·순이익의 전년 대비 변화",
+        "현재 가이던스와 다음 분기 실제 결과",
+        "일회성 손익·OCF·FCF"
       ],
-      "earningsEvidence": null
+      "earningsEvidence": {
+        "version": 8,
+        "analyzedAt": 1793308413.4169893,
+        "officialActuals": {
+          "status": "available",
+          "source": "SEC Company Facts",
+          "period": "Q3'26",
+          "endDate": "2026-09-03",
+          "metrics": {
+            "revenue": 54229000000.0,
+            "opIncome": 43751000000.0,
+            "netIncome": 37701000000.0
+          }
+        },
+        "guidance": {
+          "status": "available",
+          "metrics": [
+            {
+              "metric": "eps",
+              "value": 37.84,
+              "unit": "USD/share",
+              "basis": "single_point_gaap_or_unspecified"
+            }
+          ],
+          "targetPeriod": "first quarter 2027",
+          "comparison": "no_prior_guidance"
+        },
+        "consensusComparison": {
+          "status": "available",
+          "source": "Finnhub earnings consensus",
+          "metric": "eps",
+          "actual": 33.42,
+          "estimate": 32.5625,
+          "providerPeriod": "2026-09-30",
+          "label": "beat",
+          "surprisePct": 2.63,
+          "notice": "시장 데이터 제공자의 최근 EPS 컨센서스입니다. SEC 공식 숫자와 출처가 다르며 제공자 회계기간 표기가 공시일과 다를 수 있습니다."
+        },
+        "notice": "확인된 사실(SEC)과 시장 컨센서스(Finnhub)를 분리했습니다. 이전 공식 가이던스가 없으면 상향·하향으로 판정하지 않습니다.",
+        "exhibit": {
+          "status": "available",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/a2026q4ex991-pressrelease.htm"
+        },
+        "guidanceComparison": {
+          "status": "unavailable",
+          "reason": "같은 대상기간의 이전 공식 가이던스 없음"
+        },
+        "guidanceHistory": [
+          {
+            "filingDate": "2026-09-30",
+            "targetPeriod": "first quarter 2027",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/a2026q4ex991-pressrelease.htm",
+            "outcome": null
+          }
+        ],
+        "guidanceOutcome": null
+      }
     },
     {
       "id": "b176ec0c38924e67a9a4",
@@ -11986,7 +12118,9 @@ const EVENT_DATA = {
         "collectedAt": 1793307626.969193
       },
       "confirmedFacts": [
-        "TSLA가 2026-09-29에 SEC Form 8-K을 제출했습니다."
+        "TSLA가 2026-09-29에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 중요 계약 체결·변경 · 중요 계약 종료 · 재무제표·첨부자료",
+        "원문에서 관련 표현이 확인된 주제: 계약·수주"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -11996,7 +12130,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -12022,8 +12156,8 @@ const EVENT_DATA = {
     {
       "id": "bc01904ab27d12e9a01e",
       "schemaVersion": 1,
-      "eventType": "official_filing",
-      "eventLabel": "중요사항 공시",
+      "eventType": "dilution_warrant",
+      "eventLabel": "증권등록·투자설명서 제출",
       "primaryTicker": "AMD",
       "relatedTickers": [
         "AMD"
@@ -12049,23 +12183,25 @@ const EVENT_DATA = {
         "collectedAt": 1793307626.969193
       },
       "confirmedFacts": [
-        "AMD가 2026-09-28에 SEC Form 8-K을 제출했습니다."
+        "AMD가 2026-09-28에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 미등록 증권 발행·매각",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행 · 인수·매각"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
       ],
       "aiInference": [
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
-        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+        "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
       ],
       "whyItMatters": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
       ],
       "impacts": [
         {
@@ -12076,9 +12212,9 @@ const EVENT_DATA = {
         }
       ],
       "watch": [
-        "공시 Item 번호와 첨부자료",
-        "계약·재무·임원 변화의 실제 내용",
-        "다음 실적과 현금흐름 영향"
+        "실제 발행 여부와 주식 수",
+        "발행가격·워런트·전환 조건",
+        "조달 자금 사용처와 완전희석 EPS"
       ],
       "earningsEvidence": null
     },
@@ -12112,7 +12248,8 @@ const EVENT_DATA = {
         "collectedAt": 1793307626.969193
       },
       "confirmedFacts": [
-        "MRVL가 2026-09-25에 SEC Form 8-K을 제출했습니다."
+        "MRVL가 2026-09-25에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 기타 중요 사건 · 재무제표·첨부자료"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -12122,7 +12259,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -12175,7 +12312,8 @@ const EVENT_DATA = {
         "collectedAt": 1793307626.969193
       },
       "confirmedFacts": [
-        "TSM가 2026-09-24에 SEC Form 6-K을 제출했습니다."
+        "TSM가 2026-09-24에 SEC Form 6-K을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 인수·매각"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -12185,7 +12323,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -12238,7 +12376,9 @@ const EVENT_DATA = {
         "collectedAt": 1793307626.969193
       },
       "confirmedFacts": [
-        "VST가 2026-09-24에 SEC Form 8-K을 제출했습니다."
+        "VST가 2026-09-24에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 중요 계약 체결·변경 · 기타 중요 사건 · 재무제표·첨부자료",
+        "원문에서 관련 표현이 확인된 주제: 계약·수주 · 자금조달·증권발행"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -12248,7 +12388,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -12301,7 +12441,9 @@ const EVENT_DATA = {
         "collectedAt": 1793307626.969193
       },
       "confirmedFacts": [
-        "VRT가 2026-09-24에 SEC Form 8-K을 제출했습니다."
+        "VRT가 2026-09-24에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 규정 FD 공개 · 재무제표·첨부자료",
+        "원문에서 관련 표현이 확인된 주제: 계약·수주 · 인수·매각"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -12311,7 +12453,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -12364,7 +12506,8 @@ const EVENT_DATA = {
         "collectedAt": 1793307626.969193
       },
       "confirmedFacts": [
-        "AVGO가 2026-09-18에 SEC Form 424B3을 제출했습니다."
+        "AVGO가 2026-09-18에 SEC Form 424B3을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -12374,7 +12517,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
@@ -12490,7 +12633,9 @@ const EVENT_DATA = {
         "collectedAt": 1793307626.969193
       },
       "confirmedFacts": [
-        "CRM가 2026-09-17에 SEC Form 8-K을 제출했습니다."
+        "CRM가 2026-09-17에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 규정 FD 공개 · 재무제표·첨부자료",
+        "원문에서 관련 표현이 확인된 주제: 가이던스·전망 · 구조조정·감원"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -12500,7 +12645,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -12553,7 +12698,9 @@ const EVENT_DATA = {
         "collectedAt": 1793307626.969193
       },
       "confirmedFacts": [
-        "MOD가 2026-09-17에 SEC Form 8-K을 제출했습니다."
+        "MOD가 2026-09-17에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 규정 FD 공개 · 재무제표·첨부자료",
+        "원문에서 관련 표현이 확인된 주제: 인수·매각"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -12563,7 +12710,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -12616,7 +12763,8 @@ const EVENT_DATA = {
         "collectedAt": 1793307626.969193
       },
       "confirmedFacts": [
-        "SNDK가 2026-09-16에 SEC Form 8-K을 제출했습니다."
+        "SNDK가 2026-09-16에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 임원·이사 변경 또는 보상"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -12626,7 +12774,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -12679,7 +12827,8 @@ const EVENT_DATA = {
         "collectedAt": 1793307626.969193
       },
       "confirmedFacts": [
-        "PWR가 2026-09-15에 SEC Form 8-K을 제출했습니다."
+        "PWR가 2026-09-15에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 임원·이사 변경 또는 보상 · 규정 FD 공개 · 재무제표·첨부자료"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -12689,7 +12838,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
