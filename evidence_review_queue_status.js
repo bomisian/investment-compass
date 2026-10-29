@@ -69,6 +69,27 @@ const EVIDENCE_REVIEW_QUEUE_STATUS = {
     "filingDate": "2026-10-28",
     "level": "ok",
     "confidenceLevel": "confirmed"
+  },
+  "MSFT": {
+    "pendingDays": 1,
+    "form": "10-Q",
+    "filingDate": "2026-10-28",
+    "level": "ok",
+    "confidenceLevel": "confirmed"
+  },
+  "GOOGL": {
+    "pendingDays": 1,
+    "form": "8-K",
+    "filingDate": "2026-10-28",
+    "level": "ok",
+    "confidenceLevel": "confirmed"
+  },
+  "KLAC": {
+    "pendingDays": 1,
+    "form": "8-K",
+    "filingDate": "2026-10-28",
+    "level": "numbers_reflected",
+    "confidenceLevel": "confirmed"
   }
 };
 const EVIDENCE_RESULTS_PERIOD = {
