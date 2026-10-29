@@ -796,14 +796,14 @@ const MARKET_EXPECTATION_41 = {
       "stale_consensus_warning": false,
       "price_as_of_mismatch": false,
       "composite_hidden": false,
-      "composite_internal_ref": 0.8667,
+      "composite_internal_ref": 0.6667,
       "support_summary": [
-        "총매출 $90.0B, YoY +18%",
-        "GAAP 영업이익 $40.6B, YoY +18%, 영업마진 45.1%",
-        "CAPEX $35.8B, YoY +110% -- AI/클라우드 데이터센터 확장 투자"
+        "상업용 RPO $678B, YoY +84%; Microsoft Cloud $59.3B(+27%); Azure 연매출 최초 $100B 돌파",
+        "[자동] Q3'26 매출 $92.28B, 전년 동기 대비 +18.8%",
+        "[자동] Q3'26 영업이익 $45.91B, 전년 동기 대비 +21.0%"
       ],
       "caution_summary": [
-        "이번 증거셋에서는 반대방향 A/B급 증거 없음(현금전환 축의 counter_evidence에 \"CAPEX 증가율(110%)이 OCF 증가율(30%)을 크게 앞질러 현금전환 질 저하\"를 기록해둠 — 참고용)"
+        "[자동] Q3'26 잉여현금흐름 $18.63B, 전년 동기 대비 -27.4%"
       ],
       "next_change_condition": [
         "지지 근거 중 하나라도 공식적으로 철회·악화되거나, 구조위험 조건이 나오면 결론이 바뀐다.",
@@ -812,8 +812,8 @@ const MARKET_EXPECTATION_41 = {
         "Azure/클라우드 성장률이 둔화되는 경우",
         "목표가 상향/하향 비율, EPS 수정추세 확보 시"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
-      "evidence_auto_count": 0,
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 4건(2026-09-30 분기)",
+      "evidence_auto_count": 4,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
       "primary_etf": "XLK",
@@ -1622,11 +1622,11 @@ const MARKET_EXPECTATION_41 = {
       "stale_consensus_warning": false,
       "price_as_of_mismatch": false,
       "composite_hidden": false,
-      "composite_internal_ref": 0.7,
+      "composite_internal_ref": 0.9,
       "support_summary": [
-        "Q2 2026 순매출 $3,274M, +24% YoY(유기 +18%, 인수 +5%, FX +1%)",
-        "영업이익 $638M(+44% YoY), 조정영업마진 22.6%(+410bp YoY), 순이익 $498M(+53% YoY)",
-        "H1 2026 OCF $1,867M(+198% YoY)"
+        "2025-12-31 기준 백로그 $15.0B(+109% YoY), Q4 2025 유기적 수주 +252% YoY, book-to-bill 약 2.9x",
+        "[자동] Q3'26 매출 $4.31B, 전년 동기 대비 +61.2%",
+        "[자동] Q3'26 영업이익 $0.98B, 전년 동기 대비 +90.4%"
       ],
       "caution_summary": [
         "H1 2026 재고 +$1,066M, 매출채권 +$641M 증가(YE2025 대비); 이연수익(선수금) +$1,819M"
@@ -1638,8 +1638,8 @@ const MARKET_EXPECTATION_41 = {
         "운전자본 증가 추세가 완화되는지 확인",
         "마진 개선(+410bp)이 다음 분기에도 유지되는지(일시적 타이밍 효과였는지) 확인"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
-      "evidence_auto_count": 0,
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 4건(2026-09-30 분기)",
+      "evidence_auto_count": 4,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
       "primary_etf": "XLI",
