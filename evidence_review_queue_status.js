@@ -1,108 +1,108 @@
 // earnings_evidence_watch.py가 자동 생성 - 직접 수정하지 마세요.
 const EVIDENCE_REVIEW_QUEUE_STATUS = {
   "META": {
-    "pendingDays": 7,
+    "pendingDays": 8,
     "form": "10-Q",
     "filingDate": "2026-10-22",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "TSLA": {
-    "pendingDays": 7,
+    "pendingDays": 8,
     "form": "10-Q",
     "filingDate": "2026-10-22",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "LRCX": {
-    "pendingDays": 7,
+    "pendingDays": 8,
     "form": "10-Q",
     "filingDate": "2026-10-22",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "WDC": {
-    "pendingDays": 6,
+    "pendingDays": 7,
     "form": "10-Q",
     "filingDate": "2026-10-23",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "FIX": {
-    "pendingDays": 7,
+    "pendingDays": 8,
     "form": "10-Q",
     "filingDate": "2026-10-22",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "BE": {
-    "pendingDays": 7,
+    "pendingDays": 8,
     "form": "10-Q",
     "filingDate": "2026-10-22",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "HUBB": {
-    "pendingDays": 2,
+    "pendingDays": 3,
     "form": "8-K",
     "filingDate": "2026-10-27",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "STX": {
-    "pendingDays": 2,
+    "pendingDays": 3,
     "form": "8-K",
     "filingDate": "2026-10-27",
-    "level": "ok",
+    "level": "warn",
     "confidenceLevel": "confirmed"
   },
   "GEV": {
-    "pendingDays": 1,
+    "pendingDays": 2,
     "form": "10-Q",
     "filingDate": "2026-10-28",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "VRT": {
-    "pendingDays": 1,
+    "pendingDays": 2,
     "form": "8-K",
     "filingDate": "2026-10-28",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "MSFT": {
-    "pendingDays": 1,
+    "pendingDays": 2,
     "form": "10-Q",
     "filingDate": "2026-10-28",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "GOOGL": {
-    "pendingDays": 1,
+    "pendingDays": 2,
     "form": "8-K",
     "filingDate": "2026-10-28",
-    "level": "ok",
+    "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "KLAC": {
-    "pendingDays": 1,
+    "pendingDays": 2,
     "form": "8-K",
     "filingDate": "2026-10-28",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "PWR": {
-    "pendingDays": 0,
+    "pendingDays": 1,
     "form": "10-Q",
     "filingDate": "2026-10-29",
-    "level": "ok",
+    "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "EME": {
-    "pendingDays": 0,
+    "pendingDays": 1,
     "form": "8-K",
     "filingDate": "2026-10-29",
-    "level": "ok",
+    "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   }
 };
