@@ -3591,7 +3591,8 @@ function pmFairBasisLine(pm){
     if(c === 'sector_per' && pm.sectorPeerDisplay && pm.sectorPeerDisplay.note) return String(pm.sectorPeerDisplay.note).replace(/^업종 비교 불가\(정상화 비교군 부족\) - /, '');
     return '계산 안 됨';
   };
-  const parts = ORDER.map(c => byC[c] ? `${SHORT[c]} $${byC[c].fairPrice.toFixed(0)}${c === 'growth_per_peg' && capped ? '(상한)' : ''}` : `${SHORT[c]} 없음`);
+  const EPS_T = b => { const n = pmEpsName(b); return n === '최근 4분기 EPS' ? 'TTM' : (n === '정상화 EPS' ? '정상화' : 'NTM'); };  // [WO32-6]
+  const parts = ORDER.map(c => byC[c] ? `${SHORT[c]} $${byC[c].fairPrice.toFixed(0)}(${EPS_T(byC[c].epsBasis)}${c === 'growth_per_peg' && capped ? '·상한' : ''})` : `${SHORT[c]} 없음`);
   const missTitle = ORDER.filter(c => !byC[c]).map(c => `${PM_CAND_NAME[c]} 없음: ${missReason(c)}`);
   const titleBase = cs.map(desc).concat(missTitle).join(' / ') + '. 적정가 후보 = 배수 × 기준 EPS. 배수 자체(성장률 PER 30배 상한 등)는 12월 점검 대상.';
   if(!ok(pm.fairPrice) || !cs.length){
@@ -3694,6 +3695,15 @@ function pmApplyCashflowCap(pm, pd){
     out.action = dca + a2.slice(aggr.length);
     out.actionCapReason = 'low_confidence_cap';
   }
+  // [WO32-2] model_split(엔진 wo32_research.model_split=on일 때만): 후보 정확히 2개 & min<현재가<max & max/min≥1.5
+  if(pm.wo32 && pm.wo32.modelSplitMode === 'on' && typeof pd.displayPrice === 'number'){
+    const cs = pmFairCandidates(pm).map(c => c.fairPrice).sort((x, y) => x - y);
+    if(cs.length === 2 && cs[0] > 0 && cs[0] < pd.displayPrice && pd.displayPrice < cs[1] && cs[1] / cs[0] >= 1.5){
+      const a3 = String(out.action || ''), tail = a3.indexOf(' · ') >= 0 ? a3.slice(a3.indexOf(' · ')) : '';
+      out.action = '관망(모델 민감도 높음)' + tail;
+      out.actionCapReason = 'model_split';
+    }
+  }
   return out;
 }
 // [WO29] 배지 모음: 현금흐름 경고 / 신뢰도 낮음(cap) / 후보 1개·2개(규칙1에서 A안 유지한 사유). 표시만.
@@ -3704,12 +3714,52 @@ function pmCandBadge(pm){
   const tip = b === '후보 1개' ? '적정가 후보가 상한(30배) 성장률 PER 하나뿐 - A안 그대로, 신뢰도 낮음' : '적정가 후보 2개(상한 성장률 PER 포함) - 상한 제외 시 후보가 1개뿐이라 A안 유지';
   return ` <span style="font-size:10px;font-weight:700;color:#5b6472;background:#eef0f2;border:1px solid #c9ced6;border-radius:5px;padding:0 4px;white-space:nowrap;" title="${tip}">${b}</span>`;
 }
+// [WO32-5] 모델 방향(신뢰도와 별개): 후보가 모두 현재가 위/아래면 "강건", 섞이면 "혼재"
+function pmModelDirection(pm, price){
+  const cs = pmFairCandidates(pm || {});
+  if(!(typeof price === 'number' && isFinite(price)) || !cs.length) return null;
+  const n = cs.length, above = cs.filter(c => c.fairPrice > price).length;
+  if(n < 2) return {txt: `판단 불가 · 후보 ${n}개`, robust: null, above, n};
+  const robust = (above === n || above === 0);
+  return {txt: `${robust ? '강건' : '혼재'} · ${above}/${n} 후보가 현재가 위`, robust, above, n};
+}
+// [WO32-4] 실적 반영 상태(가격·판정 불변): 기간 비교 + 컨센서스가 발표 전 값인지
+function pmFiscalLabel(ticker, ymd){
+  if(!ymd) return '—';
+  const fin = (typeof FINANCIALS_DATA !== 'undefined' && FINANCIALS_DATA) ? FINANCIALS_DATA[ticker] : null;
+  const ann = fin && Array.isArray(fin.annual) ? fin.annual.filter(a => a.endDate) : [];
+  const fyEndM = ann.length ? Number(ann[ann.length - 1].endDate.slice(5, 7)) : 12;
+  const y = Number(ymd.slice(0, 4)), m = Number(ymd.slice(5, 7));
+  const after = ((m - fyEndM) % 12 + 12) % 12;          // 회계연도말 이후 몇 달째(0 = 4분기 말)
+  const q = after === 0 ? 4 : Math.ceil(after / 3);
+  const fy = after === 0 ? y : (m > fyEndM ? y + 1 : y);
+  return `FY${String(fy).slice(-2)} Q${q}`;
+}
+function pmEarningsBadges(pm){
+  const es = pm && pm.earningsStatus;
+  if(!es) return null;
+  const t = pm.ticker, out = {};
+  if(es.pendingReflection){
+    const md = es.earningsReleaseDate ? es.earningsReleaseDate.slice(5).replace('-', '/') : '';
+    out.pending = `⚠ 실적 발표됨${md ? ' ' + md : ''} · 가격지도 반영 대기`;
+    out.detail = `최신 공식 ${pmFiscalLabel(t, es.latestOfficialPeriodEnd)} / 가격지도 반영 ${pmFiscalLabel(t, es.valuationActualPeriodEnd)}`;
+  }
+  if(es.consensusPreRelease) out.cons = '⚠ EPS 컨센서스는 실적 발표 전 추정치';
+  return (out.pending || out.cons) ? out : null;
+}
+const PM_EB_STYLE = 'font-size:10px;font-weight:700;color:#876000;background:#fff8ea;border:1px solid #e6d3a3;border-radius:5px;padding:0 4px;white-space:nowrap;';
+function pmEarningsBadgeHtml(pm){
+  const e = pmEarningsBadges(pm); if(!e) return '';
+  return (e.pending ? ` <span style="${PM_EB_STYLE}" title="${esc(e.detail || '')}">${esc(e.pending)}</span>` : '') + (e.cons ? ` <span style="${PM_EB_STYLE}">${esc(e.cons)}</span>` : '');
+}
+const PM_MS_BADGE = ' <span style="font-size:10px;font-weight:700;color:#5b6472;background:#eef0f2;border:1px solid #c9ced6;border-radius:5px;padding:0 4px;white-space:nowrap;" title="적정가 후보가 2개뿐이고 현재가가 두 후보 사이, 두 후보 차이 1.5배 이상 - 모델 민감도가 높아 매수 행동 보류">⚠ 모델 민감도 높음</span>';
 function pmBadges(pm, pd){
-  return (pd && pd.cashflowVeto ? PM_CF_BADGE : '') + (pd && pd.actionCapReason === 'low_confidence_cap' ? PM_LC_BADGE : '') + pmCandBadge(pm);
+  return (pd && pd.cashflowVeto ? PM_CF_BADGE : '') + (pd && pd.actionCapReason === 'low_confidence_cap' ? PM_LC_BADGE : '') + (pd && pd.actionCapReason === 'model_split' ? PM_MS_BADGE : '') + pmCandBadge(pm);
 }
 function pmCapExplain(pd){
   if(!pd || !pd.actionCapReason) return null;
   if(pd.actionCapReason === 'low_confidence_cap') return `신뢰도 낮음(적정가 후보 괴리 ±40% 밖): 가격은 ${pd.actionRaw} 구간이지만 행동은 최대 ${pd.action}까지`;
+  if(pd.actionCapReason === 'model_split') return `모델 민감도 높음(후보 2개 사이에 현재가, 차이 1.5배 이상): 가격은 ${pd.actionRaw} 구간이지만 행동은 관망`;
   return `현금흐름 거부권: 가격은 ${pd.actionRaw} 구간이지만 행동은 최대 ${pd.action}까지`;
 }
 const PM_CF_BADGE = ' <span style="font-size:10px;font-weight:700;color:#b3261e;background:#fdecea;border:1px solid #e9b3a8;border-radius:5px;padding:0 4px;white-space:nowrap;" title="현금흐름 거부권 발동 - 가격이 싸도 행동은 최대 분할매수까지">⚠ 현금흐름 경고</span>';
@@ -3824,6 +3874,8 @@ function buildPriceGlanceTableHtml(ticker, liveR){
     ['현재가', numOk(pd.displayPrice) ? ('$' + pd.displayPrice.toFixed(2) + (pd.priceIsLive ? '' : ` (${pmFallbackPriceTxt(pm)})`)) : '-', null],
     ['적정가', numOk(pm.fairPrice) ? ('$' + pm.fairPrice.toFixed(2) + (pm.fairBasisMode === 'ex_capped_growth_floor_b' && numOk(pm.fairPriceUpper) ? ` (상한 포함 시 $${pm.fairPriceUpper.toFixed(2)})` : '')) : '-', pm.fairBasisMode === 'ex_capped_growth_floor_b' ? 'B안: 30배 상한에 걸린 성장률 PER 후보를 뺀 나머지 두 후보 평균. A안(상한 포함 중앙값)은 참고값' : null],
     ...((() => { const fb = pmFairBasisLine(pm); return fb ? [['적정가 근거', esc(fb.txt), fb.title]] : []; })()),  // [WO23-C8][WO30 3-1]
+    ...((() => { const md = pmModelDirection(pm, pd.displayPrice); return md ? [['모델 방향', esc(md.txt), '신뢰도와 별개 - 적정가 후보들이 현재가 위/아래 어느 쪽에 있는지(모두 같은 쪽이면 강건)']] : []; })()),  // [WO32-5]
+    ...((() => { const eb = pmEarningsBadges(pm); return eb ? [['실적 반영', esc([eb.pending, eb.detail, eb.cons].filter(Boolean).join(' · ')), '가격·판정 불변 - 최신 공식 실적이 가격지도 계산에 아직 안 들어갔는지 표시']] : []; })()),  // [WO32-4]
     ...((() => { const nl = pmNormalizationLine(pm); return nl ? [['정상화 영향', esc(nl.txt), nl.title]] : []; })()),  // [WO30 3-2]
     ['분할매수 시작가', numOk(pm.bandDcaHigh) ? ('$' + pm.bandDcaHigh.toFixed(2)) : '-', null],
     ['적극 모아가기가', numOk(pm.bandAggressiveLe) ? ('$' + pm.bandAggressiveLe.toFixed(2)) : '-', null],
@@ -4018,7 +4070,7 @@ function renderDetailHeader(ticker){
       verdictSpan = `<span class="dh-verdict" style="color:${pmColor};">${pmPos.emoji} ${esc(pmPos.label)}</span>`;
       pricelabelSpan = `<span class="dh-pricelabel" style="color:${pmColor};">· ${esc(actH)}</span>`;
       // [WO31 보완 6] 배지는 둘째 줄(375px에서 잘리지 않게)
-      const hdrBadges = `${pdH.modelCheckNeeded ? '<span style="font-size:10px;font-weight:700;color:#b3261e;">⚠ 모델 점검</span>' : ''}${pmBadges(pmHdr, pdH)}`.trim();
+      const hdrBadges = `${pdH.modelCheckNeeded ? '<span style="font-size:10px;font-weight:700;color:#b3261e;">⚠ 모델 점검</span>' : ''}${pmBadges(pmHdr, pdH)}${pmEarningsBadgeHtml(pmHdr)}`.trim();  // [WO32-4]
       if(hdrBadges) pricelabelSpan += `<span class="dh-badges">${hdrBadges}</span>`;
     } else {
       verdictSpan = `<span class="dh-verdict" style="color:${actionColor};">${esc(act.label)}</span>`;
@@ -4126,7 +4178,7 @@ function v2compass(r){
   const c = pvCompassData(r.ticker); if(!c) return null;
   const deep = typeof c.wait === 'string' && c.wait.indexOf('깊은 낙폭 기준') >= 0;
   if((c.dec === 'BUY' || c.dec === 'ACC') && !deep && pvMa200BreachOR(r)) return {label: '추세 이탈 점검', tone: 'bad'};
-  const label = c.decTxt || COMPASS_DEC_LABEL[c.dec] || c.dec || '—';
+  const label = compassDisplayLabel(c.decTxt || COMPASS_DEC_LABEL[c.dec] || c.dec || '—');
   return {label, tone: c.dec === 'BUY' ? 'good' : c.dec === 'ACC' ? 'warn' : c.dec === 'SELL' ? 'bad' : 'neutral'};
 }
 
@@ -4138,9 +4190,11 @@ function v2Verdict(r, pm, pd){
   const ratioTxt = v2num(pd.ratio) ? `현재가는 적정가의 <b>${(pd.ratio * 100).toFixed(0)}%</b>` : '';
   return `<div style="border-radius:14px;padding:13px 14px;background:var(--panel-2);">
     <div style="font-size:21px;font-weight:800;color:${vColor};line-height:1.3;">${esc(pd.verdict)} · ${esc(pd.action)}${pmBadges(pm, pd)}</div>
-    <div style="margin-top:6px;font-size:13px;">${ratioTxt}${ratioTxt ? ' — ' : ''}${pd.verdict === '고평가' ? '적정가보다 비싸서 새로 사지 않아요' : pd.verdict === '적정' ? '적정가 근처라 기다려요' : '적정가보다 싸서 구간대로 모아요'}</div>
+    <div style="margin-top:6px;font-size:13px;">${ratioTxt}${ratioTxt ? ' — ' : ''}${pd.actionCapReason === 'model_split' ? (pd.verdict === '매수' ? '가격은 적정가보다 싸지만 두 모델 결론이 엇갈려 기다려요' : '적정가 근처이고 두 모델 결론이 엇갈려 기다려요') : pd.verdict === '고평가' ? '적정가보다 비싸서 새로 사지 않아요' : pd.verdict === '적정' ? '적정가 근처라 기다려요' : '적정가보다 싸서 구간대로 모아요'}</div>
     ${v2kv([['현재가', v2usd(pd.displayPrice), esc(pd.priceIsLive ? priceTimingLabel(r) : pmFallbackPriceTxt(pm))], ['적정가', v2usd(pm.fairPrice), upper + esc(pmCalcBasisTxt(pm))], ['신뢰도', esc(pm.confidence || '—'), pd.modelCheckNeeded ? '⚠ 모델 점검 필요' : '']])}
     ${cap ? `<div class="sub" style="margin-top:6px;color:#b3261e;">${esc(cap)}</div>` : ''}
+    ${(() => { const md = pmModelDirection(pm, pd.displayPrice); return md ? `<div class="sub" style="margin-top:4px;">모델 방향: <b>${esc(md.txt)}</b> <span style="font-size:10px;">(신뢰도와 별개)</span></div>` : ''; })()}
+    ${(() => { const eb = pmEarningsBadges(pm); return eb ? `<div class="sub" style="margin-top:4px;color:#876000;">${esc([eb.pending, eb.detail].filter(Boolean).join(' · '))}${eb.cons ? '<br>' + esc(eb.cons) : ''}</div>` : ''; })()}
   </div>`;
 }
 function v2PriceGuide(pm, pd){
@@ -4360,14 +4414,14 @@ function v2Roic(r){
   const inp = x.inputs || {};
   const rfTxt = v2num(rf.value_pct) ? `${rf.value_pct.toFixed(2)}%·${esc(rf.observation_date || '')}${rf.status === 'cached' ? '(수집 실패 - 직전 값)' : ''}` : '—';
   const notes = [];
-  if(last.debt && last.debt.assumed_zero) notes.push('차입금 태그 없음 → 0(무차입으로 봄)');
-  if(inp.interest && String(inp.interest.tag).indexOf('대체') >= 0) notes.push('이자비용: ' + inp.interest.tag);
+  if(x.debt_note || (last.debt && last.debt.assumed_zero)) notes.push(x.debt_note || '차입금 확인 불가 — 0으로 가정');
+  if(inp.interest && /대체|가정/.test(String(inp.interest.tag))) notes.push('이자비용: ' + inp.interest.tag);
   if(inp.E_basis && inp.E_basis.indexOf('시가총액') === 0) notes.push('자기자본 가치: ' + inp.E_basis);
   if(x.currency && x.currency !== 'USD') notes.push(`공시 통화 ${x.currency}(ROIC는 같은 통화끼리, 차입금 비중만 환율 ${v2num(inp.fx_to_usd) ? inp.fx_to_usd : '—'}로 USD 환산)`);
   const body = v2kv([['ROIC(최근)', p(x.roic_latest), x.roic_latest_fy ? 'FY' + x.roic_latest_fy : ''], ['ROIC 3년 평균', p(x.roic_3y_avg), (x.roic_3y_fys || []).map(f => 'FY' + String(f).slice(-2)).join('·')], ['WACC', p(x.wacc), '']]) +
     (x.missing && x.missing.length ? `<div class="sub" style="font-size:10.5px;color:#876000;margin-top:4px;">${x.missing.map(esc).join('<br>')}</div>` : '') +
     v2bars(yrs.map(y => y.roic * 100), yrs.map(y => 'FY' + String(y.fy).slice(-2))) +
-    `<div class="sub" style="font-size:10.5px;line-height:1.5;">ROIC = 세후 영업이익 ÷ (자기자본 + 차입금 − 현금·단기투자), 연말 SEC 연간보고서<br>WACC = 자기자본비용 ${p(x.cost_of_equity)}(10년물 ${rfTxt} + 베타 ${v2num(x.beta && x.beta.value) ? x.beta.value.toFixed(2) : '—'}${x.beta && v2num(x.beta.raw) && x.beta.adjustment === 'blume' ? `(원값 ${x.beta.raw.toFixed(2)}, 2년 주간)` : ''} × 시장위험프리미엄 ${m.equity_risk_premium_pct}%) × ${p(x.weight_equity)}${v2num(x.weight_debt) && x.weight_debt > 0 ? ` + 세후 부채비용 ${p(x.cost_of_debt_aftertax)} × ${p(x.weight_debt)}` : ' (차입금 0)'}<br>베타 = 최근 ${x.beta ? x.beta.weeks : '—'}주 주간 수익률 vs SPY${x.beta && x.beta.adjustment === 'blume' ? ', Blume 조정(0.67×원값+0.33)' : ''} · 현금 기준: ${esc(last.cash ? (last.cash.basis || '') : '—')}${notes.length ? '<br>' + notes.map(esc).join(' · ') : ''} · 참고 값(판정 미사용)</div>`;
+    `<div class="sub" style="font-size:10.5px;line-height:1.5;">ROIC = 세후 영업이익 ÷ (자기자본 + 차입금 − 현금·단기투자), 연말 SEC 연간보고서<br>WACC = 자기자본비용 ${p(x.cost_of_equity)}(10년물 ${rfTxt} + 베타 ${v2num(x.beta && x.beta.value) ? x.beta.value.toFixed(2) : '—'}${x.beta && v2num(x.beta.raw) && (x.beta.adjustment || m.beta_adjustment) === 'blume' ? `(원값 ${x.beta.raw.toFixed(2)}, 2년 주간)` : ''} × 시장위험프리미엄 ${m.equity_risk_premium_pct}%) × ${p(x.weight_equity)}${v2num(x.weight_debt) && x.weight_debt > 0 ? ` + 세후 부채비용 ${p(x.cost_of_debt_aftertax)}${x.cost_of_debt_assumed ? '(' + esc(x.cost_of_debt_assumed) + ')' : ''} × ${p(x.weight_debt)}` : ' (차입금 0)'}<br>베타 = 최근 ${x.beta ? x.beta.weeks : '—'}주 주간 수익률 vs SPY${x.beta && (x.beta.adjustment || m.beta_adjustment) === 'blume' ? ', Blume 조정(0.67×원값+0.33)' : ''} · 현금 기준: ${esc(last.cash ? (last.cash.basis || '') : '—')}${notes.length ? '<br>' + notes.map(esc).join(' · ') : ''} · 참고 값(판정 미사용)</div>`;
   return v2card('', '자본 효율(ROIC·WACC)', badge, body);
 }
 function v2RevDcfCard(rev){
@@ -8900,6 +8954,8 @@ function pvCauseDecomposition(ticker, ddPct){
 
 const COMPASS_DEC_COLOR = { BUY:'#2f5b3c', ACC:'#7a5c00', WAIT:'#5b6472', SELL:'#7a3b2e' };
 const COMPASS_DEC_LABEL = { BUY:'분할 매수 구간', ACC:'모아가기', WAIT:'조정 대기', SELL:'추세 이탈 점검' };
+// [WO32-6] 화면 표시 문자열만 "모아가기" → "조정 구간(나침반)"(가격지도 행동 "적극 모아가기"와 헷갈리지 않게). 피드·저장값·로직 불변.
+function compassDisplayLabel(x){ return x === '모아가기' ? '조정 구간(나침반)' : x; }
 // [2026-10-26 WO24 WO14-3 통일] 200일선 "위/아래" 표시 문구를 화면마다 같은 판단(pvMa200BreachOR: 2거래일 연속
 // 종가 이탈 OR 0.5×ATR(20) 이상 이탈)으로 맞춘다. 표시 전용 - 신호·점수·판정 조건(ma200Pct 부호를 쓰는 계산)은 그대로.
 // [2026-10-26 WO26-E3 외부검토 반영] 하락 원인 문장의 200일선 설명. 예전엔 200일선 "기울기"만 보고 "추세(200일선)는
@@ -8963,7 +9019,7 @@ function renderCompassCard(r){
   if(!c) return '';
   const NEU_BG='#eef0f3', NEU_TEXT='#3c4552', NEU_LINE='#d7dbe1', NEU_DIM='#5b6472';
   let decColor = COMPASS_DEC_COLOR[c.dec] || NEU_TEXT;
-  let decLabel = c.decTxt || COMPASS_DEC_LABEL[c.dec] || c.dec || '—';
+  let decLabel = compassDisplayLabel(c.decTxt || COMPASS_DEC_LABEL[c.dec] || c.dec || '—');
 
   // --- WO-03 item2(수정지시서#01) -- 화면에 표시하는 시점에 현재가·200일선으로 다시
   //     검사한다. 나침반 피드가 ACC/BUY(200일선 위 눌림)라고 판정했어도, 지금 시점

@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793261707.925796,
+  "generatedAt": 1793263902.226214,
   "events": [
     {
       "id": "318da5d0defe22a0588c",
@@ -357,6 +357,81 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
+    },
+    {
+      "id": "d65965f40db6b09c6040",
+      "schemaVersion": 1,
+      "eventType": "analyst_target_change",
+      "eventLabel": "애널리스트 목표주가 변경",
+      "primaryTicker": "AMZN",
+      "relatedTickers": [
+        "AMZN"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Amazon",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Amazon Earnings Preview: Q3 2026",
+      "headlineKo": "Amazon 수익 미리 보기: 2026년 3분기",
+      "source": {
+        "name": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=e483023463c913d9987fd50e7194d3ec431c8605abe1e480a95548e9ab6475ae",
+        "publishedAt": 1793247900,
+        "collectedAt": 1793263865.6627522
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Amazon 수익 미리 보기: 2026년 3분기 | Alpha S&P 글로벌 마켓 인텔리전스 추구 팔로워 63명 팔로우 요약 AI를 지원하기 위한 기술 인프라 투자의 강력한 성장은 지난 한 해 동안 초점이었으며 202년에는 확대될 것으로 예상됩니다.",
+        "2026년에 대한 컨센서스 추정에 따르면 자본 지출은 3,620억 달러에서 7,620억 달러로 두 배 이상 증가할 것으로 예상됩니다.",
+        "2027년에는 지출이 1조 3천억 달러로 더욱 증가하여 단 ​​2년 만에 총 지출이 2조 달러 이상으로 늘어날 것으로 예상됩니다."
+      ],
+      "marketInterpretation": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: $762 billion, $362 billion, $1.3 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "AMZN에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: $762 billion, $362 billion, $1.3 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AMZN",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "목표주가 산식의 EPS",
+        "적용 PER 변화",
+        "회사 공식 가이던스"
+      ]
     },
     {
       "id": "02de2819de53de54839b",
@@ -3958,7 +4033,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=67e97c909773f9d5154046e8e4e4e28363ff5ad5b8c57ada43ce6ad93a79abcf",
         "publishedAt": 1793211097,
-        "collectedAt": 1793241765.0804503
+        "collectedAt": 1793263865.6627522
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4338,7 +4413,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8e22ca7f9cb84c98e4826a4d296909e88ea1b15ca750bfb46932d5452886380a",
         "publishedAt": 1793209816,
-        "collectedAt": 1793241765.0804503
+        "collectedAt": 1793263865.6627522
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4809,15 +4884,15 @@ const EVENT_DATA = {
           "verification": "headline_or_analysis"
         }
       ],
-      "importance": "medium",
+      "importance": "high",
       "sourceReliability": {
         "level": "medium",
         "score": 65,
         "kind": "reported",
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
+      "direction": "positive",
+      "expectedHorizon": "다음 실적까지 확인",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Amazon’s EPS Is “Absolutely Exploding,” Says Josh Brown. Here’s What the Stock Needs to See October 29",
@@ -4826,34 +4901,47 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=73ee14e52825706fd518a23f8d9fbb575853718cef31651ecfd166ff83f1dc52",
         "publishedAt": 1793208371,
-        "collectedAt": 1793241765.0804503
+        "collectedAt": 1793263865.6627522
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Amazon의 EPS는 \"완전히 폭발적\"이라고 Josh Brown은 말합니다. 10월 29일 주식에서 확인해야 할 사항은 다음과 같습니다."
+        "Amazon의 EPS는 \"완전히 폭발적\"이라고 Josh Brown은 말합니다.",
+        "주식에 필요한 정보는 다음과 같습니다. 10월 29일 | TIKR.com 일반 Amazon의 EPS 투자는 \"완전히 폭발적\"이라고 Josh Brown은 말합니다.",
+        "주식에 필요한 정보는 다음과 같습니다. 10월 29일 Roxanna Maglangit • 5분 읽기 검토자: Michael Douglass 최종 업데이트 2026년 10월 28일 Dean Drobot via Canva 주요 시사점 Amazon은 목요일 마감 후 3분기 실적을 보고합니다."
       ],
-      "marketInterpretation": [],
+      "marketInterpretation": [
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $2.90, $7.17, $13.37 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
       "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+        "AMZN에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
       ],
       "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
       ],
       "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $2.90, $7.17, $13.37 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
           "ticker": "AMZN",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
         }
       ],
-      "watch": []
+      "watch": [
+        "공식 매출·EPS 가이던스",
+        "컨센서스 추정치 변경",
+        "마진·FCF 전망"
+      ]
     },
     {
       "id": "4b2173c0491f9cb83282",
@@ -5707,8 +5795,8 @@ const EVENT_DATA = {
         "kind": "reported",
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
+      "direction": "neutral",
+      "expectedHorizon": "다음 실적까지 확인",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Will Strong AWS Performance Boost Amazon's Q3 Earnings Report?",
@@ -5717,34 +5805,45 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bd0851042772508515d0345ece1c85f9516b9a56a9b2576ef218dd582f0fe673",
         "publishedAt": 1793205720,
-        "collectedAt": 1793241765.0804503
+        "collectedAt": 1793263865.6627522
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "강력한 AWS 성능이 Amazon의 3분기 수익 보고서를 향상시킬 수 있습니까?"
+        "Will Strong AWS Performance Boost Amazon's Q3 Earnings Report?",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
       ],
-      "marketInterpretation": [],
+      "marketInterpretation": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
       "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+        "AMZN에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
       ],
       "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+        "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
       ],
       "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
           "ticker": "AMZN",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
         }
       ],
-      "watch": []
+      "watch": [
+        "매출·영업이익 성장",
+        "정상화이익과 특이항목",
+        "가이던스·OCF·FCF"
+      ]
     },
     {
       "id": "5e4db514e04d9002aba0",
@@ -10572,7 +10671,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=59a5b298cf3e373cb486b6f60a7f941d1370349423080794094675f407e73d47",
         "publishedAt": 1793181600,
-        "collectedAt": 1793241765.0804503
+        "collectedAt": 1793263865.6627522
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11120,7 +11219,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8b203a93bcf65886f6584788b4607b9e1645dfabb5acd61c182859716f1850db",
         "publishedAt": 1793168554,
-        "collectedAt": 1793241765.0804503
+        "collectedAt": 1793263865.6627522
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11776,7 +11875,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2c54a2c998469db63613ae0fdfcc3c4181f092e6bf1d7d0a09d39cd2d1d2740e",
         "publishedAt": 1793154611,
-        "collectedAt": 1793241765.0804503
+        "collectedAt": 1793263865.6627522
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12045,7 +12144,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4cd00fe8bb9f4aa068362cb45a75018321d46c732200588972cdd698b2534109",
         "publishedAt": 1793151822,
-        "collectedAt": 1793241765.0804503
+        "collectedAt": 1793263865.6627522
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12513,7 +12612,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=256cbdf6c5f77640a5c22ccaf734183cdd3b50e25b097cc9cb2af3c1ca68baa5",
         "publishedAt": 1793142561,
-        "collectedAt": 1793241765.0804503
+        "collectedAt": 1793263865.6627522
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13272,7 +13371,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d19d867a3bc59f72629980254e108010d1351b89d1ea2a2bf097644b883e4726",
         "publishedAt": 1793135580,
-        "collectedAt": 1793241765.0804503
+        "collectedAt": 1793263865.6627522
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13598,7 +13697,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3fab2c49048689f18d0bcc1a134bf541d18cc7d519e95a54b7703dc3e6ea2d69",
         "publishedAt": 1793133582,
-        "collectedAt": 1793241765.0804503
+        "collectedAt": 1793263865.6627522
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14536,7 +14635,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=48b0a4e99f32c605741f5c5633b0b2055139a898afd6084b78efdcaa332f4127",
         "publishedAt": 1793124576,
-        "collectedAt": 1793241765.0804503
+        "collectedAt": 1793263865.6627522
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17164,73 +17263,6 @@ const EVENT_DATA = {
         "컨센서스 추정치 변경",
         "마진·FCF 전망"
       ]
-    },
-    {
-      "id": "e79fb4520a4857d69f4e",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "PLTR",
-      "relatedTickers": [
-        "PLTR"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "neutral",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "PLTR Stock Earnings Preview: What to Expect From Palantir's Q3 Report",
-      "headlineKo": "PLTR 주식 수익 미리보기: Palantir의 3분기 보고서에서 기대할 사항",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=79efe3a4188df3feb2cfc8bcbfaf70459c12dcfe4fddfb9482da467f26e8ac78",
-        "publishedAt": 1793114575,
-        "collectedAt": 1793261289.5987356
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "PLTR Stock Earnings Preview: What to Expect From Palantir's Q3 Report",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-        "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "PLTR에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-        "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "PLTR",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "매출·영업이익 성장",
-        "정상화이익과 특이항목",
-        "가이던스·OCF·FCF"
-      ]
     }
   ],
   "byTicker": {
@@ -17299,6 +17331,27 @@ const EVENT_DATA = {
       "02ab8311b4b9bda98e95",
       "623a3e8ef7487de487a5",
       "7c7b83a6112cc9378aa8"
+    ],
+    "AMZN": [
+      "d65965f40db6b09c6040",
+      "d171a344405acaf26c77",
+      "fe23017121cb54edcd72",
+      "bf8d3c21db2dd3c4d242",
+      "dd90f870d55443b6d27e",
+      "14cd1c4168a059249c16",
+      "f3372fc55f4e4f49a3bb",
+      "0cc30b0f14807363ce79",
+      "deabac1f5ff11446f38a",
+      "ecef1b20627d0b9a4979",
+      "2881061d71779ac9343e",
+      "dbb13cafd7a6f3388759",
+      "ee74208df635fc767401",
+      "9fa96ad061741188d10f",
+      "166a6b7712479b312170",
+      "d77545bd456a4580bd4d",
+      "162fd21a97a756bd3b3a",
+      "623a3e8ef7487de487a5",
+      "5415482fa2a3e4dfb5fd"
     ],
     "GEV": [
       "02de2819de53de54839b",
@@ -17594,26 +17647,6 @@ const EVENT_DATA = {
       "fe4a9da54c14d257b851",
       "b5416bf3edadd6953b2a"
     ],
-    "AMZN": [
-      "d171a344405acaf26c77",
-      "fe23017121cb54edcd72",
-      "bf8d3c21db2dd3c4d242",
-      "dd90f870d55443b6d27e",
-      "14cd1c4168a059249c16",
-      "f3372fc55f4e4f49a3bb",
-      "0cc30b0f14807363ce79",
-      "deabac1f5ff11446f38a",
-      "ecef1b20627d0b9a4979",
-      "2881061d71779ac9343e",
-      "dbb13cafd7a6f3388759",
-      "ee74208df635fc767401",
-      "9fa96ad061741188d10f",
-      "166a6b7712479b312170",
-      "d77545bd456a4580bd4d",
-      "162fd21a97a756bd3b3a",
-      "623a3e8ef7487de487a5",
-      "5415482fa2a3e4dfb5fd"
-    ],
     "INTC": [
       "63a118a7d0173e794609",
       "ea3eab3a1d50547dc103",
@@ -17761,8 +17794,7 @@ const EVENT_DATA = {
       "a20c3ac0a3c1e1827da3",
       "d53b54957d44199df6f3",
       "ed17d38e69c4130edc57",
-      "7f9e034cd9eafc4ff3b6",
-      "e79fb4520a4857d69f4e"
+      "7f9e034cd9eafc4ff3b6"
     ],
     "QCOM": [
       "cf8ac5b9002ca875f257",
