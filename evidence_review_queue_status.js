@@ -90,6 +90,20 @@ const EVIDENCE_REVIEW_QUEUE_STATUS = {
     "filingDate": "2026-10-28",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
+  },
+  "PWR": {
+    "pendingDays": 0,
+    "form": "10-Q",
+    "filingDate": "2026-10-29",
+    "level": "ok",
+    "confidenceLevel": "confirmed"
+  },
+  "EME": {
+    "pendingDays": 0,
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "level": "ok",
+    "confidenceLevel": "confirmed"
   }
 };
 const EVIDENCE_RESULTS_PERIOD = {
