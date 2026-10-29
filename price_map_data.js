@@ -1,44 +1,39 @@
 const PRICE_MAP_DATA = {
   "_meta": {
     "title": "WO17 가격지도(price_map) - 화면용 production 데이터",
-    "as_of": "2026-10-29",
-    "input_snapshot_hash": "a35f308cdd2f63d7a258aa76d7820a79f27096c5cbe52d56a14f5f750fc95c4d",
+    "as_of": "2026-10-30",
+    "input_snapshot_hash": "aa8c53e12deaf03d73b952c8a9e70011e0f5e8b04cd85309f16d0c3d704bc8e9",
     "generated_by": "price_map_engine.py write_price_map_data_js()",
-    "session_date": "2026-10-28",
+    "session_date": "2026-10-29",
     "session_date_source": "daily_run_arg(확정 종가 거래일)",
     "fxRates": {
       "EURUSD": {
-        "rate": 1.1159,
-        "asOf": "2026-10-28",
+        "rate": 1.1183,
+        "asOf": "2026-10-29",
         "source": "Yahoo Finance chart API(query1.finance.yahoo.com)"
       },
       "TWDUSD": {
-        "rate": 0.0309,
-        "asOf": "2026-10-28",
+        "rate": 0.0307,
+        "asOf": "2026-10-29",
         "source": "Yahoo Finance chart API(query1.finance.yahoo.com)"
       }
     },
     "ttmEpsRule": {
       "mode": "verified_quarterly_sum",
       "status": "applied",
-      "changed": [
-        "CEG"
-      ],
-      "changed_approved": [
-        "CEG"
-      ],
-      "pending_approval": [],
-      "auto_reverted": [],
-      "quarterly_sum_count": 31,
+      "quarterly_sum_count": 35,
       "fair_changed": [
         "AMAT",
         "LRCX",
         "KLAC",
         "ASML",
+        "WDC",
         "AVGO",
         "QCOM",
         "ANET",
         "HUBB",
+        "VRT",
+        "PWR",
         "COHR",
         "CEG",
         "GOOGL",
@@ -56,32 +51,32 @@ const PRICE_MAP_DATA = {
   "tickers": {
     "AMAT": {
       "ticker": "AMAT",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "적정",
       "action": "관망(적정가 근처)",
       "actionRaw": "관망(적정가 근처)",
       "actionCapReason": null,
       "cashflowVeto": false,
-      "fairPriceUpper": 553.7903293150684,
-      "fairPriceB": 413.94156719005827,
+      "fairPriceUpper": 556.1657046575342,
+      "fairPriceB": 415.1859051878336,
       "fairBasisMode": "ex_capped_growth_floor_b",
       "candidateBadge": null,
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 416.0,
-      "fairPrice": 413.94156719005827,
-      "ratio": 1.004972761793204,
-      "bandAggressiveLe": 331.1532537520466,
-      "bandDcaHigh": 372.54741047105244,
-      "bandFairHigh": 455.33572390906414,
+      "currentPrice": 421.6600036621094,
+      "fairPrice": 415.1859051878336,
+      "ratio": 1.0155932520670392,
+      "bandAggressiveLe": 332.1487241502669,
+      "bandDcaHigh": 373.66731466905026,
+      "bandFairHigh": 456.704495706617,
       "modelCheckNeeded": false,
       "confidence": "낮음",
       "confidenceNote": "적정가 후보 중 최대 괴리 ±40% (±40% 밖)",
       "bizRiskBadge": false,
       "bizRiskDetail": [],
       "stockType": "고성장형",
-      "stockTypeReason": "다음 회계연도 성장률 35.7%(기준 30% 초과)",
+      "stockTypeReason": "다음 회계연도 성장률 35.8%(기준 30% 초과)",
       "candidates": {
         "historicalPer": 21.351561546325684,
         "historicalPerYearsUsed": 5,
@@ -112,13 +107,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 3개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 18.459677643835615,
+      "epsUsedForCandidates": 18.538856821917808,
       "ttmEps": 11.6,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 12.453784783031718,
-        "peTTM": 33.4035,
-        "finnhubUpdated": "2026-10-28 17:27",
+        "finnhub": 12.127016553268433,
+        "peTTM": 34.7703,
+        "finnhubUpdated": "2026-10-29 13:51",
         "periods": "Q4'25~Q3'26",
         "endDates": [
           "2025-10-26",
@@ -134,22 +129,45 @@ const PRICE_MAP_DATA = {
           "역산 주식수 일관(±0.4%)",
           "공시 주식수 대조 +0.9%"
         ],
-        "gapPct": 7.360213646825153,
+        "gapPct": 4.543246148865809,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 247.67811393737793,
+        "fairHistProxy": 282.7121901618942,
+        "proxyPer": 15.249709994396959,
+        "trailingPer": 21.351561546325684,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-07-26",
+        "latestOfficialSource": "10-Q 2026-08-20",
+        "valuationActualPeriodEnd": "2026-07-26",
+        "valuationPeriods": "Q4'25~Q3'26",
+        "earningsReleaseDate": null,
+        "earningsReleaseAtUtc": null,
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.6283966721311451,
-        "candSpread": 2.3425768680935435,
-        "fairAltExCappedGrowth": 413.94156719005827,
+        "epsTtmNtmRatio": 0.6257127994152124,
+        "candSpread": 2.3526248935568668,
+        "fairAltExCappedGrowth": 415.1859051878336,
         "fairAltGapPct": 0.0,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 22.424095110257195,
-      "fairPriceBasis": "B안: 성장 PER 상한 후보 제외, 나머지 두 후보의 평균 (A안 상한 포함 $553.79, 낮은 쪽 적용)",
+      "convertedFairPer": 22.395442673518822,
+      "fairPriceBasis": "B안: 성장 PER 상한 후보 제외, 나머지 두 후보의 평균 (A안 상한 포함 $556.17, 낮은 쪽 적용)",
       "fairPriceCandidates": [
         {
           "candidate": "historical_per",
@@ -160,16 +178,16 @@ const PRICE_MAP_DATA = {
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 580.2050204427386,
+          "fairPrice": 582.6936964382893,
           "per": 31.43094,
-          "eps": 18.459677643835615,
+          "eps": 18.538856821917808,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 553.7903293150684,
+          "fairPrice": 556.1657046575342,
           "per": 30.0,
-          "eps": 18.459677643835615,
+          "eps": 18.538856821917808,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -177,16 +195,6 @@ const PRICE_MAP_DATA = {
       "dispersionFlag": null,
       "qualityWarnings": [],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 551.4456526027396,
-          "newFairPrice": 552.852458630137,
-          "changePct": 0.2551123616184915,
-          "epsEffect": 1.4068060273973517,
-          "perEffect": 0.0,
-          "otherEffect": 0.0,
-          "note": "EPS 18.3815->18.4284(적정PER 30.00배 유지 가정 시 +1.41) + 적정PER 30.00->30.00배(EPS 18.4284 유지 가정 시 +0.00)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 552.852458630137,
@@ -206,38 +214,48 @@ const PRICE_MAP_DATA = {
           "perEffect": -139.84876212501013,
           "otherEffect": 0.0,
           "note": "EPS 18.4440->18.4597(적정PER 30.00배 유지 가정 시 +0.47) + 적정PER 30.00->22.42배(EPS 18.4597 유지 가정 시 -139.85)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 413.94156719005827,
+          "newFairPrice": 415.1859051878336,
+          "changePct": 0.3006071620741625,
+          "epsEffect": 1.775521420067075,
+          "perEffect": -0.5311834222917491,
+          "otherEffect": 0.0,
+          "note": "EPS 18.4597->18.5389(적정PER 22.42배 유지 가정 시 +1.78) + 적정PER 22.42->22.40배(EPS 18.5389 유지 가정 시 -0.53)"
         }
       ],
       "nextUpdateDate": "2026-11-13"
     },
     "LRCX": {
       "ticker": "LRCX",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "적정",
       "action": "관망(적정가 근처)",
       "actionRaw": "관망(적정가 근처)",
       "actionCapReason": null,
       "cashflowVeto": false,
-      "fairPriceUpper": 313.95253726027397,
-      "fairPriceB": 238.66384136547705,
+      "fairPriceUpper": 315.4389517808219,
+      "fairPriceB": 239.42176264308992,
       "fairBasisMode": "ex_capped_growth_floor_b",
       "candidateBadge": null,
       "lowConfidenceCapEligible": false,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 253.82000732421875,
-      "fairPrice": 238.66384136547705,
-      "ratio": 1.0635042404078814,
-      "bandAggressiveLe": 190.93107309238167,
-      "bandDcaHigh": 214.79745722892935,
-      "bandFairHigh": 262.5302255020248,
+      "currentPrice": 254.38999938964844,
+      "fairPrice": 239.42176264308992,
+      "ratio": 1.0625182797976136,
+      "bandAggressiveLe": 191.53741011447195,
+      "bandDcaHigh": 215.47958637878094,
+      "bandFairHigh": 263.36393890739896,
       "modelCheckNeeded": false,
       "confidence": "보통",
       "confidenceNote": "적정가 후보 중 최대 괴리 ±34%",
       "bizRiskBadge": false,
       "bizRiskDetail": [],
       "stockType": "고성장형",
-      "stockTypeReason": "다음 회계연도 성장률 65.4%(기준 30% 초과)",
+      "stockTypeReason": "다음 회계연도 성장률 65.8%(기준 30% 초과)",
       "candidates": {
         "historicalPer": 23.421686011624622,
         "historicalPerYearsUsed": 5,
@@ -268,13 +286,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 3개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 10.465084575342466,
+      "epsUsedForCandidates": 10.514631726027398,
       "ttmEps": 6.71,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 7.203428519815494,
-        "peTTM": 35.236,
-        "finnhubUpdated": "2026-10-28 17:27",
+        "finnhub": 6.9355951075318085,
+        "peTTM": 36.6789,
+        "finnhubUpdated": "2026-10-29 13:51",
         "periods": "Q4'25~Q3'26",
         "endDates": [
           "2025-12-28",
@@ -290,22 +308,45 @@ const PRICE_MAP_DATA = {
           "역산 주식수 일관(±0.6%)",
           "공시 주식수 대조 +0.6%"
         ],
-        "gapPct": 7.353629207384427,
+        "gapPct": 3.3620731375828328,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 157.15951313800122,
+        "fairHistProxy": 202.40745925455428,
+        "proxyPer": 19.250075944507394,
+        "trailingPer": 23.421686011624622,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-09-30",
+        "latestOfficialSource": "8-K(실적) 2026-10-21",
+        "valuationActualPeriodEnd": "2026-09-27",
+        "valuationPeriods": "Q4'25~Q3'26",
+        "earningsReleaseDate": "2026-10-21",
+        "earningsReleaseAtUtc": "2026-10-22T04:59:00+00:00",
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fallback_45d",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.6411797202107579,
-        "candSpread": 2.037217876284806,
-        "fairAltExCappedGrowth": 238.66384136547705,
+        "epsTtmNtmRatio": 0.6381583468482684,
+        "candSpread": 2.046863124764894,
+        "fairAltExCappedGrowth": 239.42176264308992,
         "fairAltGapPct": 0.0,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 22.80572504189885,
-      "fairPriceBasis": "B안: 성장 PER 상한 후보 제외, 나머지 두 후보의 평균 (A안 상한 포함 $313.95, 낮은 쪽 적용)",
+      "convertedFairPer": 22.77034221278879,
+      "fairPriceBasis": "B안: 성장 PER 상한 후보 제외, 나머지 두 후보의 평균 (A안 상한 포함 $315.44, 낮은 쪽 적용)",
       "fairPriceCandidates": [
         {
           "candidate": "historical_per",
@@ -316,16 +357,16 @@ const PRICE_MAP_DATA = {
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 320.1681695929529,
+          "fairPrice": 321.6840121481786,
           "per": 30.59394,
-          "eps": 10.465084575342466,
+          "eps": 10.514631726027398,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 313.95253726027397,
+          "fairPrice": 315.4389517808219,
           "per": 30.0,
-          "eps": 10.465084575342466,
+          "eps": 10.514631726027398,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -333,16 +374,6 @@ const PRICE_MAP_DATA = {
       "dispersionFlag": null,
       "qualityWarnings": [],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 312.4813528767123,
-          "newFairPrice": 313.53744904109584,
-          "changePct": 0.3379709395972165,
-          "epsEffect": 1.0560961643835398,
-          "perEffect": -3.713029280081721e-14,
-          "otherEffect": 0.0,
-          "note": "EPS 10.4160->10.4512(적정PER 30.00배 유지 가정 시 +1.06) + 적정PER 30.00->30.00배(EPS 10.4512 유지 가정 시 -0.00)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 313.53744904109584,
@@ -362,38 +393,48 @@ const PRICE_MAP_DATA = {
           "perEffect": -75.28869589479692,
           "otherEffect": 0.0,
           "note": "EPS 10.4582->10.4651(적정PER 30.00배 유지 가정 시 +0.21) + 적정PER 30.00->22.81배(EPS 10.4651 유지 가정 시 -75.29)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 238.66384136547705,
+          "newFairPrice": 239.42176264308992,
+          "changePct": 0.31756854045277244,
+          "epsEffect": 1.1299586951300815,
+          "perEffect": -0.37203741751723296,
+          "otherEffect": 0.0,
+          "note": "EPS 10.4651->10.5146(적정PER 22.81배 유지 가정 시 +1.13) + 적정PER 22.81->22.77배(EPS 10.5146 유지 가정 시 -0.37)"
         }
       ],
       "nextUpdateDate": "2027-01-01"
     },
     "KLAC": {
       "ticker": "KLAC",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "고평가",
       "action": "신규 추격 금지",
       "actionRaw": "신규 추격 금지",
       "actionCapReason": null,
       "cashflowVeto": false,
-      "fairPriceUpper": 176.62178219178082,
-      "fairPriceB": 134.51993289255407,
+      "fairPriceUpper": 182.8410402739726,
+      "fairPriceB": 137.69112636940557,
       "fairBasisMode": "ex_capped_growth_floor_b",
       "candidateBadge": null,
       "lowConfidenceCapEligible": false,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 158.77000427246094,
-      "fairPrice": 134.51993289255407,
-      "ratio": 1.1802712122914623,
-      "bandAggressiveLe": 107.61594631404326,
-      "bandDcaHigh": 121.06793960329867,
-      "bandFairHigh": 147.9719261818095,
+      "currentPrice": 167.42999267578125,
+      "fairPrice": 137.69112636940557,
+      "ratio": 1.2159824462949818,
+      "bandAggressiveLe": 110.15290109552446,
+      "bandDcaHigh": 123.92201373246502,
+      "bandFairHigh": 151.46023900634614,
       "modelCheckNeeded": false,
       "confidence": "보통",
-      "confidenceNote": "적정가 후보 중 최대 괴리 ±34%",
+      "confidenceNote": "적정가 후보 중 최대 괴리 ±35%",
       "bizRiskBadge": false,
       "bizRiskDetail": [],
       "stockType": "고성장형",
-      "stockTypeReason": "다음 회계연도 성장률 45.3%(기준 30% 초과)",
+      "stockTypeReason": "다음 회계연도 성장률 50.5%(기준 30% 초과)",
       "candidates": {
         "historicalPer": 24.249066143849046,
         "historicalPerYearsUsed": 5,
@@ -424,13 +465,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 3개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 5.887392739726027,
+      "epsUsedForCandidates": 6.094701342465753,
       "ttmEps": 3.667,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 3.826317997996369,
-        "peTTM": 41.4942,
-        "finnhubUpdated": "2026-10-28 17:27",
+        "finnhub": 3.899452047562493,
+        "peTTM": 42.9368,
+        "finnhubUpdated": "2026-10-29 13:51",
         "periods": "Q3'25~Q2'26",
         "endDates": [
           "2025-09-30",
@@ -446,22 +487,45 @@ const PRICE_MAP_DATA = {
           "역산 주식수 일관(±1.0%)",
           "공시 주식수 대조 +0.3%"
         ],
-        "gapPct": 4.3446413415972,
+        "gapPct": 6.339025022156886,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 88.92132554949444,
+        "fairHistProxy": 145.61832404750498,
+        "proxyPer": 23.892610296239997,
+        "trailingPer": 24.249066143849046,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-09-30",
+        "latestOfficialSource": "8-K(실적) 2026-10-28",
+        "valuationActualPeriodEnd": "2026-06-30",
+        "valuationPeriods": "Q3'25~Q2'26",
+        "earningsReleaseDate": "2026-10-28",
+        "earningsReleaseAtUtc": "2026-10-29T04:59:00+00:00",
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fallback_45d",
+        "pendingReflection": true,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.6228563580031601,
-        "candSpread": 2.0255944130675156,
-        "fairAltExCappedGrowth": 134.51993289255407,
+        "epsTtmNtmRatio": 0.6016701711779744,
+        "candSpread": 2.0969202386162227,
+        "fairAltExCappedGrowth": 137.69112636940557,
         "fairAltGapPct": 0.0,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 22.848812511667774,
-      "fairPriceBasis": "B안: 성장 PER 상한 후보 제외, 나머지 두 후보의 평균 (A안 상한 포함 $176.62, 낮은 쪽 적용)",
+      "convertedFairPer": 22.59193988883784,
+      "fairPriceBasis": "B안: 성장 PER 상한 후보 제외, 나머지 두 후보의 평균 (A안 상한 포함 $182.84, 낮은 쪽 적용)",
       "fairPriceCandidates": [
         {
           "candidate": "historical_per",
@@ -472,16 +536,16 @@ const PRICE_MAP_DATA = {
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 180.1185402356137,
+          "fairPrice": 186.4609271893167,
           "per": 30.59394,
-          "eps": 5.887392739726027,
+          "eps": 6.094701342465753,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 176.62178219178082,
+          "fairPrice": 182.8410402739726,
           "per": 30.0,
-          "eps": 5.887392739726027,
+          "eps": 6.094701342465753,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -489,16 +553,6 @@ const PRICE_MAP_DATA = {
       "dispersionFlag": null,
       "qualityWarnings": [],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 175.54768849315067,
-          "newFairPrice": 176.4120287671233,
-          "changePct": 0.4923677898534982,
-          "epsEffect": 0.8643402739726103,
-          "perEffect": 2.0891380923530213e-14,
-          "otherEffect": 0.0,
-          "note": "EPS 5.8516->5.8804(적정PER 30.00배 유지 가정 시 +0.86) + 적정PER 30.00->30.00배(EPS 5.8804 유지 가정 시 +0.00)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 176.4120287671233,
@@ -518,31 +572,41 @@ const PRICE_MAP_DATA = {
           "perEffect": -42.10184929922676,
           "otherEffect": 0.0,
           "note": "EPS 5.8839->5.8874(적정PER 30.00배 유지 가정 시 +0.10) + 적정PER 30.00->22.85배(EPS 5.8874 유지 가정 시 -42.10)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 134.51993289255407,
+          "newFairPrice": 137.69112636940557,
+          "changePct": 2.357415297987434,
+          "epsEffect": 4.736755396055814,
+          "perEffect": -1.5655619192043022,
+          "otherEffect": 0.0,
+          "note": "EPS 5.8874->6.0947(적정PER 22.85배 유지 가정 시 +4.74) + 적정PER 22.85->22.59배(EPS 6.0947 유지 가정 시 -1.57)"
         }
       ],
       "nextUpdateDate": "2027-01-01"
     },
     "ASML": {
       "ticker": "ASML",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "고평가",
       "action": "신규 추격 금지",
       "actionRaw": "신규 추격 금지",
       "actionCapReason": null,
       "cashflowVeto": false,
-      "fairPriceUpper": 1601.6598353424654,
-      "fairPriceB": 1475.891436392962,
+      "fairPriceUpper": 1602.854314520548,
+      "fairPriceB": 1476.5171631159214,
       "fairBasisMode": "ex_capped_growth_floor_b",
       "candidateBadge": null,
       "lowConfidenceCapEligible": false,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 1662.8499755859375,
-      "fairPrice": 1475.891436392962,
-      "ratio": 1.1266749942325682,
-      "bandAggressiveLe": 1180.7131491143698,
-      "bandDcaHigh": 1328.3022927536658,
-      "bandFairHigh": 1623.4805800322583,
+      "currentPrice": 1675.699951171875,
+      "fairPrice": 1476.5171631159214,
+      "ratio": 1.1349004217706582,
+      "bandAggressiveLe": 1181.213730492737,
+      "bandDcaHigh": 1328.8654468043294,
+      "bandFairHigh": 1624.1688794275137,
       "modelCheckNeeded": false,
       "confidence": "낮음",
       "confidenceNote": "EPS 품질 경고: ADR 통화환산 적용(EUR->USD); WO8-B 분류 불가(이력 부족 - 유효 4개년 <5년; 필터 없음(원본 그대로))",
@@ -551,7 +615,7 @@ const PRICE_MAP_DATA = {
       "stockType": "분류불가(이력부족)",
       "stockTypeReason": "유효 연간 EPS 4개년(<5년 기준) - 필터 없음(원본 그대로)",
       "candidates": {
-        "historicalPer": 32.612422173448564,
+        "historicalPer": 32.54243217683202,
         "historicalPerYearsUsed": 4,
         "historicalPerEpsBasis": "TTM EPS",
         "sectorPer": 31.43094,
@@ -580,13 +644,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 3개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 53.38866117808218,
-      "ttmEps": 39.0565,
+      "epsUsedForCandidates": 53.428477150684934,
+      "ttmEps": 39.1405,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 31.71277752301315,
-        "peTTM": 52.4347,
-        "finnhubUpdated": "2026-10-28 17:27",
+        "finnhub": 31.088245410543603,
+        "peTTM": 53.9014,
+        "finnhubUpdated": "2026-10-29 13:51",
         "periods": "Q4'25~Q3'26",
         "endDates": [
           "2025-12-31",
@@ -595,50 +659,73 @@ const PRICE_MAP_DATA = {
           "2026-09-30"
         ],
         "secVerified": false,
-        "quarterly": 39.0565,
+        "quarterly": 39.1405,
         "checks": [
           "분기 연속 OK",
           "최신성 OK(승인 근거 2026-09-30)",
           "역산 주식수 일관(±0.8%)",
-          "EUR35.00(보통주1주) x ADR비율1 x EURUSD=X(1.1159) = $39.06(ADR 1주)"
+          "EUR35.00(보통주1주) x ADR비율1 x EURUSD=X(1.1183) = $39.14(ADR 1주)"
         ],
-        "gapPct": -18.80281765387798,
-        "gapPrevPct": 3.154315140263919,
+        "gapPct": -20.57269219722896,
+        "gapPrevPct": 0.9058356841011417,
         "gapCause": "period",
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 1273.727066617294,
+        "fairHistProxy": 1340.0626506202534,
+        "proxyPer": 25.08143076660897,
+        "trailingPer": 32.54243217683202,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": null,
+        "latestOfficialSource": null,
+        "valuationActualPeriodEnd": "2026-09-30",
+        "valuationPeriods": "Q4'25~Q3'26",
+        "earningsReleaseDate": null,
+        "earningsReleaseAtUtc": null,
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": null,
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.7315504666753845,
-        "candSpread": 1.3174375030163523,
-        "fairAltExCappedGrowth": 1475.891436392962,
+        "epsTtmNtmRatio": 0.732577495885043,
+        "candSpread": 1.3184200160513009,
+        "fairAltExCappedGrowth": 1476.5171631159214,
         "fairAltGapPct": 0.0,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": "WO8-B 분류 불가(이력 부족, 유효 4개년 <5년) - 필터 없음(원본 그대로) - 경기순환 여부 판단 안 함, NTM EPS 그대로 사용",
-      "convertedFairPer": 27.644286330200476,
-      "fairPriceBasis": "B안: 성장 PER 상한 후보 제외, 나머지 두 후보의 평균 (A안 상한 포함 $1601.66, 낮은 쪽 적용)",
+      "convertedFairPer": 27.635396737056226,
+      "fairPriceBasis": "B안: 성장 PER 상한 후보 제외, 나머지 두 후보의 평균 (A안 상한 포함 $1602.85, 낮은 쪽 적용)",
       "fairPriceCandidates": [
         {
           "candidate": "historical_per",
-          "fairPrice": 1273.7270666172938,
-          "per": 32.612422173448564,
-          "eps": 39.0565,
+          "fairPrice": 1273.727066617294,
+          "per": 32.54243217683202,
+          "eps": 39.1405,
           "epsBasis": "TTM EPS"
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 1678.0558061686304,
+          "fairPrice": 1679.3072596145491,
           "per": 31.43094,
-          "eps": 53.38866117808218,
+          "eps": 53.428477150684934,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 1601.6598353424654,
+          "fairPrice": 1602.854314520548,
           "per": 30.0,
-          "eps": 53.38866117808218,
+          "eps": 53.428477150684934,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -649,16 +736,6 @@ const PRICE_MAP_DATA = {
         "WO8-B 분류 불가(이력 부족 - 유효 4개년 <5년; 필터 없음(원본 그대로))"
       ],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 1595.6106476712328,
-          "newFairPrice": 1599.2401602739724,
-          "changePct": 0.22746856246145244,
-          "epsEffect": 3.629512602739595,
-          "perEffect": 0.0,
-          "otherEffect": 0.0,
-          "note": "EPS 53.1870->53.3080(적정PER 30.00배 유지 가정 시 +3.63) + 적정PER 30.00->30.00배(EPS 53.3080 유지 가정 시 +0.00)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 1599.2401602739724,
@@ -678,17 +755,27 @@ const PRICE_MAP_DATA = {
           "perEffect": -125.76839894950335,
           "otherEffect": 0.0,
           "note": "EPS 53.3483->53.3887(적정PER 30.00배 유지 가정 시 +1.21) + 적정PER 30.00->27.64배(EPS 53.3887 유지 가정 시 -125.77)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 1475.891436392962,
+          "newFairPrice": 1476.5171631159214,
+          "changePct": 0.042396527788563475,
+          "epsEffect": 1.1006841471459197,
+          "perEffect": -0.4749574241864511,
+          "otherEffect": 0.0,
+          "note": "EPS 53.3887->53.4285(적정PER 27.64배 유지 가정 시 +1.10) + 적정PER 27.64->27.64배(EPS 53.4285 유지 가정 시 -0.47)"
         }
       ],
       "nextUpdateDate": "2027-01-01"
     },
     "MU": {
       "ticker": "MU",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "매수",
-      "action": "분할매수",
-      "actionRaw": "분할매수",
-      "actionCapReason": null,
+      "action": "관망(모델 민감도 높음)",
+      "actionRaw": "적극 모아가기",
+      "actionCapReason": "model_split",
       "cashflowVeto": false,
       "fairPriceUpper": null,
       "fairPriceB": null,
@@ -697,9 +784,9 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": null,
       "sectorFewPeers": null,
-      "currentPrice": 983.22998046875,
+      "currentPrice": 934.27001953125,
       "fairPrice": 1189.1185005410634,
-      "ratio": 0.8268561796165549,
+      "ratio": 0.7856828559190239,
       "bandAggressiveLe": 951.2948004328508,
       "bandDcaHigh": 1070.2066504869572,
       "bandFairHigh": 1308.03035059517,
@@ -726,7 +813,7 @@ const PRICE_MAP_DATA = {
         "peers": [
           {
             "ticker": "STX",
-            "per": 63.1738505759318
+            "per": 63.40012768392934
           }
         ],
         "excluded": [
@@ -745,9 +832,9 @@ const PRICE_MAP_DATA = {
       "ttmEps": 74.21,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 79.53712458996999,
-        "peTTM": 12.3619,
-        "finnhubUpdated": "2026-10-28 17:27",
+        "finnhub": 72.18230573051873,
+        "peTTM": 12.9432,
+        "finnhubUpdated": "2026-10-29 13:51",
         "periods": "Q4'25~Q3'26",
         "endDates": [
           "2025-11-27",
@@ -763,15 +850,15 @@ const PRICE_MAP_DATA = {
           "역산 주식수 일관(±0.7%)",
           "공시 주식수 대조 +1.4%"
         ],
-        "gapPct": 7.1784457485109865,
+        "gapPct": -2.732373358686513,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": {
-        "ntm_eps_raw": 181.48340232876714,
+        "ntm_eps_raw": 181.64732931506848,
         "normalized_eps": 53.57,
-        "change_pct": -70.48214915931817,
-        "fair_without_normalization": 3607.236698047507,
+        "change_pct": -70.50878743882743,
+        "fair_without_normalization": 3610.494976398027,
         "basis_without_normalization": "세 적정가 후보 중앙값",
         "candidates_without_normalization": [
           {
@@ -783,20 +870,43 @@ const PRICE_MAP_DATA = {
           },
           {
             "candidate": "sector_per",
-            "fairPrice": 3607.236698047507,
+            "fairPrice": 3610.494976398027,
             "per": 19.8764,
-            "eps": 181.48340232876714,
+            "eps": 181.64732931506848,
             "epsBasis": "NTM EPS"
           },
           {
             "candidate": "growth_per_peg",
-            "fairPrice": 5444.502069863014,
+            "fairPrice": 5449.419879452054,
             "per": 30.0,
-            "eps": 181.48340232876714,
+            "eps": 181.64732931506848,
             "epsBasis": "NTM EPS"
           }
         ],
         "note": "표시 전용 참고값 - 정상화 EPS 대신 NTM EPS, 정상화 기준 업종PER 대신 forwardPE 기준 업종PER, 과거PER 후보는 TTM EPS. 판정·행동에 쓰지 않음."
+      },
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 771.1370010821272,
+        "fairHistProxy": 592.9841235642614,
+        "proxyPer": 11.069332155390356,
+        "trailingPer": 14.394941218632205,
+        "modelSplitEligible": true,
+        "modelSplitRatio": 2.0840654744160583,
+        "actionBeforeModelSplit": "분할매수",
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-09-30",
+        "latestOfficialSource": "8-K(실적) 2026-09-30",
+        "valuationActualPeriodEnd": "2026-09-03",
+        "valuationPeriods": "Q4'25~Q3'26",
+        "earningsReleaseDate": "2026-09-30",
+        "earningsReleaseAtUtc": "2026-10-01T04:59:00+00:00",
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fallback_45d",
+        "pendingReflection": false,
+        "consensusPreRelease": false
       },
       "diag": {
         "epsTtmNtmRatio": 1.3852902744073174,
@@ -806,7 +916,7 @@ const PRICE_MAP_DATA = {
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
-      "epsBasisNote": "경기순환형(WO8-B 최종본: (A) EPS 30%+·매출 5%+ 동반 감소 2회(2019→2020 EPS -57%·매출 -8%, 2022→2023 EPS -169%·매출 -49%, 기준 2회 이상)) - NTM EPS(181.4834) 대신 정상화 EPS 53.5700(순이익률 사이클 중앙값 22% x NTM매출/주식수 243.5, 기준연수 8) 사용 - 업종PER·성장PER·과거PER 후보 전부 동일 기준 적용(item3)",
+      "epsBasisNote": "경기순환형(WO8-B 최종본: (A) EPS 30%+·매출 5%+ 동반 감소 2회(2019→2020 EPS -57%·매출 -8%, 2022→2023 EPS -169%·매출 -49%, 기준 2회 이상)) - NTM EPS(181.6473) 대신 정상화 EPS 53.5700(순이익률 사이클 중앙값 22% x NTM매출/주식수 243.5, 기준연수 8) 사용 - 업종PER·성장PER·과거PER 후보 전부 동일 기준 적용(item3)",
       "convertedFairPer": 22.1974706093161,
       "fairPriceBasis": "적정가 후보 2개 평균",
       "fairPriceCandidates": [
@@ -847,10 +957,10 @@ const PRICE_MAP_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "매수",
-      "action": "분할매수 · 모델 점검 필요(적정가/현재가 비율 0.30배)",
-      "actionRaw": "적극 모아가기 · 모델 점검 필요(적정가/현재가 비율 0.30배)",
+      "action": "분할매수 · 모델 점검 필요(적정가/현재가 비율 0.29배)",
+      "actionRaw": "적극 모아가기 · 모델 점검 필요(적정가/현재가 비율 0.29배)",
       "actionCapReason": "low_confidence_cap",
       "cashflowVeto": false,
       "fairPriceUpper": null,
@@ -860,12 +970,12 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 1404.77001953125,
-      "fairPrice": 4609.08255366262,
-      "ratio": 0.3047830025120608,
-      "bandAggressiveLe": 3687.266042930096,
-      "bandDcaHigh": 4148.174298296358,
-      "bandFairHigh": 5069.990809028882,
+      "currentPrice": 1330.050048828125,
+      "fairPrice": 4611.88560745269,
+      "ratio": 0.2883961490022211,
+      "bandAggressiveLe": 3689.5084859621525,
+      "bandDcaHigh": 4150.697046707422,
+      "bandFairHigh": 5073.07416819796,
       "modelCheckNeeded": true,
       "confidence": "낮음",
       "confidenceNote": "적정가/현재가 비율이 2배 초과 또는 0.5배 미만 - 모델 점검 필요로 강제 낮음",
@@ -903,13 +1013,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 3개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 231.88719052054796,
-      "ttmEps": 88.50561800462762,
+      "epsUsedForCandidates": 232.02821473972602,
+      "ttmEps": 80.63450595509644,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 88.50561800462762,
-        "peTTM": 15.8721,
-        "finnhubUpdated": "2026-10-28 17:27",
+        "finnhub": 80.63450595509644,
+        "peTTM": 16.4948,
+        "finnhubUpdated": "2026-10-29 13:52",
         "periods": "Q4'25~Q3'26",
         "endDates": [
           "2025-10-03",
@@ -926,17 +1036,40 @@ const PRICE_MAP_DATA = {
           "공시 주식수 대조 +7.2%",
           "Q3'26 EPS 43.97 크기 이례적 - SEC 대조 확인(GAAP 희석 EPS 맞음)"
         ],
-        "gapPct": 21.406883408268328,
-        "gapPrevPct": 207.6316232347154,
+        "gapPct": 10.609747537855196,
+        "gapPrevPct": 180.27287436599386,
         "gapCause": "definition_unexplained",
         "source": "finnhub_peTTM(차이 원인 미확인 - 검증 전 유지)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 1907.6357496155545,
+        "fairHistProxy": null,
+        "proxyPer": null,
+        "trailingPer": 23.657809110629067,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-07-03",
+        "latestOfficialSource": "10-K 2026-08-17",
+        "valuationActualPeriodEnd": "2026-07-03",
+        "valuationPeriods": "Q4'25~Q3'26",
+        "earningsReleaseDate": null,
+        "earningsReleaseAtUtc": null,
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.38167532154728906,
-        "candSpread": 3.3224056092640186,
-        "fairAltExCappedGrowth": 3351.4657848171773,
-        "fairAltGapPct": -27.285620385472896,
+        "epsTtmNtmRatio": 0.34752026190240237,
+        "candSpread": 3.648938977786823,
+        "fairAltExCappedGrowth": 3259.7606785341222,
+        "fairAltGapPct": -29.318266843686846,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -946,23 +1079,23 @@ const PRICE_MAP_DATA = {
       "fairPriceCandidates": [
         {
           "candidate": "historical_per",
-          "fairPrice": 2093.8490159717353,
+          "fairPrice": 1907.6357496155545,
           "per": 23.657809110629067,
-          "eps": 88.50561800462762,
+          "eps": 80.63450595509644,
           "epsBasis": "TTM EPS"
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 4609.08255366262,
+          "fairPrice": 4611.88560745269,
           "per": 19.8764,
-          "eps": 231.88719052054796,
+          "eps": 232.02821473972602,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 6956.615715616439,
+          "fairPrice": 6960.846442191781,
           "per": 30.0,
-          "eps": 231.88719052054796,
+          "eps": 232.02821473972602,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -973,16 +1106,6 @@ const PRICE_MAP_DATA = {
         "WO8-B 분류 불가(이력 부족 - 유효 4개년 <5년; 필터 없음(원본 그대로))"
       ],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 4595.067284712263,
-          "newFairPrice": 4603.476446082476,
-          "changePct": 0.1830040965491458,
-          "epsEffect": 8.409161370213742,
-          "perEffect": 0.0,
-          "otherEffect": 0.0,
-          "note": "EPS 231.1821->231.6051(적정PER 19.88배 유지 가정 시 +8.41) + 적정PER 19.88->19.88배(EPS 231.6051 유지 가정 시 +0.00)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 4603.476446082476,
@@ -1002,13 +1125,23 @@ const PRICE_MAP_DATA = {
           "perEffect": 0.0,
           "otherEffect": 0.0,
           "note": "EPS 231.7462->231.8872(적정PER 19.88배 유지 가정 시 +2.80) + 적정PER 19.88->19.88배(EPS 231.8872 유지 가정 시 +0.00)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 4609.08255366262,
+          "newFairPrice": 4611.88560745269,
+          "changePct": 0.060815872951612754,
+          "epsEffect": 2.8030537900708703,
+          "perEffect": 0.0,
+          "otherEffect": 0.0,
+          "note": "EPS 231.8872->232.0282(적정PER 19.88배 유지 가정 시 +2.80) + 적정PER 19.88->19.88배(EPS 232.0282 유지 가정 시 +0.00)"
         }
       ],
-      "nextUpdateDate": "2026-10-30"
+      "nextUpdateDate": "2027-01-01"
     },
     "WDC": {
       "ticker": "WDC",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "매수",
       "action": "분할매수",
       "actionRaw": "적극 모아가기",
@@ -1021,12 +1154,12 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 396.4200134277344,
-      "fairPrice": 642.5988744484697,
-      "ratio": 0.6169011948051949,
-      "bandAggressiveLe": 514.0790995587757,
-      "bandDcaHigh": 578.3389870036227,
-      "bandFairHigh": 706.8587618933167,
+      "currentPrice": 395.4100036621094,
+      "fairPrice": 572.1517855024711,
+      "ratio": 0.691092842286344,
+      "bandAggressiveLe": 457.7214284019769,
+      "bandDcaHigh": 514.936606952224,
+      "bandFairHigh": 629.3669640527182,
       "modelCheckNeeded": false,
       "confidence": "낮음",
       "confidenceNote": "EPS 품질 경고: 과거 PER 이력 부족(1년치); WO8-B 분류 불가(이력 부족 - 유효 1개년 <5년; corporate_events.json 기업분할/분리상장(2025-02-21) 이전 회계연도 7개 제외)",
@@ -1064,13 +1197,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 3개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 29.922820602739726,
-      "ttmEps": 28.94675449278079,
+      "epsUsedForCandidates": 29.965779698630136,
+      "ttmEps": 25.773367999999998,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 28.94675449278079,
-        "peTTM": 13.6948,
-        "finnhubUpdated": "2026-10-28 17:27",
+        "finnhub": 26.69380560475463,
+        "peTTM": 14.8128,
+        "finnhubUpdated": "2026-10-29 13:52",
         "periods": "Q1'26~Q4'26",
         "endDates": [
           "2026-01-02",
@@ -1086,43 +1219,65 @@ const PRICE_MAP_DATA = {
           "역산 주식수 일관(±1.9%)",
           "공시 주식수 대조 +2.6%"
         ],
-        "gapPct": 12.312657363138534,
-        "gapPrevPct": 19.548649707801037,
-        "gapCause": "definition_unexplained",
-        "source": "finnhub_peTTM(차이 원인 미확인 - 검증 전 유지)"
+        "gapPct": 3.57127405605131,
+        "gapCause": null,
+        "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 572.1517855024711,
+        "fairHistProxy": null,
+        "proxyPer": null,
+        "trailingPer": 22.199341021416803,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-10-02",
+        "latestOfficialSource": "10-Q 2026-10-23",
+        "valuationActualPeriodEnd": "2026-10-02",
+        "valuationPeriods": "Q1'26~Q4'26",
+        "earningsReleaseDate": "2026-10-22",
+        "earningsReleaseAtUtc": "2026-10-23T04:59:00+00:00",
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.967380544671328,
+        "epsTtmNtmRatio": 0.860093355127289,
         "candSpread": 3.558541567324048,
-        "fairAltExCappedGrowth": 447.43040985710934,
-        "fairAltGapPct": -30.371740809361004,
+        "fairAltExCappedGrowth": 412.38794699469827,
+        "fairAltGapPct": -27.923331283055617,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": "WO8-B 분류 불가(이력 부족, 유효 1개년 <5년) - corporate_events.json 기업분할/분리상장(2025-02-21) 이전 회계연도 7개 제외 - 경기순환 여부 판단 안 함, NTM EPS 그대로 사용",
-      "convertedFairPer": 21.47521060864274,
+      "convertedFairPer": 19.093505700725235,
       "fairPriceBasis": "세 적정가 후보 중앙값",
       "fairPriceCandidates": [
         {
           "candidate": "historical_per",
-          "fairPrice": 642.5988744484697,
+          "fairPrice": 572.1517855024711,
           "per": 22.199341021416803,
-          "eps": 28.94675449278079,
+          "eps": 25.773367999999998,
           "epsBasis": "TTM EPS"
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 252.26194526574903,
+          "fairPrice": 252.62410848692548,
           "per": 8.43042,
-          "eps": 29.922820602739726,
+          "eps": 29.965779698630136,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 897.6846180821918,
+          "fairPrice": 898.9733909589041,
           "per": 30.0,
-          "eps": 29.922820602739726,
+          "eps": 29.965779698630136,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -1133,16 +1288,6 @@ const PRICE_MAP_DATA = {
         "WO8-B 분류 불가(이력 부족 - 유효 1개년 <5년; corporate_events.json 기업분할/분리상장(2025-02-21) 이전 회계연도 7개 제외)"
       ],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 508.47414903274864,
-          "newFairPrice": 572.1517855024711,
-          "changePct": 12.523279028216871,
-          "epsEffect": 64.25858904989465,
-          "perEffect": -0.5809525801722352,
-          "otherEffect": 0.0,
-          "note": "EPS 26.3203->29.6465(적정PER 19.32배 유지 가정 시 +64.26) + 적정PER 19.32->19.30배(EPS 29.6465 유지 가정 시 -0.58)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 572.1517855024711,
@@ -1162,16 +1307,26 @@ const PRICE_MAP_DATA = {
           "perEffect": 2.730550941310738,
           "otherEffect": 0.0,
           "note": "EPS 29.8799->29.9228(적정PER 21.38배 유지 가정 시 +0.92) + 적정PER 21.38->21.48배(EPS 29.9228 유지 가정 시 +2.73)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 642.5988744484697,
+          "newFairPrice": 572.1517855024711,
+          "changePct": -10.962840388798071,
+          "epsEffect": 0.9225556318034341,
+          "perEffect": -71.36964457780215,
+          "otherEffect": 0.0,
+          "note": "EPS 29.9228->29.9658(적정PER 21.48배 유지 가정 시 +0.92) + 적정PER 21.48->19.09배(EPS 29.9658 유지 가정 시 -71.37)"
         }
       ],
       "nextUpdateDate": "2027-01-01"
     },
     "STX": {
       "ticker": "STX",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "고평가",
-      "action": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 2.48배)",
-      "actionRaw": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 2.48배)",
+      "action": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 2.49배)",
+      "actionRaw": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 2.49배)",
       "actionCapReason": null,
       "cashflowVeto": true,
       "fairPriceUpper": null,
@@ -1181,9 +1336,9 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": null,
       "sectorFewPeers": null,
-      "currentPrice": 697.969970703125,
+      "currentPrice": 700.469970703125,
       "fairPrice": 281.13853493158297,
-      "ratio": 2.4826549333515624,
+      "ratio": 2.491547346483787,
       "bandAggressiveLe": 224.9108279452664,
       "bandDcaHigh": 253.02468143842466,
       "bandFairHigh": 309.2523884247413,
@@ -1195,7 +1350,7 @@ const PRICE_MAP_DATA = {
         "현금흐름 거부권(2/3: 부채/자본 1.65, 발행주식수 +3.9%(3개분기))"
       ],
       "stockType": "경기순환형",
-      "stockTypeReason": "(B) EPS 30%+·매출 5%+ 동반 감소 1회(2022→2023 EPS -135%·매출 -37%) + 이익 정점 의심(NTM EPS $36.66가 과거 8년 EPS 중앙값 $6.06의 3배 초과)",
+      "stockTypeReason": "(B) EPS 30%+·매출 5%+ 동반 감소 1회(2022→2023 EPS -135%·매출 -37%) + 이익 정점 의심(NTM EPS $40.35가 과거 8년 EPS 중앙값 $6.06의 3배 초과)",
       "candidates": {
         "historicalPer": 20.892171704786744,
         "historicalPerYearsUsed": 5,
@@ -1212,7 +1367,7 @@ const PRICE_MAP_DATA = {
         "peers": [
           {
             "ticker": "MU",
-            "per": 18.35411574516987
+            "per": 17.440172102506068
           }
         ],
         "excluded": [
@@ -1228,71 +1383,95 @@ const PRICE_MAP_DATA = {
         "note": "업종 비교 불가(정상화 비교군 부족) - 업종 비교 불가(정상화기준 유효 비교군 1개 <3개)"
       },
       "epsUsedForCandidates": 11.0484,
-      "ttmEps": 13.880251,
+      "ttmEps": 19.040250999999998,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 14.6336906099896,
+        "finnhub": 14.68610579697554,
         "peTTM": 47.6961,
-        "finnhubUpdated": "2026-10-28 17:28",
-        "periods": "Q4'25~Q3'26",
+        "finnhubUpdated": "2026-10-29 13:52",
+        "periods": "Q1'26~Q3'26",
         "endDates": [
-          "2025-10-03",
           "2026-01-02",
           "2026-04-03",
-          "2026-07-03"
+          "2026-07-03",
+          "2026-09-30"
         ],
         "secVerified": false,
-        "quarterly": 13.880251,
+        "quarterly": 19.040250999999998,
         "checks": [
           "분기 연속 OK",
           "최신성 OK(승인 근거 2026-07-03)",
-          "역산 주식수 일관(±2.6%)",
+          "역산 주식수 일관(±1.7%)",
           "공시 주식수 대조 +2.3%"
         ],
-        "gapPct": 5.42814110486618,
-        "gapCause": null,
+        "gapPct": -22.868108214668283,
+        "gapPrevPct": 5.805765306229249,
+        "gapCause": "period",
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": {
-        "ntm_eps_raw": 43.55044408219178,
+        "ntm_eps_raw": 48.611150383561636,
         "normalized_eps": 11.0484,
-        "change_pct": -74.63079830104924,
-        "fair_without_normalization": 367.1485347993912,
+        "change_pct": -77.27188121897207,
+        "fair_without_normalization": 409.8124144165857,
         "basis_without_normalization": "세 적정가 후보 중앙값",
         "candidates_without_normalization": [
           {
             "candidate": "historical_per",
-            "fairPrice": 289.98858719753787,
+            "fairPrice": 397.7921931942375,
             "per": 20.892171704786744,
-            "eps": 13.880251,
+            "eps": 19.040250999999998,
             "epsBasis": "TTM EPS"
           },
           {
             "candidate": "sector_per",
-            "fairPrice": 367.1485347993912,
+            "fairPrice": 409.8124144165857,
             "per": 8.43042,
-            "eps": 43.55044408219178,
+            "eps": 48.611150383561636,
             "epsBasis": "NTM EPS"
           },
           {
             "candidate": "growth_per_peg",
-            "fairPrice": 1306.5133224657534,
+            "fairPrice": 1458.3345115068491,
             "per": 30.0,
-            "eps": 43.55044408219178,
+            "eps": 48.611150383561636,
             "epsBasis": "NTM EPS"
           }
         ],
         "note": "표시 전용 참고값 - 정상화 EPS 대신 NTM EPS, 정상화 기준 업종PER 대신 forwardPE 기준 업종PER, 과거PER 후보는 TTM EPS. 판정·행동에 쓰지 않음."
       },
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 230.82506986316588,
+        "fairHistProxy": 130.64432588494344,
+        "proxyPer": 11.824728095013162,
+        "trailingPer": 20.892171704786744,
+        "modelSplitEligible": false,
+        "modelSplitRatio": 1.4359445453498019,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-09-30",
+        "latestOfficialSource": "8-K(실적) 2026-10-27",
+        "valuationActualPeriodEnd": "2026-09-30",
+        "valuationPeriods": "Q1'26~Q3'26",
+        "earningsReleaseDate": "2026-10-27",
+        "earningsReleaseAtUtc": "2026-10-28T04:59:00+00:00",
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fallback_45d",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 1.2563132218239743,
+        "epsTtmNtmRatio": 1.7233491727308927,
         "candSpread": 1.4359445453498019,
         "fairAltExCappedGrowth": 230.82506986316588,
         "fairAltGapPct": -17.896324700084687,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
-      "epsBasisNote": "경기순환형(WO8-B 최종본: (B) EPS 30%+·매출 5%+ 동반 감소 1회(2022→2023 EPS -135%·매출 -37%) + 이익 정점 의심(NTM EPS $36.66가 과거 8년 EPS 중앙값 $6.06의 3배 초과)) - NTM EPS(43.5504) 대신 정상화 EPS 11.0484(순이익률 사이클 중앙값 13.2% x NTM매출/주식수 83.7, 기준연수 8) 사용 - 업종PER·성장PER·과거PER 후보 전부 동일 기준 적용(item3)",
+      "epsBasisNote": "경기순환형(WO8-B 최종본: (B) EPS 30%+·매출 5%+ 동반 감소 1회(2022→2023 EPS -135%·매출 -37%) + 이익 정점 의심(NTM EPS $40.35가 과거 8년 EPS 중앙값 $6.06의 3배 초과)) - NTM EPS(48.6112) 대신 정상화 EPS 11.0484(순이익률 사이클 중앙값 13.2% x NTM매출/주식수 83.7, 기준연수 8) 사용 - 업종PER·성장PER·과거PER 후보 전부 동일 기준 적용(item3)",
       "convertedFairPer": 25.446085852393374,
       "fairPriceBasis": "적정가 후보 2개 평균",
       "fairPriceCandidates": [
@@ -1323,11 +1502,11 @@ const PRICE_MAP_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "매수",
-      "action": "분할매수",
+      "action": "관망(모델 민감도 높음)",
       "actionRaw": "분할매수",
-      "actionCapReason": null,
+      "actionCapReason": "model_split",
       "cashflowVeto": false,
       "fairPriceUpper": null,
       "fairPriceB": null,
@@ -1336,9 +1515,9 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": null,
       "sectorFewPeers": null,
-      "currentPrice": 215.3800048828125,
+      "currentPrice": 213.66000366210938,
       "fairPrice": 248.51900462897802,
-      "ratio": 0.8666540621485275,
+      "ratio": 0.8597330573615053,
       "bandAggressiveLe": 198.81520370318242,
       "bandDcaHigh": 223.66710416608024,
       "bandFairHigh": 273.37090509187584,
@@ -1365,13 +1544,13 @@ const PRICE_MAP_DATA = {
         "peers": [
           {
             "ticker": "AVGO",
-            "per": 55.41013002560854
+            "per": 54.33755433755433
           }
         ],
         "excluded": [
           {
             "ticker": "AMD",
-            "reason": "정상화기준 PER 308.8배 >80배 제외"
+            "reason": "정상화기준 PER 302.4배 >80배 제외"
           },
           {
             "ticker": "MRVL",
@@ -1384,9 +1563,9 @@ const PRICE_MAP_DATA = {
       "ttmEps": 7.91,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 7.91651982191001,
-        "peTTM": 27.2064,
-        "finnhubUpdated": "2026-10-28 17:26",
+        "finnhub": 7.809553184427291,
+        "peTTM": 27.3588,
+        "finnhubUpdated": "2026-10-29 13:51",
         "periods": "Q4'25~Q3'26",
         "endDates": [
           "2025-10-26",
@@ -1402,15 +1581,15 @@ const PRICE_MAP_DATA = {
           "역산 주식수 일관(±1.2%)",
           "공시 주식수 대조 +0.7%"
         ],
-        "gapPct": 0.08242505575233317,
+        "gapPct": -1.2698712461783668,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": {
-        "ntm_eps_raw": 14.214312547945205,
+        "ntm_eps_raw": 14.232400712328769,
         "normalized_eps": 6.114639999999999,
-        "change_pct": -56.98251336900623,
-        "fair_without_normalization": 426.42937643835614,
+        "change_pct": -57.037184916363316,
+        "fair_without_normalization": 426.97202136986306,
         "basis_without_normalization": "세 적정가 후보 중앙값",
         "candidates_without_normalization": [
           {
@@ -1422,20 +1601,43 @@ const PRICE_MAP_DATA = {
           },
           {
             "candidate": "sector_per",
-            "fairPrice": 639.4993629557962,
+            "fairPrice": 640.3131462155432,
             "per": 44.98982,
-            "eps": 14.214312547945205,
+            "eps": 14.232400712328769,
             "epsBasis": "NTM EPS"
           },
           {
             "candidate": "growth_per_peg",
-            "fairPrice": 426.42937643835614,
+            "fairPrice": 426.97202136986306,
             "per": 30.0,
-            "eps": 14.214312547945205,
+            "eps": 14.232400712328769,
             "epsBasis": "NTM EPS"
           }
         ],
         "note": "표시 전용 참고값 - 정상화 EPS 대신 NTM EPS, 정상화 기준 업종PER 대신 forwardPE 기준 업종PER, 과거PER 후보는 TTM EPS. 판정·행동에 쓰지 않음."
+      },
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 313.5988092579561,
+        "fairHistProxy": 177.97345447823656,
+        "proxyPer": 29.106121452487244,
+        "trailingPer": 51.28655313443737,
+        "modelSplitEligible": true,
+        "modelSplitRatio": 1.7095517711479125,
+        "actionBeforeModelSplit": "분할매수",
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-07-26",
+        "latestOfficialSource": "10-Q 2026-08-26",
+        "valuationActualPeriodEnd": "2026-07-26",
+        "valuationPeriods": "Q4'25~Q3'26",
+        "earningsReleaseDate": null,
+        "earningsReleaseAtUtc": null,
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
       },
       "diag": {
         "epsTtmNtmRatio": 1.2936166315596669,
@@ -1445,7 +1647,7 @@ const PRICE_MAP_DATA = {
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
-      "epsBasisNote": "경기순환형(WO8-B 최종본: (B) EPS 30%+·매출 5%+ 동반 감소 1회(2019→2020 EPS -32%·매출 -7%) + 이익 정점 의심(NTM EPS $9.31가 과거 8년 EPS 중앙값 $0.28의 3배 초과)) - NTM EPS(14.2143) 대신 정상화 EPS 6.1146(순이익률 사이클 중앙값 35.8% x NTM매출/주식수 17.08, 기준연수 8) 사용 - 업종PER·성장PER·과거PER 후보 전부 동일 기준 적용(item3)",
+      "epsBasisNote": "경기순환형(WO8-B 최종본: (B) EPS 30%+·매출 5%+ 동반 감소 1회(2019→2020 EPS -32%·매출 -7%) + 이익 정점 의심(NTM EPS $9.31가 과거 8년 EPS 중앙값 $0.28의 3배 초과)) - NTM EPS(14.2324) 대신 정상화 EPS 6.1146(순이익률 사이클 중앙값 35.8% x NTM매출/주식수 17.08, 기준연수 8) 사용 - 업종PER·성장PER·과거PER 후보 전부 동일 기준 적용(item3)",
       "convertedFairPer": 40.643276567218685,
       "fairPriceBasis": "적정가 후보 2개 평균",
       "fairPriceCandidates": [
@@ -1471,14 +1673,14 @@ const PRICE_MAP_DATA = {
         "경기순환형(item2)인데 비교군 정상화 EPS 유효 비교군 부족 - 업종PER 후보를 비움(forwardPE 기준으로 섞어 쓰지 않음, 원래 forwardPE 기준 업종PER 44.98982는 참고용으로만 보관) - 업종 비교 불가(정상화기준 유효 비교군 1개 <3개)"
       ],
       "recentChanges": [],
-      "nextUpdateDate": "2026-11-26"
+      "nextUpdateDate": "2026-11-18"
     },
     "AMD": {
       "ticker": "AMD",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "고평가",
-      "action": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 2.12배)",
-      "actionRaw": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 2.12배)",
+      "action": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 2.06배)",
+      "actionRaw": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 2.06배)",
       "actionCapReason": null,
       "cashflowVeto": false,
       "fairPriceUpper": null,
@@ -1488,12 +1690,12 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 578.4400024414062,
-      "fairPrice": 272.65103242937096,
-      "ratio": 2.12153974730042,
-      "bandAggressiveLe": 218.12082594349678,
-      "bandDcaHigh": 245.38592918643386,
-      "bandFairHigh": 299.9161356723081,
+      "currentPrice": 566.4199829101562,
+      "fairPrice": 274.5787479812417,
+      "ratio": 2.062868984124191,
+      "bandAggressiveLe": 219.66299838499336,
+      "bandDcaHigh": 247.12087318311754,
+      "bandFairHigh": 302.03662277936587,
       "modelCheckNeeded": true,
       "confidence": "낮음",
       "confidenceNote": "적정가/현재가 비율이 2배 초과 또는 0.5배 미만 - 모델 점검 필요로 강제 낮음",
@@ -1531,13 +1733,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 3개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 14.346097835616437,
+      "epsUsedForCandidates": 14.447528575342467,
       "ttmEps": 3.8899999999999997,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 4.054095744344747,
-        "peTTM": 142.6804,
-        "finnhubUpdated": "2026-10-28 17:26",
+        "finnhub": 3.8693219697197723,
+        "peTTM": 146.3874,
+        "finnhubUpdated": "2026-10-29 13:51",
         "periods": "Q3'25~Q2'26",
         "endDates": [
           "2025-09-27",
@@ -1553,16 +1755,39 @@ const PRICE_MAP_DATA = {
           "역산 주식수 일관(±1.3%)",
           "공시 주식수 대조 +2.0%"
         ],
-        "gapPct": 4.218399597551348,
+        "gapPct": -0.5315689018053349,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 221.2002325391955,
+        "fairHistProxy": 599.3213726041505,
+        "proxyPer": 41.48262240692222,
+        "trailingPer": 56.86381299208111,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-06-27",
+        "latestOfficialSource": "10-Q 2026-08-05",
+        "valuationActualPeriodEnd": "2026-06-27",
+        "valuationPeriods": "Q3'25~Q2'26",
+        "earningsReleaseDate": null,
+        "earningsReleaseAtUtc": null,
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.2711538736577179,
-        "candSpread": 1.9456712596006496,
-        "fairAltExCappedGrowth": 246.92563248428323,
-        "fairAltGapPct": -9.435284259102072,
+        "epsTtmNtmRatio": 0.26925020287823104,
+        "candSpread": 1.9594276745774817,
+        "fairAltExCappedGrowth": 247.8894902602186,
+        "fairAltGapPct": -9.720074083390617,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -1579,16 +1804,16 @@ const PRICE_MAP_DATA = {
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 272.65103242937096,
+          "fairPrice": 274.5787479812417,
           "per": 19.00524,
-          "eps": 14.346097835616437,
+          "eps": 14.447528575342467,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 430.3829350684931,
+          "fairPrice": 433.42585726027403,
           "per": 30.0,
-          "eps": 14.346097835616437,
+          "eps": 14.447528575342467,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -1596,16 +1821,6 @@ const PRICE_MAP_DATA = {
       "dispersionFlag": "최대/최소 2.99배 > 기준 1.5배 - 계산은 그대로, 원인 점검 필요",
       "qualityWarnings": [],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 270.63417865705975,
-          "newFairPrice": 271.8004953495288,
-          "changePct": 0.43095690952876625,
-          "epsEffect": 1.166316692469026,
-          "perEffect": 0.0,
-          "otherEffect": 0.0,
-          "note": "EPS 14.2400->14.3013(적정PER 19.01배 유지 가정 시 +1.17) + 적정PER 19.01->19.01배(EPS 14.3013 유지 가정 시 +0.00)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 271.8004953495288,
@@ -1625,31 +1840,41 @@ const PRICE_MAP_DATA = {
           "perEffect": 0.0,
           "otherEffect": 0.0,
           "note": "EPS 14.3237->14.3461(적정PER 19.01배 유지 가정 시 +0.43) + 적정PER 19.01->19.01배(EPS 14.3461 유지 가정 시 +0.00)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 272.65103242937096,
+          "newFairPrice": 274.5787479812417,
+          "changePct": 0.7070266834108172,
+          "epsEffect": 1.927715551870741,
+          "perEffect": 0.0,
+          "otherEffect": 0.0,
+          "note": "EPS 14.3461->14.4475(적정PER 19.01배 유지 가정 시 +1.93) + 적정PER 19.01->19.01배(EPS 14.4475 유지 가정 시 +0.00)"
         }
       ],
       "nextUpdateDate": "2026-11-04"
     },
     "AVGO": {
       "ticker": "AVGO",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "매수",
       "action": "분할매수",
       "actionRaw": "적극 모아가기",
       "actionCapReason": "low_confidence_cap",
       "cashflowVeto": false,
-      "fairPriceUpper": 582.6700084931507,
-      "fairPriceB": 575.6695162138501,
+      "fairPriceUpper": 583.3110542465753,
+      "fairPriceB": 576.1501917648225,
       "fairBasisMode": "ex_capped_growth_floor_b",
       "candidateBadge": null,
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 351.80999755859375,
-      "fairPrice": 575.6695162138501,
-      "ratio": 0.6111318866985188,
-      "bandAggressiveLe": 460.5356129710801,
-      "bandDcaHigh": 518.1025645924651,
-      "bandFairHigh": 633.2364678352352,
+      "currentPrice": 345.0,
+      "fairPrice": 576.1501917648225,
+      "ratio": 0.5988021959052385,
+      "bandAggressiveLe": 460.920153411858,
+      "bandDcaHigh": 518.5351725883403,
+      "bandFairHigh": 633.7652109413048,
       "modelCheckNeeded": false,
       "confidence": "낮음",
       "confidenceNote": "적정가 후보 중 최대 괴리 ±52% (±40% 밖) / 사업 위험으로 신뢰도 1단계 하향(낮음→낮음): EPS 하향 수정이 상향보다 많음(방향은 보합)",
@@ -1689,13 +1914,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 3개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 19.422333616438358,
+      "epsUsedForCandidates": 19.443701808219178,
       "ttmEps": 7.83,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 8.225163833654268,
-        "peTTM": 42.7724,
-        "finnhubUpdated": "2026-10-28 17:26",
+        "finnhub": 7.94681850848582,
+        "peTTM": 43.4136,
+        "finnhubUpdated": "2026-10-29 13:51",
         "periods": "Q4'25~Q3'26",
         "endDates": [
           "2025-11-02",
@@ -1711,22 +1936,45 @@ const PRICE_MAP_DATA = {
           "역산 주식수 일관(±0.5%)",
           "공시 주식수 대조 +2.3%"
         ],
-        "gapPct": 5.046792256120924,
+        "gapPct": 1.49193497427611,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 277.53173904418946,
+        "fairHistProxy": 453.2067804327529,
+        "proxyPer": 23.3086675008138,
+        "trailingPer": 35.44466654459635,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-08-02",
+        "latestOfficialSource": "10-Q 2026-09-10",
+        "valuationActualPeriodEnd": "2026-08-02",
+        "valuationPeriods": "Q4'25~Q3'26",
+        "earningsReleaseDate": null,
+        "earningsReleaseAtUtc": null,
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.403144140896281,
-        "candSpread": 3.148495002383783,
-        "fairAltExCappedGrowth": 575.6695162138501,
+        "epsTtmNtmRatio": 0.4027010945359246,
+        "candSpread": 3.1519589344920727,
+        "fairAltExCappedGrowth": 576.1501917648225,
         "fairAltGapPct": 0.0,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 29.639564821738222,
-      "fairPriceBasis": "B안: 성장 PER 상한 후보 제외, 나머지 두 후보의 평균 (A안 상한 포함 $582.67, 낮은 쪽 적용)",
+      "convertedFairPer": 29.631713006484915,
+      "fairPriceBasis": "B안: 성장 PER 상한 후보 제외, 나머지 두 후보의 평균 (A안 상한 포함 $583.31, 낮은 쪽 적용)",
       "fairPriceCandidates": [
         {
           "candidate": "historical_per",
@@ -1737,16 +1985,16 @@ const PRICE_MAP_DATA = {
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 873.8072933835108,
+          "fairPrice": 874.7686444854554,
           "per": 44.98982,
-          "eps": 19.422333616438358,
+          "eps": 19.443701808219178,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 582.6700084931507,
+          "fairPrice": 583.3110542465753,
           "per": 30.0,
-          "eps": 19.422333616438358,
+          "eps": 19.443701808219178,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -1756,16 +2004,6 @@ const PRICE_MAP_DATA = {
         "⚠ 사업 경고(현금흐름/EPS 하향): EPS 하향 수정이 상향보다 많음(방향은 보합)"
       ],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 578.4732887671233,
-          "newFairPrice": 580.3897364383563,
-          "changePct": 0.33129406464340055,
-          "epsEffect": 1.916447671232966,
-          "perEffect": 0.0,
-          "otherEffect": 0.0,
-          "note": "EPS 19.2824->19.3463(적정PER 30.00배 유지 가정 시 +1.92) + 적정PER 30.00->30.00배(EPS 19.3463 유지 가정 시 +0.00)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 580.3897364383563,
@@ -1785,16 +2023,26 @@ const PRICE_MAP_DATA = {
           "perEffect": -7.000492279300607,
           "otherEffect": 0.0,
           "note": "EPS 19.4010->19.4223(적정PER 30.00배 유지 가정 시 +0.64) + 적정PER 30.00->29.64배(EPS 19.4223 유지 가정 시 -7.00)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 575.6695162138501,
+          "newFairPrice": 576.1501917648225,
+          "changePct": 0.08349852431543425,
+          "epsEffect": 0.6333439054109335,
+          "perEffect": -0.1526683544385309,
+          "otherEffect": 0.0,
+          "note": "EPS 19.4223->19.4437(적정PER 29.64배 유지 가정 시 +0.63) + 적정PER 29.64->29.63배(EPS 19.4437 유지 가정 시 -0.15)"
         }
       ],
       "nextUpdateDate": "2026-12-10"
     },
     "MRVL": {
       "ticker": "MRVL",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "고평가",
-      "action": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 2.03배)",
-      "actionRaw": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 2.03배)",
+      "action": "신규 추격 금지",
+      "actionRaw": "신규 추격 금지",
       "actionCapReason": null,
       "cashflowVeto": false,
       "fairPriceUpper": null,
@@ -1804,15 +2052,15 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 251.64999389648438,
-      "fairPrice": 124.07419100356603,
-      "ratio": 2.028221919974088,
-      "bandAggressiveLe": 99.25935280285283,
-      "bandDcaHigh": 111.66677190320942,
-      "bandFairHigh": 136.48161010392263,
-      "modelCheckNeeded": true,
+      "currentPrice": 218.33999633789062,
+      "fairPrice": 124.23572252627838,
+      "ratio": 1.757465501049485,
+      "bandAggressiveLe": 99.38857802102271,
+      "bandDcaHigh": 111.81215027365054,
+      "bandFairHigh": 136.65929477890623,
+      "modelCheckNeeded": false,
       "confidence": "낮음",
-      "confidenceNote": "적정가/현재가 비율이 2배 초과 또는 0.5배 미만 - 모델 점검 필요로 강제 낮음",
+      "confidenceNote": "EPS 품질 경고: 과거 PER 이력 부족(1년치)",
       "bizRiskBadge": false,
       "bizRiskDetail": [],
       "stockType": "기타",
@@ -1847,13 +2095,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 3개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 6.528420109589041,
+      "epsUsedForCandidates": 6.536919424657535,
       "ttmEps": 3.0300000000000002,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 3.110357359199432,
-        "peTTM": 80.9071,
-        "finnhubUpdated": "2026-10-28 17:26",
+        "finnhub": 2.6335627438782465,
+        "peTTM": 82.9067,
+        "finnhubUpdated": "2026-10-29 13:51",
         "periods": "Q4'25~Q3'26",
         "endDates": [
           "2025-11-01",
@@ -1870,16 +2118,40 @@ const PRICE_MAP_DATA = {
           "공시 주식수 대조 +6.4%",
           "Q4'25 EPS 2.2 크기 이례적 - SEC 대조 확인(GAAP 희석 EPS 맞음)"
         ],
-        "gapPct": 2.6520580593871967,
-        "gapCause": null,
+        "gapPct": -13.083737825800457,
+        "gapPrevPct": -9.809495072662799,
+        "gapCause": "period",
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 31.128719134208488,
+        "fairHistProxy": null,
+        "proxyPer": null,
+        "trailingPer": 10.273504664755276,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-08-01",
+        "latestOfficialSource": "10-Q 2026-08-28",
+        "valuationActualPeriodEnd": "2026-08-01",
+        "valuationPeriods": "Q4'25~Q3'26",
+        "earningsReleaseDate": null,
+        "earningsReleaseAtUtc": null,
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.4641245430191435,
-        "candSpread": 6.291701320676624,
-        "fairAltExCappedGrowth": 77.60145506888726,
-        "fairAltGapPct": -37.4556026187131,
+        "epsTtmNtmRatio": 0.46352108740559245,
+        "candSpread": 6.2998924528255404,
+        "fairAltExCappedGrowth": 77.68222083024344,
+        "fairAltGapPct": -37.47191286804641,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -1896,16 +2168,16 @@ const PRICE_MAP_DATA = {
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 124.07419100356603,
+          "fairPrice": 124.23572252627838,
           "per": 19.00524,
-          "eps": 6.528420109589041,
+          "eps": 6.536919424657535,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 195.85260328767123,
+          "fairPrice": 196.10758273972604,
           "per": 30.0,
-          "eps": 6.528420109589041,
+          "eps": 6.536919424657535,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -1915,16 +2187,6 @@ const PRICE_MAP_DATA = {
         "과거 PER 이력 부족(1년치)"
       ],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 123.264830728777,
-          "newFairPrice": 123.75044689365042,
-          "changePct": 0.39396165313521964,
-          "epsEffect": 0.48561616487342407,
-          "perEffect": 0.0,
-          "otherEffect": 0.0,
-          "note": "EPS 6.4858->6.5114(적정PER 19.01배 유지 가정 시 +0.49) + 적정PER 19.01->19.01배(EPS 6.5114 유지 가정 시 +0.00)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 123.75044689365042,
@@ -1944,13 +2206,23 @@ const PRICE_MAP_DATA = {
           "perEffect": 0.0,
           "otherEffect": 0.0,
           "note": "EPS 6.5199->6.5284(적정PER 19.01배 유지 가정 시 +0.16) + 적정PER 19.01->19.01배(EPS 6.5284 유지 가정 시 +0.00)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 124.07419100356603,
+          "newFairPrice": 124.23572252627838,
+          "changePct": 0.13018946277691962,
+          "epsEffect": 0.16153152271235327,
+          "perEffect": 0.0,
+          "otherEffect": 0.0,
+          "note": "EPS 6.5284->6.5369(적정PER 19.01배 유지 가정 시 +0.16) + 적정PER 19.01->19.01배(EPS 6.5369 유지 가정 시 +0.00)"
         }
       ],
       "nextUpdateDate": "2026-11-27"
     },
     "TSM": {
       "ticker": "TSM",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "매수",
       "action": "분할매수",
       "actionRaw": "분할매수",
@@ -1963,12 +2235,12 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 439.510009765625,
-      "fairPrice": 527.327323215315,
-      "ratio": 0.8334671662484043,
-      "bandAggressiveLe": 421.861858572252,
-      "bandDcaHigh": 474.5945908937835,
-      "bandFairHigh": 580.0600555368466,
+      "currentPrice": 431.80999755859375,
+      "fairPrice": 527.7071370507466,
+      "ratio": 0.8182758337738173,
+      "bandAggressiveLe": 422.1657096405973,
+      "bandDcaHigh": 474.936423345672,
+      "bandFairHigh": 580.4778507558214,
       "modelCheckNeeded": false,
       "confidence": "낮음",
       "confidenceNote": "EPS 품질 경고: ADR 통화환산 적용(TWD->USD); WO8-B 분류 불가(이력 부족 - 유효 4개년 <5년; 필터 없음(원본 그대로))",
@@ -1977,7 +2249,7 @@ const PRICE_MAP_DATA = {
       "stockType": "분류불가(이력부족)",
       "stockTypeReason": "유효 연간 EPS 4개년(<5년 기준) - 필터 없음(원본 그대로)",
       "candidates": {
-        "historicalPer": 24.53155921734308,
+        "historicalPer": 24.691373935371374,
         "historicalPerYearsUsed": 4,
         "historicalPerEpsBasis": "TTM EPS",
         "sectorPer": 23.57275,
@@ -2006,13 +2278,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 3개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 22.37020810958904,
-      "ttmEps": 15.1804862757,
+      "epsUsedForCandidates": 22.386320520547947,
+      "ttmEps": 15.0822307011,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 18.10553327781474,
-        "peTTM": 24.2749,
-        "finnhubUpdated": "2026-10-28 17:27",
+        "finnhub": 17.677207964736212,
+        "peTTM": 24.4275,
+        "finnhubUpdated": "2026-10-29 13:51",
         "periods": "Q4'25~Q3'26",
         "endDates": [
           "2025-12-31",
@@ -2021,24 +2293,47 @@ const PRICE_MAP_DATA = {
           "2026-09-30"
         ],
         "secVerified": false,
-        "quarterly": 15.1804862757,
+        "quarterly": 15.0822307011,
         "checks": [
           "분기 연속 OK",
           "최신성 OK(승인 근거 2026-09-30)",
           "역산 주식수 일관(±4.2%)",
-          "TWD491.28(원천값이 이미 ADR 1주 기준, ADR비율 미적용) x TWDUSD=X(0.0309) = $15.18(ADR 1주)"
+          "TWD491.28(원천값이 이미 ADR 1주 기준, ADR비율 미적용) x TWDUSD=X(0.0307) = $15.08(ADR 1주)"
         ],
-        "gapPct": 19.26846708986507,
-        "gapPrevPct": 35.83855066159596,
+        "gapPct": 17.20552692147157,
+        "gapPrevPct": 33.48900421890526,
         "gapCause": "fx_adr",
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 372.40099802039845,
+        "fairHistProxy": 335.9172327717667,
+        "proxyPer": 15.005468739868846,
+        "trailingPer": 24.691373935371374,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": null,
+        "latestOfficialSource": null,
+        "valuationActualPeriodEnd": "2026-09-30",
+        "valuationPeriods": "Q4'25~Q3'26",
+        "earningsReleaseDate": null,
+        "earningsReleaseAtUtc": null,
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": null,
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.6786028185939339,
-        "candSpread": 1.8021064574346577,
-        "fairAltExCappedGrowth": 449.8641606178567,
-        "fairAltGapPct": -14.689768420330651,
+        "epsTtmNtmRatio": 0.6737253085988977,
+        "candSpread": 1.8034044462460108,
+        "fairAltExCappedGrowth": 450.0540675355725,
+        "fairAltGapPct": -14.71518273358251,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -2049,22 +2344,22 @@ const PRICE_MAP_DATA = {
         {
           "candidate": "historical_per",
           "fairPrice": 372.40099802039845,
-          "per": 24.53155921734308,
-          "eps": 15.1804862757,
+          "per": 24.691373935371374,
+          "eps": 15.0822307011,
           "epsBasis": "TTM EPS"
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 527.327323215315,
+          "fairPrice": 527.7071370507466,
           "per": 23.57275,
-          "eps": 22.37020810958904,
+          "eps": 22.386320520547947,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 671.1062432876712,
+          "fairPrice": 671.5896156164384,
           "per": 30.0,
-          "eps": 22.37020810958904,
+          "eps": 22.386320520547947,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -2075,16 +2370,6 @@ const PRICE_MAP_DATA = {
         "WO8-B 분류 불가(이력 부족 - 유효 4개년 <5년; 필터 없음(원본 그대로))"
       ],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 525.4282540381575,
-          "newFairPrice": 526.567695544452,
-          "changePct": 0.2168595802637835,
-          "epsEffect": 1.1394415062945074,
-          "perEffect": 0.0,
-          "otherEffect": 0.0,
-          "note": "EPS 22.2896->22.3380(적정PER 23.57배 유지 가정 시 +1.14) + 적정PER 23.57->23.57배(EPS 22.3380 유지 가정 시 +0.00)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 526.567695544452,
@@ -2104,13 +2389,23 @@ const PRICE_MAP_DATA = {
           "perEffect": 0.0,
           "otherEffect": 0.0,
           "note": "EPS 22.3541->22.3702(적정PER 23.57배 유지 가정 시 +0.38) + 적정PER 23.57->23.57배(EPS 22.3702 유지 가정 시 +0.00)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 527.327323215315,
+          "newFairPrice": 527.7071370507466,
+          "changePct": 0.0720262005609222,
+          "epsEffect": 0.37981383543158614,
+          "perEffect": 0.0,
+          "otherEffect": 0.0,
+          "note": "EPS 22.3702->22.3863(적정PER 23.57배 유지 가정 시 +0.38) + 적정PER 23.57->23.57배(EPS 22.3863 유지 가정 시 +0.00)"
         }
       ],
       "nextUpdateDate": "2027-01-01"
     },
     "INTC": {
       "ticker": "INTC",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "고평가",
       "action": "신규 추격 금지",
       "actionRaw": "신규 추격 금지",
@@ -2123,12 +2418,12 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 95.52999877929688,
-      "fairPrice": 62.25501137400329,
-      "ratio": 1.5344949213066676,
-      "bandAggressiveLe": 49.80400909920263,
-      "bandDcaHigh": 56.02951023660296,
-      "bandFairHigh": 68.48051251140362,
+      "currentPrice": 92.06999969482422,
+      "fairPrice": 61.845131313103565,
+      "ratio": 1.4887186386378761,
+      "bandAggressiveLe": 49.47610505048286,
+      "bandDcaHigh": 55.66061818179321,
+      "bandFairHigh": 68.02964444441393,
       "modelCheckNeeded": false,
       "confidence": "낮음",
       "confidenceNote": "EPS 품질 경고: EPS 일회성 정상화 적용; TTM EPS 미확보(peTTM 없음) - 과거PER 후보가 적정가에 못 들어감",
@@ -2166,13 +2461,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 3개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 2.4880661917808222,
+      "epsUsedForCandidates": 2.4716850410958906,
       "ttmEps": null,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
         "finnhub": null,
         "peTTM": null,
-        "finnhubUpdated": "2026-10-28 17:27",
+        "finnhubUpdated": "2026-10-29 13:51",
         "periods": "Q3'25~Q2'26",
         "endDates": [
           "2025-09-27",
@@ -2192,30 +2487,53 @@ const PRICE_MAP_DATA = {
         "source": "없음(분기 검증 실패·peTTM 없음)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": null,
+        "fairHistProxy": 30.060494290451736,
+        "proxyPer": 12.1619436904969,
+        "trailingPer": 11.656726240621182,
+        "modelSplitEligible": false,
+        "modelSplitRatio": 1.4967901335585838,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-06-27",
+        "latestOfficialSource": "10-Q 2026-07-24",
+        "valuationActualPeriodEnd": "2026-06-27",
+        "valuationPeriods": "Q3'25~Q2'26",
+        "earningsReleaseDate": null,
+        "earningsReleaseAtUtc": null,
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
         "epsTtmNtmRatio": null,
-        "candSpread": 1.4967901335585836,
-        "fairAltExCappedGrowth": 49.86803699458192,
-        "fairAltGapPct": -19.897152222823255,
+        "candSpread": 1.4967901335585838,
+        "fairAltExCappedGrowth": 49.539711393330414,
+        "fairAltGapPct": -19.897152222823266,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 25.021444999999996,
+      "convertedFairPer": 25.021445,
       "fairPriceBasis": "적정가 후보 2개 평균",
       "fairPriceCandidates": [
         {
           "candidate": "sector_per",
-          "fairPrice": 49.86803699458192,
+          "fairPrice": 49.539711393330414,
           "per": 20.04289,
-          "eps": 2.4880661917808222,
+          "eps": 2.4716850410958906,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 74.64198575342466,
+          "fairPrice": 74.15055123287672,
           "per": 30.0,
-          "eps": 2.4880661917808222,
+          "eps": 2.4716850410958906,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -2226,16 +2544,6 @@ const PRICE_MAP_DATA = {
         "TTM EPS 미확보(peTTM 없음) - 과거PER 후보가 적정가에 못 들어감"
       ],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 61.55789540728918,
-          "newFairPrice": 61.83750902688562,
-          "changePct": 0.45422868625773366,
-          "epsEffect": 0.27961361959643527,
-          "perEffect": 0.0,
-          "otherEffect": 0.0,
-          "note": "EPS 2.4602->2.4714(적정PER 25.02배 유지 가정 시 +0.28) + 적정PER 25.02->25.02배(EPS 2.4714 유지 가정 시 +0.00)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 61.83750902688562,
@@ -2255,13 +2563,23 @@ const PRICE_MAP_DATA = {
           "perEffect": -8.839386793300798e-15,
           "otherEffect": 0.0,
           "note": "EPS 2.4930->2.4881(적정PER 25.02배 유지 가정 시 -0.12) + 적정PER 25.02->25.02배(EPS 2.4881 유지 가정 시 -0.00)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 62.25501137400329,
+          "newFairPrice": 61.845131313103565,
+          "changePct": -0.6583888619621764,
+          "epsEffect": -0.40988006089972884,
+          "perEffect": 8.781189255187949e-15,
+          "otherEffect": 0.0,
+          "note": "EPS 2.4881->2.4717(적정PER 25.02배 유지 가정 시 -0.41) + 적정PER 25.02->25.02배(EPS 2.4717 유지 가정 시 +0.00)"
         }
       ],
-      "nextUpdateDate": "2026-10-30"
+      "nextUpdateDate": "2027-01-01"
     },
     "QCOM": {
       "ticker": "QCOM",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "고평가",
       "action": "신규 추격 금지",
       "actionRaw": "신규 추격 금지",
@@ -2274,9 +2592,9 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": null,
       "sectorFewPeers": null,
-      "currentPrice": 182.97000122070312,
+      "currentPrice": 185.41000366210938,
       "fairPrice": 111.68829297569886,
-      "ratio": 1.6382200528439783,
+      "ratio": 1.6600665899912257,
       "bandAggressiveLe": 89.35063438055909,
       "bandDcaHigh": 100.51946367812897,
       "bandFairHigh": 122.85712227326876,
@@ -2324,9 +2642,9 @@ const PRICE_MAP_DATA = {
       "ttmEps": 8.64,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 8.746050545197875,
-        "peTTM": 20.9203,
-        "finnhubUpdated": "2026-10-28 17:26",
+        "finnhub": 8.89111625260674,
+        "peTTM": 20.8534,
+        "finnhubUpdated": "2026-10-29 13:51",
         "periods": "Q3'25~Q2'26",
         "endDates": [
           "2025-09-28",
@@ -2342,11 +2660,34 @@ const PRICE_MAP_DATA = {
           "역산 주식수 일관(±0.9%)",
           "공시 주식수 대조 +2.0%"
         ],
-        "gapPct": 1.227436865716136,
+        "gapPct": 2.9064381088742985,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 146.97881095139772,
+        "fairHistProxy": 148.20068170266836,
+        "proxyPer": 14.548919949174078,
+        "trailingPer": 17.011436452708068,
+        "modelSplitEligible": false,
+        "modelSplitRatio": 1.9238624547821939,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-06-28",
+        "latestOfficialSource": "10-Q 2026-07-29",
+        "valuationActualPeriodEnd": "2026-06-28",
+        "valuationPeriods": "Q3'25~Q2'26",
+        "earningsReleaseDate": null,
+        "earningsReleaseAtUtc": null,
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
         "epsTtmNtmRatio": 0.8481922412007418,
         "candSpread": 1.9238624547821939,
@@ -2415,10 +2756,10 @@ const PRICE_MAP_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "고평가",
-      "action": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 2.90배)",
-      "actionRaw": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 2.90배)",
+      "action": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 2.81배)",
+      "actionRaw": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 2.81배)",
       "actionCapReason": null,
       "cashflowVeto": false,
       "fairPriceUpper": null,
@@ -2428,12 +2769,12 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": null,
       "sectorFewPeers": null,
-      "currentPrice": 235.89999389648438,
-      "fairPrice": 81.46898383561646,
-      "ratio": 2.895580413430345,
-      "bandAggressiveLe": 65.17518706849317,
-      "bandDcaHigh": 73.32208545205481,
-      "bandFairHigh": 89.6158822191781,
+      "currentPrice": 228.77000427246094,
+      "fairPrice": 81.53778328767122,
+      "ratio": 2.8056932019520784,
+      "bandAggressiveLe": 65.23022663013698,
+      "bandDcaHigh": 73.3840049589041,
+      "bandFairHigh": 89.69156161643835,
       "modelCheckNeeded": true,
       "confidence": "낮음",
       "confidenceNote": "적정가/현재가 비율이 2배 초과 또는 0.5배 미만 - 모델 점검 필요로 강제 낮음",
@@ -2467,13 +2808,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 2개 이하(최소 3개 기준 미달)"
       },
-      "epsUsedForCandidates": 2.7156327945205483,
-      "ttmEps": 1.0963668562410853,
+      "epsUsedForCandidates": 2.717926109589041,
+      "ttmEps": 0.97,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 1.0963668562410853,
-        "peTTM": 215.1652,
-        "finnhubUpdated": "2026-10-28 17:26",
+        "finnhub": 1.0012495564139403,
+        "peTTM": 228.4845,
+        "finnhubUpdated": "2026-10-29 13:51",
         "periods": "Q3'25~Q2'26",
         "endDates": [
           "2025-09-30",
@@ -2488,14 +2829,36 @@ const PRICE_MAP_DATA = {
           "최신성 OK(승인 근거 2026-06-30)",
           "역산 주식수 일관(±1.9%)"
         ],
-        "gapPct": 13.027510952689214,
-        "gapPrevPct": 30.51986383822445,
-        "gapCause": "definition_unexplained",
-        "source": "finnhub_peTTM(차이 원인 미확인 - 검증 전 유지)"
+        "gapPct": 3.221603754014457,
+        "gapCause": null,
+        "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": null,
+        "fairHistProxy": null,
+        "proxyPer": null,
+        "trailingPer": null,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": null,
+        "latestOfficialSource": null,
+        "valuationActualPeriodEnd": "2026-06-30",
+        "valuationPeriods": "Q3'25~Q2'26",
+        "earningsReleaseDate": null,
+        "earningsReleaseAtUtc": null,
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": null,
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.40372426583346355,
+        "epsTtmNtmRatio": 0.3568897611225594,
         "candSpread": null,
         "fairAltExCappedGrowth": null,
         "fairAltGapPct": null,
@@ -2503,14 +2866,14 @@ const PRICE_MAP_DATA = {
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": "WO8-B 분류 불가(이력 부족, 유효 4개년 <5년) - 필터 없음(원본 그대로) - 경기순환 여부 판단 안 함, NTM EPS 그대로 사용",
-      "convertedFairPer": 30.000000000000004,
+      "convertedFairPer": 29.999999999999996,
       "fairPriceBasis": "적정가 후보 1개(growth_per_peg)만 사용",
       "fairPriceCandidates": [
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 81.46898383561646,
+          "fairPrice": 81.53778328767122,
           "per": 30.0,
-          "eps": 2.7156327945205483,
+          "eps": 2.717926109589041,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -2521,16 +2884,6 @@ const PRICE_MAP_DATA = {
         "WO8-B 분류 불가(이력 부족 - 유효 4개년 <5년; 필터 없음(원본 그대로))"
       ],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 81.12498657534246,
-          "newFairPrice": 81.33138493150686,
-          "changePct": 0.25442020378359376,
-          "epsEffect": 0.20639835616439228,
-          "perEffect": 0.0,
-          "otherEffect": 0.0,
-          "note": "EPS 2.7042->2.7110(적정PER 30.00배 유지 가정 시 +0.21) + 적정PER 30.00->30.00배(EPS 2.7110 유지 가정 시 +0.00)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 81.33138493150686,
@@ -2550,13 +2903,23 @@ const PRICE_MAP_DATA = {
           "perEffect": 9.647865775692382e-15,
           "otherEffect": 0.0,
           "note": "EPS 2.7133->2.7156(적정PER 30.00배 유지 가정 시 +0.07) + 적정PER 30.00->30.00배(EPS 2.7156 유지 가정 시 +0.00)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 81.46898383561646,
+          "newFairPrice": 81.53778328767122,
+          "changePct": 0.0844486439079461,
+          "epsEffect": 0.06879945205477524,
+          "perEffect": -1.931202653501203e-14,
+          "otherEffect": 0.0,
+          "note": "EPS 2.7156->2.7179(적정PER 30.00배 유지 가정 시 +0.07) + 적정PER 30.00->30.00배(EPS 2.7179 유지 가정 시 -0.00)"
         }
       ],
       "nextUpdateDate": "2026-11-06"
     },
     "ANET": {
       "ticker": "ANET",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "고평가",
       "action": "신규 추격 금지",
       "actionRaw": "신규 추격 금지",
@@ -2569,19 +2932,19 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": false,
       "sectorPerMethod": null,
       "sectorFewPeers": null,
-      "currentPrice": 186.72000122070312,
-      "fairPrice": 150.99410506230907,
-      "ratio": 1.2366045756796362,
-      "bandAggressiveLe": 120.79528404984727,
-      "bandDcaHigh": 135.89469455607818,
-      "bandFairHigh": 166.09351556854,
+      "currentPrice": 184.22000122070312,
+      "fairPrice": 151.03954191162416,
+      "ratio": 1.2196806140241967,
+      "bandAggressiveLe": 120.83163352929932,
+      "bandDcaHigh": 135.93558772046174,
+      "bandFairHigh": 166.14349610278657,
       "modelCheckNeeded": false,
       "confidence": "높음",
       "confidenceNote": "적정가 후보 모두 중앙값 ±0% 안",
       "bizRiskBadge": false,
       "bizRiskDetail": [],
       "stockType": "고성장형",
-      "stockTypeReason": "NTM PER 45.5배(기준 40 초과); 다음 회계연도 성장률 38.1%(기준 30% 초과)",
+      "stockTypeReason": "NTM PER 45.4배(기준 40 초과); 다음 회계연도 성장률 38.1%(기준 30% 초과)",
       "candidates": {
         "historicalPer": 47.64727228338068,
         "historicalPerYearsUsed": 5,
@@ -2602,19 +2965,19 @@ const PRICE_MAP_DATA = {
           },
           {
             "ticker": "CIEN",
-            "per": 50.867433593984416
+            "per": 50.68949491932749
           }
         ],
         "excluded": [],
         "note": "유효 비교군 2개 이하(최소 3개 기준 미달)"
       },
-      "epsUsedForCandidates": 5.031545232876712,
+      "epsUsedForCandidates": 5.034574356164384,
       "ttmEps": 3.17,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 3.3784101862667613,
-        "peTTM": 55.2686,
-        "finnhubUpdated": "2026-10-28 17:27",
+        "finnhub": 3.144496298887651,
+        "peTTM": 58.5849,
+        "finnhubUpdated": "2026-10-29 13:52",
         "periods": "Q3'25~Q2'26",
         "endDates": [
           "2025-09-30",
@@ -2630,21 +2993,44 @@ const PRICE_MAP_DATA = {
           "역산 주식수 일관(±0.4%)",
           "공시 주식수 대조 +1.2%"
         ],
-        "gapPct": 6.574453825449877,
+        "gapPct": -0.8045331581182702,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 151.04185313831675,
+        "fairHistProxy": 139.0585843673963,
+        "proxyPer": 27.620723129678588,
+        "trailingPer": 47.64727228338068,
+        "modelSplitEligible": false,
+        "modelSplitRatio": 1.0000306047281473,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-06-30",
+        "latestOfficialSource": "10-Q 2026-08-05",
+        "valuationActualPeriodEnd": "2026-06-30",
+        "valuationPeriods": "Q3'25~Q2'26",
+        "earningsReleaseDate": null,
+        "earningsReleaseAtUtc": null,
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.6300251420352628,
-        "candSpread": 1.0006326495976583,
+        "epsTtmNtmRatio": 0.6296460784452651,
+        "candSpread": 1.0000306047281473,
         "fairAltExCappedGrowth": 151.04185313831675,
-        "fairAltGapPct": 0.03162247690926545,
+        "fairAltGapPct": 0.0015302129914740448,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 30.00948974396488,
+      "convertedFairPer": 30.00045907092221,
       "fairPriceBasis": "적정가 후보 2개 평균",
       "fairPriceCandidates": [
         {
@@ -2656,9 +3042,9 @@ const PRICE_MAP_DATA = {
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 150.94635698630137,
+          "fairPrice": 151.03723068493153,
           "per": 30.0,
-          "eps": 5.031545232876712,
+          "eps": 5.034574356164384,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -2666,16 +3052,6 @@ const PRICE_MAP_DATA = {
       "dispersionFlag": "최대/최소 1.59배 > 기준 1.5배 - 계산은 그대로, 원인 점검 필요",
       "qualityWarnings": [],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 146.68850932441728,
-          "newFairPrice": 150.9032313636789,
-          "changePct": 2.873246213130657,
-          "epsEffect": 0.26573097057837786,
-          "perEffect": 3.948991068683251,
-          "otherEffect": 0.0,
-          "note": "EPS 5.0164->5.0255(적정PER 29.24배 유지 가정 시 +0.27) + 적정PER 29.24->30.03배(EPS 5.0255 유지 가정 시 +3.95)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 150.9032313636789,
@@ -2695,13 +3071,23 @@ const PRICE_MAP_DATA = {
           "perEffect": -0.045492982898220485,
           "otherEffect": 0.0,
           "note": "EPS 5.0285->5.0315(적정PER 30.02배 유지 가정 시 +0.09) + 적정PER 30.02->30.01배(EPS 5.0315 유지 가정 시 -0.05)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 150.99410506230907,
+          "newFairPrice": 151.03954191162416,
+          "changePct": 0.030091803449102228,
+          "epsEffect": 0.09090244423460532,
+          "perEffect": -0.04546559491952982,
+          "otherEffect": 0.0,
+          "note": "EPS 5.0315->5.0346(적정PER 30.01배 유지 가정 시 +0.09) + 적정PER 30.01->30.00배(EPS 5.0346 유지 가정 시 -0.05)"
         }
       ],
       "nextUpdateDate": "2026-11-04"
     },
     "ETN": {
       "ticker": "ETN",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "고평가",
       "action": "신규 추격 금지",
       "actionRaw": "신규 추격 금지",
@@ -2714,12 +3100,12 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": false,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 392.8800048828125,
-      "fairPrice": 328.29719615756625,
-      "ratio": 1.1967205613728413,
-      "bandAggressiveLe": 262.637756926053,
-      "bandDcaHigh": 295.4674765418096,
-      "bandFairHigh": 361.1269157733229,
+      "currentPrice": 393.7200012207031,
+      "fairPrice": 328.45020346800493,
+      "ratio": 1.1987205276889294,
+      "bandAggressiveLe": 262.76016277440397,
+      "bandDcaHigh": 295.60518312120445,
+      "bandFairHigh": 361.29522381480547,
       "modelCheckNeeded": false,
       "confidence": "높음",
       "confidenceNote": "적정가 후보 모두 중앙값 ±18% 안",
@@ -2751,19 +3137,19 @@ const PRICE_MAP_DATA = {
           },
           {
             "ticker": "MOD",
-            "per": 19.458328374079983
+            "per": 20.46039451187049
           }
         ],
         "excluded": [],
         "note": "유효 비교군 3개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 15.83069909589041,
+      "epsUsedForCandidates": 15.838077205479452,
       "ttmEps": 9.83,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 10.092685959504216,
-        "peTTM": 38.9272,
-        "finnhubUpdated": "2026-10-28 17:27",
+        "finnhub": 9.873831068027494,
+        "peTTM": 39.8751,
+        "finnhubUpdated": "2026-10-29 13:52",
         "periods": "Q3'25~Q2'26",
         "endDates": [
           "2025-09-30",
@@ -2779,14 +3165,37 @@ const PRICE_MAP_DATA = {
           "역산 주식수 일관(±0.3%)",
           "공시 주식수 대조 +0.2%"
         ],
-        "gapPct": 2.6722884995342477,
+        "gapPct": 0.4458908242878312,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 299.61276516709034,
+        "fairHistProxy": 401.4869335394846,
+        "proxyPer": 25.34947445518092,
+        "trailingPer": 30.479426771830145,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-06-30",
+        "latestOfficialSource": "10-Q 2026-07-31",
+        "valuationActualPeriodEnd": "2026-06-30",
+        "valuationPeriods": "Q3'25~Q2'26",
+        "earningsReleaseDate": null,
+        "earningsReleaseAtUtc": null,
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.6209454137468782,
-        "candSpread": 1.2879067093390761,
+        "epsTtmNtmRatio": 0.6206561486263714,
+        "candSpread": 1.2885069555306317,
         "fairAltExCappedGrowth": null,
         "fairAltGapPct": null,
         "fairAltApplicable": false,
@@ -2805,16 +3214,16 @@ const PRICE_MAP_DATA = {
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 328.29719615756625,
+          "fairPrice": 328.45020346800493,
           "per": 20.73801,
-          "eps": 15.83069909589041,
+          "eps": 15.838077205479452,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 385.8732904623287,
+          "fairPrice": 386.05313188356166,
           "per": 24.375,
-          "eps": 15.83069909589041,
+          "eps": 15.838077205479452,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -2822,16 +3231,6 @@ const PRICE_MAP_DATA = {
       "dispersionFlag": null,
       "qualityWarnings": [],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 327.5321596053731,
-          "newFairPrice": 327.991181536689,
-          "changePct": 0.14014560642500765,
-          "epsEffect": 0.45902193131588814,
-          "perEffect": 0.0,
-          "otherEffect": 0.0,
-          "note": "EPS 15.7938->15.8159(적정PER 20.74배 유지 가정 시 +0.46) + 적정PER 20.74->20.74배(EPS 15.8159 유지 가정 시 +0.00)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 327.991181536689,
@@ -2851,13 +3250,23 @@ const PRICE_MAP_DATA = {
           "perEffect": 0.0,
           "otherEffect": 0.0,
           "note": "EPS 15.8233->15.8307(적정PER 20.74배 유지 가정 시 +0.15) + 적정PER 20.74->20.74배(EPS 15.8307 유지 가정 시 +0.00)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 328.29719615756625,
+          "newFairPrice": 328.45020346800493,
+          "changePct": 0.046606340909852204,
+          "epsEffect": 0.15300731043866622,
+          "perEffect": 0.0,
+          "otherEffect": 0.0,
+          "note": "EPS 15.8307->15.8381(적정PER 20.74배 유지 가정 시 +0.15) + 적정PER 20.74->20.74배(EPS 15.8381 유지 가정 시 +0.00)"
         }
       ],
       "nextUpdateDate": "2026-11-04"
     },
     "HUBB": {
       "ticker": "HUBB",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "적정",
       "action": "관망(적정가 근처)",
       "actionRaw": "관망(적정가 근처)",
@@ -2870,9 +3279,9 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 437.3299865722656,
+      "currentPrice": 438.2300109863281,
       "fairPrice": 458.0723307193263,
-      "ratio": 0.9547181902157498,
+      "ratio": 0.956682998726775,
       "bandAggressiveLe": 366.4578645754611,
       "bandDcaHigh": 412.2650976473937,
       "bandFairHigh": 503.879563791259,
@@ -2892,7 +3301,7 @@ const PRICE_MAP_DATA = {
         "sectorPer": 28.30812,
         "sectorPerValidPeers": 3,
         "sectorPerEpsBasis": "NTM EPS",
-        "growthPerPeg": 18.86249955,
+        "growthPerPeg": 18.77249955,
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "sectorPeerDisplay": {
@@ -2909,19 +3318,19 @@ const PRICE_MAP_DATA = {
           },
           {
             "ticker": "MOD",
-            "per": 19.458328374079983
+            "per": 20.46039451187049
           }
         ],
         "excluded": [],
         "note": "유효 비교군 3개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 22.644715835616438,
+      "epsUsedForCandidates": 22.634195315068496,
       "ttmEps": 17.060000000000002,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 17.107259684410327,
-        "peTTM": 25.564,
-        "finnhubUpdated": "2026-10-28 17:27",
+        "finnhub": 17.265657444224484,
+        "peTTM": 25.3816,
+        "finnhubUpdated": "2026-10-29 13:52",
         "periods": "Q4'25~Q3'26",
         "endDates": [
           "2025-12-31",
@@ -2937,21 +3346,44 @@ const PRICE_MAP_DATA = {
           "역산 주식수 일관(±0.7%)",
           "공시 주식수 대조 +0.4%"
         ],
-        "gapPct": 0.27702042444504027,
+        "gapPct": 1.205494983730837,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 458.0723307193263,
+        "fairHistProxy": 487.47463344596264,
+        "proxyPer": 21.537086989853407,
+        "trailingPer": 26.85066416877645,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-09-30",
+        "latestOfficialSource": "10-Q 2026-10-28",
+        "valuationActualPeriodEnd": "2026-09-30",
+        "valuationPeriods": "Q4'25~Q3'26",
+        "earningsReleaseDate": "2026-10-27",
+        "earningsReleaseAtUtc": "2026-10-28T04:59:00+00:00",
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.7533766430916041,
-        "candSpread": 1.5007618648293088,
+        "epsTtmNtmRatio": 0.7537268174337293,
+        "candSpread": 1.5079568879254548,
         "fairAltExCappedGrowth": null,
         "fairAltGapPct": null,
         "fairAltApplicable": false,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 20.22866323625282,
+      "convertedFairPer": 20.238065649913743,
       "fairPriceBasis": "세 적정가 후보 중앙값",
       "fairPriceCandidates": [
         {
@@ -2963,21 +3395,21 @@ const PRICE_MAP_DATA = {
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 641.0293332405304,
+          "fairPrice": 640.7315170823967,
           "per": 28.30812,
-          "eps": 22.644715835616438,
+          "eps": 22.634195315068496,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 427.1359422591929,
-          "per": 18.86249955,
-          "eps": 22.644715835616438,
+          "fairPrice": 424.90042136673543,
+          "per": 18.77249955,
+          "eps": 22.634195315068496,
           "epsBasis": "NTM EPS"
         }
       ],
       "growthPerCapped": false,
-      "dispersionFlag": "최대/최소 1.50배 > 기준 1.5배 - 계산은 그대로, 원인 점검 필요",
+      "dispersionFlag": "최대/최소 1.51배 > 기준 1.5배 - 계산은 그대로, 원인 점검 필요",
       "qualityWarnings": [
         "⚠ 사업 경고(현금흐름/EPS 하향): EPS 하향 수정이 상향보다 많음(방향은 혼조)"
       ],
@@ -3017,7 +3449,7 @@ const PRICE_MAP_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "적정",
       "action": "관망(적정가 근처)",
       "actionRaw": "관망(적정가 근처)",
@@ -3030,19 +3462,19 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": false,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 242.94000244140625,
-      "fairPrice": 244.1355577208179,
-      "ratio": 0.9951029039334826,
-      "bandAggressiveLe": 195.30844617665434,
-      "bandDcaHigh": 219.7220019487361,
-      "bandFairHigh": 268.5491134928997,
+      "currentPrice": 245.9199981689453,
+      "fairPrice": 254.17990340515314,
+      "ratio": 0.9675037045590428,
+      "bandAggressiveLe": 203.34392272412254,
+      "bandDcaHigh": 228.76191306463784,
+      "bandFairHigh": 279.5978937456685,
       "modelCheckNeeded": false,
       "confidence": "보통",
-      "confidenceNote": "적정가 후보 중 최대 괴리 ±26%",
+      "confidenceNote": "적정가 후보 중 최대 괴리 ±24%",
       "bizRiskBadge": false,
       "bizRiskDetail": [],
       "stockType": "고성장형",
-      "stockTypeReason": "다음 회계연도 성장률 60.3%(기준 30% 초과)",
+      "stockTypeReason": "다음 회계연도 성장률 71.3%(기준 30% 초과)",
       "candidates": {
         "historicalPer": 47.510262318720216,
         "historicalPerYearsUsed": 3,
@@ -3067,71 +3499,93 @@ const PRICE_MAP_DATA = {
           },
           {
             "ticker": "MOD",
-            "per": 19.458328374079983
+            "per": 20.46039451187049
           }
         ],
         "excluded": [],
         "note": "유효 비교군 3개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 8.769815123287671,
-      "ttmEps": 5.138585766650723,
+      "epsUsedForCandidates": 9.25806298630137,
+      "ttmEps": 5.35,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 5.138585766650723,
+        "finnhub": 5.201617640678573,
         "peTTM": 47.2776,
-        "finnhubUpdated": "2026-10-28 17:27",
-        "periods": "Q3'25~Q2'26",
+        "finnhubUpdated": "2026-10-29 13:52",
+        "periods": "Q4'25~Q3'26",
         "endDates": [
-          "2025-09-30",
           "2025-12-31",
           "2026-03-31",
-          "2026-06-30"
+          "2026-06-30",
+          "2026-09-30"
         ],
         "secVerified": false,
-        "quarterly": 4.42,
+        "quarterly": 5.35,
         "checks": [
           "분기 연속 OK",
           "최신성 OK(승인 근거 2026-06-30)",
-          "역산 주식수 일관(±0.9%)",
+          "역산 주식수 일관(±0.8%)",
           "공시 주식수 대조 +1.8%"
         ],
-        "gapPct": 16.25759653055936,
-        "gapPrevPct": 29.110195141977968,
-        "gapCause": "definition_unexplained",
-        "source": "finnhub_peTTM(차이 원인 미확인 - 검증 전 유지)"
+        "gapPct": -2.7735020433911517,
+        "gapCause": null,
+        "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 254.17990340515314,
+        "fairHistProxy": 327.9212958274046,
+        "proxyPer": 35.4200761339182,
+        "trailingPer": 47.510262318720216,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-09-30",
+        "latestOfficialSource": "10-Q 2026-10-28",
+        "valuationActualPeriodEnd": "2026-09-30",
+        "valuationPeriods": "Q4'25~Q3'26",
+        "earningsReleaseDate": "2026-10-28",
+        "earningsReleaseAtUtc": "2026-10-29T04:59:00+00:00",
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.5859400334455791,
-        "candSpread": 1.4466190343239296,
-        "fairAltExCappedGrowth": 213.00203572285443,
-        "fairAltGapPct": -12.752555296990497,
+        "epsTtmNtmRatio": 0.5778746599495046,
+        "candSpread": 1.4466190343239298,
+        "fairAltExCappedGrowth": 223.0868530978504,
+        "fairAltGapPct": -12.232694202319216,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 27.83816469203916,
+      "convertedFairPer": 27.45497668154221,
       "fairPriceBasis": "세 적정가 후보 중앙값",
       "fairPriceCandidates": [
         {
           "candidate": "historical_per",
-          "fairPrice": 244.1355577208179,
+          "fairPrice": 254.17990340515314,
           "per": 47.510262318720216,
-          "eps": 5.138585766650723,
+          "eps": 5.35,
           "epsBasis": "TTM EPS"
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 181.86851372489096,
+          "fairPrice": 191.99380279054768,
           "per": 20.73801,
-          "eps": 8.769815123287671,
+          "eps": 9.25806298630137,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 263.0944536986301,
+          "fairPrice": 277.7418895890411,
           "per": 30.0,
-          "eps": 8.769815123287671,
+          "eps": 9.25806298630137,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -3139,16 +3593,6 @@ const PRICE_MAP_DATA = {
       "dispersionFlag": "최대/최소 2.29배 > 기준 1.5배 - 계산은 그대로, 원인 점검 필요",
       "qualityWarnings": [],
       "recentChanges": [
-        {
-          "date": "2026-10-24",
-          "prevFairPrice": 210.77980863473834,
-          "newFairPrice": 212.46733824790095,
-          "changePct": 0.8006125558672182,
-          "epsEffect": 0.6525579487272176,
-          "perEffect": 1.0349716644353777,
-          "otherEffect": 0.0,
-          "note": "EPS 8.7091->8.7361(적정PER 24.20배 유지 가정 시 +0.65) + 적정PER 24.20->24.32배(EPS 8.7361 유지 가정 시 +1.03)"
-        },
         {
           "date": "2026-10-27",
           "prevFairPrice": 212.46733824790095,
@@ -3168,13 +3612,23 @@ const PRICE_MAP_DATA = {
           "perEffect": 33.8168852606845,
           "otherEffect": 0.0,
           "note": "EPS 8.7563->8.7698(적정PER 23.98배 유지 가정 시 +0.32) + 적정PER 23.98->27.84배(EPS 8.7698 유지 가정 시 +33.82)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 244.1355577208179,
+          "newFairPrice": 254.17990340515314,
+          "changePct": 4.114249385917593,
+          "epsEffect": 13.59192442111153,
+          "perEffect": -3.5475787367762868,
+          "otherEffect": 0.0,
+          "note": "EPS 8.7698->9.2581(적정PER 27.84배 유지 가정 시 +13.59) + 적정PER 27.84->27.45배(EPS 9.2581 유지 가정 시 -3.55)"
         }
       ],
       "nextUpdateDate": "2027-01-01"
     },
     "MOD": {
       "ticker": "MOD",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "매수",
       "action": "적극 모아가기",
       "actionRaw": "적극 모아가기",
@@ -3187,12 +3641,12 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": false,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 143.5399932861328,
-      "fairPrice": 253.53241523589696,
-      "ratio": 0.5661603197862384,
-      "bandAggressiveLe": 202.8259321887176,
-      "bandDcaHigh": 228.17917371230726,
-      "bandFairHigh": 278.88565675948666,
+      "currentPrice": 138.7899932861328,
+      "fairPrice": 249.4657569410482,
+      "ratio": 0.556348875244351,
+      "bandAggressiveLe": 199.57260555283858,
+      "bandDcaHigh": 224.5191812469434,
+      "bandFairHigh": 274.41233263515306,
       "modelCheckNeeded": false,
       "confidence": "낮음",
       "confidenceNote": "EPS 품질 경고: 과거 PER 이력 부족(0년치); WO8-B 분류 불가(이력 부족 - 유효 0개년 <5년; corporate_events.json 기업분할/분리상장(2026-10-01) 이전 회계연도 8개 제외)",
@@ -3230,13 +3684,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 3개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 8.696298739726027,
+      "epsUsedForCandidates": 8.556810164383561,
       "ttmEps": 2.66,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 2.8279061847129303,
-        "peTTM": 50.7584,
-        "finnhubUpdated": "2026-10-28 17:27",
+        "finnhub": 2.624636548356606,
+        "peTTM": 52.8797,
+        "finnhubUpdated": "2026-10-29 13:52",
         "periods": "Q3'25~Q2'26",
         "endDates": [
           "2025-09-30",
@@ -3252,35 +3706,58 @@ const PRICE_MAP_DATA = {
           "역산 주식수 일관(±2.4%)",
           "공시 주식수 대조 +1.6%"
         ],
-        "gapPct": 6.3122625831928625,
+        "gapPct": -1.3294530693005235,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": null,
+        "fairHistProxy": null,
+        "proxyPer": null,
+        "trailingPer": null,
+        "modelSplitEligible": false,
+        "modelSplitRatio": 1.0597665970046757,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-06-30",
+        "latestOfficialSource": "10-Q 2026-07-30",
+        "valuationActualPeriodEnd": "2026-06-30",
+        "valuationPeriods": "Q3'25~Q2'26",
+        "earningsReleaseDate": null,
+        "earningsReleaseAtUtc": null,
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.3058772564756443,
+        "epsTtmNtmRatio": 0.3108635050794806,
         "candSpread": 1.0597665970046757,
-        "fairAltExCappedGrowth": 246.17586828001313,
-        "fairAltGapPct": -2.90161987730011,
+        "fairAltExCappedGrowth": 242.22720895058958,
+        "fairAltGapPct": -2.901619877300099,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": "WO8-B 분류 불가(이력 부족, 유효 0개년 <5년) - corporate_events.json 기업분할/분리상장(2026-10-01) 이전 회계연도 8개 제외 - 경기순환 여부 판단 안 함, NTM EPS 그대로 사용",
-      "convertedFairPer": 29.15406,
+      "convertedFairPer": 29.154059999999998,
       "fairPriceBasis": "적정가 후보 2개 평균",
       "fairPriceCandidates": [
         {
           "candidate": "sector_per",
-          "fairPrice": 246.17586828001313,
+          "fairPrice": 242.22720895058958,
           "per": 28.30812,
-          "eps": 8.696298739726027,
+          "eps": 8.556810164383561,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 260.8889621917808,
+          "fairPrice": 256.70430493150684,
           "per": 30.0,
-          "eps": 8.696298739726027,
+          "eps": 8.556810164383561,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -3291,16 +3768,6 @@ const PRICE_MAP_DATA = {
         "WO8-B 분류 불가(이력 부족 - 유효 0개년 <5년; corporate_events.json 기업분할/분리상장(2026-10-01) 이전 회계연도 8개 제외)"
       ],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 253.09062818926031,
-          "newFairPrice": 253.98897260794524,
-          "changePct": 0.3549496973128335,
-          "epsEffect": 0.8983444186849335,
-          "perEffect": 0.0,
-          "otherEffect": 0.0,
-          "note": "EPS 8.6811->8.7120(적정PER 29.15배 유지 가정 시 +0.90) + 적정PER 29.15->29.15배(EPS 8.7120 유지 가정 시 +0.00)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 253.98897260794524,
@@ -3320,13 +3787,23 @@ const PRICE_MAP_DATA = {
           "perEffect": 3.089545948756021e-14,
           "otherEffect": 0.0,
           "note": "EPS 8.6191->8.6963(적정PER 29.15배 유지 가정 시 +2.25) + 적정PER 29.15->29.15배(EPS 8.6963 유지 가정 시 +0.00)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 253.53241523589696,
+          "newFairPrice": 249.4657569410482,
+          "changePct": -1.6039993509567518,
+          "epsEffect": -4.066658294848754,
+          "perEffect": -3.039989651790464e-14,
+          "otherEffect": 0.0,
+          "note": "EPS 8.6963->8.5568(적정PER 29.15배 유지 가정 시 -4.07) + 적정PER 29.15->29.15배(EPS 8.5568 유지 가정 시 -0.00)"
         }
       ],
       "nextUpdateDate": "2026-11-04"
     },
     "PWR": {
       "ticker": "PWR",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "고평가",
       "action": "신규 추격 금지",
       "actionRaw": "신규 추격 금지",
@@ -3336,18 +3813,18 @@ const PRICE_MAP_DATA = {
       "fairPriceB": null,
       "fairBasisMode": "a_kept_capped_not_used",
       "candidateBadge": null,
-      "lowConfidenceCapEligible": true,
+      "lowConfidenceCapEligible": false,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 606.8900146484375,
-      "fairPrice": 407.9253739010761,
-      "ratio": 1.4877476457142655,
-      "bandAggressiveLe": 326.3402991208609,
-      "bandDcaHigh": 367.1328365109685,
-      "bandFairHigh": 448.7179112911838,
+      "currentPrice": 635.1799926757812,
+      "fairPrice": 476.4864067382812,
+      "ratio": 1.3330495554402362,
+      "bandAggressiveLe": 381.18912539062495,
+      "bandDcaHigh": 428.8377660644531,
+      "bandFairHigh": 524.1350474121093,
       "modelCheckNeeded": false,
-      "confidence": "낮음",
-      "confidenceNote": "적정가 후보 중 최대 괴리 ±43% (±40% 밖)",
+      "confidence": "보통",
+      "confidenceNote": "적정가 후보 중 최대 괴리 ±22%",
       "bizRiskBadge": false,
       "bizRiskDetail": [],
       "stockType": "고성장형",
@@ -3376,70 +3853,94 @@ const PRICE_MAP_DATA = {
           },
           {
             "ticker": "MTZ",
-            "per": 19.533521469072713
+            "per": 19.527048414349725
           }
         ],
         "excluded": [],
         "note": "유효 비교군 3개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 19.3849924109589,
-      "ttmEps": 8.73,
+      "epsUsedForCandidates": 19.393707452054795,
+      "ttmEps": 11.04,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 9.355465995095392,
-        "peTTM": 64.8701,
-        "finnhubUpdated": "2026-10-28 17:27",
-        "periods": "Q3'25~Q2'26",
+        "finnhub": 9.538182352542162,
+        "peTTM": 66.5934,
+        "finnhubUpdated": "2026-10-29 13:52",
+        "periods": "Q4'25~Q3'26",
         "endDates": [
-          "2025-09-30",
           "2025-12-31",
           "2026-03-31",
-          "2026-06-30"
+          "2026-06-30",
+          "2026-09-30"
         ],
         "secVerified": false,
-        "quarterly": 8.73,
+        "quarterly": 11.04,
         "checks": [
           "분기 연속 OK",
           "최신성 OK(승인 근거 2026-06-30)",
-          "역산 주식수 일관(±0.6%)",
+          "역산 주식수 일관(±0.7%)",
           "공시 주식수 대조 +1.4%"
         ],
-        "gapPct": 7.164558935800591,
-        "gapCause": null,
+        "gapPct": -13.603420719726788,
+        "gapPrevPct": 9.257529811479515,
+        "gapCause": "period",
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 476.4864067382812,
+        "fairHistProxy": 669.7839058658075,
+        "proxyPer": 34.53614568135825,
+        "trailingPer": 43.16000061035156,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-09-30",
+        "latestOfficialSource": "10-Q 2026-10-29",
+        "valuationActualPeriodEnd": "2026-09-30",
+        "valuationPeriods": "Q4'25~Q3'26",
+        "earningsReleaseDate": "2026-10-29",
+        "earningsReleaseAtUtc": "2026-10-30T04:59:00+00:00",
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": true
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.45034838368389957,
-        "candSpread": 1.543445163431207,
-        "fairAltExCappedGrowth": 392.35608961472263,
-        "fairAltGapPct": -3.81669915197016,
+        "epsTtmNtmRatio": 0.5692568080287451,
+        "candSpread": 1.4256278465036,
+        "fairAltExCappedGrowth": 442.2975871932765,
+        "fairAltGapPct": -7.175193050949613,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 21.04336,
+      "convertedFairPer": 24.569124181967418,
       "fairPriceBasis": "세 적정가 후보 중앙값",
       "fairPriceCandidates": [
         {
           "candidate": "historical_per",
-          "fairPrice": 376.78680532836916,
+          "fairPrice": 476.4864067382812,
           "per": 43.16000061035156,
-          "eps": 8.73,
+          "eps": 11.04,
           "epsBasis": "TTM EPS"
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 407.9253739010761,
+          "fairPrice": 408.1087676482718,
           "per": 21.04336,
-          "eps": 19.3849924109589,
+          "eps": 19.393707452054795,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 581.5497723287671,
+          "fairPrice": 581.8112235616438,
           "per": 30.0,
-          "eps": 19.3849924109589,
+          "eps": 19.393707452054795,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -3447,16 +3948,6 @@ const PRICE_MAP_DATA = {
       "dispersionFlag": "최대/최소 2.05배 > 기준 1.5배 - 계산은 그대로, 원인 점검 필요",
       "qualityWarnings": [],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 406.19799481538627,
-          "newFairPrice": 406.9705253875068,
-          "changePct": 0.19018571779795898,
-          "epsEffect": 0.7725305721205435,
-          "perEffect": 0.0,
-          "otherEffect": 0.0,
-          "note": "EPS 19.3029->19.3396(적정PER 21.04배 유지 가정 시 +0.77) + 적정PER 21.04->21.04배(EPS 19.3396 유지 가정 시 +0.00)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 406.9705253875068,
@@ -3476,13 +3967,23 @@ const PRICE_MAP_DATA = {
           "perEffect": 0.0,
           "otherEffect": 0.0,
           "note": "EPS 19.3763->19.3850(적정PER 21.04배 유지 가정 시 +0.18) + 적정PER 21.04->21.04배(EPS 19.3850 유지 가정 시 +0.00)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 407.9253739010761,
+          "newFairPrice": 476.4864067382812,
+          "changePct": 16.807248880240397,
+          "epsEffect": 0.183393747195679,
+          "perEffect": 68.37763909000938,
+          "otherEffect": 0.0,
+          "note": "EPS 19.3850->19.3937(적정PER 21.04배 유지 가정 시 +0.18) + 적정PER 21.04->24.57배(EPS 19.3937 유지 가정 시 +68.38)"
         }
       ],
-      "nextUpdateDate": "2026-10-30"
+      "nextUpdateDate": "2027-01-01"
     },
     "EME": {
       "ticker": "EME",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "매수",
       "action": "분할매수",
       "actionRaw": "적극 모아가기",
@@ -3495,15 +3996,15 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 678.5499877929688,
-      "fairPrice": 1060.13797825535,
-      "ratio": 0.6400581827184857,
-      "bandAggressiveLe": 848.11038260428,
-      "bandDcaHigh": 954.1241804298149,
-      "bandFairHigh": 1166.151776080885,
+      "currentPrice": 689.3200073242188,
+      "fairPrice": 1060.4869582811268,
+      "ratio": 0.6500032856995167,
+      "bandAggressiveLe": 848.3895666249015,
+      "bandDcaHigh": 954.4382624530142,
+      "bandFairHigh": 1166.5356541092397,
       "modelCheckNeeded": false,
       "confidence": "낮음",
-      "confidenceNote": "적정가 후보 중 최대 괴리 ±45% (±40% 밖)",
+      "confidenceNote": "적정가 후보 중 최대 괴리 ±40% (±40% 밖)",
       "bizRiskBadge": false,
       "bizRiskDetail": [],
       "stockType": "기타",
@@ -3532,70 +4033,93 @@ const PRICE_MAP_DATA = {
           },
           {
             "ticker": "MTZ",
-            "per": 19.533521469072713
+            "per": 19.527048414349725
           }
         ],
         "excluded": [],
         "note": "유효 비교군 3개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 37.180068684931506,
-      "ttmEps": 32.15,
+      "epsUsedForCandidates": 37.19230775342466,
+      "ttmEps": 34.62,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 33.22853711150787,
-        "peTTM": 20.4207,
-        "finnhubUpdated": "2026-10-28 17:28",
-        "periods": "Q3'25~Q2'26",
+        "finnhub": 33.129872604088064,
+        "peTTM": 20.8066,
+        "finnhubUpdated": "2026-10-29 13:52",
+        "periods": "Q4'25~Q3'26",
         "endDates": [
-          "2025-09-30",
           "2025-12-31",
           "2026-03-31",
-          "2026-06-30"
+          "2026-06-30",
+          "2026-09-30"
         ],
         "secVerified": false,
-        "quarterly": 32.15,
+        "quarterly": 34.62,
         "checks": [
           "분기 연속 OK",
           "최신성 OK(승인 근거 2026-06-30)",
-          "역산 주식수 일관(±0.9%)",
+          "역산 주식수 일관(±1.5%)",
           "공시 주식수 대조 +1.0%"
         ],
-        "gapPct": 3.354703301735218,
+        "gapPct": -4.304238578601771,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 633.0331137197988,
+        "fairHistProxy": 481.8142256483916,
+        "proxyPer": 12.95467409128508,
+        "trailingPer": 18.28518526053723,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-09-30",
+        "latestOfficialSource": "8-K(실적) 2026-10-29",
+        "valuationActualPeriodEnd": "2026-09-30",
+        "valuationPeriods": "Q4'25~Q3'26",
+        "earningsReleaseDate": "2026-10-29",
+        "earningsReleaseAtUtc": "2026-10-30T04:59:00+00:00",
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fallback_45d",
+        "pendingReflection": false,
+        "consensusPreRelease": true
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.8647106134322416,
-        "candSpread": 1.897365940598922,
-        "fairAltExCappedGrowth": 824.0033421908109,
-        "fairAltGapPct": -22.273953099307086,
+        "epsTtmNtmRatio": 0.9308376406627308,
+        "candSpread": 1.7625764093860905,
+        "fairAltExCappedGrowth": 846.7600360004628,
+        "fairAltGapPct": -20.153658714208035,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 28.513610000000003,
+      "convertedFairPer": 28.51361,
       "fairPriceBasis": "세 적정가 후보 중앙값",
       "fairPriceCandidates": [
         {
           "candidate": "historical_per",
-          "fairPrice": 587.868706126272,
+          "fairPrice": 633.0331137197988,
           "per": 18.28518526053723,
-          "eps": 32.15,
+          "eps": 34.62,
           "epsBasis": "TTM EPS"
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 1060.13797825535,
+          "fairPrice": 1060.4869582811268,
           "per": 28.51361,
-          "eps": 37.180068684931506,
+          "eps": 37.19230775342466,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 1115.4020605479452,
+          "fairPrice": 1115.7692326027397,
           "per": 30.0,
-          "eps": 37.180068684931506,
+          "eps": 37.19230775342466,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -3603,16 +4127,6 @@ const PRICE_MAP_DATA = {
       "dispersionFlag": "최대/최소 1.64배 > 기준 1.5배 - 계산은 그대로, 원인 점검 필요",
       "qualityWarnings": [],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 1058.3930781264648,
-          "newFairPrice": 1059.4400182037957,
-          "changePct": 0.0989178877836328,
-          "epsEffect": 1.0469400773308435,
-          "perEffect": 0.0,
-          "otherEffect": 0.0,
-          "note": "EPS 37.1189->37.1556(적정PER 28.51배 유지 가정 시 +1.05) + 적정PER 28.51->28.51배(EPS 37.1556 유지 가정 시 +0.00)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 1059.4400182037957,
@@ -3632,13 +4146,23 @@ const PRICE_MAP_DATA = {
           "perEffect": 1.320901385956983e-13,
           "otherEffect": 0.0,
           "note": "EPS 37.1678->37.1801(적정PER 28.51배 유지 가정 시 +0.35) + 적정PER 28.51->28.51배(EPS 37.1801 유지 가정 시 +0.00)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 1060.13797825535,
+          "newFairPrice": 1060.4869582811268,
+          "changePct": 0.03291835901881302,
+          "epsEffect": 0.3489800257770154,
+          "perEffect": -1.321336205017497e-13,
+          "otherEffect": 0.0,
+          "note": "EPS 37.1801->37.1923(적정PER 28.51배 유지 가정 시 +0.35) + 적정PER 28.51->28.51배(EPS 37.1923 유지 가정 시 -0.00)"
         }
       ],
-      "nextUpdateDate": "2026-10-30"
+      "nextUpdateDate": "2027-01-01"
     },
     "FIX": {
       "ticker": "FIX",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "적정",
       "action": "관망(적정가 근처)",
       "actionRaw": "관망(적정가 근처)",
@@ -3651,12 +4175,12 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 1345.77001953125,
-      "fairPrice": 1331.9839078579548,
-      "ratio": 1.0103500587296625,
-      "bandAggressiveLe": 1065.5871262863639,
-      "bandDcaHigh": 1198.7855170721593,
-      "bandFairHigh": 1465.1822986437505,
+      "currentPrice": 1326.22998046875,
+      "fairPrice": 1353.708353212002,
+      "ratio": 0.9797014085950988,
+      "bandAggressiveLe": 1082.9666825696017,
+      "bandDcaHigh": 1218.3375178908018,
+      "bandFairHigh": 1489.0791885332023,
       "modelCheckNeeded": false,
       "confidence": "낮음",
       "confidenceNote": "적정가 후보 중 최대 괴리 ±43% (±40% 밖)",
@@ -3688,19 +4212,19 @@ const PRICE_MAP_DATA = {
           },
           {
             "ticker": "MTZ",
-            "per": 19.533521469072713
+            "per": 19.527048414349725
           }
         ],
         "excluded": [],
         "note": "유효 비교군 3개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 63.29711167123287,
+      "epsUsedForCandidates": 64.32947747945205,
       "ttmEps": 46.32,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 49.00926890625285,
-        "peTTM": 27.4595,
-        "finnhubUpdated": "2026-10-28 17:28",
+        "finnhub": 46.36697609224064,
+        "peTTM": 28.6029,
+        "finnhubUpdated": "2026-10-29 13:52",
         "periods": "Q4'25~Q3'26",
         "endDates": [
           "2025-12-31",
@@ -3716,16 +4240,39 @@ const PRICE_MAP_DATA = {
           "역산 주식수 일관(±0.4%)",
           "공시 주식수 대조 +0.5%"
         ],
-        "gapPct": 5.805848243205625,
+        "gapPct": 0.10141643402556966,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 1166.1325478590172,
+        "fairHistProxy": 906.2084599594598,
+        "proxyPer": 14.08698617595516,
+        "trailingPer": 25.175573140306934,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-09-30",
+        "latestOfficialSource": "10-Q 2026-10-22",
+        "valuationActualPeriodEnd": "2026-09-30",
+        "valuationPeriods": "Q4'25~Q3'26",
+        "earningsReleaseDate": "2026-10-22",
+        "earningsReleaseAtUtc": "2026-10-23T04:59:00+00:00",
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.7317869453599636,
-        "candSpread": 1.6283855155430929,
-        "fairAltExCappedGrowth": 1249.0582278584861,
-        "fairAltGapPct": -6.225726865786729,
+        "epsTtmNtmRatio": 0.720043156184432,
+        "candSpread": 1.654944223902136,
+        "fairAltExCappedGrowth": 1259.9204505355096,
+        "fairAltGapPct": -6.928220724497846,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -3742,16 +4289,16 @@ const PRICE_MAP_DATA = {
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 1331.9839078579548,
+          "fairPrice": 1353.708353212002,
           "per": 21.04336,
-          "eps": 63.29711167123287,
+          "eps": 64.32947747945205,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 1898.913350136986,
+          "fairPrice": 1929.8843243835615,
           "per": 30.0,
-          "eps": 63.29711167123287,
+          "eps": 64.32947747945205,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -3759,16 +4306,6 @@ const PRICE_MAP_DATA = {
       "dispersionFlag": null,
       "qualityWarnings": [],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 1223.4430456715572,
-          "newFairPrice": 1244.5846787392875,
-          "changePct": 1.7280439120176165,
-          "epsEffect": 21.141633067730265,
-          "perEffect": 0.0,
-          "otherEffect": 0.0,
-          "note": "EPS 58.1391->59.1438(적정PER 21.04배 유지 가정 시 +21.14) + 적정PER 21.04->21.04배(EPS 59.1438 유지 가정 시 +0.00)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 1244.5846787392875,
@@ -3788,17 +4325,27 @@ const PRICE_MAP_DATA = {
           "perEffect": 0.0,
           "otherEffect": 0.0,
           "note": "EPS 63.2564->63.2971(적정PER 21.04배 유지 가정 시 +0.86) + 적정PER 21.04->21.04배(EPS 63.2971 유지 가정 시 +0.00)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 1331.9839078579548,
+          "newFairPrice": 1353.708353212002,
+          "changePct": 1.6309840701441856,
+          "epsEffect": 21.72444535404722,
+          "perEffect": 0.0,
+          "otherEffect": 0.0,
+          "note": "EPS 63.2971->64.3295(적정PER 21.04배 유지 가정 시 +21.72) + 적정PER 21.04->21.04배(EPS 64.3295 유지 가정 시 +0.00)"
         }
       ],
       "nextUpdateDate": "2027-01-01"
     },
     "COHR": {
       "ticker": "COHR",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "적정",
-      "action": "관망(적정가 근처)",
+      "action": "관망(모델 민감도 높음)",
       "actionRaw": "관망(적정가 근처)",
-      "actionCapReason": null,
+      "actionCapReason": "model_split",
       "cashflowVeto": true,
       "fairPriceUpper": null,
       "fairPriceB": null,
@@ -3807,12 +4354,12 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": null,
       "sectorFewPeers": null,
-      "currentPrice": 239.58999633789062,
-      "fairPrice": 230.86601328161947,
-      "ratio": 1.0377880786013716,
-      "bandAggressiveLe": 184.69281062529558,
-      "bandDcaHigh": 207.77941195345753,
-      "bandFairHigh": 253.95261460978145,
+      "currentPrice": 237.22000122070312,
+      "fairPrice": 231.17201903504412,
+      "ratio": 1.026162258784192,
+      "bandAggressiveLe": 184.9376152280353,
+      "bandDcaHigh": 208.05481713153972,
+      "bandFairHigh": 254.28922093854854,
       "modelCheckNeeded": false,
       "confidence": "낮음",
       "confidenceNote": "EPS 품질 경고: 과거 PER 이력 부족(2년치) / 사업 위험으로 신뢰도 1단계 하향(낮음→낮음): 현금흐름 거부권 발동(2/3: FCF 2년 연속 악화(0.2B→0.2B→-1.0B), 발행주식수 +4.5%(3개분기))",
@@ -3848,13 +4395,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 2개 이하(최소 3개 기준 미달)"
       },
-      "epsUsedForCandidates": 10.886053945205479,
+      "epsUsedForCandidates": 10.906454328767122,
       "ttmEps": 4.109999999999999,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 4.283762794393876,
-        "peTTM": 55.9298,
-        "finnhubUpdated": "2026-10-28 17:27",
+        "finnhub": 4.06867455441656,
+        "peTTM": 58.304,
+        "finnhubUpdated": "2026-10-29 13:52",
         "periods": "Q3'25~Q2'26",
         "endDates": [
           "2025-09-30",
@@ -3870,21 +4417,44 @@ const PRICE_MAP_DATA = {
           "역산 주식수 흔들림 24.7% - SEC 대조 확인(2026-10-26): 분기 EPS = SEC GAAP 희석 EPS(직접 일치 3개, FY 4.12 vs 4.11). 순이익은 보통주 귀속(우선주 배당 차감) 기준이라 SEC NetIncomeLoss와 일부 분기 차이 - EPS와는 일치. 흔들림은 희석주식수 변화(전환우선주)",
           "공시 주식수 대조 +3.2%"
         ],
-        "gapPct": 4.22780521639603,
+        "gapPct": -1.0054852940009518,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 135.15040820707455,
+        "fairHistProxy": 236.1565001660577,
+        "proxyPer": 21.652912399143847,
+        "trailingPer": 32.88331099928821,
+        "modelSplitEligible": true,
+        "modelSplitRatio": 2.4209592423997317,
+        "actionBeforeModelSplit": "관망(적정가 근처)",
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-06-30",
+        "latestOfficialSource": "10-K 2026-08-14",
+        "valuationActualPeriodEnd": "2026-06-30",
+        "valuationPeriods": "Q3'25~Q2'26",
+        "earningsReleaseDate": null,
+        "earningsReleaseAtUtc": null,
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.3775472747689403,
-        "candSpread": 2.4164308690491194,
+        "epsTtmNtmRatio": 0.37684107741224077,
+        "candSpread": 2.4209592423997317,
         "fairAltExCappedGrowth": 135.15040820707455,
-        "fairAltGapPct": -41.45937451511637,
+        "fairAltGapPct": -41.536865589867666,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 21.207502226580395,
+      "convertedFairPer": 21.195891172926782,
       "fairPriceBasis": "적정가 후보 2개 평균",
       "fairPriceCandidates": [
         {
@@ -3896,9 +4466,9 @@ const PRICE_MAP_DATA = {
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 326.58161835616437,
+          "fairPrice": 327.19362986301365,
           "per": 30.0,
-          "eps": 10.886053945205479,
+          "eps": 10.906454328767122,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -3909,16 +4479,6 @@ const PRICE_MAP_DATA = {
         "⚠ 사업 경고(현금흐름/EPS 하향): 현금흐름 거부권 발동(2/3: FCF 2년 연속 악화(0.2B→0.2B→-1.0B), 발행주식수 +4.5%(3개분기))"
       ],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 221.61987492062042,
-          "newFairPrice": 230.53530150079752,
-          "changePct": 4.022846138402712,
-          "epsEffect": 0.7621645548290329,
-          "perEffect": 8.153262025348072,
-          "otherEffect": 0.0,
-          "note": "EPS 10.8268->10.8640(적정PER 20.47배 유지 가정 시 +0.76) + 적정PER 20.47->21.22배(EPS 10.8640 유지 가정 시 +8.15)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 230.53530150079752,
@@ -3938,13 +4498,23 @@ const PRICE_MAP_DATA = {
           "perEffect": -0.07696177024750119,
           "otherEffect": 0.0,
           "note": "EPS 10.8737->10.8861(적정PER 21.21배 유지 가정 시 +0.26) + 적정PER 21.21->21.21배(EPS 10.8861 유지 가정 시 -0.08)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 230.86601328161947,
+          "newFairPrice": 231.17201903504412,
+          "changePct": 0.13254690418696002,
+          "epsEffect": 0.43264117980664457,
+          "perEffect": -0.12663542638199882,
+          "otherEffect": 0.0,
+          "note": "EPS 10.8861->10.9065(적정PER 21.21배 유지 가정 시 +0.43) + 적정PER 21.21->21.20배(EPS 10.9065 유지 가정 시 -0.13)"
         }
       ],
       "nextUpdateDate": "2026-11-05"
     },
     "LITE": {
       "ticker": "LITE",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "고평가",
       "action": "신규 추격 금지",
       "actionRaw": "신규 추격 금지",
@@ -3957,12 +4527,12 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": null,
       "sectorFewPeers": null,
-      "currentPrice": 913.9500122070312,
-      "fairPrice": 792.2820073972603,
-      "ratio": 1.1535665377653403,
-      "bandAggressiveLe": 633.8256059178083,
-      "bandDcaHigh": 713.0538066575342,
-      "bandFairHigh": 871.5102081369863,
+      "currentPrice": 919.530029296875,
+      "fairPrice": 793.4260463013699,
+      "ratio": 1.1589360263421533,
+      "bandAggressiveLe": 634.7408370410959,
+      "bandDcaHigh": 714.0834416712329,
+      "bandFairHigh": 872.768650931507,
       "modelCheckNeeded": false,
       "confidence": "낮음",
       "confidenceNote": "적정가 후보 부족(2개 미만)",
@@ -3986,7 +4556,7 @@ const PRICE_MAP_DATA = {
         "peers": [
           {
             "ticker": "COHR",
-            "per": 24.983560797922735
+            "per": 25.386196749541153
           },
           {
             "ticker": "AAOI",
@@ -3996,13 +4566,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 2개 이하(최소 3개 기준 미달)"
       },
-      "epsUsedForCandidates": 26.40940024657534,
+      "epsUsedForCandidates": 26.44753487671233,
       "ttmEps": null,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
         "finnhub": null,
         "peTTM": null,
-        "finnhubUpdated": "2026-10-28 17:27",
+        "finnhubUpdated": "2026-10-29 13:52",
         "periods": "Q3'25~Q2'26",
         "endDates": [
           "2025-09-27",
@@ -4022,6 +4592,29 @@ const PRICE_MAP_DATA = {
         "source": "없음(분기 검증 실패·peTTM 없음)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": null,
+        "fairHistProxy": 807.1787621312183,
+        "proxyPer": 30.51999991280692,
+        "trailingPer": 29.03731331896426,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-06-27",
+        "latestOfficialSource": "10-K 2026-08-17",
+        "valuationActualPeriodEnd": "2026-06-27",
+        "valuationPeriods": "Q3'25~Q2'26",
+        "earningsReleaseDate": null,
+        "earningsReleaseAtUtc": null,
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
         "epsTtmNtmRatio": null,
         "candSpread": null,
@@ -4036,9 +4629,9 @@ const PRICE_MAP_DATA = {
       "fairPriceCandidates": [
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 792.2820073972603,
+          "fairPrice": 793.4260463013699,
           "per": 30.0,
-          "eps": 26.40940024657534,
+          "eps": 26.44753487671233,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -4048,16 +4641,6 @@ const PRICE_MAP_DATA = {
         "TTM EPS 미확보(peTTM 없음) - 과거PER 후보가 적정가에 못 들어감"
       ],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 788.319895890411,
-          "newFairPrice": 791.8044863013698,
-          "changePct": 0.44202745980716157,
-          "epsEffect": 3.484590410958859,
-          "perEffect": 0.0,
-          "otherEffect": 0.0,
-          "note": "EPS 26.2773->26.3935(적정PER 30.00배 유지 가정 시 +3.48) + 적정PER 30.00->30.00배(EPS 26.3935 유지 가정 시 +0.00)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 791.8044863013698,
@@ -4077,16 +4660,26 @@ const PRICE_MAP_DATA = {
           "perEffect": 0.0,
           "otherEffect": 0.0,
           "note": "EPS 26.4695->26.4094(적정PER 30.00배 유지 가정 시 -1.80) + 적정PER 30.00->30.00배(EPS 26.4094 유지 가정 시 +0.00)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 792.2820073972603,
+          "newFairPrice": 793.4260463013699,
+          "changePct": 0.14439794081250304,
+          "epsEffect": 1.144038904109621,
+          "perEffect": 0.0,
+          "otherEffect": 0.0,
+          "note": "EPS 26.4094->26.4475(적정PER 30.00배 유지 가정 시 +1.14) + 적정PER 30.00->30.00배(EPS 26.4475 유지 가정 시 +0.00)"
         }
       ],
       "nextUpdateDate": "2026-11-06"
     },
     "CEG": {
       "ticker": "CEG",
-      "asOf": "2026-10-29",
-      "verdict": "적정",
-      "action": "관망(적정가 근처)",
-      "actionRaw": "관망(적정가 근처)",
+      "asOf": "2026-10-30",
+      "verdict": "고평가",
+      "action": "신규 추격 금지",
+      "actionRaw": "신규 추격 금지",
       "actionCapReason": null,
       "cashflowVeto": false,
       "fairPriceUpper": null,
@@ -4096,15 +4689,15 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 258.0799865722656,
+      "currentPrice": 264.5799865722656,
       "fairPrice": 239.3795197081423,
-      "ratio": 1.0781205797677405,
+      "ratio": 1.1052741140714477,
       "bandAggressiveLe": 191.50361576651386,
       "bandDcaHigh": 215.44156773732809,
       "bandFairHigh": 263.31747167895657,
       "modelCheckNeeded": false,
       "confidence": "낮음",
-      "confidenceNote": "적정가 후보 중 최대 괴리 ±60% (±40% 밖)",
+      "confidenceNote": "적정가 후보 중 최대 괴리 ±61% (±40% 밖)",
       "bizRiskBadge": false,
       "bizRiskDetail": [],
       "stockType": "기타",
@@ -4116,7 +4709,7 @@ const PRICE_MAP_DATA = {
         "sectorPer": 10.29848,
         "sectorPerValidPeers": 3,
         "sectorPerEpsBasis": "NTM EPS",
-        "growthPerPeg": 29.2575,
+        "growthPerPeg": 29.295001499999998,
         "growthPerPegEpsBasis": "NTM EPS"
       },
       "sectorPeerDisplay": {
@@ -4139,13 +4732,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 3개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 13.116242136986301,
+      "epsUsedForCandidates": 13.124768465753423,
       "ttmEps": 10.26,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 9.745670999462478,
+        "finnhub": 9.99112537327061,
         "peTTM": 26.4815,
-        "finnhubUpdated": "2026-10-28 17:27",
+        "finnhubUpdated": "2026-10-29 13:52",
         "periods": "Q3'25~Q2'26",
         "endDates": [
           "2025-09-30",
@@ -4161,21 +4754,44 @@ const PRICE_MAP_DATA = {
           "역산 주식수 흔들림 15.4% - SEC 대조 확인(2026-10-26): 분기 EPS = SEC GAAP 희석 EPS(직접 일치 4개, FY2025 7.40 = 7.40). 흔들림은 실제 주식 발행(313M→360M, 인수 대가)",
           "공시 주식수 대조 +2.0%"
         ],
-        "gapPct": -5.012953221613281,
+        "gapPct": -2.6206103969726113,
         "gapCause": null,
-        "source": "quarterly_sum(검증 통과 · 판정 변경 승인 2026-10-26 23:21)"
+        "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 239.3795197081423,
+        "fairHistProxy": 225.84556435459444,
+        "proxyPer": 17.207584647599333,
+        "trailingPer": 23.331337203522644,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-06-30",
+        "latestOfficialSource": "10-Q 2026-08-06",
+        "valuationActualPeriodEnd": "2026-06-30",
+        "valuationPeriods": "Q3'25~Q2'26",
+        "earningsReleaseDate": null,
+        "earningsReleaseAtUtc": null,
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.7822362451717764,
-        "candSpread": 2.840953228049188,
+        "epsTtmNtmRatio": 0.7817280759482738,
+        "candSpread": 2.844594687759747,
         "fairAltExCappedGrowth": null,
         "fairAltGapPct": null,
         "fairAltApplicable": false,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 18.250617608920123,
+      "convertedFairPer": 18.238761341410132,
       "fairPriceBasis": "세 적정가 후보 중앙값",
       "fairPriceCandidates": [
         {
@@ -4187,16 +4803,16 @@ const PRICE_MAP_DATA = {
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 135.07735732291067,
+          "fairPrice": 135.1651655491923,
           "per": 10.29848,
-          "eps": 13.116242136986301,
+          "eps": 13.124768465753423,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 383.7484543228767,
-          "per": 29.2575,
-          "eps": 13.116242136986301,
+          "fairPrice": 384.4901118913992,
+          "per": 29.295001499999998,
+          "eps": 13.124768465753423,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -4239,7 +4855,7 @@ const PRICE_MAP_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "고평가",
       "action": "신규 추격 금지",
       "actionRaw": "신규 추격 금지",
@@ -4252,12 +4868,12 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 142.72000122070312,
-      "fairPrice": 105.2838402932537,
-      "ratio": 1.3555736647065317,
-      "bandAggressiveLe": 84.22707223460297,
-      "bandDcaHigh": 94.75545626392834,
-      "bandFairHigh": 115.81222432257908,
+      "currentPrice": 140.9499969482422,
+      "fairPrice": 104.58757106430905,
+      "ratio": 1.3476744465322226,
+      "bandAggressiveLe": 83.67005685144724,
+      "bandDcaHigh": 94.12881395787814,
+      "bandFairHigh": 115.04632817073995,
       "modelCheckNeeded": false,
       "confidence": "낮음",
       "confidenceNote": "적정가 후보 중 최대 괴리 ±191% (±40% 밖) / 사업 위험으로 신뢰도 1단계 하향(낮음→낮음): 현금흐름 거부권 발동(2/3: FCF 2년 연속 악화(3.8B→2.5B→1.3B), 부채/자본 3.74); EPS 수정 방향 하향(하향)",
@@ -4298,13 +4914,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 3개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 10.223240739726029,
-      "ttmEps": 6.328176668427095,
+      "epsUsedForCandidates": 10.155631808219178,
+      "ttmEps": 6.249695028543401,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 6.328176668427095,
+        "finnhub": 6.249695028543401,
         "peTTM": 22.5531,
-        "finnhubUpdated": "2026-10-28 17:27",
+        "finnhubUpdated": "2026-10-29 13:52",
         "periods": "Q3'25~Q2'26",
         "endDates": [
           "2025-09-30",
@@ -4321,11 +4937,34 @@ const PRICE_MAP_DATA = {
         "source": "finnhub_peTTM(분기 검증 실패 - 임시)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 94.51461792887345,
+        "fairHistProxy": 124.97978811378023,
+        "proxyPer": 12.306451284757223,
+        "trailingPer": 15.123076805701622,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-06-30",
+        "latestOfficialSource": "10-Q 2026-08-10",
+        "valuationActualPeriodEnd": "2026-06-30",
+        "valuationPeriods": "Q3'25~Q2'26",
+        "earningsReleaseDate": null,
+        "earningsReleaseAtUtc": null,
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.6189990854697102,
-        "candSpread": 3.2047273703540387,
-        "fairAltExCappedGrowth": 100.49267104496283,
-        "fairAltGapPct": -4.5507166483913615,
+        "epsTtmNtmRatio": 0.6153920451788518,
+        "candSpread": 3.2235114622782755,
+        "fairAltExCappedGrowth": 99.55109449659125,
+        "fairAltGapPct": -4.815559359936716,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -4335,23 +4974,23 @@ const PRICE_MAP_DATA = {
       "fairPriceCandidates": [
         {
           "candidate": "historical_per",
-          "fairPrice": 95.70150179667196,
+          "fairPrice": 94.51461792887345,
           "per": 15.123076805701622,
-          "eps": 6.328176668427095,
+          "eps": 6.249695028543401,
           "epsBasis": "TTM EPS"
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 105.2838402932537,
+          "fairPrice": 104.58757106430905,
           "per": 10.29848,
-          "eps": 10.223240739726029,
+          "eps": 10.155631808219178,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 306.69722219178084,
+          "fairPrice": 304.66895424657537,
           "per": 30.0,
-          "eps": 10.223240739726029,
+          "eps": 10.155631808219178,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -4361,16 +5000,6 @@ const PRICE_MAP_DATA = {
         "⚠ 사업 경고(현금흐름/EPS 하향): 현금흐름 거부권 발동(2/3: FCF 2년 연속 악화(3.8B→2.5B→1.3B), 부채/자본 3.74); EPS 수정 방향 하향(하향)"
       ],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 105.11940940072108,
-          "newFairPrice": 105.19076686326576,
-          "changePct": 0.06788229019881933,
-          "epsEffect": 0.07135746254467065,
-          "perEffect": 0.0,
-          "otherEffect": 0.0,
-          "note": "EPS 10.2073->10.2142(적정PER 10.30배 유지 가정 시 +0.07) + 적정PER 10.30->10.30배(EPS 10.2142 유지 가정 시 +0.00)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 105.19076686326576,
@@ -4390,31 +5019,41 @@ const PRICE_MAP_DATA = {
           "perEffect": 0.0,
           "otherEffect": 0.0,
           "note": "EPS 10.1423->10.2232(적정PER 10.30배 유지 가정 시 +0.83) + 적정PER 10.30->10.30배(EPS 10.2232 유지 가정 시 +0.00)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 105.2838402932537,
+          "newFairPrice": 104.58757106430905,
+          "changePct": -0.6613258283562753,
+          "epsEffect": -0.6962692289446667,
+          "perEffect": 0.0,
+          "otherEffect": 0.0,
+          "note": "EPS 10.2232->10.1556(적정PER 10.30배 유지 가정 시 -0.70) + 적정PER 10.30->10.30배(EPS 10.1556 유지 가정 시 +0.00)"
         }
       ],
       "nextUpdateDate": "2026-11-09"
     },
     "GEV": {
       "ticker": "GEV",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "고평가",
       "action": "신규 추격 금지",
       "actionRaw": "신규 추격 금지",
       "actionCapReason": null,
       "cashflowVeto": false,
       "fairPriceUpper": null,
-      "fairPriceB": 1195.5442406337006,
+      "fairPriceB": 1207.1454864237005,
       "fairBasisMode": "a_kept_b_higher",
       "candidateBadge": null,
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 878.030029296875,
-      "fairPrice": 733.2077999999999,
-      "ratio": 1.197518669737113,
-      "bandAggressiveLe": 586.56624,
-      "bandDcaHigh": 659.8870199999999,
-      "bandFairHigh": 806.5285799999999,
+      "currentPrice": 887.8499755859375,
+      "fairPrice": 763.3803,
+      "ratio": 1.1630506781298096,
+      "bandAggressiveLe": 610.70424,
+      "bandDcaHigh": 687.04227,
+      "bandFairHigh": 839.7183300000002,
       "modelCheckNeeded": false,
       "confidence": "낮음",
       "confidenceNote": "EPS 품질 경고: 다음회계연도 대안 기준 사용; 과거 PER 이력 부족(2년치); WO8-B 분류 불가(이력 부족 - 유효 4개년 <5년; 필터 없음(원본 그대로))",
@@ -4452,13 +5091,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 3개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 24.44026,
+      "epsUsedForCandidates": 25.44601,
       "ttmEps": 38.11,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 36.73320096293232,
-        "peTTM": 23.9029,
-        "finnhubUpdated": "2026-10-28 17:27",
+        "finnhub": 35.48575236455532,
+        "peTTM": 25.0199,
+        "finnhubUpdated": "2026-10-29 13:52",
         "periods": "Q4'25~Q3'26",
         "endDates": [
           "2025-12-31",
@@ -4474,21 +5113,44 @@ const PRICE_MAP_DATA = {
           "역산 주식수 일관(±2.0%)",
           "공시 주식수 대조 +1.4%"
         ],
-        "gapPct": -3.612697552001254,
+        "gapPct": -6.885981725123802,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 1827.255593509001,
+        "fairHistProxy": null,
+        "proxyPer": null,
+        "trailingPer": 47.94687991364474,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-09-30",
+        "latestOfficialSource": "10-Q 2026-10-28",
+        "valuationActualPeriodEnd": "2026-09-30",
+        "valuationPeriods": "Q4'25~Q3'26",
+        "earningsReleaseDate": "2026-10-28",
+        "earningsReleaseAtUtc": "2026-10-29T04:59:00+00:00",
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 1.5593123804738576,
-        "candSpread": 3.240775118268682,
-        "fairAltExCappedGrowth": 1195.5442406337006,
-        "fairAltGapPct": 63.056672424065965,
+        "epsTtmNtmRatio": 1.4976807758858854,
+        "candSpread": 3.112683933238151,
+        "fairAltExCappedGrowth": 1207.1454864237005,
+        "fairAltGapPct": 58.13160051729138,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": "WO8-B 분류 불가(이력 부족, 유효 4개년 <5년) - 필터 없음(원본 그대로) - 경기순환 여부 판단 안 함, NTM EPS 그대로 사용",
-      "convertedFairPer": 29.999999999999996,
+      "convertedFairPer": 30.0,
       "fairPriceBasis": "세 적정가 후보 중앙값",
       "fairPriceCandidates": [
         {
@@ -4500,16 +5162,16 @@ const PRICE_MAP_DATA = {
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 563.8328877583999,
+          "fairPrice": 587.0353793384,
           "per": 23.06984,
-          "eps": 24.44026,
+          "eps": 25.44601,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 733.2077999999999,
+          "fairPrice": 763.3803,
           "per": 30.0,
-          "eps": 24.44026,
+          "eps": 25.44601,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -4540,13 +5202,23 @@ const PRICE_MAP_DATA = {
           "perEffect": -472.40195043481714,
           "otherEffect": 0.0,
           "note": "EPS 24.4851->24.4403(적정PER 49.33배 유지 가정 시 -2.21) + 적정PER 49.33->30.00배(EPS 24.4403 유지 가정 시 -472.40)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 733.2077999999999,
+          "newFairPrice": 763.3803,
+          "changePct": 4.11513625468798,
+          "epsEffect": 30.172500000000074,
+          "perEffect": 9.040238779789434e-14,
+          "otherEffect": 0.0,
+          "note": "EPS 24.4403->25.4460(적정PER 30.00배 유지 가정 시 +30.17) + 적정PER 30.00->30.00배(EPS 25.4460 유지 가정 시 +0.00)"
         }
       ],
       "nextUpdateDate": "2027-01-01"
     },
     "BE": {
       "ticker": "BE",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "고평가",
       "action": "신규 추격 금지",
       "actionRaw": "신규 추격 금지",
@@ -4559,12 +5231,12 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": null,
       "sectorFewPeers": null,
-      "currentPrice": 228.0800018310547,
-      "fairPrice": 148.70887232876711,
-      "ratio": 1.533734996838743,
-      "bandAggressiveLe": 118.96709786301369,
-      "bandDcaHigh": 133.83798509589042,
-      "bandFairHigh": 163.57975956164384,
+      "currentPrice": 222.3000030517578,
+      "fairPrice": 148.87702356164385,
+      "ratio": 1.49317871712899,
+      "bandAggressiveLe": 119.10161884931509,
+      "bandDcaHigh": 133.98932120547948,
+      "bandFairHigh": 163.76472591780825,
       "modelCheckNeeded": false,
       "confidence": "낮음",
       "confidenceNote": "적정가 후보 부족(2개 미만) / 사업 위험으로 신뢰도 1단계 하향(낮음→낮음): 현금흐름 거부권 발동(2/3: 부채/자본 1.38, 발행주식수 +3.9%(3개분기))",
@@ -4591,13 +5263,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "비교군 없음(peer_groups.json에 비교군 정의 자체가 없음)"
       },
-      "epsUsedForCandidates": 4.956962410958904,
-      "ttmEps": 1.8221735205709926,
+      "epsUsedForCandidates": 4.962567452054795,
+      "ttmEps": 1.6300000000000001,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 1.8221735205709926,
-        "peTTM": 125.1692,
-        "finnhubUpdated": "2026-10-28 17:28",
+        "finnhub": 1.6993646153898203,
+        "peTTM": 130.8136,
+        "finnhubUpdated": "2026-10-29 13:52",
         "periods": "Q4'25~Q3'26",
         "endDates": [
           "2025-12-31",
@@ -4613,14 +5285,36 @@ const PRICE_MAP_DATA = {
           "역산 주식수 일관(±4.5%)",
           "공시 주식수 대조 +8.5%"
         ],
-        "gapPct": 11.789786538097701,
-        "gapPrevPct": 142.95646940946568,
-        "gapCause": "definition_unexplained",
-        "source": "finnhub_peTTM(차이 원인 미확인 - 검증 전 유지)"
+        "gapPct": 4.255497876676095,
+        "gapCause": null,
+        "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": null,
+        "fairHistProxy": null,
+        "proxyPer": null,
+        "trailingPer": null,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-09-30",
+        "latestOfficialSource": "10-Q 2026-10-22",
+        "valuationActualPeriodEnd": "2026-09-30",
+        "valuationPeriods": "Q4'25~Q3'26",
+        "earningsReleaseDate": "2026-10-22",
+        "earningsReleaseAtUtc": "2026-10-23T04:59:00+00:00",
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.3675988174819548,
+        "epsTtmNtmRatio": 0.32845901153949736,
         "candSpread": null,
         "fairAltExCappedGrowth": null,
         "fairAltGapPct": null,
@@ -4628,14 +5322,14 @@ const PRICE_MAP_DATA = {
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 29.999999999999996,
+      "convertedFairPer": 30.0,
       "fairPriceBasis": "적정가 후보 1개(growth_per_peg)만 사용",
       "fairPriceCandidates": [
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 148.70887232876711,
+          "fairPrice": 148.87702356164385,
           "per": 30.0,
-          "eps": 4.956962410958904,
+          "eps": 4.962567452054795,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -4646,16 +5340,6 @@ const PRICE_MAP_DATA = {
         "⚠ 사업 경고(현금흐름/EPS 하향): 현금흐름 거부권 발동(2/3: 부채/자본 1.38, 발행주식수 +3.9%(3개분기))"
       ],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 141.15810657534246,
-          "newFairPrice": 148.37256986301367,
-          "changePct": 5.110909647842664,
-          "epsEffect": 7.214463287671232,
-          "perEffect": -3.514168390074078e-14,
-          "otherEffect": 0.0,
-          "note": "EPS 4.7053->4.9458(적정PER 30.00배 유지 가정 시 +7.21) + 적정PER 30.00->30.00배(EPS 4.9458 유지 가정 시 -0.00)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 148.37256986301367,
@@ -4675,13 +5359,23 @@ const PRICE_MAP_DATA = {
           "perEffect": 0.0,
           "otherEffect": 0.0,
           "note": "EPS 4.9514->4.9570(적정PER 30.00배 유지 가정 시 +0.17) + 적정PER 30.00->30.00배(EPS 4.9570 유지 가정 시 +0.00)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 148.70887232876711,
+          "newFairPrice": 148.87702356164385,
+          "changePct": 0.1130741093275106,
+          "epsEffect": 0.16815123287673647,
+          "perEffect": 1.763058126888522e-14,
+          "otherEffect": 0.0,
+          "note": "EPS 4.9570->4.9626(적정PER 30.00배 유지 가정 시 +0.17) + 적정PER 30.00->30.00배(EPS 4.9626 유지 가정 시 +0.00)"
         }
       ],
       "nextUpdateDate": "2027-01-01"
     },
     "AAPL": {
       "ticker": "AAPL",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "고평가",
       "action": "신규 추격 금지",
       "actionRaw": "신규 추격 금지",
@@ -4694,9 +5388,9 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": false,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 343.8299865722656,
+      "currentPrice": 348.9100036621094,
       "fairPrice": 215.609239469,
-      "ratio": 1.5946904103880069,
+      "ratio": 1.6182516320794091,
       "bandAggressiveLe": 172.4873915752,
       "bandDcaHigh": 194.04831552209998,
       "bandFairHigh": 237.1701634159,
@@ -4745,9 +5439,9 @@ const PRICE_MAP_DATA = {
       "ttmEps": 8.719999999999999,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 8.778563243860026,
-        "peTTM": 39.167,
-        "finnhubUpdated": "2026-10-28 17:26",
+        "finnhub": 8.916893147609052,
+        "peTTM": 39.1291,
+        "finnhubUpdated": "2026-10-29 13:51",
         "periods": "Q3'25~Q2'26",
         "endDates": [
           "2025-09-27",
@@ -4763,11 +5457,34 @@ const PRICE_MAP_DATA = {
           "역산 주식수 일관(±0.9%)",
           "공시 주식수 대조 +1.0%"
         ],
-        "gapPct": 0.6715968332571931,
+        "gapPct": 2.2579489404707997,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 243.54832928954679,
+        "fairHistProxy": 234.98980813454259,
+        "proxyPer": 24.539966178757137,
+        "trailingPer": 27.929854276324175,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-06-27",
+        "latestOfficialSource": "10-Q 2026-07-31",
+        "valuationActualPeriodEnd": "2026-06-27",
+        "valuationPeriods": "Q3'25~Q2'26",
+        "earningsReleaseDate": null,
+        "earningsReleaseAtUtc": null,
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
         "epsTtmNtmRatio": 0.9106288769606716,
         "candSpread": 1.2644161749524352,
@@ -4841,7 +5558,7 @@ const PRICE_MAP_DATA = {
     },
     "MSFT": {
       "ticker": "MSFT",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "적정",
       "action": "관망(적정가 근처)",
       "actionRaw": "관망(적정가 근처)",
@@ -4854,15 +5571,15 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": false,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 531.010009765625,
-      "fairPrice": 540.8884798158904,
-      "ratio": 0.9817365863409998,
-      "bandAggressiveLe": 432.7107838527123,
-      "bandDcaHigh": 486.79963183430135,
-      "bandFairHigh": 594.9773277974795,
+      "currentPrice": 530.1400146484375,
+      "fairPrice": 541.1649696920547,
+      "ratio": 0.9796273675107041,
+      "bandAggressiveLe": 432.93197575364377,
+      "bandDcaHigh": 487.0484727228492,
+      "bandFairHigh": 595.2814666612602,
       "modelCheckNeeded": false,
-      "confidence": "높음",
-      "confidenceNote": "적정가 후보 모두 중앙값 ±17% 안",
+      "confidence": "보통",
+      "confidenceNote": "적정가 후보 중 최대 괴리 ±25%",
       "bizRiskBadge": false,
       "bizRiskDetail": [],
       "stockType": "기타",
@@ -4901,64 +5618,87 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 4개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 21.062635506849315,
-      "ttmEps": 17.96,
+      "epsUsedForCandidates": 21.07340224657534,
+      "ttmEps": 19.16,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 18.019702859195306,
-        "peTTM": 29.4683,
-        "finnhubUpdated": "2026-10-28 17:26",
-        "periods": "Q3'25~Q2'26",
+        "finnhub": 17.965488757538004,
+        "peTTM": 29.5088,
+        "finnhubUpdated": "2026-10-29 13:50",
+        "periods": "Q4'25~Q3'26",
         "endDates": [
-          "2025-09-30",
           "2025-12-31",
           "2026-03-31",
-          "2026-06-30"
+          "2026-06-30",
+          "2026-09-30"
         ],
         "secVerified": false,
-        "quarterly": 17.96,
+        "quarterly": 19.16,
         "checks": [
           "분기 연속 OK",
           "최신성 OK(승인 근거 2026-06-30)",
-          "역산 주식수 일관(±0.3%)",
-          "공시 주식수 대조 +0.1%"
+          "역산 주식수 일관(±0.2%)",
+          "공시 주식수 대조 +0.3%"
         ],
-        "gapPct": 0.33242126500725444,
+        "gapPct": -6.234401056690997,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 674.0440665000726,
+        "fairHistProxy": 591.5838901528932,
+        "proxyPer": 28.07253822761496,
+        "trailingPer": 35.179752948855565,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-09-30",
+        "latestOfficialSource": "10-Q 2026-10-28",
+        "valuationActualPeriodEnd": "2026-09-30",
+        "valuationPeriods": "Q4'25~Q3'26",
+        "earningsReleaseDate": "2026-10-28",
+        "earningsReleaseAtUtc": "2026-10-29T04:59:00+00:00",
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.852694810873009,
-        "candSpread": 1.3322756933789501,
+        "epsTtmNtmRatio": 0.9092029742427429,
+        "candSpread": 1.4205657258442645,
         "fairAltExCappedGrowth": null,
         "fairAltGapPct": null,
         "fairAltApplicable": false,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 25.68,
+      "convertedFairPer": 25.679999999999996,
       "fairPriceBasis": "세 적정가 후보 중앙값",
       "fairPriceCandidates": [
         {
           "candidate": "historical_per",
-          "fairPrice": 631.828362961446,
+          "fairPrice": 674.0440665000726,
           "per": 35.179752948855565,
-          "eps": 17.96,
+          "eps": 19.16,
           "epsBasis": "TTM EPS"
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 474.2474595171721,
+          "fairPrice": 474.48988402101395,
           "per": 22.516055,
-          "eps": 21.062635506849315,
+          "eps": 21.07340224657534,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 540.8884798158904,
+          "fairPrice": 541.1649696920547,
           "per": 25.679999999999996,
-          "eps": 21.062635506849315,
+          "eps": 21.07340224657534,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -4966,16 +5706,6 @@ const PRICE_MAP_DATA = {
       "dispersionFlag": "최대/최소 1.56배 > 기준 1.5배 - 계산은 그대로, 원인 점검 필요",
       "qualityWarnings": [],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 540.7512681257477,
-          "newFairPrice": 540.3355000635615,
-          "changePct": -0.07688711736678146,
-          "epsEffect": 0.6889055750787374,
-          "perEffect": -1.1046736372649533,
-          "otherEffect": 0.0,
-          "note": "EPS 21.0143->21.0411(적정PER 25.73배 유지 가정 시 +0.69) + 적정PER 25.73->25.68배(EPS 21.0411 유지 가정 시 -1.10)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 540.3355000635615,
@@ -4995,38 +5725,48 @@ const PRICE_MAP_DATA = {
           "perEffect": 7.482951327677268e-14,
           "otherEffect": 0.0,
           "note": "EPS 21.0519->21.0626(적정PER 25.68배 유지 가정 시 +0.28) + 적정PER 25.68->25.68배(EPS 21.0626 유지 가정 시 +0.00)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 540.8884798158904,
+          "newFairPrice": 541.1649696920547,
+          "changePct": 0.05111772324276863,
+          "epsEffect": 0.27648987616436016,
+          "perEffect": -7.486776442027342e-14,
+          "otherEffect": 0.0,
+          "note": "EPS 21.0626->21.0734(적정PER 25.68배 유지 가정 시 +0.28) + 적정PER 25.68->25.68배(EPS 21.0734 유지 가정 시 -0.00)"
         }
       ],
       "nextUpdateDate": "2027-01-01"
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "매수",
       "action": "적극 모아가기",
       "actionRaw": "적극 모아가기",
       "actionCapReason": null,
       "cashflowVeto": false,
-      "fairPriceUpper": 455.0157,
-      "fairPriceB": 417.74663965534813,
+      "fairPriceUpper": 450.0609,
+      "fairPriceB": 406.77682072741584,
       "fairBasisMode": "ex_capped_growth_floor_b",
       "candidateBadge": null,
       "lowConfidenceCapEligible": false,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 324.8900146484375,
-      "fairPrice": 417.74663965534813,
-      "ratio": 0.7777202347252398,
-      "bandAggressiveLe": 334.1973117242785,
-      "bandDcaHigh": 375.97197568981335,
-      "bandFairHigh": 459.521303620883,
+      "currentPrice": 283.82000732421875,
+      "fairPrice": 406.77682072741584,
+      "ratio": 0.697729056480356,
+      "bandAggressiveLe": 325.4214565819327,
+      "bandDcaHigh": 366.0991386546743,
+      "bandFairHigh": 447.45450280015746,
       "modelCheckNeeded": false,
       "confidence": "낮음",
       "confidenceNote": "EPS 품질 경고: EPS 일회성 정상화 적용; 다음회계연도 대안 기준 사용",
       "bizRiskBadge": false,
       "bizRiskDetail": [],
       "stockType": "고성장형",
-      "stockTypeReason": "다음 회계연도 성장률 90.5%(기준 30% 초과)",
+      "stockTypeReason": "다음 회계연도 성장률 83.1%(기준 30% 초과)",
       "candidates": {
         "historicalPer": 24.0844831795528,
         "historicalPerYearsUsed": 5,
@@ -5061,63 +5801,86 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 4개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 15.16719,
-      "ttmEps": 19.91,
+      "epsUsedForCandidates": 15.00203,
+      "ttmEps": 19.16,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 20.14259677289671,
-        "peTTM": 16.1295,
-        "finnhubUpdated": "2026-10-28 17:26",
-        "periods": "Q3'25~Q2'26",
+        "finnhub": 17.43280473467021,
+        "peTTM": 16.2808,
+        "finnhubUpdated": "2026-10-29 13:50",
+        "periods": "Q4'25~Q3'26",
         "endDates": [
-          "2025-09-30",
           "2025-12-31",
           "2026-03-31",
-          "2026-06-30"
+          "2026-06-30",
+          "2026-09-30"
         ],
         "secVerified": false,
-        "quarterly": 19.91,
+        "quarterly": 19.16,
         "checks": [
           "분기 연속 OK",
           "최신성 OK(승인 근거 2026-06-30)",
           "역산 주식수 일관(±1.0%)"
         ],
-        "gapPct": 1.168240948752941,
+        "gapPct": -9.014589067483247,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 461.45869772023167,
+        "fairHistProxy": 260.6509461848321,
+        "proxyPer": 17.374378413110232,
+        "trailingPer": 24.0844831795528,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-09-30",
+        "latestOfficialSource": "10-Q 2026-10-29",
+        "valuationActualPeriodEnd": "2026-09-30",
+        "valuationPeriods": "Q4'25~Q3'26",
+        "earningsReleaseDate": "2026-10-28",
+        "earningsReleaseAtUtc": "2026-10-29T04:59:00+00:00",
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 1.3127019573170773,
-        "candSpread": 1.3470809836108326,
-        "fairAltExCappedGrowth": 417.74663965534813,
+        "epsTtmNtmRatio": 1.2771604909468919,
+        "candSpread": 1.3106087035094354,
+        "fairAltExCappedGrowth": 406.77682072741584,
         "fairAltGapPct": 0.0,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 27.54278410538459,
-      "fairPriceBasis": "B안: 성장 PER 상한 후보 제외, 나머지 두 후보의 평균 (A안 상한 포함 $455.02, 낮은 쪽 적용)",
+      "convertedFairPer": 27.114785180899908,
+      "fairPriceBasis": "B안: 성장 PER 상한 후보 제외, 나머지 두 후보의 평균 (A안 상한 포함 $450.06, 낮은 쪽 적용)",
       "fairPriceCandidates": [
         {
           "candidate": "historical_per",
-          "fairPrice": 479.5220601048963,
+          "fairPrice": 461.45869772023167,
           "per": 24.0844831795528,
-          "eps": 19.91,
+          "eps": 19.16,
           "epsBasis": "TTM EPS"
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 355.97121920579997,
+          "fairPrice": 352.09494373459995,
           "per": 23.46982,
-          "eps": 15.16719,
+          "eps": 15.00203,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 455.0157,
+          "fairPrice": 450.0609,
           "per": 30.0,
-          "eps": 15.16719,
+          "eps": 15.00203,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -5128,16 +5891,6 @@ const PRICE_MAP_DATA = {
         "다음회계연도 대안 기준 사용"
       ],
       "recentChanges": [
-        {
-          "date": "2026-10-20",
-          "prevFairPrice": 452.2833,
-          "newFairPrice": 452.9214,
-          "changePct": 0.14108413907831852,
-          "epsEffect": null,
-          "perEffect": null,
-          "otherEffect": 0.6381000000000085,
-          "note": "기타(종목유형 변경: None -> 고성장형)"
-        },
         {
           "date": "2026-10-24",
           "prevFairPrice": 452.9214,
@@ -5157,16 +5910,26 @@ const PRICE_MAP_DATA = {
           "perEffect": -37.269060344651884,
           "otherEffect": 0.0,
           "note": "EPS 15.1160->15.1672(적정PER 30.00배 유지 가정 시 +1.53) + 적정PER 30.00->27.54배(EPS 15.1672 유지 가정 시 -37.27)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 417.74663965534813,
+          "newFairPrice": 406.77682072741584,
+          "changePct": -2.6259502498889473,
+          "epsEffect": -4.5489662228453245,
+          "perEffect": -6.420852705086951,
+          "otherEffect": 0.0,
+          "note": "EPS 15.1672->15.0020(적정PER 27.54배 유지 가정 시 -4.55) + 적정PER 27.54->27.11배(EPS 15.0020 유지 가정 시 -6.42)"
         }
       ],
       "nextUpdateDate": "2027-01-01"
     },
     "META": {
       "ticker": "META",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "매수",
-      "action": "적극 모아가기",
-      "actionRaw": "적극 모아가기",
+      "action": "분할매수",
+      "actionRaw": "분할매수",
       "actionCapReason": null,
       "cashflowVeto": false,
       "fairPriceUpper": null,
@@ -5176,12 +5939,12 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": false,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 612.489990234375,
-      "fairPrice": 777.2882828175735,
-      "ratio": 0.787983047955097,
-      "bandAggressiveLe": 621.8306262540589,
-      "bandDcaHigh": 699.5594545358161,
-      "bandFairHigh": 855.0171110993309,
+      "currentPrice": 624.52001953125,
+      "fairPrice": 777.3475965182882,
+      "ratio": 0.803398662745537,
+      "bandAggressiveLe": 621.8780772146306,
+      "bandDcaHigh": 699.6128368664595,
+      "bandFairHigh": 855.0823561701171,
       "modelCheckNeeded": false,
       "confidence": "보통",
       "confidenceNote": "적정가 후보 중 최대 괴리 ±28%",
@@ -5223,13 +5986,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 4개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 33.118629917808214,
+      "epsUsedForCandidates": 33.12115715068494,
       "ttmEps": 29.33,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 28.593769968552174,
-        "peTTM": 21.4204,
-        "finnhubUpdated": "2026-10-28 17:26",
+        "finnhub": 29.642920791682684,
+        "peTTM": 21.0681,
+        "finnhubUpdated": "2026-10-29 13:51",
         "periods": "Q4'25~Q3'26",
         "endDates": [
           "2025-12-31",
@@ -5244,16 +6007,39 @@ const PRICE_MAP_DATA = {
           "최신성 OK(승인 근거 2026-09-30)",
           "역산 주식수 일관(±0.4%)"
         ],
-        "gapPct": -2.510160352703117,
+        "gapPct": 1.0668966644483024,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 716.4230703715406,
+        "fairHistProxy": 657.0352511673492,
+        "proxyPer": 19.83732778955043,
+        "trailingPer": 24.426289477379495,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-09-30",
+        "latestOfficialSource": "10-Q 2026-10-22",
+        "valuationActualPeriodEnd": "2026-09-30",
+        "valuationPeriods": "Q4'25~Q3'26",
+        "earningsReleaseDate": "2026-10-21",
+        "earningsReleaseAtUtc": "2026-10-22T04:59:00+00:00",
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.8856042678332224,
-        "candSpread": 1.3868326392936814,
-        "fairAltExCappedGrowth": 746.855676594557,
-        "fairAltGapPct": -3.915227708399527,
+        "epsTtmNtmRatio": 0.8855366938589421,
+        "candSpread": 1.3869384664081856,
+        "fairAltExCappedGrowth": 746.8853334449144,
+        "fairAltGapPct": -3.9187440997840883,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
@@ -5270,16 +6056,16 @@ const PRICE_MAP_DATA = {
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 777.2882828175735,
+          "fairPrice": 777.3475965182882,
           "per": 23.46982,
-          "eps": 33.118629917808214,
+          "eps": 33.12115715068494,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 993.5588975342464,
+          "fairPrice": 993.6347145205481,
           "per": 30.0,
-          "eps": 33.118629917808214,
+          "eps": 33.12115715068494,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -5287,16 +6073,6 @@ const PRICE_MAP_DATA = {
       "dispersionFlag": null,
       "qualityWarnings": [],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 775.6758663170301,
-          "newFairPrice": 777.7735248826219,
-          "changePct": 0.2704297834547389,
-          "epsEffect": 2.097658565591721,
-          "perEffect": 0.0,
-          "otherEffect": 0.0,
-          "note": "EPS 33.0499->33.1393(적정PER 23.47배 유지 가정 시 +2.10) + 적정PER 23.47->23.47배(EPS 33.1393 유지 가정 시 +0.00)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 777.7735248826219,
@@ -5316,38 +6092,48 @@ const PRICE_MAP_DATA = {
           "perEffect": 0.0,
           "otherEffect": 0.0,
           "note": "EPS 33.1279->33.1186(적정PER 23.47배 유지 가정 시 -0.22) + 적정PER 23.47->23.47배(EPS 33.1186 유지 가정 시 +0.00)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 777.2882828175735,
+          "newFairPrice": 777.3475965182882,
+          "changePct": 0.0076308497150768635,
+          "epsEffect": 0.059313700714770115,
+          "perEffect": 0.0,
+          "otherEffect": 0.0,
+          "note": "EPS 33.1186->33.1212(적정PER 23.47배 유지 가정 시 +0.06) + 적정PER 23.47->23.47배(EPS 33.1212 유지 가정 시 +0.00)"
         }
       ],
       "nextUpdateDate": "2027-01-01"
     },
     "AMZN": {
       "ticker": "AMZN",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "매수",
       "action": "분할매수",
-      "actionRaw": "분할매수",
-      "actionCapReason": null,
+      "actionRaw": "적극 모아가기",
+      "actionCapReason": "low_confidence_cap",
       "cashflowVeto": false,
       "fairPriceUpper": null,
-      "fairPriceB": 442.3321917524266,
+      "fairPriceB": 442.4069001702516,
       "fairBasisMode": "a_kept_b_higher",
       "candidateBadge": null,
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 254.60000610351562,
-      "fairPrice": 316.38750000000005,
-      "ratio": 0.8047094341701729,
-      "bandAggressiveLe": 253.11000000000004,
-      "bandDcaHigh": 284.74875000000003,
-      "bandFairHigh": 348.02625000000006,
+      "currentPrice": 243.7899932861328,
+      "fairPrice": 316.5804,
+      "ratio": 0.7700729207687299,
+      "bandAggressiveLe": 253.26432,
+      "bandDcaHigh": 284.92236,
+      "bandFairHigh": 348.23844,
       "modelCheckNeeded": false,
       "confidence": "낮음",
       "confidenceNote": "EPS 품질 경고: 다음회계연도 대안 기준 사용",
       "bizRiskBadge": false,
       "bizRiskDetail": [],
       "stockType": "고성장형",
-      "stockTypeReason": "다음 회계연도 성장률 80.1%(기준 30% 초과)",
+      "stockTypeReason": "다음 회계연도 성장률 80.2%(기준 30% 초과)",
       "candidates": {
         "historicalPer": 51.45586272816599,
         "historicalPerYearsUsed": 5,
@@ -5382,13 +6168,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 4개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 10.54625,
+      "epsUsedForCandidates": 10.55268,
       "ttmEps": 12.43,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 12.743635995691172,
-        "peTTM": 19.9786,
-        "finnhubUpdated": "2026-10-28 17:26",
+        "finnhub": 12.053178218653668,
+        "peTTM": 20.2262,
+        "finnhubUpdated": "2026-10-29 13:51",
         "periods": "Q3'25~Q2'26",
         "endDates": [
           "2025-09-30",
@@ -5404,21 +6190,44 @@ const PRICE_MAP_DATA = {
           "역산 주식수 일관(±0.3%)",
           "공시 주식수 대조 +1.0%"
         ],
-        "gapPct": 2.5232179862523907,
+        "gapPct": -3.031550936012317,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 639.5963737111032,
+        "fairHistProxy": 322.89434571257397,
+        "proxyPer": 30.598326274706896,
+        "trailingPer": 51.45586272816599,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-06-30",
+        "latestOfficialSource": "10-Q 2026-07-31",
+        "valuationActualPeriodEnd": "2026-06-30",
+        "valuationPeriods": "Q3'25~Q2'26",
+        "earningsReleaseDate": null,
+        "earningsReleaseAtUtc": null,
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 1.1786179921773141,
-        "candSpread": 2.6098729664854643,
-        "fairAltExCappedGrowth": 442.3321917524266,
-        "fairAltGapPct": 39.807101024037465,
+        "epsTtmNtmRatio": 1.177899832080571,
+        "candSpread": 2.608282708543927,
+        "fairAltExCappedGrowth": 442.4069001702516,
+        "fairAltGapPct": 39.74551177844605,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 30.000000000000004,
+      "convertedFairPer": 30.0,
       "fairPriceBasis": "세 적정가 후보 중앙값",
       "fairPriceCandidates": [
         {
@@ -5430,16 +6239,16 @@ const PRICE_MAP_DATA = {
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 245.06800979375,
+          "fairPrice": 245.21742662940002,
           "per": 23.237455,
-          "eps": 10.54625,
+          "eps": 10.55268,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 316.38750000000005,
+          "fairPrice": 316.5804,
           "per": 30.0,
-          "eps": 10.54625,
+          "eps": 10.55268,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -5449,16 +6258,6 @@ const PRICE_MAP_DATA = {
         "다음회계연도 대안 기준 사용"
       ],
       "recentChanges": [
-        {
-          "date": "2026-10-24",
-          "prevFairPrice": 317.0733,
-          "newFairPrice": 316.7736,
-          "changePct": -0.09452073069540382,
-          "epsEffect": -0.29970000000000496,
-          "perEffect": 0.0,
-          "otherEffect": 0.0,
-          "note": "EPS 10.5691->10.5591(적정PER 30.00배 유지 가정 시 -0.30) + 적정PER 30.00->30.00배(EPS 10.5591 유지 가정 시 +0.00)"
-        },
         {
           "date": "2026-10-27",
           "prevFairPrice": 316.7736,
@@ -5478,13 +6277,23 @@ const PRICE_MAP_DATA = {
           "perEffect": 3.7467806635049785e-14,
           "otherEffect": 0.0,
           "note": "EPS 10.5587->10.5463(적정PER 30.00배 유지 가정 시 -0.37) + 적정PER 30.00->30.00배(EPS 10.5463 유지 가정 시 +0.00)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 316.38750000000005,
+          "newFairPrice": 316.5804,
+          "changePct": 0.06096953893562541,
+          "epsEffect": 0.1928999999999981,
+          "perEffect": -3.749065058400447e-14,
+          "otherEffect": 0.0,
+          "note": "EPS 10.5463->10.5527(적정PER 30.00배 유지 가정 시 +0.19) + 적정PER 30.00->30.00배(EPS 10.5527 유지 가정 시 -0.00)"
         }
       ],
-      "nextUpdateDate": "2026-10-30"
+      "nextUpdateDate": "2027-01-01"
     },
     "ORCL": {
       "ticker": "ORCL",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "매수",
       "action": "분할매수",
       "actionRaw": "적극 모아가기",
@@ -5497,9 +6306,9 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 144.5399932861328,
+      "currentPrice": 139.55999755859375,
       "fairPrice": 220.16195947106576,
-      "ratio": 0.6565166554357844,
+      "ratio": 0.6338969633713452,
       "bandAggressiveLe": 176.12956757685262,
       "bandDcaHigh": 198.14576352395918,
       "bandFairHigh": 242.17815541817234,
@@ -5536,7 +6345,7 @@ const PRICE_MAP_DATA = {
           },
           {
             "ticker": "NOW",
-            "per": 37.05779518516254
+            "per": 37.249136506312354
           },
           {
             "ticker": "ADBE",
@@ -5546,13 +6355,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 4개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 9.320136520547944,
+      "epsUsedForCandidates": 9.33828493150685,
       "ttmEps": 6.38,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 6.928220169497079,
-        "peTTM": 20.8625,
-        "finnhubUpdated": "2026-10-28 17:26",
+        "finnhub": 6.722219428668838,
+        "peTTM": 20.761,
+        "finnhubUpdated": "2026-10-29 13:51",
         "periods": "Q4'25~Q3'26",
         "endDates": [
           "2025-11-30",
@@ -5568,21 +6377,44 @@ const PRICE_MAP_DATA = {
           "역산 주식수 일관(±3.0%)",
           "공시 주식수 대조 -0.8%"
         ],
-        "gapPct": 8.592792625346068,
+        "gapPct": 5.363940888226315,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 220.16195947106576,
+        "fairHistProxy": 265.14001600566985,
+        "proxyPer": 28.39279567397888,
+        "trailingPer": 34.508144117721905,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-08-31",
+        "latestOfficialSource": "10-Q 2026-09-11",
+        "valuationActualPeriodEnd": "2026-08-31",
+        "valuationPeriods": "Q4'25~Q3'26",
+        "earningsReleaseDate": null,
+        "earningsReleaseAtUtc": null,
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.6845393290038321,
+        "epsTtmNtmRatio": 0.6832089668279705,
         "candSpread": 1.6019684988914378,
-        "fairAltExCappedGrowth": 197.34989164295314,
-        "fairAltGapPct": -10.361493821602108,
+        "fairAltExCappedGrowth": 197.51982392599865,
+        "fairAltGapPct": -10.284308696863132,
         "fairAltApplicable": true,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 23.62218181951289,
+      "convertedFairPer": 23.57627348981949,
       "fairPriceBasis": "세 적정가 후보 중앙값",
       "fairPriceCandidates": [
         {
@@ -5594,16 +6426,16 @@ const PRICE_MAP_DATA = {
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 174.53782381484052,
+          "fairPrice": 174.87768838093152,
           "per": 18.72696,
-          "eps": 9.320136520547944,
+          "eps": 9.33828493150685,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 279.6040956164383,
+          "fairPrice": 280.1485479452055,
           "per": 30.0,
-          "eps": 9.320136520547944,
+          "eps": 9.33828493150685,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -5648,7 +6480,7 @@ const PRICE_MAP_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "매수",
       "action": "분할매수",
       "actionRaw": "적극 모아가기",
@@ -5661,12 +6493,12 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": "median",
       "sectorFewPeers": true,
-      "currentPrice": 242.11000061035156,
-      "fairPrice": 357.45733835325296,
-      "ratio": 0.6773115967508526,
-      "bandAggressiveLe": 285.9658706826024,
-      "bandDcaHigh": 321.7116045179277,
-      "bandFairHigh": 393.2030721885783,
+      "currentPrice": 230.89999389648438,
+      "fairPrice": 357.4126426061682,
+      "ratio": 0.6460319708133893,
+      "bandAggressiveLe": 285.9301140849346,
+      "bandDcaHigh": 321.67137834555143,
+      "bandFairHigh": 393.15390686678506,
       "modelCheckNeeded": false,
       "confidence": "낮음",
       "confidenceNote": "적정가 후보 중 최대 괴리 ±61% (±40% 밖)",
@@ -5698,7 +6530,7 @@ const PRICE_MAP_DATA = {
           },
           {
             "ticker": "NOW",
-            "per": 37.05779518516254
+            "per": 37.249136506312354
           },
           {
             "ticker": "ADBE",
@@ -5708,13 +6540,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "유효 비교군 4개 중앙값 (제외 0개) · 비교군 소수(5개 미만)"
       },
-      "epsUsedForCandidates": 16.205704904109588,
+      "epsUsedForCandidates": 16.203678575342465,
       "ttmEps": 10.969999999999999,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 11.69263315385496,
-        "peTTM": 20.7062,
-        "finnhubUpdated": "2026-10-28 17:26",
+        "finnhub": 11.200310149959224,
+        "peTTM": 20.6155,
+        "finnhubUpdated": "2026-10-29 13:51",
         "periods": "Q4'25~Q3'26",
         "endDates": [
           "2025-10-31",
@@ -5730,14 +6562,37 @@ const PRICE_MAP_DATA = {
           "역산 주식수 흔들림 15.9% - SEC 대조 확인(2026-10-26): 분기 EPS = SEC GAAP 희석 EPS(4개 분기 직접 일치, FY2026 연간 7.80 vs 분기 합 7.81). 역산 주식수 흔들림은 실제 희석주식수 감소(962M→821M, 자사주 매입) 때문",
           "공시 주식수 대조 -0.1%"
         ],
-        "gapPct": 6.5873578291245405,
+        "gapPct": 2.0994544207768806,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 577.1543714316755,
+        "fairHistProxy": 692.1480781409668,
+        "proxyPer": 42.71549049326525,
+        "trailingPer": 52.61206667563132,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-07-31",
+        "latestOfficialSource": "10-Q 2026-08-27",
+        "valuationActualPeriodEnd": "2026-07-31",
+        "valuationPeriods": "Q4'25~Q3'26",
+        "earningsReleaseDate": null,
+        "earningsReleaseAtUtc": null,
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.6769221126085128,
-        "candSpread": 1.796114348620662,
+        "epsTtmNtmRatio": 0.6770067641734956,
+        "candSpread": 1.7963389592334147,
         "fairAltExCappedGrowth": null,
         "fairAltGapPct": null,
         "fairAltApplicable": false,
@@ -5756,16 +6611,16 @@ const PRICE_MAP_DATA = {
         },
         {
           "candidate": "sector_per",
-          "fairPrice": 321.334981748186,
+          "fairPrice": 321.29480266796384,
           "per": 19.82851,
-          "eps": 16.205704904109588,
+          "eps": 16.203678575342465,
           "epsBasis": "NTM EPS"
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 357.45733835325296,
+          "fairPrice": 357.4126426061682,
           "per": 22.05750015,
-          "eps": 16.205704904109588,
+          "eps": 16.203678575342465,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -5773,16 +6628,6 @@ const PRICE_MAP_DATA = {
       "dispersionFlag": "최대/최소 2.65배 > 기준 1.5배 - 계산은 그대로, 원인 점검 필요",
       "qualityWarnings": [],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 357.6808170886768,
-          "newFairPrice": 357.54672984742245,
-          "changePct": -0.03748795989277387,
-          "epsEffect": -0.1340872412543545,
-          "perEffect": 0.0,
-          "otherEffect": 0.0,
-          "note": "EPS 16.2158->16.2098(적정PER 22.06배 유지 가정 시 -0.13) + 적정PER 22.06->22.06배(EPS 16.2098 유지 가정 시 +0.00)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 357.54672984742245,
@@ -5802,16 +6647,26 @@ const PRICE_MAP_DATA = {
           "perEffect": 0.0,
           "otherEffect": 0.0,
           "note": "EPS 16.2077->16.2057(적정PER 22.06배 유지 가정 시 -0.04) + 적정PER 22.06->22.06배(EPS 16.2057 유지 가정 시 +0.00)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 357.45733835325296,
+          "newFairPrice": 357.4126426061682,
+          "changePct": -0.012503798996168618,
+          "epsEffect": -0.044695747084758715,
+          "perEffect": 0.0,
+          "otherEffect": 0.0,
+          "note": "EPS 16.2057->16.2037(적정PER 22.06배 유지 가정 시 -0.04) + 적정PER 22.06->22.06배(EPS 16.2037 유지 가정 시 +0.00)"
         }
       ],
       "nextUpdateDate": "2026-12-02"
     },
     "PLTR": {
       "ticker": "PLTR",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "고평가",
-      "action": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 2.97배)",
-      "actionRaw": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 2.97배)",
+      "action": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 2.95배)",
+      "actionRaw": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 2.95배)",
       "actionCapReason": null,
       "cashflowVeto": false,
       "fairPriceUpper": null,
@@ -5821,12 +6676,12 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": true,
       "sectorPerMethod": null,
       "sectorFewPeers": null,
-      "currentPrice": 196.80999755859375,
-      "fairPrice": 66.3611194520548,
-      "ratio": 2.965742579143604,
-      "bandAggressiveLe": 53.08889556164384,
-      "bandDcaHigh": 59.725007506849316,
-      "bandFairHigh": 72.99723139726028,
+      "currentPrice": 196.4199981689453,
+      "fairPrice": 66.61699315068493,
+      "ratio": 2.948496905656658,
+      "bandAggressiveLe": 53.29359452054795,
+      "bandDcaHigh": 59.955293835616445,
+      "bandFairHigh": 73.27869246575344,
       "modelCheckNeeded": true,
       "confidence": "낮음",
       "confidenceNote": "적정가/현재가 비율이 2배 초과 또는 0.5배 미만 - 모델 점검 필요로 강제 낮음",
@@ -5850,13 +6705,13 @@ const PRICE_MAP_DATA = {
         "peers": [
           {
             "ticker": "NOW",
-            "per": 37.05779518516254
+            "per": 37.249136506312354
           }
         ],
         "excluded": [
           {
             "ticker": "SNOW",
-            "reason": "NTM PER 153.5배 >80배 제외"
+            "reason": "NTM PER 153.3배 >80배 제외"
           },
           {
             "ticker": "DDOG",
@@ -5865,13 +6720,13 @@ const PRICE_MAP_DATA = {
         ],
         "note": "유효 비교군 2개 이하(최소 3개 기준 미달)"
       },
-      "epsUsedForCandidates": 2.212037315068493,
+      "epsUsedForCandidates": 2.2205664383561645,
       "ttmEps": 1.17,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 1.24322670147647,
-        "peTTM": 158.3058,
-        "finnhubUpdated": "2026-10-28 17:26",
+        "finnhub": 1.2528679281813981,
+        "peTTM": 156.7763,
+        "finnhubUpdated": "2026-10-29 13:51",
         "periods": "Q3'25~Q2'26",
         "endDates": [
           "2025-09-30",
@@ -5886,13 +6741,36 @@ const PRICE_MAP_DATA = {
           "최신성 OK(승인 근거 2026-06-30)",
           "역산 주식수 일관(±4.2%)"
         ],
-        "gapPct": 6.258692433886326,
+        "gapPct": 7.08272890439301,
         "gapCause": null,
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": null,
+        "fairHistProxy": null,
+        "proxyPer": null,
+        "trailingPer": null,
+        "modelSplitEligible": false,
+        "modelSplitRatio": null,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-06-30",
+        "latestOfficialSource": "10-Q 2026-08-04",
+        "valuationActualPeriodEnd": "2026-06-30",
+        "valuationPeriods": "Q3'25~Q2'26",
+        "earningsReleaseDate": null,
+        "earningsReleaseAtUtc": null,
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.5289241696014393,
+        "epsTtmNtmRatio": 0.5268925891116883,
         "candSpread": null,
         "fairAltExCappedGrowth": null,
         "fairAltGapPct": null,
@@ -5905,9 +6783,9 @@ const PRICE_MAP_DATA = {
       "fairPriceCandidates": [
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 66.3611194520548,
+          "fairPrice": 66.61699315068493,
           "per": 30.0,
-          "eps": 2.212037315068493,
+          "eps": 2.2205664383561645,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -5917,16 +6795,6 @@ const PRICE_MAP_DATA = {
         "과거 PER 이력 부족(0년치)"
       ],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 66.42510739726028,
-          "newFairPrice": 66.72958356164384,
-          "changePct": 0.4583751179544449,
-          "epsEffect": 0.30447616438355585,
-          "perEffect": 0.0,
-          "otherEffect": 0.0,
-          "note": "EPS 2.2142->2.2243(적정PER 30.00배 유지 가정 시 +0.30) + 적정PER 30.00->30.00배(EPS 2.2243 유지 가정 시 +0.00)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 66.72958356164384,
@@ -5946,16 +6814,26 @@ const PRICE_MAP_DATA = {
           "perEffect": 0.0,
           "otherEffect": 0.0,
           "note": "EPS 2.2101->2.2120(적정PER 30.00배 유지 가정 시 +0.06) + 적정PER 30.00->30.00배(EPS 2.2120 유지 가정 시 +0.00)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 66.3611194520548,
+          "newFairPrice": 66.61699315068493,
+          "changePct": 0.3855777309709276,
+          "epsEffect": 0.2558736986301424,
+          "perEffect": 0.0,
+          "otherEffect": 0.0,
+          "note": "EPS 2.2120->2.2206(적정PER 30.00배 유지 가정 시 +0.26) + 적정PER 30.00->30.00배(EPS 2.2206 유지 가정 시 +0.00)"
         }
       ],
       "nextUpdateDate": "2026-11-03"
     },
     "TSLA": {
       "ticker": "TSLA",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "verdict": "고평가",
-      "action": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 9.33배)",
-      "actionRaw": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 9.33배)",
+      "action": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 9.31배)",
+      "actionRaw": "신규 추격 금지 · 모델 점검 필요(적정가/현재가 비율 9.31배)",
       "actionCapReason": null,
       "cashflowVeto": false,
       "fairPriceUpper": null,
@@ -5965,12 +6843,12 @@ const PRICE_MAP_DATA = {
       "lowConfidenceCapEligible": false,
       "sectorPerMethod": null,
       "sectorFewPeers": null,
-      "currentPrice": 404.2200012207031,
-      "fairPrice": 43.305660453400435,
-      "ratio": 9.334114685900445,
-      "bandAggressiveLe": 34.64452836272035,
-      "bandDcaHigh": 38.97509440806039,
-      "bandFairHigh": 47.636226498740484,
+      "currentPrice": 403.29998779296875,
+      "fairPrice": 43.31788887804122,
+      "ratio": 9.310241062957486,
+      "bandAggressiveLe": 34.65431110243298,
+      "bandDcaHigh": 38.98609999023709,
+      "bandFairHigh": 47.64967776584534,
       "modelCheckNeeded": true,
       "confidence": "낮음",
       "confidenceNote": "적정가/현재가 비율이 2배 초과 또는 0.5배 미만 - 모델 점검 필요로 강제 낮음 / 사업 위험으로 신뢰도 1단계 하향(낮음→낮음): EPS 수정 방향 하향(하향)",
@@ -5997,13 +6875,13 @@ const PRICE_MAP_DATA = {
         "excluded": [],
         "note": "비교군 없음(peer_groups.json에 비교군 정의 자체가 없음)"
       },
-      "epsUsedForCandidates": 2.0837040273972605,
+      "epsUsedForCandidates": 2.0848406301369864,
       "ttmEps": 0.91,
       "ttmEpsSelection": {
         "rule": "verified_quarterly_sum",
-        "finnhub": 0.8408306488630379,
-        "peTTM": 480.7389,
-        "finnhubUpdated": "2026-10-28 17:26",
+        "finnhub": 0.8063040619951853,
+        "peTTM": 500.1835,
+        "finnhubUpdated": "2026-10-29 13:51",
         "periods": "Q4'25~Q3'26",
         "endDates": [
           "2025-12-31",
@@ -6019,21 +6897,45 @@ const PRICE_MAP_DATA = {
           "역산 주식수 일관(±5.2%)",
           "공시 주식수 대조 -9.5%"
         ],
-        "gapPct": -7.601027597468358,
-        "gapCause": null,
+        "gapPct": -11.395158022507113,
+        "gapPrevPct": -25.342216481927295,
+        "gapCause": "definition_unexplained",
         "source": "quarterly_sum(검증 통과)"
       },
       "normalizationSensitivity": null,
+      "wo32": {
+        "histMode": "trailing",
+        "fairHistTrailing": 41.77521980983593,
+        "fairHistProxy": null,
+        "proxyPer": null,
+        "trailingPer": 45.90683495586366,
+        "modelSplitEligible": false,
+        "modelSplitRatio": 1.0738557008306666,
+        "actionBeforeModelSplit": null,
+        "modelSplitMode": "on"
+      },
+      "earningsStatus": {
+        "latestOfficialPeriodEnd": "2026-09-30",
+        "latestOfficialSource": "10-Q 2026-10-22",
+        "valuationActualPeriodEnd": "2026-09-30",
+        "valuationPeriods": "Q4'25~Q3'26",
+        "earningsReleaseDate": "2026-10-21",
+        "earningsReleaseAtUtc": "2026-10-22T04:59:00+00:00",
+        "consensusUpdatedAtUtc": "2026-10-29T20:08:03.182697+00:00",
+        "periodCompareMethod": "fiscal_period",
+        "pendingReflection": false,
+        "consensusPreRelease": false
+      },
       "diag": {
-        "epsTtmNtmRatio": 0.4367222926264986,
-        "candSpread": 1.0732702616781524,
+        "epsTtmNtmRatio": 0.4364842026031542,
+        "candSpread": 1.0738557008306666,
         "fairAltExCappedGrowth": null,
         "fairAltGapPct": null,
         "fairAltApplicable": false,
         "note": "2026-10-22 지시[2] 병행 기록/진단용 - 판정·적정가·신뢰도 계산에는 전혀 반영 안 됨. 성장률PER이 30배 상한에 안 걸렸으면 fairAlt*는 비움."
       },
       "epsBasisNote": null,
-      "convertedFairPer": 20.78301902957553,
+      "convertedFairPer": 20.777554049872375,
       "fairPriceBasis": "적정가 후보 2개 평균",
       "fairPriceCandidates": [
         {
@@ -6045,9 +6947,9 @@ const PRICE_MAP_DATA = {
         },
         {
           "candidate": "growth_per_peg",
-          "fairPrice": 44.836101096964946,
+          "fairPrice": 44.86055794624651,
           "per": 21.51749985,
-          "eps": 2.0837040273972605,
+          "eps": 2.0848406301369864,
           "epsBasis": "NTM EPS"
         }
       ],
@@ -6058,16 +6960,6 @@ const PRICE_MAP_DATA = {
         "⚠ 사업 경고(현금흐름/EPS 하향): EPS 수정 방향 하향(하향)"
       ],
       "recentChanges": [
-        {
-          "date": "2026-10-27",
-          "prevFairPrice": 42.55503512111548,
-          "newFairPrice": 44.42292572090898,
-          "changePct": 4.389352739287635,
-          "epsEffect": -0.06391306627536852,
-          "perEffect": 1.931803666068863,
-          "otherEffect": 0.0,
-          "note": "EPS 2.1107->2.1075(적정PER 20.16배 유지 가정 시 -0.06) + 적정PER 20.16->21.08배(EPS 2.1075 유지 가정 시 +1.93)"
-        },
         {
           "date": "2026-10-28",
           "prevFairPrice": 44.42292572090898,
@@ -6087,6 +6979,16 @@ const PRICE_MAP_DATA = {
           "perEffect": -0.011399830019021137,
           "otherEffect": 0.0,
           "note": "EPS 2.0826->2.0837(적정PER 20.79배 유지 가정 시 +0.02) + 적정PER 20.79->20.78배(EPS 2.0837 유지 가정 시 -0.01)"
+        },
+        {
+          "date": "2026-10-30",
+          "prevFairPrice": 43.305660453400435,
+          "newFairPrice": 43.31788887804122,
+          "changePct": 0.02823747406863843,
+          "epsEffect": 0.023622036368791764,
+          "perEffect": -0.011393611728013278,
+          "otherEffect": 0.0,
+          "note": "EPS 2.0837->2.0848(적정PER 20.78배 유지 가정 시 +0.02) + 적정PER 20.78->20.78배(EPS 2.0848 유지 가정 시 -0.01)"
         }
       ],
       "nextUpdateDate": "2027-01-01"
