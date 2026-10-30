@@ -317,11 +317,11 @@ const MARKET_EXPECTATION_41 = {
       "stale_consensus_warning": false,
       "price_as_of_mismatch": false,
       "composite_hidden": false,
-      "composite_internal_ref": 0.55,
+      "composite_internal_ref": 0.8833,
       "support_summary": [
-        "총매출 $16.1B, +25% YoY (DCAI $6.3B +59%, Foundry $5.8B +31%, CCPG $8.9B +13%)",
-        "GAAP 영업이익 +$1.8B(마진 11.1%), 전년동기 -$3.2B(-24.7%)에서 흑자전환; 비GAAP 영업마진 17.2%(전년 -3.9%)",
-        "CEO: \"15년 내 최고 매출성장\", DCAI +59% YoY(AI 수요 견인); Q3 2026 가이던스 매출 $15.8~16.8B로 추가 성장 시사"
+        "CEO: \"15년 내 최고 매출성장\", DCAI +59% YoY(AI 수요 견인); Q3 2026 가이던스 매출 $15.8~16.8B로 추가 성장 시사",
+        "[자동] Q3'26 매출 $16.51B, 전년 동기 대비 +20.9%",
+        "[자동] Q3'26 영업이익 $2.52B, 전년 동기 대비 +269.3%"
       ],
       "caution_summary": [
         "상반기(H1) CAPEX $6.2B, 전년동기 $8.7B 대비 -28.7% YoY(오히려 감소)"
@@ -333,8 +333,8 @@ const MARKET_EXPECTATION_41 = {
         "CAPEX가 다음 분기에 다시 증가 전환하는지, 그것이 수요와 어떻게 연결되는지 확인",
         "18A/14A 수율·고객계약이 공식적으로 확인되는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 1건(2026-06-27 분기)",
-      "evidence_auto_count": 1,
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 4건(2026-09-26 분기)",
+      "evidence_auto_count": 4,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
       "primary_etf": "SMH",
@@ -1021,7 +1021,7 @@ const MARKET_EXPECTATION_41 = {
     "AMZN": {
       "ticker": "AMZN",
       "as_of": "2026-10-31",
-      "expectation_status": "기대 유지",
+      "expectation_status": "기대 강화",
       "confidence": "보통",
       "observed_axes": 5,
       "ab_grade_axes": 5,
@@ -1038,25 +1038,24 @@ const MARKET_EXPECTATION_41 = {
       "stale_consensus_warning": false,
       "price_as_of_mismatch": false,
       "composite_hidden": false,
-      "composite_internal_ref": 0.04,
+      "composite_internal_ref": 0.6,
       "support_summary": [
         "CEO Andy Jassy: 'AWS가 호황이다, 전년동기 대비 36.7% 성장 -- 18개 분기 중 가장 빠른 성장'; AWS 매출 $42.2B, 영업이익률 39.4%; Anthropic·OpenAI 등으로부터 대규모 인프라 수주 다수",
-        "Q2 2026(기간종료 2026-06-30) 매출 $200.6B, 전년동기 대비 +20%",
-        "Q2 2026 영업이익 $27.5B, +43% YoY, 영업이익률 13.7%(FY2025 연간 11.2%보다 뚜렷이 개선)"
+        "[자동] Q3'26 영업이익 $28.08B, 전년 동기 대비 +61.2%",
+        "[자동] Q3'26 설비투자 $77.26B, 전년 동기 대비 +120.1%"
       ],
       "caution_summary": [
-        "Q2 2026 영업현금흐름 $45.4B, CAPEX $54.2B -> 분기 FCF -$8.8B(음수). TTM CAPEX $169.0B(+64% YoY)로 FY2025 연간 전환율 0.096(142 v0.3 감사 확인)보다도 현금소진이 가속",
-        "Q2 2026 CAPEX $54.2B(분기 영업현금흐름 초과); TTM CAPEX $169.0B, +64% YoY"
+        "[자동] Q3'26 잉여현금흐름 $-34.84B(마이너스)"
       ],
       "next_change_condition": [
-        "종합 점수가 ±0.25를 넘어서는 새 A/B급 근거가 나오면 결론이 바뀐다.",
+        "지지 근거 중 하나라도 공식적으로 철회·악화되거나, 구조위험 조건이 나오면 결론이 바뀐다.",
         "미관측 축(부채·정책·뉴스·추세) 자료 확보 시 재평가",
+        "종합 점수가 ±0.25를 넘어서는 새 A/B급 근거가 나오면 결론이 바뀐다.",
         "다음 분기 FCF·CAPEX 추이가 추가로 악화/개선되는 경우",
-        "AWS 성장률(+36.7%)이 지속/둔화되는 경우",
-        "부채·정책 축이 공식근거로 관측 가능해지는 경우"
+        "AWS 성장률(+36.7%)이 지속/둔화되는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
-      "evidence_auto_count": 0,
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 4건(2026-09-30 분기)",
+      "evidence_auto_count": 4,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
       "primary_etf": "XLY",
