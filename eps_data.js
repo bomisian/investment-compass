@@ -38,7 +38,7 @@ const EPS_DATA = {
         "revenueAvg": 468677147730.0
       }
     ],
-    "updatedAt": "2026-10-29T17:15:14+09:00"
+    "updatedAt": "2026-10-30T13:40:13+09:00"
   },
   "GOOGL": {
     "symbol": "GOOGL",
@@ -78,7 +78,7 @@ const EPS_DATA = {
         "revenueAvg": 626817344190.0
       }
     ],
-    "updatedAt": "2026-10-29T17:15:27+09:00"
+    "updatedAt": "2026-10-30T13:40:27+09:00"
   },
   "AMZN": {
     "symbol": "AMZN",
@@ -118,7 +118,7 @@ const EPS_DATA = {
         "revenueAvg": 950023843860.0
       }
     ],
-    "updatedAt": "2026-10-29T17:15:41+09:00"
+    "updatedAt": "2026-10-30T13:40:40+09:00"
   },
   "META": {
     "symbol": "META",
@@ -158,7 +158,7 @@ const EPS_DATA = {
         "revenueAvg": 311469314800.0
       }
     ],
-    "updatedAt": "2026-10-29T17:15:55+09:00"
+    "updatedAt": "2026-10-30T13:40:54+09:00"
   },
   "AAPL": {
     "symbol": "AAPL",
@@ -189,7 +189,7 @@ const EPS_DATA = {
         "revenueAvg": 527257593570.0
       }
     ],
-    "updatedAt": "2026-10-29T17:16:08+09:00"
+    "updatedAt": "2026-10-30T13:41:08+09:00"
   },
   "TSLA": {
     "symbol": "TSLA",
@@ -1543,4 +1543,4 @@ const EPS_DATA = {
     "updatedAt": "2026-10-15T04:29:02"
   }
 };
-const EPS_DATA_GENERATED_AT = "2026-10-29T17:19:33";
+const EPS_DATA_GENERATED_AT = "2026-10-30T13:41:21";
