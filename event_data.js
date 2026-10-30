@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793395244.6558378,
+  "generatedAt": 1793397160.959029,
   "events": [
     {
       "id": "090dbe40ef2a39a41feb",
@@ -11188,7 +11188,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
         "publishedAt": 1793286000.0,
-        "collectedAt": 1793374799.6275015
+        "collectedAt": 1793397128.1987815
       },
       "confirmedFacts": [
         "AMZN가 2026-10-30에 SEC Form 10-Q을 제출했습니다."
@@ -11251,7 +11251,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
         "publishedAt": 1793286000.0,
-        "collectedAt": 1793374799.6275015
+        "collectedAt": 1793397128.1987815
       },
       "confirmedFacts": [
         "INTC가 2026-10-30에 SEC Form 10-Q을 제출했습니다."
@@ -11275,6 +11275,69 @@ const EVENT_DATA = {
       "impacts": [
         {
           "ticker": "INTC",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "매출·영업이익·OCF·FCF",
+        "가이던스와 위험요인 변화",
+        "일회성 손익·회계정책 변화"
+      ],
+      "earningsEvidence": null
+    },
+    {
+      "id": "47bb46bad71d02456449",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "정기 실적 공시",
+      "primaryTicker": "SNDK",
+      "relatedTickers": [
+        "SNDK"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "SNDK SEC Form 10-Q filed",
+      "headlineKo": "SNDK SEC Form 10-Q 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026068601/sndk-20261002.htm",
+        "publishedAt": 1793286000.0,
+        "collectedAt": 1793397128.1987815
+      },
+      "confirmedFacts": [
+        "SNDK가 2026-10-30에 SEC Form 10-Q을 제출했습니다."
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 SEC에 공식 정기보고서를 냈다는 뜻입니다. 기사 숫자보다 이 원문에 적힌 매출·이익·현금흐름을 우선 확인합니다."
+      ],
+      "whyItMatters": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "SNDK",
           "direction": "중립·원문 확인",
           "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
           "basis": "official_filing"
@@ -17189,73 +17252,6 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
-    },
-    {
-      "id": "21d1acbfad10bfdc252e",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "HUBB",
-      "relatedTickers": [
-        "HUBB"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "low",
-        "score": 42,
-        "kind": "reported",
-        "reason": "속보·의견 성격이 강해 원문 재확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "낮음·확인 필요",
-      "verificationStatus": "needs_confirmation",
-      "headline": "JP Morgan Maintains Neutral on Hubbell, Raises Price Target to $486",
-      "headlineKo": "JP Morgan, Hubbell에 대해 중립 유지, 목표 가격을 486달러로 인상",
-      "source": {
-        "name": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=14c17377e793fae30f081cb7292abb2d43390a83b89637cbb1879e7e287e332c",
-        "publishedAt": 1793200103,
-        "collectedAt": 1793376866.3499067
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "JP Morgan Maintains Neutral on Hubbell, Raises Price Target to $486",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "HUBB의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "HUBB에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "HUBB의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "HUBB",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "목표주가 산식의 EPS",
-        "적용 PER 변화",
-        "회사 공식 가이던스"
-      ]
     }
   ],
   "byTicker": {
@@ -17680,6 +17676,7 @@ const EVENT_DATA = {
       "0be03a2ee8ed1f97579a",
       "19df85155ce84241d883",
       "96d91aff5339d7222cf9",
+      "47bb46bad71d02456449",
       "f9fc115cfa835ccc52ee",
       "ae3f0cc3f6cdf24850cd",
       "b3ff9359d748ad08c739",
@@ -17811,8 +17808,7 @@ const EVENT_DATA = {
       "5380a3d214dc469a574e"
     ],
     "HUBB": [
-      "7dd16d041d043dccc441",
-      "21d1acbfad10bfdc252e"
+      "7dd16d041d043dccc441"
     ],
     "COHR": [
       "ded29a8f82a4a8690b06",
