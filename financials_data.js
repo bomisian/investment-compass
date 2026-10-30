@@ -5533,16 +5533,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1793394017.9700449,
-    "_updated_label": "2026-10-31 06:00"
+    "_fetched_at": 1793395242.990176,
+    "_updated_label": "2026-10-31 06:20"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1793394017.9700449,
-    "_updated_label": "2026-10-31 06:00"
+    "_fetched_at": 1793395242.990176,
+    "_updated_label": "2026-10-31 06:20"
   },
   "ORCL": {
     "annual": [
@@ -14814,7 +14814,17 @@ const FINANCIALS_DATA = {
         "ocf": 1690000000,
         "capex": -211000000,
         "fcf": 1479000000,
-        "_fcfIsProxy": true
+        "_fcfIsProxy": true,
+        "pretaxIncome": 1982000000.0,
+        "taxProvision": 221000000.0,
+        "normalizedIncome": 1803647830.474268,
+        "unusualItems": -48000000.0,
+        "unusualItemsExGoodwill": -48000000.0,
+        "unusualTaxEffect": -5352169.525732,
+        "specialIncomeCharges": -48000000.0,
+        "otherNonOperating": -4000000.0,
+        "restructuring": 4000000.0,
+        "stockComp": 63000000.0
       }
     ],
     "_currency": "USD",
@@ -14921,13 +14931,13 @@ const FINANCIALS_DATA = {
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
     "_fetched_at": 1793308401.6923814,
-    "_updated_label": "2026-10-30 06:13",
+    "_updated_label": "2026-10-31 06:20",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-09-30",
-        "eps": 2.430109
+        "eps": 2.43
       },
       {
         "endDate": "2025-12-31",
@@ -14948,7 +14958,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1793308411.5780172,
+    "_yahoo_verified_at": 1793395243.028018,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "EME": {
