@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793328824.0085294,
+  "generatedAt": 1793330868.9073775,
   "records": {
     "MSFT": [
       {
@@ -18559,6 +18559,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AMD": [
       {
+        "changedAt": 1793330868.9073775,
+        "dataAsOf": 1793303400,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -5,
+            "after": -3.67
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -3.1,
+            "after": -2.1
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -3.22,
+            "after": -1.22
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "엔비디아가 아닙니다. AMD가 아닙니다. 이 맞춤형 AI 칩 디자이너는 2030년까지 두 가지 모두를 능가할 수 있습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=f69b67b74b0e207bffcdbc553ad8544334f99e781db330fc5e4d55fd8e8e1279",
+        "eventId": "1bdd2a824366e2ca81b5",
+        "fingerprint": "{\"changes\": [{\"after\": -3.67, \"before\": -5, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.1, \"before\": -3.1, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.22, \"before\": -3.22, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"1bdd2a824366e2ca81b5\"}"
+      },
+      {
         "changedAt": 1793310798.1949673,
         "dataAsOf": 1793303400,
         "changes": [
@@ -20010,23 +20039,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=03763869c9b37afc3b64c8a185a0158e0d0e75f9bc181bf6b35464ccab7a39e0",
         "eventId": "3c9eac1fbf6538885fa8",
         "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.7, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"3c9eac1fbf6538885fa8\"}"
-      },
-      {
-        "changedAt": 1791824436.3367386,
-        "dataAsOf": 1791817200,
-        "changes": [
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -4.37,
-            "after": -3.32
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "Nvidia, AMD, Google, Meta가 데이터 센터 설계를 위한 글로벌 청사진을 위해 협력합니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=500ae337a06221b2f3b8f19f12621a9da5d7312198c5a0ba2740463b4dc7496b",
-        "eventId": "8a3f7895d1450acfa026",
-        "fingerprint": "{\"changes\": [{\"after\": -3.32, \"before\": -4.37, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"8a3f7895d1450acfa026\"}"
       }
     ],
     "AVGO": [
