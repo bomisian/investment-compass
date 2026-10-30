@@ -336,25 +336,25 @@ const MARKET_DATA = {
       "summaryKo": "호르무즈 해협의 유조선이 선체 기뢰에 피격됐다고 보안 소식통이 전했습니다."
     },
     {
-      "headline": "BP beats forecasts with record profit, targets early settling of Deepwater Horizon bill - Reuters",
-      "summary": "BP beats forecasts with record profit, targets early settling of Deepwater Horizon bill Reuters",
+      "headline": "BP has not considered breakup, says CEO - Reuters",
+      "summary": "BP has not considered breakup, says CEO Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPT3h0ZnhqQXNOaC15cXFDMlJfa0kwa0xKeDloU0hKQVducC1rOERkX2R5bG1rQ1JSUFpYMUVaZ0p5RGw1eDZEMVliNTJ6V2s3elFyaks4UDg4UWNMMklreW9iUHBoZWpVZE5mZmxnY2JybHI3bUI3SWxuVV9lZVFvUDRYREYydzN5dDVHMXV6bXp5T3ZHZTlIXw?oc=5",
-      "datetime": 1793370580,
-      "headlineKo": "BP, 기록적인 이익으로 예상 상회, Deepwater Horizon 청구서 조기 결제 목표 - Reuters",
-      "summaryKo": "BP, 기록적인 이익으로 예상 상회, Deepwater Horizon 청구서 조기 결제 목표 Reuters"
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTWxvSWxETU9lcGN1U2k2SkFITktrZUlyZVp6QmstX0QtUnZNWEJhNmVVOG1BTVUzLU9UbXMyZWp0R1pVWDNTcjhyNnZfb01LX2xGcjdJcTNKVWZiNTVnNWx6d3RDdFdFUVFnNUtNR2RTM1ZPSXRSLWJRU3VDSTdHZG11SEs0eS1SbWpYMGhxM08waHVRWk5VV3hSN3dBRHdjamc0WA?oc=5",
+      "datetime": 1793370989,
+      "headlineKo": "BP는 해체를 고려하지 않았다고 CEO는 말했습니다 - Reuters",
+      "summaryKo": "BP는 해체를 고려하지 않았다고 CEO 로이터가 밝혔습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793397641.7251022,
+  "_news_last_success_at": 1793401232.3681083,
   "fgi": {
     "score": 26.2386554621849,
     "rating": "fear"
   },
-  "_fetched_at": 1793397631.8108459,
-  "_updated_label": "2026-10-31 07:01",
-  "_last_attempt_at": 1793397631.8108459,
-  "_last_success_at": 1793397631.8108459,
+  "_fetched_at": 1793401222.927323,
+  "_updated_label": "2026-10-31 08:01",
+  "_last_attempt_at": 1793401222.927323,
+  "_last_success_at": 1793401222.927323,
   "_collection_status": "ok",
   "_collection_errors": []
 };

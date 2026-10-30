@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793399472.2727244,
+  "generatedAt": 1793401222.5430865,
   "events": [
     {
       "id": "f1e7aa6e7b6447e842c1",
@@ -1331,6 +1331,82 @@ const EVENT_DATA = {
         "매출·영업이익 성장",
         "정상화이익과 특이항목",
         "가이던스·OCF·FCF"
+      ]
+    },
+    {
+      "id": "d70dbed3ba8a2de28e9a",
+      "schemaVersion": 1,
+      "eventType": "supply_chain",
+      "eventLabel": "공급망 문제",
+      "primaryTicker": "AVGO",
+      "relatedTickers": [
+        "AVGO",
+        "SPY"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Broadcom",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "History Says Now Is the Perfect Time to Buy Broadcom Stock",
+      "headlineKo": "역사는 지금이 Broadcom 주식을 매수하기에 완벽한 시기라고 말합니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8f5a72f82f0f1696ad7707d35f865192f7e36b9c799be6d2ce3b662e04ccd8f5",
+        "publishedAt": 1793381700,
+        "collectedAt": 1793399047.1600566
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "역사에 따르면 지금이 Broadcom 주식을 매수하기에 완벽한 시기입니다 | The Motley Fool 접근성 도움말 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 합류 Broadcom( AVGO -5.48% ) 주가는 여름이 끝날 무렵 약세를 보였습니다.",
+        "주가는 6월 초 최고치 대비 약 30% 하락했으며, 1월 이후로는 보합세를 보이고 있다.",
+        "그러나 나는 이것이 투자자 입장에서 큰 실수라고 생각한다."
+      ],
+      "marketInterpretation": [
+        "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 30%, $326.08, $18.92 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AVGO의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "AVGO에 대한 공급망 · 생산 차질 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "주문은 있어도 부품이나 생산 문제로 제때 팔지 못할 수 있다는 뉴스입니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 30%, $326.08, $18.92 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AVGO의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AVGO",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "출하 지연 기간",
+        "재고와 리드타임",
+        "매출총이익률·대체 공급처"
       ]
     },
     {
@@ -17362,68 +17438,6 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
-    },
-    {
-      "id": "b615146a4ea00e87e4d9",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "AMZN",
-      "relatedTickers": [
-        "AMZN"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Amazon",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Stocks Down Pre-Bell Ahead of Key Inflation Report, Amazon Earnings",
-      "headlineKo": "주요 인플레이션 보고서, 아마존 수익에 앞서 주식 하락",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a593136ed9db37180e5886c19bd4f430d5f7ef21e485184ae94bc3bd6dd4269a",
-        "publishedAt": 1793274463,
-        "collectedAt": 1793399047.1600566
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "주요 인플레이션 보고서, 아마존 수익에 앞서 주식 하락"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AMZN",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
     }
   ],
   "byTicker": {
@@ -17482,8 +17496,7 @@ const EVENT_DATA = {
       "ec006b11da21afd8deb6",
       "d3dbeb9c32bb9781ca0e",
       "92cc9183f6da62bd17c1",
-      "3cea0500e42287ad8bd4",
-      "b615146a4ea00e87e4d9"
+      "3cea0500e42287ad8bd4"
     ],
     "QQQ": [
       "96c250653eb5d3ca9a23",
@@ -17544,6 +17557,7 @@ const EVENT_DATA = {
       "e4ccbb0ffdf48c15bfe4",
       "862c90e122ef087d7ede",
       "026603316c7236e0e8e0",
+      "d70dbed3ba8a2de28e9a",
       "71065390b1f9cd7d60d2",
       "e921c00b30c71ca305d5",
       "ba41b6cca3e49ff2a936",
@@ -17825,6 +17839,7 @@ const EVENT_DATA = {
     "AVGO": [
       "68ab5fbbc084950462d5",
       "6069da803337a7f4aa85",
+      "d70dbed3ba8a2de28e9a",
       "c1554785a5116e5a9361",
       "374522afd04ec24a8ba8",
       "eb3db0164d18b75d222b",

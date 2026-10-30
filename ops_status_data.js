@@ -1,12 +1,12 @@
 // ops_status_report.py가 자동 생성합니다. 직접 수정하지 마세요.
 const OPS_STATUS_DATA = {
-  "generatedAt": "2026-10-30T07:36:24+09:00",
+  "generatedAt": "2026-10-31T07:35:42+09:00",
   "items": [
     {
       "key": "last_success",
       "status": "green",
       "label": "마지막 정상 완료",
-      "detail": "2026-10-30 07:27"
+      "detail": "2026-10-31 07:33"
     },
     {
       "key": "public_verify",
@@ -18,7 +18,7 @@ const OPS_STATUS_DATA = {
       "key": "loop_progress",
       "status": "green",
       "label": "루프 진행",
-      "detail": "대기 중(다음 주기, 9분 전부터)"
+      "detail": "대기 중(다음 주기, 3분 전부터)"
     },
     {
       "key": "loop_count",
@@ -36,19 +36,19 @@ const OPS_STATUS_DATA = {
       "key": "compass_asof",
       "status": "green",
       "label": "나침반 피드 기준일",
-      "detail": "2026-10-29"
+      "detail": "2026-10-30"
     },
     {
       "key": "market_expectation_asof",
       "status": "green",
       "label": "시장 기대 기준일",
-      "detail": "2026-10-30"
+      "detail": "2026-10-31"
     },
     {
       "key": "eps",
       "status": "red",
       "label": "EPS 수집",
-      "detail": "COHR 15일째(기준 14일)"
+      "detail": "COHR 16일째(기준 14일)"
     },
     {
       "key": "data_audit",
@@ -90,7 +90,7 @@ const OPS_STATUS_DATA = {
       "key": "evidence_review_backlog",
       "status": "yellow",
       "label": "근거 승인 대기",
-      "detail": "WDC(7일), FIX(8일), BE(8일), HUBB(3일), STX(3일), GEV(2일), HUBB(2일), VRT(2일), MSFT(2일), GOOGL(2일), KLAC(2일), VRT(2일), GOOGL(1일), PWR(1일), EME(1일) — approve_evidence.py 실행 필요"
+      "detail": "WDC(8일), FIX(9일), BE(9일), HUBB(4일), STX(4일), GEV(3일), HUBB(3일), VRT(3일), MSFT(3일), GOOGL(3일), KLAC(3일), VRT(3일), GOOGL(2일), PWR(2일), EME(2일), AMZN(2일), INTC(2일), KLAC(2일), SNDK(2일), STX(2일) — approve_evidence.py 실행 필요"
     },
     {
       "key": "target_consensus_freshness",
@@ -102,37 +102,37 @@ const OPS_STATUS_DATA = {
       "key": "quarterly_cashflow_gap",
       "status": "green",
       "label": "최신 분기 현금흐름(OCF·CAPEX·FCF)",
-      "detail": "비어 있음(아직 기다리는 중): TSM Q3'26(2026-10-26부터 3거래일)"
+      "detail": "39종목 최신 분기 현금흐름 모두 있음"
     },
     {
       "key": "ttm_eps_rule",
-      "status": "green",
+      "status": "yellow",
       "label": "TTM EPS 공통 규칙(분기 합/Finnhub)",
-      "detail": "분기 합 35종목 · 기존 값·없음 4종목 · 적정가 변화 16종목"
+      "detail": "분기 합 33종목 · 기존 값·없음 6종목 · 적정가 변화 14종목 · 판정 변경(승인 기록) CEG / 자동 복귀(검증 미완): ASML"
     },
     {
       "key": "earnings_reflection",
       "status": "yellow",
       "label": "실적 반영 상태(가격지도)",
-      "detail": "가격지도 반영 대기 1종목: KLAC(10/28 발표, 최신 2026-09-30 / 반영 2026-06-30) / EPS 컨센서스가 발표 전 추정치 2종목: PWR, EME"
+      "detail": "가격지도 반영 대기 1종목: SNDK(10/29 발표, 최신 2026-09-30 / 반영 2026-07-03)"
     },
     {
       "key": "wacc_roic",
       "status": "green",
       "label": "자본 효율(ROIC·WACC) 계산",
-      "detail": "계산 34/39종목 · 계산 불가 0종목 · 10년물 5.05%(2026-10-28, fresh) · 생성 2026-10-30T05:42"
+      "detail": "계산 34/39종목 · 계산 불가 0종목 · 10년물 4.98%(2026-10-29, fresh) · 생성 2026-10-31T05:47"
     },
     {
       "key": "price_map_daily_run",
       "status": "green",
       "label": "가격 지도 일일 실행",
-      "detail": "마지막 성공 세션 2026-10-29(기대 2026-10-29, 실행 2026-10-30 05:41:40)"
+      "detail": "마지막 성공 세션 2026-10-30(기대 2026-10-30, 실행 2026-10-31 05:47:09)"
     },
     {
       "key": "external_peer_cache_freshness",
       "status": "green",
       "label": "외부보충 비교군 캐시 신선도",
-      "detail": "2026-10-30 07:26 KST 정상 갱신(실패 0개)"
+      "detail": "2026-10-31 07:23 KST 정상 갱신(실패 0개)"
     }
   ]
 };
