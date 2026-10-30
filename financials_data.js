@@ -5533,16 +5533,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1793376859.4960306,
-    "_updated_label": "2026-10-31 01:14"
+    "_fetched_at": 1793379310.05156,
+    "_updated_label": "2026-10-31 01:55"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1793376859.4960306,
-    "_updated_label": "2026-10-31 01:14"
+    "_fetched_at": 1793379310.05156,
+    "_updated_label": "2026-10-31 01:55"
   },
   "ORCL": {
     "annual": [
@@ -8947,23 +8947,17 @@ const FINANCIALS_DATA = {
         "period": "Q2'25",
         "revenue": 3174741000.0,
         "netIncome": 1202849000.0,
-        "opIncome": 1351760000.0,
+        "opIncome": null,
         "endDate": "2025-06-30",
         "ocf": 1164991000,
         "capex": -100408000,
         "fcf": 1064583000,
         "_fcfIsProxy": true,
         "eps": 0.906,
-        "pretaxIncome": 1328799000.0,
-        "taxProvision": 125950000.0,
-        "normalizedIncome": 1205478650.041127,
         "unusualItems": -2905000.0,
         "unusualItemsExGoodwill": -2905000.0,
-        "unusualTaxEffect": -275349.958873,
         "specialIncomeCharges": 0.0,
-        "otherNonOperating": -127207000.0,
-        "impairment": 0.0,
-        "stockComp": 71269000.0
+        "impairment": 0.0
       },
       {
         "period": "Q3'25",
@@ -9050,13 +9044,19 @@ const FINANCIALS_DATA = {
         "period": "Q3'26",
         "revenue": 4136015000.0,
         "netIncome": 1548588000.0,
-        "opIncome": null,
+        "opIncome": 1861670000.0,
         "endDate": "2026-09-30",
         "eps": 1.18,
         "ocf": 1530939000,
         "capex": -194756000,
         "fcf": 1336183000,
-        "_fcfIsProxy": true
+        "_fcfIsProxy": true,
+        "pretaxIncome": 1824082000.0,
+        "taxProvision": 275494000.0,
+        "normalizedIncome": 1548588000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 30339000.0,
+        "stockComp": 84073000.0
       }
     ],
     "_currency": "USD",
@@ -9162,8 +9162,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1793376859.4960306,
-    "_updated_label": "2026-10-31 01:14",
+    "_fetched_at": 1793379310.05156,
+    "_updated_label": "2026-10-31 01:55",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -9190,7 +9190,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1793376865.0639477,
+    "_yahoo_verified_at": 1793379316.1858156,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "SNDK": {

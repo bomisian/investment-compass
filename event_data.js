@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793377347.9668217,
+  "generatedAt": 1793379328.5646102,
   "events": [
     {
       "id": "090dbe40ef2a39a41feb",
@@ -3099,6 +3099,97 @@ const EVENT_DATA = {
       "impacts": [
         {
           "ticker": "COHR",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "목표주가 산식의 EPS",
+        "적용 PER 변화",
+        "회사 공식 가이던스"
+      ]
+    },
+    {
+      "id": "b92dbb1712ca4bf77679",
+      "schemaVersion": 1,
+      "eventType": "analyst_target_change",
+      "eventLabel": "애널리스트 목표주가 변경",
+      "primaryTicker": "TSLA",
+      "relatedTickers": [
+        "AVGO",
+        "GOOGL",
+        "INTC",
+        "QQQ",
+        "SNDK",
+        "SPY",
+        "TSLA"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Alphabet",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        },
+        {
+          "name": "Broadcom",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        },
+        {
+          "name": "Tesla",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Stocktwits Wall Street Wrap — Tesla, Broadcom, MercadoLibre Get Bullish Calls As Alphabet, Enphase Face Downgrades",
+      "headlineKo": "Stocktwits 월스트리트 랩 — Tesla, Broadcom, MercadoLibre가 알파벳으로 강세 전화를 받고 Enphase Face Downgrades",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3c5c2950ec23adfded7279946ece523231db65c988c21898a7d230997b282d3d",
+        "publishedAt": 1793350846,
+        "collectedAt": 1793376866.3499067
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Stocktwits Wall Street Wrap — Tesla, Broadcom, MercadoLibre는 알파벳으로 강세 전화를 받고, Enphase Face는 AI 에이전트를 다운그레이드합니다. 동향 뉴스 수익 전체 DIA 0.90% SPY 1.78% QQQ 3.53% 추세 INTC 29.90% SNDK 12.79% RDDT 29.68% SOXL 27.43% NV",
+        "Stocktwits Wall Street Wrap — Tesla, Broadcom, MercadoLibre는 알파벳으로 낙관적인 전화를 받고 Enphase Face Downgrades 이번 주 분석가 움직임은 태양열, 검색 광고가 자신감을 얻는 동안 일부 기술 및 전자 상거래 회사를 강조했습니다.",
+        "Tesla CEO Elon Musk가 홍콩에서 기자회견을 하는 동안 Model S 옆에서 언론과 이야기하고 있습니다."
+      ],
+      "marketInterpretation": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.90%, 1.78%, 3.53% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "TSLA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "TSLA에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.90%, 1.78%, 3.53% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "TSLA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "TSLA",
           "direction": "확인 필요",
           "reason": "회사 실적과의 연결고리 확인",
           "basis": "analysis"
@@ -17165,70 +17256,6 @@ const EVENT_DATA = {
         "적용 PER 변화",
         "회사 공식 가이던스"
       ]
-    },
-    {
-      "id": "d9d44c922802c03aed96",
-      "schemaVersion": 1,
-      "eventType": "dilution_warrant",
-      "eventLabel": "증권등록·투자설명서 제출",
-      "primaryTicker": "MSFT",
-      "relatedTickers": [
-        "MSFT"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "high",
-        "score": 100,
-        "kind": "official",
-        "reason": "SEC 제출 원문"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "내용 확인 필요",
-      "verificationStatus": "confirmed",
-      "headline": "MSFT SEC Form 424B2 filed",
-      "headlineKo": "MSFT SEC Form 424B2 공식 제출",
-      "source": {
-        "name": "SEC EDGAR",
-        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526437008/d150456d424b2.htm",
-        "publishedAt": 1793199600.0,
-        "collectedAt": 1793374799.6275015
-      },
-      "confirmedFacts": [
-        "MSFT가 2026-10-29에 SEC Form 424B2을 제출했습니다.",
-        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
-      ],
-      "reportedClaims": [],
-      "marketInterpretation": [
-        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
-      ],
-      "aiInference": [
-        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
-      ],
-      "unverified": [
-        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "MSFT",
-          "direction": "중립·원문 확인",
-          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
-          "basis": "official_filing"
-        }
-      ],
-      "watch": [
-        "실제 발행 여부와 주식 수",
-        "발행가격·워런트·전환 조건",
-        "조달 자금 사용처와 완전희석 EPS"
-      ],
-      "earningsEvidence": null
     }
   ],
   "byTicker": {
@@ -17278,6 +17305,7 @@ const EVENT_DATA = {
       "cf600de94f000233a5af",
       "73821e30889c667457c4",
       "b10856bb8836abe07ae4",
+      "b92dbb1712ca4bf77679",
       "88f834a1982fb8be3756",
       "9ed0edfbe42b9d861d20",
       "201321795d2b79494035",
@@ -17332,6 +17360,7 @@ const EVENT_DATA = {
       "73821e30889c667457c4",
       "2b0b6acc725a494df875",
       "b10856bb8836abe07ae4",
+      "b92dbb1712ca4bf77679",
       "88f834a1982fb8be3756",
       "ab8c3c94a2df6bbb052f",
       "9ed0edfbe42b9d861d20",
@@ -17391,6 +17420,7 @@ const EVENT_DATA = {
       "2b0b6acc725a494df875",
       "57148dde4a5474a6fb0b",
       "b10856bb8836abe07ae4",
+      "b92dbb1712ca4bf77679",
       "88f834a1982fb8be3756",
       "b412df5c436ce2178df8",
       "9ed0edfbe42b9d861d20",
@@ -17466,6 +17496,7 @@ const EVENT_DATA = {
       "c1554785a5116e5a9361",
       "374522afd04ec24a8ba8",
       "eb3db0164d18b75d222b",
+      "b92dbb1712ca4bf77679",
       "a22a6b05f70ab7575c4d",
       "d3dbeb9c32bb9781ca0e",
       "92cc9183f6da62bd17c1",
@@ -17630,6 +17661,7 @@ const EVENT_DATA = {
       "2a30d86c588824563806",
       "6899744b4216d2f79d78",
       "b10856bb8836abe07ae4",
+      "b92dbb1712ca4bf77679",
       "9ed0edfbe42b9d861d20",
       "201321795d2b79494035",
       "5c5ebacde7fe36a1031f",
@@ -17688,13 +17720,13 @@ const EVENT_DATA = {
       "c076aeefe13886897546",
       "4bdca41ee208c5434efd",
       "d900d6e7c8fe077174a8",
-      "b3ff9359d748ad08c739",
-      "d9d44c922802c03aed96"
+      "b3ff9359d748ad08c739"
     ],
     "GOOGL": [
       "abdc4112dd46b0e5d2de",
       "1c5924b18efbbc349e2f",
       "41501b25c7815b1a77a3",
+      "b92dbb1712ca4bf77679",
       "ab8c3c94a2df6bbb052f",
       "9ed0edfbe42b9d861d20",
       "ae25a5f4e8d88480b225",
@@ -17787,6 +17819,17 @@ const EVENT_DATA = {
       "c78fd96bd9be8844a542",
       "0f474ab0c047e827075c"
     ],
+    "TSLA": [
+      "b92dbb1712ca4bf77679",
+      "9ed0edfbe42b9d861d20",
+      "9d3ed1f8416201f6c599",
+      "ae25a5f4e8d88480b225",
+      "20f389fc071773adc6a1",
+      "10f2a78efd9a10390fa1",
+      "38f09bf253ddf69d3305",
+      "c3b100d6f95d3f03d7b2",
+      "70ee56ae183c734bb9c3"
+    ],
     "PWR": [
       "875f4e29481ba34fd27e",
       "2fdaadc92d5f4c534caf",
@@ -17810,16 +17853,6 @@ const EVENT_DATA = {
       "ed32746221d762ffdcb7",
       "455df564f732d84825d5",
       "6e7c601025b1c2579a95"
-    ],
-    "TSLA": [
-      "9ed0edfbe42b9d861d20",
-      "9d3ed1f8416201f6c599",
-      "ae25a5f4e8d88480b225",
-      "20f389fc071773adc6a1",
-      "10f2a78efd9a10390fa1",
-      "38f09bf253ddf69d3305",
-      "c3b100d6f95d3f03d7b2",
-      "70ee56ae183c734bb9c3"
     ],
     "TSM": [
       "c6065afd266a8fb9aa86",

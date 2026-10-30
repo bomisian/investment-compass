@@ -1,15 +1,15 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793377348.0098727,
+  "generatedAt": 1793379328.6080303,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793366520,
-      "signal": "주의 강화",
-      "netScore": -6.15,
-      "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
+      "signal": "중립·확인 대기",
+      "netScore": -1.75,
+      "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
@@ -23,7 +23,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "valuationBurden": {
           "label": "밸류에이션 부담",
-          "score": -4.45,
+          "score": -2.45,
           "level": "주의"
         },
         "customerConcentration": {
@@ -38,12 +38,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -2.92,
+          "score": -1.92,
           "level": "주의"
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -3.22,
+          "score": -1.22,
           "level": "주의"
         },
         "insiderSignal": {
@@ -203,29 +203,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -1
           },
           "reason": "사업·실적 연결 경로 확인 필요"
-        },
-        {
-          "eventId": "d9d44c922802c03aed96",
-          "headline": "MSFT SEC Form 424B2 공식 제출",
-          "eventLabel": "증권등록·투자설명서 제출",
-          "publishedAt": 1793199600.0,
-          "verificationStatus": "confirmed",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526437008/d150456d424b2.htm",
-          "factorChanges": {
-            "valuationBurden": -2,
-            "businessRisk": -1,
-            "shortTermMomentum": -2
-          },
-          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
         }
       ],
-      "confirmedEvidenceCount": 1,
+      "confirmedEvidenceCount": 0,
       "unverifiedEvidenceCount": 11,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793366432,
       "signal": "주의 강화",
       "netScore": -8.23,
@@ -286,6 +272,18 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -2
           },
           "reason": "회사 실적과의 연결고리 확인"
+        },
+        {
+          "eventId": "b92dbb1712ca4bf77679",
+          "headline": "Stocktwits 월스트리트 랩 — Tesla, Broadcom, MercadoLibre가 알파벳으로 강세 전화를 받고 Enphase Face Downgrades",
+          "eventLabel": "애널리스트 목표주가 변경",
+          "publishedAt": 1793350846,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=3c5c2950ec23adfded7279946ece523231db65c988c21898a7d230997b282d3d",
+          "factorChanges": {
+            "shortTermMomentum": -1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
         },
         {
           "eventId": "ab8c3c94a2df6bbb052f",
@@ -420,30 +418,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "사업·실적 연결 경로 확인 필요"
-        },
-        {
-          "eventId": "7c6e363f579c05772147",
-          "headline": "Bank of America 고객은 기록적인 속도로 메타 및 Google 주식을 덤핑하고 있습니다",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1793276286,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=abc4db9cd54409096b310e93a44b7c5d850bc91cc5a289d6ba3f4276a9c62c1c",
-          "factorChanges": {
-            "growth": -1,
-            "valuationBurden": -1,
-            "businessRisk": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 17,
+      "unverifiedEvidenceCount": 18,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793373009,
       "signal": "중립·확인 대기",
       "netScore": -1.54,
@@ -650,7 +633,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793369100,
       "signal": "주의 강화",
       "netScore": -3.43,
@@ -798,7 +781,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793347648,
       "signal": "우호적 변화",
       "netScore": 3.84,
@@ -931,7 +914,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793347648,
       "signal": "주의 강화",
       "netScore": -3.83,
@@ -1039,7 +1022,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793347261,
       "signal": "주의 강화",
       "netScore": -4.41,
@@ -1151,7 +1134,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793368080,
       "signal": "중립·확인 대기",
       "netScore": 1.89,
@@ -1261,7 +1244,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793307000,
       "signal": "중립·확인 대기",
       "netScore": -1.26,
@@ -1330,7 +1313,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793370834,
       "signal": "우호적 변화",
       "netScore": 5.39,
@@ -1543,7 +1526,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793370834,
       "signal": "우호적 변화",
       "netScore": 3.53,
@@ -1755,10 +1738,10 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793369100,
       "signal": "우호적 변화",
-      "netScore": 9.09,
+      "netScore": 8.74,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -1793,7 +1776,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 2.62,
+          "score": 2.27,
           "level": "우호적"
         },
         "insiderSignal": {
@@ -1829,6 +1812,18 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
+        },
+        {
+          "eventId": "b92dbb1712ca4bf77679",
+          "headline": "Stocktwits 월스트리트 랩 — Tesla, Broadcom, MercadoLibre가 알파벳으로 강세 전화를 받고 Enphase Face Downgrades",
+          "eventLabel": "애널리스트 목표주가 변경",
+          "publishedAt": 1793350846,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=3c5c2950ec23adfded7279946ece523231db65c988c21898a7d230997b282d3d",
+          "factorChanges": {
+            "shortTermMomentum": -1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
         },
         {
           "eventId": "a22a6b05f70ab7575c4d",
@@ -1887,12 +1882,12 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 6,
+      "unverifiedEvidenceCount": 7,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793372209,
       "signal": "중립·확인 대기",
       "netScore": 1.74,
@@ -1973,7 +1968,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793372209,
       "signal": "중립·확인 대기",
       "netScore": -0.35,
@@ -2040,7 +2035,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793372209,
       "signal": "주의 강화",
       "netScore": -2.6,
@@ -2262,10 +2257,10 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793375259,
       "signal": "주의 강화",
-      "netScore": -5.18,
+      "netScore": -5.46,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -2300,7 +2295,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -4.72,
+          "score": -5,
           "level": "주의"
         },
         "insiderSignal": {
@@ -2369,6 +2364,18 @@ const EVENT_ANALYSIS_DATA = {
           "publishedAt": 1793358385,
           "verificationStatus": "needs_confirmation",
           "sourceUrl": "https://finnhub.io/api/news?id=54f780c20736dda53dc5076705ac0ffa77efcd6349ec0a496867da0537ee41e7",
+          "factorChanges": {
+            "shortTermMomentum": -1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
+        {
+          "eventId": "b92dbb1712ca4bf77679",
+          "headline": "Stocktwits 월스트리트 랩 — Tesla, Broadcom, MercadoLibre가 알파벳으로 강세 전화를 받고 Enphase Face Downgrades",
+          "eventLabel": "애널리스트 목표주가 변경",
+          "publishedAt": 1793350846,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=3c5c2950ec23adfded7279946ece523231db65c988c21898a7d230997b282d3d",
           "factorChanges": {
             "shortTermMomentum": -1
           },
@@ -2446,29 +2453,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -1
           },
           "reason": "사업·실적 연결 경로 확인 필요"
-        },
-        {
-          "eventId": "b1f2d4abfbb724b03bfa",
-          "headline": "밤새 SPCX, ASTS, RKLB 슬라이드: Amazon, 2026년 위성 서비스 데뷔 재확인 — 소매업, 경쟁 위협 고려",
-          "eventLabel": "주요 고객 계약",
-          "publishedAt": 1793324065,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=53ca1ba7bf9190dd43b764d7b2fa2ab2078af95f059c68f3ae08ce4843e6a76d",
-          "factorChanges": {
-            "growth": 2,
-            "longTermCompetitiveness": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
         }
       ],
       "confirmedEvidenceCount": 1,
-      "unverifiedEvidenceCount": 18,
+      "unverifiedEvidenceCount": 19,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793344319,
       "signal": "중립·확인 대기",
       "netScore": -0.34,
@@ -2549,7 +2542,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793328182,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -2618,7 +2611,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793203425,
       "signal": "중립·확인 대기",
       "netScore": -1.26,
@@ -2687,7 +2680,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793281870,
       "signal": "중립·확인 대기",
       "netScore": 0.83,
@@ -2770,7 +2763,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793203425,
       "signal": "중립·확인 대기",
       "netScore": -1.26,
@@ -2839,7 +2832,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793370834,
       "signal": "우호적 변화",
       "netScore": 9.31,
@@ -3052,7 +3045,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793366244,
       "signal": "주의 강화",
       "netScore": -10,
@@ -3120,6 +3113,18 @@ const EVENT_ANALYSIS_DATA = {
           "publishedAt": 1793358385,
           "verificationStatus": "needs_confirmation",
           "sourceUrl": "https://finnhub.io/api/news?id=54f780c20736dda53dc5076705ac0ffa77efcd6349ec0a496867da0537ee41e7",
+          "factorChanges": {
+            "shortTermMomentum": -1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
+        {
+          "eventId": "b92dbb1712ca4bf77679",
+          "headline": "Stocktwits 월스트리트 랩 — Tesla, Broadcom, MercadoLibre가 알파벳으로 강세 전화를 받고 Enphase Face Downgrades",
+          "eventLabel": "애널리스트 목표주가 변경",
+          "publishedAt": 1793350846,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=3c5c2950ec23adfded7279946ece523231db65c988c21898a7d230997b282d3d",
           "factorChanges": {
             "shortTermMomentum": -1
           },
@@ -3235,27 +3240,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -1
           },
           "reason": "사업·실적 연결 경로 확인 필요"
-        },
-        {
-          "eventId": "0be03a2ee8ed1f97579a",
-          "headline": "Gene Munster는 Google 수익을 Amazon 투자자에게 경고 신호로 표시합니다.",
-          "eventLabel": "애널리스트 목표주가 변경",
-          "publishedAt": 1793302469,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=51a1f5830f847bb0f65228017229a9c1a0b335071d85a61caf558095b0629d98",
-          "factorChanges": {
-            "shortTermMomentum": -1
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 17,
+      "unverifiedEvidenceCount": 18,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793366244,
       "signal": "주의 강화",
       "netScore": -3.14,
@@ -3336,7 +3329,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3390,7 +3383,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793279495,
       "signal": "주의 강화",
       "netScore": -3.57,
@@ -3473,7 +3466,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793369438,
       "signal": "중립·확인 대기",
       "netScore": -0.14,
@@ -3640,7 +3633,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793301355,
       "signal": "우호적 변화",
       "netScore": 6.29,
@@ -3737,7 +3730,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793299800,
       "signal": "우호적 변화",
       "netScore": 2.09,
@@ -3806,7 +3799,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3860,7 +3853,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3914,7 +3907,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793297633,
       "signal": "주의 강화",
       "netScore": -2.31,
@@ -3983,7 +3976,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4037,7 +4030,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4091,7 +4084,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4145,7 +4138,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793366244,
       "signal": "중립·확인 대기",
       "netScore": -1.4,
@@ -4226,7 +4219,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 1793366074,
       "signal": "중립·확인 대기",
       "netScore": 1.4,
@@ -4294,7 +4287,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4348,7 +4341,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1793377348.0098727,
+      "updatedAt": 1793379328.6080303,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
