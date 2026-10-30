@@ -654,11 +654,11 @@ const MARKET_EXPECTATION_41 = {
       "stale_consensus_warning": false,
       "price_as_of_mismatch": false,
       "composite_hidden": false,
-      "composite_internal_ref": 0.9333,
+      "composite_internal_ref": 0.8333,
       "support_summary": [
-        "Q4 FY26 매출 $8,965M, +372% YoY(분사 후 깨끗한 분기 비교), +51% QoQ (데이터센터 $2,977M, 엣지 $5,432M +392%)",
-        "Q4 FY26 GAAP 영업이익 $7,037M(마진 84.6%), 전년동기 $18M에서 극적 개선; 비GAAP 영업이익 $7,104M",
-        "Q4 FY26 OCF $7,126M, 전년동기 $94M 대비 극적 개선"
+        "장기채무 $0(전년동기 $1,829M)으로 완전 상환, 현금 $4,762M으로 순현금 전환(전년동기 순부채 약 $368M)",
+        "CEO: \"데이터센터를 핵심 성장축으로 확립\"; 신규 장기공급계약(NBM) 10건 체결(공식 발표)",
+        "[자동] Q4'26 매출 $11.03B, 전년 동기 대비 +377.9%"
       ],
       "caution_summary": [
         "반대방향 A/B급 증거 없음(매출채권이 매출보다 더 빠르게 증가(+341% YoY)한 점은 counter_evidence로만 기록 — 참고용)"
@@ -670,8 +670,8 @@ const MARKET_EXPECTATION_41 = {
         "매출채권 증가 추세가 완화되는지 확인",
         "현재가 소스 간 불일치가 해소되며 데이터 신뢰도가 개선되는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
-      "evidence_auto_count": 0,
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 4건(2026-10-02 분기)",
+      "evidence_auto_count": 4,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
       "primary_etf": "SMH",
