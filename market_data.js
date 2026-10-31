@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms - Reuters",
+      "summary": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOODBHZGo0TEhURWc2Rm9nLUJjaF9Hb09YLUpnU3JlTWJ0OHJKd3p0dFZEYWdpYUNPVlNJdFJoYXhGOVdOX29rdHhjQ2F0c2E2VjJRQndHcEtSY1JIdEFzTkJJd3RKX2lKYWxRMnRQYjZvVnpxNnJQTlBmUFY5TWMzZTJ4akRuS1pKNExQY2lCQTAzRVlWOG4wYnZRVV9tRWJQdDJKQ0owZVdZUS1ZQmZYbTlMR0xxbF9uZ3ZvWkRNNDJtX0JNclZhLQ?oc=5",
+      "datetime": 1793458663,
+      "headlineKo": "중간고사 이후 미국의 공격 위협이 다가오자 이란 특사들이 카타르 중재자들을 만나다 - 로이터 통신",
+      "summaryKo": "중간선거 이후 미국의 공격 위협이 다가오자 이란 특사단이 카타르 중재자들을 만난다 - 로이터"
+    },
+    {
       "headline": "Binance, crypto and hacks: What to know about keeping coin safe as cyber criminals advance",
       "summary": "The Binance hack of $6.3 billion, the largest crypto theft ever, is a wake-up call for investors to understand how coin is guarded and the risk of losing it.",
       "source": "CNBC",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1793391609,
       "headlineKo": "Zelenskiy는 회담을 위해 터키로 향할 것이라고 말했습니다-Reuters",
       "summaryKo": "Zelenskiy는 회담을 위해 터키로 향할 것이라고 말했습니다 - 최신"
-    },
-    {
-      "headline": "Saudi-led coalition says it downs drone over oil-rich Eastern Region - Reuters",
-      "summary": "Saudi-led coalition says it downs drone over oil-rich Eastern Region Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdTZlcVd4TG9tTWJjN0dRNEZ4enV5NHc1bGpzWnZjSjVwcGhuM3M3V2pERWNoNW9QLVFzTE9uVXhJb1lBOWFmMEhCRVZNeFdZX0ZFR21LcnlTLTRwemdlTzZ2OHlidndqVEJKaXJEMDRuVEo1V0xMVlpwWVF3LWVOTmJuOHAyTG9RTFhhUW9mcXVRR0N2dXJxQVRqdVVQQnZqdHFRdVdiZ1dvVzFrWWhHai1JSFhsdzhVcjlCU05IVXg?oc=5",
-      "datetime": 1793389020,
-      "headlineKo": "사우디 주도 연합군, 석유가 풍부한 동부 지역 상공에서 드론 격추 - 로이터 통신",
-      "summaryKo": "사우디 주도 연합군, 석유가 풍부한 동부 지역 상공에서 드론 격추 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793464191.7962246,
+  "_news_last_success_at": 1793468546.7861419,
   "fgi": {
     "score": 26.2386554621849,
     "rating": "fear"
   },
-  "_fetched_at": 1793464184.5421045,
-  "_updated_label": "2026-11-01 01:30",
-  "_last_attempt_at": 1793464184.5421045,
-  "_last_success_at": 1793464184.5421045,
+  "_fetched_at": 1793468538.5721276,
+  "_updated_label": "2026-11-01 02:42",
+  "_last_attempt_at": 1793468538.5721276,
+  "_last_success_at": 1793468538.5721276,
   "_collection_status": "ok",
   "_collection_errors": []
 };
