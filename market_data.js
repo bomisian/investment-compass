@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution",
+      "summary": "The Colossus data centers and a power plant that SpaceXAI is also building in Southaven, Mississippi, have faced community backlash for years.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html",
+      "datetime": 1793472997,
+      "headlineKo": "SpaceX, Memphis 데이터 센터 대기 오염에 대한 NAACP 소송 포기 입찰 실패",
+      "summaryKo": "SpaceXAI가 미시시피 주 사우스헤이븐에 건설하고 있는 Colossus 데이터 센터와 발전소도 수년 동안 커뮤니티의 반발에 직면해 왔습니다."
+    },
+    {
       "headline": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms - Reuters",
       "summary": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1793392806,
       "headlineKo": "이란 IRGC 해군, 호르무즈 해협에서 유조선 4척에 화재 발생 - 로이터 통신",
       "summaryKo": "이란 IRGC 해군, 호르무즈 해협에서 유조선 4척에 불이 붙었다고 밝혔습니다."
-    },
-    {
-      "headline": "Zelenskiy says he will head to Turkey for talks - Reuters",
-      "summary": "Zelenskiy says he will head to Turkey for talks Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRWljSFJQVC1OSUJ4aXNyN3ljMFF1cG5WY1BVR19xcDhvS1RBS3BrNjR4SF9WN2VCemo3VTRyTmo0LXAtNVF6Mi1KRS1YWktnWkNpSkg3S2lKbC1qY2owR3d0cjUxNVFrOTVMd3FId3FnNE13WGd0amUtd0Z0QVgzWXJXOEtXaFhTR0pfcG5jWE5WT2Y0TWgxTlVR?oc=5",
-      "datetime": 1793391609,
-      "headlineKo": "Zelenskiy는 회담을 위해 터키로 향할 것이라고 말했습니다-Reuters",
-      "summaryKo": "Zelenskiy는 회담을 위해 터키로 향할 것이라고 말했습니다 - 최신"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793472400.822826,
+  "_news_last_success_at": 1793476199.5446355,
   "fgi": {
     "score": 26.2386554621849,
     "rating": "fear"
   },
-  "_fetched_at": 1793472393.6625898,
-  "_updated_label": "2026-11-01 03:47",
-  "_last_attempt_at": 1793472393.6625898,
-  "_last_success_at": 1793472393.6625898,
+  "_fetched_at": 1793476191.1095238,
+  "_updated_label": "2026-11-01 04:50",
+  "_last_attempt_at": 1793476191.1095238,
+  "_last_success_at": 1793476191.1095238,
   "_collection_status": "ok",
   "_collection_errors": []
 };
