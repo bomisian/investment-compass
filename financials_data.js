@@ -2133,14 +2133,10 @@ const FINANCIALS_DATA = {
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
     "_fetched_at": 1793376021.1690202,
-    "_updated_label": "2026-10-31 01:00",
+    "_updated_label": "2026-11-01 01:29",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
-      {
-        "endDate": "2025-06-30",
-        "eps": 1.68
-      },
       {
         "endDate": "2025-09-30",
         "eps": 1.95
@@ -2156,11 +2152,15 @@ const FINANCIALS_DATA = {
       {
         "endDate": "2026-06-30",
         "eps": 5.75
+      },
+      {
+        "endDate": "2026-09-30",
+        "eps": 1.89
       }
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1793376038.9884508,
+    "_yahoo_verified_at": 1793464176.0708134,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "TSM": {
@@ -5057,14 +5057,10 @@ const FINANCIALS_DATA = {
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
     "_fetched_at": 1793376021.1690202,
-    "_updated_label": "2026-10-31 01:00",
+    "_updated_label": "2026-11-01 01:29",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
-      {
-        "endDate": "2025-06-30",
-        "eps": -0.67
-      },
       {
         "endDate": "2025-09-30",
         "eps": 0.9
@@ -5080,11 +5076,15 @@ const FINANCIALS_DATA = {
       {
         "endDate": "2026-06-30",
         "eps": -2.16
+      },
+      {
+        "endDate": "2026-09-30",
+        "eps": 0.6
       }
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1793376038.9884508,
+    "_yahoo_verified_at": 1793464176.0708134,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "AMAT": {
@@ -5550,16 +5550,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1793462419.1482904,
-    "_updated_label": "2026-11-01 01:00"
+    "_fetched_at": 1793464176.0288322,
+    "_updated_label": "2026-11-01 01:29"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1793462419.1482904,
-    "_updated_label": "2026-11-01 01:00"
+    "_fetched_at": 1793464176.0288322,
+    "_updated_label": "2026-11-01 01:29"
   },
   "ORCL": {
     "annual": [
