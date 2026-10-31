@@ -255,6 +255,15 @@ const MARKET_DATA = {
       "summaryKo": "이란 IRGC 해군, 호르무즈 해협에서 유조선 4척에 불이 붙었다고 밝혔습니다."
     },
     {
+      "headline": "Saudi-led coalition says it downs Houthi drone over Medina; Houthis deny attack - Reuters",
+      "summary": "Saudi-led coalition says it downs Houthi drone over Medina; Houthis deny attack Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdTZlcVd4TG9tTWJjN0dRNEZ4enV5NHc1bGpzWnZjSjVwcGhuM3M3V2pERWNoNW9QLVFzTE9uVXhJb1lBOWFmMEhCRVZNeFdZX0ZFR21LcnlTLTRwemdlTzZ2OHlidndqVEJKaXJEMDRuVEo1V0xMVlpwWVF3LWVOTmJuOHAyTG9RTFhhUW9mcXVRR0N2dXJxQVRqdVVQQnZqdHFRdVdiZ1dvVzFrWWhHai1JSFhsdzhVcjlCU05IVXg?oc=5",
+      "datetime": 1793392460,
+      "headlineKo": "사우디 주도 연합군은 메디나 상공에서 후티 반군 무인기를 격추했다고 밝혔습니다. 후티 반군 공격 거부 - 로이터",
+      "summaryKo": "사우디 주도 연합군은 메디나 상공에서 후티 반군 무인기를 격추했다고 밝혔습니다. 후티 반군 공격 거부 Reuters"
+    },
+    {
       "headline": "Zelenskiy says he will head to Turkey for talks - Reuters",
       "summary": "Zelenskiy says he will head to Turkey for talks Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1793375359,
       "headlineKo": "짐 크레이머(Jim Cramer)는 매수해야 할 주식 3개와 인텔 급락을 매도하지 않는 이유를 공개합니다.",
       "summaryKo": "Investing Club은 매주 평일 오전 10시 20분(ET)에 \"아침 모임\"을 개최합니다."
-    },
-    {
-      "headline": "Tanker in Strait of Hormuz hit by limpet mines, security sources say - Reuters",
-      "summary": "Tanker in Strait of Hormuz hit by limpet mines, security sources say Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUjdDdUxXVENSNGdpbWJZOEp2QXMtSy1WSUdCVFdHc21FVnMwTE9uMC1xMkFEaS1wTHRjd2JMQzFTZEtPX0drQ3hPMlZVeDlITnc2RndQRElNUy13Ny1UdXpROVVpejNQRHJ4a3l6Q0t3TTZwOUptZDNKdlRVQWJXLXBxTldad19oZUFGS3BKSUlLWlk3d055R290THF3ckRWb3hRYjlR?oc=5",
-      "datetime": 1793371339,
-      "headlineKo": "호르무즈 해협의 유조선이 선체 기뢰에 피격됐다고 보안 소식통이 밝혔습니다.",
-      "summaryKo": "호르무즈 해협의 유조선이 선체 기뢰에 피격됐다고 보안 소식통이 전했습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793404841.3063946,
+  "_news_last_success_at": 1793408946.1015477,
   "fgi": {
     "score": 26.2386554621849,
     "rating": "fear"
   },
-  "_fetched_at": 1793404833.1287632,
-  "_updated_label": "2026-10-31 09:01",
-  "_last_attempt_at": 1793404833.1287632,
-  "_last_success_at": 1793404833.1287632,
+  "_fetched_at": 1793408937.1203792,
+  "_updated_label": "2026-10-31 10:09",
+  "_last_attempt_at": 1793408937.1203792,
+  "_last_success_at": 1793408937.1203792,
   "_collection_status": "ok",
   "_collection_errors": []
 };
