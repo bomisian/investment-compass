@@ -237,6 +237,24 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Berkshire ekes out some new highs, but October rally stalls",
+      "summary": "Berkshire Hathaway shares managed to set a few more all-time highs in an otherwise lackluster week of trading.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/31/berkshire-ekes-out-some-new-highs-but-october-rally-stalls.html",
+      "datetime": 1793449560,
+      "headlineKo": "버크셔는 새로운 최고치를 경신했지만 10월 랠리는 정체됐다",
+      "summaryKo": "버크셔 해서웨이 주식은 부진한 거래 주간에 사상 최고치를 몇 차례 더 경신했습니다."
+    },
+    {
+      "headline": "Iranian official says US attacked fishing boats off Qeshm Island, state media reports - Reuters",
+      "summary": "Iranian official says US attacked fishing boats off Qeshm Island, state media reports Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONll1eGZDNWJMVXFsdzlXTEs4WnlXRGJONjZ4eUQ1eGlaWGs5bVB0SnR6cUlhd1U0ZHl1bUxpM0ItUUl3cEdxdEhjTHBfZHZIc3ZQY2xMM2g1eGNkbVNfanFmVFY4R0JUeFVtb0pyb3JzSllCTG05S19HdkVzVXFTVlRaaDZidS01UVJ5SVpvUC00SlNpNUxOZXIyTnFaMGVNMmJoOWpCZ1RKRWxqam9UbG9Yb1pYWERLTkR0OG0xOE9Vc0c1U0lvbGNQZzI?oc=5",
+      "datetime": 1793448746,
+      "headlineKo": "이란 관리는 미국이 케심 섬 앞바다에서 어선을 공격했다고 국영 언론이 보도했습니다. - 로이터 통신",
+      "summaryKo": "이란 관리는 미국이 케심 섬 앞바다에서 어선을 공격했다고 국영 언론이 보도했습니다."
+    },
+    {
       "headline": "The rise of the 15-foot skeleton—how a viral novelty became a Halloween staple",
       "summary": "In just six years, giant skeletons have gone from an absurd viral novelty to the centerpiece of an expanding retail arms race for the front lawn.",
       "source": "CNBC",
@@ -244,6 +262,15 @@ const MARKET_DATA = {
       "datetime": 1793442439,
       "headlineKo": "15피트 해골의 등장 - 입소문을 타는 참신함이 어떻게 할로윈의 필수품이 되었나요?",
       "summaryKo": "단 6년 만에 거대 해골은 터무니없는 입소문의 참신함에서 앞마당을 대상으로 확대되는 소매 군비 경쟁의 중심이 되었습니다."
+    },
+    {
+      "headline": "Egypt fears escalation in Iran war would be more destructive, foreign minister says - Reuters",
+      "summary": "Egypt fears escalation in Iran war would be more destructive, foreign minister says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVUNZU3g2dW4xamJOV3lTQ251RzhyLXd4dHY5eTRvVFkwOXF6Vm4zUkxCdVEzaEE1R3BxQS16NlE2WlFQYlpsaUlxQkhNSHlTeGNzSmZGbXB1eFVGdUJkbExRZFUxcnJBZ0JXVklVaEpQdXExWWpyQ3FUSzg5alJFak9TSllUbUt4LWl6WHlMcWR3TU9kV3pXN3E1dUlyLUFnai1UdzhIY1RDdS1NWXQxQUU4X1FYalpRVUtWcWVBUGIwb0lNb3JrdENIVzYzdw?oc=5",
+      "datetime": 1793434903,
+      "headlineKo": "이집트는 이란 전쟁의 확대가 더 파괴적일 것이라고 우려하고 있다고 외무장관이 밝혔습니다.",
+      "summaryKo": "이집트는이란 전쟁의 확대가 더 파괴적 일 것이라고 우려한다고 외무 장관이 말했습니다."
     },
     {
       "headline": "Jim Cramer says it's time to look beyond tech. Here are 4 consumer stocks he likes",
@@ -316,45 +343,18 @@ const MARKET_DATA = {
       "datetime": 1793383620,
       "headlineKo": "기록적인 바이낸스 해킹 이후 비트코인이 더 나은 모습을 보인 이유",
       "summaryKo": "비트코인은 역사상 가장 큰 암호화폐 해킹이 발생한 지 하루도 채 되지 않은 금요일 오후에 약 4% 하락했습니다."
-    },
-    {
-      "headline": "EXCLUSIVE: Pakistan military 'cautiously optimistic' on Iran-US mediation - Reuters",
-      "summary": "EXCLUSIVE: Pakistan military 'cautiously optimistic' on Iran-US mediation Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeG4zX0dQOXRZdkNCLTVnaWQ4bm1Wem53VEh1cjZvYmdqQkx5SVZzZUlzQUkzT0w3UEc2a1Zhb3I5UDhreVlGYVZWR2NhYTMydlkzNDZWMnJvQlVCLUZkY01ZaWRaMm1WNjVmckZOZEpIRXZ4UzRLNjIxOUtTdnp2Y2hLSmNlbEZId0cxNGg4LWw5TWNEejVCUW1zdy0td3FoUm9STVJ1OVB2SUljWmtid25B?oc=5",
-      "datetime": 1793382540,
-      "headlineKo": "독점: 파키스탄군, 이란-미국 중재에 대해 '조심스럽게 낙관적' - 로이터 통신",
-      "summaryKo": "독점: 파키스탄군, 이란-미국 중재에 '조심스럽게 낙관적' - 로이터"
-    },
-    {
-      "headline": "Halloween gets pricier as chocolate costs climb — Hershey may feel the pinch",
-      "summary": "Higher cocoa and sugar prices are fueling above-average cost inflation for candy",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/30/halloween-gets-pricier-as-chocolate-costs-rise-hershey-could-feel-it.html",
-      "datetime": 1793377875,
-      "headlineKo": "초콜릿 가격이 오르면서 할로윈 ​​가격이 더 비싸집니다. Hershey는 압박감을 느낄 수 있습니다.",
-      "summaryKo": "코코아와 설탕 가격 상승으로 사탕 가격이 평균 이상의 인플레이션을 촉발하고 있습니다."
-    },
-    {
-      "headline": "St. Louis Fed's Musalem: Tighter monetary policy is needed 'soon'",
-      "summary": "Musalem's comments offer the first morsels of insight into what leaders at the Fed see next following this week's decision to hold interst rates steady.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html",
-      "datetime": 1793377816,
-      "headlineKo": "세인트루이스 연준의 무살렘: 긴축 통화 정책이 '곧' 필요함",
-      "summaryKo": "Musalem의 논평은 금리를 안정적으로 유지하기로 한 이번 주 결정 이후 연준 지도자들이 다음에 보게 될 내용에 대한 첫 번째 통찰력을 제공합니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793448829.7726653,
+  "_news_last_success_at": 1793452652.6670485,
   "fgi": {
     "score": 26.2386554621849,
     "rating": "fear"
   },
-  "_fetched_at": 1793448822.8107371,
-  "_updated_label": "2026-10-31 21:14",
-  "_last_attempt_at": 1793448822.8107371,
-  "_last_success_at": 1793448822.8107371,
+  "_fetched_at": 1793452641.1831172,
+  "_updated_label": "2026-10-31 22:18",
+  "_last_attempt_at": 1793452641.1831172,
+  "_last_success_at": 1793452641.1831172,
   "_collection_status": "ok",
   "_collection_errors": []
 };
