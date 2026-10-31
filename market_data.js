@@ -291,15 +291,6 @@ const MARKET_DATA = {
       "summaryKo": "FATF, 불가리아, 콩고, 코트디부아르, 모나코를 '회색목록'에서 제외하고 베트남은 로이터 통신"
     },
     {
-      "headline": "EXCLUSIVE: Pakistan military 'cautiously optimistic' on Iran-US mediation - Reuters",
-      "summary": "EXCLUSIVE: Pakistan military 'cautiously optimistic' on Iran-US mediation Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeG4zX0dQOXRZdkNCLTVnaWQ4bm1Wem53VEh1cjZvYmdqQkx5SVZzZUlzQUkzT0w3UEc2a1Zhb3I5UDhreVlGYVZWR2NhYTMydlkzNDZWMnJvQlVCLUZkY01ZaWRaMm1WNjVmckZOZEpIRXZ4UzRLNjIxOUtTdnp2Y2hLSmNlbEZId0cxNGg4LWw5TWNEejVCUW1zdy0td3FoUm9STVJ1OVB2SUljWmtid25B?oc=5",
-      "datetime": 1793385548,
-      "headlineKo": "독점: 파키스탄군, 이란-미국 중재에 대해 '조심스럽게 낙관적' - 로이터 통신",
-      "summaryKo": "독점: 파키스탄군, 이란-미국 중재에 '조심스럽게 낙관적' - 로이터"
-    },
-    {
       "headline": "US orders non-emergency staff to leave Saudi Arabia over security risks - Reuters",
       "summary": "US orders non-emergency staff to leave Saudi Arabia over security risks Reuters",
       "source": "Reuters",
@@ -316,6 +307,15 @@ const MARKET_DATA = {
       "datetime": 1793383620,
       "headlineKo": "기록적인 바이낸스 해킹 이후 비트코인이 더 나은 모습을 보인 이유",
       "summaryKo": "비트코인은 역사상 가장 큰 암호화폐 해킹이 발생한 지 하루도 채 되지 않은 금요일 오후에 약 4% 하락했습니다."
+    },
+    {
+      "headline": "EXCLUSIVE: Pakistan military 'cautiously optimistic' on Iran-US mediation - Reuters",
+      "summary": "EXCLUSIVE: Pakistan military 'cautiously optimistic' on Iran-US mediation Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeG4zX0dQOXRZdkNCLTVnaWQ4bm1Wem53VEh1cjZvYmdqQkx5SVZzZUlzQUkzT0w3UEc2a1Zhb3I5UDhreVlGYVZWR2NhYTMydlkzNDZWMnJvQlVCLUZkY01ZaWRaMm1WNjVmckZOZEpIRXZ4UzRLNjIxOUtTdnp2Y2hLSmNlbEZId0cxNGg4LWw5TWNEejVCUW1zdy0td3FoUm9STVJ1OVB2SUljWmtid25B?oc=5",
+      "datetime": 1793382540,
+      "headlineKo": "독점: 파키스탄군, 이란-미국 중재에 대해 '조심스럽게 낙관적' - 로이터 통신",
+      "summaryKo": "독점: 파키스탄군, 이란-미국 중재에 '조심스럽게 낙관적' - 로이터"
     },
     {
       "headline": "Halloween gets pricier as chocolate costs climb — Hershey may feel the pinch",
@@ -336,25 +336,25 @@ const MARKET_DATA = {
       "summaryKo": "Musalem의 논평은 금리를 안정적으로 유지하기로 한 이번 주 결정 이후 연준 지도자들이 다음에 보게 될 내용에 대한 첫 번째 통찰력을 제공합니다."
     },
     {
-      "headline": "Jim Cramer reveals 3 stocks to buy — plus, why he is not selling the Intel plunge",
-      "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/10/30/cramer-sees-3-stocks-to-buy-not-selling-the-intel-plunge.html",
-      "datetime": 1793375359,
-      "headlineKo": "짐 크레이머(Jim Cramer)는 매수해야 할 주식 3개와 인텔 급락을 매도하지 않는 이유를 공개합니다.",
-      "summaryKo": "Investing Club은 매주 평일 오전 10시 20분(ET)에 \"아침 모임\"을 개최합니다."
+      "headline": "UAE says oil leak from tanker has been stopped, pollution eases - Reuters",
+      "summary": "UAE says oil leak from tanker has been stopped, pollution eases Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdk1hbFdualdkZ1gyNF9Ob1VLeE1sLVZyd0hNQ3JwUnFHZXZaWmNPNjd5Rm8wODdVMTdOUXdDMm9JNW5IdVFaeEZrUG0tNzU0SDRtMExfWjBpOEFlY2V1U0R2RFNxdS1pdFZLNGJhS1NhODlBWkhPaFJWWVBpaTk3eW5KOXZvODhPc25ZNlh6T0dOQzBFLUd5aWVlSlJIc1lJTGF3WmhrVnA3VzBGV0hYNg?oc=5",
+      "datetime": 1793376583,
+      "headlineKo": "UAE는 유조선에서 기름 누출이 중단되고 오염이 완화되었다고 밝혔습니다.",
+      "summaryKo": "UAE는 유조선에서 기름 누출이 중단되고 오염이 완화된다고 밝혔습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793436833.7387152,
+  "_news_last_success_at": 1793440774.8542125,
   "fgi": {
     "score": 26.2386554621849,
     "rating": "fear"
   },
-  "_fetched_at": 1793436826.6959682,
-  "_updated_label": "2026-10-31 17:54",
-  "_last_attempt_at": 1793436826.6959682,
-  "_last_success_at": 1793436826.6959682,
+  "_fetched_at": 1793440765.686322,
+  "_updated_label": "2026-10-31 19:00",
+  "_last_attempt_at": 1793440765.686322,
+  "_last_success_at": 1793440765.686322,
   "_collection_status": "ok",
   "_collection_errors": []
 };

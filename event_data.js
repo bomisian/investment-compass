@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793438746.3808846,
+  "generatedAt": 1793440765.258831,
   "events": [
     {
       "id": "37ebfb280e7eaa69e5c2",
@@ -15321,7 +15321,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
         "publishedAt": 1793286000.0,
-        "collectedAt": 1793418837.7235515
+        "collectedAt": 1793440734.570762
       },
       "confirmedFacts": [
         "AMZN가 2026-10-30에 SEC Form 10-Q을 제출했습니다."
@@ -15384,7 +15384,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
         "publishedAt": 1793286000.0,
-        "collectedAt": 1793418837.7235515
+        "collectedAt": 1793440734.570762
       },
       "confirmedFacts": [
         "INTC가 2026-10-30에 SEC Form 10-Q을 제출했습니다."
@@ -15447,7 +15447,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026068601/sndk-20261002.htm",
         "publishedAt": 1793286000.0,
-        "collectedAt": 1793418837.7235515
+        "collectedAt": 1793440734.570762
       },
       "confirmedFacts": [
         "SNDK가 2026-10-30에 SEC Form 10-Q을 제출했습니다."
