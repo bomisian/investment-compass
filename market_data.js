@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "The rise of the 15-foot skeleton—how a viral novelty became a Halloween staple",
+      "summary": "In just six years, giant skeletons have gone from an absurd viral novelty to the centerpiece of an expanding retail arms race for the front lawn.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/make-it/2026/10/23/giant-halloween-skeleton-decorations.html",
+      "datetime": 1793442439,
+      "headlineKo": "15피트 해골의 등장 - 입소문을 타는 참신함이 어떻게 할로윈의 필수품이 되었나요?",
+      "summaryKo": "단 6년 만에 거대 해골은 터무니없는 입소문의 참신함에서 앞마당을 대상으로 확대되는 소매 군비 경쟁의 중심이 되었습니다."
+    },
+    {
       "headline": "Jim Cramer says it's time to look beyond tech. Here are 4 consumer stocks he likes",
       "summary": "Cramer said investors looking to diversify beyond the struggling AI trade should consider consumer staples.",
       "source": "CNBC",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1793377816,
       "headlineKo": "세인트루이스 연준의 무살렘: 긴축 통화 정책이 '곧' 필요함",
       "summaryKo": "Musalem의 논평은 금리를 안정적으로 유지하기로 한 이번 주 결정 이후 연준 지도자들이 다음에 보게 될 내용에 대한 첫 번째 통찰력을 제공합니다."
-    },
-    {
-      "headline": "UAE says oil leak from tanker has been stopped, pollution eases - Reuters",
-      "summary": "UAE says oil leak from tanker has been stopped, pollution eases Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdk1hbFdualdkZ1gyNF9Ob1VLeE1sLVZyd0hNQ3JwUnFHZXZaWmNPNjd5Rm8wODdVMTdOUXdDMm9JNW5IdVFaeEZrUG0tNzU0SDRtMExfWjBpOEFlY2V1U0R2RFNxdS1pdFZLNGJhS1NhODlBWkhPaFJWWVBpaTk3eW5KOXZvODhPc25ZNlh6T0dOQzBFLUd5aWVlSlJIc1lJTGF3WmhrVnA3VzBGV0hYNg?oc=5",
-      "datetime": 1793376583,
-      "headlineKo": "UAE는 유조선에서 기름 누출이 중단되고 오염이 완화되었다고 밝혔습니다.",
-      "summaryKo": "UAE는 유조선에서 기름 누출이 중단되고 오염이 완화된다고 밝혔습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793440774.8542125,
+  "_news_last_success_at": 1793445019.1955078,
   "fgi": {
     "score": 26.2386554621849,
     "rating": "fear"
   },
-  "_fetched_at": 1793440765.686322,
-  "_updated_label": "2026-10-31 19:00",
-  "_last_attempt_at": 1793440765.686322,
-  "_last_success_at": 1793440765.686322,
+  "_fetched_at": 1793445011.0662746,
+  "_updated_label": "2026-10-31 20:10",
+  "_last_attempt_at": 1793445011.0662746,
+  "_last_success_at": 1793445011.0662746,
   "_collection_status": "ok",
   "_collection_errors": []
 };
