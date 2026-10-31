@@ -1,12 +1,12 @@
 // ops_status_report.py가 자동 생성합니다. 직접 수정하지 마세요.
 const OPS_STATUS_DATA = {
-  "generatedAt": "2026-10-31T07:35:42+09:00",
+  "generatedAt": "2026-11-01T07:35:43+09:00",
   "items": [
     {
       "key": "last_success",
       "status": "green",
       "label": "마지막 정상 완료",
-      "detail": "2026-10-31 07:33"
+      "detail": "2026-11-01 07:32"
     },
     {
       "key": "public_verify",
@@ -42,13 +42,13 @@ const OPS_STATUS_DATA = {
       "key": "market_expectation_asof",
       "status": "green",
       "label": "시장 기대 기준일",
-      "detail": "2026-10-31"
+      "detail": "2026-11-01"
     },
     {
       "key": "eps",
       "status": "red",
       "label": "EPS 수집",
-      "detail": "COHR 16일째(기준 14일)"
+      "detail": "COHR 17일째(기준 14일)"
     },
     {
       "key": "data_audit",
@@ -90,7 +90,7 @@ const OPS_STATUS_DATA = {
       "key": "evidence_review_backlog",
       "status": "yellow",
       "label": "근거 승인 대기",
-      "detail": "WDC(8일), FIX(9일), BE(9일), HUBB(4일), STX(4일), GEV(3일), HUBB(3일), VRT(3일), MSFT(3일), GOOGL(3일), KLAC(3일), VRT(3일), GOOGL(2일), PWR(2일), EME(2일), AMZN(2일), INTC(2일), KLAC(2일), SNDK(2일), STX(2일) — approve_evidence.py 실행 필요"
+      "detail": "WDC(9일), FIX(10일), BE(10일), HUBB(5일), STX(5일), GEV(4일), HUBB(4일), VRT(4일), MSFT(4일), GOOGL(4일), KLAC(4일), VRT(4일), GOOGL(3일), PWR(3일), EME(3일), AMZN(3일), INTC(3일), KLAC(3일), SNDK(3일), STX(3일), AMZN(2일), INTC(2일), SNDK(2일) — approve_evidence.py 실행 필요"
     },
     {
       "key": "target_consensus_freshness",
@@ -132,7 +132,7 @@ const OPS_STATUS_DATA = {
       "key": "external_peer_cache_freshness",
       "status": "green",
       "label": "외부보충 비교군 캐시 신선도",
-      "detail": "2026-10-31 07:23 KST 정상 갱신(실패 0개)"
+      "detail": "2026-11-01 07:30 KST 정상 갱신(실패 0개)"
     }
   ]
 };
