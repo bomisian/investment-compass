@@ -241,7 +241,7 @@ const MARKET_DATA = {
       "summary": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOODBHZGo0TEhURWc2Rm9nLUJjaF9Hb09YLUpnU3JlTWJ0OHJKd3p0dFZEYWdpYUNPVlNJdFJoYXhGOVdOX29rdHhjQ2F0c2E2VjJRQndHcEtSY1JIdEFzTkJJd3RKX2lKYWxRMnRQYjZvVnpxNnJQTlBmUFY5TWMzZTJ4akRuS1pKNExQY2lCQTAzRVlWOG4wYnZRVV9tRWJQdDJKQ0owZVdZUS1ZQmZYbTlMR0xxbF9uZ3ZvWkRNNDJtX0JNclZhLQ?oc=5",
-      "datetime": 1793458663,
+      "datetime": 1793469111,
       "headlineKo": "중간고사 이후 미국의 공격 위협이 다가오자 이란 특사들이 카타르 중재자들을 만나다 - 로이터 통신",
       "summaryKo": "중간선거 이후 미국의 공격 위협이 다가오자 이란 특사단이 카타르 중재자들을 만난다 - 로이터"
     },
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793468546.7861419,
+  "_news_last_success_at": 1793472400.822826,
   "fgi": {
     "score": 26.2386554621849,
     "rating": "fear"
   },
-  "_fetched_at": 1793468538.5721276,
-  "_updated_label": "2026-11-01 02:42",
-  "_last_attempt_at": 1793468538.5721276,
-  "_last_success_at": 1793468538.5721276,
+  "_fetched_at": 1793472393.6625898,
+  "_updated_label": "2026-11-01 03:47",
+  "_last_attempt_at": 1793472393.6625898,
+  "_last_success_at": 1793472393.6625898,
   "_collection_status": "ok",
   "_collection_errors": []
 };
