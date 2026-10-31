@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms - Reuters",
+      "summary": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOODBHZGo0TEhURWc2Rm9nLUJjaF9Hb09YLUpnU3JlTWJ0OHJKd3p0dFZEYWdpYUNPVlNJdFJoYXhGOVdOX29rdHhjQ2F0c2E2VjJRQndHcEtSY1JIdEFzTkJJd3RKX2lKYWxRMnRQYjZvVnpxNnJQTlBmUFY5TWMzZTJ4akRuS1pKNExQY2lCQTAzRVlWOG4wYnZRVV9tRWJQdDJKQ0owZVdZUS1ZQmZYbTlMR0xxbF9uZ3ZvWkRNNDJtX0JNclZhLQ?oc=5",
+      "datetime": 1793474598,
+      "headlineKo": "중간고사 이후 미국의 공격 위협이 다가오자 이란 특사들이 카타르 중재자들을 만나다 - 로이터 통신",
+      "summaryKo": "중간선거 이후 미국의 공격 위협이 다가오자 이란 특사단이 카타르 중재자들을 만난다 - 로이터"
+    },
+    {
       "headline": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution",
       "summary": "The Colossus data centers and a power plant that SpaceXAI is also building in Southaven, Mississippi, have faced community backlash for years.",
       "source": "CNBC",
@@ -244,15 +253,6 @@ const MARKET_DATA = {
       "datetime": 1793472997,
       "headlineKo": "SpaceX, Memphis 데이터 센터 대기 오염에 대한 NAACP 소송 포기 입찰 실패",
       "summaryKo": "SpaceXAI가 미시시피 주 사우스헤이븐에 건설하고 있는 Colossus 데이터 센터와 발전소도 수년 동안 커뮤니티의 반발에 직면해 왔습니다."
-    },
-    {
-      "headline": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms - Reuters",
-      "summary": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOODBHZGo0TEhURWc2Rm9nLUJjaF9Hb09YLUpnU3JlTWJ0OHJKd3p0dFZEYWdpYUNPVlNJdFJoYXhGOVdOX29rdHhjQ2F0c2E2VjJRQndHcEtSY1JIdEFzTkJJd3RKX2lKYWxRMnRQYjZvVnpxNnJQTlBmUFY5TWMzZTJ4akRuS1pKNExQY2lCQTAzRVlWOG4wYnZRVV9tRWJQdDJKQ0owZVdZUS1ZQmZYbTlMR0xxbF9uZ3ZvWkRNNDJtX0JNclZhLQ?oc=5",
-      "datetime": 1793469111,
-      "headlineKo": "중간고사 이후 미국의 공격 위협이 다가오자 이란 특사들이 카타르 중재자들을 만나다 - 로이터 통신",
-      "summaryKo": "중간선거 이후 미국의 공격 위협이 다가오자 이란 특사단이 카타르 중재자들을 만난다 - 로이터"
     },
     {
       "headline": "Binance, crypto and hacks: What to know about keeping coin safe as cyber criminals advance",
@@ -346,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793476199.5446355,
+  "_news_last_success_at": 1793480054.7745507,
   "fgi": {
     "score": 26.2386554621849,
     "rating": "fear"
   },
-  "_fetched_at": 1793476191.1095238,
-  "_updated_label": "2026-11-01 04:50",
-  "_last_attempt_at": 1793476191.1095238,
-  "_last_success_at": 1793476191.1095238,
+  "_fetched_at": 1793480047.2151382,
+  "_updated_label": "2026-11-01 05:54",
+  "_last_attempt_at": 1793480047.2151382,
+  "_last_success_at": 1793480047.2151382,
   "_collection_status": "ok",
   "_collection_errors": []
 };
