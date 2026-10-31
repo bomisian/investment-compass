@@ -237,6 +237,33 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Binance, crypto and hacks: What to know about keeping coin safe as cyber criminals advance",
+      "summary": "The Binance hack of $6.3 billion, the largest crypto theft ever, is a wake-up call for investors to understand how coin is guarded and the risk of losing it.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/31/binance-crypto-hack-safety.html",
+      "datetime": 1793455120,
+      "headlineKo": "바이낸스, 암호화폐 및 해킹: 사이버 범죄자가 발전함에 따라 코인을 안전하게 유지하는 방법에 대해 알아야 할 사항",
+      "summaryKo": "역대 최대 규모의 암호화폐 도난 사건인 63억 달러 규모의 바이낸스 해킹은 투자자들이 코인을 보호하는 방법과 코인을 잃을 위험을 이해하도록 경각심을 불러일으킵니다."
+    },
+    {
+      "headline": "In the wake of Weil, a legal recruiter's advice for surviving a company wind-down",
+      "summary": "Legal recruiter Danielle Thompson shares her best advice for the employees of Weil, Gotshal & Manges and others who face a company wind-down or dissolution.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/make-it/2026/10/31/weil-wind-down-career-advice.html",
+      "datetime": 1793452021,
+      "headlineKo": "Weil의 뒤를 이어 회사 청산에서 살아남기 위한 법률 채용 담당자의 조언",
+      "summaryKo": "법률 채용 담당자인 Danielle Thompson은 Weil, Gotshal & Manges의 직원과 회사 폐쇄 또는 해산에 직면한 다른 사람들을 위해 최선의 조언을 공유합니다."
+    },
+    {
+      "headline": "35-year-old took on $20K in debt to launch a business from her dining room—now it brings in 8 figures a year",
+      "summary": "Set Active founder Lindsey Carter shares how she learned to separate her professional stress from her personal life while growing her athleisure company.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/make-it/2026/10/31/set-active-lindsey-carter-entrepreneurship.html",
+      "datetime": 1793451901,
+      "headlineKo": "35세 여성은 식당에서 사업을 시작하기 위해 2만 달러의 빚을 졌습니다. 이제 연간 수입은 8자리가 됩니다.",
+      "summaryKo": "Set Active 창립자인 Lindsey Carter가 애슬레저 회사를 성장시키면서 업무적인 스트레스와 개인적인 삶을 분리하는 방법을 어떻게 배웠는지 공유합니다."
+    },
+    {
       "headline": "Berkshire ekes out some new highs, but October rally stalls",
       "summary": "Berkshire Hathaway shares managed to set a few more all-time highs in an otherwise lackluster week of trading.",
       "source": "CNBC",
@@ -262,6 +289,15 @@ const MARKET_DATA = {
       "datetime": 1793442439,
       "headlineKo": "15피트 해골의 등장 - 입소문을 타는 참신함이 어떻게 할로윈의 필수품이 되었나요?",
       "summaryKo": "단 6년 만에 거대 해골은 터무니없는 입소문의 참신함에서 앞마당을 대상으로 확대되는 소매 군비 경쟁의 중심이 되었습니다."
+    },
+    {
+      "headline": "Jordan stops fighters attempting to enter from Syria, armed forces say - Reuters",
+      "summary": "Jordan stops fighters attempting to enter from Syria, armed forces say Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUnZYN3pDajdLZXp1ZVlXeF8xTDNIc04xR2tMRXFsUzZsZTh4ckszeDM0V3daV1haWE15THZRUU43QlhxUFZfLWp5Z05SQmVENzBEbGJEcHhRdDR2elJBM2ExRVN2NlNqRldidDJQdXBMLVBUc1BHY0JaZ25Yblpwd2hlRnF6ZEljb3p5d3VxVG9Ya0poeXJWZnEzUmZfclVwSTVROGdkZjJFdDIzczd3TzBja1UxUQ?oc=5",
+      "datetime": 1793435779,
+      "headlineKo": "요르단이 시리아에서 진입하려는 전투기를 저지했다고 군대가 밝혔습니다.",
+      "summaryKo": "요르단이 시리아에서 진입하려는 전투기를 저지했다고 군대가 밝혔습니다."
     },
     {
       "headline": "Egypt fears escalation in Iran war would be more destructive, foreign minister says - Reuters",
@@ -307,54 +343,18 @@ const MARKET_DATA = {
       "datetime": 1793389020,
       "headlineKo": "사우디 주도 연합군, 석유가 풍부한 동부 지역 상공에서 드론 격추 - 로이터 통신",
       "summaryKo": "사우디 주도 연합군, 석유가 풍부한 동부 지역 상공에서 드론 격추 - 최신"
-    },
-    {
-      "headline": "Tech gets crushed, defensive stocks shine. How we're making sense of it all",
-      "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/10/30/tech-gets-crushed-defensive-stocks-shine-how-were-making-sense-of-it-all.html",
-      "datetime": 1793386544,
-      "headlineKo": "기술은 무너지고 방어주는 빛을 발합니다. 우리가 이 모든 것을 어떻게 이해하고 있는지",
-      "summaryKo": "평일마다 Investing Club은 Homestretch를 출시합니다. 마지막 거래 시간에 맞춰 실행 가능한 오후 업데이트입니다."
-    },
-    {
-      "headline": "FATF removes Bulgaria, Congo, Ivory Coast and Monaco from 'grey list' but leaves Vietnam on - Reuters",
-      "summary": "FATF removes Bulgaria, Congo, Ivory Coast and Monaco from 'grey list' but leaves Vietnam on Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZENlMDE4NlZPZWF5QWdydnIta3o5S0RXN1lITDA0dWNQMG9ld1U5TGNuNm1JV2lmcWZhVWNZVTBWWUxrSWhLY2MtclVHek9sS011NjNoZXZpUmVEcFNxTW9wQ3NNOHIwenBSS29MSjhXSW1OU0F4TUoyNXZVVTlKYTRlQ2F4M2ptbzlmWHduRl85VlZFU3hEQVkxQmRMWENUNFlqNTM3U0xTOUZzdU9TdHR0NGl1VHZpQzZZRzhqdVM4VnN6?oc=5",
-      "datetime": 1793386194,
-      "headlineKo": "FATF, 불가리아, 콩고, 코트디부아르, 모나코를 '회색목록'에서 제외하고 베트남은 그대로 유지 - Reuters",
-      "summaryKo": "FATF, 불가리아, 콩고, 코트디부아르, 모나코를 '회색목록'에서 제외하고 베트남은 로이터 통신"
-    },
-    {
-      "headline": "US orders non-emergency staff to leave Saudi Arabia over security risks - Reuters",
-      "summary": "US orders non-emergency staff to leave Saudi Arabia over security risks Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORW01d2dWQjEzQi1rNHpxb1hPYlE4b1dBMFgtUkxRQTZDY2RrNGlkeXpXNHNhUVU1MVRjVW9xY1lvbnpuSEFzNnZBaDM4ZkdGbEQwSUJ2Z0d0cms5bHVYcGhwYm5mZ3dIcU8zOXRlWFhFajVoMmtGRnA2cHQxdG1xQjdHMHJheWxyZ3dIMC12c0JyYzhScUZOOUdEd25UV3JEZ2ZNMl90ODJ4cnF2c09XUVFISEN5X2x1X0twYklBZw?oc=5",
-      "datetime": 1793385175,
-      "headlineKo": "미국, 보안 위험 때문에 비긴급 직원들에게 사우디아라비아 떠나라고 명령 - 로이터",
-      "summaryKo": "미국, 보안 위험 때문에 비긴급 직원들에게 사우디아라비아를 떠나라고 명령 - 최신"
-    },
-    {
-      "headline": "Why bitcoin held up better after the record Binance hack",
-      "summary": "Bitcoin was trading down about 4% on Friday afternoon, less than a day after the biggest crypto hack in history.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/30/binance-hack-bitcoin-price.html",
-      "datetime": 1793383620,
-      "headlineKo": "기록적인 바이낸스 해킹 이후 비트코인이 더 나은 모습을 보인 이유",
-      "summaryKo": "비트코인은 역사상 가장 큰 암호화폐 해킹이 발생한 지 하루도 채 되지 않은 금요일 오후에 약 4% 하락했습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793452652.6670485,
+  "_news_last_success_at": 1793456476.0202053,
   "fgi": {
     "score": 26.2386554621849,
     "rating": "fear"
   },
-  "_fetched_at": 1793452641.1831172,
-  "_updated_label": "2026-10-31 22:18",
-  "_last_attempt_at": 1793452641.1831172,
-  "_last_success_at": 1793452641.1831172,
+  "_fetched_at": 1793456464.697724,
+  "_updated_label": "2026-10-31 23:21",
+  "_last_attempt_at": 1793456464.697724,
+  "_last_success_at": 1793456464.697724,
   "_collection_status": "ok",
   "_collection_errors": []
 };
