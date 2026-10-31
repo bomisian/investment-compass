@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": -3.0827287766160616,
-        "ret3m": 7.634326825491766,
-        "ret6m": 6.575595386247168,
-        "ret1y": -4.568358495846969,
+        "ret1m": -0.4750819234979664,
+        "ret3m": 14.479984454755801,
+        "ret6m": 11.880786941923049,
+        "ret1y": -1.671260292131005,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -22.366060878041626,
-        "ret3m": -9.290873709771287,
-        "ret6m": 5.204102113441378,
-        "ret1y": 89.9277087364938,
+        "ret1m": -13.43644488235599,
+        "ret3m": 0.8636651089603875,
+        "ret6m": 17.447916303636845,
+        "ret1y": 118.2302067505503,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": -23.863603735268914,
-        "ret3m": -8.86350449922565,
-        "ret6m": -14.440124825585364,
-        "ret1y": 102.81313772234193,
+        "ret1m": -10.620472481999755,
+        "ret3m": 7.77416110404241,
+        "ret6m": -2.9219847101044416,
+        "ret1y": 134.50259588271973,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": -13.893133400215929,
-        "ret3m": -14.776790603551248,
-        "ret6m": -21.247574355061715,
-        "ret1y": 9.337351497747548,
+        "ret1m": -8.348617282241378,
+        "ret3m": -8.226571368632163,
+        "ret6m": -17.288851485463553,
+        "ret1y": 18.482380763497865,
         "winRate": null,
         "count": 12
       }
@@ -229,13 +229,22 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.3616370240658385,
-    "corrPctRank": 8.87029288702929,
+    "corr60": 0.30277776369548876,
+    "corrPctRank": 6.95142378559464,
     "corrMin5y": 0.036257837878636255,
-    "corrMedian5y": 0.6949003534994069,
+    "corrMedian5y": 0.6956341302334234,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
+    {
+      "headline": "Jim Cramer says it's time to look beyond tech. Here are 4 consumer stocks he likes",
+      "summary": "Cramer said investors looking to diversify beyond the struggling AI trade should consider consumer staples.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/30/jim-cramer-consumer-staples-stocks.html",
+      "datetime": 1793400724,
+      "headlineKo": "짐 크레이머(Jim Cramer)는 이제 기술 그 이상을 바라볼 때가 되었다고 말합니다. 그가 좋아하는 4가지 소비재 주식은 다음과 같습니다.",
+      "summaryKo": "Cramer는 어려움을 겪고 있는 AI 거래를 넘어 다각화를 모색하는 투자자들은 필수 소비재를 고려해야 한다고 말했습니다."
+    },
     {
       "headline": "Iran's IRGC Navy says four tankers catch fire in Strait of Hormuz - Reuters",
       "summary": "Iran's IRGC Navy says four tankers catch fire in Strait of Hormuz Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1793371339,
       "headlineKo": "호르무즈 해협의 유조선이 선체 기뢰에 피격됐다고 보안 소식통이 밝혔습니다.",
       "summaryKo": "호르무즈 해협의 유조선이 선체 기뢰에 피격됐다고 보안 소식통이 전했습니다."
-    },
-    {
-      "headline": "BP has not considered breakup, says CEO - Reuters",
-      "summary": "BP has not considered breakup, says CEO Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTWxvSWxETU9lcGN1U2k2SkFITktrZUlyZVp6QmstX0QtUnZNWEJhNmVVOG1BTVUzLU9UbXMyZWp0R1pVWDNTcjhyNnZfb01LX2xGcjdJcTNKVWZiNTVnNWx6d3RDdFdFUVFnNUtNR2RTM1ZPSXRSLWJRU3VDSTdHZG11SEs0eS1SbWpYMGhxM08waHVRWk5VV3hSN3dBRHdjamc0WA?oc=5",
-      "datetime": 1793370989,
-      "headlineKo": "BP는 해체를 고려하지 않았다고 CEO는 말했습니다 - Reuters",
-      "summaryKo": "BP는 해체를 고려하지 않았다고 CEO 로이터가 밝혔습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793401232.3681083,
+  "_news_last_success_at": 1793404841.3063946,
   "fgi": {
     "score": 26.2386554621849,
     "rating": "fear"
   },
-  "_fetched_at": 1793401222.927323,
-  "_updated_label": "2026-10-31 08:01",
-  "_last_attempt_at": 1793401222.927323,
-  "_last_success_at": 1793401222.927323,
+  "_fetched_at": 1793404833.1287632,
+  "_updated_label": "2026-10-31 09:01",
+  "_last_attempt_at": 1793404833.1287632,
+  "_last_success_at": 1793404833.1287632,
   "_collection_status": "ok",
   "_collection_errors": []
 };
