@@ -1,12 +1,12 @@
 // ops_status_report.py가 자동 생성합니다. 직접 수정하지 마세요.
 const OPS_STATUS_DATA = {
-  "generatedAt": "2026-11-01T07:35:43+09:00",
+  "generatedAt": "2026-11-02T07:35:42+09:00",
   "items": [
     {
       "key": "last_success",
       "status": "green",
       "label": "마지막 정상 완료",
-      "detail": "2026-11-01 07:32"
+      "detail": "2026-11-02 07:07"
     },
     {
       "key": "public_verify",
@@ -18,7 +18,7 @@ const OPS_STATUS_DATA = {
       "key": "loop_progress",
       "status": "green",
       "label": "루프 진행",
-      "detail": "대기 중(다음 주기, 3분 전부터)"
+      "detail": "대기 중(다음 주기, 28분 전부터)"
     },
     {
       "key": "loop_count",
@@ -34,21 +34,21 @@ const OPS_STATUS_DATA = {
     },
     {
       "key": "compass_asof",
-      "status": "green",
+      "status": "red",
       "label": "나침반 피드 기준일",
-      "detail": "2026-10-30"
+      "detail": "2026-10-30 (3일 전, 기준 2거래일)"
     },
     {
       "key": "market_expectation_asof",
       "status": "green",
       "label": "시장 기대 기준일",
-      "detail": "2026-11-01"
+      "detail": "2026-11-02"
     },
     {
       "key": "eps",
       "status": "red",
       "label": "EPS 수집",
-      "detail": "COHR 17일째(기준 14일)"
+      "detail": "COHR 18일째(기준 14일)"
     },
     {
       "key": "data_audit",
@@ -90,7 +90,7 @@ const OPS_STATUS_DATA = {
       "key": "evidence_review_backlog",
       "status": "yellow",
       "label": "근거 승인 대기",
-      "detail": "WDC(9일), FIX(10일), BE(10일), HUBB(5일), STX(5일), GEV(4일), HUBB(4일), VRT(4일), MSFT(4일), GOOGL(4일), KLAC(4일), VRT(4일), GOOGL(3일), PWR(3일), EME(3일), AMZN(3일), INTC(3일), KLAC(3일), SNDK(3일), STX(3일), AMZN(2일), INTC(2일), SNDK(2일) — approve_evidence.py 실행 필요"
+      "detail": "WDC(10일), FIX(11일), BE(11일), HUBB(6일), STX(6일), GEV(5일), HUBB(5일), VRT(5일), MSFT(5일), GOOGL(5일), KLAC(5일), VRT(5일), GOOGL(4일), PWR(4일), EME(4일), AMZN(4일), INTC(4일), KLAC(4일), SNDK(4일), STX(4일), AMZN(3일), INTC(3일), SNDK(3일) — approve_evidence.py 실행 필요"
     },
     {
       "key": "target_consensus_freshness",
@@ -132,7 +132,7 @@ const OPS_STATUS_DATA = {
       "key": "external_peer_cache_freshness",
       "status": "green",
       "label": "외부보충 비교군 캐시 신선도",
-      "detail": "2026-11-01 07:30 KST 정상 갱신(실패 0개)"
+      "detail": "2026-11-02 07:06 KST 정상 갱신(실패 0개)"
     }
   ]
 };
