@@ -246,6 +246,15 @@ const MARKET_DATA = {
       "summaryKo": "중간선거 이후 미국의 공격 위협이 다가오자 이란 특사단이 카타르 중재자들을 만난다 - 로이터"
     },
     {
+      "headline": "UN says Yemeni staff member dies in Houthi custody, demands investigation - Reuters",
+      "summary": "UN says Yemeni staff member dies in Houthi custody, demands investigation Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVjU5VUNuY25Gb0FFSjFteXRhNE1EeTJkZk53dUxJOEpmNmpqZzZ0Nm1nZFdiMXU1cmI5ODVDa3ZYVTRuZDVkQTdfRWFZd3hVTm1EMXNYalp5NHctOGpLM0RDYVVreHFmN1VLa293VzZNZG1iX2cxZFNsOFVYSUlaN0Z1MTR3OWZMelRZLXBkb3RQOW16NUc0d2t0Y0tfZndpalVKZ245U01HU1V0OVdGbk5MNjJIOExSeVV2QkZzT1c?oc=5",
+      "datetime": 1793475471,
+      "headlineKo": "유엔, 예멘 직원 후티 구금 중 사망, 조사 요구 - 로이터 통신",
+      "summaryKo": "유엔, 예멘 직원 후티 구금 중 사망, 조사 요구 - 로이터"
+    },
+    {
       "headline": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution",
       "summary": "The Colossus data centers and a power plant that SpaceXAI is also building in Southaven, Mississippi, have faced community backlash for years.",
       "source": "CNBC",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1793400724,
       "headlineKo": "짐 크레이머(Jim Cramer)는 이제 기술 그 이상을 바라볼 때가 되었다고 말합니다. 그가 좋아하는 4가지 소비재 주식은 다음과 같습니다.",
       "summaryKo": "Cramer는 어려움을 겪고 있는 AI 거래를 넘어 다각화를 모색하는 투자자들은 필수 소비재를 고려해야 한다고 말했습니다."
-    },
-    {
-      "headline": "Iran's IRGC Navy says four tankers catch fire in Strait of Hormuz - Reuters",
-      "summary": "Iran's IRGC Navy says four tankers catch fire in Strait of Hormuz Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMzdWakFCLTEzM2pYaGh6ZHpxZE9KMjh2QjkzcE1ieWVwa0dmRFZZWUlOamZJUlpwN0M1ajJuZ3dNRFJ4ZzJwSmFJaGl4cGFWTEZPYmI0UllLZ1lCRzIzWVpNSlhkQnpCejl4RFltVXJvV3QtcXhqY1JiUF91TjZmSU5XYXFHM05CcE1fbzV6dVNmOFFUNEExZm1qVTFQWnhBYnVyZkUxYmlRTnEtTHlla3l0RGxncHgwbDRyVVVuMjU?oc=5",
-      "datetime": 1793392806,
-      "headlineKo": "이란 IRGC 해군, 호르무즈 해협에서 유조선 4척에 화재 발생 - 로이터 통신",
-      "summaryKo": "이란 IRGC 해군, 호르무즈 해협에서 유조선 4척에 불이 붙었다고 밝혔습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793503472.6070774,
+  "_news_last_success_at": 1793507300.104257,
   "fgi": {
     "score": 26.2386554621849,
     "rating": "fear"
   },
-  "_fetched_at": 1793503465.4736264,
-  "_updated_label": "2026-11-01 12:25",
-  "_last_attempt_at": 1793503465.4736264,
-  "_last_success_at": 1793503465.4736264,
+  "_fetched_at": 1793507291.671443,
+  "_updated_label": "2026-11-01 13:28",
+  "_last_attempt_at": 1793507291.671443,
+  "_last_success_at": 1793507291.671443,
   "_collection_status": "ok",
   "_collection_errors": []
 };
