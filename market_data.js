@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Germany must do more to boost gas reserves as storage levels hit record low, lobby group says - Reuters",
+      "summary": "Germany must do more to boost gas reserves as storage levels hit record low, lobby group says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTzBFS0hhWUtOcVhOMDVsX25TV3R4eENLbjdCMUpDRDByYTBHWjU3MmtycmM2blh4Y1Y3V2t6SUhIODJidldfcjNOdG0zVHRNdVFWdXZKWVhJeWdFWE9LaDA1MnJlbk1vaC1qLUpuZWU0WERCckY3Nk4tLUhHcnNFZ1pJdzJYRTFxWFl4cjRTNG53QmxkSDAxUUd2NjdnRUhOTDBhbUx5eUppU3Q4Vmh0aFExRlVRTUJzUGl1aWgySFZtRjlnb1E?oc=5",
+      "datetime": 1793509440
+    },
+    {
       "headline": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms - Reuters",
       "summary": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms Reuters",
       "source": "Reuters",
@@ -334,27 +341,18 @@ const MARKET_DATA = {
       "datetime": 1793434903,
       "headlineKo": "이집트는 이란 전쟁의 확대가 더 파괴적일 것이라고 우려하고 있다고 외무장관이 밝혔습니다.",
       "summaryKo": "이집트는이란 전쟁의 확대가 더 파괴적 일 것이라고 우려한다고 외무 장관이 말했습니다."
-    },
-    {
-      "headline": "Jim Cramer says it's time to look beyond tech. Here are 4 consumer stocks he likes",
-      "summary": "Cramer said investors looking to diversify beyond the struggling AI trade should consider consumer staples.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/30/jim-cramer-consumer-staples-stocks.html",
-      "datetime": 1793400724,
-      "headlineKo": "짐 크레이머(Jim Cramer)는 이제 기술 그 이상을 바라볼 때가 되었다고 말합니다. 그가 좋아하는 4가지 소비재 주식은 다음과 같습니다.",
-      "summaryKo": "Cramer는 어려움을 겪고 있는 AI 거래를 넘어 다각화를 모색하는 투자자들은 필수 소비재를 고려해야 한다고 말했습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793515688.6289232,
+  "_news_last_success_at": 1793519545.614631,
   "fgi": {
     "score": 26.2386554621849,
     "rating": "fear"
   },
-  "_fetched_at": 1793515681.292277,
-  "_updated_label": "2026-11-01 15:48",
-  "_last_attempt_at": 1793515681.292277,
-  "_last_success_at": 1793515681.292277,
+  "_fetched_at": 1793519535.3811586,
+  "_updated_label": "2026-11-01 16:52",
+  "_last_attempt_at": 1793519535.3811586,
+  "_last_success_at": 1793519535.3811586,
   "_collection_status": "ok",
   "_collection_errors": []
 };
