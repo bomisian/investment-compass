@@ -237,11 +237,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Russia's FSB says minor detained over park attack threat after US tip-off - Reuters",
+      "summary": "Russia's FSB says minor detained over park attack threat after US tip-off Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVEpDUVhCYWticTBIZEZxaHVlMXBZbFp0ODd6RVB2c1VzNllrVFpHRk5SR3E4Uk9YeWRJVFVoVGhlLS10ckliNzkyTzdjNi1KRU85UG9UQXpvcjlteTdLcm5iTERreDNqaF9jSU1ndTBwN2pBcXdGNlhEYTRmTFpKOXVOMUl3Q21fQW9DS2gxUWpkYjdfYnlJWmROR3VEQk5KUVhNSGFMNFFHcUZmNTZ2UENLWks?oc=5",
+      "datetime": 1793547143,
+      "headlineKo": "러시아 FSB는 미국의 제보 이후 공원 공격 ​​위협으로 미성년자를 구금했다고 밝혔습니다.",
+      "summaryKo": "러시아 FSB는 미국이 제보한 후 공원 공격 ​​위협으로 미성년자를 구금했다고 밝혔습니다."
+    },
+    {
       "headline": "Iran, Qatari mediators hold third day of talks to end US-Iran war - Reuters",
       "summary": "Iran, Qatari mediators hold third day of talks to end US-Iran war Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdXU0aVh0RXlJYm1BOUtMU2FncFZnaDY5dVo4LXR0OFhsUzl1V2s0ZHpoeU5VX2d4cjg0RWRXRkRLLVhRRFJ6QlVKd3dEQ3ZtNVF0c0laVUtZZU1DTFB2bVVpN01abDA1RDRBWXJLRzFSVzZpQmFaWFBVaVdhNG9GdEVranBrT2M5NzlmWFVKSXo5QjJla0JLZ2x3SG9pOE9mb0xOaUNaZmxxbzQ4RlVVY04tZnRxZWNLNVBoby1WMXQ?oc=5",
-      "datetime": 1793541478,
+      "datetime": 1793544190,
       "headlineKo": "이란-카타르 중재자, 미국-이란 전쟁 종식을 위한 사흘째 회담 개최 - 로이터",
       "summaryKo": "이란, 카타르 중재자, 미국-이란 전쟁 종식을 위한 사흘째 회담 개최 - 최신"
     },
@@ -264,6 +273,15 @@ const MARKET_DATA = {
       "summaryKo": "OPEC+는 2027년에 대한 더욱 엄격한 요구에 앞서 12월 석유 생산량 목표를 안정적으로 유지합니다 Reuters"
     },
     {
+      "headline": "Israeli strikes kill eight people in Gaza - medics say - Reuters",
+      "summary": "Israeli strikes kill eight people in Gaza - medics say Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd2E3NlZWbHB1MUtZdG5sLXBXci1sVnQtMWxWYk1CM1EzTUtfMXJiWDZYRlIzN09BWlBuaUVXOThueVFEdF9nMXdVaUpobUNCSXM3dUZWQVZjN2MwZ19pQUN6cDUtbnE2Rm1PX3BwYmhTWWo4TGRqbG0xSmhKQVhWYTlVNkFpTFdsUFhmcDlVaFI5cWZRYk1jcFRoU3RIZUV2QTRBdm5B?oc=5",
+      "datetime": 1793540143,
+      "headlineKo": "이스라엘 공습으로 가자지구 8명 사망 - 의료진의 말 - 로이터 통신",
+      "summaryKo": "이스라엘의 공습으로 가자지구에서 8명이 사망했다고 의료진이 밝혔습니다."
+    },
+    {
       "headline": "German ministers pledge tough action after rioters damage stores in Frankfurt - Reuters",
       "summary": "German ministers pledge tough action after rioters damage stores in Frankfurt Reuters",
       "source": "Reuters",
@@ -280,6 +298,15 @@ const MARKET_DATA = {
       "datetime": 1793535622,
       "headlineKo": "교황 레오 “올레쉬키 휴전이 우크라이나-러시아 평화 노력에 박차를 가할 수 있기를 바란다” - 로이터 통신",
       "summaryKo": "교황 레오, 올레쉬키 휴전이 우크라이나-러시아 평화 노력에 박차를 가할 수 있기를 바란다 -로이터"
+    },
+    {
+      "headline": "Xiaomi's October EV deliveries top 50,000, hit 2026 monthly high - Reuters",
+      "summary": "Xiaomi's October EV deliveries top 50,000, hit 2026 monthly high Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVGJQV25faktaWGFiUks0eTdlWmFhbkcwR0RWcXdFbk95UXJ6VjBmSUV1NjRaTk1oYXk0NEtKaGF1NTJBOWNFUm1sY2tiUVhjekJVU25tRWduZVpGVFNHMGFyOTN1RjRmS1lFcnNSRExoT216QUNtaFZjOTluU1g0d19EejFmR2pRWDJuSXc4WWQ3WHJ2UngzYmZRV3d0a2dmeHFycVhhZGdvN1dUbmc?oc=5",
+      "datetime": 1793518929,
+      "headlineKo": "Xiaomi의 10월 EV 배송량은 50,000대를 넘어 2026년 월간 최고치를 기록했습니다 - Reuters",
+      "summaryKo": "Xiaomi의 10월 EV 배송량은 50,000대를 넘어 2026년 월간 최고치를 기록했습니다."
     },
     {
       "headline": "Germany must do more to boost gas reserves as storage levels hit record low, lobby group says - Reuters",
@@ -300,6 +327,15 @@ const MARKET_DATA = {
       "summaryKo": "MotoGP는 팀과의 만남 후 카타르 GP를 정상 궤도에 유지했지만 Yamaha는 철수했습니다."
     },
     {
+      "headline": "FBI links North Korea to theft of $6 billion from Binance - Reuters",
+      "summary": "FBI links North Korea to theft of $6 billion from Binance Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT0F3bEEtREZiMG5WVnJMQlVHUDdaaHJQTno1VUJJRENOT2MySEZDcmpCYm41YnpkMS1Ub1l1ZThqSUJSa214ay1Gb3E3NFFNNWRZZDJtVjZSWU91M1NFVkRWZjJPdG9nN2ZCTm12RnhFVWFTTkhpMnBnRU5XZDhmRTRYNFZ0V1lKSkc3N1htMnRLbHhFWlo0?oc=5",
+      "datetime": 1793483063,
+      "headlineKo": "FBI는 바이낸스로부터 60억 달러를 절도한 혐의로 북한을 지목했다 - 로이터",
+      "summaryKo": "FBI는 바이낸스 로이터로부터 60억 달러를 절도한 혐의로 북한을 지목했습니다."
+    },
+    {
       "headline": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms - Reuters",
       "summary": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms Reuters",
       "source": "Reuters",
@@ -307,54 +343,18 @@ const MARKET_DATA = {
       "datetime": 1793476836,
       "headlineKo": "중간고사 이후 미국의 공격 위협이 다가오자 이란 특사들이 카타르 중재자들을 만나다 - 로이터 통신",
       "summaryKo": "중간선거 이후 미국의 공격 위협이 다가오자 이란 특사단이 카타르 중재자들을 만난다 - 로이터"
-    },
-    {
-      "headline": "UN says Yemeni staff member dies in Houthi custody, demands investigation - Reuters",
-      "summary": "UN says Yemeni staff member dies in Houthi custody, demands investigation Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVjU5VUNuY25Gb0FFSjFteXRhNE1EeTJkZk53dUxJOEpmNmpqZzZ0Nm1nZFdiMXU1cmI5ODVDa3ZYVTRuZDVkQTdfRWFZd3hVTm1EMXNYalp5NHctOGpLM0RDYVVreHFmN1VLa293VzZNZG1iX2cxZFNsOFVYSUlaN0Z1MTR3OWZMelRZLXBkb3RQOW16NUc0d2t0Y0tfZndpalVKZ245U01HU1V0OVdGbk5MNjJIOExSeVV2QkZzT1c?oc=5",
-      "datetime": 1793475471,
-      "headlineKo": "유엔, 예멘 직원 후티 구금 중 사망, 조사 요구 - 로이터 통신",
-      "summaryKo": "유엔, 예멘 직원 후티 구금 중 사망, 조사 요구 - 로이터"
-    },
-    {
-      "headline": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution",
-      "summary": "The Colossus data centers and a power plant that SpaceXAI is also building in Southaven, Mississippi, have faced community backlash for years.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html",
-      "datetime": 1793472997,
-      "headlineKo": "SpaceX, Memphis 데이터 센터 대기 오염에 대한 NAACP 소송 포기 입찰 실패",
-      "summaryKo": "SpaceXAI가 미시시피 주 사우스헤이븐에 건설하고 있는 Colossus 데이터 센터와 발전소도 수년 동안 커뮤니티의 반발에 직면해 왔습니다."
-    },
-    {
-      "headline": "Borsa Istanbul general manager detained in fund investigation, Anadolu Agency says - Reuters",
-      "summary": "Borsa Istanbul general manager detained in fund investigation, Anadolu Agency says Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZjNORS1HV3hYZE1pRjRUR2FyY1FkTDN4OG42WFc5R2laMkI5b1p1TXFQamEyNW95c3YtaDY2MVVfZWxaRTVnclA1UnFxOWpMQUhEaXhNSGw5ZGxGMF9seWhPWlhqTmFSLWprZk5BYmd3QjZ0V3Q5bDFZcHNOQ3B6UGxLNElFXzR1SkhTbUE4bjBRektfMFNlTVk2WGtsRWd6RmhudFhCald0SFNpTGttdXFKUHNhekNiRWRZNGJNVTJERW42ajBoVU5paDg?oc=5",
-      "datetime": 1793471263,
-      "headlineKo": "보르사 이스탄불 총지배인, 펀드 조사로 구금됐다고 아나돌루 에이전시가 밝혔습니다 - 로이터 통신",
-      "summaryKo": "Borsa Istanbul의 총책임자는 자금 조사로 구금되었다고 Anadolu Agency는 말했습니다."
-    },
-    {
-      "headline": "Jordan stops armed group from attempting to enter from Syria, armed forces say - Reuters",
-      "summary": "Jordan stops armed group from attempting to enter from Syria, armed forces say Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUnZYN3pDajdLZXp1ZVlXeF8xTDNIc04xR2tMRXFsUzZsZTh4ckszeDM0V3daV1haWE15THZRUU43QlhxUFZfLWp5Z05SQmVENzBEbGJEcHhRdDR2elJBM2ExRVN2NlNqRldidDJQdXBMLVBUc1BHY0JaZ25Yblpwd2hlRnF6ZEljb3p5d3VxVG9Ya0poeXJWZnEzUmZfclVwSTVROGdkZjJFdDIzczd3TzBja1UxUQ?oc=5",
-      "datetime": 1793468150,
-      "headlineKo": "요르단은 시리아에서 무장세력이 진입하려는 시도를 저지했다고 군대가 밝혔습니다 - 로이터 통신",
-      "summaryKo": "요르단은 시리아에서 무장세력이 진입하려는 시도를 저지했다고 군대가 밝혔습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793548834.115063,
+  "_news_last_success_at": 1793552430.4134154,
   "fgi": {
     "score": 26.2386554621849,
     "rating": "fear"
   },
-  "_fetched_at": 1793548823.4157798,
-  "_updated_label": "2026-11-02 01:01",
-  "_last_attempt_at": 1793548823.4157798,
-  "_last_success_at": 1793548823.4157798,
+  "_fetched_at": 1793552419.0916612,
+  "_updated_label": "2026-11-02 02:00",
+  "_last_attempt_at": 1793552419.0916612,
+  "_last_success_at": 1793552419.0916612,
   "_collection_status": "ok",
   "_collection_errors": []
 };
