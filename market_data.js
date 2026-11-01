@@ -273,6 +273,15 @@ const MARKET_DATA = {
       "summaryKo": "SpaceXAI가 미시시피 주 사우스헤이븐에 건설하고 있는 Colossus 데이터 센터와 발전소도 수년 동안 커뮤니티의 반발에 직면해 왔습니다."
     },
     {
+      "headline": "Borsa Istanbul general manager detained in fund investigation, Anadolu Agency says - Reuters",
+      "summary": "Borsa Istanbul general manager detained in fund investigation, Anadolu Agency says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZjNORS1HV3hYZE1pRjRUR2FyY1FkTDN4OG42WFc5R2laMkI5b1p1TXFQamEyNW95c3YtaDY2MVVfZWxaRTVnclA1UnFxOWpMQUhEaXhNSGw5ZGxGMF9seWhPWlhqTmFSLWprZk5BYmd3QjZ0V3Q5bDFZcHNOQ3B6UGxLNElFXzR1SkhTbUE4bjBRektfMFNlTVk2WGtsRWd6RmhudFhCald0SFNpTGttdXFKUHNhekNiRWRZNGJNVTJERW42ajBoVU5paDg?oc=5",
+      "datetime": 1793471263,
+      "headlineKo": "보르사 이스탄불 총지배인, 펀드 조사로 구금됐다고 아나돌루 에이전시가 밝혔습니다 - 로이터 통신",
+      "summaryKo": "Borsa Istanbul의 총책임자는 자금 조사로 구금되었다고 Anadolu Agency는 말했습니다."
+    },
+    {
       "headline": "Binance, crypto and hacks: What to know about keeping coin safe as cyber criminals advance",
       "summary": "The Binance hack of $6.3 billion, the largest crypto theft ever, is a wake-up call for investors to understand how coin is guarded and the risk of losing it.",
       "source": "CNBC",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1793435779,
       "headlineKo": "요르단이 시리아에서 진입하려는 전투기를 저지했다고 군대가 밝혔습니다.",
       "summaryKo": "요르단이 시리아에서 진입하려는 전투기를 저지했다고 군대가 밝혔습니다."
-    },
-    {
-      "headline": "Egypt fears escalation in Iran war would be more destructive, foreign minister says - Reuters",
-      "summary": "Egypt fears escalation in Iran war would be more destructive, foreign minister says Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVUNZU3g2dW4xamJOV3lTQ251RzhyLXd4dHY5eTRvVFkwOXF6Vm4zUkxCdVEzaEE1R3BxQS16NlE2WlFQYlpsaUlxQkhNSHlTeGNzSmZGbXB1eFVGdUJkbExRZFUxcnJBZ0JXVklVaEpQdXExWWpyQ3FUSzg5alJFak9TSllUbUt4LWl6WHlMcWR3TU9kV3pXN3E1dUlyLUFnai1UdzhIY1RDdS1NWXQxQUU4X1FYalpRVUtWcWVBUGIwb0lNb3JrdENIVzYzdw?oc=5",
-      "datetime": 1793434903,
-      "headlineKo": "이집트는 이란 전쟁의 확대가 더 파괴적일 것이라고 우려하고 있다고 외무장관이 밝혔습니다.",
-      "summaryKo": "이집트는이란 전쟁의 확대가 더 파괴적 일 것이라고 우려한다고 외무 장관이 말했습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793527195.0607548,
+  "_news_last_success_at": 1793531062.7355058,
   "fgi": {
     "score": 26.2386554621849,
     "rating": "fear"
   },
-  "_fetched_at": 1793527187.711426,
-  "_updated_label": "2026-11-01 19:00",
-  "_last_attempt_at": 1793527187.711426,
-  "_last_success_at": 1793527187.711426,
+  "_fetched_at": 1793531051.952327,
+  "_updated_label": "2026-11-01 20:04",
+  "_last_attempt_at": 1793531051.952327,
+  "_last_success_at": 1793531051.952327,
   "_collection_status": "ok",
   "_collection_errors": []
 };
