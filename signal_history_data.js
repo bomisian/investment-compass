@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793555351.0027704,
+  "generatedAt": 1793556020.3715672,
   "records": {
     "MSFT": [
       {
@@ -20247,6 +20247,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AVGO": [
       {
+        "changedAt": 1793556020.3715672,
+        "dataAsOf": 1793455676,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.05,
+            "after": 0.87
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 2.45,
+            "after": 2.1
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.0,
+            "after": -0.17
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Marvell은 Lumentum Talks에서 일주일 만에 14% 하락: 칩 제조업체들은 \"선택의 여지가 없다\"고 좋아합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=d24e99c282495f8443c811863b4c5d17e75bfdc67fc718bc7d172edff74db37b",
+        "eventId": "b7ae7e1361c8219d8f90",
+        "fingerprint": "{\"changes\": [{\"after\": 0.87, \"before\": 1.05, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 2.1, \"before\": 2.45, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.17, \"before\": 0.0, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"b7ae7e1361c8219d8f90\"}"
+      },
+      {
         "changedAt": 1793555351.0027704,
         "dataAsOf": 1793455676,
         "changes": [
@@ -22148,29 +22177,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=2bf0cb49150c8202fda88c48317f4ea97ae969cfcc5dc459b42714aafec03c57",
         "eventId": "e67f43b22e784d941369",
         "fingerprint": "{\"changes\": [{\"after\": -2.62, \"before\": -2.27, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.72, \"before\": -4.02, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"e67f43b22e784d941369\"}"
-      },
-      {
-        "changedAt": 1792057690.6271737,
-        "dataAsOf": 1792044966,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": -1.4,
-            "after": -2.27
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -3.15,
-            "after": -4.02
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "QCOM, AVGO, NVDA Stocks In Focus As ByteDance Reportedly Closes In On A MediaTek Pact For AI Data Center Chips",
-        "newsUrl": "https://finnhub.io/api/news?id=edf9b6f2ba5f33bfa6d54b85bd8d598ed150e1c76013218ed825b4086081f0cc",
-        "eventId": "0bc0c1caeab5d6f1265a",
-        "fingerprint": "{\"changes\": [{\"after\": -2.27, \"before\": -1.4, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.02, \"before\": -3.15, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"0bc0c1caeab5d6f1265a\"}"
       }
     ],
     "QCOM": [

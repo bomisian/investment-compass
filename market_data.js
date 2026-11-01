@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Israeli strikes kill eight people in Gaza - medics say - Reuters",
+      "summary": "Israeli strikes kill eight people in Gaza - medics say Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd2E3NlZWbHB1MUtZdG5sLXBXci1sVnQtMWxWYk1CM1EzTUtfMXJiWDZYRlIzN09BWlBuaUVXOThueVFEdF9nMXdVaUpobUNCSXM3dUZWQVZjN2MwZ19pQUN6cDUtbnE2Rm1PX3BwYmhTWWo4TGRqbG0xSmhKQVhWYTlVNkFpTFdsUFhmcDlVaFI5cWZRYk1jcFRoU3RIZUV2QTRBdm5B?oc=5",
+      "datetime": 1793551303,
+      "headlineKo": "이스라엘 공습으로 가자지구 8명 사망 - 의료진의 말 - 로이터 통신",
+      "summaryKo": "이스라엘의 공습으로 가자지구에서 8명이 사망했다고 의료진이 밝혔습니다."
+    },
+    {
       "headline": "Russia's FSB says minor detained over park attack threat after US tip-off - Reuters",
       "summary": "Russia's FSB says minor detained over park attack threat after US tip-off Reuters",
       "source": "Reuters",
@@ -271,15 +280,6 @@ const MARKET_DATA = {
       "datetime": 1793540165,
       "headlineKo": "OPEC+는 2027년에 대한 더 엄격한 요구에 앞서 12월 석유 생산량 목표를 안정적으로 유지합니다 - Reuters",
       "summaryKo": "OPEC+는 2027년에 대한 더욱 엄격한 요구에 앞서 12월 석유 생산량 목표를 안정적으로 유지합니다 Reuters"
-    },
-    {
-      "headline": "Israeli strikes kill eight people in Gaza - medics say - Reuters",
-      "summary": "Israeli strikes kill eight people in Gaza - medics say Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd2E3NlZWbHB1MUtZdG5sLXBXci1sVnQtMWxWYk1CM1EzTUtfMXJiWDZYRlIzN09BWlBuaUVXOThueVFEdF9nMXdVaUpobUNCSXM3dUZWQVZjN2MwZ19pQUN6cDUtbnE2Rm1PX3BwYmhTWWo4TGRqbG0xSmhKQVhWYTlVNkFpTFdsUFhmcDlVaFI5cWZRYk1jcFRoU3RIZUV2QTRBdm5B?oc=5",
-      "datetime": 1793540143,
-      "headlineKo": "이스라엘 공습으로 가자지구 8명 사망 - 의료진의 말 - 로이터 통신",
-      "summaryKo": "이스라엘의 공습으로 가자지구에서 8명이 사망했다고 의료진이 밝혔습니다."
     },
     {
       "headline": "German ministers pledge tough action after rioters damage stores in Frankfurt - Reuters",
@@ -327,6 +327,15 @@ const MARKET_DATA = {
       "summaryKo": "MotoGP는 팀과의 만남 후 카타르 GP를 정상 궤도에 유지했지만 Yamaha는 철수했습니다."
     },
     {
+      "headline": "Hanwha signs $269 million shipbuilding contract for US Navy - Reuters",
+      "summary": "Hanwha signs $269 million shipbuilding contract for US Navy Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNanNHdE1oZmM1cVBFNjNlNkYzUUdqemM1VFdzRUhOUnF1NThpQmwtazFjNmk1X2ZaN2pTVG5wem0wSTlHYWtkeC1yUEYwRWYtMVZWT2JfN3V0RWkzMmROZUthOFZJY0JiM2V4bG50c1d5UGQtU1d4TWhCMm1takhlWFQzNldTbmJHbTFJcFJDcmdUZGdkTnpsREhpNFo0SExk?oc=5",
+      "datetime": 1793497500,
+      "headlineKo": "한화, 미 해군과 2억6900만 달러 규모 선박 건조 계약 체결 - 로이터",
+      "summaryKo": "한화, 미 해군과 2억6900만 달러 규모 선박 건조 계약 체결 - 로이터"
+    },
+    {
       "headline": "FBI links North Korea to theft of $6 billion from Binance - Reuters",
       "summary": "FBI links North Korea to theft of $6 billion from Binance Reuters",
       "source": "Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1793483063,
       "headlineKo": "FBI는 바이낸스로부터 60억 달러를 절도한 혐의로 북한을 지목했다 - 로이터",
       "summaryKo": "FBI는 바이낸스 로이터로부터 60억 달러를 절도한 혐의로 북한을 지목했습니다."
-    },
-    {
-      "headline": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms - Reuters",
-      "summary": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOODBHZGo0TEhURWc2Rm9nLUJjaF9Hb09YLUpnU3JlTWJ0OHJKd3p0dFZEYWdpYUNPVlNJdFJoYXhGOVdOX29rdHhjQ2F0c2E2VjJRQndHcEtSY1JIdEFzTkJJd3RKX2lKYWxRMnRQYjZvVnpxNnJQTlBmUFY5TWMzZTJ4akRuS1pKNExQY2lCQTAzRVlWOG4wYnZRVV9tRWJQdDJKQ0owZVdZUS1ZQmZYbTlMR0xxbF9uZ3ZvWkRNNDJtX0JNclZhLQ?oc=5",
-      "datetime": 1793476836,
-      "headlineKo": "중간고사 이후 미국의 공격 위협이 다가오자 이란 특사들이 카타르 중재자들을 만나다 - 로이터 통신",
-      "summaryKo": "중간선거 이후 미국의 공격 위협이 다가오자 이란 특사단이 카타르 중재자들을 만난다 - 로이터"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793552430.4134154,
+  "_news_last_success_at": 1793556028.9684057,
   "fgi": {
     "score": 26.2386554621849,
     "rating": "fear"
   },
-  "_fetched_at": 1793552419.0916612,
-  "_updated_label": "2026-11-02 02:00",
-  "_last_attempt_at": 1793552419.0916612,
-  "_last_success_at": 1793552419.0916612,
+  "_fetched_at": 1793556020.7097497,
+  "_updated_label": "2026-11-02 03:00",
+  "_last_attempt_at": 1793556020.7097497,
+  "_last_success_at": 1793556020.7097497,
   "_collection_status": "ok",
   "_collection_errors": []
 };
