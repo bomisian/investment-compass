@@ -246,6 +246,15 @@ const MARKET_DATA = {
       "summaryKo": "이란, 카타르 중재자, 미국-이란 전쟁 종식을 위한 사흘째 회담 개최 - 최신"
     },
     {
+      "headline": "Qatar surges, bucking Gulf market slide on Iran war concerns - Reuters",
+      "summary": "Qatar surges, bucking Gulf market slide on Iran war concerns Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU3lNbXVYLVNtdGZwSDFpT0ZvTHVaWmp3bi1abjBPelhQbDQ4bmNST1VyRGktWHRJXy1yTnhMMGREWUVPdjRJS3BxXzJYOGVGSkZvdk5YYTJpbU5JM215MUxWTE12R01nTldxbnpETXliMExhV3g5eHB2dFdEb1dYd3ZnTkNULTdoWXk0Y2dHOWNPTVJ4MldXUU5xMkxNeU8yQnhiVlRma1RBN2NUbElR?oc=5",
+      "datetime": 1793541189,
+      "headlineKo": "이란 전쟁 우려로 인해 카타르 급등, 걸프 시장 하락세-로이터",
+      "summaryKo": "이란 전쟁 우려로 인해 카타르 급등, 걸프 시장 하락세 로이터"
+    },
+    {
       "headline": "OPEC+ keeps December oil output targets steady ahead of tougher call for 2027 - Reuters",
       "summary": "OPEC+ keeps December oil output targets steady ahead of tougher call for 2027 Reuters",
       "source": "Reuters",
@@ -253,6 +262,15 @@ const MARKET_DATA = {
       "datetime": 1793540165,
       "headlineKo": "OPEC+는 2027년에 대한 더 엄격한 요구에 앞서 12월 석유 생산량 목표를 안정적으로 유지합니다 - Reuters",
       "summaryKo": "OPEC+는 2027년에 대한 더욱 엄격한 요구에 앞서 12월 석유 생산량 목표를 안정적으로 유지합니다 Reuters"
+    },
+    {
+      "headline": "German ministers pledge tough action after rioters damage stores in Frankfurt - Reuters",
+      "summary": "German ministers pledge tough action after rioters damage stores in Frankfurt Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX2l3Y3cxckRlRlpIRFQzT2FWa0YzZHcxYTdSV3dDY29iN0FNUHdqa1hKWkxFdU40NFI5MG8tWEV2SU54cng3NXpoV3JhdzdjVVRKZHJPYmlPNVBYTG95Y1lQYW1PbzVscnpHZ0plMGhET096ZDNjdEg0dTlzd2dPNVNlOXV3N2NiOW5rXzRsN3VZc2pSQWk0TUxkLXl4ZTRrcV9mMW9UWnUtSzlPajJaLS16Qm8?oc=5",
+      "datetime": 1793539612,
+      "headlineKo": "폭도들이 프랑크푸르트 상점에 피해를 입힌 후 독일 장관들은 강력한 조치를 약속했습니다-Reuters",
+      "summaryKo": "독일 장관들은 폭도들이 프랑크푸르트 상점을 손상시킨 후 강력한 조치를 약속했습니다."
     },
     {
       "headline": "Pope Leo says he hopes Oleshky truce could spur Ukraine-Russia peace efforts - Reuters",
@@ -318,43 +336,25 @@ const MARKET_DATA = {
       "summaryKo": "Borsa Istanbul의 총책임자는 자금 조사로 구금되었다고 Anadolu Agency는 말했습니다."
     },
     {
-      "headline": "FSB says US warned Russia of possible Moscow attack - Reuters",
-      "summary": "FSB says US warned Russia of possible Moscow attack Reuters",
+      "headline": "Jordan stops armed group from attempting to enter from Syria, armed forces say - Reuters",
+      "summary": "Jordan stops armed group from attempting to enter from Syria, armed forces say Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNN01mVmZKa0N0UWNiYkxZaDY4a0J5ekhBX2NKVi1xUDh5cmpEeHhzX3U3VE9GU21KUjlvQ0FuWGVlalZMVjJTY1FnVlJxR0YxNHpLMl9YTG5hNW9yQUVzbzB2RkFHV3JRTTVUVVdwRUkyeE9KRVBVdTQ5R3NYM1p6dF9lZFU0TkNCTVJWb2UyZ2h3eXAx?oc=5",
-      "datetime": 1793464628,
-      "headlineKo": "FSB는 미국이 러시아에 모스크바 공격 가능성을 경고했다고 밝혔습니다.",
-      "summaryKo": "FSB는 미국이 러시아에 모스크바 공격 가능성을 경고했다고 밝혔습니다."
-    },
-    {
-      "headline": "Binance, crypto and hacks: What to know about keeping coin safe as cyber criminals advance",
-      "summary": "The Binance hack of $6.3 billion, the largest crypto theft ever, is a wake-up call for investors to understand how coin is guarded and the risk of losing it.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/31/binance-crypto-hack-safety.html",
-      "datetime": 1793455120,
-      "headlineKo": "바이낸스, 암호화폐 및 해킹: 사이버 범죄자가 발전함에 따라 코인을 안전하게 유지하는 방법에 대해 알아야 할 사항",
-      "summaryKo": "역대 최대 규모의 암호화폐 도난 사건인 63억 달러 규모의 바이낸스 해킹은 투자자들이 코인을 보호하는 방법과 코인을 잃을 위험을 이해하도록 경각심을 불러일으킵니다."
-    },
-    {
-      "headline": "In the wake of Weil, a legal recruiter's advice for surviving a company wind-down",
-      "summary": "Legal recruiter Danielle Thompson shares her best advice for the employees of Weil, Gotshal & Manges and others who face a company wind-down or dissolution.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/make-it/2026/10/31/weil-wind-down-career-advice.html",
-      "datetime": 1793452021,
-      "headlineKo": "Weil의 뒤를 이어 회사 청산에서 살아남기 위한 법률 채용 담당자의 조언",
-      "summaryKo": "법률 채용 담당자인 Danielle Thompson은 Weil, Gotshal & Manges의 직원과 회사 폐쇄 또는 해산에 직면한 다른 사람들을 위해 최선의 조언을 공유합니다."
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUnZYN3pDajdLZXp1ZVlXeF8xTDNIc04xR2tMRXFsUzZsZTh4ckszeDM0V3daV1haWE15THZRUU43QlhxUFZfLWp5Z05SQmVENzBEbGJEcHhRdDR2elJBM2ExRVN2NlNqRldidDJQdXBMLVBUc1BHY0JaZ25Yblpwd2hlRnF6ZEljb3p5d3VxVG9Ya0poeXJWZnEzUmZfclVwSTVROGdkZjJFdDIzczd3TzBja1UxUQ?oc=5",
+      "datetime": 1793468150,
+      "headlineKo": "요르단은 시리아에서 무장세력이 진입하려는 시도를 저지했다고 군대가 밝혔습니다 - 로이터 통신",
+      "summaryKo": "요르단은 시리아에서 무장세력이 진입하려는 시도를 저지했다고 군대가 밝혔습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793545406.8185096,
+  "_news_last_success_at": 1793548834.115063,
   "fgi": {
     "score": 26.2386554621849,
     "rating": "fear"
   },
-  "_fetched_at": 1793545393.770666,
-  "_updated_label": "2026-11-02 00:03",
-  "_last_attempt_at": 1793545393.770666,
-  "_last_success_at": 1793545393.770666,
+  "_fetched_at": 1793548823.4157798,
+  "_updated_label": "2026-11-02 01:01",
+  "_last_attempt_at": 1793548823.4157798,
+  "_last_success_at": 1793548823.4157798,
   "_collection_status": "ok",
   "_collection_errors": []
 };
