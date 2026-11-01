@@ -1,11 +1,11 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793511828.5093973,
+  "generatedAt": 1793513763.2178888,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793495421,
       "signal": "중립·확인 대기",
       "netScore": 1.39,
@@ -155,7 +155,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793448629,
       "signal": "주의 강화",
       "netScore": -10,
@@ -355,7 +355,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793444400,
       "signal": "주의 강화",
       "netScore": -6.44,
@@ -566,7 +566,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793479982,
       "signal": "주의 강화",
       "netScore": -10,
@@ -783,7 +783,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793430907,
       "signal": "중립·확인 대기",
       "netScore": 0.57,
@@ -929,7 +929,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793429400,
       "signal": "주의 강화",
       "netScore": -6.01,
@@ -1078,7 +1078,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793456877,
       "signal": "주의 강화",
       "netScore": -4.83,
@@ -1189,7 +1189,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793402483,
       "signal": "우호적 변화",
       "netScore": 2.1,
@@ -1271,7 +1271,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793307000,
       "signal": "중립·확인 대기",
       "netScore": -1.26,
@@ -1340,7 +1340,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793495421,
       "signal": "우호적 변화",
       "netScore": 6.57,
@@ -1555,7 +1555,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793495421,
       "signal": "우호적 변화",
       "netScore": 8.32,
@@ -1769,20 +1769,20 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793455676,
       "signal": "중립·확인 대기",
-      "netScore": 1.68,
+      "netScore": 0.98,
       "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 1.05,
-          "level": "우호적"
+          "score": 0.87,
+          "level": "중립"
         },
         "growth": {
           "label": "성장성",
-          "score": 2.45,
+          "score": 2.1,
           "level": "우호적"
         },
         "valuationBurden": {
@@ -1807,7 +1807,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 0.0,
+          "score": -0.17,
           "level": "중립"
         },
         "insiderSignal": {
@@ -1843,7 +1843,7 @@ const EVENT_ANALYSIS_DATA = {
             "longTermCompetitiveness": 1,
             "shortTermMomentum": 1
           },
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
+          "reason": "회사 실적과의 연결고리 확인"
         },
         {
           "eventId": "d70dbed3ba8a2de28e9a",
@@ -1918,7 +1918,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793430907,
       "signal": "중립·확인 대기",
       "netScore": -0.83,
@@ -2013,7 +2013,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793416801,
       "signal": "중립·확인 대기",
       "netScore": -1.61,
@@ -2094,7 +2094,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793456670,
       "signal": "주의 강화",
       "netScore": -9.0,
@@ -2272,7 +2272,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793499717,
       "signal": "주의 강화",
       "netScore": -9.83,
@@ -2322,7 +2322,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "837eb735511a2f1c2361",
-          "headline": "Vertiv: 3 Key Takeaways for Long-Term Investors",
+          "headline": "Vertiv: 장기 투자자를 위한 3가지 핵심 사항",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1793499717,
           "verificationStatus": "needs_confirmation",
@@ -2490,7 +2490,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793477366,
       "signal": "중립·확인 대기",
       "netScore": 1.4,
@@ -2571,7 +2571,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793328182,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -2640,7 +2640,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793344319,
       "signal": "중립·확인 대기",
       "netScore": -1.04,
@@ -2708,7 +2708,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2762,7 +2762,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2816,7 +2816,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793503981,
       "signal": "우호적 변화",
       "netScore": 7.48,
@@ -2866,7 +2866,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "aa79547458eac4bdcf3a",
-          "headline": "Micron's Chinese Rival CXMT Just Grew Its Sales More Than Sevenfold. I'd Buy Micron Stock Now.",
+          "headline": "마이크론의 중국 라이벌 CXMT 매출이 7배 이상 늘었습니다. 나는 지금 마이크론 주식을 사고 싶습니다.",
           "eventLabel": "워런트·신주·희석 가능성",
           "publishedAt": 1793503981,
           "verificationStatus": "needs_confirmation",
@@ -3030,7 +3030,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793440814,
       "signal": "주의 강화",
       "netScore": -6.05,
@@ -3238,7 +3238,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793486591,
       "signal": "주의 강화",
       "netScore": -5.88,
@@ -3288,7 +3288,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "991337b25ca4056de65b",
-          "headline": "Seagate: The Real Risk Isn't Toshiba, It's The 2028 Supply Wave (Downgrade)",
+          "headline": "Seagate: 진짜 위험은 Toshiba가 아니라 2028년 공급 물결입니다(다운그레이드)",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1793486591,
           "verificationStatus": "needs_confirmation",
@@ -3334,7 +3334,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793400422,
       "signal": "주의 강화",
       "netScore": -3.14,
@@ -3417,7 +3417,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793455676,
       "signal": "주의 강화",
       "netScore": -4.97,
@@ -3512,7 +3512,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793456670,
       "signal": "주의 강화",
       "netScore": -7.14,
@@ -3637,7 +3637,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793301355,
       "signal": "중립·확인 대기",
       "netScore": 1.4,
@@ -3706,7 +3706,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3760,7 +3760,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3814,7 +3814,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3868,7 +3868,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3922,7 +3922,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793426609,
       "signal": "중립·확인 대기",
       "netScore": 0.7,
@@ -3990,7 +3990,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4044,7 +4044,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4098,7 +4098,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793486591,
       "signal": "주의 강화",
       "netScore": -3.28,
@@ -4148,7 +4148,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "991337b25ca4056de65b",
-          "headline": "Seagate: The Real Risk Isn't Toshiba, It's The 2028 Supply Wave (Downgrade)",
+          "headline": "Seagate: 진짜 위험은 Toshiba가 아니라 2028년 공급 물결입니다(다운그레이드)",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1793486591,
           "verificationStatus": "needs_confirmation",
@@ -4193,7 +4193,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793366074,
       "signal": "중립·확인 대기",
       "netScore": 1.4,
@@ -4261,7 +4261,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4315,7 +4315,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1793511828.5093973,
+      "updatedAt": 1793513763.2178888,
       "dataAsOf": 1793363038,
       "signal": "중립·확인 대기",
       "netScore": 1.4,

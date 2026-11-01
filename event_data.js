@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793511828.4573839,
+  "generatedAt": 1793513763.172287,
   "events": [
     {
       "id": "aa79547458eac4bdcf3a",
@@ -26,7 +26,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Micron's Chinese Rival CXMT Just Grew Its Sales More Than Sevenfold. I'd Buy Micron Stock Now.",
-      "headlineKo": "",
+      "headlineKo": "마이크론의 중국 라이벌 CXMT 매출이 7배 이상 늘었습니다. 나는 지금 마이크론 주식을 사고 싶습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5c7f23a69be55171742486985b32cf863e0a92017973c23117b898bc866b6c60",
@@ -103,7 +103,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Vertiv: 3 Key Takeaways for Long-Term Investors",
-      "headlineKo": "",
+      "headlineKo": "Vertiv: 장기 투자자를 위한 3가지 핵심 사항",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d61962c3023f245b90d7956fd7d0703c3ac8d3588d7603ae16da57f08e716c3c",
@@ -347,7 +347,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Sandisk (SNDK) Stock Sees Modest Fair Value Cut As Analysts Weigh AI Demand",
-      "headlineKo": "",
+      "headlineKo": "분석가들이 AI 수요를 평가함에 따라 Sandisk(SNDK) 주식은 적당한 공정 가치 감소를 확인합니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ef4164f8d2cb0fafcdc44e24e62684ad526fa0c96ab9e2ce8e48d6b7a88df659",
@@ -414,7 +414,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "PWR Q3 deep dive: broad-based backlog growth and supply chain discipline drive guidance boost",
-      "headlineKo": "",
+      "headlineKo": "PWR Q3 심층 분석: 광범위한 백로그 증가 및 공급망 규율 추진 지침 강화",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d4b01c1c33b855232b9d19007b2575fcac1f2426cf7f7a5eea2046733483dc4f",
@@ -483,7 +483,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Seagate: The Real Risk Isn't Toshiba, It's The 2028 Supply Wave (Downgrade)",
-      "headlineKo": "",
+      "headlineKo": "Seagate: 진짜 위험은 Toshiba가 아니라 2028년 공급 물결입니다(다운그레이드)",
       "source": {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=d2c790ea13489ecf284713cf69cf1c23568e47798e28c3451632f3a9a083dcf5",
@@ -6760,7 +6760,7 @@ const EVENT_DATA = {
           "verification": "headline_or_analysis"
         }
       ],
-      "importance": "high",
+      "importance": "medium",
       "sourceReliability": {
         "level": "medium",
         "score": 65,
@@ -6768,7 +6768,7 @@ const EVENT_DATA = {
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
       "direction": "positive",
-      "expectedHorizon": "중기·장기",
+      "expectedHorizon": "다음 실적까지 확인",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Broadcom Stock Outlook Hinges On AI Chip Growth And Anthropic Partnership",
@@ -6781,30 +6781,41 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Broadcom 주식 전망은 AI 칩 성장과 인류적 파트너십에 달려 있습니다."
+        "Broadcom 주식 전망은 AI 칩 성장과 인류적 파트너십에 달려 있습니다.",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
       ],
-      "marketInterpretation": [],
+      "marketInterpretation": [
+        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+        "AVGO의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
       "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+        "AVGO에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
       ],
       "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+        "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
       ],
       "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+        "AVGO의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
           "ticker": "AVGO",
-          "direction": "positive",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
         }
       ],
-      "watch": []
+      "watch": [
+        "계약 금액·기간·취소 조건",
+        "수주잔고와 매출 인식 시점",
+        "관련 사업부 매출총이익률"
+      ]
     },
     {
       "id": "061710eddcd3130215c6",
