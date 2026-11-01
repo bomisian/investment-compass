@@ -191,10 +191,10 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": -4.024812888960405,
-        "ret3m": 6.772779142698782,
-        "ret6m": 4.278293911331543,
-        "ret1y": -8.57469693182782,
+        "ret1m": -3.0827287766160616,
+        "ret3m": 7.634326825491766,
+        "ret6m": 6.575595386247168,
+        "ret1y": -4.568358495846969,
         "winRate": 60.8,
         "count": 9
       },
@@ -229,13 +229,22 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.388560147683585,
-    "corrPctRank": 9.790794979079498,
-    "corrMin5y": 0.08673429153451856,
-    "corrMedian5y": 0.6922516271142322,
-    "corrMax5y": 0.9255841325571624
+    "corr60": 0.3616370240658385,
+    "corrPctRank": 8.87029288702929,
+    "corrMin5y": 0.036257837878636255,
+    "corrMedian5y": 0.6949003534994069,
+    "corrMax5y": 0.9306761077384692
   },
   "news": [
+    {
+      "headline": "Iranian negotiators in Doha to continue talks to end the US-Iran war, official says - Reuters",
+      "summary": "Iranian negotiators in Doha to continue talks to end the US-Iran war, official says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdXU0aVh0RXlJYm1BOUtMU2FncFZnaDY5dVo4LXR0OFhsUzl1V2s0ZHpoeU5VX2d4cjg0RWRXRkRLLVhRRFJ6QlVKd3dEQ3ZtNVF0c0laVUtZZU1DTFB2bVVpN01abDA1RDRBWXJLRzFSVzZpQmFaWFBVaVdhNG9GdEVranBrT2M5NzlmWFVKSXo5QjJla0JLZ2x3SG9pOE9mb0xOaUNaZmxxbzQ4RlVVY04tZnRxZWNLNVBoby1WMXQ?oc=5",
+      "datetime": 1793537871,
+      "headlineKo": "도하에서 이란 협상단이 미국-이란 전쟁을 끝내기 위한 회담을 계속할 것이라고 관계자가 밝혔습니다 - 로이터 통신",
+      "summaryKo": "도하에서 이란 협상단이 미국-이란 전쟁을 끝내기 위한 회담을 계속할 것이라고 관계자가 로이터 통신에 밝혔습니다."
+    },
     {
       "headline": "OPEC+ set to keep oil output targets steady, sources say - Reuters",
       "summary": "OPEC+ set to keep oil output targets steady, sources say Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1793448746,
       "headlineKo": "이란 관리는 미국이 케심 섬 앞바다에서 어선을 공격했다고 국영 언론이 보도했습니다. - 로이터 통신",
       "summaryKo": "이란 관리는 미국이 케심 섬 앞바다에서 어선을 공격했다고 국영 언론이 보도했습니다."
-    },
-    {
-      "headline": "The rise of the 15-foot skeleton—how a viral novelty became a Halloween staple",
-      "summary": "In just six years, giant skeletons have gone from an absurd viral novelty to the centerpiece of an expanding retail arms race for the front lawn.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/make-it/2026/10/23/giant-halloween-skeleton-decorations.html",
-      "datetime": 1793442439,
-      "headlineKo": "15피트 해골의 등장 - 입소문을 타는 참신함이 어떻게 할로윈의 필수품이 되었나요?",
-      "summaryKo": "단 6년 만에 거대 해골은 터무니없는 입소문의 참신함에서 앞마당을 대상으로 확대되는 소매 군비 경쟁의 중심이 되었습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793538065.2948961,
+  "_news_last_success_at": 1793541427.199671,
   "fgi": {
     "score": 26.2386554621849,
     "rating": "fear"
   },
-  "_fetched_at": 1793538056.4249272,
-  "_updated_label": "2026-11-01 22:01",
-  "_last_attempt_at": 1793538056.4249272,
-  "_last_success_at": 1793538056.4249272,
+  "_fetched_at": 1793541419.1021745,
+  "_updated_label": "2026-11-01 22:57",
+  "_last_attempt_at": 1793541419.1021745,
+  "_last_success_at": 1793541419.1021745,
   "_collection_status": "ok",
   "_collection_errors": []
 };
