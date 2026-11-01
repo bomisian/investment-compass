@@ -237,6 +237,24 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Here are 3 big things we're watching in the stock market in the week ahead",
+      "summary": "The market could use a few victories in the days ahead, which will be filled with more earnings, an election, and jobs data.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/investingclub/2026/11/01/3-big-things-were-watching-in-the-stock-market-this-week.html",
+      "datetime": 1793556725,
+      "headlineKo": "다음 주에 주식 시장에서 우리가 주목해야 할 3가지 주요 사항은 다음과 같습니다.",
+      "summaryKo": "시장은 앞으로 며칠 동안 몇 번의 승리를 거둘 수 있으며, 이는 더 많은 수입, 선거 및 일자리 데이터로 채워질 것입니다."
+    },
+    {
+      "headline": "Democratic Rep. Stevens endorses Rogers over El-Sayed in Michigan Senate election",
+      "summary": "Haley Stevens had lost the Democratic nomination for Senate in Michigan to Abdul El-Sayed earlier this year.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/01/michigan-senate-stevens-rogers-endorsement-el-sayed.html",
+      "datetime": 1793555978,
+      "headlineKo": "민주당 의원 Stevens는 미시간 상원 선거에서 El-Sayed보다 Rogers를지지합니다.",
+      "summaryKo": "Haley Stevens는 올해 초 Abdul El-Sayed에게 미시간 주 상원의원 민주당 후보 지명을 잃었습니다."
+    },
+    {
       "headline": "Israeli strikes kill eight people in Gaza - medics say - Reuters",
       "summary": "Israeli strikes kill eight people in Gaza - medics say Reuters",
       "source": "Reuters",
@@ -268,7 +286,7 @@ const MARKET_DATA = {
       "summary": "Qatar surges, bucking Gulf market slide on Iran war concerns Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU3lNbXVYLVNtdGZwSDFpT0ZvTHVaWmp3bi1abjBPelhQbDQ4bmNST1VyRGktWHRJXy1yTnhMMGREWUVPdjRJS3BxXzJYOGVGSkZvdk5YYTJpbU5JM215MUxWTE12R01nTldxbnpETXliMExhV3g5eHB2dFdEb1dYd3ZnTkNULTdoWXk0Y2dHOWNPTVJ4MldXUU5xMkxNeU8yQnhiVlRma1RBN2NUbElR?oc=5",
-      "datetime": 1793541189,
+      "datetime": 1793541784,
       "headlineKo": "이란 전쟁 우려로 인해 카타르 급등, 걸프 시장 하락세-로이터",
       "summaryKo": "이란 전쟁 우려로 인해 카타르 급등, 걸프 시장 하락세 로이터"
     },
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1793506440,
       "headlineKo": "MotoGP는 팀과의 회의 후 카타르 GP를 정상 궤도에 유지했지만 Yamaha는 철수했습니다 - Reuters",
       "summaryKo": "MotoGP는 팀과의 만남 후 카타르 GP를 정상 궤도에 유지했지만 Yamaha는 철수했습니다."
-    },
-    {
-      "headline": "Hanwha signs $269 million shipbuilding contract for US Navy - Reuters",
-      "summary": "Hanwha signs $269 million shipbuilding contract for US Navy Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNanNHdE1oZmM1cVBFNjNlNkYzUUdqemM1VFdzRUhOUnF1NThpQmwtazFjNmk1X2ZaN2pTVG5wem0wSTlHYWtkeC1yUEYwRWYtMVZWT2JfN3V0RWkzMmROZUthOFZJY0JiM2V4bG50c1d5UGQtU1d4TWhCMm1takhlWFQzNldTbmJHbTFJcFJDcmdUZGdkTnpsREhpNFo0SExk?oc=5",
-      "datetime": 1793497500,
-      "headlineKo": "한화, 미 해군과 2억6900만 달러 규모 선박 건조 계약 체결 - 로이터",
-      "summaryKo": "한화, 미 해군과 2억6900만 달러 규모 선박 건조 계약 체결 - 로이터"
-    },
-    {
-      "headline": "FBI links North Korea to theft of $6 billion from Binance - Reuters",
-      "summary": "FBI links North Korea to theft of $6 billion from Binance Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT0F3bEEtREZiMG5WVnJMQlVHUDdaaHJQTno1VUJJRENOT2MySEZDcmpCYm41YnpkMS1Ub1l1ZThqSUJSa214ay1Gb3E3NFFNNWRZZDJtVjZSWU91M1NFVkRWZjJPdG9nN2ZCTm12RnhFVWFTTkhpMnBnRU5XZDhmRTRYNFZ0V1lKSkc3N1htMnRLbHhFWlo0?oc=5",
-      "datetime": 1793483063,
-      "headlineKo": "FBI는 바이낸스로부터 60억 달러를 절도한 혐의로 북한을 지목했다 - 로이터",
-      "summaryKo": "FBI는 바이낸스 로이터로부터 60억 달러를 절도한 혐의로 북한을 지목했습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793556028.9684057,
+  "_news_last_success_at": 1793559386.314469,
   "fgi": {
     "score": 26.2386554621849,
     "rating": "fear"
   },
-  "_fetched_at": 1793556020.7097497,
-  "_updated_label": "2026-11-02 03:00",
-  "_last_attempt_at": 1793556020.7097497,
-  "_last_success_at": 1793556020.7097497,
+  "_fetched_at": 1793559377.219838,
+  "_updated_label": "2026-11-02 03:56",
+  "_last_attempt_at": 1793559377.219838,
+  "_last_success_at": 1793559377.219838,
   "_collection_status": "ok",
   "_collection_errors": []
 };
