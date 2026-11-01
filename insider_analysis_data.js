@@ -1,11 +1,11 @@
 // 자동 생성 파일 - 내부자 거래 정밀 분석
 const INSIDER_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793545312.6837957,
+  "generatedAt": 1793547336.92095,
   "records": {
     "QQQ": {
       "ticker": "QQQ",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -23,7 +23,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "SPY": {
       "ticker": "SPY",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -41,7 +41,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "주의",
       "saleCount": 19,
       "exerciseCount": 0,
@@ -310,7 +310,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "관찰",
       "saleCount": 3,
       "exerciseCount": 0,
@@ -370,7 +370,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -655,7 +655,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "관찰",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -936,7 +936,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -1220,7 +1220,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "관찰",
       "saleCount": 1,
       "exerciseCount": 0,
@@ -1252,7 +1252,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "관찰",
       "saleCount": 3,
       "exerciseCount": 0,
@@ -1325,7 +1325,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "관찰",
       "saleCount": 2,
       "exerciseCount": 0,
@@ -1385,7 +1385,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -1668,7 +1668,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -1951,7 +1951,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -2233,7 +2233,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "관찰",
       "saleCount": 16,
       "exerciseCount": 0,
@@ -2462,7 +2462,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -2745,7 +2745,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "관찰",
       "saleCount": 2,
       "exerciseCount": 0,
@@ -2792,7 +2792,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "주의",
       "saleCount": 7,
       "exerciseCount": 0,
@@ -2905,7 +2905,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -2937,7 +2937,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -3216,7 +3216,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -3234,7 +3234,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "관찰",
       "saleCount": 3,
       "exerciseCount": 0,
@@ -3292,7 +3292,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "주의",
       "saleCount": 8,
       "exerciseCount": 0,
@@ -3418,7 +3418,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "주의",
       "saleCount": 13,
       "exerciseCount": 0,
@@ -3610,7 +3610,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -3892,7 +3892,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -4173,19 +4173,175 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "주의",
-      "saleCount": 17,
+      "saleCount": 20,
       "exerciseCount": 0,
-      "totalSaleValue": 13859278.59,
+      "totalSaleValue": 6124492.03,
       "peopleCount": 4,
       "repeatedSellers": [
+        "Cole Martin I",
         "Tregillis Cynthia L",
-        "STREETER STEPHANIE A",
-        "Tan Irving"
+        "STREETER STEPHANIE A"
       ],
       "simultaneous": true,
       "transactions": [
+        {
+          "name": "Cole Martin I",
+          "share": 43,
+          "transactionPrice": 401.4675,
+          "transactionDate": "2026-10-29",
+          "filingDate": "2026-10-30",
+          "code": "S",
+          "estimatedValue": 17263.1,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
+        {
+          "name": "Cole Martin I",
+          "share": 88,
+          "transactionPrice": 400.3294,
+          "transactionDate": "2026-10-29",
+          "filingDate": "2026-10-30",
+          "code": "S",
+          "estimatedValue": 35228.99,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
+        {
+          "name": "Cole Martin I",
+          "share": 303,
+          "transactionPrice": 399.3569,
+          "transactionDate": "2026-10-29",
+          "filingDate": "2026-10-30",
+          "code": "S",
+          "estimatedValue": 121005.14,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
+        {
+          "name": "Cole Martin I",
+          "share": 723,
+          "transactionPrice": 398.4499,
+          "transactionDate": "2026-10-29",
+          "filingDate": "2026-10-30",
+          "code": "S",
+          "estimatedValue": 288079.28,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
+        {
+          "name": "Cole Martin I",
+          "share": 584,
+          "transactionPrice": 397.4792,
+          "transactionDate": "2026-10-29",
+          "filingDate": "2026-10-30",
+          "code": "S",
+          "estimatedValue": 232127.85,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
+        {
+          "name": "Cole Martin I",
+          "share": 317,
+          "transactionPrice": 396.3138,
+          "transactionDate": "2026-10-29",
+          "filingDate": "2026-10-30",
+          "code": "S",
+          "estimatedValue": 125631.47,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
+        {
+          "name": "Cole Martin I",
+          "share": 209,
+          "transactionPrice": 395.3043,
+          "transactionDate": "2026-10-29",
+          "filingDate": "2026-10-30",
+          "code": "S",
+          "estimatedValue": 82618.6,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
+        {
+          "name": "Cole Martin I",
+          "share": 243,
+          "transactionPrice": 394.4098,
+          "transactionDate": "2026-10-29",
+          "filingDate": "2026-10-30",
+          "code": "S",
+          "estimatedValue": 95841.58,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
+        {
+          "name": "Cole Martin I",
+          "share": 494,
+          "transactionPrice": 393.2193,
+          "transactionDate": "2026-10-29",
+          "filingDate": "2026-10-30",
+          "code": "S",
+          "estimatedValue": 194250.33,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
+        {
+          "name": "Cole Martin I",
+          "share": 407,
+          "transactionPrice": 392.4181,
+          "transactionDate": "2026-10-29",
+          "filingDate": "2026-10-30",
+          "code": "S",
+          "estimatedValue": 159714.17,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
+        {
+          "name": "Cole Martin I",
+          "share": 385,
+          "transactionPrice": 391.0458,
+          "transactionDate": "2026-10-29",
+          "filingDate": "2026-10-30",
+          "code": "S",
+          "estimatedValue": 150552.63,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
+        {
+          "name": "Cole Martin I",
+          "share": 204,
+          "transactionPrice": 390.0406,
+          "transactionDate": "2026-10-29",
+          "filingDate": "2026-10-30",
+          "code": "S",
+          "estimatedValue": 79568.28,
+          "transactionKind": "실제 매도",
+          "title": "직책 데이터 없음",
+          "ownershipRatio": null,
+          "nearEarnings": "실적일 연결 데이터 확인 필요"
+        },
         {
           "name": "Tregillis Cynthia L",
           "share": 807,
@@ -4289,123 +4445,6 @@ const INSIDER_ANALYSIS_DATA = {
           "title": "직책 데이터 없음",
           "ownershipRatio": null,
           "nearEarnings": "실적일 연결 데이터 확인 필요"
-        },
-        {
-          "name": "Tregillis Cynthia L",
-          "share": 684,
-          "transactionPrice": 446.17,
-          "transactionDate": "2026-08-24",
-          "filingDate": "2026-08-24",
-          "code": "S",
-          "estimatedValue": 305180.28,
-          "transactionKind": "실제 매도",
-          "title": "직책 데이터 없음",
-          "ownershipRatio": null,
-          "nearEarnings": "실적일 연결 데이터 확인 필요"
-        },
-        {
-          "name": "Tregillis Cynthia L",
-          "share": 235,
-          "transactionPrice": 477.27,
-          "transactionDate": "2026-08-21",
-          "filingDate": "2026-08-24",
-          "code": "S",
-          "estimatedValue": 112158.45,
-          "transactionKind": "실제 매도",
-          "title": "직책 데이터 없음",
-          "ownershipRatio": null,
-          "nearEarnings": "실적일 연결 데이터 확인 필요"
-        },
-        {
-          "name": "Tan Irving",
-          "share": 1546,
-          "transactionPrice": 447.1831,
-          "transactionDate": "2026-08-11",
-          "filingDate": "2026-08-12",
-          "code": "S",
-          "estimatedValue": 691345.07,
-          "transactionKind": "실제 매도",
-          "title": "직책 데이터 없음",
-          "ownershipRatio": null,
-          "nearEarnings": "실적일 연결 데이터 확인 필요"
-        },
-        {
-          "name": "Tan Irving",
-          "share": 6445,
-          "transactionPrice": 446.3812,
-          "transactionDate": "2026-08-11",
-          "filingDate": "2026-08-12",
-          "code": "S",
-          "estimatedValue": 2876926.83,
-          "transactionKind": "실제 매도",
-          "title": "직책 데이터 없음",
-          "ownershipRatio": null,
-          "nearEarnings": "실적일 연결 데이터 확인 필요"
-        },
-        {
-          "name": "Tan Irving",
-          "share": 4822,
-          "transactionPrice": 445.4508,
-          "transactionDate": "2026-08-11",
-          "filingDate": "2026-08-12",
-          "code": "S",
-          "estimatedValue": 2147963.76,
-          "transactionKind": "실제 매도",
-          "title": "직책 데이터 없음",
-          "ownershipRatio": null,
-          "nearEarnings": "실적일 연결 데이터 확인 필요"
-        },
-        {
-          "name": "Tan Irving",
-          "share": 1880,
-          "transactionPrice": 444.6745,
-          "transactionDate": "2026-08-11",
-          "filingDate": "2026-08-12",
-          "code": "S",
-          "estimatedValue": 835988.06,
-          "transactionKind": "실제 매도",
-          "title": "직책 데이터 없음",
-          "ownershipRatio": null,
-          "nearEarnings": "실적일 연결 데이터 확인 필요"
-        },
-        {
-          "name": "Tan Irving",
-          "share": 1840,
-          "transactionPrice": 443.3465,
-          "transactionDate": "2026-08-11",
-          "filingDate": "2026-08-12",
-          "code": "S",
-          "estimatedValue": 815757.56,
-          "transactionKind": "실제 매도",
-          "title": "직책 데이터 없음",
-          "ownershipRatio": null,
-          "nearEarnings": "실적일 연결 데이터 확인 필요"
-        },
-        {
-          "name": "Tan Irving",
-          "share": 989,
-          "transactionPrice": 442.2155,
-          "transactionDate": "2026-08-11",
-          "filingDate": "2026-08-12",
-          "code": "S",
-          "estimatedValue": 437351.13,
-          "transactionKind": "실제 매도",
-          "title": "직책 데이터 없음",
-          "ownershipRatio": null,
-          "nearEarnings": "실적일 연결 데이터 확인 필요"
-        },
-        {
-          "name": "Tan Irving",
-          "share": 2478,
-          "transactionPrice": 441.4838,
-          "transactionDate": "2026-08-11",
-          "filingDate": "2026-08-12",
-          "code": "S",
-          "estimatedValue": 1093996.86,
-          "transactionKind": "실제 매도",
-          "title": "직책 데이터 없음",
-          "ownershipRatio": null,
-          "nearEarnings": "실적일 연결 데이터 확인 필요"
         }
       ],
       "interpretation": "내부자 매도만으로 기업 전망 악화라고 판단할 수는 없습니다. 다만 주가가 크게 상승했고 여러 임원의 매도가 반복된다면 차익실현 가능성을 보여주는 보조 리스크로 해석할 수 있습니다.",
@@ -4417,7 +4456,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -4699,7 +4738,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "주의",
       "saleCount": 8,
       "exerciseCount": 0,
@@ -4825,7 +4864,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "관찰",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -5106,7 +5145,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -5124,7 +5163,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -5156,7 +5195,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "주의",
       "saleCount": 6,
       "exerciseCount": 0,
@@ -5295,7 +5334,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "관찰",
       "saleCount": 2,
       "exerciseCount": 0,
@@ -5366,7 +5405,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -5384,7 +5423,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "관찰",
       "saleCount": 1,
       "exerciseCount": 0,
@@ -5416,7 +5455,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "관찰",
       "saleCount": 8,
       "exerciseCount": 0,
@@ -5541,7 +5580,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "관찰",
       "saleCount": 1,
       "exerciseCount": 0,
@@ -5573,7 +5612,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "관찰",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -5854,7 +5893,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -5872,7 +5911,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "관찰",
       "saleCount": 4,
       "exerciseCount": 0,
@@ -5945,7 +5984,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1793545312.6837957,
+      "updatedAt": 1793547336.92095,
       "level": "주의",
       "saleCount": 10,
       "exerciseCount": 0,

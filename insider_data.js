@@ -2392,6 +2392,102 @@ const INSIDER_DATA = {
   "WDC": {
     "transactions": [
       {
+        "name": "Cole Martin I",
+        "share": 43,
+        "transactionPrice": 401.4675,
+        "transactionDate": "2026-10-29",
+        "filingDate": "2026-10-30",
+        "code": "S"
+      },
+      {
+        "name": "Cole Martin I",
+        "share": 88,
+        "transactionPrice": 400.3294,
+        "transactionDate": "2026-10-29",
+        "filingDate": "2026-10-30",
+        "code": "S"
+      },
+      {
+        "name": "Cole Martin I",
+        "share": 303,
+        "transactionPrice": 399.3569,
+        "transactionDate": "2026-10-29",
+        "filingDate": "2026-10-30",
+        "code": "S"
+      },
+      {
+        "name": "Cole Martin I",
+        "share": 723,
+        "transactionPrice": 398.4499,
+        "transactionDate": "2026-10-29",
+        "filingDate": "2026-10-30",
+        "code": "S"
+      },
+      {
+        "name": "Cole Martin I",
+        "share": 584,
+        "transactionPrice": 397.4792,
+        "transactionDate": "2026-10-29",
+        "filingDate": "2026-10-30",
+        "code": "S"
+      },
+      {
+        "name": "Cole Martin I",
+        "share": 317,
+        "transactionPrice": 396.3138,
+        "transactionDate": "2026-10-29",
+        "filingDate": "2026-10-30",
+        "code": "S"
+      },
+      {
+        "name": "Cole Martin I",
+        "share": 209,
+        "transactionPrice": 395.3043,
+        "transactionDate": "2026-10-29",
+        "filingDate": "2026-10-30",
+        "code": "S"
+      },
+      {
+        "name": "Cole Martin I",
+        "share": 243,
+        "transactionPrice": 394.4098,
+        "transactionDate": "2026-10-29",
+        "filingDate": "2026-10-30",
+        "code": "S"
+      },
+      {
+        "name": "Cole Martin I",
+        "share": 494,
+        "transactionPrice": 393.2193,
+        "transactionDate": "2026-10-29",
+        "filingDate": "2026-10-30",
+        "code": "S"
+      },
+      {
+        "name": "Cole Martin I",
+        "share": 407,
+        "transactionPrice": 392.4181,
+        "transactionDate": "2026-10-29",
+        "filingDate": "2026-10-30",
+        "code": "S"
+      },
+      {
+        "name": "Cole Martin I",
+        "share": 385,
+        "transactionPrice": 391.0458,
+        "transactionDate": "2026-10-29",
+        "filingDate": "2026-10-30",
+        "code": "S"
+      },
+      {
+        "name": "Cole Martin I",
+        "share": 204,
+        "transactionPrice": 390.0406,
+        "transactionDate": "2026-10-29",
+        "filingDate": "2026-10-30",
+        "code": "S"
+      },
+      {
         "name": "Tregillis Cynthia L",
         "share": 807,
         "transactionPrice": 380,
@@ -2454,82 +2550,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-08-26",
         "filingDate": "2026-08-27",
         "code": "S"
-      },
-      {
-        "name": "Tregillis Cynthia L",
-        "share": 684,
-        "transactionPrice": 446.17,
-        "transactionDate": "2026-08-24",
-        "filingDate": "2026-08-24",
-        "code": "S"
-      },
-      {
-        "name": "Tregillis Cynthia L",
-        "share": 235,
-        "transactionPrice": 477.27,
-        "transactionDate": "2026-08-21",
-        "filingDate": "2026-08-24",
-        "code": "S"
-      },
-      {
-        "name": "Tan Irving",
-        "share": 1546,
-        "transactionPrice": 447.1831,
-        "transactionDate": "2026-08-11",
-        "filingDate": "2026-08-12",
-        "code": "S"
-      },
-      {
-        "name": "Tan Irving",
-        "share": 6445,
-        "transactionPrice": 446.3812,
-        "transactionDate": "2026-08-11",
-        "filingDate": "2026-08-12",
-        "code": "S"
-      },
-      {
-        "name": "Tan Irving",
-        "share": 4822,
-        "transactionPrice": 445.4508,
-        "transactionDate": "2026-08-11",
-        "filingDate": "2026-08-12",
-        "code": "S"
-      },
-      {
-        "name": "Tan Irving",
-        "share": 1880,
-        "transactionPrice": 444.6745,
-        "transactionDate": "2026-08-11",
-        "filingDate": "2026-08-12",
-        "code": "S"
-      },
-      {
-        "name": "Tan Irving",
-        "share": 1840,
-        "transactionPrice": 443.3465,
-        "transactionDate": "2026-08-11",
-        "filingDate": "2026-08-12",
-        "code": "S"
-      },
-      {
-        "name": "Tan Irving",
-        "share": 989,
-        "transactionPrice": 442.2155,
-        "transactionDate": "2026-08-11",
-        "filingDate": "2026-08-12",
-        "code": "S"
-      },
-      {
-        "name": "Tan Irving",
-        "share": 2478,
-        "transactionPrice": 441.4838,
-        "transactionDate": "2026-08-11",
-        "filingDate": "2026-08-12",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1793472340.787244,
-    "_updated_label": "2026-11-01"
+    "_fetched_at": 1793547329.4407763,
+    "_updated_label": "2026-11-02"
   },
   "ANET": {
     "transactions": [
@@ -2694,8 +2718,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793472340.787244,
-    "_updated_label": "2026-11-01"
+    "_fetched_at": 1793547329.4407763,
+    "_updated_label": "2026-11-02"
   },
   "COHR": {
     "transactions": [
@@ -2764,8 +2788,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793472340.787244,
-    "_updated_label": "2026-11-01"
+    "_fetched_at": 1793547329.4407763,
+    "_updated_label": "2026-11-02"
   },
   "LITE": {
     "transactions": [
