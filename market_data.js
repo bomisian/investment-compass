@@ -191,10 +191,10 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": -3.0827287766160616,
-        "ret3m": 7.634326825491766,
-        "ret6m": 6.575595386247168,
-        "ret1y": -4.568358495846969,
+        "ret1m": -4.024812888960405,
+        "ret3m": 6.772779142698782,
+        "ret6m": 4.278293911331543,
+        "ret1y": -8.57469693182782,
         "winRate": 60.8,
         "count": 9
       },
@@ -229,13 +229,22 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.3616370240658385,
-    "corrPctRank": 8.87029288702929,
-    "corrMin5y": 0.036257837878636255,
-    "corrMedian5y": 0.6949003534994069,
-    "corrMax5y": 0.9306761077384692
+    "corr60": 0.388560147683585,
+    "corrPctRank": 9.790794979079498,
+    "corrMin5y": 0.08673429153451856,
+    "corrMedian5y": 0.6922516271142322,
+    "corrMax5y": 0.9255841325571624
   },
   "news": [
+    {
+      "headline": "OPEC+ set to keep oil output targets steady, sources say - Reuters",
+      "summary": "OPEC+ set to keep oil output targets steady, sources say Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMVRNX1Y5b0xXX3dlMU1QX2lRbVkxbkJYSU9SUVdxUFlXQ2hGcjRpRlVIbklCeTlZa1d2VnNOQWFaaVN0NHJVcnJSRVhUSngyVmcxdzlsZVpwSm1wbmduTGpNbXkwWEhKbGZQdURzZ0c0UHl2S28zLUxjbDdSUkdzZTFnMmtubVlvbmFVMHlsX3BvOVpLa2NqcWozZTJUWlhnUWUxYXFn?oc=5",
+      "datetime": 1793526131,
+      "headlineKo": "OPEC+는 원유 생산량 목표를 안정적으로 유지할 것이라고 소식통은 전했습니다 - Reuters",
+      "summaryKo": "OPEC+는 석유 생산량 목표를 안정적으로 유지할 것이라고 소식통은 말했습니다."
+    },
     {
       "headline": "Germany must do more to boost gas reserves as storage levels hit record low, lobby group says - Reuters",
       "summary": "Germany must do more to boost gas reserves as storage levels hit record low, lobby group says Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1793442439,
       "headlineKo": "15피트 해골의 등장 - 입소문을 타는 참신함이 어떻게 할로윈의 필수품이 되었나요?",
       "summaryKo": "단 6년 만에 거대 해골은 터무니없는 입소문의 참신함에서 앞마당을 대상으로 확대되는 소매 군비 경쟁의 중심이 되었습니다."
-    },
-    {
-      "headline": "Jordan stops fighters attempting to enter from Syria, armed forces say - Reuters",
-      "summary": "Jordan stops fighters attempting to enter from Syria, armed forces say Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUnZYN3pDajdLZXp1ZVlXeF8xTDNIc04xR2tMRXFsUzZsZTh4ckszeDM0V3daV1haWE15THZRUU43QlhxUFZfLWp5Z05SQmVENzBEbGJEcHhRdDR2elJBM2ExRVN2NlNqRldidDJQdXBMLVBUc1BHY0JaZ25Yblpwd2hlRnF6ZEljb3p5d3VxVG9Ya0poeXJWZnEzUmZfclVwSTVROGdkZjJFdDIzczd3TzBja1UxUQ?oc=5",
-      "datetime": 1793435779,
-      "headlineKo": "요르단이 시리아에서 진입하려는 전투기를 저지했다고 군대가 밝혔습니다.",
-      "summaryKo": "요르단이 시리아에서 진입하려는 전투기를 저지했다고 군대가 밝혔습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793534446.990482,
+  "_news_last_success_at": 1793538065.2948961,
   "fgi": {
     "score": 26.2386554621849,
     "rating": "fear"
   },
-  "_fetched_at": 1793534439.5949445,
-  "_updated_label": "2026-11-01 21:01",
-  "_last_attempt_at": 1793534439.5949445,
-  "_last_success_at": 1793534439.5949445,
+  "_fetched_at": 1793538056.4249272,
+  "_updated_label": "2026-11-01 22:01",
+  "_last_attempt_at": 1793538056.4249272,
+  "_last_success_at": 1793538056.4249272,
   "_collection_status": "ok",
   "_collection_errors": []
 };
