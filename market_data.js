@@ -241,7 +241,9 @@ const MARKET_DATA = {
       "summary": "Germany must do more to boost gas reserves as storage levels hit record low, lobby group says Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTzBFS0hhWUtOcVhOMDVsX25TV3R4eENLbjdCMUpDRDByYTBHWjU3MmtycmM2blh4Y1Y3V2t6SUhIODJidldfcjNOdG0zVHRNdVFWdXZKWVhJeWdFWE9LaDA1MnJlbk1vaC1qLUpuZWU0WERCckY3Nk4tLUhHcnNFZ1pJdzJYRTFxWFl4cjRTNG53QmxkSDAxUUd2NjdnRUhOTDBhbUx5eUppU3Q4Vmh0aFExRlVRTUJzUGl1aWgySFZtRjlnb1E?oc=5",
-      "datetime": 1793509440
+      "datetime": 1793509440,
+      "headlineKo": "독일은 가스 저장량이 사상 최저치를 기록함에 따라 가스 매장량을 늘리기 위해 더 많은 조치를 취해야 한다고 로비 그룹이 밝혔습니다.",
+      "summaryKo": "독일은 저장 수준이 사상 최저치를 기록함에 따라 가스 매장량을 늘리기 위해 더 많은 조치를 취해야 한다고 로비 그룹이 말했습니다."
     },
     {
       "headline": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms - Reuters",
@@ -344,15 +346,15 @@ const MARKET_DATA = {
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793519545.614631,
+  "_news_last_success_at": 1793523376.3727064,
   "fgi": {
     "score": 26.2386554621849,
     "rating": "fear"
   },
-  "_fetched_at": 1793519535.3811586,
-  "_updated_label": "2026-11-01 16:52",
-  "_last_attempt_at": 1793519535.3811586,
-  "_last_success_at": 1793519535.3811586,
+  "_fetched_at": 1793523367.117723,
+  "_updated_label": "2026-11-01 17:56",
+  "_last_attempt_at": 1793523367.117723,
+  "_last_success_at": 1793523367.117723,
   "_collection_status": "ok",
   "_collection_errors": []
 };
