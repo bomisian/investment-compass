@@ -237,22 +237,31 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Iranian negotiators in Doha to continue talks to end the US-Iran war, official says - Reuters",
-      "summary": "Iranian negotiators in Doha to continue talks to end the US-Iran war, official says Reuters",
+      "headline": "Iran, Qatari mediators hold third day of talks to end US-Iran war - Reuters",
+      "summary": "Iran, Qatari mediators hold third day of talks to end US-Iran war Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdXU0aVh0RXlJYm1BOUtMU2FncFZnaDY5dVo4LXR0OFhsUzl1V2s0ZHpoeU5VX2d4cjg0RWRXRkRLLVhRRFJ6QlVKd3dEQ3ZtNVF0c0laVUtZZU1DTFB2bVVpN01abDA1RDRBWXJLRzFSVzZpQmFaWFBVaVdhNG9GdEVranBrT2M5NzlmWFVKSXo5QjJla0JLZ2x3SG9pOE9mb0xOaUNaZmxxbzQ4RlVVY04tZnRxZWNLNVBoby1WMXQ?oc=5",
-      "datetime": 1793537871,
-      "headlineKo": "도하에서 이란 협상단이 미국-이란 전쟁을 끝내기 위한 회담을 계속할 것이라고 관계자가 밝혔습니다 - 로이터 통신",
-      "summaryKo": "도하에서 이란 협상단이 미국-이란 전쟁을 끝내기 위한 회담을 계속할 것이라고 관계자가 로이터 통신에 밝혔습니다."
+      "datetime": 1793541478,
+      "headlineKo": "이란-카타르 중재자, 미국-이란 전쟁 종식을 위한 사흘째 회담 개최 - 로이터",
+      "summaryKo": "이란, 카타르 중재자, 미국-이란 전쟁 종식을 위한 사흘째 회담 개최 - 최신"
     },
     {
-      "headline": "OPEC+ set to keep oil output targets steady, sources say - Reuters",
-      "summary": "OPEC+ set to keep oil output targets steady, sources say Reuters",
+      "headline": "OPEC+ keeps December oil output targets steady ahead of tougher call for 2027 - Reuters",
+      "summary": "OPEC+ keeps December oil output targets steady ahead of tougher call for 2027 Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMVRNX1Y5b0xXX3dlMU1QX2lRbVkxbkJYSU9SUVdxUFlXQ2hGcjRpRlVIbklCeTlZa1d2VnNOQWFaaVN0NHJVcnJSRVhUSngyVmcxdzlsZVpwSm1wbmduTGpNbXkwWEhKbGZQdURzZ0c0UHl2S28zLUxjbDdSUkdzZTFnMmtubVlvbmFVMHlsX3BvOVpLa2NqcWozZTJUWlhnUWUxYXFn?oc=5",
-      "datetime": 1793526131,
-      "headlineKo": "OPEC+는 원유 생산량 목표를 안정적으로 유지할 것이라고 소식통은 전했습니다 - Reuters",
-      "summaryKo": "OPEC+는 석유 생산량 목표를 안정적으로 유지할 것이라고 소식통은 말했습니다."
+      "datetime": 1793540165,
+      "headlineKo": "OPEC+는 2027년에 대한 더 엄격한 요구에 앞서 12월 석유 생산량 목표를 안정적으로 유지합니다 - Reuters",
+      "summaryKo": "OPEC+는 2027년에 대한 더욱 엄격한 요구에 앞서 12월 석유 생산량 목표를 안정적으로 유지합니다 Reuters"
+    },
+    {
+      "headline": "Pope Leo says he hopes Oleshky truce could spur Ukraine-Russia peace efforts - Reuters",
+      "summary": "Pope Leo says he hopes Oleshky truce could spur Ukraine-Russia peace efforts Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQ0k4N2Y3MWpLcnU5ZW1nZGNJLVN3Ukl3aEpvLVU1c25LTWY5YkctRlE0czJHbFNoZ1lKS3RkWU51TWxpVEpveWN6ZUpjNVJEanpFeVNuTVVIazRpN1QxQU9jUnZ2MU5hUU5JdWpaVS13RzBydERpSnBYMU9RV3RJeVZZS3R0U3NGTlEzeGFsR2hxVU5PMXdBTzdGSlJ1MHpKYV93YUhtbW1yZGkyUGNndWdDLUQzQ21yMUxmS2QxVVRoRjQ?oc=5",
+      "datetime": 1793535622,
+      "headlineKo": "교황 레오 “올레쉬키 휴전이 우크라이나-러시아 평화 노력에 박차를 가할 수 있기를 바란다” - 로이터 통신",
+      "summaryKo": "교황 레오, 올레쉬키 휴전이 우크라이나-러시아 평화 노력에 박차를 가할 수 있기를 바란다 -로이터"
     },
     {
       "headline": "Germany must do more to boost gas reserves as storage levels hit record low, lobby group says - Reuters",
@@ -262,6 +271,15 @@ const MARKET_DATA = {
       "datetime": 1793509440,
       "headlineKo": "독일은 가스 저장량이 사상 최저치를 기록함에 따라 가스 매장량을 늘리기 위해 더 많은 조치를 취해야 한다고 로비 그룹이 밝혔습니다.",
       "summaryKo": "독일은 저장 수준이 사상 최저치를 기록함에 따라 가스 매장량을 늘리기 위해 더 많은 조치를 취해야 한다고 로비 그룹이 말했습니다."
+    },
+    {
+      "headline": "MotoGP keeps Qatar GP on track after meeting with teams but Yamaha withdraw - Reuters",
+      "summary": "MotoGP keeps Qatar GP on track after meeting with teams but Yamaha withdraw Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOR05GTVc3cEktM2pja2NRVmgxRDJDd0pfeU9kblJqQmxMMUlWTFBoMFhqUzdfOGpzb1g1S3RfeTNDN0YzaTl5alJZcFBLWDJuT2Q1akVLYThycmFxVmdJdy1kYUhzMC1WcjJTeGJoblJVS21Sa05nSGJ2aXB3SGZXMUJ4ODYxQnNNUXAwNVdVQVdyTlpMWS1uSzNVU05OeGJxLTZGdDB1OA?oc=5",
+      "datetime": 1793506440,
+      "headlineKo": "MotoGP는 팀과의 회의 후 카타르 GP를 정상 궤도에 유지했지만 Yamaha는 철수했습니다 - Reuters",
+      "summaryKo": "MotoGP는 팀과의 만남 후 카타르 GP를 정상 궤도에 유지했지만 Yamaha는 철수했습니다."
     },
     {
       "headline": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms - Reuters",
@@ -300,6 +318,15 @@ const MARKET_DATA = {
       "summaryKo": "Borsa Istanbul의 총책임자는 자금 조사로 구금되었다고 Anadolu Agency는 말했습니다."
     },
     {
+      "headline": "FSB says US warned Russia of possible Moscow attack - Reuters",
+      "summary": "FSB says US warned Russia of possible Moscow attack Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNN01mVmZKa0N0UWNiYkxZaDY4a0J5ekhBX2NKVi1xUDh5cmpEeHhzX3U3VE9GU21KUjlvQ0FuWGVlalZMVjJTY1FnVlJxR0YxNHpLMl9YTG5hNW9yQUVzbzB2RkFHV3JRTTVUVVdwRUkyeE9KRVBVdTQ5R3NYM1p6dF9lZFU0TkNCTVJWb2UyZ2h3eXAx?oc=5",
+      "datetime": 1793464628,
+      "headlineKo": "FSB는 미국이 러시아에 모스크바 공격 가능성을 경고했다고 밝혔습니다.",
+      "summaryKo": "FSB는 미국이 러시아에 모스크바 공격 가능성을 경고했다고 밝혔습니다."
+    },
+    {
       "headline": "Binance, crypto and hacks: What to know about keeping coin safe as cyber criminals advance",
       "summary": "The Binance hack of $6.3 billion, the largest crypto theft ever, is a wake-up call for investors to understand how coin is guarded and the risk of losing it.",
       "source": "CNBC",
@@ -316,45 +343,18 @@ const MARKET_DATA = {
       "datetime": 1793452021,
       "headlineKo": "Weil의 뒤를 이어 회사 청산에서 살아남기 위한 법률 채용 담당자의 조언",
       "summaryKo": "법률 채용 담당자인 Danielle Thompson은 Weil, Gotshal & Manges의 직원과 회사 폐쇄 또는 해산에 직면한 다른 사람들을 위해 최선의 조언을 공유합니다."
-    },
-    {
-      "headline": "35-year-old took on $20K in debt to launch a business from her dining room—now it brings in 8 figures a year",
-      "summary": "Set Active founder Lindsey Carter shares how she learned to separate her professional stress from her personal life while growing her athleisure company.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/make-it/2026/10/31/set-active-lindsey-carter-entrepreneurship.html",
-      "datetime": 1793451901,
-      "headlineKo": "35세 여성은 식당에서 사업을 시작하기 위해 2만 달러의 빚을 졌습니다. 이제 연간 수입은 8자리가 됩니다.",
-      "summaryKo": "Set Active 창립자인 Lindsey Carter가 애슬레저 회사를 성장시키면서 업무적인 스트레스와 개인적인 삶을 분리하는 방법을 어떻게 배웠는지 공유합니다."
-    },
-    {
-      "headline": "Berkshire ekes out some new highs, but October rally stalls",
-      "summary": "Berkshire Hathaway shares managed to set a few more all-time highs in an otherwise lackluster week of trading.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/31/berkshire-ekes-out-some-new-highs-but-october-rally-stalls.html",
-      "datetime": 1793449560,
-      "headlineKo": "버크셔는 새로운 최고치를 경신했지만 10월 랠리는 정체됐다",
-      "summaryKo": "버크셔 해서웨이 주식은 부진한 거래 주간에 사상 최고치를 몇 차례 더 경신했습니다."
-    },
-    {
-      "headline": "Iranian official says US attacked fishing boats off Qeshm Island, state media reports - Reuters",
-      "summary": "Iranian official says US attacked fishing boats off Qeshm Island, state media reports Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONll1eGZDNWJMVXFsdzlXTEs4WnlXRGJONjZ4eUQ1eGlaWGs5bVB0SnR6cUlhd1U0ZHl1bUxpM0ItUUl3cEdxdEhjTHBfZHZIc3ZQY2xMM2g1eGNkbVNfanFmVFY4R0JUeFVtb0pyb3JzSllCTG05S19HdkVzVXFTVlRaaDZidS01UVJ5SVpvUC00SlNpNUxOZXIyTnFaMGVNMmJoOWpCZ1RKRWxqam9UbG9Yb1pYWERLTkR0OG0xOE9Vc0c1U0lvbGNQZzI?oc=5",
-      "datetime": 1793448746,
-      "headlineKo": "이란 관리는 미국이 케심 섬 앞바다에서 어선을 공격했다고 국영 언론이 보도했습니다. - 로이터 통신",
-      "summaryKo": "이란 관리는 미국이 케심 섬 앞바다에서 어선을 공격했다고 국영 언론이 보도했습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793541427.199671,
+  "_news_last_success_at": 1793545406.8185096,
   "fgi": {
     "score": 26.2386554621849,
     "rating": "fear"
   },
-  "_fetched_at": 1793541419.1021745,
-  "_updated_label": "2026-11-01 22:57",
-  "_last_attempt_at": 1793541419.1021745,
-  "_last_success_at": 1793541419.1021745,
+  "_fetched_at": 1793545393.770666,
+  "_updated_label": "2026-11-02 00:03",
+  "_last_attempt_at": 1793545393.770666,
+  "_last_success_at": 1793545393.770666,
   "_collection_status": "ok",
   "_collection_errors": []
 };
