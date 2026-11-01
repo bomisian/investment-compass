@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran's IRGC Navy says two tankers 'exploded' after hitting mines in Hormuz - Reuters",
+      "summary": "Iran's IRGC Navy says two tankers 'exploded' after hitting mines in Hormuz Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZmk2dmxjdk1sOW96UkZiaUlJVXhzc1pJMjZJUnY2WGtvaXd4aXRJY3d4UTNoUmFJdUVQQjlkb0JPSmxEc2YzS1JOZ2NSWmpTUnhzYzBiU1hfeXBvb2F2WEp2NHc5YkFfUUNKSHc2NW1PMUVKT0xqUTdOa0tfUmZpQWE2SDFtdzJ5TmZleWpLd0Zid1JWR2Z0d0dOeVMwekFzNTNTYndHMmMyV0poZ2h0UmFOVWc2M3o3Z2h6TUR2SQ?oc=5",
+      "datetime": 1793563953,
+      "headlineKo": "이란 IRGC 해군, 유조선 2척이 호르무즈 기뢰 공격 후 '폭발'했다고 밝혔습니다.",
+      "summaryKo": "이란 IRGC 해군 \"호르무즈 기뢰 공격 후 유조선 2척 폭발\" - 중앙일보"
+    },
+    {
       "headline": "Here are 3 big things we're watching in the stock market in the week ahead",
       "summary": "The market could use a few victories in the days ahead, which will be filled with more earnings, an election, and jobs data.",
       "source": "CNBC",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1793509440,
       "headlineKo": "독일은 가스 저장량이 사상 최저치를 기록함에 따라 가스 매장량을 늘리기 위해 더 많은 조치를 취해야 한다고 로비 그룹이 밝혔습니다.",
       "summaryKo": "독일은 저장 수준이 사상 최저치를 기록함에 따라 가스 매장량을 늘리기 위해 더 많은 조치를 취해야 한다고 로비 그룹이 말했습니다."
-    },
-    {
-      "headline": "MotoGP keeps Qatar GP on track after meeting with teams but Yamaha withdraw - Reuters",
-      "summary": "MotoGP keeps Qatar GP on track after meeting with teams but Yamaha withdraw Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOR05GTVc3cEktM2pja2NRVmgxRDJDd0pfeU9kblJqQmxMMUlWTFBoMFhqUzdfOGpzb1g1S3RfeTNDN0YzaTl5alJZcFBLWDJuT2Q1akVLYThycmFxVmdJdy1kYUhzMC1WcjJTeGJoblJVS21Sa05nSGJ2aXB3SGZXMUJ4ODYxQnNNUXAwNVdVQVdyTlpMWS1uSzNVU05OeGJxLTZGdDB1OA?oc=5",
-      "datetime": 1793506440,
-      "headlineKo": "MotoGP는 팀과의 회의 후 카타르 GP를 정상 궤도에 유지했지만 Yamaha는 철수했습니다 - Reuters",
-      "summaryKo": "MotoGP는 팀과의 만남 후 카타르 GP를 정상 궤도에 유지했지만 Yamaha는 철수했습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793566826.1477985,
+  "_news_last_success_at": 1793570429.0311406,
   "fgi": {
     "score": 26.2386554621849,
     "rating": "fear"
   },
-  "_fetched_at": 1793566818.894736,
-  "_updated_label": "2026-11-02 06:00",
-  "_last_attempt_at": 1793566818.894736,
-  "_last_success_at": 1793566818.894736,
+  "_fetched_at": 1793570420.8122618,
+  "_updated_label": "2026-11-02 07:00",
+  "_last_attempt_at": 1793570420.8122618,
+  "_last_success_at": 1793570420.8122618,
   "_collection_status": "ok",
   "_collection_errors": []
 };
