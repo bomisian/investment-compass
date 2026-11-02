@@ -1,12 +1,12 @@
 // ops_status_report.py가 자동 생성합니다. 직접 수정하지 마세요.
 const OPS_STATUS_DATA = {
-  "generatedAt": "2026-11-02T07:35:42+09:00",
+  "generatedAt": "2026-11-03T07:35:44+09:00",
   "items": [
     {
       "key": "last_success",
       "status": "green",
       "label": "마지막 정상 완료",
-      "detail": "2026-11-02 07:07"
+      "detail": "2026-11-03 07:17"
     },
     {
       "key": "public_verify",
@@ -18,7 +18,7 @@ const OPS_STATUS_DATA = {
       "key": "loop_progress",
       "status": "green",
       "label": "루프 진행",
-      "detail": "대기 중(다음 주기, 28분 전부터)"
+      "detail": "대기 중(다음 주기, 18분 전부터)"
     },
     {
       "key": "loop_count",
@@ -34,21 +34,21 @@ const OPS_STATUS_DATA = {
     },
     {
       "key": "compass_asof",
-      "status": "red",
+      "status": "green",
       "label": "나침반 피드 기준일",
-      "detail": "2026-10-30 (3일 전, 기준 2거래일)"
+      "detail": "2026-11-02 (최신 거래일 기준, 놓친 거래일 0개)"
     },
     {
       "key": "market_expectation_asof",
       "status": "green",
       "label": "시장 기대 기준일",
-      "detail": "2026-11-02"
+      "detail": "2026-11-03 07:16 생성 → 거래일 2026-11-02 (최신 거래일 기준, 놓친 거래일 0개)"
     },
     {
       "key": "eps",
       "status": "red",
       "label": "EPS 수집",
-      "detail": "COHR 18일째(기준 14일)"
+      "detail": "COHR 19일째(기준 14일)"
     },
     {
       "key": "data_audit",
@@ -90,7 +90,7 @@ const OPS_STATUS_DATA = {
       "key": "evidence_review_backlog",
       "status": "yellow",
       "label": "근거 승인 대기",
-      "detail": "WDC(10일), FIX(11일), BE(11일), HUBB(6일), STX(6일), GEV(5일), HUBB(5일), VRT(5일), MSFT(5일), GOOGL(5일), KLAC(5일), VRT(5일), GOOGL(4일), PWR(4일), EME(4일), AMZN(4일), INTC(4일), KLAC(4일), SNDK(4일), STX(4일), AMZN(3일), INTC(3일), SNDK(3일) — approve_evidence.py 실행 필요"
+      "detail": "WDC(11일), FIX(12일), BE(12일), HUBB(7일), STX(7일), GEV(6일), HUBB(6일), VRT(6일), MSFT(6일), GOOGL(6일), KLAC(6일), VRT(6일), GOOGL(5일), PWR(5일), EME(5일), AMZN(5일), INTC(5일), KLAC(5일), SNDK(5일), STX(5일), AMZN(4일), INTC(4일), SNDK(4일), MRVL(1일), LITE(1일) — approve_evidence.py 실행 필요"
     },
     {
       "key": "target_consensus_freshness",
@@ -108,31 +108,31 @@ const OPS_STATUS_DATA = {
       "key": "ttm_eps_rule",
       "status": "yellow",
       "label": "TTM EPS 공통 규칙(분기 합/Finnhub)",
-      "detail": "분기 합 33종목 · 기존 값·없음 6종목 · 적정가 변화 14종목 · 판정 변경(승인 기록) CEG / 자동 복귀(검증 미완): ASML"
+      "detail": "분기 합 35종목 · 기존 값·없음 4종목 · 적정가 변화 14종목 · 판정 변경(승인 기록) CEG / 자동 복귀(검증 미완): VRT"
     },
     {
       "key": "earnings_reflection",
       "status": "yellow",
       "label": "실적 반영 상태(가격지도)",
-      "detail": "가격지도 반영 대기 1종목: SNDK(10/29 발표, 최신 2026-09-30 / 반영 2026-07-03)"
+      "detail": "가격지도 반영 대기 1종목: MRVL(11/02 발표, 최신 2026-09-30 / 반영 2026-08-01) / EPS 컨센서스가 발표 전 추정치 2종목: MRVL, LITE"
     },
     {
       "key": "wacc_roic",
       "status": "green",
       "label": "자본 효율(ROIC·WACC) 계산",
-      "detail": "계산 34/39종목 · 계산 불가 0종목 · 10년물 4.98%(2026-10-29, fresh) · 생성 2026-10-31T05:47"
+      "detail": "계산 34/39종목 · 계산 불가 0종목 · 10년물 4.94%(2026-10-30, fresh) · 생성 2026-11-03T06:45"
     },
     {
       "key": "price_map_daily_run",
       "status": "green",
       "label": "가격 지도 일일 실행",
-      "detail": "마지막 성공 세션 2026-10-30(기대 2026-10-30, 실행 2026-10-31 05:47:09)"
+      "detail": "마지막 성공 세션 2026-11-02(기대 2026-11-02, 실행 2026-11-03 06:45:27)"
     },
     {
       "key": "external_peer_cache_freshness",
       "status": "green",
       "label": "외부보충 비교군 캐시 신선도",
-      "detail": "2026-11-02 07:06 KST 정상 갱신(실패 0개)"
+      "detail": "2026-11-03 07:16 KST 정상 갱신(실패 0개)"
     }
   ]
 };
