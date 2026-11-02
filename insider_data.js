@@ -2552,7 +2552,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793547329.4407763,
+    "_fetched_at": 1793620869.0564315,
     "_updated_label": "2026-11-02"
   },
   "ANET": {
@@ -2718,7 +2718,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793547329.4407763,
+    "_fetched_at": 1793620869.0564315,
     "_updated_label": "2026-11-02"
   },
   "COHR": {
@@ -2788,7 +2788,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793547329.4407763,
+    "_fetched_at": 1793620869.0564315,
     "_updated_label": "2026-11-02"
   },
   "LITE": {

@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793619224.655276,
+  "generatedAt": 1793620868.814956,
   "events": [
     {
       "id": "1885180449cefe2e3686",
@@ -1866,6 +1866,70 @@ const EVENT_DATA = {
         "적용 PER 변화",
         "회사 공식 가이던스"
       ]
+    },
+    {
+      "id": "2ec8c4fe0fd9c22bfbb1",
+      "schemaVersion": 1,
+      "eventType": "dilution_warrant",
+      "eventLabel": "증권등록·투자설명서 제출",
+      "primaryTicker": "GOOGL",
+      "relatedTickers": [
+        "GOOGL"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "GOOGL SEC Form 424B5 filed",
+      "headlineKo": "GOOGL SEC Form 424B5 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526442515/d125079d424b5.htm",
+        "publishedAt": 1793545200.0,
+        "collectedAt": 1793620822.438623
+      },
+      "confirmedFacts": [
+        "GOOGL가 2026-11-02에 SEC Form 424B5을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "GOOGL",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "실제 발행 여부와 주식 수",
+        "발행가격·워런트·전환 조건",
+        "조달 자금 사용처와 완전희석 EPS"
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "47a48f0c8c4f3ffb67fb",
@@ -17698,79 +17762,6 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
-    },
-    {
-      "id": "e1a534c3ce2a065b5b31",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "INTC",
-      "relatedTickers": [
-        "AMZN",
-        "INTC",
-        "QQQ",
-        "SNDK",
-        "SPY"
-      ],
-      "relatedEntities": [],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Dow, S&P 500, Nasdaq Futures Fall As Weak Tech Earnings Trigger Selloff: INTC, IOVA, SLS, AMZN Stocks In Focus",
-      "headlineKo": "Dow, S&P 500, Nasdaq 선물은 약한 기술 수익이 매도를 촉발하면서 하락: INTC, IOVA, SLS, AMZN 주식에 집중",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f89f045a29e0ff0cad154ff77c0a6cbf05b21220ee222c9602ecb434f116efb7",
-        "publishedAt": 1793332985,
-        "collectedAt": 1793600187.440276
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Dow, S&P 500, Nasdaq 선물은 약한 기술 수익이 매도를 촉발하면서 하락합니다: INTC, IOVA, SLS, AMZN 주식에 초점 AI 에이전트 동향 뉴스 수익 모든 DIA 0.04% SPY 0.97% QQQ 2.26% 추세 BTC 3.21% INTC 25.54% SNDK 7.79% AMZN 7.31% 8월 22일 RDDT",
-        "Dow, S&P 500, Nasdaq 선물은 약한 기술 실적이 매도를 촉발하면서 하락: INTC, IOVA, SLS, AMZN 주요 주식 시장은 10월 혼합 마감을 향하고 있으며 Nasdaq은 하락세로 마감할 가능성이 높으며 Dow 및 S&P 500은 마감을 향하고 있습니다.",
-        "2026년 3월 24일 뉴욕 증권거래소(NYSE) 개장 벨에서 거래자가 일하고 있다."
-      ],
-      "marketInterpretation": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 7%, 23%, 1.38% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "INTC에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 7%, 23%, 1.38% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "INTC",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "공식 매출·EPS 가이던스",
-        "컨센서스 추정치 변경",
-        "마진·FCF 전망"
-      ]
     }
   ],
   "byTicker": {
@@ -17955,13 +17946,13 @@ const EVENT_DATA = {
       "201321795d2b79494035",
       "5c5ebacde7fe36a1031f",
       "9593e7da3d0d28ebe5cd",
-      "ae25a5f4e8d88480b225",
-      "e1a534c3ce2a065b5b31"
+      "ae25a5f4e8d88480b225"
     ],
     "GOOGL": [
       "4ff29e520199f7581e30",
       "90e4cb22c6231543adc1",
       "a294cd2d1673ba48400f",
+      "2ec8c4fe0fd9c22bfbb1",
       "95a7d701f98fd93e608e",
       "ed252772e77c262f1a23",
       "689ffbde0734ee85ad38",
@@ -18023,8 +18014,7 @@ const EVENT_DATA = {
       "201321795d2b79494035",
       "c6065afd266a8fb9aa86",
       "5c5ebacde7fe36a1031f",
-      "ae25a5f4e8d88480b225",
-      "e1a534c3ce2a065b5b31"
+      "ae25a5f4e8d88480b225"
     ],
     "PLTR": [
       "4ff29e520199f7581e30",
@@ -18093,8 +18083,7 @@ const EVENT_DATA = {
       "9ed0edfbe42b9d861d20",
       "201321795d2b79494035",
       "5c5ebacde7fe36a1031f",
-      "ae25a5f4e8d88480b225",
-      "e1a534c3ce2a065b5b31"
+      "ae25a5f4e8d88480b225"
     ],
     "SPY": [
       "4ff29e520199f7581e30",
@@ -18184,8 +18173,7 @@ const EVENT_DATA = {
       "9d3ed1f8416201f6c599",
       "5c5ebacde7fe36a1031f",
       "cda726d7987cbec9c952",
-      "ae25a5f4e8d88480b225",
-      "e1a534c3ce2a065b5b31"
+      "ae25a5f4e8d88480b225"
     ],
     "AAPL": [
       "589ccdd2480bbc693fd6",
@@ -18228,8 +18216,7 @@ const EVENT_DATA = {
       "9ed0edfbe42b9d861d20",
       "201321795d2b79494035",
       "5c5ebacde7fe36a1031f",
-      "ae25a5f4e8d88480b225",
-      "e1a534c3ce2a065b5b31"
+      "ae25a5f4e8d88480b225"
     ],
     "META": [
       "ccec5def946c55f8bf32",
