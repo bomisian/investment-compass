@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793646020.632423,
+  "generatedAt": 1793647849.65992,
   "events": [
     {
       "id": "6287b5c37cdc06a9fd91",
@@ -2833,6 +2833,73 @@ const EVENT_DATA = {
       ]
     },
     {
+      "id": "70dbe698752d7cbfcffa",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "실적 발표",
+      "primaryTicker": "CEG",
+      "relatedTickers": [
+        "CEG"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "neutral",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Constellation Energy Corporation (CEG) Earnings Expected to Grow: Should You Buy?",
+      "headlineKo": "Constellation Energy Corporation (CEG) 수익 증가 예상: 매수해야 할까요?",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d6400ea763c1b8385d08d64a551cfb29f5026921024d838f8c080c5d3ec55e53",
+        "publishedAt": 1793628005,
+        "collectedAt": 1793647815.7633467
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Constellation Energy Corporation (CEG) Earnings Expected to Grow: Should You Buy?",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "CEG에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "CEG",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "매출·영업이익 성장",
+        "정상화이익과 특이항목",
+        "가이던스·OCF·FCF"
+      ]
+    },
+    {
       "id": "cfce5182cf44d181e133",
       "schemaVersion": 1,
       "eventType": "regulatory_legal_export",
@@ -3193,6 +3260,75 @@ const EVENT_DATA = {
       "impacts": [
         {
           "ticker": "ARM",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "목표주가 산식의 EPS",
+        "적용 PER 변화",
+        "회사 공식 가이던스"
+      ]
+    },
+    {
+      "id": "80bd73fd0c6bbe171e34",
+      "schemaVersion": 1,
+      "eventType": "analyst_target_change",
+      "eventLabel": "애널리스트 목표주가 변경",
+      "primaryTicker": "VST",
+      "relatedTickers": [
+        "VST"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Vistra Added 5,500 MW of Gas Plants, Most of Them Outside Texas. Here’s What That Means for Its November 6 Report",
+      "headlineKo": "Vistra는 5,500MW의 가스 플랜트를 추가했으며 대부분은 텍사스 외부에 있습니다. 11월 6일 보고서의 의미는 다음과 같습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=994dd6f153095df4004847ca19cedc376791dd6156ba63af9f225612ca4cf2ad",
+        "publishedAt": 1793625802,
+        "collectedAt": 1793647815.7633467
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Vistra는 5,500MW의 가스 플랜트를 추가했으며 대부분은 텍사스 외부에 있습니다.",
+        "11월 6일 보고서의 의미는 다음과 같습니다 | TIKR.com 주식 리뷰 Vistra는 5,500MW의 가스 플랜트를 추가했으며 대부분은 텍사스 외부에 있습니다.",
+        "11월 6일 보고서의 의미는 다음과 같습니다. Wiltone Asuncion • 5분 읽기 검토자: David Hanson 마지막 업데이트 2026년 11월 2일 Getty Images의 @KE ZHUANG Canva를 통한 서명, Canva를 통한 @Ali Raza Vistra Stock Current P에 대한 주요 통계"
+      ],
+      "marketInterpretation": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: $138.37, $155, $205 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "VST의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "VST에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: $138.37, $155, $205 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "VST의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "VST",
           "direction": "확인 필요",
           "reason": "회사 실적과의 연결고리 확인",
           "basis": "analysis"
@@ -8070,7 +8206,7 @@ const EVENT_DATA = {
               "variancePct": 0.42,
               "actualEndDate": "2026-03-28",
               "source": "SEC Company Facts",
-              "settledAt": 1793646020.122525,
+              "settledAt": 1793647849.1407082,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -17712,126 +17848,6 @@ const EVENT_DATA = {
         "조달 자금 사용처",
         "완전희석 주식수와 EPS"
       ]
-    },
-    {
-      "id": "be0db1d4d2f27081e62c",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "COHR",
-      "relatedTickers": [
-        "COHR",
-        "LITE",
-        "MRVL"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Marvell",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "중기·장기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Applied Optoelectronics Plunges 15%, Coherent Tumbles 13% as Hyperscaler Spending Fears Hit AI Optics Stocks; Lumentum and Marvell Sink 10%",
-      "headlineKo": "하이퍼스케일러 지출이 AI 광학 주식에 타격을 줄 것이라는 우려로 Applied Optoelectronics는 15% 급락하고 Coherent는 13% 급락했습니다. 루멘텀 및 마벨 싱크 10%",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=853742c8081dcdf82ae36430fe967e33824508ee0106fc80121a2a26d47f5869",
-        "publishedAt": 1793379446,
-        "collectedAt": 1793645344.6260734
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "하이퍼스케일러 지출이 AI 광학 주식에 타격을 줄 것이라는 우려로 Applied Optoelectronics는 15% 급락하고 Coherent는 13% 급락했습니다. 루멘텀 및 마벨 싱크 10%"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "COHR",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
-    },
-    {
-      "id": "cc432c0d40632771af33",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "PLTR",
-      "relatedTickers": [
-        "PLTR"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Should Palantir Stock Be in Your Portfolio Before Q3 Earnings?",
-      "headlineKo": "Palantir 주식이 3분기 수익 이전에 귀하의 포트폴리오에 포함되어야 합니까?",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4bb83e5d1954c2134454b2ed9fb28fae677cd8e0d744ad545463fc425caef0d2",
-        "publishedAt": 1793379180,
-        "collectedAt": 1793645344.6260734
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Palantir 주식이 3분기 수익 이전에 귀하의 포트폴리오에 포함되어야 합니까?"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "PLTR",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
     }
   ],
   "byTicker": {
@@ -18285,8 +18301,7 @@ const EVENT_DATA = {
       "1117af9c65c09638097b",
       "b7ae7e1361c8219d8f90",
       "02fc7de55ceafce76b48",
-      "ba41b6cca3e49ff2a936",
-      "be0db1d4d2f27081e62c"
+      "ba41b6cca3e49ff2a936"
     ],
     "MRVL": [
       "5f4341f3c6e4b3457db4",
@@ -18302,8 +18317,7 @@ const EVENT_DATA = {
       "b7ae7e1361c8219d8f90",
       "862c90e122ef087d7ede",
       "84f4c8d7a5df256d62e5",
-      "ba41b6cca3e49ff2a936",
-      "be0db1d4d2f27081e62c"
+      "ba41b6cca3e49ff2a936"
     ],
     "CRM": [
       "929a472032603a6565ec",
@@ -18326,8 +18340,7 @@ const EVENT_DATA = {
       "404916b40cde7e26d757",
       "431acb114193608d4c95",
       "a5e21b7c02d145ccfe26",
-      "e1b0dc5160390e082804",
-      "cc432c0d40632771af33"
+      "e1b0dc5160390e082804"
     ],
     "VRT": [
       "d0f938d06ef177da8841",
@@ -18345,8 +18358,7 @@ const EVENT_DATA = {
       "b7ae7e1361c8219d8f90",
       "30206262fa16a687dbee",
       "8672c424842201468767",
-      "ba41b6cca3e49ff2a936",
-      "be0db1d4d2f27081e62c"
+      "ba41b6cca3e49ff2a936"
     ],
     "QCOM": [
       "461d85aabc259d1a5f6a",
@@ -18378,6 +18390,9 @@ const EVENT_DATA = {
       "991337b25ca4056de65b",
       "a8134328fd692556ef21"
     ],
+    "CEG": [
+      "70dbe698752d7cbfcffa"
+    ],
     "AVGO": [
       "a2fa0fdf1e102099d00f",
       "b7ae7e1361c8219d8f90",
@@ -18385,6 +18400,9 @@ const EVENT_DATA = {
       "68ab5fbbc084950462d5",
       "6069da803337a7f4aa85",
       "d70dbed3ba8a2de28e9a"
+    ],
+    "VST": [
+      "80bd73fd0c6bbe171e34"
     ],
     "ASML": [
       "77fa4066bb66065db7a4"
