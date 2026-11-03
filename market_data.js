@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 96.66000366210938,
+      "current": 96.81999969482422,
       "prevClose": 96.45999908447266,
-      "changeAbs": 0.20000457763671875,
-      "changePct": 0.2073445775813965,
-      "pctRank": 88.95071542130366,
+      "changeAbs": 0.3600006103515625,
+      "changePct": 0.37321233025961376,
+      "pctRank": 89.0302066772655,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -14.422305202537967,
-      "ma20": 98.14950027465821,
-      "ma60": 93.29733403523763,
-      "chg1m": 7.230003356933594,
-      "chg3m": 21.44000244140625,
-      "chg1mPct": 8.084539116919979,
-      "chg3mPct": 28.503060480548392,
+      "drawdown1y": -14.280653111313779,
+      "ma20": 98.15750007629394,
+      "ma60": 93.30000063578288,
+      "chg1m": 7.3899993896484375,
+      "chg3m": 21.599998474121094,
+      "chg1mPct": 8.26344556013687,
+      "chg3mPct": 28.71576458865575,
       "lastDate": "2026-11-03",
       "bars": 1258,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 101.83599853515625,
+      "current": 101.78500366210938,
       "prevClose": 101.75,
-      "changeAbs": 0.08599853515625,
-      "changePct": 0.08451944487100738,
-      "pctRank": 45.389507154213035,
+      "changeAbs": 0.035003662109375,
+      "changePct": 0.03440163352272727,
+      "pctRank": 44.83306836248013,
       "min5y": 93.86000061035156,
       "max5y": 114.11000061035156,
       "high1y": 102.58000183105469,
-      "drawdown1y": -0.7252907804815467,
-      "ma20": 102.03129997253419,
-      "ma60": 100.6799331665039,
-      "chg1m": -0.3339996337890625,
-      "chg3m": 2.14599609375,
-      "chg1mPct": -0.3269057842565197,
-      "chg3mPct": 2.1526693160744275,
+      "drawdown1y": -0.7750030754090309,
+      "ma20": 102.02875022888183,
+      "ma60": 100.67908325195313,
+      "chg1m": -0.3849945068359375,
+      "chg3m": 2.095001220703125,
+      "chg1mPct": -0.3768175724142834,
+      "chg3mPct": 2.1015158685892117,
       "lastDate": "2026-11-03",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 3950.60009765625,
+      "current": 3936.89990234375,
       "prevClose": 3969.60009765625,
-      "changeAbs": -19.0,
-      "changePct": -0.47863763433546036,
+      "changeAbs": -32.7001953125,
+      "changePct": -0.8237654803517112,
       "pctRank": 78.47498014297061,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -25.718257931012833,
-      "ma20": 4093.8550048828124,
-      "ma60": 4307.289982096354,
-      "chg1m": -206.19970703125,
-      "chg3m": -354.60009765625,
-      "chg1mPct": -4.960539759425621,
-      "chg3mPct": -8.236553042117261,
+      "drawdown1y": -25.97585787768969,
+      "ma20": 4093.1699951171877,
+      "ma60": 4307.0616455078125,
+      "chg1m": -219.89990234375,
+      "chg3m": -368.30029296875,
+      "chg1mPct": -5.2901249200352485,
+      "chg3mPct": -8.55477739153118,
       "lastDate": "2026-11-03",
       "bars": 1259,
       "symbol": "GC=F",
@@ -237,6 +237,51 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Indian shares extend gains on softer oil, strong earnings - Reuters",
+      "summary": "Indian shares extend gains on softer oil, strong earnings Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcVNvY0lPbFp1SlNTR1BlbUstUy1iMUtZcGJzSTBxLXVBdEpWajhoT0RuWklLUkxfM1dFd1pWLVJxMnlaQzFnQzVyMUJEVC1sbVJGbmJTd2p5RGhNaldxbkNicjBvNWJ4dXoxS3RobzN6NTRzeDM5TV9fME1FTTJWM1JaNVNvM0JsSGRXTWQ1TG03MmlGZU43TVJyS1NHT0xGRWRpXy1ETkx1Q1E?oc=5",
+      "datetime": 1793673480,
+      "headlineKo": "인도 주식은 유가 하락과 실적 강세로 상승세를 이어갔습니다. - 로이터",
+      "summaryKo": "인도 주식은 유가 하락과 실적 강세로 상승세를 이어갔습니다 - 로이터"
+    },
+    {
+      "headline": "Oil edges up after report of US strike on Iran's Qeshm Island - Reuters",
+      "summary": "Oil edges up after report of US strike on Iran's Qeshm Island Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTFpzbEJURFlBbkE1RzNfclduVWpDY29HaWY3dnZJNUFuTHFsckZXSU5iTGJHdUFzQkVmeVhvdk9IME9Hdkxwc0NQZzg4dFFzckltYVlzcGdWY2xhYmJWMWlMVmFyNml3YmFoSDBZMGdPZWlpU25IM3UtMW5iR3d1dGZrMGF4SzQ2MklEeG5lWU1iRUZjVDd5Nnhjc0dQamdDdEtUc3NMcFZDMTQ?oc=5",
+      "datetime": 1793669220,
+      "headlineKo": "이란 케심 섬에 대한 미국의 공습 소식 이후 유가 상승 - 로이터 통신",
+      "summaryKo": "이란 케심 섬에 대한 미국의 공격 소식 이후 유가 상승 - 로이터"
+    },
+    {
+      "headline": "Dollar drifts on Mideast, midterm risks; Aussie dips after expected RBA hike - Reuters",
+      "summary": "Dollar drifts on Mideast, midterm risks; Aussie dips after expected RBA hike Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNE1RdnJYYmVzdzBUWE9zZW5SdkhKVG0wVFlSTmFzUkpOanNhVWc0Nk5DZzJNaUN4azRHUVFnVTFWSEJpT1ByOUJ6Ny1zdlVqanJ5SUpHY1dMWDJ3M0pLWk1ZcUN0MmlLMUlGT01xSkN5VHZzc1NMUVZvaG42Rm9wTV9zejhTeUktb2d0dWpDb1B3dW5oNHJKaHVtLVAzem9qOUFCM05jT2lzQ0ZJSDl5QXVQQnZfT3JwblRZZWpfWnhmRlE?oc=5",
+      "datetime": 1793668200,
+      "headlineKo": "달러는 중동, 중기 위험으로 표류합니다. RBA 인상 예상 후 호주 하락세 - Reuters",
+      "summaryKo": "달러는 중동, 중기 위험으로 표류합니다. RBA 인상 예상 후 호주 하락세 Reuters"
+    },
+    {
+      "headline": "US carries out 'defensive' strikes on Iran's Qeshm Island, officials say - Reuters",
+      "summary": "US carries out 'defensive' strikes on Iran's Qeshm Island, officials say Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUW9iaUN1YmNnZlZ0a05YVklpS2I1dFp2UHR0VzNRaXRubGN6ZWczLWNqdlhaTENzcUtZYjQ4OG5Ca19nVmZjZTVEYlNGTTU4QXpZYVVXOXhnMTIzYXJBeWY5ZXdTREpkN1ZCNmNzd0d4eThoOTZmVUtFSEQ1NHg0b2VQU08xaHh5R01MUWhNN0NlY0l3d1gwVDRNM0RUTnZPMjR5TENVRVpETWIxenJ3?oc=5",
+      "datetime": 1793667900,
+      "headlineKo": "미국, 이란 케심 섬에 '방어적' 공격 감행했다고 관리들 발표 - 로이터 통신",
+      "summaryKo": "미국이 이란 케심 섬에 '방어적' 공격을 가했다고 관리들이 밝혔습니다."
+    },
+    {
+      "headline": "Iran says contacts over ending war continue after talks finish with no breakthrough - Reuters",
+      "summary": "Iran says contacts over ending war continue after talks finish with no breakthrough Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLXhRTFk2aHFYY3VOMWFGdmFySFR5MTNxeWRRU1ZQM3RaWjg4ZFZlOTJHNDZjYmdCVjBOX0RweVAyWEI4T2dZMVFSbUt4bTc4NGlibnlTaDh2TUNydEdOQjZJSmt3RnRIbk1LNVJ4SlNkR0M3QWs3NnZwQ0JlMW5Ud0FaN29PaGcwdk1CbTZ1UUhjYkg5XzZwVmdwWGNnRnladzZVUEhBeTZScEZIMl9YZ0hUT01GcDdkMXFwcXF0Q3hkTEluSnpnb3F5RFA?oc=5",
+      "datetime": 1793663861,
+      "headlineKo": "이란 \"회담이 진전 없이 끝난 후에도 전쟁 종식을 위한 접촉이 계속되고 있다\" - 로이터",
+      "summaryKo": "이란은 회담이 아무런 진전 없이 끝난 후에도 전쟁 종식을 위한 접촉이 계속되고 있다고 밝혔습니다."
+    },
+    {
       "headline": "Kimberly-Clark closes its acquisition of Tylenol maker Kenvue. What to expect next",
       "summary": "Kimberly-Clark has a plan improve growth and earnings following its acquisition of Kenvue",
       "source": "CNBC",
@@ -246,6 +291,15 @@ const MARKET_DATA = {
       "summaryKo": "Kimberly-Clark는 Kenvue 인수 이후 성장과 수익을 개선할 계획을 가지고 있습니다."
     },
     {
+      "headline": "Trump raises doubts about renewed attacks on Iran - Reuters",
+      "summary": "Trump raises doubts about renewed attacks on Iran Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQndTRnlIMnd2YXYxWE0ySGhhU2lzZldZWGdGNlhUejVqLUxyTkJ3dzVnNWNZaGszckxhWVh3eDdtb1VmWHlpSkdyS1lES2VoYnhfdnVraHV4UE9ScDV3UHo2UVFmb1lHblVhaDdxM0I2QkxNc2x5Q3RybjNEVFRJQXdTbk05N2lxemd5cU1jWHh0aXVvM05rVmJiQm5uY2VmNGc?oc=5",
+      "datetime": 1793653064,
+      "headlineKo": "트럼프, 이란에 대한 공격 재개에 의구심을 제기 - 로이터 통신",
+      "summaryKo": "트럼프, 이란에 대한 새로운 공격에 대해 의구심을 제기 - 최신"
+    },
+    {
       "headline": "Trump focuses on Reflecting Pool in final public speech before midterms",
       "summary": "Trump seemed to acknowledge that Democrats had an advantage heading into Election Day. \"But we gave this a very strong shot,\" he said.",
       "source": "CNBC",
@@ -253,6 +307,15 @@ const MARKET_DATA = {
       "datetime": 1793651340,
       "headlineKo": "트럼프, 중간고사 전 최종 공개 연설에서 '반영 풀'에 집중",
       "summaryKo": "트럼프는 선거일을 앞두고 민주당이 유리하다는 점을 인정한 것 같습니다. \"그러나 우리는 매우 강력한 기회를 주었습니다\"라고 그는 말했습니다."
+    },
+    {
+      "headline": "Yemen's Houthis advance to within 80 km of Aden, sources say - Reuters",
+      "summary": "Yemen's Houthis advance to within 80 km of Aden, sources say Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYlRCZUUyWF9VckZ3NWJGbUV2Z3luSldoNGZIVk1zTkN4MEZ1ajdSZm4zYmNLYjhVbU5TQU9yYTU2YVVrSFY3QzNPU21wT2EwVlFlRG9mMGxkeG84RHptSzlsOUw3Zmd6SHRqZGdzM1UxQnpWZlZ4MFJSYTFTZ296c2U1T1NGZFBqd3hnazg3clVMUFJ4SWNzYUtjOVoxY2FHMHpzY3RKZkNudw?oc=5",
+      "datetime": 1793651023,
+      "headlineKo": "예멘 후티 반군이 아덴에서 80km 이내로 진군했다고 소식통이 전했습니다. - 로이터",
+      "summaryKo": "예멘 후티 반군, 아덴 80km 이내로 진군"
     },
     {
       "headline": "2 of our banks are at the heart of this week's biggest tech deals",
@@ -280,81 +343,18 @@ const MARKET_DATA = {
       "datetime": 1793645644,
       "headlineKo": "텍사스 주지사 경선은 예측 시장에서 치열해졌지만 애보트는 여전히 선호되고 있습니다.",
       "summaryKo": "예측 시장에서는 여전히 공화당 현직 의원이 4선에 성공할 것으로 예상되지만 최근 몇 주 동안 그 가능성은 줄어들었습니다."
-    },
-    {
-      "headline": "Apple reports after the bell. Options traders expect a big move",
-      "summary": "Apple reports after the bell. Options traders expect a big move.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/02/apple-reports-after-the-bell-options-traders-expect-a-big-move.html",
-      "datetime": 1793643543,
-      "headlineKo": "Apple은 종소리 후에 보고합니다. 옵션 거래자들은 큰 움직임을 기대합니다",
-      "summaryKo": "Apple은 종소리 후에 보고합니다. 옵션 거래자들은 큰 움직임을 기대합니다."
-    },
-    {
-      "headline": "Options traders are getting anxious on Palantir and Apple ahead of earnings",
-      "summary": "Apple, Palantir puts were in demand ahead of earnings.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/02/options-traders-are-getting-anxious-on-palantir-and-apple-ahead-of-earnings.html",
-      "datetime": 1793643362,
-      "headlineKo": "옵션 거래자들은 수익을 앞두고 Palantir와 Apple에 대해 불안해하고 있습니다.",
-      "summaryKo": "Apple, Palantir 풋옵션은 실적보다 먼저 수요가 많았습니다."
-    },
-    {
-      "headline": "FTSE 100 notches fourth straight day of gains as oil slides on US-Iran deal hopes - Reuters",
-      "summary": "FTSE 100 notches fourth straight day of gains as oil slides on US-Iran deal hopes Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPalhUUG9VTkRaNkpZM1BUTlpIYVM0WmJMU3UxZHpaSm5KRUhDdmNNTUVNbEJncFYyS1RqUVZmd2RaMUh3eUVINWt6Wm9WeGgzZmFoR2U1TzlnZ3dkUFVkdjJIclFHaEc2X2NWYnlLRnZGREs3RDg0WWdZbEJWc3d1RERMZHZESnhDb05HQXVlMjRCbnNxNVM4TFpvdzVPQ1hDMVlXVGpNMmx0Q0gzbXVFZGl3UERXYjllcmx5MUEyeGVHUQ?oc=5",
-      "datetime": 1793641562,
-      "headlineKo": "FTSE 100은 미국-이란 협상 희망에 따른 유가 하락으로 4일 연속 상승세 기록 - Reuters",
-      "summaryKo": "FTSE 100은 미국-이란 거래의 유가 하락으로 4일 연속 상승세를 기록했습니다."
-    },
-    {
-      "headline": "Sectors bracing for a pivot as US midterm elections loom - Reuters",
-      "summary": "Sectors bracing for a pivot as US midterm elections loom Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNVM3bDhEOHNLQ3VJRDRGcEtyeXBhNUdsblBVUGQ3bDBWLXUxQXZMXzF6SmxxdWczMUpJcFRSR21RU2hRaHFTLUxGQ0xkcmFkWFVoQm1WaVVQeGROMXFCaTJTQ0xCRHhkMU9pc3k1MUVQTkFvMER3SEszZG5kNGswQkdRQVo2Z1ZONGxZb1FSWDNhWmlzTHA2R2VVQVdvNnpHSlE?oc=5",
-      "datetime": 1793639831,
-      "headlineKo": "미국 중간선거가 다가옴에 따라 업종 전환에 대비 - Reuters",
-      "summaryKo": "미국 중간 선거가 다가옴에 따라 업종이 전환점을 맞이하고 있습니다. Reuters"
-    },
-    {
-      "headline": "TotalEnergies says Iran war could accelerate energy transition - Reuters",
-      "summary": "TotalEnergies says Iran war could accelerate energy transition Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcDNiSHhwUjBpRnJnUW4yZFM5NUp6QWlXOUJldXZ6ODRpZXdRbENpTFp3d2RJWG9tVVRTWXVzTDZQRjBLcXJOaU5EeWRBUTY2ZGJZQzJlaFVKaFJMckcwdkV2QTNSWFoyYkM4WFBlUEhwWThiS25XM2VObEJDalQyMmNLcmVPZXRBZmZNNVU3MWltVjRNNlZNcU1rcGFKLTNNWC05WDdhVGItRVpkTngxMw?oc=5",
-      "datetime": 1793639772,
-      "headlineKo": "TotalEnergies는 이란 전쟁이 에너지 전환을 가속화할 수 있다고 말합니다 - Reuters",
-      "summaryKo": "TotalEnergies는이란 전쟁이 에너지 전환을 가속화 할 수 있다고 말합니다 - 최신"
-    },
-    {
-      "headline": "CrowdStrike lands an upgrade, and Jim Cramer's advice on Apple ahead of earnings",
-      "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/investingclub/2026/11/02/crowdstrike-lands-an-upgrade-and-jim-cramers-advice-on-apple-ahead-of-earnings.html",
-      "datetime": 1793639074,
-      "headlineKo": "CrowdStrike가 업그레이드를 시작하고 수익에 앞서 Apple에 대한 Jim Cramer의 조언",
-      "summaryKo": "Investing Club은 매주 평일 오전 10시 20분(ET)에 \"아침 모임\"을 개최합니다."
-    },
-    {
-      "headline": "Judge tosses DOJ case against ex-FBI officials accused of lying about Hunter Biden probe: Reports",
-      "summary": "Judge Zia Faruqui suggested the prosecution of ex-officials Nikki Floris and Bradley Benavides was rushed to come out ahead of the midterm election.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/02/fbi-hunter-biden-doj-case-dismissed.html",
-      "datetime": 1793637732,
-      "headlineKo": "판사는 헌터 바이든 수사에 대해 거짓말을 한 혐의로 기소된 전 FBI 관리들을 상대로 법무부 소송을 제기했습니다.",
-      "summaryKo": "Zia Faruqui 판사는 전직 관리인 Nikki Floris와 Bradley Benavides에 대한 기소가 중간 선거를 앞두고 서둘러 나올 것이라고 제안했습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1793676525.3178008,
+  "_news_last_success_at": 1793680713.0213363,
   "fgi": {
     "score": 22.7285714285714,
     "rating": "extreme fear"
   },
-  "_fetched_at": 1793676517.26972,
-  "_updated_label": "2026-11-03 12:29",
-  "_last_attempt_at": 1793676517.26972,
-  "_last_success_at": 1793676517.26972,
+  "_fetched_at": 1793680693.3360655,
+  "_updated_label": "2026-11-03 13:39",
+  "_last_attempt_at": 1793680693.3360655,
+  "_last_success_at": 1793680693.3360655,
   "_collection_status": "ok",
   "_collection_errors": []
 };
