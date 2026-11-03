@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793708639.964944,
+  "generatedAt": 1793710966.5221663,
   "events": [
     {
       "id": "e8bc0fdf77099ee46c2e",
@@ -6801,6 +6801,69 @@ const EVENT_DATA = {
       ]
     },
     {
+      "id": "d746edbda425108c45ce",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "정기 실적 공시",
+      "primaryTicker": "PLTR",
+      "relatedTickers": [
+        "PLTR"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "PLTR SEC Form 10-Q filed",
+      "headlineKo": "PLTR SEC Form 10-Q 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+        "publishedAt": 1793631600.0,
+        "collectedAt": 1793710912.0141702
+      },
+      "confirmedFacts": [
+        "PLTR가 2026-11-03에 SEC Form 10-Q을 제출했습니다."
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 SEC에 공식 정기보고서를 냈다는 뜻입니다. 기사 숫자보다 이 원문에 적힌 매출·이익·현금흐름을 우선 확인합니다."
+      ],
+      "whyItMatters": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "PLTR",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "매출·영업이익·OCF·FCF",
+        "가이던스와 위험요인 변화",
+        "일회성 손익·회계정책 변화"
+      ],
+      "earningsEvidence": null
+    },
+    {
       "id": "a0cb0758d93fa6afb83d",
       "schemaVersion": 1,
       "eventType": "earnings_result",
@@ -12139,7 +12202,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526442618/d150456d424b2.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793689182.8810375
+        "collectedAt": 1793710912.0141702
       },
       "confirmedFacts": [
         "MSFT가 2026-11-02에 SEC Form 424B2을 제출했습니다.",
@@ -12203,7 +12266,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526442515/d125079d424b5.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793689182.8810375
+        "collectedAt": 1793710912.0141702
       },
       "confirmedFacts": [
         "GOOGL가 2026-11-02에 SEC Form 424B5을 제출했습니다.",
@@ -12267,7 +12330,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/aapl-20261102.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793689182.8810375
+        "collectedAt": 1793710912.0141702
       },
       "confirmedFacts": [
         "AAPL가 2026-11-02에 SEC Form 8-K을 제출했습니다.",
@@ -12306,7 +12369,7 @@ const EVENT_DATA = {
       ],
       "earningsEvidence": {
         "version": 8,
-        "analyzedAt": 1793689182.8810375,
+        "analyzedAt": 1793710912.0141702,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
@@ -12368,7 +12431,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526442729/d181425d424b5.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793689182.8810375
+        "collectedAt": 1793710912.0141702
       },
       "confirmedFacts": [
         "ORCL가 2026-11-02에 SEC Form 424B5을 제출했습니다.",
@@ -12432,7 +12495,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526442722/d181336d424b2.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793689182.8810375
+        "collectedAt": 1793710912.0141702
       },
       "confirmedFacts": [
         "ORCL가 2026-11-02에 SEC Form 424B2을 제출했습니다.",
@@ -12496,7 +12559,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526442669/d181173ds3asr.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793689182.8810375
+        "collectedAt": 1793710912.0141702
       },
       "confirmedFacts": [
         "ORCL가 2026-11-02에 SEC Form S-3ASR을 제출했습니다.",
@@ -12560,12 +12623,12 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/pltr-20261102.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793689182.8810375
+        "collectedAt": 1793710912.0141702
       },
       "confirmedFacts": [
         "PLTR가 2026-11-02에 SEC Form 8-K을 제출했습니다.",
         "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 규정 FD 공개 · 재무제표·첨부자료",
-        "SEC Company Facts Q2'26: 매출 $1.94B · 영업이익 $0.91B · 순이익 $1.06B",
+        "SEC Company Facts Q3'26: 매출 $2.31B · 영업이익 $1.08B · 순이익 $1.13B",
         "SEC 공식 실적발표 첨부자료의 현재 가이던스: 매출 2.649~2.653 billion"
       ],
       "reportedClaims": [],
@@ -12601,16 +12664,16 @@ const EVENT_DATA = {
       ],
       "earningsEvidence": {
         "version": 8,
-        "analyzedAt": 1793689182.8810375,
+        "analyzedAt": 1793710912.0141702,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
-          "period": "Q2'26",
-          "endDate": "2026-06-30",
+          "period": "Q3'26",
+          "endDate": "2026-09-30",
           "metrics": {
-            "revenue": 1935464000,
-            "opIncome": 912004000,
-            "netIncome": 1061890000
+            "revenue": 2313411000,
+            "opIncome": 1084845000,
+            "netIncome": 1128012000
           }
         },
         "guidance": {
@@ -12697,7 +12760,7 @@ const EVENT_DATA = {
               "variancePct": 7.0,
               "actualEndDate": "2026-09-30",
               "source": "SEC Company Facts",
-              "settledAt": 1793708639.3200393,
+              "settledAt": 1793710912.0141702,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -12739,7 +12802,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526442717/d352474d8k.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793689182.8810375
+        "collectedAt": 1793710912.0141702
       },
       "confirmedFacts": [
         "MRVL가 2026-11-02에 SEC Form 8-K을 제출했습니다.",
@@ -12804,7 +12867,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526442714/d81187d8k.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793689182.8810375
+        "collectedAt": 1793710912.0141702
       },
       "confirmedFacts": [
         "MRVL가 2026-11-02에 SEC Form 8-K을 제출했습니다.",
@@ -12844,7 +12907,7 @@ const EVENT_DATA = {
       ],
       "earningsEvidence": {
         "version": 8,
-        "analyzedAt": 1793689182.8810375,
+        "analyzedAt": 1793710912.0141702,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
@@ -12907,7 +12970,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526442758/d163169d8k.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793689182.8810375
+        "collectedAt": 1793710912.0141702
       },
       "confirmedFacts": [
         "LITE가 2026-11-02에 SEC Form 8-K을 제출했습니다.",
@@ -12972,7 +13035,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026068655/lite-20261102.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793689182.8810375
+        "collectedAt": 1793710912.0141702
       },
       "confirmedFacts": [
         "LITE가 2026-11-02에 SEC Form 8-K을 제출했습니다.",
@@ -13013,7 +13076,7 @@ const EVENT_DATA = {
       ],
       "earningsEvidence": {
         "version": 8,
-        "analyzedAt": 1793689182.8810375,
+        "analyzedAt": 1793710912.0141702,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
@@ -13096,7 +13159,7 @@ const EVENT_DATA = {
               "variancePct": 0.42,
               "actualEndDate": "2026-03-28",
               "source": "SEC Company Facts",
-              "settledAt": 1793708639.3200393,
+              "settledAt": 1793710912.0141702,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -17782,82 +17845,6 @@ const EVENT_DATA = {
         "조달 자금 사용처",
         "완전희석 주식수와 EPS"
       ]
-    },
-    {
-      "id": "0a620b5c68e7cb8cafcf",
-      "schemaVersion": 1,
-      "eventType": "major_customer_contract",
-      "eventLabel": "주요 고객 계약",
-      "primaryTicker": "NVDA",
-      "relatedTickers": [
-        "NVDA",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "NVIDIA",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Meet the Brilliant AI Stock Obliterating Nvidia in 2026 With a Return of 44%",
-      "headlineKo": "2026년에 44%의 수익률로 Nvidia를 압도하는 뛰어난 AI 주식을 만나보세요",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=dcef16ea19de99613f9e3e2e7aadf799198554378c78216a51ccc635fe06511b",
-        "publishedAt": 1793446140,
-        "collectedAt": 1793691226.263193
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "2026년에 44%의 수익률로 Nvidia를 압도하는 뛰어난 AI 주식을 만나보세요 | The Motley Fool 접근성 도움말 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Nvidia(NVDA -4.22%)는 세계 최고의 그래픽 프로세스를 공급합니다.",
-        "2023년 초부터 회사는 공급할 수 있는 것보다 더 많은 수요를 경험했으며, 이것이 바로 이 글을 쓰는 시점(10월 10일) 현재 시가총액이 3,600억 달러에서 5조 2천억 달러 이상으로 급증한 이유입니다.",
-        "그러나 Nvidia는 이제 너무 커져서 최고의 이득이 백미러에 있을지도 모릅니다."
-      ],
-      "marketInterpretation": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $360 billion, $5.2 trillion, 16% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "NVDA에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $360 billion, $5.2 trillion, 16% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "공식 매출·EPS 가이던스",
-        "컨센서스 추정치 변경",
-        "마진·FCF 전망"
-      ]
     }
   ],
   "byTicker": {
@@ -18088,8 +18075,7 @@ const EVENT_DATA = {
       "2cd82e53f7dfe515404d",
       "70b922567411faf203c3",
       "163c6087f080617f6749",
-      "89d04985e5babfb0d08a",
-      "0a620b5c68e7cb8cafcf"
+      "89d04985e5babfb0d08a"
     ],
     "AAPL": [
       "1e433493d407af79fe8d",
@@ -18124,6 +18110,7 @@ const EVENT_DATA = {
       "9c6e83456369fdeb99d2",
       "6de5335415d3933d5f5a",
       "a33d9498e6654d48b3c1",
+      "d746edbda425108c45ce",
       "a0cb0758d93fa6afb83d",
       "b85770273e10f6fa04bb",
       "cd338d49073998e9096a",
@@ -18226,8 +18213,7 @@ const EVENT_DATA = {
       "163c6087f080617f6749",
       "c33ae1365e456e3cd2a1",
       "395b9a890485ffa37511",
-      "a3e8c6bcd4247102eaf7",
-      "0a620b5c68e7cb8cafcf"
+      "a3e8c6bcd4247102eaf7"
     ],
     "GOOGL": [
       "772e2fd0b1e2be57df7b",

@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793708640.0204828,
+  "generatedAt": 1793710966.5755742,
   "records": {
     "MSFT": [
       {
@@ -17015,6 +17015,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1793710922.0207353,
+        "dataAsOf": 1793680204,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.05,
+            "after": 0.52
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 3.15,
+            "after": 2.63
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "우호적 변화",
+            "after": "중립·확인 대기"
+          }
+        ],
+        "cause": "AI 컴퓨팅 수요 확대 가능성",
+        "newsHeadline": "Amazon CEO Andy Jassy는 AMZN 주가가 6개월 만에 7% 하락함에 따라 투자자들이 소매업에서 '조금 자고 있다'고 말했습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=fad852c244f18c65327d7fb2c1efa069de2016531ab01f215f15afab94c04872",
+        "eventId": "d1e0253cbb5b49e6ab4e",
+        "fingerprint": "{\"changes\": [{\"after\": 0.52, \"before\": 1.05, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 2.63, \"before\": 3.15, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"우호적 변화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"d1e0253cbb5b49e6ab4e\"}"
+      },
+      {
         "changedAt": 1793691977.009911,
         "dataAsOf": 1793680204,
         "changes": [
@@ -18676,23 +18705,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=ff35a4a3386611f185444efefec578170d0e502541a8bd27f6b93751b1fc61b7",
         "eventId": "83c1aa88d31c26d96013",
         "fingerprint": "{\"changes\": [{\"after\": 4.55, \"before\": 4.02, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"83c1aa88d31c26d96013\"}"
-      },
-      {
-        "changedAt": 1792379116.5058818,
-        "dataAsOf": 1792352580,
-        "changes": [
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 3.5,
-            "after": 4.02
-          }
-        ],
-        "cause": "AI 컴퓨팅 수요 확대 가능성",
-        "newsHeadline": "대만 반도체가 최고의 AI 투자처인 이유를 방금 증명했습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=aa8f89ccfcc82cdd5533240900c42271d1d202512420920155fb3590ecca9420",
-        "eventId": "b048012de33b44384c14",
-        "fingerprint": "{\"changes\": [{\"after\": 4.02, \"before\": 3.5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"b048012de33b44384c14\"}"
       }
     ],
     "AMD": [

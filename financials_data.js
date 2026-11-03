@@ -5550,16 +5550,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1793708261.0385942,
-    "_updated_label": "2026-11-03 21:17"
+    "_fetched_at": 1793710911.6902652,
+    "_updated_label": "2026-11-03 22:01"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1793708261.0385942,
-    "_updated_label": "2026-11-03 21:17"
+    "_fetched_at": 1793710911.6902652,
+    "_updated_label": "2026-11-03 22:01"
   },
   "ORCL": {
     "annual": [
@@ -12633,10 +12633,10 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1793102625.584698,
-    "_updated_label": "2026-11-02 22:19",
+    "_fetched_at": 1793710769.814511,
+    "_updated_label": "2026-11-03 22:00",
     "_data_quality_version": 16,
-    "_collection_status": "error",
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-03-31",
@@ -12661,10 +12661,8 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1793625579.5213213,
-    "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완",
-    "_collection_error": "The read operation timed out",
-    "_last_attempt_at": 1793708261.0385942
+    "_yahoo_verified_at": 1793710809.2546883,
+    "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ETN": {
     "annual": [
@@ -16367,10 +16365,10 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1793102625.584698,
-    "_updated_label": "2026-11-02 22:19",
+    "_fetched_at": 1793710769.814511,
+    "_updated_label": "2026-11-03 22:00",
     "_data_quality_version": 16,
-    "_collection_status": "error",
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -16395,10 +16393,8 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1793625579.5213213,
-    "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완",
-    "_collection_error": "The read operation timed out",
-    "_last_attempt_at": 1793708261.0385942
+    "_yahoo_verified_at": 1793710809.2546883,
+    "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "BE": {
     "annual": [
