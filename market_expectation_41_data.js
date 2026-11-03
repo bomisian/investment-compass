@@ -1134,11 +1134,11 @@ const MARKET_EXPECTATION_41 = {
       "stale_consensus_warning": false,
       "price_as_of_mismatch": false,
       "composite_hidden": false,
-      "composite_internal_ref": 1.0,
+      "composite_internal_ref": 0.92,
       "support_summary": [
-        "총매출 $1.935B, YoY +93%; 美상업부문 +149%",
-        "GAAP 영업마진 47%, 비GAAP 62%",
-        "OCF $1.216B, 조정FCF $1.220B -- 매출의 약 63%가 현금전환(소프트웨어 기업 특성상 CAPEX 부담 낮음)"
+        "RDV(잔여거래가치) $6.238B; 분기 신규계약 $3.373B(+49%, 美상업 $2.132B +153%); CEO Karp: 'AI 주권에 대한 수요가 폭발적으로 분출'",
+        "[자동] Q3'26 매출 $2.31B, 전년 동기 대비 +95.9%",
+        "[자동] Q3'26 영업이익 $1.08B, 전년 동기 대비 +175.9%"
       ],
       "caution_summary": [
         "반대방향 A/B급 증거 없음(초고성장 구간의 기저효과 가능성은 counter_evidence로 기록 — 참고용)"
@@ -1150,8 +1150,8 @@ const MARKET_EXPECTATION_41 = {
         "93% 성장률이 기저효과 없이 다음 분기에도 유지되는지 확인",
         "목표가 상향/하향 비율, EPS 수정추세 확보 시"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 1건(2026-06-30 분기)",
-      "evidence_auto_count": 1,
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 4건(2026-09-30 분기)",
+      "evidence_auto_count": 4,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
       "primary_etf": "IGV",

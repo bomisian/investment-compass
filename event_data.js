@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793707300.8552265,
+  "generatedAt": 1793708639.964944,
   "events": [
     {
       "id": "e8bc0fdf77099ee46c2e",
@@ -12686,7 +12686,20 @@ const EVENT_DATA = {
             "targetPeriod": "q3 2026",
             "status": "available",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/a2026q2ex991pressrelease.htm",
-            "outcome": null
+            "outcome": {
+              "status": "above_high",
+              "metric": "revenue",
+              "period": "Q3'26",
+              "actual": 2.3134,
+              "low": 2.16,
+              "high": 2.164,
+              "unit": "billion",
+              "variancePct": 7.0,
+              "actualEndDate": "2026-09-30",
+              "source": "SEC Company Facts",
+              "settledAt": 1793708639.3200393,
+              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+            }
           },
           {
             "filingDate": "2026-11-02",
@@ -13083,7 +13096,7 @@ const EVENT_DATA = {
               "variancePct": 0.42,
               "actualEndDate": "2026-03-28",
               "source": "SEC Company Facts",
-              "settledAt": 1793707300.2891686,
+              "settledAt": 1793708639.3200393,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
