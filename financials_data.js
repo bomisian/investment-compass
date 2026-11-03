@@ -5567,16 +5567,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1793742232.9282246,
-    "_updated_label": "2026-11-04 06:43"
+    "_fetched_at": 1793744262.662978,
+    "_updated_label": "2026-11-04 07:17"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1793742232.9282246,
-    "_updated_label": "2026-11-04 06:43"
+    "_fetched_at": 1793744262.662978,
+    "_updated_label": "2026-11-04 07:17"
   },
   "ORCL": {
     "annual": [
@@ -13083,8 +13083,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1793742232.9282246,
-    "_updated_label": "2026-11-04 06:43",
+    "_fetched_at": 1793744262.662978,
+    "_updated_label": "2026-11-04 07:17",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -13111,7 +13111,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1793742237.8255277,
+    "_yahoo_verified_at": 1793744268.2089536,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "PWR": {
@@ -14982,13 +14982,13 @@ const FINANCIALS_DATA = {
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
     "_fetched_at": 1793308401.6923814,
-    "_updated_label": "2026-11-03 06:44",
+    "_updated_label": "2026-11-04 07:00",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-09-30",
-        "eps": 2.43
+        "eps": 2.430109
       },
       {
         "endDate": "2025-12-31",
@@ -15009,7 +15009,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1793655864.369062,
+    "_yahoo_verified_at": 1793743235.3863919,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "EME": {
