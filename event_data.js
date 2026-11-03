@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793715961.2290442,
+  "generatedAt": 1793717907.7346387,
   "events": [
     {
       "id": "de2450d9346277fdf107",
@@ -14466,7 +14466,7 @@ const EVENT_DATA = {
               "variancePct": 7.0,
               "actualEndDate": "2026-09-30",
               "source": "SEC Company Facts",
-              "settledAt": 1793715960.5669534,
+              "settledAt": 1793717907.1594155,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -14865,7 +14865,7 @@ const EVENT_DATA = {
               "variancePct": 0.42,
               "actualEndDate": "2026-03-28",
               "source": "SEC Company Facts",
-              "settledAt": 1793715960.5669534,
+              "settledAt": 1793717907.1594155,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
