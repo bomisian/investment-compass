@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793687129.3540704,
+  "generatedAt": 1793689232.7643995,
   "events": [
     {
       "id": "7abc9fac2edae1f2c6fc",
@@ -10114,7 +10114,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526442618/d150456d424b2.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793665822.8856268
+        "collectedAt": 1793689182.8810375
       },
       "confirmedFacts": [
         "MSFT가 2026-11-02에 SEC Form 424B2을 제출했습니다.",
@@ -10178,7 +10178,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526442515/d125079d424b5.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793665822.8856268
+        "collectedAt": 1793689182.8810375
       },
       "confirmedFacts": [
         "GOOGL가 2026-11-02에 SEC Form 424B5을 제출했습니다.",
@@ -10242,7 +10242,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/aapl-20261102.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793665822.8856268
+        "collectedAt": 1793689182.8810375
       },
       "confirmedFacts": [
         "AAPL가 2026-11-02에 SEC Form 8-K을 제출했습니다.",
@@ -10281,7 +10281,7 @@ const EVENT_DATA = {
       ],
       "earningsEvidence": {
         "version": 8,
-        "analyzedAt": 1793665822.8856268,
+        "analyzedAt": 1793689182.8810375,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
@@ -10343,7 +10343,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526442729/d181425d424b5.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793665822.8856268
+        "collectedAt": 1793689182.8810375
       },
       "confirmedFacts": [
         "ORCL가 2026-11-02에 SEC Form 424B5을 제출했습니다.",
@@ -10407,7 +10407,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526442722/d181336d424b2.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793665822.8856268
+        "collectedAt": 1793689182.8810375
       },
       "confirmedFacts": [
         "ORCL가 2026-11-02에 SEC Form 424B2을 제출했습니다.",
@@ -10471,7 +10471,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526442669/d181173ds3asr.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793665822.8856268
+        "collectedAt": 1793689182.8810375
       },
       "confirmedFacts": [
         "ORCL가 2026-11-02에 SEC Form S-3ASR을 제출했습니다.",
@@ -10535,7 +10535,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/pltr-20261102.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793665822.8856268
+        "collectedAt": 1793689182.8810375
       },
       "confirmedFacts": [
         "PLTR가 2026-11-02에 SEC Form 8-K을 제출했습니다.",
@@ -10576,7 +10576,7 @@ const EVENT_DATA = {
       ],
       "earningsEvidence": {
         "version": 8,
-        "analyzedAt": 1793665822.8856268,
+        "analyzedAt": 1793689182.8810375,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
@@ -10701,7 +10701,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526442717/d352474d8k.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793665822.8856268
+        "collectedAt": 1793689182.8810375
       },
       "confirmedFacts": [
         "MRVL가 2026-11-02에 SEC Form 8-K을 제출했습니다.",
@@ -10766,7 +10766,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526442714/d81187d8k.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793665822.8856268
+        "collectedAt": 1793689182.8810375
       },
       "confirmedFacts": [
         "MRVL가 2026-11-02에 SEC Form 8-K을 제출했습니다.",
@@ -10806,7 +10806,7 @@ const EVENT_DATA = {
       ],
       "earningsEvidence": {
         "version": 8,
-        "analyzedAt": 1793665822.8856268,
+        "analyzedAt": 1793689182.8810375,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
@@ -10869,7 +10869,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526442758/d163169d8k.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793665822.8856268
+        "collectedAt": 1793689182.8810375
       },
       "confirmedFacts": [
         "LITE가 2026-11-02에 SEC Form 8-K을 제출했습니다.",
@@ -10934,7 +10934,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026068655/lite-20261102.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793665822.8856268
+        "collectedAt": 1793689182.8810375
       },
       "confirmedFacts": [
         "LITE가 2026-11-02에 SEC Form 8-K을 제출했습니다.",
@@ -10975,7 +10975,7 @@ const EVENT_DATA = {
       ],
       "earningsEvidence": {
         "version": 8,
-        "analyzedAt": 1793665822.8856268,
+        "analyzedAt": 1793689182.8810375,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
@@ -11058,7 +11058,7 @@ const EVENT_DATA = {
               "variancePct": 0.42,
               "actualEndDate": "2026-03-28",
               "source": "SEC Company Facts",
-              "settledAt": 1793687128.7418094,
+              "settledAt": 1793689182.8810375,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
