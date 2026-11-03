@@ -827,7 +827,7 @@ const MARKET_EXPECTATION_41 = {
     "AAPL": {
       "ticker": "AAPL",
       "as_of": "2026-11-04",
-      "expectation_status": "기대 강화",
+      "expectation_status": "기대 유지",
       "confidence": "보통",
       "observed_axes": 7,
       "ab_grade_axes": 7,
@@ -844,24 +844,25 @@ const MARKET_EXPECTATION_41 = {
       "stale_consensus_warning": false,
       "price_as_of_mismatch": false,
       "composite_hidden": false,
-      "composite_internal_ref": 0.2573,
+      "composite_internal_ref": 0.1167,
       "support_summary": [
-        "Q3 FY2026(기간종료 2026-06-27) 매출 $109.417B, 전년동기($94.036B) 대비 +16.3%(FY2025 연간 성장률 6.4%보다 뚜렷이 가속)",
-        "Q3 FY2026 영업이익 $35.695B, +26.6% YoY, 영업이익률 약 32.6%(전년동기 30.0%에서 개선, FY2025 연간 32.0%보다도 개선)",
+        "[자동] Q3'26 매출 $114.48B, 전년 동기 대비 +11.7%",
+        "[자동] Q3'26 영업이익 $35.63B, 전년 동기 대비 +9.9%",
         "아이폰17·서비스 수요 호조로 어닝비트, 2026 성장 전망 상향(SPGlobal, Morningstar, SeekingAlpha 등 3개 이상 독립 보도 교차확인, Apple 공식 1차 원문 실적콜 녹취록은 이번 조사에서 직접 확인 못함)"
       ],
       "caution_summary": [
+        "[자동] Q3'26 설비투자 $2.24B, 전년 동기 대비 -30.8%",
         "관세로 인한 비용 증가 우려 -- Apple이 '타격을 완화할 선택지가 있다'(Kuo 분석), 가격 인상 가능성 시사(BofA·Jefferies·Macworld 등 3개 이상 독립 보도 교차확인, Apple 공식 10-Q 본문에서는 정량적 수치를 확인 못함)"
       ],
       "next_change_condition": [
-        "지지 근거 중 하나라도 공식적으로 철회·악화되거나, 구조위험 조건이 나오면 결론이 바뀐다.",
+        "종합 점수가 ±0.25를 넘어서는 새 A/B급 근거가 나오면 결론이 바뀐다.",
         "미관측 축(뉴스·추세) 자료 확보 시 재평가",
+        "지지 근거 중 하나라도 공식적으로 철회·악화되거나, 구조위험 조건이 나오면 결론이 바뀐다.",
         "관세 비용 영향이 공식 10-Q/8-K로 정량 확인되는 경우",
-        "아이폰17·서비스 수요 호조가 공식 1차 소스(실적콜 원문)로 직접 확인되는 경우",
-        "다음 공시에서 매출 성장률이 추가 가속/둔화되는 경우"
+        "아이폰17·서비스 수요 호조가 공식 1차 소스(실적콜 원문)로 직접 확인되는 경우"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
-      "evidence_auto_count": 0,
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 4건(2026-09-26 분기)",
+      "evidence_auto_count": 4,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
       "primary_etf": "XLK",
@@ -1458,7 +1459,7 @@ const MARKET_EXPECTATION_41 = {
     "ETN": {
       "ticker": "ETN",
       "as_of": "2026-11-04",
-      "expectation_status": "기대 강화",
+      "expectation_status": "기대 유지",
       "confidence": "보통",
       "observed_axes": 8,
       "ab_grade_axes": 8,
@@ -1475,25 +1476,26 @@ const MARKET_EXPECTATION_41 = {
       "stale_consensus_warning": false,
       "price_as_of_mismatch": false,
       "composite_hidden": false,
-      "composite_internal_ref": 0.3125,
+      "composite_internal_ref": 0.2125,
       "support_summary": [
-        "Q2 2026 매출 $8.531B, +21% YoY(유기적 +14%)",
         "Electrical Americas 수주 12개월 누적 +41% YoY, 백로그 +33% YoY; Electrical Global 수주 +33%, 백로그 +103% YoY",
-        "Adjusted EPS $3.15(사상최고), 전년 $2.95 대비 +6.8%; 세그먼트 영업마진 23.1%"
+        "[자동] Q3'26 매출 $8.95B, 전년 동기 대비 +28.0%",
+        "[자동] Q3'26 설비투자 $0.28B, 전년 동기 대비 +54.5%"
       ],
       "caution_summary": [
         "장기부채 2025-12-31 $8.758B→2026-06-30 $18.509B(약 +$9.75B 증가, $8.5B 선순위채 발행 포함), Boyd Thermal 인수 자금조달 목적(공식 424B5 설명서 명시)",
-        "GAAP 순이익 $821M, 전년동기 $982M 대비 감소(GAAP EPS $2.11 vs $2.51)"
+        "GAAP 순이익 $821M, 전년동기 $982M 대비 감소(GAAP EPS $2.11 vs $2.51)",
+        "[자동] Q3'26 잉여현금흐름 $1.03B, 전년 동기 대비 -11.8%"
       ],
       "next_change_condition": [
-        "지지 근거 중 하나라도 공식적으로 철회·악화되거나, 구조위험 조건이 나오면 결론이 바뀐다.",
+        "종합 점수가 ±0.25를 넘어서는 새 A/B급 근거가 나오면 결론이 바뀐다.",
         "미관측 축(정책) 자료 확보 시 재평가",
+        "지지 근거 중 하나라도 공식적으로 철회·악화되거나, 구조위험 조건이 나오면 결론이 바뀐다.",
         "Dana와의 Mobility 분리합병이 예정대로 2027 Q1에 종결되는지 확인",
-        "다음 분기 운전자본(재고·매출채권) 세부 데이터 확보 시 관측축 확대",
-        "GAAP 순이익 감소의 구체적 원인(일회성 비용 항목)이 10-Q/10-K에서 확인되는 경우"
+        "다음 분기 운전자본(재고·매출채권) 세부 데이터 확보 시 관측축 확대"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
-      "evidence_auto_count": 0,
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 3건(2026-09-30 분기)",
+      "evidence_auto_count": 3,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
       "primary_etf": "XLI",
