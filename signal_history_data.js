@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793736181.3371286,
+  "generatedAt": 1793736433.2715566,
   "records": {
     "MSFT": [
       {
@@ -9483,6 +9483,41 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "TSLA": [
       {
+        "changedAt": 1793736433.2715566,
+        "dataAsOf": 1793727975,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.22,
+            "after": 1.75
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -3.67,
+            "after": -2.62
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.22,
+            "after": -0.7
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "주의 강화",
+            "after": "중립·확인 대기"
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Elon Musk의 Tesla와 SpaceX는 OKX-ICE 토큰화된 장소에서 주식을 차단합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=0bc8996724b1b679ff1302af6294eff6a1848ddc8916086c98b04ace0beba44a",
+        "eventId": "8e1382f160a0d7b5f4a8",
+        "fingerprint": "{\"changes\": [{\"after\": 1.75, \"before\": 1.22, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.62, \"before\": -3.67, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.7, \"before\": -1.22, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"8e1382f160a0d7b5f4a8\"}"
+      },
+      {
         "changedAt": 1793736181.3371286,
         "dataAsOf": 1793727975,
         "changes": [
@@ -11306,35 +11341,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=d5712ff407b98f8701e42e53341a2b07d726d0aee429204cd8ed334a956628a7",
         "eventId": "3aaa2de595c76d97675e",
         "fingerprint": "{\"changes\": [{\"after\": -1.75, \"before\": -1.4, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.15, \"before\": -2.45, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -2.1, \"before\": -1.75, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"3aaa2de595c76d97675e\"}"
-      },
-      {
-        "changedAt": 1792079601.6782334,
-        "dataAsOf": 1792068309,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": -0.87,
-            "after": -1.4
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -1.4,
-            "after": -2.45
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -1.22,
-            "after": -1.75
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "Alphabet Might Use Waymo to Destroy Tesla’s First-Mover “Robotaxi Monopoly” Premium",
-        "newsUrl": "https://finnhub.io/api/news?id=d5712ff407b98f8701e42e53341a2b07d726d0aee429204cd8ed334a956628a7",
-        "eventId": "3aaa2de595c76d97675e",
-        "fingerprint": "{\"changes\": [{\"after\": -1.4, \"before\": -0.87, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.45, \"before\": -1.4, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.75, \"before\": -1.22, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"3aaa2de595c76d97675e\"}"
       }
     ],
     "ORCL": [
@@ -57593,6 +57599,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "STX": [
       {
+        "changedAt": 1793736433.2715566,
+        "dataAsOf": 1793728041,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": 0.0,
+            "after": -1.05
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": 0.0,
+            "after": -0.52
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.35,
+            "after": -0.7
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Seagate는 SSD에 패할 것으로 예상되었습니다. 10년 전 1,000달러를 투자한 금액은 다음과 같습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=75eae8f259bf85502ee5241675a740f8bf8bb69d746577cb6a0cd6a853b95a8b",
+        "eventId": "9fc0b5e6dbcf5fc12afb",
+        "fingerprint": "{\"changes\": [{\"after\": -1.05, \"before\": 0.0, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -0.52, \"before\": 0.0, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.7, \"before\": 0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"9fc0b5e6dbcf5fc12afb\"}"
+      },
+      {
         "changedAt": 1793736181.3371286,
         "dataAsOf": 1793603055,
         "changes": [
@@ -59608,41 +59643,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=1ae18bd9a14eb157bee6bc79971dad842ae599ae37fd3c5d621ee1a727ac7ba6",
         "eventId": "153b34f2955f97f974f5",
         "fingerprint": "{\"changes\": [{\"after\": 1.05, \"before\": 0.7, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.05, \"before\": -1.4, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -0.52, \"before\": -0.87, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.52, \"before\": -0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"153b34f2955f97f974f5\"}"
-      },
-      {
-        "changedAt": 1790957376.0483665,
-        "dataAsOf": 1790932527,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 0.0,
-            "after": 0.52
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": -0.35,
-            "after": 0.7
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -1.4,
-            "after": -0.87
-          },
-          {
-            "key": "signal",
-            "label": "종합 시그널",
-            "before": "주의 강화",
-            "after": "중립·확인 대기"
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "Toshiba는 HDD 공급을 두 배로 늘리고 싶어 - Western Digital, Seagate 투자자들은 이를 좋아하지 않음",
-        "newsUrl": "https://finnhub.io/api/news?id=1ae18bd9a14eb157bee6bc79971dad842ae599ae37fd3c5d621ee1a727ac7ba6",
-        "eventId": "153b34f2955f97f974f5",
-        "fingerprint": "{\"changes\": [{\"after\": 0.52, \"before\": 0.0, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.7, \"before\": -0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.87, \"before\": -1.4, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"153b34f2955f97f974f5\"}"
       }
     ],
     "EME": [
