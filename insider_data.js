@@ -2764,8 +2764,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793620869.0564315,
-    "_updated_label": "2026-11-02"
+    "_fetched_at": 1793696169.9215937,
+    "_updated_label": "2026-11-03"
   },
   "LITE": {
     "transactions": [
