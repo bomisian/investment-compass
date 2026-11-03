@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793684747.802755,
+  "generatedAt": 1793687129.3540704,
   "events": [
     {
       "id": "7abc9fac2edae1f2c6fc",
@@ -11058,7 +11058,7 @@ const EVENT_DATA = {
               "variancePct": 0.42,
               "actualEndDate": "2026-03-28",
               "source": "SEC Company Facts",
-              "settledAt": 1793684747.083896,
+              "settledAt": 1793687128.7418094,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
