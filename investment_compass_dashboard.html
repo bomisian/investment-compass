@@ -15931,6 +15931,17 @@ function tabFairValue100(r){
 // price_map_data.js(142 판단 엔진과 완전히 독립 산출된 가격 지도)의 근거를 그대로 보여준다.
 // 숫자를 다시 계산하거나 요약하면서 바꾸지 않고 산출된 필드를 표시만 한다. 01 판단 탭의
 // 판정·알림 로직은 이 함수에서 전혀 호출하지 않는다.
+// [2026-11-03] TTM EPS 일회성 보정 줄 - price_map_engine.py ttmEpsSelection.oneOffAdjust가 있을 때만(표시 전용)
+function pmTtmOneOffLine(pm){
+  const sel = (pm && pm.ttmEpsSelection) || {};
+  const adj = sel.oneOffAdjust, ap = sel.oneOffApplied || [];
+  const raw = (typeof sel.quarterlyRaw === 'number') ? sel.quarterlyRaw : sel.finnhubRaw;
+  if(typeof adj !== 'number' || typeof raw !== 'number' || !ap.length) return '';
+  const fin = (typeof pm.ttmEps === 'number') ? '$' + pm.ttmEps.toFixed(2) : '과거 PER 후보 미사용(보정 후 0 이하)';
+  const sign = adj < 0 ? '−' : '+';
+  const qs = ap.slice().sort((x, y) => String(x.quarterEnd).localeCompare(String(y.quarterEnd))).map(a => `${String(a.quarterEnd).slice(0, 7)} ${String(a.op).replace('-', '−')}`).join(', ');
+  return `<div class="sub" style="margin-top:4px;">TTM EPS: 보고 $${raw.toFixed(2)} → 일회성 보정 ${sign}${Math.abs(adj).toFixed(2)}(분기 ${ap.length}개, 회사 공시) → ${fin} <span class="sub">(${esc(qs)})</span></div>`;
+}
 function tabPriceMap(r){
   const pm = pmData(r.ticker);
   if(!pm) return `<div class="comment-box" style="background:var(--panel-2);">이 종목은 가격 지도 자료(price_map_data.js)가 아직 없어요.</div>`;
@@ -15997,6 +16008,7 @@ function tabPriceMap(r){
     <b>적정가 근거</b>
     <div class="sub" style="margin-top:2px;">${esc(pm.fairPriceBasis||'')} · 적용 EPS ${usd(pm.epsUsedForCandidates)}${pm.epsBasisNote?` <span class="sub">(${esc(pm.epsBasisNote)})</span>`:''} · 환산 적정 PER ${typeof pm.convertedFairPer==='number'?pm.convertedFairPer.toFixed(1)+'배':'—'}</div>
     <ul style="margin:6px 0 0 18px;">${candHtml}</ul>
+    ${pmTtmOneOffLine(pm)}
     ${fairAltHtml}
     <div class="sub" style="margin-top:4px;">종목 유형: ${esc(pm.stockType)}${pm.stockTypeReason?` <span class="sub">(${esc(pm.stockTypeReason)})</span>`:''}</div>
   </div>
