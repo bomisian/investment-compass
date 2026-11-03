@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793668261.319447,
+  "generatedAt": 1793670536.68195,
   "events": [
     {
       "id": "7abc9fac2edae1f2c6fc",
@@ -1224,6 +1224,77 @@ const EVENT_DATA = {
         "실제 CAPEX 집행",
         "공급업체 수주·매출",
         "투자 기업 OCF·FCF·부채"
+      ]
+    },
+    {
+      "id": "6d4587721008beb9cd12",
+      "schemaVersion": 1,
+      "eventType": "regulatory_legal_export",
+      "eventLabel": "규제·소송·수출 제한",
+      "primaryTicker": "CEG",
+      "relatedTickers": [
+        "CEG",
+        "QQQ",
+        "SPY"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Constellation Energy vs. NextEra Energy: Which Utilities Stock Is a Better Buy for 2027?",
+      "headlineKo": "Constellation Energy vs. NextEra Energy: 2027년에는 어느 유틸리티 주식이 더 나은 매수인가요?",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c4ec679f6db9beccdf6172a976420812da1c10b9dbf5f9a61aebb65f4c57f9a5",
+        "publishedAt": 1793653954,
+        "collectedAt": 1793670500.105879
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "NextEra Energy: 2027년에 어떤 유틸리티 주식을 구매하는 것이 더 나은가요?",
+        "| The Motley Fool 접근성 도움말 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool S&P 500 7,541.40 -0.5% -38.67 DJI 51,983.98 +0.4% +213.67 NASDAQ 25,164.36 -1.1% -272.64 비트코인 $77,086.00 -1.8% -$1,411.25 SPCX $136.37 +1",
+        "NextEra Energy는 플로리다의 대규모 규제 유틸리티와 세계 최대의 재생 가능 에너지 개발 사업을 결합합니다."
+      ],
+      "marketInterpretation": [
+        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 1.96%, 1.58%, $257.25 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "CEG에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 1.96%, 1.58%, $257.25 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "CEG",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "공식 규제 적용일·대상 제품",
+        "회사의 매출 영향 추정",
+        "대체 제품·지역 판매"
       ]
     },
     {
@@ -5395,8 +5466,8 @@ const EVENT_DATA = {
         "kind": "reported",
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
-      "direction": "neutral",
-      "expectedHorizon": "다음 실적까지 확인",
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Constellation Energy Corporation (CEG) Earnings Expected to Grow: Should You Buy?",
@@ -5405,45 +5476,34 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d6400ea763c1b8385d08d64a551cfb29f5026921024d838f8c080c5d3ec55e53",
         "publishedAt": 1793628005,
-        "collectedAt": 1793647815.7633467
+        "collectedAt": 1793670500.105879
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Constellation Energy Corporation (CEG) Earnings Expected to Grow: Should You Buy?",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+        "Constellation Energy Corporation (CEG) 수익 증가 예상: 매수해야 할까요?"
       ],
-      "marketInterpretation": [
-        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-        "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
+      "marketInterpretation": [],
       "aiInference": [
-        "CEG에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
       ],
       "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
       ],
       "beginnerExplanation": [
-        "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
       ],
       "whyItMatters": [
-        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-        "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
       ],
       "impacts": [
         {
           "ticker": "CEG",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
+          "direction": "mixed",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
         }
       ],
-      "watch": [
-        "매출·영업이익 성장",
-        "정상화이익과 특이항목",
-        "가이던스·OCF·FCF"
-      ]
+      "watch": []
     },
     {
       "id": "cfce5182cf44d181e133",
@@ -5844,7 +5904,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=994dd6f153095df4004847ca19cedc376791dd6156ba63af9f225612ca4cf2ad",
         "publishedAt": 1793625802,
-        "collectedAt": 1793647815.7633467
+        "collectedAt": 1793670500.105879
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10998,7 +11058,7 @@ const EVENT_DATA = {
               "variancePct": 0.42,
               "actualEndDate": "2026-03-28",
               "source": "SEC Company Facts",
-              "settledAt": 1793668247.1353207,
+              "settledAt": 1793670535.9664562,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -17988,62 +18048,6 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
-    },
-    {
-      "id": "788cc7003b8f4e178fdd",
-      "schemaVersion": 1,
-      "eventType": "major_customer_contract",
-      "eventLabel": "주요 고객 계약",
-      "primaryTicker": "CRM",
-      "relatedTickers": [
-        "CRM"
-      ],
-      "relatedEntities": [],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "중기·장기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune",
-      "headlineKo": "국방 기술 스타트업 Rune에 대한 3억 7,500만 달러 규모의 거래로 Salesforce의 M&A가 계속되고 있습니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0443800ddf46293c1da6d8109be691a21d454773ab480b1a15493b749ade90e1",
-        "publishedAt": 1793402483,
-        "collectedAt": 1793667787.814281
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "국방 기술 스타트업 Rune에 대한 3억 7,500만 달러 규모의 거래로 Salesforce의 M&A가 계속되고 있습니다."
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "CRM",
-          "direction": "positive",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
     }
   ],
   "byTicker": {
@@ -18300,6 +18304,7 @@ const EVENT_DATA = {
       "40fbcdf014a9bfd64604",
       "33c6e088e4cdbc3e4a59",
       "7ce07cb85e5815b2615a",
+      "6d4587721008beb9cd12",
       "15f2ff936bb32bd645af",
       "8eb3bbe6961c6a64ea58",
       "99a11ca54cbfe32ce311",
@@ -18365,6 +18370,7 @@ const EVENT_DATA = {
       "c6079b47b70a08a3bc19",
       "33c6e088e4cdbc3e4a59",
       "7ce07cb85e5815b2615a",
+      "6d4587721008beb9cd12",
       "aaede6f70340e92d3dac",
       "15f2ff936bb32bd645af",
       "8eb3bbe6961c6a64ea58",
@@ -18514,6 +18520,10 @@ const EVENT_DATA = {
       "2240b197470270d6ab16",
       "2cd82e53f7dfe515404d"
     ],
+    "CEG": [
+      "6d4587721008beb9cd12",
+      "70dbe698752d7cbfcffa"
+    ],
     "GEV": [
       "aaede6f70340e92d3dac",
       "1038c6754ced4d8a2576",
@@ -18596,8 +18606,7 @@ const EVENT_DATA = {
       "2fe61d0e222660322817"
     ],
     "CRM": [
-      "929a472032603a6565ec",
-      "788cc7003b8f4e178fdd"
+      "929a472032603a6565ec"
     ],
     "COHR": [
       "0f91264d79c8938d5fa4",
@@ -18624,9 +18633,6 @@ const EVENT_DATA = {
       "3cf4075d96bcea8d393e",
       "991337b25ca4056de65b",
       "a8134328fd692556ef21"
-    ],
-    "CEG": [
-      "70dbe698752d7cbfcffa"
     ],
     "AVGO": [
       "a2fa0fdf1e102099d00f",
