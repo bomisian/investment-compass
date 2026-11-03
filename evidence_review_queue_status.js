@@ -153,6 +153,13 @@ const EVIDENCE_REVIEW_QUEUE_STATUS = {
     "filingDate": "2026-11-02",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
+  },
+  "ETN": {
+    "pendingDays": 1,
+    "form": "10-Q",
+    "filingDate": "2026-11-03",
+    "level": "ok",
+    "confidenceLevel": "confirmed"
   }
 };
 const EVIDENCE_RESULTS_PERIOD = {
