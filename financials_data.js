@@ -5567,16 +5567,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1793744262.662978,
-    "_updated_label": "2026-11-04 07:17"
+    "_fetched_at": 1793746142.6186192,
+    "_updated_label": "2026-11-04 07:49"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1793744262.662978,
-    "_updated_label": "2026-11-04 07:17"
+    "_fetched_at": 1793746142.6186192,
+    "_updated_label": "2026-11-04 07:49"
   },
   "ORCL": {
     "annual": [
@@ -9523,7 +9523,17 @@ const FINANCIALS_DATA = {
         "ocf": 6363000000,
         "capex": -54000000,
         "fcf": 6309000000,
-        "_fcfIsProxy": true
+        "_fcfIsProxy": true,
+        "pretaxIncome": 9319000000.0,
+        "taxProvision": 1218000000.0,
+        "normalizedIncome": 7655049468.827127,
+        "unusualItems": 513000000.0,
+        "unusualItemsExGoodwill": 513000000.0,
+        "unusualTaxEffect": 67049468.827127,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": -23000000.0,
+        "restructuring": 0.0,
+        "stockComp": 91000000.0
       }
     ],
     "_currency": "USD",
@@ -9566,7 +9576,7 @@ const FINANCIALS_DATA = {
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
     "_fetched_at": 1793397618.1320667,
-    "_updated_label": "2026-11-03 07:48",
+    "_updated_label": "2026-11-04 07:49",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -9593,7 +9603,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1793659719.7003896,
+    "_yahoo_verified_at": 1793746147.5496807,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "WDC": {
@@ -13083,8 +13093,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1793744262.662978,
-    "_updated_label": "2026-11-04 07:17",
+    "_fetched_at": 1793746142.6186192,
+    "_updated_label": "2026-11-04 07:49",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -13111,7 +13121,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1793744268.2089536,
+    "_yahoo_verified_at": 1793746147.5496807,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "PWR": {
