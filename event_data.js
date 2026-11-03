@@ -1,8 +1,75 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793691976.9405942,
+  "generatedAt": 1793694097.1836958,
   "events": [
+    {
+      "id": "e8bc0fdf77099ee46c2e",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "실적 발표",
+      "primaryTicker": "ETN",
+      "relatedTickers": [
+        "ETN"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "neutral",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Eaton (ETN) Reaffirms Dividend As AI Power Narrative Keeps Valuation In Focus",
+      "headlineKo": "Eaton (ETN), AI Power Narrative가 가치 평가에 초점을 맞추면서 배당금 재확인",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b7029c5709b0c9edffdd279622eeeae415ffd36c8aaaaf020e1fb6da05f96f4f",
+        "publishedAt": 1793689634,
+        "collectedAt": 1793694055.6658762
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Eaton (ETN) Reaffirms Dividend As AI Power Narrative Keeps Valuation In Focus",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "ETN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "ETN에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "ETN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "ETN",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "매출·영업이익 성장",
+        "정상화이익과 특이항목",
+        "가이던스·OCF·FCF"
+      ]
+    },
     {
       "id": "0e50e111019d92246dda",
       "schemaVersion": 1,
@@ -3071,12 +3138,12 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c4ec679f6db9beccdf6172a976420812da1c10b9dbf5f9a61aebb65f4c57f9a5",
         "publishedAt": 1793653954,
-        "collectedAt": 1793670500.105879
+        "collectedAt": 1793694055.6658762
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "NextEra Energy: 2027년에 어떤 유틸리티 주식을 구매하는 것이 더 나은가요?",
-        "| The Motley Fool 접근성 도움말 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool S&P 500 7,541.40 -0.5% -38.67 DJI 51,983.98 +0.4% +213.67 NASDAQ 25,164.36 -1.1% -272.64 비트코인 $77,086.00 -1.8% -$1,411.25 SPCX $136.37 +1",
+        "| The Motley Fool 접근성 도움말 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool S&P 500 7,541.40 -0.5% -38.67 DJI 51,983.98 +0.4% +213.67 NASDAQ 25,164.36 -1.1% -272.64 비트코인 $76,723.00 -1.7% -$1,354.12 SPCX $136.37 +1",
         "NextEra Energy는 플로리다의 대규모 규제 유틸리티와 세계 최대의 재생 가능 에너지 개발 사업을 결합합니다."
       ],
       "marketInterpretation": [
@@ -7360,7 +7427,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d6400ea763c1b8385d08d64a551cfb29f5026921024d838f8c080c5d3ec55e53",
         "publishedAt": 1793628005,
-        "collectedAt": 1793670500.105879
+        "collectedAt": 1793694055.6658762
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7852,7 +7919,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=994dd6f153095df4004847ca19cedc376791dd6156ba63af9f225612ca4cf2ad",
         "publishedAt": 1793625802,
-        "collectedAt": 1793670500.105879
+        "collectedAt": 1793694055.6658762
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13016,7 +13083,7 @@ const EVENT_DATA = {
               "variancePct": 0.42,
               "actualEndDate": "2026-03-28",
               "source": "SEC Company Facts",
-              "settledAt": 1793691953.2870038,
+              "settledAt": 1793694096.5730464,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -17778,86 +17845,12 @@ const EVENT_DATA = {
         "컨센서스 추정치 변경",
         "마진·FCF 전망"
       ]
-    },
-    {
-      "id": "006e8a8b4f47da414422",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "AAPL",
-      "relatedTickers": [
-        "AAPL",
-        "AMZN",
-        "INTC"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Apple",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Apple Leads Packed Earnings Calendar As Investors Eye Tech, Pharma Results",
-      "headlineKo": "Apple, 투자자로서 꽉 찬 수익 캘린더 주도 Eye Tech, Pharma 결과",
-      "source": {
-        "name": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=830af5c87daf35a8f602c2ec6680ca3553df23bdc7beabc0bcac73d5ef2dce14",
-        "publishedAt": 1793444400,
-        "collectedAt": 1793691226.263193
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Apple, 투자자로서 꽉 찬 수익 일정 주도 Eye Tech, Pharma 결과 | Seeking Alpha Wall Street Week Ahead 팔로워 87.09K 팔로우 주요 행사 미리보기인 Seeking Alpha의 Wall Street Week Ahead를 구독하여 시장에서 앞서 나가세요.",
-        "뉴스레터는 다가오는 IPO, 투자자의 날, 수익 보고서 및 컨퍼런스 프레젠테이션을 포함하여 헤드라인을 장식할 가장 큰 이야기에 대한 정보를 계속 제공합니다.",
-        "아마존(AMZN)과 인텔(INTC)이 지수를 끌어내린 또 다른 실망스러운 수익 보고서가 나온 이후 금요일에도 주식은 계속 하락했습니다."
-      ],
-      "marketInterpretation": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.8% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "AAPL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.8% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AAPL",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "실제 CAPEX 집행",
-        "공급업체 수주·매출",
-        "투자 기업 OCF·FCF·부채"
-      ]
     }
   ],
   "byTicker": {
+    "ETN": [
+      "e8bc0fdf77099ee46c2e"
+    ],
     "ARM": [
       "0e50e111019d92246dda",
       "f0d4709f2e6210c6ff33",
@@ -18108,8 +18101,7 @@ const EVENT_DATA = {
       "3cf4075d96bcea8d393e",
       "26ef2091f1d5f3f77aae",
       "5dc062e1414da95ee492",
-      "4ea7cfb53a2fc8cad1e5",
-      "006e8a8b4f47da414422"
+      "4ea7cfb53a2fc8cad1e5"
     ],
     "PLTR": [
       "87448a4d1f438013b4dd",
@@ -18152,8 +18144,7 @@ const EVENT_DATA = {
       "b57c183cb9299657b918",
       "66313ba0d255d75828c7",
       "f87340c6ad9a1e22b938",
-      "35f79db4f120dc46efc1",
-      "006e8a8b4f47da414422"
+      "35f79db4f120dc46efc1"
     ],
     "MU": [
       "d1e0253cbb5b49e6ab4e",
@@ -18299,8 +18290,7 @@ const EVENT_DATA = {
       "bf46bb095531a135a066",
       "a51e0807f713a58acf0e",
       "e870ac582b3ab561df69",
-      "9f2da03fe32d506b0f33",
-      "006e8a8b4f47da414422"
+      "9f2da03fe32d506b0f33"
     ],
     "META": [
       "e5b39a9cb95a447f2b23",

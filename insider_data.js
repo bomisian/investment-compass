@@ -2528,8 +2528,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793620869.0564315,
-    "_updated_label": "2026-11-02"
+    "_fetched_at": 1793694097.4468844,
+    "_updated_label": "2026-11-03"
   },
   "ANET": {
     "transactions": [
@@ -2694,8 +2694,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793620869.0564315,
-    "_updated_label": "2026-11-02"
+    "_fetched_at": 1793694097.4468844,
+    "_updated_label": "2026-11-03"
   },
   "COHR": {
     "transactions": [
@@ -3369,8 +3369,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1793617296.3503273,
-    "_updated_label": "2026-11-02"
+    "_fetched_at": 1793694097.4468844,
+    "_updated_label": "2026-11-03"
   },
   "BE": {
     "transactions": [
