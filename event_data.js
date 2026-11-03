@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1793732418.2746058,
+  "generatedAt": 1793733715.986198,
   "events": [
     {
       "id": "de2450d9346277fdf107",
@@ -8544,6 +8544,133 @@ const EVENT_DATA = {
       "watch": []
     },
     {
+      "id": "fdae760b0ce210e64541",
+      "schemaVersion": 1,
+      "eventType": "dilution_warrant",
+      "eventLabel": "증권등록·투자설명서 제출",
+      "primaryTicker": "META",
+      "relatedTickers": [
+        "META"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "META SEC Form 424B5 filed",
+      "headlineKo": "META SEC Form 424B5 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526444440/d135326d424b5.htm",
+        "publishedAt": 1793631600.0,
+        "collectedAt": 1793733684.0377934
+      },
+      "confirmedFacts": [
+        "META가 2026-11-03에 SEC Form 424B5을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "META",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "실제 발행 여부와 주식 수",
+        "발행가격·워런트·전환 조건",
+        "조달 자금 사용처와 완전희석 EPS"
+      ],
+      "earningsEvidence": null
+    },
+    {
+      "id": "7f973250812fe77e865a",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "정기 실적 공시",
+      "primaryTicker": "AAPL",
+      "relatedTickers": [
+        "AAPL"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "AAPL SEC Form 10-K filed",
+      "headlineKo": "AAPL SEC Form 10-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm",
+        "publishedAt": 1793631600.0,
+        "collectedAt": 1793733684.0377934
+      },
+      "confirmedFacts": [
+        "AAPL가 2026-11-03에 SEC Form 10-K을 제출했습니다."
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 SEC에 공식 정기보고서를 냈다는 뜻입니다. 기사 숫자보다 이 원문에 적힌 매출·이익·현금흐름을 우선 확인합니다."
+      ],
+      "whyItMatters": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AAPL",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "매출·영업이익·OCF·FCF",
+        "가이던스와 위험요인 변화",
+        "일회성 손익·회계정책 변화"
+      ],
+      "earningsEvidence": null
+    },
+    {
       "id": "d746edbda425108c45ce",
       "schemaVersion": 1,
       "eventType": "earnings_result",
@@ -8570,7 +8697,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
         "publishedAt": 1793631600.0,
-        "collectedAt": 1793710912.0141702
+        "collectedAt": 1793733684.0377934
       },
       "confirmedFacts": [
         "PLTR가 2026-11-03에 SEC Form 10-Q을 제출했습니다."
@@ -8605,6 +8732,209 @@ const EVENT_DATA = {
         "일회성 손익·회계정책 변화"
       ],
       "earningsEvidence": null
+    },
+    {
+      "id": "930d501949246ba3c666",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "정기 실적 공시",
+      "primaryTicker": "ETN",
+      "relatedTickers": [
+        "ETN"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "ETN SEC Form 10-Q filed",
+      "headlineKo": "ETN SEC Form 10-Q 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000040/etn-20260930.htm",
+        "publishedAt": 1793631600.0,
+        "collectedAt": 1793733684.0377934
+      },
+      "confirmedFacts": [
+        "ETN가 2026-11-03에 SEC Form 10-Q을 제출했습니다."
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 SEC에 공식 정기보고서를 냈다는 뜻입니다. 기사 숫자보다 이 원문에 적힌 매출·이익·현금흐름을 우선 확인합니다."
+      ],
+      "whyItMatters": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "ETN",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "매출·영업이익·OCF·FCF",
+        "가이던스와 위험요인 변화",
+        "일회성 손익·회계정책 변화"
+      ],
+      "earningsEvidence": null
+    },
+    {
+      "id": "906231c6728f81e433cb",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "EPS",
+      "primaryTicker": "ETN",
+      "relatedTickers": [
+        "ETN"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "ETN SEC Form 8-K filed",
+      "headlineKo": "ETN SEC Form 8-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000037/etn-20261103.htm",
+        "publishedAt": 1793631600.0,
+        "collectedAt": 1793733684.0377934
+      },
+      "confirmedFacts": [
+        "ETN가 2026-11-03에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 재무제표·첨부자료",
+        "SEC Company Facts Q2'26: 매출 $8.53B · 영업이익 $1.39B · 순이익 $0.82B",
+        "SEC 공식 실적발표 첨부자료의 현재 가이던스: EPS 10.39~10.49 USD/share · EPS 13.7~13.8 USD/share"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다.",
+        "Finnhub 시장 EPS 컨센서스 대비 예상 상회: 실제 3.68 / 예상 3.5787 (+2.83%). SEC 공식 수치와는 별도 출처입니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다.",
+        "공식 첨부자료에서 현재 가이던스를 확인해 기준점 2회를 저장했습니다. 같은 대상기간의 이전 공식 가이던스가 없어 아직 상향·유지·하향으로 판정하지 않았습니다."
+      ],
+      "unverified": [
+        "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 실적을 SEC에 공식 제출했습니다. 매출·영업이익·순이익은 SEC 검증 수치를 우선하고, EPS 예상 상회·하회는 별도 시장 컨센서스와 비교합니다."
+      ],
+      "whyItMatters": [
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "ETN",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "매출·영업이익·순이익의 전년 대비 변화",
+        "현재 가이던스와 다음 분기 실제 결과",
+        "일회성 손익·OCF·FCF"
+      ],
+      "earningsEvidence": {
+        "version": 8,
+        "analyzedAt": 1793733684.0377934,
+        "officialActuals": {
+          "status": "available",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "endDate": "2026-06-30",
+          "metrics": {
+            "revenue": 8531000000.0,
+            "opIncome": 1392000000.0,
+            "netIncome": 821000000.0
+          }
+        },
+        "guidance": {
+          "status": "available",
+          "metrics": [
+            {
+              "metric": "eps",
+              "low": 10.39,
+              "high": 10.49,
+              "unit": "USD/share",
+              "basis": "gaap_or_unspecified"
+            },
+            {
+              "metric": "eps",
+              "low": 13.7,
+              "high": 13.8,
+              "unit": "USD/share",
+              "basis": "non_gaap"
+            }
+          ],
+          "targetPeriod": "fiscal year 2026",
+          "comparison": "no_prior_guidance"
+        },
+        "consensusComparison": {
+          "status": "available",
+          "source": "Finnhub earnings consensus",
+          "metric": "eps",
+          "actual": 3.68,
+          "estimate": 3.5787,
+          "providerPeriod": "2026-09-30",
+          "label": "beat",
+          "surprisePct": 2.83,
+          "notice": "시장 데이터 제공자의 최근 EPS 컨센서스입니다. SEC 공식 숫자와 출처가 다르며 제공자 회계기간 표기가 공시일과 다를 수 있습니다."
+        },
+        "notice": "확인된 사실(SEC)과 시장 컨센서스(Finnhub)를 분리했습니다. 이전 공식 가이던스가 없으면 상향·하향으로 판정하지 않습니다.",
+        "exhibit": {
+          "status": "available",
+          "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000037/etn09302026exhibit99.htm"
+        },
+        "guidanceComparison": {
+          "status": "unavailable",
+          "reason": "같은 대상기간의 이전 공식 가이던스 없음"
+        },
+        "guidanceHistory": [
+          {
+            "filingDate": "2026-07-31",
+            "targetPeriod": "first quarter 2027",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000027/etn06302026exhibit99.htm",
+            "outcome": null
+          },
+          {
+            "filingDate": "2026-11-03",
+            "targetPeriod": "fiscal year 2026",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000037/etn09302026exhibit99.htm",
+            "outcome": null
+          }
+        ],
+        "guidanceOutcome": null
+      }
     },
     {
       "id": "a0cb0758d93fa6afb83d",
@@ -13908,7 +14238,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526442618/d150456d424b2.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793710912.0141702
+        "collectedAt": 1793733684.0377934
       },
       "confirmedFacts": [
         "MSFT가 2026-11-02에 SEC Form 424B2을 제출했습니다.",
@@ -13972,7 +14302,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526442515/d125079d424b5.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793710912.0141702
+        "collectedAt": 1793733684.0377934
       },
       "confirmedFacts": [
         "GOOGL가 2026-11-02에 SEC Form 424B5을 제출했습니다.",
@@ -14036,7 +14366,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/aapl-20261102.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793710912.0141702
+        "collectedAt": 1793733684.0377934
       },
       "confirmedFacts": [
         "AAPL가 2026-11-02에 SEC Form 8-K을 제출했습니다.",
@@ -14075,7 +14405,7 @@ const EVENT_DATA = {
       ],
       "earningsEvidence": {
         "version": 8,
-        "analyzedAt": 1793710912.0141702,
+        "analyzedAt": 1793733684.0377934,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
@@ -14137,7 +14467,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526442729/d181425d424b5.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793710912.0141702
+        "collectedAt": 1793733684.0377934
       },
       "confirmedFacts": [
         "ORCL가 2026-11-02에 SEC Form 424B5을 제출했습니다.",
@@ -14201,7 +14531,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526442722/d181336d424b2.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793710912.0141702
+        "collectedAt": 1793733684.0377934
       },
       "confirmedFacts": [
         "ORCL가 2026-11-02에 SEC Form 424B2을 제출했습니다.",
@@ -14265,7 +14595,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526442669/d181173ds3asr.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793710912.0141702
+        "collectedAt": 1793733684.0377934
       },
       "confirmedFacts": [
         "ORCL가 2026-11-02에 SEC Form S-3ASR을 제출했습니다.",
@@ -14329,7 +14659,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/pltr-20261102.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793710912.0141702
+        "collectedAt": 1793733684.0377934
       },
       "confirmedFacts": [
         "PLTR가 2026-11-02에 SEC Form 8-K을 제출했습니다.",
@@ -14370,7 +14700,7 @@ const EVENT_DATA = {
       ],
       "earningsEvidence": {
         "version": 8,
-        "analyzedAt": 1793710912.0141702,
+        "analyzedAt": 1793733684.0377934,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
@@ -14466,7 +14796,7 @@ const EVENT_DATA = {
               "variancePct": 7.0,
               "actualEndDate": "2026-09-30",
               "source": "SEC Company Facts",
-              "settledAt": 1793732417.7093685,
+              "settledAt": 1793733684.0377934,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -14508,7 +14838,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526442717/d352474d8k.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793710912.0141702
+        "collectedAt": 1793733684.0377934
       },
       "confirmedFacts": [
         "MRVL가 2026-11-02에 SEC Form 8-K을 제출했습니다.",
@@ -14573,7 +14903,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526442714/d81187d8k.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793710912.0141702
+        "collectedAt": 1793733684.0377934
       },
       "confirmedFacts": [
         "MRVL가 2026-11-02에 SEC Form 8-K을 제출했습니다.",
@@ -14613,7 +14943,7 @@ const EVENT_DATA = {
       ],
       "earningsEvidence": {
         "version": 8,
-        "analyzedAt": 1793710912.0141702,
+        "analyzedAt": 1793733684.0377934,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
@@ -14676,7 +15006,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526442758/d163169d8k.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793710912.0141702
+        "collectedAt": 1793733684.0377934
       },
       "confirmedFacts": [
         "LITE가 2026-11-02에 SEC Form 8-K을 제출했습니다.",
@@ -14741,7 +15071,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026068655/lite-20261102.htm",
         "publishedAt": 1793545200.0,
-        "collectedAt": 1793710912.0141702
+        "collectedAt": 1793733684.0377934
       },
       "confirmedFacts": [
         "LITE가 2026-11-02에 SEC Form 8-K을 제출했습니다.",
@@ -14782,7 +15112,7 @@ const EVENT_DATA = {
       ],
       "earningsEvidence": {
         "version": 8,
-        "analyzedAt": 1793710912.0141702,
+        "analyzedAt": 1793733684.0377934,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
@@ -14865,7 +15195,7 @@ const EVENT_DATA = {
               "variancePct": 0.42,
               "actualEndDate": "2026-03-28",
               "source": "SEC Company Facts",
-              "settledAt": 1793732417.7093685,
+              "settledAt": 1793733684.0377934,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -17343,298 +17673,6 @@ const EVENT_DATA = {
         "CAPEX 대비 영업현금흐름",
         "금리와 프로젝트 부채 비용"
       ]
-    },
-    {
-      "id": "13f349f7fe7707be70f9",
-      "schemaVersion": 1,
-      "eventType": "long_term_supply",
-      "eventLabel": "장기 공급계약",
-      "primaryTicker": "META",
-      "relatedTickers": [
-        "META",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Meta",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "3 Numbers to Watch to Know if Meta Platforms' AI Spending Is Paying Off",
-      "headlineKo": "메타 플랫폼의 AI 지출이 성과를 거두고 있는지 알아보기 위해 주목해야 할 3가지 수치",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=62cddd48a770c1431a793e5aeb0e2d9d84be3948e899f950f9f2fcb839893afe",
-        "publishedAt": 1793474460,
-        "collectedAt": 1793713192.8645778
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "메타 플랫폼의 AI 지출이 성과를 내고 있는지 확인해야 할 3가지 사항 | The Motley Fool 접근성 도움말 ▲ S&P 500 + --- % | ▲ Stock Advisor + --- % 가입 The Motley Fool Mark Zuckerberg, Meta Platforms (META -1.53%) 설립자 겸 CEO, v",
-        "따라서 2026년 자본 지출 (capex) 로 $ 1,350억 ~ $ 1,450억의 지출이 계획되어 있어 상한선이 없는 것으로 보인다.",
-        "내년에는 그 숫자가 훨씬 더 늘어날 것입니다."
-      ],
-      "marketInterpretation": [
-        "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: $135 billion, $145 billion, 20% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "META의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "META에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: $135 billion, $145 billion, 20% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "META의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "META",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "계약 기간·최소구매 조건",
-        "연도별 매출 인식",
-        "수주잔고·취소 조건"
-      ]
-    },
-    {
-      "id": "72fd76cf82864a5e012e",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "MSFT",
-      "relatedTickers": [
-        "MSFT"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Microsoft",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "neutral",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "5 insightful analyst questions from Microsoft’s Q3 earnings call",
-      "headlineKo": "Microsoft의 3분기 실적 발표에서 나온 통찰력 있는 분석가의 질문 5가지",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1fe8269cf16073e3cd8dff3d3a31e011dbefcecd9a7f283a6fa1ea73e26a0584",
-        "publishedAt": 1793471249,
-        "collectedAt": 1793713192.8645778
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "5 insightful analyst questions from Microsoft’s Q3 earnings call",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-        "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "MSFT에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-        "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "MSFT",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "매출·영업이익 성장",
-        "정상화이익과 특이항목",
-        "가이던스·OCF·FCF"
-      ]
-    },
-    {
-      "id": "db8371e1281bbccb718c",
-      "schemaVersion": 1,
-      "eventType": "long_term_supply",
-      "eventLabel": "장기 공급계약",
-      "primaryTicker": "MRVL",
-      "relatedTickers": [
-        "LITE",
-        "MRVL"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Marvell",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Lumentum Is Up 11% in a Week. Will Marvell Pay “Close to $100 Billion”?",
-      "headlineKo": "Lumentum은 일주일 만에 11% 상승했습니다. Marvell이 \"1000억 달러에 가까운\" 금액을 지불하게 될까요?",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f5ca7ddf54214de92b35c22baa24864ec3b01f8d92b4063dfa4f2e141a2b0952",
-        "publishedAt": 1793469855,
-        "collectedAt": 1793713192.8645778
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Marvell이 \"1000억 달러에 가까운\" 금액을 지불하게 될까요?",
-        "| TIKR.com General Investing Lumentum은 일주일 만에 11% 상승했습니다.",
-        "Marvell이 \"1000억 달러에 가까운\" 금액을 지불하게 될까요?"
-      ],
-      "marketInterpretation": [
-        "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 11%, $100 Billion, $100 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "MRVL에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 11%, $100 Billion, $100 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "MRVL",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "계약 기간·최소구매 조건",
-        "연도별 매출 인식",
-        "수주잔고·취소 조건"
-      ]
-    },
-    {
-      "id": "a51e0807f713a58acf0e",
-      "schemaVersion": 1,
-      "eventType": "major_customer_contract",
-      "eventLabel": "주요 고객 계약",
-      "primaryTicker": "INTC",
-      "relatedTickers": [
-        "INTC"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "INTC Q3 deep dive: strong data center growth offsets PC challenges, outlook pressured by supply constraints",
-      "headlineKo": "INTC 3분기 심층 분석: 강력한 데이터 센터 성장이 PC 문제를 상쇄하고 공급 제약으로 인해 압박을 받는 전망",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9db1dbba34210ad1638e3d5a50eb26ec0ef179d8f8f9a2d1fa4e51a5ca7a365f",
-        "publishedAt": 1793469329,
-        "collectedAt": 1793713192.8645778
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "INTC Q3 deep dive: strong data center growth offsets PC challenges, outlook pressured by supply constraints",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
-        "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "INTC에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
-        "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "INTC",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "계약 금액·기간·취소 조건",
-        "수주잔고와 매출 인식 시점",
-        "관련 사업부 매출총이익률"
-      ]
     }
   ],
   "byTicker": {
@@ -17642,7 +17680,9 @@ const EVENT_DATA = {
       "de2450d9346277fdf107",
       "84824b043bc485dd8274",
       "5a9d2ae34afca50cc80f",
-      "e8bc0fdf77099ee46c2e"
+      "e8bc0fdf77099ee46c2e",
+      "930d501949246ba3c666",
+      "906231c6728f81e433cb"
     ],
     "AMD": [
       "b26886cab24b5a54fa1c",
@@ -17854,8 +17894,7 @@ const EVENT_DATA = {
       "aa79547458eac4bdcf3a",
       "2240b197470270d6ab16",
       "31f7ba2c51b686a30e4d",
-      "e4cf2d073ed6e53fb733",
-      "13f349f7fe7707be70f9"
+      "e4cf2d073ed6e53fb733"
     ],
     "AMZN": [
       "8171ebcb3a4630b569df",
@@ -17889,6 +17928,7 @@ const EVENT_DATA = {
       "8bc2a6a4c6a580d864c9",
       "325759bc798cacf6800b",
       "804ccabe3d11a2a738a0",
+      "7f973250812fe77e865a",
       "a2a9ca16bf69c023b908",
       "380f29c06c65864d1478",
       "3fa431bb895beaac5e74",
@@ -18015,8 +18055,7 @@ const EVENT_DATA = {
       "de711abd7ab0465c44a6",
       "a6bce08286d2472adb1a",
       "716107b975b46d7039e4",
-      "f44ba7ece204799ef1f6",
-      "db8371e1281bbccb718c"
+      "f44ba7ece204799ef1f6"
     ],
     "MRVL": [
       "4e328ff2e178c3d99bba",
@@ -18036,8 +18075,7 @@ const EVENT_DATA = {
       "db27c9a8359ac675a2e7",
       "de711abd7ab0465c44a6",
       "0c12289720acffc39255",
-      "dc36ef4861448ce3506a",
-      "db8371e1281bbccb718c"
+      "dc36ef4861448ce3506a"
     ],
     "PLTR": [
       "4e328ff2e178c3d99bba",
@@ -18102,12 +18140,12 @@ const EVENT_DATA = {
       "ef3d52ca52108c98e5c3",
       "542018a89923f61335c2",
       "cd931c998496368471a1",
+      "fdae760b0ce210e64541",
       "ccec5def946c55f8bf32",
       "9c601dc289245fba9a98",
       "f3baf1b5ab3123b6915f",
       "3b7bbe3cbe0af7acd816",
-      "e4cf2d073ed6e53fb733",
-      "13f349f7fe7707be70f9"
+      "e4cf2d073ed6e53fb733"
     ],
     "GEV": [
       "0101c0ab885b3aa1002c",
@@ -18161,8 +18199,7 @@ const EVENT_DATA = {
       "ccec5def946c55f8bf32",
       "dca8de5058cab8dad94e",
       "31f7ba2c51b686a30e4d",
-      "bf46bb095531a135a066",
-      "a51e0807f713a58acf0e"
+      "bf46bb095531a135a066"
     ],
     "BE": [
       "915cdcc7f9eaeb35bf6d"
@@ -18189,8 +18226,7 @@ const EVENT_DATA = {
       "6d41dda88ec65e298c22",
       "a9071e26574d3547310c",
       "d0b945befced920eb600",
-      "9dd4c45b3c2022f3b43c",
-      "72fd76cf82864a5e012e"
+      "9dd4c45b3c2022f3b43c"
     ],
     "QCOM": [
       "3af99a61e9f6b7df3335",
