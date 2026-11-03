@@ -144,7 +144,7 @@ const EVIDENCE_REVIEW_QUEUE_STATUS = {
     "pendingDays": 2,
     "form": "8-K",
     "filingDate": "2026-11-02",
-    "level": "ok",
+    "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   },
   "PLTR": {
@@ -158,7 +158,7 @@ const EVIDENCE_REVIEW_QUEUE_STATUS = {
     "pendingDays": 1,
     "form": "10-Q",
     "filingDate": "2026-11-03",
-    "level": "ok",
+    "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
   }
 };
