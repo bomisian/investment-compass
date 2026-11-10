@@ -5550,16 +5550,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1794295989.68367,
-    "_updated_label": "2026-11-10 16:33"
+    "_fetched_at": 1794298166.072648,
+    "_updated_label": "2026-11-10 17:09"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1794295989.68367,
-    "_updated_label": "2026-11-10 16:33"
+    "_fetched_at": 1794298166.072648,
+    "_updated_label": "2026-11-10 17:09"
   },
   "ORCL": {
     "annual": [
@@ -11881,9 +11881,17 @@ const FINANCIALS_DATA = {
         "eps": -0.49,
         "ocf": -2353000000,
         "capex": -1689000000,
-        "fcf": -4042000000,
+        "fcf": -4042000000.0,
         "endDate": "2022-12-31",
-        "_fcfIsProxy": true
+        "_fcfIsProxy": false,
+        "pretaxIncome": -542000000.0,
+        "taxProvision": -388000000.0,
+        "normalizedIncome": -151097200.0,
+        "unusualItems": -12000000.0,
+        "unusualItemsExGoodwill": -12000000.0,
+        "unusualTaxEffect": -3097200.0,
+        "specialIncomeCharges": 1000000.0,
+        "otherNonOperating": 129000000.0
       },
       {
         "period": "2023",
@@ -11893,9 +11901,17 @@ const FINANCIALS_DATA = {
         "eps": 5.01,
         "ocf": -5301000000,
         "capex": -2422000000,
-        "fcf": -7723000000,
+        "fcf": -7723000000.0,
         "endDate": "2023-12-31",
-        "_fcfIsProxy": true
+        "_fcfIsProxy": false,
+        "pretaxIncome": 2447000000.0,
+        "taxProvision": 859000000.0,
+        "normalizedIncome": 1406234000.0,
+        "unusualItems": 334000000.0,
+        "unusualItemsExGoodwill": 334000000.0,
+        "unusualTaxEffect": 117234000.0,
+        "specialIncomeCharges": 27000000.0,
+        "otherNonOperating": 158000000.0
       },
       {
         "period": "2024",
@@ -11905,9 +11921,17 @@ const FINANCIALS_DATA = {
         "eps": 11.89,
         "ocf": -2464000000,
         "capex": -2565000000,
-        "fcf": -5029000000,
+        "fcf": -5029000000.0,
         "endDate": "2024-12-31",
-        "_fcfIsProxy": true
+        "_fcfIsProxy": false,
+        "pretaxIncome": 4516000000.0,
+        "taxProvision": 774000000.0,
+        "normalizedIncome": 3681022000.0,
+        "unusualItems": 82000000.0,
+        "unusualItemsExGoodwill": 82000000.0,
+        "unusualTaxEffect": 14022000.0,
+        "specialIncomeCharges": 71000000.0,
+        "otherNonOperating": 92000000.0
       },
       {
         "period": "2025",
@@ -11917,9 +11941,17 @@ const FINANCIALS_DATA = {
         "eps": 7.4,
         "ocf": 4237000000,
         "capex": -2949000000,
-        "fcf": 1288000000,
+        "fcf": 1288000000.0,
         "endDate": "2025-12-31",
-        "_fcfIsProxy": true
+        "_fcfIsProxy": false,
+        "pretaxIncome": 3511000000.0,
+        "taxProvision": 1187000000.0,
+        "normalizedIncome": 2520248000.0,
+        "unusualItems": -304000000.0,
+        "unusualItemsExGoodwill": -304000000.0,
+        "unusualTaxEffect": -102752000.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 128000000.0
       }
     ],
     "quarterly": [
@@ -12003,7 +12035,8 @@ const FINANCIALS_DATA = {
         "ocf": 107000000,
         "capex": -806000000,
         "fcf": -699000000,
-        "_fcfIsProxy": true
+        "_fcfIsProxy": true,
+        "specialIncomeCharges": 0.0
       },
       {
         "period": "Q2'25",
@@ -12015,7 +12048,14 @@ const FINANCIALS_DATA = {
         "ocf": 1477000000,
         "capex": -767000000,
         "fcf": 710000000,
-        "_fcfIsProxy": true
+        "_fcfIsProxy": true,
+        "pretaxIncome": 1273000000.0,
+        "taxProvision": 440000000.0,
+        "normalizedIncome": 264134000.0,
+        "unusualItems": 879000000.0,
+        "unusualItemsExGoodwill": 879000000.0,
+        "unusualTaxEffect": 304134000.0,
+        "otherNonOperating": 10000000.0
       },
       {
         "period": "Q3'25",
@@ -12027,7 +12067,15 @@ const FINANCIALS_DATA = {
         "ocf": 1848000000,
         "capex": -390000000,
         "fcf": 1458000000,
-        "_fcfIsProxy": true
+        "_fcfIsProxy": true,
+        "pretaxIncome": 1395000000.0,
+        "taxProvision": 466000000.0,
+        "normalizedIncome": 917346953.405018,
+        "unusualItems": 19000000.0,
+        "unusualItemsExGoodwill": 19000000.0,
+        "unusualTaxEffect": 6346953.405018,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 51000000.0
       },
       {
         "period": "Q4'25",
@@ -12038,7 +12086,16 @@ const FINANCIALS_DATA = {
         "ocf": 805000000,
         "capex": -986000000,
         "fcf": -181000000,
-        "_fcfIsProxy": true
+        "_fcfIsProxy": true,
+        "eps": 1.38,
+        "pretaxIncome": 692000000.0,
+        "taxProvision": 259000000.0,
+        "normalizedIncome": 462034682.080925,
+        "unusualItems": -48000000.0,
+        "unusualItemsExGoodwill": -48000000.0,
+        "unusualTaxEffect": -17965317.919075,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 47000000.0
       },
       {
         "period": "Q1'26",
@@ -12050,7 +12107,15 @@ const FINANCIALS_DATA = {
         "ocf": 425000000,
         "capex": -1275000000,
         "fcf": -850000000,
-        "_fcfIsProxy": true
+        "_fcfIsProxy": true,
+        "pretaxIncome": 2125000000.0,
+        "taxProvision": 530000000.0,
+        "normalizedIncome": 1516442352.941176,
+        "unusualItems": 98000000.0,
+        "unusualItemsExGoodwill": 98000000.0,
+        "unusualTaxEffect": 24442352.941176,
+        "specialIncomeCharges": 14000000.0,
+        "otherNonOperating": 14000000.0
       },
       {
         "period": "Q2'26",
@@ -12062,7 +12127,15 @@ const FINANCIALS_DATA = {
         "ocf": 1128000000,
         "capex": -1246000000,
         "fcf": -118000000,
-        "_fcfIsProxy": true
+        "_fcfIsProxy": true,
+        "pretaxIncome": 900000000.0,
+        "taxProvision": 398000000.0,
+        "normalizedIncome": -223800000.0,
+        "unusualItems": 1228000000.0,
+        "unusualItemsExGoodwill": 1228000000.0,
+        "unusualTaxEffect": 491200000.0,
+        "specialIncomeCharges": 2000000.0,
+        "otherNonOperating": 2000000.0
       }
     ],
     "_currency": "USD",
@@ -12151,7 +12224,35 @@ const FINANCIALS_DATA = {
     "_fetched_at": 1794295989.68367,
     "_updated_label": "2026-11-10 16:33",
     "_data_quality_version": 16,
-    "_collection_status": "ok"
+    "_collection_status": "error",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-06-30",
+        "eps": 2.67
+      },
+      {
+        "endDate": "2025-09-30",
+        "eps": 2.97
+      },
+      {
+        "endDate": "2025-12-31",
+        "eps": 1.38
+      },
+      {
+        "endDate": "2026-03-31",
+        "eps": 4.49
+      },
+      {
+        "endDate": "2026-06-30",
+        "eps": 1.42
+      }
+    ],
+    "_special_items_version": 1,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1794296005.1579783,
+    "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완",
+    "_collection_error": "The read operation timed out",
+    "_last_attempt_at": 1794298166.072648
   },
   "VST": {
     "annual": [
