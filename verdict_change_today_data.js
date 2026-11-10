@@ -1,23 +1,12 @@
 const VERDICT_CHANGE_TODAY_DATA = {
-  "generatedAt": "2026-11-10T23:55:39+09:00",
-  "prevDate": "2026-10-30",
-  "curDate": "2026-11-02",
+  "generatedAt": "2026-11-11T00:15:40+09:00",
+  "prevDate": "2026-11-02",
+  "curDate": "2026-11-09",
   "changed": [
     {
-      "ticker": "AMAT",
-      "oldTier": "관찰 — 가격 판단 불가(모델 불신)",
-      "newTier": "관찰",
-      "oldLabel": "판단 유보(모델 불신)",
-      "newLabel": "적정",
-      "changedFields": [
-        "final_tier",
-        "price_label"
-      ]
-    },
-    {
       "ticker": "ANET",
-      "oldTier": "관찰",
-      "newTier": "눌림 대기",
+      "oldTier": "눌림 대기",
+      "newTier": "관찰",
       "oldLabel": "적정",
       "newLabel": "적정",
       "changedFields": [
@@ -26,8 +15,8 @@ const VERDICT_CHANGE_TODAY_DATA = {
     },
     {
       "ticker": "ASML",
-      "oldTier": "추세 반전 대기",
-      "newTier": "눌림 대기",
+      "oldTier": "눌림 대기",
+      "newTier": "추세 반전 대기",
       "oldLabel": "저평가",
       "newLabel": "저평가",
       "changedFields": [
@@ -35,9 +24,49 @@ const VERDICT_CHANGE_TODAY_DATA = {
       ]
     },
     {
-      "ticker": "LITE",
+      "ticker": "COHR",
+      "oldTier": "신규 접근 중지",
+      "newTier": "관찰",
+      "oldLabel": "저평가",
+      "newLabel": "저평가",
+      "changedFields": [
+        "final_tier"
+      ]
+    },
+    {
+      "ticker": "EME",
+      "oldTier": "추세 반전 대기",
+      "newTier": "추세 반전 대기",
+      "oldLabel": "적정",
+      "newLabel": "저평가",
+      "changedFields": [
+        "price_label"
+      ]
+    },
+    {
+      "ticker": "ETN",
+      "oldTier": "눌림 대기",
+      "newTier": "추세 반전 대기",
+      "oldLabel": "적정",
+      "newLabel": "적정",
+      "changedFields": [
+        "final_tier"
+      ]
+    },
+    {
+      "ticker": "FIX",
       "oldTier": "관찰",
-      "newTier": "눌림 대기",
+      "newTier": "관찰",
+      "oldLabel": "적정",
+      "newLabel": "저평가",
+      "changedFields": [
+        "price_label"
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "oldTier": "관찰 — 가격 판단 불가(모델 불신)",
+      "newTier": "신규 접근 중지",
       "oldLabel": "판단 유보(모델 불신)",
       "newLabel": "판단 유보(모델 불신)",
       "changedFields": [
@@ -45,18 +74,39 @@ const VERDICT_CHANGE_TODAY_DATA = {
       ]
     },
     {
-      "ticker": "NVDA",
-      "oldTier": "관찰",
-      "newTier": "눌림 대기",
-      "oldLabel": "저평가",
+      "ticker": "META",
+      "oldTier": "눌림 대기",
+      "newTier": "관찰 — 보수가 아래(모델 밴드 하단)",
+      "oldLabel": "적정",
       "newLabel": "저평가",
+      "changedFields": [
+        "final_tier",
+        "price_label"
+      ]
+    },
+    {
+      "ticker": "MOD",
+      "oldTier": "신규 접근 중지",
+      "newTier": "신규 접근 중지",
+      "oldLabel": "판단 유보(밴드 넓음)",
+      "newLabel": "저평가",
+      "changedFields": [
+        "price_label"
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "oldTier": "관찰 — 보수가 아래(모델 밴드 하단)",
+      "newTier": "분할 축적 검토",
+      "oldLabel": "적정",
+      "newLabel": "적정",
       "changedFields": [
         "final_tier"
       ]
     },
     {
-      "ticker": "TSM",
-      "oldTier": "관찰 — 보수가 아래(모델 밴드 하단)",
+      "ticker": "MU",
+      "oldTier": "관찰",
       "newTier": "눌림 대기",
       "oldLabel": "적정",
       "newLabel": "적정",
@@ -65,11 +115,31 @@ const VERDICT_CHANGE_TODAY_DATA = {
       ]
     },
     {
-      "ticker": "WDC",
-      "oldTier": "관찰 — 가격 판단 불가(모델 불신)",
+      "ticker": "TSM",
+      "oldTier": "눌림 대기",
       "newTier": "추세 반전 대기",
-      "oldLabel": "판단 유보(밴드 넓음)",
+      "oldLabel": "적정",
       "newLabel": "적정",
+      "changedFields": [
+        "final_tier"
+      ]
+    },
+    {
+      "ticker": "VRT",
+      "oldTier": "관찰",
+      "newTier": "관찰",
+      "oldLabel": "적정",
+      "newLabel": "저평가",
+      "changedFields": [
+        "price_label"
+      ]
+    },
+    {
+      "ticker": "WDC",
+      "oldTier": "추세 반전 대기",
+      "newTier": "관찰 — 가격 판단 불가(모델 불신)",
+      "oldLabel": "적정",
+      "newLabel": "판단 유보(모델 불신)",
       "changedFields": [
         "final_tier",
         "price_label"
