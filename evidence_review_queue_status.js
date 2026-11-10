@@ -221,8 +221,8 @@ const EVIDENCE_REVIEW_QUEUE_STATUS = {
     "pendingDays": 1,
     "form": "6-K",
     "filingDate": "2026-11-10",
-    "level": "uncertain",
-    "confidenceLevel": "uncertain"
+    "level": "numbers_reflected",
+    "confidenceLevel": "confirmed"
   }
 };
 const EVIDENCE_RESULTS_PERIOD = {
