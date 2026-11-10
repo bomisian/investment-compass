@@ -1,12 +1,12 @@
 // ops_status_report.py가 자동 생성합니다. 직접 수정하지 마세요.
 const OPS_STATUS_DATA = {
-  "generatedAt": "2026-11-10T07:35:41+09:00",
+  "generatedAt": "2026-11-11T07:35:42+09:00",
   "items": [
     {
       "key": "last_success",
-      "status": "red",
+      "status": "green",
       "label": "마지막 정상 완료",
-      "detail": "2026-11-04 08:52 (142.7시간 전, 기준 3시간)"
+      "detail": "2026-11-11 07:09"
     },
     {
       "key": "public_verify",
@@ -18,7 +18,7 @@ const OPS_STATUS_DATA = {
       "key": "loop_progress",
       "status": "green",
       "label": "루프 진행",
-      "detail": "대기 중(다음 주기, 7분 전부터)"
+      "detail": "대기 중(다음 주기, 26분 전부터)"
     },
     {
       "key": "loop_count",
@@ -36,19 +36,19 @@ const OPS_STATUS_DATA = {
       "key": "compass_asof",
       "status": "green",
       "label": "나침반 피드 기준일",
-      "detail": "2026-11-09 (최신 거래일 기준, 놓친 거래일 0개)"
+      "detail": "2026-11-10 (최신 거래일 기준, 놓친 거래일 0개)"
     },
     {
       "key": "market_expectation_asof",
       "status": "green",
       "label": "시장 기대 기준일",
-      "detail": "2026-11-10 07:27 생성 → 거래일 2026-11-09 (최신 거래일 기준, 놓친 거래일 0개)"
+      "detail": "2026-11-11 07:08 생성 → 거래일 2026-11-10 (최신 거래일 기준, 놓친 거래일 0개)"
     },
     {
       "key": "eps",
       "status": "red",
       "label": "EPS 수집",
-      "detail": "COHR 26일째(기준 14일)"
+      "detail": "COHR 27일째(기준 14일)"
     },
     {
       "key": "data_audit",
@@ -90,7 +90,7 @@ const OPS_STATUS_DATA = {
       "key": "evidence_review_backlog",
       "status": "yellow",
       "label": "근거 승인 대기",
-      "detail": "WDC(18일), FIX(19일), BE(19일), HUBB(14일), STX(14일), GEV(13일), HUBB(13일), VRT(13일), MSFT(13일), GOOGL(13일), KLAC(13일), VRT(13일), GOOGL(12일), PWR(12일), EME(12일), AMZN(12일), INTC(12일), KLAC(12일), SNDK(12일), STX(12일), AMZN(11일), INTC(11일), SNDK(11일), MRVL(8일), LITE(8일), AAPL(8일), PLTR(8일), PLTR(7일), AAPL(7일), ETN(7일), AMD(7일), ANET(7일), LITE(7일), MOD(7일), AMD(6일), ANET(6일), MOD(6일), QCOM(6일), ARM(6일), COHR(6일), EME(12일), VST(4일), CEG(1일), VST(1일) — approve_evidence.py 실행 필요"
+      "detail": "WDC(19일), FIX(20일), BE(20일), HUBB(15일), STX(15일), GEV(14일), HUBB(14일), VRT(14일), MSFT(14일), GOOGL(14일), KLAC(14일), VRT(14일), GOOGL(13일), PWR(13일), EME(13일), AMZN(13일), INTC(13일), KLAC(13일), SNDK(13일), STX(13일), AMZN(12일), INTC(12일), SNDK(12일), MRVL(9일), LITE(9일), AAPL(9일), PLTR(9일), PLTR(8일), AAPL(8일), ETN(8일), AMD(8일), ANET(8일), LITE(8일), MOD(8일), AMD(7일), ANET(7일), MOD(7일), QCOM(7일), ARM(7일), COHR(7일), EME(13일), VST(5일), CEG(2일), VST(2일), CEG(2일), TSM(1일) — approve_evidence.py 실행 필요"
     },
     {
       "key": "target_consensus_freshness",
@@ -102,37 +102,43 @@ const OPS_STATUS_DATA = {
       "key": "quarterly_cashflow_gap",
       "status": "green",
       "label": "최신 분기 현금흐름(OCF·CAPEX·FCF)",
-      "detail": "39종목 최신 분기 현금흐름 모두 있음"
+      "detail": "비어 있음(아직 기다리는 중): CEG Q3'26(2026-11-11부터 0거래일)"
     },
     {
       "key": "ttm_eps_rule",
       "status": "green",
       "label": "TTM EPS 공통 규칙(분기 합/Finnhub)",
-      "detail": "분기 합 20종목 · 기존 값·없음 19종목 · 적정가 변화 9종목 · 판정 변경(승인 기록) CEG"
+      "detail": "분기 합 29종목 · 기존 값·없음 10종목 · 적정가 변화 8종목"
     },
     {
       "key": "earnings_reflection",
       "status": "yellow",
       "label": "실적 반영 상태(가격지도)",
-      "detail": "가격지도 반영 대기 2종목: MRVL(11/02 발표, 최신 2026-09-30 / 반영 2026-08-01), CEG(11/09 발표, 최신 2026-09-30 / 반영 2026-06-30) / EPS 컨센서스가 발표 전 추정치 1종목: CEG"
+      "detail": "가격지도 반영 대기 1종목: MRVL(11/02 발표, 최신 2026-09-30 / 반영 2026-08-01) / EPS 컨센서스가 발표 전 추정치 1종목: CEG"
     },
     {
       "key": "wacc_roic",
       "status": "green",
       "label": "자본 효율(ROIC·WACC) 계산",
-      "detail": "계산 34/39종목 · 계산 불가 0종목 · 10년물 4.86%(2026-11-06, fresh) · 생성 2026-11-10T06:25"
+      "detail": "계산 34/39종목 · 계산 불가 0종목 · 10년물 4.88%(2026-11-09, fresh) · 생성 2026-11-11T06:37"
+    },
+    {
+      "key": "required_tools",
+      "status": "green",
+      "label": "필수 실행 파일(git·node)",
+      "detail": "git C:\\Program Files\\Git\\cmd\\git.exe, node C:\\Program Files\\nodejs\\node.exe"
     },
     {
       "key": "price_map_daily_run",
       "status": "green",
       "label": "가격 지도 일일 실행",
-      "detail": "마지막 성공 세션 2026-11-09(기대 2026-11-09, 실행 2026-11-10 06:24:59)"
+      "detail": "마지막 성공 세션 2026-11-10(기대 2026-11-10, 실행 2026-11-11 06:37:08)"
     },
     {
       "key": "external_peer_cache_freshness",
       "status": "green",
       "label": "외부보충 비교군 캐시 신선도",
-      "detail": "2026-11-10 07:27 KST 정상 갱신(실패 0개)"
+      "detail": "2026-11-11 07:08 KST 정상 갱신(실패 0개)"
     }
   ]
 };
