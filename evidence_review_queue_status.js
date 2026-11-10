@@ -216,6 +216,13 @@ const EVIDENCE_REVIEW_QUEUE_STATUS = {
     "filingDate": "2026-11-09",
     "level": "numbers_reflected",
     "confidenceLevel": "confirmed"
+  },
+  "TSM": {
+    "pendingDays": 1,
+    "form": "6-K",
+    "filingDate": "2026-11-10",
+    "level": "uncertain",
+    "confidenceLevel": "uncertain"
   }
 };
 const EVIDENCE_RESULTS_PERIOD = {
