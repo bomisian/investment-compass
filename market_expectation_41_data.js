@@ -1369,7 +1369,7 @@ const MARKET_EXPECTATION_41 = {
     "CEG": {
       "ticker": "CEG",
       "as_of": "2026-11-10",
-      "expectation_status": "기대 유지",
+      "expectation_status": "기대 강화",
       "confidence": "보통",
       "observed_axes": 8,
       "ab_grade_axes": 7,
@@ -1386,26 +1386,26 @@ const MARKET_EXPECTATION_41 = {
       "stale_consensus_warning": false,
       "price_as_of_mismatch": false,
       "composite_hidden": false,
-      "composite_internal_ref": 0.1551,
+      "composite_internal_ref": 0.2903,
       "support_summary": [
-        "Q2 2026 영업수익 $7,504M, 전년동기 $6,101M 대비 +23.0% YoY",
         "H1 2026 CAPEX $2,521M(원전 증설·Crane/TMI 재가동 등 성장투자)",
-        "Meta와 Clinton Clean Energy Center 전량(1,121MW, 30MW 증설 포함) 20년 PPA 체결, 2027-06 개시, 2025-06-03 공식 발표"
+        "Meta와 Clinton Clean Energy Center 전량(1,121MW, 30MW 증설 포함) 20년 PPA 체결, 2027-06 개시, 2025-06-03 공식 발표",
+        "Amazon과 Calvert Cliffs Clean Energy Center 690MW PPA(190MW 증설 포함, 2030~2032 가동), $3B+ 메릴랜드 인프라 투자, 2026-09-30 공식 발표"
       ],
       "caution_summary": [
         "H1 2026 OCF $1,553M, CAPEX $2,521M → FCF 약 -$968M(마이너스)",
-        "GAAP 순이익 $513M, 전년동기 $839M 대비 -38.9% YoY(Calpine 인수 관련 일회성 항목 등 영향 추정)",
-        "6/30/26 총부채 약 $24.7B(장기채 $19,111M+단기차입 $5,226M), 현금 $697M; H1 자사주매입 $1,971M·배당 $309M·Calpine 인수 순현금지출 $2,537M"
+        "6/30/26 총부채 약 $24.7B(장기채 $19,111M+단기차입 $5,226M), 현금 $697M; H1 자사주매입 $1,971M·배당 $309M·Calpine 인수 순현금지출 $2,537M",
+        "Q2 2026 원자력 발전량 44,160GWh, 전년 45,170GWh 대비 -2.2%; 가동률(Salem/STP 제외) 93.0%, 전년 94.8%"
       ],
       "next_change_condition": [
-        "종합 점수가 ±0.25를 넘어서는 새 A/B급 근거가 나오면 결론이 바뀐다.",
+        "지지 근거 중 하나라도 공식적으로 철회·악화되거나, 구조위험 조건이 나오면 결론이 바뀐다.",
         "미관측 축(정책) 자료 확보 시 재평가",
+        "종합 점수가 ±0.25를 넘어서는 새 A/B급 근거가 나오면 결론이 바뀐다.",
         "Google PPA(890MW/$4.3B)가 공식 8-K/보도자료로 확인되는 경우",
-        "다음 분기 공시에서 FCF가 플러스로 전환되거나 CAPEX 집행 속도가 둔화되는지 확인",
-        "원자력 가동률 하락이 다음 분기에도 지속되는지(구조적 vs 일시적) 확인"
+        "다음 분기 공시에서 FCF가 플러스로 전환되거나 CAPEX 집행 속도가 둔화되는지 확인"
       ],
-      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 0건",
-      "evidence_auto_count": 0,
+      "source_file": "수동 근거 2026-10-07 기준 + 자동 재무 근거 2건(2026-09-30 분기)",
+      "evidence_auto_count": 2,
       "evidence_manual_as_of": "2026-10-07",
       "stale_financial_axes": [],
       "primary_etf": "XLU",

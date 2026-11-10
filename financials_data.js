@@ -5550,16 +5550,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1794306097.895022,
-    "_updated_label": "2026-11-10 19:21"
+    "_fetched_at": 1794308069.2914531,
+    "_updated_label": "2026-11-10 19:54"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1794306097.895022,
-    "_updated_label": "2026-11-10 19:21"
+    "_fetched_at": 1794308069.2914531,
+    "_updated_label": "2026-11-10 19:54"
   },
   "ORCL": {
     "annual": [
@@ -11956,18 +11956,6 @@ const FINANCIALS_DATA = {
     ],
     "quarterly": [
       {
-        "period": "Q3'23",
-        "revenue": 6111000000.0,
-        "netIncome": 731000000,
-        "opIncome": 977000000,
-        "endDate": "2023-09-30",
-        "eps": 2.26,
-        "ocf": -993000000,
-        "capex": -399000000,
-        "fcf": -1392000000,
-        "_fcfIsProxy": true
-      },
-      {
         "period": "Q4'23",
         "revenue": 5796000000.0,
         "netIncome": -37000000,
@@ -12136,6 +12124,13 @@ const FINANCIALS_DATA = {
         "unusualTaxEffect": 491200000.0,
         "specialIncomeCharges": 2000000.0,
         "otherNonOperating": 2000000.0
+      },
+      {
+        "period": "Q3'26",
+        "revenue": 9550000000.0,
+        "netIncome": 1835000000,
+        "opIncome": 2492000000,
+        "endDate": "2026-09-30"
       }
     ],
     "_currency": "USD",
@@ -12221,8 +12216,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1794306097.895022,
-    "_updated_label": "2026-11-10 19:21",
+    "_fetched_at": 1794308069.2914531,
+    "_updated_label": "2026-11-10 19:54",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -12249,7 +12244,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1794306107.104615,
+    "_yahoo_verified_at": 1794308081.664019,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "VST": {
