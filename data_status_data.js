@@ -4,9 +4,9 @@ const DATA_STATUS = {
     "fundamentals": {
       "label": "가치·퀄리티",
       "status": "ok",
-      "lastAttemptAt": 1794311926.1566777,
-      "lastSuccessAt": 1794311926.1566777,
-      "lastPartialSuccessAt": 1794311926.1566777,
+      "lastAttemptAt": 1794312001.2880883,
+      "lastSuccessAt": 1794312001.2880883,
+      "lastPartialSuccessAt": 1794312001.2880883,
       "lastFetchedAt": 1794285402.5751913,
       "oldestFetchedAt": 1794283065.6882317,
       "warningAfterHours": 6,
@@ -225,10 +225,10 @@ const DATA_STATUS = {
       "lastError": null
     }
   },
-  "generatedAt": 1794311985.7766025,
+  "generatedAt": 1794312001.2880883,
   "timezoneGuide": {
     "collector": "Asia/Seoul",
     "market": "America/New_York"
   },
-  "buildGeneratedAt": "2026-11-10 20:59:45"
+  "buildGeneratedAt": "2026-11-10 21:00:01"
 };
