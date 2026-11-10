@@ -5550,16 +5550,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1794298166.072648,
-    "_updated_label": "2026-11-10 17:09"
+    "_fetched_at": 1794300258.9892566,
+    "_updated_label": "2026-11-10 17:44"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1794298166.072648,
-    "_updated_label": "2026-11-10 17:09"
+    "_fetched_at": 1794300258.9892566,
+    "_updated_label": "2026-11-10 17:44"
   },
   "ORCL": {
     "annual": [
@@ -11448,7 +11448,7 @@ const FINANCIALS_DATA = {
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
     "_fetched_at": 1793775772.7154138,
-    "_updated_label": "2026-11-09 17:33",
+    "_updated_label": "2026-11-10 17:44",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -11475,7 +11475,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1794213187.2922382,
+    "_yahoo_verified_at": 1794300269.8018215,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "GEV": {
@@ -12221,10 +12221,10 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1794295989.68367,
-    "_updated_label": "2026-11-10 16:33",
+    "_fetched_at": 1794300258.9892566,
+    "_updated_label": "2026-11-10 17:44",
     "_data_quality_version": 16,
-    "_collection_status": "error",
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -12249,10 +12249,8 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1794296005.1579783,
-    "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완",
-    "_collection_error": "The read operation timed out",
-    "_last_attempt_at": 1794298166.072648
+    "_yahoo_verified_at": 1794300269.8018215,
+    "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "VST": {
     "annual": [
