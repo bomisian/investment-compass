@@ -1,11 +1,11 @@
 // 자동 생성 파일 - 내부자 거래 정밀 분석
 const INSIDER_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794427285.23362,
+  "generatedAt": 1794429485.156341,
   "records": {
     "QQQ": {
       "ticker": "QQQ",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -23,7 +23,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "SPY": {
       "ticker": "SPY",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -41,7 +41,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "주의",
       "saleCount": 17,
       "exerciseCount": 0,
@@ -284,7 +284,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "관찰",
       "saleCount": 3,
       "exerciseCount": 0,
@@ -344,7 +344,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -628,7 +628,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -910,7 +910,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -1194,7 +1194,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "관찰",
       "saleCount": 1,
       "exerciseCount": 0,
@@ -1226,7 +1226,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "관찰",
       "saleCount": 3,
       "exerciseCount": 0,
@@ -1299,7 +1299,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "관찰",
       "saleCount": 2,
       "exerciseCount": 0,
@@ -1359,7 +1359,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -1642,7 +1642,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -1925,7 +1925,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -2207,7 +2207,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "관찰",
       "saleCount": 16,
       "exerciseCount": 0,
@@ -2436,7 +2436,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -2719,7 +2719,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "관찰",
       "saleCount": 2,
       "exerciseCount": 0,
@@ -2766,7 +2766,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "주의",
       "saleCount": 8,
       "exerciseCount": 0,
@@ -2892,7 +2892,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -2924,7 +2924,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -3203,7 +3203,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -3221,7 +3221,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "관찰",
       "saleCount": 3,
       "exerciseCount": 0,
@@ -3279,7 +3279,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "주의",
       "saleCount": 9,
       "exerciseCount": 0,
@@ -3419,14 +3419,14 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "관찰",
-      "saleCount": 2,
+      "saleCount": 1,
       "exerciseCount": 0,
-      "totalSaleValue": 24780259.9,
-      "peopleCount": 2,
+      "totalSaleValue": 12378625.72,
+      "peopleCount": 1,
       "repeatedSellers": [],
-      "simultaneous": true,
+      "simultaneous": false,
       "transactions": [
         {
           "name": "WALLACE RICHARD P",
@@ -3436,19 +3436,6 @@ const INSIDER_ANALYSIS_DATA = {
           "filingDate": "2026-09-16",
           "code": "S",
           "estimatedValue": 12378625.72,
-          "transactionKind": "실제 매도",
-          "title": "직책 데이터 없음",
-          "ownershipRatio": null,
-          "nearEarnings": "실적일 연결 데이터 확인 필요"
-        },
-        {
-          "name": "Lorig Brian",
-          "share": 59586,
-          "transactionPrice": 208.13,
-          "transactionDate": "2026-08-13",
-          "filingDate": "2026-08-14",
-          "code": "S",
-          "estimatedValue": 12401634.18,
           "transactionKind": "실제 매도",
           "title": "직책 데이터 없음",
           "ownershipRatio": null,
@@ -3464,7 +3451,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -3746,7 +3733,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -4028,7 +4015,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -4311,7 +4298,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "주의",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -4593,7 +4580,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "주의",
       "saleCount": 8,
       "exerciseCount": 0,
@@ -4719,7 +4706,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "관찰",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -5000,7 +4987,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -5018,7 +5005,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -5036,7 +5023,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "주의",
       "saleCount": 6,
       "exerciseCount": 0,
@@ -5175,7 +5162,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -5183,21 +5170,7 @@ const INSIDER_ANALYSIS_DATA = {
       "peopleCount": 0,
       "repeatedSellers": [],
       "simultaneous": false,
-      "transactions": [
-        {
-          "name": "Johnson Gerald",
-          "share": 130,
-          "transactionPrice": 455.9,
-          "transactionDate": "2026-08-13",
-          "filingDate": "2026-08-14",
-          "code": "P",
-          "estimatedValue": 59267.0,
-          "transactionKind": "기타",
-          "title": "직책 데이터 없음",
-          "ownershipRatio": null,
-          "nearEarnings": "실적일 연결 데이터 확인 필요"
-        }
-      ],
+      "transactions": [],
       "interpretation": "내부자 매도만으로 기업 전망 악화라고 판단할 수는 없습니다. 다만 주가가 크게 상승했고 여러 임원의 매도가 반복된다면 차익실현 가능성을 보여주는 보조 리스크로 해석할 수 있습니다.",
       "limitations": [
         "Finnhub 거래 응답에는 직책과 전체 보유주식이 없어 공란으로 표시합니다.",
@@ -5207,7 +5180,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -5225,7 +5198,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -5243,7 +5216,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "관찰",
       "saleCount": 8,
       "exerciseCount": 0,
@@ -5368,7 +5341,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "관찰",
       "saleCount": 1,
       "exerciseCount": 0,
@@ -5400,7 +5373,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "관찰",
       "saleCount": 20,
       "exerciseCount": 0,
@@ -5681,7 +5654,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "특이 신호 없음",
       "saleCount": 0,
       "exerciseCount": 0,
@@ -5699,7 +5672,7 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "관찰",
       "saleCount": 2,
       "exerciseCount": 0,
@@ -5744,14 +5717,13 @@ const INSIDER_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1794427285.23362,
+      "updatedAt": 1794429485.156341,
       "level": "주의",
-      "saleCount": 12,
+      "saleCount": 11,
       "exerciseCount": 0,
-      "totalSaleValue": 20994649.59,
+      "totalSaleValue": 17244649.59,
       "peopleCount": 7,
       "repeatedSellers": [
-        "CHAMBERS JOHN T",
         "Joshi Aman",
         "Chitoori Satish",
         "SODERBERG SHAWN MARIE"
@@ -5896,19 +5868,6 @@ const INSIDER_ANALYSIS_DATA = {
           "filingDate": "2026-08-18",
           "code": "S",
           "estimatedValue": 676272.0,
-          "transactionKind": "실제 매도",
-          "title": "직책 데이터 없음",
-          "ownershipRatio": null,
-          "nearEarnings": "실적일 연결 데이터 확인 필요"
-        },
-        {
-          "name": "CHAMBERS JOHN T",
-          "share": 15000,
-          "transactionPrice": 250,
-          "transactionDate": "2026-08-13",
-          "filingDate": "2026-08-14",
-          "code": "S",
-          "estimatedValue": 3750000.0,
           "transactionKind": "실제 매도",
           "title": "직책 데이터 없음",
           "ownershipRatio": null,
