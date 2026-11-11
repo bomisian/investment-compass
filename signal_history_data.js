@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794425206.6966162,
+  "generatedAt": 1794427285.1502748,
   "records": {
     "AAPL": [
       {
@@ -3651,6 +3651,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AMD": [
       {
+        "changedAt": 1794427285.1502748,
+        "dataAsOf": 1794407520,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.88,
+            "after": 1.93
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "중립·확인 대기",
+            "after": "우호적 변화"
+          }
+        ],
+        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
+        "newsHeadline": "글로벌 옴니채널 소매 시장 보고서 2026 | Adobe, Adyen, AWS, Salesforce 및 Shopify를 통해 2030년까지 통합 상거래 성장을 222억 6천만 달러까지 활용",
+        "newsUrl": "https://finnhub.io/api/news?id=4e85b31076f58b8326755026fda85cdd9fa67f4e96a05edf610eb5b1faf412ab",
+        "eventId": "71a64d5ea24c48d99460",
+        "fingerprint": "{\"changes\": [{\"after\": 1.93, \"before\": 0.88, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"우호적 변화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"71a64d5ea24c48d99460\"}"
+      },
+      {
         "changedAt": 1794425206.6966162,
         "dataAsOf": 1794405916,
         "changes": [
@@ -5066,38 +5089,32 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=f69b67b74b0e207bffcdbc553ad8544334f99e781db330fc5e4d55fd8e8e1279",
         "eventId": "1bdd2a824366e2ca81b5",
         "fingerprint": "{\"changes\": [{\"after\": -3.67, \"before\": -5, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.1, \"before\": -3.1, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.22, \"before\": -3.22, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"1bdd2a824366e2ca81b5\"}"
-      },
+      }
+    ],
+    "AMZN": [
       {
-        "changedAt": 1793310798.1949673,
-        "dataAsOf": 1793303400,
+        "changedAt": 1794427285.1502748,
+        "dataAsOf": 1794407520,
         "changes": [
           {
             "key": "growth",
             "label": "성장성",
-            "before": 1.75,
-            "after": 2.8
+            "before": 0.18,
+            "after": 0.87
           },
           {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -4.62,
-            "after": -5
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -2.57,
-            "after": -3.1
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.22,
+            "after": -0.53
           }
         ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "엔비디아가 아닙니다. AMD가 아닙니다. 이 맞춤형 AI 칩 디자이너는 2030년까지 두 가지 모두를 능가할 수 있습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=f69b67b74b0e207bffcdbc553ad8544334f99e781db330fc5e4d55fd8e8e1279",
-        "eventId": "1bdd2a824366e2ca81b5",
-        "fingerprint": "{\"changes\": [{\"after\": 2.8, \"before\": 1.75, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -5, \"before\": -4.62, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -3.1, \"before\": -2.57, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"1bdd2a824366e2ca81b5\"}"
-      }
-    ],
-    "AMZN": [
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "글로벌 옴니채널 소매 시장 보고서 2026 | Adobe, Adyen, AWS, Salesforce 및 Shopify를 통해 2030년까지 통합 상거래 성장을 222억 6천만 달러까지 활용",
+        "newsUrl": "https://finnhub.io/api/news?id=4e85b31076f58b8326755026fda85cdd9fa67f4e96a05edf610eb5b1faf412ab",
+        "eventId": "71a64d5ea24c48d99460",
+        "fingerprint": "{\"changes\": [{\"after\": 0.87, \"before\": 0.18, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.53, \"before\": -1.22, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"71a64d5ea24c48d99460\"}"
+      },
       {
         "changedAt": 1794405033.3700132,
         "dataAsOf": 1794358262,
@@ -7006,29 +7023,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=bda1f3e7e7e0d3eedc776f170bf5c181bc393017908c4d1feab41a24a755ce28",
         "eventId": "0a61a79ba67476b4d4db",
         "fingerprint": "{\"changes\": [{\"after\": 0.7, \"before\": 0.35, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.88, \"before\": -0.88, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.35, \"before\": -1.05, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.4, \"before\": -2.8, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.17, \"before\": -1.22, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"0a61a79ba67476b4d4db\"}"
-      },
-      {
-        "changedAt": 1792775869.4051893,
-        "dataAsOf": 1792742448,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": -1.22,
-            "after": -0.88
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -1.57,
-            "after": -1.22
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "Amazon 주식에 어떤 문제가 발생할 수 있나요?",
-        "newsUrl": "https://finnhub.io/api/news?id=159a0e936032fb8049c2cbee82ce1c1eea7b2e67f320f7c6fd3c3cce09ce525f",
-        "eventId": "788cabfcefef0e4cbe86",
-        "fingerprint": "{\"changes\": [{\"after\": -0.88, \"before\": -1.22, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.22, \"before\": -1.57, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"788cabfcefef0e4cbe86\"}"
       }
     ],
     "ANET": [
@@ -19255,6 +19249,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "CRM": [
       {
+        "changedAt": 1794427285.1502748,
+        "dataAsOf": 1794407520,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.05,
+            "after": 1.4
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.52,
+            "after": 0.87
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "글로벌 옴니채널 소매 시장 보고서 2026 | Adobe, Adyen, AWS, Salesforce 및 Shopify를 통해 2030년까지 통합 상거래 성장을 222억 6천만 달러까지 활용",
+        "newsUrl": "https://finnhub.io/api/news?id=4e85b31076f58b8326755026fda85cdd9fa67f4e96a05edf610eb5b1faf412ab",
+        "eventId": "71a64d5ea24c48d99460",
+        "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 1.05, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.87, \"before\": 0.52, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"71a64d5ea24c48d99460\"}"
+      },
+      {
         "changedAt": 1794338633.5377083,
         "dataAsOf": 1794318590,
         "changes": [
@@ -21138,29 +21155,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=d9a484a08a508872f73a94b22d8155b1cca4ea26fc3c59a88e94ac1a760570d0",
         "eventId": "0cda55208627da3510b6",
         "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.7, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.52, \"before\": 1.22, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.18, \"before\": 0.53, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"0cda55208627da3510b6\"}"
-      },
-      {
-        "changedAt": 1791163748.3255832,
-        "dataAsOf": 1791156411,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 0.88,
-            "after": 1.22
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 0.18,
-            "after": 0.53
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "Salesforce vs. UiPath: 투자자에게 투자 대비 더 많은 혜택을 제공하는 AI 자동화 주식은 무엇입니까?",
-        "newsUrl": "https://finnhub.io/api/news?id=d9a484a08a508872f73a94b22d8155b1cca4ea26fc3c59a88e94ac1a760570d0",
-        "eventId": "0cda55208627da3510b6",
-        "fingerprint": "{\"changes\": [{\"after\": 1.22, \"before\": 0.88, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.53, \"before\": 0.18, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"0cda55208627da3510b6\"}"
       }
     ],
     "EME": [
@@ -35806,6 +35800,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "MRVL": [
       {
+        "changedAt": 1794427285.1502748,
+        "dataAsOf": 1794293247,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -3.32,
+            "after": -2.97
+          }
+        ],
+        "cause": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+        "newsHeadline": "Marvell의 1,150억 달러 규모의 Lumentum 거래는 50-50의 확률에 직면해 있습니다: 보고서",
+        "newsUrl": "https://finnhub.io/api/news?id=bd91e8d8286ced58f414f52e6f77257430889abbc3a437c0edec05e5fd0b8840",
+        "eventId": "fe408745a3457d35eb84",
+        "fingerprint": "{\"changes\": [{\"after\": -2.97, \"before\": -3.32, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"fe408745a3457d35eb84\"}"
+      },
+      {
         "changedAt": 1794425206.6966162,
         "dataAsOf": 1794293247,
         "changes": [
@@ -37659,29 +37670,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=bdbc592301e26d867ac10077a02cac0747c960de442e10ee4e4d1bd10f32b4ee",
         "eventId": "2ea5adbd89550e882b24",
         "fingerprint": "{\"changes\": [{\"after\": 1.05, \"before\": 1.4, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.1, \"before\": 0.0, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.05, \"before\": 0.0, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.57, \"before\": 0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"주의 강화\", \"before\": \"우호적 변화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"2ea5adbd89550e882b24\"}"
-      },
-      {
-        "changedAt": 1792709526.0209024,
-        "dataAsOf": 1792683908,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 1.05,
-            "after": 1.4
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 0.52,
-            "after": 0.87
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "공급 경고가 AI 매도를 심화함에 따라 칩 재고 하락: Marvell과 AMD는 8% 하락, Intel은 7% 하락",
-        "newsUrl": "https://finnhub.io/api/news?id=5f60df6060f5377484118df074e70e99b09cbb1e2c929d709401ed6890e3622e",
-        "eventId": "f2d349ed01d15a51b2b8",
-        "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 1.05, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.87, \"before\": 0.52, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"f2d349ed01d15a51b2b8\"}"
       }
     ],
     "MSFT": [
@@ -40948,6 +40936,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1794427285.1502748,
+        "dataAsOf": 1794418862,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.87,
+            "after": 0.35
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 3.32,
+            "after": 2.45
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Nvidia 주식은 7개월 최저치를 기록한 후 매수인가요? (힌트: 그렇습니다.)",
+        "newsUrl": "https://finnhub.io/api/news?id=5f4370c9a86c86eb4313b9b488a838cf20f64b3138d9905ce68aae7177c81e45",
+        "eventId": "142a64faf0e0add48d44",
+        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.87, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 2.45, \"before\": 3.32, \"key\": \"growth\", \"label\": \"성장성\"}], \"eventId\": \"142a64faf0e0add48d44\"}"
+      },
+      {
         "changedAt": 1794425206.6966162,
         "dataAsOf": 1794405916,
         "changes": [
@@ -42387,23 +42398,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=fad852c244f18c65327d7fb2c1efa069de2016531ab01f215f15afab94c04872",
         "eventId": "d1e0253cbb5b49e6ab4e",
         "fingerprint": "{\"changes\": [{\"after\": -3.15, \"before\": -2.1, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -4.72, \"before\": -3.15, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 3.15, \"before\": 4.72, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"d1e0253cbb5b49e6ab4e\"}"
-      },
-      {
-        "changedAt": 1793668261.3771796,
-        "dataAsOf": 1793665021,
-        "changes": [
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 2.8,
-            "after": 4.72
-          }
-        ],
-        "cause": "AI 컴퓨팅 수요 확대 가능성",
-        "newsHeadline": "인텔(INTC)이 7억 달러 규모의 AI 스타트업 펀딩 라운드에 합류했습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=0d6068f6ec451abcd04366c2084c93622cd908a1232790844f5cbde9a5499bae",
-        "eventId": "7abc9fac2edae1f2c6fc",
-        "fingerprint": "{\"changes\": [{\"after\": 4.72, \"before\": 2.8, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"7abc9fac2edae1f2c6fc\"}"
       }
     ],
     "ORCL": [
@@ -47083,6 +47077,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "QCOM": [
       {
+        "changedAt": 1794427285.1502748,
+        "dataAsOf": 1794392031,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.7,
+            "after": 0.35
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.05,
+            "after": 0.35
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "QUALCOMM(QCOM)이 새로운 AI PC OS 파트너십을 통해 무엇을 알리고 있습니까?",
+        "newsUrl": "https://finnhub.io/api/news?id=c6c59a8fd09619d2b0377963fadb9f6301b78fa4774dd4562dba123f49108f81",
+        "eventId": "cc1a2fd68cdee74d238e",
+        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.7, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.35, \"before\": 1.05, \"key\": \"growth\", \"label\": \"성장성\"}], \"eventId\": \"cc1a2fd68cdee74d238e\"}"
+      },
+      {
         "changedAt": 1794425206.6966162,
         "dataAsOf": 1794392031,
         "changes": [
@@ -48846,41 +48863,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=16603b60e699bd57c649c912acc2158f422bfb4534474401ad98179157cdc37b",
         "eventId": "10d809cbadada9b447f5",
         "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": 0.35, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -3.32, \"before\": -2.62, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.32, \"before\": -2.97, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"10d809cbadada9b447f5\"}"
-      },
-      {
-        "changedAt": 1792194532.8432841,
-        "dataAsOf": 1792179277,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": -1.75,
-            "after": -2.62
-          },
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": 0.0,
-            "after": -0.35
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -4.9,
-            "after": -5
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -2.1,
-            "after": -2.97
-          }
-        ],
-        "cause": "스마트폰 수요가 줄면 고객 칩 수요에 부담",
-        "newsHeadline": "iPhone Duo는 사전 예약 판매 급증으로 이미 2027년까지 예약 주문됨",
-        "newsUrl": "https://finnhub.io/api/news?id=16603b60e699bd57c649c912acc2158f422bfb4534474401ad98179157cdc37b",
-        "eventId": "10d809cbadada9b447f5",
-        "fingerprint": "{\"changes\": [{\"after\": -2.62, \"before\": -1.75, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.35, \"before\": 0.0, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -5, \"before\": -4.9, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -2.97, \"before\": -2.1, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"10d809cbadada9b447f5\"}"
       }
     ],
     "SBGSY": [
