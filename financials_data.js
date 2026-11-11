@@ -4384,13 +4384,7 @@ const FINANCIALS_DATA = {
         "ocf": 2011000000,
         "capex": -282000000,
         "fcf": 1729000000,
-        "_fcfIsProxy": true,
-        "pretaxIncome": -74000000.0,
-        "taxProvision": -834000000.0,
-        "normalizedIncome": 768000000.0,
-        "unusualTaxEffect": 0.0,
-        "otherNonOperating": 98000000.0,
-        "stockComp": 369000000.0
+        "_fcfIsProxy": true
       },
       {
         "period": "Q3'25",
@@ -4466,11 +4460,11 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q3'26",
-        "revenue": 13377000000,
-        "netIncome": 2428000000,
-        "opIncome": 2832000000,
-        "eps": 1.46,
+        "revenue": 13377000000.0,
+        "netIncome": 2428000000.0,
+        "opIncome": 2832000000.0,
         "endDate": "2026-09-26",
+        "eps": 1.46,
         "ocf": 1202000000,
         "capex": -648000000,
         "fcf": 554000000,
@@ -4586,8 +4580,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1793798601.0352974,
-    "_updated_label": "2026-11-10 23:01",
+    "_fetched_at": 1794404834.0596933,
+    "_updated_label": "2026-11-11 22:47",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -4614,7 +4608,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1794319272.7682943,
+    "_yahoo_verified_at": 1794404848.5448978,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "INTC": {
@@ -5538,16 +5532,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1794402560.2065701,
-    "_updated_label": "2026-11-11 22:09"
+    "_fetched_at": 1794404834.0596933,
+    "_updated_label": "2026-11-11 22:47"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1794402560.2065701,
-    "_updated_label": "2026-11-11 22:09"
+    "_fetched_at": 1794404834.0596933,
+    "_updated_label": "2026-11-11 22:47"
   },
   "ORCL": {
     "annual": [
