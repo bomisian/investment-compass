@@ -95,44 +95,44 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 102.28800201416016,
-      "prevClose": 101.6500015258789,
-      "changeAbs": 0.63800048828125,
-      "changePct": 0.6276443469790037,
-      "pctRank": 49.562450278440735,
+      "current": 102.24600219726562,
+      "prevClose": 102.2300033569336,
+      "changeAbs": 0.01599884033203125,
+      "changePct": 0.015649848191994754,
+      "pctRank": 49.36406995230524,
       "min5y": 94.79000091552734,
       "max5y": 114.11000061035156,
       "high1y": 102.58000183105469,
-      "drawdown1y": -0.2846556947575851,
-      "ma20": 101.93040084838867,
-      "ma60": 100.85046679178873,
-      "chg1m": -0.29199981689453125,
-      "chg3m": 2.2779998779296875,
-      "chg1mPct": -0.2846556947575841,
-      "chg3mPct": 2.2777720520660205,
+      "drawdown1y": -0.3255991692602489,
+      "ma20": 101.91230087280273,
+      "ma60": 100.89276682535807,
+      "chg1m": 0.06600189208984375,
+      "chg3m": 2.2860031127929688,
+      "chg1mPct": 0.06459374818234417,
+      "chg3mPct": 2.2869179008906837,
       "lastDate": "2026-11-11",
-      "bars": 1257,
+      "bars": 1258,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
       "unit": "",
       "digits": 1
     },
     "gold": {
-      "current": 4036.0,
+      "current": 4048.5,
       "prevClose": 4114.5,
-      "changeAbs": -78.5,
-      "changePct": -1.907886742009965,
-      "pctRank": 79.88871224165341,
+      "changeAbs": -66.0,
+      "changePct": -1.6040831206707982,
+      "pctRank": 80.36565977742448,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -24.112513648674916,
-      "ma20": 4069.8449951171874,
-      "ma60": 4276.651643880208,
-      "chg1m": -154.60009765625,
-      "chg3m": -431.5,
-      "chg1mPct": -3.6892114268482907,
-      "chg3mPct": -9.65864577504197,
+      "drawdown1y": -23.877480551699804,
+      "ma20": 4070.4699951171874,
+      "ma60": 4276.859977213541,
+      "chg1m": -142.10009765625,
+      "chg3m": -419.0,
+      "chg1mPct": -3.3909247922684105,
+      "chg3mPct": -9.378847229994404,
       "lastDate": "2026-11-11",
       "bars": 1258,
       "symbol": "GC=F",
@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": -6.7795407310209725,
-        "ret3m": 2.4148342722000615,
-        "ret6m": 3.758235791192499,
-        "ret1y": 0.5281316831157179,
+        "ret1m": -7.45890036300878,
+        "ret3m": 3.0370163131465233,
+        "ret6m": 4.698673694895428,
+        "ret1y": 0.7159813258633241,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -26.209617885255454,
-        "ret3m": -21.322807133355916,
-        "ret6m": -18.654052265108888,
-        "ret1y": 74.19029013728976,
+        "ret1m": -24.35800859936822,
+        "ret3m": -23.881213366326982,
+        "ret6m": -15.890829889608638,
+        "ret1y": 73.62179975297873,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": -29.98550933462083,
-        "ret3m": -20.879975608844394,
-        "ret6m": -19.601231691090693,
-        "ret1y": 86.03258640620098,
+        "ret1m": -26.65911750413216,
+        "ret3m": -29.396952132317942,
+        "ret6m": -20.760827469068822,
+        "ret1y": 83.08705698441099,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": -19.66332596523874,
-        "ret3m": -19.40079842865621,
-        "ret6m": -26.46028977771959,
-        "ret1y": 11.088623770268358,
+        "ret1m": -19.507868887994874,
+        "ret3m": -22.733718219763986,
+        "ret6m": -26.593290973937556,
+        "ret1y": 7.850301141904836,
         "winRate": null,
         "count": 12
       }
@@ -229,21 +229,21 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.5471854103263807,
-    "corrPctRank": 24.308466051969823,
+    "corr60": 0.5676097959001031,
+    "corrPctRank": 28.894472361809044,
     "corrMin5y": 0.036257837878636255,
     "corrMedian5y": 0.6930182404486865,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
     {
-      "headline": "US House blocks path to impeach Defense Secretary Hegseth - Reuters",
-      "summary": "US House blocks path to impeach Defense Secretary Hegseth Reuters",
+      "headline": "US Treasury chief Bessent moved to military base after Iranian threats, NYT reports - Reuters",
+      "summary": "US Treasury chief Bessent moved to military base after Iranian threats, NYT reports Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObVFtR2hnZ2luVDdXU010VVB4UVpubVBIbUtJc0ZkQVkzLUkzaWxMRDJKaVVoTVNUbzRyRGQ4ZFh1dUZIUFhRVDRTVVNyZ3FWQkRIMm5UTVJOY2J0MDJ4bEFZNkh2MjdUZzRnRkVYbXBKSktfNElhWU42SEVRMktOd0JHYTQyU2N4ZUF2eWZicDRpVHBCTHRYUWFYOVRMT3lrVWNuQldMQkV0MVVGYXc?oc=5",
-      "datetime": 1794353263,
-      "headlineKo": "미 하원, 헤그세스 국방장관 탄핵안 막았다 - 로이터",
-      "summaryKo": "미 하원, 헤그세스 국방장관 탄핵안 막았다 - 로이터"
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPT3lYOEw5X1FaSkpweDhiUmp3d0QybFR3ZU4xRl8wYXRRMS1CbzFFWENqLXNBVDZhOHBvSHdXSFh3NW5oNXEyUjRfWmFMT0g1bkV2NXRWWDc5UUpsaXVWLWxwQ0RLSkRkTW5jSWlkQ1p1dzFRa2pySzFVTklVb0k3TFo1bmZPb0lZTXVId1oyN2hCZGxkRmZua2R1ay1LN3VkNE1zb1FFNHUwNGNwSlBVdE5aMzFocFlGWTNINElWV3BvY21lOWRNTmxaNHB2dw?oc=5",
+      "datetime": 1794358800,
+      "headlineKo": "베센트 미 재무장관, 이란 위협 이후 군사기지로 이동했다고 NYT 보도 - 로이터 통신",
+      "summaryKo": "NYT는 베센트 미 재무장관이 이란의 위협으로 군사 기지로 이동했다고 보도했습니다."
     },
     {
       "headline": "Mississippi Senate: Scott Colom extends tight lead over Hyde-Smith as ballot deadlines hit",
@@ -262,6 +262,15 @@ const MARKET_DATA = {
       "datetime": 1794346021,
       "headlineKo": "뜨거운 인플레이션 데이터로 월 스트리트는 하락세로 마감하고 연준은 금리 우려를 높인다고 논평 - Reuters",
       "summaryKo": "뜨거운 인플레이션 데이터로 월스트리트가 하락 마감, 연준의 발언으로 금리 우려가 높아짐 Reuters"
+    },
+    {
+      "headline": "Iran-backed militant helped plot attack on UK's Fairford base from US jail, Justice Department says - Reuters",
+      "summary": "Iran-backed militant helped plot attack on UK's Fairford base from US jail, Justice Department says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQejFyZFdOS1NzaFBIQjJ6NjdqRkhzbkFVeXZFR0dUWnlqRnNxNGpIc1hGRWZUbEpTSmgzb2NMRURmRUFIeWtGX1BvNGdKY3Z6UG5VRDV6RVN4bTJXSG5ZeVIxQl9aYmJFWWFEOEtpejJtZi01QzBtYzRGd3V1MHNEMG54UU84dF80eUVyUFhqUVpvMHJheUduVldabUk3M2pxalpOWG93MXB1LTVyVEpyUWp0WnVIQkFxaml1V1Fhdw?oc=5",
+      "datetime": 1794345881,
+      "headlineKo": "이란의 지원을 받는 무장세력이 미국 감옥에서 영국 페어포드 기지 공격을 모의하는 데 도움을 줬다고 법무부가 밝혔습니다.",
+      "summaryKo": "이란의 지원을 받는 무장세력이 미국 감옥에서 영국 페어포드 기지 공격을 모의하는 데 도움을 줬다고 법무부가 밝혔습니다."
     },
     {
       "headline": "Fire contained at Iran's South Pars gas platform, Fars says - Reuters",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1794340278,
       "headlineKo": "거래자들은 Anthropic의 역사적인 IPO에 대한 팝에 베팅했습니다.",
       "summaryKo": "영구 선물 거래자들은 IPO에서 Anthropic이 터지는 것을 봅니다."
-    },
-    {
-      "headline": "Rubio says no need for major combat operations against Iran given US economic campaign - Reuters",
-      "summary": "Rubio says no need for major combat operations against Iran given US economic campaign Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOek5yNnd3UkRRS2RHYjY5MlR1NU9KQnFWcW43RGV1VHI5Yzhxc3RseUstNnVCbXVlUTN3T1hTcE9RUEFGT0R6Q0JUTmQxNW1aX2lZM0RXZkNjLTgwdWQ5aFN1OGM2LTBLcV91MlBkdDE0a2VCQk5nNUdDOGo1ZHI2TW9Pa010QjlrcjQwU0htVjlTMlVOUXJ2cThHQ0JHY09rSHFyYVgtNzNhMXNVVzJ3UTZTb1R6cmM?oc=5",
-      "datetime": 1794339330,
-      "headlineKo": "루비오 \"미국의 경제 캠페인을 고려할 때 이란에 대한 대규모 전투 작전이 필요하지 않다\" - 로이터 통신",
-      "summaryKo": "루비오 \"미국의 경제 캠페인을 고려할 때 이란에 대한 대규모 전투 작전은 필요하지 않다\" - 로이터"
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794360485.0482862,
+  "_news_last_success_at": 1794364598.3335662,
   "fgi": {
     "score": 33.4571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1794360472.1707206,
-  "_updated_label": "2026-11-11 10:28",
-  "_last_attempt_at": 1794360472.1707206,
-  "_last_success_at": 1794360472.1707206,
+  "_fetched_at": 1794364587.7548163,
+  "_updated_label": "2026-11-11 11:37",
+  "_last_attempt_at": 1794364587.7548163,
+  "_last_success_at": 1794364587.7548163,
   "_collection_status": "ok",
   "_collection_errors": []
 };
