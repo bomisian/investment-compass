@@ -72,22 +72,22 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 86.25,
+      "current": 86.52999877929688,
       "prevClose": 86.8499984741211,
-      "changeAbs": -0.5999984741210938,
-      "changePct": -0.6908445419257857,
-      "pctRank": 73.50835322195705,
+      "changeAbs": -0.31999969482421875,
+      "changePct": -0.36845100799808284,
+      "pctRank": 73.82657120127287,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -23.638776157273465,
-      "ma20": 97.27450027465821,
-      "ma60": 93.7536673227946,
-      "chg1m": -7.489997863769531,
-      "chg3m": 2.9800033569335938,
-      "chg1mPct": -7.990183522997937,
-      "chg3mPct": 3.5787240027248495,
-      "lastDate": "2026-11-10",
+      "drawdown1y": -23.39087993163198,
+      "ma20": 97.28850021362305,
+      "ma60": 93.75833396911621,
+      "chg1m": -7.209999084472656,
+      "chg3m": 3.2600021362304688,
+      "chg1mPct": -7.691486290570227,
+      "chg3mPct": 3.9149781045438736,
+      "lastDate": "2026-11-11",
       "bars": 1257,
       "symbol": "CL=F",
       "label": "WTI 유가",
@@ -95,22 +95,22 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 102.21700286865234,
+      "current": 102.28800201416016,
       "prevClose": 101.6500015258789,
-      "changeAbs": 0.5670013427734375,
-      "changePct": 0.557797672663178,
-      "pctRank": 49.2442322991249,
+      "changeAbs": 0.63800048828125,
+      "changePct": 0.6276443469790037,
+      "pctRank": 49.562450278440735,
       "min5y": 94.79000091552734,
       "max5y": 114.11000061035156,
       "high1y": 102.58000183105469,
-      "drawdown1y": -0.3538691323092258,
-      "ma20": 101.92685089111328,
-      "ma60": 100.84928347269694,
-      "chg1m": -0.36299896240234375,
-      "chg3m": 2.207000732421875,
-      "chg1mPct": -0.35386913230922834,
-      "chg3mPct": 2.20678000727924,
-      "lastDate": "2026-11-10",
+      "drawdown1y": -0.2846556947575851,
+      "ma20": 101.93040084838867,
+      "ma60": 100.85046679178873,
+      "chg1m": -0.29199981689453125,
+      "chg3m": 2.2779998779296875,
+      "chg1mPct": -0.2846556947575841,
+      "chg3mPct": 2.2777720520660205,
+      "lastDate": "2026-11-11",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
@@ -118,22 +118,22 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4044.39990234375,
+      "current": 4036.0,
       "prevClose": 4114.5,
-      "changeAbs": -70.10009765625,
-      "changePct": -1.7037330819358365,
-      "pctRank": 80.28616852146264,
+      "changeAbs": -78.5,
+      "changePct": -1.907886742009965,
+      "pctRank": 79.88871224165341,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -23.954573243703702,
-      "ma20": 4070.264990234375,
-      "ma60": 4276.791642252604,
-      "chg1m": -146.2001953125,
-      "chg3m": -423.10009765625,
-      "chg1mPct": -3.4887651387749434,
-      "chg3mPct": -9.47062333869614,
-      "lastDate": "2026-11-10",
+      "drawdown1y": -24.112513648674916,
+      "ma20": 4069.8449951171874,
+      "ma60": 4276.651643880208,
+      "chg1m": -154.60009765625,
+      "chg3m": -431.5,
+      "chg1mPct": -3.6892114268482907,
+      "chg3mPct": -9.65864577504197,
+      "lastDate": "2026-11-11",
       "bars": 1258,
       "symbol": "GC=F",
       "label": "금",
@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": -7.45890036300878,
-        "ret3m": 3.0370163131465233,
-        "ret6m": 4.698673694895428,
-        "ret1y": 0.7159813258633241,
+        "ret1m": -6.7795407310209725,
+        "ret3m": 2.4148342722000615,
+        "ret6m": 3.758235791192499,
+        "ret1y": 0.5281316831157179,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -24.35800859936822,
-        "ret3m": -23.881213366326982,
-        "ret6m": -15.890829889608638,
-        "ret1y": 73.62179975297873,
+        "ret1m": -26.209617885255454,
+        "ret3m": -21.322807133355916,
+        "ret6m": -18.654052265108888,
+        "ret1y": 74.19029013728976,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": -26.65911750413216,
-        "ret3m": -29.396952132317942,
-        "ret6m": -20.760827469068822,
-        "ret1y": 83.08705698441099,
+        "ret1m": -29.98550933462083,
+        "ret3m": -20.879975608844394,
+        "ret6m": -19.601231691090693,
+        "ret1y": 86.03258640620098,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": -19.507868887994874,
-        "ret3m": -22.733718219763986,
-        "ret6m": -26.593290973937556,
-        "ret1y": 7.850301141904836,
+        "ret1m": -19.66332596523874,
+        "ret3m": -19.40079842865621,
+        "ret6m": -26.46028977771959,
+        "ret1y": 11.088623770268358,
         "winRate": null,
         "count": 12
       }
@@ -229,13 +229,22 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.5676097959001031,
-    "corrPctRank": 28.894472361809044,
+    "corr60": 0.5471854103263807,
+    "corrPctRank": 24.308466051969823,
     "corrMin5y": 0.036257837878636255,
     "corrMedian5y": 0.6930182404486865,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
+    {
+      "headline": "US House blocks path to impeach Defense Secretary Hegseth - Reuters",
+      "summary": "US House blocks path to impeach Defense Secretary Hegseth Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObVFtR2hnZ2luVDdXU010VVB4UVpubVBIbUtJc0ZkQVkzLUkzaWxMRDJKaVVoTVNUbzRyRGQ4ZFh1dUZIUFhRVDRTVVNyZ3FWQkRIMm5UTVJOY2J0MDJ4bEFZNkh2MjdUZzRnRkVYbXBKSktfNElhWU42SEVRMktOd0JHYTQyU2N4ZUF2eWZicDRpVHBCTHRYUWFYOVRMT3lrVWNuQldMQkV0MVVGYXc?oc=5",
+      "datetime": 1794353263,
+      "headlineKo": "미 하원, 헤그세스 국방장관 탄핵안 막았다 - 로이터",
+      "summaryKo": "미 하원, 헤그세스 국방장관 탄핵안 막았다 - 로이터"
+    },
     {
       "headline": "Mississippi Senate: Scott Colom extends tight lead over Hyde-Smith as ballot deadlines hit",
       "summary": "Tuesday was the deadline for provisional ballots to be resolved in Mississippi, and the deadline for the receipt of mail-in absentee ballots.",
@@ -246,15 +255,6 @@ const MARKET_DATA = {
       "summaryKo": "화요일은 미시시피에서 임시 투표용지가 해결되는 마감일이자 우편 부재자 투표용지 접수 마감일이었습니다."
     },
     {
-      "headline": "Defiant Hegseth blasts impeachment 'farce' ahead of US House vote - Reuters",
-      "summary": "Defiant Hegseth blasts impeachment 'farce' ahead of US House vote Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObVFtR2hnZ2luVDdXU010VVB4UVpubVBIbUtJc0ZkQVkzLUkzaWxMRDJKaVVoTVNUbzRyRGQ4ZFh1dUZIUFhRVDRTVVNyZ3FWQkRIMm5UTVJOY2J0MDJ4bEFZNkh2MjdUZzRnRkVYbXBKSktfNElhWU42SEVRMktOd0JHYTQyU2N4ZUF2eWZicDRpVHBCTHRYUWFYOVRMT3lrVWNuQldMQkV0MVVGYXc?oc=5",
-      "datetime": 1794347625,
-      "headlineKo": "반항적인 헤그세스, 미국 하원 투표 앞두고 탄핵 '희극' 폭파 - 로이터 통신",
-      "summaryKo": "반항적 인 Hegseth는 미국 하원 투표를 앞두고 탄핵 '농담'을 비난했습니다."
-    },
-    {
       "headline": "Wall St ends lower as hot inflation data, Fed comments heighten rate worries - Reuters",
       "summary": "Wall St ends lower as hot inflation data, Fed comments heighten rate worries Reuters",
       "source": "Reuters",
@@ -262,6 +262,15 @@ const MARKET_DATA = {
       "datetime": 1794346021,
       "headlineKo": "뜨거운 인플레이션 데이터로 월 스트리트는 하락세로 마감하고 연준은 금리 우려를 높인다고 논평 - Reuters",
       "summaryKo": "뜨거운 인플레이션 데이터로 월스트리트가 하락 마감, 연준의 발언으로 금리 우려가 높아짐 Reuters"
+    },
+    {
+      "headline": "Fire contained at Iran's South Pars gas platform, Fars says - Reuters",
+      "summary": "Fire contained at Iran's South Pars gas platform, Fars says Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTk9qU0hFcU1IcHpSaGVmeFh2QmVKM3VaaUlja3Vqb0ppbFlrQWhVMFZvTU1EV3dFUXBGSU5MZmNrb0hnQ2hKUlBHSTFaYXFnYWV2OTg3UnEtVVczRXlYN0ZrNUZVT05JTjBnXy1LZU41azlXMlRPbWxjbUkxNTRxa2k4TmxXbkh1a3VXeEFtY1ZuR2VpODliZXN0SGo?oc=5",
+      "datetime": 1794345743,
+      "headlineKo": "이란의 South Pars 가스 플랫폼에서 화재가 발생했다고 Fars가 밝혔습니다 - Reuters",
+      "summaryKo": "이란의 South Pars 가스 플랫폼에서 화재가 발생했다고 Fars가 밝혔습니다."
     },
     {
       "headline": "Iraq bars plane carrying Iran's soccer team from landing in Basra over US sanctions, officials say - Reuters",
@@ -289,6 +298,15 @@ const MARKET_DATA = {
       "datetime": 1794342720,
       "headlineKo": "저격총과 집라인: 테헤란에서 전투 훈련을 받는 이란 여성 - 로이터",
       "summaryKo": "저격총과 집라인: 이란 여성들이 테헤란에서 전투 훈련을 받고 있습니다."
+    },
+    {
+      "headline": "PODCAST: Hegseth, FBI Nvidia probe, Anthropic valuation (Updated) - Reuters",
+      "summary": "PODCAST: Hegseth, FBI Nvidia probe, Anthropic valuation (Updated) Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMTlXR0tMQllpNEJzNGk1WktuZXlPNHBFTERDM1NidThtQmVpM0U3T3FXb2ljR0JtUkpQVTlBdFloMHJEdGpsS0VPclEySHlvWWFzZkVSZ3NPeTF5QmV6WUs2MHE0UGF2V2ZwMnpNUVNJWWVOTkh6RTJZM0JwRWY2cGI1T24tRmlIQmJvbnByNG1qaHc0dlIwejRGMVV2blU1QWczZGlRclpsdG8?oc=5",
+      "datetime": 1794342613,
+      "headlineKo": "팟캐스트: Hegseth, FBI Nvidia 조사, 인류적 가치 평가(업데이트됨) - Reuters",
+      "summaryKo": "팟캐스트: Hegseth, FBI Nvidia 조사, 인류적 가치 평가(업데이트됨) Reuters"
     },
     {
       "headline": "US Army member arrested in UK for suspected 'espionage' for Russia - Reuters",
@@ -325,36 +343,18 @@ const MARKET_DATA = {
       "datetime": 1794339330,
       "headlineKo": "루비오 \"미국의 경제 캠페인을 고려할 때 이란에 대한 대규모 전투 작전이 필요하지 않다\" - 로이터 통신",
       "summaryKo": "루비오 \"미국의 경제 캠페인을 고려할 때 이란에 대한 대규모 전투 작전은 필요하지 않다\" - 로이터"
-    },
-    {
-      "headline": "Israeli fire kills seven, including a father and son, in Gaza, medics say - Reuters",
-      "summary": "Israeli fire kills seven, including a father and son, in Gaza, medics say Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUVlyOWR1akxRUHIxVWhFWjNOU3RZcnVsMTk2WXdVZDFrY1Mzcm1KbWgwYVRvUG04bUx4ZVVnTktzUHlTcnNRbVFmT1I5WDRNNWUySWlZMGo0Q2NzVVczUDRLLVNKbEpUNUpwa2VYeWI0bEN3ZlMzX3c1QTVvVkd6X3J4YXlCWkZpblFBblBFS09ycThfMWNjdEJDQzYwbHJU?oc=5",
-      "datetime": 1794334174,
-      "headlineKo": "이스라엘 가자지구에서 발생한 화재로 아버지와 아들 등 7명이 사망했다고 의료진이 밝혔습니다.",
-      "summaryKo": "이스라엘 가자지구에서 발생한 화재로 아버지와 아들 등 7명이 사망했다고 의료진이 밝혔습니다."
-    },
-    {
-      "headline": "COMMENTARY: China's crude oil imports recover, fuel exports not so much - Reuters",
-      "summary": "COMMENTARY: China's crude oil imports recover, fuel exports not so much Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPazhScG1vNWotRURNakQ0YTRxZ2JXY180M3hPQ2VpdDF3UnBRXy1RSHcxSWRvOFJqTERXSDMteGZuSGVOYzI5Y0x3c1VPQlZpSDBJN255X3UxdGQybXFPNWw2N1BfR2l3azB4ang1Z29LMzU4MXo5RVNrMFR2XzRndDdqU3BfOHNWZ0xfNGhJOXZPV3ROXzBJWW9XSUtfWW9ja1VrU0RZQ2ZKVG9Pa0Frc0lSbnoxUkYwTFhLTnBfc05sTUxm?oc=5",
-      "datetime": 1794331550,
-      "headlineKo": "논평: 중국의 원유 수입은 회복되고 연료 수출은 그리 많지 않음 - Reuters",
-      "summaryKo": "논평: 중국의 원유 수입은 회복되고 있지만 연료 수출은 그다지 많지 않습니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794355348.8120496,
+  "_news_last_success_at": 1794360485.0482862,
   "fgi": {
     "score": 33.4571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1794355341.4971187,
-  "_updated_label": "2026-11-11 09:03",
-  "_last_attempt_at": 1794355341.4971187,
-  "_last_success_at": 1794355341.4971187,
+  "_fetched_at": 1794360472.1707206,
+  "_updated_label": "2026-11-11 10:28",
+  "_last_attempt_at": 1794360472.1707206,
+  "_last_success_at": 1794360472.1707206,
   "_collection_status": "ok",
   "_collection_errors": []
 };
