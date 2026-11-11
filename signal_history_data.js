@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794380527.8394334,
+  "generatedAt": 1794382716.0374587,
   "records": {
     "AAPL": [
       {
@@ -3645,6 +3645,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AMD": [
       {
+        "changedAt": 1794382716.0374587,
+        "dataAsOf": 1794371570,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 2.28,
+            "after": 2.63
+          }
+        ],
+        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
+        "newsHeadline": "소매 투자자들이 Nvidia 외에도 주목하고 있는 3가지 데이터 센터 인프라 주식",
+        "newsUrl": "https://finnhub.io/api/news?id=57103db5fdc36a4040df1f13c642bf517a1e580c699ea11c8eacfb3c972e481d",
+        "eventId": "be9dd1333dbfc11fdb36",
+        "fingerprint": "{\"changes\": [{\"after\": 2.63, \"before\": 2.28, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"be9dd1333dbfc11fdb36\"}"
+      },
+      {
         "changedAt": 1794380527.8394334,
         "dataAsOf": 1794346013,
         "changes": [
@@ -5162,38 +5179,44 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=d33d9a63fb739c160dd24f94aed225af3ab3accd0dd51974fd313ef1bdd3b91d",
         "eventId": "5d9f4e2c35180ca28aee",
         "fingerprint": "{\"changes\": [{\"after\": 2.98, \"before\": 2.28, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"5d9f4e2c35180ca28aee\"}"
-      },
+      }
+    ],
+    "AMZN": [
       {
-        "changedAt": 1793216546.9397004,
-        "dataAsOf": 1793208523,
+        "changedAt": 1794382716.0374587,
+        "dataAsOf": 1794358262,
         "changes": [
           {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -2.1,
-            "after": -4.2
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.87,
+            "after": 0.52
           },
           {
             "key": "businessRisk",
             "label": "사업 리스크",
-            "before": -2.1,
-            "after": -3.15
+            "before": -1.75,
+            "after": -2.45
           },
           {
             "key": "shortTermMomentum",
             "label": "단기 뉴스 모멘텀",
-            "before": 4.72,
-            "after": 2.28
+            "before": -0.53,
+            "after": -0.87
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "중립·확인 대기",
+            "after": "주의 강화"
           }
         ],
-        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
-        "newsHeadline": "인텔은 방금 23억 달러의 퀀텀 구매를 성사시켰고 다시 지출하고 있습니다. 현금흐름이 유지될 수 있는가?",
-        "newsUrl": "https://finnhub.io/api/news?id=d33d9a63fb739c160dd24f94aed225af3ab3accd0dd51974fd313ef1bdd3b91d",
-        "eventId": "5d9f4e2c35180ca28aee",
-        "fingerprint": "{\"changes\": [{\"after\": -4.2, \"before\": -2.1, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -3.15, \"before\": -2.1, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 2.28, \"before\": 4.72, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"5d9f4e2c35180ca28aee\"}"
-      }
-    ],
-    "AMZN": [
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Amazon의 클라우드 컴퓨팅 사업은 이미 S&P 500의 476개 회사보다 더 많은 수익을 창출하고 있습니다. 1조 달러에 도달하려면 다음이 필요합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=1c4c2c2dd2751cfd6297bbd81d51eb1aa4c7ef86f9c0b1afd8940573e2bfcd62",
+        "eventId": "bc5db9b95c7b835200a5",
+        "fingerprint": "{\"changes\": [{\"after\": 0.52, \"before\": 0.87, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.45, \"before\": -1.75, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.87, \"before\": -0.53, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"주의 강화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"bc5db9b95c7b835200a5\"}"
+      },
       {
         "changedAt": 1794360471.9420853,
         "dataAsOf": 1794345720,
@@ -7090,29 +7113,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=159a0e936032fb8049c2cbee82ce1c1eea7b2e67f320f7c6fd3c3cce09ce525f",
         "eventId": "788cabfcefef0e4cbe86",
         "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.0, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -1.22, \"before\": -1.57, \"key\": \"growth\", \"label\": \"성장성\"}], \"eventId\": \"788cabfcefef0e4cbe86\"}"
-      },
-      {
-        "changedAt": 1792709526.0209024,
-        "dataAsOf": 1792700784,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 0.7,
-            "after": 0.0
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": -0.52,
-            "after": -1.57
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "Alphabet(GOOGL) 대 MSFT 및 AMZN: AI 투자와 Google Cloud 성장으로 26%의 상승 여력을 얻을 수 있습니까?",
-        "newsUrl": "https://finnhub.io/api/news?id=76c1bd26b5efefa54a8a958e66f717ce5ce0aa2140eca2591ecdad295e7ba06b",
-        "eventId": "cb687254ba8ff64c9709",
-        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": 0.7, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -1.57, \"before\": -0.52, \"key\": \"growth\", \"label\": \"성장성\"}], \"eventId\": \"cb687254ba8ff64c9709\"}"
       }
     ],
     "ANET": [
@@ -12467,6 +12467,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AVGO": [
       {
+        "changedAt": 1794382716.0374587,
+        "dataAsOf": 1794330755,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.0,
+            "after": 0.52
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -2.1,
+            "after": -1.05
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -2.45,
+            "after": -1.92
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Kratos와 Seagate가 파트너십을 발표했습니다 – 주요 내용 살펴보기",
+        "newsUrl": "https://finnhub.io/api/news?id=966d94f3e7190a287cf9cacb0fa573041ec2dd64b551f80b172f7da27429cdb0",
+        "eventId": "fdf4e428150bb66938fb",
+        "fingerprint": "{\"changes\": [{\"after\": 0.52, \"before\": 0.0, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.05, \"before\": -2.1, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.92, \"before\": -2.45, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"fdf4e428150bb66938fb\"}"
+      },
+      {
         "changedAt": 1794362628.7111828,
         "dataAsOf": 1794330755,
         "changes": [
@@ -14284,29 +14313,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=860ce716d2ea0a1bf05134e0bd0074b39b55e27ec7afb515f86874ef571d7d20",
         "eventId": "1a7038078f38cfcf4b03",
         "fingerprint": "{\"changes\": [{\"after\": -4.55, \"before\": -2.45, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -3.5, \"before\": -2.45, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -3.67, \"before\": -1.57, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"1a7038078f38cfcf4b03\"}"
-      },
-      {
-        "changedAt": 1792955295.987516,
-        "dataAsOf": 1792935300,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 0.87,
-            "after": 1.4
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -2.1,
-            "after": -1.57
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "2030년까지 Nvidia, AMD, Broadcom에 동일하게 투자한 10,000달러의 가치는 다음과 같습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=e79f7f843040d301b578346a1e7f88a5d68bfd0ca166081ed49d7be1c1b07875",
-        "eventId": "6ccc44a35e0a76cde141",
-        "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 0.87, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.57, \"before\": -2.1, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"6ccc44a35e0a76cde141\"}"
       }
     ],
     "BE": [
@@ -39528,6 +39534,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "MU": [
       {
+        "changedAt": 1794382716.0374587,
+        "dataAsOf": 1794371570,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 4.72,
+            "after": 5
+          }
+        ],
+        "cause": "AI 서버 메모리 수요와 가격 강세",
+        "newsHeadline": "소매 투자자들이 Nvidia 외에도 주목하고 있는 3가지 데이터 센터 인프라 주식",
+        "newsUrl": "https://finnhub.io/api/news?id=57103db5fdc36a4040df1f13c642bf517a1e580c699ea11c8eacfb3c972e481d",
+        "eventId": "be9dd1333dbfc11fdb36",
+        "fingerprint": "{\"changes\": [{\"after\": 5, \"before\": 4.72, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"be9dd1333dbfc11fdb36\"}"
+      },
+      {
         "changedAt": 1794364587.5264192,
         "dataAsOf": 1794346013,
         "changes": [
@@ -41033,32 +41056,32 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=d33d9a63fb739c160dd24f94aed225af3ab3accd0dd51974fd313ef1bdd3b91d",
         "eventId": "5d9f4e2c35180ca28aee",
         "fingerprint": "{\"changes\": [{\"after\": 2.1, \"before\": 2.27, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -3.5, \"before\": -2.8, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"5d9f4e2c35180ca28aee\"}"
-      },
-      {
-        "changedAt": 1793194161.1099808,
-        "dataAsOf": 1793185461,
-        "changes": [
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -0.52,
-            "after": -1.05
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -1.57,
-            "after": -2.8
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "SK하이닉스는 632%의 이익 급증과 450억 달러의 주주 약속 이후 8% 상승했습니다. Micron과 SanDisk가 함께하고 있습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=212760d2fc59658e5aae1a066d0c90405e9d06f70b96f4015041638b97c7f398",
-        "eventId": "f46f14c2a44e520af35e",
-        "fingerprint": "{\"changes\": [{\"after\": -1.05, \"before\": -0.52, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.8, \"before\": -1.57, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"f46f14c2a44e520af35e\"}"
       }
     ],
     "NVDA": [
+      {
+        "changedAt": 1794382716.0374587,
+        "dataAsOf": 1794371570,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 2.63,
+            "after": 2.97
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.75,
+            "after": -1.4
+          }
+        ],
+        "cause": "AI 컴퓨팅 수요 확대 가능성",
+        "newsHeadline": "소매 투자자들이 Nvidia 외에도 주목하고 있는 3가지 데이터 센터 인프라 주식",
+        "newsUrl": "https://finnhub.io/api/news?id=57103db5fdc36a4040df1f13c642bf517a1e580c699ea11c8eacfb3c972e481d",
+        "eventId": "be9dd1333dbfc11fdb36",
+        "fingerprint": "{\"changes\": [{\"after\": 2.97, \"before\": 2.63, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.4, \"before\": -1.75, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"be9dd1333dbfc11fdb36\"}"
+      },
       {
         "changedAt": 1794364587.5264192,
         "dataAsOf": 1794350102,
@@ -42529,35 +42552,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=0f910b2c47ad6d48765be636222f6aeb2210ae6a085a1b96532370a41075f104",
         "eventId": "8b5c56426402a46b9721",
         "fingerprint": "{\"changes\": [{\"after\": 1.05, \"before\": 1.4, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -1.75, \"before\": -1.92, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.27, \"before\": -2.45, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 5, \"before\": 4.38, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"8b5c56426402a46b9721\"}"
-      },
-      {
-        "changedAt": 1793399472.3185766,
-        "dataAsOf": 1793389049,
-        "changes": [
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -2.45,
-            "after": -1.92
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -2.97,
-            "after": -2.45
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 3.33,
-            "after": 4.38
-          }
-        ],
-        "cause": "AI 컴퓨팅 수요 확대 가능성",
-        "newsHeadline": "AMZN 주식이 3주 연속 하락할 예정: Amazon, AI Capex 자금 조달을 위해 800억 달러 신용 한도 활용",
-        "newsUrl": "https://finnhub.io/api/news?id=4830bd8cef8a870856d847dfcf2fb59d712cac9db2b804633eafbb520c3edfe2",
-        "eventId": "19c09d9d67e241afe4ca",
-        "fingerprint": "{\"changes\": [{\"after\": -1.92, \"before\": -2.45, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.45, \"before\": -2.97, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 4.38, \"before\": 3.33, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"19c09d9d67e241afe4ca\"}"
       }
     ],
     "ORCL": [
