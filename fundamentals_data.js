@@ -221,8 +221,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 20.9,
     "name": "Amazon.com Inc",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1794357887.3689563,
-    "_updated_label": "2026-11-11 09:44"
+    "_fetched_at": 1794431425.664765,
+    "_updated_label": "2026-11-12 06:10"
   },
   "TSM": {
     "forwardPE": 18.88111,
@@ -485,8 +485,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 10.89,
     "name": "Advanced Micro Devices, Inc.",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1794357887.3689563,
-    "_updated_label": "2026-11-11 09:44"
+    "_fetched_at": 1794431425.664765,
+    "_updated_label": "2026-11-12 06:10"
   },
   "INTC": {
     "forwardPE": 36.93003,
@@ -525,8 +525,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": -7.76,
     "name": "Intel Corp",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1794357887.3689563,
-    "_updated_label": "2026-11-11 09:45"
+    "_fetched_at": 1794431425.664765,
+    "_updated_label": "2026-11-12 06:10"
   },
   "AMAT": {
     "forwardPE": 20.81932,
@@ -859,8 +859,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 12.57,
     "name": "Marvell Technology, Inc.",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1794357887.3689563,
-    "_updated_label": "2026-11-11 09:45"
+    "_fetched_at": 1794431425.664765,
+    "_updated_label": "2026-11-12 06:10"
   },
   "ASML": {
     "forwardPE": 30.59394,
@@ -949,8 +949,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 53.82,
     "name": "Lam Research Corporation",
     "theme": "반도체 장비",
-    "_fetched_at": 1794357887.3689563,
-    "_updated_label": "2026-11-11 09:45"
+    "_fetched_at": 1794431425.664765,
+    "_updated_label": "2026-11-12 06:10"
   },
   "KLAC": {
     "forwardPE": 25.59516,
@@ -1114,8 +1114,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 33.29,
     "name": "Arista Networks, Inc.",
     "theme": "AI 네트워킹·광통신",
-    "_fetched_at": 1794357887.3689563,
-    "_updated_label": "2026-11-11 09:45"
+    "_fetched_at": 1794431425.664765,
+    "_updated_label": "2026-11-12 06:10"
   },
   "COHR": {
     "forwardPE": 20.662376138603673,

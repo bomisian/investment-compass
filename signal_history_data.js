@@ -1,9 +1,38 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794429433.9424782,
+  "generatedAt": 1794431529.5843716,
   "records": {
     "AAPL": [
+      {
+        "changedAt": 1794431529.5843716,
+        "dataAsOf": 1794425088,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.7,
+            "after": 0.17
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -0.7,
+            "after": -1.75
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.18,
+            "after": -0.7
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "마이크론 주가는 일주일 만에 30% 하락했다. 번스타인은 거의 두 배로 늘어날 수 있다고 말합니다",
+        "newsUrl": "https://finnhub.io/api/news?id=9c89f6032a67e9dc8a6d2e49e789ac8a701e2bf46d0fdc1a1c85fce63b74215e",
+        "eventId": "84c1094f9d378be92bb9",
+        "fingerprint": "{\"changes\": [{\"after\": 0.17, \"before\": 0.7, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.75, \"before\": -0.7, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.7, \"before\": -0.18, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"84c1094f9d378be92bb9\"}"
+      },
       {
         "changedAt": 1794429433.9424782,
         "dataAsOf": 1794425088,
@@ -1762,41 +1791,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=4fe983b29a7fa808125e898fb5812a9bb07bb8e5b67c2d399786bc6e494da761",
         "eventId": "069ca67e5f81e5ea6610",
         "fingerprint": "{\"changes\": [{\"after\": -1.75, \"before\": -2.8, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"069ca67e5f81e5ea6610\"}"
-      },
-      {
-        "changedAt": 1792687704.5788374,
-        "dataAsOf": 1792677900,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 0.87,
-            "after": 1.4
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": -1.57,
-            "after": -0.35
-          },
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": 0.0,
-            "after": -0.35
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -3.5,
-            "after": -2.8
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "Nvidia, Apple, Alphabet, Microsoft, Amazon은 현재 VOO의 30.8%, VUG의 49.2%를 차지하고 있습니다. 지금 구매할 수 있는 더 나은 저비용 Vanguard ETF는 다음과 같습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=36f99411ae8ecd18fa47bee5747037181e55eb937eb50772a1ddd77629538b1c",
-        "eventId": "b561dabbf1fec817e2c0",
-        "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 0.87, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -0.35, \"before\": -1.57, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.35, \"before\": 0.0, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.8, \"before\": -3.5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"b561dabbf1fec817e2c0\"}"
       }
     ],
     "AMAT": [
@@ -3639,6 +3633,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AMD": [
       {
+        "changedAt": 1794431529.5843716,
+        "dataAsOf": 1794422817,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 3.68,
+            "after": 4.2
+          }
+        ],
+        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
+        "newsHeadline": "크레이머는 스티브 잡스가 수년간의 이익을 놓친 후 매각한 애플 투자자들에 대해 말했습니다. 주가는 이후 거의 3,000% 상승했습니다. 이제 그는 Nvidia에 Jensen Huang이 필요한지 묻고 있습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=38a2058ef70eb1df985ca48405e878a794af19999c65f060f6473460107af077",
+        "eventId": "1cd61977c981e5b60848",
+        "fingerprint": "{\"changes\": [{\"after\": 4.2, \"before\": 3.68, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"1cd61977c981e5b60848\"}"
+      },
+      {
         "changedAt": 1794429433.9424782,
         "dataAsOf": 1794407520,
         "changes": [
@@ -5048,35 +5059,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=2582b95aa32468a76cb81b775d696908e941744207c3e67ef3e2e20728097473",
         "eventId": "a83306690936e4d29696",
         "fingerprint": "{\"changes\": [{\"after\": 5, \"before\": 4.9, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 1.23, \"before\": 0.88, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"a83306690936e4d29696\"}"
-      },
-      {
-        "changedAt": 1793333256.0488586,
-        "dataAsOf": 1793317020,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 2.8,
-            "after": 4.9
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -1.22,
-            "after": 0.88
-          },
-          {
-            "key": "signal",
-            "label": "종합 시그널",
-            "before": "주의 강화",
-            "after": "우호적 변화"
-          }
-        ],
-        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
-        "newsHeadline": "Nvidia의 129억 달러 계약으로 여러분이 사용하는 AI 앱이 달라질 수 있습니다",
-        "newsUrl": "https://finnhub.io/api/news?id=cc58be1127d0c3a0753d3f81ae9e2eae4adb9d1036ab7cece15adae0972ce869",
-        "eventId": "4a4c9d37851ed622660a",
-        "fingerprint": "{\"changes\": [{\"after\": 4.9, \"before\": 2.8, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.88, \"before\": -1.22, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"우호적 변화\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"4a4c9d37851ed622660a\"}"
       }
     ],
     "AMZN": [
@@ -8586,6 +8568,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "ARM": [
       {
+        "changedAt": 1794431529.5843716,
+        "dataAsOf": 1794225900,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.18,
+            "after": 0.7
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.17,
+            "after": 0.35
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Agentic AI 기회가 등장함에 따라 Arm Stock이 하락세를 보이고 있습니까?",
+        "newsUrl": "https://finnhub.io/api/news?id=9c7c4f9d10905e3335a8c3085a14e996ffcbe9f08a6ac5e20910ab9fcdc03678",
+        "eventId": "18e7dda4b49c0bfc1c20",
+        "fingerprint": "{\"changes\": [{\"after\": 0.7, \"before\": 0.18, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.35, \"before\": -0.17, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"18e7dda4b49c0bfc1c20\"}"
+      },
+      {
         "changedAt": 1794384997.0736728,
         "dataAsOf": 1794225900,
         "changes": [
@@ -10385,29 +10390,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=73b493ec511e22341068073b5e1770e7afca1b286fb436d4610f7e22d7eafd29",
         "eventId": "af6425171f6659bcec20",
         "fingerprint": "{\"changes\": [{\"after\": -1.22, \"before\": -0.87, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.35, \"before\": 0.0, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.1, \"before\": -1.75, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.22, \"before\": -0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"af6425171f6659bcec20\"}"
-      },
-      {
-        "changedAt": 1790889073.6478355,
-        "dataAsOf": 1790881055,
-        "changes": [
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -0.35,
-            "after": 0.0
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -1.4,
-            "after": -1.75
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "Arm 대 ASML: 2026년에는 어느 반도체 주식을 매수하는 것이 더 나은가요?",
-        "newsUrl": "https://finnhub.io/api/news?id=765128583c336b8b2089b2c94158c196c41a092d709b38c5fc2968e5b3354c69",
-        "eventId": "2a3328576b40bfa42e50",
-        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -0.35, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.75, \"before\": -1.4, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"2a3328576b40bfa42e50\"}"
       }
     ],
     "ASML": [
@@ -21448,6 +21430,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "ETN": [
+      {
+        "changedAt": 1794431529.5843716,
+        "dataAsOf": 1794413583,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.05,
+            "after": 0.7
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 2.1,
+            "after": 1.4
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 1.05,
+            "after": 0.7
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Eaton(ETN), 새로운 비즈니스 제트기에 유압 및 연료 시스템 공급 예정",
+        "newsUrl": "https://finnhub.io/api/news?id=1a01ad3601a29ac4786e510b4e0ac799e789cf26a647fe8c3ddcafc96a80526c",
+        "eventId": "8f2a87f5dcdd141da2c7",
+        "fingerprint": "{\"changes\": [{\"after\": 0.7, \"before\": 1.05, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.4, \"before\": 2.1, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.7, \"before\": 1.05, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"8f2a87f5dcdd141da2c7\"}"
+      },
       {
         "changedAt": 1794429433.9424782,
         "dataAsOf": 1794413583,
@@ -40969,6 +40980,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1794431529.5843716,
+        "dataAsOf": 1794422817,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 3.32,
+            "after": 3.85
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.92,
+            "after": -1.4
+          }
+        ],
+        "cause": "AI 컴퓨팅 수요 확대 가능성",
+        "newsHeadline": "크레이머는 스티브 잡스가 수년간의 이익을 놓친 후 매각한 애플 투자자들에 대해 말했습니다. 주가는 이후 거의 3,000% 상승했습니다. 이제 그는 Nvidia에 Jensen Huang이 필요한지 묻고 있습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=38a2058ef70eb1df985ca48405e878a794af19999c65f060f6473460107af077",
+        "eventId": "1cd61977c981e5b60848",
+        "fingerprint": "{\"changes\": [{\"after\": 3.85, \"before\": 3.32, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.4, \"before\": -1.92, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"1cd61977c981e5b60848\"}"
+      },
+      {
         "changedAt": 1794429433.9424782,
         "dataAsOf": 1794418862,
         "changes": [
@@ -42396,35 +42430,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=6570864bdef8cc8ed20886932a14d100eb87517ef02e5f878b126205a7af43fa",
         "eventId": "016bc39b24b4ada7c0a2",
         "fingerprint": "{\"changes\": [{\"after\": 1.05, \"before\": 0.52, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -1.4, \"before\": -3.15, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -5, \"before\": -4.72, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 3.68, \"before\": 2.63, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"우호적 변화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"016bc39b24b4ada7c0a2\"}"
-      },
-      {
-        "changedAt": 1793710922.0207353,
-        "dataAsOf": 1793680204,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 1.05,
-            "after": 0.52
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 3.15,
-            "after": 2.63
-          },
-          {
-            "key": "signal",
-            "label": "종합 시그널",
-            "before": "우호적 변화",
-            "after": "중립·확인 대기"
-          }
-        ],
-        "cause": "AI 컴퓨팅 수요 확대 가능성",
-        "newsHeadline": "Amazon CEO Andy Jassy는 AMZN 주가가 6개월 만에 7% 하락함에 따라 투자자들이 소매업에서 '조금 자고 있다'고 말했습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=fad852c244f18c65327d7fb2c1efa069de2016531ab01f215f15afab94c04872",
-        "eventId": "d1e0253cbb5b49e6ab4e",
-        "fingerprint": "{\"changes\": [{\"after\": 0.52, \"before\": 1.05, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 2.63, \"before\": 3.15, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"우호적 변화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"d1e0253cbb5b49e6ab4e\"}"
       }
     ],
     "ORCL": [
@@ -60168,6 +60173,47 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "WDC": [
       {
+        "changedAt": 1794431529.5843716,
+        "dataAsOf": 1794411436,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.18,
+            "after": -0.35
+          },
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": 0.0,
+            "after": -0.52
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -1.05,
+            "after": -1.57
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.17,
+            "after": -0.7
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "중립·확인 대기",
+            "after": "주의 강화"
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Seagate는 CoreWeave의 \"Breakout Quarter\"로 AI 지출에 대한 우려를 완화하면서 10% 급등했습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=51af9102aa2b3398a1204474a879e29b0a6b811248d2109142f2403af4a66656",
+        "eventId": "feeacfad071233fb44d9",
+        "fingerprint": "{\"changes\": [{\"after\": -0.35, \"before\": 0.18, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.52, \"before\": 0.0, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.57, \"before\": -1.05, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.7, \"before\": -0.17, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"주의 강화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"feeacfad071233fb44d9\"}"
+      },
+      {
         "changedAt": 1794402930.4021988,
         "dataAsOf": 1794381771,
         "changes": [
@@ -61907,35 +61953,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=cdddd3e86918ba916b234d8147dca0d43e90db988209864f3d6fda4a335ac7ca",
         "eventId": "292532fc6c64dbc75bf1",
         "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": 0.35, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -5, \"before\": -4.02, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -5, \"before\": -4.38, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"292532fc6c64dbc75bf1\"}"
-      },
-      {
-        "changedAt": 1791799769.1717637,
-        "dataAsOf": 1791785772,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 0.7,
-            "after": 0.35
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": -2.8,
-            "after": -4.02
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -3.5,
-            "after": -4.38
-          }
-        ],
-        "cause": "메모리·스토리지 가격 강세 수혜 가능성",
-        "newsHeadline": "새로운 Apple TV 및 HomePod Mini 예상: AAPL 재고의 중요성",
-        "newsUrl": "https://finnhub.io/api/news?id=73f67e18f0b266d32afb1aa7e5048ea8d434f16721e732678fe19dd1e0fcc939",
-        "eventId": "ff356ceb5cc350e0556b",
-        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.7, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -4.02, \"before\": -2.8, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.38, \"before\": -3.5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"ff356ceb5cc350e0556b\"}"
       }
     ]
   }
