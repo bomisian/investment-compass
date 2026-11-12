@@ -4,16 +4,32 @@
 const INSIDER_DATA = {
   "QQQ": {
     "transactions": [],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "SPY": {
     "transactions": [],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "MSFT": {
     "transactions": [
+      {
+        "name": "Hood Amy",
+        "share": 1393,
+        "transactionPrice": 544.9467,
+        "transactionDate": "2026-11-09",
+        "filingDate": "2026-11-10",
+        "code": "S"
+      },
+      {
+        "name": "Hood Amy",
+        "share": 5912,
+        "transactionPrice": 544.2359,
+        "transactionDate": "2026-11-09",
+        "filingDate": "2026-11-10",
+        "code": "S"
+      },
       {
         "name": "Hood Amy",
         "share": 991,
@@ -151,8 +167,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "GOOGL": {
     "transactions": [
@@ -181,8 +197,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "AMZN": {
     "transactions": [
@@ -347,8 +363,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "META": {
     "transactions": [
@@ -693,8 +709,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "ORCL": {
     "transactions": [
@@ -731,8 +747,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "CRM": {
     "transactions": [
@@ -761,8 +777,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "PLTR": {
     "transactions": [
@@ -927,8 +943,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "NVDA": {
     "transactions": [
@@ -1093,8 +1109,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "AMD": {
     "transactions": [
@@ -1259,8 +1275,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "AVGO": {
     "transactions": [
@@ -1393,8 +1409,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "QCOM": {
     "transactions": [
@@ -1559,8 +1575,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "ARM": {
     "transactions": [
@@ -1581,8 +1597,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "MRVL": {
     "transactions": [
@@ -1651,8 +1667,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "INTC": {
     "transactions": [
@@ -1665,179 +1681,179 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "TSM": {
     "transactions": [
       {
-        "name": "SPLINTER MICHAEL R",
-        "share": 840,
-        "transactionPrice": 357,
-        "transactionDate": "2026-11-05",
-        "filingDate": "2026-11-09",
-        "code": "P"
-      },
-      {
-        "name": "Yuan Lipen",
-        "share": 1000,
-        "transactionPrice": 71.49,
-        "transactionDate": "2026-11-01",
-        "filingDate": "2026-11-03",
-        "code": "P"
-      },
-      {
-        "name": "Yuan Lipen",
-        "share": 40,
-        "transactionPrice": 79.39,
-        "transactionDate": "2026-10-07",
-        "filingDate": "2026-10-08",
-        "code": "P"
-      },
-      {
-        "name": "Yeap Choh Fei",
-        "share": 52,
-        "transactionPrice": 79.39,
-        "transactionDate": "2026-10-07",
-        "filingDate": "2026-10-08",
-        "code": "P"
-      },
-      {
-        "name": "Zhang Kevin Xiaoqiang",
+        "name": "Wu Shien-Yang",
         "share": 59,
-        "transactionPrice": 79.39,
-        "transactionDate": "2026-10-07",
-        "filingDate": "2026-10-08",
+        "transactionPrice": 70.5,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
         "code": "P"
       },
       {
         "name": "Yoo Chue-San",
-        "share": 50,
-        "transactionPrice": 79.39,
-        "transactionDate": "2026-10-07",
-        "filingDate": "2026-10-08",
+        "share": 54,
+        "transactionPrice": 70.5,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
         "code": "P"
       },
       {
-        "name": "Wu Shien-Yang",
-        "share": 53,
-        "transactionPrice": 79.39,
-        "transactionDate": "2026-10-07",
-        "filingDate": "2026-10-08",
+        "name": "Yeap Choh Fei",
+        "share": 57,
+        "transactionPrice": 70.5,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
         "code": "P"
       },
       {
-        "name": "Wei Che-Chia",
-        "share": 144,
-        "transactionPrice": 79.39,
-        "transactionDate": "2026-10-07",
-        "filingDate": "2026-10-08",
+        "name": "Zhang Kevin Xiaoqiang",
+        "share": 65,
+        "transactionPrice": 70.5,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
         "code": "P"
       },
       {
         "name": "Wu Yi-Huang",
-        "share": 39,
-        "transactionPrice": 79.39,
-        "transactionDate": "2026-10-07",
-        "filingDate": "2026-10-08",
+        "share": 41,
+        "transactionPrice": 70.5,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
         "code": "P"
       },
       {
-        "name": "Wang Ying-Lang",
-        "share": 52,
-        "transactionPrice": 79.39,
-        "transactionDate": "2026-10-07",
-        "filingDate": "2026-10-08",
-        "code": "P"
-      },
-      {
-        "name": "Mii Yuh-Jier",
-        "share": 68,
-        "transactionPrice": 79.39,
-        "transactionDate": "2026-10-07",
-        "filingDate": "2026-10-08",
+        "name": "Yuan Lipen",
+        "share": 43,
+        "transactionPrice": 70.5,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
         "code": "P"
       },
       {
         "name": "Tien Bor-Zen",
-        "share": 7,
-        "transactionPrice": 79.39,
-        "transactionDate": "2026-10-07",
-        "filingDate": "2026-10-08",
+        "share": 6,
+        "transactionPrice": 70.5,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
         "code": "P"
       },
       {
         "name": "Tien Bor-Zen",
-        "share": 40,
-        "transactionPrice": 79.39,
-        "transactionDate": "2026-10-07",
-        "filingDate": "2026-10-08",
-        "code": "P"
-      },
-      {
-        "name": "Lu Chin-Sheng",
-        "share": 36,
-        "transactionPrice": 79.39,
-        "transactionDate": "2026-10-07",
-        "filingDate": "2026-10-08",
-        "code": "P"
-      },
-      {
-        "name": "Lu Lee-Chung",
-        "share": 49,
-        "transactionPrice": 79.39,
-        "transactionDate": "2026-10-07",
-        "filingDate": "2026-10-08",
-        "code": "P"
-      },
-      {
-        "name": "Lin Shyue-Shyh",
-        "share": 44,
-        "transactionPrice": 79.39,
-        "transactionDate": "2026-10-07",
-        "filingDate": "2026-10-08",
+        "share": 43,
+        "transactionPrice": 70.5,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
         "code": "P"
       },
       {
         "name": "Lin Chris Horng-Dar",
-        "share": 44,
-        "transactionPrice": 79.39,
-        "transactionDate": "2026-10-07",
-        "filingDate": "2026-10-08",
-        "code": "P"
-      },
-      {
-        "name": "Lee Chun-Hsien",
-        "share": 51,
-        "transactionPrice": 79.39,
-        "transactionDate": "2026-10-07",
-        "filingDate": "2026-10-08",
-        "code": "P"
-      },
-      {
-        "name": "Ku Yao-Ching",
-        "share": 46,
-        "transactionPrice": 79.39,
-        "transactionDate": "2026-10-07",
-        "filingDate": "2026-10-08",
+        "share": 50,
+        "transactionPrice": 70.5,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
         "code": "P"
       },
       {
         "name": "Hwang Yuan-Ko",
-        "share": 39,
-        "transactionPrice": 79.39,
-        "transactionDate": "2026-10-07",
-        "filingDate": "2026-10-08",
+        "share": 41,
+        "transactionPrice": 70.5,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
+        "code": "P"
+      },
+      {
+        "name": "Wei Che-Chia",
+        "share": 155,
+        "transactionPrice": 70.5,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
+        "code": "P"
+      },
+      {
+        "name": "Jang Syun-Ming",
+        "share": 51,
+        "transactionPrice": 70.5,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
+        "code": "P"
+      },
+      {
+        "name": "Ku Yao-Ching",
+        "share": 48,
+        "transactionPrice": 70.5,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
+        "code": "P"
+      },
+      {
+        "name": "Lu Chin-Sheng",
+        "share": 40,
+        "transactionPrice": 70.5,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
+        "code": "P"
+      },
+      {
+        "name": "Wang Ying-Lang",
+        "share": 56,
+        "transactionPrice": 70.5,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
+        "code": "P"
+      },
+      {
+        "name": "Lin Shyue-Shyh",
+        "share": 47,
+        "transactionPrice": 70.5,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
+        "code": "P"
+      },
+      {
+        "name": "Lu Lee-Chung",
+        "share": 53,
+        "transactionPrice": 70.5,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
+        "code": "P"
+      },
+      {
+        "name": "Lee Chun-Hsien",
+        "share": 54,
+        "transactionPrice": 70.5,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
+        "code": "P"
+      },
+      {
+        "name": "Mii Yuh-Jier",
+        "share": 73,
+        "transactionPrice": 70.5,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
+        "code": "P"
+      },
+      {
+        "name": "Huang Jen-Chau",
+        "share": 30,
+        "transactionPrice": 70.5,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
         "code": "P"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "ASML": {
     "transactions": [],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "AMAT": {
     "transactions": [
@@ -1866,8 +1882,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "LRCX": {
     "transactions": [
@@ -1944,8 +1960,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "KLAC": {
     "transactions": [
@@ -1958,8 +1974,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "MU": {
     "transactions": [
@@ -2124,8 +2140,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "SNDK": {
     "transactions": [
@@ -2290,8 +2306,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "WDC": {
     "transactions": [
@@ -2456,11 +2472,59 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "ANET": {
     "transactions": [
+      {
+        "name": "BECHTOLSHEIM ANDREAS",
+        "share": 1651,
+        "transactionPrice": 172.4382,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
+        "code": "S"
+      },
+      {
+        "name": "BECHTOLSHEIM ANDREAS",
+        "share": 4962,
+        "transactionPrice": 171.5874,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
+        "code": "S"
+      },
+      {
+        "name": "BECHTOLSHEIM ANDREAS",
+        "share": 55452,
+        "transactionPrice": 170.4868,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
+        "code": "S"
+      },
+      {
+        "name": "BECHTOLSHEIM ANDREAS",
+        "share": 39733,
+        "transactionPrice": 169.7598,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
+        "code": "S"
+      },
+      {
+        "name": "BECHTOLSHEIM ANDREAS",
+        "share": 69244,
+        "transactionPrice": 168.5572,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
+        "code": "S"
+      },
+      {
+        "name": "BECHTOLSHEIM ANDREAS",
+        "share": 88958,
+        "transactionPrice": 167.7389,
+        "transactionDate": "2026-11-06",
+        "filingDate": "2026-11-10",
+        "code": "S"
+      },
       {
         "name": "BECHTOLSHEIM ANDREAS",
         "share": 699,
@@ -2572,58 +2636,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-11-05",
         "filingDate": "2026-11-09",
         "code": "S"
-      },
-      {
-        "name": "TEMPLETON MARK B",
-        "share": 500,
-        "transactionPrice": 168.848,
-        "transactionDate": "2026-11-02",
-        "filingDate": "2026-11-04",
-        "code": "S"
-      },
-      {
-        "name": "TEMPLETON MARK B",
-        "share": 1000,
-        "transactionPrice": 167.4054,
-        "transactionDate": "2026-11-02",
-        "filingDate": "2026-11-04",
-        "code": "S"
-      },
-      {
-        "name": "TEMPLETON MARK B",
-        "share": 900,
-        "transactionPrice": 166.3643,
-        "transactionDate": "2026-11-02",
-        "filingDate": "2026-11-04",
-        "code": "S"
-      },
-      {
-        "name": "TEMPLETON MARK B",
-        "share": 1200,
-        "transactionPrice": 165.0033,
-        "transactionDate": "2026-11-02",
-        "filingDate": "2026-11-04",
-        "code": "S"
-      },
-      {
-        "name": "TEMPLETON MARK B",
-        "share": 1400,
-        "transactionPrice": 164.0672,
-        "transactionDate": "2026-11-02",
-        "filingDate": "2026-11-04",
-        "code": "S"
-      },
-      {
-        "name": "BECHTOLSHEIM ANDREAS",
-        "share": 2435,
-        "transactionPrice": 174.1378,
-        "transactionDate": "2026-10-30",
-        "filingDate": "2026-11-03",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "COHR": {
     "transactions": [
@@ -2692,8 +2708,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "LITE": {
     "transactions": [
@@ -2858,18 +2874,18 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "GEV": {
     "transactions": [],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "CEG": {
     "transactions": [],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "VST": {
     "transactions": [
@@ -2946,23 +2962,23 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "ETN": {
     "transactions": [],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "PWR": {
     "transactions": [],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "HUBB": {
     "transactions": [],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "VRT": {
     "transactions": [
@@ -3031,8 +3047,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "MOD": {
     "transactions": [
@@ -3045,8 +3061,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "STX": {
     "transactions": [
@@ -3211,8 +3227,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "EME": {
     "transactions": [],
@@ -3238,8 +3254,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   },
   "BE": {
     "transactions": [
@@ -3306,33 +3322,9 @@ const INSIDER_DATA = {
         "transactionDate": "2026-08-17",
         "filingDate": "2026-08-18",
         "code": "S"
-      },
-      {
-        "name": "Joshi Aman",
-        "share": 4677,
-        "transactionPrice": 241.75,
-        "transactionDate": "2026-08-14",
-        "filingDate": "2026-08-18",
-        "code": "S"
-      },
-      {
-        "name": "Chitoori Satish",
-        "share": 2053,
-        "transactionPrice": 241.64,
-        "transactionDate": "2026-08-14",
-        "filingDate": "2026-08-18",
-        "code": "S"
-      },
-      {
-        "name": "SODERBERG SHAWN MARIE",
-        "share": 2895,
-        "transactionPrice": 233.6,
-        "transactionDate": "2026-08-14",
-        "filingDate": "2026-08-18",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1794429434.0289838,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794502484.0783172,
+    "_updated_label": "2026-11-13"
   }
 };
