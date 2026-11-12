@@ -16,7 +16,7 @@ const TOP100_REFERENCE_SAMPLE_DATA = {
     {
       "t": "DELL",
       "d": "2026-10-15",
-      "reason": "20거래일 뒤 데이터 아직 없음"
+      "reason": "SPY 20거래일 뒤 데이터 아직 없음"
     },
     {
       "t": "ANET",
