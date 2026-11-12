@@ -529,8 +529,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794431529.6691623,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794504524.863006,
+    "_updated_label": "2026-11-13"
   },
   "AAPL": {
     "transactions": [
@@ -695,8 +695,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1794431529.6691623,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794504524.863006,
+    "_updated_label": "2026-11-13"
   },
   "TSLA": {
     "transactions": [
@@ -3232,8 +3232,8 @@ const INSIDER_DATA = {
   },
   "EME": {
     "transactions": [],
-    "_fetched_at": 1794431529.6691623,
-    "_updated_label": "2026-11-12"
+    "_fetched_at": 1794504524.863006,
+    "_updated_label": "2026-11-13"
   },
   "FIX": {
     "transactions": [
