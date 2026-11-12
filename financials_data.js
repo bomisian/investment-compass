@@ -1195,10 +1195,10 @@ const FINANCIALS_DATA = {
         "_fcfIsProxy": true,
         "pretaxIncome": 32355000000.0,
         "taxProvision": 5887000000.0,
-        "normalizedIncome": 33850899088.239838,
+        "normalizedIncome": 33850450000.0,
         "unusualItems": -9025000000.0,
         "unusualItemsExGoodwill": -9025000000.0,
-        "unusualTaxEffect": -1642100911.760161,
+        "unusualTaxEffect": -1642550000.0,
         "otherNonOperating": 146000000.0,
         "stockComp": 8630000000.0
       }
@@ -1207,10 +1207,10 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1793890887.8629942,
-    "_updated_label": "2026-11-12 01:07",
+    "_fetched_at": 1794498242.4115367,
+    "_updated_label": "2026-11-13 00:44",
     "_data_quality_version": 16,
-    "_collection_status": "error",
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-09-30",
@@ -1235,10 +1235,8 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1794413233.8238027,
-    "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완",
-    "_collection_error": "The read operation timed out",
-    "_last_attempt_at": 1794495931.3765755
+    "_yahoo_verified_at": 1794498249.8397236,
+    "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "MSFT": {
     "annual": [
@@ -5534,16 +5532,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1794495931.3765755,
-    "_updated_label": "2026-11-13 00:05"
+    "_fetched_at": 1794498242.4115367,
+    "_updated_label": "2026-11-13 00:44"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1794495931.3765755,
-    "_updated_label": "2026-11-13 00:05"
+    "_fetched_at": 1794498242.4115367,
+    "_updated_label": "2026-11-13 00:44"
   },
   "ORCL": {
     "annual": [
