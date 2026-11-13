@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794544276.908219,
+  "generatedAt": 1794546336.1240022,
   "events": [
     {
       "id": "188d9d7a98bb46e818e6",
@@ -6523,11 +6523,11 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=68030713a100993ded0e36573b0e9af250e5136cddd3e3f56643e8e6f8367f2d",
         "publishedAt": 1794463924,
-        "collectedAt": 1794520532.3971555
+        "collectedAt": 1794546316.8553786
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Quanta Services는 전력 및 데이터 센터 수요가 가속화됨에 따라 계획보다 앞서 성장을 봅니다. Skip to main content → 모든 Starlink 요리는 이 주식을 지불합니다. (From Behind the Market) (광고) Quanta Services는 계획보다 앞서 성장을 전력 및 데이터 센터로 봅니다.",
+        "Quanta Services는 전력 및 데이터 센터 수요가 가속화됨에 따라 계획보다 성장을 예측합니다. 주요 내용으로 건너뛰기 → 많은 투자자가 모든 것을 잃을 것입니다(Porter & Company에서)(광고) Quanta Services는 계획보다 성장을 전력 및 데이터로 보고 있습니다",
         "MarketBeat Media, LLC의 이미지를 닫습니다.",
         "핵심 포인트 Quanta Services는 전력 인프라, 데이터 센터 및 재생 가능 에너지에 대한 수요에 힘입어 예상보다 빠르게 성장하고 있습니다."
       ],
@@ -15634,7 +15634,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1b734b6db75c0730256868a2c6f85e072bf35607fbf64a8c518f2e222bc1ec14",
         "publishedAt": 1794348610,
-        "collectedAt": 1794520532.3971555
+        "collectedAt": 1794546316.8553786
       },
       "confirmedFacts": [],
       "reportedClaims": [
