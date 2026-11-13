@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794589283.9922445,
+  "generatedAt": 1794591109.5286443,
   "events": [
     {
       "id": "5badf3ab2929ebb96d12",
@@ -310,6 +310,73 @@ const EVENT_DATA = {
         "실제 CAPEX 집행",
         "공급업체 수주·매출",
         "투자 기업 OCF·FCF·부채"
+      ]
+    },
+    {
+      "id": "5b096fb9721e0ee2c678",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "실적 발표",
+      "primaryTicker": "PWR",
+      "relatedTickers": [
+        "PWR"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "neutral",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Should Investors Buy Quanta Stock After Impressive Q3 Earnings?",
+      "headlineKo": "투자자들은 인상적인 3분기 수익을 얻은 후 Quanta 주식을 구매해야 합니까?",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=722f80f26111e3533d6701c0b1a0c298ba5b8505ecbf072c34f89c894bd85851",
+        "publishedAt": 1794579240,
+        "collectedAt": 1794591095.611574
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Should Investors Buy Quanta Stock After Impressive Q3 Earnings?",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "PWR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "PWR에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "PWR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "PWR",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "매출·영업이익 성장",
+        "정상화이익과 특이항목",
+        "가이던스·OCF·FCF"
       ]
     },
     {
@@ -9595,7 +9662,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=68030713a100993ded0e36573b0e9af250e5136cddd3e3f56643e8e6f8367f2d",
         "publishedAt": 1794463924,
-        "collectedAt": 1794568662.6640248
+        "collectedAt": 1794591095.611574
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17630,84 +17697,6 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
-    },
-    {
-      "id": "46fee9c3c3c6f62edd77",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "AMZN",
-      "relatedTickers": [
-        "AMZN",
-        "NVDA",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Amazon",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Bitwise CIO Sees Hyperliquid Becoming Finance's Next Amazon, Calls It A ‘Financial Juggernaut’",
-      "headlineKo": "Bitwise CIO는 하이퍼리퀴드가 금융의 차세대 Amazon이 될 것으로 보고 이를 '금융의 거대괴수'라고 부릅니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=391f130444ed700cd28bd810c8b3b5f922866f770174a111096a01799f860fe1",
-        "publishedAt": 1794377644,
-        "collectedAt": 1794584682.7462122
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Bitwise CIO는 Hyperliquid가 Finance의 차세대 Amazon이 될 것으로 보고 이를 '금융 거대괴수' AI 에이전트라고 부릅니다. Trending News Earnings All DIA 0.24% SPY 0.95% QQQ 1.87% Trending RUM 7.04% ZEC 14.65% CRWV 15.10% RGTI 3.37% CAPR 5.19% NVDA 3.67% NLST",
-        "Bitwise CIO는 Hyperliquid가 Finance의 차세대 Amazon이 될 것으로 보고 이를 '금융 거대괴수'라고 부릅니다. Matt Hougan은 Hyperliquid가 \"세계에서 가장 큰 금융 기관 중 하나\"가 되겠다는 \"야망\"을 갖고 있다고 말했습니다. 이 사진 그림에서는 H",
-        "(사진 일러스트: Avishek Das/SOPA Images/LightRocket via Getty Images) Anushka Basu · Stocktwits 게시일: 2026년 11월 11일 | 오전 1:14 EST 공유 · Bitwise에 추가 최고 투자 책임자 Matt Hougan은 Hyperliquid를 Amazon과 비교했습니다."
-      ],
-      "marketInterpretation": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.24%, 0.95%, 1.87% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "AMZN에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.24%, 0.95%, 1.87% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AMZN",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "목표주가 산식의 EPS",
-        "적용 PER 변화",
-        "회사 공식 가이던스"
-      ]
     }
   ],
   "byTicker": {
@@ -17808,8 +17797,7 @@ const EVENT_DATA = {
       "18abbc0effe5403012ad",
       "5709fce33c612b309921",
       "4bc052496b407df2f6c4",
-      "ec0e1e88007a39659df3",
-      "46fee9c3c3c6f62edd77"
+      "ec0e1e88007a39659df3"
     ],
     "QQQ": [
       "dd68f8309af885eb62df",
@@ -17895,8 +17883,7 @@ const EVENT_DATA = {
       "4bc052496b407df2f6c4",
       "a481c9feaf1f99895106",
       "63733f3055a4086cf3b2",
-      "01ced3d91226d73c4935",
-      "46fee9c3c3c6f62edd77"
+      "01ced3d91226d73c4935"
     ],
     "SPY": [
       "dd68f8309af885eb62df",
@@ -17983,8 +17970,7 @@ const EVENT_DATA = {
       "4bc052496b407df2f6c4",
       "a481c9feaf1f99895106",
       "63733f3055a4086cf3b2",
-      "01ced3d91226d73c4935",
-      "46fee9c3c3c6f62edd77"
+      "01ced3d91226d73c4935"
     ],
     "GOOGL": [
       "f0cd70a301ee2f6cadb4",
@@ -18022,6 +18008,10 @@ const EVENT_DATA = {
       "9a9fa9598c56925f128b",
       "adb337603a11f3b818ab",
       "ec0e1e88007a39659df3"
+    ],
+    "PWR": [
+      "5b096fb9721e0ee2c678",
+      "1e63082c0cabbe69bec9"
     ],
     "META": [
       "ab39d1d26b0d2c98528f",
@@ -18112,8 +18102,7 @@ const EVENT_DATA = {
       "9a9fa9598c56925f128b",
       "76d1105fdbc2f93b3f86",
       "b94f91d239c6e6b7266c",
-      "71a64d5ea24c48d99460",
-      "46fee9c3c3c6f62edd77"
+      "71a64d5ea24c48d99460"
     ],
     "CRM": [
       "ca824d80e73d90c668c1",
@@ -18346,9 +18335,6 @@ const EVENT_DATA = {
       "a676f75e52ccedfa10c7",
       "46ae0ea2da087749b9cf",
       "4b7e302d9f4673672714"
-    ],
-    "PWR": [
-      "1e63082c0cabbe69bec9"
     ],
     "BE": [
       "1b085c4a9f7c0d8ecbc1"

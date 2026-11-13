@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794589284.019583,
+  "generatedAt": 1794591109.5555415,
   "records": {
     "AAPL": [
       {
@@ -41433,6 +41433,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1794591109.5555415,
+        "dataAsOf": 1794584521,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -2.45,
+            "after": -2.1
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Apple은 세계 최대 기업이고 Nvidia는 2위입니다. 오늘 매일 투자한 10,000달러가 내년 말까지 가치가 될 수 있는 금액은 다음과 같습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=55d6dfc709424f81412bee1e3c70061407ad551045247a56fc058eceb03fdee6",
+        "eventId": "dd68f8309af885eb62df",
+        "fingerprint": "{\"changes\": [{\"after\": -2.1, \"before\": -2.45, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"dd68f8309af885eb62df\"}"
+      },
+      {
         "changedAt": 1794589143.0119584,
         "dataAsOf": 1794584521,
         "changes": [
@@ -42938,23 +42955,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=45a180057cdcefb3d84853d4647fb638d532697cfa7275daafd4e87b684609d4",
         "eventId": "7baefb01f92b4d218c5d",
         "fingerprint": "{\"changes\": [{\"after\": 1.57, \"before\": 3.15, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"7baefb01f92b4d218c5d\"}"
-      },
-      {
-        "changedAt": 1794206676.121667,
-        "dataAsOf": 1794200037,
-        "changes": [
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 3.5,
-            "after": 3.15
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "Apple, Siri에 에이전트 기능 추가? 보고서에 따르면 CEO Ternus가 더 빠른 로드맵을 추진함에 따라 Apple의 AI가 대대적으로 업그레이드될 예정입니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=1f2b27a6c48ad76978d5e9e43b6272efdd12538454f1cd17459bd4eb234b3ac4",
-        "eventId": "0e908d82129a4246feec",
-        "fingerprint": "{\"changes\": [{\"after\": 3.15, \"before\": 3.5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"0e908d82129a4246feec\"}"
       }
     ],
     "ORCL": [
