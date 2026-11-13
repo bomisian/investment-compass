@@ -1,7 +1,7 @@
 // 자동 생성 파일 - verdict_scoring.py 실행 시마다 갱신됨. 직접 수정하지 마세요.
 // 판정 성적표 데이터 - 개인 매매 정보 없음, 집계 숫자만.
 const VERDICT_SCORECARD_DATA = {
-  "generatedAt": "2026-11-13T00:11:42",
+  "generatedAt": "2026-11-14T00:07:53",
   "horizons": [
     5,
     20,
@@ -21,7 +21,12 @@ const VERDICT_SCORECARD_DATA = {
           "hitRate": 0.5625
         },
         "20": {
-          "n": 0
+          "n": 1,
+          "avgExcessVsSectorPct": 5.1,
+          "medianExcessVsSectorPct": 5.1,
+          "avgExcessVsSpyPct": -1.15,
+          "avgMddPct": -6.24,
+          "hitRate": 1.0
         },
         "60": {
           "n": 0
@@ -40,7 +45,12 @@ const VERDICT_SCORECARD_DATA = {
           "hitRate": 0.7143
         },
         "20": {
-          "n": 0
+          "n": 11,
+          "avgExcessVsSectorPct": -7.3,
+          "medianExcessVsSectorPct": -6.99,
+          "avgExcessVsSpyPct": -10.31,
+          "avgMddPct": -24.87,
+          "hitRate": 0.7273
         },
         "60": {
           "n": 0
@@ -58,7 +68,11 @@ const VERDICT_SCORECARD_DATA = {
           "avgMddPct": -11.53
         },
         "20": {
-          "n": 0
+          "n": 27,
+          "avgExcessVsSectorPct": -4.67,
+          "medianExcessVsSectorPct": -5.52,
+          "avgExcessVsSpyPct": -8.84,
+          "avgMddPct": -25.29
         },
         "60": {
           "n": 0
@@ -79,7 +93,12 @@ const VERDICT_SCORECARD_DATA = {
           "hitRate": 0.75
         },
         "20": {
-          "n": 0
+          "n": 1,
+          "avgExcessVsSectorPct": 5.1,
+          "medianExcessVsSectorPct": 5.1,
+          "avgExcessVsSpyPct": -1.15,
+          "avgMddPct": -6.24,
+          "hitRate": 1.0
         },
         "60": {
           "n": 0
@@ -98,7 +117,12 @@ const VERDICT_SCORECARD_DATA = {
           "hitRate": 0.7368
         },
         "20": {
-          "n": 0
+          "n": 11,
+          "avgExcessVsSectorPct": -7.3,
+          "medianExcessVsSectorPct": -6.99,
+          "avgExcessVsSpyPct": -10.31,
+          "avgMddPct": -24.87,
+          "hitRate": 0.7273
         },
         "60": {
           "n": 0
@@ -116,7 +140,11 @@ const VERDICT_SCORECARD_DATA = {
           "avgMddPct": -11.48
         },
         "20": {
-          "n": 0
+          "n": 27,
+          "avgExcessVsSectorPct": -4.67,
+          "medianExcessVsSectorPct": -5.52,
+          "avgExcessVsSpyPct": -8.84,
+          "avgMddPct": -25.29
         },
         "60": {
           "n": 0
@@ -132,7 +160,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "신규 접근 중지",
         "price_label": "저평가",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -13.28
       },
       {
         "date": "2026-10-16",
@@ -220,6 +248,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "관찰 — 가격 판단 불가(모델 불신)",
+        "price_label": "판단 유보(모델 불신)",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "관찰 — 가격 판단 불가(모델 불신)",
         "price_label": "판단 유보(모델 불신)",
         "excess_vs_sector_20d_pct": null
@@ -230,7 +264,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "관찰",
         "price_label": "적정",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": 11.92
       },
       {
         "date": "2026-10-16",
@@ -318,6 +352,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "관찰",
+        "price_label": "적정",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "관찰",
         "price_label": "적정",
         "excess_vs_sector_20d_pct": null
@@ -328,7 +368,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "신규 접근 중지",
         "price_label": "저평가",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -10.13
       },
       {
         "date": "2026-10-16",
@@ -416,6 +456,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "신규 접근 중지",
+        "price_label": "판단 유보(모델 불신)",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "신규 접근 중지",
         "price_label": "판단 유보(모델 불신)",
         "excess_vs_sector_20d_pct": null
@@ -426,7 +472,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "분할 축적 검토",
         "price_label": "적정",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": 5.1
       },
       {
         "date": "2026-10-16",
@@ -515,6 +561,12 @@ const VERDICT_SCORECARD_DATA = {
       {
         "date": "2026-11-11",
         "final_tier": "분할 축적 검토",
+        "price_label": "적정",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
+        "final_tier": "관찰 — 보수가 아래(모델 밴드 하단)",
         "price_label": "적정",
         "excess_vs_sector_20d_pct": null
       }
@@ -524,7 +576,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "신규 접근 중지",
         "price_label": "저평가",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -1.24
       },
       {
         "date": "2026-10-16",
@@ -612,6 +664,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "관찰 — 가격 판단 불가(모델 불신)",
+        "price_label": "판단 유보(모델 불신)",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "관찰 — 가격 판단 불가(모델 불신)",
         "price_label": "판단 유보(모델 불신)",
         "excess_vs_sector_20d_pct": null
@@ -622,7 +680,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "신규 접근 중지",
         "price_label": "적정",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": 6.25
       },
       {
         "date": "2026-10-16",
@@ -710,6 +768,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "관찰 — 보수가 아래(모델 밴드 하단)",
+        "price_label": "적정",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "관찰 — 보수가 아래(모델 밴드 하단)",
         "price_label": "적정",
         "excess_vs_sector_20d_pct": null
@@ -720,7 +784,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "관찰",
         "price_label": "저평가",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": 16.04
       },
       {
         "date": "2026-10-16",
@@ -811,6 +875,12 @@ const VERDICT_SCORECARD_DATA = {
         "final_tier": "관찰",
         "price_label": "저평가",
         "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
+        "final_tier": "관찰",
+        "price_label": "저평가",
+        "excess_vs_sector_20d_pct": null
       }
     ],
     "META": [
@@ -818,7 +888,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "관찰",
         "price_label": "적정",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -11.01
       },
       {
         "date": "2026-10-16",
@@ -909,6 +979,12 @@ const VERDICT_SCORECARD_DATA = {
         "final_tier": "추세 반전 대기",
         "price_label": "적정",
         "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
+        "final_tier": "추세 반전 대기",
+        "price_label": "저평가",
+        "excess_vs_sector_20d_pct": null
       }
     ],
     "TSLA": [
@@ -916,7 +992,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "신규 접근 중지",
         "price_label": "고평가",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": 15.14
       },
       {
         "date": "2026-10-16",
@@ -1004,6 +1080,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "신규 접근 중지",
+        "price_label": "고평가",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "신규 접근 중지",
         "price_label": "고평가",
         "excess_vs_sector_20d_pct": null
@@ -1014,7 +1096,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "눌림 대기",
         "price_label": "저평가",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -4.04
       },
       {
         "date": "2026-10-16",
@@ -1102,6 +1184,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "관찰",
+        "price_label": "적정",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "관찰",
         "price_label": "적정",
         "excess_vs_sector_20d_pct": null
@@ -1112,7 +1200,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "눌림 대기",
         "price_label": "적정",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": 14.32
       },
       {
         "date": "2026-10-16",
@@ -1200,6 +1288,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "눌림 대기",
+        "price_label": "저평가",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "눌림 대기",
         "price_label": "저평가",
         "excess_vs_sector_20d_pct": null
@@ -1210,7 +1304,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "관찰",
         "price_label": "적정",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -25.61
       },
       {
         "date": "2026-10-16",
@@ -1298,6 +1392,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "관찰",
+        "price_label": "판단 유보(모델 불신)",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "관찰",
         "price_label": "판단 유보(모델 불신)",
         "excess_vs_sector_20d_pct": null
@@ -1308,7 +1408,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "신규 접근 중지",
         "price_label": "적정",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -1.19
       },
       {
         "date": "2026-10-16",
@@ -1396,6 +1496,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "관찰",
+        "price_label": "적정",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "관찰",
         "price_label": "적정",
         "excess_vs_sector_20d_pct": null
@@ -1406,7 +1512,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "신규 접근 중지",
         "price_label": "적정",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": 2.68
       },
       {
         "date": "2026-10-16",
@@ -1494,6 +1600,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "신규 접근 중지",
+        "price_label": "판단 유보(모델 불신)",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "신규 접근 중지",
         "price_label": "판단 유보(모델 불신)",
         "excess_vs_sector_20d_pct": null
@@ -1504,7 +1616,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "관찰",
         "price_label": "고평가",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -4.39
       },
       {
         "date": "2026-10-16",
@@ -1595,6 +1707,12 @@ const VERDICT_SCORECARD_DATA = {
         "final_tier": "관찰",
         "price_label": "기대 대비 낮음",
         "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
+        "final_tier": "관찰",
+        "price_label": "기대 대비 낮음",
+        "excess_vs_sector_20d_pct": null
       }
     ],
     "PLTR": [
@@ -1602,7 +1720,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "신규 접근 중지",
         "price_label": "고평가",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -6.99
       },
       {
         "date": "2026-10-16",
@@ -1693,6 +1811,12 @@ const VERDICT_SCORECARD_DATA = {
         "final_tier": "관찰",
         "price_label": "기대와 부합",
         "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
+        "final_tier": "관찰",
+        "price_label": "기대와 부합",
+        "excess_vs_sector_20d_pct": null
       }
     ],
     "QCOM": [
@@ -1700,7 +1824,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "관찰",
         "price_label": "적정",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": 9.51
       },
       {
         "date": "2026-10-16",
@@ -1788,6 +1912,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "관찰",
+        "price_label": "적정",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "관찰",
         "price_label": "적정",
         "excess_vs_sector_20d_pct": null
@@ -1798,7 +1928,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "관찰",
         "price_label": "고평가",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -8.17
       },
       {
         "date": "2026-10-16",
@@ -1886,6 +2016,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "관찰",
+        "price_label": "기대 선반영 큼",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "관찰",
         "price_label": "기대 선반영 큼",
         "excess_vs_sector_20d_pct": null
@@ -1896,7 +2032,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "신규 접근 중지",
         "price_label": "적정",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -21.61
       },
       {
         "date": "2026-10-16",
@@ -1987,6 +2123,12 @@ const VERDICT_SCORECARD_DATA = {
         "final_tier": "관찰 — 가격 판단 불가(모델 불신)",
         "price_label": "판단 유보(모델 불신)",
         "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
+        "final_tier": "관찰 — 가격 판단 불가(모델 불신)",
+        "price_label": "판단 유보(모델 불신)",
+        "excess_vs_sector_20d_pct": null
       }
     ],
     "ASML": [
@@ -1994,7 +2136,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "관찰",
         "price_label": "적정",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": 0.55
       },
       {
         "date": "2026-10-16",
@@ -2085,6 +2227,12 @@ const VERDICT_SCORECARD_DATA = {
         "final_tier": "추세 반전 대기",
         "price_label": "저평가",
         "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
+        "final_tier": "추세 반전 대기",
+        "price_label": "저평가",
+        "excess_vs_sector_20d_pct": null
       }
     ],
     "LRCX": [
@@ -2092,7 +2240,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "관찰",
         "price_label": "적정",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -5.52
       },
       {
         "date": "2026-10-16",
@@ -2180,6 +2328,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "관찰",
+        "price_label": "적정",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "관찰",
         "price_label": "적정",
         "excess_vs_sector_20d_pct": null
@@ -2190,7 +2344,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "관찰",
         "price_label": "적정",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": 0.38
       },
       {
         "date": "2026-10-16",
@@ -2278,6 +2432,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "관찰",
+        "price_label": "적정",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "관찰",
         "price_label": "적정",
         "excess_vs_sector_20d_pct": null
@@ -2288,7 +2448,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "관찰",
         "price_label": "저평가",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -22.57
       },
       {
         "date": "2026-10-16",
@@ -2376,6 +2536,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "눌림 대기",
+        "price_label": "판단 유보 - 이익 정점 가능, 이력 부족",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "눌림 대기",
         "price_label": "판단 유보 - 이익 정점 가능, 이력 부족",
         "excess_vs_sector_20d_pct": null
@@ -2386,7 +2552,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "눌림 대기",
         "price_label": "저평가",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -2.47
       },
       {
         "date": "2026-10-16",
@@ -2474,6 +2640,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "관찰 — 가격 판단 불가(모델 불신)",
+        "price_label": "판단 유보(모델 불신)",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "관찰 — 가격 판단 불가(모델 불신)",
         "price_label": "판단 유보(모델 불신)",
         "excess_vs_sector_20d_pct": null
@@ -2484,7 +2656,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "관찰",
         "price_label": "적정",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": 19.49
       },
       {
         "date": "2026-10-16",
@@ -2572,6 +2744,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "관찰",
+        "price_label": "적정",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "관찰",
         "price_label": "적정",
         "excess_vs_sector_20d_pct": null
@@ -2582,7 +2760,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "관찰",
         "price_label": "저평가",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": 0.76
       },
       {
         "date": "2026-10-16",
@@ -2670,6 +2848,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "관찰",
+        "price_label": "저평가",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "관찰",
         "price_label": "저평가",
         "excess_vs_sector_20d_pct": null
@@ -2680,7 +2864,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "관찰",
         "price_label": "저평가",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -20.01
       },
       {
         "date": "2026-10-16",
@@ -2768,6 +2952,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "추세 반전 대기",
+        "price_label": "판단 유보(모델 불신)",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "추세 반전 대기",
         "price_label": "판단 유보(모델 불신)",
         "excess_vs_sector_20d_pct": null
@@ -2778,7 +2968,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "관찰",
         "price_label": "고평가",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -7.72
       },
       {
         "date": "2026-10-16",
@@ -2866,6 +3056,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "관찰",
+        "price_label": "비교 불가(컨센서스 1·2년차 방향 엇갈림)",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "관찰",
         "price_label": "비교 불가(컨센서스 1·2년차 방향 엇갈림)",
         "excess_vs_sector_20d_pct": null
@@ -2876,7 +3072,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "추세 반전 대기",
         "price_label": "적정",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -2.5
       },
       {
         "date": "2026-10-16",
@@ -2965,6 +3161,12 @@ const VERDICT_SCORECARD_DATA = {
       {
         "date": "2026-11-11",
         "final_tier": "추세 반전 대기",
+        "price_label": "적정",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
+        "final_tier": "관찰 — 보수가 아래(모델 밴드 하단)",
         "price_label": "적정",
         "excess_vs_sector_20d_pct": null
       }
@@ -2974,7 +3176,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "신규 접근 중지",
         "price_label": "적정",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -17.94
       },
       {
         "date": "2026-10-16",
@@ -3062,6 +3264,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "신규 접근 중지",
+        "price_label": "저평가",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "신규 접근 중지",
         "price_label": "저평가",
         "excess_vs_sector_20d_pct": null
@@ -3072,7 +3280,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "관찰",
         "price_label": "적정",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -11.72
       },
       {
         "date": "2026-10-16",
@@ -3160,6 +3368,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "추세 반전 대기",
+        "price_label": "적정",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "추세 반전 대기",
         "price_label": "적정",
         "excess_vs_sector_20d_pct": null
@@ -3170,7 +3384,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "관찰",
         "price_label": "적정",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -6.54
       },
       {
         "date": "2026-10-16",
@@ -3258,6 +3472,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "추세 반전 대기",
+        "price_label": "적정",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "추세 반전 대기",
         "price_label": "적정",
         "excess_vs_sector_20d_pct": null
@@ -3268,7 +3488,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "관찰",
         "price_label": "적정",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -6.68
       },
       {
         "date": "2026-10-16",
@@ -3356,6 +3576,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "관찰",
+        "price_label": "적정",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "관찰",
         "price_label": "적정",
         "excess_vs_sector_20d_pct": null
@@ -3366,7 +3592,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "관찰",
         "price_label": "적정",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -3.3
       },
       {
         "date": "2026-10-16",
@@ -3456,6 +3682,12 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-11-11",
         "final_tier": "관찰",
         "price_label": "저평가",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
+        "final_tier": "관찰",
+        "price_label": "적정",
         "excess_vs_sector_20d_pct": null
       }
     ],
@@ -3464,7 +3696,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "신규 접근 중지",
         "price_label": "저평가",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -32.03
       },
       {
         "date": "2026-10-16",
@@ -3552,6 +3784,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "신규 접근 중지",
+        "price_label": "저평가",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "신규 접근 중지",
         "price_label": "저평가",
         "excess_vs_sector_20d_pct": null
@@ -3562,7 +3800,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "관찰",
         "price_label": "저평가",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -10.87
       },
       {
         "date": "2026-10-16",
@@ -3650,6 +3888,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "관찰 — 가격 판단 불가(모델 불신)",
+        "price_label": "판단 유보(밴드 넓음)",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "관찰 — 가격 판단 불가(모델 불신)",
         "price_label": "판단 유보(밴드 넓음)",
         "excess_vs_sector_20d_pct": null
@@ -3660,7 +3904,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "추세 반전 대기",
         "price_label": "적정",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -10.45
       },
       {
         "date": "2026-10-16",
@@ -3750,6 +3994,12 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-11-11",
         "final_tier": "추세 반전 대기",
         "price_label": "저평가",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
+        "final_tier": "추세 반전 대기",
+        "price_label": "적정",
         "excess_vs_sector_20d_pct": null
       }
     ],
@@ -3758,7 +4008,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "관찰",
         "price_label": "적정",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -24.77
       },
       {
         "date": "2026-10-16",
@@ -3848,6 +4098,12 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-11-11",
         "final_tier": "관찰",
         "price_label": "저평가",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
+        "final_tier": "관찰",
+        "price_label": "적정",
         "excess_vs_sector_20d_pct": null
       }
     ],
@@ -3856,7 +4112,7 @@ const VERDICT_SCORECARD_DATA = {
         "date": "2026-10-15",
         "final_tier": "관찰",
         "price_label": "적정",
-        "excess_vs_sector_20d_pct": null
+        "excess_vs_sector_20d_pct": -10.62
       },
       {
         "date": "2026-10-16",
@@ -3944,6 +4200,12 @@ const VERDICT_SCORECARD_DATA = {
       },
       {
         "date": "2026-11-11",
+        "final_tier": "신규 접근 중지",
+        "price_label": "적정",
+        "excess_vs_sector_20d_pct": null
+      },
+      {
+        "date": "2026-11-12",
         "final_tier": "신규 접근 중지",
         "price_label": "적정",
         "excess_vs_sector_20d_pct": null
