@@ -2114,8 +2114,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1793980848.249649,
-    "_updated_label": "2026-11-13 02:28",
+    "_fetched_at": 1794585688.032664,
+    "_updated_label": "2026-11-14 01:01",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -2142,7 +2142,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1794504521.9357147,
+    "_yahoo_verified_at": 1794585709.5140383,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "TSM": {
@@ -5038,8 +5038,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1793980848.249649,
-    "_updated_label": "2026-11-13 02:28",
+    "_fetched_at": 1794585688.032664,
+    "_updated_label": "2026-11-14 01:01",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -5066,7 +5066,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1794504521.9357147,
+    "_yahoo_verified_at": 1794585709.5140383,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "AMAT": {
@@ -5532,16 +5532,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1794584681.451066,
-    "_updated_label": "2026-11-14 00:44"
+    "_fetched_at": 1794585688.032664,
+    "_updated_label": "2026-11-14 01:01"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1794584681.451066,
-    "_updated_label": "2026-11-14 00:44"
+    "_fetched_at": 1794585688.032664,
+    "_updated_label": "2026-11-14 01:01"
   },
   "ORCL": {
     "annual": [
