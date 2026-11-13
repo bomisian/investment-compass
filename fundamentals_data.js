@@ -221,8 +221,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 20.9,
     "name": "Amazon.com Inc",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1794504486.2447228,
-    "_updated_label": "2026-11-13 02:28"
+    "_fetched_at": 1794576739.6210349,
+    "_updated_label": "2026-11-13 22:32"
   },
   "TSM": {
     "forwardPE": 18.88111,
@@ -448,11 +448,11 @@ const FUNDAMENTALS_DATA = {
   },
   "AMD": {
     "forwardPE": 39.75855,
-    "peTTM": 120.6548,
-    "psTTM": 20.2322,
-    "pb": 13.4418,
-    "evEbitdaTTM": 99.9069,
-    "pfcfShareTTM": 130.2819,
+    "peTTM": 125.8873,
+    "psTTM": 21.1096,
+    "pb": 14.0247,
+    "evEbitdaTTM": 104.2412,
+    "pfcfShareTTM": 135.9319,
     "operatingMarginTTM": 17.72,
     "revenueGrowthTTMYoy": 41.87,
     "epsGrowthTTMYoy": 127.4,
@@ -467,12 +467,12 @@ const FUNDAMENTALS_DATA = {
     "quickRatioQuarterly": 1.7248,
     "longTermDebt/equityQuarterly": 0.1035,
     "totalDebt/totalEquityQuarterly": 0.1035,
-    "marketCapitalization": 919268.94,
+    "marketCapitalization": 959135.4,
     "52WeekHigh": 658.52,
     "52WeekLow": 188.22,
     "beta": 2.6306605,
     "avgPe3Y": 160.30326666666667,
-    "peDeviation3Y": -24.733411546198482,
+    "peDeviation3Y": -21.469285924304312,
     "perBandYears": 5,
     "perBandLow": 0.9272444577820754,
     "perBandHigh": 1.8850115901543587,
@@ -485,15 +485,15 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 10.89,
     "name": "Advanced Micro Devices, Inc.",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1794504486.2447228,
-    "_updated_label": "2026-11-13 02:28"
+    "_fetched_at": 1794576739.6210349,
+    "_updated_label": "2026-11-13 22:32"
   },
   "INTC": {
     "forwardPE": 36.93003,
-    "psTTM": 5.5353,
-    "pb": 2.885,
-    "evEbitdaTTM": 26.7518,
-    "pfcfShareTTM": 52.556,
+    "psTTM": 5.4222,
+    "pb": 2.826,
+    "evEbitdaTTM": 26.2479,
+    "pfcfShareTTM": 51.4816,
     "forwardPEG": 0.43922,
     "operatingMarginTTM": 2.89,
     "revenueGrowthTTMYoy": 12.08,
@@ -506,7 +506,7 @@ const FUNDAMENTALS_DATA = {
     "quickRatioQuarterly": 1.8586,
     "longTermDebt/equityQuarterly": 0.4031,
     "totalDebt/totalEquityQuarterly": 0.4363,
-    "marketCapitalization": 331523.12,
+    "marketCapitalization": 324745.97,
     "52WeekHigh": 142.35,
     "52WeekLow": 32.89,
     "beta": 2.4405332,
@@ -525,8 +525,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": -7.76,
     "name": "Intel Corp",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1794504486.2447228,
-    "_updated_label": "2026-11-13 02:28"
+    "_fetched_at": 1794576739.6210349,
+    "_updated_label": "2026-11-13 22:32"
   },
   "AMAT": {
     "forwardPE": 20.81932,
@@ -821,11 +821,11 @@ const FUNDAMENTALS_DATA = {
   },
   "MRVL": {
     "forwardPE": 30.06626,
-    "peTTM": 56.0706,
-    "psTTM": 15.6631,
-    "pb": 7.9875,
-    "evEbitdaTTM": 39.9589,
-    "pfcfShareTTM": 85.9187,
+    "peTTM": 54.6256,
+    "psTTM": 15.2594,
+    "pb": 7.7816,
+    "evEbitdaTTM": 38.9363,
+    "pfcfShareTTM": 83.7046,
     "forwardPEG": 0.55689,
     "operatingMarginTTM": 35.57,
     "revenueGrowthTTMYoy": 30.62,
@@ -838,7 +838,7 @@ const FUNDAMENTALS_DATA = {
     "quickRatioQuarterly": 2.461,
     "longTermDebt/equityQuarterly": 0.2678,
     "totalDebt/totalEquityQuarterly": 0.2678,
-    "marketCapitalization": 148020.73,
+    "marketCapitalization": 144206.22,
     "52WeekHigh": 329.88,
     "52WeekLow": 70.685,
     "beta": 2.2959352,
@@ -846,7 +846,7 @@ const FUNDAMENTALS_DATA = {
     "dividendPerShareTTM": 0.2409,
     "dividendGrowthRate5Y": -0.04,
     "avgPe3Y": 18.762133333333335,
-    "peDeviation3Y": 198.8498109667699,
+    "peDeviation3Y": 191.14812814463173,
     "perBandYears": 5,
     "perBandLow": 0.812330471997442,
     "perBandHigh": 4.5342469931377165,
@@ -859,8 +859,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 12.57,
     "name": "Marvell Technology, Inc.",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1794504486.2447228,
-    "_updated_label": "2026-11-13 02:28"
+    "_fetched_at": 1794576739.6210349,
+    "_updated_label": "2026-11-13 22:32"
   },
   "ASML": {
     "forwardPE": 30.59394,
@@ -949,8 +949,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 53.82,
     "name": "Lam Research Corporation",
     "theme": "반도체 장비",
-    "_fetched_at": 1794504486.2447228,
-    "_updated_label": "2026-11-13 02:28"
+    "_fetched_at": 1794576739.6210349,
+    "_updated_label": "2026-11-13 22:32"
   },
   "KLAC": {
     "forwardPE": 25.59516,
@@ -1076,7 +1076,7 @@ const FUNDAMENTALS_DATA = {
     "_updated_label": "2026-11-13 21:55"
   },
   "ANET": {
-    "forwardPE": 46.0478445122119,
+    "forwardPE": 47.36360985753554,
     "peTTM": 52.2908,
     "psTTM": 20.8986,
     "pb": 15.1086,
@@ -1114,8 +1114,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 33.29,
     "name": "Arista Networks, Inc.",
     "theme": "AI 네트워킹·광통신",
-    "_fetched_at": 1794504486.2447228,
-    "_updated_label": "2026-11-13 02:28"
+    "_fetched_at": 1794576739.6210349,
+    "_updated_label": "2026-11-13 22:32"
   },
   "COHR": {
     "forwardPE": 22.303379392515453,
