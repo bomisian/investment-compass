@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1794610886.0023859,
+  "generatedAt": 1794612828.1440294,
   "events": [
     {
       "id": "2f1db9d97810782c6765",
@@ -2682,7 +2682,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=722f80f26111e3533d6701c0b1a0c298ba5b8505ecbf072c34f89c894bd85851",
         "publishedAt": 1794579240,
-        "collectedAt": 1794591095.611574
+        "collectedAt": 1794612816.8227484
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11843,7 +11843,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=68030713a100993ded0e36573b0e9af250e5136cddd3e3f56643e8e6f8367f2d",
         "publishedAt": 1794463924,
-        "collectedAt": 1794591095.611574
+        "collectedAt": 1794612816.8227484
       },
       "confirmedFacts": [],
       "reportedClaims": [
