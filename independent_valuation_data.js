@@ -1086,8 +1086,8 @@ const INDEPENDENT_VALUATION_DATA = {
       "kind": "independent_value_dcf_scenario_engine",
       "asOf": "2026-11-13",
       "valuationAnchorDate": "2026-07-26",
-      "runId": "AMAT_REAL_20261113T083123905512",
-      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20261113T083123880640",
+      "runId": "AMAT_REAL_20261113T114542829136",
+      "scenarioFamilyId": "AMAT_SCEN_FAMILY_20261113T114542802262",
       "engineVersion": "amat_calc_engine v4 (2026-09-18, 모델 채택 검토) -- D&A/CapEx 비율 곡선을 FY2025 실측 대조로 조정(min(0.60,0.20+0.10*(i+1)) -> min(0.45,0.19+0.065*i)), 계산 결과가 달라짐(v3 대비). 과거 실행은 각자 저장된 code_snapshots로 그 시점 값 그대로 재현 가능.",
       "isReplayFixture": false,
       "px": 192.34021661989124,
@@ -1098,21 +1098,21 @@ const INDEPENDENT_VALUATION_DATA = {
           "growthY1": 0.31786838554334085,
           "roic": 0.18,
           "ntmValue": 40639107405.0,
-          "runId": "AMAT_REAL_20261113T083123890288"
+          "runId": "AMAT_REAL_20261113T114542812216"
         },
         "base": {
           "px": 192.34021661989124,
           "growthY1": 0.3868031877290268,
           "roic": 0.22,
           "ntmValue": 42764849900.0,
-          "runId": "AMAT_REAL_20261113T083123905512"
+          "runId": "AMAT_REAL_20261113T114542829136"
         },
         "optimistic": {
           "px": 204.14006827880328,
           "growthY1": 0.4557379899147129,
           "roic": 0.26,
           "ntmValue": 44890592395.0,
-          "runId": "AMAT_REAL_20261113T083123921582"
+          "runId": "AMAT_REAL_20261113T114542846811"
         }
       },
       "priorDeliveredPx": 129.13,
@@ -1281,7 +1281,7 @@ const INDEPENDENT_VALUATION_DATA = {
           "commercial_paper": null
         }
       },
-      "changeReasonVsPrevious": "시장가 변동($395.08→$380.95) (그 외 미세 변화는 생략: 1년차 성장률 소폭 변화(38.98%→38.68%, 표시 임계값 0.5%p 미만이라 주요 사유에서 생략))",
+      "changeReasonVsPrevious": "직전 실행과 입력값 동일(변경 없음)",
       "summaryCard": {
         "fairValueRangeLow": 179.7083322489179,
         "fairValueRangeHigh": 204.14006827880328,
@@ -1291,7 +1291,7 @@ const INDEPENDENT_VALUATION_DATA = {
         "currentPriceNote": "이 실행이 계산 당시 비교한 가격(위 asOf 시점) -- 화면을 여는 시점의 실시간 가격과 다를 수 있음",
         "diffVsCurrentPricePct": 98.0605090821316,
         "diffVsCurrentPriceLabel": "높음",
-        "inputChangeSummary": "시장가 변동($395.08→$380.95) (그 외 미세 변화는 생략: 1년차 성장률 소폭 변화(38.98%→38.68%, 표시 임계값 0.5%p 미만이라 주요 사유에서 생략))",
+        "inputChangeSummary": "직전 실행과 입력값 동일(변경 없음)",
         "dataStatusLevel": "최신_반영_완료",
         "dataStatusLabel": "최신 자료 반영 완료",
         "dataStatusDetail": "순부채: SEC 자동수집 성공(기준일 2026-07-26)",
@@ -1794,7 +1794,7 @@ const INDEPENDENT_VALUATION_DATA = {
       "updateStatus": {
         "attemptStatus": "SUCCESS",
         "failureType": null,
-        "attemptedAt": "2026-11-13T08:31:23.910972",
+        "attemptedAt": "2026-11-13T11:45:42.834517",
         "dataAsOf": "2026-11-12",
         "holdPrice": false,
         "reason": ""
