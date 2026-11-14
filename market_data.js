@@ -237,6 +237,15 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "SpaceX, in a historic first, catches upper stage of its Starship rocket",
+      "summary": "Starship Test Flight 15 marks the first time Elon Musk's company has tried to catch both the booster and upper stage of the rocket.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html",
+      "datetime": 1794691591,
+      "headlineKo": "SpaceX는 역사적으로 처음으로 스타쉽 로켓의 상단 단계를 포착했습니다.",
+      "summaryKo": "Starship Test Flight 15는 Elon Musk의 회사가 로켓의 부스터와 상단 단계를 모두 잡으려고 시도한 최초의 사례입니다."
+    },
+    {
       "headline": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
       "summary": "Despite the turbulence, the S&P 500 secured a weekly gain of 2.5%, while the tech-heavy Nasdaq added 2.3%.",
       "source": "CNBC",
@@ -334,27 +343,18 @@ const MARKET_DATA = {
       "datetime": 1794609282,
       "headlineKo": "미 공군, 영국 공군 기지 상공에서 의심되는 드론 활동에 대응 - 로이터 통신",
       "summaryKo": "미 공군, 영국 공군 기지 상공에서 의심되는 드론 활동에 대응 - 최신"
-    },
-    {
-      "headline": "Hackers stole $6.3 billion from Binance—2 habits that take 'a few seconds' can help you avoid similar traps",
-      "summary": "Researchers from the Digital Inquiry Group say that two habits that take just \"a few seconds up front\" can help keep you from being \"duped\" online.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/make-it/2026/11/13/binance-hack-2-online-habits-that-can-help-you-avoid-scams-.html",
-      "datetime": 1794607615,
-      "headlineKo": "해커들이 바이낸스에서 63억 달러를 훔쳤습니다. '몇 초'가 걸리는 2가지 습관은 유사한 함정을 피하는 데 도움이 될 수 있습니다",
-      "summaryKo": "Digital Inquiry Group의 연구원들은 \"앞으로 몇 초만 투자하면\" 온라인에서 \"속는\" 일을 방지하는 데 도움이 되는 두 가지 습관이 있다고 말합니다."
     }
   ],
   "_news_collection_status": "ok",
-  "_news_last_success_at": 1794689814.4928231,
+  "_news_last_success_at": 1794693742.234353,
   "fgi": {
     "score": 38.6,
     "rating": "fear"
   },
-  "_fetched_at": 1794689807.1391542,
-  "_updated_label": "2026-11-15 05:57",
-  "_last_attempt_at": 1794689807.1391542,
-  "_last_success_at": 1794689807.1391542,
+  "_fetched_at": 1794693734.4778748,
+  "_updated_label": "2026-11-15 07:02",
+  "_last_attempt_at": 1794693734.4778748,
+  "_last_success_at": 1794693734.4778748,
   "_collection_status": "ok",
   "_collection_errors": []
 };
